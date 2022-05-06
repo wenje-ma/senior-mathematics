@@ -1,0 +1,425 @@
+# week22
+
+> **定义 6.1.7 (相等向量)**
+> 
+> 长度相等且方向相同的向量叫做相等向量.
+
+> **定义 6.2.1 (向量加法的三角形法则)**
+> 
+> 已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+
+> **定义 6.2.2 (平行四边形法则)**
+> 
+> 已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
+
+> **定义 6.2.4 (全排列与阶乘)**
+> 
+> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+
+> **定义 6.2.5 (向量的减法)**
+> 
+> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+
+> **定义 6.2.6 (向量的数乘)**
+> 
+> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+
+> **定义 6.2.11 (向量的数量积)**
+> 
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+
+## 练习一
+
+(练习 6.2 第 6 题) 如下页图, 在各小题中, 已知 $\boldsymbol{a}$, $\boldsymbol{b}$, 分别求作 $\boldsymbol{a}-\boldsymbol{b}$.
+
+### 解答 练习一
+
+由**定义 6.2.5 (向量的减法)**, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$. 将 $\boldsymbol{b}$ 反向后与 $\boldsymbol{a}$ 用三角形法则相加, 或从同一起点作 $\boldsymbol{a}$, $\boldsymbol{b}$, 则从 $\boldsymbol{b}$ 的终点指向 $\boldsymbol{a}$ 的终点的向量即为 $\boldsymbol{a}-\boldsymbol{b}$.
+
+$\blacksquare$
+
+## 练习二
+
+(练习 6.2 第 7 题) 填空.
+
+$\boldsymbol{AB}-\boldsymbol{AD}=\;\_\_\;$; $\boldsymbol{BA}-\boldsymbol{BC}=\;\_\_\;$; $\boldsymbol{BC}-\boldsymbol{BA}=\;\_\_\;$; $\boldsymbol{OD}-\boldsymbol{OA}=\;\_\_\;$; $\boldsymbol{OA}-\boldsymbol{OB}=\;\_\_\;$.
+
+### 解答 练习二
+
+由**定义 6.2.5 (向量的减法)**, 同一起点的两向量之差等于从减向量终点指向被减向量终点的向量.
+
+$\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{BC}=\boldsymbol{CA}$; $\boldsymbol{BC}-\boldsymbol{BA}=\boldsymbol{AC}$; $\boldsymbol{OD}-\boldsymbol{OA}=\boldsymbol{AD}$; $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{BA}$.
+
+$\blacksquare$
+
+## 练习三
+
+(练习 6.2 第 8 题) 作图验证: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
+
+图:先以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 及其和 $\boldsymbol{a}+\boldsymbol{b}$,再画出相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$;另画 $-\boldsymbol{a}$ 与 $-\boldsymbol{b}$ 并用三角形法则相加,两作图结果重合,验证 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
+
+### 解答 练习三
+
+由**定义 6.2.4 (全排列与阶乘)** 与**定义 6.2.5 (向量的减法)**.
+
+先作 $\boldsymbol{a}+\boldsymbol{b}$, 再作其相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$. 另一方面, 分别作 $-\boldsymbol{a}$ 和 $-\boldsymbol{b}$, 再用三角形法则相加. 由作图可见两结果重合, 故 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
+
+$\blacksquare$
+
+## 练习四
+
+(练习 6.2 第 9 题) 任画一向量 $\boldsymbol{e}$, 分别求作向量 $\boldsymbol{a}=4\boldsymbol{e}$, $\boldsymbol{b}=-4\boldsymbol{e}$.
+
+### 解答 练习四
+
+由**定义 6.2.6 (向量的数乘)**, $4\boldsymbol{e}$ 方向与 $\boldsymbol{e}$ 相同, 长度为 $\boldsymbol{e}$ 的 $4$ 倍; $-4\boldsymbol{e}$ 方向与 $\boldsymbol{e}$ 相反, 长度为 $\boldsymbol{e}$ 的 $4$ 倍.
+
+$\blacksquare$
+
+## 练习五
+
+(练习 6.2 第 10 题) 点 $C$ 在线段 $AB$ 上, 且 $\frac{AC}{CB}=\frac{5}{2}$, 则 $\boldsymbol{AC}=\;\_\_\;\boldsymbol{AB}$, $\boldsymbol{BC}=\;\_\_\;\boldsymbol{AB}$.
+
+### 解答 练习五
+
+由**定义 6.2.6 (向量的数乘)** 与**定理 6.2.8 (共线向量定理)**.
+
+$AC:CB=5:2$, 故 $AC=\frac{5}{7}AB$, $CB=\frac{2}{7}AB$, 方向与 $\boldsymbol{AB}$ 相同. 故 $\boldsymbol{AC}=\frac{5}{7}\boldsymbol{AB}$. $\boldsymbol{BC}$ 与 $\boldsymbol{AB}$ 方向相反, 故 $\boldsymbol{BC}=-\frac{2}{7}\boldsymbol{AB}$.
+
+$\blacksquare$
+
+## 练习六
+
+(练习 6.2 第 11 题) 把下列各小题中的向量 $\boldsymbol{b}$ 表示为实数与向量 $\boldsymbol{a}$ 的积.
+
+(1) $\boldsymbol{a}=3\boldsymbol{e}$, $\boldsymbol{b}=6\boldsymbol{e}$;
+
+(2) $\boldsymbol{a}=8\boldsymbol{e}$, $\boldsymbol{b}=-14\boldsymbol{e}$;
+
+(3) $\boldsymbol{a}=-\frac{2}{3}\boldsymbol{e}$, $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}$;
+
+(4) $\boldsymbol{a}=-\frac{3}{4}\boldsymbol{e}$, $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}$.
+
+### 解答 练习六
+
+由**定义 6.2.6 (向量的数乘)**.
+
+(1) $\boldsymbol{b}=6\boldsymbol{e}=2\cdot\left(3\boldsymbol{e}\right)=2\boldsymbol{a}$.
+
+(2) $\boldsymbol{b}=-14\boldsymbol{e}=-\frac{14}{8}\cdot\left(8\boldsymbol{e}\right)=-\frac{7}{4}\boldsymbol{a}$.
+
+(3) $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}=-\frac{1}{2}\cdot\left(-\frac{2}{3}\boldsymbol{e}\right)=-\frac{1}{2}\boldsymbol{a}$.
+
+(4) $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}=\frac{8}{9}\cdot\left(-\frac{3}{4}\boldsymbol{e}\right)=\frac{8}{9}\boldsymbol{a}$.
+
+$\blacksquare$
+
+## 练习七
+
+(练习 6.2 第 12 题) 判断下列各小题中的向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 是否共线.
+
+(1) $\boldsymbol{a}=-2\boldsymbol{e}$, $\boldsymbol{b}=2\boldsymbol{e}$;
+
+(2) $\boldsymbol{a}=\boldsymbol{e}_1-\boldsymbol{e}_2$, $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2$.
+
+### 解答 练习七
+
+由**定理 6.2.8 (共线向量定理)**, 存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$ 则共线.
+
+(1) $\boldsymbol{b}=2\boldsymbol{e}=-\left(-2\boldsymbol{e}\right)=-\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线.
+
+(2) $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2=-2\left(\boldsymbol{e}_1-\boldsymbol{e}_2\right)=-2\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线.
+
+$\blacksquare$
+
+## 练习八
+
+(练习 6.2 第 13 题) 化简.
+
+(1) $5\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
+
+(2) $\frac{1}{3}\left(\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{4}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
+
+(3) $\left(x+y\right)\boldsymbol{a}-\left(x-y\right)\boldsymbol{a}$.
+
+### 解答 练习八
+
+由**常用结论 6.2.7** (数乘的运算律).
+
+(1) 原式 $=15\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=3\boldsymbol{a}-2\boldsymbol{b}$.
+
+(2) 原式 $=\frac{1}{3}\boldsymbol{a}-\frac{2}{3}\boldsymbol{b}-\frac{3}{4}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(\frac{1}{3}-\frac{3}{4}-\frac{1}{2}\right)\boldsymbol{a}+\left(-\frac{2}{3}+\frac{1}{2}+\frac{1}{2}\right)\boldsymbol{b}=-\frac{11}{12}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
+
+(3) 原式 $=\left(x+y-x+y\right)\boldsymbol{a}=2y\boldsymbol{a}$.
+
+$\blacksquare$
+
+## 练习九
+
+(练习 6.2 第 14 题) 已知 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量, $\boldsymbol{a}=\boldsymbol{e}_1-2\boldsymbol{e}_2$, $\boldsymbol{b}=2\boldsymbol{e}_1+k\boldsymbol{e}_2$. 若 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 是共线向量, 求实数 $k$ 的值.
+
+### 解答 练习九
+
+由**定理 6.2.8 (共线向量定理)**, 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+
+$2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{e}_2\right)=\lambda\boldsymbol{e}_1-2\lambda\boldsymbol{e}_2$.
+
+比较系数: $2=\lambda$, $k=-2\lambda=-4$. 故 $k=-4$.
+
+$\blacksquare$
+
+## 练习十
+
+(练习 6.2 第 15 题) 已知 $\lvert\boldsymbol{p}\rvert=8$, $\lvert\boldsymbol{q}\rvert=6$, $\boldsymbol{p}$ 和 $\boldsymbol{q}$ 的夹角是 $60^{\circ}$, 求 $\boldsymbol{p}\cdot\boldsymbol{q}$.
+
+### 解答 练习十
+
+由**定义 6.2.11 (向量的数量积)**, $\boldsymbol{p}\cdot\boldsymbol{q}=\lvert\boldsymbol{p}\rvert\lvert\boldsymbol{q}\rvert\cos\theta=8\times6\times\cos60^{\circ}=48\times\frac{1}{2}=24$.
+
+$\blacksquare$
+
+## 练习十一
+
+(练习 6.2 第 16 题) 已知 $\triangle{A}BC$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 当 $\boldsymbol{a}\cdot\boldsymbol{b}<0$ 或 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, 试判断 $\triangle{A}BC$ 的形状.
+
+### 解答 练习十一
+
+由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时 $\boldsymbol{a}\perp\boldsymbol{b}$.
+
+当 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, $\boldsymbol{AB}\perp\boldsymbol{AC}$, $\angle{A}=90^{\circ}$, $\triangle{A}BC$ 为直角三角形.
+
+当 $\boldsymbol{a}\cdot\boldsymbol{b}<0$ 时, $\cos{A}<0$, $A>90^{\circ}$, $\triangle{A}BC$ 为钝角三角形.
+
+$\blacksquare$
+
+## 练习十二
+
+(练习 6.2 第 17 题) 已知 $\lvert\boldsymbol{a}\rvert=6$, $\boldsymbol{e}$ 为单位向量, 当向量 $\boldsymbol{a}$, $\boldsymbol{e}$ 的夹角 $\theta$ 分别等于 $45^{\circ}$, $90^{\circ}$, $135^{\circ}$ 时, 求向量 $\boldsymbol{a}$ 在向量 $\boldsymbol{e}$ 上的投影向量.
+
+### 解答 练习十二
+
+由**常用结论 6.2.12** (投影向量), 投影向量为 $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
+
+$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt2\,\boldsymbol{e}$.
+
+$\theta=90^{\circ}$: $6\cos90^{\circ}\,\boldsymbol{e}=\boldsymbol{0}$.
+
+$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt2\,\boldsymbol{e}$.
+
+$\blacksquare$
+
+## 练习十三
+
+(练习 6.2 第 18 题) 已知 $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=2$, $\lvert\boldsymbol{c}\rvert=3$, 向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $\frac{\pi}{6}$, 向量 $\boldsymbol{b}$ 与 $\boldsymbol{c}$ 的夹角为 $\frac{\pi}{4}$, 计算:
+
+(1) $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}$;
+
+(2) $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)$.
+
+### 解答 练习十三
+
+由**定义 6.2.11 (向量的数量积)**.
+
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt3$. 故 $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt3\,\boldsymbol{c}$.
+
+(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt2$. 故 $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt2\,\boldsymbol{a}$.
+
+$\blacksquare$
+
+## 练习十四
+
+(练习 6.2 第 19 题) 已知 $\lvert\boldsymbol{a}\rvert=\sqrt2$, $\lvert\boldsymbol{b}\rvert=1$, 且 $\boldsymbol{a}-\boldsymbol{b}$ 与 $\boldsymbol{a}+2\boldsymbol{b}$ 互相垂直, 求证 $\boldsymbol{a}\perp\boldsymbol{b}$.
+
+### 解答 练习十四
+
+由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+2\boldsymbol{b}\right)=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=0$.
+
+代入 $\lvert\boldsymbol{a}\rvert^2=2$, $\lvert\boldsymbol{b}\rvert^2=1$, 得 $2+\boldsymbol{a}\cdot\boldsymbol{b}-2=0$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=0$. 故 $\boldsymbol{a}\perp\boldsymbol{b}$.
+
+$\blacksquare$
+
+## 练习十五
+
+(练习 6.2 第 20 题) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
+
+### 解答 练习十五
+
+由**常用结论 6.2.14** (数量积的运算律).
+
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+两式相减得 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
+
+$\blacksquare$
+
+## 习题一
+
+(习题 6.2 复习巩固第 1 题) 如果 $\boldsymbol{a}$ 表示 "向东走 $10\text{~km}$", $\boldsymbol{b}$ 表示 "向西走 $5\text{~km}$", $\boldsymbol{c}$ 表示 "向北走 $10\text{~km}$", $\boldsymbol{d}$ 表示 "向南走 $5\text{~km}$", 那么下列向量具有什么意义?
+
+(1) $\boldsymbol{a}+\boldsymbol{a}$; (2) $\boldsymbol{a}+\boldsymbol{b}$; (3) $\boldsymbol{a}+\boldsymbol{c}$; (4) $\boldsymbol{b}+\boldsymbol{d}$; (5) $\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{b}$; (6) $\boldsymbol{d}+\boldsymbol{a}+\boldsymbol{d}$.
+
+### 解答 习题一
+
+由**定义 6.2.1 (向量加法的三角形法则)** 与**常用结论 6.2.3** (运算律).
+
+(1) 向东走 $20\text{~km}$.
+
+(2) 向东走 $5\text{~km}$.
+
+(3) 向东北方向走, 东 $10\text{~km}$, 北 $10\text{~km}$.
+
+(4) 向西南方向走, 西 $5\text{~km}$, 南 $5\text{~km}$.
+
+(5) 向西走 $10\text{~km}$ 再向北走 $10\text{~km}$, 即西北方向.
+
+(6) 向南走 $10\text{~km}$ 再向东走 $10\text{~km}$, 即东南方向.
+
+$\blacksquare$
+
+## 习题二
+
+(习题 6.2 复习巩固第 2 题) 一架飞机向北飞行 $300\text{~km}$, 然后改变方向向西飞行 $400\text{~km}$, 求飞机飞行的路程及两次位移的合成.
+
+### 解答 习题二
+
+由**定义 6.2.1 (向量加法的三角形法则)**.
+
+路程为 $300+400=700\text{~km}$. 两次位移合成的大小为 $\sqrt{300^2+400^2}=500\text{~km}$, 方向为北偏西 $\arctan\frac{400}{300}\approx53.1^{\circ}$.
+
+$\blacksquare$
+
+## 习题三
+
+(习题 6.2 复习巩固第 3 题) 一艘船垂直于对岸航行, 航行速度的大小为 $16\text{~km/h}$, 同时河水流速的大小为 $4\text{~km/h}$. 求船实际航行的速度的大小与方向 (精确到 $1^{\circ}$).
+
+### 解答 习题三
+
+由**定义 6.2.2 (平行四边形法则)**.
+
+船速垂直河岸 $16\text{~km/h}$, 水速沿岸 $4\text{~km/h}$. 合速度大小为 $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{~km/h}$. 方向与河岸垂线的夹角 $\theta$ 满足 $\tan\theta=\frac{4}{16}=\frac{1}{4}$, $\theta\approx14^{\circ}$.
+
+$\blacksquare$
+
+## 习题四
+
+(习题 6.2 复习巩固第 4 题) 化简.
+
+(1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
+
+(2) $\left(\boldsymbol{AB}+\boldsymbol{MB}\right)+\boldsymbol{BO}+\boldsymbol{OM}$;
+
+(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}$;
+
+(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}$;
+
+(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}$;
+
+(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}$;
+
+(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}$.
+
+### 解答 习题四
+
+由**定义 6.2.1 (向量加法的三角形法则)** 与**定义 6.2.5 (向量的减法)**.
+
+(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 再加 $\boldsymbol{CA}$ 得 $\boldsymbol{0}$.
+
+(2) $\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}=\boldsymbol{AB}+\left(\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}\right)=\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BM}=\boldsymbol{AB}$.
+
+(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}=\left(\boldsymbol{OA}+\boldsymbol{BO}\right)+\left(\boldsymbol{OC}+\boldsymbol{CO}\right)=\boldsymbol{OA}+\boldsymbol{BO}=\boldsymbol{BA}$.
+
+(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}=\boldsymbol{CB}+\boldsymbol{BD}+\boldsymbol{DC}=\boldsymbol{CB}+\boldsymbol{BC}=\boldsymbol{0}$.
+
+(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}=\boldsymbol{DA}+\boldsymbol{AD}=\boldsymbol{0}$.
+
+(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}=\boldsymbol{DB}-\boldsymbol{DC}=\boldsymbol{CB}$.
+
+(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}=\boldsymbol{NP}+\boldsymbol{MN}+\boldsymbol{PM}=\boldsymbol{MN}+\boldsymbol{NP}+\boldsymbol{PM}=\boldsymbol{0}$.
+
+$\blacksquare$
+
+## 习题五
+
+(习题 6.2 复习巩固第 5 题) 作图验证:
+
+(1) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)+\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}$;
+
+(2) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{b}$.
+
+图:以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$,先作 $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$ 与 $\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$ 再相加得 $\boldsymbol{a}$;另一组作图将二者相减得 $\boldsymbol{b}$,验证两个恒等式.
+
+### 解答 习题五
+
+由**常用结论 6.2.7** (数乘的运算律).
+
+(1) 左边 $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}=\boldsymbol{a}=$ 右边.
+
+(2) 左边 $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\boldsymbol{b}=$ 右边.
+
+$\blacksquare$
+
+## 习题六
+
+(习题 6.2 复习巩固第 6 题)
+
+(1) 已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 求作向量 $\boldsymbol{c}$, 使 $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
+
+(2) (1) 中表示 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 的有向线段能构成三角形吗?
+
+### 解答 习题六
+
+由**定义 6.2.1 (向量加法的三角形法则)**.
+
+(1) 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则 $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$. 取 $\boldsymbol{c}=-\boldsymbol{AC}$, 即从 $C$ 指向 $A$ 的向量, 则 $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
+
+(2) 三条有向线段首尾相接构成三角形.
+
+$\blacksquare$
+
+## 习题七
+
+(习题 6.2 复习巩固第 7 题) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$ 为两个非零向量.
+
+(1) 求作向量 $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$;
+
+(2) 当向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 成什么位置关系时, 满足 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$? (不要求证明)
+
+### 解答 习题七
+
+由**定义 6.2.1 (向量加法的三角形法则)** 与**定义 6.2.5 (向量的减法)**.
+
+(1) 略.
+
+(2) 由 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}\right)^2$ 展开得 $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$. 故当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 垂直时满足.
+
+$\blacksquare$
+
+## 习题八
+
+(习题 6.2 复习巩固第 8 题) 化简.
+
+(1) $5\left(2\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
+
+(2) $6\left(\boldsymbol{a}-3\boldsymbol{b}+\boldsymbol{c}\right)-4\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$;
+
+(3) $\frac{1}{2}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+5\boldsymbol{a}-\frac{1}{3}\left(6\boldsymbol{a}-9\boldsymbol{b}\right)$;
+
+(4) $\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(x-y\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+
+### 解答 习题八
+
+由**常用结论 6.2.7** (数乘的运算律).
+
+(1) 原式 $=10\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=-2\boldsymbol{a}-2\boldsymbol{b}$.
+
+(2) 原式 $=6\boldsymbol{a}-18\boldsymbol{b}+6\boldsymbol{c}+4\boldsymbol{a}-4\boldsymbol{b}+4\boldsymbol{c}=10\boldsymbol{a}-22\boldsymbol{b}+10\boldsymbol{c}$.
+
+(3) 原式 $=\frac{3}{2}\boldsymbol{a}-\boldsymbol{b}+5\boldsymbol{a}-2\boldsymbol{a}+3\boldsymbol{b}=\frac{9}{2}\boldsymbol{a}+2\boldsymbol{b}$.
+
+(4) 原式 $=\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{a}+\boldsymbol{b}\right)=2\left(x-y\right)\boldsymbol{b}$.
+
+$\blacksquare$
