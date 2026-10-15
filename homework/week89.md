@@ -19,7 +19,7 @@ $$
 > **常用结论 8.2.3** (最小二乘估计公式) <br>由最小二乘法可得
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\qquad \hat a=\bar y-\hat b\bar x.
+\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
 $$
 
 > **定义 8.2.4** (经验回归方程) <br>由最小二乘估计得到的方程
@@ -127,7 +127,7 @@ $$
 由表 $8.1-1$ 中的 $14$ 对数据, 计算得
 
 $$
-\bar x\approx 48.07,\qquad \bar y\approx 27.26.
+\bar x\approx 48.07,\quad \bar y\approx 27.26.
 $$
 
 由**常用结论 8.2.3** (最小二乘估计公式),
@@ -253,7 +253,7 @@ $\blacksquare$
 (2) 由数据计算得年份均值 $\bar x=2007.5$, $\mathrm{GDP}$ 均值 $\bar y=308251.4$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 45172.8,\qquad \hat a\approx -90376168.
+\hat b\approx 45172.8,\quad \hat a\approx -90376168.
 $$
 
 故 $\mathrm{GDP}$ 关于年份的经验回归方程为
@@ -313,7 +313,7 @@ $$
 (2) 由数据计算得 $\bar x=55$, $\bar y=91.7$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 0.668,\qquad \hat a\approx 54.93.
+\hat b\approx 0.668,\quad \hat a\approx 54.93.
 $$
 
 故由**定义 8.2.4** (经验回归方程), 经验回归方程为
@@ -345,7 +345,7 @@ $$
 (1) 由例 $2$ 中 $10$ 对数据计算得, 居民年收入均值 $\bar x=38.96$, $A$ 商品销售额均值 $\bar y=39.1$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 1.447,\qquad \hat a\approx -15.84.
+\hat b\approx 1.447,\quad \hat a\approx -15.84.
 $$
 
 故由**定义 8.2.4** (经验回归方程), $A$ 商品销售额关于居民年收入的经验回归方程为
@@ -385,7 +385,7 @@ $$
 (2) 由表中数据计算得年份均值 $\bar x\approx 1985.6$, 人口总数均值 $\bar y\approx 103511$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 1249.2,\qquad \hat a\approx -2375604.
+\hat b\approx 1249.2,\quad \hat a\approx -2375604.
 $$
 
 故由**定义 8.2.4** (经验回归方程), 人口总数关于年份的经验回归方程为
@@ -423,7 +423,7 @@ $$
 对表中各数据取常用对数, 得 $Y_i=\lg N_i$. 由数据计算得 $\bar x=5.0$, $\bar Y\approx 2.95$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx -0.74,\qquad \hat a\approx 6.70.
+\hat b\approx -0.74,\quad \hat a\approx 6.70.
 $$
 
 故由**定义 8.2.4** (经验回归方程),

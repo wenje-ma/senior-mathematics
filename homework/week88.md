@@ -96,7 +96,7 @@ $$
 由数据得
 
 $$
-\bar x=\frac{2+3+5}{3}=\frac{10}{3},\qquad \bar y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
+\bar x=\frac{2+3+5}{3}=\frac{10}{3},\quad \bar y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
 $$
 
 由**定义 8.1.5** (样本相关系数),
@@ -106,7 +106,7 @@ $$
 $$
 
 $$
-\sum_{i=1}^{3}\left(x_i-\bar x\right)^2=\frac{14}{3},\qquad \sum_{i=1}^{3}\left(y_i-\bar y\right)^2=42.
+\sum_{i=1}^{3}\left(x_i-\bar x\right)^2=\frac{14}{3},\quad \sum_{i=1}^{3}\left(y_i-\bar y\right)^2=42.
 $$
 
 故

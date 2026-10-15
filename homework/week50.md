@@ -111,13 +111,13 @@ $$
 (3) 比较系数求 $t_1$, $t_2$. 另一方面, 由**定义 6.2.5** (向量的减法), $\boldsymbol{BC}=\boldsymbol{OC}-\boldsymbol{OB}=-\boldsymbol{OB}+\boldsymbol{OC}$. 由**定理 6.3.1** (平面向量基本定理), 同一向量在基底 $\boldsymbol{OB}$, $\boldsymbol{OC}$ 下的分解是唯一的, 故对应系数相等, 得
 
 $$
-2(t_1-1)=-1,\qquad -2(t_2-1)=1.
+2(t_1-1)=-1,\quad -2(t_2-1)=1.
 $$
 
 解得 $t_1=\frac{1}{2}$, $t_2=\frac{1}{2}$. 于是
 
 $$
-\boldsymbol{EO}=\frac{1}{2}\boldsymbol{OB},\qquad \boldsymbol{FO}=\frac{1}{2}\boldsymbol{OC}.
+\boldsymbol{EO}=\frac{1}{2}\boldsymbol{OB},\quad \boldsymbol{FO}=\frac{1}{2}\boldsymbol{OC}.
 $$
 
 (4) 证明 $A$, $O$, $D$ 三点共线. 由**定义 6.2.1** (向量加法的三角形法则), 并注意到 $F$ 为 $AB$ 的中点, $\boldsymbol{AF}=\boldsymbol{FB}$, 得

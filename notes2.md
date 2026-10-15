@@ -55,13 +55,13 @@ $$
 交换律: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; 结合律:
 
 $$
-(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c}),\qquad \mu(\lambda\boldsymbol{a})=(\mu\lambda)\boldsymbol{a};
+(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c}),\quad \mu(\lambda\boldsymbol{a})=(\mu\lambda)\boldsymbol{a};
 $$
 
 分配律:
 
 $$
-(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a},\qquad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
+(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a},\quad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
 $$
 
 **常用结论 1.1.7** (向量共线的充要条件)
@@ -103,7 +103,7 @@ $$
 当 $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$ 时,
 
 $$
-\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b} = 0;\qquad \boldsymbol{a} \cdot \boldsymbol{a} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{a} \rvert \cos 0 = \lvert \boldsymbol{a} \rvert^2.
+\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b} = 0;\quad \boldsymbol{a} \cdot \boldsymbol{a} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{a} \rvert \cos 0 = \lvert \boldsymbol{a} \rvert^2.
 $$
 
 $\boldsymbol{a} \cdot \boldsymbol{a}$ 也记作 $\boldsymbol{a}^2$.
@@ -185,11 +185,11 @@ $$
 设 $\boldsymbol{a}=(a_1,a_2,a_3)$, $\boldsymbol{b}=(b_1,b_2,b_3)$, 则
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3),\qquad \boldsymbol{a}-\boldsymbol{b}=(a_1-b_1,a_2-b_2,a_3-b_3),
+\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3),\quad \boldsymbol{a}-\boldsymbol{b}=(a_1-b_1,a_2-b_2,a_3-b_3),
 $$
 
 $$
-\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3),\ \lambda \in \mathbb R,\qquad \boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3.
+\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3),\ \lambda \in \mathbb R,\quad \boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3.
 $$
 
 一个空间向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
@@ -209,7 +209,7 @@ $$
 $$
 
 $$
-\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2};\qquad \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}.
+\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2};\quad \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}.
 $$
 
 **常用结论 1.3.6** (空间两点间的距离公式)
@@ -599,7 +599,7 @@ $$
 其他三种形式为
 
 $$
-y^2=-2px,\qquad x^2=2py,\qquad x^2=-2py\quad(p> 0).
+y^2=-2px,\quad x^2=2py,\quad x^2=-2py\quad(p> 0).
 $$
 
 **常用结论 3.3.3** (抛物线上点到焦点与准线距离)
@@ -961,7 +961,7 @@ $$
 **性质** (组合数的两个性质)
 
 $$
-\binom{n}{m}=\binom{n}{n-m};\qquad \binom{n+1}{m}=\binom{n}{m}+\binom{n}{m-1}.
+\binom{n}{m}=\binom{n}{n-m};\quad \binom{n+1}{m}=\binom{n}{m}+\binom{n}{m-1}.
 $$
 
 #### 6.3 二项式定理
@@ -1075,7 +1075,7 @@ $$
 设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P(B)> 0$, 有
 
 $$
-\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)},\qquad i=1,2,\cdots,n.
+\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)},\quad i=1,2,\cdots,n.
 $$
 
 #### 7.2 离散型随机变量及其分布列
@@ -1093,13 +1093,13 @@ $$
 设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称
 
 $$
-\mathbb P(X=x_i)=p_i,\qquad i=1,2,\cdots,n
+\mathbb P(X=x_i)=p_i,\quad i=1,2,\cdots,n
 $$
 
 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1)
 
 $$
-p_i\ge 0,\qquad i=1,2,\cdots,n;
+p_i\ge 0,\quad i=1,2,\cdots,n;
 $$
 
 (2)
@@ -1159,7 +1159,7 @@ $$
 在 $n$ 重伯努利试验中, 设每次试验中事件 $A$ 发生的概率为 $p$, 用 $X$ 表示事件 $A$ 发生的次数, 则
 
 $$
-\mathbb P(X=k)=\binom{n}{k} p^k (1-p)^{n-k},\qquad k=0,1,\cdots,n.
+\mathbb P(X=k)=\binom{n}{k} p^k (1-p)^{n-k},\quad k=0,1,\cdots,n.
 $$
 
 称 $X$ 服从二项分布, 记作 $X\sim B(n,p)$.
@@ -1169,7 +1169,7 @@ $$
 若 $X\sim B(n,p)$, 则
 
 $$
-\mathbb E(X)=np,\qquad D(X)=np(1-p).
+\mathbb E(X)=np,\quad D(X)=np(1-p).
 $$
 
 **定义 7.4.4** (超几何分布)
@@ -1177,7 +1177,7 @@ $$
 设有 $N$ 件产品, 其中含有 $M$ 件次品. 从中不放回地随机抽取 $n$ 件, 用 $X$ 表示抽取出的 $n$ 件产品中次品的件数, 则
 
 $$
-\mathbb P(X=k)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}},\qquad k=0,1,\cdots,\min(n,M).
+\mathbb P(X=k)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}},\quad k=0,1,\cdots,\min(n,M).
 $$
 
 称 $X$ 服从超几何分布.
@@ -1201,7 +1201,7 @@ $$
 正态密度函数为
 
 $$
-f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}},\qquad x\in\mathbb R,
+f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}},\quad x\in\mathbb R,
 $$
 
 其中 $\mu\in\mathbb R$, $\sigma> 0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N(\mu,\sigma^2)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
@@ -1221,7 +1221,7 @@ $$
 若 $X\sim N(\mu,\sigma^2)$, 则
 
 $$
-\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827,\qquad \mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545,\qquad \mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973.
+\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827,\quad \mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545,\quad \mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973.
 $$
 
 ### 第八章 成对数据的统计分析
@@ -1285,7 +1285,7 @@ $$
 由最小二乘法可得
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\qquad \hat a=\bar y-\hat b\bar x.
+\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
 $$
 
 **定义 8.2.4** (经验回归方程)

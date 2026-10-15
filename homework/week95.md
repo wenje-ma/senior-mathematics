@@ -19,7 +19,7 @@ $$
 > **常用结论 8.2.3** (最小二乘估计公式) <br>由最小二乘法可得
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\qquad \hat a=\bar y-\hat b\bar x.
+\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
 $$
 
 > **定义 8.2.4** (经验回归方程) <br>由最小二乘估计得到的方程 $\hat y=\hat b x+\hat a$ 称为 $y$ 关于 $x$ 的经验回归方程.
@@ -153,7 +153,7 @@ $$
 由例 $3$ 中 $25$ 名女大学生的身高与臂展数据, 计算得
 
 $$
-\bar x\approx 174.32,\qquad \bar y\approx 170.68.
+\bar x\approx 174.32,\quad \bar y\approx 170.68.
 $$
 
 由**常用结论 8.2.3** (最小二乘估计公式),

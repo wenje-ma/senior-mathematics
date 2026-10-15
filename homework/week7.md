@@ -229,7 +229,7 @@ $$
 由 $x,y>0$, $y,z>0$, $z,x>0$, 得
 
 $$
-x+y\ge2\sqrt{xy},\qquad y+z\ge2\sqrt{yz},\qquad z+x\ge2\sqrt{zx}.
+x+y\ge2\sqrt{xy},\quad y+z\ge2\sqrt{yz},\quad z+x\ge2\sqrt{zx}.
 $$
 
 三式相乘, 得

@@ -235,19 +235,19 @@ $$
 对于 $ax^2+bx+c> 0$ 或 $ax^2+bx+c< 0$ ($a> 0$), 设 $\Delta=b^2-4ac$, $x_1,x_2$ 是方程 $ax^2+bx+c=0$ 的两实根 ($x_1< x_2$). 当 $\Delta> 0$ 时, 有
 
 $$
-ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x< x_1\ \text{或}\ x> x_2\},\qquad ax^2+bx+c< 0\ \text{的解集为}\ \{x\mid x_1< x< x_2\};
+ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x< x_1\ \text{或}\ x> x_2\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \{x\mid x_1< x< x_2\};
 $$
 
 当 $\Delta=0$ 时, 有
 
 $$
-ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x\neq-\frac{b}{2a}\},\qquad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing;
+ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x\neq-\frac{b}{2a}\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing;
 $$
 
 当 $\Delta< 0$ 时, 有
 
 $$
-ax^2+bx+c> 0\ \text{的解集为}\ \mathbb R,\qquad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing.
+ax^2+bx+c> 0\ \text{的解集为}\ \mathbb R,\quad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing.
 $$
 
 对于二次项系数是负数的不等式, 先把二次项系数化成正数, 再求解.
@@ -365,7 +365,7 @@ $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
 对于任意有理数 $r,s$, 均有
 
 $$
-a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb Q),\qquad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb Q),\qquad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb Q).
+a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb Q),\quad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb Q),\quad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb Q).
 $$
 
 **常用结论 4.1.7** (无理数指数幂)
@@ -377,7 +377,7 @@ $$
 对于任意实数 $r,s$, 均有
 
 $$
-a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb R),\qquad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb R),\qquad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb R).
+a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb R),\quad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb R),\quad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb R).
 $$
 
 #### 4.2 指数函数
@@ -425,7 +425,7 @@ $$
 如果 $a> 0$, 且 $a\neq 1$, $M> 0$, $N> 0$, 那么
 
 $$
-\log_a(MN)=\log_a M+\log_a N,\qquad \log_a\frac{M}{N}=\log_a M-\log_a N,\qquad \log_a M^n=n\log_a M\quad(n\in\mathbb R).
+\log_a(MN)=\log_a M+\log_a N,\quad \log_a\frac{M}{N}=\log_a M-\log_a N,\quad \log_a M^n=n\log_a M\quad(n\in\mathbb R).
 $$
 
 **常用结论 4.3.5** (对数换底公式)
@@ -505,13 +505,13 @@ $$
 **常用结论** (角度与弧度的换算)
 
 $$
-360^{\circ}=2\pi\ \mathrm{rad},\qquad 180^{\circ}=\pi\ \mathrm{rad},\qquad 1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}\approx0.01745\ \mathrm{rad},\qquad 1\ \mathrm{rad}=\left(\frac{180}{\pi}\right)^{\circ}\approx57.30^{\circ}=57^{\circ}18'.
+360^{\circ}=2\pi\ \mathrm{rad},\quad 180^{\circ}=\pi\ \mathrm{rad},\quad 1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}\approx0.01745\ \mathrm{rad},\quad 1\ \mathrm{rad}=\left(\frac{180}{\pi}\right)^{\circ}\approx57.30^{\circ}=57^{\circ}18'.
 $$
 
 **常用结论** (扇形的弧长与面积公式)
 
 $$
-l=\alpha R,\qquad S=\frac{1}{2}\alpha R^{2},\qquad S=\frac{1}{2}lR,
+l=\alpha R,\quad S=\frac{1}{2}\alpha R^{2},\quad S=\frac{1}{2}lR,
 $$
 
 其中 $R$ 是圆的半径, $\alpha$ ($0< \alpha< 2\pi$) 为圆心角, $l$ 是扇形的弧长, $S$ 是扇形的面积.
@@ -551,13 +551,13 @@ $$
 设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $(x,y)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则
 
 $$
-\sin\alpha=\frac{y}{r},\qquad \cos\alpha=\frac{x}{r},\qquad \tan\alpha=\frac{y}{x}.
+\sin\alpha=\frac{y}{r},\quad \cos\alpha=\frac{x}{r},\quad \tan\alpha=\frac{y}{x}.
 $$
 
 **公式一** (终边相同的角的三角函数值)
 
 $$
-\sin(\alpha+k\cdot2\pi)=\sin\alpha,\qquad \cos(\alpha+k\cdot2\pi)=\cos\alpha,\qquad \tan(\alpha+k\cdot2\pi)=\tan\alpha,
+\sin(\alpha+k\cdot2\pi)=\sin\alpha,\quad \cos(\alpha+k\cdot2\pi)=\cos\alpha,\quad \tan(\alpha+k\cdot2\pi)=\tan\alpha,
 $$
 
 其中 $k\in\mathbb Z$.
@@ -571,7 +571,7 @@ $$
 同一个角 $\alpha$ 的正弦, 余弦的平方和等于 $1$, 商等于角 $\alpha$ 的正切, 即
 
 $$
-\sin^{2}\alpha+\cos^{2}\alpha=1,\qquad \frac{\sin\alpha}{\cos\alpha}=\tan\alpha\quad(\alpha\neq k\pi+\frac{\pi}{2},\ k\in\mathbb Z).
+\sin^{2}\alpha+\cos^{2}\alpha=1,\quad \frac{\sin\alpha}{\cos\alpha}=\tan\alpha\quad(\alpha\neq k\pi+\frac{\pi}{2},\ k\in\mathbb Z).
 $$
 
 #### 5.3 诱导公式
@@ -579,31 +579,31 @@ $$
 **公式二**
 
 $$
-\sin(\pi+\alpha)=-\sin\alpha,\qquad \cos(\pi+\alpha)=-\cos\alpha,\qquad \tan(\pi+\alpha)=\tan\alpha.
+\sin(\pi+\alpha)=-\sin\alpha,\quad \cos(\pi+\alpha)=-\cos\alpha,\quad \tan(\pi+\alpha)=\tan\alpha.
 $$
 
 **公式三**
 
 $$
-\sin(-\alpha)=-\sin\alpha,\qquad \cos(-\alpha)=\cos\alpha,\qquad \tan(-\alpha)=-\tan\alpha.
+\sin(-\alpha)=-\sin\alpha,\quad \cos(-\alpha)=\cos\alpha,\quad \tan(-\alpha)=-\tan\alpha.
 $$
 
 **公式四**
 
 $$
-\sin(\pi-\alpha)=\sin\alpha,\qquad \cos(\pi-\alpha)=-\cos\alpha,\qquad \tan(\pi-\alpha)=-\tan\alpha.
+\sin(\pi-\alpha)=\sin\alpha,\quad \cos(\pi-\alpha)=-\cos\alpha,\quad \tan(\pi-\alpha)=-\tan\alpha.
 $$
 
 **公式五**
 
 $$
-\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha,\qquad \cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha.
+\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha,\quad \cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha.
 $$
 
 **公式六**
 
 $$
-\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha,\qquad \cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha.
+\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha,\quad \cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha.
 $$
 
 #### 5.4 三角函数的图象与性质
@@ -691,7 +691,7 @@ $$
 **公式 5.5.10** (半角公式)
 
 $$
-\sin^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{2},\qquad \cos^{2}\frac{\alpha}{2}=\frac{1+\cos\alpha}{2},\qquad \tan^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}.
+\sin^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{2},\quad \cos^{2}\frac{\alpha}{2}=\frac{1+\cos\alpha}{2},\quad \tan^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}.
 $$
 
 **公式 5.5.11** (辅助角公式)
@@ -703,7 +703,7 @@ $$
 其中
 
 $$
-\cos\varphi=\frac{a}{\sqrt{a^{2}+b^{2}}},\qquad \sin\varphi=\frac{b}{\sqrt{a^{2}+b^{2}}}.
+\cos\varphi=\frac{a}{\sqrt{a^{2}+b^{2}}},\quad \sin\varphi=\frac{b}{\sqrt{a^{2}+b^{2}}}.
 $$
 
 #### 5.6 函数 $y=A\sin(\omega x+\varphi)$
@@ -814,7 +814,7 @@ $\omega x+\varphi$ 称为相位, $x=0$ 时的相位 $\varphi$ 称为初相.
 **常用结论 6.2.3** (向量加法的运算律与三角不等式)
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a};\qquad (\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c});\qquad \lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert,
+\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a};\quad (\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c});\quad \lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert,
 $$
 
 当且仅当 $\boldsymbol{a}$, $\boldsymbol{b}$ 中有一个是零向量或方向相同时等号成立.
@@ -834,7 +834,7 @@ $$
 **常用结论 6.2.7** (数乘的运算律)
 
 $$
-\lambda(\mu\boldsymbol{a})=(\lambda\mu)\boldsymbol{a};\qquad (\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a};\qquad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
+\lambda(\mu\boldsymbol{a})=(\lambda\mu)\boldsymbol{a};\quad (\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a};\quad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
 $$
 
 **定理 6.2.8** (共线向量定理)
@@ -870,19 +870,19 @@ $$
 **常用结论 6.2.13** (数量积的性质)
 
 $$
-\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta;\qquad \boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0;
+\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta;\quad \boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0;
 $$
 
 同向时 $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$, 反向时 $\boldsymbol{a}\cdot\boldsymbol{b}=-\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$;
 
 $$
-\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2;\qquad \lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert.
+\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2;\quad \lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert.
 $$
 
 **常用结论 6.2.14** (数量积的运算律)
 
 $$
-\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a};\qquad (\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b});\qquad (\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}.
+\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a};\quad (\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b});\quad (\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}.
 $$
 
 #### 6.3 平面向量基本定理及坐标表示
@@ -920,7 +920,7 @@ $$
 若 $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 则
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=(x_1+x_2,y_1+y_2),\qquad \boldsymbol{a}-\boldsymbol{b}=(x_1-x_2,y_1-y_2),\qquad \lambda\boldsymbol{a}=(\lambda x_1,\lambda y_1).
+\boldsymbol{a}+\boldsymbol{b}=(x_1+x_2,y_1+y_2),\quad \boldsymbol{a}-\boldsymbol{b}=(x_1-x_2,y_1-y_2),\quad \lambda\boldsymbol{a}=(\lambda x_1,\lambda y_1).
 $$
 
 一个向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
@@ -952,7 +952,7 @@ $$
 **常用结论 6.3.8** (模, 垂直与夹角的坐标表示)
 
 $$
-\lvert\boldsymbol{a}\rvert=\sqrt{x_1^2+y_1^2};\qquad \boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow x_1x_2+y_1y_2=0;\qquad \cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}.
+\lvert\boldsymbol{a}\rvert=\sqrt{x_1^2+y_1^2};\quad \boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow x_1x_2+y_1y_2=0;\quad \cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}.
 $$
 
 #### 6.4 平面向量的应用
@@ -966,13 +966,13 @@ $$
 三角形中任何一边的平方, 等于其他两边平方的和减去这两边与它们夹角的余弦的积的两倍. 即
 
 $$
-a^2=b^2+c^2-2bc\cos A,\qquad b^2=c^2+a^2-2ca\cos B,\qquad c^2=a^2+b^2-2ab\cos C.
+a^2=b^2+c^2-2bc\cos A,\quad b^2=c^2+a^2-2ca\cos B,\quad c^2=a^2+b^2-2ab\cos C.
 $$
 
 推论:
 
 $$
-\cos A=\frac{b^2+c^2-a^2}{2bc},\qquad \cos B=\frac{c^2+a^2-b^2}{2ca},\qquad \cos C=\frac{a^2+b^2-c^2}{2ab}.
+\cos A=\frac{b^2+c^2-a^2}{2bc},\quad \cos B=\frac{c^2+a^2-b^2}{2ca},\quad \cos C=\frac{a^2+b^2-c^2}{2ab}.
 $$
 
 **定理 6.4.3** (正弦定理)
@@ -1518,7 +1518,7 @@ $$
 若 $y_i=ax_i+b$ ($a,b$ 为常数, $i=1,\cdots,n$), $\bar x,\bar y$ 与 $s_x^2,s_y^2$ 分别为两组数据的平均数与方差, 则
 
 $$
-\bar y=a\bar x+b,\qquad s_y^2=a^2s_x^2,\qquad s_y=\lvert a\rvert\, s_x.
+\bar y=a\bar x+b,\quad s_y^2=a^2s_x^2,\quad s_y=\lvert a\rvert\, s_x.
 $$
 
 ### 第十章 概率
