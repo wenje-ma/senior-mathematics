@@ -1,0 +1,38 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week24: trigonometric models (24-1..24-4)
+draw1=function(){
+  t=seq(0,4,len=300)
+  plot(t,3*sin(pi*t),type="l",lwd=2,ylim=c(-3.5,3.5),xlab="t/s",ylab="y/cm")
+  abline(h=0,lty=3)
+}
+pdf("../figures/week24-1.pdf",width=4,height=4);draw1();dev.off()
+svglite::svglite("../figures/week24-1.svg",width=4,height=4);draw1();dev.off()
+draw2=function(){
+  t=seq(0,0.04,len=300)
+  plot(t,311*sin(100*pi*t),type="l",lwd=2,ylim=c(-350,350),xlab="t/s",ylab="U/V")
+  abline(h=0,lty=3);abline(h=311,lty=2);abline(h=-311,lty=2)
+}
+pdf("../figures/week24-2.pdf",width=4,height=4);draw2();dev.off()
+svglite::svglite("../figures/week24-2.svg",width=4,height=4);draw2();dev.off()
+draw3=function(){
+  f=function(t){u=t%%5.5;ifelse(u<4,3.7+0.8*u/4,4.5-0.8*(u-4)/1.5)}
+  t=seq(0,20,len=1000)
+  plot(t,f(t),type="l",lwd=2,ylim=c(4.6,3.4),xlab="t/day",ylab="m")
+  abline(h=0,v=0,lty=3)
+}
+pdf("../figures/week24-3.pdf",width=4,height=4);draw3();dev.off()
+svglite::svglite("../figures/week24-3.svg",width=4,height=4);draw3();dev.off()
+draw4=function(){
+  x=seq(0,365,len=200)
+  sunrise=6.0-1.3*sin(2*pi*(x-100)/365)
+  sunset=18.0+1.5*sin(2*pi*(x-100)/365)
+  plot(x,sunrise,type="l",lty=1,lwd=1.5,ylim=c(4,20),xlab="day",ylab="time/h")
+  lines(x,sunset,lty=2,lwd=1.5)
+  set.seed(1)
+  xs=seq(10,360,len=24)
+  points(xs,6.0-1.3*sin(2*pi*(xs-100)/365)+rnorm(24,0,0.1),pch=1)
+  points(xs,18.0+1.5*sin(2*pi*(xs-100)/365)+rnorm(24,0,0.15),pch=3)
+}
+pdf("../figures/week24-4.pdf",width=4,height=4);draw4();dev.off()
+svglite::svglite("../figures/week24-4.svg",width=4,height=4);draw4();dev.off()

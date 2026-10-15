@@ -1,0 +1,18 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week48-1: octahedron (faces labelled 1..8) wireframe projection (Exercise 10.2 Comprehensive #5)
+draw1=function(){
+  par(mar=c(1,1,1,1))
+  plot(0,0,type="n",xlim=c(-1.2,1.2),ylim=c(-1.2,1.2),asp=1,axes=FALSE,xlab="",ylab="")
+  T=c(0,1.0); B=c(0,-1.0)
+  e1=c(0.75,0.15); e2=c(0,0.4); e3=c(-0.75,0.15); e4=c(0,-0.2)
+  lines(c(T[1],e1[1]),c(T[2],e1[2]))
+  lines(c(T[1],e3[1]),c(T[2],e3[2]))
+  lines(c(B[1],e1[1]),c(B[2],e1[2]))
+  lines(c(B[1],e3[1]),c(B[2],e3[2]))
+  lines(c(e1[1],e2[1]),c(e1[2],e2[2])); lines(c(e2[1],e3[1]),c(e2[2],e3[2]))
+  lines(c(e3[1],e4[1]),c(e3[2],e4[2]),lty=2); lines(c(e4[1],e1[1]),c(e4[2],e1[2]),lty=2)
+  text(0.35,0.6,"1"); text(-0.35,0.6,"2"); text(0.15,-0.45,"5")
+}
+cairo_pdf("../figures/week48-1.pdf",width=4,height=4,family="SimSun");draw1();dev.off()
+svglite::svglite("../figures/week48-1.svg",width=4,height=4);draw1();dev.off()

@@ -2,7 +2,7 @@
 
 > **定义 4.1.1** (n 次方根) <br>一般地, 如果 $x^n=a$ ($n>1$, $n\in\mathbb N^*$), 那么 $x$ 叫做 $a$ 的 $n$ 次方根.
 
-> **定义 4.1.2** (分数指数幂) <br>规定 $a^{\frac{m}{n}}=\sqrt[n]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$), $a^{-\frac{m}{n}}=\dfrac{1}{a^{\frac{m}{n}}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
+> **定义 4.1.2** (分数指数幂) <br>规定 $a^{\frac{m}{n}}=\sqrt[n]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$), $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
 
 > **常用结论 4.1.3** (n 次方根的性质) <br>当 $n$ 为奇数时, $\sqrt[n]{a^n}=a$; 当 $n$ 为偶数时, $\sqrt[n]{a^n}=\left|a\right|$.
 
@@ -24,9 +24,9 @@
 
 > **常用结论 4.3.3** (对数与指数的关系) <br>$a^{\log_a N}=N$, $\log_a a^x=x$ ($a>0$, $a\neq 1$, $N>0$).
 
-> **常用结论 4.3.4** (对数运算性质) <br>$\log_a(MN)=\log_a M+\log_a N$, $\log_a\dfrac{M}{N}=\log_a M-\log_a N$, $\log_a M^n=n\log_a M$ ($a>0$, $a\neq 1$, $M>0$, $N>0$).
+> **常用结论 4.3.4** (对数运算性质) <br>$\log_a(MN)=\log_a M+\log_a N$, $\log_a\frac{M}{N}=\log_a M-\log_a N$, $\log_a M^n=n\log_a M$ ($a>0$, $a\neq 1$, $M>0$, $N>0$).
 
-> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\dfrac{\log_c b}{\log_c a}$ ($a>0$, $a\neq 1$, $c>0$, $c\neq 1$, $b>0$).
+> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, $a\neq 1$, $c>0$, $c\neq 1$, $b>0$).
 
 > **定义 4.4.1** (对数函数) <br>一般地, 函数 $y=\log_a x$ ($a>0$, 且 $a\neq 1$) 叫做对数函数, 定义域是 $(0,+\infty)$.
 
@@ -50,7 +50,7 @@
 
 (A) 关于 $x$ 轴对称 (B) 关于 $y$ 轴对称 (C) 关于原点对称 (D) 关于直线 $y=x$ 对称
 
-(2) 图 (1) 中, ①②③④中不属于函数 $y=2^x$, $y=6^x$, $y=\left(\dfrac{1}{2}\right)^x$ 的一个是 ( ).
+(2) 图 (1) 中, ①②③④中不属于函数 $y=2^x$, $y=6^x$, $y=\left(\frac{1}{2}\right)^x$ 的一个是 ( ).
 
 (A) ① (B) ② (C) ③ (D) ④
 
@@ -64,7 +64,7 @@
 
 (1) 若点 $(x,y)$ 在 $y=-2^{-x}$ 上, 则 $y=-2^{-x}$, 即 $-y=2^{-x}$, 故点 $(-x,-y)$ 在 $y=2^x$ 上. 因此两图象关于原点对称. 选 (C).
 
-(2) $y=2^x$ 和 $y=6^x$ 为递增曲线, $y=\left(\dfrac{1}{2}\right)^x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x>1$ 时底数越小图象越靠上, 故 ③ 为 $y=2^x$, ④ 为 $y=6^x$. 递减曲线中, ① 为 $y=\left(\dfrac{1}{2}\right)^x$, ② 不属于上述三个函数. 选 (B).
+(2) $y=2^x$ 和 $y=6^x$ 为递增曲线, $y=\left(\frac{1}{2}\right)^x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x>1$ 时底数越小图象越靠上, 故 ③ 为 $y=2^x$, ④ 为 $y=6^x$. 递减曲线中, ① 为 $y=\left(\frac{1}{2}\right)^x$, ② 不属于上述三个函数. 选 (B).
 
 (3) $y=\log_2 x$ 为递增曲线, $y=\log_{\frac{1}{2}} x$ 和 $y=\log_{\frac{1}{3}} x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x>1$ 时底数越小图象越靠上, 故 ③ 为 $y=\log_2 x$, ④ 不属于上述三个函数. 选 (D). $\blacksquare$
 
@@ -106,7 +106,7 @@
 
 (1) 方程 $2x^3-4x^2-3x+1=0$ 的最大的根 (精确度为 $0.01$);
 
-(2) 函数 $f(x)=\lg x$ 和 $g(x)=\dfrac{1}{x}$ 交点的横坐标 (精确度为 $0.1$).
+(2) 函数 $f(x)=\lg x$ 和 $g(x)=\frac{1}{x}$ 交点的横坐标 (精确度为 $0.1$).
 
 ### 解答 习题三
 
@@ -134,11 +134,11 @@ $x\le 0$ 时, $y=(x+1)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时 $y=-3$. $
 
 (复习参考题4 综合运用第 5 题) 选择题.
 
-(1) 已知集合 $A=\{y\,|\,y=\log_2 x,\,x>1\}$, $B=\{y\,|\,y=\dfrac{1}{2^x},\,x>1\}$, 则 $A\cap B=$ ( ).
+(1) 已知集合 $A=\{y\,|\,y=\log_2 x,\,x>1\}$, $B=\{y\,|\,y=\frac{1}{2^x},\,x>1\}$, 则 $A\cap B=$ ( ).
 
-(A) $\{y\,|\,0<y<\dfrac{1}{2}\}$ (B) $\{y\,|\,0<y<1\}$ (C) $\{y\,|\,\dfrac{1}{2}<y<1\}$ (D) $\varnothing$
+(A) $\{y\,|\,0<y<\frac{1}{2}\}$ (B) $\{y\,|\,0<y<1\}$ (C) $\{y\,|\,\frac{1}{2}<y<1\}$ (D) $\varnothing$
 
-(2) 已知 $f(x)=\left|\lg x\right|$, 若 $a=f\left(\dfrac{1}{4}\right)$, $b=f\left(\dfrac{1}{3}\right)$, $c=f(2)$, 则 ( ).
+(2) 已知 $f(x)=\left|\lg x\right|$, 若 $a=f\left(\frac{1}{4}\right)$, $b=f\left(\frac{1}{3}\right)$, $c=f(2)$, 则 ( ).
 
 (A) $a<b<c$ (B) $b<c<a$ (C) $c<a<b$ (D) $c<b<a$
 
@@ -150,15 +150,15 @@ $x\le 0$ 时, $y=(x+1)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时 $y=-3$. $
 
 由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.4.3** (对数函数的图象和性质).
 
-(1) $x>1$ 时 $\log_2 x>0$, 故 $A=\{y\,|\,y>0\}$; $x>1$ 时 $0<\dfrac{1}{2^x}<\dfrac{1}{2}$, 故 $B=\{y\,|\,0<y<\dfrac{1}{2}\}$. $A\cap B=\{y\,|\,0<y<\dfrac{1}{2}\}$. 选 (A).
+(1) $x>1$ 时 $\log_2 x>0$, 故 $A=\{y\,|\,y>0\}$; $x>1$ 时 $0<\frac{1}{2^x}<\frac{1}{2}$, 故 $B=\{y\,|\,0<y<\frac{1}{2}\}$. $A\cap B=\{y\,|\,0<y<\frac{1}{2}\}$. 选 (A).
 
-(2) $a=\left|\lg\dfrac{1}{4}\right|=\lg 4$, $b=\left|\lg\dfrac{1}{3}\right|=\lg 3$, $c=\left|\lg 2\right|=\lg 2$. 因 $\lg 2<\lg 3<\lg 4$, 故 $c<b<a$. 选 (D).
+(2) $a=\left|\lg\frac{1}{4}\right|=\lg 4$, $b=\left|\lg\frac{1}{3}\right|=\lg 3$, $c=\left|\lg 2\right|=\lg 2$. 因 $\lg 2<\lg 3<\lg 4$, 故 $c<b<a$. 选 (D).
 
 (3) $f(x)=2^x+x=0$ 即 $2^x=-x$, 有解 $a<0$; $g(x)=\log_2 x+x=0$ 即 $\log_2 x=-x$, 有解 $0<b<1$; $h(x)=x^3+x=x(x^2+1)=0$ 有解 $c=0$. 故 $b>c>a$. 选 (B). $\blacksquare$
 
 ### 习题六
 
-(复习参考题4 综合运用第 6 题) 设 $f(x)=\dfrac{\mathrm e^x-\mathrm e^{-x}}{2}$, $g(x)=\dfrac{\mathrm e^x+\mathrm e^{-x}}{2}$, 求证:
+(复习参考题4 综合运用第 6 题) 设 $f(x)=\frac{\mathrm e^x-\mathrm e^{-x}}{2}$, $g(x)=\frac{\mathrm e^x+\mathrm e^{-x}}{2}$, 求证:
 
 (1) $[g(x)]^2-[f(x)]^2=1$;
 
@@ -170,21 +170,23 @@ $x\le 0$ 时, $y=(x+1)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时 $y=-3$. $
 
 由**常用结论 4.1.6** (实数指数幂的运算性质).
 
-(1) $[g(x)]^2-[f(x)]^2=\dfrac{(\mathrm e^x+\mathrm e^{-x})^2-(\mathrm e^x-\mathrm e^{-x})^2}{4}=\dfrac{4\mathrm e^x\mathrm e^{-x}}{4}=1$.
+(1) $[g(x)]^2-[f(x)]^2=\frac{(\mathrm e^x+\mathrm e^{-x})^2-(\mathrm e^x-\mathrm e^{-x})^2}{4}=\frac{4\mathrm e^x\mathrm e^{-x}}{4}=1$.
 
-(2) $2f(x)g(x)=2\cdot\dfrac{\mathrm e^x-\mathrm e^{-x}}{2}\cdot\dfrac{\mathrm e^x+\mathrm e^{-x}}{2}=\dfrac{\mathrm e^{2x}-\mathrm e^{-2x}}{2}=f(2x)$.
+(2) $2f(x)g(x)=2\cdot\frac{\mathrm e^x-\mathrm e^{-x}}{2}\cdot\frac{\mathrm e^x+\mathrm e^{-x}}{2}=\frac{\mathrm e^{2x}-\mathrm e^{-2x}}{2}=f(2x)$.
 
-(3) $[g(x)]^2+[f(x)]^2=\dfrac{(\mathrm e^x+\mathrm e^{-x})^2+(\mathrm e^x-\mathrm e^{-x})^2}{4}=\dfrac{2(\mathrm e^{2x}+\mathrm e^{-2x})}{4}=\dfrac{\mathrm e^{2x}+\mathrm e^{-2x}}{2}=g(2x)$. $\blacksquare$
+(3) $[g(x)]^2+[f(x)]^2=\frac{(\mathrm e^x+\mathrm e^{-x})^2+(\mathrm e^x-\mathrm e^{-x})^2}{4}=\frac{2(\mathrm e^{2x}+\mathrm e^{-2x})}{4}=\frac{\mathrm e^{2x}+\mathrm e^{-2x}}{2}=g(2x)$. $\blacksquare$
 
 ### 习题七
 
-(复习参考题4 综合运用第 7 题) 指数函数 $y=\left(\dfrac{b}{a}\right)^x$ 的图象如图所示 (递减曲线), 求二次函数 $y=ax^2+bx$ 图象顶点的横坐标的取值范围.
+(复习参考题4 综合运用第 7 题) 指数函数 $y=\left(\frac{b}{a}\right)^x$ 的图象如图所示 (递减曲线), 求二次函数 $y=ax^2+bx$ 图象顶点的横坐标的取值范围.
+
+![week29-1.svg](../figures/week29-1.svg){width=50%}
 
 ### 解答 习题七
 
 由**常用结论 4.2.2** (指数函数的图象和性质).
 
-$y=\left(\dfrac{b}{a}\right)^x$ 递减, 故 $0<\dfrac{b}{a}<1$. 二次函数 $y=ax^2+bx$ 顶点的横坐标为 $x=-\dfrac{b}{2a}$. 由 $0<\dfrac{b}{a}<1$ 得 $0<\dfrac{b}{2a}<\dfrac{1}{2}$, 故 $-\dfrac{1}{2}<-\dfrac{b}{2a}<0$. 即顶点横坐标的取值范围为 $\left(-\dfrac{1}{2},0\right)$. $\blacksquare$
+$y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0<\frac{b}{a}<1$. 二次函数 $y=ax^2+bx$ 顶点的横坐标为 $x=-\frac{b}{2a}$. 由 $0<\frac{b}{a}<1$ 得 $0<\frac{b}{2a}<\frac{1}{2}$, 故 $-\frac{1}{2}<-\frac{b}{2a}<0$. 即顶点横坐标的取值范围为 $\left(-\frac{1}{2},0\right)$. $\blacksquare$
 
 ### 习题八
 
@@ -206,13 +208,15 @@ $y=\left(\dfrac{b}{a}\right)^x$ 递减, 故 $0<\dfrac{b}{a}<1$. 二次函数 $y=
 
 (3) 画出 $P$ 关于 $t$ 变化的函数图象.
 
+![week29-2.svg](../figures/week29-2.svg){width=50%}
+
 ### 解答 习题九
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型) 与**常用结论 4.3.3** (对数与指数的关系).
 
 (1) $P(5)=P_0\mathrm e^{-5k}=0.9P_0$, 即 $\mathrm e^{-5k}=0.9$. $P(10)=P_0\mathrm e^{-10k}=P_0(\mathrm e^{-5k})^2=0.81P_0$. 故 $10\;\mathrm h$ 后还剩 $81\%$ 的污染物.
 
-(2) 令 $P_0\mathrm e^{-kt}=0.5P_0$, 即 $\mathrm e^{-kt}=0.5$, $t=-\dfrac{\ln 0.5}{k}$. 由 $\mathrm e^{-5k}=0.9$ 得 $k=-\dfrac{\ln 0.9}{5}\approx 0.021$. 故 $t=\dfrac{\ln 2}{0.021}\approx 33\;\mathrm h$.
+(2) 令 $P_0\mathrm e^{-kt}=0.5P_0$, 即 $\mathrm e^{-kt}=0.5$, $t=-\frac{\ln 0.5}{k}$. 由 $\mathrm e^{-5k}=0.9$ 得 $k=-\frac{\ln 0.9}{5}\approx 0.021$. 故 $t=\frac{\ln 2}{0.021}\approx 33\;\mathrm h$.
 
 (3) $P=P_0\mathrm e^{-kt}$ 为递减的指数衰减曲线, 从 $P_0$ 逐渐趋近于 $0$. $\blacksquare$
 
@@ -228,9 +232,9 @@ $y=\left(\dfrac{b}{a}\right)^x$ 递减, 故 $0<\dfrac{b}{a}<1$. 二次函数 $y=
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 代入 $\theta=52$, $\theta_0=15$, $\theta_1=62$, $t=1$: $52=15+47\mathrm e^{-k}$, $\mathrm e^{-k}=\dfrac{37}{47}$, $k=-\ln\dfrac{37}{47}\approx 0.24$.
+(1) 代入 $\theta=52$, $\theta_0=15$, $\theta_1=62$, $t=1$: $52=15+47\mathrm e^{-k}$, $\mathrm e^{-k}=\frac{37}{47}$, $k=-\ln\frac{37}{47}\approx 0.24$.
 
-(2) 令 $\theta=42$: $42=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\dfrac{27}{47}$, $t=\dfrac{-\ln(27/47)}{0.24}\approx 2.3\;\mathrm{min}$. 令 $\theta=32$: $32=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\dfrac{17}{47}$, $t=\dfrac{-\ln(17/47)}{0.24}\approx 4.5\;\mathrm{min}$. $\blacksquare$
+(2) 令 $\theta=42$: $42=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\frac{27}{47}$, $t=\frac{-\ln(27/47)}{0.24}\approx 2.3\;\mathrm{min}$. 令 $\theta=32$: $32=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\frac{17}{47}$, $t=\frac{-\ln(17/47)}{0.24}\approx 4.5\;\mathrm{min}$. $\blacksquare$
 
 ### 习题十一
 
@@ -250,7 +254,7 @@ $y=\left(\dfrac{b}{a}\right)^x$ 递减, 故 $0<\dfrac{b}{a}<1$. 二次函数 $y=
 
 ### 习题十二
 
-(复习参考题4 拓广探索第 12 题) 对于函数 $f(x)=a-\dfrac{2}{2^x+1}$ ($a\in\mathbb R$).
+(复习参考题4 拓广探索第 12 题) 对于函数 $f(x)=a-\frac{2}{2^x+1}$ ($a\in\mathbb R$).
 
 (1) 探索函数 $f(x)$ 的单调性;
 
@@ -260,9 +264,9 @@ $y=\left(\dfrac{b}{a}\right)^x$ 递减, 故 $0<\dfrac{b}{a}<1$. 二次函数 $y=
 
 由**常用结论 4.2.2** (指数函数的图象和性质).
 
-(1) $2^x$ 为增函数, 故 $\dfrac{2}{2^x+1}$ 为减函数, $-\dfrac{2}{2^x+1}$ 为增函数, 因此 $f(x)=a-\dfrac{2}{2^x+1}$ 为增函数.
+(1) $2^x$ 为增函数, 故 $\frac{2}{2^x+1}$ 为减函数, $-\frac{2}{2^x+1}$ 为增函数, 因此 $f(x)=a-\frac{2}{2^x+1}$ 为增函数.
 
-(2) 若 $f(x)$ 为奇函数, 则 $f(0)=0$, 即 $a-\dfrac{2}{2}=0$, $a=1$. 验证: $f(x)=1-\dfrac{2}{2^x+1}=\dfrac{2^x-1}{2^x+1}$. $f(-x)=\dfrac{2^{-x}-1}{2^{-x}+1}=\dfrac{1-2^x}{1+2^x}=-f(x)$. 故存在 $a=1$ 使 $f(x)$ 为奇函数. $\blacksquare$
+(2) 若 $f(x)$ 为奇函数, 则 $f(0)=0$, 即 $a-\frac{2}{2}=0$, $a=1$. 验证: $f(x)=1-\frac{2}{2^x+1}=\frac{2^x-1}{2^x+1}$. $f(-x)=\frac{2^{-x}-1}{2^{-x}+1}=\frac{1-2^x}{1+2^x}=-f(x)$. 故存在 $a=1$ 使 $f(x)$ 为奇函数. $\blacksquare$
 
 ### 习题十三
 
@@ -276,6 +280,6 @@ $y=\left(\dfrac{b}{a}\right)^x$ 递减, 故 $0<\dfrac{b}{a}<1$. 二次函数 $y=
 
 由**常用结论 4.4.4** (不同函数增长的差异).
 
-(1) 曲线段 $OA$ 可设为二次函数 $y=\dfrac{3}{4}x^2$ ($0\le x\le 2$); 直线段 $AB$ 过 $(2,3)$ 和 $(5,0)$, 斜率为 $-1$, 方程为 $y=-x+5$ ($2<x\le 5$). 故 $f(x)=\begin{cases}\dfrac{3}{4}x^2, & 0\le x\le 2,\\ -x+5, & 2<x\le 5.\end{cases}$
+(1) 曲线段 $OA$ 可设为二次函数 $y=\frac{3}{4}x^2$ ($0\le x\le 2$); 直线段 $AB$ 过 $(2,3)$ 和 $(5,0)$, 斜率为 $-1$, 方程为 $y=-x+5$ ($2<x\le 5$). 故 $f(x)=\begin{cases}\frac{3}{4}x^2, & 0\le x\le 2,\\ -x+5, & 2<x\le 5.\end{cases}$
 
 (2) 实际问题: 如某物体先做加速运动到达最高点, 再做匀速减速运动回到初始位置. $\blacksquare$

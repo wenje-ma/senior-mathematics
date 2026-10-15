@@ -14,17 +14,19 @@
 
 由**常用结论 6.4.1** (向量法三步曲).
 
-设 $\triangle ABC$ 中 $AB=AC$. 取 $\vec{AB}=\vec c$, $\vec{AC}=\vec b$, 则 $\lvert\vec c\rvert=\lvert\vec b\rvert$.
+设 $\triangle ABC$ 中 $AB=AC$. 取 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$, 则 $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
 
-$\cos B=\frac{\vec{BA}\cdot\vec{BC}}{\lvert\vec{BA}\rvert\lvert\vec{BC}\rvert}=\frac{(-\vec c)\cdot(\vec b-\vec c)}{\lvert\vec c\rvert\lvert\vec b-\vec c\rvert}=\frac{\vec c\cdot\vec c-\vec c\cdot\vec b}{\lvert\vec c\rvert\lvert\vec b-\vec c\rvert}$.
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{(-\boldsymbol{c})\cdot(\boldsymbol{b}-\boldsymbol{c})}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
 
-$\cos C=\frac{\vec{CA}\cdot\vec{CB}}{\lvert\vec{CA}\rvert\lvert\vec{CB}\rvert}=\frac{(-\vec b)\cdot(\vec c-\vec b)}{\lvert\vec b\rvert\lvert\vec c-\vec b\rvert}=\frac{\vec b\cdot\vec b-\vec b\cdot\vec c}{\lvert\vec b\rvert\lvert\vec c-\vec b\rvert}$.
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{(-\boldsymbol{b})\cdot(\boldsymbol{c}-\boldsymbol{b})}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
 
-由 $\lvert\vec b\rvert=\lvert\vec c\rvert$ 及 $\vec b\cdot\vec c=\vec c\cdot\vec b$, 得 $\cos B=\cos C$. 又 $B$, $C\in(0,\pi)$, 故 $B=C$. $\blacksquare$
+由 $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ 及 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, 得 $\cos B=\cos C$. 又 $B$, $C\in(0,\pi)$, 故 $B=C$. $\blacksquare$
 
 ### 练习二
 
 (练习 6.4 第 2 题) 如图, 正方形 $ABCD$ 的边长为 $a$, $E$ 是 $AB$ 的中点, $F$ 是 $BC$ 边上靠近点 $B$ 的三等分点, $AF$ 与 $DE$ 交于点 $M$, 求 $\angle EMF$ 的余弦值.
+
+![week34-1.svg](../figures/week34-1.svg){width=50%}
 
 ### 解答 练习二
 
@@ -32,23 +34,25 @@ $\cos C=\frac{\vec{CA}\cdot\vec{CB}}{\lvert\vec{CA}\rvert\lvert\vec{CB}\rvert}=\
 
 以 $A$ 为原点, $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴建系. $A(0,0)$, $B(a,0)$, $C(a,a)$, $D(0,a)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
 
-$\vec{DE}=\left(\frac{a}{2},-a\right)$, $\vec{AF}=\left(a,\frac{a}{3}\right)$.
+$\boldsymbol{DE}=\left(\frac{a}{2},-a\right)$, $\boldsymbol{AF}=\left(a,\frac{a}{3}\right)$.
 
-$\angle EMF$ 即 $\vec{MD}$ 与 $\vec{MF}$ 的夹角. $\vec{MD}$ 与 $\vec{DE}$ 共线, $\vec{MF}$ 与 $\vec{AF}$ 共线.
+$\angle EMF$ 即 $\boldsymbol{MD}$ 与 $\boldsymbol{MF}$ 的夹角. $\boldsymbol{MD}$ 与 $\boldsymbol{DE}$ 共线, $\boldsymbol{MF}$ 与 $\boldsymbol{AF}$ 共线.
 
-$\cos\angle EMF=\frac{\vec{DE}\cdot\vec{AF}}{\lvert\vec{DE}\rvert\lvert\vec{AF}\rvert}=\frac{\frac{a}{2}\cdot a+(-a)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
+$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+(-a)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
 
 ### 练习三
 
-(练习 6.4 第 3 题) 如图, 在 $\triangle ABC$ 中, 点 $O$ 是 $BC$ 的中点, 过点 $O$ 的直线分别交直线 $AB$, $AC$ 于不同的两点 $M$, $N$. 设 $\vec{AB}=m\vec{AM}$, $\vec{AC}=n\vec{AN}$, 求 $m+n$ 的值.
+(练习 6.4 第 3 题) 如图, 在 $\triangle ABC$ 中, 点 $O$ 是 $BC$ 的中点, 过点 $O$ 的直线分别交直线 $AB$, $AC$ 于不同的两点 $M$, $N$. 设 $\boldsymbol{AB}=m\boldsymbol{AM}$, $\boldsymbol{AC}=n\boldsymbol{AN}$, 求 $m+n$ 的值.
+
+![week34-2.svg](../figures/week34-2.svg){width=50%}
 
 ### 解答 练习三
 
 由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.3.1** (平面向量基本定理).
 
-$\vec{AO}=\frac{1}{2}(\vec{AB}+\vec{AC})=\frac{1}{2}(m\vec{AM}+n\vec{AN})$.
+$\boldsymbol{AO}=\frac{1}{2}(\boldsymbol{AB}+\boldsymbol{AC})=\frac{1}{2}(m\boldsymbol{AM}+n\boldsymbol{AN})$.
 
-又 $O$ 在直线 $MN$ 上, 由三点共线条件, 存在 $\lambda$ 使 $\vec{AO}=\lambda\vec{AM}+(1-\lambda)\vec{AN}$.
+又 $O$ 在直线 $MN$ 上, 由三点共线条件, 存在 $\lambda$ 使 $\boldsymbol{AO}=\lambda\boldsymbol{AM}+(1-\lambda)\boldsymbol{AN}$.
 
 比较系数: $\frac{m}{2}=\lambda$, $\frac{n}{2}=1-\lambda$.
 
@@ -56,27 +60,29 @@ $m+n=2\lambda+2(1-\lambda)=2$. $\blacksquare$
 
 ### 练习四
 
-(练习 6.4 第 4 题) 一物体在力 $\vec F$ 的作用下, 由点 $A(20,15)$ 移动到点 $B(7,0)$. 已知 $\vec F=(4,-5)$, 求 $\vec F$ 对该物体所做的功.
+(练习 6.4 第 4 题) 一物体在力 $\boldsymbol{F}$ 的作用下, 由点 $A(20,15)$ 移动到点 $B(7,0)$. 已知 $\boldsymbol{F}=(4,-5)$, 求 $\boldsymbol{F}$ 对该物体所做的功.
 
 ### 解答 练习四
 
 由**定义 6.2.11** (数量积), 功等于力与位移的数量积.
 
-位移 $\vec{s}=\vec{AB}=(7-20,0-15)=(-13,-15)$.
+位移 $\boldsymbol{s}=\boldsymbol{AB}=(7-20,0-15)=(-13,-15)$.
 
-功 $W=\vec F\cdot\vec s=4\times(-13)+(-5)\times(-15)=-52+75=23$. $\blacksquare$
+功 $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times(-13)+(-5)\times(-15)=-52+75=23$. $\blacksquare$
 
 ### 练习五
 
 (练习 6.4 第 5 题) 如图, 一滑轮组中有两个定滑轮 $A$, $B$, 在从连接点 $O$ 出发的三根绳的端点处, 挂着 $3$ 个重物, 它们所受的重力分别为 $4\text{ N}$, $4\text{ N}$ 和 $4\sqrt 3\text{ N}$. 此时整个系统恰处于平衡状态, 求 $\angle AOB$ 的大小.
 
+![week34-3.svg](../figures/week34-3.svg){width=50%}
+
 ### 解答 练习五
 
 由**定义 6.2.11** (数量积) 与**定理 6.4.2** (余弦定理).
 
-设 $\vec{OA}$, $\vec{OB}$ 的大小均为 $4$, 第三根绳向下, 大小为 $4\sqrt 3$. 平衡时 $\vec{OA}+\vec{OB}+\vec{OC}=\vec 0$.
+设 $\boldsymbol{OA}$, $\boldsymbol{OB}$ 的大小均为 $4$, 第三根绳向下, 大小为 $4\sqrt 3$. 平衡时 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
 
-$\vec{OC}=-(\vec{OA}+\vec{OB})$, $\lvert\vec{OC}\rvert^2=\lvert\vec{OA}\rvert^2+\lvert\vec{OB}\rvert^2+2\vec{OA}\cdot\vec{OB}$.
+$\boldsymbol{OC}=-(\boldsymbol{OA}+\boldsymbol{OB})$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
 
 $(4\sqrt 3)^2=16+16+2\times16\cos\angle AOB$.
 
@@ -86,19 +92,19 @@ $\cos\angle AOB=\frac{1}{2}$, $\angle AOB=60^{\circ}$. $\blacksquare$
 
 ### 练习六
 
-(练习 6.4 第 6 题) 若平面上的三个力 $\vec F_1$, $\vec F_2$, $\vec F_3$ 作用于一点, 且处于平衡状态. 已知 $\lvert\vec F_1\rvert=1\text{ N}$, $\lvert\vec F_2\rvert=\frac{\sqrt 6+\sqrt 2}{2}\text{ N}$, $\vec F_1$ 与 $\vec F_2$ 的夹角为 $45^{\circ}$, 求:
+(练习 6.4 第 6 题) 若平面上的三个力 $\boldsymbol{F}_1$, $\boldsymbol{F}_2$, $\boldsymbol{F}_3$ 作用于一点, 且处于平衡状态. 已知 $\lvert\boldsymbol{F}_1\rvert=1\text{ N}$, $\lvert\boldsymbol{F}_2\rvert=\frac{\sqrt 6+\sqrt 2}{2}\text{ N}$, $\boldsymbol{F}_1$ 与 $\boldsymbol{F}_2$ 的夹角为 $45^{\circ}$, 求:
 
-(1) $\vec F_3$ 的大小;
+(1) $\boldsymbol{F}_3$ 的大小;
 
-(2) $\vec F_3$ 与 $\vec F_1$ 夹角的大小.
+(2) $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 夹角的大小.
 
 ### 解答 练习六
 
 由**定义 6.2.11** (数量积) 与**定理 6.4.2** (余弦定理).
 
-平衡时 $\vec F_3=-(\vec F_1+\vec F_2)$.
+平衡时 $\boldsymbol{F}_3=-(\boldsymbol{F}_1+\boldsymbol{F}_2)$.
 
-(1) $\lvert\vec F_1+\vec F_2\rvert^2=\lvert\vec F_1\rvert^2+\lvert\vec F_2\rvert^2+2\vec F_1\cdot\vec F_2$.
+(1) $\lvert\boldsymbol{F}_1+\boldsymbol{F}_2\rvert^2=\lvert\boldsymbol{F}_1\rvert^2+\lvert\boldsymbol{F}_2\rvert^2+2\boldsymbol{F}_1\cdot\boldsymbol{F}_2$.
 
 $=1+\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2+2\times1\times\frac{\sqrt 6+\sqrt 2}{2}\times\cos45^{\circ}$.
 
@@ -106,17 +112,17 @@ $\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2=\frac{8+4\sqrt 3}{4}=2+\sqrt 3$.
 
 $2\times\frac{\sqrt 6+\sqrt 2}{2}\times\frac{\sqrt 2}{2}=\frac{\sqrt 6+\sqrt 2}{\sqrt 2}=\sqrt 3+1$.
 
-$\lvert\vec F_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=(\sqrt 3+1)^2$.
+$\lvert\boldsymbol{F}_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=(\sqrt 3+1)^2$.
 
-$\lvert\vec F_3\rvert=\sqrt 3+1\text{ N}$.
+$\lvert\boldsymbol{F}_3\rvert=\sqrt 3+1\text{ N}$.
 
-(2) 设 $\vec F_3$ 与 $\vec F_1$ 夹角为 $\theta$. $\vec F_3=-(\vec F_1+\vec F_2)$, 
+(2) 设 $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 夹角为 $\theta$. $\boldsymbol{F}_3=-(\boldsymbol{F}_1+\boldsymbol{F}_2)$, 
 
-$\vec F_3\cdot\vec F_1=-(\vec F_1+\vec F_2)\cdot\vec F_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-(1+\sqrt 3)$.
+$\boldsymbol{F}_3\cdot\boldsymbol{F}_1=-(\boldsymbol{F}_1+\boldsymbol{F}_2)\cdot\boldsymbol{F}_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-(1+\sqrt 3)$.
 
 $\cos\theta=\frac{-(1+\sqrt 3)}{(\sqrt 3+1)\times1}=-1$. $\theta=180^{\circ}$? 需考虑夹角方向.
 
-修正: $\vec F_3$ 与 $\vec F_1$ 的夹角 (取 $0$ 到 $180^{\circ}$) 满足 $\cos\theta=\frac{-(1+\sqrt 3)}{\sqrt 3+1}=-1$, 即方向相反. $\blacksquare$
+修正: $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 的夹角 (取 $0$ 到 $180^{\circ}$) 满足 $\cos\theta=\frac{-(1+\sqrt 3)}{\sqrt 3+1}=-1$, 即方向相反. $\blacksquare$
 
 ### 练习七
 
@@ -232,6 +238,8 @@ $c=\frac{b\sin C}{\sin B}=\frac{\sqrt 3\cdot\frac{3+4\sqrt 3}{10}}{\frac{\sqrt 3
 
 (练习 6.4 第 13 题) 如图, 在某点 $B$ 处测得建筑物 $AE$ 的顶端 $A$ 的仰角为 $\alpha$, 沿 $BE$ 方向前进, 至点 $C$ 处测得顶端 $A$ 的仰角为 $2\alpha$, 再继续前进 $10\sqrt{3}\text{ m}$ 至 $D$ 点, 测得顶端 $A$ 的仰角为 $4\alpha$, 求建筑物 $AE$ 的高.
 
+![week34-4.svg](../figures/week34-4.svg){width=50%}
+
 ### 解答 练习十三
 
 由**定理 6.4.3** (正弦定理).
@@ -252,7 +260,7 @@ $AC=\frac{10\sqrt 3\sin4\alpha}{\sin2\alpha}=20\sqrt 3\cos2\alpha$.
 
 ### 习题一
 
-(习题 6.4 复习巩固第 1 题) 若非零向量 $\vec{AB}$ 与 $\vec{AC}$ 满足 $\left(\frac{\vec{AB}}{\lvert\vec{AB}\rvert}+\frac{\vec{AC}}{\lvert\vec{AC}\rvert}\right)\cdot\vec{BC}=0$, 且 $\frac{\vec{AB}}{\lvert\vec{AB}\rvert}\cdot\frac{\vec{AC}}{\lvert\vec{AC}\rvert}=\frac{1}{2}$, 则 $\triangle ABC$ 为 ().
+(习题 6.4 复习巩固第 1 题) 若非零向量 $\boldsymbol{AB}$ 与 $\boldsymbol{AC}$ 满足 $\left(\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}+\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}\right)\cdot\boldsymbol{BC}=0$, 且 $\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}\cdot\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}=\frac{1}{2}$, 则 $\triangle ABC$ 为 ().
 
 (A) 三边均不相等的三角形 (B) 直角三角形
 
@@ -262,15 +270,15 @@ $AC=\frac{10\sqrt 3\sin4\alpha}{\sin2\alpha}=20\sqrt 3\cos2\alpha$.
 
 由**定义 6.2.11** (数量积) 与**常用结论 6.3.8** (夹角).
 
-$\frac{\vec{AB}}{\lvert\vec{AB}\rvert}$ 与 $\frac{\vec{AC}}{\lvert\vec{AC}\rvert}$ 分别为 $\vec{AB}$, $\vec{AC}$ 方向的单位向量. 它们的和沿 $\angle A$ 的角平分线方向. 该和与 $\vec{BC}$ 垂直, 说明角平分线垂直于 $BC$, 故 $AB=AC$.
+$\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}$ 与 $\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}$ 分别为 $\boldsymbol{AB}$, $\boldsymbol{AC}$ 方向的单位向量. 它们的和沿 $\angle A$ 的角平分线方向. 该和与 $\boldsymbol{BC}$ 垂直, 说明角平分线垂直于 $BC$, 故 $AB=AC$.
 
-$\frac{\vec{AB}}{\lvert\vec{AB}\rvert}\cdot\frac{\vec{AC}}{\lvert\vec{AC}\rvert}=\cos A=\frac{1}{2}$, $A=60^{\circ}$.
+$\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}\cdot\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}=\cos A=\frac{1}{2}$, $A=60^{\circ}$.
 
 等腰且一角为 $60^{\circ}$, 故为等边三角形. 选 (D). $\blacksquare$
 
 ### 习题二
 
-(习题 6.4 复习巩固第 2 题) 已知 $O$, $N$, $P$ 在 $\triangle ABC$ 所在平面内, 满足 $\lvert\vec{OA}\rvert=\lvert\vec{OB}\rvert=\lvert\vec{OC}\rvert$, $\vec{NA}+\vec{NB}+\vec{NC}=\vec 0$, 且 $\vec{PA}\cdot\vec{PB}=\vec{PB}\cdot\vec{PC}=\vec{PC}\cdot\vec{PA}$, 则点 $O$, $N$, $P$ 依次是 $\triangle ABC$ 的 ().
+(习题 6.4 复习巩固第 2 题) 已知 $O$, $N$, $P$ 在 $\triangle ABC$ 所在平面内, 满足 $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\rvert$, $\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$, 且 $\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}=\boldsymbol{PC}\cdot\boldsymbol{PA}$, 则点 $O$, $N$, $P$ 依次是 $\triangle ABC$ 的 ().
 
 (A) 重心, 外心, 垂心 (B) 重心, 外心, 内心
 
@@ -280,11 +288,11 @@ $\frac{\vec{AB}}{\lvert\vec{AB}\rvert}\cdot\frac{\vec{AC}}{\lvert\vec{AC}\rvert}
 
 由**定义 6.2.11** (数量积).
 
-$\lvert\vec{OA}\rvert=\lvert\vec{OB}\rvert=\lvert\vec{OC}\rvert$ 说明 $O$ 到三顶点等距, $O$ 为外心.
+$\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\rvert$ 说明 $O$ 到三顶点等距, $O$ 为外心.
 
-$\vec{NA}+\vec{NB}+\vec{NC}=\vec 0$ 说明 $N$ 为重心 (重心性质).
+$\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$ 说明 $N$ 为重心 (重心性质).
 
-$\vec{PA}\cdot\vec{PB}=\vec{PB}\cdot\vec{PC}$ 得 $\vec{PB}\cdot(\vec{PA}-\vec{PC})=\vec{PB}\cdot\vec{CA}=0$, 即 $PB\perp CA$. 同理 $P$ 为垂心.
+$\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ 得 $\boldsymbol{PB}\cdot(\boldsymbol{PA}-\boldsymbol{PC})=\boldsymbol{PB}\cdot\boldsymbol{CA}=0$, 即 $PB\perp CA$. 同理 $P$ 为垂心.
 
 选 (C). $\blacksquare$
 
@@ -296,35 +304,35 @@ $\vec{PA}\cdot\vec{PB}=\vec{PB}\cdot\vec{PC}$ 得 $\vec{PB}\cdot(\vec{PA}-\vec{P
 
 由**常用结论 6.4.1** (向量法三步曲) 与**常用结论 6.3.8** (垂直).
 
-设圆心为 $O$, 直径为 $AB$, $C$ 为圆上任意一点. $\vec{OC}=\vec c$, $\vec{OA}=-\vec c$, $\vec{OB}=\vec c$.
+设圆心为 $O$, 直径为 $AB$, $C$ 为圆上任意一点. $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OA}=-\boldsymbol{c}$, $\boldsymbol{OB}=\boldsymbol{c}$.
 
-$\vec{AC}=\vec c-(-\vec c)=2\vec c$? 修正: 设 $\vec{OA}=\vec a$, 则 $\vec{OB}=-\vec a$, $\vec{OC}=\vec c$, $\lvert\vec a\rvert=\lvert\vec c\rvert=R$.
+$\boldsymbol{AC}=\boldsymbol{c}-(-\boldsymbol{c})=2\boldsymbol{c}$? 修正: 设 $\boldsymbol{OA}=\boldsymbol{a}$, 则 $\boldsymbol{OB}=-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{c}\rvert=R$.
 
-$\vec{AC}=\vec c-\vec a$, $\vec{BC}=\vec c-(-\vec a)=\vec c+\vec a$.
+$\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{c}-(-\boldsymbol{a})=\boldsymbol{c}+\boldsymbol{a}$.
 
-$\vec{AC}\cdot\vec{BC}=(\vec c-\vec a)\cdot(\vec c+\vec a)=\vec c^2-\vec a^2=R^2-R^2=0$.
+$\boldsymbol{AC}\cdot\boldsymbol{BC}=(\boldsymbol{c}-\boldsymbol{a})\cdot(\boldsymbol{c}+\boldsymbol{a})=\boldsymbol{c}^2-\boldsymbol{a}^2=R^2-R^2=0$.
 
-故 $\vec{AC}\perp\vec{BC}$, $\angle ACB=90^{\circ}$. $\blacksquare$
+故 $\boldsymbol{AC}\perp\boldsymbol{BC}$, $\angle ACB=90^{\circ}$. $\blacksquare$
 
 ### 习题四
 
-(习题 6.4 复习巩固第 4 题) 两个粒子 $A$, $B$ 从同一发射源发射出来, 在某一时刻, 它们的位移分别为 $\vec s_A=(4,3)$, $\vec s_B=(2,10)$.
+(习题 6.4 复习巩固第 4 题) 两个粒子 $A$, $B$ 从同一发射源发射出来, 在某一时刻, 它们的位移分别为 $\boldsymbol{s}_A=(4,3)$, $\boldsymbol{s}_B=(2,10)$.
 
-(1) 写出此时粒子 $B$ 相对粒子 $A$ 的位移 $\vec s$;
+(1) 写出此时粒子 $B$ 相对粒子 $A$ 的位移 $\boldsymbol{s}$;
 
-(2) 计算 $\vec s$ 在 $\vec s_A$ 上的投影向量.
+(2) 计算 $\boldsymbol{s}$ 在 $\boldsymbol{s}_A$ 上的投影向量.
 
 ### 解答 习题四
 
 由**定义 6.2.11** (数量积) 与**常用结论 6.2.12** (投影向量).
 
-(1) $\vec s=\vec s_B-\vec s_A=(2-4,10-3)=(-2,7)$.
+(1) $\boldsymbol{s}=\boldsymbol{s}_B-\boldsymbol{s}_A=(2-4,10-3)=(-2,7)$.
 
-(2) $\vec s\cdot\vec s_A=(-2)\times4+7\times3=13$.
+(2) $\boldsymbol{s}\cdot\boldsymbol{s}_A=(-2)\times4+7\times3=13$.
 
-$\lvert\vec s_A\rvert=5$.
+$\lvert\boldsymbol{s}_A\rvert=5$.
 
-投影向量为 $\frac{\vec s\cdot\vec s_A}{\lvert\vec s_A\rvert^2}\vec s_A=\frac{13}{25}(4,3)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
+投影向量为 $\frac{\boldsymbol{s}\cdot\boldsymbol{s}_A}{\lvert\boldsymbol{s}_A\rvert^2}\boldsymbol{s}_A=\frac{13}{25}(4,3)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
 
 ### 习题五
 
@@ -398,6 +406,8 @@ $B\approx43^{\circ}$ 或 $B\approx137^{\circ}$.
 
 (习题 6.4 复习巩固第 8 题) 如图, 测量河对岸的塔高 $AB$ 时, 可以选取与塔底 $B$ 在同一水平面内的两个测量基点 $C$ 与 $D$. 现测得 $\angle BCD=\alpha$, $\angle BDC=\beta$, $CD=s$, 在点 $C$ 测得塔顶 $A$ 的仰角为 $\theta$, 求塔高 $AB$.
 
+![week34-5.svg](../figures/week34-5.svg){width=50%}
+
 ### 解答 习题八
 
 由**定理 6.4.3** (正弦定理).
@@ -452,29 +462,31 @@ $S=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$. $\blacksquare$
 
 ### 习题十一
 
-(习题 6.4 综合运用第 11 题) 已知对任意平面向量 $\vec{AB}=(x,y)$, 把 $\vec{AB}$ 绕其起点沿逆时针方向旋转 $\theta$ 角得到向量 $\vec{AP}=(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta)$. 已知平面内点 $A(1,2)$, 点 $B(1+\sqrt 2,2-2\sqrt 2)$, 把点 $B$ 绕点 $A$ 沿顺时针方向旋转 $\frac{\pi}{4}$ 后得到点 $P$, 求点 $P$ 的坐标.
+(习题 6.4 综合运用第 11 题) 已知对任意平面向量 $\boldsymbol{AB}=(x,y)$, 把 $\boldsymbol{AB}$ 绕其起点沿逆时针方向旋转 $\theta$ 角得到向量 $\boldsymbol{AP}=(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta)$. 已知平面内点 $A(1,2)$, 点 $B(1+\sqrt 2,2-2\sqrt 2)$, 把点 $B$ 绕点 $A$ 沿顺时针方向旋转 $\frac{\pi}{4}$ 后得到点 $P$, 求点 $P$ 的坐标.
 
 ### 解答 习题十一
 
 由**常用结论 6.3.4** (坐标运算).
 
-$\vec{AB}=(\sqrt 2,-2\sqrt 2)$. 顺时针旋转 $\frac{\pi}{4}$ 即逆时针旋转 $-\frac{\pi}{4}$.
+$\boldsymbol{AB}=(\sqrt 2,-2\sqrt 2)$. 顺时针旋转 $\frac{\pi}{4}$ 即逆时针旋转 $-\frac{\pi}{4}$.
 
 $x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-(-2\sqrt 2)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+(-2\sqrt 2)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
 
 $y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+(-2\sqrt 2)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
 
-$\vec{AP}=(-1,-3)$. $P=A+\vec{AP}=(1-1,2-3)=(0,-1)$. $\blacksquare$
+$\boldsymbol{AP}=(-1,-3)$. $P=A+\boldsymbol{AP}=(1-1,2-3)=(0,-1)$. $\blacksquare$
 
 ### 习题十二
 
 (习题 6.4 综合运用第 12 题) 如图, 在 $\triangle ABC$ 中, 已知 $AB=2$, $AC=5$, $\angle BAC=60^{\circ}$, $BC$, $AC$ 边上的两条中线 $AM$, $BN$ 相交于点 $P$, 求 $\angle MPN$ 的余弦值.
 
+![week34-6.svg](../figures/week34-6.svg){width=50%}
+
 ### 解答 习题十二
 
 由**定理 6.4.2** (余弦定理) 与**常用结论 6.4.1** (向量法).
 
-以 $A$ 为原点, $\vec{AB}=(2,0)$, $\vec{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
+以 $A$ 为原点, $\boldsymbol{AB}=(2,0)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
 
 $M$ 为 $BC$ 中点: $M=\left(\frac{2+\frac{5}{2}}{2},\frac{0+\frac{5\sqrt 3}{2}}{2}\right)=\left(\frac{9}{4},\frac{5\sqrt 3}{4}\right)$.
 
@@ -482,15 +494,15 @@ $N$ 为 $AC$ 中点: $N=\left(\frac{5}{4},\frac{5\sqrt 3}{4}\right)$.
 
 $P$ 为重心: $P=\frac{A+B+C}{3}=\left(\frac{2+\frac{5}{2}}{3},\frac{\frac{5\sqrt 3}{2}}{3}\right)=\left(\frac{3}{2},\frac{5\sqrt 3}{6}\right)$.
 
-$\vec{PM}=M-P=\left(\frac{9}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(\frac{3}{4},\frac{5\sqrt 3}{12}\right)$.
+$\boldsymbol{PM}=M-P=\left(\frac{9}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(\frac{3}{4},\frac{5\sqrt 3}{12}\right)$.
 
-$\vec{PN}=N-P=\left(\frac{5}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(-\frac{1}{4},\frac{5\sqrt 3}{12}\right)$.
+$\boldsymbol{PN}=N-P=\left(\frac{5}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(-\frac{1}{4},\frac{5\sqrt 3}{12}\right)$.
 
-$\cos\angle MPN=\frac{\vec{PM}\cdot\vec{PN}}{\lvert\vec{PM}\rvert\lvert\vec{PN}\rvert}=\frac{-\frac{3}{16}+\frac{75}{144}}{\sqrt{\frac{9}{16}+\frac{75}{144}}\cdot\sqrt{\frac{1}{16}+\frac{75}{144}}}=\frac{\frac{-27+75}{144}}{\sqrt{\frac{81+75}{144}}\cdot\sqrt{\frac{9+75}{144}}}=\frac{\frac{48}{144}}{\frac{\sqrt{156}}{12}\cdot\frac{\sqrt{84}}{12}}=\frac{\frac{1}{3}}{\frac{\sqrt{13104}}{144}}=\frac{48}{\sqrt{13104}}=\frac{2}{\sqrt{91}}$. $\blacksquare$
+$\cos\angle MPN=\frac{\boldsymbol{PM}\cdot\boldsymbol{PN}}{\lvert\boldsymbol{PM}\rvert\lvert\boldsymbol{PN}\rvert}=\frac{-\frac{3}{16}+\frac{75}{144}}{\sqrt{\frac{9}{16}+\frac{75}{144}}\cdot\sqrt{\frac{1}{16}+\frac{75}{144}}}=\frac{\frac{-27+75}{144}}{\sqrt{\frac{81+75}{144}}\cdot\sqrt{\frac{9+75}{144}}}=\frac{\frac{48}{144}}{\frac{\sqrt{156}}{12}\cdot\frac{\sqrt{84}}{12}}=\frac{\frac{1}{3}}{\frac{\sqrt{13104}}{144}}=\frac{48}{\sqrt{13104}}=\frac{2}{\sqrt{91}}$. $\blacksquare$
 
 ### 习题十三
 
-(习题 6.4 综合运用第 13 题) 一条河的两岸平行, 河的宽度 $d=500\text{ m}$, 一艘船从河岸边的 $A$ 处出发到河对岸. 已知船在静水中的速度 $\vec v_1$ 的大小为 $\lvert\vec v_1\rvert=10\text{ km/h}$, 水流速度 $\vec v_2$ 的大小为 $\lvert\vec v_2\rvert=2\text{ km/h}$. 请计算船行驶时间最短的三种情况.
+(习题 6.4 综合运用第 13 题) 一条河的两岸平行, 河的宽度 $d=500\text{ m}$, 一艘船从河岸边的 $A$ 处出发到河对岸. 已知船在静水中的速度 $\boldsymbol{v}_1$ 的大小为 $\lvert\boldsymbol{v}_1\rvert=10\text{ km/h}$, 水流速度 $\boldsymbol{v}_2$ 的大小为 $\lvert\boldsymbol{v}_2\rvert=2\text{ km/h}$. 请计算船行驶时间最短的三种情况.
 
 ### 解答 习题十三
 
@@ -582,17 +594,19 @@ $S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\
 
 (习题 6.4 拓广探索第 19 题) 如图, 在 $\square ABCD$ 中, 点 $E$, $F$ 分别是 $AD$, $DC$ 边的中点, $BE$, $BF$ 分别与 $AC$ 交于 $R$, $T$ 两点, 你能发现 $AR$, $RT$, $TC$ 之间的关系吗? 用向量方法证明你的结论.
 
+![week34-7.svg](../figures/week34-7.svg){width=50%}
+
 ### 解答 习题十九
 
 由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.3.1** (平面向量基本定理).
 
-设 $\vec{AB}=\vec a$, $\vec{AD}=\vec b$. $\vec{AC}=\vec a+\vec b$.
+设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$. $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$.
 
-$R$ 在 $BE$ 上: $\vec{AR}=\lambda\vec{AB}+\mu\vec{AE}=\lambda\vec a+\frac{\mu}{2}\vec b$. 又 $R$ 在 $AC$ 上: $\vec{AR}=t(\vec a+\vec b)$.
+$R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. 又 $R$ 在 $AC$ 上: $\boldsymbol{AR}=t(\boldsymbol{a}+\boldsymbol{b})$.
 
-比较: $t=\lambda$, $t=\frac{\mu}{2}$. $E$ 在 $AD$ 上, $\vec{AE}=\frac{1}{2}\vec b$. 由 $B$, $R$, $E$ 共线: $\lambda+\frac{\mu}{2}=1$, 即 $t+t=1$, $t=\frac{1}{3}$. 故 $AR=\frac{1}{3}AC$.
+比较: $t=\lambda$, $t=\frac{\mu}{2}$. $E$ 在 $AD$ 上, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{b}$. 由 $B$, $R$, $E$ 共线: $\lambda+\frac{\mu}{2}=1$, 即 $t+t=1$, $t=\frac{1}{3}$. 故 $AR=\frac{1}{3}AC$.
 
-同理 $T$ 在 $BF$ 上, $F$ 为 $DC$ 中点, $\vec{AF}=\vec b+\frac{1}{2}\vec a$. 由 $A$, $T$, $C$ 共线及 $B$, $T$, $F$ 共线, 得 $AT=\frac{2}{3}AC$.
+同理 $T$ 在 $BF$ 上, $F$ 为 $DC$ 中点, $\boldsymbol{AF}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}$. 由 $A$, $T$, $C$ 共线及 $B$, $T$, $F$ 共线, 得 $AT=\frac{2}{3}AC$.
 
 故 $AR=RT=TC=\frac{1}{3}AC$. $\blacksquare$
 
@@ -627,6 +641,8 @@ $=p(p-a)(p-b)(p-c)$. $S=\sqrt{p(p-a)(p-b)(p-c)}$.
 ### 习题二十一
 
 (习题 6.4 拓广探索第 21 题) 如图, 为了测量两山顶 $M$, $N$ 间的距离, 飞机沿水平方向在 $A$, $B$ 两点进行测量, $A$, $B$, $M$, $N$ 在同一个铅垂平面内. 请设计一个测量方案.
+
+![week34-8.svg](../figures/week34-8.svg){width=50%}
 
 ### 解答 习题二十一
 

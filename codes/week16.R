@@ -1,0 +1,49 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week16: logarithmic functions (16-1..16-4)
+draw1=function(){
+  par(mfrow=c(1,2),mar=c(4,4,2,1))
+  x=seq(-2,2,len=100)
+  plot(x,x,type="l",lty=1,lwd=2,xlim=c(-2,2),ylim=c(-2,2),xlab="x",ylab="y",asp=1,main="(1)")
+  abline(h=0,v=0,lty=3)
+  xp=x[x>=0]
+  plot(xp,xp,type="l",lty=1,lwd=2,xlim=c(-0.2,2.2),ylim=c(-0.2,2.2),xlab="x",ylab="y",asp=1,main="(2)")
+  abline(h=0,v=0,lty=3)
+  points(0,0,pch=1)
+}
+pdf("../figures/week16-1.pdf",width=8,height=4);draw1();dev.off()
+svglite::svglite("../figures/week16-1.svg",width=8,height=4);draw1();dev.off()
+draw2=function(){
+  x=seq(0.05,3,len=300)
+  plot(x,log(x,3),type="l",lty=1,lwd=2,ylim=c(-2,2),xlab="x",ylab="y",las=1)
+  lines(x,log(x,1/3),lty=2,lwd=2)
+  abline(h=0,v=0,lty=3)
+  points(1,0,pch=19)
+  text(2.2,1.2,expression(y==log[3]*x))
+  text(0.4,-1.4,expression(y==log[1/3]*x))
+}
+pdf("../figures/week16-2.pdf",width=4,height=4);draw2();dev.off()
+svglite::svglite("../figures/week16-2.svg",width=4,height=4);draw2();dev.off()
+draw3=function(){
+  x1=seq(-3,3,len=200)
+  x2=seq(0.05,8,len=300)
+  plot(x1,2^x1,type="l",lty=1,lwd=2,xlim=c(-3,3.5),ylim=c(-3,3.5),xlab="x",ylab="y",asp=1,las=1)
+  lines(x2,log(x2,2),lty=2,lwd=2)
+  abline(0,1,lty=3)
+  abline(h=0,v=0,lty=3)
+}
+pdf("../figures/week16-3.pdf",width=4,height=4);draw3();dev.off()
+svglite::svglite("../figures/week16-3.svg",width=4,height=4);draw3();dev.off()
+draw4=function(){
+  x=seq(0.02,3,len=400)
+  plot(x,log(x,2),type="l",lty=1,lwd=1.5,ylim=c(-2.5,2.5),xlab="x",ylab="y",las=1)
+  lines(x,log(x,3),lty=2,lwd=1.5)
+  lines(x,log10(x),lty=3,lwd=1.5)
+  lines(x,log(x,0.5),lty=4,lwd=1.5)
+  lines(x,log(x,0.2),lty=5,lwd=1.5)
+  lines(x,-log10(x),lty=6,lwd=1.5)
+  abline(h=0,v=0,lty=3)
+  legend("bottomright",legend=c("log2 x","log3 x","lg x","log1/2 x","log1/5 x","log1/10 x"),lty=1:6,bty="n",cex=0.7)
+}
+pdf("../figures/week16-4.pdf",width=4,height=4);draw4();dev.off()
+svglite::svglite("../figures/week16-4.svg",width=4,height=4);draw4();dev.off()

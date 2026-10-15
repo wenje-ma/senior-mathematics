@@ -1,0 +1,19 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week29: exponential decay (29-1,29-2)
+draw1=function(){
+  x=seq(-2,3,len=200)
+  plot(x,0.5^x,type="l",lwd=2,ylim=c(0,5),xlab="x",ylab="y")
+  abline(h=0,v=0,lty=3)
+  points(0,1,pch=19)
+}
+pdf("../figures/week29-1.pdf",width=4,height=4);draw1();dev.off()
+svglite::svglite("../figures/week29-1.svg",width=4,height=4);draw1();dev.off()
+draw2=function(){
+  t=seq(0,5,len=200)
+  plot(t,exp(-0.5*t),type="l",lwd=2,ylim=c(0,1.1),xlab="t",ylab="P/P0")
+  abline(h=0,lty=3)
+  points(0,1,pch=19)
+}
+pdf("../figures/week29-2.pdf",width=4,height=4);draw2();dev.off()
+svglite::svglite("../figures/week29-2.svg",width=4,height=4);draw2();dev.off()

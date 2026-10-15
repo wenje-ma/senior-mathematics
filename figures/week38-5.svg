@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='288.00pt' height='288.00pt' viewBox='0 0 288.00 288.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwyODguMDB8MC4wMHwyODguMDA='>
+    <rect x='0.00' y='0.00' width='288.00' height='288.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwyODguMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpMTQuNDB8MjczLjYwfDE0LjQwfDI3My42MA=='>
+    <rect x='14.40' y='14.40' width='259.20' height='259.20' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTQuNDB8MjczLjYwfDE0LjQwfDI3My42MA==)'>
+<line x1='41.14' y1='240.77' x2='41.14' y2='85.94' style='stroke-width: 0.75;' />
+<line x1='41.14' y1='240.77' x2='85.71' y2='240.77' style='stroke-width: 0.75;' />
+<line x1='41.14' y1='85.94' x2='85.71' y2='240.77' style='stroke-width: 0.75;' />
+<text x='36.00' y='86.36' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='8.00px' lengthAdjust='spacingAndGlyphs'>A</text>
+<text x='36.00' y='256.69' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='8.00px' lengthAdjust='spacingAndGlyphs'>B</text>
+<text x='90.86' y='245.07' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>C</text>
+<line x1='99.43' y1='147.87' x2='123.43' y2='147.87' style='stroke-width: 0.75;' />
+<polyline points='117.19,151.47 123.43,147.87 117.19,144.27 ' style='stroke-width: 0.75;' />
+<polyline points='216.00,240.77 215.94,239.20 215.75,237.64 215.44,236.09 215.01,234.55 214.46,233.04 213.79,231.57 213.00,230.13 212.11,228.73 211.10,227.38 209.99,226.09 208.78,224.85 207.48,223.68 206.08,222.58 204.60,221.55 203.04,220.59 201.41,219.72 199.72,218.94 197.96,218.24 196.16,217.63 194.30,217.12 192.42,216.70 190.50,216.38 188.56,216.15 186.61,216.03 184.65,216.00 182.70,216.08 180.75,216.25 178.82,216.53 176.92,216.90 175.05,217.36 173.22,217.92 171.44,218.58 169.71,219.32 168.05,220.15 166.46,221.06 164.94,222.05 163.50,223.12 162.15,224.26 160.89,225.46 159.73,226.73 158.67,228.05 157.72,229.42 156.87,230.84 156.15,232.30 155.54,233.79 155.04,235.32 154.67,236.86 154.43,238.42 154.30,239.99 154.30,241.56 154.43,243.13 154.67,244.69 155.04,246.23 155.54,247.75 156.15,249.25 156.87,250.71 157.72,252.13 158.67,253.50 159.73,254.82 160.89,256.09 162.15,257.29 163.50,258.43 164.94,259.50 166.46,260.49 168.05,261.40 169.71,262.23 171.44,262.97 173.22,263.62 175.05,264.19 176.92,264.65 178.82,265.02 180.75,265.30 182.70,265.47 184.65,265.55 186.61,265.52 188.56,265.40 190.50,265.17 192.42,264.85 194.30,264.43 196.16,263.92 197.96,263.31 199.72,262.61 201.41,261.83 203.04,260.95 204.60,260.00 206.08,258.97 207.48,257.87 208.78,256.70 209.99,255.46 211.10,254.17 212.11,252.82 213.00,251.42 213.79,249.98 214.46,248.50 215.01,247.00 215.44,245.46 215.75,243.91 215.94,242.35 216.00,240.77 ' style='stroke-width: 0.75;' />
+<line x1='154.29' y1='240.77' x2='185.14' y2='70.45' style='stroke-width: 0.75;' />
+<line x1='216.00' y1='240.77' x2='185.14' y2='70.45' style='stroke-width: 0.75;' />
+<line x1='185.14' y1='70.45' x2='185.14' y2='264.00' style='stroke-width: 0.75; stroke-dasharray: 4.00,4.00;' />
+<text x='188.57' y='63.14' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='8.00px' lengthAdjust='spacingAndGlyphs'>S</text>
+<text x='185.14' y='264.43' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='9.33px' lengthAdjust='spacingAndGlyphs'>O</text>
+</g>
+</g>
+</svg>

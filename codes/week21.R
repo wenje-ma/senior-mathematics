@@ -1,0 +1,57 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week21: sine/cosine graphs (21-1..21-6)
+draw1=function(){
+  x=seq(-pi/2,3*pi/2,len=400)
+  plot(x,sin(x),type="l",lty=1,lwd=2,ylim=c(-1.2,1.2),xlab="x",ylab="y",xaxt="n")
+  lines(x,cos(x),lty=2,lwd=2)
+  abline(h=0,v=0,lty=3)
+  axis(1,at=c(-pi/2,0,pi/2,pi,3*pi/2),labels=expression(-pi/2,0,pi/2,pi,3*pi/2))
+}
+pdf("../figures/week21-1.pdf",width=4,height=4);draw1();dev.off()
+svglite::svglite("../figures/week21-1.svg",width=4,height=4);draw1();dev.off()
+draw2=function(){
+  par(mfrow=c(1,2),mar=c(4,4,2,1))
+  x=seq(-pi,pi,len=200)
+  plot(x,-sin(x),type="l",lwd=2,ylim=c(-1.2,1.2),xlab="x",ylab="y",main="(1)")
+  abline(h=0,lty=3)
+  plot(x,2-cos(x),type="l",lwd=2,ylim=c(0.5,3.5),xlab="x",ylab="y",main="(2)")
+  abline(h=0,lty=3)
+}
+pdf("../figures/week21-2.pdf",width=8,height=4);draw2();dev.off()
+svglite::svglite("../figures/week21-2.svg",width=8,height=4);draw2();dev.off()
+draw3=function(){
+  x=seq(0,2*pi,len=400)
+  plot(x,abs(sin(x)),type="l",lwd=2,ylim=c(0,1.2),xlab="x",ylab="y",xaxt="n")
+  abline(h=0,v=0,lty=3)
+  axis(1,at=c(0,pi/2,pi,3*pi/2,2*pi),labels=expression(0,pi/2,pi,3*pi/2,2*pi))
+}
+pdf("../figures/week21-3.pdf",width=4,height=4);draw3();dev.off()
+svglite::svglite("../figures/week21-3.svg",width=4,height=4);draw3();dev.off()
+draw4=function(){
+  par(mfrow=c(1,2),mar=c(4,4,2,1))
+  x=seq(0,2*pi,len=200)
+  plot(x,1-sin(x),type="l",lwd=2,ylim=c(-0.2,2.2),xlab="x",ylab="y",main="(1)")
+  abline(h=0,lty=3)
+  plot(x,3*cos(x)+1,type="l",lwd=2,ylim=c(-2.5,4.5),xlab="x",ylab="y",main="(2)")
+  abline(h=0,lty=3)
+}
+pdf("../figures/week21-4.pdf",width=8,height=4);draw4();dev.off()
+svglite::svglite("../figures/week21-4.svg",width=8,height=4);draw4();dev.off()
+draw5=function(){
+  x=seq(0,2*pi,len=400)
+  plot(x,2*sin(x),type="l",lwd=2,ylim=c(-2.2,2.2),xlab="x",ylab="y",xaxt="n")
+  abline(h=0,v=0,lty=3)
+  axis(1,at=c(0,pi/2,pi,3*pi/2,2*pi),labels=expression(0,pi/2,pi,3*pi/2,2*pi))
+}
+pdf("../figures/week21-5.pdf",width=4,height=4);draw5();dev.off()
+svglite::svglite("../figures/week21-5.svg",width=4,height=4);draw5();dev.off()
+draw6=function(){
+  f=function(x){u=((x%%2)+2)%%2;ifelse(u<=1,u,2-u)}
+  x=seq(-2.5,4,len=1000)
+  plot(x,f(x),type="l",lwd=2,ylim=c(0,1.3),xlab="x",ylab="y")
+  abline(h=0,v=0,lty=3)
+  points(c(-1,1,3),c(1,1,1),pch=19)
+}
+pdf("../figures/week21-6.pdf",width=4,height=4);draw6();dev.off()
+svglite::svglite("../figures/week21-6.svg",width=4,height=4);draw6();dev.off()

@@ -6,9 +6,9 @@
 
 > **常用结论 4.3.3** (对数与指数的关系) <br>当 $a>0$, $a\neq 1$ 时, $a^x=N\Leftrightarrow x=\log_a N$. 负数和 $0$ 没有对数; $\log_a 1=0$, $\log_a a=1$.
 
-> **常用结论 4.3.4** (对数运算性质) <br>如果 $a>0$, 且 $a\neq 1$, $M>0$, $N>0$, 那么 (1) $\log_a(MN)=\log_a M+\log_a N$; (2) $\log_a\dfrac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
+> **常用结论 4.3.4** (对数运算性质) <br>如果 $a>0$, 且 $a\neq 1$, $M>0$, $N>0$, 那么 (1) $\log_a(MN)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
 
-> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\dfrac{\log_c b}{\log_c a}$ ($a>0$, 且 $a\neq 1$; $b>0$; $c>0$, 且 $c\neq 1$).
+> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, 且 $a\neq 1$; $b>0$; $c>0$, 且 $c\neq 1$).
 
 ### 练习一
 
@@ -18,13 +18,13 @@
 
 (2) $\mathrm e^{\sqrt{3}}=m$;
 
-(3) $27^{-\frac{1}{3}}=\dfrac{1}{3}$;
+(3) $27^{-\frac{1}{3}}=\frac{1}{3}$;
 
 (4) $\log_3 9=2$;
 
 (5) $\lg n=2.3$;
 
-(6) $\log_3\dfrac{1}{81}=-4$.
+(6) $\log_3\frac{1}{81}=-4$.
 
 ### 解答 练习一
 
@@ -34,13 +34,13 @@
 
 (2) $\mathrm e^{\sqrt{3}}=m$ 化为自然对数式: $\ln m=\sqrt{3}$.
 
-(3) $27^{-\frac{1}{3}}=\dfrac{1}{3}$ 化为对数式: $\log_{27}\dfrac{1}{3}=-\dfrac{1}{3}$.
+(3) $27^{-\frac{1}{3}}=\frac{1}{3}$ 化为对数式: $\log_{27}\frac{1}{3}=-\frac{1}{3}$.
 
 (4) $\log_3 9=2$ 化为指数式: $3^2=9$.
 
 (5) $\lg n=2.3$ 化为指数式: $10^{2.3}=n$.
 
-(6) $\log_3\dfrac{1}{81}=-4$ 化为指数式: $3^{-4}=\dfrac{1}{81}$. $\blacksquare$
+(6) $\log_3\frac{1}{81}=-4$ 化为指数式: $3^{-4}=\frac{1}{81}$. $\blacksquare$
 
 ### 练习二
 
@@ -50,7 +50,7 @@
 
 (2) $\log_{0.4} 1$;
 
-(3) $\ln\dfrac{1}{\mathrm e}$;
+(3) $\ln\frac{1}{\mathrm e}$;
 
 (4) $\lg 0.001$.
 
@@ -62,7 +62,7 @@
 
 (2) 由**常用结论 4.3.3**, $\log_{0.4} 1=0$.
 
-(3) $\ln\dfrac{1}{\mathrm e}=\ln\mathrm e^{-1}=-1$.
+(3) $\ln\frac{1}{\mathrm e}=\ln\mathrm e^{-1}=-1$.
 
 (4) $\lg 0.001=\lg 10^{-3}=-3$. $\blacksquare$
 
@@ -82,13 +82,13 @@
 
 由**常用结论 4.3.3** (对数与指数的关系), 将对数式化为指数式求解.
 
-(1) $\log_{\frac{1}{3}} x=-3$ 化为 $x=\left(\dfrac{1}{3}\right)^{-3}=3^3=27$.
+(1) $\log_{\frac{1}{3}} x=-3$ 化为 $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
 
 (2) $\log_x 49=4$ 化为 $x^4=49$, 又 $x>0$ 且 $x\neq 1$, 故 $x=\sqrt[4]{49}=\sqrt{7}$.
 
 (3) $\lg 0.00001=x$ 化为 $10^x=0.00001=10^{-5}$, 故 $x=-5$.
 
-(4) $\ln\sqrt{\mathrm e}=-x$ 化为 $\mathrm e^{-x}=\sqrt{\mathrm e}=\mathrm e^{\frac{1}{2}}$, 故 $-x=\dfrac{1}{2}$, 即 $x=-\dfrac{1}{2}$. $\blacksquare$
+(4) $\ln\sqrt{\mathrm e}=-x$ 化为 $\mathrm e^{-x}=\sqrt{\mathrm e}=\mathrm e^{\frac{1}{2}}$, 故 $-x=\frac{1}{2}$, 即 $x=-\frac{1}{2}$. $\blacksquare$
 
 ### 练习四
 
@@ -98,7 +98,7 @@
 
 (2) $\lg 5+\lg 2$;
 
-(3) $\ln 3+\ln\dfrac{1}{3}$;
+(3) $\ln 3+\ln\frac{1}{3}$;
 
 (4) $\log_3 5-\log_3 15$.
 
@@ -110,9 +110,9 @@
 
 (2) 由 (1), $\lg 5+\lg 2=\lg 10=1$.
 
-(3) 由 (1), $\ln 3+\ln\dfrac{1}{3}=\ln 1=0$.
+(3) 由 (1), $\ln 3+\ln\frac{1}{3}=\ln 1=0$.
 
-(4) 由 (2), $\log_3 5-\log_3 15=\log_3\dfrac{5}{15}=\log_3\dfrac{1}{3}=-1$. $\blacksquare$
+(4) 由 (2), $\log_3 5-\log_3 15=\log_3\frac{5}{15}=\log_3\frac{1}{3}=-1$. $\blacksquare$
 
 ### 练习五
 
@@ -120,11 +120,11 @@
 
 (1) $\lg(xyz)$;
 
-(2) $\lg\dfrac{xy^2}{z}$;
+(2) $\lg\frac{xy^2}{z}$;
 
-(3) $\lg\dfrac{xy^3}{\sqrt{z}}$;
+(3) $\lg\frac{xy^3}{\sqrt{z}}$;
 
-(4) $\lg\dfrac{\sqrt{x}}{y^2 z}$.
+(4) $\lg\frac{\sqrt{x}}{y^2 z}$.
 
 ### 解答 练习五
 
@@ -132,11 +132,11 @@
 
 (1) 由 (1), $\lg(xyz)=\lg x+\lg y+\lg z$.
 
-(2) 由 (1) (2), $\lg\dfrac{xy^2}{z}=\lg x+2\lg y-\lg z$.
+(2) 由 (1) (2), $\lg\frac{xy^2}{z}=\lg x+2\lg y-\lg z$.
 
-(3) 由 (1) (2) (3), $\lg\dfrac{xy^3}{\sqrt{z}}=\lg x+3\lg y-\dfrac{1}{2}\lg z$.
+(3) 由 (1) (2) (3), $\lg\frac{xy^3}{\sqrt{z}}=\lg x+3\lg y-\frac{1}{2}\lg z$.
 
-(4) 由 (1) (2) (3), $\lg\dfrac{\sqrt{x}}{y^2 z}=\dfrac{1}{2}\lg x-2\lg y-\lg z$. $\blacksquare$
+(4) 由 (1) (2) (3), $\lg\frac{\sqrt{x}}{y^2 z}=\frac{1}{2}\lg x-2\lg y-\lg z$. $\blacksquare$
 
 ### 练习六
 
@@ -150,12 +150,12 @@
 
 由**常用结论 4.3.5** (对数换底公式).
 
-(1) 由换底公式, $\log_a b=\dfrac{\ln b}{\ln a}$, 故原式 $=\dfrac{\ln 3}{\ln 2}\cdot\dfrac{\ln 4}{\ln 3}\cdot\dfrac{\ln 5}{\ln 4}\cdot\dfrac{\ln 2}{\ln 5}=1$.
+(1) 由换底公式, $\log_a b=\frac{\ln b}{\ln a}$, 故原式 $=\frac{\ln 3}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 5}{\ln 4}\cdot\frac{\ln 2}{\ln 5}=1$.
 
-(2) 由换底公式, $\log_4 3=\dfrac{\ln 3}{2\ln 2}$, $\log_8 3=\dfrac{\ln 3}{3\ln 2}$, $\log_3 2=\dfrac{\ln 2}{\ln 3}$, $\log_9 2=\dfrac{\ln 2}{2\ln 3}$. 代入得
+(2) 由换底公式, $\log_4 3=\frac{\ln 3}{2\ln 2}$, $\log_8 3=\frac{\ln 3}{3\ln 2}$, $\log_3 2=\frac{\ln 2}{\ln 3}$, $\log_9 2=\frac{\ln 2}{2\ln 3}$. 代入得
 
 $$
-2\cdot\dfrac{\ln 3}{\ln 2}\left(\dfrac{1}{2}+\dfrac{1}{3}\right)\cdot\dfrac{\ln 2}{\ln 3}\left(1+\dfrac{1}{2}\right)=2\cdot\dfrac{5}{6}\cdot\dfrac{3}{2}=\dfrac{5}{2}.
+2\cdot\frac{\ln 3}{\ln 2}\left(\frac{1}{2}+\frac{1}{3}\right)\cdot\frac{\ln 2}{\ln 3}\left(1+\frac{1}{2}\right)=2\cdot\frac{5}{6}\cdot\frac{3}{2}=\frac{5}{2}.
 $$
 
 $\blacksquare$
@@ -166,7 +166,7 @@ $\blacksquare$
 
 (1) $3^x=1$;
 
-(2) $4^x=\dfrac{1}{6}$;
+(2) $4^x=\frac{1}{6}$;
 
 (3) $10^x=6$;
 
@@ -174,7 +174,7 @@ $\blacksquare$
 
 (5) $x=\log_5 27$;
 
-(6) $x=\log_7\dfrac{1}{3}$;
+(6) $x=\log_7\frac{1}{3}$;
 
 (7) $x=\lg 0.3$;
 
@@ -186,7 +186,7 @@ $\blacksquare$
 
 (1) $3^x=1$ 化为 $\log_3 1=x$.
 
-(2) $4^x=\dfrac{1}{6}$ 化为 $\log_4\dfrac{1}{6}=x$.
+(2) $4^x=\frac{1}{6}$ 化为 $\log_4\frac{1}{6}=x$.
 
 (3) $10^x=6$ 化为 $\lg 6=x$.
 
@@ -194,7 +194,7 @@ $\blacksquare$
 
 (5) $x=\log_5 27$ 化为 $5^x=27$.
 
-(6) $x=\log_7\dfrac{1}{3}$ 化为 $7^x=\dfrac{1}{3}$.
+(6) $x=\log_7\frac{1}{3}$ 化为 $7^x=\frac{1}{3}$.
 
 (7) $x=\lg 0.3$ 化为 $10^x=0.3$.
 
@@ -206,17 +206,17 @@ $\blacksquare$
 
 (1) 使式子 $\log_{(2x-1)}(2-x)$ 有意义的 $x$ 的取值范围是 ( ).
 
-(A) $x>2$ (B) $x<2$ (C) $\dfrac{1}{2}<x<2$ (D) $\dfrac{1}{2}<x<2$, 且 $x\neq 1$
+(A) $x>2$ (B) $x<2$ (C) $\frac{1}{2}<x<2$ (D) $\frac{1}{2}<x<2$, 且 $x\neq 1$
 
 (2) 若 $\lg a$ ($a>0$) 与 $\lg b$ ($b>0$) 互为相反数, 则 ( ).
 
-(A) $a+b=0$ (B) $a-b=0$ (C) $ab=1$ (D) $\dfrac{a}{b}=1$
+(A) $a+b=0$ (B) $a-b=0$ (C) $ab=1$ (D) $\frac{a}{b}=1$
 
 ### 解答 习题二
 
 由**定义 4.3.1** (对数) 与**常用结论 4.3.4** (对数运算性质).
 
-(1) 对数 $\log_{(2x-1)}(2-x)$ 有意义要求底数 $2x-1>0$ 且 $2x-1\neq 1$, 真数 $2-x>0$. 即 $x>\dfrac{1}{2}$, $x\neq 1$, $x<2$. 综合得 $\dfrac{1}{2}<x<2$ 且 $x\neq 1$, 故选 (D).
+(1) 对数 $\log_{(2x-1)}(2-x)$ 有意义要求底数 $2x-1>0$ 且 $2x-1\neq 1$, 真数 $2-x>0$. 即 $x>\frac{1}{2}$, $x\neq 1$, $x<2$. 综合得 $\frac{1}{2}<x<2$ 且 $x\neq 1$, 故选 (D).
 
 (2) $\lg a$ 与 $\lg b$ 互为相反数, 即 $\lg a+\lg b=0$. 由**常用结论 4.3.4** (1), $\lg(ab)=0$, 故 $ab=1$, 选 (C). $\blacksquare$
 
@@ -224,11 +224,11 @@ $\blacksquare$
 
 (习题 4.3 复习巩固第 3 题) 求下列各式的值.
 
-(1) $\log_a 2+\log_a\dfrac{1}{2}$;
+(1) $\log_a 2+\log_a\frac{1}{2}$;
 
 (2) $\log_3 18-\log_3 2$;
 
-(3) $\lg\dfrac{1}{4}-\lg 25$;
+(3) $\lg\frac{1}{4}-\lg 25$;
 
 (4) $2\log_5 25-3\log_2 64$;
 
@@ -240,17 +240,17 @@ $\blacksquare$
 
 由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.5** (对数换底公式).
 
-(1) 由 (1), $\log_a 2+\log_a\dfrac{1}{2}=\log_a 1=0$.
+(1) 由 (1), $\log_a 2+\log_a\frac{1}{2}=\log_a 1=0$.
 
 (2) 由 (2), $\log_3 18-\log_3 2=\log_3 9=2$.
 
-(3) 由 (2), $\lg\dfrac{1}{4}-\lg 25=\lg\dfrac{1}{100}=-2$.
+(3) 由 (2), $\lg\frac{1}{4}-\lg 25=\lg\frac{1}{100}=-2$.
 
 (4) $2\log_5 25-3\log_2 64=2\times 2-3\times 6=-14$.
 
 (5) $\log_2(\log_2 16)=\log_2 4=2$.
 
-(6) 由换底公式, 原式 $=\dfrac{\ln 25}{\ln 2}\cdot\dfrac{\ln 4}{\ln 3}\cdot\dfrac{\ln 9}{\ln 5}=\dfrac{2\ln 5}{\ln 2}\cdot\dfrac{2\ln 2}{\ln 3}\cdot\dfrac{2\ln 3}{\ln 5}=8$. $\blacksquare$
+(6) 由换底公式, 原式 $=\frac{\ln 25}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 9}{\ln 5}=\frac{2\ln 5}{\ln 2}\cdot\frac{2\ln 2}{\ln 3}\cdot\frac{2\ln 3}{\ln 5}=8$. $\blacksquare$
 
 ### 习题四
 
@@ -260,7 +260,7 @@ $\blacksquare$
 
 (2) $\lg x=3\lg n-\lg m$;
 
-(3) $\log_a x=\dfrac{1}{2}\log_a b-\log_a c$;
+(3) $\log_a x=\frac{1}{2}\log_a b-\log_a c$;
 
 (4) $\log_2\left[\log_3(\log_4 x)\right]=0$.
 
@@ -270,9 +270,9 @@ $\blacksquare$
 
 (1) 由 (1), $\ln x=\ln(ab)$, 故 $x=ab$.
 
-(2) 由 (1) (2), $\lg x=\lg\dfrac{n^3}{m}$, 故 $x=\dfrac{n^3}{m}$.
+(2) 由 (1) (2), $\lg x=\lg\frac{n^3}{m}$, 故 $x=\frac{n^3}{m}$.
 
-(3) 由 (2) (3), $\log_a x=\log_a\dfrac{\sqrt{b}}{c}$, 故 $x=\dfrac{\sqrt{b}}{c}$.
+(3) 由 (2) (3), $\log_a x=\log_a\frac{\sqrt{b}}{c}$, 故 $x=\frac{\sqrt{b}}{c}$.
 
 (4) $\log_2\left[\log_3(\log_4 x)\right]=0$, 由 $\log_a 1=0$, 得 $\log_3(\log_4 x)=1$; 由 $a^1=a$, 得 $\log_4 x=3$; 故 $x=4^3=64$. $\blacksquare$
 
@@ -286,7 +286,7 @@ $\blacksquare$
 
 (3) $\log_2 12$;
 
-(4) $\lg\dfrac{3}{2}$.
+(4) $\lg\frac{3}{2}$.
 
 ### 解答 习题五
 
@@ -294,11 +294,11 @@ $\blacksquare$
 
 (1) $\lg 6=\lg(2\times 3)=\lg 2+\lg 3=a+b$.
 
-(2) 由换底公式, $\log_3 4=\dfrac{\lg 4}{\lg 3}=\dfrac{2\lg 2}{\lg 3}=\dfrac{2a}{b}$.
+(2) 由换底公式, $\log_3 4=\frac{\lg 4}{\lg 3}=\frac{2\lg 2}{\lg 3}=\frac{2a}{b}$.
 
-(3) 由换底公式, $\log_2 12=\dfrac{\lg 12}{\lg 2}=\dfrac{\lg(3\times 4)}{\lg 2}=\dfrac{b+2a}{a}$.
+(3) 由换底公式, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg(3\times 4)}{\lg 2}=\frac{b+2a}{a}$.
 
-(4) $\lg\dfrac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
+(4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
 
 ### 习题六
 
@@ -312,7 +312,7 @@ $\blacksquare$
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 由 $x\log_3 4=1$, 得 $x=\log_4 3$. 故 $4^x=3$, $4^{-x}=\dfrac{1}{3}$, 从而 $4^x+4^{-x}=3+\dfrac{1}{3}=\dfrac{10}{3}$.
+(1) 由 $x\log_3 4=1$, 得 $x=\log_4 3$. 故 $4^x=3$, $4^{-x}=\frac{1}{3}$, 从而 $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
 
 (2) $f(\log_3 2)=3^{\log_3 2}=2$. $\blacksquare$
 
@@ -322,15 +322,15 @@ $\blacksquare$
 
 (1) $\log_a b\cdot\log_b c\cdot\log_c a=1$;
 
-(2) $\log_{a^m} b^n=\dfrac{n}{m}\log_a b$.
+(2) $\log_{a^m} b^n=\frac{n}{m}\log_a b$.
 
 ### 解答 习题七
 
 由**常用结论 4.3.5** (对数换底公式).
 
-(1) 由换底公式, $\log_a b=\dfrac{\ln b}{\ln a}$, $\log_b c=\dfrac{\ln c}{\ln b}$, $\log_c a=\dfrac{\ln a}{\ln c}$. 三式相乘得 $\log_a b\cdot\log_b c\cdot\log_c a=\dfrac{\ln b}{\ln a}\cdot\dfrac{\ln c}{\ln b}\cdot\dfrac{\ln a}{\ln c}=1$.
+(1) 由换底公式, $\log_a b=\frac{\ln b}{\ln a}$, $\log_b c=\frac{\ln c}{\ln b}$, $\log_c a=\frac{\ln a}{\ln c}$. 三式相乘得 $\log_a b\cdot\log_b c\cdot\log_c a=\frac{\ln b}{\ln a}\cdot\frac{\ln c}{\ln b}\cdot\frac{\ln a}{\ln c}=1$.
 
-(2) 由换底公式, $\log_{a^m} b^n=\dfrac{\ln b^n}{\ln a^m}=\dfrac{n\ln b}{m\ln a}=\dfrac{n}{m}\log_a b$. $\blacksquare$
+(2) 由换底公式, $\log_{a^m} b^n=\frac{\ln b^n}{\ln a^m}=\frac{n\ln b}{m\ln a}=\frac{n}{m}\log_a b$. $\blacksquare$
 
 ### 习题八
 
@@ -340,7 +340,7 @@ $\blacksquare$
 
 由**常用结论 4.3.3** (对数与指数的关系), 翻两番即变为原来的 $4$ 倍.
 
-设经过 $x$ 年后国内生产总值翻两番, 则 $1.065^x=4$. 由对数定义, $x=\log_{1.065} 4$. 由换底公式, $x=\dfrac{\lg 4}{\lg 1.065}\approx\dfrac{0.602}{0.0273}\approx 22$. 故约 $22$ 年后该地国内生产总值翻两番. $\blacksquare$
+设经过 $x$ 年后国内生产总值翻两番, 则 $1.065^x=4$. 由对数定义, $x=\log_{1.065} 4$. 由换底公式, $x=\frac{\lg 4}{\lg 1.065}\approx\frac{0.602}{0.0273}\approx 22$. 故约 $22$ 年后该地国内生产总值翻两番. $\blacksquare$
 
 ### 习题九
 
@@ -354,9 +354,9 @@ $\blacksquare$
 
 由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.5** (对数换底公式).
 
-(1) 一年后进步与落后的倍数为 $\dfrac{1.01^{365}}{0.99^{365}}=\left(\dfrac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
+(1) 一年后进步与落后的倍数为 $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
 
-(2) 设经过 $x$ 天后进步是落后的 $k$ 倍, 则 $\left(\dfrac{1.01}{0.99}\right)^x=k$, 故 $x=\log_{1.01/0.99} k=\dfrac{\lg k}{\lg(1.01/0.99)}$. 当 $k=10$ 时, $x\approx\dfrac{1}{0.0087}\approx 115$ 天; 当 $k=100$ 时, $x\approx 230$ 天; 当 $k=1000$ 时, $x\approx 345$ 天. $\blacksquare$
+(2) 设经过 $x$ 天后进步是落后的 $k$ 倍, 则 $\left(\frac{1.01}{0.99}\right)^x=k$, 故 $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg(1.01/0.99)}$. 当 $k=10$ 时, $x\approx\frac{1}{0.0087}\approx 115$ 天; 当 $k=100$ 时, $x\approx 230$ 天; 当 $k=1000$ 时, $x\approx 345$ 天. $\blacksquare$
 
 ### 习题十
 
@@ -366,4 +366,4 @@ $\blacksquare$
 
 由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.5** (对数换底公式).
 
-每小时减少 $30\%$, 即每小时酒精含量为原来的 $0.7$. 初始含量为 $1\;\mathrm{mg/mL}$, 经过 $t$ 小时后含量为 $0.7^t\;\mathrm{mg/mL}$. 酒后驾车标准为 $100\;\mathrm{mL}$ 中 $20\;\mathrm{mg}$, 即 $0.2\;\mathrm{mg/mL}$, 要能驾驶须 $0.7^t<0.2$. 由对数定义, $t>\log_{0.7} 0.2=\dfrac{\lg 0.2}{\lg 0.7}\approx\dfrac{-0.699}{-0.155}\approx 4.5$. 故他至少经过 $5$ 个小时才能驾驶. $\blacksquare$
+每小时减少 $30\%$, 即每小时酒精含量为原来的 $0.7$. 初始含量为 $1\;\mathrm{mg/mL}$, 经过 $t$ 小时后含量为 $0.7^t\;\mathrm{mg/mL}$. 酒后驾车标准为 $100\;\mathrm{mL}$ 中 $20\;\mathrm{mg}$, 即 $0.2\;\mathrm{mg/mL}$, 要能驾驶须 $0.7^t<0.2$. 由对数定义, $t>\log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. 故他至少经过 $5$ 个小时才能驾驶. $\blacksquare$

@@ -1,0 +1,20 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week6-1: outer field rectangle, inner warehouse rectangle centered, 5 m gaps
+draw1=function(){
+  plot(0,0,xlim=c(0,10),ylim=c(0,8),type="n",asp=1,axes=FALSE,xlab="",ylab="")
+  rect(1,1,9,7,lwd=1.5)
+  rect(2.5,3.0,7.5,5.0,lwd=1.5)
+  text(5,4,"warehouse",font=2,cex=0.9)
+  text(5,6.0,"5 m",pos=3)
+  text(5,2.0,"5 m",pos=1)
+  text(1.75,4,"5 m",pos=4)
+  text(8.25,4,"5 m",pos=2)
+  text(1.3,1.3,"lawn",pos=4,cex=0.9)
+}
+cairo_pdf("../figures/week6-1.pdf",width=4,height=4,family="SimSun")
+draw1()
+dev.off()
+svglite::svglite("../figures/week6-1.svg",width=4,height=4)
+draw1()
+dev.off()

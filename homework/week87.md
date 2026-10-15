@@ -2,15 +2,15 @@
 
 > **定义 7.5.1** (连续型随机变量) <br>对于随机变量 $X$, 如果它可以取某一区间内的任意值, 称 $X$ 为连续型随机变量.
 
-> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f(x)=\dfrac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N(\mu,\sigma^2)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
+> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N(\mu,\sigma^2)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
 
-> **结论 7.5.3** (正态曲线的性质) <br>正态曲线关于直线 $x=\mu$ 对称, 在 $x=\mu$ 处达到峰值 $\dfrac{1}{\sigma\sqrt{2\pi}}$; 且 $E(X)=\mu$, $D(X)=\sigma^2$.
+> **结论 7.5.3** (正态曲线的性质) <br>正态曲线关于直线 $x=\mu$ 对称, 在 $x=\mu$ 处达到峰值 $\frac{1}{\sigma\sqrt{2\pi}}$; 且 $\mathbb E(X)=\mu$, $D(X)=\sigma^2$.
 
-> **结论 7.5.4** ($3\sigma$ 原则) <br>若 $X\sim N(\mu,\sigma^2)$, 则 $P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$, $P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545$, $P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973$.
+> **结论 7.5.4** ($3\sigma$ 原则) <br>若 $X\sim N(\mu,\sigma^2)$, 则 $\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$, $\mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545$, $\mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973$.
 
 ### 练习一
 
-(练习 7.5 第 1 题) 已知 $X\sim N(0,1)$, 则正态密度函数为 $\;\_\_\;$, $P(X\le 0)=\;\_\_\;$, $P(|X|\le 1)=\;\_\_\;$, $P(X\le 1)=\;\_\_\;$, $P(X>1)=\;\_\_\;$.
+(练习 7.5 第 1 题) 已知 $X\sim N(0,1)$, 则正态密度函数为 $\;\_\_\;$, $\mathbb P(X\le 0)=\;\_\_\;$, $\mathbb P(\lvert X\rvert\le 1)=\;\_\_\;$, $\mathbb P(X\le 1)=\;\_\_\;$, $\mathbb P(X>1)=\;\_\_\;$.
 
 ### 解答 练习一
 
@@ -22,11 +22,11 @@ $$
 f(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}.
 $$
 
-由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $P(X\le 0)=0.5$.
+由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb P(X\le 0)=0.5$.
 
-由**结论 7.5.4** ($3\sigma$ 原则), $P(|X|\le 1)\approx 0.6827$. 又 $P(X\le 1)=0.5+\dfrac{0.6827}{2}\approx 0.8413$, 故 $P(X>1)=1-0.8413=0.1587$.
+由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P(\lvert X\rvert\le 1)\approx 0.6827$. 又 $\mathbb P(X\le 1)=0.5+\frac{0.6827}{2}\approx 0.8413$, 故 $\mathbb P(X>1)=1-0.8413=0.1587$.
 
-填空处依次为 $f(x)=\dfrac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$, $0.5$, $0.6827$, $0.8413$, $0.1587$. $\blacksquare$
+填空处依次为 $f(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$, $0.5$, $0.6827$, $0.8413$, $0.1587$. $\blacksquare$
 
 ### 练习二
 
@@ -34,9 +34,11 @@ $$
 
 (1) 画出它们的密度曲线草图;
 
-(2) 比较 $P(X\le -2)$ 与 $P(X\le 2)$ 的大小关系;
+(2) 比较 $\mathbb P(X\le -2)$ 与 $\mathbb P(X\le 2)$ 的大小关系;
 
-(3) 比较 $P(|X|\le 1)$ 与 $P(|Y|\le 1)$ 的大小.
+(3) 比较 $\mathbb P(\lvert X\rvert\le 1)$ 与 $\mathbb P(\lvert Y\rvert\le 1)$ 的大小.
+
+![week87-1.svg](../figures/week87-1.svg){width=50%}
 
 ### 解答 练习二
 
@@ -44,9 +46,9 @@ $$
 
 (1) 两条密度曲线都关于 $x=0$ 对称, 呈钟形. $X$ 的标准差为 2, $Y$ 的标准差为 3, 故 $X$ 的曲线更陡峻, 更集中在 0 附近, $Y$ 的曲线更扁平, 更分散.
 
-(2) 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $P(X\le -2)=P(X\ge 2)=1-P(X\le 2)$. 二者不相等, 且 $P(X\le -2)<P(X\le 2)$.
+(2) 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb P(X\le -2)=\mathbb P(X\ge 2)=1-\mathbb P(X\le 2)$. 二者不相等, 且 $\mathbb P(X\le -2)<\mathbb P(X\le 2)$.
 
-(3) $X$ 的标准差较小, 取值更集中在均值 0 附近, 故落在区间 $[-1,1]$ 内的概率更大, 即 $P(|X|\le 1)>P(|Y|\le 1)$. $\blacksquare$
+(3) $X$ 的标准差较小, 取值更集中在均值 0 附近, 故落在区间 $[-1,1]$ 内的概率更大, 即 $\mathbb P(\lvert X\rvert\le 1)>\mathbb P(\lvert Y\rvert\le 1)$. $\blacksquare$
 
 ### 练习三
 
@@ -74,11 +76,11 @@ $$
 
 (习题 7.5 复习巩固第 2 题) 已知某地区成年男子的身高 $X\sim N(170,5^2)$ (单位: $\mathrm{cm}$). 求:
 
-(1) $P(165<X\le 175)$;
+(1) $\mathbb P(165<X\le 175)$;
 
-(2) $P(X\le 165)$;
+(2) $\mathbb P(X\le 165)$;
 
-(3) $P(X>175)$.
+(3) $\mathbb P(X>175)$.
 
 ### 解答 习题二
 
@@ -89,15 +91,15 @@ $$
 (1)
 
 $$
-P(165<X\le 175)=P(\mu-\sigma<X\le\mu+\sigma)\approx 0.6827.
+\mathbb P(165<X\le 175)=\mathbb P(\mu-\sigma<X\le\mu+\sigma)\approx 0.6827.
 $$
 
-(2) 由对称性, $P(X\le 165)=P(X\le\mu-\sigma)=\dfrac{1-0.6827}{2}\approx 0.1587$.
+(2) 由对称性, $\mathbb P(X\le 165)=\mathbb P(X\le\mu-\sigma)=\frac{1-0.6827}{2}\approx 0.1587$.
 
 (3)
 
 $$
-P(X>175)=P(X>\mu+\sigma)=\dfrac{1-0.6827}{2}\approx 0.1587.
+\mathbb P(X>175)=\mathbb P(X>\mu+\sigma)=\frac{1-0.6827}{2}\approx 0.1587.
 $$
 
 $\blacksquare$
@@ -110,10 +112,10 @@ $\blacksquare$
 
 由**结论 7.5.3** (正态曲线的性质) 与**结论 7.5.4** ($3\sigma$ 原则).
 
-由**结论 7.5.4** ($3\sigma$ 原则), $P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$. 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=\mu$ 对称, 区间 $[\mu-\sigma,\mu]$ 与 $[\mu,\mu+\sigma]$ 上的概率相等. 故
+由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$. 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=\mu$ 对称, 区间 $[\mu-\sigma,\mu]$ 与 $[\mu,\mu+\sigma]$ 上的概率相等. 故
 
 $$
-P(\mu\le X\le\mu+\sigma)=\frac{0.6827}{2}\approx 0.3414.
+\mathbb P(\mu\le X\le\mu+\sigma)=\frac{0.6827}{2}\approx 0.3414.
 $$
 
 $\blacksquare$
@@ -126,19 +128,19 @@ $\blacksquare$
 
 由**结论 7.5.4** ($3\sigma$ 原则).
 
-误差 $X$ 服从正态分布, 样本均值为 0, 样本方差为 4, 即 $\mu=0$, $\sigma=\sqrt{4}=2$. 合格即 $|X|\le 4=2\sigma$.
+误差 $X$ 服从正态分布, 样本均值为 0, 样本方差为 4, 即 $\mu=0$, $\sigma=\sqrt{4}=2$. 合格即 $\lvert X\rvert\le 4=2\sigma$.
 
 由**结论 7.5.4** ($3\sigma$ 原则),
 
 $$
-P(|X|\le 2\sigma)=P(-2\sigma\le X\le 2\sigma)\approx 0.9545.
+\mathbb P(\lvert X\rvert\le 2\sigma)=\mathbb P(-2\sigma\le X\le 2\sigma)\approx 0.9545.
 $$
 
 故这批食盐的合格率约为 $95.45\%$. $\blacksquare$
 
 ### 信息技术应用一
 
-(思考 1) 概率分布图及概率计算. 请你再选择一些正态分布 $N(\mu,\sigma^2)$, 分别计算 $P(\mu-\sigma\le X\le\mu+\sigma)$, $P(\mu-2\sigma\le X\le\mu+2\sigma)$, $P(\mu-3\sigma\le X\le\mu+3\sigma)$ 的值, 并总结这些值的规律.
+(思考 1) 概率分布图及概率计算. 请你再选择一些正态分布 $N(\mu,\sigma^2)$, 分别计算 $\mathbb P(\mu-\sigma\le X\le\mu+\sigma)$, $\mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)$, $\mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)$ 的值, 并总结这些值的规律.
 
 ### 解答 信息技术应用一
 
@@ -147,15 +149,15 @@ $$
 无论 $\mu$, $\sigma$ 取何值, 正态分布 $N(\mu,\sigma^2)$ 落在区间 $[\mu-\sigma,\mu+\sigma]$, $[\mu-2\sigma,\mu+2\sigma]$, $[\mu-3\sigma,\mu+3\sigma]$ 内的概率分别约为
 
 $$
-P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827.
+\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827.
 $$
 
 $$
-P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545.
+\mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545.
 $$
 
 $$
-P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973.
+\mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973.
 $$
 
 规律: 这三个概率只与区间宽度相对于标准差的倍数有关, 与 $\mu$, $\sigma$ 的具体取值无关. 正态变量几乎全部的取值落在 $[\mu-3\sigma,\mu+3\sigma]$ 内, 落在其外的概率仅约 $0.27\%$, 这就是 $3\sigma$ 原则. $\blacksquare$

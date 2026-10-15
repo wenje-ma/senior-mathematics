@@ -2,7 +2,7 @@
 
 > **定义 7.1.5** (复数相等) <br> $a+b\mathrm{i}$ 与 $c+d\mathrm{i}$ 相等当且仅当 $a=c$ 且 $b=d$.
 
-> **定义 7.1.9** (复数的模) <br> 向量 $\overrightarrow{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $|z|$, 即 $|z|=\sqrt{a^2+b^2}$.
+> **定义 7.1.9** (复数的模) <br> 向量 $\boldsymbol{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $\lvert z\rvert$, 即 $\lvert z\rvert=\sqrt{a^2+b^2}$.
 
 > **定义 7.2.1** (复数加法法则) <br> 设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ (a,b,c,d\in\mathbb R)$, 则
 
@@ -18,7 +18,7 @@ $$
 
 > **常用结论 7.2.3** (加法的运算律) <br> 对任意 $z_1,z_2,z_3\in\mathbb C$, 有 $z_1+z_2=z_2+z_1$, $(z_1+z_2)+z_3=z_1+(z_2+z_3)$.
 
-> **常用结论 7.2.4** (复数加, 减法的几何意义) <br> 复数加法可按照向量的加法来进行; 复数减法可按照向量的减法来进行. 复平面内两点 $Z_1(x_1,y_1)$, $Z_2(x_2,y_2)$ 之间的距离为 $|Z_1Z_2|=|z_2-z_1|=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
+> **常用结论 7.2.4** (复数加, 减法的几何意义) <br> 复数加法可按照向量的加法来进行; 复数减法可按照向量的减法来进行. 复平面内两点 $Z_1(x_1,y_1)$, $Z_2(x_2,y_2)$ 之间的距离为 $\lvert Z_1Z_2\rvert=\lvert z_2-z_1\rvert=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
 
 > **定义 7.2.5** (复数乘法法则) <br> 设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ (a,b,c,d\in\mathbb R)$, 则
 
@@ -66,7 +66,7 @@ $$
 
 ### 练习二
 
-(练习 7.2 第 2 题) 如图, 向量 $\overrightarrow{OZ}$ 对应的复数是 $z$, 分别作出下列运算的结果对应的向量:
+(练习 7.2 第 2 题) 如图, 向量 $\boldsymbol{OZ}$ 对应的复数是 $z$, 分别作出下列运算的结果对应的向量:
 
 (1) $z+1$;
 
@@ -74,15 +74,17 @@ $$
 
 (3) $z+(-2+\mathrm{i})$.
 
+![week36-1.svg](../figures/week36-1.svg){width=100%}
+
 ### 解答 练习二
 
 由**常用结论 7.2.4** (复数加, 减法的几何意义), 复数加法对应向量加法. 设 $Z(a,b)$, 则 $z=a+b\mathrm{i}$.
 
-(1) $z+1=(a+1)+b\mathrm{i}$, 对应点为 $(a+1,b)$, 即将向量 $\overrightarrow{OZ}$ 向右平移 $1$ 个单位.
+(1) $z+1=(a+1)+b\mathrm{i}$, 对应点为 $(a+1,b)$, 即将向量 $\boldsymbol{OZ}$ 向右平移 $1$ 个单位.
 
-(2) $z-\mathrm{i}=a+(b-1)\mathrm{i}$, 对应点为 $(a,b-1)$, 即将向量 $\overrightarrow{OZ}$ 向下平移 $1$ 个单位.
+(2) $z-\mathrm{i}=a+(b-1)\mathrm{i}$, 对应点为 $(a,b-1)$, 即将向量 $\boldsymbol{OZ}$ 向下平移 $1$ 个单位.
 
-(3) $z+(-2+\mathrm{i})=(a-2)+(b+1)\mathrm{i}$, 对应点为 $(a-2,b+1)$, 即将向量 $\overrightarrow{OZ}$ 向左平移 $2$ 个单位, 向上平移 $1$ 个单位.
+(3) $z+(-2+\mathrm{i})=(a-2)+(b+1)\mathrm{i}$, 对应点为 $(a-2,b+1)$, 即将向量 $\boldsymbol{OZ}$ 向左平移 $2$ 个单位, 向上平移 $1$ 个单位.
 
 在复平面内分别作出上述向量即可. $\blacksquare$
 
@@ -128,18 +130,18 @@ $$
 
 ### 解答 练习四
 
-由**常用结论 7.2.4** (复数加, 减法的几何意义), 两点之间的距离为 $|z_2-z_1|$.
+由**常用结论 7.2.4** (复数加, 减法的几何意义), 两点之间的距离为 $\lvert z_2-z_1\rvert$.
 
 (1) $z_2-z_1=(3-\mathrm{i})-(2+\mathrm{i})=1-2\mathrm{i}$. 由**定义 7.1.9** (复数的模),
 
 $$
-|z_2-z_1|=|1-2\mathrm{i}|=\sqrt{1^2+(-2)^2}=\sqrt{5}.
+\lvert z_2-z_1\rvert=\lvert1-2\mathrm{i}\rvert=\sqrt{1^2+(-2)^2}=\sqrt{5}.
 $$
 
 (2) $z_4-z_3=(4+2\mathrm{i})-(8+5\mathrm{i})=-4-3\mathrm{i}$. 由**定义 7.1.9**,
 
 $$
-|z_4-z_3|=|-4-3\mathrm{i}|=\sqrt{(-4)^2+(-3)^2}=5.
+\lvert z_4-z_3\rvert=\lvert-4-3\mathrm{i}\rvert=\sqrt{(-4)^2+(-3)^2}=5.
 $$
 
 故两点间距离分别为 $\sqrt{5}$ 与 $5$. $\blacksquare$
@@ -256,20 +258,20 @@ $$
 
 ### 习题二
 
-(习题 7.2 复习巩固第 2 题) 在复平面内, 复数 $6+5\mathrm{i}$, $-3+4\mathrm{i}$ 对应的向量分别是 $\overrightarrow{OA}$, $\overrightarrow{OB}$, 其中 $O$ 是原点, 求向量 $\overrightarrow{AB}$, $\overrightarrow{BA}$ 对应的复数.
+(习题 7.2 复习巩固第 2 题) 在复平面内, 复数 $6+5\mathrm{i}$, $-3+4\mathrm{i}$ 对应的向量分别是 $\boldsymbol{OA}$, $\boldsymbol{OB}$, 其中 $O$ 是原点, 求向量 $\boldsymbol{AB}$, $\boldsymbol{BA}$ 对应的复数.
 
 ### 解答 习题二
 
-由**常用结论 7.2.4** (复数加, 减法的几何意义), $\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$, $\overrightarrow{BA}=\overrightarrow{OA}-\overrightarrow{OB}$.
+由**常用结论 7.2.4** (复数加, 减法的几何意义), $\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}$, $\boldsymbol{BA}=\boldsymbol{OA}-\boldsymbol{OB}$.
 
 点 $A$ 对应复数 $6+5\mathrm{i}$, 点 $B$ 对应复数 $-3+4\mathrm{i}$.
 
 $$
-\overrightarrow{AB}\text{ 对应复数}=(-3+4\mathrm{i})-(6+5\mathrm{i})=-9-\mathrm{i}.
+\boldsymbol{AB}\text{ 对应复数}=(-3+4\mathrm{i})-(6+5\mathrm{i})=-9-\mathrm{i}.
 $$
 
 $$
-\overrightarrow{BA}\text{ 对应复数}=(6+5\mathrm{i})-(-3+4\mathrm{i})=9+\mathrm{i}.
+\boldsymbol{BA}\text{ 对应复数}=(6+5\mathrm{i})-(-3+4\mathrm{i})=9+\mathrm{i}.
 $$
 
 $\blacksquare$
@@ -410,13 +412,13 @@ $\blacksquare$
 
 ### 习题九
 
-(习题 7.2 拓广探索第 9 题) 若 $z=x+y\mathrm{i}\ (x,y\in\mathbb R)$, 则复平面内满足 $|z-(2+\mathrm{i})|=3$ 的点 $Z$ 的集合是什么图形?
+(习题 7.2 拓广探索第 9 题) 若 $z=x+y\mathrm{i}\ (x,y\in\mathbb R)$, 则复平面内满足 $\lvert z-(2+\mathrm{i})\rvert=3$ 的点 $Z$ 的集合是什么图形?
 
 ### 解答 习题九
 
-由**定义 7.1.9** (复数的模) 与**常用结论 7.2.4** (复数减法的几何意义), $|z-(2+\mathrm{i})|$ 表示点 $Z(x,y)$ 与点 $(2,1)$ 之间的距离.
+由**定义 7.1.9** (复数的模) 与**常用结论 7.2.4** (复数减法的几何意义), $\lvert z-(2+\mathrm{i})\rvert$ 表示点 $Z(x,y)$ 与点 $(2,1)$ 之间的距离.
 
-$|z-(2+\mathrm{i})|=3$ 即点 $Z$ 到定点 $(2,1)$ 的距离恒为 $3$. 故点 $Z$ 的集合是以点 $(2,1)$ 为圆心, 以 $3$ 为半径的圆. $\blacksquare$
+$\lvert z-(2+\mathrm{i})\rvert=3$ 即点 $Z$ 到定点 $(2,1)$ 的距离恒为 $3$. 故点 $Z$ 的集合是以点 $(2,1)$ 为圆心, 以 $3$ 为半径的圆. $\blacksquare$
 
 ### 习题十
 

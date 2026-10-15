@@ -20,7 +20,7 @@
 
 由**定义 3.3.1** (幂函数), 设 $f\left(x\right)=x^\alpha$, 代入已知点求 $\alpha$.
 
-由图象过点 $\left(2,\sqrt2\right)$, 得 $2^\alpha=\sqrt2=2^{\frac{1}{2}}$, 故 $\alpha=\dfrac{1}{2}$. 因此函数解析式为 $f\left(x\right)=x^{\frac{1}{2}}=\sqrt x$. $\blacksquare$
+由图象过点 $\left(2,\sqrt2\right)$, 得 $2^\alpha=\sqrt2=2^{\frac{1}{2}}$, 故 $\alpha=\frac{1}{2}$. 因此函数解析式为 $f\left(x\right)=x^{\frac{1}{2}}=\sqrt x$. $\blacksquare$
 
 ### 练习二
 
@@ -28,7 +28,7 @@
 
 (1) $\left(-1.5\right)^3$, $\left(-1.4\right)^3$;
 
-(2) $\dfrac{1}{-1.5}$, $\dfrac{1}{-1.4}$.
+(2) $\frac{1}{-1.5}$, $\frac{1}{-1.4}$.
 
 ### 解答 练习二
 
@@ -36,7 +36,7 @@
 
 (1) 函数 $y=x^3$ 在 $\mathbb R$ 上单调递增. 由 $-1.5<-1.4$, 得 $\left(-1.5\right)^3<\left(-1.4\right)^3$.
 
-(2) $\dfrac{1}{-1.5}=-\dfrac{1}{1.5}$, $\dfrac{1}{-1.4}=-\dfrac{1}{1.4}$. 函数 $y=x^{-1}=\dfrac{1}{x}$ 在 $\left(0,+\infty\right)$ 上单调递减. 由 $1.5>1.4>0$, 得 $\dfrac{1}{1.5}<\dfrac{1}{1.4}$, 故 $-\dfrac{1}{1.5}>-\dfrac{1}{1.4}$, 即 $\dfrac{1}{-1.5}>\dfrac{1}{-1.4}$. $\blacksquare$
+(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. 函数 $y=x^{-1}=\frac{1}{x}$ 在 $\left(0,+\infty\right)$ 上单调递减. 由 $1.5>1.4>0$, 得 $\frac{1}{1.5}<\frac{1}{1.4}$, 故 $-\frac{1}{1.5}>-\frac{1}{1.4}$, 即 $\frac{1}{-1.5}>\frac{1}{-1.4}$. $\blacksquare$
 
 ### 练习三
 
@@ -46,13 +46,15 @@
 
 由**定义 3.2.1** (单调递增与增函数) 及**定义 3.2.6** (奇函数).
 
-单调性: $\forall x_1,x_2\in\mathbb R$, $x_1<x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. 由 $x_1<x_2$ 得 $x_1-x_2<0$. 当 $x_1,x_2$ 同号时 $x_1^2+x_1x_2+x_2^2>0$; 当 $x_1x_2\le0$ 时 $x_1^2+x_2^2>0$ 且 $x_1x_2\le0$, 但 $x_1^2+x_1x_2+x_2^2=\left(x_1+\dfrac{x_2}{2}\right)^2+\dfrac{3x_2^2}{4}>0$. 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<f\left(x_2\right)$, 因此 $f\left(x\right)=x^3$ 在 $\mathbb R$ 上单调递增.
+单调性: $\forall x_1,x_2\in\mathbb R$, $x_1<x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. 由 $x_1<x_2$ 得 $x_1-x_2<0$. 当 $x_1,x_2$ 同号时 $x_1^2+x_1x_2+x_2^2>0$; 当 $x_1x_2\le0$ 时 $x_1^2+x_2^2>0$ 且 $x_1x_2\le0$, 但 $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}>0$. 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<f\left(x_2\right)$, 因此 $f\left(x\right)=x^3$ 在 $\mathbb R$ 上单调递增.
 
 奇偶性: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, 故 $f\left(x\right)=x^3$ 为奇函数. $\blacksquare$
 
 ### 习题一
 
 (习题 3.3 复习巩固第 1 题) 画出函数 $y=\sqrt{\left|x\right|}$ 的图象, 并判断函数的奇偶性, 讨论函数的单调性.
+
+![week11-1.svg](../figures/week11-1.svg){width=50%}
 
 ### 解答 习题一
 
@@ -82,31 +84,33 @@ $$
 
 (1) 设比例系数为 $k$, 则 $v=kr^4$ ($k>0$).
 
-(2) 由 $r=3$ 时 $v=400$, 得 $400=k\cdot3^4=81k$, 故 $k=\dfrac{400}{81}$. 因此 $v=\dfrac{400}{81}r^4$.
+(2) 由 $r=3$ 时 $v=400$, 得 $400=k\cdot3^4=81k$, 故 $k=\frac{400}{81}$. 因此 $v=\frac{400}{81}r^4$.
 
-(3) 当 $r=5$ 时, $v=\dfrac{400}{81}\cdot5^4=\dfrac{400\times625}{81}=\dfrac{250000}{81}\approx3086\ \text{cm}^3/\text{s}$. $\blacksquare$
+(3) 当 $r=5$ 时, $v=\frac{400}{81}\cdot5^4=\frac{400\times625}{81}=\frac{250000}{81}\approx3086\ \text{cm}^3/\text{s}$. $\blacksquare$
 
 ### 习题三
 
 (习题 3.3 综合运用第 3 题) 试用描点法画出函数 $f\left(x\right)=x^{-2}$ 的图象, 求函数的定义域, 值域; 讨论函数的单调性, 奇偶性, 并证明.
 
+![week11-2.svg](../figures/week11-2.svg){width=50%}
+
 ### 解答 习题三
 
 由**定义 3.2.5** (偶函数), **定义 3.2.1** (单调递增与增函数) 及**定义 3.2.2** (单调递减与减函数).
 
-定义域: $x^{-2}=\dfrac{1}{x^2}$, 要求 $x\ne0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
+定义域: $x^{-2}=\frac{1}{x^2}$, 要求 $x\ne0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-值域: $\dfrac{1}{x^2}>0$, 故值域为 $\left(0,+\infty\right)$.
+值域: $\frac{1}{x^2}>0$, 故值域为 $\left(0,+\infty\right)$.
 
-奇偶性: $f\left(-x\right)=\dfrac{1}{\left(-x\right)^2}=\dfrac{1}{x^2}=f\left(x\right)$, 故为偶函数.
+奇偶性: $f\left(-x\right)=\frac{1}{\left(-x\right)^2}=\frac{1}{x^2}=f\left(x\right)$, 故为偶函数.
 
-单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1<x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\dfrac{1}{x_1^2}-\dfrac{1}{x_2^2}=\dfrac{x_2^2-x_1^2}{x_1^2x_2^2}=\dfrac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}>0$, 即 $f\left(x_1\right)>f\left(x_2\right)$, 故在 $\left(0,+\infty\right)$ 上单调递减. 由偶函数性质, 在 $\left(-\infty,0\right)$ 上单调递增.
+单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1<x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}>0$, 即 $f\left(x_1\right)>f\left(x_2\right)$, 故在 $\left(0,+\infty\right)$ 上单调递减. 由偶函数性质, 在 $\left(-\infty,0\right)$ 上单调递增.
 
 图象: 在第一象限为递减的双曲线型曲线, 在第二象限为其关于 $y$ 轴的镜像, 以两坐标轴为渐近线. $\blacksquare$
 
 ### 探究与发现一
 
-(探究与发现 探究函数 $y=x+\dfrac{1}{x}$ 的图象与性质) 你认为可以从哪些方面研究这个函数?
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 你认为可以从哪些方面研究这个函数?
 
 ### 解答 探究与发现一
 
@@ -116,7 +120,7 @@ $$
 
 ### 探究与发现二
 
-(探究与发现 探究函数 $y=x+\dfrac{1}{x}$ 的图象与性质) 你认为可以按照怎样的路径研究这个函数?
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 你认为可以按照怎样的路径研究这个函数?
 
 ### 解答 探究与发现二
 
@@ -126,7 +130,7 @@ $$
 
 ### 探究与发现三
 
-(探究与发现 探究函数 $y=x+\dfrac{1}{x}$ 的图象与性质) 按照你构建的路径研究你想到的问题.
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 按照你构建的路径研究你想到的问题.
 
 ### 解答 探究与发现三
 
@@ -134,27 +138,29 @@ $$
 
 定义域: $x\ne0$, 即 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-奇偶性: $f\left(-x\right)=-x+\dfrac{1}{-x}=-\left(x+\dfrac{1}{x}\right)=-f\left(x\right)$, 故为奇函数, 图象关于原点对称.
+奇偶性: $f\left(-x\right)=-x+\frac{1}{-x}=-\left(x+\frac{1}{x}\right)=-f\left(x\right)$, 故为奇函数, 图象关于原点对称.
 
-单调性: 在 $\left(0,+\infty\right)$ 上, 由习题八 (3.2 节) 的结论, $y=x+\dfrac{1}{x}$ 在 $\left(0,1\right]$ 上单调递减, 在 $\left[1,+\infty\right)$ 上单调递增. 由奇函数性质, 在 $\left(-\infty,-1\right]$ 上单调递增, 在 $\left[-1,0\right)$ 上单调递减.
+单调性: 在 $\left(0,+\infty\right)$ 上, 由习题八 (3.2 节) 的结论, $y=x+\frac{1}{x}$ 在 $\left(0,1\right]$ 上单调递减, 在 $\left[1,+\infty\right)$ 上单调递增. 由奇函数性质, 在 $\left(-\infty,-1\right]$ 上单调递增, 在 $\left[-1,0\right)$ 上单调递减.
 
 最值: 在 $x=1$ 处取得极小值 $f\left(1\right)=2$, 在 $x=-1$ 处取得极大值 $f\left(-1\right)=-2$. $\blacksquare$
 
 ### 探究与发现四
 
-(探究与发现 探究函数 $y=x+\dfrac{1}{x}$ 的图象与性质) 证明: 当 $x>0$ 时, $x+\dfrac{1}{x}\ge2$, 当且仅当 $x=\dfrac{1}{x}$, 即 $x=1$ 时取得等号; 当 $x<0$ 时, $x+\dfrac{1}{x}\le-2$, 当且仅当 $x=\dfrac{1}{x}$, 即 $x=-1$ 时取得等号.
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 证明: 当 $x>0$ 时, $x+\frac{1}{x}\ge2$, 当且仅当 $x=\frac{1}{x}$, 即 $x=1$ 时取得等号; 当 $x<0$ 时, $x+\frac{1}{x}\le-2$, 当且仅当 $x=\frac{1}{x}$, 即 $x=-1$ 时取得等号.
 
 ### 解答 探究与发现四
 
 由**定义 3.2.3** (最大值) 及**定义 3.2.4** (最小值), 利用平方非负证明.
 
-当 $x>0$ 时, $\left(\sqrt x-\dfrac{1}{\sqrt x}\right)^2\ge0$, 展开得 $x-2+\dfrac{1}{x}\ge0$, 即 $x+\dfrac{1}{x}\ge2$. 等号当且仅当 $\sqrt x=\dfrac{1}{\sqrt x}$ 即 $x=1$ 时成立.
+当 $x>0$ 时, $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$, 展开得 $x-2+\frac{1}{x}\ge0$, 即 $x+\frac{1}{x}\ge2$. 等号当且仅当 $\sqrt x=\frac{1}{\sqrt x}$ 即 $x=1$ 时成立.
 
-当 $x<0$ 时, 令 $t=-x>0$, 则 $x+\dfrac{1}{x}=-\left(t+\dfrac{1}{t}\right)\le-2$, 等号当且仅当 $t=1$ 即 $x=-1$ 时成立. $\blacksquare$
+当 $x<0$ 时, 令 $t=-x>0$, 则 $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, 等号当且仅当 $t=1$ 即 $x=-1$ 时成立. $\blacksquare$
 
 ### 探究与发现五
 
-(探究与发现 探究函数 $y=x+\dfrac{1}{x}$ 的图象与性质) 你画出的函数图象与图 1 类似吗?
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 你画出的函数图象与图 1 类似吗?
+
+![week11-3.svg](../figures/week11-3.svg){width=50%}
 
 ### 解答 探究与发现五
 
@@ -164,20 +170,20 @@ $$
 
 ### 探究与发现六
 
-(探究与发现 探究函数 $y=x+\dfrac{1}{x}$ 的图象与性质) 函数 $y=x+\dfrac{1}{x}$ 的图象有什么变化趋势? 你能利用函数 $y=x$ 和 $y=\dfrac{1}{x}$ 的图象变化趋势说明函数 $y=x+\dfrac{1}{x}$ 的图象变化趋势吗?
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 函数 $y=x+\frac{1}{x}$ 的图象有什么变化趋势? 你能利用函数 $y=x$ 和 $y=\frac{1}{x}$ 的图象变化趋势说明函数 $y=x+\frac{1}{x}$ 的图象变化趋势吗?
 
 ### 解答 探究与发现六
 
 由**定义 3.2.1** (单调递增与增函数) 及**定义 3.2.2** (单调递减与减函数).
 
-当 $x\to+\infty$ 时, $y=\dfrac{1}{x}\to0$, 故 $y=x+\dfrac{1}{x}\approx x$, 图象趋近于直线 $y=x$. 当 $x\to0^+$ 时, $y=\dfrac{1}{x}\to+\infty$, 故 $y\to+\infty$. 在 $x>0$ 时, $y=x$ 递增, $y=\dfrac{1}{x}$ 递减, 两者叠加使函数在 $x=1$ 处取得极小值 $2$. $x<0$ 时由对称性同理. $\blacksquare$
+当 $x\to+\infty$ 时, $y=\frac{1}{x}\to0$, 故 $y=x+\frac{1}{x}\approx x$, 图象趋近于直线 $y=x$. 当 $x\to0^+$ 时, $y=\frac{1}{x}\to+\infty$, 故 $y\to+\infty$. 在 $x>0$ 时, $y=x$ 递增, $y=\frac{1}{x}$ 递减, 两者叠加使函数在 $x=1$ 处取得极小值 $2$. $x<0$ 时由对称性同理. $\blacksquare$
 
 ### 探究与发现七
 
-(探究与发现 探究函数 $y=x+\dfrac{1}{x}$ 的图象与性质) 通过对函数 $y=x+\dfrac{1}{x}$ 图象与性质的探究, 你有哪些体会?
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 通过对函数 $y=x+\frac{1}{x}$ 图象与性质的探究, 你有哪些体会?
 
 ### 解答 探究与发现七
 
 由**定义 3.2.1** (单调递增与增函数) 及**定义 3.2.5** (偶函数).
 
-通过对 $y=x+\dfrac{1}{x}$ 的探究, 体会到: (1) 可以利用已学函数 (幂函数) 的性质研究新函数; (2) 奇偶性可以简化研究, 只需研究一半区间再对称过去; (3) 函数的和的性质不是各函数性质的简单叠加, 需要综合分析; (4) 利用基本不等式 $\left(\sqrt x-\dfrac{1}{\sqrt x}\right)^2\ge0$ 可以方便地求最值. $\blacksquare$
+通过对 $y=x+\frac{1}{x}$ 的探究, 体会到: (1) 可以利用已学函数 (幂函数) 的性质研究新函数; (2) 奇偶性可以简化研究, 只需研究一半区间再对称过去; (3) 函数的和的性质不是各函数性质的简单叠加, 需要综合分析; (4) 利用基本不等式 $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$ 可以方便地求最值. $\blacksquare$

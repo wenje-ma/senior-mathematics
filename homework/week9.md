@@ -40,6 +40,8 @@ $$
 
 (2) 根据图象, 求这一天 $12$ 时所对应的温度.
 
+![week9-1.svg](../figures/week9-1.svg){width=50%}
+
 ### 解答 练习二
 
 由**定义 3.1.1** (函数) 及**定义 3.1.2** (定义域与值域), 从图象读取自变量和函数值的范围.
@@ -55,6 +57,8 @@ $$
 $A=\left\{1,2,3,4,5\right\}$, $B=\left\{1,2,3,4,5\right\}$, 对应关系 $f$ 为: $1\to 2$, $2\to 1$, $3\to 4$, $4\to 3$, $5\to 5$.
 
 $f:A\to B$ 是否为从集合 $A$ 到集合 $B$ 的函数? 如果是, 那么定义域, 值域与对应关系各是什么?
+
+![week9-2.svg](../figures/week9-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -76,7 +80,7 @@ $A$ 中每个元素在 $B$ 中都有唯一确定的元素与之对应, 故 $f:A\
 
 (练习 3.1 第 5 题) 求下列函数的定义域:
 
-(1) $f\left(x\right)=\dfrac{1}{4x+7}$;
+(1) $f\left(x\right)=\frac{1}{4x+7}$;
 
 (2) $f\left(x\right)=\sqrt{1-x}+\sqrt{x+3}-1$.
 
@@ -84,7 +88,7 @@ $A$ 中每个元素在 $B$ 中都有唯一确定的元素与之对应, 故 $f:A\
 
 由**定义 3.1.2** (定义域与值域), 函数的定义域是使解析式有意义的实数的集合.
 
-(1) 分式 $\dfrac{1}{4x+7}$ 有意义要求分母不为零, 即 $4x+7\ne0$, 得 $x\ne-\dfrac{7}{4}$. 故定义域为 $\left(-\infty,-\dfrac{7}{4}\right)\cup\left(-\dfrac{7}{4},+\infty\right)$.
+(1) 分式 $\frac{1}{4x+7}$ 有意义要求分母不为零, 即 $4x+7\ne0$, 得 $x\ne-\frac{7}{4}$. 故定义域为 $\left(-\infty,-\frac{7}{4}\right)\cup\left(-\frac{7}{4},+\infty\right)$.
 
 (2) 根式 $\sqrt{1-x}$ 有意义要求 $1-x\ge0$, 即 $x\le1$; 根式 $\sqrt{x+3}$ 有意义要求 $x+3\ge0$, 即 $x\ge-3$. 取交集得 $-3\le x\le1$. 故定义域为 $\left[-3,1\right]$. $\blacksquare$
 
@@ -124,6 +128,8 @@ $A$ 中每个元素在 $B$ 中都有唯一确定的元素与之对应, 故 $f:A\
 
 (练习 3.1 第 8 题) 如图, 把直截面半径为 $25\ \text{cm}$ 的圆柱形木头锯成直截面为矩形的木料, 如果矩形的一边长为 $x$ (单位: $\text{cm}$), 面积为 $y$ (单位: $\text{cm}^2$), 把 $y$ 表示为 $x$ 的函数.
 
+![week9-3.svg](../figures/week9-3.svg){width=50%}
+
 ### 解答 练习八
 
 由**定义 3.1.1** (函数), 矩形内接于半径为 $25\ \text{cm}$ 的圆, 矩形的对角线等于圆的直径 $50\ \text{cm}$.
@@ -133,6 +139,8 @@ $A$ 中每个元素在 $B$ 中都有唯一确定的元素与之对应, 故 $f:A\
 ### 练习九
 
 (练习 3.1 第 9 题) 画出函数 $y=\left|x-2\right|$ 的图象.
+
+![week9-4.svg](../figures/week9-4.svg){width=50%}
 
 ### 解答 练习九
 
@@ -151,6 +159,8 @@ $$
 (1) 画出函数 $f\left(x\right)$, $g\left(x\right)$ 的图象;
 
 (2) $\forall x\in\mathbb R$, 用 $m\left(x\right)$ 表示 $f\left(x\right)$, $g\left(x\right)$ 中的最小者, 记为 $m\left(x\right)=\min\left\{f\left(x\right),g\left(x\right)\right\}$, 请分别用图象法和解析法表示函数 $m\left(x\right)$.
+
+![week9-5.svg](../figures/week9-5.svg){width=50%}
 
 ### 解答 练习十
 
@@ -178,6 +188,8 @@ $$
 
 (3) 我从家出发后, 心情轻松, 一路缓缓加速行进.
 
+![week9-6.svg](../figures/week9-6.svg){width=100%}
+
 ### 解答 练习十一
 
 由**定义 3.1.6** (函数的表示法), 图象法中离开家的距离随时间的变化趋势反映了运动状态.
@@ -200,6 +212,8 @@ $$
 
 如果某条线路的总里程为 $20\ \text{km}$, 请根据题意, 写出票价与里程之间的函数解析式, 并画出函数的图象.
 
+![week9-7.svg](../figures/week9-7.svg){width=50%}
+
 ### 解答 练习十二
 
 由**定义 3.1.5** (分段函数), 票价按里程分段计价.
@@ -218,13 +232,13 @@ $$
 
 (习题 3.1 复习巩固第 1 题) 求下列函数的定义域:
 
-(1) $f\left(x\right)=\dfrac{3x}{x-4}$;
+(1) $f\left(x\right)=\frac{3x}{x-4}$;
 
 (2) $f\left(x\right)=\sqrt{x^2}$;
 
-(3) $f\left(x\right)=\dfrac{6}{x^2-3x+2}$;
+(3) $f\left(x\right)=\frac{6}{x^2-3x+2}$;
 
-(4) $f\left(x\right)=\dfrac{\sqrt{4-x}}{x-1}$.
+(4) $f\left(x\right)=\frac{\sqrt{4-x}}{x-1}$.
 
 ### 解答 习题一
 
@@ -242,7 +256,7 @@ $$
 
 (习题 3.1 复习巩固第 2 题) 下列哪一组中的函数 $f\left(x\right)$ 与 $g\left(x\right)$ 是同一个函数?
 
-(1) $f\left(x\right)=x-1$, $g\left(x\right)=\dfrac{x^2}{x}-1$;
+(1) $f\left(x\right)=x-1$, $g\left(x\right)=\frac{x^2}{x}-1$;
 
 (2) $f\left(x\right)=x^2$, $g\left(x\right)=\left(\sqrt x\right)^4$;
 
@@ -252,7 +266,7 @@ $$
 
 由**常用结论 3.1.4** (同一函数的判断), 定义域相同且对应关系一致才是同一函数.
 
-(1) $f\left(x\right)=x-1$ 的定义域为 $\mathbb R$, $g\left(x\right)=\dfrac{x^2}{x}-1=x-1$ 的定义域为 $\left\{x\mid x\ne0\right\}$, 定义域不同, 不是同一函数.
+(1) $f\left(x\right)=x-1$ 的定义域为 $\mathbb R$, $g\left(x\right)=\frac{x^2}{x}-1=x-1$ 的定义域为 $\left\{x\mid x\ne0\right\}$, 定义域不同, 不是同一函数.
 
 (2) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\left(\sqrt x\right)^4=x^2$ 的定义域为 $\left\{x\mid x\ge0\right\}$, 定义域不同, 不是同一函数.
 
@@ -264,11 +278,13 @@ $$
 
 (1) $y=3x$;
 
-(2) $y=\dfrac{8}{x}$;
+(2) $y=\frac{8}{x}$;
 
 (3) $y=-4x+5$;
 
 (4) $y=x^2-6x+7$.
+
+![week9-8.svg](../figures/week9-8.svg){width=100%}
 
 ### 解答 习题三
 
@@ -276,7 +292,7 @@ $$
 
 (1) $y=3x$ 为过原点的直线, 定义域为 $\mathbb R$, 值域为 $\mathbb R$.
 
-(2) $y=\dfrac{8}{x}$ 为反比例函数, 定义域为 $\left\{x\mid x\ne0\right\}$, 值域为 $\left\{y\mid y\ne0\right\}$.
+(2) $y=\frac{8}{x}$ 为反比例函数, 定义域为 $\left\{x\mid x\ne0\right\}$, 值域为 $\left\{y\mid y\ne0\right\}$.
 
 (3) $y=-4x+5$ 为斜率 $-4$ 的直线, 定义域为 $\mathbb R$, 值域为 $\mathbb R$.
 
@@ -310,7 +326,7 @@ $\blacksquare$
 
 ### 习题五
 
-(习题 3.1 复习巩固第 5 题) 已知函数 $f\left(x\right)=\dfrac{x+2}{x-6}$,
+(习题 3.1 复习巩固第 5 题) 已知函数 $f\left(x\right)=\frac{x+2}{x-6}$,
 
 (1) 点 $\left(3,14\right)$ 在 $f\left(x\right)$ 的图象上吗?
 
@@ -322,11 +338,11 @@ $\blacksquare$
 
 由**定义 3.1.2** (定义域与值域), 点 $\left(x,y\right)$ 在图象上当且仅当 $y=f\left(x\right)$.
 
-(1) $f\left(3\right)=\dfrac{3+2}{3-6}=\dfrac{5}{-3}=-\dfrac{5}{3}\ne14$, 故点 $\left(3,14\right)$ 不在 $f\left(x\right)$ 的图象上.
+(1) $f\left(3\right)=\frac{3+2}{3-6}=\frac{5}{-3}=-\frac{5}{3}\ne14$, 故点 $\left(3,14\right)$ 不在 $f\left(x\right)$ 的图象上.
 
-(2) $f\left(4\right)=\dfrac{4+2}{4-6}=\dfrac{6}{-2}=-3$.
+(2) $f\left(4\right)=\frac{4+2}{4-6}=\frac{6}{-2}=-3$.
 
-(3) 令 $\dfrac{x+2}{x-6}=2$, 得 $x+2=2\left(x-6\right)$, 即 $x+2=2x-12$, 解得 $x=14$. $\blacksquare$
+(3) 令 $\frac{x+2}{x-6}=2$, 得 $x+2=2\left(x-6\right)$, 即 $x+2=2x-12$, 解得 $x=14$. $\blacksquare$
 
 ### 习题六
 
@@ -346,6 +362,8 @@ $\blacksquare$
 
 (2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
 
+![week9-9.svg](../figures/week9-9.svg){width=100%}
+
 ### 解答 习题七
 
 由**定义 3.1.5** (分段函数) 及**定义 3.1.6** (函数的表示法).
@@ -358,15 +376,17 @@ $\blacksquare$
 
 (习题 3.1 综合运用第 8 题) 如图, 矩形的面积为 $10$. 如果矩形的长为 $x$, 宽为 $y$, 对角线为 $d$, 周长为 $l$, 那么你能获得关于这些量的哪些函数?
 
+![week9-10.svg](../figures/week9-10.svg){width=50%}
+
 ### 解答 习题八
 
 由**定义 3.1.1** (函数) 及矩形的几何性质, 各量之间存在确定的对应关系.
 
-由面积 $xy=10$, 得 $y=\dfrac{10}{x}$ $\left(x>0\right)$.
+由面积 $xy=10$, 得 $y=\frac{10}{x}$ $\left(x>0\right)$.
 
-由勾股定理, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\dfrac{100}{x^2}}$ $\left(x>0\right)$.
+由勾股定理, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x>0\right)$.
 
-由周长公式, $l=2\left(x+y\right)=2\left(x+\dfrac{10}{x}\right)$ $\left(x>0\right)$. $\blacksquare$
+由周长公式, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x>0\right)$. $\blacksquare$
 
 ### 习题九
 
@@ -376,9 +396,9 @@ $\blacksquare$
 
 由**定义 3.1.1** (函数), 溶液体积随时间线性增加, 高度由体积除以底面积得到.
 
-圆柱底面积为 $\pi\left(\dfrac{d}{2}\right)^2=\dfrac{\pi d^2}{4}$. $t$ 秒后注入溶液体积为 $vt$, 故高度 $x=\dfrac{vt}{\pi d^2/4}=\dfrac{4vt}{\pi d^2}$.
+圆柱底面积为 $\pi\left(\frac{d}{2}\right)^2=\frac{\pi d^2}{4}$. $t$ 秒后注入溶液体积为 $vt$, 故高度 $x=\frac{vt}{\pi d^2/4}=\frac{4vt}{\pi d^2}$.
 
-溶液高度不超过容器高度 $h$, 即 $0\le x\le h$, 对应 $0\le t\le\dfrac{\pi d^2 h}{4v}$. 定义域为 $\left[0,\dfrac{\pi d^2 h}{4v}\right]$, 值域为 $\left[0,h\right]$. $\blacksquare$
+溶液高度不超过容器高度 $h$, 即 $0\le x\le h$, 对应 $0\le t\le\frac{\pi d^2 h}{4v}$. 定义域为 $\left[0,\frac{\pi d^2 h}{4v}\right]$, 值域为 $\left[0,h\right]$. $\blacksquare$
 
 ### 习题十
 
@@ -400,6 +420,8 @@ $\blacksquare$
 
 (2) $r$ 取何值时, 只有唯一的 $p$ 值与之对应?
 
+![week9-11.svg](../figures/week9-11.svg){width=50%}
+
 ### 解答 习题十一
 
 由**定义 3.1.2** (定义域与值域), 从图象读取自变量和函数值的范围.
@@ -416,6 +438,8 @@ $\blacksquare$
 
 (2) 如果平面直角坐标系中点 $P\left(x,y\right)$ 的坐标满足 $-3\le x\le8$, $-1\le y\le2$, 那么其中哪些点不能在图象上?
 
+![week9-12.svg](../figures/week9-12.svg){width=50%}
+
 ### 解答 习题十二
 
 由**定义 3.1.1** (函数) 及**定义 3.1.2** (定义域与值域), 图象上每个 $x$ 只能对应唯一的 $y$.
@@ -429,6 +453,8 @@ $\blacksquare$
 ### 习题十三
 
 (习题 3.1 拓广探索第 13 题) 函数 $f\left(x\right)=\left[x\right]$ 的函数值表示不超过 $x$ 的最大整数, 例如, $\left[-3.5\right]=-4$, $\left[2.1\right]=2$. 当 $x\in\left(-2.5,3\right]$ 时, 写出函数 $f\left(x\right)$ 的解析式, 并画出函数的图象.
+
+![week9-13.svg](../figures/week9-13.svg){width=50%}
 
 ### 解答 习题十三
 
@@ -444,13 +470,13 @@ $$
 
 ### 习题十四
 
-(习题 3.1 拓广探索第 14 题) 构建一个问题情境, 使其中的变量关系能用解析式 $y=\dfrac{1}{2}ax^2$ ($a>0$) 来描述.
+(习题 3.1 拓广探索第 14 题) 构建一个问题情境, 使其中的变量关系能用解析式 $y=\frac{1}{2}ax^2$ ($a>0$) 来描述.
 
 ### 解答 习题十四
 
 由**定义 3.1.6** (函数的表示法), 解析法对应实际情境中的变量关系.
 
-取自由落体运动: 物体从静止开始自由下落, 下落距离 $y$ 与时间 $x$ 的关系为 $y=\dfrac{1}{2}gx^2$, 其中 $g>0$ 为重力加速度. 此情境中 $a=g$ ($a>0$), 变量关系即可用 $y=\dfrac{1}{2}ax^2$ 描述. $\blacksquare$
+取自由落体运动: 物体从静止开始自由下落, 下落距离 $y$ 与时间 $x$ 的关系为 $y=\frac{1}{2}gx^2$, 其中 $g>0$ 为重力加速度. 此情境中 $a=g$ ($a>0$), 变量关系即可用 $y=\frac{1}{2}ax^2$ 描述. $\blacksquare$
 
 ### 习题十五
 
@@ -460,17 +486,19 @@ $$
 
 (2) 如果将船停在距点 $P$ $4\ \text{km}$ 处, 那么从小岛到城镇要多长时间 (精确到 $0.1\ \text{h}$)?
 
+![week9-14.svg](../figures/week9-14.svg){width=50%}
+
 ### 解答 习题十五
 
 由**定义 3.1.1** (函数), 总时间为乘船时间与步行时间之和.
 
-(1) 从小岛到船停处的水路距离为 $\sqrt{2^2+x^2}=\sqrt{4+x^2}$, 乘船时间为 $\dfrac{\sqrt{4+x^2}}{3}$; 从船停处到城镇的步行距离为 $12-x$, 步行时间为 $\dfrac{12-x}{5}$. 故
+(1) 从小岛到船停处的水路距离为 $\sqrt{2^2+x^2}=\sqrt{4+x^2}$, 乘船时间为 $\frac{\sqrt{4+x^2}}{3}$; 从船停处到城镇的步行距离为 $12-x$, 步行时间为 $\frac{12-x}{5}$. 故
 
 $$
-t=\dfrac{\sqrt{4+x^2}}{3}+\dfrac{12-x}{5},\quad x\in\left[0,12\right].
+t=\frac{\sqrt{4+x^2}}{3}+\frac{12-x}{5},\quad x\in\left[0,12\right].
 $$
 
-(2) 当 $x=4$ 时, $t=\dfrac{\sqrt{4+16}}{3}+\dfrac{12-4}{5}=\dfrac{\sqrt{20}}{3}+\dfrac{8}{5}=\dfrac{2\sqrt5}{3}+1.6\approx1.49+1.6=3.1\ \text{h}$. $\blacksquare$
+(2) 当 $x=4$ 时, $t=\frac{\sqrt{4+16}}{3}+\frac{12-4}{5}=\frac{\sqrt{20}}{3}+\frac{8}{5}=\frac{2\sqrt5}{3}+1.6\approx1.49+1.6=3.1\ \text{h}$. $\blacksquare$
 
 ### 习题十六
 
@@ -488,7 +516,7 @@ $$
 
 由**定义 3.1.1** (函数), 对定义域中每个元素, 值域中必须有唯一确定的元素与之对应.
 
-(1) 对任意 $u\in\mathbb R$, 由 $u^2+2v=0$ 得 $v=-\dfrac{u^2}{2}$, $v$ 唯一确定且 $v\le0\in B$, 故 $v=f\left(u\right)$ 是函数.
+(1) 对任意 $u\in\mathbb R$, 由 $u^2+2v=0$ 得 $v=-\frac{u^2}{2}$, $v$ 唯一确定且 $v\le0\in B$, 故 $v=f\left(u\right)$ 是函数.
 
 (2) 对任意 $v\in\left(-\infty,0\right]$, 由 $u^2=-2v$, 当 $v<0$ 时 $u=\pm\sqrt{-2v}$ 有两个值, 不唯一; 当 $v=0$ 时 $u=0$ 唯一. 由于存在 $v$ 对应两个 $u$ 值, 故 $u=g\left(v\right)$ 不是函数. $\blacksquare$
 

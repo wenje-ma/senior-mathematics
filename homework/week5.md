@@ -144,7 +144,7 @@
 
 (习题 1.5 复习巩固第 3 题) 写出下列命题的否定:
 
-(1) $\forall x\in\mathbb Z,\ |x|\in\mathbb N$;
+(1) $\forall x\in\mathbb Z,\ \lvert x\rvert\in\mathbb N$;
 
 (2) 所有可以被 $5$ 整除的整数, 末位数字都是 $0$;
 
@@ -156,7 +156,7 @@
 
 由**常用结论 1.5.4** (全称量词命题的否定) 与**常用结论 1.5.5** (存在量词命题的否定), 全称改存在, 存在改全称, 并否定结论.
 
-(1) 这是全称量词命题, 其否定为 $\exists x\in\mathbb Z,\ |x|\notin\mathbb N$.
+(1) 这是全称量词命题, 其否定为 $\exists x\in\mathbb Z,\ \lvert x\rvert\notin\mathbb N$.
 
 (2) 这是全称量词命题, 其否定为 "存在一个可以被 $5$ 整除的整数, 它的末位数字不是 $0$".
 

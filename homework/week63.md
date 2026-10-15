@@ -2,13 +2,13 @@
 
 > **常用结论 2.3.2** (两点间距离公式) <br>平面内两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ 间的距离为 $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
 
-> **常用结论 2.3.3** (点到直线的距离公式) <br>点 $P\left(x_0,y_0\right)$ 到直线 $l:Ax+By+C=0$ 的距离为 $d=\dfrac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
+> **常用结论 2.3.3** (点到直线的距离公式) <br>点 $P\left(x_0,y_0\right)$ 到直线 $l:Ax+By+C=0$ 的距离为 $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
 
 > **定义 2.4.1** (圆的标准方程) <br>圆心为 $A\left(a,b\right)$, 半径长为 $r$ 的圆的标准方程为 $\left(x-a\right)^2+\left(y-b\right)^2=r^2$. 特别地, 当圆心在原点 $O\left(0,0\right)$ 时, 圆的方程为 $x^2+y^2=r^2$.
 
 > **常用结论 2.4.2** (点与圆的位置关系) <br>设点 $P\left(x_0,y_0\right)$ 到圆心 $A\left(a,b\right)$ 的距离为 $d$, 圆的半径为 $r$, 则 $d<r$ 时点在圆内, $d=r$ 时点在圆上, $d>r$ 时点在圆外. 即 $\left(x_0-a\right)^2+\left(y_0-b\right)^2<r^2$ 时点在圆内, $=r^2$ 时点在圆上, $>r^2$ 时点在圆外.
 
-> **定义 2.4.3** (圆的一般方程) <br>方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F>0$ 时, 方程表示以 $\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)$ 为圆心, 半径为 $\dfrac{\sqrt{D^2+E^2-4F}}{2}$ 的圆; 当 $D^2+E^2-4F=0$ 时, 方程表示一个点 $\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)$; 当 $D^2+E^2-4F<0$ 时, 方程不表示任何图形.
+> **定义 2.4.3** (圆的一般方程) <br>方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F>0$ 时, 方程表示以 $\left(-\frac{D}{2},-\frac{E}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt{D^2+E^2-4F}}{2}$ 的圆; 当 $D^2+E^2-4F=0$ 时, 方程表示一个点 $\left(-\frac{D}{2},-\frac{E}{2}\right)$; 当 $D^2+E^2-4F<0$ 时, 方程不表示任何图形.
 
 ### 练习一
 
@@ -73,10 +73,10 @@
 (1) 由**常用结论 2.3.3** (点到直线的距离公式), 圆的半径即圆心 $C\left(1,3\right)$ 到直线 $3x-4y-7=0$ 的距离.
 
 $$
-r=\dfrac{\left|3\cdot1-4\cdot3-7\right|}{\sqrt{3^2+\left(-4\right)^2}}=\dfrac{\left|3-12-7\right|}{5}=\dfrac{16}{5}.
+r=\frac{\left|3\cdot1-4\cdot3-7\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|3-12-7\right|}{5}=\frac{16}{5}.
 $$
 
-由**定义 2.4.1** (圆的标准方程), 圆的方程为 $\left(x-1\right)^2+\left(y-3\right)^2=\dfrac{256}{25}$.
+由**定义 2.4.1** (圆的标准方程), 圆的方程为 $\left(x-1\right)^2+\left(y-3\right)^2=\frac{256}{25}$.
 
 (2) 圆心在 $x$ 轴上, 设圆心为 $\left(a,0\right)$. 圆过点 $A\left(2,-3\right)$, 由**常用结论 2.3.2** (两点间距离公式), 半径为 $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt 5$. 两边平方, 得 $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 无解.
 
@@ -92,14 +92,14 @@ $$
 
 ### 解答 练习五
 
-由**定义 2.4.3** (圆的一般方程), 圆心为 $\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)$, 半径为 $\dfrac{\sqrt{D^2+E^2-4F}}{2}$.
+由**定义 2.4.3** (圆的一般方程), 圆心为 $\left(-\frac{D}{2},-\frac{E}{2}\right)$, 半径为 $\frac{\sqrt{D^2+E^2-4F}}{2}$.
 
-(1) $x^2+y^2-6y=0$ 即 $x^2+y^2+0x-6y+0=0$, 故 $D=0$, $E=-6$, $F=0$. 圆心为 $\left(0,3\right)$, 半径为 $\dfrac{\sqrt{0+36-0}}{2}=3$.
+(1) $x^2+y^2-6y=0$ 即 $x^2+y^2+0x-6y+0=0$, 故 $D=0$, $E=-6$, $F=0$. 圆心为 $\left(0,3\right)$, 半径为 $\frac{\sqrt{0+36-0}}{2}=3$.
 
-(2) $2x^2+2y^2-3x-5y-2=0$ 即 $x^2+y^2-\dfrac{3}{2}x-\dfrac{5}{2}y-1=0$, 故 $D=-\dfrac{3}{2}$, $E=-\dfrac{5}{2}$, $F=-1$. 圆心为 $\left(\dfrac{3}{4},\dfrac{5}{4}\right)$, 半径为
+(2) $2x^2+2y^2-3x-5y-2=0$ 即 $x^2+y^2-\frac{3}{2}x-\frac{5}{2}y-1=0$, 故 $D=-\frac{3}{2}$, $E=-\frac{5}{2}$, $F=-1$. 圆心为 $\left(\frac{3}{4},\frac{5}{4}\right)$, 半径为
 
 $$
-\dfrac{\sqrt{\left(\dfrac{3}{2}\right)^2+\left(\dfrac{5}{2}\right)^2-4\left(-1\right)}}{2}=\dfrac{\sqrt{\dfrac{9}{4}+\dfrac{25}{4}+4}}{2}=\dfrac{\sqrt{\dfrac{50}{4}}}{2}=\dfrac{5\sqrt 2}{4}.
+\frac{\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{5}{2}\right)^2-4\left(-1\right)}}{2}=\frac{\sqrt{\frac{9}{4}+\frac{25}{4}+4}}{2}=\frac{\sqrt{\frac{50}{4}}}{2}=\frac{5\sqrt 2}{4}.
 $$
 
 $\blacksquare$
@@ -118,11 +118,11 @@ $\blacksquare$
 
 由**定义 2.4.3** (圆的一般方程), 判别 $D^2+E^2-4F$ 的符号.
 
-(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4>0$, 表示圆. 圆心为 $\left(2,3\right)$, 半径为 $\dfrac{\sqrt 4}{2}=1$.
+(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4>0$, 表示圆. 圆心为 $\left(2,3\right)$, 半径为 $\frac{\sqrt 4}{2}=1$.
 
 (2) $D=-2$, $E=-4$, $F=5$. $D^2+E^2-4F=4+16-20=0$, 不表示圆, 仅表示一个点 $\left(1,2\right)$.
 
-(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44>0$, 表示圆. 圆心为 $\left(1,2\right)$, 半径为 $\dfrac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
+(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44>0$, 表示圆. 圆心为 $\left(1,2\right)$, 半径为 $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
 
 ### 练习七
 
@@ -142,7 +142,7 @@ $\blacksquare$
 
 由 (b) (c) 联立, 得 $D=-8$, $E=6$.
 
-圆的方程为 $x^2+y^2-8x+6y=0$. 圆心为 $\left(4,-3\right)$, 半径为 $\dfrac{\sqrt{64+36}}{2}=5$. $\blacksquare$
+圆的方程为 $x^2+y^2-8x+6y=0$. 圆心为 $\left(4,-3\right)$, 半径为 $\frac{\sqrt{64+36}}{2}=5$. $\blacksquare$
 
 ### 习题一
 
@@ -216,9 +216,9 @@ $$
 
 由**定义 2.4.3** (圆的一般方程), $D=-2$, $E=4$, $F=-4$.
 
-圆心为 $\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)=\left(1,-2\right)$.
+圆心为 $\left(-\frac{D}{2},-\frac{E}{2}\right)=\left(1,-2\right)$.
 
-半径为 $\dfrac{\sqrt{D^2+E^2-4F}}{2}=\dfrac{\sqrt{4+16+16}}{2}=\dfrac{\sqrt{36}}{2}=3$. $\blacksquare$
+半径为 $\frac{\sqrt{D^2+E^2-4F}}{2}=\frac{\sqrt{4+16+16}}{2}=\frac{\sqrt{36}}{2}=3$. $\blacksquare$
 
 ### 习题五
 
@@ -229,7 +229,7 @@ $$
 由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为
 
 $$
-d=\dfrac{\left|b\right|}{\sqrt 2}.
+d=\frac{\left|b\right|}{\sqrt 2}.
 $$
 
 圆的半径为 $2$. 圆上到直线 $l$ 距离为 $1$ 的点的个数, 取决于直线 $l$ 与圆的位置关系以及直线 $l$ 与平行于 $l$ 且距离为 $1$ 的直线的位置关系.
@@ -238,7 +238,7 @@ $$
 
 当圆心到直线 $l$ 的距离 $d=1$ 时, 仔细分析: 距离 $l$ 为 $1$ 的点在两条平行线上, 一条距圆心 $d-1=0$ (过圆心, 与圆交于两点), 另一条距圆心 $d+1=2$ (与圆相切, 交于一点). 共 $3$ 个点.
 
-故 $\dfrac{|b|}{\sqrt 2}=1$, 即 $b=\pm\sqrt 2$. $\blacksquare$
+故 $\frac{\lvert b \rvert}{\sqrt 2}=1$, 即 $b=\pm\sqrt 2$. $\blacksquare$
 
 ### 习题六
 
@@ -271,14 +271,14 @@ $$
 由**常用结论 2.3.3** (点到直线的距离公式), 圆心到切线的距离等于半径:
 
 $$
-\dfrac{\left|k\cdot1-2+5-3k\right|}{\sqrt{k^2+1}}=2.
+\frac{\left|k\cdot1-2+5-3k\right|}{\sqrt{k^2+1}}=2.
 $$
 
-化简, 得 $\dfrac{\left|3-2k\right|}{\sqrt{k^2+1}}=2$, 即 $\left(3-2k\right)^2=4\left(k^2+1\right)$, 即 $9-12k+4k^2=4k^2+4$, 即 $12k=5$, 故 $k=\dfrac{5}{12}$.
+化简, 得 $\frac{\left|3-2k\right|}{\sqrt{k^2+1}}=2$, 即 $\left(3-2k\right)^2=4\left(k^2+1\right)$, 即 $9-12k+4k^2=4k^2+4$, 即 $12k=5$, 故 $k=\frac{5}{12}$.
 
-切线方程为 $y-5=\dfrac{5}{12}\left(x-3\right)$, 即 $5x-12y+45=0$.
+切线方程为 $y-5=\frac{5}{12}\left(x-3\right)$, 即 $5x-12y+45=0$.
 
-当切线斜率不存在时, 切线为 $x=3$. 圆心到 $x=3$ 的距离为 $|3-1|=2=r$, 故 $x=3$ 也是切线.
+当切线斜率不存在时, 切线为 $x=3$. 圆心到 $x=3$ 的距离为 $\lvert 3-1 \rvert=2=r$, 故 $x=3$ 也是切线.
 
 故切线方程为 $x=3$ 或 $5x-12y+45=0$. $\blacksquare$
 
@@ -302,17 +302,17 @@ $x^2+y^2=2x$ 即 $\left(x-1\right)^2+y^2=1$, 是圆心在 $\left(1,0\right)$ 半
 
 ### 解答 习题九
 
-由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $O\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\dfrac{|b|}{\sqrt 2}$.
+由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $O\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\frac{\lvert b \rvert}{\sqrt 2}$.
 
 圆的半径为 $2$. 到直线 $l$ 距离为 $1$ 的点在两条平行于 $l$ 的直线上, 这两条直线到圆心的距离分别为 $d-1$ 和 $d+1$.
 
 圆上恰有两个点到 $l$ 的距离为 $1$, 即上述两条平行线中一条与圆相交于两点, 另一条与圆相离.
 
-(a) 当 $|d-1|<2$ 且 $d+1>2$ 时, 即 $-1<d<3$ 且 $d>1$, 即 $1<d<3$.
+(a) 当 $\lvert d-1 \rvert<2$ 且 $d+1>2$ 时, 即 $-1<d<3$ 且 $d>1$, 即 $1<d<3$.
 
-(b) 当 $d-1>2$ 且 $|d+1|<2$ 时, 即 $d>3$ 且 $-3<d<1$, 无解.
+(b) 当 $d-1>2$ 且 $\lvert d+1 \rvert<2$ 时, 即 $d>3$ 且 $-3<d<1$, 无解.
 
-综合, $1<d<3$, 即 $1<\dfrac{|b|}{\sqrt 2}<3$, 即 $\sqrt 2<|b|<3\sqrt 2$, 故 $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
+综合, $1<d<3$, 即 $1<\frac{\lvert b \rvert}{\sqrt 2}<3$, 即 $\sqrt 2<\lvert b \rvert<3\sqrt 2$, 故 $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
 
 ### 习题十
 
@@ -320,13 +320,13 @@ $x^2+y^2=2x$ 即 $\left(x-1\right)^2+y^2=1$, 是圆心在 $\left(1,0\right)$ 半
 
 (1) 圆 $C$ 的圆心坐标和半径;
 
-(2) 若点 $Q\left(a,b\right)$ 为圆 $C$ 上的动点, 求 $u=\dfrac{b-3}{a-6}$ 的取值范围.
+(2) 若点 $Q\left(a,b\right)$ 为圆 $C$ 上的动点, 求 $u=\frac{b-3}{a-6}$ 的取值范围.
 
 ### 解答 习题十
 
 (1) 由**定义 2.4.3** (圆的一般方程), 方程 $x^2+y^2-4x-14y+45=0$ 即 $\left(x-2\right)^2+\left(y-7\right)^2=8$. 圆心为 $\left(2,7\right)$, 半径 $r=2\sqrt 2$.
 
-(2) $u=\dfrac{b-3}{a-6}$ 表示点 $Q\left(a,b\right)$ 与点 $P\left(6,3\right)$ 连线的斜率. 问题转化为: 点 $P\left(6,3\right)$ 与圆上动点连线斜率的取值范围.
+(2) $u=\frac{b-3}{a-6}$ 表示点 $Q\left(a,b\right)$ 与点 $P\left(6,3\right)$ 连线的斜率. 问题转化为: 点 $P\left(6,3\right)$ 与圆上动点连线斜率的取值范围.
 
 点 $P$ 到圆心 $\left(2,7\right)$ 的距离为 $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2>2\sqrt 2$, 点 $P$ 在圆外.
 
@@ -335,9 +335,9 @@ $x^2+y^2=2x$ 即 $\left(x-1\right)^2+y^2=1$, 是圆心在 $\left(1,0\right)$ 半
 圆心到切线的距离等于半径:
 
 $$
-\dfrac{\left|2k-7+3-6k\right|}{\sqrt{k^2+1}}=2\sqrt 2.
+\frac{\left|2k-7+3-6k\right|}{\sqrt{k^2+1}}=2\sqrt 2.
 $$
 
-化简, 得 $\dfrac{\left|-4k-4\right|}{\sqrt{k^2+1}}=2\sqrt 2$, 即 $\left(k+1\right)^2=\dfrac{1}{2}\left(k^2+1\right)$, 即 $2\left(k^2+2k+1\right)=k^2+1$, 即 $k^2+4k+1=0$.
+化简, 得 $\frac{\left|-4k-4\right|}{\sqrt{k^2+1}}=2\sqrt 2$, 即 $\left(k+1\right)^2=\frac{1}{2}\left(k^2+1\right)$, 即 $2\left(k^2+2k+1\right)=k^2+1$, 即 $k^2+4k+1=0$.
 
 解得 $k=-2\pm\sqrt 3$. 故 $u$ 的取值范围为 $\left[-2-\sqrt 3,-2+\sqrt 3\right]$. $\blacksquare$

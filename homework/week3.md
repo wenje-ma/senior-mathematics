@@ -10,7 +10,7 @@
 
 > **定义 1.3.3** (全集) <br>一般地, 如果一个集合含有所研究问题中涉及的所有元素, 那么就称这个集合为全集, 通常记作 $U$. 通常也把给定的集合作为全集.
 
-> **定义 1.3.4** (补集) <br>对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 简称为集合 $A$ 的补集, 记作 $\complement_U A$, 即 $\complement_U A=\{x\mid x\in U$, 且 $x\notin A\}$.
+> **定义 1.3.4** (补集) <br>对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 简称为集合 $A$ 的补集, 记作 $\boldsymbol{U\setminus A}$, 即 $\boldsymbol{U\setminus A}=\{x\mid x\in U$, 且 $x\notin A\}$.
 
 > **常用结论** (有限集元素个数) <br>我们把含有限个元素的集合 $A$ 叫做有限集, 用 $\operatorname{card}\left(A\right)$ 来表示有限集合 $A$ 中元素的个数. 一般地, 对任意两个有限集合 $A,B$, 有 $\operatorname{card}\left(A\cup B\right)=\operatorname{card}\left(A\right)+\operatorname{card}\left(B\right)-\operatorname{card}\left(A\cap B\right)$.
 
@@ -64,45 +64,47 @@ $A$ 与 $B$ 的公共元素为 $5,8$, 故 $A\cap B=\{5,8\}$.
 
 ### 练习五
 
-(练习 1.3 第 5 题) 已知 $U=\{1,2,3,4,5,6,7\}$, $A=\{2,4,5\}$, $B=\{1,3,5,7\}$, 求 $A\cap\left(\complement_U B\right)$, $\left(\complement_U A\right)\cap\left(\complement_U B\right)$.
+(练习 1.3 第 5 题) 已知 $U=\{1,2,3,4,5,6,7\}$, $A=\{2,4,5\}$, $B=\{1,3,5,7\}$, 求 $A\cap\left(\boldsymbol{U\setminus B}\right)$, $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)$.
 
 ### 解答 练习五
 
 由**定义 1.3.4** (补集), 补集由全集 $U$ 中不属于该集合的元素组成.
 
-全集 $U=\{1,2,3,4,5,6,7\}$. 在 $U$ 中去掉 $B=\{1,3,5,7\}$ 的元素, 得 $\complement_U B=\{2,4,6\}$. 在 $U$ 中去掉 $A=\{2,4,5\}$ 的元素, 得 $\complement_U A=\{1,3,6,7\}$.
+全集 $U=\{1,2,3,4,5,6,7\}$. 在 $U$ 中去掉 $B=\{1,3,5,7\}$ 的元素, 得 $\boldsymbol{U\setminus B}=\{2,4,6\}$. 在 $U$ 中去掉 $A=\{2,4,5\}$ 的元素, 得 $\boldsymbol{U\setminus A}=\{1,3,6,7\}$.
 
-由**定义 1.3.2** (交集), $A$ 与 $\complement_U B$ 的公共元素为 $2,4$, 故 $A\cap\left(\complement_U B\right)=\{2,4\}$.
+由**定义 1.3.2** (交集), $A$ 与 $\boldsymbol{U\setminus B}$ 的公共元素为 $2,4$, 故 $A\cap\left(\boldsymbol{U\setminus B}\right)=\{2,4\}$.
 
-$\complement_U A=\{1,3,6,7\}$ 与 $\complement_U B=\{2,4,6\}$ 的公共元素只有 $6$, 故 $\left(\complement_U A\right)\cap\left(\complement_U B\right)=\{6\}$. $\blacksquare$
+$\boldsymbol{U\setminus A}=\{1,3,6,7\}$ 与 $\boldsymbol{U\setminus B}=\{2,4,6\}$ 的公共元素只有 $6$, 故 $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)=\{6\}$. $\blacksquare$
 
 ### 练习六
 
-(练习 1.3 第 6 题) 设 $S=\{x\mid x\text{ 是平行四边形或梯形}\}$, $A=\{x\mid x\text{ 是平行四边形}\}$, $B=\{x\mid x\text{ 是菱形}\}$, $C=\{x\mid x\text{ 是矩形}\}$, 求 $B\cap C$, $\complement_A B$, $\complement_S A$.
+(练习 1.3 第 6 题) 设 $S=\{x\mid x\text{ 是平行四边形或梯形}\}$, $A=\{x\mid x\text{ 是平行四边形}\}$, $B=\{x\mid x\text{ 是菱形}\}$, $C=\{x\mid x\text{ 是矩形}\}$, 求 $B\cap C$, $\boldsymbol{A\setminus B}$, $\boldsymbol{S\setminus A}$.
 
 ### 解答 练习六
 
 由**定义 1.3.2** (交集), $B\cap C$ 由既是菱形又是矩形的四边形组成. 菱形邻边相等, 矩形内角为直角, 两者兼具的四边形是正方形, 故 $B\cap C=\{x\mid x\text{ 是正方形}\}$.
 
-由**定义 1.3.4** (补集), $\complement_A B$ 是在全集 $A$ 即平行四边形中去掉菱形后剩余的部分, 故 $\complement_A B=\{x\mid x\text{ 是平行四边形且不是菱形}\}$.
+由**定义 1.3.4** (补集), $\boldsymbol{A\setminus B}$ 是在全集 $A$ 即平行四边形中去掉菱形后剩余的部分, 故 $\boldsymbol{A\setminus B}=\{x\mid x\text{ 是平行四边形且不是菱形}\}$.
 
-同理, $\complement_S A$ 是在全集 $S$ 即平行四边形或梯形中去掉平行四边形后剩余的部分, 故 $\complement_S A=\{x\mid x\text{ 是梯形}\}$. $\blacksquare$
+同理, $\boldsymbol{S\setminus A}$ 是在全集 $S$ 即平行四边形或梯形中去掉平行四边形后剩余的部分, 故 $\boldsymbol{S\setminus A}=\{x\mid x\text{ 是梯形}\}$. $\blacksquare$
 
 ### 练习七
 
 (练习 1.3 第 7 题) 图中 $U$ 是全集, $A,B$ 是 $U$ 的两个子集, 用阴影表示:
 
-(1) $\left(\complement_U A\right)\cap\left(\complement_U B\right)$;
+(1) $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)$;
 
-(2) $\left(\complement_U A\right)\cup\left(\complement_U B\right)$.
+(2) $\left(\boldsymbol{U\setminus A}\right)\cup\left(\boldsymbol{U\setminus B}\right)$.
+
+![week3-1.svg](../figures/week3-1.svg){width=100%}
 
 ### 解答 练习七
 
-由**定义 1.3.4** (补集), $\complement_U A$ 是全集 $U$ 中在圆 $A$ 以外的部分, $\complement_U B$ 是全集 $U$ 中在圆 $B$ 以外的部分.
+由**定义 1.3.4** (补集), $\boldsymbol{U\setminus A}$ 是全集 $U$ 中在圆 $A$ 以外的部分, $\boldsymbol{U\setminus B}$ 是全集 $U$ 中在圆 $B$ 以外的部分.
 
-(1) 由**定义 1.3.2** (交集), $\left(\complement_U A\right)\cap\left(\complement_U B\right)$ 是既在圆 $A$ 以外又在圆 $B$ 以外的部分, 即全集 $U$ 内除去圆 $A$ 与圆 $B$ 覆盖区域以外的全部区域, 将其涂为阴影.
+(1) 由**定义 1.3.2** (交集), $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)$ 是既在圆 $A$ 以外又在圆 $B$ 以外的部分, 即全集 $U$ 内除去圆 $A$ 与圆 $B$ 覆盖区域以外的全部区域, 将其涂为阴影.
 
-(2) 由**定义 1.3.1** (并集), $\left(\complement_U A\right)\cup\left(\complement_U B\right)$ 是在圆 $A$ 以外或在圆 $B$ 以外的部分, 即全集 $U$ 内除去圆 $A$ 与圆 $B$ 的公共部分 $A\cap B$ 以外的全部区域, 将其涂为阴影. $\blacksquare$
+(2) 由**定义 1.3.1** (并集), $\left(\boldsymbol{U\setminus A}\right)\cup\left(\boldsymbol{U\setminus B}\right)$ 是在圆 $A$ 以外或在圆 $B$ 以外的部分, 即全集 $U$ 内除去圆 $A$ 与圆 $B$ 的公共部分 $A\cap B$ 以外的全部区域, 将其涂为阴影. $\blacksquare$
 
 ### 习题一
 
@@ -150,19 +152,19 @@ $\complement_U A=\{1,3,6,7\}$ 与 $\complement_U B=\{2,4,6\}$ 的公共元素只
 
 ### 习题四
 
-(习题 1.3 综合运用第 4 题) 已知集合 $A=\{x\mid 3\le x<7\}$, $B=\{x\mid 2<x<10\}$, 求 $\complement_{\mathbb R}\left(A\cup B\right)$, $\complement_{\mathbb R}\left(A\cap B\right)$, $\left(\complement_{\mathbb R} A\right)\cap B$, $A\cup\left(\complement_{\mathbb R} B\right)$.
+(习题 1.3 综合运用第 4 题) 已知集合 $A=\{x\mid 3\le x<7\}$, $B=\{x\mid 2<x<10\}$, 求 $\boldsymbol{\left(A\cup B\right)^c}$, $\boldsymbol{\left(A\cap B\right)^c}$, $\left(\boldsymbol{A^c}\right)\cap B$, $A\cup\left(\boldsymbol{B^c}\right)$.
 
 ### 解答 习题四
 
 由**定义 1.3.1** (并集), $A\cup B=\{x\mid 2<x<10\}$. 由**定义 1.3.2** (交集), $A\cap B=\{x\mid 3\le x<7\}$.
 
-由**定义 1.3.4** (补集), 在全集 $\mathbb R$ 中取补集. 先求 $A\cup B$ 的补集: $2<x<10$ 以外的实数为 $x\le 2$ 或 $x\ge 10$, 故 $\complement_{\mathbb R}\left(A\cup B\right)=\{x\mid x\le 2\text{ 或 }x\ge 10\}$.
+由**定义 1.3.4** (补集), 在全集 $\mathbb R$ 中取补集. 先求 $A\cup B$ 的补集: $2<x<10$ 以外的实数为 $x\le 2$ 或 $x\ge 10$, 故 $\boldsymbol{\left(A\cup B\right)^c}=\{x\mid x\le 2\text{ 或 }x\ge 10\}$.
 
-再求 $A\cap B$ 的补集: $3\le x<7$ 以外的实数为 $x<3$ 或 $x\ge 7$, 故 $\complement_{\mathbb R}\left(A\cap B\right)=\{x\mid x<3\text{ 或 }x\ge 7\}$.
+再求 $A\cap B$ 的补集: $3\le x<7$ 以外的实数为 $x<3$ 或 $x\ge 7$, 故 $\boldsymbol{\left(A\cap B\right)^c}=\{x\mid x<3\text{ 或 }x\ge 7\}$.
 
-$A$ 在 $\mathbb R$ 中的补集为 $\complement_{\mathbb R} A=\{x\mid x<3\text{ 或 }x\ge 7\}$. 再由**定义 1.3.2** (交集), $\left(\complement_{\mathbb R} A\right)\cap B$ 由同时满足 $x<3$ 或 $x\ge 7$ 与 $2<x<10$ 的实数组成, 即 $2<x<3$ 或 $7\le x<10$, 故 $\left(\complement_{\mathbb R} A\right)\cap B=\{x\mid 2<x<3\text{ 或 }7\le x<10\}$.
+$A$ 在 $\mathbb R$ 中的补集为 $\boldsymbol{A^c}=\{x\mid x<3\text{ 或 }x\ge 7\}$. 再由**定义 1.3.2** (交集), $\left(\boldsymbol{A^c}\right)\cap B$ 由同时满足 $x<3$ 或 $x\ge 7$ 与 $2<x<10$ 的实数组成, 即 $2<x<3$ 或 $7\le x<10$, 故 $\left(\boldsymbol{A^c}\right)\cap B=\{x\mid 2<x<3\text{ 或 }7\le x<10\}$.
 
-$B$ 在 $\mathbb R$ 中的补集为 $\complement_{\mathbb R} B=\{x\mid x\le 2\text{ 或 }x\ge 10\}$. 再由**定义 1.3.1** (并集), $A\cup\left(\complement_{\mathbb R} B\right)$ 由满足 $3\le x<7$ 或 $x\le 2$ 或 $x\ge 10$ 的实数组成, 故 $A\cup\left(\complement_{\mathbb R} B\right)=\{x\mid x\le 2\text{ 或 }3\le x<7\text{ 或 }x\ge 10\}$. $\blacksquare$
+$B$ 在 $\mathbb R$ 中的补集为 $\boldsymbol{B^c}=\{x\mid x\le 2\text{ 或 }x\ge 10\}$. 再由**定义 1.3.1** (并集), $A\cup\left(\boldsymbol{B^c}\right)$ 由满足 $3\le x<7$ 或 $x\le 2$ 或 $x\ge 10$ 的实数组成, 故 $A\cup\left(\boldsymbol{B^c}\right)=\{x\mid x\le 2\text{ 或 }3\le x<7\text{ 或 }x\ge 10\}$. $\blacksquare$
 
 ### 习题五
 
@@ -184,19 +186,19 @@ $B$ 在 $\mathbb R$ 中的补集为 $\complement_{\mathbb R} B=\{x\mid x\le 2\te
 
 ### 习题六
 
-(习题 1.3 拓广探索第 6 题) 已知全集 $U=A\cup B=\{x\in\mathbb N\mid 0\le x\le 10\}$, $A\cap\left(\complement_U B\right)=\{1,3,5,7\}$, 试求集合 $B$.
+(习题 1.3 拓广探索第 6 题) 已知全集 $U=A\cup B=\{x\in\mathbb N\mid 0\le x\le 10\}$, $A\cap\left(\boldsymbol{U\setminus B}\right)=\{1,3,5,7\}$, 试求集合 $B$.
 
 ### 解答 习题六
 
 由**常用数集**, $\mathbb N$ 为非负整数集, 故 $U=A\cup B=\{0,1,2,3,4,5,6,7,8,9,10\}$.
 
-由**定义 1.3.4** (补集), $\complement_U B$ 是 $U$ 中不属于 $B$ 的元素. 又由**定义 1.3.1** (并集), $U=A\cup B$, 即 $U$ 中每个元素至少属于 $A,B$ 之一. 于是 $U$ 中不属于 $B$ 的元素必定属于 $A$, 即
+由**定义 1.3.4** (补集), $\boldsymbol{U\setminus B}$ 是 $U$ 中不属于 $B$ 的元素. 又由**定义 1.3.1** (并集), $U=A\cup B$, 即 $U$ 中每个元素至少属于 $A,B$ 之一. 于是 $U$ 中不属于 $B$ 的元素必定属于 $A$, 即
 
 $$
-\complement_U B=A\cap\left(\complement_U B\right).
+\boldsymbol{U\setminus B}=A\cap\left(\boldsymbol{U\setminus B}\right).
 $$
 
-由已知 $A\cap\left(\complement_U B\right)=\{1,3,5,7\}$, 故 $\complement_U B=\{1,3,5,7\}$.
+由已知 $A\cap\left(\boldsymbol{U\setminus B}\right)=\{1,3,5,7\}$, 故 $\boldsymbol{U\setminus B}=\{1,3,5,7\}$.
 
 再由**定义 1.3.4** (补集), 在全集 $U$ 中去掉 $\{1,3,5,7\}$ 的元素, 得 $B=\{0,2,4,6,8,9,10\}$. $\blacksquare$
 

@@ -1,0 +1,20 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week27-1: cross-shaped octagon from two rectangles ABCD and EFGH
+draw=function(){
+  plot(NULL,xlim=c(-3.8,3.8),ylim=c(-3.8,3.8),axes=FALSE,xlab="",ylab="",asp=1)
+  oct=rbind(c(-1,3),c(1,3),c(3,1),c(3,-1),c(1,-3),c(-1,-3),c(-3,-1),c(-3,1))
+  polygon(oct,lwd=2)
+  polygon(rbind(c(-1,1),c(-1,3),c(1,3),c(1,1)),col="gray80")
+  polygon(rbind(c(-1,-1),c(-1,-3),c(1,-3),c(1,-1)),col="gray80")
+  polygon(rbind(c(-3,1),c(-1,1),c(-1,-1),c(-3,-1)),col="gray80")
+  polygon(rbind(c(3,1),c(1,1),c(1,-1),c(3,-1)),col="gray80")
+  polygon(rbind(c(-1,1),c(1,1),c(1,-1),c(-1,-1)),col="white")
+  segments(-3,1,3,1,lty=1);segments(-3,-1,3,-1,lty=1)
+  segments(-1,-3,-1,3,lty=1);segments(1,-3,1,3,lty=1)
+  text(-1,3.25,"H");text(1,3.25,"G");text(3.25,1,"C");text(3.25,-1,"B")
+  text(1,-3.25,"F");text(-1,-3.25,"E");text(-3.25,-1,"A");text(-3.25,1,"D")
+  text(-1.25,1.25,"Q");text(1.25,1.25,"P");text(1.25,-1.25,"N");text(-1.25,-1.25,"M")
+}
+pdf("../figures/week27-1.pdf",width=4,height=4);draw();dev.off()
+svglite::svglite("../figures/week27-1.svg",width=4,height=4);draw();dev.off()

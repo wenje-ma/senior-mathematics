@@ -1,0 +1,58 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week95-1: 5-point scatter positive linear
+draw1=function(){
+  par(mar=c(4,4,2,1))
+  x=c(0.2,0.7,1.3,1.8,2.8);y=c(0.5,1.2,2.5,4.5,7.2)
+  plot(x,y,xlim=c(0,3.2),ylim=c(0,8),pch=19,xlab="x",ylab="y",main="")
+}
+cairo_pdf("../figures/week95-1.pdf",width=4,height=4,family="SimSun")
+draw1()
+dev.off()
+svglite::svglite("../figures/week95-1.svg",width=4,height=4)
+draw1()
+dev.off()
+# week95-2: residual plot with widening band (heteroscedasticity)
+draw2=function(){
+  par(mar=c(4,4,2,1))
+  set.seed(3)
+  x=runif(40,0,3)
+  e=rnorm(40,0,0.3+0.5*x)
+  plot(x,e,xlim=c(0,3),ylim=c(-3,3),pch=19,xlab="x",ylab="residual",main="")
+  abline(h=0,lty=3)
+}
+cairo_pdf("../figures/week95-2.pdf",width=4,height=4,family="SimSun")
+draw2()
+dev.off()
+svglite::svglite("../figures/week95-2.svg",width=4,height=4)
+draw2()
+dev.off()
+# week95-3: residual plot from table 8.1-3 (25 pairs height/armspan)
+ht=c(173,179,175,179,182,173,180,170,169,177,177,178,174,166,176,176,175,169,184,169,182,171,177,173,173)
+ar=c(169,170,172,177,174,166,174,169,166,176,170,174,170,161,166,165,173,162,189,164,170,164,173,165,169)
+draw3=function(){
+  par(mar=c(4,4,2,1))
+  fit=lm(ar~ht)
+  e=resid(fit)
+  plot(ht,e,xlab="height/cm",ylab="residual",pch=19,main="")
+  abline(h=0,lty=3)
+}
+cairo_pdf("../figures/week95-3.pdf",width=4,height=4,family="SimSun")
+draw3()
+dev.off()
+svglite::svglite("../figures/week95-3.svg",width=4,height=4)
+draw3()
+dev.off()
+# week95-4: 31 cities Jan vs July avg high temp
+jan=c(3,12,12,17,21,9,-11,22,9,10,3,3,10,4,-8,7,11,9,-3,6,17,8,5,13,20,-3,3,-3,8,2,11)
+jul=c(32,32,36,36,33,28,30,32,35,36,33,33,34,27,29,34,36,35,30,33,24,23,33,35,33,31,32,32,36,32,35)
+draw4=function(){
+  par(mar=c(4,4,2,1))
+  plot(jan,jul,pch=19,xlab="Jan high / C",ylab="Jul high / C",main="")
+}
+cairo_pdf("../figures/week95-4.pdf",width=4,height=4,family="SimSun")
+draw4()
+dev.off()
+svglite::svglite("../figures/week95-4.svg",width=4,height=4)
+draw4()
+dev.off()

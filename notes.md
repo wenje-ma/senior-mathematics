@@ -1,6 +1,5 @@
 # 高中数学 (人教 A 版)
 
-
 ## 必修第一册
 
 ### 第一章 集合与常用逻辑用语
@@ -77,7 +76,7 @@
 
 **定义 1.3.4** (补集)
 
-对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 简称为集合 $A$ 的补集, 记作 $\complement_U A$, 即 $\complement_U A=\{x\mid x\in U$, 且 $x\notin A\}$.
+对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 简称为集合 $A$ 的补集, 记作 $U\setminus A$, 即 $U\setminus A=\{x\mid x\in U$, 且 $x\notin A\}$.
 
 **常用结论** (有限集元素个数)
 
@@ -171,11 +170,11 @@ $\forall a,b\in\mathbb R$, 有 $a^2+b^2\ge 2ab$, 当且仅当 $a=b$ 时, 等号�
 
 **定理 2.2.1** (基本不等式)
 
-如果 $a>0$, $b>0$, 那么 $\sqrt{ab}\le\dfrac{a+b}{2}$, 当且仅当 $a=b$ 时, 等号成立. 其中 $\dfrac{a+b}{2}$ 叫做正数 $a,b$ 的算术平均数, $\sqrt{ab}$ 叫做正数 $a,b$ 的几何平均数. 基本不等式表明: 两个正数的算术平均数不小于它们的几何平均数.
+如果 $a>0$, $b>0$, 那么 $\sqrt{ab}\le\frac{a+b}{2}$, 当且仅当 $a=b$ 时, 等号成立. 其中 $\frac{a+b}{2}$ 叫做正数 $a,b$ 的算术平均数, $\sqrt{ab}$ 叫做正数 $a,b$ 的几何平均数. 基本不等式表明: 两个正数的算术平均数不小于它们的几何平均数.
 
 **常用结论 2.2.2** (积定和最小, 和定积最大)
 
-已知 $x,y$ 都是正数, (1) 如果积 $xy$ 等于定值 $P$, 那么当 $x=y$ 时, 和 $x+y$ 有最小值 $2\sqrt P$; (2) 如果和 $x+y$ 等于定值 $S$, 那么当 $x=y$ 时, 积 $xy$ 有最大值 $\dfrac{1}{4}S^2$.
+已知 $x,y$ 都是正数, (1) 如果积 $xy$ 等于定值 $P$, 那么当 $x=y$ 时, 和 $x+y$ 有最小值 $2\sqrt P$; (2) 如果和 $x+y$ 等于定值 $S$, 那么当 $x=y$ 时, 积 $xy$ 有最大值 $\frac{1}{4}S^2$.
 
 #### 2.3 二次函数与一元二次方程、不等式
 
@@ -189,7 +188,7 @@ $\forall a,b\in\mathbb R$, 有 $a^2+b^2\ge 2ab$, 当且仅当 $a=b$ 时, 等号�
 
 **常用结论 2.3.3** (一元二次不等式的解集)
 
-对于 $ax^2+bx+c>0$ 或 $ax^2+bx+c<0$ ($a>0$), 设 $\Delta=b^2-4ac$, $x_1,x_2$ 是方程 $ax^2+bx+c=0$ 的两实根 ($x_1<x_2$). 当 $\Delta>0$ 时, $ax^2+bx+c>0$ 的解集为 $\{x\mid x<x_1$ 或 $x>x_2\}$, $ax^2+bx+c<0$ 的解集为 $\{x\mid x_1<x<x_2\}$; 当 $\Delta=0$ 时, $ax^2+bx+c>0$ 的解集为 $\{x\mid x\neq-\dfrac{b}{2a}\}$, $ax^2+bx+c<0$ 的解集为 $\varnothing$; 当 $\Delta<0$ 时, $ax^2+bx+c>0$ 的解集为 $\mathbb R$, $ax^2+bx+c<0$ 的解集为 $\varnothing$. 对于二次项系数是负数的不等式, 先把二次项系数化成正数, 再求解.
+对于 $ax^2+bx+c>0$ 或 $ax^2+bx+c<0$ ($a>0$), 设 $\Delta=b^2-4ac$, $x_1,x_2$ 是方程 $ax^2+bx+c=0$ 的两实根 ($x_1<x_2$). 当 $\Delta>0$ 时, $ax^2+bx+c>0$ 的解集为 $\{x\mid x<x_1$ 或 $x>x_2\}$, $ax^2+bx+c<0$ 的解集为 $\{x\mid x_1<x<x_2\}$; 当 $\Delta=0$ 时, $ax^2+bx+c>0$ 的解集为 $\{x\mid x\neq-\frac{b}{2a}\}$, $ax^2+bx+c<0$ 的解集为 $\varnothing$; 当 $\Delta<0$ 时, $ax^2+bx+c>0$ 的解集为 $\mathbb R$, $ax^2+bx+c<0$ 的解集为 $\varnothing$. 对于二次项系数是负数的不等式, 先把二次项系数化成正数, 再求解.
 
 ### 第三章 函数的概念与性质
 
@@ -277,7 +276,7 @@ $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域; 与 $x$ �
 
 **定义 4.1.5** (负分数指数幂)
 
-正数的负分数指数幂的意义是 $a^{-\frac{m}{n}}=\dfrac{1}{a^{\frac{m}{n}}}=\dfrac{1}{\sqrt[n]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
+正数的负分数指数幂的意义是 $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt[n]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
 
 **常用结论 4.1.6** (有理数指数幂的运算性质)
 
@@ -321,11 +320,11 @@ $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域; 与 $x$ �
 
 **常用结论 4.3.4** (对数运算性质)
 
-如果 $a>0$, 且 $a\neq 1$, $M>0$, $N>0$, 那么 (1) $\log_a(MN)=\log_a M+\log_a N$; (2) $\log_a\dfrac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
+如果 $a>0$, 且 $a\neq 1$, $M>0$, $N>0$, 那么 (1) $\log_a(MN)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
 
 **常用结论 4.3.5** (对数换底公式)
 
-$\log_a b=\dfrac{\log_c b}{\log_c a}$ ($a>0$, 且 $a\neq 1$; $b>0$; $c>0$, 且 $c\neq 1$).
+$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, 且 $a\neq 1$; $b>0$; $c>0$, 且 $c\neq 1$).
 
 #### 4.4 对数函数
 
@@ -381,29 +380,29 @@ $\log_a b=\dfrac{\log_c b}{\log_c a}$ ($a>0$, 且 $a\neq 1$; $b>0$; $c>0$, 且 $
 
 **常用结论** (弧度数公式)
 
-在半径为 $r$ 的圆中, 弧长为 $l$ 的弧所对的圆心角为 $\alpha\ \mathrm{rad}$, 那么 $|\alpha|=\dfrac{l}{r}$. 其中, $\alpha$ 的正负由角 $\alpha$ 的终边的旋转方向决定, 即逆时针旋转为正, 顺时针旋转为负. 正角的弧度数是一个正数, 负角的弧度数是一个负数, 零角的弧度数是 $0$.
+在半径为 $r$ 的圆中, 弧长为 $l$ 的弧所对的圆心角为 $\alpha\ \mathrm{rad}$, 那么 $|\alpha|=\frac{l}{r}$. 其中, $\alpha$ 的正负由角 $\alpha$ 的终边的旋转方向决定, 即逆时针旋转为正, 顺时针旋转为负. 正角的弧度数是一个正数, 负角的弧度数是一个负数, 零角的弧度数是 $0$.
 
 **常用结论** (角度与弧度的换算)
 
-$360^{\circ}=2\pi\ \mathrm{rad}$, $180^{\circ}=\pi\ \mathrm{rad}$, $1^{\circ}=\dfrac{\pi}{180}\ \mathrm{rad}$ $\approx0.01745\ \mathrm{rad}$, $1\ \mathrm{rad}$ $=\left(\dfrac{180}{\pi}\right)^{\circ}\approx57.30^{\circ}=57^{\circ}18'$.
+$360^{\circ}=2\pi\ \mathrm{rad}$, $180^{\circ}=\pi\ \mathrm{rad}$, $1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}$ $\approx0.01745\ \mathrm{rad}$, $1\ \mathrm{rad}$ $=\left(\frac{180}{\pi}\right)^{\circ}\approx57.30^{\circ}=57^{\circ}18'$.
 
 **常用结论** (扇形的弧长与面积公式)
 
-$l=\alpha R$, $S=\dfrac{1}{2}\alpha R^{2}$, $S=\dfrac{1}{2}lR$, 其中 $R$ 是圆的半径, $\alpha$ ($0<\alpha<2\pi$) 为圆心角, $l$ 是扇形的弧长, $S$ 是扇形的面积.
+$l=\alpha R$, $S=\frac{1}{2}\alpha R^{2}$, $S=\frac{1}{2}lR$, 其中 $R$ 是圆的半径, $\alpha$ ($0<\alpha<2\pi$) 为圆心角, $l$ 是扇形的弧长, $S$ 是扇形的面积.
 
 #### 5.2 三角函数的概念
 
 **定义 5.2.1** (正弦函数, 余弦函数, 正切函数)
 
-设 $\alpha$ 是一个任意角, $\alpha\in\mathbb R$, 它的终边 $OP$ 与单位圆相交于点 $P(x,y)$. (1) 把点 $P$ 的纵坐标 $y$ 叫做 $\alpha$ 的正弦函数, 记作 $\sin\alpha$, 即 $y=\sin\alpha$; (2) 把点 $P$ 的横坐标 $x$ 叫做 $\alpha$ 的余弦函数, 记作 $\cos\alpha$, 即 $x=\cos\alpha$; (3) 把点 $P$ 的纵坐标与横坐标的比值 $\dfrac{y}{x}$ 叫做 $\alpha$ 的正切, 记作 $\tan\alpha$, 即 $\dfrac{y}{x}=\tan\alpha$ ($x\neq0$).
+设 $\alpha$ 是一个任意角, $\alpha\in\mathbb R$, 它的终边 $OP$ 与单位圆相交于点 $P(x,y)$. (1) 把点 $P$ 的纵坐标 $y$ 叫做 $\alpha$ 的正弦函数, 记作 $\sin\alpha$, 即 $y=\sin\alpha$; (2) 把点 $P$ 的横坐标 $x$ 叫做 $\alpha$ 的余弦函数, 记作 $\cos\alpha$, 即 $x=\cos\alpha$; (3) 把点 $P$ 的纵坐标与横坐标的比值 $\frac{y}{x}$ 叫做 $\alpha$ 的正切, 记作 $\tan\alpha$, 即 $\frac{y}{x}=\tan\alpha$ ($x\neq0$).
 
 **常用结论** (三角函数的定义域)
 
-正弦函数 $y=\sin x$, $x\in\mathbb R$; 余弦函数 $y=\cos x$, $x\in\mathbb R$; 正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\dfrac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$.
+正弦函数 $y=\sin x$, $x\in\mathbb R$; 余弦函数 $y=\cos x$, $x\in\mathbb R$; 正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$.
 
 **定义 5.2.2** (终边上任意一点的三角函数比值)
 
-设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $(x,y)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\dfrac{y}{r}$, $\cos\alpha=\dfrac{x}{r}$, $\tan\alpha=\dfrac{y}{x}$.
+设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $(x,y)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
 
 **公式一** (终边相同的角的三角函数值)
 
@@ -415,7 +414,7 @@ $\sin(\alpha+k\cdot2\pi)=\sin\alpha$, $\cos(\alpha+k\cdot2\pi)=\cos\alpha$, $\ta
 
 **常用结论** (同角三角函数的基本关系)
 
-同一个角 $\alpha$ 的正弦, 余弦的平方和等于 $1$, 商等于角 $\alpha$ 的正切, 即 $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\dfrac{\sin\alpha}{\cos\alpha}=\tan\alpha$ ($\alpha\neq k\pi+\dfrac{\pi}{2}$, $k\in\mathbb Z$).
+同一个角 $\alpha$ 的正弦, 余弦的平方和等于 $1$, 商等于角 $\alpha$ 的正切, 即 $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\frac{\sin\alpha}{\cos\alpha}=\tan\alpha$ ($\alpha\neq k\pi+\frac{\pi}{2}$, $k\in\mathbb Z$).
 
 #### 5.3 诱导公式
 
@@ -433,11 +432,11 @@ $\sin(\pi-\alpha)=\sin\alpha$, $\cos(\pi-\alpha)=-\cos\alpha$, $\tan(\pi-\alpha)
 
 **公式五**
 
-$\sin\left(\dfrac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\dfrac{\pi}{2}-\alpha\right)=\sin\alpha$.
+$\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
 **公式六**
 
-$\sin\left(\dfrac{\pi}{2}+\alpha\right)=\cos\alpha$, $\cos\left(\dfrac{\pi}{2}+\alpha\right)=-\sin\alpha$.
+$\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha$.
 
 #### 5.4 三角函数的图象与性质
 
@@ -447,7 +446,7 @@ $\sin\left(\dfrac{\pi}{2}+\alpha\right)=\cos\alpha$, $\cos\left(\dfrac{\pi}{2}+\
 
 **常用结论** (正弦函数的图象与性质)
 
-正弦函数 $y=\sin x$, $x\in\mathbb R$ 的图象叫做正弦曲线. 正弦函数是周期函数, 最小正周期为 $2\pi$. 正弦函数是奇函数, 图象关于原点对称. 正弦函数在每一个闭区间 $\left[-\dfrac{\pi}{2}+2k\pi,\ \dfrac{\pi}{2}+2k\pi\right]$ ($k\in\mathbb Z$) 上都单调递增, 其值从 $-1$ 增大到 $1$; 在每一个闭区间 $\left[\dfrac{\pi}{2}+2k\pi,\ \dfrac{3\pi}{2}+2k\pi\right]$ 上都单调递减, 其值从 $1$ 减小到 $-1$. 正弦函数当且仅当 $x=\dfrac{\pi}{2}+2k\pi$ 时取得最大值 $1$, 当且仅当 $x=-\dfrac{\pi}{2}+2k\pi$ 时取得最小值 $-1$.
+正弦函数 $y=\sin x$, $x\in\mathbb R$ 的图象叫做正弦曲线. 正弦函数是周期函数, 最小正周期为 $2\pi$. 正弦函数是奇函数, 图象关于原点对称. 正弦函数在每一个闭区间 $\left[-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right]$ ($k\in\mathbb Z$) 上都单调递增, 其值从 $-1$ 增大到 $1$; 在每一个闭区间 $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$ 上都单调递减, 其值从 $1$ 减小到 $-1$. 正弦函数当且仅当 $x=\frac{\pi}{2}+2k\pi$ 时取得最大值 $1$, 当且仅当 $x=-\frac{\pi}{2}+2k\pi$ 时取得最小值 $-1$.
 
 **常用结论** (余弦函数的图象与性质)
 
@@ -455,11 +454,11 @@ $\sin\left(\dfrac{\pi}{2}+\alpha\right)=\cos\alpha$, $\cos\left(\dfrac{\pi}{2}+\
 
 **常用结论** (正切函数的图象与性质)
 
-正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\dfrac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$ 的图象叫做正切曲线. 正切函数是周期函数, 最小正周期为 $\pi$. 正切函数是奇函数. 正切函数在每一个区间 $\left(-\dfrac{\pi}{2}+k\pi,\ \dfrac{\pi}{2}+k\pi\right)$ ($k\in\mathbb Z$) 上都单调递增. 正切函数的值域是实数集 $\mathbb R$.
+正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$ 的图象叫做正切曲线. 正切函数是周期函数, 最小正周期为 $\pi$. 正切函数是奇函数. 正切函数在每一个区间 $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ ($k\in\mathbb Z$) 上都单调递增. 正切函数的值域是实数集 $\mathbb R$.
 
 **常用结论** ($y=A\sin(\omega x+\varphi)$ 的周期)
 
-函数 $y=A\sin(\omega x+\varphi)$, $x\in\mathbb R$ 及函数 $y=A\cos(\omega x+\varphi)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega>0$) 的周期 $T=\dfrac{2\pi}{\omega}$.
+函数 $y=A\sin(\omega x+\varphi)$, $x\in\mathbb R$ 及函数 $y=A\cos(\omega x+\varphi)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega>0$) 的周期 $T=\frac{2\pi}{\omega}$.
 
 #### 5.5 三角恒等变换
 
@@ -481,11 +480,11 @@ $\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta$.
 
 **公式 5.5.5** (和角正切公式)
 
-$\tan(\alpha+\beta)=\dfrac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$.
+$\tan(\alpha+\beta)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$.
 
 **公式 5.5.6** (差角正切公式)
 
-$\tan(\alpha-\beta)=\dfrac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$.
+$\tan(\alpha-\beta)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$.
 
 **公式 5.5.7** (二倍角正弦公式)
 
@@ -497,15 +496,15 @@ $\cos2\alpha=\cos^{2}\alpha-\sin^{2}\alpha=1-2\sin^{2}\alpha=2\cos^{2}\alpha-1$.
 
 **公式 5.5.9** (二倍角正切公式)
 
-$\tan2\alpha=\dfrac{2\tan\alpha}{1-\tan^{2}\alpha}$.
+$\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}$.
 
 **公式 5.5.10** (半角公式)
 
-$\sin^{2}\dfrac{\alpha}{2}=\dfrac{1-\cos\alpha}{2}$, $\cos^{2}\dfrac{\alpha}{2}=\dfrac{1+\cos\alpha}{2}$, $\tan^{2}\dfrac{\alpha}{2}=\dfrac{1-\cos\alpha}{1+\cos\alpha}$.
+$\sin^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$, $\cos^{2}\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$, $\tan^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}$.
 
 **公式 5.5.11** (辅助角公式)
 
-$a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin(x+\varphi)$, 其中 $\cos\varphi=\dfrac{a}{\sqrt{a^{2}+b^{2}}}$, $\sin\varphi=\dfrac{b}{\sqrt{a^{2}+b^{2}}}$.
+$a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin(x+\varphi)$, 其中 $\cos\varphi=\frac{a}{\sqrt{a^{2}+b^{2}}}$, $\sin\varphi=\frac{b}{\sqrt{a^{2}+b^{2}}}$.
 
 #### 5.6 函数 $y=A\sin(\omega x+\varphi)$
 
@@ -515,11 +514,11 @@ $a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin(x+\varphi)$, 其中 $\cos\varphi=\dfrac{
 
 **定义 5.6.2** (周期)
 
-函数 $y=A\sin(\omega x+\varphi)$ 的周期 $T=\dfrac{2\pi}{\omega}$, 即往复运动一次所需的时间.
+函数 $y=A\sin(\omega x+\varphi)$ 的周期 $T=\frac{2\pi}{\omega}$, 即往复运动一次所需的时间.
 
 **定义 5.6.3** (频率)
 
-函数 $y=A\sin(\omega x+\varphi)$ 的频率 $f=\dfrac{1}{T}=\dfrac{\omega}{2\pi}$, 即单位时间内往复运动的次数.
+函数 $y=A\sin(\omega x+\varphi)$ 的频率 $f=\frac{1}{T}=\frac{\omega}{2\pi}$, 即单位时间内往复运动的次数.
 
 **定义 5.6.4** (相位与初相)
 
@@ -527,7 +526,7 @@ $\omega x+\varphi$ 称为相位; $x=0$ 时的相位 $\varphi$ 称为初相.
 
 **性质 5.6.1** (图象变换)
 
-由 $y=\sin x$ 的图象得到 $y=A\sin(\omega x+\varphi)$ 的图象: (1) 向左 (右) 平移 $|\varphi|$ 个单位得 $y=\sin(x+\varphi)$; (2) 横坐标缩 (伸) 到原来的 $\dfrac{1}{\omega}$ 倍得 $y=\sin(\omega x+\varphi)$; (3) 纵坐标伸 (缩) 到原来的 $A$ 倍得 $y=A\sin(\omega x+\varphi)$.
+由 $y=\sin x$ 的图象得到 $y=A\sin(\omega x+\varphi)$ 的图象: (1) 向左 (右) 平移 $|\varphi|$ 个单位得 $y=\sin(x+\varphi)$; (2) 横坐标缩 (伸) 到原来的 $\frac{1}{\omega}$ 倍得 $y=\sin(\omega x+\varphi)$; (3) 纵坐标伸 (缩) 到原来的 $A$ 倍得 $y=A\sin(\omega x+\varphi)$.
 
 #### 5.7 三角函数的应用
 
@@ -537,7 +536,7 @@ $\omega x+\varphi$ 称为相位; $x=0$ 时的相位 $\varphi$ 称为初相.
 
 **定义 5.7.2** (振幅, 周期, 频率, 相位)
 
-$A$ 是振幅, 即离开平衡位置的最大距离; 周期 $T=\dfrac{2\pi}{\omega}$; 频率 $f=\dfrac{1}{T}=\dfrac{\omega}{2\pi}$; $\omega x+\varphi$ 称为相位, $x=0$ 时的相位 $\varphi$ 称为初相.
+$A$ 是振幅, 即离开平衡位置的最大距离; 周期 $T=\frac{2\pi}{\omega}$; 频率 $f=\frac{1}{T}=\frac{\omega}{2\pi}$; $\omega x+\varphi$ 称为相位, $x=0$ 时的相位 $\varphi$ 称为初相.
 
 **性质 5.7.1** (三角函数模型应用步骤)
 
@@ -556,15 +555,15 @@ $A$ 是振幅, 即离开平衡位置的最大距离; 周期 $T=\dfrac{2\pi}{\ome
 
 **定义 6.1.2** (有向线段)
 
-具有方向的线段叫做有向线段. 以 $A$ 为起点, $B$ 为终点的有向线段记作 $\vec{AB}$. 有向线段包含三个要素: 起点, 方向, 长度.
+具有方向的线段叫做有向线段. 以 $A$ 为起点, $B$ 为终点的有向线段记作 $\boldsymbol{AB}$. 有向线段包含三个要素: 起点, 方向, 长度.
 
 **定义 6.1.3** (向量的模)
 
-向量 $\vec{AB}$ 的大小称为向量 $\vec{AB}$ 的长度 (或称模), 记作 $\lvert\vec{AB}\rvert$.
+向量 $\boldsymbol{AB}$ 的大小称为向量 $\boldsymbol{AB}$ 的长度 (或称模), 记作 $\lvert\boldsymbol{AB}\rvert$.
 
 **定义 6.1.4** (零向量)
 
-长度为 $0$ 的向量叫做零向量, 记作 $\vec 0$.
+长度为 $0$ 的向量叫做零向量, 记作 $\boldsymbol{0}$.
 
 **定义 6.1.5** (单位向量)
 
@@ -572,75 +571,75 @@ $A$ 是振幅, 即离开平衡位置的最大距离; 周期 $T=\dfrac{2\pi}{\ome
 
 **定义 6.1.6** (平行向量与共线向量)
 
-方向相同或相反的非零向量叫做平行向量. 向量 $\vec a$ 与 $\vec b$ 平行, 记作 $\vec a\parallel\vec b$. 我们规定: 零向量与任意向量平行. 任一组平行向量都可以平移到同一条直线上, 因此平行向量也叫做共线向量.
+方向相同或相反的非零向量叫做平行向量. 向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 平行, 记作 $\boldsymbol{a}\parallel\boldsymbol{b}$. 我们规定: 零向量与任意向量平行. 任一组平行向量都可以平移到同一条直线上, 因此平行向量也叫做共线向量.
 
 **定义 6.1.7** (相等向量)
 
-长度相等且方向相同的向量叫做相等向量, 记作 $\vec a=\vec b$. 任意两个相等的非零向量, 都可用同一条有向线段表示, 并且与有向线段的起点无关.
+长度相等且方向相同的向量叫做相等向量, 记作 $\boldsymbol{a}=\boldsymbol{b}$. 任意两个相等的非零向量, 都可用同一条有向线段表示, 并且与有向线段的起点无关.
 
 #### 6.2 向量的运算
 
 **定义 6.2.1** (向量加法的三角形法则)
 
-已知非零向量 $\vec a$, $\vec b$, 在平面内取任意一点 $A$, 作 $\vec{AB}=\vec a$, $\vec{BC}=\vec b$, 则向量 $\vec{AC}$ 叫做 $\vec a$ 与 $\vec b$ 的和, 记作 $\vec a+\vec b$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
 
 **定义 6.2.2** (向量加法的平行四边形法则)
 
-以同一点 $O$ 为起点的两个已知向量 $\vec a$, $\vec b$, 以 $OA$, $OB$ 为邻边作 $\square OACB$, 则以 $O$ 为起点的向量 $\vec{OC}$ 就是 $\vec a$ 与 $\vec b$ 的和.
+以同一点 $O$ 为起点的两个已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 以 $OA$, $OB$ 为邻边作 $\square OACB$, 则以 $O$ 为起点的向量 $\boldsymbol{OC}$ 就是 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和.
 
 **常用结论 6.2.3** (向量加法的运算律与三角不等式)
 
-$\vec a+\vec b=\vec b+\vec a$; $(\vec a+\vec b)+\vec c=\vec a+(\vec b+\vec c)$; $\lvert\vec a+\vec b\rvert\le\lvert\vec a\rvert+\lvert\vec b\rvert$, 当且仅当 $\vec a$, $\vec b$ 中有一个是零向量或方向相同时等号成立.
+$\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; $(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c})$; $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$, 当且仅当 $\boldsymbol{a}$, $\boldsymbol{b}$ 中有一个是零向量或方向相同时等号成立.
 
 **定义 6.2.4** (相反向量)
 
-与向量 $\vec a$ 长度相等, 方向相反的向量叫做 $\vec a$ 的相反向量, 记作 $-\vec a$. 零向量的相反向量仍是零向量. $\vec a+(-\vec a)=\vec 0$.
+与向量 $\boldsymbol{a}$ 长度相等, 方向相反的向量叫做 $\boldsymbol{a}$ 的相反向量, 记作 $-\boldsymbol{a}$. 零向量的相反向量仍是零向量. $\boldsymbol{a}+(-\boldsymbol{a})=\boldsymbol{0}$.
 
 **定义 6.2.5** (向量的减法)
 
-向量 $\vec a$ 加上 $\vec b$ 的相反向量叫做 $\vec a$ 与 $\vec b$ 的差, 即 $\vec a-\vec b=\vec a+(-\vec b)$.
+向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
 
 **定义 6.2.6** (向量的数乘)
 
-实数 $\lambda$ 与向量 $\vec a$ 的积是一个向量, 记作 $\lambda\vec a$. $\lvert\lambda\vec a\rvert=\lvert\lambda\rvert\lvert\vec a\rvert$; 当 $\lambda>0$ 时, $\lambda\vec a$ 的方向与 $\vec a$ 相同; 当 $\lambda<0$ 时, 方向相反.
+实数 $\lambda$ 与向量 $\boldsymbol{a}$ 的积是一个向量, 记作 $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; 当 $\lambda>0$ 时, $\lambda\boldsymbol{a}$ 的方向与 $\boldsymbol{a}$ 相同; 当 $\lambda<0$ 时, 方向相反.
 
 **常用结论 6.2.7** (数乘的运算律)
 
-$\lambda(\mu\vec a)=(\lambda\mu)\vec a$; $(\lambda+\mu)\vec a=\lambda\vec a+\mu\vec a$; $\lambda(\vec a+\vec b)=\lambda\vec a+\lambda\vec b$.
+$\lambda(\mu\boldsymbol{a})=(\lambda\mu)\boldsymbol{a}$; $(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$; $\lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
 
 **定理 6.2.8** (共线向量定理)
 
-向量 $\vec a$ ($\vec a\neq\vec 0$) 与 $\vec b$ 共线的充要条件是: 存在唯一一个实数 $\lambda$, 使 $\vec b=\lambda\vec a$.
+向量 $\boldsymbol{a}$ ($\boldsymbol{a}\neq\boldsymbol{0}$) 与 $\boldsymbol{b}$ 共线的充要条件是: 存在唯一一个实数 $\lambda$, 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
 **定义 6.2.9** (向量的夹角)
 
-已知两个非零向量 $\vec a$, $\vec b$, 作 $\vec{OA}=\vec a$, $\vec{OB}=\vec b$, 则 $\angle AOB=\theta$ ($0\le\theta\le\pi$) 叫做向量 $\vec a$ 与 $\vec b$ 的夹角.
+已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 作 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, 则 $\angle AOB=\theta$ ($0\le\theta\le\pi$) 叫做向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角.
 
 **定义 6.2.10** (向量垂直)
 
-如果 $\vec a$ 与 $\vec b$ 的夹角是 $\frac{\pi}{2}$, 说 $\vec a$ 与 $\vec b$ 垂直, 记作 $\vec a\perp\vec b$.
+如果 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角是 $\frac{\pi}{2}$, 说 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 垂直, 记作 $\boldsymbol{a}\perp\boldsymbol{b}$.
 
 **定义 6.2.11** (数量积)
 
-已知两个非零向量 $\vec a$ 与 $\vec b$, 它们的夹角为 $\theta$, 把数量 $\lvert\vec a\rvert\lvert\vec b\rvert\cos\theta$ 叫做向量 $\vec a$ 与 $\vec b$ 的数量积 (或内积), 记作 $\vec a\cdot\vec b$, 即 $\vec a\cdot\vec b=\lvert\vec a\rvert\lvert\vec b\rvert\cos\theta$. 规定零向量与任一向量的数量积为 $0$.
+已知两个非零向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$, 它们的夹角为 $\theta$, 把数量 $\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$ 叫做向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的数量积 (或内积), 记作 $\boldsymbol{a}\cdot\boldsymbol{b}$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. 规定零向量与任一向量的数量积为 $0$.
 
 **常用结论 6.2.12** (投影向量)
 
-与 $\vec b$ 方向相同的单位向量为 $\vec e$, $\vec a$ 与 $\vec b$ 的夹角为 $\theta$, 则 $\vec a$ 在 $\vec b$ 上的投影向量为 $\lvert\vec a\rvert\cos\theta\,\vec e$.
+与 $\boldsymbol{b}$ 方向相同的单位向量为 $\boldsymbol{e}$, $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $\theta$, 则 $\boldsymbol{a}$ 在 $\boldsymbol{b}$ 上的投影向量为 $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
 
 **常用结论 6.2.13** (数量积的性质)
 
-$\vec a\cdot\vec e=\vec e\cdot\vec a=\lvert\vec a\rvert\cos\theta$; $\vec a\perp\vec b\Longleftrightarrow\vec a\cdot\vec b=0$; 同向时 $\vec a\cdot\vec b=\lvert\vec a\rvert\lvert\vec b\rvert$, 反向时 $\vec a\cdot\vec b=-\lvert\vec a\rvert\lvert\vec b\rvert$; $\vec a\cdot\vec a=\lvert\vec a\rvert^2$; $\lvert\vec a\cdot\vec b\rvert\le\lvert\vec a\rvert\lvert\vec b\rvert$.
+$\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$; 同向时 $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$, 反向时 $\boldsymbol{a}\cdot\boldsymbol{b}=-\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$; $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$; $\lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$.
 
 **常用结论 6.2.14** (数量积的运算律)
 
-$\vec a\cdot\vec b=\vec b\cdot\vec a$; $(\lambda\vec a)\cdot\vec b=\lambda(\vec a\cdot\vec b)=\vec a\cdot(\lambda\vec b)$; $(\vec a+\vec b)\cdot\vec c=\vec a\cdot\vec c+\vec b\cdot\vec c$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$; $(\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
 
 #### 6.3 平面向量基本定理及坐标表示
 
 **定理 6.3.1** (平面向量基本定理)
 
-如果 $\vec e_1$, $\vec e_2$ 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 $\vec a$, 有且只有一对实数 $\lambda_1$, $\lambda_2$, 使 $\vec a=\lambda_1\vec e_1+\lambda_2\vec e_2$. 其中, 不共线的向量 $\vec e_1$, $\vec e_2$ 叫做这一平面内所有向量的一组基底.
+如果 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 $\boldsymbol{a}$, 有且只有一对实数 $\lambda_1$, $\lambda_2$, 使 $\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. 其中, 不共线的向量 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 叫做这一平面内所有向量的一组基底.
 
 **定义 6.3.2** (正交分解)
 
@@ -648,15 +647,15 @@ $\vec a\cdot\vec b=\vec b\cdot\vec a$; $(\lambda\vec a)\cdot\vec b=\lambda(\vec 
 
 **定义 6.3.3** (向量的坐标)
 
-在平面直角坐标系中, 取与 $x$ 轴, $y$ 轴方向相同的两个单位向量 $\vec i$, $\vec j$ 作为基底. 任作一个向量 $\vec a$, 由平面向量基本定理, 有且只有一对实数 $x$, $y$, 使得 $\vec a=x\vec i+y\vec j$. 我们把 $(x,y)$ 叫做向量 $\vec a$ 的坐标, 记作 $\vec a=(x,y)$.
+在平面直角坐标系中, 取与 $x$ 轴, $y$ 轴方向相同的两个单位向量 $\boldsymbol{i}$, $\boldsymbol{j}$ 作为基底. 任作一个向量 $\boldsymbol{a}$, 由平面向量基本定理, 有且只有一对实数 $x$, $y$, 使得 $\boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}$. 我们把 $(x,y)$ 叫做向量 $\boldsymbol{a}$ 的坐标, 记作 $\boldsymbol{a}=(x,y)$.
 
 **常用结论 6.3.4** (坐标的加, 减, 数乘运算)
 
-若 $\vec a=(x_1,y_1)$, $\vec b=(x_2,y_2)$, 则 $\vec a+\vec b=(x_1+x_2,y_1+y_2)$, $\vec a-\vec b=(x_1-x_2,y_1-y_2)$, $\lambda\vec a=(\lambda x_1,\lambda y_1)$. 一个向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
+若 $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 则 $\boldsymbol{a}+\boldsymbol{b}=(x_1+x_2,y_1+y_2)$, $\boldsymbol{a}-\boldsymbol{b}=(x_1-x_2,y_1-y_2)$, $\lambda\boldsymbol{a}=(\lambda x_1,\lambda y_1)$. 一个向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
 
 **常用结论 6.3.5** (向量共线的坐标表示)
 
-若 $\vec a=(x_1,y_1)$, $\vec b=(x_2,y_2)$, 其中 $\vec b\neq\vec 0$, 则 $\vec a\parallel\vec b\Longleftrightarrow x_1y_2-x_2y_1=0$.
+若 $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 其中 $\boldsymbol{b}\neq\boldsymbol{0}$, 则 $\boldsymbol{a}\parallel\boldsymbol{b}\Longleftrightarrow x_1y_2-x_2y_1=0$.
 
 **常用结论 6.3.6** (中点坐标公式)
 
@@ -664,11 +663,11 @@ $\vec a\cdot\vec b=\vec b\cdot\vec a$; $(\lambda\vec a)\cdot\vec b=\lambda(\vec 
 
 **常用结论 6.3.7** (数量积的坐标表示)
 
-若 $\vec a=(x_1,y_1)$, $\vec b=(x_2,y_2)$, 则 $\vec a\cdot\vec b=x_1x_2+y_1y_2$.
+若 $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 则 $\boldsymbol{a}\cdot\boldsymbol{b}=x_1x_2+y_1y_2$.
 
 **常用结论 6.3.8** (模, 垂直与夹角的坐标表示)
 
-$\lvert\vec a\rvert=\sqrt{x_1^2+y_1^2}$; $\vec a\perp\vec b\Longleftrightarrow x_1x_2+y_1y_2=0$; $\cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$.
+$\lvert\boldsymbol{a}\rvert=\sqrt{x_1^2+y_1^2}$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow x_1x_2+y_1y_2=0$; $\cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$.
 
 #### 6.4 平面向量的应用
 
@@ -718,11 +717,11 @@ $a+b\mathrm{i}$ 与 $c+d\mathrm{i}$ 相等当且仅当 $a=c$ 且 $b=d$.
 
 **定义 7.1.8** (复数的几何意义)
 
-复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z(a,b)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\overrightarrow{OZ}$ 一一对应.
+复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z(a,b)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\boldsymbol{OZ}$ 一一对应.
 
 **定义 7.1.9** (复数的模)
 
-向量 $\overrightarrow{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $|z|$ 或 $|a+b\mathrm{i}|$, 即
+向量 $\boldsymbol{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $|z|$ 或 $|a+b\mathrm{i}|$, 即
 
 $$
 |z|=|a+b\mathrm{i}|=\sqrt{a^2+b^2}.
@@ -730,7 +729,7 @@ $$
 
 **定义 7.1.10** (共轭复数)
 
-当两个复数的实部相等, 虚部互为相反数时, 这两个复数叫做互为共轭复数. 复数 $z$ 的共轭复数用 $\bar z$ 表示, 即如果 $z=a+b\mathrm{i}$, 那么 $\bar z=a-b\mathrm{i}$.
+当两个复数的实部相等, 虚部互为相反数时, 这两个复数叫做互为共轭复数. 复数 $z$ 的共轭复数用 $\overline{z}$ 表示, 即如果 $z=a+b\mathrm{i}$, 那么 $\overline{z}=a-b\mathrm{i}$.
 
 #### 7.2 复数的四则运算
 
@@ -756,7 +755,7 @@ $$
 
 **常用结论 7.2.4** (复数加, 减法的几何意义)
 
-复数加法可按照向量的加法来进行; 复数减法可按照向量的减法来进行. 复平面内两点 $Z_1(x_1,y_1)$, $Z_2(x_2,y_2)$ 之间的距离为 $|Z_1Z_2|=|z_2-z_1|=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
+复数加法可按照向量的加法来进行; 复数减法可按照向量的减法来进行. 复平面内两点 $Z_1(x_1,y_1)$, $Z_2(x_2,y_2)$ 之间的距离为 $\lvert Z_1Z_2\rvert=\lvert z_2-z_1\rvert=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
 
 **定义 7.2.5** (复数乘法法则)
 
@@ -774,11 +773,11 @@ $$
 
 **定义 7.3.1** (复数的三角表示式)
 
-任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r(\cos\theta+\mathrm{i}\sin\theta)$ 的形式, 其中 $r$ 是复数 $z$ 的模, $\theta$ 是以 $x$ 轴非负半轴为始边, 向量 $\overrightarrow{OZ}$ 所在射线为终边的角. $r(\cos\theta+\mathrm{i}\sin\theta)$ 叫做复数 $z=a+b\mathrm{i}$ 的三角表示式, 简称三角形式; $a+b\mathrm{i}$ 叫做代数表示式.
+任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r(\cos\theta+\mathrm{i}\sin\theta)$ 的形式, 其中 $r$ 是复数 $z$ 的模, $\theta$ 是以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角. $r(\cos\theta+\mathrm{i}\sin\theta)$ 叫做复数 $z=a+b\mathrm{i}$ 的三角表示式, 简称三角形式; $a+b\mathrm{i}$ 叫做代数表示式.
 
 **定义 7.3.2** (辐角)
 
-以 $x$ 轴非负半轴为始边, 向量 $\overrightarrow{OZ}$ 所在射线为终边的角 $\theta$ 叫做复数 $z=a+b\mathrm{i}$ 的辐角. 任何不为零的复数的辐角有无限多个值, 且相差 $2\pi$ 的整数倍.
+以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角 $\theta$ 叫做复数 $z=a+b\mathrm{i}$ 的辐角. 任何不为零的复数的辐角有无限多个值, 且相差 $2\pi$ 的整数倍.
 
 **定义 7.3.3** (辐角的主值)
 
@@ -806,7 +805,7 @@ $$
 
 **常用结论 7.3.7** (复数乘, 除运算的几何意义)
 
-两个复数相乘时, 把向量 $\overrightarrow{OZ_1}$ 绕点 $O$ 旋转角 $\theta_2$, 再把模变为原来的 $r_2$ 倍, 得到积对应的向量. 两个复数相除时, 把向量旋转角 $-\theta_2$, 再把模变为原来的 $\frac{1}{r_2}$ 倍.
+两个复数相乘时, 把向量 $\boldsymbol{OZ_1}$ 绕点 $O$ 旋转角 $\theta_2$, 再把模变为原来的 $r_2$ 倍, 得到积对应的向量. 两个复数相除时, 把向量旋转角 $-\theta_2$, 再把模变为原来的 $\frac{1}{r_2}$ 倍.
 
 ### 第八章 立体几何初步
 
@@ -902,11 +901,11 @@ $$
 
 **定义 8.3.3** (锥体体积)
 
-锥体的底面面积为 $S$, 高为 $h$, 则 $V_{\text{锥体}}=\dfrac{1}{3}Sh$.
+锥体的底面面积为 $S$, 高为 $h$, 则 $V_{\text{锥体}}=\frac{1}{3}Sh$.
 
 **定义 8.3.4** (台体体积)
 
-台体的上, 下底面面积为 $S'$, $S$, 高为 $h$, 则 $V_{\text{台体}}=\dfrac{1}{3}h\left(S'+\sqrt{S'S}+S\right)$.
+台体的上, 下底面面积为 $S'$, $S$, 高为 $h$, 则 $V_{\text{台体}}=\frac{1}{3}h\left(S'+\sqrt{S'S}+S\right)$.
 
 **定义 8.3.5** (圆柱表面积)
 
@@ -926,11 +925,11 @@ $V_{\text{圆柱}}=\pi r^{2}h$.
 
 **定义 8.3.9** (圆锥体积)
 
-$V_{\text{圆锥}}=\dfrac{1}{3}\pi r^{2}h$.
+$V_{\text{圆锥}}=\frac{1}{3}\pi r^{2}h$.
 
 **定义 8.3.10** (圆台体积)
 
-$V_{\text{圆台}}=\dfrac{1}{3}\pi h\left(r'^{2}+r'r+r^{2}\right)$.
+$V_{\text{圆台}}=\frac{1}{3}\pi h\left(r'^{2}+r'r+r^{2}\right)$.
 
 **定义 8.3.11** (球的表面积)
 
@@ -938,7 +937,7 @@ $V_{\text{圆台}}=\dfrac{1}{3}\pi h\left(r'^{2}+r'r+r^{2}\right)$.
 
 **定义 8.3.12** (球的体积)
 
-球的半径为 $R$, 则 $V_{\text{球}}=\dfrac{4}{3}\pi R^{3}$.
+球的半径为 $R$, 则 $V_{\text{球}}=\frac{4}{3}\pi R^{3}$.
 
 #### 8.4 空间点、直线、平面之间的位置关系
 
@@ -1102,7 +1101,7 @@ $V_{\text{圆台}}=\dfrac{1}{3}\pi h\left(r'^{2}+r'r+r^{2}\right)$.
 
 **常用结论 9.2.6** (数据变换对平均数与方差的影响)
 
-若 $y_i=ax_i+b$ ($a,b$ 为常数, $i=1,\cdots,n$), $\bar x,\bar y$ 与 $s_x^2,s_y^2$ 分别为两组数据的平均数与方差, 则 $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=|a|s_x$.
+若 $y_i=ax_i+b$ ($a,b$ 为常数, $i=1,\cdots,n$), $\bar x,\bar y$ 与 $s_x^2,s_y^2$ 分别为两组数据的平均数与方差, 则 $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=\lvert a\rvert\, s_x$.
 
 ### 第十章 概率
 
@@ -1166,37 +1165,37 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 10.1.15** (概率的古典定义)
 
-一般地, 设试验 $E$ 是古典概型, 样本空间 $\Omega$ 包含 $n$ 个样本点, 事件 $A$ 包含其中的 $k$ 个样本点, 则定义事件 $A$ 的概率 $P(A)=\dfrac{k}{n}=\dfrac{n(A)}{n(\Omega)}$, 其中 $n(A)$ 和 $n(\Omega)$ 分别表示事件 $A$ 和样本空间 $\Omega$ 包含的样本点个数.
+一般地, 设试验 $E$ 是古典概型, 样本空间 $\Omega$ 包含 $n$ 个样本点, 事件 $A$ 包含其中的 $k$ 个样本点, 则定义事件 $A$ 的概率 $\mathbb P(A)=\frac{k}{n}=\frac{n(A)}{n(\Omega)}$, 其中 $n(A)$ 和 $n(\Omega)$ 分别表示事件 $A$ 和样本空间 $\Omega$ 包含的样本点个数.
 
 **性质 10.1.16** (概率的非负性)
 
-对任意的事件 $A$, 都有 $P(A)\ge 0$.
+对任意的事件 $A$, 都有 $\mathbb P(A)\ge 0$.
 
 **性质 10.1.17** (必然事件与不可能事件的概率)
 
-必然事件的概率为 $1$, 不可能事件的概率为 $0$, 即 $P(\Omega)=1$, $P(\varnothing)=0$.
+必然事件的概率为 $1$, 不可能事件的概率为 $0$, 即 $\mathbb P(\Omega)=1$, $\mathbb P(\varnothing)=0$.
 
 **性质 10.1.18** (互斥事件的概率加法公式)
 
-如果事件 $A$ 与事件 $B$ 互斥, 那么 $P(A\cup B)=P(A)+P(B)$. 互斥事件的概率加法公式可以推广到多个事件的情况: 如果事件 $A_1, A_2, \cdots, A_m$ 两两互斥, 那么 $P(A_1\cup A_2\cup\cdots\cup A_m)=P(A_1)+P(A_2)+\cdots+P(A_m)$.
+如果事件 $A$ 与事件 $B$ 互斥, 那么 $\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B)$. 互斥事件的概率加法公式可以推广到多个事件的情况: 如果事件 $A_1, A_2, \cdots, A_m$ 两两互斥, 那么 $\mathbb P(A_1\cup A_2\cup\cdots\cup A_m)=\mathbb P(A_1)+\mathbb P(A_2)+\cdots+\mathbb P(A_m)$.
 
 **性质 10.1.19** (对立事件的概率)
 
-如果事件 $A$ 与事件 $B$ 互为对立事件, 那么 $P(B)=1-P(A)$, $P(A)=1-P(B)$.
+如果事件 $A$ 与事件 $B$ 互为对立事件, 那么 $\mathbb P(B)=1-\mathbb P(A)$, $\mathbb P(A)=1-\mathbb P(B)$.
 
 **性质 10.1.20** (概率的单调性)
 
-如果 $A\subseteq B$, 那么 $P(A)\le P(B)$. 由性质 10.1.20 可得, 对于任意事件 $A$, 因为 $\varnothing\subseteq A\subseteq\Omega$, 所以 $0\le P(A)\le 1$.
+如果 $A\subseteq B$, 那么 $\mathbb P(A)\le \mathbb P(B)$. 由性质 10.1.20 可得, 对于任意事件 $A$, 因为 $\varnothing\subseteq A\subseteq\Omega$, 所以 $0\le \mathbb P(A)\le 1$.
 
 **性质 10.1.21** (一般概率加法公式)
 
-设 $A, B$ 是一个随机试验中的两个事件, 我们有 $P(A\cup B)=P(A)+P(B)-P(A\cap B)$.
+设 $A, B$ 是一个随机试验中的两个事件, 我们有 $\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B)-\mathbb P(A\cap B)$.
 
 #### 10.2 事件的相互独立性
 
 **定义 10.2.1** (事件的相互独立性)
 
-对任意两个事件 $A$ 与 $B$, 如果 $P(A\cap B)=P(A)P(B)$ 成立, 则称事件 $A$ 与事件 $B$ 相互独立, 简称为独立.
+对任意两个事件 $A$ 与 $B$, 如果 $\mathbb P(A\cap B)=\mathbb P(A)\mathbb P(B)$ 成立, 则称事件 $A$ 与事件 $B$ 相互独立, 简称为独立.
 
 **性质 10.2.2** (对立事件的独立性)
 
@@ -1206,7 +1205,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 10.3.1** (频率的稳定性)
 
-一般地, 随着试验次数 $n$ 的增大, 频率偏离概率的幅度会缩小, 即事件 $A$ 发生的频率 $f_n(A)$ 会逐渐稳定于事件 $A$ 发生的概率 $P(A)$. 我们称频率的这个性质为频率的稳定性. 因此, 我们可以用频率 $f_n(A)$ 估计概率 $P(A)$.
+一般地, 随着试验次数 $n$ 的增大, 频率偏离概率的幅度会缩小, 即事件 $A$ 发生的频率 $f_n(A)$ 会逐渐稳定于事件 $A$ 发生的概率 $\mathbb P(A)$. 我们称频率的这个性质为频率的稳定性. 因此, 我们可以用频率 $f_n(A)$ 估计概率 $\mathbb P(A)$.
 
 **定义 10.3.2** (随机模拟)
 
@@ -1227,15 +1226,15 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 1.1.1** (空间向量)
 
-在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模. 空间向量也用有向线段表示, 有向线段的长度表示空间向量的模. 向量 $\vec a$ 的起点是 $A$, 终点是 $B$, 则向量 $\vec a$ 也可以记作 $\overrightarrow{AB}$, 其模记为 $\lvert \vec a \rvert$ 或 $\lvert \overrightarrow{AB} \rvert$.
+在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模. 空间向量也用有向线段表示, 有向线段的长度表示空间向量的模. 向量 $\boldsymbol{a}$ 的起点是 $A$, 终点是 $B$, 则向量 $\boldsymbol{a}$ 也可以记作 $\boldsymbol{AB}$, 其模记为 $\lvert \boldsymbol{a} \rvert$ 或 $\lvert \boldsymbol{AB} \rvert$.
 
 **定义 1.1.2** (零向量, 单位向量, 相反向量)
 
-长度为 $0$ 的向量叫做零向量, 记为 $\vec 0$. 当有向线段的起点 $A$ 与终点 $B$ 重合时, $\overrightarrow{AB}=\vec 0$. 模为 $1$ 的向量叫做单位向量. 与向量 $\vec a$ 长度相等而方向相反的向量, 叫做 $\vec a$ 的相反向量, 记为 $-\vec a$.
+长度为 $0$ 的向量叫做零向量, 记为 $\boldsymbol{0}$. 当有向线段的起点 $A$ 与终点 $B$ 重合时, $\boldsymbol{AB}=\boldsymbol{0}$. 模为 $1$ 的向量叫做单位向量. 与向量 $\boldsymbol{a}$ 长度相等而方向相反的向量, 叫做 $\boldsymbol{a}$ 的相反向量, 记为 $-\boldsymbol{a}$.
 
 **定义 1.1.3** (共线向量或平行向量)
 
-如果表示若干空间向量的有向线段所在的直线互相平行或重合, 那么这些向量叫做共线向量或平行向量. 我们规定: 零向量与任意向量平行, 即对于任意向量 $\vec a$, 都有 $\vec 0 \parallel \vec a$.
+如果表示若干空间向量的有向线段所在的直线互相平行或重合, 那么这些向量叫做共线向量或平行向量. 我们规定: 零向量与任意向量平行, 即对于任意向量 $\boldsymbol{a}$, 都有 $\boldsymbol{0} \parallel \boldsymbol{a}$.
 
 **定义 1.1.4** (相等向量)
 
@@ -1243,83 +1242,83 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 1.1.5** (空间向量的线性运算)
 
-与平面向量一样, 我们把平面向量的线性运算推广到空间, 定义空间向量的加法, 减法以及数乘运算: (1) $\vec a+\vec b=\overrightarrow{OA}+\overrightarrow{AB}=\overrightarrow{OB}$; (2) $\vec a-\vec b=\overrightarrow{OA}-\overrightarrow{OC}=\overrightarrow{CA}$; (3) 当 $\lambda>0$ 时, $\lambda\vec a=\lambda\overrightarrow{OA}=\overrightarrow{PQ}$; 当 $\lambda<0$ 时, $\lambda\vec a=\lambda\overrightarrow{OA}=\overrightarrow{MN}$; 当 $\lambda=0$ 时, $\lambda\vec a=\vec 0$.
+与平面向量一样, 我们把平面向量的线性运算推广到空间, 定义空间向量的加法, 减法以及数乘运算: (1) $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{OA}+\boldsymbol{AB}=\boldsymbol{OB}$; (2) $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{OA}-\boldsymbol{OC}=\boldsymbol{CA}$; (3) 当 $\lambda>0$ 时, $\lambda\boldsymbol{a}=\lambda\boldsymbol{OA}=\boldsymbol{PQ}$; 当 $\lambda<0$ 时, $\lambda\boldsymbol{a}=\lambda\boldsymbol{OA}=\boldsymbol{MN}$; 当 $\lambda=0$ 时, $\lambda\boldsymbol{a}=\boldsymbol{0}$.
 
 **常用结论 1.1.6** (空间向量线性运算的运算律)
 
-交换律: $\vec a+\vec b=\vec b+\vec a$; 结合律: $(\vec a+\vec b)+\vec c=\vec a+(\vec b+\vec c)$, $\mu(\lambda\vec a)=(\mu\lambda)\vec a$; 分配律: $(\lambda+\mu)\vec a=\lambda\vec a+\mu\vec a$, $\lambda(\vec a+\vec b)=\lambda\vec a+\lambda\vec b$.
+交换律: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; 结合律: $(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c})$, $\mu(\lambda\boldsymbol{a})=(\mu\lambda)\boldsymbol{a}$; 分配律: $(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$, $\lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
 
 **常用结论 1.1.7** (向量共线的充要条件)
 
-对任意两个空间向量 $\vec a$, $\vec b$ ($\vec b \neq \vec 0$), $\vec a \parallel \vec b$ 的充要条件是存在实数 $\lambda$, 使 $\vec a=\lambda\vec b$.
+对任意两个空间向量 $\boldsymbol{a}$, $\boldsymbol{b}$ ($\boldsymbol{b} \neq \boldsymbol{0}$), $\boldsymbol{a} \parallel \boldsymbol{b}$ 的充要条件是存在实数 $\lambda$, 使 $\boldsymbol{a}=\lambda\boldsymbol{b}$.
 
 **定义 1.1.8** (共面向量)
 
-已知向量 $\vec a$, 作 $\overrightarrow{OA}=\vec a$, 如果 $\overrightarrow{OA}$ 平行于平面 $\alpha$, 那么称向量 $\vec a$ 平行于平面 $\alpha$. 平行于同一个平面的向量, 叫做共面向量.
+已知向量 $\boldsymbol{a}$, 作 $\boldsymbol{OA}=\boldsymbol{a}$, 如果 $\boldsymbol{OA}$ 平行于平面 $\alpha$, 那么称向量 $\boldsymbol{a}$ 平行于平面 $\alpha$. 平行于同一个平面的向量, 叫做共面向量.
 
 **常用结论 1.1.9** (向量共面的充要条件)
 
-如果两个向量 $\vec a$, $\vec b$ 不共线, 那么向量 $\vec p$ 与向量 $\vec a$, $\vec b$ 共面的充要条件是存在唯一的有序实数对 $(x,y)$, 使 $\vec p=x\vec a+y\vec b$.
+如果两个向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 不共线, 那么向量 $\boldsymbol{p}$ 与向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 共面的充要条件是存在唯一的有序实数对 $(x,y)$, 使 $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}$.
 
 **定义 1.1.10** (向量的夹角)
 
-已知两个非零向量 $\vec a$, $\vec b$, 在空间任取一点 $O$, 作 $\overrightarrow{OA}=\vec a$, $\overrightarrow{OB}=\vec b$, 则 $\angle AOB$ 叫做向量 $\vec a$, $\vec b$ 的夹角, 记作 $\langle \vec a, \vec b \rangle$. 通常规定, $0 \leq \langle \vec a, \vec b \rangle \leq \pi$. 这样, 两个向量的夹角是唯一确定的, 且 $\langle \vec a, \vec b \rangle = \langle \vec b, \vec a \rangle$.
+已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在空间任取一点 $O$, 作 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, 则 $\angle AOB$ 叫做向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 的夹角, 记作 $\langle \boldsymbol{a}, \boldsymbol{b} \rangle$. 通常规定, $0 \leq \langle \boldsymbol{a}, \boldsymbol{b} \rangle \leq \pi$. 这样, 两个向量的夹角是唯一确定的, 且 $\langle \boldsymbol{a}, \boldsymbol{b} \rangle = \langle \boldsymbol{b}, \boldsymbol{a} \rangle$.
 
 **定义 1.1.11** (向量垂直)
 
-如果 $\langle \vec a, \vec b \rangle = \frac{\pi}{2}$, 那么向量 $\vec a$, $\vec b$ 互相垂直, 记作 $\vec a \perp \vec b$.
+如果 $\langle \boldsymbol{a}, \boldsymbol{b} \rangle = \frac{\pi}{2}$, 那么向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 互相垂直, 记作 $\boldsymbol{a} \perp \boldsymbol{b}$.
 
 **定义 1.1.12** (数量积)
 
-已知两个非零向量 $\vec a$, $\vec b$, 则 $\lvert \vec a \rvert \lvert \vec b \rvert \cos \langle \vec a, \vec b \rangle$ 叫做 $\vec a$, $\vec b$ 的数量积, 记作 $\vec a \cdot \vec b$. 即 $\vec a \cdot \vec b = \lvert \vec a \rvert \lvert \vec b \rvert \cos \langle \vec a, \vec b \rangle$. 特别地, 零向量与任意向量的数量积为 $0$.
+已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 则 $\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle$ 叫做 $\boldsymbol{a}$, $\boldsymbol{b}$ 的数量积, 记作 $\boldsymbol{a} \cdot \boldsymbol{b}$. 即 $\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle$. 特别地, 零向量与任意向量的数量积为 $0$.
 
 **常用结论 1.1.13** (数量积的性质)
 
-当 $\vec a \neq \vec 0$, $\vec b \neq \vec 0$ 时, $\vec a \perp \vec b \iff \vec a \cdot \vec b = 0$; $\vec a \cdot \vec a = \lvert \vec a \rvert \lvert \vec a \rvert \cos 0 = \lvert \vec a \rvert^2$. $\vec a \cdot \vec a$ 也记作 $\vec a^2$.
+当 $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b} = 0$; $\boldsymbol{a} \cdot \boldsymbol{a} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{a} \rvert \cos 0 = \lvert \boldsymbol{a} \rvert^2$. $\boldsymbol{a} \cdot \boldsymbol{a}$ 也记作 $\boldsymbol{a}^2$.
 
 **常用结论 1.1.14** (数量积的运算律)
 
-交换律: $\vec a \cdot \vec b = \vec b \cdot \vec a$; 数乘结合律: $(\lambda\vec a) \cdot \vec b = \lambda(\vec a \cdot \vec b)$; 分配律: $(\vec a+\vec b) \cdot \vec c = \vec a \cdot \vec c + \vec b \cdot \vec c$.
+交换律: $\boldsymbol{a} \cdot \boldsymbol{b} = \boldsymbol{b} \cdot \boldsymbol{a}$; 数乘结合律: $(\lambda\boldsymbol{a}) \cdot \boldsymbol{b} = \lambda(\boldsymbol{a} \cdot \boldsymbol{b})$; 分配律: $(\boldsymbol{a}+\boldsymbol{b}) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}$.
 
 **定义 1.1.15** (投影向量)
 
-在空间, 向量 $\vec a$ 向向量 $\vec b$ 投影, 可以先将它们平移到同一个平面 $\alpha$ 内, 进而利用平面上向量的投影, 得到与向量 $\vec b$ 共线的向量 $\vec c$, $\vec c = \vec a \cos \langle \vec a, \vec b \rangle \frac{\vec b}{\lvert \vec b \rvert}$, 向量 $\vec c$ 称为向量 $\vec a$ 在向量 $\vec b$ 上的投影向量. 类似地, 可以将向量 $\vec a$ 向直线 $l$ 投影, 向平面 $\beta$ 投影.
+在空间, 向量 $\boldsymbol{a}$ 向向量 $\boldsymbol{b}$ 投影, 可以先将它们平移到同一个平面 $\alpha$ 内, 进而利用平面上向量的投影, 得到与向量 $\boldsymbol{b}$ 共线的向量 $\boldsymbol{c}$, $\boldsymbol{c} = \boldsymbol{a} \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle \frac{\boldsymbol{b}}{\lvert \boldsymbol{b} \rvert}$, 向量 $\boldsymbol{c}$ 称为向量 $\boldsymbol{a}$ 在向量 $\boldsymbol{b}$ 上的投影向量. 类似地, 可以将向量 $\boldsymbol{a}$ 向直线 $l$ 投影, 向平面 $\beta$ 投影.
 
 #### 1.2 空间向量基本定理
 
 **定理 1.2.1** (空间向量基本定理)
 
-如果三个向量 $\vec a$, $\vec b$, $\vec c$ 不共面, 那么对任意一个空间向量 $\vec p$, 存在唯一的有序实数组 $(x,y,z)$, 使得 $\vec p=x\vec a+y\vec b+z\vec c$.
+如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么对任意一个空间向量 $\boldsymbol{p}$, 存在唯一的有序实数组 $(x,y,z)$, 使得 $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
 
 **定义 1.2.2** (基底, 基向量)
 
-如果三个向量 $\vec a$, $\vec b$, $\vec c$ 不共面, 那么所有空间向量组成的集合就是 $\{\vec p \mid \vec p=x\vec a+y\vec b+z\vec c,\ x,y,z \in \mathbb R\}$. 这个集合可看作由向量 $\vec a$, $\vec b$, $\vec c$ 生成的, 我们把 $\{\vec a, \vec b, \vec c\}$ 叫做空间的一个基底, $\vec a$, $\vec b$, $\vec c$ 都叫做基向量. 空间任意三个不共面的向量都可以构成空间的一个基底.
+如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么所有空间向量组成的集合就是 $\{\boldsymbol{p} \mid \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c},\ x,y,z \in \mathbb R\}$. 这个集合可看作由向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 生成的, 我们把 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 叫做空间的一个基底, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 都叫做基向量. 空间任意三个不共面的向量都可以构成空间的一个基底.
 
 **定义 1.2.3** (单位正交基底, 正交分解)
 
-如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\{\vec i, \vec j, \vec k\}$ 表示. 把一个空间向量分解为三个两两垂直的向量, 叫做把空间向量进行正交分解.
+如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ 表示. 把一个空间向量分解为三个两两垂直的向量, 叫做把空间向量进行正交分解.
 
 #### 1.3 空间向量及其运算的坐标表示
 
 **定义 1.3.1** (空间直角坐标系)
 
-在空间选定一点 $O$ 和一个单位正交基底 $\{\vec i, \vec j, \vec k\}$. 以点 $O$ 为原点, 分别以 $\vec i$, $\vec j$, $\vec k$ 的方向为正方向, 以它们的长为单位长度建立三条数轴: $x$ 轴, $y$ 轴, $z$ 轴, 它们都叫做坐标轴. 这时我们就建立了一个空间直角坐标系 $Oxyz$, $O$ 叫做原点, $\vec i$, $\vec j$, $\vec k$ 都叫做坐标向量, 通过每两条坐标轴的平面叫做坐标平面.
+在空间选定一点 $O$ 和一个单位正交基底 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$. 以点 $O$ 为原点, 分别以 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 的方向为正方向, 以它们的长为单位长度建立三条数轴: $x$ 轴, $y$ 轴, $z$ 轴, 它们都叫做坐标轴. 这时我们就建立了一个空间直角坐标系 $Oxyz$, $O$ 叫做原点, $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 都叫做坐标向量, 通过每两条坐标轴的平面叫做坐标平面.
 
 **定义 1.3.2** (点的坐标)
 
-在单位正交基底 $\{\vec i, \vec j, \vec k\}$ 下与向量 $\overrightarrow{OA}$ 对应的有序实数组 $(x,y,z)$, 叫做点 $A$ 在空间直角坐标系中的坐标, 记作 $A(x,y,z)$, 其中 $x$ 叫做点 $A$ 的横坐标, $y$ 叫做点 $A$ 的纵坐标, $z$ 叫做点 $A$ 的竖坐标.
+在单位正交基底 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ 下与向量 $\boldsymbol{OA}$ 对应的有序实数组 $(x,y,z)$, 叫做点 $A$ 在空间直角坐标系中的坐标, 记作 $A(x,y,z)$, 其中 $x$ 叫做点 $A$ 的横坐标, $y$ 叫做点 $A$ 的纵坐标, $z$ 叫做点 $A$ 的竖坐标.
 
 **定义 1.3.3** (向量的坐标)
 
-有序实数组 $(x,y,z)$ 叫做 $\vec a$ 在空间直角坐标系 $Oxyz$ 中的坐标, 即 $\vec a=x\vec i+y\vec j+z\vec k$, 上式可简记作 $\vec a=(x,y,z)$.
+有序实数组 $(x,y,z)$ 叫做 $\boldsymbol{a}$ 在空间直角坐标系 $Oxyz$ 中的坐标, 即 $\boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}+z\boldsymbol{k}$, 上式可简记作 $\boldsymbol{a}=(x,y,z)$.
 
 **常用结论 1.3.4** (空间向量运算的坐标表示)
 
-设 $\vec a=(a_1,a_2,a_3)$, $\vec b=(b_1,b_2,b_3)$, 则 $\vec a+\vec b=(a_1+b_1,a_2+b_2,a_3+b_3)$, $\vec a-\vec b=(a_1-b_1,a_2-b_2,a_3-b_3)$, $\lambda\vec a=(\lambda a_1,\lambda a_2,\lambda a_3)$, $\lambda \in \mathbb R$, $\vec a \cdot \vec b=a_1b_1+a_2b_2+a_3b_3$. 一个空间向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
+设 $\boldsymbol{a}=(a_1,a_2,a_3)$, $\boldsymbol{b}=(b_1,b_2,b_3)$, 则 $\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3)$, $\boldsymbol{a}-\boldsymbol{b}=(a_1-b_1,a_2-b_2,a_3-b_3)$, $\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3)$, $\lambda \in \mathbb R$, $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$. 一个空间向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
 
 **常用结论 1.3.5** (平行, 垂直, 模长, 夹角的坐标表示)
 
-当 $\vec b \neq \vec 0$ 时, $\vec a \parallel \vec b \iff \vec a=\lambda\vec b \iff a_1=\lambda b_1$, $a_2=\lambda b_2$, $a_3=\lambda b_3$ ($\lambda \in \mathbb R$); 当 $\vec a \neq \vec 0$, $\vec b \neq \vec 0$ 时, $\vec a \perp \vec b \iff \vec a \cdot \vec b=0 \iff a_1b_1+a_2b_2+a_3b_3=0$; $\lvert \vec a \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \langle \vec a, \vec b \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}$.
+当 $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1$, $a_2=\lambda b_2$, $a_3=\lambda b_3$ ($\lambda \in \mathbb R$); 当 $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0 \iff a_1b_1+a_2b_2+a_3b_3=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}$.
 
 **常用结论 1.3.6** (空间两点间的距离公式)
 
@@ -1329,39 +1328,39 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 1.4.1** (直线的方向向量)
 
-若 $P$ 是直线 $l$ 上的一点, $\vec u$ 是直线 $l$ 的方向向量, 则任取点 $P$ 在直线 $l$ 上, 对于直线 $l$ 上的任意一点 $P$, 存在实数 $t$, 使得 $\overrightarrow{AP}=t\vec u$, 即 $\overrightarrow{AP}=t\overrightarrow{AB}$.
+若 $P$ 是直线 $l$ 上的一点, $\boldsymbol{u}$ 是直线 $l$ 的方向向量, 则任取点 $P$ 在直线 $l$ 上, 对于直线 $l$ 上的任意一点 $P$, 存在实数 $t$, 使得 $\boldsymbol{AP}=t\boldsymbol{u}$, 即 $\boldsymbol{AP}=t\boldsymbol{AB}$.
 
 **定义 1.4.2** (平面的法向量)
 
-与平面垂直的直线叫做平面的法线, 这条直线的方向向量叫做平面的法向量. 即若直线 $l \perp \alpha$, 则 $l$ 的方向向量 $\vec n$ 称为平面 $\alpha$ 的法向量.
+与平面垂直的直线叫做平面的法线, 这条直线的方向向量叫做平面的法向量. 即若直线 $l \perp \alpha$, 则 $l$ 的方向向量 $\boldsymbol{n}$ 称为平面 $\alpha$ 的法向量.
 
 **常用结论 1.4.3** (用向量刻画平行关系)
 
-设 $\vec u_1$, $\vec u_2$ 分别是直线 $l_1$, $l_2$ 的方向向量, 则 $l_1 \parallel l_2 \iff \vec u_1 \parallel \vec u_2 \iff \exists \lambda \in \mathbb R$, 使得 $\vec u_1=\lambda\vec u_2$. 设 $\vec u$ 是直线 $l$ 的方向向量, $\vec n$ 是平面 $\alpha$ 的法向量, $l \not\subset \alpha$, 则 $l \parallel \alpha \iff \vec u \perp \vec n \iff \vec u \cdot \vec n=0$. 设 $\vec n_1$, $\vec n_2$ 分别是平面 $\alpha$, $\beta$ 的法向量, 则 $\alpha \parallel \beta \iff \vec n_1 \parallel \vec n_2 \iff \exists \lambda \in \mathbb R$, 使得 $\vec n_1=\lambda\vec n_2$.
+设 $\boldsymbol{u}_1$, $\boldsymbol{u}_2$ 分别是直线 $l_1$, $l_2$ 的方向向量, 则 $l_1 \parallel l_2 \iff \boldsymbol{u}_1 \parallel \boldsymbol{u}_2 \iff \exists \lambda \in \mathbb R$, 使得 $\boldsymbol{u}_1=\lambda\boldsymbol{u}_2$. 设 $\boldsymbol{u}$ 是直线 $l$ 的方向向量, $\boldsymbol{n}$ 是平面 $\alpha$ 的法向量, $l \not\subseteq \alpha$, 则 $l \parallel \alpha \iff \boldsymbol{u} \perp \boldsymbol{n} \iff \boldsymbol{u} \cdot \boldsymbol{n}=0$. 设 $\boldsymbol{n}_1$, $\boldsymbol{n}_2$ 分别是平面 $\alpha$, $\beta$ 的法向量, 则 $\alpha \parallel \beta \iff \boldsymbol{n}_1 \parallel \boldsymbol{n}_2 \iff \exists \lambda \in \mathbb R$, 使得 $\boldsymbol{n}_1=\lambda\boldsymbol{n}_2$.
 
 **常用结论 1.4.4** (用向量刻画垂直关系)
 
-设 $\vec u_1$, $\vec u_2$ 分别是直线 $l_1$, $l_2$ 的方向向量, 则 $l_1 \perp l_2 \iff \vec u_1 \perp \vec u_2 \iff \vec u_1 \cdot \vec u_2=0$. 设 $\vec u$ 是直线 $l$ 的方向向量, $\vec n$ 是平面 $\alpha$ 的法向量, 则 $l \perp \alpha \iff \vec u \parallel \vec n$. 设 $\vec n_1$, $\vec n_2$ 分别是平面 $\alpha$, $\beta$ 的法向量, 则 $\alpha \perp \beta \iff \vec n_1 \perp \vec n_2 \iff \vec n_1 \cdot \vec n_2=0$.
+设 $\boldsymbol{u}_1$, $\boldsymbol{u}_2$ 分别是直线 $l_1$, $l_2$ 的方向向量, 则 $l_1 \perp l_2 \iff \boldsymbol{u}_1 \perp \boldsymbol{u}_2 \iff \boldsymbol{u}_1 \cdot \boldsymbol{u}_2=0$. 设 $\boldsymbol{u}$ 是直线 $l$ 的方向向量, $\boldsymbol{n}$ 是平面 $\alpha$ 的法向量, 则 $l \perp \alpha \iff \boldsymbol{u} \parallel \boldsymbol{n}$. 设 $\boldsymbol{n}_1$, $\boldsymbol{n}_2$ 分别是平面 $\alpha$, $\beta$ 的法向量, 则 $\alpha \perp \beta \iff \boldsymbol{n}_1 \perp \boldsymbol{n}_2 \iff \boldsymbol{n}_1 \cdot \boldsymbol{n}_2=0$.
 
 **常用结论 1.4.5** (点到直线的距离)
 
-设直线 $l$ 的方向向量为 $\vec u$, 点 $P$ 在 $l$ 上, 点 $A$ 是直线 $l$ 外一点, 则点 $A$ 到直线 $l$ 的距离为 $d=\sqrt{\lvert \overrightarrow{PA} \rvert^2-\left(\frac{\overrightarrow{PA} \cdot \vec u}{\lvert \vec u \rvert}\right)^2}$.
+设直线 $l$ 的方向向量为 $\boldsymbol{u}$, 点 $P$ 在 $l$ 上, 点 $A$ 是直线 $l$ 外一点, 则点 $A$ 到直线 $l$ 的距离为 $d=\sqrt{\lvert \boldsymbol{PA} \rvert^2-\left(\frac{\boldsymbol{PA} \cdot \boldsymbol{u}}{\lvert \boldsymbol{u} \rvert}\right)^2}$.
 
 **常用结论 1.4.6** (点到平面的距离)
 
-设平面 $\alpha$ 的法向量为 $\vec n$, 点 $P$ 在 $\alpha$ 内, 点 $A$ 是平面 $\alpha$ 外一点, 则点 $A$ 到平面 $\alpha$ 的距离为 $d=\frac{\lvert \overrightarrow{PA} \cdot \vec n \rvert}{\lvert \vec n \rvert}$.
+设平面 $\alpha$ 的法向量为 $\boldsymbol{n}$, 点 $P$ 在 $\alpha$ 内, 点 $A$ 是平面 $\alpha$ 外一点, 则点 $A$ 到平面 $\alpha$ 的距离为 $d=\frac{\lvert \boldsymbol{PA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}$.
 
 **常用结论 1.4.7** (异面直线所成角)
 
-若异面直线 $l_1$, $l_2$ 所成的角为 $\theta$, 其方向向量分别是 $\vec u$, $\vec v$, 则 $\cos\theta=\lvert \cos \langle \vec u, \vec v \rangle \rvert=\frac{\lvert \vec u \cdot \vec v \rvert}{\lvert \vec u \rvert \lvert \vec v \rvert}$.
+若异面直线 $l_1$, $l_2$ 所成的角为 $\theta$, 其方向向量分别是 $\boldsymbol{u}$, $\boldsymbol{v}$, 则 $\cos\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{v} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}$.
 
 **常用结论 1.4.8** (直线与平面所成角)
 
-设直线 $AB$ 与平面 $\alpha$ 所成的角为 $\theta$, 直线 $AB$ 的方向向量为 $\vec u$, 平面 $\alpha$ 的法向量为 $\vec n$, 则 $\sin\theta=\lvert \cos \langle \vec u, \vec n \rangle \rvert=\frac{\lvert \vec u \cdot \vec n \rvert}{\lvert \vec u \rvert \lvert \vec n \rvert}$.
+设直线 $AB$ 与平面 $\alpha$ 所成的角为 $\theta$, 直线 $AB$ 的方向向量为 $\boldsymbol{u}$, 平面 $\alpha$ 的法向量为 $\boldsymbol{n}$, 则 $\sin\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{n} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}$.
 
 **常用结论 1.4.9** (平面与平面的夹角)
 
-设平面 $\alpha$, $\beta$ 的法向量分别是 $\vec n_1$ 和 $\vec n_2$, 平面 $\alpha$ 与平面 $\beta$ 的夹角为 $\theta$, 则 $\cos\theta=\lvert \cos \langle \vec n_1, \vec n_2 \rangle \rvert=\frac{\lvert \vec n_1 \cdot \vec n_2 \rvert}{\lvert \vec n_1 \rvert \lvert \vec n_2 \rvert}$.
+设平面 $\alpha$, $\beta$ 的法向量分别是 $\boldsymbol{n}_1$ 和 $\boldsymbol{n}_2$, 平面 $\alpha$ 与平面 $\beta$ 的夹角为 $\theta$, 则 $\cos\theta=\lvert \cos \langle \boldsymbol{n}_1, \boldsymbol{n}_2 \rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}$.
 
 ### 第二章 直线和圆的方程
 
@@ -1377,11 +1376,11 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **常用结论 2.1.3** (斜率公式)
 
-如果直线经过两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ ($x_1\ne x_2$), 那么由定义 2.1.1 与定义 2.1.2 可得斜率公式 $k=\dfrac{y_2-y_1}{x_2-x_1}$.
+如果直线经过两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ ($x_1\ne x_2$), 那么由定义 2.1.1 与定义 2.1.2 可得斜率公式 $k=\frac{y_2-y_1}{x_2-x_1}$.
 
 **常用结论 2.1.4** (方向向量与斜率)
 
-若直线 $l$ 的斜率为 $k$, 它的一个方向向量的坐标为 $\left(x,y\right)$, 则 $k=\dfrac{y}{x}$.
+若直线 $l$ 的斜率为 $k$, 它的一个方向向量的坐标为 $\left(x,y\right)$, 则 $k=\frac{y}{x}$.
 
 **常用结论 2.1.5** (两条直线平行)
 
@@ -1407,15 +1406,15 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 2.2.4** (两点式方程)
 
-经过两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ (其中 $x_1\ne x_2$, $y_1\ne y_2$) 的直线方程为 $\dfrac{y-y_1}{y_2-y_1}=\dfrac{x-x_1}{x_2-x_1}$, 叫做直线的两点式方程, 简称两点式.
+经过两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ (其中 $x_1\ne x_2$, $y_1\ne y_2$) 的直线方程为 $\frac{y-y_1}{y_2-y_1}=\frac{x-x_1}{x_2-x_1}$, 叫做直线的两点式方程, 简称两点式.
 
 **定义 2.2.5** (截距式方程)
 
-直线 $l$ 与 $x$ 轴的交点 $\left(a,0\right)$ 的横坐标 $a$ 叫做直线 $l$ 在 $x$ 轴上的截距. 方程 $\dfrac{x}{a}+\dfrac{y}{b}=1$ 由直线 $l$ 在两条坐标轴上的截距 $a$ 与 $b$ 确定, 叫做直线的截距式方程, 简称截距式.
+直线 $l$ 与 $x$ 轴的交点 $\left(a,0\right)$ 的横坐标 $a$ 叫做直线 $l$ 在 $x$ 轴上的截距. 方程 $\frac{x}{a}+\frac{y}{b}=1$ 由直线 $l$ 在两条坐标轴上的截距 $a$ 与 $b$ 确定, 叫做直线的截距式方程, 简称截距式.
 
 **定义 2.2.6** (一般式方程)
 
-关于 $x,y$ 的二元一次方程 $Ax+By+C=0$ (其中 $A,B$ 不同时为 $0$) 叫做直线的一般式方程, 简称一般式. 当 $B\ne0$ 时, 方程可化为 $y=-\dfrac{A}{B}x-\dfrac{C}{B}$, 表示斜率为 $-\dfrac{A}{B}$ 且过点 $\left(0,-\dfrac{C}{B}\right)$ 的直线; 当 $B=0$ 时, 方程可化为 $x=-\dfrac{C}{A}$, 表示过点 $\left(-\dfrac{C}{A},0\right)$ 且垂直于 $x$ 轴的直线.
+关于 $x,y$ 的二元一次方程 $Ax+By+C=0$ (其中 $A,B$ 不同时为 $0$) 叫做直线的一般式方程, 简称一般式. 当 $B\ne0$ 时, 方程可化为 $y=-\frac{A}{B}x-\frac{C}{B}$, 表示斜率为 $-\frac{A}{B}$ 且过点 $\left(0,-\frac{C}{B}\right)$ 的直线; 当 $B=0$ 时, 方程可化为 $x=-\frac{C}{A}$, 表示过点 $\left(-\frac{C}{A},0\right)$ 且垂直于 $x$ 轴的直线.
 
 #### 2.3 直线的交点坐标与距离公式
 
@@ -1429,11 +1428,11 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **常用结论 2.3.3** (点到直线的距离公式)
 
-点 $P\left(x_0,y_0\right)$ 到直线 $l:Ax+By+C=0$ 的距离为 $d=\dfrac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
+点 $P\left(x_0,y_0\right)$ 到直线 $l:Ax+By+C=0$ 的距离为 $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
 
 **常用结论 2.3.4** (两条平行直线间的距离)
 
-两条平行直线 $Ax+By+C_1=0$ 与 $Ax+By+C_2=0$ 间的距离为 $d=\dfrac{\left|C_1-C_2\right|}{\sqrt{A^2+B^2}}$.
+两条平行直线 $Ax+By+C_1=0$ 与 $Ax+By+C_2=0$ 间的距离为 $d=\frac{\left|C_1-C_2\right|}{\sqrt{A^2+B^2}}$.
 
 #### 2.4 圆的方程
 
@@ -1447,7 +1446,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 2.4.3** (圆的一般方程)
 
-方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F>0$ 时, 方程表示以 $\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)$ 为圆心, 半径为 $\dfrac{\sqrt{D^2+E^2-4F}}{2}$ 的圆; 当 $D^2+E^2-4F=0$ 时, 方程表示一个点 $\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)$; 当 $D^2+E^2-4F<0$ 时, 方程不表示任何图形.
+方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F>0$ 时, 方程表示以 $\left(-\frac{D}{2},-\frac{E}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt{D^2+E^2-4F}}{2}$ 的圆; 当 $D^2+E^2-4F=0$ 时, 方程表示一个点 $\left(-\frac{D}{2},-\frac{E}{2}\right)$; 当 $D^2+E^2-4F<0$ 时, 方程不表示任何图形.
 
 #### 2.5 直线与圆、圆与圆的位置关系
 
@@ -1469,19 +1468,19 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 3.1.1** (椭圆)
 
-我们把平面内与两个定点 $F_1,F_2$ 的距离的和等于常数 (大于 $|F_1F_2|$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距, 焦距的一半称为半焦距.
+我们把平面内与两个定点 $F_1,F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2\rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距, 焦距的一半称为半焦距.
 
 **常用结论 3.1.2** (椭圆上点到两焦点距离之和)
 
-椭圆上任意一点 $M$ 到两个焦点 $F_1,F_2$ 的距离之和等于定长 $2a$, 即 $|MF_1|+|MF_2|=2a$, 其中 $2a>|F_1F_2|$.
+椭圆上任意一点 $M$ 到两个焦点 $F_1,F_2$ 的距离之和等于定长 $2a$, 即 $\lvert MF_1\rvert+\lvert MF_2\rvert=2a$, 其中 $2a>\lvert F_1F_2\rvert$.
 
 **定义 3.1.3** (椭圆的标准方程)
 
-焦点在 $x$ 轴上, 焦点分别为 $F_1(-c,0)$, $F_2(c,0)$ 的椭圆的标准方程为 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ ($a>b>0$), 其中 $c^2=a^2-b^2$; 焦点在 $y$ 轴上, 焦点分别为 $F_1(0,-c)$, $F_2(0,c)$ 时, 标准方程为 $\dfrac{y^2}{a^2}+\dfrac{x^2}{b^2}=1$ ($a>b>0$).
+焦点在 $x$ 轴上, 焦点分别为 $F_1(-c,0)$, $F_2(c,0)$ 的椭圆的标准方程为 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$), 其中 $c^2=a^2-b^2$; 焦点在 $y$ 轴上, 焦点分别为 $F_1(0,-c)$, $F_2(0,c)$ 时, 标准方程为 $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$ ($a>b>0$).
 
 **常用结论 3.1.4** (椭圆的范围)
 
-由 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ 可得 $-a\le x\le a$, $-b\le y\le b$, 椭圆位于直线 $x=\pm a$ 和 $y=\pm b$ 围成的矩形内.
+由 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ 可得 $-a\le x\le a$, $-b\le y\le b$, 椭圆位于直线 $x=\pm a$ 和 $y=\pm b$ 围成的矩形内.
 
 **常用结论 3.1.5** (椭圆的对称性)
 
@@ -1493,7 +1492,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 3.1.7** (椭圆的离心率)
 
-椭圆的焦距与长轴长的比 $\dfrac{c}{a}$ 称为椭圆的离心率, 用 $e$ 表示, 即 $e=\dfrac{c}{a}$. 因为 $a>c>0$, 所以 $0<e<1$. $e$ 越接近 $1$, 椭圆越扁平; $e$ 越接近 $0$, 椭圆越接近于圆.
+椭圆的焦距与长轴长的比 $\frac{c}{a}$ 称为椭圆的离心率, 用 $e$ 表示, 即 $e=\frac{c}{a}$. 因为 $a>c>0$, 所以 $0<e<1$. $e$ 越接近 $1$, 椭圆越扁平; $e$ 越接近 $0$, 椭圆越接近于圆.
 
 **常用结论 3.1.8** (直线与椭圆的位置关系)
 
@@ -1503,19 +1502,19 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 3.2.1** (双曲线)
 
-平面内与两个定点 $F_1$, $F_2$ 的距离的差的绝对值等于非零常数 (小于 $|F_1F_2|$) 的点的轨迹叫做双曲线. 这两个定点叫做双曲线的焦点, 两焦点间的距离叫做双曲线的焦距.
+平面内与两个定点 $F_1$, $F_2$ 的距离的差的绝对值等于非零常数 (小于 $\lvert F_1F_2\rvert$) 的点的轨迹叫做双曲线. 这两个定点叫做双曲线的焦点, 两焦点间的距离叫做双曲线的焦距.
 
 **常用结论 3.2.2** (双曲线上点到两焦点距离之差)
 
-双曲线上任意一点 $M$ 到两焦点距离的差的绝对值等于 $2a$, 即 $||MF_1|-|MF_2||=2a$, 其中 $0<2a<|F_1F_2|$.
+双曲线上任意一点 $M$ 到两焦点距离的差的绝对值等于 $2a$, 即 $\bigl\lvert \lvert MF_1\rvert-\lvert MF_2\rvert\bigr\rvert=2a$, 其中 $0<2a<\lvert F_1F_2\rvert$.
 
 **定义 3.2.3** (双曲线的标准方程)
 
-焦点在 $x$ 轴上, 焦点 $F_1(-c,0)$, $F_2(c,0)$ 的双曲线标准方程为 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ ($a>0$, $b>0$), 其中 $c^2=a^2+b^2$; 焦点在 $y$ 轴上时为 $\dfrac{y^2}{a^2}-\dfrac{x^2}{b^2}=1$.
+焦点在 $x$ 轴上, 焦点 $F_1(-c,0)$, $F_2(c,0)$ 的双曲线标准方程为 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ ($a>0$, $b>0$), 其中 $c^2=a^2+b^2$; 焦点在 $y$ 轴上时为 $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
 
 **常用结论 3.2.4** (双曲线的范围与对称性)
 
-由 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ 得 $x\le-a$ 或 $x\ge a$, $y\in\mathbb R$. 双曲线关于 $x$ 轴, $y$ 轴和原点对称, 原点是双曲线的中心.
+由 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ 得 $x\le-a$ 或 $x\ge a$, $y\in\mathbb R$. 双曲线关于 $x$ 轴, $y$ 轴和原点对称, 原点是双曲线的中心.
 
 **定义 3.2.5** (双曲线的顶点, 实轴, 虚轴)
 
@@ -1523,7 +1522,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 3.2.6** (双曲线的渐近线)
 
-双曲线 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ 的两支向外延伸时与两条直线 $\dfrac{x}{a}\pm\dfrac{y}{b}=0$ 逐渐接近但永不相交, 这两条直线叫做双曲线的渐近线, 即 $y=\pm\dfrac{b}{a}x$.
+双曲线 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ 的两支向外延伸时与两条直线 $\frac{x}{a}\pm\frac{y}{b}=0$ 逐渐接近但永不相交, 这两条直线叫做双曲线的渐近线, 即 $y=\pm\frac{b}{a}x$.
 
 **定义 3.2.7** (等轴双曲线)
 
@@ -1531,7 +1530,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 3.2.8** (双曲线的离心率)
 
-双曲线的焦距与实轴长的比 $\dfrac{c}{a}$ 叫做双曲线的离心率, 记 $e=\dfrac{c}{a}$. 因为 $c>a>0$, 所以 $e>1$. 离心率刻画双曲线的张口大小.
+双曲线的焦距与实轴长的比 $\frac{c}{a}$ 叫做双曲线的离心率, 记 $e=\frac{c}{a}$. 因为 $c>a>0$, 所以 $e>1$. 离心率刻画双曲线的张口大小.
 
 #### 3.3 抛物线
 
@@ -1541,7 +1540,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 3.3.2** (抛物线的标准方程)
 
-焦点在 $x$ 轴正半轴上, 焦点 $F\left(\dfrac{p}{2},0\right)$, 准线 $x=-\dfrac{p}{2}$ 的抛物线标准方程为 $y^2=2px$ ($p>0$). 其他三种形式为 $y^2=-2px$, $x^2=2py$, $x^2=-2py$ ($p>0$).
+焦点在 $x$ 轴正半轴上, 焦点 $F\left(\frac{p}{2},0\right)$, 准线 $x=-\frac{p}{2}$ 的抛物线标准方程为 $y^2=2px$ ($p>0$). 其他三种形式为 $y^2=-2px$, $x^2=2py$, $x^2=-2py$ ($p>0$).
 
 **常用结论 3.3.3** (抛物线上点到焦点与准线距离)
 
@@ -1553,7 +1552,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 3.3.5** (抛物线的离心率)
 
-抛物线上点 $M$ 到焦点距离与到准线距离之比 $\dfrac{|MF|}{d}$ 叫做抛物线的离心率, 由抛物线定义知 $e=1$.
+抛物线上点 $M$ 到焦点距离与到准线距离之比 $\frac{|MF|}{d}$ 叫做抛物线的离心率, 由抛物线定义知 $e=1$.
 
 
 ## 选择性必修第二册
@@ -1618,11 +1617,11 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定理 4.2.6** (前 $n$ 项和公式一)
 
-等差数列 $\{a_n\}$ 的前 $n$ 项和 $S_n=\dfrac{n(a_1+a_n)}{2}$.
+等差数列 $\{a_n\}$ 的前 $n$ 项和 $S_n=\frac{n(a_1+a_n)}{2}$.
 
 **定理 4.2.7** (前 $n$ 项和公式二)
 
-等差数列 $\{a_n\}$ 的前 $n$ 项和 $S_n=na_1+\dfrac{n(n-1)}{2}d$.
+等差数列 $\{a_n\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n(n-1)}{2}d$.
 
 #### 4.3 等比数列
 
@@ -1644,7 +1643,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定理 4.3.5** (前 $n$ 项和公式)
 
-当 $q\ne 1$ 时, $S_n=\dfrac{a_1(1-q^n)}{1-q}=\dfrac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+当 $q\ne 1$ 时, $S_n=\frac{a_1(1-q^n)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
 
 #### 4.4 数学归纳法
 
@@ -1658,29 +1657,29 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 5.1.1** (平均变化率)
 
-对于函数 $y=f\left(x\right)$, 设自变量 $x$ 从 $x_{0}$ 变化到 $x_{0}+\Delta x$, 相应地函数值 $y$ 从 $f\left(x_{0}\right)$ 变化到 $f\left(x_{0}+\Delta x\right)$, 这时 $x$ 的变化量为 $\Delta x$, $y$ 的变化量为 $\Delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)$, 比值 $\dfrac{\Delta y}{\Delta x}=\dfrac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$ 叫做函数 $y=f\left(x\right)$ 从 $x_{0}$ 到 $x_{0}+\Delta x$ 的平均变化率.
+对于函数 $y=f\left(x\right)$, 设自变量 $x$ 从 $x_{0}$ 变化到 $x_{0}+\Delta x$, 相应地函数值 $y$ 从 $f\left(x_{0}\right)$ 变化到 $f\left(x_{0}+\Delta x\right)$, 这时 $x$ 的变化量为 $\Delta x$, $y$ 的变化量为 $\Delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)$, 比值 $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$ 叫做函数 $y=f\left(x\right)$ 从 $x_{0}$ 到 $x_{0}+\Delta x$ 的平均变化率.
 
 **定义 5.1.2** (导数)
 
-如果当 $\Delta x\to0$ 时, 平均变化率 $\dfrac{\Delta y}{\Delta x}$ 无限趋近于一个确定的值, 即 $\dfrac{\Delta y}{\Delta x}$ 有极限, 则称 $y=f\left(x\right)$ 在 $x=x_{0}$ 处可导, 并把这个确定的值叫做 $y=f\left(x\right)$ 在 $x=x_{0}$ 处的导数 (也称为瞬时变化率), 记作 $f'\left(x_{0}\right)$ 或 $y'\big|_{x=x_{0}}$, 即 $f'\left(x_{0}\right)=\lim_{\Delta x\to0}\dfrac{\Delta y}{\Delta x}=\lim_{\Delta x\to0}\dfrac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+如果当 $\Delta x\to0$ 时, 平均变化率 $\frac{\Delta y}{\Delta x}$ 无限趋近于一个确定的值, 即 $\frac{\Delta y}{\Delta x}$ 有极限, 则称 $y=f\left(x\right)$ 在 $x=x_{0}$ 处可导, 并把这个确定的值叫做 $y=f\left(x\right)$ 在 $x=x_{0}$ 处的导数 (也称为瞬时变化率), 记作 $f'\left(x_{0}\right)$ 或 $y'\big|_{x=x_{0}}$, 即 $f'\left(x_{0}\right)=\lim_{\Delta x\to0}\frac{\Delta y}{\Delta x}=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
 
 **定义 5.1.3** (导数的几何意义)
 
-函数 $y=f\left(x\right)$ 在 $x=x_{0}$ 处的导数 $f'\left(x_{0}\right)$ 就是曲线 $y=f\left(x\right)$ 在点 $P_{0}\left(x_{0},f\left(x_{0}\right)\right)$ 处的切线 $P_{0}T$ 的斜率 $k_{0}$, 即 $k_{0}=\lim_{\Delta x\to0}\dfrac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}=f'\left(x_{0}\right)$.
+函数 $y=f\left(x\right)$ 在 $x=x_{0}$ 处的导数 $f'\left(x_{0}\right)$ 就是曲线 $y=f\left(x\right)$ 在点 $P_{0}\left(x_{0},f\left(x_{0}\right)\right)$ 处的切线 $P_{0}T$ 的斜率 $k_{0}$, 即 $k_{0}=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}=f'\left(x_{0}\right)$.
 
 **定义 5.1.4** (导函数)
 
-当 $x$ 变化时, $y=f'\left(x\right)$ 就是 $x$ 的函数, 称它为 $y=f\left(x\right)$ 的导函数 (简称导数), $y=f\left(x\right)$ 的导函数有时也记作 $y'$, 即 $f'\left(x\right)=y'=\lim_{\Delta x\to0}\dfrac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}$.
+当 $x$ 变化时, $y=f'\left(x\right)$ 就是 $x$ 的函数, 称它为 $y=f\left(x\right)$ 的导函数 (简称导数), $y=f\left(x\right)$ 的导函数有时也记作 $y'$, 即 $f'\left(x\right)=y'=\lim_{\Delta x\to0}\frac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}$.
 
 #### 5.2 导数的运算
 
 **定义 5.2.1** (基本初等函数的导数公式)
 
-(1) 若 $f\left(x\right)=c$ ($c$ 为常数), 则 $f'\left(x\right)=0$; (2) 若 $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, 且 $\alpha\neq0$), 则 $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) 若 $f\left(x\right)=\sin x$, 则 $f'\left(x\right)=\cos x$; (4) 若 $f\left(x\right)=\cos x$, 则 $f'\left(x\right)=-\sin x$; (5) 若 $f\left(x\right)=a^{x}$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=a^{x}\ln a$, 特别地, 若 $f\left(x\right)=\mathrm e^{x}$, 则 $f'\left(x\right)=\mathrm e^{x}$; (6) 若 $f\left(x\right)=\log_{a}x$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=\dfrac{1}{x\ln a}$, 特别地, 若 $f\left(x\right)=\ln x$, 则 $f'\left(x\right)=\dfrac{1}{x}$.
+(1) 若 $f\left(x\right)=c$ ($c$ 为常数), 则 $f'\left(x\right)=0$; (2) 若 $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, 且 $\alpha\neq0$), 则 $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) 若 $f\left(x\right)=\sin x$, 则 $f'\left(x\right)=\cos x$; (4) 若 $f\left(x\right)=\cos x$, 则 $f'\left(x\right)=-\sin x$; (5) 若 $f\left(x\right)=a^{x}$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=a^{x}\ln a$, 特别地, 若 $f\left(x\right)=\mathrm e^{x}$, 则 $f'\left(x\right)=\mathrm e^{x}$; (6) 若 $f\left(x\right)=\log_{a}x$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=\frac{1}{x\ln a}$, 特别地, 若 $f\left(x\right)=\ln x$, 则 $f'\left(x\right)=\frac{1}{x}$.
 
 **定义 5.2.2** (导数的四则运算法则)
 
-$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\dfrac{f\left(x\right)}{g\left(x\right)}\right]'=\dfrac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$ ($g\left(x\right)\neq0$); $\left[cf\left(x\right)\right]'=cf'\left(x\right)$.
+$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$ ($g\left(x\right)\neq0$); $\left[cf\left(x\right)\right]'=cf'\left(x\right)$.
 
 **定义 5.2.3** (复合函数的求导法则)
 
@@ -1735,15 +1734,15 @@ $n$ 元集合 $A=\{a_1,a_2,\cdots,a_n\}$ 的不同子集有 $2^n$ 个.
 
 **定义 6.2.2** (排列数)
 
-从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同排列的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的排列数, 用符号 $A_n^m$ 表示.
+从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同排列的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的排列数, 用符号 $\mathrm{P}(n,m)$ 表示.
 
 **公式 6.2.3** (排列数公式)
 
-$A_n^m=n(n-1)(n-2)\cdots(n-m+1)$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$.
+$\mathrm{P}(n,m)=n(n-1)(n-2)\cdots(n-m+1)$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$.
 
 **定义 6.2.4** (全排列与阶乘)
 
-把 $n$ 个不同的元素全部取出的一个排列, 叫做 $n$ 个元素的一个全排列, 其排列数 $A_n^n=n!$. 正整数 $1$ 到 $n$ 的连乘积叫做 $n$ 的阶乘, 用 $n!$ 表示. 规定 $0!=1$. 排列数公式还可写成 $A_n^m=\dfrac{n!}{(n-m)!}$.
+把 $n$ 个不同的元素全部取出的一个排列, 叫做 $n$ 个元素的一个全排列, 其排列数 $\mathrm{P}(n,n)=n!$. 正整数 $1$ 到 $n$ 的连乘积叫做 $n$ 的阶乘, 用 $n!$ 表示. 规定 $0!=1$. 排列数公式还可写成 $\mathrm{P}(n,m)=\frac{n!}{(n-m)!}$.
 
 **定义 6.2.5** (组合)
 
@@ -1751,15 +1750,15 @@ $A_n^m=n(n-1)(n-2)\cdots(n-m+1)$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$.
 
 **定义 6.2.6** (组合数)
 
-从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同组合的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的组合数, 用符号 $C_n^m$ 表示.
+从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同组合的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的组合数, 用符号 $\binom{n}{m}$ 表示.
 
 **公式 6.2.7** (组合数公式)
 
-$C_n^m=\dfrac{A_n^m}{A_m^m}=\dfrac{n(n-1)\cdots(n-m+1)}{m!}=\dfrac{n!}{m!(n-m)!}$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$. 规定 $C_n^0=1$.
+$\binom{n}{m}=\frac{\mathrm{P}(n,m)}{\mathrm{P}(m,m)}=\frac{n(n-1)\cdots(n-m+1)}{m!}=\frac{n!}{m!(n-m)!}$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$. 规定 $\binom{n}{0}=1$.
 
 **性质** (组合数的两个性质)
 
-$C_n^m=C_n^{n-m}$; $C_{n+1}^m=C_n^m+C_n^{m-1}$.
+$\binom{n}{m}=\binom{n}{n-m}$; $\binom{n+1}{m}=\binom{n}{m}+\binom{n}{m-1}$.
 
 #### 6.3 二项式定理
 
@@ -1768,30 +1767,30 @@ $C_n^m=C_n^{n-m}$; $C_{n+1}^m=C_n^m+C_n^{m-1}$.
 对任意正整数 $n$,
 
 $$
-(a+b)^n=C_n^0 a^n+C_n^1 a^{n-1}b+C_n^2 a^{n-2}b^2+\cdots+C_n^k a^{n-k}b^k+\cdots+C_n^n b^n.
+(a+b)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
 $$
 
 **公式 6.3.2** (二项展开式的通项)
 
-二项展开式的第 $k+1$ 项为 $T_{k+1}=C_n^k a^{n-k}b^k$, 其中 $C_n^k$ ($k=0,1,2,\cdots,n$) 叫做二项式系数.
+二项展开式的第 $k+1$ 项为 $T_{k+1}=\binom{n}{k} a^{n-k}b^k$, 其中 $\binom{n}{k}$ ($k=0,1,2,\cdots,n$) 叫做二项式系数.
 
 **公式 6.3.3** ($(1+x)^n$ 的展开式)
 
-在二项式定理中令 $a=1$, $b=x$, 得 $(1+x)^n=C_n^0+C_n^1 x+C_n^2 x^2+\cdots+C_n^k x^k+\cdots+C_n^n x^n$.
+在二项式定理中令 $a=1$, $b=x$, 得 $(1+x)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n$.
 
 **性质 6.3.4** (二项式系数的性质)
 
-(1) 对称性: $C_n^k=C_n^{n-k}$; (2) 增减性与最大值: 当 $k<\dfrac{n+1}{2}$ 时 $C_n^k$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $C_n^{n/2}$ 最大, $n$ 为奇数时中间两项 $C_n^{(n-1)/2}$ 与 $C_n^{(n+1)/2}$ 相等且最大; (3) 各二项式系数的和: $C_n^0+C_n^1+C_n^2+\cdots+C_n^n=2^n$; (4) 奇数项与偶数项二项式系数的和相等: $C_n^0+C_n^2+C_n^4+\cdots=C_n^1+C_n^3+C_n^5+\cdots=2^{n-1}$.
+(1) 对称性: $\binom{n}{k}=\binom{n}{n-k}$; (2) 增减性与最大值: 当 $k<\frac{n+1}{2}$ 时 $\binom{n}{k}$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $\binom{n}{n/2}$ 最大, $n$ 为奇数时中间两项 $\binom{n}{(n-1)/2}$ 与 $\binom{n}{(n+1)/2}$ 相等且最大; (3) 各二项式系数的和: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) 奇数项与偶数项二项式系数的和相等: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
 
 #### 数学探究 杨辉三角的性质与应用
 
 **常用结论 6.3.2** (各二项式系数的和)
 
-$(a+b)^n$ 的展开式的各二项式系数的和等于 $2^n$, 即 $C_n^0+C_n^1+\cdots+C_n^n=2^n$; 奇数项的二项式系数的和等于偶数项的二项式系数的和, 都等于 $2^{n-1}$.
+$(a+b)^n$ 的展开式的各二项式系数的和等于 $2^n$, 即 $\binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}=2^n$; 奇数项的二项式系数的和等于偶数项的二项式系数的和, 都等于 $2^{n-1}$.
 
 **常用结论 6.3.3** (组合数求和公式)
 
-对任意正整数 $r$, 有 $\sum_{k=1}^n C_{k+r-1}^r=C_{n+r}^{r+1}$.
+对任意正整数 $r$, 有 $\sum_{k=1}^n \binom{k+r-1}{r}=\binom{n+r}{r+1}$.
 
 ### 第七章 随机变量及其分布
 
@@ -1799,27 +1798,27 @@ $(a+b)^n$ 的展开式的各二项式系数的和等于 $2^n$, 即 $C_n^0+C_n^1+
 
 **定义 7.1.1** (条件概率)
 
-一般地, 设 $A$, $B$ 为两个随机事件, 且 $P(A)>0$, 我们称 $P(B\mid A)=\dfrac{P(AB)}{P(A)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
+一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P(A)>0$, 我们称 $\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
 
 **结论 7.1.2** (概率的乘法公式)
 
-由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $P(A)>0$, 则 $P(AB)=P(A)P(B\mid A)$.
+由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P(A)>0$, 则 $\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A)$.
 
 **结论 7.1.3** (条件概率的性质)
 
-设 $P(A)>0$, 则 (1) $P(\Omega\mid A)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $P(B\cup C\mid A)=P(B\mid A)+P(C\mid A)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $P(\bar B\mid A)=1-P(B\mid A)$.
+设 $\mathbb P(A)>0$, 则 (1) $\mathbb P(\Omega\mid A)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P(B\cup C\mid A)=\mathbb P(B\mid A)+\mathbb P(C\mid A)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P(\bar B\mid A)=1-\mathbb P(B\mid A)$.
 
 **结论 7.1.4** (事件的相互独立)
 
-当 $P(A)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $P(B\mid A)=P(B)$.
+当 $\mathbb P(A)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P(B\mid A)=\mathbb P(B)$.
 
 **结论 7.1.5** (全概率公式)
 
-设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $P(B)=\sum_{i=1}^n P(A_i)P(B\mid A_i)$.
+设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P(B)=\sum_{i=1}^n \mathbb P(A_i)\mathbb P(B\mid A_i)$.
 
 **结论 7.1.6** (贝叶斯公式)
 
-设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $P(B)>0$, 有 $P(A_i\mid B)=\dfrac{P(A_i)P(B\mid A_i)}{\sum_{k=1}^n P(A_k)P(B\mid A_k)}$, $i=1,2,\cdots,n$.
+设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P(B)>0$, 有 $\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)}$, $i=1,2,\cdots,n$.
 
 #### 7.2 离散型随机变量及其分布列
 
@@ -1833,29 +1832,29 @@ $(a+b)^n$ 的展开式的各二项式系数的和等于 $2^n$, 即 $C_n^0+C_n^1+
 
 **定义 7.2.3** (分布列)
 
-设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称 $P(X=x_i)=p_i$, $i=1,2,\cdots,n$ 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
+设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称 $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$ 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
 
 **定义 7.2.4** (两点分布)
 
-对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $P(A)=p$, 则 $P(\bar A)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
+对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $\mathbb P(A)=p$, 则 $\mathbb P(\bar A)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
 
 #### 7.3 离散型随机变量的数字特征
 
 **定义 7.3.1** (均值)
 
-若离散型随机变量 $X$ 的分布列为 $P(X=x_i)=p_i$, $i=1,2,\cdots,n$, 则称 $E(X)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
+若离散型随机变量 $X$ 的分布列为 $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E(X)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
 
 **结论 7.3.2** (均值的性质)
 
-对常数 $a$, $b$, 有 $E(aX+b)=aE(X)+b$.
+对常数 $a$, $b$, 有 $\mathbb E(aX+b)=a\mathbb E(X)+b$.
 
 **定义 7.3.3** (方差与标准差)
 
-称 $D(X)=\sum_{i=1}^n (x_i-E(X))^2 p_i$ 为随机变量 $X$ 的方差, 并称 $\sqrt{D(X)}$ 为随机变量 $X$ 的标准差, 记为 $\sigma(X)$.
+称 $D(X)=\sum_{i=1}^n (x_i-\mathbb E(X))^2 p_i$ 为随机变量 $X$ 的方差, 并称 $\sqrt{D(X)}$ 为随机变量 $X$ 的标准差, 记为 $\sigma(X)$.
 
 **结论 7.3.4** (方差的简化公式)
 
-$D(X)=\sum_{i=1}^n x_i^2 p_i-(E(X))^2$.
+$D(X)=\sum_{i=1}^n x_i^2 p_i-(\mathbb E(X))^2$.
 
 **结论 7.3.5** (方差的性质)
 
@@ -1869,19 +1868,19 @@ $D(X)=\sum_{i=1}^n x_i^2 p_i-(E(X))^2$.
 
 **定义 7.4.2** (二项分布)
 
-在 $n$ 重伯努利试验中, 设每次试验中事件 $A$ 发生的概率为 $p$, 用 $X$ 表示事件 $A$ 发生的次数, 则 $P(X=k)=C_n^k p^k (1-p)^{n-k}$, $k=0,1,\cdots,n$. 称 $X$ 服从二项分布, 记作 $X\sim B(n,p)$.
+在 $n$ 重伯努利试验中, 设每次试验中事件 $A$ 发生的概率为 $p$, 用 $X$ 表示事件 $A$ 发生的次数, 则 $\mathbb P(X=k)=\binom{n}{k} p^k (1-p)^{n-k}$, $k=0,1,\cdots,n$. 称 $X$ 服从二项分布, 记作 $X\sim B(n,p)$.
 
 **结论 7.4.3** (二项分布的均值与方差)
 
-若 $X\sim B(n,p)$, 则 $E(X)=np$, $D(X)=np(1-p)$.
+若 $X\sim B(n,p)$, 则 $\mathbb E(X)=np$, $D(X)=np(1-p)$.
 
 **定义 7.4.4** (超几何分布)
 
-设有 $N$ 件产品, 其中含有 $M$ 件次品. 从中不放回地随机抽取 $n$ 件, 用 $X$ 表示抽取出的 $n$ 件产品中次品的件数, 则 $P(X=k)=\dfrac{C_M^k C_{N-M}^{n-k}}{C_N^n}$, $k=0,1,\cdots,\min(n,M)$. 称 $X$ 服从超几何分布.
+设有 $N$ 件产品, 其中含有 $M$ 件次品. 从中不放回地随机抽取 $n$ 件, 用 $X$ 表示抽取出的 $n$ 件产品中次品的件数, 则 $\mathbb P(X=k)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}}$, $k=0,1,\cdots,\min(n,M)$. 称 $X$ 服从超几何分布.
 
 **结论 7.4.5** (超几何分布的均值)
 
-若 $X$ 服从超几何分布, 记 $p=\dfrac{M}{N}$, 则 $E(X)=np$.
+若 $X$ 服从超几何分布, 记 $p=\frac{M}{N}$, 则 $\mathbb E(X)=np$.
 
 #### 7.5 正态分布
 
@@ -1891,15 +1890,15 @@ $D(X)=\sum_{i=1}^n x_i^2 p_i-(E(X))^2$.
 
 **定义 7.5.2** (正态分布)
 
-正态密度函数为 $f(x)=\dfrac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N(\mu,\sigma^2)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
+正态密度函数为 $f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N(\mu,\sigma^2)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
 
 **结论 7.5.3** (正态曲线的性质)
 
-正态曲线关于直线 $x=\mu$ 对称, 在 $x=\mu$ 处达到峰值 $\dfrac{1}{\sigma\sqrt{2\pi}}$; 且 $E(X)=\mu$, $D(X)=\sigma^2$.
+正态曲线关于直线 $x=\mu$ 对称, 在 $x=\mu$ 处达到峰值 $\frac{1}{\sigma\sqrt{2\pi}}$; 且 $\mathbb E(X)=\mu$, $D(X)=\sigma^2$.
 
 **结论 7.5.4** ($3\sigma$ 原则)
 
-若 $X\sim N(\mu,\sigma^2)$, 则 $P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$, $P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545$, $P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973$.
+若 $X\sim N(\mu,\sigma^2)$, 则 $\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$, $\mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545$, $\mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973$.
 
 ### 第八章 成对数据的统计分析
 
@@ -1942,7 +1941,7 @@ $$
 关于 $x$ 和随机变量 $Y$ 的一元线性回归模型为
 
 $$
-\begin{cases}Y=bx+a+e,\\ E\left(e\right)=0,\ D\left(e\right)=\sigma^2\end{cases}
+\begin{cases}Y=bx+a+e,\\ \mathbb E\left(e\right)=0,\ D\left(e\right)=\sigma^2\end{cases}
 $$
 
 其中 $x$ 是解释变量 (自变量), $Y$ 是响应变量 (因变量), $a$ 和 $b$ 为模型的未知参数, $e$ 是随机误差.
@@ -2014,7 +2013,7 @@ $$
 把要检验的两个分类变量独立的假设记为零假设 $H_0$, 即
 
 $$
-H_0:\ P\left(Y=1\mid X=0\right)=P\left(Y=1\mid X=1\right),
+H_0:\ \mathbb P\left(Y=1\mid X=0\right)=\mathbb P\left(Y=1\mid X=1\right),
 $$
 
 也就是分类变量 $X$ 与 $Y$ 相互独立.

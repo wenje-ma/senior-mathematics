@@ -1,0 +1,44 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week17: zeros / bisection (17-1..17-4)
+draw1=function(){
+  par(mfrow=c(1,3),mar=c(4,4,2,1))
+  f=function(x)x^3-x
+  curve(f,-200,200,xlim=c(-200,200),ylim=c(-200,200),lwd=2,xlab="x",ylab="y",main="(1)")
+  abline(h=0,v=0,lty=3)
+  curve(f,-20,20,xlim=c(-20,20),ylim=c(-20,20),lwd=2,xlab="x",ylab="y",main="(2)")
+  abline(h=0,v=0,lty=3)
+  curve(f,-2,2,xlim=c(-2,2),ylim=c(-2,2),lwd=2,xlab="x",ylab="y",main="(3)")
+  abline(h=0,v=0,lty=3)
+}
+pdf("../figures/week17-1.pdf",width=12,height=4);draw1();dev.off()
+svglite::svglite("../figures/week17-1.svg",width=12,height=4);draw1();dev.off()
+draw2=function(){
+  par(mfrow=c(2,2),mar=c(4,4,2,1))
+  curve(-x^3-3*x+5,-3,3,lwd=2,xlab="x",ylab="y",main="(1)")
+  abline(h=0,lty=3)
+  curve(2*x*log(x-2)-3,2.1,5,lwd=2,xlab="x",ylab="y",main="(2)")
+  abline(h=0,lty=3)
+  curve(exp(x-1)+4*x-4,-2,2,lwd=2,xlab="x",ylab="y",main="(3)")
+  abline(h=0,lty=3)
+  curve(3*(x+2)*(x-3)*(x+4)+x,-5,2,lwd=2,xlab="x",ylab="y",main="(4)")
+  abline(h=0,lty=3)
+}
+pdf("../figures/week17-2.pdf",width=8,height=8);draw2();dev.off()
+svglite::svglite("../figures/week17-2.svg",width=8,height=8);draw2();dev.off()
+draw3=function(){
+  f=function(x)2-(x^2+3*x+2)^2
+  curve(f,-3.2,1.2,lwd=2,xlab="x",ylab="y",ylim=c(-3,2.2))
+  abline(h=0,v=0,lty=3)
+}
+pdf("../figures/week17-3.pdf",width=4,height=4);draw3();dev.off()
+svglite::svglite("../figures/week17-3.svg",width=4,height=4);draw3();dev.off()
+draw4=function(){
+  t=seq(0,3,len=200)
+  plot(t,2^t,type="l",lwd=2,xlab="t",ylab="y",ylim=c(0,9),xlim=c(0,3.2))
+  abline(h=0,v=0,lty=3)
+  points(0,1,pch=19);points(1,2,pch=19)
+  lines(c(1,1),c(0,2),lty=2);lines(c(0,1),c(2,2),lty=2)
+}
+pdf("../figures/week17-4.pdf",width=4,height=4);draw4();dev.off()
+svglite::svglite("../figures/week17-4.svg",width=4,height=4);draw4();dev.off()

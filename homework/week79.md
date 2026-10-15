@@ -1,16 +1,16 @@
 # 作业 79
 
-> **定义 5.1.1** (平均变化率) <br>$\dfrac{\Delta y}{\Delta x}=\dfrac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **定义 5.1.1** (平均变化率) <br>$\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
 
-> **定义 5.1.2** (导数) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\dfrac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **定义 5.1.2** (导数) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
 
 > **定义 5.1.3** (导数的几何意义) <br>$f'\left(x_{0}\right)$ 是曲线 $y=f\left(x\right)$ 在点 $\left(x_{0},f\left(x_{0}\right)\right)$ 处切线的斜率.
 
-> **定义 5.1.4** (导函数) <br>$f'\left(x\right)=y'=\lim_{\Delta x\to0}\dfrac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}$.
+> **定义 5.1.4** (导函数) <br>$f'\left(x\right)=y'=\lim_{\Delta x\to0}\frac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}$.
 
-> **定义 5.2.1** (基本初等函数的导数公式) <br>$\left(c\right)'=0$; $\left(x^{\alpha}\right)'=\alpha x^{\alpha-1}$; $\left(\sin x\right)'=\cos x$; $\left(\cos x\right)'=-\sin x$; $\left(a^{x}\right)'=a^{x}\ln a$; $\left(\mathrm e^{x}\right)'=\mathrm e^{x}$; $\left(\log_{a}x\right)'=\dfrac{1}{x\ln a}$; $\left(\ln x\right)'=\dfrac{1}{x}$.
+> **定义 5.2.1** (基本初等函数的导数公式) <br>$\left(c\right)'=0$; $\left(x^{\alpha}\right)'=\alpha x^{\alpha-1}$; $\left(\sin x\right)'=\cos x$; $\left(\cos x\right)'=-\sin x$; $\left(a^{x}\right)'=a^{x}\ln a$; $\left(\mathrm e^{x}\right)'=\mathrm e^{x}$; $\left(\log_{a}x\right)'=\frac{1}{x\ln a}$; $\left(\ln x\right)'=\frac{1}{x}$.
 
-> **定义 5.2.2** (导数的四则运算法则) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\dfrac{f\left(x\right)}{g\left(x\right)}\right]'=\dfrac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$.
+> **定义 5.2.2** (导数的四则运算法则) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$.
 
 > **定义 5.2.3** (复合函数的求导法则) <br>$y'_{x}=y'_{u}\cdot u'_{x}$.
 
@@ -37,7 +37,7 @@
 (1) $P\left(1,f\left(1\right)\right)=\left(1,-4\right)$, $Q\left(4,f\left(4\right)\right)=\left(4,5\right)$. 割线 $PQ$ 的斜率为
 
 $$
-k=\dfrac{f\left(4\right)-f\left(1\right)}{4-1}=\dfrac{5-\left(-4\right)}{3}=3.
+k=\frac{f\left(4\right)-f\left(1\right)}{4-1}=\frac{5-\left(-4\right)}{3}=3.
 $$
 
 (2) $y'=2x-2$, 故点 $P$ 处切线斜率为 $y'\big|_{x=1}=0$. 切线过 $\left(1,-4\right)$, 切线方程为 $y=-4$. $\blacksquare$
@@ -52,19 +52,19 @@ $$
 
 (3) $y=\left(x-2\right)^{3}\left(3x+1\right)^{2}$;
 
-(4) $y=\dfrac{x^{2}}{\left(2x+1\right)^{3}}$;
+(4) $y=\frac{x^{2}}{\left(2x+1\right)^{3}}$;
 
 (5) $y=\mathrm e^{-2x+1}\cos\left(-x^{2}+x\right)$;
 
-(6) $y=\dfrac{\sin2x}{\sqrt{x}}$.
+(6) $y=\frac{\sin2x}{\sqrt{x}}$.
 
 ### 解答 习题二
 
 由**定义 5.2.1**, **定义 5.2.2** 与**定义 5.2.3**.
 
-(1) $y'=2^{x}\ln2\cdot\tan x+2^{x}\cdot\dfrac{1}{\cos^{2}x}$.
+(1) $y'=2^{x}\ln2\cdot\tan x+2^{x}\cdot\frac{1}{\cos^{2}x}$.
 
-(2) $y'=2^{x}\ln2\cdot\ln x+\dfrac{2^{x}}{x}$.
+(2) $y'=2^{x}\ln2\cdot\ln x+\frac{2^{x}}{x}$.
 
 (3) 由积的法则, 
 
@@ -75,7 +75,7 @@ $$
 (4) 由商的法则, 
 
 $$
-y'=\dfrac{2x\left(2x+1\right)^{3}-x^{2}\cdot3\left(2x+1\right)^{2}\cdot2}{\left(2x+1\right)^{6}}=\dfrac{2x\left(2x+1\right)-6x^{2}}{\left(2x+1\right)^{4}}=\dfrac{2x-2x^{2}}{\left(2x+1\right)^{4}}.
+y'=\frac{2x\left(2x+1\right)^{3}-x^{2}\cdot3\left(2x+1\right)^{2}\cdot2}{\left(2x+1\right)^{6}}=\frac{2x\left(2x+1\right)-6x^{2}}{\left(2x+1\right)^{4}}=\frac{2x-2x^{2}}{\left(2x+1\right)^{4}}.
 $$
 
 (5) 由积的法则与复合函数法则, 
@@ -87,7 +87,7 @@ $$
 (6) 由商的法则, 
 
 $$
-y'=\dfrac{2\cos2x\cdot\sqrt{x}-\sin2x\cdot\dfrac{1}{2\sqrt{x}}}{x}=\dfrac{4x\cos2x-\sin2x}{2x\sqrt{x}}.
+y'=\frac{2\cos2x\cdot\sqrt{x}-\sin2x\cdot\frac{1}{2\sqrt{x}}}{x}=\frac{4x\cos2x-\sin2x}{2x\sqrt{x}}.
 $$
 
 
@@ -96,6 +96,8 @@ $\blacksquare$
 ### 习题三
 
 (复习参考题 5 复习巩固第 3 题) 已知函数 $y=f\left(x\right)$ 的图象是下列四个图象之一, 且其导函数 $y=f'\left(x\right)$ 的图象如图所示, 则该函数的图象是 ( ).
+
+![week79-1.svg](../figures/week79-1.svg){width=100%}
 
 ### 解答 习题三
 
@@ -109,37 +111,37 @@ $\blacksquare$
 
 (复习参考题 5 复习巩固第 4 题) 求下列曲线在给定点处的切线方程: 
 
-(1) $y=x-\dfrac{1}{x}$, $\left(1,0\right)$;
+(1) $y=x-\frac{1}{x}$, $\left(1,0\right)$;
 
-(2) $y=\dfrac{\mathrm e^{2x-1}}{x^{2}}$, $\left(\dfrac{1}{2},4\right)$.
+(2) $y=\frac{\mathrm e^{2x-1}}{x^{2}}$, $\left(\frac{1}{2},4\right)$.
 
 ### 解答 习题四
 
 由**定义 5.1.3** 与**定义 5.2.2**.
 
-(1) $y'=1+\dfrac{1}{x^{2}}$, 切线斜率 $k=y'\big|_{x=1}=2$. 切线过 $\left(1,0\right)$, 方程为 $y=2\left(x-1\right)$, 即 $y=2x-2$.
+(1) $y'=1+\frac{1}{x^{2}}$, 切线斜率 $k=y'\big|_{x=1}=2$. 切线过 $\left(1,0\right)$, 方程为 $y=2\left(x-1\right)$, 即 $y=2x-2$.
 
-(2) $y'=\dfrac{2\mathrm e^{2x-1}\cdot x^{2}-\mathrm e^{2x-1}\cdot2x}{x^{4}}=\dfrac{2\mathrm e^{2x-1}\left(x-1\right)}{x^{3}}$. 在 $x=\dfrac{1}{2}$ 处, 
+(2) $y'=\frac{2\mathrm e^{2x-1}\cdot x^{2}-\mathrm e^{2x-1}\cdot2x}{x^{4}}=\frac{2\mathrm e^{2x-1}\left(x-1\right)}{x^{3}}$. 在 $x=\frac{1}{2}$ 处, 
 
 $$
-k=\dfrac{2\mathrm e^{0}\left(\dfrac{1}{2}-1\right)}{\left(\dfrac{1}{2}\right)^{3}}=\dfrac{2\cdot\left(-\dfrac{1}{2}\right)}{\dfrac{1}{8}}=-8.
+k=\frac{2\mathrm e^{0}\left(\frac{1}{2}-1\right)}{\left(\frac{1}{2}\right)^{3}}=\frac{2\cdot\left(-\frac{1}{2}\right)}{\frac{1}{8}}=-8.
 $$
 
-切线过 $\left(\dfrac{1}{2},4\right)$, 方程为 $y-4=-8\left(x-\dfrac{1}{2}\right)$, 即 $y=-8x+8$. $\blacksquare$
+切线过 $\left(\frac{1}{2},4\right)$, 方程为 $y-4=-8\left(x-\frac{1}{2}\right)$, 即 $y=-8x+8$. $\blacksquare$
 
 ### 习题五
 
-(复习参考题 5 复习巩固第 5 题) 一个距地心距离为 $r$, 质量为 $m$ 的人造卫星, 与地球之间的万有引力 $F$ 由公式 $F=\dfrac{GMm}{r^{2}}$ 给出, 其中 $M$ 为地球质量, $G$ 为引力常量. 求 $F$ 对于 $r$ 的瞬时变化率.
+(复习参考题 5 复习巩固第 5 题) 一个距地心距离为 $r$, 质量为 $m$ 的人造卫星, 与地球之间的万有引力 $F$ 由公式 $F=\frac{GMm}{r^{2}}$ 给出, 其中 $M$ 为地球质量, $G$ 为引力常量. 求 $F$ 对于 $r$ 的瞬时变化率.
 
 ### 解答 习题五
 
 由**定义 5.2.1**, $F=GMm\cdot r^{-2}$, 故
 
 $$
-F'\left(r\right)=GMm\cdot\left(-2\right)r^{-3}=-\dfrac{2GMm}{r^{3}}.
+F'\left(r\right)=GMm\cdot\left(-2\right)r^{-3}=-\frac{2GMm}{r^{3}}.
 $$
 
-故 $F$ 对于 $r$ 的瞬时变化率为 $-\dfrac{2GMm}{r^{3}}$. $\blacksquare$
+故 $F$ 对于 $r$ 的瞬时变化率为 $-\frac{2GMm}{r^{3}}$. $\blacksquare$
 
 ### 习题六
 
@@ -148,6 +150,8 @@ $$
 (1) 判断 $f'\left(t\right)$ 的正负, 并说明理由.
 
 (2) $f'\left(3\right)=-4$ 的实际意义是什么? 如果 $f\left(3\right)=65\ {^\circ}\mathrm C$, 你能画出函数 $T=f\left(t\right)$ 在 $t=3$ 时图象的大致形状吗? 
+
+![week79-2.svg](../figures/week79-2.svg){width=50%}
 
 ### 解答 习题六
 
@@ -163,7 +167,7 @@ $$
 
 ### 解答 习题七
 
-由**定义 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\dfrac{2}{3}x^{-\frac{1}{3}}=\dfrac{2}{3\sqrt[3]{x}}$.
+由**定义 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt[3]{x}}$.
 
 当 $x>0$ 时 $f'\left(x\right)>0$; 当 $x<0$ 时 $f'\left(x\right)<0$.
 
@@ -203,27 +207,31 @@ $$
 
 (复习参考题 5 综合运用第 10 题) 如图, 过点 $P\left(1,1\right)$ 作直线 $AB$, 分别与 $x$ 轴的正半轴, $y$ 轴的正半轴交于点 $A,B$. 当直线 $AB$ 在什么位置时, $\triangle AOB$ 的面积最小? 最小面积是多少? 
 
+![week79-3.svg](../figures/week79-3.svg){width=50%}
+
 ### 解答 习题十
 
-设直线 $AB$ 的斜率为 $k$, 则直线方程为 $y-1=k\left(x-1\right)$. 令 $y=0$, 得 $A\left(1-\dfrac{1}{k},0\right)$; 令 $x=0$, 得 $B\left(0,1-k\right)$. 由 $A,B$ 在正半轴, $k<0$.
+设直线 $AB$ 的斜率为 $k$, 则直线方程为 $y-1=k\left(x-1\right)$. 令 $y=0$, 得 $A\left(1-\frac{1}{k},0\right)$; 令 $x=0$, 得 $B\left(0,1-k\right)$. 由 $A,B$ 在正半轴, $k<0$.
 
 $\triangle AOB$ 的面积为
 
 $$
-S=\dfrac{1}{2}\left(1-\dfrac{1}{k}\right)\left(1-k\right)=\dfrac{1}{2}\left(2-k-\dfrac{1}{k}\right).
+S=\frac{1}{2}\left(1-\frac{1}{k}\right)\left(1-k\right)=\frac{1}{2}\left(2-k-\frac{1}{k}\right).
 $$
 
-求导, $S'=\dfrac{1}{2}\left(-1+\dfrac{1}{k^{2}}\right)$. 令 $S'=0$, 得 $k^{2}=1$, 由 $k<0$ 得 $k=-1$.
+求导, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. 令 $S'=0$, 得 $k^{2}=1$, 由 $k<0$ 得 $k=-1$.
 
 当 $k<-1$ 时 $S'<0$, 当 $-1<k<0$ 时 $S'>0$, 故 $k=-1$ 为最小值点.
 
-此时 $A\left(2,0\right)$, $B\left(0,2\right)$, 最小面积为 $S=\dfrac{1}{2}\times2\times2=2$.
+此时 $A\left(2,0\right)$, $B\left(0,2\right)$, 最小面积为 $S=\frac{1}{2}\times2\times2=2$.
 
 故当直线 $AB$ 为 $x+y=2$ 时, $\triangle AOB$ 面积最小, 最小面积为 $2$. $\blacksquare$
 
 ### 习题十一
 
 (复习参考题 5 综合运用第 11 题) 如图, 直线 $l$ 和圆 $P$, 当 $l$ 从 $l_{0}$ 开始在平面上按逆时针方向绕点 $O$ 匀速转动 (转动角度不超过 $90^\circ$) 时, 它扫过的圆内阴影部分的面积 $S$ 是时间 $t$ 的函数. 这个函数的图象大致是 ( ).
+
+![week79-4.svg](../figures/week79-4.svg){width=100%}
 
 ### 解答 习题十一
 
@@ -259,7 +267,7 @@ $b'\left(10\right)=10000-20000=-10000$.
 
 ### 解答 习题十三
 
-对 $y=x+\ln x$, $y'=1+\dfrac{1}{x}$, 在 $x=1$ 处切线斜率为 $2$. 切线方程为 $y-1=2\left(x-1\right)$, 即 $y=2x-1$.
+对 $y=x+\ln x$, $y'=1+\frac{1}{x}$, 在 $x=1$ 处切线斜率为 $2$. 切线方程为 $y-1=2\left(x-1\right)$, 即 $y=2x-1$.
 
 令 $2x-1=ax^{2}+\left(2a+3\right)x+1$, 整理得
 
@@ -267,11 +275,11 @@ $$
 ax^{2}+\left(2a+1\right)x+2=0.
 $$
 
-两曲线只有一个公共点, 即此方程有唯一解. 当 $a\neq0$ 时, 判别式 $\Delta=\left(2a+1\right)^{2}-8a=4a^{2}-4a+1=\left(2a-1\right)^{2}=0$, 得 $a=\dfrac{1}{2}$.
+两曲线只有一个公共点, 即此方程有唯一解. 当 $a\neq0$ 时, 判别式 $\Delta=\left(2a+1\right)^{2}-8a=4a^{2}-4a+1=\left(2a-1\right)^{2}=0$, 得 $a=\frac{1}{2}$.
 
 当 $a=0$ 时, 方程为 $x+2=0$, 有唯一解 $x=-2$, 也符合.
 
-故 $a=0$ 或 $a=\dfrac{1}{2}$. $\blacksquare$
+故 $a=0$ 或 $a=\frac{1}{2}$. $\blacksquare$
 
 ### 习题十四
 
@@ -307,69 +315,71 @@ $$
 
 ### 解答 习题十五
 
-扇形弧长为 $R\alpha$, 即圆锥底面周长, 故圆锥底面半径 $r=\dfrac{R\alpha}{2\pi}$. 圆锥母线长为 $R$, 故高为
+扇形弧长为 $R\alpha$, 即圆锥底面周长, 故圆锥底面半径 $r=\frac{R\alpha}{2\pi}$. 圆锥母线长为 $R$, 故高为
 
 $$
-h=\sqrt{R^{2}-r^{2}}=\sqrt{R^{2}-\dfrac{R^{2}\alpha^{2}}{4\pi^{2}}}=\dfrac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}.
+h=\sqrt{R^{2}-r^{2}}=\sqrt{R^{2}-\frac{R^{2}\alpha^{2}}{4\pi^{2}}}=\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}.
 $$
 
 圆锥容积为
 
 $$
-V=\dfrac{1}{3}\pi r^{2}h=\dfrac{1}{3}\pi\cdot\dfrac{R^{2}\alpha^{2}}{4\pi^{2}}\cdot\dfrac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}=\dfrac{R^{3}}{24\pi^{2}}\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}.
+V=\frac{1}{3}\pi r^{2}h=\frac{1}{3}\pi\cdot\frac{R^{2}\alpha^{2}}{4\pi^{2}}\cdot\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}=\frac{R^{3}}{24\pi^{2}}\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}.
 $$
 
-只需最大化 $\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}$. 设 $u=\alpha^{2}$, 则目标为 $u\sqrt{4\pi^{2}-u}$, 求导令其为 $0$, 得 $2\left(4\pi^{2}-u\right)-u=0$, 即 $u=\dfrac{8\pi^{2}}{3}$.
+只需最大化 $\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}$. 设 $u=\alpha^{2}$, 则目标为 $u\sqrt{4\pi^{2}-u}$, 求导令其为 $0$, 得 $2\left(4\pi^{2}-u\right)-u=0$, 即 $u=\frac{8\pi^{2}}{3}$.
 
-故 $\alpha^{2}=\dfrac{8\pi^{2}}{3}$, 即 $\alpha=\dfrac{2\sqrt{6}\pi}{3}$.
+故 $\alpha^{2}=\frac{8\pi^{2}}{3}$, 即 $\alpha=\frac{2\sqrt{6}\pi}{3}$.
 
-当圆心角 $\alpha=\dfrac{2\sqrt{6}\pi}{3}$ 时, 圆锥形容器容积最大. $\blacksquare$
+当圆心角 $\alpha=\frac{2\sqrt{6}\pi}{3}$ 时, 圆锥形容器容积最大. $\blacksquare$
 
 ### 习题十六
 
-(复习参考题 5 拓广探索第 16 题) 已知 $A,B$ 两地的距离是 $130\ \mathrm{km}$. 根据交通法规, 两地之间的公路车速应限制在 $50\sim100\ \mathrm{km/h}$. 假设油价是 $7$ 元/$\mathrm L$, 以 $x\ \mathrm{km/h}$ 的速度行驶时, 汽车的耗油率为 $\left(3+\dfrac{x^{2}}{360}\right)\ \mathrm{L/h}$, 司机每小时的工资是 $35$ 元. 那么最经济的车速是多少 (精确到 $1\ \mathrm{km/h}$)? 如果不考虑其他费用, 这次行车的总费用是多少 (精确到 $1$ 元)? 
+(复习参考题 5 拓广探索第 16 题) 已知 $A,B$ 两地的距离是 $130\ \mathrm{km}$. 根据交通法规, 两地之间的公路车速应限制在 $50\sim100\ \mathrm{km/h}$. 假设油价是 $7$ 元/$\mathrm L$, 以 $x\ \mathrm{km/h}$ 的速度行驶时, 汽车的耗油率为 $\left(3+\frac{x^{2}}{360}\right)\ \mathrm{L/h}$, 司机每小时的工资是 $35$ 元. 那么最经济的车速是多少 (精确到 $1\ \mathrm{km/h}$)? 如果不考虑其他费用, 这次行车的总费用是多少 (精确到 $1$ 元)? 
 
 ### 解答 习题十六
 
-行车时间为 $\dfrac{130}{x}\ \mathrm{h}$. 总费用为油费与工资之和: 
+行车时间为 $\frac{130}{x}\ \mathrm{h}$. 总费用为油费与工资之和: 
 
 $$
-C\left(x\right)=\dfrac{130}{x}\left[7\left(3+\dfrac{x^{2}}{360}\right)+35\right]=\dfrac{130}{x}\left(56+\dfrac{7x^{2}}{360}\right)=130\left(\dfrac{56}{x}+\dfrac{7x}{360}\right).
+C\left(x\right)=\frac{130}{x}\left[7\left(3+\frac{x^{2}}{360}\right)+35\right]=\frac{130}{x}\left(56+\frac{7x^{2}}{360}\right)=130\left(\frac{56}{x}+\frac{7x}{360}\right).
 $$
 
-求导, $C'\left(x\right)=130\left(-\dfrac{56}{x^{2}}+\dfrac{7}{360}\right)$. 令 $C'\left(x\right)=0$, 得 $\dfrac{56}{x^{2}}=\dfrac{7}{360}$, 即 $x^{2}=2880$, 故 $x\approx53.7\ \mathrm{km/h}$.
+求导, $C'\left(x\right)=130\left(-\frac{56}{x^{2}}+\frac{7}{360}\right)$. 令 $C'\left(x\right)=0$, 得 $\frac{56}{x^{2}}=\frac{7}{360}$, 即 $x^{2}=2880$, 故 $x\approx53.7\ \mathrm{km/h}$.
 
 此值在 $50\sim100$ 范围内, 为最小值点. 精确到 $1\ \mathrm{km/h}$, 最经济车速约为 $54\ \mathrm{km/h}$.
 
 总费用为
 
 $$
-C\left(54\right)=130\left(\dfrac{56}{54}+\dfrac{7\times54}{360}\right)\approx130\times\left(1.037+1.05\right)\approx271\ \mathrm{元}.
+C\left(54\right)=130\left(\frac{56}{54}+\frac{7\times54}{360}\right)\approx130\times\left(1.037+1.05\right)\approx271\ \mathrm{元}.
 $$
 
 故最经济车速约为 $54\ \mathrm{km/h}$, 总费用约为 $271$ 元. $\blacksquare$
 
 ### 习题十七
 
-(复习参考题 5 拓广探索第 17 题) 作函数 $y=\dfrac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象.
+(复习参考题 5 拓广探索第 17 题) 作函数 $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象.
+
+![week79-5.svg](../figures/week79-5.svg){width=50%}
 
 ### 解答 习题十七
 
 由**定义 5.3.1** 与**定义 5.3.2**.
 
-定义域为 $x\neq1$. 令 $y=0$, 得 $x=\dfrac{1}{2}$, 即图象过 $\left(\dfrac{1}{2},0\right)$.
+定义域为 $x\neq1$. 令 $y=0$, 得 $x=\frac{1}{2}$, 即图象过 $\left(\frac{1}{2},0\right)$.
 
 求导, 
 
 $$
-y'=\dfrac{\left[\mathrm e^{x}\left(2x-1\right)+2\mathrm e^{x}\right]\left(x-1\right)-\mathrm e^{x}\left(2x-1\right)}{\left(x-1\right)^{2}}=\dfrac{\mathrm e^{x}\left(2x^{2}-x-2\right)}{\left(x-1\right)^{2}}.
+y'=\frac{\left[\mathrm e^{x}\left(2x-1\right)+2\mathrm e^{x}\right]\left(x-1\right)-\mathrm e^{x}\left(2x-1\right)}{\left(x-1\right)^{2}}=\frac{\mathrm e^{x}\left(2x^{2}-x-2\right)}{\left(x-1\right)^{2}}.
 $$
 
-令 $y'=0$, 得 $2x^{2}-x-2=0$, 解得 $x=\dfrac{1\pm\sqrt{17}}{4}$.
+令 $y'=0$, 得 $2x^{2}-x-2=0$, 解得 $x=\frac{1\pm\sqrt{17}}{4}$.
 
 当 $x\to1$ 时, $y\to\infty$; 当 $x\to-\infty$ 时, $y\to0$; 当 $x\to+\infty$ 时, $y\to+\infty$.
 
-故图象有两条渐近线 $x=1$ 与 $y=0$, 在 $x=\dfrac{1\pm\sqrt{17}}{4}$ 处取极值. $\blacksquare$
+故图象有两条渐近线 $x=1$ 与 $y=0$, 在 $x=\frac{1\pm\sqrt{17}}{4}$ 处取极值. $\blacksquare$
 
 ### 习题十八
 
@@ -377,9 +387,9 @@ $$
 
 ### 解答 习题十八
 
-由**定义 5.3.1**, $f'\left(x\right)=\mathrm e^{x}-\dfrac{1}{x+m}$. 令 $f'\left(x\right)=0$, 即 $\mathrm e^{x}=\dfrac{1}{x+m}$.
+由**定义 5.3.1**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. 令 $f'\left(x\right)=0$, 即 $\mathrm e^{x}=\frac{1}{x+m}$.
 
-当 $m\le2$ 时, $\ln\left(x+m\right)$ 的定义域内 $x+m>0$. 设 $f\left(x\right)$ 的最小值点为 $x_{0}$, 满足 $\mathrm e^{x_{0}}=\dfrac{1}{x_{0}+m}$, 即 $x_{0}+m=\mathrm e^{-x_{0}}$.
+当 $m\le2$ 时, $\ln\left(x+m\right)$ 的定义域内 $x+m>0$. 设 $f\left(x\right)$ 的最小值点为 $x_{0}$, 满足 $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, 即 $x_{0}+m=\mathrm e^{-x_{0}}$.
 
 最小值为
 
@@ -411,17 +421,17 @@ $$
 
 当 $a\le0$ 时, $at-1<0$, $f'\left(x\right)<0$, $f\left(x\right)$ 在 $\mathbb R$ 上单调递减.
 
-当 $a>0$ 时, 令 $at-1=0$, 得 $t=\dfrac{1}{a}$, 即 $x=-\ln a$. 当 $x<-\ln a$ 时 $f'\left(x\right)<0$, 当 $x>-\ln a$ 时 $f'\left(x\right)>0$. 故 $f\left(x\right)$ 在 $\left(-\infty,-\ln a\right)$ 内递减, 在 $\left(-\ln a,+\infty\right)$ 内递增.
+当 $a>0$ 时, 令 $at-1=0$, 得 $t=\frac{1}{a}$, 即 $x=-\ln a$. 当 $x<-\ln a$ 时 $f'\left(x\right)<0$, 当 $x>-\ln a$ 时 $f'\left(x\right)>0$. 故 $f\left(x\right)$ 在 $\left(-\infty,-\ln a\right)$ 内递减, 在 $\left(-\ln a,+\infty\right)$ 内递增.
 
 (2) 当 $a\le0$ 时, $f\left(x\right)$ 单调递减, 至多一个零点.
 
-当 $a>0$ 时, $f\left(x\right)$ 在 $x=-\ln a$ 处取最小值 $f\left(-\ln a\right)$. 代入, $t=\dfrac{1}{a}$, 
+当 $a>0$ 时, $f\left(x\right)$ 在 $x=-\ln a$ 处取最小值 $f\left(-\ln a\right)$. 代入, $t=\frac{1}{a}$, 
 
 $$
-f\left(-\ln a\right)=a\cdot\dfrac{1}{a^{2}}+\left(a-2\right)\cdot\dfrac{1}{a}+\ln a=\dfrac{1}{a}+1-\dfrac{2}{a}+\ln a=1-\dfrac{1}{a}+\ln a.
+f\left(-\ln a\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln a=\frac{1}{a}+1-\frac{2}{a}+\ln a=1-\frac{1}{a}+\ln a.
 $$
 
-要使 $f\left(x\right)$ 有两个零点, 须最小值小于 $0$, 即 $1-\dfrac{1}{a}+\ln a<0$. 设 $g\left(a\right)=1-\dfrac{1}{a}+\ln a$, 则 $g'\left(a\right)=\dfrac{1}{a^{2}}+\dfrac{1}{a}>0$, $g\left(a\right)$ 单调递增, 且 $g\left(1\right)=0$. 故当 $0<a<1$ 时 $g\left(a\right)<0$.
+要使 $f\left(x\right)$ 有两个零点, 须最小值小于 $0$, 即 $1-\frac{1}{a}+\ln a<0$. 设 $g\left(a\right)=1-\frac{1}{a}+\ln a$, 则 $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}>0$, $g\left(a\right)$ 单调递增, 且 $g\left(1\right)=0$. 故当 $0<a<1$ 时 $g\left(a\right)<0$.
 
 又当 $x\to-\infty$ 时 $f\left(x\right)\to+\infty$, 当 $x\to+\infty$ 时 $f\left(x\right)\to+\infty$.
 

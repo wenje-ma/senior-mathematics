@@ -1,42 +1,42 @@
 # 作业 19
 
-> **定义 5.2.1** (正弦函数, 余弦函数, 正切函数) <br>设 $\alpha$ 是一个任意角, $\alpha\in\mathbb R$, 它的终边 $OP$ 与单位圆相交于点 $P(x,y)$. (1) 把点 $P$ 的纵坐标 $y$ 叫做 $\alpha$ 的正弦函数, 记作 $\sin\alpha$, 即 $y=\sin\alpha$; (2) 把点 $P$ 的横坐标 $x$ 叫做 $\alpha$ 的余弦函数, 记作 $\cos\alpha$, 即 $x=\cos\alpha$; (3) 把点 $P$ 的纵坐标与横坐标的比值 $\dfrac{y}{x}$ 叫做 $\alpha$ 的正切, 记作 $\tan\alpha$, 即 $\dfrac{y}{x}=\tan\alpha$ ($x\neq0$).
+> **定义 5.2.1** (正弦函数, 余弦函数, 正切函数) <br>设 $\alpha$ 是一个任意角, $\alpha\in\mathbb R$, 它的终边 $OP$ 与单位圆相交于点 $P(x,y)$. (1) 把点 $P$ 的纵坐标 $y$ 叫做 $\alpha$ 的正弦函数, 记作 $\sin\alpha$, 即 $y=\sin\alpha$; (2) 把点 $P$ 的横坐标 $x$ 叫做 $\alpha$ 的余弦函数, 记作 $\cos\alpha$, 即 $x=\cos\alpha$; (3) 把点 $P$ 的纵坐标与横坐标的比值 $\frac{y}{x}$ 叫做 $\alpha$ 的正切, 记作 $\tan\alpha$, 即 $\frac{y}{x}=\tan\alpha$ ($x\neq0$).
 
-> **常用结论** (三角函数的定义域) <br>正弦函数 $y=\sin x$, $x\in\mathbb R$; 余弦函数 $y=\cos x$, $x\in\mathbb R$; 正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\dfrac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$.
+> **常用结论** (三角函数的定义域) <br>正弦函数 $y=\sin x$, $x\in\mathbb R$; 余弦函数 $y=\cos x$, $x\in\mathbb R$; 正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$.
 
-> **定义 5.2.2** (终边上任意一点的三角函数比值) <br>设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $(x,y)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\dfrac{y}{r}$, $\cos\alpha=\dfrac{x}{r}$, $\tan\alpha=\dfrac{y}{x}$.
+> **定义 5.2.2** (终边上任意一点的三角函数比值) <br>设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $(x,y)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
 
 > **公式一** (终边相同的角的三角函数值) <br>$\sin(\alpha+k\cdot2\pi)=\sin\alpha$, $\cos(\alpha+k\cdot2\pi)=\cos\alpha$, $\tan(\alpha+k\cdot2\pi)=\tan\alpha$, 其中 $k\in\mathbb Z$.
 
 > **常用结论** (三角函数在各象限的符号) <br>正弦函数值: 第一, 二象限为正, 第三, 四象限为负; 余弦函数值: 第一, 四象限为正, 第二, 三象限为负; 正切函数值: 第一, 三象限为正, 第二, 四象限为负.
 
-> **常用结论** (同角三角函数的基本关系) <br>同一个角 $\alpha$ 的正弦, 余弦的平方和等于 $1$, 商等于角 $\alpha$ 的正切, 即 $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\dfrac{\sin\alpha}{\cos\alpha}=\tan\alpha$ ($\alpha\neq k\pi+\dfrac{\pi}{2}$, $k\in\mathbb Z$).
+> **常用结论** (同角三角函数的基本关系) <br>同一个角 $\alpha$ 的正弦, 余弦的平方和等于 $1$, 商等于角 $\alpha$ 的正切, 即 $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\frac{\sin\alpha}{\cos\alpha}=\tan\alpha$ ($\alpha\neq k\pi+\frac{\pi}{2}$, $k\in\mathbb Z$).
 
 ### 练习一
 
-(练习 5.2 第 1 题) 利用三角函数定义, 求 $0$, $\dfrac{\pi}{2}$, $\pi$, $\dfrac{3\pi}{2}$ 的三个三角函数值.
+(练习 5.2 第 1 题) 利用三角函数定义, 求 $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$ 的三个三角函数值.
 
 ### 解答 练习一
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数), 角 $\alpha$ 的终边与单位圆交点为 $P(x,y)$, 则 $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\dfrac{y}{x}$.
+由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数), 角 $\alpha$ 的终边与单位圆交点为 $P(x,y)$, 则 $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
 
 (1) $\alpha=0$ 时, 终边与单位圆交点为 $(1,0)$, 故 $\sin0=0$, $\cos0=1$, $\tan0=0$.
 
-(2) $\alpha=\dfrac{\pi}{2}$ 时, 终边与单位圆交点为 $(0,1)$, 故 $\sin\dfrac{\pi}{2}=1$, $\cos\dfrac{\pi}{2}=0$, $\tan\dfrac{\pi}{2}$ 无意义.
+(2) $\alpha=\frac{\pi}{2}$ 时, 终边与单位圆交点为 $(0,1)$, 故 $\sin\frac{\pi}{2}=1$, $\cos\frac{\pi}{2}=0$, $\tan\frac{\pi}{2}$ 无意义.
 
 (3) $\alpha=\pi$ 时, 终边与单位圆交点为 $(-1,0)$, 故 $\sin\pi=0$, $\cos\pi=-1$, $\tan\pi=0$.
 
-(4) $\alpha=\dfrac{3\pi}{2}$ 时, 终边与单位圆交点为 $(0,-1)$, 故 $\sin\dfrac{3\pi}{2}=-1$, $\cos\dfrac{3\pi}{2}=0$, $\tan\dfrac{3\pi}{2}$ 无意义. $\blacksquare$
+(4) $\alpha=\frac{3\pi}{2}$ 时, 终边与单位圆交点为 $(0,-1)$, 故 $\sin\frac{3\pi}{2}=-1$, $\cos\frac{3\pi}{2}=0$, $\tan\frac{3\pi}{2}$ 无意义. $\blacksquare$
 
 ### 练习二
 
-(练习 5.2 第 2 题) 利用三角函数定义, 求 $-\dfrac{7\pi}{6}$ 的三个三角函数值.
+(练习 5.2 第 2 题) 利用三角函数定义, 求 $-\frac{7\pi}{6}$ 的三个三角函数值.
 
 ### 解答 练习二
 
 由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数).
 
-由 $-\dfrac{7\pi}{6}=-2\pi+\dfrac{5\pi}{6}$, 角 $-\dfrac{7\pi}{6}$ 的终边与 $\dfrac{5\pi}{6}$ 的终边相同. $\dfrac{5\pi}{6}$ 终边与单位圆交点为 $\left(-\dfrac{\sqrt{3}}{2},\dfrac{1}{2}\right)$, 故
+由 $-\frac{7\pi}{6}=-2\pi+\frac{5\pi}{6}$, 角 $-\frac{7\pi}{6}$ 的终边与 $\frac{5\pi}{6}$ 的终边相同. $\frac{5\pi}{6}$ 终边与单位圆交点为 $\left(-\frac{\sqrt{3}}{2},\frac{1}{2}\right)$, 故
 
 $$
 \sin\left(-\frac{7\pi}{6}\right)=\frac{1}{2},\quad \cos\left(-\frac{7\pi}{6}\right)=-\frac{\sqrt{3}}{2},\quad \tan\left(-\frac{7\pi}{6}\right)=-\frac{\sqrt{3}}{3}.
@@ -80,7 +80,7 @@ $$
 
 (练习 5.2 第 5 题) 填表:
 
-| $\alpha$ | $2\pi$ | $\dfrac{13\pi}{6}$ | $-\pi$ | $-\dfrac{4\pi}{3}$ | $\dfrac{15\pi}{4}$ |
+| $\alpha$ | $2\pi$ | $\frac{13\pi}{6}$ | $-\pi$ | $-\frac{4\pi}{3}$ | $\frac{15\pi}{4}$ |
 |---|---|---|---|---|---|
 | $\sin\alpha$ |  |  |  |  |  |
 | $\cos\alpha$ |  |  |  |  |  |
@@ -92,17 +92,17 @@ $$
 
 (1) $\alpha=2\pi$: $\sin2\pi=0$, $\cos2\pi=1$, $\tan2\pi=0$.
 
-(2) $\alpha=\dfrac{13\pi}{6}=2\pi+\dfrac{\pi}{6}$: $\sin\dfrac{13\pi}{6}=\sin\dfrac{\pi}{6}=\dfrac{1}{2}$, $\cos\dfrac{13\pi}{6}=\cos\dfrac{\pi}{6}=\dfrac{\sqrt{3}}{2}$, $\tan\dfrac{13\pi}{6}=\tan\dfrac{\pi}{6}=\dfrac{\sqrt{3}}{3}$.
+(2) $\alpha=\frac{13\pi}{6}=2\pi+\frac{\pi}{6}$: $\sin\frac{13\pi}{6}=\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{13\pi}{6}=\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\tan\frac{13\pi}{6}=\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$.
 
 (3) $\alpha=-\pi$: $\sin(-\pi)=0$, $\cos(-\pi)=-1$, $\tan(-\pi)=0$.
 
-(4) $\alpha=-\dfrac{4\pi}{3}=-2\pi+\dfrac{2\pi}{3}$: $\sin\left(-\dfrac{4\pi}{3}\right)=\sin\dfrac{2\pi}{3}=\dfrac{\sqrt{3}}{2}$, $\cos\left(-\dfrac{4\pi}{3}\right)=\cos\dfrac{2\pi}{3}=-\dfrac{1}{2}$, $\tan\left(-\dfrac{4\pi}{3}\right)=\tan\dfrac{2\pi}{3}=-\sqrt{3}$.
+(4) $\alpha=-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$: $\sin\left(-\frac{4\pi}{3}\right)=\sin\frac{2\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{4\pi}{3}\right)=\cos\frac{2\pi}{3}=-\frac{1}{2}$, $\tan\left(-\frac{4\pi}{3}\right)=\tan\frac{2\pi}{3}=-\sqrt{3}$.
 
-(5) $\alpha=\dfrac{15\pi}{4}=4\pi-\dfrac{\pi}{4}$: $\sin\dfrac{15\pi}{4}=\sin\left(-\dfrac{\pi}{4}\right)=-\dfrac{\sqrt{3}}{2}$, $\cos\dfrac{15\pi}{4}=\cos\left(-\dfrac{\pi}{4}\right)=\dfrac{\sqrt{2}}{2}$, $\tan\dfrac{15\pi}{4}=\tan\left(-\dfrac{\pi}{4}\right)=-1$. $\blacksquare$
+(5) $\alpha=\frac{15\pi}{4}=4\pi-\frac{\pi}{4}$: $\sin\frac{15\pi}{4}=\sin\left(-\frac{\pi}{4}\right)=-\frac{\sqrt{3}}{2}$, $\cos\frac{15\pi}{4}=\cos\left(-\frac{\pi}{4}\right)=\frac{\sqrt{2}}{2}$, $\tan\frac{15\pi}{4}=\tan\left(-\frac{\pi}{4}\right)=-1$. $\blacksquare$
 
 ### 练习六
 
-(练习 5.2 第 6 题) (口答) 设 $\alpha$ 是三角形的一个内角, 在 $\sin\alpha$, $\cos\alpha$, $\tan\alpha$, $\tan\dfrac{\alpha}{2}$ 中, 哪些有可能取负值?
+(练习 5.2 第 6 题) (口答) 设 $\alpha$ 是三角形的一个内角, 在 $\sin\alpha$, $\cos\alpha$, $\tan\alpha$, $\tan\frac{\alpha}{2}$ 中, 哪些有可能取负值?
 
 ### 解答 练习六
 
@@ -110,11 +110,11 @@ $$
 
 (1) 由 $0<\alpha<\pi$, 角 $\alpha$ 的终边在第一或第二象限, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha>0$, 不可能取负值.
 
-(2) 当 $\dfrac{\pi}{2}<\alpha<\pi$ 时, $\alpha$ 为第二象限角, $\cos\alpha<0$, 故 $\cos\alpha$ 有可能取负值.
+(2) 当 $\frac{\pi}{2}<\alpha<\pi$ 时, $\alpha$ 为第二象限角, $\cos\alpha<0$, 故 $\cos\alpha$ 有可能取负值.
 
-(3) 当 $\dfrac{\pi}{2}<\alpha<\pi$ 时, $\alpha$ 为第二象限角, $\tan\alpha<0$, 故 $\tan\alpha$ 有可能取负值.
+(3) 当 $\frac{\pi}{2}<\alpha<\pi$ 时, $\alpha$ 为第二象限角, $\tan\alpha<0$, 故 $\tan\alpha$ 有可能取负值.
 
-(4) 由 $0<\alpha<\pi$, 知 $0<\dfrac{\alpha}{2}<\dfrac{\pi}{2}$, $\dfrac{\alpha}{2}$ 为第一象限角, $\tan\dfrac{\alpha}{2}>0$, 不可能取负值.
+(4) 由 $0<\alpha<\pi$, 知 $0<\frac{\alpha}{2}<\frac{\pi}{2}$, $\frac{\alpha}{2}$ 为第一象限角, $\tan\frac{\alpha}{2}>0$, 不可能取负值.
 
 综上, $\cos\alpha$ 和 $\tan\alpha$ 有可能取负值. $\blacksquare$
 
@@ -124,13 +124,13 @@ $$
 
 (1) $\sin156^{\circ}$;
 
-(2) $\cos\dfrac{16\pi}{5}$;
+(2) $\cos\frac{16\pi}{5}$;
 
 (3) $\cos(-450^{\circ})$;
 
-(4) $\tan\left(-\dfrac{17\pi}{8}\right)$;
+(4) $\tan\left(-\frac{17\pi}{8}\right)$;
 
-(5) $\sin\left(-\dfrac{4\pi}{3}\right)$;
+(5) $\sin\left(-\frac{4\pi}{3}\right)$;
 
 (6) $\tan556^{\circ}$.
 
@@ -140,13 +140,13 @@ $$
 
 (1) 由 $156^{\circ}$ 是第二象限角, 知 $\sin156^{\circ}>0$.
 
-(2) 由 $\dfrac{16\pi}{5}=2\pi+\dfrac{6\pi}{5}$, $\dfrac{6\pi}{5}$ 是第三象限角, 知 $\cos\dfrac{16\pi}{5}<0$.
+(2) 由 $\frac{16\pi}{5}=2\pi+\frac{6\pi}{5}$, $\frac{6\pi}{5}$ 是第三象限角, 知 $\cos\frac{16\pi}{5}<0$.
 
 (3) 由 $-450^{\circ}=-360^{\circ}-90^{\circ}$, 终边在 $y$ 轴负半轴, $\cos(-450^{\circ})=0$.
 
-(4) 由 $-\dfrac{17\pi}{8}=-2\pi-\dfrac{\pi}{8}$, $-\dfrac{\pi}{8}$ 是第四象限角, 知 $\tan\left(-\dfrac{17\pi}{8}\right)<0$.
+(4) 由 $-\frac{17\pi}{8}=-2\pi-\frac{\pi}{8}$, $-\frac{\pi}{8}$ 是第四象限角, 知 $\tan\left(-\frac{17\pi}{8}\right)<0$.
 
-(5) 由 $-\dfrac{4\pi}{3}=-2\pi+\dfrac{2\pi}{3}$, $\dfrac{2\pi}{3}$ 是第二象限角, 知 $\sin\left(-\dfrac{4\pi}{3}\right)>0$.
+(5) 由 $-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$, $\frac{2\pi}{3}$ 是第二象限角, 知 $\sin\left(-\frac{4\pi}{3}\right)>0$.
 
 (6) 由 $556^{\circ}=360^{\circ}+196^{\circ}$, $196^{\circ}$ 是第三象限角, 知 $\tan556^{\circ}>0$. $\blacksquare$
 
@@ -180,11 +180,11 @@ $$
 
 (1) $\cos1100^{\circ}$;
 
-(2) $\tan\dfrac{19\pi}{3}$;
+(2) $\tan\frac{19\pi}{3}$;
 
 (3) $\sin(-1050^{\circ})$;
 
-(4) $\tan\left(-\dfrac{31\pi}{4}\right)$.
+(4) $\tan\left(-\frac{31\pi}{4}\right)$.
 
 ### 解答 练习九
 
@@ -192,21 +192,21 @@ $$
 
 (1) 由 $1100^{\circ}=3\times360^{\circ}+20^{\circ}$, 得 $\cos1100^{\circ}=\cos20^{\circ}\approx0.9397$.
 
-(2) 由 $\dfrac{19\pi}{3}=6\pi+\dfrac{\pi}{3}$, 得 $\tan\dfrac{19\pi}{3}=\tan\dfrac{\pi}{3}=\sqrt{3}$.
+(2) 由 $\frac{19\pi}{3}=6\pi+\frac{\pi}{3}$, 得 $\tan\frac{19\pi}{3}=\tan\frac{\pi}{3}=\sqrt{3}$.
 
-(3) 由 $-1050^{\circ}=-3\times360^{\circ}+30^{\circ}$, 得 $\sin(-1050^{\circ})=\sin30^{\circ}=\dfrac{1}{2}$.
+(3) 由 $-1050^{\circ}=-3\times360^{\circ}+30^{\circ}$, 得 $\sin(-1050^{\circ})=\sin30^{\circ}=\frac{1}{2}$.
 
-(4) 由 $-\dfrac{31\pi}{4}=-8\pi+\dfrac{\pi}{4}$, 得 $\tan\left(-\dfrac{31\pi}{4}\right)=\tan\dfrac{\pi}{4}=1$. $\blacksquare$
+(4) 由 $-\frac{31\pi}{4}=-8\pi+\frac{\pi}{4}$, 得 $\tan\left(-\frac{31\pi}{4}\right)=\tan\frac{\pi}{4}=1$. $\blacksquare$
 
 ### 练习十
 
-(练习 5.2 第 10 题) 已知 $\cos\alpha=-\dfrac{4}{5}$, 且 $\alpha$ 为第三象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值.
+(练习 5.2 第 10 题) 已知 $\cos\alpha=-\frac{4}{5}$, 且 $\alpha$ 为第三象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值.
 
 ### 解答 练习十
 
 由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-由 $\cos\alpha=-\dfrac{4}{5}$, 得 $\sin^{2}\alpha=1-\cos^{2}\alpha=1-\dfrac{16}{25}=\dfrac{9}{25}$. 因为 $\alpha$ 为第三象限角, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha<0$, 故
+由 $\cos\alpha=-\frac{4}{5}$, 得 $\sin^{2}\alpha=1-\cos^{2}\alpha=1-\frac{16}{25}=\frac{9}{25}$. 因为 $\alpha$ 为第三象限角, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha<0$, 故
 
 $$
 \sin\alpha=-\frac{3}{5},\quad \tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{-\frac{3}{5}}{-\frac{4}{5}}=\frac{3}{4}.
@@ -220,13 +220,13 @@ $\blacksquare$
 
 ### 解答 练习十一
 
-由**常用结论** (同角三角函数的基本关系), $\tan\varphi=\dfrac{\sin\varphi}{\cos\varphi}$, $\sin^{2}\varphi+\cos^{2}\varphi=1$.
+由**常用结论** (同角三角函数的基本关系), $\tan\varphi=\frac{\sin\varphi}{\cos\varphi}$, $\sin^{2}\varphi+\cos^{2}\varphi=1$.
 
 由 $\tan\varphi=-\sqrt{3}$, 知 $\varphi$ 为第二或第四象限角.
 
-(1) 若 $\varphi$ 为第二象限角, 则 $\sin\varphi>0$, $\cos\varphi<0$. 由 $\sin\varphi=-\sqrt{3}\cos\varphi$ 代入 $\sin^{2}\varphi+\cos^{2}\varphi=1$, 得 $3\cos^{2}\varphi+\cos^{2}\varphi=1$, 即 $\cos^{2}\varphi=\dfrac{1}{4}$, 故 $\cos\varphi=-\dfrac{1}{2}$, $\sin\varphi=\dfrac{\sqrt{3}}{2}$.
+(1) 若 $\varphi$ 为第二象限角, 则 $\sin\varphi>0$, $\cos\varphi<0$. 由 $\sin\varphi=-\sqrt{3}\cos\varphi$ 代入 $\sin^{2}\varphi+\cos^{2}\varphi=1$, 得 $3\cos^{2}\varphi+\cos^{2}\varphi=1$, 即 $\cos^{2}\varphi=\frac{1}{4}$, 故 $\cos\varphi=-\frac{1}{2}$, $\sin\varphi=\frac{\sqrt{3}}{2}$.
 
-(2) 若 $\varphi$ 为第四象限角, 则 $\sin\varphi<0$, $\cos\varphi>0$, 同理得 $\cos\varphi=\dfrac{1}{2}$, $\sin\varphi=-\dfrac{\sqrt{3}}{2}$. $\blacksquare$
+(2) 若 $\varphi$ 为第四象限角, 则 $\sin\varphi<0$, $\cos\varphi>0$, 同理得 $\cos\varphi=\frac{1}{2}$, $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
 ### 练习十二
 
@@ -238,9 +238,9 @@ $\blacksquare$
 
 由 $\sin\theta=0.35$, 得 $\cos^{2}\theta=1-0.35^{2}=0.8775$, 故 $\cos\theta=\pm\sqrt{0.8775}\approx\pm0.94$.
 
-(1) 若 $\theta$ 为第一象限角, 则 $\cos\theta\approx0.94$, $\tan\theta=\dfrac{0.35}{0.94}\approx0.37$.
+(1) 若 $\theta$ 为第一象限角, 则 $\cos\theta\approx0.94$, $\tan\theta=\frac{0.35}{0.94}\approx0.37$.
 
-(2) 若 $\theta$ 为第二象限角, 则 $\cos\theta\approx-0.94$, $\tan\theta=\dfrac{0.35}{-0.94}\approx-0.37$. $\blacksquare$
+(2) 若 $\theta$ 为第二象限角, 则 $\cos\theta\approx-0.94$, $\tan\theta=\frac{0.35}{-0.94}\approx-0.37$. $\blacksquare$
 
 ### 练习十三
 
@@ -248,13 +248,13 @@ $\blacksquare$
 
 (1) $\cos\theta\tan\theta$;
 
-(2) $\dfrac{2\cos^{2}\alpha-1}{1-2\sin^{2}\alpha}$;
+(2) $\frac{2\cos^{2}\alpha-1}{1-2\sin^{2}\alpha}$;
 
 (3) $\left(1+\tan^{2}\alpha\right)\cos^{2}\alpha$.
 
 ### 解答 练习十三
 
-由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
+由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
 (1) 得
 
@@ -290,11 +290,11 @@ $\blacksquare$
 
 (习题 5.2 复习巩固第 1 题) 用定义法, 公式一求下列角的三个三角函数值 (可用计算工具):
 
-(1) $-\dfrac{17\pi}{3}$;
+(1) $-\frac{17\pi}{3}$;
 
-(2) $\dfrac{21\pi}{4}$;
+(2) $\frac{21\pi}{4}$;
 
-(3) $-\dfrac{23\pi}{6}$;
+(3) $-\frac{23\pi}{6}$;
 
 (4) $1500^{\circ}$.
 
@@ -302,13 +302,13 @@ $\blacksquare$
 
 由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内, 再由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 求值.
 
-(1) 由 $-\dfrac{17\pi}{3}=-6\pi+\dfrac{\pi}{3}$, 得 $\sin\left(-\dfrac{17\pi}{3}\right)=\sin\dfrac{\pi}{3}=\dfrac{\sqrt{3}}{2}$, $\cos\left(-\dfrac{17\pi}{3}\right)=\cos\dfrac{\pi}{3}=\dfrac{1}{2}$, $\tan\left(-\dfrac{17\pi}{3}\right)=\tan\dfrac{\pi}{3}=\sqrt{3}$.
+(1) 由 $-\frac{17\pi}{3}=-6\pi+\frac{\pi}{3}$, 得 $\sin\left(-\frac{17\pi}{3}\right)=\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{17\pi}{3}\right)=\cos\frac{\pi}{3}=\frac{1}{2}$, $\tan\left(-\frac{17\pi}{3}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
 
-(2) 由 $\dfrac{21\pi}{4}=4\pi+\dfrac{5\pi}{4}$, 得 $\sin\dfrac{21\pi}{4}=\sin\dfrac{5\pi}{4}=-\dfrac{\sqrt{2}}{2}$, $\cos\dfrac{21\pi}{4}=\cos\dfrac{5\pi}{4}=-\dfrac{\sqrt{2}}{2}$, $\tan\dfrac{21\pi}{4}=\tan\dfrac{5\pi}{4}=1$.
+(2) 由 $\frac{21\pi}{4}=4\pi+\frac{5\pi}{4}$, 得 $\sin\frac{21\pi}{4}=\sin\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\cos\frac{21\pi}{4}=\cos\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\tan\frac{21\pi}{4}=\tan\frac{5\pi}{4}=1$.
 
-(3) 由 $-\dfrac{23\pi}{6}=-4\pi+\dfrac{\pi}{6}$, 得 $\sin\left(-\dfrac{23\pi}{6}\right)=\sin\dfrac{\pi}{6}=\dfrac{1}{2}$, $\cos\left(-\dfrac{23\pi}{6}\right)=\cos\dfrac{\pi}{6}=\dfrac{\sqrt{3}}{2}$, $\tan\left(-\dfrac{23\pi}{6}\right)=\tan\dfrac{\pi}{6}=\dfrac{\sqrt{3}}{3}$.
+(3) 由 $-\frac{23\pi}{6}=-4\pi+\frac{\pi}{6}$, 得 $\sin\left(-\frac{23\pi}{6}\right)=\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\left(-\frac{23\pi}{6}\right)=\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\tan\left(-\frac{23\pi}{6}\right)=\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$.
 
-(4) 由 $1500^{\circ}=4\times360^{\circ}+60^{\circ}$, 得 $\sin1500^{\circ}=\sin60^{\circ}=\dfrac{\sqrt{3}}{2}$, $\cos1500^{\circ}=\cos60^{\circ}=\dfrac{1}{2}$, $\tan1500^{\circ}=\tan60^{\circ}=\sqrt{3}$. $\blacksquare$
+(4) 由 $1500^{\circ}=4\times360^{\circ}+60^{\circ}$, 得 $\sin1500^{\circ}=\sin60^{\circ}=\frac{\sqrt{3}}{2}$, $\cos1500^{\circ}=\cos60^{\circ}=\frac{1}{2}$, $\tan1500^{\circ}=\tan60^{\circ}=\sqrt{3}$. $\blacksquare$
 
 ### 习题二
 
@@ -318,11 +318,11 @@ $\blacksquare$
 
 由**定义 5.2.2** (终边上任意一点的三角函数比值), $r=\sqrt{x^{2}+y^{2}}$.
 
-由 $x=3a$, $y=4a$, 得 $r=\sqrt{(3a)^{2}+(4a)^{2}}=\sqrt{25a^{2}}=5|a|$.
+由 $x=3a$, $y=4a$, 得 $r=\sqrt{(3a)^{2}+(4a)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
 
-(1) 当 $a>0$ 时, $r=5a$, 得 $\sin\alpha=\dfrac{4a}{5a}=\dfrac{4}{5}$, $\cos\alpha=\dfrac{3a}{5a}=\dfrac{3}{5}$, $\tan\alpha=\dfrac{4a}{3a}=\dfrac{4}{3}$.
+(1) 当 $a>0$ 时, $r=5a$, 得 $\sin\alpha=\frac{4a}{5a}=\frac{4}{5}$, $\cos\alpha=\frac{3a}{5a}=\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$.
 
-(2) 当 $a<0$ 时, $r=-5a$, 得 $\sin\alpha=\dfrac{4a}{-5a}=-\dfrac{4}{5}$, $\cos\alpha=\dfrac{3a}{-5a}=-\dfrac{3}{5}$, $\tan\alpha=\dfrac{4a}{3a}=\dfrac{4}{3}$. $\blacksquare$
+(2) 当 $a<0$ 时, $r=-5a$, 得 $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
 
 ### 习题三
 
@@ -332,9 +332,9 @@ $\blacksquare$
 
 (2) $10\cos270^{\circ}+4\sin0^{\circ}+9\tan0^{\circ}+15\cos360^{\circ}$;
 
-(3) $2\cos\dfrac{\pi}{2}-\tan\dfrac{\pi}{4}+\dfrac{3}{4}\tan^{2}\dfrac{\pi}{6}-\sin\dfrac{\pi}{6}+\cos^{2}\dfrac{\pi}{6}+\sin\dfrac{3\pi}{2}$;
+(3) $2\cos\frac{\pi}{2}-\tan\frac{\pi}{4}+\frac{3}{4}\tan^{2}\frac{\pi}{6}-\sin\frac{\pi}{6}+\cos^{2}\frac{\pi}{6}+\sin\frac{3\pi}{2}$;
 
-(4) $\sin^{2}\dfrac{\pi}{3}+\cos^{4}\dfrac{3\pi}{2}-\tan^{2}\dfrac{\pi}{3}$.
+(4) $\sin^{2}\frac{\pi}{3}+\cos^{4}\frac{3\pi}{2}-\tan^{2}\frac{\pi}{3}$.
 
 ### 解答 习题三
 
@@ -352,13 +352,13 @@ $$
 10\times0+4\times0+9\times0+15\times1=15.
 $$
 
-(3) 由 $\cos\dfrac{\pi}{2}=0$, $\tan\dfrac{\pi}{4}=1$, $\tan\dfrac{\pi}{6}=\dfrac{\sqrt{3}}{3}$, $\sin\dfrac{\pi}{6}=\dfrac{1}{2}$, $\cos\dfrac{\pi}{6}=\dfrac{\sqrt{3}}{2}$, $\sin\dfrac{3\pi}{2}=-1$, 得
+(3) 由 $\cos\frac{\pi}{2}=0$, $\tan\frac{\pi}{4}=1$, $\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$, $\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\sin\frac{3\pi}{2}=-1$, 得
 
 $$
 2\times0-1+\frac{3}{4}\times\frac{1}{3}-\frac{1}{2}+\frac{3}{4}+(-1)=-1+\frac{1}{4}-\frac{1}{2}+\frac{3}{4}-1=-\frac{3}{2}.
 $$
 
-(4) 由 $\sin\dfrac{\pi}{3}=\dfrac{\sqrt{3}}{2}$, $\cos\dfrac{3\pi}{2}=0$, $\tan\dfrac{\pi}{3}=\sqrt{3}$, 得
+(4) 由 $\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\frac{3\pi}{2}=0$, $\tan\frac{\pi}{3}=\sqrt{3}$, 得
 
 $$
 \left(\frac{\sqrt{3}}{2}\right)^{2}+0^{4}-(\sqrt{3})^{2}=\frac{3}{4}-3=-\frac{9}{4}.
@@ -374,9 +374,9 @@ $\blacksquare$
 
 (2) $-p^{2}\cos180^{\circ}+q^{2}\sin90^{\circ}-2pq\cos0^{\circ}$;
 
-(3) $a^{2}\cos2\pi-b^{2}\sin\dfrac{3\pi}{2}+ab\cos\pi-ab\sin\dfrac{\pi}{2}$;
+(3) $a^{2}\cos2\pi-b^{2}\sin\frac{3\pi}{2}+ab\cos\pi-ab\sin\frac{\pi}{2}$;
 
-(4) $m\tan0+n\cos\dfrac{\pi}{2}-p\sin\pi-q\cos\dfrac{\pi}{2}-r\sin2\pi$.
+(4) $m\tan0+n\cos\frac{\pi}{2}-p\sin\pi-q\cos\frac{\pi}{2}-r\sin2\pi$.
 
 ### 解答 习题四
 
@@ -386,9 +386,9 @@ $\blacksquare$
 
 (2) 由 $\cos180^{\circ}=-1$, $\sin90^{\circ}=1$, $\cos0^{\circ}=1$, 得原式 $=p^{2}+q^{2}-2pq=(p-q)^{2}$.
 
-(3) 由 $\cos2\pi=1$, $\sin\dfrac{3\pi}{2}=-1$, $\cos\pi=-1$, $\sin\dfrac{\pi}{2}=1$, 得原式 $=a^{2}+b^{2}-ab-ab=a^{2}+b^{2}-2ab=(a-b)^{2}$.
+(3) 由 $\cos2\pi=1$, $\sin\frac{3\pi}{2}=-1$, $\cos\pi=-1$, $\sin\frac{\pi}{2}=1$, 得原式 $=a^{2}+b^{2}-ab-ab=a^{2}+b^{2}-2ab=(a-b)^{2}$.
 
-(4) 由 $\tan0=0$, $\cos\dfrac{\pi}{2}=0$, $\sin\pi=0$, $\sin2\pi=0$, 得原式 $=0$. $\blacksquare$
+(4) 由 $\tan0=0$, $\cos\frac{\pi}{2}=0$, $\sin\pi=0$, $\sin2\pi=0$, 得原式 $=0$. $\blacksquare$
 
 ### 习题五
 
@@ -400,11 +400,11 @@ $\blacksquare$
 
 (3) $\sin7.6\pi$;
 
-(4) $\tan\left(-\dfrac{23\pi}{4}\right)$;
+(4) $\tan\left(-\frac{23\pi}{4}\right)$;
 
 (5) $\cos940^{\circ}$;
 
-(6) $\cos\left(-\dfrac{59\pi}{17}\right)$.
+(6) $\cos\left(-\frac{59\pi}{17}\right)$.
 
 ### 解答 习题五
 
@@ -416,21 +416,21 @@ $\blacksquare$
 
 (3) $7.6\pi=6\pi+1.6\pi$, $1.6\pi$ 即 $288^{\circ}$, 是第四象限角, $\sin7.6\pi<0$.
 
-(4) $-\dfrac{23\pi}{4}=-6\pi+\dfrac{\pi}{4}$, $\dfrac{\pi}{4}$ 是第一象限角, $\tan\left(-\dfrac{23\pi}{4}\right)>0$.
+(4) $-\frac{23\pi}{4}=-6\pi+\frac{\pi}{4}$, $\frac{\pi}{4}$ 是第一象限角, $\tan\left(-\frac{23\pi}{4}\right)>0$.
 
 (5) $940^{\circ}=2\times360^{\circ}+220^{\circ}$, $220^{\circ}$ 是第三象限角, $\cos940^{\circ}<0$.
 
-(6) $-\dfrac{59\pi}{17}=-4\pi+\dfrac{9\pi}{17}$, $\dfrac{9\pi}{17}$ 是第二象限角, $\cos\left(-\dfrac{59\pi}{17}\right)<0$. $\blacksquare$
+(6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, $\frac{9\pi}{17}$ 是第二象限角, $\cos\left(-\frac{59\pi}{17}\right)<0$. $\blacksquare$
 
 ### 习题六
 
 (习题 5.2 复习巩固第 6 题)
 
-(1) 已知 $\sin\alpha=-\dfrac{\sqrt{3}}{2}$, 且 $\alpha$ 为第四象限角, 求 $\cos\alpha$, $\tan\alpha$ 的值;
+(1) 已知 $\sin\alpha=-\frac{\sqrt{3}}{2}$, 且 $\alpha$ 为第四象限角, 求 $\cos\alpha$, $\tan\alpha$ 的值;
 
-(2) 已知 $\cos\alpha=-\dfrac{5}{13}$, 且 $\alpha$ 为第二象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值;
+(2) 已知 $\cos\alpha=-\frac{5}{13}$, 且 $\alpha$ 为第二象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值;
 
-(3) 已知 $\tan\alpha=-\dfrac{3}{4}$, 求 $\sin\alpha$, $\cos\alpha$ 的值;
+(3) 已知 $\tan\alpha=-\frac{3}{4}$, 求 $\sin\alpha$, $\cos\alpha$ 的值;
 
 (4) 已知 $\cos\alpha=0.68$, 求 $\sin\alpha$, $\tan\alpha$ 的值 (精确到 $0.01$).
 
@@ -438,27 +438,27 @@ $\blacksquare$
 
 由**常用结论** (同角三角函数的基本关系) 及**常用结论** (三角函数在各象限的符号).
 
-(1) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\cos^{2}\alpha=1-\dfrac{3}{4}=\dfrac{1}{4}$. 因为 $\alpha$ 为第四象限角, $\cos\alpha>0$, 故 $\cos\alpha=\dfrac{1}{2}$, $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
+(1) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\cos^{2}\alpha=1-\frac{3}{4}=\frac{1}{4}$. 因为 $\alpha$ 为第四象限角, $\cos\alpha>0$, 故 $\cos\alpha=\frac{1}{2}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
 
-(2) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-\dfrac{25}{169}=\dfrac{144}{169}$. 因为 $\alpha$ 为第二象限角, $\sin\alpha>0$, 故 $\sin\alpha=\dfrac{12}{13}$, $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}=-\dfrac{12}{5}$.
+(2) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-\frac{25}{169}=\frac{144}{169}$. 因为 $\alpha$ 为第二象限角, $\sin\alpha>0$, 故 $\sin\alpha=\frac{12}{13}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\frac{12}{5}$.
 
-(3) 由 $\tan\alpha=-\dfrac{3}{4}$, 知 $\alpha$ 为第二或第四象限角. 由 $\sin\alpha=-\dfrac{3}{4}\cos\alpha$ 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\dfrac{9}{16}\cos^{2}\alpha+\cos^{2}\alpha=1$, 即 $\cos^{2}\alpha=\dfrac{16}{25}$. 若 $\alpha$ 为第二象限角, 则 $\cos\alpha=-\dfrac{4}{5}$, $\sin\alpha=\dfrac{3}{5}$; 若 $\alpha$ 为第四象限角, 则 $\cos\alpha=\dfrac{4}{5}$, $\sin\alpha=-\dfrac{3}{5}$.
+(3) 由 $\tan\alpha=-\frac{3}{4}$, 知 $\alpha$ 为第二或第四象限角. 由 $\sin\alpha=-\frac{3}{4}\cos\alpha$ 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\frac{9}{16}\cos^{2}\alpha+\cos^{2}\alpha=1$, 即 $\cos^{2}\alpha=\frac{16}{25}$. 若 $\alpha$ 为第二象限角, 则 $\cos\alpha=-\frac{4}{5}$, $\sin\alpha=\frac{3}{5}$; 若 $\alpha$ 为第四象限角, 则 $\cos\alpha=\frac{4}{5}$, $\sin\alpha=-\frac{3}{5}$.
 
-(4) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-0.68^{2}=0.5376$, 故 $\sin\alpha=\pm\sqrt{0.5376}\approx\pm0.73$. 若 $\alpha$ 为第一象限角, 则 $\sin\alpha\approx0.73$, $\tan\alpha=\dfrac{0.73}{0.68}\approx1.07$; 若 $\alpha$ 为第四象限角, 则 $\sin\alpha\approx-0.73$, $\tan\alpha\approx-1.07$. $\blacksquare$
+(4) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-0.68^{2}=0.5376$, 故 $\sin\alpha=\pm\sqrt{0.5376}\approx\pm0.73$. 若 $\alpha$ 为第一象限角, 则 $\sin\alpha\approx0.73$, $\tan\alpha=\frac{0.73}{0.68}\approx1.07$; 若 $\alpha$ 为第四象限角, 则 $\sin\alpha\approx-0.73$, $\tan\alpha\approx-1.07$. $\blacksquare$
 
 ### 习题七
 
-(习题 5.2 综合运用第 7 题) 根据下列条件求函数 $f(x)=\sin\left(x+\dfrac{\pi}{4}\right)+2\sin\left(x-\dfrac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\dfrac{3\pi}{4}\right)$ 的值:
+(习题 5.2 综合运用第 7 题) 根据下列条件求函数 $f(x)=\sin\left(x+\frac{\pi}{4}\right)+2\sin\left(x-\frac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\frac{3\pi}{4}\right)$ 的值:
 
-(1) $x=\dfrac{\pi}{4}$;
+(1) $x=\frac{\pi}{4}$;
 
-(2) $x=\dfrac{3\pi}{4}$.
+(2) $x=\frac{3\pi}{4}$.
 
 ### 解答 习题七
 
 由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 求特殊角的三角函数值, 再代入计算.
 
-(1) 当 $x=\dfrac{\pi}{4}$ 时,
+(1) 当 $x=\frac{\pi}{4}$ 时,
 
 $$
 f\left(\frac{\pi}{4}\right)=\sin\frac{\pi}{2}+2\sin0-4\cos\frac{\pi}{2}+3\cos\pi.
@@ -468,7 +468,7 @@ $$
 =1+0-0+3\times(-1)=-2.
 $$
 
-(2) 当 $x=\dfrac{3\pi}{4}$ 时,
+(2) 当 $x=\frac{3\pi}{4}$ 时,
 
 $$
 f\left(\frac{3\pi}{4}\right)=\sin\pi+2\sin\frac{\pi}{2}-4\cos\frac{3\pi}{2}+3\cos\frac{3\pi}{2}.
@@ -486,11 +486,11 @@ $\blacksquare$
 
 (1) $\tan125^{\circ}\sin273^{\circ}$;
 
-(2) $\dfrac{\tan108^{\circ}}{\cos305^{\circ}}$;
+(2) $\frac{\tan108^{\circ}}{\cos305^{\circ}}$;
 
-(3) $\sin\dfrac{5\pi}{4}\cos\dfrac{4\pi}{5}\tan\dfrac{11\pi}{6}$;
+(3) $\sin\frac{5\pi}{4}\cos\frac{4\pi}{5}\tan\frac{11\pi}{6}$;
 
-(4) $\dfrac{\cos\dfrac{5\pi}{6}\tan\dfrac{11\pi}{6}}{\sin\dfrac{2\pi}{3}}$.
+(4) $\frac{\cos\frac{5\pi}{6}\tan\frac{11\pi}{6}}{\sin\frac{2\pi}{3}}$.
 
 ### 解答 习题八
 
@@ -498,19 +498,19 @@ $\blacksquare$
 
 (1) $125^{\circ}$ 是第二象限角, $\tan125^{\circ}<0$; $273^{\circ}$ 是第四象限角, $\sin273^{\circ}<0$. 故 $\tan125^{\circ}\sin273^{\circ}>0$.
 
-(2) $108^{\circ}$ 是第二象限角, $\tan108^{\circ}<0$; $305^{\circ}$ 是第四象限角, $\cos305^{\circ}>0$. 故 $\dfrac{\tan108^{\circ}}{\cos305^{\circ}}<0$.
+(2) $108^{\circ}$ 是第二象限角, $\tan108^{\circ}<0$; $305^{\circ}$ 是第四象限角, $\cos305^{\circ}>0$. 故 $\frac{\tan108^{\circ}}{\cos305^{\circ}}<0$.
 
-(3) $\dfrac{5\pi}{4}$ 是第三象限角, $\sin\dfrac{5\pi}{4}<0$; $\dfrac{4\pi}{5}$ 是第二象限角, $\cos\dfrac{4\pi}{5}<0$; $\dfrac{11\pi}{6}$ 是第四象限角, $\tan\dfrac{11\pi}{6}<0$. 三个负数相乘, 故原式 $<0$.
+(3) $\frac{5\pi}{4}$ 是第三象限角, $\sin\frac{5\pi}{4}<0$; $\frac{4\pi}{5}$ 是第二象限角, $\cos\frac{4\pi}{5}<0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}<0$. 三个负数相乘, 故原式 $<0$.
 
-(4) $\dfrac{5\pi}{6}$ 是第二象限角, $\cos\dfrac{5\pi}{6}<0$; $\dfrac{11\pi}{6}$ 是第四象限角, $\tan\dfrac{11\pi}{6}<0$; $\dfrac{2\pi}{3}$ 是第二象限角, $\sin\dfrac{2\pi}{3}>0$. 分子为正, 分母为正, 故原式 $>0$. $\blacksquare$
+(4) $\frac{5\pi}{6}$ 是第二象限角, $\cos\frac{5\pi}{6}<0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}<0$; $\frac{2\pi}{3}$ 是第二象限角, $\sin\frac{2\pi}{3}>0$. 分子为正, 分母为正, 故原式 $>0$. $\blacksquare$
 
 ### 习题九
 
 (习题 5.2 综合运用第 9 题) 求下列三角函数值 (可用计算工具, 第 (1) (3) (4) 题精确到 $0.0001$):
 
-(1) $\sin\left(-\dfrac{67\pi}{12}\right)$;
+(1) $\sin\left(-\frac{67\pi}{12}\right)$;
 
-(2) $\tan\left(-\dfrac{15\pi}{4}\right)$;
+(2) $\tan\left(-\frac{15\pi}{4}\right)$;
 
 (3) $\cos398^{\circ}13'$;
 
@@ -520,9 +520,9 @@ $\blacksquare$
 
 由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内.
 
-(1) 由 $-\dfrac{67\pi}{12}=-6\pi+\dfrac{5\pi}{12}$, 得 $\sin\left(-\dfrac{67\pi}{12}\right)=\sin\dfrac{5\pi}{12}\approx0.9659$.
+(1) 由 $-\frac{67\pi}{12}=-6\pi+\frac{5\pi}{12}$, 得 $\sin\left(-\frac{67\pi}{12}\right)=\sin\frac{5\pi}{12}\approx0.9659$.
 
-(2) 由 $-\dfrac{15\pi}{4}=-4\pi+\dfrac{\pi}{4}$, 得 $\tan\left(-\dfrac{15\pi}{4}\right)=\tan\dfrac{\pi}{4}=1$.
+(2) 由 $-\frac{15\pi}{4}=-4\pi+\frac{\pi}{4}$, 得 $\tan\left(-\frac{15\pi}{4}\right)=\tan\frac{\pi}{4}=1$.
 
 (3) 由 $398^{\circ}13'=360^{\circ}+38^{\circ}13'$, 得 $\cos398^{\circ}13'=\cos38^{\circ}13'\approx0.7854$.
 
@@ -536,7 +536,7 @@ $\blacksquare$
 
 (2) 角 $\theta$ 为第三或第四象限角的充要条件是 $\cos\theta\tan\theta<0$;
 
-(3) 角 $\theta$ 为第一或第四象限角的充要条件是 $\dfrac{\sin\theta}{\tan\theta}>0$;
+(3) 角 $\theta$ 为第一或第四象限角的充要条件是 $\frac{\sin\theta}{\tan\theta}>0$;
 
 (4) 角 $\theta$ 为第一或第三象限角的充要条件是 $\sin\theta\cos\theta>0$.
 
@@ -548,33 +548,33 @@ $\blacksquare$
 
 (2) $\cos\theta\tan\theta<0$ 等价于 $\cos\theta$ 与 $\tan\theta$ 异号. 第三象限: $\cos\theta<0$, $\tan\theta>0$, 异号; 第四象限: $\cos\theta>0$, $\tan\theta<0$, 异号. 其他象限同号. 故充要条件成立.
 
-(3) $\dfrac{\sin\theta}{\tan\theta}>0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 同号. 第一象限: $\sin\theta>0$, $\tan\theta>0$, 同号; 第四象限: $\sin\theta<0$, $\tan\theta<0$, 同号. 其他象限异号. 故充要条件成立.
+(3) $\frac{\sin\theta}{\tan\theta}>0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 同号. 第一象限: $\sin\theta>0$, $\tan\theta>0$, 同号; 第四象限: $\sin\theta<0$, $\tan\theta<0$, 同号. 其他象限异号. 故充要条件成立.
 
 (4) $\sin\theta\cos\theta>0$ 等价于 $\sin\theta$ 与 $\cos\theta$ 同号. 第一象限: 均正; 第三象限: 均负. 第二, 四象限异号. 故充要条件成立. $\blacksquare$
 
 ### 习题十一
 
-(习题 5.2 综合运用第 11 题) 已知 $\sin x=-\dfrac{1}{3}$, 求 $\cos x$, $\tan x$ 的值.
+(习题 5.2 综合运用第 11 题) 已知 $\sin x=-\frac{1}{3}$, 求 $\cos x$, $\tan x$ 的值.
 
 ### 解答 习题十一
 
 由**常用结论** (同角三角函数的基本关系), $\sin^{2}x+\cos^{2}x=1$.
 
-由 $\sin x=-\dfrac{1}{3}<0$, 知 $x$ 为第三或第四象限角. 由 $\cos^{2}x=1-\dfrac{1}{9}=\dfrac{8}{9}$, 得 $\cos x=\pm\dfrac{2\sqrt{2}}{3}$.
+由 $\sin x=-\frac{1}{3}<0$, 知 $x$ 为第三或第四象限角. 由 $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, 得 $\cos x=\pm\frac{2\sqrt{2}}{3}$.
 
-(1) 若 $x$ 为第三象限角, 则 $\cos x<0$, $\cos x=-\dfrac{2\sqrt{2}}{3}$, $\tan x=\dfrac{\sin x}{\cos x}=\dfrac{\sqrt{2}}{4}$.
+(1) 若 $x$ 为第三象限角, 则 $\cos x<0$, $\cos x=-\frac{2\sqrt{2}}{3}$, $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
 
-(2) 若 $x$ 为第四象限角, 则 $\cos x>0$, $\cos x=\dfrac{2\sqrt{2}}{3}$, $\tan x=-\dfrac{\sqrt{2}}{4}$. $\blacksquare$
+(2) 若 $x$ 为第四象限角, 则 $\cos x>0$, $\cos x=\frac{2\sqrt{2}}{3}$, $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
 
 ### 习题十二
 
-(习题 5.2 综合运用第 12 题) 已知 $\tan\alpha=\sqrt{3}$, $\pi<\alpha<\dfrac{3\pi}{2}$, 求 $\cos\alpha-\sin\alpha$ 的值.
+(习题 5.2 综合运用第 12 题) 已知 $\tan\alpha=\sqrt{3}$, $\pi<\alpha<\frac{3\pi}{2}$, 求 $\cos\alpha-\sin\alpha$ 的值.
 
 ### 解答 习题十二
 
-由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
+由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-由 $\pi<\alpha<\dfrac{3\pi}{2}$, 知 $\alpha$ 为第三象限角, $\sin\alpha<0$, $\cos\alpha<0$. 由 $\tan\alpha=\sqrt{3}$, 得 $\sin\alpha=\sqrt{3}\cos\alpha$, 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $4\cos^{2}\alpha=1$, $\cos^{2}\alpha=\dfrac{1}{4}$, 故 $\cos\alpha=-\dfrac{1}{2}$, $\sin\alpha=-\dfrac{\sqrt{3}}{2}$. 因此
+由 $\pi<\alpha<\frac{3\pi}{2}$, 知 $\alpha$ 为第三象限角, $\sin\alpha<0$, $\cos\alpha<0$. 由 $\tan\alpha=\sqrt{3}$, 得 $\sin\alpha=\sqrt{3}\cos\alpha$, 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $4\cos^{2}\alpha=1$, $\cos^{2}\alpha=\frac{1}{4}$, 故 $\cos\alpha=-\frac{1}{2}$, $\sin\alpha=-\frac{\sqrt{3}}{2}$. 因此
 
 $$
 \cos\alpha-\sin\alpha=-\frac{1}{2}-\left(-\frac{\sqrt{3}}{2}\right)=\frac{\sqrt{3}-1}{2}.
@@ -592,19 +592,19 @@ $\blacksquare$
 
 ### 解答 习题十三
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$.
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha$, 得 $\sin\alpha=\pm\sqrt{1-\cos^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}=\pm\dfrac{\sqrt{1-\cos^{2}\alpha}}{\cos\alpha}$.
+(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha$, 得 $\sin\alpha=\pm\sqrt{1-\cos^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sqrt{1-\cos^{2}\alpha}}{\cos\alpha}$.
 
-(2) 由 $\cos^{2}\alpha=1-\sin^{2}\alpha$, 得 $\cos\alpha=\pm\sqrt{1-\sin^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}=\pm\dfrac{\sin\alpha}{\sqrt{1-\sin^{2}\alpha}}$. $\blacksquare$
+(2) 由 $\cos^{2}\alpha=1-\sin^{2}\alpha$, 得 $\cos\alpha=\pm\sqrt{1-\sin^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sin\alpha}{\sqrt{1-\sin^{2}\alpha}}$. $\blacksquare$
 
 ### 习题十四
 
 (习题 5.2 综合运用第 14 题) 求证:
 
-(1) $\dfrac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=\dfrac{1-\tan x}{1+\tan x}$;
+(1) $\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=\frac{1-\tan x}{1+\tan x}$;
 
-(2) $\dfrac{\tan^{2}\alpha-\sin^{2}\alpha}{\tan^{2}\alpha}=\sin^{2}\alpha$;
+(2) $\frac{\tan^{2}\alpha-\sin^{2}\alpha}{\tan^{2}\alpha}=\sin^{2}\alpha$;
 
 (3) $\left(\cos\beta-1\right)^{2}+\sin^{2}\beta=2-2\cos\beta$;
 
@@ -612,11 +612,11 @@ $\blacksquare$
 
 ### 解答 习题十四
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$.
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) 右边 $=\dfrac{1-\dfrac{\sin x}{\cos x}}{1+\dfrac{\sin x}{\cos x}}=\dfrac{\cos x-\sin x}{\cos x+\sin x}=\dfrac{(\cos x-\sin x)^{2}}{(\cos x+\sin x)(\cos x-\sin x)}=\dfrac{\cos^{2}x-2\sin x\cos x+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\dfrac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=$ 左边.
+(1) 右边 $=\frac{1-\frac{\sin x}{\cos x}}{1+\frac{\sin x}{\cos x}}=\frac{\cos x-\sin x}{\cos x+\sin x}=\frac{(\cos x-\sin x)^{2}}{(\cos x+\sin x)(\cos x-\sin x)}=\frac{\cos^{2}x-2\sin x\cos x+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=$ 左边.
 
-(2) 左边 $=1-\dfrac{\sin^{2}\alpha}{\tan^{2}\alpha}=1-\dfrac{\sin^{2}\alpha}{\sin^{2}\alpha/\cos^{2}\alpha}=1-\cos^{2}\alpha=\sin^{2}\alpha=$ 右边.
+(2) 左边 $=1-\frac{\sin^{2}\alpha}{\tan^{2}\alpha}=1-\frac{\sin^{2}\alpha}{\sin^{2}\alpha/\cos^{2}\alpha}=1-\cos^{2}\alpha=\sin^{2}\alpha=$ 右边.
 
 (3) 左边 $=\cos^{2}\beta-2\cos\beta+1+\sin^{2}\beta=(\cos^{2}\beta+\sin^{2}\beta)+1-2\cos\beta=1+1-2\cos\beta=2-2\cos\beta=$ 右边.
 
@@ -624,11 +624,11 @@ $\blacksquare$
 
 ### 习题十五
 
-(习题 5.2 综合运用第 15 题) 已知 $\tan\alpha=2$, 求 $\dfrac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ 的值.
+(习题 5.2 综合运用第 15 题) 已知 $\tan\alpha=2$, 求 $\frac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ 的值.
 
 ### 解答 习题十五
 
-由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$.
+由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
 分子分母同除以 $\cos\alpha$, 得
 
@@ -640,7 +640,7 @@ $\blacksquare$
 
 ### 习题十六
 
-(习题 5.2 拓广探索第 16 题) 化简 $\sqrt{\dfrac{1+\sin\alpha}{1-\sin\alpha}}-\sqrt{\dfrac{1-\sin\alpha}{1+\sin\alpha}}$, 其中 $\alpha$ 为第二象限角.
+(习题 5.2 拓广探索第 16 题) 化简 $\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}$, 其中 $\alpha$ 为第二象限角.
 
 ### 解答 习题十六
 
@@ -649,36 +649,36 @@ $\blacksquare$
 因为 $\alpha$ 为第二象限角, $\cos\alpha<0$. 对两式分别有理化:
 
 $$
-\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{(1+\sin\alpha)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{|\cos\alpha|}=\frac{1+\sin\alpha}{-\cos\alpha},
+\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{(1+\sin\alpha)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},
 $$
 
 $$
-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}=\sqrt{\frac{(1-\sin\alpha)^{2}}{1-\sin^{2}\alpha}}=\frac{1-\sin\alpha}{|\cos\alpha|}=\frac{1-\sin\alpha}{-\cos\alpha}.
+\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}=\sqrt{\frac{(1-\sin\alpha)^{2}}{1-\sin^{2}\alpha}}=\frac{1-\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1-\sin\alpha}{-\cos\alpha}.
 $$
 
-故原式 $=\dfrac{1+\sin\alpha}{-\cos\alpha}-\dfrac{1-\sin\alpha}{-\cos\alpha}=\dfrac{2\sin\alpha}{-\cos\alpha}=-2\tan\alpha$. $\blacksquare$
+故原式 $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\alpha}{-\cos\alpha}=\frac{2\sin\alpha}{-\cos\alpha}=-2\tan\alpha$. $\blacksquare$
 
 ### 习题十七
 
-(习题 5.2 拓广探索第 17 题) 从本节的例 7 可以看出, $\dfrac{\cos x}{1-\sin x}=\dfrac{1+\sin x}{\cos x}$ 就是 $\sin^{2}x+\cos^{2}x=1$ 的一个变形. 你能利用同角三角函数的基本关系推导出更多的关系式吗?
+(习题 5.2 拓广探索第 17 题) 从本节的例 7 可以看出, $\frac{\cos x}{1-\sin x}=\frac{1+\sin x}{\cos x}$ 就是 $\sin^{2}x+\cos^{2}x=1$ 的一个变形. 你能利用同角三角函数的基本关系推导出更多的关系式吗?
 
 ### 解答 习题十七
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}$.
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha=(1-\cos\alpha)(1+\cos\alpha)$, 可得 $\dfrac{\sin\alpha}{1-\cos\alpha}=\dfrac{1+\cos\alpha}{\sin\alpha}$.
+(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha=(1-\cos\alpha)(1+\cos\alpha)$, 可得 $\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}$.
 
-(2) 由 $1=\sin^{2}\alpha+\cos^{2}\alpha$, 两边除以 $\cos^{2}\alpha$, 得 $\dfrac{1}{\cos^{2}\alpha}=\tan^{2}\alpha+1$, 即 $\sec^{2}\alpha=1+\tan^{2}\alpha$.
+(2) 由 $1=\sin^{2}\alpha+\cos^{2}\alpha$, 两边除以 $\cos^{2}\alpha$, 得 $\frac{1}{\cos^{2}\alpha}=\tan^{2}\alpha+1$, 即 $\sec^{2}\alpha=1+\tan^{2}\alpha$.
 
 (3) 由 $\sin^{4}\alpha-\cos^{4}\alpha=(\sin^{2}\alpha+\cos^{2}\alpha)(\sin^{2}\alpha-\cos^{2}\alpha)=\sin^{2}\alpha-\cos^{2}\alpha$, 可得 $\sin^{4}\alpha-\cos^{4}\alpha=\sin^{2}\alpha-\cos^{2}\alpha$.
 
-(4) 由 $(\sin\alpha+\cos\alpha)^{2}=1+2\sin\alpha\cos\alpha$, 可得 $\sin\alpha\cos\alpha=\dfrac{(\sin\alpha+\cos\alpha)^{2}-1}{2}$. $\blacksquare$
+(4) 由 $(\sin\alpha+\cos\alpha)^{2}=1+2\sin\alpha\cos\alpha$, 可得 $\sin\alpha\cos\alpha=\frac{(\sin\alpha+\cos\alpha)^{2}-1}{2}$. $\blacksquare$
 
 ### 习题十八
 
 (习题 5.2 拓广探索第 18 题)
 
-(1) 分别计算 $\sin^{4}\dfrac{\pi}{3}-\cos^{4}\dfrac{\pi}{3}$ 和 $\sin^{2}\dfrac{\pi}{3}-\cos^{2}\dfrac{\pi}{3}$ 的值, 你有什么发现?
+(1) 分别计算 $\sin^{4}\frac{\pi}{3}-\cos^{4}\frac{\pi}{3}$ 和 $\sin^{2}\frac{\pi}{3}-\cos^{2}\frac{\pi}{3}$ 的值, 你有什么发现?
 
 (2) 任取一个 $\alpha$ 的值, 分别计算 $\sin^{4}\alpha-\cos^{4}\alpha$, $\sin^{2}\alpha-\cos^{2}\alpha$, 你又有什么发现?
 
@@ -688,7 +688,7 @@ $$
 
 由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-(1) 由 $\sin\dfrac{\pi}{3}=\dfrac{\sqrt{3}}{2}$, $\cos\dfrac{\pi}{3}=\dfrac{1}{2}$, 得
+(1) 由 $\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\frac{\pi}{3}=\frac{1}{2}$, 得
 
 $$
 \sin^{4}\frac{\pi}{3}-\cos^{4}\frac{\pi}{3}=\frac{9}{16}-\frac{1}{16}=\frac{1}{2},
@@ -700,7 +700,7 @@ $$
 
 两者相等.
 
-(2) 任取 $\alpha=\dfrac{\pi}{4}$, $\sin\dfrac{\pi}{4}=\cos\dfrac{\pi}{4}=\dfrac{\sqrt{2}}{2}$, 得 $\sin^{4}\dfrac{\pi}{4}-\cos^{4}\dfrac{\pi}{4}=0$, $\sin^{2}\dfrac{\pi}{4}-\cos^{2}\dfrac{\pi}{4}=0$. 两者仍相等.
+(2) 任取 $\alpha=\frac{\pi}{4}$, $\sin\frac{\pi}{4}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$, 得 $\sin^{4}\frac{\pi}{4}-\cos^{4}\frac{\pi}{4}=0$, $\sin^{2}\frac{\pi}{4}-\cos^{2}\frac{\pi}{4}=0$. 两者仍相等.
 
 (3) 左边 $=\sin^{2}x-\cos^{2}x$. 右边 $=(\sin^{2}x+\cos^{2}x)(\sin^{2}x-\cos^{2}x)=1\cdot(\sin^{2}x-\cos^{2}x)=\sin^{2}x-\cos^{2}x=$ 左边. 故 $\forall x\in\mathbb R$, 等式成立. $\blacksquare$
 

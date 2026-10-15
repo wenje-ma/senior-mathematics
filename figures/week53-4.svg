@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='288.00pt' height='288.00pt' viewBox='0 0 288.00 288.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwyODguMDB8MC4wMHwyODguMDA='>
+    <rect x='0.00' y='0.00' width='288.00' height='288.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwyODguMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpMTQuNDB8MjczLjYwfDE0LjQwfDI3My42MA=='>
+    <rect x='14.40' y='14.40' width='259.20' height='259.20' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTQuNDB8MjczLjYwfDE0LjQwfDI3My42MA==)'>
+<line x1='52.24' y1='239.17' x2='179.29' y2='239.17' style='stroke-width: 0.75;' />
+<line x1='179.29' y1='239.17' x2='209.24' y2='204.06' style='stroke-width: 0.75;' />
+<line x1='52.24' y1='239.17' x2='52.24' y2='106.76' style='stroke-width: 0.75; stroke-dasharray: 4.00,4.00;' />
+<line x1='179.29' y1='239.17' x2='179.29' y2='106.76' style='stroke-width: 0.75;' />
+<line x1='209.24' y1='204.06' x2='209.24' y2='71.65' style='stroke-width: 0.75;' />
+<line x1='52.24' y1='106.76' x2='179.29' y2='106.76' style='stroke-width: 0.75;' />
+<line x1='179.29' y1='106.76' x2='209.24' y2='71.65' style='stroke-width: 0.75;' />
+<line x1='209.24' y1='71.65' x2='82.18' y2='71.65' style='stroke-width: 0.75;' />
+<line x1='52.24' y1='106.76' x2='82.18' y2='71.65' style='stroke-width: 0.75; stroke-dasharray: 4.00,4.00;' />
+<line x1='82.18' y1='204.06' x2='209.24' y2='204.06' style='stroke-width: 0.75; stroke-dasharray: 4.00,4.00;' />
+<line x1='82.18' y1='204.06' x2='82.18' y2='71.65' style='stroke-width: 0.75; stroke-dasharray: 4.00,4.00;' />
+<line x1='209.24' y1='71.65' x2='128.24' y2='92.13' style='stroke-width: 0.75;' />
+<line x1='209.24' y1='204.06' x2='128.24' y2='92.13' style='stroke-width: 0.75; stroke-dasharray: 1.00,3.00;' />
+<line x1='92.95' y1='141.78' x2='163.54' y2='42.47' style='stroke-width: 0.75;' />
+<text x='133.89' y='92.29' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='8.00px' lengthAdjust='spacingAndGlyphs'>E</text>
+<text x='214.89' y='208.36' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='8.67px' lengthAdjust='spacingAndGlyphs'>C</text>
+<text x='214.89' y='71.81' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='15.34px' lengthAdjust='spacingAndGlyphs'>C1</text>
+</g>
+</g>
+</svg>

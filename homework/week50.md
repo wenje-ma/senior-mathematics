@@ -1,20 +1,20 @@
 # 作业 50
 
-> **定义 6.2.1** (向量加法的三角形法则) <br>已知非零向量 $\vec a$, $\vec b$, 在平面内取任意一点 $A$, 作 $\vec{AB}=\vec a$, $\vec{BC}=\vec b$, 则向量 $\vec{AC}$ 叫做 $\vec a$ 与 $\vec b$ 的和, 记作 $\vec a+\vec b$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+> **定义 6.2.1** (向量加法的三角形法则) <br>已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
 
-> **定义 6.2.5** (向量的减法) <br>向量 $\vec a$ 加上 $\vec b$ 的相反向量叫做 $\vec a$ 与 $\vec b$ 的差, 即 $\vec a-\vec b=\vec a+(-\vec b)$.
+> **定义 6.2.5** (向量的减法) <br>向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
 
-> **定义 6.2.6** (向量的数乘) <br>实数 $\lambda$ 与向量 $\vec a$ 的积是一个向量, 记作 $\lambda\vec a$. $\lvert\lambda\vec a\rvert=\lvert\lambda\rvert\lvert\vec a\rvert$; 当 $\lambda>0$ 时, $\lambda\vec a$ 的方向与 $\vec a$ 相同; 当 $\lambda<0$ 时, 方向相反.
+> **定义 6.2.6** (向量的数乘) <br>实数 $\lambda$ 与向量 $\boldsymbol{a}$ 的积是一个向量, 记作 $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; 当 $\lambda>0$ 时, $\lambda\boldsymbol{a}$ 的方向与 $\boldsymbol{a}$ 相同; 当 $\lambda<0$ 时, 方向相反.
 
-> **定理 6.2.8** (共线向量定理) <br>向量 $\vec a$ ($\vec a\neq\vec 0$) 与 $\vec b$ 共线的充要条件是: 存在唯一一个实数 $\lambda$, 使 $\vec b=\lambda\vec a$.
+> **定理 6.2.8** (共线向量定理) <br>向量 $\boldsymbol{a}$ ($\boldsymbol{a}\neq\boldsymbol{0}$) 与 $\boldsymbol{b}$ 共线的充要条件是: 存在唯一一个实数 $\lambda$, 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-> **定义 6.2.11** (数量积) <br>已知两个非零向量 $\vec a$ 与 $\vec b$, 它们的夹角为 $\theta$, 把数量 $\lvert\vec a\rvert\lvert\vec b\rvert\cos\theta$ 叫做向量 $\vec a$ 与 $\vec b$ 的数量积 (或内积), 记作 $\vec a\cdot\vec b$, 即 $\vec a\cdot\vec b=\lvert\vec a\rvert\lvert\vec b\rvert\cos\theta$. 规定零向量与任一向量的数量积为 $0$.
+> **定义 6.2.11** (数量积) <br>已知两个非零向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$, 它们的夹角为 $\theta$, 把数量 $\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$ 叫做向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的数量积 (或内积), 记作 $\boldsymbol{a}\cdot\boldsymbol{b}$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. 规定零向量与任一向量的数量积为 $0$.
 
-> **常用结论 6.2.13** (数量积的性质) <br>$\vec a\cdot\vec e=\vec e\cdot\vec a=\lvert\vec a\rvert\cos\theta$; $\vec a\perp\vec b\Longleftrightarrow\vec a\cdot\vec b=0$; 同向时 $\vec a\cdot\vec b=\lvert\vec a\rvert\lvert\vec b\rvert$, 反向时 $\vec a\cdot\vec b=-\lvert\vec a\rvert\lvert\vec b\rvert$; $\vec a\cdot\vec a=\lvert\vec a\rvert^2$; $\lvert\vec a\cdot\vec b\rvert\le\lvert\vec a\rvert\lvert\vec b\rvert$.
+> **常用结论 6.2.13** (数量积的性质) <br>$\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$; 同向时 $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$, 反向时 $\boldsymbol{a}\cdot\boldsymbol{b}=-\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$; $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$; $\lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$.
 
-> **常用结论 6.2.14** (数量积的运算律) <br>$\vec a\cdot\vec b=\vec b\cdot\vec a$; $(\lambda\vec a)\cdot\vec b=\lambda(\vec a\cdot\vec b)=\vec a\cdot(\lambda\vec b)$; $(\vec a+\vec b)\cdot\vec c=\vec a\cdot\vec c+\vec b\cdot\vec c$.
+> **常用结论 6.2.14** (数量积的运算律) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$; $(\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
 
-> **定理 6.3.1** (平面向量基本定理) <br>如果 $\vec e_1$, $\vec e_2$ 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 $\vec a$, 有且只有一对实数 $\lambda_1$, $\lambda_2$, 使 $\vec a=\lambda_1\vec e_1+\lambda_2\vec e_2$. 其中, 不共线的向量 $\vec e_1$, $\vec e_2$ 叫做这一平面内所有向量的一组基底.
+> **定理 6.3.1** (平面向量基本定理) <br>如果 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 $\boldsymbol{a}$, 有且只有一对实数 $\lambda_1$, $\lambda_2$, 使 $\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. 其中, 不共线的向量 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 叫做这一平面内所有向量的一组基底.
 
 > **常用结论 6.4.1** (向量法解决平面几何问题的三步曲) <br>(1) 建立平面几何与向量的联系, 用向量表示问题中涉及的几何元素, 将平面几何问题转化为向量问题; (2) 通过向量运算, 研究几何元素之间的关系, 如距离, 夹角等问题; (3) 把运算结果 "翻译" 成几何关系.
 
@@ -56,27 +56,27 @@
 
 由**常用结论 6.4.1** (向量法三步曲), 先把几何元素用向量表示, 再进行向量运算, 最后把运算结果翻译回几何关系. 下面用向量方法证明两个已证结论.
 
-(1) 证明勾股定理. 在 $\triangle ABC$ 中, $\angle C=90^{\circ}$. 由**定义 6.2.1** (向量加法的三角形法则), $\vec{AB}=\vec{AC}+\vec{CB}$. 由**定义 6.2.11** (数量积), 两边分别与自身作数量积, 再由**常用结论 6.2.14** (数量积的运算律) 展开, 得
+(1) 证明勾股定理. 在 $\triangle ABC$ 中, $\angle C=90^{\circ}$. 由**定义 6.2.1** (向量加法的三角形法则), $\boldsymbol{AB}=\boldsymbol{AC}+\boldsymbol{CB}$. 由**定义 6.2.11** (数量积), 两边分别与自身作数量积, 再由**常用结论 6.2.14** (数量积的运算律) 展开, 得
 
 $$
-\vec{AB}\cdot\vec{AB}=(\vec{AC}+\vec{CB})\cdot(\vec{AC}+\vec{CB})=\vec{AC}\cdot\vec{AC}+\vec{CB}\cdot\vec{CB}+2\vec{AC}\cdot\vec{CB}.
+\boldsymbol{AB}\cdot\boldsymbol{AB}=(\boldsymbol{AC}+\boldsymbol{CB})\cdot(\boldsymbol{AC}+\boldsymbol{CB})=\boldsymbol{AC}\cdot\boldsymbol{AC}+\boldsymbol{CB}\cdot\boldsymbol{CB}+2\boldsymbol{AC}\cdot\boldsymbol{CB}.
 $$
 
-由 $\vec{CB}\perp\vec{AC}$ 及**常用结论 6.2.13** (数量积的性质), $\vec{AC}\cdot\vec{CB}=0$, 再由**常用结论 6.2.13** (数量积的性质) 中 $\vec a\cdot\vec a=\lvert\vec a\rvert^2$, 得
+由 $\boldsymbol{CB}\perp\boldsymbol{AC}$ 及**常用结论 6.2.13** (数量积的性质), $\boldsymbol{AC}\cdot\boldsymbol{CB}=0$, 再由**常用结论 6.2.13** (数量积的性质) 中 $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$, 得
 
 $$
-\lvert\vec{AB}\rvert^2=\lvert\vec{AC}\rvert^2+\lvert\vec{CB}\rvert^2.
+\lvert\boldsymbol{AB}\rvert^2=\lvert\boldsymbol{AC}\rvert^2+\lvert\boldsymbol{CB}\rvert^2.
 $$
 
 这就得到勾股定理. 整个证明只用了三角形回路 (向量加法) 和数量积运算, 不需要添加辅助线或构造正方形.
 
-(2) 证明三角形中位线定理. 设 $D$, $E$ 分别为 $AB$, $AC$ 的中点. 由中点的意义及**定义 6.2.6** (向量的数乘), $\vec{AD}=\frac{1}{2}\vec{AB}$, $\vec{AE}=\frac{1}{2}\vec{AC}$. 由**定义 6.2.5** (向量的减法), 得
+(2) 证明三角形中位线定理. 设 $D$, $E$ 分别为 $AB$, $AC$ 的中点. 由中点的意义及**定义 6.2.6** (向量的数乘), $\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AC}$. 由**定义 6.2.5** (向量的减法), 得
 
 $$
-\vec{DE}=\vec{AE}-\vec{AD}=\frac{1}{2}\vec{AC}-\frac{1}{2}\vec{AB}=\frac{1}{2}(\vec{AC}-\vec{AB})=\frac{1}{2}\vec{BC}.
+\boldsymbol{DE}=\boldsymbol{AE}-\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AC}-\frac{1}{2}\boldsymbol{AB}=\frac{1}{2}(\boldsymbol{AC}-\boldsymbol{AB})=\frac{1}{2}\boldsymbol{BC}.
 $$
 
-由**定理 6.2.8** (共线向量定理), $\vec{DE}$ 与 $\vec{BC}$ 共线, 即 $DE\parallel BC$, 且 $\lvert\vec{DE}\rvert=\frac{1}{2}\lvert\vec{BC}\rvert$, 即 $DE=\frac{1}{2}BC$.
+由**定理 6.2.8** (共线向量定理), $\boldsymbol{DE}$ 与 $\boldsymbol{BC}$ 共线, 即 $DE\parallel BC$, 且 $\lvert\boldsymbol{DE}\rvert=\frac{1}{2}\lvert\boldsymbol{BC}\rvert$, 即 $DE=\frac{1}{2}BC$.
 
 (3) 基本程序. 用向量方法处理几何问题的基本程序即**常用结论 6.4.1** (三步曲): 第一步, 建立平面几何与向量的联系, 用向量表示问题中涉及的几何元素, 将几何问题转化为向量问题; 第二步, 通过向量运算研究几何元素之间的关系, 如距离, 夹角, 平行, 垂直等; 第三步, 把运算结果翻译回几何关系.
 
@@ -90,25 +90,25 @@ $$
 
 由**常用结论 6.4.1** (向量法三步曲), 先用向量表示三角形的顶点和中点, 再通过向量运算证明三条中线共点.
 
-在 $\triangle ABC$ 中, $D$, $E$, $F$ 分别是 $BC$, $CA$, $AB$ 的中点. 设 $BE$, $CF$ 交于一点 $O$, 连接 $AO$, $OD$. 取 $\vec{OB}$, $\vec{OC}$ 为一组基底, 并设 $\vec{EO}=t_1\vec{OB}$, $\vec{FO}=t_2\vec{OC}$.
+在 $\triangle ABC$ 中, $D$, $E$, $F$ 分别是 $BC$, $CA$, $AB$ 的中点. 设 $BE$, $CF$ 交于一点 $O$, 连接 $AO$, $OD$. 取 $\boldsymbol{OB}$, $\boldsymbol{OC}$ 为一组基底, 并设 $\boldsymbol{EO}=t_1\boldsymbol{OB}$, $\boldsymbol{FO}=t_2\boldsymbol{OC}$.
 
-(1) 用基底表示 $\vec{EC}$, $\vec{FB}$. 由**定义 6.2.1** (向量加法的三角形法则), 得
-
-$$
-\vec{EC}=\vec{EO}+\vec{OC}=t_1\vec{OB}+\vec{OC},
-$$
+(1) 用基底表示 $\boldsymbol{EC}$, $\boldsymbol{FB}$. 由**定义 6.2.1** (向量加法的三角形法则), 得
 
 $$
-\vec{FB}=\vec{FO}+\vec{OB}=t_2\vec{OC}+\vec{OB}.
+\boldsymbol{EC}=\boldsymbol{EO}+\boldsymbol{OC}=t_1\boldsymbol{OB}+\boldsymbol{OC},
 $$
 
-(2) 用基底表示 $\vec{BC}$. 由 $E$, $F$ 分别为 $CA$, $AB$ 的中点及**定义 6.2.6** (向量的数乘), $\vec{AC}=2\vec{EC}$, $\vec{AB}=2\vec{FB}$. 由**定义 6.2.5** (向量的减法), 得
-
 $$
-\vec{BC}=\vec{AC}-\vec{AB}=2\vec{EC}-2\vec{FB}=2(t_1\vec{OB}+\vec{OC})-2(t_2\vec{OC}+\vec{OB})=2(t_1-1)\vec{OB}-2(t_2-1)\vec{OC}.
+\boldsymbol{FB}=\boldsymbol{FO}+\boldsymbol{OB}=t_2\boldsymbol{OC}+\boldsymbol{OB}.
 $$
 
-(3) 比较系数求 $t_1$, $t_2$. 另一方面, 由**定义 6.2.5** (向量的减法), $\vec{BC}=\vec{OC}-\vec{OB}=-\vec{OB}+\vec{OC}$. 由**定理 6.3.1** (平面向量基本定理), 同一向量在基底 $\vec{OB}$, $\vec{OC}$ 下的分解是唯一的, 故对应系数相等, 得
+(2) 用基底表示 $\boldsymbol{BC}$. 由 $E$, $F$ 分别为 $CA$, $AB$ 的中点及**定义 6.2.6** (向量的数乘), $\boldsymbol{AC}=2\boldsymbol{EC}$, $\boldsymbol{AB}=2\boldsymbol{FB}$. 由**定义 6.2.5** (向量的减法), 得
+
+$$
+\boldsymbol{BC}=\boldsymbol{AC}-\boldsymbol{AB}=2\boldsymbol{EC}-2\boldsymbol{FB}=2(t_1\boldsymbol{OB}+\boldsymbol{OC})-2(t_2\boldsymbol{OC}+\boldsymbol{OB})=2(t_1-1)\boldsymbol{OB}-2(t_2-1)\boldsymbol{OC}.
+$$
+
+(3) 比较系数求 $t_1$, $t_2$. 另一方面, 由**定义 6.2.5** (向量的减法), $\boldsymbol{BC}=\boldsymbol{OC}-\boldsymbol{OB}=-\boldsymbol{OB}+\boldsymbol{OC}$. 由**定理 6.3.1** (平面向量基本定理), 同一向量在基底 $\boldsymbol{OB}$, $\boldsymbol{OC}$ 下的分解是唯一的, 故对应系数相等, 得
 
 $$
 2(t_1-1)=-1,\qquad -2(t_2-1)=1.
@@ -117,30 +117,30 @@ $$
 解得 $t_1=\frac{1}{2}$, $t_2=\frac{1}{2}$. 于是
 
 $$
-\vec{EO}=\frac{1}{2}\vec{OB},\qquad \vec{FO}=\frac{1}{2}\vec{OC}.
+\boldsymbol{EO}=\frac{1}{2}\boldsymbol{OB},\qquad \boldsymbol{FO}=\frac{1}{2}\boldsymbol{OC}.
 $$
 
-(4) 证明 $A$, $O$, $D$ 三点共线. 由**定义 6.2.1** (向量加法的三角形法则), 并注意到 $F$ 为 $AB$ 的中点, $\vec{AF}=\vec{FB}$, 得
+(4) 证明 $A$, $O$, $D$ 三点共线. 由**定义 6.2.1** (向量加法的三角形法则), 并注意到 $F$ 为 $AB$ 的中点, $\boldsymbol{AF}=\boldsymbol{FB}$, 得
 
 $$
-\vec{AO}=\vec{AF}+\vec{FO}=\vec{FB}+\vec{FO}=(t_2\vec{OC}+\vec{OB})+t_2\vec{OC}=2t_2\vec{OC}+\vec{OB}=\vec{OB}+\vec{OC}.
+\boldsymbol{AO}=\boldsymbol{AF}+\boldsymbol{FO}=\boldsymbol{FB}+\boldsymbol{FO}=(t_2\boldsymbol{OC}+\boldsymbol{OB})+t_2\boldsymbol{OC}=2t_2\boldsymbol{OC}+\boldsymbol{OB}=\boldsymbol{OB}+\boldsymbol{OC}.
 $$
 
-又 $D$ 为 $BC$ 的中点, 由**定义 6.2.6** (向量的数乘) 及**定义 6.2.5** (向量的减法), $\vec{BD}=\frac{1}{2}\vec{BC}=\frac{1}{2}(\vec{OC}-\vec{OB})$. 再由**定义 6.2.1** (向量加法的三角形法则), 得
+又 $D$ 为 $BC$ 的中点, 由**定义 6.2.6** (向量的数乘) 及**定义 6.2.5** (向量的减法), $\boldsymbol{BD}=\frac{1}{2}\boldsymbol{BC}=\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OB})$. 再由**定义 6.2.1** (向量加法的三角形法则), 得
 
 $$
-\vec{OD}=\vec{OB}+\vec{BD}=\vec{OB}+\frac{1}{2}(\vec{OC}-\vec{OB})=\frac{1}{2}(\vec{OB}+\vec{OC}).
+\boldsymbol{OD}=\boldsymbol{OB}+\boldsymbol{BD}=\boldsymbol{OB}+\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OB})=\frac{1}{2}(\boldsymbol{OB}+\boldsymbol{OC}).
 $$
 
 于是
 
 $$
-\vec{AO}=\vec{OB}+\vec{OC}=2\vec{OD}.
+\boldsymbol{AO}=\boldsymbol{OB}+\boldsymbol{OC}=2\boldsymbol{OD}.
 $$
 
-(5) 得出结论. 由**定理 6.2.8** (共线向量定理), $\vec{AO}$ 与 $\vec{OD}$ 共线, 即 $A$, $O$, $D$ 三点共线, 也就是说 $AD$ 是 $BC$ 边上的中线, 且经过 $BE$, $CF$ 的交点 $O$. 所以 "三角形的三条中线交于一点" 成立.
+(5) 得出结论. 由**定理 6.2.8** (共线向量定理), $\boldsymbol{AO}$ 与 $\boldsymbol{OD}$ 共线, 即 $A$, $O$, $D$ 三点共线, 也就是说 $AD$ 是 $BC$ 边上的中线, 且经过 $BE$, $CF$ 的交点 $O$. 所以 "三角形的三条中线交于一点" 成立.
 
-另外, 由 $\vec{EO}=\frac{1}{2}\vec{OB}$, $\vec{FO}=\frac{1}{2}\vec{OC}$ 及 $\vec{AO}=2\vec{OD}$, 可得 $\vec{DO}=\frac{1}{2}\vec{OA}$. 这表明三角形的重心分每条中线为 $1:2$ 的两条线段, 即重心是中线的三等分点, 这正是**常用结论 6.4.1 续** (三角形重心的性质). 这样, 我们在证明三角形的三条中线交于一点的过程中, 顺便得到了三角形的一个重要性质. 如果把眼光聚焦在三角形的边, 外心, 中线, 重心, 角平分线, 内心, 高, 垂心等, 用同样的向量方法还可以发现更多的性质. $\blacksquare$
+另外, 由 $\boldsymbol{EO}=\frac{1}{2}\boldsymbol{OB}$, $\boldsymbol{FO}=\frac{1}{2}\boldsymbol{OC}$ 及 $\boldsymbol{AO}=2\boldsymbol{OD}$, 可得 $\boldsymbol{DO}=\frac{1}{2}\boldsymbol{OA}$. 这表明三角形的重心分每条中线为 $1:2$ 的两条线段, 即重心是中线的三等分点, 这正是**常用结论 6.4.1 续** (三角形重心的性质). 这样, 我们在证明三角形的三条中线交于一点的过程中, 顺便得到了三角形的一个重要性质. 如果把眼光聚焦在三角形的边, 外心, 中线, 重心, 角平分线, 内心, 高, 垂心等, 用同样的向量方法还可以发现更多的性质. $\blacksquare$
 
 ### 活动要求
 

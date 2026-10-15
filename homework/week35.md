@@ -14,15 +14,15 @@
 
 > **定义 7.1.7** (复平面) <br> 建立了直角坐标系来表示复数的平面叫做复平面, $x$ 轴叫做实轴, $y$ 轴叫做虚轴. 实轴上的点都表示实数; 除了原点外, 虚轴上的点都表示纯虚数.
 
-> **定义 7.1.8** (复数的几何意义) <br> 复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z(a,b)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\overrightarrow{OZ}$ 一一对应.
+> **定义 7.1.8** (复数的几何意义) <br> 复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z(a,b)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\boldsymbol{OZ}$ 一一对应.
 
-> **定义 7.1.9** (复数的模) <br> 向量 $\overrightarrow{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $|z|$ 或 $|a+b\mathrm{i}|$, 即
+> **定义 7.1.9** (复数的模) <br> 向量 $\boldsymbol{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $\lvert z\rvert$ 或 $\lvert a+b\mathrm{i}\rvert$, 即
 
 $$
-|z|=|a+b\mathrm{i}|=\sqrt{a^2+b^2}.
+\lvert z\rvert=\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}.
 $$
 
-> **定义 7.1.10** (共轭复数) <br> 当两个复数的实部相等, 虚部互为相反数时, 这两个复数叫做互为共轭复数. 复数 $z$ 的共轭复数用 $\bar z$ 表示, 即如果 $z=a+b\mathrm{i}$, 那么 $\bar z=a-b\mathrm{i}$.
+> **定义 7.1.10** (共轭复数) <br> 当两个复数的实部相等, 虚部互为相反数时, 这两个复数叫做互为共轭复数. 复数 $z$ 的共轭复数用 $\overline{z}$ 表示, 即如果 $z=a+b\mathrm{i}$, 那么 $\overline{z}=a-b\mathrm{i}$.
 
 ### 练习一
 
@@ -108,6 +108,8 @@ $$
 
 (练习 7.1 第 1 题) 说出图中复平面内各点所表示的复数 (每个小方格的边长为 $1$).
 
+![week35-1.svg](../figures/week35-1.svg){width=50%}
+
 ### 解答 练习四
 
 由**定义 7.1.8** (复数的几何意义), 复平面内的点 $Z(a,b)$ 表示复数 $a+b\mathrm{i}$.
@@ -131,6 +133,8 @@ $$
 (5) $5$;
 
 (6) $-3\mathrm{i}$.
+
+![week35-2.svg](../figures/week35-2.svg){width=50%}
 
 ### 解答 练习五
 
@@ -158,23 +162,25 @@ $$
 
 (2) 求这些复数的模.
 
+![week35-3.svg](../figures/week35-3.svg){width=50%}
+
 ### 解答 练习六
 
-由**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应向量 $\overrightarrow{OZ}=(a,b)$; 由**定义 7.1.9** (复数的模), $|a+b\mathrm{i}|=\sqrt{a^2+b^2}$.
+由**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应向量 $\boldsymbol{OZ}=(a,b)$; 由**定义 7.1.9** (复数的模), $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
 (1) 各复数对应的向量分别为: $(2,1)$, $(-2,4)$, $(0,-2)$, $(4,0)$, $\left(\frac{3}{2},-4\right)$, 在复平面内以原点 $O$ 为起点画出这些向量即可.
 
 (2) 逐个求模:
 
-(a) $|2+\mathrm{i}|=\sqrt{2^2+1^2}=\sqrt{5}$;
+(a) $\lvert2+\mathrm{i}\rvert=\sqrt{2^2+1^2}=\sqrt{5}$;
 
-(b) $|-2+4\mathrm{i}|=\sqrt{(-2)^2+4^2}=\sqrt{20}=2\sqrt{5}$;
+(b) $\lvert-2+4\mathrm{i}\rvert=\sqrt{(-2)^2+4^2}=\sqrt{20}=2\sqrt{5}$;
 
-(c) $|-2\mathrm{i}|=\sqrt{0^2+(-2)^2}=2$;
+(c) $\lvert-2\mathrm{i}\rvert=\sqrt{0^2+(-2)^2}=2$;
 
-(d) $|4|=\sqrt{4^2+0^2}=4$;
+(d) $\lvert4\rvert=\sqrt{4^2+0^2}=4$;
 
-(e) $\left|\frac{3}{2}-4\mathrm{i}\right|=\sqrt{\left(\frac{3}{2}\right)^2+(-4)^2}=\sqrt{\frac{9}{4}+16}=\sqrt{\frac{73}{4}}=\frac{\sqrt{73}}{2}$. $\blacksquare$
+(e) $\left\lvert\frac{3}{2}-4\mathrm{i}\right\rvert=\sqrt{\left(\frac{3}{2}\right)^2+(-4)^2}=\sqrt{\frac{9}{4}+16}=\sqrt{\frac{73}{4}}=\frac{\sqrt{73}}{2}$. $\blacksquare$
 
 ### 习题一
 
@@ -276,17 +282,17 @@ $$
 
 ### 解答 习题五
 
-由**定义 7.1.9** (复数的模), $|a+b\mathrm{i}|=\sqrt{a^2+b^2}$.
+由**定义 7.1.9** (复数的模), $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
 $$
-|z_1|=|3+4\mathrm{i}|=\sqrt{3^2+4^2}=\sqrt{25}=5.
+\lvert z_1\rvert=\lvert3+4\mathrm{i}\rvert=\sqrt{3^2+4^2}=\sqrt{25}=5.
 $$
 
 $$
-|z_2|=\left|\frac{1}{2}-\sqrt{2}\mathrm{i}\right|=\sqrt{\left(\frac{1}{2}\right)^2+(-\sqrt{2})^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
+\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+(-\sqrt{2})^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
 $$
 
-因为 $5>\frac{3}{2}$, 所以 $|z_1|>|z_2|$. $\blacksquare$
+因为 $5>\frac{3}{2}$, 所以 $\lvert z_1\rvert>\lvert z_2\rvert$. $\blacksquare$
 
 ### 习题六
 
@@ -316,17 +322,17 @@ $$
 
 ### 习题七
 
-(习题 7.1 综合运用第 7 题) 在复平面内, $O$ 是原点, 向量 $\overrightarrow{OA}$ 对应的复数是 $2+\mathrm{i}$.
+(习题 7.1 综合运用第 7 题) 在复平面内, $O$ 是原点, 向量 $\boldsymbol{OA}$ 对应的复数是 $2+\mathrm{i}$.
 
-(1) 如果点 $A$ 关于实轴的对称点为点 $B$, 求向量 $\overrightarrow{OB}$ 对应的复数;
+(1) 如果点 $A$ 关于实轴的对称点为点 $B$, 求向量 $\boldsymbol{OB}$ 对应的复数;
 
 (2) 如果 (1) 中点 $B$ 关于虚轴的对称点为点 $C$, 求点 $C$ 对应的复数.
 
 ### 解答 习题七
 
-由**定义 7.1.8** (复数的几何意义), 向量 $\overrightarrow{OA}$ 对应复数 $2+\mathrm{i}$, 故点 $A$ 的坐标为 $(2,1)$.
+由**定义 7.1.8** (复数的几何意义), 向量 $\boldsymbol{OA}$ 对应复数 $2+\mathrm{i}$, 故点 $A$ 的坐标为 $(2,1)$.
 
-(1) 点 $A(2,1)$ 关于实轴 ( $x$ 轴) 的对称点 $B$ 的坐标为 $(2,-1)$. 由**定义 7.1.8**, 向量 $\overrightarrow{OB}$ 对应的复数为 $2+(-1)\mathrm{i}=2-\mathrm{i}$.
+(1) 点 $A(2,1)$ 关于实轴 ( $x$ 轴) 的对称点 $B$ 的坐标为 $(2,-1)$. 由**定义 7.1.8**, 向量 $\boldsymbol{OB}$ 对应的复数为 $2+(-1)\mathrm{i}=2-\mathrm{i}$.
 
 (2) 点 $B(2,-1)$ 关于虚轴 ( $y$ 轴) 的对称点 $C$ 的坐标为 $(-2,-1)$. 由**定义 7.1.8**, 点 $C$ 对应的复数为 $-2+(-1)\mathrm{i}=-2-\mathrm{i}$. $\blacksquare$
 
@@ -334,17 +340,17 @@ $$
 
 (习题 7.1 综合运用第 8 题) 设 $z\in\mathbb C$, 在复平面内 $z$ 对应的点为 $Z$, 那么满足下列条件的点 $Z$ 的集合是什么图形?
 
-(1) $|z|=3$;
+(1) $\lvert z\rvert=3$;
 
-(2) $2\le |z|<5$.
+(2) $2\le \lvert z\rvert<5$.
 
 ### 解答 习题八
 
-由**定义 7.1.9** (复数的模), $|z|$ 即向量 $\overrightarrow{OZ}$ 的长度, 也就是点 $Z$ 到原点 $O$ 的距离.
+由**定义 7.1.9** (复数的模), $\lvert z\rvert$ 即向量 $\boldsymbol{OZ}$ 的长度, 也就是点 $Z$ 到原点 $O$ 的距离.
 
-(1) $|z|=3$ 即点 $Z$ 到原点 $O$ 的距离恒为 $3$. 由平面几何, 点 $Z$ 的集合是以原点 $O$ 为圆心, 以 $3$ 为半径的圆.
+(1) $\lvert z\rvert=3$ 即点 $Z$ 到原点 $O$ 的距离恒为 $3$. 由平面几何, 点 $Z$ 的集合是以原点 $O$ 为圆心, 以 $3$ 为半径的圆.
 
-(2) $|z|<5$ 表示点 $Z$ 到原点的距离小于 $5$, 即以 $O$ 为圆心, 以 $5$ 为半径的圆的内部; $|z|\ge 2$ 表示点 $Z$ 到原点的距离不小于 $2$, 即以 $O$ 为圆心, 以 $2$ 为半径的圆的外部 (含圆周). 两者交集为: 以 $O$ 为圆心, 以 $2$ 及 $5$ 为半径的两个圆所夹的圆环, 其中内圆周 ( $|z|=2$ ) 包含在内, 外圆周 ( $|z|=5$ ) 不包含在内. $\blacksquare$
+(2) $\lvert z\rvert<5$ 表示点 $Z$ 到原点的距离小于 $5$, 即以 $O$ 为圆心, 以 $5$ 为半径的圆的内部; $\lvert z\rvert\ge 2$ 表示点 $Z$ 到原点的距离不小于 $2$, 即以 $O$ 为圆心, 以 $2$ 为半径的圆的外部 (含圆周). 两者交集为: 以 $O$ 为圆心, 以 $2$ 及 $5$ 为半径的两个圆所夹的圆环, 其中内圆周 ( $\lvert z\rvert=2$ ) 包含在内, 外圆周 ( $\lvert z\rvert=5$ ) 不包含在内. $\blacksquare$
 
 ### 习题九
 
@@ -362,7 +368,7 @@ $$
 
 ### 解答 习题十
 
-设 $z=a+\sqrt{3}\mathrm{i}\ (a\in\mathbb R)$. 由**定义 7.1.9** (复数的模), $|z|=\sqrt{a^2+(\sqrt{3})^2}=\sqrt{a^2+3}$. 由已知 $|z|=2$, 得
+设 $z=a+\sqrt{3}\mathrm{i}\ (a\in\mathbb R)$. 由**定义 7.1.9** (复数的模), $\lvert z\rvert=\sqrt{a^2+(\sqrt{3})^2}=\sqrt{a^2+3}$. 由已知 $\lvert z\rvert=2$, 得
 
 $$
 \sqrt{a^2+3}=2.
@@ -381,19 +387,19 @@ $$
 由**定义 7.1.9** (复数的模), 计算各点到原点的距离:
 
 $$
-|z_1|=\sqrt{1^2+2^2}=\sqrt{5},
+\lvert z_1\rvert=\sqrt{1^2+2^2}=\sqrt{5},
 $$
 
 $$
-|z_2|=\sqrt{(\sqrt{2})^2+(\sqrt{3})^2}=\sqrt{2+3}=\sqrt{5},
+\lvert z_2\rvert=\sqrt{(\sqrt{2})^2+(\sqrt{3})^2}=\sqrt{2+3}=\sqrt{5},
 $$
 
 $$
-|z_3|=\sqrt{(\sqrt{3})^2+(-\sqrt{2})^2}=\sqrt{3+2}=\sqrt{5},
+\lvert z_3\rvert=\sqrt{(\sqrt{3})^2+(-\sqrt{2})^2}=\sqrt{3+2}=\sqrt{5},
 $$
 
 $$
-|z_4|=\sqrt{(-2)^2+1^2}=\sqrt{5}.
+\lvert z_4\rvert=\sqrt{(-2)^2+1^2}=\sqrt{5}.
 $$
 
 四点到原点 $O$ 的距离都等于 $\sqrt{5}$, 即四点都在以原点 $O$ 为圆心, 以 $\sqrt{5}$ 为半径的圆上. 故这 $4$ 个点在同一个圆上. $\blacksquare$

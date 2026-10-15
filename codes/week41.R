@@ -1,0 +1,126 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+K=0.3535534
+# week41-1: 不共面四点定四面体(4个面)
+draw1=function(){
+  par(mar=c(1,1,1,1))
+  sx=function(x,y)x+K*y; sy=function(y,z)z+K*y
+  P=function(x,y,z)c(sx(x,y),sy(y,z))
+  A=P(1.1,0.5,2.1);B=P(0,0,0);C=P(2.2,0,0);D=P(0.5,1.5,0)
+  plot(0,0,xlim=c(-0.4,3.0),ylim=c(-0.4,2.6),type="n",axes=FALSE,xlab="",ylab="")
+  seg=function(p,q,lty=1)segments(p[1],p[2],q[1],q[2],lty=lty)
+  seg(A,B);seg(A,C);seg(A,D,lty=2);seg(B,C);seg(C,D);seg(D,B,lty=2)
+  text(A[1],A[2]+0.12,"A");text(B[1]-0.15,B[2]-0.05,"B");text(C[1]+0.1,C[2]-0.05,"C");text(D[1]-0.12,D[2]+0.1,"D")
+}
+pdf("../figures/week41-1.pdf",width=4,height=4);draw1();dev.off()
+svglite::svglite("../figures/week41-1.svg",width=4,height=4);draw1();dev.off()
+# week41-2: (1)A在alpha内B在外 (2)两相交平面交线a
+draw2=function(){
+  par(mfrow=c(1,2),mar=c(2,2,3,1))
+  plot(0,0,xlim=c(-0.4,3.2),ylim=c(-0.6,1.8),type="n",axes=FALSE,xlab="",ylab="",main="(1)")
+  poly=rbind(c(0.3,0.4),c(2.5,0.4),c(2.9,0.75),c(0.7,0.75))
+  polygon(poly,border=1);text(2.95,0.45,"alpha")
+  points(1.3,0.58,pch=19);text(1.3,0.82,"A")
+  points(1.9,1.25,pch=19);text(2.0,1.25,"B")
+  plot(0,0,xlim=c(-0.4,3.2),ylim=c(-0.6,2.2),type="n",axes=FALSE,xlab="",ylab="",main="(2)")
+  poly1=rbind(c(0.2,0.3),c(2.6,0.3),c(3.0,0.62),c(0.6,0.62))
+  polygon(poly1,border=1);text(2.95,0.33,"alpha")
+  poly2=rbind(c(0.9,0.46),c(2.0,0.46),c(2.35,1.75),c(1.25,1.75))
+  polygon(poly2,border=1);text(2.4,1.78,"beta")
+  segments(0.9,0.46,2.0,0.46,lwd=1.5);text(1.4,0.28,"a")
+}
+pdf("../figures/week41-2.pdf",width=8,height=4);draw2();dev.off()
+svglite::svglite("../figures/week41-2.svg",width=8,height=4);draw2();dev.off()
+# week41-3: 长方体 ABCD-A'B'C'D'
+draw3=function(){
+  par(mar=c(1,1,1,1))
+  sx=function(x,y)x+K*y; sy=function(y,z)z+K*y
+  P=function(x,y,z)c(sx(x,y),sy(y,z))
+  w=2.0;d=1.2;h=1.6
+  A=P(0,0,0);B=P(w,0,0);C=P(w,d,0);D=P(0,d,0)
+  A1=P(0,0,h);B1=P(w,0,h);C1=P(w,d,h);D1=P(0,d,h)
+  plot(0,0,xlim=c(-0.5,3.2),ylim=c(-0.4,2.4),type="n",axes=FALSE,xlab="",ylab="")
+  seg=function(p,q,lty=1)segments(p[1],p[2],q[1],q[2],lty=lty)
+  seg(A,B);seg(B,C);seg(A,A1);seg(B,B1);seg(C,C1);seg(A1,B1);seg(B1,C1);seg(C1,D1);seg(A1,D1)
+  seg(A,D,lty=2);seg(D,C,lty=2);seg(D,D1,lty=2)
+  text(A[1]-0.12,A[2]-0.12,"A");text(B[1]+0.05,B[2]-0.12,"B");text(C[1]+0.1,C[2]-0.05,"C");text(D[1]-0.16,D[2]+0.02,"D")
+  text(A1[1]-0.2,A1[2]+0.05,"A'");text(B1[1]+0.05,B1[2]+0.05,"B'");text(C1[1]+0.1,C1[2]+0.05,"C'");text(D1[1]-0.16,D1[2]+0.08,"D'")
+}
+pdf("../figures/week41-3.pdf",width=4,height=4);draw3();dev.off()
+svglite::svglite("../figures/week41-3.svg",width=4,height=4);draw3();dev.off()
+# week41-4: (1)alpha内a,b交于A,c过A穿出 (2)alpha∩beta=l,AB//l,CD//l
+draw4=function(){
+  par(mfrow=c(1,2),mar=c(2,2,3,1))
+  plot(0,0,xlim=c(-0.3,3.1),ylim=c(-0.5,2.2),type="n",axes=FALSE,xlab="",ylab="",main="(1)")
+  poly=rbind(c(0.2,0.3),c(2.6,0.3),c(3.0,0.62),c(0.6,0.62))
+  polygon(poly,border=1);text(2.95,0.33,"alpha")
+  segments(0.6,0.42,2.3,0.52);text(2.35,0.55,"a")
+  segments(0.9,0.32,1.9,0.6);text(0.7,0.28,"b")
+  points(1.45,0.48,pch=19);text(1.55,0.4,"A")
+  segments(1.45,0.48,1.7,1.9);text(1.78,1.85,"c")
+  plot(0,0,xlim=c(-0.3,3.1),ylim=c(-0.5,2.2),type="n",axes=FALSE,xlab="",ylab="",main="(2)")
+  poly1=rbind(c(0.2,0.3),c(2.6,0.3),c(3.0,0.62),c(0.6,0.62))
+  polygon(poly1,border=1);text(0.25,0.32,"alpha")
+  poly2=rbind(c(1.0,0.46),c(2.1,0.46),c(2.4,1.8),c(1.3,1.8))
+  polygon(poly2,border=1);text(2.45,1.82,"beta")
+  segments(1.0,0.46,2.1,0.46,lwd=1.5);text(1.5,0.3,"l")
+  segments(0.7,0.38,1.5,0.42);text(0.55,0.3,"A");text(1.55,0.42,"B")
+  segments(1.5,1.2,2.0,1.2);text(1.35,1.2,"C");text(2.05,1.2,"D")
+}
+pdf("../figures/week41-4.pdf",width=8,height=4);draw4();dev.off()
+svglite::svglite("../figures/week41-4.svg",width=8,height=4);draw4();dev.off()
+# week41-5: 三条两两平行不共面直线
+draw5=function(){
+  par(mar=c(1,1,1,1))
+  sx=function(x,y)x+K*y; sy=function(y,z)z+K*y
+  P=function(x,y,z)c(sx(x,y),sy(y,z))
+  plot(0,0,xlim=c(-0.5,3.2),ylim=c(-0.3,2.4),type="n",axes=FALSE,xlab="",ylab="")
+  seg=function(p,q,lty=1)segments(p[1],p[2],q[1],q[2],lty=lty)
+  L1a=P(0.3,0.2,0);L1b=P(0.3,0.2,2.0)
+  L2a=P(1.6,0.0,0);L2b=P(1.6,0.0,2.0)
+  L3a=P(0.9,1.2,0);L3b=P(0.9,1.2,2.0)
+  seg(L1a,L1b);seg(L2a,L2b);seg(L3a,L3b,lty=2)
+  text(L1b[1]-0.1,L1b[2]+0.1,"a");text(L2b[1]+0.05,L2b[2]+0.1,"b");text(L3b[1]-0.1,L3b[2]+0.1,"c")
+}
+pdf("../figures/week41-5.pdf",width=4,height=4);draw5();dev.off()
+svglite::svglite("../figures/week41-5.svg",width=4,height=4);draw5();dev.off()
+# week41-6: 三角ABC在alpha外,三边交alpha于P,Q,R
+draw6=function(){
+  par(mar=c(1,1,1,1))
+  plot(0,0,xlim=c(-0.4,3.2),ylim=c(-0.4,2.6),type="n",axes=FALSE,xlab="",ylab="")
+  poly=rbind(c(0.2,0.55),c(2.8,0.55),c(3.1,0.85),c(0.5,0.85))
+  polygon(poly,border=1);text(2.95,0.6,"alpha")
+  A=c(1.4,2.25);B=c(0.55,1.35);C=c(2.35,1.45)
+  segments(A[1],A[2],B[1],B[2]);segments(A[1],A[2],C[1],C[2]);segments(B[1],B[2],C[1],C[2])
+  P=c(0.98,0.7);Q=c(1.45,0.7);R=c(1.92,0.7)
+  segments(B[1],B[2],P[1],P[2],lty=2);segments(C[1],C[2],Q[1],Q[2],lty=2);segments(A[1],A[2],R[1],R[2],lty=2)
+  points(P[1],P[2],pch=19);text(P[1]-0.05,P[2]-0.22,"P")
+  points(Q[1],Q[2],pch=19);text(Q[1],Q[2]-0.24,"Q")
+  points(R[1],R[2],pch=19);text(R[1]+0.1,R[2]-0.2,"R")
+  text(A[1],A[2]+0.12,"A");text(B[1]-0.18,B[2]+0.05,"B");text(C[1]+0.1,C[2]+0.05,"C")
+}
+pdf("../figures/week41-6.pdf",width=4,height=4);draw6();dev.off()
+svglite::svglite("../figures/week41-6.svg",width=4,height=4);draw6();dev.off()
+# week41-7: (1)正方体展开图 (2)还原正方体
+draw7=function(){
+  par(mfrow=c(1,2),mar=c(2,2,3,1))
+  plot(0,0,xlim=c(-0.3,3.2),ylim=c(-1.3,1.7),type="n",axes=FALSE,xlab="",ylab="",main="(1)")
+  s=0.7
+  rect(0,0,s,s);rect(s,0,2*s,s);rect(2*s,0,3*s,s);rect(3*s,0,4*s,s)
+  rect(s,s,2*s,2*s);rect(s,-s,2*s,0)
+  segments(0,s*0.5,s,s*0.5);text(0.32,s*0.5+0.13,"AB")
+  segments(2*s,s*0.5,3*s,s*0.5);text(2.42,s*0.5+0.13,"CD")
+  segments(1.5*s,2*s,1.5*s,s);text(1.58,1.15,"EF")
+  segments(1.5*s,0,1.5*s,-s);text(1.62,-0.35,"GH")
+  sx=function(x,y)x+K*y; sy=function(y,z)z+K*y
+  P=function(x,y,z)c(sx(x,y),sy(y,z))
+  w=1.0;d=0.6;h=1.0
+  A=P(0,0,0);B=P(w,0,0);C=P(w,d,0);D=P(0,d,0)
+  A1=P(0,0,h);B1=P(w,0,h);C1=P(w,d,h);D1=P(0,d,h)
+  plot(0,0,xlim=c(-0.5,2.0),ylim=c(-0.3,1.6),type="n",axes=FALSE,xlab="",ylab="",main="(2)")
+  seg=function(p,q,lty=1)segments(p[1],p[2],q[1],q[2],lty=lty)
+  seg(A,B);seg(B,C);seg(A,A1);seg(B,B1);seg(C,C1);seg(A1,B1);seg(B1,C1);seg(C1,D1);seg(A1,D1)
+  seg(A,D,lty=2);seg(D,C,lty=2);seg(D,D1,lty=2)
+}
+pdf("../figures/week41-7.pdf",width=8,height=4);draw7();dev.off()
+svglite::svglite("../figures/week41-7.svg",width=8,height=4);draw7();dev.off()

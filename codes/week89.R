@@ -1,0 +1,45 @@
+setwd("C:/Users/18904/Github/senior-mathematics/codes")
+if(!dir.exists("../figures"))dir.create("../figures")
+# week89-1: father-son heights scatter with lines connecting ordered by father height
+# table 8.2-1 (14 pairs)
+f=c(174,170,173,169,182,172,180,172,168,166,182,173,164,180)
+s=c(176,176,170,170,185,176,178,174,170,168,178,172,165,182)
+draw1=function(){
+  par(mar=c(4,4,2,1))
+  o=order(f)
+  plot(f,s,xlim=c(160,190),ylim=c(160,190),pch=19,xlab="father height/cm",ylab="son height/cm",main="")
+  lines(f[o],s[o],lty=1)
+  points(f,s,pch=19)
+}
+cairo_pdf("../figures/week89-1.pdf",width=4,height=4,family="SimSun")
+draw1()
+dev.off()
+svglite::svglite("../figures/week89-1.svg",width=4,height=4)
+draw1()
+dev.off()
+# week89-2: GDP vs year 2003-2012
+yr=c(2003,2004,2005,2006,2007,2008,2009,2010,2011,2012)
+gdp=c(137422.0,161840.2,187318.9,219438.5,270092.3,319244.6,348517.7,412119.3,487940.2,538580.0)
+draw2=function(){
+  par(mar=c(4,4,2,1))
+  plot(yr,gdp,pch=19,xlab="year",ylab="GDP / 100M yuan",main="")
+}
+cairo_pdf("../figures/week89-2.pdf",width=4,height=4,family="SimSun")
+draw2()
+dev.off()
+svglite::svglite("../figures/week89-2.svg",width=4,height=4)
+draw2()
+dev.off()
+# week89-3: population 1949-2022 (sampled key years for clarity)
+pyr=c(1949,1950,1951,1955,1960,1965,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022)
+pop=c(54167,55196,56300,61465,66207,72538,82992,85229,87177,89211,90859,92420,93717,94974,96259,97542,98705,100072,101654,103008,104357,105851,107507,109300,111026,112704,114333,115823,117171,118517,119850,121121,122389,123626,124761,125786,126743,127627,128453,129227,129988,130756,131448,132129,132802,133450,134091,134916,135922,136726,137646,138326,139232,140011,140541,141008,141212,141260,141175)
+draw3=function(){
+  par(mar=c(4,4,2,1))
+  plot(pyr,pop,pch=19,cex=0.7,xlab="year",ylab="population / 10k",main="")
+}
+cairo_pdf("../figures/week89-3.pdf",width=4,height=4,family="SimSun")
+draw3()
+dev.off()
+svglite::svglite("../figures/week89-3.svg",width=4,height=4)
+draw3()
+dev.off()

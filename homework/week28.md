@@ -26,7 +26,7 @@
 
 (1) $y=\sqrt{x-2}\sqrt{x+5}$;
 
-(2) $y=\dfrac{\sqrt{x-4}}{\left|x\right|-5}$.
+(2) $y=\frac{\sqrt{x-4}}{\left|x\right|-5}$.
 
 ### 解答 习题一
 
@@ -38,7 +38,7 @@
 
 ### 习题二
 
-(复习参考题 3 复习巩固第 2 题) 已知函数 $f\left(x\right)=\dfrac{1-x}{1+x}$, 求:
+(复习参考题 3 复习巩固第 2 题) 已知函数 $f\left(x\right)=\frac{1-x}{1+x}$, 求:
 
 (1) $f\left(a\right)+1$ ($a\ne-1$);
 
@@ -48,25 +48,25 @@
 
 由**定义 3.1.1** (函数), 将自变量代入解析式.
 
-(1) $f\left(a\right)+1=\dfrac{1-a}{1+a}+1=\dfrac{1-a+1+a}{1+a}=\dfrac{2}{1+a}$.
+(1) $f\left(a\right)+1=\frac{1-a}{1+a}+1=\frac{1-a+1+a}{1+a}=\frac{2}{1+a}$.
 
-(2) $f\left(a+1\right)=\dfrac{1-\left(a+1\right)}{1+\left(a+1\right)}=\dfrac{-a}{a+2}$. $\blacksquare$
+(2) $f\left(a+1\right)=\frac{1-\left(a+1\right)}{1+\left(a+1\right)}=\frac{-a}{a+2}$. $\blacksquare$
 
 ### 习题三
 
-(复习参考题 3 复习巩固第 3 题) 设 $f\left(x\right)=\dfrac{1+x^2}{1-x^2}$, 求证:
+(复习参考题 3 复习巩固第 3 题) 设 $f\left(x\right)=\frac{1+x^2}{1-x^2}$, 求证:
 
 (1) $f\left(-x\right)=f\left(x\right)$;
 
-(2) $f\left(\dfrac{1}{x}\right)=-f\left(x\right)$ ($x\ne0$).
+(2) $f\left(\frac{1}{x}\right)=-f\left(x\right)$ ($x\ne0$).
 
 ### 解答 习题三
 
 由**定义 3.2.5** (偶函数), 代入计算验证.
 
-(1) $f\left(-x\right)=\dfrac{1+\left(-x\right)^2}{1-\left(-x\right)^2}=\dfrac{1+x^2}{1-x^2}=f\left(x\right)$.
+(1) $f\left(-x\right)=\frac{1+\left(-x\right)^2}{1-\left(-x\right)^2}=\frac{1+x^2}{1-x^2}=f\left(x\right)$.
 
-(2) $f\left(\dfrac{1}{x}\right)=\dfrac{1+\dfrac{1}{x^2}}{1-\dfrac{1}{x^2}}=\dfrac{\dfrac{x^2+1}{x^2}}{\dfrac{x^2-1}{x^2}}=\dfrac{x^2+1}{x^2-1}=-\dfrac{1+x^2}{1-x^2}=-f\left(x\right)$. $\blacksquare$
+(2) $f\left(\frac{1}{x}\right)=\frac{1+\frac{1}{x^2}}{1-\frac{1}{x^2}}=\frac{\frac{x^2+1}{x^2}}{\frac{x^2-1}{x^2}}=\frac{x^2+1}{x^2-1}=-\frac{1+x^2}{1-x^2}=-f\left(x\right)$. $\blacksquare$
 
 ### 习题四
 
@@ -76,30 +76,32 @@
 
 由**定义 3.2.1** (单调递增与增函数) 及**定义 3.2.2** (单调递减与减函数), 二次函数的单调性由对称轴位置决定.
 
-$f\left(x\right)=4x^2-kx-8$ 的对称轴为 $x=\dfrac{k}{8}$. 抛物线开口向上, 在对称轴左侧单调递减, 右侧单调递增.
+$f\left(x\right)=4x^2-kx-8$ 的对称轴为 $x=\frac{k}{8}$. 抛物线开口向上, 在对称轴左侧单调递减, 右侧单调递增.
 
-要使 $f\left(x\right)$ 在 $\left[5,20\right]$ 上具有单调性, 对称轴必须在区间左侧或右侧, 即 $\dfrac{k}{8}\le5$ 或 $\dfrac{k}{8}\ge20$. 解得 $k\le40$ 或 $k\ge160$. $\blacksquare$
+要使 $f\left(x\right)$ 在 $\left[5,20\right]$ 上具有单调性, 对称轴必须在区间左侧或右侧, 即 $\frac{k}{8}\le5$ 或 $\frac{k}{8}\ge20$. 解得 $k\le40$ 或 $k\ge160$. $\blacksquare$
 
 ### 习题五
 
-(复习参考题 3 复习巩固第 5 题) 已知幂函数 $y=f\left(x\right)$ 的图象过点 $\left(2,\dfrac{\sqrt2}{2}\right)$, 试求出此函数的解析式, 并画出图象, 判断奇偶性, 单调性.
+(复习参考题 3 复习巩固第 5 题) 已知幂函数 $y=f\left(x\right)$ 的图象过点 $\left(2,\frac{\sqrt2}{2}\right)$, 试求出此函数的解析式, 并画出图象, 判断奇偶性, 单调性.
+
+![week28-1.svg](../figures/week28-1.svg){width=50%}
 
 ### 解答 习题五
 
 由**定义 3.3.1** (幂函数), 设 $f\left(x\right)=x^\alpha$, 代入已知点.
 
-由 $2^\alpha=\dfrac{\sqrt2}{2}=2^{-\frac{1}{2}}$, 得 $\alpha=-\dfrac{1}{2}$. 故 $f\left(x\right)=x^{-\frac{1}{2}}=\dfrac{1}{\sqrt x}$.
+由 $2^\alpha=\frac{\sqrt2}{2}=2^{-\frac{1}{2}}$, 得 $\alpha=-\frac{1}{2}$. 故 $f\left(x\right)=x^{-\frac{1}{2}}=\frac{1}{\sqrt x}$.
 
 定义域为 $\left(0,+\infty\right)$. 定义域不关于原点对称, 故既非奇函数也非偶函数.
 
-由**定义 3.2.2** (单调递减与减函数), 在 $\left(0,+\infty\right)$ 上 $x$ 增大时 $\dfrac{1}{\sqrt x}$ 减小, 故单调递减. 图象在第一象限, 以两坐标轴为渐近线. $\blacksquare$
+由**定义 3.2.2** (单调递减与减函数), 在 $\left(0,+\infty\right)$ 上 $x$ 增大时 $\frac{1}{\sqrt x}$ 减小, 故单调递减. 图象在第一象限, 以两坐标轴为渐近线. $\blacksquare$
 
 ### 习题六
 
 (复习参考题 3 复习巩固第 6 题) 某公司生产某种电子仪器的固定成本为 $20000$ 元, 每生产一台仪器需增加投入 $100$ 元, 已知总收入 $R$ (单位: 元) 关于月产量 $x$ (单位: 台) 满足函数:
 
 $$
-R=\begin{cases}400x-\dfrac{1}{2}x^2, & 0\le x\le400,\\80000, & x>400.\end{cases}
+R=\begin{cases}400x-\frac{1}{2}x^2, & 0\le x\le400,\\80000, & x>400.\end{cases}
 $$
 
 (1) 将利润 $P$ (单位: 元) 表示为月产量 $x$ 的函数;
@@ -112,17 +114,17 @@ $$
 
 (1) 总成本为 $20000+100x$. 利润 $P=R-\left(20000+100x\right)$.
 
-当 $0\le x\le400$ 时, $P=400x-\dfrac{1}{2}x^2-20000-100x=-\dfrac{1}{2}x^2+300x-20000$.
+当 $0\le x\le400$ 时, $P=400x-\frac{1}{2}x^2-20000-100x=-\frac{1}{2}x^2+300x-20000$.
 
 当 $x>400$ 时, $P=80000-20000-100x=60000-100x$.
 
 故
 
 $$
-P=\begin{cases}-\dfrac{1}{2}x^2+300x-20000, & 0\le x\le400,\\60000-100x, & x>400.\end{cases}
+P=\begin{cases}-\frac{1}{2}x^2+300x-20000, & 0\le x\le400,\\60000-100x, & x>400.\end{cases}
 $$
 
-(2) 当 $0\le x\le400$ 时, $P=-\dfrac{1}{2}\left(x-300\right)^2+25000$, 在 $x=300$ 时取最大值 $25000$. 当 $x>400$ 时, $P=60000-100x<60000-40000=20000<25000$. 故当月产量为 $300$ 台时利润最大, 最大利润为 $25000$ 元. $\blacksquare$
+(2) 当 $0\le x\le400$ 时, $P=-\frac{1}{2}\left(x-300\right)^2+25000$, 在 $x=300$ 时取最大值 $25000$. 当 $x>400$ 时, $P=60000-100x<60000-40000=20000<25000$. 故当月产量为 $300$ 台时利润最大, 最大利润为 $25000$ 元. $\blacksquare$
 
 ### 习题七
 
@@ -142,17 +144,17 @@ $f\left(-3\right)=\left(-3\right)\cdot\left(-3-4\right)=\left(-3\right)\cdot\lef
 
 (复习参考题 3 综合运用第 8 题) 证明:
 
-(1) 若 $f\left(x\right)=ax+b$, 则 $f\left(\dfrac{x_1+x_2}{2}\right)=\dfrac{f\left(x_1\right)+f\left(x_2\right)}{2}$;
+(1) 若 $f\left(x\right)=ax+b$, 则 $f\left(\frac{x_1+x_2}{2}\right)=\frac{f\left(x_1\right)+f\left(x_2\right)}{2}$;
 
-(2) 若 $g\left(x\right)=x^2+ax+b$, 则 $g\left(\dfrac{x_1+x_2}{2}\right)\le\dfrac{g\left(x_1\right)+g\left(x_2\right)}{2}$.
+(2) 若 $g\left(x\right)=x^2+ax+b$, 则 $g\left(\frac{x_1+x_2}{2}\right)\le\frac{g\left(x_1\right)+g\left(x_2\right)}{2}$.
 
 ### 解答 习题八
 
 由**定义 3.1.1** (函数), 直接代入计算.
 
-(1) 左边: $f\left(\dfrac{x_1+x_2}{2}\right)=a\cdot\dfrac{x_1+x_2}{2}+b=\dfrac{ax_1+ax_2}{2}+b$.
+(1) 左边: $f\left(\frac{x_1+x_2}{2}\right)=a\cdot\frac{x_1+x_2}{2}+b=\frac{ax_1+ax_2}{2}+b$.
 
-右边: $\dfrac{f\left(x_1\right)+f\left(x_2\right)}{2}=\dfrac{\left(ax_1+b\right)+\left(ax_2+b\right)}{2}=\dfrac{ax_1+ax_2}{2}+b$.
+右边: $\frac{f\left(x_1\right)+f\left(x_2\right)}{2}=\frac{\left(ax_1+b\right)+\left(ax_2+b\right)}{2}=\frac{ax_1+ax_2}{2}+b$.
 
 左边等于右边, 故等式成立.
 
@@ -162,7 +164,7 @@ $$
 \frac{g\left(x_1\right)+g\left(x_2\right)}{2}-g\left(\frac{x_1+x_2}{2}\right)=\frac{x_1^2+x_2^2}{2}-\left(\frac{x_1+x_2}{2}\right)^2=\frac{2x_1^2+2x_2^2-x_1^2-2x_1x_2-x_2^2}{4}=\frac{\left(x_1-x_2\right)^2}{4}\ge0.
 $$
 
-故 $g\left(\dfrac{x_1+x_2}{2}\right)\le\dfrac{g\left(x_1\right)+g\left(x_2\right)}{2}$. $\blacksquare$
+故 $g\left(\frac{x_1+x_2}{2}\right)\le\frac{g\left(x_1\right)+g\left(x_2\right)}{2}$. $\blacksquare$
 
 ### 习题九
 
@@ -190,7 +192,7 @@ $$
 
 由**定义 3.1.1** (函数), 按题意建立收益关于电价的函数.
 
-(1) 新增用电量为 $\dfrac{k}{x-0.4}$, 实际电量为 $a+\dfrac{k}{x-0.4}$. 收益
+(1) 新增用电量为 $\frac{k}{x-0.4}$, 实际电量为 $a+\frac{k}{x-0.4}$. 收益
 
 $$
 y=\left(a+\frac{k}{x-0.4}\right)\left(x-0.3\right),\quad x\in\left[0.55,0.75\right].
@@ -210,7 +212,7 @@ $$
 \left(1+\frac{0.2}{x-0.4}\right)\left(x-0.3\right)\ge0.6.
 $$
 
-展开: $\dfrac{x-0.4+0.2}{x-0.4}\cdot\left(x-0.3\right)=\dfrac{\left(x-0.2\right)\left(x-0.3\right)}{x-0.4}\ge0.6$.
+展开: $\frac{x-0.4+0.2}{x-0.4}\cdot\left(x-0.3\right)=\frac{\left(x-0.2\right)\left(x-0.3\right)}{x-0.4}\ge0.6$.
 
 即 $x^2-0.5x+0.06\ge0.6x-0.24$, 整理得 $x^2-1.1x+0.3\ge0$.
 
@@ -230,7 +232,9 @@ $$
 
 ### 习题十二
 
-(复习参考题 3 拓广探索第 12 题) 试讨论函数 $y=x-\dfrac{1}{x}$ 的定义域, 值域, 单调性, 奇偶性, 并画出函数图象.
+(复习参考题 3 拓广探索第 12 题) 试讨论函数 $y=x-\frac{1}{x}$ 的定义域, 值域, 单调性, 奇偶性, 并画出函数图象.
+
+![week28-2.svg](../figures/week28-2.svg){width=50%}
 
 ### 解答 习题十二
 
@@ -238,7 +242,7 @@ $$
 
 定义域: $x\ne0$, 即 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-奇偶性: $f\left(-x\right)=-x-\dfrac{1}{-x}=-x+\dfrac{1}{x}=-\left(x-\dfrac{1}{x}\right)=-f\left(x\right)$, 故为奇函数.
+奇偶性: $f\left(-x\right)=-x-\frac{1}{-x}=-x+\frac{1}{x}=-\left(x-\frac{1}{x}\right)=-f\left(x\right)$, 故为奇函数.
 
 单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1<x_2$, 则
 
@@ -246,6 +250,6 @@ $$
 f\left(x_1\right)-f\left(x_2\right)=\left(x_1-\frac{1}{x_1}\right)-\left(x_2-\frac{1}{x_2}\right)=\left(x_1-x_2\right)+\left(\frac{1}{x_2}-\frac{1}{x_1}\right)=\left(x_1-x_2\right)\left(1+\frac{1}{x_1x_2}\right).
 $$
 
-由 $x_1<x_2$ 得 $x_1-x_2<0$, 又 $1+\dfrac{1}{x_1x_2}>0$, 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<f\left(x_2\right)$, 在 $\left(0,+\infty\right)$ 上单调递增. 由奇函数性质, 在 $\left(-\infty,0\right)$ 上也单调递增.
+由 $x_1<x_2$ 得 $x_1-x_2<0$, 又 $1+\frac{1}{x_1x_2}>0$, 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<f\left(x_2\right)$, 在 $\left(0,+\infty\right)$ 上单调递增. 由奇函数性质, 在 $\left(-\infty,0\right)$ 上也单调递增.
 
 值域: 当 $x\to0^+$ 时 $y\to-\infty$, 当 $x\to+\infty$ 时 $y\to+\infty$, 且函数在 $\left(0,+\infty\right)$ 上连续递增, 故值域为 $\mathbb R$. 图象关于原点对称, 在第一象限从 $-\infty$ 递增至 $+\infty$, 以 $y=x$ 和 $y$ 轴为渐近线. $\blacksquare$

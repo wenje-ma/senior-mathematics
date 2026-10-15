@@ -2,11 +2,11 @@
 
 > **定义 2.4.1** (圆的标准方程) <br>圆心为 $A\left(a,b\right)$, 半径长为 $r$ 的圆的标准方程为 $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
 
-> **定义 2.4.3** (圆的一般方程) <br>方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F>0$ 时, 方程表示以 $\left(-\dfrac{D}{2},-\dfrac{E}{2}\right)$ 为圆心, 半径为 $\dfrac{\sqrt{D^2+E^2-4F}}{2}$ 的圆.
+> **定义 2.4.3** (圆的一般方程) <br>方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F>0$ 时, 方程表示以 $\left(-\frac{D}{2},-\frac{E}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt{D^2+E^2-4F}}{2}$ 的圆.
 
 > **常用结论 2.3.2** (两点间距离公式) <br>平面内两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ 间的距离为 $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
 
-> **常用结论 2.3.3** (点到直线的距离公式) <br>点 $P\left(x_0,y_0\right)$ 到直线 $l:Ax+By+C=0$ 的距离为 $d=\dfrac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
+> **常用结论 2.3.3** (点到直线的距离公式) <br>点 $P\left(x_0,y_0\right)$ 到直线 $l:Ax+By+C=0$ 的距离为 $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
 
 > **常用结论 2.5.1** (直线与圆的位置关系) <br>设圆的半径为 $r$, 圆心到直线的距离为 $d$, 则 $d<r$ 时直线与圆相交 (有两个公共点), $d=r$ 时直线与圆相切 (有一个公共点), $d>r$ 时直线与圆相离 (没有公共点).
 
@@ -31,15 +31,15 @@
 (1) 圆 $C$ 的圆心为 $\left(0,0\right)$, 半径 $r=\sqrt 3$. 由**常用结论 2.3.3** (点到直线的距离公式),
 
 $$
-d=\dfrac{\left|0-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\dfrac{1}{\sqrt 2}.
+d=\frac{\left|0-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{1}{\sqrt 2}.
 $$
 
-因为 $d=\dfrac{1}{\sqrt 2}<\sqrt 3=r$, 故直线 $l$ 与圆 $C$ 相交.
+因为 $d=\frac{1}{\sqrt 2}<\sqrt 3=r$, 故直线 $l$ 与圆 $C$ 相交.
 
 (2) 圆 $C:x^2+y^2-2x=0$ 即 $\left(x-1\right)^2+y^2=1$, 圆心为 $\left(1,0\right)$, 半径 $r=1$. 由距离公式,
 
 $$
-d=\dfrac{\left|3\cdot1+4\cdot0+2\right|}{\sqrt{3^2+4^2}}=\dfrac{5}{5}=1.
+d=\frac{\left|3\cdot1+4\cdot0+2\right|}{\sqrt{3^2+4^2}}=\frac{5}{5}=1.
 $$
 
 因为 $d=r=1$, 故直线 $l$ 与圆 $C$ 相切.
@@ -47,7 +47,7 @@ $$
 (3) 圆 $C:x^2+y^2+2y=0$ 即 $x^2+\left(y+1\right)^2=1$, 圆心为 $\left(0,-1\right)$, 半径 $r=1$. 由距离公式,
 
 $$
-d=\dfrac{\left|0+\left(-1\right)+3\right|}{\sqrt{1^2+1^2}}=\dfrac{2}{\sqrt 2}=\sqrt 2.
+d=\frac{\left|0+\left(-1\right)+3\right|}{\sqrt{1^2+1^2}}=\frac{2}{\sqrt 2}=\sqrt 2.
 $$
 
 因为 $d=\sqrt 2>1=r$, 故直线 $l$ 与圆 $C$ 相离. $\blacksquare$
@@ -61,7 +61,7 @@ $$
 由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $\left(0,0\right)$ 到直线 $4x+3y-35=0$ 的距离为
 
 $$
-d=\dfrac{\left|-35\right|}{\sqrt{4^2+3^2}}=\dfrac{35}{5}=7.
+d=\frac{\left|-35\right|}{\sqrt{4^2+3^2}}=\frac{35}{5}=7.
 $$
 
 由**常用结论 2.5.1** (直线与圆的位置关系), 相切时 $d=r$, 故 $r=7$. 由**定义 2.4.1** (圆的标准方程), 圆的方程为 $x^2+y^2=49$. $\blacksquare$
@@ -75,15 +75,15 @@ $$
 圆心为 $\left(1,2\right)$, 半径 $r=2$. 由**常用结论 2.3.3** (点到直线的距离公式),
 
 $$
-d=\dfrac{\left|2\cdot1-2+2\right|}{\sqrt{2^2+\left(-1\right)^2}}=\dfrac{2}{\sqrt 5}.
+d=\frac{\left|2\cdot1-2+2\right|}{\sqrt{2^2+\left(-1\right)^2}}=\frac{2}{\sqrt 5}.
 $$
 
-因为 $d=\dfrac{2}{\sqrt 5}<2=r$, 故直线与圆相交.
+因为 $d=\frac{2}{\sqrt 5}<2=r$, 故直线与圆相交.
 
 由**常用结论 2.5.2** (弦长公式), 弦长为
 
 $$
-\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{4-\dfrac{4}{5}}=2\sqrt{\dfrac{16}{5}}=\dfrac{8\sqrt 5}{5}.
+\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{4-\frac{4}{5}}=2\sqrt{\frac{16}{5}}=\frac{8\sqrt 5}{5}.
 $$
 
 $\blacksquare$
@@ -100,7 +100,7 @@ $\blacksquare$
 
 代入两端点 $\left(18.7,0\right)$: $18.7^2+b^2=r^2$. 代入拱顶点 $\left(0,7.2\right)$: $\left(7.2-b\right)^2=r^2$.
 
-联立, 得 $18.7^2+b^2=\left(7.2-b\right)^2=51.84-14.4b+b^2$, 即 $349.69=51.84-14.4b$, 即 $b=\dfrac{51.84-349.69}{14.4}\approx-20.68$.
+联立, 得 $18.7^2+b^2=\left(7.2-b\right)^2=51.84-14.4b+b^2$, 即 $349.69=51.84-14.4b$, 即 $b=\frac{51.84-349.69}{14.4}\approx-20.68$.
 
 $r^2=18.7^2+20.68^2\approx349.69+427.66=777.35$.
 
@@ -134,12 +134,12 @@ $10^2+b^2=r^2$, $\left(4-b\right)^2=r^2$.
 
 机器人的轨迹是以 $C\left(5,-3\right)$ 为圆心, 半径 $r=9$ 的圆.
 
-直线 $AB$ 的方程: 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\dfrac{12-0}{0-\left(-10\right)}=\dfrac{6}{5}$. 由**定义 2.2.1** (点斜式方程), 代入点 $A\left(-10,0\right)$, 得 $y=\dfrac{6}{5}\left(x+10\right)$, 即 $6x-5y+60=0$.
+直线 $AB$ 的方程: 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\frac{12-0}{0-\left(-10\right)}=\frac{6}{5}$. 由**定义 2.2.1** (点斜式方程), 代入点 $A\left(-10,0\right)$, 得 $y=\frac{6}{5}\left(x+10\right)$, 即 $6x-5y+60=0$.
 
 由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $C\left(5,-3\right)$ 到直线 $AB$ 的距离为
 
 $$
-d=\dfrac{\left|6\cdot5-5\cdot\left(-3\right)+60\right|}{\sqrt{6^2+\left(-5\right)^2}}=\dfrac{\left|30+15+60\right|}{\sqrt{61}}=\dfrac{105}{\sqrt{61}}\approx13.44.
+d=\frac{\left|6\cdot5-5\cdot\left(-3\right)+60\right|}{\sqrt{6^2+\left(-5\right)^2}}=\frac{\left|30+15+60\right|}{\sqrt{61}}=\frac{105}{\sqrt{61}}\approx13.44.
 $$
 
 因为 $d\approx13.44>9=r$, 直线与圆相离.
@@ -174,15 +174,15 @@ $r_1+r_2=2+3=5=d$. 由**常用结论 2.5.3** (圆与圆的位置关系), $d=r_1+
 
 由**定义 2.4.3** (圆的一般方程), 化标准式.
 
-圆 $C_1:\left(x+1\right)^2+\left(y+\dfrac{3}{2}\right)^2=\dfrac{9}{4}$, 圆心 $O_1\left(-1,-\dfrac{3}{2}\right)$, 半径 $r_1=\dfrac{3}{2}$.
+圆 $C_1:\left(x+1\right)^2+\left(y+\frac{3}{2}\right)^2=\frac{9}{4}$, 圆心 $O_1\left(-1,-\frac{3}{2}\right)$, 半径 $r_1=\frac{3}{2}$.
 
-圆 $C_2:\left(x+2\right)^2+\left(y+\dfrac{3}{2}\right)^2=\dfrac{17}{4}$, 圆心 $O_2\left(-2,-\dfrac{3}{2}\right)$, 半径 $r_2=\dfrac{\sqrt{17}}{2}$.
+圆 $C_2:\left(x+2\right)^2+\left(y+\frac{3}{2}\right)^2=\frac{17}{4}$, 圆心 $O_2\left(-2,-\frac{3}{2}\right)$, 半径 $r_2=\frac{\sqrt{17}}{2}$.
 
 由**常用结论 2.3.2** (两点间距离公式), 圆心距为 $d=\sqrt{\left(-2+1\right)^2+0}=1$.
 
-$r_1=\dfrac{3}{2}$, $r_2=\dfrac{\sqrt{17}}{2}$. $|r_1-r_2|=\dfrac{\sqrt{17}-3}{2}\approx0.56<1<\dfrac{3+\sqrt{17}}{2}\approx3.56=r_1+r_2$. 由**常用结论 2.5.3** (圆与圆的位置关系), 两圆相交.
+$r_1=\frac{3}{2}$, $r_2=\frac{\sqrt{17}}{2}$. $\lvert r_1-r_2 \rvert=\frac{\sqrt{17}-3}{2}\approx0.56<1<\frac{3+\sqrt{17}}{2}\approx3.56=r_1+r_2$. 由**常用结论 2.5.3** (圆与圆的位置关系), 两圆相交.
 
-两圆方程相减, 得 $\left(x^2+y^2+4x+3y+2\right)-\left(x^2+y^2+2x+3y+1\right)=0$, 即 $2x+1=0$, 即 $x=-\dfrac{1}{2}$. 公共弦所在直线的方程为 $x=-\dfrac{1}{2}$. $\blacksquare$
+两圆方程相减, 得 $\left(x^2+y^2+4x+3y+2\right)-\left(x^2+y^2+2x+3y+1\right)=0$, 即 $2x+1=0$, 即 $x=-\frac{1}{2}$. 公共弦所在直线的方程为 $x=-\frac{1}{2}$. $\blacksquare$
 
 ### 习题一
 
@@ -193,12 +193,12 @@ $r_1=\dfrac{3}{2}$, $r_2=\dfrac{\sqrt{17}}{2}$. $|r_1-r_2|=\dfrac{\sqrt{17}-3}{2
 圆心为 $\left(0,0\right)$, 半径 $r=10$. 由**常用结论 2.3.3** (点到直线的距离公式),
 
 $$
-d=\dfrac{\left|-50\right|}{\sqrt{4^2+\left(-3\right)^2}}=\dfrac{50}{5}=10.
+d=\frac{\left|-50\right|}{\sqrt{4^2+\left(-3\right)^2}}=\frac{50}{5}=10.
 $$
 
 因为 $d=r=10$, 由**常用结论 2.5.1** (直线与圆的位置关系), 直线与圆相切.
 
-切点坐标: 联立 $\begin{cases}4x-3y=50\\x^2+y^2=100\end{cases}$. 由第一式得 $y=\dfrac{4x-50}{3}$, 代入第二式, 得 $x^2+\dfrac{\left(4x-50\right)^2}{9}=100$, 即 $9x^2+16x^2-400x+2500=900$, 即 $25x^2-400x+1600=0$, 即 $x^2-16x+64=0$, 即 $\left(x-8\right)^2=0$, 故 $x=8$. 代回得 $y=\dfrac{32-50}{3}=-6$. 公共点为 $\left(8,-6\right)$. $\blacksquare$
+切点坐标: 联立 $\begin{cases}4x-3y=50\\x^2+y^2=100\end{cases}$. 由第一式得 $y=\frac{4x-50}{3}$, 代入第二式, 得 $x^2+\frac{\left(4x-50\right)^2}{9}=100$, 即 $9x^2+16x^2-400x+2500=900$, 即 $25x^2-400x+1600=0$, 即 $x^2-16x+64=0$, 即 $\left(x-8\right)^2=0$, 故 $x=8$. 代回得 $y=\frac{32-50}{3}=-6$. 公共点为 $\left(8,-6\right)$. $\blacksquare$
 
 ### 习题二
 
@@ -210,6 +210,8 @@ $$
 
 (3) 半径为 $\sqrt{13}$, 且与直线 $2x-3y+6=0$ 相切于点 $\left(3,4\right)$.
 
+![week64-1.svg](../figures/week64-1.svg){width=100%}
+
 ### 解答 习题二
 
 由**常用结论 2.3.3** (点到直线的距离公式) 与**常用结论 2.5.1** (直线与圆的位置关系).
@@ -217,22 +219,22 @@ $$
 (1) 半径即圆心 $M\left(3,-5\right)$ 到直线 $x-7y+2=0$ 的距离:
 
 $$
-r=\dfrac{\left|3-7\cdot\left(-5\right)+2\right|}{\sqrt{1+49}}=\dfrac{40}{\sqrt{50}}=4\sqrt 2.
+r=\frac{\left|3-7\cdot\left(-5\right)+2\right|}{\sqrt{1+49}}=\frac{40}{\sqrt{50}}=4\sqrt 2.
 $$
 
 由**定义 2.4.1** (圆的标准方程), 圆的方程为 $\left(x-3\right)^2+\left(y+5\right)^2=32$.
 
-(2) 圆心在直线 $y=x$ 上, 设圆心为 $\left(a,a\right)$. 圆与直线 $y=6$ 相切, 半径为 $2$, 即圆心到直线 $y=6$ 的距离为 $2$, 即 $|a-6|=2$, 故 $a=4$ 或 $a=8$. 圆心为 $\left(4,4\right)$ 或 $\left(8,8\right)$. 圆的方程为 $\left(x-4\right)^2+\left(y-4\right)^2=4$ 或 $\left(x-8\right)^2+\left(y-8\right)^2=4$.
+(2) 圆心在直线 $y=x$ 上, 设圆心为 $\left(a,a\right)$. 圆与直线 $y=6$ 相切, 半径为 $2$, 即圆心到直线 $y=6$ 的距离为 $2$, 即 $\lvert a-6 \rvert=2$, 故 $a=4$ 或 $a=8$. 圆心为 $\left(4,4\right)$ 或 $\left(8,8\right)$. 圆的方程为 $\left(x-4\right)^2+\left(y-4\right)^2=4$ 或 $\left(x-8\right)^2+\left(y-8\right)^2=4$.
 
-(3) 圆心与切点 $\left(3,4\right)$ 的连线与切线 $2x-3y+6=0$ 垂直. 切线斜率为 $\dfrac{2}{3}$, 故半径所在直线斜率为 $-\dfrac{3}{2}$. 圆心在过切点 $\left(3,4\right)$ 且斜率为 $-\dfrac{3}{2}$ 的直线上, 即 $y-4=-\dfrac{3}{2}\left(x-3\right)$.
+(3) 圆心与切点 $\left(3,4\right)$ 的连线与切线 $2x-3y+6=0$ 垂直. 切线斜率为 $\frac{2}{3}$, 故半径所在直线斜率为 $-\frac{3}{2}$. 圆心在过切点 $\left(3,4\right)$ 且斜率为 $-\frac{3}{2}$ 的直线上, 即 $y-4=-\frac{3}{2}\left(x-3\right)$.
 
-设圆心为 $\left(a,4-\dfrac{3}{2}\left(a-3\right)\right)=\left(a,\dfrac{17-3a}{2}\right)$. 半径为 $\sqrt{13}$, 即圆心到切点的距离为 $\sqrt{13}$, 即
+设圆心为 $\left(a,4-\frac{3}{2}\left(a-3\right)\right)=\left(a,\frac{17-3a}{2}\right)$. 半径为 $\sqrt{13}$, 即圆心到切点的距离为 $\sqrt{13}$, 即
 
 $$
-\left(a-3\right)^2+\left(\dfrac{17-3a}{2}-4\right)^2=13.
+\left(a-3\right)^2+\left(\frac{17-3a}{2}-4\right)^2=13.
 $$
 
-化简, 得 $\left(a-3\right)^2+\left(\dfrac{9-3a}{2}\right)^2=13$, 即 $\left(a-3\right)^2+\dfrac{9}{4}\left(a-3\right)^2=13$, 即 $\dfrac{13}{4}\left(a-3\right)^2=13$, 即 $\left(a-3\right)^2=4$, 故 $a=5$ 或 $a=1$.
+化简, 得 $\left(a-3\right)^2+\left(\frac{9-3a}{2}\right)^2=13$, 即 $\left(a-3\right)^2+\frac{9}{4}\left(a-3\right)^2=13$, 即 $\frac{13}{4}\left(a-3\right)^2=13$, 即 $\left(a-3\right)^2=4$, 故 $a=5$ 或 $a=1$.
 
 圆心为 $\left(5,1\right)$ 或 $\left(1,7\right)$. 圆的方程为 $\left(x-5\right)^2+\left(y-1\right)^2=13$ 或 $\left(x-1\right)^2+\left(y-7\right)^2=13$. $\blacksquare$
 
@@ -245,13 +247,13 @@ $$
 圆 $C:\left(x-1\right)^2+\left(y-2\right)^2=5$, 圆心为 $\left(1,2\right)$, 半径 $r=\sqrt 5$. 由**常用结论 2.3.3** (点到直线的距离公式),
 
 $$
-d=\dfrac{\left|3\cdot1-2-6\right|}{\sqrt{3^2+\left(-1\right)^2}}=\dfrac{5}{\sqrt{10}}.
+d=\frac{\left|3\cdot1-2-6\right|}{\sqrt{3^2+\left(-1\right)^2}}=\frac{5}{\sqrt{10}}.
 $$
 
 由**常用结论 2.5.2** (弦长公式), 弦长为
 
 $$
-\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{5-\dfrac{25}{10}}=2\sqrt{\dfrac{5}{2}}=\sqrt{10}.
+\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{5-\frac{25}{10}}=2\sqrt{\frac{5}{2}}=\sqrt{10}.
 $$
 
 $\blacksquare$
@@ -262,12 +264,12 @@ $\blacksquare$
 
 ### 解答 习题四
 
-圆心在直线 $3x-y=0$ 上, 设圆心为 $\left(a,3a\right)$. 圆与 $x$ 轴相切, 即半径等于圆心到 $x$ 轴的距离 $r=|3a|$.
+圆心在直线 $3x-y=0$ 上, 设圆心为 $\left(a,3a\right)$. 圆与 $x$ 轴相切, 即半径等于圆心到 $x$ 轴的距离 $r=\lvert 3a \rvert$.
 
 圆心到直线 $x-y=0$ 的距离为
 
 $$
-d=\dfrac{|a-3a|}{\sqrt 2}=\dfrac{|2a|}{\sqrt 2}=\sqrt 2|a|.
+d=\frac{\lvert a-3a \rvert}{\sqrt 2}=\frac{\lvert 2a \rvert}{\sqrt 2}=\sqrt 2\lvert a \rvert.
 $$
 
 由**常用结论 2.5.2** (弦长公式), 弦长 $2\sqrt 7=2\sqrt{r^2-d^2}$, 即 $7=r^2-d^2=9a^2-2a^2=7a^2$, 故 $a^2=1$, 即 $a=\pm1$.
@@ -280,38 +282,38 @@ $$
 
 ### 解答 习题五
 
-圆 $C:\left(x-\dfrac{1}{2}\right)^2+\left(y+1\right)^2=\dfrac{5}{4}$, 圆心为 $\left(\dfrac{1}{2},-1\right)$, 半径 $r=\dfrac{\sqrt 5}{2}$.
+圆 $C:\left(x-\frac{1}{2}\right)^2+\left(y+1\right)^2=\frac{5}{4}$, 圆心为 $\left(\frac{1}{2},-1\right)$, 半径 $r=\frac{\sqrt 5}{2}$.
 
-先求圆心 $\left(\dfrac{1}{2},-1\right)$ 关于直线 $l:x-y+1=0$ 的对称点 $\left(a,b\right)$.
+先求圆心 $\left(\frac{1}{2},-1\right)$ 关于直线 $l:x-y+1=0$ 的对称点 $\left(a,b\right)$.
 
-对称点的连线与 $l$ 垂直, $l$ 的斜率为 $1$, 故连线斜率为 $-1$, 即 $\dfrac{b+1}{a-\dfrac{1}{2}}=-1$, 即 $b+1=-\left(a-\dfrac{1}{2}\right)$, 即 $b=-a-\dfrac{1}{2}$.
+对称点的连线与 $l$ 垂直, $l$ 的斜率为 $1$, 故连线斜率为 $-1$, 即 $\frac{b+1}{a-\frac{1}{2}}=-1$, 即 $b+1=-\left(a-\frac{1}{2}\right)$, 即 $b=-a-\frac{1}{2}$.
 
-中点 $\left(\dfrac{a+\dfrac{1}{2}}{2},\dfrac{b-1}{2}\right)$ 在直线 $l$ 上, 即 $\dfrac{a+\dfrac{1}{2}}{2}-\dfrac{b-1}{2}+1=0$, 即 $a+\dfrac{1}{2}-b+1+2=0$, 即 $a-b+\dfrac{7}{2}=0$.
+中点 $\left(\frac{a+\frac{1}{2}}{2},\frac{b-1}{2}\right)$ 在直线 $l$ 上, 即 $\frac{a+\frac{1}{2}}{2}-\frac{b-1}{2}+1=0$, 即 $a+\frac{1}{2}-b+1+2=0$, 即 $a-b+\frac{7}{2}=0$.
 
-代入 $b=-a-\dfrac{1}{2}$, 得 $a+a+\dfrac{1}{2}+\dfrac{7}{2}=0$, 即 $2a+4=0$, 故 $a=-2$, $b=\dfrac{3}{2}$.
+代入 $b=-a-\frac{1}{2}$, 得 $a+a+\frac{1}{2}+\frac{7}{2}=0$, 即 $2a+4=0$, 故 $a=-2$, $b=\frac{3}{2}$.
 
-对称圆的圆心为 $\left(-2,\dfrac{3}{2}\right)$, 半径不变为 $\dfrac{\sqrt 5}{2}$. 圆的方程为 $\left(x+2\right)^2+\left(y-\dfrac{3}{2}\right)^2=\dfrac{5}{4}$. $\blacksquare$
+对称圆的圆心为 $\left(-2,\frac{3}{2}\right)$, 半径不变为 $\frac{\sqrt 5}{2}$. 圆的方程为 $\left(x+2\right)^2+\left(y-\frac{3}{2}\right)^2=\frac{5}{4}$. $\blacksquare$
 
 ### 习题六
 
-(习题 2.5 复习巩固第 6 题) 正方形 $ABCD$ 的边长为 $a$, 在边 $BC$ 上取线段 $BE=\dfrac{a}{3}$, 在边 $DC$ 的延长线上取 $CF=\dfrac{a}{2}$. 试证明: 直线 $AE$ 与 $BF$ 的交点 $M$ 位于正方形 $ABCD$ 的外接圆上.
+(习题 2.5 复习巩固第 6 题) 正方形 $ABCD$ 的边长为 $a$, 在边 $BC$ 上取线段 $BE=\frac{a}{3}$, 在边 $DC$ 的延长线上取 $CF=\frac{a}{2}$. 试证明: 直线 $AE$ 与 $BF$ 的交点 $M$ 位于正方形 $ABCD$ 的外接圆上.
 
 ### 解答 习题六
 
 建立坐标系, 设正方形 $ABCD$ 的顶点为 $A\left(0,0\right)$, $B\left(a,0\right)$, $C\left(a,a\right)$, $D\left(0,a\right)$.
 
-则 $E\left(a,\dfrac{a}{3}\right)$, $F\left(a+\dfrac{a}{2},a\right)=\left(\dfrac{3a}{2},a\right)$.
+则 $E\left(a,\frac{a}{3}\right)$, $F\left(a+\frac{a}{2},a\right)=\left(\frac{3a}{2},a\right)$.
 
-直线 $AE$ 过 $A\left(0,0\right)$ 和 $E\left(a,\dfrac{a}{3}\right)$, 斜率为 $\dfrac{1}{3}$, 方程为 $y=\dfrac{1}{3}x$.
+直线 $AE$ 过 $A\left(0,0\right)$ 和 $E\left(a,\frac{a}{3}\right)$, 斜率为 $\frac{1}{3}$, 方程为 $y=\frac{1}{3}x$.
 
-直线 $BF$ 过 $B\left(a,0\right)$ 和 $F\left(\dfrac{3a}{2},a\right)$, 斜率为 $\dfrac{a-0}{\dfrac{3a}{2}-a}=2$, 方程为 $y=2\left(x-a\right)$.
+直线 $BF$ 过 $B\left(a,0\right)$ 和 $F\left(\frac{3a}{2},a\right)$, 斜率为 $\frac{a-0}{\frac{3a}{2}-a}=2$, 方程为 $y=2\left(x-a\right)$.
 
-交点 $M$ 满足 $\dfrac{1}{3}x=2\left(x-a\right)$, 即 $x=6x-6a$, 即 $5x=6a$, 故 $x=\dfrac{6a}{5}$, $y=\dfrac{2a}{5}$.
+交点 $M$ 满足 $\frac{1}{3}x=2\left(x-a\right)$, 即 $x=6x-6a$, 即 $5x=6a$, 故 $x=\frac{6a}{5}$, $y=\frac{2a}{5}$.
 
-正方形的外接圆以中心 $\left(\dfrac{a}{2},\dfrac{a}{2}\right)$ 为圆心, 半径为 $\dfrac{\sqrt 2 a}{2}$. 点 $M\left(\dfrac{6a}{5},\dfrac{2a}{5}\right)$ 到中心的距离为
+正方形的外接圆以中心 $\left(\frac{a}{2},\frac{a}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt 2 a}{2}$. 点 $M\left(\frac{6a}{5},\frac{2a}{5}\right)$ 到中心的距离为
 
 $$
-\sqrt{\left(\dfrac{6a}{5}-\dfrac{a}{2}\right)^2+\left(\dfrac{2a}{5}-\dfrac{a}{2}\right)^2}=\sqrt{\left(\dfrac{7a}{10}\right)^2+\left(-\dfrac{a}{10}\right)^2}=\sqrt{\dfrac{50a^2}{100}}=\dfrac{\sqrt 2 a}{2}.
+\sqrt{\left(\frac{6a}{5}-\frac{a}{2}\right)^2+\left(\frac{2a}{5}-\frac{a}{2}\right)^2}=\sqrt{\left(\frac{7a}{10}\right)^2+\left(-\frac{a}{10}\right)^2}=\sqrt{\frac{50a^2}{100}}=\frac{\sqrt 2 a}{2}.
 $$
 
 距离等于半径, 故点 $M$ 在外接圆上. $\blacksquare$
@@ -336,13 +338,13 @@ $$
 
 设所求圆的方程为 $x^2+y^2+6x-4+\lambda\left(x^2+y^2+6y-28\right)=0$, 即 $\left(1+\lambda\right)x^2+\left(1+\lambda\right)y^2+6x+6\lambda y-4-28\lambda=0$.
 
-圆心为 $\left(-\dfrac{3}{1+\lambda},-\dfrac{3\lambda}{1+\lambda}\right)$. 圆心在直线 $x-y-4=0$ 上, 故
+圆心为 $\left(-\frac{3}{1+\lambda},-\frac{3\lambda}{1+\lambda}\right)$. 圆心在直线 $x-y-4=0$ 上, 故
 
 $$
--\dfrac{3}{1+\lambda}+\dfrac{3\lambda}{1+\lambda}-4=0.
+-\frac{3}{1+\lambda}+\frac{3\lambda}{1+\lambda}-4=0.
 $$
 
-化简, 得 $\dfrac{3\lambda-3}{1+\lambda}=4$, 即 $3\lambda-3=4+4\lambda$, 即 $\lambda=-7$.
+化简, 得 $\frac{3\lambda-3}{1+\lambda}=4$, 即 $3\lambda-3=4+4\lambda$, 即 $\lambda=-7$.
 
 代入, 得 $-6x^2-6y^2+6x-42y+192=0$, 即 $x^2+y^2-x+7y-32=0$. $\blacksquare$
 
@@ -357,7 +359,7 @@ $$
 圆 $x^2+y^2=4$ 的圆心为 $\left(0,0\right)$, 半径 $r=2$. 由**常用结论 2.3.3** (点到直线的距离公式), 圆心到公共弦的距离为
 
 $$
-d=\dfrac{|0-0+2|}{\sqrt 2}=\sqrt 2.
+d=\frac{\lvert 0-0+2 \rvert}{\sqrt 2}=\sqrt 2.
 $$
 
 由**常用结论 2.5.2** (弦长公式), 公共弦长为
@@ -378,17 +380,17 @@ $\blacksquare$
 
 所求圆过切点 $N\left(1,2\right)$, 故 $N$ 与两圆圆心共线. 设所求圆圆心为 $\left(a,b\right)$, 则 $\left(a,b\right)$, $N\left(1,2\right)$, $C_0\left(-1,3\right)$ 三点共线.
 
-斜率相等: $\dfrac{b-2}{a-1}=\dfrac{2-3}{1-\left(-1\right)}=-\dfrac{1}{2}$, 即 $b-2=-\dfrac{1}{2}\left(a-1\right)$.
+斜率相等: $\frac{b-2}{a-1}=\frac{2-3}{1-\left(-1\right)}=-\frac{1}{2}$, 即 $b-2=-\frac{1}{2}\left(a-1\right)$.
 
 所求圆半径平方为 $\left(a-1\right)^2+\left(b-2\right)^2$, 且过点 $M\left(3,-1\right)$, 即 $\left(a-3\right)^2+\left(b+1\right)^2=\left(a-1\right)^2+\left(b-2\right)^2$.
 
 展开, 得 $a^2-6a+9+b^2+2b+1=a^2-2a+1+b^2-4b+4$, 即 $-4a+6b+5=0$.
 
-联立 $b=2-\dfrac{1}{2}\left(a-1\right)=\dfrac{5-a}{2}$ 与 $-4a+6b+5=0$, 代入得 $-4a+3\left(5-a\right)+5=0$, 即 $-7a+20=0$, 故 $a=\dfrac{20}{7}$, $b=\dfrac{5-\dfrac{20}{7}}{2}=\dfrac{15}{14}$.
+联立 $b=2-\frac{1}{2}\left(a-1\right)=\frac{5-a}{2}$ 与 $-4a+6b+5=0$, 代入得 $-4a+3\left(5-a\right)+5=0$, 即 $-7a+20=0$, 故 $a=\frac{20}{7}$, $b=\frac{5-\frac{20}{7}}{2}=\frac{15}{14}$.
 
-半径平方为 $\left(\dfrac{20}{7}-1\right)^2+\left(\dfrac{15}{14}-2\right)^2=\left(\dfrac{13}{7}\right)^2+\left(-\dfrac{13}{14}\right)^2=\dfrac{169}{49}+\dfrac{169}{196}=\dfrac{845}{196}$.
+半径平方为 $\left(\frac{20}{7}-1\right)^2+\left(\frac{15}{14}-2\right)^2=\left(\frac{13}{7}\right)^2+\left(-\frac{13}{14}\right)^2=\frac{169}{49}+\frac{169}{196}=\frac{845}{196}$.
 
-圆的方程为 $\left(x-\dfrac{20}{7}\right)^2+\left(y-\dfrac{15}{14}\right)^2=\dfrac{845}{196}$. $\blacksquare$
+圆的方程为 $\left(x-\frac{20}{7}\right)^2+\left(y-\frac{15}{14}\right)^2=\frac{845}{196}$. $\blacksquare$
 
 ### 习题十一
 
@@ -398,58 +400,58 @@ $\blacksquare$
 
 设 $A,B,C$ 三轮的中心分别为 $O_A,O_B,O_C$. 各轮半径分别为 $r_A=100$, $r_B=60$, $r_C=125$.
 
-因为啮合, 故 $|O_AO_B|=r_A+r_B=160$, $|O_BO_C|=r_B+r_C=185$.
+因为啮合, 故 $\lvert O_AO_B \rvert=r_A+r_B=160$, $\lvert O_BO_C \rvert=r_B+r_C=185$.
 
 以 $O_A$ 为原点, $O_AO_B$ 所在直线为 $x$ 轴, 则 $O_A\left(0,0\right)$, $O_B\left(160,0\right)$.
 
 $\angle A=45^\circ$, 即 $O_AO_C$ 与 $O_AO_B$ 的夹角为 $45^\circ$. 设 $O_C\left(x,y\right)$, 则
 
 $$
-x^2+y^2=|O_AO_C|^2,
+x^2+y^2=\lvert O_AO_C \rvert^2,
 $$
 
 $$
 \left(x-160\right)^2+y^2=185^2.
 $$
 
-两式相减, 得 $\left(x-160\right)^2-x^2=185^2-|O_AO_C|^2$. 但我们不知道 $|O_AO_C|$.
+两式相减, 得 $\left(x-160\right)^2-x^2=185^2-\lvert O_AO_C \rvert^2$. 但我们不知道 $\lvert O_AO_C \rvert$.
 
 由 $\angle O_A=45^\circ$, 在 $\triangle O_AO_BO_C$ 中, 由余弦定理,
 
 $$
-|O_BO_C|^2=|O_AO_B|^2+|O_AO_C|^2-2|O_AO_B||O_AO_C|\cos45^\circ.
+\lvert O_BO_C \rvert^2=\lvert O_AO_B \rvert^2+\lvert O_AO_C \rvert^2-2\lvert O_AO_B \rvert\lvert O_AO_C \rvert\cos45^\circ.
 $$
 
-设 $d=|O_AO_C|$, 则 $185^2=160^2+d^2-2\cdot160\cdot d\cdot\dfrac{\sqrt 2}{2}$, 即 $34225=25600+d^2-160\sqrt 2\,d$, 即 $d^2-160\sqrt 2\,d-8625=0$.
+设 $d=\lvert O_AO_C \rvert$, 则 $185^2=160^2+d^2-2\cdot160\cdot d\cdot\frac{\sqrt 2}{2}$, 即 $34225=25600+d^2-160\sqrt 2\,d$, 即 $d^2-160\sqrt 2\,d-8625=0$.
 
-解得 $d=\dfrac{160\sqrt 2+\sqrt{51200+34500}}{2}=\dfrac{160\sqrt 2+\sqrt{85700}}{2}\approx\dfrac{226.3+292.7}{2}\approx259.5$.
+解得 $d=\frac{160\sqrt 2+\sqrt{51200+34500}}{2}=\frac{160\sqrt 2+\sqrt{85700}}{2}\approx\frac{226.3+292.7}{2}\approx259.5$.
 
 精确到 $1\,\mathrm{cm}$, $A,C$ 两齿轮的中心距离约为 $260\,\mathrm{cm}$. $\blacksquare$
 
 ### 习题十二
 
-(习题 2.5 综合运用第 12 题) 已知 $A\left(-2,-2\right)$, $B\left(-2,6\right)$, $C\left(4,-2\right)$ 三点, 点 $P$ 在圆 $x^2+y^2=4$ 上运动, 求 $|PA|^2+|PB|^2+|PC|^2$ 的最大值和最小值.
+(习题 2.5 综合运用第 12 题) 已知 $A\left(-2,-2\right)$, $B\left(-2,6\right)$, $C\left(4,-2\right)$ 三点, 点 $P$ 在圆 $x^2+y^2=4$ 上运动, 求 $\lvert PA \rvert^2+\lvert PB \rvert^2+\lvert PC \rvert^2$ 的最大值和最小值.
 
 ### 解答 习题十二
 
 设点 $P$ 的坐标为 $\left(x,y\right)$, 则 $x^2+y^2=4$.
 
 $$
-|PA|^2=\left(x+2\right)^2+\left(y+2\right)^2=x^2+y^2+4x+4y+8,
+\lvert PA \rvert^2=\left(x+2\right)^2+\left(y+2\right)^2=x^2+y^2+4x+4y+8,
 $$
 
 $$
-|PB|^2=\left(x+2\right)^2+\left(y-6\right)^2=x^2+y^2+4x-12y+40,
+\lvert PB \rvert^2=\left(x+2\right)^2+\left(y-6\right)^2=x^2+y^2+4x-12y+40,
 $$
 
 $$
-|PC|^2=\left(x-4\right)^2+\left(y+2\right)^2=x^2+y^2-8x+4y+20.
+\lvert PC \rvert^2=\left(x-4\right)^2+\left(y+2\right)^2=x^2+y^2-8x+4y+20.
 $$
 
 三式相加, 得
 
 $$
-|PA|^2+|PB|^2+|PC|^2=3\left(x^2+y^2\right)+0x-4y+68=3\cdot4-4y+68=80-4y.
+\lvert PA \rvert^2+\lvert PB \rvert^2+\lvert PC \rvert^2=3\left(x^2+y^2\right)+0x-4y+68=3\cdot4-4y+68=80-4y.
 $$
 
 因为点 $P$ 在圆 $x^2+y^2=4$ 上, 故 $y\in\left[-2,2\right]$.
@@ -462,7 +464,7 @@ $$
 
 ### 解答 习题十三
 
-由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\dfrac{|b|}{\sqrt 2}$.
+由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\frac{\lvert b \rvert}{\sqrt 2}$.
 
 圆的半径为 $2$. 到直线 $l$ 距离为 $1$ 的点在两条平行线上, 到圆心距离分别为 $d-1$ 和 $d+1$.
 
@@ -472,7 +474,7 @@ $$
 
 (b) 当 $d=1$ 时, 一条平行线过圆心 $d-1=0$ (相交于两点), 另一条距圆心 $d+1=2=r$ (相切于一点). 共三个点.
 
-故 $d=\dfrac{|b|}{\sqrt 2}=1$, 即 $b=\pm\sqrt 2$. $\blacksquare$
+故 $d=\frac{\lvert b \rvert}{\sqrt 2}=1$, 即 $b=\pm\sqrt 2$. $\blacksquare$
 
 ### 习题十四
 
@@ -482,23 +484,25 @@ $$
 
 (2) 是否存在弦 $AB$ 被点 $P_0$ 平分? 若存在, 写出直线 $AB$ 的方程; 若不存在, 请说明理由.
 
+![week64-2.svg](../figures/week64-2.svg){width=50%}
+
 ### 解答 习题十四
 
 (1) 当 $\alpha=135^\circ$ 时, 斜率 $k=\tan135^\circ=-1$. 直线 $AB$ 过点 $P_0\left(-1,2\right)$, 方程为 $y-2=-\left(x+1\right)$, 即 $x+y-1=0$.
 
-圆心 $\left(0,0\right)$ 到直线的距离为 $d=\dfrac{|-1|}{\sqrt 2}=\dfrac{1}{\sqrt 2}$. 圆的半径 $r=\sqrt 8=2\sqrt 2$.
+圆心 $\left(0,0\right)$ 到直线的距离为 $d=\frac{\lvert -1 \rvert}{\sqrt 2}=\frac{1}{\sqrt 2}$. 圆的半径 $r=\sqrt 8=2\sqrt 2$.
 
 由**常用结论 2.5.2** (弦长公式), 弦长为
 
 $$
-|AB|=2\sqrt{r^2-d^2}=2\sqrt{8-\dfrac{1}{2}}=2\sqrt{\dfrac{15}{2}}=\sqrt{30}.
+\lvert AB \rvert=2\sqrt{r^2-d^2}=2\sqrt{8-\frac{1}{2}}=2\sqrt{\frac{15}{2}}=\sqrt{30}.
 $$
 
-(2) 若弦 $AB$ 被点 $P_0$ 平分, 则 $OP_0\perp AB$. $k_{OP_0}=\dfrac{2-0}{-1-0}=-2$, 故 $k_{AB}=\dfrac{1}{2}$.
+(2) 若弦 $AB$ 被点 $P_0$ 平分, 则 $OP_0\perp AB$. $k_{OP_0}=\frac{2-0}{-1-0}=-2$, 故 $k_{AB}=\frac{1}{2}$.
 
-直线 $AB$ 过点 $P_0\left(-1,2\right)$, 方程为 $y-2=\dfrac{1}{2}\left(x+1\right)$, 即 $x-2y+5=0$.
+直线 $AB$ 过点 $P_0\left(-1,2\right)$, 方程为 $y-2=\frac{1}{2}\left(x+1\right)$, 即 $x-2y+5=0$.
 
-圆心到直线的距离为 $d=\dfrac{|5|}{\sqrt 5}=\sqrt 5<2\sqrt 2=r$, 直线与圆相交, 故存在这样的弦. 直线 $AB$ 的方程为 $x-2y+5=0$. $\blacksquare$
+圆心到直线的距离为 $d=\frac{\lvert 5 \rvert}{\sqrt 5}=\sqrt 5<2\sqrt 2=r$, 直线与圆相交, 故存在这样的弦. 直线 $AB$ 的方程为 $x-2y+5=0$. $\blacksquare$
 
 ### 习题十五
 
@@ -510,16 +514,18 @@ $$
 
 (3) 求直线 $AB$ 的方程.
 
+![week64-3.svg](../figures/week64-3.svg){width=50%}
+
 ### 解答 习题十五
 
-(1) 圆心 $Q\left(4,2\right)$, 点 $P\left(-2,-3\right)$. 以 $PQ$ 为直径的圆的圆心 $Q'$ 为 $PQ$ 的中点 $\left(\dfrac{4-2}{2},\dfrac{2-3}{2}\right)=\left(1,-\dfrac{1}{2}\right)$. 半径为 $\dfrac{|PQ|}{2}=\dfrac{\sqrt{\left(4+2\right)^2+\left(2+3\right)^2}}{2}=\dfrac{\sqrt{61}}{2}$.
+(1) 圆心 $Q\left(4,2\right)$, 点 $P\left(-2,-3\right)$. 以 $PQ$ 为直径的圆的圆心 $Q'$ 为 $PQ$ 的中点 $\left(\frac{4-2}{2},\frac{2-3}{2}\right)=\left(1,-\frac{1}{2}\right)$. 半径为 $\frac{\lvert PQ \rvert}{2}=\frac{\sqrt{\left(4+2\right)^2+\left(2+3\right)^2}}{2}=\frac{\sqrt{61}}{2}$.
 
-圆 $Q'$ 的方程为 $\left(x-1\right)^2+\left(y+\dfrac{1}{2}\right)^2=\dfrac{61}{4}$.
+圆 $Q'$ 的方程为 $\left(x-1\right)^2+\left(y+\frac{1}{2}\right)^2=\frac{61}{4}$.
 
 (2) 因为 $AB$ 是圆 $Q$ 与圆 $Q'$ 的公共弦, 而 $PQ$ 是圆 $Q'$ 的直径, 故 $\angle PAQ=90^\circ$, 即 $PA\perp QA$. 因为 $QA$ 是圆 $Q$ 的半径, 故 $PA$ 是圆 $Q$ 的切线. 同理, $PB$ 也是圆 $Q$ 的切线.
 
-(3) 两圆方程相减: $\left(x-1\right)^2+\left(y+\dfrac{1}{2}\right)^2-\left[\left(x-4\right)^2+\left(y-2\right)^2\right]=\dfrac{61}{4}-9$.
+(3) 两圆方程相减: $\left(x-1\right)^2+\left(y+\frac{1}{2}\right)^2-\left[\left(x-4\right)^2+\left(y-2\right)^2\right]=\frac{61}{4}-9$.
 
-展开, 得 $\left(x^2-2x+1+y^2+y+\dfrac{1}{4}\right)-\left(x^2-8x+16+y^2-4y+4\right)=\dfrac{25}{4}$.
+展开, 得 $\left(x^2-2x+1+y^2+y+\frac{1}{4}\right)-\left(x^2-8x+16+y^2-4y+4\right)=\frac{25}{4}$.
 
-化简, 得 $6x+5y-18.75=\dfrac{25}{4}$, 即 $6x+5y=25$. 直线 $AB$ 的方程为 $6x+5y-25=0$. $\blacksquare$
+化简, 得 $6x+5y-18.75=\frac{25}{4}$, 即 $6x+5y=25$. 直线 $AB$ 的方程为 $6x+5y-25=0$. $\blacksquare$

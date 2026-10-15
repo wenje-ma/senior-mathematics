@@ -1,18 +1,18 @@
 # 作业 58
 
-> **定理 1.2.1** (空间向量基本定理) <br>如果三个向量 $\vec a$, $\vec b$, $\vec c$ 不共面, 那么对任意一个空间向量 $\vec p$, 存在唯一的有序实数组 $(x,y,z)$, 使得 $\vec p=x\vec a+y\vec b+z\vec c$.
+> **定理 1.2.1** (空间向量基本定理) <br>如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么对任意一个空间向量 $\boldsymbol{p}$, 存在唯一的有序实数组 $(x,y,z)$, 使得 $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
 
-> **定义 1.2.3** (单位正交基底) <br>如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\{\vec i, \vec j, \vec k\}$ 表示.
+> **定义 1.2.3** (单位正交基底) <br>如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ 表示.
 
-> **定义 1.3.1** (空间直角坐标系) <br>在空间选定一点 $O$ 和一个单位正交基底 $\{\vec i, \vec j, \vec k\}$. 以点 $O$ 为原点, 分别以 $\vec i$, $\vec j$, $\vec k$ 的方向为正方向, 以它们的长为单位长度建立三条数轴: $x$ 轴, $y$ 轴, $z$ 轴, 它们都叫做坐标轴. 这时我们就建立了一个空间直角坐标系 $Oxyz$, $O$ 叫做原点, $\vec i$, $\vec j$, $\vec k$ 都叫做坐标向量, 通过每两条坐标轴的平面叫做坐标平面.
+> **定义 1.3.1** (空间直角坐标系) <br>在空间选定一点 $O$ 和一个单位正交基底 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$. 以点 $O$ 为原点, 分别以 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 的方向为正方向, 以它们的长为单位长度建立三条数轴: $x$ 轴, $y$ 轴, $z$ 轴, 它们都叫做坐标轴. 这时我们就建立了一个空间直角坐标系 $Oxyz$, $O$ 叫做原点, $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 都叫做坐标向量, 通过每两条坐标轴的平面叫做坐标平面.
 
-> **定义 1.3.2** (点的坐标) <br>在单位正交基底 $\{\vec i, \vec j, \vec k\}$ 下与向量 $\overrightarrow{OA}$ 对应的有序实数组 $(x,y,z)$, 叫做点 $A$ 在空间直角坐标系中的坐标, 记作 $A(x,y,z)$, 其中 $x$ 叫做点 $A$ 的横坐标, $y$ 叫做点 $A$ 的纵坐标, $z$ 叫做点 $A$ 的竖坐标.
+> **定义 1.3.2** (点的坐标) <br>在单位正交基底 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ 下与向量 $\boldsymbol{OA}$ 对应的有序实数组 $(x,y,z)$, 叫做点 $A$ 在空间直角坐标系中的坐标, 记作 $A(x,y,z)$, 其中 $x$ 叫做点 $A$ 的横坐标, $y$ 叫做点 $A$ 的纵坐标, $z$ 叫做点 $A$ 的竖坐标.
 
-> **定义 1.3.3** (向量的坐标) <br>有序实数组 $(x,y,z)$ 叫做 $\vec a$ 在空间直角坐标系 $Oxyz$ 中的坐标, 即 $\vec a=x\vec i+y\vec j+z\vec k$, 上式可简记作 $\vec a=(x,y,z)$.
+> **定义 1.3.3** (向量的坐标) <br>有序实数组 $(x,y,z)$ 叫做 $\boldsymbol{a}$ 在空间直角坐标系 $Oxyz$ 中的坐标, 即 $\boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}+z\boldsymbol{k}$, 上式可简记作 $\boldsymbol{a}=(x,y,z)$.
 
-> **常用结论 1.3.4** (空间向量运算的坐标表示) <br>设 $\vec a=(a_1,a_2,a_3)$, $\vec b=(b_1,b_2,b_3)$, 则 $\vec a+\vec b=(a_1+b_1,a_2+b_2,a_3+b_3)$, $\vec a-\vec b=(a_1-b_1,a_2-b_2,a_3-b_3)$, $\lambda\vec a=(\lambda a_1,\lambda a_2,\lambda a_3)$, $\lambda \in \mathbb R$, $\vec a \cdot \vec b=a_1b_1+a_2b_2+a_3b_3$. 一个空间向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
+> **常用结论 1.3.4** (空间向量运算的坐标表示) <br>设 $\boldsymbol{a}=(a_1,a_2,a_3)$, $\boldsymbol{b}=(b_1,b_2,b_3)$, 则 $\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3)$, $\boldsymbol{a}-\boldsymbol{b}=(a_1-b_1,a_2-b_2,a_3-b_3)$, $\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3)$, $\lambda \in \mathbb R$, $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$. 一个空间向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
 
-> **常用结论 1.3.5** (平行, 垂直, 模长, 夹角的坐标表示) <br>当 $\vec b \neq \vec 0$ 时, $\vec a \parallel \vec b \iff \vec a=\lambda\vec b \iff a_1=\lambda b_1$, $a_2=\lambda b_2$, $a_3=\lambda b_3$ ($\lambda \in \mathbb R$); 当 $\vec a \neq \vec 0$, $\vec b \neq \vec 0$ 时, $\vec a \perp \vec b \iff \vec a \cdot \vec b=0 \iff a_1b_1+a_2b_2+a_3b_3=0$; $\lvert \vec a \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \langle \vec a, \vec b \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}$.
+> **常用结论 1.3.5** (平行, 垂直, 模长, 夹角的坐标表示) <br>当 $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1$, $a_2=\lambda b_2$, $a_3=\lambda b_3$ ($\lambda \in \mathbb R$); 当 $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0 \iff a_1b_1+a_2b_2+a_3b_3=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}$.
 
 > **常用结论 1.3.6** (空间两点间的距离公式) <br>设 $P_1(x_1,y_1,z_1)$, $P_2(x_2,y_2,z_2)$ 是空间中任意两点, 则 $P_1P_2=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$.
 
@@ -60,7 +60,9 @@ $D(1,3,4)$: 从原点沿 $x$ 轴走 $1$, 沿 $y$ 轴走 $3$, 沿 $z$ 轴走 $4$.
 
 (1) 写出点 $C$, $B'$, $P$ 的坐标;
 
-(2) 写出向量 $\overrightarrow{BB'}$, $\overrightarrow{A'C'}$ 的坐标.
+(2) 写出向量 $\boldsymbol{BB'}$, $\boldsymbol{A'C'}$ 的坐标.
+
+![week58-1.svg](../figures/week58-1.svg){width=50%}
 
 ### 解答 练习三
 
@@ -74,13 +76,13 @@ $D(1,3,4)$: 从原点沿 $x$ 轴走 $1$, 沿 $y$ 轴走 $3$, 沿 $z$ 轴走 $4$.
 
 $P$ 是 $A'C'$ 与 $B'D'$ 的交点, 即上底面的中心, 故 $P\left(\frac{3}{2}, 2, 3\right)$.
 
-(2) $\overrightarrow{BB'}=\overrightarrow{OB'}-\overrightarrow{OB}=(3,4,3)-(3,0,0)=(0,4,3)$.
+(2) $\boldsymbol{BB'}=\boldsymbol{OB'}-\boldsymbol{OB}=(3,4,3)-(3,0,0)=(0,4,3)$.
 
-$\overrightarrow{A'C'}=\overrightarrow{OC'}-\overrightarrow{OA'}=(0,4,3)-(3,0,3)=(-3,4,0)$. $\blacksquare$
+$\boldsymbol{A'C'}=\boldsymbol{OC'}-\boldsymbol{OA'}=(0,4,3)-(3,0,3)=(-3,4,0)$. $\blacksquare$
 
 ### 练习四
 
-(练习 1.3 第 4 题) 已知点 $B$ 是点 $A(3,4,5)$ 在坐标平面 $Oxy$ 内的射影, 求 $\lvert \overrightarrow{OB} \rvert$.
+(练习 1.3 第 4 题) 已知点 $B$ 是点 $A(3,4,5)$ 在坐标平面 $Oxy$ 内的射影, 求 $\lvert \boldsymbol{OB} \rvert$.
 
 ### 解答 练习四
 
@@ -88,45 +90,45 @@ $\overrightarrow{A'C'}=\overrightarrow{OC'}-\overrightarrow{OA'}=(0,4,3)-(3,0,3)
 
 点 $A(3,4,5)$ 在坐标平面 $Oxy$ 内的射影为 $B(3,4,0)$.
 
-$\overrightarrow{OB}=(3,4,0)$.
+$\boldsymbol{OB}=(3,4,0)$.
 
-由**常用结论 1.3.5**, $\lvert \overrightarrow{OB} \rvert=\sqrt{3^2+4^2+0^2}=\sqrt{9+16}=5$. $\blacksquare$
+由**常用结论 1.3.5**, $\lvert \boldsymbol{OB} \rvert=\sqrt{3^2+4^2+0^2}=\sqrt{9+16}=5$. $\blacksquare$
 
 ### 练习五
 
-(练习 1.3 第 1 题) 已知 $\vec a=(-3,2,5)$, $\vec b=(1,5,-1)$, 求:
+(练习 1.3 第 1 题) 已知 $\boldsymbol{a}=(-3,2,5)$, $\boldsymbol{b}=(1,5,-1)$, 求:
 
-(1) $\vec a+\vec b$;
+(1) $\boldsymbol{a}+\boldsymbol{b}$;
 
-(2) $6\vec a$;
+(2) $6\boldsymbol{a}$;
 
-(3) $3\vec a-\vec b$;
+(3) $3\boldsymbol{a}-\boldsymbol{b}$;
 
-(4) $\vec a \cdot \vec b$.
+(4) $\boldsymbol{a} \cdot \boldsymbol{b}$.
 
 ### 解答 练习五
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示).
 
-(1) $\vec a+\vec b=(-3+1, 2+5, 5+(-1))=(-2,7,4)$.
+(1) $\boldsymbol{a}+\boldsymbol{b}=(-3+1, 2+5, 5+(-1))=(-2,7,4)$.
 
-(2) $6\vec a=(6 \times (-3), 6 \times 2, 6 \times 5)=(-18,12,30)$.
+(2) $6\boldsymbol{a}=(6 \times (-3), 6 \times 2, 6 \times 5)=(-18,12,30)$.
 
-(3) $3\vec a-\vec b=3(-3,2,5)-(1,5,-1)=(-9,6,15)-(1,5,-1)=(-10,1,16)$.
+(3) $3\boldsymbol{a}-\boldsymbol{b}=3(-3,2,5)-(1,5,-1)=(-9,6,15)-(1,5,-1)=(-10,1,16)$.
 
-(4) $\vec a \cdot \vec b=(-3) \times 1+2 \times 5+5 \times (-1)=-3+10-5=2$. $\blacksquare$
+(4) $\boldsymbol{a} \cdot \boldsymbol{b}=(-3) \times 1+2 \times 5+5 \times (-1)=-3+10-5=2$. $\blacksquare$
 
 ### 练习六
 
-(练习 1.3 第 2 题) 已知 $\vec a=(2,-1,3)$, $\vec b=(-4,2,x)$, 且 $\vec a \perp \vec b$. 求 $x$ 的值.
+(练习 1.3 第 2 题) 已知 $\boldsymbol{a}=(2,-1,3)$, $\boldsymbol{b}=(-4,2,x)$, 且 $\boldsymbol{a} \perp \boldsymbol{b}$. 求 $x$ 的值.
 
 ### 解答 练习六
 
-由**常用结论 1.3.5** (垂直的坐标表示), $\vec a \perp \vec b \iff \vec a \cdot \vec b=0$.
+由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$.
 
-$\vec a \cdot \vec b=2 \times (-4)+(-1) \times 2+3 \times x=-8-2+3x=3x-10$.
+$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times (-4)+(-1) \times 2+3 \times x=-8-2+3x=3x-10$.
 
-由 $\vec a \perp \vec b$, 得 $3x-10=0$, 即 $x=\frac{10}{3}$. $\blacksquare$
+由 $\boldsymbol{a} \perp \boldsymbol{b}$, 得 $3x-10=0$, 即 $x=\frac{10}{3}$. $\blacksquare$
 
 ### 练习七
 
@@ -152,6 +154,8 @@ $MB=\sqrt{(1-0)^2+(-3-0)^2+(1-z)^2}=\sqrt{1+9+(1-z)^2}=\sqrt{10+(1-z)^2}$.
 
 (练习 1.3 第 4 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, 点 $N$, $M$ 分别在 $AC$, $BC'$ 上, $AN=2CN$, $BM=2MC'$, 求 $MN$ 的长.
 
+![week58-2.svg](../figures/week58-2.svg){width=50%}
+
 ### 解答 练习八
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.6** (空间两点间的距离公式).
@@ -162,13 +166,15 @@ $AN=2CN$, 故 $N$ 在 $AC$ 上且 $AN:NC=2:1$, 由定比分点, $N=\frac{1 \cdot
 
 $BM=2MC'$, 故 $M$ 在 $BC'$ 上且 $BM:MC'=2:1$, $M=\frac{1 \cdot B+2 \cdot C'}{3}=\left(\frac{a}{3}, a, \frac{2a}{3}\right)$.
 
-$\overrightarrow{MN}=M-N=(0, \frac{a}{3}, \frac{2a}{3})$.
+$\boldsymbol{MN}=M-N=(0, \frac{a}{3}, \frac{2a}{3})$.
 
 $MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\frac{a^2}{9}+\frac{4a^2}{9}}=\frac{\sqrt{5}a}{3}$. $\blacksquare$
 
 ### 练习九
 
 (练习 1.3 第 5 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$ 是 $AB$ 的中点, 求 $DB_1$ 与 $CM$ 所成角的余弦值.
+
+![week58-3.svg](../figures/week58-3.svg){width=50%}
 
 ### 解答 练习九
 
@@ -178,31 +184,31 @@ $MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\fra
 
 $D(0,0,0)$, $B_1(1,1,1)$, $C(0,1,0)$, $M\left(1, \frac{1}{2}, 0\right)$.
 
-$\overrightarrow{DB_1}=(1,1,1)$.
+$\boldsymbol{DB_1}=(1,1,1)$.
 
-$\overrightarrow{CM}=M-C=\left(1, -\frac{1}{2}, 0\right)$.
+$\boldsymbol{CM}=M-C=\left(1, -\frac{1}{2}, 0\right)$.
 
-$\overrightarrow{DB_1} \cdot \overrightarrow{CM}=1 \times 1+1 \times \left(-\frac{1}{2}\right)+1 \times 0=\frac{1}{2}$.
+$\boldsymbol{DB_1} \cdot \boldsymbol{CM}=1 \times 1+1 \times \left(-\frac{1}{2}\right)+1 \times 0=\frac{1}{2}$.
 
-$\lvert \overrightarrow{DB_1} \rvert=\sqrt{3}$.
+$\lvert \boldsymbol{DB_1} \rvert=\sqrt{3}$.
 
-$\lvert \overrightarrow{CM} \rvert=\sqrt{1+\frac{1}{4}}=\frac{\sqrt{5}}{2}$.
+$\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{1}{4}}=\frac{\sqrt{5}}{2}$.
 
 $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqrt{15}}=\frac{\sqrt{15}}{15}$. $\blacksquare$
 
 ### 习题一
 
-(习题 1.3 复习巩固第 1 题) 在空间直角坐标系 $Oxyz$ 中, 三个非零向量 $\vec a$, $\vec b$, $\vec c$ 分别平行于 $x$ 轴, $y$ 轴, $z$ 轴, 它们的坐标各有什么特点?
+(习题 1.3 复习巩固第 1 题) 在空间直角坐标系 $Oxyz$ 中, 三个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 分别平行于 $x$ 轴, $y$ 轴, $z$ 轴, 它们的坐标各有什么特点?
 
 ### 解答 习题一
 
 由**定义 1.3.3** (向量的坐标).
 
-平行于 $x$ 轴的向量 $\vec a$, 其 $y$ 坐标和 $z$ 坐标均为 $0$, 即 $\vec a=(a_1,0,0)$, $a_1 \neq 0$.
+平行于 $x$ 轴的向量 $\boldsymbol{a}$, 其 $y$ 坐标和 $z$ 坐标均为 $0$, 即 $\boldsymbol{a}=(a_1,0,0)$, $a_1 \neq 0$.
 
-平行于 $y$ 轴的向量 $\vec b$, 其 $x$ 坐标和 $z$ 坐标均为 $0$, 即 $\vec b=(0,b_2,0)$, $b_2 \neq 0$.
+平行于 $y$ 轴的向量 $\boldsymbol{b}$, 其 $x$ 坐标和 $z$ 坐标均为 $0$, 即 $\boldsymbol{b}=(0,b_2,0)$, $b_2 \neq 0$.
 
-平行于 $z$ 轴的向量 $\vec c$, 其 $x$ 坐标和 $y$ 坐标均为 $0$, 即 $\vec c=(0,0,c_3)$, $c_3 \neq 0$. $\blacksquare$
+平行于 $z$ 轴的向量 $\boldsymbol{c}$, 其 $x$ 坐标和 $y$ 坐标均为 $0$, 即 $\boldsymbol{c}=(0,0,c_3)$, $c_3 \neq 0$. $\blacksquare$
 
 ### 习题二
 
@@ -231,6 +237,8 @@ $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqr
 ### 习题三
 
 (习题 1.3 复习巩固第 3 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, $E$, $F$, $G$, $H$, $I$, $J$ 分别是棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点, 写出正六边形 $EFGHIJ$ 各顶点的坐标.
+
+![week58-4.svg](../figures/week58-4.svg){width=50%}
 
 ### 解答 习题三
 
@@ -268,19 +276,19 @@ $J$ 是 $CC'$ 中点: $J\left(0, a, \frac{a}{2}\right)$. $\blacksquare$
 
 ### 习题五
 
-(习题 1.3 综合运用第 5 题) 已知 $\vec a=(2,-3,1)$, $\vec b=(2,0,3)$, $\vec c=(0,0,2)$. 求:
+(习题 1.3 综合运用第 5 题) 已知 $\boldsymbol{a}=(2,-3,1)$, $\boldsymbol{b}=(2,0,3)$, $\boldsymbol{c}=(0,0,2)$. 求:
 
-(1) $\vec a \cdot (\vec b+\vec c)$;
+(1) $\boldsymbol{a} \cdot (\boldsymbol{b}+\boldsymbol{c})$;
 
-(2) $\vec a+6\vec b-8\vec c$.
+(2) $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}$.
 
 ### 解答 习题五
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示).
 
-(1) $\vec b+\vec c=(2,0,5)$. $\vec a \cdot (\vec b+\vec c)=2 \times 2+(-3) \times 0+1 \times 5=4+0+5=9$.
+(1) $\boldsymbol{b}+\boldsymbol{c}=(2,0,5)$. $\boldsymbol{a} \cdot (\boldsymbol{b}+\boldsymbol{c})=2 \times 2+(-3) \times 0+1 \times 5=4+0+5=9$.
 
-(2) $6\vec b=(12,0,18)$, $8\vec c=(0,0,16)$. $\vec a+6\vec b-8\vec c=(2+12-0, -3+0-0, 1+18-16)=(14,-3,3)$. $\blacksquare$
+(2) $6\boldsymbol{b}=(12,0,18)$, $8\boldsymbol{c}=(0,0,16)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=(2+12-0, -3+0-0, 1+18-16)=(14,-3,3)$. $\blacksquare$
 
 ### 习题六
 
@@ -302,15 +310,15 @@ $BC=\sqrt{(2-10)^2+(4-(-1))^2+(3-6)^2}=\sqrt{64+25+9}=\sqrt{98}=7\sqrt{2}$.
 
 ### 习题七
 
-(习题 1.3 拓广探索第 7 题) 已知 $A(3,5,-7)$, $B(-2,4,3)$, 求 $\overrightarrow{AB}$, $\overrightarrow{BA}$, 线段 $AB$ 的中点坐标及线段 $AB$ 的长.
+(习题 1.3 拓广探索第 7 题) 已知 $A(3,5,-7)$, $B(-2,4,3)$, 求 $\boldsymbol{AB}$, $\boldsymbol{BA}$, 线段 $AB$ 的中点坐标及线段 $AB$ 的长.
 
 ### 解答 习题七
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.6** (空间两点间的距离公式).
 
-$\overrightarrow{AB}=B-A=(-2-3, 4-5, 3-(-7))=(-5,-1,10)$.
+$\boldsymbol{AB}=B-A=(-2-3, 4-5, 3-(-7))=(-5,-1,10)$.
 
-$\overrightarrow{BA}=A-B=(5,1,-10)$.
+$\boldsymbol{BA}=A-B=(5,1,-10)$.
 
 线段 $AB$ 的中点坐标为 $\left(\frac{3+(-2)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
 
@@ -320,6 +328,8 @@ $AB=\sqrt{(-5)^2+(-1)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3\sqrt{14}$. $\blacksqu
 
 (习题 1.3 拓广探索第 8 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$, $N$ 分别为棱 $A_1A$ 和 $B_1B$ 的中点, 求 $CM$ 和 $D_1N$ 所成角的余弦值.
 
+![week58-5.svg](../figures/week58-5.svg){width=50%}
+
 ### 解答 习题八
 
 由**常用结论 1.3.5** (夹角的坐标表示).
@@ -328,15 +338,15 @@ $AB=\sqrt{(-5)^2+(-1)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3\sqrt{14}$. $\blacksqu
 
 $D(0,0,0)$, $C(0,1,0)$, $M\left(1,0,\frac{1}{2}\right)$, $D_1(0,0,1)$, $N\left(1,1,\frac{1}{2}\right)$.
 
-$\overrightarrow{CM}=M-C=\left(1,-1,\frac{1}{2}\right)$.
+$\boldsymbol{CM}=M-C=\left(1,-1,\frac{1}{2}\right)$.
 
-$\overrightarrow{D_1N}=N-D_1=\left(1,1,-\frac{1}{2}\right)$.
+$\boldsymbol{D_1N}=N-D_1=\left(1,1,-\frac{1}{2}\right)$.
 
-$\overrightarrow{CM} \cdot \overrightarrow{D_1N}=1 \times 1+(-1) \times 1+\frac{1}{2} \times \left(-\frac{1}{2}\right)=1-1-\frac{1}{4}=-\frac{1}{4}$.
+$\boldsymbol{CM} \cdot \boldsymbol{D_1N}=1 \times 1+(-1) \times 1+\frac{1}{2} \times \left(-\frac{1}{2}\right)=1-1-\frac{1}{4}=-\frac{1}{4}$.
 
-$\lvert \overrightarrow{CM} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
+$\lvert \boldsymbol{CM} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
 
-$\lvert \overrightarrow{D_1N} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
+$\lvert \boldsymbol{D_1N} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
 
 $\cos \theta=\frac{-\frac{1}{4}}{\frac{3}{2} \cdot \frac{3}{2}}=-\frac{1}{9}$.
 
@@ -344,30 +354,30 @@ $\cos \theta=\frac{-\frac{1}{4}}{\frac{3}{2} \cdot \frac{3}{2}}=-\frac{1}{9}$.
 
 ### 习题九
 
-(习题 1.3 拓广探索第 9 题) $\{\vec a, \vec b, \vec c\}$ 是空间的一个单位正交基底, 向量 $\vec p=\vec a+2\vec b+3\vec c$, $\{\vec a+\vec b, \vec a-\vec b, \vec c\}$ 是空间的另一个基底, 用基底 $\{\vec a+\vec b, \vec a-\vec b, \vec c\}$ 表示向量 $\vec p$.
+(习题 1.3 拓广探索第 9 题) $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 是空间的一个单位正交基底, 向量 $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, $\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\}$ 是空间的另一个基底, 用基底 $\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\}$ 表示向量 $\boldsymbol{p}$.
 
 ### 解答 习题九
 
 由**定理 1.2.1** (空间向量基本定理).
 
-设 $\vec p=x(\vec a+\vec b)+y(\vec a-\vec b)+z\vec c=(x+y)\vec a+(x-y)\vec b+z\vec c$.
+设 $\boldsymbol{p}=x(\boldsymbol{a}+\boldsymbol{b})+y(\boldsymbol{a}-\boldsymbol{b})+z\boldsymbol{c}=(x+y)\boldsymbol{a}+(x-y)\boldsymbol{b}+z\boldsymbol{c}$.
 
-又 $\vec p=\vec a+2\vec b+3\vec c$, 比较系数:
+又 $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, 比较系数:
 
 $x+y=1$, $x-y=2$, $z=3$.
 
 解得 $x=\frac{3}{2}$, $y=-\frac{1}{2}$, $z=3$.
 
-故 $\vec p=\frac{3}{2}(\vec a+\vec b)-\frac{1}{2}(\vec a-\vec b)+3\vec c$. $\blacksquare$
+故 $\boldsymbol{p}=\frac{3}{2}(\boldsymbol{a}+\boldsymbol{b})-\frac{1}{2}(\boldsymbol{a}-\boldsymbol{b})+3\boldsymbol{c}$. $\blacksquare$
 
 ### 阅读与思考一
 
-(思考 1) 一般地, $n$ 元有序实数组 $(a_1,a_2,\cdots,a_n)$ 称为 $n$ 维向量. 类似二维向量, 对于 $n$ 维向量, 也可定义两个向量的加法运算, 减法运算, 数乘运算, 两个向量的数量积, 向量的长度 (模), 两点间的 "距离" 等. 设 $\vec a=(a_1,a_2,\cdots,a_n)$, $\vec b=(b_1,b_2,\cdots,b_n)$, 则 $\vec a \pm \vec b=(a_1 \pm b_1,a_2 \pm b_2,\cdots,a_n \pm b_n)$; $\lambda\vec a=(\lambda a_1,\lambda a_2,\cdots,\lambda a_n)$, $\lambda \in \mathbb R$; $\vec a \cdot \vec b=a_1b_1+a_2b_2+\cdots+a_nb_n$; $\lvert \vec a \rvert=\sqrt{a_1^2+a_2^2+\cdots+a_n^2}$. $n$ 维向量空间中两点 $A(a_1,a_2,\cdots,a_n)$, $B(b_1,b_2,\cdots,b_n)$ 间的 "距离" $d_{AB}=\sqrt{(b_1-a_1)^2+(b_2-a_2)^2+\cdots+(b_n-a_n)^2}$.
+(思考 1) 一般地, $n$ 元有序实数组 $(a_1,a_2,\cdots,a_n)$ 称为 $n$ 维向量. 类似二维向量, 对于 $n$ 维向量, 也可定义两个向量的加法运算, 减法运算, 数乘运算, 两个向量的数量积, 向量的长度 (模), 两点间的 "距离" 等. 设 $\boldsymbol{a}=(a_1,a_2,\cdots,a_n)$, $\boldsymbol{b}=(b_1,b_2,\cdots,b_n)$, 则 $\boldsymbol{a} \pm \boldsymbol{b}=(a_1 \pm b_1,a_2 \pm b_2,\cdots,a_n \pm b_n)$; $\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\cdots,\lambda a_n)$, $\lambda \in \mathbb R$; $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+\cdots+a_nb_n$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+\cdots+a_n^2}$. $n$ 维向量空间中两点 $A(a_1,a_2,\cdots,a_n)$, $B(b_1,b_2,\cdots,b_n)$ 间的 "距离" $d_{AB}=\sqrt{(b_1-a_1)^2+(b_2-a_2)^2+\cdots+(b_n-a_n)^2}$.
 
 ### 解答 阅读与思考一
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.5** (模长与夹角的坐标表示), 这些结论可直接推广到 $n$ 维向量情形.
 
-$n$ 维向量的加法, 减法, 数乘, 数量积, 模长和距离公式都是三维向量相应公式的直接推广, 其运算律与三维情形完全一致. 例如, 数量积满足交换律, 分配律和数乘结合律; 向量模长满足 $\lvert \vec a \rvert \geq 0$, 且 $\lvert \vec a \rvert=0 \iff \vec a=\vec 0$; 两点间距离满足非负性和对称性.
+$n$ 维向量的加法, 减法, 数乘, 数量积, 模长和距离公式都是三维向量相应公式的直接推广, 其运算律与三维情形完全一致. 例如, 数量积满足交换律, 分配律和数乘结合律; 向量模长满足 $\lvert \boldsymbol{a} \rvert \geq 0$, 且 $\lvert \boldsymbol{a} \rvert=0 \iff \boldsymbol{a}=\boldsymbol{0}$; 两点间距离满足非负性和对称性.
 
 在实际应用中, $n$ 维向量可用于表示多指标数据 (如学生成绩, 产品质量指标等), 通过向量运算和距离概念进行分类, 比较和分析. $\blacksquare$

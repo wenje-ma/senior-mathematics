@@ -8,7 +8,7 @@
 
 > **定义 8.3.11** (球的表面积) <br>$S_{\text{球}}=4\pi R^{2}$.
 
-> **定义 8.3.12** (球的体积) <br>$V_{\text{球}}=\dfrac{4}{3}\pi R^{3}$.
+> **定义 8.3.12** (球的体积) <br>$V_{\text{球}}=\frac{4}{3}\pi R^{3}$.
 
 > **基本事实 8.4.2** (基本事实 1) <br>过不在一条直线上的三个点, 有且只有一个平面.
 
@@ -62,6 +62,8 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 (2) 将四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 补成一个长方体, 并说出补上的几何体的名称.
 
+![week53-1.svg](../figures/week53-1.svg){width=50%}
+
 ### 解答 习题二
 
 由**定义 8.1.4** (棱柱) 及斜二测画法.
@@ -84,7 +86,7 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 (1) 正方体表面积 $S=6a^{2}$, 体积 $V=a^{3}$. 棱长扩大 $n$ 倍后, $S'=6(na)^{2}=n^{2}S$, $V'=(na)^{3}=n^{3}V$. 故表面积扩大 $n^{2}$ 倍, 体积扩大 $n^{3}$ 倍.
 
-(2) 球表面积 $S=4\pi R^{2}$, 体积 $V=\dfrac{4}{3}\pi R^{3}$. 半径扩大 $n$ 倍后, $S'=4\pi(nR)^{2}=n^{2}S$, $V'=\dfrac{4}{3}\pi(nR)^{3}=n^{3}V$. 故表面积扩大 $n^{2}$ 倍, 体积扩大 $n^{3}$ 倍. $\blacksquare$
+(2) 球表面积 $S=4\pi R^{2}$, 体积 $V=\frac{4}{3}\pi R^{3}$. 半径扩大 $n$ 倍后, $S'=4\pi(nR)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi(nR)^{3}=n^{3}V$. 故表面积扩大 $n^{2}$ 倍, 体积扩大 $n^{3}$ 倍. $\blacksquare$
 
 ### 习题四
 
@@ -92,22 +94,24 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 (图: 正方形边长 $10$, 中间正方形边长 $x$, 四个等腰三角形底为 $x$, 高为 $5$.)
 
+![week53-2.svg](../figures/week53-2.svg){width=50%}
+
 ### 解答 习题四
 
-由棱锥体积公式 $V=\dfrac{1}{3}Sh$.
+由棱锥体积公式 $V=\frac{1}{3}Sh$.
 
 正四棱锥底面是边长为 $x$ 的正方形, 底面积 $S=x^{2}$.
 
-等腰三角形的高为 $5$, 即侧面等腰三角形的斜高 $l=5$. 棱锥的高 $h$, 底面中心到边的距离 $\dfrac{x}{2}$, 斜高 $5$ 构成直角三角形:
+等腰三角形的高为 $5$, 即侧面等腰三角形的斜高 $l=5$. 棱锥的高 $h$, 底面中心到边的距离 $\frac{x}{2}$, 斜高 $5$ 构成直角三角形:
 
 $$
-h=\sqrt{5^{2}-\left(\dfrac{x}{2}\right)^{2}}=\sqrt{25-\dfrac{x^{2}}{4}}.
+h=\sqrt{5^{2}-\left(\frac{x}{2}\right)^{2}}=\sqrt{25-\frac{x^{2}}{4}}.
 $$
 
 故容积
 
 $$
-V=\dfrac{1}{3}x^{2}\sqrt{25-\dfrac{x^{2}}{4}}=\dfrac{x^{2}}{6}\sqrt{100-x^{2}}\quad (0<x<10).
+V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad (0<x<10).
 $$
 
 $\blacksquare$
@@ -154,6 +158,8 @@ $\blacksquare$
 
 (复习参考题8 复习巩固第 7 题) 如图, 四边形 $A'B'C'D'$ 是 $\square ABCD$ 在平面 $\alpha$ 上的投影 ($AA'\parallel BB'\parallel CC'\parallel DD'$), 求证: 四边形 $A'B'C'D'$ 是平行四边形.
 
+![week53-3.svg](../figures/week53-3.svg){width=50%}
+
 ### 解答 习题七
 
 由**定理 8.5.6** (平面与平面平行的性质定理).
@@ -167,6 +173,8 @@ $\blacksquare$
 ### 习题八
 
 (复习参考题8 复习巩固第 8 题) 如图, 一块正方体形木料的上底面有一点 $E$. 若经过点 $E$ 在上底面上画一条直线与 $CE$ 垂直, 则应该怎样画?
+
+![week53-4.svg](../figures/week53-4.svg){width=50%}
 
 ### 解答 习题八
 
@@ -185,6 +193,8 @@ $\blacksquare$
 (1) $DE\parallel$ 平面 $PAC$;
 
 (2) $AB\perp PB$.
+
+![week53-5.svg](../figures/week53-5.svg){width=50%}
 
 ### 解答 习题九
 
@@ -206,6 +216,8 @@ $\blacksquare$
 
 (2) 求三棱锥 $A'\text{-}EFD$ 的体积.
 
+![week53-6.svg](../figures/week53-6.svg){width=100%}
+
 ### 解答 习题十
 
 由**定理 8.6.4** (直线与平面垂直的判定定理) 及棱锥体积公式.
@@ -216,12 +228,12 @@ $\blacksquare$
 
 (2) 由上述, $A'E$, $A'F$, $A'D$ 两两垂直. $A'E=A'F=1$ ($E$, $F$ 为中点), $A'D=AD=2$.
 
-三棱锥 $A'\text{-}EFD$ 即三棱锥 $D\text{-}A'EF$ (以 $A'$ 为顶点, 底面 $\triangle A'EF$). $\triangle A'EF$ 是直角三角形, 面积 $S=\dfrac{1}{2}\times 1\times 1=\dfrac{1}{2}$.
+三棱锥 $A'\text{-}EFD$ 即三棱锥 $D\text{-}A'EF$ (以 $A'$ 为顶点, 底面 $\triangle A'EF$). $\triangle A'EF$ 是直角三角形, 面积 $S=\frac{1}{2}\times 1\times 1=\frac{1}{2}$.
 
 高 $DA'=2$. 故体积
 
 $$
-V=\dfrac{1}{3}\times\dfrac{1}{2}\times 2=\dfrac{1}{3}.
+V=\frac{1}{3}\times\frac{1}{2}\times 2=\frac{1}{3}.
 $$
 
 $\blacksquare$
@@ -238,7 +250,7 @@ $\blacksquare$
 
 在 $\triangle BMD$ 中, $P$ 是 $BM$ 中点, $N$ 是 $MD$ 中点, 故 $PN\parallel BD$.
 
-在 $\triangle ADC$ 中, $M$ 是 $AD$ 中点, $N$ 是 $MD$ 中点, 故 $AN=\dfrac{3}{4}AD$, 即 $AN:ND=3:1$. 又 $AQ:QC=3:1$, 故在 $\triangle ADC$ 中, $QN\parallel DC$.
+在 $\triangle ADC$ 中, $M$ 是 $AD$ 中点, $N$ 是 $MD$ 中点, 故 $AN=\frac{3}{4}AD$, 即 $AN:ND=3:1$. 又 $AQ:QC=3:1$, 故在 $\triangle ADC$ 中, $QN\parallel DC$.
 
 $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$, $BD\cap DC=D$. 由面面平行判定定理, 平面 $PQN\parallel$ 平面 $BCD$.
 
@@ -251,6 +263,8 @@ $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$, $BD\cap DC=D$. 由面面平�
 (1) $B_{1}D\perp$ 平面 $A_{1}BC_{1}$;
 
 (2) $B_{1}D$ 与平面 $A_{1}BC_{1}$ 的交点 $H$ 是 $\triangle A_{1}C_{1}B$ 的重心.
+
+![week53-7.svg](../figures/week53-7.svg){width=50%}
 
 ### 解答 习题十二
 
@@ -272,6 +286,8 @@ $A_{1}C_{1}\cap A_{1}B=A_{1}$, 由**定理 8.6.4** (直线与平面垂直的判�
 
 (2) 若 $AC=BC=PA$, $M$ 是 $PB$ 的中点, 求 $AM$ 与平面 $PBC$ 所成角的正切值.
 
+![week53-8.svg](../figures/week53-8.svg){width=50%}
+
 ### 解答 习题十三
 
 由**定理 8.6.8** (平面与平面垂直的判定定理).
@@ -286,14 +302,14 @@ $A_{1}C_{1}\cap A_{1}B=A_{1}$, 由**定理 8.6.4** (直线与平面垂直的判�
 
 由 (1) 平面 $PAC\perp$ 平面 $PBC$, 交线为 $PC$, $AN\subset$ 平面 $PAC$ 且 $AN\perp PC$, 故 $AN\perp$ 平面 $PBC$.
 
-$MN$ 是 $\triangle PBC$ 的中位线, $MN\parallel BC$ 且 $MN=\dfrac{1}{2}BC=\dfrac{a}{2}$.
+$MN$ 是 $\triangle PBC$ 的中位线, $MN\parallel BC$ 且 $MN=\frac{1}{2}BC=\frac{a}{2}$.
 
 $AM$ 在平面 $PBC$ 上的射影为 $NM$, $\angle AMN$ 即 $AM$ 与平面 $PBC$ 所成的角.
 
-$AN=\dfrac{\sqrt{2}}{2}a$, $MN=\dfrac{a}{2}$. 故
+$AN=\frac{\sqrt{2}}{2}a$, $MN=\frac{a}{2}$. 故
 
 $$
-\tan\angle AMN=\dfrac{AN}{MN}=\dfrac{\dfrac{\sqrt{2}}{2}a}{\dfrac{a}{2}}=\sqrt{2}.
+\tan\angle AMN=\frac{AN}{MN}=\frac{\frac{\sqrt{2}}{2}a}{\frac{a}{2}}=\sqrt{2}.
 $$
 
 $\blacksquare$
@@ -305,6 +321,8 @@ $\blacksquare$
 (1) 求证: $AM\perp$ 平面 $PCD$;
 
 (2) 求侧面 $PBC$ 与底面 $ABCD$ 所成二面角的余弦值.
+
+![week53-9.svg](../figures/week53-9.svg){width=50%}
 
 ### 解答 习题十四
 
@@ -324,9 +342,9 @@ $\triangle PAD$ 为正三角形, $O$ 为 $AD$ 中点, 故 $PO\perp AD$. 又平�
 
 $OE\parallel AB\parallel CD$, $OE\perp BC$. 由三垂线定理, $PE\perp BC$. 故 $\angle PEO$ 即侧面 $PBC$ 与底面 $ABCD$ 所成二面角的平面角.
 
-设正方形边长为 $a$, 则 $PO=\dfrac{\sqrt{3}}{2}a$, $OE=a$, $PE=\sqrt{PO^{2}+OE^{2}}=\sqrt{\dfrac{3}{4}a^{2}+a^{2}}=\dfrac{\sqrt{7}}{2}a$.
+设正方形边长为 $a$, 则 $PO=\frac{\sqrt{3}}{2}a$, $OE=a$, $PE=\sqrt{PO^{2}+OE^{2}}=\sqrt{\frac{3}{4}a^{2}+a^{2}}=\frac{\sqrt{7}}{2}a$.
 
-故 $\cos\angle PEO=\dfrac{OE}{PE}=\dfrac{a}{\dfrac{\sqrt{7}}{2}a}=\dfrac{2}{\sqrt{7}}=\dfrac{2\sqrt{7}}{7}$. $\blacksquare$
+故 $\cos\angle PEO=\frac{OE}{PE}=\frac{a}{\frac{\sqrt{7}}{2}a}=\frac{2}{\sqrt{7}}=\frac{2\sqrt{7}}{7}$. $\blacksquare$
 
 ### 习题十五
 

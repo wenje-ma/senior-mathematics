@@ -1,10 +1,10 @@
 # 作业 37
 
-> **定义 7.1.9** (复数的模) <br> 复数 $z=a+b\mathrm{i}$ 的模 $|z|=\sqrt{a^2+b^2}$.
+> **定义 7.1.9** (复数的模) <br> 复数 $z=a+b\mathrm{i}$ 的模 $\lvert z\rvert=\sqrt{a^2+b^2}$.
 
-> **定义 7.3.1** (复数的三角表示式) <br> 任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r(\cos\theta+\mathrm{i}\sin\theta)$ 的形式, 其中 $r$ 是复数 $z$ 的模, $\theta$ 是以 $x$ 轴非负半轴为始边, 向量 $\overrightarrow{OZ}$ 所在射线为终边的角. $r(\cos\theta+\mathrm{i}\sin\theta)$ 叫做复数 $z=a+b\mathrm{i}$ 的三角表示式, 简称三角形式; $a+b\mathrm{i}$ 叫做代数表示式.
+> **定义 7.3.1** (复数的三角表示式) <br> 任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r(\cos\theta+\mathrm{i}\sin\theta)$ 的形式, 其中 $r$ 是复数 $z$ 的模, $\theta$ 是以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角. $r(\cos\theta+\mathrm{i}\sin\theta)$ 叫做复数 $z=a+b\mathrm{i}$ 的三角表示式, 简称三角形式; $a+b\mathrm{i}$ 叫做代数表示式.
 
-> **定义 7.3.2** (辐角) <br> 以 $x$ 轴非负半轴为始边, 向量 $\overrightarrow{OZ}$ 所在射线为终边的角 $\theta$ 叫做复数 $z=a+b\mathrm{i}$ 的辐角. 任何不为零的复数的辐角有无限多个值, 且相差 $2\pi$ 的整数倍.
+> **定义 7.3.2** (辐角) <br> 以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角 $\theta$ 叫做复数 $z=a+b\mathrm{i}$ 的辐角. 任何不为零的复数的辐角有无限多个值, 且相差 $2\pi$ 的整数倍.
 
 > **定义 7.3.3** (辐角的主值) <br> 规定在 $0\le\theta<2\pi$ 范围内的辐角 $\theta$ 的值为辐角的主值, 通常记作 $\arg z$, 即 $0\le\arg z<2\pi$.
 
@@ -26,7 +26,7 @@ $$
 
 即商的模等于被除数的模除以除数的模, 商的辐角等于被除数的辐角减去除数的辐角.
 
-> **常用结论 7.3.7** (复数乘, 除运算的几何意义) <br> 两个复数相乘时, 把向量 $\overrightarrow{OZ_1}$ 绕点 $O$ 旋转角 $\theta_2$, 再把模变为原来的 $r_2$ 倍, 得到积对应的向量. 两个复数相除时, 把向量旋转角 $-\theta_2$, 再把模变为原来的 $\frac{1}{r_2}$ 倍.
+> **常用结论 7.3.7** (复数乘, 除运算的几何意义) <br> 两个复数相乘时, 把向量 $\boldsymbol{OZ_1}$ 绕点 $O$ 旋转角 $\theta_2$, 再把模变为原来的 $r_2$ 倍, 得到积对应的向量. 两个复数相除时, 把向量旋转角 $-\theta_2$, 再把模变为原来的 $\frac{1}{r_2}$ 倍.
 
 > **定理 7.3.8** (棣莫弗定理) <br>
 
@@ -45,6 +45,8 @@ $$
 (3) $2\sqrt{3}+2\mathrm{i}$;
 
 (4) $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
+
+![week37-1.svg](../figures/week37-1.svg){width=100%}
 
 ### 解答 练习一
 
@@ -114,9 +116,9 @@ $$
 
 (2) $2(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3})\times 4(\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6})$;
 
-(3) $\sqrt{2}(\cos 240°+\mathrm{i}\sin 240°)\times\frac{\sqrt{3}}{2}(\cos 60°+\mathrm{i}\sin 60°)$;
+(3) $\sqrt{2}(\cos 240^{\circ}+\mathrm{i}\sin 240^{\circ})\times\frac{\sqrt{3}}{2}(\cos 60^{\circ}+\mathrm{i}\sin 60^{\circ})$;
 
-(4) $3(\cos 18°+\mathrm{i}\sin 18°)\times 2(\cos 54°+\mathrm{i}\sin 54°)\times 5(\cos 108°+\mathrm{i}\sin 108°)$.
+(4) $3(\cos 18^{\circ}+\mathrm{i}\sin 18^{\circ})\times 2(\cos 54^{\circ}+\mathrm{i}\sin 54^{\circ})\times 5(\cos 108^{\circ}+\mathrm{i}\sin 108^{\circ})$.
 
 ### 解答 练习四
 
@@ -126,9 +128,9 @@ $$
 
 (2) 模: $2\times 4=8$; 辐角: $\frac{4\pi}{3}+\frac{5\pi}{6}=\frac{8\pi}{6}+\frac{5\pi}{6}=\frac{13\pi}{6}=\frac{\pi}{6}$ (减 $2\pi$). 结果为 $8(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6})$.
 
-(3) 模: $\sqrt{2}\times\frac{\sqrt{3}}{2}=\frac{\sqrt{6}}{2}$; 辐角: $240°+60°=300°$. 结果为 $\frac{\sqrt{6}}{2}(\cos 300°+\mathrm{i}\sin 300°)$.
+(3) 模: $\sqrt{2}\times\frac{\sqrt{3}}{2}=\frac{\sqrt{6}}{2}$; 辐角: $240^{\circ}+60^{\circ}=300^{\circ}$. 结果为 $\frac{\sqrt{6}}{2}(\cos 300^{\circ}+\mathrm{i}\sin 300^{\circ})$.
 
-(4) 模: $3\times 2\times 5=30$; 辐角: $18°+54°+108°=180°$. 结果为 $30(\cos 180°+\mathrm{i}\sin 180°)=-30$. $\blacksquare$
+(4) 模: $3\times 2\times 5=30$; 辐角: $18^{\circ}+54^{\circ}+108^{\circ}=180^{\circ}$. 结果为 $30(\cos 180^{\circ}+\mathrm{i}\sin 180^{\circ})=-30$. $\blacksquare$
 
 ### 练习五
 
@@ -136,11 +138,11 @@ $$
 
 (1) $12(\cos\frac{7\pi}{4}+\mathrm{i}\sin\frac{7\pi}{4})\div[6(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3})]$;
 
-(2) $\sqrt{3}(\cos 150°+\mathrm{i}\sin 150°)\div[\sqrt{2}(\cos 225°+\mathrm{i}\sin 225°)]$;
+(2) $\sqrt{3}(\cos 150^{\circ}+\mathrm{i}\sin 150^{\circ})\div[\sqrt{2}(\cos 225^{\circ}+\mathrm{i}\sin 225^{\circ})]$;
 
 (3) $2\div(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})$;
 
-(4) $-\mathrm{i}\div[2(\cos 120°+\mathrm{i}\sin 120°)]$.
+(4) $-\mathrm{i}\div[2(\cos 120^{\circ}+\mathrm{i}\sin 120^{\circ})]$.
 
 ### 解答 练习五
 
@@ -148,7 +150,7 @@ $$
 
 (1) 模: $12\div 6=2$; 辐角: $\frac{7\pi}{4}-\frac{2\pi}{3}=\frac{21\pi}{12}-\frac{8\pi}{12}=\frac{13\pi}{12}$. 结果为 $2(\cos\frac{13\pi}{12}+\mathrm{i}\sin\frac{13\pi}{12})$.
 
-(2) 模: $\sqrt{3}\div\sqrt{2}=\frac{\sqrt{6}}{2}$; 辐角: $150°-225°=-75°$. 结果为 $\frac{\sqrt{6}}{2}[\cos(-75°)+\mathrm{i}\sin(-75°)]$.
+(2) 模: $\sqrt{3}\div\sqrt{2}=\frac{\sqrt{6}}{2}$; 辐角: $150^{\circ}-225^{\circ}=-75^{\circ}$. 结果为 $\frac{\sqrt{6}}{2}[\cos(-75^{\circ})+\mathrm{i}\sin(-75^{\circ})]$.
 
 (3) 把 $2$ 写成 $2(\cos 0+\mathrm{i}\sin 0)$. 模: $2\div 1=2$; 辐角: $0-\frac{\pi}{4}=-\frac{\pi}{4}$. 结果为 $2[\cos(-\frac{\pi}{4})+\mathrm{i}\sin(-\frac{\pi}{4})]$.
 
@@ -156,15 +158,15 @@ $$
 
 ### 练习六
 
-(练习 7.3 第 3 题) 在复平面内, 把与复数 $3-\sqrt{3}\mathrm{i}$ 对应的向量绕原点 $O$ 按顺时针方向旋转 $60°$, 求与所得的向量对应的复数 (用代数形式表示).
+(练习 7.3 第 3 题) 在复平面内, 把与复数 $3-\sqrt{3}\mathrm{i}$ 对应的向量绕原点 $O$ 按顺时针方向旋转 $60^{\circ}$, 求与所得的向量对应的复数 (用代数形式表示).
 
 ### 解答 练习六
 
-由**常用结论 7.3.7** (复数乘, 除运算的几何意义), 顺时针旋转 $60°$ 相当于辐角减 $60°$, 即乘以 $\cos(-60°)+\mathrm{i}\sin(-60°)$.
+由**常用结论 7.3.7** (复数乘, 除运算的几何意义), 顺时针旋转 $60^{\circ}$ 相当于辐角减 $60^{\circ}$, 即乘以 $\cos(-60^{\circ})+\mathrm{i}\sin(-60^{\circ})$.
 
-先将 $3-\sqrt{3}\mathrm{i}$ 化为三角形式. $r=\sqrt{3^2+(-\sqrt{3})^2}=\sqrt{12}=2\sqrt{3}$, $\cos\theta=\frac{3}{2\sqrt{3}}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{-\sqrt{3}}{2\sqrt{3}}=-\frac{1}{2}$, 点在第四象限, 故 $\arg=\frac{11\pi}{6}=330°$.
+先将 $3-\sqrt{3}\mathrm{i}$ 化为三角形式. $r=\sqrt{3^2+(-\sqrt{3})^2}=\sqrt{12}=2\sqrt{3}$, $\cos\theta=\frac{3}{2\sqrt{3}}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{-\sqrt{3}}{2\sqrt{3}}=-\frac{1}{2}$, 点在第四象限, 故 $\arg=\frac{11\pi}{6}=330^{\circ}$.
 
-由**定义 7.3.5**, 乘以 $\cos(-60°)+\mathrm{i}\sin(-60°)$, 得 $2\sqrt{3}(\cos 330°+\mathrm{i}\sin 330°)\cdot[\cos(-60°)+\mathrm{i}\sin(-60°)]=2\sqrt{3}[\cos 270°+\mathrm{i}\sin 270°]$.
+由**定义 7.3.5**, 乘以 $\cos(-60^{\circ})+\mathrm{i}\sin(-60^{\circ})$, 得 $2\sqrt{3}(\cos 330^{\circ}+\mathrm{i}\sin 330^{\circ})\cdot[\cos(-60^{\circ})+\mathrm{i}\sin(-60^{\circ})]=2\sqrt{3}[\cos 270^{\circ}+\mathrm{i}\sin 270^{\circ}]$.
 
 化为代数形式: $2\sqrt{3}(0-\mathrm{i})=-2\sqrt{3}\mathrm{i}$. $\blacksquare$
 
@@ -179,6 +181,8 @@ $$
 (3) $1-\sqrt{3}\mathrm{i}$;
 
 (4) $-\frac{\sqrt{3}}{2}+\frac{1}{2}\mathrm{i}$.
+
+![week37-2.svg](../figures/week37-2.svg){width=100%}
 
 ### 解答 习题一
 
@@ -246,21 +250,23 @@ $$
 
 (1) $\sqrt{2}(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3})\times 2\sqrt{2}(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3})$;
 
-(2) $2(\cos 75°+\mathrm{i}\sin 75°)\times(\frac{1}{2}-\frac{1}{2}\mathrm{i})$;
+(2) $2(\cos 75^{\circ}+\mathrm{i}\sin 75^{\circ})\times(\frac{1}{2}-\frac{1}{2}\mathrm{i})$;
 
-(3) $4(\cos 300°+\mathrm{i}\sin 300°)\div[\sqrt{2}(\cos\frac{3\pi}{4}+\mathrm{i}\sin\frac{3\pi}{4})]$;
+(3) $4(\cos 300^{\circ}+\mathrm{i}\sin 300^{\circ})\div[\sqrt{2}(\cos\frac{3\pi}{4}+\mathrm{i}\sin\frac{3\pi}{4})]$;
 
 (4) $(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i})\div[2(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3})]$.
+
+![week37-3.svg](../figures/week37-3.svg){width=100%}
 
 ### 解答 习题四
 
 由**定义 7.3.5** 与**定义 7.3.6**.
 
-(1) 模: $\sqrt{2}\times 2\sqrt{2}=4$; 辐角: $\frac{2\pi}{3}+\frac{\pi}{3}=\pi$. 结果为 $4(\cos\pi+\mathrm{i}\sin\pi)=-4$. 几何解释: 将模为 $\sqrt{2}$, 辐角为 $120°$ 的向量旋转 $60°$ 并伸长为原来的 $2\sqrt{2}$ 倍, 得到模为 $4$, 辐角为 $180°$ 的向量.
+(1) 模: $\sqrt{2}\times 2\sqrt{2}=4$; 辐角: $\frac{2\pi}{3}+\frac{\pi}{3}=\pi$. 结果为 $4(\cos\pi+\mathrm{i}\sin\pi)=-4$. 几何解释: 将模为 $\sqrt{2}$, 辐角为 $120^{\circ}$ 的向量旋转 $60^{\circ}$ 并伸长为原来的 $2\sqrt{2}$ 倍, 得到模为 $4$, 辐角为 $180^{\circ}$ 的向量.
 
-(2) 先将 $\frac{1}{2}-\frac{1}{2}\mathrm{i}$ 化为三角形式: $r=\frac{\sqrt{2}}{2}$, $\arg=\frac{7\pi}{4}=315°$. 模: $2\times\frac{\sqrt{2}}{2}=\sqrt{2}$; 辐角: $75°+315°=390°=30°$. 结果为 $\sqrt{2}(\cos 30°+\mathrm{i}\sin 30°)=\frac{\sqrt{6}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}$.
+(2) 先将 $\frac{1}{2}-\frac{1}{2}\mathrm{i}$ 化为三角形式: $r=\frac{\sqrt{2}}{2}$, $\arg=\frac{7\pi}{4}=315^{\circ}$. 模: $2\times\frac{\sqrt{2}}{2}=\sqrt{2}$; 辐角: $75^{\circ}+315^{\circ}=390^{\circ}=30^{\circ}$. 结果为 $\sqrt{2}(\cos 30^{\circ}+\mathrm{i}\sin 30^{\circ})=\frac{\sqrt{6}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}$.
 
-(3) 模: $4\div\sqrt{2}=2\sqrt{2}$; 辐角: $300°-135°=165°$. 结果为 $2\sqrt{2}(\cos 165°+\mathrm{i}\sin 165°)$.
+(3) 模: $4\div\sqrt{2}=2\sqrt{2}$; 辐角: $300^{\circ}-135^{\circ}=165^{\circ}$. 结果为 $2\sqrt{2}(\cos 165^{\circ}+\mathrm{i}\sin 165^{\circ})$.
 
 (4) 先将 $-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$ 化为三角形式: $r=1$, $\arg=\frac{2\pi}{3}$. 模: $1\div 2=\frac{1}{2}$; 辐角: $\frac{2\pi}{3}-\frac{\pi}{3}=\frac{\pi}{3}$. 结果为 $\frac{1}{2}(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3})=\frac{1}{4}+\frac{\sqrt{3}}{4}\mathrm{i}$. $\blacksquare$
 
@@ -278,19 +284,19 @@ $z=4(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12})$, $z=\cos\frac{\pi}{6}-\ma
 
 (1) 由**定义 7.3.6**, $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\frac{\cos 0+\mathrm{i}\sin 0}{\cos\theta+\mathrm{i}\sin\theta}=\cos(0-\theta)+\mathrm{i}\sin(0-\theta)=\cos(-\theta)+\mathrm{i}\sin(-\theta)=\cos\theta-\mathrm{i}\sin\theta$. 证毕.
 
-(2) 由**定义 7.3.6**, $\frac{1}{z}$ 的模为 $\frac{1}{|z|}$, 辐角为 $-\arg z$.
+(2) 由**定义 7.3.6**, $\frac{1}{z}$ 的模为 $\frac{1}{\lvert z\rvert}$, 辐角为 $-\arg z$.
 
-(a) $z=4(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12})$: $|z|=4$, $\arg z=\frac{\pi}{12}$, 故 $|\frac{1}{z}|=\frac{1}{4}$, $\arg\frac{1}{z}=-\frac{\pi}{12}$.
+(a) $z=4(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12})$: $\lvert z\rvert=4$, $\arg z=\frac{\pi}{12}$, 故 $\lvert\frac{1}{z}\rvert=\frac{1}{4}$, $\arg\frac{1}{z}=-\frac{\pi}{12}$.
 
-(b) $z=\cos\frac{\pi}{6}-\mathrm{i}\sin\frac{\pi}{6}=\cos(-\frac{\pi}{6})+\mathrm{i}\sin(-\frac{\pi}{6})$: $|z|=1$, $\arg z=-\frac{\pi}{6}$, 故 $|\frac{1}{z}|=1$, $\arg\frac{1}{z}=\frac{\pi}{6}$.
+(b) $z=\cos\frac{\pi}{6}-\mathrm{i}\sin\frac{\pi}{6}=\cos(-\frac{\pi}{6})+\mathrm{i}\sin(-\frac{\pi}{6})$: $\lvert z\rvert=1$, $\arg z=-\frac{\pi}{6}$, 故 $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=\frac{\pi}{6}$.
 
-(c) $z=\frac{\sqrt{2}}{2}(1-\mathrm{i})$: $|z|=\frac{\sqrt{2}}{2}\cdot\sqrt{2}=1$, $\arg z=\frac{7\pi}{4}$, 故 $|\frac{1}{z}|=1$, $\arg\frac{1}{z}=-\frac{7\pi}{4}=\frac{\pi}{4}$. $\blacksquare$
+(c) $z=\frac{\sqrt{2}}{2}(1-\mathrm{i})$: $\lvert z\rvert=\frac{\sqrt{2}}{2}\cdot\sqrt{2}=1$, $\arg z=\frac{7\pi}{4}$, 故 $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=-\frac{7\pi}{4}=\frac{\pi}{4}$. $\blacksquare$
 
 ### 习题六
 
 (习题 7.3 综合运用第 6 题) 求证:
 
-(1) $(\cos 75°+\mathrm{i}\sin 75°)(\cos 15°+\mathrm{i}\sin 15°)=\mathrm{i}$;
+(1) $(\cos 75^{\circ}+\mathrm{i}\sin 75^{\circ})(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ})=\mathrm{i}$;
 
 (2) $(\cos 3\theta-\mathrm{i}\sin 3\theta)(\cos 2\theta-\mathrm{i}\sin 2\theta)=\cos 5\theta-\mathrm{i}\sin 5\theta$.
 
@@ -298,7 +304,7 @@ $z=4(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12})$, $z=\cos\frac{\pi}{6}-\ma
 
 由**定义 7.3.5** (复数乘法的三角表示) 及 $\cos(-\alpha)+\mathrm{i}\sin(-\alpha)=\cos\alpha-\mathrm{i}\sin\alpha$.
 
-(1) 由**定义 7.3.5**, 模: $1\times 1=1$; 辐角: $75°+15°=90°$. 结果为 $\cos 90°+\mathrm{i}\sin 90°=\mathrm{i}$. 证毕.
+(1) 由**定义 7.3.5**, 模: $1\times 1=1$; 辐角: $75^{\circ}+15^{\circ}=90^{\circ}$. 结果为 $\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}=\mathrm{i}$. 证毕.
 
 (2) 将 $\cos 3\theta-\mathrm{i}\sin 3\theta$ 写成 $\cos(-3\theta)+\mathrm{i}\sin(-3\theta)$, 将 $\cos 2\theta-\mathrm{i}\sin 2\theta$ 写成 $\cos(-2\theta)+\mathrm{i}\sin(-2\theta)$. 由**定义 7.3.5**, 模: $1\times 1=1$; 辐角: $-3\theta+(-2\theta)=-5\theta$. 结果为 $\cos(-5\theta)+\mathrm{i}\sin(-5\theta)=\cos 5\theta-\mathrm{i}\sin 5\theta$. 证毕. $\blacksquare$
 
@@ -320,23 +326,23 @@ $z=4(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12})$, $z=\cos\frac{\pi}{6}-\ma
 
 ### 习题八
 
-(习题 7.3 综合运用第 8 题) 设 $z=\sqrt{3}-\mathrm{i}$ 对应的向量为 $\overrightarrow{OZ}$, 将 $\overrightarrow{OZ}$ 绕点 $O$ 按逆时针方向和顺时针方向分别旋转 $45°$ 和 $60°$, 求所得向量对应的复数 (用代数形式表示).
+(习题 7.3 综合运用第 8 题) 设 $z=\sqrt{3}-\mathrm{i}$ 对应的向量为 $\boldsymbol{OZ}$, 将 $\boldsymbol{OZ}$ 绕点 $O$ 按逆时针方向和顺时针方向分别旋转 $45^{\circ}$ 和 $60^{\circ}$, 求所得向量对应的复数 (用代数形式表示).
 
 ### 解答 习题八
 
-由**常用结论 7.3.7** (乘, 除运算的几何意义), 逆时针旋转 $45°$ 即乘以 $\cos 45°+\mathrm{i}\sin 45°$, 顺时针旋转 $60°$ 即乘以 $\cos(-60°)+\mathrm{i}\sin(-60°)$.
+由**常用结论 7.3.7** (乘, 除运算的几何意义), 逆时针旋转 $45^{\circ}$ 即乘以 $\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}$, 顺时针旋转 $60^{\circ}$ 即乘以 $\cos(-60^{\circ})+\mathrm{i}\sin(-60^{\circ})$.
 
-先将 $z=\sqrt{3}-\mathrm{i}$ 化为三角形式: $r=\sqrt{3+1}=2$, $\arg=-\frac{\pi}{6}=330°$.
+先将 $z=\sqrt{3}-\mathrm{i}$ 化为三角形式: $r=\sqrt{3+1}=2$, $\arg=-\frac{\pi}{6}=330^{\circ}$.
 
-(1) 逆时针旋转 $45°$:
+(1) 逆时针旋转 $45^{\circ}$:
 
-由**定义 7.3.5**, $2[\cos(-30°)+\mathrm{i}\sin(-30°)]\cdot(\cos 45°+\mathrm{i}\sin 45°)=2[\cos 15°+\mathrm{i}\sin 15°]$.
+由**定义 7.3.5**, $2[\cos(-30^{\circ})+\mathrm{i}\sin(-30^{\circ})]\cdot(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ})=2[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}]$.
 
-化为代数形式: $2(\cos 15°+\mathrm{i}\sin 15°)=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
+化为代数形式: $2(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ})=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
 
-(2) 顺时针旋转 $60°$:
+(2) 顺时针旋转 $60^{\circ}$:
 
-由**定义 7.3.5**, $2[\cos(-30°)+\mathrm{i}\sin(-30°)]\cdot[\cos(-60°)+\mathrm{i}\sin(-60°)]=2[\cos(-90°)+\mathrm{i}\sin(-90°)]=2(-\mathrm{i})=-2\mathrm{i}$.
+由**定义 7.3.5**, $2[\cos(-30^{\circ})+\mathrm{i}\sin(-30^{\circ})]\cdot[\cos(-60^{\circ})+\mathrm{i}\sin(-60^{\circ})]=2[\cos(-90^{\circ})+\mathrm{i}\sin(-90^{\circ})]=2(-\mathrm{i})=-2\mathrm{i}$.
 
 $\blacksquare$
 
@@ -346,28 +352,28 @@ $\blacksquare$
 
 ### 解答 习题九
 
-由**常用结论 7.3.7** (复数乘法的几何意义), 将向量 $\overrightarrow{AB}$ 绕点 $A$ 旋转 $60°$ 可得向量 $\overrightarrow{AC}$.
+由**常用结论 7.3.7** (复数乘法的几何意义), 将向量 $\boldsymbol{AB}$ 绕点 $A$ 旋转 $60^{\circ}$ 可得向量 $\boldsymbol{AC}$.
 
-点 $A$ 对应复数 $z_A=1$, 点 $B$ 对应复数 $z_B=2+\mathrm{i}$. 向量 $\overrightarrow{AB}$ 对应的复数为 $z_B-z_A=1+\mathrm{i}$.
+点 $A$ 对应复数 $z_A=1$, 点 $B$ 对应复数 $z_B=2+\mathrm{i}$. 向量 $\boldsymbol{AB}$ 对应的复数为 $z_B-z_A=1+\mathrm{i}$.
 
-将 $\overrightarrow{AB}$ 绕点 $A$ 逆时针旋转 $60°$, 得
+将 $\boldsymbol{AB}$ 绕点 $A$ 逆时针旋转 $60^{\circ}$, 得
 
 $$
-(1+\mathrm{i})(\cos 60°+\mathrm{i}\sin 60°)=(1+\mathrm{i})\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
+(1+\mathrm{i})(\cos 60^{\circ}+\mathrm{i}\sin 60^{\circ})=(1+\mathrm{i})\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
 $$
 
 故点 $C$ 对应的复数为
 
 $$
-z_C=z_A+\overrightarrow{AC}=1+\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}=\frac{3-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
+z_C=z_A+\boldsymbol{AC}=1+\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}=\frac{3-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
 $$
 
 点 $C$ 的坐标为 $\left(\frac{3-\sqrt{3}}{2},\frac{1+\sqrt{3}}{2}\right)$.
 
-若顺时针旋转 $60°$, 则
+若顺时针旋转 $60^{\circ}$, 则
 
 $$
-(1+\mathrm{i})[\cos(-60°)+\mathrm{i}\sin(-60°)]=(1+\mathrm{i})\left(\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}.
+(1+\mathrm{i})[\cos(-60^{\circ})+\mathrm{i}\sin(-60^{\circ})]=(1+\mathrm{i})\left(\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}.
 $$
 
 此时点 $C$ 对应的复数为 $1+\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}=\frac{3+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}$, 坐标为 $\left(\frac{3+\sqrt{3}}{2},\frac{1-\sqrt{3}}{2}\right)$. $\blacksquare$
@@ -402,13 +408,13 @@ $$
 
 ### 探究与发现二
 
-(探究与发现 1 的 n 次方根) 我们还可以得到 1 的 3 次方根的一些性质: (1) $(\omega_k)^3=1$, $|\omega_k|=1$, 其中 $k=0,1,2$; (2) $\omega_1$ 和 $\omega_2$ 互为共轭复数; (3) $1+\omega_k+\omega_k^2=0$ ($k=1,2$). 你能证明这些性质吗?
+(探究与发现 1 的 n 次方根) 我们还可以得到 1 的 3 次方根的一些性质: (1) $(\omega_k)^3=1$, $\lvert\omega_k\rvert=1$, 其中 $k=0,1,2$; (2) $\omega_1$ 和 $\omega_2$ 互为共轭复数; (3) $1+\omega_k+\omega_k^2=0$ ($k=1,2$). 你能证明这些性质吗?
 
 ### 解答 探究与发现二
 
 由**定理 7.3.8** (棣莫弗定理), $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
 
-(1) 由棣莫弗定理, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos 2k\pi+\mathrm{i}\sin 2k\pi=1$. 模 $|\omega_k|=1$.
+(1) 由棣莫弗定理, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos 2k\pi+\mathrm{i}\sin 2k\pi=1$. 模 $\lvert\omega_k\rvert=1$.
 
 (2) $\omega_1=\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}=-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$, $\omega_2=\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$. 实部相等, 虚部互为相反数, 故互为共轭复数.
 
@@ -432,4 +438,4 @@ $$
 
 几何意义: 这 $n$ 个根对应的点均匀分布在以原点为圆心的单位圆上, 是单位圆的内接正 $n$ 边形的顶点, 其中 $\omega_0=1$ 恰为单位圆与实轴正半轴的交点.
 
-性质: (1) $\omega_k^n=1$, $|\omega_k|=1$; (2) $1+\omega_1+\omega_2+\cdots+\omega_{n-1}=0$; (3) 任意两个根的乘积仍为根. $\blacksquare$
+性质: (1) $\omega_k^n=1$, $\lvert\omega_k\rvert=1$; (2) $1+\omega_1+\omega_2+\cdots+\omega_{n-1}=0$; (3) 任意两个根的乘积仍为根. $\blacksquare$

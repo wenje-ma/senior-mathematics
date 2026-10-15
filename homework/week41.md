@@ -64,6 +64,8 @@
 
 (练习 8.4 第 3 题) 不共面的四点可以确定几个平面? 请画出图形说明你的结论.
 
+![week41-1.svg](../figures/week41-1.svg){width=50%}
+
 ### 解答 练习三
 
 由**基本事实 8.4.2** (基本事实 1), 不共线的三个点确定一个平面.
@@ -79,6 +81,8 @@
 (1) 点 $A$ 在平面 $\alpha$ 内, 点 $B$ 在平面 $\alpha$ 外;
 
 (2) 直线 $a$ 既在平面 $\alpha$ 内, 又在平面 $\beta$ 内.
+
+![week41-2.svg](../figures/week41-2.svg){width=100%}
 
 ### 解答 练习四
 
@@ -111,6 +115,8 @@
 ### 练习六
 
 (练习 8.4 第 2 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, 判定直线 $AB$ 与 $AC$, 直线 $AC$ 与 $A'C'$, 直线 $A'B$ 与 $AC$, 直线 $A'B$ 与 $C'D$ 的位置关系.
+
+![week41-3.svg](../figures/week41-3.svg){width=50%}
 
 ### 解答 练习六
 
@@ -167,6 +173,8 @@ $A'B$ 与 $C'D$ 方向相同且无公共点, 故平行. $\blacksquare$
 (1) $a\subset\alpha$, $b\subset\alpha$, $a\cap b=A$, $c\cap\alpha=A$;
 
 (2) $\alpha\cap\beta=l$, $AB\subset\alpha$, $CD\subset\beta$, $AB\parallel l$, $CD\parallel l$.
+
+![week41-4.svg](../figures/week41-4.svg){width=100%}
 
 ### 解答 习题一
 
@@ -268,6 +276,8 @@ $A'B$ 与 $C'D$ 方向相同且无公共点, 故平行. $\blacksquare$
 
 (习题 8.4 综合运用第 7 题) 如图, 三条直线两两平行且不共面, 每两条直线确定一个平面, 一共可以确定几个平面? 如果三条直线相交于一点, 它们最多可以确定几个平面?
 
+![week41-5.svg](../figures/week41-5.svg){width=50%}
+
 ### 解答 习题七
 
 由**推论 8.4.7** (推论 3) 及**推论 8.4.6** (推论 2).
@@ -279,6 +289,8 @@ $A'B$ 与 $C'D$ 方向相同且无公共点, 故平行. $\blacksquare$
 ### 习题八
 
 (习题 8.4 综合运用第 8 题) 如图, $\triangle ABC$ 在平面 $\alpha$ 外, $AB\cap\alpha=P$, $BC\cap\alpha=Q$, $AC\cap\alpha=R$, 求证: $P$, $Q$, $R$ 三点共线.
+
+![week41-6.svg](../figures/week41-6.svg){width=50%}
 
 ### 解答 习题八
 
@@ -293,6 +305,8 @@ $A'B$ 与 $C'D$ 方向相同且无公共点, 故平行. $\blacksquare$
 ### 习题九
 
 (习题 8.4 拓广探索第 9 题) 如图是一个正方体的展开图, 如果将它还原为正方体, 那么在 $AB$, $CD$, $EF$, $GH$ 这四条线段中, 哪些线段所在直线是异面直线?
+
+![week41-7.svg](../figures/week41-7.svg){width=100%}
 
 ### 解答 习题九
 

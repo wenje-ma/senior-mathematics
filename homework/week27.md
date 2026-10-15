@@ -18,15 +18,15 @@
 
 > **性质 2.1.9** (乘方) <br>$a>b>0\Rightarrow a^n>b^n$ ($n\in\mathbb N$, $n\ge2$).
 
-> **定理 2.2.1** (基本不等式) <br>如果 $a>0$, $b>0$, 那么 $\sqrt{ab}\le\dfrac{a+b}{2}$, 当且仅当 $a=b$ 时, 等号成立.
+> **定理 2.2.1** (基本不等式) <br>如果 $a>0$, $b>0$, 那么 $\sqrt{ab}\le\frac{a+b}{2}$, 当且仅当 $a=b$ 时, 等号成立.
 
-> **常用结论 2.2.2** (积定和最小, 和定积最大) <br>$x,y>0$, 积 $xy=P$ 定时 $x+y\ge2\sqrt P$; 和 $x+y=S$ 定时 $xy\le\dfrac{1}{4}S^2$.
+> **常用结论 2.2.2** (积定和最小, 和定积最大) <br>$x,y>0$, 积 $xy=P$ 定时 $x+y\ge2\sqrt P$; 和 $x+y=S$ 定时 $xy\le\frac{1}{4}S^2$.
 
 > **定义 2.3.1** (一元二次不等式) <br>只含一个未知数, 且未知数最高次数为 $2$ 的不等式, 一般形式为 $ax^2+bx+c>0$ 或 $<0$, $a\neq0$.
 
 > **定义 2.3.2** (二次函数的零点) <br>使 $ax^2+bx+c=0$ 的实数 $x$.
 
-> **常用结论 2.3.3** (一元二次不等式的解集) <br>$a>0$ 时, $\Delta>0$: $>0$ 解集 $\{x\mid x<x_1$ 或 $x>x_2\}$, $<0$ 解集 $\{x\mid x_1<x<x_2\}$; $\Delta=0$: $>0$ 解集 $\{x\mid x\neq-\dfrac{b}{2a}\}$, $<0$ 解集 $\varnothing$; $\Delta<0$: $>0$ 解集 $\mathbb R$, $<0$ 解集 $\varnothing$.
+> **常用结论 2.3.3** (一元二次不等式的解集) <br>$a>0$ 时, $\Delta>0$: $>0$ 解集 $\{x\mid x<x_1$ 或 $x>x_2\}$, $<0$ 解集 $\{x\mid x_1<x<x_2\}$; $\Delta=0$: $>0$ 解集 $\{x\mid x\neq-\frac{b}{2a}\}$, $<0$ 解集 $\varnothing$; $\Delta<0$: $>0$ 解集 $\mathbb R$, $<0$ 解集 $\varnothing$.
 
 ### 习题一
 
@@ -52,21 +52,21 @@ $\blacksquare$
 
 (复习参考题2 复习巩固第 2 题) 用不等号 "$>$" 或 "$<$" 填空.
 
-(1) 若 $a>b$, 且 $\dfrac{1}{a}>\dfrac{1}{b}$, 则 $ab\;\_\_\;0$;
+(1) 若 $a>b$, 且 $\frac{1}{a}>\frac{1}{b}$, 则 $ab\;\_\_\;0$;
 
-(2) 若 $c>a>b>0$, 则 $\dfrac{a}{c-a}\;\_\_\;\dfrac{b}{c-b}$;
+(2) 若 $c>a>b>0$, 则 $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
 
-(3) 若 $a>b>c>0$, 则 $\dfrac{a}{b}\;\_\_\;\dfrac{a+c}{b+c}$.
+(3) 若 $a>b>c>0$, 则 $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
 
 ### 解答 习题二
 
 由**基本事实 2.1.1** (实数大小关系), 作差比较.
 
-(1) $\dfrac{1}{a}-\dfrac{1}{b}=\dfrac{b-a}{ab}>0$. 由 $a>b$ 得 $b-a<0$, 故须 $ab<0$ 才能使商为正. 故填 $<$.
+(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}>0$. 由 $a>b$ 得 $b-a<0$, 故须 $ab<0$ 才能使商为正. 故填 $<$.
 
-(2) 作差: $\dfrac{a}{c-a}-\dfrac{b}{c-b}=\dfrac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\dfrac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. 由 $c>a>b>0$ 知分子 $c\left(a-b\right)>0$, 分母 $\left(c-a\right)\left(c-b\right)>0$, 故差为正, 填 $>$.
+(2) 作差: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. 由 $c>a>b>0$ 知分子 $c\left(a-b\right)>0$, 分母 $\left(c-a\right)\left(c-b\right)>0$, 故差为正, 填 $>$.
 
-(3) 作差: $\dfrac{a}{b}-\dfrac{a+c}{b+c}=\dfrac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\dfrac{c\left(a-b\right)}{b\left(b+c\right)}>0$, 故填 $>$. $\blacksquare$
+(3) 作差: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}>0$, 故填 $>$. $\blacksquare$
 
 ### 习题三
 
@@ -78,11 +78,11 @@ $\blacksquare$
 
 ### 解答 习题三
 
-由**常用结论 2.2.2** (积定和最小, 和定积最大), 设扇形半径为 $R$, 弧长为 $l$. 扇形面积为 $\dfrac{1}{2}Rl$, 周长为 $2R+l$.
+由**常用结论 2.2.2** (积定和最小, 和定积最大), 设扇形半径为 $R$, 弧长为 $l$. 扇形面积为 $\frac{1}{2}Rl$, 周长为 $2R+l$.
 
-(1) 面积 $S=\dfrac{1}{2}Rl$ 为定值, 即 $Rl=2S$. 周长 $2R+l\ge2\sqrt{2Rl}=2\sqrt{4S}=4\sqrt S$, 当且仅当 $2R=l$ 时等号成立. 此时 $Rl=2R^2=2S$, 得 $R=\sqrt S$. 故半径为 $\sqrt S$ 时周长最小.
+(1) 面积 $S=\frac{1}{2}Rl$ 为定值, 即 $Rl=2S$. 周长 $2R+l\ge2\sqrt{2Rl}=2\sqrt{4S}=4\sqrt S$, 当且仅当 $2R=l$ 时等号成立. 此时 $Rl=2R^2=2S$, 得 $R=\sqrt S$. 故半径为 $\sqrt S$ 时周长最小.
 
-(2) 周长 $P=2R+l$ 为定值. 令 $u=2R$, 则 $u+l=P$, 面积 $\dfrac{1}{2}Rl=\dfrac{1}{4}ul\le\dfrac{1}{4}\cdot\left(\dfrac{u+l}{2}\right)^2=\dfrac{P^2}{16}$, 当且仅当 $u=l$ 时等号成立. 此时 $2R=l=\dfrac{P}{2}$, 得 $R=\dfrac{P}{4}$. 故半径为 $\dfrac{P}{4}$ 时面积最大, 最大值为 $\dfrac{P^2}{16}$. $\blacksquare$
+(2) 周长 $P=2R+l$ 为定值. 令 $u=2R$, 则 $u+l=P$, 面积 $\frac{1}{2}Rl=\frac{1}{4}ul\le\frac{1}{4}\cdot\left(\frac{u+l}{2}\right)^2=\frac{P^2}{16}$, 当且仅当 $u=l$ 时等号成立. 此时 $2R=l=\frac{P}{2}$, 得 $R=\frac{P}{4}$. 故半径为 $\frac{P}{4}$ 时面积最大, 最大值为 $\frac{P^2}{16}$. $\blacksquare$
 
 ### 习题四
 
@@ -100,13 +100,13 @@ $\blacksquare$
 
 由**常用结论 2.3.3** (一元二次不等式的解集), 逐题求解.
 
-(1) 整理得 $4x^2+x-14\le0$. 方程 $4x^2+x-14=0$ 的根为 $x=-2,\dfrac{7}{4}$, 故解集为 $\left\{x\mid-2\le x\le\dfrac{7}{4}\right\}$.
+(1) 整理得 $4x^2+x-14\le0$. 方程 $4x^2+x-14=0$ 的根为 $x=-2,\frac{7}{4}$, 故解集为 $\left\{x\mid-2\le x\le\frac{7}{4}\right\}$.
 
 (2) $\left(x-5\right)\left(x-9\right)\le0$, 根为 $x=5,9$, 故解集为 $\{x\mid5\le x\le9\}$.
 
 (3) $\Delta=36-40=-4<0$, 开口向上, 故解集为 $\mathbb R$.
 
-(4) 展开整理得 $2x^2-x-1>0$, 即 $\left(2x+1\right)\left(x-1\right)>0$, 根为 $x=-\dfrac{1}{2},1$, 故解集为 $\{x\mid x<-\dfrac{1}{2}$ 或 $x>1\}$. $\blacksquare$
+(4) 展开整理得 $2x^2-x-1>0$, 即 $\left(2x+1\right)\left(x-1\right)>0$, 根为 $x=-\frac{1}{2},1$, 故解集为 $\{x\mid x<-\frac{1}{2}$ 或 $x>1\}$. $\blacksquare$
 
 ### 习题五
 
@@ -126,7 +126,7 @@ $$
 
 ### 习题六
 
-(复习参考题2 综合运用第 6 题) 当 $k$ 取什么值时, 一元二次不等式 $2kx^2+kx-\dfrac{3}{8}<0$ 对一切实数 $x$ 都成立?
+(复习参考题2 综合运用第 6 题) 当 $k$ 取什么值时, 一元二次不等式 $2kx^2+kx-\frac{3}{8}<0$ 对一切实数 $x$ 都成立?
 
 ### 解答 习题六
 
@@ -134,7 +134,7 @@ $$
 
 首先 $2k<0$, 即 $k<0$.
 
-再要求 $\Delta=k^2-4\cdot2k\cdot\left(-\dfrac{3}{8}\right)=k^2+3k<0$, 即 $k\left(k+3\right)<0$, 解得 $-3<k<0$.
+再要求 $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k<0$, 即 $k\left(k+3\right)<0$, 解得 $-3<k<0$.
 
 与 $k<0$ 取交集, 得 $-3<k<0$. 故当 $-3<k<0$ 时, 该不等式对一切实数 $x$ 都成立. $\blacksquare$
 
@@ -148,9 +148,9 @@ $$
 
 ### 解答 习题七
 
-设窗户面积为 $w$, 地板面积为 $f$, 则 $w<f$ 且 $\dfrac{w}{f}\ge0.1$.
+设窗户面积为 $w$, 地板面积为 $f$, 则 $w<f$ 且 $\frac{w}{f}\ge0.1$.
 
-(1) 由 $w+f=220$, 即 $f=220-w$. 由 $\dfrac{w}{f}\ge0.1$, 得 $w\ge0.1\left(220-w\right)$, 即 $1.1w\ge22$, 故 $w\ge20$. 故窗户面积至少为 $20\ \mathrm m^2$.
+(1) 由 $w+f=220$, 即 $f=220-w$. 由 $\frac{w}{f}\ge0.1$, 得 $w\ge0.1\left(220-w\right)$, 即 $1.1w\ge22$, 故 $w\ge20$. 故窗户面积至少为 $20\ \mathrm m^2$.
 
 (2) 设窗户与地板同时增加面积 $m>0$. 由**基本事实 2.1.1** (实数大小关系), 比较新比值与原比值:
 
@@ -176,7 +176,7 @@ $$
 
 (4) 若 $x=y$, 则 $x^2=y^2$; 对应 若 $x>y$, 则 $x^2>y^2$. 错误, 如 $1>-2$ 但 $1<4$, 须两数同号才成立.
 
-(5) 若 $x=y$, $z\neq0$, 则 $\dfrac{x}{z}=\dfrac{y}{z}$; 对应 若 $x>y$, 则 $\dfrac{x}{z}>\dfrac{y}{z}$. 当 $z>0$ 时正确, 当 $z<0$ 时错误.
+(5) 若 $x=y$, $z\neq0$, 则 $\frac{x}{z}=\frac{y}{z}$; 对应 若 $x>y$, 则 $\frac{x}{z}>\frac{y}{z}$. 当 $z>0$ 时正确, 当 $z<0$ 时错误.
 
 可见, 与加法类比的命题多正确; 与乘除类比时, 乘除数为负会使不等号反向, 须附加条件. $\blacksquare$
 
@@ -184,17 +184,19 @@ $$
 
 (复习参考题2 拓广探索第 9 题) 如图, 居民小区要建一座八边形的休闲场所, 它的主体造型平面图是由两个相同的矩形 $ABCD$ 和 $EFGH$ 构成的面积为 $200\ \mathrm m^2$ 的十字形地域. 计划在正方形 $MNPQ$ 上建一座花坛, 造价为 $4200$ 元$/ \mathrm m^2$; 在四个相同的矩形 (图中阴影部分) 上铺花岗岩地坪, 造价为 $210$ 元$/ \mathrm m^2$; 再在四个空角 (图中四个三角形) 上铺草坪, 造价为 $80$ 元$/ \mathrm m^2$. 设总造价为 $S$ (单位: 元), $AD$ 长为 $x$ (单位: $\mathrm m$). 当 $x$ 为何值时, $S$ 最小? 并求出这个最小值.
 
+![week27-1.svg](../figures/week27-1.svg){width=50%}
+
 ### 解答 习题九
 
 由**常用结论 2.2.2** (积定和最小, 和定积最大), 设十字形由两个全等矩形叠成, 中央正方形 $MNPQ$ 边长为 $x$, 每个矩形长为 $x+2t$, 其中 $t$ 为伸出部分的一半. 十字面积 $2x\left(x+2t\right)-x^2=x^2+4xt=200$.
 
-花坛面积为 $x^2$; 四个阴影矩形面积共 $4\cdot xt$; 四个空角三角形面积共 $4\cdot\dfrac{1}{2}t^2=2t^2$. 总造价
+花坛面积为 $x^2$; 四个阴影矩形面积共 $4\cdot xt$; 四个空角三角形面积共 $4\cdot\frac{1}{2}t^2=2t^2$. 总造价
 
 $$
 S=4200x^2+210\cdot4xt+80\cdot2t^2=4200x^2+840xt+160t^2.
 $$
 
-由 $x^2+4xt=200$ 得 $xt=\dfrac{200-x^2}{4}$. 代入得
+由 $x^2+4xt=200$ 得 $xt=\frac{200-x^2}{4}$. 代入得
 
 $$
 S=4200x^2+840\cdot\frac{200-x^2}{4}+160t^2=4000x^2+38000+\frac{400000}{x^2}.
@@ -206,7 +208,7 @@ $$
 4000x^2+\frac{400000}{x^2}\ge2\sqrt{4000x^2\cdot\frac{400000}{x^2}}=80000,
 $$
 
-当且仅当 $4000x^2=\dfrac{400000}{x^2}$, 即 $x^2=10$, $x=\sqrt{10}$ 时, 等号成立. 此时 $S=80000+38000=118000$ 元. 故当 $x=\sqrt{10}\ \mathrm m$ 时总造价最小, 最小值为 $118000$ 元. $\blacksquare$
+当且仅当 $4000x^2=\frac{400000}{x^2}$, 即 $x^2=10$, $x=\sqrt{10}$ 时, 等号成立. 此时 $S=80000+38000=118000$ 元. 故当 $x=\sqrt{10}\ \mathrm m$ 时总造价最小, 最小值为 $118000$ 元. $\blacksquare$
 
 ### 习题十
 
@@ -216,9 +218,9 @@ $$
 
 由**定理 2.2.1** (基本不等式), 设两次价格为 $p_1,p_2>0$, 比较两种策略的平均价格.
 
-第一种策略每次买固定数量 $q$: 两次共花 $q\left(p_1+p_2\right)$, 共买 $2q$, 平均价格为 $\dfrac{p_1+p_2}{2}$ (算术平均数).
+第一种策略每次买固定数量 $q$: 两次共花 $q\left(p_1+p_2\right)$, 共买 $2q$, 平均价格为 $\frac{p_1+p_2}{2}$ (算术平均数).
 
-第二种策略每次花固定钱数 $m$: 两次共买 $\dfrac{m}{p_1}+\dfrac{m}{p_2}$, 共花 $2m$, 平均价格为
+第二种策略每次花固定钱数 $m$: 两次共买 $\frac{m}{p_1}+\frac{m}{p_2}$, 共花 $2m$, 平均价格为
 
 $$
 \frac{2m}{\frac{m}{p_1}+\frac{m}{p_2}}=\frac{2p_1p_2}{p_1+p_2}
@@ -226,6 +228,6 @@ $$
 
 (调和平均数).
 
-由**定理 2.2.1** (基本不等式), $\dfrac{2p_1p_2}{p_1+p_2}\le\dfrac{p_1+p_2}{2}$, 当且仅当 $p_1=p_2$ 时取等号. 故第二种策略 (每次花固定钱数) 的平均价格较低, 比较经济.
+由**定理 2.2.1** (基本不等式), $\frac{2p_1p_2}{p_1+p_2}\le\frac{p_1+p_2}{2}$, 当且仅当 $p_1=p_2$ 时取等号. 故第二种策略 (每次花固定钱数) 的平均价格较低, 比较经济.
 
 推广: 价格有升降时, 每次投入固定金额的策略优于每次购买固定数量的策略, 其平均价格恒不高于后者. $\blacksquare$

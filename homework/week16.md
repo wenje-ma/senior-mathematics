@@ -14,9 +14,9 @@
 
 (1) $y=\ln(1-x)$;
 
-(2) $y=\dfrac{1}{\lg x}$;
+(2) $y=\frac{1}{\lg x}$;
 
-(3) $y=\log_7\dfrac{1}{1-3x}$;
+(3) $y=\log_7\frac{1}{1-3x}$;
 
 (4) $y=\log_a\left|x\right|$ ($a>0$, 且 $a\neq 1$).
 
@@ -28,7 +28,7 @@
 
 (2) $x>0$ 且 $\lg x\neq 0$, 即 $x>0$ 且 $x\neq 1$, 故定义域为 $(0,1)\cup(1,+\infty)$.
 
-(3) $\dfrac{1}{1-3x}>0$, 即 $1-3x>0$, $x<\dfrac{1}{3}$, 故定义域为 $\left(-\infty,\dfrac{1}{3}\right)$.
+(3) $\frac{1}{1-3x}>0$, 即 $1-3x>0$, $x<\frac{1}{3}$, 故定义域为 $\left(-\infty,\frac{1}{3}\right)$.
 
 (4) $\left|x\right|>0$, 即 $x\neq 0$, 故定义域为 $(-\infty,0)\cup(0,+\infty)$. $\blacksquare$
 
@@ -39,6 +39,8 @@
 (1) $y=\lg 10^x$;
 
 (2) $y=10^{\lg x}$.
+
+![week16-1.svg](../figures/week16-1.svg){width=100%}
 
 ### 解答 练习二
 
@@ -63,6 +65,8 @@
 ### 练习四
 
 (练习 4.4 第 4 题) 在同一直角坐标系中画出函数 $y=\log_3 x$ 和 $y=\log_{\frac{1}{3}} x$ 的图象, 并说明它们的关系.
+
+![week16-2.svg](../figures/week16-2.svg){width=50%}
 
 ### 解答 练习四
 
@@ -104,11 +108,13 @@
 
 (1) 每年增长率为 $6.8\%$, 即每年为上一年的 $1.068$ 倍, 故 $y=3000\times 1.068^x$, $x\in\{0,1,2,3,4,5\}$.
 
-(2) 令 $3000\times 1.068^x=3900$, 即 $1.068^x=1.3$. 由对数定义, $x=\log_{1.068} 1.3=\dfrac{\lg 1.3}{\lg 1.068}\approx\dfrac{0.1139}{0.0286}\approx 4.0$. 故约 $4$ 年后该地国内生产总值能达到 $3900$ 亿元. $\blacksquare$
+(2) 令 $3000\times 1.068^x=3900$, 即 $1.068^x=1.3$. 由对数定义, $x=\log_{1.068} 1.3=\frac{\lg 1.3}{\lg 1.068}\approx\frac{0.1139}{0.0286}\approx 4.0$. 故约 $4$ 年后该地国内生产总值能达到 $3900$ 亿元. $\blacksquare$
 
 ### 探究与发现一
 
 (探究与发现 互为反函数的两个函数图象间的关系) 在同一直角坐标系中, 画出指数函数 $y=2^x$ 及其反函数 $y=\log_2 x$ 的图象, 你能发现这两个函数的图象有什么对称关系吗?
+
+![week16-3.svg](../figures/week16-3.svg){width=50%}
 
 ### 解答 探究与发现一
 
@@ -144,19 +150,19 @@ $y_3$ 每增加 $5$ 增加 $25$, 呈线性增长; $y_1$ 每增加 $5$ 增加约 
 
 由**定义 4.4.1** (对数函数) 与**常用结论 4.4.3** (对数函数的图象和性质), $y=\lg x$ 过定点 $(1,0)$.
 
-$A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=(1,0)$. $B$ 的横坐标为 $2$, 故 $B=(2,\lg 2)$. 一次函数过 $A(1,0)$ 和 $B(2,\lg 2)$, 斜率 $k=\dfrac{\lg 2-0}{2-1}=\lg 2$, 故 $f(x)=(\lg 2)(x-1)$. $\blacksquare$
+$A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=(1,0)$. $B$ 的横坐标为 $2$, 故 $B=(2,\lg 2)$. 一次函数过 $A(1,0)$ 和 $B(2,\lg 2)$, 斜率 $k=\frac{\lg 2-0}{2-1}=\lg 2$, 故 $f(x)=(\lg 2)(x-1)$. $\blacksquare$
 
 ### 练习十
 
 (练习 4.4 第 10 题) 函数 $y=f(x)$ 的图象过 $(1,0)$, 在 $(0,+\infty)$ 上递增, 且以 $y=1$ 为水平渐近线, 则 $y=f(x)$ 可能是 ( ).
 
-(A) $y=1-x^{-1}$, $x\in(0,+\infty)$ (B) $y=\dfrac{3}{2}-\left(\dfrac{1}{2}\right)^x$, $x\in(0,+\infty)$ (C) $y=\ln x$ (D) $y=x-1$, $x\in(0,+\infty)$
+(A) $y=1-x^{-1}$, $x\in(0,+\infty)$ (B) $y=\frac{3}{2}-\left(\frac{1}{2}\right)^x$, $x\in(0,+\infty)$ (C) $y=\ln x$ (D) $y=x-1$, $x\in(0,+\infty)$
 
 ### 解答 练习十
 
 由**常用结论 4.4.3** (对数函数的图象和性质) 与**常用结论 4.2.2** (指数函数的图象和性质).
 
-(A) $y=1-\dfrac{1}{x}$: 当 $x=1$ 时 $y=0$, 递增, 当 $x\to+\infty$ 时 $y\to 1$, 符合图象特征. (B) 当 $x=1$ 时 $y=\dfrac{3}{2}-\dfrac{1}{2}=1\neq 0$, 不符合. (C) $y=\ln x$ 当 $x\to+\infty$ 时 $y\to+\infty$, 不以 $y=1$ 为渐近线, 不符合. (D) $y=x-1$ 是直线, 不符合图象. 故选 (A). $\blacksquare$
+(A) $y=1-\frac{1}{x}$: 当 $x=1$ 时 $y=0$, 递增, 当 $x\to+\infty$ 时 $y\to 1$, 符合图象特征. (B) 当 $x=1$ 时 $y=\frac{3}{2}-\frac{1}{2}=1\neq 0$, 不符合. (C) $y=\ln x$ 当 $x\to+\infty$ 时 $y\to+\infty$, 不以 $y=1$ 为渐近线, 不符合. (D) $y=x-1$ 是直线, 不符合图象. 故选 (A). $\blacksquare$
 
 ### 习题一
 
@@ -172,7 +178,7 @@ $A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=(1,0)$. $B$ 的横坐标为 $2$, 
 
 (1) $\log_2 x$ 要求 $x>0$, 三次根号对被开方数无限制, 故定义域为 $(0,+\infty)$.
 
-(2) 要求 $\log_{0.5}(4x-3)\ge 0$ 且 $4x-3>0$. 因底数 $0.5\in(0,1)$, $\log_{0.5} x$ 为减函数, $\log_{0.5}(4x-3)\ge 0=\log_{0.5} 1$ 等价于 $0<4x-3\le 1$, 即 $\dfrac{3}{4}<x\le 1$. 故定义域为 $\left(\dfrac{3}{4},1\right]$. $\blacksquare$
+(2) 要求 $\log_{0.5}(4x-3)\ge 0$ 且 $4x-3>0$. 因底数 $0.5\in(0,1)$, $\log_{0.5} x$ 为减函数, $\log_{0.5}(4x-3)\ge 0=\log_{0.5} 1$ 等价于 $0<4x-3\le 1$, 即 $\frac{3}{4}<x\le 1$. 故定义域为 $\left(\frac{3}{4},1\right]$. $\blacksquare$
 
 ### 习题二
 
@@ -200,13 +206,13 @@ $A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=(1,0)$. $B$ 的横坐标为 $2$, 
 
 ### 习题三
 
-(习题 4.4 复习巩固第 3 题) 假设在不考虑空气阻力的条件下, 火箭的最大速度 $v$ (单位: $\mathrm{m/s}$) 和燃料的质量 $M$ (单位: $\mathrm{kg}$), 火箭 (除燃料外) 的质量 $m$ (单位: $\mathrm{kg}$) 的函数关系是 $v=2000\ln\left(1+\dfrac{M}{m}\right)$. 当燃料质量是火箭质量的多少倍时, 火箭的最大速度可达到 $12\;\mathrm{km/s}$?
+(习题 4.4 复习巩固第 3 题) 假设在不考虑空气阻力的条件下, 火箭的最大速度 $v$ (单位: $\mathrm{m/s}$) 和燃料的质量 $M$ (单位: $\mathrm{kg}$), 火箭 (除燃料外) 的质量 $m$ (单位: $\mathrm{kg}$) 的函数关系是 $v=2000\ln\left(1+\frac{M}{m}\right)$. 当燃料质量是火箭质量的多少倍时, 火箭的最大速度可达到 $12\;\mathrm{km/s}$?
 
 ### 解答 习题三
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-$12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)=12000$, 得 $\ln\left(1+\dfrac{M}{m}\right)=6$, 故 $1+\dfrac{M}{m}=\mathrm e^6$, $\dfrac{M}{m}=\mathrm e^6-1\approx 402$. 即燃料质量约是火箭质量的 $402$ 倍时, 火箭最大速度可达 $12\;\mathrm{km/s}$. $\blacksquare$
+$12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\frac{M}{m}\right)=12000$, 得 $\ln\left(1+\frac{M}{m}\right)=6$, 故 $1+\frac{M}{m}=\mathrm e^6$, $\frac{M}{m}=\mathrm e^6-1\approx 402$. 即燃料质量约是火箭质量的 $402$ 倍时, 火箭最大速度可达 $12\;\mathrm{km/s}$. $\blacksquare$
 
 ### 习题四
 
@@ -217,6 +223,8 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 (2) 以已有图象为基础, 在同一直角坐标系中画出 $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ 的图象;
 
 (3) 从 (2) 的图中你发现了什么?
+
+![week16-4.svg](../figures/week16-4.svg){width=50%}
 
 ### 解答 习题四
 
@@ -230,7 +238,7 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 ### 习题五
 
-(习题 4.4 复习巩固第 5 题) 大西洋鲑鱼每年都要逆流而上, 游回产地产卵. 研究鲑鱼的科学家发现鲑鱼的游速 $v$ (单位: $\mathrm{m/s}$) 可以表示为 $v=\dfrac{1}{2}\log_3\dfrac{O}{100}$, 其中 $O$ 表示鱼的耗氧量的单位数.
+(习题 4.4 复习巩固第 5 题) 大西洋鲑鱼每年都要逆流而上, 游回产地产卵. 研究鲑鱼的科学家发现鲑鱼的游速 $v$ (单位: $\mathrm{m/s}$) 可以表示为 $v=\frac{1}{2}\log_3\frac{O}{100}$, 其中 $O$ 表示鱼的耗氧量的单位数.
 
 (1) 当一条鱼的耗氧量是 $2700$ 个单位时, 它的游速是多少?
 
@@ -240,9 +248,9 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.4** (对数运算性质).
 
-(1) 代入 $O=2700$, 得 $v=\dfrac{1}{2}\log_3\dfrac{2700}{100}=\dfrac{1}{2}\log_3 27=\dfrac{1}{2}\times 3=\dfrac{3}{2}\;\mathrm{m/s}$.
+(1) 代入 $O=2700$, 得 $v=\frac{1}{2}\log_3\frac{2700}{100}=\frac{1}{2}\log_3 27=\frac{1}{2}\times 3=\frac{3}{2}\;\mathrm{m/s}$.
 
-(2) 静止时 $v=0$, 即 $\dfrac{1}{2}\log_3\dfrac{O}{100}=0$, 得 $\log_3\dfrac{O}{100}=0$, 故 $\dfrac{O}{100}=1$, $O=100$. $\blacksquare$
+(2) 静止时 $v=0$, 即 $\frac{1}{2}\log_3\frac{O}{100}=0$, 得 $\log_3\frac{O}{100}=0$, 故 $\frac{O}{100}=1$, $O=100$. $\blacksquare$
 
 ### 习题六
 
@@ -262,7 +270,7 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 (1) $y=\ln x$, $y=\mathrm e^x$;
 
-(2) $y=-\log_a x$, $y=\left(\dfrac{1}{a}\right)^x$.
+(2) $y=-\log_a x$, $y=\left(\frac{1}{a}\right)^x$.
 
 ### 解答 习题七
 
@@ -270,7 +278,7 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 (1) $y=\ln x$ 与 $y=\mathrm e^x$ 互为反函数. $y=\ln x$ 的定义域为 $(0,+\infty)$, 值域为 $\mathbb R$; $y=\mathrm e^x$ 的定义域为 $\mathbb R$, 值域为 $(0,+\infty)$.
 
-(2) $y=-\log_a x=\log_{\frac{1}{a}} x$, 它与 $y=\left(\dfrac{1}{a}\right)^x$ 互为反函数. $y=\log_{\frac{1}{a}} x$ 的定义域为 $(0,+\infty)$, 值域为 $\mathbb R$; $y=\left(\dfrac{1}{a}\right)^x$ 的定义域为 $\mathbb R$, 值域为 $(0,+\infty)$. $\blacksquare$
+(2) $y=-\log_a x=\log_{\frac{1}{a}} x$, 它与 $y=\left(\frac{1}{a}\right)^x$ 互为反函数. $y=\log_{\frac{1}{a}} x$ 的定义域为 $(0,+\infty)$, 值域为 $\mathbb R$; $y=\left(\frac{1}{a}\right)^x$ 的定义域为 $\mathbb R$, 值域为 $(0,+\infty)$. $\blacksquare$
 
 ### 习题八
 
@@ -296,11 +304,11 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-每年降低 $15\%$, 即每年患病率为原来的 $0.85$. 设需要 $x$ 年, 则 $0.85^x=0.5$. 由对数定义, $x=\log_{0.85} 0.5=\dfrac{\lg 0.5}{\lg 0.85}\approx\dfrac{-0.3010}{-0.0706}\approx 4.3$. 故约 $5$ 年后患病率降低一半. $\blacksquare$
+每年降低 $15\%$, 即每年患病率为原来的 $0.85$. 设需要 $x$ 年, 则 $0.85^x=0.5$. 由对数定义, $x=\log_{0.85} 0.5=\frac{\lg 0.5}{\lg 0.85}\approx\frac{-0.3010}{-0.0706}\approx 4.3$. 故约 $5$ 年后患病率降低一半. $\blacksquare$
 
 ### 习题十
 
-(习题 4.4 综合运用第 10 题) 声强级 $L_I$ (单位: $\mathrm{dB}$) 由公式 $L_I=10\lg\left(\dfrac{I}{10^{-12}}\right)$ 给出, 其中 $I$ 为声强 (单位: $\mathrm{W/m^2}$).
+(习题 4.4 综合运用第 10 题) 声强级 $L_I$ (单位: $\mathrm{dB}$) 由公式 $L_I=10\lg\left(\frac{I}{10^{-12}}\right)$ 给出, 其中 $I$ 为声强 (单位: $\mathrm{W/m^2}$).
 
 (1) 一般正常人听觉能忍受的最高声强为 $1\;\mathrm{W/m^2}$, 能听到的最低声强为 $10^{-12}\;\mathrm{W/m^2}$. 求人听觉的声强级范围.
 
@@ -310,9 +318,9 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 由**常用结论 4.3.4** (对数运算性质).
 
-(1) 当 $I=1$ 时, $L_I=10\lg\dfrac{1}{10^{-12}}=10\lg 10^{12}=120\;\mathrm{dB}$; 当 $I=10^{-12}$ 时, $L_I=10\lg 1=0\;\mathrm{dB}$. 故人听觉的声强级范围为 $[0,120]\;\mathrm{dB}$.
+(1) 当 $I=1$ 时, $L_I=10\lg\frac{1}{10^{-12}}=10\lg 10^{12}=120\;\mathrm{dB}$; 当 $I=10^{-12}$ 时, $L_I=10\lg 1=0\;\mathrm{dB}$. 故人听觉的声强级范围为 $[0,120]\;\mathrm{dB}$.
 
-(2) 当 $I=10^{-6}$ 时, $L_I=10\lg\dfrac{10^{-6}}{10^{-12}}=10\lg 10^6=60\;\mathrm{dB}$. $\blacksquare$
+(2) 当 $I=10^{-6}$ 时, $L_I=10\lg\frac{10^{-6}}{10^{-12}}=10\lg 10^6=60\;\mathrm{dB}$. $\blacksquare$
 
 ### 习题十一
 
@@ -336,13 +344,13 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 ### 习题十二
 
-(习题 4.4 拓广探索第 12 题) 已知 $\log_a\dfrac{1}{2}<1$, $\left(\dfrac{1}{2}\right)^a<1$, $a^{\frac{1}{2}}<1$, 求实数 $a$ 的取值范围.
+(习题 4.4 拓广探索第 12 题) 已知 $\log_a\frac{1}{2}<1$, $\left(\frac{1}{2}\right)^a<1$, $a^{\frac{1}{2}}<1$, 求实数 $a$ 的取值范围.
 
 ### 解答 习题十二
 
 由**常用结论 4.4.3** (对数函数的图象和性质) 与**常用结论 4.2.2** (指数函数的图象和性质).
 
-由 $\left(\dfrac{1}{2}\right)^a<1=\left(\dfrac{1}{2}\right)^0$, 底数 $\dfrac{1}{2}\in(0,1)$ 递减, 得 $a>0$. 由 $a^{\frac{1}{2}}<1$, 得 $0<a<1$. 再由 $\log_a\dfrac{1}{2}<1=\log_a a$: 当 $0<a<1$ 时, $y=\log_a x$ 递减, 由 $\log_a\dfrac{1}{2}<\log_a a$ 得 $\dfrac{1}{2}>a$, 即 $a<\dfrac{1}{2}$. 综合得 $0<a<\dfrac{1}{2}$. $\blacksquare$
+由 $\left(\frac{1}{2}\right)^a<1=\left(\frac{1}{2}\right)^0$, 底数 $\frac{1}{2}\in(0,1)$ 递减, 得 $a>0$. 由 $a^{\frac{1}{2}}<1$, 得 $0<a<1$. 再由 $\log_a\frac{1}{2}<1=\log_a a$: 当 $0<a<1$ 时, $y=\log_a x$ 递减, 由 $\log_a\frac{1}{2}<\log_a a$ 得 $\frac{1}{2}>a$, 即 $a<\frac{1}{2}$. 综合得 $0<a<\frac{1}{2}$. $\blacksquare$
 
 ### 习题十三
 
@@ -356,6 +364,6 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\dfrac{M}{m}\right)
 
 由**常用结论 4.3.5** (对数换底公式).
 
-(1) 由换底公式, $\log_a 6=\dfrac{\ln 6}{\ln a}$. 因 $0.2<0.3<0.4<1$, 故 $\ln 0.2<\ln 0.3<\ln 0.4<0$. 分子 $\ln 6>0$ 为正, 分母为负, 分母越负 (越小), 分数值越小. 故 $\log_{0.2} 6<\log_{0.3} 6<\log_{0.4} 6$.
+(1) 由换底公式, $\log_a 6=\frac{\ln 6}{\ln a}$. 因 $0.2<0.3<0.4<1$, 故 $\ln 0.2<\ln 0.3<\ln 0.4<0$. 分子 $\ln 6>0$ 为正, 分母为负, 分母越负 (越小), 分数值越小. 故 $\log_{0.2} 6<\log_{0.3} 6<\log_{0.4} 6$.
 
-(2) 由换底公式, $\log_2 3=\dfrac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\dfrac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\dfrac{\ln 5}{\ln 4}\approx 1.161$. 故 $\log_4 5<\log_3 4<\log_2 3$. $\blacksquare$
+(2) 由换底公式, $\log_2 3=\frac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\frac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\frac{\ln 5}{\ln 4}\approx 1.161$. 故 $\log_4 5<\log_3 4<\log_2 3$. $\blacksquare$

@@ -1,12 +1,12 @@
 # 作业 76
 
-> **定义 5.1.2** (导数) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\dfrac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **定义 5.1.2** (导数) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
 
 > **定义 5.1.3** (导数的几何意义) <br>函数 $y=f\left(x\right)$ 在 $x=x_{0}$ 处的导数 $f'\left(x_{0}\right)$ 就是曲线在该点处切线的斜率.
 
-> **定义 5.2.1** (基本初等函数的导数公式) <br>(1) 若 $f\left(x\right)=c$ ($c$ 为常数), 则 $f'\left(x\right)=0$; (2) 若 $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, 且 $\alpha\neq0$), 则 $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) 若 $f\left(x\right)=\sin x$, 则 $f'\left(x\right)=\cos x$; (4) 若 $f\left(x\right)=\cos x$, 则 $f'\left(x\right)=-\sin x$; (5) 若 $f\left(x\right)=a^{x}$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=a^{x}\ln a$, 特别地, 若 $f\left(x\right)=\mathrm e^{x}$, 则 $f'\left(x\right)=\mathrm e^{x}$; (6) 若 $f\left(x\right)=\log_{a}x$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=\dfrac{1}{x\ln a}$, 特别地, 若 $f\left(x\right)=\ln x$, 则 $f'\left(x\right)=\dfrac{1}{x}$.
+> **定义 5.2.1** (基本初等函数的导数公式) <br>(1) 若 $f\left(x\right)=c$ ($c$ 为常数), 则 $f'\left(x\right)=0$; (2) 若 $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, 且 $\alpha\neq0$), 则 $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) 若 $f\left(x\right)=\sin x$, 则 $f'\left(x\right)=\cos x$; (4) 若 $f\left(x\right)=\cos x$, 则 $f'\left(x\right)=-\sin x$; (5) 若 $f\left(x\right)=a^{x}$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=a^{x}\ln a$, 特别地, 若 $f\left(x\right)=\mathrm e^{x}$, 则 $f'\left(x\right)=\mathrm e^{x}$; (6) 若 $f\left(x\right)=\log_{a}x$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=\frac{1}{x\ln a}$, 特别地, 若 $f\left(x\right)=\ln x$, 则 $f'\left(x\right)=\frac{1}{x}$.
 
-> **定义 5.2.2** (导数的四则运算法则) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\dfrac{f\left(x\right)}{g\left(x\right)}\right]'=\dfrac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$ ($g\left(x\right)\neq0$); $\left[cf\left(x\right)\right]'=cf'\left(x\right)$.
+> **定义 5.2.2** (导数的四则运算法则) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$ ($g\left(x\right)\neq0$); $\left[cf\left(x\right)\right]'=cf'\left(x\right)$.
 
 > **定义 5.2.3** (复合函数的求导法则) <br>对于由函数 $y=f\left(u\right)$ 和 $u=g\left(x\right)$ 复合而成的函数 $y=f\left(g\left(x\right)\right)$, 其导数为 $y'_{x}=y'_{u}\cdot u'_{x}$, 即 $y$ 对 $x$ 的导数等于 $y$ 对 $u$ 的导数与 $u$ 对 $x$ 的导数的乘积.
 
@@ -14,13 +14,13 @@
 
 (练习 5.2 第 1 题) 求下列函数的导数: 
 
-(1) $y=\dfrac{1}{x^{4}}$;
+(1) $y=\frac{1}{x^{4}}$;
 
 (2) $y=\sqrt[4]{x^{3}}$;
 
 (3) $y=3^{x}$;
 
-(4) $y=\left(\dfrac{1}{2}\right)^{x}$;
+(4) $y=\left(\frac{1}{2}\right)^{x}$;
 
 (5) $y=\log_{4}x$;
 
@@ -32,15 +32,15 @@
 
 (1) $y=x^{-4}$, 故 $y'=-4x^{-4-1}=-4x^{-5}$.
 
-(2) $y=x^{\frac{3}{4}}$, 故 $y'=\dfrac{3}{4}x^{\frac{3}{4}-1}=\dfrac{3}{4}x^{-\frac{1}{4}}$.
+(2) $y=x^{\frac{3}{4}}$, 故 $y'=\frac{3}{4}x^{\frac{3}{4}-1}=\frac{3}{4}x^{-\frac{1}{4}}$.
 
 (3) $y=3^{x}$, 故 $y'=3^{x}\ln3$.
 
-(4) $y=\left(\dfrac{1}{2}\right)^{x}$, 故 $y'=\left(\dfrac{1}{2}\right)^{x}\ln\dfrac{1}{2}=-\left(\dfrac{1}{2}\right)^{x}\ln2$.
+(4) $y=\left(\frac{1}{2}\right)^{x}$, 故 $y'=\left(\frac{1}{2}\right)^{x}\ln\frac{1}{2}=-\left(\frac{1}{2}\right)^{x}\ln2$.
 
-(5) $y=\log_{4}x$, 故 $y'=\dfrac{1}{x\ln4}$.
+(5) $y=\log_{4}x$, 故 $y'=\frac{1}{x\ln4}$.
 
-(6) $y=\log_{\frac{1}{2}}x$, 故 $y'=\dfrac{1}{x\ln\frac{1}{2}}=-\dfrac{1}{x\ln2}$. $\blacksquare$
+(6) $y=\log_{\frac{1}{2}}x$, 故 $y'=\frac{1}{x\ln\frac{1}{2}}=-\frac{1}{x\ln2}$. $\blacksquare$
 
 ### 练习二
 
@@ -48,7 +48,7 @@
 
 (1) $y=x^{5}$ 在 $x=3$ 处的导数; 
 
-(2) $y=\ln x$ 在 $x=\dfrac{2}{3}$ 处的导数; 
+(2) $y=\ln x$ 在 $x=\frac{2}{3}$ 处的导数; 
 
 (3) $y=\sin x$ 在 $x=2\pi$ 处的导数; 
 
@@ -60,7 +60,7 @@
 
 (1) $y'=5x^{4}$, 故 $y'\big|_{x=3}=5\times3^{4}=405$.
 
-(2) $y'=\dfrac{1}{x}$, 故 $y'\big|_{x=\frac{2}{3}}=\dfrac{1}{\frac{2}{3}}=\dfrac{3}{2}$.
+(2) $y'=\frac{1}{x}$, 故 $y'\big|_{x=\frac{2}{3}}=\frac{1}{\frac{2}{3}}=\frac{3}{2}$.
 
 (3) $y'=\cos x$, 故 $y'\big|_{x=2\pi}=\cos2\pi=1$.
 
@@ -68,17 +68,17 @@
 
 ### 练习三
 
-(练习 5.2 第 3 题) 求余弦曲线 $y=\cos x$ 在点 $\left(\dfrac{\pi}{2},0\right)$ 处的切线方程.
+(练习 5.2 第 3 题) 求余弦曲线 $y=\cos x$ 在点 $\left(\frac{\pi}{2},0\right)$ 处的切线方程.
 
 ### 解答 练习三
 
 由**定义 5.2.1** (基本初等函数的导数公式), $y'=-\sin x$. 由**定义 5.1.3** (导数的几何意义), 切线斜率为
 
 $$
-k=y'\big|_{x=\frac{\pi}{2}}=-\sin\dfrac{\pi}{2}=-1.
+k=y'\big|_{x=\frac{\pi}{2}}=-\sin\frac{\pi}{2}=-1.
 $$
 
-切线过点 $\left(\dfrac{\pi}{2},0\right)$, 故切线方程为 $y-0=-1\left(x-\dfrac{\pi}{2}\right)$, 即 $y=-x+\dfrac{\pi}{2}$. $\blacksquare$
+切线过点 $\left(\frac{\pi}{2},0\right)$, 故切线方程为 $y-0=-1\left(x-\frac{\pi}{2}\right)$, 即 $y=-x+\frac{\pi}{2}$. $\blacksquare$
 
 ### 练习四
 
@@ -86,13 +86,13 @@ $$
 
 ### 解答 练习四
 
-由**定义 5.2.1** (基本初等函数的导数公式), $y'=\dfrac{1}{2}x^{-\frac{1}{2}}$. 由**定义 5.1.3** (导数的几何意义), 切线斜率为
+由**定义 5.2.1** (基本初等函数的导数公式), $y'=\frac{1}{2}x^{-\frac{1}{2}}$. 由**定义 5.1.3** (导数的几何意义), 切线斜率为
 
 $$
-k=y'\big|_{x=4}=\dfrac{1}{2}\times4^{-\frac{1}{2}}=\dfrac{1}{4}.
+k=y'\big|_{x=4}=\frac{1}{2}\times4^{-\frac{1}{2}}=\frac{1}{4}.
 $$
 
-切线过点 $\left(4,2\right)$, 故切线方程为 $y-2=\dfrac{1}{4}\left(x-4\right)$, 即 $y=\dfrac{1}{4}x+1$. $\blacksquare$
+切线过点 $\left(4,2\right)$, 故切线方程为 $y-2=\frac{1}{4}\left(x-4\right)$, 即 $y=\frac{1}{4}x+1$. $\blacksquare$
 
 ### 练习五
 
@@ -122,7 +122,7 @@ $$
 
 (4) $y=\left(x^{2}+2x\right)\sqrt{x}$;
 
-(5) $y=\dfrac{\ln x}{x}$;
+(5) $y=\frac{\ln x}{x}$;
 
 (6) $y=\tan x$.
 
@@ -134,16 +134,16 @@ $$
 
 (2) $y'=3\left(\cos x\right)'+\left(2^{x}\right)'=-3\sin x+2^{x}\ln2$.
 
-(3) 由积的法则, $y'=\left(\mathrm e^{x}\right)'\ln x+\mathrm e^{x}\left(\ln x\right)'=\mathrm e^{x}\ln x+\dfrac{\mathrm e^{x}}{x}$.
+(3) 由积的法则, $y'=\left(\mathrm e^{x}\right)'\ln x+\mathrm e^{x}\left(\ln x\right)'=\mathrm e^{x}\ln x+\frac{\mathrm e^{x}}{x}$.
 
-(4) $y=\left(x^{2}+2x\right)x^{\frac{1}{2}}=x^{\frac{5}{2}}+2x^{\frac{3}{2}}$, 故 $y'=\dfrac{5}{2}x^{\frac{3}{2}}+3x^{\frac{1}{2}}$.
+(4) $y=\left(x^{2}+2x\right)x^{\frac{1}{2}}=x^{\frac{5}{2}}+2x^{\frac{3}{2}}$, 故 $y'=\frac{5}{2}x^{\frac{3}{2}}+3x^{\frac{1}{2}}$.
 
-(5) 由商的法则, $y'=\dfrac{\left(\ln x\right)'x-\ln x\cdot\left(x\right)'}{x^{2}}=\dfrac{1-\ln x}{x^{2}}$.
+(5) 由商的法则, $y'=\frac{\left(\ln x\right)'x-\ln x\cdot\left(x\right)'}{x^{2}}=\frac{1-\ln x}{x^{2}}$.
 
-(6) $y=\dfrac{\sin x}{\cos x}$, 由商的法则, 
+(6) $y=\frac{\sin x}{\cos x}$, 由商的法则, 
 
 $$
-y'=\dfrac{\cos x\cdot\cos x-\sin x\left(-\sin x\right)}{\cos^{2}x}=\dfrac{\cos^{2}x+\sin^{2}x}{\cos^{2}x}=\dfrac{1}{\cos^{2}x}.
+y'=\frac{\cos x\cdot\cos x-\sin x\left(-\sin x\right)}{\cos^{2}x}=\frac{\cos^{2}x+\sin^{2}x}{\cos^{2}x}=\frac{1}{\cos^{2}x}.
 $$
 
 
@@ -167,15 +167,15 @@ $$
 
 (练习 5.2 第 8 题) 求下列函数的导数: 
 
-(1) $y=\dfrac{2}{\sqrt{3x+1}}$;
+(1) $y=\frac{2}{\sqrt{3x+1}}$;
 
 (2) $y=\left(1-2x\right)^{3}$;
 
 (3) $y=\log_{2}\left(2x+1\right)$;
 
-(4) $y=\cos\dfrac{x}{3}$;
+(4) $y=\cos\frac{x}{3}$;
 
-(5) $y=\sin\left(\dfrac{3\pi}{2}-3x\right)$;
+(5) $y=\sin\left(\frac{3\pi}{2}-3x\right)$;
 
 (6) $y=2^{2x+1}$.
 
@@ -183,15 +183,15 @@ $$
 
 由**定义 5.2.3** (复合函数的求导法则).
 
-(1) 设 $y=2u^{-\frac{1}{2}}$, $u=3x+1$, 则 $y'_{x}=2\cdot\left(-\dfrac{1}{2}\right)u^{-\frac{3}{2}}\cdot3=-\dfrac{3}{\left(3x+1\right)^{\frac{3}{2}}}$.
+(1) 设 $y=2u^{-\frac{1}{2}}$, $u=3x+1$, 则 $y'_{x}=2\cdot\left(-\frac{1}{2}\right)u^{-\frac{3}{2}}\cdot3=-\frac{3}{\left(3x+1\right)^{\frac{3}{2}}}$.
 
 (2) 设 $y=u^{3}$, $u=1-2x$, 则 $y'_{x}=3u^{2}\cdot\left(-2\right)=-6\left(1-2x\right)^{2}$.
 
-(3) 设 $y=\log_{2}u$, $u=2x+1$, 则 $y'_{x}=\dfrac{1}{u\ln2}\cdot2=\dfrac{2}{\left(2x+1\right)\ln2}$.
+(3) 设 $y=\log_{2}u$, $u=2x+1$, 则 $y'_{x}=\frac{1}{u\ln2}\cdot2=\frac{2}{\left(2x+1\right)\ln2}$.
 
-(4) 设 $y=\cos u$, $u=\dfrac{x}{3}$, 则 $y'_{x}=-\sin u\cdot\dfrac{1}{3}=-\dfrac{1}{3}\sin\dfrac{x}{3}$.
+(4) 设 $y=\cos u$, $u=\frac{x}{3}$, 则 $y'_{x}=-\sin u\cdot\frac{1}{3}=-\frac{1}{3}\sin\frac{x}{3}$.
 
-(5) 设 $y=\sin u$, $u=\dfrac{3\pi}{2}-3x$, 则 $y'_{x}=\cos u\cdot\left(-3\right)=-3\cos\left(\dfrac{3\pi}{2}-3x\right)=-3\left(-\sin3x\right)=3\sin3x$.
+(5) 设 $y=\sin u$, $u=\frac{3\pi}{2}-3x$, 则 $y'_{x}=\cos u\cdot\left(-3\right)=-3\cos\left(\frac{3\pi}{2}-3x\right)=-3\left(-\sin3x\right)=3\sin3x$.
 
 (6) 设 $y=2^{u}$, $u=2x+1$, 则 $y'_{x}=2^{u}\ln2\cdot2=2^{2x+2}\ln2$. $\blacksquare$
 
@@ -199,7 +199,7 @@ $$
 
 (练习 5.2 第 9 题) 求下列函数在给定点处的导数: 
 
-(1) $y=\mathrm e^{-2x+1}$ 在 $x=\dfrac{1}{2}$ 处的导数; 
+(1) $y=\mathrm e^{-2x+1}$ 在 $x=\frac{1}{2}$ 处的导数; 
 
 (2) $y=\ln\left(5x+2\right)$ 在 $x=1$ 处的导数.
 
@@ -209,27 +209,27 @@ $$
 
 (1) 设 $y=\mathrm e^{u}$, $u=-2x+1$, 则 $y'_{x}=\mathrm e^{u}\cdot\left(-2\right)=-2\mathrm e^{-2x+1}$. 故 $y'\big|_{x=\frac{1}{2}}=-2\mathrm e^{-2\cdot\frac{1}{2}+1}=-2\mathrm e^{0}=-2$.
 
-(2) 设 $y=\ln u$, $u=5x+2$, 则 $y'_{x}=\dfrac{1}{u}\cdot5=\dfrac{5}{5x+2}$. 故 $y'\big|_{x=1}=\dfrac{5}{5+2}=\dfrac{5}{7}$. $\blacksquare$
+(2) 设 $y=\ln u$, $u=5x+2$, 则 $y'_{x}=\frac{1}{u}\cdot5=\frac{5}{5x+2}$. 故 $y'\big|_{x=1}=\frac{5}{5+2}=\frac{5}{7}$. $\blacksquare$
 
 ### 练习十
 
-(练习 5.2 第 10 题) 求曲线 $y=\sqrt[3]{3x-1}$ 在点 $\left(\dfrac{2}{3},1\right)$ 处的切线方程.
+(练习 5.2 第 10 题) 求曲线 $y=\sqrt[3]{3x-1}$ 在点 $\left(\frac{2}{3},1\right)$ 处的切线方程.
 
 ### 解答 练习十
 
 由**定义 5.2.3**, 设 $y=u^{\frac{1}{3}}$, $u=3x-1$, 则
 
 $$
-y'_{x}=\dfrac{1}{3}u^{-\frac{2}{3}}\cdot3=u^{-\frac{2}{3}}=\left(3x-1\right)^{-\frac{2}{3}}.
+y'_{x}=\frac{1}{3}u^{-\frac{2}{3}}\cdot3=u^{-\frac{2}{3}}=\left(3x-1\right)^{-\frac{2}{3}}.
 $$
 
 由**定义 5.1.3**, 切线斜率为
 
 $$
-k=y'\big|_{x=\frac{2}{3}}=\left(3\cdot\dfrac{2}{3}-1\right)^{-\frac{2}{3}}=1^{-\frac{2}{3}}=1.
+k=y'\big|_{x=\frac{2}{3}}=\left(3\cdot\frac{2}{3}-1\right)^{-\frac{2}{3}}=1^{-\frac{2}{3}}=1.
 $$
 
-切线过点 $\left(\dfrac{2}{3},1\right)$, 故切线方程为 $y-1=1\cdot\left(x-\dfrac{2}{3}\right)$, 即 $y=x+\dfrac{1}{3}$. $\blacksquare$
+切线过点 $\left(\frac{2}{3},1\right)$, 故切线方程为 $y-1=1\cdot\left(x-\frac{2}{3}\right)$, 即 $y=x+\frac{1}{3}$. $\blacksquare$
 
 ### 习题一
 
@@ -237,15 +237,15 @@ $$
 
 (1) $y=2x^{3}-3x^{2}+5$;
 
-(2) $y=\dfrac{2}{x}+\dfrac{4}{x+1}$;
+(2) $y=\frac{2}{x}+\frac{4}{x+1}$;
 
 (3) $y=2^{x}+\log_{2}x$;
 
 (4) $y=x^{5}\mathrm e^{x}$;
 
-(5) $y=\dfrac{x^{3}-1}{\sin x}$;
+(5) $y=\frac{x^{3}-1}{\sin x}$;
 
-(6) $y=\dfrac{\sin x}{\sin x+\cos x}$.
+(6) $y=\frac{\sin x}{\sin x+\cos x}$.
 
 ### 解答 习题一
 
@@ -253,18 +253,18 @@ $$
 
 (1) $y'=6x^{2}-6x$.
 
-(2) $y=2x^{-1}+4\left(x+1\right)^{-1}$, 故 $y'=-2x^{-2}-4\left(x+1\right)^{-2}=-\dfrac{2}{x^{2}}-\dfrac{4}{\left(x+1\right)^{2}}$.
+(2) $y=2x^{-1}+4\left(x+1\right)^{-1}$, 故 $y'=-2x^{-2}-4\left(x+1\right)^{-2}=-\frac{2}{x^{2}}-\frac{4}{\left(x+1\right)^{2}}$.
 
-(3) $y'=2^{x}\ln2+\dfrac{1}{x\ln2}$.
+(3) $y'=2^{x}\ln2+\frac{1}{x\ln2}$.
 
 (4) 由积的法则, $y'=5x^{4}\mathrm e^{x}+x^{5}\mathrm e^{x}=x^{4}\mathrm e^{x}\left(5+x\right)$.
 
-(5) 由商的法则, $y'=\dfrac{3x^{2}\sin x-\left(x^{3}-1\right)\cos x}{\sin^{2}x}$.
+(5) 由商的法则, $y'=\frac{3x^{2}\sin x-\left(x^{3}-1\right)\cos x}{\sin^{2}x}$.
 
 (6) 由商的法则, 
 
 $$
-y'=\dfrac{\cos x\left(\sin x+\cos x\right)-\sin x\left(\cos x-\sin x\right)}{\left(\sin x+\cos x\right)^{2}}=\dfrac{\cos^{2}x+\sin^{2}x}{\left(\sin x+\cos x\right)^{2}}=\dfrac{1}{\left(\sin x+\cos x\right)^{2}}.
+y'=\frac{\cos x\left(\sin x+\cos x\right)-\sin x\left(\cos x-\sin x\right)}{\left(\sin x+\cos x\right)^{2}}=\frac{\cos^{2}x+\sin^{2}x}{\left(\sin x+\cos x\right)^{2}}=\frac{1}{\left(\sin x+\cos x\right)^{2}}.
 $$
 
 
@@ -276,11 +276,11 @@ $\blacksquare$
 
 (1) $y=\left(x+1\right)^{99}$;
 
-(2) $y=\dfrac{x}{\sqrt{2x+1}}$;
+(2) $y=\frac{x}{\sqrt{2x+1}}$;
 
 (3) $y=\left(2x-3\right)\sin\left(2x+5\right)$;
 
-(4) $y=\dfrac{\cos\left(3x-2\right)}{2x}$;
+(4) $y=\frac{\cos\left(3x-2\right)}{2x}$;
 
 (5) $y=\left(3x+1\right)^{2}\ln\left(3x\right)$;
 
@@ -292,17 +292,17 @@ $\blacksquare$
 
 (1) 设 $y=u^{99}$, $u=x+1$, 则 $y'=99u^{98}\cdot1=99\left(x+1\right)^{98}$.
 
-(2) 由商的法则, $y=\dfrac{x}{\left(2x+1\right)^{\frac{1}{2}}}$, 
+(2) 由商的法则, $y=\frac{x}{\left(2x+1\right)^{\frac{1}{2}}}$, 
 
 $$
-y'=\dfrac{\left(2x+1\right)^{\frac{1}{2}}-x\cdot\dfrac{1}{2}\left(2x+1\right)^{-\frac{1}{2}}\cdot2}{2x+1}=\dfrac{2x+1-x}{\left(2x+1\right)^{\frac{3}{2}}}=\dfrac{x+1}{\left(2x+1\right)^{\frac{3}{2}}}.
+y'=\frac{\left(2x+1\right)^{\frac{1}{2}}-x\cdot\frac{1}{2}\left(2x+1\right)^{-\frac{1}{2}}\cdot2}{2x+1}=\frac{2x+1-x}{\left(2x+1\right)^{\frac{3}{2}}}=\frac{x+1}{\left(2x+1\right)^{\frac{3}{2}}}.
 $$
 
 (3) 由积的法则, $y'=2\sin\left(2x+5\right)+\left(2x-3\right)\cdot2\cos\left(2x+5\right)=2\sin\left(2x+5\right)+2\left(2x-3\right)\cos\left(2x+5\right)$.
 
-(4) 由商的法则, $y'=\dfrac{-3\sin\left(3x-2\right)\cdot2x-\cos\left(3x-2\right)\cdot2}{4x^{2}}=\dfrac{-3x\sin\left(3x-2\right)-\cos\left(3x-2\right)}{2x^{2}}$.
+(4) 由商的法则, $y'=\frac{-3\sin\left(3x-2\right)\cdot2x-\cos\left(3x-2\right)\cdot2}{4x^{2}}=\frac{-3x\sin\left(3x-2\right)-\cos\left(3x-2\right)}{2x^{2}}$.
 
-(5) 由积的法则, $y'=2\left(3x+1\right)\cdot3\cdot\ln\left(3x\right)+\left(3x+1\right)^{2}\cdot\dfrac{3}{3x}=3\left(3x+1\right)\left[2\ln\left(3x\right)+\dfrac{3x+1}{3x}\right]$.
+(5) 由积的法则, $y'=2\left(3x+1\right)\cdot3\cdot\ln\left(3x\right)+\left(3x+1\right)^{2}\cdot\frac{3}{3x}=3\left(3x+1\right)\left[2\ln\left(3x\right)+\frac{3x+1}{3x}\right]$.
 
 (6) 由积的法则, $y'=3^{x}\ln3\cdot\mathrm e^{-3x}+3^{x}\cdot\left(-3\right)\mathrm e^{-3x}=3^{x}\mathrm e^{-3x}\left(\ln3-3\right)$. $\blacksquare$
 
@@ -321,7 +321,7 @@ $$
 由 $f'\left(x_{0}\right)=4$, 得 $-8+2\sqrt{2}x_{0}=4$, 解得
 
 $$
-x_{0}=\dfrac{12}{2\sqrt{2}}=3\sqrt{2}.
+x_{0}=\frac{12}{2\sqrt{2}}=3\sqrt{2}.
 $$
 
 故 $x_{0}=3\sqrt{2}$. $\blacksquare$
@@ -344,49 +344,49 @@ $$
 
 ### 习题五
 
-(习题 5.2 复习巩固第 5 题) 求曲线 $y=\dfrac{\sin x}{x}$ 在点 $M\left(\pi,0\right)$ 处的切线方程.
+(习题 5.2 复习巩固第 5 题) 求曲线 $y=\frac{\sin x}{x}$ 在点 $M\left(\pi,0\right)$ 处的切线方程.
 
 ### 解答 习题五
 
 由**定义 5.2.2** (导数的四则运算法则), 
 
 $$
-y'=\dfrac{\cos x\cdot x-\sin x\cdot1}{x^{2}}=\dfrac{x\cos x-\sin x}{x^{2}}.
+y'=\frac{\cos x\cdot x-\sin x\cdot1}{x^{2}}=\frac{x\cos x-\sin x}{x^{2}}.
 $$
 
 由**定义 5.1.3**, 切线斜率为
 
 $$
-k=y'\big|_{x=\pi}=\dfrac{\pi\cos\pi-\sin\pi}{\pi^{2}}=\dfrac{-\pi}{\pi^{2}}=-\dfrac{1}{\pi}.
+k=y'\big|_{x=\pi}=\frac{\pi\cos\pi-\sin\pi}{\pi^{2}}=\frac{-\pi}{\pi^{2}}=-\frac{1}{\pi}.
 $$
 
-切线过点 $M\left(\pi,0\right)$, 故切线方程为 $y-0=-\dfrac{1}{\pi}\left(x-\pi\right)$, 即 $y=-\dfrac{x}{\pi}+1$. $\blacksquare$
+切线过点 $M\left(\pi,0\right)$, 故切线方程为 $y-0=-\frac{1}{\pi}\left(x-\pi\right)$, 即 $y=-\frac{x}{\pi}+1$. $\blacksquare$
 
 ### 习题六
 
-(习题 5.2 综合运用第 6 题) 已知函数 $f\left(x\right)$ 满足 $f\left(x\right)=f'\left(\dfrac{\pi}{4}\right)\sin x-\cos x$, 求 $f\left(x\right)$ 在 $x=\dfrac{\pi}{4}$ 处的导数.
+(习题 5.2 综合运用第 6 题) 已知函数 $f\left(x\right)$ 满足 $f\left(x\right)=f'\left(\frac{\pi}{4}\right)\sin x-\cos x$, 求 $f\left(x\right)$ 在 $x=\frac{\pi}{4}$ 处的导数.
 
 ### 解答 习题六
 
-由**定义 5.2.2**, 对 $f\left(x\right)$ 求导, 注意 $f'\left(\dfrac{\pi}{4}\right)$ 是常数, 得
+由**定义 5.2.2**, 对 $f\left(x\right)$ 求导, 注意 $f'\left(\frac{\pi}{4}\right)$ 是常数, 得
 
 $$
-f'\left(x\right)=f'\left(\dfrac{\pi}{4}\right)\cos x+\sin x.
+f'\left(x\right)=f'\left(\frac{\pi}{4}\right)\cos x+\sin x.
 $$
 
-令 $x=\dfrac{\pi}{4}$, 记 $c=f'\left(\dfrac{\pi}{4}\right)$, 则
+令 $x=\frac{\pi}{4}$, 记 $c=f'\left(\frac{\pi}{4}\right)$, 则
 
 $$
-c=f'\left(\dfrac{\pi}{4}\right)\cos\dfrac{\pi}{4}+\sin\dfrac{\pi}{4}=c\cdot\dfrac{\sqrt{2}}{2}+\dfrac{\sqrt{2}}{2}.
+c=f'\left(\frac{\pi}{4}\right)\cos\frac{\pi}{4}+\sin\frac{\pi}{4}=c\cdot\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}.
 $$
 
-解此关于 $c$ 的方程, 得 $c\left(1-\dfrac{\sqrt{2}}{2}\right)=\dfrac{\sqrt{2}}{2}$, 故
+解此关于 $c$ 的方程, 得 $c\left(1-\frac{\sqrt{2}}{2}\right)=\frac{\sqrt{2}}{2}$, 故
 
 $$
-c=\dfrac{\dfrac{\sqrt{2}}{2}}{1-\dfrac{\sqrt{2}}{2}}=\dfrac{\sqrt{2}}{2-\sqrt{2}}=\sqrt{2}+1.
+c=\frac{\frac{\sqrt{2}}{2}}{1-\frac{\sqrt{2}}{2}}=\frac{\sqrt{2}}{2-\sqrt{2}}=\sqrt{2}+1.
 $$
 
-故 $f\left(x\right)$ 在 $x=\dfrac{\pi}{4}$ 处的导数为 $\sqrt{2}+1$. $\blacksquare$
+故 $f\left(x\right)$ 在 $x=\frac{\pi}{4}$ 处的导数为 $\sqrt{2}+1$. $\blacksquare$
 
 ### 习题七
 
@@ -406,17 +406,17 @@ $$
 
 ### 习题八
 
-(习题 5.2 综合运用第 8 题) 已知函数 $f\left(x\right)=\dfrac{x^{2}}{2}+2x-3\ln x$, 求 $f\left(x\right)$ 的导数, 并求出 $f'\left(x\right)>0$ 的解集.
+(习题 5.2 综合运用第 8 题) 已知函数 $f\left(x\right)=\frac{x^{2}}{2}+2x-3\ln x$, 求 $f\left(x\right)$ 的导数, 并求出 $f'\left(x\right)>0$ 的解集.
 
 ### 解答 习题八
 
 由**定义 5.2.1** 与**定义 5.2.2**, 
 
 $$
-f'\left(x\right)=x+2-\dfrac{3}{x}.
+f'\left(x\right)=x+2-\frac{3}{x}.
 $$
 
-令 $f'\left(x\right)>0$, 即 $x+2-\dfrac{3}{x}>0$. 函数定义域为 $x>0$, 两边乘 $x$, 得
+令 $f'\left(x\right)>0$, 即 $x+2-\frac{3}{x}>0$. 函数定义域为 $x>0$, 两边乘 $x$, 得
 
 $$
 x^{2}+2x-3>0.
@@ -465,17 +465,17 @@ $$
 (1) $l\left(t\right)=2t^{2}+3\left(2t\right)^{\frac{1}{2}}$, 故
 
 $$
-l'\left(t\right)=4t+3\cdot\dfrac{1}{2}\left(2t\right)^{-\frac{1}{2}}\cdot2=4t+\dfrac{3}{\sqrt{2t}}.
+l'\left(t\right)=4t+3\cdot\frac{1}{2}\left(2t\right)^{-\frac{1}{2}}\cdot2=4t+\frac{3}{\sqrt{2t}}.
 $$
 
 $l'\left(t\right)$ 表示运动员在时刻 $t$ 的瞬时滑雪速度.
 
-(2) 当 $t=3$ 时, $l'\left(3\right)=4\times3+\dfrac{3}{\sqrt{6}}=12+\dfrac{3}{\sqrt{6}}\approx13.2\ \mathrm{m/s}$.
+(2) 当 $t=3$ 时, $l'\left(3\right)=4\times3+\frac{3}{\sqrt{6}}=12+\frac{3}{\sqrt{6}}\approx13.2\ \mathrm{m/s}$.
 
 (3) 令 $l\left(t\right)=38$, 即 $2t^{2}+3\sqrt{2t}=38$. 试得 $t=4$ 时, $2\times16+3\sqrt{8}=32+6\sqrt{2}\approx40.5$, 偏大; $t=3.5$ 时, $2\times12.25+3\sqrt{7}\approx24.5+7.94\approx32.4$, 偏小. 经试算 $t\approx3.7$ 时满足. 此时
 
 $$
-l'\left(3.7\right)=4\times3.7+\dfrac{3}{\sqrt{7.4}}\approx14.8+1.1\approx15.9\ \mathrm{m/s}.
+l'\left(3.7\right)=4\times3.7+\frac{3}{\sqrt{7.4}}\approx14.8+1.1\approx15.9\ \mathrm{m/s}.
 $$
 
 故滑雪路程为 $38\ \mathrm{m}$ 时, 滑雪速度约为 $15.9\ \mathrm{m/s}$. $\blacksquare$
@@ -498,23 +498,25 @@ $$
 2a\times2=-1,
 $$
 
-解得 $a=-\dfrac{1}{4}$. $\blacksquare$
+解得 $a=-\frac{1}{4}$. $\blacksquare$
 
 ### 习题十二
 
 (习题 5.2 拓广探索第 12 题) 请按步骤, 完成下面的任务.
 
-(1) 利用信息技术工具, 分别画出 $h=1,0.5,0.1,0.05$ 时, 函数 $y=\dfrac{\sin\left(x+h\right)-\sin x}{h}$ 的图象.
+(1) 利用信息技术工具, 分别画出 $h=1,0.5,0.1,0.05$ 时, 函数 $y=\frac{\sin\left(x+h\right)-\sin x}{h}$ 的图象.
 
 (2) 画出函数 $y=\cos x$ 的图象, 并与上面的四个图象比较, 当 $h$ 越来越小时, 你观察到了什么? 
 
 (3) 猜测 $y=\sin x$ 的导数, 它与基本初等函数的导数公式表中 $\sin x$ 的导数公式一样吗? 
 
+![week76-1.svg](../figures/week76-1.svg){width=50%}
+
 ### 解答 习题十二
 
-由**定义 5.1.2** (导数), $\dfrac{\sin\left(x+h\right)-\sin x}{h}$ 是 $\sin x$ 在 $x$ 处以 $h$ 为改变量的平均变化率.
+由**定义 5.1.2** (导数), $\frac{\sin\left(x+h\right)-\sin x}{h}$ 是 $\sin x$ 在 $x$ 处以 $h$ 为改变量的平均变化率.
 
-(1) 当 $h=1,0.5,0.1,0.05$ 时, 函数 $y=\dfrac{\sin\left(x+h\right)-\sin x}{h}$ 的图象均为余弦型曲线.
+(1) 当 $h=1,0.5,0.1,0.05$ 时, 函数 $y=\frac{\sin\left(x+h\right)-\sin x}{h}$ 的图象均为余弦型曲线.
 
 (2) 当 $h$ 越来越小时, 该平均变化率函数的图象越来越接近 $y=\cos x$ 的图象.
 
@@ -522,7 +524,7 @@ $$
 
 ### 习题十三
 
-(习题 5.2 拓广探索第 13 题) 某海湾拥有世界上最大的海潮. 假设在该海湾某一固定点处, 大海水深 $d$ (单位: $\mathrm{m}$) 与午夜后的时间 $t$ (单位: $\mathrm{h}$) 之间的关系为 $d\left(t\right)=10+4\cos\dfrac{\pi}{6}t$. 求下列时刻此固定点的水位变化速度 (精确到 $0.01\ \mathrm{m/h}$): 
+(习题 5.2 拓广探索第 13 题) 某海湾拥有世界上最大的海潮. 假设在该海湾某一固定点处, 大海水深 $d$ (单位: $\mathrm{m}$) 与午夜后的时间 $t$ (单位: $\mathrm{h}$) 之间的关系为 $d\left(t\right)=10+4\cos\frac{\pi}{6}t$. 求下列时刻此固定点的水位变化速度 (精确到 $0.01\ \mathrm{m/h}$): 
 
 (1) 上午 $6:00$; 
 
@@ -534,15 +536,15 @@ $$
 
 ### 解答 习题十三
 
-由**定义 5.2.3**, $d'\left(t\right)=-4\cdot\dfrac{\pi}{6}\sin\dfrac{\pi}{6}t=-\dfrac{2\pi}{3}\sin\dfrac{\pi}{6}t$.
+由**定义 5.2.3**, $d'\left(t\right)=-4\cdot\frac{\pi}{6}\sin\frac{\pi}{6}t=-\frac{2\pi}{3}\sin\frac{\pi}{6}t$.
 
-(1) 上午 $6:00$ 对应 $t=6$, $d'\left(6\right)=-\dfrac{2\pi}{3}\sin\pi=0$.
+(1) 上午 $6:00$ 对应 $t=6$, $d'\left(6\right)=-\frac{2\pi}{3}\sin\pi=0$.
 
-(2) 上午 $10:00$ 对应 $t=10$, $d'\left(10\right)=-\dfrac{2\pi}{3}\sin\dfrac{10\pi}{6}=-\dfrac{2\pi}{3}\sin\dfrac{5\pi}{3}=\dfrac{2\pi}{3}\cdot\dfrac{\sqrt{3}}{2}\approx1.81\ \mathrm{m/h}$.
+(2) 上午 $10:00$ 对应 $t=10$, $d'\left(10\right)=-\frac{2\pi}{3}\sin\frac{10\pi}{6}=-\frac{2\pi}{3}\sin\frac{5\pi}{3}=\frac{2\pi}{3}\cdot\frac{\sqrt{3}}{2}\approx1.81\ \mathrm{m/h}$.
 
-(3) 中午 $12:00$ 对应 $t=12$, $d'\left(12\right)=-\dfrac{2\pi}{3}\sin2\pi=0$.
+(3) 中午 $12:00$ 对应 $t=12$, $d'\left(12\right)=-\frac{2\pi}{3}\sin2\pi=0$.
 
-(4) 下午 $4:00$ 对应 $t=16$, $d'\left(16\right)=-\dfrac{2\pi}{3}\sin\dfrac{16\pi}{6}=-\dfrac{2\pi}{3}\sin\dfrac{8\pi}{3}=-\dfrac{2\pi}{3}\sin\dfrac{2\pi}{3}=-\dfrac{2\pi}{3}\cdot\dfrac{\sqrt{3}}{2}\approx-1.81\ \mathrm{m/h}$. $\blacksquare$
+(4) 下午 $4:00$ 对应 $t=16$, $d'\left(16\right)=-\frac{2\pi}{3}\sin\frac{16\pi}{6}=-\frac{2\pi}{3}\sin\frac{8\pi}{3}=-\frac{2\pi}{3}\sin\frac{2\pi}{3}=-\frac{2\pi}{3}\cdot\frac{\sqrt{3}}{2}\approx-1.81\ \mathrm{m/h}$. $\blacksquare$
 
 ### 探究与发现一
 
@@ -550,7 +552,7 @@ $$
 
 ### 解答 探究与发现一
 
-牛顿法由迭代公式 $x_{n}=x_{n-1}-\dfrac{f\left(x_{n-1}\right)}{f'\left(x_{n-1}\right)}$ 逐步逼近方程 $f\left(x\right)=0$ 的根.
+牛顿法由迭代公式 $x_{n}=x_{n-1}-\frac{f\left(x_{n-1}\right)}{f'\left(x_{n-1}\right)}$ 逐步逼近方程 $f\left(x\right)=0$ 的根.
 
 由**定义 5.1.3** (导数的几何意义), 迭代的每一步是用曲线在当前点处的切线与 $x$ 轴的交点作为下一个近似值. 初始值 $x_{0}$ 决定了从曲线的哪一点开始作切线.
 
