@@ -36,7 +36,7 @@
 
 (1) 矩形; (2) 平行四边形; (3) 正三角形; (4) 正五边形.
 
-![week39-1.svg](../figures/week39-1.svg){width=100%}
+![week39-1.svg](../../figures/week39-1.svg){width=100%}
 
 ### 解答 练习二
 
@@ -54,7 +54,7 @@
 
 (练习 8.2 第 1 题) 用斜二测画法画一个棱长为 $3\text{ cm}$ 的正方体的直观图.
 
-![week39-2.svg](../figures/week39-2.svg){width=50%}
+![week39-2.svg](../../figures/week39-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -72,7 +72,7 @@
 
 (练习 8.2 第 2 题) 用斜二测画法画一个正六棱柱的直观图.
 
-![week39-3.svg](../figures/week39-3.svg){width=50%}
+![week39-3.svg](../../figures/week39-3.svg){width=50%}
 
 ### 解答 练习四
 
@@ -88,7 +88,7 @@
 
 (练习 8.2 第 3 题) 一个简单组合体由上下两部分组成, 下部是一个圆柱, 上部是一个半球, 并且半球的球心就是圆柱的上底面圆心. 画出这个组合体的直观图.
 
-![week39-4.svg](../figures/week39-4.svg){width=50%}
+![week39-4.svg](../../figures/week39-4.svg){width=50%}
 
 ### 解答 练习五
 
@@ -134,7 +134,7 @@
 
 (2) 斜边横向.
 
-![week39-5.svg](../figures/week39-5.svg){width=100%}
+![week39-5.svg](../../figures/week39-5.svg){width=100%}
 
 ### 解答 习题二
 
@@ -148,7 +148,7 @@
 
 (习题 8.2 复习巩固第 3 题) 用斜二测画法画出底面边长为 $2\text{ cm}$, 侧棱长为 $3\text{ cm}$ 的正三棱柱的直观图.
 
-![week39-6.svg](../figures/week39-6.svg){width=50%}
+![week39-6.svg](../../figures/week39-6.svg){width=50%}
 
 ### 解答 习题三
 
@@ -166,7 +166,7 @@
 
 (习题 8.2 复习巩固第 4 题) 画底面半径为 $1\text{ cm}$, 母线长为 $3\text{ cm}$ 的圆柱的直观图.
 
-![week39-7.svg](../figures/week39-7.svg){width=50%}
+![week39-7.svg](../../figures/week39-7.svg){width=50%}
 
 ### 解答 习题四
 
@@ -184,7 +184,7 @@
 
 (习题 8.2 综合运用第 5 题) 一个菱形的边长为 $4\text{ cm}$, 一内角为 $60^{\circ}$, 将菱形水平放置并且使较长的对角线成横向, 试用斜二测画法画出这个菱形的直观图.
 
-![week39-8.svg](../figures/week39-8.svg){width=50%}
+![week39-8.svg](../../figures/week39-8.svg){width=50%}
 
 ### 解答 习题五
 
@@ -198,7 +198,7 @@
 
 (习题 8.2 综合运用第 6 题) 已知一个圆锥由等腰直角三角形旋转形成, 画出这个圆锥的直观图.
 
-![week39-9.svg](../figures/week39-9.svg){width=50%}
+![week39-9.svg](../../figures/week39-9.svg){width=50%}
 
 ### 解答 习题六
 
@@ -216,7 +216,7 @@
 
 (习题 8.2 综合运用第 7 题) 一个几何体的三视图如图所示, 画出这个几何体的直观图.
 
-![week39-10.svg](../figures/week39-10.svg){width=100%}
+![week39-10.svg](../../figures/week39-10.svg){width=100%}
 
 ### 解答 习题七
 

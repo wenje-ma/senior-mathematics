@@ -128,7 +128,7 @@ $$
 
 (2) 在 $x$ 轴, $y$ 轴上的截距分别是 $-5,6$.
 
-![week61-1.svg](../figures/week61-1.svg){width=100%}
+![week61-1.svg](../../figures/week61-1.svg){width=100%}
 
 ### 解答 练习六
 
@@ -192,7 +192,7 @@ $$
 
 (4) $7x-6y+4=0$.
 
-![week61-2.svg](../figures/week61-2.svg){width=100%}
+![week61-2.svg](../../figures/week61-2.svg){width=100%}
 
 ### 解答 练习九
 
@@ -504,7 +504,7 @@ $$
 
 (习题 2.2 拓广探索第 15 题) 画出直线 $l:2x-y+3=0$, 并在直线 $l$ 外取若干点, 将这些点的坐标代入 $2x-y+3$, 求它的值; 观察有什么规律, 并把这个规律表示出来.
 
-![week61-3.svg](../figures/week61-3.svg){width=50%}
+![week61-3.svg](../../figures/week61-3.svg){width=50%}
 
 ### 解答 习题十五
 
@@ -526,7 +526,7 @@ $$
 
 从运动学角度看, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t>0$) 可以看成质点 $P$ 从点 $P_0$ 出发, 以速度 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后的位移. 你能刻画射线 $P_0N$ 吗? 由以上讨论, 你能说说方程 ① 的运动学意义吗?
 
-![week61-4.svg](../figures/week61-4.svg){width=50%}
+![week61-4.svg](../../figures/week61-4.svg){width=50%}
 
 ### 解答 探究与发现一
 

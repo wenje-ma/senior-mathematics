@@ -68,7 +68,7 @@ $$
 
 (练习 4.2 第 4 题) 在同一直角坐标系中画出函数 $y=3^x$ 和 $y=\left(\frac{1}{3}\right)^x$ 的图象, 并说明它们的关系.
 
-![week14-1.svg](../figures/week14-1.svg){width=50%}
+![week14-1.svg](../../figures/week14-1.svg){width=50%}
 
 ### 解答 练习四
 
@@ -100,7 +100,7 @@ $$
 
 (练习 4.2 第 6 题) 体内癌细胞初期增加得很缓慢, 但到了晚期就急剧增加, 画一幅能反映体内癌细胞数量随时间变化的示意图.
 
-![week14-2.svg](../figures/week14-2.svg){width=50%}
+![week14-2.svg](../../figures/week14-2.svg){width=50%}
 
 ### 解答 练习六
 
@@ -256,7 +256,7 @@ $$
 
 (2) 判断该函数的奇偶性和单调性.
 
-![week14-3.svg](../figures/week14-3.svg){width=50%}
+![week14-3.svg](../../figures/week14-3.svg){width=50%}
 
 ### 解答 习题九
 

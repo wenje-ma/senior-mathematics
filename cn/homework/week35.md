@@ -108,7 +108,7 @@ $$
 
 (练习 7.1 第 1 题) 说出图中复平面内各点所表示的复数 (每个小方格的边长为 $1$).
 
-![week35-1.svg](../figures/week35-1.svg){width=50%}
+![week35-1.svg](../../figures/week35-1.svg){width=50%}
 
 ### 解答 练习四
 
@@ -134,7 +134,7 @@ $$
 
 (6) $-3\mathrm{i}$.
 
-![week35-2.svg](../figures/week35-2.svg){width=50%}
+![week35-2.svg](../../figures/week35-2.svg){width=50%}
 
 ### 解答 练习五
 
@@ -162,7 +162,7 @@ $$
 
 (2) 求这些复数的模.
 
-![week35-3.svg](../figures/week35-3.svg){width=50%}
+![week35-3.svg](../../figures/week35-3.svg){width=50%}
 
 ### 解答 练习六
 

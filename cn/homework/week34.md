@@ -26,7 +26,7 @@ $\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\l
 
 (练习 6.4 第 2 题) 如图, 正方形 $ABCD$ 的边长为 $a$, $E$ 是 $AB$ 的中点, $F$ 是 $BC$ 边上靠近点 $B$ 的三等分点, $AF$ 与 $DE$ 交于点 $M$, 求 $\angle EMF$ 的余弦值.
 
-![week34-1.svg](../figures/week34-1.svg){width=50%}
+![week34-1.svg](../../figures/week34-1.svg){width=50%}
 
 ### 解答 练习二
 
@@ -44,7 +44,7 @@ $\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}
 
 (练习 6.4 第 3 题) 如图, 在 $\triangle ABC$ 中, 点 $O$ 是 $BC$ 的中点, 过点 $O$ 的直线分别交直线 $AB$, $AC$ 于不同的两点 $M$, $N$. 设 $\boldsymbol{AB}=m\boldsymbol{AM}$, $\boldsymbol{AC}=n\boldsymbol{AN}$, 求 $m+n$ 的值.
 
-![week34-2.svg](../figures/week34-2.svg){width=50%}
+![week34-2.svg](../../figures/week34-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -74,7 +74,7 @@ $m+n=2\lambda+2(1-\lambda)=2$. $\blacksquare$
 
 (练习 6.4 第 5 题) 如图, 一滑轮组中有两个定滑轮 $A$, $B$, 在从连接点 $O$ 出发的三根绳的端点处, 挂着 $3$ 个重物, 它们所受的重力分别为 $4\text{ N}$, $4\text{ N}$ 和 $4\sqrt 3\text{ N}$. 此时整个系统恰处于平衡状态, 求 $\angle AOB$ 的大小.
 
-![week34-3.svg](../figures/week34-3.svg){width=50%}
+![week34-3.svg](../../figures/week34-3.svg){width=50%}
 
 ### 解答 练习五
 
@@ -238,7 +238,7 @@ $c=\frac{b\sin C}{\sin B}=\frac{\sqrt 3\cdot\frac{3+4\sqrt 3}{10}}{\frac{\sqrt 3
 
 (练习 6.4 第 13 题) 如图, 在某点 $B$ 处测得建筑物 $AE$ 的顶端 $A$ 的仰角为 $\alpha$, 沿 $BE$ 方向前进, 至点 $C$ 处测得顶端 $A$ 的仰角为 $2\alpha$, 再继续前进 $10\sqrt{3}\text{ m}$ 至 $D$ 点, 测得顶端 $A$ 的仰角为 $4\alpha$, 求建筑物 $AE$ 的高.
 
-![week34-4.svg](../figures/week34-4.svg){width=50%}
+![week34-4.svg](../../figures/week34-4.svg){width=50%}
 
 ### 解答 练习十三
 
@@ -406,7 +406,7 @@ $B\approx43^{\circ}$ 或 $B\approx137^{\circ}$.
 
 (习题 6.4 复习巩固第 8 题) 如图, 测量河对岸的塔高 $AB$ 时, 可以选取与塔底 $B$ 在同一水平面内的两个测量基点 $C$ 与 $D$. 现测得 $\angle BCD=\alpha$, $\angle BDC=\beta$, $CD=s$, 在点 $C$ 测得塔顶 $A$ 的仰角为 $\theta$, 求塔高 $AB$.
 
-![week34-5.svg](../figures/week34-5.svg){width=50%}
+![week34-5.svg](../../figures/week34-5.svg){width=50%}
 
 ### 解答 习题八
 
@@ -480,7 +480,7 @@ $\boldsymbol{AP}=(-1,-3)$. $P=A+\boldsymbol{AP}=(1-1,2-3)=(0,-1)$. $\blacksquare
 
 (习题 6.4 综合运用第 12 题) 如图, 在 $\triangle ABC$ 中, 已知 $AB=2$, $AC=5$, $\angle BAC=60^{\circ}$, $BC$, $AC$ 边上的两条中线 $AM$, $BN$ 相交于点 $P$, 求 $\angle MPN$ 的余弦值.
 
-![week34-6.svg](../figures/week34-6.svg){width=50%}
+![week34-6.svg](../../figures/week34-6.svg){width=50%}
 
 ### 解答 习题十二
 
@@ -594,7 +594,7 @@ $S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\
 
 (习题 6.4 拓广探索第 19 题) 如图, 在 $\square ABCD$ 中, 点 $E$, $F$ 分别是 $AD$, $DC$ 边的中点, $BE$, $BF$ 分别与 $AC$ 交于 $R$, $T$ 两点, 你能发现 $AR$, $RT$, $TC$ 之间的关系吗? 用向量方法证明你的结论.
 
-![week34-7.svg](../figures/week34-7.svg){width=50%}
+![week34-7.svg](../../figures/week34-7.svg){width=50%}
 
 ### 解答 习题十九
 
@@ -642,7 +642,7 @@ $=p(p-a)(p-b)(p-c)$. $S=\sqrt{p(p-a)(p-b)(p-c)}$.
 
 (习题 6.4 拓广探索第 21 题) 如图, 为了测量两山顶 $M$, $N$ 间的距离, 飞机沿水平方向在 $A$, $B$ 两点进行测量, $A$, $B$, $M$, $N$ 在同一个铅垂平面内. 请设计一个测量方案.
 
-![week34-8.svg](../figures/week34-8.svg){width=50%}
+![week34-8.svg](../../figures/week34-8.svg){width=50%}
 
 ### 解答 习题二十一
 

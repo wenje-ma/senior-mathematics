@@ -160,7 +160,7 @@ $\blacksquare$
 
 (4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$.
 
-![week30-1.svg](../figures/week30-1.svg){width=100%}
+![week30-1.svg](../../figures/week30-1.svg){width=100%}
 
 ### 解答 习题八
 
@@ -184,7 +184,7 @@ $\blacksquare$
 
 (3) 如何根据第 (2) 小题并通过平行移动坐标轴, 得到函数 $y=\sin(x+\varphi)+k$, $x\in[0,2\pi]$ ($\varphi$, $k$ 都是常数) 的图象?
 
-![week30-2.svg](../figures/week30-2.svg){width=50%}
+![week30-2.svg](../../figures/week30-2.svg){width=50%}
 
 ### 解答 习题九
 
@@ -478,7 +478,7 @@ $\tan(\alpha+\beta)=\frac{(1-x)+(1-y)}{1-(1-x)(1-y)}=\frac{2-(x+y)}{1-(1-x-y+xy)
 
 (3) 由 (2) 中的图象求 $S(\alpha)$ 的最小值.
 
-![week30-3.svg](../figures/week30-3.svg){width=50%}
+![week30-3.svg](../../figures/week30-3.svg){width=50%}
 
 ### 解答 习题二十五
 

@@ -184,7 +184,7 @@ $\blacksquare$
 
 (2) 位于坐标 4 处的概率.
 
-![week86-1.svg](../figures/week86-1.svg){width=50%}
+![week86-1.svg](../../figures/week86-1.svg){width=50%}
 
 ### 解答 习题三
 
@@ -394,7 +394,7 @@ $$
 
 (思考 1) 二项分布的性质. 观察参数 $n$, $p$ 取不同值时二项分布 $X\sim B(n,p)$ 的分布列图形, 类比函数性质的研究, 你能发现二项分布的哪些性质?
 
-![week86-2.svg](../figures/week86-2.svg){width=100%}
+![week86-2.svg](../../figures/week86-2.svg){width=100%}
 
 ### 解答 探究与发现一
 

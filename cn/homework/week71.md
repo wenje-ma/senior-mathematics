@@ -19,7 +19,7 @@
 
 (3) 数列的通项公式为 $a_n=\begin{cases}2, & n\text{ 为奇数},\\ n+1, & n\text{ 为偶数}.\end{cases}$
 
-![week71-1.svg](../figures/week71-1.svg){width=100%}
+![week71-1.svg](../../figures/week71-1.svg){width=100%}
 
 ### 解答 练习一
 
@@ -119,7 +119,7 @@ $\blacksquare$
 
 (3) 点数依次为 $3,8,15,24,(\quad)$.
 
-![week71-2.svg](../figures/week71-2.svg){width=100%}
+![week71-2.svg](../../figures/week71-2.svg){width=100%}
 
 ### 解答 练习二
 
@@ -223,7 +223,7 @@ $\blacksquare$
 
 (2) 欧拉函数 $\varphi(n)$ ($n\in\mathbb N^*$) 的函数值按自变量从小到大的顺序排列成的数列.
 
-![week71-3.svg](../figures/week71-3.svg){width=100%}
+![week71-3.svg](../../figures/week71-3.svg){width=100%}
 
 ### 解答 习题一
 
@@ -363,7 +363,7 @@ $\blacksquare$
 
 (习题 4.1 综合运用第 5 题) 传说古希腊毕达哥拉斯学派的数学家用沙粒和小石子来研究数. 他们根据沙粒或小石子所排列的形状把数分成许多类, 如图中第一行的 $1,3,6,10$ 称为三角形数, 第二行的 $1,4,9,16$ 称为正方形数, 第三行的 $1,5,12,22$ 称为五边形数. 请你分别写出三角形数, 正方形数和五边形数所构成的数列的第 $5$ 项和第 $6$ 项
 
-![week71-4.svg](../figures/week71-4.svg){width=100%}
+![week71-4.svg](../../figures/week71-4.svg){width=100%}
 
 ### 解答 习题一
 

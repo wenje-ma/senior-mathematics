@@ -32,7 +32,7 @@
 
 (练习 6.2 第 1 题) 如图, 在下列各小题中, 已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 分别用两种方法求作向量 $\boldsymbol{a}+\boldsymbol{b}$.
 
-![week32-1.svg](../figures/week32-1.svg){width=100%}
+![week32-1.svg](../../figures/week32-1.svg){width=100%}
 
 ### 解答 练习一
 
@@ -58,7 +58,7 @@
 
 (4) $\boldsymbol{c}+\boldsymbol{d}+\boldsymbol{e}=\;\_\_\;$.
 
-![week32-2.svg](../figures/week32-2.svg){width=50%}
+![week32-2.svg](../../figures/week32-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -74,7 +74,7 @@
 
 (3) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CP}=\boldsymbol{PA}$.
 
-![week32-3.svg](../figures/week32-3.svg){width=50%}
+![week32-3.svg](../../figures/week32-3.svg){width=50%}
 
 ### 解答 练习四
 
@@ -134,7 +134,7 @@ $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{
 
 (练习 6.2 第 8 题) 作图验证: $-(\boldsymbol{a}+\boldsymbol{b})=-\boldsymbol{a}-\boldsymbol{b}$.
 
-![week32-4.svg](../figures/week32-4.svg){width=50%}
+![week32-4.svg](../../figures/week32-4.svg){width=50%}
 
 ### 解答 练习八
 
@@ -394,7 +394,7 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 (2) $\frac{1}{2}(\boldsymbol{a}+\boldsymbol{b})-\frac{1}{2}(\boldsymbol{a}-\boldsymbol{b})=\boldsymbol{b}$.
 
-![week32-5.svg](../figures/week32-5.svg){width=100%}
+![week32-5.svg](../../figures/week32-5.svg){width=100%}
 
 ### 解答 习题五
 
@@ -464,7 +464,7 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 (习题 6.2 复习巩固第 9 题) 如图, $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$, $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$. 求证 $\boldsymbol{MN}=\frac{1}{3}\boldsymbol{BC}$.
 
-![week32-6.svg](../figures/week32-6.svg){width=50%}
+![week32-6.svg](../../figures/week32-6.svg){width=50%}
 
 ### 解答 习题九
 
@@ -570,7 +570,7 @@ $\boldsymbol{AN}=\frac{1}{8}(\boldsymbol{a}+\boldsymbol{b})$. $\blacksquare$
 
 (习题 6.2 综合运用第 15 题) 如图, 在任意四边形 $ABCD$ 中, $E$, $F$ 分别为 $AD$, $BC$ 的中点, 求证: $\boldsymbol{AB}+\boldsymbol{DC}=2\boldsymbol{EF}$.
 
-![week32-7.svg](../figures/week32-7.svg){width=50%}
+![week32-7.svg](../../figures/week32-7.svg){width=50%}
 
 ### 解答 习题十五
 
@@ -586,7 +586,7 @@ $E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $
 
 (习题 6.2 综合运用第 16 题) 飞机从甲地沿北偏西 $15^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达乙地, 再从乙地沿南偏东 $75^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达丙地. 画出飞机飞行的位移示意图, 并说明丙地在甲地的什么方向? 丙地距甲地多远?
 
-![week32-8.svg](../figures/week32-8.svg){width=50%}
+![week32-8.svg](../../figures/week32-8.svg){width=50%}
 
 ### 解答 习题十六
 
@@ -604,7 +604,7 @@ $E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $
 
 (3) 如图 (3), 在 $n$ 边形 $A_1A_2A_3\cdots A_n$ 中, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? 证明你的结论.
 
-![week32-9.svg](../figures/week32-9.svg){width=100%}
+![week32-9.svg](../../figures/week32-9.svg){width=100%}
 
 ### 解答 习题十七
 
@@ -670,7 +670,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 (习题 6.2 拓广探索第 22 题) 如图, $O$ 是平行四边形 $ABCD$ 外一点, 用 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 表示 $\boldsymbol{OD}$.
 
-![week32-10.svg](../figures/week32-10.svg){width=50%}
+![week32-10.svg](../../figures/week32-10.svg){width=50%}
 
 ### 解答 习题二十二
 
@@ -686,7 +686,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 (2) 四边形 $ABCD$ 有什么特点? 请证明你的猜想.
 
-![week32-11.svg](../figures/week32-11.svg){width=50%}
+![week32-11.svg](../../figures/week32-11.svg){width=50%}
 
 ### 解答 习题二十三
 
@@ -700,7 +700,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 (习题 6.2 拓广探索第 24 题) 如图, 在 $\odot C$ 中, 是不是只需知道 $\odot C$ 的半径或弦 $AB$ 的长度, 就可以求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$ 的值?
 
-![week32-12.svg](../figures/week32-12.svg){width=50%}
+![week32-12.svg](../../figures/week32-12.svg){width=50%}
 
 ### 解答 习题二十四
 

@@ -60,7 +60,7 @@
 
 (练习 1.4 第 3 题) 如图, 直线 $a$ 与 $b$ 被直线 $l$ 所截, 分别得到了 $\angle 1$, $\angle 2$, $\angle 3$ 和 $\angle 4$. 请根据这些信息, 写出几个 "$a\parallel b$" 的充分条件和必要条件.
 
-![week4-1.svg](../figures/week4-1.svg){width=50%}
+![week4-1.svg](../../figures/week4-1.svg){width=50%}
 
 ### 解答 练习三
 
@@ -126,7 +126,7 @@
 
 (练习 1.4 第 3 题) 证明: 如图, $AC=BD$ 是梯形 $ABCD$ 为等腰梯形的充要条件.
 
-![week4-2.svg](../figures/week4-2.svg){width=50%}
+![week4-2.svg](../../figures/week4-2.svg){width=50%}
 
 ### 解答 练习六
 

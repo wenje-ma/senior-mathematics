@@ -180,7 +180,7 @@ $x\le 0$ 时, $y=(x+1)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时 $y=-3$. $
 
 (复习参考题4 综合运用第 7 题) 指数函数 $y=\left(\frac{b}{a}\right)^x$ 的图象如图所示 (递减曲线), 求二次函数 $y=ax^2+bx$ 图象顶点的横坐标的取值范围.
 
-![week29-1.svg](../figures/week29-1.svg){width=50%}
+![week29-1.svg](../../figures/week29-1.svg){width=50%}
 
 ### 解答 习题七
 
@@ -208,7 +208,7 @@ $y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0<\frac{b}{a}<1$. 二次函数 $y=ax
 
 (3) 画出 $P$ 关于 $t$ 变化的函数图象.
 
-![week29-2.svg](../figures/week29-2.svg){width=50%}
+![week29-2.svg](../../figures/week29-2.svg){width=50%}
 
 ### 解答 习题九
 

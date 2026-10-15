@@ -14,7 +14,7 @@
 
 (练习 5.4 第 1 题) 在同一直角坐标系中, 画出函数 $y=\sin x$, $x\in[0,2\pi]$, $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$ 的图象. 通过观察两条曲线, 说出它们的异同.
 
-![week21-1.svg](../figures/week21-1.svg){width=50%}
+![week21-1.svg](../../figures/week21-1.svg){width=50%}
 
 ### 解答 练习一
 
@@ -32,7 +32,7 @@
 
 (2) $y=2-\cos x$.
 
-![week21-2.svg](../figures/week21-2.svg){width=100%}
+![week21-2.svg](../../figures/week21-2.svg){width=100%}
 
 ### 解答 练习二
 
@@ -46,7 +46,7 @@
 
 (练习 5.4 第 3 题) 想一想函数 $y=\lvert\sin x\rvert$ 与 $y=\sin x$ 的图象及其关系, 并借助信息技术画出函数的图象进行检验.
 
-![week21-3.svg](../figures/week21-3.svg){width=50%}
+![week21-3.svg](../../figures/week21-3.svg){width=50%}
 
 ### 解答 练习三
 
@@ -310,7 +310,7 @@
 
 (2) $y=3\cos x+1$, $x\in[0,2\pi]$.
 
-![week21-4.svg](../figures/week21-4.svg){width=100%}
+![week21-4.svg](../../figures/week21-4.svg){width=100%}
 
 ### 解答 习题一
 
@@ -584,7 +584,7 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 (习题 5.4 拓广探索第 17 题) 在直角坐标系中, 已知 $\odot O$ 是以原点 $O$ 为圆心, 半径长为 $2$ 的圆, 角 $x$ 的终边与 $\odot O$ 的交点为 $B$, 求点 $B$ 的纵坐标 $y$ 关于 $x$ 的函数解析式, 并借助信息技术画出其图象.
 
-![week21-5.svg](../figures/week21-5.svg){width=50%}
+![week21-5.svg](../../figures/week21-5.svg){width=50%}
 
 ### 解答 习题十七
 
@@ -600,7 +600,7 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 (2) 画出函数 $y=f(x+1)$ 的图象.
 
-![week21-6.svg](../figures/week21-6.svg){width=50%}
+![week21-6.svg](../../figures/week21-6.svg){width=50%}
 
 ### 解答 习题十八
 

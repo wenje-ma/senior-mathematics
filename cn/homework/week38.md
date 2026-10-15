@@ -88,7 +88,7 @@
 
 (练习 8.1 第 4 题) 设计一个平面图形, 使它能折成一个直三棱柱.
 
-![week38-2.svg](../figures/week38-2.svg){width=50%}
+![week38-2.svg](../../figures/week38-2.svg){width=50%}
 
 ### 解答 练习四
 
@@ -136,7 +136,7 @@
 
 (练习 8.1 第 3 题) 如图, 以三角形 $ABC$ 的一边 $AB$ 所在直线为轴, 其余两边旋转一周形成的面围成一个几何体. 说出这个几何体的结构特征.
 
-![week38-5.svg](../figures/week38-5.svg){width=50%}
+![week38-5.svg](../../figures/week38-5.svg){width=50%}
 
 ### 解答 练习七
 
@@ -158,7 +158,7 @@
 
 (习题 8.1 复习巩固第 1 题) 如图, 在长方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 指出经过顶点 $D$ 的棱和面.
 
-![week38-6.svg](../figures/week38-6.svg){width=50%}
+![week38-6.svg](../../figures/week38-6.svg){width=50%}
 
 ### 解答 习题一
 
@@ -172,7 +172,7 @@
 
 (1) 斜放的平行六面体; (2) 三棱柱; (3) 竖放的长方体; (4) 圆柱; (5) 下方长方体上方接三棱柱的组合体; (6) 棱台加棱锥的组合体; (7) 三棱锥.
 
-![week38-7.svg](../figures/week38-7.svg){width=100%}
+![week38-7.svg](../../figures/week38-7.svg){width=100%}
 
 ### 解答 习题二
 
@@ -188,7 +188,7 @@
 
 > 原图见教材 必修第二册 印刷页 105 ($PDF$ 页 111). 该图为实物照片, 无法用 R 重绘.
 
-![week38-8.svg](../figures/week38-8.svg){width=100%}
+![week38-8.svg](../../figures/week38-8.svg){width=100%}
 
 ### 解答 习题三
 
@@ -202,7 +202,7 @@
 
 (1) 棱台, 上下底面平行; (2) 棱锥被不平行于底面的平面截取; (3) 圆锥被不平行于底面的平面截取.
 
-![week38-9.svg](../figures/week38-9.svg){width=100%}
+![week38-9.svg](../../figures/week38-9.svg){width=100%}
 
 ### 解答 习题四
 
@@ -220,7 +220,7 @@
 
 (1) 圆锥接在圆台之上; (2) 四棱锥接在长方体之上.
 
-![week38-10.svg](../figures/week38-10.svg){width=100%}
+![week38-10.svg](../../figures/week38-10.svg){width=100%}
 
 ### 解答 习题五
 
@@ -260,7 +260,7 @@
 
 (展开图中中间矩形上下各接一个矩形, 左右各接一个小正方形, 涂色面为中间矩形, 下方矩形和左右两个小正方形.)
 
-![week38-11.svg](../figures/week38-11.svg){width=50%}
+![week38-11.svg](../../figures/week38-11.svg){width=50%}
 
 ### 解答 习题七
 
@@ -272,7 +272,7 @@
 
 (习题 8.1 综合运用第 8 题) 如图, 长方体 $ABCD\text{-}A'B'C'D'$ 被一个平面截成两个几何体, 其中 $EH\parallel B'C'\parallel FG$. 请说出这两个几何体的名称.
 
-![week38-12.svg](../figures/week38-12.svg){width=50%}
+![week38-12.svg](../../figures/week38-12.svg){width=50%}
 
 ### 解答 习题八
 
@@ -284,7 +284,7 @@
 
 (习题 8.1 综合运用第 9 题) 如图, 以 $\square ABCD$ 的一边 $AB$ 所在直线为轴, 其他三边旋转一周形成的面围成一个几何体. 画出这个几何体的图形, 并说出其中的简单几何体及有关的结构特征.
 
-![week38-13.svg](../figures/week38-13.svg){width=50%}
+![week38-13.svg](../../figures/week38-13.svg){width=50%}
 
 ### 解答 习题九
 

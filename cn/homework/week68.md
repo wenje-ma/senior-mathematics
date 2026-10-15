@@ -316,7 +316,7 @@ $\boldsymbol{a}+\boldsymbol{b}$ 只由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性
 
 (2) $DB_1 \perp$ 平面 $ACB_1$.
 
-![week68-1.svg](../figures/week68-1.svg){width=50%}
+![week68-1.svg](../../figures/week68-1.svg){width=50%}
 
 ### 解答 习题十六
 
@@ -358,7 +358,7 @@ $\boldsymbol{DB_1}=(1,1,1)$ 与法向量 $(1,1,-1)$ 不平行.
 
 (3) 求证: $A_1B \perp C_1M$.
 
-![week68-2.svg](../figures/week68-2.svg){width=50%}
+![week68-2.svg](../../figures/week68-2.svg){width=50%}
 
 ### 解答 习题十七
 

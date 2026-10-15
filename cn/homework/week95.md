@@ -52,7 +52,7 @@ $$
 
 ($\mathrm D$) 一定不存在负相关
 
-![week95-1.svg](../figures/week95-1.svg){width=50%}
+![week95-1.svg](../../figures/week95-1.svg){width=50%}
 
 ### 解答 习题一
 
@@ -84,7 +84,7 @@ $$
 
 ($\mathrm D$) 不满足一元线性回归模型的 $E\left(e\right)=0$ 和 $D\left(e\right)=\sigma^2$ 的假设
 
-![week95-2.svg](../figures/week95-2.svg){width=50%}
+![week95-2.svg](../../figures/week95-2.svg){width=50%}
 
 ### 解答 习题二
 
@@ -144,7 +144,7 @@ $$
 
 (复习参考题8 综合运用第 5 题) 根据 $8.1.2$ 节例 $3$ 中的数据, 建立臂展关于身高的经验回归模型, 画出残差图, 描述残差图的特点.
 
-![week95-3.svg](../figures/week95-3.svg){width=50%}
+![week95-3.svg](../../figures/week95-3.svg){width=50%}
 
 ### 解答 习题五
 
@@ -292,7 +292,7 @@ $$
 
 (2) 计算样本相关系数, 并解释其含义.
 
-![week95-4.svg](../figures/week95-4.svg){width=50%}
+![week95-4.svg](../../figures/week95-4.svg){width=50%}
 
 ### 解答 习题九
 

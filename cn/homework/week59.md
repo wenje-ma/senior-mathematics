@@ -92,7 +92,7 @@ $-3x=0$, $2z=0$, 故 $x=0$, $z=0$, $y$ 任意.
 
 (练习 1.4 第 2 题) 如图, 在四面体 $ABCD$ 中, $E$ 是 $BC$ 的中点. 直线 $AD$ 上是否存在点 $F$, 使得 $AE \parallel CF$?
 
-![week59-1.svg](../figures/week59-1.svg){width=50%}
+![week59-1.svg](../../figures/week59-1.svg){width=50%}
 
 ### 解答 练习五
 
@@ -118,7 +118,7 @@ $-\boldsymbol{b}+t\boldsymbol{c}=\lambda \cdot \frac{1}{2}(\boldsymbol{a}+\bolds
 
 (练习 1.4 第 3 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$, $F$ 分别是面 $AB_1$, 面 $A_1C_1$ 的中心. 求证: $EF \parallel$ 平面 $ACD_1$.
 
-![week59-2.svg](../figures/week59-2.svg){width=50%}
+![week59-2.svg](../../figures/week59-2.svg){width=50%}
 
 ### 解答 练习六
 
@@ -176,7 +176,7 @@ $d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 (4) 求直线 $FC_1$ 到平面 $AB_1E$ 的距离.
 
-![week59-3.svg](../figures/week59-3.svg){width=50%}
+![week59-3.svg](../../figures/week59-3.svg){width=50%}
 
 ### 解答 练习八
 
@@ -206,7 +206,7 @@ $d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 (练习 1.4 第 3 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, 求平面 $A_1DB$ 与平面 $D_1CB_1$ 的距离.
 
-![week59-4.svg](../figures/week59-4.svg){width=50%}
+![week59-4.svg](../../figures/week59-4.svg){width=50%}
 
 ### 解答 练习九
 
@@ -292,7 +292,7 @@ $\cos\theta=\sqrt{1-\frac{2}{3}}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
 
 (练习 1.4 第 3 题) 如图, 正三棱柱 $ABC-A_1B_1C_1$ 的所有棱长都为 $2$, 求平面 $AA_1B$ 与平面 $A_1BC_1$ 夹角的余弦值.
 
-![week59-5.svg](../figures/week59-5.svg){width=50%}
+![week59-5.svg](../../figures/week59-5.svg){width=50%}
 
 ### 解答 练习十二
 
@@ -320,7 +320,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (3) 平面 $ABD$ 和平面 $BDC$ 的夹角的余弦值.
 
-![week59-6.svg](../figures/week59-6.svg){width=50%}
+![week59-6.svg](../../figures/week59-6.svg){width=50%}
 
 ### 解答 练习十三
 
@@ -354,7 +354,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (练习 1.4 第 1 题) 如图, 二面角 $\alpha-l-\beta$ 的棱上有两个点 $A$, $B$, 线段 $BD$ 与 $AC$ 分别在这个二面角的两个面内, 并且都垂直于棱 $l$. 若 $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, 求平面 $\alpha$ 与平面 $\beta$ 的夹角.
 
-![week59-7.svg](../figures/week59-7.svg){width=50%}
+![week59-7.svg](../../figures/week59-7.svg){width=50%}
 
 ### 解答 练习十四
 
@@ -380,7 +380,7 @@ $2\boldsymbol{CA} \cdot \boldsymbol{BD}=-48$, 即 $\boldsymbol{CA} \cdot \boldsy
 
 (练习 1.4 第 2 题) 如图, 在三棱锥 $A-BCD$ 中, $AB=AC=BD=CD=3$, $AD=BC=2$, $M$, $N$ 分别是 $AD$, $BC$ 的中点. 求异面直线 $AN$, $CM$ 所成角的余弦值.
 
-![week59-8.svg](../figures/week59-8.svg){width=50%}
+![week59-8.svg](../../figures/week59-8.svg){width=50%}
 
 ### 解答 练习十五
 
@@ -410,7 +410,7 @@ $\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
 
 (练习 1.4 第 3 题) 如图, 在三棱锥 $O-ABC$ 中, $OA$, $OB$, $OC$ 两两垂直, $OA=OC=3$, $OB=2$. 求直线 $OB$ 与平面 $ABC$ 所成角的正弦值.
 
-![week59-9.svg](../figures/week59-9.svg){width=50%}
+![week59-9.svg](../../figures/week59-9.svg){width=50%}
 
 ### 解答 练习十六
 
@@ -432,7 +432,7 @@ $\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \bo
 
 (习题 1.4 复习巩固第 1 题) 如图, 在三棱锥 $A-BCD$ 中, $E$ 是 $CD$ 的中点, 点 $F$ 在 $AE$ 上, 且 $EF=2FA$. 设 $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$, 求直线 $AE$, $BF$ 的方向向量.
 
-![week59-10.svg](../figures/week59-10.svg){width=50%}
+![week59-10.svg](../../figures/week59-10.svg){width=50%}
 
 ### 解答 习题一
 
@@ -454,7 +454,7 @@ $\boldsymbol{BF}=\boldsymbol{BA}+\boldsymbol{AF}=\boldsymbol{c}+\frac{1}{3}\bold
 
 (2) 求平面 $A_1BC$ 的法向量.
 
-![week59-11.svg](../figures/week59-11.svg){width=50%}
+![week59-11.svg](../../figures/week59-11.svg){width=50%}
 
 ### 解答 习题二
 
@@ -474,7 +474,7 @@ $A(0,0,0)$, $B(1,0,0)$, $C(0,1,0)$, $A_1(0,0,2)$, $B_1(1,0,2)$, $C_1(0,1,2)$.
 
 (习题 1.4 复习巩固第 3 题) 如图, 在平行六面体 $ABCD-A_1B_1C_1D_1$ 中, $E$ 是 $AB$ 的中点, $F$ 是 $C_1D_1$ 的中点. 求证: $A_1E \parallel CF$.
 
-![week59-12.svg](../figures/week59-12.svg){width=50%}
+![week59-12.svg](../../figures/week59-12.svg){width=50%}
 
 ### 解答 习题三
 
@@ -494,7 +494,7 @@ $\boldsymbol{CF}=\boldsymbol{CD}+\boldsymbol{DD_1}+\boldsymbol{D_1F}=-\boldsymbo
 
 (习题 1.4 复习巩固第 4 题) 如图, 在四面体 $ABCD$ 中, $AD \perp$ 平面 $BCD$, $M$ 是 $AD$ 的中点, $P$ 是 $BM$ 的中点. 点 $Q$ 在线段 $AC$ 上, 且 $AQ=3QC$. 求证: $PQ \parallel$ 平面 $BCD$.
 
-![week59-13.svg](../figures/week59-13.svg){width=50%}
+![week59-13.svg](../../figures/week59-13.svg){width=50%}
 
 ### 解答 习题四
 
@@ -526,7 +526,7 @@ $\boldsymbol{PQ} \cdot (0,0,1)=0$, 即 $\boldsymbol{PQ} \perp$ 法向量.
 
 (2) $EF \perp CB_1$.
 
-![week59-14.svg](../figures/week59-14.svg){width=50%}
+![week59-14.svg](../../figures/week59-14.svg){width=50%}
 
 ### 解答 习题五
 
@@ -554,7 +554,7 @@ $\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. 故 $EF 
 
 (习题 1.4 复习巩固第 6 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, $O$ 为正方形 $A_1ABB_1$ 的中心, $E$ 为 $BC$ 的中点, 求点 $O$ 到直线 $A_1E$ 的距离.
 
-![week59-15.svg](../figures/week59-15.svg){width=50%}
+![week59-15.svg](../../figures/week59-15.svg){width=50%}
 
 ### 解答 习题六
 
@@ -586,7 +586,7 @@ $d=\sqrt{\frac{1}{2}-\left(\frac{1}{\frac{3}{2}}\right)^2}=\sqrt{\frac{1}{2}-\fr
 
 (2) 求点 $O$ 到平面 $ABC$ 的距离.
 
-![week59-16.svg](../figures/week59-16.svg){width=50%}
+![week59-16.svg](../../figures/week59-16.svg){width=50%}
 
 ### 解答 习题七
 
@@ -614,7 +614,7 @@ $d=\frac{\sqrt{6}}{3}$. $\blacksquare$
 
 (习题 1.4 综合运用第 8 题) 如图, 四面体 $ABCD$ 的每条棱长都等于 $a$, $M$, $N$ 分别是 $AB$, $CD$ 的中点. 求证: $MN \perp AB$, $MN \perp CD$.
 
-![week59-17.svg](../figures/week59-17.svg){width=50%}
+![week59-17.svg](../../figures/week59-17.svg){width=50%}
 
 ### 解答 习题八
 
@@ -646,7 +646,7 @@ $\boldsymbol{MN} \cdot \boldsymbol{AB}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{
 
 (2) $MN$ 和 $AD$ 所成角的大小.
 
-![week59-18.svg](../figures/week59-18.svg){width=50%}
+![week59-18.svg](../../figures/week59-18.svg){width=50%}
 
 ### 解答 习题九
 
@@ -682,7 +682,7 @@ $\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot 1}=\frac{1}{\sqrt{2}}=\f
 
 (2) 求 $DB_1$ 与平面 $EFGHKL$ 所成角的余弦值.
 
-![week59-19.svg](../figures/week59-19.svg){width=50%}
+![week59-19.svg](../../figures/week59-19.svg){width=50%}
 
 ### 解答 习题十
 
@@ -716,7 +716,7 @@ $\cos\theta=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. $\blacksquare$
 
 (习题 1.4 综合运用第 11 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, $AB=2$, $BC=CC_1=1$, $E$ 是 $CD$ 的中点. 求证: $B_1E \perp$ 平面 $AED_1$.
 
-![week59-20.svg](../figures/week59-20.svg){width=50%}
+![week59-20.svg](../../figures/week59-20.svg){width=50%}
 
 ### 解答 习题十一
 
@@ -742,7 +742,7 @@ $\boldsymbol{B_1E} \cdot \boldsymbol{AD_1}=1+0-1=0$.
 
 (习题 1.4 综合运用第 12 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, 点 $E$, $F$, $G$ 分别在棱 $A_1A$, $A_1B_1$, $A_1D_1$ 上, $A_1E=A_1F=A_1G=1$; 点 $P$, $Q$, $R$ 分别在棱 $CC_1$, $CD$, $CB$ 上, $CP=CQ=CR=1$. 求证: 平面 $EFG \parallel$ 平面 $PQR$.
 
-![week59-21.svg](../figures/week59-21.svg){width=50%}
+![week59-21.svg](../../figures/week59-21.svg){width=50%}
 
 ### 解答 习题十二
 
@@ -764,7 +764,7 @@ $P$, $Q$, $R$ 关于长方体中心对称, 平面 $PQR$ 的法向量 $\boldsymbo
 
 (习题 1.4 综合运用第 13 题) 如图, 已知正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $E$ 为 $CD$ 的中点, 求点 $D_1$ 到平面 $AEC_1$ 的距离.
 
-![week59-22.svg](../figures/week59-22.svg){width=50%}
+![week59-22.svg](../../figures/week59-22.svg){width=50%}
 
 ### 解答 习题十三
 
@@ -786,7 +786,7 @@ $d=\frac{\lvert \boldsymbol{AD_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbo
 
 (习题 1.4 综合运用第 14 题) 如图, 正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $M$ 是棱 $AA_1$ 的中点, $O$ 是 $BD_1$ 的中点. 求证: $OM$ 分别与异面直线 $AA_1$, $BD_1$ 垂直, 并求 $OM$ 的长.
 
-![week59-23.svg](../figures/week59-23.svg){width=50%}
+![week59-23.svg](../../figures/week59-23.svg){width=50%}
 
 ### 解答 习题十四
 
@@ -812,7 +812,7 @@ $OM=\sqrt{\frac{1}{4}+\frac{1}{4}+0}=\frac{\sqrt{2}}{2}$. $\blacksquare$
 
 (习题 1.4 综合运用第 15 题) 如图, 已知正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $Q$ 为 $B_1C_1$ 的中点, 点 $P$ 在棱 $AA_1$ 上, $AP:AA_1=1:3$. 求平面 $ABCD$ 与平面 $BQP$ 夹角的余弦值.
 
-![week59-24.svg](../figures/week59-24.svg){width=50%}
+![week59-24.svg](../../figures/week59-24.svg){width=50%}
 
 ### 解答 习题十五
 
@@ -834,7 +834,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (习题 1.4 拓广探索第 16 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $\angle BAC=90^\circ$, $AB=AC=2$, $AA_1=3$. $M$ 是 $AB$ 的中点, $N$ 是 $B_1C_1$ 的中点, $P$ 是 $BC_1$ 与 $B_1C$ 的交点. 在线段 $A_1N$ 上是否存在点 $Q$, 使得 $PQ \parallel$ 平面 $A_1CM$?
 
-![week59-25.svg](../figures/week59-25.svg){width=50%}
+![week59-25.svg](../../figures/week59-25.svg){width=50%}
 
 ### 解答 习题十六
 
@@ -902,7 +902,7 @@ $(x-x_0,y-y_0,z-z_0)=t(a,b,c)$.
 
 (3) 当 $MN$ 的长最小时, 求平面 $MNA$ 与平面 $MNB$ 夹角的余弦值.
 
-![week59-26.svg](../figures/week59-26.svg){width=50%}
+![week59-26.svg](../../figures/week59-26.svg){width=50%}
 
 ### 解答 习题十八
 

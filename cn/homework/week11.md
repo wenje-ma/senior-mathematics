@@ -54,7 +54,7 @@
 
 (习题 3.3 复习巩固第 1 题) 画出函数 $y=\sqrt{\left|x\right|}$ 的图象, 并判断函数的奇偶性, 讨论函数的单调性.
 
-![week11-1.svg](../figures/week11-1.svg){width=50%}
+![week11-1.svg](../../figures/week11-1.svg){width=50%}
 
 ### 解答 习题一
 
@@ -92,7 +92,7 @@ $$
 
 (习题 3.3 综合运用第 3 题) 试用描点法画出函数 $f\left(x\right)=x^{-2}$ 的图象, 求函数的定义域, 值域; 讨论函数的单调性, 奇偶性, 并证明.
 
-![week11-2.svg](../figures/week11-2.svg){width=50%}
+![week11-2.svg](../../figures/week11-2.svg){width=50%}
 
 ### 解答 习题三
 
@@ -160,7 +160,7 @@ $$
 
 (探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 你画出的函数图象与图 1 类似吗?
 
-![week11-3.svg](../figures/week11-3.svg){width=50%}
+![week11-3.svg](../../figures/week11-3.svg){width=50%}
 
 ### 解答 探究与发现五
 

@@ -22,7 +22,7 @@
 
 (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$.
 
-![week23-1.svg](../figures/week23-1.svg){width=100%}
+![week23-1.svg](../../figures/week23-1.svg){width=100%}
 
 ### 解答 练习一
 
@@ -156,7 +156,7 @@
 
 (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$.
 
-![week23-2.svg](../figures/week23-2.svg){width=100%}
+![week23-2.svg](../../figures/week23-2.svg){width=100%}
 
 ### 解答 习题二
 
@@ -190,7 +190,7 @@
 
 (习题 5.6 综合运用第 4 题) 函数 $y=A\sin(\omega x+\varphi)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) 在一个周期内的图象如图所示, 此函数的解析式为 $y=$ $\;\_\_\;$ .
 
-![week23-3.svg](../figures/week23-3.svg){width=50%}
+![week23-3.svg](../../figures/week23-3.svg){width=50%}
 
 ### 解答 习题四
 

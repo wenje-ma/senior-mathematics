@@ -38,7 +38,7 @@ $$
 
 (3) 比较 $\mathbb P(\lvert X\rvert\le 1)$ 与 $\mathbb P(\lvert Y\rvert\le 1)$ 的大小.
 
-![week87-1.svg](../figures/week87-1.svg){width=50%}
+![week87-1.svg](../../figures/week87-1.svg){width=50%}
 
 ### 解答 练习二
 

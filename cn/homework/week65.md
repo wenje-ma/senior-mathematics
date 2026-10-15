@@ -112,7 +112,7 @@ $$
 
 (练习 3.1 第 1 题) 你能用圆规作出图中椭圆焦点的位置吗? 你的依据是什么?
 
-![week65-1.svg](../figures/week65-1.svg){width=50%}
+![week65-1.svg](../../figures/week65-1.svg){width=50%}
 
 ### 解答 练习五
 
@@ -330,7 +330,7 @@ $\blacksquare$
 
 (2) $9x^2+y^2=81$.
 
-![week65-2.svg](../figures/week65-2.svg){width=100%}
+![week65-2.svg](../../figures/week65-2.svg){width=100%}
 
 ### 解答 习题三
 
@@ -396,7 +396,7 @@ $$
 
 (习题 3.1 复习巩固第 6 题) 如图, 圆 $O$ 的半径为定长 $r$, $A$ 是圆 $O$ 内一个定点, $P$ 是圆 $O$ 上任意一点. 线段 $AP$ 的垂直平分线 $l$ 和半径 $OP$ 相交于点 $Q$, 当点 $P$ 在圆上运动时, 点 $Q$ 的轨迹是什么? 为什么?
 
-![week65-3.svg](../figures/week65-3.svg){width=50%}
+![week65-3.svg](../../figures/week65-3.svg){width=50%}
 
 ### 解答 习题六
 
@@ -456,7 +456,7 @@ $$
 
 (习题 3.1 综合运用第 9 题) 如图, $DP\perp x$ 轴, 垂足为 $D$, 点 $M$ 在 $DP$ 的延长线上, 且 $\frac{DM}{DP}=\frac{3}{2}$. 当点 $P$ 在圆 $x^2+y^2=4$ 上运动时, 求点 $M$ 的轨迹方程, 并说明轨迹的形状.
 
-![week65-4.svg](../figures/week65-4.svg){width=50%}
+![week65-4.svg](../../figures/week65-4.svg){width=50%}
 
 ### 解答 习题九
 
@@ -502,7 +502,7 @@ $\blacksquare$
 
 (习题 3.1 拓广探索第 11 题) 如图, 矩形 $ABCD$ 中, $AB=2a$, $BC=2b$ ($a>b>0$). $E$, $F$, $G$, $H$ 分别是矩形四条边的中点, $R$, $S$, $T$ 是线段 $OF$ 的四等分点, $R'$, $S'$, $T'$ 是线段 $CF$ 的四等分点. 证明直线 $ER$ 与 $GR'$, $ES$ 与 $GS'$, $ET$ 与 $GT'$ 的交点 $L$, $M$, $N$ 都在椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$) 上.
 
-![week65-5.svg](../figures/week65-5.svg){width=50%}
+![week65-5.svg](../../figures/week65-5.svg){width=50%}
 
 ### 解答 习题十一
 

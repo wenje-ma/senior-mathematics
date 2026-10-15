@@ -36,7 +36,7 @@ $$
 
 (图 (1) 中散点从左上到右下大致沿一条直线下降; 图 (2) 中散点前段大致水平, 后段明显下降; 图 (3) 中散点杂乱无章; 图 (4) 中散点从左下到右上大致沿一条直线上升.)
 
-![week88-1.svg](../figures/week88-1.svg){width=100%}
+![week88-1.svg](../../figures/week88-1.svg){width=100%}
 
 ### 解答 练习二
 
@@ -129,7 +129,7 @@ $$
 
 (4) $\left(2,0\right)$, $\left(1,\sqrt 3\right)$, $\left(0,2\right)$, $\left(-1,\sqrt 3\right)$, $\left(-2,0\right)$.
 
-![week88-2.svg](../figures/week88-2.svg){width=100%}
+![week88-2.svg](../../figures/week88-2.svg){width=100%}
 
 ### 解答 练习六
 
@@ -188,7 +188,7 @@ $$
 
 (图 (1) 中散点无明显升降趋势; 图 (2) 中散点从左下到右上沿直线分布; 图 (3) 中散点从左上到右下沿直线分布; 图 (4) 中散点从左下到右上沿直线分布.)
 
-![week88-3.svg](../figures/week88-3.svg){width=100%}
+![week88-3.svg](../../figures/week88-3.svg){width=100%}
 
 ### 解答 习题一
 

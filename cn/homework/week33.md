@@ -20,7 +20,7 @@
 
 (练习 6.3 第 1 题) 如图, $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量, 试用基底 $\{\boldsymbol{e}_1,\boldsymbol{e}_2\}$ 表示图中的向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$.
 
-![week33-1.svg](../figures/week33-1.svg){width=50%}
+![week33-1.svg](../../figures/week33-1.svg){width=50%}
 
 ### 解答 练习一
 
@@ -30,7 +30,7 @@
 
 (练习 6.3 第 2 题) 当 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量时, 求作向量 $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
 
-![week33-2.svg](../figures/week33-2.svg){width=50%}
+![week33-2.svg](../../figures/week33-2.svg){width=50%}
 
 ### 解答 练习二
 
@@ -148,7 +148,7 @@ $\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{6
 
 (习题 6.3 复习巩固第 1 题) 如图, 在 $\triangle ABC$ 中, $AD=\frac{1}{3}AB$, $E$ 是 $AC$ 上一点, $EC=\frac{1}{3}AC$, $BE$ 与 $CD$ 交于点 $P$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 试用基底 $\{\boldsymbol{a},\boldsymbol{b}\}$ 表示 $\boldsymbol{AP}$.
 
-![week33-3.svg](../figures/week33-3.svg){width=50%}
+![week33-3.svg](../../figures/week33-3.svg){width=50%}
 
 ### 解答 习题一
 
@@ -302,7 +302,7 @@ $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
 
 (习题 6.3 综合运用第 11 题) 如图, 在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $E$, $F$ 分别为 $AB$, $CD$ 的中点, $M$, $N$ 为对角线 $AC$ 上的两点, 且 $AM=MN=NC$, 求证: $\boldsymbol{EM}=\boldsymbol{FN}$.
 
-![week33-4.svg](../figures/week33-4.svg){width=50%}
+![week33-4.svg](../../figures/week33-4.svg){width=50%}
 
 ### 解答 习题十一
 

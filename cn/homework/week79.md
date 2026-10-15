@@ -97,7 +97,7 @@ $\blacksquare$
 
 (复习参考题 5 复习巩固第 3 题) 已知函数 $y=f\left(x\right)$ 的图象是下列四个图象之一, 且其导函数 $y=f'\left(x\right)$ 的图象如图所示, 则该函数的图象是 ( ).
 
-![week79-1.svg](../figures/week79-1.svg){width=100%}
+![week79-1.svg](../../figures/week79-1.svg){width=100%}
 
 ### 解答 习题三
 
@@ -151,7 +151,7 @@ $$
 
 (2) $f'\left(3\right)=-4$ 的实际意义是什么? 如果 $f\left(3\right)=65\ {^\circ}\mathrm C$, 你能画出函数 $T=f\left(t\right)$ 在 $t=3$ 时图象的大致形状吗? 
 
-![week79-2.svg](../figures/week79-2.svg){width=50%}
+![week79-2.svg](../../figures/week79-2.svg){width=50%}
 
 ### 解答 习题六
 
@@ -207,7 +207,7 @@ $$
 
 (复习参考题 5 综合运用第 10 题) 如图, 过点 $P\left(1,1\right)$ 作直线 $AB$, 分别与 $x$ 轴的正半轴, $y$ 轴的正半轴交于点 $A,B$. 当直线 $AB$ 在什么位置时, $\triangle AOB$ 的面积最小? 最小面积是多少? 
 
-![week79-3.svg](../figures/week79-3.svg){width=50%}
+![week79-3.svg](../../figures/week79-3.svg){width=50%}
 
 ### 解答 习题十
 
@@ -231,7 +231,7 @@ $$
 
 (复习参考题 5 综合运用第 11 题) 如图, 直线 $l$ 和圆 $P$, 当 $l$ 从 $l_{0}$ 开始在平面上按逆时针方向绕点 $O$ 匀速转动 (转动角度不超过 $90^\circ$) 时, 它扫过的圆内阴影部分的面积 $S$ 是时间 $t$ 的函数. 这个函数的图象大致是 ( ).
 
-![week79-4.svg](../figures/week79-4.svg){width=100%}
+![week79-4.svg](../../figures/week79-4.svg){width=100%}
 
 ### 解答 习题十一
 
@@ -361,7 +361,7 @@ $$
 
 (复习参考题 5 拓广探索第 17 题) 作函数 $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象.
 
-![week79-5.svg](../figures/week79-5.svg){width=50%}
+![week79-5.svg](../../figures/week79-5.svg){width=50%}
 
 ### 解答 习题十七
 

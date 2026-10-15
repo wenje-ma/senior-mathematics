@@ -40,7 +40,7 @@
 
 (2) $y=10^{\lg x}$.
 
-![week16-1.svg](../figures/week16-1.svg){width=100%}
+![week16-1.svg](../../figures/week16-1.svg){width=100%}
 
 ### 解答 练习二
 
@@ -66,7 +66,7 @@
 
 (练习 4.4 第 4 题) 在同一直角坐标系中画出函数 $y=\log_3 x$ 和 $y=\log_{\frac{1}{3}} x$ 的图象, 并说明它们的关系.
 
-![week16-2.svg](../figures/week16-2.svg){width=50%}
+![week16-2.svg](../../figures/week16-2.svg){width=50%}
 
 ### 解答 练习四
 
@@ -114,7 +114,7 @@
 
 (探究与发现 互为反函数的两个函数图象间的关系) 在同一直角坐标系中, 画出指数函数 $y=2^x$ 及其反函数 $y=\log_2 x$ 的图象, 你能发现这两个函数的图象有什么对称关系吗?
 
-![week16-3.svg](../figures/week16-3.svg){width=50%}
+![week16-3.svg](../../figures/week16-3.svg){width=50%}
 
 ### 解答 探究与发现一
 
@@ -224,7 +224,7 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\frac{M}{m}\right)=
 
 (3) 从 (2) 的图中你发现了什么?
 
-![week16-4.svg](../figures/week16-4.svg){width=50%}
+![week16-4.svg](../../figures/week16-4.svg){width=50%}
 
 ### 解答 习题四
 

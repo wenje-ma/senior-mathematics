@@ -10,7 +10,7 @@
 
 (练习 4.5 第 1 题) 图 (1)(2)(3) 分别为函数 $y=f(x)$ 在三个不同范围的图象. 能否仅根据其中一个图象, 得出函数 $y=f(x)$ 在某个区间只有一个零点的判断? 为什么?
 
-![week17-1.svg](../figures/week17-1.svg){width=100%}
+![week17-1.svg](../../figures/week17-1.svg){width=100%}
 
 ### 解答 练习一
 
@@ -30,7 +30,7 @@
 
 (4) $f(x)=3(x+2)(x-3)(x+4)+x$.
 
-![week17-2.svg](../figures/week17-2.svg){width=100%}
+![week17-2.svg](../../figures/week17-2.svg){width=100%}
 
 ### 解答 练习二
 
@@ -210,7 +210,7 @@ $f(1)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f(0)=c$, $f(2)=4a+2b+c=4a+2
 
 (3) 求函数 $y=g(x)$ 的零点 (精确度为 $0.1$).
 
-![week17-3.svg](../figures/week17-3.svg){width=50%}
+![week17-3.svg](../../figures/week17-3.svg){width=50%}
 
 ### 解答 习题八
 
@@ -238,7 +238,7 @@ $f(1)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f(0)=c$, $f(2)=4a+2b+c=4a+2
 
 (A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
 
-![week17-4.svg](../figures/week17-4.svg){width=50%}
+![week17-4.svg](../../figures/week17-4.svg){width=50%}
 
 ### 解答 习题九
 

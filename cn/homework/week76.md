@@ -510,7 +510,7 @@ $$
 
 (3) 猜测 $y=\sin x$ 的导数, 它与基本初等函数的导数公式表中 $\sin x$ 的导数公式一样吗? 
 
-![week76-1.svg](../figures/week76-1.svg){width=50%}
+![week76-1.svg](../../figures/week76-1.svg){width=50%}
 
 ### 解答 习题十二
 

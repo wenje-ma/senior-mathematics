@@ -130,7 +130,7 @@ $\{1,-1\}$ 与 $A$ 元素完全相同, 故 $\{1,-1\}=A$.
 
 $A=\{x\mid x\text{ 是四边形}\}$, $B=\{x\mid x\text{ 是平行四边形}\}$, $C=\{x\mid x\text{ 是矩形}\}$, $D=\{x\mid x\text{ 是正方形}\}$.
 
-![week2-1.svg](../figures/week2-1.svg){width=50%}
+![week2-1.svg](../../figures/week2-1.svg){width=50%}
 
 ### 解答 习题二
 

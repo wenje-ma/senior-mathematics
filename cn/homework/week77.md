@@ -56,7 +56,7 @@
 
 (练习 5.3 第 3 题) 函数 $y=f\left(x\right)$ 的图象如图所示, 试画出函数 $y=f'\left(x\right)$ 在区间 $\left(0,b\right)$ 内图象的大致形状.
 
-![week77-1.svg](../figures/week77-1.svg){width=100%}
+![week77-1.svg](../../figures/week77-1.svg){width=100%}
 
 ### 解答 练习三
 
@@ -110,7 +110,7 @@ $$
 
 (练习 5.3 第 6 题) 函数 $y=f'\left(x\right)$ 的图象如图所示, 试画出函数 $y=f\left(x\right)$ 图象的大致形状.
 
-![week77-2.svg](../figures/week77-2.svg){width=100%}
+![week77-2.svg](../../figures/week77-2.svg){width=100%}
 
 ### 解答 练习六
 
@@ -124,7 +124,7 @@ $$
 
 (练习 5.3 第 7 题) 函数 $f\left(x\right)$ 的导函数 $y=f'\left(x\right)$ 的图象如图所示, 试找出函数 $f\left(x\right)$ 的极值点, 并指出哪些是极大值点, 哪些是极小值点.
 
-![week77-3.svg](../figures/week77-3.svg){width=50%}
+![week77-3.svg](../../figures/week77-3.svg){width=50%}
 
 ### 解答 练习七
 
@@ -206,7 +206,7 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 (练习 5.3 第 11 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: $\sin x<x$, $x\in\left(0,\pi\right)$.
 
-![week77-4.svg](../figures/week77-4.svg){width=50%}
+![week77-4.svg](../../figures/week77-4.svg){width=50%}
 
 ### 解答 练习十一
 
@@ -220,7 +220,7 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 (练习 5.3 第 12 题) 如图, 用铁丝围成一个上面是半圆, 下面是矩形的图形, 其面积为 $a\ \mathrm{m^{2}}$. 为使所用材料最省, 圆的直径应为多少? 
 
-![week77-5.svg](../figures/week77-5.svg){width=50%}
+![week77-5.svg](../../figures/week77-5.svg){width=50%}
 
 ### 解答 练习十二
 
@@ -296,7 +296,7 @@ $$
 
 (2) 如果 $y=f\left(t\right)$ 表示时刻 $t$ 时汽车的速度, 那么 (1) 中标出点的意义是什么? 
 
-![week77-6.svg](../figures/week77-6.svg){width=50%}
+![week77-6.svg](../../figures/week77-6.svg){width=50%}
 
 ### 解答 习题三
 
@@ -318,7 +318,7 @@ $$
 
 (4) 函数 $f\left(x\right)$ 有极小值? 
 
-![week77-7.svg](../figures/week77-7.svg){width=50%}
+![week77-7.svg](../../figures/week77-7.svg){width=50%}
 
 ### 解答 习题四
 
@@ -490,7 +490,7 @@ $$
 
 (2) $\ln x<x<\mathrm e^{x}$, $x>0$.
 
-![week77-8.svg](../figures/week77-8.svg){width=100%}
+![week77-8.svg](../../figures/week77-8.svg){width=100%}
 
 ### 解答 习题十二
 
@@ -510,7 +510,7 @@ $$
 
 (2) 运用导数研究它的单调性, 并求出相应的单调区间.
 
-![week77-9.svg](../figures/week77-9.svg){width=50%}
+![week77-9.svg](../../figures/week77-9.svg){width=50%}
 
 ### 解答 习题十三
 

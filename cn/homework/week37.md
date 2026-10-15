@@ -46,7 +46,7 @@ $$
 
 (4) $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
 
-![week37-1.svg](../figures/week37-1.svg){width=100%}
+![week37-1.svg](../../figures/week37-1.svg){width=100%}
 
 ### 解答 练习一
 
@@ -182,7 +182,7 @@ $$
 
 (4) $-\frac{\sqrt{3}}{2}+\frac{1}{2}\mathrm{i}$.
 
-![week37-2.svg](../figures/week37-2.svg){width=100%}
+![week37-2.svg](../../figures/week37-2.svg){width=100%}
 
 ### 解答 习题一
 
@@ -256,7 +256,7 @@ $$
 
 (4) $(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i})\div[2(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3})]$.
 
-![week37-3.svg](../figures/week37-3.svg){width=100%}
+![week37-3.svg](../../figures/week37-3.svg){width=100%}
 
 ### 解答 习题四
 

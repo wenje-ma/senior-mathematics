@@ -46,7 +46,7 @@
 
 (4) 与直线 $AB$ 和 $A'D'$ 都垂直且相交的直线是直线 $\;\_\_\;$.
 
-![week43-1.svg](../figures/week43-1.svg){width=50%}
+![week43-1.svg](../../figures/week43-1.svg){width=50%}
 
 ### 解答 练习二
 
@@ -68,7 +68,7 @@
 
 (2) 直线 $AA'$ 和 $BC$ 所成的角的大小.
 
-![week43-2.svg](../figures/week43-2.svg){width=50%}
+![week43-2.svg](../../figures/week43-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -82,7 +82,7 @@
 
 (练习 8.6 第 4 题) 如图, 在正三棱柱 $ABC\text{-}A'B'C'$ 中, $D$ 为棱 $AC$ 的中点, $AB=BB'=2$, 求证 $BD\perp AC'$.
 
-![week43-3.svg](../figures/week43-3.svg){width=50%}
+![week43-3.svg](../../figures/week43-3.svg){width=50%}
 
 ### 解答 练习四
 
@@ -108,7 +108,7 @@
 
 (练习 8.6 第 2 题) 如图, 四棱锥 $S\text{-}ABCD$ 的底面是正方形, $SD\perp$ 平面 $ABCD$, 求证: $AC\perp$ 平面 $SDB$.
 
-![week43-4.svg](../figures/week43-4.svg){width=50%}
+![week43-4.svg](../../figures/week43-4.svg){width=50%}
 
 ### 解答 练习六
 
@@ -124,7 +124,7 @@
 
 (练习 8.6 第 3 题) 如图, 在直四棱柱 $A'B'C'D'\text{-}ABCD$ 中, 当底面四边形 $ABCD$ 满足什么条件时, $A'C\perp B'D'$?
 
-![week43-5.svg](../figures/week43-5.svg){width=50%}
+![week43-5.svg](../../figures/week43-5.svg){width=50%}
 
 ### 解答 练习七
 
@@ -184,7 +184,7 @@ $a\perp\alpha$, 若 $b\subset\alpha$, 则 $a\perp b$ 成立. 若 $b\not\subset\a
 
 (练习 8.6 第 3 题) 如图, $EA$ 和 $DC$ 都垂直于平面 $ABC$, 且 $EA=2DC$, $F$ 是 $EB$ 的中点, 求证: $DF\parallel$ 平面 $ABC$.
 
-![week43-6.svg](../figures/week43-6.svg){width=50%}
+![week43-6.svg](../../figures/week43-6.svg){width=50%}
 
 ### 解答 练习十一
 
@@ -220,7 +220,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (练习 8.6 第 1 题) 如图, 检查工件的相邻两个 (平) 面是否垂直时, 只要用曲尺的一边紧靠在工件的一个面上, 另一边在工件的另一个面上转动, 观察尺边和这个面是否密合就可以了. 这是为什么?
 
-![week43-7.svg](../figures/week43-7.svg){width=50%}
+![week43-7.svg](../../figures/week43-7.svg){width=50%}
 
 ### 解答 练习十三
 
@@ -254,7 +254,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (练习 8.6 第 3 题) 如图, $AB\perp$ 平面 $BCD$, $BC\perp CD$, 你能发现哪些平面互相垂直? 为什么?
 
-![week43-8.svg](../figures/week43-8.svg){width=50%}
+![week43-8.svg](../../figures/week43-8.svg){width=50%}
 
 ### 解答 练习十五
 
@@ -270,7 +270,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (练习 8.6 第 4 题) 如图, 在正三棱柱 $ABC\text{-}A'B'C'$ 中, $D$ 为棱 $AC$ 的中点. 求证: 平面 $BDC'\perp$ 平面 $ACC'A'$.
 
-![week43-9.svg](../figures/week43-9.svg){width=50%}
+![week43-9.svg](../../figures/week43-9.svg){width=50%}
 
 ### 解答 练习十六
 
@@ -444,7 +444,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (3) $PQ\perp A_{1}B$.
 
-![week43-10.svg](../figures/week43-10.svg){width=50%}
+![week43-10.svg](../../figures/week43-10.svg){width=50%}
 
 ### 解答 习题四
 
@@ -462,7 +462,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (习题 8.6 复习巩固第 5 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $CD\perp AB$, 垂足为 $D$, $PO\perp$ 底面 $ABC$, 垂足为 $O$, 且 $O$ 在 $CD$ 上, 求证 $AB\perp PC$.
 
-![week43-11.svg](../figures/week43-11.svg){width=50%}
+![week43-11.svg](../../figures/week43-11.svg){width=50%}
 
 ### 解答 习题五
 
@@ -478,7 +478,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (习题 8.6 复习巩固第 6 题) 如图, 在正方体 $ABCD\text{-}A'B'C'D'$ 中, 平面 $ABC'D'$ 与正方体的各个面所在的平面所成的二面角的大小分别是多少?
 
-![week43-12.svg](../figures/week43-12.svg){width=50%}
+![week43-12.svg](../../figures/week43-12.svg){width=50%}
 
 ### 解答 习题六
 
@@ -496,7 +496,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (习题 8.6 复习巩固第 7 题) 如图, 在三棱锥 $V\text{-}ABC$ 中, 已知 $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$, 判断平面 $VAB$ 与平面 $VBC$ 的位置关系, 并说明理由.
 
-![week43-13.svg](../figures/week43-13.svg){width=50%}
+![week43-13.svg](../../figures/week43-13.svg){width=50%}
 
 ### 解答 习题七
 
@@ -570,7 +570,7 @@ $m$, $n$ 是 $\gamma$ 内两条相交直线, $l$ 垂直于 $\gamma$ 内两条相
 
 (习题 8.6 综合运用第 12 题) 如图, $m$, $n$ 是两条相交直线, $l_{1}$, $l_{2}$ 是与 $m$, $n$ 都垂直的两条直线, 且直线 $l$ 与 $l_{1}$, $l_{2}$ 都相交, 求证 $\angle 1=\angle 2$.
 
-![week43-14.svg](../figures/week43-14.svg){width=50%}
+![week43-14.svg](../../figures/week43-14.svg){width=50%}
 
 ### 解答 习题十二
 
@@ -600,7 +600,7 @@ $m$, $n$ 是 $\gamma$ 内两条相交直线, $l$ 垂直于 $\gamma$ 内两条相
 
 (习题 8.6 综合运用第 14 题) 如图, 在棱锥 $V\text{-}ABC$ 中, $VO\perp$ 平面 $ABC$, $O\in CD$, $VA=VB$, $AD=BD$, 你能判定 $CD\perp AB$, 以及 $AC=BC$ 吗?
 
-![week43-15.svg](../figures/week43-15.svg){width=50%}
+![week43-15.svg](../../figures/week43-15.svg){width=50%}
 
 ### 解答 习题十四
 
@@ -616,7 +616,7 @@ $CD\perp AB$, $D$ 为 $AB$ 中点, 故 $CD$ 是 $AB$ 的垂直平分线, $A$, $B
 
 (习题 8.6 综合运用第 15 题) 如图, 在正方形 $SG_{1}G_{2}G_{3}$ 中, $E$, $F$ 分别是 $G_{1}G_{2}$, $G_{2}G_{3}$ 的中点, $D$ 是 $EF$ 的中点. 若沿 $SE$, $SF$ 及 $EF$ 把这个正方形折成一个四面体, 使 $G_{1}$, $G_{2}$, $G_{3}$ 三点重合, 重合后的点记为 $G$, 则在四面体 $S\text{-}EFG$ 中, 哪些棱与面互相垂直?
 
-![week43-16.svg](../figures/week43-16.svg){width=100%}
+![week43-16.svg](../../figures/week43-16.svg){width=100%}
 
 ### 解答 习题十五
 
@@ -670,7 +670,7 @@ $m$, $n\subset\gamma$, 故 $l\perp m$, $l\perp n$.
 
 (习题 8.6 综合运用第 18 题) 如图, 在三棱锥 $V\text{-}ABC$ 中, $VA=VB=AB=AC=BC=2$, $VC=1$, 作出二面角 $V\text{-}AB\text{-}C$ 的平面角, 并求出它的余弦值.
 
-![week43-17.svg](../figures/week43-17.svg){width=50%}
+![week43-17.svg](../../figures/week43-17.svg){width=50%}
 
 ### 解答 习题十八
 
@@ -696,7 +696,7 @@ $$
 
 (习题 8.6 拓广探索第 19 题) 如图, 在直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$ 中, $\angle ABC=90^{\circ}$, $AA_{1}=AB$, 求证 $A_{1}C\perp AB_{1}$.
 
-![week43-18.svg](../figures/week43-18.svg){width=50%}
+![week43-18.svg](../../figures/week43-18.svg){width=50%}
 
 ### 解答 习题十九
 
@@ -734,7 +734,7 @@ $BC\cap VC=C$, 故 $AC\perp$ 平面 $VBC$.
 
 (习题 8.6 拓广探索第 21 题) 如图, 在四棱锥 $P\text{-}ABCD$ 中, 底面 $ABCD$ 为正方形, $PA\perp$ 底面 $ABCD$, $PA=AB$, $E$ 为线段 $PB$ 的中点, $F$ 为线段 $BC$ 上的动点. 平面 $AEF$ 与平面 $PBC$ 是否互相垂直? 如果垂直, 请证明; 如果不垂直, 请说明理由.
 
-![week43-19.svg](../figures/week43-19.svg){width=50%}
+![week43-19.svg](../../figures/week43-19.svg){width=50%}
 
 ### 解答 习题二十一
 

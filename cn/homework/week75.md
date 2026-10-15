@@ -248,7 +248,7 @@ $$
 
 (D) $f'\left(1\right)>f'\left(2\right)>0>f'\left(3\right)$
 
-![week75-1.svg](../figures/week75-1.svg){width=50%}
+![week75-1.svg](../../figures/week75-1.svg){width=50%}
 
 ### 解答 练习十一
 
@@ -280,7 +280,7 @@ $$
 
 (练习 5.1 第 13 题) 吹气球时, 气球的半径 $r$ (单位: $\mathrm{dm}$) 与体积 $V$ (单位: $\mathrm{L}$) 之间的函数关系是 $r\left(V\right)=\sqrt[3]{\frac{3V}{4\pi}}$. 利用信息技术工具, 画出 $0\le V\le5$ 时函数的图象, 并根据其图象估计 $V=0.6,1.2\ \mathrm{L}$ 时, 气球的瞬时膨胀率.
 
-![week75-2.svg](../figures/week75-2.svg){width=50%}
+![week75-2.svg](../../figures/week75-2.svg){width=50%}
 
 ### 解答 练习十三
 
@@ -390,7 +390,7 @@ $$
 
 (习题 5.1 复习巩固第 5 题) 小明骑车上学, 开始时匀速行驶, 途中因交通堵塞停留了一段时间, 后为了赶时间加快速度行驶. 与以上事件吻合得最好的图象是 ( ).
 
-![week75-3.svg](../figures/week75-3.svg){width=100%}
+![week75-3.svg](../../figures/week75-3.svg){width=100%}
 
 ### 解答 习题五
 
@@ -404,7 +404,7 @@ $$
 
 (习题 5.1 复习巩固第 6 题) 如图, 试描述函数 $f\left(x\right)$ 在 $x=-5,-4,-2,0,1$ 附近的变化情况.
 
-![week75-4.svg](../figures/week75-4.svg){width=50%}
+![week75-4.svg](../../figures/week75-4.svg){width=50%}
 
 ### 解答 习题六
 
@@ -470,7 +470,7 @@ $$
 
 (3) 汽车在笔直的公路上不断减速行驶.
 
-![week75-5.svg](../figures/week75-5.svg){width=100%}
+![week75-5.svg](../../figures/week75-5.svg){width=100%}
 
 ### 解答 习题九
 
@@ -486,7 +486,7 @@ $$
 
 (习题 5.1 综合运用第 10 题) 如图, 已知函数 $f\left(x\right)$ 的图象, 试画出其导函数 $f'\left(x\right)$ 图象的大致形状.
 
-![week75-6.svg](../figures/week75-6.svg){width=100%}
+![week75-6.svg](../../figures/week75-6.svg){width=100%}
 
 ### 解答 习题十
 
@@ -542,7 +542,7 @@ $$
 
 (3) $f\left(10\right)=20$, $f'\left(10\right)=0$.
 
-![week75-7.svg](../figures/week75-7.svg){width=100%}
+![week75-7.svg](../../figures/week75-7.svg){width=100%}
 
 ### 解答 习题十二
 

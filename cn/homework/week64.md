@@ -210,7 +210,7 @@ $$
 
 (3) 半径为 $\sqrt{13}$, 且与直线 $2x-3y+6=0$ 相切于点 $\left(3,4\right)$.
 
-![week64-1.svg](../figures/week64-1.svg){width=100%}
+![week64-1.svg](../../figures/week64-1.svg){width=100%}
 
 ### 解答 习题二
 
@@ -484,7 +484,7 @@ $$
 
 (2) 是否存在弦 $AB$ 被点 $P_0$ 平分? 若存在, 写出直线 $AB$ 的方程; 若不存在, 请说明理由.
 
-![week64-2.svg](../figures/week64-2.svg){width=50%}
+![week64-2.svg](../../figures/week64-2.svg){width=50%}
 
 ### 解答 习题十四
 
@@ -514,7 +514,7 @@ $$
 
 (3) 求直线 $AB$ 的方程.
 
-![week64-3.svg](../figures/week64-3.svg){width=50%}
+![week64-3.svg](../../figures/week64-3.svg){width=50%}
 
 ### 解答 习题十五
 

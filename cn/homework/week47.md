@@ -80,7 +80,7 @@
 
 (3) 对并联电路, 写出事件 $N=$ "电路是断路" 包含的样本点.
 
-![week47-1.svg](../figures/week47-1.svg){width=100%}
+![week47-1.svg](../../figures/week47-1.svg){width=100%}
 
 ### 解答 练习二
 
@@ -325,7 +325,7 @@ $P(F\cap G_3)=\frac{7}{100}=0.07$. $\blacksquare$
 
 $A=$ "两个数字相同", $B=$ "两个数字之和等于 $5$", $C=$ "蓝色骰子的数字为 $2$".
 
-![week47-2.svg](../figures/week47-2.svg){width=100%}
+![week47-2.svg](../../figures/week47-2.svg){width=100%}
 
 ### 解答 习题一
 
@@ -676,7 +676,7 @@ $$
 
 (3) 没有订阅任何学习资料.
 
-![week47-3.svg](../figures/week47-3.svg){width=50%}
+![week47-3.svg](../../figures/week47-3.svg){width=50%}
 
 ### 解答 习题十五
 

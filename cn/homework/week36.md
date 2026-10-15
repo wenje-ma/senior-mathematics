@@ -74,7 +74,7 @@ $$
 
 (3) $z+(-2+\mathrm{i})$.
 
-![week36-1.svg](../figures/week36-1.svg){width=100%}
+![week36-1.svg](../../figures/week36-1.svg){width=100%}
 
 ### 解答 练习二
 

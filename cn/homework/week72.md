@@ -140,7 +140,7 @@ $\blacksquare$
 
 (练习 4.2 第 2 题) 画出数列 $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1<n\le 6\end{cases}$ 的图象, 并求通过图象上所有点的直线的斜率
 
-![week72-1.svg](../figures/week72-1.svg){width=50%}
+![week72-1.svg](../../figures/week72-1.svg){width=50%}
 
 ### 解答 练习二
 

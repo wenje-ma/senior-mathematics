@@ -106,7 +106,7 @@
 
 (4) $y^2=4x$.
 
-![week67-1.svg](../figures/week67-1.svg){width=50%}
+![week67-1.svg](../../figures/week67-1.svg){width=50%}
 
 ### 解答 练习五
 
@@ -256,7 +256,7 @@ $\lvert FN \rvert=\sqrt{(6+6)^2+(0-9)^2}=\sqrt{144+81}=15$. $\blacksquare$
 
 (2) 顶点在原点, 对称轴是 $y$ 轴, 并经过点 $P(-6,-3)$.
 
-![week67-2.svg](../figures/week67-2.svg){width=100%}
+![week67-2.svg](../../figures/week67-2.svg){width=100%}
 
 ### 解答 习题四
 
@@ -270,7 +270,7 @@ $\lvert FN \rvert=\sqrt{(6+6)^2+(0-9)^2}=\sqrt{144+81}=15$. $\blacksquare$
 
 (习题 3.3 复习巩固第 5 题) 如图, $M$ 是抛物线 $y^2=4x$ 上的一点, $F$ 是抛物线的焦点, 以 $Fx$ 为始边, $FM$ 为终边的角 $\angle xFM=60^{\circ}$, 求 $\lvert FM \rvert$.
 
-![week67-3.svg](../figures/week67-3.svg){width=50%}
+![week67-3.svg](../../figures/week67-3.svg){width=50%}
 
 ### 解答 习题五
 
@@ -282,7 +282,7 @@ $\lvert FN \rvert=\sqrt{(6+6)^2+(0-9)^2}=\sqrt{144+81}=15$. $\blacksquare$
 
 (习题 3.3 复习巩固第 6 题) 如图, 直线 $y=x-2$ 与抛物线 $y^2=2x$ 相交于 $A$, $B$ 两点, 求证: $OA\perp OB$.
 
-![week67-4.svg](../figures/week67-4.svg){width=50%}
+![week67-4.svg](../../figures/week67-4.svg){width=50%}
 
 ### 解答 习题六
 
@@ -296,7 +296,7 @@ $\boldsymbol{OA}\cdot\boldsymbol{OB}=x_1x_2+y_1y_2=4-4=0$, 故 $OA\perp OB$. $\b
 
 (习题 3.3 综合运用第 7 题) 如图, 吊车梁的鱼腹部分 $AOB$ 是抛物线的一段, 宽为 $7\,\mathrm{m}$, 高为 $0.7\,\mathrm{m}$. 根据图中的坐标系, 求这条抛物线的方程.
 
-![week67-5.svg](../figures/week67-5.svg){width=50%}
+![week67-5.svg](../../figures/week67-5.svg){width=50%}
 
 ### 解答 习题七
 
@@ -312,7 +312,7 @@ $\blacksquare$
 
 (习题 3.3 综合运用第 8 题) 图中是抛物线形拱桥, 当水面在 $l$ 时, 拱顶离水面 $2\,\mathrm{m}$, 水面宽 $4\,\mathrm{m}$. 水面下降 $1\,\mathrm{m}$ 后, 水面宽多少? (精确到 $0.1\,\mathrm{m}$)
 
-![week67-6.svg](../figures/week67-6.svg){width=50%}
+![week67-6.svg](../../figures/week67-6.svg){width=50%}
 
 ### 解答 习题八
 
@@ -370,7 +370,7 @@ $$
 
 (2) $y^2=4x$ 与直线 $l$ 的方程组成的方程组解的个数与公共点的个数是什么关系?
 
-![week67-7.svg](../figures/week67-7.svg){width=100%}
+![week67-7.svg](../../figures/week67-7.svg){width=100%}
 
 ### 解答 习题十二
 

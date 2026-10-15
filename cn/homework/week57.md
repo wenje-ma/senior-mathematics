@@ -44,7 +44,7 @@ $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\
 
 (2) 如果 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 构成空间的一个基底, 那么用它表示下列向量: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
 
-![week57-1.svg](../figures/week57-1.svg){width=50%}
+![week57-1.svg](../../figures/week57-1.svg){width=50%}
 
 ### 解答 练习三
 
@@ -86,7 +86,7 @@ $\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot (\boldsymbol{c}-\bol
 
 (练习 1.2 第 2 题) 如图, 在平行六面体 $ABCD-A'B'C'D'$ 中, $AB=2$, $AD=2$, $AA'=3$, $\angle BAD=\angle BAA'=\angle DAA'=60^\circ$. 求 $BC'$ 与 $CA'$ 所成角的余弦值.
 
-![week57-2.svg](../figures/week57-2.svg){width=50%}
+![week57-2.svg](../../figures/week57-2.svg){width=50%}
 
 ### 解答 练习五
 
@@ -116,7 +116,7 @@ $$
 
 (练习 1.2 第 3 题) 如图, 已知正方体 $ABCD-A'B'C'D'$, $CD'$ 和 $DC'$ 相交于点 $O$, 连接 $AO$, 求证 $AO \perp CD'$.
 
-![week57-3.svg](../figures/week57-3.svg){width=50%}
+![week57-3.svg](../../figures/week57-3.svg){width=50%}
 
 ### 解答 练习六
 
@@ -186,7 +186,7 @@ $\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\fr
 
 (习题 1.2 复习巩固第 4 题) 如图, 在空间平移 $\triangle ABC$ 到 $\triangle A'B'C'$, 连接对应顶点. 设 $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, $M$ 是 $BC'$ 的中点, $N$ 是 $B'C'$ 的中点, 用基底 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 表示向量 $\boldsymbol{AM}$, $\boldsymbol{AN}$.
 
-![week57-4.svg](../figures/week57-4.svg){width=50%}
+![week57-4.svg](../../figures/week57-4.svg){width=50%}
 
 ### 解答 习题四
 
@@ -202,7 +202,7 @@ $\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\bo
 
 (习题 1.2 综合运用第 5 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, $M$ 是 $AC$ 与 $BD$ 的交点. 若 $D_1A_1=2$, $D_1C_1=2$, $D_1D=3$, 求 $B_1M$ 的长.
 
-![week57-5.svg](../figures/week57-5.svg){width=50%}
+![week57-5.svg](../../figures/week57-5.svg){width=50%}
 
 ### 解答 习题五
 
@@ -228,7 +228,7 @@ $$
 
 (习题 1.2 综合运用第 6 题) 如图, 平行六面体 $ABCD-A_1B_1C_1D_1$ 的底面 $ABCD$ 是菱形, 且 $\angle C_1CB=\angle C_1CD=\angle BCD=60^\circ$, $CD=CC_1$, 求证: $CA_1 \perp$ 平面 $C_1BD$.
 
-![week57-6.svg](../figures/week57-6.svg){width=50%}
+![week57-6.svg](../../figures/week57-6.svg){width=50%}
 
 ### 解答 习题六
 
@@ -258,7 +258,7 @@ $\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=(\boldsymbol{a}+\boldsymbol{b}+\bolds
 
 (2) 求 $EF$ 与 $C_1G$ 所成角的余弦值.
 
-![week57-7.svg](../figures/week57-7.svg){width=50%}
+![week57-7.svg](../../figures/week57-7.svg){width=50%}
 
 ### 解答 习题七
 

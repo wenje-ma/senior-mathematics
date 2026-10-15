@@ -70,7 +70,7 @@ $$
 
 (练习 8.2 第 3 题) 将图 $8.2-1$ 中的点按父亲身高的大小次序用折线连起来. 你能发现折线图呈现出什么规律? 它与散点图相比, 哪一个更直观地呈现出两个变量之间的关系?
 
-![week89-1.svg](../figures/week89-1.svg){width=50%}
+![week89-1.svg](../../figures/week89-1.svg){width=50%}
 
 ### 解答 练习三
 
@@ -242,7 +242,7 @@ $\blacksquare$
 
 (5) 你所预测的 $2023$ 年的 $\mathrm{GDP}$ 与实际值吻合吗? 请说明原因.
 
-![week89-2.svg](../figures/week89-2.svg){width=50%}
+![week89-2.svg](../../figures/week89-2.svg){width=50%}
 
 ### 解答 练习十
 
@@ -374,7 +374,7 @@ $$
 
 (3) 预测 $2023$ 年我国的人口总数, 并与网上公布的 $2023$ 年我国人口总数相比较.
 
-![week89-3.svg](../figures/week89-3.svg){width=50%}
+![week89-3.svg](../../figures/week89-3.svg){width=50%}
 
 ### 解答 习题四
 

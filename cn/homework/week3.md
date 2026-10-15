@@ -96,7 +96,7 @@ $\boldsymbol{U\setminus A}=\{1,3,6,7\}$ 与 $\boldsymbol{U\setminus B}=\{2,4,6\}
 
 (2) $\left(\boldsymbol{U\setminus A}\right)\cup\left(\boldsymbol{U\setminus B}\right)$.
 
-![week3-1.svg](../figures/week3-1.svg){width=100%}
+![week3-1.svg](../../figures/week3-1.svg){width=100%}
 
 ### 解答 练习七
 

@@ -28,7 +28,7 @@
 
 (4) $d_n=\frac{(-1)^n}{n}$.
 
-![week78-1.svg](../figures/week78-1.svg){width=100%}
+![week78-1.svg](../../figures/week78-1.svg){width=100%}
 
 ### 解答 习题一
 
@@ -110,7 +110,7 @@ $\blacksquare$
 
 (D) $\frac{128}{27}$
 
-![week78-2.svg](../figures/week78-2.svg){width=100%}
+![week78-2.svg](../../figures/week78-2.svg){width=100%}
 
 ### 解答 习题一
 
@@ -462,7 +462,7 @@ $\blacksquare$
 
 参考公式: $1^2+2^2+\cdots+n^2=\frac{1}{6}n(n+1)(2n+1)$.
 
-![week78-3.svg](../figures/week78-3.svg){width=100%}
+![week78-3.svg](../../figures/week78-3.svg){width=100%}
 
 ### 解答 习题三
 

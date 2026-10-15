@@ -250,7 +250,7 @@ $$
 
 (2) 如图, 在 $\triangle ABC$ 中, $AD$, $BE$ 与 $CF$ 分别为 $BC$, $AC$ 与 $AB$ 边上的高, 则 $AD$, $BE$ 与 $CF$ 所在的直线交于一点 $O$.
 
-![week26-1.svg](../figures/week26-1.svg){width=50%}
+![week26-1.svg](../../figures/week26-1.svg){width=50%}
 
 ### 解答 习题十二
 

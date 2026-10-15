@@ -52,7 +52,7 @@
 
 (4) $\boldsymbol{AB}+\boldsymbol{CF}$.
 
-![week56-1.svg](../figures/week56-1.svg){width=50%}
+![week56-1.svg](../../figures/week56-1.svg){width=50%}
 
 ### 解答 练习二
 
@@ -70,7 +70,7 @@
 
 (练习 1.1 第 3 题) 在图 1.1-6 中, 用 $\boldsymbol{AB}$, $\boldsymbol{AD}$, $\boldsymbol{AA'}$ 表示 $\boldsymbol{AC'}$, $\boldsymbol{BD'}$ 及 $\boldsymbol{DB'}$.
 
-![week56-2.svg](../figures/week56-2.svg){width=50%}
+![week56-2.svg](../../figures/week56-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -102,7 +102,7 @@ $\blacksquare$
 
 (3) $\boldsymbol{AF}-\frac{1}{2}(\boldsymbol{AB}+\boldsymbol{AC})$.
 
-![week56-3.svg](../figures/week56-3.svg){width=50%}
+![week56-3.svg](../../figures/week56-3.svg){width=50%}
 
 ### 解答 练习四
 
@@ -124,7 +124,7 @@ $\blacksquare$
 
 (3) $\boldsymbol{AF}=\boldsymbol{AD}+x\boldsymbol{AB}+y\boldsymbol{AA'}$.
 
-![week56-4.svg](../figures/week56-4.svg){width=50%}
+![week56-4.svg](../../figures/week56-4.svg){width=50%}
 
 ### 解答 练习五
 
@@ -142,7 +142,7 @@ $\blacksquare$
 
 (A) $60^\circ$ (B) $90^\circ$ (C) $105^\circ$ (D) $75^\circ$
 
-![week56-5.svg](../figures/week56-5.svg){width=50%}
+![week56-5.svg](../../figures/week56-5.svg){width=50%}
 
 ### 解答 练习六
 
@@ -176,7 +176,7 @@ $$
 
 (3) $(\boldsymbol{a}+\boldsymbol{b}) \cdot (\boldsymbol{b}+\boldsymbol{c})$.
 
-![week56-6.svg](../figures/week56-6.svg){width=50%}
+![week56-6.svg](../../figures/week56-6.svg){width=50%}
 
 ### 解答 练习七
 
@@ -200,7 +200,7 @@ $$
 
 (3) $AC'$ 的长.
 
-![week56-7.svg](../figures/week56-7.svg){width=50%}
+![week56-7.svg](../../figures/week56-7.svg){width=50%}
 
 ### 解答 练习八
 
@@ -218,7 +218,7 @@ $$
 
 (练习 1.1 第 4 题) 如图, 线段 $AB$, $BD$ 在平面 $\alpha$ 内, $BD \perp AB$, $AC \perp \alpha$, 且 $AB=a$, $BD=b$, $AC=c$. 求 $C$, $D$ 两点间的距离.
 
-![week56-8.svg](../figures/week56-8.svg){width=50%}
+![week56-8.svg](../../figures/week56-8.svg){width=50%}
 
 ### 解答 练习九
 
@@ -244,7 +244,7 @@ $$
 
 (3) 写出与向量 $\boldsymbol{EF}$ 平行的向量.
 
-![week56-9.svg](../figures/week56-9.svg){width=50%}
+![week56-9.svg](../../figures/week56-9.svg){width=50%}
 
 ### 解答 习题一
 
@@ -268,7 +268,7 @@ $$
 
 (4) $\frac{1}{3}(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'})$.
 
-![week56-10.svg](../figures/week56-10.svg){width=50%}
+![week56-10.svg](../../figures/week56-10.svg){width=50%}
 
 ### 解答 习题二
 
@@ -312,7 +312,7 @@ $$
 
 (6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
 
-![week56-11.svg](../figures/week56-11.svg){width=50%}
+![week56-11.svg](../../figures/week56-11.svg){width=50%}
 
 ### 解答 习题四
 
@@ -346,7 +346,7 @@ $=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^
 
 (A) $-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (B) $\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (C) $\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (D) $-\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$
 
-![week56-12.svg](../figures/week56-12.svg){width=50%}
+![week56-12.svg](../../figures/week56-12.svg){width=50%}
 
 ### 解答 习题五
 
@@ -364,7 +364,7 @@ $\boldsymbol{BD}=\boldsymbol{BA}+\boldsymbol{AD}=-\boldsymbol{A_1B_1}+\boldsymbo
 
 (习题 1.1 综合运用第 6 题) 如图, 已知 $E$, $F$, $G$, $H$ 分别为四面体 $ABCD$ 的棱 $AB$, $BC$, $CD$, $DA$ 的中点, 求证: $E$, $F$, $G$, $H$ 四点共面.
 
-![week56-13.svg](../figures/week56-13.svg){width=50%}
+![week56-13.svg](../../figures/week56-13.svg){width=50%}
 
 ### 解答 习题六
 
@@ -388,7 +388,7 @@ $\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}+\fra
 
 (2) 求证: $A'B \perp AC'$.
 
-![week56-14.svg](../figures/week56-14.svg){width=50%}
+![week56-14.svg](../../figures/week56-14.svg){width=50%}
 
 ### 解答 习题七
 
@@ -438,7 +438,7 @@ $\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot (\boldsymbol{b}+\bold
 
 (习题 1.1 拓广探索第 9 题) 如图, 在四面体 $OABC$ 中, $OA \perp BC$, $OB \perp AC$. 求证: $OC \perp AB$.
 
-![week56-15.svg](../figures/week56-15.svg){width=50%}
+![week56-15.svg](../../figures/week56-15.svg){width=50%}
 
 ### 解答 习题九
 
@@ -464,7 +464,7 @@ $\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-
 
 (习题 1.1 拓广探索第 10 题) 如图, 在四面体 $OABC$ 中, $OA=OB$, $CA=CB$, $E$, $F$, $G$, $H$ 分别是 $OA$, $OB$, $BC$, $CA$ 的中点. 求证: 四边形 $EFGH$ 是矩形.
 
-![week56-16.svg](../figures/week56-16.svg){width=50%}
+![week56-16.svg](../../figures/week56-16.svg){width=50%}
 
 ### 解答 习题十
 

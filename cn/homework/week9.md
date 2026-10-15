@@ -40,7 +40,7 @@ $$
 
 (2) 根据图象, 求这一天 $12$ 时所对应的温度.
 
-![week9-1.svg](../figures/week9-1.svg){width=50%}
+![week9-1.svg](../../figures/week9-1.svg){width=50%}
 
 ### 解答 练习二
 
@@ -58,7 +58,7 @@ $A=\left\{1,2,3,4,5\right\}$, $B=\left\{1,2,3,4,5\right\}$, 对应关系 $f$ 为
 
 $f:A\to B$ 是否为从集合 $A$ 到集合 $B$ 的函数? 如果是, 那么定义域, 值域与对应关系各是什么?
 
-![week9-2.svg](../figures/week9-2.svg){width=50%}
+![week9-2.svg](../../figures/week9-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -128,7 +128,7 @@ $A$ 中每个元素在 $B$ 中都有唯一确定的元素与之对应, 故 $f:A\
 
 (练习 3.1 第 8 题) 如图, 把直截面半径为 $25\ \text{cm}$ 的圆柱形木头锯成直截面为矩形的木料, 如果矩形的一边长为 $x$ (单位: $\text{cm}$), 面积为 $y$ (单位: $\text{cm}^2$), 把 $y$ 表示为 $x$ 的函数.
 
-![week9-3.svg](../figures/week9-3.svg){width=50%}
+![week9-3.svg](../../figures/week9-3.svg){width=50%}
 
 ### 解答 练习八
 
@@ -140,7 +140,7 @@ $A$ 中每个元素在 $B$ 中都有唯一确定的元素与之对应, 故 $f:A\
 
 (练习 3.1 第 9 题) 画出函数 $y=\left|x-2\right|$ 的图象.
 
-![week9-4.svg](../figures/week9-4.svg){width=50%}
+![week9-4.svg](../../figures/week9-4.svg){width=50%}
 
 ### 解答 练习九
 
@@ -160,7 +160,7 @@ $$
 
 (2) $\forall x\in\mathbb R$, 用 $m\left(x\right)$ 表示 $f\left(x\right)$, $g\left(x\right)$ 中的最小者, 记为 $m\left(x\right)=\min\left\{f\left(x\right),g\left(x\right)\right\}$, 请分别用图象法和解析法表示函数 $m\left(x\right)$.
 
-![week9-5.svg](../figures/week9-5.svg){width=50%}
+![week9-5.svg](../../figures/week9-5.svg){width=50%}
 
 ### 解答 练习十
 
@@ -188,7 +188,7 @@ $$
 
 (3) 我从家出发后, 心情轻松, 一路缓缓加速行进.
 
-![week9-6.svg](../figures/week9-6.svg){width=100%}
+![week9-6.svg](../../figures/week9-6.svg){width=100%}
 
 ### 解答 练习十一
 
@@ -212,7 +212,7 @@ $$
 
 如果某条线路的总里程为 $20\ \text{km}$, 请根据题意, 写出票价与里程之间的函数解析式, 并画出函数的图象.
 
-![week9-7.svg](../figures/week9-7.svg){width=50%}
+![week9-7.svg](../../figures/week9-7.svg){width=50%}
 
 ### 解答 练习十二
 
@@ -284,7 +284,7 @@ $$
 
 (4) $y=x^2-6x+7$.
 
-![week9-8.svg](../figures/week9-8.svg){width=100%}
+![week9-8.svg](../../figures/week9-8.svg){width=100%}
 
 ### 解答 习题三
 
@@ -362,7 +362,7 @@ $\blacksquare$
 
 (2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
 
-![week9-9.svg](../figures/week9-9.svg){width=100%}
+![week9-9.svg](../../figures/week9-9.svg){width=100%}
 
 ### 解答 习题七
 
@@ -376,7 +376,7 @@ $\blacksquare$
 
 (习题 3.1 综合运用第 8 题) 如图, 矩形的面积为 $10$. 如果矩形的长为 $x$, 宽为 $y$, 对角线为 $d$, 周长为 $l$, 那么你能获得关于这些量的哪些函数?
 
-![week9-10.svg](../figures/week9-10.svg){width=50%}
+![week9-10.svg](../../figures/week9-10.svg){width=50%}
 
 ### 解答 习题八
 
@@ -420,7 +420,7 @@ $\blacksquare$
 
 (2) $r$ 取何值时, 只有唯一的 $p$ 值与之对应?
 
-![week9-11.svg](../figures/week9-11.svg){width=50%}
+![week9-11.svg](../../figures/week9-11.svg){width=50%}
 
 ### 解答 习题十一
 
@@ -438,7 +438,7 @@ $\blacksquare$
 
 (2) 如果平面直角坐标系中点 $P\left(x,y\right)$ 的坐标满足 $-3\le x\le8$, $-1\le y\le2$, 那么其中哪些点不能在图象上?
 
-![week9-12.svg](../figures/week9-12.svg){width=50%}
+![week9-12.svg](../../figures/week9-12.svg){width=50%}
 
 ### 解答 习题十二
 
@@ -454,7 +454,7 @@ $\blacksquare$
 
 (习题 3.1 拓广探索第 13 题) 函数 $f\left(x\right)=\left[x\right]$ 的函数值表示不超过 $x$ 的最大整数, 例如, $\left[-3.5\right]=-4$, $\left[2.1\right]=2$. 当 $x\in\left(-2.5,3\right]$ 时, 写出函数 $f\left(x\right)$ 的解析式, 并画出函数的图象.
 
-![week9-13.svg](../figures/week9-13.svg){width=50%}
+![week9-13.svg](../../figures/week9-13.svg){width=50%}
 
 ### 解答 习题十三
 
@@ -486,7 +486,7 @@ $$
 
 (2) 如果将船停在距点 $P$ $4\ \text{km}$ 处, 那么从小岛到城镇要多长时间 (精确到 $0.1\ \text{h}$)?
 
-![week9-14.svg](../figures/week9-14.svg){width=50%}
+![week9-14.svg](../../figures/week9-14.svg){width=50%}
 
 ### 解答 习题十五
 

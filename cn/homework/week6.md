@@ -30,7 +30,7 @@
 
 (3) 如图, 在一个面积小于 $350\ \mathrm m^2$ 的矩形场地的中心位置上建造一个仓库, 仓库的四周建成绿地, 仓库的长 $L$ (单位: $\mathrm m$) 大于宽 $W$ (单位: $\mathrm m$) 的 $4$ 倍.
 
-![week6-1.svg](../figures/week6-1.svg){width=50%}
+![week6-1.svg](../../figures/week6-1.svg){width=50%}
 
 ### 解答 练习一
 

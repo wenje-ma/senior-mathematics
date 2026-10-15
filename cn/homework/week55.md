@@ -74,7 +74,7 @@ $\blacksquare$
 
 (2) 事件 $A$ 与 $B$ 互斥吗? 事件 $A$ 与 $B$ 相互独立吗?
 
-![week55-1.svg](../figures/week55-1.svg){width=50%}
+![week55-1.svg](../../figures/week55-1.svg){width=50%}
 
 ### 解答 习题二
 
@@ -268,7 +268,7 @@ $$
 
 (3) 求李明最终通过面试的概率.
 
-![week55-2.svg](../figures/week55-2.svg){width=50%}
+![week55-2.svg](../../figures/week55-2.svg){width=50%}
 
 ### 解答 习题八
 

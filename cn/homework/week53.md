@@ -62,7 +62,7 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 (2) 将四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 补成一个长方体, 并说出补上的几何体的名称.
 
-![week53-1.svg](../figures/week53-1.svg){width=50%}
+![week53-1.svg](../../figures/week53-1.svg){width=50%}
 
 ### 解答 习题二
 
@@ -94,7 +94,7 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 (图: 正方形边长 $10$, 中间正方形边长 $x$, 四个等腰三角形底为 $x$, 高为 $5$.)
 
-![week53-2.svg](../figures/week53-2.svg){width=50%}
+![week53-2.svg](../../figures/week53-2.svg){width=50%}
 
 ### 解答 习题四
 
@@ -158,7 +158,7 @@ $\blacksquare$
 
 (复习参考题8 复习巩固第 7 题) 如图, 四边形 $A'B'C'D'$ 是 $\square ABCD$ 在平面 $\alpha$ 上的投影 ($AA'\parallel BB'\parallel CC'\parallel DD'$), 求证: 四边形 $A'B'C'D'$ 是平行四边形.
 
-![week53-3.svg](../figures/week53-3.svg){width=50%}
+![week53-3.svg](../../figures/week53-3.svg){width=50%}
 
 ### 解答 习题七
 
@@ -174,7 +174,7 @@ $\blacksquare$
 
 (复习参考题8 复习巩固第 8 题) 如图, 一块正方体形木料的上底面有一点 $E$. 若经过点 $E$ 在上底面上画一条直线与 $CE$ 垂直, 则应该怎样画?
 
-![week53-4.svg](../figures/week53-4.svg){width=50%}
+![week53-4.svg](../../figures/week53-4.svg){width=50%}
 
 ### 解答 习题八
 
@@ -194,7 +194,7 @@ $\blacksquare$
 
 (2) $AB\perp PB$.
 
-![week53-5.svg](../figures/week53-5.svg){width=50%}
+![week53-5.svg](../../figures/week53-5.svg){width=50%}
 
 ### 解答 习题九
 
@@ -216,7 +216,7 @@ $\blacksquare$
 
 (2) 求三棱锥 $A'\text{-}EFD$ 的体积.
 
-![week53-6.svg](../figures/week53-6.svg){width=100%}
+![week53-6.svg](../../figures/week53-6.svg){width=100%}
 
 ### 解答 习题十
 
@@ -264,7 +264,7 @@ $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$, $BD\cap DC=D$. 由面面平�
 
 (2) $B_{1}D$ 与平面 $A_{1}BC_{1}$ 的交点 $H$ 是 $\triangle A_{1}C_{1}B$ 的重心.
 
-![week53-7.svg](../figures/week53-7.svg){width=50%}
+![week53-7.svg](../../figures/week53-7.svg){width=50%}
 
 ### 解答 习题十二
 
@@ -286,7 +286,7 @@ $A_{1}C_{1}\cap A_{1}B=A_{1}$, 由**定理 8.6.4** (直线与平面垂直的判�
 
 (2) 若 $AC=BC=PA$, $M$ 是 $PB$ 的中点, 求 $AM$ 与平面 $PBC$ 所成角的正切值.
 
-![week53-8.svg](../figures/week53-8.svg){width=50%}
+![week53-8.svg](../../figures/week53-8.svg){width=50%}
 
 ### 解答 习题十三
 
@@ -322,7 +322,7 @@ $\blacksquare$
 
 (2) 求侧面 $PBC$ 与底面 $ABCD$ 所成二面角的余弦值.
 
-![week53-9.svg](../figures/week53-9.svg){width=50%}
+![week53-9.svg](../../figures/week53-9.svg){width=50%}
 
 ### 解答 习题十四
 

@@ -30,7 +30,7 @@
 
 (练习 6.1 第 2 题) 画两条有向线段, 分别表示一个竖直向下, 大小为 $18\text{ N}$ 的力和一个水平向左, 大小为 $28\text{ N}$ 的力. (用 $1\text{ cm}$ 长表示 $10\text{ N}$)
 
-![week31-1.svg](../figures/week31-1.svg){width=50%}
+![week31-1.svg](../../figures/week31-1.svg){width=50%}
 
 ### 解答 练习二
 
@@ -42,7 +42,7 @@
 
 (练习 6.1 第 3 题) 指出图中各向量的长度. (规定小方格的边长为 $0.5$)
 
-![week31-2.svg](../figures/week31-2.svg){width=50%}
+![week31-2.svg](../../figures/week31-2.svg){width=50%}
 
 ### 解答 练习三
 
@@ -80,7 +80,7 @@
 
 (3) $\lvert\boldsymbol{OC}\rvert=2$, 点 $C$ 在点 $O$ 南偏西 $30^{\circ}$ 方向.
 
-![week31-3.svg](../figures/week31-3.svg){width=50%}
+![week31-3.svg](../../figures/week31-3.svg){width=50%}
 
 ### 解答 习题一
 
@@ -96,7 +96,7 @@
 
 (习题 6.1 复习巩固第 2 题) 如图, 点 $O$ 是 $\square ABCD$ 的对角线的交点, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$, 分别写出 $\square ABCD$ 和折线 $MPQRST$ 中与 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 相等的向量.
 
-![week31-4.svg](../figures/week31-4.svg){width=100%}
+![week31-4.svg](../../figures/week31-4.svg){width=100%}
 
 ### 解答 习题二
 
@@ -148,7 +148,7 @@
 
 (习题 6.1 拓广探索第 4 题) 如图, 在矩形 $ABCD$ 中, $AB=2BC=2$, $M$, $N$ 分别为边 $AB$, $CD$ 的中点, 在以 $A$, $B$, $C$, $D$, $M$, $N$ 为起点和终点的所有有向线段表示的向量中, 相等的向量共有多少对?
 
-![week31-5.svg](../figures/week31-5.svg){width=50%}
+![week31-5.svg](../../figures/week31-5.svg){width=50%}
 
 ### 解答 习题四
 
