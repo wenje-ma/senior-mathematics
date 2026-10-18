@@ -2,19 +2,19 @@
 
 > **定义 7.1.1** (虚数单位) <br> 我们引入一个新数 $\mathrm{i}$, 使 $\mathrm{i}^2=-1$, $\mathrm{i}$ 叫做虚数单位.
 
-> **定义 7.1.2** (复数) <br> 形如 $a+b\mathrm{i}\ (a,b\in\mathbb R)$ 的数叫做复数.
+> **定义 7.1.2** (复数) <br> 形如 $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ 的数叫做复数.
 
-> **定义 7.1.3** (复数集) <br> 全体复数构成的集合 $\mathbb C=\{a+b\mathrm{i}\mid a,b\in\mathbb R\}$ 叫做复数集.
+> **定义 7.1.3** (复数集) <br> 全体复数构成的集合 $\mathbb C=\left\{a+b\mathrm{i}\mid a,b\in\mathbb R\right\}$ 叫做复数集.
 
-> **定义 7.1.4** (实部与虚部) <br> 复数 $z=a+b\mathrm{i}\ (a,b\in\mathbb R)$ 中, $a$ 叫做复数 $z$ 的实部, $b$ 叫做复数 $z$ 的虚部.
+> **定义 7.1.4** (实部与虚部) <br> 复数 $z=a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ 中, $a$ 叫做复数 $z$ 的实部, $b$ 叫做复数 $z$ 的虚部.
 
 > **定义 7.1.5** (复数相等) <br> $a+b\mathrm{i}$ 与 $c+d\mathrm{i}$ 相等当且仅当 $a=c$ 且 $b=d$.
 
-> **定义 7.1.6** (实数, 虚数, 纯虚数) <br> 对于复数 $a+b\mathrm{i}\ (a,b\in\mathbb R)$, 当且仅当 $b=0$ 时, 它是实数; 当 $b\neq 0$ 时, 它叫做虚数; 当 $a=0$ 且 $b\neq 0$ 时, 它叫做纯虚数.
+> **定义 7.1.6** (实数, 虚数, 纯虚数) <br> 对于复数 $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, 当且仅当 $b=0$ 时, 它是实数; 当 $b\neq 0$ 时, 它叫做虚数; 当 $a=0$ 且 $b\neq 0$ 时, 它叫做纯虚数.
 
 > **定义 7.1.7** (复平面) <br> 建立了直角坐标系来表示复数的平面叫做复平面, $x$ 轴叫做实轴, $y$ 轴叫做虚轴. 实轴上的点都表示实数; 除了原点外, 虚轴上的点都表示纯虚数.
 
-> **定义 7.1.8** (复数的几何意义) <br> 复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z(a,b)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\boldsymbol{OZ}$ 一一对应.
+> **定义 7.1.8** (复数的几何意义) <br> 复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z\left(a,b\right)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\boldsymbol{OZ}$ 一一对应.
 
 > **定义 7.1.9** (复数的模) <br> 向量 $\boldsymbol{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $\lvert z\rvert$ 或 $\lvert a+b\mathrm{i}\rvert$, 即
 
@@ -40,7 +40,7 @@ $-2+\frac{1}{3}\mathrm{i}$, $\sqrt{2}+\mathrm{i}$, $\frac{\sqrt{2}}{2}$, $-\sqrt
 
 (3) 复数 $\frac{\sqrt{2}}{2}=\frac{\sqrt{2}}{2}+0\mathrm{i}$ 的实部为 $\frac{\sqrt{2}}{2}$, 虚部为 $0$.
 
-(4) 复数 $-\sqrt{3}\mathrm{i}=0+(-\sqrt{3})\mathrm{i}$ 的实部为 $0$, 虚部为 $-\sqrt{3}$.
+(4) 复数 $-\sqrt{3}\mathrm{i}=0+\left(-\sqrt{3}\right)\mathrm{i}$ 的实部为 $0$, 虚部为 $-\sqrt{3}$.
 
 (5) 复数 $\mathrm{i}=0+1\mathrm{i}$ 的实部为 $0$, 虚部为 $1$.
 
@@ -50,13 +50,13 @@ $-2+\frac{1}{3}\mathrm{i}$, $\sqrt{2}+\mathrm{i}$, $\frac{\sqrt{2}}{2}$, $-\sqrt
 
 (练习 7.1 第 2 题) 指出下列各数中, 哪些是实数, 哪些是虚数, 哪些是纯虚数. 为什么?
 
-$2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\mathrm{i}(1-\sqrt{3})$, $\sqrt{2}-\sqrt{2}\mathrm{i}$.
+$2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$, $\sqrt{2}-\sqrt{2}\mathrm{i}$.
 
 ### 解答 练习二
 
 由**定义 7.1.6** (实数, 虚数, 纯虚数), 复数 $a+b\mathrm{i}$ 当 $b=0$ 时为实数, 当 $b\neq 0$ 时为虚数, 当 $a=0$ 且 $b\neq 0$ 时为纯虚数.
 
-(1) $2+\sqrt{7}=(2+\sqrt{7})+0\mathrm{i}$, 虚部为 $0$, 是实数.
+(1) $2+\sqrt{7}=\left(2+\sqrt{7}\right)+0\mathrm{i}$, 虚部为 $0$, 是实数.
 
 (2) $0.618=0.618+0\mathrm{i}$, 虚部为 $0$, 是实数.
 
@@ -68,21 +68,21 @@ $2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+
 
 (6) $5\mathrm{i}+8=8+5\mathrm{i}$, 实部 $8\neq 0$, 虚部 $5\neq 0$, 是虚数.
 
-(7) $3-9\sqrt{2}\mathrm{i}=3+(-9\sqrt{2})\mathrm{i}$, 实部 $3\neq 0$, 虚部 $-9\sqrt{2}\neq 0$, 是虚数.
+(7) $3-9\sqrt{2}\mathrm{i}=3+\left(-9\sqrt{2}\right)\mathrm{i}$, 实部 $3\neq 0$, 虚部 $-9\sqrt{2}\neq 0$, 是虚数.
 
-(8) $\mathrm{i}(1-\sqrt{3})=0+(1-\sqrt{3})\mathrm{i}$, 实部为 $0$, 虚部 $1-\sqrt{3}\neq 0$, 是纯虚数.
+(8) $\mathrm{i}\left(1-\sqrt{3}\right)=0+\left(1-\sqrt{3}\right)\mathrm{i}$, 实部为 $0$, 虚部 $1-\sqrt{3}\neq 0$, 是纯虚数.
 
-(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+(-\sqrt{2})\mathrm{i}$, 实部 $\sqrt{2}\neq 0$, 虚部 $-\sqrt{2}\neq 0$, 是虚数.
+(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+\left(-\sqrt{2}\right)\mathrm{i}$, 实部 $\sqrt{2}\neq 0$, 虚部 $-\sqrt{2}\neq 0$, 是虚数.
 
-综上, 实数为 $2+\sqrt{7}$, $0.618$, $0$; 虚数为 $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\sqrt{2}-\sqrt{2}\mathrm{i}$; 纯虚数为 $\frac{2}{7}\mathrm{i}$, $\mathrm{i}$, $\mathrm{i}(1-\sqrt{3})$. $\blacksquare$
+综上, 实数为 $2+\sqrt{7}$, $0.618$, $0$; 虚数为 $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\sqrt{2}-\sqrt{2}\mathrm{i}$; 纯虚数为 $\frac{2}{7}\mathrm{i}$, $\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$. $\blacksquare$
 
 ### 练习三
 
 (练习 7.1 第 3 题) 求满足下列条件的实数 $x,y$ 的值:
 
-(1) $(x+y)+(y-1)\mathrm{i}=(2x+3y)+(2y+1)\mathrm{i}$;
+(1) $\left(x+y\right)+\left(y-1\right)\mathrm{i}=\left(2x+3y\right)+\left(2y+1\right)\mathrm{i}$;
 
-(2) $(x+y-3)+(x-2)\mathrm{i}=0$.
+(2) $\left(x+y-3\right)+\left(x-2\right)\mathrm{i}=0$.
 
 ### 解答 练习三
 
@@ -112,9 +112,9 @@ $$
 
 ### 解答 练习四
 
-由**定义 7.1.8** (复数的几何意义), 复平面内的点 $Z(a,b)$ 表示复数 $a+b\mathrm{i}$.
+由**定义 7.1.8** (复数的几何意义), 复平面内的点 $Z\left(a,b\right)$ 表示复数 $a+b\mathrm{i}$.
 
-读图, 各点坐标为: $A(3,3)$, $B(2,-2)$, $C(-3,2)$, $D(-3,-2)$, $E(3,0)$, $F(-2,0)$, $G(0,3)$, $H(0,-3)$.
+读图, 各点坐标为: $A\left(3,3\right)$, $B\left(2,-2\right)$, $C\left(-3,2\right)$, $D\left(-3,-2\right)$, $E\left(3,0\right)$, $F\left(-2,0\right)$, $G\left(0,3\right)$, $H\left(0,-3\right)$.
 
 故各点表示的复数分别为: $A:3+3\mathrm{i}$, $B:2-2\mathrm{i}$, $C:-3+2\mathrm{i}$, $D:-3-2\mathrm{i}$, $E:3$, $F:-2$, $G:3\mathrm{i}$, $H:-3\mathrm{i}$. $\blacksquare$
 
@@ -138,19 +138,19 @@ $$
 
 ### 解答 练习五
 
-由**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应复平面内的点 $(a,b)$.
+由**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应复平面内的点 $\left(a,b\right)$.
 
-(1) $2+5\mathrm{i}$ 对应点 $(2,5)$.
+(1) $2+5\mathrm{i}$ 对应点 $\left(2,5\right)$.
 
-(2) $-3+2\mathrm{i}$ 对应点 $(-3,2)$.
+(2) $-3+2\mathrm{i}$ 对应点 $\left(-3,2\right)$.
 
-(3) $2-4\mathrm{i}$ 对应点 $(2,-4)$.
+(3) $2-4\mathrm{i}$ 对应点 $\left(2,-4\right)$.
 
-(4) $-3-\mathrm{i}$ 对应点 $(-3,-1)$.
+(4) $-3-\mathrm{i}$ 对应点 $\left(-3,-1\right)$.
 
-(5) $5=5+0\mathrm{i}$ 对应点 $(5,0)$, 在实轴上.
+(5) $5=5+0\mathrm{i}$ 对应点 $\left(5,0\right)$, 在实轴上.
 
-(6) $-3\mathrm{i}=0+(-3)\mathrm{i}$ 对应点 $(0,-3)$, 在虚轴上.
+(6) $-3\mathrm{i}=0+\left(-3\right)\mathrm{i}$ 对应点 $\left(0,-3\right)$, 在虚轴上.
 
 在复平面内分别描出上述各点即可. $\blacksquare$
 
@@ -166,21 +166,21 @@ $$
 
 ### 解答 练习六
 
-由**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应向量 $\boldsymbol{OZ}=(a,b)$; 由**定义 7.1.9** (复数的模), $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+由**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应向量 $\boldsymbol{OZ}=\left(a,b\right)$; 由**定义 7.1.9** (复数的模), $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
-(1) 各复数对应的向量分别为: $(2,1)$, $(-2,4)$, $(0,-2)$, $(4,0)$, $\left(\frac{3}{2},-4\right)$, 在复平面内以原点 $O$ 为起点画出这些向量即可.
+(1) 各复数对应的向量分别为: $\left(2,1\right)$, $\left(-2,4\right)$, $\left(0,-2\right)$, $\left(4,0\right)$, $\left(\frac{3}{2},-4\right)$, 在复平面内以原点 $O$ 为起点画出这些向量即可.
 
 (2) 逐个求模:
 
 (a) $\lvert2+\mathrm{i}\rvert=\sqrt{2^2+1^2}=\sqrt{5}$;
 
-(b) $\lvert-2+4\mathrm{i}\rvert=\sqrt{(-2)^2+4^2}=\sqrt{20}=2\sqrt{5}$;
+(b) $\lvert-2+4\mathrm{i}\rvert=\sqrt{\left(-2\right)^2+4^2}=\sqrt{20}=2\sqrt{5}$;
 
-(c) $\lvert-2\mathrm{i}\rvert=\sqrt{0^2+(-2)^2}=2$;
+(c) $\lvert-2\mathrm{i}\rvert=\sqrt{0^2+\left(-2\right)^2}=2$;
 
 (d) $\lvert4\rvert=\sqrt{4^2+0^2}=4$;
 
-(e) $\left\lvert\frac{3}{2}-4\mathrm{i}\right\rvert=\sqrt{\left(\frac{3}{2}\right)^2+(-4)^2}=\sqrt{\frac{9}{4}+16}=\sqrt{\frac{73}{4}}=\frac{\sqrt{73}}{2}$. $\blacksquare$
+(e) $\left\lvert\frac{3}{2}-4\mathrm{i}\right\rvert=\sqrt{\left(\frac{3}{2}\right)^2+\left(-4\right)^2}=\sqrt{\frac{9}{4}+16}=\sqrt{\frac{73}{4}}=\frac{\sqrt{73}}{2}$. $\blacksquare$
 
 ### 习题一
 
@@ -204,7 +204,7 @@ $$
 
 ### 习题二
 
-(习题 7.1 复习巩固第 2 题) 当实数 $m$ 取什么值时, 复数 $(m^2-5m+6)+(m^2-3m)\mathrm{i}$ 是下列数?
+(习题 7.1 复习巩固第 2 题) 当实数 $m$ 取什么值时, 复数 $\left(m^2-5m+6\right)+\left(m^2-3m\right)\mathrm{i}$ 是下列数?
 
 (1) 实数;
 
@@ -216,21 +216,21 @@ $$
 
 由**定义 7.1.6** (实数, 虚数, 纯虚数), 复数 $a+b\mathrm{i}$ 为实数当 $b=0$, 为虚数当 $b\neq 0$, 为纯虚数当 $a=0$ 且 $b\neq 0$.
 
-记 $a=m^2-5m+6$, $b=m^2-3m=m(m-3)$.
+记 $a=m^2-5m+6$, $b=m^2-3m=m\left(m-3\right)$.
 
-(1) 为实数须 $b=0$, 即 $m(m-3)=0$, 得 $m=0$ 或 $m=3$.
+(1) 为实数须 $b=0$, 即 $m\left(m-3\right)=0$, 得 $m=0$ 或 $m=3$.
 
 (2) 为虚数须 $b\neq 0$, 即 $m\neq 0$ 且 $m\neq 3$.
 
-(3) 为纯虚数须 $a=0$ 且 $b\neq 0$. 由 $a=0$, 即 $(m-2)(m-3)=0$, 得 $m=2$ 或 $m=3$. 又须 $b\neq 0$, 即 $m\neq 0$ 且 $m\neq 3$, 故舍去 $m=3$, 得 $m=2$. $\blacksquare$
+(3) 为纯虚数须 $a=0$ 且 $b\neq 0$. 由 $a=0$, 即 $\left(m-2\right)\left(m-3\right)=0$, 得 $m=2$ 或 $m=3$. 又须 $b\neq 0$, 即 $m\neq 0$ 且 $m\neq 3$, 故舍去 $m=3$, 得 $m=2$. $\blacksquare$
 
 ### 习题三
 
 (习题 7.1 复习巩固第 3 题) 求适合下列方程的实数 $x$ 与 $y$ 的值:
 
-(1) $(3x+2y)+(5x-y)\mathrm{i}=17-2\mathrm{i}$;
+(1) $\left(3x+2y\right)+\left(5x-y\right)\mathrm{i}=17-2\mathrm{i}$;
 
-(2) $(x+y-3)+(x-4)\mathrm{i}=0$.
+(2) $\left(x+y-3\right)+\left(x-4\right)\mathrm{i}=0$.
 
 ### 解答 习题三
 
@@ -242,7 +242,7 @@ $$
 \begin{cases}3x+2y=17,\\5x-y=-2.\end{cases}
 $$
 
-由第二式, 得 $y=5x+2$. 代入第一式, 得 $3x+2(5x+2)=17$, 即 $13x+4=17$, 得 $x=1$. 代回得 $y=7$. 故 $x=1$, $y=7$.
+由第二式, 得 $y=5x+2$. 代入第一式, 得 $3x+2\left(5x+2\right)=17$, 即 $13x+4=17$, 得 $x=1$. 代回得 $y=7$. 故 $x=1$, $y=7$.
 
 (2) 右边 $0=0+0\mathrm{i}$. 得方程组
 
@@ -254,7 +254,7 @@ $$
 
 ### 习题四
 
-(习题 7.1 复习巩固第 4 题) 如果 $P$ 是复平面内表示复数 $a+b\mathrm{i}\ (a,b\in\mathbb R)$ 的点, 分别指出在下列条件下点 $P$ 的位置.
+(习题 7.1 复习巩固第 4 题) 如果 $P$ 是复平面内表示复数 $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ 的点, 分别指出在下列条件下点 $P$ 的位置.
 
 (1) $a>0$, $b>0$;
 
@@ -266,7 +266,7 @@ $$
 
 ### 解答 习题四
 
-由**定义 7.1.7** (复平面) 与**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应复平面内的点 $P(a,b)$, $a$ 为横坐标, $b$ 为纵坐标.
+由**定义 7.1.7** (复平面) 与**定义 7.1.8** (复数的几何意义), 复数 $a+b\mathrm{i}$ 对应复平面内的点 $P\left(a,b\right)$, $a$ 为横坐标, $b$ 为纵坐标.
 
 (1) $a>0$, $b>0$, 点 $P$ 在第一象限.
 
@@ -289,14 +289,14 @@ $$
 $$
 
 $$
-\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+(-\sqrt{2})^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
+\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
 $$
 
 因为 $5>\frac{3}{2}$, 所以 $\lvert z_1\rvert>\lvert z_2\rvert$. $\blacksquare$
 
 ### 习题六
 
-(习题 7.1 综合运用第 6 题) 当实数 $m$ 取什么值时, 复平面内表示复数 $z=(m^2-8m+15)+(m^2-5m-14)\mathrm{i}$ 的点分别满足下列条件?
+(习题 7.1 综合运用第 6 题) 当实数 $m$ 取什么值时, 复平面内表示复数 $z=\left(m^2-8m+15\right)+\left(m^2-5m-14\right)\mathrm{i}$ 的点分别满足下列条件?
 
 (1) 位于第四象限;
 
@@ -306,7 +306,7 @@ $$
 
 ### 解答 习题六
 
-由**定义 7.1.8** (复数的几何意义), 复数 $z=a+b\mathrm{i}$ 对应点 $P(a,b)$. 记 $a=m^2-8m+15=(m-3)(m-5)$, $b=m^2-5m-14=(m-7)(m+2)$.
+由**定义 7.1.8** (复数的几何意义), 复数 $z=a+b\mathrm{i}$ 对应点 $P\left(a,b\right)$. 记 $a=m^2-8m+15=\left(m-3\right)\left(m-5\right)$, $b=m^2-5m-14=\left(m-7\right)\left(m+2\right)$.
 
 (1) 位于第四象限, 须 $a>0$ 且 $b<0$. 由 $a>0$, 得 $m<3$ 或 $m>5$; 由 $b<0$, 得 $-2<m<7$. 取交集, 得 $-2<m<3$ 或 $5<m<7$.
 
@@ -318,7 +318,7 @@ $$
 
 综上, 得 $m<-2$ 或 $3<m<5$ 或 $m>7$.
 
-(3) 位于直线 $y=x$ 上, 须点 $P(a,b)$ 满足 $b=a$, 即 $m^2-5m-14=m^2-8m+15$. 化简, 得 $3m=29$, 即 $m=\frac{29}{3}$. $\blacksquare$
+(3) 位于直线 $y=x$ 上, 须点 $P\left(a,b\right)$ 满足 $b=a$, 即 $m^2-5m-14=m^2-8m+15$. 化简, 得 $3m=29$, 即 $m=\frac{29}{3}$. $\blacksquare$
 
 ### 习题七
 
@@ -330,11 +330,11 @@ $$
 
 ### 解答 习题七
 
-由**定义 7.1.8** (复数的几何意义), 向量 $\boldsymbol{OA}$ 对应复数 $2+\mathrm{i}$, 故点 $A$ 的坐标为 $(2,1)$.
+由**定义 7.1.8** (复数的几何意义), 向量 $\boldsymbol{OA}$ 对应复数 $2+\mathrm{i}$, 故点 $A$ 的坐标为 $\left(2,1\right)$.
 
-(1) 点 $A(2,1)$ 关于实轴 ( $x$ 轴) 的对称点 $B$ 的坐标为 $(2,-1)$. 由**定义 7.1.8**, 向量 $\boldsymbol{OB}$ 对应的复数为 $2+(-1)\mathrm{i}=2-\mathrm{i}$.
+(1) 点 $A\left(2,1\right)$ 关于实轴 ( $x$ 轴) 的对称点 $B$ 的坐标为 $\left(2,-1\right)$. 由**定义 7.1.8**, 向量 $\boldsymbol{OB}$ 对应的复数为 $2+\left(-1\right)\mathrm{i}=2-\mathrm{i}$.
 
-(2) 点 $B(2,-1)$ 关于虚轴 ( $y$ 轴) 的对称点 $C$ 的坐标为 $(-2,-1)$. 由**定义 7.1.8**, 点 $C$ 对应的复数为 $-2+(-1)\mathrm{i}=-2-\mathrm{i}$. $\blacksquare$
+(2) 点 $B\left(2,-1\right)$ 关于虚轴 ( $y$ 轴) 的对称点 $C$ 的坐标为 $\left(-2,-1\right)$. 由**定义 7.1.8**, 点 $C$ 对应的复数为 $-2+\left(-1\right)\mathrm{i}=-2-\mathrm{i}$. $\blacksquare$
 
 ### 习题八
 
@@ -358,9 +358,9 @@ $$
 
 ### 解答 习题九
 
-由**定义 7.1.8** (复数的几何意义), 复数 $z=a+b\mathrm{i}$ 对应点 $Z(a,b)$. 已知虚部 $b=3$, 实部 $a>0$, 故点 $Z$ 的纵坐标恒为 $3$, 横坐标为正.
+由**定义 7.1.8** (复数的几何意义), 复数 $z=a+b\mathrm{i}$ 对应点 $Z\left(a,b\right)$. 已知虚部 $b=3$, 实部 $a>0$, 故点 $Z$ 的纵坐标恒为 $3$, 横坐标为正.
 
-因此, 点 $Z$ 的集合是直线 $y=3$ 上位于第一象限的部分, 即射线 $y=3\ (x>0)$, 不含端点 $(0,3)$. $\blacksquare$
+因此, 点 $Z$ 的集合是直线 $y=3$ 上位于第一象限的部分, 即射线 $y=3\ \left(x>0\right)$, 不含端点 $\left(0,3\right)$. $\blacksquare$
 
 ### 习题十
 
@@ -368,7 +368,7 @@ $$
 
 ### 解答 习题十
 
-设 $z=a+\sqrt{3}\mathrm{i}\ (a\in\mathbb R)$. 由**定义 7.1.9** (复数的模), $\lvert z\rvert=\sqrt{a^2+(\sqrt{3})^2}=\sqrt{a^2+3}$. 由已知 $\lvert z\rvert=2$, 得
+设 $z=a+\sqrt{3}\mathrm{i}\ \left(a\in\mathbb R\right)$. 由**定义 7.1.9** (复数的模), $\lvert z\rvert=\sqrt{a^2+\left(\sqrt{3}\right)^2}=\sqrt{a^2+3}$. 由已知 $\lvert z\rvert=2$, 得
 
 $$
 \sqrt{a^2+3}=2.
@@ -382,7 +382,7 @@ $$
 
 ### 解答 习题十一
 
-由**定义 7.1.8** (复数的几何意义), 四点坐标分别为 $Z_1(1,2)$, $Z_2(\sqrt{2},\sqrt{3})$, $Z_3(\sqrt{3},-\sqrt{2})$, $Z_4(-2,1)$.
+由**定义 7.1.8** (复数的几何意义), 四点坐标分别为 $Z_1\left(1,2\right)$, $Z_2\left(\sqrt{2},\sqrt{3}\right)$, $Z_3\left(\sqrt{3},-\sqrt{2}\right)$, $Z_4\left(-2,1\right)$.
 
 由**定义 7.1.9** (复数的模), 计算各点到原点的距离:
 
@@ -391,15 +391,15 @@ $$
 $$
 
 $$
-\lvert z_2\rvert=\sqrt{(\sqrt{2})^2+(\sqrt{3})^2}=\sqrt{2+3}=\sqrt{5},
+\lvert z_2\rvert=\sqrt{\left(\sqrt{2}\right)^2+\left(\sqrt{3}\right)^2}=\sqrt{2+3}=\sqrt{5},
 $$
 
 $$
-\lvert z_3\rvert=\sqrt{(\sqrt{3})^2+(-\sqrt{2})^2}=\sqrt{3+2}=\sqrt{5},
+\lvert z_3\rvert=\sqrt{\left(\sqrt{3}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{3+2}=\sqrt{5},
 $$
 
 $$
-\lvert z_4\rvert=\sqrt{(-2)^2+1^2}=\sqrt{5}.
+\lvert z_4\rvert=\sqrt{\left(-2\right)^2+1^2}=\sqrt{5}.
 $$
 
 四点到原点 $O$ 的距离都等于 $\sqrt{5}$, 即四点都在以原点 $O$ 为圆心, 以 $\sqrt{5}$ 为半径的圆上. 故这 $4$ 个点在同一个圆上. $\blacksquare$

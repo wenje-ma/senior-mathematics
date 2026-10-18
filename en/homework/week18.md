@@ -4,7 +4,7 @@
 
 > **Definition 5.1.2** (Quadrant Angle) <br>Let the vertex of the angle coincide with the origin, and let the initial side of the angle coincide with the nonnegative half of the $x$-axis. Then, whichever quadrant the terminal side of the angle lies in, the angle is said to be a quadrant angle of that quadrant. If the terminal side of the angle lies on a coordinate axis, then the angle is considered not to belong to any quadrant.
 
-> **Standard Conclusion** (Angles with the Same Terminal Side) <br>All angles with the same terminal side as the angle $\alpha$, together with the angle $\alpha$ itself, can form a set $S=\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\}$, i.e. any angle with the same terminal side as the angle $\alpha$ can be expressed as the sum of the angle $\alpha$ and an integer number of full rotations.
+> **Standard Conclusion** (Angles with the Same Terminal Side) <br>All angles with the same terminal side as the angle $\alpha$, together with the angle $\alpha$ itself, can form a set $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$, i.e. any angle with the same terminal side as the angle $\alpha$ can be expressed as the sum of the angle $\alpha$ and an integer number of full rotations.
 
 > **Definition 5.1.3** (One-Radian Angle) <br>The central angle subtended by an arc whose length equals the radius is called a $1$ radian angle; the unit of radians is denoted by the symbol $\mathrm{rad}$, read as radian. We call a circle with radius $1$ the unit circle.
 
@@ -96,12 +96,12 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), add to or subtr
 
 ### Solution to Exercise 5
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\}$.
+By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$.
 
 (1) From $1303^{\circ}18'=3\times360^{\circ}+223^{\circ}18'$, we know the set of angles with the same terminal side as $1303^{\circ}18'$ is
 
 $$
-S=\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\ k\in\mathbb Z\}.
+S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
 $$
 
 From $-720^{\circ}\le\beta<360^{\circ}$, i.e. $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}<360^{\circ}$, solving gives $k=-2,-1,0$. When $k=-2$, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; when $k=-1$, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; when $k=0$, $\beta=223^{\circ}18'$. Therefore the elements satisfying the inequality are $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
@@ -109,7 +109,7 @@ From $-720^{\circ}\le\beta<360^{\circ}$, i.e. $-720^{\circ}\le223^{\circ}18'+k\c
 (2) The set of angles with the same terminal side as $-225^{\circ}$ is
 
 $$
-S=\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\}.
+S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
 $$
 
 From $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}<360^{\circ}$, solving gives $k=0,1$. When $k=0$, $\beta=-225^{\circ}$; when $k=1$, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. Therefore the elements satisfying the inequality are $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
@@ -194,9 +194,9 @@ $\blacksquare$
 
 By **Standard Conclusion** (Angles with the Same Terminal Side) and $180^{\circ}=\pi\ \mathrm{rad}$, $360^{\circ}=2\pi\ \mathrm{rad}$.
 
-(1) For angles whose terminal side lies on the $x$-axis, their terminal side coincides with that of $0$ or $\pi$. The angles with the same terminal side as $0$ are $2k\pi$, and the angles with the same terminal side as $\pi$ are $\pi+2k\pi$, which merge into $n\pi$ ($n\in\mathbb Z$). Therefore the set of angles whose terminal side lies on the $x$-axis is $\{\beta\mid\beta=n\pi,\ n\in\mathbb Z\}$.
+(1) For angles whose terminal side lies on the $x$-axis, their terminal side coincides with that of $0$ or $\pi$. The angles with the same terminal side as $0$ are $2k\pi$, and the angles with the same terminal side as $\pi$ are $\pi+2k\pi$, which merge into $n\pi$ ($n\in\mathbb Z$). Therefore the set of angles whose terminal side lies on the $x$-axis is $\left\{\beta\mid\beta=n\pi,\ n\in\mathbb Z\right\}$.
 
-(2) For angles whose terminal side lies on the $y$-axis, their terminal side coincides with that of $\frac{\pi}{2}$ or $\frac{3\pi}{2}$. The angles with the same terminal side as $\frac{\pi}{2}$ are $\frac{\pi}{2}+2k\pi$, and the angles with the same terminal side as $\frac{3\pi}{2}$ are $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+(2k+1)\pi$, which merge into $\frac{\pi}{2}+n\pi$ ($n\in\mathbb Z$). Therefore the set of angles whose terminal side lies on the $y$-axis is $\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\ n\in\mathbb Z\}$. $\blacksquare$
+(2) For angles whose terminal side lies on the $y$-axis, their terminal side coincides with that of $\frac{\pi}{2}$ or $\frac{3\pi}{2}$. The angles with the same terminal side as $\frac{\pi}{2}$ are $\frac{\pi}{2}+2k\pi$, and the angles with the same terminal side as $\frac{3\pi}{2}$ are $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, which merge into $\frac{\pi}{2}+n\pi$ ($n\in\mathbb Z$). Therefore the set of angles whose terminal side lies on the $y$-axis is $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\ n\in\mathbb Z\right\}$. $\blacksquare$
 
 ### Exercise 9
 
@@ -298,23 +298,23 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an an
 
 ### Solution to Problem 2
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\}$.
+By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$.
 
-(1) The set of angles with the same terminal side as $60^{\circ}$ is $S=\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-300^{\circ}$; when $k=0$, $\beta=60^{\circ}$. Therefore the suitable elements are $-300^{\circ}$, $60^{\circ}$.
+(1) The set of angles with the same terminal side as $60^{\circ}$ is $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-300^{\circ}$; when $k=0$, $\beta=60^{\circ}$. Therefore the suitable elements are $-300^{\circ}$, $60^{\circ}$.
 
-(2) The set of angles with the same terminal side as $-75^{\circ}$ is $S=\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=0,1$. When $k=0$, $\beta=-75^{\circ}$; when $k=1$, $\beta=285^{\circ}$. Therefore the suitable elements are $-75^{\circ}$, $285^{\circ}$.
+(2) The set of angles with the same terminal side as $-75^{\circ}$ is $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=0,1$. When $k=0$, $\beta=-75^{\circ}$; when $k=1$, $\beta=285^{\circ}$. Therefore the suitable elements are $-75^{\circ}$, $285^{\circ}$.
 
-(3) From $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, the set of angles with the same terminal side as $-824^{\circ}30'$ is $S=\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-104^{\circ}30'$; when $k=0$, $\beta=255^{\circ}30'$. Therefore the suitable elements are $-104^{\circ}30'$, $255^{\circ}30'$.
+(3) From $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, the set of angles with the same terminal side as $-824^{\circ}30'$ is $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-104^{\circ}30'$; when $k=0$, $\beta=255^{\circ}30'$. Therefore the suitable elements are $-104^{\circ}30'$, $255^{\circ}30'$.
 
-(4) From $475^{\circ}=360^{\circ}+115^{\circ}$, the set of angles with the same terminal side as $475^{\circ}$ is $S=\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-245^{\circ}$; when $k=0$, $\beta=115^{\circ}$. Therefore the suitable elements are $-245^{\circ}$, $115^{\circ}$.
+(4) From $475^{\circ}=360^{\circ}+115^{\circ}$, the set of angles with the same terminal side as $475^{\circ}$ is $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-245^{\circ}$; when $k=0$, $\beta=115^{\circ}$. Therefore the suitable elements are $-245^{\circ}$, $115^{\circ}$.
 
-(5) The set of angles with the same terminal side as $90^{\circ}$ is $S=\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-270^{\circ}$; when $k=0$, $\beta=90^{\circ}$. Therefore the suitable elements are $-270^{\circ}$, $90^{\circ}$.
+(5) The set of angles with the same terminal side as $90^{\circ}$ is $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-270^{\circ}$; when $k=0$, $\beta=90^{\circ}$. Therefore the suitable elements are $-270^{\circ}$, $90^{\circ}$.
 
-(6) The set of angles with the same terminal side as $270^{\circ}$ is $S=\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-90^{\circ}$; when $k=0$, $\beta=270^{\circ}$. Therefore the suitable elements are $-90^{\circ}$, $270^{\circ}$.
+(6) The set of angles with the same terminal side as $270^{\circ}$ is $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-90^{\circ}$; when $k=0$, $\beta=270^{\circ}$. Therefore the suitable elements are $-90^{\circ}$, $270^{\circ}$.
 
-(7) The set of angles with the same terminal side as $180^{\circ}$ is $S=\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-180^{\circ}$; when $k=0$, $\beta=180^{\circ}$. Therefore the suitable elements are $-180^{\circ}$, $180^{\circ}$.
+(7) The set of angles with the same terminal side as $180^{\circ}$ is $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-180^{\circ}$; when $k=0$, $\beta=180^{\circ}$. Therefore the suitable elements are $-180^{\circ}$, $180^{\circ}$.
 
-(8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\{\beta\mid\beta=k\cdot360^{\circ},\ k\in\mathbb Z\}$. From $-360^{\circ}\le k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
+(8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
 
 ### Problem 3
 
@@ -327,49 +327,49 @@ By **Definition 5.1.2** (Quadrant Angle), angles whose terminal side lies on a c
 (1) First-quadrant angles: the terminal side lies between $0^{\circ}$ and $90^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\{\beta\mid k\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\},
+S=\left\{\beta\mid k\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\{\beta\mid 2k\pi<\beta<\frac{\pi}{2}+2k\pi,\ k\in\mathbb Z\}.
+S=\left\{\beta\mid 2k\pi<\beta<\frac{\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 (2) Second-quadrant angles: the terminal side lies between $90^{\circ}$ and $180^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\{\beta\mid 90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\},
+S=\left\{\beta\mid 90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\{\beta\mid \frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,\ k\in\mathbb Z\}.
+S=\left\{\beta\mid \frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 (3) Third-quadrant angles: the terminal side lies between $180^{\circ}$ and $270^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\{\beta\mid 180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\},
+S=\left\{\beta\mid 180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\{\beta\mid \pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,\ k\in\mathbb Z\}.
+S=\left\{\beta\mid \pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 (4) Fourth-quadrant angles: the terminal side lies between $270^{\circ}$ and $360^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\{\beta\mid 270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\},
+S=\left\{\beta\mid 270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\{\beta\mid \frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,\ k\in\mathbb Z\}.
+S=\left\{\beta\mid \frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 $\blacksquare$
@@ -546,15 +546,15 @@ Therefore the radius of the circle to which this arc belongs is approximately $1
 
 By **Standard Conclusion** (Arc Length and Area Formulas for a Sector), $S=\frac{1}{2}\alpha R^{2}$.
 
-Let the radius of the circle to which the fan belongs be $R$, and the central angle of the fan be $\alpha$; then the fan area is $S_{1}=\frac{1}{2}\alpha R^{2}$, the central angle of the remaining part is $2\pi-\alpha$, and the area is $S_{2}=\frac{1}{2}(2\pi-\alpha)R^{2}$.
+Let the radius of the circle to which the fan belongs be $R$, and the central angle of the fan be $\alpha$; then the fan area is $S_{1}=\frac{1}{2}\alpha R^{2}$, the central angle of the remaining part is $2\pi-\alpha$, and the area is $S_{2}=\frac{1}{2}\left(2\pi-\alpha\right)R^{2}$.
 
 (1) We get
 
 $$
-\frac{S_{1}}{S_{2}}=\frac{\frac{1}{2}\alpha R^{2}}{\frac{1}{2}(2\pi-\alpha)R^{2}}=\frac{\alpha}{2\pi-\alpha}.
+\frac{S_{1}}{S_{2}}=\frac{\frac{1}{2}\alpha R^{2}}{\frac{1}{2}\left(2\pi-\alpha\right)R^{2}}=\frac{\alpha}{2\pi-\alpha}.
 $$
 
-(2) From $\frac{S_{1}}{S_{2}}=0.618$, i.e. $\frac{\alpha}{2\pi-\alpha}=0.618$, solving gives $\alpha=0.618(2\pi-\alpha)$, i.e. $1.618\alpha=1.236\pi$, so
+(2) From $\frac{S_{1}}{S_{2}}=0.618$, i.e. $\frac{\alpha}{2\pi-\alpha}=0.618$, solving gives $\alpha=0.618\left(2\pi-\alpha\right)$, i.e. $1.618\alpha=1.236\pi$, so
 
 $$
 \alpha=\frac{1.236\pi}{1.618}\approx0.7639\pi\ \mathrm{rad}.
@@ -576,7 +576,7 @@ By **Standard Conclusion** (Conversion between Degrees and Radians) and the angu
 
 (1) The hour hand rotates one full turn of $360^{\circ}$ in $12$ hours, so in $4$ hours it rotates $360^{\circ}\times\frac{4}{12}=120^{\circ}$, i.e. $\frac{2\pi}{3}\ \mathrm{rad}$. The minute hand rotates one full turn of $360^{\circ}$ in $1$ hour, so in $4$ hours it rotates $4\times360^{\circ}=1440^{\circ}$, i.e. $8\pi\ \mathrm{rad}$. Note that both the hour hand and the minute hand rotate clockwise, so the angles rotated are negative angles, i.e. $-120^{\circ}=-\frac{2\pi}{3}\ \mathrm{rad}$, $-1440^{\circ}=-8\pi\ \mathrm{rad}$.
 
-(2) This statement is incorrect. The angular velocity of the minute hand is $6^{\circ}/\mathrm{min}$ (i.e. $360^{\circ}/60$), and the angular velocity of the hour hand is $0.5^{\circ}/\mathrm{min}$ (i.e. $360^{\circ}/(12\times60)$). Starting from the coincidence of the two hands at midnight zero o'clock, suppose after $t\ \mathrm{min}$ the two hands coincide again; then the minute hand rotates $360^{\circ}$ more than the hour hand, i.e.
+(2) This statement is incorrect. The angular velocity of the minute hand is $6^{\circ}/\mathrm{min}$ (i.e. $360^{\circ}/60$), and the angular velocity of the hour hand is $0.5^{\circ}/\mathrm{min}$ (i.e. $360^{\circ}/\left(12\times60\right)$). Starting from the coincidence of the two hands at midnight zero o'clock, suppose after $t\ \mathrm{min}$ the two hands coincide again; then the minute hand rotates $360^{\circ}$ more than the hour hand, i.e.
 
 $$
 6t-0.5t=360n,\quad n\in\mathbb N^*.

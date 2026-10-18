@@ -2,15 +2,15 @@
 
 > **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram) <br>When organizing data, first find the range, then decide the class width and number of classes so that the data are divided into several groups; list the frequency and relative frequency of each group to make a frequency distribution table. When drawing the frequency distribution histogram, the horizontal axis represents the data, the vertical axis represents $\frac{\text{频率}}{\text{组距}}$, the area of each small rectangle equals the relative frequency of the corresponding group, i.e. area $=$ class width $\times\frac{\text{频率}}{\text{组距}}=$ relative frequency, and the sum of the areas of all small rectangles equals 1.
 
-> **Definition 9.2.2** (The $p$-th Percentile) <br>The $p$-th percentile of a set of data is a value such that at least $p\%$ of the data are less than or equal to this value and at least $(100-p)\%$ of the data are greater than or equal to this value. The computation steps: arrange the raw data in ascending order, compute $i=n\times p\%$; if $i$ is not an integer and the nearest integer greater than $i$ is $j$, then the $p$-th percentile is the $j$-th data item; if $i$ is an integer, then the $p$-th percentile is the average of the $i$-th and $(i+1)$-th data items. The median is just the 50th percentile.
+> **Definition 9.2.2** (The $p$-th Percentile) <br>The $p$-th percentile of a set of data is a value such that at least $p\%$ of the data are less than or equal to this value and at least $\left(100-p\right)\%$ of the data are greater than or equal to this value. The computation steps: arrange the raw data in ascending order, compute $i=n\times p\%$; if $i$ is not an integer and the nearest integer greater than $i$ is $j$, then the $p$-th percentile is the $j$-th data item; if $i$ is an integer, then the $p$-th percentile is the average of the $i$-th and $\left(i+1\right)$-th data items. The median is just the 50th percentile.
 
 > **Definition 9.2.3** (Mode, Median and Mean) <br>The mode is the data value appearing most often in a set of data; the median is the data value in the middle position after the data are arranged in ascending order (or the average of the two middle data values); the mean is the arithmetic average of the data. The mode, median and mean describe the central tendency of a set of data from different angles.
 
-> **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) <br>The average of the squared deviations of all data $Y_1,\cdots,Y_N$ in the population from the population mean $\bar Y$, namely $s^2=\frac{1}{N}\sum_{i=1}^{N}(Y_i-\bar Y)^2$, is called the population variance, and its arithmetic square root $s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}(Y_i-\bar Y)^2}$ is called the population standard deviation; correspondingly, the sample variance is $s^2=\frac{1}{n}\sum_{i=1}^{n}(y_i-\bar y)^2$, and the sample standard deviation is $s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\bar y)^2}$. The larger the variance (standard deviation), the greater the dispersion of the data.
+> **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) <br>The average of the squared deviations of all data $Y_1,\cdots,Y_N$ in the population from the population mean $\bar Y$, namely $s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2$, is called the population variance, and its arithmetic square root $s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2}$ is called the population standard deviation; correspondingly, the sample variance is $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2$, and the sample standard deviation is $s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}$. The larger the variance (standard deviation), the greater the dispersion of the data.
 
-> **Common Result 9.2.5** (Total Variance of Stratified Random Sampling) <br>The sample sizes of the two strata are $n_1,n_2$, the stratum means are $\bar x_1,\bar x_2$, the stratum variances are $s_1^2,s_2^2$, and the total sample mean is $\bar w=\frac{n_1\bar x_1+n_2\bar x_2}{n_1+n_2}$; then the variance of the combined data is $s^2=\frac{n_1(s_1^2+(\bar x_1-\bar w)^2)+n_2(s_2^2+(\bar x_2-\bar w)^2)}{n_1+n_2}$.
+> **Common Result 9.2.5** (Total Variance of Stratified Random Sampling) <br>The sample sizes of the two strata are $n_1,n_2$, the stratum means are $\bar x_1,\bar x_2$, the stratum variances are $s_1^2,s_2^2$, and the total sample mean is $\bar w=\frac{n_1\bar x_1+n_2\bar x_2}{n_1+n_2}$; then the variance of the combined data is $s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}$.
 
-> **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$ ($a,b$ constants, $i=1,\cdots,n$), and $\bar x,\bar y$ and $s_x^2,s_y^2$ are the means and variances of the two sets of data respectively, then $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=|a|s_x$.
+> **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$ ($a,b$ constants, $i=1,\cdots,n$), and $\bar x,\bar y$ and $s_x^2,s_y^2$ are the means and variances of the two sets of data respectively, then $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
 
 ### Exercise 1
 
@@ -18,7 +18,7 @@
 
 (1) The value of $x$ in the histogram is $\;\_\_\;$;
 
-(2) Among the surveyed users, the number of households whose electricity use falls in the interval $[100,250)$ is $\;\_\_\;$.
+(2) Among the surveyed users, the number of households whose electricity use falls in the interval $\left[100,250\right)$ is $\;\_\_\;$.
 
 ![week45-1.svg](../../figures/week45-1.svg){width=50%}
 
@@ -26,18 +26,18 @@
 
 By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram), the sum of the areas of all small rectangles equals 1.
 
-(1) The class width of each group is 50, and the $[$ frequency/class width $]$ of each group is $0.0024,0.0036,0.0060,x,0.0024,0.0012$. Since the sum of the areas of the rectangles of all groups is 1,
+(1) The class width of each group is 50, and the $\left[$ frequency/class width $\right]$ of each group is $0.0024,0.0036,0.0060,x,0.0024,0.0012$. Since the sum of the areas of the rectangles of all groups is 1,
 
 $$
-50\times(0.0024+0.0036+0.0060+x+0.0024+0.0012)=1.
+50\times\left(0.0024+0.0036+0.0060+x+0.0024+0.0012\right)=1.
 $$
 
 That is, $0.0156+x=\frac{1}{50}=0.02$, solving gives $x=0.02-0.0156=0.0044$.
 
-(2) The relative frequency of electricity use falling in the interval $[100,250)$ is
+(2) The relative frequency of electricity use falling in the interval $\left[100,250\right)$ is
 
 $$
-50\times(0.0036+0.0060+0.0044)=50\times0.014=0.70.
+50\times\left(0.0036+0.0060+0.0044\right)=50\times0.014=0.70.
 $$
 
 Hence the number of households is $100\times0.70=70$. $\blacksquare$
@@ -46,9 +46,9 @@ Hence the number of households is $100\times0.70=70$. $\blacksquare$
 
 (Exercise 9.2, Problem 2) As shown in the figure, Hu Xiao compiled his father's mobile-call detail bill for September and found that his father made 60 calls in total that month. Hu Xiao grouped the calls by duration (each group a left-closed right-open interval) and drew a frequency distribution histogram.
 
-(1) What are the numbers of calls whose duration lies in the intervals $[15,20)$ and $[20,30)$ respectively?
+(1) What are the numbers of calls whose duration lies in the intervals $\left[15,20\right)$ and $\left[20,30\right)$ respectively?
 
-(2) The height of the small rectangle over $[20,30)$ is lower than that over $[15,20)$. What does this indicate? In terms of practical meaning, discuss your view.
+(2) The height of the small rectangle over $\left[20,30\right)$ is lower than that over $\left[15,20\right)$. What does this indicate? In terms of practical meaning, discuss your view.
 
 ![week45-2.svg](../../figures/week45-2.svg){width=50%}
 
@@ -56,31 +56,31 @@ Hence the number of households is $100\times0.70=70$. $\blacksquare$
 
 By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram), the area of a small rectangle equals the relative frequency, and the frequency count $=$ sample size $\times$ relative frequency.
 
-(1) The class width of the interval $[15,20)$ is 5, $\frac{\text{频率}}{\text{组距}}=0.030$, the relative frequency is $5\times0.030=0.15$, so the number of calls is
+(1) The class width of the interval $\left[15,20\right)$ is 5, $\frac{\text{频率}}{\text{组距}}=0.030$, the relative frequency is $5\times0.030=0.15$, so the number of calls is
 
 $$
 60\times0.15=9.
 $$
 
-The class width of the interval $[20,30)$ is 10, $\frac{\text{频率}}{\text{组距}}=0.020$, the relative frequency is $10\times0.020=0.20$, so the number of calls is
+The class width of the interval $\left[20,30\right)$ is 10, $\frac{\text{频率}}{\text{组距}}=0.020$, the relative frequency is $10\times0.020=0.20$, so the number of calls is
 
 $$
 60\times0.20=12.
 $$
 
-(2) The height of the small rectangle over $[20,30)$ (i.e. $\frac{\text{频率}}{\text{组距}}$) is lower than that over $[15,20)$; although the interval $[20,30)$ is wider and contains more calls (12 versus 9), per unit of call time its call frequency is actually lower. This shows that this father's mobile calls are mostly short, and long calls are uncommon. $\blacksquare$
+(2) The height of the small rectangle over $\left[20,30\right)$ (i.e. $\frac{\text{频率}}{\text{组距}}$) is lower than that over $\left[15,20\right)$; although the interval $\left[20,30\right)$ is wider and contains more calls (12 versus 9), per unit of call time its call frequency is actually lower. This shows that this father's mobile calls are mostly short, and long calls are uncommon. $\blacksquare$
 
 ### Exercise 3
 
 (Exercise 9.2, Problem 3) There is a sample of size 30; the grouping of the data and the frequency count of each group are as follows:
 
-$[0,10)$ 3; $[10,20)$ 5; $[20,30)$ 9; $[30,40)$ 7; $[40,50)$ 5; $[50,60]$ 1.
+$\left[0,10\right)$ 3; $\left[10,20\right)$ 5; $\left[20,30\right)$ 9; $\left[30,40\right)$ 7; $\left[40,50\right)$ 5; $\left[50,60\right]$ 1.
 
 (1) List the frequency distribution table of the sample;
 
 (2) Draw the frequency distribution histogram;
 
-(3) Estimate approximately the relative frequency of data falling in $[10,50)$.
+(3) Estimate approximately the relative frequency of data falling in $\left[10,50\right)$.
 
 ![week45-3.svg](../../figures/week45-3.svg){width=50%}
 
@@ -88,11 +88,11 @@ $[0,10)$ 3; $[10,20)$ 5; $[20,30)$ 9; $[30,40)$ 7; $[40,50)$ 5; $[50,60]$ 1.
 
 By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram), relative frequency $=$ frequency count $\div$ sample size, and the vertical axis takes $\frac{\text{频率}}{\text{组距}}$.
 
-(1) The sample size is 30; the frequency distribution table is: $[0,10)$ relative frequency $0.1$; $[10,20)$ relative frequency $\frac{5}{30}\approx0.17$; $[20,30)$ relative frequency $\frac{9}{30}=0.3$; $[30,40)$ relative frequency $\frac{7}{30}\approx0.23$; $[40,50)$ relative frequency $\frac{5}{30}\approx0.17$; $[50,60]$ relative frequency $\frac{1}{30}\approx0.03$.
+(1) The sample size is 30; the frequency distribution table is: $\left[0,10\right)$ relative frequency $0.1$; $\left[10,20\right)$ relative frequency $\frac{5}{30}\approx0.17$; $\left[20,30\right)$ relative frequency $\frac{9}{30}=0.3$; $\left[30,40\right)$ relative frequency $\frac{7}{30}\approx0.23$; $\left[40,50\right)$ relative frequency $\frac{5}{30}\approx0.17$; $\left[50,60\right]$ relative frequency $\frac{1}{30}\approx0.03$.
 
 (2) Each group has class width 10; on the vertical axis take successively $\frac{\text{频率}}{\text{组距}}$ as $0.010,0.017,0.030,0.023,0.017,0.003$, and draw small rectangles with each group as base and the corresponding height, obtaining the frequency distribution histogram.
 
-(3) The frequency count of data falling in $[10,50)$ is $5+9+7+5=26$, and the relative frequency is approximately $\frac{26}{30}\approx0.87$. $\blacksquare$
+(3) The frequency count of data falling in $\left[10,50\right)$ is $5+9+7+5=26$, and the relative frequency is approximately $\frac{26}{30}\approx0.87$. $\blacksquare$
 
 ### Exercise 4
 
@@ -334,19 +334,19 @@ All four statements are correct; they describe the two teams' defense from the t
 
 ### Problem 4
 
-(Exercise 9.2, Review and Consolidation, Problem 4) The variance and standard deviation of the data $x_1,x_2,\cdots,x_n$ are $s_x^2,s_x$ respectively, and those of the data $y_1,y_2,\cdots,y_n$ are $s_y^2,s_y$. If $y_i=ax_i+b$ holds, with $a,b$ constants, prove that $s_y^2=a^2s_x^2$, $s_y=|a|s_x$.
+(Exercise 9.2, Review and Consolidation, Problem 4) The variance and standard deviation of the data $x_1,x_2,\cdots,x_n$ are $s_x^2,s_x$ respectively, and those of the data $y_1,y_2,\cdots,y_n$ are $s_y^2,s_y$. If $y_i=ax_i+b$ holds, with $a,b$ constants, prove that $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
 
 ### Solution to Problem 4
 
 By **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance).
 
-Because $y_i=ax_i+b$, by **Common Result 9.2.6**, $\bar y=a\bar x+b$, so $y_i-\bar y=a(x_i-\bar x)$. Thus
+Because $y_i=ax_i+b$, by **Common Result 9.2.6**, $\bar y=a\bar x+b$, so $y_i-\bar y=a\left(x_i-\bar x\right)$. Thus
 
 $$
-s_y^2=\frac{1}{n}\sum_{i=1}^{n}(y_i-\bar y)^2=\frac{1}{n}\sum_{i=1}^{n}a^2(x_i-\bar x)^2=a^2s_x^2,
+s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\bar x\right)^2=a^2s_x^2,
 $$
 
-and hence $s_y=\sqrt{a^2s_x^2}=|a|s_x$. This proves the original identity. $\blacksquare$
+and hence $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. This proves the original identity. $\blacksquare$
 
 ### Problem 5
 
@@ -356,13 +356,13 @@ and hence $s_y=\sqrt{a^2s_x^2}=|a|s_x$. This proves the original identity. $\bla
 
 By **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation).
 
-From $s^2=\frac{1}{n}\sum_{i=1}^{n}(x_i-\bar x)^2=0$,
+From $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\bar x\right)^2=0$,
 
 $$
-\sum_{i=1}^{n}(x_i-\bar x)^2=0.
+\sum_{i=1}^{n}\left(x_i-\bar x\right)^2=0.
 $$
 
-Each term $(x_i-\bar x)^2\ge0$, and their sum is 0, so every term is 0, i.e. $x_i-\bar x=0$, $x_i=\bar x$ for all $i$. Hence all the $x_i$ are equal. $\blacksquare$
+Each term $\left(x_i-\bar x\right)^2\ge0$, and their sum is 0, so every term is 0, i.e. $x_i-\bar x=0$, $x_i=\bar x$ for all $i$. Hence all the $x_i$ are equal. $\blacksquare$
 
 ### Problem 6
 
@@ -420,7 +420,7 @@ the sample variance is approximately $0.2043$, and the sample standard deviation
 
 (3) One cannot conclude that the average mercury content of every batch of this fish is greater than $1.00\times10^{-6}$. Because the sample is random, different batches of fish may have different mercury content, and this sample's mean is only an estimate for this batch.
 
-(4) The interval $[\bar x-2s,\bar x+2s]$ is approximately $[0.18,1.98]$. Counting one by one, except for $0.07$ and $2.10$, the mercury content of the remaining 28 fish lies in this interval. Hence about 28 fish. $\blacksquare$
+(4) The interval $\left[\bar x-2s,\bar x+2s\right]$ is approximately $\left[0.18,1.98\right]$. Counting one by one, except for $0.07$ and $2.10$, the mercury content of the remaining 28 fish lies in this interval. Hence about 28 fish. $\blacksquare$
 
 ### Problem 9
 
@@ -484,7 +484,7 @@ and the population standard deviation is approximately $95.26$.
 
 (1) $\bar w=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z$;
 
-(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+(\bar x-\bar w)^2\right]+m\left[s_2^2+(\bar y-\bar w)^2\right]+n\left[s_3^2+(\bar z-\bar w)^2\right]\right\}$.
+(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\bar x-\bar w\right)^2\right]+m\left[s_2^2+\left(\bar y-\bar w\right)^2\right]+n\left[s_3^2+\left(\bar z-\bar w\right)^2\right]\right\}$.
 
 ### Solution to Problem 11
 
@@ -496,16 +496,16 @@ $$
 \bar w=\frac{l\bar x+m\bar y+n\bar z}{l+m+n}=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z.
 $$
 
-(2) For the 1st stratum, $\sum_{i=1}^{l}(x_i-\bar w)^2=\sum_{i=1}^{l}\left[(x_i-\bar x)+(\bar x-\bar w)\right]^2$. After expansion, the cross term $2(\bar x-\bar w)\sum_{i=1}^{l}(x_i-\bar x)=0$, so
+(2) For the 1st stratum, $\sum_{i=1}^{l}\left(x_i-\bar w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\bar x\right)+\left(\bar x-\bar w\right)\right]^2$. After expansion, the cross term $2\left(\bar x-\bar w\right)\sum_{i=1}^{l}\left(x_i-\bar x\right)=0$, so
 
 $$
-\sum_{i=1}^{l}(x_i-\bar w)^2=\sum_{i=1}^{l}(x_i-\bar x)^2+l(\bar x-\bar w)^2=ls_1^2+l(\bar x-\bar w)^2.
+\sum_{i=1}^{l}\left(x_i-\bar w\right)^2=\sum_{i=1}^{l}\left(x_i-\bar x\right)^2+l\left(\bar x-\bar w\right)^2=ls_1^2+l\left(\bar x-\bar w\right)^2.
 $$
 
 The same holds for the 2nd and 3rd strata. Thus
 
 $$
-s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+(\bar x-\bar w)^2\right]+m\left[s_2^2+(\bar y-\bar w)^2\right]+n\left[s_3^2+(\bar z-\bar w)^2\right]\right\}.
+s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\bar x-\bar w\right)^2\right]+m\left[s_2^2+\left(\bar y-\bar w\right)^2\right]+n\left[s_3^2+\left(\bar z-\bar w\right)^2\right]\right\}.
 $$
 
 This proves the original identity. $\blacksquare$

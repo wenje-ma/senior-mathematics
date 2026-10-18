@@ -1,14 +1,14 @@
 # Assignment 23
 
-> **Definition 5.6.1** (Amplitude) <br>In the function $y=A\sin(\omega x+\varphi)$ ($A>0$, $\omega>0$), $A$ is called the amplitude, i.e. the maximum distance the object moves away from the equilibrium position.
+> **Definition 5.6.1** (Amplitude) <br>In the function $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$), $A$ is called the amplitude, i.e. the maximum distance the object moves away from the equilibrium position.
 
-> **Definition 5.6.2** (Period) <br>The period of the function $y=A\sin(\omega x+\varphi)$ is $T=\frac{2\pi}{\omega}$, i.e. the time required for one complete back-and-forth motion.
+> **Definition 5.6.2** (Period) <br>The period of the function $y=A\sin\left(\omega x+\varphi\right)$ is $T=\frac{2\pi}{\omega}$, i.e. the time required for one complete back-and-forth motion.
 
-> **Definition 5.6.3** (Frequency) <br>The frequency of the function $y=A\sin(\omega x+\varphi)$ is $f=\frac{1}{T}=\frac{\omega}{2\pi}$, i.e. the number of back-and-forth motions per unit time.
+> **Definition 5.6.3** (Frequency) <br>The frequency of the function $y=A\sin\left(\omega x+\varphi\right)$ is $f=\frac{1}{T}=\frac{\omega}{2\pi}$, i.e. the number of back-and-forth motions per unit time.
 
 > **Definition 5.6.4** (Phase and Initial Phase) <br>$\omega x+\varphi$ is called the phase; the phase $\varphi$ when $x=0$ is called the initial phase.
 
-> **Property 5.6.1** (Graph Transformations) <br>From the graph of $y=\sin x$ to the graph of $y=A\sin(\omega x+\varphi)$: (1) shift left (right) by $\lvert\varphi\rvert$ units to get $y=\sin(x+\varphi)$; (2) compress (stretch) the x-coordinates to $\frac{1}{\omega}$ times the original to get $y=\sin(\omega x+\varphi)$; (3) stretch (compress) the y-coordinates to $A$ times the original to get $y=A\sin(\omega x+\varphi)$.
+> **Property 5.6.1** (Graph Transformations) <br>From the graph of $y=\sin x$ to the graph of $y=A\sin\left(\omega x+\varphi\right)$: (1) shift left (right) by $\lvert\varphi\rvert$ units to get $y=\sin\left(x+\varphi\right)$; (2) compress (stretch) the x-coordinates to $\frac{1}{\omega}$ times the original to get $y=\sin\left(\omega x+\varphi\right)$; (3) stretch (compress) the y-coordinates to $A$ times the original to get $y=A\sin\left(\omega x+\varphi\right)$.
 
 ### Exercise 1
 
@@ -92,13 +92,13 @@ Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{4}$, stretch the x-coo
 
 ### Exercise 4
 
-(Exercise 5.6, Problem 4) What is the relationship between the graph of the function $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in[0,+\infty)$, and the sine curve?
+(Exercise 5.6, Problem 4) What is the relationship between the graph of the function $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$, and the sine curve?
 
 ### Solution to Exercise 4
 
 By **Property 5.6.1** (Graph Transformations).
 
-Shift the graph of $y=\sin x$ ($x\in\mathbb R$) to the left by $\frac{\pi}{12}$ units, then take the part with $x\geq0$, to obtain the graph of $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in[0,+\infty)$. $\blacksquare$
+Shift the graph of $y=\sin x$ ($x\in\mathbb R$) to the left by $\frac{\pi}{12}$ units, then take the part with $x\geq0$, to obtain the graph of $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$. $\blacksquare$
 
 ### Problem 1
 
@@ -174,9 +174,9 @@ By **Property 5.6.1** (Graph Transformations).
 
 (Exercise 5.6, Review and Consolidation, Problem 3) Explain what transformations applied to the sine curve produce the graphs of the following functions (note the domain):
 
-(1) $y=8\sin\left(\frac{x}{4}-\frac{\pi}{8}\right)$, $x\in[0,+\infty)$;
+(1) $y=8\sin\left(\frac{x}{4}-\frac{\pi}{8}\right)$, $x\in\left[0,+\infty\right)$;
 
-(2) $y=\frac{1}{3}\sin\left(3x+\frac{\pi}{7}\right)$, $x\in[0,+\infty)$.
+(2) $y=\frac{1}{3}\sin\left(3x+\frac{\pi}{7}\right)$, $x\in\left[0,+\infty\right)$.
 
 ### Solution to Problem 3
 
@@ -188,7 +188,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 ### Problem 4
 
-(Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin(\omega x+\varphi)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
+(Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
 
 ![week23-3.svg](../../figures/week23-3.svg){width=50%}
 
@@ -196,21 +196,21 @@ By **Property 5.6.1** (Graph Transformations).
 
 By **Definition 5.6.1** through **Definition 5.6.4**.
 
-From the graph, the amplitude is $A=2$. From the relative positions of the highest and lowest points, the period is $T=\pi$, hence $\omega=2$. From the graph passing through the point $(0,1)$ on a rising part, we get $2\sin\varphi=1$, $\varphi=\frac{\pi}{6}$. Hence $y=2\sin\left(2x+\frac{\pi}{6}\right)$. $\blacksquare$
+From the graph, the amplitude is $A=2$. From the relative positions of the highest and lowest points, the period is $T=\pi$, hence $\omega=2$. From the graph passing through the point $\left(0,1\right)$ on a rising part, we get $2\sin\varphi=1$, $\varphi=\frac{\pi}{6}$. Hence $y=2\sin\left(2x+\frac{\pi}{6}\right)$. $\blacksquare$
 
 ### Problem 5
 
-(Exercise 5.6, Comprehensive Application, Problem 5) After shifting the graph of the function $y=3\sin\left(2x+\frac{\pi}{4}\right)$ to the left by $\frac{\pi}{3}$, the graph of the function $y=g(x)$ is obtained. Find the analytic expression of $y=g(x)$.
+(Exercise 5.6, Comprehensive Application, Problem 5) After shifting the graph of the function $y=3\sin\left(2x+\frac{\pi}{4}\right)$ to the left by $\frac{\pi}{3}$, the graph of the function $y=g\left(x\right)$ is obtained. Find the analytic expression of $y=g\left(x\right)$.
 
 ### Solution to Problem 5
 
 By **Property 5.6.1** (Graph Transformations).
 
-From the shift to the left by $\frac{\pi}{3}$, we get $g(x)=3\sin\left[2\left(x+\frac{\pi}{3}\right)+\frac{\pi}{4}\right]=3\sin\left(2x+\frac{2\pi}{3}+\frac{\pi}{4}\right)=3\sin\left(2x+\frac{11\pi}{12}\right)$. $\blacksquare$
+From the shift to the left by $\frac{\pi}{3}$, we get $g\left(x\right)=3\sin\left[2\left(x+\frac{\pi}{3}\right)+\frac{\pi}{4}\right]=3\sin\left(2x+\frac{2\pi}{3}+\frac{\pi}{4}\right)=3\sin\left(2x+\frac{11\pi}{12}\right)$. $\blacksquare$
 
 ### Problem 6
 
-(Exercise 5.6, Comprehensive Application, Problem 6) For the second hand of a certain clock, the distance from its endpoint $A$ to the center $O$ is $5\text{ cm}$, and the second hand rotates uniformly about point $O$. At time $t=0$, point $A$ coincides with the point $B$ marked $12$ on the clock face. Express the distance $d$ (unit: $\text{cm}$) between points $A$ and $B$ as a function of $t$ (unit: $\text{s}$). Then $d=$ $\;\_\_\;$ , $t\in[0,60]$.
+(Exercise 5.6, Comprehensive Application, Problem 6) For the second hand of a certain clock, the distance from its endpoint $A$ to the center $O$ is $5\text{ cm}$, and the second hand rotates uniformly about point $O$. At time $t=0$, point $A$ coincides with the point $B$ marked $12$ on the clock face. Express the distance $d$ (unit: $\text{cm}$) between points $A$ and $B$ as a function of $t$ (unit: $\text{s}$). Then $d=$ $\;\_\_\;$ , $t\in\left[0,60\right]$.
 
 ### Solution to Problem 6
 
@@ -220,7 +220,7 @@ Since the second hand makes one revolution in $60\text{ s}$, the angular velocit
 
 ### Problem 7
 
-(Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{ m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{ m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin(\omega t+\varphi)+K$ ($A>0$, $\omega>0$, $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$).
+(Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{ m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{ m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin\left(\omega t+\varphi\right)+K$ ($A>0$, $\omega>0$, $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$).
 
 (1) Find the values of $A$, $\omega$, $\varphi$, $K$ ($\varphi$ accurate to $0.0001$);
 
@@ -232,6 +232,6 @@ By **Definition 5.6.1** through **Definition 5.6.4**.
 
 (1) From the waterwheel radius $3\text{ m}$, we get $A=3$. From the axle center being $2.2\text{ m}$ above the water, we get $K=2.2$. From $1.5$ revolutions per minute, the period is $T=\frac{60}{1.5}=40\text{ s}$, hence $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
 
-Since at $t=0$ the bucket just emerges from the water, i.e. $d=0$, we get $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. Also $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$, hence $\varphi=\arcsin(-0.7333)\approx-0.8230$.
+Since at $t=0$ the bucket just emerges from the water, i.e. $d=0$, we get $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. Also $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$, hence $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
 
-(2) At the highest point, $\sin(\omega t+\varphi)=1$, i.e. $\omega t+\varphi=\frac{\pi}{2}$, so $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{ s}$. $\blacksquare$
+(2) At the highest point, $\sin\left(\omega t+\varphi\right)=1$, i.e. $\omega t+\varphi=\frac{\pi}{2}$, so $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{ s}$. $\blacksquare$

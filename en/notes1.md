@@ -32,20 +32,20 @@ The set of all non-negative integers is called the set of non-negative integers,
 
 **Definition 1.1.6** (Roster Method)
 
-The method of listing all elements of a set one by one and enclosing them in braces "$\{\ \}$" to denote the set is called the roster method.
+The method of listing all elements of a set one by one and enclosing them in braces "$\left\{\ \right\}$" to denote the set is called the roster method.
 
 **Definition 1.1.7** (Set-Builder Notation)
 
 Generally, let $A$ be a set. We denote the set consisting of all elements $x$ in $A$ that share the common property $P\left(x\right)$ as
 
 $$
-\{x\in A\mid P\left(x\right)\},
+\left\{x\in A\mid P\left(x\right)\right\},
 $$
 
 This method of representing a set is called set-builder notation. Sometimes a colon or semicolon is used instead of the vertical bar, written as
 
 $$
-\{x\in A:P\left(x\right)\}\ \ \text{或}\ \ \{x\in A;P\left(x\right)\}.
+\left\{x\in A:P\left(x\right)\right\}\ \ \text{或}\ \ \left\{x\in A;P\left(x\right)\right\}.
 $$
 
 #### 1.2 Basic Relations Between Sets
@@ -77,7 +77,7 @@ Generally, we call a set containing no elements the empty set, denoted $\varnoth
 Generally, the set consisting of all elements that belong to set $A$ or set $B$ is called the union of sets $A$ and $B$, denoted $A\cup B$, i.e.
 
 $$
-A\cup B=\{x\mid x\in A\ \text{或}\ x\in B\}.
+A\cup B=\left\{x\mid x\in A\ \text{或}\ x\in B\right\}.
 $$
 
 When taking the union of two sets, their common elements appear only once in the union.
@@ -87,7 +87,7 @@ When taking the union of two sets, their common elements appear only once in the
 Generally, the set consisting of all elements that belong to set $A$ and set $B$ is called the intersection of sets $A$ and $B$, denoted $A\cap B$, i.e.
 
 $$
-A\cap B=\{x\mid x\in A\ \text{且}\ x\in B\}.
+A\cap B=\left\{x\mid x\in A\ \text{且}\ x\in B\right\}.
 $$
 
 **Definition 1.3.3** (Universal Set)
@@ -99,7 +99,7 @@ Generally, if a set contains all elements involved in the problem under study, t
 For a set $A$, the set consisting of all elements in the universal set $U$ that do not belong to set $A$ is called the complement of set $A$ relative to the universal set $U$, or simply the complement of set $A$, denoted $U\setminus A$, i.e.
 
 $$
-U\setminus A=\{x\mid x\in U\ \text{且}\ x\notin A\}.
+U\setminus A=\left\{x\mid x\in U\ \text{且}\ x\notin A\right\}.
 $$
 
 **Common Conclusion** (Number of Elements in a Finite Set)
@@ -235,13 +235,13 @@ For the quadratic function $y=ax^2+bx+c$, we call the real number $x$ satisfying
 For $ax^2+bx+c> 0$ or $ax^2+bx+c< 0$ ($a> 0$), let $\Delta=b^2-4ac$, and let $x_1,x_2$ be the two real roots of the equation $ax^2+bx+c=0$ ($x_1< x_2$). When $\Delta> 0$, we have
 
 $$
-ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x< x_1\ \text{或}\ x> x_2\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \{x\mid x_1< x< x_2\};
+ax^2+bx+c> 0\ \text{的解集为}\ \left\{x\mid x< x_1\ \text{或}\ x> x_2\right\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \left\{x\mid x_1< x< x_2\right\};
 $$
 
 When $\Delta=0$, we have
 
 $$
-ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x\neq-\frac{b}{2a}\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing;
+ax^2+bx+c> 0\ \text{的解集为}\ \left\{x\mid x\neq-\frac{b}{2a}\right\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing;
 $$
 
 When $\Delta< 0$, we have
@@ -328,18 +328,18 @@ Generally, the function $y=x^\alpha$ is called a power function, where $x$ is th
 
 **Definition 4.1.1** (n-th Root)
 
-Generally, if $x^n=a$, then $x$ is called the $n$-th root of $a$, where $n> 1$ and $n\in\mathbb N^*$. When $n$ is odd, the $n$-th root of a positive number is a positive number, and the $n$-th root of a negative number is a negative number; in this case the $n$-th root of $a$ is denoted by the symbol $\sqrt[n]{a}$. When $n$ is even, a positive number has two $n$-th roots, which are opposites of each other; the positive $n$-th root is denoted by $\sqrt[n]{a}$, the negative $n$-th root by $-\sqrt[n]{a}$, combined as $\pm\sqrt[n]{a}$ ($a> 0$). A negative number has no even-order root; any root of $0$ is $0$, denoted $\sqrt[n]{0}=0$.
+Generally, if $x^n=a$, then $x$ is called the $n$-th root of $a$, where $n> 1$ and $n\in\mathbb N^*$. When $n$ is odd, the $n$-th root of a positive number is a positive number, and the $n$-th root of a negative number is a negative number; in this case the $n$-th root of $a$ is denoted by the symbol $\sqrt\left[n\right]{a}$. When $n$ is even, a positive number has two $n$-th roots, which are opposites of each other; the positive $n$-th root is denoted by $\sqrt\left[n\right]{a}$, the negative $n$-th root by $-\sqrt\left[n\right]{a}$, combined as $\pm\sqrt\left[n\right]{a}$ ($a> 0$). A negative number has no even-order root; any root of $0$ is $0$, denoted $\sqrt\left[n\right]{0}=0$.
 
 **Definition 4.1.2** (Radical Expression)
 
-The expression $\sqrt[n]{a}$ is called a radical, where $n$ is called the index of the radical and $a$ is called the radicand. From the meaning of the $n$-th root, we obtain $(\sqrt[n]{a})^n=a$.
+The expression $\sqrt\left[n\right]{a}$ is called a radical, where $n$ is called the index of the radical and $a$ is called the radicand. From the meaning of the $n$-th root, we obtain $\left(\sqrt\left[n\right]{a}\right)^n=a$.
 
 **Common Conclusion 4.1.3** (Properties of n-th Roots)
 
-When $n$ is odd, $\sqrt[n]{a^n}=a$; when $n$ is even,
+When $n$ is odd, $\sqrt\left[n\right]{a^n}=a$; when $n$ is even,
 
 $$
-\sqrt[n]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a< 0.\end{cases}
+\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a< 0.\end{cases}
 $$
 
 **Definition 4.1.4** (Positive Fractional Exponent)
@@ -347,7 +347,7 @@ $$
 The meaning of a positive fractional power of a positive number is
 
 $$
-a^{\frac{m}{n}}=\sqrt[n]{a^m}\quad(a> 0,\ m,n\in\mathbb N^*,\ n> 1).
+a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}\quad\left(a> 0,\ m,n\in\mathbb N^*,\ n> 1\right).
 $$
 
 **Definition 4.1.5** (Negative Fractional Exponent)
@@ -355,7 +355,7 @@ $$
 The meaning of a negative fractional power of a positive number is
 
 $$
-a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt[n]{a^m}}\quad(a> 0,\ m,n\in\mathbb N^*,\ n> 1).
+a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}\quad\left(a> 0,\ m,n\in\mathbb N^*,\ n> 1\right).
 $$
 
 The positive fractional power of $0$ equals $0$; the negative fractional power of $0$ is undefined.
@@ -365,7 +365,7 @@ The positive fractional power of $0$ equals $0$; the negative fractional power o
 For any rational numbers $r,s$, we have
 
 $$
-a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb Q),\quad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb Q),\quad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb Q).
+a^r a^s=a^{r+s}\quad\left(a> 0,\ r,s\in\mathbb Q\right),\quad \left(a^r\right)^s=a^{rs}\quad\left(a> 0,\ r,s\in\mathbb Q\right),\quad \left(ab\right)^r=a^r b^r\quad\left(a> 0,\ b> 0,\ r\in\mathbb Q\right).
 $$
 
 **Common Conclusion 4.1.7** (Irrational Exponents)
@@ -377,7 +377,7 @@ Generally, an irrational power $a^\alpha$ ($a> 0$, $\alpha$ irrational) is a def
 For any real numbers $r,s$, we have
 
 $$
-a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb R),\quad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb R),\quad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb R).
+a^r a^s=a^{r+s}\quad\left(a> 0,\ r,s\in\mathbb R\right),\quad \left(a^r\right)^s=a^{rs}\quad\left(a> 0,\ r,s\in\mathbb R\right),\quad \left(ab\right)^r=a^r b^r\quad\left(a> 0,\ b> 0,\ r\in\mathbb R\right).
 $$
 
 #### 4.2 Exponential Functions
@@ -388,11 +388,11 @@ Generally, the function $y=a^x$ ($a> 0$ and $a\neq 1$) is called an exponential 
 
 **Common Conclusion 4.2.2** (Graph and Properties of Exponential Functions)
 
-(1) Domain is $\mathbb R$; (2) range is $(0,+\infty)$; (3) the graph passes through the fixed point $(0,1)$, i.e. $y=1$ when $x=0$; (4) when $a> 1$, $y=a^x$ is an increasing function; when $0< a< 1$, $y=a^x$ is a decreasing function. The graphs of two exponential functions whose bases are reciprocals are symmetric about the $y$-axis.
+(1) Domain is $\mathbb R$; (2) range is $\left(0,+\infty\right)$; (3) the graph passes through the fixed point $\left(0,1\right)$, i.e. $y=1$ when $x=0$; (4) when $a> 1$, $y=a^x$ is an increasing function; when $0< a< 1$, $y=a^x$ is a decreasing function. The graphs of two exponential functions whose bases are reciprocals are symmetric about the $y$-axis.
 
 **Common Conclusion 4.2.3** (Exponential Growth and Decay Models)
 
-Let the initial quantity be $N$, the growth rate each time be $p$, and after $x$ growth periods the quantity grows to $y$, then $y=N(1+p)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$ and $k\neq 0$; $a> 0$ and $a\neq 1$) is a very useful function model for describing exponential growth or decay.
+Let the initial quantity be $N$, the growth rate each time be $p$, and after $x$ growth periods the quantity grows to $y$, then $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$ and $k\neq 0$; $a> 0$ and $a\neq 1$) is a very useful function model for describing exponential growth or decay.
 
 #### 4.3 Logarithms
 
@@ -425,20 +425,20 @@ Negative numbers and $0$ have no logarithm; $\log_a 1=0$, $\log_a a=1$.
 If $a> 0$ and $a\neq 1$, $M> 0$, $N> 0$, then
 
 $$
-\log_a(MN)=\log_a M+\log_a N,\quad \log_a\frac{M}{N}=\log_a M-\log_a N,\quad \log_a M^n=n\log_a M\quad(n\in\mathbb R).
+\log_a\left(MN\right)=\log_a M+\log_a N,\quad \log_a\frac{M}{N}=\log_a M-\log_a N,\quad \log_a M^n=n\log_a M\quad\left(n\in\mathbb R\right).
 $$
 
 **Common Conclusion 4.3.5** (Change-of-Base Formula)
 
 $$
-\log_a b=\frac{\log_c b}{\log_c a}\quad(a> 0,\ \text{且}\ a\neq 1;\ b> 0;\ c> 0,\ \text{且}\ c\neq 1).
+\log_a b=\frac{\log_c b}{\log_c a}\quad\left(a> 0,\ \text{且}\ a\neq 1;\ b> 0;\ c> 0,\ \text{且}\ c\neq 1\right).
 $$
 
 #### 4.4 Logarithmic Functions
 
 **Definition 4.4.1** (Logarithmic Function)
 
-Generally, the function $y=\log_a x$ ($a> 0$ and $a\neq 1$) is called a logarithmic function, where $x$ is the independent variable and the domain is $(0,+\infty)$.
+Generally, the function $y=\log_a x$ ($a> 0$ and $a\neq 1$) is called a logarithmic function, where $x$ is the independent variable and the domain is $\left(0,+\infty\right)$.
 
 **Definition 4.4.2** (Inverse Function)
 
@@ -446,7 +446,7 @@ The exponential function $y=a^x$ ($a> 0$ and $a\neq 1$) and the logarithmic func
 
 **Common Conclusion 4.4.3** (Graph and Properties of Logarithmic Functions)
 
-(1) Domain is $(0,+\infty)$; (2) range is $\mathbb R$; (3) the graph passes through the fixed point $(1,0)$, i.e. $y=0$ when $x=1$; (4) when $a> 1$, $y=\log_a x$ is an increasing function; when $0< a< 1$, $y=\log_a x$ is a decreasing function. The graphs of two logarithmic functions whose bases are reciprocals are symmetric about the $x$-axis.
+(1) Domain is $\left(0,+\infty\right)$; (2) range is $\mathbb R$; (3) the graph passes through the fixed point $\left(1,0\right)$, i.e. $y=0$ when $x=1$; (4) when $a> 1$, $y=\log_a x$ is an increasing function; when $0< a< 1$, $y=\log_a x$ is a decreasing function. The graphs of two logarithmic functions whose bases are reciprocals are symmetric about the $x$-axis.
 
 **Common Conclusion 4.4.4** (Differences in Growth Among Different Functions)
 
@@ -456,15 +456,15 @@ The growth rate of the exponential function $y=a^x$ ($a> 1$) will eventually gre
 
 **Definition 4.5.1** (Zeros of a Function)
 
-For a general function $y=f(x)$, we call the real number $x$ satisfying $f(x)=0$ a zero of the function $y=f(x)$.
+For a general function $y=f\left(x\right)$, we call the real number $x$ satisfying $f\left(x\right)=0$ a zero of the function $y=f\left(x\right)$.
 
 **Common Conclusion 4.5.2** (Existence Theorem for Function Zeros)
 
-If the graph of the function $y=f(x)$ on the interval $[a,b]$ is a continuous curve and $f(a)f(b)< 0$, then the function $y=f(x)$ has at least one zero in the interval $(a,b)$, i.e. there exists $c\in(a,b)$ such that $f(c)=0$, and this $c$ is precisely the solution of the equation $f(x)=0$.
+If the graph of the function $y=f\left(x\right)$ on the interval $\left[a,b\right]$ is a continuous curve and $f\left(a\right)f\left(b\right)< 0$, then the function $y=f\left(x\right)$ has at least one zero in the interval $\left(a,b\right)$, i.e. there exists $c\in\left(a,b\right)$ such that $f\left(c\right)=0$, and this $c$ is precisely the solution of the equation $f\left(x\right)=0$.
 
 **Definition 4.5.3** (Bisection Method)
 
-For a function $y=f(x)$ whose graph is continuous on the interval $[a,b]$ and satisfies $f(a)f(b)< 0$, the method of repeatedly bisecting the interval containing the zero, gradually narrowing the endpoints toward the zero, and thereby obtaining an approximate value of the zero is called the bisection method.
+For a function $y=f\left(x\right)$ whose graph is continuous on the interval $\left[a,b\right]$ and satisfies $f\left(a\right)f\left(b\right)< 0$, the method of repeatedly bisecting the interval containing the zero, gradually narrowing the endpoints toward the zero, and thereby obtaining an approximate value of the zero is called the bisection method.
 
 ### Chapter 5 Trigonometric Functions
 
@@ -483,7 +483,7 @@ Place the vertex of the angle at the origin, and align the initial side with the
 All angles whose terminal sides coincide with that of angle $\alpha$, together with $\alpha$ itself, form a set
 
 $$
-S=\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\},
+S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 That is, any angle whose terminal side coincides with that of $\alpha$ can be expressed as the sum of $\alpha$ and an integer number of full rotations.
@@ -497,7 +497,7 @@ The central angle subtended by an arc whose length equals the radius is called a
 In a circle of radius $r$, if an arc of length $l$ subtends a central angle of $\alpha\ \mathrm{rad}$, then
 
 $$
-|\alpha|=\frac{l}{r}.
+\left|\alpha\right|=\frac{l}{r}.
 $$
 
 Here, the sign of $\alpha$ is determined by the direction of rotation of the terminal side of angle $\alpha$: counterclockwise rotation is positive, clockwise rotation is negative. The radian measure of a positive angle is positive, that of a negative angle is negative, and that of a zero angle is $0$.
@@ -520,7 +520,7 @@ where $R$ is the radius of the circle, $\alpha$ ($0< \alpha< 2\pi$) is the centr
 
 **Definition 5.2.1** (Sine, Cosine, and Tangent Functions)
 
-Let $\alpha$ be an arbitrary angle, $\alpha\in\mathbb R$, and let its terminal side $OP$ intersect the unit circle at the point $P(x,y)$. (1) The ordinate $y$ of point $P$ is called the sine of $\alpha$, denoted $\sin\alpha$, i.e.
+Let $\alpha$ be an arbitrary angle, $\alpha\in\mathbb R$, and let its terminal side $OP$ intersect the unit circle at the point $P\left(x,y\right)$. (1) The ordinate $y$ of point $P$ is called the sine of $\alpha$, denoted $\sin\alpha$, i.e.
 
 $$
 y=\sin\alpha;
@@ -535,7 +535,7 @@ $$
 (3) the ratio $\frac{y}{x}$ of the ordinate to the abscissa of point $P$ is called the tangent of $\alpha$, denoted $\tan\alpha$, i.e.
 
 $$
-\frac{y}{x}=\tan\alpha\quad(x\neq0).
+\frac{y}{x}=\tan\alpha\quad\left(x\neq0\right).
 $$
 
 **Common Conclusion** (Domains of Trigonometric Functions)
@@ -548,7 +548,7 @@ $$
 
 **Definition 5.2.2** (Trigonometric Ratios at an Arbitrary Point on the Terminal Side)
 
-Let the coordinates of an arbitrary point $P$ (not coinciding with the origin $O$) on the terminal side of angle $\alpha$ be $(x,y)$, and let the distance from $P$ to the origin be $r=\sqrt{x^{2}+y^{2}}$, then
+Let the coordinates of an arbitrary point $P$ (not coinciding with the origin $O$) on the terminal side of angle $\alpha$ be $\left(x,y\right)$, and let the distance from $P$ to the origin be $r=\sqrt{x^{2}+y^{2}}$, then
 
 $$
 \sin\alpha=\frac{y}{r},\quad \cos\alpha=\frac{x}{r},\quad \tan\alpha=\frac{y}{x}.
@@ -557,7 +557,7 @@ $$
 **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side)
 
 $$
-\sin(\alpha+k\cdot2\pi)=\sin\alpha,\quad \cos(\alpha+k\cdot2\pi)=\cos\alpha,\quad \tan(\alpha+k\cdot2\pi)=\tan\alpha,
+\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha,\quad \cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha,\quad \tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha,
 $$
 
 where $k\in\mathbb Z$.
@@ -571,7 +571,7 @@ Sine values: positive in the first and second quadrants, negative in the third a
 The sum of the squares of the sine and cosine of the same angle $\alpha$ equals $1$, and their quotient equals the tangent of angle $\alpha$, i.e.
 
 $$
-\sin^{2}\alpha+\cos^{2}\alpha=1,\quad \frac{\sin\alpha}{\cos\alpha}=\tan\alpha\quad(\alpha\neq k\pi+\frac{\pi}{2},\ k\in\mathbb Z).
+\sin^{2}\alpha+\cos^{2}\alpha=1,\quad \frac{\sin\alpha}{\cos\alpha}=\tan\alpha\quad\left(\alpha\neq k\pi+\frac{\pi}{2},\ k\in\mathbb Z\right).
 $$
 
 #### 5.3 Reduction Formulas
@@ -579,19 +579,19 @@ $$
 **Formula 2**
 
 $$
-\sin(\pi+\alpha)=-\sin\alpha,\quad \cos(\pi+\alpha)=-\cos\alpha,\quad \tan(\pi+\alpha)=\tan\alpha.
+\sin\left(\pi+\alpha\right)=-\sin\alpha,\quad \cos\left(\pi+\alpha\right)=-\cos\alpha,\quad \tan\left(\pi+\alpha\right)=\tan\alpha.
 $$
 
 **Formula 3**
 
 $$
-\sin(-\alpha)=-\sin\alpha,\quad \cos(-\alpha)=\cos\alpha,\quad \tan(-\alpha)=-\tan\alpha.
+\sin\left(-\alpha\right)=-\sin\alpha,\quad \cos\left(-\alpha\right)=\cos\alpha,\quad \tan\left(-\alpha\right)=-\tan\alpha.
 $$
 
 **Formula 4**
 
 $$
-\sin(\pi-\alpha)=\sin\alpha,\quad \cos(\pi-\alpha)=-\cos\alpha,\quad \tan(\pi-\alpha)=-\tan\alpha.
+\sin\left(\pi-\alpha\right)=\sin\alpha,\quad \cos\left(\pi-\alpha\right)=-\cos\alpha,\quad \tan\left(\pi-\alpha\right)=-\tan\alpha.
 $$
 
 **Formula 5**
@@ -610,7 +610,7 @@ $$
 
 **Definition 5.4.1** (Periodic Function)
 
-Generally, let the domain of the function $f(x)$ be $D$. If there exists a nonzero constant $T$ such that for every $x\in D$, we have $x+T\in D$ and $f(x+T)=f(x)$, then the function $f(x)$ is called a periodic function. The nonzero constant $T$ is called the period of this function. If among all periods of a periodic function $f(x)$ there exists a smallest positive number, then this smallest positive number is called the minimal positive period of $f(x)$.
+Generally, let the domain of the function $f\left(x\right)$ be $D$. If there exists a nonzero constant $T$ such that for every $x\in D$, we have $x+T\in D$ and $f\left(x+T\right)=f\left(x\right)$, then the function $f\left(x\right)$ is called a periodic function. The nonzero constant $T$ is called the period of this function. If among all periods of a periodic function $f\left(x\right)$ there exists a smallest positive number, then this smallest positive number is called the minimal positive period of $f\left(x\right)$.
 
 **Common Conclusion** (Graph and Properties of the Sine Function)
 
@@ -618,15 +618,15 @@ The graph of the sine function $y=\sin x$, $x\in\mathbb R$ is called the sine cu
 
 **Common Conclusion** (Graph and Properties of the Cosine Function)
 
-The graph of the cosine function $y=\cos x$, $x\in\mathbb R$ is called the cosine curve. The cosine function is periodic with minimal positive period $2\pi$. The cosine function is an even function, and its graph is symmetric about the $y$-axis. The cosine function is monotonically increasing on every closed interval $\left[-\pi+2k\pi,\ 2k\pi\right]$ ($k\in\mathbb Z$), with its value increasing from $-1$ to $1$; it is monotonically decreasing on every closed interval $\left[2k\pi,\ \pi+2k\pi\right]$, with its value decreasing from $1$ to $-1$. The cosine function attains its maximum value $1$ if and only if $x=2k\pi$, and its minimum value $-1$ if and only if $x=(2k+1)\pi$.
+The graph of the cosine function $y=\cos x$, $x\in\mathbb R$ is called the cosine curve. The cosine function is periodic with minimal positive period $2\pi$. The cosine function is an even function, and its graph is symmetric about the $y$-axis. The cosine function is monotonically increasing on every closed interval $\left[-\pi+2k\pi,\ 2k\pi\right]$ ($k\in\mathbb Z$), with its value increasing from $-1$ to $1$; it is monotonically decreasing on every closed interval $\left[2k\pi,\ \pi+2k\pi\right]$, with its value decreasing from $1$ to $-1$. The cosine function attains its maximum value $1$ if and only if $x=2k\pi$, and its minimum value $-1$ if and only if $x=\left(2k+1\right)\pi$.
 
 **Common Conclusion** (Graph and Properties of the Tangent Function)
 
 The graph of the tangent function $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$ is called the tangent curve. The tangent function is periodic with minimal positive period $\pi$. The tangent function is an odd function. The tangent function is monotonically increasing on every interval $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ ($k\in\mathbb Z$). The range of the tangent function is the set of real numbers $\mathbb R$.
 
-**Common Conclusion** (Period of $y=A\sin(\omega x+\varphi)$)
+**Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$)
 
-The period of the function $y=A\sin(\omega x+\varphi)$, $x\in\mathbb R$ and the function $y=A\cos(\omega x+\varphi)$, $x\in\mathbb R$ (where $A$, $\omega$, $\varphi$ are constants, with $A\neq0$, $\omega> 0$) is
+The period of the function $y=A\sin\left(\omega x+\varphi\right)$, $x\in\mathbb R$ and the function $y=A\cos\left(\omega x+\varphi\right)$, $x\in\mathbb R$ (where $A$, $\omega$, $\varphi$ are constants, with $A\neq0$, $\omega> 0$) is
 
 $$
 T=\frac{2\pi}{\omega}.
@@ -637,37 +637,37 @@ $$
 **Formula 5.5.1** (Cosine of a Difference)
 
 $$
-\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta.
+\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta.
 $$
 
 **Formula 5.5.2** (Cosine of a Sum)
 
 $$
-\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta.
+\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta.
 $$
 
 **Formula 5.5.3** (Sine of a Sum)
 
 $$
-\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta.
+\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta.
 $$
 
 **Formula 5.5.4** (Sine of a Difference)
 
 $$
-\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta.
+\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta.
 $$
 
 **Formula 5.5.5** (Tangent of a Sum)
 
 $$
-\tan(\alpha+\beta)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}.
+\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}.
 $$
 
 **Formula 5.5.6** (Tangent of a Difference)
 
 $$
-\tan(\alpha-\beta)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}.
+\tan\left(\alpha-\beta\right)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}.
 $$
 
 **Formula 5.5.7** (Double-Angle Formula for Sine)
@@ -697,7 +697,7 @@ $$
 **Formula 5.5.11** (Auxiliary Angle Formula)
 
 $$
-a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin(x+\varphi),
+a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin\left(x+\varphi\right),
 $$
 
 where
@@ -706,15 +706,15 @@ $$
 \cos\varphi=\frac{a}{\sqrt{a^{2}+b^{2}}},\quad \sin\varphi=\frac{b}{\sqrt{a^{2}+b^{2}}}.
 $$
 
-#### 5.6 The Function $y=A\sin(\omega x+\varphi)$
+#### 5.6 The Function $y=A\sin\left(\omega x+\varphi\right)$
 
 **Definition 5.6.1** (Amplitude)
 
-In the function $y=A\sin(\omega x+\varphi)$ ($A> 0$, $\omega> 0$), $A$ is called the amplitude, i.e. the maximum distance of the object from its equilibrium position.
+In the function $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$), $A$ is called the amplitude, i.e. the maximum distance of the object from its equilibrium position.
 
 **Definition 5.6.2** (Period)
 
-The period of the function $y=A\sin(\omega x+\varphi)$ is
+The period of the function $y=A\sin\left(\omega x+\varphi\right)$ is
 
 $$
 T=\frac{2\pi}{\omega},
@@ -724,7 +724,7 @@ i.e. the time required for one complete oscillation.
 
 **Definition 5.6.3** (Frequency)
 
-The frequency of the function $y=A\sin(\omega x+\varphi)$ is
+The frequency of the function $y=A\sin\left(\omega x+\varphi\right)$ is
 
 $$
 f=\frac{1}{T}=\frac{\omega}{2\pi},
@@ -738,13 +738,13 @@ $\omega x+\varphi$ is called the phase; the phase $\varphi$ when $x=0$ is called
 
 **Property 5.6.1** (Graph Transformations)
 
-Obtaining the graph of $y=A\sin(\omega x+\varphi)$ from the graph of $y=\sin x$: (1) shift left (right) by $|\varphi|$ units to get $y=\sin(x+\varphi)$; (2) shrink (stretch) the abscissa to $\frac{1}{\omega}$ times the original to get $y=\sin(\omega x+\varphi)$; (3) stretch (shrink) the ordinate to $A$ times the original to get $y=A\sin(\omega x+\varphi)$.
+Obtaining the graph of $y=A\sin\left(\omega x+\varphi\right)$ from the graph of $y=\sin x$: (1) shift left (right) by $\left|\varphi\right|$ units to get $y=\sin\left(x+\varphi\right)$; (2) shrink (stretch) the abscissa to $\frac{1}{\omega}$ times the original to get $y=\sin\left(\omega x+\varphi\right)$; (3) stretch (shrink) the ordinate to $A$ times the original to get $y=A\sin\left(\omega x+\varphi\right)$.
 
 #### 5.7 Applications of Trigonometric Functions
 
 **Definition 5.7.1** (Simple Harmonic Motion)
 
-Motion in which the force on an object (always directed toward the equilibrium position) is proportional to its distance from the equilibrium position is called simple harmonic motion. Under an appropriate rectangular coordinate system, simple harmonic motion can be represented by $y=A\sin(\omega x+\varphi)$, $x\in[0,+\infty)$, where $A> 0$, $\omega> 0$.
+Motion in which the force on an object (always directed toward the equilibrium position) is proportional to its distance from the equilibrium position is called simple harmonic motion. Under an appropriate rectangular coordinate system, simple harmonic motion can be represented by $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$, where $A> 0$, $\omega> 0$.
 
 **Definition 5.7.2** (Amplitude, Period, Frequency, Phase)
 
@@ -814,18 +814,18 @@ Given two known vectors $\boldsymbol{a}$, $\boldsymbol{b}$ with the same startin
 **Common Conclusion 6.2.3** (Laws of Vector Addition and Triangle Inequality)
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a};\quad (\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c});\quad \lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert,
+\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a};\quad \left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right);\quad \lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert,
 $$
 
 with equality holding if and only if one of $\boldsymbol{a}$, $\boldsymbol{b}$ is the zero vector or they have the same direction.
 
 **Definition 6.2.4** (Opposite Vector)
 
-A vector with the same length as $\boldsymbol{a}$ but opposite direction is called the opposite vector of $\boldsymbol{a}$, denoted $-\boldsymbol{a}$. The opposite vector of the zero vector is still the zero vector. $\boldsymbol{a}+(-\boldsymbol{a})=\boldsymbol{0}$.
+A vector with the same length as $\boldsymbol{a}$ but opposite direction is called the opposite vector of $\boldsymbol{a}$, denoted $-\boldsymbol{a}$. The opposite vector of the zero vector is still the zero vector. $\boldsymbol{a}+\left(-\boldsymbol{a}\right)=\boldsymbol{0}$.
 
 **Definition 6.2.5** (Vector Subtraction)
 
-The sum of the vector $\boldsymbol{a}$ and the opposite vector of $\boldsymbol{b}$ is called the difference of $\boldsymbol{a}$ and $\boldsymbol{b}$, i.e. $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
+The sum of the vector $\boldsymbol{a}$ and the opposite vector of $\boldsymbol{b}$ is called the difference of $\boldsymbol{a}$ and $\boldsymbol{b}$, i.e. $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
 **Definition 6.2.6** (Scalar Multiplication of a Vector)
 
@@ -834,7 +834,7 @@ The product of a real number $\lambda$ and a vector $\boldsymbol{a}$ is a vector
 **Common Conclusion 6.2.7** (Laws of Scalar Multiplication)
 
 $$
-\lambda(\mu\boldsymbol{a})=(\lambda\mu)\boldsymbol{a};\quad (\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a};\quad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
+\lambda\left(\mu\boldsymbol{a}\right)=\left(\lambda\mu\right)\boldsymbol{a};\quad \left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a};\quad \lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
 $$
 
 **Theorem 6.2.8** (Collinear Vector Theorem)
@@ -882,7 +882,7 @@ $$
 **Common Conclusion 6.2.14** (Laws of the Dot Product)
 
 $$
-\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a};\quad (\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b});\quad (\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}.
+\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a};\quad \left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right);\quad \left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}.
 $$
 
 #### 6.3 Fundamental Theorem of Plane Vectors and Coordinate Representation
@@ -909,25 +909,25 @@ $$
 \boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}.
 $$
 
-We call $(x,y)$ the coordinates of the vector $\boldsymbol{a}$, denoted
+We call $\left(x,y\right)$ the coordinates of the vector $\boldsymbol{a}$, denoted
 
 $$
-\boldsymbol{a}=(x,y).
+\boldsymbol{a}=\left(x,y\right).
 $$
 
 **Common Conclusion 6.3.4** (Coordinate Addition, Subtraction, and Scalar Multiplication)
 
-If $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, then
+If $\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, then
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=(x_1+x_2,y_1+y_2),\quad \boldsymbol{a}-\boldsymbol{b}=(x_1-x_2,y_1-y_2),\quad \lambda\boldsymbol{a}=(\lambda x_1,\lambda y_1).
+\boldsymbol{a}+\boldsymbol{b}=\left(x_1+x_2,y_1+y_2\right),\quad \boldsymbol{a}-\boldsymbol{b}=\left(x_1-x_2,y_1-y_2\right),\quad \lambda\boldsymbol{a}=\left(\lambda x_1,\lambda y_1\right).
 $$
 
 The coordinates of a vector equal the coordinates of the endpoint of the directed line segment representing the vector minus the coordinates of its starting point.
 
 **Common Conclusion 6.3.5** (Coordinate Representation of Collinearity)
 
-If $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, where $\boldsymbol{b}\neq\boldsymbol{0}$, then
+If $\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, where $\boldsymbol{b}\neq\boldsymbol{0}$, then
 
 $$
 \boldsymbol{a}\parallel\boldsymbol{b}\Longleftrightarrow x_1y_2-x_2y_1=0.
@@ -935,7 +935,7 @@ $$
 
 **Common Conclusion 6.3.6** (Midpoint Coordinate Formula)
 
-Given $P_1(x_1,y_1)$, $P_2(x_2,y_2)$, the coordinates of the midpoint $P$ of the segment $P_1P_2$ are
+Given $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$, the coordinates of the midpoint $P$ of the segment $P_1P_2$ are
 
 $$
 \left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right).
@@ -943,7 +943,7 @@ $$
 
 **Common Conclusion 6.3.7** (Coordinate Representation of the Dot Product)
 
-If $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, then
+If $\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, then
 
 $$
 \boldsymbol{a}\cdot\boldsymbol{b}=x_1x_2+y_1y_2.
@@ -993,21 +993,21 @@ We introduce a new number $\mathrm{i}$ such that $\mathrm{i}^2=-1$; $\mathrm{i}$
 
 **Definition 7.1.2** (Complex Number)
 
-A number of the form $a+b\mathrm{i}\ (a,b\in\mathbb R)$ is called a complex number.
+A number of the form $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ is called a complex number.
 
 **Definition 7.1.3** (Set of Complex Numbers)
 
 The set of all complex numbers
 
 $$
-\mathbb C=\{a+b\mathrm{i}\mid a,b\in\mathbb R\}
+\mathbb C=\left\{a+b\mathrm{i}\mid a,b\in\mathbb R\right\}
 $$
 
 is called the set of complex numbers.
 
 **Definition 7.1.4** (Real Part and Imaginary Part)
 
-In the complex number $z=a+b\mathrm{i}\ (a,b\in\mathbb R)$, $a$ is called the real part of $z$, and $b$ is called the imaginary part of $z$.
+In the complex number $z=a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, $a$ is called the real part of $z$, and $b$ is called the imaginary part of $z$.
 
 **Definition 7.1.5** (Equality of Complex Numbers)
 
@@ -1019,7 +1019,7 @@ $$
 
 **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers)
 
-For the complex number $a+b\mathrm{i}\ (a,b\in\mathbb R)$: it is a real number if and only if $b=0$; it is called an imaginary number when $b\neq 0$; it is called a pure imaginary number when $a=0$ and $b\neq 0$.
+For the complex number $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$: it is a real number if and only if $b=0$; it is called an imaginary number when $b\neq 0$; it is called a pure imaginary number when $a=0$ and $b\neq 0$.
 
 **Definition 7.1.7** (Complex Plane)
 
@@ -1027,14 +1027,14 @@ The plane in which a rectangular coordinate system is established to represent c
 
 **Definition 7.1.8** (Geometric Meaning of Complex Numbers)
 
-The complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the point $Z(a,b)$ in the complex plane; the complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the plane vector $\boldsymbol{OZ}$.
+The complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the point $Z\left(a,b\right)$ in the complex plane; the complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the plane vector $\boldsymbol{OZ}$.
 
 **Definition 7.1.9** (Modulus of a Complex Number)
 
-The modulus of the vector $\boldsymbol{OZ}$ is called the modulus of the complex number $z=a+b\mathrm{i}$, denoted $|z|$ or $|a+b\mathrm{i}|$, i.e.
+The modulus of the vector $\boldsymbol{OZ}$ is called the modulus of the complex number $z=a+b\mathrm{i}$, denoted $\left|z\right|$ or $\left|a+b\mathrm{i}\right|$, i.e.
 
 $$
-|z|=|a+b\mathrm{i}|=\sqrt{a^2+b^2}.
+\left|z\right|=\left|a+b\mathrm{i}\right|=\sqrt{a^2+b^2}.
 $$
 
 **Definition 7.1.10** (Conjugate Complex Numbers)
@@ -1045,10 +1045,10 @@ When two complex numbers have equal real parts and imaginary parts that are oppo
 
 **Definition 7.2.1** (Rule for Complex Addition)
 
-Let $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ (a,b,c,d\in\mathbb R)$, then
+Let $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ \left(a,b,c,d\in\mathbb R\right)$, then
 
 $$
-(a+b\mathrm{i})+(c+d\mathrm{i})=(a+c)+(b+d)\mathrm{i}.
+\left(a+b\mathrm{i}\right)+\left(c+d\mathrm{i}\right)=\left(a+c\right)+\left(b+d\right)\mathrm{i}.
 $$
 
 **Definition 7.2.2** (Rule for Complex Subtraction)
@@ -1056,38 +1056,38 @@ $$
 Complex subtraction is the inverse operation of addition, i.e.
 
 $$
-(a+b\mathrm{i})-(c+d\mathrm{i})=(a-c)+(b-d)\mathrm{i}.
+\left(a+b\mathrm{i}\right)-\left(c+d\mathrm{i}\right)=\left(a-c\right)+\left(b-d\right)\mathrm{i}.
 $$
 
 **Common Conclusion 7.2.3** (Laws of Addition)
 
-For any $z_1,z_2,z_3\in\mathbb C$, we have $z_1+z_2=z_2+z_1$, $(z_1+z_2)+z_3=z_1+(z_2+z_3)$.
+For any $z_1,z_2,z_3\in\mathbb C$, we have $z_1+z_2=z_2+z_1$, $\left(z_1+z_2\right)+z_3=z_1+\left(z_2+z_3\right)$.
 
 **Common Conclusion 7.2.4** (Geometric Meaning of Complex Addition and Subtraction)
 
-Complex addition can be carried out as vector addition; complex subtraction can be carried out as vector subtraction. The distance between two points $Z_1(x_1,y_1)$, $Z_2(x_2,y_2)$ in the complex plane is
+Complex addition can be carried out as vector addition; complex subtraction can be carried out as vector subtraction. The distance between two points $Z_1\left(x_1,y_1\right)$, $Z_2\left(x_2,y_2\right)$ in the complex plane is
 
 $$
-\lvert Z_1Z_2\rvert=\lvert z_2-z_1\rvert=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}.
+\lvert Z_1Z_2\rvert=\lvert z_2-z_1\rvert=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}.
 $$
 
 **Definition 7.2.5** (Rule for Complex Multiplication)
 
-Let $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ (a,b,c,d\in\mathbb R)$, then
+Let $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ \left(a,b,c,d\in\mathbb R\right)$, then
 
 $$
-(a+b\mathrm{i})(c+d\mathrm{i})=(ac-bd)+(ad+bc)\mathrm{i}.
+\left(a+b\mathrm{i}\right)\left(c+d\mathrm{i}\right)=\left(ac-bd\right)+\left(ad+bc\right)\mathrm{i}.
 $$
 
 **Common Conclusion 7.2.6** (Laws of Multiplication)
 
-For any $z_1,z_2,z_3\in\mathbb C$, we have $z_1z_2=z_2z_1$, $(z_1z_2)z_3=z_1(z_2z_3)$, $z_1(z_2+z_3)=z_1z_2+z_1z_3$.
+For any $z_1,z_2,z_3\in\mathbb C$, we have $z_1z_2=z_2z_1$, $\left(z_1z_2\right)z_3=z_1\left(z_2z_3\right)$, $z_1\left(z_2+z_3\right)=z_1z_2+z_1z_3$.
 
 #### 7.3 Trigonometric Representation of Complex Numbers
 
 **Definition 7.3.1** (Trigonometric Form of a Complex Number)
 
-Any complex number $z=a+b\mathrm{i}$ can be expressed in the form $r(\cos\theta+\mathrm{i}\sin\theta)$, where $r$ is the modulus of $z$, and $\theta$ is the angle with the non-negative half of the $x$-axis as the initial side and the ray containing the vector $\boldsymbol{OZ}$ as the terminal side. $r(\cos\theta+\mathrm{i}\sin\theta)$ is called the trigonometric form of the complex number $z=a+b\mathrm{i}$, or trigonometric form for short; $a+b\mathrm{i}$ is called the algebraic form.
+Any complex number $z=a+b\mathrm{i}$ can be expressed in the form $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$, where $r$ is the modulus of $z$, and $\theta$ is the angle with the non-negative half of the $x$-axis as the initial side and the ray containing the vector $\boldsymbol{OZ}$ as the terminal side. $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$ is called the trigonometric form of the complex number $z=a+b\mathrm{i}$, or trigonometric form for short; $a+b\mathrm{i}$ is called the algebraic form.
 
 **Definition 7.3.2** (Argument)
 
@@ -1104,7 +1104,7 @@ Two nonzero complex numbers are equal if and only if their moduli and the princi
 **Definition 7.3.5** (Trigonometric Form of Complex Multiplication)
 
 $$
-r_1(\cos\theta_1+\mathrm{i}\sin\theta_1)\cdot r_2(\cos\theta_2+\mathrm{i}\sin\theta_2)=r_1r_2[\cos(\theta_1+\theta_2)+\mathrm{i}\sin(\theta_1+\theta_2)].
+r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)\cdot r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)=r_1r_2\left[\cos\left(\theta_1+\theta_2\right)+\mathrm{i}\sin\left(\theta_1+\theta_2\right)\right].
 $$
 
 That is, the modulus of the product equals the product of the moduli, and the argument of the product equals the sum of the arguments.
@@ -1112,7 +1112,7 @@ That is, the modulus of the product equals the product of the moduli, and the ar
 **Definition 7.3.6** (Trigonometric Form of Complex Division)
 
 $$
-\frac{r_1(\cos\theta_1+\mathrm{i}\sin\theta_1)}{r_2(\cos\theta_2+\mathrm{i}\sin\theta_2)}=\frac{r_1}{r_2}[\cos(\theta_1-\theta_2)+\mathrm{i}\sin(\theta_1-\theta_2)]\quad (r_2\neq 0).
+\frac{r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)}{r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)}=\frac{r_1}{r_2}\left[\cos\left(\theta_1-\theta_2\right)+\mathrm{i}\sin\left(\theta_1-\theta_2\right)\right]\quad \left(r_2\neq 0\right).
 $$
 
 That is, the modulus of the quotient equals the modulus of the dividend divided by the modulus of the divisor, and the argument of the quotient equals the argument of the dividend minus the argument of the divisor.
@@ -1238,7 +1238,7 @@ $$
 If the base radius of a cylinder is $r$ and its generatrix length is $l$, then
 
 $$
-S_{\text{圆柱}}=2\pi r(r+l).
+S_{\text{圆柱}}=2\pi r\left(r+l\right).
 $$
 
 **Definition 8.3.6** (Surface Area of a Cone)
@@ -1246,7 +1246,7 @@ $$
 If the base radius of a cone is $r$ and its generatrix length is $l$, then
 
 $$
-S_{\text{圆锥}}=\pi r(r+l).
+S_{\text{圆锥}}=\pi r\left(r+l\right).
 $$
 
 **Definition 8.3.7** (Surface Area of a Frustum of a Cone)
@@ -1465,7 +1465,7 @@ When organizing data, first find the range, then determine the class width and n
 
 **Definition 9.2.2** (The $p$-th Percentile)
 
-The $p$-th percentile of a set of data is a value such that at least $p\%$ of the data are less than or equal to this value, and at least $(100-p)\%$ of the data are greater than or equal to this value. The calculation steps are: arrange the raw data in ascending order, compute $i=n\times p\%$; if $i$ is not an integer and $j$ is the nearest integer greater than $i$, then the $p$-th percentile is the $j$-th data item; if $i$ is an integer, then the $p$-th percentile is the average of the $i$-th and $(i+1)$-th data items. The median is the 50th percentile.
+The $p$-th percentile of a set of data is a value such that at least $p\%$ of the data are less than or equal to this value, and at least $\left(100-p\right)\%$ of the data are greater than or equal to this value. The calculation steps are: arrange the raw data in ascending order, compute $i=n\times p\%$; if $i$ is not an integer and $j$ is the nearest integer greater than $i$, then the $p$-th percentile is the $j$-th data item; if $i$ is an integer, then the $p$-th percentile is the average of the $i$-th and $\left(i+1\right)$-th data items. The median is the 50th percentile.
 
 **Definition 9.2.3** (Mode, Median, and Mean)
 
@@ -1476,25 +1476,25 @@ The mode is the data value that appears most frequently in a set; the median is 
 The mean of the squared deviations of all data $Y_1,\cdots,Y_N$ in the population from the population mean $\bar Y$
 
 $$
-s^2=\frac{1}{N}\sum_{i=1}^{N}(Y_i-\bar Y)^2
+s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2
 $$
 
 is called the population variance, and its arithmetic square root
 
 $$
-s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}(Y_i-\bar Y)^2}
+s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2}
 $$
 
 is called the population standard deviation; correspondingly, the sample variance is
 
 $$
-s^2=\frac{1}{n}\sum_{i=1}^{n}(y_i-\bar y)^2,
+s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2,
 $$
 
 and the sample standard deviation is
 
 $$
-s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\bar y)^2}.
+s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}.
 $$
 
 The larger the variance (standard deviation), the greater the dispersion of the data.
@@ -1510,7 +1510,7 @@ $$
 then the variance of the combined data is
 
 $$
-s^2=\frac{n_1(s_1^2+(\bar x_1-\bar w)^2)+n_2(s_2^2+(\bar x_2-\bar w)^2)}{n_1+n_2}.
+s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}.
 $$
 
 **Common Conclusion 9.2.6** (Effect of Data Transformation on the Mean and Variance)
@@ -1535,7 +1535,7 @@ We call each possible basic outcome of the random experiment $E$ a sample point,
 
 **Definition 10.1.3** (Finite Sample Space)
 
-If a random experiment has $n$ possible outcomes $\omega_1, \omega_2, \cdots, \omega_n$, then the sample space $\Omega=\{\omega_1, \omega_2, \cdots, \omega_n\}$ is called a finite sample space.
+If a random experiment has $n$ possible outcomes $\omega_1, \omega_2, \cdots, \omega_n$, then the sample space $\Omega=\left\{\omega_1, \omega_2, \cdots, \omega_n\right\}$ is called a finite sample space.
 
 **Definition 10.1.4** (Random Event)
 
@@ -1586,47 +1586,47 @@ We call an experiment with the following two characteristics a classical probabi
 Generally, let the experiment $E$ be a classical probability model, the sample space $\Omega$ contain $n$ sample points, and event $A$ contain $k$ of them. Then the probability of event $A$ is defined as
 
 $$
-\mathbb P(A)=\frac{k}{n}=\frac{n(A)}{n(\Omega)},
+\mathbb P\left(A\right)=\frac{k}{n}=\frac{n\left(A\right)}{n\left(\Omega\right)},
 $$
 
-where $n(A)$ and $n(\Omega)$ denote the numbers of sample points contained in event $A$ and sample space $\Omega$ respectively.
+where $n\left(A\right)$ and $n\left(\Omega\right)$ denote the numbers of sample points contained in event $A$ and sample space $\Omega$ respectively.
 
 **Property 10.1.16** (Non-negativity of Probability)
 
-For any event $A$, we have $\mathbb P(A)\ge 0$.
+For any event $A$, we have $\mathbb P\left(A\right)\ge 0$.
 
 **Property 10.1.17** (Probability of Certain and Impossible Events)
 
-The probability of a certain event is $1$, and the probability of an impossible event is $0$, i.e. $\mathbb P(\Omega)=1$, $\mathbb P(\varnothing)=0$.
+The probability of a certain event is $1$, and the probability of an impossible event is $0$, i.e. $\mathbb P\left(\Omega\right)=1$, $\mathbb P\left(\varnothing\right)=0$.
 
 **Property 10.1.18** (Addition Formula for Mutually Exclusive Events)
 
 If events $A$ and $B$ are mutually exclusive, then
 
 $$
-\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B).
+\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right).
 $$
 
 The addition formula for mutually exclusive events extends to multiple events: if events $A_1, A_2, \cdots, A_m$ are pairwise mutually exclusive, then
 
 $$
-\mathbb P(A_1\cup A_2\cup\cdots\cup A_m)=\mathbb P(A_1)+\mathbb P(A_2)+\cdots+\mathbb P(A_m).
+\mathbb P\left(A_1\cup A_2\cup\cdots\cup A_m\right)=\mathbb P\left(A_1\right)+\mathbb P\left(A_2\right)+\cdots+\mathbb P\left(A_m\right).
 $$
 
 **Property 10.1.19** (Probability of Complementary Events)
 
-If events $A$ and $B$ are complementary, then $\mathbb P(B)=1-\mathbb P(A)$, $\mathbb P(A)=1-\mathbb P(B)$.
+If events $A$ and $B$ are complementary, then $\mathbb P\left(B\right)=1-\mathbb P\left(A\right)$, $\mathbb P\left(A\right)=1-\mathbb P\left(B\right)$.
 
 **Property 10.1.20** (Monotonicity of Probability)
 
-If $A\subseteq B$, then $\mathbb P(A)\le \mathbb P(B)$. From Property 10.1.20, for any event $A$, since $\varnothing\subseteq A\subseteq\Omega$, we have $0\le \mathbb P(A)\le 1$.
+If $A\subseteq B$, then $\mathbb P\left(A\right)\le \mathbb P\left(B\right)$. From Property 10.1.20, for any event $A$, since $\varnothing\subseteq A\subseteq\Omega$, we have $0\le \mathbb P\left(A\right)\le 1$.
 
 **Property 10.1.21** (General Addition Formula)
 
 Let $A, B$ be two events in a random experiment; we have
 
 $$
-\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B)-\mathbb P(A\cap B).
+\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(A\cap B\right).
 $$
 
 #### 10.2 Mutual Independence of Events
@@ -1636,7 +1636,7 @@ $$
 For any two events $A$ and $B$, if
 
 $$
-\mathbb P(A\cap B)=\mathbb P(A)\mathbb P(B)
+\mathbb P\left(A\cap B\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)
 $$
 
 holds, then events $A$ and $B$ are called mutually independent, or independent for short.
@@ -1649,7 +1649,7 @@ From the definition of mutual independence, it is easy to verify that the certai
 
 **Definition 10.3.1** (Stability of Frequency)
 
-Generally, as the number of trials $n$ increases, the amount by which the frequency deviates from the probability decreases; that is, the frequency $f_n(A)$ of event $A$ occurring gradually stabilizes at the probability $\mathbb P(A)$ of event $A$ occurring. We call this property of frequency the stability of frequency. Therefore, we can use the frequency $f_n(A)$ to estimate the probability $\mathbb P(A)$.
+Generally, as the number of trials $n$ increases, the amount by which the frequency deviates from the probability decreases; that is, the frequency $f_n\left(A\right)$ of event $A$ occurring gradually stabilizes at the probability $\mathbb P\left(A\right)$ of event $A$ occurring. We call this property of frequency the stability of frequency. Therefore, we can use the frequency $f_n\left(A\right)$ to estimate the probability $\mathbb P\left(A\right)$.
 
 **Definition 10.3.2** (Random Simulation)
 

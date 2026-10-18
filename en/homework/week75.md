@@ -278,7 +278,7 @@ Hence the tangent line passes through the point $\left(1,-1\right)$ with slope $
 
 ### Exercise 13
 
-(Exercise 5.1, Problem 13) When blowing up a balloon, the functional relation between the radius $r$ (in $\mathrm{dm}$) and the volume $V$ (in $\mathrm{L}$) is $r\left(V\right)=\sqrt[3]{\frac{3V}{4\pi}}$. Using an information technology tool, draw the graph of the function for $0\le V\le5$, and from the graph estimate the instantaneous inflation rate of the balloon at $V=0.6,1.2\ \mathrm{L}$.
+(Exercise 5.1, Problem 13) When blowing up a balloon, the functional relation between the radius $r$ (in $\mathrm{dm}$) and the volume $V$ (in $\mathrm{L}$) is $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. Using an information technology tool, draw the graph of the function for $0\le V\le5$, and from the graph estimate the instantaneous inflation rate of the balloon at $V=0.6,1.2\ \mathrm{L}$.
 
 ![week75-2.svg](../../figures/week75-2.svg){width=50%}
 
@@ -290,7 +290,7 @@ $$
 \frac{\Delta r}{\Delta V}=\frac{r\left(V+\Delta V\right)-r\left(V\right)}{\Delta V}.
 $$
 
-From the graph of $r\left(V\right)=\sqrt[3]{\frac{3V}{4\pi}}$, $r\left(V\right)$ increases as $V$ increases, but the growth becomes more and more gentle, so $r'\left(V\right)>0$ and decreases as $V$ increases.
+From the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$, $r\left(V\right)$ increases as $V$ increases, but the growth becomes more and more gentle, so $r'\left(V\right)>0$ and decreases as $V$ increases.
 
 Estimating from the graph, when $V=0.6$, the tangent slope is approximately $r'\left(0.6\right)\approx0.3$; when $V=1.2$, the tangent slope is approximately $r'\left(1.2\right)\approx0.2$.
 

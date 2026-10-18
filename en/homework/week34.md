@@ -16,11 +16,11 @@ By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method).
 
 Let $AB=AC$ in $\triangle ABC$. Take $\boldsymbol{AB}=\boldsymbol{c}$ and $\boldsymbol{AC}=\boldsymbol{b}$; then $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{(-\boldsymbol{c})\cdot(\boldsymbol{b}-\boldsymbol{c})}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
 
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{(-\boldsymbol{b})\cdot(\boldsymbol{c}-\boldsymbol{b})}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-\boldsymbol{b}\right)\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
 
-Since $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ and $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, we get $\cos B=\cos C$. Moreover $B$, $C\in(0,\pi)$, so $B=C$. $\blacksquare$
+Since $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ and $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, we get $\cos B=\cos C$. Moreover $B$, $C\in\left(0,\pi\right)$, so $B=C$. $\blacksquare$
 
 ### Exercise 2
 
@@ -32,13 +32,13 @@ Since $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ and $\boldsymbol{b
 
 By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Theorem 6.4.2** (Law of Cosines).
 
-Set up coordinates with $A$ as the origin, $AB$ as the $x$-axis, and $AD$ as the $y$-axis. $A(0,0)$, $B(a,0)$, $C(a,a)$, $D(0,a)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
+Set up coordinates with $A$ as the origin, $AB$ as the $x$-axis, and $AD$ as the $y$-axis. $A\left(0,0\right)$, $B\left(a,0\right)$, $C\left(a,a\right)$, $D\left(0,a\right)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
 
 $\boldsymbol{DE}=\left(\frac{a}{2},-a\right)$, $\boldsymbol{AF}=\left(a,\frac{a}{3}\right)$.
 
 $\angle EMF$ is the angle between $\boldsymbol{MD}$ and $\boldsymbol{MF}$. $\boldsymbol{MD}$ is collinear with $\boldsymbol{DE}$, and $\boldsymbol{MF}$ is collinear with $\boldsymbol{AF}$.
 
-$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+(-a)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
+$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+\left(-a\right)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
 
 ### Exercise 3
 
@@ -50,25 +50,25 @@ $\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}
 
 By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors).
 
-$\boldsymbol{AO}=\frac{1}{2}(\boldsymbol{AB}+\boldsymbol{AC})=\frac{1}{2}(m\boldsymbol{AM}+n\boldsymbol{AN})$.
+$\boldsymbol{AO}=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\frac{1}{2}\left(m\boldsymbol{AM}+n\boldsymbol{AN}\right)$.
 
-Since $O$ lies on the line $MN$, by the collinearity condition for three points, there exists $\lambda$ such that $\boldsymbol{AO}=\lambda\boldsymbol{AM}+(1-\lambda)\boldsymbol{AN}$.
+Since $O$ lies on the line $MN$, by the collinearity condition for three points, there exists $\lambda$ such that $\boldsymbol{AO}=\lambda\boldsymbol{AM}+\left(1-\lambda\right)\boldsymbol{AN}$.
 
 Comparing coefficients: $\frac{m}{2}=\lambda$, $\frac{n}{2}=1-\lambda$.
 
-$m+n=2\lambda+2(1-\lambda)=2$. $\blacksquare$
+$m+n=2\lambda+2\left(1-\lambda\right)=2$. $\blacksquare$
 
 ### Exercise 4
 
-(Exercise 6.4, Problem 4) Under the action of a force $\boldsymbol{F}$, an object moves from $A(20,15)$ to $B(7,0)$. Given $\boldsymbol{F}=(4,-5)$, find the work done by $\boldsymbol{F}$ on the object.
+(Exercise 6.4, Problem 4) Under the action of a force $\boldsymbol{F}$, an object moves from $A\left(20,15\right)$ to $B\left(7,0\right)$. Given $\boldsymbol{F}=\left(4,-5\right)$, find the work done by $\boldsymbol{F}$ on the object.
 
 ### Solution to Exercise 4
 
 By **Definition 6.2.11** (Dot Product), work equals the dot product of force and displacement.
 
-The displacement $\boldsymbol{s}=\boldsymbol{AB}=(7-20,0-15)=(-13,-15)$.
+The displacement $\boldsymbol{s}=\boldsymbol{AB}=\left(7-20,0-15\right)=\left(-13,-15\right)$.
 
-The work $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times(-13)+(-5)\times(-15)=-52+75=23$. $\blacksquare$
+The work $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times\left(-13\right)+\left(-5\right)\times\left(-15\right)=-52+75=23$. $\blacksquare$
 
 ### Exercise 5
 
@@ -82,9 +82,9 @@ By **Definition 6.2.11** (Dot Product) and **Theorem 6.4.2** (Law of Cosines).
 
 Let $\boldsymbol{OA}$ and $\boldsymbol{OB}$ each have magnitude $4$, and the third rope points downward with magnitude $4\sqrt 3$. In equilibrium, $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
 
-$\boldsymbol{OC}=-(\boldsymbol{OA}+\boldsymbol{OB})$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
+$\boldsymbol{OC}=-\left(\boldsymbol{OA}+\boldsymbol{OB}\right)$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
 
-$(4\sqrt 3)^2=16+16+2\times16\cos\angle AOB$.
+$\left(4\sqrt 3\right)^2=16+16+2\times16\cos\angle AOB$.
 
 $48=32+32\cos\angle AOB$.
 
@@ -102,7 +102,7 @@ $\cos\angle AOB=\frac{1}{2}$, $\angle AOB=60^{\circ}$. $\blacksquare$
 
 By **Definition 6.2.11** (Dot Product) and **Theorem 6.4.2** (Law of Cosines).
 
-In equilibrium, $\boldsymbol{F}_3=-(\boldsymbol{F}_1+\boldsymbol{F}_2)$.
+In equilibrium, $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$.
 
 (1) $\lvert\boldsymbol{F}_1+\boldsymbol{F}_2\rvert^2=\lvert\boldsymbol{F}_1\rvert^2+\lvert\boldsymbol{F}_2\rvert^2+2\boldsymbol{F}_1\cdot\boldsymbol{F}_2$.
 
@@ -112,17 +112,17 @@ $\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2=\frac{8+4\sqrt 3}{4}=2+\sqrt 3$.
 
 $2\times\frac{\sqrt 6+\sqrt 2}{2}\times\frac{\sqrt 2}{2}=\frac{\sqrt 6+\sqrt 2}{\sqrt 2}=\sqrt 3+1$.
 
-$\lvert\boldsymbol{F}_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=(\sqrt 3+1)^2$.
+$\lvert\boldsymbol{F}_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=\left(\sqrt 3+1\right)^2$.
 
 $\lvert\boldsymbol{F}_3\rvert=\sqrt 3+1\text{ N}$.
 
-(2) Let the angle between $\boldsymbol{F}_3$ and $\boldsymbol{F}_1$ be $\theta$. $\boldsymbol{F}_3=-(\boldsymbol{F}_1+\boldsymbol{F}_2)$, 
+(2) Let the angle between $\boldsymbol{F}_3$ and $\boldsymbol{F}_1$ be $\theta$. $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$, 
 
-$\boldsymbol{F}_3\cdot\boldsymbol{F}_1=-(\boldsymbol{F}_1+\boldsymbol{F}_2)\cdot\boldsymbol{F}_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-(1+\sqrt 3)$.
+$\boldsymbol{F}_3\cdot\boldsymbol{F}_1=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-\left(1+\sqrt 3\right)$.
 
-$\cos\theta=\frac{-(1+\sqrt 3)}{(\sqrt 3+1)\times1}=-1$. $\theta=180^{\circ}$? The direction of the angle must be considered.
+$\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\left(\sqrt 3+1\right)\times1}=-1$. $\theta=180^{\circ}$? The direction of the angle must be considered.
 
-Correction: the angle between $\boldsymbol{F}_3$ and $\boldsymbol{F}_1$ (taken from $0$ to $180^{\circ}$) satisfies $\cos\theta=\frac{-(1+\sqrt 3)}{\sqrt 3+1}=-1$, i.e. they point in opposite directions. $\blacksquare$
+Correction: the angle between $\boldsymbol{F}_3$ and $\boldsymbol{F}_1$ (taken from $0$ to $180^{\circ}$) satisfies $\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\sqrt 3+1}=-1$, i.e. they point in opposite directions. $\blacksquare$
 
 ### Exercise 7
 
@@ -152,11 +152,11 @@ $C=180^{\circ}-42.3^{\circ}-56.1^{\circ}=81.6^{\circ}$. $\blacksquare$
 
 By **Theorem 6.4.2** (Law of Cosines).
 
-$\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{2+(\sqrt 3+1)^2-4}{2\sqrt 2(\sqrt 3+1)}=\frac{2+4+2\sqrt 3-4}{2\sqrt 2(\sqrt 3+1)}=\frac{2+2\sqrt 3}{2\sqrt 2(\sqrt 3+1)}=\frac{\sqrt 2}{2}$.
+$\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{2+\left(\sqrt 3+1\right)^2-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+4+2\sqrt 3-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+2\sqrt 3}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{\sqrt 2}{2}$.
 
 $A=45^{\circ}$.
 
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{4+4+2\sqrt 3-2}{2\times2\times(\sqrt 3+1)}=\frac{6+2\sqrt 3}{4(\sqrt 3+1)}=\frac{\sqrt 3}{2}$.
+$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{4+4+2\sqrt 3-2}{2\times2\times\left(\sqrt 3+1\right)}=\frac{6+2\sqrt 3}{4\left(\sqrt 3+1\right)}=\frac{\sqrt 3}{2}$.
 
 $B=30^{\circ}$.
 
@@ -230,7 +230,7 @@ $\sin A=\sqrt{1-\frac{16}{25}}=\frac{3}{5}$.
 
 $a=\frac{b\sin A}{\sin B}=\frac{\sqrt 3\cdot\frac{3}{5}}{\frac{\sqrt 3}{2}}=\frac{6}{5}$.
 
-$C=180^{\circ}-A-B$. $\sin C=\sin(A+B)=\sin A\cos B+\cos A\sin B=\frac{3}{5}\cdot\frac{1}{2}+\frac{4}{5}\cdot\frac{\sqrt 3}{2}=\frac{3+4\sqrt 3}{10}$.
+$C=180^{\circ}-A-B$. $\sin C=\sin\left(A+B\right)=\sin A\cos B+\cos A\sin B=\frac{3}{5}\cdot\frac{1}{2}+\frac{4}{5}\cdot\frac{\sqrt 3}{2}=\frac{3+4\sqrt 3}{10}$.
 
 $c=\frac{b\sin C}{\sin B}=\frac{\sqrt 3\cdot\frac{3+4\sqrt 3}{10}}{\frac{\sqrt 3}{2}}=\frac{3+4\sqrt 3}{5}$. $\blacksquare$
 
@@ -250,7 +250,7 @@ $CD=CE-DE=10\sqrt 3$.
 
 In $\triangle ACD$, $\angle CAD=4\alpha-2\alpha=2\alpha$, $\angle ACD=180^{\circ}-2\alpha$, $\angle ADC=180^{\circ}-4\alpha$.
 
-By the law of sines: $\frac{CD}{\sin 2\alpha}=\frac{AC}{\sin(180^{\circ}-4\alpha)}$.
+By the law of sines: $\frac{CD}{\sin 2\alpha}=\frac{AC}{\sin\left(180^{\circ}-4\alpha\right)}$.
 
 $AC=\frac{10\sqrt 3\sin4\alpha}{\sin2\alpha}=20\sqrt 3\cos2\alpha$.
 
@@ -292,7 +292,7 @@ $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\r
 
 $\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$ means $N$ is the centroid (centroid property).
 
-$\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ gives $\boldsymbol{PB}\cdot(\boldsymbol{PA}-\boldsymbol{PC})=\boldsymbol{PB}\cdot\boldsymbol{CA}=0$, i.e. $PB\perp CA$. Similarly, $P$ is the orthocenter.
+$\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ gives $\boldsymbol{PB}\cdot\left(\boldsymbol{PA}-\boldsymbol{PC}\right)=\boldsymbol{PB}\cdot\boldsymbol{CA}=0$, i.e. $PB\perp CA$. Similarly, $P$ is the orthocenter.
 
 Choose (C). $\blacksquare$
 
@@ -306,17 +306,17 @@ By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Comm
 
 Let the center be $O$, the diameter be $AB$, and $C$ be any point on the circle. $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OA}=-\boldsymbol{c}$, $\boldsymbol{OB}=\boldsymbol{c}$.
 
-$\boldsymbol{AC}=\boldsymbol{c}-(-\boldsymbol{c})=2\boldsymbol{c}$? Correction: let $\boldsymbol{OA}=\boldsymbol{a}$; then $\boldsymbol{OB}=-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{c}\rvert=R$.
+$\boldsymbol{AC}=\boldsymbol{c}-\left(-\boldsymbol{c}\right)=2\boldsymbol{c}$? Correction: let $\boldsymbol{OA}=\boldsymbol{a}$; then $\boldsymbol{OB}=-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{c}\rvert=R$.
 
-$\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{c}-(-\boldsymbol{a})=\boldsymbol{c}+\boldsymbol{a}$.
+$\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{c}-\left(-\boldsymbol{a}\right)=\boldsymbol{c}+\boldsymbol{a}$.
 
-$\boldsymbol{AC}\cdot\boldsymbol{BC}=(\boldsymbol{c}-\boldsymbol{a})\cdot(\boldsymbol{c}+\boldsymbol{a})=\boldsymbol{c}^2-\boldsymbol{a}^2=R^2-R^2=0$.
+$\boldsymbol{AC}\cdot\boldsymbol{BC}=\left(\boldsymbol{c}-\boldsymbol{a}\right)\cdot\left(\boldsymbol{c}+\boldsymbol{a}\right)=\boldsymbol{c}^2-\boldsymbol{a}^2=R^2-R^2=0$.
 
 Hence $\boldsymbol{AC}\perp\boldsymbol{BC}$, and $\angle ACB=90^{\circ}$. $\blacksquare$
 
 ### Problem 4
 
-(Exercise 6.4, Review and Consolidation, Problem 4) Two particles $A$ and $B$ are emitted from the same source. At a certain instant, their displacements are $\boldsymbol{s}_A=(4,3)$ and $\boldsymbol{s}_B=(2,10)$.
+(Exercise 6.4, Review and Consolidation, Problem 4) Two particles $A$ and $B$ are emitted from the same source. At a certain instant, their displacements are $\boldsymbol{s}_A=\left(4,3\right)$ and $\boldsymbol{s}_B=\left(2,10\right)$.
 
 (1) Write the displacement $\boldsymbol{s}$ of particle $B$ relative to particle $A$ at that instant;
 
@@ -326,13 +326,13 @@ Hence $\boldsymbol{AC}\perp\boldsymbol{BC}$, and $\angle ACB=90^{\circ}$. $\blac
 
 By **Definition 6.2.11** (Dot Product) and **Common Conclusion 6.2.12** (Projection Vector).
 
-(1) $\boldsymbol{s}=\boldsymbol{s}_B-\boldsymbol{s}_A=(2-4,10-3)=(-2,7)$.
+(1) $\boldsymbol{s}=\boldsymbol{s}_B-\boldsymbol{s}_A=\left(2-4,10-3\right)=\left(-2,7\right)$.
 
-(2) $\boldsymbol{s}\cdot\boldsymbol{s}_A=(-2)\times4+7\times3=13$.
+(2) $\boldsymbol{s}\cdot\boldsymbol{s}_A=\left(-2\right)\times4+7\times3=13$.
 
 $\lvert\boldsymbol{s}_A\rvert=5$.
 
-The projection vector is $\frac{\boldsymbol{s}\cdot\boldsymbol{s}_A}{\lvert\boldsymbol{s}_A\rvert^2}\boldsymbol{s}_A=\frac{13}{25}(4,3)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
+The projection vector is $\frac{\boldsymbol{s}\cdot\boldsymbol{s}_A}{\lvert\boldsymbol{s}_A\rvert^2}\boldsymbol{s}_A=\frac{13}{25}\left(4,3\right)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
 
 ### Problem 5
 
@@ -362,7 +362,7 @@ By **Theorem 6.4.2** (Law of Cosines) and **Theorem 6.4.3** (Law of Sines).
 
 By **Theorem 6.4.2** (Law of Cosines).
 
-(1) $c^2=49^2+26^2-2\times49\times26\times\cos107^{\circ}=2401+676-2548\times(-0.292)\approx3077+744=3821$.
+(1) $c^2=49^2+26^2-2\times49\times26\times\cos107^{\circ}=2401+676-2548\times\left(-0.292\right)\approx3077+744=3821$.
 
 $c\approx62\text{ cm}$.
 
@@ -414,11 +414,11 @@ By **Theorem 6.4.3** (Law of Sines).
 
 In $\triangle BCD$, $\angle CBD=180^{\circ}-\alpha-\beta$.
 
-By the law of sines: $\frac{BC}{\sin\beta}=\frac{s}{\sin(180^{\circ}-\alpha-\beta)}=\frac{s}{\sin(\alpha+\beta)}$.
+By the law of sines: $\frac{BC}{\sin\beta}=\frac{s}{\sin\left(180^{\circ}-\alpha-\beta\right)}=\frac{s}{\sin\left(\alpha+\beta\right)}$.
 
-$BC=\frac{s\sin\beta}{\sin(\alpha+\beta)}$.
+$BC=\frac{s\sin\beta}{\sin\left(\alpha+\beta\right)}$.
 
-In the right triangle $ABC$, $\angle ACB=\theta$, $AB=BC\tan\theta=\frac{s\sin\beta\tan\theta}{\sin(\alpha+\beta)}$. $\blacksquare$
+In the right triangle $ABC$, $\angle ACB=\theta$, $AB=BC\tan\theta=\frac{s\sin\beta\tan\theta}{\sin\left(\alpha+\beta\right)}$. $\blacksquare$
 
 ### Problem 9
 
@@ -462,19 +462,19 @@ $S=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$. $\blacksquare$
 
 ### Problem 11
 
-(Exercise 6.4, Comprehensive Application, Problem 11) Given that for any plane vector $\boldsymbol{AB}=(x,y)$, rotating $\boldsymbol{AB}$ counterclockwise through an angle $\theta$ about its initial point gives the vector $\boldsymbol{AP}=(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta)$. Given points $A(1,2)$ and $B(1+\sqrt 2,2-2\sqrt 2)$ in the plane, rotate point $B$ clockwise through $\frac{\pi}{4}$ about point $A$ to obtain point $P$. Find the coordinates of $P$.
+(Exercise 6.4, Comprehensive Application, Problem 11) Given that for any plane vector $\boldsymbol{AB}=\left(x,y\right)$, rotating $\boldsymbol{AB}$ counterclockwise through an angle $\theta$ about its initial point gives the vector $\boldsymbol{AP}=\left(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta\right)$. Given points $A\left(1,2\right)$ and $B\left(1+\sqrt 2,2-2\sqrt 2\right)$ in the plane, rotate point $B$ clockwise through $\frac{\pi}{4}$ about point $A$ to obtain point $P$. Find the coordinates of $P$.
 
 ### Solution to Problem 11
 
 By **Common Conclusion 6.3.4** (Coordinate Operations).
 
-$\boldsymbol{AB}=(\sqrt 2,-2\sqrt 2)$. A clockwise rotation by $\frac{\pi}{4}$ is a counterclockwise rotation by $-\frac{\pi}{4}$.
+$\boldsymbol{AB}=\left(\sqrt 2,-2\sqrt 2\right)$. A clockwise rotation by $\frac{\pi}{4}$ is a counterclockwise rotation by $-\frac{\pi}{4}$.
 
-$x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-(-2\sqrt 2)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+(-2\sqrt 2)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
+$x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-\left(-2\sqrt 2\right)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+\left(-2\sqrt 2\right)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
 
-$y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+(-2\sqrt 2)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
+$y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+\left(-2\sqrt 2\right)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
 
-$\boldsymbol{AP}=(-1,-3)$. $P=A+\boldsymbol{AP}=(1-1,2-3)=(0,-1)$. $\blacksquare$
+$\boldsymbol{AP}=\left(-1,-3\right)$. $P=A+\boldsymbol{AP}=\left(1-1,2-3\right)=\left(0,-1\right)$. $\blacksquare$
 
 ### Problem 12
 
@@ -486,7 +486,7 @@ $\boldsymbol{AP}=(-1,-3)$. $P=A+\boldsymbol{AP}=(1-1,2-3)=(0,-1)$. $\blacksquare
 
 By **Theorem 6.4.2** (Law of Cosines) and **Common Conclusion 6.4.1** (Vector Method).
 
-Take $A$ as the origin; $\boldsymbol{AB}=(2,0)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
+Take $A$ as the origin; $\boldsymbol{AB}=\left(2,0\right)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
 
 $M$ is the midpoint of $BC$: $M=\left(\frac{2+\frac{5}{2}}{2},\frac{0+\frac{5\sqrt 3}{2}}{2}\right)=\left(\frac{9}{4},\frac{5\sqrt 3}{4}\right)$.
 
@@ -540,7 +540,7 @@ The boat speed $=\sqrt{6^2+\left(\frac{2\sqrt 3}{3}\right)^2-2\times6\times\frac
 
 (Exercise 6.4, Comprehensive Application, Problem 15) The three sides of $\triangle ABC$ are $a$, $b$, $c$, and the medians to sides $BC$, $CA$, $AB$ are denoted $m_a$, $m_b$, $m_c$. Using the law of cosines, prove:
 
-$m_a=\frac{1}{2}\sqrt{2(b^2+c^2)-a^2}$, $m_b=\frac{1}{2}\sqrt{2(a^2+c^2)-b^2}$, $m_c=\frac{1}{2}\sqrt{2(a^2+b^2)-c^2}$.
+$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(a^2+c^2\right)-b^2}$, $m_c=\frac{1}{2}\sqrt{2\left(a^2+b^2\right)-c^2}$.
 
 ### Solution to Problem 15
 
@@ -552,11 +552,11 @@ By the law of cosines, $\cos B=\frac{a^2+c^2-b^2}{2ac}$:
 
 $m_a^2=c^2+\frac{a^2}{4}-ac\cdot\frac{a^2+c^2-b^2}{2ac}=c^2+\frac{a^2}{4}-\frac{a^2+c^2-b^2}{2}=\frac{2c^2+a^2-2a^2-2c^2+2b^2}{4}=\frac{2b^2+2c^2-a^2}{4}$.
 
-$m_a=\frac{1}{2}\sqrt{2(b^2+c^2)-a^2}$. The other two formulas follow similarly. $\blacksquare$
+$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. The other two formulas follow similarly. $\blacksquare$
 
 ### Problem 16
 
-(Exercise 6.4, Comprehensive Application, Problem 16) In $\triangle ABC$, prove that $c(a\cos B-b\cos A)=a^2-b^2$.
+(Exercise 6.4, Comprehensive Application, Problem 16) In $\triangle ABC$, prove that $c\left(a\cos B-b\cos A\right)=a^2-b^2$.
 
 ### Solution to Problem 16
 
@@ -602,7 +602,7 @@ By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Theo
 
 Let $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$. $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$.
 
-$R$ lies on $BE$: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. Also $R$ lies on $AC$: $\boldsymbol{AR}=t(\boldsymbol{a}+\boldsymbol{b})$.
+$R$ lies on $BE$: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. Also $R$ lies on $AC$: $\boldsymbol{AR}=t\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
 Comparing: $t=\lambda$, $t=\frac{\mu}{2}$. $E$ lies on $AD$, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{b}$. Since $B$, $R$, $E$ are collinear: $\lambda+\frac{\mu}{2}=1$, i.e. $t+t=1$, $t=\frac{1}{3}$. Hence $AR=\frac{1}{3}AC$.
 
@@ -612,13 +612,13 @@ Hence $AR=RT=TC=\frac{1}{3}AC$. $\blacksquare$
 
 ### Problem 20
 
-(Exercise 6.4, Extension and Exploration, Problem 20) Given that $a$, $b$, $c$ are the sides opposite angles $A$, $B$, $C$ of $\triangle ABC$, let $p=\frac{1}{2}(a+b+c)$. Prove:
+(Exercise 6.4, Extension and Exploration, Problem 20) Given that $a$, $b$, $c$ are the sides opposite angles $A$, $B$, $C$ of $\triangle ABC$, let $p=\frac{1}{2}\left(a+b+c\right)$. Prove:
 
-(1) the area of the triangle is $S=\sqrt{p(p-a)(p-b)(p-c)}$;
+(1) the area of the triangle is $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$;
 
-(2) if $r$ is the inradius of the triangle, then $r=\sqrt{\frac{(p-a)(p-b)(p-c)}{p}}$;
+(2) if $r$ is the inradius of the triangle, then $r=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$;
 
-(3) if the altitudes to sides $BC$, $AC$, $AB$ are denoted $h_a$, $h_b$, $h_c$, then $h_a=\frac{2}{a}\sqrt{p(p-a)(p-b)(p-c)}$, $h_b=\frac{2}{b}\sqrt{p(p-a)(p-b)(p-c)}$, $h_c=\frac{2}{c}\sqrt{p(p-a)(p-b)(p-c)}$.
+(3) if the altitudes to sides $BC$, $AC$, $AB$ are denoted $h_a$, $h_b$, $h_c$, then $h_a=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_b=\frac{2}{b}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_c=\frac{2}{c}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
 
 ### Solution to Problem 20
 
@@ -626,17 +626,17 @@ By **Theorem 6.4.2** (Law of Cosines) and the area formula.
 
 (1) $S=\frac{1}{2}ab\sin C$. $\sin C=\sqrt{1-\cos^2 C}$. $\cos C=\frac{a^2+b^2-c^2}{2ab}$.
 
-$S^2=\frac{a^2b^2}{4}(1-\cos^2 C)=\frac{a^2b^2}{4}\left(1-\frac{(a^2+b^2-c^2)^2}{4a^2b^2}\right)=\frac{4a^2b^2-(a^2+b^2-c^2)^2}{16}$.
+$S^2=\frac{a^2b^2}{4}\left(1-\cos^2 C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
 
-$=\frac{(2ab-a^2-b^2+c^2)(2ab+a^2+b^2-c^2)}{16}=\frac{(c^2-(a-b)^2)((a+b)^2-c^2)}{16}$.
+$=\frac{\left(2ab-a^2-b^2+c^2\right)\left(2ab+a^2+b^2-c^2\right)}{16}=\frac{\left(c^2-\left(a-b\right)^2\right)\left(\left(a+b\right)^2-c^2\right)}{16}$.
 
-$=\frac{(c-a+b)(c+a-b)(a+b-c)(a+b+c)}{16}$.
+$=\frac{\left(c-a+b\right)\left(c+a-b\right)\left(a+b-c\right)\left(a+b+c\right)}{16}$.
 
-$=p(p-a)(p-b)(p-c)$. $S=\sqrt{p(p-a)(p-b)(p-c)}$.
+$=p\left(p-a\right)\left(p-b\right)\left(p-c\right)$. $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
 
-(2) $S=rp$. $r=\frac{S}{p}=\frac{\sqrt{p(p-a)(p-b)(p-c)}}{p}=\sqrt{\frac{(p-a)(p-b)(p-c)}{p}}$.
+(2) $S=rp$. $r=\frac{S}{p}=\frac{\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}}{p}=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$.
 
-(3) $S=\frac{1}{2}ah_a$. $h_a=\frac{2S}{a}=\frac{2}{a}\sqrt{p(p-a)(p-b)(p-c)}$. Similarly for $h_b$, $h_c$. $\blacksquare$
+(3) $S=\frac{1}{2}ah_a$. $h_a=\frac{2S}{a}=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$. Similarly for $h_b$, $h_c$. $\blacksquare$
 
 ### Problem 21
 
@@ -666,13 +666,13 @@ By **Theorem 6.4.3** (Law of Sines).
 
 (1) By the law of sines: $\sin A\cos C+\sqrt 3\sin A\sin C-\sin B-\sin C=0$.
 
-$B=\pi-A-C$. $\sin B=\sin(A+C)=\sin A\cos C+\cos A\sin C$.
+$B=\pi-A-C$. $\sin B=\sin\left(A+C\right)=\sin A\cos C+\cos A\sin C$.
 
 $\sin A\cos C+\sqrt 3\sin A\sin C-\sin A\cos C-\cos A\sin C-\sin C=0$.
 
-$(\sqrt 3\sin A-\cos A-1)\sin C=0$.
+$\left(\sqrt 3\sin A-\cos A-1\right)\sin C=0$.
 
-$\sqrt 3\sin A-\cos A=1$. $2\sin(A-30^{\circ})=1$. $\sin(A-30^{\circ})=\frac{1}{2}$.
+$\sqrt 3\sin A-\cos A=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
 
 $A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
 
@@ -680,7 +680,7 @@ $A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
 
 $a^2=b^2+c^2-2bc\cos A$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
 
-$b^2+c^2=8$. $(b+c)^2=b^2+c^2+2bc=16$. $b+c=4$.
+$b^2+c^2=8$. $\left(b+c\right)^2=b^2+c^2+2bc=16$. $b+c=4$.
 
 $bc=4$, $b+c=4$. $b=c=2$. $\blacksquare$
 

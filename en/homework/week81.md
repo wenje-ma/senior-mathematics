@@ -6,17 +6,17 @@
 
 > **Definition 6.2.1** (Permutation) <br>Taking $m$ ($m\le n$) elements from $n$ distinct elements and arranging them in a certain order in a row is called a permutation of $m$ elements chosen from the $n$ distinct elements. Two permutations are equal if and only if they have exactly the same elements in exactly the same order.
 
-> **Definition 6.2.2** (Number of Permutations) <br>The number of all distinct permutations of $m$ ($m\le n$) elements taken from $n$ distinct elements is called the number of permutations of $m$ elements chosen from the $n$ distinct elements, denoted by the symbol $\mathrm{P}(n,m)$.
+> **Definition 6.2.2** (Number of Permutations) <br>The number of all distinct permutations of $m$ ($m\le n$) elements taken from $n$ distinct elements is called the number of permutations of $m$ elements chosen from the $n$ distinct elements, denoted by the symbol $\mathrm{P}\left(n,m\right)$.
 
-> **Formula 6.2.3** (Permutation Number Formula) <br>$\mathrm{P}(n,m)=n(n-1)(n-2)\cdots(n-m+1)$, where $m,n\in\mathbb N^*$ and $m\le n$.
+> **Formula 6.2.3** (Permutation Number Formula) <br>$\mathrm{P}\left(n,m\right)=n\left(n-1\right)\left(n-2\right)\cdots\left(n-m+1\right)$, where $m,n\in\mathbb N^*$ and $m\le n$.
 
-> **Definition 6.2.4** (Full Permutation and Factorial) <br>A permutation in which all $n$ distinct elements are taken is called a full permutation of the $n$ elements, and its number is $\mathrm{P}(n,n)=n!$. The product of the positive integers from $1$ to $n$ is called the factorial of $n$, denoted by $n!$. It is stipulated that $0!=1$. The permutation number formula can also be written as $\mathrm{P}(n,m)=\frac{n!}{(n-m)!}$.
+> **Definition 6.2.4** (Full Permutation and Factorial) <br>A permutation in which all $n$ distinct elements are taken is called a full permutation of the $n$ elements, and its number is $\mathrm{P}\left(n,n\right)=n!$. The product of the positive integers from $1$ to $n$ is called the factorial of $n$, denoted by $n!$. It is stipulated that $0!=1$. The permutation number formula can also be written as $\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}$.
 
 > **Definition 6.2.5** (Combination) <br>Taking $m$ ($m\le n$) elements from $n$ distinct elements as a group is called a combination of $m$ elements chosen from the $n$ distinct elements. A combination is independent of the order of the elements, and two combinations are the same as long as they have the same elements.
 
 > **Definition 6.2.6** (Number of Combinations) <br>The number of all distinct combinations of $m$ ($m\le n$) elements taken from $n$ distinct elements is called the number of combinations of $m$ elements chosen from the $n$ distinct elements, denoted by the symbol $\binom{n}{m}$.
 
-> **Formula 6.2.7** (Combination Number Formula) <br>$\binom{n}{m}=\frac{\mathrm{P}(n,m)}{\mathrm{P}(m,m)}=\frac{n(n-1)\cdots(n-m+1)}{m!}=\frac{n!}{m!(n-m)!}$, where $m,n\in\mathbb N^*$ and $m\le n$. It is stipulated that $\binom{n}{0}=1$.
+> **Formula 6.2.7** (Combination Number Formula) <br>$\binom{n}{m}=\frac{\mathrm{P}\left(n,m\right)}{\mathrm{P}\left(m,m\right)}=\frac{n\left(n-1\right)\cdots\left(n-m+1\right)}{m!}=\frac{n!}{m!\left(n-m\right)!}$, where $m,n\in\mathbb N^*$ and $m\le n$. It is stipulated that $\binom{n}{0}=1$.
 
 > **Property** (Two Properties of Combination Numbers) <br>$\binom{n}{m}=\binom{n}{n-m}$; $\binom{n+1}{m}=\binom{n}{m}+\binom{n}{m-1}$.
 
@@ -32,9 +32,9 @@
 
 By **Definition 6.2.1** (Permutation) and **Formula 6.2.3** (Permutation Number Formula).
 
-(1) The tens digit of a two-digit number cannot be $0$. The tens digit is taken from $1,2,3,4$, and the units digit is taken from the remaining $4$ digits. All two-digit numbers are $10,12,13,14,20,21,23,24,30,31,32,34,40,41,42,43$, totaling $\mathrm{P}(4,1)\times \mathrm{P}(4,1)=4\times 4=16$.
+(1) The tens digit of a two-digit number cannot be $0$. The tens digit is taken from $1,2,3,4$, and the units digit is taken from the remaining $4$ digits. All two-digit numbers are $10,12,13,14,20,21,23,24,30,31,32,34,40,41,42,43$, totaling $\mathrm{P}\left(4,1\right)\times \mathrm{P}\left(4,1\right)=4\times 4=16$.
 
-(2) All permutations of $2$ letters taken from $a,b,c,d$ are $ab,ac,ad,ba,bc,bd,ca,cb,cd,da,db,dc$, totaling $\mathrm{P}(4,2)=4\times 3=12$. $\blacksquare$
+(2) All permutations of $2$ letters taken from $a,b,c,d$ are $ab,ac,ad,ba,bc,bd,ca,cb,cd,da,db,dc$, totaling $\mathrm{P}\left(4,2\right)=4\times 3=12$. $\blacksquare$
 
 ### Exercise 2
 
@@ -47,7 +47,7 @@ By **Definition 6.2.1** (Permutation) and **Formula 6.2.3** (Permutation Number 
 The order of rotation arranges the $4$ classes in a row by the order of lectures, which is a full permutation of $4$ elements. By **Formula 6.2.3**, the orders of rotation total
 
 $$
-\mathrm{P}(4,4)=4!=24.
+\mathrm{P}\left(4,4\right)=4!=24.
 $$
 
 Therefore there are $24$ orders of rotation. $\blacksquare$
@@ -67,37 +67,37 @@ By **Definition 6.2.1** (Permutation) and **Formula 6.2.3** (Permutation Number 
 (1) The athletes appearing in each of the first $3$ matches are distinct and ordered, which is a permutation of $3$ athletes chosen from $5$. By **Formula 6.2.3**, the ways of appearance total
 
 $$
-\mathrm{P}(5,3)=5\times 4\times 3=60.
+\mathrm{P}\left(5,3\right)=5\times 4\times 3=60.
 $$
 
-(2) The $3$ athletes A, B, C each appear $1$ time in the first $3$ matches, which is the full permutation of these $3$ people. All possible ways of appearance are ABC, ACB, BAC, BCA, CAB, CBA, totaling $\mathrm{P}(3,3)=6$. $\blacksquare$
+(2) The $3$ athletes A, B, C each appear $1$ time in the first $3$ matches, which is the full permutation of these $3$ people. All possible ways of appearance are ABC, ACB, BAC, BCA, CAB, CBA, totaling $\mathrm{P}\left(3,3\right)=6$. $\blacksquare$
 
 ### Exercise 4
 
 (Exercise 6.2, Problem 1) First calculate, then check with a calculating tool:
 
-(1) $\mathrm{P}(12,4)$;
+(1) $\mathrm{P}\left(12,4\right)$;
 
-(2) $\mathrm{P}(8,8)$;
+(2) $\mathrm{P}\left(8,8\right)$;
 
-(3) $\mathrm{P}(15,5)-15\mathrm{P}(14,4)$;
+(3) $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)$;
 
-(4) $\frac{\mathrm{P}(12,7)}{\mathrm{P}(12,6)}$.
+(4) $\frac{\mathrm{P}\left(12,7\right)}{\mathrm{P}\left(12,6\right)}$.
 
 ### Solution to Exercise 4
 
 By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.2.4** (Full Permutation and Factorial).
 
-(1) $\mathrm{P}(12,4)=12\times 11\times 10\times 9=11880$.
+(1) $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$.
 
-(2) $\mathrm{P}(8,8)=8!=40320$.
+(2) $\mathrm{P}\left(8,8\right)=8!=40320$.
 
-(3) $\mathrm{P}(15,5)=15\times 14\times 13\times 12\times 11=360360$, $\mathrm{P}(14,4)=14\times 13\times 12\times 11=24024$, hence $\mathrm{P}(15,5)-15\mathrm{P}(14,4)=360360-15\times 24024=360360-360360=0$.
+(3) $\mathrm{P}\left(15,5\right)=15\times 14\times 13\times 12\times 11=360360$, $\mathrm{P}\left(14,4\right)=14\times 13\times 12\times 11=24024$, hence $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)=360360-15\times 24024=360360-360360=0$.
 
-(4) By **Definition 6.2.4**, $\mathrm{P}(12,7)=\frac{12!}{5!}$, $\mathrm{P}(12,6)=\frac{12!}{6!}$, hence
+(4) By **Definition 6.2.4**, $\mathrm{P}\left(12,7\right)=\frac{12!}{5!}$, $\mathrm{P}\left(12,6\right)=\frac{12!}{6!}$, hence
 
 $$
-\frac{\mathrm{P}(12,7)}{\mathrm{P}(12,6)}=\frac{12!/5!}{12!/6!}=\frac{6!}{5!}=6.
+\frac{\mathrm{P}\left(12,7\right)}{\mathrm{P}\left(12,6\right)}=\frac{12!/5!}{12!/6!}=\frac{6!}{5!}=6.
 $$
 
 $\blacksquare$
@@ -106,17 +106,17 @@ $\blacksquare$
 
 (Exercise 6.2, Problem 2) Prove:
 
-(1) $\mathrm{P}(n,m)=n\mathrm{P}(n-1,m-1)$;
+(1) $\mathrm{P}\left(n,m\right)=n\mathrm{P}\left(n-1,m-1\right)$;
 
-(2) $\mathrm{P}(8,8)-8\mathrm{P}(7,7)+7\mathrm{P}(6,6)=\mathrm{P}(7,7)$.
+(2) $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=\mathrm{P}\left(7,7\right)$.
 
 ### Solution to Exercise 5
 
 By **Definition 6.2.4** (Full Permutation and Factorial) and **Formula 6.2.3** (Permutation Number Formula).
 
-(1) By **Definition 6.2.4**, the left side is $\mathrm{P}(n,m)=\frac{n!}{(n-m)!}$. The right side is $n\mathrm{P}(n-1,m-1)=n\cdot\frac{(n-1)!}{(n-1)-(m-1)!}=\frac{n!}{(n-m)!}$. The left side equals the right side, which proves the claim.
+(1) By **Definition 6.2.4**, the left side is $\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}$. The right side is $n\mathrm{P}\left(n-1,m-1\right)=n\cdot\frac{\left(n-1\right)!}{\left(n-1\right)-\left(m-1\right)!}=\frac{n!}{\left(n-m\right)!}$. The left side equals the right side, which proves the claim.
 
-(2) The left side is $\mathrm{P}(8,8)-8\mathrm{P}(7,7)+7\mathrm{P}(6,6)=8!-8\cdot 7!+7\cdot 6!=8\cdot 7!-8\cdot 7!+7\cdot 6!=7\cdot 6!=7!$. The right side is $\mathrm{P}(7,7)=7!$. The left side equals the right side, which proves the claim. $\blacksquare$
+(2) The left side is $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=8!-8\cdot 7!+7\cdot 6!=8\cdot 7!-8\cdot 7!+7\cdot 6!=7\cdot 6!=7!$. The right side is $\mathrm{P}\left(7,7\right)=7!$. The left side equals the right side, which proves the claim. $\blacksquare$
 
 ### Exercise 6
 
@@ -129,7 +129,7 @@ By **Definition 6.2.1** (Permutation) and **Formula 6.2.3** (Permutation Number 
 Parking $4$ distinct trains requires choosing $4$ sidings out of $8$ and parking the $4$ trains into them in order, which is a permutation of $4$ elements chosen from $8$. By **Formula 6.2.3**, the ways of parking total
 
 $$
-\mathrm{P}(8,4)=8\times 7\times 6\times 5=1680.
+\mathrm{P}\left(8,4\right)=8\times 7\times 6\times 5=1680.
 $$
 
 Therefore there are $1680$ different ways of parking. $\blacksquare$
@@ -148,7 +148,7 @@ By **Definition 6.2.5** (Combination) and **Definition 6.2.1** (Permutation).
 
 (1) In a single round-robin match, only the two sides matter and order is not considered, so it is a combination problem. The two sides of all matches are AB, AC, AD, BC, BD, CD, totaling $\binom{4}{2}=6$ matches.
 
-(2) Champion and runner-up distinguish the first from the second place, so order matters and it is a permutation problem. All possible outcomes for champion and runner-up are AB, AC, AD, BA, BC, BD, CA, CB, CD, DA, DB, DC, totaling $\mathrm{P}(4,2)=12$. $\blacksquare$
+(2) Champion and runner-up distinguish the first from the second place, so order matters and it is a permutation problem. All possible outcomes for champion and runner-up are AB, AC, AD, BA, BC, BD, CA, CB, CD, DA, DB, DC, totaling $\mathrm{P}\left(4,2\right)=12$. $\blacksquare$
 
 ### Exercise 8
 
@@ -174,7 +174,7 @@ By **Definition 6.2.5** (Combination) and **Definition 6.2.1** (Permutation).
 
 (1) Addition is independent of the order of the two numbers, so it is a combination problem. The sums of pairs are $1+3=4$, $1+7=8$, $1+13=14$, $3+7=10$, $3+13=16$, $7+13=20$; the six sums are all distinct. Hence the distinct sums total $\binom{4}{2}=6$.
 
-(2) Subtraction distinguishes the minuend from the subtrahend, so order matters and it is a permutation problem. Taking any $2$ of the $4$ numbers and subtracting gives $\mathrm{P}(4,2)=12$ expressions, among which $1-7=-6$ equals $7-13=-6$, and $7-1=6$ equals $13-7=6$, so $2$ are duplicated. Hence the distinct differences total $12-2=10$. $\blacksquare$
+(2) Subtraction distinguishes the minuend from the subtrahend, so order matters and it is a permutation problem. Taking any $2$ of the $4$ numbers and subtracting gives $\mathrm{P}\left(4,2\right)=12$ expressions, among which $1-7=-6$ equals $7-13=-6$, and $7-1=6$ equals $13-7=6$, so $2$ are duplicated. Hence the distinct differences total $12-2=10$. $\blacksquare$
 
 ### Exercise 10
 
@@ -208,7 +208,7 @@ By **Formula 6.2.7** (Combination Number Formula) and **Property** (Two Properti
 
 By **Formula 6.2.7** (Combination Number Formula).
 
-The right side is $\frac{m+1}{n+1}\binom{n+1}{m+1}=\frac{m+1}{n+1}\cdot\frac{(n+1)!}{(m+1)!(n-m)!}=\frac{n!}{m!(n-m)!}=\binom{n}{m}$. The left side equals the right side, which proves the claim. $\blacksquare$
+The right side is $\frac{m+1}{n+1}\binom{n+1}{m+1}=\frac{m+1}{n+1}\cdot\frac{\left(n+1\right)!}{\left(m+1\right)!\left(n-m\right)!}=\frac{n!}{m!\left(n-m\right)!}=\binom{n}{m}$. The left side equals the right side, which proves the claim. $\blacksquare$
 
 ### Exercise 12
 
@@ -234,17 +234,17 @@ By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.1** (Addi
 
 (Exercise 6.2, Review and Consolidation, Problem 1) First calculate, then check with a calculating tool:
 
-(1) $5\mathrm{P}(5,3)+4\mathrm{P}(4,2)$;
+(1) $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)$;
 
-(2) $\mathrm{P}(4,1)+\mathrm{P}(4,2)+\mathrm{P}(4,3)+\mathrm{P}(4,4)$.
+(2) $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)$.
 
 ### Solution to Problem 1
 
 By **Formula 6.2.3** (Permutation Number Formula).
 
-(1) $\mathrm{P}(5,3)=5\times 4\times 3=60$, $\mathrm{P}(4,2)=4\times 3=12$, hence $5\mathrm{P}(5,3)+4\mathrm{P}(4,2)=5\times 60+4\times 12=300+48=348$.
+(1) $\mathrm{P}\left(5,3\right)=5\times 4\times 3=60$, $\mathrm{P}\left(4,2\right)=4\times 3=12$, hence $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)=5\times 60+4\times 12=300+48=348$.
 
-(2) $\mathrm{P}(4,1)=4$, $\mathrm{P}(4,2)=12$, $\mathrm{P}(4,3)=4\times 3\times 2=24$, $\mathrm{P}(4,4)=24$, hence $\mathrm{P}(4,1)+\mathrm{P}(4,2)+\mathrm{P}(4,3)+\mathrm{P}(4,4)=4+12+24+24=64$. $\blacksquare$
+(2) $\mathrm{P}\left(4,1\right)=4$, $\mathrm{P}\left(4,2\right)=12$, $\mathrm{P}\left(4,3\right)=4\times 3\times 2=24$, $\mathrm{P}\left(4,4\right)=24$, hence $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)=4+12+24+24=64$. $\blacksquare$
 
 ### Problem 2
 
@@ -268,7 +268,7 @@ By **Formula 6.2.7** (Combination Number Formula) and **Property** (Two Properti
 
 (3) $\binom{6}{3}=\frac{6\times 5\times 4}{6}=20$, $\binom{8}{4}=\frac{8\times 7\times 6\times 5}{24}=70$, hence $\binom{6}{3}\div \binom{8}{4}=20\div 70=\frac{2}{7}$.
 
-(4) $\binom{n+1}{n}=\binom{n+1}{1}=n+1$, $\binom{n}{n-2}=\binom{n}{2}=\frac{n(n-1)}{2}$, hence $\binom{n+1}{n}\cdot \binom{n}{n-2}=\frac{n(n-1)(n+1)}{2}$. $\blacksquare$
+(4) $\binom{n+1}{n}=\binom{n+1}{1}=n+1$, $\binom{n}{n-2}=\binom{n}{2}=\frac{n\left(n-1\right)}{2}$, hence $\binom{n+1}{n}\cdot \binom{n}{n-2}=\frac{n\left(n-1\right)\left(n+1\right)}{2}$. $\blacksquare$
 
 ### Problem 3
 
@@ -304,7 +304,7 @@ By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutatio
 
 (1) Choosing $3$ of $5$ people to visit, without regard to order, is a combination problem, with $\binom{5}{3}=10$ ways.
 
-(2) Choosing $3$ gifts and giving them to $3$ students respectively, order matters, so it is a permutation problem, with $\mathrm{P}(5,3)=60$ ways.
+(2) Choosing $3$ gifts and giving them to $3$ students respectively, order matters, so it is a permutation problem, with $\mathrm{P}\left(5,3\right)=60$ ways.
 
 (3) Each of the $5$ workers chooses $1$ day off among $3$ days, so each has $3$ choices. By **Definition 6.1.2**, there are $3^5=243$ ways.
 
@@ -325,13 +325,13 @@ By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2** (Mult
 (1) Choosing $6$ of the $12$ distinct books to place on the single-layer shelf, requiring both choosing the books and arranging them in order on the shelf, so it is a permutation problem. By **Formula 6.2.3**, the ways of arrangement are
 
 $$
-\mathrm{P}(12,6)=12\times 11\times 10\times 9\times 8\times 7=665280.
+\mathrm{P}\left(12,6\right)=12\times 11\times 10\times 9\times 8\times 7=665280.
 $$
 
-(2) Without books of the same subject being separated, first regard the mathematics books, physics books, and chemistry books each as a single block. The order of these $3$ blocks on the shelf has $\mathrm{P}(3,3)=6$ ways; arranging the mathematics books within their block has $\mathrm{P}(4,4)=24$ ways, the physics books within their block has $\mathrm{P}(5,5)=120$ ways, and the chemistry books within their block has $\mathrm{P}(3,3)=6$ ways. By **Definition 6.1.2**, the ways of arrangement total
+(2) Without books of the same subject being separated, first regard the mathematics books, physics books, and chemistry books each as a single block. The order of these $3$ blocks on the shelf has $\mathrm{P}\left(3,3\right)=6$ ways; arranging the mathematics books within their block has $\mathrm{P}\left(4,4\right)=24$ ways, the physics books within their block has $\mathrm{P}\left(5,5\right)=120$ ways, and the chemistry books within their block has $\mathrm{P}\left(3,3\right)=6$ ways. By **Definition 6.1.2**, the ways of arrangement total
 
 $$
-\mathrm{P}(3,3)\cdot \mathrm{P}(4,4)\cdot \mathrm{P}(5,5)\cdot \mathrm{P}(3,3)=6\times 24\times 120\times 6=103680.
+\mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(5,5\right)\cdot \mathrm{P}\left(3,3\right)=6\times 24\times 120\times 6=103680.
 $$
 
 $\blacksquare$
@@ -384,17 +384,17 @@ Therefore there are $24$ different ways of choosing. $\blacksquare$
 
 (Exercise 6.2, Comprehensive Application, Problem 8) Prove:
 
-(1) $\mathrm{P}(n+1,n+1)-\mathrm{P}(n,n)=n^2\mathrm{P}(n-1,n-1)$;
+(1) $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=n^2\mathrm{P}\left(n-1,n-1\right)$;
 
-(2) $\frac{(n+1)!}{k!}-\frac{n!}{(k-1)!}=\frac{(n-k+1)n!}{k!}$ ($k\le n$).
+(2) $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n-k+1\right)n!}{k!}$ ($k\le n$).
 
 ### Solution to Problem 8
 
 By **Definition 6.2.4** (Full Permutation and Factorial).
 
-(1) The left side is $\mathrm{P}(n+1,n+1)-\mathrm{P}(n,n)=(n+1)!-n!=n\cdot n!$. The right side is $n^2\mathrm{P}(n-1,n-1)=n^2(n-1)!=n\cdot n!$. The left side equals the right side, which proves the claim.
+(1) The left side is $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=\left(n+1\right)!-n!=n\cdot n!$. The right side is $n^2\mathrm{P}\left(n-1,n-1\right)=n^2\left(n-1\right)!=n\cdot n!$. The left side equals the right side, which proves the claim.
 
-(2) The left side is $\frac{(n+1)!}{k!}-\frac{n!}{(k-1)!}=\frac{(n+1)!-k\cdot n!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{(n-k+1)n!}{k!}$. The left side equals the right side, which proves the claim. $\blacksquare$
+(2) The left side is $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n+1\right)!-k\cdot n!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{\left(n-k+1\right)n!}{k!}$. The left side equals the right side, which proves the claim. $\blacksquare$
 
 ### Problem 9
 
@@ -404,10 +404,10 @@ By **Definition 6.2.4** (Full Permutation and Factorial).
 
 By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2** (Multiplication Counting Principle for Step-by-Step Processes).
 
-The $1$st and the last $1$ item are fixed, so only the remaining $9$ positions need to be arranged. The $4$ music items occupy the specified $4$ positions, which is a full permutation of $4$ elements, with $\mathrm{P}(4,4)=24$ ways; the $3$ dance items occupy the specified $3$ positions, with $\mathrm{P}(3,3)=6$ ways; the $2$ quyi items occupy the specified $2$ positions, with $\mathrm{P}(2,2)=2$ ways. By **Definition 6.1.2**, the arrangements total
+The $1$st and the last $1$ item are fixed, so only the remaining $9$ positions need to be arranged. The $4$ music items occupy the specified $4$ positions, which is a full permutation of $4$ elements, with $\mathrm{P}\left(4,4\right)=24$ ways; the $3$ dance items occupy the specified $3$ positions, with $\mathrm{P}\left(3,3\right)=6$ ways; the $2$ quyi items occupy the specified $2$ positions, with $\mathrm{P}\left(2,2\right)=2$ ways. By **Definition 6.1.2**, the arrangements total
 
 $$
-\mathrm{P}(4,4)\cdot \mathrm{P}(3,3)\cdot \mathrm{P}(2,2)=24\times 6\times 2=288.
+\mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(2,2\right)=24\times 6\times 2=288.
 $$
 
 Therefore there are $288$ different arrangements. $\blacksquare$
@@ -430,7 +430,7 @@ By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutatio
 
 (2) First choose $4$ people from $12$, with $\binom{12}{4}=495$ ways; then designate $1$ of the chosen $4$ as the substitute, with $\binom{4}{1}=4$ ways. By **Definition 6.1.2**, the ways of choosing total $495\times 4=1980$.
 
-(3) Once the $4$ debater positions are designated, taking $4$ people from $12$ and filling them in order is a permutation problem. By **Formula 6.2.3**, the ways of choosing are $\mathrm{P}(12,4)=12\times 11\times 10\times 9=11880$. $\blacksquare$
+(3) Once the $4$ debater positions are designated, taking $4$ people from $12$ and filling them in order is a permutation problem. By **Formula 6.2.3**, the ways of choosing are $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$. $\blacksquare$
 
 ### Problem 11
 
@@ -460,9 +460,9 @@ $\blacksquare$
 
 By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.1** (Addition Counting Principle for Classification).
 
-(1) First choose the digits, then arrange them. Taking $3$ from $0,2,4,6$ has $\binom{4}{3}=4$ ways, among which $3$ choices contain $0$ and $1$ choice is $\{2,4,6\}$ without $0$; taking $2$ from $1,3,5$ has $\binom{3}{2}=3$ ways.
+(1) First choose the digits, then arrange them. Taking $3$ from $0,2,4,6$ has $\binom{4}{3}=4$ ways, among which $3$ choices contain $0$ and $1$ choice is $\left\{2,4,6\right\}$ without $0$; taking $2$ from $1,3,5$ has $\binom{3}{2}=3$ ways.
 
-When $0$ is included, arranging the chosen $5$ digits into a five-digit number with $0$ not in the first position gives $\mathrm{P}(5,5)-\mathrm{P}(4,4)=120-24=96$; when $0$ is not included, the $5$ digits can be arranged freely, giving $\mathrm{P}(5,5)=120$. By **Definition 6.1.1**, in total one can form
+When $0$ is included, arranging the chosen $5$ digits into a five-digit number with $0$ not in the first position gives $\mathrm{P}\left(5,5\right)-\mathrm{P}\left(4,4\right)=120-24=96$; when $0$ is not included, the $5$ digits can be arranged freely, giving $\mathrm{P}\left(5,5\right)=120$. By **Definition 6.1.1**, in total one can form
 
 $$
 3\times 3\times 96+1\times 3\times 120=864+360=1224
@@ -470,10 +470,10 @@ $$
 
 five-digit numbers.
 
-(2) A number greater than $5000000$, formed from the $7$ digits $0\sim 6$ without repeated digits, must be a seven-digit number whose first digit is not less than $5$. The first digit takes $5$ or $6$, with $2$ choices; once the first digit is fixed, the remaining $6$ digits are arranged in the remaining $6$ positions, with $\mathrm{P}(6,6)=720$ ways. By **Definition 6.1.2**, the positive integers satisfying the condition total
+(2) A number greater than $5000000$, formed from the $7$ digits $0\sim 6$ without repeated digits, must be a seven-digit number whose first digit is not less than $5$. The first digit takes $5$ or $6$, with $2$ choices; once the first digit is fixed, the remaining $6$ digits are arranged in the remaining $6$ positions, with $\mathrm{P}\left(6,6\right)=720$ ways. By **Definition 6.1.2**, the positive integers satisfying the condition total
 
 $$
-2\times \mathrm{P}(6,6)=2\times 720=1440
+2\times \mathrm{P}\left(6,6\right)=2\times 720=1440
 $$
 
 . $\blacksquare$
@@ -624,7 +624,7 @@ By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.1** (Addi
 
 From the replies: the champion is neither A nor B, and can only be one of C, D, E, with $3$ choices; B is not $5$th (the worst).
 
-Once the champion is chosen, the remaining $4$ positions are filled by the other $4$ people (including A and B), giving $\mathrm{P}(4,4)=24$ arrangements. Among them, the cases where B ranks $5$th are fixed by placing B in $5$th and arranging the other $3$ people in positions $2,3,4$, giving $\mathrm{P}(3,3)=6$ cases. By the subtraction idea of **Definition 6.1.1**, after the champion is chosen, the arrangements satisfying the condition number $24-6=18$.
+Once the champion is chosen, the remaining $4$ positions are filled by the other $4$ people (including A and B), giving $\mathrm{P}\left(4,4\right)=24$ arrangements. Among them, the cases where B ranks $5$th are fixed by placing B in $5$th and arranging the other $3$ people in positions $2,3,4$, giving $\mathrm{P}\left(3,3\right)=6$ cases. By the subtraction idea of **Definition 6.1.1**, after the champion is chosen, the arrangements satisfying the condition number $24-6=18$.
 
 Since the champion has $3$ choices, by **Definition 6.1.2**, the total number of possible rankings of the $5$ people is
 

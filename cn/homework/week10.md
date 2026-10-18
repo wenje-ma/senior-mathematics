@@ -326,7 +326,7 @@ $$
 
 两间居室共需 $3$ 段宽 (每段长 $x$) 和 $2$ 段总长 (每段设为 $y$), 围墙总长为 $3x+2y=30$, 故 $y=15-\frac{3x}{2}$. 每间面积为 $S=x\cdot\frac{y}{2}=x\left(\frac{15}{2}-\frac{3x}{4}\right)=-\frac{3}{4}x^2+\frac{15}{2}x$.
 
-当 $x=-\frac{15/2}{2\cdot(-3/4)}=5$ 时, $S$ 取最大值 $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\ \text{m}^2$. 故宽为 $5\ \text{m}$ 时每间面积最大, 最大面积为 $18.75\ \text{m}^2$. $\blacksquare$
+当 $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$ 时, $S$ 取最大值 $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\ \text{m}^2$. 故宽为 $5\ \text{m}$ 时每间面积最大, 最大面积为 $18.75\ \text{m}^2$. $\blacksquare$
 
 ### 习题十一
 

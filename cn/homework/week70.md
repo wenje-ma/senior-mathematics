@@ -32,7 +32,7 @@
 
 近地点 $A$ 到地心距离为 $6371+439=6810\,\mathrm{km}$, 远地点 $B$ 到地心距离为 $6371+2384=8755\,\mathrm{km}$. 由**定义 3.1.3**, $a-c=6810$, $a+c=8755$. 解得 $a=7782.5\approx7783\,\mathrm{km}$, $c=972.5\approx973\,\mathrm{km}$.
 
-(1) $b^2=a^2-c^2=(a-c)(a+c)=6810\times8755=59621550$. 轨道方程为
+(1) $b^2=a^2-c^2=\left(a-c\right)\left(a+c\right)=6810\times8755=59621550$. 轨道方程为
 
 $$
 \frac{x^2}{7783^2}+\frac{y^2}{59621550}=1.
@@ -44,13 +44,13 @@ $$
 
 (复习参考题 3 复习巩固第 2 题) 选择题.
 
-(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 与椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k<9$) 的 $(\quad)$.
+(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 与椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k<9$) 的 $\left(\quad\right)$.
 
 (A) 长轴长相等    (B) 短轴长相等
 
 (C) 离心率相等    (D) 焦距相等
 
-(2) 与圆 $x^2+y^2=1$ 及圆 $x^2+y^2-8x+12=0$ 都外切的圆的圆心在 $(\quad)$.
+(2) 与圆 $x^2+y^2=1$ 及圆 $x^2+y^2-8x+12=0$ 都外切的圆的圆心在 $\left(\quad\right)$.
 
 (A) 椭圆上    (B) 双曲线的一支上
 
@@ -58,9 +58,9 @@ $$
 
 ### 解答 习题二
 
-(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 中 $c^2=25-9=16$, $c=4$. 椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ 中 $c^2=(25-k)-(9-k)=16$, $c=4$. 两椭圆焦距均为 $2c=8$, 故焦距相等. 选 (D).
+(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 中 $c^2=25-9=16$, $c=4$. 椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ 中 $c^2=\left(25-k\right)-\left(9-k\right)=16$, $c=4$. 两椭圆焦距均为 $2c=8$, 故焦距相等. 选 (D).
 
-(2) 圆 $x^2+y^2=1$ 圆心 $O_1(0,0)$, 半径 $r_1=1$. 圆 $x^2+y^2-8x+12=0$ 化为 $(x-4)^2+y^2=4$, 圆心 $O_2(4,0)$, 半径 $r_2=2$. 动圆与两圆都外切, 设半径 $R$, 则 $\lvert MO_1 \rvert=R+1$, $\lvert MO_2 \rvert=R+2$, 故 $\lvert MO_2 \rvert-\lvert MO_1 \rvert=1$. 由**定义 3.2.1** (双曲线), 圆心在双曲线的一支上. 选 (B). $\blacksquare$
+(2) 圆 $x^2+y^2=1$ 圆心 $O_1\left(0,0\right)$, 半径 $r_1=1$. 圆 $x^2+y^2-8x+12=0$ 化为 $\left(x-4\right)^2+y^2=4$, 圆心 $O_2\left(4,0\right)$, 半径 $r_2=2$. 动圆与两圆都外切, 设半径 $R$, 则 $\lvert MO_1 \rvert=R+1$, $\lvert MO_2 \rvert=R+2$, 故 $\lvert MO_2 \rvert-\lvert MO_1 \rvert=1$. 由**定义 3.2.1** (双曲线), 圆心在双曲线的一支上. 选 (B). $\blacksquare$
 
 ### 习题三
 
@@ -84,9 +84,9 @@ $$
 
 ### 解答 习题四
 
-将 $y=kx-1$ 代入 $x^2-y^2=4$, 得 $x^2-(kx-1)^2=4$, 即 $(1-k^2)x^2+2kx-5=0$.
+将 $y=kx-1$ 代入 $x^2-y^2=4$, 得 $x^2-\left(kx-1\right)^2=4$, 即 $\left(1-k^2\right)x^2+2kx-5=0$.
 
-无公共点需无实根. 当 $1-k^2=0$ 即 $k=\pm1$ 时, 方程为一次方程, 有一个解, 不合题意. 当 $1-k^2\neq0$ 时, 判别式 $\Delta=4k^2+20(1-k^2)<0$, 即 $20-16k^2<0$, $k^2>\frac{5}{4}$. 故 $k$ 的取值范围是 $k<-\frac{\sqrt{5}}{2}$ 或 $k>\frac{\sqrt{5}}{2}$. $\blacksquare$
+无公共点需无实根. 当 $1-k^2=0$ 即 $k=\pm1$ 时, 方程为一次方程, 有一个解, 不合题意. 当 $1-k^2\neq0$ 时, 判别式 $\Delta=4k^2+20\left(1-k^2\right)<0$, 即 $20-16k^2<0$, $k^2>\frac{5}{4}$. 故 $k$ 的取值范围是 $k<-\frac{\sqrt{5}}{2}$ 或 $k>\frac{\sqrt{5}}{2}$. $\blacksquare$
 
 ### 习题五
 
@@ -96,7 +96,7 @@ $$
 
 设抛物线 $y^2=2px$, 焦点 $F\left(\frac{p}{2},0\right)$. 过 $F$ 垂直对称轴 ($x$ 轴) 的直线 $x=\frac{p}{2}$ 交抛物线于 $B\left(\frac{p}{2},p\right)$, $C\left(\frac{p}{2},-p\right)$, 故 $\lvert BC \rvert=2p$.
 
-设 $P(x_0,y_0)$ 在抛物线上, $y_0^2=2px_0$. $PQ$ 垂直 $x$ 轴交 $x$ 轴于 $Q(x_0,0)$, 故 $\lvert PQ \rvert=\lvert y_0 \rvert$, $\lvert OQ \rvert=x_0$.
+设 $P\left(x_0,y_0\right)$ 在抛物线上, $y_0^2=2px_0$. $PQ$ 垂直 $x$ 轴交 $x$ 轴于 $Q\left(x_0,0\right)$, 故 $\lvert PQ \rvert=\lvert y_0 \rvert$, $\lvert OQ \rvert=x_0$.
 
 $\lvert PQ \rvert^2=y_0^2=2px_0$, $\lvert BC \rvert\cdot\lvert OQ \rvert=2p\cdot x_0=2px_0$. 故 $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$. $\blacksquare$
 
@@ -106,9 +106,9 @@ $\lvert PQ \rvert^2=y_0^2=2px_0$, $\lvert BC \rvert\cdot\lvert OQ \rvert=2p\cdot
 
 ### 解答 习题六
 
-焦点 $F\left(\frac{p}{2},0\right)$. 设抛物线上两点 $A$, $B$ 关于 $x$ 轴对称, $A(x_0,y_0)$, $B(x_0,-y_0)$. $\lvert FA \rvert=\lvert FB \rvert=\lvert AB \rvert$.
+焦点 $F\left(\frac{p}{2},0\right)$. 设抛物线上两点 $A$, $B$ 关于 $x$ 轴对称, $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$. $\lvert FA \rvert=\lvert FB \rvert=\lvert AB \rvert$.
 
-$\lvert AB \rvert=2\lvert y_0 \rvert$, $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. 由 $\lvert FA \rvert=\lvert AB \rvert$ 及 $y_0^2=2px_0$, 得 $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, 即 $x_0^2-px_0+\frac{p^2}{4}=8px_0$, $x_0^2-9px_0+\frac{p^2}{4}=0$. 解得 $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. 取 $x_0>0$ 的解, 边长 $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. 代入得边长为 $2p\sqrt{9+4\sqrt{5}}=2p(2\sqrt{5}+1)$. $\blacksquare$
+$\lvert AB \rvert=2\lvert y_0 \rvert$, $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. 由 $\lvert FA \rvert=\lvert AB \rvert$ 及 $y_0^2=2px_0$, 得 $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, 即 $x_0^2-px_0+\frac{p^2}{4}=8px_0$, $x_0^2-9px_0+\frac{p^2}{4}=0$. 解得 $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. 取 $x_0>0$ 的解, 边长 $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. 代入得边长为 $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
 
 ### 习题七
 
@@ -116,9 +116,9 @@ $\lvert AB \rvert=2\lvert y_0 \rvert$, $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p
 
 ### 解答 习题七
 
-椭圆 $16x^2+25y^2=1600$ 化为 $\frac{x^2}{100}+\frac{y^2}{64}=1$, $a=10$, $b=8$, $c=6$. $F_1(-6,0)$, $F_2(6,0)$, $\lvert F_1F_2 \rvert=12$.
+椭圆 $16x^2+25y^2=1600$ 化为 $\frac{x^2}{100}+\frac{y^2}{64}=1$, $a=10$, $b=8$, $c=6$. $F_1\left(-6,0\right)$, $F_2\left(6,0\right)$, $\lvert F_1F_2 \rvert=12$.
 
-直线 $PF_2$ 过 $F_2(6,0)$, 斜率 $-\frac{4\sqrt{3}}{3}$, 方程为 $y=-\frac{4\sqrt{3}}{3}(x-6)$. 代入椭圆方程求 $P$ 的纵坐标. 解得 $P$ 的纵坐标 $y_P=3\sqrt{3}$ (取上方). 面积 $S=\frac{1}{2}\cdot\lvert F_1F_2 \rvert\cdot\lvert y_P \rvert=\frac{1}{2}\cdot12\cdot3\sqrt{3}=18\sqrt{3}$. $\blacksquare$
+直线 $PF_2$ 过 $F_2\left(6,0\right)$, 斜率 $-\frac{4\sqrt{3}}{3}$, 方程为 $y=-\frac{4\sqrt{3}}{3}\left(x-6\right)$. 代入椭圆方程求 $P$ 的纵坐标. 解得 $P$ 的纵坐标 $y_P=3\sqrt{3}$ (取上方). 面积 $S=\frac{1}{2}\cdot\lvert F_1F_2 \rvert\cdot\lvert y_P \rvert=\frac{1}{2}\cdot12\cdot3\sqrt{3}=18\sqrt{3}$. $\blacksquare$
 
 ### 习题八
 
@@ -128,11 +128,11 @@ $\lvert AB \rvert=2\lvert y_0 \rvert$, $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p
 
 ### 解答 习题八
 
-$P$ 向 $x$ 轴垂足为 $F_1(-c,0)$, 故 $P(-c,y_P)$. 代入椭圆: $\frac{c^2}{a^2}+\frac{y_P^2}{b^2}=1$, $y_P^2=b^2\left(1-\frac{c^2}{a^2}\right)=\frac{b^4}{a^2}$, $y_P=\frac{b^2}{a}$ ($P$ 在上方).
+$P$ 向 $x$ 轴垂足为 $F_1\left(-c,0\right)$, 故 $P\left(-c,y_P\right)$. 代入椭圆: $\frac{c^2}{a^2}+\frac{y_P^2}{b^2}=1$, $y_P^2=b^2\left(1-\frac{c^2}{a^2}\right)=\frac{b^4}{a^2}$, $y_P=\frac{b^2}{a}$ ($P$ 在上方).
 
-$A(a,0)$, $B(0,b)$, $k_{AB}=-\frac{b}{a}$. $k_{OP}=\frac{y_P}{-c}=-\frac{b^2}{ac}$. 由 $AB\parallel OP$, $-\frac{b}{a}=-\frac{b^2}{ac}$, 得 $b=c$. 又 $a^2=b^2+c^2=2c^2$, $a=\sqrt{2}c$.
+$A\left(a,0\right)$, $B\left(0,b\right)$, $k_{AB}=-\frac{b}{a}$. $k_{OP}=\frac{y_P}{-c}=-\frac{b^2}{ac}$. 由 $AB\parallel OP$, $-\frac{b}{a}=-\frac{b^2}{ac}$, 得 $b=c$. 又 $a^2=b^2+c^2=2c^2$, $a=\sqrt{2}c$.
 
-$\lvert F_1A \rvert=a+c=\sqrt{10}+\sqrt{5}$, 即 $c(\sqrt{2}+1)=\sqrt{5}(\sqrt{2}+1)$, $c=\sqrt{5}$. $b=\sqrt{5}$, $a=\sqrt{10}$. 椭圆方程为
+$\lvert F_1A \rvert=a+c=\sqrt{10}+\sqrt{5}$, 即 $c\left(\sqrt{2}+1\right)=\sqrt{5}\left(\sqrt{2}+1\right)$, $c=\sqrt{5}$. $b=\sqrt{5}$, $a=\sqrt{10}$. 椭圆方程为
 
 $$
 \frac{x^2}{10}+\frac{y^2}{5}=1.
@@ -142,11 +142,11 @@ $\blacksquare$
 
 ### 习题九
 
-(复习参考题 3 综合运用第 9 题) 已知 $A$, $B$ 两点的坐标分别是 $(-1,0)$, $(1,0)$. 直线 $AM$, $BM$ 相交于点 $M$, 且它们的斜率之和是 $2$, 求点 $M$ 的轨迹方程.
+(复习参考题 3 综合运用第 9 题) 已知 $A$, $B$ 两点的坐标分别是 $\left(-1,0\right)$, $\left(1,0\right)$. 直线 $AM$, $BM$ 相交于点 $M$, 且它们的斜率之和是 $2$, 求点 $M$ 的轨迹方程.
 
 ### 解答 习题九
 
-设 $M(x,y)$, $k_{AM}=\frac{y}{x+1}$, $k_{BM}=\frac{y}{x-1}$. 由题意, $\frac{y}{x+1}+\frac{y}{x-1}=2$, 即
+设 $M\left(x,y\right)$, $k_{AM}=\frac{y}{x+1}$, $k_{BM}=\frac{y}{x-1}$. 由题意, $\frac{y}{x+1}+\frac{y}{x-1}=2$, 即
 
 $$
 y\cdot\frac{2x}{x^2-1}=2.
@@ -156,27 +156,27 @@ $$
 
 ### 习题十
 
-(复习参考题 3 拓广探索第 10 题) 如图, 已知直线与抛物线 $y^2=2px$ ($p>0$) 交于 $A$, $B$ 两点, 且 $OA\perp OB$, $OD\perp AB$ 交 $AB$ 于点 $D$, 点 $D$ 的坐标为 $(2,1)$, 求 $p$ 的值.
+(复习参考题 3 拓广探索第 10 题) 如图, 已知直线与抛物线 $y^2=2px$ ($p>0$) 交于 $A$, $B$ 两点, 且 $OA\perp OB$, $OD\perp AB$ 交 $AB$ 于点 $D$, 点 $D$ 的坐标为 $\left(2,1\right)$, 求 $p$ 的值.
 
 ![week70-3.svg](../../figures/week70-3.svg){width=50%}
 
 ### 解答 习题十
 
-$D(2,1)$ 在 $AB$ 上, $OD$ 斜率 $\frac{1}{2}$, $OD\perp AB$, 故 $AB$ 斜率 $-2$. $AB$ 方程为 $y-1=-2(x-2)$, 即 $y=-2x+5$.
+$D\left(2,1\right)$ 在 $AB$ 上, $OD$ 斜率 $\frac{1}{2}$, $OD\perp AB$, 故 $AB$ 斜率 $-2$. $AB$ 方程为 $y-1=-2\left(x-2\right)$, 即 $y=-2x+5$.
 
-设 $A(x_1,y_1)$, $B(x_2,y_2)$. $OA\perp OB$, $x_1x_2+y_1y_2=0$. 将 $y=-2x+5$ 代入 $y^2=2px$, 得 $(-2x+5)^2=2px$, $4x^2-(20+2p)x+25=0$. $x_1x_2=\frac{25}{4}$, $x_1+x_2=\frac{20+2p}{4}$.
+设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$. $OA\perp OB$, $x_1x_2+y_1y_2=0$. 将 $y=-2x+5$ 代入 $y^2=2px$, 得 $\left(-2x+5\right)^2=2px$, $4x^2-\left(20+2p\right)x+25=0$. $x_1x_2=\frac{25}{4}$, $x_1+x_2=\frac{20+2p}{4}$.
 
-$y_1y_2=(-2x_1+5)(-2x_2+5)=4x_1x_2-10(x_1+x_2)+25=25-\frac{10(20+2p)}{4}+25=50-5(10+p)=-5p$.
+$y_1y_2=\left(-2x_1+5\right)\left(-2x_2+5\right)=4x_1x_2-10\left(x_1+x_2\right)+25=25-\frac{10\left(20+2p\right)}{4}+25=50-5\left(10+p\right)=-5p$.
 
 由 $x_1x_2+y_1y_2=0$, $\frac{25}{4}-5p=0$, $p=\frac{5}{4}$. $\blacksquare$
 
 ### 习题十一
 
-(复习参考题 3 拓广探索第 11 题) 已知 $\triangle ABC$ 的两个顶点 $A$, $B$ 的坐标分别是 $(-5,0)$, $(5,0)$, 且 $AC$, $BC$ 所在直线的斜率之积等于 $m$ ($m\neq0$), 求顶点 $C$ 的轨迹.
+(复习参考题 3 拓广探索第 11 题) 已知 $\triangle ABC$ 的两个顶点 $A$, $B$ 的坐标分别是 $\left(-5,0\right)$, $\left(5,0\right)$, 且 $AC$, $BC$ 所在直线的斜率之积等于 $m$ ($m\neq0$), 求顶点 $C$ 的轨迹.
 
 ### 解答 习题十一
 
-设 $C(x,y)$, $k_{AC}=\frac{y}{x+5}$, $k_{BC}=\frac{y}{x-5}$. 由题意, $\frac{y^2}{x^2-25}=m$, 即
+设 $C\left(x,y\right)$, $k_{AC}=\frac{y}{x+5}$, $k_{BC}=\frac{y}{x-5}$. 由题意, $\frac{y^2}{x^2-25}=m$, 即
 
 $$
 \frac{x^2}{25}-\frac{y^2}{25m}=1.
@@ -190,21 +190,21 @@ $$
 
 ### 解答 习题十二
 
-设 $P(x_0,y_0)$ 在 $y^2=4x$ 上, $x_0=\frac{y_0^2}{4}$. $P$ 到直线 $x-y+3=0$ 的距离
+设 $P\left(x_0,y_0\right)$ 在 $y^2=4x$ 上, $x_0=\frac{y_0^2}{4}$. $P$ 到直线 $x-y+3=0$ 的距离
 
 $$
 d=\frac{\left|x_0-y_0+3\right|}{\sqrt{2}}=\frac{\left|\frac{y_0^2}{4}-y_0+3\right|}{\sqrt{2}}.
 $$
 
-$\frac{y_0^2}{4}-y_0+3=\frac{1}{4}(y_0-2)^2+2>0$, 故 $d=\frac{\frac{1}{4}(y_0-2)^2+2}{\sqrt{2}}$. 当 $y_0=2$ 时 $d$ 最小, $x_0=1$. 点 $P$ 为 $(1,2)$. $\blacksquare$
+$\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2>0$, 故 $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. 当 $y_0=2$ 时 $d$ 最小, $x_0=1$. 点 $P$ 为 $\left(1,2\right)$. $\blacksquare$
 
 ### 习题十三
 
-(复习参考题 3 拓广探索第 13 题) 当 $m$ 变化时, 指出方程 $(m-1)x^2+(3-m)y^2=(m-1)(3-m)$ 表示的曲线的形状.
+(复习参考题 3 拓广探索第 13 题) 当 $m$ 变化时, 指出方程 $\left(m-1\right)x^2+\left(3-m\right)y^2=\left(m-1\right)\left(3-m\right)$ 表示的曲线的形状.
 
 ### 解答 习题十三
 
-两边除以 $(m-1)(3-m)$ (假设 $m\neq1$, $m\neq3$), 得
+两边除以 $\left(m-1\right)\left(3-m\right)$ (假设 $m\neq1$, $m\neq3$), 得
 
 $$
 \frac{x^2}{3-m}+\frac{y^2}{m-1}=1.
@@ -228,7 +228,7 @@ $$
 
 ### 解答 习题十四
 
-由图中尺寸, 抛物线部分宽 $8\,\mathrm{m}$, 高 $3\,\mathrm{m}$ (长方形部分高 $2\,\mathrm{m}$, 抛物线顶高出长方形 $3\,\mathrm{m}$). 以抛物线顶点为原点, 开口向下, 设 $x^2=-2py$. 抛物线过 $(4,-3)$, $16=6p$, $p=\frac{8}{3}$, 方程 $x^2=-\frac{16}{3}y$.
+由图中尺寸, 抛物线部分宽 $8\,\mathrm{m}$, 高 $3\,\mathrm{m}$ (长方形部分高 $2\,\mathrm{m}$, 抛物线顶高出长方形 $3\,\mathrm{m}$). 以抛物线顶点为原点, 开口向下, 设 $x^2=-2py$. 抛物线过 $\left(4,-3\right)$, $16=6p$, $p=\frac{8}{3}$, 方程 $x^2=-\frac{16}{3}y$.
 
 行车道宽 $6\,\mathrm{m}$, 即 $x=\pm3$. 代入: $9=-\frac{16}{3}y$, $y=-\frac{27}{16}\approx-1.69$. 抛物线在 $x=3$ 处距顶点 $1.69\,\mathrm{m}$. 长方形高 $2\,\mathrm{m}$, 故隧道在车道边缘处总高为 $2+1.69=3.69\,\mathrm{m}$. 要求高度差至少 $0.5\,\mathrm{m}$, 限制高度为 $3.69-0.5\approx3.2\,\mathrm{m}$. $\blacksquare$
 

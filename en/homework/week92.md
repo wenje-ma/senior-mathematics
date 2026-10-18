@@ -1,6 +1,6 @@
 # Assignment 92
 
-> **Definition 8.2.1** (Simple Linear Regression Model) <br>Let $x$ denote the independent variable, $Y$ the dependent variable, and $e$ the random error; assume the mean of the random error $e$ is 0 and its variance is a constant $\sigma^2$ independent of $x$; then the relationship among them can be written as $Y=bx+a+e$, $\mathbb E(e)=0$, $D(e)=\sigma^2$. Here $a$ is called the intercept parameter, $b$ is called the slope parameter, and $e$ is the random error between $Y$ and $bx+a$.
+> **Definition 8.2.1** (Simple Linear Regression Model) <br>Let $x$ denote the independent variable, $Y$ the dependent variable, and $e$ the random error; assume the mean of the random error $e$ is 0 and its variance is a constant $\sigma^2$ independent of $x$; then the relationship among them can be written as $Y=bx+a+e$, $\mathbb E\left(e\right)=0$, $D\left(e\right)=\sigma^2$. Here $a$ is called the intercept parameter, $b$ is called the slope parameter, and $e$ is the random error between $Y$ and $bx+a$.
 
 > **Definition 8.2.4** (Empirical Regression Equation) <br>Based on the sample data, the least squares method is used to estimate the model parameters $a$, $b$; the equation $\hat y=\hat b x+\hat a$ obtained from the least squares estimates is called the empirical regression equation of $y$ on $x$.
 
@@ -36,7 +36,7 @@ By **Definition 8.2.1** (Simple Linear Regression Model), taking traffic flow as
 (2) Build the linear regression equation. By **Definition 8.2.1** (Simple Linear Regression Model), set
 
 $$
-Y=bx+a+e,\quad \mathbb E(e)=0,\quad D(e)=\sigma^2.
+Y=bx+a+e,\quad \mathbb E\left(e\right)=0,\quad D\left(e\right)=\sigma^2.
 $$
 
 By **Definition 8.2.4** (Empirical Regression Equation), using the least squares method to estimate the parameters $a$, $b$, we obtain the empirical regression equation
@@ -59,9 +59,9 @@ $$
 
 (3) Analysis of the regression results. By **Common Conclusion 8.2.8** (Analysis of Regression Results), the model is tested from three aspects.
 
-(a) Estimate of the regression coefficient. $\hat b=138.60>0$, indicating that the $PM_{2.5}$ concentration increases as traffic flow increases: for every additional 100 vehicles (i.e. 0.1 thousand vehicles), the $PM_{2.5}$ concentration in the air increases on average by $13.86\ \mu\mathrm{g/m^3}$. The $t$ statistic corresponding to the regression coefficient $b$ is $6.721$, with degrees of freedom $n-2=22$; given the significance level $\alpha=0.05$, the critical value is $t_{0.025}(22)=2.074$. Since $t=6.721>t_{0.025}(22)$, or the corresponding $p$-value $9.37\times 10^{-7}<0.05$, this shows that $b$ is significantly not 0, and traffic flow is a significant factor affecting the $PM_{2.5}$ concentration.
+(a) Estimate of the regression coefficient. $\hat b=138.60>0$, indicating that the $PM_{2.5}$ concentration increases as traffic flow increases: for every additional 100 vehicles (i.e. 0.1 thousand vehicles), the $PM_{2.5}$ concentration in the air increases on average by $13.86\ \mu\mathrm{g/m^3}$. The $t$ statistic corresponding to the regression coefficient $b$ is $6.721$, with degrees of freedom $n-2=22$; given the significance level $\alpha=0.05$, the critical value is $t_{0.025}\left(22\right)=2.074$. Since $t=6.721>t_{0.025}\left(22\right)$, or the corresponding $p$-value $9.37\times 10^{-7}<0.05$, this shows that $b$ is significantly not 0, and traffic flow is a significant factor affecting the $PM_{2.5}$ concentration.
 
-(b) Test of significance of the linear relationship. The value of the $F$ statistic is $45.17$, with numerator degrees of freedom $1$ and denominator degrees of freedom $n-2=22$; the critical value is $F_{0.05}(1,22)=4.301$. Since $F=45.17>F_{0.05}(1,22)$, or the $p$-value $9.366\times 10^{-7}<0.05$, this shows that the linear relationship between the $PM_{2.5}$ concentration and traffic flow is significant, and regression equation (1) can be considered to be statistically meaningful.
+(b) Test of significance of the linear relationship. The value of the $F$ statistic is $45.17$, with numerator degrees of freedom $1$ and denominator degrees of freedom $n-2=22$; the critical value is $F_{0.05}\left(1,22\right)=4.301$. Since $F=45.17>F_{0.05}\left(1,22\right)$, or the $p$-value $9.366\times 10^{-7}<0.05$, this shows that the linear relationship between the $PM_{2.5}$ concentration and traffic flow is significant, and regression equation (1) can be considered to be statistically meaningful.
 
 (c) Coefficient of determination. The multiple coefficient of determination is $R^2=0.6725$, and the adjusted coefficient of determination is $R'=0.6576=65.76\%$, indicating that $65.76\%$ of the total variation in the $PM_{2.5}$ concentration is related to traffic flow, and the model fits well.
 

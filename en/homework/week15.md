@@ -6,7 +6,7 @@
 
 > **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) <br>When $a>0$, $a\neq 1$, $a^x=N\Leftrightarrow x=\log_a N$. Negative numbers and $0$ have no logarithms; $\log_a 1=0$, $\log_a a=1$.
 
-> **Standard Conclusion 4.3.4** (Logarithm Operation Properties) <br>If $a>0$, and $a\neq 1$, $M>0$, $N>0$, then (1) $\log_a(MN)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
+> **Standard Conclusion 4.3.4** (Logarithm Operation Properties) <br>If $a>0$, and $a\neq 1$, $M>0$, $N>0$, then (1) $\log_a\left(MN\right)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
 
 > **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, and $a\neq 1$; $b>0$; $c>0$, and $c\neq 1$).
 
@@ -84,7 +84,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (1) $\log_{\frac{1}{3}} x=-3$ becomes $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
 
-(2) $\log_x 49=4$ becomes $x^4=49$, and since $x>0$ and $x\neq 1$, $x=\sqrt[4]{49}=\sqrt{7}$.
+(2) $\log_x 49=4$ becomes $x^4=49$, and since $x>0$ and $x\neq 1$, $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
 
 (3) $\lg 0.00001=x$ becomes $10^x=0.00001=10^{-5}$, so $x=-5$.
 
@@ -94,7 +94,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (Exercise 4.3, Problem 4) Find the values of the following.
 
-(1) $\log_3(27\times 9^2)$;
+(1) $\log_3\left(27\times 9^2\right)$;
 
 (2) $\lg 5+\lg 2$;
 
@@ -106,7 +106,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
-(1) By (1) (3), $\log_3(27\times 9^2)=\log_3 27+2\log_3 9=3+2\times 2=7$.
+(1) By (1) (3), $\log_3\left(27\times 9^2\right)=\log_3 27+2\log_3 9=3+2\times 2=7$.
 
 (2) By (1), $\lg 5+\lg 2=\lg 10=1$.
 
@@ -118,7 +118,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
 (Exercise 4.3, Problem 5) Express the following in terms of $\lg x$, $\lg y$, $\lg z$.
 
-(1) $\lg(xyz)$;
+(1) $\lg\left(xyz\right)$;
 
 (2) $\lg\frac{xy^2}{z}$;
 
@@ -130,7 +130,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
 By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
-(1) By (1), $\lg(xyz)=\lg x+\lg y+\lg z$.
+(1) By (1), $\lg\left(xyz\right)=\lg x+\lg y+\lg z$.
 
 (2) By (1) (2), $\lg\frac{xy^2}{z}=\lg x+2\lg y-\lg z$.
 
@@ -204,7 +204,7 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relations
 
 (Exercise 4.3, Review and Consolidation, Problem 2) Multiple choice.
 
-(1) The range of values of $x$ for which the expression $\log_{(2x-1)}(2-x)$ is meaningful is ( ).
+(1) The range of values of $x$ for which the expression $\log_{\left(2x-1\right)}\left(2-x\right)$ is meaningful is ( ).
 
 (A) $x>2$ (B) $x<2$ (C) $\frac{1}{2}<x<2$ (D) $\frac{1}{2}<x<2$, and $x\neq 1$
 
@@ -216,9 +216,9 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relations
 
 By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
-(1) For the logarithm $\log_{(2x-1)}(2-x)$ to be meaningful, the base $2x-1>0$ and $2x-1\neq 1$, and the antilogarithm $2-x>0$. That is, $x>\frac{1}{2}$, $x\neq 1$, $x<2$. Combining gives $\frac{1}{2}<x<2$ and $x\neq 1$, so choose (D).
+(1) For the logarithm $\log_{\left(2x-1\right)}\left(2-x\right)$ to be meaningful, the base $2x-1>0$ and $2x-1\neq 1$, and the antilogarithm $2-x>0$. That is, $x>\frac{1}{2}$, $x\neq 1$, $x<2$. Combining gives $\frac{1}{2}<x<2$ and $x\neq 1$, so choose (D).
 
-(2) $\lg a$ and $\lg b$ are opposites of each other, i.e. $\lg a+\lg b=0$. By **Standard Conclusion 4.3.4** (1), $\lg(ab)=0$, so $ab=1$; choose (C). $\blacksquare$
+(2) $\lg a$ and $\lg b$ are opposites of each other, i.e. $\lg a+\lg b=0$. By **Standard Conclusion 4.3.4** (1), $\lg\left(ab\right)=0$, so $ab=1$; choose (C). $\blacksquare$
 
 ### Problem 3
 
@@ -232,7 +232,7 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.4** (Logarithm
 
 (4) $2\log_5 25-3\log_2 64$;
 
-(5) $\log_2(\log_2 16)$;
+(5) $\log_2\left(\log_2 16\right)$;
 
 (6) $\log_2 25\times\log_3 4\times\log_5 9$.
 
@@ -248,7 +248,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard
 
 (4) $2\log_5 25-3\log_2 64=2\times 2-3\times 6=-14$.
 
-(5) $\log_2(\log_2 16)=\log_2 4=2$.
+(5) $\log_2\left(\log_2 16\right)=\log_2 4=2$.
 
 (6) By the change-of-base formula, the original expression $=\frac{\ln 25}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 9}{\ln 5}=\frac{2\ln 5}{\ln 2}\cdot\frac{2\ln 2}{\ln 3}\cdot\frac{2\ln 3}{\ln 5}=8$. $\blacksquare$
 
@@ -262,19 +262,19 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard
 
 (3) $\log_a x=\frac{1}{2}\log_a b-\log_a c$;
 
-(4) $\log_2\left[\log_3(\log_4 x)\right]=0$.
+(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$.
 
 ### Solution to Problem 4
 
 By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-(1) By (1), $\ln x=\ln(ab)$, so $x=ab$.
+(1) By (1), $\ln x=\ln\left(ab\right)$, so $x=ab$.
 
 (2) By (1) (2), $\lg x=\lg\frac{n^3}{m}$, so $x=\frac{n^3}{m}$.
 
 (3) By (2) (3), $\log_a x=\log_a\frac{\sqrt{b}}{c}$, so $x=\frac{\sqrt{b}}{c}$.
 
-(4) $\log_2\left[\log_3(\log_4 x)\right]=0$; from $\log_a 1=0$, we get $\log_3(\log_4 x)=1$; from $a^1=a$, we get $\log_4 x=3$; so $x=4^3=64$. $\blacksquare$
+(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$; from $\log_a 1=0$, we get $\log_3\left(\log_4 x\right)=1$; from $a^1=a$, we get $\log_4 x=3$; so $x=4^3=64$. $\blacksquare$
 
 ### Problem 5
 
@@ -292,11 +292,11 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard
 
 By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-(1) $\lg 6=\lg(2\times 3)=\lg 2+\lg 3=a+b$.
+(1) $\lg 6=\lg\left(2\times 3\right)=\lg 2+\lg 3=a+b$.
 
 (2) By the change-of-base formula, $\log_3 4=\frac{\lg 4}{\lg 3}=\frac{2\lg 2}{\lg 3}=\frac{2a}{b}$.
 
-(3) By the change-of-base formula, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg(3\times 4)}{\lg 2}=\frac{b+2a}{a}$.
+(3) By the change-of-base formula, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg\left(3\times 4\right)}{\lg 2}=\frac{b+2a}{a}$.
 
 (4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
 
@@ -306,7 +306,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard
 
 (1) If $x\log_3 4=1$, find the value of $4^x+4^{-x}$;
 
-(2) if $f(x)=3^x$, find the value of $f(\log_3 2)$.
+(2) if $f\left(x\right)=3^x$, find the value of $f\left(\log_3 2\right)$.
 
 ### Solution to Problem 6
 
@@ -314,7 +314,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (1) From $x\log_3 4=1$, we get $x=\log_4 3$. Thus $4^x=3$, $4^{-x}=\frac{1}{3}$, and therefore $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
 
-(2) $f(\log_3 2)=3^{\log_3 2}=2$. $\blacksquare$
+(2) $f\left(\log_3 2\right)=3^{\log_3 2}=2$. $\blacksquare$
 
 ### Problem 7
 
@@ -344,7 +344,7 @@ Let $x$ years be needed for the gross domestic product to quadruple, then $1.065
 
 ### Problem 9
 
-(Exercise 4.3, Extension and Exploration, Problem 9) We can regard $(1+1\%)^{365}$ as the daily "progress" rate being $1\%$, and after one year it is $1.01^{365}$; while regarding $(1-1\%)^{365}$ as the daily "falling behind" rate being $1\%$, and after one year it is $0.99^{365}$. Use a calculating tool to compute and answer the following questions.
+(Exercise 4.3, Extension and Exploration, Problem 9) We can regard $\left(1+1\%\right)^{365}$ as the daily "progress" rate being $1\%$, and after one year it is $1.01^{365}$; while regarding $\left(1-1\%\right)^{365}$ as the daily "falling behind" rate being $1\%$, and after one year it is $0.99^{365}$. Use a calculating tool to compute and answer the following questions.
 
 (1) After one year, by how many times is "progress" greater than "falling behind"?
 
@@ -356,7 +356,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (1) After one year, the ratio of progress to falling behind is $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
 
-(2) Let $x$ days be needed for progress to be $k$ times falling behind, then $\left(\frac{1.01}{0.99}\right)^x=k$, so $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg(1.01/0.99)}$. When $k=10$, $x\approx\frac{1}{0.0087}\approx 115$ days; when $k=100$, $x\approx 230$ days; when $k=1000$, $x\approx 345$ days. $\blacksquare$
+(2) Let $x$ days be needed for progress to be $k$ times falling behind, then $\left(\frac{1.01}{0.99}\right)^x=k$, so $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg\left(1.01/0.99\right)}$. When $k=10$, $x\approx\frac{1}{0.0087}\approx 115$ days; when $k=100$, $x\approx 230$ days; when $k=1000$, $x\approx 345$ days. $\blacksquare$
 
 ### Problem 10
 

@@ -1,6 +1,6 @@
 # Assignment 24
 
-> **Definition 5.7.1** (Simple Harmonic Motion) <br>The motion of an object in which the force it experiences (always directed toward the equilibrium position) is proportional to its distance from the equilibrium position is called simple harmonic motion. Under a suitable rectangular coordinate system, simple harmonic motion can be represented by $y=A\sin(\omega x+\varphi)$, $x\in[0,+\infty)$, where $A>0$, $\omega>0$.
+> **Definition 5.7.1** (Simple Harmonic Motion) <br>The motion of an object in which the force it experiences (always directed toward the equilibrium position) is proportional to its distance from the equilibrium position is called simple harmonic motion. Under a suitable rectangular coordinate system, simple harmonic motion can be represented by $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$, where $A>0$, $\omega>0$.
 
 > **Definition 5.7.2** (Amplitude, Period, Frequency, Phase) <br>$A$ is the amplitude, i.e. the maximum distance from the equilibrium position; the period is $T=\frac{2\pi}{\omega}$; the frequency is $f=\frac{1}{T}=\frac{\omega}{2\pi}$; $\omega x+\varphi$ is called the phase, and the phase $\varphi$ when $x=0$ is called the initial phase.
 
@@ -22,11 +22,11 @@ By **Definition 5.7.1** and **Definition 5.7.2**.
 
 (1) From the graph, the maximum value is $3\text{ cm}$ and the minimum value is $-3\text{ cm}$, hence the amplitude is $A=3$. From the graph, the period is $T=3.2-1.2=2\text{ s}$, and the frequency is $f=\frac{1}{2}=0.5\text{ Hz}$.
 
-(2) From $A=3$, $\omega=\frac{2\pi}{T}=\pi$, and the fact that at $t=0$, $y=0$ on a rising part, we get $\varphi=0$. Hence $y=3\sin(\pi t)$, $t\in[0,+\infty)$. $\blacksquare$
+(2) From $A=3$, $\omega=\frac{2\pi}{T}=\pi$, and the fact that at $t=0$, $y=0$ on a rising part, we get $\varphi=0$. Hence $y=3\sin\left(\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
 
 ### Exercise 2
 
-(Exercise 5.7, Problem 2) A string that is absolutely rigid, of fixed length and with negligible mass, is fixed at one end, and an hourglass is suspended at the other end. When the hourglass swings, the functional relationship between its displacement $s$ (unit: $\text{cm}$) from the equilibrium position and time $t$ (unit: $\text{s}$) is $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in[0,+\infty)$.
+(Exercise 5.7, Problem 2) A string that is absolutely rigid, of fixed length and with negligible mass, is fixed at one end, and an hourglass is suspended at the other end. When the hourglass swings, the functional relationship between its displacement $s$ (unit: $\text{cm}$) from the equilibrium position and time $t$ (unit: $\text{s}$) is $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in\left[0,+\infty\right)$.
 
 (1) When $l=25$, find the maximum deflection angle of the hourglass (accurate to $0.0001\text{ rad}$);
 
@@ -50,7 +50,7 @@ By **Definition 5.7.1** (Simple Harmonic Motion).
 
 By **Definition 5.7.2** (Amplitude, Period, Frequency, Phase).
 
-From the graph, the maximum voltage is $311\text{ V}$, the period is $0.02\text{ s}$, and the frequency is $50\text{ Hz}$. From $\omega=\frac{2\pi}{0.02}=100\pi$ and the initial phase $\varphi=0$. Hence $U=311\sin(100\pi t)$, $t\in[0,+\infty)$. $\blacksquare$
+From the graph, the maximum voltage is $311\text{ V}$, the period is $0.02\text{ s}$, and the frequency is $50\text{ Hz}$. From $\omega=\frac{2\pi}{0.02}=100\pi$ and the initial phase $\varphi=0$. Hence $U=311\sin\left(100\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
 
 ### Problem 1
 
@@ -102,7 +102,7 @@ By **Definition 5.7.2** (Amplitude, Period, Frequency, Phase).
 
 By **Property 5.7.1** (Steps in Applying Trigonometric Models).
 
-(1) The sunrise and sunset times change periodically with the date, and can be approximately fitted by $y=A\sin(\omega t+\varphi)+b$, with a period of one year (about $365$ days).
+(1) The sunrise and sunset times change periodically with the date, and can be approximately fitted by $y=A\sin\left(\omega t+\varphi\right)+b$, with a period of one year (about $365$ days).
 
 (2) On May Day (May 1), the sunrise time in Beijing is about $5$:$15$, so one should arrive at Tiananmen Square before $5$ o'clock. $\blacksquare$
 

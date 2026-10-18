@@ -4,7 +4,7 @@
 
 > **Definition 2.3.2** (Zeros of a Quadratic Function) <br>For the quadratic function $y=ax^2+bx+c$, the real number $x$ satisfying $ax^2+bx+c=0$ is called a zero of the quadratic function $y=ax^2+bx+c$.
 
-> **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality) <br>For $ax^2+bx+c>0$ or $ax^2+bx+c<0$ ($a>0$), let $\Delta=b^2-4ac$, and let $x_1,x_2$ be the two real roots of the equation $ax^2+bx+c=0$ ($x_1<x_2$). When $\Delta>0$, the solution set of $ax^2+bx+c>0$ is $\{x\mid x<x_1$ or $x>x_2\}$, and the solution set of $ax^2+bx+c<0$ is $\{x\mid x_1<x<x_2\}$; when $\Delta=0$, the solution set of $ax^2+bx+c>0$ is $\{x\mid x\neq-\frac{b}{2a}\}$, and the solution set of $ax^2+bx+c<0$ is $\varnothing$; when $\Delta<0$, the solution set of $ax^2+bx+c>0$ is $\mathbb R$, and the solution set of $ax^2+bx+c<0$ is $\varnothing$. For an inequality whose quadratic coefficient is negative, first change the quadratic coefficient to a positive one and then solve it.
+> **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality) <br>For $ax^2+bx+c>0$ or $ax^2+bx+c<0$ ($a>0$), let $\Delta=b^2-4ac$, and let $x_1,x_2$ be the two real roots of the equation $ax^2+bx+c=0$ ($x_1<x_2$). When $\Delta>0$, the solution set of $ax^2+bx+c>0$ is $\left\{x\mid x<x_1$ or $x>x_2\right\}$, and the solution set of $ax^2+bx+c<0$ is $\left\{x\mid x_1<x<x_2\right\}$; when $\Delta=0$, the solution set of $ax^2+bx+c>0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and the solution set of $ax^2+bx+c<0$ is $\varnothing$; when $\Delta<0$, the solution set of $ax^2+bx+c>0$ is $\mathbb R$, and the solution set of $ax^2+bx+c<0$ is $\varnothing$. For an inequality whose quadratic coefficient is negative, first change the quadratic coefficient to a positive one and then solve it.
 
 ### Exercise 1
 
@@ -26,15 +26,15 @@
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first find the roots of the corresponding equation, and then write the solution set according to the position of the graph.
 
-(1) The roots of the equation $\left(x+2\right)\left(x-3\right)=0$ are $x=-2,3$, and the quadratic coefficient is positive, so the solution set is $\{x\mid x<-2$ or $x>3\}$.
+(1) The roots of the equation $\left(x+2\right)\left(x-3\right)=0$ are $x=-2,3$, and the quadratic coefficient is positive, so the solution set is $\left\{x\mid x<-2$ or $x>3\right\}$.
 
 (2) Rearranging gives $3x^2-7x-10\le0$. The roots of the equation $3x^2-7x-10=0$ are $x=-1,\frac{10}{3}$, so the solution set is $\left\{x\mid-1\le x\le\frac{10}{3}\right\}$.
 
-(3) Multiplying both sides by $-1$ gives $x^2-4x+4>0$, i.e. $\left(x-2\right)^2>0$, so the solution set is $\{x\mid x\neq2\}$.
+(3) Multiplying both sides by $-1$ gives $x^2-4x+4>0$, i.e. $\left(x-2\right)^2>0$, so the solution set is $\left\{x\mid x\neq2\right\}$.
 
 (4) $x^2-x+\frac{1}{4}=\left(x-\frac{1}{2}\right)^2\ge0$ always holds, and $\left(x-\frac{1}{2}\right)^2<0$ has no solution, so the solution set is $\varnothing$.
 
-(5) Rearranging gives $2x^2-x-3\ge0$. The roots of the equation $2x^2-x-3=0$ are $x=-1,\frac{3}{2}$, so the solution set is $\{x\mid x\le-1$ or $x\ge\frac{3}{2}\}$.
+(5) Rearranging gives $2x^2-x-3\ge0$. The roots of the equation $2x^2-x-3=0$ are $x=-1,\frac{3}{2}$, so the solution set is $\left\{x\mid x\le-1$ or $x\ge\frac{3}{2}\right\}$.
 
 (6) $\Delta=9-16=-7<0$, and the quadratic coefficient is positive; by **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $\mathbb R$. $\blacksquare$
 
@@ -70,7 +70,7 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first
 
 By the condition for a quadratic radical to be meaningful, the radicand must be nonnegative, i.e. $x^2+x-12\ge0$.
 
-By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the equation $x^2+x-12=0$, i.e. $\left(x+4\right)\left(x-3\right)=0$, has roots $x=-4,3$, and the parabola opens upward, so the solution set of $x^2+x-12\ge0$ is $\{x\mid x\le-4$ or $x\ge3\}$. That is, when $x\le-4$ or $x\ge3$, $\sqrt{x^2+x-12}$ is meaningful. $\blacksquare$
+By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the equation $x^2+x-12=0$, i.e. $\left(x+4\right)\left(x-3\right)=0$, has roots $x=-4,3$, and the parabola opens upward, so the solution set of $x^2+x-12\ge0$ is $\left\{x\mid x\le-4$ or $x\ge3\right\}$. That is, when $x\le-4$ or $x\ge3$, $\sqrt{x^2+x-12}$ is meaningful. $\blacksquare$
 
 ### Exercise 4
 
@@ -124,9 +124,9 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), solve
 
 (1) $4x^2<13$, i.e. $x^2<\frac{13}{4}$, and the solution set is $\left\{x\mid-\frac{\sqrt{13}}{2}<x<\frac{\sqrt{13}}{2}\right\}$.
 
-(2) The roots are $x=3,7$, the parabola opens upward and we take $<0$, so the solution set is $\{x\mid3<x<7\}$.
+(2) The roots are $x=3,7$, the parabola opens upward and we take $<0$, so the solution set is $\left\{x\mid3<x<7\right\}$.
 
-(3) $\left(x-5\right)\left(x+2\right)>0$, the roots are $x=-2,5$, and the solution set is $\{x\mid x<-2$ or $x>5\}$.
+(3) $\left(x-5\right)\left(x+2\right)>0$, the roots are $x=-2,5$, and the solution set is $\left\{x\mid x<-2$ or $x>5\right\}$.
 
 (4) Multiplying both sides by $-1$ gives $3x^2-5x+4<0$. $\Delta=25-48=-23<0$, the parabola opens upward, and $3x^2-5x+4$ is always positive, so it cannot be less than $0$; thus the solution set is $\varnothing$. $\blacksquare$
 
@@ -148,26 +148,26 @@ By the condition for a quadratic radical to be meaningful, the radicand must be 
 
 ### Problem 3
 
-(Exercise 2.3, Comprehensive Application, Problem 3) Given $M=\{x\mid4x^2-4x-15>0\}$ and $N=\{x\mid x^2-5x-6>0\}$, find $M\cap N$ and $M\cup N$.
+(Exercise 2.3, Comprehensive Application, Problem 3) Given $M=\left\{x\mid4x^2-4x-15>0\right\}$ and $N=\left\{x\mid x^2-5x-6>0\right\}$, find $M\cap N$ and $M\cup N$.
 
 ### Solution to Problem 3
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first simplify $M,N$ separately.
 
-The roots of $4x^2-4x-15=0$ are $x=-\frac{3}{2},\frac{5}{2}$, so $M=\{x\mid x<-\frac{3}{2}$ or $x>\frac{5}{2}\}$.
+The roots of $4x^2-4x-15=0$ are $x=-\frac{3}{2},\frac{5}{2}$, so $M=\left\{x\mid x<-\frac{3}{2}$ or $x>\frac{5}{2}\right\}$.
 
-The roots of $x^2-5x-6=\left(x-6\right)\left(x+1\right)=0$ are $x=-1,6$, so $N=\{x\mid x<-1$ or $x>6\}$.
+The roots of $x^2-5x-6=\left(x-6\right)\left(x+1\right)=0$ are $x=-1,6$, so $N=\left\{x\mid x<-1$ or $x>6\right\}$.
 
 Taking the common part, we get
 
 $$
-M\cap N=\{x\mid x<-\frac{3}{2}\text{ 或 }x>6\}.
+M\cap N=\left\{x\mid x<-\frac{3}{2}\text{ 或 }x>6\right\}.
 $$
 
 Taking the union, we get
 
 $$
-M\cup N=\{x\mid x<-1\text{ 或 }x>\frac{5}{2}\}.
+M\cup N=\left\{x\mid x<-1\text{ 或 }x>\frac{5}{2}\right\}.
 $$
 
 $\blacksquare$
@@ -196,15 +196,15 @@ $\blacksquare$
 
 ### Problem 5
 
-(Exercise 2.3, Comprehensive Application, Problem 5) Given the sets $A=\{x\mid x^2-16<0\}$ and $B=\{x\mid x^2-4x+3>0\}$, find $A\cup B$.
+(Exercise 2.3, Comprehensive Application, Problem 5) Given the sets $A=\left\{x\mid x^2-16<0\right\}$ and $B=\left\{x\mid x^2-4x+3>0\right\}$, find $A\cup B$.
 
 ### Solution to Problem 5
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first simplify $A,B$.
 
-$x^2-16<0$, i.e. $-4<x<4$, so $A=\{x\mid-4<x<4\}$.
+$x^2-16<0$, i.e. $-4<x<4$, so $A=\left\{x\mid-4<x<4\right\}$.
 
-The solution of $x^2-4x+3=\left(x-1\right)\left(x-3\right)>0$ is $x<1$ or $x>3$, so $B=\{x\mid x<1$ or $x>3\}$.
+The solution of $x^2-4x+3=\left(x-1\right)\left(x-3\right)>0$ is $x<1$ or $x>3$, so $B=\left\{x\mid x<1$ or $x>3\right\}$.
 
 Combining $A$ and $B$: $B$ already contains $x<1$ and $x>3$, and $A$ supplements the part $1\le x\le3$ within $-4<x<4$; together they cover all real numbers, so $A\cup B=\mathbb R$. $\blacksquare$
 

@@ -8,9 +8,9 @@
 
 > **定义 8.3.4** (台体体积) <br>台体的上, 下底面面积为 $S'$, $S$, 高为 $h$, 则 $V_{\text{台体}}=\frac{1}{3}h\left(S'+\sqrt{S'S}+S\right)$.
 
-> **定义 8.3.5** (圆柱表面积) <br>圆柱底面半径为 $r$, 母线长为 $l$, 则 $S_{\text{圆柱}}=2\pi r(r+l)$.
+> **定义 8.3.5** (圆柱表面积) <br>圆柱底面半径为 $r$, 母线长为 $l$, 则 $S_{\text{圆柱}}=2\pi r\left(r+l\right)$.
 
-> **定义 8.3.6** (圆锥表面积) <br>圆锥底面半径为 $r$, 母线长为 $l$, 则 $S_{\text{圆锥}}=\pi r(r+l)$.
+> **定义 8.3.6** (圆锥表面积) <br>圆锥底面半径为 $r$, 母线长为 $l$, 则 $S_{\text{圆锥}}=\pi r\left(r+l\right)$.
 
 > **定义 8.3.7** (圆台表面积) <br>圆台上, 下底面半径为 $r'$, $r$, 母线长为 $l$, 则 $S_{\text{圆台}}=\pi\left(r'^{2}+r^{2}+r'l+rl\right)$.
 
@@ -42,7 +42,7 @@ $$
 
 每个梯形面积为 $\frac{2+6}{2}\cdot\sqrt{21}=4\sqrt{21}$, 侧面积为 $6\times 4\sqrt{21}=24\sqrt{21}$.
 
-故表面积为 $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ (\text{cm}^{2})$. $\blacksquare$
+故表面积为 $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ \left(\text{cm}^{2}\right)$. $\blacksquare$
 
 ### 练习二
 
@@ -70,9 +70,9 @@ $$
 
 (3) 两面红色的小立方体位于棱上但不在顶点处. 每条棱上有 $4-2=2$ 个, 共 $12$ 条棱, 故有 $12\times 2=24$ 个. 表面积之和为 $24\times 6=144\text{ cm}^{2}$.
 
-(4) 一面红色的小立方体位于面上但不在棱上. 每个面上有 $(4-2)^{2}=4$ 个, 共 $6$ 个面, 故有 $6\times 4=24$ 个. 表面积之和为 $24\times 6=144\text{ cm}^{2}$.
+(4) 一面红色的小立方体位于面上但不在棱上. 每个面上有 $\left(4-2\right)^{2}=4$ 个, 共 $6$ 个面, 故有 $6\times 4=24$ 个. 表面积之和为 $24\times 6=144\text{ cm}^{2}$.
 
-(5) 无色的小立方体位于大立方体内部, 有 $(4-2)^{3}=8$ 个. 表面积之和为 $8\times 6=48\text{ cm}^{2}$. 所占空间为 $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
+(5) 无色的小立方体位于大立方体内部, 有 $\left(4-2\right)^{3}=8$ 个. 表面积之和为 $8\times 6=48\text{ cm}^{2}$. 所占空间为 $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
 
 ### 练习三
 
@@ -87,7 +87,7 @@ $$
 截去八个一样的四面体, 每个四面体的三条棱两两垂直且长均为 $25\text{ cm}$ (即过各顶点三条棱的中点的平面截取). 每个四面体的体积为
 
 $$
-V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ (\text{cm}^{3}).
+V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ \left(\text{cm}^{3}\right).
 $$
 
 八个四面体共截去 $8\times\frac{15625}{6}=\frac{62500}{3}\text{ cm}^{3}$.
@@ -116,9 +116,9 @@ $$
 
 侧面展开图是半圆, 半圆的半径为母线 $l$, 弧长为 $\pi l$. 该弧长等于底面周长 $2\pi r$, 故 $\pi l=2\pi r$, 即 $l=2r$.
 
-表面积为 $S=\pi r(r+l)=\pi r(r+2r)=3\pi r^{2}=a$, 解得 $r=\sqrt{\frac{a}{3\pi}}$.
+表面积为 $S=\pi r\left(r+l\right)=\pi r\left(r+2r\right)=3\pi r^{2}=a$, 解得 $r=\sqrt{\frac{a}{3\pi}}$.
 
-故底面直径为 $2r=2\sqrt{\frac{a}{3\pi}}\ (\text{m})$. $\blacksquare$
+故底面直径为 $2r=2\sqrt{\frac{a}{3\pi}}\ \left(\text{m}\right)$. $\blacksquare$
 
 ### 练习六
 
@@ -237,7 +237,7 @@ $O'$ 为 $PO$ 中点, 距底面高为 $\frac{a}{2}$. 由相似, 截面半径 $r'
 故剩下几何体的表面积为
 
 $$
-S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{(\sqrt{5}+2)\pi a^{2}}{4}.
+S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{\left(\sqrt{5}+2\right)\pi a^{2}}{4}.
 $$
 
 体积: 圆锥体积为 $\frac{1}{3}\pi\left(\frac{a}{2}\right)^{2}\cdot a=\frac{\pi a^{3}}{12}$, 挖去的圆柱体积为 $\pi\left(\frac{a}{4}\right)^{2}\cdot\frac{a}{2}=\frac{\pi a^{3}}{32}$.
@@ -350,7 +350,7 @@ $$
 
 表面积: 四棱台侧面, 前后两面 (底 $20$, $10$) 斜高为 $\sqrt{2^{2}+4^{2}}=2\sqrt{5}$, 面积共 $2\times\frac{20+10}{2}\times 2\sqrt{5}=60\sqrt{5}$; 左右两面 (底 $16$, $8$) 斜高为 $\sqrt{2^{2}+5^{2}}=\sqrt{29}$, 面积共 $2\times\frac{16+8}{2}\times\sqrt{29}=24\sqrt{29}$. 四棱台下底面积 $320$, 上底暴露部分面积 $80-8\times 4=48$.
 
-四棱柱侧面积为 $2(8\times 20+4\times 20)=480$, 上底面积 $8\times 4=32$.
+四棱柱侧面积为 $2\left(8\times 20+4\times 20\right)=480$, 上底面积 $8\times 4=32$.
 
 球的表面积为 $4\pi\times 2^{2}=16\pi$.
 

@@ -1,6 +1,6 @@
 # 作业 24
 
-> **定义 5.7.1** (简谐运动) <br>物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin(\omega x+\varphi)$, $x\in[0,+\infty)$ 表示, 其中 $A>0$, $\omega>0$.
+> **定义 5.7.1** (简谐运动) <br>物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A>0$, $\omega>0$.
 
 > **定义 5.7.2** (振幅, 周期, 频率, 相位) <br>$A$ 是振幅, 即离开平衡位置的最大距离; 周期 $T=\frac{2\pi}{\omega}$; 频率 $f=\frac{1}{T}=\frac{\omega}{2\pi}$; $\omega x+\varphi$ 称为相位, $x=0$ 时的相位 $\varphi$ 称为初相.
 
@@ -22,11 +22,11 @@
 
 (1) 由图象知最大值为 $3\text{ cm}$, 最小值为 $-3\text{ cm}$, 故振幅 $A=3$. 由图象知周期 $T=3.2-1.2=2\text{ s}$, 频率 $f=\frac{1}{2}=0.5\text{ Hz}$.
 
-(2) 由 $A=3$, $\omega=\frac{2\pi}{T}=\pi$, 且 $t=0$ 时 $y=0$ 且在上升沿, 得 $\varphi=0$. 故 $y=3\sin(\pi t)$, $t\in[0,+\infty)$. $\blacksquare$
+(2) 由 $A=3$, $\omega=\frac{2\pi}{T}=\pi$, 且 $t=0$ 时 $y=0$ 且在上升沿, 得 $\varphi=0$. 故 $y=3\sin\left(\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
 
 ### 练习二
 
-(练习 5.7 第 2 题) 一根绝对刚性且长度不变, 质量可忽略不计的线, 一端固定, 另一端悬挂一个沙漏. 沙漏摆动时离开平衡位置的位移 $s$ (单位: $\text{cm}$) 与时间 $t$ (单位: $\text{s}$) 的函数关系是 $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in[0,+\infty)$.
+(练习 5.7 第 2 题) 一根绝对刚性且长度不变, 质量可忽略不计的线, 一端固定, 另一端悬挂一个沙漏. 沙漏摆动时离开平衡位置的位移 $s$ (单位: $\text{cm}$) 与时间 $t$ (单位: $\text{s}$) 的函数关系是 $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in\left[0,+\infty\right)$.
 
 (1) 当 $l=25$ 时, 求该沙漏的最大偏角 (精确到 $0.0001\text{ rad}$);
 
@@ -50,7 +50,7 @@
 
 由**定义 5.7.2** (振幅, 周期, 频率, 相位).
 
-由图象知电压最大值 $311\text{ V}$, 周期 $0.02\text{ s}$, 频率 $50\text{ Hz}$. 由 $\omega=\frac{2\pi}{0.02}=100\pi$, 初相 $\varphi=0$. 故 $U=311\sin(100\pi t)$, $t\in[0,+\infty)$. $\blacksquare$
+由图象知电压最大值 $311\text{ V}$, 周期 $0.02\text{ s}$, 频率 $50\text{ Hz}$. 由 $\omega=\frac{2\pi}{0.02}=100\pi$, 初相 $\varphi=0$. 故 $U=311\sin\left(100\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
 
 ### 习题一
 
@@ -102,7 +102,7 @@
 
 由**性质 5.7.1** (三角函数模型应用步骤).
 
-(1) 日出时间和日落时间随日期呈周期性变化, 可近似用 $y=A\sin(\omega t+\varphi)+b$ 拟合, 周期为一年 (约 $365$ 天).
+(1) 日出时间和日落时间随日期呈周期性变化, 可近似用 $y=A\sin\left(\omega t+\varphi\right)+b$ 拟合, 周期为一年 (约 $365$ 天).
 
 (2) 五一 (5月1日) 北京日出时间约为 $5$ 时 $15$ 分左右, 故应在 $5$ 时前到达天安门广场. $\blacksquare$
 

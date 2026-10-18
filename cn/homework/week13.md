@@ -1,20 +1,20 @@
 # 作业 13
 
-> **定义 4.1.1** (n 次方根) <br>一般地, 如果 $x^n=a$, 那么 $x$ 叫做 $a$ 的 $n$ 次方根, 其中 $n>1$, 且 $n\in\mathbb N^*$. 当 $n$ 是奇数时, 正数的 $n$ 次方根是一个正数, 负数的 $n$ 次方根是一个负数, 这时 $a$ 的 $n$ 次方根用符号 $\sqrt[n]{a}$ 表示; 当 $n$ 是偶数时, 正数的 $n$ 次方根有两个, 这两个数互为相反数, 正的 $n$ 次方根用符号 $\sqrt[n]{a}$ 表示, 负的 $n$ 次方根用符号 $-\sqrt[n]{a}$ 表示, 合并写成 $\pm\sqrt[n]{a}$ ($a>0$). 负数没有偶次方根, $0$ 的任何次方根都是 $0$, 记作 $\sqrt[n]{0}=0$.
+> **定义 4.1.1** (n 次方根) <br>一般地, 如果 $x^n=a$, 那么 $x$ 叫做 $a$ 的 $n$ 次方根, 其中 $n>1$, 且 $n\in\mathbb N^*$. 当 $n$ 是奇数时, 正数的 $n$ 次方根是一个正数, 负数的 $n$ 次方根是一个负数, 这时 $a$ 的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示; 当 $n$ 是偶数时, 正数的 $n$ 次方根有两个, 这两个数互为相反数, 正的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示, 负的 $n$ 次方根用符号 $-\sqrt\left[n\right]{a}$ 表示, 合并写成 $\pm\sqrt\left[n\right]{a}$ ($a>0$). 负数没有偶次方根, $0$ 的任何次方根都是 $0$, 记作 $\sqrt\left[n\right]{0}=0$.
 
-> **定义 4.1.2** (根式) <br>式子 $\sqrt[n]{a}$ 叫做根式, 这里 $n$ 叫做根指数, $a$ 叫做被开方数. 根据 $n$ 次方根的意义, 可得 $(\sqrt[n]{a})^n=a$.
+> **定义 4.1.2** (根式) <br>式子 $\sqrt\left[n\right]{a}$ 叫做根式, 这里 $n$ 叫做根指数, $a$ 叫做被开方数. 根据 $n$ 次方根的意义, 可得 $\left(\sqrt\left[n\right]{a}\right)^n=a$.
 
-> **常用结论 4.1.3** (n 次方根的性质) <br>当 $n$ 为奇数时, $\sqrt[n]{a^n}=a$; 当 $n$ 为偶数时, $\sqrt[n]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a<0.\end{cases}$
+> **常用结论 4.1.3** (n 次方根的性质) <br>当 $n$ 为奇数时, $\sqrt\left[n\right]{a^n}=a$; 当 $n$ 为偶数时, $\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a<0.\end{cases}$
 
-> **定义 4.1.4** (正分数指数幂) <br>正数的正分数指数幂的意义是 $a^{\frac{m}{n}}=\sqrt[n]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
+> **定义 4.1.4** (正分数指数幂) <br>正数的正分数指数幂的意义是 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
 
-> **定义 4.1.5** (负分数指数幂) <br>正数的负分数指数幂的意义是 $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt[n]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
+> **定义 4.1.5** (负分数指数幂) <br>正数的负分数指数幂的意义是 $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
 
-> **常用结论 4.1.6** (有理数指数幂的运算性质) <br>对于任意有理数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb Q$); (2) $(a^r)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb Q$); (3) $(ab)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb Q$).
+> **常用结论 4.1.6** (有理数指数幂的运算性质) <br>对于任意有理数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb Q$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb Q$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb Q$).
 
 > **常用结论 4.1.7** (无理数指数幂) <br>一般地, 无理数指数幂 $a^\alpha$ ($a>0$, $\alpha$ 为无理数) 是一个确定的实数. 这样, 指数幂 $a^x$ ($a>0$) 中指数 $x$ 的取值范围就从整数逐步拓展到了实数.
 
-> **常用结论 4.1.8** (实数指数幂的运算性质) <br>对于任意实数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb R$); (2) $(a^r)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb R$); (3) $(ab)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb R$).
+> **常用结论 4.1.8** (实数指数幂的运算性质) <br>对于任意实数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb R$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb R$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb R$).
 
 ### 练习一
 
@@ -34,21 +34,21 @@
 
 (1) $a^{\frac{1}{2}}=\sqrt{a}$.
 
-(2) $a^{\frac{3}{4}}=\sqrt[4]{a^3}$.
+(2) $a^{\frac{3}{4}}=\sqrt\left[4\right]{a^3}$.
 
-(3) $a^{-\frac{3}{5}}=\frac{1}{\sqrt[5]{a^3}}$.
+(3) $a^{-\frac{3}{5}}=\frac{1}{\sqrt\left[5\right]{a^3}}$.
 
-(4) $a^{-\frac{2}{3}}=\frac{1}{\sqrt[3]{a^2}}$. $\blacksquare$
+(4) $a^{-\frac{2}{3}}=\frac{1}{\sqrt\left[3\right]{a^2}}$. $\blacksquare$
 
 ### 练习二
 
 (练习 4.1 第 2 题) 用分数指数幂的形式表示并计算下列各式.
 
-(1) $\sqrt[3]{x^2}$ ($x>0$);
+(1) $\sqrt\left[3\right]{x^2}$ ($x>0$);
 
-(2) $\sqrt[5]{(m-n)^4}$ ($m>n$);
+(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m>n$);
 
-(3) $\sqrt{p^6}\sqrt[5]{p}$ ($p>0$);
+(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p>0$);
 
 (4) $\frac{a^3}{\sqrt{a}}$ ($a>0$).
 
@@ -56,11 +56,11 @@
 
 由**定义 4.1.4** (正分数指数幂) 与**常用结论 4.1.6** (有理数指数幂的运算性质).
 
-(1) 由**定义 4.1.4**, $\sqrt[3]{x^2}=x^{\frac{2}{3}}$ ($x>0$).
+(1) 由**定义 4.1.4**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x>0$).
 
-(2) 由**定义 4.1.4**, $\sqrt[5]{(m-n)^4}=(m-n)^{\frac{4}{5}}$ ($m>n$).
+(2) 由**定义 4.1.4**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m>n$).
 
-(3) 由**定义 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt[5]{p}=p^{\frac{1}{5}}$. 再由**常用结论 4.1.6** (1), $\sqrt{p^6}\sqrt[5]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p>0$).
+(3) 由**定义 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. 再由**常用结论 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p>0$).
 
 (4) 由**定义 4.1.4**, $\sqrt{a}=a^{\frac{1}{2}}$. 再由**常用结论 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a>0$). $\blacksquare$
 
@@ -70,7 +70,7 @@
 
 (1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}$;
 
-(2) $2\sqrt{3}\times 3\sqrt[3]{1.5}\times\sqrt[6]{12}$;
+(2) $2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}$;
 
 (3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a>0$);
 
@@ -82,10 +82,10 @@
 
 (1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}=\left[\left(\frac{6}{7}\right)^2\right]^{\frac{3}{2}}=\left(\frac{6}{7}\right)^3=\frac{216}{343}$.
 
-(2) 化为分数指数幂: $\sqrt{3}=3^{\frac{1}{2}}$, $\sqrt[3]{1.5}=\left(\frac{3}{2}\right)^{\frac{1}{3}}=3^{\frac{1}{3}}2^{-\frac{1}{3}}$, $\sqrt[6]{12}=(2^2\cdot 3)^{\frac{1}{6}}=2^{\frac{1}{3}}3^{\frac{1}{6}}$. 由**常用结论 4.1.6** (1) (3),
+(2) 化为分数指数幂: $\sqrt{3}=3^{\frac{1}{2}}$, $\sqrt\left[3\right]{1.5}=\left(\frac{3}{2}\right)^{\frac{1}{3}}=3^{\frac{1}{3}}2^{-\frac{1}{3}}$, $\sqrt\left[6\right]{12}=\left(2^2\cdot 3\right)^{\frac{1}{6}}=2^{\frac{1}{3}}3^{\frac{1}{6}}$. 由**常用结论 4.1.6** (1) (3),
 
 $$
-2\sqrt{3}\times 3\sqrt[3]{1.5}\times\sqrt[6]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
+2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
 $$
 
 (3) 由**常用结论 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a>0$).
@@ -132,25 +132,25 @@ $$
 
 (习题 4.1 复习巩固第 1 题) 求下列各式的值.
 
-(1) $\sqrt[4]{100^4}$;
+(1) $\sqrt\left[4\right]{100^4}$;
 
-(2) $\sqrt[5]{(-0.1)^5}$;
+(2) $\sqrt\left[5\right]{\left(-0.1\right)^5}$;
 
-(3) $\sqrt{(\pi-4)^2}$;
+(3) $\sqrt{\left(\pi-4\right)^2}$;
 
-(4) $\sqrt[6]{(x-y)^6}$.
+(4) $\sqrt\left[6\right]{\left(x-y\right)^6}$.
 
 ### 解答 习题一
 
 由**常用结论 4.1.3** (n 次方根的性质), 偶数次开方取绝对值, 奇数次开方直接脱去根号.
 
-(1) $\sqrt[4]{100^4}=\left|100\right|=100$.
+(1) $\sqrt\left[4\right]{100^4}=\left|100\right|=100$.
 
-(2) $\sqrt[5]{(-0.1)^5}=-0.1$.
+(2) $\sqrt\left[5\right]{\left(-0.1\right)^5}=-0.1$.
 
-(3) $\sqrt{(\pi-4)^2}=\left|\pi-4\right|=4-\pi$.
+(3) $\sqrt{\left(\pi-4\right)^2}=\left|\pi-4\right|=4-\pi$.
 
-(4) $\sqrt[6]{(x-y)^6}=\left|x-y\right|$. $\blacksquare$
+(4) $\sqrt\left[6\right]{\left(x-y\right)^6}=\left|x-y\right|$. $\blacksquare$
 
 ### 习题二
 
@@ -160,7 +160,7 @@ $$
 
 (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a$ (B) $a\div a^{\frac{2}{3}}=a^{\frac{3}{2}}$ (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=0$ (D) $\left(a^{\frac{1}{4}}\right)^4=a$
 
-(2) 设 $a>0$, $m$, $n$ 是正整数, 且 $n>1$, 则下列各式 $a^{\frac{m}{n}}=\sqrt[n]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt[n]{a^m}}$, 正确的个数是 ( ).
+(2) 设 $a>0$, $m$, $n$ 是正整数, 且 $n>1$, 则下列各式 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$, 正确的个数是 ( ).
 
 (A) $3$ (B) $2$ (C) $1$ (D) $0$
 
@@ -170,7 +170,7 @@ $$
 
 (1) 逐项检验: (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a^{\frac{4}{3}+\frac{3}{4}}=a^{\frac{25}{12}}\neq a$, 错误; (B) $a\div a^{\frac{2}{3}}=a^{1-\frac{2}{3}}=a^{\frac{1}{3}}\neq a^{\frac{3}{2}}$, 错误; (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=a^0=1\neq 0$, 错误; (D) $\left(a^{\frac{1}{4}}\right)^4=a^{\frac{1}{4}\times 4}=a$, 正确. 故选 (D).
 
-(2) $a^{\frac{m}{n}}=\sqrt[n]{a^m}$ 即**定义 4.1.4**, 正确; $a^0=1$ 是零指数幂的规定, 正确; $a^{-\frac{m}{n}}=\frac{1}{\sqrt[n]{a^m}}$ 即**定义 4.1.5**, 正确. 三个式子都正确, 故选 (A). $\blacksquare$
+(2) $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ 即**定义 4.1.4**, 正确; $a^0=1$ 是零指数幂的规定, 正确; $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ 即**定义 4.1.5**, 正确. 三个式子都正确, 故选 (A). $\blacksquare$
 
 ### 习题三
 
@@ -192,21 +192,21 @@ $$
 
 (习题 4.1 复习巩固第 4 题) 用分数指数幂表示并计算下列各式 (式中字母均为正数).
 
-(1) $\sqrt{\frac{b^3}{a}\sqrt[4]{\frac{a^2}{b^6}}}$;
+(1) $\sqrt{\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}}$;
 
 (2) $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}$;
 
-(3) $\frac{\sqrt{m}\sqrt[3]{m}\sqrt[4]{m}}{\left(\sqrt[6]{m}\right)^5 m^{\frac{1}{4}}}$.
+(3) $\frac{\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}}{\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}}$.
 
 ### 解答 习题四
 
 由**定义 4.1.4** (正分数指数幂) 与**常用结论 4.1.6** (有理数指数幂的运算性质).
 
-(1) 由内向外逐层化: $\sqrt[4]{\frac{a^2}{b^6}}=\left(a^2 b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, 于是 $\frac{b^3}{a}\sqrt[4]{\frac{a^2}{b^6}}=b^3 a^{-1}\cdot a^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, 再开平方得 $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
+(1) 由内向外逐层化: $\sqrt\left[4\right]{\frac{a^2}{b^6}}=\left(a^2 b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, 于是 $\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}=b^3 a^{-1}\cdot a^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, 再开平方得 $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
 
 (2) 由内向外逐层化: $\sqrt{a}=a^{\frac{1}{2}}$; $a^{\frac{1}{2}}\sqrt{a}=a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a}}=\sqrt{a}=a^{\frac{1}{2}}$; 再外一层 $a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}=\sqrt{a}=a^{\frac{1}{2}}$.
 
-(3) 分子: $\sqrt{m}\sqrt[3]{m}\sqrt[4]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. 分母: $\left(\sqrt[6]{m}\right)^5 m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. 由**常用结论 4.1.6** (1), 原式 $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
+(3) 分子: $\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. 分母: $\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. 由**常用结论 4.1.6** (1), 原式 $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
 
 ### 习题五
 

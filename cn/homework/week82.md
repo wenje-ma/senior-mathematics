@@ -4,43 +4,43 @@
 
 > **定义 6.1.2** (分步乘法计数原理) <br>完成一件事需要两个步骤, 做第 1 步有 $m$ 种不同的方法, 做第 2 步有 $n$ 种不同的方法, 那么完成这件事共有 $N=m\times n$ 种不同的方法.
 
-> **公式 6.2.7** (组合数公式) <br>$\binom{n}{m}=\frac{n!}{m!(n-m)!}$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$. 规定 $\binom{n}{0}=1$.
+> **公式 6.2.7** (组合数公式) <br>$\binom{n}{m}=\frac{n!}{m!\left(n-m\right)!}$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$. 规定 $\binom{n}{0}=1$.
 
 > **定理 6.3.1** (二项式定理) <br>对任意正整数 $n$,
 
 $$
-(a+b)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
+\left(a+b\right)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
 $$
 
 > **公式 6.3.2** (二项展开式的通项) <br>二项展开式的第 $k+1$ 项为 $T_{k+1}=\binom{n}{k} a^{n-k}b^k$, 其中 $\binom{n}{k}$ ($k=0,1,2,\cdots,n$) 叫做二项式系数.
 
-> **公式 6.3.3** ($(1+x)^n$ 的展开式) <br>在二项式定理中令 $a=1$, $b=x$, 得 $(1+x)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n$.
+> **公式 6.3.3** ($\left(1+x\right)^n$ 的展开式) <br>在二项式定理中令 $a=1$, $b=x$, 得 $\left(1+x\right)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n$.
 
-> **性质 6.3.4** (二项式系数的性质) <br>(1) 对称性: $\binom{n}{k}=\binom{n}{n-k}$; (2) 增减性与最大值: 当 $k<\frac{n+1}{2}$ 时 $\binom{n}{k}$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $\binom{n}{n/2}$ 最大, $n$ 为奇数时中间两项 $\binom{n}{(n-1)/2}$ 与 $\binom{n}{(n+1)/2}$ 相等且最大; (3) 各二项式系数的和: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) 奇数项与偶数项二项式系数的和相等: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
+> **性质 6.3.4** (二项式系数的性质) <br>(1) 对称性: $\binom{n}{k}=\binom{n}{n-k}$; (2) 增减性与最大值: 当 $k<\frac{n+1}{2}$ 时 $\binom{n}{k}$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $\binom{n}{n/2}$ 最大, $n$ 为奇数时中间两项 $\binom{n}{\left(n-1\right)/2}$ 与 $\binom{n}{\left(n+1\right)/2}$ 相等且最大; (3) 各二项式系数的和: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) 奇数项与偶数项二项式系数的和相等: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
 
 ### 练习一
 
-(练习 6.3 第 1 题) 写出 $(p+q)^5$ 的展开式.
+(练习 6.3 第 1 题) 写出 $\left(p+q\right)^5$ 的展开式.
 
 ### 解答 练习一
 
 由**定理 6.3.1** (二项式定理).
 
 $$
-(p+q)^5=\binom{5}{0} p^5+\binom{5}{1} p^4 q+\binom{5}{2} p^3 q^2+\binom{5}{3} p^2 q^3+\binom{5}{4} p q^4+\binom{5}{5} q^5.
+\left(p+q\right)^5=\binom{5}{0} p^5+\binom{5}{1} p^4 q+\binom{5}{2} p^3 q^2+\binom{5}{3} p^2 q^3+\binom{5}{4} p q^4+\binom{5}{5} q^5.
 $$
 
 代入 $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$, 得
 
 $$
-(p+q)^5=p^5+5p^4 q+10p^3 q^2+10p^2 q^3+5p q^4+q^5.
+\left(p+q\right)^5=p^5+5p^4 q+10p^3 q^2+10p^2 q^3+5p q^4+q^5.
 $$
 
 $\blacksquare$
 
 ### 练习二
 
-(练习 6.3 第 2 题) 求 $(2a+3b)^6$ 的展开式的第 $3$ 项.
+(练习 6.3 第 2 题) 求 $\left(2a+3b\right)^6$ 的展开式的第 $3$ 项.
 
 ### 解答 练习二
 
@@ -49,7 +49,7 @@ $\blacksquare$
 第 $3$ 项对应 $k=2$. 由**公式 6.3.2**,
 
 $$
-T_3=\binom{6}{2}(2a)^4(3b)^2.
+T_3=\binom{6}{2}\left(2a\right)^4\left(3b\right)^2.
 $$
 
 代入 $\binom{6}{2}=15$, 得
@@ -62,7 +62,7 @@ $$
 
 ### 练习三
 
-(练习 6.3 第 3 题) 写出 $\left(\sqrt[3]{x}-\frac{1}{2\sqrt[3]{x}}\right)^n$ 的展开式的第 $r+1$ 项.
+(练习 6.3 第 3 题) 写出 $\left(\sqrt\left[3\right]{x}-\frac{1}{2\sqrt\left[3\right]{x}}\right)^n$ 的展开式的第 $r+1$ 项.
 
 ### 解答 练习三
 
@@ -71,20 +71,20 @@ $$
 第 $r+1$ 项中 $k=r$. 由**公式 6.3.2**,
 
 $$
-T_{r+1}=\binom{n}{r}(\sqrt[3]{x})^{n-r}\left(-\frac{1}{2\sqrt[3]{x}}\right)^r.
+T_{r+1}=\binom{n}{r}\left(\sqrt\left[3\right]{x}\right)^{n-r}\left(-\frac{1}{2\sqrt\left[3\right]{x}}\right)^r.
 $$
 
 化简 $x$ 的指数: $\frac{n-r}{3}-\frac{r}{3}=\frac{n-2r}{3}$. 故
 
 $$
-T_{r+1}=(-1)^r\frac{1}{2^r}\binom{n}{r} x^{\frac{n-2r}{3}}.
+T_{r+1}=\left(-1\right)^r\frac{1}{2^r}\binom{n}{r} x^{\frac{n-2r}{3}}.
 $$
 
 $\blacksquare$
 
 ### 练习四
 
-(练习 6.3 第 4 题) $(x-1)^{10}$ 的展开式的第 $6$ 项的系数是 ( ).
+(练习 6.3 第 4 题) $\left(x-1\right)^{10}$ 的展开式的第 $6$ 项的系数是 ( ).
 
 (A) $\binom{10}{6}$  (B) $-\binom{10}{6}$  (C) $\binom{10}{5}$  (D) $-\binom{10}{5}$
 
@@ -95,14 +95,14 @@ $\blacksquare$
 第 $6$ 项对应 $k=5$. 由**公式 6.3.2**,
 
 $$
-T_6=\binom{10}{5} x^5(-1)^5=-\binom{10}{5} x^5.
+T_6=\binom{10}{5} x^5\left(-1\right)^5=-\binom{10}{5} x^5.
 $$
 
 故第 $6$ 项的系数为 $-\binom{10}{5}$, 选 (D). $\blacksquare$
 
 ### 练习五
 
-(练习 6.3 第 5 题) 在 $(x-1)(x-2)(x-3)(x-4)(x-5)$ 的展开式中, 含 $x^4$ 的项的系数是 $\;\_\_\;$.
+(练习 6.3 第 5 题) 在 $\left(x-1\right)\left(x-2\right)\left(x-3\right)\left(x-4\right)\left(x-5\right)$ 的展开式中, 含 $x^4$ 的项的系数是 $\;\_\_\;$.
 
 ### 解答 练习五
 
@@ -111,7 +111,7 @@ $$
 $5$ 个一次因式相乘, 展开式中含 $x^4$ 的项, 是从 $5$ 个因式中选 $4$ 个取 $x$, 余下 $1$ 个取常数项相乘得到的. 余下的常数项分别为 $-1,-2,-3,-4,-5$, 它们相加即为 $x^4$ 项的系数. 由**定义 6.1.1**,
 
 $$
-(-1)+(-2)+(-3)+(-4)+(-5)=-15.
+\left(-1\right)+\left(-2\right)+\left(-3\right)+\left(-4\right)+\left(-5\right)=-15.
 $$
 
 故含 $x^4$ 的项的系数是 $-15$. $\blacksquare$
@@ -128,7 +128,7 @@ $$
 
 由**性质 6.3.4** (二项式系数的性质).
 
-(1) 由**性质 6.3.4**, 奇数项二项式系数的和等于偶数项二项式系数的和, 都等于 $2^{10}$. 而 $\binom{11}{1}+\binom{11}{3}+\cdots+\binom{11}{11}$ 是 $(1+1)^{11}$ 展开式中下标为奇数的二项式系数之和, 即
+(1) 由**性质 6.3.4**, 奇数项二项式系数的和等于偶数项二项式系数的和, 都等于 $2^{10}$. 而 $\binom{11}{1}+\binom{11}{3}+\cdots+\binom{11}{11}$ 是 $\left(1+1\right)^{11}$ 展开式中下标为奇数的二项式系数之和, 即
 
 $$
 \binom{11}{1}+\binom{11}{3}+\cdots+\binom{11}{11}=2^{10}=1024.
@@ -148,7 +148,7 @@ $\blacksquare$
 
 ### 解答 练习七
 
-由**性质 6.3.4** (二项式系数的性质) 与**公式 6.3.3** ($(1+x)^n$ 的展开式).
+由**性质 6.3.4** (二项式系数的性质) 与**公式 6.3.3** ($\left(1+x\right)^n$ 的展开式).
 
 在**公式 6.3.3** 中令 $x=1$, 得
 
@@ -159,7 +159,7 @@ $$
 令 $x=-1$, 得
 
 $$
-0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+(-1)^n \binom{n}{n}.
+0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+\left(-1\right)^n \binom{n}{n}.
 $$
 
 两式相加, 奇数项抵消, 得
@@ -184,7 +184,7 @@ $\blacksquare$
 
 由**定理 6.3.1** (二项式定理) 与**性质 6.3.4** (二项式系数的性质).
 
-逐行计算 $(a+b)^n$ 展开式的二项式系数, 得
+逐行计算 $\left(a+b\right)^n$ 展开式的二项式系数, 得
 
 $n=1$: $1,1$.
 
@@ -226,11 +226,11 @@ $$
 
 (习题 6.3 复习巩固第 1 题) 选择题.
 
-(1) 在 $(1-x)^5+(1-x)^6+(1-x)^7+(1-x)^8$ 的展开式中, 含 $x^3$ 的项的系数是 ( ).
+(1) 在 $\left(1-x\right)^5+\left(1-x\right)^6+\left(1-x\right)^7+\left(1-x\right)^8$ 的展开式中, 含 $x^3$ 的项的系数是 ( ).
 
 (A) $74$  (B) $121$  (C) $-74$  (D) $-121$
 
-(2) $(x+1)^n$ 的展开式中 $x^2$ 的系数为 $15$, 则 $n=$ ( ).
+(2) $\left(x+1\right)^n$ 的展开式中 $x^2$ 的系数为 $15$, 则 $n=$ ( ).
 
 (A) $7$  (B) $6$  (C) $5$  (D) $4$
 
@@ -238,31 +238,31 @@ $$
 
 由**公式 6.3.2** (二项展开式的通项).
 
-(1) 在 $(1-x)^n$ 的展开式中, $x^3$ 的项为 $\binom{n}{3}(-x)^3=-\binom{n}{3} x^3$, 系数为 $-\binom{n}{3}$. 故四个展开式中 $x^3$ 项的系数之和为
+(1) 在 $\left(1-x\right)^n$ 的展开式中, $x^3$ 的项为 $\binom{n}{3}\left(-x\right)^3=-\binom{n}{3} x^3$, 系数为 $-\binom{n}{3}$. 故四个展开式中 $x^3$ 项的系数之和为
 
 $$
--\left(\binom{5}{3}+\binom{6}{3}+\binom{7}{3}+\binom{8}{3}\right)=-(10+20+35+56)=-121.
+-\left(\binom{5}{3}+\binom{6}{3}+\binom{7}{3}+\binom{8}{3}\right)=-\left(10+20+35+56\right)=-121.
 $$
 
 选 (D).
 
-(2) $(x+1)^n$ 的展开式中 $x^2$ 的系数为 $\binom{n}{2}$. 由 $\binom{n}{2}=\frac{n(n-1)}{2}=15$, 得 $n(n-1)=30$, 解得 $n=6$. 选 (B). $\blacksquare$
+(2) $\left(x+1\right)^n$ 的展开式中 $x^2$ 的系数为 $\binom{n}{2}$. 由 $\binom{n}{2}=\frac{n\left(n-1\right)}{2}=15$, 得 $n\left(n-1\right)=30$, 解得 $n=6$. 选 (B). $\blacksquare$
 
 ### 习题二
 
-(习题 6.3 复习巩固第 2 题) $(x+y)(x-y)^5$ 的展开式中 $x^3y^3$ 的系数是 $\;\_\_\;$.
+(习题 6.3 复习巩固第 2 题) $\left(x+y\right)\left(x-y\right)^5$ 的展开式中 $x^3y^3$ 的系数是 $\;\_\_\;$.
 
 ### 解答 习题二
 
 由**公式 6.3.2** (二项展开式的通项) 与**定义 6.1.1** (分类加法计数原理).
 
-在 $(x-y)^5$ 的展开式中, 通项为 $\binom{5}{k} x^{5-k}(-y)^k=(-1)^k \binom{5}{k} x^{5-k} y^k$.
+在 $\left(x-y\right)^5$ 的展开式中, 通项为 $\binom{5}{k} x^{5-k}\left(-y\right)^k=\left(-1\right)^k \binom{5}{k} x^{5-k} y^k$.
 
 乘上 $x+y$ 后得到 $x^3 y^3$ 有两种来源:
 
-(1) $x$ 乘 $(x-y)^5$ 中 $x^2 y^3$ 的项, 此时 $5-k=2$, 即 $k=3$, 系数为 $(-1)^3 \binom{5}{3}=-10$;
+(1) $x$ 乘 $\left(x-y\right)^5$ 中 $x^2 y^3$ 的项, 此时 $5-k=2$, 即 $k=3$, 系数为 $\left(-1\right)^3 \binom{5}{3}=-10$;
 
-(2) $y$ 乘 $(x-y)^5$ 中 $x^3 y^2$ 的项, 此时 $k=2$, 系数为 $(-1)^2 \binom{5}{2}=10$.
+(2) $y$ 乘 $\left(x-y\right)^5$ 中 $x^3 y^2$ 的项, 此时 $k=2$, 系数为 $\left(-1\right)^2 \binom{5}{2}=10$.
 
 由**定义 6.1.1**, $x^3 y^3$ 的系数为 $-10+10=0$. $\blacksquare$
 
@@ -270,7 +270,7 @@ $$
 
 (习题 6.3 复习巩固第 3 题) 用二项式定理展开:
 
-(1) $(a+\sqrt[3]{b})^9$;
+(1) $\left(a+\sqrt\left[3\right]{b}\right)^9$;
 
 (2) $\left(\frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}}\right)^7$.
 
@@ -281,7 +281,7 @@ $$
 (1) 由**定理 6.3.1**,
 
 $$
-(a+\sqrt[3]{b})^9=\sum_{k=0}^{9} \binom{9}{k} a^{9-k}(\sqrt[3]{b})^k.
+\left(a+\sqrt\left[3\right]{b}\right)^9=\sum_{k=0}^{9} \binom{9}{k} a^{9-k}\left(\sqrt\left[3\right]{b}\right)^k.
 $$
 
 (2) 由**定理 6.3.1**,
@@ -296,7 +296,7 @@ $\blacksquare$
 
 (习题 6.3 复习巩固第 4 题) 化简:
 
-(1) $(1+\sqrt{x})^5+(1-\sqrt{x})^5$;
+(1) $\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5$;
 
 (2) $\left(2x^{\frac{1}{2}}+3x^{-\frac{1}{2}}\right)^4+\left(2x^{\frac{1}{2}}-3x^{-\frac{1}{2}}\right)^4$.
 
@@ -307,13 +307,13 @@ $\blacksquare$
 (1) 两式相加时, $\sqrt{x}$ 的奇次项相互抵消, 偶次项加倍. 由**定理 6.3.1**,
 
 $$
-(1+\sqrt{x})^5+(1-\sqrt{x})^5=2\left[\binom{5}{0}+\binom{5}{2} x+\binom{5}{4} x^2\right].
+\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5=2\left[\binom{5}{0}+\binom{5}{2} x+\binom{5}{4} x^2\right].
 $$
 
 代入 $\binom{5}{2}=10$, $\binom{5}{4}=5$, 得
 
 $$
-2(1+10x+5x^2)=2+20x+10x^2.
+2\left(1+10x+5x^2\right)=2+20x+10x^2.
 $$
 
 (2) 两式相加时, $x^{-\frac{1}{2}}$ 的奇次项相互抵消, 偶次项加倍. 由**定理 6.3.1**,
@@ -334,9 +334,9 @@ $\blacksquare$
 
 (习题 6.3 复习巩固第 5 题)
 
-(1) 求 $(1-2x)^{15}$ 的展开式的前 $4$ 项;
+(1) 求 $\left(1-2x\right)^{15}$ 的展开式的前 $4$ 项;
 
-(2) 求 $(2a^3-3b^2)^{10}$ 的展开式的第 $8$ 项;
+(2) 求 $\left(2a^3-3b^2\right)^{10}$ 的展开式的第 $8$ 项;
 
 (3) 求 $\left(\frac{\sqrt{x}}{3}-\frac{3}{\sqrt{x}}\right)^{12}$ 的展开式的中间一项;
 
@@ -349,7 +349,7 @@ $\blacksquare$
 (1) 前 $4$ 项对应 $k=0,1,2,3$. 由**公式 6.3.2**,
 
 $$
-(1-2x)^{15}=1+\binom{15}{1}(-2x)+\binom{15}{2}(-2x)^2+\binom{15}{3}(-2x)^3+\cdots.
+\left(1-2x\right)^{15}=1+\binom{15}{1}\left(-2x\right)+\binom{15}{2}\left(-2x\right)^2+\binom{15}{3}\left(-2x\right)^3+\cdots.
 $$
 
 代入 $\binom{15}{1}=15$, $\binom{15}{2}=105$, $\binom{15}{3}=455$, 得前 $4$ 项为
@@ -361,13 +361,13 @@ $$
 (2) 第 $8$ 项对应 $k=7$. 由**公式 6.3.2**,
 
 $$
-T_8=\binom{10}{7}(2a^3)^3(-3b^2)^7.
+T_8=\binom{10}{7}\left(2a^3\right)^3\left(-3b^2\right)^7.
 $$
 
 代入 $\binom{10}{7}=120$, 得
 
 $$
-T_8=120\cdot 8\,a^9\cdot(-3)^7 b^{14}=-2099520\,a^9 b^{14}.
+T_8=120\cdot 8\,a^9\cdot\left(-3\right)^7 b^{14}=-2099520\,a^9 b^{14}.
 $$
 
 (3) $n=12$ 为偶数, 由**性质 6.3.4**, 中间一项为 $k=6$ 的第 $7$ 项. 由**公式 6.3.2**,
@@ -379,11 +379,11 @@ $$
 (4) $n=15$ 为奇数, 由**性质 6.3.4**, 中间两项为 $k=7$ 的第 $8$ 项和 $k=8$ 的第 $9$ 项. 由**公式 6.3.2**,
 
 $$
-T_8=\binom{15}{7}(x\sqrt{y})^8(-y\sqrt{x})^7=-\binom{15}{7} x^{\frac{23}{2}} y^{11}=-6435\,x^{\frac{23}{2}} y^{11},
+T_8=\binom{15}{7}\left(x\sqrt{y}\right)^8\left(-y\sqrt{x}\right)^7=-\binom{15}{7} x^{\frac{23}{2}} y^{11}=-6435\,x^{\frac{23}{2}} y^{11},
 $$
 
 $$
-T_9=\binom{15}{8}(x\sqrt{y})^7(-y\sqrt{x})^8=\binom{15}{8} x^{11} y^{\frac{23}{2}}=6435\,x^{11} y^{\frac{23}{2}}.
+T_9=\binom{15}{8}\left(x\sqrt{y}\right)^7\left(-y\sqrt{x}\right)^8=\binom{15}{8} x^{11} y^{\frac{23}{2}}=6435\,x^{11} y^{\frac{23}{2}}.
 $$
 
 $\blacksquare$
@@ -403,13 +403,13 @@ $\blacksquare$
 (1) 通项为
 
 $$
-T_{k+1}=\binom{10}{k}\left(-\frac{1}{2x}\right)^k=(-1)^k\frac{\binom{10}{k}}{2^k}x^{-k}.
+T_{k+1}=\binom{10}{k}\left(-\frac{1}{2x}\right)^k=\left(-1\right)^k\frac{\binom{10}{k}}{2^k}x^{-k}.
 $$
 
 含 $\frac{1}{x^5}$ 的项要求 $-k=-5$, 即 $k=5$. 该项为
 
 $$
-T_6=(-1)^5\frac{\binom{10}{5}}{2^5}x^{-5}=-\frac{252}{32}\cdot\frac{1}{x^5}=-\frac{63}{8}\cdot\frac{1}{x^5}.
+T_6=\left(-1\right)^5\frac{\binom{10}{5}}{2^5}x^{-5}=-\frac{252}{32}\cdot\frac{1}{x^5}=-\frac{63}{8}\cdot\frac{1}{x^5}.
 $$
 
 故所求项为 $-\frac{63}{8x^5}$.
@@ -417,13 +417,13 @@ $$
 (2) 通项为
 
 $$
-T_{k+1}=\binom{10}{k}(2x^3)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}(-1)^k 2^{10-2k}x^{30-6k}.
+T_{k+1}=\binom{10}{k}\left(2x^3\right)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}\left(-1\right)^k 2^{10-2k}x^{30-6k}.
 $$
 
 常数项要求 $30-6k=0$, 即 $k=5$. 该项为
 
 $$
-T_6=\binom{10}{5}(-1)^5 2^0=-252.
+T_6=\binom{10}{5}\left(-1\right)^5 2^0=-252.
 $$
 
 故常数项为 $-252$. $\blacksquare$
@@ -432,9 +432,9 @@ $$
 
 (习题 6.3 综合运用第 7 题) 证明:
 
-(1) $\left(x-\frac{1}{x}\right)^{2n}$ 的展开式中常数项是 $(-2)^n\frac{1\times 3\times 5\times\cdots\times(2n-1)}{n!}$;
+(1) $\left(x-\frac{1}{x}\right)^{2n}$ 的展开式中常数项是 $\left(-2\right)^n\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}$;
 
-(2) $(1+x)^{2n}$ 的展开式的中间一项是 $\frac{1\times 3\times 5\times\cdots\times(2n-1)}{n!}(2x)^n$.
+(2) $\left(1+x\right)^{2n}$ 的展开式的中间一项是 $\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}\left(2x\right)^n$.
 
 ### 解答 习题七
 
@@ -443,30 +443,30 @@ $$
 (1) 通项为
 
 $$
-T_{k+1}=\binom{2n}{k} x^{2n-k}\left(-\frac{1}{x}\right)^k=(-1)^k \binom{2n}{k} x^{2n-2k}.
+T_{k+1}=\binom{2n}{k} x^{2n-k}\left(-\frac{1}{x}\right)^k=\left(-1\right)^k \binom{2n}{k} x^{2n-2k}.
 $$
 
-常数项要求 $2n-2k=0$, 即 $k=n$. 故常数项为 $(-1)^n \binom{2n}{n}$.
+常数项要求 $2n-2k=0$, 即 $k=n$. 故常数项为 $\left(-1\right)^n \binom{2n}{n}$.
 
 由**公式 6.2.7**,
 
 $$
-\binom{2n}{n}=\frac{(2n)!}{(n!)^2}=\frac{2n(2n-1)(2n-2)\cdots 2\cdot 1}{(n!)^2}.
+\binom{2n}{n}=\frac{\left(2n\right)!}{\left(n!\right)^2}=\frac{2n\left(2n-1\right)\left(2n-2\right)\cdots 2\cdot 1}{\left(n!\right)^2}.
 $$
 
 将分子中的偶数因子提出 $2$, 得
 
 $$
-(2n)!=2^n n!\cdot 1\cdot 3\cdot 5\cdots(2n-1).
+\left(2n\right)!=2^n n!\cdot 1\cdot 3\cdot 5\cdots\left(2n-1\right).
 $$
 
 故
 
 $$
-\binom{2n}{n}=\frac{2^n n!\cdot 1\cdot 3\cdots(2n-1)}{(n!)^2}=\frac{2^n\cdot 1\cdot 3\cdots(2n-1)}{n!}.
+\binom{2n}{n}=\frac{2^n n!\cdot 1\cdot 3\cdots\left(2n-1\right)}{\left(n!\right)^2}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}.
 $$
 
-于是常数项 $(-1)^n \binom{2n}{n}=(-2)^n\frac{1\cdot 3\cdots(2n-1)}{n!}$, 得证.
+于是常数项 $\left(-1\right)^n \binom{2n}{n}=\left(-2\right)^n\frac{1\cdot 3\cdots\left(2n-1\right)}{n!}$, 得证.
 
 (2) $n$ 换成 $2n$ 后为偶数, 由**性质 6.3.4**, 中间一项为 $k=n$ 的第 $n+1$ 项. 由**公式 6.3.2**,
 
@@ -474,17 +474,17 @@ $$
 T_{n+1}=\binom{2n}{n} x^n.
 $$
 
-由 (1) 中 $\binom{2n}{n}=\frac{2^n\cdot 1\cdot 3\cdots(2n-1)}{n!}$, 得
+由 (1) 中 $\binom{2n}{n}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}$, 得
 
 $$
-T_{n+1}=\frac{1\cdot 3\cdot 5\cdots(2n-1)}{n!}(2x)^n.
+T_{n+1}=\frac{1\cdot 3\cdot 5\cdots\left(2n-1\right)}{n!}\left(2x\right)^n.
 $$
 
 得证. $\blacksquare$
 
 ### 习题八
 
-(习题 6.3 综合运用第 8 题) 已知 $(1+x)^n$ 的展开式中第 $4$ 项与第 $8$ 项的二项式系数相等, 求这两项的二项式系数.
+(习题 6.3 综合运用第 8 题) 已知 $\left(1+x\right)^n$ 的展开式中第 $4$ 项与第 $8$ 项的二项式系数相等, 求这两项的二项式系数.
 
 ### 解答 习题八
 
@@ -504,7 +504,7 @@ $\blacksquare$
 
 (习题 6.3 综合运用第 9 题) 用二项式定理证明:
 
-(1) $(n+1)^n-1$ 能被 $n^2$ 整除;
+(1) $\left(n+1\right)^n-1$ 能被 $n^2$ 整除;
 
 (2) $99^{10}-1$ 能被 $1000$ 整除.
 
@@ -515,34 +515,34 @@ $\blacksquare$
 (1) 由**定理 6.3.1**,
 
 $$
-(n+1)^n=\binom{n}{0}+\binom{n}{1} n+\binom{n}{2} n^2+\cdots+\binom{n}{n} n^n.
+\left(n+1\right)^n=\binom{n}{0}+\binom{n}{1} n+\binom{n}{2} n^2+\cdots+\binom{n}{n} n^n.
 $$
 
 其中 $\binom{n}{0}=1$, $\binom{n}{1} n=n\cdot n=n^2$, 其余各项至少含有 $n^2$ 这个因子. 于是
 
 $$
-(n+1)^n-1=n^2+\binom{n}{2} n^2+\cdots+n^n=n^2\left(1+\binom{n}{2} n^0+\cdots+n^{n-2}\right).
+\left(n+1\right)^n-1=n^2+\binom{n}{2} n^2+\cdots+n^n=n^2\left(1+\binom{n}{2} n^0+\cdots+n^{n-2}\right).
 $$
 
-括号内为整数, 故 $(n+1)^n-1$ 能被 $n^2$ 整除.
+括号内为整数, 故 $\left(n+1\right)^n-1$ 能被 $n^2$ 整除.
 
 (2) 由**定理 6.3.1**,
 
 $$
-99^{10}=(100-1)^{10}=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100(-1)^9+(-1)^{10}.
+99^{10}=\left(100-1\right)^{10}=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9+\left(-1\right)^{10}.
 $$
 
-其中 $(-1)^{10}=1$, 故
+其中 $\left(-1\right)^{10}=1$, 故
 
 $$
-99^{10}-1=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100(-1)^9.
+99^{10}-1=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9.
 $$
 
-最后一项 $\binom{10}{9}\cdot 100\cdot(-1)^9=-1000$, 能被 $1000$ 整除; 其余各项都含有 $100^2=10000$ 这个因子, 也能被 $1000$ 整除. 故 $99^{10}-1$ 能被 $1000$ 整除. $\blacksquare$
+最后一项 $\binom{10}{9}\cdot 100\cdot\left(-1\right)^9=-1000$, 能被 $1000$ 整除; 其余各项都含有 $100^2=10000$ 这个因子, 也能被 $1000$ 整除. 故 $99^{10}-1$ 能被 $1000$ 整除. $\blacksquare$
 
 ### 习题十
 
-(习题 6.3 拓广探索第 10 题) 求证: $2^n-\binom{n}{1}\times 2^{n-1}+\binom{n}{2}\times 2^{n-2}+\cdots+(-1)^{n-1}\binom{n}{n-1}\times 2+(-1)^n=1$.
+(习题 6.3 拓广探索第 10 题) 求证: $2^n-\binom{n}{1}\times 2^{n-1}+\binom{n}{2}\times 2^{n-2}+\cdots+\left(-1\right)^{n-1}\binom{n}{n-1}\times 2+\left(-1\right)^n=1$.
 
 ### 解答 习题十
 
@@ -551,20 +551,20 @@ $$
 在**定理 6.3.1** 中取 $a=2$, $b=-1$, 则
 
 $$
-(2-1)^n=\binom{n}{0} 2^n+\binom{n}{1} 2^{n-1}(-1)+\binom{n}{2} 2^{n-2}(-1)^2+\cdots+\binom{n}{n}(-1)^n.
+\left(2-1\right)^n=\binom{n}{0} 2^n+\binom{n}{1} 2^{n-1}\left(-1\right)+\binom{n}{2} 2^{n-2}\left(-1\right)^2+\cdots+\binom{n}{n}\left(-1\right)^n.
 $$
 
 即
 
 $$
-2^n-\binom{n}{1} 2^{n-1}+\binom{n}{2} 2^{n-2}+\cdots+(-1)^n=1.
+2^n-\binom{n}{1} 2^{n-1}+\binom{n}{2} 2^{n-2}+\cdots+\left(-1\right)^n=1.
 $$
 
 左边恰为所证式, 右边 $=1$. 得证. $\blacksquare$
 
 ### 习题十一
 
-(习题 6.3 拓广探索第 11 题) 下图反映了二项式定理产生, 完备和推广所走过的漫长历程. 在上述发展过程中, 无论是推广还是证明, 都是从特殊到一般. 如今, 数学研究的一个发展趋势就是尽可能地一般化. 请你试一试, 从 $(a+b)^n$ 推广到 $(a_1+a_2+\cdots+a_m)^n$ ($m,n\in\mathbb N^*$).
+(习题 6.3 拓广探索第 11 题) 下图反映了二项式定理产生, 完备和推广所走过的漫长历程. 在上述发展过程中, 无论是推广还是证明, 都是从特殊到一般. 如今, 数学研究的一个发展趋势就是尽可能地一般化. 请你试一试, 从 $\left(a+b\right)^n$ 推广到 $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb N^*$).
 
 ![week82-1.svg](../../figures/week82-1.svg){width=50%}
 
@@ -572,9 +572,9 @@ $$
 
 由**定理 6.3.1** (二项式定理) 与**定义 6.1.2** (分步乘法计数原理).
 
-$(a_1+a_2+\cdots+a_m)^n$ 是 $n$ 个 $(a_1+a_2+\cdots+a_m)$ 相乘. 展开式的每一项都是从每个括号中各选一个 $a_i$ 相乘得到的. 设 $a_1$ 被取了 $n_1$ 次, $a_2$ 被取了 $n_2$ 次, ..., $a_m$ 被取了 $n_m$ 次, 其中 $n_1+n_2+\cdots+n_m=n$.
+$\left(a_1+a_2+\cdots+a_m\right)^n$ 是 $n$ 个 $\left(a_1+a_2+\cdots+a_m\right)$ 相乘. 展开式的每一项都是从每个括号中各选一个 $a_i$ 相乘得到的. 设 $a_1$ 被取了 $n_1$ 次, $a_2$ 被取了 $n_2$ 次, ..., $a_m$ 被取了 $n_m$ 次, 其中 $n_1+n_2+\cdots+n_m=n$.
 
-对一组确定的非负整数 $(n_1,n_2,\cdots,n_m)$, 这样的取法数为多项式系数
+对一组确定的非负整数 $\left(n_1,n_2,\cdots,n_m\right)$, 这样的取法数为多项式系数
 
 $$
 \frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}.
@@ -583,7 +583,7 @@ $$
 故推广为
 
 $$
-(a_1+a_2+\cdots+a_m)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots a_m^{n_m}.
+\left(a_1+a_2+\cdots+a_m\right)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots a_m^{n_m}.
 $$
 
 $\blacksquare$

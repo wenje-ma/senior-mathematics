@@ -8,9 +8,9 @@
 
 > **Definition 8.3.4** (Volume of a Frustum) <br>If the upper and lower base areas of a frustum are $S'$ and $S$ and its height is $h$, then $V_{\text{台体}}=\frac{1}{3}h\left(S'+\sqrt{S'S}+S\right)$.
 
-> **Definition 8.3.5** (Surface Area of a Cylinder) <br>If the base radius of a cylinder is $r$ and the generatrix length is $l$, then $S_{\text{圆柱}}=2\pi r(r+l)$.
+> **Definition 8.3.5** (Surface Area of a Cylinder) <br>If the base radius of a cylinder is $r$ and the generatrix length is $l$, then $S_{\text{圆柱}}=2\pi r\left(r+l\right)$.
 
-> **Definition 8.3.6** (Surface Area of a Cone) <br>If the base radius of a cone is $r$ and the generatrix length is $l$, then $S_{\text{圆锥}}=\pi r(r+l)$.
+> **Definition 8.3.6** (Surface Area of a Cone) <br>If the base radius of a cone is $r$ and the generatrix length is $l$, then $S_{\text{圆锥}}=\pi r\left(r+l\right)$.
 
 > **Definition 8.3.7** (Surface Area of a Frustum of a Cone) <br>If the upper and lower base radii of a frustum of a cone are $r'$ and $r$ and the generatrix length is $l$, then $S_{\text{圆台}}=\pi\left(r'^{2}+r^{2}+r'l+rl\right)$.
 
@@ -42,7 +42,7 @@ $$
 
 The area of each trapezoid is $\frac{2+6}{2}\cdot\sqrt{21}=4\sqrt{21}$, and the lateral area is $6\times 4\sqrt{21}=24\sqrt{21}$.
 
-Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ (\text{cm}^{2})$. $\blacksquare$
+Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ \left(\text{cm}^{2}\right)$. $\blacksquare$
 
 ### Exercise 2
 
@@ -70,9 +70,9 @@ By **Definition 8.3.2** (Volume of a Prism-like or Cylinder-like Solid), the cub
 
 (3) Small cubes with two red faces lie on the edges but not at the vertices. On each edge there are $4-2=2$, and there are $12$ edges, so there are $12\times 2=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
 
-(4) Small cubes with one red face lie on the faces but not on the edges. On each face there are $(4-2)^{2}=4$, and there are $6$ faces, so there are $6\times 4=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
+(4) Small cubes with one red face lie on the faces but not on the edges. On each face there are $\left(4-2\right)^{2}=4$, and there are $6$ faces, so there are $6\times 4=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
 
-(5) Uncolored small cubes lie inside the large cube, and there are $(4-2)^{3}=8$ of them. The sum of their surface areas is $8\times 6=48\text{ cm}^{2}$. The space they occupy is $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
+(5) Uncolored small cubes lie inside the large cube, and there are $\left(4-2\right)^{3}=8$ of them. The sum of their surface areas is $8\times 6=48\text{ cm}^{2}$. The space they occupy is $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
 
 ### Exercise 3
 
@@ -87,7 +87,7 @@ The cube has edge $50\text{ cm}$ and volume $50^{3}=125000\text{ cm}^{3}$.
 Eight identical tetrahedra are cut off; each has three pairwise perpendicular edges of length $25\text{ cm}$ (i.e. cut by planes through the midpoints of the three edges at each vertex). The volume of each tetrahedron is
 
 $$
-V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ (\text{cm}^{3}).
+V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ \left(\text{cm}^{3}\right).
 $$
 
 The eight tetrahedra cut off a total of $8\times\frac{15625}{6}=\frac{62500}{3}\text{ cm}^{3}$.
@@ -116,9 +116,9 @@ By **Definition 8.3.6** (Surface Area of a Cone), let the base radius be $r$ and
 
 The lateral development is a semicircle whose radius is the generatrix $l$ and whose arc length is $\pi l$. This arc length equals the base circumference $2\pi r$, so $\pi l=2\pi r$, i.e. $l=2r$.
 
-The surface area is $S=\pi r(r+l)=\pi r(r+2r)=3\pi r^{2}=a$, giving $r=\sqrt{\frac{a}{3\pi}}$.
+The surface area is $S=\pi r\left(r+l\right)=\pi r\left(r+2r\right)=3\pi r^{2}=a$, giving $r=\sqrt{\frac{a}{3\pi}}$.
 
-Hence the base diameter is $2r=2\sqrt{\frac{a}{3\pi}}\ (\text{m})$. $\blacksquare$
+Hence the base diameter is $2r=2\sqrt{\frac{a}{3\pi}}\ \left(\text{m}\right)$. $\blacksquare$
 
 ### Exercise 6
 
@@ -237,7 +237,7 @@ Surface area: the lateral area of the cone is $\pi\cdot\frac{a}{2}\cdot\frac{\sq
 Hence the surface area of the remaining solid is
 
 $$
-S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{(\sqrt{5}+2)\pi a^{2}}{4}.
+S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{\left(\sqrt{5}+2\right)\pi a^{2}}{4}.
 $$
 
 Volume: the cone volume is $\frac{1}{3}\pi\left(\frac{a}{2}\right)^{2}\cdot a=\frac{\pi a^{3}}{12}$, and the hollowed cylinder volume is $\pi\left(\frac{a}{4}\right)^{2}\cdot\frac{a}{2}=\frac{\pi a^{3}}{32}$.
@@ -350,7 +350,7 @@ The total volume is $373.3+640+33.5\approx 1047\text{ cm}^{3}$.
 
 Surface area: for the front and back lateral faces of the frustum (bases $20$, $10$), the slant height is $\sqrt{2^{2}+4^{2}}=2\sqrt{5}$, and their combined area is $2\times\frac{20+10}{2}\times 2\sqrt{5}=60\sqrt{5}$; for the left and right faces (bases $16$, $8$), the slant height is $\sqrt{2^{2}+5^{2}}=\sqrt{29}$, and their combined area is $2\times\frac{16+8}{2}\times\sqrt{29}=24\sqrt{29}$. The frustum's lower base area is $320$, and its exposed upper base area is $80-8\times 4=48$.
 
-The prism's lateral area is $2(8\times 20+4\times 20)=480$, and its upper base area is $8\times 4=32$.
+The prism's lateral area is $2\left(8\times 20+4\times 20\right)=480$, and its upper base area is $8\times 4=32$.
 
 The sphere's surface area is $4\pi\times 2^{2}=16\pi$.
 

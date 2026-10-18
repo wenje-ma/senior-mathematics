@@ -12,9 +12,9 @@
 
 > **Common Number Sets** <br>The set of all non-negative integers is called the non-negative integer set, or the natural number set, denoted $\mathbb N$; the set of all positive integers is called the positive integer set, denoted $\mathbb N^*$ or $\mathbb N_+$; the set of all integers is called the integer set, denoted $\mathbb Z$; the set of all rational numbers is called the rational number set, denoted $\mathbb Q$; the set of all real numbers is called the real number set, denoted $\mathbb R$.
 
-> **Definition 1.1.6** (Roster Method) <br>The method of listing all elements of a set one by one and enclosing them in braces "$\{\ \}$" is called the roster method.
+> **Definition 1.1.6** (Roster Method) <br>The method of listing all elements of a set one by one and enclosing them in braces "$\left\{\ \right\}$" is called the roster method.
 
-> **Definition 1.1.7** (Set-Builder Notation) <br>Generally, let $A$ be a set; we denote the set of all elements $x$ in $A$ that have the common property $P\left(x\right)$ as $\{x\in A\mid P\left(x\right)\}$, and this method of representing a set is called set-builder notation. Sometimes a colon or semicolon is used instead of the vertical bar, written as $\{x\in A:P\left(x\right)\}$ or $\{x\in A;P\left(x\right)\}$.
+> **Definition 1.1.7** (Set-Builder Notation) <br>Generally, let $A$ be a set; we denote the set of all elements $x$ in $A$ that have the common property $P\left(x\right)$ as $\left\{x\in A\mid P\left(x\right)\right\}$, and this method of representing a set is called set-builder notation. Sometimes a colon or semicolon is used instead of the vertical bar, written as $\left\{x\in A:P\left(x\right)\right\}$ or $\left\{x\in A;P\left(x\right)\right\}$.
 
 ### Exercise 1
 
@@ -78,7 +78,7 @@ By the **Common Number Sets** and **Definition 1.1.5** (Belonging and Not Belong
 
 By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder Notation), use the roster method when the elements of the set can be listed one by one, and use set-builder notation when the elements are infinite or inconvenient to list.
 
-(1) The roots of the equation $x^2-9=0$ are $x=\pm3$, and the elements of its solution set can be listed one by one, so using the roster method, we obtain $\{-3,3\}$.
+(1) The roots of the equation $x^2-9=0$ are $x=\pm3$, and the elements of its solution set can be listed one by one, so using the roster method, we obtain $\left\{-3,3\right\}$.
 
 (2) To find the intersection point, solve the system of equations
 
@@ -86,9 +86,9 @@ $$
 \begin{cases}y=x+3,\\y=-2x+6.\end{cases}
 $$
 
-From $x+3=-2x+6$, we get $3x=3$, i.e. $x=1$; substituting back gives $y=4$, so the intersection point is unique, namely the point $\left(1,4\right)$. The elements of this set can be listed one by one, so using the roster method, we obtain $\{\left(1,4\right)\}$.
+From $x+3=-2x+6$, we get $3x=3$, i.e. $x=1$; substituting back gives $y=4$, so the intersection point is unique, namely the point $\left(1,4\right)$. The elements of this set can be listed one by one, so using the roster method, we obtain $\left\{\left(1,4\right)\right\}$.
 
-(3) From $4x-5<3$, transposing gives $4x<8$, i.e. $x<2$, so the solution set is $\{x\mid x<2\}$; its elements are infinite, so it is represented using set-builder notation, giving $\{x\mid x<2\}$. $\blacksquare$
+(3) From $4x-5<3$, transposing gives $4x<8$, i.e. $x<2$, so the solution set is $\left\{x\mid x<2\right\}$; its elements are infinite, so it is represented using set-builder notation, giving $\left\{x\mid x<2\right\}$. $\blacksquare$
 
 ### Problem 1
 
@@ -96,11 +96,11 @@ From $x+3=-2x+6$, we get $3x=3$, i.e. $x=1$; substituting back gives $y=4$, so t
 
 (1) Let $A$ be the set of all Asian countries; then China$\;\_\_\;A$, the United States$\;\_\_\;A$, India$\;\_\_\;A$, the United Kingdom$\;\_\_\;A$;
 
-(2) If $A=\{x\mid x^2=x\}$, then $-1\;\_\_\;A$;
+(2) If $A=\left\{x\mid x^2=x\right\}$, then $-1\;\_\_\;A$;
 
-(3) If $B=\{x\mid x^2+x-6=0\}$, then $3\;\_\_\;B$;
+(3) If $B=\left\{x\mid x^2+x-6=0\right\}$, then $3\;\_\_\;B$;
 
-(4) If $C=\{x\in\mathbb N\mid 1\le x\le10\}$, then $8\;\_\_\;C$, $9.1\;\_\_\;C$.
+(4) If $C=\left\{x\in\mathbb N\mid 1\le x\le10\right\}$, then $8\;\_\_\;C$, $9.1\;\_\_\;C$.
 
 ### Solution to Problem 1
 
@@ -108,11 +108,11 @@ By **Definition 1.1.5** (Belonging and Not Belonging) and the **Common Number Se
 
 (1) China is an Asian country, so China$\in A$; the United States is not an Asian country, so the United States$\notin A$; India is an Asian country, so India$\in A$; the United Kingdom is not an Asian country, so the United Kingdom$\notin A$.
 
-(2) The equation $x^2=x$ is equivalent to $x\left(x-1\right)=0$, whose roots are $0,1$, so $A=\{0,1\}$. Since $-1$ is not an element of $A$, we have $-1\notin A$.
+(2) The equation $x^2=x$ is equivalent to $x\left(x-1\right)=0$, whose roots are $0,1$, so $A=\left\{0,1\right\}$. Since $-1$ is not an element of $A$, we have $-1\notin A$.
 
-(3) The equation $x^2+x-6=0$ is equivalent to $\left(x+3\right)\left(x-2\right)=0$, whose roots are $-3,2$, so $B=\{-3,2\}$. Since $3$ is not an element of $B$, we have $3\notin B$.
+(3) The equation $x^2+x-6=0$ is equivalent to $\left(x+3\right)\left(x-2\right)=0$, whose roots are $-3,2$, so $B=\left\{-3,2\right\}$. Since $3$ is not an element of $B$, we have $3\notin B$.
 
-(4) By the **Common Number Sets**, $\mathbb N$ is the non-negative integer set, and the set $C=\{x\in\mathbb N\mid 1\le x\le10\}=\{1,2,3,4,5,6,7,8,9,10\}$. Since $8\in C$, and $9.1$ is not an integer, we have $9.1\notin C$. $\blacksquare$
+(4) By the **Common Number Sets**, $\mathbb N$ is the non-negative integer set, and the set $C=\left\{x\in\mathbb N\mid 1\le x\le10\right\}=\left\{1,2,3,4,5,6,7,8,9,10\right\}$. Since $8\in C$, and $9.1$ is not an integer, we have $9.1\notin C$. $\blacksquare$
 
 ### Problem 2
 
@@ -120,29 +120,29 @@ By **Definition 1.1.5** (Belonging and Not Belonging) and the **Common Number Se
 
 (1) the integers greater than $1$ and less than $6$;
 
-(2) $A=\{x\mid\left(x-1\right)\left(x+2\right)=0\}$;
+(2) $A=\left\{x\mid\left(x-1\right)\left(x+2\right)=0\right\}$;
 
-(3) $B=\{x\in\mathbb Z\mid -3<2x-1<3\}$.
+(3) $B=\left\{x\in\mathbb Z\mid -3<2x-1<3\right\}$.
 
 ### Solution to Problem 2
 
 By **Definition 1.1.6** (Roster Method), list the elements of the set one by one and enclose them in braces.
 
-(1) The integers greater than $1$ and less than $6$ are $2,3,4,5$, so this set is $\{2,3,4,5\}$.
+(1) The integers greater than $1$ and less than $6$ are $2,3,4,5$, so this set is $\left\{2,3,4,5\right\}$.
 
-(2) The roots of the equation $\left(x-1\right)\left(x+2\right)=0$ are $x=1$ or $x=-2$, so $A=\{1,-2\}$.
+(2) The roots of the equation $\left(x-1\right)\left(x+2\right)=0$ are $x=1$ or $x=-2$, so $A=\left\{1,-2\right\}$.
 
-(3) From $-3<2x-1<3$, adding $1$ to each part gives $-2<2x<4$, and dividing each part by $2$ gives $-1<x<2$. Also by the **Common Number Sets**, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\{0,1\}$. $\blacksquare$
+(3) From $-3<2x-1<3$, adding $1$ to each part gives $-2<2x<4$, and dividing each part by $2$ gives $-1<x<2$. Also by the **Common Number Sets**, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\left\{0,1\right\}$. $\blacksquare$
 
 ### Problem 3
 
 (Problem 1.1, Comprehensive Application, Problem 3) Represent the following sets using an alternative method.
 
-(1) $\{2,4,6,8,10\}$;
+(1) $\left\{2,4,6,8,10\right\}$;
 
 (2) all natural numbers formed by taking some or all of the digits $1,2,3$ without repetition;
 
-(3) $\{x\in\mathbb N\mid 3<x<7\}$;
+(3) $\left\{x\in\mathbb N\mid 3<x<7\right\}$;
 
 (4) the Four Great Inventions of ancient China.
 
@@ -150,13 +150,13 @@ By **Definition 1.1.6** (Roster Method), list the elements of the set one by one
 
 By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder Notation), the same set can be represented using different methods.
 
-(1) The set $\{2,4,6,8,10\}$ is the set of positive even integers not exceeding $10$; using set-builder notation, it is $\{x\in\mathbb N\mid x=2k,\ k=1,2,3,4,5\}$.
+(1) The set $\left\{2,4,6,8,10\right\}$ is the set of positive even integers not exceeding $10$; using set-builder notation, it is $\left\{x\in\mathbb N\mid x=2k,\ k=1,2,3,4,5\right\}$.
 
-(2) The elements of this set are formed by taking some or all of the digits $1,2,3$; listing them gives $\{1,2,3,12,13,21,23,31,32,123,132,213,231,312,321\}$, and using set-builder notation, it is $\{x\mid x\text{ 由数字 }1,2,3\text{ 中若干个不重复地组成}\}$.
+(2) The elements of this set are formed by taking some or all of the digits $1,2,3$; listing them gives $\left\{1,2,3,12,13,21,23,31,32,123,132,213,231,312,321\right\}$, and using set-builder notation, it is $\left\{x\mid x\text{ 由数字 }1,2,3\text{ 中若干个不重复地组成}\right\}$.
 
-(3) The elements of the set $\{x\in\mathbb N\mid 3<x<7\}$ are $4,5,6$; using the roster method, it is $\{4,5,6\}$.
+(3) The elements of the set $\left\{x\in\mathbb N\mid 3<x<7\right\}$ are $4,5,6$; using the roster method, it is $\left\{4,5,6\right\}$.
 
-(4) The Four Great Inventions of ancient China are papermaking, printing, gunpowder, and the compass; using the roster method, it is $\{$papermaking, printing, gunpowder, the compass$\}$. $\blacksquare$
+(4) The Four Great Inventions of ancient China are papermaking, printing, gunpowder, and the compass; using the roster method, it is $\left\{$papermaking, printing, gunpowder, the compass$\right\}$. $\blacksquare$
 
 ### Problem 4
 
@@ -172,11 +172,11 @@ By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder No
 
 By **Definition 1.1.7** (Set-Builder Notation), sets with infinite elements or elements inconvenient to list one by one are represented using set-builder notation.
 
-(1) For the quadratic function $y=x^2-4$, since $x^2\ge0$, we have $y=x^2-4\ge-4$, so the set of function values is $\{y\mid y\ge-4\}$.
+(1) For the quadratic function $y=x^2-4$, since $x^2\ge0$, we have $y=x^2-4\ge-4$, so the set of function values is $\left\{y\mid y\ge-4\right\}$.
 
-(2) For the inverse proportional function $y=\frac{2}{x}$, the independent variable $x$ must satisfy that the denominator is nonzero, i.e. $x\neq0$, so the set of values of the independent variable is $\{x\mid x\neq0\}$.
+(2) For the inverse proportional function $y=\frac{2}{x}$, the independent variable $x$ must satisfy that the denominator is nonzero, i.e. $x\neq0$, so the set of values of the independent variable is $\left\{x\mid x\neq0\right\}$.
 
-(3) From $3x\ge4-2x$, transposing gives $5x\ge4$, i.e. $x\ge\frac{4}{5}$, so the solution set is $\{x\mid x\ge\frac{4}{5}\}$. $\blacksquare$
+(3) From $3x\ge4-2x$, transposing gives $5x\ge4$, i.e. $x\ge\frac{4}{5}$, so the solution set is $\left\{x\mid x\ge\frac{4}{5}\right\}$. $\blacksquare$
 
 ### Problem 5
 

@@ -4,7 +4,7 @@
 
 > **Definition 10.1.2** (Sample Points and Sample Space) <br>We call each possible basic outcome of a random experiment $E$ a sample point, and the set of all sample points the sample space of experiment $E$. In general, we use $\Omega$ to denote the sample space and $\omega$ to denote a sample point.
 
-> **Definition 10.1.3** (Finite Sample Space) <br>If a random experiment has $n$ possible outcomes $\omega_1, \omega_2, \cdots, \omega_n$, then the sample space $\Omega=\{\omega_1, \omega_2, \cdots, \omega_n\}$ is called a finite sample space.
+> **Definition 10.1.3** (Finite Sample Space) <br>If a random experiment has $n$ possible outcomes $\omega_1, \omega_2, \cdots, \omega_n$, then the sample space $\Omega=\left\{\omega_1, \omega_2, \cdots, \omega_n\right\}$ is called a finite sample space.
 
 > **Definition 10.1.4** (Random Event) <br>We call a subset of the sample space $\Omega$ a random event, shortened to event; random events are generally denoted by capital letters $A, B, C, \cdots$. In each trial, event $A$ is said to occur if and only if some sample point in $A$ appears.
 
@@ -28,19 +28,19 @@
 
 > **Definition 10.1.14** (Classical Probability Model) <br>We call an experiment with the following two features a classical-model experiment, and its mathematical model the classical probability model, shortened to classical probability model: (1) finiteness: there are only finitely many sample points in the sample space; (2) equal likelihood: each sample point is equally likely to occur.
 
-> **Definition 10.1.15** (Classical Definition of Probability) <br>In general, let experiment $E$ be a classical probability model, the sample space $\Omega$ contain $n$ sample points, and event $A$ contain $k$ of them; then the probability of event $A$ is defined as $P(A)=\frac{k}{n}=\frac{n(A)}{n(\Omega)}$, where $n(A)$ and $n(\Omega)$ denote the numbers of sample points contained in event $A$ and the sample space $\Omega$ respectively.
+> **Definition 10.1.15** (Classical Definition of Probability) <br>In general, let experiment $E$ be a classical probability model, the sample space $\Omega$ contain $n$ sample points, and event $A$ contain $k$ of them; then the probability of event $A$ is defined as $P\left(A\right)=\frac{k}{n}=\frac{n\left(A\right)}{n\left(\Omega\right)}$, where $n\left(A\right)$ and $n\left(\Omega\right)$ denote the numbers of sample points contained in event $A$ and the sample space $\Omega$ respectively.
 
-> **Property 10.1.16** (Non-negativity of Probability) <br>For any event $A$, $P(A)\ge 0$.
+> **Property 10.1.16** (Non-negativity of Probability) <br>For any event $A$, $P\left(A\right)\ge 0$.
 
-> **Property 10.1.17** (Probability of the Certain and Impossible Events) <br>The probability of the certain event is $1$, and the probability of the impossible event is $0$, i.e. $P(\Omega)=1$, $P(\varnothing)=0$.
+> **Property 10.1.17** (Probability of the Certain and Impossible Events) <br>The probability of the certain event is $1$, and the probability of the impossible event is $0$, i.e. $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
 
-> **Property 10.1.18** (Additive Formula for Mutually Exclusive Events) <br>If events $A$ and $B$ are mutually exclusive, then $P(A\cup B)=P(A)+P(B)$. The additive formula for mutually exclusive events extends to several events: if events $A_1, A_2, \cdots, A_m$ are pairwise mutually exclusive, then $P(A_1\cup A_2\cup\cdots\cup A_m)=P(A_1)+P(A_2)+\cdots+P(A_m)$.
+> **Property 10.1.18** (Additive Formula for Mutually Exclusive Events) <br>If events $A$ and $B$ are mutually exclusive, then $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)$. The additive formula for mutually exclusive events extends to several events: if events $A_1, A_2, \cdots, A_m$ are pairwise mutually exclusive, then $P\left(A_1\cup A_2\cup\cdots\cup A_m\right)=P\left(A_1\right)+P\left(A_2\right)+\cdots+P\left(A_m\right)$.
 
-> **Property 10.1.19** (Probability of Complementary Events) <br>If events $A$ and $B$ are complementary, then $P(B)=1-P(A)$, $P(A)=1-P(B)$.
+> **Property 10.1.19** (Probability of Complementary Events) <br>If events $A$ and $B$ are complementary, then $P\left(B\right)=1-P\left(A\right)$, $P\left(A\right)=1-P\left(B\right)$.
 
-> **Property 10.1.20** (Monotonicity of Probability) <br>If $A\subseteq B$, then $P(A)\le P(B)$. From Property 10.1.20, for any event $A$, since $\varnothing\subseteq A\subseteq\Omega$, we have $0\le P(A)\le 1$.
+> **Property 10.1.20** (Monotonicity of Probability) <br>If $A\subseteq B$, then $P\left(A\right)\le P\left(B\right)$. From Property 10.1.20, for any event $A$, since $\varnothing\subseteq A\subseteq\Omega$, we have $0\le P\left(A\right)\le 1$.
 
-> **Property 10.1.21** (General Additive Formula) <br>Let $A, B$ be two events in a random experiment; we have $P(A\cup B)=P(A)+P(B)-P(A\cap B)$.
+> **Property 10.1.21** (General Additive Formula) <br>Let $A, B$ be two events in a random experiment; we have $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$.
 
 ### Exercise 1
 
@@ -60,15 +60,15 @@
 
 By **Definition 10.1.2** (Sample Points and Sample Space), each possible basic outcome of a random experiment is called a sample point, and the set of all sample points the sample space.
 
-(1) A student's gender has only two possibilities, male and female, so the sample space is $\Omega=\{$male, female$\}$.
+(1) A student's gender has only two possibilities, male and female, so the sample space is $\Omega=\left\{$male, female$\right\}$.
 
-(2) There are four $ABO$ blood types, $A, B, O, AB$, so the sample space is $\Omega=\{A, B, O, AB\}$.
+(2) There are four $ABO$ blood types, $A, B, O, AB$, so the sample space is $\Omega=\left\{A, B, O, AB\right\}$.
 
-(3) Each child's gender has two possibilities, male and female; the two children have $4$ gender combinations in total, so the sample space is $\Omega=\{$ (male, male), (male, female), (female, male), (female, female) $\}$.
+(3) Each child's gender has two possibilities, male and female; the two children have $4$ gender combinations in total, so the sample space is $\Omega=\left\{$ (male, male), (male, female), (female, male), (female, female) $\right\}$.
 
-(4) Each shot has two possibilities, hit or miss; use $1$ for a hit and $0$ for a miss. The three shots have $2^3=8$ outcomes in total, so the sample space is $\Omega=\{(1,1,1), (1,1,0), (1,0,1), (1,0,0), (0,1,1), (0,1,0), (0,0,1), (0,0,0)\}$.
+(4) Each shot has two possibilities, hit or miss; use $1$ for a hit and $0$ for a miss. The three shots have $2^3=8$ outcomes in total, so the sample space is $\Omega=\left\{\left(1,1,1\right), \left(1,1,0\right), \left(1,0,1\right), \left(1,0,0\right), \left(0,1,1\right), \left(0,1,0\right), \left(0,0,1\right), \left(0,0,0\right)\right\}$.
 
-(5) The number of hits in three shots can be $0, 1, 2, 3$, so the sample space is $\Omega=\{0, 1, 2, 3\}$. $\blacksquare$
+(5) The number of hits in three shots can be $0, 1, 2, 3$, so the sample space is $\Omega=\left\{0, 1, 2, 3\right\}$. $\blacksquare$
 
 ### Exercise 2
 
@@ -84,13 +84,13 @@ By **Definition 10.1.2** (Sample Points and Sample Space), each possible basic o
 
 ### Solution to Exercise 2
 
-By **Definition 10.1.2** (Sample Points and Sample Space), use $1$ for a normal component and $0$ for a failed component; the pair $(x_1, x_2)$ denotes the states of components $A, B$.
+By **Definition 10.1.2** (Sample Points and Sample Space), use $1$ for a normal component and $0$ for a failed component; the pair $\left(x_1, x_2\right)$ denotes the states of components $A, B$.
 
-(1) Each component has two states, normal and failed; the two components have $4$ state combinations in total, so the sample space is $\Omega=\{(0,0), (0,1), (1,0), (1,1)\}$.
+(1) Each component has two states, normal and failed; the two components have $4$ state combinations in total, so the sample space is $\Omega=\left\{\left(0,0\right), \left(0,1\right), \left(1,0\right), \left(1,1\right)\right\}$.
 
-(2) For the series circuit, the circuit is closed only when both components are normal. By **Definition 10.1.4** (Random Event), event $M$ is a subset of the sample space; its sample points are the case where both components are normal, so $M=\{(1,1)\}$.
+(2) For the series circuit, the circuit is closed only when both components are normal. By **Definition 10.1.4** (Random Event), event $M$ is a subset of the sample space; its sample points are the case where both components are normal, so $M=\left\{\left(1,1\right)\right\}$.
 
-(3) For the parallel circuit, the circuit is open only when both components have failed. By **Definition 10.1.4** (Random Event), event $N$ is a subset of the sample space; its sample points are the case where both components have failed, so $N=\{(0,0)\}$. $\blacksquare$
+(3) For the parallel circuit, the circuit is open only when both components have failed. By **Definition 10.1.4** (Random Event), event $N$ is a subset of the sample space; its sample points are the case where both components have failed, so $N=\left\{\left(0,0\right)\right\}$. $\blacksquare$
 
 ### Exercise 3
 
@@ -104,9 +104,9 @@ By **Definition 10.1.2** (Sample Points and Sample Space), use $1$ for a normal 
 
 By **Definition 10.1.2** (Sample Points and Sample Space), the sample point is the number on the drawn ball, and the sample space is the set of all possible numbers.
 
-(1) The bag contains $9$ balls labeled $1$ to $9$, so the sample space is $\Omega=\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$.
+(1) The bag contains $9$ balls labeled $1$ to $9$, so the sample space is $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8, 9\right\}$.
 
-(2) By **Definition 10.1.4** (Random Event), a random event is a subset of the sample space. The number on the drawn ball being less than $5$, i.e. numbers $1, 2, 3, 4$, so $A=\{1, 2, 3, 4\}$. The number being greater than $4$, i.e. numbers $5, 6, 7, 8, 9$, so $B=\{5, 6, 7, 8, 9\}$. The number being even, i.e. numbers $2, 4, 6, 8$, so $C=\{2, 4, 6, 8\}$. $\blacksquare$
+(2) By **Definition 10.1.4** (Random Event), a random event is a subset of the sample space. The number on the drawn ball being less than $5$, i.e. numbers $1, 2, 3, 4$, so $A=\left\{1, 2, 3, 4\right\}$. The number being greater than $4$, i.e. numbers $5, 6, 7, 8, 9$, so $B=\left\{5, 6, 7, 8, 9\right\}$. The number being even, i.e. numbers $2, 4, 6, 8$, so $C=\left\{2, 4, 6, 8\right\}$. $\blacksquare$
 
 ### Exercise 4
 
@@ -160,39 +160,39 @@ Determine whether the following conclusions are correct.
 
 ### Solution to Exercise 5
 
-By **Definition 10.1.4** (Random Event), each event is represented as a subset of the sample space $\Omega=\{1, 2, 3, 4, 5, 6\}$. The events are $C_1=\{1\}$, $C_2=\{2\}$, $C_3=\{3\}$, $C_4=\{4\}$, $C_5=\{5\}$, $C_6=\{6\}$, $D_1=\{1, 2\}$, $D_2=\{3, 4, 5, 6\}$, $D_3=\{5, 6\}$, $E=\{1, 3, 5\}$, $F=\{2, 4, 6\}$.
+By **Definition 10.1.4** (Random Event), each event is represented as a subset of the sample space $\Omega=\left\{1, 2, 3, 4, 5, 6\right\}$. The events are $C_1=\left\{1\right\}$, $C_2=\left\{2\right\}$, $C_3=\left\{3\right\}$, $C_4=\left\{4\right\}$, $C_5=\left\{5\right\}$, $C_6=\left\{6\right\}$, $D_1=\left\{1, 2\right\}$, $D_2=\left\{3, 4, 5, 6\right\}$, $D_3=\left\{5, 6\right\}$, $E=\left\{1, 3, 5\right\}$, $F=\left\{2, 4, 6\right\}$.
 
-(1) By **Definition 10.1.12** (Mutually Exclusive), $C_1\cap C_2=\{1\}\cap\{2\}=\varnothing$, so $C_1$ and $C_2$ are mutually exclusive. The conclusion is correct.
+(1) By **Definition 10.1.12** (Mutually Exclusive), $C_1\cap C_2=\left\{1\right\}\cap\left\{2\right\}=\varnothing$, so $C_1$ and $C_2$ are mutually exclusive. The conclusion is correct.
 
-(2) By **Definition 10.1.13** (Complementary Events), $C_2\cup C_3=\{2, 3\}\neq\Omega$, so $C_2, C_3$ are not complementary events. The conclusion is wrong.
+(2) By **Definition 10.1.13** (Complementary Events), $C_2\cup C_3=\left\{2, 3\right\}\neq\Omega$, so $C_2, C_3$ are not complementary events. The conclusion is wrong.
 
-(3) By **Definition 10.1.8** (Inclusion Relation), $C_3=\{3\}\subseteq\{3, 4, 5, 6\}=D_2$. The conclusion is correct.
+(3) By **Definition 10.1.8** (Inclusion Relation), $C_3=\left\{3\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
 
-(4) By **Definition 10.1.8** (Inclusion Relation), $D_3=\{5, 6\}\subseteq\{3, 4, 5, 6\}=D_2$. The conclusion is correct.
+(4) By **Definition 10.1.8** (Inclusion Relation), $D_3=\left\{5, 6\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
 
-(5) By **Definition 10.1.10** (Union Event) and **Definition 10.1.11** (Intersection Event), $D_1\cup D_2=\{1, 2\}\cup\{3, 4, 5, 6\}=\{1, 2, 3, 4, 5, 6\}=\Omega$, $D_1\cap D_2=\{1, 2\}\cap\{3, 4, 5, 6\}=\varnothing$. The conclusion is correct.
+(5) By **Definition 10.1.10** (Union Event) and **Definition 10.1.11** (Intersection Event), $D_1\cup D_2=\left\{1, 2\right\}\cup\left\{3, 4, 5, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, $D_1\cap D_2=\left\{1, 2\right\}\cap\left\{3, 4, 5, 6\right\}=\varnothing$. The conclusion is correct.
 
-(6) By **Definition 10.1.10** (Union Event), $C_5\cup C_6=\{5\}\cup\{6\}=\{5, 6\}=D_3$. The conclusion is correct.
+(6) By **Definition 10.1.10** (Union Event), $C_5\cup C_6=\left\{5\right\}\cup\left\{6\right\}=\left\{5, 6\right\}=D_3$. The conclusion is correct.
 
-(7) By **Definition 10.1.10** (Union Event), $C_1\cup C_3\cup C_5=\{1\}\cup\{3\}\cup\{5\}=\{1, 3, 5\}=E$. The conclusion is correct.
+(7) By **Definition 10.1.10** (Union Event), $C_1\cup C_3\cup C_5=\left\{1\right\}\cup\left\{3\right\}\cup\left\{5\right\}=\left\{1, 3, 5\right\}=E$. The conclusion is correct.
 
-(8) By **Definition 10.1.13** (Complementary Events), $E\cup F=\{1, 3, 5\}\cup\{2, 4, 6\}=\{1, 2, 3, 4, 5, 6\}=\Omega$, and $E\cap F=\{1, 3, 5\}\cap\{2, 4, 6\}=\varnothing$, so $E, F$ are complementary events. The conclusion is correct.
+(8) By **Definition 10.1.13** (Complementary Events), $E\cup F=\left\{1, 3, 5\right\}\cup\left\{2, 4, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, and $E\cap F=\left\{1, 3, 5\right\}\cap\left\{2, 4, 6\right\}=\varnothing$, so $E, F$ are complementary events. The conclusion is correct.
 
-(9) By **Definition 10.1.10** (Union Event), $D_2\cup D_3=\{3, 4, 5, 6\}\cup\{5, 6\}=\{3, 4, 5, 6\}=D_2$. The conclusion is correct.
+(9) By **Definition 10.1.10** (Union Event), $D_2\cup D_3=\left\{3, 4, 5, 6\right\}\cup\left\{5, 6\right\}=\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
 
-(10) By **Definition 10.1.11** (Intersection Event), $D_2\cap D_3=\{3, 4, 5, 6\}\cap\{5, 6\}=\{5, 6\}=D_3$. The conclusion is correct. $\blacksquare$
+(10) By **Definition 10.1.11** (Intersection Event), $D_2\cap D_3=\left\{3, 4, 5, 6\right\}\cap\left\{5, 6\right\}=\left\{5, 6\right\}=D_3$. The conclusion is correct. $\blacksquare$
 
 ### Exercise 6
 
 (Exercise 10.1, Problem 6) Determine whether the following solution is correct, and explain why.
 
-An athlete practices trap shooting twice in succession; observing whether each shot hits, use $y$ for a hit and $n$ for a miss. Then the experiment's sample space is $\Omega=\{yy, yn, ny, nn\}$, so the probability of the event "both shots hit" is $0.25$.
+An athlete practices trap shooting twice in succession; observing whether each shot hits, use $y$ for a hit and $n$ for a miss. Then the experiment's sample space is $\Omega=\left\{yy, yn, ny, nn\right\}$, so the probability of the event "both shots hit" is $0.25$.
 
 ### Solution to Exercise 6
 
 By **Definition 10.1.14** (Classical Probability Model), a classical model requires each sample point to be equally likely. In this athlete's two shots, the four sample points $yy, yn, ny, nn$ are not necessarily equally likely, because the probability of hitting the target on each shot is not necessarily $0.5$; hence this experiment is not a classical model, and the classical-model formula cannot be used to compute the probability.
 
-By **Definition 10.1.15** (Classical Definition of Probability), $P(yy)=\frac{1}{4}=0.25$ holds only in a classical model. The solution in the problem assumes the experiment is a classical model without stating that the athlete's per-shot hit probability is $0.5$, so the solution is incorrect. $\blacksquare$
+By **Definition 10.1.15** (Classical Definition of Probability), $P\left(yy\right)=\frac{1}{4}=0.25$ holds only in a classical model. The solution in the problem assumes the experiment is a classical model without stating that the athlete's per-shot hit probability is $0.5$, so the solution is incorrect. $\blacksquare$
 
 ### Exercise 7
 
@@ -216,23 +216,23 @@ By **Definition 10.1.15** (Classical Definition of Probability), $P(yy)=\frac{1}
 
 ### Solution to Exercise 7
 
-By **Definition 10.1.14** (Classical Probability Model), drawing one card at random from $52$ cards, each sample point is equally likely, and the sample space contains $52$ sample points. By **Definition 10.1.15** (Classical Definition of Probability), $P(A)=\frac{n(A)}{n(\Omega)}$.
+By **Definition 10.1.14** (Classical Probability Model), drawing one card at random from $52$ cards, each sample point is equally likely, and the sample space contains $52$ sample points. By **Definition 10.1.15** (Classical Definition of Probability), $P\left(A\right)=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
 
-(1) In a deck, the card $7$ has $4$ copies (one of each suit), so $n(A_1)=4$, $P(A_1)=\frac{4}{52}=\frac{1}{13}$.
+(1) In a deck, the card $7$ has $4$ copies (one of each suit), so $n\left(A_1\right)=4$, $P\left(A_1\right)=\frac{4}{52}=\frac{1}{13}$.
 
-(2) The event "the drawn card is not a $7$" is the complementary event of "the drawn card is a $7$". By **Property 10.1.19** (Probability of Complementary Events), $P(A_2)=1-P(A_1)=1-\frac{1}{13}=\frac{12}{13}$.
+(2) The event "the drawn card is not a $7$" is the complementary event of "the drawn card is a $7$". By **Property 10.1.19** (Probability of Complementary Events), $P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{1}{13}=\frac{12}{13}$.
 
-(3) There are $13$ diamonds in a deck, so $n(A_3)=13$, $P(A_3)=\frac{13}{52}=\frac{1}{4}$.
+(3) There are $13$ diamonds in a deck, so $n\left(A_3\right)=13$, $P\left(A_3\right)=\frac{13}{52}=\frac{1}{4}$.
 
-(4) There are $4$ each of $J, Q, K$, $12$ in total, so $n(A_4)=12$, $P(A_4)=\frac{12}{52}=\frac{3}{13}$.
+(4) There are $4$ each of $J, Q, K$, $12$ in total, so $n\left(A_4\right)=12$, $P\left(A_4\right)=\frac{12}{52}=\frac{3}{13}$.
 
-(5) A card cannot be both a heart and a club; this event is impossible. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P(A_5)=0$.
+(5) A card cannot be both a heart and a club; this event is impossible. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P\left(A_5\right)=0$.
 
-(6) Cards greater than $6$ and less than $9$ are $7, 8$, with $4$ each, $8$ in total, so $n(A_6)=8$, $P(A_6)=\frac{8}{52}=\frac{2}{13}$.
+(6) Cards greater than $6$ and less than $9$ are $7, 8$, with $4$ each, $8$ in total, so $n\left(A_6\right)=8$, $P\left(A_6\right)=\frac{8}{52}=\frac{2}{13}$.
 
-(7) Red cards are hearts and diamonds, $13$ each, $26$ in total, so $n(A_7)=26$, $P(A_7)=\frac{26}{52}=\frac{1}{2}$.
+(7) Red cards are hearts and diamonds, $13$ each, $26$ in total, so $n\left(A_7\right)=26$, $P\left(A_7\right)=\frac{26}{52}=\frac{1}{2}$.
 
-(8) Drawing a red or a black card is a certain event. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P(A_8)=1$. $\blacksquare$
+(8) Drawing a red or a black card is a certain event. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P\left(A_8\right)=1$. $\blacksquare$
 
 ### Exercise 8
 
@@ -244,27 +244,27 @@ By **Definition 10.1.14** (Classical Probability Model), drawing one card at ran
 
 ### Solution to Exercise 8
 
-By **Definition 10.1.14** (Classical Probability Model), choosing a number at random from $0$ to $9$, each number is equally likely, the sample space is $\Omega=\{0, 1, 2, \cdots, 9\}$, $n(\Omega)=10$. By **Definition 10.1.15** (Classical Definition of Probability), $P(A)=\frac{n(A)}{n(\Omega)}$.
+By **Definition 10.1.14** (Classical Probability Model), choosing a number at random from $0$ to $9$, each number is equally likely, the sample space is $\Omega=\left\{0, 1, 2, \cdots, 9\right\}$, $n\left(\Omega\right)=10$. By **Definition 10.1.15** (Classical Definition of Probability), $P\left(A\right)=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
 
-(1) Compute the units digit of each square: $0^2=0$, $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$ with units digit $6$, $5^2=25$ with units digit $5$, $6^2=36$ with units digit $6$, $7^2=49$ with units digit $9$, $8^2=64$ with units digit $4$, $9^2=81$ with units digit $1$. The numbers whose square has units digit $1$ are $1$ and $9$, $2$ in total, so $P(A_1)=\frac{2}{10}=\frac{1}{5}$.
+(1) Compute the units digit of each square: $0^2=0$, $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$ with units digit $6$, $5^2=25$ with units digit $5$, $6^2=36$ with units digit $6$, $7^2=49$ with units digit $9$, $8^2=64$ with units digit $4$, $9^2=81$ with units digit $1$. The numbers whose square has units digit $1$ are $1$ and $9$, $2$ in total, so $P\left(A_1\right)=\frac{2}{10}=\frac{1}{5}$.
 
-(2) Compute the units digit of each fourth power: $0^4=0$, $1^4=1$, $2^4=16$ with units digit $6$, $3^4=81$ with units digit $1$, $4^4=256$ with units digit $6$, $5^4=625$ with units digit $5$, $6^4$ with units digit $6$, $7^4$ with units digit $1$, $8^4$ with units digit $6$, $9^4$ with units digit $1$. The numbers whose fourth power has units digit $1$ are $1, 3, 7, 9$, $4$ in total, so $P(A_2)=\frac{4}{10}=\frac{2}{5}$. $\blacksquare$
+(2) Compute the units digit of each fourth power: $0^4=0$, $1^4=1$, $2^4=16$ with units digit $6$, $3^4=81$ with units digit $1$, $4^4=256$ with units digit $6$, $5^4=625$ with units digit $5$, $6^4$ with units digit $6$, $7^4$ with units digit $1$, $8^4$ with units digit $6$, $9^4$ with units digit $1$. The numbers whose fourth power has units digit $1$ are $1, 3, 7, 9$, $4$ in total, so $P\left(A_2\right)=\frac{4}{10}=\frac{2}{5}$. $\blacksquare$
 
 ### Exercise 9
 
-(Exercise 10.1, Problem 9) Given $P(A)=0.5$, $P(B)=0.3$.
+(Exercise 10.1, Problem 9) Given $P\left(A\right)=0.5$, $P\left(B\right)=0.3$.
 
-(1) If $B\subseteq A$, then $P(A\cup B)=\;\_\_\;$, $P(A\cap B)=\;\_\_\;$;
+(1) If $B\subseteq A$, then $P\left(A\cup B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$;
 
-(2) If $A, B$ are mutually exclusive, then $P(A\cup B)=\;\_\_\;$, $P(A\cap B)=\;\_\_\;$.
+(2) If $A, B$ are mutually exclusive, then $P\left(A\cup B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$.
 
 ### Solution to Exercise 9
 
 By **Property 10.1.20** (Monotonicity of Probability) and **Property 10.1.18** (Additive Formula for Mutually Exclusive Events).
 
-(1) Since $B\subseteq A$, the union event is just $A$ itself, i.e. $A\cup B=A$, so $P(A\cup B)=P(A)=0.5$. The intersection event is just $B$ itself, i.e. $A\cap B=B$, so $P(A\cap B)=P(B)=0.3$.
+(1) Since $B\subseteq A$, the union event is just $A$ itself, i.e. $A\cup B=A$, so $P\left(A\cup B\right)=P\left(A\right)=0.5$. The intersection event is just $B$ itself, i.e. $A\cap B=B$, so $P\left(A\cap B\right)=P\left(B\right)=0.3$.
 
-(2) By **Definition 10.1.12** (Mutually Exclusive), $A\cap B=\varnothing$, so $P(A\cap B)=P(\varnothing)=0$. By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P(A\cup B)=P(A)+P(B)=0.5+0.3=0.8$. $\blacksquare$
+(2) By **Definition 10.1.12** (Mutually Exclusive), $A\cap B=\varnothing$, so $P\left(A\cap B\right)=P\left(\varnothing\right)=0$. By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)=0.5+0.3=0.8$. $\blacksquare$
 
 ### Exercise 10
 
@@ -272,13 +272,13 @@ By **Property 10.1.20** (Monotonicity of Probability) and **Property 10.1.18** (
 
 (1) The probability that a certain area will rain tomorrow is $0.4$, and the probability that it will not rain tomorrow is $0.5$;
 
-(2) If events $A$ and $B$ are mutually exclusive, then necessarily $P(A)+P(B)=1$.
+(2) If events $A$ and $B$ are mutually exclusive, then necessarily $P\left(A\right)+P\left(B\right)=1$.
 
 ### Solution to Exercise 10
 
 (1) By **Property 10.1.19** (Probability of Complementary Events), "it rains tomorrow" and "it does not rain tomorrow" are complementary events, and the sum of their probabilities should be $1$. But $0.4+0.5=0.9\neq 1$, so the statement is wrong.
 
-(2) By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), mutually exclusive events satisfy $P(A\cup B)=P(A)+P(B)$, but $A\cup B$ is not necessarily the certain event, so $P(A)+P(B)$ is not necessarily $1$. Only when $A, B$ are complementary does $P(A)+P(B)=1$. Mutually exclusive events are not necessarily complementary, so the statement is wrong. $\blacksquare$
+(2) By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), mutually exclusive events satisfy $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)$, but $A\cup B$ is not necessarily the certain event, so $P\left(A\right)+P\left(B\right)$ is not necessarily $1$. Only when $A, B$ are complementary does $P\left(A\right)+P\left(B\right)=1$. Mutually exclusive events are not necessarily complementary, so the statement is wrong. $\blacksquare$
 
 ### Exercise 11
 
@@ -291,29 +291,29 @@ By **Property 10.1.20** (Monotonicity of Probability) and **Property 10.1.18** (
 
 If a student is chosen at random from these $100$ students, find the following probabilities:
 
-$P(M)=\;\_\_\;$, $P(F)=\;\_\_\;$, $P(M\cup F)=\;\_\_\;$, $P(M\cap F)=\;\_\_\;$,
+$P\left(M\right)=\;\_\_\;$, $P\left(F\right)=\;\_\_\;$, $P\left(M\cup F\right)=\;\_\_\;$, $P\left(M\cap F\right)=\;\_\_\;$,
 
-$P(G_1)=\;\_\_\;$, $P(M\cup G_2)=\;\_\_\;$, $P(F\cap G_3)=\;\_\_\;$.
+$P\left(G_1\right)=\;\_\_\;$, $P\left(M\cup G_2\right)=\;\_\_\;$, $P\left(F\cap G_3\right)=\;\_\_\;$.
 
 ### Solution to Exercise 11
 
-By **Definition 10.1.15** (Classical Definition of Probability), choosing one student at random from $100$, each student is equally likely, $n(\Omega)=100$.
+By **Definition 10.1.15** (Classical Definition of Probability), choosing one student at random from $100$, each student is equally likely, $n\left(\Omega\right)=100$.
 
 The total number of boys is $18+20+14=52$, the total number of girls is $17+24+7=48$, and the total number of Grade-10 students is $18+17=35$.
 
-$P(M)=\frac{52}{100}=0.52$.
+$P\left(M\right)=\frac{52}{100}=0.52$.
 
-$P(F)=\frac{48}{100}=0.48$.
+$P\left(F\right)=\frac{48}{100}=0.48$.
 
-By **Definition 10.1.13** (Complementary Events), $M$ and $F$ are complementary events, so $M\cup F=\Omega$, $P(M\cup F)=1$.
+By **Definition 10.1.13** (Complementary Events), $M$ and $F$ are complementary events, so $M\cup F=\Omega$, $P\left(M\cup F\right)=1$.
 
-By **Definition 10.1.12** (Mutually Exclusive), $M$ and $F$ are mutually exclusive, $M\cap F=\varnothing$, so $P(M\cap F)=0$.
+By **Definition 10.1.12** (Mutually Exclusive), $M$ and $F$ are mutually exclusive, $M\cap F=\varnothing$, so $P\left(M\cap F\right)=0$.
 
-$P(G_1)=\frac{35}{100}=0.35$.
+$P\left(G_1\right)=\frac{35}{100}=0.35$.
 
-By **Property 10.1.21** (General Additive Formula), $P(M\cup G_2)=P(M)+P(G_2)-P(M\cap G_2)$. Here $P(G_2)=\frac{20+24}{100}=0.44$, $P(M\cap G_2)=\frac{20}{100}=0.20$, so $P(M\cup G_2)=0.52+0.44-0.20=0.76$.
+By **Property 10.1.21** (General Additive Formula), $P\left(M\cup G_2\right)=P\left(M\right)+P\left(G_2\right)-P\left(M\cap G_2\right)$. Here $P\left(G_2\right)=\frac{20+24}{100}=0.44$, $P\left(M\cap G_2\right)=\frac{20}{100}=0.20$, so $P\left(M\cup G_2\right)=0.52+0.44-0.20=0.76$.
 
-$P(F\cap G_3)=\frac{7}{100}=0.07$. $\blacksquare$
+$P\left(F\cap G_3\right)=\frac{7}{100}=0.07$. $\blacksquare$
 
 ### Problem 1
 
@@ -329,18 +329,18 @@ $A=$ "the two numbers are equal", $B=$ "the sum of the two numbers equals $5$", 
 
 ### Solution to Problem 1
 
-By **Definition 10.1.14** (Classical Probability Model), the two tetrahedral dice each have $4$ equally likely outcomes; use $(x, y)$ for the sample point where the blue die's bottom number is $x$ and the yellow die's bottom number is $y$.
+By **Definition 10.1.14** (Classical Probability Model), the two tetrahedral dice each have $4$ equally likely outcomes; use $\left(x, y\right)$ for the sample point where the blue die's bottom number is $x$ and the yellow die's bottom number is $y$.
 
 (1) All possible outcomes of the experiment are in the following table:
 
 | Blue \ Yellow | $1$ | $2$ | $3$ | $4$ |
 |---|---|---|---|---|
-| $1$ | $(1,1)$ | $(1,2)$ | $(1,3)$ | $(1,4)$ |
-| $2$ | $(2,1)$ | $(2,2)$ | $(2,3)$ | $(2,4)$ |
-| $3$ | $(3,1)$ | $(3,2)$ | $(3,3)$ | $(3,4)$ |
-| $4$ | $(4,1)$ | $(4,2)$ | $(4,3)$ | $(4,4)$ |
+| $1$ | $\left(1,1\right)$ | $\left(1,2\right)$ | $\left(1,3\right)$ | $\left(1,4\right)$ |
+| $2$ | $\left(2,1\right)$ | $\left(2,2\right)$ | $\left(2,3\right)$ | $\left(2,4\right)$ |
+| $3$ | $\left(3,1\right)$ | $\left(3,2\right)$ | $\left(3,3\right)$ | $\left(3,4\right)$ |
+| $4$ | $\left(4,1\right)$ | $\left(4,2\right)$ | $\left(4,3\right)$ | $\left(4,4\right)$ |
 
-(2) By **Definition 10.1.4** (Random Event), each event is a subset of the sample space. The sample points with equal numbers are $(1,1), (2,2), (3,3), (4,4)$, so $A=\{(1,1), (2,2), (3,3), (4,4)\}$. The sample points with numbers summing to $5$ are $(1,4), (2,3), (3,2), (4,1)$, so $B=\{(1,4), (2,3), (3,2), (4,1)\}$. The sample points with blue die number $2$ are $(2,1), (2,2), (2,3), (2,4)$, so $C=\{(2,1), (2,2), (2,3), (2,4)\}$. $\blacksquare$
+(2) By **Definition 10.1.4** (Random Event), each event is a subset of the sample space. The sample points with equal numbers are $\left(1,1\right), \left(2,2\right), \left(3,3\right), \left(4,4\right)$, so $A=\left\{\left(1,1\right), \left(2,2\right), \left(3,3\right), \left(4,4\right)\right\}$. The sample points with numbers summing to $5$ are $\left(1,4\right), \left(2,3\right), \left(3,2\right), \left(4,1\right)$, so $B=\left\{\left(1,4\right), \left(2,3\right), \left(3,2\right), \left(4,1\right)\right\}$. The sample points with blue die number $2$ are $\left(2,1\right), \left(2,2\right), \left(2,3\right), \left(2,4\right)$, so $C=\left\{\left(2,1\right), \left(2,2\right), \left(2,3\right), \left(2,4\right)\right\}$. $\blacksquare$
 
 ### Problem 2
 
@@ -359,19 +359,19 @@ By **Definition 10.1.2** (Sample Points and Sample Space), each possible match r
 (1) The first round has two matches: $a$ vs $b$ ($a$ wins or $b$ wins), $c$ vs $d$ ($c$ wins or $d$ wins); the winners enter the final and the losers play for third/fourth. The first round has $2\times 2=4$ win/loss combinations; under each, the final and the third-place match each have $2$ outcomes, giving $4\times 2\times 2=16$ results in total. The sample space is:
 
 $$
-\Omega=\{acbd, acdb, adbc, adcb, \; cabd, cadb, dabc, dacb, \; bcad, bcda, cbad, cbda, \; bdac, bdca, dbac, dbca\}.
+\Omega=\left\{acbd, acdb, adbc, adcb, \; cabd, cadb, dabc, dacb, \; bcad, bcda, cbad, cbda, \; bdac, bdca, dbac, dbca\right\}.
 $$
 
 (2) By **Definition 10.1.4** (Random Event), $A$ is the set of sample points in $\Omega$ where team $a$ wins the championship. Team $a$ winning the championship means $a$ wins the first round and wins the final, so
 
 $$
-A=\{acbd, acdb, adbc, adcb\}.
+A=\left\{acbd, acdb, adbc, adcb\right\}.
 $$
 
 (3) Team $a$ reaching the championship final means $a$ wins the first round (i.e. $a$ beats $b$), the final opponent is $c$ or $d$, regardless of the final outcome, so
 
 $$
-B=\{acbd, acdb, cabd, cadb, \; adbc, adcb, dabc, dacb\}.
+B=\left\{acbd, acdb, cabd, cadb, \; adbc, adcb, dabc, dacb\right\}.
 $$
 
 $\blacksquare$
@@ -390,7 +390,7 @@ $\blacksquare$
 
 (C) $A$ and $B$ are equal
 
-(D) $P(A)=P(B)$
+(D) $P\left(A\right)=P\left(B\right)$
 
 ### Solution to Problem 3
 
@@ -399,12 +399,12 @@ By **Definition 10.1.2** (Sample Points and Sample Space), use $1$ for heads and
 (1) All possible outcomes of tossing the two coins are
 
 $$
-\Omega=\{(1,1), (1,0), (0,1), (0,0)\}.
+\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
 $$
 
-By **Definition 10.1.4** (Random Event), event $A=$ "the first coin lands heads", i.e. the first is $1$, so $A=\{(1,1), (1,0)\}$. Event $B=$ "the second coin lands tails", i.e. the second is $0$, so $B=\{(1,0), (0,0)\}$.
+By **Definition 10.1.4** (Random Event), event $A=$ "the first coin lands heads", i.e. the first is $1$, so $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$. Event $B=$ "the second coin lands tails", i.e. the second is $0$, so $B=\left\{\left(1,0\right), \left(0,0\right)\right\}$.
 
-(2) By **Definition 10.1.12** (Mutually Exclusive), $A\cap B=\{(1,0)\}\neq\varnothing$, so $A, B$ are not mutually exclusive; (A)(B) are wrong. By **Definition 10.1.9** (Equality of Events), $A\neq B$, so (C) is wrong. By **Definition 10.1.15** (Classical Definition of Probability), $P(A)=\frac{2}{4}=\frac{1}{2}$, $P(B)=\frac{2}{4}=\frac{1}{2}$, so $P(A)=P(B)$; (D) is correct. $\blacksquare$
+(2) By **Definition 10.1.12** (Mutually Exclusive), $A\cap B=\left\{\left(1,0\right)\right\}\neq\varnothing$, so $A, B$ are not mutually exclusive; (A)(B) are wrong. By **Definition 10.1.9** (Equality of Events), $A\neq B$, so (C) is wrong. By **Definition 10.1.15** (Classical Definition of Probability), $P\left(A\right)=\frac{2}{4}=\frac{1}{2}$, $P\left(B\right)=\frac{2}{4}=\frac{1}{2}$, so $P\left(A\right)=P\left(B\right)$; (D) is correct. $\blacksquare$
 
 ### Problem 4
 
@@ -426,9 +426,9 @@ By **Definition 10.1.12** (Mutually Exclusive) and **Definition 10.1.13** (Compl
 
 (2) From the above analysis, mutually exclusive events are not necessarily complementary, and complementary events are always mutually exclusive. The statement is correct.
 
-(3) By **Property 10.1.21** (General Additive Formula), $P(A\cup B)=P(A)+P(B)-P(A\cap B)$. The probability that "exactly one of $A, B$ occurs" is $P(A)+P(B)-2P(A\cap B)$. Their difference is $P(A\cup B)-\bigl[P(A)+P(B)-2P(A\cap B)\bigr]=P(A\cap B)\ge 0$, so the probability that "at least one occurs" is not necessarily greater than the probability that "exactly one occurs". When $P(A\cap B)=0$, the two are equal. The statement is wrong. Counterexample: for mutually exclusive events $A, B$, their probabilities are equal.
+(3) By **Property 10.1.21** (General Additive Formula), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. The probability that "exactly one of $A, B$ occurs" is $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. Their difference is $P\left(A\cup B\right)-\bigl[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\bigr]=P\left(A\cap B\right)\ge 0$, so the probability that "at least one occurs" is not necessarily greater than the probability that "exactly one occurs". When $P\left(A\cap B\right)=0$, the two are equal. The statement is wrong. Counterexample: for mutually exclusive events $A, B$, their probabilities are equal.
 
-(4) By **Property 10.1.16** (Non-negativity of Probability), $P(A\cap B)\ge 0$, while the probability that "exactly one occurs" is $P(A)+P(B)-2P(A\cap B)$. When $P(A)=P(B)=0.9$, $P(A\cap B)=0.81$, the probability that exactly one occurs is $0.9+0.9-2\times 0.81=0.18$, at which point $P(A\cap B)>$ the probability that exactly one occurs. The statement is wrong. $\blacksquare$
+(4) By **Property 10.1.16** (Non-negativity of Probability), $P\left(A\cap B\right)\ge 0$, while the probability that "exactly one occurs" is $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. When $P\left(A\right)=P\left(B\right)=0.9$, $P\left(A\cap B\right)=0.81$, the probability that exactly one occurs is $0.9+0.9-2\times 0.81=0.18$, at which point $P\left(A\cap B\right)>$ the probability that exactly one occurs. The statement is wrong. $\blacksquare$
 
 ### Problem 5
 
@@ -486,9 +486,9 @@ In Games 1 and 3, the probability that A wins is $\frac{1}{2}$ and the probabili
 
 By **Definition 10.1.15** (Classical Definition of Probability).
 
-(1) Choosing two tickets without replacement: the first draw has $5$ choices and the second has $4$, giving $5\times 4=20$ equally likely outcomes. The number of ways the two ticket numbers are equal is $0$ (since without replacement and each ticket has a different label), so $P(A_1)=\frac{0}{20}=0$.
+(1) Choosing two tickets without replacement: the first draw has $5$ choices and the second has $4$, giving $5\times 4=20$ equally likely outcomes. The number of ways the two ticket numbers are equal is $0$ (since without replacement and each ticket has a different label), so $P\left(A_1\right)=\frac{0}{20}=0$.
 
-(2) Choosing two tickets with replacement: the first draw has $5$ choices and the second also has $5$, giving $5\times 5=25$ equally likely outcomes. The number of ways the two ticket numbers are equal is $5$ (drawing the same number twice), so $P(A_2)=\frac{5}{25}=\frac{1}{5}$. $\blacksquare$
+(2) Choosing two tickets with replacement: the first draw has $5$ choices and the second also has $5$, giving $5\times 5=25$ equally likely outcomes. The number of ways the two ticket numbers are equal is $5$ (drawing the same number twice), so $P\left(A_2\right)=\frac{5}{25}=\frac{1}{5}$. $\blacksquare$
 
 ### Problem 8
 
@@ -500,27 +500,27 @@ By **Definition 10.1.15** (Classical Definition of Probability), taking any $3$ 
 
 The triangle inequality requires that the sum of any two sides be greater than the third. Enumerate all choices:
 
-$(1, 3, 5)$: $1+3=4<5$, cannot form a triangle.
+$\left(1, 3, 5\right)$: $1+3=4<5$, cannot form a triangle.
 
-$(1, 3, 7)$: $1+3=4<7$, cannot.
+$\left(1, 3, 7\right)$: $1+3=4<7$, cannot.
 
-$(1, 3, 9)$: $1+3=4<9$, cannot.
+$\left(1, 3, 9\right)$: $1+3=4<9$, cannot.
 
-$(1, 5, 7)$: $1+5=6<7$, cannot.
+$\left(1, 5, 7\right)$: $1+5=6<7$, cannot.
 
-$(1, 5, 9)$: $1+5=6<9$, cannot.
+$\left(1, 5, 9\right)$: $1+5=6<9$, cannot.
 
-$(1, 7, 9)$: $1+7=8<9$, cannot.
+$\left(1, 7, 9\right)$: $1+7=8<9$, cannot.
 
-$(3, 5, 7)$: $3+5=8>7$, can form a triangle.
+$\left(3, 5, 7\right)$: $3+5=8>7$, can form a triangle.
 
-$(3, 5, 9)$: $3+5=8<9$, cannot.
+$\left(3, 5, 9\right)$: $3+5=8<9$, cannot.
 
-$(3, 7, 9)$: $3+7=10>9$, can form a triangle.
+$\left(3, 7, 9\right)$: $3+7=10>9$, can form a triangle.
 
-$(5, 7, 9)$: $5+7=12>9$, can form a triangle.
+$\left(5, 7, 9\right)$: $5+7=12>9$, can form a triangle.
 
-There are $3$ choices that form a triangle, so $P(A)=\frac{3}{10}$. $\blacksquare$
+There are $3$ choices that form a triangle, so $P\left(A\right)=\frac{3}{10}$. $\blacksquare$
 
 ### Problem 9
 
@@ -536,15 +536,15 @@ There are $3$ choices that form a triangle, so $P(A)=\frac{3}{10}$. $\blacksquar
 
 By **Definition 10.1.15** (Classical Definition of Probability), taking any $2$ from $6$ pens gives $\binom{6}{2}=15$ equally likely outcomes.
 
-(1) Exactly $1$ first-grade pen means taking $1$ from the $3$ first-grade pens and $1$ from the $3$ non-first-grade pens, $\binom{3}{1}\binom{3}{1}=9$ ways, so $P(A)=\frac{9}{15}=\frac{3}{5}$.
+(1) Exactly $1$ first-grade pen means taking $1$ from the $3$ first-grade pens and $1$ from the $3$ non-first-grade pens, $\binom{3}{1}\binom{3}{1}=9$ ways, so $P\left(A\right)=\frac{9}{15}=\frac{3}{5}$.
 
-(2) Both pens first-grade means taking $2$ from the $3$ first-grade pens, $\binom{3}{2}=3$ ways, so $P(B)=\frac{3}{15}=\frac{1}{5}$.
+(2) Both pens first-grade means taking $2$ from the $3$ first-grade pens, $\binom{3}{2}=3$ ways, so $P\left(B\right)=\frac{3}{15}=\frac{1}{5}$.
 
-(3) No third-grade pen means taking $2$ from the $5$ non-third-grade pens, $\binom{5}{2}=10$ ways, so $P(C)=\frac{10}{15}=\frac{2}{3}$. $\blacksquare$
+(3) No third-grade pen means taking $2$ from the $5$ non-third-grade pens, $\binom{5}{2}=10$ ways, so $P\left(C\right)=\frac{10}{15}=\frac{2}{3}$. $\blacksquare$
 
 ### Problem 10
 
-(Exercise 10.1, Comprehensive Application, Problem 10) Toss one red and one green fair six-sided die, recording the number on the top face. Use $x$ for the red die's number, $y$ for the green die's number, and $(x, y)$ for the result of one trial. Let $A=$ "the sum of the two numbers equals $8$", $B=$ "at least one die shows $5$", $C=$ "the red die shows a number greater than $4$".
+(Exercise 10.1, Comprehensive Application, Problem 10) Toss one red and one green fair six-sided die, recording the number on the top face. Use $x$ for the red die's number, $y$ for the green die's number, and $\left(x, y\right)$ for the result of one trial. Let $A=$ "the sum of the two numbers equals $8$", $B=$ "at least one die shows $5$", $C=$ "the red die shows a number greater than $4$".
 
 (1) Find the probabilities of events $A, B, C$;
 
@@ -554,18 +554,18 @@ By **Definition 10.1.15** (Classical Definition of Probability), taking any $2$ 
 
 By **Definition 10.1.15** (Classical Definition of Probability), the two dice have $6\times 6=36$ equally likely sample points.
 
-(1) Event $A=$ "the two numbers sum to $8$" contains the sample points $(2,6), (3,5), (4,4), (5,3), (6,2)$, $5$ in total, so $P(A)=\frac{5}{36}$.
+(1) Event $A=$ "the two numbers sum to $8$" contains the sample points $\left(2,6\right), \left(3,5\right), \left(4,4\right), \left(5,3\right), \left(6,2\right)$, $5$ in total, so $P\left(A\right)=\frac{5}{36}$.
 
-Event $B=$ "at least one die shows $5$" contains the $6$ points with red $5$, the $6$ points with green $5$, minus the duplicate $(5,5)$, giving $6+6-1=11$ points, so $P(B)=\frac{11}{36}$.
+Event $B=$ "at least one die shows $5$" contains the $6$ points with red $5$, the $6$ points with green $5$, minus the duplicate $\left(5,5\right)$, giving $6+6-1=11$ points, so $P\left(B\right)=\frac{11}{36}$.
 
-Event $C=$ "the red die shows a number greater than $4$", i.e. red is $5$ or $6$, giving $2\times 6=12$ points, so $P(C)=\frac{12}{36}=\frac{1}{3}$.
+Event $C=$ "the red die shows a number greater than $4$", i.e. red is $5$ or $6$, giving $2\times 6=12$ points, so $P\left(C\right)=\frac{12}{36}=\frac{1}{3}$.
 
-(2) By **Property 10.1.21** (General Additive Formula), $P(A\cup B)=P(A)+P(B)-P(A\cap B)$. Event $A\cap B$ means the numbers sum to $8$ and at least one is $5$, containing $(3,5), (5,3)$, $2$ points, so $P(A\cap B)=\frac{2}{36}=\frac{1}{18}$.
+(2) By **Property 10.1.21** (General Additive Formula), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. Event $A\cap B$ means the numbers sum to $8$ and at least one is $5$, containing $\left(3,5\right), \left(5,3\right)$, $2$ points, so $P\left(A\cap B\right)=\frac{2}{36}=\frac{1}{18}$.
 
 Therefore
 
 $$
-P(A\cup B)=\frac{5}{36}+\frac{11}{36}-\frac{2}{36}=\frac{14}{36}=\frac{7}{18}.
+P\left(A\cup B\right)=\frac{5}{36}+\frac{11}{36}-\frac{2}{36}=\frac{14}{36}=\frac{7}{18}.
 $$
 
 $\blacksquare$
@@ -596,14 +596,14 @@ With replacement: the first key has $4$ equally likely outcomes and the second a
 
 By **Definition 10.1.15** (Classical Definition of Probability), hiring $2$ from $5$ people gives $\binom{5}{2}=10$ equally likely outcomes.
 
-(1) Girl $A$ gets a position, i.e. the other position chooses $1$ from the remaining $4$, $\binom{4}{1}=4$ ways, so $P(A_1)=\frac{4}{10}=\frac{2}{5}$.
+(1) Girl $A$ gets a position, i.e. the other position chooses $1$ from the remaining $4$, $\binom{4}{1}=4$ ways, so $P\left(A_1\right)=\frac{4}{10}=\frac{2}{5}$.
 
-(2) Girls $A$ and $B$ each get a position, only $1$ outcome, so $P(A_2)=\frac{1}{10}$.
+(2) Girls $A$ and $B$ each get a position, only $1$ outcome, so $P\left(A_2\right)=\frac{1}{10}$.
 
-(3) By **Property 10.1.21** (General Additive Formula), $P(A\text{ 或 }B)=P(A)+P(B)-P(A\text{ 且 }B)$. By symmetry, $P(A)=P(B)=\frac{2}{5}$, $P(A\text{ 且 }B)=\frac{1}{10}$, so
+(3) By **Property 10.1.21** (General Additive Formula), $P\left(A\text{ 或 }B\right)=P\left(A\right)+P\left(B\right)-P\left(A\text{ 且 }B\right)$. By symmetry, $P\left(A\right)=P\left(B\right)=\frac{2}{5}$, $P\left(A\text{ 且 }B\right)=\frac{1}{10}$, so
 
 $$
-P(A\text{ 或 }B)=\frac{2}{5}+\frac{2}{5}-\frac{1}{10}=\frac{7}{10}.
+P\left(A\text{ 或 }B\right)=\frac{2}{5}+\frac{2}{5}-\frac{1}{10}=\frac{7}{10}.
 $$
 
 $\blacksquare$
@@ -630,11 +630,11 @@ If this shooter fires only once, find the probability of the following events:
 
 By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), the events corresponding to each score are pairwise mutually exclusive, and the probabilities can be approximated by the frequencies.
 
-(1) The probability of hitting $10$ rings is the frequency value, i.e. $P(A_1)=0.2$.
+(1) The probability of hitting $10$ rings is the frequency value, i.e. $P\left(A_1\right)=0.2$.
 
-(2) Hitting more than $8$ rings means hitting $9$ or $10$ rings; the two are mutually exclusive, so $P(A_2)=0.3+0.2=0.5$.
+(2) Hitting more than $8$ rings means hitting $9$ or $10$ rings; the two are mutually exclusive, so $P\left(A_2\right)=0.3+0.2=0.5$.
 
-(3) Hitting fewer than $9$ rings means hitting $6, 7, 8$ rings; the three are mutually exclusive, so $P(A_3)=0.1+0.15+0.25=0.5$.
+(3) Hitting fewer than $9$ rings means hitting $6, 7, 8$ rings; the three are mutually exclusive, so $P\left(A_3\right)=0.1+0.15+0.25=0.5$.
 
 (4) Hitting no more than $5$ rings means not hitting $6$ rings or above. Since the sum of the frequencies of all scores is $0.1+0.15+0.25+0.3+0.2=1$, i.e. the probability of hitting at least $6$ rings is $1$, the probability of hitting no more than $5$ rings is $0$. $\blacksquare$
 
@@ -652,15 +652,15 @@ By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), the ev
 
 By **Definition 10.1.15** (Classical Definition of Probability), tossing the die $3$ times gives $6^3=216$ equally likely outcomes.
 
-(1) No $6$ appears, i.e. each number is from $1$ to $5$, giving $5^3=125$ outcomes, so $P(A_1)=\frac{125}{216}$.
+(1) No $6$ appears, i.e. each number is from $1$ to $5$, giving $5^3=125$ outcomes, so $P\left(A_1\right)=\frac{125}{216}$.
 
 (2) By **Property 10.1.19** (Probability of Complementary Events), "a $6$ appears at least once" is the complementary event of "no $6$ appears", so
 
 $$
-P(A_2)=1-P(A_1)=1-\frac{125}{216}=\frac{91}{216}.
+P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{125}{216}=\frac{91}{216}.
 $$
 
-(3) The sum of the three numbers is $9$, i.e. find the number of positive-integer solutions to $x_1+x_2+x_3=9$ ($1\le x_i\le 6$). Let $y_i=x_i-1$; then $y_1+y_2+y_3=6$, $0\le y_i\le 5$. The total number of nonnegative solutions is $\binom{6+3-1}{3-1}=\binom{8}{2}=28$; among them, the solutions with $y_i\ge 6$: if $y_1=6$, then $y_2+y_3=0$, $1$ group, and there are $3$ groups for the three variables. So the number of valid solutions is $28-3=25$. Hence $P(A_3)=\frac{25}{216}$. $\blacksquare$
+(3) The sum of the three numbers is $9$, i.e. find the number of positive-integer solutions to $x_1+x_2+x_3=9$ ($1\le x_i\le 6$). Let $y_i=x_i-1$; then $y_1+y_2+y_3=6$, $0\le y_i\le 5$. The total number of nonnegative solutions is $\binom{6+3-1}{3-1}=\binom{8}{2}=28$; among them, the solutions with $y_i\ge 6$: if $y_1=6$, then $y_2+y_3=0$, $1$ group, and there are $3$ groups for the three variables. So the number of valid solutions is $28-3=25$. Hence $P\left(A_3\right)=\frac{25}{216}$. $\blacksquare$
 
 ### Problem 15
 
@@ -686,7 +686,7 @@ By **Definition 10.1.10** (Union Event), **Definition 10.1.11** (Intersection Ev
 
 (2) (1) Subscribing to at least one study material, i.e. subscribing to math or Chinese or English; by **Definition 10.1.10** (Union Event), denoted $A\cup B\cup C$.
 
-(2) Subscribing to exactly one study material, i.e. subscribing only to math, or only to Chinese, or only to English, denoted $(A\cap\bar B\cap\bar C)\cup(\bar A\cap B\cap\bar C)\cup(\bar A\cap\bar B\cap C)$.
+(2) Subscribing to exactly one study material, i.e. subscribing only to math, or only to Chinese, or only to English, denoted $\left(A\cap\bar B\cap\bar C\right)\cup\left(\bar A\cap B\cap\bar C\right)\cup\left(\bar A\cap\bar B\cap C\right)$.
 
 (3) Subscribing to no study material is the complementary event of "subscribing to at least one"; by **Definition 10.1.13** (Complementary Events), denoted $\overline{A\cup B\cup C}=\bar A\cap\bar B\cap\bar C$. $\blacksquare$
 
@@ -702,24 +702,24 @@ By **Definition 10.1.10** (Union Event), **Definition 10.1.11** (Intersection Ev
 
 ### Solution to Problem 16
 
-By **Definition 10.1.15** (Classical Definition of Probability), choosing a number at random from $1$ to $20$, $n(\Omega)=20$.
+By **Definition 10.1.15** (Classical Definition of Probability), choosing a number at random from $1$ to $20$, $n\left(\Omega\right)=20$.
 
-There are $10$ numbers divisible by $2$ ($2, 4, \cdots, 20$), so $n(A)=10$, $P(A)=\frac{10}{20}=\frac{1}{2}$.
+There are $10$ numbers divisible by $2$ ($2, 4, \cdots, 20$), so $n\left(A\right)=10$, $P\left(A\right)=\frac{10}{20}=\frac{1}{2}$.
 
-There are $6$ numbers divisible by $3$ ($3, 6, 9, 12, 15, 18$), so $n(B)=6$, $P(B)=\frac{6}{20}=\frac{3}{10}$.
+There are $6$ numbers divisible by $3$ ($3, 6, 9, 12, 15, 18$), so $n\left(B\right)=6$, $P\left(B\right)=\frac{6}{20}=\frac{3}{10}$.
 
-(1) Divisible by both $2$ and $3$, i.e. divisible by $6$; the numbers are $6, 12, 18$, $3$ in total, so $P(A\cap B)=\frac{3}{20}$.
+(1) Divisible by both $2$ and $3$, i.e. divisible by $6$; the numbers are $6, 12, 18$, $3$ in total, so $P\left(A\cap B\right)=\frac{3}{20}$.
 
 (2) By **Property 10.1.21** (General Additive Formula),
 
 $$
-P(A\cup B)=P(A)+P(B)-P(A\cap B)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
+P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
 $$
 
 (3) By **Property 10.1.19** (Probability of Complementary Events), "divisible by neither $2$ nor $3$" is the complementary event of "divisible by $2$ or divisible by $3$", so
 
 $$
-P(\bar A\cap\bar B)=1-P(A\cup B)=1-\frac{13}{20}=\frac{7}{20}.
+P\left(\bar A\cap\bar B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
 $$
 
 $\blacksquare$
@@ -748,16 +748,16 @@ Are events $A_0, A_1, A_2, A_3$ pairwise mutually exclusive? Are they equally li
 
 By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events) and **Property 10.1.19** (Probability of Complementary Events).
 
-(1) Given $P(A_1)=0.15$, $P(A_2)=0.06$, $P(A_3)=0.04$. Since the maximum number of repairs is $3$, $A_0\cup A_1\cup A_2\cup A_3=\Omega$, and the $A_k$ are pairwise mutually exclusive, so
+(1) Given $P\left(A_1\right)=0.15$, $P\left(A_2\right)=0.06$, $P\left(A_3\right)=0.04$. Since the maximum number of repairs is $3$, $A_0\cup A_1\cup A_2\cup A_3=\Omega$, and the $A_k$ are pairwise mutually exclusive, so
 
 $$
-P(A_0)=1-P(A_1)-P(A_2)-P(A_3)=1-0.15-0.06-0.04=0.75.
+P\left(A_0\right)=1-P\left(A_1\right)-P\left(A_2\right)-P\left(A_3\right)=1-0.15-0.06-0.04=0.75.
 $$
 
 The events are pairwise mutually exclusive (a computer's number of repairs within the warranty can only be one of $0, 1, 2, 3$); the event probabilities are not equal ($0.75, 0.15, 0.06, 0.04$), so they are not equally likely.
 
-(2) (1) $A=$ "needs repair", i.e. repaired $1, 2, 3$ times; by **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P(A)=P(A_1)+P(A_2)+P(A_3)=0.15+0.06+0.04=0.25$.
+(2) (1) $A=$ "needs repair", i.e. repaired $1, 2, 3$ times; by **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P\left(A\right)=P\left(A_1\right)+P\left(A_2\right)+P\left(A_3\right)=0.15+0.06+0.04=0.25$.
 
-(2) $B=$ "does not need repair", i.e. $A_0$, so $P(B)=P(A_0)=0.75$. Also by **Property 10.1.19** (Probability of Complementary Events), $P(B)=1-P(A)=1-0.25=0.75$.
+(2) $B=$ "does not need repair", i.e. $A_0$, so $P\left(B\right)=P\left(A_0\right)=0.75$. Also by **Property 10.1.19** (Probability of Complementary Events), $P\left(B\right)=1-P\left(A\right)=1-0.25=0.75$.
 
-(3) $C=$ "repaired no more than $1$ time", i.e. repaired $0$ or $1$ times; the two are mutually exclusive, so $P(C)=P(A_0)+P(A_1)=0.75+0.15=0.90$. $\blacksquare$
+(3) $C=$ "repaired no more than $1$ time", i.e. repaired $0$ or $1$ times; the two are mutually exclusive, so $P\left(C\right)=P\left(A_0\right)+P\left(A_1\right)=0.75+0.15=0.90$. $\blacksquare$

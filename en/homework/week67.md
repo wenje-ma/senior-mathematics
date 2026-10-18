@@ -14,7 +14,7 @@
 
 (Exercise 3.3, Problem 1) Write the standard equation of the parabola from the following conditions.
 
-(1) focus at $F(3,0)$;
+(1) focus at $F\left(3,0\right)$;
 
 (2) directrix equation $x=-\frac{1}{4}$;
 
@@ -24,7 +24,7 @@
 
 By **Definition 3.3.2** (Standard Equation of a Parabola), the focus is $\left(\frac{p}{2},0\right)$, the directrix is $x=-\frac{p}{2}$, and $p$ is the distance from focus to directrix.
 
-(1) $F(3,0)$, so $\frac{p}{2}=3$, $p=6$. The equation is $y^2=12x$.
+(1) $F\left(3,0\right)$, so $\frac{p}{2}=3$, $p=6$. The equation is $y^2=12x$.
 
 (2) Directrix $x=-\frac{1}{4}$, so $\frac{p}{2}=\frac{1}{4}$, $p=\frac{1}{2}$. The equation is $y^2=x$.
 
@@ -46,13 +46,13 @@ By **Definition 3.3.2** (Standard Equation of a Parabola), the focus is $\left(\
 
 By **Definition 3.3.2** (Standard Equation of a Parabola), for $y^2=2px$ the focus is $\left(\frac{p}{2},0\right)$ and the directrix is $x=-\frac{p}{2}$; for $x^2=2py$ the focus is $\left(0,\frac{p}{2}\right)$ and the directrix is $y=-\frac{p}{2}$.
 
-(1) $y^2=20x$, $2p=20$, $p=10$. Focus $(5,0)$, directrix $x=-5$.
+(1) $y^2=20x$, $2p=20$, $p=10$. Focus $\left(5,0\right)$, directrix $x=-5$.
 
 (2) $x^2=\frac{1}{2}y$, $2p=\frac{1}{2}$, $p=\frac{1}{4}$. Focus $\left(0,\frac{1}{8}\right)$, directrix $y=-\frac{1}{8}$.
 
 (3) $2y^2+5x=0$ becomes $y^2=-\frac{5}{2}x$, $2p=\frac{5}{2}$, $p=\frac{5}{4}$. Focus $\left(-\frac{5}{8},0\right)$, directrix $x=\frac{5}{8}$.
 
-(4) $x^2+8y=0$ becomes $x^2=-8y$, $2p=8$, $p=4$. Focus $(0,-2)$, directrix $y=2$. $\blacksquare$
+(4) $x^2+8y=0$ becomes $x^2=-8y$, $2p=8$, $p=4$. Focus $\left(0,-2\right)$, directrix $y=2$. $\blacksquare$
 
 ### Exercise 3
 
@@ -68,15 +68,15 @@ By **Common Conclusion 3.3.3** (Distance from a Point on a Parabola to Focus and
 
 (1) $\lvert MF \rvert=a$, so the distance from $M$ to the directrix is $d=a$. The directrix is $x=-\frac{p}{2}$, so $x_M-\left(-\frac{p}{2}\right)=a$, i.e. $x_M=a-\frac{p}{2}$.
 
-(2) For $y^2=12x$, $p=6$, focus $(3,0)$, directrix $x=-3$. $\lvert MF \rvert=9$, so $x_M+3=9$, $x_M=6$, $y=\pm\sqrt{72}=\pm6\sqrt{2}$. The coordinates are $(6,\pm6\sqrt{2})$. $\blacksquare$
+(2) For $y^2=12x$, $p=6$, focus $\left(3,0\right)$, directrix $x=-3$. $\lvert MF \rvert=9$, so $x_M+3=9$, $x_M=6$, $y=\pm\sqrt{72}=\pm6\sqrt{2}$. The coordinates are $\left(6,\pm6\sqrt{2}\right)$. $\blacksquare$
 
 ### Exercise 4
 
 (Exercise 3.3, Problem 1) Find the standard equation of the parabola satisfying the following conditions.
 
-(1) symmetric about the $x$-axis, and passing through $M(5,-4)$;
+(1) symmetric about the $x$-axis, and passing through $M\left(5,-4\right)$;
 
-(2) symmetric about the $y$-axis, with the directrix passing through $E(5,-5)$;
+(2) symmetric about the $y$-axis, with the directrix passing through $E\left(5,-5\right)$;
 
 (3) directrix to the right of the $y$-axis, distance from vertex to directrix is $4$;
 
@@ -86,13 +86,13 @@ By **Common Conclusion 3.3.3** (Distance from a Point on a Parabola to Focus and
 
 By **Definition 3.3.2** (Standard Equation of a Parabola).
 
-(1) Symmetric about the $x$-axis; let $y^2=2px$. Substituting $M(5,-4)$ gives $16=10p$, $p=\frac{8}{5}$. The equation is $y^2=\frac{16}{5}x$.
+(1) Symmetric about the $x$-axis; let $y^2=2px$. Substituting $M\left(5,-4\right)$ gives $16=10p$, $p=\frac{8}{5}$. The equation is $y^2=\frac{16}{5}x$.
 
-(2) Symmetric about the $y$-axis; the directrix is $y=-\frac{p}{2}$ or $y=\frac{p}{2}$. The directrix passes through $E(5,-5)$; since the directrix is horizontal, it is $y=-5$, so $\frac{p}{2}=5$, $p=10$. The equation is $x^2=-20y$.
+(2) Symmetric about the $y$-axis; the directrix is $y=-\frac{p}{2}$ or $y=\frac{p}{2}$. The directrix passes through $E\left(5,-5\right)$; since the directrix is horizontal, it is $y=-5$, so $\frac{p}{2}=5$, $p=10$. The equation is $x^2=-20y$.
 
 (3) The directrix is to the right of the $y$-axis, so the opening faces left, and the directrix is $x=\frac{p}{2}$. The distance from vertex to directrix is $\frac{p}{2}=4$, $p=8$. The equation is $y^2=-16x$.
 
-(4) Focus on the negative $y$-axis; let $x^2=-2py$. $FP$ is parallel to the directrix (the horizontal line $y=\frac{p}{2}$), so the ordinate of $P$ equals that of the focus $(0,-\frac{p}{2})$, i.e. $y_P=-\frac{p}{2}$. Also $x_P=16$; substituting into $256=-2p\cdot\left(-\frac{p}{2}\right)=p^2$ gives $p=16$. The equation is $x^2=-32y$. $\blacksquare$
+(4) Focus on the negative $y$-axis; let $x^2=-2py$. $FP$ is parallel to the directrix (the horizontal line $y=\frac{p}{2}$), so the ordinate of $P$ equals that of the focus $\left(0,-\frac{p}{2}\right)$, i.e. $y_P=-\frac{p}{2}$. Also $x_P=16$; substituting into $256=-2p\cdot\left(-\frac{p}{2}\right)=p^2$ gives $p=16$. The equation is $x^2=-32y$. $\blacksquare$
 
 ### Exercise 5
 
@@ -116,13 +116,13 @@ The values of $2p$ for the four equations are $12$, $1$, $2$, and $4$. The large
 
 ### Exercise 6
 
-(Exercise 3.3, Problem 3) Through $M(2,0)$ draw the line $l$ with slope $1$, intersecting the parabola $y^2=4x$ at $A$ and $B$. Find $\lvert AB \rvert$.
+(Exercise 3.3, Problem 3) Through $M\left(2,0\right)$ draw the line $l$ with slope $1$, intersecting the parabola $y^2=4x$ at $A$ and $B$. Find $\lvert AB \rvert$.
 
 ### Solution to Exercise 6
 
-The line $l$ passes through $M(2,0)$ with slope $1$, so its equation is $y=x-2$. Substituting into $y^2=4x$ gives $(x-2)^2=4x$, i.e. $x^2-8x+4=0$. Let $A(x_1,y_1)$ and $B(x_2,y_2)$; then $x_1+x_2=8$, $x_1x_2=4$.
+The line $l$ passes through $M\left(2,0\right)$ with slope $1$, so its equation is $y=x-2$. Substituting into $y^2=4x$ gives $\left(x-2\right)^2=4x$, i.e. $x^2-8x+4=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$; then $x_1+x_2=8$, $x_1x_2=4$.
 
-By the chord-length formula, $\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{(x_1+x_2)^2-4x_1x_2}=\sqrt{2}\cdot\sqrt{64-16}=\sqrt{2}\cdot4\sqrt{3}=4\sqrt{6}$. $\blacksquare$
+By the chord-length formula, $\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}=\sqrt{2}\cdot\sqrt{64-16}=\sqrt{2}\cdot4\sqrt{3}=4\sqrt{6}$. $\blacksquare$
 
 ### Exercise 7
 
@@ -130,13 +130,13 @@ By the chord-length formula, $\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{(x_1+x_2)^
 
 ### Solution to Exercise 7
 
-Let the line perpendicular to the $x$-axis be $x=x_0$, intersecting the parabola at $A(x_0,y_0)$ and $B(x_0,-y_0)$; then $\lvert AB \rvert=2\lvert y_0 \rvert=4\sqrt{3}$, so $\lvert y_0 \rvert=2\sqrt{3}$. Substituting into $y^2=4x$ gives $12=4x_0$, $x_0=3$. The line is $x=3$. $\blacksquare$
+Let the line perpendicular to the $x$-axis be $x=x_0$, intersecting the parabola at $A\left(x_0,y_0\right)$ and $B\left(x_0,-y_0\right)$; then $\lvert AB \rvert=2\lvert y_0 \rvert=4\sqrt{3}$, so $\lvert y_0 \rvert=2\sqrt{3}$. Substituting into $y^2=4x$ gives $12=4x_0$, $x_0=3$. The line is $x=3$. $\blacksquare$
 
 ### Exercise 8
 
 (Exercise 3.3, Problem 1) Find the standard equation of the parabola satisfying the following conditions.
 
-(1) the reflection of the focus $F$ across the directrix is $M(0,-9)$;
+(1) the reflection of the focus $F$ across the directrix is $M\left(0,-9\right)$;
 
 (2) symmetric about the $y$-axis, with the segment cut off by the line $y=-12$ having length $12$;
 
@@ -146,23 +146,23 @@ Let the line perpendicular to the $x$-axis be $x=x_0$, intersecting the parabola
 
 By **Definition 3.3.2** (Standard Equation of a Parabola).
 
-(1) The reflection of $F$ across the directrix is $M(0,-9)$, and the point $M$ lies on the $y$-axis, so the parabola is symmetric about the $y$-axis. Suppose it opens upward, with focus $F\left(0,\frac{p}{2}\right)$ and directrix $y=-\frac{p}{2}$. The ordinate of $M$ (reflection of $F$ across the directrix) is $-\frac{p}{2}-p=-\frac{3p}{2}$; from $M(0,-9)$ we get $-\frac{3p}{2}=-9$, $p=6$. The equation is $x^2=12y$.
+(1) The reflection of $F$ across the directrix is $M\left(0,-9\right)$, and the point $M$ lies on the $y$-axis, so the parabola is symmetric about the $y$-axis. Suppose it opens upward, with focus $F\left(0,\frac{p}{2}\right)$ and directrix $y=-\frac{p}{2}$. The ordinate of $M$ (reflection of $F$ across the directrix) is $-\frac{p}{2}-p=-\frac{3p}{2}$; from $M\left(0,-9\right)$ we get $-\frac{3p}{2}=-9$, $p=6$. The equation is $x^2=12y$.
 
-(2) Symmetric about the $y$-axis; let $x^2=\pm2py$. The segment cut off by $y=-12$ has length $12$, so $x=\pm6$ lies on the parabola. $36=\pm2p\cdot(-12)$; choosing downward opening $x^2=-2py$, we get $36=24p$, $p=\frac{3}{2}$. The equation is $x^2=-3y$.
+(2) Symmetric about the $y$-axis; let $x^2=\pm2py$. The segment cut off by $y=-12$ has length $12$, so $x=\pm6$ lies on the parabola. $36=\pm2p\cdot\left(-12\right)$; choosing downward opening $x^2=-2py$, we get $36=24p$, $p=\frac{3}{2}$. The equation is $x^2=-3y$.
 
 (3) Symmetric about the $x$-axis, focus $F\left(\frac{p}{2},0\right)$, directrix $x=-\frac{p}{2}$. The two points on the directrix are symmetric about the $x$-axis; let them be $A\left(-\frac{p}{2},t\right)$ and $B\left(-\frac{p}{2},-t\right)$. $\lvert AB \rvert=2t=2\sqrt{3}$, so $t=\sqrt{3}$. $\lvert FA \rvert=\sqrt{p^2+3}=2\sqrt{3}$, so $p^2=9$, $p=3$. The equation is $y^2=6x$. $\blacksquare$
 
 ### Exercise 9
 
-(Exercise 3.3, Problem 2) The point $M(m,4)$ lies on the parabola $y^2=24x$, with $F$ the focus. The line $MF$ intersects the directrix at $N$. Find $\lvert FN \rvert$.
+(Exercise 3.3, Problem 2) The point $M\left(m,4\right)$ lies on the parabola $y^2=24x$, with $F$ the focus. The line $MF$ intersects the directrix at $N$. Find $\lvert FN \rvert$.
 
 ### Solution to Exercise 9
 
-For the parabola $y^2=24x$, $p=12$, focus $F(6,0)$, directrix $x=-6$. The point $M(m,4)$ lies on the parabola, so $16=24m$, $m=\frac{2}{3}$.
+For the parabola $y^2=24x$, $p=12$, focus $F\left(6,0\right)$, directrix $x=-6$. The point $M\left(m,4\right)$ lies on the parabola, so $16=24m$, $m=\frac{2}{3}$.
 
-The line $MF$ passes through $F(6,0)$ and $M\left(\frac{2}{3},4\right)$, with slope $k=\frac{4}{2/3-6}=-\frac{3}{4}$ and equation $y=-\frac{3}{4}(x-6)$. Its intersection with the directrix $x=-6$ is $N$, with $y=-\frac{3}{4}(-12)=9$, so $N(-6,9)$.
+The line $MF$ passes through $F\left(6,0\right)$ and $M\left(\frac{2}{3},4\right)$, with slope $k=\frac{4}{2/3-6}=-\frac{3}{4}$ and equation $y=-\frac{3}{4}\left(x-6\right)$. Its intersection with the directrix $x=-6$ is $N$, with $y=-\frac{3}{4}\left(-12\right)=9$, so $N\left(-6,9\right)$.
 
-$\lvert FN \rvert=\sqrt{(6+6)^2+(0-9)^2}=\sqrt{144+81}=15$. $\blacksquare$
+$\lvert FN \rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$. $\blacksquare$
 
 ### Exercise 10
 
@@ -188,17 +188,17 @@ The line $AB$ is the vertical line $x=\frac{2p}{k^2}$. The focus $F\left(\frac{p
 
 ### Exercise 12
 
-(Exercise 3.3, Problem 5) A circle whose center moves along the $y$-axis passes through $A(0,5)$, and intersects the $x$-axis and $y$-axis at moving points $B(x,0)$ and $C(0,y)$. Find the locus equation of $M(x,y)$.
+(Exercise 3.3, Problem 5) A circle whose center moves along the $y$-axis passes through $A\left(0,5\right)$, and intersects the $x$-axis and $y$-axis at moving points $B\left(x,0\right)$ and $C\left(0,y\right)$. Find the locus equation of $M\left(x,y\right)$.
 
 ### Solution to Exercise 12
 
-The center is on the $y$-axis; let it be $(0,b)$ with radius $r$. The circle passes through $A(0,5)$, so $r^2=(5-b)^2$. The circle equation is $X^2+(Y-b)^2=(5-b)^2$.
+The center is on the $y$-axis; let it be $\left(0,b\right)$ with radius $r$. The circle passes through $A\left(0,5\right)$, so $r^2=\left(5-b\right)^2$. The circle equation is $X^2+\left(Y-b\right)^2=\left(5-b\right)^2$.
 
-Intersection with the $x$-axis at $B(x,0)$: $x^2+b^2=(5-b)^2=25-10b+b^2$, so $x^2=25-10b$.
+Intersection with the $x$-axis at $B\left(x,0\right)$: $x^2+b^2=\left(5-b\right)^2=25-10b+b^2$, so $x^2=25-10b$.
 
-Intersection with the $y$-axis at $C(0,y)$: $(y-b)^2=(5-b)^2$, so $y-b=\pm(5-b)$, giving $y=5$ or $y=2b-5$. Here $y=5$ is the fixed point $A$, and the moving point $C$ corresponds to $y=2b-5$, so $b=\frac{y+5}{2}$.
+Intersection with the $y$-axis at $C\left(0,y\right)$: $\left(y-b\right)^2=\left(5-b\right)^2$, so $y-b=\pm\left(5-b\right)$, giving $y=5$ or $y=2b-5$. Here $y=5$ is the fixed point $A$, and the moving point $C$ corresponds to $y=2b-5$, so $b=\frac{y+5}{2}$.
 
-Substituting into $x^2=25-10b=25-5(y+5)=-5y$, the locus equation is $x^2=-5y$. $\blacksquare$
+Substituting into $x^2=25-10b=25-5\left(y+5\right)=-5y$, the locus equation is $x^2=-5y$. $\blacksquare$
 
 ### Problem 1
 
@@ -238,7 +238,7 @@ By **Definition 3.3.2** and **Common Conclusion 3.3.3**.
 
 (1) Directrix $x=2$, opening faces left, $\frac{p}{2}=2$, $p=4$. The equation is $y^2=-8x$.
 
-(2) $y^2=8x$, $p=4$, focus $(2,0)$, directrix $x=-2$. $\lvert MF \rvert=6$, so $x_M+2=6$, $x_M=4$, $y=\pm\sqrt{32}=\pm4\sqrt{2}$. The coordinates are $(4,\pm4\sqrt{2})$. $\blacksquare$
+(2) $y^2=8x$, $p=4$, focus $\left(2,0\right)$, directrix $x=-2$. $\lvert MF \rvert=6$, so $x_M+2=6$, $x_M=4$, $y=\pm\sqrt{32}=\pm4\sqrt{2}$. The coordinates are $\left(4,\pm4\sqrt{2}\right)$. $\blacksquare$
 
 ### Problem 3
 
@@ -254,7 +254,7 @@ By **Common Conclusion 3.3.3**, $\lvert MF \rvert=d$ (distance from $M$ to the d
 
 (1) vertex at the origin, axis of symmetry the $x$-axis, distance from vertex to focus equals $6$;
 
-(2) vertex at the origin, axis of symmetry the $y$-axis, passing through $P(-6,-3)$.
+(2) vertex at the origin, axis of symmetry the $y$-axis, passing through $P\left(-6,-3\right)$.
 
 ![week67-2.svg](../../figures/week67-2.svg){width=100%}
 
@@ -264,7 +264,7 @@ By **Definition 3.3.2** (Standard Equation of a Parabola).
 
 (1) The distance from vertex to focus is $\frac{p}{2}=6$, $p=12$. The axis of symmetry is the $x$-axis; since the opening direction is unspecified, the equation is $y^2=\pm24x$.
 
-(2) Axis of symmetry is the $y$-axis; let $x^2=\pm2py$. Substituting $P(-6,-3)$ gives $36=\pm2p\cdot(-3)$. Choosing downward opening, $36=6p$, $p=6$, and the equation is $x^2=-12y$. $\blacksquare$
+(2) Axis of symmetry is the $y$-axis; let $x^2=\pm2py$. Substituting $P\left(-6,-3\right)$ gives $36=\pm2p\cdot\left(-3\right)$. Choosing downward opening, $36=6p$, $p=6$, and the equation is $x^2=-12y$. $\blacksquare$
 
 ### Problem 5
 
@@ -274,9 +274,9 @@ By **Definition 3.3.2** (Standard Equation of a Parabola).
 
 ### Solution to Problem 5
 
-The focus of $y^2=4x$ is $F(1,0)$. Let $M(x,y)$. Since $\angle xFM=60^{\circ}$, the slope of $FM$ is $\tan60^{\circ}=\sqrt{3}$, and its equation is $y=\sqrt{3}(x-1)$.
+The focus of $y^2=4x$ is $F\left(1,0\right)$. Let $M\left(x,y\right)$. Since $\angle xFM=60^{\circ}$, the slope of $FM$ is $\tan60^{\circ}=\sqrt{3}$, and its equation is $y=\sqrt{3}\left(x-1\right)$.
 
-Substituting into $y^2=4x$ gives $3(x-1)^2=4x$, i.e. $3x^2-10x+3=0$, so $x=3$ or $x=\frac{1}{3}$. By **Common Conclusion 3.3.3**, $\lvert MF \rvert=x+1$. Taking $x=3$ (first quadrant), $\lvert MF \rvert=4$. $\blacksquare$
+Substituting into $y^2=4x$ gives $3\left(x-1\right)^2=4x$, i.e. $3x^2-10x+3=0$, so $x=3$ or $x=\frac{1}{3}$. By **Common Conclusion 3.3.3**, $\lvert MF \rvert=x+1$. Taking $x=3$ (first quadrant), $\lvert MF \rvert=4$. $\blacksquare$
 
 ### Problem 6
 
@@ -286,9 +286,9 @@ Substituting into $y^2=4x$ gives $3(x-1)^2=4x$, i.e. $3x^2-10x+3=0$, so $x=3$ or
 
 ### Solution to Problem 6
 
-Substituting $y=x-2$ into $y^2=2x$ gives $(x-2)^2=2x$, i.e. $x^2-6x+4=0$. Let $A(x_1,y_1)$ and $B(x_2,y_2)$; then $x_1x_2=4$, $x_1+x_2=6$.
+Substituting $y=x-2$ into $y^2=2x$ gives $\left(x-2\right)^2=2x$, i.e. $x^2-6x+4=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$; then $x_1x_2=4$, $x_1+x_2=6$.
 
-$y_1y_2=(x_1-2)(x_2-2)=x_1x_2-2(x_1+x_2)+4=4-12+4=-4$.
+$y_1y_2=\left(x_1-2\right)\left(x_2-2\right)=x_1x_2-2\left(x_1+x_2\right)+4=4-12+4=-4$.
 
 $\boldsymbol{OA}\cdot\boldsymbol{OB}=x_1x_2+y_1y_2=4-4=0$, so $OA\perp OB$. $\blacksquare$
 
@@ -326,7 +326,7 @@ After the water drops $1\,\mathrm{m}$, $y=-3$, $x^2=6$, $x=\pm\sqrt{6}\approx\pm
 
 ### Solution to Problem 9
 
-Let $P(x_0,y_0)$ be a point on the parabola, and let $M(x,y)$ be the midpoint of its perpendicular segment. Then $x=x_0$, $y=\frac{y_0}{2}$, i.e. $y_0=2y$. Since $P$ lies on $y^2=2px$, we have $y_0^2=2px_0$. Substituting $y_0=2y$ and $x_0=x$ gives $4y^2=2px$, i.e.
+Let $P\left(x_0,y_0\right)$ be a point on the parabola, and let $M\left(x,y\right)$ be the midpoint of its perpendicular segment. Then $x=x_0$, $y=\frac{y_0}{2}$, i.e. $y_0=2y$. Since $P$ lies on $y^2=2px$, we have $y_0^2=2px_0$. Substituting $y_0=2y$ and $x_0=x$ gives $4y^2=2px$, i.e.
 
 $$
 y^2=\frac{p}{2}x.
@@ -340,18 +340,18 @@ The locus is a parabola opening to the right. $\blacksquare$
 
 ### Solution to Problem 10
 
-Let the two points on the parabola be $A(x_1,y_1)$ and $B(x_2,y_2)$. By symmetry, $A$ and $B$ are symmetric about the $x$-axis, so $B(x_1,-y_1)$. $\lvert OA \rvert=\lvert AB \rvert$, so $\sqrt{x_1^2+y_1^2}=2\lvert y_1 \rvert$. Also $y_1^2=2px_1$, so $x_1^2+2px_1=4y_1^2=8px_1$, giving $x_1^2=6px_1$, $x_1=6p$. Then $y_1^2=12p^2$, $y_1=2\sqrt{3}p$. The side length is $\lvert AB \rvert=2\lvert y_1 \rvert=4\sqrt{3}p$. $\blacksquare$
+Let the two points on the parabola be $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. By symmetry, $A$ and $B$ are symmetric about the $x$-axis, so $B\left(x_1,-y_1\right)$. $\lvert OA \rvert=\lvert AB \rvert$, so $\sqrt{x_1^2+y_1^2}=2\lvert y_1 \rvert$. Also $y_1^2=2px_1$, so $x_1^2+2px_1=4y_1^2=8px_1$, giving $x_1^2=6px_1$, $x_1=6p$. Then $y_1^2=12p^2$, $y_1=2\sqrt{3}p$. The side length is $\lvert AB \rvert=2\lvert y_1 \rvert=4\sqrt{3}p$. $\blacksquare$
 
 ### Problem 11
 
-(Exercise 3.3, Comprehensive Application, Problem 11) Given that the coordinates of $A$ and $B$ are $(-1,0)$ and $(1,0)$ respectively, the lines $AM$ and $BM$ intersect at $M$, and the difference of the slope of $AM$ and the slope of $BM$ is $2$. Find the locus equation of $M$.
+(Exercise 3.3, Comprehensive Application, Problem 11) Given that the coordinates of $A$ and $B$ are $\left(-1,0\right)$ and $\left(1,0\right)$ respectively, the lines $AM$ and $BM$ intersect at $M$, and the difference of the slope of $AM$ and the slope of $BM$ is $2$. Find the locus equation of $M$.
 
 ### Solution to Problem 11
 
-Let $M(x,y)$. Then $k_{AM}=\frac{y}{x+1}$ and $k_{BM}=\frac{y}{x-1}$. By the problem, $\frac{y}{x+1}-\frac{y}{x-1}=2$, i.e.
+Let $M\left(x,y\right)$. Then $k_{AM}=\frac{y}{x+1}$ and $k_{BM}=\frac{y}{x-1}$. By the problem, $\frac{y}{x+1}-\frac{y}{x-1}=2$, i.e.
 
 $$
-y\cdot\frac{(x-1)-(x+1)}{(x+1)(x-1)}=2.
+y\cdot\frac{\left(x-1\right)-\left(x+1\right)}{\left(x+1\right)\left(x-1\right)}=2.
 $$
 
 Simplifying gives $\frac{-2y}{x^2-1}=2$, i.e. $y=1-x^2$, i.e.
@@ -364,7 +364,7 @@ The locus is a downward-opening parabola (with its intersections with the $x$-ax
 
 ### Problem 12
 
-(Exercise 3.3, Extension and Exploration, Problem 12) Given the parabola $y^2=4x$ and a point $P(-2,1)$ on the line $l$, let $l$ rotate about $P$. Discuss the number of common points between $l$ and $y^2=4x$, and answer the following:
+(Exercise 3.3, Extension and Exploration, Problem 12) Given the parabola $y^2=4x$ and a point $P\left(-2,1\right)$ on the line $l$, let $l$ rotate about $P$. Discuss the number of common points between $l$ and $y^2=4x$, and answer the following:
 
 (1) Draw figures showing the various positions of $l$ relative to the parabola. From the figure, when does $l$ have exactly one common point with the parabola?
 
@@ -374,7 +374,7 @@ The locus is a downward-opening parabola (with its intersections with the $x$-ax
 
 ### Solution to Problem 12
 
-Let a line through $P(-2,1)$ be $y-1=k(x+2)$. Substituting into $y^2=4x$ gives $(kx+2k+1)^2=4x$.
+Let a line through $P\left(-2,1\right)$ be $y-1=k\left(x+2\right)$. Substituting into $y^2=4x$ gives $\left(kx+2k+1\right)^2=4x$.
 
 (1) When $k=0$, $y=1$, intersecting the parabola at one point $\left(\frac{1}{4},1\right)$ (parallel to the axis of symmetry). When $k\neq0$, tangency ($\Delta=0$) gives one common point. There are two cases for exactly one common point: the line is parallel to the axis of symmetry, or the line is tangent to the parabola.
 
@@ -386,8 +386,8 @@ Let a line through $P(-2,1)$ be $y-1=k(x+2)$. Substituting into $y^2=4x$ gives $
 
 ### Solution to Problem 13
 
-Let $M(x_0,y_0)$ lie on $y^2=2px$, so $y_0^2=2px_0$. The focus is $F\left(\frac{p}{2},0\right)$.
+Let $M\left(x_0,y_0\right)$ lie on $y^2=2px$, so $y_0^2=2px_0$. The focus is $F\left(\frac{p}{2},0\right)$.
 
-The tangent to the parabola at $M$ is $y_0y=p(x+x_0)$, and the slope of the normal is $-\frac{y_0}{p}$. The direction vector of the incident ray $FM$ is $\left(x_0-\frac{p}{2},y_0\right)$.
+The tangent to the parabola at $M$ is $y_0y=p\left(x+x_0\right)$, and the slope of the normal is $-\frac{y_0}{p}$. The direction vector of the incident ray $FM$ is $\left(x_0-\frac{p}{2},y_0\right)$.
 
 By the law of reflection (angle of incidence equals angle of reflection), the direction of the reflected ray is determined. A direct calculation shows that the slope of the reflected ray is $0$, i.e. the reflected ray is the horizontal line $y=y_0$, parallel to the $x$-axis (the axis of symmetry). Hence the reflected ray is parallel to the axis of symmetry. $\blacksquare$

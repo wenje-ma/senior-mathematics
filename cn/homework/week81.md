@@ -6,17 +6,17 @@
 
 > **定义 6.2.1** (排列) <br>从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素, 并按照一定的顺序排成一列, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的一个排列. 两个排列相同的充要条件是元素完全相同且排列顺序也相同.
 
-> **定义 6.2.2** (排列数) <br>从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同排列的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的排列数, 用符号 $\mathrm{P}(n,m)$ 表示.
+> **定义 6.2.2** (排列数) <br>从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同排列的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的排列数, 用符号 $\mathrm{P}\left(n,m\right)$ 表示.
 
-> **公式 6.2.3** (排列数公式) <br>$\mathrm{P}(n,m)=n(n-1)(n-2)\cdots(n-m+1)$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$.
+> **公式 6.2.3** (排列数公式) <br>$\mathrm{P}\left(n,m\right)=n\left(n-1\right)\left(n-2\right)\cdots\left(n-m+1\right)$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$.
 
-> **定义 6.2.4** (全排列与阶乘) <br>把 $n$ 个不同的元素全部取出的一个排列, 叫做 $n$ 个元素的一个全排列, 其排列数 $\mathrm{P}(n,n)=n!$. 正整数 $1$ 到 $n$ 的连乘积叫做 $n$ 的阶乘, 用 $n!$ 表示. 规定 $0!=1$. 排列数公式还可写成 $\mathrm{P}(n,m)=\frac{n!}{(n-m)!}$.
+> **定义 6.2.4** (全排列与阶乘) <br>把 $n$ 个不同的元素全部取出的一个排列, 叫做 $n$ 个元素的一个全排列, 其排列数 $\mathrm{P}\left(n,n\right)=n!$. 正整数 $1$ 到 $n$ 的连乘积叫做 $n$ 的阶乘, 用 $n!$ 表示. 规定 $0!=1$. 排列数公式还可写成 $\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}$.
 
 > **定义 6.2.5** (组合) <br>从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素作为一组, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的一个组合. 组合与元素的顺序无关, 两个组合只要元素相同就是相同的组合.
 
 > **定义 6.2.6** (组合数) <br>从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同组合的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的组合数, 用符号 $\binom{n}{m}$ 表示.
 
-> **公式 6.2.7** (组合数公式) <br>$\binom{n}{m}=\frac{\mathrm{P}(n,m)}{\mathrm{P}(m,m)}=\frac{n(n-1)\cdots(n-m+1)}{m!}=\frac{n!}{m!(n-m)!}$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$. 规定 $\binom{n}{0}=1$.
+> **公式 6.2.7** (组合数公式) <br>$\binom{n}{m}=\frac{\mathrm{P}\left(n,m\right)}{\mathrm{P}\left(m,m\right)}=\frac{n\left(n-1\right)\cdots\left(n-m+1\right)}{m!}=\frac{n!}{m!\left(n-m\right)!}$, 其中 $m,n\in\mathbb N^*$ 且 $m\le n$. 规定 $\binom{n}{0}=1$.
 
 > **性质** (组合数的两个性质) <br>$\binom{n}{m}=\binom{n}{n-m}$; $\binom{n+1}{m}=\binom{n}{m}+\binom{n}{m-1}$.
 
@@ -32,9 +32,9 @@
 
 由**定义 6.2.1** (排列) 与**公式 6.2.3** (排列数公式).
 
-(1) 两位数的十位不能为 $0$. 十位从 $1,2,3,4$ 中取, 个位从余下的 $4$ 个数字中取. 全部两位数为 $10,12,13,14,20,21,23,24,30,31,32,34,40,41,42,43$, 共 $\mathrm{P}(4,1)\times \mathrm{P}(4,1)=4\times 4=16$ 个.
+(1) 两位数的十位不能为 $0$. 十位从 $1,2,3,4$ 中取, 个位从余下的 $4$ 个数字中取. 全部两位数为 $10,12,13,14,20,21,23,24,30,31,32,34,40,41,42,43$, 共 $\mathrm{P}\left(4,1\right)\times \mathrm{P}\left(4,1\right)=4\times 4=16$ 个.
 
-(2) 从 $a,b,c,d$ 中取 $2$ 个字母的所有排列为 $ab,ac,ad,ba,bc,bd,ca,cb,cd,da,db,dc$, 共 $\mathrm{P}(4,2)=4\times 3=12$ 个. $\blacksquare$
+(2) 从 $a,b,c,d$ 中取 $2$ 个字母的所有排列为 $ab,ac,ad,ba,bc,bd,ca,cb,cd,da,db,dc$, 共 $\mathrm{P}\left(4,2\right)=4\times 3=12$ 个. $\blacksquare$
 
 ### 练习二
 
@@ -47,7 +47,7 @@
 轮流次序要把 $4$ 个班按讲座先后排成一列, 是 $4$ 个元素的全排列. 由**公式 6.2.3**, 轮流次序共有
 
 $$
-\mathrm{P}(4,4)=4!=24.
+\mathrm{P}\left(4,4\right)=4!=24.
 $$
 
 故有 $24$ 种轮流次序. $\blacksquare$
@@ -67,37 +67,37 @@ $$
 (1) 前 $3$ 场比赛每场出场的运动员不同且有顺序, 就是从 $5$ 名运动员中取 $3$ 名的一个排列. 由**公式 6.2.3**, 出场情况共有
 
 $$
-\mathrm{P}(5,3)=5\times 4\times 3=60.
+\mathrm{P}\left(5,3\right)=5\times 4\times 3=60.
 $$
 
-(2) 甲, 乙, 丙 $3$ 名运动员在前 $3$ 场各出场 $1$ 次, 就是这 $3$ 人的全排列. 所有可能的出场情况为甲乙丙, 甲丙乙, 乙甲丙, 乙丙甲, 丙甲乙, 丙乙甲, 共 $\mathrm{P}(3,3)=6$ 种. $\blacksquare$
+(2) 甲, 乙, 丙 $3$ 名运动员在前 $3$ 场各出场 $1$ 次, 就是这 $3$ 人的全排列. 所有可能的出场情况为甲乙丙, 甲丙乙, 乙甲丙, 乙丙甲, 丙甲乙, 丙乙甲, 共 $\mathrm{P}\left(3,3\right)=6$ 种. $\blacksquare$
 
 ### 练习四
 
 (练习 6.2 第 1 题) 先计算, 然后用计算工具检验:
 
-(1) $\mathrm{P}(12,4)$;
+(1) $\mathrm{P}\left(12,4\right)$;
 
-(2) $\mathrm{P}(8,8)$;
+(2) $\mathrm{P}\left(8,8\right)$;
 
-(3) $\mathrm{P}(15,5)-15\mathrm{P}(14,4)$;
+(3) $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)$;
 
-(4) $\frac{\mathrm{P}(12,7)}{\mathrm{P}(12,6)}$.
+(4) $\frac{\mathrm{P}\left(12,7\right)}{\mathrm{P}\left(12,6\right)}$.
 
 ### 解答 练习四
 
 由**公式 6.2.3** (排列数公式) 与**定义 6.2.4** (全排列与阶乘).
 
-(1) $\mathrm{P}(12,4)=12\times 11\times 10\times 9=11880$.
+(1) $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$.
 
-(2) $\mathrm{P}(8,8)=8!=40320$.
+(2) $\mathrm{P}\left(8,8\right)=8!=40320$.
 
-(3) $\mathrm{P}(15,5)=15\times 14\times 13\times 12\times 11=360360$, $\mathrm{P}(14,4)=14\times 13\times 12\times 11=24024$, 故 $\mathrm{P}(15,5)-15\mathrm{P}(14,4)=360360-15\times 24024=360360-360360=0$.
+(3) $\mathrm{P}\left(15,5\right)=15\times 14\times 13\times 12\times 11=360360$, $\mathrm{P}\left(14,4\right)=14\times 13\times 12\times 11=24024$, 故 $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)=360360-15\times 24024=360360-360360=0$.
 
-(4) 由**定义 6.2.4**, $\mathrm{P}(12,7)=\frac{12!}{5!}$, $\mathrm{P}(12,6)=\frac{12!}{6!}$, 故
+(4) 由**定义 6.2.4**, $\mathrm{P}\left(12,7\right)=\frac{12!}{5!}$, $\mathrm{P}\left(12,6\right)=\frac{12!}{6!}$, 故
 
 $$
-\frac{\mathrm{P}(12,7)}{\mathrm{P}(12,6)}=\frac{12!/5!}{12!/6!}=\frac{6!}{5!}=6.
+\frac{\mathrm{P}\left(12,7\right)}{\mathrm{P}\left(12,6\right)}=\frac{12!/5!}{12!/6!}=\frac{6!}{5!}=6.
 $$
 
 $\blacksquare$
@@ -106,17 +106,17 @@ $\blacksquare$
 
 (练习 6.2 第 2 题) 求证:
 
-(1) $\mathrm{P}(n,m)=n\mathrm{P}(n-1,m-1)$;
+(1) $\mathrm{P}\left(n,m\right)=n\mathrm{P}\left(n-1,m-1\right)$;
 
-(2) $\mathrm{P}(8,8)-8\mathrm{P}(7,7)+7\mathrm{P}(6,6)=\mathrm{P}(7,7)$.
+(2) $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=\mathrm{P}\left(7,7\right)$.
 
 ### 解答 练习五
 
 由**定义 6.2.4** (全排列与阶乘) 与**公式 6.2.3** (排列数公式).
 
-(1) 由**定义 6.2.4**, 左边 $\mathrm{P}(n,m)=\frac{n!}{(n-m)!}$. 右边 $n\mathrm{P}(n-1,m-1)=n\cdot\frac{(n-1)!}{(n-1)-(m-1)!}=\frac{n!}{(n-m)!}$. 左边等于右边, 得证.
+(1) 由**定义 6.2.4**, 左边 $\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}$. 右边 $n\mathrm{P}\left(n-1,m-1\right)=n\cdot\frac{\left(n-1\right)!}{\left(n-1\right)-\left(m-1\right)!}=\frac{n!}{\left(n-m\right)!}$. 左边等于右边, 得证.
 
-(2) 左边 $\mathrm{P}(8,8)-8\mathrm{P}(7,7)+7\mathrm{P}(6,6)=8!-8\cdot 7!+7\cdot 6!=8\cdot 7!-8\cdot 7!+7\cdot 6!=7\cdot 6!=7!$. 右边 $\mathrm{P}(7,7)=7!$. 左边等于右边, 得证. $\blacksquare$
+(2) 左边 $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=8!-8\cdot 7!+7\cdot 6!=8\cdot 7!-8\cdot 7!+7\cdot 6!=7\cdot 6!=7!$. 右边 $\mathrm{P}\left(7,7\right)=7!$. 左边等于右边, 得证. $\blacksquare$
 
 ### 练习六
 
@@ -129,7 +129,7 @@ $\blacksquare$
 停放 $4$ 列不同的火车, 要从 $8$ 股岔道中选出 $4$ 股并把 $4$ 列火车按顺序停入, 是从 $8$ 个不同元素中取 $4$ 个的一个排列. 由**公式 6.2.3**, 不同停放方法共有
 
 $$
-\mathrm{P}(8,4)=8\times 7\times 6\times 5=1680.
+\mathrm{P}\left(8,4\right)=8\times 7\times 6\times 5=1680.
 $$
 
 故共有 $1680$ 种不同的停放方法. $\blacksquare$
@@ -148,7 +148,7 @@ $$
 
 (1) 单循环赛中一场比赛只看双方, 不考虑顺序, 是组合问题. 所有比赛的双方为甲乙, 甲丙, 甲丁, 乙丙, 乙丁, 丙丁, 共 $\binom{4}{2}=6$ 场.
 
-(2) 冠, 亚军要区分冠军与亚军, 与顺序有关, 是排列问题. 所有冠亚军的可能情况为甲乙, 甲丙, 甲丁, 乙甲, 乙丙, 乙丁, 丙甲, 丙乙, 丙丁, 丁甲, 丁乙, 丁丙, 共 $\mathrm{P}(4,2)=12$ 种. $\blacksquare$
+(2) 冠, 亚军要区分冠军与亚军, 与顺序有关, 是排列问题. 所有冠亚军的可能情况为甲乙, 甲丙, 甲丁, 乙甲, 乙丙, 乙丁, 丙甲, 丙乙, 丙丁, 丁甲, 丁乙, 丁丙, 共 $\mathrm{P}\left(4,2\right)=12$ 种. $\blacksquare$
 
 ### 练习八
 
@@ -174,7 +174,7 @@ $$
 
 (1) 加法与两个数的顺序无关, 是组合问题. 两两之和为 $1+3=4$, $1+7=8$, $1+13=14$, $3+7=10$, $3+13=16$, $7+13=20$, 六个和互不相等. 故不相等的和共有 $\binom{4}{2}=6$ 个.
 
-(2) 减法要区分被减数与减数, 与顺序有关, 是排列问题. $4$ 个数任取 $2$ 个相减共有 $\mathrm{P}(4,2)=12$ 个算式, 其中 $1-7=-6$ 与 $7-13=-6$ 相等, $7-1=6$ 与 $13-7=6$ 相等, 重复 $2$ 个. 故不相等的差共有 $12-2=10$ 个. $\blacksquare$
+(2) 减法要区分被减数与减数, 与顺序有关, 是排列问题. $4$ 个数任取 $2$ 个相减共有 $\mathrm{P}\left(4,2\right)=12$ 个算式, 其中 $1-7=-6$ 与 $7-13=-6$ 相等, $7-1=6$ 与 $13-7=6$ 相等, 重复 $2$ 个. 故不相等的差共有 $12-2=10$ 个. $\blacksquare$
 
 ### 练习十
 
@@ -208,7 +208,7 @@ $$
 
 由**公式 6.2.7** (组合数公式).
 
-右边 $\frac{m+1}{n+1}\binom{n+1}{m+1}=\frac{m+1}{n+1}\cdot\frac{(n+1)!}{(m+1)!(n-m)!}=\frac{n!}{m!(n-m)!}=\binom{n}{m}$. 左边等于右边, 得证. $\blacksquare$
+右边 $\frac{m+1}{n+1}\binom{n+1}{m+1}=\frac{m+1}{n+1}\cdot\frac{\left(n+1\right)!}{\left(m+1\right)!\left(n-m\right)!}=\frac{n!}{m!\left(n-m\right)!}=\binom{n}{m}$. 左边等于右边, 得证. $\blacksquare$
 
 ### 练习十二
 
@@ -234,17 +234,17 @@ $$
 
 (习题 6.2 复习巩固第 1 题) 先计算, 然后用计算工具检验:
 
-(1) $5\mathrm{P}(5,3)+4\mathrm{P}(4,2)$;
+(1) $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)$;
 
-(2) $\mathrm{P}(4,1)+\mathrm{P}(4,2)+\mathrm{P}(4,3)+\mathrm{P}(4,4)$.
+(2) $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)$.
 
 ### 解答 习题一
 
 由**公式 6.2.3** (排列数公式).
 
-(1) $\mathrm{P}(5,3)=5\times 4\times 3=60$, $\mathrm{P}(4,2)=4\times 3=12$, 故 $5\mathrm{P}(5,3)+4\mathrm{P}(4,2)=5\times 60+4\times 12=300+48=348$.
+(1) $\mathrm{P}\left(5,3\right)=5\times 4\times 3=60$, $\mathrm{P}\left(4,2\right)=4\times 3=12$, 故 $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)=5\times 60+4\times 12=300+48=348$.
 
-(2) $\mathrm{P}(4,1)=4$, $\mathrm{P}(4,2)=12$, $\mathrm{P}(4,3)=4\times 3\times 2=24$, $\mathrm{P}(4,4)=24$, 故 $\mathrm{P}(4,1)+\mathrm{P}(4,2)+\mathrm{P}(4,3)+\mathrm{P}(4,4)=4+12+24+24=64$. $\blacksquare$
+(2) $\mathrm{P}\left(4,1\right)=4$, $\mathrm{P}\left(4,2\right)=12$, $\mathrm{P}\left(4,3\right)=4\times 3\times 2=24$, $\mathrm{P}\left(4,4\right)=24$, 故 $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)=4+12+24+24=64$. $\blacksquare$
 
 ### 习题二
 
@@ -268,7 +268,7 @@ $$
 
 (3) $\binom{6}{3}=\frac{6\times 5\times 4}{6}=20$, $\binom{8}{4}=\frac{8\times 7\times 6\times 5}{24}=70$, 故 $\binom{6}{3}\div \binom{8}{4}=20\div 70=\frac{2}{7}$.
 
-(4) $\binom{n+1}{n}=\binom{n+1}{1}=n+1$, $\binom{n}{n-2}=\binom{n}{2}=\frac{n(n-1)}{2}$, 故 $\binom{n+1}{n}\cdot \binom{n}{n-2}=\frac{n(n-1)(n+1)}{2}$. $\blacksquare$
+(4) $\binom{n+1}{n}=\binom{n+1}{1}=n+1$, $\binom{n}{n-2}=\binom{n}{2}=\frac{n\left(n-1\right)}{2}$, 故 $\binom{n+1}{n}\cdot \binom{n}{n-2}=\frac{n\left(n-1\right)\left(n+1\right)}{2}$. $\blacksquare$
 
 ### 习题三
 
@@ -304,7 +304,7 @@ $$
 
 (1) 从 $5$ 人中确定 $3$ 人去参观, 与顺序无关, 是组合问题, 有 $\binom{5}{3}=10$ 种.
 
-(2) 选出 $3$ 件礼物分别送 $3$ 位同学, 与顺序有关, 是排列问题, 有 $\mathrm{P}(5,3)=60$ 种.
+(2) 选出 $3$ 件礼物分别送 $3$ 位同学, 与顺序有关, 是排列问题, 有 $\mathrm{P}\left(5,3\right)=60$ 种.
 
 (3) $5$ 名工人每人都从 $3$ 天中选 $1$ 天, 每人有 $3$ 种选法, 由**定义 6.1.2**, 共有 $3^5=243$ 种.
 
@@ -325,13 +325,13 @@ $$
 (1) 从 $12$ 本不同的书中选 $6$ 本放在单层书架上, 既要选书又要按书架上的顺序排列, 是排列问题. 由**公式 6.2.3**, 不同放法有
 
 $$
-\mathrm{P}(12,6)=12\times 11\times 10\times 9\times 8\times 7=665280.
+\mathrm{P}\left(12,6\right)=12\times 11\times 10\times 9\times 8\times 7=665280.
 $$
 
-(2) 不使同类的书分开, 先把数学书, 物理书, 化学书各自看成一个整体. 这 $3$ 个整体在书架上的顺序有 $\mathrm{P}(3,3)=6$ 种; 数学书内部排列有 $\mathrm{P}(4,4)=24$ 种, 物理书内部排列有 $\mathrm{P}(5,5)=120$ 种, 化学书内部排列有 $\mathrm{P}(3,3)=6$ 种. 由**定义 6.1.2**, 不同放法共有
+(2) 不使同类的书分开, 先把数学书, 物理书, 化学书各自看成一个整体. 这 $3$ 个整体在书架上的顺序有 $\mathrm{P}\left(3,3\right)=6$ 种; 数学书内部排列有 $\mathrm{P}\left(4,4\right)=24$ 种, 物理书内部排列有 $\mathrm{P}\left(5,5\right)=120$ 种, 化学书内部排列有 $\mathrm{P}\left(3,3\right)=6$ 种. 由**定义 6.1.2**, 不同放法共有
 
 $$
-\mathrm{P}(3,3)\cdot \mathrm{P}(4,4)\cdot \mathrm{P}(5,5)\cdot \mathrm{P}(3,3)=6\times 24\times 120\times 6=103680.
+\mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(5,5\right)\cdot \mathrm{P}\left(3,3\right)=6\times 24\times 120\times 6=103680.
 $$
 
 $\blacksquare$
@@ -384,17 +384,17 @@ $$
 
 (习题 6.2 综合运用第 8 题) 求证:
 
-(1) $\mathrm{P}(n+1,n+1)-\mathrm{P}(n,n)=n^2\mathrm{P}(n-1,n-1)$;
+(1) $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=n^2\mathrm{P}\left(n-1,n-1\right)$;
 
-(2) $\frac{(n+1)!}{k!}-\frac{n!}{(k-1)!}=\frac{(n-k+1)n!}{k!}$ ($k\le n$).
+(2) $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n-k+1\right)n!}{k!}$ ($k\le n$).
 
 ### 解答 习题八
 
 由**定义 6.2.4** (全排列与阶乘).
 
-(1) 左边 $\mathrm{P}(n+1,n+1)-\mathrm{P}(n,n)=(n+1)!-n!=n\cdot n!$. 右边 $n^2\mathrm{P}(n-1,n-1)=n^2(n-1)!=n\cdot n!$. 左边等于右边, 得证.
+(1) 左边 $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=\left(n+1\right)!-n!=n\cdot n!$. 右边 $n^2\mathrm{P}\left(n-1,n-1\right)=n^2\left(n-1\right)!=n\cdot n!$. 左边等于右边, 得证.
 
-(2) 左边 $\frac{(n+1)!}{k!}-\frac{n!}{(k-1)!}=\frac{(n+1)!-k\cdot n!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{(n-k+1)n!}{k!}$. 左边等于右边, 得证. $\blacksquare$
+(2) 左边 $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n+1\right)!-k\cdot n!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{\left(n-k+1\right)n!}{k!}$. 左边等于右边, 得证. $\blacksquare$
 
 ### 习题九
 
@@ -404,10 +404,10 @@ $$
 
 由**公式 6.2.3** (排列数公式) 与**定义 6.1.2** (分步乘法计数原理).
 
-第 $1$ 个和最后 $1$ 个节目已确定, 只需安排其余 $9$ 个位置. $4$ 个音乐节目排在指定的 $4$ 个位置上, 是 $4$ 个元素的全排列, 有 $\mathrm{P}(4,4)=24$ 种; $3$ 个舞蹈节目排在指定的 $3$ 个位置上, 有 $\mathrm{P}(3,3)=6$ 种; $2$ 个曲艺节目排在指定的 $2$ 个位置上, 有 $\mathrm{P}(2,2)=2$ 种. 由**定义 6.1.2**, 不同排法共有
+第 $1$ 个和最后 $1$ 个节目已确定, 只需安排其余 $9$ 个位置. $4$ 个音乐节目排在指定的 $4$ 个位置上, 是 $4$ 个元素的全排列, 有 $\mathrm{P}\left(4,4\right)=24$ 种; $3$ 个舞蹈节目排在指定的 $3$ 个位置上, 有 $\mathrm{P}\left(3,3\right)=6$ 种; $2$ 个曲艺节目排在指定的 $2$ 个位置上, 有 $\mathrm{P}\left(2,2\right)=2$ 种. 由**定义 6.1.2**, 不同排法共有
 
 $$
-\mathrm{P}(4,4)\cdot \mathrm{P}(3,3)\cdot \mathrm{P}(2,2)=24\times 6\times 2=288.
+\mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(2,2\right)=24\times 6\times 2=288.
 $$
 
 故有 $288$ 种不同的排法. $\blacksquare$
@@ -430,7 +430,7 @@ $$
 
 (2) 先从 $12$ 人中选 $4$ 人, 有 $\binom{12}{4}=495$ 种; 再从选出的 $4$ 人中指定 $1$ 名作替补, 有 $\binom{4}{1}=4$ 种. 由**定义 6.1.2**, 选法共有 $495\times 4=1980$ 种.
 
-(3) 把 $4$ 个辩手位置指定出来后, 从 $12$ 人中取 $4$ 人按顺序填入, 是排列问题. 由**公式 6.2.3**, 选法有 $\mathrm{P}(12,4)=12\times 11\times 10\times 9=11880$ 种. $\blacksquare$
+(3) 把 $4$ 个辩手位置指定出来后, 从 $12$ 人中取 $4$ 人按顺序填入, 是排列问题. 由**公式 6.2.3**, 选法有 $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$ 种. $\blacksquare$
 
 ### 习题十一
 
@@ -460,9 +460,9 @@ $\blacksquare$
 
 由**公式 6.2.7** (组合数公式), **公式 6.2.3** (排列数公式) 与**定义 6.1.1** (分类加法计数原理).
 
-(1) 先取数字再排列. 从 $0,2,4,6$ 取 $3$ 个有 $\binom{4}{3}=4$ 种, 其中 $3$ 种取法含 $0$, $1$ 种取法为 $\{2,4,6\}$ 不含 $0$; 从 $1,3,5$ 取 $2$ 个有 $\binom{3}{2}=3$ 种.
+(1) 先取数字再排列. 从 $0,2,4,6$ 取 $3$ 个有 $\binom{4}{3}=4$ 种, 其中 $3$ 种取法含 $0$, $1$ 种取法为 $\left\{2,4,6\right\}$ 不含 $0$; 从 $1,3,5$ 取 $2$ 个有 $\binom{3}{2}=3$ 种.
 
-含 $0$ 时, 选出的 $5$ 个数字排列成五位数且 $0$ 不在首位, 有 $\mathrm{P}(5,5)-\mathrm{P}(4,4)=120-24=96$ 个; 不含 $0$ 时, $5$ 个数字可任意排列, 有 $\mathrm{P}(5,5)=120$ 个. 由**定义 6.1.1**, 一共可组成
+含 $0$ 时, 选出的 $5$ 个数字排列成五位数且 $0$ 不在首位, 有 $\mathrm{P}\left(5,5\right)-\mathrm{P}\left(4,4\right)=120-24=96$ 个; 不含 $0$ 时, $5$ 个数字可任意排列, 有 $\mathrm{P}\left(5,5\right)=120$ 个. 由**定义 6.1.1**, 一共可组成
 
 $$
 3\times 3\times 96+1\times 3\times 120=864+360=1224
@@ -470,10 +470,10 @@ $$
 
 个五位数.
 
-(2) 比 $5000000$ 大且由 $0\sim 6$ 这 $7$ 个数字组成没有重复数字的数, 必为七位数且首位不小于 $5$. 首位取 $5$ 或 $6$, 共 $2$ 种; 首位取定后, 其余 $6$ 个数字排在剩下的 $6$ 个数位上, 有 $\mathrm{P}(6,6)=720$ 种. 由**定义 6.1.2**, 符合条件的正整数共有
+(2) 比 $5000000$ 大且由 $0\sim 6$ 这 $7$ 个数字组成没有重复数字的数, 必为七位数且首位不小于 $5$. 首位取 $5$ 或 $6$, 共 $2$ 种; 首位取定后, 其余 $6$ 个数字排在剩下的 $6$ 个数位上, 有 $\mathrm{P}\left(6,6\right)=720$ 种. 由**定义 6.1.2**, 符合条件的正整数共有
 
 $$
-2\times \mathrm{P}(6,6)=2\times 720=1440
+2\times \mathrm{P}\left(6,6\right)=2\times 720=1440
 $$
 
 个. $\blacksquare$
@@ -624,7 +624,7 @@ $$
 
 由回答知: 冠军不是甲也不是乙, 只能是丙, 丁, 戊中的一人, 有 $3$ 种选择; 乙不是第 $5$ 名 (最差).
 
-冠军选定后, 剩下的 $4$ 个名次由其余 $4$ 人 (含甲, 乙) 排列, 共 $\mathrm{P}(4,4)=24$ 种. 其中乙排在第 $5$ 名的情形, 固定乙在第 $5$ 名, 其余 $3$ 人排在第 $2,3,4$ 名, 有 $\mathrm{P}(3,3)=6$ 种. 由**定义 6.1.1** 的扣除思想, 冠军选定后符合条件的排列有 $24-6=18$ 种.
+冠军选定后, 剩下的 $4$ 个名次由其余 $4$ 人 (含甲, 乙) 排列, 共 $\mathrm{P}\left(4,4\right)=24$ 种. 其中乙排在第 $5$ 名的情形, 固定乙在第 $5$ 名, 其余 $3$ 人排在第 $2,3,4$ 名, 有 $\mathrm{P}\left(3,3\right)=6$ 种. 由**定义 6.1.1** 的扣除思想, 冠军选定后符合条件的排列有 $24-6=18$ 种.
 
 再由冠军有 $3$ 种选择, 由**定义 6.1.2**, $5$ 人名次排列可能的不同情况共有
 

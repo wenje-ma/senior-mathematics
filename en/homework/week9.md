@@ -260,7 +260,7 @@ By **Definition 3.1.2** (Domain and Range), the set of real numbers for which th
 
 (2) $f\left(x\right)=x^2$, $g\left(x\right)=\left(\sqrt x\right)^4$;
 
-(3) $f\left(x\right)=x^2$, $g\left(x\right)=\sqrt[6]{x^6}$.
+(3) $f\left(x\right)=x^2$, $g\left(x\right)=\sqrt\left[6\right]{x^6}$.
 
 ### Solution to Problem 2
 
@@ -270,7 +270,7 @@ By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), t
 
 (2) $f\left(x\right)=x^2$ has domain $\mathbb R$, while $g\left(x\right)=\left(\sqrt x\right)^4=x^2$ has domain $\left\{x\mid x\ge0\right\}$; the domains are different, so they are not the same function.
 
-(3) $f\left(x\right)=x^2$ has domain $\mathbb R$, while $g\left(x\right)=\sqrt[6]{x^6}=\left|x\right|$; when $x<0$, $g\left(x\right)=-x\ne x^2$, the correspondences are different, so they are not the same function. $\blacksquare$
+(3) $f\left(x\right)=x^2$ has domain $\mathbb R$, while $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$; when $x<0$, $g\left(x\right)=-x\ne x^2$, the correspondences are different, so they are not the same function. $\blacksquare$
 
 ### Problem 3
 

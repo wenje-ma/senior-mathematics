@@ -1,20 +1,20 @@
 # Assignment 13
 
-> **Definition 4.1.1** (n-th Root) <br>In general, if $x^n=a$, then $x$ is called the $n$-th root of $a$, where $n>1$ and $n\in\mathbb N^*$. When $n$ is odd, the $n$-th root of a positive number is a positive number, and the $n$-th root of a negative number is a negative number; in this case the $n$-th root of $a$ is denoted by the symbol $\sqrt[n]{a}$. When $n$ is even, a positive number has two $n$-th roots, which are opposites of each other; the positive $n$-th root is denoted by $\sqrt[n]{a}$, the negative $n$-th root is denoted by $-\sqrt[n]{a}$, and together they are written as $\pm\sqrt[n]{a}$ ($a>0$). A negative number has no even root, and any root of $0$ is $0$, denoted by $\sqrt[n]{0}=0$.
+> **Definition 4.1.1** (n-th Root) <br>In general, if $x^n=a$, then $x$ is called the $n$-th root of $a$, where $n>1$ and $n\in\mathbb N^*$. When $n$ is odd, the $n$-th root of a positive number is a positive number, and the $n$-th root of a negative number is a negative number; in this case the $n$-th root of $a$ is denoted by the symbol $\sqrt\left[n\right]{a}$. When $n$ is even, a positive number has two $n$-th roots, which are opposites of each other; the positive $n$-th root is denoted by $\sqrt\left[n\right]{a}$, the negative $n$-th root is denoted by $-\sqrt\left[n\right]{a}$, and together they are written as $\pm\sqrt\left[n\right]{a}$ ($a>0$). A negative number has no even root, and any root of $0$ is $0$, denoted by $\sqrt\left[n\right]{0}=0$.
 
-> **Definition 4.1.2** (Radical) <br>The expression $\sqrt[n]{a}$ is called a radical, where $n$ is called the root exponent and $a$ is called the radicand. From the meaning of the $n$-th root, we get $(\sqrt[n]{a})^n=a$.
+> **Definition 4.1.2** (Radical) <br>The expression $\sqrt\left[n\right]{a}$ is called a radical, where $n$ is called the root exponent and $a$ is called the radicand. From the meaning of the $n$-th root, we get $\left(\sqrt\left[n\right]{a}\right)^n=a$.
 
-> **Standard Conclusion 4.1.3** (Properties of the n-th Root) <br>When $n$ is odd, $\sqrt[n]{a^n}=a$; when $n$ is even, $\sqrt[n]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a<0.\end{cases}$
+> **Standard Conclusion 4.1.3** (Properties of the n-th Root) <br>When $n$ is odd, $\sqrt\left[n\right]{a^n}=a$; when $n$ is even, $\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a<0.\end{cases}$
 
-> **Definition 4.1.4** (Positive Fractional Exponent) <br>The meaning of the positive fractional exponent of a positive number is $a^{\frac{m}{n}}=\sqrt[n]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
+> **Definition 4.1.4** (Positive Fractional Exponent) <br>The meaning of the positive fractional exponent of a positive number is $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
 
-> **Definition 4.1.5** (Negative Fractional Exponent) <br>The meaning of the negative fractional exponent of a positive number is $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt[n]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). The positive fractional exponent of $0$ equals $0$, and the negative fractional exponent of $0$ is meaningless.
+> **Definition 4.1.5** (Negative Fractional Exponent) <br>The meaning of the negative fractional exponent of a positive number is $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). The positive fractional exponent of $0$ equals $0$, and the negative fractional exponent of $0$ is meaningless.
 
-> **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) <br>For any rational numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb Q$); (2) $(a^r)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb Q$); (3) $(ab)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb Q$).
+> **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) <br>For any rational numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb Q$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb Q$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb Q$).
 
 > **Standard Conclusion 4.1.7** (Irrational Exponents) <br>In general, the irrational exponent power $a^\alpha$ ($a>0$, where $\alpha$ is an irrational number) is a determined real number. Thus the range of values of the exponent $x$ in the power $a^x$ ($a>0$) has gradually been extended from integers to real numbers.
 
-> **Standard Conclusion 4.1.8** (Operation Properties of Real Exponents) <br>For any real numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb R$); (2) $(a^r)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb R$); (3) $(ab)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb R$).
+> **Standard Conclusion 4.1.8** (Operation Properties of Real Exponents) <br>For any real numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb R$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb R$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb R$).
 
 ### Exercise 1
 
@@ -34,21 +34,21 @@ By **Definition 4.1.4** (Positive Fractional Exponent) and **Definition 4.1.5** 
 
 (1) $a^{\frac{1}{2}}=\sqrt{a}$.
 
-(2) $a^{\frac{3}{4}}=\sqrt[4]{a^3}$.
+(2) $a^{\frac{3}{4}}=\sqrt\left[4\right]{a^3}$.
 
-(3) $a^{-\frac{3}{5}}=\frac{1}{\sqrt[5]{a^3}}$.
+(3) $a^{-\frac{3}{5}}=\frac{1}{\sqrt\left[5\right]{a^3}}$.
 
-(4) $a^{-\frac{2}{3}}=\frac{1}{\sqrt[3]{a^2}}$. $\blacksquare$
+(4) $a^{-\frac{2}{3}}=\frac{1}{\sqrt\left[3\right]{a^2}}$. $\blacksquare$
 
 ### Exercise 2
 
 (Exercise 4.1, Problem 2) Express and calculate the following in fractional exponent form.
 
-(1) $\sqrt[3]{x^2}$ ($x>0$);
+(1) $\sqrt\left[3\right]{x^2}$ ($x>0$);
 
-(2) $\sqrt[5]{(m-n)^4}$ ($m>n$);
+(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m>n$);
 
-(3) $\sqrt{p^6}\sqrt[5]{p}$ ($p>0$);
+(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p>0$);
 
 (4) $\frac{a^3}{\sqrt{a}}$ ($a>0$).
 
@@ -56,11 +56,11 @@ By **Definition 4.1.4** (Positive Fractional Exponent) and **Definition 4.1.5** 
 
 By **Definition 4.1.4** (Positive Fractional Exponent) and **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents).
 
-(1) By **Definition 4.1.4**, $\sqrt[3]{x^2}=x^{\frac{2}{3}}$ ($x>0$).
+(1) By **Definition 4.1.4**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x>0$).
 
-(2) By **Definition 4.1.4**, $\sqrt[5]{(m-n)^4}=(m-n)^{\frac{4}{5}}$ ($m>n$).
+(2) By **Definition 4.1.4**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m>n$).
 
-(3) By **Definition 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt[5]{p}=p^{\frac{1}{5}}$. Then by **Standard Conclusion 4.1.6** (1), $\sqrt{p^6}\sqrt[5]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p>0$).
+(3) By **Definition 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. Then by **Standard Conclusion 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p>0$).
 
 (4) By **Definition 4.1.4**, $\sqrt{a}=a^{\frac{1}{2}}$. Then by **Standard Conclusion 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a>0$). $\blacksquare$
 
@@ -70,7 +70,7 @@ By **Definition 4.1.4** (Positive Fractional Exponent) and **Standard Conclusion
 
 (1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}$;
 
-(2) $2\sqrt{3}\times 3\sqrt[3]{1.5}\times\sqrt[6]{12}$;
+(2) $2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}$;
 
 (3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a>0$);
 
@@ -82,10 +82,10 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents), a
 
 (1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}=\left[\left(\frac{6}{7}\right)^2\right]^{\frac{3}{2}}=\left(\frac{6}{7}\right)^3=\frac{216}{343}$.
 
-(2) Convert to fractional exponents: $\sqrt{3}=3^{\frac{1}{2}}$, $\sqrt[3]{1.5}=\left(\frac{3}{2}\right)^{\frac{1}{3}}=3^{\frac{1}{3}}2^{-\frac{1}{3}}$, $\sqrt[6]{12}=(2^2\cdot 3)^{\frac{1}{6}}=2^{\frac{1}{3}}3^{\frac{1}{6}}$. By **Standard Conclusion 4.1.6** (1) (3),
+(2) Convert to fractional exponents: $\sqrt{3}=3^{\frac{1}{2}}$, $\sqrt\left[3\right]{1.5}=\left(\frac{3}{2}\right)^{\frac{1}{3}}=3^{\frac{1}{3}}2^{-\frac{1}{3}}$, $\sqrt\left[6\right]{12}=\left(2^2\cdot 3\right)^{\frac{1}{6}}=2^{\frac{1}{3}}3^{\frac{1}{6}}$. By **Standard Conclusion 4.1.6** (1) (3),
 
 $$
-2\sqrt{3}\times 3\sqrt[3]{1.5}\times\sqrt[6]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
+2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
 $$
 
 (3) By **Standard Conclusion 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a>0$).
@@ -132,25 +132,25 @@ By **Standard Conclusion 4.1.7** (Irrational Exponents), the real exponent power
 
 (Exercise 4.1, Review and Consolidation, Problem 1) Find the values of the following.
 
-(1) $\sqrt[4]{100^4}$;
+(1) $\sqrt\left[4\right]{100^4}$;
 
-(2) $\sqrt[5]{(-0.1)^5}$;
+(2) $\sqrt\left[5\right]{\left(-0.1\right)^5}$;
 
-(3) $\sqrt{(\pi-4)^2}$;
+(3) $\sqrt{\left(\pi-4\right)^2}$;
 
-(4) $\sqrt[6]{(x-y)^6}$.
+(4) $\sqrt\left[6\right]{\left(x-y\right)^6}$.
 
 ### Solution to Problem 1
 
 By **Standard Conclusion 4.1.3** (Properties of the n-th Root), take the absolute value when extracting an even root and remove the radical directly when extracting an odd root.
 
-(1) $\sqrt[4]{100^4}=\left|100\right|=100$.
+(1) $\sqrt\left[4\right]{100^4}=\left|100\right|=100$.
 
-(2) $\sqrt[5]{(-0.1)^5}=-0.1$.
+(2) $\sqrt\left[5\right]{\left(-0.1\right)^5}=-0.1$.
 
-(3) $\sqrt{(\pi-4)^2}=\left|\pi-4\right|=4-\pi$.
+(3) $\sqrt{\left(\pi-4\right)^2}=\left|\pi-4\right|=4-\pi$.
 
-(4) $\sqrt[6]{(x-y)^6}=\left|x-y\right|$. $\blacksquare$
+(4) $\sqrt\left[6\right]{\left(x-y\right)^6}=\left|x-y\right|$. $\blacksquare$
 
 ### Problem 2
 
@@ -160,7 +160,7 @@ By **Standard Conclusion 4.1.3** (Properties of the n-th Root), take the absolut
 
 (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a$ (B) $a\div a^{\frac{2}{3}}=a^{\frac{3}{2}}$ (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=0$ (D) $\left(a^{\frac{1}{4}}\right)^4=a$
 
-(2) Let $a>0$, and let $m$, $n$ be positive integers with $n>1$; how many of the following expressions $a^{\frac{m}{n}}=\sqrt[n]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt[n]{a^m}}$ are correct? ( ).
+(2) Let $a>0$, and let $m$, $n$ be positive integers with $n>1$; how many of the following expressions $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ are correct? ( ).
 
 (A) $3$ (B) $2$ (C) $1$ (D) $0$
 
@@ -170,7 +170,7 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents), *
 
 (1) Check item by item: (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a^{\frac{4}{3}+\frac{3}{4}}=a^{\frac{25}{12}}\neq a$, incorrect; (B) $a\div a^{\frac{2}{3}}=a^{1-\frac{2}{3}}=a^{\frac{1}{3}}\neq a^{\frac{3}{2}}$, incorrect; (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=a^0=1\neq 0$, incorrect; (D) $\left(a^{\frac{1}{4}}\right)^4=a^{\frac{1}{4}\times 4}=a$, correct. Therefore choose (D).
 
-(2) $a^{\frac{m}{n}}=\sqrt[n]{a^m}$ is exactly **Definition 4.1.4**, correct; $a^0=1$ is the convention for the zero exponent, correct; $a^{-\frac{m}{n}}=\frac{1}{\sqrt[n]{a^m}}$ is exactly **Definition 4.1.5**, correct. All three expressions are correct, so choose (A). $\blacksquare$
+(2) $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ is exactly **Definition 4.1.4**, correct; $a^0=1$ is the convention for the zero exponent, correct; $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ is exactly **Definition 4.1.5**, correct. All three expressions are correct, so choose (A). $\blacksquare$
 
 ### Problem 3
 
@@ -192,21 +192,21 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) an
 
 (Exercise 4.1, Review and Consolidation, Problem 4) Express and calculate the following in fractional exponent form (all letters in the expressions are positive).
 
-(1) $\sqrt{\frac{b^3}{a}\sqrt[4]{\frac{a^2}{b^6}}}$;
+(1) $\sqrt{\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}}$;
 
 (2) $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}$;
 
-(3) $\frac{\sqrt{m}\sqrt[3]{m}\sqrt[4]{m}}{\left(\sqrt[6]{m}\right)^5 m^{\frac{1}{4}}}$.
+(3) $\frac{\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}}{\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}}$.
 
 ### Solution to Problem 4
 
 By **Definition 4.1.4** (Positive Fractional Exponent) and **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents).
 
-(1) Convert layer by layer from the inside out: $\sqrt[4]{\frac{a^2}{b^6}}=\left(a^2 b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, so $\frac{b^3}{a}\sqrt[4]{\frac{a^2}{b^6}}=b^3 a^{-1}\cdot a^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, and then taking the square root gives $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
+(1) Convert layer by layer from the inside out: $\sqrt\left[4\right]{\frac{a^2}{b^6}}=\left(a^2 b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, so $\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}=b^3 a^{-1}\cdot a^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, and then taking the square root gives $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
 
 (2) Convert layer by layer from the inside out: $\sqrt{a}=a^{\frac{1}{2}}$; $a^{\frac{1}{2}}\sqrt{a}=a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, so $\sqrt{a^{\frac{1}{2}}\sqrt{a}}=\sqrt{a}=a^{\frac{1}{2}}$; then the outer layer $a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, so $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}=\sqrt{a}=a^{\frac{1}{2}}$.
 
-(3) Numerator: $\sqrt{m}\sqrt[3]{m}\sqrt[4]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. Denominator: $\left(\sqrt[6]{m}\right)^5 m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. By **Standard Conclusion 4.1.6** (1), the original expression $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
+(3) Numerator: $\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. Denominator: $\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. By **Standard Conclusion 4.1.6** (1), the original expression $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
 
 ### Problem 5
 

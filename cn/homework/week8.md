@@ -4,7 +4,7 @@
 
 > **定义 2.3.2** (二次函数的零点) <br>对于二次函数 $y=ax^2+bx+c$, 我们把使 $ax^2+bx+c=0$ 的实数 $x$ 叫做二次函数 $y=ax^2+bx+c$ 的零点.
 
-> **常用结论 2.3.3** (一元二次不等式的解集) <br>对于 $ax^2+bx+c>0$ 或 $ax^2+bx+c<0$ ($a>0$), 设 $\Delta=b^2-4ac$, $x_1,x_2$ 是方程 $ax^2+bx+c=0$ 的两实根 ($x_1<x_2$). 当 $\Delta>0$ 时, $ax^2+bx+c>0$ 的解集为 $\{x\mid x<x_1$ 或 $x>x_2\}$, $ax^2+bx+c<0$ 的解集为 $\{x\mid x_1<x<x_2\}$; 当 $\Delta=0$ 时, $ax^2+bx+c>0$ 的解集为 $\{x\mid x\neq-\frac{b}{2a}\}$, $ax^2+bx+c<0$ 的解集为 $\varnothing$; 当 $\Delta<0$ 时, $ax^2+bx+c>0$ 的解集为 $\mathbb R$, $ax^2+bx+c<0$ 的解集为 $\varnothing$. 对于二次项系数是负数的不等式, 先把二次项系数化成正数, 再求解.
+> **常用结论 2.3.3** (一元二次不等式的解集) <br>对于 $ax^2+bx+c>0$ 或 $ax^2+bx+c<0$ ($a>0$), 设 $\Delta=b^2-4ac$, $x_1,x_2$ 是方程 $ax^2+bx+c=0$ 的两实根 ($x_1<x_2$). 当 $\Delta>0$ 时, $ax^2+bx+c>0$ 的解集为 $\left\{x\mid x<x_1$ 或 $x>x_2\right\}$, $ax^2+bx+c<0$ 的解集为 $\left\{x\mid x_1<x<x_2\right\}$; 当 $\Delta=0$ 时, $ax^2+bx+c>0$ 的解集为 $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, $ax^2+bx+c<0$ 的解集为 $\varnothing$; 当 $\Delta<0$ 时, $ax^2+bx+c>0$ 的解集为 $\mathbb R$, $ax^2+bx+c<0$ 的解集为 $\varnothing$. 对于二次项系数是负数的不等式, 先把二次项系数化成正数, 再求解.
 
 ### 练习一
 
@@ -26,15 +26,15 @@
 
 由**常用结论 2.3.3** (一元二次不等式的解集), 先求对应方程的根, 再按图象位置写解集.
 
-(1) 方程 $\left(x+2\right)\left(x-3\right)=0$ 的根为 $x=-2,3$, 且二次项系数为正, 故解集为 $\{x\mid x<-2$ 或 $x>3\}$.
+(1) 方程 $\left(x+2\right)\left(x-3\right)=0$ 的根为 $x=-2,3$, 且二次项系数为正, 故解集为 $\left\{x\mid x<-2$ 或 $x>3\right\}$.
 
 (2) 移项得 $3x^2-7x-10\le0$. 方程 $3x^2-7x-10=0$ 的根为 $x=-1,\frac{10}{3}$, 故解集为 $\left\{x\mid-1\le x\le\frac{10}{3}\right\}$.
 
-(3) 两边乘 $-1$ 得 $x^2-4x+4>0$, 即 $\left(x-2\right)^2>0$, 故解集为 $\{x\mid x\neq2\}$.
+(3) 两边乘 $-1$ 得 $x^2-4x+4>0$, 即 $\left(x-2\right)^2>0$, 故解集为 $\left\{x\mid x\neq2\right\}$.
 
 (4) $x^2-x+\frac{1}{4}=\left(x-\frac{1}{2}\right)^2\ge0$ 恒成立, $\left(x-\frac{1}{2}\right)^2<0$ 无解, 故解集为 $\varnothing$.
 
-(5) 整理得 $2x^2-x-3\ge0$. 方程 $2x^2-x-3=0$ 的根为 $x=-1,\frac{3}{2}$, 故解集为 $\{x\mid x\le-1$ 或 $x\ge\frac{3}{2}\}$.
+(5) 整理得 $2x^2-x-3\ge0$. 方程 $2x^2-x-3=0$ 的根为 $x=-1,\frac{3}{2}$, 故解集为 $\left\{x\mid x\le-1$ 或 $x\ge\frac{3}{2}\right\}$.
 
 (6) $\Delta=9-16=-7<0$, 二次项系数为正, 由**常用结论 2.3.3** (一元二次不等式的解集), 解集为 $\mathbb R$. $\blacksquare$
 
@@ -70,7 +70,7 @@
 
 由二次根式有意义的条件, 被开方数须非负, 即 $x^2+x-12\ge0$.
 
-由**常用结论 2.3.3** (一元二次不等式的解集), 方程 $x^2+x-12=0$ 即 $\left(x+4\right)\left(x-3\right)=0$, 根为 $x=-4,3$, 开口向上, 故 $x^2+x-12\ge0$ 的解集为 $\{x\mid x\le-4$ 或 $x\ge3\}$. 即当 $x\le-4$ 或 $x\ge3$ 时, $\sqrt{x^2+x-12}$ 有意义. $\blacksquare$
+由**常用结论 2.3.3** (一元二次不等式的解集), 方程 $x^2+x-12=0$ 即 $\left(x+4\right)\left(x-3\right)=0$, 根为 $x=-4,3$, 开口向上, 故 $x^2+x-12\ge0$ 的解集为 $\left\{x\mid x\le-4$ 或 $x\ge3\right\}$. 即当 $x\le-4$ 或 $x\ge3$ 时, $\sqrt{x^2+x-12}$ 有意义. $\blacksquare$
 
 ### 练习四
 
@@ -124,9 +124,9 @@ $$
 
 (1) $4x^2<13$, 即 $x^2<\frac{13}{4}$, 解集为 $\left\{x\mid-\frac{\sqrt{13}}{2}<x<\frac{\sqrt{13}}{2}\right\}$.
 
-(2) 根为 $x=3,7$, 开口向上且取 $<0$, 解集为 $\{x\mid3<x<7\}$.
+(2) 根为 $x=3,7$, 开口向上且取 $<0$, 解集为 $\left\{x\mid3<x<7\right\}$.
 
-(3) $\left(x-5\right)\left(x+2\right)>0$, 根为 $x=-2,5$, 解集为 $\{x\mid x<-2$ 或 $x>5\}$.
+(3) $\left(x-5\right)\left(x+2\right)>0$, 根为 $x=-2,5$, 解集为 $\left\{x\mid x<-2$ 或 $x>5\right\}$.
 
 (4) 两边乘 $-1$ 得 $3x^2-5x+4<0$. $\Delta=25-48=-23<0$, 开口向上, $3x^2-5x+4$ 恒为正, 不可能小于 $0$, 故解集为 $\varnothing$. $\blacksquare$
 
@@ -148,26 +148,26 @@ $$
 
 ### 习题三
 
-(习题 2.3 综合运用第 3 题) 已知 $M=\{x\mid4x^2-4x-15>0\}$, $N=\{x\mid x^2-5x-6>0\}$, 求 $M\cap N$, $M\cup N$.
+(习题 2.3 综合运用第 3 题) 已知 $M=\left\{x\mid4x^2-4x-15>0\right\}$, $N=\left\{x\mid x^2-5x-6>0\right\}$, 求 $M\cap N$, $M\cup N$.
 
 ### 解答 习题三
 
 由**常用结论 2.3.3** (一元二次不等式的解集), 先分别化简 $M,N$.
 
-$4x^2-4x-15=0$ 的根为 $x=-\frac{3}{2},\frac{5}{2}$, 故 $M=\{x\mid x<-\frac{3}{2}$ 或 $x>\frac{5}{2}\}$.
+$4x^2-4x-15=0$ 的根为 $x=-\frac{3}{2},\frac{5}{2}$, 故 $M=\left\{x\mid x<-\frac{3}{2}$ 或 $x>\frac{5}{2}\right\}$.
 
-$x^2-5x-6=\left(x-6\right)\left(x+1\right)=0$ 的根为 $x=-1,6$, 故 $N=\{x\mid x<-1$ 或 $x>6\}$.
+$x^2-5x-6=\left(x-6\right)\left(x+1\right)=0$ 的根为 $x=-1,6$, 故 $N=\left\{x\mid x<-1$ 或 $x>6\right\}$.
 
 取公共部分, 得
 
 $$
-M\cap N=\{x\mid x<-\frac{3}{2}\text{ 或 }x>6\}.
+M\cap N=\left\{x\mid x<-\frac{3}{2}\text{ 或 }x>6\right\}.
 $$
 
 取合并部分, 得
 
 $$
-M\cup N=\{x\mid x<-1\text{ 或 }x>\frac{5}{2}\}.
+M\cup N=\left\{x\mid x<-1\text{ 或 }x>\frac{5}{2}\right\}.
 $$
 
 $\blacksquare$
@@ -196,15 +196,15 @@ $\blacksquare$
 
 ### 习题五
 
-(习题 2.3 综合运用第 5 题) 已知集合 $A=\{x\mid x^2-16<0\}$, $B=\{x\mid x^2-4x+3>0\}$, 求 $A\cup B$.
+(习题 2.3 综合运用第 5 题) 已知集合 $A=\left\{x\mid x^2-16<0\right\}$, $B=\left\{x\mid x^2-4x+3>0\right\}$, 求 $A\cup B$.
 
 ### 解答 习题五
 
 由**常用结论 2.3.3** (一元二次不等式的解集), 先化简 $A,B$.
 
-$x^2-16<0$ 即 $-4<x<4$, 故 $A=\{x\mid-4<x<4\}$.
+$x^2-16<0$ 即 $-4<x<4$, 故 $A=\left\{x\mid-4<x<4\right\}$.
 
-$x^2-4x+3=\left(x-1\right)\left(x-3\right)>0$ 的解为 $x<1$ 或 $x>3$, 故 $B=\{x\mid x<1$ 或 $x>3\}$.
+$x^2-4x+3=\left(x-1\right)\left(x-3\right)>0$ 的解为 $x<1$ 或 $x>3$, 故 $B=\left\{x\mid x<1$ 或 $x>3\right\}$.
 
 把 $A$ 与 $B$ 合并: $B$ 已包含 $x<1$ 与 $x>3$, $A$ 补充了 $-4<x<4$ 中 $1\le x\le3$ 的部分, 二者合起来覆盖全体实数, 故 $A\cup B=\mathbb R$. $\blacksquare$
 

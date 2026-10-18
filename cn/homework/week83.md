@@ -1,35 +1,35 @@
 # 作业 83
 
-> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P(A)>0$, 我们称 $\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
+> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)>0$, 我们称 $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
 
-> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P(A)>0$, 则 $\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A)$.
+> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)>0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **结论 7.1.3** (条件概率的性质) <br>设 $\mathbb P(A)>0$, 则 (1) $\mathbb P(\Omega\mid A)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P(B\cup C\mid A)=\mathbb P(B\mid A)+\mathbb P(C\mid A)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P(\bar B\mid A)=1-\mathbb P(B\mid A)$.
+> **结论 7.1.3** (条件概率的性质) <br>设 $\mathbb P\left(A\right)>0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
-> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P(A)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P(B\mid A)=\mathbb P(B)$.
+> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
-> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P(B)=\sum_{i=1}^n \mathbb P(A_i)\mathbb P(B\mid A_i)$.
+> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
 
-> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P(B)>0$, 有 $\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)}$, $i=1,2,\cdots,n$.
+> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)>0$, 有 $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
 
 ### 练习一
 
-(练习 7.1 第 1 题) 设 $A\subseteq B$, 且 $\mathbb P(A)=0.3$, $\mathbb P(B)=0.6$. 根据事件包含关系的意义及条件概率的意义, 直接写出 $\mathbb P(B\mid A)$ 和 $\mathbb P(A\mid B)$ 的值, 再由条件概率公式进行验证.
+(练习 7.1 第 1 题) 设 $A\subseteq B$, 且 $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. 根据事件包含关系的意义及条件概率的意义, 直接写出 $\mathbb P\left(B\mid A\right)$ 和 $\mathbb P\left(A\mid B\right)$ 的值, 再由条件概率公式进行验证.
 
 ### 解答 练习一
 
-由**定义 7.1.1** (条件概率), $\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}$.
+由**定义 7.1.1** (条件概率), $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
 
-因为 $A\subseteq B$, 故事件 $A$ 发生时事件 $B$ 必然发生, 直接可得 $\mathbb P(B\mid A)=1$; 而在事件 $B$ 发生的条件下, 事件 $A$ 发生的概率应为 $A$ 在 $B$ 中所占的比例, 直接可得 $\mathbb P(A\mid B)=\frac{\mathbb P(A)}{\mathbb P(B)}=\frac{0.3}{0.6}=0.5$.
+因为 $A\subseteq B$, 故事件 $A$ 发生时事件 $B$ 必然发生, 直接可得 $\mathbb P\left(B\mid A\right)=1$; 而在事件 $B$ 发生的条件下, 事件 $A$ 发生的概率应为 $A$ 在 $B$ 中所占的比例, 直接可得 $\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5$.
 
-验证如下. 由 $A\subseteq B$, 得 $AB=A$, 故 $\mathbb P(AB)=\mathbb P(A)=0.3$.
-
-$$
-\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}=\frac{0.3}{0.3}=1.
-$$
+验证如下. 由 $A\subseteq B$, 得 $AB=A$, 故 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)=0.3$.
 
 $$
-\mathbb P(A\mid B)=\frac{\mathbb P(AB)}{\mathbb P(B)}=\frac{0.3}{0.6}=0.5.
+\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\frac{0.3}{0.3}=1.
+$$
+
+$$
+\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5.
 $$
 
 与直观判断一致. $\blacksquare$
@@ -87,19 +87,19 @@ $\blacksquare$
 设 $A$ = "选到有思路的题", $\bar A$ = "选到没有思路的题", $B$ = "做对该题". 由题意,
 
 $$
-\mathbb P(A)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P(\bar A)=\frac{1}{4},\quad \mathbb P(B\mid A)=0.9,\quad \mathbb P(B\mid\bar A)=0.25.
+\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\bar A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\bar A\right)=0.25.
 $$
 
 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P(B)=\mathbb P(A)\mathbb P(B\mid A)+\mathbb P(\bar A)\mathbb P(B\mid\bar A).
+\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\bar A\right)\mathbb P\left(B\mid\bar A\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P(B)=\frac{3}{4}\times 0.9+\frac{1}{4}\times 0.25=0.675+0.0625=0.7375.
+\mathbb P\left(B\right)=\frac{3}{4}\times 0.9+\frac{1}{4}\times 0.25=0.675+0.0625=0.7375.
 $$
 
 故张君做对该题的概率为 0.7375. $\blacksquare$
@@ -116,24 +116,24 @@ $$
 
 由**结论 7.1.5** (全概率公式) 及**结论 7.1.6** (贝叶斯公式).
 
-设 $A_1$ = "产品取自第一批", $A_2$ = "产品取自第二批", $B$ = "产品是合格品". 由题意, $\mathbb P(A_1)=0.4$, $\mathbb P(A_2)=0.6$, $\mathbb P(B\mid A_1)=1-0.05=0.95$, $\mathbb P(B\mid A_2)=1-0.04=0.96$.
+设 $A_1$ = "产品取自第一批", $A_2$ = "产品取自第二批", $B$ = "产品是合格品". 由题意, $\mathbb P\left(A_1\right)=0.4$, $\mathbb P\left(A_2\right)=0.6$, $\mathbb P\left(B\mid A_1\right)=1-0.05=0.95$, $\mathbb P\left(B\mid A_2\right)=1-0.04=0.96$.
 
 (1) 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P(B)=\mathbb P(A_1)\mathbb P(B\mid A_1)+\mathbb P(A_2)\mathbb P(B\mid A_2).
+\mathbb P\left(B\right)=\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)+\mathbb P\left(A_2\right)\mathbb P\left(B\mid A_2\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P(B)=0.4\times 0.95+0.6\times 0.96=0.38+0.576=0.956.
+\mathbb P\left(B\right)=0.4\times 0.95+0.6\times 0.96=0.38+0.576=0.956.
 $$
 
 (2) 由**结论 7.1.6** (贝叶斯公式),
 
 $$
-\mathbb P(A_1\mid B)=\frac{\mathbb P(A_1)\mathbb P(B\mid A_1)}{\mathbb P(B)}=\frac{0.4\times 0.95}{0.956}=\frac{0.38}{0.956}=\frac{95}{239}.
+\mathbb P\left(A_1\mid B\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)}{\mathbb P\left(B\right)}=\frac{0.4\times 0.95}{0.956}=\frac{0.38}{0.956}=\frac{95}{239}.
 $$
 
 $\blacksquare$
@@ -163,20 +163,20 @@ $\blacksquare$
 (1) 已知选到的是男生, 即样本空间为全体男生共 1200 人, 其中患色盲的有 60 人, 故
 
 $$
-\mathbb P(B\mid A)=\frac{60}{1200}=\frac{1}{20}=0.05.
+\mathbb P\left(B\mid A\right)=\frac{60}{1200}=\frac{1}{20}=0.05.
 $$
 
 (2) 已知选到的学生患色盲, 即样本空间为全体患色盲的学生共 62 人, 其中男生有 60 人, 故
 
 $$
-\mathbb P(A\mid B)=\frac{60}{62}=\frac{30}{31}.
+\mathbb P\left(A\mid B\right)=\frac{60}{62}=\frac{30}{31}.
 $$
 
 $\blacksquare$
 
 ### 习题二
 
-(习题 7.1 复习巩固第 2 题) 从人群中随机选出 1 人, 设 $B=$ "选出的人患有心脏病", $C=$ "选出的人是年龄大于 50 岁的心脏病患者", 请你判断 $\mathbb P(B)$ 和 $\mathbb P(C)$ 的大小关系, 并说明理由.
+(习题 7.1 复习巩固第 2 题) 从人群中随机选出 1 人, 设 $B=$ "选出的人患有心脏病", $C=$ "选出的人是年龄大于 50 岁的心脏病患者", 请你判断 $\mathbb P\left(B\right)$ 和 $\mathbb P\left(C\right)$ 的大小关系, 并说明理由.
 
 ### 解答 习题二
 
@@ -185,10 +185,10 @@ $\blacksquare$
 事件 $C$ 发生时, 该人既患有心脏病又年龄大于 50 岁, 故 $C$ 发生必有 $B$ 发生, 即 $C\subseteq B$. 由概率的性质, 子事件的概率不超过母事件的概率, 故
 
 $$
-\mathbb P(C)\le \mathbb P(B).
+\mathbb P\left(C\right)\le \mathbb P\left(B\right).
 $$
 
-又因为患心脏病的人未必都年龄大于 50 岁, 即 $B$ 中存在不属于 $C$ 的情形, 故实际上 $\mathbb P(C)<\mathbb P(B)$. $\blacksquare$
+又因为患心脏病的人未必都年龄大于 50 岁, 即 $B$ 中存在不属于 $C$ 的情形, 故实际上 $\mathbb P\left(C\right)<\mathbb P\left(B\right)$. $\blacksquare$
 
 ### 习题三
 
@@ -198,18 +198,18 @@ $$
 
 由**定义 7.1.1** (条件概率), 并利用概率的加法公式与乘法公式.
 
-设 $A$ = "甲命中目标", $B$ = "乙命中目标". 由题意, $\mathbb P(A)=0.6$, $\mathbb P(B)=0.5$, 且两人射击相互独立, 由**结论 7.1.4** (事件的相互独立), $\mathbb P(AB)=\mathbb P(A)\mathbb P(B)=0.6\times 0.5=0.3$.
+设 $A$ = "甲命中目标", $B$ = "乙命中目标". 由题意, $\mathbb P\left(A\right)=0.6$, $\mathbb P\left(B\right)=0.5$, 且两人射击相互独立, 由**结论 7.1.4** (事件的相互独立), $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=0.6\times 0.5=0.3$.
 
 "目标至少被命中 1 次" 即事件 $A\cup B$, 其概率为
 
 $$
-\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B)-\mathbb P(AB)=0.6+0.5-0.3=0.8.
+\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(AB\right)=0.6+0.5-0.3=0.8.
 $$
 
 所求为在 $A\cup B$ 发生的条件下 $A$ 发生的概率, 由**定义 7.1.1** (条件概率),
 
 $$
-\mathbb P(A\mid A\cup B)=\frac{\mathbb P(A)}{\mathbb P(A\cup B)}=\frac{0.6}{0.8}=\frac{3}{4}.
+\mathbb P\left(A\mid A\cup B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\cup B\right)}=\frac{0.6}{0.8}=\frac{3}{4}.
 $$
 
 $\blacksquare$
@@ -222,18 +222,18 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式), 按从哪个箱子摸球将样本空间划分为两个互斥事件.
 
-设 $C_1$ = "从甲箱子摸球", $C_2$ = "从乙箱子摸球", $R$ = "摸到红球". 掷骰子点数为 1 或 2 的概率为 $\frac{2}{6}=\frac{1}{3}$, 点数为 3, 4, 5, 6 的概率为 $\frac{4}{6}=\frac{2}{3}$, 故 $\mathbb P(C_1)=\frac{1}{3}$, $\mathbb P(C_2)=\frac{2}{3}$. 甲箱中红球 5 个, 乙箱中红球 8 个, 故 $\mathbb P(R\mid C_1)=\frac{5}{10}=0.5$, $\mathbb P(R\mid C_2)=\frac{8}{10}=0.8$.
+设 $C_1$ = "从甲箱子摸球", $C_2$ = "从乙箱子摸球", $R$ = "摸到红球". 掷骰子点数为 1 或 2 的概率为 $\frac{2}{6}=\frac{1}{3}$, 点数为 3, 4, 5, 6 的概率为 $\frac{4}{6}=\frac{2}{3}$, 故 $\mathbb P\left(C_1\right)=\frac{1}{3}$, $\mathbb P\left(C_2\right)=\frac{2}{3}$. 甲箱中红球 5 个, 乙箱中红球 8 个, 故 $\mathbb P\left(R\mid C_1\right)=\frac{5}{10}=0.5$, $\mathbb P\left(R\mid C_2\right)=\frac{8}{10}=0.8$.
 
 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P(R)=\mathbb P(C_1)\mathbb P(R\mid C_1)+\mathbb P(C_2)\mathbb P(R\mid C_2).
+\mathbb P\left(R\right)=\mathbb P\left(C_1\right)\mathbb P\left(R\mid C_1\right)+\mathbb P\left(C_2\right)\mathbb P\left(R\mid C_2\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P(R)=\frac{1}{3}\times 0.5+\frac{2}{3}\times 0.8=\frac{0.5+1.6}{3}=0.7.
+\mathbb P\left(R\right)=\frac{1}{3}\times 0.5+\frac{2}{3}\times 0.8=\frac{0.5+1.6}{3}=0.7.
 $$
 
 $\blacksquare$
@@ -250,49 +250,49 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式) 及**结论 7.1.6** (贝叶斯公式).
 
-设 $A_1$, $A_2$, $A_3$ 分别表示 "选自 $A$, $B$, $C$ 地区", $F$ = "这个人患流感". 人口数之比为 $5:7:8$, 总份数为 20, 故 $\mathbb P(A_1)=\frac{5}{20}$, $\mathbb P(A_2)=\frac{7}{20}$, $\mathbb P(A_3)=\frac{8}{20}$. 又 $\mathbb P(F\mid A_1)=0.06$, $\mathbb P(F\mid A_2)=0.05$, $\mathbb P(F\mid A_3)=0.04$.
+设 $A_1$, $A_2$, $A_3$ 分别表示 "选自 $A$, $B$, $C$ 地区", $F$ = "这个人患流感". 人口数之比为 $5:7:8$, 总份数为 20, 故 $\mathbb P\left(A_1\right)=\frac{5}{20}$, $\mathbb P\left(A_2\right)=\frac{7}{20}$, $\mathbb P\left(A_3\right)=\frac{8}{20}$. 又 $\mathbb P\left(F\mid A_1\right)=0.06$, $\mathbb P\left(F\mid A_2\right)=0.05$, $\mathbb P\left(F\mid A_3\right)=0.04$.
 
 (1) 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P(F)=\sum_{i=1}^3 \mathbb P(A_i)\mathbb P(F\mid A_i).
+\mathbb P\left(F\right)=\sum_{i=1}^3 \mathbb P\left(A_i\right)\mathbb P\left(F\mid A_i\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P(F)=\frac{5}{20}\times 0.06+\frac{7}{20}\times 0.05+\frac{8}{20}\times 0.04=\frac{0.3+0.35+0.32}{20}=0.0485.
+\mathbb P\left(F\right)=\frac{5}{20}\times 0.06+\frac{7}{20}\times 0.05+\frac{8}{20}\times 0.04=\frac{0.3+0.35+0.32}{20}=0.0485.
 $$
 
 (2) 由**结论 7.1.6** (贝叶斯公式),
 
 $$
-\mathbb P(A_1\mid F)=\frac{\mathbb P(A_1)\mathbb P(F\mid A_1)}{\mathbb P(F)}=\frac{5\times 0.06}{0.97}=\frac{0.3}{0.97}=\frac{30}{97}.
+\mathbb P\left(A_1\mid F\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(F\mid A_1\right)}{\mathbb P\left(F\right)}=\frac{5\times 0.06}{0.97}=\frac{0.3}{0.97}=\frac{30}{97}.
 $$
 
 $\blacksquare$
 
 ### 习题六
 
-(习题 7.1 复习巩固第 6 题) 已知 $\mathbb P(A)>0$, $\mathbb P(B)>0$, $\mathbb P(B\mid A)=\mathbb P(B)$, 证明: $\mathbb P(A\mid B)=\mathbb P(A)$.
+(习题 7.1 复习巩固第 6 题) 已知 $\mathbb P\left(A\right)>0$, $\mathbb P\left(B\right)>0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, 证明: $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
 
 ### 解答 习题六
 
 由**定义 7.1.1** (条件概率).
 
-由 $\mathbb P(B\mid A)=\mathbb P(B)$ 及**定义 7.1.1** (条件概率),
+由 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ 及**定义 7.1.1** (条件概率),
 
 $$
-\frac{\mathbb P(AB)}{\mathbb P(A)}=\mathbb P(B).
+\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\right).
 $$
 
-两边同乘 $\mathbb P(A)$, 得 $\mathbb P(AB)=\mathbb P(A)\mathbb P(B)$. 再由**定义 7.1.1** (条件概率),
+两边同乘 $\mathbb P\left(A\right)$, 得 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. 再由**定义 7.1.1** (条件概率),
 
 $$
-\mathbb P(A\mid B)=\frac{\mathbb P(AB)}{\mathbb P(B)}=\frac{\mathbb P(A)\mathbb P(B)}{\mathbb P(B)}=\mathbb P(A).
+\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{\mathbb P\left(A\right)\mathbb P\left(B\right)}{\mathbb P\left(B\right)}=\mathbb P\left(A\right).
 $$
 
-故 $\mathbb P(A\mid B)=\mathbb P(A)$. $\blacksquare$
+故 $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$. $\blacksquare$
 
 ### 习题七
 
@@ -307,13 +307,13 @@ $$
 第 1 件不合格的概率为
 
 $$
-\mathbb P(\bar G_1)=\frac{5}{100}=\frac{1}{20}.
+\mathbb P\left(\bar G_1\right)=\frac{5}{100}=\frac{1}{20}.
 $$
 
 第 1 件合格且第 2 件不合格的概率, 由**结论 7.1.2** (概率的乘法公式), 为
 
 $$
-\mathbb P(G_1\bar G_2)=\mathbb P(G_1)\mathbb P(\bar G_2\mid G_1)=\frac{95}{100}\times\frac{5}{99}.
+\mathbb P\left(G_1\bar G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\bar G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
 $$
 
 两种情形互斥, 由概率的加法公式, 这批产品被拒绝的概率为
@@ -363,43 +363,43 @@ $\blacksquare$
 (1) 对任意事件 $A$, $A\subseteq\Omega$, 故 $\Omega A=A$. 由**定义 7.1.1** (条件概率),
 
 $$
-\mathbb P(\Omega\mid A)=\frac{\mathbb P(\Omega A)}{\mathbb P(A)}=\frac{\mathbb P(A)}{\mathbb P(A)}=1.
+\mathbb P\left(\Omega\mid A\right)=\frac{\mathbb P\left(\Omega A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\right)}=1.
 $$
 
-(2) 若 $B$ 和 $C$ 是两个互斥事件, 则 $BA$ 与 $CA$ 也互斥. 由概率的加法公式, $\mathbb P((B\cup C)A)=\mathbb P(BA)+\mathbb P(CA)$. 由**定义 7.1.1** (条件概率),
+(2) 若 $B$ 和 $C$ 是两个互斥事件, 则 $BA$ 与 $CA$ 也互斥. 由概率的加法公式, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. 由**定义 7.1.1** (条件概率),
 
 $$
-\mathbb P(B\cup C\mid A)=\frac{\mathbb P((B\cup C)A)}{\mathbb P(A)}=\frac{\mathbb P(BA)+\mathbb P(CA)}{\mathbb P(A)}=\mathbb P(B\mid A)+\mathbb P(C\mid A).
+\mathbb P\left(B\cup C\mid A\right)=\frac{\mathbb P\left(\left(B\cup C\right)A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(BA\right)+\mathbb P\left(CA\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right).
 $$
 
 $\blacksquare$
 
 ### 习题十
 
-(习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb P(AB)>0$ 时, $\mathbb P(ABC)=\mathbb P(A)\mathbb P(B\mid A)\mathbb P(C\mid AB)$. 据此你能发现计算 $\mathbb P(A_1A_2\cdots A_n)$ 的公式吗?
+(习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb P\left(AB\right)>0$ 时, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. 据此你能发现计算 $\mathbb P\left(A_1A_2\cdots A_n\right)$ 的公式吗?
 
 ### 解答 习题十
 
 由**定义 7.1.1** (条件概率) 及**结论 7.1.2** (概率的乘法公式).
 
-由 $\mathbb P(AB)>0$, 必有 $\mathbb P(A)>0$ 且 $\mathbb P(AB)>0$. 两次使用**结论 7.1.2** (概率的乘法公式):
+由 $\mathbb P\left(AB\right)>0$, 必有 $\mathbb P\left(A\right)>0$ 且 $\mathbb P\left(AB\right)>0$. 两次使用**结论 7.1.2** (概率的乘法公式):
 
 先把 $AB$ 看作一个事件, 有
 
 $$
-\mathbb P(ABC)=\mathbb P(AB)\,\mathbb P(C\mid AB).
+\mathbb P\left(ABC\right)=\mathbb P\left(AB\right)\,\mathbb P\left(C\mid AB\right).
 $$
 
-再对 $\mathbb P(AB)$ 使用乘法公式, 有 $\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A)$. 代入得
+再对 $\mathbb P\left(AB\right)$ 使用乘法公式, 有 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$. 代入得
 
 $$
-\mathbb P(ABC)=\mathbb P(A)\mathbb P(B\mid A)\mathbb P(C\mid AB).
+\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right).
 $$
 
 据此, 反复使用乘法公式, 可得 $n$ 个事件交的概率公式:
 
 $$
-\mathbb P(A_1A_2\cdots A_n)=\mathbb P(A_1)\mathbb P(A_2\mid A_1)\mathbb P(A_3\mid A_1A_2)\cdots \mathbb P(A_n\mid A_1A_2\cdots A_{n-1}).
+\mathbb P\left(A_1A_2\cdots A_n\right)=\mathbb P\left(A_1\right)\mathbb P\left(A_2\mid A_1\right)\mathbb P\left(A_3\mid A_1A_2\right)\cdots \mathbb P\left(A_n\mid A_1A_2\cdots A_{n-1}\right).
 $$
 
 $\blacksquare$

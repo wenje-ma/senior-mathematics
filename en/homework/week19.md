@@ -1,12 +1,12 @@
 # Assignment 19
 
-> **Definition 5.2.1** (Sine, Cosine and Tangent Functions) <br>Let $\alpha$ be an arbitrary angle, $\alpha\in\mathbb R$, whose terminal side $OP$ intersects the unit circle at the point $P(x,y)$. (1) The y-coordinate $y$ of the point $P$ is called the sine of $\alpha$, denoted by $\sin\alpha$, i.e. $y=\sin\alpha$; (2) the x-coordinate $x$ of the point $P$ is called the cosine of $\alpha$, denoted by $\cos\alpha$, i.e. $x=\cos\alpha$; (3) the ratio $\frac{y}{x}$ of the y-coordinate to the x-coordinate of the point $P$ is called the tangent of $\alpha$, denoted by $\tan\alpha$, i.e. $\frac{y}{x}=\tan\alpha$ ($x\neq0$).
+> **Definition 5.2.1** (Sine, Cosine and Tangent Functions) <br>Let $\alpha$ be an arbitrary angle, $\alpha\in\mathbb R$, whose terminal side $OP$ intersects the unit circle at the point $P\left(x,y\right)$. (1) The y-coordinate $y$ of the point $P$ is called the sine of $\alpha$, denoted by $\sin\alpha$, i.e. $y=\sin\alpha$; (2) the x-coordinate $x$ of the point $P$ is called the cosine of $\alpha$, denoted by $\cos\alpha$, i.e. $x=\cos\alpha$; (3) the ratio $\frac{y}{x}$ of the y-coordinate to the x-coordinate of the point $P$ is called the tangent of $\alpha$, denoted by $\tan\alpha$, i.e. $\frac{y}{x}=\tan\alpha$ ($x\neq0$).
 
 > **Common Conclusion** (Domains of Trigonometric Functions) <br>The sine function $y=\sin x$, $x\in\mathbb R$; the cosine function $y=\cos x$, $x\in\mathbb R$; the tangent function $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$.
 
-> **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side) <br>Let $P$ be any point on the terminal side of the angle $\alpha$ (not coinciding with the origin $O$), with coordinates $(x,y)$, and let the distance from $P$ to the origin be $r=\sqrt{x^{2}+y^{2}}$. Then $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
+> **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side) <br>Let $P$ be any point on the terminal side of the angle $\alpha$ (not coinciding with the origin $O$), with coordinates $\left(x,y\right)$, and let the distance from $P$ to the origin be $r=\sqrt{x^{2}+y^{2}}$. Then $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
 
-> **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side) <br>$\sin(\alpha+k\cdot2\pi)=\sin\alpha$, $\cos(\alpha+k\cdot2\pi)=\cos\alpha$, $\tan(\alpha+k\cdot2\pi)=\tan\alpha$, where $k\in\mathbb Z$.
+> **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side) <br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, where $k\in\mathbb Z$.
 
 > **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) <br>Sine: positive in the first and second quadrants, negative in the third and fourth; cosine: positive in the first and fourth quadrants, negative in the second and third; tangent: positive in the first and third quadrants, negative in the second and fourth.
 
@@ -18,15 +18,15 @@
 
 ### Solution to Exercise 1
 
-By **Definition 5.2.1** (Sine, Cosine and Tangent Functions), the terminal side of the angle $\alpha$ meets the unit circle at $P(x,y)$, so $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
+By **Definition 5.2.1** (Sine, Cosine and Tangent Functions), the terminal side of the angle $\alpha$ meets the unit circle at $P\left(x,y\right)$, so $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
 
-(1) When $\alpha=0$, the terminal side meets the unit circle at $(1,0)$, so $\sin0=0$, $\cos0=1$, $\tan0=0$.
+(1) When $\alpha=0$, the terminal side meets the unit circle at $\left(1,0\right)$, so $\sin0=0$, $\cos0=1$, $\tan0=0$.
 
-(2) When $\alpha=\frac{\pi}{2}$, the terminal side meets the unit circle at $(0,1)$, so $\sin\frac{\pi}{2}=1$, $\cos\frac{\pi}{2}=0$, and $\tan\frac{\pi}{2}$ is undefined.
+(2) When $\alpha=\frac{\pi}{2}$, the terminal side meets the unit circle at $\left(0,1\right)$, so $\sin\frac{\pi}{2}=1$, $\cos\frac{\pi}{2}=0$, and $\tan\frac{\pi}{2}$ is undefined.
 
-(3) When $\alpha=\pi$, the terminal side meets the unit circle at $(-1,0)$, so $\sin\pi=0$, $\cos\pi=-1$, $\tan\pi=0$.
+(3) When $\alpha=\pi$, the terminal side meets the unit circle at $\left(-1,0\right)$, so $\sin\pi=0$, $\cos\pi=-1$, $\tan\pi=0$.
 
-(4) When $\alpha=\frac{3\pi}{2}$, the terminal side meets the unit circle at $(0,-1)$, so $\sin\frac{3\pi}{2}=-1$, $\cos\frac{3\pi}{2}=0$, and $\tan\frac{3\pi}{2}$ is undefined. $\blacksquare$
+(4) When $\alpha=\frac{3\pi}{2}$, the terminal side meets the unit circle at $\left(0,-1\right)$, so $\sin\frac{3\pi}{2}=-1$, $\cos\frac{3\pi}{2}=0$, and $\tan\frac{3\pi}{2}$ is undefined. $\blacksquare$
 
 ### Exercise 2
 
@@ -46,13 +46,13 @@ $\blacksquare$
 
 ### Exercise 3
 
-(Exercise 5.2, Problem 3) Given that the terminal side of the angle $\theta$ passes through the point $P(-12,5)$, find the trigonometric values of $\theta$.
+(Exercise 5.2, Problem 3) Given that the terminal side of the angle $\theta$ passes through the point $P\left(-12,5\right)$, find the trigonometric values of $\theta$.
 
 ### Solution to Exercise 3
 
 By **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side), $r=\sqrt{x^{2}+y^{2}}$.
 
-From $x=-12$ and $y=5$, we get $r=\sqrt{(-12)^{2}+5^{2}}=\sqrt{169}=13$. Hence
+From $x=-12$ and $y=5$, we get $r=\sqrt{\left(-12\right)^{2}+5^{2}}=\sqrt{169}=13$. Hence
 
 $$
 \sin\theta=\frac{y}{r}=\frac{5}{13},\quad \cos\theta=\frac{x}{r}=-\frac{12}{13},\quad \tan\theta=\frac{y}{x}=-\frac{5}{12}.
@@ -71,10 +71,10 @@ By **Definition 5.2.1** (Sine, Cosine and Tangent Functions) and **Common Conclu
 After $2\ \mathrm{s}$, the angle swept by $P$ is $1\times2=2\ \mathrm{rad}$; since the rotation is clockwise, the swept angle is $-2\ \mathrm{rad}$. The circle has radius $2$, so by **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side), the coordinates of $P$ are
 
 $$
-(2\cos(-2),\ 2\sin(-2))=(2\cos2,\ -2\sin2).
+\left(2\cos\left(-2\right),\ 2\sin\left(-2\right)\right)=\left(2\cos2,\ -2\sin2\right).
 $$
 
-Hence after $2\ \mathrm{s}$, $P$ is at $(2\cos2,\ -2\sin2)$. $\blacksquare$
+Hence after $2\ \mathrm{s}$, $P$ is at $\left(2\cos2,\ -2\sin2\right)$. $\blacksquare$
 
 ### Exercise 5
 
@@ -94,7 +94,7 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 (2) $\alpha=\frac{13\pi}{6}=2\pi+\frac{\pi}{6}$: $\sin\frac{13\pi}{6}=\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{13\pi}{6}=\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\tan\frac{13\pi}{6}=\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$.
 
-(3) $\alpha=-\pi$: $\sin(-\pi)=0$, $\cos(-\pi)=-1$, $\tan(-\pi)=0$.
+(3) $\alpha=-\pi$: $\sin\left(-\pi\right)=0$, $\cos\left(-\pi\right)=-1$, $\tan\left(-\pi\right)=0$.
 
 (4) $\alpha=-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$: $\sin\left(-\frac{4\pi}{3}\right)=\sin\frac{2\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{4\pi}{3}\right)=\cos\frac{2\pi}{3}=-\frac{1}{2}$, $\tan\left(-\frac{4\pi}{3}\right)=\tan\frac{2\pi}{3}=-\sqrt{3}$.
 
@@ -126,7 +126,7 @@ In summary, $\cos\alpha$ and $\tan\alpha$ can be negative. $\blacksquare$
 
 (2) $\cos\frac{16\pi}{5}$;
 
-(3) $\cos(-450^{\circ})$;
+(3) $\cos\left(-450^{\circ}\right)$;
 
 (4) $\tan\left(-\frac{17\pi}{8}\right)$;
 
@@ -142,7 +142,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) and
 
 (2) Since $\frac{16\pi}{5}=2\pi+\frac{6\pi}{5}$ and $\frac{6\pi}{5}$ is a third-quadrant angle, $\cos\frac{16\pi}{5}<0$.
 
-(3) Since $-450^{\circ}=-360^{\circ}-90^{\circ}$, the terminal side lies on the negative half of the $y$-axis, so $\cos(-450^{\circ})=0$.
+(3) Since $-450^{\circ}=-360^{\circ}-90^{\circ}$, the terminal side lies on the negative half of the $y$-axis, so $\cos\left(-450^{\circ}\right)=0$.
 
 (4) Since $-\frac{17\pi}{8}=-2\pi-\frac{\pi}{8}$ and $-\frac{\pi}{8}$ is a fourth-quadrant angle, $\tan\left(-\frac{17\pi}{8}\right)<0$.
 
@@ -182,7 +182,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
 (2) $\tan\frac{19\pi}{3}$;
 
-(3) $\sin(-1050^{\circ})$;
+(3) $\sin\left(-1050^{\circ}\right)$;
 
 (4) $\tan\left(-\frac{31\pi}{4}\right)$.
 
@@ -194,7 +194,7 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 (2) From $\frac{19\pi}{3}=6\pi+\frac{\pi}{3}$, we get $\tan\frac{19\pi}{3}=\tan\frac{\pi}{3}=\sqrt{3}$.
 
-(3) From $-1050^{\circ}=-3\times360^{\circ}+30^{\circ}$, we get $\sin(-1050^{\circ})=\sin30^{\circ}=\frac{1}{2}$.
+(3) From $-1050^{\circ}=-3\times360^{\circ}+30^{\circ}$, we get $\sin\left(-1050^{\circ}\right)=\sin30^{\circ}=\frac{1}{2}$.
 
 (4) From $-\frac{31\pi}{4}=-8\pi+\frac{\pi}{4}$, we get $\tan\left(-\frac{31\pi}{4}\right)=\tan\frac{\pi}{4}=1$. $\blacksquare$
 
@@ -312,13 +312,13 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 ### Problem 2
 
-(Exercise 5.2, Review and Consolidation, Problem 2) Given that a point $P$ on the terminal side of the angle $\alpha$ has coordinates $(3a,4a)$, where $a\neq0$, find the values of $\sin\alpha$, $\cos\alpha$ and $\tan\alpha$.
+(Exercise 5.2, Review and Consolidation, Problem 2) Given that a point $P$ on the terminal side of the angle $\alpha$ has coordinates $\left(3a,4a\right)$, where $a\neq0$, find the values of $\sin\alpha$, $\cos\alpha$ and $\tan\alpha$.
 
 ### Solution to Problem 2
 
 By **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side), $r=\sqrt{x^{2}+y^{2}}$.
 
-From $x=3a$ and $y=4a$, we get $r=\sqrt{(3a)^{2}+(4a)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
+From $x=3a$ and $y=4a$, we get $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
 
 (1) When $a>0$, $r=5a$, so $\sin\alpha=\frac{4a}{5a}=\frac{4}{5}$, $\cos\alpha=\frac{3a}{5a}=\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$.
 
@@ -328,7 +328,7 @@ From $x=3a$ and $y=4a$, we get $r=\sqrt{(3a)^{2}+(4a)^{2}}=\sqrt{25a^{2}}=5\lver
 
 (Exercise 5.2, Review and Consolidation, Problem 3) Compute:
 
-(1) $6\sin(-90^{\circ})+3\sin0^{\circ}-8\sin270^{\circ}+12\cos180^{\circ}$;
+(1) $6\sin\left(-90^{\circ}\right)+3\sin0^{\circ}-8\sin270^{\circ}+12\cos180^{\circ}$;
 
 (2) $10\cos270^{\circ}+4\sin0^{\circ}+9\tan0^{\circ}+15\cos360^{\circ}$;
 
@@ -340,10 +340,10 @@ From $x=3a$ and $y=4a$, we get $r=\sqrt{(3a)^{2}+(4a)^{2}}=\sqrt{25a^{2}}=5\lver
 
 Use **Definition 5.2.1** (Sine, Cosine and Tangent Functions) to find the trigonometric values of the special angles, and then substitute and compute.
 
-(1) From $\sin(-90^{\circ})=-1$, $\sin0^{\circ}=0$, $\sin270^{\circ}=-1$, $\cos180^{\circ}=-1$, we get
+(1) From $\sin\left(-90^{\circ}\right)=-1$, $\sin0^{\circ}=0$, $\sin270^{\circ}=-1$, $\cos180^{\circ}=-1$, we get
 
 $$
-6\times(-1)+3\times0-8\times(-1)+12\times(-1)=-6+0+8-12=-10.
+6\times\left(-1\right)+3\times0-8\times\left(-1\right)+12\times\left(-1\right)=-6+0+8-12=-10.
 $$
 
 (2) From $\cos270^{\circ}=0$, $\sin0^{\circ}=0$, $\tan0^{\circ}=0$, $\cos360^{\circ}=1$, we get
@@ -355,13 +355,13 @@ $$
 (3) From $\cos\frac{\pi}{2}=0$, $\tan\frac{\pi}{4}=1$, $\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$, $\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\sin\frac{3\pi}{2}=-1$, we get
 
 $$
-2\times0-1+\frac{3}{4}\times\frac{1}{3}-\frac{1}{2}+\frac{3}{4}+(-1)=-1+\frac{1}{4}-\frac{1}{2}+\frac{3}{4}-1=-\frac{3}{2}.
+2\times0-1+\frac{3}{4}\times\frac{1}{3}-\frac{1}{2}+\frac{3}{4}+\left(-1\right)=-1+\frac{1}{4}-\frac{1}{2}+\frac{3}{4}-1=-\frac{3}{2}.
 $$
 
 (4) From $\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\frac{3\pi}{2}=0$, $\tan\frac{\pi}{3}=\sqrt{3}$, we get
 
 $$
-\left(\frac{\sqrt{3}}{2}\right)^{2}+0^{4}-(\sqrt{3})^{2}=\frac{3}{4}-3=-\frac{9}{4}.
+\left(\frac{\sqrt{3}}{2}\right)^{2}+0^{4}-\left(\sqrt{3}\right)^{2}=\frac{3}{4}-3=-\frac{9}{4}.
 $$
 
 $\blacksquare$
@@ -384,9 +384,9 @@ Use **Definition 5.2.1** (Sine, Cosine and Tangent Functions) to find the trigon
 
 (1) From $\sin0^{\circ}=0$, $\cos90^{\circ}=0$, $\tan180^{\circ}=0$, the original expression $=0$.
 
-(2) From $\cos180^{\circ}=-1$, $\sin90^{\circ}=1$, $\cos0^{\circ}=1$, the original expression $=p^{2}+q^{2}-2pq=(p-q)^{2}$.
+(2) From $\cos180^{\circ}=-1$, $\sin90^{\circ}=1$, $\cos0^{\circ}=1$, the original expression $=p^{2}+q^{2}-2pq=\left(p-q\right)^{2}$.
 
-(3) From $\cos2\pi=1$, $\sin\frac{3\pi}{2}=-1$, $\cos\pi=-1$, $\sin\frac{\pi}{2}=1$, the original expression $=a^{2}+b^{2}-ab-ab=a^{2}+b^{2}-2ab=(a-b)^{2}$.
+(3) From $\cos2\pi=1$, $\sin\frac{3\pi}{2}=-1$, $\cos\pi=-1$, $\sin\frac{\pi}{2}=1$, the original expression $=a^{2}+b^{2}-ab-ab=a^{2}+b^{2}-2ab=\left(a-b\right)^{2}$.
 
 (4) From $\tan0=0$, $\cos\frac{\pi}{2}=0$, $\sin\pi=0$, $\sin2\pi=0$, the original expression $=0$. $\blacksquare$
 
@@ -448,7 +448,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 ### Problem 7
 
-(Exercise 5.2, Comprehensive Application, Problem 7) Find the value of the function $f(x)=\sin\left(x+\frac{\pi}{4}\right)+2\sin\left(x-\frac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\frac{3\pi}{4}\right)$ under each of the following conditions:
+(Exercise 5.2, Comprehensive Application, Problem 7) Find the value of the function $f\left(x\right)=\sin\left(x+\frac{\pi}{4}\right)+2\sin\left(x-\frac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\frac{3\pi}{4}\right)$ under each of the following conditions:
 
 (1) $x=\frac{\pi}{4}$;
 
@@ -465,7 +465,7 @@ f\left(\frac{\pi}{4}\right)=\sin\frac{\pi}{2}+2\sin0-4\cos\frac{\pi}{2}+3\cos\pi
 $$
 
 $$
-=1+0-0+3\times(-1)=-2.
+=1+0-0+3\times\left(-1\right)=-2.
 $$
 
 (2) When $x=\frac{3\pi}{4}$,
@@ -614,11 +614,11 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}\alpha+\cos^{2}\alpha=1$ and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) The right side $=\frac{1-\frac{\sin x}{\cos x}}{1+\frac{\sin x}{\cos x}}=\frac{\cos x-\sin x}{\cos x+\sin x}=\frac{(\cos x-\sin x)^{2}}{(\cos x+\sin x)(\cos x-\sin x)}=\frac{\cos^{2}x-2\sin x\cos x+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=$ the left side.
+(1) The right side $=\frac{1-\frac{\sin x}{\cos x}}{1+\frac{\sin x}{\cos x}}=\frac{\cos x-\sin x}{\cos x+\sin x}=\frac{\left(\cos x-\sin x\right)^{2}}{\left(\cos x+\sin x\right)\left(\cos x-\sin x\right)}=\frac{\cos^{2}x-2\sin x\cos x+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=$ the left side.
 
 (2) The left side $=1-\frac{\sin^{2}\alpha}{\tan^{2}\alpha}=1-\frac{\sin^{2}\alpha}{\sin^{2}\alpha/\cos^{2}\alpha}=1-\cos^{2}\alpha=\sin^{2}\alpha=$ the right side.
 
-(3) The left side $=\cos^{2}\beta-2\cos\beta+1+\sin^{2}\beta=(\cos^{2}\beta+\sin^{2}\beta)+1-2\cos\beta=1+1-2\cos\beta=2-2\cos\beta=$ the right side.
+(3) The left side $=\cos^{2}\beta-2\cos\beta+1+\sin^{2}\beta=\left(\cos^{2}\beta+\sin^{2}\beta\right)+1-2\cos\beta=1+1-2\cos\beta=2-2\cos\beta=$ the right side.
 
 (4) The left side $=\left(\sin^{2}x+\cos^{2}x\right)^{2}-2\sin^{2}x\cos^{2}x=1-2\sin^{2}x\cos^{2}x=$ the right side. $\blacksquare$
 
@@ -649,11 +649,11 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 Since $\alpha$ is a second-quadrant angle, $\cos\alpha<0$. Rationalizing the two expressions separately:
 
 $$
-\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{(1+\sin\alpha)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},
+\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{\left(1+\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},
 $$
 
 $$
-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}=\sqrt{\frac{(1-\sin\alpha)^{2}}{1-\sin^{2}\alpha}}=\frac{1-\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1-\sin\alpha}{-\cos\alpha}.
+\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}=\sqrt{\frac{\left(1-\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1-\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1-\sin\alpha}{-\cos\alpha}.
 $$
 
 Hence the original expression $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\alpha}{-\cos\alpha}=\frac{2\sin\alpha}{-\cos\alpha}=-2\tan\alpha$. $\blacksquare$
@@ -666,13 +666,13 @@ Hence the original expression $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\al
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}\alpha+\cos^{2}\alpha=1$ and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) From $\sin^{2}\alpha=1-\cos^{2}\alpha=(1-\cos\alpha)(1+\cos\alpha)$, we obtain $\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}$.
+(1) From $\sin^{2}\alpha=1-\cos^{2}\alpha=\left(1-\cos\alpha\right)\left(1+\cos\alpha\right)$, we obtain $\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}$.
 
 (2) From $1=\sin^{2}\alpha+\cos^{2}\alpha$, dividing both sides by $\cos^{2}\alpha$ gives $\frac{1}{\cos^{2}\alpha}=\tan^{2}\alpha+1$, i.e. $\sec^{2}\alpha=1+\tan^{2}\alpha$.
 
-(3) From $\sin^{4}\alpha-\cos^{4}\alpha=(\sin^{2}\alpha+\cos^{2}\alpha)(\sin^{2}\alpha-\cos^{2}\alpha)=\sin^{2}\alpha-\cos^{2}\alpha$, we obtain $\sin^{4}\alpha-\cos^{4}\alpha=\sin^{2}\alpha-\cos^{2}\alpha$.
+(3) From $\sin^{4}\alpha-\cos^{4}\alpha=\left(\sin^{2}\alpha+\cos^{2}\alpha\right)\left(\sin^{2}\alpha-\cos^{2}\alpha\right)=\sin^{2}\alpha-\cos^{2}\alpha$, we obtain $\sin^{4}\alpha-\cos^{4}\alpha=\sin^{2}\alpha-\cos^{2}\alpha$.
 
-(4) From $(\sin\alpha+\cos\alpha)^{2}=1+2\sin\alpha\cos\alpha$, we obtain $\sin\alpha\cos\alpha=\frac{(\sin\alpha+\cos\alpha)^{2}-1}{2}$. $\blacksquare$
+(4) From $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha$, we obtain $\sin\alpha\cos\alpha=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}-1}{2}$. $\blacksquare$
 
 ### Problem 18
 
@@ -702,7 +702,7 @@ The two are equal.
 
 (2) Take, for example, $\alpha=\frac{\pi}{4}$. Since $\sin\frac{\pi}{4}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$, we get $\sin^{4}\frac{\pi}{4}-\cos^{4}\frac{\pi}{4}=0$ and $\sin^{2}\frac{\pi}{4}-\cos^{2}\frac{\pi}{4}=0$. The two are still equal.
 
-(3) The left side $=\sin^{2}x-\cos^{2}x$. The right side $=(\sin^{2}x+\cos^{2}x)(\sin^{2}x-\cos^{2}x)=1\cdot(\sin^{2}x-\cos^{2}x)=\sin^{2}x-\cos^{2}x=$ the left side. Hence the identity holds, $\forall x\in\mathbb R$. $\blacksquare$
+(3) The left side $=\sin^{2}x-\cos^{2}x$. The right side $=\left(\sin^{2}x+\cos^{2}x\right)\left(\sin^{2}x-\cos^{2}x\right)=1\cdot\left(\sin^{2}x-\cos^{2}x\right)=\sin^{2}x-\cos^{2}x=$ the left side. Hence the identity holds, $\forall x\in\mathbb R$. $\blacksquare$
 
 ### Reading and Thinking 1
 

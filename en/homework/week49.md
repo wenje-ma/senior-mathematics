@@ -2,15 +2,15 @@
 
 > **Definition 10.1.14** (Classical Probability Model) <br>We call an experiment with the following two features a classical-model experiment, and its mathematical model the classical probability model, shortened to classical probability model: (1) finiteness: there are only finitely many sample points in the sample space; (2) equal likelihood: each sample point is equally likely to occur.
 
-> **Definition 10.1.15** (Classical Definition of Probability) <br>In general, let experiment $E$ be a classical probability model, the sample space $\Omega$ contain $n$ sample points, and event $A$ contain $k$ of them; then the probability of event $A$ is defined as $P(A)=\frac{k}{n}=\frac{n(A)}{n(\Omega)}$.
+> **Definition 10.1.15** (Classical Definition of Probability) <br>In general, let experiment $E$ be a classical probability model, the sample space $\Omega$ contain $n$ sample points, and event $A$ contain $k$ of them; then the probability of event $A$ is defined as $P\left(A\right)=\frac{k}{n}=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
 
 > **Definition 10.1.13** (Complementary Events) <br>In general, if events $A$ and $B$ occur with exactly one of them in every trial, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary. The complementary event of $A$ is denoted $\bar A$.
 
-> **Property 10.1.19** (Probability of Complementary Events) <br>If events $A$ and $B$ are complementary, then $P(B)=1-P(A)$, $P(A)=1-P(B)$.
+> **Property 10.1.19** (Probability of Complementary Events) <br>If events $A$ and $B$ are complementary, then $P\left(B\right)=1-P\left(A\right)$, $P\left(A\right)=1-P\left(B\right)$.
 
-> **Definition 10.2.1** (Mutual Independence of Events) <br>For any two events $A$ and $B$, if $P(A\cap B)=P(A)P(B)$ holds, then events $A$ and $B$ are said to be mutually independent, shortened to independent.
+> **Definition 10.2.1** (Mutual Independence of Events) <br>For any two events $A$ and $B$, if $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ holds, then events $A$ and $B$ are said to be mutually independent, shortened to independent.
 
-> **Definition 10.3.1** (Stability of Frequency) <br>In general, as the number of trials $n$ increases, the amount by which the frequency deviates from the probability shrinks; that is, the frequency $f_n(A)$ of event $A$ occurring gradually stabilizes around the probability $P(A)$ of event $A$ occurring. We call this property of frequency the stability of frequency. Therefore, we can use the frequency $f_n(A)$ to estimate the probability $P(A)$.
+> **Definition 10.3.1** (Stability of Frequency) <br>In general, as the number of trials $n$ increases, the amount by which the frequency deviates from the probability shrinks; that is, the frequency $f_n\left(A\right)$ of event $A$ occurring gradually stabilizes around the probability $P\left(A\right)$ of event $A$ occurring. We call this property of frequency the stability of frequency. Therefore, we can use the frequency $f_n\left(A\right)$ to estimate the probability $P\left(A\right)$.
 
 > **Definition 10.3.2** (Random Simulation) <br>We can construct corresponding random-number simulation experiments from different random experiments, thus quickly carrying out a large number of repeated trials. We call the method of solving problems using random simulation the Monte Carlo method.
 
@@ -44,11 +44,11 @@ By **Definition 10.3.1** (Stability of Frequency), frequency is an approximation
 
 ### Solution to Exercise 2
 
-By **Definition 10.1.15** (Classical Definition of Probability), tossing two coins gives $4$ equally likely sample points: $(1,1), (1,0), (0,1), (0,0)$.
+By **Definition 10.1.15** (Classical Definition of Probability), tossing two coins gives $4$ equally likely sample points: $\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)$.
 
-The event that A wins is "both heads or both tails", i.e. $(1,1)$ or $(0,0)$, giving $2$ sample points, so $P(\text{甲胜})=\frac{2}{4}=\frac{1}{2}$.
+The event that A wins is "both heads or both tails", i.e. $\left(1,1\right)$ or $\left(0,0\right)$, giving $2$ sample points, so $P\left(\text{甲胜}\right)=\frac{2}{4}=\frac{1}{2}$.
 
-The event that B wins is "one heads and one tails", i.e. $(1,0)$ or $(0,1)$, giving $2$ sample points, so $P(\text{乙胜})=\frac{2}{4}=\frac{1}{2}$.
+The event that B wins is "one heads and one tails", i.e. $\left(1,0\right)$ or $\left(0,1\right)$, giving $2$ sample points, so $P\left(\text{乙胜}\right)=\frac{2}{4}=\frac{1}{2}$.
 
 The probabilities of A winning and B winning are equal, so this game is fair. $\blacksquare$
 
@@ -106,10 +106,10 @@ Example of a very small probability: buying one sports lottery ticket has a very
 (1) By **Definition 10.1.15** (Classical Definition of Probability), tossing a coin $4$ times gives $2^4=16$ equally likely outcomes. Exactly two heads means choosing $2$ of the $4$ tosses to be heads, giving $\binom{4}{2}=6$ ways, so
 
 $$
-P(A)=\frac{6}{16}=\frac{3}{8}=0.375.
+P\left(A\right)=\frac{6}{16}=\frac{3}{8}=0.375.
 $$
 
-(2) By **Definition 10.3.2** (Random Simulation), use a calculator or computer to generate $0, 1$ random numbers, with $1$ for heads and $0$ for tails; each group of $4$ random numbers represents one simulated trial. Repeat $80$ times, count the groups in which exactly $2$ entries equal $1$, denoted $n_A$; then the frequency of event $A$ occurring is $f_{80}(A)=\frac{n_A}{80}$. By **Definition 10.3.1** (Stability of Frequency), this frequency should fluctuate around $0.375$. $\blacksquare$
+(2) By **Definition 10.3.2** (Random Simulation), use a calculator or computer to generate $0, 1$ random numbers, with $1$ for heads and $0$ for tails; each group of $4$ random numbers represents one simulated trial. Repeat $80$ times, count the groups in which exactly $2$ entries equal $1$, denoted $n_A$; then the frequency of event $A$ occurring is $f_{80}\left(A\right)=\frac{n_A}{80}$. By **Definition 10.3.1** (Stability of Frequency), this frequency should fluctuate around $0.375$. $\blacksquare$
 
 ### Exercise 6
 
@@ -129,11 +129,11 @@ By **Definition 10.1.6** (Certain Event) and **Definition 10.1.7** (Impossible E
 
 (1) There are no yellow balls in the box, so "the ball drawn is yellow" cannot occur; it is an impossible event. By **Property 10.1.17** (Probability of the Certain and Impossible Events), its probability is $0$.
 
-(2) The box contains white and black balls, so "the ball drawn is white" may or may not occur; it is a random event. By **Definition 10.1.15** (Classical Definition of Probability), there are $9$ balls in total, of which $4$ are white, so $P(A)=\frac{4}{9}$.
+(2) The box contains white and black balls, so "the ball drawn is white" may or may not occur; it is a random event. By **Definition 10.1.15** (Classical Definition of Probability), there are $9$ balls in total, of which $4$ are white, so $P\left(A\right)=\frac{4}{9}$.
 
 (3) The box contains only white and black balls, so "the ball drawn is white or black" always occurs; it is a certain event, with probability $1$.
 
-(4) By **Definition 10.3.2** (Random Simulation), use a calculator or computer to generate random numbers taking values in the set $\{1, 2, \cdots, 9\}$; use $1, 2, 3, 4$ for white balls and $5, 6, 7, 8, 9$ for black balls. Each random number generated completes one simulated draw; repeat $100$ times, count the occurrences of $1, 2, 3, 4$, denoted $n_A$; then the frequency $f_{100}(A)=\frac{n_A}{100}$ is the estimated value of the probability of "drawing a white ball". By **Definition 10.3.1** (Stability of Frequency), this frequency should be around $\frac{4}{9}\approx 0.444$. $\blacksquare$
+(4) By **Definition 10.3.2** (Random Simulation), use a calculator or computer to generate random numbers taking values in the set $\left\{1, 2, \cdots, 9\right\}$; use $1, 2, 3, 4$ for white balls and $5, 6, 7, 8, 9$ for black balls. Each random number generated completes one simulated draw; repeat $100$ times, count the occurrences of $1, 2, 3, 4$, denoted $n_A$; then the frequency $f_{100}\left(A\right)=\frac{n_A}{100}$ is the estimated value of the probability of "drawing a white ball". By **Definition 10.3.1** (Stability of Frequency), this frequency should be around $\frac{4}{9}\approx 0.444$. $\blacksquare$
 
 ### Exercise 7
 
@@ -145,13 +145,13 @@ By **Definition 10.1.6** (Certain Event) and **Definition 10.1.7** (Impossible E
 
 ### Solution to Exercise 7
 
-(1) By **Definition 10.1.15** (Classical Definition of Probability), tossing two dice gives $36$ equally likely sample points. The sample points with sum $7$ are $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$, totaling $6$, so
+(1) By **Definition 10.1.15** (Classical Definition of Probability), tossing two dice gives $36$ equally likely sample points. The sample points with sum $7$ are $\left(1,6\right), \left(2,5\right), \left(3,4\right), \left(4,3\right), \left(5,2\right), \left(6,1\right)$, totaling $6$, so
 
 $$
-P(A)=\frac{6}{36}=\frac{1}{6}\approx 0.167.
+P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx 0.167.
 $$
 
-(2) By **Definition 10.3.2** (Random Simulation), use a calculator or computer to generate random numbers from $1$ to $6$ simulating each die's number; each pair of random numbers forms a group, repeat $120$ times, and count the occurrences of sum $7$, denoted $n_A$; then the frequency is $f_{120}(A)=\frac{n_A}{120}$.
+(2) By **Definition 10.3.2** (Random Simulation), use a calculator or computer to generate random numbers from $1$ to $6$ simulating each die's number; each pair of random numbers forms a group, repeat $120$ times, and count the occurrences of sum $7$, denoted $n_A$; then the frequency is $f_{120}\left(A\right)=\frac{n_A}{120}$.
 
 (3) By **Definition 10.3.1** (Stability of Frequency), with $120$ trials there may be some difference between the frequency and the probability, because frequency is random. But as the number of trials increases, the frequency gradually stabilizes around the probability $\frac{1}{6}$. $\blacksquare$
 
@@ -190,7 +190,7 @@ By **Definition 10.3.1** (Stability of Frequency), use the frequency with which 
 The frequency count of the face marked $3$ landing on the table is $21$, and the total number of trials is $100$, so the frequency is
 
 $$
-f_{100}(A)=\frac{21}{100}=0.21.
+f_{100}\left(A\right)=\frac{21}{100}=0.21.
 $$
 
 Therefore, tossing it once more, the estimated probability that the face marked $3$ lands on the table is $0.21$. $\blacksquare$
@@ -238,7 +238,7 @@ Parents of genotypes $I^AI^A\times I^BI^B$: the father can only pass on $I^A$ an
 
 ### Problem 5
 
-(Exercise 10.3, Comprehensive Application, Problem 5) "Using the frequency $f_n(A)$ of event $A$ to estimate the probability $P(A)$, the larger the number $n$ of repeated trials, the more precise the estimate." Determine whether this statement is correct, and give an example.
+(Exercise 10.3, Comprehensive Application, Problem 5) "Using the frequency $f_n\left(A\right)$ of event $A$ to estimate the probability $P\left(A\right)$, the larger the number $n$ of repeated trials, the more precise the estimate." Determine whether this statement is correct, and give an example.
 
 ### Solution to Problem 5
 
@@ -256,17 +256,17 @@ The statement is not entirely correct. Although in general the more trials the m
 
 | Frequency | With replacement | Without replacement |
 |---|---|---|
-| $f_{10}(A_1)$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $f_{10}(A_2)$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $f_{10}(A_3)$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $f_{10}\left(A_1\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $f_{10}\left(A_2\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $f_{10}\left(A_3\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
-(3) Under the two drawing methods, is there a large difference in the frequency $f_{10}(A_3)$ of the $3$rd draw being red? Under without-replacement drawing, is there a large difference among the frequencies of events $A_1, A_2, A_3$? Explain why.
+(3) Under the two drawing methods, is there a large difference in the frequency $f_{10}\left(A_3\right)$ of the $3$rd draw being red? Under without-replacement drawing, is there a large difference among the frequencies of events $A_1, A_2, A_3$? Explain why.
 
 ### Solution to Problem 6
 
-(1) With replacement: the composition of balls in the bag is unchanged each draw ($6$ white, $4$ red), so the probability of drawing red each time is $\frac{4}{10}=0.4$, i.e. $P(A_1)=P(A_2)=P(A_3)=0.4$.
+(1) With replacement: the composition of balls in the bag is unchanged each draw ($6$ white, $4$ red), so the probability of drawing red each time is $\frac{4}{10}=0.4$, i.e. $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
 
-Without replacement: the number of balls in the bag decreases after each draw, and the probability of drawing red changes with the number of draws. The probability that the first draw is red is $\frac{4}{10}=0.4$; if the first draw is red, the probability that the second draw is red is $\frac{3}{9}=\frac{1}{3}$, and if the first draw is white, the probability that the second draw is red is $\frac{4}{9}$. By the law of total probability, the probability that the second draw is red is still $\frac{4}{10}=0.4$, and the third is the same. Hence under both methods $P(A_1)=P(A_2)=P(A_3)=0.4$.
+Without replacement: the number of balls in the bag decreases after each draw, and the probability of drawing red changes with the number of draws. The probability that the first draw is red is $\frac{4}{10}=0.4$; if the first draw is red, the probability that the second draw is red is $\frac{3}{9}=\frac{1}{3}$, and if the first draw is white, the probability that the second draw is red is $\frac{4}{9}$. By the law of total probability, the probability that the second draw is red is still $\frac{4}{10}=0.4$, and the third is the same. Hence under both methods $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
 
 (2) By **Definition 10.3.2** (Random Simulation), use a calculator or computer to generate random numbers from $1$ to $10$; $1$ to $4$ represent red balls and $5$ to $10$ represent white balls. With replacement, each draw generates an independent random number; without replacement, each group of $3$ random numbers has no repeats. Repeat $10$ times and tally the frequencies of drawing red each time. The frequencies differ due to randomness, but should be around $0.4$.
 
@@ -282,6 +282,6 @@ Without replacement: the number of balls in the bag decreases after each draw, a
 
 ### Solution to Reading and Thinking 1
 
-(1) By **Definition 10.3.1** (Stability of Frequency), Mendel observed that in a large number of repeated trials, the frequency of green-cotyledon peas appearing in the second generation stabilized around $0.25$ ($0.2494$ is very close to $0.25$). Meanwhile, from the analysis of the inheritance mechanism, the first-generation hereditary factors are $Dd$, and the second generation inherits one factor at random from each parent; the genotypes are the four equally likely combinations $DD, Dd, dD, dd$, of which only $dd$ appears green, accounting for $\frac{1}{4}=0.25$. The stability of the frequency matches the probabilistic inference of the inheritance mechanism, so Mendel conjectured $P(A)=0.25$.
+(1) By **Definition 10.3.1** (Stability of Frequency), Mendel observed that in a large number of repeated trials, the frequency of green-cotyledon peas appearing in the second generation stabilized around $0.25$ ($0.2494$ is very close to $0.25$). Meanwhile, from the analysis of the inheritance mechanism, the first-generation hereditary factors are $Dd$, and the second generation inherits one factor at random from each parent; the genotypes are the four equally likely combinations $DD, Dd, dD, dd$, of which only $dd$ appears green, accounting for $\frac{1}{4}=0.25$. The stability of the frequency matches the probabilistic inference of the inheritance mechanism, so Mendel conjectured $P\left(A\right)=0.25$.
 
 (2) By **Definition 10.3.1** (Stability of Frequency), the way to verify a theoretical probability model is: conduct a large number of repeated trials, compute the frequency of the random event occurring, and observe whether the frequency stabilizes around the probability given by the theoretical model. If in a large number of trials the frequency of the event occurring is close to the theoretical probability, then the model can be considered fairly reliable; if the frequency differs greatly from the theoretical probability, then the model may be incorrect and needs revision. $\blacksquare$

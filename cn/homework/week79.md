@@ -163,11 +163,11 @@ $$
 
 ### 习题七
 
-(复习参考题 5 复习巩固第 7 题) 求函数 $f\left(x\right)=\sqrt[3]{x^{2}}$ 的单调区间.
+(复习参考题 5 复习巩固第 7 题) 求函数 $f\left(x\right)=\sqrt\left[3\right]{x^{2}}$ 的单调区间.
 
 ### 解答 习题七
 
-由**定义 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt[3]{x}}$.
+由**定义 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
 当 $x>0$ 时 $f'\left(x\right)>0$; 当 $x<0$ 时 $f'\left(x\right)<0$.
 

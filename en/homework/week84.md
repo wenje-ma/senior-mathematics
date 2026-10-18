@@ -1,12 +1,12 @@
 # Assignment 84
 
-> **Definition 7.2.1** (Random Variable) <br>In general, for each sample point $\omega$ in the sample space $\Omega$ of a random experiment, there is a unique real number $X(\omega)$ corresponding to it; we call $X$ a random variable. Random variables are usually denoted by capital letters $X$, $Y$, $Z$, and their values by lowercase letters $x$, $y$, $z$.
+> **Definition 7.2.1** (Random Variable) <br>In general, for each sample point $\omega$ in the sample space $\Omega$ of a random experiment, there is a unique real number $X\left(\omega\right)$ corresponding to it; we call $X$ a random variable. Random variables are usually denoted by capital letters $X$, $Y$, $Z$, and their values by lowercase letters $x$, $y$, $z$.
 
 > **Definition 7.2.2** (Discrete Random Variable) <br>A random variable whose possible values are finite in number or can be listed one by one is called a discrete random variable.
 
-> **Definition 7.2.3** (Probability Distribution) <br>Let the possible values of a discrete random variable $X$ be $x_1$, $x_2$, $\cdots$, $x_n$. We call $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$ the probability distribution of $X$, abbreviated as the distribution. It has two properties: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
+> **Definition 7.2.3** (Probability Distribution) <br>Let the possible values of a discrete random variable $X$ be $x_1$, $x_2$, $\cdots$, $x_n$. We call $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$ the probability distribution of $X$, abbreviated as the distribution. It has two properties: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
 
-> **Definition 7.2.4** (Two-point Distribution) <br>For a random experiment with only two possible outcomes, let $A$ denote "success" and $\bar A$ denote "failure". Define $X=1$ to mean that $A$ occurs and $X=0$ to mean that $\bar A$ occurs. If $\mathbb P(A)=p$, then $\mathbb P(\bar A)=1-p$. We say that $X$ follows a two-point distribution or a $0-1$ distribution.
+> **Definition 7.2.4** (Two-point Distribution) <br>For a random experiment with only two possible outcomes, let $A$ denote "success" and $\bar A$ denote "failure". Define $X=1$ to mean that $A$ occurs and $X=0$ to mean that $\bar A$ occurs. If $\mathbb P\left(A\right)=p$, then $\mathbb P\left(\bar A\right)=1-p$. We say that $X$ follows a two-point distribution or a $0-1$ distribution.
 
 ### Exercise 1
 
@@ -48,7 +48,7 @@ By **Definition 7.2.2** (Discrete Random Variable), judge whether the values can
 
 By **Definition 7.2.4** (Two-point Distribution), one free throw has only two outcomes: hit or miss.
 
-Let $X$ be the score of one free throw. Then the possible values of $X$ are $0,1$, and $\mathbb P(X=1)=0.7$, $\mathbb P(X=0)=1-0.7=0.3$. Thus the distribution of $X$ is
+Let $X$ be the score of one free throw. Then the possible values of $X$ are $0,1$, and $\mathbb P\left(X=1\right)=0.7$, $\mathbb P\left(X=0\right)=1-0.7=0.3$. Thus the distribution of $X$ is
 
 | $X$ | 0 | 1 |
 |---|---|---|
@@ -64,18 +64,18 @@ $\blacksquare$
 
 By **Definition 7.2.3** (Probability Distribution), first determine the possible values of $X$, then use the classical model to find the probability of each value.
 
-Tossing the coin 2 times, the possible values of the number of heads $X$ are $0,1,2$. The sample space is $\{正正, 正反, 反正, 反反\}$, with 4 equally likely sample points.
+Tossing the coin 2 times, the possible values of the number of heads $X$ are $0,1,2$. The sample space is $\left\{正正, 正反, 反正, 反反\right\}$, with 4 equally likely sample points.
 
 $$
-\mathbb P(X=0)=\mathbb P(\text{反反})=\frac{1}{4}.
-$$
-
-$$
-\mathbb P(X=1)=\frac{2}{4}=\frac{1}{2}.
+\mathbb P\left(X=0\right)=\mathbb P\left(\text{反反}\right)=\frac{1}{4}.
 $$
 
 $$
-\mathbb P(X=2)=\mathbb P(\text{正正})=\frac{1}{4}.
+\mathbb P\left(X=1\right)=\frac{2}{4}=\frac{1}{2}.
+$$
+
+$$
+\mathbb P\left(X=2\right)=\mathbb P\left(\text{正正}\right)=\frac{1}{4}.
 $$
 
 Thus the distribution of $X$ is
@@ -101,7 +101,7 @@ By **Definition 7.2.1** (Random Variable) and **Definition 7.2.2** (Discrete Ran
 (1) Let encountering a red light at an intersection be denoted by $R$ and a green light by $G$. The 4 intersections give $2^4=16$ sample points, and the sample space is
 
 $$
-\Omega=\{RRRR, RRRG, RRGR, \cdots, GGGG\}.
+\Omega=\left\{RRRR, RRRG, RRGR, \cdots, GGGG\right\}.
 $$
 
 (2) $X$ is the number of red lights encountered; its possible values are $0,1,2,3,4$, where $X=k$ ($k=0,1,2,3,4$) means exactly $k$ red lights are encountered when passing through the 4 intersections. $\blacksquare$
@@ -141,7 +141,7 @@ The time taken to run $1\,\mathrm{km}$ can take any real number in some interval
 If we only care whether the student achieves an excellent result, we can define the random variable
 
 $$
-Y=\begin{cases}1, & \text{成绩优秀 (时间不超过 }4\,\mathrm{min}),\\0, & \text{成绩不优秀}.\end{cases}
+Y=\begin{cases}1, & \text{成绩优秀 \left(时间不超过 }4\,\mathrm{min}\right),\\0, & \text{成绩不优秀}.\end{cases}
 $$
 
 Then $Y$ has only two possible values $0,1$ and follows a two-point distribution. $\blacksquare$
@@ -158,10 +158,10 @@ If hitting 9 rings or 10 rings is excellent, what is the probability that his sc
 
 ### Solution to Problem 4
 
-By **Definition 7.2.3** (Probability Distribution), the event "excellent score" is $\{X=9\}\cup\{X=10\}$; use the addition formula for probability.
+By **Definition 7.2.3** (Probability Distribution), the event "excellent score" is $\left\{X=9\right\}\cup\left\{X=10\right\}$; use the addition formula for probability.
 
 $$
-\mathbb P(\text{优秀})=\mathbb P(X=9)+\mathbb P(X=10)=0.35+0.20=0.55.
+\mathbb P\left(\text{优秀}\right)=\mathbb P\left(X=9\right)+\mathbb P\left(X=10\right)=0.35+0.20=0.55.
 $$
 
 Thus the probability that his score in one shot is excellent is 0.55. $\blacksquare$
@@ -181,19 +181,19 @@ By **Definition 7.2.3** (Probability Distribution), use the classical model to c
 Let $X$ be the number of chosen texts he can recite. Choosing 3 texts from 10, the sample space has $\binom{10}{3}$ equally likely sample points. Of the 10 texts, he can recite 6 and cannot recite 4. The possible values of $X$ are $0,1,2,3$.
 
 $$
-\mathbb P(X=0)=\frac{\binom{6}{0} \binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
+\mathbb P\left(X=0\right)=\frac{\binom{6}{0} \binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
 $$
 
 $$
-\mathbb P(X=1)=\frac{\binom{6}{1} \binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
+\mathbb P\left(X=1\right)=\frac{\binom{6}{1} \binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
 $$
 
 $$
-\mathbb P(X=2)=\frac{\binom{6}{2} \binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
+\mathbb P\left(X=2\right)=\frac{\binom{6}{2} \binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
 $$
 
 $$
-\mathbb P(X=3)=\frac{\binom{6}{3} \binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
+\mathbb P\left(X=3\right)=\frac{\binom{6}{3} \binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
 $$
 
 (1) The distribution of $X$ is
@@ -202,10 +202,10 @@ $$
 |---|---|---|---|---|
 | $P$ | $\frac{1}{30}$ | $\frac{3}{10}$ | $\frac{1}{2}$ | $\frac{1}{6}$ |
 
-(2) To pass one must recite at least 2 texts, i.e. the event $\{X\ge 2\}$. Thus
+(2) To pass one must recite at least 2 texts, i.e. the event $\left\{X\ge 2\right\}$. Thus
 
 $$
-\mathbb P(\text{及格})=\mathbb P(X=2)+\mathbb P(X=3)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
+\mathbb P\left(\text{及格}\right)=\mathbb P\left(X=2\right)+\mathbb P\left(X=3\right)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
 $$
 
 $\blacksquare$
@@ -225,15 +225,15 @@ By **Definition 7.2.3** (Probability Distribution) and the multiplication formul
 Let $X$ be the number of attempts Li Ming makes within one year. He stops once he passes, so: $X=1$ means passing on the 1st attempt; $X=2$ means failing the 1st and passing the 2nd; $X=3$ means failing both of the first 2 (regardless of whether the 3rd is passed).
 
 $$
-\mathbb P(X=1)=0.6.
+\mathbb P\left(X=1\right)=0.6.
 $$
 
 $$
-\mathbb P(X=2)=(1-0.6)\times 0.7=0.4\times 0.7=0.28.
+\mathbb P\left(X=2\right)=\left(1-0.6\right)\times 0.7=0.4\times 0.7=0.28.
 $$
 
 $$
-\mathbb P(X=3)=(1-0.6)\times(1-0.7)=0.4\times 0.3=0.12.
+\mathbb P\left(X=3\right)=\left(1-0.6\right)\times\left(1-0.7\right)=0.4\times 0.3=0.12.
 $$
 
 (1) The distribution of $X$ is
@@ -245,7 +245,7 @@ $$
 (2) Obtaining the certificate means passing at least once, whose complementary event is failing all three. The probability of failing all three is $0.4\times 0.3\times 0.2=0.024$, so
 
 $$
-\mathbb P(\text{领到证书})=1-0.024=0.976.
+\mathbb P\left(\text{领到证书}\right)=1-0.024=0.976.
 $$
 
 $\blacksquare$

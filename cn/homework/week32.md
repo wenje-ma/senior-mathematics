@@ -4,15 +4,15 @@
 
 > **定义 6.2.2** (向量加法的平行四边形法则) <br>以同一点 $O$ 为起点的两个已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 以 $OA$, $OB$ 为邻边作 $\square OACB$, 则以 $O$ 为起点的向量 $\boldsymbol{OC}$ 就是 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和.
 
-> **常用结论 6.2.3** (向量加法的运算律与三角不等式) <br>$\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; $(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c})$; $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$, 当且仅当 $\boldsymbol{a}$, $\boldsymbol{b}$ 中有一个是零向量或方向相同时等号成立.
+> **常用结论 6.2.3** (向量加法的运算律与三角不等式) <br>$\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; $\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right)$; $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$, 当且仅当 $\boldsymbol{a}$, $\boldsymbol{b}$ 中有一个是零向量或方向相同时等号成立.
 
-> **定义 6.2.4** (相反向量) <br>与向量 $\boldsymbol{a}$ 长度相等, 方向相反的向量叫做 $\boldsymbol{a}$ 的相反向量, 记作 $-\boldsymbol{a}$. 零向量的相反向量仍是零向量. $\boldsymbol{a}+(-\boldsymbol{a})=\boldsymbol{0}$.
+> **定义 6.2.4** (相反向量) <br>与向量 $\boldsymbol{a}$ 长度相等, 方向相反的向量叫做 $\boldsymbol{a}$ 的相反向量, 记作 $-\boldsymbol{a}$. 零向量的相反向量仍是零向量. $\boldsymbol{a}+\left(-\boldsymbol{a}\right)=\boldsymbol{0}$.
 
-> **定义 6.2.5** (向量的减法) <br>向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
+> **定义 6.2.5** (向量的减法) <br>向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
 > **定义 6.2.6** (向量的数乘) <br>实数 $\lambda$ 与向量 $\boldsymbol{a}$ 的积是一个向量, 记作 $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; 当 $\lambda>0$ 时, $\lambda\boldsymbol{a}$ 的方向与 $\boldsymbol{a}$ 相同; 当 $\lambda<0$ 时, 方向相反.
 
-> **常用结论 6.2.7** (数乘的运算律) <br>$\lambda(\mu\boldsymbol{a})=(\lambda\mu)\boldsymbol{a}$; $(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$; $\lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
+> **常用结论 6.2.7** (数乘的运算律) <br>$\lambda\left(\mu\boldsymbol{a}\right)=\left(\lambda\mu\right)\boldsymbol{a}$; $\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$; $\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
 
 > **定理 6.2.8** (共线向量定理) <br>向量 $\boldsymbol{a}$ ($\boldsymbol{a}\neq\boldsymbol{0}$) 与 $\boldsymbol{b}$ 共线的充要条件是: 存在唯一一个实数 $\lambda$, 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
@@ -26,7 +26,7 @@
 
 > **常用结论 6.2.13** (数量积的性质) <br>$\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$; 同向时 $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$, 反向时 $\boldsymbol{a}\cdot\boldsymbol{b}=-\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$; $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$; $\lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$.
 
-> **常用结论 6.2.14** (数量积的运算律) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$; $(\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
+> **常用结论 6.2.14** (数量积的运算律) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$; $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
 
 ### 练习一
 
@@ -96,7 +96,7 @@
 
 设船速为 $\boldsymbol{v}_1$, $\lvert\boldsymbol{v}_1\rvert=15$, 方向北偏西 $30^{\circ}$; 水速为 $\boldsymbol{v}_2$, $\lvert\boldsymbol{v}_2\rvert=7.5$, 方向向东.
 
-将两速度分解为东向 $(x)$ 和北向 $(y)$ 分量:
+将两速度分解为东向 $\left(x\right)$ 和北向 $\left(y\right)$ 分量:
 
 $$
 v_{1x}=-15\sin30^{\circ}=-7.5,\quad v_{1y}=15\cos30^{\circ}=\frac{15\sqrt 3}{2}.
@@ -116,7 +116,7 @@ $$
 
 ### 解答 练习六
 
-由**定义 6.2.5** (向量的减法), $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$. 将 $\boldsymbol{b}$ 反向后与 $\boldsymbol{a}$ 用三角形法则相加, 或从同一起点作 $\boldsymbol{a}$, $\boldsymbol{b}$, 则从 $\boldsymbol{b}$ 的终点指向 $\boldsymbol{a}$ 的终点的向量即为 $\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
+由**定义 6.2.5** (向量的减法), $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$. 将 $\boldsymbol{b}$ 反向后与 $\boldsymbol{a}$ 用三角形法则相加, 或从同一起点作 $\boldsymbol{a}$, $\boldsymbol{b}$, 则从 $\boldsymbol{b}$ 的终点指向 $\boldsymbol{a}$ 的终点的向量即为 $\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
 ### 练习七
 
@@ -132,7 +132,7 @@ $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{
 
 ### 练习八
 
-(练习 6.2 第 8 题) 作图验证: $-(\boldsymbol{a}+\boldsymbol{b})=-\boldsymbol{a}-\boldsymbol{b}$.
+(练习 6.2 第 8 题) 作图验证: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
 
 ![week32-4.svg](../../figures/week32-4.svg){width=50%}
 
@@ -140,7 +140,7 @@ $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{
 
 由**定义 6.2.4** (相反向量) 与**定义 6.2.5** (向量的减法).
 
-先作 $\boldsymbol{a}+\boldsymbol{b}$, 再作其相反向量 $-(\boldsymbol{a}+\boldsymbol{b})$. 另一方面, 分别作 $-\boldsymbol{a}$ 和 $-\boldsymbol{b}$, 再用三角形法则相加. 由作图可见两结果重合, 故 $-(\boldsymbol{a}+\boldsymbol{b})=-\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
+先作 $\boldsymbol{a}+\boldsymbol{b}$, 再作其相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$. 另一方面, 分别作 $-\boldsymbol{a}$ 和 $-\boldsymbol{b}$, 再用三角形法则相加. 由作图可见两结果重合, 故 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
 ### 练习九
 
@@ -176,9 +176,9 @@ $AC:CB=5:2$, 故 $AC=\frac{5}{7}AB$, $CB=\frac{2}{7}AB$, 方向与 $\boldsymbol{
 
 由**定义 6.2.6** (向量的数乘).
 
-(1) $\boldsymbol{b}=6\boldsymbol{e}=2\cdot(3\boldsymbol{e})=2\boldsymbol{a}$.
+(1) $\boldsymbol{b}=6\boldsymbol{e}=2\cdot\left(3\boldsymbol{e}\right)=2\boldsymbol{a}$.
 
-(2) $\boldsymbol{b}=-14\boldsymbol{e}=-\frac{14}{8}\cdot(8\boldsymbol{e})=-\frac{7}{4}\boldsymbol{a}$.
+(2) $\boldsymbol{b}=-14\boldsymbol{e}=-\frac{14}{8}\cdot\left(8\boldsymbol{e}\right)=-\frac{7}{4}\boldsymbol{a}$.
 
 (3) $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}=-\frac{1}{2}\cdot\left(-\frac{2}{3}\boldsymbol{e}\right)=-\frac{1}{2}\boldsymbol{a}$.
 
@@ -196,19 +196,19 @@ $AC:CB=5:2$, 故 $AC=\frac{5}{7}AB$, $CB=\frac{2}{7}AB$, 方向与 $\boldsymbol{
 
 由**定理 6.2.8** (共线向量定理), 存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$ 则共线.
 
-(1) $\boldsymbol{b}=2\boldsymbol{e}=-(-2\boldsymbol{e})=-\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线.
+(1) $\boldsymbol{b}=2\boldsymbol{e}=-\left(-2\boldsymbol{e}\right)=-\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线.
 
-(2) $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2=-2(\boldsymbol{e}_1-\boldsymbol{e}_2)=-2\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线. $\blacksquare$
+(2) $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2=-2\left(\boldsymbol{e}_1-\boldsymbol{e}_2\right)=-2\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线. $\blacksquare$
 
 ### 练习十三
 
 (练习 6.2 第 13 题) 化简.
 
-(1) $5(3\boldsymbol{a}-2\boldsymbol{b})+4(2\boldsymbol{b}-3\boldsymbol{a})$;
+(1) $5\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
 
-(2) $\frac{1}{3}(\boldsymbol{a}-2\boldsymbol{b})-\frac{1}{4}(3\boldsymbol{a}-2\boldsymbol{b})-\frac{1}{2}(\boldsymbol{a}-\boldsymbol{b})$;
+(2) $\frac{1}{3}\left(\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{4}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
 
-(3) $(x+y)\boldsymbol{a}-(x-y)\boldsymbol{a}$.
+(3) $\left(x+y\right)\boldsymbol{a}-\left(x-y\right)\boldsymbol{a}$.
 
 ### 解答 练习十三
 
@@ -218,7 +218,7 @@ $AC:CB=5:2$, 故 $AC=\frac{5}{7}AB$, $CB=\frac{2}{7}AB$, 方向与 $\boldsymbol{
 
 (2) 原式 $=\frac{1}{3}\boldsymbol{a}-\frac{2}{3}\boldsymbol{b}-\frac{3}{4}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(\frac{1}{3}-\frac{3}{4}-\frac{1}{2}\right)\boldsymbol{a}+\left(-\frac{2}{3}+\frac{1}{2}+\frac{1}{2}\right)\boldsymbol{b}=-\frac{11}{12}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
 
-(3) 原式 $=(x+y-x+y)\boldsymbol{a}=2y\boldsymbol{a}$. $\blacksquare$
+(3) 原式 $=\left(x+y-x+y\right)\boldsymbol{a}=2y\boldsymbol{a}$. $\blacksquare$
 
 ### 练习十四
 
@@ -228,7 +228,7 @@ $AC:CB=5:2$, 故 $AC=\frac{5}{7}AB$, $CB=\frac{2}{7}AB$, 方向与 $\boldsymbol{
 
 由**定理 6.2.8** (共线向量定理), 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-$2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda(\boldsymbol{e}_1-2\boldsymbol{e}_2)=\lambda\boldsymbol{e}_1-2\lambda\boldsymbol{e}_2$.
+$2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{e}_2\right)=\lambda\boldsymbol{e}_1-2\lambda\boldsymbol{e}_2$.
 
 比较系数: $2=\lambda$, $k=-2\lambda=-4$. 故 $k=-4$. $\blacksquare$
 
@@ -270,17 +270,17 @@ $\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e
 
 (练习 6.2 第 18 题) 已知 $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=2$, $\lvert\boldsymbol{c}\rvert=3$, 向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $\frac{\pi}{6}$, 向量 $\boldsymbol{b}$ 与 $\boldsymbol{c}$ 的夹角为 $\frac{\pi}{4}$, 计算:
 
-(1) $(\boldsymbol{a}\cdot\boldsymbol{b})\boldsymbol{c}$;
+(1) $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}$;
 
-(2) $\boldsymbol{a}(\boldsymbol{b}\cdot\boldsymbol{c})$.
+(2) $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)$.
 
 ### 解答 练习十八
 
 由**定义 6.2.11** (数量积).
 
-(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. 故 $(\boldsymbol{a}\cdot\boldsymbol{b})\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. 故 $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
 
-(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. 故 $\boldsymbol{a}(\boldsymbol{b}\cdot\boldsymbol{c})=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
+(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. 故 $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
 
 ### 练习十九
 
@@ -290,23 +290,23 @@ $\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e
 
 由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
-$(\boldsymbol{a}-\boldsymbol{b})\cdot(\boldsymbol{a}+2\boldsymbol{b})=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=0$.
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+2\boldsymbol{b}\right)=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=0$.
 
 代入 $\lvert\boldsymbol{a}\rvert^2=2$, $\lvert\boldsymbol{b}\rvert^2=1$, 得 $2+\boldsymbol{a}\cdot\boldsymbol{b}-2=0$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=0$. 故 $\boldsymbol{a}\perp\boldsymbol{b}$. $\blacksquare$
 
 ### 练习二十
 
-(练习 6.2 第 20 题) 求证: $(\boldsymbol{a}+\boldsymbol{b})^2-(\boldsymbol{a}-\boldsymbol{b})^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
+(练习 6.2 第 20 题) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
 
 ### 解答 练习二十
 
 由**常用结论 6.2.14** (数量积的运算律).
 
-$(\boldsymbol{a}+\boldsymbol{b})^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
 
-$(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
 
-两式相减得 $(\boldsymbol{a}+\boldsymbol{b})^2-(\boldsymbol{a}-\boldsymbol{b})^2=4\boldsymbol{a}\cdot\boldsymbol{b}$. $\blacksquare$
+两式相减得 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$. $\blacksquare$
 
 ### 习题一
 
@@ -356,7 +356,7 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 (1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
 
-(2) $(\boldsymbol{AB}+\boldsymbol{MB})+\boldsymbol{BO}+\boldsymbol{OM}$;
+(2) $\left(\boldsymbol{AB}+\boldsymbol{MB}\right)+\boldsymbol{BO}+\boldsymbol{OM}$;
 
 (3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}$;
 
@@ -374,9 +374,9 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 (1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 再加 $\boldsymbol{CA}$ 得 $\boldsymbol{0}$.
 
-(2) $\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}=\boldsymbol{AB}+(\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM})=\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BM}=\boldsymbol{AB}$.
+(2) $\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}=\boldsymbol{AB}+\left(\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}\right)=\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BM}=\boldsymbol{AB}$.
 
-(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}=(\boldsymbol{OA}+\boldsymbol{BO})+(\boldsymbol{OC}+\boldsymbol{CO})=\boldsymbol{OA}+\boldsymbol{BO}=\boldsymbol{BA}$.
+(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}=\left(\boldsymbol{OA}+\boldsymbol{BO}\right)+\left(\boldsymbol{OC}+\boldsymbol{CO}\right)=\boldsymbol{OA}+\boldsymbol{BO}=\boldsymbol{BA}$.
 
 (4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}=\boldsymbol{CB}+\boldsymbol{BD}+\boldsymbol{DC}=\boldsymbol{CB}+\boldsymbol{BC}=\boldsymbol{0}$.
 
@@ -390,9 +390,9 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 (习题 6.2 复习巩固第 5 题) 作图验证:
 
-(1) $\frac{1}{2}(\boldsymbol{a}+\boldsymbol{b})+\frac{1}{2}(\boldsymbol{a}-\boldsymbol{b})=\boldsymbol{a}$;
+(1) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)+\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}$;
 
-(2) $\frac{1}{2}(\boldsymbol{a}+\boldsymbol{b})-\frac{1}{2}(\boldsymbol{a}-\boldsymbol{b})=\boldsymbol{b}$.
+(2) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{b}$.
 
 ![week32-5.svg](../../figures/week32-5.svg){width=100%}
 
@@ -434,19 +434,19 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 (1) 略.
 
-(2) 由 $(\boldsymbol{a}+\boldsymbol{b})^2=(\boldsymbol{a}-\boldsymbol{b})^2$ 展开得 $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$. 故当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 垂直时满足. $\blacksquare$
+(2) 由 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}\right)^2$ 展开得 $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$. 故当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 垂直时满足. $\blacksquare$
 
 ### 习题八
 
 (习题 6.2 复习巩固第 8 题) 化简.
 
-(1) $5(2\boldsymbol{a}-2\boldsymbol{b})+4(2\boldsymbol{b}-3\boldsymbol{a})$;
+(1) $5\left(2\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
 
-(2) $6(\boldsymbol{a}-3\boldsymbol{b}+\boldsymbol{c})-4(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c})$;
+(2) $6\left(\boldsymbol{a}-3\boldsymbol{b}+\boldsymbol{c}\right)-4\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$;
 
-(3) $\frac{1}{2}(3\boldsymbol{a}-2\boldsymbol{b})+5\boldsymbol{a}-\frac{1}{3}(6\boldsymbol{a}-9\boldsymbol{b})$;
+(3) $\frac{1}{2}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+5\boldsymbol{a}-\frac{1}{3}\left(6\boldsymbol{a}-9\boldsymbol{b}\right)$;
 
-(4) $(x-y)(\boldsymbol{a}+\boldsymbol{b})-(x-y)(\boldsymbol{a}-\boldsymbol{b})$.
+(4) $\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(x-y\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
 
 ### 解答 习题八
 
@@ -458,7 +458,7 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 (3) 原式 $=\frac{3}{2}\boldsymbol{a}-\boldsymbol{b}+5\boldsymbol{a}-2\boldsymbol{a}+3\boldsymbol{b}=\frac{9}{2}\boldsymbol{a}+2\boldsymbol{b}$.
 
-(4) 原式 $=(x-y)(\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{a}+\boldsymbol{b})=2(x-y)\boldsymbol{b}$. $\blacksquare$
+(4) 原式 $=\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{a}+\boldsymbol{b}\right)=2\left(x-y\right)\boldsymbol{b}$. $\blacksquare$
 
 ### 习题九
 
@@ -470,7 +470,7 @@ $(\boldsymbol{a}-\boldsymbol{b})^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsym
 
 由**定理 6.2.8** (共线向量定理).
 
-$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\frac{1}{3}\boldsymbol{AB}=\frac{1}{3}(\boldsymbol{AC}-\boldsymbol{AB})=\frac{1}{3}\boldsymbol{BC}$. $\blacksquare$
+$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\frac{1}{3}\boldsymbol{AB}=\frac{1}{3}\left(\boldsymbol{AC}-\boldsymbol{AB}\right)=\frac{1}{3}\boldsymbol{BC}$. $\blacksquare$
 
 ### 习题十
 
@@ -484,7 +484,7 @@ $\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\fra
 
 由**常用结论 6.2.3** (三角不等式).
 
-(1) 同向时最大: $2+3=5$; 反向时最小: $|2-3|=1$.
+(1) 同向时最大: $2+3=5$; 反向时最小: $\left|2-3\right|=1$.
 
 (2) 当 $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$ 时, 平行四边形为菱形, 对角线平分夹角. $\blacksquare$
 
@@ -492,7 +492,7 @@ $\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\fra
 
 (习题 6.2 复习巩固第 11 题)
 
-(1) 已知 $\lvert\boldsymbol{a}\rvert=3$, $\lvert\boldsymbol{b}\rvert=4$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角 $\theta=150^{\circ}$, 求 $\boldsymbol{a}\cdot\boldsymbol{b}$, $(\boldsymbol{a}+\boldsymbol{b})^2$, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$;
+(1) 已知 $\lvert\boldsymbol{a}\rvert=3$, $\lvert\boldsymbol{b}\rvert=4$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角 $\theta=150^{\circ}$, 求 $\boldsymbol{a}\cdot\boldsymbol{b}$, $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2$, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$;
 
 (2) 已知 $\lvert\boldsymbol{a}\rvert=2$, $\lvert\boldsymbol{b}\rvert=5$, 且 $\boldsymbol{a}\cdot\boldsymbol{b}=-3$, 求 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$, $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$.
 
@@ -502,7 +502,7 @@ $\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\fra
 
 (1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt 3}{2}\right)=-6\sqrt 3$.
 
-$(\boldsymbol{a}+\boldsymbol{b})^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt 3+16=25-12\sqrt 3$.
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt 3+16=25-12\sqrt 3$.
 
 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt 3}$.
 
@@ -512,15 +512,15 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 ### 习题十二
 
-(习题 6.2 复习巩固第 12 题) 求证: $(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$.
+(习题 6.2 复习巩固第 12 题) 求证: $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$.
 
 ### 解答 习题十二
 
 由**定义 6.2.11** (数量积).
 
-$(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
+$\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
 
-$\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. 当 $\lambda<0$ 时夹角改变但余弦符号一致, 等式仍成立. 同理 $\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$ 相同. $\blacksquare$
+$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. 当 $\lambda<0$ 时夹角改变但余弦符号一致, 等式仍成立. 同理 $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ 相同. $\blacksquare$
 
 ### 习题十三
 
@@ -554,17 +554,17 @@ $\boldsymbol{AE}=\frac{1}{4}\boldsymbol{AC}=\frac{1}{4}\boldsymbol{b}$.
 
 $\boldsymbol{BC}=\boldsymbol{AC}-\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$.
 
-$\boldsymbol{DE}=\frac{1}{4}\boldsymbol{BC}=\frac{1}{4}(\boldsymbol{b}-\boldsymbol{a})$.
+$\boldsymbol{DE}=\frac{1}{4}\boldsymbol{BC}=\frac{1}{4}\left(\boldsymbol{b}-\boldsymbol{a}\right)$.
 
 $\boldsymbol{DB}=\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{a}-\frac{1}{4}\boldsymbol{a}=\frac{3}{4}\boldsymbol{a}$.
 
 $\boldsymbol{EC}=\boldsymbol{AC}-\boldsymbol{AE}=\boldsymbol{b}-\frac{1}{4}\boldsymbol{b}=\frac{3}{4}\boldsymbol{b}$.
 
-$N$ 为 $AM$ 与 $DE$ 的交点, $AM=\frac{1}{2}(\boldsymbol{a}+\boldsymbol{b})$, $N$ 在 $DE$ 上且 $AN=\frac{1}{4}AM=\frac{1}{8}(\boldsymbol{a}+\boldsymbol{b})$? 由 $DE\parallel BC$ 且 $AD=\frac{1}{4}AB$, $N$ 在 $AM$ 上, $AN=\frac{1}{4}AM=\frac{1}{8}(\boldsymbol{a}+\boldsymbol{b})$.
+$N$ 为 $AM$ 与 $DE$ 的交点, $AM=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$, $N$ 在 $DE$ 上且 $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$? 由 $DE\parallel BC$ 且 $AD=\frac{1}{4}AB$, $N$ 在 $AM$ 上, $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
-$\boldsymbol{DN}=\boldsymbol{AN}-\boldsymbol{AD}=\frac{1}{8}(\boldsymbol{a}+\boldsymbol{b})-\frac{1}{4}\boldsymbol{a}=-\frac{1}{8}\boldsymbol{a}+\frac{1}{8}\boldsymbol{b}$.
+$\boldsymbol{DN}=\boldsymbol{AN}-\boldsymbol{AD}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{4}\boldsymbol{a}=-\frac{1}{8}\boldsymbol{a}+\frac{1}{8}\boldsymbol{b}$.
 
-$\boldsymbol{AN}=\frac{1}{8}(\boldsymbol{a}+\boldsymbol{b})$. $\blacksquare$
+$\boldsymbol{AN}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$. $\blacksquare$
 
 ### 习题十五
 
@@ -578,7 +578,7 @@ $\boldsymbol{AN}=\frac{1}{8}(\boldsymbol{a}+\boldsymbol{b})$. $\blacksquare$
 
 $\boldsymbol{EF}=\boldsymbol{EA}+\boldsymbol{AB}+\boldsymbol{BF}$, $\boldsymbol{EF}=\boldsymbol{ED}+\boldsymbol{DC}+\boldsymbol{CF}$.
 
-两式相加: $2\boldsymbol{EF}=(\boldsymbol{EA}+\boldsymbol{ED})+(\boldsymbol{AB}+\boldsymbol{DC})+(\boldsymbol{BF}+\boldsymbol{CF})$.
+两式相加: $2\boldsymbol{EF}=\left(\boldsymbol{EA}+\boldsymbol{ED}\right)+\left(\boldsymbol{AB}+\boldsymbol{DC}\right)+\left(\boldsymbol{BF}+\boldsymbol{CF}\right)$.
 
 $E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $BC$ 中点, $\boldsymbol{BF}+\boldsymbol{CF}=\boldsymbol{0}$. 故 $2\boldsymbol{EF}=\boldsymbol{AB}+\boldsymbol{DC}$. $\blacksquare$
 
@@ -618,13 +618,13 @@ $E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $
 
 ### 习题十八
 
-(习题 6.2 拓广探索第 18 题) 已知 $\lvert\boldsymbol{a}\rvert=4$, $\lvert\boldsymbol{b}\rvert=3$, 且 $(2\boldsymbol{a}-3\boldsymbol{b})\cdot(2\boldsymbol{a}+\boldsymbol{b})=61$, 求 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角 $\theta$.
+(习题 6.2 拓广探索第 18 题) 已知 $\lvert\boldsymbol{a}\rvert=4$, $\lvert\boldsymbol{b}\rvert=3$, 且 $\left(2\boldsymbol{a}-3\boldsymbol{b}\right)\cdot\left(2\boldsymbol{a}+\boldsymbol{b}\right)=61$, 求 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角 $\theta$.
 
 ### 解答 习题十八
 
 由**定义 6.2.11** (数量积).
 
-$(2\boldsymbol{a}-3\boldsymbol{b})\cdot(2\boldsymbol{a}+\boldsymbol{b})=4\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-6\boldsymbol{a}\cdot\boldsymbol{b}-3\boldsymbol{b}^2=4\lvert\boldsymbol{a}\rvert^2-4\boldsymbol{a}\cdot\boldsymbol{b}-3\lvert\boldsymbol{b}\rvert^2=61$.
+$\left(2\boldsymbol{a}-3\boldsymbol{b}\right)\cdot\left(2\boldsymbol{a}+\boldsymbol{b}\right)=4\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-6\boldsymbol{a}\cdot\boldsymbol{b}-3\boldsymbol{b}^2=4\lvert\boldsymbol{a}\rvert^2-4\boldsymbol{a}\cdot\boldsymbol{b}-3\lvert\boldsymbol{b}\rvert^2=61$.
 
 代入: $4\times16-4\boldsymbol{a}\cdot\boldsymbol{b}-3\times9=64-4\boldsymbol{a}\cdot\boldsymbol{b}-27=37-4\boldsymbol{a}\cdot\boldsymbol{b}=61$.
 
@@ -644,13 +644,13 @@ $2\boldsymbol{a}\cdot\boldsymbol{b}=92$, $\boldsymbol{a}\cdot\boldsymbol{b}=46$.
 
 ### 习题二十
 
-(习题 6.2 拓广探索第 20 题) 已知 $\boldsymbol{a}$ 是非零向量, $\boldsymbol{b}\neq\boldsymbol{c}$, 求证: $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\perp(\boldsymbol{b}-\boldsymbol{c})$.
+(习题 6.2 拓广探索第 20 题) 已知 $\boldsymbol{a}$ 是非零向量, $\boldsymbol{b}\neq\boldsymbol{c}$, 求证: $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)$.
 
 ### 解答 习题二十
 
-由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\perp(\boldsymbol{b}-\boldsymbol{c})\Longleftrightarrow\boldsymbol{a}\cdot(\boldsymbol{b}-\boldsymbol{c})=0$.
+由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)\Longleftrightarrow\boldsymbol{a}\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)=0$.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}=0\Longleftrightarrow\boldsymbol{a}\cdot(\boldsymbol{b}-\boldsymbol{c})=0\Longleftrightarrow\boldsymbol{a}\perp(\boldsymbol{b}-\boldsymbol{c})$. $\blacksquare$
+$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}=0\Longleftrightarrow\boldsymbol{a}\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)=0\Longleftrightarrow\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)$. $\blacksquare$
 
 ### 习题二十一
 
@@ -676,7 +676,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 由**定义 6.1.7** (相等向量) 与**定理 6.2.8**.
 
-在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-(\boldsymbol{OB}-\boldsymbol{OA})=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
+在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
 
 ### 习题二十三
 

@@ -1,12 +1,12 @@
 # 作业 20
 
-> **公式一** (终边相同的角的三角函数值) <br>$\sin(\alpha+k\cdot2\pi)=\sin\alpha$, $\cos(\alpha+k\cdot2\pi)=\cos\alpha$, $\tan(\alpha+k\cdot2\pi)=\tan\alpha$, 其中 $k\in\mathbb Z$.
+> **公式一** (终边相同的角的三角函数值) <br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, 其中 $k\in\mathbb Z$.
 
-> **公式二** <br>$\sin(\pi+\alpha)=-\sin\alpha$, $\cos(\pi+\alpha)=-\cos\alpha$, $\tan(\pi+\alpha)=\tan\alpha$.
+> **公式二** <br>$\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$, $\tan\left(\pi+\alpha\right)=\tan\alpha$.
 
-> **公式三** <br>$\sin(-\alpha)=-\sin\alpha$, $\cos(-\alpha)=\cos\alpha$, $\tan(-\alpha)=-\tan\alpha$.
+> **公式三** <br>$\sin\left(-\alpha\right)=-\sin\alpha$, $\cos\left(-\alpha\right)=\cos\alpha$, $\tan\left(-\alpha\right)=-\tan\alpha$.
 
-> **公式四** <br>$\sin(\pi-\alpha)=\sin\alpha$, $\cos(\pi-\alpha)=-\cos\alpha$, $\tan(\pi-\alpha)=-\tan\alpha$.
+> **公式四** <br>$\sin\left(\pi-\alpha\right)=\sin\alpha$, $\cos\left(\pi-\alpha\right)=-\cos\alpha$, $\tan\left(\pi-\alpha\right)=-\tan\alpha$.
 
 > **公式五** <br>$\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
@@ -18,11 +18,11 @@
 
 (1) $\cos\frac{13\pi}{9}=\;\_\_\;$;
 
-(2) $\sin(1+\pi)=\;\_\_\;$;
+(2) $\sin\left(1+\pi\right)=\;\_\_\;$;
 
 (3) $\sin\left(-\frac{\pi}{5}\right)=\;\_\_\;$;
 
-(4) $\tan(-70^{\circ}6')=\;\_\_\;$;
+(4) $\tan\left(-70^{\circ}6'\right)=\;\_\_\;$;
 
 (5) $\cos\frac{6\pi}{7}=\;\_\_\;$;
 
@@ -34,25 +34,25 @@
 
 (1) 由 $\frac{13\pi}{9}=\pi+\frac{4\pi}{9}$, 得 $\cos\frac{13\pi}{9}=\cos\left(\pi+\frac{4\pi}{9}\right)=-\cos\frac{4\pi}{9}$.
 
-(2) 由**公式二**, 得 $\sin(1+\pi)=-\sin1$.
+(2) 由**公式二**, 得 $\sin\left(1+\pi\right)=-\sin1$.
 
 (3) 由**公式三**, 得 $\sin\left(-\frac{\pi}{5}\right)=-\sin\frac{\pi}{5}$.
 
-(4) 由**公式三**, 得 $\tan(-70^{\circ}6')=-\tan70^{\circ}6'$.
+(4) 由**公式三**, 得 $\tan\left(-70^{\circ}6'\right)=-\tan70^{\circ}6'$.
 
 (5) 由 $\frac{6\pi}{7}=\pi-\frac{\pi}{7}$, 得 $\cos\frac{6\pi}{7}=\cos\left(\pi-\frac{\pi}{7}\right)=-\cos\frac{\pi}{7}$.
 
-(6) 由 $1000^{\circ}21'=2\times360^{\circ}+280^{\circ}21'$, $280^{\circ}21'=360^{\circ}-79^{\circ}39'$, 得 $\tan1000^{\circ}21'=\tan(-79^{\circ}39')=-\tan79^{\circ}39'$. $\blacksquare$
+(6) 由 $1000^{\circ}21'=2\times360^{\circ}+280^{\circ}21'$, $280^{\circ}21'=360^{\circ}-79^{\circ}39'$, 得 $\tan1000^{\circ}21'=\tan\left(-79^{\circ}39'\right)=-\tan79^{\circ}39'$. $\blacksquare$
 
 ### 练习二
 
 (练习 5.3 第 2 题) 利用公式求下列三角函数值:
 
-(1) $\cos(-420^{\circ})$;
+(1) $\cos\left(-420^{\circ}\right)$;
 
 (2) $\sin\left(-\frac{7\pi}{6}\right)$;
 
-(3) $\tan(-1140^{\circ})$;
+(3) $\tan\left(-1140^{\circ}\right)$;
 
 (4) $\cos\left(-\frac{7\pi}{6}\right)$;
 
@@ -64,15 +64,15 @@
 
 由**公式一**至**公式四**化简, 再求特殊角的三角函数值.
 
-(1) 由**公式三**及**公式一**, 得 $\cos(-420^{\circ})=\cos420^{\circ}=\cos(360^{\circ}+60^{\circ})=\cos60^{\circ}=\frac{1}{2}$.
+(1) 由**公式三**及**公式一**, 得 $\cos\left(-420^{\circ}\right)=\cos420^{\circ}=\cos\left(360^{\circ}+60^{\circ}\right)=\cos60^{\circ}=\frac{1}{2}$.
 
 (2) 由**公式三**及**公式四**, 得 $\sin\left(-\frac{7\pi}{6}\right)=-\sin\frac{7\pi}{6}=-\sin\left(\pi+\frac{\pi}{6}\right)=\sin\frac{\pi}{6}=\frac{1}{2}$.
 
-(3) 由**公式三**及**公式一**, 得 $\tan(-1140^{\circ})=-\tan1140^{\circ}=-\tan(3\times360^{\circ}+60^{\circ})=-\tan60^{\circ}=-\sqrt{3}$.
+(3) 由**公式三**及**公式一**, 得 $\tan\left(-1140^{\circ}\right)=-\tan1140^{\circ}=-\tan\left(3\times360^{\circ}+60^{\circ}\right)=-\tan60^{\circ}=-\sqrt{3}$.
 
 (4) 由**公式三**及**公式二**, 得 $\cos\left(-\frac{7\pi}{6}\right)=\cos\frac{7\pi}{6}=\cos\left(\pi+\frac{\pi}{6}\right)=-\cos\frac{\pi}{6}=-\frac{\sqrt{3}}{2}$.
 
-(5) 由**公式四**, 得 $\tan315^{\circ}=\tan(360^{\circ}-45^{\circ})=-\tan45^{\circ}=-1$.
+(5) 由**公式四**, 得 $\tan315^{\circ}=\tan\left(360^{\circ}-45^{\circ}\right)=-\tan45^{\circ}=-1$.
 
 (6) 由**公式三**及**公式一**, 得 $\sin\left(-\frac{11\pi}{4}\right)=-\sin\frac{11\pi}{4}=-\sin\left(2\pi+\frac{3\pi}{4}\right)=-\sin\frac{3\pi}{4}=-\frac{\sqrt{2}}{2}$. $\blacksquare$
 
@@ -80,24 +80,24 @@
 
 (练习 5.3 第 3 题) 化简:
 
-(1) $\sin(-\alpha-180^{\circ})\cos(-\alpha)\sin(-\alpha+180^{\circ})$;
+(1) $\sin\left(-\alpha-180^{\circ}\right)\cos\left(-\alpha\right)\sin\left(-\alpha+180^{\circ}\right)$;
 
-(2) $\cos^{3}(-\alpha)\sin(2\pi+\alpha)\tan^{3}(-\alpha-\pi)$.
+(2) $\cos^{3}\left(-\alpha\right)\sin\left(2\pi+\alpha\right)\tan^{3}\left(-\alpha-\pi\right)$.
 
 ### 解答 练习三
 
 由**公式二**, **公式三**, **公式四**及**公式一**化简.
 
-(1) 由 $\sin(-\alpha-180^{\circ})=-\sin(\alpha+180^{\circ})=\sin\alpha$, $\cos(-\alpha)=\cos\alpha$, $\sin(-\alpha+180^{\circ})=\sin(180^{\circ}-\alpha)=\sin\alpha$, 得
+(1) 由 $\sin\left(-\alpha-180^{\circ}\right)=-\sin\left(\alpha+180^{\circ}\right)=\sin\alpha$, $\cos\left(-\alpha\right)=\cos\alpha$, $\sin\left(-\alpha+180^{\circ}\right)=\sin\left(180^{\circ}-\alpha\right)=\sin\alpha$, 得
 
 $$
 \text{原式}=\sin\alpha\cdot\cos\alpha\cdot\sin\alpha=\sin^{2}\alpha\cos\alpha.
 $$
 
-(2) 由 $\cos^{3}(-\alpha)=\cos^{3}\alpha$, $\sin(2\pi+\alpha)=\sin\alpha$, $\tan^{3}(-\alpha-\pi)=[-\tan(\alpha+\pi)]^{3}=(-\tan\alpha)^{3}=-\tan^{3}\alpha$, 得
+(2) 由 $\cos^{3}\left(-\alpha\right)=\cos^{3}\alpha$, $\sin\left(2\pi+\alpha\right)=\sin\alpha$, $\tan^{3}\left(-\alpha-\pi\right)=\left[-\tan\left(\alpha+\pi\right)\right]^{3}=\left(-\tan\alpha\right)^{3}=-\tan^{3}\alpha$, 得
 
 $$
-\text{原式}=\cos^{3}\alpha\cdot\sin\alpha\cdot(-\tan^{3}\alpha)=-\cos^{3}\alpha\sin\alpha\cdot\frac{\sin^{3}\alpha}{\cos^{3}\alpha}=-\sin^{4}\alpha.
+\text{原式}=\cos^{3}\alpha\cdot\sin\alpha\cdot\left(-\tan^{3}\alpha\right)=-\cos^{3}\alpha\sin\alpha\cdot\frac{\sin^{3}\alpha}{\cos^{3}\alpha}=-\sin^{4}\alpha.
 $$
 
 $\blacksquare$
@@ -136,7 +136,7 @@ $\blacksquare$
 
 (2) $\sin\left(-\frac{31\pi}{4}\right)$;
 
-(3) $\cos(-1182^{\circ}13')$;
+(3) $\cos\left(-1182^{\circ}13'\right)$;
 
 (4) $\sin670^{\circ}39'$;
 
@@ -152,7 +152,7 @@ $\blacksquare$
 
 (2) 由 $-\frac{31\pi}{4}=-8\pi+\frac{\pi}{4}$, 得 $\sin\left(-\frac{31\pi}{4}\right)=\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
 
-(3) 由 $-1182^{\circ}13'=-4\times360^{\circ}+257^{\circ}47'$, 得 $\cos(-1182^{\circ}13')=\cos257^{\circ}47'\approx-0.2133$.
+(3) 由 $-1182^{\circ}13'=-4\times360^{\circ}+257^{\circ}47'$, 得 $\cos\left(-1182^{\circ}13'\right)=\cos257^{\circ}47'\approx-0.2133$.
 
 (4) 由 $670^{\circ}39'=360^{\circ}+310^{\circ}39'$, 得 $\sin670^{\circ}39'=\sin310^{\circ}39'\approx-0.7587$.
 
@@ -178,7 +178,7 @@ $\blacksquare$
 
 (1) 由 $\frac{5\pi}{2}-\alpha=2\pi+\left(\frac{\pi}{2}-\alpha\right)$, 得 $\cos\left(\frac{5\pi}{2}-\alpha\right)=\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-(2) 由 $\frac{7\pi}{2}+\alpha=3\pi+\left(\frac{\pi}{2}+\alpha\right)=\pi+\left(\frac{\pi}{2}+\alpha\right)+2\pi$, 得 $\cos\left(\frac{7\pi}{2}+\alpha\right)=\cos\left(\pi+\left(\frac{\pi}{2}+\alpha\right)\right)=-\cos\left(\frac{\pi}{2}+\alpha\right)=-(-\sin\alpha)=\sin\alpha$.
+(2) 由 $\frac{7\pi}{2}+\alpha=3\pi+\left(\frac{\pi}{2}+\alpha\right)=\pi+\left(\frac{\pi}{2}+\alpha\right)+2\pi$, 得 $\cos\left(\frac{7\pi}{2}+\alpha\right)=\cos\left(\pi+\left(\frac{\pi}{2}+\alpha\right)\right)=-\cos\left(\frac{\pi}{2}+\alpha\right)=-\left(-\sin\alpha\right)=\sin\alpha$.
 
 (3) 由 $\frac{9\pi}{2}-\alpha=4\pi+\left(\frac{\pi}{2}-\alpha\right)$, 得 $\sin\left(\frac{9\pi}{2}-\alpha\right)=\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$.
 
@@ -188,9 +188,9 @@ $\blacksquare$
 
 (练习 5.3 第 7 题) 化简:
 
-(1) $\cos\left(\alpha-\frac{5\pi}{2}\right)\sin(\alpha-2\pi)\cos(2\pi-\alpha)$;
+(1) $\cos\left(\alpha-\frac{5\pi}{2}\right)\sin\left(\alpha-2\pi\right)\cos\left(2\pi-\alpha\right)$;
 
-(2) $\frac{\tan(2\pi+\alpha)}{\cos^{2}(-\alpha)+\cos(\pi+\alpha)-\cos^{2}\alpha}$;
+(2) $\frac{\tan\left(2\pi+\alpha\right)}{\cos^{2}\left(-\alpha\right)+\cos\left(\pi+\alpha\right)-\cos^{2}\alpha}$;
 
 (3) $\frac{\cos\left(\alpha-\frac{3\pi}{2}\right)\cos\left(\frac{3\pi}{2}-\alpha\right)}{\sin^{2}\left(\alpha-\frac{\pi}{2}\right)}$.
 
@@ -198,13 +198,13 @@ $\blacksquare$
 
 由**公式一**至**公式六**化简.
 
-(1) 由 $\cos\left(\alpha-\frac{5\pi}{2}\right)=\cos\left(\frac{5\pi}{2}-\alpha\right)=\sin\alpha$, $\sin(\alpha-2\pi)=\sin\alpha$, $\cos(2\pi-\alpha)=\cos\alpha$, 得
+(1) 由 $\cos\left(\alpha-\frac{5\pi}{2}\right)=\cos\left(\frac{5\pi}{2}-\alpha\right)=\sin\alpha$, $\sin\left(\alpha-2\pi\right)=\sin\alpha$, $\cos\left(2\pi-\alpha\right)=\cos\alpha$, 得
 
 $$
 \text{原式}=\sin\alpha\cdot\sin\alpha\cdot\cos\alpha=\sin^{2}\alpha\cos\alpha.
 $$
 
-(2) 由 $\tan(2\pi+\alpha)=\tan\alpha$, $\cos^{2}(-\alpha)=\cos^{2}\alpha$, $\cos(\pi+\alpha)=-\cos\alpha$, 得
+(2) 由 $\tan\left(2\pi+\alpha\right)=\tan\alpha$, $\cos^{2}\left(-\alpha\right)=\cos^{2}\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$, 得
 
 $$
 \text{原式}=\frac{\tan\alpha}{\cos^{2}\alpha-\cos\alpha-\cos^{2}\alpha}=\frac{\tan\alpha}{-\cos\alpha}=-\frac{\sin\alpha}{\cos^{2}\alpha}.
@@ -213,7 +213,7 @@ $$
 (3) 由 $\cos\left(\alpha-\frac{3\pi}{2}\right)=\cos\left(\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$, $\sin^{2}\left(\alpha-\frac{\pi}{2}\right)=\sin^{2}\left(\frac{\pi}{2}-\alpha\right)=\cos^{2}\alpha$, 得
 
 $$
-\text{原式}=\frac{(-\sin\alpha)(-\sin\alpha)}{\cos^{2}\alpha}=\frac{\sin^{2}\alpha}{\cos^{2}\alpha}=\tan^{2}\alpha.
+\text{原式}=\frac{\left(-\sin\alpha\right)\left(-\sin\alpha\right)}{\cos^{2}\alpha}=\frac{\sin^{2}\alpha}{\cos^{2}\alpha}=\tan^{2}\alpha.
 $$
 
 $\blacksquare$
@@ -224,11 +224,11 @@ $\blacksquare$
 
 (1) $\cos\left(-\frac{17\pi}{4}\right)$;
 
-(2) $\sin(-1574^{\circ})$;
+(2) $\sin\left(-1574^{\circ}\right)$;
 
-(3) $\sin(-2160^{\circ}52')$;
+(3) $\sin\left(-2160^{\circ}52'\right)$;
 
-(4) $\cos(-1751^{\circ}36')$;
+(4) $\cos\left(-1751^{\circ}36'\right)$;
 
 (5) $\cos1615^{\circ}8'$;
 
@@ -240,11 +240,11 @@ $\blacksquare$
 
 (1) 由 $-\frac{17\pi}{4}=-4\pi-\frac{\pi}{4}$, 得 $\cos\left(-\frac{17\pi}{4}\right)=\cos\left(-\frac{\pi}{4}\right)=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
 
-(2) 由 $-1574^{\circ}=-5\times360^{\circ}+226^{\circ}$, 得 $\sin(-1574^{\circ})=\sin226^{\circ}\approx-0.7193$.
+(2) 由 $-1574^{\circ}=-5\times360^{\circ}+226^{\circ}$, 得 $\sin\left(-1574^{\circ}\right)=\sin226^{\circ}\approx-0.7193$.
 
-(3) 由 $-2160^{\circ}52'=-6\times360^{\circ}-0^{\circ}52'$, 得 $\sin(-2160^{\circ}52')=\sin(-0^{\circ}52')\approx-0.0151$.
+(3) 由 $-2160^{\circ}52'=-6\times360^{\circ}-0^{\circ}52'$, 得 $\sin\left(-2160^{\circ}52'\right)=\sin\left(-0^{\circ}52'\right)\approx-0.0151$.
 
-(4) 由 $-1751^{\circ}36'=-5\times360^{\circ}+48^{\circ}24'$, 得 $\cos(-1751^{\circ}36')=\cos48^{\circ}24'\approx0.6639$.
+(4) 由 $-1751^{\circ}36'=-5\times360^{\circ}+48^{\circ}24'$, 得 $\cos\left(-1751^{\circ}36'\right)=\cos48^{\circ}24'\approx0.6639$.
 
 (5) 由 $1615^{\circ}8'=4\times360^{\circ}+175^{\circ}8'$, 得 $\cos1615^{\circ}8'=\cos175^{\circ}8'\approx-0.9962$.
 
@@ -254,41 +254,41 @@ $\blacksquare$
 
 (习题 5.3 复习巩固第 2 题) 求证:
 
-(1) $\sin(360^{\circ}-\alpha)=-\sin\alpha$;
+(1) $\sin\left(360^{\circ}-\alpha\right)=-\sin\alpha$;
 
-(2) $\cos(360^{\circ}-\alpha)=\cos\alpha$;
+(2) $\cos\left(360^{\circ}-\alpha\right)=\cos\alpha$;
 
-(3) $\tan(360^{\circ}-\alpha)=-\tan\alpha$.
+(3) $\tan\left(360^{\circ}-\alpha\right)=-\tan\alpha$.
 
 ### 解答 习题二
 
 由**公式一**及**公式三**, **公式四**证明.
 
-(1) 由 $\sin(360^{\circ}-\alpha)=\sin(-\alpha+360^{\circ})=\sin(-\alpha)=-\sin\alpha$, 得证.
+(1) 由 $\sin\left(360^{\circ}-\alpha\right)=\sin\left(-\alpha+360^{\circ}\right)=\sin\left(-\alpha\right)=-\sin\alpha$, 得证.
 
-(2) 由 $\cos(360^{\circ}-\alpha)=\cos(-\alpha+360^{\circ})=\cos(-\alpha)=\cos\alpha$, 得证.
+(2) 由 $\cos\left(360^{\circ}-\alpha\right)=\cos\left(-\alpha+360^{\circ}\right)=\cos\left(-\alpha\right)=\cos\alpha$, 得证.
 
-(3) 由 $\tan(360^{\circ}-\alpha)=\tan(-\alpha+360^{\circ})=\tan(-\alpha)=-\tan\alpha$, 得证. $\blacksquare$
+(3) 由 $\tan\left(360^{\circ}-\alpha\right)=\tan\left(-\alpha+360^{\circ}\right)=\tan\left(-\alpha\right)=-\tan\alpha$, 得证. $\blacksquare$
 
 ### 习题三
 
 (习题 5.3 复习巩固第 3 题) 化简:
 
-(1) $1+\sin(\alpha-2\pi)\sin(\pi+\alpha)-2\cos^{2}(-\alpha)$;
+(1) $1+\sin\left(\alpha-2\pi\right)\sin\left(\pi+\alpha\right)-2\cos^{2}\left(-\alpha\right)$;
 
-(2) $\sin(-1071^{\circ})\sin99^{\circ}+\sin(-171^{\circ})\sin(-261^{\circ})$.
+(2) $\sin\left(-1071^{\circ}\right)\sin99^{\circ}+\sin\left(-171^{\circ}\right)\sin\left(-261^{\circ}\right)$.
 
 ### 解答 习题三
 
 由**公式一**至**公式四**化简.
 
-(1) 由 $\sin(\alpha-2\pi)=\sin\alpha$, $\sin(\pi+\alpha)=-\sin\alpha$, $\cos^{2}(-\alpha)=\cos^{2}\alpha$, 得
+(1) 由 $\sin\left(\alpha-2\pi\right)=\sin\alpha$, $\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos^{2}\left(-\alpha\right)=\cos^{2}\alpha$, 得
 
 $$
-\text{原式}=1+\sin\alpha\cdot(-\sin\alpha)-2\cos^{2}\alpha=1-\sin^{2}\alpha-2\cos^{2}\alpha=\cos^{2}\alpha-2\cos^{2}\alpha=-\cos^{2}\alpha.
+\text{原式}=1+\sin\alpha\cdot\left(-\sin\alpha\right)-2\cos^{2}\alpha=1-\sin^{2}\alpha-2\cos^{2}\alpha=\cos^{2}\alpha-2\cos^{2}\alpha=-\cos^{2}\alpha.
 $$
 
-(2) 由 $\sin(-1071^{\circ})=\sin(-3\times360^{\circ}+9^{\circ})=\sin9^{\circ}$, $\sin(-171^{\circ})=\sin(-180^{\circ}+9^{\circ})=-\sin(-9^{\circ})=\sin9^{\circ}$, $\sin(-261^{\circ})=\sin(-360^{\circ}+99^{\circ})=\sin99^{\circ}$, 得
+(2) 由 $\sin\left(-1071^{\circ}\right)=\sin\left(-3\times360^{\circ}+9^{\circ}\right)=\sin9^{\circ}$, $\sin\left(-171^{\circ}\right)=\sin\left(-180^{\circ}+9^{\circ}\right)=-\sin\left(-9^{\circ}\right)=\sin9^{\circ}$, $\sin\left(-261^{\circ}\right)=\sin\left(-360^{\circ}+99^{\circ}\right)=\sin99^{\circ}$, 得
 
 $$
 \text{原式}=\sin9^{\circ}\sin99^{\circ}+\sin9^{\circ}\sin99^{\circ}=2\sin9^{\circ}\sin99^{\circ}.
@@ -304,9 +304,9 @@ $\blacksquare$
 
 由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数), $\sin\alpha=\frac{4}{5}$, $\cos\alpha=-\frac{3}{5}$.
 
-(1) 由**公式二**, 得 $\sin(\pi+\alpha)=-\sin\alpha=-\frac{4}{5}$, $\cos(\pi+\alpha)=-\cos\alpha=\frac{3}{5}$.
+(1) 由**公式二**, 得 $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{4}{5}$, $\cos\left(\pi+\alpha\right)=-\cos\alpha=\frac{3}{5}$.
 
-(2) 由**公式三**, 得 $\sin(-\alpha)=-\sin\alpha=-\frac{4}{5}$, $\cos(-\alpha)=\cos\alpha=-\frac{3}{5}$.
+(2) 由**公式三**, 得 $\sin\left(-\alpha\right)=-\sin\alpha=-\frac{4}{5}$, $\cos\left(-\alpha\right)=\cos\alpha=-\frac{3}{5}$.
 
 (3) 由**公式六**, 得 $\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha=-\frac{3}{5}$, $\cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha=-\frac{4}{5}$. $\blacksquare$
 
@@ -330,9 +330,9 @@ $\blacksquare$
 
 ### 习题六
 
-(习题 5.3 综合运用第 6 题) 已知 $\sin(\pi+\alpha)=-\frac{1}{2}$, 计算:
+(习题 5.3 综合运用第 6 题) 已知 $\sin\left(\pi+\alpha\right)=-\frac{1}{2}$, 计算:
 
-(1) $\sin(5\pi-\alpha)$;
+(1) $\sin\left(5\pi-\alpha\right)$;
 
 (2) $\sin\left(\frac{3\pi}{2}+\alpha\right)$;
 
@@ -342,9 +342,9 @@ $\blacksquare$
 
 ### 解答 习题六
 
-由**公式二**, $\sin(\pi+\alpha)=-\sin\alpha=-\frac{1}{2}$, 得 $\sin\alpha=\frac{1}{2}$.
+由**公式二**, $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{1}{2}$, 得 $\sin\alpha=\frac{1}{2}$.
 
-(1) 由**公式四**, $\sin(5\pi-\alpha)=\sin(\pi-\alpha)=\sin\alpha=\frac{1}{2}$.
+(1) 由**公式四**, $\sin\left(5\pi-\alpha\right)=\sin\left(\pi-\alpha\right)=\sin\alpha=\frac{1}{2}$.
 
 (2) 由**公式六**及**公式二**, $\sin\left(\frac{3\pi}{2}+\alpha\right)=\sin\left(\pi+\left(\frac{\pi}{2}+\alpha\right)\right)=-\sin\left(\frac{\pi}{2}+\alpha\right)=-\cos\alpha$. 由 $\sin\alpha=\frac{1}{2}$, 得 $\cos\alpha=\pm\frac{\sqrt{3}}{2}$, 故 $\sin\left(\frac{3\pi}{2}+\alpha\right)=\mp\frac{\sqrt{3}}{2}$.
 
@@ -356,9 +356,9 @@ $\blacksquare$
 
 (习题 5.3 综合运用第 7 题) 在 $\triangle ABC$ 中, 试判断下列关系是否成立, 并说明理由.
 
-(1) $\cos(A+B)=\cos C$;
+(1) $\cos\left(A+B\right)=\cos C$;
 
-(2) $\sin(A+B)=\sin C$;
+(2) $\sin\left(A+B\right)=\sin C$;
 
 (3) $\sin\frac{A+B}{2}=\sin\frac{C}{2}$;
 
@@ -368,9 +368,9 @@ $\blacksquare$
 
 由三角形内角和 $A+B+C=\pi$, 得 $A+B=\pi-C$.
 
-(1) 由**公式二**, $\cos(A+B)=\cos(\pi-C)=-\cos C\neq\cos C$, 故不成立.
+(1) 由**公式二**, $\cos\left(A+B\right)=\cos\left(\pi-C\right)=-\cos C\neq\cos C$, 故不成立.
 
-(2) 由**公式四**, $\sin(A+B)=\sin(\pi-C)=\sin C$, 故成立.
+(2) 由**公式四**, $\sin\left(A+B\right)=\sin\left(\pi-C\right)=\sin C$, 故成立.
 
 (3) 由 $\frac{A+B}{2}=\frac{\pi-C}{2}=\frac{\pi}{2}-\frac{C}{2}$, 由**公式五**, $\sin\frac{A+B}{2}=\sin\left(\frac{\pi}{2}-\frac{C}{2}\right)=\cos\frac{C}{2}\neq\sin\frac{C}{2}$, 故不成立.
 
@@ -386,7 +386,7 @@ $\blacksquare$
 
 (1) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, 得 $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. 由 $0<x<\frac{\pi}{2}$, 得 $-\frac{\pi}{6}<\frac{\pi}{3}-x<\frac{\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}-x\right)>0$. 由 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 得 $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. 故 $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
 
-(2) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 无法直接用诱导公式. 注意到 $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, 而 $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. 另注意到 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos(\pi-\alpha)=-\cos\alpha$, 得 $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$
+(2) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 无法直接用诱导公式. 注意到 $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, 而 $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. 另注意到 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\pi-\alpha\right)=-\cos\alpha$, 得 $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$
 
 ### 习题九
 
@@ -400,19 +400,19 @@ $\blacksquare$
 
 由**公式一**至**公式六**, 按 $n$ 除以 $4$ 的余数分类讨论.
 
-(1) 当 $n=4k$ ($k\in\mathbb Z$) 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin(2k\pi+\alpha)=\sin\alpha$.
+(1) 当 $n=4k$ ($k\in\mathbb Z$) 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\alpha\right)=\sin\alpha$.
 
 当 $n=4k+1$ 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\frac{\pi}{2}+\alpha\right)=\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$.
 
-当 $n=4k+2$ 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin(2k\pi+\pi+\alpha)=-\sin\alpha$.
+当 $n=4k+2$ 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\pi+\alpha\right)=-\sin\alpha$.
 
 当 $n=4k+3$ 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\frac{3\pi}{2}+\alpha\right)=-\cos\alpha$.
 
-(2) 当 $n=4k$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos(2k\pi-\alpha)=\cos\alpha$.
+(2) 当 $n=4k$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi-\alpha\right)=\cos\alpha$.
 
 当 $n=4k+1$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-当 $n=4k+2$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos(2k\pi+\pi-\alpha)=-\cos\alpha$.
+当 $n=4k+2$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\pi-\alpha\right)=-\cos\alpha$.
 
 当 $n=4k+3$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$. $\blacksquare$
 
@@ -428,4 +428,4 @@ $\blacksquare$
 
 (2) 终边关于直线 $y=x$ 对称: 已由**公式五**给出, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-(3) 终边互为反向延长线: 已由**公式二**给出, $\sin(\pi+\alpha)=-\sin\alpha$, $\cos(\pi+\alpha)=-\cos\alpha$. $\blacksquare$
+(3) 终边互为反向延长线: 已由**公式二**给出, $\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$. $\blacksquare$

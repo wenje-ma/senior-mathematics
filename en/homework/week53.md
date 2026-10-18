@@ -46,11 +46,11 @@
 
 Count by **Definition 8.1.4** (Prism), **Definition 8.1.8** (Pyramid) and **Definition 8.1.10** (Frustum of a Pyramid).
 
-$n$-prism: the two bases each have $n$ vertices, so $V=2n$; there are $n$ lateral edges and $n$ edges on each of the upper and lower bases, so $E=3n$; two bases $+$ $n$ lateral faces, so $F=n+2$; $V+F-E=2n+(n+2)-3n=2$.
+$n$-prism: the two bases each have $n$ vertices, so $V=2n$; there are $n$ lateral edges and $n$ edges on each of the upper and lower bases, so $E=3n$; two bases $+$ $n$ lateral faces, so $F=n+2$; $V+F-E=2n+\left(n+2\right)-3n=2$.
 
-$n$-pyramid: the base has $n$ vertices $+$ the apex $1$, so $V=n+1$; there are $n$ lateral edges and $n$ base edges, so $E=2n$; the base $1$ $+$ $n$ lateral faces, so $F=n+1$; $V+F-E=(n+1)+(n+1)-2n=2$.
+$n$-pyramid: the base has $n$ vertices $+$ the apex $1$, so $V=n+1$; there are $n$ lateral edges and $n$ base edges, so $E=2n$; the base $1$ $+$ $n$ lateral faces, so $F=n+1$; $V+F-E=\left(n+1\right)+\left(n+1\right)-2n=2$.
 
-$n$-frustum: the upper and lower bases each have $n$ vertices, so $V=2n$; there are $n$ lateral edges and $n$ edges on each of the upper and lower bases, so $E=3n$; two bases $+$ $n$ lateral faces, so $F=n+2$; $V+F-E=2n+(n+2)-3n=2$.
+$n$-frustum: the upper and lower bases each have $n$ vertices, so $V=2n$; there are $n$ lateral edges and $n$ edges on each of the upper and lower bases, so $E=3n$; two bases $+$ $n$ lateral faces, so $F=n+2$; $V+F-E=2n+\left(n+2\right)-3n=2$.
 
 Hence the table is filled in order as follows: $n$-prism ($2n$, $3n$, $n+2$, $2$); $n$-pyramid ($n+1$, $2n$, $n+1$, $2$); $n$-frustum ($2n$, $3n$, $n+2$, $2$). $\blacksquare$
 
@@ -84,9 +84,9 @@ By **Definition 8.1.4** (Prism) and the cavalier oblique projection method.
 
 By **Definition 8.3.11** (Surface Area of a Sphere) and **Definition 8.3.12** (Volume of a Sphere).
 
-(1) A cube has surface area $S=6a^{2}$ and volume $V=a^{3}$. After the edge length is enlarged $n$ times, $S'=6(na)^{2}=n^{2}S$, $V'=(na)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times.
+(1) A cube has surface area $S=6a^{2}$ and volume $V=a^{3}$. After the edge length is enlarged $n$ times, $S'=6\left(na\right)^{2}=n^{2}S$, $V'=\left(na\right)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times.
 
-(2) A sphere has surface area $S=4\pi R^{2}$ and volume $V=\frac{4}{3}\pi R^{3}$. After the radius is enlarged $n$ times, $S'=4\pi(nR)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi(nR)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times. $\blacksquare$
+(2) A sphere has surface area $S=4\pi R^{2}$ and volume $V=\frac{4}{3}\pi R^{3}$. After the radius is enlarged $n$ times, $S'=4\pi\left(nR\right)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi\left(nR\right)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times. $\blacksquare$
 
 ### Problem 4
 
@@ -111,7 +111,7 @@ $$
 Hence the volume
 
 $$
-V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad (0<x<10).
+V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad \left(0<x<10\right).
 $$
 
 $\blacksquare$

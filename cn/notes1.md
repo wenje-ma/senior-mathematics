@@ -32,20 +32,20 @@
 
 **定义 1.1.6** (列举法)
 
-把集合的所有元素一一列举出来, 并用花括号 "$\{\ \}$" 括起来表示集合的方法叫做列举法.
+把集合的所有元素一一列举出来, 并用花括号 "$\left\{\ \right\}$" 括起来表示集合的方法叫做列举法.
 
 **定义 1.1.7** (描述法)
 
 一般地, 设 $A$ 是一个集合, 我们把集合 $A$ 中所有具有共同特征 $P\left(x\right)$ 的元素 $x$ 所组成的集合表示为
 
 $$
-\{x\in A\mid P\left(x\right)\},
+\left\{x\in A\mid P\left(x\right)\right\},
 $$
 
 这种表示集合的方法称为描述法. 有时也用冒号或分号代替竖线, 写成
 
 $$
-\{x\in A:P\left(x\right)\}\ \ \text{或}\ \ \{x\in A;P\left(x\right)\}.
+\left\{x\in A:P\left(x\right)\right\}\ \ \text{或}\ \ \left\{x\in A;P\left(x\right)\right\}.
 $$
 
 #### 1.2 集合间的基本关系
@@ -77,7 +77,7 @@ $$
 一般地, 由所有属于集合 $A$ 或属于集合 $B$ 的元素组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即
 
 $$
-A\cup B=\{x\mid x\in A\ \text{或}\ x\in B\}.
+A\cup B=\left\{x\mid x\in A\ \text{或}\ x\in B\right\}.
 $$
 
 在求两个集合的并集时, 它们的公共元素在并集中只能出现一次.
@@ -87,7 +87,7 @@ $$
 一般地, 由所有属于集合 $A$ 且属于集合 $B$ 的元素组成的集合, 称为集合 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即
 
 $$
-A\cap B=\{x\mid x\in A\ \text{且}\ x\in B\}.
+A\cap B=\left\{x\mid x\in A\ \text{且}\ x\in B\right\}.
 $$
 
 **定义 1.3.3** (全集)
@@ -99,7 +99,7 @@ $$
 对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 简称为集合 $A$ 的补集, 记作 $U\setminus A$, 即
 
 $$
-U\setminus A=\{x\mid x\in U\ \text{且}\ x\notin A\}.
+U\setminus A=\left\{x\mid x\in U\ \text{且}\ x\notin A\right\}.
 $$
 
 **常用结论** (有限集元素个数)
@@ -235,13 +235,13 @@ $$
 对于 $ax^2+bx+c> 0$ 或 $ax^2+bx+c< 0$ ($a> 0$), 设 $\Delta=b^2-4ac$, $x_1,x_2$ 是方程 $ax^2+bx+c=0$ 的两实根 ($x_1< x_2$). 当 $\Delta> 0$ 时, 有
 
 $$
-ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x< x_1\ \text{或}\ x> x_2\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \{x\mid x_1< x< x_2\};
+ax^2+bx+c> 0\ \text{的解集为}\ \left\{x\mid x< x_1\ \text{或}\ x> x_2\right\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \left\{x\mid x_1< x< x_2\right\};
 $$
 
 当 $\Delta=0$ 时, 有
 
 $$
-ax^2+bx+c> 0\ \text{的解集为}\ \{x\mid x\neq-\frac{b}{2a}\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing;
+ax^2+bx+c> 0\ \text{的解集为}\ \left\{x\mid x\neq-\frac{b}{2a}\right\},\quad ax^2+bx+c< 0\ \text{的解集为}\ \varnothing;
 $$
 
 当 $\Delta< 0$ 时, 有
@@ -328,18 +328,18 @@ $$
 
 **定义 4.1.1** (n 次方根)
 
-一般地, 如果 $x^n=a$, 那么 $x$ 叫做 $a$ 的 $n$ 次方根, 其中 $n> 1$, 且 $n\in\mathbb N^*$. 当 $n$ 是奇数时, 正数的 $n$ 次方根是一个正数, 负数的 $n$ 次方根是一个负数, 这时 $a$ 的 $n$ 次方根用符号 $\sqrt[n]{a}$ 表示; 当 $n$ 是偶数时, 正数的 $n$ 次方根有两个, 这两个数互为相反数, 正的 $n$ 次方根用符号 $\sqrt[n]{a}$ 表示, 负的 $n$ 次方根用符号 $-\sqrt[n]{a}$ 表示, 合并写成 $\pm\sqrt[n]{a}$ ($a> 0$). 负数没有偶次方根, $0$ 的任何次方根都是 $0$, 记作 $\sqrt[n]{0}=0$.
+一般地, 如果 $x^n=a$, 那么 $x$ 叫做 $a$ 的 $n$ 次方根, 其中 $n> 1$, 且 $n\in\mathbb N^*$. 当 $n$ 是奇数时, 正数的 $n$ 次方根是一个正数, 负数的 $n$ 次方根是一个负数, 这时 $a$ 的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示; 当 $n$ 是偶数时, 正数的 $n$ 次方根有两个, 这两个数互为相反数, 正的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示, 负的 $n$ 次方根用符号 $-\sqrt\left[n\right]{a}$ 表示, 合并写成 $\pm\sqrt\left[n\right]{a}$ ($a> 0$). 负数没有偶次方根, $0$ 的任何次方根都是 $0$, 记作 $\sqrt\left[n\right]{0}=0$.
 
 **定义 4.1.2** (根式)
 
-式子 $\sqrt[n]{a}$ 叫做根式, 这里 $n$ 叫做根指数, $a$ 叫做被开方数. 根据 $n$ 次方根的意义, 可得 $(\sqrt[n]{a})^n=a$.
+式子 $\sqrt\left[n\right]{a}$ 叫做根式, 这里 $n$ 叫做根指数, $a$ 叫做被开方数. 根据 $n$ 次方根的意义, 可得 $\left(\sqrt\left[n\right]{a}\right)^n=a$.
 
 **常用结论 4.1.3** (n 次方根的性质)
 
-当 $n$ 为奇数时, $\sqrt[n]{a^n}=a$; 当 $n$ 为偶数时,
+当 $n$ 为奇数时, $\sqrt\left[n\right]{a^n}=a$; 当 $n$ 为偶数时,
 
 $$
-\sqrt[n]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a< 0.\end{cases}
+\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a< 0.\end{cases}
 $$
 
 **定义 4.1.4** (正分数指数幂)
@@ -347,7 +347,7 @@ $$
 正数的正分数指数幂的意义是
 
 $$
-a^{\frac{m}{n}}=\sqrt[n]{a^m}\quad(a> 0,\ m,n\in\mathbb N^*,\ n> 1).
+a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}\quad\left(a> 0,\ m,n\in\mathbb N^*,\ n> 1\right).
 $$
 
 **定义 4.1.5** (负分数指数幂)
@@ -355,7 +355,7 @@ $$
 正数的负分数指数幂的意义是
 
 $$
-a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt[n]{a^m}}\quad(a> 0,\ m,n\in\mathbb N^*,\ n> 1).
+a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}\quad\left(a> 0,\ m,n\in\mathbb N^*,\ n> 1\right).
 $$
 
 $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
@@ -365,7 +365,7 @@ $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
 对于任意有理数 $r,s$, 均有
 
 $$
-a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb Q),\quad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb Q),\quad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb Q).
+a^r a^s=a^{r+s}\quad\left(a> 0,\ r,s\in\mathbb Q\right),\quad \left(a^r\right)^s=a^{rs}\quad\left(a> 0,\ r,s\in\mathbb Q\right),\quad \left(ab\right)^r=a^r b^r\quad\left(a> 0,\ b> 0,\ r\in\mathbb Q\right).
 $$
 
 **常用结论 4.1.7** (无理数指数幂)
@@ -377,7 +377,7 @@ $$
 对于任意实数 $r,s$, 均有
 
 $$
-a^r a^s=a^{r+s}\quad(a> 0,\ r,s\in\mathbb R),\quad (a^r)^s=a^{rs}\quad(a> 0,\ r,s\in\mathbb R),\quad (ab)^r=a^r b^r\quad(a> 0,\ b> 0,\ r\in\mathbb R).
+a^r a^s=a^{r+s}\quad\left(a> 0,\ r,s\in\mathbb R\right),\quad \left(a^r\right)^s=a^{rs}\quad\left(a> 0,\ r,s\in\mathbb R\right),\quad \left(ab\right)^r=a^r b^r\quad\left(a> 0,\ b> 0,\ r\in\mathbb R\right).
 $$
 
 #### 4.2 指数函数
@@ -388,11 +388,11 @@ $$
 
 **常用结论 4.2.2** (指数函数的图象和性质)
 
-(1) 定义域为 $\mathbb R$; (2) 值域为 $(0,+\infty)$; (3) 图象过定点 $(0,1)$, 即 $x=0$ 时 $y=1$; (4) 当 $a> 1$ 时, $y=a^x$ 是增函数; 当 $0< a< 1$ 时, $y=a^x$ 是减函数. 底数互为倒数的两个指数函数的图象关于 $y$ 轴对称.
+(1) 定义域为 $\mathbb R$; (2) 值域为 $\left(0,+\infty\right)$; (3) 图象过定点 $\left(0,1\right)$, 即 $x=0$ 时 $y=1$; (4) 当 $a> 1$ 时, $y=a^x$ 是增函数; 当 $0< a< 1$ 时, $y=a^x$ 是减函数. 底数互为倒数的两个指数函数的图象关于 $y$ 轴对称.
 
 **常用结论 4.2.3** (指数增长与指数衰减模型)
 
-设原有量为 $N$, 每次的增长率为 $p$, 经过 $x$ 次增长, 该量增长到 $y$, 则 $y=N(1+p)^x$ ($x\in\mathbb N$). 形如 $y=ka^x$ ($k\in\mathbb R$, 且 $k\neq 0$; $a> 0$, 且 $a\neq 1$) 的函数是刻画指数增长或指数衰减变化规律的非常有用的函数模型.
+设原有量为 $N$, 每次的增长率为 $p$, 经过 $x$ 次增长, 该量增长到 $y$, 则 $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). 形如 $y=ka^x$ ($k\in\mathbb R$, 且 $k\neq 0$; $a> 0$, 且 $a\neq 1$) 的函数是刻画指数增长或指数衰减变化规律的非常有用的函数模型.
 
 #### 4.3 对数
 
@@ -425,20 +425,20 @@ $$
 如果 $a> 0$, 且 $a\neq 1$, $M> 0$, $N> 0$, 那么
 
 $$
-\log_a(MN)=\log_a M+\log_a N,\quad \log_a\frac{M}{N}=\log_a M-\log_a N,\quad \log_a M^n=n\log_a M\quad(n\in\mathbb R).
+\log_a\left(MN\right)=\log_a M+\log_a N,\quad \log_a\frac{M}{N}=\log_a M-\log_a N,\quad \log_a M^n=n\log_a M\quad\left(n\in\mathbb R\right).
 $$
 
 **常用结论 4.3.5** (对数换底公式)
 
 $$
-\log_a b=\frac{\log_c b}{\log_c a}\quad(a> 0,\ \text{且}\ a\neq 1;\ b> 0;\ c> 0,\ \text{且}\ c\neq 1).
+\log_a b=\frac{\log_c b}{\log_c a}\quad\left(a> 0,\ \text{且}\ a\neq 1;\ b> 0;\ c> 0,\ \text{且}\ c\neq 1\right).
 $$
 
 #### 4.4 对数函数
 
 **定义 4.4.1** (对数函数)
 
-一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $(0,+\infty)$.
+一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
 
 **定义 4.4.2** (反函数)
 
@@ -446,7 +446,7 @@ $$
 
 **常用结论 4.4.3** (对数函数的图象和性质)
 
-(1) 定义域为 $(0,+\infty)$; (2) 值域为 $\mathbb R$; (3) 图象过定点 $(1,0)$, 即 $x=1$ 时 $y=0$; (4) 当 $a> 1$ 时, $y=\log_a x$ 是增函数; 当 $0< a< 1$ 时, $y=\log_a x$ 是减函数. 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称.
+(1) 定义域为 $\left(0,+\infty\right)$; (2) 值域为 $\mathbb R$; (3) 图象过定点 $\left(1,0\right)$, 即 $x=1$ 时 $y=0$; (4) 当 $a> 1$ 时, $y=\log_a x$ 是增函数; 当 $0< a< 1$ 时, $y=\log_a x$ 是减函数. 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称.
 
 **常用结论 4.4.4** (不同函数增长的差异)
 
@@ -456,15 +456,15 @@ $$
 
 **定义 4.5.1** (函数的零点)
 
-对于一般函数 $y=f(x)$, 我们把使 $f(x)=0$ 的实数 $x$ 叫做函数 $y=f(x)$ 的零点.
+对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
 
 **常用结论 4.5.2** (函数零点存在定理)
 
-如果函数 $y=f(x)$ 在区间 $[a,b]$ 上的图象是一条连续不断的曲线, 且有 $f(a)f(b)< 0$, 那么, 函数 $y=f(x)$ 在区间 $(a,b)$ 内至少有一个零点, 即存在 $c\in(a,b)$, 使得 $f(c)=0$, 这个 $c$ 也就是方程 $f(x)=0$ 的解.
+如果函数 $y=f\left(x\right)$ 在区间 $\left[a,b\right]$ 上的图象是一条连续不断的曲线, 且有 $f\left(a\right)f\left(b\right)< 0$, 那么, 函数 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ 内至少有一个零点, 即存在 $c\in\left(a,b\right)$, 使得 $f\left(c\right)=0$, 这个 $c$ 也就是方程 $f\left(x\right)=0$ 的解.
 
 **定义 4.5.3** (二分法)
 
-对于在区间 $[a,b]$ 上图象连续不断且 $f(a)f(b)< 0$ 的函数 $y=f(x)$, 通过不断地把它的零点所在区间一分为二, 使所得区间的两个端点逐步逼近零点, 进而得到零点近似值的方法叫做二分法.
+对于在区间 $\left[a,b\right]$ 上图象连续不断且 $f\left(a\right)f\left(b\right)< 0$ 的函数 $y=f\left(x\right)$, 通过不断地把它的零点所在区间一分为二, 使所得区间的两个端点逐步逼近零点, 进而得到零点近似值的方法叫做二分法.
 
 ### 第五章 三角函数
 
@@ -483,7 +483,7 @@ $$
 所有与角 $\alpha$ 终边相同的角, 连同角 $\alpha$ 在内, 可构成一个集合
 
 $$
-S=\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\},
+S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 即任一与角 $\alpha$ 终边相同的角, 都可以表示成角 $\alpha$ 与整数个周角的和.
@@ -497,7 +497,7 @@ $$
 在半径为 $r$ 的圆中, 弧长为 $l$ 的弧所对的圆心角为 $\alpha\ \mathrm{rad}$, 那么
 
 $$
-|\alpha|=\frac{l}{r}.
+\left|\alpha\right|=\frac{l}{r}.
 $$
 
 其中, $\alpha$ 的正负由角 $\alpha$ 的终边的旋转方向决定, 即逆时针旋转为正, 顺时针旋转为负. 正角的弧度数是一个正数, 负角的弧度数是一个负数, 零角的弧度数是 $0$.
@@ -520,7 +520,7 @@ $$
 
 **定义 5.2.1** (正弦函数, 余弦函数, 正切函数)
 
-设 $\alpha$ 是一个任意角, $\alpha\in\mathbb R$, 它的终边 $OP$ 与单位圆相交于点 $P(x,y)$. (1) 把点 $P$ 的纵坐标 $y$ 叫做 $\alpha$ 的正弦函数, 记作 $\sin\alpha$, 即
+设 $\alpha$ 是一个任意角, $\alpha\in\mathbb R$, 它的终边 $OP$ 与单位圆相交于点 $P\left(x,y\right)$. (1) 把点 $P$ 的纵坐标 $y$ 叫做 $\alpha$ 的正弦函数, 记作 $\sin\alpha$, 即
 
 $$
 y=\sin\alpha;
@@ -535,7 +535,7 @@ $$
 (3) 把点 $P$ 的纵坐标与横坐标的比值 $\frac{y}{x}$ 叫做 $\alpha$ 的正切, 记作 $\tan\alpha$, 即
 
 $$
-\frac{y}{x}=\tan\alpha\quad(x\neq0).
+\frac{y}{x}=\tan\alpha\quad\left(x\neq0\right).
 $$
 
 **常用结论** (三角函数的定义域)
@@ -548,7 +548,7 @@ $$
 
 **定义 5.2.2** (终边上任意一点的三角函数比值)
 
-设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $(x,y)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则
+设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $\left(x,y\right)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则
 
 $$
 \sin\alpha=\frac{y}{r},\quad \cos\alpha=\frac{x}{r},\quad \tan\alpha=\frac{y}{x}.
@@ -557,7 +557,7 @@ $$
 **公式一** (终边相同的角的三角函数值)
 
 $$
-\sin(\alpha+k\cdot2\pi)=\sin\alpha,\quad \cos(\alpha+k\cdot2\pi)=\cos\alpha,\quad \tan(\alpha+k\cdot2\pi)=\tan\alpha,
+\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha,\quad \cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha,\quad \tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha,
 $$
 
 其中 $k\in\mathbb Z$.
@@ -571,7 +571,7 @@ $$
 同一个角 $\alpha$ 的正弦, 余弦的平方和等于 $1$, 商等于角 $\alpha$ 的正切, 即
 
 $$
-\sin^{2}\alpha+\cos^{2}\alpha=1,\quad \frac{\sin\alpha}{\cos\alpha}=\tan\alpha\quad(\alpha\neq k\pi+\frac{\pi}{2},\ k\in\mathbb Z).
+\sin^{2}\alpha+\cos^{2}\alpha=1,\quad \frac{\sin\alpha}{\cos\alpha}=\tan\alpha\quad\left(\alpha\neq k\pi+\frac{\pi}{2},\ k\in\mathbb Z\right).
 $$
 
 #### 5.3 诱导公式
@@ -579,19 +579,19 @@ $$
 **公式二**
 
 $$
-\sin(\pi+\alpha)=-\sin\alpha,\quad \cos(\pi+\alpha)=-\cos\alpha,\quad \tan(\pi+\alpha)=\tan\alpha.
+\sin\left(\pi+\alpha\right)=-\sin\alpha,\quad \cos\left(\pi+\alpha\right)=-\cos\alpha,\quad \tan\left(\pi+\alpha\right)=\tan\alpha.
 $$
 
 **公式三**
 
 $$
-\sin(-\alpha)=-\sin\alpha,\quad \cos(-\alpha)=\cos\alpha,\quad \tan(-\alpha)=-\tan\alpha.
+\sin\left(-\alpha\right)=-\sin\alpha,\quad \cos\left(-\alpha\right)=\cos\alpha,\quad \tan\left(-\alpha\right)=-\tan\alpha.
 $$
 
 **公式四**
 
 $$
-\sin(\pi-\alpha)=\sin\alpha,\quad \cos(\pi-\alpha)=-\cos\alpha,\quad \tan(\pi-\alpha)=-\tan\alpha.
+\sin\left(\pi-\alpha\right)=\sin\alpha,\quad \cos\left(\pi-\alpha\right)=-\cos\alpha,\quad \tan\left(\pi-\alpha\right)=-\tan\alpha.
 $$
 
 **公式五**
@@ -610,7 +610,7 @@ $$
 
 **定义 5.4.1** (周期函数)
 
-一般地, 设函数 $f(x)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f(x+T)=f(x)$, 那么函数 $f(x)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f(x)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f(x)$ 的最小正周期.
+一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 **常用结论** (正弦函数的图象与性质)
 
@@ -618,15 +618,15 @@ $$
 
 **常用结论** (余弦函数的图象与性质)
 
-余弦函数 $y=\cos x$, $x\in\mathbb R$ 的图象叫做余弦曲线. 余弦函数是周期函数, 最小正周期为 $2\pi$. 余弦函数是偶函数, 图象关于 $y$ 轴对称. 余弦函数在每一个闭区间 $\left[-\pi+2k\pi,\ 2k\pi\right]$ ($k\in\mathbb Z$) 上都单调递增, 其值从 $-1$ 增大到 $1$; 在每一个闭区间 $\left[2k\pi,\ \pi+2k\pi\right]$ 上都单调递减, 其值从 $1$ 减小到 $-1$. 余弦函数当且仅当 $x=2k\pi$ 时取得最大值 $1$, 当且仅当 $x=(2k+1)\pi$ 时取得最小值 $-1$.
+余弦函数 $y=\cos x$, $x\in\mathbb R$ 的图象叫做余弦曲线. 余弦函数是周期函数, 最小正周期为 $2\pi$. 余弦函数是偶函数, 图象关于 $y$ 轴对称. 余弦函数在每一个闭区间 $\left[-\pi+2k\pi,\ 2k\pi\right]$ ($k\in\mathbb Z$) 上都单调递增, 其值从 $-1$ 增大到 $1$; 在每一个闭区间 $\left[2k\pi,\ \pi+2k\pi\right]$ 上都单调递减, 其值从 $1$ 减小到 $-1$. 余弦函数当且仅当 $x=2k\pi$ 时取得最大值 $1$, 当且仅当 $x=\left(2k+1\right)\pi$ 时取得最小值 $-1$.
 
 **常用结论** (正切函数的图象与性质)
 
 正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$ 的图象叫做正切曲线. 正切函数是周期函数, 最小正周期为 $\pi$. 正切函数是奇函数. 正切函数在每一个区间 $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ ($k\in\mathbb Z$) 上都单调递增. 正切函数的值域是实数集 $\mathbb R$.
 
-**常用结论** ($y=A\sin(\omega x+\varphi)$ 的周期)
+**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期)
 
-函数 $y=A\sin(\omega x+\varphi)$, $x\in\mathbb R$ 及函数 $y=A\cos(\omega x+\varphi)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega> 0$) 的周期
+函数 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\mathbb R$ 及函数 $y=A\cos\left(\omega x+\varphi\right)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega> 0$) 的周期
 
 $$
 T=\frac{2\pi}{\omega}.
@@ -637,37 +637,37 @@ $$
 **公式 5.5.1** (差角余弦公式)
 
 $$
-\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta.
+\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta.
 $$
 
 **公式 5.5.2** (和角余弦公式)
 
 $$
-\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta.
+\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta.
 $$
 
 **公式 5.5.3** (和角正弦公式)
 
 $$
-\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta.
+\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta.
 $$
 
 **公式 5.5.4** (差角正弦公式)
 
 $$
-\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta.
+\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta.
 $$
 
 **公式 5.5.5** (和角正切公式)
 
 $$
-\tan(\alpha+\beta)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}.
+\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}.
 $$
 
 **公式 5.5.6** (差角正切公式)
 
 $$
-\tan(\alpha-\beta)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}.
+\tan\left(\alpha-\beta\right)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}.
 $$
 
 **公式 5.5.7** (二倍角正弦公式)
@@ -697,7 +697,7 @@ $$
 **公式 5.5.11** (辅助角公式)
 
 $$
-a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin(x+\varphi),
+a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin\left(x+\varphi\right),
 $$
 
 其中
@@ -706,15 +706,15 @@ $$
 \cos\varphi=\frac{a}{\sqrt{a^{2}+b^{2}}},\quad \sin\varphi=\frac{b}{\sqrt{a^{2}+b^{2}}}.
 $$
 
-#### 5.6 函数 $y=A\sin(\omega x+\varphi)$
+#### 5.6 函数 $y=A\sin\left(\omega x+\varphi\right)$
 
 **定义 5.6.1** (振幅)
 
-函数 $y=A\sin(\omega x+\varphi)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
 
 **定义 5.6.2** (周期)
 
-函数 $y=A\sin(\omega x+\varphi)$ 的周期
+函数 $y=A\sin\left(\omega x+\varphi\right)$ 的周期
 
 $$
 T=\frac{2\pi}{\omega},
@@ -724,7 +724,7 @@ $$
 
 **定义 5.6.3** (频率)
 
-函数 $y=A\sin(\omega x+\varphi)$ 的频率
+函数 $y=A\sin\left(\omega x+\varphi\right)$ 的频率
 
 $$
 f=\frac{1}{T}=\frac{\omega}{2\pi},
@@ -738,13 +738,13 @@ $\omega x+\varphi$ 称为相位; $x=0$ 时的相位 $\varphi$ 称为初相.
 
 **性质 5.6.1** (图象变换)
 
-由 $y=\sin x$ 的图象得到 $y=A\sin(\omega x+\varphi)$ 的图象: (1) 向左 (右) 平移 $|\varphi|$ 个单位得 $y=\sin(x+\varphi)$; (2) 横坐标缩 (伸) 到原来的 $\frac{1}{\omega}$ 倍得 $y=\sin(\omega x+\varphi)$; (3) 纵坐标伸 (缩) 到原来的 $A$ 倍得 $y=A\sin(\omega x+\varphi)$.
+由 $y=\sin x$ 的图象得到 $y=A\sin\left(\omega x+\varphi\right)$ 的图象: (1) 向左 (右) 平移 $\left|\varphi\right|$ 个单位得 $y=\sin\left(x+\varphi\right)$; (2) 横坐标缩 (伸) 到原来的 $\frac{1}{\omega}$ 倍得 $y=\sin\left(\omega x+\varphi\right)$; (3) 纵坐标伸 (缩) 到原来的 $A$ 倍得 $y=A\sin\left(\omega x+\varphi\right)$.
 
 #### 5.7 三角函数的应用
 
 **定义 5.7.1** (简谐运动)
 
-物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin(\omega x+\varphi)$, $x\in[0,+\infty)$ 表示, 其中 $A> 0$, $\omega> 0$.
+物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
 
 **定义 5.7.2** (振幅, 周期, 频率, 相位)
 
@@ -814,18 +814,18 @@ $\omega x+\varphi$ 称为相位, $x=0$ 时的相位 $\varphi$ 称为初相.
 **常用结论 6.2.3** (向量加法的运算律与三角不等式)
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a};\quad (\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c});\quad \lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert,
+\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a};\quad \left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right);\quad \lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert,
 $$
 
 当且仅当 $\boldsymbol{a}$, $\boldsymbol{b}$ 中有一个是零向量或方向相同时等号成立.
 
 **定义 6.2.4** (相反向量)
 
-与向量 $\boldsymbol{a}$ 长度相等, 方向相反的向量叫做 $\boldsymbol{a}$ 的相反向量, 记作 $-\boldsymbol{a}$. 零向量的相反向量仍是零向量. $\boldsymbol{a}+(-\boldsymbol{a})=\boldsymbol{0}$.
+与向量 $\boldsymbol{a}$ 长度相等, 方向相反的向量叫做 $\boldsymbol{a}$ 的相反向量, 记作 $-\boldsymbol{a}$. 零向量的相反向量仍是零向量. $\boldsymbol{a}+\left(-\boldsymbol{a}\right)=\boldsymbol{0}$.
 
 **定义 6.2.5** (向量的减法)
 
-向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
+向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
 **定义 6.2.6** (向量的数乘)
 
@@ -834,7 +834,7 @@ $$
 **常用结论 6.2.7** (数乘的运算律)
 
 $$
-\lambda(\mu\boldsymbol{a})=(\lambda\mu)\boldsymbol{a};\quad (\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a};\quad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
+\lambda\left(\mu\boldsymbol{a}\right)=\left(\lambda\mu\right)\boldsymbol{a};\quad \left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a};\quad \lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
 $$
 
 **定理 6.2.8** (共线向量定理)
@@ -882,7 +882,7 @@ $$
 **常用结论 6.2.14** (数量积的运算律)
 
 $$
-\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a};\quad (\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b});\quad (\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}.
+\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a};\quad \left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right);\quad \left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}.
 $$
 
 #### 6.3 平面向量基本定理及坐标表示
@@ -909,25 +909,25 @@ $$
 \boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}.
 $$
 
-我们把 $(x,y)$ 叫做向量 $\boldsymbol{a}$ 的坐标, 记作
+我们把 $\left(x,y\right)$ 叫做向量 $\boldsymbol{a}$ 的坐标, 记作
 
 $$
-\boldsymbol{a}=(x,y).
+\boldsymbol{a}=\left(x,y\right).
 $$
 
 **常用结论 6.3.4** (坐标的加, 减, 数乘运算)
 
-若 $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 则
+若 $\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, 则
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=(x_1+x_2,y_1+y_2),\quad \boldsymbol{a}-\boldsymbol{b}=(x_1-x_2,y_1-y_2),\quad \lambda\boldsymbol{a}=(\lambda x_1,\lambda y_1).
+\boldsymbol{a}+\boldsymbol{b}=\left(x_1+x_2,y_1+y_2\right),\quad \boldsymbol{a}-\boldsymbol{b}=\left(x_1-x_2,y_1-y_2\right),\quad \lambda\boldsymbol{a}=\left(\lambda x_1,\lambda y_1\right).
 $$
 
 一个向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
 
 **常用结论 6.3.5** (向量共线的坐标表示)
 
-若 $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 其中 $\boldsymbol{b}\neq\boldsymbol{0}$, 则
+若 $\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, 其中 $\boldsymbol{b}\neq\boldsymbol{0}$, 则
 
 $$
 \boldsymbol{a}\parallel\boldsymbol{b}\Longleftrightarrow x_1y_2-x_2y_1=0.
@@ -935,7 +935,7 @@ $$
 
 **常用结论 6.3.6** (中点坐标公式)
 
-已知 $P_1(x_1,y_1)$, $P_2(x_2,y_2)$, 则线段 $P_1P_2$ 的中点 $P$ 的坐标为
+已知 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$, 则线段 $P_1P_2$ 的中点 $P$ 的坐标为
 
 $$
 \left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right).
@@ -943,7 +943,7 @@ $$
 
 **常用结论 6.3.7** (数量积的坐标表示)
 
-若 $\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 则
+若 $\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, 则
 
 $$
 \boldsymbol{a}\cdot\boldsymbol{b}=x_1x_2+y_1y_2.
@@ -993,21 +993,21 @@ $$
 
 **定义 7.1.2** (复数)
 
-形如 $a+b\mathrm{i}\ (a,b\in\mathbb R)$ 的数叫做复数.
+形如 $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ 的数叫做复数.
 
 **定义 7.1.3** (复数集)
 
 全体复数构成的集合
 
 $$
-\mathbb C=\{a+b\mathrm{i}\mid a,b\in\mathbb R\}
+\mathbb C=\left\{a+b\mathrm{i}\mid a,b\in\mathbb R\right\}
 $$
 
 叫做复数集.
 
 **定义 7.1.4** (实部与虚部)
 
-复数 $z=a+b\mathrm{i}\ (a,b\in\mathbb R)$ 中, $a$ 叫做复数 $z$ 的实部, $b$ 叫做复数 $z$ 的虚部.
+复数 $z=a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ 中, $a$ 叫做复数 $z$ 的实部, $b$ 叫做复数 $z$ 的虚部.
 
 **定义 7.1.5** (复数相等)
 
@@ -1019,7 +1019,7 @@ $$
 
 **定义 7.1.6** (实数, 虚数, 纯虚数)
 
-对于复数 $a+b\mathrm{i}\ (a,b\in\mathbb R)$, 当且仅当 $b=0$ 时, 它是实数; 当 $b\neq 0$ 时, 它叫做虚数; 当 $a=0$ 且 $b\neq 0$ 时, 它叫做纯虚数.
+对于复数 $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, 当且仅当 $b=0$ 时, 它是实数; 当 $b\neq 0$ 时, 它叫做虚数; 当 $a=0$ 且 $b\neq 0$ 时, 它叫做纯虚数.
 
 **定义 7.1.7** (复平面)
 
@@ -1027,14 +1027,14 @@ $$
 
 **定义 7.1.8** (复数的几何意义)
 
-复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z(a,b)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\boldsymbol{OZ}$ 一一对应.
+复数 $z=a+b\mathrm{i}$ 与复平面内的点 $Z\left(a,b\right)$ 一一对应; 复数 $z=a+b\mathrm{i}$ 与平面向量 $\boldsymbol{OZ}$ 一一对应.
 
 **定义 7.1.9** (复数的模)
 
-向量 $\boldsymbol{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $|z|$ 或 $|a+b\mathrm{i}|$, 即
+向量 $\boldsymbol{OZ}$ 的模叫做复数 $z=a+b\mathrm{i}$ 的模, 记作 $\left|z\right|$ 或 $\left|a+b\mathrm{i}\right|$, 即
 
 $$
-|z|=|a+b\mathrm{i}|=\sqrt{a^2+b^2}.
+\left|z\right|=\left|a+b\mathrm{i}\right|=\sqrt{a^2+b^2}.
 $$
 
 **定义 7.1.10** (共轭复数)
@@ -1045,10 +1045,10 @@ $$
 
 **定义 7.2.1** (复数加法法则)
 
-设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ (a,b,c,d\in\mathbb R)$, 则
+设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ \left(a,b,c,d\in\mathbb R\right)$, 则
 
 $$
-(a+b\mathrm{i})+(c+d\mathrm{i})=(a+c)+(b+d)\mathrm{i}.
+\left(a+b\mathrm{i}\right)+\left(c+d\mathrm{i}\right)=\left(a+c\right)+\left(b+d\right)\mathrm{i}.
 $$
 
 **定义 7.2.2** (复数减法法则)
@@ -1056,38 +1056,38 @@ $$
 复数的减法是加法的逆运算, 即
 
 $$
-(a+b\mathrm{i})-(c+d\mathrm{i})=(a-c)+(b-d)\mathrm{i}.
+\left(a+b\mathrm{i}\right)-\left(c+d\mathrm{i}\right)=\left(a-c\right)+\left(b-d\right)\mathrm{i}.
 $$
 
 **常用结论 7.2.3** (加法的运算律)
 
-对任意 $z_1,z_2,z_3\in\mathbb C$, 有 $z_1+z_2=z_2+z_1$, $(z_1+z_2)+z_3=z_1+(z_2+z_3)$.
+对任意 $z_1,z_2,z_3\in\mathbb C$, 有 $z_1+z_2=z_2+z_1$, $\left(z_1+z_2\right)+z_3=z_1+\left(z_2+z_3\right)$.
 
 **常用结论 7.2.4** (复数加, 减法的几何意义)
 
-复数加法可按照向量的加法来进行; 复数减法可按照向量的减法来进行. 复平面内两点 $Z_1(x_1,y_1)$, $Z_2(x_2,y_2)$ 之间的距离为
+复数加法可按照向量的加法来进行; 复数减法可按照向量的减法来进行. 复平面内两点 $Z_1\left(x_1,y_1\right)$, $Z_2\left(x_2,y_2\right)$ 之间的距离为
 
 $$
-\lvert Z_1Z_2\rvert=\lvert z_2-z_1\rvert=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}.
+\lvert Z_1Z_2\rvert=\lvert z_2-z_1\rvert=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}.
 $$
 
 **定义 7.2.5** (复数乘法法则)
 
-设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ (a,b,c,d\in\mathbb R)$, 则
+设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}\ \left(a,b,c,d\in\mathbb R\right)$, 则
 
 $$
-(a+b\mathrm{i})(c+d\mathrm{i})=(ac-bd)+(ad+bc)\mathrm{i}.
+\left(a+b\mathrm{i}\right)\left(c+d\mathrm{i}\right)=\left(ac-bd\right)+\left(ad+bc\right)\mathrm{i}.
 $$
 
 **常用结论 7.2.6** (乘法的运算律)
 
-对任意 $z_1,z_2,z_3\in\mathbb C$, 有 $z_1z_2=z_2z_1$, $(z_1z_2)z_3=z_1(z_2z_3)$, $z_1(z_2+z_3)=z_1z_2+z_1z_3$.
+对任意 $z_1,z_2,z_3\in\mathbb C$, 有 $z_1z_2=z_2z_1$, $\left(z_1z_2\right)z_3=z_1\left(z_2z_3\right)$, $z_1\left(z_2+z_3\right)=z_1z_2+z_1z_3$.
 
 #### 7.3 复数的三角表示
 
 **定义 7.3.1** (复数的三角表示式)
 
-任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r(\cos\theta+\mathrm{i}\sin\theta)$ 的形式, 其中 $r$ 是复数 $z$ 的模, $\theta$ 是以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角. $r(\cos\theta+\mathrm{i}\sin\theta)$ 叫做复数 $z=a+b\mathrm{i}$ 的三角表示式, 简称三角形式; $a+b\mathrm{i}$ 叫做代数表示式.
+任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$ 的形式, 其中 $r$ 是复数 $z$ 的模, $\theta$ 是以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角. $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$ 叫做复数 $z=a+b\mathrm{i}$ 的三角表示式, 简称三角形式; $a+b\mathrm{i}$ 叫做代数表示式.
 
 **定义 7.3.2** (辐角)
 
@@ -1104,7 +1104,7 @@ $$
 **定义 7.3.5** (复数乘法的三角表示)
 
 $$
-r_1(\cos\theta_1+\mathrm{i}\sin\theta_1)\cdot r_2(\cos\theta_2+\mathrm{i}\sin\theta_2)=r_1r_2[\cos(\theta_1+\theta_2)+\mathrm{i}\sin(\theta_1+\theta_2)].
+r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)\cdot r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)=r_1r_2\left[\cos\left(\theta_1+\theta_2\right)+\mathrm{i}\sin\left(\theta_1+\theta_2\right)\right].
 $$
 
 即积的模等于各复数模的积, 积的辐角等于各复数辐角的和.
@@ -1112,7 +1112,7 @@ $$
 **定义 7.3.6** (复数除法的三角表示)
 
 $$
-\frac{r_1(\cos\theta_1+\mathrm{i}\sin\theta_1)}{r_2(\cos\theta_2+\mathrm{i}\sin\theta_2)}=\frac{r_1}{r_2}[\cos(\theta_1-\theta_2)+\mathrm{i}\sin(\theta_1-\theta_2)]\quad (r_2\neq 0).
+\frac{r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)}{r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)}=\frac{r_1}{r_2}\left[\cos\left(\theta_1-\theta_2\right)+\mathrm{i}\sin\left(\theta_1-\theta_2\right)\right]\quad \left(r_2\neq 0\right).
 $$
 
 即商的模等于被除数的模除以除数的模, 商的辐角等于被除数的辐角减去除数的辐角.
@@ -1238,7 +1238,7 @@ $$
 圆柱底面半径为 $r$, 母线长为 $l$, 则
 
 $$
-S_{\text{圆柱}}=2\pi r(r+l).
+S_{\text{圆柱}}=2\pi r\left(r+l\right).
 $$
 
 **定义 8.3.6** (圆锥表面积)
@@ -1246,7 +1246,7 @@ $$
 圆锥底面半径为 $r$, 母线长为 $l$, 则
 
 $$
-S_{\text{圆锥}}=\pi r(r+l).
+S_{\text{圆锥}}=\pi r\left(r+l\right).
 $$
 
 **定义 8.3.7** (圆台表面积)
@@ -1465,7 +1465,7 @@ $$
 
 **定义 9.2.2** (第 $p$ 百分位数)
 
-一组数据的第 $p$ 百分位数是这样一个值, 它使得这组数据中至少有 $p\%$ 的数据小于或等于这个值, 且至少有 $(100-p)\%$ 的数据大于或等于这个值. 计算步骤为: 按从小到大排列原始数据, 计算 $i=n\times p\%$, 若 $i$ 不是整数, 而大于 $i$ 的比邻整数为 $j$, 则第 $p$ 百分位数为第 $j$ 项数据; 若 $i$ 是整数, 则第 $p$ 百分位数为第 $i$ 项与第 $(i+1)$ 项数据的平均数. 中位数就是第 50 百分位数.
+一组数据的第 $p$ 百分位数是这样一个值, 它使得这组数据中至少有 $p\%$ 的数据小于或等于这个值, 且至少有 $\left(100-p\right)\%$ 的数据大于或等于这个值. 计算步骤为: 按从小到大排列原始数据, 计算 $i=n\times p\%$, 若 $i$ 不是整数, 而大于 $i$ 的比邻整数为 $j$, 则第 $p$ 百分位数为第 $j$ 项数据; 若 $i$ 是整数, 则第 $p$ 百分位数为第 $i$ 项与第 $\left(i+1\right)$ 项数据的平均数. 中位数就是第 50 百分位数.
 
 **定义 9.2.3** (众数, 中位数与平均数)
 
@@ -1476,25 +1476,25 @@ $$
 总体中所有数据 $Y_1,\cdots,Y_N$ 与总体平均数 $\bar Y$ 差的平方的平均数
 
 $$
-s^2=\frac{1}{N}\sum_{i=1}^{N}(Y_i-\bar Y)^2
+s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2
 $$
 
 称为总体方差, 其算术平方根
 
 $$
-s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}(Y_i-\bar Y)^2}
+s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2}
 $$
 
 称为总体标准差; 相应地, 样本方差为
 
 $$
-s^2=\frac{1}{n}\sum_{i=1}^{n}(y_i-\bar y)^2,
+s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2,
 $$
 
 样本标准差为
 
 $$
-s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\bar y)^2}.
+s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}.
 $$
 
 方差 (标准差) 越大, 数据的离散程度越大.
@@ -1510,7 +1510,7 @@ $$
 则合并数据的方差为
 
 $$
-s^2=\frac{n_1(s_1^2+(\bar x_1-\bar w)^2)+n_2(s_2^2+(\bar x_2-\bar w)^2)}{n_1+n_2}.
+s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}.
 $$
 
 **常用结论 9.2.6** (数据变换对平均数与方差的影响)
@@ -1535,7 +1535,7 @@ $$
 
 **定义 10.1.3** (有限样本空间)
 
-如果一个随机试验有 $n$ 个可能结果 $\omega_1, \omega_2, \cdots, \omega_n$, 则称样本空间 $\Omega=\{\omega_1, \omega_2, \cdots, \omega_n\}$ 为有限样本空间.
+如果一个随机试验有 $n$ 个可能结果 $\omega_1, \omega_2, \cdots, \omega_n$, 则称样本空间 $\Omega=\left\{\omega_1, \omega_2, \cdots, \omega_n\right\}$ 为有限样本空间.
 
 **定义 10.1.4** (随机事件)
 
@@ -1586,47 +1586,47 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 一般地, 设试验 $E$ 是古典概型, 样本空间 $\Omega$ 包含 $n$ 个样本点, 事件 $A$ 包含其中的 $k$ 个样本点, 则定义事件 $A$ 的概率
 
 $$
-\mathbb P(A)=\frac{k}{n}=\frac{n(A)}{n(\Omega)},
+\mathbb P\left(A\right)=\frac{k}{n}=\frac{n\left(A\right)}{n\left(\Omega\right)},
 $$
 
-其中 $n(A)$ 和 $n(\Omega)$ 分别表示事件 $A$ 和样本空间 $\Omega$ 包含的样本点个数.
+其中 $n\left(A\right)$ 和 $n\left(\Omega\right)$ 分别表示事件 $A$ 和样本空间 $\Omega$ 包含的样本点个数.
 
 **性质 10.1.16** (概率的非负性)
 
-对任意的事件 $A$, 都有 $\mathbb P(A)\ge 0$.
+对任意的事件 $A$, 都有 $\mathbb P\left(A\right)\ge 0$.
 
 **性质 10.1.17** (必然事件与不可能事件的概率)
 
-必然事件的概率为 $1$, 不可能事件的概率为 $0$, 即 $\mathbb P(\Omega)=1$, $\mathbb P(\varnothing)=0$.
+必然事件的概率为 $1$, 不可能事件的概率为 $0$, 即 $\mathbb P\left(\Omega\right)=1$, $\mathbb P\left(\varnothing\right)=0$.
 
 **性质 10.1.18** (互斥事件的概率加法公式)
 
 如果事件 $A$ 与事件 $B$ 互斥, 那么
 
 $$
-\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B).
+\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right).
 $$
 
 互斥事件的概率加法公式可以推广到多个事件的情况: 如果事件 $A_1, A_2, \cdots, A_m$ 两两互斥, 那么
 
 $$
-\mathbb P(A_1\cup A_2\cup\cdots\cup A_m)=\mathbb P(A_1)+\mathbb P(A_2)+\cdots+\mathbb P(A_m).
+\mathbb P\left(A_1\cup A_2\cup\cdots\cup A_m\right)=\mathbb P\left(A_1\right)+\mathbb P\left(A_2\right)+\cdots+\mathbb P\left(A_m\right).
 $$
 
 **性质 10.1.19** (对立事件的概率)
 
-如果事件 $A$ 与事件 $B$ 互为对立事件, 那么 $\mathbb P(B)=1-\mathbb P(A)$, $\mathbb P(A)=1-\mathbb P(B)$.
+如果事件 $A$ 与事件 $B$ 互为对立事件, 那么 $\mathbb P\left(B\right)=1-\mathbb P\left(A\right)$, $\mathbb P\left(A\right)=1-\mathbb P\left(B\right)$.
 
 **性质 10.1.20** (概率的单调性)
 
-如果 $A\subseteq B$, 那么 $\mathbb P(A)\le \mathbb P(B)$. 由性质 10.1.20 可得, 对于任意事件 $A$, 因为 $\varnothing\subseteq A\subseteq\Omega$, 所以 $0\le \mathbb P(A)\le 1$.
+如果 $A\subseteq B$, 那么 $\mathbb P\left(A\right)\le \mathbb P\left(B\right)$. 由性质 10.1.20 可得, 对于任意事件 $A$, 因为 $\varnothing\subseteq A\subseteq\Omega$, 所以 $0\le \mathbb P\left(A\right)\le 1$.
 
 **性质 10.1.21** (一般概率加法公式)
 
 设 $A, B$ 是一个随机试验中的两个事件, 我们有
 
 $$
-\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B)-\mathbb P(A\cap B).
+\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(A\cap B\right).
 $$
 
 #### 10.2 事件的相互独立性
@@ -1636,7 +1636,7 @@ $$
 对任意两个事件 $A$ 与 $B$, 如果
 
 $$
-\mathbb P(A\cap B)=\mathbb P(A)\mathbb P(B)
+\mathbb P\left(A\cap B\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)
 $$
 
 成立, 则称事件 $A$ 与事件 $B$ 相互独立, 简称为独立.
@@ -1649,7 +1649,7 @@ $$
 
 **定义 10.3.1** (频率的稳定性)
 
-一般地, 随着试验次数 $n$ 的增大, 频率偏离概率的幅度会缩小, 即事件 $A$ 发生的频率 $f_n(A)$ 会逐渐稳定于事件 $A$ 发生的概率 $\mathbb P(A)$. 我们称频率的这个性质为频率的稳定性. 因此, 我们可以用频率 $f_n(A)$ 估计概率 $\mathbb P(A)$.
+一般地, 随着试验次数 $n$ 的增大, 频率偏离概率的幅度会缩小, 即事件 $A$ 发生的频率 $f_n\left(A\right)$ 会逐渐稳定于事件 $A$ 发生的概率 $\mathbb P\left(A\right)$. 我们称频率的这个性质为频率的稳定性. 因此, 我们可以用频率 $f_n\left(A\right)$ 估计概率 $\mathbb P\left(A\right)$.
 
 **定义 10.3.2** (随机模拟)
 

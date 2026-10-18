@@ -1,12 +1,12 @@
 # 作业 84
 
-> **定义 7.2.1** (随机变量) <br>一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X(\omega)$ 与之对应, 我们称 $X$ 为随机变量. 通常用大写英文字母 $X$, $Y$, $Z$ 表示, 用小写英文字母 $x$, $y$, $z$ 表示其取值.
+> **定义 7.2.1** (随机变量) <br>一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X\left(\omega\right)$ 与之对应, 我们称 $X$ 为随机变量. 通常用大写英文字母 $X$, $Y$, $Z$ 表示, 用小写英文字母 $x$, $y$, $z$ 表示其取值.
 
 > **定义 7.2.2** (离散型随机变量) <br>可能取值为有限个或可以一一列举的随机变量, 称为离散型随机变量.
 
-> **定义 7.2.3** (分布列) <br>设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称 $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$ 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
+> **定义 7.2.3** (分布列) <br>设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$ 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
 
-> **定义 7.2.4** (两点分布) <br>对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $\mathbb P(A)=p$, 则 $\mathbb P(\bar A)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
+> **定义 7.2.4** (两点分布) <br>对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $\mathbb P\left(A\right)=p$, 则 $\mathbb P\left(\bar A\right)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
 
 ### 练习一
 
@@ -48,7 +48,7 @@
 
 由**定义 7.2.4** (两点分布), 一次罚球只有命中与不中两种结果.
 
-设 $X$ 为一次罚球的得分, 则 $X$ 的可能取值为 $0,1$, 且 $\mathbb P(X=1)=0.7$, $\mathbb P(X=0)=1-0.7=0.3$. 故 $X$ 的分布列为
+设 $X$ 为一次罚球的得分, 则 $X$ 的可能取值为 $0,1$, 且 $\mathbb P\left(X=1\right)=0.7$, $\mathbb P\left(X=0\right)=1-0.7=0.3$. 故 $X$ 的分布列为
 
 | $X$ | 0 | 1 |
 |---|---|---|
@@ -64,18 +64,18 @@ $\blacksquare$
 
 由**定义 7.2.3** (分布列), 先确定 $X$ 的可能取值, 再用古典概型求各取值的概率.
 
-抛掷 2 次硬币, 正面向上次数 $X$ 的可能取值为 $0,1,2$. 样本空间为 $\{正正, 正反, 反正, 反反\}$, 共 4 个等可能样本点.
+抛掷 2 次硬币, 正面向上次数 $X$ 的可能取值为 $0,1,2$. 样本空间为 $\left\{正正, 正反, 反正, 反反\right\}$, 共 4 个等可能样本点.
 
 $$
-\mathbb P(X=0)=\mathbb P(\text{反反})=\frac{1}{4}.
-$$
-
-$$
-\mathbb P(X=1)=\frac{2}{4}=\frac{1}{2}.
+\mathbb P\left(X=0\right)=\mathbb P\left(\text{反反}\right)=\frac{1}{4}.
 $$
 
 $$
-\mathbb P(X=2)=\mathbb P(\text{正正})=\frac{1}{4}.
+\mathbb P\left(X=1\right)=\frac{2}{4}=\frac{1}{2}.
+$$
+
+$$
+\mathbb P\left(X=2\right)=\mathbb P\left(\text{正正}\right)=\frac{1}{4}.
 $$
 
 故 $X$ 的分布列为
@@ -101,7 +101,7 @@ $\blacksquare$
 (1) 每个路口遇红灯记为 $R$, 遇绿灯记为 $G$, 4 个路口共有 $2^4=16$ 个样本点, 样本空间为
 
 $$
-\Omega=\{RRRR, RRRG, RRGR, \cdots, GGGG\}.
+\Omega=\left\{RRRR, RRRG, RRGR, \cdots, GGGG\right\}.
 $$
 
 (2) $X$ 为遇到红灯的次数, 其可能取值为 $0,1,2,3,4$, 其中 $X=k$ ($k=0,1,2,3,4$) 表示经过 4 个路口时恰遇到 $k$ 次红灯. $\blacksquare$
@@ -141,7 +141,7 @@ $$
 如果只关心该同学是否取得优秀成绩, 可定义随机变量
 
 $$
-Y=\begin{cases}1, & \text{成绩优秀 (时间不超过 }4\,\mathrm{min}),\\0, & \text{成绩不优秀}.\end{cases}
+Y=\begin{cases}1, & \text{成绩优秀 \left(时间不超过 }4\,\mathrm{min}\right),\\0, & \text{成绩不优秀}.\end{cases}
 $$
 
 此时 $Y$ 只有两个可能取值 $0,1$, 服从两点分布. $\blacksquare$
@@ -158,10 +158,10 @@ $$
 
 ### 解答 习题四
 
-由**定义 7.2.3** (分布列), 事件 "成绩优秀" 即 $\{X=9\}\cup\{X=10\}$, 由概率的加法公式求其概率.
+由**定义 7.2.3** (分布列), 事件 "成绩优秀" 即 $\left\{X=9\right\}\cup\left\{X=10\right\}$, 由概率的加法公式求其概率.
 
 $$
-\mathbb P(\text{优秀})=\mathbb P(X=9)+\mathbb P(X=10)=0.35+0.20=0.55.
+\mathbb P\left(\text{优秀}\right)=\mathbb P\left(X=9\right)+\mathbb P\left(X=10\right)=0.35+0.20=0.55.
 $$
 
 故他一次射击成绩为优秀的概率是 0.55. $\blacksquare$
@@ -181,19 +181,19 @@ $$
 设 $X$ 为抽到他能背诵的课文的数量. 从 10 篇中任取 3 篇, 样本空间含 $\binom{10}{3}$ 个等可能样本点. 10 篇中他会背 6 篇, 不会背 4 篇. $X$ 的可能取值为 $0,1,2,3$.
 
 $$
-\mathbb P(X=0)=\frac{\binom{6}{0} \binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
+\mathbb P\left(X=0\right)=\frac{\binom{6}{0} \binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
 $$
 
 $$
-\mathbb P(X=1)=\frac{\binom{6}{1} \binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
+\mathbb P\left(X=1\right)=\frac{\binom{6}{1} \binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
 $$
 
 $$
-\mathbb P(X=2)=\frac{\binom{6}{2} \binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
+\mathbb P\left(X=2\right)=\frac{\binom{6}{2} \binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
 $$
 
 $$
-\mathbb P(X=3)=\frac{\binom{6}{3} \binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
+\mathbb P\left(X=3\right)=\frac{\binom{6}{3} \binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
 $$
 
 (1) $X$ 的分布列为
@@ -202,10 +202,10 @@ $$
 |---|---|---|---|---|
 | $P$ | $\frac{1}{30}$ | $\frac{3}{10}$ | $\frac{1}{2}$ | $\frac{1}{6}$ |
 
-(2) 至少背出 2 篇才能及格, 即事件 $\{X\ge 2\}$, 故
+(2) 至少背出 2 篇才能及格, 即事件 $\left\{X\ge 2\right\}$, 故
 
 $$
-\mathbb P(\text{及格})=\mathbb P(X=2)+\mathbb P(X=3)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
+\mathbb P\left(\text{及格}\right)=\mathbb P\left(X=2\right)+\mathbb P\left(X=3\right)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
 $$
 
 $\blacksquare$
@@ -225,15 +225,15 @@ $\blacksquare$
 设 $X$ 为李明一年内参加考试的次数. 一旦通过即停止, 故: $X=1$ 表示第 1 次即通过; $X=2$ 表示第 1 次未通过而第 2 次通过; $X=3$ 表示前 2 次都未通过 (无论第 3 次是否通过).
 
 $$
-\mathbb P(X=1)=0.6.
+\mathbb P\left(X=1\right)=0.6.
 $$
 
 $$
-\mathbb P(X=2)=(1-0.6)\times 0.7=0.4\times 0.7=0.28.
+\mathbb P\left(X=2\right)=\left(1-0.6\right)\times 0.7=0.4\times 0.7=0.28.
 $$
 
 $$
-\mathbb P(X=3)=(1-0.6)\times(1-0.7)=0.4\times 0.3=0.12.
+\mathbb P\left(X=3\right)=\left(1-0.6\right)\times\left(1-0.7\right)=0.4\times 0.3=0.12.
 $$
 
 (1) $X$ 的分布列为
@@ -245,7 +245,7 @@ $$
 (2) 领到资格证书即至少有一次通过, 其对立事件为三次都未通过. 三次都未通过的概率为 $0.4\times 0.3\times 0.2=0.024$, 故
 
 $$
-\mathbb P(\text{领到证书})=1-0.024=0.976.
+\mathbb P\left(\text{领到证书}\right)=1-0.024=0.976.
 $$
 
 $\blacksquare$

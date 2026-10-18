@@ -10,7 +10,7 @@
 
 > **Definition 6.2.4** (Opposite Vectors) <br>The vector with the same length as $\boldsymbol{a}$ but opposite direction is denoted $-\boldsymbol{a}$.
 
-> **Definition 6.2.5** (Vector Subtraction) <br>$\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
+> **Definition 6.2.5** (Vector Subtraction) <br>$\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
 > **Definition 6.2.6** (Scalar Multiplication of Vectors) <br>$\lambda\boldsymbol{a}$ is a vector, $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$, its direction determined by the sign of $\lambda$.
 
@@ -22,7 +22,7 @@
 
 > **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors) <br>$\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$, where $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ are non-collinear.
 
-> **Common Result 6.3.4** (Coordinate Operations) <br>$\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, then $\boldsymbol{a}+\boldsymbol{b}=(x_1+x_2,y_1+y_2)$, $\boldsymbol{a}-\boldsymbol{b}=(x_1-x_2,y_1-y_2)$, $\lambda\boldsymbol{a}=(\lambda x_1,\lambda y_1)$.
+> **Common Result 6.3.4** (Coordinate Operations) <br>$\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, then $\boldsymbol{a}+\boldsymbol{b}=\left(x_1+x_2,y_1+y_2\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(x_1-x_2,y_1-y_2\right)$, $\lambda\boldsymbol{a}=\left(\lambda x_1,\lambda y_1\right)$.
 
 > **Common Result 6.3.5** (Coordinate Representation of Collinearity) <br>$\boldsymbol{a}\parallel\boldsymbol{b}\Longleftrightarrow x_1y_2-x_2y_1=0$.
 
@@ -96,9 +96,9 @@ By **Definition 6.2.4** (Opposite Vectors) and **Definition 6.2.5** (Vector Subt
 
 (6) Which of the following groups of vectors can serve as a basis? ().
 
-(A) $\boldsymbol{e}_1=(0,0)$, $\boldsymbol{e}_2=(1,-2)$ (B) $\boldsymbol{e}_1=(-1,2)$, $\boldsymbol{e}_2=(5,7)$
+(A) $\boldsymbol{e}_1=\left(0,0\right)$, $\boldsymbol{e}_2=\left(1,-2\right)$ (B) $\boldsymbol{e}_1=\left(-1,2\right)$, $\boldsymbol{e}_2=\left(5,7\right)$
 
-(C) $\boldsymbol{e}_1=(3,5)$, $\boldsymbol{e}_2=(6,10)$ (D) $\boldsymbol{e}_1=(2,-3)$, $\boldsymbol{e}_2=\left(\frac{1}{2},-\frac{3}{4}\right)$
+(C) $\boldsymbol{e}_1=\left(3,5\right)$, $\boldsymbol{e}_2=\left(6,10\right)$ (D) $\boldsymbol{e}_1=\left(2,-3\right)$, $\boldsymbol{e}_2=\left(\frac{1}{2},-\frac{3}{4}\right)$
 
 ### Solution to Problem 2
 
@@ -112,7 +112,7 @@ By **Definition 6.2.4** (Opposite Vectors) and **Definition 6.2.5** (Vector Subt
 
 (5) $M$ is the midpoint of the diagonals, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, and the sum is $4\boldsymbol{OM}$. Choose (D).
 
-(6) By **Theorem 6.3.1**, a basis requires non-collinear vectors. In (B), $(-1)\times7-2\times5=-17\neq0$, so they are non-collinear. Choose (B). $\blacksquare$
+(6) By **Theorem 6.3.1**, a basis requires non-collinear vectors. In (B), $\left(-1\right)\times7-2\times5=-17\neq0$, so they are non-collinear. Choose (B). $\blacksquare$
 
 ### Problem 3
 
@@ -132,7 +132,7 @@ $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsy
 
 ### Problem 4
 
-(Review Reference Problem 6, Review and Consolidation, Problem 4) Given a plane rectangular coordinate system with $O$ as the origin, $A(-3,-4)$, $B(5,-12)$.
+(Review Reference Problem 6, Review and Consolidation, Problem 4) Given a plane rectangular coordinate system with $O$ as the origin, $A\left(-3,-4\right)$, $B\left(5,-12\right)$.
 
 (1) Find the coordinates of $\boldsymbol{AB}$ and the value of $\lvert\boldsymbol{AB}\rvert$;
 
@@ -144,65 +144,65 @@ $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsy
 
 By **Common Result 6.3.4** and **Common Result 6.3.7**.
 
-(1) $\boldsymbol{AB}=(5-(-3),-12-(-4))=(8,-8)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
+(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
 
-(2) $\boldsymbol{OC}=(-3+5,-4-12)=(2,-16)$. $\boldsymbol{OD}=(-3-5,-4-(-12))=(-8,8)$.
+(2) $\boldsymbol{OC}=\left(-3+5,-4-12\right)=\left(2,-16\right)$. $\boldsymbol{OD}=\left(-3-5,-4-\left(-12\right)\right)=\left(-8,8\right)$.
 
-(3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=(-3)\times5+(-4)\times(-12)=-15+48=33$. $\blacksquare$
+(3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=\left(-3\right)\times5+\left(-4\right)\times\left(-12\right)=-15+48=33$. $\blacksquare$
 
 ### Problem 5
 
-(Review Reference Problem 6, Review and Consolidation, Problem 5) Given points $A(1,1)$, $B(-1,0)$, $C(0,1)$. If $\boldsymbol{AB}=\boldsymbol{CD}$, what are the coordinates of point $D$?
+(Review Reference Problem 6, Review and Consolidation, Problem 5) Given points $A\left(1,1\right)$, $B\left(-1,0\right)$, $C\left(0,1\right)$. If $\boldsymbol{AB}=\boldsymbol{CD}$, what are the coordinates of point $D$?
 
 ### Solution to Problem 5
 
 By **Common Result 6.3.4** and **Definition 6.1.7** (Equal Vectors).
 
-$\boldsymbol{AB}=(-1-1,0-1)=(-2,-1)$.
+$\boldsymbol{AB}=\left(-1-1,0-1\right)=\left(-2,-1\right)$.
 
-Let $D(x,y)$, $\boldsymbol{CD}=(x-0,y-1)=(x,y-1)$.
+Let $D\left(x,y\right)$, $\boldsymbol{CD}=\left(x-0,y-1\right)=\left(x,y-1\right)$.
 
-$x=-2$, $y-1=-1$, $y=0$. $D(-2,0)$. $\blacksquare$
+$x=-2$, $y-1=-1$, $y=0$. $D\left(-2,0\right)$. $\blacksquare$
 
 ### Problem 6
 
-(Review Reference Problem 6, Review and Consolidation, Problem 6) Given vectors $\boldsymbol{a}=(1,0)$, $\boldsymbol{b}=(1,1)$, $\boldsymbol{c}=(-1,0)$, find the values of $\lambda$ and $\mu$ satisfying $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$.
+(Review Reference Problem 6, Review and Consolidation, Problem 6) Given vectors $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$, $\boldsymbol{c}=\left(-1,0\right)$, find the values of $\lambda$ and $\mu$ satisfying $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$.
 
 ### Solution to Problem 6
 
 By **Common Result 6.3.4** (Coordinate Operations).
 
-$(-1,0)=\lambda(1,0)+\mu(1,1)=(\lambda+\mu,\mu)$.
+$\left(-1,0\right)=\lambda\left(1,0\right)+\mu\left(1,1\right)=\left(\lambda+\mu,\mu\right)$.
 
 $\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
 
 ### Problem 7
 
-(Review Reference Problem 6, Review and Consolidation, Problem 7) Given that the vertices of $\triangle ABC$ have coordinates $A(1,1)$, $B(4,1)$, $C(4,5)$, find the values of $\cos A$, $\cos B$, $\cos C$.
+(Review Reference Problem 6, Review and Consolidation, Problem 7) Given that the vertices of $\triangle ABC$ have coordinates $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, find the values of $\cos A$, $\cos B$, $\cos C$.
 
 ### Solution to Problem 7
 
 By **Common Result 6.3.8** (Angle).
 
-$\boldsymbol{AB}=(3,0)$, $\boldsymbol{AC}=(3,4)$, $\boldsymbol{BC}=(0,4)$.
+$\boldsymbol{AB}=\left(3,0\right)$, $\boldsymbol{AC}=\left(3,4\right)$, $\boldsymbol{BC}=\left(0,4\right)$.
 
 $\cos A=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{(-3,0)\cdot(0,4)}{3\times4}=0$.
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
 
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{(-3,-4)\cdot(0,-4)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
 
 ### Problem 8
 
-(Review Reference Problem 6, Review and Consolidation, Problem 8) Given vectors $\boldsymbol{a}=(1,0)$, $\boldsymbol{b}=(1,1)$. For what value of $\lambda$ is $\boldsymbol{a}+\lambda\boldsymbol{b}$ perpendicular to $\boldsymbol{a}$?
+(Review Reference Problem 6, Review and Consolidation, Problem 8) Given vectors $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$. For what value of $\lambda$ is $\boldsymbol{a}+\lambda\boldsymbol{b}$ perpendicular to $\boldsymbol{a}$?
 
 ### Solution to Problem 8
 
 By **Common Result 6.3.8** (Perpendicularity).
 
-$\boldsymbol{a}+\lambda\boldsymbol{b}=(1+\lambda,\lambda)$.
+$\boldsymbol{a}+\lambda\boldsymbol{b}=\left(1+\lambda,\lambda\right)$.
 
-Perpendicular to $\boldsymbol{a}=(1,0)$: $(1+\lambda)\times1+\lambda\times0=0$.
+Perpendicular to $\boldsymbol{a}=\left(1,0\right)$: $\left(1+\lambda\right)\times1+\lambda\times0=0$.
 
 $1+\lambda=0$. $\lambda=-1$. $\blacksquare$
 
@@ -238,7 +238,7 @@ $10000=1600+4900+2\times40\times70\times\cos\theta$.
 
 $3500=5600\cos\theta$. $\cos\theta=\frac{3500}{5600}=\frac{5}{8}$.
 
-$\boldsymbol{F}\cdot\boldsymbol{F}_2=(\boldsymbol{F}_1+\boldsymbol{F}_2)\cdot\boldsymbol{F}_2=\boldsymbol{F}_1\cdot\boldsymbol{F}_2+\boldsymbol{F}_2^2=40\times70\times\frac{5}{8}+4900=1750+4900=6650$.
+$\boldsymbol{F}\cdot\boldsymbol{F}_2=\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_2=\boldsymbol{F}_1\cdot\boldsymbol{F}_2+\boldsymbol{F}_2^2=40\times70\times\frac{5}{8}+4900=1750+4900=6650$.
 
 $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert\lvert\boldsymbol{F}_2\rvert}=\frac{6650}{100\times70}=\frac{19}{20}$. $\blacksquare$
 
@@ -278,7 +278,7 @@ By **Theorem 6.4.3** (Law of Sines) and **Theorem 6.4.2** (Law of Cosines).
 
 By **Theorem 6.4.3** (Law of Sines).
 
-Let the island be $P$, the initial position $A$, and the position after sailing $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-(90^{\circ}-55^{\circ})=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
+Let the island be $P$, the initial position $A$, and the position after sailing $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-\left(90^{\circ}-55^{\circ}\right)=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
 
 By the Law of Sines: $\frac{AP}{\sin145^{\circ}}=\frac{8}{\sin20^{\circ}}$.
 
@@ -292,7 +292,7 @@ Hence there is no danger of hitting the reef. $\blacksquare$
 
 (Review Reference Problem 6, Comprehensive Application, Problem 13) Multiple choice.
 
-(1) Given that $\boldsymbol{a}$, $\boldsymbol{b}$ are non-collinear vectors, and $\boldsymbol{AB}=\boldsymbol{a}+5\boldsymbol{b}$, $\boldsymbol{BC}=-2\boldsymbol{a}+8\boldsymbol{b}$, $\boldsymbol{CD}=3(\boldsymbol{a}-\boldsymbol{b})$, then ().
+(1) Given that $\boldsymbol{a}$, $\boldsymbol{b}$ are non-collinear vectors, and $\boldsymbol{AB}=\boldsymbol{a}+5\boldsymbol{b}$, $\boldsymbol{BC}=-2\boldsymbol{a}+8\boldsymbol{b}$, $\boldsymbol{CD}=3\left(\boldsymbol{a}-\boldsymbol{b}\right)$, then ().
 
 (A) $A$, $B$, $D$ are collinear (B) $A$, $B$, $C$ are collinear
 
@@ -322,7 +322,7 @@ Hence there is no danger of hitting the reef. $\blacksquare$
 
 ### Solution to Problem 13
 
-(1) By **Theorem 6.2.8**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=(-2\boldsymbol{a}+8\boldsymbol{b})+(3\boldsymbol{a}-3\boldsymbol{b})=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. Hence $A$, $B$, $D$ are collinear. Choose (A).
+(1) By **Theorem 6.2.8**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=\left(-2\boldsymbol{a}+8\boldsymbol{b}\right)+\left(3\boldsymbol{a}-3\boldsymbol{b}\right)=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. Hence $A$, $B$, $D$ are collinear. Choose (A).
 
 (2) By **Common Result 6.3.4**, $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{AC}=\boldsymbol{c}$. $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=2\boldsymbol{c}$. $\lvert\boldsymbol{c}\rvert=\sqrt 2$. Choose (D).
 
@@ -330,7 +330,7 @@ Hence there is no danger of hitting the reef. $\blacksquare$
 
 (4) By **Definition 6.2.11**, $\boldsymbol{e}_1\cdot\boldsymbol{e}_2=\cos60^{\circ}=\frac{1}{2}$.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=(2\boldsymbol{e}_1+\boldsymbol{e}_2)\cdot(-3\boldsymbol{e}_1+2\boldsymbol{e}_2)=-6+4\cdot\frac{1}{2}+3\cdot\frac{1}{2}+2=-6+2+1.5+2=-0.5$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=\left(2\boldsymbol{e}_1+\boldsymbol{e}_2\right)\cdot\left(-3\boldsymbol{e}_1+2\boldsymbol{e}_2\right)=-6+4\cdot\frac{1}{2}+3\cdot\frac{1}{2}+2=-6+2+1.5+2=-0.5$.
 
 $\lvert\boldsymbol{a}\rvert^2=4+4\cdot\frac{1}{2}+1=7$. $\lvert\boldsymbol{b}\rvert^2=9-12\cdot\frac{1}{2}+4=7$.
 
@@ -346,7 +346,7 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=1\times1\times\cos120^{\circ}=-\frac{1}{2}$. 
 
 (a) Angle $0^{\circ}$: $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=1+1+3=5$.
 
-(b) Angle $120^{\circ}$: $(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c})^2=1+1+9+2(1\cdot1\cdot(-\frac{1}{2})+1\cdot3\cdot(-\frac{1}{2})+1\cdot3\cdot(-\frac{1}{2}))=11-7=4$. The magnitude is $2$. Choose (C). $\blacksquare$
+(b) Angle $120^{\circ}$: $\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=1+1+9+2\left(1\cdot1\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)\right)=11-7=4$. The magnitude is $2$. Choose (C). $\blacksquare$
 
 ### Problem 14
 
@@ -366,7 +366,7 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 The equality of the two is equivalent to $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, i.e. $\boldsymbol{a}\cdot\boldsymbol{b}=0$, i.e. $\boldsymbol{a}\perp\boldsymbol{b}$. Geometric meaning: the diagonals of a rectangle are equal.
 
-(2) $\boldsymbol{c}\cdot\boldsymbol{d}=(\boldsymbol{a}+\boldsymbol{b})\cdot(\boldsymbol{a}-\boldsymbol{b})=\boldsymbol{a}^2-\boldsymbol{b}^2$.
+(2) $\boldsymbol{c}\cdot\boldsymbol{d}=\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2$.
 
 $\boldsymbol{c}\perp\boldsymbol{d}\Longleftrightarrow\boldsymbol{c}\cdot\boldsymbol{d}=0\Longleftrightarrow\boldsymbol{a}^2=\boldsymbol{b}^2\Longleftrightarrow\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$. Geometric meaning: the diagonals of a rhombus are perpendicular to each other. $\blacksquare$
 
@@ -404,7 +404,7 @@ $A$ is the midpoint of $MS$: $\boldsymbol{OA}=\frac{\boldsymbol{OM}+\boldsymbol{
 
 $B$ is the midpoint of $SN$: $\boldsymbol{OB}=\frac{\boldsymbol{OS}+\boldsymbol{ON}}{2}$. $\boldsymbol{ON}=2\boldsymbol{b}-\boldsymbol{OS}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}$.
 
-$\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}-\boldsymbol{OM}=2(\boldsymbol{b}-\boldsymbol{a})$. $\blacksquare$
+$\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}-\boldsymbol{OM}=2\left(\boldsymbol{b}-\boldsymbol{a}\right)$. $\blacksquare$
 
 ### Problem 17
 
@@ -416,13 +416,13 @@ By **Definition 6.2.11** (Dot Product) and **Theorem 6.4.2** (Law of Cosines).
 
 Take the east direction as the $x$-axis and the north direction as the $y$-axis.
 
-$\boldsymbol{AB}=(9,0)$.
+$\boldsymbol{AB}=\left(9,0\right)$.
 
-$\boldsymbol{BC}=6(\sin30^{\circ},-\cos30^{\circ})=(3,-3\sqrt 3)$.
+$\boldsymbol{BC}=6\left(\sin30^{\circ},-\cos30^{\circ}\right)=\left(3,-3\sqrt 3\right)$.
 
-$\boldsymbol{CD}=16(\sin30^{\circ},\cos30^{\circ})=(8,8\sqrt 3)$.
+$\boldsymbol{CD}=16\left(\sin30^{\circ},\cos30^{\circ}\right)=\left(8,8\sqrt 3\right)$.
 
-$\boldsymbol{AD}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=(9+3+8,0-3\sqrt 3+8\sqrt 3)=(20,5\sqrt 3)$.
+$\boldsymbol{AD}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\left(9+3+8,0-3\sqrt 3+8\sqrt 3\right)=\left(20,5\sqrt 3\right)$.
 
 $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text{ km}$.
 

@@ -26,7 +26,7 @@
 
 > **Definition 2.3.2** (Zeros of a Quadratic Function) <br>The real numbers $x$ that satisfy $ax^2+bx+c=0$.
 
-> **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable) <br>When $a>0$, $\Delta>0$: the solution set of $>0$ is $\{x\mid x<x_1$ or $x>x_2\}$, and of $<0$ is $\{x\mid x_1<x<x_2\}$; $\Delta=0$: the solution set of $>0$ is $\{x\mid x\neq-\frac{b}{2a}\}$, and of $<0$ is $\varnothing$; $\Delta<0$: the solution set of $>0$ is $\mathbb R$, and of $<0$ is $\varnothing$.
+> **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable) <br>When $a>0$, $\Delta>0$: the solution set of $>0$ is $\left\{x\mid x<x_1$ or $x>x_2\right\}$, and of $<0$ is $\left\{x\mid x_1<x<x_2\right\}$; $\Delta=0$: the solution set of $>0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and of $<0$ is $\varnothing$; $\Delta<0$: the solution set of $>0$ is $\mathbb R$, and of $<0$ is $\varnothing$.
 
 ### Problem 1
 
@@ -102,11 +102,11 @@ By **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Va
 
 (1) Rearranging gives $4x^2+x-14\le0$. The roots of $4x^2+x-14=0$ are $x=-2,\frac{7}{4}$, hence the solution set is $\left\{x\mid-2\le x\le\frac{7}{4}\right\}$.
 
-(2) $\left(x-5\right)\left(x-9\right)\le0$, roots $x=5,9$, hence the solution set is $\{x\mid5\le x\le9\}$.
+(2) $\left(x-5\right)\left(x-9\right)\le0$, roots $x=5,9$, hence the solution set is $\left\{x\mid5\le x\le9\right\}$.
 
 (3) $\Delta=36-40=-4<0$, opening upward, hence the solution set is $\mathbb R$.
 
-(4) Expanding and rearranging gives $2x^2-x-1>0$, i.e. $\left(2x+1\right)\left(x-1\right)>0$, roots $x=-\frac{1}{2},1$, hence the solution set is $\{x\mid x<-\frac{1}{2}$ or $x>1\}$. $\blacksquare$
+(4) Expanding and rearranging gives $2x^2-x-1>0$, i.e. $\left(2x+1\right)\left(x-1\right)>0$, roots $x=-\frac{1}{2},1$, hence the solution set is $\left\{x\mid x<-\frac{1}{2}$ or $x>1\right\}$. $\blacksquare$
 
 ### Problem 5
 
@@ -122,7 +122,7 @@ $$
 t^2\ge2t+3,
 $$
 
-i.e. $\left(t-3\right)\left(t+1\right)\ge0$. Since $t>0$, we have $t\ge3$, and hence $ab=t^2\ge9$. Equality holds if and only if $a=b=3$. Hence the range of $ab$ is $\{x\mid x\ge9\}$. $\blacksquare$
+i.e. $\left(t-3\right)\left(t+1\right)\ge0$. Since $t>0$, we have $t\ge3$, and hence $ab=t^2\ge9$. Equality holds if and only if $a=b=3$. Hence the range of $ab$ is $\left\{x\mid x\ge9\right\}$. $\blacksquare$
 
 ### Problem 6
 

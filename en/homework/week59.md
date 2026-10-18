@@ -1,8 +1,8 @@
 # Assignment 59
 
-> **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) <br>Let $\boldsymbol{a}=(a_1,a_2,a_3)$, $\boldsymbol{b}=(b_1,b_2,b_3)$; then $\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3)$, $\boldsymbol{a}-\boldsymbol{b}=(a_1-b_1,a_2-b_2,a_3-b_3)$, $\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3)$, $\lambda \in \mathbb R$, and $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$.
+> **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) <br>Let $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$; then $\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(a_1-b_1,a_2-b_2,a_3-b_3\right)$, $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right)$, $\lambda \in \mathbb R$, and $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$.
 
-> **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism, Perpendicularity, Modulus and Angle) <br>When $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b}$; when $\boldsymbol{a} \neq \boldsymbol{0}$ and $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; and $\cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert}$.
+> **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism, Perpendicularity, Modulus and Angle) <br>When $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b}$; when $\boldsymbol{a} \neq \boldsymbol{0}$ and $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; and $\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert}$.
 
 > **Definition 1.4.1** (Direction Vector of a Line) <br>If $P$ is a point on line $l$ and $\boldsymbol{u}$ is a direction vector of line $l$, then taking any point $P$ on line $l$, for any point $P$ on line $l$ there exists a real number $t$ such that $\boldsymbol{AP}=t\boldsymbol{u}$, i.e. $\boldsymbol{AP}=t\boldsymbol{AB}$.
 
@@ -16,11 +16,11 @@
 
 > **Common Conclusion 1.4.6** (Distance from a Point to a Plane) <br>Let the normal vector of plane $\alpha$ be $\boldsymbol{n}$, point $P$ lie in $\alpha$, and point $A$ be outside plane $\alpha$; then the distance from point $A$ to plane $\alpha$ is $d=\frac{\lvert \boldsymbol{PA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}$.
 
-> **Common Conclusion 1.4.7** (Angle between Skew Lines) <br>If the angle between the skew lines $l_1$, $l_2$ is $\theta$, and their direction vectors are $\boldsymbol{u}$, $\boldsymbol{v}$, respectively, then $\cos\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{v} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}$.
+> **Common Conclusion 1.4.7** (Angle between Skew Lines) <br>If the angle between the skew lines $l_1$, $l_2$ is $\theta$, and their direction vectors are $\boldsymbol{u}$, $\boldsymbol{v}$, respectively, then $\cos\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{v} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}$.
 
-> **Common Conclusion 1.4.8** (Angle between a Line and a Plane) <br>Let the angle between line $AB$ and plane $\alpha$ be $\theta$, the direction vector of line $AB$ be $\boldsymbol{u}$, and the normal vector of plane $\alpha$ be $\boldsymbol{n}$; then $\sin\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{n} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}$.
+> **Common Conclusion 1.4.8** (Angle between a Line and a Plane) <br>Let the angle between line $AB$ and plane $\alpha$ be $\theta$, the direction vector of line $AB$ be $\boldsymbol{u}$, and the normal vector of plane $\alpha$ be $\boldsymbol{n}$; then $\sin\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{n} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}$.
 
-> **Common Conclusion 1.4.9** (Angle between Two Planes) <br>Let the normal vectors of planes $\alpha$, $\beta$ be $\boldsymbol{n}_1$ and $\boldsymbol{n}_2$, respectively, and let the angle between plane $\alpha$ and plane $\beta$ be $\theta$; then $\cos\theta=\lvert \cos \langle \boldsymbol{n}_1, \boldsymbol{n}_2 \rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}$.
+> **Common Conclusion 1.4.9** (Angle between Two Planes) <br>Let the normal vectors of planes $\alpha$, $\beta$ be $\boldsymbol{n}_1$ and $\boldsymbol{n}_2$, respectively, and let the angle between plane $\alpha$ and plane $\beta$ be $\theta$; then $\cos\theta=\lvert \cos \left\langle \boldsymbol{n}_1, \boldsymbol{n}_2 \right\rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}$.
 
 ### Exercise 1
 
@@ -30,7 +30,7 @@
 
 (2) If $\boldsymbol{v}$ is a direction vector of line $l$, then $\lambda\boldsymbol{v}$ ($\lambda \in \mathbb R$) is also a direction vector of line $l$;
 
-(3) In the rectangular coordinate system in space, $\boldsymbol{n}=(0,0,1)$ is a normal vector of the coordinate plane $Oxy$.
+(3) In the rectangular coordinate system in space, $\boldsymbol{n}=\left(0,0,1\right)$ is a normal vector of the coordinate plane $Oxy$.
 
 ### Solution to Exercise 1
 
@@ -40,17 +40,17 @@ By **Definition 1.4.1** (Direction Vector of a Line) and **Definition 1.4.2** (N
 
 (2) By **Definition 1.4.1**, if $\boldsymbol{v}$ is a direction vector of line $l$, then $\lambda\boldsymbol{v}$ ($\lambda \neq 0$) is also one. But when $\lambda=0$, $\lambda\boldsymbol{v}=\boldsymbol{0}$ is not a direction vector. Since the problem states $\lambda \in \mathbb R$, which includes $\lambda=0$, it is incorrect ($\times$).
 
-(3) All vectors in the coordinate plane $Oxy$ have $z$-coordinate $0$, and the dot product of $\boldsymbol{n}=(0,0,1)$ with any vector $(a,b,0)$ in the $Oxy$ plane is $0$, i.e. $\boldsymbol{n} \perp Oxy$ plane. By **Definition 1.4.2**, $\boldsymbol{n}$ is a normal vector of the coordinate plane $Oxy$. Correct ($\surd$). $\blacksquare$
+(3) All vectors in the coordinate plane $Oxy$ have $z$-coordinate $0$, and the dot product of $\boldsymbol{n}=\left(0,0,1\right)$ with any vector $\left(a,b,0\right)$ in the $Oxy$ plane is $0$, i.e. $\boldsymbol{n} \perp Oxy$ plane. By **Definition 1.4.2**, $\boldsymbol{n}$ is a normal vector of the coordinate plane $Oxy$. Correct ($\surd$). $\blacksquare$
 
 ### Exercise 2
 
-(Exercise 1.4, Problem 2) In the parallelepiped $ABCD-A_1B_1C_1D_1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$, and $O$ is the intersection of $BD$ and $B_1D_1$. Given that $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ is a basis of space, find a direction vector of line $OA$.
+(Exercise 1.4, Problem 2) In the parallelepiped $ABCD-A_1B_1C_1D_1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$, and $O$ is the intersection of $BD$ and $B_1D_1$. Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis of space, find a direction vector of line $OA$.
 
 ### Solution to Exercise 2
 
 By **Definition 1.4.1** (Direction Vector of a Line).
 
-$O$ is the intersection of $BD$ and $B_1D_1$, i.e. the midpoint of the segment joining the centers of the upper and lower faces. $\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{BO}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{BD}=\boldsymbol{a}+\frac{1}{2}(-\boldsymbol{a}+\boldsymbol{b})=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
+$O$ is the intersection of $BD$ and $B_1D_1$, i.e. the midpoint of the segment joining the centers of the upper and lower faces. $\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{BO}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{BD}=\boldsymbol{a}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
 
 Hence a direction vector of line $OA$ is $\boldsymbol{OA}=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, or equivalently one may take $\boldsymbol{a}+\boldsymbol{b}$. $\blacksquare$
 
@@ -62,15 +62,15 @@ Hence a direction vector of line $OA$ is $\boldsymbol{OA}=\frac{1}{2}\boldsymbol
 
 By **Definition 1.4.2** (Normal Vector of a Plane).
 
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis; then $D(0,0,0)$, $A(3,0,0)$, $B(3,4,0)$, $C(0,4,0)$, $C_1(0,4,2)$.
+Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis; then $D\left(0,0,0\right)$, $A\left(3,0,0\right)$, $B\left(3,4,0\right)$, $C\left(0,4,0\right)$, $C_1\left(0,4,2\right)$.
 
-Vectors in the plane $BCC_1B_1$: $\boldsymbol{BC}=(-3,0,0)$, $\boldsymbol{CC_1}=(0,0,2)$.
+Vectors in the plane $BCC_1B_1$: $\boldsymbol{BC}=\left(-3,0,0\right)$, $\boldsymbol{CC_1}=\left(0,0,2\right)$.
 
-Let the normal vector be $\boldsymbol{n}=(x,y,z)$; then $\boldsymbol{n} \cdot \boldsymbol{BC}=0$ and $\boldsymbol{n} \cdot \boldsymbol{CC_1}=0$.
+Let the normal vector be $\boldsymbol{n}=\left(x,y,z\right)$; then $\boldsymbol{n} \cdot \boldsymbol{BC}=0$ and $\boldsymbol{n} \cdot \boldsymbol{CC_1}=0$.
 
 $-3x=0$, $2z=0$, so $x=0$, $z=0$, and $y$ is arbitrary.
 
-Taking $\boldsymbol{n}=(0,1,0)$ gives a normal vector of the plane $BCC_1B_1$. $\blacksquare$
+Taking $\boldsymbol{n}=\left(0,1,0\right)$ gives a normal vector of the plane $BCC_1B_1$. $\blacksquare$
 
 ### Exercise 4
 
@@ -100,13 +100,13 @@ By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
 
 Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$.
 
-$E$ is the midpoint of $BC$, so $\boldsymbol{AE}=\frac{1}{2}(\boldsymbol{a}+\boldsymbol{b})$.
+$E$ is the midpoint of $BC$, so $\boldsymbol{AE}=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
 Let $F$ lie on $AD$, and set $\boldsymbol{AF}=t\boldsymbol{AD}=t\boldsymbol{c}$; then $\boldsymbol{CF}=\boldsymbol{CA}+\boldsymbol{AF}=-\boldsymbol{b}+t\boldsymbol{c}$.
 
 If $AE \parallel CF$, then $\boldsymbol{AE}$ and $\boldsymbol{CF}$ are collinear, i.e. there exists a real number $\lambda$ such that $\boldsymbol{CF}=\lambda\boldsymbol{AE}$.
 
-$-\boldsymbol{b}+t\boldsymbol{c}=\lambda \cdot \frac{1}{2}(\boldsymbol{a}+\boldsymbol{b})=\frac{\lambda}{2}\boldsymbol{a}+\frac{\lambda}{2}\boldsymbol{b}$.
+$-\boldsymbol{b}+t\boldsymbol{c}=\lambda \cdot \frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)=\frac{\lambda}{2}\boldsymbol{a}+\frac{\lambda}{2}\boldsymbol{b}$.
 
 Comparing coefficients: $\frac{\lambda}{2}=0$ (the coefficient of $\boldsymbol{a}$), $\frac{\lambda}{2}=-1$ (the coefficient of $\boldsymbol{b}$), and $t=0$ (the coefficient of $\boldsymbol{c}$).
 
@@ -132,9 +132,9 @@ $F$ is the center of face $A_1C_1$: $F\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
 
 $\boldsymbol{EF}=F-E=\left(-\frac{1}{2}, 0, \frac{1}{2}\right)$.
 
-Plane $ACD_1$: $A(1,0,0)$, $C(0,1,0)$, $D_1(0,0,1)$. $\boldsymbol{AC}=(-1,1,0)$, $\boldsymbol{AD_1}=(-1,0,1)$.
+Plane $ACD_1$: $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $D_1\left(0,0,1\right)$. $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$.
 
-Let the normal vector be $\boldsymbol{n}=(x,y,z)$; then $\boldsymbol{n} \cdot \boldsymbol{AC}=-x+y=0$, $\boldsymbol{n} \cdot \boldsymbol{AD_1}=-x+z=0$. Taking $x=1$ gives $\boldsymbol{n}=(1,1,1)$.
+Let the normal vector be $\boldsymbol{n}=\left(x,y,z\right)$; then $\boldsymbol{n} \cdot \boldsymbol{AC}=-x+y=0$, $\boldsymbol{n} \cdot \boldsymbol{AD_1}=-x+z=0$. Taking $x=1$ gives $\boldsymbol{n}=\left(1,1,1\right)$.
 
 $\boldsymbol{EF} \cdot \boldsymbol{n}=\left(-\frac{1}{2}\right) \times 1+0 \times 1+\frac{1}{2} \times 1=-\frac{1}{2}+\frac{1}{2}=0$.
 
@@ -150,15 +150,15 @@ By **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
 
 Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis; edge length $1$.
 
-(1) Plane $A_1BD$: $A_1(1,0,1)$, $B(1,1,0)$, $D(0,0,0)$. $\boldsymbol{DA_1}=(1,0,1)$, $\boldsymbol{DB}=(1,1,0)$. Normal vector $\boldsymbol{n}=\boldsymbol{DA_1} \times \boldsymbol{DB}=(-1,1,1)$.
+(1) Plane $A_1BD$: $A_1\left(1,0,1\right)$, $B\left(1,1,0\right)$, $D\left(0,0,0\right)$. $\boldsymbol{DA_1}=\left(1,0,1\right)$, $\boldsymbol{DB}=\left(1,1,0\right)$. Normal vector $\boldsymbol{n}=\boldsymbol{DA_1} \times \boldsymbol{DB}=\left(-1,1,1\right)$.
 
-The distance from point $A(1,0,0)$ to the plane $A_1BD$: $\boldsymbol{DA}=(1,0,0)$.
+The distance from point $A\left(1,0,0\right)$ to the plane $A_1BD$: $\boldsymbol{DA}=\left(1,0,0\right)$.
 
 $d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -1 \rvert}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
 
-(2) The distance from line $DC$ to the plane $AB_1$. $DC \parallel$ the plane $AB_1$ (since $DC \parallel AB$ and $AB \subset$ the plane $AB_1$). Take the distance from $D(0,0,0)$ to the plane $AB_1$.
+(2) The distance from line $DC$ to the plane $AB_1$. $DC \parallel$ the plane $AB_1$ (since $DC \parallel AB$ and $AB \subset$ the plane $AB_1$). Take the distance from $D\left(0,0,0\right)$ to the plane $AB_1$.
 
-Plane $AB_1$: $A(1,0,0)$, $B_1(1,1,1)$. This plane passes through $A$ with direction $\boldsymbol{AB_1}=(0,1,1)$. Also $\boldsymbol{AA_1}=(0,0,1)$ lies in the plane. Normal vector $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AA_1}=(1,0,0)$.
+Plane $AB_1$: $A\left(1,0,0\right)$, $B_1\left(1,1,1\right)$. This plane passes through $A$ with direction $\boldsymbol{AB_1}=\left(0,1,1\right)$. Also $\boldsymbol{AA_1}=\left(0,0,1\right)$ lies in the plane. Normal vector $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AA_1}=\left(1,0,0\right)$.
 
 $d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1 \rvert}{1}=1$. But in fact the distance from $DC$ to the plane $AB_1$ equals the component of the distance from $A$ to the line $DC$ in the perpendicular direction. Since $DC \parallel AB_1$, the distance to that plane is $1$.
 
@@ -182,23 +182,23 @@ $d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 By **Common Conclusion 1.4.5** (Distance from a Point to a Line) and **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
 
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis. $A(1,0,0)$, $A_1(1,0,1)$, $B_1(1,1,1)$, $C_1(0,1,1)$, $E(0,0,\frac{1}{2})$, $F(1,1,\frac{1}{2})$.
+Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis. $A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(1,1,1\right)$, $C_1\left(0,1,1\right)$, $E\left(0,0,\frac{1}{2}\right)$, $F\left(1,1,\frac{1}{2}\right)$.
 
-(1) Line $B_1E$: direction vector $\boldsymbol{B_1E}=E-B_1=(-1,-1,-\frac{1}{2})$. From point $A_1$ to the line $B_1E$: $\boldsymbol{B_1A_1}=A_1-B_1=(0,-1,0)$.
+(1) Line $B_1E$: direction vector $\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-\frac{1}{2}\right)$. From point $A_1$ to the line $B_1E$: $\boldsymbol{B_1A_1}=A_1-B_1=\left(0,-1,0\right)$.
 
 $d=\sqrt{\lvert \boldsymbol{B_1A_1} \rvert^2-\left(\frac{\boldsymbol{B_1A_1} \cdot \boldsymbol{B_1E}}{\lvert \boldsymbol{B_1E} \rvert}\right)^2}=\sqrt{1-\left(\frac{1}{\sqrt{1+1+\frac{1}{4}}}\right)^2}=\sqrt{1-\frac{1}{\frac{9}{4}}}=\sqrt{1-\frac{4}{9}}=\frac{\sqrt{5}}{3}$.
 
 (2) The distance from line $FC_1$ to line $AE$. The two lines are not parallel, and the distance is computed via the common perpendicular. Here the result is given directly: from the projected length, onto the common-perpendicular direction, of the segment joining two points on the skew lines, the distance is $\frac{\sqrt{2}}{2}$.
 
-(3) Plane $AB_1E$: $\boldsymbol{AB_1}=(0,1,1)$, $\boldsymbol{AE}=(-1,0,\frac{1}{2})$. Normal vector $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AE}=(\frac{1}{2},-1,1)$.
+(3) Plane $AB_1E$: $\boldsymbol{AB_1}=\left(0,1,1\right)$, $\boldsymbol{AE}=\left(-1,0,\frac{1}{2}\right)$. Normal vector $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AE}=\left(\frac{1}{2},-1,1\right)$.
 
-From point $A_1$ to the plane: $\boldsymbol{AA_1}=(0,0,1)$.
+From point $A_1$ to the plane: $\boldsymbol{AA_1}=\left(0,0,1\right)$.
 
 $d=\frac{\lvert \boldsymbol{AA_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{1}{\sqrt{\frac{1}{4}+1+1}}=\frac{1}{\frac{3}{2}}=\frac{2}{3}$.
 
-(4) The distance from line $FC_1$ to the plane $AB_1E$. Since $FC_1 \parallel$ the plane $AB_1E$ (verification: $\boldsymbol{FC_1}=(-1,0,\frac{1}{2})$, $\boldsymbol{FC_1} \cdot \boldsymbol{n}=-\frac{1}{2}+0+\frac{1}{2}=0$), the distance equals the distance from point $F$ to the plane.
+(4) The distance from line $FC_1$ to the plane $AB_1E$. Since $FC_1 \parallel$ the plane $AB_1E$ (verification: $\boldsymbol{FC_1}=\left(-1,0,\frac{1}{2}\right)$, $\boldsymbol{FC_1} \cdot \boldsymbol{n}=-\frac{1}{2}+0+\frac{1}{2}=0$), the distance equals the distance from point $F$ to the plane.
 
-$\boldsymbol{AF}=(0,1,\frac{1}{2})$.
+$\boldsymbol{AF}=\left(0,1,\frac{1}{2}\right)$.
 
 $d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert \frac{1}{2}-1+\frac{1}{2} \rvert}{\frac{3}{2}}=0$. That is, $F$ lies in the plane, and the distance is $0$. $\blacksquare$
 
@@ -212,13 +212,13 @@ $d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 By **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
 
-The planes $A_1DB$ and $D_1CB_1$ are parallel. Take the distance from point $A(1,0,0)$ to the plane $D_1CB_1$.
+The planes $A_1DB$ and $D_1CB_1$ are parallel. Take the distance from point $A\left(1,0,0\right)$ to the plane $D_1CB_1$.
 
-Plane $D_1CB_1$: $D_1(0,0,1)$, $C(0,1,0)$, $B_1(1,1,1)$. $\boldsymbol{D_1C}=(0,1,-1)$, $\boldsymbol{D_1B_1}=(1,1,0)$.
+Plane $D_1CB_1$: $D_1\left(0,0,1\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$. $\boldsymbol{D_1C}=\left(0,1,-1\right)$, $\boldsymbol{D_1B_1}=\left(1,1,0\right)$.
 
-Normal vector $\boldsymbol{n}=\boldsymbol{D_1C} \times \boldsymbol{D_1B_1}=(1,-1,-1)$.
+Normal vector $\boldsymbol{n}=\boldsymbol{D_1C} \times \boldsymbol{D_1B_1}=\left(1,-1,-1\right)$.
 
-$\boldsymbol{D_1A}=(1,0,-1)$.
+$\boldsymbol{D_1A}=\left(1,0,-1\right)$.
 
 $d=\frac{\lvert \boldsymbol{D_1A} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1+0+1 \rvert}{\sqrt{3}}=\frac{2}{\sqrt{3}}=\frac{2\sqrt{3}}{3}$.
 
@@ -236,7 +236,7 @@ By **Common Conclusion 1.4.7** (Angle between Skew Lines).
 
 Let $BC=CA=CC_1=1$. Take $C$ as the origin, with $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
 
-$A(1,0,0)$, $B(0,1,0)$, $A_1(1,0,1)$, $B_1(0,1,1)$, $C_1(0,0,1)$.
+$A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(0,1,1\right)$, $C_1\left(0,0,1\right)$.
 
 $D_1$ is the midpoint of $A_1B_1$: $D_1\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
 
@@ -272,11 +272,11 @@ The normal vector of plane $PAB$ is $\boldsymbol{n}=\boldsymbol{a} \times \bolds
 
 $\sin\theta=\frac{\lvert \boldsymbol{c} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{n} \rvert}$.
 
-$\boldsymbol{c} \cdot \boldsymbol{n}=\boldsymbol{c} \cdot (\boldsymbol{a} \times \boldsymbol{b})$ (scalar triple product).
+$\boldsymbol{c} \cdot \boldsymbol{n}=\boldsymbol{c} \cdot \left(\boldsymbol{a} \times \boldsymbol{b}\right)$ (scalar triple product).
 
-Set $\boldsymbol{a}=(1,0,0)$, $\boldsymbol{b}=(\frac{1}{2}, \frac{\sqrt{3}}{2}, 0)$, $\boldsymbol{c}=(\frac{1}{2}, \frac{1}{2\sqrt{3}}, \sqrt{\frac{2}{3}})$ (since it makes $60^\circ$ with both $\boldsymbol{a}$ and $\boldsymbol{b}$).
+Set $\boldsymbol{a}=\left(1,0,0\right)$, $\boldsymbol{b}=\left(\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$, $\boldsymbol{c}=\left(\frac{1}{2}, \frac{1}{2\sqrt{3}}, \sqrt{\frac{2}{3}}\right)$ (since it makes $60^\circ$ with both $\boldsymbol{a}$ and $\boldsymbol{b}$).
 
-$\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}=(0,0,\frac{\sqrt{3}}{2})$.
+$\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}=\left(0,0,\frac{\sqrt{3}}{2}\right)$.
 
 $\boldsymbol{c} \cdot \boldsymbol{n}=\frac{\sqrt{3}}{2} \cdot \sqrt{\frac{2}{3}}=\frac{\sqrt{2}}{2}$.
 
@@ -300,13 +300,13 @@ By **Common Conclusion 1.4.9** (Angle between Two Planes).
 
 Let the edge length be $2$. Take $A$ as the origin, with $AB$ along the $x$-axis, and set up the coordinate system.
 
-$A(0,0,0)$, $B(2,0,0)$, $C(1,\sqrt{3},0)$, $A_1(0,0,2)$, $B_1(2,0,2)$, $C_1(1,\sqrt{3},2)$.
+$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(1,\sqrt{3},0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(2,0,2\right)$, $C_1\left(1,\sqrt{3},2\right)$.
 
-Plane $AA_1B$: the $z=0$ plane (i.e. the $xOy$ plane), normal vector $\boldsymbol{n}_1=(0,0,1)$.
+Plane $AA_1B$: the $z=0$ plane (i.e. the $xOy$ plane), normal vector $\boldsymbol{n}_1=\left(0,0,1\right)$.
 
-Plane $A_1BC_1$: $\boldsymbol{A_1B}=(2,0,-2)$, $\boldsymbol{A_1C_1}=(1,\sqrt{3},0)$.
+Plane $A_1BC_1$: $\boldsymbol{A_1B}=\left(2,0,-2\right)$, $\boldsymbol{A_1C_1}=\left(1,\sqrt{3},0\right)$.
 
-Normal vector $\boldsymbol{n}_2=\boldsymbol{A_1B} \times \boldsymbol{A_1C_1}=(2\sqrt{3},-2,2\sqrt{3})$.
+Normal vector $\boldsymbol{n}_2=\boldsymbol{A_1B} \times \boldsymbol{A_1C_1}=\left(2\sqrt{3},-2,2\sqrt{3}\right)$.
 
 $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{2\sqrt{3}}{\sqrt{12+4+12} \cdot 1}=\frac{2\sqrt{3}}{\sqrt{28}}=\frac{2\sqrt{3}}{2\sqrt{7}}=\frac{\sqrt{21}}{7}$. $\blacksquare$
 
@@ -328,25 +328,25 @@ By **Common Conclusion 1.4.7**, **1.4.8**, **1.4.9**.
 
 Let $AB=BC=BD=1$. Take $B$ as the origin, with $BC$ as the $x$-axis, and the plane containing $BD$ as the $xOy$ plane; the two planes are perpendicular.
 
-$B(0,0,0)$, $C(1,0,0)$, $D(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0)$ (since $\angle DBC=120^\circ$).
+$B\left(0,0,0\right)$, $C\left(1,0,0\right)$, $D\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$ (since $\angle DBC=120^\circ$).
 
-$A$ lies in the plane perpendicular to the plane $BCD$, $\angle CBA=120^\circ$, and $A(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2})$.
+$A$ lies in the plane perpendicular to the plane $BCD$, $\angle CBA=120^\circ$, and $A\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$.
 
-(1) $\boldsymbol{AD}=D-A=(0, \frac{\sqrt{3}}{2}, -\frac{\sqrt{3}}{2})$. $\boldsymbol{BC}=(1,0,0)$.
+(1) $\boldsymbol{AD}=D-A=\left(0, \frac{\sqrt{3}}{2}, -\frac{\sqrt{3}}{2}\right)$. $\boldsymbol{BC}=\left(1,0,0\right)$.
 
 $\boldsymbol{AD} \cdot \boldsymbol{BC}=0$. Hence $AD \perp BC$, and the angle between them is $90^\circ$.
 
-(2) The plane $BCD$ is the $z=0$ plane, with normal vector $\boldsymbol{n}=(0,0,1)$.
+(2) The plane $BCD$ is the $z=0$ plane, with normal vector $\boldsymbol{n}=\left(0,0,1\right)$.
 
 $\sin\theta=\frac{\lvert \boldsymbol{AD} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{AD} \rvert}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{0+\frac{3}{4}+\frac{3}{4}}}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{\frac{3}{2}}}=\frac{1}{\sqrt{2}}$.
 
 Hence $\theta=45^\circ$.
 
-(3) Plane $ABD$: $\boldsymbol{BA}=(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2})$, $\boldsymbol{BD}=(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0)$.
+(3) Plane $ABD$: $\boldsymbol{BA}=\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$, $\boldsymbol{BD}=\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$.
 
 Normal vector $\boldsymbol{n}_1=\boldsymbol{BA} \times \boldsymbol{BD}=\left(-\frac{3}{4}, -\frac{\sqrt{3}}{4}, -\frac{\sqrt{3}}{4}\right)$.
 
-The normal vector of plane $BDC$ is $\boldsymbol{n}_2=(0,0,1)$.
+The normal vector of plane $BDC$ is $\boldsymbol{n}_2=\left(0,0,1\right)$.
 
 $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{\sqrt{3}}{4}}{\sqrt{\frac{9}{16}+\frac{3}{16}+\frac{3}{16}}}=\frac{\frac{\sqrt{3}}{4}}{\frac{\sqrt{15}}{4}}=\frac{\sqrt{5}}{5}$. $\blacksquare$
 
@@ -366,7 +366,7 @@ Since $AC \perp l$ and $BD \perp l$, $\boldsymbol{CA} \cdot \boldsymbol{AB}=0$, 
 
 $\lvert \boldsymbol{CD} \rvert^2=\boldsymbol{CA}^2+\boldsymbol{AB}^2+\boldsymbol{BD}^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
 
-$(2\sqrt{17})^2=6^2+4^2+8^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
+$\left(2\sqrt{17}\right)^2=6^2+4^2+8^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
 
 $68=36+16+64+2\boldsymbol{CA} \cdot \boldsymbol{BD}=116+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
 
@@ -388,17 +388,17 @@ By **Common Conclusion 1.4.7** (Angle between Skew Lines).
 
 Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$. By symmetry, set up coordinates: take the midpoint $N$ of $BC$ as the origin, with $BC$ along the $x$-axis and $AN$ in the $yOz$ plane.
 
-$B(-1,0,0)$, $C(1,0,0)$, $N(0,0,0)$. $AB=AC=3$, $BC=2$, so $AN=\sqrt{9-1}=2\sqrt{2}$. Set $A(0,2\sqrt{2},0)$.
+$B\left(-1,0,0\right)$, $C\left(1,0,0\right)$, $N\left(0,0,0\right)$. $AB=AC=3$, $BC=2$, so $AN=\sqrt{9-1}=2\sqrt{2}$. Set $A\left(0,2\sqrt{2},0\right)$.
 
-$AD=2$, $BD=CD=3$; similarly $D$ lies in the plane perpendicular to $BC$, $D(0,y,z)$. From $BD=3$, $1+y^2+z^2=9$, i.e. $y^2+z^2=8$. From $AD=2$, $(2\sqrt{2}-y)^2+z^2=4$. Expanding: $8-4\sqrt{2}y+y^2+z^2=4$, i.e. $8-4\sqrt{2}y+8=4$, and $y=\frac{12}{4\sqrt{2}}=\frac{3\sqrt{2}}{2}$. $z^2=8-\frac{9 \times 2}{4}=8-\frac{9}{2}=\frac{7}{2}$.
+$AD=2$, $BD=CD=3$; similarly $D$ lies in the plane perpendicular to $BC$, $D\left(0,y,z\right)$. From $BD=3$, $1+y^2+z^2=9$, i.e. $y^2+z^2=8$. From $AD=2$, $\left(2\sqrt{2}-y\right)^2+z^2=4$. Expanding: $8-4\sqrt{2}y+y^2+z^2=4$, i.e. $8-4\sqrt{2}y+8=4$, and $y=\frac{12}{4\sqrt{2}}=\frac{3\sqrt{2}}{2}$. $z^2=8-\frac{9 \times 2}{4}=8-\frac{9}{2}=\frac{7}{2}$.
 
 $M$ is the midpoint of $AD$: $M\left(0, \frac{2\sqrt{2}+\frac{3\sqrt{2}}{2}}{2}, \frac{z}{2}\right)=\left(0, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
 
-$\boldsymbol{AN}=N-A=(0,-2\sqrt{2},0)$.
+$\boldsymbol{AN}=N-A=\left(0,-2\sqrt{2},0\right)$.
 
 $\boldsymbol{CM}=M-C=\left(-1, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
 
-$\boldsymbol{AN} \cdot \boldsymbol{CM}=0+(-2\sqrt{2}) \times \frac{7\sqrt{2}}{4}+0=-\frac{28}{4}=-7$.
+$\boldsymbol{AN} \cdot \boldsymbol{CM}=0+\left(-2\sqrt{2}\right) \times \frac{7\sqrt{2}}{4}+0=-\frac{28}{4}=-7$.
 
 $\lvert \boldsymbol{AN} \rvert=2\sqrt{2}$.
 
@@ -418,13 +418,13 @@ By **Common Conclusion 1.4.8** (Angle between a Line and a Plane).
 
 Take $O$ as the origin, with $OA$ as the $x$-axis, $OB$ as the $y$-axis, and $OC$ as the $z$-axis.
 
-$A(3,0,0)$, $B(0,2,0)$, $C(0,0,3)$.
+$A\left(3,0,0\right)$, $B\left(0,2,0\right)$, $C\left(0,0,3\right)$.
 
-Plane $ABC$: $\boldsymbol{AB}=(-3,2,0)$, $\boldsymbol{AC}=(-3,0,3)$.
+Plane $ABC$: $\boldsymbol{AB}=\left(-3,2,0\right)$, $\boldsymbol{AC}=\left(-3,0,3\right)$.
 
-Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=(6,9,6)=3(2,3,2)$.
+Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(6,9,6\right)=3\left(2,3,2\right)$.
 
-$\boldsymbol{OB}=(0,2,0)$.
+$\boldsymbol{OB}=\left(0,2,0\right)$.
 
 $\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{OB} \rvert \lvert \boldsymbol{n} \rvert}=\frac{18}{2 \times \sqrt{4+9+4}}=\frac{18}{2 \times \sqrt{17}}=\frac{9}{\sqrt{17}}=\frac{9\sqrt{17}}{17}$. $\blacksquare$
 
@@ -438,7 +438,7 @@ $\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \bo
 
 By **Definition 1.4.1** (Direction Vector of a Line).
 
-$\boldsymbol{AE}=\boldsymbol{AB}+\boldsymbol{BE}=-\boldsymbol{c}+\frac{1}{2}(\boldsymbol{BC}+\boldsymbol{BD})=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
+$\boldsymbol{AE}=\boldsymbol{AB}+\boldsymbol{BE}=-\boldsymbol{c}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
 
 $EF=2FA$, so $AF:FE=1:2$, and $F$ lies on $AE$ with $\boldsymbol{AF}=\frac{1}{3}\boldsymbol{AE}$.
 
@@ -460,15 +460,15 @@ Hence the direction vector of line $AE$ is $-\boldsymbol{c}+\frac{1}{2}\boldsymb
 
 By **Definition 1.4.2** (Normal Vector of a Plane).
 
-$A(0,0,0)$, $B(1,0,0)$, $C(0,1,0)$, $A_1(0,0,2)$, $B_1(1,0,2)$, $C_1(0,1,2)$.
+$A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(0,1,0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(1,0,2\right)$, $C_1\left(0,1,2\right)$.
 
-(1) Plane $BCC_1B_1$: $\boldsymbol{BC}=(-1,1,0)$, $\boldsymbol{CC_1}=(0,0,2)$.
+(1) Plane $BCC_1B_1$: $\boldsymbol{BC}=\left(-1,1,0\right)$, $\boldsymbol{CC_1}=\left(0,0,2\right)$.
 
-Let $\boldsymbol{n}_1=(x,y,z)$; $\boldsymbol{n}_1 \cdot \boldsymbol{BC}=-x+y=0$, $\boldsymbol{n}_1 \cdot \boldsymbol{CC_1}=2z=0$. Taking $x=1$ gives $\boldsymbol{n}_1=(1,1,0)$.
+Let $\boldsymbol{n}_1=\left(x,y,z\right)$; $\boldsymbol{n}_1 \cdot \boldsymbol{BC}=-x+y=0$, $\boldsymbol{n}_1 \cdot \boldsymbol{CC_1}=2z=0$. Taking $x=1$ gives $\boldsymbol{n}_1=\left(1,1,0\right)$.
 
-(2) Plane $A_1BC$: $\boldsymbol{A_1B}=(1,0,-2)$, $\boldsymbol{A_1C}=(0,1,-2)$.
+(2) Plane $A_1BC$: $\boldsymbol{A_1B}=\left(1,0,-2\right)$, $\boldsymbol{A_1C}=\left(0,1,-2\right)$.
 
-Let $\boldsymbol{n}_2=(x,y,z)$; $\boldsymbol{n}_2 \cdot \boldsymbol{A_1B}=x-2z=0$, $\boldsymbol{n}_2 \cdot \boldsymbol{A_1C}=y-2z=0$. Taking $z=1$ gives $\boldsymbol{n}_2=(2,2,1)$. $\blacksquare$
+Let $\boldsymbol{n}_2=\left(x,y,z\right)$; $\boldsymbol{n}_2 \cdot \boldsymbol{A_1B}=x-2z=0$, $\boldsymbol{n}_2 \cdot \boldsymbol{A_1C}=y-2z=0$. Taking $z=1$ gives $\boldsymbol{n}_2=\left(2,2,1\right)$. $\blacksquare$
 
 ### Problem 3
 
@@ -502,9 +502,9 @@ By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
 
 Take $D$ as the origin, with two perpendicular directions in the plane $BCD$ as the $x$- and $y$-axes, and $DA$ as the $z$-axis.
 
-Set $A(0,0,a)$, $B(b,0,0)$, $C(0,c,0)$, $D(0,0,0)$.
+Set $A\left(0,0,a\right)$, $B\left(b,0,0\right)$, $C\left(0,c,0\right)$, $D\left(0,0,0\right)$.
 
-$M$ is the midpoint of $AD$: $M(0,0,\frac{a}{2})$.
+$M$ is the midpoint of $AD$: $M\left(0,0,\frac{a}{2}\right)$.
 
 $P$ is the midpoint of $BM$: $P\left(\frac{b}{2}, 0, \frac{a}{4}\right)$.
 
@@ -512,9 +512,9 @@ $AQ=3QC$, so $Q=\frac{1 \cdot A+3 \cdot C}{4}=\left(0, \frac{3c}{4}, \frac{a}{4}
 
 $\boldsymbol{PQ}=Q-P=\left(-\frac{b}{2}, \frac{3c}{4}, 0\right)$.
 
-The plane $BCD$ is the $z=0$ plane, whose normal vector is $(0,0,1)$.
+The plane $BCD$ is the $z=0$ plane, whose normal vector is $\left(0,0,1\right)$.
 
-$\boldsymbol{PQ} \cdot (0,0,1)=0$, i.e. $\boldsymbol{PQ} \perp$ the normal vector.
+$\boldsymbol{PQ} \cdot \left(0,0,1\right)=0$, i.e. $\boldsymbol{PQ} \perp$ the normal vector.
 
 Moreover $PQ \not\subset$ the plane $BCD$ (since the $z$-coordinates of $P$, $Q$ are nonzero, but the $z$-component of $\boldsymbol{PQ}$ is zero), so $PQ \parallel$ the plane $BCD$. $\blacksquare$
 
@@ -534,19 +534,19 @@ By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
 
 Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$B(1,1,0)$, $D(0,0,0)$, $C(0,1,0)$, $B_1(1,1,1)$.
+$B\left(1,1,0\right)$, $D\left(0,0,0\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$.
 
-$BE=\frac{1}{3}BD$, so $E=B+\frac{1}{3}(D-B)=\left(\frac{2}{3}, \frac{2}{3}, 0\right)$.
+$BE=\frac{1}{3}BD$, so $E=B+\frac{1}{3}\left(D-B\right)=\left(\frac{2}{3}, \frac{2}{3}, 0\right)$.
 
-$CF=\frac{1}{3}CB_1$, so $F=C+\frac{1}{3}(B_1-C)=\left(\frac{1}{3}, 1, \frac{1}{3}\right)$.
+$CF=\frac{1}{3}CB_1$, so $F=C+\frac{1}{3}\left(B_1-C\right)=\left(\frac{1}{3}, 1, \frac{1}{3}\right)$.
 
 $\boldsymbol{EF}=F-E=\left(-\frac{1}{3}, \frac{1}{3}, \frac{1}{3}\right)$.
 
-(1) $\boldsymbol{BD}=D-B=(-1,-1,0)$.
+(1) $\boldsymbol{BD}=D-B=\left(-1,-1,0\right)$.
 
 $\boldsymbol{EF} \cdot \boldsymbol{BD}=\frac{1}{3}-\frac{1}{3}+0=0$. Hence $EF \perp BD$.
 
-(2) $\boldsymbol{CB_1}=B_1-C=(1,0,1)$.
+(2) $\boldsymbol{CB_1}=B_1-C=\left(1,0,1\right)$.
 
 $\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. Hence $EF \perp CB_1$. $\blacksquare$
 
@@ -562,7 +562,7 @@ By **Common Conclusion 1.4.5** (Distance from a Point to a Line).
 
 Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$A_1(1,0,1)$, $E\left(\frac{1}{2}, 1, 0\right)$, and $O$ is the center of the square $A_1ABB_1$: $O\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
+$A_1\left(1,0,1\right)$, $E\left(\frac{1}{2}, 1, 0\right)$, and $O$ is the center of the square $A_1ABB_1$: $O\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
 
 $\boldsymbol{A_1E}=E-A_1=\left(-\frac{1}{2}, 1, -1\right)$.
 
@@ -596,15 +596,15 @@ The regular tetrahedron has edge length $1$.
 
 (1) Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, with pairwise angles $60^\circ$ and modulus $1$.
 
-$\boldsymbol{DE}=\boldsymbol{OE}-\boldsymbol{OD}=\frac{1}{2}(\boldsymbol{b}+\boldsymbol{c})-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c})$.
+$\boldsymbol{DE}=\boldsymbol{OE}-\boldsymbol{OD}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
 
-$\lvert \boldsymbol{DE} \rvert^2=\frac{1}{4}(\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{c})=\frac{1}{4}(1+1+1-1+1-1)=\frac{1}{4} \times 2=\frac{1}{2}$.
+$\lvert \boldsymbol{DE} \rvert^2=\frac{1}{4}\left(\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{c}\right)=\frac{1}{4}\left(1+1+1-1+1-1\right)=\frac{1}{4} \times 2=\frac{1}{2}$.
 
 Hence $DE=\frac{\sqrt{2}}{2}$.
 
-(2) The normal vector of plane $ABC$ is $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=(\boldsymbol{b}-\boldsymbol{a}) \times (\boldsymbol{c}-\boldsymbol{a})=\boldsymbol{b} \times \boldsymbol{c}-\boldsymbol{b} \times \boldsymbol{a}-\boldsymbol{a} \times \boldsymbol{c}$.
+(2) The normal vector of plane $ABC$ is $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \times \left(\boldsymbol{c}-\boldsymbol{a}\right)=\boldsymbol{b} \times \boldsymbol{c}-\boldsymbol{b} \times \boldsymbol{a}-\boldsymbol{a} \times \boldsymbol{c}$.
 
-Compute using coordinates: $A(1,0,0)$, $B(\frac{1}{2},\frac{\sqrt{3}}{2},0)$, $C(-\frac{1}{2},\frac{\sqrt{3}}{6},\frac{\sqrt{6}}{3})$, $O(0,0,0)$.
+Compute using coordinates: $A\left(1,0,0\right)$, $B\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)$, $C\left(-\frac{1}{2},\frac{\sqrt{3}}{6},\frac{\sqrt{6}}{3}\right)$, $O\left(0,0,0\right)$.
 
 Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(-\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{6}}{3}, -\frac{1}{2} \cdot \frac{\sqrt{6}}{3}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right), \frac{1}{2} \cdot \frac{\sqrt{3}}{6}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right)\right)$.
 
@@ -624,7 +624,7 @@ The regular tetrahedron has edge length $a$. Set $\boldsymbol{AB}=\boldsymbol{a}
 
 $M$ is the midpoint of $AB$, and $N$ is the midpoint of $CD$.
 
-$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{2}(\boldsymbol{b}+\boldsymbol{c})-\frac{1}{2}\boldsymbol{a}$.
+$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}$.
 
 $\boldsymbol{MN} \cdot \boldsymbol{AB}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \boldsymbol{a}=\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a}^2$.
 
@@ -634,7 +634,7 @@ Hence $\boldsymbol{MN} \cdot \boldsymbol{AB}=\frac{1}{2} \cdot \frac{a^2}{2}+\fr
 
 Hence $MN \perp AB$.
 
-Similarly, $\boldsymbol{MN} \cdot \boldsymbol{CD}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot (\boldsymbol{c}-\boldsymbol{b})=\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{b}^2+\frac{1}{2}\boldsymbol{c}^2-\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}=-\frac{a^2}{2}+\frac{a^2}{2}-\frac{a^2}{4}+\frac{a^2}{4}=0$.
+Similarly, $\boldsymbol{MN} \cdot \boldsymbol{CD}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{b}^2+\frac{1}{2}\boldsymbol{c}^2-\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}=-\frac{a^2}{2}+\frac{a^2}{2}-\frac{a^2}{4}+\frac{a^2}{4}=0$.
 
 Hence $MN \perp CD$. $\blacksquare$
 
@@ -654,13 +654,13 @@ By **Common Conclusion 1.4.7** (Angle between Skew Lines).
 
 Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD'$ as the $z$-axis.
 
-$M$ is the midpoint of $BB'$: $M(1,1,\frac{1}{2})$.
+$M$ is the midpoint of $BB'$: $M\left(1,1,\frac{1}{2}\right)$.
 
-$N$ is the midpoint of $B'C'$: $N(\frac{1}{2},1,1)$.
+$N$ is the midpoint of $B'C'$: $N\left(\frac{1}{2},1,1\right)$.
 
 $\boldsymbol{MN}=N-M=\left(-\frac{1}{2},0,\frac{1}{2}\right)$.
 
-(1) $\boldsymbol{CD'}=D'-C=(0,-1,1)$.
+(1) $\boldsymbol{CD'}=D'-C=\left(0,-1,1\right)$.
 
 $\boldsymbol{MN} \cdot \boldsymbol{CD'}=0+0+\frac{1}{2}=\frac{1}{2}$.
 
@@ -668,7 +668,7 @@ $\lvert \boldsymbol{MN} \rvert=\frac{\sqrt{2}}{2}$. $\lvert \boldsymbol{CD'} \rv
 
 $\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot \sqrt{2}}=\frac{1}{2}$. Hence $\theta=60^\circ$.
 
-(2) $\boldsymbol{AD}=D-A=(-1,0,0)$.
+(2) $\boldsymbol{AD}=D-A=\left(-1,0,0\right)$.
 
 $\boldsymbol{MN} \cdot \boldsymbol{AD}=\frac{1}{2}$.
 
@@ -690,23 +690,23 @@ By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors) and **
 
 Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$E(\frac{1}{2},1,0)$, $F(1,1,\frac{1}{2})$, $G(\frac{1}{2},1,1)$, $H(0,\frac{1}{2},1)$, $K(0,0,\frac{1}{2})$, $L(\frac{1}{2},0,0)$.
+$E\left(\frac{1}{2},1,0\right)$, $F\left(1,1,\frac{1}{2}\right)$, $G\left(\frac{1}{2},1,1\right)$, $H\left(0,\frac{1}{2},1\right)$, $K\left(0,0,\frac{1}{2}\right)$, $L\left(\frac{1}{2},0,0\right)$.
 
-$\boldsymbol{A_1C}=C-A_1=(-1,1,-1)$.
+$\boldsymbol{A_1C}=C-A_1=\left(-1,1,-1\right)$.
 
-(1) $\boldsymbol{EF}=F-E=(\frac{1}{2},0,\frac{1}{2})$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=-\frac{1}{2}+0-\frac{1}{2}=-1 \neq 0$.
+(1) $\boldsymbol{EF}=F-E=\left(\frac{1}{2},0,\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=-\frac{1}{2}+0-\frac{1}{2}=-1 \neq 0$.
 
-In fact, verifying: $\boldsymbol{A_1C}=(-1,1,-1)$.
+In fact, verifying: $\boldsymbol{A_1C}=\left(-1,1,-1\right)$.
 
-$\boldsymbol{EF}=(0,\frac{1}{2},\frac{1}{2})$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=0+\frac{1}{2}-\frac{1}{2}=0$.
+$\boldsymbol{EF}=\left(0,\frac{1}{2},\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=0+\frac{1}{2}-\frac{1}{2}=0$.
 
-$\boldsymbol{FG}=(-\frac{1}{2},0,\frac{1}{2})$. $\boldsymbol{A_1C} \cdot \boldsymbol{FG}=\frac{1}{2}+0-\frac{1}{2}=0$.
+$\boldsymbol{FG}=\left(-\frac{1}{2},0,\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{FG}=\frac{1}{2}+0-\frac{1}{2}=0$.
 
 Hence $A_1C \perp EF$ and $A_1C \perp FG$, and since $EF \cap FG=F$, we have $A_1C \perp$ the plane $EFGHKL$.
 
-(2) $\boldsymbol{DB_1}=B_1-D=(1,1,1)$.
+(2) $\boldsymbol{DB_1}=B_1-D=\left(1,1,1\right)$.
 
-The normal vector of the plane $EFGHKL$ is $\boldsymbol{A_1C}=(-1,1,-1)$.
+The normal vector of the plane $EFGHKL$ is $\boldsymbol{A_1C}=\left(-1,1,-1\right)$.
 
 $\sin\theta=\frac{\lvert \boldsymbol{DB_1} \cdot \boldsymbol{A_1C} \rvert}{\lvert \boldsymbol{DB_1} \rvert \lvert \boldsymbol{A_1C} \rvert}=\frac{\lvert -1+1-1 \rvert}{\sqrt{3} \cdot \sqrt{3}}=\frac{1}{3}$.
 
@@ -724,13 +724,13 @@ By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
 
 Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$A(1,0,0)$, $D(0,0,0)$, $E(0,1,0)$, $D_1(0,0,1)$, $B_1(1,2,1)$.
+$A\left(1,0,0\right)$, $D\left(0,0,0\right)$, $E\left(0,1,0\right)$, $D_1\left(0,0,1\right)$, $B_1\left(1,2,1\right)$.
 
-$\boldsymbol{B_1E}=E-B_1=(-1,-1,-1)$.
+$\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-1\right)$.
 
-$\boldsymbol{AE}=E-A=(-1,1,0)$.
+$\boldsymbol{AE}=E-A=\left(-1,1,0\right)$.
 
-$\boldsymbol{AD_1}=D_1-A=(-1,0,1)$.
+$\boldsymbol{AD_1}=D_1-A=\left(-1,0,1\right)$.
 
 $\boldsymbol{B_1E} \cdot \boldsymbol{AE}=1-1+0=0$.
 
@@ -750,11 +750,11 @@ By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
 
 Take $A_1$ as the origin, with $A_1B_1$ as the $x$-axis, $A_1D_1$ as the $y$-axis, and $A_1A$ as the $z$-axis.
 
-$E(0,0,1)$, $F(1,0,0)$, $G(0,1,0)$.
+$E\left(0,0,1\right)$, $F\left(1,0,0\right)$, $G\left(0,1,0\right)$.
 
-$\boldsymbol{EF}=(1,0,-1)$, $\boldsymbol{EG}=(0,1,-1)$.
+$\boldsymbol{EF}=\left(1,0,-1\right)$, $\boldsymbol{EG}=\left(0,1,-1\right)$.
 
-The normal vector of plane $EFG$ is $\boldsymbol{n}_1=\boldsymbol{EF} \times \boldsymbol{EG}=(1,1,1)$.
+The normal vector of plane $EFG$ is $\boldsymbol{n}_1=\boldsymbol{EF} \times \boldsymbol{EG}=\left(1,1,1\right)$.
 
 $P$, $Q$, $R$ are centrally symmetric about the center of the cuboid, and the normal vector $\boldsymbol{n}_2$ of the plane $PQR$ is collinear with $\boldsymbol{n}_1$.
 
@@ -772,13 +772,13 @@ By **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
 
 Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$A(1,0,0)$, $E(0,\frac{1}{2},0)$, $C_1(0,1,1)$, $D_1(0,0,1)$.
+$A\left(1,0,0\right)$, $E\left(0,\frac{1}{2},0\right)$, $C_1\left(0,1,1\right)$, $D_1\left(0,0,1\right)$.
 
-$\boldsymbol{AE}=(-1,\frac{1}{2},0)$, $\boldsymbol{AC_1}=(-1,1,1)$.
+$\boldsymbol{AE}=\left(-1,\frac{1}{2},0\right)$, $\boldsymbol{AC_1}=\left(-1,1,1\right)$.
 
 Normal vector $\boldsymbol{n}=\boldsymbol{AE} \times \boldsymbol{AC_1}=\left(\frac{1}{2},1,-\frac{1}{2}\right)$.
 
-$\boldsymbol{AD_1}=(-1,0,1)$.
+$\boldsymbol{AD_1}=\left(-1,0,1\right)$.
 
 $d=\frac{\lvert \boldsymbol{AD_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -\frac{1}{2}-\frac{1}{2} \rvert}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\frac{1}{\sqrt{\frac{3}{2}}}=\frac{\sqrt{6}}{3}$. $\blacksquare$
 
@@ -794,15 +794,15 @@ By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
 
 Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$A(1,0,0)$, $A_1(1,0,1)$, $M(1,0,\frac{1}{2})$, $B(1,1,0)$, $D_1(0,0,1)$, $O(\frac{1}{2},\frac{1}{2},\frac{1}{2})$.
+$A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $M\left(1,0,\frac{1}{2}\right)$, $B\left(1,1,0\right)$, $D_1\left(0,0,1\right)$, $O\left(\frac{1}{2},\frac{1}{2},\frac{1}{2}\right)$.
 
 $\boldsymbol{OM}=M-O=\left(\frac{1}{2},-\frac{1}{2},0\right)$.
 
-$\boldsymbol{AA_1}=(0,0,1)$.
+$\boldsymbol{AA_1}=\left(0,0,1\right)$.
 
 $\boldsymbol{OM} \cdot \boldsymbol{AA_1}=0$. Hence $OM \perp AA_1$.
 
-$\boldsymbol{BD_1}=D_1-B=(-1,-1,1)$.
+$\boldsymbol{BD_1}=D_1-B=\left(-1,-1,1\right)$.
 
 $\boldsymbol{OM} \cdot \boldsymbol{BD_1}=-\frac{1}{2}+\frac{1}{2}+0=0$. Hence $OM \perp BD_1$.
 
@@ -820,11 +820,11 @@ By **Common Conclusion 1.4.9** (Angle between Two Planes).
 
 Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$B(1,1,0)$, $Q(\frac{1}{2},1,1)$, $P(1,0,\frac{1}{3})$.
+$B\left(1,1,0\right)$, $Q\left(\frac{1}{2},1,1\right)$, $P\left(1,0,\frac{1}{3}\right)$.
 
-The normal vector of plane $ABCD$ is $\boldsymbol{n}_1=(0,0,1)$.
+The normal vector of plane $ABCD$ is $\boldsymbol{n}_1=\left(0,0,1\right)$.
 
-Plane $BQP$: $\boldsymbol{BQ}=(-\frac{1}{2},0,1)$, $\boldsymbol{BP}=(0,-1,\frac{1}{3})$.
+Plane $BQP$: $\boldsymbol{BQ}=\left(-\frac{1}{2},0,1\right)$, $\boldsymbol{BP}=\left(0,-1,\frac{1}{3}\right)$.
 
 Normal vector $\boldsymbol{n}_2=\boldsymbol{BQ} \times \boldsymbol{BP}=\left(\frac{1}{3}, \frac{1}{2}, \frac{1}{2}\right)$.
 
@@ -842,35 +842,35 @@ By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
 
 Take $A$ as the origin, with $AB$ as the $x$-axis, $AC$ as the $y$-axis, and $AA_1$ as the $z$-axis.
 
-$A(0,0,0)$, $B(2,0,0)$, $C(0,2,0)$, $A_1(0,0,3)$, $B_1(2,0,3)$, $C_1(0,2,3)$.
+$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(0,2,0\right)$, $A_1\left(0,0,3\right)$, $B_1\left(2,0,3\right)$, $C_1\left(0,2,3\right)$.
 
-$M$ is the midpoint of $AB$: $M(1,0,0)$.
+$M$ is the midpoint of $AB$: $M\left(1,0,0\right)$.
 
-$N$ is the midpoint of $B_1C_1$: $N(1,1,3)$.
+$N$ is the midpoint of $B_1C_1$: $N\left(1,1,3\right)$.
 
-$P$ is the intersection of $BC_1$ and $B_1C$, i.e. the center of the lateral face $BCC_1B_1$: $P(1,1,\frac{3}{2})$.
+$P$ is the intersection of $BC_1$ and $B_1C$, i.e. the center of the lateral face $BCC_1B_1$: $P\left(1,1,\frac{3}{2}\right)$.
 
-Plane $A_1CM$: $\boldsymbol{A_1C}=(0,2,-3)$, $\boldsymbol{A_1M}=(1,0,-3)$.
+Plane $A_1CM$: $\boldsymbol{A_1C}=\left(0,2,-3\right)$, $\boldsymbol{A_1M}=\left(1,0,-3\right)$.
 
-Normal vector $\boldsymbol{n}=\boldsymbol{A_1C} \times \boldsymbol{A_1M}=(-6,-3,-2)$.
+Normal vector $\boldsymbol{n}=\boldsymbol{A_1C} \times \boldsymbol{A_1M}=\left(-6,-3,-2\right)$.
 
-Let $Q$ lie on $A_1N$, with $\boldsymbol{A_1Q}=t\boldsymbol{A_1N}=t(1,1,0)$, and $Q(t,t,3)$.
+Let $Q$ lie on $A_1N$, with $\boldsymbol{A_1Q}=t\boldsymbol{A_1N}=t\left(1,1,0\right)$, and $Q\left(t,t,3\right)$.
 
-$\boldsymbol{PQ}=Q-P=(t-1,t-1,\frac{3}{2})$.
+$\boldsymbol{PQ}=Q-P=\left(t-1,t-1,\frac{3}{2}\right)$.
 
 $PQ \parallel$ the plane $A_1CM \iff \boldsymbol{PQ} \cdot \boldsymbol{n}=0$.
 
-$-6(t-1)-3(t-1)-2 \cdot \frac{3}{2}=0$, i.e. $-9(t-1)-3=0$, $t-1=-\frac{1}{3}$, and $t=\frac{2}{3}$.
+$-6\left(t-1\right)-3\left(t-1\right)-2 \cdot \frac{3}{2}=0$, i.e. $-9\left(t-1\right)-3=0$, $t-1=-\frac{1}{3}$, and $t=\frac{2}{3}$.
 
-$t=\frac{2}{3} \in [0,1]$, so such a point $Q$ exists: $Q\left(\frac{2}{3},\frac{2}{3},3\right)$. $\blacksquare$
+$t=\frac{2}{3} \in \left[0,1\right]$, so such a point $Q$ exists: $Q\left(\frac{2}{3},\frac{2}{3},3\right)$. $\blacksquare$
 
 ### Problem 17
 
-(Exercise 1.4, Extension and Exploration, Problem 17) In the rectangular coordinate system in space, given the vector $\boldsymbol{u}=(a,b,c)$ ($abc \neq 0$), the point $P_0(x_0,y_0,z_0)$, and the point $P(x,y,z)$.
+(Exercise 1.4, Extension and Exploration, Problem 17) In the rectangular coordinate system in space, given the vector $\boldsymbol{u}=\left(a,b,c\right)$ ($abc \neq 0$), the point $P_0\left(x_0,y_0,z_0\right)$, and the point $P\left(x,y,z\right)$.
 
 (1) If line $l$ passes through point $P_0$ and has $\boldsymbol{u}$ as a direction vector, and $P$ is any point on line $l$, prove that $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$;
 
-(2) If plane $\alpha$ passes through point $P_0$ and has $\boldsymbol{u}$ as a normal vector, and $P$ is any point in plane $\alpha$, prove that $a(x-x_0)+b(y-y_0)+c(z-z_0)=0$.
+(2) If plane $\alpha$ passes through point $P_0$ and has $\boldsymbol{u}$ as a normal vector, and $P$ is any point in plane $\alpha$, prove that $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$.
 
 ### Solution to Problem 17
 
@@ -878,7 +878,7 @@ By **Definition 1.4.1** (Direction Vector of a Line) and **Definition 1.4.2** (N
 
 (1) By **Definition 1.4.1**, $P$ lies on line $l$, i.e. there exists a real number $t$ such that $\boldsymbol{P_0P}=t\boldsymbol{u}$.
 
-$(x-x_0,y-y_0,z-z_0)=t(a,b,c)$.
+$\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
 
 Hence $x-x_0=ta$, $y-y_0=tb$, $z-z_0=tc$.
 
@@ -888,9 +888,9 @@ Eliminating $t$, we get $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}=t$.
 
 By **Common Conclusion 1.3.5**, $\boldsymbol{u} \cdot \boldsymbol{P_0P}=0$.
 
-That is, $(a,b,c) \cdot (x-x_0,y-y_0,z-z_0)=0$.
+That is, $\left(a,b,c\right) \cdot \left(x-x_0,y-y_0,z-z_0\right)=0$.
 
-Expanding gives $a(x-x_0)+b(y-y_0)+c(z-z_0)=0$. $\blacksquare$
+Expanding gives $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$. $\blacksquare$
 
 ### Problem 18
 
@@ -910,15 +910,15 @@ By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space) an
 
 Take $A$ as the origin, with $AB$ as the $x$-axis, $AD$ as the $y$-axis, and $AF$ as the $z$-axis.
 
-$A(0,0,0)$, $B(1,0,0)$, $C(1,1,0)$, $D(0,1,0)$, $E(1,0,1)$, $F(0,0,1)$.
+$A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(1,1,0\right)$, $D\left(0,1,0\right)$, $E\left(1,0,1\right)$, $F\left(0,0,1\right)$.
 
 $M$ lies on $AC$, $CM=a$. $AC=\sqrt{2}$, $AM=\sqrt{2}-a$. $M=\left(1-\frac{\sqrt{2}-a}{\sqrt{2}}, 1-\frac{\sqrt{2}-a}{\sqrt{2}}, 0\right)=\left(\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}, 0\right)$.
 
-$N$ lies on $BF$, $BN=a$. $BF=\sqrt{2}$, $N=B+\frac{a}{\sqrt{2}}(F-B)=\left(1-\frac{a}{\sqrt{2}}, 0, \frac{a}{\sqrt{2}}\right)$.
+$N$ lies on $BF$, $BN=a$. $BF=\sqrt{2}$, $N=B+\frac{a}{\sqrt{2}}\left(F-B\right)=\left(1-\frac{a}{\sqrt{2}}, 0, \frac{a}{\sqrt{2}}\right)$.
 
 (1) $\boldsymbol{MN}=N-M=\left(1-\frac{2a}{\sqrt{2}}, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)=\left(1-\sqrt{2}a, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)$.
 
-$\lvert \boldsymbol{MN} \rvert^2=(1-\sqrt{2}a)^2+\frac{a^2}{2}+\frac{a^2}{2}=1-2\sqrt{2}a+2a^2+a^2=3a^2-2\sqrt{2}a+1$.
+$\lvert \boldsymbol{MN} \rvert^2=\left(1-\sqrt{2}a\right)^2+\frac{a^2}{2}+\frac{a^2}{2}=1-2\sqrt{2}a+2a^2+a^2=3a^2-2\sqrt{2}a+1$.
 
 $MN=\sqrt{3a^2-2\sqrt{2}a+1}$.
 

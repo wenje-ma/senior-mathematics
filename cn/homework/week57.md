@@ -1,18 +1,18 @@
 # 作业 57
 
-> **定义 1.1.12** (数量积) <br>已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 则 $\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle$ 叫做 $\boldsymbol{a}$, $\boldsymbol{b}$ 的数量积, 记作 $\boldsymbol{a} \cdot \boldsymbol{b}$. 即 $\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle$. 特别地, 零向量与任意向量的数量积为 $0$.
+> **定义 1.1.12** (数量积) <br>已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 则 $\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$ 叫做 $\boldsymbol{a}$, $\boldsymbol{b}$ 的数量积, 记作 $\boldsymbol{a} \cdot \boldsymbol{b}$. 即 $\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$. 特别地, 零向量与任意向量的数量积为 $0$.
 
 > **常用结论 1.1.13** (数量积的性质) <br>当 $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b} = 0$; $\boldsymbol{a} \cdot \boldsymbol{a} = \lvert \boldsymbol{a} \rvert^2$.
 
-> **定理 1.2.1** (空间向量基本定理) <br>如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么对任意一个空间向量 $\boldsymbol{p}$, 存在唯一的有序实数组 $(x,y,z)$, 使得 $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
+> **定理 1.2.1** (空间向量基本定理) <br>如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么对任意一个空间向量 $\boldsymbol{p}$, 存在唯一的有序实数组 $\left(x,y,z\right)$, 使得 $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
 
-> **定义 1.2.2** (基底, 基向量) <br>如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么所有空间向量组成的集合就是 $\{\boldsymbol{p} \mid \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c},\ x,y,z \in \mathbb R\}$. 这个集合可看作由向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 生成的, 我们把 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 叫做空间的一个基底, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 都叫做基向量. 空间任意三个不共面的向量都可以构成空间的一个基底.
+> **定义 1.2.2** (基底, 基向量) <br>如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么所有空间向量组成的集合就是 $\left\{\boldsymbol{p} \mid \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c},\ x,y,z \in \mathbb R\right\}$. 这个集合可看作由向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 生成的, 我们把 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 叫做空间的一个基底, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 都叫做基向量. 空间任意三个不共面的向量都可以构成空间的一个基底.
 
-> **定义 1.2.3** (单位正交基底, 正交分解) <br>如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ 表示. 把一个空间向量分解为三个两两垂直的向量, 叫做把空间向量进行正交分解.
+> **定义 1.2.3** (单位正交基底, 正交分解) <br>如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$ 表示. 把一个空间向量分解为三个两两垂直的向量, 叫做把空间向量进行正交分解.
 
 ### 练习一
 
-(练习 1.2 第 1 题) 已知 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 是空间的一个基底, 从 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 中选哪一个向量, 一定可以与向量 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 构成空间的另一个基底?
+(练习 1.2 第 1 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个基底, 从 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 中选哪一个向量, 一定可以与向量 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 构成空间的另一个基底?
 
 ### 解答 练习一
 
@@ -20,9 +20,9 @@
 
 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 都在由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内, 即 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{a}$ 共面, $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{b}$ 也共面. 因此 $\boldsymbol{a}$ 或 $\boldsymbol{b}$ 与 $\boldsymbol{p}$, $\boldsymbol{q}$ 共面, 不能构成新基底.
 
-而 $\boldsymbol{c}$ 不在 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内. 假设 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ 共面, 则存在实数 $\lambda$, $\mu$ 使 $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda(\boldsymbol{a}+\boldsymbol{b})+\mu(\boldsymbol{a}-\boldsymbol{b})=(\lambda+\mu)\boldsymbol{a}+(\lambda-\mu)\boldsymbol{b}$, 这与 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 是基底 ($\boldsymbol{c}$ 不由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性表示) 矛盾.
+而 $\boldsymbol{c}$ 不在 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内. 假设 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ 共面, 则存在实数 $\lambda$, $\mu$ 使 $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, 这与 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是基底 ($\boldsymbol{c}$ 不由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性表示) 矛盾.
 
-故选 $\boldsymbol{c}$, $\{\boldsymbol{p}, \boldsymbol{q}, \boldsymbol{c}\}$ 一定构成空间的另一个基底. $\blacksquare$
+故选 $\boldsymbol{c}$, $\left\{\boldsymbol{p}, \boldsymbol{q}, \boldsymbol{c}\right\}$ 一定构成空间的另一个基底. $\blacksquare$
 
 ### 练习二
 
@@ -40,9 +40,9 @@ $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\
 
 (练习 1.2 第 3 题) 如图, 已知平行六面体 $OABC-O'A'B'C'$, 点 $G$ 是侧面 $BB'C'C$ 的中心, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.
 
-(1) $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 是否构成空间的一个基底?
+(1) $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是否构成空间的一个基底?
 
-(2) 如果 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 构成空间的一个基底, 那么用它表示下列向量: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
+(2) 如果 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成空间的一个基底, 那么用它表示下列向量: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
 
 ![week57-1.svg](../../figures/week57-1.svg){width=50%}
 
@@ -50,7 +50,7 @@ $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\
 
 由**定义 1.2.2** (基底, 基向量) 及**定理 1.2.1** (空间向量基本定理).
 
-(1) 在平行六面体中, $\boldsymbol{OA}$, $\boldsymbol{OC}$, $\boldsymbol{OO'}$ 分别沿三条不共面的棱方向, 它们不共面. 由**定义 1.2.2**, $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 构成空间的一个基底.
+(1) 在平行六面体中, $\boldsymbol{OA}$, $\boldsymbol{OC}$, $\boldsymbol{OO'}$ 分别沿三条不共面的棱方向, 它们不共面. 由**定义 1.2.2**, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成空间的一个基底.
 
 (2) 由**定理 1.2.1**:
 
@@ -60,7 +60,7 @@ $\boldsymbol{BA'}=\boldsymbol{BA}+\boldsymbol{AA'}=-\boldsymbol{OA}+\boldsymbol{
 
 $\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{OC}+\boldsymbol{OO'}=-\boldsymbol{b}+\boldsymbol{c}$.
 
-$G$ 是侧面 $BB'C'C$ 的中心, 故 $\boldsymbol{OG}=\boldsymbol{OC}+\boldsymbol{CG}=\boldsymbol{b}+\frac{1}{2}(\boldsymbol{CB}+\boldsymbol{CC'})=\boldsymbol{b}+\frac{1}{2}(-\boldsymbol{a}+\boldsymbol{c})=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
+$G$ 是侧面 $BB'C'C$ 的中心, 故 $\boldsymbol{OG}=\boldsymbol{OC}+\boldsymbol{CG}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{CB}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{c}\right)=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
 
 ### 练习四
 
@@ -72,9 +72,9 @@ $G$ 是侧面 $BB'C'C$ 的中心, 故 $\boldsymbol{OG}=\boldsymbol{OC}+\boldsymb
 
 设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, 则 $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$.
 
-$\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot (\boldsymbol{c}-\boldsymbol{b})=\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}$.
+$\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}$.
 
-由已知 $OB=OC$, 即 $\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$. 又 $\langle \boldsymbol{a}, \boldsymbol{b} \rangle=\langle \boldsymbol{a}, \boldsymbol{c} \rangle=\theta$.
+由已知 $OB=OC$, 即 $\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$. 又 $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=\theta$.
 
 故 $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$, $\boldsymbol{a} \cdot \boldsymbol{c}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{c} \rvert \cos\theta=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$.
 
@@ -96,12 +96,12 @@ $\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot (\boldsymbol{c}-\bol
 
 $\boldsymbol{BC'}=\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{b}+\boldsymbol{c}$.
 
-$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{AC}+\boldsymbol{c}=-(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}$.
+$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{AC}+\boldsymbol{c}=-\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}$.
 
 先算数量积:
 
 $$
-\boldsymbol{BC'} \cdot \boldsymbol{CA'}=(\boldsymbol{b}+\boldsymbol{c}) \cdot (-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c})=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}+\boldsymbol{c}^2.
+\boldsymbol{BC'} \cdot \boldsymbol{CA'}=\left(\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}+\boldsymbol{c}^2.
 $$
 
 化简得: $=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2$.
@@ -122,17 +122,17 @@ $$
 
 由**常用结论 1.1.13** (数量积的性质).
 
-设正方体棱长为 $1$, 以 $\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD'}\}$ 为单位正交基底. 设 $\boldsymbol{DA}=\boldsymbol{i}$, $\boldsymbol{DC}=\boldsymbol{j}$, $\boldsymbol{DD'}=\boldsymbol{k}$, 则它们两两垂直且模为 $1$.
+设正方体棱长为 $1$, 以 $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD'}\right\}$ 为单位正交基底. 设 $\boldsymbol{DA}=\boldsymbol{i}$, $\boldsymbol{DC}=\boldsymbol{j}$, $\boldsymbol{DD'}=\boldsymbol{k}$, 则它们两两垂直且模为 $1$.
 
-$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}(\boldsymbol{DC'}+\boldsymbol{DD})$ 方向. 实际上 $O$ 是 $CD'$ 和 $DC'$ 的交点, 即面 $CC'D'D$ 的中心.
+$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\left(\boldsymbol{DC'}+\boldsymbol{DD}\right)$ 方向. 实际上 $O$ 是 $CD'$ 和 $DC'$ 的交点, 即面 $CC'D'D$ 的中心.
 
-$\boldsymbol{DO}=\frac{1}{2}(\boldsymbol{DC}+\boldsymbol{DD'})=\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
+$\boldsymbol{DO}=\frac{1}{2}\left(\boldsymbol{DC}+\boldsymbol{DD'}\right)=\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
 
 $\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
 
 $\boldsymbol{CD'}=\boldsymbol{CD}+\boldsymbol{DD'}=-\boldsymbol{j}+\boldsymbol{k}$.
 
-$\boldsymbol{AO} \cdot \boldsymbol{CD'}=(-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}) \cdot (-\boldsymbol{j}+\boldsymbol{k})=\frac{1}{2}(-\boldsymbol{j} \cdot \boldsymbol{j})+\frac{1}{2}\boldsymbol{k} \cdot \boldsymbol{k}=-\frac{1}{2}+\frac{1}{2}=0$.
+$\boldsymbol{AO} \cdot \boldsymbol{CD'}=\left(-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\left(-\boldsymbol{j} \cdot \boldsymbol{j}\right)+\frac{1}{2}\boldsymbol{k} \cdot \boldsymbol{k}=-\frac{1}{2}+\frac{1}{2}=0$.
 
 由**常用结论 1.1.13**, $\boldsymbol{AO} \perp \boldsymbol{CD'}$, 即 $AO \perp CD'$. $\blacksquare$
 
@@ -144,17 +144,17 @@ $\boldsymbol{AO} \cdot \boldsymbol{CD'}=(-\boldsymbol{i}+\frac{1}{2}\boldsymbol{
 
 由**定义 1.2.2** (基底, 基向量), 三个向量构成空间基底的充要条件是它们不共面.
 
-$\boldsymbol{a}$, $\boldsymbol{b}$ 与任何向量都不能构成空间的一个基底, 意味着对任意向量 $\boldsymbol{c}$, $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 都不构成基底, 即 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 总是共面.
+$\boldsymbol{a}$, $\boldsymbol{b}$ 与任何向量都不能构成空间的一个基底, 意味着对任意向量 $\boldsymbol{c}$, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 都不构成基底, 即 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 总是共面.
 
 这只有在 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线 (平行) 时才可能: 如果 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线, 则它们确定一条直线, 加上任何第三个向量 $\boldsymbol{c}$ 都可能与它们共面 (因为共线向量和任何向量都共面).
 
-反之, 如果 $\boldsymbol{a}$, $\boldsymbol{b}$ 不共线, 则存在向量 $\boldsymbol{c}$ 不在它们张成的平面内, 使 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 构成基底.
+反之, 如果 $\boldsymbol{a}$, $\boldsymbol{b}$ 不共线, 则存在向量 $\boldsymbol{c}$ 不在它们张成的平面内, 使 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成基底.
 
 故 $\boldsymbol{a}$, $\boldsymbol{b}$ 必须共线 (平行). $\blacksquare$
 
 ### 习题二
 
-(习题 1.2 复习巩固第 2 题) 若 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 构成空间的一个基底, 则下列向量不共面的是( ).
+(习题 1.2 复习巩固第 2 题) 若 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成空间的一个基底, 则下列向量不共面的是( ).
 
 (A) $\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{b}$, $\boldsymbol{b}-\boldsymbol{c}$ (B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ (C) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$, $\boldsymbol{c}$ (D) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{c}$
 
@@ -166,9 +166,9 @@ $\boldsymbol{a}$, $\boldsymbol{b}$ 与任何向量都不能构成空间的一个
 
 (B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ 都在由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内, 共面.
 
-(C) 假设 $\boldsymbol{c}=\lambda(\boldsymbol{a}+\boldsymbol{b})+\mu(\boldsymbol{a}-\boldsymbol{b})=(\lambda+\mu)\boldsymbol{a}+(\lambda-\mu)\boldsymbol{b}$, 这与 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 是基底矛盾. 故不共面.
+(C) 假设 $\boldsymbol{c}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, 这与 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是基底矛盾. 故不共面.
 
-(D) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}$, 三个向量共面.
+(D) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}$, 三个向量共面.
 
 故选 (C). $\blacksquare$
 
@@ -180,11 +180,11 @@ $\boldsymbol{a}$, $\boldsymbol{b}$ 与任何向量都不能构成空间的一个
 
 由**定理 1.2.1** (空间向量基本定理).
 
-$\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\frac{1}{2}(\boldsymbol{OB}+\boldsymbol{OC})=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
+$\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\frac{1}{2}\left(\boldsymbol{OB}+\boldsymbol{OC}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
 
 ### 习题四
 
-(习题 1.2 复习巩固第 4 题) 如图, 在空间平移 $\triangle ABC$ 到 $\triangle A'B'C'$, 连接对应顶点. 设 $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, $M$ 是 $BC'$ 的中点, $N$ 是 $B'C'$ 的中点, 用基底 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 表示向量 $\boldsymbol{AM}$, $\boldsymbol{AN}$.
+(习题 1.2 复习巩固第 4 题) 如图, 在空间平移 $\triangle ABC$ 到 $\triangle A'B'C'$, 连接对应顶点. 设 $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, $M$ 是 $BC'$ 的中点, $N$ 是 $B'C'$ 的中点, 用基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 表示向量 $\boldsymbol{AM}$, $\boldsymbol{AN}$.
 
 ![week57-4.svg](../../figures/week57-4.svg){width=50%}
 
@@ -192,9 +192,9 @@ $\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\fr
 
 由**定理 1.2.1** (空间向量基本定理).
 
-$\boldsymbol{AM}=\boldsymbol{AB}+\boldsymbol{BM}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{BC'}=\boldsymbol{b}+\frac{1}{2}(\boldsymbol{BC}+\boldsymbol{CC'})=\boldsymbol{b}+\frac{1}{2}(-\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{a})=\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
+$\boldsymbol{AM}=\boldsymbol{AB}+\boldsymbol{BM}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{BC'}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
 
-$\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{A'C'}+\frac{1}{2}\boldsymbol{A'B'}$ 方向. 实际上 $N$ 是 $B'C'$ 的中点, $\boldsymbol{A'N}=\frac{1}{2}(\boldsymbol{A'B'}+\boldsymbol{A'C'})=\frac{1}{2}(\boldsymbol{b}+\boldsymbol{c})$.
+$\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{A'C'}+\frac{1}{2}\boldsymbol{A'B'}$ 方向. 实际上 $N$ 是 $B'C'$ 的中点, $\boldsymbol{A'N}=\frac{1}{2}\left(\boldsymbol{A'B'}+\boldsymbol{A'C'}\right)=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)$.
 
 故 $\boldsymbol{AN}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
 
@@ -212,7 +212,7 @@ $\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\bo
 
 $M$ 是 $AC$ 与 $BD$ 的交点, 即底面 $ABCD$ 的中心.
 
-$\boldsymbol{D_1M}=\frac{1}{2}(\boldsymbol{D_1A}+\boldsymbol{D_1C})=\frac{1}{2}(\boldsymbol{i}+\boldsymbol{k}+\boldsymbol{j}+\boldsymbol{k})=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
+$\boldsymbol{D_1M}=\frac{1}{2}\left(\boldsymbol{D_1A}+\boldsymbol{D_1C}\right)=\frac{1}{2}\left(\boldsymbol{i}+\boldsymbol{k}+\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
 
 $\boldsymbol{D_1B_1}=\boldsymbol{i}+\boldsymbol{j}$.
 
@@ -242,11 +242,11 @@ $\boldsymbol{C_1D}=\boldsymbol{CD}-\boldsymbol{CC_1}=\boldsymbol{a}-\boldsymbol{
 
 $\boldsymbol{C_1B}=\boldsymbol{CB}-\boldsymbol{CC_1}=\boldsymbol{b}-\boldsymbol{c}$.
 
-$\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}) \cdot (\boldsymbol{a}-\boldsymbol{c})=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2$.
+$\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}-\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2$.
 
 因为 $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$ 且两两夹角 $60^\circ$, $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}$, 故上式 $=\boldsymbol{a}^2-\boldsymbol{c}^2=0$.
 
-同理 $\boldsymbol{CA_1} \cdot \boldsymbol{C_1B}=(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}) \cdot (\boldsymbol{b}-\boldsymbol{c})=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c}^2=0$.
+同理 $\boldsymbol{CA_1} \cdot \boldsymbol{C_1B}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c}^2=0$.
 
 由**常用结论 1.1.13**, $\boldsymbol{CA_1} \perp \boldsymbol{C_1D}$ 且 $\boldsymbol{CA_1} \perp \boldsymbol{C_1B}$. 又 $C_1D \cap C_1B=C_1$, 故 $CA_1 \perp$ 平面 $C_1BD$. $\blacksquare$
 
@@ -264,21 +264,21 @@ $\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=(\boldsymbol{a}+\boldsymbol{b}+\bolds
 
 由**常用结论 1.1.13** (数量积的性质) 及**定义 1.1.12** (数量积).
 
-以 $\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD_1}\}$ 为单位正交基底, 记为 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$.
+以 $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD_1}\right\}$ 为单位正交基底, 记为 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$.
 
 (1) $E$ 是 $DD_1$ 中点, $F$ 是 $BD$ 中点.
 
-$\boldsymbol{EF}=\boldsymbol{DF}-\boldsymbol{DE}=\frac{1}{2}\boldsymbol{DB}-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}(\boldsymbol{DA}+\boldsymbol{DC})-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}$.
+$\boldsymbol{EF}=\boldsymbol{DF}-\boldsymbol{DE}=\frac{1}{2}\boldsymbol{DB}-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\left(\boldsymbol{DA}+\boldsymbol{DC}\right)-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}$.
 
 $\boldsymbol{B_1C}=\boldsymbol{B_1B}+\boldsymbol{BC}=-\boldsymbol{k}-\boldsymbol{i}=-\boldsymbol{i}-\boldsymbol{k}$.
 
-$\boldsymbol{EF} \cdot \boldsymbol{B_1C}=(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}) \cdot (-\boldsymbol{i}-\boldsymbol{k})=-\frac{1}{2}+\frac{1}{2}=0$.
+$\boldsymbol{EF} \cdot \boldsymbol{B_1C}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{i}-\boldsymbol{k}\right)=-\frac{1}{2}+\frac{1}{2}=0$.
 
 由**常用结论 1.1.13**, $EF \perp B_1C$.
 
-(2) $G$ 在 $CD$ 上, $CG=\frac{1}{4}CD$, 故 $\boldsymbol{C_1G}=\boldsymbol{C_1C}+\boldsymbol{CG}=-\boldsymbol{k}+\frac{1}{4}(-\boldsymbol{j})=-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}$.
+(2) $G$ 在 $CD$ 上, $CG=\frac{1}{4}CD$, 故 $\boldsymbol{C_1G}=\boldsymbol{C_1C}+\boldsymbol{CG}=-\boldsymbol{k}+\frac{1}{4}\left(-\boldsymbol{j}\right)=-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}$.
 
-$\boldsymbol{EF} \cdot \boldsymbol{C_1G}=(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}) \cdot (-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k})=-\frac{1}{8}+\frac{1}{2}=\frac{3}{8}$.
+$\boldsymbol{EF} \cdot \boldsymbol{C_1G}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}\right)=-\frac{1}{8}+\frac{1}{2}=\frac{3}{8}$.
 
 $\lvert \boldsymbol{EF} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+\frac{1}{4}}=\frac{\sqrt{3}}{2}$.
 
@@ -298,18 +298,18 @@ $\cos \theta=\frac{\frac{3}{8}}{\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{17}}{4}}=\f
 
 设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
 
-$AB$ 中点为 $M_1$, $OC$ 中点为 $N_1$: $\boldsymbol{M_1N_1}=\frac{1}{2}(\boldsymbol{b}+\boldsymbol{c})-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c})$.
+$AB$ 中点为 $M_1$, $OC$ 中点为 $N_1$: $\boldsymbol{M_1N_1}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
 
-$BC$ 中点为 $M_2$, $OA$ 中点为 $N_2$: $\boldsymbol{M_2N_2}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}(\boldsymbol{b}+\boldsymbol{c})=\frac{1}{2}(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c})$.
+$BC$ 中点为 $M_2$, $OA$ 中点为 $N_2$: $\boldsymbol{M_2N_2}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)=\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)$.
 
-$CA$ 中点为 $M_3$, $OB$ 中点为 $N_3$: $\boldsymbol{M_3N_3}=\frac{1}{2}\boldsymbol{b}-\frac{1}{2}(\boldsymbol{c}+\boldsymbol{a})=\frac{1}{2}(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c})$.
+$CA$ 中点为 $M_3$, $OB$ 中点为 $N_3$: $\boldsymbol{M_3N_3}=\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\left(\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$.
 
 三组中点间距离相等, 即 $\lvert \boldsymbol{M_1N_1} \rvert=\lvert \boldsymbol{M_2N_2} \rvert=\lvert \boldsymbol{M_3N_3} \rvert$.
 
 由 $\lvert \boldsymbol{M_1N_1} \rvert^2=\lvert \boldsymbol{M_2N_2} \rvert^2$:
 
 $$
-\frac{1}{4}(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c})^2=\frac{1}{4}(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c})^2.
+\frac{1}{4}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\frac{1}{4}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)^2.
 $$
 
 展开: $\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$ (相同), 这恒等, 说明需要比较不同的对.
@@ -318,15 +318,15 @@ $$
 
 $\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c} \rvert^2$.
 
-由前两式相等: $(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c})^2=(\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c})^2$ 展开得 $-4\boldsymbol{a} \cdot \boldsymbol{b}+4\boldsymbol{b} \cdot \boldsymbol{c}=4\boldsymbol{a} \cdot \boldsymbol{b}-4\boldsymbol{a} \cdot \boldsymbol{c}$, 即 $-\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}$, 即 $2\boldsymbol{b} \cdot \boldsymbol{c}+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}=0$.
+由前两式相等: $\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)^2$ 展开得 $-4\boldsymbol{a} \cdot \boldsymbol{b}+4\boldsymbol{b} \cdot \boldsymbol{c}=4\boldsymbol{a} \cdot \boldsymbol{b}-4\boldsymbol{a} \cdot \boldsymbol{c}$, 即 $-\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}$, 即 $2\boldsymbol{b} \cdot \boldsymbol{c}+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}=0$.
 
 但更直接地, 取 $\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2$:
 
-$(\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{a})^2=(\boldsymbol{a}+\boldsymbol{c}-\boldsymbol{b})^2$.
+$\left(\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{a}\right)^2=\left(\boldsymbol{a}+\boldsymbol{c}-\boldsymbol{b}\right)^2$.
 
 展开: $\boldsymbol{b}^2+\boldsymbol{c}^2+\boldsymbol{a}^2+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{c}^2+\boldsymbol{b}^2+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{b} \cdot \boldsymbol{c}$.
 
-化简得 $4\boldsymbol{b} \cdot \boldsymbol{c}-4\boldsymbol{a} \cdot \boldsymbol{c}=0$, 即 $\boldsymbol{c} \cdot (\boldsymbol{b}-\boldsymbol{a})=0$.
+化简得 $4\boldsymbol{b} \cdot \boldsymbol{c}-4\boldsymbol{a} \cdot \boldsymbol{c}=0$, 即 $\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=0$.
 
 而 $\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, 故 $\boldsymbol{AB} \cdot \boldsymbol{OC}=0$, 即 $AB \perp OC$.
 

@@ -4,33 +4,33 @@
 
 > **Definition 1.1.5** (Linear Operations on Space Vectors) <br>$\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{OA}+\boldsymbol{AB}=\boldsymbol{OB}$; $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{OA}-\boldsymbol{OC}=\boldsymbol{CA}$; $\lambda\boldsymbol{a}$ ($\lambda \in \mathbb R$).
 
-> **Common Conclusion 1.1.6** (Laws of Linear Operations on Space Vectors) <br>Commutative law: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; associative law: $(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c})$; distributive law: $(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$, $\lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
+> **Common Conclusion 1.1.6** (Laws of Linear Operations on Space Vectors) <br>Commutative law: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; associative law: $\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right)$; distributive law: $\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$, $\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
 
 > **Common Conclusion 1.1.7** (Necessary and Sufficient Condition for Collinear Vectors) <br>For any two space vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ ($\boldsymbol{b} \neq \boldsymbol{0}$), $\boldsymbol{a} \parallel \boldsymbol{b}$ iff there exists a real number $\lambda$ such that $\boldsymbol{a}=\lambda\boldsymbol{b}$.
 
-> **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Coplanar Vectors) <br>If the two vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ are not collinear, then the vector $\boldsymbol{p}$ is coplanar with $\boldsymbol{a}$ and $\boldsymbol{b}$ iff there exists a unique ordered pair $(x,y)$ of real numbers such that $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}$.
+> **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Coplanar Vectors) <br>If the two vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ are not collinear, then the vector $\boldsymbol{p}$ is coplanar with $\boldsymbol{a}$ and $\boldsymbol{b}$ iff there exists a unique ordered pair $\left(x,y\right)$ of real numbers such that $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}$.
 
-> **Definition 1.1.10** (Angle Between Vectors) <br>Given two nonzero vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, take any point $O$ in space and draw $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$; then $\angle AOB$ is called the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$, denoted $\langle \boldsymbol{a}, \boldsymbol{b} \rangle$, with $0 \leq \langle \boldsymbol{a}, \boldsymbol{b} \rangle \leq \pi$.
+> **Definition 1.1.10** (Angle Between Vectors) <br>Given two nonzero vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, take any point $O$ in space and draw $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$; then $\angle AOB$ is called the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$, denoted $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$, with $0 \leq \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle \leq \pi$.
 
-> **Definition 1.1.12** (Dot Product) <br>$\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle$. The dot product of the zero vector with any vector is $0$.
+> **Definition 1.1.12** (Dot Product) <br>$\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$. The dot product of the zero vector with any vector is $0$.
 
 > **Common Conclusion 1.1.13** (Properties of the Dot Product) <br>$\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b} = 0$; $\boldsymbol{a} \cdot \boldsymbol{a} = \lvert \boldsymbol{a} \rvert^2$.
 
-> **Common Conclusion 1.1.14** (Laws of the Dot Product) <br>Commutative law: $\boldsymbol{a} \cdot \boldsymbol{b} = \boldsymbol{b} \cdot \boldsymbol{a}$; scalar-associative law: $(\lambda\boldsymbol{a}) \cdot \boldsymbol{b} = \lambda(\boldsymbol{a} \cdot \boldsymbol{b})$; distributive law: $(\boldsymbol{a}+\boldsymbol{b}) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}$.
+> **Common Conclusion 1.1.14** (Laws of the Dot Product) <br>Commutative law: $\boldsymbol{a} \cdot \boldsymbol{b} = \boldsymbol{b} \cdot \boldsymbol{a}$; scalar-associative law: $\left(\lambda\boldsymbol{a}\right) \cdot \boldsymbol{b} = \lambda\left(\boldsymbol{a} \cdot \boldsymbol{b}\right)$; distributive law: $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}$.
 
-> **Theorem 1.2.1** (Fundamental Theorem of Space Vectors) <br>If three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, and $\boldsymbol{c}$ are not coplanar, then for any space vector $\boldsymbol{p}$ there exists a unique ordered triple $(x,y,z)$ of real numbers such that $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
+> **Theorem 1.2.1** (Fundamental Theorem of Space Vectors) <br>If three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, and $\boldsymbol{c}$ are not coplanar, then for any space vector $\boldsymbol{p}$ there exists a unique ordered triple $\left(x,y,z\right)$ of real numbers such that $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
 
-> **Definition 1.2.2** (Basis, Basis Vectors) <br>If three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, and $\boldsymbol{c}$ are not coplanar, then $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ is called a basis of space, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are called basis vectors.
+> **Definition 1.2.2** (Basis, Basis Vectors) <br>If three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, and $\boldsymbol{c}$ are not coplanar, then $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is called a basis of space, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are called basis vectors.
 
-> **Definition 1.2.3** (Orthonormal Basis) <br>If the three basis vectors in a basis are pairwise perpendicular and all have length $1$, the basis is called an orthonormal basis, usually denoted $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$.
+> **Definition 1.2.3** (Orthonormal Basis) <br>If the three basis vectors in a basis are pairwise perpendicular and all have length $1$, the basis is called an orthonormal basis, usually denoted $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$.
 
-> **Definition 1.3.2** (Coordinates of a Point) <br>Under an orthonormal basis, the ordered triple $(x,y,z)$ corresponding to the vector $\boldsymbol{OA}$ is called the coordinates of the point $A$.
+> **Definition 1.3.2** (Coordinates of a Point) <br>Under an orthonormal basis, the ordered triple $\left(x,y,z\right)$ corresponding to the vector $\boldsymbol{OA}$ is called the coordinates of the point $A$.
 
-> **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations) <br>Let $\boldsymbol{a}=(a_1,a_2,a_3)$, $\boldsymbol{b}=(b_1,b_2,b_3)$; then $\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3)$, $\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3)$, and $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$.
+> **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations) <br>Let $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$; then $\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right)$, $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right)$, and $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$.
 
-> **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism, Perpendicularity, Norm, and Angle) <br>$\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b}$; $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert}$.
+> **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism, Perpendicularity, Norm, and Angle) <br>$\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b}$; $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert}$.
 
-> **Common Conclusion 1.3.6** (Distance Formula Between Two Points in Space) <br>$P_1P_2=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$.
+> **Common Conclusion 1.3.6** (Distance Formula Between Two Points in Space) <br>$P_1P_2=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2+\left(z_2-z_1\right)^2}$.
 
 > **Definition 1.4.1** (Direction Vector of a Line) <br>If $P$ is a point on the line $l$ and $\boldsymbol{u}$ is a direction vector of $l$, then for any point $P$ on $l$ there exists a real number $t$ such that $\boldsymbol{AP}=t\boldsymbol{u}$.
 
@@ -86,37 +86,37 @@ Hence there is 1 incorrect statement, namely (1). Choose (A). $\blacksquare$
 
 ### Problem 2
 
-(Review Reference Problems 1, Review and Consolidation, Problem 2) Given $\boldsymbol{a}=(3,1,2)$ and $\boldsymbol{b}=(-1,3,0)$, then $\boldsymbol{a}-\boldsymbol{b}$ and $\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$ are respectively ( ).
+(Review Reference Problems 1, Review and Consolidation, Problem 2) Given $\boldsymbol{a}=\left(3,1,2\right)$ and $\boldsymbol{b}=\left(-1,3,0\right)$, then $\boldsymbol{a}-\boldsymbol{b}$ and $\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$ are respectively ( ).
 
-(A) $(4,-2,2)$, $\left(\frac{5}{2},\frac{5}{2},2\right)$ (B) $(4,-2,2)$, $\left(\frac{5}{2},\frac{1}{2},2\right)$
+(A) $\left(4,-2,2\right)$, $\left(\frac{5}{2},\frac{5}{2},2\right)$ (B) $\left(4,-2,2\right)$, $\left(\frac{5}{2},\frac{1}{2},2\right)$
 
-(C) $(-4,2,-2)$, $\left(\frac{5}{2},\frac{1}{2},2\right)$ (D) $(4,-2,2)$, $\left(\frac{5}{2},\frac{5}{2},1\right)$
+(C) $\left(-4,2,-2\right)$, $\left(\frac{5}{2},\frac{1}{2},2\right)$ (D) $\left(4,-2,2\right)$, $\left(\frac{5}{2},\frac{5}{2},1\right)$
 
 ### Solution to Problem 2
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations).
 
-$\boldsymbol{a}-\boldsymbol{b}=(3-(-1), 1-3, 2-0)=(4,-2,2)$.
+$\boldsymbol{a}-\boldsymbol{b}=\left(3-\left(-1\right), 1-3, 2-0\right)=\left(4,-2,2\right)$.
 
-$\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=(3+\frac{1}{2} \times (-1), 1+\frac{1}{2} \times 3, 2+\frac{1}{2} \times 0)=\left(\frac{5}{2}, \frac{5}{2}, 2\right)$.
+$\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2} \times \left(-1\right), 1+\frac{1}{2} \times 3, 2+\frac{1}{2} \times 0\right)=\left(\frac{5}{2}, \frac{5}{2}, 2\right)$.
 
 Hence choose (A). $\blacksquare$
 
 ### Problem 3
 
-(Review Reference Problems 1, Review and Consolidation, Problem 3) Given $\boldsymbol{a}=(2,-1,3)$, $\boldsymbol{b}=(-4,2,x)$, and $\boldsymbol{a} \perp \boldsymbol{b}$, then $x=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 3) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \perp \boldsymbol{b}$, then $x=\;\_\_\;$.
 
 ### Solution to Problem 3
 
 By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$.
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times (-4)+(-1) \times 2+3 \times x=-8-2+3x=3x-10=0$.
+$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \times 2+3 \times x=-8-2+3x=3x-10=0$.
 
 Hence $x=\frac{10}{3}$. $\blacksquare$
 
 ### Problem 4
 
-(Review Reference Problems 1, Review and Consolidation, Problem 4) Given $\boldsymbol{a}=(2,-1,3)$, $\boldsymbol{b}=(-4,2,x)$, and $\boldsymbol{a} \parallel \boldsymbol{b}$, then $x=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 4) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \parallel \boldsymbol{b}$, then $x=\;\_\_\;$.
 
 ### Solution to Problem 4
 
@@ -124,25 +124,25 @@ By **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism), $\bol
 
 $-4=\lambda \times 2$, so $\lambda=-2$.
 
-$2=\lambda \times (-1)=-(-2)=2$, which is consistent.
+$2=\lambda \times \left(-1\right)=-\left(-2\right)=2$, which is consistent.
 
 $x=\lambda \times 3=-2 \times 3=-6$. $\blacksquare$
 
 ### Problem 5
 
-(Review Reference Problems 1, Review and Consolidation, Problem 5) Given points $A(1,0,0)$ and $B(2,1,2)$, then the vector $\boldsymbol{AB}=\;\_\_\;$, and $\lvert \boldsymbol{AB} \rvert=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 5) Given points $A\left(1,0,0\right)$ and $B\left(2,1,2\right)$, then the vector $\boldsymbol{AB}=\;\_\_\;$, and $\lvert \boldsymbol{AB} \rvert=\;\_\_\;$.
 
 ### Solution to Problem 5
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations) and **Common Conclusion 1.3.5** (Coordinate Representation of Norm).
 
-$\boldsymbol{AB}=B-A=(2-1, 1-0, 2-0)=(1,1,2)$.
+$\boldsymbol{AB}=B-A=\left(2-1, 1-0, 2-0\right)=\left(1,1,2\right)$.
 
 $\lvert \boldsymbol{AB} \rvert=\sqrt{1^2+1^2+2^2}=\sqrt{6}$. $\blacksquare$
 
 ### Problem 6
 
-(Review Reference Problems 1, Review and Consolidation, Problem 6) Given $\boldsymbol{a}=(1,0,1)$ and $\boldsymbol{b}=(1,1,0)$, then $\sin \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 6) Given $\boldsymbol{a}=\left(1,0,1\right)$ and $\boldsymbol{b}=\left(1,1,0\right)$, then $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\;\_\_\;$.
 
 ### Solution to Problem 6
 
@@ -154,21 +154,21 @@ $\lvert \boldsymbol{a} \rvert=\sqrt{1+0+1}=\sqrt{2}$.
 
 $\lvert \boldsymbol{b} \rvert=\sqrt{1+1+0}=\sqrt{2}$.
 
-$\cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{1}{\sqrt{2} \times \sqrt{2}}=\frac{1}{2}$.
+$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{1}{\sqrt{2} \times \sqrt{2}}=\frac{1}{2}$.
 
-$\sin \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
+$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
 
 ### Problem 7
 
-(Review Reference Problems 1, Review and Consolidation, Problem 7) Given $A(3,5,-7)$ and $B(-2,4,3)$, the midpoint of segment $AB$ has coordinates $\;\_\_\;$, and $\boldsymbol{AB}=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 7) Given $A\left(3,5,-7\right)$ and $B\left(-2,4,3\right)$, the midpoint of segment $AB$ has coordinates $\;\_\_\;$, and $\boldsymbol{AB}=\;\_\_\;$.
 
 ### Solution to Problem 7
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations).
 
-The midpoint is $\left(\frac{3+(-2)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
+The midpoint is $\left(\frac{3+\left(-2\right)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
 
-$\boldsymbol{AB}=B-A=(-2-3, 4-5, 3-(-7))=(-5,-1,10)$. $\blacksquare$
+$\boldsymbol{AB}=B-A=\left(-2-3, 4-5, 3-\left(-7\right)\right)=\left(-5,-1,10\right)$. $\blacksquare$
 
 ### Problem 8
 
@@ -178,19 +178,19 @@ $\boldsymbol{AB}=B-A=(-2-3, 4-5, 3-(-7))=(-5,-1,10)$. $\blacksquare$
 
 By **Theorem 1.2.1** (Fundamental Theorem of Space Vectors).
 
-$\boldsymbol{EF}=\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OB})=\frac{1}{2}(\boldsymbol{c}-\boldsymbol{b})$.
+$\boldsymbol{EF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OB}\right)=\frac{1}{2}\left(\boldsymbol{c}-\boldsymbol{b}\right)$.
 
-$\boldsymbol{DE}=\frac{1}{2}(\boldsymbol{OB}-\boldsymbol{OA})=\frac{1}{2}(\boldsymbol{b}-\boldsymbol{a})$.
+$\boldsymbol{DE}=\frac{1}{2}\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\frac{1}{2}\left(\boldsymbol{b}-\boldsymbol{a}\right)$.
 
-$\boldsymbol{DF}=\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OA})=\frac{1}{2}(\boldsymbol{c}-\boldsymbol{a})=\boldsymbol{DE}+\boldsymbol{EF}$.
+$\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OA}\right)=\frac{1}{2}\left(\boldsymbol{c}-\boldsymbol{a}\right)=\boldsymbol{DE}+\boldsymbol{EF}$.
 
 Hence $\boldsymbol{DF}=\boldsymbol{DE}+\boldsymbol{EF}$, and the three vectors, placed head-to-tail, form the three sides of a triangle. $\blacksquare$
 
 ### Problem 9
 
-(Review Reference Problems 1, Review and Consolidation, Problem 9) Given $\boldsymbol{a}=(2,-3,1)$, $\boldsymbol{b}=(2,0,3)$, $\boldsymbol{c}=(0,0,2)$. Find:
+(Review Reference Problems 1, Review and Consolidation, Problem 9) Given $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. Find:
 
-(1) $\boldsymbol{a} \cdot (\boldsymbol{b}+\boldsymbol{c})$;
+(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
 
 (2) $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}$.
 
@@ -198,33 +198,33 @@ Hence $\boldsymbol{DF}=\boldsymbol{DE}+\boldsymbol{EF}$, and the three vectors, 
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations).
 
-(1) $\boldsymbol{b}+\boldsymbol{c}=(2,0,5)$. $\boldsymbol{a} \cdot (\boldsymbol{b}+\boldsymbol{c})=2 \times 2+(-3) \times 0+1 \times 5=9$.
+(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=2 \times 2+\left(-3\right) \times 0+1 \times 5=9$.
 
-(2) $6\boldsymbol{b}=(12,0,18)$, $8\boldsymbol{c}=(0,0,16)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=(2+12, -3, 1+18-16)=(14,-3,3)$. $\blacksquare$
+(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12, -3, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
 
 ### Problem 10
 
-(Review Reference Problems 1, Comprehensive Application, Problem 10) Given $\boldsymbol{a}=(1,1,0)$ and $\boldsymbol{b}=(-1,0,2)$, then $\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\;\_\_\;$, and the area of the parallelogram with $\boldsymbol{a}$ and $\boldsymbol{b}$ as adjacent sides is $\;\_\_\;$.
+(Review Reference Problems 1, Comprehensive Application, Problem 10) Given $\boldsymbol{a}=\left(1,1,0\right)$ and $\boldsymbol{b}=\left(-1,0,2\right)$, then $\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\;\_\_\;$, and the area of the parallelogram with $\boldsymbol{a}$ and $\boldsymbol{b}$ as adjacent sides is $\;\_\_\;$.
 
 ### Solution to Problem 10
 
 By **Common Conclusion 1.3.5** (Coordinate Representation of Norm and Angle).
 
-$\boldsymbol{a}+\boldsymbol{b}=(0,1,2)$.
+$\boldsymbol{a}+\boldsymbol{b}=\left(0,1,2\right)$.
 
 $\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
 
 $\boldsymbol{a} \cdot \boldsymbol{b}=-1+0+0=-1$.
 
-$\cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{-1}{\sqrt{2} \cdot \sqrt{5}}=-\frac{1}{\sqrt{10}}$.
+$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{-1}{\sqrt{2} \cdot \sqrt{5}}=-\frac{1}{\sqrt{10}}$.
 
-$\sin \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\sqrt{1-\frac{1}{10}}=\frac{3}{\sqrt{10}}$.
+$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{10}}=\frac{3}{\sqrt{10}}$.
 
 Area of parallelogram $=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \sin \theta=\sqrt{2} \cdot \sqrt{5} \cdot \frac{3}{\sqrt{10}}=3$. $\blacksquare$
 
 ### Problem 11
 
-(Review Reference Problems 1, Comprehensive Application, Problem 11) Given $A(1,0,0)$, $B(0,1,0)$, $C(0,0,2)$, find the coordinates of $D$ satisfying:
+(Review Reference Problems 1, Comprehensive Application, Problem 11) Given $A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $C\left(0,0,2\right)$, find the coordinates of $D$ satisfying:
 
 (1) $\boldsymbol{AB}=\boldsymbol{CD}$;
 
@@ -234,23 +234,23 @@ Area of parallelogram $=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rver
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations).
 
-$\boldsymbol{AB}=(-1,1,0)$, $\boldsymbol{AC}=(-1,0,2)$.
+$\boldsymbol{AB}=\left(-1,1,0\right)$, $\boldsymbol{AC}=\left(-1,0,2\right)$.
 
-(1) $\boldsymbol{AB}=\boldsymbol{CD}$ means $(-1,1,0)=D-C=D-(0,0,2)$. Hence $D=(-1,1,2)$.
+(1) $\boldsymbol{AB}=\boldsymbol{CD}$ means $\left(-1,1,0\right)=D-C=D-\left(0,0,2\right)$. Hence $D=\left(-1,1,2\right)$.
 
-(2) $\boldsymbol{AB}+\boldsymbol{AC}=(-2,1,2)=\boldsymbol{AD}=D-A$. Hence $D=(-1,1,2)$. $\blacksquare$
+(2) $\boldsymbol{AB}+\boldsymbol{AC}=\left(-2,1,2\right)=\boldsymbol{AD}=D-A$. Hence $D=\left(-1,1,2\right)$. $\blacksquare$
 
 ### Problem 12
 
-(Review Reference Problems 1, Comprehensive Application, Problem 12) Given $\boldsymbol{a}=(1-t,1-t,t)$ and $\boldsymbol{b}=(2,t,t)$, find the minimum value of $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert$.
+(Review Reference Problems 1, Comprehensive Application, Problem 12) Given $\boldsymbol{a}=\left(1-t,1-t,t\right)$ and $\boldsymbol{b}=\left(2,t,t\right)$, find the minimum value of $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert$.
 
 ### Solution to Problem 12
 
 By **Common Conclusion 1.3.5** (Coordinate Representation of Norm).
 
-$\boldsymbol{b}-\boldsymbol{a}=(2-(1-t), t-(1-t), t-t)=(1+t, 2t-1, 0)$.
+$\boldsymbol{b}-\boldsymbol{a}=\left(2-\left(1-t\right), t-\left(1-t\right), t-t\right)=\left(1+t, 2t-1, 0\right)$.
 
-$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert^2=(1+t)^2+(2t-1)^2=1+2t+t^2+4t^2-4t+1=5t^2-2t+2$.
+$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert^2=\left(1+t\right)^2+\left(2t-1\right)^2=1+2t+t^2+4t^2-4t+1=5t^2-2t+2$.
 
 When $t=\frac{2}{10}=\frac{1}{5}$, the minimum is $5 \times \frac{1}{25}-2 \times \frac{1}{5}+2=\frac{1}{5}-\frac{2}{5}+2=\frac{9}{5}$.
 
@@ -258,15 +258,15 @@ $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert_{\min}=\sqrt{\frac{9}{5}}=\frac{3\s
 
 ### Problem 13
 
-(Review Reference Problems 1, Comprehensive Application, Problem 13) Prove that the three points $A(1,0,-1)$, $B(3,4,5)$, and $C(0,-2,-4)$ are collinear.
+(Review Reference Problems 1, Comprehensive Application, Problem 13) Prove that the three points $A\left(1,0,-1\right)$, $B\left(3,4,5\right)$, and $C\left(0,-2,-4\right)$ are collinear.
 
 ### Solution to Problem 13
 
 By **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism).
 
-$\boldsymbol{AB}=(2,4,6)$.
+$\boldsymbol{AB}=\left(2,4,6\right)$.
 
-$\boldsymbol{AC}=(-1,-2,-3)$.
+$\boldsymbol{AC}=\left(-1,-2,-3\right)$.
 
 $\boldsymbol{AB}=-2 \cdot \boldsymbol{AC}$, i.e. $\boldsymbol{AB} \parallel \boldsymbol{AC}$.
 
@@ -274,21 +274,21 @@ Also, $\boldsymbol{AB}$ and $\boldsymbol{AC}$ share the common initial point $A$
 
 ### Problem 14
 
-(Review Reference Problems 1, Comprehensive Application, Problem 14) Given $A(1,2,-1)$ and $B(2,0,2)$, the point $P$ lies in the $xOz$ plane with $PA=PB$. Find the locus of $P$.
+(Review Reference Problems 1, Comprehensive Application, Problem 14) Given $A\left(1,2,-1\right)$ and $B\left(2,0,2\right)$, the point $P$ lies in the $xOz$ plane with $PA=PB$. Find the locus of $P$.
 
 ### Solution to Problem 14
 
 By **Common Conclusion 1.3.6** (Distance Formula Between Two Points in Space).
 
-Let $P(x,0,z)$ (in the $xOz$ plane, $y=0$).
+Let $P\left(x,0,z\right)$ (in the $xOz$ plane, $y=0$).
 
-$PA^2=(x-1)^2+(0-2)^2+(z+1)^2=(x-1)^2+4+(z+1)^2$.
+$PA^2=\left(x-1\right)^2+\left(0-2\right)^2+\left(z+1\right)^2=\left(x-1\right)^2+4+\left(z+1\right)^2$.
 
-$PB^2=(x-2)^2+(0-0)^2+(z-2)^2=(x-2)^2+(z-2)^2$.
+$PB^2=\left(x-2\right)^2+\left(0-0\right)^2+\left(z-2\right)^2=\left(x-2\right)^2+\left(z-2\right)^2$.
 
 From $PA=PB$, we have $PA^2=PB^2$:
 
-$(x-1)^2+4+(z+1)^2=(x-2)^2+(z-2)^2$.
+$\left(x-1\right)^2+4+\left(z+1\right)^2=\left(x-2\right)^2+\left(z-2\right)^2$.
 
 Expanding: $x^2-2x+1+4+z^2+2z+1=x^2-4x+4+z^2-4z+4$.
 
@@ -298,15 +298,15 @@ Hence the locus of $P$ is the line $x+3z=1$ in the $xOz$ plane. $\blacksquare$
 
 ### Problem 15
 
-(Review Reference Problems 1, Comprehensive Application, Problem 15) Given that $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ is an orthonormal basis of space, what is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ and the basis $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$? What is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}$ and the basis $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$?
+(Review Reference Problems 1, Comprehensive Application, Problem 15) Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is an orthonormal basis of space, what is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$? What is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$?
 
 ### Solution to Problem 15
 
 By **Definition 1.2.2** (Basis, Basis Vectors) and **Theorem 1.2.1** (Fundamental Theorem of Space Vectors).
 
-$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ is a linear combination of the basis vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, i.e. its coordinates in the basis $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ are $(1,1,-1)$.
+$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ is a linear combination of the basis vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, i.e. its coordinates in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,-1\right)$.
 
-$\boldsymbol{a}+\boldsymbol{b}$ is a linear combination only of $\boldsymbol{a}$ and $\boldsymbol{b}$, with no $\boldsymbol{c}$, so it is parallel to the plane spanned by $\boldsymbol{a}$ and $\boldsymbol{b}$ (i.e. the $xOy$ plane). The coordinates of $\boldsymbol{a}+\boldsymbol{b}$ in the basis $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ are $(1,1,0)$. $\blacksquare$
+$\boldsymbol{a}+\boldsymbol{b}$ is a linear combination only of $\boldsymbol{a}$ and $\boldsymbol{b}$, with no $\boldsymbol{c}$, so it is parallel to the plane spanned by $\boldsymbol{a}$ and $\boldsymbol{b}$ (i.e. the $xOy$ plane). The coordinates of $\boldsymbol{a}+\boldsymbol{b}$ in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,0\right)$. $\blacksquare$
 
 ### Problem 16
 
@@ -324,27 +324,27 @@ By **Common Conclusion 1.4.4** (Vector Characterization of Perpendicularity).
 
 Let the cube have side length $1$, take $D$ as origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$D(0,0,0)$, $B_1(1,1,1)$, $A(1,0,0)$, $C(0,1,0)$, $B(1,1,0)$.
+$D\left(0,0,0\right)$, $B_1\left(1,1,1\right)$, $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $B\left(1,1,0\right)$.
 
-$\boldsymbol{DB_1}=(1,1,1)$.
+$\boldsymbol{DB_1}=\left(1,1,1\right)$.
 
-(1) $\boldsymbol{AC}=(-1,1,0)$.
+(1) $\boldsymbol{AC}=\left(-1,1,0\right)$.
 
 $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=-1+1+0=0$. Hence $DB_1 \perp AC$.
 
-(2) $\boldsymbol{AB_1}=(0,1,1)$.
+(2) $\boldsymbol{AB_1}=\left(0,1,1\right)$.
 
 $\boldsymbol{DB_1} \cdot \boldsymbol{AB_1}=0+1+1=2 \neq 0$. Note the relation between $DB_1$ and the plane $ACB_1$.
 
-Actually, a normal vector to the plane $ACB_1$ is $\boldsymbol{AC} \times \boldsymbol{AB_1}=(1,1,-1)$.
+Actually, a normal vector to the plane $ACB_1$ is $\boldsymbol{AC} \times \boldsymbol{AB_1}=\left(1,1,-1\right)$.
 
-$\boldsymbol{DB_1}=(1,1,1)$ is not parallel to the normal $(1,1,-1)$.
+$\boldsymbol{DB_1}=\left(1,1,1\right)$ is not parallel to the normal $\left(1,1,-1\right)$.
 
-But $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, and $\boldsymbol{DB_1} \cdot \boldsymbol{CB_1}=(1,1,1) \cdot (1,0,1)=2 \neq 0$.
+But $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, and $\boldsymbol{DB_1} \cdot \boldsymbol{CB_1}=\left(1,1,1\right) \cdot \left(1,0,1\right)=2 \neq 0$.
 
 Hence $DB_1 \perp AC$, but $DB_1$ is not perpendicular to every line in the plane $ACB_1$. The problem may intend $DB_1 \perp$ the plane $ACD_1$.
 
-Verification: $\boldsymbol{AC}=(-1,1,0)$, $\boldsymbol{AD_1}=(-1,0,1)$. $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{AD_1}=-1+0+1=0$.
+Verification: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{AD_1}=-1+0+1=0$.
 
 Hence $DB_1 \perp$ the plane $ACD_1$. $\blacksquare$
 
@@ -354,7 +354,7 @@ Hence $DB_1 \perp$ the plane $ACD_1$. $\blacksquare$
 
 (1) Find the coordinates of $\boldsymbol{BN}$ (where $N$ is the midpoint of $A_1A$);
 
-(2) Find $\cos \langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \rangle$;
+(2) Find $\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle$;
 
 (3) Prove that $A_1B \perp C_1M$.
 
@@ -366,15 +366,15 @@ By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operat
 
 Take $C$ as the origin, $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
 
-$C(0,0,0)$, $A(1,0,0)$, $B(0,1,0)$, $A_1(1,0,2)$, $B_1(0,1,2)$, $C_1(0,0,2)$.
+$C\left(0,0,0\right)$, $A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,2\right)$, $B_1\left(0,1,2\right)$, $C_1\left(0,0,2\right)$.
 
-(1) $N$ is the midpoint of $A_1A$: $N(1,0,1)$.
+(1) $N$ is the midpoint of $A_1A$: $N\left(1,0,1\right)$.
 
-$\boldsymbol{BN}=N-B=(1,-1,1)$.
+$\boldsymbol{BN}=N-B=\left(1,-1,1\right)$.
 
-(2) $\boldsymbol{BA_1}=A_1-B=(1,-1,2)$.
+(2) $\boldsymbol{BA_1}=A_1-B=\left(1,-1,2\right)$.
 
-$\boldsymbol{CB_1}=B_1-C=(0,1,2)$.
+$\boldsymbol{CB_1}=B_1-C=\left(0,1,2\right)$.
 
 $\boldsymbol{BA_1} \cdot \boldsymbol{CB_1}=0-1+4=3$.
 
@@ -382,13 +382,13 @@ $\lvert \boldsymbol{BA_1} \rvert=\sqrt{1+1+4}=\sqrt{6}$.
 
 $\lvert \boldsymbol{CB_1} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
 
-$\cos \langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+$\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
 
 (3) $M$ is the midpoint of $A_1B_1$: $M\left(\frac{1}{2}, \frac{1}{2}, 2\right)$.
 
 $\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2}, \frac{1}{2}, 0\right)$.
 
-$\boldsymbol{A_1B}=B-A_1=(-1,1,-2)$.
+$\boldsymbol{A_1B}=B-A_1=\left(-1,1,-2\right)$.
 
 $\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
 

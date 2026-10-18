@@ -1,52 +1,52 @@
 # 作业 94
 
-> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P(A)>0$, 我们称 $\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
+> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)>0$, 我们称 $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
 
-> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P(A)>0$, 则 $\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A)$.
+> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)>0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P(A)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P(B\mid A)=\mathbb P(B)$; 此时 $\mathbb P(AB)=\mathbb P(A)\mathbb P(B)$.
+> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$; 此时 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$.
 
-> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P(B)=\sum_{i=1}^n \mathbb P(A_i)\mathbb P(B\mid A_i)$.
+> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
 
-> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P(B)>0$, 有 $\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)}$, $i=1,2,\cdots,n$.
+> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)>0$, 有 $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
 
-> **定义 7.2.1** (随机变量) <br>一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X(\omega)$ 与之对应, 我们称 $X$ 为随机变量.
+> **定义 7.2.1** (随机变量) <br>一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X\left(\omega\right)$ 与之对应, 我们称 $X$ 为随机变量.
 
-> **定义 7.2.3** (分布列) <br>设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称 $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$ 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
+> **定义 7.2.3** (分布列) <br>设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$ 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
 
-> **定义 7.3.1** (均值或数学期望) <br>若离散型随机变量 $X$ 的分布列为 $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E(X)=x_1p_1+x_2p_2+\cdots+x_np_n=\sum_{i=1}^n x_ip_i$ 为随机变量 $X$ 的均值或数学期望, 它反映了随机变量取值的平均水平.
+> **定义 7.3.1** (均值或数学期望) <br>若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E\left(X\right)=x_1p_1+x_2p_2+\cdots+x_np_n=\sum_{i=1}^n x_ip_i$ 为随机变量 $X$ 的均值或数学期望, 它反映了随机变量取值的平均水平.
 
-> **结论 7.3.2** (均值的性质) <br>若 $X$ 是离散型随机变量, $a$, $b$ 为常数, 则 $\mathbb E(aX+b)=a\mathbb E(X)+b$.
+> **结论 7.3.2** (均值的性质) <br>若 $X$ 是离散型随机变量, $a$, $b$ 为常数, 则 $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$.
 
-> **定义 7.3.3** (方差) <br>称 $D(X)=\sum_{i=1}^n\left[x_i-\mathbb E(X)\right]^2p_i$ 为随机变量 $X$ 的方差, 并称 $\sqrt{D(X)}$ 为 $X$ 的标准差, 它们反映了随机变量取值的离散程度.
+> **定义 7.3.3** (方差) <br>称 $D\left(X\right)=\sum_{i=1}^n\left[x_i-\mathbb E\left(X\right)\right]^2p_i$ 为随机变量 $X$ 的方差, 并称 $\sqrt{D\left(X\right)}$ 为 $X$ 的标准差, 它们反映了随机变量取值的离散程度.
 
-> **结论 7.3.4** (方差的简化公式) <br>$D(X)=\mathbb E(X^2)-\left[\mathbb E(X)\right]^2$.
+> **结论 7.3.4** (方差的简化公式) <br>$D\left(X\right)=\mathbb E\left(X^2\right)-\left[\mathbb E\left(X\right)\right]^2$.
 
 > **定义 7.4.1** (伯努利试验与 $n$ 重伯努利试验) <br>只包含两个可能结果的试验叫做伯努利试验. 将一个伯努利试验独立地重复进行 $n$ 次所组成的随机试验称为 $n$ 重伯努利试验.
 
-> **定义 7.4.2** (二项分布) <br>在 $n$ 重伯努利试验中, 设每次试验中事件 $A$ 发生的概率为 $p$, 用 $X$ 表示事件 $A$ 发生的次数, 则 $\mathbb P(X=k)=\binom{n}{k} p^k (1-p)^{n-k}$, $k=0,1,\cdots,n$. 称 $X$ 服从二项分布, 记作 $X\sim B(n,p)$.
+> **定义 7.4.2** (二项分布) <br>在 $n$ 重伯努利试验中, 设每次试验中事件 $A$ 发生的概率为 $p$, 用 $X$ 表示事件 $A$ 发生的次数, 则 $\mathbb P\left(X=k\right)=\binom{n}{k} p^k \left(1-p\right)^{n-k}$, $k=0,1,\cdots,n$. 称 $X$ 服从二项分布, 记作 $X\sim B\left(n,p\right)$.
 
 > **定义 7.5.1** (连续型随机变量) <br>对于随机变量 $X$, 如果它可以取某一区间内的任意值, 称 $X$ 为连续型随机变量.
 
-> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N(\mu,\sigma^2)$.
+> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N\left(\mu,\sigma^2\right)$.
 
-> **结论 7.5.4** ($3\sigma$ 原则) <br>若 $X\sim N(\mu,\sigma^2)$, 则 $\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$, $\mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545$, $\mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973$.
+> **结论 7.5.4** ($3\sigma$ 原则) <br>若 $X\sim N\left(\mu,\sigma^2\right)$, 则 $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$, $\mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)\approx 0.9545$, $\mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)\approx 0.9973$.
 
 ### 习题一
 
-(复习参考题 7 复习巩固第 1 题) 举例说明 $\mathbb P(B)$ 与 $\mathbb P(B\mid A)$ 没有确定的大小关系.
+(复习参考题 7 复习巩固第 1 题) 举例说明 $\mathbb P\left(B\right)$ 与 $\mathbb P\left(B\mid A\right)$ 没有确定的大小关系.
 
 ### 解答 习题一
 
-由**定义 7.1.1** (条件概率), $\mathbb P(B\mid A)$ 是在 $A$ 发生的条件下 $B$ 发生的概率, 它与 $\mathbb P(B)$ 的大小关系取决于事件 $A$, $B$ 之间的具体关系.
+由**定义 7.1.1** (条件概率), $\mathbb P\left(B\mid A\right)$ 是在 $A$ 发生的条件下 $B$ 发生的概率, 它与 $\mathbb P\left(B\right)$ 的大小关系取决于事件 $A$, $B$ 之间的具体关系.
 
-(1) 取 $\mathbb P(B\mid A)>\mathbb P(B)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出 2 点", $B$ = "掷出的点数不超过 2". 则 $\mathbb P(B)=\frac{2}{6}=\frac{1}{3}$, 而 $A\subseteq B$, 故事件 $A$ 发生时 $B$ 必然发生, $\mathbb P(B\mid A)=1$. 于是 $\mathbb P(B\mid A)=1>\frac{1}{3}=\mathbb P(B)$.
+(1) 取 $\mathbb P\left(B\mid A\right)>\mathbb P\left(B\right)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出 2 点", $B$ = "掷出的点数不超过 2". 则 $\mathbb P\left(B\right)=\frac{2}{6}=\frac{1}{3}$, 而 $A\subseteq B$, 故事件 $A$ 发生时 $B$ 必然发生, $\mathbb P\left(B\mid A\right)=1$. 于是 $\mathbb P\left(B\mid A\right)=1>\frac{1}{3}=\mathbb P\left(B\right)$.
 
-(2) 取 $\mathbb P(B\mid A)=\mathbb P(B)$ 的例子. 同时抛掷两枚质地均匀的骰子, 设 $A$ = "第一枚掷出偶数点", $B$ = "第二枚掷出偶数点". 由**结论 7.1.4** (事件的相互独立), 两枚骰子的点数相互独立, 故 $\mathbb P(B\mid A)=\mathbb P(B)=\frac{1}{2}$.
+(2) 取 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ 的例子. 同时抛掷两枚质地均匀的骰子, 设 $A$ = "第一枚掷出偶数点", $B$ = "第二枚掷出偶数点". 由**结论 7.1.4** (事件的相互独立), 两枚骰子的点数相互独立, 故 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)=\frac{1}{2}$.
 
-(3) 取 $\mathbb P(B\mid A)<\mathbb P(B)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出的点数不小于 5", $B$ = "掷出的点数不超过 4". 则 $\mathbb P(B)=\frac{4}{6}=\frac{2}{3}$, 而 $A$ 与 $B$ 互斥, 故事件 $A$ 发生时 $B$ 必不发生, $\mathbb P(B\mid A)=0$. 于是 $\mathbb P(B\mid A)=0<\frac{2}{3}=\mathbb P(B)$.
+(3) 取 $\mathbb P\left(B\mid A\right)<\mathbb P\left(B\right)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出的点数不小于 5", $B$ = "掷出的点数不超过 4". 则 $\mathbb P\left(B\right)=\frac{4}{6}=\frac{2}{3}$, 而 $A$ 与 $B$ 互斥, 故事件 $A$ 发生时 $B$ 必不发生, $\mathbb P\left(B\mid A\right)=0$. 于是 $\mathbb P\left(B\mid A\right)=0<\frac{2}{3}=\mathbb P\left(B\right)$.
 
-综上, $\mathbb P(B\mid A)$ 可能大于, 等于或小于 $\mathbb P(B)$, 二者没有确定的大小关系. $\blacksquare$
+综上, $\mathbb P\left(B\mid A\right)$ 可能大于, 等于或小于 $\mathbb P\left(B\right)$, 二者没有确定的大小关系. $\blacksquare$
 
 ### 习题二
 
@@ -60,18 +60,18 @@
 
 由**结论 7.1.4** (事件的相互独立), 两枚骰子掷出的点数相互独立.
 
-设 $A$ = "第一枚骰子掷出偶数", $B$ = "第二枚骰子掷出偶数". 每枚骰子掷出偶数点的概率为 $\frac{3}{6}=\frac{1}{2}$, 故 $\mathbb P(A)=\mathbb P(B)=\frac{1}{2}$.
+设 $A$ = "第一枚骰子掷出偶数", $B$ = "第二枚骰子掷出偶数". 每枚骰子掷出偶数点的概率为 $\frac{3}{6}=\frac{1}{2}$, 故 $\mathbb P\left(A\right)=\mathbb P\left(B\right)=\frac{1}{2}$.
 
 (1) 由**结论 7.1.4** (事件的相互独立), 两个点数都为偶数的概率为
 
 $$
-\mathbb P(AB)=\mathbb P(A)\mathbb P(B)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}.
+\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}.
 $$
 
 (2) 由**结论 7.1.4** (事件的相互独立), 已知第一枚为偶数, 第二枚是否为偶数不受影响, 故
 
 $$
-\mathbb P(B\mid A)=\mathbb P(B)=\frac{1}{2}.
+\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)=\frac{1}{2}.
 $$
 
 $\blacksquare$
@@ -88,24 +88,24 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式) 及**结论 7.1.6** (贝叶斯公式).
 
-设 $A_1$ = "挑出的是第一箱", $A_2$ = "挑出的是第二箱", $B$ = "取出的零件是次品". 随意挑选一箱, 故 $\mathbb P(A_1)=\mathbb P(A_2)=\frac{1}{2}$. 第一箱次品率为 $\frac{2}{10}=0.2$, 第二箱次品率为 $\frac{3}{20}=0.15$, 故 $\mathbb P(B\mid A_1)=0.2$, $\mathbb P(B\mid A_2)=0.15$.
+设 $A_1$ = "挑出的是第一箱", $A_2$ = "挑出的是第二箱", $B$ = "取出的零件是次品". 随意挑选一箱, 故 $\mathbb P\left(A_1\right)=\mathbb P\left(A_2\right)=\frac{1}{2}$. 第一箱次品率为 $\frac{2}{10}=0.2$, 第二箱次品率为 $\frac{3}{20}=0.15$, 故 $\mathbb P\left(B\mid A_1\right)=0.2$, $\mathbb P\left(B\mid A_2\right)=0.15$.
 
 (1) 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P(B)=\mathbb P(A_1)\mathbb P(B\mid A_1)+\mathbb P(A_2)\mathbb P(B\mid A_2).
+\mathbb P\left(B\right)=\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)+\mathbb P\left(A_2\right)\mathbb P\left(B\mid A_2\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P(B)=\frac{1}{2}\times 0.2+\frac{1}{2}\times 0.15=0.1+0.075=0.175.
+\mathbb P\left(B\right)=\frac{1}{2}\times 0.2+\frac{1}{2}\times 0.15=0.1+0.075=0.175.
 $$
 
 (2) 由**结论 7.1.6** (贝叶斯公式),
 
 $$
-\mathbb P(A_1\mid B)=\frac{\mathbb P(A_1)\mathbb P(B\mid A_1)}{\mathbb P(B)}=\frac{\frac{1}{2}\times 0.2}{0.175}=\frac{0.1}{0.175}=\frac{4}{7}.
+\mathbb P\left(A_1\mid B\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)}{\mathbb P\left(B\right)}=\frac{\frac{1}{2}\times 0.2}{0.175}=\frac{0.1}{0.175}=\frac{4}{7}.
 $$
 
 $\blacksquare$
@@ -118,7 +118,7 @@ $\blacksquare$
 |---|---|---|---|
 | $P$ | 0.36 | $1-2q$ | $q^2$ |
 
-求: (1) 常数 $q$ 的值; (2) $\mathbb E(X)$ 和 $D(X)$.
+求: (1) 常数 $q$ 的值; (2) $\mathbb E\left(X\right)$ 和 $D\left(X\right)$.
 
 ### 解答 习题四
 
@@ -127,7 +127,7 @@ $\blacksquare$
 (1) 由 $p_1+p_2+p_3=1$, 得
 
 $$
-0.36+(1-2q)+q^2=1.
+0.36+\left(1-2q\right)+q^2=1.
 $$
 
 整理得
@@ -141,42 +141,42 @@ $$
 (2) 由**定义 7.3.1** (均值或数学期望),
 
 $$
-\mathbb E(X)=0\times 0.36+1\times 0.6+2\times 0.04=0.68.
+\mathbb E\left(X\right)=0\times 0.36+1\times 0.6+2\times 0.04=0.68.
 $$
 
 又
 
 $$
-\mathbb E(X^2)=0^2\times 0.36+1^2\times 0.6+2^2\times 0.04=0.76.
+\mathbb E\left(X^2\right)=0^2\times 0.36+1^2\times 0.6+2^2\times 0.04=0.76.
 $$
 
 由**结论 7.3.4** (方差的简化公式),
 
 $$
-D(X)=\mathbb E(X^2)-\left[\mathbb E(X)\right]^2=0.76-0.68^2=0.76-0.4624=0.2976.
+D\left(X\right)=\mathbb E\left(X^2\right)-\left[\mathbb E\left(X\right)\right]^2=0.76-0.68^2=0.76-0.4624=0.2976.
 $$
 
 $\blacksquare$
 
 ### 习题五
 
-(复习参考题 7 复习巩固第 5 题) 已知随机变量 $X$ 取所有的值 $1$, $2$, $\cdots$, $n$ 是等可能的, 且 $\mathbb E(X)=10$, 求 $n$ 的值.
+(复习参考题 7 复习巩固第 5 题) 已知随机变量 $X$ 取所有的值 $1$, $2$, $\cdots$, $n$ 是等可能的, 且 $\mathbb E\left(X\right)=10$, 求 $n$ 的值.
 
 ### 解答 习题五
 
 由**定义 7.3.1** (均值或数学期望), $X$ 取每个值的概率均为 $\frac{1}{n}$, 故
 
 $$
-\mathbb E(X)=\frac{1+2+\cdots+n}{n}.
+\mathbb E\left(X\right)=\frac{1+2+\cdots+n}{n}.
 $$
 
-由等差数列求和公式, $1+2+\cdots+n=\frac{n(n+1)}{2}$, 代入得
+由等差数列求和公式, $1+2+\cdots+n=\frac{n\left(n+1\right)}{2}$, 代入得
 
 $$
-\mathbb E(X)=\frac{n+1}{2}.
+\mathbb E\left(X\right)=\frac{n+1}{2}.
 $$
 
-由题意 $\mathbb E(X)=10$, 故 $\frac{n+1}{2}=10$, 解得 $n=19$. $\blacksquare$
+由题意 $\mathbb E\left(X\right)=10$, 故 $\frac{n+1}{2}=10$, 解得 $n=19$. $\blacksquare$
 
 ### 习题六
 
@@ -188,27 +188,27 @@ $$
 
 ### 解答 习题六
 
-由**定义 7.4.2** (二项分布), 设击中目标的次数为 $X$, 则 $X\sim B(n,0.3)$.
+由**定义 7.4.2** (二项分布), 设击中目标的次数为 $X$, 则 $X\sim B\left(n,0.3\right)$.
 
 (1) 当 $n=10$ 时, 由**定义 7.4.2** (二项分布),
 
 $$
-\mathbb P(X=3)=\binom{10}{3}\times 0.3^3\times 0.7^7.
+\mathbb P\left(X=3\right)=\binom{10}{3}\times 0.3^3\times 0.7^7.
 $$
 
 其中 $\binom{10}{3}=120$, 计算得
 
 $$
-\mathbb P(X=3)=120\times 0.027\times 0.0823543\approx 0.267.
+\mathbb P\left(X=3\right)=120\times 0.027\times 0.0823543\approx 0.267.
 $$
 
 (2) 目标至少被击中一次的概率为
 
 $$
-\mathbb P(X\ge 1)=1-\mathbb P(X=0)=1-0.7^n.
+\mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-0.7^n.
 $$
 
-由题意 $\mathbb P(X\ge 1)>0.95$, 即
+由题意 $\mathbb P\left(X\ge 1\right)>0.95$, 即
 
 $$
 1-0.7^n>0.95,
@@ -230,24 +230,24 @@ $$
 
 由**定义 7.1.1** (条件概率).
 
-设 $A$ = "该学生近视", $B$ = "该学生每天玩手机超过 $1\ \mathrm{h}$". 由题意, $\mathbb P(A)=0.4$, $\mathbb P(B)=0.2$, $\mathbb P(A\mid B)=0.5$.
+设 $A$ = "该学生近视", $B$ = "该学生每天玩手机超过 $1\ \mathrm{h}$". 由题意, $\mathbb P\left(A\right)=0.4$, $\mathbb P\left(B\right)=0.2$, $\mathbb P\left(A\mid B\right)=0.5$.
 
 由**结论 7.1.2** (概率的乘法公式), 每天玩手机超过 $1\ \mathrm{h}$ 且近视的学生比例为
 
 $$
-\mathbb P(AB)=\mathbb P(B)\mathbb P(A\mid B)=0.2\times 0.5=0.1.
+\mathbb P\left(AB\right)=\mathbb P\left(B\right)\mathbb P\left(A\mid B\right)=0.2\times 0.5=0.1.
 $$
 
 于是每天玩手机不超过 $1\ \mathrm{h}$ 的学生中近视的比例为
 
 $$
-\mathbb P(A\bar B)=\mathbb P(A)-\mathbb P(AB)=0.4-0.1=0.3.
+\mathbb P\left(A\bar B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
 $$
 
-又每天玩手机不超过 $1\ \mathrm{h}$ 的学生所占比例为 $\mathbb P(\bar B)=1-\mathbb P(B)=0.8$. 由**定义 7.1.1** (条件概率), 在该群体中任意调查一名学生, 他近视的概率为
+又每天玩手机不超过 $1\ \mathrm{h}$ 的学生所占比例为 $\mathbb P\left(\bar B\right)=1-\mathbb P\left(B\right)=0.8$. 由**定义 7.1.1** (条件概率), 在该群体中任意调查一名学生, 他近视的概率为
 
 $$
-\mathbb P(A\mid\bar B)=\frac{\mathbb P(A\bar B)}{\mathbb P(\bar B)}=\frac{0.3}{0.8}=0.375.
+\mathbb P\left(A\mid\bar B\right)=\frac{\mathbb P\left(A\bar B\right)}{\mathbb P\left(\bar B\right)}=\frac{0.3}{0.8}=0.375.
 $$
 
 $\blacksquare$
@@ -265,7 +265,7 @@ $\blacksquare$
 选择商场外促销, 遇雨 (概率 $0.4$) 损失 3 万元, 不遇雨 (概率 $0.6$) 获利 8 万元. 由**定义 7.3.1** (均值或数学期望), 其期望利润为
 
 $$
-E=0.6\times 8+0.4\times(-3)=4.8-1.2=3.6\text{ (万元)}.
+E=0.6\times 8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{ \left(万元\right)}.
 $$
 
 比较两种方式的期望利润, $3.6>2$, 故从期望利润最大的角度, 商场应选择在商场外举行促销活动. $\blacksquare$
@@ -280,32 +280,32 @@ $$
 
 ### 解答 习题九
 
-由**定义 7.4.2** (二项分布), 设一年内需要赔付的保单份数为 $X$, 则 $X\sim B(10^5,10^{-5})$, 其参数 $\lambda=np=10^5\times 10^{-5}=1$, 可用泊松分布近似, 即 $\mathbb P(X=k)\approx\frac{e^{-1}}{k!}$.
+由**定义 7.4.2** (二项分布), 设一年内需要赔付的保单份数为 $X$, 则 $X\sim B\left(10^5,10^{-5}\right)$, 其参数 $\lambda=np=10^5\times 10^{-5}=1$, 可用泊松分布近似, 即 $\mathbb P\left(X=k\right)\approx\frac{e^{-1}}{k!}$.
 
 保险公司的保费总收入为 $10^5\times 20=2\times 10^6$ 元, 即 200 万元; 总赔付金额为每份 50 万元, 即 $50X$ 万元.
 
 (1) 亏本即总赔付超过保费总收入, 亦即 $50X>200$, 即 $X>4$. 故亏本的概率为
 
 $$
-\mathbb P(X\ge 5)=1-\mathbb P(X\le 4).
+\mathbb P\left(X\ge 5\right)=1-\mathbb P\left(X\le 4\right).
 $$
 
 由泊松近似,
 
 $$
-\mathbb P(X\le 4)\approx e^{-1}\left(1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}\right)=e^{-1}\times\frac{65}{24}\approx 0.9963.
+\mathbb P\left(X\le 4\right)\approx e^{-1}\left(1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}\right)=e^{-1}\times\frac{65}{24}\approx 0.9963.
 $$
 
 故
 
 $$
-\mathbb P(X\ge 5)\approx 1-0.9963=0.0037.
+\mathbb P\left(X\ge 5\right)\approx 1-0.9963=0.0037.
 $$
 
 (2) 一年内获利不少于 100 万元, 即保费总收入减去总赔付不小于 100 万元, 亦即 $200-50X\ge 100$, 即 $X\le 2$. 故所求概率为
 
 $$
-\mathbb P(X\le 2)\approx e^{-1}\left(1+1+\frac{1}{2!}\right)=e^{-1}\times 2.5\approx 0.9197.
+\mathbb P\left(X\le 2\right)\approx e^{-1}\left(1+1+\frac{1}{2!}\right)=e^{-1}\times 2.5\approx 0.9197.
 $$
 
 $\blacksquare$
@@ -321,10 +321,10 @@ $\blacksquare$
 第 $n$ 次传球后球在甲手中, 当且仅当第 $n-1$ 次传球后球不在甲手中, 而持球者将球传给甲. 由**定义 7.1.1** (条件概率), 第 $n-1$ 次传球后球不在甲手中的概率为 $1-a_{n-1}$, 此时持球者为乙或丙, 他等可能地传给另外两人, 其中一人为甲, 故传给甲的概率为 $\frac{1}{2}$. 于是
 
 $$
-a_n=\frac{1}{2}(1-a_{n-1}).
+a_n=\frac{1}{2}\left(1-a_{n-1}\right).
 $$
 
-该递推式的不动点满足 $a=\frac{1}{2}(1-a)$, 解得 $a=\frac{1}{3}$. 将递推式改写为
+该递推式的不动点满足 $a=\frac{1}{2}\left(1-a\right)$, 解得 $a=\frac{1}{3}$. 将递推式改写为
 
 $$
 a_n-\frac{1}{3}=-\frac{1}{2}\left(a_{n-1}-\frac{1}{3}\right).
@@ -356,7 +356,7 @@ $\blacksquare$
 
 由**定义 7.3.1** (均值或数学期望), 以平均化验次数为比较依据.
 
-(1) 设每人携带病毒的概率为 $p=0.05$, 一组 $m=5$ 人. 混合血样呈阴性即这 5 人全部阴性, 其概率为 $(1-p)^5=0.95^5\approx 0.7738$, 此时该组只需化验 1 次; 混合血样呈阳性的概率为 $1-0.7738=0.2262$, 此时该组需先化验 1 次混合血样, 再对 5 人分别化验, 共化验 $1+5=6$ 次. 由**定义 7.3.1** (均值或数学期望), 每组平均化验次数为
+(1) 设每人携带病毒的概率为 $p=0.05$, 一组 $m=5$ 人. 混合血样呈阴性即这 5 人全部阴性, 其概率为 $\left(1-p\right)^5=0.95^5\approx 0.7738$, 此时该组只需化验 1 次; 混合血样呈阳性的概率为 $1-0.7738=0.2262$, 此时该组需先化验 1 次混合血样, 再对 5 人分别化验, 共化验 $1+5=6$ 次. 由**定义 7.3.1** (均值或数学期望), 每组平均化验次数为
 
 $$
 E=1\times 0.7738+6\times 0.2262\approx 2.131.
@@ -370,10 +370,10 @@ $$
 
 故这种化验方法能减少化验次数.
 
-(2) 设每人携带病毒的概率为 $p=0.02$, 一组 $k$ 人. 混合血样呈阴性的概率为 $(1-p)^k=0.98^k$, 此时该组化验 1 次; 呈阳性时该组化验 $1+k$ 次. 由**定义 7.3.1** (均值或数学期望), 每组平均化验次数为
+(2) 设每人携带病毒的概率为 $p=0.02$, 一组 $k$ 人. 混合血样呈阴性的概率为 $\left(1-p\right)^k=0.98^k$, 此时该组化验 1 次; 呈阳性时该组化验 $1+k$ 次. 由**定义 7.3.1** (均值或数学期望), 每组平均化验次数为
 
 $$
-E_k=1\times 0.98^k+(1+k)\times(1-0.98^k)=1+k\left(1-0.98^k\right).
+E_k=1\times 0.98^k+\left(1+k\right)\times\left(1-0.98^k\right)=1+k\left(1-0.98^k\right).
 $$
 
 平均到每人的化验次数为
@@ -386,13 +386,13 @@ $$
 
 ### 习题十二
 
-(复习参考题 7 拓广探索第 12 题) 某城市高中数学统考, 假设考试成绩服从正态分布 $N(75,8^2)$. 如果按照 $16\%$, $34\%$, $34\%$, $16\%$ 的比例将考试成绩分为 $A$, $B$, $C$, $D$ 四个等级, 试确定各等级的分数线 (精确到 1).
+(复习参考题 7 拓广探索第 12 题) 某城市高中数学统考, 假设考试成绩服从正态分布 $N\left(75,8^2\right)$. 如果按照 $16\%$, $34\%$, $34\%$, $16\%$ 的比例将考试成绩分为 $A$, $B$, $C$, $D$ 四个等级, 试确定各等级的分数线 (精确到 1).
 
 ### 解答 习题十二
 
-由**定义 7.5.2** (正态分布), 设考试成绩为 $X$, 则 $X\sim N(75,8^2)$, 即 $\mu=75$, $\sigma=8$.
+由**定义 7.5.2** (正态分布), 设考试成绩为 $X$, 则 $X\sim N\left(75,8^2\right)$, 即 $\mu=75$, $\sigma=8$.
 
-由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827$, 即成绩落在区间 $[75-8,75+8]=[67,83]$ 内的比例约为 $68.27\%$, 接近题目给出的 $34\%+34\%=68\%$; 而成绩低于 $\mu-\sigma=67$ 的比例约为 $15.87\%$, 高于 $\mu+\sigma=83$ 的比例约为 $15.87\%$, 均接近题目给出的 $16\%$.
+由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$, 即成绩落在区间 $\left[75-8,75+8\right]=\left[67,83\right]$ 内的比例约为 $68.27\%$, 接近题目给出的 $34\%+34\%=68\%$; 而成绩低于 $\mu-\sigma=67$ 的比例约为 $15.87\%$, 高于 $\mu+\sigma=83$ 的比例约为 $15.87\%$, 均接近题目给出的 $16\%$.
 
 据此划定四个等级:
 

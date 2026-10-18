@@ -2,12 +2,12 @@
 
 > **Definition 4.3.1** (Geometric Sequence) <br>If, starting from the $2$nd term, the ratio between every term and the preceding term of a sequence equals the same constant, then the sequence is called a geometric sequence, and this constant is called the common ratio of the geometric sequence, usually denoted by the letter $q$ ($q\ne 0$).
 > **Definition 4.3.2** (Geometric Mean) <br>If a number $G$ is inserted between $a$ and $b$ so that $a,G,b$ form a geometric sequence, then $G$ is called the geometric mean of $a$ and $b$. In this case $G^2=ab$.
-> **Theorem 4.3.3** (General Term Formula of a Geometric Sequence) <br>For a geometric sequence $\{a_n\}$ with first term $a_1$ and common ratio $q$, the general term formula is $a_n=a_1 q^{n-1}$.
-> **Common Conclusion 4.3.4** (Relation between Any Two Terms of a Geometric Sequence) <br>In a geometric sequence $\{a_n\}$, $a_n=a_m q^{n-m}$.
-> **Theorem 4.3.5** (Sum of the First $n$ Terms) <br>When $q\ne 1$, $S_n=\frac{a_1(1-q^n)}{1-q}=\frac{a_1-a_n q}{1-q}$; when $q=1$, $S_n=na_1$.
-> **Theorem 4.2.5** (Properties of Arithmetic Sequences) <br>In an arithmetic sequence $\{a_n\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
-> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>The sum of the first $n$ terms of an arithmetic sequence $\{a_n\}$ is $S_n=\frac{n(a_1+a_n)}{2}$.
-> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>The sum of the first $n$ terms of an arithmetic sequence $\{a_n\}$ is $S_n=na_1+\frac{n(n-1)}{2}d$.
+> **Theorem 4.3.3** (General Term Formula of a Geometric Sequence) <br>For a geometric sequence $\left\{a_n\right\}$ with first term $a_1$ and common ratio $q$, the general term formula is $a_n=a_1 q^{n-1}$.
+> **Common Conclusion 4.3.4** (Relation between Any Two Terms of a Geometric Sequence) <br>In a geometric sequence $\left\{a_n\right\}$, $a_n=a_m q^{n-m}$.
+> **Theorem 4.3.5** (Sum of the First $n$ Terms) <br>When $q\ne 1$, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; when $q=1$, $S_n=na_1$.
+> **Theorem 4.2.5** (Properties of Arithmetic Sequences) <br>In an arithmetic sequence $\left\{a_n\right\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
 
 ### Exercise 1
 
@@ -39,7 +39,7 @@ $\blacksquare$
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 2) Given that $\{a_n\}$ is a geometric sequence with common ratio $q$, fill in the following table with appropriate numbers
+(Exercise 4.3, Problem 2) Given that $\left\{a_n\right\}$ is a geometric sequence with common ratio $q$, fill in the following table with appropriate numbers
 
 First row: $a_1=2,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ q=\underline{\quad}$;
 
@@ -61,7 +61,7 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 3) In a geometric sequence $\{a_n\}$, $a_1 a_3=36$, $a_2+a_4=60$. Find $a_1$ and the common ratio $q$
+(Exercise 4.3, Problem 3) In a geometric sequence $\left\{a_n\right\}$, $a_1 a_3=36$, $a_2+a_4=60$. Find $a_1$ and the common ratio $q$
 
 ### Solution to Exercise 1
 
@@ -69,13 +69,13 @@ By **Definition 4.3.2** (Geometric Mean), $a_1 a_3=a_2^2=36$, hence $a_2=\pm 6$.
 
 When $a_2=6$, $a_4=60-6=54$, $q^2=\frac{54}{6}=9$, $q=\pm 3$, and $a_1=\frac{6}{q}=\pm 2$.
 
-When $a_2=-6$, $a_4=60-(-6)=66$, $q^2=\frac{66}{-6}=-11$, which has no real solution.
+When $a_2=-6$, $a_4=60-\left(-6\right)=66$, $q^2=\frac{66}{-6}=-11$, which has no real solution.
 
 Hence $a_1=2,q=3$ or $a_1=-2,q=-3$.
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 4) For a sequence $\{a_n\}$, if the points $(n,a_n)$ ($n\in\mathbb N^*$) all lie on the graph of the function $y=cq^x$, where $c,q$ are constants with $c\ne 0$, $q\ne 0$, $q\ne 1$, determine whether the sequence $\{a_n\}$ is a geometric sequence, and prove your conclusion
+(Exercise 4.3, Problem 4) For a sequence $\left\{a_n\right\}$, if the points $\left(n,a_n\right)$ ($n\in\mathbb N^*$) all lie on the graph of the function $y=cq^x$, where $c,q$ are constants with $c\ne 0$, $q\ne 0$, $q\ne 1$, determine whether the sequence $\left\{a_n\right\}$ is a geometric sequence, and prove your conclusion
 
 ### Solution to Exercise 1
 
@@ -85,11 +85,11 @@ $$
 \frac{a_{n+1}}{a_n}=\frac{cq^{n+1}}{cq^n}=q.
 $$
 
-The ratio is the constant $q$; by **Definition 4.3.1** (Geometric Sequence), $\{a_n\}$ is a geometric sequence.
+The ratio is the constant $q$; by **Definition 4.3.1** (Geometric Sequence), $\left\{a_n\right\}$ is a geometric sequence.
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 5) Given that the sequence $\{a_n\}$ is a geometric sequence
+(Exercise 4.3, Problem 5) Given that the sequence $\left\{a_n\right\}$ is a geometric sequence
 
 (1) Do $a_3,a_5,a_7$ form a geometric sequence? Why? What about $a_1,a_5,a_9$?
 
@@ -97,19 +97,19 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_3 a_7=a_1 q^2\cdot a_1 q^6=a_1^2 q^8=(a_1 q^4)^2=a_5^2$.
+(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_3 a_7=a_1 q^2\cdot a_1 q^6=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$.
 
 By **Definition 4.3.2** (Geometric Mean), $a_3,a_5,a_7$ form a geometric sequence.
 
-Similarly, $a_1 a_9=a_1^2 q^8=(a_1 q^4)^2=a_5^2$, so $a_1,a_5,a_9$ form a geometric sequence.
+Similarly, $a_1 a_9=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$, so $a_1,a_5,a_9$ form a geometric sequence.
 
 $\blacksquare$
 
-(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_{n-1} a_{n+1}=a_1 q^{n-2}\cdot a_1 q^n=a_1^2 q^{2n-2}=(a_1 q^{n-1})^2=a_n^2$.
+(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_{n-1} a_{n+1}=a_1 q^{n-2}\cdot a_1 q^n=a_1^2 q^{2n-2}=\left(a_1 q^{n-1}\right)^2=a_n^2$.
 
 By **Definition 4.3.2** (Geometric Mean), $a_{n-1},a_n,a_{n+1}$ form a geometric sequence.
 
-Similarly, $a_{n-k} a_{n+k}=a_1^2 q^{2n-2k}=(a_1 q^{n-1})^2=a_n^2$, so $a_{n-k},a_n,a_{n+k}$ form a geometric sequence.
+Similarly, $a_{n-k} a_{n+k}=a_1^2 q^{2n-2k}=\left(a_1 q^{n-1}\right)^2=a_n^2$, so $a_{n-k},a_n,a_{n+k}$ form a geometric sequence.
 
 $\blacksquare$
 
@@ -135,21 +135,21 @@ The four inserted numbers are $a_2=160\times\left(-\frac{1}{2}\right)=-80$, $a_3
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 2) Let the sequences $\{a_n\},\{b_n\}$ both be geometric sequences. Investigate separately whether the following sequences are geometric sequences. If so, prove the conclusion; if not, explain why
+(Exercise 4.3, Problem 2) Let the sequences $\left\{a_n\right\},\left\{b_n\right\}$ both be geometric sequences. Investigate separately whether the following sequences are geometric sequences. If so, prove the conclusion; if not, explain why
 
-(1) the sequence $\{c_n\}$, where $c_n=a_n b_n$;
+(1) the sequence $\left\{c_n\right\}$, where $c_n=a_n b_n$;
 
-(2) the sequence $\{d_n\}$, where $d_n=\frac{a_n}{b_n}$.
+(2) the sequence $\left\{d_n\right\}$, where $d_n=\frac{a_n}{b_n}$.
 
 ### Solution to Exercise 2
 
-(1) By **Definition 4.3.1** (Geometric Sequence), let the common ratio of $\{a_n\}$ be $q_1$ and that of $\{b_n\}$ be $q_2$.
+(1) By **Definition 4.3.1** (Geometric Sequence), let the common ratio of $\left\{a_n\right\}$ be $q_1$ and that of $\left\{b_n\right\}$ be $q_2$.
 
 $$
 \frac{c_{n+1}}{c_n}=\frac{a_{n+1} b_{n+1}}{a_n b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_{n+1}}{b_n}=q_1 q_2.
 $$
 
-The ratio is the constant $q_1 q_2$; by **Definition 4.3.1** (Geometric Sequence), $\{c_n\}$ is a geometric sequence.
+The ratio is the constant $q_1 q_2$; by **Definition 4.3.1** (Geometric Sequence), $\left\{c_n\right\}$ is a geometric sequence.
 
 $\blacksquare$
 
@@ -159,7 +159,7 @@ $$
 \frac{d_{n+1}}{d_n}=\frac{a_{n+1}/b_{n+1}}{a_n/b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_n}{b_{n+1}}=\frac{q_1}{q_2}.
 $$
 
-The ratio is the constant $\frac{q_1}{q_2}$; by **Definition 4.3.1** (Geometric Sequence), $\{d_n\}$ is a geometric sequence.
+The ratio is the constant $\frac{q_1}{q_2}$; by **Definition 4.3.1** (Geometric Sequence), $\left\{d_n\right\}$ is a geometric sequence.
 
 $\blacksquare$
 
@@ -186,7 +186,7 @@ $\blacksquare$
 Let the average annual growth rate be $r$. By **Definition 4.3.1** (Geometric Sequence),
 
 $$
-105(1+r)^2=240,\ (1+r)^2=\frac{240}{105}=\frac{16}{7},\ 1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
+105\left(1+r\right)^2=240,\ \left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},\ 1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
 $$
 
 $$
@@ -195,17 +195,17 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 5) Given that the general term of a sequence $\{a_n\}$ is $a_n=\frac{n^3}{3^n}$, find the value of $n$ at which $a_n$ attains its maximum
+(Exercise 4.3, Problem 5) Given that the general term of a sequence $\left\{a_n\right\}$ is $a_n=\frac{n^3}{3^n}$, find the value of $n$ at which $a_n$ attains its maximum
 
 ### Solution to Exercise 2
 
 By **Definition 4.1.4** (Increasing and Decreasing Sequences), compare $a_{n+1}$ with $a_n$.
 
 $$
-\frac{a_{n+1}}{a_n}=\frac{(n+1)^3/3^{n+1}}{n^3/3^n}=\frac{(n+1)^3}{3n^3}.
+\frac{a_{n+1}}{a_n}=\frac{\left(n+1\right)^3/3^{n+1}}{n^3/3^n}=\frac{\left(n+1\right)^3}{3n^3}.
 $$
 
-Setting $\frac{(n+1)^3}{3n^3}\le 1$, i.e. $(n+1)^3\le 3n^3$, gives $n+1\le \sqrt[3]{3}n$.
+Setting $\frac{\left(n+1\right)^3}{3n^3}\le 1$, i.e. $\left(n+1\right)^3\le 3n^3$, gives $n+1\le \sqrt\left[3\right]{3}n$.
 
 When $n=2$: $\frac{27}{24}>1$; when $n=3$: $\frac{64}{81}<1$.
 
@@ -215,7 +215,7 @@ $\blacksquare$
 
 ### Exercise 3
 
-(Exercise 4.3, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding geometric sequence $\{a_n\}$
+(Exercise 4.3, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding geometric sequence $\left\{a_n\right\}$
 
 (1) $a_1=4,\ q=-\frac{1}{2},\ n=8$;
 
@@ -263,19 +263,19 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 3) In a geometric sequence $\{a_n\}$, $a_2=6$, $6a_1+a_3=30$. Find $a_n$ and $S_n$
+(Exercise 4.3, Problem 3) In a geometric sequence $\left\{a_n\right\}$, $a_2=6$, $6a_1+a_3=30$. Find $a_n$ and $S_n$
 
 ### Solution to Exercise 3
 
 By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_2=a_1 q=6$ and $a_3=a_1 q^2$.
 
 $$
-6a_1+a_3=6a_1+a_1 q^2=30,\ a_1(6+q^2)=30.
+6a_1+a_3=6a_1+a_1 q^2=30,\ a_1\left(6+q^2\right)=30.
 $$
 
-From $a_1=\frac{6}{q}$, we get $\frac{6}{q}(6+q^2)=30$, $6+q^2=5q$, $q^2-5q+6=0$, so $q=2$ or $q=3$.
+From $a_1=\frac{6}{q}$, we get $\frac{6}{q}\left(6+q^2\right)=30$, $6+q^2=5q$, $q^2-5q+6=0$, so $q=2$ or $q=3$.
 
-When $q=2$, $a_1=3$, $a_n=3\times 2^{n-1}$, $S_n=3(2^n-1)$.
+When $q=2$, $a_1=3$, $a_n=3\times 2^{n-1}$, $S_n=3\left(2^n-1\right)$.
 
 When $q=3$, $a_1=2$, $a_n=2\times 3^{n-1}$, $S_n=3^n-1$.
 
@@ -304,10 +304,10 @@ $\blacksquare$
 By **Theorem 4.3.5** (Sum of the First $n$ Terms),
 
 $$
-S_5=\frac{a_1(1-q^5)}{1-q}=10,\ S_{10}=\frac{a_1(1-q^{10})}{1-q}=50.
+S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,\ S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
 $$
 
-Dividing the two equations, $\frac{1-q^{10}}{1-q^5}=5$, so $1+q^5=5$, $q^5=4$, and $q=\sqrt[5]{4}$.
+Dividing the two equations, $\frac{1-q^{10}}{1-q^5}=5$, so $1+q^5=5$, $q^5=4$, and $q=\sqrt\left[5\right]{4}$.
 
 $\blacksquare$
 
@@ -324,7 +324,7 @@ $\blacksquare$
 (1) By **Definition 4.3.1** (Geometric Sequence), the rebound heights are $50,25,12.5,\cdots$, and the distance traveled by the $5$th impact is
 
 $$
-S=100+2(50+25+12.5+6.25)=100+2\times\frac{50(1-0.5^4)}{1-0.5}=100+2\times 93.75=287.5\ \mathrm{m}.
+S=100+2\left(50+25+12.5+6.25\right)=100+2\times\frac{50\left(1-0.5^4\right)}{1-0.5}=100+2\times 93.75=287.5\ \mathrm{m}.
 $$
 
 $\blacksquare$
@@ -332,15 +332,15 @@ $\blacksquare$
 (2) At the $n$th impact, the distance is
 
 $$
-S_n=100+2\times\frac{50(1-0.5^{n-1})}{1-0.5}=100+200(1-0.5^{n-1}).
+S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{1-0.5}=100+200\left(1-0.5^{n-1}\right).
 $$
 
-Setting $S_n>300$: $100+200(1-0.5^{n-1})>300$, so $1-0.5^{n-1}>1$, which has no solution.
+Setting $S_n>300$: $100+200\left(1-0.5^{n-1}\right)>300$, so $1-0.5^{n-1}>1$, which has no solution.
 
-Actually, in $S_n=100+100(1-0.5^{n-1})/(1-0.5)\times 2$, by the $n$th impact the ball has risen and fallen $n-1$ times:
+Actually, in $S_n=100+100\left(1-0.5^{n-1}\right)/\left(1-0.5\right)\times 2$, by the $n$th impact the ball has risen and fallen $n-1$ times:
 
 $$
-S_n=100+2\times\frac{50(1-0.5^{n-1})}{0.5}=100+200(1-0.5^{n-1}).
+S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{0.5}=100+200\left(1-0.5^{n-1}\right).
 $$
 
 $S_n<300$ always holds, and its limit is $300$, so it never exceeds $300\ \mathrm{m}$.
@@ -362,30 +362,30 @@ $$
 By **Theorem 4.3.5** (Sum of the First $n$ Terms), the total funds are
 
 $$
-S_{10}=\frac{100(1-1.5^{10})}{1-1.5}=200(1.5^{10}-1)\approx 200\times 56.67=11334.67\text{ 万元}.
+S_{10}=\frac{100\left(1-1.5^{10}\right)}{1-1.5}=200\left(1.5^{10}-1\right)\approx 200\times 56.67=11334.67\text{ 万元}.
 $$
 
 $\blacksquare$
 
-(Exercise 4.3, Problem 3) Given that the sum of the first $n$ terms of a sequence $\{a_n\}$ is $S_n$, with $a_1=1$, $S_n=2a_n+1$ ($n\in\mathbb N^*$), find $S_n$
+(Exercise 4.3, Problem 3) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n$, with $a_1=1$, $S_n=2a_n+1$ ($n\in\mathbb N^*$), find $S_n$
 
 ### Solution to Exercise 4
 
 By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n\ge 2$, $a_n=S_n-S_{n-1}$.
 
-From $S_n=2a_n+1$, we get $S_n=2(S_n-S_{n-1})+1$, so $S_n=2S_{n-1}-1$.
+From $S_n=2a_n+1$, we get $S_n=2\left(S_n-S_{n-1}\right)+1$, so $S_n=2S_{n-1}-1$.
 
 $$
-S_n-1=2(S_{n-1}-1).
+S_n-1=2\left(S_{n-1}-1\right).
 $$
 
-By **Definition 4.3.1** (Geometric Sequence), $\{S_n-1\}$ is a geometric sequence with first term $S_1-1=0$ and common ratio $2$.
+By **Definition 4.3.1** (Geometric Sequence), $\left\{S_n-1\right\}$ is a geometric sequence with first term $S_1-1=0$ and common ratio $2$.
 
 But the first term is $0$, so $S_n-1=0$ and $S_n=1$. Checking at $n=1$: $S_1=2a_1+1=3\ne 1$, a contradiction.
 
 Recalculating: $S_n=2a_n+1$, $a_1=1$, $S_1=3$.
 
-For $n\ge 2$, $S_n=2(S_n-S_{n-1})+1$, $S_n=2S_{n-1}-1$, so $S_n-1=2(S_{n-1}-1)$.
+For $n\ge 2$, $S_n=2\left(S_n-S_{n-1}\right)+1$, $S_n=2S_{n-1}-1$, so $S_n-1=2\left(S_{n-1}-1\right)$.
 
 $S_1-1=2$, so $S_n-1=2\times 2^{n-1}=2^n$, and $S_n=2^n+1$.
 
@@ -393,7 +393,7 @@ $\blacksquare$
 
 ### Problem 1
 
-(Exercise 4.3, Review and Consolidation, Problem 1) In a geometric sequence $\{a_n\}$
+(Exercise 4.3, Review and Consolidation, Problem 1) In a geometric sequence $\left\{a_n\right\}$
 
 (1) $a_4=27$, $q=-3$, find $a_7$;
 
@@ -401,7 +401,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_7=a_4 q^3=27\times(-3)^3=27\times(-27)=-729$.
+(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_7=a_4 q^3=27\times\left(-3\right)^3=27\times\left(-27\right)=-729$.
 
 $\blacksquare$
 
@@ -411,7 +411,7 @@ When $q=\frac{2}{3}$, $a_1=\frac{18}{2/3}=27$; when $q=-\frac{2}{3}$, $a_1=\frac
 
 $\blacksquare$
 
-(Exercise 4.3, Review and Consolidation, Problem 2) In a geometric sequence $\{a_n\}$
+(Exercise 4.3, Review and Consolidation, Problem 2) In a geometric sequence $\left\{a_n\right\}$
 
 (1) $a_5-a_1=15$, $a_4-a_2=6$, find $a_3$;
 
@@ -419,15 +419,15 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1(q^4-1)=15$, $a_1 q(q^2-1)=6$.
+(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1\left(q^4-1\right)=15$, $a_1 q\left(q^2-1\right)=6$.
 
-Dividing the two equations, $\frac{q^4-1}{q(q^2-1)}=\frac{15}{6}=\frac{5}{2}$, so $\frac{q^2+1}{q}=\frac{5}{2}$, $2q^2-5q+2=0$, and $q=2$ or $q=\frac{1}{2}$.
+Dividing the two equations, $\frac{q^4-1}{q\left(q^2-1\right)}=\frac{15}{6}=\frac{5}{2}$, so $\frac{q^2+1}{q}=\frac{5}{2}$, $2q^2-5q+2=0$, and $q=2$ or $q=\frac{1}{2}$.
 
 When $q=2$, $a_1=1$, $a_3=4$; when $q=\frac{1}{2}$, $a_1=-16$, $a_3=-4$.
 
 $\blacksquare$
 
-(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1(1+q^2)=10$, $a_1 q^3(1+q^2)=\frac{5}{4}$.
+(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1\left(1+q^2\right)=10$, $a_1 q^3\left(1+q^2\right)=\frac{5}{4}$.
 
 Dividing the two equations, $q^3=\frac{1}{8}$, so $q=\frac{1}{2}$.
 
@@ -461,7 +461,7 @@ $\blacksquare$
 
 (Exercise 4.3, Comprehensive Application, Problem 4) The radioactive element uranium emits radiation and, after a certain time, decays into other elements; this phenomenon is called decay. Experiments show that the amount of uranium decaying per second is proportional to the amount present at that time, with proportionality constant $k>0$. Let the initial amount of uranium be $N_0$
 
-(1) Write an expression for the amount $N(t)$ of uranium after $t$ seconds;
+(1) Write an expression for the amount $N\left(t\right)$ of uranium after $t$ seconds;
 
 (2) Given that the half-life of uranium is $45$ hundred-million years, find the value of $k$.
 
@@ -470,31 +470,31 @@ $\blacksquare$
 (1) By **Definition 4.3.1** (Geometric Sequence), the amount remaining each second is $1-k$ times the previous second's amount,
 
 $$
-N(t)=N_0(1-k)^t.
+N\left(t\right)=N_0\left(1-k\right)^t.
 $$
 
 $\blacksquare$
 
-(2) The half-life is when $N(t)=\frac{N_0}{2}$, i.e. $t=45\times 10^8$ years.
+(2) The half-life is when $N\left(t\right)=\frac{N_0}{2}$, i.e. $t=45\times 10^8$ years.
 
 $$
-(1-k)^{45\times 10^8}=\frac{1}{2},\ 1-k=2^{-1/(45\times 10^8)},\ k=1-2^{-1/(45\times 10^8)}.
+\left(1-k\right)^{45\times 10^8}=\frac{1}{2},\ 1-k=2^{-1/\left(45\times 10^8\right)},\ k=1-2^{-1/\left(45\times 10^8\right)}.
 $$
 
 $\blacksquare$
 
-(Exercise 4.3, Comprehensive Application, Problem 5) Given that the sum of the first $n$ terms of a geometric sequence $\{a_n\}$ is $S_n$, and that $S_3,S_9,S_6$ form an arithmetic sequence. Prove that $a_2,a_8,a_5$ form an arithmetic sequence
+(Exercise 4.3, Comprehensive Application, Problem 5) Given that the sum of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $S_n$, and that $S_3,S_9,S_6$ form an arithmetic sequence. Prove that $a_2,a_8,a_5$ form an arithmetic sequence
 
 ### Solution to Problem 1
 
 By **Theorem 4.3.5** (Sum of the First $n$ Terms), $2S_9=S_3+S_6$.
 
 $$
-2\cdot\frac{a_1(1-q^9)}{1-q}=\frac{a_1(1-q^3)}{1-q}+\frac{a_1(1-q^6)}{1-q}.
+2\cdot\frac{a_1\left(1-q^9\right)}{1-q}=\frac{a_1\left(1-q^3\right)}{1-q}+\frac{a_1\left(1-q^6\right)}{1-q}.
 $$
 
 $$
-2(1-q^9)=1-q^3+1-q^6,\ 2q^9=q^3+q^6,\ 2q^6=1+q^3.
+2\left(1-q^9\right)=1-q^3+1-q^6,\ 2q^9=q^3+q^6,\ 2q^6=1+q^3.
 $$
 
 To prove that $a_2,a_8,a_5$ form an arithmetic sequence, it suffices to show $2a_8=a_2+a_5$.
@@ -520,16 +520,16 @@ $$
 By **Theorem 4.3.5** (Sum of the First $n$ Terms),
 
 $$
-S_n=\sum_{k=1}^n\frac{10^k-1}{9}=\frac{1}{9}\left(\frac{10(10^n-1)}{9}-n\right)=\frac{10^{n+1}-9n-10}{81}.
+S_n=\sum_{k=1}^n\frac{10^k-1}{9}=\frac{1}{9}\left(\frac{10\left(10^n-1\right)}{9}-n\right)=\frac{10^{n+1}-9n-10}{81}.
 $$
 
 $\blacksquare$
 
-(Exercise 4.3, Comprehensive Application, Problem 7) Given that a sequence $\{a_n\}$ satisfies $a_{n+1}+a_n=3\times 2^n$ ($n\in\mathbb N^*$)
+(Exercise 4.3, Comprehensive Application, Problem 7) Given that a sequence $\left\{a_n\right\}$ satisfies $a_{n+1}+a_n=3\times 2^n$ ($n\in\mathbb N^*$)
 
-(1) Prove that the sequence $\{a_{n+1}-2^n\}$ is a geometric sequence;
+(1) Prove that the sequence $\left\{a_{n+1}-2^n\right\}$ is a geometric sequence;
 
-(2) Find the value of $a_1$ that makes $\{a_n\}$ a geometric sequence.
+(2) Find the value of $a_1$ that makes $\left\{a_n\right\}$ a geometric sequence.
 
 ### Solution to Problem 1
 
@@ -548,32 +548,32 @@ $$
 From $a_{n+1}=3\times 2^n-a_n$, we have $a_{n+1}-2^n=2\times 2^n-a_n=2^{n+1}-a_n$,
 
 $$
-a_{n+2}-2^{n+1}=a_n+2^n=-(a_{n+1}-2^n)+2^{n+1}+2^n=-(a_{n+1}-2^n)+3\times 2^n.
+a_{n+2}-2^{n+1}=a_n+2^n=-\left(a_{n+1}-2^n\right)+2^{n+1}+2^n=-\left(a_{n+1}-2^n\right)+3\times 2^n.
 $$
 
-Continuing: $a_{n+1}-2^n=2(2^n-a_n)=-2(a_n-2^n)$,
+Continuing: $a_{n+1}-2^n=2\left(2^n-a_n\right)=-2\left(a_n-2^n\right)$,
 
 hence $\frac{a_{n+2}-2^{n+1}}{a_{n+1}-2^n}=-2$, so it is a geometric sequence.
 
 $\blacksquare$
 
-(2) If $\{a_n\}$ is a geometric sequence, let its common ratio be $q$.
+(2) If $\left\{a_n\right\}$ is a geometric sequence, let its common ratio be $q$.
 
 $a_2+a_1=6$, $a_3+a_2=12$. And $a_2=a_1 q$, $a_3=a_1 q^2$.
 
 $$
-a_1(q+1)=6,\ a_1 q(q+1)=12.
+a_1\left(q+1\right)=6,\ a_1 q\left(q+1\right)=12.
 $$
 
 Dividing the two equations, $q=2$ and $a_1=2$.
 
 $\blacksquare$
 
-(Exercise 4.3, Comprehensive Application, Problem 8) Given that a sequence $\{a_n\}$ satisfies $a_{n+1}=2a_n+1$ ($n\in\mathbb N^*$)
+(Exercise 4.3, Comprehensive Application, Problem 8) Given that a sequence $\left\{a_n\right\}$ satisfies $a_{n+1}=2a_n+1$ ($n\in\mathbb N^*$)
 
 (1) If $a_1=1$, find $a_2,a_3$ and conjecture the general term formula;
 
-(2) Prove that $\{a_n+1\}$ is a geometric sequence.
+(2) Prove that $\left\{a_n+1\right\}$ is a geometric sequence.
 
 ### Solution to Problem 1
 
@@ -583,9 +583,9 @@ Conjecture: $a_n=2^n-1$.
 
 $\blacksquare$
 
-(2) From $a_{n+1}=2a_n+1$, we get $a_{n+1}+1=2(a_n+1)$.
+(2) From $a_{n+1}=2a_n+1$, we get $a_{n+1}+1=2\left(a_n+1\right)$.
 
-By **Definition 4.3.1** (Geometric Sequence), $\{a_n+1\}$ is a geometric sequence with common ratio $2$.
+By **Definition 4.3.1** (Geometric Sequence), $\left\{a_n+1\right\}$ is a geometric sequence with common ratio $2$.
 
 $\blacksquare$
 
@@ -611,7 +611,7 @@ $\blacksquare$
 
 $\blacksquare$
 
-(Exercise 4.3, Extension and Exploration, Problem 10) Given that the product of the first $n$ terms of a geometric sequence $\{a_n\}$ is $T_n$, with $a_1>1$ and $a_{2016}a_{2017}<0$. Find the value of $n$ at which $T_n$ attains its maximum
+(Exercise 4.3, Extension and Exploration, Problem 10) Given that the product of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $T_n$, with $a_1>1$ and $a_{2016}a_{2017}<0$. Find the value of $n$ at which $T_n$ attains its maximum
 
 ### Solution to Problem 1
 
@@ -619,7 +619,7 @@ By **Definition 4.3.1** (Geometric Sequence), $a_{2016}a_{2017}=a_{2016}^2 q<0$,
 
 $a_1>1$ and $a_{2016}a_{2017}<0$ mean that $a_{2016}$ and $a_{2017}$ have opposite signs, i.e. the sequence changes from positive to negative around the $2016$th term.
 
-The product of the first $n$ terms is $T_n=a_1^n q^{n(n-1)/2}$; $T_n$ is maximal when the terms have the largest absolute values and positive sign.
+The product of the first $n$ terms is $T_n=a_1^n q^{n\left(n-1\right)/2}$; $T_n$ is maximal when the terms have the largest absolute values and positive sign.
 
 $T_{2016}=a_1^{2016} q^{2016\times 2015/2}$; since $a_{2016}>0,a_{2017}<0$, we have $T_{2016}>0$ and $T_{2017}<0$.
 
@@ -627,11 +627,11 @@ Moreover, when $\lvert a_{2016}\rvert>1$ and $\lvert a_{2017}\rvert<1$, $T_{2016
 
 $\blacksquare$
 
-(Exercise 4.3, Extension and Exploration, Problem 11) Given that a sequence $\{a_n\}$ satisfies $a_{n+1}=\frac{3a_n}{2a_n+1}$ ($n\in\mathbb N^*$), with $a_1=1$
+(Exercise 4.3, Extension and Exploration, Problem 11) Given that a sequence $\left\{a_n\right\}$ satisfies $a_{n+1}=\frac{3a_n}{2a_n+1}$ ($n\in\mathbb N^*$), with $a_1=1$
 
 (1) Prove that $\left\{\frac{1}{a_n}\right\}$ is an arithmetic sequence;
 
-(2) Find the general term formula of $\{a_n\}$.
+(2) Find the general term formula of $\left\{a_n\right\}$.
 
 ### Solution to Problem 1
 
@@ -658,39 +658,39 @@ $\blacksquare$
 (2) From the above,
 
 $$
-a_n=\frac{1}{\frac{1}{3}+\frac{2}{3^n}}=\frac{3^{n-1}}{1+2\times 3^{n-2}}\text{ (化简后)}.
+a_n=\frac{1}{\frac{1}{3}+\frac{2}{3^n}}=\frac{3^{n-1}}{1+2\times 3^{n-2}}\text{ \left(化简后\right)}.
 $$
 
 $\blacksquare$
 
-(Exercise 4.3, Extension and Exploration, Problem 12) Given that a sequence $\{a_n\}$ is a geometric sequence, with sum of the first $n$ terms $S_n$, and $b_n=\frac{S_n}{n}$
+(Exercise 4.3, Extension and Exploration, Problem 12) Given that a sequence $\left\{a_n\right\}$ is a geometric sequence, with sum of the first $n$ terms $S_n$, and $b_n=\frac{S_n}{n}$
 
-(1) Prove that $\{b_n\}$ is not a geometric sequence;
+(1) Prove that $\left\{b_n\right\}$ is not a geometric sequence;
 
-(2) If $\{a_n\}$ is an arithmetic sequence, prove that $\{b_n\}$ is an arithmetic sequence.
+(2) If $\left\{a_n\right\}$ is an arithmetic sequence, prove that $\left\{b_n\right\}$ is an arithmetic sequence.
 
 ### Solution to Problem 1
 
-(1) Let the common ratio of $\{a_n\}$ be $q\ne 1$. Then $b_1=a_1$, $b_2=\frac{a_1(1+q)}{2}$, $b_3=\frac{a_1(1+q+q^2)}{3}$.
+(1) Let the common ratio of $\left\{a_n\right\}$ be $q\ne 1$. Then $b_1=a_1$, $b_2=\frac{a_1\left(1+q\right)}{2}$, $b_3=\frac{a_1\left(1+q+q^2\right)}{3}$.
 
 $$
-\frac{b_2}{b_1}=\frac{1+q}{2},\ \frac{b_3}{b_2}=\frac{2(1+q+q^2)}{3(1+q)}.
+\frac{b_2}{b_1}=\frac{1+q}{2},\ \frac{b_3}{b_2}=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}.
 $$
 
-If $\{b_n\}$ were a geometric sequence, $\left(\frac{1+q}{2}\right)^2=\frac{2(1+q+q^2)}{3(1+q)}\cdot\frac{1+q}{2}$.
+If $\left\{b_n\right\}$ were a geometric sequence, $\left(\frac{1+q}{2}\right)^2=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}\cdot\frac{1+q}{2}$.
 
-Simplifying gives $3(1+q)^2=4(1+q+q^2)$, $3+6q+3q^2=4+4q+4q^2$, $q^2-2q+1=0$, so $q=1$.
+Simplifying gives $3\left(1+q\right)^2=4\left(1+q+q^2\right)$, $3+6q+3q^2=4+4q+4q^2$, $q^2-2q+1=0$, so $q=1$.
 
-But $q\ne 1$, a contradiction; hence $\{b_n\}$ is not a geometric sequence.
+But $q\ne 1$, a contradiction; hence $\left\{b_n\right\}$ is not a geometric sequence.
 
 $\blacksquare$
 
-(2) If $\{a_n\}$ is an arithmetic sequence, by **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $S_n=na_1+\frac{n(n-1)}{2}d$.
+(2) If $\left\{a_n\right\}$ is an arithmetic sequence, by **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
 
 $$
-b_n=a_1+\frac{(n-1)d}{2}.
+b_n=a_1+\frac{\left(n-1\right)d}{2}.
 $$
 
-$b_{n+1}-b_n=\frac{d}{2}$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\{b_n\}$ is an arithmetic sequence.
+$b_{n+1}-b_n=\frac{d}{2}$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{b_n\right\}$ is an arithmetic sequence.
 
 $\blacksquare$

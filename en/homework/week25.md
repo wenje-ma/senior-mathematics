@@ -2,7 +2,7 @@
 
 > **Definition 3.1.1** (Function) <br>In general, let $A,B$ be nonempty sets of real numbers. If, for any number $x$ in set $A$, there is a uniquely determined number $y$ in set $B$ corresponding to it according to some definite correspondence rule $f$, then $f:A\to B$ is called a function from set $A$ to set $B$, denoted $y=f\left(x\right)$, $x\in A$.
 
-> **Common Conclusion 4.2.3** (Exponential Growth and Decay Models) <br>Let the original quantity be $N$, the growth rate each time be $p$, and after $x$ growth periods the quantity grows to $y$, then $y=N(1+p)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$, and $k\neq 0$; $a>0$, and $a\neq 1$) is a very useful function model for describing exponential growth or exponential decay patterns.
+> **Common Conclusion 4.2.3** (Exponential Growth and Decay Models) <br>Let the original quantity be $N$, the growth rate each time be $p$, and after $x$ growth periods the quantity grows to $y$, then $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$, and $k\neq 0$; $a>0$, and $a\neq 1$) is a very useful function model for describing exponential growth or exponential decay patterns.
 
 > **Definition 4.3.1** (Logarithm) <br>In general, if $a^x=N$ ($a>0$, and $a\neq 1$), then the number $x$ is called the logarithm of $N$ with base $a$, denoted $x=\log_a N$, where $a$ is called the base of the logarithm and $N$ is called the argument.
 

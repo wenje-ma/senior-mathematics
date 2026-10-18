@@ -1,35 +1,35 @@
 # Assignment 83
 
-> **Definition 7.1.1** (Conditional Probability) <br>In general, let $A$, $B$ be two random events with $\mathbb P(A)>0$. We call $\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}$ the conditional probability of event $B$ occurring under the condition that event $A$ occurs, abbreviated as conditional probability.
+> **Definition 7.1.1** (Conditional Probability) <br>In general, let $A$, $B$ be two random events with $\mathbb P\left(A\right)>0$. We call $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ the conditional probability of event $B$ occurring under the condition that event $A$ occurs, abbreviated as conditional probability.
 
-> **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P(A)>0$, then $\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A)$.
+> **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)>0$, then $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **Conclusion 7.1.3** (Properties of Conditional Probability) <br>Let $\mathbb P(A)>0$. Then (1) $\mathbb P(\Omega\mid A)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P(B\cup C\mid A)=\mathbb P(B\mid A)+\mathbb P(C\mid A)$; (3) let $\bar B$ and $B$ be complementary events, then $\mathbb P(\bar B\mid A)=1-\mathbb P(B\mid A)$.
+> **Conclusion 7.1.3** (Properties of Conditional Probability) <br>Let $\mathbb P\left(A\right)>0$. Then (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) let $\bar B$ and $B$ be complementary events, then $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
-> **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P(A)>0$, event $A$ and event $B$ are mutually independent if and only if $\mathbb P(B\mid A)=\mathbb P(B)$.
+> **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P\left(A\right)>0$, event $A$ and event $B$ are mutually independent if and only if $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
-> **Conclusion 7.1.5** (Total Probability Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$, $\mathbb P(B)=\sum_{i=1}^n \mathbb P(A_i)\mathbb P(B\mid A_i)$.
+> **Conclusion 7.1.5** (Total Probability Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$, $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
 
-> **Conclusion 7.1.6** (Bayes' Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P(A_i)>0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$ with $\mathbb P(B)>0$, $\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)}$, $i=1,2,\cdots,n$.
+> **Conclusion 7.1.6** (Bayes' Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$ with $\mathbb P\left(B\right)>0$, $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
 
 ### Exercise 1
 
-(Exercise 7.1, Problem 1) Let $A\subseteq B$, with $\mathbb P(A)=0.3$, $\mathbb P(B)=0.6$. Based on the meaning of event inclusion and the meaning of conditional probability, directly write down the values of $\mathbb P(B\mid A)$ and $\mathbb P(A\mid B)$, and then verify them using the conditional probability formula.
+(Exercise 7.1, Problem 1) Let $A\subseteq B$, with $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. Based on the meaning of event inclusion and the meaning of conditional probability, directly write down the values of $\mathbb P\left(B\mid A\right)$ and $\mathbb P\left(A\mid B\right)$, and then verify them using the conditional probability formula.
 
 ### Solution to Exercise 1
 
-By **Definition 7.1.1** (Conditional Probability), $\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}$.
+By **Definition 7.1.1** (Conditional Probability), $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
 
-Because $A\subseteq B$, when event $A$ occurs event $B$ necessarily occurs, giving directly $\mathbb P(B\mid A)=1$; while under the condition that event $B$ occurs, the probability that event $A$ occurs should be the proportion that $A$ occupies in $B$, giving directly $\mathbb P(A\mid B)=\frac{\mathbb P(A)}{\mathbb P(B)}=\frac{0.3}{0.6}=0.5$.
+Because $A\subseteq B$, when event $A$ occurs event $B$ necessarily occurs, giving directly $\mathbb P\left(B\mid A\right)=1$; while under the condition that event $B$ occurs, the probability that event $A$ occurs should be the proportion that $A$ occupies in $B$, giving directly $\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5$.
 
-The verification is as follows. From $A\subseteq B$, we have $AB=A$, hence $\mathbb P(AB)=\mathbb P(A)=0.3$.
-
-$$
-\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}=\frac{0.3}{0.3}=1.
-$$
+The verification is as follows. From $A\subseteq B$, we have $AB=A$, hence $\mathbb P\left(AB\right)=\mathbb P\left(A\right)=0.3$.
 
 $$
-\mathbb P(A\mid B)=\frac{\mathbb P(AB)}{\mathbb P(B)}=\frac{0.3}{0.6}=0.5.
+\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\frac{0.3}{0.3}=1.
+$$
+
+$$
+\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5.
 $$
 
 This agrees with the intuitive judgment. $\blacksquare$
@@ -87,19 +87,19 @@ By **Conclusion 7.1.5** (Total Probability Formula), divide the sample space int
 Let $A$ = "choosing a question with an idea", $\bar A$ = "choosing a question with no idea", $B$ = "answering the question correctly". By the hypothesis,
 
 $$
-\mathbb P(A)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P(\bar A)=\frac{1}{4},\quad \mathbb P(B\mid A)=0.9,\quad \mathbb P(B\mid\bar A)=0.25.
+\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\bar A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\bar A\right)=0.25.
 $$
 
 By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\mathbb P(B)=\mathbb P(A)\mathbb P(B\mid A)+\mathbb P(\bar A)\mathbb P(B\mid\bar A).
+\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\bar A\right)\mathbb P\left(B\mid\bar A\right).
 $$
 
 Substituting the data, we get
 
 $$
-\mathbb P(B)=\frac{3}{4}\times 0.9+\frac{1}{4}\times 0.25=0.675+0.0625=0.7375.
+\mathbb P\left(B\right)=\frac{3}{4}\times 0.9+\frac{1}{4}\times 0.25=0.675+0.0625=0.7375.
 $$
 
 Thus the probability that Zhang Jun answers the question correctly is 0.7375. $\blacksquare$
@@ -116,24 +116,24 @@ Thus the probability that Zhang Jun answers the question correctly is 0.7375. $\
 
 By **Conclusion 7.1.5** (Total Probability Formula) and **Conclusion 7.1.6** (Bayes' Formula).
 
-Let $A_1$ = "the product comes from the first batch", $A_2$ = "the product comes from the second batch", $B$ = "the product is qualified". By the hypothesis, $\mathbb P(A_1)=0.4$, $\mathbb P(A_2)=0.6$, $\mathbb P(B\mid A_1)=1-0.05=0.95$, $\mathbb P(B\mid A_2)=1-0.04=0.96$.
+Let $A_1$ = "the product comes from the first batch", $A_2$ = "the product comes from the second batch", $B$ = "the product is qualified". By the hypothesis, $\mathbb P\left(A_1\right)=0.4$, $\mathbb P\left(A_2\right)=0.6$, $\mathbb P\left(B\mid A_1\right)=1-0.05=0.95$, $\mathbb P\left(B\mid A_2\right)=1-0.04=0.96$.
 
 (1) By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\mathbb P(B)=\mathbb P(A_1)\mathbb P(B\mid A_1)+\mathbb P(A_2)\mathbb P(B\mid A_2).
+\mathbb P\left(B\right)=\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)+\mathbb P\left(A_2\right)\mathbb P\left(B\mid A_2\right).
 $$
 
 Substituting the data, we get
 
 $$
-\mathbb P(B)=0.4\times 0.95+0.6\times 0.96=0.38+0.576=0.956.
+\mathbb P\left(B\right)=0.4\times 0.95+0.6\times 0.96=0.38+0.576=0.956.
 $$
 
 (2) By **Conclusion 7.1.6** (Bayes' Formula),
 
 $$
-\mathbb P(A_1\mid B)=\frac{\mathbb P(A_1)\mathbb P(B\mid A_1)}{\mathbb P(B)}=\frac{0.4\times 0.95}{0.956}=\frac{0.38}{0.956}=\frac{95}{239}.
+\mathbb P\left(A_1\mid B\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)}{\mathbb P\left(B\right)}=\frac{0.4\times 0.95}{0.956}=\frac{0.38}{0.956}=\frac{95}{239}.
 $$
 
 $\blacksquare$
@@ -163,20 +163,20 @@ Let $A$ = "a male is chosen", $B$ = "the chosen student is color-blind".
 (1) Given that the chosen person is a male, i.e. the sample space is all 1200 males, of whom 60 are color-blind. Thus
 
 $$
-\mathbb P(B\mid A)=\frac{60}{1200}=\frac{1}{20}=0.05.
+\mathbb P\left(B\mid A\right)=\frac{60}{1200}=\frac{1}{20}=0.05.
 $$
 
 (2) Given that the chosen student is color-blind, i.e. the sample space is all 62 color-blind students, of whom 60 are male. Thus
 
 $$
-\mathbb P(A\mid B)=\frac{60}{62}=\frac{30}{31}.
+\mathbb P\left(A\mid B\right)=\frac{60}{62}=\frac{30}{31}.
 $$
 
 $\blacksquare$
 
 ### Problem 2
 
-(Exercise 7.1, Review and Consolidation, Problem 2) One person is chosen at random from a population. Let $B=$ "the chosen person has heart disease", $C=$ "the chosen person is a heart-disease patient older than 50 years". Determine the relationship between $\mathbb P(B)$ and $\mathbb P(C)$, and explain your reasoning.
+(Exercise 7.1, Review and Consolidation, Problem 2) One person is chosen at random from a population. Let $B=$ "the chosen person has heart disease", $C=$ "the chosen person is a heart-disease patient older than 50 years". Determine the relationship between $\mathbb P\left(B\right)$ and $\mathbb P\left(C\right)$, and explain your reasoning.
 
 ### Solution to Problem 2
 
@@ -185,10 +185,10 @@ By **Definition 7.1.1** (Conditional Probability) and the inclusion relation bet
 When event $C$ occurs, the person both has heart disease and is older than 50 years, so the occurrence of $C$ necessarily entails the occurrence of $B$, i.e. $C\subseteq B$. By the property of probability, the probability of a sub-event does not exceed that of the parent event, so
 
 $$
-\mathbb P(C)\le \mathbb P(B).
+\mathbb P\left(C\right)\le \mathbb P\left(B\right).
 $$
 
-Moreover, not everyone with heart disease is older than 50 years, i.e. $B$ contains cases not in $C$, so in fact $\mathbb P(C)<\mathbb P(B)$. $\blacksquare$
+Moreover, not everyone with heart disease is older than 50 years, i.e. $B$ contains cases not in $C$, so in fact $\mathbb P\left(C\right)<\mathbb P\left(B\right)$. $\blacksquare$
 
 ### Problem 3
 
@@ -198,18 +198,18 @@ Moreover, not everyone with heart disease is older than 50 years, i.e. $B$ conta
 
 By **Definition 7.1.1** (Conditional Probability), using the addition and multiplication formulas for probability.
 
-Let $A$ = "A hits the target", $B$ = "B hits the target". By the hypothesis, $\mathbb P(A)=0.6$, $\mathbb P(B)=0.5$, and the two shots are independent. By **Conclusion 7.1.4** (Mutual Independence of Events), $\mathbb P(AB)=\mathbb P(A)\mathbb P(B)=0.6\times 0.5=0.3$.
+Let $A$ = "A hits the target", $B$ = "B hits the target". By the hypothesis, $\mathbb P\left(A\right)=0.6$, $\mathbb P\left(B\right)=0.5$, and the two shots are independent. By **Conclusion 7.1.4** (Mutual Independence of Events), $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=0.6\times 0.5=0.3$.
 
 "The target is hit at least once" is the event $A\cup B$, whose probability is
 
 $$
-\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B)-\mathbb P(AB)=0.6+0.5-0.3=0.8.
+\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(AB\right)=0.6+0.5-0.3=0.8.
 $$
 
 What is sought is the probability that $A$ occurs under the condition that $A\cup B$ occurs. By **Definition 7.1.1** (Conditional Probability),
 
 $$
-\mathbb P(A\mid A\cup B)=\frac{\mathbb P(A)}{\mathbb P(A\cup B)}=\frac{0.6}{0.8}=\frac{3}{4}.
+\mathbb P\left(A\mid A\cup B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\cup B\right)}=\frac{0.6}{0.8}=\frac{3}{4}.
 $$
 
 $\blacksquare$
@@ -222,18 +222,18 @@ $\blacksquare$
 
 By **Conclusion 7.1.5** (Total Probability Formula), divide the sample space into two mutually exclusive events according to which box the ball is drawn from.
 
-Let $C_1$ = "drawing from box A", $C_2$ = "drawing from box B", $R$ = "drawing a red ball". The probability that the die shows 1 or 2 is $\frac{2}{6}=\frac{1}{3}$, and the probability that it shows 3, 4, 5, or 6 is $\frac{4}{6}=\frac{2}{3}$, so $\mathbb P(C_1)=\frac{1}{3}$, $\mathbb P(C_2)=\frac{2}{3}$. Box A has 5 red balls and box B has 8 red balls, so $\mathbb P(R\mid C_1)=\frac{5}{10}=0.5$, $\mathbb P(R\mid C_2)=\frac{8}{10}=0.8$.
+Let $C_1$ = "drawing from box A", $C_2$ = "drawing from box B", $R$ = "drawing a red ball". The probability that the die shows 1 or 2 is $\frac{2}{6}=\frac{1}{3}$, and the probability that it shows 3, 4, 5, or 6 is $\frac{4}{6}=\frac{2}{3}$, so $\mathbb P\left(C_1\right)=\frac{1}{3}$, $\mathbb P\left(C_2\right)=\frac{2}{3}$. Box A has 5 red balls and box B has 8 red balls, so $\mathbb P\left(R\mid C_1\right)=\frac{5}{10}=0.5$, $\mathbb P\left(R\mid C_2\right)=\frac{8}{10}=0.8$.
 
 By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\mathbb P(R)=\mathbb P(C_1)\mathbb P(R\mid C_1)+\mathbb P(C_2)\mathbb P(R\mid C_2).
+\mathbb P\left(R\right)=\mathbb P\left(C_1\right)\mathbb P\left(R\mid C_1\right)+\mathbb P\left(C_2\right)\mathbb P\left(R\mid C_2\right).
 $$
 
 Substituting the data, we get
 
 $$
-\mathbb P(R)=\frac{1}{3}\times 0.5+\frac{2}{3}\times 0.8=\frac{0.5+1.6}{3}=0.7.
+\mathbb P\left(R\right)=\frac{1}{3}\times 0.5+\frac{2}{3}\times 0.8=\frac{0.5+1.6}{3}=0.7.
 $$
 
 $\blacksquare$
@@ -250,49 +250,49 @@ $\blacksquare$
 
 By **Conclusion 7.1.5** (Total Probability Formula) and **Conclusion 7.1.6** (Bayes' Formula).
 
-Let $A_1$, $A_2$, $A_3$ denote "from region $A$, $B$, $C$" respectively, and $F$ = "this person has the flu". The population ratio is $5:7:8$, with 20 parts in total, so $\mathbb P(A_1)=\frac{5}{20}$, $\mathbb P(A_2)=\frac{7}{20}$, $\mathbb P(A_3)=\frac{8}{20}$. Also $\mathbb P(F\mid A_1)=0.06$, $\mathbb P(F\mid A_2)=0.05$, $\mathbb P(F\mid A_3)=0.04$.
+Let $A_1$, $A_2$, $A_3$ denote "from region $A$, $B$, $C$" respectively, and $F$ = "this person has the flu". The population ratio is $5:7:8$, with 20 parts in total, so $\mathbb P\left(A_1\right)=\frac{5}{20}$, $\mathbb P\left(A_2\right)=\frac{7}{20}$, $\mathbb P\left(A_3\right)=\frac{8}{20}$. Also $\mathbb P\left(F\mid A_1\right)=0.06$, $\mathbb P\left(F\mid A_2\right)=0.05$, $\mathbb P\left(F\mid A_3\right)=0.04$.
 
 (1) By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\mathbb P(F)=\sum_{i=1}^3 \mathbb P(A_i)\mathbb P(F\mid A_i).
+\mathbb P\left(F\right)=\sum_{i=1}^3 \mathbb P\left(A_i\right)\mathbb P\left(F\mid A_i\right).
 $$
 
 Substituting the data, we get
 
 $$
-\mathbb P(F)=\frac{5}{20}\times 0.06+\frac{7}{20}\times 0.05+\frac{8}{20}\times 0.04=\frac{0.3+0.35+0.32}{20}=0.0485.
+\mathbb P\left(F\right)=\frac{5}{20}\times 0.06+\frac{7}{20}\times 0.05+\frac{8}{20}\times 0.04=\frac{0.3+0.35+0.32}{20}=0.0485.
 $$
 
 (2) By **Conclusion 7.1.6** (Bayes' Formula),
 
 $$
-\mathbb P(A_1\mid F)=\frac{\mathbb P(A_1)\mathbb P(F\mid A_1)}{\mathbb P(F)}=\frac{5\times 0.06}{0.97}=\frac{0.3}{0.97}=\frac{30}{97}.
+\mathbb P\left(A_1\mid F\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(F\mid A_1\right)}{\mathbb P\left(F\right)}=\frac{5\times 0.06}{0.97}=\frac{0.3}{0.97}=\frac{30}{97}.
 $$
 
 $\blacksquare$
 
 ### Problem 6
 
-(Exercise 7.1, Review and Consolidation, Problem 6) Given $\mathbb P(A)>0$, $\mathbb P(B)>0$, $\mathbb P(B\mid A)=\mathbb P(B)$, prove that $\mathbb P(A\mid B)=\mathbb P(A)$.
+(Exercise 7.1, Review and Consolidation, Problem 6) Given $\mathbb P\left(A\right)>0$, $\mathbb P\left(B\right)>0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, prove that $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
 
 ### Solution to Problem 6
 
 By **Definition 7.1.1** (Conditional Probability).
 
-From $\mathbb P(B\mid A)=\mathbb P(B)$ and **Definition 7.1.1** (Conditional Probability),
+From $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ and **Definition 7.1.1** (Conditional Probability),
 
 $$
-\frac{\mathbb P(AB)}{\mathbb P(A)}=\mathbb P(B).
+\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\right).
 $$
 
-Multiplying both sides by $\mathbb P(A)$, we get $\mathbb P(AB)=\mathbb P(A)\mathbb P(B)$. Then by **Definition 7.1.1** (Conditional Probability),
+Multiplying both sides by $\mathbb P\left(A\right)$, we get $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. Then by **Definition 7.1.1** (Conditional Probability),
 
 $$
-\mathbb P(A\mid B)=\frac{\mathbb P(AB)}{\mathbb P(B)}=\frac{\mathbb P(A)\mathbb P(B)}{\mathbb P(B)}=\mathbb P(A).
+\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{\mathbb P\left(A\right)\mathbb P\left(B\right)}{\mathbb P\left(B\right)}=\mathbb P\left(A\right).
 $$
 
-Thus $\mathbb P(A\mid B)=\mathbb P(A)$. $\blacksquare$
+Thus $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$. $\blacksquare$
 
 ### Problem 7
 
@@ -307,13 +307,13 @@ Let $G_i$ = "the $i$th drawn item is qualified". The batch is rejected in two mu
 The probability that the 1st item is unqualified is
 
 $$
-\mathbb P(\bar G_1)=\frac{5}{100}=\frac{1}{20}.
+\mathbb P\left(\bar G_1\right)=\frac{5}{100}=\frac{1}{20}.
 $$
 
 The probability that the 1st item is qualified and the 2nd is unqualified, by **Conclusion 7.1.2** (Multiplication Formula for Probability), is
 
 $$
-\mathbb P(G_1\bar G_2)=\mathbb P(G_1)\mathbb P(\bar G_2\mid G_1)=\frac{95}{100}\times\frac{5}{99}.
+\mathbb P\left(G_1\bar G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\bar G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
 $$
 
 The two cases are mutually exclusive, so by the addition formula for probability, the probability that the batch is rejected is
@@ -363,43 +363,43 @@ By **Definition 7.1.1** (Conditional Probability).
 (1) For any event $A$, $A\subseteq\Omega$, so $\Omega A=A$. By **Definition 7.1.1** (Conditional Probability),
 
 $$
-\mathbb P(\Omega\mid A)=\frac{\mathbb P(\Omega A)}{\mathbb P(A)}=\frac{\mathbb P(A)}{\mathbb P(A)}=1.
+\mathbb P\left(\Omega\mid A\right)=\frac{\mathbb P\left(\Omega A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\right)}=1.
 $$
 
-(2) If $B$ and $C$ are two mutually exclusive events, then $BA$ and $CA$ are also mutually exclusive. By the addition formula for probability, $\mathbb P((B\cup C)A)=\mathbb P(BA)+\mathbb P(CA)$. By **Definition 7.1.1** (Conditional Probability),
+(2) If $B$ and $C$ are two mutually exclusive events, then $BA$ and $CA$ are also mutually exclusive. By the addition formula for probability, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. By **Definition 7.1.1** (Conditional Probability),
 
 $$
-\mathbb P(B\cup C\mid A)=\frac{\mathbb P((B\cup C)A)}{\mathbb P(A)}=\frac{\mathbb P(BA)+\mathbb P(CA)}{\mathbb P(A)}=\mathbb P(B\mid A)+\mathbb P(C\mid A).
+\mathbb P\left(B\cup C\mid A\right)=\frac{\mathbb P\left(\left(B\cup C\right)A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(BA\right)+\mathbb P\left(CA\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right).
 $$
 
 $\blacksquare$
 
 ### Problem 10
 
-(Exercise 7.1, Extension and Exploration, Problem 10) Prove that when $\mathbb P(AB)>0$, $\mathbb P(ABC)=\mathbb P(A)\mathbb P(B\mid A)\mathbb P(C\mid AB)$. From this, can you find a formula for computing $\mathbb P(A_1A_2\cdots A_n)$?
+(Exercise 7.1, Extension and Exploration, Problem 10) Prove that when $\mathbb P\left(AB\right)>0$, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. From this, can you find a formula for computing $\mathbb P\left(A_1A_2\cdots A_n\right)$?
 
 ### Solution to Problem 10
 
 By **Definition 7.1.1** (Conditional Probability) and **Conclusion 7.1.2** (Multiplication Formula for Probability).
 
-From $\mathbb P(AB)>0$, it necessarily follows that $\mathbb P(A)>0$ and $\mathbb P(AB)>0$. Use **Conclusion 7.1.2** (Multiplication Formula for Probability) twice:
+From $\mathbb P\left(AB\right)>0$, it necessarily follows that $\mathbb P\left(A\right)>0$ and $\mathbb P\left(AB\right)>0$. Use **Conclusion 7.1.2** (Multiplication Formula for Probability) twice:
 
 First treat $AB$ as a single event, giving
 
 $$
-\mathbb P(ABC)=\mathbb P(AB)\,\mathbb P(C\mid AB).
+\mathbb P\left(ABC\right)=\mathbb P\left(AB\right)\,\mathbb P\left(C\mid AB\right).
 $$
 
-Then apply the multiplication formula to $\mathbb P(AB)$, giving $\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A)$. Substituting, we get
+Then apply the multiplication formula to $\mathbb P\left(AB\right)$, giving $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$. Substituting, we get
 
 $$
-\mathbb P(ABC)=\mathbb P(A)\mathbb P(B\mid A)\mathbb P(C\mid AB).
+\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right).
 $$
 
 From this, repeatedly applying the multiplication formula, we obtain the formula for the probability of the intersection of $n$ events:
 
 $$
-\mathbb P(A_1A_2\cdots A_n)=\mathbb P(A_1)\mathbb P(A_2\mid A_1)\mathbb P(A_3\mid A_1A_2)\cdots \mathbb P(A_n\mid A_1A_2\cdots A_{n-1}).
+\mathbb P\left(A_1A_2\cdots A_n\right)=\mathbb P\left(A_1\right)\mathbb P\left(A_2\mid A_1\right)\mathbb P\left(A_3\mid A_1A_2\right)\cdots \mathbb P\left(A_n\mid A_1A_2\cdots A_{n-1}\right).
 $$
 
 $\blacksquare$

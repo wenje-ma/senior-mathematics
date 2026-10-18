@@ -4,43 +4,43 @@
 
 > **Definition 6.1.2** (Multiplication Counting Principle for Step-by-Step Processes) <br>Completing a task requires two steps: the first step has $m$ different methods and the second step has $n$ different methods. Then there are $N=m\times n$ different methods in total to complete the task.
 
-> **Formula 6.2.7** (Combination Number Formula) <br>$\binom{n}{m}=\frac{n!}{m!(n-m)!}$, where $m,n\in\mathbb N^*$ and $m\le n$. It is stipulated that $\binom{n}{0}=1$.
+> **Formula 6.2.7** (Combination Number Formula) <br>$\binom{n}{m}=\frac{n!}{m!\left(n-m\right)!}$, where $m,n\in\mathbb N^*$ and $m\le n$. It is stipulated that $\binom{n}{0}=1$.
 
 > **Theorem 6.3.1** (Binomial Theorem) <br>For any positive integer $n$,
 
 $$
-(a+b)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
+\left(a+b\right)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
 $$
 
 > **Formula 6.3.2** (General Term of the Binomial Expansion) <br>The $k+1$-th term of the binomial expansion is $T_{k+1}=\binom{n}{k} a^{n-k}b^k$, where $\binom{n}{k}$ ($k=0,1,2,\cdots,n$) is called a binomial coefficient.
 
-> **Formula 6.3.3** (Expansion of $(1+x)^n$) <br>Setting $a=1$ and $b=x$ in the binomial theorem gives $(1+x)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n$.
+> **Formula 6.3.3** (Expansion of $\left(1+x\right)^n$) <br>Setting $a=1$ and $b=x$ in the binomial theorem gives $\left(1+x\right)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n$.
 
-> **Property 6.3.4** (Properties of Binomial Coefficients) <br>(1) Symmetry: $\binom{n}{k}=\binom{n}{n-k}$; (2) Monotonicity and maximum: when $k<\frac{n+1}{2}$, $\binom{n}{k}$ increases with $k$; when $n$ is even, the middle term $\binom{n}{n/2}$ is the largest, and when $n$ is odd, the two middle terms $\binom{n}{(n-1)/2}$ and $\binom{n}{(n+1)/2}$ are equal and largest; (3) Sum of all binomial coefficients: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) The sum of the binomial coefficients of the odd terms equals that of the even terms: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
+> **Property 6.3.4** (Properties of Binomial Coefficients) <br>(1) Symmetry: $\binom{n}{k}=\binom{n}{n-k}$; (2) Monotonicity and maximum: when $k<\frac{n+1}{2}$, $\binom{n}{k}$ increases with $k$; when $n$ is even, the middle term $\binom{n}{n/2}$ is the largest, and when $n$ is odd, the two middle terms $\binom{n}{\left(n-1\right)/2}$ and $\binom{n}{\left(n+1\right)/2}$ are equal and largest; (3) Sum of all binomial coefficients: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) The sum of the binomial coefficients of the odd terms equals that of the even terms: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
 
 ### Exercise 1
 
-(Exercise 6.3, Problem 1) Write out the expansion of $(p+q)^5$.
+(Exercise 6.3, Problem 1) Write out the expansion of $\left(p+q\right)^5$.
 
 ### Solution to Exercise 1
 
 By **Theorem 6.3.1** (Binomial Theorem).
 
 $$
-(p+q)^5=\binom{5}{0} p^5+\binom{5}{1} p^4 q+\binom{5}{2} p^3 q^2+\binom{5}{3} p^2 q^3+\binom{5}{4} p q^4+\binom{5}{5} q^5.
+\left(p+q\right)^5=\binom{5}{0} p^5+\binom{5}{1} p^4 q+\binom{5}{2} p^3 q^2+\binom{5}{3} p^2 q^3+\binom{5}{4} p q^4+\binom{5}{5} q^5.
 $$
 
 Substituting $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$, we get
 
 $$
-(p+q)^5=p^5+5p^4 q+10p^3 q^2+10p^2 q^3+5p q^4+q^5.
+\left(p+q\right)^5=p^5+5p^4 q+10p^3 q^2+10p^2 q^3+5p q^4+q^5.
 $$
 
 $\blacksquare$
 
 ### Exercise 2
 
-(Exercise 6.3, Problem 2) Find the $3$rd term of the expansion of $(2a+3b)^6$.
+(Exercise 6.3, Problem 2) Find the $3$rd term of the expansion of $\left(2a+3b\right)^6$.
 
 ### Solution to Exercise 2
 
@@ -49,7 +49,7 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion).
 The $3$rd term corresponds to $k=2$. By **Formula 6.3.2**,
 
 $$
-T_3=\binom{6}{2}(2a)^4(3b)^2.
+T_3=\binom{6}{2}\left(2a\right)^4\left(3b\right)^2.
 $$
 
 Substituting $\binom{6}{2}=15$, we get
@@ -62,7 +62,7 @@ Thus the $3$rd term of the expansion is $2160a^4 b^2$. $\blacksquare$
 
 ### Exercise 3
 
-(Exercise 6.3, Problem 3) Write out the $r+1$-th term of the expansion of $\left(\sqrt[3]{x}-\frac{1}{2\sqrt[3]{x}}\right)^n$.
+(Exercise 6.3, Problem 3) Write out the $r+1$-th term of the expansion of $\left(\sqrt\left[3\right]{x}-\frac{1}{2\sqrt\left[3\right]{x}}\right)^n$.
 
 ### Solution to Exercise 3
 
@@ -71,20 +71,20 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion).
 In the $r+1$-th term, $k=r$. By **Formula 6.3.2**,
 
 $$
-T_{r+1}=\binom{n}{r}(\sqrt[3]{x})^{n-r}\left(-\frac{1}{2\sqrt[3]{x}}\right)^r.
+T_{r+1}=\binom{n}{r}\left(\sqrt\left[3\right]{x}\right)^{n-r}\left(-\frac{1}{2\sqrt\left[3\right]{x}}\right)^r.
 $$
 
 Simplifying the exponent of $x$: $\frac{n-r}{3}-\frac{r}{3}=\frac{n-2r}{3}$. Thus
 
 $$
-T_{r+1}=(-1)^r\frac{1}{2^r}\binom{n}{r} x^{\frac{n-2r}{3}}.
+T_{r+1}=\left(-1\right)^r\frac{1}{2^r}\binom{n}{r} x^{\frac{n-2r}{3}}.
 $$
 
 $\blacksquare$
 
 ### Exercise 4
 
-(Exercise 6.3, Problem 4) The coefficient of the $6$th term in the expansion of $(x-1)^{10}$ is ( ).
+(Exercise 6.3, Problem 4) The coefficient of the $6$th term in the expansion of $\left(x-1\right)^{10}$ is ( ).
 
 (A) $\binom{10}{6}$  (B) $-\binom{10}{6}$  (C) $\binom{10}{5}$  (D) $-\binom{10}{5}$
 
@@ -95,14 +95,14 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion).
 The $6$th term corresponds to $k=5$. By **Formula 6.3.2**,
 
 $$
-T_6=\binom{10}{5} x^5(-1)^5=-\binom{10}{5} x^5.
+T_6=\binom{10}{5} x^5\left(-1\right)^5=-\binom{10}{5} x^5.
 $$
 
 Thus the coefficient of the $6$th term is $-\binom{10}{5}$, so the answer is (D). $\blacksquare$
 
 ### Exercise 5
 
-(Exercise 6.3, Problem 5) In the expansion of $(x-1)(x-2)(x-3)(x-4)(x-5)$, the coefficient of the term containing $x^4$ is $\;\_\_\;$.
+(Exercise 6.3, Problem 5) In the expansion of $\left(x-1\right)\left(x-2\right)\left(x-3\right)\left(x-4\right)\left(x-5\right)$, the coefficient of the term containing $x^4$ is $\;\_\_\;$.
 
 ### Solution to Exercise 5
 
@@ -111,7 +111,7 @@ By **Theorem 6.3.1** (Binomial Theorem) and **Definition 6.1.1** (Addition Count
 The product of $5$ linear factors; the term containing $x^4$ in the expansion is obtained by choosing $4$ of the $5$ factors to take $x$ and the remaining $1$ factor to take its constant term. The remaining constant terms are $-1,-2,-3,-4,-5$, and their sum is the coefficient of the $x^4$ term. By **Definition 6.1.1**,
 
 $$
-(-1)+(-2)+(-3)+(-4)+(-5)=-15.
+\left(-1\right)+\left(-2\right)+\left(-3\right)+\left(-4\right)+\left(-5\right)=-15.
 $$
 
 Thus the coefficient of the term containing $x^4$ is $-15$. $\blacksquare$
@@ -128,7 +128,7 @@ Thus the coefficient of the term containing $x^4$ is $-15$. $\blacksquare$
 
 By **Property 6.3.4** (Properties of Binomial Coefficients).
 
-(1) By **Property 6.3.4**, the sum of the binomial coefficients of the odd terms equals that of the even terms, each equal to $2^{10}$. And $\binom{11}{1}+\binom{11}{3}+\cdots+\binom{11}{11}$ is the sum of the binomial coefficients with odd subscripts in the expansion of $(1+1)^{11}$, namely
+(1) By **Property 6.3.4**, the sum of the binomial coefficients of the odd terms equals that of the even terms, each equal to $2^{10}$. And $\binom{11}{1}+\binom{11}{3}+\cdots+\binom{11}{11}$ is the sum of the binomial coefficients with odd subscripts in the expansion of $\left(1+1\right)^{11}$, namely
 
 $$
 \binom{11}{1}+\binom{11}{3}+\cdots+\binom{11}{11}=2^{10}=1024.
@@ -148,7 +148,7 @@ $\blacksquare$
 
 ### Solution to Exercise 7
 
-By **Property 6.3.4** (Properties of Binomial Coefficients) and **Formula 6.3.3** (Expansion of $(1+x)^n$).
+By **Property 6.3.4** (Properties of Binomial Coefficients) and **Formula 6.3.3** (Expansion of $\left(1+x\right)^n$).
 
 Setting $x=1$ in **Formula 6.3.3**, we get
 
@@ -159,7 +159,7 @@ $$
 Setting $x=-1$, we get
 
 $$
-0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+(-1)^n \binom{n}{n}.
+0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+\left(-1\right)^n \binom{n}{n}.
 $$
 
 Adding the two equations, the odd terms cancel, giving
@@ -184,7 +184,7 @@ $\blacksquare$
 
 By **Theorem 6.3.1** (Binomial Theorem) and **Property 6.3.4** (Properties of Binomial Coefficients).
 
-Computing the binomial coefficients of the expansion of $(a+b)^n$ row by row, we get
+Computing the binomial coefficients of the expansion of $\left(a+b\right)^n$ row by row, we get
 
 $n=1$: $1,1$.
 
@@ -226,11 +226,11 @@ By **Property 6.3.4**, this sum equals $2^n$. Thus the set has $2^n$ subsets in 
 
 (Exercise 6.3, Review and Consolidation, Problem 1) Multiple choice.
 
-(1) In the expansion of $(1-x)^5+(1-x)^6+(1-x)^7+(1-x)^8$, the coefficient of the term containing $x^3$ is ( ).
+(1) In the expansion of $\left(1-x\right)^5+\left(1-x\right)^6+\left(1-x\right)^7+\left(1-x\right)^8$, the coefficient of the term containing $x^3$ is ( ).
 
 (A) $74$  (B) $121$  (C) $-74$  (D) $-121$
 
-(2) If the coefficient of $x^2$ in the expansion of $(x+1)^n$ is $15$, then $n=$ ( ).
+(2) If the coefficient of $x^2$ in the expansion of $\left(x+1\right)^n$ is $15$, then $n=$ ( ).
 
 (A) $7$  (B) $6$  (C) $5$  (D) $4$
 
@@ -238,31 +238,31 @@ By **Property 6.3.4**, this sum equals $2^n$. Thus the set has $2^n$ subsets in 
 
 By **Formula 6.3.2** (General Term of the Binomial Expansion).
 
-(1) In the expansion of $(1-x)^n$, the $x^3$ term is $\binom{n}{3}(-x)^3=-\binom{n}{3} x^3$, with coefficient $-\binom{n}{3}$. Thus the sum of the coefficients of the $x^3$ term in the four expansions is
+(1) In the expansion of $\left(1-x\right)^n$, the $x^3$ term is $\binom{n}{3}\left(-x\right)^3=-\binom{n}{3} x^3$, with coefficient $-\binom{n}{3}$. Thus the sum of the coefficients of the $x^3$ term in the four expansions is
 
 $$
--\left(\binom{5}{3}+\binom{6}{3}+\binom{7}{3}+\binom{8}{3}\right)=-(10+20+35+56)=-121.
+-\left(\binom{5}{3}+\binom{6}{3}+\binom{7}{3}+\binom{8}{3}\right)=-\left(10+20+35+56\right)=-121.
 $$
 
 The answer is (D).
 
-(2) In the expansion of $(x+1)^n$, the coefficient of $x^2$ is $\binom{n}{2}$. From $\binom{n}{2}=\frac{n(n-1)}{2}=15$, we get $n(n-1)=30$, and solving gives $n=6$. The answer is (B). $\blacksquare$
+(2) In the expansion of $\left(x+1\right)^n$, the coefficient of $x^2$ is $\binom{n}{2}$. From $\binom{n}{2}=\frac{n\left(n-1\right)}{2}=15$, we get $n\left(n-1\right)=30$, and solving gives $n=6$. The answer is (B). $\blacksquare$
 
 ### Problem 2
 
-(Exercise 6.3, Review and Consolidation, Problem 2) The coefficient of $x^3y^3$ in the expansion of $(x+y)(x-y)^5$ is $\;\_\_\;$.
+(Exercise 6.3, Review and Consolidation, Problem 2) The coefficient of $x^3y^3$ in the expansion of $\left(x+y\right)\left(x-y\right)^5$ is $\;\_\_\;$.
 
 ### Solution to Problem 2
 
 By **Formula 6.3.2** (General Term of the Binomial Expansion) and **Definition 6.1.1** (Addition Counting Principle for Classification).
 
-In the expansion of $(x-y)^5$, the general term is $\binom{5}{k} x^{5-k}(-y)^k=(-1)^k \binom{5}{k} x^{5-k} y^k$.
+In the expansion of $\left(x-y\right)^5$, the general term is $\binom{5}{k} x^{5-k}\left(-y\right)^k=\left(-1\right)^k \binom{5}{k} x^{5-k} y^k$.
 
 After multiplying by $x+y$, the $x^3 y^3$ term arises from two sources:
 
-(1) $x$ times the $x^2 y^3$ term in $(x-y)^5$, where $5-k=2$, i.e. $k=3$, with coefficient $(-1)^3 \binom{5}{3}=-10$;
+(1) $x$ times the $x^2 y^3$ term in $\left(x-y\right)^5$, where $5-k=2$, i.e. $k=3$, with coefficient $\left(-1\right)^3 \binom{5}{3}=-10$;
 
-(2) $y$ times the $x^3 y^2$ term in $(x-y)^5$, where $k=2$, with coefficient $(-1)^2 \binom{5}{2}=10$.
+(2) $y$ times the $x^3 y^2$ term in $\left(x-y\right)^5$, where $k=2$, with coefficient $\left(-1\right)^2 \binom{5}{2}=10$.
 
 By **Definition 6.1.1**, the coefficient of $x^3 y^3$ is $-10+10=0$. $\blacksquare$
 
@@ -270,7 +270,7 @@ By **Definition 6.1.1**, the coefficient of $x^3 y^3$ is $-10+10=0$. $\blacksqua
 
 (Exercise 6.3, Review and Consolidation, Problem 3) Expand using the binomial theorem:
 
-(1) $(a+\sqrt[3]{b})^9$;
+(1) $\left(a+\sqrt\left[3\right]{b}\right)^9$;
 
 (2) $\left(\frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}}\right)^7$.
 
@@ -281,7 +281,7 @@ By **Theorem 6.3.1** (Binomial Theorem).
 (1) By **Theorem 6.3.1**,
 
 $$
-(a+\sqrt[3]{b})^9=\sum_{k=0}^{9} \binom{9}{k} a^{9-k}(\sqrt[3]{b})^k.
+\left(a+\sqrt\left[3\right]{b}\right)^9=\sum_{k=0}^{9} \binom{9}{k} a^{9-k}\left(\sqrt\left[3\right]{b}\right)^k.
 $$
 
 (2) By **Theorem 6.3.1**,
@@ -296,7 +296,7 @@ $\blacksquare$
 
 (Exercise 6.3, Review and Consolidation, Problem 4) Simplify:
 
-(1) $(1+\sqrt{x})^5+(1-\sqrt{x})^5$;
+(1) $\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5$;
 
 (2) $\left(2x^{\frac{1}{2}}+3x^{-\frac{1}{2}}\right)^4+\left(2x^{\frac{1}{2}}-3x^{-\frac{1}{2}}\right)^4$.
 
@@ -307,13 +307,13 @@ By **Theorem 6.3.1** (Binomial Theorem).
 (1) When the two expressions are added, the odd powers of $\sqrt{x}$ cancel and the even powers double. By **Theorem 6.3.1**,
 
 $$
-(1+\sqrt{x})^5+(1-\sqrt{x})^5=2\left[\binom{5}{0}+\binom{5}{2} x+\binom{5}{4} x^2\right].
+\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5=2\left[\binom{5}{0}+\binom{5}{2} x+\binom{5}{4} x^2\right].
 $$
 
 Substituting $\binom{5}{2}=10$, $\binom{5}{4}=5$, we get
 
 $$
-2(1+10x+5x^2)=2+20x+10x^2.
+2\left(1+10x+5x^2\right)=2+20x+10x^2.
 $$
 
 (2) When the two expressions are added, the odd powers of $x^{-\frac{1}{2}}$ cancel and the even powers double. By **Theorem 6.3.1**,
@@ -334,9 +334,9 @@ $\blacksquare$
 
 (Exercise 6.3, Review and Consolidation, Problem 5)
 
-(1) Find the first $4$ terms of the expansion of $(1-2x)^{15}$;
+(1) Find the first $4$ terms of the expansion of $\left(1-2x\right)^{15}$;
 
-(2) Find the $8$th term of the expansion of $(2a^3-3b^2)^{10}$;
+(2) Find the $8$th term of the expansion of $\left(2a^3-3b^2\right)^{10}$;
 
 (3) Find the middle term of the expansion of $\left(\frac{\sqrt{x}}{3}-\frac{3}{\sqrt{x}}\right)^{12}$;
 
@@ -349,7 +349,7 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion) and **Property 6.3
 (1) The first $4$ terms correspond to $k=0,1,2,3$. By **Formula 6.3.2**,
 
 $$
-(1-2x)^{15}=1+\binom{15}{1}(-2x)+\binom{15}{2}(-2x)^2+\binom{15}{3}(-2x)^3+\cdots.
+\left(1-2x\right)^{15}=1+\binom{15}{1}\left(-2x\right)+\binom{15}{2}\left(-2x\right)^2+\binom{15}{3}\left(-2x\right)^3+\cdots.
 $$
 
 Substituting $\binom{15}{1}=15$, $\binom{15}{2}=105$, $\binom{15}{3}=455$, the first $4$ terms are
@@ -361,13 +361,13 @@ $$
 (2) The $8$th term corresponds to $k=7$. By **Formula 6.3.2**,
 
 $$
-T_8=\binom{10}{7}(2a^3)^3(-3b^2)^7.
+T_8=\binom{10}{7}\left(2a^3\right)^3\left(-3b^2\right)^7.
 $$
 
 Substituting $\binom{10}{7}=120$, we get
 
 $$
-T_8=120\cdot 8\,a^9\cdot(-3)^7 b^{14}=-2099520\,a^9 b^{14}.
+T_8=120\cdot 8\,a^9\cdot\left(-3\right)^7 b^{14}=-2099520\,a^9 b^{14}.
 $$
 
 (3) $n=12$ is even, so by **Property 6.3.4**, the middle term is the $7$th term with $k=6$. By **Formula 6.3.2**,
@@ -379,11 +379,11 @@ $$
 (4) $n=15$ is odd, so by **Property 6.3.4**, the two middle terms are the $8$th term with $k=7$ and the $9$th term with $k=8$. By **Formula 6.3.2**,
 
 $$
-T_8=\binom{15}{7}(x\sqrt{y})^8(-y\sqrt{x})^7=-\binom{15}{7} x^{\frac{23}{2}} y^{11}=-6435\,x^{\frac{23}{2}} y^{11},
+T_8=\binom{15}{7}\left(x\sqrt{y}\right)^8\left(-y\sqrt{x}\right)^7=-\binom{15}{7} x^{\frac{23}{2}} y^{11}=-6435\,x^{\frac{23}{2}} y^{11},
 $$
 
 $$
-T_9=\binom{15}{8}(x\sqrt{y})^7(-y\sqrt{x})^8=\binom{15}{8} x^{11} y^{\frac{23}{2}}=6435\,x^{11} y^{\frac{23}{2}}.
+T_9=\binom{15}{8}\left(x\sqrt{y}\right)^7\left(-y\sqrt{x}\right)^8=\binom{15}{8} x^{11} y^{\frac{23}{2}}=6435\,x^{11} y^{\frac{23}{2}}.
 $$
 
 $\blacksquare$
@@ -403,13 +403,13 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion).
 (1) The general term is
 
 $$
-T_{k+1}=\binom{10}{k}\left(-\frac{1}{2x}\right)^k=(-1)^k\frac{\binom{10}{k}}{2^k}x^{-k}.
+T_{k+1}=\binom{10}{k}\left(-\frac{1}{2x}\right)^k=\left(-1\right)^k\frac{\binom{10}{k}}{2^k}x^{-k}.
 $$
 
 The term containing $\frac{1}{x^5}$ requires $-k=-5$, i.e. $k=5$. This term is
 
 $$
-T_6=(-1)^5\frac{\binom{10}{5}}{2^5}x^{-5}=-\frac{252}{32}\cdot\frac{1}{x^5}=-\frac{63}{8}\cdot\frac{1}{x^5}.
+T_6=\left(-1\right)^5\frac{\binom{10}{5}}{2^5}x^{-5}=-\frac{252}{32}\cdot\frac{1}{x^5}=-\frac{63}{8}\cdot\frac{1}{x^5}.
 $$
 
 Thus the required term is $-\frac{63}{8x^5}$.
@@ -417,13 +417,13 @@ Thus the required term is $-\frac{63}{8x^5}$.
 (2) The general term is
 
 $$
-T_{k+1}=\binom{10}{k}(2x^3)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}(-1)^k 2^{10-2k}x^{30-6k}.
+T_{k+1}=\binom{10}{k}\left(2x^3\right)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}\left(-1\right)^k 2^{10-2k}x^{30-6k}.
 $$
 
 The constant term requires $30-6k=0$, i.e. $k=5$. This term is
 
 $$
-T_6=\binom{10}{5}(-1)^5 2^0=-252.
+T_6=\binom{10}{5}\left(-1\right)^5 2^0=-252.
 $$
 
 Thus the constant term is $-252$. $\blacksquare$
@@ -432,9 +432,9 @@ Thus the constant term is $-252$. $\blacksquare$
 
 (Exercise 6.3, Comprehensive Application, Problem 7) Prove:
 
-(1) In the expansion of $\left(x-\frac{1}{x}\right)^{2n}$, the constant term is $(-2)^n\frac{1\times 3\times 5\times\cdots\times(2n-1)}{n!}$;
+(1) In the expansion of $\left(x-\frac{1}{x}\right)^{2n}$, the constant term is $\left(-2\right)^n\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}$;
 
-(2) The middle term of the expansion of $(1+x)^{2n}$ is $\frac{1\times 3\times 5\times\cdots\times(2n-1)}{n!}(2x)^n$.
+(2) The middle term of the expansion of $\left(1+x\right)^{2n}$ is $\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}\left(2x\right)^n$.
 
 ### Solution to Problem 7
 
@@ -443,30 +443,30 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion) and **Formula 6.2.
 (1) The general term is
 
 $$
-T_{k+1}=\binom{2n}{k} x^{2n-k}\left(-\frac{1}{x}\right)^k=(-1)^k \binom{2n}{k} x^{2n-2k}.
+T_{k+1}=\binom{2n}{k} x^{2n-k}\left(-\frac{1}{x}\right)^k=\left(-1\right)^k \binom{2n}{k} x^{2n-2k}.
 $$
 
-The constant term requires $2n-2k=0$, i.e. $k=n$. Thus the constant term is $(-1)^n \binom{2n}{n}$.
+The constant term requires $2n-2k=0$, i.e. $k=n$. Thus the constant term is $\left(-1\right)^n \binom{2n}{n}$.
 
 By **Formula 6.2.7**,
 
 $$
-\binom{2n}{n}=\frac{(2n)!}{(n!)^2}=\frac{2n(2n-1)(2n-2)\cdots 2\cdot 1}{(n!)^2}.
+\binom{2n}{n}=\frac{\left(2n\right)!}{\left(n!\right)^2}=\frac{2n\left(2n-1\right)\left(2n-2\right)\cdots 2\cdot 1}{\left(n!\right)^2}.
 $$
 
 Factoring a $2$ from each even factor in the numerator, we get
 
 $$
-(2n)!=2^n n!\cdot 1\cdot 3\cdot 5\cdots(2n-1).
+\left(2n\right)!=2^n n!\cdot 1\cdot 3\cdot 5\cdots\left(2n-1\right).
 $$
 
 Thus
 
 $$
-\binom{2n}{n}=\frac{2^n n!\cdot 1\cdot 3\cdots(2n-1)}{(n!)^2}=\frac{2^n\cdot 1\cdot 3\cdots(2n-1)}{n!}.
+\binom{2n}{n}=\frac{2^n n!\cdot 1\cdot 3\cdots\left(2n-1\right)}{\left(n!\right)^2}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}.
 $$
 
-Hence the constant term $(-1)^n \binom{2n}{n}=(-2)^n\frac{1\cdot 3\cdots(2n-1)}{n!}$, which proves the claim.
+Hence the constant term $\left(-1\right)^n \binom{2n}{n}=\left(-2\right)^n\frac{1\cdot 3\cdots\left(2n-1\right)}{n!}$, which proves the claim.
 
 (2) After replacing $n$ by $2n$, it is even, so by **Property 6.3.4**, the middle term is the $n+1$-th term with $k=n$. By **Formula 6.3.2**,
 
@@ -474,17 +474,17 @@ $$
 T_{n+1}=\binom{2n}{n} x^n.
 $$
 
-Using $\binom{2n}{n}=\frac{2^n\cdot 1\cdot 3\cdots(2n-1)}{n!}$ from (1), we get
+Using $\binom{2n}{n}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}$ from (1), we get
 
 $$
-T_{n+1}=\frac{1\cdot 3\cdot 5\cdots(2n-1)}{n!}(2x)^n.
+T_{n+1}=\frac{1\cdot 3\cdot 5\cdots\left(2n-1\right)}{n!}\left(2x\right)^n.
 $$
 
 This proves the claim. $\blacksquare$
 
 ### Problem 8
 
-(Exercise 6.3, Comprehensive Application, Problem 8) It is known that in the expansion of $(1+x)^n$, the binomial coefficient of the $4$th term equals that of the $8$th term. Find the binomial coefficients of these two terms.
+(Exercise 6.3, Comprehensive Application, Problem 8) It is known that in the expansion of $\left(1+x\right)^n$, the binomial coefficient of the $4$th term equals that of the $8$th term. Find the binomial coefficients of these two terms.
 
 ### Solution to Problem 8
 
@@ -504,7 +504,7 @@ $\blacksquare$
 
 (Exercise 6.3, Comprehensive Application, Problem 9) Prove using the binomial theorem:
 
-(1) $(n+1)^n-1$ is divisible by $n^2$;
+(1) $\left(n+1\right)^n-1$ is divisible by $n^2$;
 
 (2) $99^{10}-1$ is divisible by $1000$.
 
@@ -515,34 +515,34 @@ By **Theorem 6.3.1** (Binomial Theorem).
 (1) By **Theorem 6.3.1**,
 
 $$
-(n+1)^n=\binom{n}{0}+\binom{n}{1} n+\binom{n}{2} n^2+\cdots+\binom{n}{n} n^n.
+\left(n+1\right)^n=\binom{n}{0}+\binom{n}{1} n+\binom{n}{2} n^2+\cdots+\binom{n}{n} n^n.
 $$
 
 Here $\binom{n}{0}=1$, $\binom{n}{1} n=n\cdot n=n^2$, and every remaining term contains at least the factor $n^2$. Thus
 
 $$
-(n+1)^n-1=n^2+\binom{n}{2} n^2+\cdots+n^n=n^2\left(1+\binom{n}{2} n^0+\cdots+n^{n-2}\right).
+\left(n+1\right)^n-1=n^2+\binom{n}{2} n^2+\cdots+n^n=n^2\left(1+\binom{n}{2} n^0+\cdots+n^{n-2}\right).
 $$
 
-The expression in parentheses is an integer, so $(n+1)^n-1$ is divisible by $n^2$.
+The expression in parentheses is an integer, so $\left(n+1\right)^n-1$ is divisible by $n^2$.
 
 (2) By **Theorem 6.3.1**,
 
 $$
-99^{10}=(100-1)^{10}=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100(-1)^9+(-1)^{10}.
+99^{10}=\left(100-1\right)^{10}=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9+\left(-1\right)^{10}.
 $$
 
-Here $(-1)^{10}=1$, so
+Here $\left(-1\right)^{10}=1$, so
 
 $$
-99^{10}-1=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100(-1)^9.
+99^{10}-1=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9.
 $$
 
-The last term $\binom{10}{9}\cdot 100\cdot(-1)^9=-1000$ is divisible by $1000$; every remaining term contains the factor $100^2=10000$, which is also divisible by $1000$. Thus $99^{10}-1$ is divisible by $1000$. $\blacksquare$
+The last term $\binom{10}{9}\cdot 100\cdot\left(-1\right)^9=-1000$ is divisible by $1000$; every remaining term contains the factor $100^2=10000$, which is also divisible by $1000$. Thus $99^{10}-1$ is divisible by $1000$. $\blacksquare$
 
 ### Problem 10
 
-(Exercise 6.3, Extension and Exploration, Problem 10) Prove: $2^n-\binom{n}{1}\times 2^{n-1}+\binom{n}{2}\times 2^{n-2}+\cdots+(-1)^{n-1}\binom{n}{n-1}\times 2+(-1)^n=1$.
+(Exercise 6.3, Extension and Exploration, Problem 10) Prove: $2^n-\binom{n}{1}\times 2^{n-1}+\binom{n}{2}\times 2^{n-2}+\cdots+\left(-1\right)^{n-1}\binom{n}{n-1}\times 2+\left(-1\right)^n=1$.
 
 ### Solution to Problem 10
 
@@ -551,20 +551,20 @@ By **Theorem 6.3.1** (Binomial Theorem).
 Taking $a=2$ and $b=-1$ in **Theorem 6.3.1**, we have
 
 $$
-(2-1)^n=\binom{n}{0} 2^n+\binom{n}{1} 2^{n-1}(-1)+\binom{n}{2} 2^{n-2}(-1)^2+\cdots+\binom{n}{n}(-1)^n.
+\left(2-1\right)^n=\binom{n}{0} 2^n+\binom{n}{1} 2^{n-1}\left(-1\right)+\binom{n}{2} 2^{n-2}\left(-1\right)^2+\cdots+\binom{n}{n}\left(-1\right)^n.
 $$
 
 That is,
 
 $$
-2^n-\binom{n}{1} 2^{n-1}+\binom{n}{2} 2^{n-2}+\cdots+(-1)^n=1.
+2^n-\binom{n}{1} 2^{n-1}+\binom{n}{2} 2^{n-2}+\cdots+\left(-1\right)^n=1.
 $$
 
 The left side is exactly the expression to be proved, and the right side $=1$. This proves the claim. $\blacksquare$
 
 ### Problem 11
 
-(Exercise 6.3, Extension and Exploration, Problem 11) The figure below reflects the long journey through which the binomial theorem was generated, completed, and generalized. In this development, both generalization and proof proceed from the particular to the general. Nowadays, a trend in mathematical research is toward ever greater generality. Try to generalize from $(a+b)^n$ to $(a_1+a_2+\cdots+a_m)^n$ ($m,n\in\mathbb N^*$).
+(Exercise 6.3, Extension and Exploration, Problem 11) The figure below reflects the long journey through which the binomial theorem was generated, completed, and generalized. In this development, both generalization and proof proceed from the particular to the general. Nowadays, a trend in mathematical research is toward ever greater generality. Try to generalize from $\left(a+b\right)^n$ to $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb N^*$).
 
 ![week82-1.svg](../../figures/week82-1.svg){width=50%}
 
@@ -572,9 +572,9 @@ The left side is exactly the expression to be proved, and the right side $=1$. T
 
 By **Theorem 6.3.1** (Binomial Theorem) and **Definition 6.1.2** (Multiplication Counting Principle for Step-by-Step Processes).
 
-$(a_1+a_2+\cdots+a_m)^n$ is the product of $n$ factors $(a_1+a_2+\cdots+a_m)$. Each term of the expansion is obtained by choosing one $a_i$ from each set of parentheses and multiplying them together. Suppose $a_1$ is chosen $n_1$ times, $a_2$ is chosen $n_2$ times, ..., $a_m$ is chosen $n_m$ times, where $n_1+n_2+\cdots+n_m=n$.
+$\left(a_1+a_2+\cdots+a_m\right)^n$ is the product of $n$ factors $\left(a_1+a_2+\cdots+a_m\right)$. Each term of the expansion is obtained by choosing one $a_i$ from each set of parentheses and multiplying them together. Suppose $a_1$ is chosen $n_1$ times, $a_2$ is chosen $n_2$ times, ..., $a_m$ is chosen $n_m$ times, where $n_1+n_2+\cdots+n_m=n$.
 
-For a fixed set of nonnegative integers $(n_1,n_2,\cdots,n_m)$, the number of such choices is the multinomial coefficient
+For a fixed set of nonnegative integers $\left(n_1,n_2,\cdots,n_m\right)$, the number of such choices is the multinomial coefficient
 
 $$
 \frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}.
@@ -583,7 +583,7 @@ $$
 Thus the generalization is
 
 $$
-(a_1+a_2+\cdots+a_m)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots a_m^{n_m}.
+\left(a_1+a_2+\cdots+a_m\right)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots a_m^{n_m}.
 $$
 
 $\blacksquare$

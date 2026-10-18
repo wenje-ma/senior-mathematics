@@ -16,7 +16,7 @@
 
 (1) $y=\frac{1}{x^{4}}$;
 
-(2) $y=\sqrt[4]{x^{3}}$;
+(2) $y=\sqrt\left[4\right]{x^{3}}$;
 
 (3) $y=3^{x}$;
 
@@ -213,7 +213,7 @@ By **Definition 5.2.3** (Chain Rule for Composite Functions).
 
 ### Exercise 10
 
-(Exercise 5.2, Problem 10) Find the equation of the tangent line to the curve $y=\sqrt[3]{3x-1}$ at the point $\left(\frac{2}{3},1\right)$.
+(Exercise 5.2, Problem 10) Find the equation of the tangent line to the curve $y=\sqrt\left[3\right]{3x-1}$ at the point $\left(\frac{2}{3},1\right)$.
 
 ### Solution to Exercise 10
 

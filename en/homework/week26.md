@@ -2,13 +2,13 @@
 
 > **Common Number Sets** <br>The set consisting of all nonnegative integers is called the set of nonnegative integers, or the set of natural numbers, denoted $\mathbb N$; the set consisting of all positive integers is called the set of positive integers, denoted $\mathbb N^*$ or $\mathbb N_+$; the set consisting of all integers is called the set of integers, denoted $\mathbb Z$; the set consisting of all rational numbers is called the set of rational numbers, denoted $\mathbb Q$; the set consisting of all real numbers is called the set of real numbers, denoted $\mathbb R$.
 
-> **Definition 1.1.6** (Roster Method) <br>The method of listing all the elements of a set one by one and enclosing them in braces "$\{\ \}$" to represent the set is called the roster method.
+> **Definition 1.1.6** (Roster Method) <br>The method of listing all the elements of a set one by one and enclosing them in braces "$\left\{\ \right\}$" to represent the set is called the roster method.
 
 > **Definition 1.2.1** (Subset) <br>In general, for two sets $A,B$, if every element in set $A$ is also an element of set $B$, then set $A$ is called a subset of set $B$, denoted $A\subseteq B$ (or $B\supseteq A$), read as "$A$ is contained in $B$" (or "$B$ contains $A$").
 
-> **Definition 1.3.1** (Union) <br>In general, the set consisting of all elements that belong to set $A$ or set $B$ is called the union of sets $A$ and $B$, denoted $A\cup B$, i.e. $A\cup B=\{x\mid x\in A$, or $x\in B\}$. When taking the union of two sets, their common elements appear only once in the union.
+> **Definition 1.3.1** (Union) <br>In general, the set consisting of all elements that belong to set $A$ or set $B$ is called the union of sets $A$ and $B$, denoted $A\cup B$, i.e. $A\cup B=\left\{x\mid x\in A$, or $x\in B\right\}$. When taking the union of two sets, their common elements appear only once in the union.
 
-> **Definition 1.3.2** (Intersection) <br>In general, the set consisting of all elements that belong to both set $A$ and set $B$ is called the intersection of sets $A$ and $B$, denoted $A\cap B$, i.e. $A\cap B=\{x\mid x\in A$, and $x\in B\}$.
+> **Definition 1.3.2** (Intersection) <br>In general, the set consisting of all elements that belong to both set $A$ and set $B$ is called the intersection of sets $A$ and $B$, denoted $A\cap B$, i.e. $A\cap B=\left\{x\mid x\in A$, and $x\in B\right\}$.
 
 > **Common Conclusion** (Number of Elements in a Finite Set) <br>We call a set $A$ containing finitely many elements a finite set, and use $\operatorname{card}\left(A\right)$ to denote the number of elements in the finite set $A$. In general, for any two finite sets $A,B$, we have $\operatorname{card}\left(A\cup B\right)=\operatorname{card}\left(A\right)+\operatorname{card}\left(B\right)-\operatorname{card}\left(A\cap B\right)$.
 
@@ -28,29 +28,29 @@
 
 (Review Reference Problem 1, Review and Consolidation, Problem 1) Represent the following sets using the roster method:
 
-(1) $A=\{x\mid x^2=9\}$;
+(1) $A=\left\{x\mid x^2=9\right\}$;
 
-(2) $B=\{x\in\mathbb N\mid 1\le x\le 2\}$;
+(2) $B=\left\{x\in\mathbb N\mid 1\le x\le 2\right\}$;
 
-(3) $C=\{x\mid x^2-3x+2=0\}$.
+(3) $C=\left\{x\mid x^2-3x+2=0\right\}$.
 
 ### Solution to Problem 1
 
 By **Definition 1.1.6** (Roster Method), list the elements of the set one by one.
 
-(1) The roots of the equation $x^2=9$ are $x=\pm3$, hence $A=\{-3,3\}$.
+(1) The roots of the equation $x^2=9$ are $x=\pm3$, hence $A=\left\{-3,3\right\}$.
 
-(2) By **Common Number Sets**, $\mathbb N$ is the set of nonnegative integers; the nonnegative integers satisfying $1\le x\le2$ are $1,2$, hence $B=\{1,2\}$.
+(2) By **Common Number Sets**, $\mathbb N$ is the set of nonnegative integers; the nonnegative integers satisfying $1\le x\le2$ are $1,2$, hence $B=\left\{1,2\right\}$.
 
-(3) The equation $x^2-3x+2=0$ is $\left(x-1\right)\left(x-2\right)=0$, with roots $x=1$ or $x=2$, hence $C=\{1,2\}$. $\blacksquare$
+(3) The equation $x^2-3x+2=0$ is $\left(x-1\right)\left(x-2\right)=0$, with roots $x=1$ or $x=2$, hence $C=\left\{1,2\right\}$. $\blacksquare$
 
 ### Problem 2
 
 (Review Reference Problem 1, Review and Consolidation, Problem 2) Let $P$ denote a moving point in a plane. What geometric figure is formed by the points belonging to the following sets?
 
-(1) $\{P\mid PA=PB\}$ ($A,B$ are two distinct fixed points);
+(1) $\left\{P\mid PA=PB\right\}$ ($A,B$ are two distinct fixed points);
 
-(2) $\{P\mid PO=3\mathrm{cm}\}$ ($O$ is a fixed point).
+(2) $\left\{P\mid PO=3\mathrm{cm}\right\}$ ($O$ is a fixed point).
 
 ### Solution to Problem 2
 
@@ -62,13 +62,13 @@ By the set-builder notation, a set is the totality of points satisfying the list
 
 ### Problem 3
 
-(Review Reference Problem 1, Review and Consolidation, Problem 3) Given $\triangle ABC$ in the plane, and let $P$ denote a moving point in this plane. Identify what point belongs to the set $\{P\mid PA=PB\}\cap\{P\mid PA=PC\}$.
+(Review Reference Problem 1, Review and Consolidation, Problem 3) Given $\triangle ABC$ in the plane, and let $P$ denote a moving point in this plane. Identify what point belongs to the set $\left\{P\mid PA=PB\right\}\cap\left\{P\mid PA=PC\right\}$.
 
 ### Solution to Problem 3
 
 By **Definition 1.3.2** (Intersection), the desired point must satisfy both $PA=PB$ and $PA=PC$.
 
-Since $\{P\mid PA=PB\}$ is the perpendicular bisector of segment $AB$ and $\{P\mid PA=PC\}$ is the perpendicular bisector of segment $AC$, their intersection is the intersection point of these two perpendicular bisectors.
+Since $\left\{P\mid PA=PB\right\}$ is the perpendicular bisector of segment $AB$ and $\left\{P\mid PA=PC\right\}$ is the perpendicular bisector of segment $AC$, their intersection is the intersection point of these two perpendicular bisectors.
 
 This intersection point is equidistant from the three points $A,B,C$; it is the circumcenter of $\triangle ABC$, i.e. the center of the circumscribed circle of $\triangle ABC$. $\blacksquare$
 
@@ -142,7 +142,7 @@ Express and judge by **Definition 1.5.1** (Universal Quantifier and Universal Qu
 
 (3) Expressed as $\exists x,y\in\mathbb Z,\ 2x+4y=3$. The left side $2x+4y=2\left(x+2y\right)$ is even, while the right side $3$ is odd; the two cannot be equal, hence the proposition is false.
 
-(4) Expressed as "there exists an irrational number $x$ such that $x^3$ is a rational number". Take $x=\sqrt[3]{2}$; it is irrational, while $x^3=2$ is rational; such an $x$ exists, hence the proposition is true. $\blacksquare$
+(4) Expressed as "there exists an irrational number $x$ such that $x^3$ is a rational number". Take $x=\sqrt\left[3\right]{2}$; it is irrational, while $x^3=2$ is rational; such an $x$ exists, hence the proposition is true. $\blacksquare$
 
 ### Problem 7
 
@@ -170,7 +170,7 @@ Rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quantified State
 
 ### Problem 8
 
-(Review Reference Problem 1, Comprehensive Application, Problem 8) Given the sets $A=\{\left(x,y\right)\mid 2x-y=0\}$, $B=\{\left(x,y\right)\mid 3x+y=0\}$, $C=\{\left(x,y\right)\mid 2x-y=3\}$, find $A\cap B$ and $A\cap C$, and explain their geometric meaning.
+(Review Reference Problem 1, Comprehensive Application, Problem 8) Given the sets $A=\left\{\left(x,y\right)\mid 2x-y=0\right\}$, $B=\left\{\left(x,y\right)\mid 3x+y=0\right\}$, $C=\left\{\left(x,y\right)\mid 2x-y=3\right\}$, find $A\cap B$ and $A\cap C$, and explain their geometric meaning.
 
 ### Solution to Problem 8
 
@@ -184,25 +184,25 @@ $$
 \begin{cases}2x-y=0,\\3x+y=0.\end{cases}
 $$
 
-Adding the two equations gives $5x=0$, i.e. $x=0$; substituting back gives $y=0$, hence $A\cap B=\{\left(0,0\right)\}$. Its geometric meaning is the intersection point of the lines $y=2x$ and $y=-3x$, i.e. the coordinate origin.
+Adding the two equations gives $5x=0$, i.e. $x=0$; substituting back gives $y=0$, hence $A\cap B=\left\{\left(0,0\right)\right\}$. Its geometric meaning is the intersection point of the lines $y=2x$ and $y=-3x$, i.e. the coordinate origin.
 
 To find $A\cap C$, note that line $A$ and line $C$ both have slope $2$ and are parallel to each other, with intercepts $0$ and $-3$ respectively; they are two distinct parallel lines with no common point, hence $A\cap C=\varnothing$. Its geometric meaning is that the lines $y=2x$ and $y=2x-3$ are parallel and do not intersect. $\blacksquare$
 
 ### Problem 9
 
-(Review Reference Problem 1, Comprehensive Application, Problem 9) Given the sets $A=\{1,3,a^2\}$, $B=\{1,a+2\}$, does there exist a real number $a$ such that $A\cup B=A$? If it exists, find the value(s) of $a$; if not, explain why.
+(Review Reference Problem 1, Comprehensive Application, Problem 9) Given the sets $A=\left\{1,3,a^2\right\}$, $B=\left\{1,a+2\right\}$, does there exist a real number $a$ such that $A\cup B=A$? If it exists, find the value(s) of $a$; if not, explain why.
 
 ### Solution to Problem 9
 
 By **Definition 1.3.1** (Union) and **Definition 1.2.1** (Subset), $A\cup B=A$ if and only if $B\subseteq A$, i.e. every element of $B$ belongs to $A$.
 
-$B$ has elements $1$ and $a+2$. Of these, $1\in A$ is already satisfied; we only need $a+2\in A=\{1,3,a^2\}$, which splits into three cases.
+$B$ has elements $1$ and $a+2$. Of these, $1\in A$ is already satisfied; we only need $a+2\in A=\left\{1,3,a^2\right\}$, which splits into three cases.
 
-(1) If $a+2=1$, then $a=-1$. At this time $a^2=1$, $A=\{1,3,1\}=\{1,3\}$, $B=\{1,1\}=\{1\}$, satisfying $B\subseteq A$.
+(1) If $a+2=1$, then $a=-1$. At this time $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,1\right\}=\left\{1\right\}$, satisfying $B\subseteq A$.
 
-(2) If $a+2=3$, then $a=1$. At this time $a^2=1$, $A=\{1,3,1\}=\{1,3\}$, $B=\{1,3\}$, satisfying $B\subseteq A$.
+(2) If $a+2=3$, then $a=1$. At this time $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,3\right\}$, satisfying $B\subseteq A$.
 
-(3) If $a+2=a^2$, then $a^2-a-2=0$, i.e. $\left(a-2\right)\left(a+1\right)=0$, giving $a=2$ or $a=-1$. Of these, $a=-1$ has already been discussed in (1); when $a=2$, $A=\{1,3,4\}$, $B=\{1,4\}$, satisfying $B\subseteq A$.
+(3) If $a+2=a^2$, then $a^2-a-2=0$, i.e. $\left(a-2\right)\left(a+1\right)=0$, giving $a=2$ or $a=-1$. Of these, $a=-1$ has already been discussed in (1); when $a=2$, $A=\left\{1,3,4\right\}$, $B=\left\{1,4\right\}$, satisfying $B\subseteq A$.
 
 In summary, such a real number $a$ exists, with values $a=-1$, $a=1$ or $a=2$. $\blacksquare$
 

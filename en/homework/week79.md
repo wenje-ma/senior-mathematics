@@ -163,11 +163,11 @@ Since $f\left(3\right)=65$ and $f'\left(3\right)=-4<0$, the graph is decreasing 
 
 ### Problem 7
 
-(Review Reference Problem 5, Review and Consolidation, Problem 7) Find the monotonic intervals of $f\left(x\right)=\sqrt[3]{x^{2}}$.
+(Review Reference Problem 5, Review and Consolidation, Problem 7) Find the monotonic intervals of $f\left(x\right)=\sqrt\left[3\right]{x^{2}}$.
 
 ### Solution to Problem 7
 
-By **Definition 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, hence $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt[3]{x}}$.
+By **Definition 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, hence $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
 When $x>0$, $f'\left(x\right)>0$; when $x<0$, $f'\left(x\right)<0$.
 

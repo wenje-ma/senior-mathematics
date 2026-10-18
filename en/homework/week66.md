@@ -6,11 +6,11 @@
 
 > **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci) <br>The absolute value of the difference of the distances from any point $M$ on a hyperbola to the two foci equals $2a$, i.e. $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a$, where $0<2a<\lvert F_1F_2 \rvert$.
 
-> **Definition 3.2.3** (Standard Equation of a Hyperbola) <br>When the foci are on the $x$-axis at $F_1(-c,0)$ and $F_2(c,0)$, the standard equation is $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ ($a>0$, $b>0$), where $c^2=a^2+b^2$; when the foci are on the $y$-axis it is $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
+> **Definition 3.2.3** (Standard Equation of a Hyperbola) <br>When the foci are on the $x$-axis at $F_1\left(-c,0\right)$ and $F_2\left(c,0\right)$, the standard equation is $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ ($a>0$, $b>0$), where $c^2=a^2+b^2$; when the foci are on the $y$-axis it is $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
 
 > **Common Conclusion 3.2.4** (Range and Symmetry of a Hyperbola) <br>From $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ we get $x\le-a$ or $x\ge a$, with $y\in\mathbb R$. The hyperbola is symmetric about the $x$-axis, the $y$-axis, and the origin; the origin is the center of the hyperbola.
 
-> **Definition 3.2.5** (Vertices, Transverse Axis, and Conjugate Axis of a Hyperbola) <br>Setting $y=0$ gives $x=\pm a$; the intersections $A_1(-a,0)$ and $A_2(a,0)$ of the hyperbola with the $x$-axis are called the vertices. The segment $A_1A_2$ is called the transverse axis, with length $2a$, where $a$ is the semi-transverse axis length; the points $B_1(0,-b)$ and $B_2(0,b)$ lie on the $y$-axis, and the segment $B_1B_2$ is called the conjugate axis, with length $2b$, where $b$ is the semi-conjugate axis length.
+> **Definition 3.2.5** (Vertices, Transverse Axis, and Conjugate Axis of a Hyperbola) <br>Setting $y=0$ gives $x=\pm a$; the intersections $A_1\left(-a,0\right)$ and $A_2\left(a,0\right)$ of the hyperbola with the $x$-axis are called the vertices. The segment $A_1A_2$ is called the transverse axis, with length $2a$, where $a$ is the semi-transverse axis length; the points $B_1\left(0,-b\right)$ and $B_2\left(0,b\right)$ lie on the $y$-axis, and the segment $B_1B_2$ is called the conjugate axis, with length $2b$, where $b$ is the semi-conjugate axis length.
 
 > **Definition 3.2.6** (Asymptotes of a Hyperbola) <br>As the two branches of the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ extend outward, they approach the two lines $\frac{x}{a}\pm\frac{y}{b}=0$ but never meet them; these two lines are called the asymptotes of the hyperbola, i.e. $y=\pm\frac{b}{a}x$.
 
@@ -26,7 +26,7 @@
 
 (2) foci on the $x$-axis, passing through $\left(-\sqrt{2},-\sqrt{3}\right)$ and $\left(\frac{\sqrt{15}}{3},\sqrt{2}\right)$;
 
-(3) foci at $(0,-6)$ and $(0,6)$, passing through $(2,-5)$.
+(3) foci at $\left(0,-6\right)$ and $\left(0,6\right)$, passing through $\left(2,-5\right)$.
 
 ### Solution to Exercise 1
 
@@ -50,7 +50,7 @@ $$
 x^2-\frac{y^2}{3}=1.
 $$
 
-(3) The foci $(0,\pm6)$ are on the $y$-axis, so $c=6$; let the equation be $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$. Substituting $(2,-5)$ gives $\frac{25}{a^2}-\frac{4}{b^2}=1$, and $a^2+b^2=36$. Solving gives $a^2=20$, $b^2=16$. The standard equation is
+(3) The foci $\left(0,\pm6\right)$ are on the $y$-axis, so $c=6$; let the equation be $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$. Substituting $\left(2,-5\right)$ gives $\frac{25}{a^2}-\frac{4}{b^2}=1$, and $a^2+b^2=36$. Solving gives $a^2=20$, $b^2=16$. The standard equation is
 
 $$
 \frac{y^2}{20}-\frac{x^2}{16}=1.
@@ -64,9 +64,9 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Definition 3.2.3** (Standard Equation of a Hyperbola), rewrite the hyperbola $x^2-15y^2=15$ as $\frac{x^2}{15}-\frac{y^2}{1}=1$, so $a^2=15$, $b^2=1$, $c^2=a^2+b^2=16$, $c=4$, and the foci are at $(-4,0)$ and $(4,0)$.
+By **Definition 3.2.3** (Standard Equation of a Hyperbola), rewrite the hyperbola $x^2-15y^2=15$ as $\frac{x^2}{15}-\frac{y^2}{1}=1$, so $a^2=15$, $b^2=1$, $c^2=a^2+b^2=16$, $c=4$, and the foci are at $\left(-4,0\right)$ and $\left(4,0\right)$.
 
-By **Definition 3.1.3** (Standard Equation of an Ellipse), in the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ we have $a^2=25$, $b^2=9$, $c^2=a^2-b^2=16$, $c=4$, and the foci are at $(-4,0)$ and $(4,0)$.
+By **Definition 3.1.3** (Standard Equation of an Ellipse), in the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ we have $a^2=25$, $b^2=9$, $c^2=a^2-b^2=16$, $c=4$, and the foci are at $\left(-4,0\right)$ and $\left(4,0\right)$.
 
 The foci are exactly the same, and the claim follows. $\blacksquare$
 
@@ -106,13 +106,13 @@ By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperb
 
 Use **Definition 3.2.3**, **Definition 3.2.5** (Vertices, Transverse and Conjugate Axes), and **Definition 3.2.8** (Eccentricity).
 
-(1) $x^2-8y^2=32$ becomes $\frac{x^2}{32}-\frac{y^2}{4}=1$, with $a=4\sqrt{2}$, $b=2$, $c=\sqrt{32+4}=6$. The transverse axis length is $8\sqrt{2}$, the conjugate axis length is $4$, the vertices are at $(\pm4\sqrt{2},0)$, the foci are at $(\pm6,0)$, and $e=\frac{6}{4\sqrt{2}}=\frac{3\sqrt{2}}{4}$.
+(1) $x^2-8y^2=32$ becomes $\frac{x^2}{32}-\frac{y^2}{4}=1$, with $a=4\sqrt{2}$, $b=2$, $c=\sqrt{32+4}=6$. The transverse axis length is $8\sqrt{2}$, the conjugate axis length is $4$, the vertices are at $\left(\pm4\sqrt{2},0\right)$, the foci are at $\left(\pm6,0\right)$, and $e=\frac{6}{4\sqrt{2}}=\frac{3\sqrt{2}}{4}$.
 
-(2) $9x^2-y^2=81$ becomes $\frac{x^2}{9}-\frac{y^2}{81}=1$, with $a=3$, $b=9$, $c=\sqrt{9+81}=3\sqrt{10}$. The transverse axis length is $6$, the conjugate axis length is $18$, the vertices are at $(\pm3,0)$, the foci are at $(\pm3\sqrt{10},0)$, and $e=\sqrt{10}$.
+(2) $9x^2-y^2=81$ becomes $\frac{x^2}{9}-\frac{y^2}{81}=1$, with $a=3$, $b=9$, $c=\sqrt{9+81}=3\sqrt{10}$. The transverse axis length is $6$, the conjugate axis length is $18$, the vertices are at $\left(\pm3,0\right)$, the foci are at $\left(\pm3\sqrt{10},0\right)$, and $e=\sqrt{10}$.
 
-(3) $x^2-y^2=-4$ becomes $\frac{y^2}{4}-\frac{x^2}{4}=1$, with $a=2$, $b=2$, $c=2\sqrt{2}$. The transverse axis length is $4$, the conjugate axis length is $4$, the vertices are at $(0,\pm2)$, the foci are at $(0,\pm2\sqrt{2})$, and $e=\sqrt{2}$.
+(3) $x^2-y^2=-4$ becomes $\frac{y^2}{4}-\frac{x^2}{4}=1$, with $a=2$, $b=2$, $c=2\sqrt{2}$. The transverse axis length is $4$, the conjugate axis length is $4$, the vertices are at $\left(0,\pm2\right)$, the foci are at $\left(0,\pm2\sqrt{2}\right)$, and $e=\sqrt{2}$.
 
-(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$ becomes $\frac{y^2}{25}-\frac{x^2}{49}=1$, with $a=5$, $b=7$, $c=\sqrt{25+49}=\sqrt{74}$. The transverse axis length is $10$, the conjugate axis length is $14$, the vertices are at $(0,\pm5)$, the foci are at $(0,\pm\sqrt{74})$, and $e=\frac{\sqrt{74}}{5}$. $\blacksquare$
+(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$ becomes $\frac{y^2}{25}-\frac{x^2}{49}=1$, with $a=5$, $b=7$, $c=\sqrt{25+49}=\sqrt{74}$. The transverse axis length is $10$, the conjugate axis length is $14$, the vertices are at $\left(0,\pm5\right)$, the foci are at $\left(0,\pm\sqrt{74}\right)$, and $e=\frac{\sqrt{74}}{5}$. $\blacksquare$
 
 ### Exercise 6
 
@@ -142,11 +142,11 @@ $\blacksquare$
 
 ### Exercise 7
 
-(Exercise 3.2, Problem 3) One focus of an equilateral hyperbola whose axes of symmetry lie on the coordinate axes is $F_1(-6,0)$. Find the standard equation and the asymptotes of the hyperbola.
+(Exercise 3.2, Problem 3) One focus of an equilateral hyperbola whose axes of symmetry lie on the coordinate axes is $F_1\left(-6,0\right)$. Find the standard equation and the asymptotes of the hyperbola.
 
 ### Solution to Exercise 7
 
-By **Definition 3.2.7** (Equilateral Hyperbola), $a=b$ in an equilateral hyperbola. The focus $F_1(-6,0)$ is on the $x$-axis, so $c=6$. From $c^2=a^2+b^2=2a^2$, we get $a^2=18$. The standard equation is
+By **Definition 3.2.7** (Equilateral Hyperbola), $a=b$ in an equilateral hyperbola. The focus $F_1\left(-6,0\right)$ is on the $x$-axis, so $c=6$. From $c^2=a^2+b^2=2a^2$, we get $a^2=18$. The standard equation is
 
 $$
 \frac{x^2}{18}-\frac{y^2}{18}=1.
@@ -176,11 +176,11 @@ $\blacksquare$
 
 ### Exercise 9
 
-(Exercise 3.2, Problem 1) Given that the coordinates of $A$ and $B$ are $(-6,0)$ and $(6,0)$ respectively, the lines $AM$ and $BM$ intersect at $M$, and the product of their slopes is $\frac{2}{9}$. Find the locus equation of $M$ and describe its shape.
+(Exercise 3.2, Problem 1) Given that the coordinates of $A$ and $B$ are $\left(-6,0\right)$ and $\left(6,0\right)$ respectively, the lines $AM$ and $BM$ intersect at $M$, and the product of their slopes is $\frac{2}{9}$. Find the locus equation of $M$ and describe its shape.
 
 ### Solution to Exercise 9
 
-Let $M(x,y)$. Then $k_{AM}=\frac{y}{x+6}$ and $k_{BM}=\frac{y}{x-6}$. By the problem, $\frac{y}{x+6}\cdot\frac{y}{x-6}=\frac{2}{9}$, i.e.
+Let $M\left(x,y\right)$. Then $k_{AM}=\frac{y}{x+6}$ and $k_{BM}=\frac{y}{x-6}$. By the problem, $\frac{y}{x+6}\cdot\frac{y}{x-6}=\frac{2}{9}$, i.e.
 
 $$
 \frac{y^2}{x^2-36}=\frac{2}{9}.
@@ -209,18 +209,18 @@ Combine the line and hyperbola equations and solve.
 (1) From $2x-y-10=0$ we have $y=2x-10$; substituting into $\frac{x^2}{20}-\frac{y^2}{5}=1$ gives
 
 $$
-\frac{x^2}{20}-\frac{(2x-10)^2}{5}=1.
+\frac{x^2}{20}-\frac{\left(2x-10\right)^2}{5}=1.
 $$
 
-Simplifying gives $x^2-4(2x-10)^2=20$, i.e. $15x^2-160x+420=0$, i.e. $3x^2-32x+84=0$, so $x=6$ or $x=\frac{14}{3}$. Substituting back gives $y=2$ or $y=-\frac{2}{3}$. The intersections are $(6,2)$ and $\left(\frac{14}{3},-\frac{2}{3}\right)$.
+Simplifying gives $x^2-4\left(2x-10\right)^2=20$, i.e. $15x^2-160x+420=0$, i.e. $3x^2-32x+84=0$, so $x=6$ or $x=\frac{14}{3}$. Substituting back gives $y=2$ or $y=-\frac{2}{3}$. The intersections are $\left(6,2\right)$ and $\left(\frac{14}{3},-\frac{2}{3}\right)$.
 
 (2) From $4x-3y-16=0$ we have $y=\frac{4x-16}{3}$; substituting into $\frac{x^2}{25}-\frac{y^2}{16}=1$ gives
 
 $$
-\frac{x^2}{25}-\frac{(4x-16)^2}{9\times16}=1.
+\frac{x^2}{25}-\frac{\left(4x-16\right)^2}{9\times16}=1.
 $$
 
-Simplifying gives $16x^2-(4x-16)^2=400$, i.e. $128x=656$, $x=\frac{41}{8}$, $y=\frac{5}{3}$. The intersection is $\left(\frac{41}{8},\frac{5}{3}\right)$ (tangent, one common point). $\blacksquare$
+Simplifying gives $16x^2-\left(4x-16\right)^2=400$, i.e. $128x=656$, $x=\frac{41}{8}$, $y=\frac{5}{3}$. The intersection is $\left(\frac{41}{8},\frac{5}{3}\right)$ (tangent, one common point). $\blacksquare$
 
 ### Exercise 11
 
@@ -250,21 +250,21 @@ By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperb
 
 (Exercise 3.2, Review and Consolidation, Problem 2) Find the standard equation of the hyperbola satisfying the following conditions.
 
-(1) foci on the $x$-axis, $a=2\sqrt{5}$, passing through $A(-5,2)$;
+(1) foci on the $x$-axis, $a=2\sqrt{5}$, passing through $A\left(-5,2\right)$;
 
-(2) passing through $A(-7,-6\sqrt{2})$ and $B(2\sqrt{7},3)$.
+(2) passing through $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$.
 
 ### Solution to Problem 2
 
 By **Definition 3.2.3** (Standard Equation of a Hyperbola).
 
-(1) Foci on the $x$-axis, $a=2\sqrt{5}$; let the equation be $\frac{x^2}{20}-\frac{y^2}{b^2}=1$. Substituting $A(-5,2)$ gives $\frac{25}{20}-\frac{4}{b^2}=1$, so $b^2=16$. The standard equation is
+(1) Foci on the $x$-axis, $a=2\sqrt{5}$; let the equation be $\frac{x^2}{20}-\frac{y^2}{b^2}=1$. Substituting $A\left(-5,2\right)$ gives $\frac{25}{20}-\frac{4}{b^2}=1$, so $b^2=16$. The standard equation is
 
 $$
 \frac{x^2}{20}-\frac{y^2}{16}=1.
 $$
 
-(2) Let the equation be $mx^2+ny^2=1$ ($mn<0$). Substituting $A(-7,-6\sqrt{2})$ and $B(2\sqrt{7},3)$:
+(2) Let the equation be $mx^2+ny^2=1$ ($mn<0$). Substituting $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$:
 
 $$
 49m+72n=1,\quad 28m+9n=1.
@@ -290,9 +290,9 @@ $\blacksquare$
 
 Use **Definition 3.2.3**, **Definition 3.2.6** (Asymptotes), and **Definition 3.2.8** (Eccentricity).
 
-(1) $16x^2-9y^2=144$ becomes $\frac{x^2}{9}-\frac{y^2}{16}=1$, with $a=3$, $b=4$, $c=5$. The foci are at $(\pm5,0)$, $e=\frac{5}{3}$, and the asymptotes are $y=\pm\frac{4}{3}x$.
+(1) $16x^2-9y^2=144$ becomes $\frac{x^2}{9}-\frac{y^2}{16}=1$, with $a=3$, $b=4$, $c=5$. The foci are at $\left(\pm5,0\right)$, $e=\frac{5}{3}$, and the asymptotes are $y=\pm\frac{4}{3}x$.
 
-(2) $16x^2-9y^2=-144$ becomes $\frac{y^2}{16}-\frac{x^2}{9}=1$, with $a=4$, $b=3$, $c=5$. The foci are at $(0,\pm5)$, $e=\frac{5}{4}$, and the asymptotes are $y=\pm\frac{4}{3}x$. $\blacksquare$
+(2) $16x^2-9y^2=-144$ becomes $\frac{y^2}{16}-\frac{x^2}{9}=1$, with $a=4$, $b=3$, $c=5$. The foci are at $\left(0,\pm5\right)$, $e=\frac{5}{4}$, and the asymptotes are $y=\pm\frac{4}{3}x$. $\blacksquare$
 
 ### Problem 4
 
@@ -302,7 +302,7 @@ Use **Definition 3.2.3**, **Definition 3.2.6** (Asymptotes), and **Definition 3.
 
 (2) foci on the $y$-axis, focal distance $10$, conjugate axis length $8$;
 
-(3) eccentricity $e=\sqrt{2}$, passing through $M(-5,3)$.
+(3) eccentricity $e=\sqrt{2}$, passing through $M\left(-5,3\right)$.
 
 ### Solution to Problem 4
 
@@ -320,7 +320,7 @@ $$
 \frac{y^2}{9}-\frac{x^2}{16}=1.
 $$
 
-(3) $e=\sqrt{2}$, so $\frac{c}{a}=\sqrt{2}$, $c^2=2a^2$, $b^2=c^2-a^2=a^2$. Let the equation be $\frac{x^2}{a^2}-\frac{y^2}{a^2}=1$. Substituting $M(-5,3)$ gives $\frac{25-9}{a^2}=1$, $a^2=16$. The equation is
+(3) $e=\sqrt{2}$, so $\frac{c}{a}=\sqrt{2}$, $c^2=2a^2$, $b^2=c^2-a^2=a^2$. Let the equation be $\frac{x^2}{a^2}-\frac{y^2}{a^2}=1$. Substituting $M\left(-5,3\right)$ gives $\frac{25-9}{a^2}=1$, $a^2=16$. The equation is
 
 $$
 \frac{x^2}{16}-\frac{y^2}{16}=1.
@@ -348,11 +348,11 @@ By **Definition 3.2.1** (Hyperbola), the difference of the distances from $Q$ to
 
 ### Problem 6
 
-(Exercise 3.2, Review and Consolidation, Problem 6) Find the standard equation of the equilateral hyperbola passing through $A(3,-1)$ with its axes of symmetry on the coordinate axes.
+(Exercise 3.2, Review and Consolidation, Problem 6) Find the standard equation of the equilateral hyperbola passing through $A\left(3,-1\right)$ with its axes of symmetry on the coordinate axes.
 
 ### Solution to Problem 6
 
-By **Definition 3.2.7** (Equilateral Hyperbola), let the equation be $x^2-y^2=\lambda$ ($\lambda\neq0$). Substituting $A(3,-1)$ gives $9-1=\lambda$, $\lambda=8$. The standard equation is
+By **Definition 3.2.7** (Equilateral Hyperbola), let the equation be $x^2-y^2=\lambda$ ($\lambda\neq0$). Substituting $A\left(3,-1\right)$ gives $9-1=\lambda$, $\lambda=8$. The standard equation is
 
 $$
 \frac{x^2}{8}-\frac{y^2}{8}=1.
@@ -384,7 +384,7 @@ $\blacksquare$
 
 ### Solution to Problem 8
 
-By **Definition 3.1.3**, in the ellipse $\frac{x^2}{49}+\frac{y^2}{24}=1$ we have $c^2=49-24=25$, $c=5$, and foci at $(\pm5,0)$.
+By **Definition 3.1.3**, in the ellipse $\frac{x^2}{49}+\frac{y^2}{24}=1$ we have $c^2=49-24=25$, $c=5$, and foci at $\left(\pm5,0\right)$.
 
 The hyperbola shares the foci with the ellipse, so $c=5$. By **Definition 3.2.8** (Eccentricity), $e=\frac{c}{a}=\frac{5}{4}$, so $a=4$, $b^2=c^2-a^2=25-16=9$. The hyperbola equation is
 
@@ -400,7 +400,7 @@ $\blacksquare$
 
 ### Solution to Problem 9
 
-The difference of the distances from the explosion point to $A$ and $B$ is $340\times3=1020\,\mathrm{m}$. Take the midpoint of $AB$ as the origin and the line $AB$ as the $x$-axis; then $A(-700,0)$, $B(700,0)$, $2c=1400$, $c=700$.
+The difference of the distances from the explosion point to $A$ and $B$ is $340\times3=1020\,\mathrm{m}$. Take the midpoint of $AB$ as the origin and the line $AB$ as the $x$-axis; then $A\left(-700,0\right)$, $B\left(700,0\right)$, $2c=1400$, $c=700$.
 
 By **Common Conclusion 3.2.2**, $\lvert \lvert PA \rvert-\lvert PB \rvert \rvert=1020=2a$, $a=510$. $b^2=c^2-a^2=700^2-510^2=229900$. The explosion point lies on a hyperbola with foci at $A$ and $B$, with equation
 
@@ -412,23 +412,23 @@ $\blacksquare$
 
 ### Problem 10
 
-(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F(c,0)$ ($c>0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a<c$). Find the locus equation of $M$ and describe its shape.
+(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F\left(c,0\right)$ ($c>0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a<c$). Find the locus equation of $M$ and describe its shape.
 
 ### Solution to Problem 10
 
-Let $M(x,y)$. The distance to $F(c,0)$ is $\sqrt{(x-c)^2+y^2}$, and the distance to $l:x=\frac{a^2}{c}$ is $\left|x-\frac{a^2}{c}\right|$. By the problem,
+Let $M\left(x,y\right)$. The distance to $F\left(c,0\right)$ is $\sqrt{\left(x-c\right)^2+y^2}$, and the distance to $l:x=\frac{a^2}{c}$ is $\left|x-\frac{a^2}{c}\right|$. By the problem,
 
 $$
-\frac{\sqrt{(x-c)^2+y^2}}{\left|x-\frac{a^2}{c}\right|}=\frac{c}{a}.
+\frac{\sqrt{\left(x-c\right)^2+y^2}}{\left|x-\frac{a^2}{c}\right|}=\frac{c}{a}.
 $$
 
 Squaring both sides and simplifying gives
 
 $$
-(a^2-c^2)x^2+a^2y^2=a^2(a^2-c^2).
+\left(a^2-c^2\right)x^2+a^2y^2=a^2\left(a^2-c^2\right).
 $$
 
-Since $a<c$, we have $a^2-c^2<0$; dividing both sides by $a^2(a^2-c^2)$ gives
+Since $a<c$, we have $a^2-c^2<0$; dividing both sides by $a^2\left(a^2-c^2\right)$ gives
 
 $$
 \frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
@@ -442,9 +442,9 @@ By **Definition 3.2.1** (Hyperbola), the locus is a hyperbola with foci on the $
 
 ### Solution to Problem 11
 
-Let $M(x,y)$. $MA\perp y=x$, with foot $A$ on $y=x$; $MB\perp y=-x$, with foot $B$ on $y=-x$.
+Let $M\left(x,y\right)$. $MA\perp y=x$, with foot $A$ on $y=x$; $MB\perp y=-x$, with foot $B$ on $y=-x$.
 
-By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-(x-y)}{2}\right)$. Since $A$ is in the first quadrant, $x+y>0$; since $B$ is in the fourth quadrant, $x-y>0$, so $x>\lvert y \rvert$.
+By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. Since $A$ is in the first quadrant, $x+y>0$; since $B$ is in the fourth quadrant, $x-y>0$, so $x>\lvert y \rvert$.
 
 The quadrilateral $OAMB$ is split into $\triangle OMA$ and $\triangle OMB$. $\lvert OA \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$, $\lvert MA \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$; $\lvert OB \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$, $\lvert MB \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$. The area is
 
@@ -455,7 +455,7 @@ $$
 Since $x>\lvert y \rvert$, we have $x^2-y^2>0$, so $x^2-y^2=6$. The locus equation is
 
 $$
-\frac{x^2}{6}-\frac{y^2}{6}=1\quad(x>\sqrt{6}).
+\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x>\sqrt{6}\right).
 $$
 
 $\blacksquare$
@@ -474,31 +474,31 @@ Let $t=\frac{b^2}{a^2}$; then $0<t<\frac{4}{5}$. $e_1^2=1-t>\frac{1}{5}$, and si
 
 ### Problem 13
 
-(Exercise 3.2, Extension and Exploration, Problem 13) Given the hyperbola $x^2-\frac{y^2}{2}=1$, a line $l$ through $P(1,1)$ intersects the hyperbola at $A$ and $B$. Can $P$ be the midpoint of segment $AB$? Why?
+(Exercise 3.2, Extension and Exploration, Problem 13) Given the hyperbola $x^2-\frac{y^2}{2}=1$, a line $l$ through $P\left(1,1\right)$ intersects the hyperbola at $A$ and $B$. Can $P$ be the midpoint of segment $AB$? Why?
 
 ### Solution to Problem 13
 
-Let the slope of $l$ be $k$, with equation $y-1=k(x-1)$. Substituting into the hyperbola $x^2-\frac{y^2}{2}=1$ gives
+Let the slope of $l$ be $k$, with equation $y-1=k\left(x-1\right)$. Substituting into the hyperbola $x^2-\frac{y^2}{2}=1$ gives
 
 $$
-x^2-\frac{[k(x-1)+1]^2}{2}=1.
+x^2-\frac{\left[k\left(x-1\right)+1\right]^2}{2}=1.
 $$
 
-Simplifying gives $(2-k^2)x^2-2k(1-k)x-(1-k)^2-2=0$. Let $A(x_1,y_1)$ and $B(x_2,y_2)$. If $P(1,1)$ is the midpoint, then $x_1+x_2=2$. By Vieta's formulas, $x_1+x_2=\frac{2k(1-k)}{2-k^2}=2$, so $k=2$.
+Simplifying gives $\left(2-k^2\right)x^2-2k\left(1-k\right)x-\left(1-k\right)^2-2=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. If $P\left(1,1\right)$ is the midpoint, then $x_1+x_2=2$. By Vieta's formulas, $x_1+x_2=\frac{2k\left(1-k\right)}{2-k^2}=2$, so $k=2$.
 
 When $k=2$, the equation becomes $-2x^2+4x-3=0$, with discriminant $\Delta=16-24=-8<0$, so there are no real roots. Hence no such line exists, and $P$ cannot be the midpoint of $AB$. $\blacksquare$
 
 ### Problem 14
 
-(Exercise 3.2, Extension and Exploration, Problem 14) Given the hyperbola $\frac{x^2}{4}-\frac{y^2}{16}=1$ and the line $l:y=kx+m$ ($k\neq\pm2$) with exactly one common point $M$, the line through $M$ perpendicular to $l$ intersects the $x$-axis and $y$-axis at $A(x,0)$ and $B(0,y)$, respectively. As $M$ moves, find the locus equation of $P(x,y)$ and describe the curve. Generalizing to a general hyperbola, what corresponding conclusion follows?
+(Exercise 3.2, Extension and Exploration, Problem 14) Given the hyperbola $\frac{x^2}{4}-\frac{y^2}{16}=1$ and the line $l:y=kx+m$ ($k\neq\pm2$) with exactly one common point $M$, the line through $M$ perpendicular to $l$ intersects the $x$-axis and $y$-axis at $A\left(x,0\right)$ and $B\left(0,y\right)$, respectively. As $M$ moves, find the locus equation of $P\left(x,y\right)$ and describe the curve. Generalizing to a general hyperbola, what corresponding conclusion follows?
 
 ### Solution to Problem 14
 
-Substituting $y=kx+m$ into $\frac{x^2}{4}-\frac{y^2}{16}=1$ gives $(4-k^2)x^2-2kmx-(m^2+16)=0$. Tangency means $\Delta=0$, i.e. $4k^2m^2+4(4-k^2)(m^2+16)=0$, which simplifies to $m^2=16(4-k^2)$.
+Substituting $y=kx+m$ into $\frac{x^2}{4}-\frac{y^2}{16}=1$ gives $\left(4-k^2\right)x^2-2kmx-\left(m^2+16\right)=0$. Tangency means $\Delta=0$, i.e. $4k^2m^2+4\left(4-k^2\right)\left(m^2+16\right)=0$, which simplifies to $m^2=16\left(4-k^2\right)$.
 
-The abscissa of the tangent point $M$ is $x_M=\frac{km}{4-k^2}$, and $y_M=kx_M+m=\frac{4m}{4-k^2}$. The line through $M$ perpendicular to $l$ has slope $-\frac{1}{k}$, with equation $y-y_M=-\frac{1}{k}(x-x_M)$. Setting $y=0$ gives $x=x_M+ky_M=\frac{km+4km}{4-k^2}=\frac{5km}{4-k^2}$; setting $x=0$ gives $y=y_M+\frac{x_M}{k}=\frac{4m+km/k}{4-k^2}=\frac{4m+m}{4-k^2}=\frac{5m}{4-k^2}$.
+The abscissa of the tangent point $M$ is $x_M=\frac{km}{4-k^2}$, and $y_M=kx_M+m=\frac{4m}{4-k^2}$. The line through $M$ perpendicular to $l$ has slope $-\frac{1}{k}$, with equation $y-y_M=-\frac{1}{k}\left(x-x_M\right)$. Setting $y=0$ gives $x=x_M+ky_M=\frac{km+4km}{4-k^2}=\frac{5km}{4-k^2}$; setting $x=0$ gives $y=y_M+\frac{x_M}{k}=\frac{4m+km/k}{4-k^2}=\frac{4m+m}{4-k^2}=\frac{5m}{4-k^2}$.
 
-Eliminating the parameters $k,m$ gives $x=ky$, i.e. $y=\frac{x}{k}$. Since $m^2=16(4-k^2)$, substituting $y=\frac{5m}{4-k^2}$ gives $y^2=\frac{25\cdot16(4-k^2)}{(4-k^2)^2}=\frac{400}{4-k^2}$. From $x=ky$, $k=\frac{x}{y}$; substituting gives $4-\frac{x^2}{y^2}=\frac{400}{y^2}$, i.e. $4y^2-x^2=400$, i.e.
+Eliminating the parameters $k,m$ gives $x=ky$, i.e. $y=\frac{x}{k}$. Since $m^2=16\left(4-k^2\right)$, substituting $y=\frac{5m}{4-k^2}$ gives $y^2=\frac{25\cdot16\left(4-k^2\right)}{\left(4-k^2\right)^2}=\frac{400}{4-k^2}$. From $x=ky$, $k=\frac{x}{y}$; substituting gives $4-\frac{x^2}{y^2}=\frac{400}{y^2}$, i.e. $4y^2-x^2=400$, i.e.
 
 $$
 \frac{y^2}{100}-\frac{x^2}{400}=1.
@@ -512,7 +512,7 @@ The locus is a hyperbola. Generalizing to a general hyperbola, the locus of the 
 
 ### Solution to Inquiry and Discovery 1
 
-In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x>a$). The distance from $M(x,y)$ to the asymptote $bx-ay=0$ is
+In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x>a$). The distance from $M\left(x,y\right)$ to the asymptote $bx-ay=0$ is
 
 $$
 \lvert MQ \rvert=\frac{\lvert bx-ay \rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.
@@ -521,7 +521,7 @@ $$
 Rationalizing the numerator:
 
 $$
-bx-b\sqrt{x^2-a^2}=\frac{b(x^2-(x^2-a^2))}{x+\sqrt{x^2-a^2}}=\frac{ba^2}{x+\sqrt{x^2-a^2}}.
+bx-b\sqrt{x^2-a^2}=\frac{b\left(x^2-\left(x^2-a^2\right)\right)}{x+\sqrt{x^2-a^2}}=\frac{ba^2}{x+\sqrt{x^2-a^2}}.
 $$
 
 Hence

@@ -260,7 +260,7 @@ $$
 
 (2) $f\left(x\right)=x^2$, $g\left(x\right)=\left(\sqrt x\right)^4$;
 
-(3) $f\left(x\right)=x^2$, $g\left(x\right)=\sqrt[6]{x^6}$.
+(3) $f\left(x\right)=x^2$, $g\left(x\right)=\sqrt\left[6\right]{x^6}$.
 
 ### 解答 习题二
 
@@ -270,7 +270,7 @@ $$
 
 (2) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\left(\sqrt x\right)^4=x^2$ 的定义域为 $\left\{x\mid x\ge0\right\}$, 定义域不同, 不是同一函数.
 
-(3) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\sqrt[6]{x^6}=\left|x\right|$, 当 $x<0$ 时 $g\left(x\right)=-x\ne x^2$, 对应关系不同, 不是同一函数. $\blacksquare$
+(3) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$, 当 $x<0$ 时 $g\left(x\right)=-x\ne x^2$, 对应关系不同, 不是同一函数. $\blacksquare$
 
 ### 习题三
 

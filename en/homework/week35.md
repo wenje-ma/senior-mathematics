@@ -2,19 +2,19 @@
 
 > **Definition 7.1.1** (Imaginary Unit) <br> We introduce a new number $\mathrm{i}$ such that $\mathrm{i}^2=-1$; $\mathrm{i}$ is called the imaginary unit.
 
-> **Definition 7.1.2** (Complex Numbers) <br> A number of the form $a+b\mathrm{i}\ (a,b\in\mathbb R)$ is called a complex number.
+> **Definition 7.1.2** (Complex Numbers) <br> A number of the form $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ is called a complex number.
 
-> **Definition 7.1.3** (Set of Complex Numbers) <br> The set of all complex numbers, $\mathbb C=\{a+b\mathrm{i}\mid a,b\in\mathbb R\}$, is called the set of complex numbers.
+> **Definition 7.1.3** (Set of Complex Numbers) <br> The set of all complex numbers, $\mathbb C=\left\{a+b\mathrm{i}\mid a,b\in\mathbb R\right\}$, is called the set of complex numbers.
 
-> **Definition 7.1.4** (Real and Imaginary Parts) <br> For a complex number $z=a+b\mathrm{i}\ (a,b\in\mathbb R)$, $a$ is called the real part of $z$, and $b$ is called the imaginary part of $z$.
+> **Definition 7.1.4** (Real and Imaginary Parts) <br> For a complex number $z=a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, $a$ is called the real part of $z$, and $b$ is called the imaginary part of $z$.
 
 > **Definition 7.1.5** (Equality of Complex Numbers) <br> $a+b\mathrm{i}$ and $c+d\mathrm{i}$ are equal if and only if $a=c$ and $b=d$.
 
-> **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers) <br> For a complex number $a+b\mathrm{i}\ (a,b\in\mathbb R)$, it is a real number if and only if $b=0$; it is called an imaginary number when $b\neq 0$; it is called a pure imaginary number when $a=0$ and $b\neq 0$.
+> **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers) <br> For a complex number $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, it is a real number if and only if $b=0$; it is called an imaginary number when $b\neq 0$; it is called a pure imaginary number when $a=0$ and $b\neq 0$.
 
 > **Definition 7.1.7** (The Complex Plane) <br> The plane on which a rectangular coordinate system is set up to represent complex numbers is called the complex plane; the $x$-axis is called the real axis, and the $y$-axis is called the imaginary axis. Every point on the real axis represents a real number; except for the origin, every point on the imaginary axis represents a pure imaginary number.
 
-> **Definition 7.1.8** (Geometric Meaning of a Complex Number) <br> The complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the point $Z(a,b)$ in the complex plane; the complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the plane vector $\boldsymbol{OZ}$.
+> **Definition 7.1.8** (Geometric Meaning of a Complex Number) <br> The complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the point $Z\left(a,b\right)$ in the complex plane; the complex number $z=a+b\mathrm{i}$ is in one-to-one correspondence with the plane vector $\boldsymbol{OZ}$.
 
 > **Definition 7.1.9** (Modulus of a Complex Number) <br> The modulus of the vector $\boldsymbol{OZ}$ is called the modulus of the complex number $z=a+b\mathrm{i}$, denoted $\lvert z\rvert$ or $\lvert a+b\mathrm{i}\rvert$, that is,
 
@@ -40,7 +40,7 @@ By **Definition 7.1.4** (Real and Imaginary Parts), in $z=a+b\mathrm{i}$, $a$ is
 
 (3) The complex number $\frac{\sqrt{2}}{2}=\frac{\sqrt{2}}{2}+0\mathrm{i}$ has real part $\frac{\sqrt{2}}{2}$ and imaginary part $0$.
 
-(4) The complex number $-\sqrt{3}\mathrm{i}=0+(-\sqrt{3})\mathrm{i}$ has real part $0$ and imaginary part $-\sqrt{3}$.
+(4) The complex number $-\sqrt{3}\mathrm{i}=0+\left(-\sqrt{3}\right)\mathrm{i}$ has real part $0$ and imaginary part $-\sqrt{3}$.
 
 (5) The complex number $\mathrm{i}=0+1\mathrm{i}$ has real part $0$ and imaginary part $1$.
 
@@ -50,13 +50,13 @@ By **Definition 7.1.4** (Real and Imaginary Parts), in $z=a+b\mathrm{i}$, $a$ is
 
 (Exercise 7.1, Problem 2) Among the following numbers, indicate which are real numbers, which are imaginary numbers, and which are pure imaginary numbers. Why?
 
-$2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\mathrm{i}(1-\sqrt{3})$, $\sqrt{2}-\sqrt{2}\mathrm{i}$.
+$2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$, $\sqrt{2}-\sqrt{2}\mathrm{i}$.
 
 ### Solution to Exercise 2
 
 By **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers), $a+b\mathrm{i}$ is real when $b=0$, imaginary when $b\neq 0$, and pure imaginary when $a=0$ and $b\neq 0$.
 
-(1) $2+\sqrt{7}=(2+\sqrt{7})+0\mathrm{i}$, imaginary part $0$, so it is real.
+(1) $2+\sqrt{7}=\left(2+\sqrt{7}\right)+0\mathrm{i}$, imaginary part $0$, so it is real.
 
 (2) $0.618=0.618+0\mathrm{i}$, imaginary part $0$, so it is real.
 
@@ -68,21 +68,21 @@ By **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Num
 
 (6) $5\mathrm{i}+8=8+5\mathrm{i}$, real part $8\neq 0$, imaginary part $5\neq 0$, so it is an imaginary number.
 
-(7) $3-9\sqrt{2}\mathrm{i}=3+(-9\sqrt{2})\mathrm{i}$, real part $3\neq 0$, imaginary part $-9\sqrt{2}\neq 0$, so it is an imaginary number.
+(7) $3-9\sqrt{2}\mathrm{i}=3+\left(-9\sqrt{2}\right)\mathrm{i}$, real part $3\neq 0$, imaginary part $-9\sqrt{2}\neq 0$, so it is an imaginary number.
 
-(8) $\mathrm{i}(1-\sqrt{3})=0+(1-\sqrt{3})\mathrm{i}$, real part $0$, imaginary part $1-\sqrt{3}\neq 0$, so it is a pure imaginary number.
+(8) $\mathrm{i}\left(1-\sqrt{3}\right)=0+\left(1-\sqrt{3}\right)\mathrm{i}$, real part $0$, imaginary part $1-\sqrt{3}\neq 0$, so it is a pure imaginary number.
 
-(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+(-\sqrt{2})\mathrm{i}$, real part $\sqrt{2}\neq 0$, imaginary part $-\sqrt{2}\neq 0$, so it is an imaginary number.
+(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+\left(-\sqrt{2}\right)\mathrm{i}$, real part $\sqrt{2}\neq 0$, imaginary part $-\sqrt{2}\neq 0$, so it is an imaginary number.
 
-In summary, the real numbers are $2+\sqrt{7}$, $0.618$, $0$; the imaginary numbers are $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\sqrt{2}-\sqrt{2}\mathrm{i}$; the pure imaginary numbers are $\frac{2}{7}\mathrm{i}$, $\mathrm{i}$, $\mathrm{i}(1-\sqrt{3})$. $\blacksquare$
+In summary, the real numbers are $2+\sqrt{7}$, $0.618$, $0$; the imaginary numbers are $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\sqrt{2}-\sqrt{2}\mathrm{i}$; the pure imaginary numbers are $\frac{2}{7}\mathrm{i}$, $\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$. $\blacksquare$
 
 ### Exercise 3
 
 (Exercise 7.1, Problem 3) Find the real numbers $x,y$ satisfying the following conditions:
 
-(1) $(x+y)+(y-1)\mathrm{i}=(2x+3y)+(2y+1)\mathrm{i}$;
+(1) $\left(x+y\right)+\left(y-1\right)\mathrm{i}=\left(2x+3y\right)+\left(2y+1\right)\mathrm{i}$;
 
-(2) $(x+y-3)+(x-2)\mathrm{i}=0$.
+(2) $\left(x+y-3\right)+\left(x-2\right)\mathrm{i}=0$.
 
 ### Solution to Exercise 3
 
@@ -112,9 +112,9 @@ From the second equation, $x=2$. Substituting into the first gives $2+y-3=0$, i.
 
 ### Solution to Exercise 4
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the point $Z(a,b)$ in the complex plane represents the complex number $a+b\mathrm{i}$.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the point $Z\left(a,b\right)$ in the complex plane represents the complex number $a+b\mathrm{i}$.
 
-Reading the figure, the coordinates of the points are: $A(3,3)$, $B(2,-2)$, $C(-3,2)$, $D(-3,-2)$, $E(3,0)$, $F(-2,0)$, $G(0,3)$, $H(0,-3)$.
+Reading the figure, the coordinates of the points are: $A\left(3,3\right)$, $B\left(2,-2\right)$, $C\left(-3,2\right)$, $D\left(-3,-2\right)$, $E\left(3,0\right)$, $F\left(-2,0\right)$, $G\left(0,3\right)$, $H\left(0,-3\right)$.
 
 Hence the complex numbers represented by the points are: $A:3+3\mathrm{i}$, $B:2-2\mathrm{i}$, $C:-3+2\mathrm{i}$, $D:-3-2\mathrm{i}$, $E:3$, $F:-2$, $G:3\mathrm{i}$, $H:-3\mathrm{i}$. $\blacksquare$
 
@@ -138,19 +138,19 @@ Hence the complex numbers represented by the points are: $A:3+3\mathrm{i}$, $B:2
 
 ### Solution to Exercise 5
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the complex number $a+b\mathrm{i}$ corresponds to the point $(a,b)$ in the complex plane.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the complex number $a+b\mathrm{i}$ corresponds to the point $\left(a,b\right)$ in the complex plane.
 
-(1) $2+5\mathrm{i}$ corresponds to the point $(2,5)$.
+(1) $2+5\mathrm{i}$ corresponds to the point $\left(2,5\right)$.
 
-(2) $-3+2\mathrm{i}$ corresponds to the point $(-3,2)$.
+(2) $-3+2\mathrm{i}$ corresponds to the point $\left(-3,2\right)$.
 
-(3) $2-4\mathrm{i}$ corresponds to the point $(2,-4)$.
+(3) $2-4\mathrm{i}$ corresponds to the point $\left(2,-4\right)$.
 
-(4) $-3-\mathrm{i}$ corresponds to the point $(-3,-1)$.
+(4) $-3-\mathrm{i}$ corresponds to the point $\left(-3,-1\right)$.
 
-(5) $5=5+0\mathrm{i}$ corresponds to the point $(5,0)$, on the real axis.
+(5) $5=5+0\mathrm{i}$ corresponds to the point $\left(5,0\right)$, on the real axis.
 
-(6) $-3\mathrm{i}=0+(-3)\mathrm{i}$ corresponds to the point $(0,-3)$, on the imaginary axis.
+(6) $-3\mathrm{i}=0+\left(-3\right)\mathrm{i}$ corresponds to the point $\left(0,-3\right)$, on the imaginary axis.
 
 Just plot the above points in the complex plane. $\blacksquare$
 
@@ -166,21 +166,21 @@ Just plot the above points in the complex plane. $\blacksquare$
 
 ### Solution to Exercise 6
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $a+b\mathrm{i}$ corresponds to the vector $\boldsymbol{OZ}=(a,b)$; by **Definition 7.1.9** (Modulus of a Complex Number), $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $a+b\mathrm{i}$ corresponds to the vector $\boldsymbol{OZ}=\left(a,b\right)$; by **Definition 7.1.9** (Modulus of a Complex Number), $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
-(1) The corresponding vectors are: $(2,1)$, $(-2,4)$, $(0,-2)$, $(4,0)$, $\left(\frac{3}{2},-4\right)$; just draw these vectors in the complex plane starting from the origin $O$.
+(1) The corresponding vectors are: $\left(2,1\right)$, $\left(-2,4\right)$, $\left(0,-2\right)$, $\left(4,0\right)$, $\left(\frac{3}{2},-4\right)$; just draw these vectors in the complex plane starting from the origin $O$.
 
 (2) Find the modulus one by one:
 
 (a) $\lvert2+\mathrm{i}\rvert=\sqrt{2^2+1^2}=\sqrt{5}$;
 
-(b) $\lvert-2+4\mathrm{i}\rvert=\sqrt{(-2)^2+4^2}=\sqrt{20}=2\sqrt{5}$;
+(b) $\lvert-2+4\mathrm{i}\rvert=\sqrt{\left(-2\right)^2+4^2}=\sqrt{20}=2\sqrt{5}$;
 
-(c) $\lvert-2\mathrm{i}\rvert=\sqrt{0^2+(-2)^2}=2$;
+(c) $\lvert-2\mathrm{i}\rvert=\sqrt{0^2+\left(-2\right)^2}=2$;
 
 (d) $\lvert4\rvert=\sqrt{4^2+0^2}=4$;
 
-(e) $\left\lvert\frac{3}{2}-4\mathrm{i}\right\rvert=\sqrt{\left(\frac{3}{2}\right)^2+(-4)^2}=\sqrt{\frac{9}{4}+16}=\sqrt{\frac{73}{4}}=\frac{\sqrt{73}}{2}$. $\blacksquare$
+(e) $\left\lvert\frac{3}{2}-4\mathrm{i}\right\rvert=\sqrt{\left(\frac{3}{2}\right)^2+\left(-4\right)^2}=\sqrt{\frac{9}{4}+16}=\sqrt{\frac{73}{4}}=\frac{\sqrt{73}}{2}$. $\blacksquare$
 
 ### Problem 1
 
@@ -204,7 +204,7 @@ By **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Num
 
 ### Problem 2
 
-(Exercise 7.1, Review and Consolidation, Problem 2) For what value of the real number $m$ is the complex number $(m^2-5m+6)+(m^2-3m)\mathrm{i}$ each of the following?
+(Exercise 7.1, Review and Consolidation, Problem 2) For what value of the real number $m$ is the complex number $\left(m^2-5m+6\right)+\left(m^2-3m\right)\mathrm{i}$ each of the following?
 
 (1) a real number;
 
@@ -216,21 +216,21 @@ By **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Num
 
 By **Definition 7.1.6** (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers), $a+b\mathrm{i}$ is real when $b=0$, imaginary when $b\neq 0$, and pure imaginary when $a=0$ and $b\neq 0$.
 
-Write $a=m^2-5m+6$, $b=m^2-3m=m(m-3)$.
+Write $a=m^2-5m+6$, $b=m^2-3m=m\left(m-3\right)$.
 
-(1) To be real, require $b=0$, i.e. $m(m-3)=0$, giving $m=0$ or $m=3$.
+(1) To be real, require $b=0$, i.e. $m\left(m-3\right)=0$, giving $m=0$ or $m=3$.
 
 (2) To be imaginary, require $b\neq 0$, i.e. $m\neq 0$ and $m\neq 3$.
 
-(3) To be pure imaginary, require $a=0$ and $b\neq 0$. From $a=0$, i.e. $(m-2)(m-3)=0$, we get $m=2$ or $m=3$. We also require $b\neq 0$, i.e. $m\neq 0$ and $m\neq 3$; hence $m=3$ is discarded and $m=2$. $\blacksquare$
+(3) To be pure imaginary, require $a=0$ and $b\neq 0$. From $a=0$, i.e. $\left(m-2\right)\left(m-3\right)=0$, we get $m=2$ or $m=3$. We also require $b\neq 0$, i.e. $m\neq 0$ and $m\neq 3$; hence $m=3$ is discarded and $m=2$. $\blacksquare$
 
 ### Problem 3
 
 (Exercise 7.1, Review and Consolidation, Problem 3) Find the real numbers $x$ and $y$ satisfying the following equations:
 
-(1) $(3x+2y)+(5x-y)\mathrm{i}=17-2\mathrm{i}$;
+(1) $\left(3x+2y\right)+\left(5x-y\right)\mathrm{i}=17-2\mathrm{i}$;
 
-(2) $(x+y-3)+(x-4)\mathrm{i}=0$.
+(2) $\left(x+y-3\right)+\left(x-4\right)\mathrm{i}=0$.
 
 ### Solution to Problem 3
 
@@ -242,7 +242,7 @@ $$
 \begin{cases}3x+2y=17,\\5x-y=-2.\end{cases}
 $$
 
-From the second equation, $y=5x+2$. Substituting into the first gives $3x+2(5x+2)=17$, i.e. $13x+4=17$, so $x=1$. Substituting back gives $y=7$. Hence $x=1$, $y=7$.
+From the second equation, $y=5x+2$. Substituting into the first gives $3x+2\left(5x+2\right)=17$, i.e. $13x+4=17$, so $x=1$. Substituting back gives $y=7$. Hence $x=1$, $y=7$.
 
 (2) The right-hand side $0=0+0\mathrm{i}$. This gives the system
 
@@ -254,7 +254,7 @@ From the second equation, $x=4$. Substituting into the first gives $4+y-3=0$, i.
 
 ### Problem 4
 
-(Exercise 7.1, Review and Consolidation, Problem 4) If $P$ is the point in the complex plane representing the complex number $a+b\mathrm{i}\ (a,b\in\mathbb R)$, state the location of $P$ under each of the following conditions.
+(Exercise 7.1, Review and Consolidation, Problem 4) If $P$ is the point in the complex plane representing the complex number $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, state the location of $P$ under each of the following conditions.
 
 (1) $a>0$, $b>0$;
 
@@ -266,7 +266,7 @@ From the second equation, $x=4$. Substituting into the first gives $4+y-3=0$, i.
 
 ### Solution to Problem 4
 
-By **Definition 7.1.7** (The Complex Plane) and **Definition 7.1.8** (Geometric Meaning of a Complex Number), $a+b\mathrm{i}$ corresponds to the point $P(a,b)$ in the complex plane, with $a$ the horizontal coordinate and $b$ the vertical coordinate.
+By **Definition 7.1.7** (The Complex Plane) and **Definition 7.1.8** (Geometric Meaning of a Complex Number), $a+b\mathrm{i}$ corresponds to the point $P\left(a,b\right)$ in the complex plane, with $a$ the horizontal coordinate and $b$ the vertical coordinate.
 
 (1) $a>0$, $b>0$, so $P$ lies in the first quadrant.
 
@@ -289,14 +289,14 @@ $$
 $$
 
 $$
-\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+(-\sqrt{2})^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
+\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
 $$
 
 Since $5>\frac{3}{2}$, we have $\lvert z_1\rvert>\lvert z_2\rvert$. $\blacksquare$
 
 ### Problem 6
 
-(Exercise 7.1, Comprehensive Application, Problem 6) For what value of the real number $m$ does the point in the complex plane representing the complex number $z=(m^2-8m+15)+(m^2-5m-14)\mathrm{i}$ satisfy each of the following?
+(Exercise 7.1, Comprehensive Application, Problem 6) For what value of the real number $m$ does the point in the complex plane representing the complex number $z=\left(m^2-8m+15\right)+\left(m^2-5m-14\right)\mathrm{i}$ satisfy each of the following?
 
 (1) lies in the fourth quadrant;
 
@@ -306,7 +306,7 @@ Since $5>\frac{3}{2}$, we have $\lvert z_1\rvert>\lvert z_2\rvert$. $\blacksquar
 
 ### Solution to Problem 6
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i}$ corresponds to the point $P(a,b)$. Write $a=m^2-8m+15=(m-3)(m-5)$, $b=m^2-5m-14=(m-7)(m+2)$.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i}$ corresponds to the point $P\left(a,b\right)$. Write $a=m^2-8m+15=\left(m-3\right)\left(m-5\right)$, $b=m^2-5m-14=\left(m-7\right)\left(m+2\right)$.
 
 (1) To lie in the fourth quadrant, require $a>0$ and $b<0$. From $a>0$, we get $m<3$ or $m>5$; from $b<0$, we get $-2<m<7$. Taking the intersection gives $-2<m<3$ or $5<m<7$.
 
@@ -318,7 +318,7 @@ By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i
 
 In summary, $m<-2$ or $3<m<5$ or $m>7$.
 
-(3) To lie on the line $y=x$, require $P(a,b)$ to satisfy $b=a$, i.e. $m^2-5m-14=m^2-8m+15$. Simplifying gives $3m=29$, i.e. $m=\frac{29}{3}$. $\blacksquare$
+(3) To lie on the line $y=x$, require $P\left(a,b\right)$ to satisfy $b=a$, i.e. $m^2-5m-14=m^2-8m+15$. Simplifying gives $3m=29$, i.e. $m=\frac{29}{3}$. $\blacksquare$
 
 ### Problem 7
 
@@ -330,11 +330,11 @@ In summary, $m<-2$ or $3<m<5$ or $m>7$.
 
 ### Solution to Problem 7
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the vector $\boldsymbol{OA}$ corresponds to $2+\mathrm{i}$, so the coordinates of $A$ are $(2,1)$.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the vector $\boldsymbol{OA}$ corresponds to $2+\mathrm{i}$, so the coordinates of $A$ are $\left(2,1\right)$.
 
-(1) The reflection of $A(2,1)$ across the real axis (the $x$-axis) is $B$ with coordinates $(2,-1)$. By **Definition 7.1.8**, the complex number corresponding to $\boldsymbol{OB}$ is $2+(-1)\mathrm{i}=2-\mathrm{i}$.
+(1) The reflection of $A\left(2,1\right)$ across the real axis (the $x$-axis) is $B$ with coordinates $\left(2,-1\right)$. By **Definition 7.1.8**, the complex number corresponding to $\boldsymbol{OB}$ is $2+\left(-1\right)\mathrm{i}=2-\mathrm{i}$.
 
-(2) The reflection of $B(2,-1)$ across the imaginary axis (the $y$-axis) is $C$ with coordinates $(-2,-1)$. By **Definition 7.1.8**, the complex number corresponding to $C$ is $-2+(-1)\mathrm{i}=-2-\mathrm{i}$. $\blacksquare$
+(2) The reflection of $B\left(2,-1\right)$ across the imaginary axis (the $y$-axis) is $C$ with coordinates $\left(-2,-1\right)$. By **Definition 7.1.8**, the complex number corresponding to $C$ is $-2+\left(-1\right)\mathrm{i}=-2-\mathrm{i}$. $\blacksquare$
 
 ### Problem 8
 
@@ -358,9 +358,9 @@ By **Definition 7.1.9** (Modulus of a Complex Number), $\lvert z\rvert$ is the l
 
 ### Solution to Problem 9
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i}$ corresponds to the point $Z(a,b)$. Given the imaginary part $b=3$ and real part $a>0$, the vertical coordinate of $Z$ is always $3$ and the horizontal coordinate is positive.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i}$ corresponds to the point $Z\left(a,b\right)$. Given the imaginary part $b=3$ and real part $a>0$, the vertical coordinate of $Z$ is always $3$ and the horizontal coordinate is positive.
 
-Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the first quadrant, i.e. the ray $y=3\ (x>0)$, not including the endpoint $(0,3)$. $\blacksquare$
+Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the first quadrant, i.e. the ray $y=3\ \left(x>0\right)$, not including the endpoint $\left(0,3\right)$. $\blacksquare$
 
 ### Problem 10
 
@@ -368,7 +368,7 @@ Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the firs
 
 ### Solution to Problem 10
 
-Let $z=a+\sqrt{3}\mathrm{i}\ (a\in\mathbb R)$. By **Definition 7.1.9** (Modulus of a Complex Number), $\lvert z\rvert=\sqrt{a^2+(\sqrt{3})^2}=\sqrt{a^2+3}$. Given $\lvert z\rvert=2$, we get
+Let $z=a+\sqrt{3}\mathrm{i}\ \left(a\in\mathbb R\right)$. By **Definition 7.1.9** (Modulus of a Complex Number), $\lvert z\rvert=\sqrt{a^2+\left(\sqrt{3}\right)^2}=\sqrt{a^2+3}$. Given $\lvert z\rvert=2$, we get
 
 $$
 \sqrt{a^2+3}=2.
@@ -382,7 +382,7 @@ Squaring both sides gives $a^2+3=4$, i.e. $a^2=1$, so $a=\pm 1$. Hence $z=1+\sqr
 
 ### Solution to Problem 11
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the four points have coordinates $Z_1(1,2)$, $Z_2(\sqrt{2},\sqrt{3})$, $Z_3(\sqrt{3},-\sqrt{2})$, $Z_4(-2,1)$.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the four points have coordinates $Z_1\left(1,2\right)$, $Z_2\left(\sqrt{2},\sqrt{3}\right)$, $Z_3\left(\sqrt{3},-\sqrt{2}\right)$, $Z_4\left(-2,1\right)$.
 
 By **Definition 7.1.9** (Modulus of a Complex Number), compute the distance from each point to the origin:
 
@@ -391,15 +391,15 @@ $$
 $$
 
 $$
-\lvert z_2\rvert=\sqrt{(\sqrt{2})^2+(\sqrt{3})^2}=\sqrt{2+3}=\sqrt{5},
+\lvert z_2\rvert=\sqrt{\left(\sqrt{2}\right)^2+\left(\sqrt{3}\right)^2}=\sqrt{2+3}=\sqrt{5},
 $$
 
 $$
-\lvert z_3\rvert=\sqrt{(\sqrt{3})^2+(-\sqrt{2})^2}=\sqrt{3+2}=\sqrt{5},
+\lvert z_3\rvert=\sqrt{\left(\sqrt{3}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{3+2}=\sqrt{5},
 $$
 
 $$
-\lvert z_4\rvert=\sqrt{(-2)^2+1^2}=\sqrt{5}.
+\lvert z_4\rvert=\sqrt{\left(-2\right)^2+1^2}=\sqrt{5}.
 $$
 
 The distance from each of the four points to the origin $O$ equals $\sqrt{5}$, i.e. all four points lie on the circle centered at the origin $O$ with radius $\sqrt{5}$. Hence these $4$ points lie on the same circle. $\blacksquare$

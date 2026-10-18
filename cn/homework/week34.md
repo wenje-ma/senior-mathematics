@@ -16,11 +16,11 @@
 
 设 $\triangle ABC$ 中 $AB=AC$. 取 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$, 则 $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{(-\boldsymbol{c})\cdot(\boldsymbol{b}-\boldsymbol{c})}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
 
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{(-\boldsymbol{b})\cdot(\boldsymbol{c}-\boldsymbol{b})}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-\boldsymbol{b}\right)\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
 
-由 $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ 及 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, 得 $\cos B=\cos C$. 又 $B$, $C\in(0,\pi)$, 故 $B=C$. $\blacksquare$
+由 $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ 及 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, 得 $\cos B=\cos C$. 又 $B$, $C\in\left(0,\pi\right)$, 故 $B=C$. $\blacksquare$
 
 ### 练习二
 
@@ -32,13 +32,13 @@ $\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\l
 
 由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.4.2** (余弦定理).
 
-以 $A$ 为原点, $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴建系. $A(0,0)$, $B(a,0)$, $C(a,a)$, $D(0,a)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
+以 $A$ 为原点, $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴建系. $A\left(0,0\right)$, $B\left(a,0\right)$, $C\left(a,a\right)$, $D\left(0,a\right)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
 
 $\boldsymbol{DE}=\left(\frac{a}{2},-a\right)$, $\boldsymbol{AF}=\left(a,\frac{a}{3}\right)$.
 
 $\angle EMF$ 即 $\boldsymbol{MD}$ 与 $\boldsymbol{MF}$ 的夹角. $\boldsymbol{MD}$ 与 $\boldsymbol{DE}$ 共线, $\boldsymbol{MF}$ 与 $\boldsymbol{AF}$ 共线.
 
-$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+(-a)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
+$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+\left(-a\right)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
 
 ### 练习三
 
@@ -50,25 +50,25 @@ $\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}
 
 由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.3.1** (平面向量基本定理).
 
-$\boldsymbol{AO}=\frac{1}{2}(\boldsymbol{AB}+\boldsymbol{AC})=\frac{1}{2}(m\boldsymbol{AM}+n\boldsymbol{AN})$.
+$\boldsymbol{AO}=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\frac{1}{2}\left(m\boldsymbol{AM}+n\boldsymbol{AN}\right)$.
 
-又 $O$ 在直线 $MN$ 上, 由三点共线条件, 存在 $\lambda$ 使 $\boldsymbol{AO}=\lambda\boldsymbol{AM}+(1-\lambda)\boldsymbol{AN}$.
+又 $O$ 在直线 $MN$ 上, 由三点共线条件, 存在 $\lambda$ 使 $\boldsymbol{AO}=\lambda\boldsymbol{AM}+\left(1-\lambda\right)\boldsymbol{AN}$.
 
 比较系数: $\frac{m}{2}=\lambda$, $\frac{n}{2}=1-\lambda$.
 
-$m+n=2\lambda+2(1-\lambda)=2$. $\blacksquare$
+$m+n=2\lambda+2\left(1-\lambda\right)=2$. $\blacksquare$
 
 ### 练习四
 
-(练习 6.4 第 4 题) 一物体在力 $\boldsymbol{F}$ 的作用下, 由点 $A(20,15)$ 移动到点 $B(7,0)$. 已知 $\boldsymbol{F}=(4,-5)$, 求 $\boldsymbol{F}$ 对该物体所做的功.
+(练习 6.4 第 4 题) 一物体在力 $\boldsymbol{F}$ 的作用下, 由点 $A\left(20,15\right)$ 移动到点 $B\left(7,0\right)$. 已知 $\boldsymbol{F}=\left(4,-5\right)$, 求 $\boldsymbol{F}$ 对该物体所做的功.
 
 ### 解答 练习四
 
 由**定义 6.2.11** (数量积), 功等于力与位移的数量积.
 
-位移 $\boldsymbol{s}=\boldsymbol{AB}=(7-20,0-15)=(-13,-15)$.
+位移 $\boldsymbol{s}=\boldsymbol{AB}=\left(7-20,0-15\right)=\left(-13,-15\right)$.
 
-功 $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times(-13)+(-5)\times(-15)=-52+75=23$. $\blacksquare$
+功 $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times\left(-13\right)+\left(-5\right)\times\left(-15\right)=-52+75=23$. $\blacksquare$
 
 ### 练习五
 
@@ -82,9 +82,9 @@ $m+n=2\lambda+2(1-\lambda)=2$. $\blacksquare$
 
 设 $\boldsymbol{OA}$, $\boldsymbol{OB}$ 的大小均为 $4$, 第三根绳向下, 大小为 $4\sqrt 3$. 平衡时 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
 
-$\boldsymbol{OC}=-(\boldsymbol{OA}+\boldsymbol{OB})$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
+$\boldsymbol{OC}=-\left(\boldsymbol{OA}+\boldsymbol{OB}\right)$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
 
-$(4\sqrt 3)^2=16+16+2\times16\cos\angle AOB$.
+$\left(4\sqrt 3\right)^2=16+16+2\times16\cos\angle AOB$.
 
 $48=32+32\cos\angle AOB$.
 
@@ -102,7 +102,7 @@ $\cos\angle AOB=\frac{1}{2}$, $\angle AOB=60^{\circ}$. $\blacksquare$
 
 由**定义 6.2.11** (数量积) 与**定理 6.4.2** (余弦定理).
 
-平衡时 $\boldsymbol{F}_3=-(\boldsymbol{F}_1+\boldsymbol{F}_2)$.
+平衡时 $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$.
 
 (1) $\lvert\boldsymbol{F}_1+\boldsymbol{F}_2\rvert^2=\lvert\boldsymbol{F}_1\rvert^2+\lvert\boldsymbol{F}_2\rvert^2+2\boldsymbol{F}_1\cdot\boldsymbol{F}_2$.
 
@@ -112,17 +112,17 @@ $\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2=\frac{8+4\sqrt 3}{4}=2+\sqrt 3$.
 
 $2\times\frac{\sqrt 6+\sqrt 2}{2}\times\frac{\sqrt 2}{2}=\frac{\sqrt 6+\sqrt 2}{\sqrt 2}=\sqrt 3+1$.
 
-$\lvert\boldsymbol{F}_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=(\sqrt 3+1)^2$.
+$\lvert\boldsymbol{F}_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=\left(\sqrt 3+1\right)^2$.
 
 $\lvert\boldsymbol{F}_3\rvert=\sqrt 3+1\text{ N}$.
 
-(2) 设 $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 夹角为 $\theta$. $\boldsymbol{F}_3=-(\boldsymbol{F}_1+\boldsymbol{F}_2)$, 
+(2) 设 $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 夹角为 $\theta$. $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$, 
 
-$\boldsymbol{F}_3\cdot\boldsymbol{F}_1=-(\boldsymbol{F}_1+\boldsymbol{F}_2)\cdot\boldsymbol{F}_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-(1+\sqrt 3)$.
+$\boldsymbol{F}_3\cdot\boldsymbol{F}_1=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-\left(1+\sqrt 3\right)$.
 
-$\cos\theta=\frac{-(1+\sqrt 3)}{(\sqrt 3+1)\times1}=-1$. $\theta=180^{\circ}$? 需考虑夹角方向.
+$\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\left(\sqrt 3+1\right)\times1}=-1$. $\theta=180^{\circ}$? 需考虑夹角方向.
 
-修正: $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 的夹角 (取 $0$ 到 $180^{\circ}$) 满足 $\cos\theta=\frac{-(1+\sqrt 3)}{\sqrt 3+1}=-1$, 即方向相反. $\blacksquare$
+修正: $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 的夹角 (取 $0$ 到 $180^{\circ}$) 满足 $\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\sqrt 3+1}=-1$, 即方向相反. $\blacksquare$
 
 ### 练习七
 
@@ -152,11 +152,11 @@ $C=180^{\circ}-42.3^{\circ}-56.1^{\circ}=81.6^{\circ}$. $\blacksquare$
 
 由**定理 6.4.2** (余弦定理).
 
-$\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{2+(\sqrt 3+1)^2-4}{2\sqrt 2(\sqrt 3+1)}=\frac{2+4+2\sqrt 3-4}{2\sqrt 2(\sqrt 3+1)}=\frac{2+2\sqrt 3}{2\sqrt 2(\sqrt 3+1)}=\frac{\sqrt 2}{2}$.
+$\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{2+\left(\sqrt 3+1\right)^2-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+4+2\sqrt 3-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+2\sqrt 3}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{\sqrt 2}{2}$.
 
 $A=45^{\circ}$.
 
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{4+4+2\sqrt 3-2}{2\times2\times(\sqrt 3+1)}=\frac{6+2\sqrt 3}{4(\sqrt 3+1)}=\frac{\sqrt 3}{2}$.
+$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{4+4+2\sqrt 3-2}{2\times2\times\left(\sqrt 3+1\right)}=\frac{6+2\sqrt 3}{4\left(\sqrt 3+1\right)}=\frac{\sqrt 3}{2}$.
 
 $B=30^{\circ}$.
 
@@ -230,7 +230,7 @@ $\sin A=\sqrt{1-\frac{16}{25}}=\frac{3}{5}$.
 
 $a=\frac{b\sin A}{\sin B}=\frac{\sqrt 3\cdot\frac{3}{5}}{\frac{\sqrt 3}{2}}=\frac{6}{5}$.
 
-$C=180^{\circ}-A-B$. $\sin C=\sin(A+B)=\sin A\cos B+\cos A\sin B=\frac{3}{5}\cdot\frac{1}{2}+\frac{4}{5}\cdot\frac{\sqrt 3}{2}=\frac{3+4\sqrt 3}{10}$.
+$C=180^{\circ}-A-B$. $\sin C=\sin\left(A+B\right)=\sin A\cos B+\cos A\sin B=\frac{3}{5}\cdot\frac{1}{2}+\frac{4}{5}\cdot\frac{\sqrt 3}{2}=\frac{3+4\sqrt 3}{10}$.
 
 $c=\frac{b\sin C}{\sin B}=\frac{\sqrt 3\cdot\frac{3+4\sqrt 3}{10}}{\frac{\sqrt 3}{2}}=\frac{3+4\sqrt 3}{5}$. $\blacksquare$
 
@@ -250,7 +250,7 @@ $CD=CE-DE=10\sqrt 3$.
 
 在 $\triangle ACD$ 中, $\angle CAD=4\alpha-2\alpha=2\alpha$, $\angle ACD=180^{\circ}-2\alpha$, $\angle ADC=180^{\circ}-4\alpha$.
 
-由正弦定理: $\frac{CD}{\sin 2\alpha}=\frac{AC}{\sin(180^{\circ}-4\alpha)}$.
+由正弦定理: $\frac{CD}{\sin 2\alpha}=\frac{AC}{\sin\left(180^{\circ}-4\alpha\right)}$.
 
 $AC=\frac{10\sqrt 3\sin4\alpha}{\sin2\alpha}=20\sqrt 3\cos2\alpha$.
 
@@ -292,7 +292,7 @@ $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\r
 
 $\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$ 说明 $N$ 为重心 (重心性质).
 
-$\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ 得 $\boldsymbol{PB}\cdot(\boldsymbol{PA}-\boldsymbol{PC})=\boldsymbol{PB}\cdot\boldsymbol{CA}=0$, 即 $PB\perp CA$. 同理 $P$ 为垂心.
+$\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ 得 $\boldsymbol{PB}\cdot\left(\boldsymbol{PA}-\boldsymbol{PC}\right)=\boldsymbol{PB}\cdot\boldsymbol{CA}=0$, 即 $PB\perp CA$. 同理 $P$ 为垂心.
 
 选 (C). $\blacksquare$
 
@@ -306,17 +306,17 @@ $\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ 得 $\
 
 设圆心为 $O$, 直径为 $AB$, $C$ 为圆上任意一点. $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OA}=-\boldsymbol{c}$, $\boldsymbol{OB}=\boldsymbol{c}$.
 
-$\boldsymbol{AC}=\boldsymbol{c}-(-\boldsymbol{c})=2\boldsymbol{c}$? 修正: 设 $\boldsymbol{OA}=\boldsymbol{a}$, 则 $\boldsymbol{OB}=-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{c}\rvert=R$.
+$\boldsymbol{AC}=\boldsymbol{c}-\left(-\boldsymbol{c}\right)=2\boldsymbol{c}$? 修正: 设 $\boldsymbol{OA}=\boldsymbol{a}$, 则 $\boldsymbol{OB}=-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{c}\rvert=R$.
 
-$\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{c}-(-\boldsymbol{a})=\boldsymbol{c}+\boldsymbol{a}$.
+$\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{c}-\left(-\boldsymbol{a}\right)=\boldsymbol{c}+\boldsymbol{a}$.
 
-$\boldsymbol{AC}\cdot\boldsymbol{BC}=(\boldsymbol{c}-\boldsymbol{a})\cdot(\boldsymbol{c}+\boldsymbol{a})=\boldsymbol{c}^2-\boldsymbol{a}^2=R^2-R^2=0$.
+$\boldsymbol{AC}\cdot\boldsymbol{BC}=\left(\boldsymbol{c}-\boldsymbol{a}\right)\cdot\left(\boldsymbol{c}+\boldsymbol{a}\right)=\boldsymbol{c}^2-\boldsymbol{a}^2=R^2-R^2=0$.
 
 故 $\boldsymbol{AC}\perp\boldsymbol{BC}$, $\angle ACB=90^{\circ}$. $\blacksquare$
 
 ### 习题四
 
-(习题 6.4 复习巩固第 4 题) 两个粒子 $A$, $B$ 从同一发射源发射出来, 在某一时刻, 它们的位移分别为 $\boldsymbol{s}_A=(4,3)$, $\boldsymbol{s}_B=(2,10)$.
+(习题 6.4 复习巩固第 4 题) 两个粒子 $A$, $B$ 从同一发射源发射出来, 在某一时刻, 它们的位移分别为 $\boldsymbol{s}_A=\left(4,3\right)$, $\boldsymbol{s}_B=\left(2,10\right)$.
 
 (1) 写出此时粒子 $B$ 相对粒子 $A$ 的位移 $\boldsymbol{s}$;
 
@@ -326,13 +326,13 @@ $\boldsymbol{AC}\cdot\boldsymbol{BC}=(\boldsymbol{c}-\boldsymbol{a})\cdot(\bolds
 
 由**定义 6.2.11** (数量积) 与**常用结论 6.2.12** (投影向量).
 
-(1) $\boldsymbol{s}=\boldsymbol{s}_B-\boldsymbol{s}_A=(2-4,10-3)=(-2,7)$.
+(1) $\boldsymbol{s}=\boldsymbol{s}_B-\boldsymbol{s}_A=\left(2-4,10-3\right)=\left(-2,7\right)$.
 
-(2) $\boldsymbol{s}\cdot\boldsymbol{s}_A=(-2)\times4+7\times3=13$.
+(2) $\boldsymbol{s}\cdot\boldsymbol{s}_A=\left(-2\right)\times4+7\times3=13$.
 
 $\lvert\boldsymbol{s}_A\rvert=5$.
 
-投影向量为 $\frac{\boldsymbol{s}\cdot\boldsymbol{s}_A}{\lvert\boldsymbol{s}_A\rvert^2}\boldsymbol{s}_A=\frac{13}{25}(4,3)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
+投影向量为 $\frac{\boldsymbol{s}\cdot\boldsymbol{s}_A}{\lvert\boldsymbol{s}_A\rvert^2}\boldsymbol{s}_A=\frac{13}{25}\left(4,3\right)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
 
 ### 习题五
 
@@ -362,7 +362,7 @@ $\lvert\boldsymbol{s}_A\rvert=5$.
 
 由**定理 6.4.2** (余弦定理).
 
-(1) $c^2=49^2+26^2-2\times49\times26\times\cos107^{\circ}=2401+676-2548\times(-0.292)\approx3077+744=3821$.
+(1) $c^2=49^2+26^2-2\times49\times26\times\cos107^{\circ}=2401+676-2548\times\left(-0.292\right)\approx3077+744=3821$.
 
 $c\approx62\text{ cm}$.
 
@@ -414,11 +414,11 @@ $B\approx43^{\circ}$ 或 $B\approx137^{\circ}$.
 
 在 $\triangle BCD$ 中, $\angle CBD=180^{\circ}-\alpha-\beta$.
 
-由正弦定理: $\frac{BC}{\sin\beta}=\frac{s}{\sin(180^{\circ}-\alpha-\beta)}=\frac{s}{\sin(\alpha+\beta)}$.
+由正弦定理: $\frac{BC}{\sin\beta}=\frac{s}{\sin\left(180^{\circ}-\alpha-\beta\right)}=\frac{s}{\sin\left(\alpha+\beta\right)}$.
 
-$BC=\frac{s\sin\beta}{\sin(\alpha+\beta)}$.
+$BC=\frac{s\sin\beta}{\sin\left(\alpha+\beta\right)}$.
 
-在直角三角形 $ABC$ 中, $\angle ACB=\theta$, $AB=BC\tan\theta=\frac{s\sin\beta\tan\theta}{\sin(\alpha+\beta)}$. $\blacksquare$
+在直角三角形 $ABC$ 中, $\angle ACB=\theta$, $AB=BC\tan\theta=\frac{s\sin\beta\tan\theta}{\sin\left(\alpha+\beta\right)}$. $\blacksquare$
 
 ### 习题九
 
@@ -462,19 +462,19 @@ $S=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$. $\blacksquare$
 
 ### 习题十一
 
-(习题 6.4 综合运用第 11 题) 已知对任意平面向量 $\boldsymbol{AB}=(x,y)$, 把 $\boldsymbol{AB}$ 绕其起点沿逆时针方向旋转 $\theta$ 角得到向量 $\boldsymbol{AP}=(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta)$. 已知平面内点 $A(1,2)$, 点 $B(1+\sqrt 2,2-2\sqrt 2)$, 把点 $B$ 绕点 $A$ 沿顺时针方向旋转 $\frac{\pi}{4}$ 后得到点 $P$, 求点 $P$ 的坐标.
+(习题 6.4 综合运用第 11 题) 已知对任意平面向量 $\boldsymbol{AB}=\left(x,y\right)$, 把 $\boldsymbol{AB}$ 绕其起点沿逆时针方向旋转 $\theta$ 角得到向量 $\boldsymbol{AP}=\left(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta\right)$. 已知平面内点 $A\left(1,2\right)$, 点 $B\left(1+\sqrt 2,2-2\sqrt 2\right)$, 把点 $B$ 绕点 $A$ 沿顺时针方向旋转 $\frac{\pi}{4}$ 后得到点 $P$, 求点 $P$ 的坐标.
 
 ### 解答 习题十一
 
 由**常用结论 6.3.4** (坐标运算).
 
-$\boldsymbol{AB}=(\sqrt 2,-2\sqrt 2)$. 顺时针旋转 $\frac{\pi}{4}$ 即逆时针旋转 $-\frac{\pi}{4}$.
+$\boldsymbol{AB}=\left(\sqrt 2,-2\sqrt 2\right)$. 顺时针旋转 $\frac{\pi}{4}$ 即逆时针旋转 $-\frac{\pi}{4}$.
 
-$x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-(-2\sqrt 2)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+(-2\sqrt 2)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
+$x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-\left(-2\sqrt 2\right)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+\left(-2\sqrt 2\right)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
 
-$y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+(-2\sqrt 2)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
+$y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+\left(-2\sqrt 2\right)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
 
-$\boldsymbol{AP}=(-1,-3)$. $P=A+\boldsymbol{AP}=(1-1,2-3)=(0,-1)$. $\blacksquare$
+$\boldsymbol{AP}=\left(-1,-3\right)$. $P=A+\boldsymbol{AP}=\left(1-1,2-3\right)=\left(0,-1\right)$. $\blacksquare$
 
 ### 习题十二
 
@@ -486,7 +486,7 @@ $\boldsymbol{AP}=(-1,-3)$. $P=A+\boldsymbol{AP}=(1-1,2-3)=(0,-1)$. $\blacksquare
 
 由**定理 6.4.2** (余弦定理) 与**常用结论 6.4.1** (向量法).
 
-以 $A$ 为原点, $\boldsymbol{AB}=(2,0)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
+以 $A$ 为原点, $\boldsymbol{AB}=\left(2,0\right)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
 
 $M$ 为 $BC$ 中点: $M=\left(\frac{2+\frac{5}{2}}{2},\frac{0+\frac{5\sqrt 3}{2}}{2}\right)=\left(\frac{9}{4},\frac{5\sqrt 3}{4}\right)$.
 
@@ -540,7 +540,7 @@ $\angle BAC$ 满足 $\tan\angle BAC=\frac{BC}{AB}=\frac{\sqrt 3}{3}$, $\angle BA
 
 (习题 6.4 综合运用第 15 题) $\triangle ABC$ 的三边分别为 $a$, $b$, $c$, 边 $BC$, $CA$, $AB$ 上的中线分别记为 $m_a$, $m_b$, $m_c$, 利用余弦定理证明:
 
-$m_a=\frac{1}{2}\sqrt{2(b^2+c^2)-a^2}$, $m_b=\frac{1}{2}\sqrt{2(a^2+c^2)-b^2}$, $m_c=\frac{1}{2}\sqrt{2(a^2+b^2)-c^2}$.
+$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(a^2+c^2\right)-b^2}$, $m_c=\frac{1}{2}\sqrt{2\left(a^2+b^2\right)-c^2}$.
 
 ### 解答 习题十五
 
@@ -552,11 +552,11 @@ $m_a=\frac{1}{2}\sqrt{2(b^2+c^2)-a^2}$, $m_b=\frac{1}{2}\sqrt{2(a^2+c^2)-b^2}$, 
 
 $m_a^2=c^2+\frac{a^2}{4}-ac\cdot\frac{a^2+c^2-b^2}{2ac}=c^2+\frac{a^2}{4}-\frac{a^2+c^2-b^2}{2}=\frac{2c^2+a^2-2a^2-2c^2+2b^2}{4}=\frac{2b^2+2c^2-a^2}{4}$.
 
-$m_a=\frac{1}{2}\sqrt{2(b^2+c^2)-a^2}$. 同理可得其余两式. $\blacksquare$
+$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. 同理可得其余两式. $\blacksquare$
 
 ### 习题十六
 
-(习题 6.4 综合运用第 16 题) 在 $\triangle ABC$ 中, 求证: $c(a\cos B-b\cos A)=a^2-b^2$.
+(习题 6.4 综合运用第 16 题) 在 $\triangle ABC$ 中, 求证: $c\left(a\cos B-b\cos A\right)=a^2-b^2$.
 
 ### 解答 习题十六
 
@@ -602,7 +602,7 @@ $S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\
 
 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$. $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$.
 
-$R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. 又 $R$ 在 $AC$ 上: $\boldsymbol{AR}=t(\boldsymbol{a}+\boldsymbol{b})$.
+$R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. 又 $R$ 在 $AC$ 上: $\boldsymbol{AR}=t\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
 比较: $t=\lambda$, $t=\frac{\mu}{2}$. $E$ 在 $AD$ 上, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{b}$. 由 $B$, $R$, $E$ 共线: $\lambda+\frac{\mu}{2}=1$, 即 $t+t=1$, $t=\frac{1}{3}$. 故 $AR=\frac{1}{3}AC$.
 
@@ -612,13 +612,13 @@ $R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\la
 
 ### 习题二十
 
-(习题 6.4 拓广探索第 20 题) 已知 $\triangle ABC$ 的三个角 $A$, $B$, $C$ 的对边分别为 $a$, $b$, $c$, 设 $p=\frac{1}{2}(a+b+c)$, 求证:
+(习题 6.4 拓广探索第 20 题) 已知 $\triangle ABC$ 的三个角 $A$, $B$, $C$ 的对边分别为 $a$, $b$, $c$, 设 $p=\frac{1}{2}\left(a+b+c\right)$, 求证:
 
-(1) 三角形的面积 $S=\sqrt{p(p-a)(p-b)(p-c)}$;
+(1) 三角形的面积 $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$;
 
-(2) 若 $r$ 为三角形的内切圆半径, 则 $r=\sqrt{\frac{(p-a)(p-b)(p-c)}{p}}$;
+(2) 若 $r$ 为三角形的内切圆半径, 则 $r=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$;
 
-(3) 把边 $BC$, $AC$, $AB$ 上的高分别记为 $h_a$, $h_b$, $h_c$, 则 $h_a=\frac{2}{a}\sqrt{p(p-a)(p-b)(p-c)}$, $h_b=\frac{2}{b}\sqrt{p(p-a)(p-b)(p-c)}$, $h_c=\frac{2}{c}\sqrt{p(p-a)(p-b)(p-c)}$.
+(3) 把边 $BC$, $AC$, $AB$ 上的高分别记为 $h_a$, $h_b$, $h_c$, 则 $h_a=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_b=\frac{2}{b}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_c=\frac{2}{c}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
 
 ### 解答 习题二十
 
@@ -626,17 +626,17 @@ $R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\la
 
 (1) $S=\frac{1}{2}ab\sin C$. $\sin C=\sqrt{1-\cos^2 C}$. $\cos C=\frac{a^2+b^2-c^2}{2ab}$.
 
-$S^2=\frac{a^2b^2}{4}(1-\cos^2 C)=\frac{a^2b^2}{4}\left(1-\frac{(a^2+b^2-c^2)^2}{4a^2b^2}\right)=\frac{4a^2b^2-(a^2+b^2-c^2)^2}{16}$.
+$S^2=\frac{a^2b^2}{4}\left(1-\cos^2 C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
 
-$=\frac{(2ab-a^2-b^2+c^2)(2ab+a^2+b^2-c^2)}{16}=\frac{(c^2-(a-b)^2)((a+b)^2-c^2)}{16}$.
+$=\frac{\left(2ab-a^2-b^2+c^2\right)\left(2ab+a^2+b^2-c^2\right)}{16}=\frac{\left(c^2-\left(a-b\right)^2\right)\left(\left(a+b\right)^2-c^2\right)}{16}$.
 
-$=\frac{(c-a+b)(c+a-b)(a+b-c)(a+b+c)}{16}$.
+$=\frac{\left(c-a+b\right)\left(c+a-b\right)\left(a+b-c\right)\left(a+b+c\right)}{16}$.
 
-$=p(p-a)(p-b)(p-c)$. $S=\sqrt{p(p-a)(p-b)(p-c)}$.
+$=p\left(p-a\right)\left(p-b\right)\left(p-c\right)$. $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
 
-(2) $S=rp$. $r=\frac{S}{p}=\frac{\sqrt{p(p-a)(p-b)(p-c)}}{p}=\sqrt{\frac{(p-a)(p-b)(p-c)}{p}}$.
+(2) $S=rp$. $r=\frac{S}{p}=\frac{\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}}{p}=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$.
 
-(3) $S=\frac{1}{2}ah_a$. $h_a=\frac{2S}{a}=\frac{2}{a}\sqrt{p(p-a)(p-b)(p-c)}$. 同理 $h_b$, $h_c$. $\blacksquare$
+(3) $S=\frac{1}{2}ah_a$. $h_a=\frac{2S}{a}=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$. 同理 $h_b$, $h_c$. $\blacksquare$
 
 ### 习题二十一
 
@@ -666,13 +666,13 @@ $=p(p-a)(p-b)(p-c)$. $S=\sqrt{p(p-a)(p-b)(p-c)}$.
 
 (1) 由正弦定理: $\sin A\cos C+\sqrt 3\sin A\sin C-\sin B-\sin C=0$.
 
-$B=\pi-A-C$. $\sin B=\sin(A+C)=\sin A\cos C+\cos A\sin C$.
+$B=\pi-A-C$. $\sin B=\sin\left(A+C\right)=\sin A\cos C+\cos A\sin C$.
 
 $\sin A\cos C+\sqrt 3\sin A\sin C-\sin A\cos C-\cos A\sin C-\sin C=0$.
 
-$(\sqrt 3\sin A-\cos A-1)\sin C=0$.
+$\left(\sqrt 3\sin A-\cos A-1\right)\sin C=0$.
 
-$\sqrt 3\sin A-\cos A=1$. $2\sin(A-30^{\circ})=1$. $\sin(A-30^{\circ})=\frac{1}{2}$.
+$\sqrt 3\sin A-\cos A=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
 
 $A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
 
@@ -680,7 +680,7 @@ $A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
 
 $a^2=b^2+c^2-2bc\cos A$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
 
-$b^2+c^2=8$. $(b+c)^2=b^2+c^2+2bc=16$. $b+c=4$.
+$b^2+c^2=8$. $\left(b+c\right)^2=b^2+c^2+2bc=16$. $b+c=4$.
 
 $bc=4$, $b+c=4$. $b=c=2$. $\blacksquare$
 

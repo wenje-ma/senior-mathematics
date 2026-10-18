@@ -26,7 +26,7 @@
 
 > **定义 2.3.2** (二次函数的零点) <br>使 $ax^2+bx+c=0$ 的实数 $x$.
 
-> **常用结论 2.3.3** (一元二次不等式的解集) <br>$a>0$ 时, $\Delta>0$: $>0$ 解集 $\{x\mid x<x_1$ 或 $x>x_2\}$, $<0$ 解集 $\{x\mid x_1<x<x_2\}$; $\Delta=0$: $>0$ 解集 $\{x\mid x\neq-\frac{b}{2a}\}$, $<0$ 解集 $\varnothing$; $\Delta<0$: $>0$ 解集 $\mathbb R$, $<0$ 解集 $\varnothing$.
+> **常用结论 2.3.3** (一元二次不等式的解集) <br>$a>0$ 时, $\Delta>0$: $>0$ 解集 $\left\{x\mid x<x_1$ 或 $x>x_2\right\}$, $<0$ 解集 $\left\{x\mid x_1<x<x_2\right\}$; $\Delta=0$: $>0$ 解集 $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, $<0$ 解集 $\varnothing$; $\Delta<0$: $>0$ 解集 $\mathbb R$, $<0$ 解集 $\varnothing$.
 
 ### 习题一
 
@@ -102,11 +102,11 @@ $\blacksquare$
 
 (1) 整理得 $4x^2+x-14\le0$. 方程 $4x^2+x-14=0$ 的根为 $x=-2,\frac{7}{4}$, 故解集为 $\left\{x\mid-2\le x\le\frac{7}{4}\right\}$.
 
-(2) $\left(x-5\right)\left(x-9\right)\le0$, 根为 $x=5,9$, 故解集为 $\{x\mid5\le x\le9\}$.
+(2) $\left(x-5\right)\left(x-9\right)\le0$, 根为 $x=5,9$, 故解集为 $\left\{x\mid5\le x\le9\right\}$.
 
 (3) $\Delta=36-40=-4<0$, 开口向上, 故解集为 $\mathbb R$.
 
-(4) 展开整理得 $2x^2-x-1>0$, 即 $\left(2x+1\right)\left(x-1\right)>0$, 根为 $x=-\frac{1}{2},1$, 故解集为 $\{x\mid x<-\frac{1}{2}$ 或 $x>1\}$. $\blacksquare$
+(4) 展开整理得 $2x^2-x-1>0$, 即 $\left(2x+1\right)\left(x-1\right)>0$, 根为 $x=-\frac{1}{2},1$, 故解集为 $\left\{x\mid x<-\frac{1}{2}$ 或 $x>1\right\}$. $\blacksquare$
 
 ### 习题五
 
@@ -122,7 +122,7 @@ $$
 t^2\ge2t+3,
 $$
 
-即 $\left(t-3\right)\left(t+1\right)\ge0$. 因 $t>0$, 故 $t\ge3$, 从而 $ab=t^2\ge9$. 当且仅当 $a=b=3$ 时取等号. 故 $ab$ 的取值范围为 $\{x\mid x\ge9\}$. $\blacksquare$
+即 $\left(t-3\right)\left(t+1\right)\ge0$. 因 $t>0$, 故 $t\ge3$, 从而 $ab=t^2\ge9$. 当且仅当 $a=b=3$ 时取等号. 故 $ab$ 的取值范围为 $\left\{x\mid x\ge9\right\}$. $\blacksquare$
 
 ### 习题六
 

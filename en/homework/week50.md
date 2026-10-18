@@ -2,7 +2,7 @@
 
 > **Definition 6.2.1** (Triangle Rule for Vector Addition) <br>Given nonzero vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, take any point $A$ in the plane, draw $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{BC}=\boldsymbol{b}$; then the vector $\boldsymbol{AC}$ is called the sum of $\boldsymbol{a}$ and $\boldsymbol{b}$, denoted $\boldsymbol{a}+\boldsymbol{b}$. The operation of finding the sum of two vectors is called vector addition, and this method is called the triangle rule for vector addition.
 
-> **Definition 6.2.5** (Vector Subtraction) <br>Adding the opposite vector of $\boldsymbol{b}$ to the vector $\boldsymbol{a}$ is called the difference of $\boldsymbol{a}$ and $\boldsymbol{b}$, i.e. $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
+> **Definition 6.2.5** (Vector Subtraction) <br>Adding the opposite vector of $\boldsymbol{b}$ to the vector $\boldsymbol{a}$ is called the difference of $\boldsymbol{a}$ and $\boldsymbol{b}$, i.e. $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
 > **Definition 6.2.6** (Scalar Multiplication of Vectors) <br>The product of a real number $\lambda$ and a vector $\boldsymbol{a}$ is a vector, denoted $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; when $\lambda>0$, the direction of $\lambda\boldsymbol{a}$ is the same as that of $\boldsymbol{a}$; when $\lambda<0$, the direction is opposite.
 
@@ -12,7 +12,7 @@
 
 > **Common Result 6.2.13** (Properties of the Dot Product) <br>$\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$; when in the same direction $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$, when in opposite directions $\boldsymbol{a}\cdot\boldsymbol{b}=-\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$; $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$; $\lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$.
 
-> **Common Result 6.2.14** (Operation Laws of the Dot Product) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$; $(\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
+> **Common Result 6.2.14** (Operation Laws of the Dot Product) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$; $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
 
 > **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors) <br>If $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors in the same plane, then for any vector $\boldsymbol{a}$ in this plane there is a unique pair of real numbers $\lambda_1$, $\lambda_2$ such that $\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. Here, the non-collinear vectors $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are called a basis for all vectors in this plane.
 
@@ -59,7 +59,7 @@ By **Common Result 6.4.1** (Three-Step Procedure for Vector Methods), first repr
 (1) Prove the Pythagorean theorem. In $\triangle ABC$, $\angle C=90^{\circ}$. By **Definition 6.2.1** (Triangle Rule for Vector Addition), $\boldsymbol{AB}=\boldsymbol{AC}+\boldsymbol{CB}$. By **Definition 6.2.11** (Dot Product), take the dot product of each side with itself, then expand by **Common Result 6.2.14** (Operation Laws of the Dot Product), obtaining
 
 $$
-\boldsymbol{AB}\cdot\boldsymbol{AB}=(\boldsymbol{AC}+\boldsymbol{CB})\cdot(\boldsymbol{AC}+\boldsymbol{CB})=\boldsymbol{AC}\cdot\boldsymbol{AC}+\boldsymbol{CB}\cdot\boldsymbol{CB}+2\boldsymbol{AC}\cdot\boldsymbol{CB}.
+\boldsymbol{AB}\cdot\boldsymbol{AB}=\left(\boldsymbol{AC}+\boldsymbol{CB}\right)\cdot\left(\boldsymbol{AC}+\boldsymbol{CB}\right)=\boldsymbol{AC}\cdot\boldsymbol{AC}+\boldsymbol{CB}\cdot\boldsymbol{CB}+2\boldsymbol{AC}\cdot\boldsymbol{CB}.
 $$
 
 By $\boldsymbol{CB}\perp\boldsymbol{AC}$ and **Common Result 6.2.13** (Properties of the Dot Product), $\boldsymbol{AC}\cdot\boldsymbol{CB}=0$, and by $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$ in **Common Result 6.2.13** (Properties of the Dot Product), we get
@@ -73,7 +73,7 @@ This gives the Pythagorean theorem. The whole proof uses only the triangle loop 
 (2) Prove the triangle midline theorem. Let $D$ and $E$ be the midpoints of $AB$ and $AC$ respectively. By the meaning of a midpoint and **Definition 6.2.6** (Scalar Multiplication of Vectors), $\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AC}$. By **Definition 6.2.5** (Vector Subtraction), we get
 
 $$
-\boldsymbol{DE}=\boldsymbol{AE}-\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AC}-\frac{1}{2}\boldsymbol{AB}=\frac{1}{2}(\boldsymbol{AC}-\boldsymbol{AB})=\frac{1}{2}\boldsymbol{BC}.
+\boldsymbol{DE}=\boldsymbol{AE}-\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AC}-\frac{1}{2}\boldsymbol{AB}=\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AB}\right)=\frac{1}{2}\boldsymbol{BC}.
 $$
 
 By **Theorem 6.2.8** (Collinear Vectors Theorem), $\boldsymbol{DE}$ and $\boldsymbol{BC}$ are collinear, i.e. $DE\parallel BC$, and $\lvert\boldsymbol{DE}\rvert=\frac{1}{2}\lvert\boldsymbol{BC}\rvert$, i.e. $DE=\frac{1}{2}BC$.
@@ -105,13 +105,13 @@ $$
 (2) Represent $\boldsymbol{BC}$ with the basis. Since $E$, $F$ are the midpoints of $CA$, $AB$ respectively, and by **Definition 6.2.6** (Scalar Multiplication of Vectors), $\boldsymbol{AC}=2\boldsymbol{EC}$, $\boldsymbol{AB}=2\boldsymbol{FB}$. By **Definition 6.2.5** (Vector Subtraction), we get
 
 $$
-\boldsymbol{BC}=\boldsymbol{AC}-\boldsymbol{AB}=2\boldsymbol{EC}-2\boldsymbol{FB}=2(t_1\boldsymbol{OB}+\boldsymbol{OC})-2(t_2\boldsymbol{OC}+\boldsymbol{OB})=2(t_1-1)\boldsymbol{OB}-2(t_2-1)\boldsymbol{OC}.
+\boldsymbol{BC}=\boldsymbol{AC}-\boldsymbol{AB}=2\boldsymbol{EC}-2\boldsymbol{FB}=2\left(t_1\boldsymbol{OB}+\boldsymbol{OC}\right)-2\left(t_2\boldsymbol{OC}+\boldsymbol{OB}\right)=2\left(t_1-1\right)\boldsymbol{OB}-2\left(t_2-1\right)\boldsymbol{OC}.
 $$
 
 (3) Compare coefficients to find $t_1$, $t_2$. On the other hand, by **Definition 6.2.5** (Vector Subtraction), $\boldsymbol{BC}=\boldsymbol{OC}-\boldsymbol{OB}=-\boldsymbol{OB}+\boldsymbol{OC}$. By **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors), the decomposition of the same vector in the basis $\boldsymbol{OB}$, $\boldsymbol{OC}$ is unique, so the corresponding coefficients are equal, giving
 
 $$
-2(t_1-1)=-1,\quad -2(t_2-1)=1.
+2\left(t_1-1\right)=-1,\quad -2\left(t_2-1\right)=1.
 $$
 
 Solving gives $t_1=\frac{1}{2}$, $t_2=\frac{1}{2}$. Hence
@@ -123,13 +123,13 @@ $$
 (4) Prove that $A$, $O$, $D$ are collinear. By **Definition 6.2.1** (Triangle Rule for Vector Addition), and noting that $F$ is the midpoint of $AB$, $\boldsymbol{AF}=\boldsymbol{FB}$, we get
 
 $$
-\boldsymbol{AO}=\boldsymbol{AF}+\boldsymbol{FO}=\boldsymbol{FB}+\boldsymbol{FO}=(t_2\boldsymbol{OC}+\boldsymbol{OB})+t_2\boldsymbol{OC}=2t_2\boldsymbol{OC}+\boldsymbol{OB}=\boldsymbol{OB}+\boldsymbol{OC}.
+\boldsymbol{AO}=\boldsymbol{AF}+\boldsymbol{FO}=\boldsymbol{FB}+\boldsymbol{FO}=\left(t_2\boldsymbol{OC}+\boldsymbol{OB}\right)+t_2\boldsymbol{OC}=2t_2\boldsymbol{OC}+\boldsymbol{OB}=\boldsymbol{OB}+\boldsymbol{OC}.
 $$
 
-Also $D$ is the midpoint of $BC$; by **Definition 6.2.6** (Scalar Multiplication of Vectors) and **Definition 6.2.5** (Vector Subtraction), $\boldsymbol{BD}=\frac{1}{2}\boldsymbol{BC}=\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OB})$. Then by **Definition 6.2.1** (Triangle Rule for Vector Addition), we get
+Also $D$ is the midpoint of $BC$; by **Definition 6.2.6** (Scalar Multiplication of Vectors) and **Definition 6.2.5** (Vector Subtraction), $\boldsymbol{BD}=\frac{1}{2}\boldsymbol{BC}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OB}\right)$. Then by **Definition 6.2.1** (Triangle Rule for Vector Addition), we get
 
 $$
-\boldsymbol{OD}=\boldsymbol{OB}+\boldsymbol{BD}=\boldsymbol{OB}+\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OB})=\frac{1}{2}(\boldsymbol{OB}+\boldsymbol{OC}).
+\boldsymbol{OD}=\boldsymbol{OB}+\boldsymbol{BD}=\boldsymbol{OB}+\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OB}\right)=\frac{1}{2}\left(\boldsymbol{OB}+\boldsymbol{OC}\right).
 $$
 
 Hence

@@ -2,11 +2,11 @@
 
 > **Definition 4.2.1** (Arithmetic Sequence) <br>If, starting from the $2$nd term, the difference between every term and the preceding term of a sequence equals the same constant, then the sequence is called an arithmetic sequence, and this constant is called the common difference of the arithmetic sequence, usually denoted by the letter $d$.
 > **Definition 4.2.2** (Arithmetic Mean) <br>For an arithmetic sequence formed by three numbers $a,A,b$, $A$ is called the arithmetic mean of $a$ and $b$. By the definition of an arithmetic sequence, $2A=a+b$.
-> **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence) <br>For an arithmetic sequence $\{a_n\}$ with first term $a_1$ and common difference $d$, the general term formula is $a_n=a_1+(n-1)d$.
-> **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions) <br>When $d\ne 0$, $a_n=dn+(a_1-d)$ is the value of the linear function $f(x)=dx+(a_1-d)$ at $x=n$.
-> **Theorem 4.2.5** (Properties of Arithmetic Sequences) <br>In an arithmetic sequence $\{a_n\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
-> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>The sum of the first $n$ terms of an arithmetic sequence $\{a_n\}$ is $S_n=\frac{n(a_1+a_n)}{2}$.
-> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>The sum of the first $n$ terms of an arithmetic sequence $\{a_n\}$ is $S_n=na_1+\frac{n(n-1)}{2}d$.
+> **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence) <br>For an arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$, the general term formula is $a_n=a_1+\left(n-1\right)d$.
+> **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions) <br>When $d\ne 0$, $a_n=dn+\left(a_1-d\right)$ is the value of the linear function $f\left(x\right)=dx+\left(a_1-d\right)$ at $x=n$.
+> **Theorem 4.2.5** (Properties of Arithmetic Sequences) <br>In an arithmetic sequence $\left\{a_n\right\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
 
 ### Exercise 1
 
@@ -30,7 +30,7 @@ $\blacksquare$
 
 $\blacksquare$
 
-(3) By **Definition 4.2.1** (Arithmetic Sequence), $-2-1=-3$, $3-(-2)=5$, the differences are not equal, so it is not an arithmetic sequence.
+(3) By **Definition 4.2.1** (Arithmetic Sequence), $-2-1=-3$, $3-\left(-2\right)=5$, the differences are not equal, so it is not an arithmetic sequence.
 
 $\blacksquare$
 
@@ -62,7 +62,7 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 3) Given that $\{a_n\}$ is an arithmetic sequence, fill in the blanks in the following table with appropriate numbers
+(Exercise 4.2, Problem 3) Given that $\left\{a_n\right\}$ is an arithmetic sequence, fill in the blanks in the following table with appropriate numbers
 
 First row: $a_1=-7,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ d=\underline{\quad}$;
 
@@ -76,15 +76,15 @@ $$
 a_3=-7+2\times 3.75=0.5,\ a_7=-7+6\times 3.75=15.5.
 $$
 
-Second row: By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_3=a_1+2d$, i.e. $2=a_1+2\times(-6.5)$, so $a_1=15$.
+Second row: By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_3=a_1+2d$, i.e. $2=a_1+2\times\left(-6.5\right)$, so $a_1=15$.
 
 $$
-a_5=15+4\times(-6.5)=-11,\ a_7=15+6\times(-6.5)=-24.
+a_5=15+4\times\left(-6.5\right)=-11,\ a_7=15+6\times\left(-6.5\right)=-24.
 $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) In an arithmetic sequence $\{a_n\}$, given $a_4+a_8=20$ and $a_7=12$, find $a_4$
+(Exercise 4.2, Problem 4) In an arithmetic sequence $\left\{a_n\right\}$, given $a_4+a_8=20$ and $a_7=12$, find $a_4$
 
 ### Solution to Exercise 1
 
@@ -127,7 +127,7 @@ By **Definition 4.2.1** (Arithmetic Sequence), the seat numbers form an arithmet
 By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence),
 
 $$
-a_n=15+(n-1)\times 2=2n+13.
+a_n=15+\left(n-1\right)\times 2=2n+13.
 $$
 
 The number of seats in the $10$th row is
@@ -154,43 +154,43 @@ By **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions), all 
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 3) In an arithmetic sequence $\{a_n\}$, given $a_n=m$ and $a_m=n$, find $a_{m+n}$
+(Exercise 4.2, Problem 3) In an arithmetic sequence $\left\{a_n\right\}$, given $a_n=m$ and $a_m=n$, find $a_{m+n}$
 
 ### Solution to Exercise 2
 
 By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence),
 
 $$
-a_n=a_1+(n-1)d=m,\ a_m=a_1+(m-1)d=n.
+a_n=a_1+\left(n-1\right)d=m,\ a_m=a_1+\left(m-1\right)d=n.
 $$
 
-Subtracting the two equations gives $(n-m)d=m-n$, hence $d=-1$.
+Subtracting the two equations gives $\left(n-m\right)d=m-n$, hence $d=-1$.
 
-Substituting back into $a_1+(n-1)(-1)=m$, we get $a_1=m+n-1$.
+Substituting back into $a_1+\left(n-1\right)\left(-1\right)=m$, we get $a_1=m+n-1$.
 
 Hence
 
 $$
-a_{m+n}=a_1+(m+n-1)d=m+n-1-(m+n-1)=0.
+a_{m+n}=a_1+\left(m+n-1\right)d=m+n-1-\left(m+n-1\right)=0.
 $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) Given that both sequences $\{a_n\},\{b_n\}$ are arithmetic sequences and $c_n=a_n+b_n$, prove that $\{c_n\}$ is also an arithmetic sequence
+(Exercise 4.2, Problem 4) Given that both sequences $\left\{a_n\right\},\left\{b_n\right\}$ are arithmetic sequences and $c_n=a_n+b_n$, prove that $\left\{c_n\right\}$ is also an arithmetic sequence
 
 ### Solution to Exercise 2
 
-By **Definition 4.2.1** (Arithmetic Sequence), let the common difference of $\{a_n\}$ be $d_1$ and that of $\{b_n\}$ be $d_2$.
+By **Definition 4.2.1** (Arithmetic Sequence), let the common difference of $\left\{a_n\right\}$ be $d_1$ and that of $\left\{b_n\right\}$ be $d_2$.
 
 $$
-c_{n+1}-c_n=(a_{n+1}+b_{n+1})-(a_n+b_n)=(a_{n+1}-a_n)+(b_{n+1}-b_n)=d_1+d_2.
+c_{n+1}-c_n=\left(a_{n+1}+b_{n+1}\right)-\left(a_n+b_n\right)=\left(a_{n+1}-a_n\right)+\left(b_{n+1}-b_n\right)=d_1+d_2.
 $$
 
-The difference is the constant $d_1+d_2$; by **Definition 4.2.1** (Arithmetic Sequence), $\{c_n\}$ is an arithmetic sequence.
+The difference is the constant $d_1+d_2$; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{c_n\right\}$ is an arithmetic sequence.
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 5) Given an infinite arithmetic sequence $\{a_n\}$ with first term $a_1$ and common difference $d$
+(Exercise 4.2, Problem 5) Given an infinite arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$
 
 (1) Remove the first $m$ terms of the sequence; the remaining terms form a new sequence. Is this new sequence an arithmetic sequence? If so, what are its first term and common difference?
 
@@ -208,7 +208,7 @@ $\blacksquare$
 
 ### Exercise 3
 
-(Exercise 4.2, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding arithmetic sequence $\{a_n\}$
+(Exercise 4.2, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding arithmetic sequence $\left\{a_n\right\}$
 
 (1) $a_1=5,\ a_n=-23,\ n=8$;
 
@@ -223,7 +223,7 @@ $\blacksquare$
 (1) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-S_8=\frac{8\times(5-23)}{2}=-72.
+S_8=\frac{8\times\left(5-23\right)}{2}=-72.
 $$
 
 $\blacksquare$
@@ -231,29 +231,29 @@ $\blacksquare$
 (2) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
 
 $$
-S_{10}=10\times(-4)+\frac{10\times 9}{2}\times 4=-40+180=140.
+S_{10}=10\times\left(-4\right)+\frac{10\times 9}{2}\times 4=-40+180=140.
 $$
 
 $\blacksquare$
 
-(3) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $32=14.5+(n-1)\times 0.7$, so $n-1=25$ and $n=26$.
+(3) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $32=14.5+\left(n-1\right)\times 0.7$, so $n-1=25$ and $n=26$.
 
 By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-S_{26}=\frac{26\times(14.5+32)}{2}=13\times 46.5=604.5.
+S_{26}=\frac{26\times\left(14.5+32\right)}{2}=13\times 46.5=604.5.
 $$
 
 $\blacksquare$
 
 (4) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_3=a_1+2\times 0.7=14.5$, so $a_1=13.1$.
 
-$32=13.1+(n-1)\times 0.7$, so $n-1=27$ and $n=28$.
+$32=13.1+\left(n-1\right)\times 0.7$, so $n-1=27$ and $n=28$.
 
 By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-S_{28}=\frac{28\times(13.1+32)}{2}=14\times 45.1=631.4.
+S_{28}=\frac{28\times\left(13.1+32\right)}{2}=14\times 45.1=631.4.
 $$
 
 $\blacksquare$
@@ -267,14 +267,14 @@ By **Definition 4.2.1** (Arithmetic Sequence), $a_1=-1$ and $d=-2$.
 By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
 
 $$
-S_n=-n+\frac{n(n-1)}{2}\times(-2)=-n-n(n-1)=-n^2.
+S_n=-n+\frac{n\left(n-1\right)}{2}\times\left(-2\right)=-n-n\left(n-1\right)=-n^2.
 $$
 
 Setting $-n^2=-100$ gives $n=10$. The sum of the first $10$ terms is $-100$.
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 3) In an arithmetic sequence $\{a_n\}$, let $S_n$ be the sum of its first $n$ terms. Given $S_4=6$ and $S_8=20$, find $S_{16}$
+(Exercise 4.2, Problem 3) In an arithmetic sequence $\left\{a_n\right\}$, let $S_n$ be the sum of its first $n$ terms. Given $S_4=6$ and $S_8=20$, find $S_{16}$
 
 ### Solution to Exercise 3
 
@@ -292,15 +292,15 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) In an arithmetic sequence $\{a_n\}$, if $S_{15}=5(a_2+a_6+a_k)$, find $k$
+(Exercise 4.2, Problem 4) In an arithmetic sequence $\left\{a_n\right\}$, if $S_{15}=5\left(a_2+a_6+a_k\right)$, find $k$
 
 ### Solution to Exercise 3
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I), $S_{15}=\frac{15(a_1+a_{15})}{2}$.
+By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I), $S_{15}=\frac{15\left(a_1+a_{15}\right)}{2}$.
 
 By **Theorem 4.2.5** (Properties of Arithmetic Sequences), $a_1+a_{15}=2a_8$, hence $S_{15}=15a_8$.
 
-From $S_{15}=5(a_2+a_6+a_k)$, we get $3a_8=a_2+a_6+a_k$.
+From $S_{15}=5\left(a_2+a_6+a_k\right)$, we get $3a_8=a_2+a_6+a_k$.
 
 By **Theorem 4.2.5** (Properties of Arithmetic Sequences), $a_2+a_6=2a_4$, hence $3a_8=2a_4+a_k$.
 
@@ -314,10 +314,10 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-Let the number of terms be $2n+1$. By **Theorem 4.2.5** (Properties of Arithmetic Sequences), the sum of the odd-positioned terms is $(n+1)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
+Let the number of terms be $2n+1$. By **Theorem 4.2.5** (Properties of Arithmetic Sequences), the sum of the odd-positioned terms is $\left(n+1\right)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
 
 $$
-(n+1)a_{n+1}=44,\ na_{n+1}=33.
+\left(n+1\right)a_{n+1}=44,\ na_{n+1}=33.
 $$
 
 Dividing the two equations, $\frac{n+1}{n}=\frac{44}{33}=\frac{4}{3}$, gives $n=3$.
@@ -340,7 +340,7 @@ Since $1048575>1000$, choose the second option.
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 2) Given that the sum of the first $n$ terms of a sequence $\{a_n\}$ is $S_n=\frac{1}{4}n^2+\frac{2}{3}n+3$, find the general term formula of $\{a_n\}$
+(Exercise 4.2, Problem 2) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n=\frac{1}{4}n^2+\frac{2}{3}n+3$, find the general term formula of $\left\{a_n\right\}$
 
 ### Solution to Exercise 4
 
@@ -349,7 +349,7 @@ By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $
 When $n\ge 2$,
 
 $$
-a_n=S_n-S_{n-1}=\left(\frac{1}{4}n^2+\frac{2}{3}n+3\right)-\left[\frac{1}{4}(n-1)^2+\frac{2}{3}(n-1)+3\right]=\frac{1}{4}(2n-1)+\frac{2}{3}=\frac{n}{2}+\frac{5}{12}.
+a_n=S_n-S_{n-1}=\left(\frac{1}{4}n^2+\frac{2}{3}n+3\right)-\left[\frac{1}{4}\left(n-1\right)^2+\frac{2}{3}\left(n-1\right)+3\right]=\frac{1}{4}\left(2n-1\right)+\frac{2}{3}=\frac{n}{2}+\frac{5}{12}.
 $$
 
 Checking at $n=1$, $\frac{1}{2}+\frac{5}{12}=\frac{11}{12}\ne\frac{47}{12}$, so the general term formula is
@@ -366,21 +366,21 @@ $\blacksquare$
 
 By **Definition 4.2.1** (Arithmetic Sequence), $a_1=-4.2$ and $d=0.5$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=-4.2+(n-1)\times 0.5=0.5n-4.7$.
+By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=-4.2+\left(n-1\right)\times 0.5=0.5n-4.7$.
 
 Setting $a_n\le 0$ gives $n\le 9.4$, i.e. the first $9$ terms are negative and the $10$th term is positive.
 
 By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
 
 $$
-S_9=9\times(-4.2)+\frac{9\times 8}{2}\times 0.5=-37.8+18=-19.8.
+S_9=9\times\left(-4.2\right)+\frac{9\times 8}{2}\times 0.5=-37.8+18=-19.8.
 $$
 
 The minimum value of $S_n$ is $-19.8$, corresponding to $n=9$.
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m<60\}$, and find the sum of these elements
+(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m<60\right\}$, and find the sum of these elements
 
 ### Solution to Exercise 4
 
@@ -391,12 +391,12 @@ These elements are $1,3,5,\cdots,59$, forming an arithmetic sequence with first 
 By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-S_{30}=\frac{30\times(1+59)}{2}=900.
+S_{30}=\frac{30\times\left(1+59\right)}{2}=900.
 $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 5) Given that the general term of a sequence $\{a_n\}$ is $a_n=\frac{n-2}{2n-15}$, find the value of $n$ at which $S_n$ attains its minimum
+(Exercise 4.2, Problem 5) Given that the general term of a sequence $\left\{a_n\right\}$ is $a_n=\frac{n-2}{2n-15}$, find the value of $n$ at which $S_n$ attains its minimum
 
 ### Solution to Exercise 4
 
@@ -410,7 +410,7 @@ $\blacksquare$
 
 ### Problem 1
 
-(Exercise 4.2, Review and Consolidation, Problem 1) In an arithmetic sequence $\{a_n\}$
+(Exercise 4.2, Review and Consolidation, Problem 1) In an arithmetic sequence $\left\{a_n\right\}$
 
 (1) Given $d=3$, $a_n=21$, $S_n=60$, find $a_1$ and $n$;
 
@@ -425,21 +425,21 @@ $\blacksquare$
 (1) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence) and **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
 
 $$
-a_1+3(n-1)=21,\ na_1+\frac{3n(n-1)}{2}=60.
+a_1+3\left(n-1\right)=21,\ na_1+\frac{3n\left(n-1\right)}{2}=60.
 $$
 
-From the first equation, $a_1=24-3n$; substituting into the second gives $n(24-3n)+\frac{3n(n-1)}{2}=60$, and solving yields $n=5$, $a_1=9$.
+From the first equation, $a_1=24-3n$; substituting into the second gives $n\left(24-3n\right)+\frac{3n\left(n-1\right)}{2}=60$, and solving yields $n=5$, $a_1=9$.
 
 $\blacksquare$
 
 (2) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
 
 $$
-6n-n(n-1)=-60,\ n^2-7n-60=0,\ n=12.
+6n-n\left(n-1\right)=-60,\ n^2-7n-60=0,\ n=12.
 $$
 
 $$
-a_{12}=6+11\times(-2)=-16.
+a_{12}=6+11\times\left(-2\right)=-16.
 $$
 
 $\blacksquare$
@@ -447,24 +447,24 @@ $\blacksquare$
 (3) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-\frac{n(8-2)}{2}=-30,\ 3n=-30,\ n=-10.
+\frac{n\left(8-2\right)}{2}=-30,\ 3n=-30,\ n=-10.
 $$
 
-This does not fit the problem; check: $\frac{n(8+(-2))}{2}=-30$, $3n=-30$, $n=-10$, which is unreasonable. Recalculating: $S_n=\frac{n(a_1+a_n)}{2}=\frac{n(8-2)}{2}=3n=-30$, giving $n=-10$, with no positive integer solution.
+This does not fit the problem; check: $\frac{n\left(8+\left(-2\right)\right)}{2}=-30$, $3n=-30$, $n=-10$, which is unreasonable. Recalculating: $S_n=\frac{n\left(a_1+a_n\right)}{2}=\frac{n\left(8-2\right)}{2}=3n=-30$, giving $n=-10$, with no positive integer solution.
 
 $\blacksquare$
 
 (4) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-\frac{7(a_1-0.6)}{2}=-3.5,\ a_1-0.6=-1,\ a_1=-0.4.
+\frac{7\left(a_1-0.6\right)}{2}=-3.5,\ a_1-0.6=-1,\ a_1=-0.4.
 $$
 
 By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $-0.6=-0.4+6d$, so $d=-\frac{0.2}{6}=-\frac{1}{30}$.
 
 $\blacksquare$
 
-(Exercise 4.2, Review and Consolidation, Problem 2) In an arithmetic sequence $\{a_n\}$, given $a_1+a_3+a_5=105$ and $a_2+a_4+a_6=99$, find $a_{20}$
+(Exercise 4.2, Review and Consolidation, Problem 2) In an arithmetic sequence $\left\{a_n\right\}$, given $a_1+a_3+a_5=105$ and $a_2+a_4+a_6=99$, find $a_{20}$
 
 ### Solution to Problem 1
 
@@ -480,11 +480,11 @@ $\blacksquare$
 
 (Exercise 4.2, Review and Consolidation, Problem 3) Find the sum of each of the following
 
-(1) $1+3+5+\cdots+(2n-1)$;
+(1) $1+3+5+\cdots+\left(2n-1\right)$;
 
 (2) $2+4+6+\cdots+2n$;
 
-(3) $1+4+7+\cdots+(3n-2)$;
+(3) $1+4+7+\cdots+\left(3n-2\right)$;
 
 (4) $\frac{1}{n}+\frac{2}{n}+\cdots+\frac{n}{n}$.
 
@@ -493,7 +493,7 @@ $\blacksquare$
 (1) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I), the first term is $1$ and the last term is $2n-1$,
 
 $$
-S_n=\frac{n(1+2n-1)}{2}=n^2.
+S_n=\frac{n\left(1+2n-1\right)}{2}=n^2.
 $$
 
 $\blacksquare$
@@ -501,7 +501,7 @@ $\blacksquare$
 (2) The first term is $2$ and the last term is $2n$,
 
 $$
-S_n=\frac{n(2+2n)}{2}=n(n+1).
+S_n=\frac{n\left(2+2n\right)}{2}=n\left(n+1\right).
 $$
 
 $\blacksquare$
@@ -509,7 +509,7 @@ $\blacksquare$
 (3) The first term is $1$ and the last term is $3n-2$,
 
 $$
-S_n=\frac{n(1+3n-2)}{2}=\frac{n(3n-1)}{2}.
+S_n=\frac{n\left(1+3n-2\right)}{2}=\frac{n\left(3n-1\right)}{2}.
 $$
 
 $\blacksquare$
@@ -528,10 +528,10 @@ $\blacksquare$
 
 By **Definition 4.2.1** (Arithmetic Sequence), the first term is $1986$ and the common difference is $76$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=1986+76(n-1)\le 3000$.
+By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=1986+76\left(n-1\right)\le 3000$.
 
 $$
-76(n-1)\le 1014,\ n-1\le 13.34,\ n\le 14.34.
+76\left(n-1\right)\le 1014,\ n-1\le 13.34,\ n\le 14.34.
 $$
 
 Hence it appears $14$ times in total.
@@ -547,45 +547,45 @@ By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), let the n
 By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-S_n=\frac{n(a_1+44)}{2}=158.
+S_n=\frac{n\left(a_1+44\right)}{2}=158.
 $$
 
-Also, $a_1=44-3(n-1)$; substituting,
+Also, $a_1=44-3\left(n-1\right)$; substituting,
 
 $$
-\frac{n(44-3(n-1)+44)}{2}=158,\ n(91-3n)=316,\ 3n^2-91n+316=0.
+\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\ n\left(91-3n\right)=316,\ 3n^2-91n+316=0.
 $$
 
 Solving gives $n=4$ or $n=\frac{79}{3}$ (discarded), so the number of sides is $4$.
 
 $\blacksquare$
 
-(Exercise 4.2, Comprehensive Application, Problem 6) The sums of the first $n$ terms of two arithmetic sequences $\{a_n\},\{b_n\}$ are $S_n,T_n$ respectively, and $\frac{S_n}{T_n}=\frac{2n+3}{n-1}$. Find $\frac{a_5}{b_5}$
+(Exercise 4.2, Comprehensive Application, Problem 6) The sums of the first $n$ terms of two arithmetic sequences $\left\{a_n\right\},\left\{b_n\right\}$ are $S_n,T_n$ respectively, and $\frac{S_n}{T_n}=\frac{2n+3}{n-1}$. Find $\frac{a_5}{b_5}$
 
 ### Solution to Problem 1
 
 By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I), $a_5=\frac{a_1+a_9}{2}$ and $b_5=\frac{b_1+b_9}{2}$.
 
 $$
-\frac{a_5}{b_5}=\frac{\frac{9(a_1+a_9)}{2}}{\frac{9(b_1+b_9)}{2}}=\frac{S_9}{T_9}=\frac{2\times 9+3}{9-1}=\frac{21}{8}.
+\frac{a_5}{b_5}=\frac{\frac{9\left(a_1+a_9\right)}{2}}{\frac{9\left(b_1+b_9\right)}{2}}=\frac{S_9}{T_9}=\frac{2\times 9+3}{9-1}=\frac{21}{8}.
 $$
 
 $\blacksquare$
 
-(Exercise 4.2, Comprehensive Application, Problem 7) Given that the sum of the first $n$ terms of a sequence $\{a_n\}$ is $S_n$, prove: (1) if $S_n=an^2+bn$, then $\{a_n\}$ is an arithmetic sequence; (2) if $\{a_n\}$ is an arithmetic sequence, then $\frac{S_n}{n}$ is an arithmetic sequence
+(Exercise 4.2, Comprehensive Application, Problem 7) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n$, prove: (1) if $S_n=an^2+bn$, then $\left\{a_n\right\}$ is an arithmetic sequence; (2) if $\left\{a_n\right\}$ is an arithmetic sequence, then $\frac{S_n}{n}$ is an arithmetic sequence
 
 ### Solution to Problem 1
 
-(1) By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=a+b$; when $n\ge 2$, $a_n=S_n-S_{n-1}=a(2n-1)+b=2an-a+b$.
+(1) By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=a+b$; when $n\ge 2$, $a_n=S_n-S_{n-1}=a\left(2n-1\right)+b=2an-a+b$.
 
-Checking that it also holds at $n=1$, $a_n=2an-a+b$, and $a_{n+1}-a_n=2a$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\{a_n\}$ is an arithmetic sequence.
+Checking that it also holds at $n=1$, $a_n=2an-a+b$, and $a_{n+1}-a_n=2a$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{a_n\right\}$ is an arithmetic sequence.
 
 $\blacksquare$
 
-(2) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $S_n=na_1+\frac{n(n-1)}{2}d$, hence
+(2) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $S_n=na_1+\frac{n\left(n-1\right)}{2}d$, hence
 
 $$
-\frac{S_n}{n}=a_1+\frac{(n-1)d}{2}.
+\frac{S_n}{n}=a_1+\frac{\left(n-1\right)d}{2}.
 $$
 
 $\frac{S_{n+1}}{n+1}-\frac{S_n}{n}=\frac{d}{2}$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{\frac{S_n}{n}\right\}$ is an arithmetic sequence.
@@ -596,14 +596,14 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-The first sequence has common difference $4$ and the second has common difference $6$; the common terms form an arithmetic sequence with common difference $\mathrm{lcm}(4,6)=12$.
+The first sequence has common difference $4$ and the second has common difference $6$; the common terms form an arithmetic sequence with common difference $\mathrm{lcm}\left(4,6\right)=12$.
 
-The first term is $2$ and the last term does not exceed $190$; the general term is $2+12(n-1)\le 190$, so $n\le 16.67$ and $n=16$, giving the last term $2+12\times 15=182$.
+The first term is $2$ and the last term does not exceed $190$; the general term is $2+12\left(n-1\right)\le 190$, so $n\le 16.67$ and $n=16$, giving the last term $2+12\times 15=182$.
 
 By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
 
 $$
-S_{16}=\frac{16(2+182)}{2}=1472.
+S_{16}=\frac{16\left(2+182\right)}{2}=1472.
 $$
 
 $\blacksquare$
@@ -636,18 +636,18 @@ In total, $96+96+24=216$ schemes.
 
 $\blacksquare$
 
-(Exercise 4.2, Extension and Exploration, Problem 10) Prove that in an arithmetic sequence $\{a_n\}$, $\frac{a_m-a_n}{m-n}=d$ ($m\ne n$)
+(Exercise 4.2, Extension and Exploration, Problem 10) Prove that in an arithmetic sequence $\left\{a_n\right\}$, $\frac{a_m-a_n}{m-n}=d$ ($m\ne n$)
 
 ### Solution to Problem 1
 
 By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence),
 
 $$
-a_m=a_1+(m-1)d,\ a_n=a_1+(n-1)d.
+a_m=a_1+\left(m-1\right)d,\ a_n=a_1+\left(n-1\right)d.
 $$
 
 $$
-a_m-a_n=(m-n)d,\ \frac{a_m-a_n}{m-n}=d.
+a_m-a_n=\left(m-n\right)d,\ \frac{a_m-a_n}{m-n}=d.
 $$
 
 $\blacksquare$
@@ -662,7 +662,7 @@ $\blacksquare$
 
 (1) By **Definition 4.2.1** (Arithmetic Sequence), the egg counts are $100,95,90,\cdots$, with common difference $-5$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=100-5(n-1)>0$, so $n-1<20$ and $n<21$.
+By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=100-5\left(n-1\right)>0$, so $n-1<20$ and $n<21$.
 
 At most $20$ layings: the $20$th laying produces $5$ eggs, and the $21$th would produce $0$ eggs.
 
@@ -682,7 +682,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.5** (General Term Formula), the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n(n+1)}{2}$ balls.
+(1) By **Definition 4.1.5** (General Term Formula), the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n\left(n+1\right)}{2}$ balls.
 
 $$
 \text{第五层}=\frac{5\times 6}{2}=15,\ \text{第六层}=\frac{6\times 7}{2}=21.
@@ -693,7 +693,7 @@ $\blacksquare$
 (2) The total number of balls in the first $n$ layers is
 
 $$
-S_n=\sum_{k=1}^n\frac{k(k+1)}{2}=\frac{1}{2}\left(\sum_{k=1}^n k^2+\sum_{k=1}^n k\right)=\frac{1}{2}\left[\frac{n(n+1)(2n+1)}{6}+\frac{n(n+1)}{2}\right]=\frac{n(n+1)(n+2)}{6}.
+S_n=\sum_{k=1}^n\frac{k\left(k+1\right)}{2}=\frac{1}{2}\left(\sum_{k=1}^n k^2+\sum_{k=1}^n k\right)=\frac{1}{2}\left[\frac{n\left(n+1\right)\left(2n+1\right)}{6}+\frac{n\left(n+1\right)}{2}\right]=\frac{n\left(n+1\right)\left(n+2\right)}{6}.
 $$
 
 $\blacksquare$

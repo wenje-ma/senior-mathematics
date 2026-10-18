@@ -6,7 +6,7 @@
 
 > **常用结论 4.3.3** (对数与指数的关系) <br>当 $a>0$, $a\neq 1$ 时, $a^x=N\Leftrightarrow x=\log_a N$. 负数和 $0$ 没有对数; $\log_a 1=0$, $\log_a a=1$.
 
-> **常用结论 4.3.4** (对数运算性质) <br>如果 $a>0$, 且 $a\neq 1$, $M>0$, $N>0$, 那么 (1) $\log_a(MN)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
+> **常用结论 4.3.4** (对数运算性质) <br>如果 $a>0$, 且 $a\neq 1$, $M>0$, $N>0$, 那么 (1) $\log_a\left(MN\right)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
 
 > **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, 且 $a\neq 1$; $b>0$; $c>0$, 且 $c\neq 1$).
 
@@ -84,7 +84,7 @@
 
 (1) $\log_{\frac{1}{3}} x=-3$ 化为 $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
 
-(2) $\log_x 49=4$ 化为 $x^4=49$, 又 $x>0$ 且 $x\neq 1$, 故 $x=\sqrt[4]{49}=\sqrt{7}$.
+(2) $\log_x 49=4$ 化为 $x^4=49$, 又 $x>0$ 且 $x\neq 1$, 故 $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
 
 (3) $\lg 0.00001=x$ 化为 $10^x=0.00001=10^{-5}$, 故 $x=-5$.
 
@@ -94,7 +94,7 @@
 
 (练习 4.3 第 4 题) 求下列各式的值.
 
-(1) $\log_3(27\times 9^2)$;
+(1) $\log_3\left(27\times 9^2\right)$;
 
 (2) $\lg 5+\lg 2$;
 
@@ -106,7 +106,7 @@
 
 由**常用结论 4.3.4** (对数运算性质).
 
-(1) 由 (1) (3), $\log_3(27\times 9^2)=\log_3 27+2\log_3 9=3+2\times 2=7$.
+(1) 由 (1) (3), $\log_3\left(27\times 9^2\right)=\log_3 27+2\log_3 9=3+2\times 2=7$.
 
 (2) 由 (1), $\lg 5+\lg 2=\lg 10=1$.
 
@@ -118,7 +118,7 @@
 
 (练习 4.3 第 5 题) 用 $\lg x$, $\lg y$, $\lg z$ 表示下列各式.
 
-(1) $\lg(xyz)$;
+(1) $\lg\left(xyz\right)$;
 
 (2) $\lg\frac{xy^2}{z}$;
 
@@ -130,7 +130,7 @@
 
 由**常用结论 4.3.4** (对数运算性质).
 
-(1) 由 (1), $\lg(xyz)=\lg x+\lg y+\lg z$.
+(1) 由 (1), $\lg\left(xyz\right)=\lg x+\lg y+\lg z$.
 
 (2) 由 (1) (2), $\lg\frac{xy^2}{z}=\lg x+2\lg y-\lg z$.
 
@@ -204,7 +204,7 @@ $\blacksquare$
 
 (习题 4.3 复习巩固第 2 题) 选择题.
 
-(1) 使式子 $\log_{(2x-1)}(2-x)$ 有意义的 $x$ 的取值范围是 ( ).
+(1) 使式子 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义的 $x$ 的取值范围是 ( ).
 
 (A) $x>2$ (B) $x<2$ (C) $\frac{1}{2}<x<2$ (D) $\frac{1}{2}<x<2$, 且 $x\neq 1$
 
@@ -216,9 +216,9 @@ $\blacksquare$
 
 由**定义 4.3.1** (对数) 与**常用结论 4.3.4** (对数运算性质).
 
-(1) 对数 $\log_{(2x-1)}(2-x)$ 有意义要求底数 $2x-1>0$ 且 $2x-1\neq 1$, 真数 $2-x>0$. 即 $x>\frac{1}{2}$, $x\neq 1$, $x<2$. 综合得 $\frac{1}{2}<x<2$ 且 $x\neq 1$, 故选 (D).
+(1) 对数 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义要求底数 $2x-1>0$ 且 $2x-1\neq 1$, 真数 $2-x>0$. 即 $x>\frac{1}{2}$, $x\neq 1$, $x<2$. 综合得 $\frac{1}{2}<x<2$ 且 $x\neq 1$, 故选 (D).
 
-(2) $\lg a$ 与 $\lg b$ 互为相反数, 即 $\lg a+\lg b=0$. 由**常用结论 4.3.4** (1), $\lg(ab)=0$, 故 $ab=1$, 选 (C). $\blacksquare$
+(2) $\lg a$ 与 $\lg b$ 互为相反数, 即 $\lg a+\lg b=0$. 由**常用结论 4.3.4** (1), $\lg\left(ab\right)=0$, 故 $ab=1$, 选 (C). $\blacksquare$
 
 ### 习题三
 
@@ -232,7 +232,7 @@ $\blacksquare$
 
 (4) $2\log_5 25-3\log_2 64$;
 
-(5) $\log_2(\log_2 16)$;
+(5) $\log_2\left(\log_2 16\right)$;
 
 (6) $\log_2 25\times\log_3 4\times\log_5 9$.
 
@@ -248,7 +248,7 @@ $\blacksquare$
 
 (4) $2\log_5 25-3\log_2 64=2\times 2-3\times 6=-14$.
 
-(5) $\log_2(\log_2 16)=\log_2 4=2$.
+(5) $\log_2\left(\log_2 16\right)=\log_2 4=2$.
 
 (6) 由换底公式, 原式 $=\frac{\ln 25}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 9}{\ln 5}=\frac{2\ln 5}{\ln 2}\cdot\frac{2\ln 2}{\ln 3}\cdot\frac{2\ln 3}{\ln 5}=8$. $\blacksquare$
 
@@ -262,19 +262,19 @@ $\blacksquare$
 
 (3) $\log_a x=\frac{1}{2}\log_a b-\log_a c$;
 
-(4) $\log_2\left[\log_3(\log_4 x)\right]=0$.
+(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$.
 
 ### 解答 习题四
 
 由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 由 (1), $\ln x=\ln(ab)$, 故 $x=ab$.
+(1) 由 (1), $\ln x=\ln\left(ab\right)$, 故 $x=ab$.
 
 (2) 由 (1) (2), $\lg x=\lg\frac{n^3}{m}$, 故 $x=\frac{n^3}{m}$.
 
 (3) 由 (2) (3), $\log_a x=\log_a\frac{\sqrt{b}}{c}$, 故 $x=\frac{\sqrt{b}}{c}$.
 
-(4) $\log_2\left[\log_3(\log_4 x)\right]=0$, 由 $\log_a 1=0$, 得 $\log_3(\log_4 x)=1$; 由 $a^1=a$, 得 $\log_4 x=3$; 故 $x=4^3=64$. $\blacksquare$
+(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$, 由 $\log_a 1=0$, 得 $\log_3\left(\log_4 x\right)=1$; 由 $a^1=a$, 得 $\log_4 x=3$; 故 $x=4^3=64$. $\blacksquare$
 
 ### 习题五
 
@@ -292,11 +292,11 @@ $\blacksquare$
 
 由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.5** (对数换底公式).
 
-(1) $\lg 6=\lg(2\times 3)=\lg 2+\lg 3=a+b$.
+(1) $\lg 6=\lg\left(2\times 3\right)=\lg 2+\lg 3=a+b$.
 
 (2) 由换底公式, $\log_3 4=\frac{\lg 4}{\lg 3}=\frac{2\lg 2}{\lg 3}=\frac{2a}{b}$.
 
-(3) 由换底公式, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg(3\times 4)}{\lg 2}=\frac{b+2a}{a}$.
+(3) 由换底公式, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg\left(3\times 4\right)}{\lg 2}=\frac{b+2a}{a}$.
 
 (4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
 
@@ -306,7 +306,7 @@ $\blacksquare$
 
 (1) 若 $x\log_3 4=1$, 求 $4^x+4^{-x}$ 的值;
 
-(2) 若 $f(x)=3^x$, 求 $f(\log_3 2)$ 的值.
+(2) 若 $f\left(x\right)=3^x$, 求 $f\left(\log_3 2\right)$ 的值.
 
 ### 解答 习题六
 
@@ -314,7 +314,7 @@ $\blacksquare$
 
 (1) 由 $x\log_3 4=1$, 得 $x=\log_4 3$. 故 $4^x=3$, $4^{-x}=\frac{1}{3}$, 从而 $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
 
-(2) $f(\log_3 2)=3^{\log_3 2}=2$. $\blacksquare$
+(2) $f\left(\log_3 2\right)=3^{\log_3 2}=2$. $\blacksquare$
 
 ### 习题七
 
@@ -344,7 +344,7 @@ $\blacksquare$
 
 ### 习题九
 
-(习题 4.3 拓广探索第 9 题) 我们可以把 $(1+1\%)^{365}$ 看作每天的 "进步" 率都是 $1\%$, 一年后是 $1.01^{365}$; 而把 $(1-1\%)^{365}$ 看作每天的 "落后" 率都是 $1\%$, 一年后是 $0.99^{365}$. 利用计算工具计算并回答下列问题.
+(习题 4.3 拓广探索第 9 题) 我们可以把 $\left(1+1\%\right)^{365}$ 看作每天的 "进步" 率都是 $1\%$, 一年后是 $1.01^{365}$; 而把 $\left(1-1\%\right)^{365}$ 看作每天的 "落后" 率都是 $1\%$, 一年后是 $0.99^{365}$. 利用计算工具计算并回答下列问题.
 
 (1) 一年后 "进步" 的是 "落后" 的多少倍?
 
@@ -356,7 +356,7 @@ $\blacksquare$
 
 (1) 一年后进步与落后的倍数为 $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
 
-(2) 设经过 $x$ 天后进步是落后的 $k$ 倍, 则 $\left(\frac{1.01}{0.99}\right)^x=k$, 故 $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg(1.01/0.99)}$. 当 $k=10$ 时, $x\approx\frac{1}{0.0087}\approx 115$ 天; 当 $k=100$ 时, $x\approx 230$ 天; 当 $k=1000$ 时, $x\approx 345$ 天. $\blacksquare$
+(2) 设经过 $x$ 天后进步是落后的 $k$ 倍, 则 $\left(\frac{1.01}{0.99}\right)^x=k$, 故 $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg\left(1.01/0.99\right)}$. 当 $k=10$ 时, $x\approx\frac{1}{0.0087}\approx 115$ 天; 当 $k=100$ 时, $x\approx 230$ 天; 当 $k=1000$ 时, $x\approx 345$ 天. $\blacksquare$
 
 ### 习题十
 

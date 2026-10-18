@@ -278,7 +278,7 @@ $$
 
 ### 练习十三
 
-(练习 5.1 第 13 题) 吹气球时, 气球的半径 $r$ (单位: $\mathrm{dm}$) 与体积 $V$ (单位: $\mathrm{L}$) 之间的函数关系是 $r\left(V\right)=\sqrt[3]{\frac{3V}{4\pi}}$. 利用信息技术工具, 画出 $0\le V\le5$ 时函数的图象, 并根据其图象估计 $V=0.6,1.2\ \mathrm{L}$ 时, 气球的瞬时膨胀率.
+(练习 5.1 第 13 题) 吹气球时, 气球的半径 $r$ (单位: $\mathrm{dm}$) 与体积 $V$ (单位: $\mathrm{L}$) 之间的函数关系是 $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. 利用信息技术工具, 画出 $0\le V\le5$ 时函数的图象, 并根据其图象估计 $V=0.6,1.2\ \mathrm{L}$ 时, 气球的瞬时膨胀率.
 
 ![week75-2.svg](../../figures/week75-2.svg){width=50%}
 
@@ -290,7 +290,7 @@ $$
 \frac{\Delta r}{\Delta V}=\frac{r\left(V+\Delta V\right)-r\left(V\right)}{\Delta V}.
 $$
 
-由函数 $r\left(V\right)=\sqrt[3]{\frac{3V}{4\pi}}$ 的图象可知, $r\left(V\right)$ 随 $V$ 增大而增大, 但增长越来越平缓, 故 $r'\left(V\right)>0$ 且随 $V$ 增大而减小.
+由函数 $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ 的图象可知, $r\left(V\right)$ 随 $V$ 增大而增大, 但增长越来越平缓, 故 $r'\left(V\right)>0$ 且随 $V$ 增大而减小.
 
 由图象估计, 当 $V=0.6$ 时, 切线斜率约为 $r'\left(0.6\right)\approx0.3$; 当 $V=1.2$ 时, 切线斜率约为 $r'\left(1.2\right)\approx0.2$.
 

@@ -2,7 +2,7 @@
 
 > **定义 6.2.1** (向量加法的三角形法则) <br>已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
 
-> **定义 6.2.5** (向量的减法) <br>向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
+> **定义 6.2.5** (向量的减法) <br>向量 $\boldsymbol{a}$ 加上 $\boldsymbol{b}$ 的相反向量叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的差, 即 $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
 > **定义 6.2.6** (向量的数乘) <br>实数 $\lambda$ 与向量 $\boldsymbol{a}$ 的积是一个向量, 记作 $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; 当 $\lambda>0$ 时, $\lambda\boldsymbol{a}$ 的方向与 $\boldsymbol{a}$ 相同; 当 $\lambda<0$ 时, 方向相反.
 
@@ -12,7 +12,7 @@
 
 > **常用结论 6.2.13** (数量积的性质) <br>$\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$; 同向时 $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$, 反向时 $\boldsymbol{a}\cdot\boldsymbol{b}=-\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$; $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$; $\lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$.
 
-> **常用结论 6.2.14** (数量积的运算律) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$; $(\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
+> **常用结论 6.2.14** (数量积的运算律) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$; $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
 
 > **定理 6.3.1** (平面向量基本定理) <br>如果 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 $\boldsymbol{a}$, 有且只有一对实数 $\lambda_1$, $\lambda_2$, 使 $\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. 其中, 不共线的向量 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 叫做这一平面内所有向量的一组基底.
 
@@ -59,7 +59,7 @@
 (1) 证明勾股定理. 在 $\triangle ABC$ 中, $\angle C=90^{\circ}$. 由**定义 6.2.1** (向量加法的三角形法则), $\boldsymbol{AB}=\boldsymbol{AC}+\boldsymbol{CB}$. 由**定义 6.2.11** (数量积), 两边分别与自身作数量积, 再由**常用结论 6.2.14** (数量积的运算律) 展开, 得
 
 $$
-\boldsymbol{AB}\cdot\boldsymbol{AB}=(\boldsymbol{AC}+\boldsymbol{CB})\cdot(\boldsymbol{AC}+\boldsymbol{CB})=\boldsymbol{AC}\cdot\boldsymbol{AC}+\boldsymbol{CB}\cdot\boldsymbol{CB}+2\boldsymbol{AC}\cdot\boldsymbol{CB}.
+\boldsymbol{AB}\cdot\boldsymbol{AB}=\left(\boldsymbol{AC}+\boldsymbol{CB}\right)\cdot\left(\boldsymbol{AC}+\boldsymbol{CB}\right)=\boldsymbol{AC}\cdot\boldsymbol{AC}+\boldsymbol{CB}\cdot\boldsymbol{CB}+2\boldsymbol{AC}\cdot\boldsymbol{CB}.
 $$
 
 由 $\boldsymbol{CB}\perp\boldsymbol{AC}$ 及**常用结论 6.2.13** (数量积的性质), $\boldsymbol{AC}\cdot\boldsymbol{CB}=0$, 再由**常用结论 6.2.13** (数量积的性质) 中 $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$, 得
@@ -73,7 +73,7 @@ $$
 (2) 证明三角形中位线定理. 设 $D$, $E$ 分别为 $AB$, $AC$ 的中点. 由中点的意义及**定义 6.2.6** (向量的数乘), $\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AC}$. 由**定义 6.2.5** (向量的减法), 得
 
 $$
-\boldsymbol{DE}=\boldsymbol{AE}-\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AC}-\frac{1}{2}\boldsymbol{AB}=\frac{1}{2}(\boldsymbol{AC}-\boldsymbol{AB})=\frac{1}{2}\boldsymbol{BC}.
+\boldsymbol{DE}=\boldsymbol{AE}-\boldsymbol{AD}=\frac{1}{2}\boldsymbol{AC}-\frac{1}{2}\boldsymbol{AB}=\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AB}\right)=\frac{1}{2}\boldsymbol{BC}.
 $$
 
 由**定理 6.2.8** (共线向量定理), $\boldsymbol{DE}$ 与 $\boldsymbol{BC}$ 共线, 即 $DE\parallel BC$, 且 $\lvert\boldsymbol{DE}\rvert=\frac{1}{2}\lvert\boldsymbol{BC}\rvert$, 即 $DE=\frac{1}{2}BC$.
@@ -105,13 +105,13 @@ $$
 (2) 用基底表示 $\boldsymbol{BC}$. 由 $E$, $F$ 分别为 $CA$, $AB$ 的中点及**定义 6.2.6** (向量的数乘), $\boldsymbol{AC}=2\boldsymbol{EC}$, $\boldsymbol{AB}=2\boldsymbol{FB}$. 由**定义 6.2.5** (向量的减法), 得
 
 $$
-\boldsymbol{BC}=\boldsymbol{AC}-\boldsymbol{AB}=2\boldsymbol{EC}-2\boldsymbol{FB}=2(t_1\boldsymbol{OB}+\boldsymbol{OC})-2(t_2\boldsymbol{OC}+\boldsymbol{OB})=2(t_1-1)\boldsymbol{OB}-2(t_2-1)\boldsymbol{OC}.
+\boldsymbol{BC}=\boldsymbol{AC}-\boldsymbol{AB}=2\boldsymbol{EC}-2\boldsymbol{FB}=2\left(t_1\boldsymbol{OB}+\boldsymbol{OC}\right)-2\left(t_2\boldsymbol{OC}+\boldsymbol{OB}\right)=2\left(t_1-1\right)\boldsymbol{OB}-2\left(t_2-1\right)\boldsymbol{OC}.
 $$
 
 (3) 比较系数求 $t_1$, $t_2$. 另一方面, 由**定义 6.2.5** (向量的减法), $\boldsymbol{BC}=\boldsymbol{OC}-\boldsymbol{OB}=-\boldsymbol{OB}+\boldsymbol{OC}$. 由**定理 6.3.1** (平面向量基本定理), 同一向量在基底 $\boldsymbol{OB}$, $\boldsymbol{OC}$ 下的分解是唯一的, 故对应系数相等, 得
 
 $$
-2(t_1-1)=-1,\quad -2(t_2-1)=1.
+2\left(t_1-1\right)=-1,\quad -2\left(t_2-1\right)=1.
 $$
 
 解得 $t_1=\frac{1}{2}$, $t_2=\frac{1}{2}$. 于是
@@ -123,13 +123,13 @@ $$
 (4) 证明 $A$, $O$, $D$ 三点共线. 由**定义 6.2.1** (向量加法的三角形法则), 并注意到 $F$ 为 $AB$ 的中点, $\boldsymbol{AF}=\boldsymbol{FB}$, 得
 
 $$
-\boldsymbol{AO}=\boldsymbol{AF}+\boldsymbol{FO}=\boldsymbol{FB}+\boldsymbol{FO}=(t_2\boldsymbol{OC}+\boldsymbol{OB})+t_2\boldsymbol{OC}=2t_2\boldsymbol{OC}+\boldsymbol{OB}=\boldsymbol{OB}+\boldsymbol{OC}.
+\boldsymbol{AO}=\boldsymbol{AF}+\boldsymbol{FO}=\boldsymbol{FB}+\boldsymbol{FO}=\left(t_2\boldsymbol{OC}+\boldsymbol{OB}\right)+t_2\boldsymbol{OC}=2t_2\boldsymbol{OC}+\boldsymbol{OB}=\boldsymbol{OB}+\boldsymbol{OC}.
 $$
 
-又 $D$ 为 $BC$ 的中点, 由**定义 6.2.6** (向量的数乘) 及**定义 6.2.5** (向量的减法), $\boldsymbol{BD}=\frac{1}{2}\boldsymbol{BC}=\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OB})$. 再由**定义 6.2.1** (向量加法的三角形法则), 得
+又 $D$ 为 $BC$ 的中点, 由**定义 6.2.6** (向量的数乘) 及**定义 6.2.5** (向量的减法), $\boldsymbol{BD}=\frac{1}{2}\boldsymbol{BC}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OB}\right)$. 再由**定义 6.2.1** (向量加法的三角形法则), 得
 
 $$
-\boldsymbol{OD}=\boldsymbol{OB}+\boldsymbol{BD}=\boldsymbol{OB}+\frac{1}{2}(\boldsymbol{OC}-\boldsymbol{OB})=\frac{1}{2}(\boldsymbol{OB}+\boldsymbol{OC}).
+\boldsymbol{OD}=\boldsymbol{OB}+\boldsymbol{BD}=\boldsymbol{OB}+\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OB}\right)=\frac{1}{2}\left(\boldsymbol{OB}+\boldsymbol{OC}\right).
 $$
 
 于是

@@ -1,18 +1,18 @@
 # 作业 21
 
-> **定义 5.4.1** (周期函数) <br>一般地, 设函数 $f(x)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f(x+T)=f(x)$, 那么函数 $f(x)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f(x)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f(x)$ 的最小正周期.
+> **定义 5.4.1** (周期函数) <br>一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 > **常用结论** (正弦函数的图象与性质) <br>正弦函数 $y=\sin x$, $x\in\mathbb R$ 的图象叫做正弦曲线. 正弦函数是周期函数, 最小正周期为 $2\pi$. 正弦函数是奇函数, 图象关于原点对称. 正弦函数在每一个闭区间 $\left[-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right]$ ($k\in\mathbb Z$) 上都单调递增, 其值从 $-1$ 增大到 $1$; 在每一个闭区间 $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$ 上都单调递减, 其值从 $1$ 减小到 $-1$. 正弦函数当且仅当 $x=\frac{\pi}{2}+2k\pi$ 时取得最大值 $1$, 当且仅当 $x=-\frac{\pi}{2}+2k\pi$ 时取得最小值 $-1$.
 
-> **常用结论** (余弦函数的图象与性质) <br>余弦函数 $y=\cos x$, $x\in\mathbb R$ 的图象叫做余弦曲线. 余弦函数是周期函数, 最小正周期为 $2\pi$. 余弦函数是偶函数, 图象关于 $y$ 轴对称. 余弦函数在每一个闭区间 $\left[-\pi+2k\pi,\ 2k\pi\right]$ ($k\in\mathbb Z$) 上都单调递增, 其值从 $-1$ 增大到 $1$; 在每一个闭区间 $\left[2k\pi,\ \pi+2k\pi\right]$ 上都单调递减, 其值从 $1$ 减小到 $-1$. 余弦函数当且仅当 $x=2k\pi$ 时取得最大值 $1$, 当且仅当 $x=(2k+1)\pi$ 时取得最小值 $-1$.
+> **常用结论** (余弦函数的图象与性质) <br>余弦函数 $y=\cos x$, $x\in\mathbb R$ 的图象叫做余弦曲线. 余弦函数是周期函数, 最小正周期为 $2\pi$. 余弦函数是偶函数, 图象关于 $y$ 轴对称. 余弦函数在每一个闭区间 $\left[-\pi+2k\pi,\ 2k\pi\right]$ ($k\in\mathbb Z$) 上都单调递增, 其值从 $-1$ 增大到 $1$; 在每一个闭区间 $\left[2k\pi,\ \pi+2k\pi\right]$ 上都单调递减, 其值从 $1$ 减小到 $-1$. 余弦函数当且仅当 $x=2k\pi$ 时取得最大值 $1$, 当且仅当 $x=\left(2k+1\right)\pi$ 时取得最小值 $-1$.
 
 > **常用结论** (正切函数的图象与性质) <br>正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$ 的图象叫做正切曲线. 正切函数是周期函数, 最小正周期为 $\pi$. 正切函数是奇函数. 正切函数在每一个区间 $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ ($k\in\mathbb Z$) 上都单调递增. 正切函数的值域是实数集 $\mathbb R$.
 
-> **常用结论** ($y=A\sin(\omega x+\varphi)$ 的周期) <br>函数 $y=A\sin(\omega x+\varphi)$, $x\in\mathbb R$ 及函数 $y=A\cos(\omega x+\varphi)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega>0$) 的周期 $T=\frac{2\pi}{\omega}$.
+> **常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\mathbb R$ 及函数 $y=A\cos\left(\omega x+\varphi\right)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega>0$) 的周期 $T=\frac{2\pi}{\omega}$.
 
 ### 练习一
 
-(练习 5.4 第 1 题) 在同一直角坐标系中, 画出函数 $y=\sin x$, $x\in[0,2\pi]$, $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$ 的图象. 通过观察两条曲线, 说出它们的异同.
+(练习 5.4 第 1 题) 在同一直角坐标系中, 画出函数 $y=\sin x$, $x\in\left[0,2\pi\right]$, $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$ 的图象. 通过观察两条曲线, 说出它们的异同.
 
 ![week21-1.svg](../../figures/week21-1.svg){width=50%}
 
@@ -20,13 +20,13 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-相同点: 两条曲线都是 "波浪起伏" 的连续光滑曲线, 形状相同, 周期都是 $2\pi$, 值域都是 $[-1,1]$.
+相同点: 两条曲线都是 "波浪起伏" 的连续光滑曲线, 形状相同, 周期都是 $2\pi$, 值域都是 $\left[-1,1\right]$.
 
 不同点: 正弦曲线在 $x=0$ 处过原点, 为奇函数; 余弦曲线在 $x=0$ 处取最大值 $1$, 为偶函数. 余弦曲线可由正弦曲线向左平移 $\frac{\pi}{2}$ 个单位长度得到, 即 $\cos x=\sin\left(x+\frac{\pi}{2}\right)$. $\blacksquare$
 
 ### 练习二
 
-(练习 5.4 第 2 题) 用五点法分别画下列函数在 $[-\pi,\pi]$ 上的图象:
+(练习 5.4 第 2 题) 用五点法分别画下列函数在 $\left[-\pi,\pi\right]$ 上的图象:
 
 (1) $y=-\sin x$;
 
@@ -38,9 +38,9 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质), 用五点法取五个关键点.
 
-(1) $y=-\sin x$: 五个关键点为 $(-\pi,0)$, $\left(-\frac{\pi}{2},1\right)$, $(0,0)$, $\left(\frac{\pi}{2},-1\right)$, $(\pi,0)$.
+(1) $y=-\sin x$: 五个关键点为 $\left(-\pi,0\right)$, $\left(-\frac{\pi}{2},1\right)$, $\left(0,0\right)$, $\left(\frac{\pi}{2},-1\right)$, $\left(\pi,0\right)$.
 
-(2) $y=2-\cos x$: 五个关键点为 $(-\pi,3)$, $\left(-\frac{\pi}{2},2\right)$, $(0,1)$, $\left(\frac{\pi}{2},2\right)$, $(\pi,3)$. $\blacksquare$
+(2) $y=2-\cos x$: 五个关键点为 $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, $\left(\pi,3\right)$. $\blacksquare$
 
 ### 练习三
 
@@ -52,7 +52,7 @@
 
 由**常用结论** (正弦函数的图象与性质).
 
-函数 $y=\lvert\sin x\rvert$ 的图象是将 $y=\sin x$ 的图象中 $x$ 轴下方的部分沿 $x$ 轴翻折到 $x$ 轴上方而得到的. 因此 $y=\lvert\sin x\rvert$ 的值域为 $[0,1]$, 周期为 $\pi$ (而非 $2\pi$), 且是偶函数. $\blacksquare$
+函数 $y=\lvert\sin x\rvert$ 的图象是将 $y=\sin x$ 的图象中 $x$ 轴下方的部分沿 $x$ 轴翻折到 $x$ 轴上方而得到的. 因此 $y=\lvert\sin x\rvert$ 的值域为 $\left[0,1\right]$, 周期为 $\pi$ (而非 $2\pi$), 且是偶函数. $\blacksquare$
 
 ### 练习四
 
@@ -70,11 +70,11 @@
 
 ### 解答 练习四
 
-由**常用结论** (余弦函数的图象与性质), $y=1+\cos x$ 的值域为 $[0,2]$.
+由**常用结论** (余弦函数的图象与性质), $y=1+\cos x$ 的值域为 $\left[0,2\right]$.
 
 在区间 $\left[\frac{\pi}{3},2\pi\right]$ 上, $\cos x$ 从 $\frac{1}{2}$ 先降到 $-1$ (在 $x=\pi$), 再升到 $1$ (在 $x=2\pi$). 故 $y=1+\cos x$ 从 $1.5$ 先降到 $0$ (在 $x=\pi$), 再升到 $2$ (在 $x=2\pi$).
 
-当 $t\in(1.5,2]$ 时, 有 $1$ 个交点; 当 $t\in[0,1.5)$ 时, 有 $2$ 个交点; 当 $t<0$ 或 $t>2$ 时, 有 $0$ 个交点. 故可能有 $0$ 个, $1$ 个或 $2$ 个交点, 选 (A)(B)(C). $\blacksquare$
+当 $t\in\left(1.5,2\right]$ 时, 有 $1$ 个交点; 当 $t\in\left[0,1.5\right)$ 时, 有 $2$ 个交点; 当 $t<0$ 或 $t>2$ 时, 有 $0$ 个交点. 故可能有 $0$ 个, $1$ 个或 $2$ 个交点, 选 (A)(B)(C). $\blacksquare$
 
 ### 练习五
 
@@ -82,9 +82,9 @@
 
 ### 解答 练习五
 
-由**定义 5.4.1** (周期函数), 周期 $T$ 须满足对每一个 $x\in\mathbb R$ 都有 $f(x+T)=f(x)$.
+由**定义 5.4.1** (周期函数), 周期 $T$ 须满足对每一个 $x\in\mathbb R$ 都有 $f\left(x+T\right)=f\left(x\right)$.
 
-由 $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{2}=1$, $\sin\frac{\pi}{6}=\frac{1}{2}$, 等式不成立. 即使对某个特定的 $x$ 有 $\sin(x+T)=\sin x$, 也不能说 $T$ 是周期, 因为周期函数要求对所有 $x$ 都成立. $\blacksquare$
+由 $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{2}=1$, $\sin\frac{\pi}{6}=\frac{1}{2}$, 等式不成立. 即使对某个特定的 $x$ 有 $\sin\left(x+T\right)=\sin x$, 也不能说 $T$ 是周期, 因为周期函数要求对所有 $x$ 都成立. $\blacksquare$
 
 ### 练习六
 
@@ -100,7 +100,7 @@
 
 ### 解答 练习六
 
-由**常用结论** ($y=A\sin(\omega x+\varphi)$ 的周期), $T=\frac{2\pi}{\omega}$.
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期), $T=\frac{2\pi}{\omega}$.
 
 (1) 由 $\omega=\frac{3}{4}$, 得 $T=\frac{2\pi}{3/4}=\frac{8\pi}{3}$.
 
@@ -126,23 +126,23 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质), $\sin x$ 为奇函数, $\cos x$ 为偶函数.
 
-(1) $f(-x)=2\sin(-x)=-2\sin x=-f(x)$, 奇函数.
+(1) $f\left(-x\right)=2\sin\left(-x\right)=-2\sin x=-f\left(x\right)$, 奇函数.
 
-(2) $f(-x)=1-\cos(-x)=1-\cos x=f(x)$, 偶函数.
+(2) $f\left(-x\right)=1-\cos\left(-x\right)=1-\cos x=f\left(x\right)$, 偶函数.
 
-(3) $f(-x)=-x+\sin(-x)=-x-\sin x=-(x+\sin x)=-f(x)$, 奇函数.
+(3) $f\left(-x\right)=-x+\sin\left(-x\right)=-x-\sin x=-\left(x+\sin x\right)=-f\left(x\right)$, 奇函数.
 
-(4) $f(-x)=-\sin(-x)\cos(-x)=\sin x\cos x=-f(x)$, 奇函数. $\blacksquare$
+(4) $f\left(-x\right)=-\sin\left(-x\right)\cos\left(-x\right)=\sin x\cos x=-f\left(x\right)$, 奇函数. $\blacksquare$
 
 ### 练习八
 
-(练习 5.4 第 8 题) 设函数 $f(x)$ ($x\in\mathbb R$) 是以 $2$ 为最小正周期的周期函数, 且当 $x\in[0,2]$ 时, $f(x)=(x-1)^{2}$. 求 $f(3)$, $f\left(\frac{7}{2}\right)$ 的值.
+(练习 5.4 第 8 题) 设函数 $f\left(x\right)$ ($x\in\mathbb R$) 是以 $2$ 为最小正周期的周期函数, 且当 $x\in\left[0,2\right]$ 时, $f\left(x\right)=\left(x-1\right)^{2}$. 求 $f\left(3\right)$, $f\left(\frac{7}{2}\right)$ 的值.
 
 ### 解答 练习八
 
-由**定义 5.4.1** (周期函数), $f(x+2)=f(x)$.
+由**定义 5.4.1** (周期函数), $f\left(x+2\right)=f\left(x\right)$.
 
-由 $f(3)=f(1+2)=f(1)=(1-1)^{2}=0$.
+由 $f\left(3\right)=f\left(1+2\right)=f\left(1\right)=\left(1-1\right)^{2}=0$.
 
 由 $f\left(\frac{7}{2}\right)=f\left(\frac{3}{2}+2\right)=f\left(\frac{3}{2}\right)=\left(\frac{3}{2}-1\right)^{2}=\frac{1}{4}$. $\blacksquare$
 
@@ -162,9 +162,9 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) $\sin x>0$: $x\in(2k\pi,\ \pi+2k\pi)$, $k\in\mathbb Z$.
+(1) $\sin x>0$: $x\in\left(2k\pi,\ \pi+2k\pi\right)$, $k\in\mathbb Z$.
 
-(2) $\sin x<0$: $x\in(\pi+2k\pi,\ 2\pi+2k\pi)$, $k\in\mathbb Z$.
+(2) $\sin x<0$: $x\in\left(\pi+2k\pi,\ 2\pi+2k\pi\right)$, $k\in\mathbb Z$.
 
 (3) $\cos x>0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$.
 
@@ -188,9 +188,9 @@
 
 ### 练习十一
 
-(练习 5.4 第 11 题) 下列关于函数 $y=4\sin x$, $x\in[0,2\pi]$ 的单调性的叙述, 正确的是 ( ).
+(练习 5.4 第 11 题) 下列关于函数 $y=4\sin x$, $x\in\left[0,2\pi\right]$ 的单调性的叙述, 正确的是 ( ).
 
-(A) 在 $[0,\pi]$ 上单调递增, 在 $[\pi,2\pi]$ 上单调递减
+(A) 在 $\left[0,\pi\right]$ 上单调递增, 在 $\left[\pi,2\pi\right]$ 上单调递减
 
 (B) 在 $\left[0,\frac{\pi}{2}\right]$ 上单调递增, 在 $\left[\frac{\pi}{2},2\pi\right]$ 上单调递减
 
@@ -202,7 +202,7 @@
 
 由**常用结论** (正弦函数的图象与性质), 正弦函数在 $\left[-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right]$ 上单调递增, 在 $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$ 上单调递减.
 
-在 $[0,2\pi]$ 上, 递增区间为 $\left[0,\frac{\pi}{2}\right]$ 和 $\left[\frac{3\pi}{2},2\pi\right]$, 递减区间为 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. 选 (C). $\blacksquare$
+在 $\left[0,2\pi\right]$ 上, 递增区间为 $\left[0,\frac{\pi}{2}\right]$ 和 $\left[\frac{3\pi}{2},2\pi\right]$, 递减区间为 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. 选 (C). $\blacksquare$
 
 ### 练习十二
 
@@ -216,19 +216,19 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0<\frac{3\pi}{7}<\frac{4\pi}{9}<\pi$, 且余弦函数在 $[0,\pi]$ 上单调递减, 得 $\cos\frac{3\pi}{7}>\cos\frac{4\pi}{9}$, 即 $\cos\frac{3\pi}{7}>\cos\left(-\frac{4\pi}{9}\right)$.
+(1) 由 $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0<\frac{3\pi}{7}<\frac{4\pi}{9}<\pi$, 且余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{7}>\cos\frac{4\pi}{9}$, 即 $\cos\frac{3\pi}{7}>\cos\left(-\frac{4\pi}{9}\right)$.
 
-(2) 由 $90^{\circ}<250^{\circ}<260^{\circ}<270^{\circ}$, 且正弦函数在 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 即 $[90^{\circ},270^{\circ}]$ 上单调递减, 得 $\sin250^{\circ}>\sin260^{\circ}$. $\blacksquare$
+(2) 由 $90^{\circ}<250^{\circ}<260^{\circ}<270^{\circ}$, 且正弦函数在 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 即 $\left[90^{\circ},270^{\circ}\right]$ 上单调递减, 得 $\sin250^{\circ}>\sin260^{\circ}$. $\blacksquare$
 
 ### 练习十三
 
-(练习 5.4 第 13 题) 求函数 $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in[0,\pi]$ 的单调递减区间.
+(练习 5.4 第 13 题) 求函数 $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\left[0,\pi\right]$ 的单调递减区间.
 
 ### 解答 练习十三
 
 由**常用结论** (正弦函数的图象与性质), 正弦函数的递减区间为 $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$.
 
-令 $\frac{\pi}{2}+2k\pi\le 2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, 解得 $\frac{\pi}{8}+k\pi\le x\le\frac{5\pi}{8}+k\pi$. 取 $k=0$, 得 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq[0,\pi]$. 故单调递减区间为 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
+令 $\frac{\pi}{2}+2k\pi\le 2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, 解得 $\frac{\pi}{8}+k\pi\le x\le\frac{5\pi}{8}+k\pi$. 取 $k=0$, 得 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq\left[0,\pi\right]$. 故单调递减区间为 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
 
 ### 练习十四
 
@@ -276,11 +276,11 @@
 
 (1) $y=\tan2x$, $x\neq\frac{\pi}{4}+\frac{k\pi}{2}$ ($k\in\mathbb Z$);
 
-(2) $y=5\tan\frac{x}{2}$, $x\neq(2k+1)\pi$ ($k\in\mathbb Z$).
+(2) $y=5\tan\frac{x}{2}$, $x\neq\left(2k+1\right)\pi$ ($k\in\mathbb Z$).
 
 ### 解答 练习十七
 
-由**常用结论** (正切函数的图象与性质), 正切函数 $y=\tan(\omega x+\varphi)$ 的周期为 $\frac{\pi}{\omega}$.
+由**常用结论** (正切函数的图象与性质), 正切函数 $y=\tan\left(\omega x+\varphi\right)$ 的周期为 $\frac{\pi}{\omega}$.
 
 (1) 由 $\omega=2$, 得 $T=\frac{\pi}{2}$.
 
@@ -290,7 +290,7 @@
 
 (练习 5.4 第 18 题) 不通过求值, 比较下列各组中两个正切值的大小:
 
-(1) $\tan(-52^{\circ})$ 与 $\tan(-47^{\circ})$;
+(1) $\tan\left(-52^{\circ}\right)$ 与 $\tan\left(-47^{\circ}\right)$;
 
 (2) $\tan\frac{13\pi}{4}$ 与 $\tan\frac{17\pi}{5}$.
 
@@ -298,7 +298,7 @@
 
 由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上单调递增.
 
-(1) 由 $-90^{\circ}<-52^{\circ}<-47^{\circ}<0^{\circ}$, 得 $\tan(-52^{\circ})<\tan(-47^{\circ})$.
+(1) 由 $-90^{\circ}<-52^{\circ}<-47^{\circ}<0^{\circ}$, 得 $\tan\left(-52^{\circ}\right)<\tan\left(-47^{\circ}\right)$.
 
 (2) 由 $\tan\frac{13\pi}{4}=\tan\left(3\pi+\frac{\pi}{4}\right)=\tan\frac{\pi}{4}$, $\tan\frac{17\pi}{5}=\tan\left(3\pi+\frac{2\pi}{5}\right)=\tan\frac{2\pi}{5}$. 由 $0<\frac{\pi}{4}<\frac{2\pi}{5}<\frac{\pi}{2}$, 得 $\tan\frac{\pi}{4}<\tan\frac{2\pi}{5}$, 即 $\tan\frac{13\pi}{4}<\tan\frac{17\pi}{5}$. $\blacksquare$
 
@@ -306,9 +306,9 @@
 
 (习题 5.4 复习巩固第 1 题) 画出下列函数的简图:
 
-(1) $y=1-\sin x$, $x\in[0,2\pi]$;
+(1) $y=1-\sin x$, $x\in\left[0,2\pi\right]$;
 
-(2) $y=3\cos x+1$, $x\in[0,2\pi]$.
+(2) $y=3\cos x+1$, $x\in\left[0,2\pi\right]$.
 
 ![week21-4.svg](../../figures/week21-4.svg){width=100%}
 
@@ -316,9 +316,9 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质), 用五点法作图.
 
-(1) 五个关键点: $(0,1)$, $\left(\frac{\pi}{2},0\right)$, $(\pi,1)$, $\left(\frac{3\pi}{2},2\right)$, $(2\pi,1)$.
+(1) 五个关键点: $\left(0,1\right)$, $\left(\frac{\pi}{2},0\right)$, $\left(\pi,1\right)$, $\left(\frac{3\pi}{2},2\right)$, $\left(2\pi,1\right)$.
 
-(2) 五个关键点: $(0,4)$, $\left(\frac{\pi}{2},1\right)$, $(\pi,-2)$, $\left(\frac{3\pi}{2},1\right)$, $(2\pi,4)$. $\blacksquare$
+(2) 五个关键点: $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, $\left(2\pi,4\right)$. $\blacksquare$
 
 ### 习题二
 
@@ -330,7 +330,7 @@
 
 ### 解答 习题二
 
-由**常用结论** ($y=A\sin(\omega x+\varphi)$ 的周期), $T=\frac{2\pi}{\omega}$.
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期), $T=\frac{2\pi}{\omega}$.
 
 (1) 由 $\omega=\frac{2}{3}$, 得 $T=\frac{2\pi}{2/3}=3\pi$.
 
@@ -352,13 +352,13 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) $f(-x)=\lvert\sin(-x)\rvert=\lvert-\sin x\rvert=\lvert\sin x\rvert=f(x)$, 偶函数.
+(1) $f\left(-x\right)=\lvert\sin\left(-x\right)\rvert=\lvert-\sin x\rvert=\lvert\sin x\rvert=f\left(x\right)$, 偶函数.
 
-(2) $f(-x)=1-\cos(-2x)=1-\cos2x=f(x)$, 偶函数.
+(2) $f\left(-x\right)=1-\cos\left(-2x\right)=1-\cos2x=f\left(x\right)$, 偶函数.
 
-(3) $f(-x)=-3\sin(-2x)=3\sin2x=-f(x)$, 奇函数.
+(3) $f\left(-x\right)=-3\sin\left(-2x\right)=3\sin2x=-f\left(x\right)$, 奇函数.
 
-(4) $f(-x)=1+2\tan(-x)=1-2\tan x$, 既不等于 $f(x)$ 也不等于 $-f(x)$, 既不是奇函数也不是偶函数. $\blacksquare$
+(4) $f\left(-x\right)=1+2\tan\left(-x\right)=1-2\tan x$, 既不等于 $f\left(x\right)$ 也不等于 $-f\left(x\right)$, 既不是奇函数也不是偶函数. $\blacksquare$
 
 ### 习题四
 
@@ -400,11 +400,11 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 $90^{\circ}<103^{\circ}15'<164^{\circ}30'<180^{\circ}$, 正弦函数在 $[90^{\circ},180^{\circ}]$ 上单调递减, 得 $\sin103^{\circ}15'>\sin164^{\circ}30'$.
+(1) 由 $90^{\circ}<103^{\circ}15'<164^{\circ}30'<180^{\circ}$, 正弦函数在 $\left[90^{\circ},180^{\circ}\right]$ 上单调递减, 得 $\sin103^{\circ}15'>\sin164^{\circ}30'$.
 
-(2) 由 $\cos\left(-\frac{3\pi}{10}\right)=\cos\frac{3\pi}{10}$, $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0<\frac{3\pi}{10}<\frac{4\pi}{9}<\pi$, 余弦函数在 $[0,\pi]$ 上单调递减, 得 $\cos\frac{3\pi}{10}>\cos\frac{4\pi}{9}$.
+(2) 由 $\cos\left(-\frac{3\pi}{10}\right)=\cos\frac{3\pi}{10}$, $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0<\frac{3\pi}{10}<\frac{4\pi}{9}<\pi$, 余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{10}>\cos\frac{4\pi}{9}$.
 
-(3) 由 $\sin508^{\circ}=\sin(360^{\circ}+148^{\circ})=\sin148^{\circ}$. 由 $90^{\circ}<144^{\circ}<148^{\circ}<180^{\circ}$, 得 $\sin144^{\circ}>\sin148^{\circ}$, 即 $\sin144^{\circ}>\sin508^{\circ}$.
+(3) 由 $\sin508^{\circ}=\sin\left(360^{\circ}+148^{\circ}\right)=\sin148^{\circ}$. 由 $90^{\circ}<144^{\circ}<148^{\circ}<180^{\circ}$, 得 $\sin144^{\circ}>\sin148^{\circ}$, 即 $\sin144^{\circ}>\sin508^{\circ}$.
 
 (4) 由 $\cos\frac{47\pi}{10}=\cos\left(4\pi+\frac{7\pi}{10}\right)=\cos\frac{7\pi}{10}$, $\cos\frac{44\pi}{9}=\cos\left(4\pi+\frac{8\pi}{9}\right)=\cos\frac{8\pi}{9}$. 由 $0<\frac{7\pi}{10}<\frac{8\pi}{9}<\pi$, 得 $\cos\frac{7\pi}{10}>\cos\frac{8\pi}{9}$, 即 $\cos\frac{47\pi}{10}>\cos\frac{44\pi}{9}$. $\blacksquare$
 
@@ -412,9 +412,9 @@
 
 (习题 5.4 复习巩固第 6 题) 求下列函数的单调区间:
 
-(1) $y=1+\sin x$, $x\in[0,2\pi]$;
+(1) $y=1+\sin x$, $x\in\left[0,2\pi\right]$;
 
-(2) $y=-\cos x$, $x\in[0,2\pi]$.
+(2) $y=-\cos x$, $x\in\left[0,2\pi\right]$.
 
 ### 解答 习题六
 
@@ -422,7 +422,7 @@
 
 (1) $y=1+\sin x$ 的单调性与 $y=\sin x$ 相同. 递增区间为 $\left[0,\frac{\pi}{2}\right]$ 和 $\left[\frac{3\pi}{2},2\pi\right]$, 递减区间为 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$.
 
-(2) $y=-\cos x$ 的单调性与 $y=\cos x$ 相反. 递增区间为 $[0,\pi]$, 递减区间为 $[\pi,2\pi]$. $\blacksquare$
+(2) $y=-\cos x$ 的单调性与 $y=\cos x$ 相反. 递增区间为 $\left[0,\pi\right]$, 递减区间为 $\left[\pi,2\pi\right]$. $\blacksquare$
 
 ### 习题七
 
@@ -440,7 +440,7 @@
 
 ### 解答 习题八
 
-由**常用结论** (正切函数的图象与性质), 正切函数 $y=\tan(\omega x+\varphi)$ 的周期为 $\frac{\pi}{\omega}$.
+由**常用结论** (正切函数的图象与性质), 正切函数 $y=\tan\left(\omega x+\varphi\right)$ 的周期为 $\frac{\pi}{\omega}$.
 
 由 $\omega=2$, 得 $T=\frac{\pi}{2}$. $\blacksquare$
 
@@ -462,7 +462,7 @@
 
 (1) 由 $-\frac{\pi}{2}<-\frac{3\pi}{7}<-\frac{\pi}{5}<\frac{\pi}{2}$, 得 $\tan\left(-\frac{3\pi}{7}\right)<\tan\left(-\frac{\pi}{5}\right)$.
 
-(2) 由 $\tan1519^{\circ}=\tan(4\times360^{\circ}+79^{\circ})=\tan79^{\circ}$, $\tan1493^{\circ}=\tan(4\times360^{\circ}+53^{\circ})=\tan53^{\circ}$. 由 $0^{\circ}<53^{\circ}<79^{\circ}<90^{\circ}$, 得 $\tan53^{\circ}<\tan79^{\circ}$, 即 $\tan1493^{\circ}<\tan1519^{\circ}$.
+(2) 由 $\tan1519^{\circ}=\tan\left(4\times360^{\circ}+79^{\circ}\right)=\tan79^{\circ}$, $\tan1493^{\circ}=\tan\left(4\times360^{\circ}+53^{\circ}\right)=\tan53^{\circ}$. 由 $0^{\circ}<53^{\circ}<79^{\circ}<90^{\circ}$, 得 $\tan53^{\circ}<\tan79^{\circ}$, 即 $\tan1493^{\circ}<\tan1519^{\circ}$.
 
 (3) 由 $\tan\frac{6\pi}{11}=\tan\left(-\frac{5\pi}{11}+\pi\right)=\tan\left(-\frac{5\pi}{11}\right)$. 故两者相等.
 
@@ -536,7 +536,7 @@
 
 ### 解答 习题十三
 
-由**常用结论** (正切函数的图象与性质), 斜三角形内角 $x\in(0,\pi)$ 且 $x\neq\frac{\pi}{2}$.
+由**常用结论** (正切函数的图象与性质), 斜三角形内角 $x\in\left(0,\pi\right)$ 且 $x\neq\frac{\pi}{2}$.
 
 (1) 由 $1+\tan x\le0$, 得 $\tan x\le-1$. 在 $\left(\frac{\pi}{2},\pi\right)$ 上, $\tan x\le-1=\tan\frac{3\pi}{4}$, 得 $x\in\left[\frac{3\pi}{4},\pi\right)$.
 
@@ -554,31 +554,31 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 ### 习题十五
 
-(习题 5.4 综合运用第 15 题) 已知函数 $y=f(x)$ 是定义在 $\mathbb R$ 上周期为 $2$ 的奇函数, 若 $f(0.5)=1$, 求 $f(1)$, $f(3.5)$ 的值.
+(习题 5.4 综合运用第 15 题) 已知函数 $y=f\left(x\right)$ 是定义在 $\mathbb R$ 上周期为 $2$ 的奇函数, 若 $f\left(0.5\right)=1$, 求 $f\left(1\right)$, $f\left(3.5\right)$ 的值.
 
 ### 解答 习题十五
 
-由**定义 5.4.1** (周期函数) 及奇函数性质 $f(-x)=-f(x)$.
+由**定义 5.4.1** (周期函数) 及奇函数性质 $f\left(-x\right)=-f\left(x\right)$.
 
-由 $f(x)$ 为奇函数, $f(0)=0$. 由周期为 $2$, $f(1)=f(-1+2)=f(-1)=-f(1)$, 故 $f(1)=0$.
+由 $f\left(x\right)$ 为奇函数, $f\left(0\right)=0$. 由周期为 $2$, $f\left(1\right)=f\left(-1+2\right)=f\left(-1\right)=-f\left(1\right)$, 故 $f\left(1\right)=0$.
 
-由 $f(3.5)=f(1.5+2)=f(1.5)=f(-0.5+2)=f(-0.5)=-f(0.5)=-1$. $\blacksquare$
+由 $f\left(3.5\right)=f\left(1.5+2\right)=f\left(1.5\right)=f\left(-0.5+2\right)=f\left(-0.5\right)=-f\left(0.5\right)=-1$. $\blacksquare$
 
 ### 习题十六
 
-(习题 5.4 综合运用第 16 题) 已知函数 $f(x)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$,
+(习题 5.4 综合运用第 16 题) 已知函数 $f\left(x\right)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$,
 
-(1) 求 $f(x)$ 的最小正周期;
+(1) 求 $f\left(x\right)$ 的最小正周期;
 
-(2) 求 $f(x)$ 在区间 $\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$ 上的最大值和最小值.
+(2) 求 $f\left(x\right)$ 在区间 $\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$ 上的最大值和最小值.
 
 ### 解答 习题十六
 
-由**常用结论** ($y=A\sin(\omega x+\varphi)$ 的周期) 及**常用结论** (正弦函数的图象与性质).
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期) 及**常用结论** (正弦函数的图象与性质).
 
 (1) 由 $\omega=2$, 得 $T=\frac{2\pi}{2}=\pi$.
 
-(2) 由 $x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$, 得 $2x-\frac{\pi}{3}\in\left[-\frac{5\pi}{6},\frac{\pi}{6}\right]$. 在此区间上, $\sin\left(2x-\frac{\pi}{3}\right)$ 的最大值为 $\sin\frac{\pi}{6}=\frac{1}{2}$ (在 $x=\frac{\pi}{4}$ 处), 最小值为 $\sin\left(-\frac{\pi}{2}\right)=-1$ (在 $x=-\frac{\pi}{12}$ 处). 故 $f(x)$ 的最大值为 $\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 最小值为 $\frac{1}{2}\times(-1)=-\frac{1}{2}$. $\blacksquare$
+(2) 由 $x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$, 得 $2x-\frac{\pi}{3}\in\left[-\frac{5\pi}{6},\frac{\pi}{6}\right]$. 在此区间上, $\sin\left(2x-\frac{\pi}{3}\right)$ 的最大值为 $\sin\frac{\pi}{6}=\frac{1}{2}$ (在 $x=\frac{\pi}{4}$ 处), 最小值为 $\sin\left(-\frac{\pi}{2}\right)=-1$ (在 $x=-\frac{\pi}{12}$ 处). 故 $f\left(x\right)$ 的最大值为 $\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 最小值为 $\frac{1}{2}\times\left(-1\right)=-\frac{1}{2}$. $\blacksquare$
 
 ### 习题十七
 
@@ -590,15 +590,15 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 及**定义 5.2.2** (终边上任意一点的三角函数比值).
 
-由圆半径为 $2$, 角 $x$ 的终边与圆的交点 $B$ 的坐标为 $(2\cos x,\ 2\sin x)$. 故点 $B$ 的纵坐标 $y=2\sin x$, $x\in\mathbb R$. 其图象为振幅为 $2$, 周期为 $2\pi$ 的正弦曲线. $\blacksquare$
+由圆半径为 $2$, 角 $x$ 的终边与圆的交点 $B$ 的坐标为 $\left(2\cos x,\ 2\sin x\right)$. 故点 $B$ 的纵坐标 $y=2\sin x$, $x\in\mathbb R$. 其图象为振幅为 $2$, 周期为 $2\pi$ 的正弦曲线. $\blacksquare$
 
 ### 习题十八
 
-(习题 5.4 拓广探索第 18 题) 已知函数 $y=f(x)$ ($x\in\mathbb R$) 是周期函数, 周期为 $2$, 其部分图象如图所示,
+(习题 5.4 拓广探索第 18 题) 已知函数 $y=f\left(x\right)$ ($x\in\mathbb R$) 是周期函数, 周期为 $2$, 其部分图象如图所示,
 
-(1) 写出函数 $y=f(x)$ 的解析式;
+(1) 写出函数 $y=f\left(x\right)$ 的解析式;
 
-(2) 画出函数 $y=f(x+1)$ 的图象.
+(2) 画出函数 $y=f\left(x+1\right)$ 的图象.
 
 ![week21-6.svg](../../figures/week21-6.svg){width=50%}
 
@@ -606,9 +606,9 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 由**定义 5.4.1** (周期函数) 及图象特征.
 
-(1) 由图象过 $(0,0)$, $(1,1)$, $(-1,-1)$ 且周期为 $2$, 可设 $f(x)=\sin\frac{\pi x}{2}$. 验证: $f(0)=0$, $f(1)=1$, $f(-1)=-1$, 周期 $T=\frac{2\pi}{\pi/2}=4\neq2$. 再由周期为 $2$ 且过 $(0,0)$, $(1,1)$, 可设 $f(x)=\sin\pi x$. 验证: $f(0)=0$, $f(1)=0\neq1$. 由图象过 $(1,1)$ 且周期为 $2$, 设 $f(x)=-\cos\pi x$. 验证: $f(0)=-1\neq0$. 综合图象过 $(0,0)$, $(1,1)$, $(-1,-1)$ 且周期为 $2$, 得 $f(x)=\sin\pi x$.
+(1) 由图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 可设 $f\left(x\right)=\sin\frac{\pi x}{2}$. 验证: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, 周期 $T=\frac{2\pi}{\pi/2}=4\neq2$. 再由周期为 $2$ 且过 $\left(0,0\right)$, $\left(1,1\right)$, 可设 $f\left(x\right)=\sin\pi x$. 验证: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. 由图象过 $\left(1,1\right)$ 且周期为 $2$, 设 $f\left(x\right)=-\cos\pi x$. 验证: $f\left(0\right)=-1\neq0$. 综合图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 得 $f\left(x\right)=\sin\pi x$.
 
-(2) $y=f(x+1)$ 的图象是将 $y=f(x)$ 的图象向左平移 $1$ 个单位长度. $\blacksquare$
+(2) $y=f\left(x+1\right)$ 的图象是将 $y=f\left(x\right)$ 的图象向左平移 $1$ 个单位长度. $\blacksquare$
 
 ### 习题十九
 
@@ -618,7 +618,7 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 正弦曲线的对称中心: 正弦曲线与 $x$ 轴的交点均为对称中心, 即 $(k\pi,0)$ ($k\in\mathbb Z$). 正弦曲线是轴对称图形, 对称轴为 $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb Z$).
+(1) 正弦曲线的对称中心: 正弦曲线与 $x$ 轴的交点均为对称中心, 即 $\left(k\pi,0\right)$ ($k\in\mathbb Z$). 正弦曲线是轴对称图形, 对称轴为 $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb Z$).
 
 (2) 余弦曲线的对称中心: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb Z$). 余弦曲线是轴对称图形, 对称轴为 $x=k\pi$ ($k\in\mathbb Z$).
 
@@ -626,11 +626,11 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 ### 探究与发现一
 
-(思考 1) 阅读 "函数 $y=A\sin(\omega x+\varphi)$ 及 $y=A\cos(\omega x+\varphi)$ 的周期" 一文, 说明周期公式 $T=\frac{2\pi}{\omega}$ 的推导过程.
+(思考 1) 阅读 "函数 $y=A\sin\left(\omega x+\varphi\right)$ 及 $y=A\cos\left(\omega x+\varphi\right)$ 的周期" 一文, 说明周期公式 $T=\frac{2\pi}{\omega}$ 的推导过程.
 
 ### 解答 探究与发现一
 
-由**常用结论** ($y=A\sin(\omega x+\varphi)$ 的周期).
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期).
 
 令 $z=\omega x+\varphi$, 则 $y=A\sin z$ 的周期为 $2\pi$. 由 $z+2\pi=\omega x+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, 知当自变量 $x$ 增加 $\frac{2\pi}{\omega}$ 时, 函数值重复出现. 且当增加量小于 $\frac{2\pi}{\omega}$ 时, 函数值不会总重复出现. 故最小正周期 $T=\frac{2\pi}{\omega}$. $\blacksquare$
 
@@ -642,9 +642,9 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 及**常用结论** (正弦函数的图象与性质).
 
-(1) 周期性: 角 $x$ 的终边每绕原点旋转一周 ($2\pi$), 点 $P(\cos x,\sin x)$ 回到原位, 故周期为 $2\pi$.
+(1) 周期性: 角 $x$ 的终边每绕原点旋转一周 ($2\pi$), 点 $P\left(\cos x,\sin x\right)$ 回到原位, 故周期为 $2\pi$.
 
-(2) 奇偶性: 角 $x$ 与 $-x$ 的终边关于 $x$ 轴对称, 故 $\cos(-x)=\cos x$, $\sin(-x)=-\sin x$, 即余弦为偶函数, 正弦为奇函数.
+(2) 奇偶性: 角 $x$ 与 $-x$ 的终边关于 $x$ 轴对称, 故 $\cos\left(-x\right)=\cos x$, $\sin\left(-x\right)=-\sin x$, 即余弦为偶函数, 正弦为奇函数.
 
 (3) 单调性: 当角 $x$ 从 $-\frac{\pi}{2}$ 增大到 $\frac{\pi}{2}$ 时, 点 $P$ 的纵坐标从 $-1$ 增大到 $1$, 故 $\sin x$ 递增; 当 $x$ 从 $\frac{\pi}{2}$ 增大到 $\frac{3\pi}{2}$ 时, 纵坐标从 $1$ 减小到 $-1$, 故 $\sin x$ 递减.
 

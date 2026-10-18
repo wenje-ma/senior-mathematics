@@ -16,15 +16,15 @@
 
 > **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram) <br>Dividing the data into several groups and listing the frequency and relative frequency of each group produces a frequency distribution table; in a frequency distribution histogram, the vertical axis represents $\frac{\text{频率}}{\text{组距}}$, the area of each small rectangle equals the relative frequency of the corresponding group, and the sum of the areas of all small rectangles equals 1.
 
-> **Definition 9.2.2** (The $p$-th Percentile) <br>The $p$-th percentile of a set of data is a value such that at least $p\%$ of the data are less than or equal to this value, and at least $(100-p)\%$ of the data are greater than or equal to this value; the median is precisely the 50th percentile.
+> **Definition 9.2.2** (The $p$-th Percentile) <br>The $p$-th percentile of a set of data is a value such that at least $p\%$ of the data are less than or equal to this value, and at least $\left(100-p\right)\%$ of the data are greater than or equal to this value; the median is precisely the 50th percentile.
 
 > **Definition 9.2.3** (Mode, Median and Mean) <br>The mode is the data value that appears most frequently in a set of data; the median is the value located in the middle after the data are arranged from small to large; the mean is the arithmetic mean of all the data; they describe the central tendency of the data from different angles, and the mean is easily affected by extreme values.
 
 > **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) <br>The variance (standard deviation) is the mean (the arithmetic square root) of the squares of the deviations of each data value from the mean, measuring the dispersion of the data; the larger the variance (standard deviation), the greater the dispersion of the data.
 
-> **Common Conclusion 9.2.5** (Total Variance of Stratified Random Sampling) <br>The variance after combining the two strata is $s^2=\frac{n_1(s_1^2+(\bar x_1-\bar w)^2)+n_2(s_2^2+(\bar x_2-\bar w)^2)}{n_1+n_2}$.
+> **Common Conclusion 9.2.5** (Total Variance of Stratified Random Sampling) <br>The variance after combining the two strata is $s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}$.
 
-> **Common Conclusion 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$, then $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=|a|s_x$.
+> **Common Conclusion 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$, then $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
 
 ### Problem 1
 
@@ -58,15 +58,15 @@ By **Definition 9.2.3** (Mode, Median and Mean) and **Definition 9.2.4** (Popula
 
 (2) For (B): for example, $2,2,3,4,6$ has median 3 and mode 2, in which 6 appears. Hence (B) cannot determine that 6 definitely did not appear.
 
-(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum(x_i-\bar x)^2=5\times2.4=12$, i.e.
+(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum\left(x_i-\bar x\right)^2=5\times2.4=12$, i.e.
 
 $$
-\sum x_i^2=\sum(x_i-\bar x)^2+n\bar x^2=12+5\times4=32.
+\sum x_i^2=\sum\left(x_i-\bar x\right)^2+n\bar x^2=12+5\times4=32.
 $$
 
 If 6 appeared once, then the sum of the other 4 rolls would be $10-6=4$, i.e. the other 4 rolls are all 1; in this case the sum of squares would be $6^2+4\times1^2=40>32$, a contradiction. Hence 6 definitely did not appear.
 
-(4) For (D): for example, $1,2,3,3,6$ has median 3 and mean 3, and its variance is $\frac{(1-3)^2+(2-3)^2+0+0+(6-3)^2}{5}=\frac{14}{5}=2.8$, in which 6 appears. Hence (D) cannot determine that 6 definitely did not appear.
+(4) For (D): for example, $1,2,3,3,6$ has median 3 and mean 3, and its variance is $\frac{\left(1-3\right)^2+\left(2-3\right)^2+0+0+\left(6-3\right)^2}{5}=\frac{14}{5}=2.8$, in which 6 appears. Hence (D) cannot determine that 6 definitely did not appear.
 
 In summary, the answer is (C). $\blacksquare$
 
@@ -207,7 +207,7 @@ $$
 the median is approximately $9015$, and the standard deviation is approximately
 
 $$
-s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}(x_i-\bar x)^2}\approx4223.
+s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\bar x\right)^2}\approx4223.
 $$
 
 This student walks about 9370 steps per day on average, with a median of about 9015 steps, indicating a moderate daily walking amount; the relatively large standard deviation indicates that his daily exercise is unstable, walking more on some days and less on others, and his exercise habits are not yet regular enough. $\blacksquare$
@@ -235,7 +235,7 @@ $$
 The median is the average of the 15th and 16th values, namely $88$. The range is the difference between the maximum and minimum, namely $117-55=62$. The standard deviation is
 
 $$
-s=\sqrt{\frac{1}{30}\sum_{i=1}^{30}(x_i-89.2)^2}\approx12.6.
+s=\sqrt{\frac{1}{30}\sum_{i=1}^{30}\left(x_i-89.2\right)^2}\approx12.6.
 $$
 
 (2) To meet customer demand $80\%$ of the time, i.e. set the stocking amount at the 80th percentile of the daily sales volume, so that on about $80\%$ of days the sales volume does not exceed the stocking amount.
@@ -274,7 +274,7 @@ The first tier covers $75\%$ of residents, so the upper limit of the first tier 
 
 Arrange the 200 data values from small to large. The 75th percentile: $i=200\times75\%=150$, which is an integer, so it is the average of the 150th and 151st values, approximately $178\,\mathrm{kW\cdot h}$. The 95th percentile: $i=200\times95\%=190$, which is an integer, so it is the average of the 190th and 191st values, approximately $296.5\,\mathrm{kW\cdot h}$.
 
-Hence the range of each tier can be set as: the first tier is average monthly consumption not exceeding $178\,\mathrm{kW\cdot h}$; the second tier is $(178,296.5]\,\mathrm{kW\cdot h}$; the third tier is average monthly consumption exceeding $296.5\,\mathrm{kW\cdot h}$. $\blacksquare$
+Hence the range of each tier can be set as: the first tier is average monthly consumption not exceeding $178\,\mathrm{kW\cdot h}$; the second tier is $\left(178,296.5\right]\,\mathrm{kW\cdot h}$; the third tier is average monthly consumption exceeding $296.5\,\mathrm{kW\cdot h}$. $\blacksquare$
 
 ### Problem 12
 

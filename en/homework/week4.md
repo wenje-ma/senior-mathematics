@@ -4,9 +4,9 @@
 
 > **Definition 1.2.4** (Empty Set) <br>Generally, we call a set containing no elements the empty set, denoted $\varnothing$, and stipulate: the empty set is a subset of any set.
 
-> **Definition 1.3.1** (Union) <br>Generally, the set formed by all elements belonging to the set $A$ or belonging to the set $B$ is called the union of the set $A$ and $B$, denoted $A\cup B$, i.e. $A\cup B=\{x\mid x\in A$, or $x\in B\}$.
+> **Definition 1.3.1** (Union) <br>Generally, the set formed by all elements belonging to the set $A$ or belonging to the set $B$ is called the union of the set $A$ and $B$, denoted $A\cup B$, i.e. $A\cup B=\left\{x\mid x\in A$, or $x\in B\right\}$.
 
-> **Definition 1.3.2** (Intersection) <br>Generally, the set formed by all elements belonging to the set $A$ and belonging to the set $B$ is called the intersection of the set $A$ and $B$, denoted $A\cap B$, i.e. $A\cap B=\{x\mid x\in A$, and $x\in B\}$.
+> **Definition 1.3.2** (Intersection) <br>Generally, the set formed by all elements belonging to the set $A$ and belonging to the set $B$ is called the intersection of the set $A$ and $B$, denoted $A\cap B$, i.e. $A\cap B=\left\{x\mid x\in A$, and $x\in B\right\}$.
 
 > **Definition 1.4.1** (Proposition) <br>Generally, we call a declarative sentence expressed in language, symbols, or formulas that can be judged true or false a proposition. A sentence judged true is a true proposition, and a sentence judged false is a false proposition. Many propositions in high school mathematics can be written in the forms "if $p$, then $q$" or "if $p$, then $q$", where $p$ is called the condition of the proposition and $q$ is called the conclusion of the proposition.
 
@@ -90,7 +90,7 @@ By **Definition 1.4.4** (Necessary and Sufficient Condition), $p$ is a necessary
 
 (2) In the same circle, equal chords subtend equal central angles, and consequently equal inscribed angles; conversely, if the inscribed angles subtended by two chords are equal, then the central angles they subtend are equal, and thus the chord lengths are equal. Therefore $p\Leftrightarrow q$, i.e. $p$ is a necessary and sufficient condition for $q$.
 
-(3) Taking $A=\{1\}$, $B=\{2\}$, by **Definition 1.3.2** (Intersection), $A\cap B=\varnothing$, but $A,B$ are both not the empty set, so $p\nRightarrow q$. Conversely, if one of $A$ and $B$ is the empty set, by **Definition 1.2.4** (Empty Set) and the meaning of intersection, $A\cap B=\varnothing$, i.e. $q\Rightarrow p$. Since $p\nRightarrow q$, $p$ is not a necessary and sufficient condition for $q$.
+(3) Taking $A=\left\{1\right\}$, $B=\left\{2\right\}$, by **Definition 1.3.2** (Intersection), $A\cap B=\varnothing$, but $A,B$ are both not the empty set, so $p\nRightarrow q$. Conversely, if one of $A$ and $B$ is the empty set, by **Definition 1.2.4** (Empty Set) and the meaning of intersection, $A\cap B=\varnothing$, i.e. $q\Rightarrow p$. Since $p\nRightarrow q$, $p$ is not a necessary and sufficient condition for $q$.
 
 In summary, in propositions (1) and (2), $p$ is a necessary and sufficient condition for $q$. $\blacksquare$
 
@@ -214,7 +214,7 @@ By **Definition 1.4.2** (Sufficient Condition and Necessary Condition) and **Def
 
 ### Problem 4
 
-(Problem 1.4, Comprehensive Application, Problem 4) Given $A=\{x\mid x\text{ 满足条件 }p\}$, $B=\{x\mid x\text{ 满足条件 }q\}$,
+(Problem 1.4, Comprehensive Application, Problem 4) Given $A=\left\{x\mid x\text{ 满足条件 }p\right\}$, $B=\left\{x\mid x\text{ 满足条件 }q\right\}$,
 
 (1) If $A\subseteq B$, then what kind of condition is $p$ for $q$?
 

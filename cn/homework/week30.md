@@ -2,23 +2,23 @@
 
 > **公式 5.1.1** (弧度制) <br>长度等于半径长的弧所对的圆心角称为 $1$ 弧度的角. 弧长公式 $l=\lvert\alpha\rvert r$, 扇形面积 $S=\frac{1}{2}lr=\frac{1}{2}\lvert\alpha\rvert r^{2}$.
 
-> **公式 5.2.1** (三角函数定义) <br>设角 $\alpha$ 终边上任意一点 $P(x,y)$, $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
+> **公式 5.2.1** (三角函数定义) <br>设角 $\alpha$ 终边上任意一点 $P\left(x,y\right)$, $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
 
 > **公式 5.2.2** (同角三角函数关系) <br>$\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-> **公式 5.3.1** (诱导公式) <br>$\sin(\alpha+2k\pi)=\sin\alpha$, $\cos(\alpha+2k\pi)=\cos\alpha$; $\sin(\pi+\alpha)=-\sin\alpha$, $\cos(\pi+\alpha)=-\cos\alpha$; $\sin(-\alpha)=-\sin\alpha$, $\cos(-\alpha)=\cos\alpha$; $\sin(\pi-\alpha)=\sin\alpha$, $\cos(\pi-\alpha)=-\cos\alpha$; $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
+> **公式 5.3.1** (诱导公式) <br>$\sin\left(\alpha+2k\pi\right)=\sin\alpha$, $\cos\left(\alpha+2k\pi\right)=\cos\alpha$; $\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$; $\sin\left(-\alpha\right)=-\sin\alpha$, $\cos\left(-\alpha\right)=\cos\alpha$; $\sin\left(\pi-\alpha\right)=\sin\alpha$, $\cos\left(\pi-\alpha\right)=-\cos\alpha$; $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-> **公式 5.5.1** (差角余弦公式) <br>$\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
+> **公式 5.5.1** (差角余弦公式) <br>$\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
 
-> **公式 5.5.3** (和角正弦公式) <br>$\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta$.
+> **公式 5.5.3** (和角正弦公式) <br>$\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta$.
 
-> **公式 5.5.5** (和角正切公式) <br>$\tan(\alpha+\beta)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$.
+> **公式 5.5.5** (和角正切公式) <br>$\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$.
 
 > **公式 5.5.7** (二倍角正弦公式) <br>$\sin2\alpha=2\sin\alpha\cos\alpha$.
 
 > **公式 5.5.8** (二倍角余弦公式) <br>$\cos2\alpha=\cos^{2}\alpha-\sin^{2}\alpha=1-2\sin^{2}\alpha=2\cos^{2}\alpha-1$.
 
-> **定义 5.6.2** (周期) <br>函数 $y=A\sin(\omega x+\varphi)$ 的周期 $T=\frac{2\pi}{\omega}$.
+> **定义 5.6.2** (周期) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ 的周期 $T=\frac{2\pi}{\omega}$.
 
 ### 习题一
 
@@ -36,13 +36,13 @@
 
 由**公式 5.1.1** (弧度制).
 
-(1) $S=\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb Z\}$. 适合的元素: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
+(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
 
-(2) $S=\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb Z\}$. 适合的元素: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
+(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
 
-(3) $S=\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb Z\}$. 适合的元素: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
+(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
 
-(4) $S=\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb Z\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
+(4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
 
 ### 习题二
 
@@ -80,7 +80,7 @@
 
 (3) $\sin\alpha\cos\alpha$;
 
-(4) $(\sin\alpha+\cos\alpha)^{2}$.
+(4) $\left(\sin\alpha+\cos\alpha\right)^{2}$.
 
 ### 解答 习题四
 
@@ -94,7 +94,7 @@
 
 (3) $\sin\alpha\cos\alpha=-\frac{3}{10}$.
 
-(4) $(\sin\alpha+\cos\alpha)^{2}=1+2\sin\alpha\cos\alpha=1-\frac{3}{5}=\frac{2}{5}$. $\blacksquare$
+(4) $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha=1-\frac{3}{5}=\frac{2}{5}$. $\blacksquare$
 
 ### 习题五
 
@@ -104,7 +104,7 @@
 
 (2) $\sin2+\cos3+\tan4$;
 
-(3) $\cos(\sin2)$.
+(3) $\cos\left(\sin2\right)$.
 
 ### 解答 习题五
 
@@ -114,7 +114,7 @@
 
 (2) $\sin2\approx0.9093$, $\cos3\approx-0.98999$, $\tan4\approx1.1578$, 原式 $\approx1.0771$.
 
-(3) $\sin2\approx0.9093$, $\cos(0.9093)\approx0.6143$. $\blacksquare$
+(3) $\sin2\approx0.9093$, $\cos\left(0.9093\right)\approx0.6143$. $\blacksquare$
 
 ### 习题六
 
@@ -180,9 +180,9 @@ $\blacksquare$
 
 (1) 用描点法画出函数 $y=\sin x$, $x\in\left[0,\frac{\pi}{2}\right]$ 的图象.
 
-(2) 如何根据第 (1) 小题并运用正弦函数的性质, 得到函数 $y=\sin x$, $x\in[0,2\pi]$ 的图象?
+(2) 如何根据第 (1) 小题并运用正弦函数的性质, 得到函数 $y=\sin x$, $x\in\left[0,2\pi\right]$ 的图象?
 
-(3) 如何根据第 (2) 小题并通过平行移动坐标轴, 得到函数 $y=\sin(x+\varphi)+k$, $x\in[0,2\pi]$ ($\varphi$, $k$ 都是常数) 的图象?
+(3) 如何根据第 (2) 小题并通过平行移动坐标轴, 得到函数 $y=\sin\left(x+\varphi\right)+k$, $x\in\left[0,2\pi\right]$ ($\varphi$, $k$ 都是常数) 的图象?
 
 ![week30-2.svg](../../figures/week30-2.svg){width=50%}
 
@@ -192,7 +192,7 @@ $\blacksquare$
 
 (1) 取 $x=0$, $\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$, $\frac{\pi}{2}$ 描点连线.
 
-(2) 由正弦函数关于 $x=\frac{\pi}{2}$ 对称, 得 $\left[\frac{\pi}{2},\pi\right]$ 的图象; 由 $\sin(\pi+x)=-\sin x$, 得 $[\pi,2\pi]$ 的图象.
+(2) 由正弦函数关于 $x=\frac{\pi}{2}$ 对称, 得 $\left[\frac{\pi}{2},\pi\right]$ 的图象; 由 $\sin\left(\pi+x\right)=-\sin x$, 得 $\left[\pi,2\pi\right]$ 的图象.
 
 (3) 将 $y=\sin x$ 的图象向左 (右) 平移 $\lvert\varphi\rvert$, 再向上 (下) 平移 $\lvert k\rvert$. $\blacksquare$
 
@@ -216,31 +216,31 @@ $\blacksquare$
 
 (复习参考题5 复习巩固第 11 题)
 
-(1) 已知 $\alpha$, $\beta$ 都是锐角, $\sin\alpha=\frac{3}{5}$, $\cos(\alpha+\beta)=\frac{5}{13}$, 求 $\sin\beta$ 的值;
+(1) 已知 $\alpha$, $\beta$ 都是锐角, $\sin\alpha=\frac{3}{5}$, $\cos\left(\alpha+\beta\right)=\frac{5}{13}$, 求 $\sin\beta$ 的值;
 
-(2) 已知 $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$, $\sin\left(\frac{5\pi}{4}+\beta\right)=-\frac{12}{13}$, $\alpha\in\left(\frac{\pi}{4},\frac{3\pi}{4}\right)$, $\beta\in\left(0,\frac{\pi}{4}\right)$, 求 $\sin(\alpha+\beta)$ 的值;
+(2) 已知 $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$, $\sin\left(\frac{5\pi}{4}+\beta\right)=-\frac{12}{13}$, $\alpha\in\left(\frac{\pi}{4},\frac{3\pi}{4}\right)$, $\beta\in\left(0,\frac{\pi}{4}\right)$, 求 $\sin\left(\alpha+\beta\right)$ 的值;
 
-(3) 已知 $\alpha$, $\beta$ 都是锐角, $\tan\alpha=\frac{1}{7}$, $\sin\beta=\frac{\sqrt{10}}{10}$, 求 $\tan(\alpha+2\beta)$ 的值.
+(3) 已知 $\alpha$, $\beta$ 都是锐角, $\tan\alpha=\frac{1}{7}$, $\sin\beta=\frac{\sqrt{10}}{10}$, 求 $\tan\left(\alpha+2\beta\right)$ 的值.
 
 ### 解答 习题十一
 
 由**公式 5.5.1** 至**公式 5.5.8**.
 
-(1) 由 $\alpha$ 锐角, $\sin\alpha=\frac{3}{5}$, 得 $\cos\alpha=\frac{4}{5}$. 由 $\alpha+\beta\in(0,\pi)$, $\cos(\alpha+\beta)=\frac{5}{13}$, 得 $\sin(\alpha+\beta)=\frac{12}{13}$. 故 $\sin\beta=\sin[(\alpha+\beta)-\alpha]=\sin(\alpha+\beta)\cos\alpha-\cos(\alpha+\beta)\sin\alpha=\frac{12}{13}\cdot\frac{4}{5}-\frac{5}{13}\cdot\frac{3}{5}=\frac{33}{65}$.
+(1) 由 $\alpha$ 锐角, $\sin\alpha=\frac{3}{5}$, 得 $\cos\alpha=\frac{4}{5}$. 由 $\alpha+\beta\in\left(0,\pi\right)$, $\cos\left(\alpha+\beta\right)=\frac{5}{13}$, 得 $\sin\left(\alpha+\beta\right)=\frac{12}{13}$. 故 $\sin\beta=\sin\left[\left(\alpha+\beta\right)-\alpha\right]=\sin\left(\alpha+\beta\right)\cos\alpha-\cos\left(\alpha+\beta\right)\sin\alpha=\frac{12}{13}\cdot\frac{4}{5}-\frac{5}{13}\cdot\frac{3}{5}=\frac{33}{65}$.
 
-(2) 由 $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$, $\frac{\pi}{4}-\alpha\in\left(-\frac{\pi}{2},0\right)$, 得 $\sin\left(\frac{\pi}{4}-\alpha\right)=-\frac{4}{5}$. 由 $\sin\left(\frac{5\pi}{4}+\beta\right)=-\sin\left(\frac{\pi}{4}+\beta\right)=-\frac{12}{13}$, 得 $\sin\left(\frac{\pi}{4}+\beta\right)=\frac{12}{13}$, $\cos\left(\frac{\pi}{4}+\beta\right)=-\frac{5}{13}$. 故 $\sin(\alpha+\beta)=-\sin\left[\left(\frac{\pi}{4}+\beta\right)-\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\sin\left(\frac{\pi}{4}+\beta\right)\cos\left(\frac{\pi}{4}-\alpha\right)-\cos\left(\frac{\pi}{4}+\beta\right)\sin\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\frac{12}{13}\cdot\frac{3}{5}-\left(-\frac{5}{13}\right)\left(-\frac{4}{5}\right)\right]=-\frac{16}{65}$.
+(2) 由 $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$, $\frac{\pi}{4}-\alpha\in\left(-\frac{\pi}{2},0\right)$, 得 $\sin\left(\frac{\pi}{4}-\alpha\right)=-\frac{4}{5}$. 由 $\sin\left(\frac{5\pi}{4}+\beta\right)=-\sin\left(\frac{\pi}{4}+\beta\right)=-\frac{12}{13}$, 得 $\sin\left(\frac{\pi}{4}+\beta\right)=\frac{12}{13}$, $\cos\left(\frac{\pi}{4}+\beta\right)=-\frac{5}{13}$. 故 $\sin\left(\alpha+\beta\right)=-\sin\left[\left(\frac{\pi}{4}+\beta\right)-\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\sin\left(\frac{\pi}{4}+\beta\right)\cos\left(\frac{\pi}{4}-\alpha\right)-\cos\left(\frac{\pi}{4}+\beta\right)\sin\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\frac{12}{13}\cdot\frac{3}{5}-\left(-\frac{5}{13}\right)\left(-\frac{4}{5}\right)\right]=-\frac{16}{65}$.
 
-(3) 由 $\beta$ 锐角, $\sin\beta=\frac{\sqrt{10}}{10}$, 得 $\tan\beta=\frac{1}{3}$. 故 $\tan2\beta=\frac{2\times\frac{1}{3}}{1-\frac{1}{9}}=\frac{3}{4}$. $\tan(\alpha+2\beta)=\frac{\frac{1}{7}+\frac{3}{4}}{1-\frac{1}{7}\times\frac{3}{4}}=\frac{\frac{25}{28}}{\frac{25}{28}}=1$. $\blacksquare$
+(3) 由 $\beta$ 锐角, $\sin\beta=\frac{\sqrt{10}}{10}$, 得 $\tan\beta=\frac{1}{3}$. 故 $\tan2\beta=\frac{2\times\frac{1}{3}}{1-\frac{1}{9}}=\frac{3}{4}$. $\tan\left(\alpha+2\beta\right)=\frac{\frac{1}{7}+\frac{3}{4}}{1-\frac{1}{7}\times\frac{3}{4}}=\frac{\frac{25}{28}}{\frac{25}{28}}=1$. $\blacksquare$
 
 ### 习题十二
 
 (复习参考题5 复习巩固第 12 题)
 
-(1) 证明 $\tan\alpha+\tan\beta=\tan(\alpha+\beta)-\tan\alpha\tan\beta\tan(\alpha+\beta)$;
+(1) 证明 $\tan\alpha+\tan\beta=\tan\left(\alpha+\beta\right)-\tan\alpha\tan\beta\tan\left(\alpha+\beta\right)$;
 
 (2) 求 $\tan20^{\circ}+\tan40^{\circ}+\sqrt{3}\tan20^{\circ}\tan40^{\circ}$ 的值;
 
-(3) 若 $\alpha+\beta=\frac{3\pi}{4}$, 求 $(1-\tan\alpha)(1-\tan\beta)$ 的值;
+(3) 若 $\alpha+\beta=\frac{3\pi}{4}$, 求 $\left(1-\tan\alpha\right)\left(1-\tan\beta\right)$ 的值;
 
 (4) 求 $\frac{\tan20^{\circ}+\tan40^{\circ}+\tan120^{\circ}}{\tan20^{\circ}\tan40^{\circ}}$ 的值.
 
@@ -248,13 +248,13 @@ $\blacksquare$
 
 由**公式 5.5.5** (和角正切公式).
 
-(1) 由 $\tan(\alpha+\beta)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$, 得 $\tan\alpha+\tan\beta=\tan(\alpha+\beta)(1-\tan\alpha\tan\beta)=\tan(\alpha+\beta)-\tan\alpha\tan\beta\tan(\alpha+\beta)$.
+(1) 由 $\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$, 得 $\tan\alpha+\tan\beta=\tan\left(\alpha+\beta\right)\left(1-\tan\alpha\tan\beta\right)=\tan\left(\alpha+\beta\right)-\tan\alpha\tan\beta\tan\left(\alpha+\beta\right)$.
 
-(2) 由 $20^{\circ}+40^{\circ}=60^{\circ}$, $\tan60^{\circ}=\sqrt{3}$, 得 $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}(1-\tan20^{\circ}\tan40^{\circ})$. 故原式 $=\sqrt{3}(1-\tan20^{\circ}\tan40^{\circ})+\sqrt{3}\tan20^{\circ}\tan40^{\circ}=\sqrt{3}$.
+(2) 由 $20^{\circ}+40^{\circ}=60^{\circ}$, $\tan60^{\circ}=\sqrt{3}$, 得 $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)$. 故原式 $=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)+\sqrt{3}\tan20^{\circ}\tan40^{\circ}=\sqrt{3}$.
 
-(3) 由 $\alpha+\beta=\frac{3\pi}{4}$, $\tan(\alpha+\beta)=-1$, 得 $\tan\alpha+\tan\beta=-(1-\tan\alpha\tan\beta)$, 即 $\tan\alpha+\tan\beta+\tan\alpha\tan\beta=-1$. 故 $(1-\tan\alpha)(1-\tan\beta)=1-(\tan\alpha+\tan\beta)+\tan\alpha\tan\beta=2$.
+(3) 由 $\alpha+\beta=\frac{3\pi}{4}$, $\tan\left(\alpha+\beta\right)=-1$, 得 $\tan\alpha+\tan\beta=-\left(1-\tan\alpha\tan\beta\right)$, 即 $\tan\alpha+\tan\beta+\tan\alpha\tan\beta=-1$. 故 $\left(1-\tan\alpha\right)\left(1-\tan\beta\right)=1-\left(\tan\alpha+\tan\beta\right)+\tan\alpha\tan\beta=2$.
 
-(4) 由 $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}(1-\tan20^{\circ}\tan40^{\circ})$, $\tan120^{\circ}=-\sqrt{3}$. 故原式 $=\frac{\sqrt{3}-\sqrt{3}\tan20^{\circ}\tan40^{\circ}-\sqrt{3}}{\tan20^{\circ}\tan40^{\circ}}=-\sqrt{3}$. $\blacksquare$
+(4) 由 $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)$, $\tan120^{\circ}=-\sqrt{3}$. 故原式 $=\frac{\sqrt{3}-\sqrt{3}\tan20^{\circ}\tan40^{\circ}-\sqrt{3}}{\tan20^{\circ}\tan40^{\circ}}=-\sqrt{3}$. $\blacksquare$
 
 ### 习题十三
 
@@ -262,23 +262,23 @@ $\blacksquare$
 
 (1) $\frac{1}{\sin10^{\circ}}-\frac{\sqrt{3}}{\cos10^{\circ}}$;
 
-(2) $\sin40^{\circ}(\tan10^{\circ}-\sqrt{3})$;
+(2) $\sin40^{\circ}\left(\tan10^{\circ}-\sqrt{3}\right)$;
 
-(3) $\tan70^{\circ}\cos10^{\circ}(\sqrt{3}\tan20^{\circ}-1)$;
+(3) $\tan70^{\circ}\cos10^{\circ}\left(\sqrt{3}\tan20^{\circ}-1\right)$;
 
-(4) $\sin50^{\circ}(1+\sqrt{3}\tan10^{\circ})$.
+(4) $\sin50^{\circ}\left(1+\sqrt{3}\tan10^{\circ}\right)$.
 
 ### 解答 习题十三
 
 由**公式 5.5.1** 至**公式 5.5.8**.
 
-(1) 原式 $=\frac{\cos10^{\circ}-\sqrt{3}\sin10^{\circ}}{\sin10^{\circ}\cos10^{\circ}}=\frac{2\cos(10^{\circ}+60^{\circ})}{\frac{1}{2}\sin20^{\circ}}=\frac{4\cos70^{\circ}}{\sin20^{\circ}}=\frac{4\sin20^{\circ}}{\sin20^{\circ}}=4$.
+(1) 原式 $=\frac{\cos10^{\circ}-\sqrt{3}\sin10^{\circ}}{\sin10^{\circ}\cos10^{\circ}}=\frac{2\cos\left(10^{\circ}+60^{\circ}\right)}{\frac{1}{2}\sin20^{\circ}}=\frac{4\cos70^{\circ}}{\sin20^{\circ}}=\frac{4\sin20^{\circ}}{\sin20^{\circ}}=4$.
 
-(2) 原式 $=\sin40^{\circ}\cdot\frac{\sin10^{\circ}-\sqrt{3}\cos10^{\circ}}{\cos10^{\circ}}=\sin40^{\circ}\cdot\frac{2\sin(10^{\circ}-60^{\circ})}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\sin50^{\circ}}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\cos40^{\circ}}{\cos10^{\circ}}=\frac{-\sin80^{\circ}}{\cos10^{\circ}}=-1$.
+(2) 原式 $=\sin40^{\circ}\cdot\frac{\sin10^{\circ}-\sqrt{3}\cos10^{\circ}}{\cos10^{\circ}}=\sin40^{\circ}\cdot\frac{2\sin\left(10^{\circ}-60^{\circ}\right)}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\sin50^{\circ}}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\cos40^{\circ}}{\cos10^{\circ}}=\frac{-\sin80^{\circ}}{\cos10^{\circ}}=-1$.
 
-(3) 原式 $=\frac{\sin70^{\circ}}{\cos70^{\circ}}\cos10^{\circ}\cdot\frac{\sqrt{3}\sin20^{\circ}-\cos20^{\circ}}{\cos20^{\circ}}=\frac{\cos20^{\circ}\cos10^{\circ}}{\sin20^{\circ}}\cdot\frac{-2\sin(20^{\circ}-60^{\circ})}{\cos20^{\circ}}=\frac{-2\cos10^{\circ}\sin40^{\circ}}{\sin20^{\circ}}=\frac{-\sin80^{\circ}}{\sin20^{\circ}}=-1$.
+(3) 原式 $=\frac{\sin70^{\circ}}{\cos70^{\circ}}\cos10^{\circ}\cdot\frac{\sqrt{3}\sin20^{\circ}-\cos20^{\circ}}{\cos20^{\circ}}=\frac{\cos20^{\circ}\cos10^{\circ}}{\sin20^{\circ}}\cdot\frac{-2\sin\left(20^{\circ}-60^{\circ}\right)}{\cos20^{\circ}}=\frac{-2\cos10^{\circ}\sin40^{\circ}}{\sin20^{\circ}}=\frac{-\sin80^{\circ}}{\sin20^{\circ}}=-1$.
 
-(4) 原式 $=\sin50^{\circ}\cdot\frac{\cos10^{\circ}+\sqrt{3}\sin10^{\circ}}{\cos10^{\circ}}=\sin50^{\circ}\cdot\frac{2\cos(10^{\circ}-60^{\circ})}{\cos10^{\circ}}=\frac{2\sin50^{\circ}\cos50^{\circ}}{\cos10^{\circ}}=\frac{\sin100^{\circ}}{\cos10^{\circ}}=1$. $\blacksquare$
+(4) 原式 $=\sin50^{\circ}\cdot\frac{\cos10^{\circ}+\sqrt{3}\sin10^{\circ}}{\cos10^{\circ}}=\sin50^{\circ}\cdot\frac{2\cos\left(10^{\circ}-60^{\circ}\right)}{\cos10^{\circ}}=\frac{2\sin50^{\circ}\cos50^{\circ}}{\cos10^{\circ}}=\frac{\sin100^{\circ}}{\cos10^{\circ}}=1$. $\blacksquare$
 
 ### 习题十四
 
@@ -302,23 +302,23 @@ $\blacksquare$
 
 (3) 由 $\sin^{4}\theta+\cos^{4}\theta=1-2\sin^{2}\theta\cos^{2}\theta=1-\frac{1}{2}\sin^{2}2\theta=\frac{5}{9}$, 得 $\sin^{2}2\theta=\frac{8}{9}$, $\sin2\theta=\pm\frac{2\sqrt{2}}{3}$.
 
-(4) 由 $\sin^{4}\theta+\cos^{4}\theta=1-\frac{1}{2}\sin^{2}2\theta=1-\frac{1}{2}(1-\cos^{2}2\theta)=1-\frac{1}{2}\left(1-\frac{9}{25}\right)=\frac{17}{25}$. $\blacksquare$
+(4) 由 $\sin^{4}\theta+\cos^{4}\theta=1-\frac{1}{2}\sin^{2}2\theta=1-\frac{1}{2}\left(1-\cos^{2}2\theta\right)=1-\frac{1}{2}\left(1-\frac{9}{25}\right)=\frac{17}{25}$. $\blacksquare$
 
 ### 习题十五
 
 (复习参考题5 复习巩固第 15 题)
 
-(1) 已知 $\cos(\alpha+\beta)=\frac{1}{5}$, $\cos(\alpha-\beta)=\frac{3}{5}$, 求 $\tan\alpha\tan\beta$ 的值;
+(1) 已知 $\cos\left(\alpha+\beta\right)=\frac{1}{5}$, $\cos\left(\alpha-\beta\right)=\frac{3}{5}$, 求 $\tan\alpha\tan\beta$ 的值;
 
-(2) 已知 $\cos\alpha+\cos\beta=\frac{1}{2}$, $\sin\alpha+\sin\beta=\frac{1}{3}$, 求 $\cos(\alpha-\beta)$ 的值.
+(2) 已知 $\cos\alpha+\cos\beta=\frac{1}{2}$, $\sin\alpha+\sin\beta=\frac{1}{3}$, 求 $\cos\left(\alpha-\beta\right)$ 的值.
 
 ### 解答 习题十五
 
 由**公式 5.5.1** 及**公式 5.5.2**.
 
-(1) 由 $\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\frac{1}{5}$, $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\frac{3}{5}$. 两式相加得 $\cos\alpha\cos\beta=\frac{2}{5}$, 相减得 $\sin\alpha\sin\beta=\frac{1}{5}$. 故 $\tan\alpha\tan\beta=\frac{1}{2}$.
+(1) 由 $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\frac{1}{5}$, $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\frac{3}{5}$. 两式相加得 $\cos\alpha\cos\beta=\frac{2}{5}$, 相减得 $\sin\alpha\sin\beta=\frac{1}{5}$. 故 $\tan\alpha\tan\beta=\frac{1}{2}$.
 
-(2) 由 $(\cos\alpha+\cos\beta)^{2}=\frac{1}{4}$, $(\sin\alpha+\sin\beta)^{2}=\frac{1}{9}$. 两式相加得 $2+2\cos(\alpha-\beta)=\frac{13}{36}$. 故 $\cos(\alpha-\beta)=-\frac{59}{72}$. $\blacksquare$
+(2) 由 $\left(\cos\alpha+\cos\beta\right)^{2}=\frac{1}{4}$, $\left(\sin\alpha+\sin\beta\right)^{2}=\frac{1}{9}$. 两式相加得 $2+2\cos\left(\alpha-\beta\right)=\frac{13}{36}$. 故 $\cos\left(\alpha-\beta\right)=-\frac{59}{72}$. $\blacksquare$
 
 ### 习题十六
 
@@ -328,7 +328,7 @@ $\blacksquare$
 
 (2) $\frac{1+\sin2\alpha}{2\cos^{2}\alpha+\sin2\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}$;
 
-(3) $\frac{\sin(2\alpha+\beta)}{\sin\alpha}-2\cos(\alpha+\beta)=\frac{\sin\beta}{\sin\alpha}$;
+(3) $\frac{\sin\left(2\alpha+\beta\right)}{\sin\alpha}-2\cos\left(\alpha+\beta\right)=\frac{\sin\beta}{\sin\alpha}$;
 
 (4) $\frac{3-4\cos2A+\cos4A}{3+4\cos2A+\cos4A}=\tan^{4}A$.
 
@@ -336,13 +336,13 @@ $\blacksquare$
 
 由**公式 5.5.7** 及**公式 5.5.8**.
 
-(1) 左边 $=(2\cos^{2}2\alpha-1)+4\cos2\alpha+3=2\cos^{2}2\alpha+4\cos2\alpha+2=2(\cos2\alpha+1)^{2}=2(2\cos^{2}\alpha)^{2}=8\cos^{4}\alpha=$ 右边.
+(1) 左边 $=\left(2\cos^{2}2\alpha-1\right)+4\cos2\alpha+3=2\cos^{2}2\alpha+4\cos2\alpha+2=2\left(\cos2\alpha+1\right)^{2}=2\left(2\cos^{2}\alpha\right)^{2}=8\cos^{4}\alpha=$ 右边.
 
-(2) 左边 $=\frac{(\sin\alpha+\cos\alpha)^{2}}{2\cos\alpha(\cos\alpha+\sin\alpha)}=\frac{\sin\alpha+\cos\alpha}{2\cos\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}=$ 右边.
+(2) 左边 $=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}}{2\cos\alpha\left(\cos\alpha+\sin\alpha\right)}=\frac{\sin\alpha+\cos\alpha}{2\cos\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}=$ 右边.
 
-(3) 左边 $=\frac{\sin[(\alpha+\beta)+\alpha]-2\cos(\alpha+\beta)\sin\alpha}{\sin\alpha}=\frac{\sin(\alpha+\beta)\cos\alpha+\cos(\alpha+\beta)\sin\alpha-2\cos(\alpha+\beta)\sin\alpha}{\sin\alpha}=\frac{\sin(\alpha+\beta)\cos\alpha-\cos(\alpha+\beta)\sin\alpha}{\sin\alpha}=\frac{\sin\beta}{\sin\alpha}=$ 右边.
+(3) 左边 $=\frac{\sin\left[\left(\alpha+\beta\right)+\alpha\right]-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha+\cos\left(\alpha+\beta\right)\sin\alpha-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha-\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\beta}{\sin\alpha}=$ 右边.
 
-(4) 左边 $=\frac{3-4\cos2A+2\cos^{2}2A-1}{3+4\cos2A+2\cos^{2}2A-1}=\frac{2(\cos2A-1)^{2}}{2(\cos2A+1)^{2}}=\frac{(2\sin^{2}A)^{2}}{(2\cos^{2}A)^{2}}=\tan^{4}A=$ 右边. $\blacksquare$
+(4) 左边 $=\frac{3-4\cos2A+2\cos^{2}2A-1}{3+4\cos2A+2\cos^{2}2A-1}=\frac{2\left(\cos2A-1\right)^{2}}{2\left(\cos2A+1\right)^{2}}=\frac{\left(2\sin^{2}A\right)^{2}}{\left(2\cos^{2}A\right)^{2}}=\tan^{4}A=$ 右边. $\blacksquare$
 
 ### 习题十七
 
@@ -352,7 +352,7 @@ $\blacksquare$
 
 由**公式 5.5.7** 及**公式 5.5.3**.
 
-由 $(\sin\alpha-\cos\alpha)^{2}=\frac{1}{25}=1-\sin2\alpha$, 得 $\sin2\alpha=\frac{24}{25}$. 又 $0\leq\alpha\leq\pi$, $\sin\alpha-\cos\alpha=\frac{1}{5}>0$, 得 $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. 由 $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. 若 $\cos2\alpha=\frac{7}{25}$, 则 $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ 不成立; 故 $\cos2\alpha=-\frac{7}{25}$.
+由 $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, 得 $\sin2\alpha=\frac{24}{25}$. 又 $0\leq\alpha\leq\pi$, $\sin\alpha-\cos\alpha=\frac{1}{5}>0$, 得 $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. 由 $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. 若 $\cos2\alpha=\frac{7}{25}$, 则 $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ 不成立; 故 $\cos2\alpha=-\frac{7}{25}$.
 
 $$
 \sin\left(2\alpha-\frac{\pi}{4}\right)=\sin2\alpha\cos\frac{\pi}{4}-\cos2\alpha\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}\left(\frac{24}{25}+\frac{7}{25}\right)=\frac{31\sqrt{2}}{50}.
@@ -368,7 +368,7 @@ $\blacksquare$
 
 由**公式 5.5.7** 及**公式 5.5.1**.
 
-由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}<x<\frac{7\pi}{4}$, 得 $\frac{5\pi}{3}<\frac{\pi}{4}+x<2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $(\cos x-\sin x)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin x(\cos x+\sin x)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x(\cos x+\sin x)}{\cos x-\sin x}=\frac{\sin2x(\cos x+\sin x)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
+由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}<x<\frac{7\pi}{4}$, 得 $\frac{5\pi}{3}<\frac{\pi}{4}+x<2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
 
 ### 习题十九
 
@@ -378,61 +378,61 @@ $\blacksquare$
 
 由**公式 5.5.8** (二倍角余弦公式).
 
-由 $(\sin\theta+\cos\theta)^{2}=4\sin^{2}\alpha$, 即 $1+2\sin\theta\cos\theta=4\sin^{2}\alpha$, $1+2\sin^{2}\beta=4\sin^{2}\alpha$.
+由 $\left(\sin\theta+\cos\theta\right)^{2}=4\sin^{2}\alpha$, 即 $1+2\sin\theta\cos\theta=4\sin^{2}\alpha$, $1+2\sin^{2}\beta=4\sin^{2}\alpha$.
 
-左边 $=4\cos^{2}2\alpha=4(1-2\sin^{2}\alpha)^{2}$. 由 $4\sin^{2}\alpha=1+2\sin^{2}\beta$, 得 $\cos2\alpha=1-2\sin^{2}\alpha=1-\frac{1+2\sin^{2}\beta}{2}=\frac{1-2\sin^{2}\beta}{2}=\frac{\cos2\beta}{2}$. 故 $4\cos^{2}2\alpha=\cos^{2}2\beta$. $\blacksquare$
+左边 $=4\cos^{2}2\alpha=4\left(1-2\sin^{2}\alpha\right)^{2}$. 由 $4\sin^{2}\alpha=1+2\sin^{2}\beta$, 得 $\cos2\alpha=1-2\sin^{2}\alpha=1-\frac{1+2\sin^{2}\beta}{2}=\frac{1-2\sin^{2}\beta}{2}=\frac{\cos2\beta}{2}$. 故 $4\cos^{2}2\alpha=\cos^{2}2\beta$. $\blacksquare$
 
 ### 习题二十
 
-(复习参考题5 综合运用第 20 题) 已知函数 $f(x)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
+(复习参考题5 综合运用第 20 题) 已知函数 $f\left(x\right)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
 
-(1) 求 $f(x)$ 的最小正周期;
+(1) 求 $f\left(x\right)$ 的最小正周期;
 
-(2) 当 $x\in\left[0,\frac{\pi}{2}\right]$ 时, 求 $f(x)$ 的最小值以及取得最小值时 $x$ 的集合.
+(2) 当 $x\in\left[0,\frac{\pi}{2}\right]$ 时, 求 $f\left(x\right)$ 的最小值以及取得最小值时 $x$ 的集合.
 
 ### 解答 习题二十
 
 由**公式 5.5.7** 及**公式 5.5.8**.
 
-(1) $f(x)=(\cos^{2}x+\sin^{2}x)(\cos^{2}x-\sin^{2}x)-\sin2x=\cos2x-\sin2x=\sqrt{2}\cos\left(2x+\frac{\pi}{4}\right)$. 周期 $T=\pi$.
+(1) $f\left(x\right)=\left(\cos^{2}x+\sin^{2}x\right)\left(\cos^{2}x-\sin^{2}x\right)-\sin2x=\cos2x-\sin2x=\sqrt{2}\cos\left(2x+\frac{\pi}{4}\right)$. 周期 $T=\pi$.
 
-(2) 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{4}\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$. 当 $2x+\frac{\pi}{4}=\pi$, 即 $x=\frac{3\pi}{8}$ 时, $f(x)_{\min}=-\sqrt{2}$. $\blacksquare$
+(2) 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{4}\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$. 当 $2x+\frac{\pi}{4}=\pi$, 即 $x=\frac{3\pi}{8}$ 时, $f\left(x\right)_{\min}=-\sqrt{2}$. $\blacksquare$
 
 ### 习题二十一
 
-(复习参考题5 综合运用第 21 题) 已知函数 $f(x)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ 的最大值为 $1$.
+(复习参考题5 综合运用第 21 题) 已知函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ 的最大值为 $1$.
 
 (1) 求常数 $a$ 的值;
 
-(2) 求函数 $f(x)$ 的单调递减区间;
+(2) 求函数 $f\left(x\right)$ 的单调递减区间;
 
-(3) 求使 $f(x)\geq0$ 成立的 $x$ 的取值集合.
+(3) 求使 $f\left(x\right)\geq0$ 成立的 $x$ 的取值集合.
 
 ### 解答 习题二十一
 
 由**公式 5.5.3** 及**公式 5.5.4**.
 
-(1) $f(x)=2\sin x\cos\frac{\pi}{6}+\cos x+a=\sqrt{3}\sin x+\cos x+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. 最大值为 $2+a=1$, 故 $a=-1$.
+(1) $f\left(x\right)=2\sin x\cos\frac{\pi}{6}+\cos x+a=\sqrt{3}\sin x+\cos x+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. 最大值为 $2+a=1$, 故 $a=-1$.
 
-(2) $f(x)=2\sin\left(x+\frac{\pi}{6}\right)-1$. 单调递减区间为 $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. 单调递减区间为 $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
 
 (3) 由 $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, 得 $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. 故 $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
 
 ### 习题二十二
 
-(复习参考题5 综合运用第 22 题) 已知函数 $f(x)=\sqrt{3}\sin2x+2\cos^{2}x+m$ 在区间 $\left[0,\frac{\pi}{2}\right]$ 上的最大值为 $6$.
+(复习参考题5 综合运用第 22 题) 已知函数 $f\left(x\right)=\sqrt{3}\sin2x+2\cos^{2}x+m$ 在区间 $\left[0,\frac{\pi}{2}\right]$ 上的最大值为 $6$.
 
 (1) 求常数 $m$ 的值;
 
-(2) 当 $x\in\mathbb R$ 时, 求函数 $f(x)$ 的最小值, 以及相应 $x$ 的集合.
+(2) 当 $x\in\mathbb R$ 时, 求函数 $f\left(x\right)$ 的最小值, 以及相应 $x$ 的集合.
 
 ### 解答 习题二十二
 
 由**公式 5.5.8** 及辅助角公式.
 
-(1) $f(x)=\sqrt{3}\sin2x+\cos2x+1+m=2\sin\left(2x+\frac{\pi}{6}\right)+1+m$. 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{6}\in\left[\frac{\pi}{6},\frac{7\pi}{6}\right]$, 最大值 $2+1+m=6$, 故 $m=3$.
+(1) $f\left(x\right)=\sqrt{3}\sin2x+\cos2x+1+m=2\sin\left(2x+\frac{\pi}{6}\right)+1+m$. 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{6}\in\left[\frac{\pi}{6},\frac{7\pi}{6}\right]$, 最大值 $2+1+m=6$, 故 $m=3$.
 
-(2) $f(x)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. 最小值为 $-2+4=2$, 此时 $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
+(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. 最小值为 $-2+4=2$, 此时 $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
 
 ### 习题二十三
 
@@ -446,15 +446,15 @@ $\blacksquare$
 
 由 $x+y+\sqrt{x^{2}+y^{2}}=2$, 得 $\sqrt{x^{2}+y^{2}}=2-x-y$. 平方得 $2xy=4-4x-4y+2xy$, 即 $x+y=1$. 故 $y=1-x$.
 
-$\tan(\alpha+\beta)=\frac{(1-x)+(1-y)}{1-(1-x)(1-y)}=\frac{2-(x+y)}{1-(1-x-y+xy)}=\frac{1}{x+y-xy}=\frac{1}{1-xy}$. 又 $xy=x(1-x)$.
+$\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(1-x\right)\left(1-y\right)}=\frac{2-\left(x+y\right)}{1-\left(1-x-y+xy\right)}=\frac{1}{x+y-xy}=\frac{1}{1-xy}$. 又 $xy=x\left(1-x\right)$.
 
-由 $\angle PCQ=\frac{\pi}{2}-\alpha-\beta$, 得 $\tan\angle PCQ=\cot(\alpha+\beta)=\frac{1-xy}{1}=1-xy$. 又由 $x+y=1$, $xy\leq\frac{1}{4}$.
+由 $\angle PCQ=\frac{\pi}{2}-\alpha-\beta$, 得 $\tan\angle PCQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. 又由 $x+y=1$, $xy\leq\frac{1}{4}$.
 
 由条件可证得 $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
 
 ### 习题二十四
 
-(复习参考题5 拓广探索第 24 题) 已知 $\sin\beta+\cos\beta=\frac{1}{5}$, $\beta\in(0,\pi)$.
+(复习参考题5 拓广探索第 24 题) 已知 $\sin\beta+\cos\beta=\frac{1}{5}$, $\beta\in\left(0,\pi\right)$.
 
 (1) 求 $\tan\beta$ 的值;
 
@@ -464,7 +464,7 @@ $\tan(\alpha+\beta)=\frac{(1-x)+(1-y)}{1-(1-x)(1-y)}=\frac{2-(x+y)}{1-(1-x-y+xy)
 
 由**公式 5.2.2** (同角三角函数关系).
 
-(1) 由 $(\sin\beta+\cos\beta)^{2}=\frac{1}{25}=1+\sin2\beta$, 得 $\sin2\beta=-\frac{24}{25}$. 由 $\beta\in(0,\pi)$, $\sin\beta+\cos\beta=\frac{1}{5}>0$, 得 $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. 故 $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
+(1) 由 $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, 得 $\sin2\beta=-\frac{24}{25}$. 由 $\beta\in\left(0,\pi\right)$, $\sin\beta+\cos\beta=\frac{1}{5}>0$, 得 $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. 故 $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
 
 (2) 可构造求 $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$ 等问题. $\blacksquare$
 
@@ -472,11 +472,11 @@ $\tan(\alpha+\beta)=\frac{(1-x)+(1-y)}{1-(1-x)(1-y)}=\frac{2-(x+y)}{1-(1-x-y+xy)
 
 (复习参考题5 拓广探索第 25 题) 已知直线 $l_{1}\parallel l_{2}$, $A$ 是 $l_{1}$, $l_{2}$ 之间的一定点, 并且点 $A$ 到 $l_{1}$, $l_{2}$ 的距离分别为 $h_{1}$, $h_{2}$. $B$ 是直线 $l_{2}$ 上一动点, 作 $AC\perp AB$, 且使 $AC$ 与直线 $l_{1}$ 交于点 $C$. 设 $\angle ABD=\alpha$.
 
-(1) 写出 $\triangle ABC$ 的面积 $S$ 关于角 $\alpha$ 的函数解析式 $S(\alpha)$;
+(1) 写出 $\triangle ABC$ 的面积 $S$ 关于角 $\alpha$ 的函数解析式 $S\left(\alpha\right)$;
 
 (2) 画出上述函数的图象;
 
-(3) 由 (2) 中的图象求 $S(\alpha)$ 的最小值.
+(3) 由 (2) 中的图象求 $S\left(\alpha\right)$ 的最小值.
 
 ![week30-3.svg](../../figures/week30-3.svg){width=50%}
 
@@ -484,11 +484,11 @@ $\tan(\alpha+\beta)=\frac{(1-x)+(1-y)}{1-(1-x)(1-y)}=\frac{2-(x+y)}{1-(1-x-y+xy)
 
 由三角函数定义.
 
-(1) 由 $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. 故 $S(\alpha)=\frac{1}{2}AB\cdot AC=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
+(1) 由 $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. 故 $S\left(\alpha\right)=\frac{1}{2}AB\cdot AC=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
 
-(2) 函数 $S(\alpha)=\frac{h_{1}h_{2}}{\sin2\alpha}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$.
+(2) 函数 $S\left(\alpha\right)=\frac{h_{1}h_{2}}{\sin2\alpha}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$.
 
-(3) 由 $\sin2\alpha\leq1$, 得 $S(\alpha)\geq h_{1}h_{2}$, 当 $\alpha=\frac{\pi}{4}$ 时取最小值 $h_{1}h_{2}$. $\blacksquare$
+(3) 由 $\sin2\alpha\leq1$, 得 $S\left(\alpha\right)\geq h_{1}h_{2}$, 当 $\alpha=\frac{\pi}{4}$ 时取最小值 $h_{1}h_{2}$. $\blacksquare$
 
 ### 习题二十六
 

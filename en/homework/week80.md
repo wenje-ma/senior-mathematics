@@ -6,7 +6,7 @@
 
 > **Common Conclusion 6.1.3** (Key Points for Applying the Two Counting Principles) <br>When using the two counting principles to solve counting problems, first carefully analyze two points: (1) what exactly is the task to be completed; (2) whether it requires classification or step-by-step decomposition. Classification must be neither repetitive nor omissive; after classifying, count each category separately, and finally sum them using the addition counting principle to obtain the total. Step-by-step decomposition must be complete, i.e., all steps must be finished to complete the task; after decomposing, compute the number of methods for each step, and finally multiply them according to the multiplication counting principle to obtain the total.
 
-> **Common Conclusion** (Number of Subsets) <br>An $n$-element set $A=\{a_1,a_2,\cdots,a_n\}$ has $2^n$ distinct subsets.
+> **Common Conclusion** (Number of Subsets) <br>An $n$-element set $A=\left\{a_1,a_2,\cdots,a_n\right\}$ has $2^n$ distinct subsets.
 
 ### Exercise 1
 
@@ -328,9 +328,9 @@ Therefore there are $30$ different choices. $\blacksquare$
 
 (Exercise 6.1, Review and Consolidation, Problem 6)
 
-(1) In a rectangular coordinate system, how many distinct points are there whose x-coordinate and y-coordinate both take values in $A=\{0,1,2,3,4,5\}$?
+(1) In a rectangular coordinate system, how many distinct points are there whose x-coordinate and y-coordinate both take values in $A=\left\{0,1,2,3,4,5\right\}$?
 
-(2) In a rectangular coordinate system, how many distinct lines are there whose slope takes values in the set $B=\{1,3,5,7\}$ and whose $y$-intercept takes values in the set $C=\{2,4,6,8\}$?
+(2) In a rectangular coordinate system, how many distinct lines are there whose slope takes values in the set $B=\left\{1,3,5,7\right\}$ and whose $y$-intercept takes values in the set $C=\left\{2,4,6,8\right\}$?
 
 ### Solution to Problem 6
 
@@ -506,15 +506,15 @@ Therefore $2160$ has $40$ distinct positive divisors. $\blacksquare$
 
 ### Inquiry and Discovery 1
 
-(Think About 1) How many subsets are there? Although enumeration is a rather brute-force method, it is the basic method of counting. Please enumerate the subsets of the $4$-element set $\{a_1,a_2,a_3,a_4\}$ and the $5$-element set $\{a_1,a_2,a_3,a_4,a_5\}$.
+(Think About 1) How many subsets are there? Although enumeration is a rather brute-force method, it is the basic method of counting. Please enumerate the subsets of the $4$-element set $\left\{a_1,a_2,a_3,a_4\right\}$ and the $5$-element set $\left\{a_1,a_2,a_3,a_4,a_5\right\}$.
 
 ### Solution to Inquiry and Discovery 1
 
 By **Definition 6.1.2** (Multiplication Counting Principle for Step-by-Step Processes).
 
-(1) The subsets of the $4$-element set $\{a_1,a_2,a_3,a_4\}$ enumerated by the number of elements they contain: the empty set $\varnothing$; the one-element subsets $\{a_1\},\{a_2\},\{a_3\},\{a_4\}$; the two-element subsets $\{a_1,a_2\},\{a_1,a_3\},\{a_1,a_4\},\{a_2,a_3\},\{a_2,a_4\},\{a_3,a_4\}$; the three-element subsets $\{a_1,a_2,a_3\},\{a_1,a_2,a_4\},\{a_1,a_3,a_4\},\{a_2,a_3,a_4\}$; the four-element subset $\{a_1,a_2,a_3,a_4\}$. In total $1+4+6+4+1=16=2^4$.
+(1) The subsets of the $4$-element set $\left\{a_1,a_2,a_3,a_4\right\}$ enumerated by the number of elements they contain: the empty set $\varnothing$; the one-element subsets $\left\{a_1\right\},\left\{a_2\right\},\left\{a_3\right\},\left\{a_4\right\}$; the two-element subsets $\left\{a_1,a_2\right\},\left\{a_1,a_3\right\},\left\{a_1,a_4\right\},\left\{a_2,a_3\right\},\left\{a_2,a_4\right\},\left\{a_3,a_4\right\}$; the three-element subsets $\left\{a_1,a_2,a_3\right\},\left\{a_1,a_2,a_4\right\},\left\{a_1,a_3,a_4\right\},\left\{a_2,a_3,a_4\right\}$; the four-element subset $\left\{a_1,a_2,a_3,a_4\right\}$. In total $1+4+6+4+1=16=2^4$.
 
-(2) By **Common Conclusion** (Number of Subsets), the number of subsets of the $5$-element set $\{a_1,a_2,a_3,a_4,a_5\}$ should be $2^5=32$. By the number of elements they contain, they are $1,5,10,10,5,1$ respectively, totaling $32$.
+(2) By **Common Conclusion** (Number of Subsets), the number of subsets of the $5$-element set $\left\{a_1,a_2,a_3,a_4,a_5\right\}$ should be $2^5=32$. By the number of elements they contain, they are $1,5,10,10,5,1$ respectively, totaling $32$.
 
 The enumeration shows that a $3$-element set has $2^3=8$ subsets, a $4$-element set has $2^4=16$ subsets, and a $5$-element set has $2^5=32$ subsets. $\blacksquare$
 
@@ -532,7 +532,7 @@ Thus, regarding both the empty set and the set itself as subsets is not an extra
 
 ### Inquiry and Discovery 3
 
-(Think About 3) Inquiry and Discovery: How many subsets are there? Can you also prove, by another method, that the $n$-element set $A=\{a_1,a_2,\cdots,a_n\}$ has $2^n$ distinct subsets?
+(Think About 3) Inquiry and Discovery: How many subsets are there? Can you also prove, by another method, that the $n$-element set $A=\left\{a_1,a_2,\cdots,a_n\right\}$ has $2^n$ distinct subsets?
 
 ### Solution to Inquiry and Discovery 3
 

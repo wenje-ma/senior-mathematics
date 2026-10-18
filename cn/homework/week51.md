@@ -10,7 +10,7 @@
 
 > **定义 6.2.4** (相反向量) <br>与 $\boldsymbol{a}$ 长度相等, 方向相反的向量记作 $-\boldsymbol{a}$.
 
-> **定义 6.2.5** (向量的减法) <br>$\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+(-\boldsymbol{b})$.
+> **定义 6.2.5** (向量的减法) <br>$\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
 > **定义 6.2.6** (向量的数乘) <br>$\lambda\boldsymbol{a}$ 是一个向量, $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$, 方向由 $\lambda$ 符号决定.
 
@@ -22,7 +22,7 @@
 
 > **定理 6.3.1** (平面向量基本定理) <br>$\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$, $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 不共线.
 
-> **常用结论 6.3.4** (坐标运算) <br>$\boldsymbol{a}=(x_1,y_1)$, $\boldsymbol{b}=(x_2,y_2)$, 则 $\boldsymbol{a}+\boldsymbol{b}=(x_1+x_2,y_1+y_2)$, $\boldsymbol{a}-\boldsymbol{b}=(x_1-x_2,y_1-y_2)$, $\lambda\boldsymbol{a}=(\lambda x_1,\lambda y_1)$.
+> **常用结论 6.3.4** (坐标运算) <br>$\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, 则 $\boldsymbol{a}+\boldsymbol{b}=\left(x_1+x_2,y_1+y_2\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(x_1-x_2,y_1-y_2\right)$, $\lambda\boldsymbol{a}=\left(\lambda x_1,\lambda y_1\right)$.
 
 > **常用结论 6.3.5** (共线的坐标表示) <br>$\boldsymbol{a}\parallel\boldsymbol{b}\Longleftrightarrow x_1y_2-x_2y_1=0$.
 
@@ -96,9 +96,9 @@
 
 (6) 在下列各组向量中, 可以作为基底的是 ().
 
-(A) $\boldsymbol{e}_1=(0,0)$, $\boldsymbol{e}_2=(1,-2)$ (B) $\boldsymbol{e}_1=(-1,2)$, $\boldsymbol{e}_2=(5,7)$
+(A) $\boldsymbol{e}_1=\left(0,0\right)$, $\boldsymbol{e}_2=\left(1,-2\right)$ (B) $\boldsymbol{e}_1=\left(-1,2\right)$, $\boldsymbol{e}_2=\left(5,7\right)$
 
-(C) $\boldsymbol{e}_1=(3,5)$, $\boldsymbol{e}_2=(6,10)$ (D) $\boldsymbol{e}_1=(2,-3)$, $\boldsymbol{e}_2=\left(\frac{1}{2},-\frac{3}{4}\right)$
+(C) $\boldsymbol{e}_1=\left(3,5\right)$, $\boldsymbol{e}_2=\left(6,10\right)$ (D) $\boldsymbol{e}_1=\left(2,-3\right)$, $\boldsymbol{e}_2=\left(\frac{1}{2},-\frac{3}{4}\right)$
 
 ### 解答 习题二
 
@@ -112,7 +112,7 @@
 
 (5) $M$ 为对角线中点, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, 和为 $4\boldsymbol{OM}$. 选 (D).
 
-(6) 由**定理 6.3.1**, 基底要求不共线. (B) 中 $(-1)\times7-2\times5=-17\neq0$, 不共线. 选 (B). $\blacksquare$
+(6) 由**定理 6.3.1**, 基底要求不共线. (B) 中 $\left(-1\right)\times7-2\times5=-17\neq0$, 不共线. 选 (B). $\blacksquare$
 
 ### 习题三
 
@@ -132,7 +132,7 @@ $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsy
 
 ### 习题四
 
-(复习参考题 6 复习巩固第 4 题) 已知平面直角坐标系中, 点 $O$ 为原点, $A(-3,-4)$, $B(5,-12)$.
+(复习参考题 6 复习巩固第 4 题) 已知平面直角坐标系中, 点 $O$ 为原点, $A\left(-3,-4\right)$, $B\left(5,-12\right)$.
 
 (1) 求 $\boldsymbol{AB}$ 的坐标及 $\lvert\boldsymbol{AB}\rvert$ 的值;
 
@@ -144,65 +144,65 @@ $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsy
 
 由**常用结论 6.3.4** 与**常用结论 6.3.7**.
 
-(1) $\boldsymbol{AB}=(5-(-3),-12-(-4))=(8,-8)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
+(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
 
-(2) $\boldsymbol{OC}=(-3+5,-4-12)=(2,-16)$. $\boldsymbol{OD}=(-3-5,-4-(-12))=(-8,8)$.
+(2) $\boldsymbol{OC}=\left(-3+5,-4-12\right)=\left(2,-16\right)$. $\boldsymbol{OD}=\left(-3-5,-4-\left(-12\right)\right)=\left(-8,8\right)$.
 
-(3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=(-3)\times5+(-4)\times(-12)=-15+48=33$. $\blacksquare$
+(3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=\left(-3\right)\times5+\left(-4\right)\times\left(-12\right)=-15+48=33$. $\blacksquare$
 
 ### 习题五
 
-(复习参考题 6 复习巩固第 5 题) 已知点 $A(1,1)$, $B(-1,0)$, $C(0,1)$. 若 $\boldsymbol{AB}=\boldsymbol{CD}$, 则点 $D$ 的坐标是什么?
+(复习参考题 6 复习巩固第 5 题) 已知点 $A\left(1,1\right)$, $B\left(-1,0\right)$, $C\left(0,1\right)$. 若 $\boldsymbol{AB}=\boldsymbol{CD}$, 则点 $D$ 的坐标是什么?
 
 ### 解答 习题五
 
 由**常用结论 6.3.4** 与**定义 6.1.7** (相等向量).
 
-$\boldsymbol{AB}=(-1-1,0-1)=(-2,-1)$.
+$\boldsymbol{AB}=\left(-1-1,0-1\right)=\left(-2,-1\right)$.
 
-设 $D(x,y)$, $\boldsymbol{CD}=(x-0,y-1)=(x,y-1)$.
+设 $D\left(x,y\right)$, $\boldsymbol{CD}=\left(x-0,y-1\right)=\left(x,y-1\right)$.
 
-$x=-2$, $y-1=-1$, $y=0$. $D(-2,0)$. $\blacksquare$
+$x=-2$, $y-1=-1$, $y=0$. $D\left(-2,0\right)$. $\blacksquare$
 
 ### 习题六
 
-(复习参考题 6 复习巩固第 6 题) 已知向量 $\boldsymbol{a}=(1,0)$, $\boldsymbol{b}=(1,1)$, $\boldsymbol{c}=(-1,0)$, 求满足 $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$ 的 $\lambda$ 和 $\mu$ 的值.
+(复习参考题 6 复习巩固第 6 题) 已知向量 $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$, $\boldsymbol{c}=\left(-1,0\right)$, 求满足 $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$ 的 $\lambda$ 和 $\mu$ 的值.
 
 ### 解答 习题六
 
 由**常用结论 6.3.4** (坐标运算).
 
-$(-1,0)=\lambda(1,0)+\mu(1,1)=(\lambda+\mu,\mu)$.
+$\left(-1,0\right)=\lambda\left(1,0\right)+\mu\left(1,1\right)=\left(\lambda+\mu,\mu\right)$.
 
 $\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
 
 ### 习题七
 
-(复习参考题 6 复习巩固第 7 题) 已知 $\triangle ABC$ 的顶点坐标分别为 $A(1,1)$, $B(4,1)$, $C(4,5)$, 求 $\cos A$, $\cos B$, $\cos C$ 的值.
+(复习参考题 6 复习巩固第 7 题) 已知 $\triangle ABC$ 的顶点坐标分别为 $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, 求 $\cos A$, $\cos B$, $\cos C$ 的值.
 
 ### 解答 习题七
 
 由**常用结论 6.3.8** (夹角).
 
-$\boldsymbol{AB}=(3,0)$, $\boldsymbol{AC}=(3,4)$, $\boldsymbol{BC}=(0,4)$.
+$\boldsymbol{AB}=\left(3,0\right)$, $\boldsymbol{AC}=\left(3,4\right)$, $\boldsymbol{BC}=\left(0,4\right)$.
 
 $\cos A=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{(-3,0)\cdot(0,4)}{3\times4}=0$.
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
 
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{(-3,-4)\cdot(0,-4)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
 
 ### 习题八
 
-(复习参考题 6 复习巩固第 8 题) 已知向量 $\boldsymbol{a}=(1,0)$, $\boldsymbol{b}=(1,1)$. 当 $\lambda$ 为何值时, $\boldsymbol{a}+\lambda\boldsymbol{b}$ 与 $\boldsymbol{a}$ 垂直?
+(复习参考题 6 复习巩固第 8 题) 已知向量 $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$. 当 $\lambda$ 为何值时, $\boldsymbol{a}+\lambda\boldsymbol{b}$ 与 $\boldsymbol{a}$ 垂直?
 
 ### 解答 习题八
 
 由**常用结论 6.3.8** (垂直).
 
-$\boldsymbol{a}+\lambda\boldsymbol{b}=(1+\lambda,\lambda)$.
+$\boldsymbol{a}+\lambda\boldsymbol{b}=\left(1+\lambda,\lambda\right)$.
 
-与 $\boldsymbol{a}=(1,0)$ 垂直: $(1+\lambda)\times1+\lambda\times0=0$.
+与 $\boldsymbol{a}=\left(1,0\right)$ 垂直: $\left(1+\lambda\right)\times1+\lambda\times0=0$.
 
 $1+\lambda=0$. $\lambda=-1$. $\blacksquare$
 
@@ -238,7 +238,7 @@ $10000=1600+4900+2\times40\times70\times\cos\theta$.
 
 $3500=5600\cos\theta$. $\cos\theta=\frac{3500}{5600}=\frac{5}{8}$.
 
-$\boldsymbol{F}\cdot\boldsymbol{F}_2=(\boldsymbol{F}_1+\boldsymbol{F}_2)\cdot\boldsymbol{F}_2=\boldsymbol{F}_1\cdot\boldsymbol{F}_2+\boldsymbol{F}_2^2=40\times70\times\frac{5}{8}+4900=1750+4900=6650$.
+$\boldsymbol{F}\cdot\boldsymbol{F}_2=\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_2=\boldsymbol{F}_1\cdot\boldsymbol{F}_2+\boldsymbol{F}_2^2=40\times70\times\frac{5}{8}+4900=1750+4900=6650$.
 
 $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert\lvert\boldsymbol{F}_2\rvert}=\frac{6650}{100\times70}=\frac{19}{20}$. $\blacksquare$
 
@@ -278,7 +278,7 @@ $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert
 
 由**定理 6.4.3** (正弦定理).
 
-设岛为 $P$, 初始位置为 $A$, 航行后为 $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-(90^{\circ}-55^{\circ})=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
+设岛为 $P$, 初始位置为 $A$, 航行后为 $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-\left(90^{\circ}-55^{\circ}\right)=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
 
 由正弦定理: $\frac{AP}{\sin145^{\circ}}=\frac{8}{\sin20^{\circ}}$.
 
@@ -292,7 +292,7 @@ $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ
 
 (复习参考题 6 综合运用第 13 题) 选择题.
 
-(1) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$ 是不共线的向量, 且 $\boldsymbol{AB}=\boldsymbol{a}+5\boldsymbol{b}$, $\boldsymbol{BC}=-2\boldsymbol{a}+8\boldsymbol{b}$, $\boldsymbol{CD}=3(\boldsymbol{a}-\boldsymbol{b})$, 则 ().
+(1) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$ 是不共线的向量, 且 $\boldsymbol{AB}=\boldsymbol{a}+5\boldsymbol{b}$, $\boldsymbol{BC}=-2\boldsymbol{a}+8\boldsymbol{b}$, $\boldsymbol{CD}=3\left(\boldsymbol{a}-\boldsymbol{b}\right)$, 则 ().
 
 (A) $A$, $B$, $D$ 三点共线 (B) $A$, $B$, $C$ 三点共线
 
@@ -322,7 +322,7 @@ $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ
 
 ### 解答 习题十三
 
-(1) 由**定理 6.2.8**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=(-2\boldsymbol{a}+8\boldsymbol{b})+(3\boldsymbol{a}-3\boldsymbol{b})=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. 故 $A$, $B$, $D$ 共线. 选 (A).
+(1) 由**定理 6.2.8**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=\left(-2\boldsymbol{a}+8\boldsymbol{b}\right)+\left(3\boldsymbol{a}-3\boldsymbol{b}\right)=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. 故 $A$, $B$, $D$ 共线. 选 (A).
 
 (2) 由**常用结论 6.3.4**, $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{AC}=\boldsymbol{c}$. $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=2\boldsymbol{c}$. $\lvert\boldsymbol{c}\rvert=\sqrt 2$. 选 (D).
 
@@ -330,7 +330,7 @@ $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ
 
 (4) 由**定义 6.2.11**, $\boldsymbol{e}_1\cdot\boldsymbol{e}_2=\cos60^{\circ}=\frac{1}{2}$.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=(2\boldsymbol{e}_1+\boldsymbol{e}_2)\cdot(-3\boldsymbol{e}_1+2\boldsymbol{e}_2)=-6+4\cdot\frac{1}{2}+3\cdot\frac{1}{2}+2=-6+2+1.5+2=-0.5$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=\left(2\boldsymbol{e}_1+\boldsymbol{e}_2\right)\cdot\left(-3\boldsymbol{e}_1+2\boldsymbol{e}_2\right)=-6+4\cdot\frac{1}{2}+3\cdot\frac{1}{2}+2=-6+2+1.5+2=-0.5$.
 
 $\lvert\boldsymbol{a}\rvert^2=4+4\cdot\frac{1}{2}+1=7$. $\lvert\boldsymbol{b}\rvert^2=9-12\cdot\frac{1}{2}+4=7$.
 
@@ -346,7 +346,7 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=1\times1\times\cos120^{\circ}=-\frac{1}{2}$. 
 
 (a) 夹角 $0^{\circ}$: $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=1+1+3=5$.
 
-(b) 夹角 $120^{\circ}$: $(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c})^2=1+1+9+2(1\cdot1\cdot(-\frac{1}{2})+1\cdot3\cdot(-\frac{1}{2})+1\cdot3\cdot(-\frac{1}{2}))=11-7=4$. 模为 $2$. 选 (C). $\blacksquare$
+(b) 夹角 $120^{\circ}$: $\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=1+1+9+2\left(1\cdot1\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)\right)=11-7=4$. 模为 $2$. 选 (C). $\blacksquare$
 
 ### 习题十四
 
@@ -366,7 +366,7 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 两式相等等价于 $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$. 几何意义: 矩形的对角线相等.
 
-(2) $\boldsymbol{c}\cdot\boldsymbol{d}=(\boldsymbol{a}+\boldsymbol{b})\cdot(\boldsymbol{a}-\boldsymbol{b})=\boldsymbol{a}^2-\boldsymbol{b}^2$.
+(2) $\boldsymbol{c}\cdot\boldsymbol{d}=\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2$.
 
 $\boldsymbol{c}\perp\boldsymbol{d}\Longleftrightarrow\boldsymbol{c}\cdot\boldsymbol{d}=0\Longleftrightarrow\boldsymbol{a}^2=\boldsymbol{b}^2\Longleftrightarrow\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$. 几何意义: 菱形的对角线互相垂直. $\blacksquare$
 
@@ -404,7 +404,7 @@ $A$ 为 $MS$ 中点: $\boldsymbol{OA}=\frac{\boldsymbol{OM}+\boldsymbol{OS}}{2}$
 
 $B$ 为 $SN$ 中点: $\boldsymbol{OB}=\frac{\boldsymbol{OS}+\boldsymbol{ON}}{2}$. $\boldsymbol{ON}=2\boldsymbol{b}-\boldsymbol{OS}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}$.
 
-$\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}-\boldsymbol{OM}=2(\boldsymbol{b}-\boldsymbol{a})$. $\blacksquare$
+$\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}-\boldsymbol{OM}=2\left(\boldsymbol{b}-\boldsymbol{a}\right)$. $\blacksquare$
 
 ### 习题十七
 
@@ -416,13 +416,13 @@ $\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}
 
 设东向为 $x$ 轴, 北向为 $y$ 轴.
 
-$\boldsymbol{AB}=(9,0)$.
+$\boldsymbol{AB}=\left(9,0\right)$.
 
-$\boldsymbol{BC}=6(\sin30^{\circ},-\cos30^{\circ})=(3,-3\sqrt 3)$.
+$\boldsymbol{BC}=6\left(\sin30^{\circ},-\cos30^{\circ}\right)=\left(3,-3\sqrt 3\right)$.
 
-$\boldsymbol{CD}=16(\sin30^{\circ},\cos30^{\circ})=(8,8\sqrt 3)$.
+$\boldsymbol{CD}=16\left(\sin30^{\circ},\cos30^{\circ}\right)=\left(8,8\sqrt 3\right)$.
 
-$\boldsymbol{AD}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=(9+3+8,0-3\sqrt 3+8\sqrt 3)=(20,5\sqrt 3)$.
+$\boldsymbol{AD}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\left(9+3+8,0-3\sqrt 3+8\sqrt 3\right)=\left(20,5\sqrt 3\right)$.
 
 $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text{ km}$.
 

@@ -55,13 +55,13 @@ when $\lambda=0$, $\lambda\boldsymbol{a}=\boldsymbol{0}$.
 Commutative law: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; associative law:
 
 $$
-(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c}),\quad \mu(\lambda\boldsymbol{a})=(\mu\lambda)\boldsymbol{a};
+\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right),\quad \mu\left(\lambda\boldsymbol{a}\right)=\left(\mu\lambda\right)\boldsymbol{a};
 $$
 
 distributive law:
 
 $$
-(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a},\quad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
+\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a},\quad \lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
 $$
 
 **Common Conclusion 1.1.7** (Necessary and Sufficient Condition for Vector Collinearity)
@@ -74,7 +74,7 @@ Given a vector $\boldsymbol{a}$, draw $\boldsymbol{OA}=\boldsymbol{a}$. If $\bol
 
 **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Vector Coplanarity)
 
-If the two vectors $\boldsymbol{a}$, $\boldsymbol{b}$ are not collinear, then the necessary and sufficient condition for the vector $\boldsymbol{p}$ to be coplanar with the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ is that there exists a unique ordered pair of real numbers $(x,y)$ such that
+If the two vectors $\boldsymbol{a}$, $\boldsymbol{b}$ are not collinear, then the necessary and sufficient condition for the vector $\boldsymbol{p}$ to be coplanar with the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ is that there exists a unique ordered pair of real numbers $\left(x,y\right)$ such that
 
 $$
 \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}.
@@ -82,18 +82,18 @@ $$
 
 **Definition 1.1.10** (Angle Between Vectors)
 
-Given two nonzero vectors $\boldsymbol{a}$, $\boldsymbol{b}$, take any point $O$ in space, draw $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$; then $\angle AOB$ is called the angle between the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, denoted $\langle \boldsymbol{a}, \boldsymbol{b} \rangle$. We usually stipulate $0 \leq \langle \boldsymbol{a}, \boldsymbol{b} \rangle \leq \pi$. Thus, the angle between two vectors is uniquely determined, and $\langle \boldsymbol{a}, \boldsymbol{b} \rangle = \langle \boldsymbol{b}, \boldsymbol{a} \rangle$.
+Given two nonzero vectors $\boldsymbol{a}$, $\boldsymbol{b}$, take any point $O$ in space, draw $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$; then $\angle AOB$ is called the angle between the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, denoted $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$. We usually stipulate $0 \leq \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle \leq \pi$. Thus, the angle between two vectors is uniquely determined, and $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle = \left\langle \boldsymbol{b}, \boldsymbol{a} \right\rangle$.
 
 **Definition 1.1.11** (Perpendicular Vectors)
 
-If $\langle \boldsymbol{a}, \boldsymbol{b} \rangle = \frac{\pi}{2}$, then the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ are perpendicular to each other, denoted $\boldsymbol{a} \perp \boldsymbol{b}$.
+If $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle = \frac{\pi}{2}$, then the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ are perpendicular to each other, denoted $\boldsymbol{a} \perp \boldsymbol{b}$.
 
 **Definition 1.1.12** (Dot Product)
 
-Given two nonzero vectors $\boldsymbol{a}$, $\boldsymbol{b}$, then $\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle$ is called the dot product of $\boldsymbol{a}$, $\boldsymbol{b}$, denoted $\boldsymbol{a} \cdot \boldsymbol{b}$. That is,
+Given two nonzero vectors $\boldsymbol{a}$, $\boldsymbol{b}$, then $\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$ is called the dot product of $\boldsymbol{a}$, $\boldsymbol{b}$, denoted $\boldsymbol{a} \cdot \boldsymbol{b}$. That is,
 
 $$
-\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle.
+\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle.
 $$
 
 In particular, the dot product of the zero vector with any vector is $0$.
@@ -113,13 +113,13 @@ $\boldsymbol{a} \cdot \boldsymbol{a}$ is also denoted $\boldsymbol{a}^2$.
 Commutative law: $\boldsymbol{a} \cdot \boldsymbol{b} = \boldsymbol{b} \cdot \boldsymbol{a}$; scalar multiplication associative law:
 
 $$
-(\lambda\boldsymbol{a}) \cdot \boldsymbol{b} = \lambda(\boldsymbol{a} \cdot \boldsymbol{b});
+\left(\lambda\boldsymbol{a}\right) \cdot \boldsymbol{b} = \lambda\left(\boldsymbol{a} \cdot \boldsymbol{b}\right);
 $$
 
 distributive law:
 
 $$
-(\boldsymbol{a}+\boldsymbol{b}) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}.
+\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}.
 $$
 
 **Definition 1.1.15** (Projection Vector)
@@ -127,7 +127,7 @@ $$
 In space, to project the vector $\boldsymbol{a}$ onto the vector $\boldsymbol{b}$, we can first translate them into the same plane $\alpha$, then use the projection of plane vectors to obtain a vector $\boldsymbol{c}$ collinear with $\boldsymbol{b}$,
 
 $$
-\boldsymbol{c} = \boldsymbol{a} \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle \frac{\boldsymbol{b}}{\lvert \boldsymbol{b} \rvert},
+\boldsymbol{c} = \boldsymbol{a} \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle \frac{\boldsymbol{b}}{\lvert \boldsymbol{b} \rvert},
 $$
 
 and the vector $\boldsymbol{c}$ is called the projection vector of $\boldsymbol{a}$ onto $\boldsymbol{b}$. Similarly, we can project $\boldsymbol{a}$ onto a line $l$ or a plane $\beta$.
@@ -136,7 +136,7 @@ and the vector $\boldsymbol{c}$ is called the projection vector of $\boldsymbol{
 
 **Theorem 1.2.1** (Fundamental Theorem of Spatial Vectors)
 
-If the three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are not coplanar, then for any spatial vector $\boldsymbol{p}$, there exists a unique ordered triple of real numbers $(x,y,z)$ such that
+If the three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are not coplanar, then for any spatial vector $\boldsymbol{p}$, there exists a unique ordered triple of real numbers $\left(x,y,z\right)$ such that
 
 $$
 \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}.
@@ -147,28 +147,28 @@ $$
 If the three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are not coplanar, then the set of all spatial vectors is
 
 $$
-\{\boldsymbol{p} \mid \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c},\ x,y,z \in \mathbb R\}.
+\left\{\boldsymbol{p} \mid \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c},\ x,y,z \in \mathbb R\right\}.
 $$
 
-This set can be regarded as generated by the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$; we call $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ a basis of the space, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are all called basis vectors. Any three non-coplanar vectors in space form a basis of the space.
+This set can be regarded as generated by the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$; we call $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ a basis of the space, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are all called basis vectors. Any three non-coplanar vectors in space form a basis of the space.
 
 **Definition 1.2.3** (Orthonormal Basis, Orthogonal Decomposition)
 
-If the three basis vectors in a basis of space are pairwise perpendicular and all have length $1$, then this basis is called an orthonormal basis, commonly denoted $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$. Decomposing a spatial vector into three pairwise perpendicular vectors is called orthogonal decomposition.
+If the three basis vectors in a basis of space are pairwise perpendicular and all have length $1$, then this basis is called an orthonormal basis, commonly denoted $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$. Decomposing a spatial vector into three pairwise perpendicular vectors is called orthogonal decomposition.
 
 #### 1.3 Coordinate Representation of Spatial Vectors and Their Operations
 
 **Definition 1.3.1** (Spatial Rectangular Coordinate System)
 
-Choose a point $O$ in space and an orthonormal basis $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$. Taking $O$ as the origin and the directions of $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ as the positive directions, and their lengths as unit lengths, establish three number axes: the $x$-axis, $y$-axis, and $z$-axis, all called coordinate axes. Thus we have established a spatial rectangular coordinate system $Oxyz$; $O$ is called the origin, $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ are all called coordinate vectors, and the plane through each pair of coordinate axes is called a coordinate plane.
+Choose a point $O$ in space and an orthonormal basis $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$. Taking $O$ as the origin and the directions of $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ as the positive directions, and their lengths as unit lengths, establish three number axes: the $x$-axis, $y$-axis, and $z$-axis, all called coordinate axes. Thus we have established a spatial rectangular coordinate system $Oxyz$; $O$ is called the origin, $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ are all called coordinate vectors, and the plane through each pair of coordinate axes is called a coordinate plane.
 
 **Definition 1.3.2** (Coordinates of a Point)
 
-The ordered triple $(x,y,z)$ corresponding to the vector $\boldsymbol{OA}$ under the orthonormal basis $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ is called the coordinates of point $A$ in the spatial rectangular coordinate system, denoted $A(x,y,z)$, where $x$ is called the abscissa of point $A$, $y$ the ordinate of point $A$, and $z$ the applicate of point $A$.
+The ordered triple $\left(x,y,z\right)$ corresponding to the vector $\boldsymbol{OA}$ under the orthonormal basis $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$ is called the coordinates of point $A$ in the spatial rectangular coordinate system, denoted $A\left(x,y,z\right)$, where $x$ is called the abscissa of point $A$, $y$ the ordinate of point $A$, and $z$ the applicate of point $A$.
 
 **Definition 1.3.3** (Coordinates of a Vector)
 
-The ordered triple $(x,y,z)$ is called the coordinates of $\boldsymbol{a}$ in the spatial rectangular coordinate system $Oxyz$, i.e.
+The ordered triple $\left(x,y,z\right)$ is called the coordinates of $\boldsymbol{a}$ in the spatial rectangular coordinate system $Oxyz$, i.e.
 
 $$
 \boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}+z\boldsymbol{k},
@@ -177,19 +177,19 @@ $$
 which can be briefly written as
 
 $$
-\boldsymbol{a}=(x,y,z).
+\boldsymbol{a}=\left(x,y,z\right).
 $$
 
 **Common Conclusion 1.3.4** (Coordinate Representation of Spatial Vector Operations)
 
-Let $\boldsymbol{a}=(a_1,a_2,a_3)$, $\boldsymbol{b}=(b_1,b_2,b_3)$, then
+Let $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$, then
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3),\quad \boldsymbol{a}-\boldsymbol{b}=(a_1-b_1,a_2-b_2,a_3-b_3),
+\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right),\quad \boldsymbol{a}-\boldsymbol{b}=\left(a_1-b_1,a_2-b_2,a_3-b_3\right),
 $$
 
 $$
-\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3),\ \lambda \in \mathbb R,\quad \boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3.
+\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right),\ \lambda \in \mathbb R,\quad \boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3.
 $$
 
 The coordinates of a spatial vector equal the coordinates of the endpoint of the directed line segment representing the vector minus the coordinates of its starting point.
@@ -199,7 +199,7 @@ The coordinates of a spatial vector equal the coordinates of the endpoint of the
 When $\boldsymbol{b} \neq \boldsymbol{0}$,
 
 $$
-\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1,\ a_2=\lambda b_2,\ a_3=\lambda b_3\quad(\lambda \in \mathbb R);
+\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1,\ a_2=\lambda b_2,\ a_3=\lambda b_3\quad\left(\lambda \in \mathbb R\right);
 $$
 
 when $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$,
@@ -209,15 +209,15 @@ $$
 $$
 
 $$
-\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2};\quad \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}.
+\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2};\quad \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}.
 $$
 
 **Common Conclusion 1.3.6** (Distance Formula Between Two Points in Space)
 
-Let $P_1(x_1,y_1,z_1)$, $P_2(x_2,y_2,z_2)$ be any two points in space, then
+Let $P_1\left(x_1,y_1,z_1\right)$, $P_2\left(x_2,y_2,z_2\right)$ be any two points in space, then
 
 $$
-P_1P_2=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}.
+P_1P_2=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2+\left(z_2-z_1\right)^2}.
 $$
 
 #### 1.4 Applications of Spatial Vectors
@@ -259,7 +259,7 @@ $$
 If the angle between skew lines $l_1$, $l_2$ is $\theta$, and their direction vectors are $\boldsymbol{u}$, $\boldsymbol{v}$ respectively, then
 
 $$
-\cos\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{v} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}.
+\cos\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{v} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}.
 $$
 
 **Common Conclusion 1.4.8** (Angle Between a Line and a Plane)
@@ -267,7 +267,7 @@ $$
 Let the angle between the line $AB$ and the plane $\alpha$ be $\theta$, the direction vector of the line $AB$ be $\boldsymbol{u}$, and the normal vector of the plane $\alpha$ be $\boldsymbol{n}$; then
 
 $$
-\sin\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{n} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}.
+\sin\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{n} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}.
 $$
 
 **Common Conclusion 1.4.9** (Angle Between Two Planes)
@@ -275,7 +275,7 @@ $$
 Let the normal vectors of planes $\alpha$, $\beta$ be $\boldsymbol{n}_1$ and $\boldsymbol{n}_2$ respectively, and the angle between plane $\alpha$ and plane $\beta$ be $\theta$; then
 
 $$
-\cos\theta=\lvert \cos \langle \boldsymbol{n}_1, \boldsymbol{n}_2 \rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}.
+\cos\theta=\lvert \cos \left\langle \boldsymbol{n}_1, \boldsymbol{n}_2 \right\rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}.
 $$
 
 ### Chapter 2 Equations of Lines and Circles
@@ -478,16 +478,16 @@ For any point $M$ on the ellipse, the sum of its distances to the two foci $F_1,
 
 **Definition 3.1.3** (Standard Equation of an Ellipse)
 
-When the foci are on the $x$-axis at $F_1(-c,0)$, $F_2(c,0)$, the standard equation of the ellipse is
+When the foci are on the $x$-axis at $F_1\left(-c,0\right)$, $F_2\left(c,0\right)$, the standard equation of the ellipse is
 
 $$
-\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\quad(a> b> 0),
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\quad\left(a> b> 0\right),
 $$
 
-where $c^2=a^2-b^2$; when the foci are on the $y$-axis at $F_1(0,-c)$, $F_2(0,c)$, the standard equation is
+where $c^2=a^2-b^2$; when the foci are on the $y$-axis at $F_1\left(0,-c\right)$, $F_2\left(0,c\right)$, the standard equation is
 
 $$
-\frac{y^2}{a^2}+\frac{x^2}{b^2}=1\quad(a> b> 0).
+\frac{y^2}{a^2}+\frac{x^2}{b^2}=1\quad\left(a> b> 0\right).
 $$
 
 **Common Conclusion 3.1.4** (Range of an Ellipse)
@@ -506,7 +506,7 @@ An ellipse is symmetric about the $x$-axis, $y$-axis, and the origin; the coordi
 
 **Definition 3.1.6** (Vertices, Major Axis, and Minor Axis of an Ellipse)
 
-The four intersection points $A_1(-a,0)$, $A_2(a,0)$, $B_1(0,-b)$, $B_2(0,b)$ of the ellipse with its axes of symmetry are called the vertices of the ellipse. The segment $A_1A_2$ is called the major axis, with length $2a$; the segment $B_1B_2$ is called the minor axis, with length $2b$. $a$ and $b$ are called the lengths of the semi-major axis and semi-minor axis respectively.
+The four intersection points $A_1\left(-a,0\right)$, $A_2\left(a,0\right)$, $B_1\left(0,-b\right)$, $B_2\left(0,b\right)$ of the ellipse with its axes of symmetry are called the vertices of the ellipse. The segment $A_1A_2$ is called the major axis, with length $2a$; the segment $B_1B_2$ is called the minor axis, with length $2b$. $a$ and $b$ are called the lengths of the semi-major axis and semi-minor axis respectively.
 
 **Definition 3.1.7** (Eccentricity of an Ellipse)
 
@@ -534,10 +534,10 @@ For any point $M$ on the hyperbola, the absolute value of the difference of its 
 
 **Definition 3.2.3** (Standard Equation of a Hyperbola)
 
-When the foci are on the $x$-axis at $F_1(-c,0)$, $F_2(c,0)$, the standard equation of the hyperbola is
+When the foci are on the $x$-axis at $F_1\left(-c,0\right)$, $F_2\left(c,0\right)$, the standard equation of the hyperbola is
 
 $$
-\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\quad(a> 0,\ b> 0),
+\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\quad\left(a> 0,\ b> 0\right),
 $$
 
 where $c^2=a^2+b^2$; when the foci are on the $y$-axis, the equation is
@@ -558,7 +558,7 @@ we obtain $x\le-a$ or $x\ge a$, $y\in\mathbb R$. The hyperbola is symmetric abou
 
 **Definition 3.2.5** (Vertices, Real Axis, and Imaginary Axis of a Hyperbola)
 
-Setting $y=0$ gives $x=\pm a$; the intersection points $A_1(-a,0)$, $A_2(a,0)$ of the hyperbola with the $x$-axis are called the vertices of the hyperbola. The segment $A_1A_2$ is called the real axis, with length $2a$, and $a$ is the semi-real-axis length; the points $B_1(0,-b)$, $B_2(0,b)$ are on the $y$-axis, the segment $B_1B_2$ is called the imaginary axis, with length $2b$, and $b$ is the semi-imaginary-axis length.
+Setting $y=0$ gives $x=\pm a$; the intersection points $A_1\left(-a,0\right)$, $A_2\left(a,0\right)$ of the hyperbola with the $x$-axis are called the vertices of the hyperbola. The segment $A_1A_2$ is called the real axis, with length $2a$, and $a$ is the semi-real-axis length; the points $B_1\left(0,-b\right)$, $B_2\left(0,b\right)$ are on the $y$-axis, the segment $B_1B_2$ is called the imaginary axis, with length $2b$, and $b$ is the semi-imaginary-axis length.
 
 **Definition 3.2.6** (Asymptotes of a Hyperbola)
 
@@ -593,18 +593,18 @@ The locus of points in a plane equidistant from a fixed point $F$ and a fixed li
 When the focus is on the positive half of the $x$-axis at $F\left(\frac{p}{2},0\right)$ and the directrix is $x=-\frac{p}{2}$, the standard equation of the parabola is
 
 $$
-y^2=2px\quad(p> 0).
+y^2=2px\quad\left(p> 0\right).
 $$
 
 The other three forms are
 
 $$
-y^2=-2px,\quad x^2=2py,\quad x^2=-2py\quad(p> 0).
+y^2=-2px,\quad x^2=2py,\quad x^2=-2py\quad\left(p> 0\right).
 $$
 
 **Common Conclusion 3.3.3** (Distances from a Point on a Parabola to the Focus and Directrix)
 
-For any point $M$ on the parabola, its distance to the focus $F$ equals its distance to the directrix, i.e. $|MF|=d$ ($d$ is the distance from $M$ to the directrix).
+For any point $M$ on the parabola, its distance to the focus $F$ equals its distance to the directrix, i.e. $\left|MF\right|=d$ ($d$ is the distance from $M$ to the directrix).
 
 **Common Conclusion 3.3.4** (Range, Symmetry, and Vertex of a Parabola)
 
@@ -612,7 +612,7 @@ For $y^2=2px$ ($p> 0$), $x\ge0$, $y\in\mathbb R$; the parabola is symmetric abou
 
 **Definition 3.3.5** (Eccentricity of a Parabola)
 
-The ratio $\frac{|MF|}{d}$ of the distance from a point $M$ on the parabola to the focus over the distance to the directrix is called the eccentricity of the parabola; from the definition of the parabola, $e=1$.
+The ratio $\frac{\left|MF\right|}{d}$ of the distance from a point $M$ on the parabola to the focus over the distance to the directrix is called the eccentricity of the parabola; from the definition of the parabola, $e=1$.
 
 
 ## Selective Compulsory Volume 2
@@ -631,7 +631,7 @@ A sequence with finitely many terms is called a finite sequence; a sequence with
 
 **Definition 4.1.3** (A Sequence Is a Special Function)
 
-The sequence $\{a_n\}$ is a function from the set of positive integers $\mathbb N^*$ (or its finite subset $\{1,2,\cdots,n\}$) to the set of real numbers $\mathbb R$; its independent variable is the index $n$, and the corresponding function value is the $n$-th term $a_n$ of the sequence, denoted $a_n=f(n)$.
+The sequence $\left\{a_n\right\}$ is a function from the set of positive integers $\mathbb N^*$ (or its finite subset $\left\{1,2,\cdots,n\right\}$) to the set of real numbers $\mathbb R$; its independent variable is the index $n$, and the corresponding function value is the $n$-th term $a_n$ of the sequence, denoted $a_n=f\left(n\right)$.
 
 **Definition 4.1.4** (Increasing and Decreasing Sequences)
 
@@ -639,7 +639,7 @@ A sequence in which every term from the $2$-nd term onward is greater than the p
 
 **Definition 4.1.5** (General Term Formula)
 
-If the correspondence between the $n$-th term $a_n$ of the sequence $\{a_n\}$ and its index $n$ can be expressed by a formula, then this formula is called the general term formula of the sequence.
+If the correspondence between the $n$-th term $a_n$ of the sequence $\left\{a_n\right\}$ and its index $n$ can be expressed by a formula, then this formula is called the general term formula of the sequence.
 
 **Definition 4.1.6** (Recurrence Formula)
 
@@ -647,7 +647,7 @@ If the relation between adjacent terms or multiple terms of a sequence can be ex
 
 **Definition 4.1.7** (Sum of the First $n$ Terms)
 
-The sum of all terms from the $1$-st term to the $n$-th term of the sequence $\{a_n\}$ is called the sum of the first $n$ terms of the sequence $\{a_n\}$, denoted $S_n$.
+The sum of all terms from the $1$-st term to the $n$-th term of the sequence $\left\{a_n\right\}$ is called the sum of the first $n$ terms of the sequence $\left\{a_n\right\}$, denoted $S_n$.
 
 **Common Conclusion 4.1.8** (Relation Between $a_n$ and $S_n$)
 
@@ -665,34 +665,34 @@ For an arithmetic sequence formed by three numbers $a,A,b$, $A$ is called the ar
 
 **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence)
 
-The general term formula of the arithmetic sequence $\{a_n\}$ with first term $a_1$ and common difference $d$ is
+The general term formula of the arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$ is
 
 $$
-a_n=a_1+(n-1)d.
+a_n=a_1+\left(n-1\right)d.
 $$
 
 **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions)
 
-When $d\ne 0$, $a_n=dn+(a_1-d)$ is the value of the linear function $f(x)=dx+(a_1-d)$ when $x=n$.
+When $d\ne 0$, $a_n=dn+\left(a_1-d\right)$ is the value of the linear function $f\left(x\right)=dx+\left(a_1-d\right)$ when $x=n$.
 
 **Theorem 4.2.5** (Properties of Arithmetic Sequences)
 
-In the arithmetic sequence $\{a_n\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
+In the arithmetic sequence $\left\{a_n\right\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
 
 **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula 1)
 
-The sum of the first $n$ terms of the arithmetic sequence $\{a_n\}$ is
+The sum of the first $n$ terms of the arithmetic sequence $\left\{a_n\right\}$ is
 
 $$
-S_n=\frac{n(a_1+a_n)}{2}.
+S_n=\frac{n\left(a_1+a_n\right)}{2}.
 $$
 
 **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula 2)
 
-The sum of the first $n$ terms of the arithmetic sequence $\{a_n\}$ is
+The sum of the first $n$ terms of the arithmetic sequence $\left\{a_n\right\}$ is
 
 $$
-S_n=na_1+\frac{n(n-1)}{2}d.
+S_n=na_1+\frac{n\left(n-1\right)}{2}d.
 $$
 
 #### 4.3 Geometric Sequences
@@ -707,7 +707,7 @@ If a number $G$ is inserted between $a$ and $b$ such that $a,G,b$ form a geometr
 
 **Theorem 4.3.3** (General Term Formula of a Geometric Sequence)
 
-The general term formula of the geometric sequence $\{a_n\}$ with first term $a_1$ and common ratio $q$ is
+The general term formula of the geometric sequence $\left\{a_n\right\}$ with first term $a_1$ and common ratio $q$ is
 
 $$
 a_n=a_1 q^{n-1}.
@@ -715,7 +715,7 @@ $$
 
 **Common Conclusion 4.3.4** (Relation Between Any Two Terms of a Geometric Sequence)
 
-In the geometric sequence $\{a_n\}$,
+In the geometric sequence $\left\{a_n\right\}$,
 
 $$
 a_n=a_m q^{n-m}.
@@ -726,7 +726,7 @@ $$
 When $q\ne 1$,
 
 $$
-S_n=\frac{a_1(1-q^n)}{1-q}=\frac{a_1-a_n q}{1-q};
+S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q};
 $$
 
 when $q=1$, $S_n=na_1$.
@@ -838,7 +838,7 @@ $$
 $$
 
 $$
-\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}\quad(g\left(x\right)\neq0);
+\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}\quad\left(g\left(x\right)\neq0\right);
 $$
 
 $$
@@ -914,7 +914,7 @@ When using the two counting principles to solve counting problems, first careful
 
 **Common Conclusion** (Number of Subsets)
 
-An $n$-element set $A=\{a_1,a_2,\cdots,a_n\}$ has $2^n$ distinct subsets.
+An $n$-element set $A=\left\{a_1,a_2,\cdots,a_n\right\}$ has $2^n$ distinct subsets.
 
 #### 6.2 Permutations and Combinations
 
@@ -924,22 +924,22 @@ Taking $m$ ($m\le n$) elements from $n$ distinct elements and arranging them in 
 
 **Definition 6.2.2** (Number of Permutations)
 
-The number of all distinct permutations of $m$ ($m\le n$) elements chosen from $n$ distinct elements is called the number of permutations of $m$ elements chosen from $n$ distinct elements, denoted by the symbol $\mathrm{P}(n,m)$.
+The number of all distinct permutations of $m$ ($m\le n$) elements chosen from $n$ distinct elements is called the number of permutations of $m$ elements chosen from $n$ distinct elements, denoted by the symbol $\mathrm{P}\left(n,m\right)$.
 
 **Formula 6.2.3** (Permutation Number Formula)
 
 $$
-\mathrm{P}(n,m)=n(n-1)(n-2)\cdots(n-m+1),
+\mathrm{P}\left(n,m\right)=n\left(n-1\right)\left(n-2\right)\cdots\left(n-m+1\right),
 $$
 
 where $m,n\in\mathbb N^*$ and $m\le n$.
 
 **Definition 6.2.4** (Full Permutation and Factorial)
 
-A permutation in which all $n$ distinct elements are taken is called a full permutation of $n$ elements, with permutation number $\mathrm{P}(n,n)=n!$. The product of positive integers from $1$ to $n$ is called $n$ factorial, denoted $n!$. We stipulate $0!=1$. The permutation number formula can also be written as
+A permutation in which all $n$ distinct elements are taken is called a full permutation of $n$ elements, with permutation number $\mathrm{P}\left(n,n\right)=n!$. The product of positive integers from $1$ to $n$ is called $n$ factorial, denoted $n!$. We stipulate $0!=1$. The permutation number formula can also be written as
 
 $$
-\mathrm{P}(n,m)=\frac{n!}{(n-m)!}.
+\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}.
 $$
 
 **Definition 6.2.5** (Combination)
@@ -953,7 +953,7 @@ The number of all distinct combinations of $m$ ($m\le n$) elements chosen from $
 **Formula 6.2.7** (Combination Number Formula)
 
 $$
-\binom{n}{m}=\frac{\mathrm{P}(n,m)}{\mathrm{P}(m,m)}=\frac{n(n-1)\cdots(n-m+1)}{m!}=\frac{n!}{m!(n-m)!},
+\binom{n}{m}=\frac{\mathrm{P}\left(n,m\right)}{\mathrm{P}\left(m,m\right)}=\frac{n\left(n-1\right)\cdots\left(n-m+1\right)}{m!}=\frac{n!}{m!\left(n-m\right)!},
 $$
 
 where $m,n\in\mathbb N^*$ and $m\le n$. We stipulate $\binom{n}{0}=1$.
@@ -971,7 +971,7 @@ $$
 For any positive integer $n$,
 
 $$
-(a+b)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
+\left(a+b\right)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
 $$
 
 **Formula 6.3.2** (General Term of the Binomial Expansion)
@@ -984,12 +984,12 @@ $$
 
 where $\binom{n}{k}$ ($k=0,1,2,\cdots,n$) is called a binomial coefficient.
 
-**Formula 6.3.3** (Expansion of $(1+x)^n$)
+**Formula 6.3.3** (Expansion of $\left(1+x\right)^n$)
 
 Setting $a=1$, $b=x$ in the binomial theorem gives
 
 $$
-(1+x)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n.
+\left(1+x\right)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n.
 $$
 
 **Property 6.3.4** (Properties of Binomial Coefficients)
@@ -1000,7 +1000,7 @@ $$
 \binom{n}{k}=\binom{n}{n-k};
 $$
 
-(2) Monotonicity and maximum: when $k< \frac{n+1}{2}$, $\binom{n}{k}$ increases as $k$ increases; when $n$ is even, the middle term $\binom{n}{n/2}$ is the largest; when $n$ is odd, the two middle terms $\binom{n}{(n-1)/2}$ and $\binom{n}{(n+1)/2}$ are equal and largest; (3) sum of all binomial coefficients:
+(2) Monotonicity and maximum: when $k< \frac{n+1}{2}$, $\binom{n}{k}$ increases as $k$ increases; when $n$ is even, the middle term $\binom{n}{n/2}$ is the largest; when $n$ is odd, the two middle terms $\binom{n}{\left(n-1\right)/2}$ and $\binom{n}{\left(n+1\right)/2}$ are equal and largest; (3) sum of all binomial coefficients:
 
 $$
 \binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n;
@@ -1016,7 +1016,7 @@ $$
 
 **Common Conclusion 6.3.2** (Sum of All Binomial Coefficients)
 
-The sum of all binomial coefficients in the expansion of $(a+b)^n$ equals $2^n$, i.e.
+The sum of all binomial coefficients in the expansion of $\left(a+b\right)^n$ equals $2^n$, i.e.
 
 $$
 \binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}=2^n;
@@ -1038,51 +1038,51 @@ $$
 
 **Definition 7.1.1** (Conditional Probability)
 
-Generally, let $A$, $B$ be two random events with $\mathbb P(A)> 0$; we call
+Generally, let $A$, $B$ be two random events with $\mathbb P\left(A\right)> 0$; we call
 
 $$
-\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}
+\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}
 $$
 
 the conditional probability of event $B$ occurring given that event $A$ has occurred, or conditional probability for short.
 
 **Conclusion 7.1.2** (Multiplication Formula for Probability)
 
-From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P(A)> 0$, then
+From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)> 0$, then
 
 $$
-\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A).
+\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right).
 $$
 
 **Conclusion 7.1.3** (Properties of Conditional Probability)
 
-Let $\mathbb P(A)> 0$, then: (1) $\mathbb P(\Omega\mid A)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P(B\cup C\mid A)=\mathbb P(B\mid A)+\mathbb P(C\mid A)$; (3) if $\bar B$ and $B$ are complementary events, then $\mathbb P(\bar B\mid A)=1-\mathbb P(B\mid A)$.
+Let $\mathbb P\left(A\right)> 0$, then: (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) if $\bar B$ and $B$ are complementary events, then $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
 **Conclusion 7.1.4** (Mutual Independence of Events)
 
-When $\mathbb P(A)> 0$, if and only if events $A$ and $B$ are mutually independent, we have $\mathbb P(B\mid A)=\mathbb P(B)$.
+When $\mathbb P\left(A\right)> 0$, if and only if events $A$ and $B$ are mutually independent, we have $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
 **Conclusion 7.1.5** (Law of Total Probability)
 
-Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$ and $\mathbb P(A_i)> 0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$,
+Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$ and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$,
 
 $$
-\mathbb P(B)=\sum_{i=1}^n \mathbb P(A_i)\mathbb P(B\mid A_i).
+\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right).
 $$
 
 **Conclusion 7.1.6** (Bayes' Formula)
 
-Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$ and $\mathbb P(A_i)> 0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$ with $\mathbb P(B)> 0$,
+Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$ and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$ with $\mathbb P\left(B\right)> 0$,
 
 $$
-\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)},\quad i=1,2,\cdots,n.
+\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)},\quad i=1,2,\cdots,n.
 $$
 
 #### 7.2 Discrete Random Variables and Their Probability Mass Functions
 
 **Definition 7.2.1** (Random Variable)
 
-Generally, for each sample point $\omega$ in the sample space $\Omega$ of a random experiment, there is a unique real number $X(\omega)$ corresponding to it; we call $X$ a random variable. Random variables are usually denoted by capital letters $X$, $Y$, $Z$, and their values by lowercase letters $x$, $y$, $z$.
+Generally, for each sample point $\omega$ in the sample space $\Omega$ of a random experiment, there is a unique real number $X\left(\omega\right)$ corresponding to it; we call $X$ a random variable. Random variables are usually denoted by capital letters $X$, $Y$, $Z$, and their values by lowercase letters $x$, $y$, $z$.
 
 **Definition 7.2.2** (Discrete Random Variable)
 
@@ -1093,7 +1093,7 @@ A random variable that can take finitely many values or can be enumerated one by
 Let the possible values of the discrete random variable $X$ be $x_1$, $x_2$, $\cdots$, $x_n$; we call
 
 $$
-\mathbb P(X=x_i)=p_i,\quad i=1,2,\cdots,n
+\mathbb P\left(X=x_i\right)=p_i,\quad i=1,2,\cdots,n
 $$
 
 the probability mass function of $X$, or distribution for short. It has two properties: (1)
@@ -1110,43 +1110,43 @@ $$
 
 **Definition 7.2.4** (Bernoulli Distribution)
 
-For a random experiment with only two possible outcomes, let $A$ denote "success" and $\bar A$ denote "failure"; define $X=1$ when $A$ occurs and $X=0$ when $\bar A$ occurs. If $\mathbb P(A)=p$, then $\mathbb P(\bar A)=1-p$; we say $X$ follows the Bernoulli distribution or the $0-1$ distribution.
+For a random experiment with only two possible outcomes, let $A$ denote "success" and $\bar A$ denote "failure"; define $X=1$ when $A$ occurs and $X=0$ when $\bar A$ occurs. If $\mathbb P\left(A\right)=p$, then $\mathbb P\left(\bar A\right)=1-p$; we say $X$ follows the Bernoulli distribution or the $0-1$ distribution.
 
 #### 7.3 Numerical Characteristics of Discrete Random Variables
 
 **Definition 7.3.1** (Mean)
 
-If the probability mass function of the discrete random variable $X$ is $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$, then
+If the probability mass function of the discrete random variable $X$ is $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, then
 
 $$
-\mathbb E(X)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i
+\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i
 $$
 
 is called the mean or expectation of the random variable $X$, or expectation for short.
 
 **Conclusion 7.3.2** (Properties of the Mean)
 
-For constants $a$, $b$, we have $\mathbb E(aX+b)=a\mathbb E(X)+b$.
+For constants $a$, $b$, we have $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$.
 
 **Definition 7.3.3** (Variance and Standard Deviation)
 
 We call
 
 $$
-D(X)=\sum_{i=1}^n (x_i-\mathbb E(X))^2 p_i
+D\left(X\right)=\sum_{i=1}^n \left(x_i-\mathbb E\left(X\right)\right)^2 p_i
 $$
 
-the variance of the random variable $X$, and we call $\sqrt{D(X)}$ the standard deviation of the random variable $X$, denoted $\sigma(X)$.
+the variance of the random variable $X$, and we call $\sqrt{D\left(X\right)}$ the standard deviation of the random variable $X$, denoted $\sigma\left(X\right)$.
 
 **Conclusion 7.3.4** (Simplified Formula for Variance)
 
 $$
-D(X)=\sum_{i=1}^n x_i^2 p_i-(\mathbb E(X))^2.
+D\left(X\right)=\sum_{i=1}^n x_i^2 p_i-\left(\mathbb E\left(X\right)\right)^2.
 $$
 
 **Conclusion 7.3.5** (Properties of Variance)
 
-For constants $a$, $b$, we have $D(aX+b)=a^2 D(X)$.
+For constants $a$, $b$, we have $D\left(aX+b\right)=a^2 D\left(X\right)$.
 
 #### 7.4 Binomial and Hypergeometric Distributions
 
@@ -1159,17 +1159,17 @@ An experiment with only two possible outcomes is called a Bernoulli trial. A ran
 In an $n$-fold Bernoulli trial, let the probability of event $A$ occurring in each trial be $p$, and let $X$ denote the number of times event $A$ occurs; then
 
 $$
-\mathbb P(X=k)=\binom{n}{k} p^k (1-p)^{n-k},\quad k=0,1,\cdots,n.
+\mathbb P\left(X=k\right)=\binom{n}{k} p^k \left(1-p\right)^{n-k},\quad k=0,1,\cdots,n.
 $$
 
-We say $X$ follows the binomial distribution, denoted $X\sim B(n,p)$.
+We say $X$ follows the binomial distribution, denoted $X\sim B\left(n,p\right)$.
 
 **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution)
 
-If $X\sim B(n,p)$, then
+If $X\sim B\left(n,p\right)$, then
 
 $$
-\mathbb E(X)=np,\quad D(X)=np(1-p).
+\mathbb E\left(X\right)=np,\quad D\left(X\right)=np\left(1-p\right).
 $$
 
 **Definition 7.4.4** (Hypergeometric Distribution)
@@ -1177,7 +1177,7 @@ $$
 Suppose there are $N$ products, among which $M$ are defective. Draw $n$ items without replacement, and let $X$ denote the number of defective items among the $n$ drawn; then
 
 $$
-\mathbb P(X=k)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}},\quad k=0,1,\cdots,\min(n,M).
+\mathbb P\left(X=k\right)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}},\quad k=0,1,\cdots,\min\left(n,M\right).
 $$
 
 We say $X$ follows the hypergeometric distribution.
@@ -1187,7 +1187,7 @@ We say $X$ follows the hypergeometric distribution.
 If $X$ follows the hypergeometric distribution, let $p=\frac{M}{N}$; then
 
 $$
-\mathbb E(X)=np.
+\mathbb E\left(X\right)=np.
 $$
 
 #### 7.5 Normal Distribution
@@ -1201,10 +1201,10 @@ For a random variable $X$, if it can take any value in some interval, then $X$ i
 The normal density function is
 
 $$
-f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}},\quad x\in\mathbb R,
+f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}},\quad x\in\mathbb R,
 $$
 
-where $\mu\in\mathbb R$, $\sigma> 0$. We say the random variable $X$ follows the normal distribution, denoted $X\sim N(\mu,\sigma^2)$. When $\mu=0$, $\sigma=1$, it is called the standard normal distribution.
+where $\mu\in\mathbb R$, $\sigma> 0$. We say the random variable $X$ follows the normal distribution, denoted $X\sim N\left(\mu,\sigma^2\right)$. When $\mu=0$, $\sigma=1$, it is called the standard normal distribution.
 
 **Conclusion 7.5.3** (Properties of the Normal Curve)
 
@@ -1214,14 +1214,14 @@ $$
 \frac{1}{\sigma\sqrt{2\pi}};
 $$
 
-and $\mathbb E(X)=\mu$, $D(X)=\sigma^2$.
+and $\mathbb E\left(X\right)=\mu$, $D\left(X\right)=\sigma^2$.
 
 **Conclusion 7.5.4** ($3\sigma$ Rule)
 
-If $X\sim N(\mu,\sigma^2)$, then
+If $X\sim N\left(\mu,\sigma^2\right)$, then
 
 $$
-\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827,\quad \mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545,\quad \mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973.
+\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827,\quad \mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)\approx 0.9545,\quad \mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)\approx 0.9973.
 $$
 
 ### Chapter 8 Statistical Analysis of Paired Data

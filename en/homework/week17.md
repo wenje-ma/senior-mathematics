@@ -1,20 +1,20 @@
 # Assignment 17
 
-> **Definition 4.5.1** (Zero of a Function) <br>For a general function $y=f(x)$, the real number $x$ that makes $f(x)=0$ is called the zero of the function $y=f(x)$.
+> **Definition 4.5.1** (Zero of a Function) <br>For a general function $y=f\left(x\right)$, the real number $x$ that makes $f\left(x\right)=0$ is called the zero of the function $y=f\left(x\right)$.
 
-> **Standard Conclusion 4.5.2** (Zero Existence Theorem) <br>If the graph of the function $y=f(x)$ on the interval $[a,b]$ is a continuous unbroken curve, and $f(a)f(b)<0$, then the function $y=f(x)$ has at least one zero in the interval $(a,b)$, i.e. there exists $c\in(a,b)$ such that $f(c)=0$, and this $c$ is exactly the solution of the equation $f(x)=0$.
+> **Standard Conclusion 4.5.2** (Zero Existence Theorem) <br>If the graph of the function $y=f\left(x\right)$ on the interval $\left[a,b\right]$ is a continuous unbroken curve, and $f\left(a\right)f\left(b\right)<0$, then the function $y=f\left(x\right)$ has at least one zero in the interval $\left(a,b\right)$, i.e. there exists $c\in\left(a,b\right)$ such that $f\left(c\right)=0$, and this $c$ is exactly the solution of the equation $f\left(x\right)=0$.
 
-> **Definition 4.5.3** (Bisection Method) <br>For a function $y=f(x)$ whose graph on the interval $[a,b]$ is continuous and unbroken and for which $f(a)f(b)<0$, the method of repeatedly bisecting the interval containing its zero, making the two endpoints of the resulting interval gradually approach the zero, and thereby obtaining an approximate value of the zero, is called the bisection method.
+> **Definition 4.5.3** (Bisection Method) <br>For a function $y=f\left(x\right)$ whose graph on the interval $\left[a,b\right]$ is continuous and unbroken and for which $f\left(a\right)f\left(b\right)<0$, the method of repeatedly bisecting the interval containing its zero, making the two endpoints of the resulting interval gradually approach the zero, and thereby obtaining an approximate value of the zero, is called the bisection method.
 
 ### Exercise 1
 
-(Exercise 4.5, Problem 1) Figures (1)(2)(3) are respectively the graphs of the function $y=f(x)$ in three different ranges. Can one conclude, based on only one of the graphs, that the function $y=f(x)$ has exactly one zero in a certain interval? Why?
+(Exercise 4.5, Problem 1) Figures (1)(2)(3) are respectively the graphs of the function $y=f\left(x\right)$ in three different ranges. Can one conclude, based on only one of the graphs, that the function $y=f\left(x\right)$ has exactly one zero in a certain interval? Why?
 
 ![week17-1.svg](../../figures/week17-1.svg){width=100%}
 
 ### Solution to Exercise 1
 
-By **Standard Conclusion 4.5.2** (Zero Existence Theorem), a continuous graph with $f(a)f(b)<0$ can only guarantee at least one zero in the interval, not exactly one.
+By **Standard Conclusion 4.5.2** (Zero Existence Theorem), a continuous graph with $f\left(a\right)f\left(b\right)<0$ can only guarantee at least one zero in the interval, not exactly one.
 
 Based on a graph in only one range, one cannot conclude that the function has exactly one zero in a certain interval. Because the graph may cross the $x$-axis multiple times within that interval, may be tangent to the $x$-axis, or may have other zeros not shown. To determine the number of zeros, one must also consider the monotonicity of the function or a graph over a wider range. $\blacksquare$
 
@@ -22,13 +22,13 @@ Based on a graph in only one range, one cannot conclude that the function has ex
 
 (Exercise 4.5, Problem 2) Use a calculating tool to draw the graphs of the functions, and indicate the approximate interval where the zero of each of the following functions lies.
 
-(1) $f(x)=-x^3-3x+5$;
+(1) $f\left(x\right)=-x^3-3x+5$;
 
-(2) $f(x)=2x\ln(x-2)-3$;
+(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$;
 
-(3) $f(x)=\mathrm e^{x-1}+4x-4$;
+(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$;
 
-(4) $f(x)=3(x+2)(x-3)(x+4)+x$.
+(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
 
 ![week17-2.svg](../../figures/week17-2.svg){width=100%}
 
@@ -36,33 +36,33 @@ Based on a graph in only one range, one cannot conclude that the function has ex
 
 By **Standard Conclusion 4.5.2** (Zero Existence Theorem), it suffices to find an interval where the function values at the endpoints have opposite signs.
 
-(1) $f(1)=1>0$, $f(2)=-8-6+5=-9<0$, so the zero is in $(1,2)$.
+(1) $f\left(1\right)=1>0$, $f\left(2\right)=-8-6+5=-9<0$, so the zero is in $\left(1,2\right)$.
 
-(2) The domain is $x>2$. $f(3)=6\ln 1-3=-3<0$, $f(4)=8\ln 2-3\approx 2.54>0$, so the zero is in $(3,4)$.
+(2) The domain is $x>2$. $f\left(3\right)=6\ln 1-3=-3<0$, $f\left(4\right)=8\ln 2-3\approx 2.54>0$, so the zero is in $\left(3,4\right)$.
 
-(3) $f(0)=\mathrm e^{-1}-4<0$, $f(1)=1+4-4=1>0$, so the zero is in $(0,1)$.
+(3) $f\left(0\right)=\mathrm e^{-1}-4<0$, $f\left(1\right)=1+4-4=1>0$, so the zero is in $\left(0,1\right)$.
 
-(4) $f(-4)=-4<0$, $f(-3)=3(-1)(-6)(1)-3=15>0$, the zero is in $(-4,-3)$; $f(-2)=-2<0$, the zero is in $(-3,-2)$; $f(2)=3(4)(-1)(6)+2=-70<0$, $f(3)=3>0$, the zero is in $(2,3)$. $\blacksquare$
+(4) $f\left(-4\right)=-4<0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15>0$, the zero is in $\left(-4,-3\right)$; $f\left(-2\right)=-2<0$, the zero is in $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70<0$, $f\left(3\right)=3>0$, the zero is in $\left(2,3\right)$. $\blacksquare$
 
 ### Exercise 3
 
-(Exercise 4.5, Problem 3) With the help of information technology, use the bisection method to find the approximate value of the zero of the function $f(x)=x^3+1.1x^2+0.9x-1.4$ in the interval $(0,1)$ (accuracy $0.1$).
+(Exercise 4.5, Problem 3) With the help of information technology, use the bisection method to find the approximate value of the zero of the function $f\left(x\right)=x^3+1.1x^2+0.9x-1.4$ in the interval $\left(0,1\right)$ (accuracy $0.1$).
 
 ### Solution to Exercise 3
 
 By **Definition 4.5.3** (Bisection Method).
 
-$f(0)=-1.4<0$, $f(1)=1+1.1+0.9-1.4=1.6>0$. Take the midpoint $0.5$, $f(0.5)=0.125+0.275+0.45-1.4=-0.55<0$, the zero is in $(0.5,1)$. Take the midpoint $0.75$, $f(0.75)\approx 0.316>0$, the zero is in $(0.5,0.75)$. Take the midpoint $0.625$, $f(0.625)\approx -0.163<0$, the zero is in $(0.625,0.75)$. At this point $\lvert 0.75-0.625\rvert=0.125>0.1$. Take the midpoint $0.6875$, $f(0.6875)\approx 0.064>0$, the zero is in $(0.625,0.6875)$. At this point $\lvert 0.6875-0.625\rvert=0.0625<0.1$. Therefore the approximate value of the zero can be taken as $0.625$. $\blacksquare$
+$f\left(0\right)=-1.4<0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6>0$. Take the midpoint $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55<0$, the zero is in $\left(0.5,1\right)$. Take the midpoint $0.75$, $f\left(0.75\right)\approx 0.316>0$, the zero is in $\left(0.5,0.75\right)$. Take the midpoint $0.625$, $f\left(0.625\right)\approx -0.163<0$, the zero is in $\left(0.625,0.75\right)$. At this point $\lvert 0.75-0.625\rvert=0.125>0.1$. Take the midpoint $0.6875$, $f\left(0.6875\right)\approx 0.064>0$, the zero is in $\left(0.625,0.6875\right)$. At this point $\lvert 0.6875-0.625\rvert=0.0625<0.1$. Therefore the approximate value of the zero can be taken as $0.625$. $\blacksquare$
 
 ### Exercise 4
 
-(Exercise 4.5, Problem 4) With the help of information technology, use the bisection method to find the approximate solution of the equation $x=3-\lg x$ in the interval $(2,3)$ (accuracy $0.1$).
+(Exercise 4.5, Problem 4) With the help of information technology, use the bisection method to find the approximate solution of the equation $x=3-\lg x$ in the interval $\left(2,3\right)$ (accuracy $0.1$).
 
 ### Solution to Exercise 4
 
 By **Definition 4.5.3** (Bisection Method).
 
-The original equation is $x+\lg x-3=0$. Let $f(x)=x+\lg x-3$. $f(2)=2+\lg 2-3\approx -0.699<0$, $f(3)=\lg 3\approx 0.477>0$. Take the midpoint $2.5$, $f(2.5)\approx -0.102<0$, the zero is in $(2.5,3)$. Take the midpoint $2.75$, $f(2.75)\approx 0.189>0$, the zero is in $(2.5,2.75)$. Take the midpoint $2.625$, $f(2.625)\approx 0.045>0$, the zero is in $(2.5,2.625)$. At this point $\lvert 2.625-2.5\rvert=0.125>0.1$. Take the midpoint $2.5625$, $f(2.5625)\approx -0.029<0$, the zero is in $(2.5625,2.625)$. At this point $\lvert 2.625-2.5625\rvert=0.0625<0.1$. Therefore the approximate solution of the equation can be taken as $2.5625$. $\blacksquare$
+The original equation is $x+\lg x-3=0$. Let $f\left(x\right)=x+\lg x-3$. $f\left(2\right)=2+\lg 2-3\approx -0.699<0$, $f\left(3\right)=\lg 3\approx 0.477>0$. Take the midpoint $2.5$, $f\left(2.5\right)\approx -0.102<0$, the zero is in $\left(2.5,3\right)$. Take the midpoint $2.75$, $f\left(2.75\right)\approx 0.189>0$, the zero is in $\left(2.5,2.75\right)$. Take the midpoint $2.625$, $f\left(2.625\right)\approx 0.045>0$, the zero is in $\left(2.5,2.625\right)$. At this point $\lvert 2.625-2.5\rvert=0.125>0.1$. Take the midpoint $2.5625$, $f\left(2.5625\right)\approx -0.029<0$, the zero is in $\left(2.5625,2.625\right)$. At this point $\lvert 2.625-2.5625\rvert=0.0625<0.1$. Therefore the approximate solution of the equation can be taken as $2.5625$. $\blacksquare$
 
 ### Exercise 5
 
@@ -98,7 +98,7 @@ Let $n$ doublings occur, then $10^4\times 2^n=10^8$, i.e. $2^n=10^4$, $n=\log_2 
 
 By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-The half-life of carbon $14$ is $5730$ years, and the residual amount model is $y=k\left(\sqrt[5730]{\frac{1}{2}}\right)^x$. Let $\left(\sqrt[5730]{\frac{1}{2}}\right)^x=0.6276$, then $x=\log_{\sqrt[5730]{1/2}} 0.6276=\frac{\ln 0.6276}{\ln\sqrt[5730]{1/2}}=\frac{5730\ln 0.6276}{\ln(1/2)}\approx\frac{5730\times(-0.466)}{-0.693}\approx 3850$. Therefore this sample is approximately $3850$ years old, i.e. approximately $1950$ BC, and the Erlitou site was probably built around $2000$ BC. $\blacksquare$
+The half-life of carbon $14$ is $5730$ years, and the residual amount model is $y=k\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x$. Let $\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x=0.6276$, then $x=\log_{\sqrt\left[5730\right]{1/2}} 0.6276=\frac{\ln 0.6276}{\ln\sqrt\left[5730\right]{1/2}}=\frac{5730\ln 0.6276}{\ln\left(1/2\right)}\approx\frac{5730\times\left(-0.466\right)}{-0.693}\approx 3850$. Therefore this sample is approximately $3850$ years old, i.e. approximately $1950$ BC, and the Erlitou site was probably built around $2000$ BC. $\blacksquare$
 
 ### Exercise 8
 
@@ -108,7 +108,7 @@ The half-life of carbon $14$ is $5730$ years, and the residual amount model is $
 
 By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
 
-A's quadratic model: substituting $(1,52)$, $(2,61)$, $(3,68)$ and solving gives $a=-1$, $b=12$, $c=41$, i.e. $y=-x^2+12x+41$. It predicts $y=73$ when $x=4$, $y=76$ when $x=5$, $y=77$ when $x=6$, which has a large error compared with the actual $74$, $78$, $83$. B's exponential model: substituting the three points and solving gives $q\approx\frac{7}{9}$, predicting that the growth in later stages gradually slows down, which is closer to the growth trend of the actual number of patients. Therefore B's chosen model better matches reality. $\blacksquare$
+A's quadratic model: substituting $\left(1,52\right)$, $\left(2,61\right)$, $\left(3,68\right)$ and solving gives $a=-1$, $b=12$, $c=41$, i.e. $y=-x^2+12x+41$. It predicts $y=73$ when $x=4$, $y=76$ when $x=5$, $y=77$ when $x=6$, which has a large error compared with the actual $74$, $78$, $83$. B's exponential model: substituting the three points and solving gives $q\approx\frac{7}{9}$, predicting that the growth in later stages gradually slows down, which is closer to the growth trend of the actual number of patients. Therefore B's chosen model better matches reality. $\blacksquare$
 
 ### Exercise 9
 
@@ -136,39 +136,39 @@ By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
 
 ### Solution to Problem 1
 
-By **Definition 4.5.3** (Bisection Method), the bisection method requires $f(a)f(b)<0$, i.e. the graph crosses the $x$-axis.
+By **Definition 4.5.3** (Bisection Method), the bisection method requires $f\left(a\right)f\left(b\right)<0$, i.e. the graph crosses the $x$-axis.
 
-In figure ① the graph is tangent to the $x$-axis (does not cross it), and in figure ③ the graph is tangent to the $x$-axis multiple times (touches but does not cross), neither satisfying $f(a)f(b)<0$, so the bisection method cannot be used. In figures ② and ④ the graph crosses the $x$-axis, so the bisection method can be used. Therefore those whose zeros cannot be found by the bisection method are ①③. $\blacksquare$
+In figure ① the graph is tangent to the $x$-axis (does not cross it), and in figure ③ the graph is tangent to the $x$-axis multiple times (touches but does not cross), neither satisfying $f\left(a\right)f\left(b\right)<0$, so the bisection method cannot be used. In figures ② and ④ the graph crosses the $x$-axis, so the bisection method can be used. Therefore those whose zeros cannot be found by the bisection method are ①③. $\blacksquare$
 
 ### Problem 2
 
-(Exercise 4.5, Review and Consolidation, Problem 2) Given that the graph of the function $y=f(x)$ is a continuous unbroken curve, and there is the following correspondence table: when $x=1,2,3,4,5,6$, $y=136.136,15.552,-3.92,10.88,-52.488,-232.064$. In which intervals must the function $y=f(x)$ have zeros? Why?
+(Exercise 4.5, Review and Consolidation, Problem 2) Given that the graph of the function $y=f\left(x\right)$ is a continuous unbroken curve, and there is the following correspondence table: when $x=1,2,3,4,5,6$, $y=136.136,15.552,-3.92,10.88,-52.488,-232.064$. In which intervals must the function $y=f\left(x\right)$ have zeros? Why?
 
 ### Solution to Problem 2
 
 By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
 
-$f(2)=15.552>0$, $f(3)=-3.92<0$, $f(2)f(3)<0$, so there must be a zero in $(2,3)$; $f(3)<0$, $f(4)=10.88>0$, $f(3)f(4)<0$, so there must be a zero in $(3,4)$; $f(4)>0$, $f(5)=-52.488<0$, $f(4)f(5)<0$, so there must be a zero in $(4,5)$. $\blacksquare$
+$f\left(2\right)=15.552>0$, $f\left(3\right)=-3.92<0$, $f\left(2\right)f\left(3\right)<0$, so there must be a zero in $\left(2,3\right)$; $f\left(3\right)<0$, $f\left(4\right)=10.88>0$, $f\left(3\right)f\left(4\right)<0$, so there must be a zero in $\left(3,4\right)$; $f\left(4\right)>0$, $f\left(5\right)=-52.488<0$, $f\left(4\right)f\left(5\right)<0$, so there must be a zero in $\left(4,5\right)$. $\blacksquare$
 
 ### Problem 3
 
-(Exercise 4.5, Review and Consolidation, Problem 3) Given the function $f(x)=x^3-2x+1$, prove that the equation $f(x)=x$ has at least two real solutions in $(-1,2)$.
+(Exercise 4.5, Review and Consolidation, Problem 3) Given the function $f\left(x\right)=x^3-2x+1$, prove that the equation $f\left(x\right)=x$ has at least two real solutions in $\left(-1,2\right)$.
 
 ### Solution to Problem 3
 
 By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
 
-Let $g(x)=f(x)-x=x^3-3x+1$. $g(0)=1>0$, $g(1)=1-3+1=-1<0$, $g(0)g(1)<0$, so $g(x)$ has at least one zero in $(0,1)$; $g(1)<0$, $g(2)=8-6+1=3>0$, $g(1)g(2)<0$, so $g(x)$ has at least one zero in $(1,2)$. Therefore the equation $f(x)=x$ has at least two real solutions in $(-1,2)$. $\blacksquare$
+Let $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1>0$, $g\left(1\right)=1-3+1=-1<0$, $g\left(0\right)g\left(1\right)<0$, so $g\left(x\right)$ has at least one zero in $\left(0,1\right)$; $g\left(1\right)<0$, $g\left(2\right)=8-6+1=3>0$, $g\left(1\right)g\left(2\right)<0$, so $g\left(x\right)$ has at least one zero in $\left(1,2\right)$. Therefore the equation $f\left(x\right)=x$ has at least two real solutions in $\left(-1,2\right)$. $\blacksquare$
 
 ### Problem 4
 
-(Exercise 4.5, Review and Consolidation, Problem 4) Using information technology, use the bisection method to find the zero of the function $f(x)=\ln x-\frac{2}{x}$ (accuracy $0.1$).
+(Exercise 4.5, Review and Consolidation, Problem 4) Using information technology, use the bisection method to find the zero of the function $f\left(x\right)=\ln x-\frac{2}{x}$ (accuracy $0.1$).
 
 ### Solution to Problem 4
 
 By **Definition 4.5.3** (Bisection Method).
 
-$f(2)=\ln 2-1\approx -0.307<0$, $f(3)=\ln 3-\frac{2}{3}\approx 0.432>0$. Take the midpoint $2.5$, $f(2.5)\approx 0.116>0$, the zero is in $(2,2.5)$. Take the midpoint $2.25$, $f(2.25)\approx -0.078<0$, the zero is in $(2.25,2.5)$. Take the midpoint $2.375$, $f(2.375)\approx 0.023>0$, the zero is in $(2.25,2.375)$. At this point $\lvert 2.375-2.25\rvert=0.125>0.1$. Take the midpoint $2.3125$, $f(2.3125)\approx -0.027<0$, the zero is in $(2.3125,2.375)$. At this point $\lvert 2.375-2.3125\rvert=0.0625<0.1$. Therefore the approximate value of the zero can be taken as $2.3125$. $\blacksquare$
+$f\left(2\right)=\ln 2-1\approx -0.307<0$, $f\left(3\right)=\ln 3-\frac{2}{3}\approx 0.432>0$. Take the midpoint $2.5$, $f\left(2.5\right)\approx 0.116>0$, the zero is in $\left(2,2.5\right)$. Take the midpoint $2.25$, $f\left(2.25\right)\approx -0.078<0$, the zero is in $\left(2.25,2.5\right)$. Take the midpoint $2.375$, $f\left(2.375\right)\approx 0.023>0$, the zero is in $\left(2.25,2.375\right)$. At this point $\lvert 2.375-2.25\rvert=0.125>0.1$. Take the midpoint $2.3125$, $f\left(2.3125\right)\approx -0.027<0$, the zero is in $\left(2.3125,2.375\right)$. At this point $\lvert 2.375-2.3125\rvert=0.0625<0.1$. Therefore the approximate value of the zero can be taken as $2.3125$. $\blacksquare$
 
 ### Problem 5
 
@@ -178,7 +178,7 @@ $f(2)=\ln 2-1\approx -0.307<0$, $f(3)=\ln 3-\frac{2}{3}\approx 0.432>0$. Take th
 
 By **Definition 4.5.3** (Bisection Method).
 
-Let $f(x)=0.8^x-1-\ln x$. $f(0.5)=0.8^{0.5}-1-\ln 0.5\approx 0.587>0$, $f(1)=0.8-1-0=-0.2<0$. Take the midpoint $0.75$, $f(0.75)\approx 0.134>0$, the zero is in $(0.75,1)$. Take the midpoint $0.875$, $f(0.875)\approx -0.045<0$, the zero is in $(0.75,0.875)$. Take the midpoint $0.8125$, $f(0.8125)\approx 0.042>0$, the zero is in $(0.8125,0.875)$. At this point $\lvert 0.875-0.8125\rvert=0.0625<0.1$. Therefore the approximate solution of the equation can be taken as $0.8125$. $\blacksquare$
+Let $f\left(x\right)=0.8^x-1-\ln x$. $f\left(0.5\right)=0.8^{0.5}-1-\ln 0.5\approx 0.587>0$, $f\left(1\right)=0.8-1-0=-0.2<0$. Take the midpoint $0.75$, $f\left(0.75\right)\approx 0.134>0$, the zero is in $\left(0.75,1\right)$. Take the midpoint $0.875$, $f\left(0.875\right)\approx -0.045<0$, the zero is in $\left(0.75,0.875\right)$. Take the midpoint $0.8125$, $f\left(0.8125\right)\approx 0.042>0$, the zero is in $\left(0.8125,0.875\right)$. At this point $\lvert 0.875-0.8125\rvert=0.0625<0.1$. Therefore the approximate solution of the equation can be taken as $0.8125$. $\blacksquare$
 
 ### Problem 6
 
@@ -192,23 +192,23 @@ $64\;\mathrm{MB}=64\times 1024=65536\;\mathrm{KB}$. Let $n$ copies be made to re
 
 ### Problem 7
 
-(Exercise 4.5, Comprehensive Application, Problem 7) Let the function $f(x)=ax^2+bx+c$ ($a>0$, $b,c\in\mathbb R$), and $f(1)=-\frac{a}{2}$. Prove that the function $f(x)$ has at least one zero in $(0,2)$.
+(Exercise 4.5, Comprehensive Application, Problem 7) Let the function $f\left(x\right)=ax^2+bx+c$ ($a>0$, $b,c\in\mathbb R$), and $f\left(1\right)=-\frac{a}{2}$. Prove that the function $f\left(x\right)$ has at least one zero in $\left(0,2\right)$.
 
 ### Solution to Problem 7
 
 By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
 
-$f(1)=a+b+c=-\frac{a}{2}$, i.e. $b+c=-\frac{3a}{2}$. $f(0)=c$, $f(2)=4a+2b+c=4a+2(b+c)-c=4a-3a-c=a-c$. $f(0)+f(2)=c+a-c=a>0$. If $f(0)$ and $f(2)$ have opposite signs, then by the zero existence theorem there is a zero in $(0,2)$. If $f(0)$ and $f(2)$ have the same sign, since $f(0)+f(2)>0$, both are positive. Moreover, $f(1)=-\frac{a}{2}<0$, so $f(0)f(1)<0$ or $f(1)f(2)<0$, i.e. the zero is in $(0,1)$ or $(1,2)$. Therefore $f(x)$ has at least one zero in $(0,2)$. $\blacksquare$
+$f\left(1\right)=a+b+c=-\frac{a}{2}$, i.e. $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a>0$. If $f\left(0\right)$ and $f\left(2\right)$ have opposite signs, then by the zero existence theorem there is a zero in $\left(0,2\right)$. If $f\left(0\right)$ and $f\left(2\right)$ have the same sign, since $f\left(0\right)+f\left(2\right)>0$, both are positive. Moreover, $f\left(1\right)=-\frac{a}{2}<0$, so $f\left(0\right)f\left(1\right)<0$ or $f\left(1\right)f\left(2\right)<0$, i.e. the zero is in $\left(0,1\right)$ or $\left(1,2\right)$. Therefore $f\left(x\right)$ has at least one zero in $\left(0,2\right)$. $\blacksquare$
 
 ### Problem 8
 
-(Exercise 4.5, Comprehensive Application, Problem 8) Given the functions $f(x)=-x^2-3x-2$, $g(x)=2-[f(x)]^2$.
+(Exercise 4.5, Comprehensive Application, Problem 8) Given the functions $f\left(x\right)=-x^2-3x-2$, $g\left(x\right)=2-\left[f\left(x\right)\right]^2$.
 
-(1) Find the analytic expression of the function $y=g(x)$;
+(1) Find the analytic expression of the function $y=g\left(x\right)$;
 
-(2) using information technology, draw the graph of the function $y=g(x)$;
+(2) using information technology, draw the graph of the function $y=g\left(x\right)$;
 
-(3) find the zeros of the function $y=g(x)$ (accuracy $0.1$).
+(3) find the zeros of the function $y=g\left(x\right)$ (accuracy $0.1$).
 
 ![week17-3.svg](../../figures/week17-3.svg){width=50%}
 
@@ -216,11 +216,11 @@ $f(1)=a+b+c=-\frac{a}{2}$, i.e. $b+c=-\frac{3a}{2}$. $f(0)=c$, $f(2)=4a+2b+c=4a+
 
 By **Definition 4.5.1** (Zero of a Function).
 
-(1) $g(x)=2-(-x^2-3x-2)^2=2-(x^2+3x+2)^2$.
+(1) $g\left(x\right)=2-\left(-x^2-3x-2\right)^2=2-\left(x^2+3x+2\right)^2$.
 
 (2) The graph is a "wavy" curve opening downward, with four intersection points with the $x$-axis.
 
-(3) Let $g(x)=0$, i.e. $(x^2+3x+2)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. From $x^2+3x+2=\sqrt{2}$ we get $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ or $-2.71$. From $x^2+3x+2=-\sqrt{2}$ we get $\Delta=1-4\sqrt{2}<0$, no real roots. Therefore the zeros are approximately $-0.3$ and $-2.7$. $\blacksquare$
+(3) Let $g\left(x\right)=0$, i.e. $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. From $x^2+3x+2=\sqrt{2}$ we get $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ or $-2.71$. From $x^2+3x+2=-\sqrt{2}$ we get $\Delta=1-4\sqrt{2}<0$, no real roots. Therefore the zeros are approximately $-0.3$ and $-2.7$. $\blacksquare$
 
 ### Problem 9
 
@@ -260,7 +260,7 @@ Let after $t$ hours the drug amount be $2500\times 0.8^t\;\mathrm{mg}$. Let $250
 
 (Exercise 4.5, Comprehensive Application, Problem 11) The global data volume generated in 2008 was $0.49\;\mathrm{ZB}$, in 2009 it was $0.8\;\mathrm{ZB}$, in 2010 it was $1.2\;\mathrm{ZB}$, and in 2011 it was $1.82\;\mathrm{ZB}$.
 
-(1) To better describe the relationship between the global data volume generated since 2008 and time $x$ (unit: years), choose one from the functions $f(x)=kx+b$ and $g(x)=ab^x$, and find its analytic expression.
+(1) To better describe the relationship between the global data volume generated since 2008 and time $x$ (unit: years), choose one from the functions $f\left(x\right)=kx+b$ and $g\left(x\right)=ab^x$, and find its analytic expression.
 
 (2) Based on the function model found in (1), estimate the global data volume generated in 2018, and compare it with the published data; what is your view?
 
@@ -268,9 +268,9 @@ Let after $t$ hours the drug amount be $2500\times 0.8^t\;\mathrm{mg}$. Let $250
 
 By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
 
-(1) The data increments are successively $0.31$, $0.4$, $0.62$, with an increasingly fast growth rate, consistent with the characteristics of exponential growth, so choose $g(x)=ab^x$. Let 2008 be $x=0$, then $a=0.49$. From $0.49b=0.8$ we get $b\approx 1.633$. Therefore $g(x)=0.49\times 1.633^x$.
+(1) The data increments are successively $0.31$, $0.4$, $0.62$, with an increasingly fast growth rate, consistent with the characteristics of exponential growth, so choose $g\left(x\right)=ab^x$. Let 2008 be $x=0$, then $a=0.49$. From $0.49b=0.8$ we get $b\approx 1.633$. Therefore $g\left(x\right)=0.49\times 1.633^x$.
 
-(2) 2018 corresponds to $x=10$, $g(10)=0.49\times 1.633^{10}\approx 65\;\mathrm{ZB}$. The actual data may deviate from the model's prediction due to factors such as technological development and policy adjustment. $\blacksquare$
+(2) 2018 corresponds to $x=10$, $g\left(10\right)=0.49\times 1.633^{10}\approx 65\;\mathrm{ZB}$. The actual data may deviate from the model's prediction due to factors such as technological development and policy adjustment. $\blacksquare$
 
 ### Problem 12
 
@@ -284,19 +284,19 @@ By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
 
 By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
 
-(1) Weight accelerates as height increases, approximately a power function $y=ax^b$. Taking $(60,6.13)$ and $(170,55.05)$ and dividing gives $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, solving gives $b\approx 2.0$, $a\approx 0.0017$. Therefore $y\approx 0.0017x^2$.
+(1) Weight accelerates as height increases, approximately a power function $y=ax^b$. Taking $\left(60,6.13\right)$ and $\left(170,55.05\right)$ and dividing gives $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, solving gives $b\approx 2.0$, $a\approx 0.0017$. Therefore $y\approx 0.0017x^2$.
 
 (2) When $x=175$, $y\approx 0.0017\times 175^2\approx 52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx 1.49>1.2$, so this male student is overweight. $\blacksquare$
 
 ### Problem 13
 
-(Exercise 4.5, Extension and Exploration, Problem 13) There is a problem: "If the function $f(x)=24ax^2+4x-1$ has exactly one zero in the interval $(-1,1)$, find the range of values of the real number $a$." A student gave the following solution: from $f(-1)f(1)=(24a-5)(24a+3)<0$, solving gives $-\frac{1}{8}<a<\frac{5}{24}$. Is the above solution correct? If not, please explain the reason and give the correct solution.
+(Exercise 4.5, Extension and Exploration, Problem 13) There is a problem: "If the function $f\left(x\right)=24ax^2+4x-1$ has exactly one zero in the interval $\left(-1,1\right)$, find the range of values of the real number $a$." A student gave the following solution: from $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)<0$, solving gives $-\frac{1}{8}<a<\frac{5}{24}$. Is the above solution correct? If not, please explain the reason and give the correct solution.
 
 ### Solution to Problem 13
 
 By **Standard Conclusion 4.5.2** (Zero Existence Theorem) and **Definition 4.5.1** (Zero of a Function).
 
-The above solution is incorrect. When $a=0$, $f(x)=4x-1$, the zero $x=\frac{1}{4}\in(-1,1)$, with exactly one zero, already included in $-\frac{1}{8}<a<\frac{5}{24}$. But one must also consider the case where the discriminant is zero: when $\Delta=16+96a=0$, $a=-\frac{1}{6}$, at this time the zero $x=\frac{1}{2}\in(-1,1)$, which is a double root and also has exactly one zero, but $a=-\frac{1}{6}<-\frac{1}{8}$, not in the original range. In addition, when $a=-\frac{1}{8}$, $f(1)=0$, the zero $x=1$ is not in the open interval $(-1,1)$; when $a=\frac{5}{24}$, $f(-1)=0$, the zero $x=-1$ is not in the open interval $(-1,1)$. Therefore the correct range is $a=-\frac{1}{6}$ or $-\frac{1}{8}<a<\frac{5}{24}$. $\blacksquare$
+The above solution is incorrect. When $a=0$, $f\left(x\right)=4x-1$, the zero $x=\frac{1}{4}\in\left(-1,1\right)$, with exactly one zero, already included in $-\frac{1}{8}<a<\frac{5}{24}$. But one must also consider the case where the discriminant is zero: when $\Delta=16+96a=0$, $a=-\frac{1}{6}$, at this time the zero $x=\frac{1}{2}\in\left(-1,1\right)$, which is a double root and also has exactly one zero, but $a=-\frac{1}{6}<-\frac{1}{8}$, not in the original range. In addition, when $a=-\frac{1}{8}$, $f\left(1\right)=0$, the zero $x=1$ is not in the open interval $\left(-1,1\right)$; when $a=\frac{5}{24}$, $f\left(-1\right)=0$, the zero $x=-1$ is not in the open interval $\left(-1,1\right)$. Therefore the correct range is $a=-\frac{1}{6}$ or $-\frac{1}{8}<a<\frac{5}{24}$. $\blacksquare$
 
 ### Problem 14
 
@@ -310,6 +310,6 @@ The above solution is incorrect. When $a=0$, $f(x)=4x-1$, the zero $x=\frac{1}{4
 
 By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
 
-(1) When $v=0$, $Q=0$, which excludes $Q=0.5^v+a$ (at this time $Q\neq 0$) and $Q=k\log_a v+b$ (undefined when $v=0$). Choose $Q=av^3+bv^2+cv$. Substituting $(40,6.667)$, $(60,8.125)$, $(80,10)$ and solving gives $a=\frac{1}{360000}$, $b=-\frac{1}{3600}$, $c=\frac{7}{24}$. Therefore $Q=\frac{v^3}{360000}-\frac{v^2}{3600}+\frac{7v}{24}$.
+(1) When $v=0$, $Q=0$, which excludes $Q=0.5^v+a$ (at this time $Q\neq 0$) and $Q=k\log_a v+b$ (undefined when $v=0$). Choose $Q=av^3+bv^2+cv$. Substituting $\left(40,6.667\right)$, $\left(60,8.125\right)$, $\left(80,10\right)$ and solving gives $a=\frac{1}{360000}$, $b=-\frac{1}{3600}$, $c=\frac{7}{24}$. Therefore $Q=\frac{v^3}{360000}-\frac{v^2}{3600}+\frac{7v}{24}$.
 
 (2) The total time is $\frac{240}{v}$ hours, and the total fuel consumption $=Q\times\frac{240}{v}=240\left(\frac{v^2}{360000}-\frac{v}{3600}+\frac{7}{24}\right)$. Setting the derivative to zero: $240\left(\frac{v}{180000}-\frac{1}{3600}\right)=0$, we get $v=50\;\mathrm{km/h}$. Therefore traveling at $50\;\mathrm{km/h}$ minimizes the total fuel consumption. $\blacksquare$

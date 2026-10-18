@@ -55,13 +55,13 @@ $$
 交换律: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; 结合律:
 
 $$
-(\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=\boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c}),\quad \mu(\lambda\boldsymbol{a})=(\mu\lambda)\boldsymbol{a};
+\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right),\quad \mu\left(\lambda\boldsymbol{a}\right)=\left(\mu\lambda\right)\boldsymbol{a};
 $$
 
 分配律:
 
 $$
-(\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a},\quad \lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
+\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a},\quad \lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}.
 $$
 
 **常用结论 1.1.7** (向量共线的充要条件)
@@ -74,7 +74,7 @@ $$
 
 **常用结论 1.1.9** (向量共面的充要条件)
 
-如果两个向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 不共线, 那么向量 $\boldsymbol{p}$ 与向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 共面的充要条件是存在唯一的有序实数对 $(x,y)$, 使
+如果两个向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 不共线, 那么向量 $\boldsymbol{p}$ 与向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 共面的充要条件是存在唯一的有序实数对 $\left(x,y\right)$, 使
 
 $$
 \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}.
@@ -82,18 +82,18 @@ $$
 
 **定义 1.1.10** (向量的夹角)
 
-已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在空间任取一点 $O$, 作 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, 则 $\angle AOB$ 叫做向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 的夹角, 记作 $\langle \boldsymbol{a}, \boldsymbol{b} \rangle$. 通常规定, $0 \leq \langle \boldsymbol{a}, \boldsymbol{b} \rangle \leq \pi$. 这样, 两个向量的夹角是唯一确定的, 且 $\langle \boldsymbol{a}, \boldsymbol{b} \rangle = \langle \boldsymbol{b}, \boldsymbol{a} \rangle$.
+已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在空间任取一点 $O$, 作 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, 则 $\angle AOB$ 叫做向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 的夹角, 记作 $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$. 通常规定, $0 \leq \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle \leq \pi$. 这样, 两个向量的夹角是唯一确定的, 且 $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle = \left\langle \boldsymbol{b}, \boldsymbol{a} \right\rangle$.
 
 **定义 1.1.11** (向量垂直)
 
-如果 $\langle \boldsymbol{a}, \boldsymbol{b} \rangle = \frac{\pi}{2}$, 那么向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 互相垂直, 记作 $\boldsymbol{a} \perp \boldsymbol{b}$.
+如果 $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle = \frac{\pi}{2}$, 那么向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 互相垂直, 记作 $\boldsymbol{a} \perp \boldsymbol{b}$.
 
 **定义 1.1.12** (数量积)
 
-已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 则 $\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle$ 叫做 $\boldsymbol{a}$, $\boldsymbol{b}$ 的数量积, 记作 $\boldsymbol{a} \cdot \boldsymbol{b}$. 即
+已知两个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 则 $\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$ 叫做 $\boldsymbol{a}$, $\boldsymbol{b}$ 的数量积, 记作 $\boldsymbol{a} \cdot \boldsymbol{b}$. 即
 
 $$
-\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle.
+\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle.
 $$
 
 特别地, 零向量与任意向量的数量积为 $0$.
@@ -113,13 +113,13 @@ $\boldsymbol{a} \cdot \boldsymbol{a}$ 也记作 $\boldsymbol{a}^2$.
 交换律: $\boldsymbol{a} \cdot \boldsymbol{b} = \boldsymbol{b} \cdot \boldsymbol{a}$; 数乘结合律:
 
 $$
-(\lambda\boldsymbol{a}) \cdot \boldsymbol{b} = \lambda(\boldsymbol{a} \cdot \boldsymbol{b});
+\left(\lambda\boldsymbol{a}\right) \cdot \boldsymbol{b} = \lambda\left(\boldsymbol{a} \cdot \boldsymbol{b}\right);
 $$
 
 分配律:
 
 $$
-(\boldsymbol{a}+\boldsymbol{b}) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}.
+\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}.
 $$
 
 **定义 1.1.15** (投影向量)
@@ -127,7 +127,7 @@ $$
 在空间, 向量 $\boldsymbol{a}$ 向向量 $\boldsymbol{b}$ 投影, 可以先将它们平移到同一个平面 $\alpha$ 内, 进而利用平面上向量的投影, 得到与向量 $\boldsymbol{b}$ 共线的向量 $\boldsymbol{c}$,
 
 $$
-\boldsymbol{c} = \boldsymbol{a} \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle \frac{\boldsymbol{b}}{\lvert \boldsymbol{b} \rvert},
+\boldsymbol{c} = \boldsymbol{a} \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle \frac{\boldsymbol{b}}{\lvert \boldsymbol{b} \rvert},
 $$
 
 向量 $\boldsymbol{c}$ 称为向量 $\boldsymbol{a}$ 在向量 $\boldsymbol{b}$ 上的投影向量. 类似地, 可以将向量 $\boldsymbol{a}$ 向直线 $l$ 投影, 向平面 $\beta$ 投影.
@@ -136,7 +136,7 @@ $$
 
 **定理 1.2.1** (空间向量基本定理)
 
-如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么对任意一个空间向量 $\boldsymbol{p}$, 存在唯一的有序实数组 $(x,y,z)$, 使得
+如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么对任意一个空间向量 $\boldsymbol{p}$, 存在唯一的有序实数组 $\left(x,y,z\right)$, 使得
 
 $$
 \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}.
@@ -147,28 +147,28 @@ $$
 如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么所有空间向量组成的集合就是
 
 $$
-\{\boldsymbol{p} \mid \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c},\ x,y,z \in \mathbb R\}.
+\left\{\boldsymbol{p} \mid \boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c},\ x,y,z \in \mathbb R\right\}.
 $$
 
-这个集合可看作由向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 生成的, 我们把 $\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\}$ 叫做空间的一个基底, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 都叫做基向量. 空间任意三个不共面的向量都可以构成空间的一个基底.
+这个集合可看作由向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 生成的, 我们把 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 叫做空间的一个基底, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 都叫做基向量. 空间任意三个不共面的向量都可以构成空间的一个基底.
 
 **定义 1.2.3** (单位正交基底, 正交分解)
 
-如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ 表示. 把一个空间向量分解为三个两两垂直的向量, 叫做把空间向量进行正交分解.
+如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$ 表示. 把一个空间向量分解为三个两两垂直的向量, 叫做把空间向量进行正交分解.
 
 #### 1.3 空间向量及其运算的坐标表示
 
 **定义 1.3.1** (空间直角坐标系)
 
-在空间选定一点 $O$ 和一个单位正交基底 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$. 以点 $O$ 为原点, 分别以 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 的方向为正方向, 以它们的长为单位长度建立三条数轴: $x$ 轴, $y$ 轴, $z$ 轴, 它们都叫做坐标轴. 这时我们就建立了一个空间直角坐标系 $Oxyz$, $O$ 叫做原点, $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 都叫做坐标向量, 通过每两条坐标轴的平面叫做坐标平面.
+在空间选定一点 $O$ 和一个单位正交基底 $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$. 以点 $O$ 为原点, 分别以 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 的方向为正方向, 以它们的长为单位长度建立三条数轴: $x$ 轴, $y$ 轴, $z$ 轴, 它们都叫做坐标轴. 这时我们就建立了一个空间直角坐标系 $Oxyz$, $O$ 叫做原点, $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 都叫做坐标向量, 通过每两条坐标轴的平面叫做坐标平面.
 
 **定义 1.3.2** (点的坐标)
 
-在单位正交基底 $\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\}$ 下与向量 $\boldsymbol{OA}$ 对应的有序实数组 $(x,y,z)$, 叫做点 $A$ 在空间直角坐标系中的坐标, 记作 $A(x,y,z)$, 其中 $x$ 叫做点 $A$ 的横坐标, $y$ 叫做点 $A$ 的纵坐标, $z$ 叫做点 $A$ 的竖坐标.
+在单位正交基底 $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$ 下与向量 $\boldsymbol{OA}$ 对应的有序实数组 $\left(x,y,z\right)$, 叫做点 $A$ 在空间直角坐标系中的坐标, 记作 $A\left(x,y,z\right)$, 其中 $x$ 叫做点 $A$ 的横坐标, $y$ 叫做点 $A$ 的纵坐标, $z$ 叫做点 $A$ 的竖坐标.
 
 **定义 1.3.3** (向量的坐标)
 
-有序实数组 $(x,y,z)$ 叫做 $\boldsymbol{a}$ 在空间直角坐标系 $Oxyz$ 中的坐标, 即
+有序实数组 $\left(x,y,z\right)$ 叫做 $\boldsymbol{a}$ 在空间直角坐标系 $Oxyz$ 中的坐标, 即
 
 $$
 \boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}+z\boldsymbol{k},
@@ -177,19 +177,19 @@ $$
 上式可简记作
 
 $$
-\boldsymbol{a}=(x,y,z).
+\boldsymbol{a}=\left(x,y,z\right).
 $$
 
 **常用结论 1.3.4** (空间向量运算的坐标表示)
 
-设 $\boldsymbol{a}=(a_1,a_2,a_3)$, $\boldsymbol{b}=(b_1,b_2,b_3)$, 则
+设 $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$, 则
 
 $$
-\boldsymbol{a}+\boldsymbol{b}=(a_1+b_1,a_2+b_2,a_3+b_3),\quad \boldsymbol{a}-\boldsymbol{b}=(a_1-b_1,a_2-b_2,a_3-b_3),
+\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right),\quad \boldsymbol{a}-\boldsymbol{b}=\left(a_1-b_1,a_2-b_2,a_3-b_3\right),
 $$
 
 $$
-\lambda\boldsymbol{a}=(\lambda a_1,\lambda a_2,\lambda a_3),\ \lambda \in \mathbb R,\quad \boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3.
+\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right),\ \lambda \in \mathbb R,\quad \boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3.
 $$
 
 一个空间向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
@@ -199,7 +199,7 @@ $$
 当 $\boldsymbol{b} \neq \boldsymbol{0}$ 时,
 
 $$
-\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1,\ a_2=\lambda b_2,\ a_3=\lambda b_3\quad(\lambda \in \mathbb R);
+\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1,\ a_2=\lambda b_2,\ a_3=\lambda b_3\quad\left(\lambda \in \mathbb R\right);
 $$
 
 当 $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$ 时,
@@ -209,15 +209,15 @@ $$
 $$
 
 $$
-\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2};\quad \cos \langle \boldsymbol{a}, \boldsymbol{b} \rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}.
+\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2};\quad \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}.
 $$
 
 **常用结论 1.3.6** (空间两点间的距离公式)
 
-设 $P_1(x_1,y_1,z_1)$, $P_2(x_2,y_2,z_2)$ 是空间中任意两点, 则
+设 $P_1\left(x_1,y_1,z_1\right)$, $P_2\left(x_2,y_2,z_2\right)$ 是空间中任意两点, 则
 
 $$
-P_1P_2=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}.
+P_1P_2=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2+\left(z_2-z_1\right)^2}.
 $$
 
 #### 1.4 空间向量的应用
@@ -259,7 +259,7 @@ $$
 若异面直线 $l_1$, $l_2$ 所成的角为 $\theta$, 其方向向量分别是 $\boldsymbol{u}$, $\boldsymbol{v}$, 则
 
 $$
-\cos\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{v} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}.
+\cos\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{v} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}.
 $$
 
 **常用结论 1.4.8** (直线与平面所成角)
@@ -267,7 +267,7 @@ $$
 设直线 $AB$ 与平面 $\alpha$ 所成的角为 $\theta$, 直线 $AB$ 的方向向量为 $\boldsymbol{u}$, 平面 $\alpha$ 的法向量为 $\boldsymbol{n}$, 则
 
 $$
-\sin\theta=\lvert \cos \langle \boldsymbol{u}, \boldsymbol{n} \rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}.
+\sin\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{n} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}.
 $$
 
 **常用结论 1.4.9** (平面与平面的夹角)
@@ -275,7 +275,7 @@ $$
 设平面 $\alpha$, $\beta$ 的法向量分别是 $\boldsymbol{n}_1$ 和 $\boldsymbol{n}_2$, 平面 $\alpha$ 与平面 $\beta$ 的夹角为 $\theta$, 则
 
 $$
-\cos\theta=\lvert \cos \langle \boldsymbol{n}_1, \boldsymbol{n}_2 \rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}.
+\cos\theta=\lvert \cos \left\langle \boldsymbol{n}_1, \boldsymbol{n}_2 \right\rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}.
 $$
 
 ### 第二章 直线和圆的方程
@@ -478,16 +478,16 @@ $$
 
 **定义 3.1.3** (椭圆的标准方程)
 
-焦点在 $x$ 轴上, 焦点分别为 $F_1(-c,0)$, $F_2(c,0)$ 的椭圆的标准方程为
+焦点在 $x$ 轴上, 焦点分别为 $F_1\left(-c,0\right)$, $F_2\left(c,0\right)$ 的椭圆的标准方程为
 
 $$
-\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\quad(a> b> 0),
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\quad\left(a> b> 0\right),
 $$
 
-其中 $c^2=a^2-b^2$; 焦点在 $y$ 轴上, 焦点分别为 $F_1(0,-c)$, $F_2(0,c)$ 时, 标准方程为
+其中 $c^2=a^2-b^2$; 焦点在 $y$ 轴上, 焦点分别为 $F_1\left(0,-c\right)$, $F_2\left(0,c\right)$ 时, 标准方程为
 
 $$
-\frac{y^2}{a^2}+\frac{x^2}{b^2}=1\quad(a> b> 0).
+\frac{y^2}{a^2}+\frac{x^2}{b^2}=1\quad\left(a> b> 0\right).
 $$
 
 **常用结论 3.1.4** (椭圆的范围)
@@ -506,7 +506,7 @@ $$
 
 **定义 3.1.6** (椭圆的顶点, 长轴, 短轴)
 
-椭圆与它的对称轴的四个交点 $A_1(-a,0)$, $A_2(a,0)$, $B_1(0,-b)$, $B_2(0,b)$ 叫做椭圆的顶点. 线段 $A_1A_2$ 叫做椭圆的长轴, 长为 $2a$; 线段 $B_1B_2$ 叫做椭圆的短轴, 长为 $2b$. $a$ 和 $b$ 分别叫做椭圆的长半轴长和短半轴长.
+椭圆与它的对称轴的四个交点 $A_1\left(-a,0\right)$, $A_2\left(a,0\right)$, $B_1\left(0,-b\right)$, $B_2\left(0,b\right)$ 叫做椭圆的顶点. 线段 $A_1A_2$ 叫做椭圆的长轴, 长为 $2a$; 线段 $B_1B_2$ 叫做椭圆的短轴, 长为 $2b$. $a$ 和 $b$ 分别叫做椭圆的长半轴长和短半轴长.
 
 **定义 3.1.7** (椭圆的离心率)
 
@@ -534,10 +534,10 @@ $$
 
 **定义 3.2.3** (双曲线的标准方程)
 
-焦点在 $x$ 轴上, 焦点 $F_1(-c,0)$, $F_2(c,0)$ 的双曲线标准方程为
+焦点在 $x$ 轴上, 焦点 $F_1\left(-c,0\right)$, $F_2\left(c,0\right)$ 的双曲线标准方程为
 
 $$
-\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\quad(a> 0,\ b> 0),
+\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\quad\left(a> 0,\ b> 0\right),
 $$
 
 其中 $c^2=a^2+b^2$; 焦点在 $y$ 轴上时为
@@ -558,7 +558,7 @@ $$
 
 **定义 3.2.5** (双曲线的顶点, 实轴, 虚轴)
 
-令 $y=0$ 得 $x=\pm a$, 双曲线与 $x$ 轴的交点 $A_1(-a,0)$, $A_2(a,0)$ 叫做双曲线的顶点. 线段 $A_1A_2$ 叫做实轴, 长 $2a$, $a$ 为实半轴长; 点 $B_1(0,-b)$, $B_2(0,b)$ 画在 $y$ 轴上, 线段 $B_1B_2$ 叫做虚轴, 长 $2b$, $b$ 为虚半轴长.
+令 $y=0$ 得 $x=\pm a$, 双曲线与 $x$ 轴的交点 $A_1\left(-a,0\right)$, $A_2\left(a,0\right)$ 叫做双曲线的顶点. 线段 $A_1A_2$ 叫做实轴, 长 $2a$, $a$ 为实半轴长; 点 $B_1\left(0,-b\right)$, $B_2\left(0,b\right)$ 画在 $y$ 轴上, 线段 $B_1B_2$ 叫做虚轴, 长 $2b$, $b$ 为虚半轴长.
 
 **定义 3.2.6** (双曲线的渐近线)
 
@@ -593,18 +593,18 @@ $$
 焦点在 $x$ 轴正半轴上, 焦点 $F\left(\frac{p}{2},0\right)$, 准线 $x=-\frac{p}{2}$ 的抛物线标准方程为
 
 $$
-y^2=2px\quad(p> 0).
+y^2=2px\quad\left(p> 0\right).
 $$
 
 其他三种形式为
 
 $$
-y^2=-2px,\quad x^2=2py,\quad x^2=-2py\quad(p> 0).
+y^2=-2px,\quad x^2=2py,\quad x^2=-2py\quad\left(p> 0\right).
 $$
 
 **常用结论 3.3.3** (抛物线上点到焦点与准线距离)
 
-抛物线上任意一点 $M$ 到焦点 $F$ 的距离等于它到准线的距离, 即 $|MF|=d$ ($d$ 为 $M$ 到准线距离).
+抛物线上任意一点 $M$ 到焦点 $F$ 的距离等于它到准线的距离, 即 $\left|MF\right|=d$ ($d$ 为 $M$ 到准线距离).
 
 **常用结论 3.3.4** (抛物线的范围, 对称性, 顶点)
 
@@ -612,7 +612,7 @@ $$
 
 **定义 3.3.5** (抛物线的离心率)
 
-抛物线上点 $M$ 到焦点距离与到准线距离之比 $\frac{|MF|}{d}$ 叫做抛物线的离心率, 由抛物线定义知 $e=1$.
+抛物线上点 $M$ 到焦点距离与到准线距离之比 $\frac{\left|MF\right|}{d}$ 叫做抛物线的离心率, 由抛物线定义知 $e=1$.
 
 
 ## 选择性必修第二册
@@ -631,7 +631,7 @@ $$
 
 **定义 4.1.3** (数列是特殊函数)
 
-数列 $\{a_n\}$ 是从正整数集 $\mathbb N^*$ (或它的有限子集 $\{1,2,\cdots,n\}$ ) 到实数集 $\mathbb R$ 的函数, 其自变量是序号 $n$, 对应的函数值是数列的第 $n$ 项 $a_n$, 记为 $a_n=f(n)$.
+数列 $\left\{a_n\right\}$ 是从正整数集 $\mathbb N^*$ (或它的有限子集 $\left\{1,2,\cdots,n\right\}$ ) 到实数集 $\mathbb R$ 的函数, 其自变量是序号 $n$, 对应的函数值是数列的第 $n$ 项 $a_n$, 记为 $a_n=f\left(n\right)$.
 
 **定义 4.1.4** (递增数列与递减数列)
 
@@ -639,7 +639,7 @@ $$
 
 **定义 4.1.5** (通项公式)
 
-如果数列 $\{a_n\}$ 的第 $n$ 项 $a_n$ 与它的序号 $n$ 之间的对应关系可以用一个式子来表示, 那么这个式子叫做这个数列的通项公式.
+如果数列 $\left\{a_n\right\}$ 的第 $n$ 项 $a_n$ 与它的序号 $n$ 之间的对应关系可以用一个式子来表示, 那么这个式子叫做这个数列的通项公式.
 
 **定义 4.1.6** (递推公式)
 
@@ -647,7 +647,7 @@ $$
 
 **定义 4.1.7** (前 $n$ 项和)
 
-数列 $\{a_n\}$ 从第 $1$ 项起到第 $n$ 项止的各项之和, 称为数列 $\{a_n\}$ 的前 $n$ 项和, 记作 $S_n$.
+数列 $\left\{a_n\right\}$ 从第 $1$ 项起到第 $n$ 项止的各项之和, 称为数列 $\left\{a_n\right\}$ 的前 $n$ 项和, 记作 $S_n$.
 
 **常用结论 4.1.8** ($a_n$ 与 $S_n$ 的关系)
 
@@ -665,34 +665,34 @@ $$
 
 **定理 4.2.3** (等差数列通项公式)
 
-首项为 $a_1$, 公差为 $d$ 的等差数列 $\{a_n\}$ 的通项公式为
+首项为 $a_1$, 公差为 $d$ 的等差数列 $\left\{a_n\right\}$ 的通项公式为
 
 $$
-a_n=a_1+(n-1)d.
+a_n=a_1+\left(n-1\right)d.
 $$
 
 **常用结论 4.2.4** (等差数列与一次函数)
 
-当 $d\ne 0$ 时, $a_n=dn+(a_1-d)$ 是一次函数 $f(x)=dx+(a_1-d)$ 当 $x=n$ 时的函数值.
+当 $d\ne 0$ 时, $a_n=dn+\left(a_1-d\right)$ 是一次函数 $f\left(x\right)=dx+\left(a_1-d\right)$ 当 $x=n$ 时的函数值.
 
 **定理 4.2.5** (等差数列性质)
 
-在等差数列 $\{a_n\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
 
 **定理 4.2.6** (前 $n$ 项和公式一)
 
-等差数列 $\{a_n\}$ 的前 $n$ 项和
+等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和
 
 $$
-S_n=\frac{n(a_1+a_n)}{2}.
+S_n=\frac{n\left(a_1+a_n\right)}{2}.
 $$
 
 **定理 4.2.7** (前 $n$ 项和公式二)
 
-等差数列 $\{a_n\}$ 的前 $n$ 项和
+等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和
 
 $$
-S_n=na_1+\frac{n(n-1)}{2}d.
+S_n=na_1+\frac{n\left(n-1\right)}{2}d.
 $$
 
 #### 4.3 等比数列
@@ -707,7 +707,7 @@ $$
 
 **定理 4.3.3** (等比数列通项公式)
 
-首项为 $a_1$, 公比为 $q$ 的等比数列 $\{a_n\}$ 的通项公式为
+首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为
 
 $$
 a_n=a_1 q^{n-1}.
@@ -715,7 +715,7 @@ $$
 
 **常用结论 4.3.4** (等比数列任意两项关系)
 
-在等比数列 $\{a_n\}$ 中,
+在等比数列 $\left\{a_n\right\}$ 中,
 
 $$
 a_n=a_m q^{n-m}.
@@ -726,7 +726,7 @@ $$
 当 $q\ne 1$ 时,
 
 $$
-S_n=\frac{a_1(1-q^n)}{1-q}=\frac{a_1-a_n q}{1-q};
+S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q};
 $$
 
 当 $q=1$ 时, $S_n=na_1$.
@@ -838,7 +838,7 @@ $$
 $$
 
 $$
-\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}\quad(g\left(x\right)\neq0);
+\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}\quad\left(g\left(x\right)\neq0\right);
 $$
 
 $$
@@ -914,7 +914,7 @@ $$
 
 **常用结论** (子集的个数)
 
-$n$ 元集合 $A=\{a_1,a_2,\cdots,a_n\}$ 的不同子集有 $2^n$ 个.
+$n$ 元集合 $A=\left\{a_1,a_2,\cdots,a_n\right\}$ 的不同子集有 $2^n$ 个.
 
 #### 6.2 排列与组合
 
@@ -924,22 +924,22 @@ $n$ 元集合 $A=\{a_1,a_2,\cdots,a_n\}$ 的不同子集有 $2^n$ 个.
 
 **定义 6.2.2** (排列数)
 
-从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同排列的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的排列数, 用符号 $\mathrm{P}(n,m)$ 表示.
+从 $n$ 个不同元素中取出 $m$ ($m\le n$) 个元素的所有不同排列的个数, 叫做从 $n$ 个不同元素中取出 $m$ 个元素的排列数, 用符号 $\mathrm{P}\left(n,m\right)$ 表示.
 
 **公式 6.2.3** (排列数公式)
 
 $$
-\mathrm{P}(n,m)=n(n-1)(n-2)\cdots(n-m+1),
+\mathrm{P}\left(n,m\right)=n\left(n-1\right)\left(n-2\right)\cdots\left(n-m+1\right),
 $$
 
 其中 $m,n\in\mathbb N^*$ 且 $m\le n$.
 
 **定义 6.2.4** (全排列与阶乘)
 
-把 $n$ 个不同的元素全部取出的一个排列, 叫做 $n$ 个元素的一个全排列, 其排列数 $\mathrm{P}(n,n)=n!$. 正整数 $1$ 到 $n$ 的连乘积叫做 $n$ 的阶乘, 用 $n!$ 表示. 规定 $0!=1$. 排列数公式还可写成
+把 $n$ 个不同的元素全部取出的一个排列, 叫做 $n$ 个元素的一个全排列, 其排列数 $\mathrm{P}\left(n,n\right)=n!$. 正整数 $1$ 到 $n$ 的连乘积叫做 $n$ 的阶乘, 用 $n!$ 表示. 规定 $0!=1$. 排列数公式还可写成
 
 $$
-\mathrm{P}(n,m)=\frac{n!}{(n-m)!}.
+\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}.
 $$
 
 **定义 6.2.5** (组合)
@@ -953,7 +953,7 @@ $$
 **公式 6.2.7** (组合数公式)
 
 $$
-\binom{n}{m}=\frac{\mathrm{P}(n,m)}{\mathrm{P}(m,m)}=\frac{n(n-1)\cdots(n-m+1)}{m!}=\frac{n!}{m!(n-m)!},
+\binom{n}{m}=\frac{\mathrm{P}\left(n,m\right)}{\mathrm{P}\left(m,m\right)}=\frac{n\left(n-1\right)\cdots\left(n-m+1\right)}{m!}=\frac{n!}{m!\left(n-m\right)!},
 $$
 
 其中 $m,n\in\mathbb N^*$ 且 $m\le n$. 规定 $\binom{n}{0}=1$.
@@ -971,7 +971,7 @@ $$
 对任意正整数 $n$,
 
 $$
-(a+b)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
+\left(a+b\right)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
 $$
 
 **公式 6.3.2** (二项展开式的通项)
@@ -984,12 +984,12 @@ $$
 
 其中 $\binom{n}{k}$ ($k=0,1,2,\cdots,n$) 叫做二项式系数.
 
-**公式 6.3.3** ($(1+x)^n$ 的展开式)
+**公式 6.3.3** ($\left(1+x\right)^n$ 的展开式)
 
 在二项式定理中令 $a=1$, $b=x$, 得
 
 $$
-(1+x)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n.
+\left(1+x\right)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n.
 $$
 
 **性质 6.3.4** (二项式系数的性质)
@@ -1000,7 +1000,7 @@ $$
 \binom{n}{k}=\binom{n}{n-k};
 $$
 
-(2) 增减性与最大值: 当 $k< \frac{n+1}{2}$ 时 $\binom{n}{k}$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $\binom{n}{n/2}$ 最大, $n$ 为奇数时中间两项 $\binom{n}{(n-1)/2}$ 与 $\binom{n}{(n+1)/2}$ 相等且最大; (3) 各二项式系数的和:
+(2) 增减性与最大值: 当 $k< \frac{n+1}{2}$ 时 $\binom{n}{k}$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $\binom{n}{n/2}$ 最大, $n$ 为奇数时中间两项 $\binom{n}{\left(n-1\right)/2}$ 与 $\binom{n}{\left(n+1\right)/2}$ 相等且最大; (3) 各二项式系数的和:
 
 $$
 \binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n;
@@ -1016,7 +1016,7 @@ $$
 
 **常用结论 6.3.2** (各二项式系数的和)
 
-$(a+b)^n$ 的展开式的各二项式系数的和等于 $2^n$, 即
+$\left(a+b\right)^n$ 的展开式的各二项式系数的和等于 $2^n$, 即
 
 $$
 \binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}=2^n;
@@ -1038,51 +1038,51 @@ $$
 
 **定义 7.1.1** (条件概率)
 
-一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P(A)> 0$, 我们称
+一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)> 0$, 我们称
 
 $$
-\mathbb P(B\mid A)=\frac{\mathbb P(AB)}{\mathbb P(A)}
+\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}
 $$
 
 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
 
 **结论 7.1.2** (概率的乘法公式)
 
-由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P(A)> 0$, 则
+由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)> 0$, 则
 
 $$
-\mathbb P(AB)=\mathbb P(A)\mathbb P(B\mid A).
+\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right).
 $$
 
 **结论 7.1.3** (条件概率的性质)
 
-设 $\mathbb P(A)> 0$, 则 (1) $\mathbb P(\Omega\mid A)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P(B\cup C\mid A)=\mathbb P(B\mid A)+\mathbb P(C\mid A)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P(\bar B\mid A)=1-\mathbb P(B\mid A)$.
+设 $\mathbb P\left(A\right)> 0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
 **结论 7.1.4** (事件的相互独立)
 
-当 $\mathbb P(A)> 0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P(B\mid A)=\mathbb P(B)$.
+当 $\mathbb P\left(A\right)> 0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
 **结论 7.1.5** (全概率公式)
 
-设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有
+设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有
 
 $$
-\mathbb P(B)=\sum_{i=1}^n \mathbb P(A_i)\mathbb P(B\mid A_i).
+\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right).
 $$
 
 **结论 7.1.6** (贝叶斯公式)
 
-设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P(A_i)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P(B)> 0$, 有
+设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)> 0$, 有
 
 $$
-\mathbb P(A_i\mid B)=\frac{\mathbb P(A_i)\mathbb P(B\mid A_i)}{\sum_{k=1}^n \mathbb P(A_k)\mathbb P(B\mid A_k)},\quad i=1,2,\cdots,n.
+\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)},\quad i=1,2,\cdots,n.
 $$
 
 #### 7.2 离散型随机变量及其分布列
 
 **定义 7.2.1** (随机变量)
 
-一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X(\omega)$ 与之对应, 我们称 $X$ 为随机变量. 通常用大写英文字母 $X$, $Y$, $Z$ 表示, 用小写英文字母 $x$, $y$, $z$ 表示其取值.
+一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X\left(\omega\right)$ 与之对应, 我们称 $X$ 为随机变量. 通常用大写英文字母 $X$, $Y$, $Z$ 表示, 用小写英文字母 $x$, $y$, $z$ 表示其取值.
 
 **定义 7.2.2** (离散型随机变量)
 
@@ -1093,7 +1093,7 @@ $$
 设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称
 
 $$
-\mathbb P(X=x_i)=p_i,\quad i=1,2,\cdots,n
+\mathbb P\left(X=x_i\right)=p_i,\quad i=1,2,\cdots,n
 $$
 
 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1)
@@ -1110,43 +1110,43 @@ $$
 
 **定义 7.2.4** (两点分布)
 
-对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $\mathbb P(A)=p$, 则 $\mathbb P(\bar A)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
+对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $\mathbb P\left(A\right)=p$, 则 $\mathbb P\left(\bar A\right)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
 
 #### 7.3 离散型随机变量的数字特征
 
 **定义 7.3.1** (均值)
 
-若离散型随机变量 $X$ 的分布列为 $\mathbb P(X=x_i)=p_i$, $i=1,2,\cdots,n$, 则称
+若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称
 
 $$
-\mathbb E(X)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i
+\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i
 $$
 
 为随机变量 $X$ 的均值或数学期望, 简称期望.
 
 **结论 7.3.2** (均值的性质)
 
-对常数 $a$, $b$, 有 $\mathbb E(aX+b)=a\mathbb E(X)+b$.
+对常数 $a$, $b$, 有 $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$.
 
 **定义 7.3.3** (方差与标准差)
 
 称
 
 $$
-D(X)=\sum_{i=1}^n (x_i-\mathbb E(X))^2 p_i
+D\left(X\right)=\sum_{i=1}^n \left(x_i-\mathbb E\left(X\right)\right)^2 p_i
 $$
 
-为随机变量 $X$ 的方差, 并称 $\sqrt{D(X)}$ 为随机变量 $X$ 的标准差, 记为 $\sigma(X)$.
+为随机变量 $X$ 的方差, 并称 $\sqrt{D\left(X\right)}$ 为随机变量 $X$ 的标准差, 记为 $\sigma\left(X\right)$.
 
 **结论 7.3.4** (方差的简化公式)
 
 $$
-D(X)=\sum_{i=1}^n x_i^2 p_i-(\mathbb E(X))^2.
+D\left(X\right)=\sum_{i=1}^n x_i^2 p_i-\left(\mathbb E\left(X\right)\right)^2.
 $$
 
 **结论 7.3.5** (方差的性质)
 
-对常数 $a$, $b$, 有 $D(aX+b)=a^2 D(X)$.
+对常数 $a$, $b$, 有 $D\left(aX+b\right)=a^2 D\left(X\right)$.
 
 #### 7.4 二项分布与超几何分布
 
@@ -1159,17 +1159,17 @@ $$
 在 $n$ 重伯努利试验中, 设每次试验中事件 $A$ 发生的概率为 $p$, 用 $X$ 表示事件 $A$ 发生的次数, 则
 
 $$
-\mathbb P(X=k)=\binom{n}{k} p^k (1-p)^{n-k},\quad k=0,1,\cdots,n.
+\mathbb P\left(X=k\right)=\binom{n}{k} p^k \left(1-p\right)^{n-k},\quad k=0,1,\cdots,n.
 $$
 
-称 $X$ 服从二项分布, 记作 $X\sim B(n,p)$.
+称 $X$ 服从二项分布, 记作 $X\sim B\left(n,p\right)$.
 
 **结论 7.4.3** (二项分布的均值与方差)
 
-若 $X\sim B(n,p)$, 则
+若 $X\sim B\left(n,p\right)$, 则
 
 $$
-\mathbb E(X)=np,\quad D(X)=np(1-p).
+\mathbb E\left(X\right)=np,\quad D\left(X\right)=np\left(1-p\right).
 $$
 
 **定义 7.4.4** (超几何分布)
@@ -1177,7 +1177,7 @@ $$
 设有 $N$ 件产品, 其中含有 $M$ 件次品. 从中不放回地随机抽取 $n$ 件, 用 $X$ 表示抽取出的 $n$ 件产品中次品的件数, 则
 
 $$
-\mathbb P(X=k)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}},\quad k=0,1,\cdots,\min(n,M).
+\mathbb P\left(X=k\right)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}},\quad k=0,1,\cdots,\min\left(n,M\right).
 $$
 
 称 $X$ 服从超几何分布.
@@ -1187,7 +1187,7 @@ $$
 若 $X$ 服从超几何分布, 记 $p=\frac{M}{N}$, 则
 
 $$
-\mathbb E(X)=np.
+\mathbb E\left(X\right)=np.
 $$
 
 #### 7.5 正态分布
@@ -1201,10 +1201,10 @@ $$
 正态密度函数为
 
 $$
-f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}},\quad x\in\mathbb R,
+f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}},\quad x\in\mathbb R,
 $$
 
-其中 $\mu\in\mathbb R$, $\sigma> 0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N(\mu,\sigma^2)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
+其中 $\mu\in\mathbb R$, $\sigma> 0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N\left(\mu,\sigma^2\right)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
 
 **结论 7.5.3** (正态曲线的性质)
 
@@ -1214,14 +1214,14 @@ $$
 \frac{1}{\sigma\sqrt{2\pi}};
 $$
 
-且 $\mathbb E(X)=\mu$, $D(X)=\sigma^2$.
+且 $\mathbb E\left(X\right)=\mu$, $D\left(X\right)=\sigma^2$.
 
 **结论 7.5.4** ($3\sigma$ 原则)
 
-若 $X\sim N(\mu,\sigma^2)$, 则
+若 $X\sim N\left(\mu,\sigma^2\right)$, 则
 
 $$
-\mathbb P(\mu-\sigma\le X\le\mu+\sigma)\approx 0.6827,\quad \mathbb P(\mu-2\sigma\le X\le\mu+2\sigma)\approx 0.9545,\quad \mathbb P(\mu-3\sigma\le X\le\mu+3\sigma)\approx 0.9973.
+\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827,\quad \mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)\approx 0.9545,\quad \mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)\approx 0.9973.
 $$
 
 ### 第八章 成对数据的统计分析

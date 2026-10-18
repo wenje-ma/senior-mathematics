@@ -20,7 +20,7 @@
 
 (2) Every real number has an arithmetic square root;
 
-(3) $\forall x\in\{y\mid y\text{ 是无理数}\}$, $x^3$ is irrational.
+(3) $\forall x\in\left\{y\mid y\text{ 是无理数}\right\}$, $x^3$ is irrational.
 
 ### Solution to Exercise 1
 
@@ -30,7 +30,7 @@ By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Propositi
 
 (2) Negative numbers have no arithmetic square root. For example, $-1\in\mathbb R$, but $-1$ has no arithmetic square root; a counterexample is found, so this proposition is false.
 
-(3) Taking $x=\sqrt[3]{2}$, it is irrational, but $x^3=2$ is rational; a counterexample is found, so this proposition is false. $\blacksquare$
+(3) Taking $x=\sqrt\left[3\right]{2}$, it is irrational, but $x^3=2$ is rational; a counterexample is found, so this proposition is false. $\blacksquare$
 
 ### Exercise 2
 
@@ -40,7 +40,7 @@ By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Propositi
 
 (2) There exists an integer $n$ such that $n^2+n$ is odd;
 
-(3) $\exists x\in\{y\mid y\text{ 是无理数}\}$, $x^2$ is irrational.
+(3) $\exists x\in\left\{y\mid y\text{ 是无理数}\right\}$, $x^2$ is irrational.
 
 ### Solution to Exercise 2
 

@@ -18,7 +18,7 @@ $$
 \text{身体质量指数}=\frac{\text{体重}}{\text{身高}^2},
 $$
 
-weight in $\mathrm{kg}$ and height in $\mathrm{m}$. The classification standard for adult BMI in our country is: underweight when BMI is less than $18.5$, normal when BMI lies in the interval $[18.5,24)$, overweight when BMI lies in the interval $[24,28)$, and obese when BMI is not less than $28$. Table 9.3-1 gives the BMI data of the 140 employees. As the company's statistician, please complete the following statistical analysis tasks.
+weight in $\mathrm{kg}$ and height in $\mathrm{m}$. The classification standard for adult BMI in our country is: underweight when BMI is less than $18.5$, normal when BMI lies in the interval $\left[18.5,24\right)$, overweight when BMI lies in the interval $\left[24,28\right)$, and obese when BMI is not less than $28$. Table 9.3-1 gives the BMI data of the 140 employees. As the company's statistician, please complete the following statistical analysis tasks.
 
 (1) Clarify the title and purpose of the survey, and give an operational definition of "obesity";
 
@@ -32,7 +32,7 @@ weight in $\mathrm{kg}$ and height in $\mathrm{m}$. The classification standard 
 
 By **Definition 9.1.2** (Population, Individual, Sample and Sample Size), the population of this survey is the BMI of all employees of the company, the individual is each employee's BMI, the sample is the BMI of the 140 employees drawn, and the sample size is 140.
 
-(1) The survey title is "Survey and Analysis of the Obesity Situation of a Company's Employees". The purpose is to understand the weight status of the company's employees and provide a basis for the company to organize health activities and improve employee health. The operational definition of "obesity" is: by the adult standard of our country, a BMI not less than $28$ is obesity; correspondingly, a BMI less than $18.5$ is underweight, $[18.5,24)$ is normal, and $[24,28)$ is overweight.
+(1) The survey title is "Survey and Analysis of the Obesity Situation of a Company's Employees". The purpose is to understand the weight status of the company's employees and provide a basis for the company to organize health activities and improve employee health. The operational definition of "obesity" is: by the adult standard of our country, a BMI not less than $28$ is obesity; correspondingly, a BMI less than $18.5$ is underweight, $\left[18.5,24\right)$ is normal, and $\left[24,28\right)$ is overweight.
 
 (2) By **Definition 9.1.5** (Stratified Random Sampling, Strata and Proportional Allocation), considering that male and female employees have different physical conditions and their BMIs may differ, stratify by gender, conduct simple random sampling independently within the male and female strata, and allocate the sample size in proportion to the number of male and female employees in the company. The structure of the sample drawn this way matches the gender structure of the company's employees and can better represent all employees.
 
@@ -42,7 +42,7 @@ Among the 140 employees, 90 are male and 50 are female. The male employees' mean
 
 Tallied by the BMI classification standard, the numbers in each category are: male employees—underweight 11, normal 61, overweight 11, obese 7; female employees—underweight 16, normal 24, overweight 6, obese 4; all employees—underweight 27, normal 85, overweight 17, obese 11.
 
-A frequency distribution histogram can be used to describe the distribution of all employees' BMI: most employees' BMI clusters in the normal interval $[18.5,24)$, the mean is approximately $21.6$, and the distribution is roughly symmetric but with a tail to the right, i.e. a few employees have a high BMI. Comparing males and females: the male employees' mean BMI is slightly higher than the female employees', and the combined proportion of overweight and obese male employees is also slightly higher than that of female employees.
+A frequency distribution histogram can be used to describe the distribution of all employees' BMI: most employees' BMI clusters in the normal interval $\left[18.5,24\right)$, the mean is approximately $21.6$, and the distribution is roughly symmetric but with a tail to the right, i.e. a few employees have a high BMI. Comparing males and females: the male employees' mean BMI is slightly higher than the female employees', and the combined proportion of overweight and obese male employees is also slightly higher than that of female employees.
 
 (4) Main content of the statistical analysis report.
 

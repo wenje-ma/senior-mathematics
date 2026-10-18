@@ -518,11 +518,11 @@ By **Theorem 8.6.8** (Criterion for Two Perpendicular Planes).
 
 Let the three lines concurrent at $O$ be $l_{1}$, $l_{2}$, $l_{3}$, pairwise perpendicular, i.e. $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$, $l_{3}\perp l_{1}$.
 
-$l_{1}\perp l_{2}$ and $l_{1}\perp l_{3}$, with $l_{2}\cap l_{3}=O$; by **Theorem 8.6.4** (Criterion for a Line Being Perpendicular to a Plane), $l_{1}\perp$ plane $(l_{2},l_{3})$.
+$l_{1}\perp l_{2}$ and $l_{1}\perp l_{3}$, with $l_{2}\cap l_{3}=O$; by **Theorem 8.6.4** (Criterion for a Line Being Perpendicular to a Plane), $l_{1}\perp$ plane $\left(l_{2},l_{3}\right)$.
 
-The plane $(l_{1},l_{2})$ passes through $l_{1}$, while $l_{1}\perp$ plane $(l_{2},l_{3})$, so plane $(l_{1},l_{2})\perp$ plane $(l_{2},l_{3})$.
+The plane $\left(l_{1},l_{2}\right)$ passes through $l_{1}$, while $l_{1}\perp$ plane $\left(l_{2},l_{3}\right)$, so plane $\left(l_{1},l_{2}\right)\perp$ plane $\left(l_{2},l_{3}\right)$.
 
-Similarly one proves plane $(l_{2},l_{3})\perp$ plane $(l_{3},l_{1})$ and plane $(l_{3},l_{1})\perp$ plane $(l_{1},l_{2})$. Hence the three planes are pairwise perpendicular. $\blacksquare$
+Similarly one proves plane $\left(l_{2},l_{3}\right)\perp$ plane $\left(l_{3},l_{1}\right)$ and plane $\left(l_{3},l_{1}\right)\perp$ plane $\left(l_{1},l_{2}\right)$. Hence the three planes are pairwise perpendicular. $\blacksquare$
 
 ### Problem 9
 
@@ -576,7 +576,7 @@ Hence $A_{1}P\perp BQ$. $\blacksquare$
 
 By **Theorem 8.6.5** (Property of a Line Perpendicular to a Plane).
 
-Since $l_{1}\perp m$, $l_{1}\perp n$, $m\cap n=O$, we have $l_{1}\perp$ plane $(m,n)$. Similarly, $l_{2}\perp$ plane $(m,n)$.
+Since $l_{1}\perp m$, $l_{1}\perp n$, $m\cap n=O$, we have $l_{1}\perp$ plane $\left(m,n\right)$. Similarly, $l_{2}\perp$ plane $\left(m,n\right)$.
 
 By **Theorem 8.6.5** (Property of a Line Perpendicular to a Plane), $l_{1}\parallel l_{2}$.
 
