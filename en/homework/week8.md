@@ -76,7 +76,7 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the e
 
 (Exercise 2.3, Problem 4) As shown in the figure, flowers are planted around the perimeter of a rectangular ground of length $8\ \mathrm m$ and width $6\ \mathrm m$, and lawn is planted in the middle. If the flower border is required to have uniform width and the area of the lawn is not more than half of the total area, what should be the width of the flower border in meters?
 
-![week8-1.svg](../../figures/week8-1.svg){width=50%}
+(Figure: a large rectangle (length $8\,\mathrm m$, width $6\,\mathrm m$) representing the ground, with a uniform flower border around the perimeter and a smaller central rectangle representing the lawn.)
 
 ### Solution to Exercise 4
 
@@ -212,7 +212,7 @@ Combining $A$ and $B$: $B$ already contains $x<1$ and $x>3$, and $A$ supplements
 
 (Exercise 2.3, Extension and Exploration, Problem 6) As shown in the figure, according to the forecast of the meteorological department, the center of a tropical storm is at a position $600\ \mathrm{km}$ from a certain harbor in the direction $45^\circ$ south of east, moving due north at a speed of $20\ \mathrm{km/h}$; regions within $450\ \mathrm{km}$ of the storm center will be affected. Based on the above forecast, estimate how long from now the harbor will be affected by the tropical storm, and approximately how long the impact will last (accurate to $0.1\ \mathrm h$)?
 
-![week8-2.svg](../../figures/week8-2.svg){width=50%}
+(Figure: a bearing diagram with the harbor at the origin and a direction marker (north up, south down, west left, east right); the storm center is located $600\,\mathrm{km}$ from the harbor in the $45^\circ$ south-of-east direction, with an arrow pointing due north from the storm center, and a dashed circle of radius $450\,\mathrm{km}$ around the storm center indicating the affected area.)
 
 ### Solution to Problem 6
 

@@ -96,7 +96,7 @@ $\boldsymbol{U\setminus A}=\left\{1,3,6,7\right\}$ 与 $\boldsymbol{U\setminus B
 
 (2) $\left(\boldsymbol{U\setminus A}\right)\cup\left(\boldsymbol{U\setminus B}\right)$.
 
-![week3-1.svg](../../figures/week3-1.svg){width=100%}
+(题图: 一个矩形表示全集 $U$, 矩形内有两个相交的圆 $A$ 与 $B$, 两圆部分重叠, 供涂阴影用.)
 
 ### 解答 练习七
 

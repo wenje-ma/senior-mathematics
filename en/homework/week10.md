@@ -20,7 +20,7 @@
 
 (Exercise 3.2, Problem 1) Based on the following figure, describe the relation between the production efficiency of an assembly line and the number of workers on the line.
 
-![week10-1.svg](../../figures/week10-1.svg){width=50%}
+(Figure: a coordinate system with number of workers on the horizontal axis and production efficiency on the vertical axis; a single-peaked curve first rises to a peak then falls, forming an inverted U shape.)
 
 ### Solution to Exercise 1
 
@@ -68,7 +68,7 @@ From $x_1<x_2<0$, we get $x_1-x_2<0$ and $x_1x_2>0$, and since $2>0$, we have $\
 
 (2) What is its monotonicity on the domain $D$? Prove your conclusion.
 
-![week10-2.svg](../../figures/week10-2.svg){width=50%}
+(Figure: a coordinate system showing the hyperbola $y=k/x$, with two branches in quadrants I and III, asymptotic to both axes.)
 
 ### Solution to Exercise 4
 
@@ -82,7 +82,7 @@ By **Definition 3.1.2** (Domain and Range) and **Definition 3.2.1** (Monotone In
 
 (Exercise 3.2, Problem 5) Throughout the morning ($8{:}00\sim12{:}00$) the weather became warmer and warmer, and at noon ($12{:}00\sim13{:}00$) a storm suddenly made the weather much cooler. After the storm, the weather warmed up again, and it did not start to cool down again until sunset ($18{:}00$). Draw a possible graph (schematic) of the temperature as a function of time during $8{:}00\sim20{:}00$ on this day, and state the monotonic intervals of the drawn function.
 
-![week10-3.svg](../../figures/week10-3.svg){width=50%}
+(Figure: a temperature-time coordinate system, horizontal axis from $8{:}00$ to $20{:}00$, vertical axis for temperature; the curve first rises, drops sharply around $12{:}00$, then rises again until $18{:}00$, and finally falls.)
 
 ### Solution to Exercise 5
 
@@ -94,7 +94,7 @@ From $8{:}00\sim12{:}00$ the temperature rises, monotonically increasing; from $
 
 (Exercise 3.2, Problem 6) Let the domain of the function $f\left(x\right)$ be $\left[-6,11\right]$. If $f\left(x\right)$ is monotonically decreasing on the interval $\left[-6,-2\right]$ and monotonically increasing on the interval $\left[-2,11\right]$, draw a rough graph of $f\left(x\right)$. From the graph one can find that $f\left(-2\right)$ is a $\;\_\_\;$ of the function $f\left(x\right)$.
 
-![week10-4.svg](../../figures/week10-4.svg){width=50%}
+(Figure: a curve in the coordinate system with its lowest point at $x=-2$, decreasing on the left and increasing on the right, forming an upward-opening V or parabola shape.)
 
 ### Solution to Exercise 6
 
@@ -116,7 +116,7 @@ By Exercise 4, $f\left(x\right)=\frac{1}{x}$ is monotonically decreasing on $\le
 
 (Exercise 3.2, Problem 8) Given that $f\left(x\right)$ is an even function and $g\left(x\right)$ is an odd function, please complete the following figure.
 
-![week10-5.svg](../../figures/week10-5.svg){width=100%}
+(Figure: two coordinate systems side by side, each showing only the right half of a curve with the left half to be completed; the left one labeled $f(x)$ to be symmetric about the $y$-axis, the right one labeled $g(x)$ to be symmetric about the origin.)
 
 ### Solution to Exercise 8
 
@@ -164,7 +164,7 @@ Sufficiency: If the graph is symmetric about the origin, then the mirror image $
 
 (Exercise 3.2, Review and Consolidation, Problem 1) Based on the following figure, state the monotonic intervals of the function and the monotonicity on each monotonic interval.
 
-![week10-6.svg](../../figures/week10-6.svg){width=50%}
+(Figure: a continuous curve in the coordinate system passing through transition points at $x=-1,0,2,3,5$, alternating between rising and falling.)
 
 ### Solution to Problem 1
 
@@ -180,7 +180,7 @@ From left to right, the graph first falls, then rises, then falls, then rises. T
 
 (2) $y=9-x^2$.
 
-![week10-7.svg](../../figures/week10-7.svg){width=100%}
+(Figure: two coordinate systems side by side, the left showing the upward-opening parabola $y=x^2-5x-6$ with vertex $(5/2,-49/4)$, the right showing the downward-opening parabola $y=9-x^2$ with vertex $(0,9)$.)
 
 ### Solution to Problem 2
 
@@ -244,7 +244,7 @@ By **Definition 3.2.5** (Even Function) and **Definition 3.2.6** (Odd Function).
 
 (Exercise 3.2, Comprehensive Application, Problem 6) After a patient with tachycardia takes a certain drug, the heart rate immediately drops significantly, and then as the drug effect wears off, the heart rate slowly rises again. Draw a possible graph (schematic) of the heart rate as a function of time from the moment the drug is taken.
 
-![week10-8.svg](../../figures/week10-8.svg){width=50%}
+(Figure: a heart-rate-time coordinate system, the curve starting at a high value on the vertical axis, dropping rapidly to a trough, then slowly rising and approaching a horizontal asymptote.)
 
 ### Solution to Problem 6
 
@@ -318,7 +318,7 @@ Sufficiency: If $\frac{\Delta y}{\Delta x}<0$, then $\Delta y$ and $\Delta x$ ha
 
 (Exercise 3.2, Comprehensive Application, Problem 10) As shown in the figure, a zoo wants to build two adjacent rectangular panda enclosures of equal area against a wall. If the total length of materials available for building the walls is $30\ \text{m}$, then for what width $x$ (unit: $\text{m}$) is the area of each panda enclosure maximized? What is the maximum area of each panda enclosure?
 
-![week10-9.svg](../../figures/week10-9.svg){width=50%}
+(Figure: a horizontal wall at the top, with two identical rectangular enclosures side by side below it; the width (perpendicular to the wall) is labeled $x$, a shared vertical wall separates the two enclosures, and the bottom and sides have walls.)
 
 ### Solution to Problem 10
 
@@ -332,7 +332,7 @@ When $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$, $S$ attains its maximum $S_{\m
 
 (Exercise 3.2, Comprehensive Application, Problem 11) Given that the function $f\left(x\right)$ is an odd function with domain $\mathbb R$, and when $x\ge0$, $f\left(x\right)=x\left(1+x\right)$. Draw the graph of the function $f\left(x\right)$ and find its analytic expression.
 
-![week10-10.svg](../../figures/week10-10.svg){width=50%}
+(Figure: in the coordinate system, the $x\ge0$ part is the right half of an upward-opening parabola, and the $x<0$ part is its central-symmetric counterpart about the origin.)
 
 ### Solution to Problem 11
 

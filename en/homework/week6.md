@@ -30,7 +30,7 @@
 
 (3) as shown in the figure, a warehouse is built at the center of a rectangular site with area less than $350\ \mathrm m^2$, and green space is built around the warehouse. The length $L$ (unit: $\mathrm m$) of the warehouse is greater than $4$ times its width $W$ (unit: $\mathrm m$).
 
-![week6-1.svg](../../figures/week6-1.svg){width=50%}
+(Figure: a large rectangle representing the site, with a small rectangle in the center representing the warehouse; a uniform strip of green space surrounds the warehouse; the small rectangle is labeled length $L$ horizontally and width $W$ vertically, and the green strip is labeled $5\,\mathrm m$ wide.)
 
 ### Solution to Exercise 1
 

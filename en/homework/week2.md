@@ -130,7 +130,7 @@ An equilateral triangle is a special isosceles triangle, so every equilateral tr
 
 $A=\left\{x\mid x\text{ 是四边形}\right\}$, $B=\left\{x\mid x\text{ 是平行四边形}\right\}$, $C=\left\{x\mid x\text{ 是矩形}\right\}$, $D=\left\{x\mid x\text{ 是正方形}\right\}$.
 
-![week2-1.svg](../../figures/week2-1.svg){width=50%}
+(Figure: a Venn diagram with four nested ellipses, from outside inward labeled $A$ (quadrilaterals), $B$ (parallelograms), $C$ (rectangles), and $D$ (squares), showing strict containment.)
 
 ### Solution to Problem 2
 

@@ -130,7 +130,7 @@ $\left\{1,-1\right\}$ 与 $A$ 元素完全相同, 故 $\left\{1,-1\right\}=A$.
 
 $A=\left\{x\mid x\text{ 是四边形}\right\}$, $B=\left\{x\mid x\text{ 是平行四边形}\right\}$, $C=\left\{x\mid x\text{ 是矩形}\right\}$, $D=\left\{x\mid x\text{ 是正方形}\right\}$.
 
-![week2-1.svg](../../figures/week2-1.svg){width=50%}
+(题图: 韦恩图, 四个同心椭圆由外向内依次标为 $A$ (四边形), $B$ (平行四边形), $C$ (矩形), $D$ (正方形), 表示逐层真包含.)
 
 ### 解答 习题二
 

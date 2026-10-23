@@ -60,7 +60,7 @@ In summary, in proposition (1), $q$ is a necessary condition for $p$. $\blacksqu
 
 (Exercise 1.4, Problem 3) As shown in the figure, the lines $a$ and $b$ are cut by the line $l$, obtaining $\angle 1$, $\angle 2$, $\angle 3$ and $\angle 4$. Based on this information, write several sufficient conditions and necessary conditions for "$a\parallel b$".
 
-![week4-1.svg](../../figures/week4-1.svg){width=50%}
+(Figure: two horizontal lines $a$ and $b$, cut by a slanting transversal $l$ intersecting $a$ at an upper point and $b$ at a lower point; at the $a$-intersection, the angle below-right of the transversal is labeled $\angle 1$, and its adjacent supplementary angle above-left is labeled $\angle 2$; at the $b$-intersection, the corresponding angle below-right is labeled $\angle 3$, and the vertical angle corresponding to $\angle 2$ is labeled $\angle 4$.)
 
 ### Solution to Exercise 3
 
@@ -126,7 +126,7 @@ Several necessary and sufficient conditions for two triangles to be similar are:
 
 (Exercise 1.4, Problem 3) Prove: as shown in the figure, $AC=BD$ is a necessary and sufficient condition for the trapezoid $ABCD$ to be an isosceles trapezoid.
 
-![week4-2.svg](../../figures/week4-2.svg){width=50%}
+(Figure: a trapezoid $ABCD$ with shorter upper base $AB$ and longer lower base $CD$, $AB\parallel CD$, the legs $AD$ and $BC$ connecting $A$ to $D$ and $B$ to $C$, and the two diagonals $AC$ and $BD$ drawn.)
 
 ### Solution to Exercise 6
 

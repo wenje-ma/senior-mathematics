@@ -40,7 +40,7 @@ The correspondence $f$ maps each moment $t$ in the domain $\left[0,26\right]$ to
 
 (2) according to the graph, find the temperature corresponding to $12$ o'clock on this day.
 
-![week9-1.svg](../../figures/week9-1.svg){width=50%}
+(Figure: a coordinate system with time on the horizontal axis (from 8:00 to next day 8:00) and temperature ($^\circ\mathrm C$) on the vertical axis; a continuous smooth curve starts at about $6^\circ\mathrm C$ at 8:00, dips then rises to a peak of about $15^\circ\mathrm C$ in the afternoon, then slowly falls to a low of about $3^\circ\mathrm C$ before rising again.)
 
 ### Solution to Exercise 2
 
@@ -58,7 +58,7 @@ $A=\left\{1,2,3,4,5\right\}$, $B=\left\{1,2,3,4,5\right\}$, and the corresponden
 
 Is $f:A\to B$ a function from the set $A$ to the set $B$? If so, what are its domain, range, and correspondence?
 
-![week9-2.svg](../../figures/week9-2.svg){width=50%}
+(Figure: two Venn ellipses side by side; the left ellipse $A$ lists $1,2,3,4,5$ top to bottom, the right ellipse $B$ lists $1,2,3,4,5$ top to bottom; arrows map each element of $A$ to its image in $B$: $1\to2$, $2\to1$, $3\to4$, $4\to3$, $5\to5$.)
 
 ### Solution to Exercise 3
 
@@ -128,7 +128,7 @@ By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), t
 
 (Exercise 3.1, Problem 8) As shown in the figure, a cylindrical log with cross-section radius $25\ \text{cm}$ is sawed into lumber with a rectangular cross-section. If one side of the rectangle has length $x$ (unit: $\text{cm}$) and the area is $y$ (unit: $\text{cm}^2$), express $y$ as a function of $x$.
 
-![week9-3.svg](../../figures/week9-3.svg){width=50%}
+(Figure: a circle representing the log cross-section, with an inscribed rectangle whose horizontal side is labeled $x$; the rectangle's diagonal equals the circle's diameter; center labeled $O$ and radius labeled $25\,\mathrm{cm}$.)
 
 ### Solution to Exercise 8
 
@@ -140,7 +140,7 @@ Let the other side of the rectangle have length $z$. By the Pythagorean theorem,
 
 (Exercise 3.1, Problem 9) Draw the graph of the function $y=\left|x-2\right|$.
 
-![week9-4.svg](../../figures/week9-4.svg){width=50%}
+(Figure: in a coordinate system, a V-shaped broken line with vertex at $(2,0)$ opening upward; the left branch is the ray $y=-x+2$ ($x<2$) and the right branch is the ray $y=x-2$ ($x\ge2$).)
 
 ### Solution to Exercise 9
 
@@ -160,7 +160,7 @@ The graph is a $V$-shaped broken line with vertex at $\left(2,0\right)$ opening 
 
 (2) for $\forall x\in\mathbb R$, let $m\left(x\right)$ denote the smaller of $f\left(x\right)$ and $g\left(x\right)$, denoted by $m\left(x\right)=\min\left\{f\left(x\right),g\left(x\right)\right\}$; represent the function $m\left(x\right)$ by the graphical method and the analytic method respectively.
 
-![week9-5.svg](../../figures/week9-5.svg){width=50%}
+(Figure: in one coordinate system, the line $f(x)=-x+1$ (through $(0,1)$ and $(1,0)$) and the parabola $g(x)=(x-1)^2$ (vertex $(1,0)$, opening upward); the two curves intersect at $(0,1)$ and $(1,0)$.)
 
 ### Solution to Exercise 10
 
@@ -188,7 +188,7 @@ Graphical method: take the lower of the graphs of $f\left(x\right)$ and $g\left(
 
 (3) After setting out from home, I felt relaxed and gradually accelerated all the way.
 
-![week9-6.svg](../../figures/week9-6.svg){width=100%}
+(Figure: four distance-time coordinate graphs, time on the horizontal axis and distance from home on the vertical axis, labeled $A,B,C,D$ left to right: $A$ is a rising broken line with a horizontal segment in the middle; $B$ is a concave-up rising curve (slope increasing); $C$ is a concave-down rising curve (slope decreasing); $D$ is a broken line that rises, falls back to zero, then rises again.)
 
 ### Solution to Exercise 11
 
@@ -212,7 +212,7 @@ The remaining graph (C) has the distance increasing over time with the slope gra
 
 If the total mileage of a certain route is $20\ \text{km}$, according to the problem, write the analytic expression of the function between the fare and the mileage, and draw the graph of the function.
 
-![week9-7.svg](../../figures/week9-7.svg){width=50%}
+(Figure: a fare-mileage coordinate system with mileage $x$ (km) on the horizontal axis and fare $y$ (yuan) on the vertical axis; four horizontal segments: $y=2$ on $(0,5]$, $y=3$ on $(5,10]$, $y=4$ on $(10,15]$, $y=5$ on $(15,20]$, each with a solid dot at the left endpoint and an open dot at the right endpoint.)
 
 ### Solution to Exercise 12
 
@@ -284,7 +284,7 @@ By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), t
 
 (4) $y=x^2-6x+7$.
 
-![week9-8.svg](../../figures/week9-8.svg){width=100%}
+(Figure: four coordinate systems side by side, showing in order: (1) a line through the origin with slope $3$; (2) a hyperbola $y=8/x$ in quadrants I and III; (3) a line with slope $-4$ and intercept $5$; (4) a parabola with vertex $(3,-2)$ opening upward.)
 
 ### Solution to Problem 3
 
@@ -362,7 +362,7 @@ From $f\left(1\right)=1+b+c=0$ and $f\left(3\right)=9+3b+c=0$, subtracting the t
 
 (2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
 
-![week9-9.svg](../../figures/week9-9.svg){width=100%}
+(Figure: the left graph shows the piecewise function $f(x)=0$ for $x\le0$ and $f(x)=1$ for $x>0$, i.e. a ray on the $x$-axis for $x\le0$ and a ray on the line $y=1$ for $x>0$; the right graph shows three isolated points $(1,4)$, $(2,7)$, $(3,10)$.)
 
 ### Solution to Problem 7
 
@@ -376,7 +376,7 @@ By **Definition 3.1.5** (Piecewise Function) and **Definition 3.1.6** (Ways of R
 
 (Exercise 3.1, Comprehensive Application, Problem 8) As shown in the figure, the area of a rectangle is $10$. If the length of the rectangle is $x$, the width is $y$, the diagonal is $d$, and the perimeter is $l$, what functions about these quantities can you obtain?
 
-![week9-10.svg](../../figures/week9-10.svg){width=50%}
+(Figure: a rectangle with horizontal side labeled length $x$, vertical side labeled width $y$, one diagonal labeled $d$, and perimeter labeled $l$.)
 
 ### Solution to Problem 8
 
@@ -420,7 +420,7 @@ For each $x\in\left\{1,2,3,4,5,6\right\}$, there is a unique determined $y$ corr
 
 (2) For what values of $r$ is there only a unique value of $p$ corresponding to it?
 
-![week9-11.svg](../../figures/week9-11.svg){width=50%}
+(Figure: a $p$-$r$ coordinate system; the left segment $p\in[-5,0]$ shows a curve rising from $(-5,2)$ to $(0,5)$; the right segment $p\in[2,6)$ shows a curve rising from $(2,0)$ and gradually approaching a horizontal dashed line $m$.)
 
 ### Solution to Problem 11
 
@@ -438,7 +438,7 @@ By **Definition 3.1.2** (Domain and Range), read the ranges of the independent v
 
 (2) If the coordinates of a point $P\left(x,y\right)$ in the rectangular coordinate system satisfy $-3\le x\le8$, $-1\le y\le2$, which of these points cannot be on the graph?
 
-![week9-12.svg](../../figures/week9-12.svg){width=50%}
+(Figure: a sample function graph in the coordinate system: a horizontal segment $y=1$ for $-3\le x<5$, and a horizontal segment $y=-1$ for $5<x\le8$, disconnected at $x=5$.)
 
 ### Solution to Problem 12
 
@@ -454,7 +454,7 @@ One can construct a function: when $-3\le x<5$ take $y=1$, and when $5<x\le8$ ta
 
 (Exercise 3.1, Extension and Exploration, Problem 13) The function value of the function $f\left(x\right)=\left[x\right]$ denotes the greatest integer not exceeding $x$, for example $\left[-3.5\right]=-4$, $\left[2.1\right]=2$. When $x\in\left(-2.5,3\right]$, write the analytic expression of the function $f\left(x\right)$ and draw its graph.
 
-![week9-13.svg](../../figures/week9-13.svg){width=50%}
+(Figure: a step graph of the floor function, with the horizontal axis from $-2.5$ to $3$ and the vertical axis showing integers; each horizontal segment is left-closed right-open, with $y=-3,-2,-1,0,1,2,3$ in order, jumping vertically to the next level at the right endpoint.)
 
 ### Solution to Problem 13
 
@@ -486,7 +486,7 @@ Take free-fall motion: an object falls freely from rest, and the relation betwee
 
 (2) If the boat is docked at a point $4\ \text{km}$ from point $P$, how long does it take from the island to the town (accurate to $0.1\ \text{h}$)?
 
-![week9-14.svg](../../figures/week9-14.svg){width=50%}
+(Figure: a horizontal line representing the coastline; point $P$ is on the coastline, the island is $2\,\mathrm{km}$ due north of $P$, and the town is $12\,\mathrm{km}$ due east of $P$ on the coastline; a slanted line runs from the island to a docking point on the coastline at distance $x$ from $P$, then continues along the shore to the town.)
 
 ### Solution to Problem 15
 

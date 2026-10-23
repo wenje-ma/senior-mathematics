@@ -96,7 +96,7 @@ Similarly, $\boldsymbol{S\setminus A}$ is the part remaining after removing para
 
 (2) $\left(\boldsymbol{U\setminus A}\right)\cup\left(\boldsymbol{U\setminus B}\right)$.
 
-![week3-1.svg](../../figures/week3-1.svg){width=100%}
+(Figure: a rectangle representing the universal set $U$, containing two overlapping circles $A$ and $B$, with partial overlap between them, to be shaded.)
 
 ### Solution to Exercise 7
 
