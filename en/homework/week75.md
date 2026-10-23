@@ -248,7 +248,7 @@ Near $t=t_{4}$, the curve is rising, and the tangent slope $h'\left(t_{4}\right)
 
 (D) $f'\left(1\right)>f'\left(2\right)>0>f'\left(3\right)$
 
-![week75-1.svg](../../figures/week75-1.svg){width=50%}
+The figure is the graph of $y=f\left(x\right)$: a curve rising from lower left to upper right but flattening out (concave down), with tangent lines drawn at $x=1,2,3$; all three tangents have positive slopes that decrease successively.
 
 ### Solution to Exercise 11
 
@@ -280,7 +280,7 @@ Hence the tangent line passes through the point $\left(1,-1\right)$ with slope $
 
 (Exercise 5.1, Problem 13) When blowing up a balloon, the functional relation between the radius $r$ (in $\mathrm{dm}$) and the volume $V$ (in $\mathrm{L}$) is $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. Using an information technology tool, draw the graph of the function for $0\le V\le5$, and from the graph estimate the instantaneous inflation rate of the balloon at $V=0.6,1.2\ \mathrm{L}$.
 
-![week75-2.svg](../../figures/week75-2.svg){width=50%}
+The figure is the graph of $r\left(V\right)=\sqrt[3]{\frac{3V}{4\pi}}$ on $0\le V\le5$: horizontal axis the volume $V$ (in $\mathrm{L}$), vertical axis the balloon radius $r$ (in $\mathrm{dm}$); the curve starts at the origin and increases monotonically but flattens out (concave down), with tangent lines drawn at $V=0.6$ and $V=1.2$.
 
 ### Solution to Exercise 13
 
@@ -390,7 +390,7 @@ Hence the instantaneous angular velocity at the $3.2\ \mathrm{s}$ after the whee
 
 (Exercise 5.1, Review and Consolidation, Problem 5) Xiaoming rides a bike to school. At first he rides at a constant speed; midway he stops for a while due to a traffic jam; afterward he speeds up to make up time. Which graph best matches the above events? ( )
 
-![week75-3.svg](../../figures/week75-3.svg){width=100%}
+The figure shows four candidate graphs (A, B, C, D), all with time as the horizontal axis and distance-to-school as the vertical axis: choose the one matching "ride uniformly toward school, stop during a traffic jam, then speed up toward school" — a falling line segment, followed by a horizontal segment, followed by a falling line that gets steeper (i.e., graph C).
 
 ### Solution to Problem 5
 
@@ -404,7 +404,7 @@ The graph matching these features is Figure (C). $\blacksquare$
 
 (Exercise 5.1, Review and Consolidation, Problem 6) As shown in the figure, describe the behavior of the function $f\left(x\right)$ near $x=-5,-4,-2,0,1$.
 
-![week75-4.svg](../../figures/week75-4.svg){width=50%}
+The figure is the graph of $y=f\left(x\right)$: a continuous curve rising steeply near $x=-5$, flattening near $x=-4$, reaching a local maximum (nearly horizontal) near $x=-2$, then falling near $x=0$ and falling more steeply near $x=1$.
 
 ### Solution to Problem 6
 
@@ -470,7 +470,7 @@ Hence the kinetic energy of the object at the $5\ \mathrm{s}$ after it starts mo
 
 (3) A car keeps decelerating on a straight road.
 
-![week75-5.svg](../../figures/week75-5.svg){width=100%}
+The figure shows three schematic graphs of distance traveled against time $t$ (horizontal axis $t$, vertical axis distance): (1) a rising straight line from the origin (uniform speed); (2) a rising convex-up curve getting steeper (continuously accelerating); (3) a rising concave-down curve flattening out (continuously decelerating).
 
 ### Solution to Problem 9
 
@@ -486,7 +486,7 @@ By **Definition 5.1.3** (Geometric Meaning of the Derivative), in a graph of dis
 
 (Exercise 5.1, Comprehensive Application, Problem 10) As shown in the figure, given the graph of the function $f\left(x\right)$, sketch the approximate shape of the graph of its derived function $f'\left(x\right)$.
 
-![week75-6.svg](../../figures/week75-6.svg){width=100%}
+The figure shows three graphs of the original function $y=f\left(x\right)$: (1) a rising straight line; (2) a falling straight line; (3) an upward-opening parabola (falling on the left, rising on the right). From these one is to sketch the corresponding derivative $f'\left(x\right)$.
 
 ### Solution to Problem 10
 
@@ -542,7 +542,7 @@ Hence $v\left(t\right)=-9.8t+2.8$, $v'\left(t\right)=-9.8$, and $v'$ represents 
 
 (3) $f\left(10\right)=20$, $f'\left(10\right)=0$.
 
-![week75-7.svg](../../figures/week75-7.svg){width=100%}
+The figure shows the local shape of $y=f\left(x\right)$ near three points: (1) through $\left(1,-5\right)$ with tangent slope $-1$ (falling); (2) through $\left(5,10\right)$ with tangent slope $15$ (rising steeply); (3) through $\left(10,20\right)$ with tangent slope $0$ (horizontal and flat).
 
 ### Solution to Problem 12
 

@@ -32,7 +32,7 @@
 
 (练习 6.2 第 1 题) 如图, 在下列各小题中, 已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 分别用两种方法求作向量 $\boldsymbol{a}+\boldsymbol{b}$.
 
-![week32-1.svg](../../figures/week32-1.svg){width=100%}
+图：共给出几组已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$（方向、夹角各不相同），要求分别用三角形法则（将 $\boldsymbol{b}$ 的起点移到 $\boldsymbol{a}$ 的终点）和平行四边形法则（两向量起点重合作平行四边形）作出和向量 $\boldsymbol{a}+\boldsymbol{b}$。
 
 ### 解答 练习一
 
@@ -58,7 +58,7 @@
 
 (4) $\boldsymbol{c}+\boldsymbol{d}+\boldsymbol{e}=\;\_\_\;$.
 
-![week32-2.svg](../../figures/week32-2.svg){width=50%}
+图：若干个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$, $\boldsymbol{e}$ 首尾相接画在同一张图上，各向量依次相接，要求根据首尾相接关系填空求若干向量之和。
 
 ### 解答 练习三
 
@@ -74,7 +74,7 @@
 
 (3) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CP}=\boldsymbol{PA}$.
 
-![week32-3.svg](../../figures/week32-3.svg){width=50%}
+图：平行四边形 $ABCD$，点 $P$ 在边 $CD$ 上，标出有向线段 $\boldsymbol{DA}$, $\boldsymbol{DP}$, $\boldsymbol{AB}$, $\boldsymbol{BP}$, $\boldsymbol{BC}$, $\boldsymbol{CP}$ 等，用于判断各向量和等式是否成立。
 
 ### 解答 练习四
 
@@ -134,7 +134,7 @@ $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{
 
 (练习 6.2 第 8 题) 作图验证: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
 
-![week32-4.svg](../../figures/week32-4.svg){width=50%}
+图：先以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 及其和 $\boldsymbol{a}+\boldsymbol{b}$，再画出相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$；另画 $-\boldsymbol{a}$ 与 $-\boldsymbol{b}$ 并用三角形法则相加，两作图结果重合，验证 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$。
 
 ### 解答 练习八
 
@@ -394,7 +394,7 @@ $\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\c
 
 (2) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{b}$.
 
-![week32-5.svg](../../figures/week32-5.svg){width=100%}
+图：以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$，先作 $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$ 与 $\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$ 再相加得 $\boldsymbol{a}$；另一组作图将二者相减得 $\boldsymbol{b}$，验证两个恒等式。
 
 ### 解答 习题五
 
@@ -464,7 +464,7 @@ $\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\c
 
 (习题 6.2 复习巩固第 9 题) 如图, $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$, $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$. 求证 $\boldsymbol{MN}=\frac{1}{3}\boldsymbol{BC}$.
 
-![week32-6.svg](../../figures/week32-6.svg){width=50%}
+图：三角形 $ABC$，点 $M$ 在边 $AB$ 上且 $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$，点 $N$ 在边 $AC$ 上且 $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$，连接 $MN$，线段 $MN$ 与 $BC$ 平行且 $MN=\frac{1}{3}BC$。
 
 ### 解答 习题九
 
@@ -570,7 +570,7 @@ $\boldsymbol{AN}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$. $\black
 
 (习题 6.2 综合运用第 15 题) 如图, 在任意四边形 $ABCD$ 中, $E$, $F$ 分别为 $AD$, $BC$ 的中点, 求证: $\boldsymbol{AB}+\boldsymbol{DC}=2\boldsymbol{EF}$.
 
-![week32-7.svg](../../figures/week32-7.svg){width=50%}
+图：任意四边形 $ABCD$，$E$ 为边 $AD$ 的中点，$F$ 为边 $BC$ 的中点，连接 $EF$。
 
 ### 解答 习题十五
 
@@ -586,7 +586,7 @@ $E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $
 
 (习题 6.2 综合运用第 16 题) 飞机从甲地沿北偏西 $15^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达乙地, 再从乙地沿南偏东 $75^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达丙地. 画出飞机飞行的位移示意图, 并说明丙地在甲地的什么方向? 丙地距甲地多远?
 
-![week32-8.svg](../../figures/week32-8.svg){width=50%}
+图：位移示意图，以甲地 $A$ 为起点，第一位移 $\boldsymbol{AB}$ 沿北偏西 $15^\circ$ 方向长 $1400\text{ km}$ 到乙地 $B$，第二位移 $\boldsymbol{BC}$ 沿南偏东 $75^\circ$ 方向长 $1400\text{ km}$ 到丙地 $C$，连接 $AC$。
 
 ### 解答 习题十六
 
@@ -604,7 +604,7 @@ $E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $
 
 (3) 如图 (3), 在 $n$ 边形 $A_1A_2A_3\cdots A_n$ 中, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? 证明你的结论.
 
-![week32-9.svg](../../figures/week32-9.svg){width=100%}
+图：共三幅。图 (1)：三角形 $ABC$，标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CA}$；图 (2)：四边形 $ABCD$，标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CD}$, $\boldsymbol{DA}$；图 (3)：$n$ 边形 $A_1A_2\cdots A_n$，标出首尾相接的有向边 $\boldsymbol{A_1A_2},\boldsymbol{A_2A_3},\ldots,\boldsymbol{A_nA_1}$。
 
 ### 解答 习题十七
 
@@ -670,7 +670,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 (习题 6.2 拓广探索第 22 题) 如图, $O$ 是平行四边形 $ABCD$ 外一点, 用 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 表示 $\boldsymbol{OD}$.
 
-![week32-10.svg](../../figures/week32-10.svg){width=50%}
+图：平行四边形 $ABCD$，点 $O$ 在平行四边形外部，从 $O$ 向各顶点 $A$, $B$, $C$, $D$ 分别连有向线段 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, $\boldsymbol{OD}$。
 
 ### 解答 习题二十二
 
@@ -686,7 +686,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 (2) 四边形 $ABCD$ 有什么特点? 请证明你的猜想.
 
-![week32-11.svg](../../figures/week32-11.svg){width=50%}
+图：四边形 $ABCD$，平面内一点 $O$，从 $O$ 向四个顶点分别连有向线段 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, $\boldsymbol{OD}$。
 
 ### 解答 习题二十三
 
@@ -700,7 +700,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 (习题 6.2 拓广探索第 24 题) 如图, 在 $\odot C$ 中, 是不是只需知道 $\odot C$ 的半径或弦 $AB$ 的长度, 就可以求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$ 的值?
 
-![week32-12.svg](../../figures/week32-12.svg){width=50%}
+图：以点 $C$ 为圆心的圆 $\odot C$，弦 $AB$ 的两个端点 $A$, $B$ 在圆上，圆心 $C$ 与 $A$, $B$ 相连，构成等腰三角形 $CAB$（$CA=CB$ 为半径）。
 
 ### 解答 习题二十四
 

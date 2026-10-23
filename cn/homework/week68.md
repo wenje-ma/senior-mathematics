@@ -316,7 +316,7 @@ $\boldsymbol{a}+\boldsymbol{b}$ 只由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性
 
 (2) $DB_1 \perp$ 平面 $ACB_1$.
 
-![week68-1.svg](../../figures/week68-1.svg){width=50%}
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：下底面 $ABCD$，上底面 $A_1B_1C_1D_1$；连有体对角线 $DB_1$ 与面对角线 $AC$。
 
 ### 解答 习题十六
 
@@ -358,7 +358,7 @@ $\boldsymbol{DB_1}=\left(1,1,1\right)$ 与法向量 $\left(1,1,-1\right)$ 不平
 
 (3) 求证: $A_1B \perp C_1M$.
 
-![week68-2.svg](../../figures/week68-2.svg){width=50%}
+该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图：下底面 $\triangle ABC$ 中 $\angle BCA=90^\circ$，$CA=CB=1$，侧棱 $AA_1=2$ 且垂直于底面；$M$ 是 $A_1B_1$ 的中点，$N$ 是 $A_1A$ 的中点；以 $C$ 为原点、$CA$ 为 $x$ 轴、$CB$ 为 $y$ 轴、$CC_1$ 为 $z$ 轴建立空间直角坐标系。
 
 ### 解答 习题十七
 

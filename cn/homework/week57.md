@@ -44,7 +44,7 @@ $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\
 
 (2) 如果 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成空间的一个基底, 那么用它表示下列向量: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
 
-![week57-1.svg](../../figures/week57-1.svg){width=50%}
+(题图: 平行六面体 $OABC-O'A'B'C'$, $G$ 为侧面 $BB'C'C$ 的中心; $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.)
 
 ### 解答 练习三
 
@@ -86,7 +86,7 @@ $\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot \left(\boldsymbol{c}
 
 (练习 1.2 第 2 题) 如图, 在平行六面体 $ABCD-A'B'C'D'$ 中, $AB=2$, $AD=2$, $AA'=3$, $\angle BAD=\angle BAA'=\angle DAA'=60^\circ$. 求 $BC'$ 与 $CA'$ 所成角的余弦值.
 
-![week57-2.svg](../../figures/week57-2.svg){width=50%}
+(题图: 平行六面体 $ABCD-A'B'C'D'$, 从 $A$ 出发的三条棱 $AB,AD,AA'$ 两两夹角均为 $60^\circ$.)
 
 ### 解答 练习五
 
@@ -116,7 +116,7 @@ $$
 
 (练习 1.2 第 3 题) 如图, 已知正方体 $ABCD-A'B'C'D'$, $CD'$ 和 $DC'$ 相交于点 $O$, 连接 $AO$, 求证 $AO \perp CD'$.
 
-![week57-3.svg](../../figures/week57-3.svg){width=50%}
+(题图: 正方体 $ABCD-A'B'C'D'$, $CD'$ 与 $DC'$ 交于侧面 $CC'D'D$ 的中心 $O$, 连接 $AO$.)
 
 ### 解答 练习六
 
@@ -186,7 +186,7 @@ $\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\fr
 
 (习题 1.2 复习巩固第 4 题) 如图, 在空间平移 $\triangle ABC$ 到 $\triangle A'B'C'$, 连接对应顶点. 设 $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, $M$ 是 $BC'$ 的中点, $N$ 是 $B'C'$ 的中点, 用基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 表示向量 $\boldsymbol{AM}$, $\boldsymbol{AN}$.
 
-![week57-4.svg](../../figures/week57-4.svg){width=50%}
+(题图: $\triangle ABC$ 平移到 $\triangle A'B'C'$, $M$ 为 $BC'$ 中点, $N$ 为 $B'C'$ 中点.)
 
 ### 解答 习题四
 
@@ -202,7 +202,7 @@ $\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\bo
 
 (习题 1.2 综合运用第 5 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, $M$ 是 $AC$ 与 $BD$ 的交点. 若 $D_1A_1=2$, $D_1C_1=2$, $D_1D=3$, 求 $B_1M$ 的长.
 
-![week57-5.svg](../../figures/week57-5.svg){width=50%}
+(题图: 长方体 $ABCD-A_1B_1C_1D_1$, $M$ 为底面对角线 $AC$ 与 $BD$ 的交点.)
 
 ### 解答 习题五
 
@@ -228,7 +228,7 @@ $$
 
 (习题 1.2 综合运用第 6 题) 如图, 平行六面体 $ABCD-A_1B_1C_1D_1$ 的底面 $ABCD$ 是菱形, 且 $\angle C_1CB=\angle C_1CD=\angle BCD=60^\circ$, $CD=CC_1$, 求证: $CA_1 \perp$ 平面 $C_1BD$.
 
-![week57-6.svg](../../figures/week57-6.svg){width=50%}
+(题图: 平行六面体 $ABCD-A_1B_1C_1D_1$, 底面 $ABCD$ 为菱形, $CD=CC_1$, 三个共顶点 $C$ 的角均为 $60^\circ$.)
 
 ### 解答 习题六
 
@@ -258,7 +258,7 @@ $\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=\left(\boldsymbol{a}+\boldsymbol{b}+\
 
 (2) 求 $EF$ 与 $C_1G$ 所成角的余弦值.
 
-![week57-7.svg](../../figures/week57-7.svg){width=50%}
+(题图: 棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$, $E$ 为 $DD_1$ 中点, $F$ 为 $BD$ 中点, $G$ 在 $CD$ 上且 $CG=\frac{1}{4}CD$.)
 
 ### 解答 习题七
 

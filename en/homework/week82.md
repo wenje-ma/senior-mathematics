@@ -566,7 +566,7 @@ The left side is exactly the expression to be proved, and the right side $=1$. T
 
 (Exercise 6.3, Extension and Exploration, Problem 11) The figure below reflects the long journey through which the binomial theorem was generated, completed, and generalized. In this development, both generalization and proof proceed from the particular to the general. Nowadays, a trend in mathematical research is toward ever greater generality. Try to generalize from $\left(a+b\right)^n$ to $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb N^*$).
 
-![week82-1.svg](../../figures/week82-1.svg){width=50%}
+The figure is a timeline illustrating the long history of the emergence, completion, and generalization of the binomial theorem (showing, from a historical-development perspective, the generalization of the binomial theorem from special cases to the general case).
 
 ### Solution to Problem 11
 

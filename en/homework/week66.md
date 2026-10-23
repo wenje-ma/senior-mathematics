@@ -332,7 +332,7 @@ $\blacksquare$
 
 (Exercise 3.2, Review and Consolidation, Problem 5) As shown in the figure, the circle $O$ has fixed radius $r$, $A$ is a fixed point outside the circle $O$, and $P$ is any point on the circle $O$. The perpendicular bisector $l$ of segment $AP$ intersects the line $OP$ at $Q$. As $P$ moves on the circle $O$, what is the locus of $Q$? Why?
 
-![week66-1.svg](../../figures/week66-1.svg){width=50%}
+The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ outside the circle, and a point $P$ on the circle; the perpendicular bisector $l$ of segment $AP$ meets the line $OP$ (its extension beyond $P$) at point $Q$, and segments $AP$, $OQ$, $QP$ are drawn.
 
 ### Solution to Problem 5
 

@@ -20,7 +20,7 @@
 
 (练习 6.3 第 1 题) 如图, $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量, 试用基底 $\left\{\boldsymbol{e}_1,\boldsymbol{e}_2\right\}$ 表示图中的向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$.
 
-![week33-1.svg](../../figures/week33-1.svg){width=50%}
+图：以两个不共线的向量 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 为基底，画出从同一起点出发的向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$，各向量均可按 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 的方向作平行四边形分解。
 
 ### 解答 练习一
 
@@ -30,7 +30,7 @@
 
 (练习 6.3 第 2 题) 当 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量时, 求作向量 $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
 
-![week33-2.svg](../../figures/week33-2.svg){width=50%}
+图：先画基底向量 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$，再作 $2\boldsymbol{e}_1$（与 $\boldsymbol{e}_1$ 同向、长度为其 $2$ 倍）和 $-\boldsymbol{e}_2$（与 $\boldsymbol{e}_2$ 反向），用三角形法则相加得到 $2\boldsymbol{e}_1-\boldsymbol{e}_2$。
 
 ### 解答 练习二
 
@@ -148,7 +148,7 @@ $\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{6
 
 (习题 6.3 复习巩固第 1 题) 如图, 在 $\triangle ABC$ 中, $AD=\frac{1}{3}AB$, $E$ 是 $AC$ 上一点, $EC=\frac{1}{3}AC$, $BE$ 与 $CD$ 交于点 $P$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 试用基底 $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$ 表示 $\boldsymbol{AP}$.
 
-![week33-3.svg](../../figures/week33-3.svg){width=50%}
+图：三角形 $ABC$，点 $D$ 在边 $AB$ 上且 $AD=\frac{1}{3}AB$，点 $E$ 在边 $AC$ 上且 $EC=\frac{1}{3}AC$（即 $AE=\frac{2}{3}AC$），线段 $BE$ 与 $CD$ 交于点 $P$。
 
 ### 解答 习题一
 
@@ -302,7 +302,7 @@ $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
 
 (习题 6.3 综合运用第 11 题) 如图, 在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $E$, $F$ 分别为 $AB$, $CD$ 的中点, $M$, $N$ 为对角线 $AC$ 上的两点, 且 $AM=MN=NC$, 求证: $\boldsymbol{EM}=\boldsymbol{FN}$.
 
-![week33-4.svg](../../figures/week33-4.svg){width=50%}
+图：平行四边形 $ABCD$，$E$ 为边 $AB$ 的中点，$F$ 为边 $CD$ 的中点；对角线 $AC$ 上有两点 $M$, $N$，满足 $AM=MN=NC$（即 $M$, $N$ 将 $AC$ 三等分），连接 $EM$, $FN$。
 
 ### 解答 习题十一
 

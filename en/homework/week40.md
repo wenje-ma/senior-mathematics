@@ -58,7 +58,7 @@ Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{2
 
 (5) How many small cubes have no face colored? What is the sum of their surface areas? How many cubic centimeters of space do they occupy?
 
-![week40-1.svg](../../figures/week40-1.svg){width=50%}
+The figure: a cube of edge length $4\text{ cm}$ with its surface painted red, divided into $4\times 4\times 4=64$ small cubes of edge length $1\text{ cm}$; one can see the distribution: corner cubes have three painted faces, edge cubes have two, face cubes have one, and interior cubes have none.
 
 ### Solution to Exercise 2
 
@@ -168,7 +168,7 @@ Since $43633<64000$, the submerged volume is less than the remaining space, so t
 
 (Exercise 8.3, Review and Consolidation, Problem 1) As shown in the figure, every face of an octahedron is an equilateral triangle, and the $4$ vertices $A$, $B$, $C$, $D$ lie in the same plane. If the quadrilateral $ABCD$ is a square of side $30\text{ cm}$, what is the surface area of this octahedron?
 
-![week40-2.svg](../../figures/week40-2.svg){width=50%}
+The figure: an octahedron whose four vertices $A,B,C,D$ lie in one plane forming a square $ABCD$ of side $30\text{ cm}$, with one vertex above and one below the square; all $8$ faces are equilateral triangles.
 
 ### Solution to Problem 1
 
@@ -182,7 +182,7 @@ The surface area is $8\times 225\sqrt{3}=1800\sqrt{3}\text{ cm}^{2}$. $\blacksqu
 
 (Exercise 8.3, Review and Consolidation, Problem 2) As shown in the figure, a rectangular box is cut along the diagonals of three adjacent faces to remove a pyramid. Find the ratio of the volume of the pyramid to the volume of the remaining solid.
 
-![week40-3.svg](../../figures/week40-3.svg){width=50%}
+The figure: a rectangular prism from which a triangular pyramid is cut out along the diagonals of three adjacent faces (the pyramid has one vertex of the prism as its apex and three mutually perpendicular edges as its lateral edges).
 
 ### Solution to Problem 2
 
@@ -204,7 +204,7 @@ Hence the ratio of the pyramid volume to the remaining volume is $\frac{1}{6}:\f
 
 (Exercise 8.3, Review and Consolidation, Problem 3) As shown in the figure, a right triangular-prism-shaped container holds water, with lateral edge $AA_{1}=8$. When the lateral face $AA_{1}B_{1}B$ is placed horizontally, the water surface passes exactly through the midpoints of $AC$, $BC$, $A_{1}C_{1}$, $B_{1}C_{1}$. When the base $ABC$ is placed horizontally, what is the height of the water surface?
 
-![week40-4.svg](../../figures/week40-4.svg){width=50%}
+The figure: a right triangular prism container $ABC\text{-}A_1B_1C_1$ with lateral edge $AA_1=8$; when the side face $AA_1B_1B$ is placed horizontally, the water surface passes exactly through the midpoints of $AC$, $BC$, $A_1C_1$, and $B_1C_1$.
 
 ### Solution to Problem 3
 
@@ -222,7 +222,7 @@ When the base $ABC$ is horizontal, let the water height be $h$; then $V_{\text{�
 
 (Exercise 8.3, Review and Consolidation, Problem 4) As shown in the figure, the cone $PO$ has base diameter and height both equal to $a$. Through the midpoint $O'$ of $PO$ draw a cross-section parallel to the base, and hollow out a cylinder with this cross-section as its base. Find the surface area and volume of the remaining solid.
 
-![week40-5.svg](../../figures/week40-5.svg){width=50%}
+The figure: a cone $PO$ whose base diameter and height are both $a$; a cross-section parallel to the base is drawn through the midpoint $O'$ of $PO$, and a cylinder is removed with this cross-section as its base, leaving the cone with a coaxial cylindrical cavity.
 
 ### Solution to Problem 4
 
@@ -262,7 +262,7 @@ The volume of the sphere is $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\left(\frac{\s
 
 (The lower frustum has lower base side $50$, upper base side $40$, and height $10$; the upper prism has base side $40$ and height $70$.)
 
-![week40-6.svg](../../figures/week40-6.svg){width=50%}
+The figure: a pictorial drawing of a chimney—the lower part is a regular square frustum (lower base side $50\text{ cm}$, upper base side $40\text{ cm}$, height $10\text{ cm}$), and the upper part is a regular square prism (base side $40\text{ cm}$, height $70\text{ cm}$), joined at their bases.
 
 ### Solution to Problem 6
 
@@ -284,7 +284,7 @@ Hence the total area is $11200+1600+900\sqrt{5}=12800+900\sqrt{5}\approx 12800+2
 
 (Exercise 8.3, Comprehensive Application, Problem 7) A pile of identical iron hex nuts (iron density $7.9\times 10^{3}\text{ kg/m}^{3}$) has mass $5.8\text{ kg}$. As shown in the figure, each nut has a regular hexagonal base of side $12\text{ mm}$, an inner hole of diameter $10\text{ mm}$, and height $10\text{ mm}$. Approximately how many nuts are in the pile? (A calculator may be used; take $\pi$ as $3.14$.)
 
-![week40-7.svg](../../figures/week40-7.svg){width=50%}
+The figure: a hexagonal nut—the base is a regular hexagon (side $12\text{ mm}$), with a cylindrical hole (diameter $10\text{ mm}$) bored through vertically, and a height of $10\text{ mm}$.
 
 ### Solution to Problem 7
 
@@ -332,7 +332,7 @@ Hence the three volumes satisfy $\frac{1}{V_{3}^{2}}=\frac{1}{V_{1}^{2}}+\frac{1
 
 (From bottom to top, the trophy consists of: a square frustum with lower base $20\times 16$, upper base $10\times 8$, height $2$; a square prism $8\times 4$, height $20$; and a sphere of diameter $4$.)
 
-![week40-8.svg](../../figures/week40-8.svg){width=100%}
+The figure: three views of a trophy—from bottom to top: a square frustum (lower base $20\times 16\text{ cm}$, upper base $10\times 8\text{ cm}$, height $2\text{ cm}$), a square prism ($8\times 4\text{ cm}$, height $20\text{ cm}$), and a sphere (diameter $4\text{ cm}$).
 
 ### Solution to Problem 9
 

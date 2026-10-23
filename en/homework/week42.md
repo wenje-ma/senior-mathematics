@@ -16,7 +16,7 @@
 
 (Exercise 8.5, Problem 1) As shown in the figure, fold a rectangular sheet of paper several times and then unfold it. Are the resulting creases parallel to one another? Why?
 
-![week42-1.svg](../../figures/week42-1.svg){width=50%}
+(Figure: a rectangular sheet folded twice and unfolded, showing three parallel creases.)
 
 ### Solution to Exercise 1
 
@@ -28,7 +28,7 @@ Each crease is parallel to the same side of the original rectangle, so all the c
 
 (Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, how many edges are parallel to the edge $AA'$? Which edges are they?
 
-![week42-2.svg](../../figures/week42-2.svg){width=50%}
+(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
 
 ### Solution to Exercise 2
 
@@ -40,7 +40,7 @@ The cuboid has $12$ edges, among which the $4$ mutually parallel lateral edges a
 
 (Exercise 8.5, Problem 3) As shown in the figure, $AA'$, $BB'$, $CC'$ are not coplanar, and $AA'=\ BB'$, $BB'=\ CC'$. Prove that $\triangle ABC\cong\triangle A'B'C'$.
 
-![week42-3.svg](../../figures/week42-3.svg){width=50%}
+(Figure: two triangles $ABC$ and $A'B'C'$ with corresponding vertices joined by parallel equal segments $AA',BB',CC'$.)
 
 ### Solution to Exercise 3
 
@@ -56,7 +56,7 @@ In $\triangle ABC$ and $\triangle A'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\an
 
 (Exercise 8.5, Problem 4) As shown in the figure, in the tetrahedron $A\text{-}BCD$, $E$, $F$, $G$ are points on $AB$, $AC$, $AD$ respectively. If $EF\parallel BC$ and $FG\parallel CD$, what is the relationship between $\triangle EFG$ and $\triangle BCD$? Why?
 
-![week42-4.svg](../../figures/week42-4.svg){width=50%}
+(Figure: a tetrahedron $A\text{-}BCD$ with $E$ on $AB$, $F$ on $AC$, $G$ on $AD$, and $EF,FG,EG$ joined.)
 
 ### Solution to Exercise 4
 
@@ -78,7 +78,7 @@ Since the corresponding sides are proportional and the included angle is equal, 
 
 (3) the plane parallel to $AD$ is $\;\_\_\;$.
 
-![week42-5.svg](../../figures/week42-5.svg){width=50%}
+(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
 
 ### Solution to Exercise 5
 
@@ -94,7 +94,7 @@ By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
 
 (Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E'$ is a point on $A'A$. Prove that $AB\parallel$ plane $DCC'D'$.
 
-![week42-6.svg](../../figures/week42-6.svg){width=50%}
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E'$ a point on the lateral edge $A'A$.)
 
 ### Solution to Exercise 6
 
@@ -162,7 +162,7 @@ Hence choose (D). $\blacksquare$
 
 (Exercise 8.5, Problem 3) As shown in the figure, in the cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $M$, $N$, $E$, $F$ are the midpoints of the edges $A_{1}B_{1}$, $A_{1}D_{1}$, $B_{1}C_{1}$, $C_{1}D_{1}$ respectively. Prove that plane $AMN\parallel$ plane $DBEF$.
 
-![week42-7.svg](../../figures/week42-7.svg){width=50%}
+(Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with $M,N,E,F$ the midpoints of the four edges of the top face.)
 
 ### Solution to Exercise 9
 
@@ -178,7 +178,7 @@ Moreover, $MN\cap AM=M$; the two intersecting lines $MN$, $AM$ both lie in plane
 
 (Exercise 8.5, Problem 4) As shown in the figure, planes $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel b$. Determine the positional relationship of $c$ with $a$ and of $c$ with $\alpha$, and explain why.
 
-![week42-8.svg](../../figures/week42-8.svg){width=50%}
+(Figure: two parallel planes $\alpha,\beta$ cut by a third plane $\gamma$, giving intersection lines $a,b$; $c$ lies in $\beta$ and is parallel to $b$.)
 
 ### Solution to Exercise 10
 
@@ -228,7 +228,7 @@ Hence the positional relationship between $\alpha$ and $\beta$ is parallel or in
 
 (Exercise 8.5, Review and Consolidation, Problem 3) As shown in the figure, in a cuboid block $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, there is a point $P$ on the face $A_{1}C_{1}$. How can one draw a line through point $P$ parallel to the edge $CD$?
 
-![week42-9.svg](../../figures/week42-9.svg){width=50%}
+(Figure: a cuboid $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with point $P$ on the top face $A_{1}B_{1}C_{1}D_{1}$.)
 
 ### Solution to Problem 3
 
@@ -242,7 +242,7 @@ Since $CD\parallel C_{1}D_{1}$ and the constructed $EF\parallel C_{1}D_{1}$, we 
 
 (Exercise 8.5, Review and Consolidation, Problem 4) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E$, $F$ are the midpoints of $AB$, $BC$ respectively. Prove that $EF\parallel A'C'$.
 
-![week42-10.svg](../../figures/week42-10.svg){width=50%}
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AB$ and $F$ the midpoint of $BC$.)
 
 ### Solution to Problem 4
 
@@ -272,7 +272,7 @@ By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
 
 (Exercise 8.5, Review and Consolidation, Problem 6) As shown in the figure, $a$, $b$ are skew lines. Draw a plane $\alpha$ such that $a\subset\alpha$ and $b\parallel\alpha$, and explain why.
 
-![week42-11.svg](../../figures/week42-11.svg){width=50%}
+(Figure: two skew lines $a,b$.)
 
 ### Solution to Problem 6
 
@@ -286,7 +286,7 @@ Since $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, by **Theorem 8.5
 
 (Exercise 8.5, Review and Consolidation, Problem 7) As shown in the figure, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$. Prove that $CD\parallel EF$.
 
-![week42-12.svg](../../figures/week42-12.svg){width=50%}
+(Figure: three planes $\alpha,\beta,\gamma$ pairwise intersecting in lines $CD,EF,AB$.)
 
 ### Solution to Problem 7
 
@@ -302,7 +302,7 @@ By **Basic Fact 8.5.1** (Basic Fact 4), $CD\parallel EF$. $\blacksquare$
 
 (Exercise 8.5, Review and Consolidation, Problem 8) As shown in the figure, the lines $AA'$, $BB'$, $CC'$ intersect at point $O$, $AO=A'O$, $BO=B'O$, $CO=C'O$. Prove that plane $ABC\parallel$ plane $A'B'C'$.
 
-![week42-13.svg](../../figures/week42-13.svg){width=50%}
+(Figure: three lines $AA',BB',CC'$ meeting at $O$, with $A,B,C$ and $A',B',C'$ on opposite sides of $O$.)
 
 ### Solution to Problem 8
 
@@ -320,7 +320,7 @@ Moreover, $AB\cap AC=A$; by **Theorem 8.5.5** (Criterion for Two Parallel Planes
 
 (Exercise 8.5, Comprehensive Application, Problem 9) As shown in the figure, $E$, $E'$ are the midpoints of the edges $AD$, $A'D'$ of the cuboid $ABCD\text{-}A'B'C'D'$ respectively. Prove that $\angle BEC=\angle B'E'C'$.
 
-![week42-14.svg](../../figures/week42-14.svg){width=50%}
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AD$ and $E'$ the midpoint of $A'D'$.)
 
 ### Solution to Problem 9
 
@@ -336,7 +336,7 @@ By **Theorem 8.5.2** (Equal-Angle Theorem), $\angle BEC=\angle B'E'C'$. $\blacks
 
 (Exercise 8.5, Comprehensive Application, Problem 10) As shown in the figure, $AB\parallel\alpha$, $AC\parallel BD$, $C\in\alpha$, $D\in\alpha$. Prove that $AC=BD$.
 
-![week42-15.svg](../../figures/week42-15.svg){width=50%}
+(Figure: plane $\alpha$ with $C,D\in\alpha$ and $A,B$ outside $\alpha$, where $AB\parallel\alpha$ and $AC\parallel BD$.)
 
 ### Solution to Problem 10
 
@@ -368,7 +368,7 @@ Hence the other line $b$ is also parallel to the plane $\alpha$. $\blacksquare$
 
 (Exercise 8.5, Comprehensive Application, Problem 12) A wooden block is shown in the figure on the next page. Point $P$ lies in the plane $VAC$. Saw the block through point $P$ so that the cross-section is parallel to the lines $VB$ and $AC$. How should one draw the lines on the surface of the block?
 
-![week42-16.svg](../../figures/week42-16.svg){width=50%}
+(Figure: a tetrahedron $V\text{-}ABC$ with point $P$ on face $VAC$.)
 
 ### Solution to Problem 12
 
@@ -384,7 +384,7 @@ Then the cross-section $EFGH$ is the required one: $EF\parallel AC$, $EG\paralle
 
 (Exercise 8.5, Extension and Exploration, Problem 13) As shown in the figure, $\alpha\parallel\beta\parallel\gamma$. The lines $a$ and $b$ intersect $\alpha$, $\beta$, $\gamma$ at points $A$, $B$, $C$ and points $D$, $E$, $F$ respectively. Prove that $\frac{AB}{BC}=\frac{DE}{EF}$.
 
-![week42-17.svg](../../figures/week42-17.svg){width=50%}
+(Figure: three parallel planes $\alpha,\beta,\gamma$ with two lines $a,b$ cutting them at $A,B,C$ and $D,E,F$.)
 
 ### Solution to Problem 13
 
@@ -402,7 +402,7 @@ Hence $\frac{AB}{BC}=\frac{DE}{EF}$. $\blacksquare$
 
 (Exercise 8.5, Extension and Exploration, Problem 14) As shown in the figure, $a$, $b$ are skew lines, $a\subset\alpha$, $a\parallel\beta$, $b\subset\beta$, $b\parallel\alpha$. Prove that $\alpha\parallel\beta$.
 
-![week42-18.svg](../../figures/week42-18.svg){width=50%}
+(Figure: two planes $\alpha,\beta$ with $a\subset\alpha$ parallel to $\beta$, $b\subset\beta$ parallel to $\alpha$, and $a,b$ skew.)
 
 ### Solution to Problem 14
 
@@ -432,7 +432,7 @@ By **Theorem 8.5.5** (Criterion for Two Parallel Planes), the two intersecting l
 
 Among them, the numbers of all the correct statements are $\;\_\_\;$. Why?
 
-![week42-19.svg](../../figures/week42-19.svg){width=100%}
+(Figure: three diagrams of a transparent cuboid container $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ tilted about its base edge $BC$ at different angles, with the water surface $EFGH$ shown.)
 
 ### Solution to Problem 15
 

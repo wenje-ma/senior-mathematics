@@ -180,7 +180,7 @@ By **Common Conclusion 4.1.6** (Operational Properties of Real Exponents).
 
 (Review Reference Problem 4, Comprehensive Application, Problem 7) The graph of the exponential function $y=\left(\frac{b}{a}\right)^x$ is as shown in the figure (a decreasing curve). Find the range of the x-coordinate of the vertex of the parabola $y=ax^2+bx$.
 
-![week29-1.svg](../../figures/week29-1.svg){width=50%}
+The graph: in the rectangular coordinate plane, the graph of the exponential function $y=\left(\frac{b}{a}\right)^x$ is a monotonically decreasing curve lying above the $x$-axis and passing through the point $\left(0,1\right)$ (descending toward the $x$-axis for $x>0$ and rising for $x<0$).
 
 ### Solution to Problem 7
 
@@ -208,7 +208,7 @@ The annual decay rate is $2.47\%$, i.e. $97.53\%$ remains each year. After $800$
 
 (3) Sketch the graph of $P$ as a function of $t$.
 
-![week29-2.svg](../../figures/week29-2.svg){width=50%}
+The graph: horizontal axis is time $t$ (unit: h), vertical axis is the pollutant content $P$ (unit: mg/L); the exponential decay curve $P=P_0\mathrm e^{-kt}$ starts at $P_0$ on the vertical axis, decreases monotonically as $t$ increases, and gradually approaches $0$.
 
 ### Solution to Problem 9
 

@@ -40,7 +40,7 @@ By **Definition 4.4.1** (Logarithmic Function), the antilogarithm must be greate
 
 (2) $y=10^{\lg x}$.
 
-![week16-1.svg](../../figures/week16-1.svg){width=100%}
+The graphs: on the left, the graph of $y=\lg 10^x=x$ is the whole straight line of slope $1$ passing through the origin in the rectangular coordinate plane (crossing the first and third quadrants); on the right, the graph of $y=10^{\lg x}=x$ ($x>0$) is the ray on the same line $y=x$ restricted to $x>0$ (lying only in the first quadrant, extending from the origin to the upper right).
 
 ### Solution to Exercise 2
 
@@ -66,7 +66,7 @@ By the definition of a function, for any element in $A$, the function value obta
 
 (Exercise 4.4, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=\log_3 x$ and $y=\log_{\frac{1}{3}} x$, and explain their relationship.
 
-![week16-2.svg](../../figures/week16-2.svg){width=50%}
+The graphs: in the same rectangular coordinate system, the two logarithmic curves both have domain $(0,+\infty)$, lie to the right of the $y$-axis, and pass through the point $\left(1,0\right)$; $y=\log_3 x$ is a monotonically increasing curve (below the $x$-axis for $0<x<1$ and above it for $x>1$), while $y=\log_{\frac{1}{3}} x$ is a monotonically decreasing curve (above the $x$-axis for $0<x<1$ and below it for $x>1$), and the two are symmetric about the $x$-axis.
 
 ### Solution to Exercise 4
 
@@ -114,7 +114,7 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model) and **Stan
 
 (Inquiry and Discovery: Relationship between the Graphs of Two Functions that are Inverses of Each Other) In the same rectangular coordinate system, draw the graphs of the exponential function $y=2^x$ and its inverse function $y=\log_2 x$. Can you discover what symmetric relationship the graphs of these two functions have?
 
-![week16-3.svg](../../figures/week16-3.svg){width=50%}
+The graphs: in the same rectangular coordinate system, the exponential function $y=2^x$ is an increasing curve lying above the $x$-axis and passing through $\left(0,1\right)$, and its inverse $y=\log_2 x$ is an increasing curve lying to the right of the $y$-axis and passing through $\left(1,0\right)$; the line $y=x$ is drawn as the axis of symmetry, and the two curves are mirror images of each other about the line $y=x$.
 
 ### Solution to Inquiry and Discovery 1
 
@@ -224,7 +224,7 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. Let $2000\ln\left(1+\frac{M}{m}\right)=
 
 (3) what do you discover from the graph in (2)?
 
-![week16-4.svg](../../figures/week16-4.svg){width=50%}
+The graphs: in the same rectangular coordinate system, the three increasing logarithmic curves $y=\log_2 x$, $y=\log_3 x$, and $y=\lg x$ all have domain $(0,+\infty)$ and pass through the point $\left(1,0\right)$; in the region $x>1$, from top to bottom the graphs are $y=\log_2 x$ (topmost and steepest), $y=\log_3 x$ (middle), and $y=\lg x$ (bottommost and most gentle), while in the region $0<x<1$ the vertical order is reversed.
 
 ### Solution to Problem 4
 

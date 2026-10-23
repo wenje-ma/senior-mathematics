@@ -84,7 +84,7 @@ For $f\left(x\right)$ to be monotonic on $\left[5,20\right]$, the axis must lie 
 
 (Review Reference Problem 3, Review and Consolidation, Problem 5) Given that the graph of the power function $y=f\left(x\right)$ passes through the point $\left(2,\frac{\sqrt2}{2}\right)$, find the analytic expression of this function, sketch its graph, and determine its odd-even property and monotonicity.
 
-![week28-1.svg](../../figures/week28-1.svg){width=50%}
+The graph: in the rectangular coordinate plane, the graph of the power function $y=x^{-\frac{1}{2}}=\frac{1}{\sqrt{x}}$ lies only in the first quadrant (domain $(0,+\infty)$); it is a monotonically decreasing curve that falls from $+\infty$ as $x\to0^+$ as $x$ increases, gradually approaching both coordinate axes as asymptotes, and passes through the point $\left(2,\frac{\sqrt2}{2}\right)$.
 
 ### Solution to Problem 5
 
@@ -234,7 +234,7 @@ In figure (2), the price falls as the quantity increases (monotonically decreasi
 
 (Review Reference Problem 3, Extension and Exploration, Problem 12) Discuss the domain, range, monotonicity and odd-even property of the function $y=x-\frac{1}{x}$, and sketch its graph.
 
-![week28-2.svg](../../figures/week28-2.svg){width=50%}
+The graph: in the rectangular coordinate plane, the graph of $y=x-\frac{1}{x}$ is symmetric about the origin (an odd function) and splits into two branches: in the first quadrant, the curve increases monotonically from $-\infty$ as $x\to0^+$ to $+\infty$, with the line $y=x$ and the $y$-axis as asymptotes; in the third quadrant is the other branch symmetric about the origin, increasing monotonically from $-\infty$ to $+\infty$ as $x\to0^-$.
 
 ### Solution to Problem 12
 

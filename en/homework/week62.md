@@ -20,7 +20,7 @@
 
 (2) $l_1:x=2$, $l_2:3x+2y-12=0$.
 
-![week62-1.svg](../../figures/week62-1.svg){width=100%}
+The figure plots two pairs of intersecting lines in the rectangular coordinate system: (1) the line $l_1:2x+3y=12$ and $l_2:x-2y=4$ intersect at $\left(\frac{36}{7},\frac{4}{7}\right)$; (2) the vertical line $l_1:x=2$ and the line $l_2:3x+2y-12=0$ intersect at $\left(2,3\right)$.
 
 ### Solution to Exercise 1
 
@@ -242,7 +242,7 @@ Hence $\left|6-C\right|=15$, i.e. $6-C=15$ or $6-C=-15$, so $C=-9$ or $C=21$. $\
 
 (Exercise 2.3, Problem 12) As shown in the figure, given the lines $l_1:x-2y+1=0$ and $l_2:x-2y+4=0$, take any point $A$ on $l_1$ and any point $B$ on $l_2$, join $AB$, and take the trisection point $C$ on $AB$ that is closer to $A$. Through $C$ draw the line $l_3$ parallel to $l_1$. Find the distance between $l_1$ and $l_3$.
 
-![week62-2.svg](../../figures/week62-2.svg){width=50%}
+The figure plots the two parallel lines $l_1:x-2y+1=0$ and $l_2:x-2y+4=0$ in the rectangular coordinate system: take point $A$ on $l_1$ and point $B$ on $l_2$, and join the segment $AB$; $C$ is the trisection point of $AB$ nearer to $A$ ($AC=\frac{1}{3}AB$), and through $C$ draw the line $l_3$ parallel to $l_1$.
 
 ### Solution to Exercise 12
 

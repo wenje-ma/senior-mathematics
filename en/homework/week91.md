@@ -14,7 +14,7 @@
 
 (Exploration Task 1) Observe the structure of Pascal's triangle, i.e. the pattern in which the numbers are arranged in it, for example in each row, between adjacent rows, and along the diagonals; draw, connect, and compute, then write down the conclusions you discover.
 
-![week91-1.svg](../../figures/week91-1.svg){width=50%}
+The figure is Yang Hui's triangle (Pascal's triangle): from top to bottom, row 0 is $1$; row 1 is $1,1$; row 2 is $1,2,1$; row 3 is $1,3,3,1$; row 4 is $1,4,6,4,1$; and so on; each row has $1$ at both ends, and every interior entry equals the sum of the two entries above it, arranged in an isosceles triangle.
 
 ### Solution to Exploration 1
 
@@ -112,7 +112,7 @@ More generally, by **Common Conclusion 6.3.3** (Summing Formula for Binomial Coe
 
 (Problem 1) An ancient root-extraction problem (from Yang Hui's Detailed Analysis of the Nine Chapters on the Mathematical Art): The product is 1,336,336 chi; what is the cube-like root (third power of a square)? Before the mid-Qing dynasty in our country, a square was called self-multiplication, a cube was called self-multiplication once more, and a fourth power was called the third-power-of-a-square. Thus this problem is equivalent to solving the equation $x^4=1336336$. Find $x$.
 
-![week91-2.svg](../../figures/week91-2.svg){width=50%}
+The figure is an ancient computational diagram using Yang Hui's triangle (Figure 2) for root extraction: the entries in the rows of the triangle are the binomial coefficients, with the saying "the left edge gives the area/product, the right edge gives the corner term, and what lies in the middle are the coefficients (lian)" — illustrating how the row coefficients are used to test digits one by one when extracting a root.
 
 ### Solution to Problem 1
 

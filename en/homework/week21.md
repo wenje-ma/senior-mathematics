@@ -14,7 +14,7 @@
 
 (Exercise 5.4, Problem 1) In the same rectangular coordinate system, sketch the graphs of the functions $y=\sin x$, $x\in\left[0,2\pi\right]$, and $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$. By observing the two curves, state their similarities and differences.
 
-![week21-1.svg](../../figures/week21-1.svg){width=50%}
+The graphs: in the same rectangular coordinate system, two wave curves of the same shape, both with period $2\pi$ and range $\left[-1,1\right]$: $y=\sin x$ ($x\in\left[0,2\pi\right]$) starts at the origin, rises to $\left(\frac{\pi}{2},1\right)$, descends through $\left(\pi,0\right)$ to $\left(\frac{3\pi}{2},-1\right)$, and returns to $\left(2\pi,0\right)$; $y=\cos x$ ($x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$) rises from $\left(-\frac{\pi}{2},0\right)$ to $\left(0,1\right)$, descends through $\left(\frac{\pi}{2},0\right)$ to $\left(\pi,-1\right)$, and rises again through $\left(\frac{3\pi}{2},0\right)$; the cosine curve is the sine curve shifted left by $\frac{\pi}{2}$.
 
 ### Solution to Exercise 1
 
@@ -32,7 +32,7 @@ Differences: the sine curve passes through the origin at $x=0$ and is odd; the c
 
 (2) $y=2-\cos x$.
 
-![week21-2.svg](../../figures/week21-2.svg){width=100%}
+The graphs: two figures. On the left is the five-point plot of $y=-\sin x$ on $\left[-\pi,\pi\right]$, with key points $\left(-\pi,0\right)$, $\left(-\frac{\pi}{2},1\right)$, $\left(0,0\right)$, $\left(\frac{\pi}{2},-1\right)$, and $\left(\pi,0\right)$, i.e. the sine curve reflected about the $x$-axis; on the right is the five-point plot of $y=2-\cos x$ on $\left[-\pi,\pi\right]$, with key points $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, and $\left(\pi,3\right)$, a wave oscillating between $y=1$ and $y=3$ and inverted vertically relative to the cosine curve.
 
 ### Solution to Exercise 2
 
@@ -46,7 +46,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (Exercise 5.4, Problem 3) Consider the graphs of $y=\lvert\sin x\rvert$ and $y=\sin x$ and their relationship, and sketch the graph with the help of information technology to check.
 
-![week21-3.svg](../../figures/week21-3.svg){width=50%}
+The graph: the graph of $y=\left|\sin x\right|$ is obtained by reflecting the part of $y=\sin x$ that lies below the $x$-axis up across the $x$-axis; the curve lies entirely above (or on) the $x$-axis, has range $\left[0,1\right]$, period $\pi$, and is symmetric about the $y$-axis, touching the $x$-axis at $x=k\pi$ and reaching the peak value $1$ at $x=\frac{\pi}{2}+k\pi$.
 
 ### Solution to Exercise 3
 
@@ -310,7 +310,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the ta
 
 (2) $y=3\cos x+1$, $x\in\left[0,2\pi\right]$.
 
-![week21-4.svg](../../figures/week21-4.svg){width=100%}
+The graphs: two figures. On the left is the five-point plot of $y=1-\sin x$ on $\left[0,2\pi\right]$, with key points $\left(0,1\right)$, $\left(\frac{\pi}{2},0\right)$, $\left(\pi,1\right)$, $\left(\frac{3\pi}{2},2\right)$, and $\left(2\pi,1\right)$; on the right is the five-point plot of $y=3\cos x+1$ on $\left[0,2\pi\right]$, with key points $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, and $\left(2\pi,4\right)$, with amplitude $3$ and a vertical shift of $1$.
 
 ### Solution to Problem 1
 
@@ -584,7 +584,7 @@ By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$) and 
 
 (Exercise 5.4, Extension and Exploration, Problem 17) In the rectangular coordinate system, given that $\odot O$ is the circle centered at the origin $O$ with radius $2$, and the terminal side of the angle $x$ meets $\odot O$ at $B$, find the function expression relating the y-coordinate $y$ of the point $B$ to $x$, and sketch its graph with the help of information technology.
 
-![week21-5.svg](../../figures/week21-5.svg){width=50%}
+The graphs: on the left is a circle centered at the origin $O$ with radius $2$ in the rectangular coordinate plane, and the terminal side of angle $x$ meets the circle at point $B$; on the right is the graph of the ordinate $y$ of point $B$ as a function of the angle $x$, namely $y=2\sin x$, a sine curve with amplitude $2$ and period $2\pi$, oscillating between $y=-2$ and $y=2$.
 
 ### Solution to Problem 17
 
@@ -600,7 +600,7 @@ Since the circle has radius $2$, the intersection point $B$ of the terminal side
 
 (2) Sketch the graph of $y=f\left(x+1\right)$.
 
-![week21-6.svg](../../figures/week21-6.svg){width=50%}
+The graph: a portion of the periodic graph of $y=f\left(x\right)$ (period $2$); the curve passes through the origin, oscillates between $y=-1$ and $y=1$, crosses the $x$-axis at integer points $x$, and has the shape of the sine wave $y=\sin\pi x$; several consecutive periods are drawn.
 
 ### Solution to Problem 18
 

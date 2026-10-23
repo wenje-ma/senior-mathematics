@@ -10,7 +10,7 @@
 
 (Exercise 4.5, Problem 1) Figures (1)(2)(3) are respectively the graphs of the function $y=f\left(x\right)$ in three different ranges. Can one conclude, based on only one of the graphs, that the function $y=f\left(x\right)$ has exactly one zero in a certain interval? Why?
 
-![week17-1.svg](../../figures/week17-1.svg){width=100%}
+The figures: three rectangular coordinate diagrams, labeled Figure (1), Figure (2), and Figure (3), each showing a continuous unbroken curve $y=f\left(x\right)$ over some finite interval; within the displayed interval the curve appears to meet the $x$-axis only once (crossing or tangent), but the trend of the curve outside the interval is not shown.
 
 ### Solution to Exercise 1
 
@@ -30,7 +30,7 @@ Based on a graph in only one range, one cannot conclude that the function has ex
 
 (4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
 
-![week17-2.svg](../../figures/week17-2.svg){width=100%}
+The graphs: four small coordinate plots. (1) $f\left(x\right)=-x^3-3x+5$ is a cubic curve, above the $x$-axis near $x=1$ and below it near $x=2$, with its zero in $\left(1,2\right)$; (2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ has domain $x>2$, below the $x$-axis near $x=3$ and above it near $x=4$, with its zero in $\left(3,4\right)$; (3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ is a monotonically rising curve, below the axis near $x=0$ and above it near $x=1$, with its zero in $\left(0,1\right)$; (4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ is a curve crossing the $x$-axis multiple times, with zeros in $\left(-4,-3\right)$, $\left(-3,-2\right)$, and $\left(2,3\right)$.
 
 ### Solution to Exercise 2
 
@@ -210,7 +210,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, i.e. $b+c=-\frac{3a}{2}$. $f\left(0\right)
 
 (3) find the zeros of the function $y=g\left(x\right)$ (accuracy $0.1$).
 
-![week17-3.svg](../../figures/week17-3.svg){width=50%}
+The graph: the graph of $y=g\left(x\right)=2-\left(x^2+3x+2\right)^2$ is a downward-opening double-hump (wavy) curve, with two peaks of height $2$ near $x=-2$ and $x=-1$, a shallow valley of height about $1.94$ between them at $x=-1.5$, and both ends extending downward toward $-\infty$; it meets the $x$-axis at about $x\approx-2.71$ and $x\approx-0.29$.
 
 ### Solution to Problem 8
 
@@ -238,7 +238,7 @@ The correct statements among them are ( ).
 
 (A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
 
-![week17-4.svg](../../figures/week17-4.svg){width=50%}
+The graph: horizontal axis is time $t$ (unit: month), vertical axis is the duckweed area $y$ (unit: $\mathrm{m^2}$); the exponential growth curve $y=2^t$ passes through the points $\left(0,1\right)$ and $\left(1,2\right)$, is monotonically increasing, and rises more and more steeply.
 
 ### Solution to Problem 9
 

@@ -136,7 +136,7 @@ By **Definition 9.1.3** (Simple Random Sampling) and **Definition 9.2.3** (Mode,
 
 (Review Exercises 9, Comprehensive Application, Problem 6) Randomly draw 100 sentences from an English book, count the number of words in each sentence, and make a frequency distribution table of these 100 data values. What estimates can you make from this?
 
-![week54-1.svg](../../figures/week54-1.svg){width=50%}
+(Figure: a frequency distribution table / histogram of the word counts per sentence for 100 English sentences.)
 
 ### Solution to Problem 6
 
@@ -190,7 +190,7 @@ with variance approximately $s_B^2\approx138.97$ and standard deviation approxim
 
 (2) Compute the mean, median and standard deviation of this data, and based on these values describe this student's exercise situation.
 
-![week54-2.svg](../../figures/week54-2.svg){width=50%}
+(Figure: the raw data table of this student's daily step counts over 100 days.)
 
 ### Solution to Problem 8
 

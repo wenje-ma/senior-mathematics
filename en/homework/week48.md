@@ -210,7 +210,7 @@ $\blacksquare$
 
 (Exercise 10.2, Comprehensive Application, Problem 5) As shown in the figure, a regular octahedron has its eight faces labeled with the numbers $1$ to $8$; toss it once at random and observe the number on the face touching the ground, obtaining the sample space $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8\right\}$. Construct appropriate events $A, B, C$ such that $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ holds, but $A, B, C$ are not pairwise independent.
 
-![week48-1.svg](../../figures/week48-1.svg){width=50%}
+(Figure: a regular octahedron (two square pyramids glued at their bases), with its eight triangular faces labeled $1\sim8$.)
 
 ### Solution to Problem 5
 

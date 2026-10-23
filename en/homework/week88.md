@@ -36,8 +36,6 @@ The difference between a correlation and a functional relation is that in a func
 
 (In plot (1) the points roughly descend along a straight line from upper left to lower right; in plot (2) the points are roughly horizontal at first and then drop off sharply; in plot (3) the points are scattered randomly; in plot (4) the points roughly rise along a straight line from lower left to upper right.)
 
-![week88-1.svg](../../figures/week88-1.svg){width=100%}
-
 ### Solution to Exercise 2
 
 By **Definition 8.1.3** (Positive and Negative Correlation) and **Definition 8.1.4** (Linear and Nonlinear Correlation).
@@ -129,7 +127,7 @@ Although $r=-1$, which shows that these $3$ pairs of sample data happen to lie e
 
 (4) $\left(2,0\right)$, $\left(1,\sqrt 3\right)$, $\left(0,2\right)$, $\left(-1,\sqrt 3\right)$, $\left(-2,0\right)$.
 
-![week88-2.svg](../../figures/week88-2.svg){width=100%}
+The figure shows four scatter plots: (1) $\left(-2,-3\right),\left(-1,-1\right),\left(0,1\right),\left(1,3\right),\left(2,5\right),\left(3,7\right)$, all lying on the line $y=2x+1$; (2) $\left(0,0\right),\left(1,1\right),\left(2,4\right),\left(3,9\right),\left(4,16\right)$, distributed along the parabola $y=x^2$; (3) $\left(-2,-8\right),\left(-1,-1\right),\left(0,0\right),\left(1,1\right),\left(2,8\right),\left(3,27\right)$, distributed along the curve $y=x^3$; (4) $\left(2,0\right),\left(1,\sqrt 3\right),\left(0,2\right),\left(-1,\sqrt 3\right),\left(-2,0\right)$, distributed along an upper semicircle.
 
 ### Solution to Exercise 6
 
@@ -187,8 +185,6 @@ By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient
 (Exercise 8.1, Review and Consolidation, Problem 1) Among the following $4$ scatter plots, infer in which plots there is a correlation between $y$ and $x$? Which are positively correlated and which are negatively correlated? Which plots correspond to paired sample data that show a linear correlation? Which correspond to paired sample data that show a nonlinear correlation?
 
 (In plot (1) the points show no obvious upward or downward trend; in plot (2) the points lie along a straight line from lower left to upper right; in plot (3) the points lie along a straight line from upper left to lower right; in plot (4) the points lie along a straight line from lower left to upper right.)
-
-![week88-3.svg](../../figures/week88-3.svg){width=100%}
 
 ### Solution to Problem 1
 

@@ -44,7 +44,7 @@ By the contrapositive of **Theorem 1.2.1** (Fundamental Theorem of Spatial Vecto
 
 (2) If $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis of space, express the following vectors in terms of it: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
 
-![week57-1.svg](../../figures/week57-1.svg){width=50%}
+(Figure: a parallelepiped $OABC-O'A'B'C'$ with $G$ the center of face $BB'C'C$; $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.)
 
 ### Solution to Exercise 3
 
@@ -86,7 +86,7 @@ By **Common Conclusion 1.1.13**, $\boldsymbol{OA} \perp \boldsymbol{BC}$, i.e. $
 
 (Exercise 1.2, Problem 2) As shown in the figure, in the parallelepiped $ABCD-A'B'C'D'$, $AB=2$, $AD=2$, $AA'=3$, and $\angle BAD=\angle BAA'=\angle DAA'=60^\circ$. Find the cosine of the angle between $BC'$ and $CA'$.
 
-![week57-2.svg](../../figures/week57-2.svg){width=50%}
+(Figure: a parallelepiped $ABCD-A'B'C'D'$, with the three edges from $A$ ($AB,AD,AA'$) making pairwise $60^\circ$ angles.)
 
 ### Solution to Exercise 5
 
@@ -116,7 +116,7 @@ By **Common Conclusion 1.1.13**, $\boldsymbol{BC'} \perp \boldsymbol{CA'}$, i.e.
 
 (Exercise 1.2, Problem 3) As shown in the figure, given a cube $ABCD-A'B'C'D'$, $CD'$ and $DC'$ intersect at point $O$; join $AO$. Prove that $AO \perp CD'$.
 
-![week57-3.svg](../../figures/week57-3.svg){width=50%}
+(Figure: a cube $ABCD-A'B'C'D'$; $CD'$ and $DC'$ meet at the center $O$ of side face $CC'D'D$, and $AO$ is joined.)
 
 ### Solution to Exercise 6
 
@@ -186,7 +186,7 @@ $\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\fr
 
 (Exercise 1.2, Review and Consolidation, Problem 4) As shown in the figure, translate $\triangle ABC$ in space to $\triangle A'B'C'$, and join the corresponding vertices. Set $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$; $M$ is the midpoint of $BC'$ and $N$ is the midpoint of $B'C'$. Express the vectors $\boldsymbol{AM}$, $\boldsymbol{AN}$ in terms of the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$.
 
-![week57-4.svg](../../figures/week57-4.svg){width=50%}
+(Figure: $\triangle ABC$ translated to $\triangle A'B'C'$, with $M$ the midpoint of $BC'$ and $N$ the midpoint of $B'C'$.)
 
 ### Solution to Problem 4
 
@@ -202,7 +202,7 @@ Hence $\boldsymbol{AN}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\bold
 
 (Exercise 1.2, Comprehensive Application, Problem 5) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, $M$ is the intersection of $AC$ and $BD$. If $D_1A_1=2$, $D_1C_1=2$, $D_1D=3$, find the length of $B_1M$.
 
-![week57-5.svg](../../figures/week57-5.svg){width=50%}
+(Figure: a cuboid $ABCD-A_1B_1C_1D_1$, with $M$ the intersection of the base diagonals $AC$ and $BD$.)
 
 ### Solution to Problem 5
 
@@ -228,7 +228,7 @@ Hence $B_1M=\sqrt{11}$. $\blacksquare$
 
 (Exercise 1.2, Comprehensive Application, Problem 6) As shown in the figure, the base $ABCD$ of the parallelepiped $ABCD-A_1B_1C_1D_1$ is a rhombus, and $\angle C_1CB=\angle C_1CD=\angle BCD=60^\circ$, $CD=CC_1$. Prove that $CA_1 \perp$ the plane $C_1BD$.
 
-![week57-6.svg](../../figures/week57-6.svg){width=50%}
+(Figure: a parallelepiped $ABCD-A_1B_1C_1D_1$ with rhombus base $ABCD$, $CD=CC_1$, and the three angles at vertex $C$ all equal to $60^\circ$.)
 
 ### Solution to Problem 6
 
@@ -258,7 +258,7 @@ By **Common Conclusion 1.1.13**, $\boldsymbol{CA_1} \perp \boldsymbol{C_1D}$ and
 
 (2) Find the cosine of the angle between $EF$ and $C_1G$.
 
-![week57-7.svg](../../figures/week57-7.svg){width=50%}
+(Figure: a cube $ABCD-A_1B_1C_1D_1$ of side $1$, with $E$ the midpoint of $DD_1$, $F$ the midpoint of $BD$, and $G$ on $CD$ with $CG=\frac{1}{4}CD$.)
 
 ### Solution to Problem 7
 

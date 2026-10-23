@@ -224,7 +224,7 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 (复习参考题 6 复习巩固第 10 题) 如图, 支座 $A$ 受 $\boldsymbol{F}_1$, $\boldsymbol{F}_2$ 两个力的作用, 已知 $\boldsymbol{F}_1$ 与水平线成 $\theta$ 角, $\lvert\boldsymbol{F}_1\rvert=40\text{ N}$, $\boldsymbol{F}_2$ 沿水平方向, $\lvert\boldsymbol{F}_2\rvert=70\text{ N}$, $\boldsymbol{F}_1$ 与 $\boldsymbol{F}_2$ 的合力 $\boldsymbol{F}$ 的大小为 $100\text{ N}$, 求 $\cos\theta$ 以及 $\boldsymbol{F}$ 与 $\boldsymbol{F}_2$ 的夹角 $\beta$ 的余弦值.
 
-![week51-1.svg](../../figures/week51-1.svg){width=50%}
+(题图: 支座 $A$ 受两个力 $\boldsymbol{F}_1,\boldsymbol{F}_2$ 作用, $\boldsymbol{F}_1$ 斜向上与水平线成 $\theta$ 角, $\boldsymbol{F}_2$ 沿水平方向向右, 二者合力 $\boldsymbol{F}$ 斜向上, 与 $\boldsymbol{F}_2$ 夹角为 $\beta$.)
 
 ### 解答 习题十
 
@@ -394,7 +394,7 @@ $P_1P_2^2=R^2+R^2-2R^2\cos120^{\circ}=3R^2$. $P_1P_2=R\sqrt 3$.
 
 (复习参考题 6 综合运用第 16 题) 如图, 已知 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, 任意点 $M$ 关于点 $A$ 的对称点为 $S$, 点 $S$ 关于点 $B$ 的对称点为 $N$, 用 $\boldsymbol{a}$, $\boldsymbol{b}$ 表示向量 $\boldsymbol{MN}$.
 
-![week51-2.svg](../../figures/week51-2.svg){width=50%}
+(题图: 点 $O$ 出发两条向量 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$; 任一点 $M$, 其关于 $A$ 的对称点为 $S$, $S$ 关于 $B$ 的对称点为 $N$, 四点 $M,S,N$ 与 $A,B$ 共线排列.)
 
 ### 解答 习题十六
 
@@ -442,7 +442,7 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 (复习参考题 6 拓广探索第 19 题) 如图, 直线 $l$ 与 $\triangle ABC$ 的边 $AB$, $AC$ 分别相交于点 $D$, $E$. 设 $AB=c$, $BC=a$, $CA=b$, $\angle ADE=\theta$, 请用向量方法探究 $\theta$ 与 $\triangle ABC$ 的边和角之间的等量关系.
 
-![week51-3.svg](../../figures/week51-3.svg){width=50%}
+(题图: $\triangle ABC$, 一条直线 $l$ 与 $AB$ 交于 $D$, 与 $AC$ 交于 $E$; $\angle ADE=\theta$.)
 
 ### 解答 习题十九
 

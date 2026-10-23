@@ -22,7 +22,7 @@
 
 (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$.
 
-![week23-1.svg](../../figures/week23-1.svg){width=100%}
+The graphs: four sine sketches each over one period. (1) $y=\frac{1}{2}\sin x$: period $2\pi$, amplitude $\frac{1}{2}$, oscillating between $y=-\frac{1}{2}$ and $y=\frac{1}{2}$; (2) $y=\sin3x$: period $\frac{2\pi}{3}$, amplitude $1$, oscillating between $y=-1$ and $y=1$ with a denser wave; (3) $y=\sin\left(x-\frac{\pi}{3}\right)$: period $2\pi$, amplitude $1$, i.e. $y=\sin x$ shifted right by $\frac{\pi}{3}$; (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$: period $\pi$, amplitude $2$, oscillating between $y=-2$ and $y=2$.
 
 ### Solution to Exercise 1
 
@@ -156,7 +156,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$.
 
-![week23-2.svg](../../figures/week23-2.svg){width=100%}
+The graphs: four sketches each over one period. (1) $y=4\sin\frac{x}{2}$: period $4\pi$, amplitude $4$, oscillating between $y=-4$ and $y=4$ with a sparser wave; (2) $y=\frac{1}{2}\cos3x$: period $\frac{2\pi}{3}$, amplitude $\frac{1}{2}$, oscillating between $y=-\frac{1}{2}$ and $y=\frac{1}{2}$; (3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$: period $\pi$, amplitude $3$; (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: period $4\pi$, amplitude $2$.
 
 ### Solution to Problem 2
 
@@ -190,7 +190,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
 
-![week23-3.svg](../../figures/week23-3.svg){width=50%}
+The graph: the graph of $y=A\sin\left(\omega x+\varphi\right)$ over one period, with amplitude $A=2$ (maximum $2$, minimum $-2$) and period $\pi$; the curve passes through the point $\left(0,1\right)$ on a rising edge (i.e. at $x=0$ the function value is $1$ and then rises to the peak $2$).
 
 ### Solution to Problem 4
 

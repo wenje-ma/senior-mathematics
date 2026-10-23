@@ -92,7 +92,7 @@ Since $\boldsymbol{n} \cdot \boldsymbol{u}=0$, we have $l \parallel \alpha$. $\b
 
 (Exercise 1.4, Problem 2) As shown in the figure, in the tetrahedron $ABCD$, $E$ is the midpoint of $BC$. Does there exist a point $F$ on line $AD$ such that $AE \parallel CF$?
 
-![week59-1.svg](../../figures/week59-1.svg){width=50%}
+The figure is a view of the tetrahedron $ABCD$: the four vertices are $A$, $B$, $C$, $D$, and the six edges are $AB$, $AC$, $AD$, $BC$, $BD$, $CD$; $E$ is the midpoint of edge $BC$, and segment $AE$ is drawn.
 
 ### Solution to Exercise 5
 
@@ -118,7 +118,7 @@ Hence there is no point $F$ on line $AD$ such that $AE \parallel CF$. $\blacksqu
 
 (Exercise 1.4, Problem 3) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $E$, $F$ are the centers of faces $AB_1$ and $A_1C_1$, respectively. Prove that $EF \parallel$ the plane $ACD_1$.
 
-![week59-2.svg](../../figures/week59-2.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; $E$ is the center of side face $AB_1$ (the rectangle $ABB_1A_1$), $F$ is the center of the upper face $A_1B_1C_1D_1$ (i.e. face $A_1C_1$), and segment $EF$ is drawn.
 
 ### Solution to Exercise 6
 
@@ -176,7 +176,7 @@ $d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 (4) Find the distance from line $FC_1$ to the plane $AB_1E$.
 
-![week59-3.svg](../../figures/week59-3.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $E$ is the midpoint of lateral edge $DD_1$, and $F$ is the midpoint of lateral edge $BB_1$.
 
 ### Solution to Exercise 8
 
@@ -206,7 +206,7 @@ $d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 (Exercise 1.4, Problem 3) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, find the distance between the plane $A_1DB$ and the plane $D_1CB_1$.
 
-![week59-4.svg](../../figures/week59-4.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: two parallel equilateral-triangular cross-sections $A_1BD$ and $D_1CB_1$ are drawn (joining $A_1$, $B$, $D$ and $D_1$, $C$, $B_1$, respectively).
 
 ### Solution to Exercise 9
 
@@ -292,7 +292,7 @@ Hence the answer is (C). $\blacksquare$
 
 (Exercise 1.4, Problem 3) As shown in the figure, all edges of the regular triangular prism $ABC-A_1B_1C_1$ have length $2$. Find the cosine of the angle between the plane $AA_1B$ and the plane $A_1BC_1$.
 
-![week59-5.svg](../../figures/week59-5.svg){width=50%}
+The figure is a view of the regular triangular prism $ABC-A_1B_1C_1$: the lower base is the equilateral triangle $ABC$, the upper base is the congruent equilateral triangle $A_1B_1C_1$, and the three lateral edges $AA_1$, $BB_1$, $CC_1$ are parallel to one another and perpendicular to the bases; all edges have length $2$.
 
 ### Solution to Exercise 12
 
@@ -320,7 +320,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (3) The cosine of the angle between the plane $ABD$ and the plane $BDC$.
 
-![week59-6.svg](../../figures/week59-6.svg){width=50%}
+The figure shows two triangles sharing an edge: $\triangle ABC$ and $\triangle DBC$ are joined along the common edge $BC$, and the planes they lie in are perpendicular; $AB=BC=BD$, and $\angle CBA=\angle DBC=120^\circ$.
 
 ### Solution to Exercise 13
 
@@ -354,7 +354,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (Exercise 1.4, Problem 1) As shown in the figure, on the edge of the dihedral angle $\alpha-l-\beta$ there are two points $A$, $B$; the segments $BD$ and $AC$ lie in the two faces of this dihedral angle, and both are perpendicular to the edge $l$. If $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, find the angle between plane $\alpha$ and plane $\beta$.
 
-![week59-7.svg](../../figures/week59-7.svg){width=50%}
+The figure is a view of the dihedral angle $\alpha-l-\beta$: on the edge $l$ lie two points $A$, $B$; segment $AC$ lies in face $\alpha$ and segment $BD$ lies in face $\beta$, with $AC \perp l$ and $BD \perp l$; $AB=4$, $AC=6$, $BD=8$, and the distance between $C$ and $D$ is $CD=2\sqrt{17}$.
 
 ### Solution to Exercise 14
 
@@ -380,7 +380,7 @@ Hence $\theta=60^\circ$. $\blacksquare$
 
 (Exercise 1.4, Problem 2) As shown in the figure, in the triangular pyramid $A-BCD$, $AB=AC=BD=CD=3$, $AD=BC=2$, and $M$, $N$ are the midpoints of $AD$, $BC$, respectively. Find the cosine of the angle between the skew lines $AN$ and $CM$.
 
-![week59-8.svg](../../figures/week59-8.svg){width=50%}
+The figure is a view of the triangular pyramid $A-BCD$: $AB=AC=BD=CD=3$, $AD=BC=2$; $M$ is the midpoint of edge $AD$, $N$ is the midpoint of edge $BC$, and segments $AN$ and $CM$ are drawn.
 
 ### Solution to Exercise 15
 
@@ -410,7 +410,7 @@ $\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
 
 (Exercise 1.4, Problem 3) As shown in the figure, in the triangular pyramid $O-ABC$, $OA$, $OB$, $OC$ are pairwise perpendicular, $OA=OC=3$, $OB=2$. Find the sine of the angle between line $OB$ and the plane $ABC$.
 
-![week59-9.svg](../../figures/week59-9.svg){width=50%}
+The figure is a view of the triangular pyramid $O-ABC$: the three lateral edges $OA$, $OB$, $OC$ are pairwise perpendicular, with $OA=OC=3$ and $OB=2$, and the base is $\triangle ABC$.
 
 ### Solution to Exercise 16
 
@@ -432,7 +432,7 @@ $\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \bo
 
 (Exercise 1.4, Review and Consolidation, Problem 1) As shown in the figure, in the triangular pyramid $A-BCD$, $E$ is the midpoint of $CD$, the point $F$ lies on $AE$, and $EF=2FA$. Set $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$. Find the direction vectors of lines $AE$ and $BF$.
 
-![week59-10.svg](../../figures/week59-10.svg){width=50%}
+The figure is a view of the triangular pyramid $A-BCD$: $E$ is the midpoint of edge $CD$, point $F$ lies on the median $AE$ with $EF=2FA$ (i.e. $AF:FE=1:2$), and segment $BF$ is drawn.
 
 ### Solution to Problem 1
 
@@ -454,7 +454,7 @@ Hence the direction vector of line $AE$ is $-\boldsymbol{c}+\frac{1}{2}\boldsymb
 
 (2) Find a normal vector of the plane $A_1BC$.
 
-![week59-11.svg](../../figures/week59-11.svg){width=50%}
+The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BAC=90^\circ$, $AB=AC=1$, and the lateral edge $AA_1=2$ is perpendicular to the base; a rectangular coordinate system is set up with $A$ as the origin, $AB$ as the $x$-axis, $AC$ as the $y$-axis, and $AA_1$ as the $z$-axis.
 
 ### Solution to Problem 2
 
@@ -474,7 +474,7 @@ Let $\boldsymbol{n}_2=\left(x,y,z\right)$; $\boldsymbol{n}_2 \cdot \boldsymbol{A
 
 (Exercise 1.4, Review and Consolidation, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A_1B_1C_1D_1$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $C_1D_1$. Prove that $A_1E \parallel CF$.
 
-![week59-12.svg](../../figures/week59-12.svg){width=50%}
+The figure is a view of the parallelepiped $ABCD-A_1B_1C_1D_1$: $E$ is the midpoint of edge $AB$, $F$ is the midpoint of edge $C_1D_1$, and segments $A_1E$ and $CF$ are drawn.
 
 ### Solution to Problem 3
 
@@ -494,7 +494,7 @@ By **Common Conclusion 1.4.3**, $A_1E \parallel CF$. $\blacksquare$
 
 (Exercise 1.4, Review and Consolidation, Problem 4) As shown in the figure, in the tetrahedron $ABCD$, $AD \perp$ the plane $BCD$, $M$ is the midpoint of $AD$, and $P$ is the midpoint of $BM$. The point $Q$ lies on segment $AC$ with $AQ=3QC$. Prove that $PQ \parallel$ the plane $BCD$.
 
-![week59-13.svg](../../figures/week59-13.svg){width=50%}
+The figure is a view of the tetrahedron $ABCD$: $AD \perp$ the plane $BCD$ ($AD$ vertical, base $BCD$ horizontal); $M$ is the midpoint of edge $AD$, $P$ is the midpoint of segment $BM$, point $Q$ lies on edge $AC$ with $AQ:QC=3:1$, and segment $PQ$ is drawn.
 
 ### Solution to Problem 4
 
@@ -526,7 +526,7 @@ Moreover $PQ \not\subset$ the plane $BCD$ (since the $z$-coordinates of $P$, $Q$
 
 (2) $EF \perp CB_1$.
 
-![week59-14.svg](../../figures/week59-14.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: point $E$ lies on the face diagonal $BD$ with $BE=\frac{1}{3}BD$, point $F$ lies on the face diagonal $CB_1$ with $CF=\frac{1}{3}CB_1$, and segment $EF$ is drawn.
 
 ### Solution to Problem 5
 
@@ -554,7 +554,7 @@ $\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. Hence $E
 
 (Exercise 1.4, Review and Consolidation, Problem 6) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $O$ is the center of the square $A_1ABB_1$ and $E$ is the midpoint of $BC$. Find the distance from point $O$ to the line $A_1E$.
 
-![week59-15.svg](../../figures/week59-15.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $O$ is the center of the side square $A_1ABB_1$, $E$ is the midpoint of edge $BC$, and segment $A_1E$ is drawn.
 
 ### Solution to Problem 6
 
@@ -586,7 +586,7 @@ $d=\sqrt{\frac{1}{2}-\left(\frac{1}{\frac{3}{2}}\right)^2}=\sqrt{\frac{1}{2}-\fr
 
 (2) Find the distance from point $O$ to the plane $ABC$.
 
-![week59-16.svg](../../figures/week59-16.svg){width=50%}
+The figure is a view of the regular tetrahedron $OABC$: all six edges have length $1$; $D$ is the midpoint of edge $OA$, $E$ is the midpoint of edge $BC$, and segment $DE$ is drawn.
 
 ### Solution to Problem 7
 
@@ -614,7 +614,7 @@ $d=\frac{\sqrt{6}}{3}$. $\blacksquare$
 
 (Exercise 1.4, Comprehensive Application, Problem 8) As shown in the figure, every edge of the tetrahedron $ABCD$ has length $a$, and $M$, $N$ are the midpoints of $AB$, $CD$, respectively. Prove that $MN \perp AB$ and $MN \perp CD$.
 
-![week59-17.svg](../../figures/week59-17.svg){width=50%}
+The figure is a view of the regular tetrahedron $ABCD$: all six edges have length $a$; $M$ is the midpoint of edge $AB$, $N$ is the midpoint of edge $CD$, and segment $MN$ is drawn.
 
 ### Solution to Problem 8
 
@@ -646,7 +646,7 @@ Hence $MN \perp CD$. $\blacksquare$
 
 (2) The size of the angle between $MN$ and $AD$.
 
-![week59-18.svg](../../figures/week59-18.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A'B'C'D'$: $M$ is the midpoint of edge $BB'$, $N$ is the midpoint of edge $B'C'$, and segment $MN$ is drawn.
 
 ### Solution to Problem 9
 
@@ -682,7 +682,7 @@ $\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot 1}=\frac{1}{\sqrt{2}}=\f
 
 (2) Find the cosine of the angle between $DB_1$ and the plane $EFGHKL$.
 
-![week59-19.svg](../../figures/week59-19.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: $E$, $F$, $G$, $H$, $K$, $L$ are the midpoints of edges $AB$, $BB_1$, $B_1C_1$, $C_1D_1$, $D_1D$, $DA$, respectively; these six midpoints form a regular hexagonal cross-section $EFGHKL$.
 
 ### Solution to Problem 10
 
@@ -716,7 +716,7 @@ $\cos\theta=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. $\blacksquare$
 
 (Exercise 1.4, Comprehensive Application, Problem 11) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, $AB=2$, $BC=CC_1=1$, and $E$ is the midpoint of $CD$. Prove that $B_1E \perp$ the plane $AED_1$.
 
-![week59-20.svg](../../figures/week59-20.svg){width=50%}
+The figure is an oblique projection of the cuboid $ABCD-A_1B_1C_1D_1$: $AB=2$, $BC=CC_1=1$, and $E$ is the midpoint of edge $CD$.
 
 ### Solution to Problem 11
 
@@ -742,7 +742,7 @@ Hence $B_1E \perp AE$ and $B_1E \perp AD_1$, and since $AE \cap AD_1=A$, we have
 
 (Exercise 1.4, Comprehensive Application, Problem 12) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, the points $E$, $F$, $G$ lie on edges $A_1A$, $A_1B_1$, $A_1D_1$, respectively, with $A_1E=A_1F=A_1G=1$; the points $P$, $Q$, $R$ lie on edges $CC_1$, $CD$, $CB$, respectively, with $CP=CQ=CR=1$. Prove that the plane $EFG \parallel$ the plane $PQR$.
 
-![week59-21.svg](../../figures/week59-21.svg){width=50%}
+The figure is an oblique projection of the cuboid $ABCD-A_1B_1C_1D_1$: points $E$, $F$, $G$ lie on edges $A_1A$, $A_1B_1$, $A_1D_1$ with $A_1E=A_1F=A_1G=1$, forming plane $EFG$; points $P$, $Q$, $R$ lie on edges $CC_1$, $CD$, $CB$ with $CP=CQ=CR=1$, forming plane $PQR$, the two planes being centrally symmetric about the center of the cuboid.
 
 ### Solution to Problem 12
 
@@ -764,7 +764,7 @@ By **Common Conclusion 1.4.3**, $\boldsymbol{n}_1 \parallel \boldsymbol{n}_2$, s
 
 (Exercise 1.4, Comprehensive Application, Problem 13) As shown in the figure, given that the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$ and $E$ is the midpoint of $CD$, find the distance from point $D_1$ to the plane $AEC_1$.
 
-![week59-22.svg](../../figures/week59-22.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $E$ is the midpoint of edge $CD$, and the plane $AEC_1$ is drawn.
 
 ### Solution to Problem 13
 
@@ -786,7 +786,7 @@ $d=\frac{\lvert \boldsymbol{AD_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbo
 
 (Exercise 1.4, Comprehensive Application, Problem 14) As shown in the figure, the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$, $M$ is the midpoint of edge $AA_1$, and $O$ is the midpoint of $BD_1$. Prove that $OM$ is perpendicular to the skew lines $AA_1$ and $BD_1$, respectively, and find the length of $OM$.
 
-![week59-23.svg](../../figures/week59-23.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $M$ is the midpoint of edge $AA_1$, $O$ is the midpoint of diagonal $BD_1$, and segment $OM$ is drawn.
 
 ### Solution to Problem 14
 
@@ -812,7 +812,7 @@ $OM=\sqrt{\frac{1}{4}+\frac{1}{4}+0}=\frac{\sqrt{2}}{2}$. $\blacksquare$
 
 (Exercise 1.4, Comprehensive Application, Problem 15) As shown in the figure, given that the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$, $Q$ is the midpoint of $B_1C_1$, and the point $P$ lies on edge $AA_1$ with $AP:AA_1=1:3$. Find the cosine of the angle between the plane $ABCD$ and the plane $BQP$.
 
-![week59-24.svg](../../figures/week59-24.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $Q$ is the midpoint of edge $B_1C_1$, point $P$ lies on edge $AA_1$ with $AP:AA_1=1:3$, and the plane $BQP$ is drawn.
 
 ### Solution to Problem 15
 
@@ -834,7 +834,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (Exercise 1.4, Extension and Exploration, Problem 16) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $\angle BAC=90^\circ$, $AB=AC=2$, $AA_1=3$. $M$ is the midpoint of $AB$, $N$ is the midpoint of $B_1C_1$, and $P$ is the intersection of $BC_1$ and $B_1C$. Does there exist a point $Q$ on segment $A_1N$ such that $PQ \parallel$ the plane $A_1CM$?
 
-![week59-25.svg](../../figures/week59-25.svg){width=50%}
+The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BAC=90^\circ$, $AB=AC=2$, and the lateral edge $AA_1=3$; $M$ is the midpoint of $AB$, $N$ is the midpoint of $B_1C_1$, $P$ is the intersection of the two diagonals $BC_1$ and $B_1C$ of the side face $BCC_1B_1$, and segment $A_1N$ is drawn.
 
 ### Solution to Problem 16
 
@@ -902,7 +902,7 @@ Expanding gives $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$.
 
 (3) When the length of $MN$ is minimal, find the cosine of the angle between the plane $MNA$ and the plane $MNB$.
 
-![week59-26.svg](../../figures/week59-26.svg){width=50%}
+The figure is a view of the experimental setup: two square frames $ABCD$ and $ABEF$, each of side length $1$, share the edge $AB$, and the planes they lie in are perpendicular; the beads $M$ and $N$ move on the diagonals $AC$ and $BF$, respectively, with $CM=BN=a$ ($0<a<\sqrt{2}$).
 
 ### Solution to Problem 18
 

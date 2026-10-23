@@ -92,7 +92,7 @@ $-3x=0$, $2z=0$, 故 $x=0$, $z=0$, $y$ 任意.
 
 (练习 1.4 第 2 题) 如图, 在四面体 $ABCD$ 中, $E$ 是 $BC$ 的中点. 直线 $AD$ 上是否存在点 $F$, 使得 $AE \parallel CF$?
 
-![week59-1.svg](../../figures/week59-1.svg){width=50%}
+该图为四面体 $ABCD$ 的直观图：四个顶点为 $A$, $B$, $C$, $D$，六条棱为 $AB$, $AC$, $AD$, $BC$, $BD$, $CD$；$E$ 是棱 $BC$ 的中点，图中连有线段 $AE$。
 
 ### 解答 练习五
 
@@ -118,7 +118,7 @@ $-\boldsymbol{b}+t\boldsymbol{c}=\lambda \cdot \frac{1}{2}\left(\boldsymbol{a}+\
 
 (练习 1.4 第 3 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$, $F$ 分别是面 $AB_1$, 面 $A_1C_1$ 的中心. 求证: $EF \parallel$ 平面 $ACD_1$.
 
-![week59-2.svg](../../figures/week59-2.svg){width=50%}
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：下底面 $ABCD$，上底面 $A_1B_1C_1D_1$；$E$ 是侧面 $AB_1$（矩形 $ABB_1A_1$）的中心，$F$ 是上底面 $A_1B_1C_1D_1$（即面 $A_1C_1$）的中心，图中连有线段 $EF$。
 
 ### 解答 练习六
 
@@ -176,7 +176,7 @@ $d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 (4) 求直线 $FC_1$ 到平面 $AB_1E$ 的距离.
 
-![week59-3.svg](../../figures/week59-3.svg){width=50%}
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：$E$ 是侧棱 $DD_1$ 的中点，$F$ 是侧棱 $BB_1$ 的中点。
 
 ### 解答 练习八
 
@@ -206,7 +206,7 @@ $d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 (练习 1.4 第 3 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, 求平面 $A_1DB$ 与平面 $D_1CB_1$ 的距离.
 
-![week59-4.svg](../../figures/week59-4.svg){width=50%}
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：画出两个互相平行的正三角形截面 $A_1BD$ 与 $D_1CB_1$（分别连接 $A_1$, $B$, $D$ 与 $D_1$, $C$, $B_1$）。
 
 ### 解答 练习九
 
@@ -292,7 +292,7 @@ $\cos\theta=\sqrt{1-\frac{2}{3}}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
 
 (练习 1.4 第 3 题) 如图, 正三棱柱 $ABC-A_1B_1C_1$ 的所有棱长都为 $2$, 求平面 $AA_1B$ 与平面 $A_1BC_1$ 夹角的余弦值.
 
-![week59-5.svg](../../figures/week59-5.svg){width=50%}
+该图为正三棱柱 $ABC-A_1B_1C_1$ 的直观图：下底面为正三角形 $ABC$，上底面为全等的正三角形 $A_1B_1C_1$，三条侧棱 $AA_1$, $BB_1$, $CC_1$ 互相平行且垂直于底面，所有棱长均为 $2$。
 
 ### 解答 练习十二
 
@@ -320,7 +320,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (3) 平面 $ABD$ 和平面 $BDC$ 的夹角的余弦值.
 
-![week59-6.svg](../../figures/week59-6.svg){width=50%}
+该图为两个共边三角形的直观图：$\triangle ABC$ 与 $\triangle DBC$ 以公共边 $BC$ 相连，且它们所在的平面互相垂直；$AB=BC=BD$，$\angle CBA=\angle DBC=120^\circ$。
 
 ### 解答 练习十三
 
@@ -354,7 +354,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (练习 1.4 第 1 题) 如图, 二面角 $\alpha-l-\beta$ 的棱上有两个点 $A$, $B$, 线段 $BD$ 与 $AC$ 分别在这个二面角的两个面内, 并且都垂直于棱 $l$. 若 $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, 求平面 $\alpha$ 与平面 $\beta$ 的夹角.
 
-![week59-7.svg](../../figures/week59-7.svg){width=50%}
+该图为二面角 $\alpha-l-\beta$ 的直观图：棱 $l$ 上有两点 $A$, $B$；线段 $AC$ 在面 $\alpha$ 内、线段 $BD$ 在面 $\beta$ 内，且 $AC \perp l$、$BD \perp l$；$AB=4$, $AC=6$, $BD=8$，$C$, $D$ 两点间距离 $CD=2\sqrt{17}$。
 
 ### 解答 练习十四
 
@@ -380,7 +380,7 @@ $2\boldsymbol{CA} \cdot \boldsymbol{BD}=-48$, 即 $\boldsymbol{CA} \cdot \boldsy
 
 (练习 1.4 第 2 题) 如图, 在三棱锥 $A-BCD$ 中, $AB=AC=BD=CD=3$, $AD=BC=2$, $M$, $N$ 分别是 $AD$, $BC$ 的中点. 求异面直线 $AN$, $CM$ 所成角的余弦值.
 
-![week59-8.svg](../../figures/week59-8.svg){width=50%}
+该图为三棱锥 $A-BCD$ 的直观图：$AB=AC=BD=CD=3$，$AD=BC=2$；$M$ 是棱 $AD$ 的中点，$N$ 是棱 $BC$ 的中点，图中连有线段 $AN$ 与 $CM$。
 
 ### 解答 练习十五
 
@@ -410,7 +410,7 @@ $\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
 
 (练习 1.4 第 3 题) 如图, 在三棱锥 $O-ABC$ 中, $OA$, $OB$, $OC$ 两两垂直, $OA=OC=3$, $OB=2$. 求直线 $OB$ 与平面 $ABC$ 所成角的正弦值.
 
-![week59-9.svg](../../figures/week59-9.svg){width=50%}
+该图为三棱锥 $O-ABC$ 的直观图：三条侧棱 $OA$, $OB$, $OC$ 两两垂直，且 $OA=OC=3$, $OB=2$，底面为 $\triangle ABC$。
 
 ### 解答 练习十六
 
@@ -432,7 +432,7 @@ $\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \bo
 
 (习题 1.4 复习巩固第 1 题) 如图, 在三棱锥 $A-BCD$ 中, $E$ 是 $CD$ 的中点, 点 $F$ 在 $AE$ 上, 且 $EF=2FA$. 设 $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$, 求直线 $AE$, $BF$ 的方向向量.
 
-![week59-10.svg](../../figures/week59-10.svg){width=50%}
+该图为三棱锥 $A-BCD$ 的直观图：$E$ 是棱 $CD$ 的中点，点 $F$ 在中线 $AE$ 上且 $EF=2FA$（即 $AF:FE=1:2$），图中连有线段 $BF$。
 
 ### 解答 习题一
 
@@ -454,7 +454,7 @@ $\boldsymbol{BF}=\boldsymbol{BA}+\boldsymbol{AF}=\boldsymbol{c}+\frac{1}{3}\bold
 
 (2) 求平面 $A_1BC$ 的法向量.
 
-![week59-11.svg](../../figures/week59-11.svg){width=50%}
+该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图：下底面 $\triangle ABC$ 中 $\angle BAC=90^\circ$，$AB=AC=1$，侧棱 $AA_1=2$ 且垂直于底面；以 $A$ 为原点，$AB$ 为 $x$ 轴、$AC$ 为 $y$ 轴、$AA_1$ 为 $z$ 轴建立空间直角坐标系。
 
 ### 解答 习题二
 
@@ -474,7 +474,7 @@ $A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(0,1,0\right)$, $A_1\left(0
 
 (习题 1.4 复习巩固第 3 题) 如图, 在平行六面体 $ABCD-A_1B_1C_1D_1$ 中, $E$ 是 $AB$ 的中点, $F$ 是 $C_1D_1$ 的中点. 求证: $A_1E \parallel CF$.
 
-![week59-12.svg](../../figures/week59-12.svg){width=50%}
+该图为平行六面体 $ABCD-A_1B_1C_1D_1$ 的直观图：$E$ 是棱 $AB$ 的中点，$F$ 是棱 $C_1D_1$ 的中点，图中连有线段 $A_1E$ 与 $CF$。
 
 ### 解答 习题三
 
@@ -494,7 +494,7 @@ $\boldsymbol{CF}=\boldsymbol{CD}+\boldsymbol{DD_1}+\boldsymbol{D_1F}=-\boldsymbo
 
 (习题 1.4 复习巩固第 4 题) 如图, 在四面体 $ABCD$ 中, $AD \perp$ 平面 $BCD$, $M$ 是 $AD$ 的中点, $P$ 是 $BM$ 的中点. 点 $Q$ 在线段 $AC$ 上, 且 $AQ=3QC$. 求证: $PQ \parallel$ 平面 $BCD$.
 
-![week59-13.svg](../../figures/week59-13.svg){width=50%}
+该图为四面体 $ABCD$ 的直观图：$AD \perp$ 平面 $BCD$（$AD$ 竖直，底面 $BCD$ 水平）；$M$ 是棱 $AD$ 的中点，$P$ 是线段 $BM$ 的中点，点 $Q$ 在棱 $AC$ 上且 $AQ:QC=3:1$，图中连有线段 $PQ$。
 
 ### 解答 习题四
 
@@ -526,7 +526,7 @@ $\boldsymbol{PQ} \cdot \left(0,0,1\right)=0$, 即 $\boldsymbol{PQ} \perp$ 法向
 
 (2) $EF \perp CB_1$.
 
-![week59-14.svg](../../figures/week59-14.svg){width=50%}
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：点 $E$ 在面对角线 $BD$ 上且 $BE=\frac{1}{3}BD$，点 $F$ 在面对角线 $CB_1$ 上且 $CF=\frac{1}{3}CB_1$，图中连有线段 $EF$。
 
 ### 解答 习题五
 
@@ -554,7 +554,7 @@ $\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. 故 $EF 
 
 (习题 1.4 复习巩固第 6 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, $O$ 为正方形 $A_1ABB_1$ 的中心, $E$ 为 $BC$ 的中点, 求点 $O$ 到直线 $A_1E$ 的距离.
 
-![week59-15.svg](../../figures/week59-15.svg){width=50%}
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：$O$ 是侧面正方形 $A_1ABB_1$ 的中心，$E$ 是棱 $BC$ 的中点，图中连有线段 $A_1E$。
 
 ### 解答 习题六
 
@@ -586,7 +586,7 @@ $d=\sqrt{\frac{1}{2}-\left(\frac{1}{\frac{3}{2}}\right)^2}=\sqrt{\frac{1}{2}-\fr
 
 (2) 求点 $O$ 到平面 $ABC$ 的距离.
 
-![week59-16.svg](../../figures/week59-16.svg){width=50%}
+该图为正四面体 $OABC$ 的直观图：六条棱均为 $1$；$D$ 是棱 $OA$ 的中点，$E$ 是棱 $BC$ 的中点，图中连有线段 $DE$。
 
 ### 解答 习题七
 
@@ -614,7 +614,7 @@ $d=\frac{\sqrt{6}}{3}$. $\blacksquare$
 
 (习题 1.4 综合运用第 8 题) 如图, 四面体 $ABCD$ 的每条棱长都等于 $a$, $M$, $N$ 分别是 $AB$, $CD$ 的中点. 求证: $MN \perp AB$, $MN \perp CD$.
 
-![week59-17.svg](../../figures/week59-17.svg){width=50%}
+该图为正四面体 $ABCD$ 的直观图：六条棱长均为 $a$；$M$ 是棱 $AB$ 的中点，$N$ 是棱 $CD$ 的中点，图中连有线段 $MN$。
 
 ### 解答 习题八
 
@@ -646,7 +646,7 @@ $\boldsymbol{MN} \cdot \boldsymbol{AB}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{
 
 (2) $MN$ 和 $AD$ 所成角的大小.
 
-![week59-18.svg](../../figures/week59-18.svg){width=50%}
+该图为正方体 $ABCD-A'B'C'D'$ 的斜二测直观图：$M$ 是棱 $BB'$ 的中点，$N$ 是棱 $B'C'$ 的中点，图中连有线段 $MN$。
 
 ### 解答 习题九
 
@@ -682,7 +682,7 @@ $\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot 1}=\frac{1}{\sqrt{2}}=\f
 
 (2) 求 $DB_1$ 与平面 $EFGHKL$ 所成角的余弦值.
 
-![week59-19.svg](../../figures/week59-19.svg){width=50%}
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：$E$, $F$, $G$, $H$, $K$, $L$ 依次为棱 $AB$, $BB_1$, $B_1C_1$, $C_1D_1$, $D_1D$, $DA$ 的中点，这六个中点连成一个正六边形截面 $EFGHKL$。
 
 ### 解答 习题十
 
@@ -716,7 +716,7 @@ $\cos\theta=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. $\blacksquare$
 
 (习题 1.4 综合运用第 11 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, $AB=2$, $BC=CC_1=1$, $E$ 是 $CD$ 的中点. 求证: $B_1E \perp$ 平面 $AED_1$.
 
-![week59-20.svg](../../figures/week59-20.svg){width=50%}
+该图为长方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：$AB=2$, $BC=CC_1=1$，$E$ 是棱 $CD$ 的中点。
 
 ### 解答 习题十一
 
@@ -742,7 +742,7 @@ $\boldsymbol{B_1E} \cdot \boldsymbol{AD_1}=1+0-1=0$.
 
 (习题 1.4 综合运用第 12 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, 点 $E$, $F$, $G$ 分别在棱 $A_1A$, $A_1B_1$, $A_1D_1$ 上, $A_1E=A_1F=A_1G=1$; 点 $P$, $Q$, $R$ 分别在棱 $CC_1$, $CD$, $CB$ 上, $CP=CQ=CR=1$. 求证: 平面 $EFG \parallel$ 平面 $PQR$.
 
-![week59-21.svg](../../figures/week59-21.svg){width=50%}
+该图为长方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：点 $E$, $F$, $G$ 分别在棱 $A_1A$, $A_1B_1$, $A_1D_1$ 上且 $A_1E=A_1F=A_1G=1$，连成平面 $EFG$；点 $P$, $Q$, $R$ 分别在棱 $CC_1$, $CD$, $CB$ 上且 $CP=CQ=CR=1$，连成平面 $PQR$，两平面关于长方体内中心对称。
 
 ### 解答 习题十二
 
@@ -764,7 +764,7 @@ $P$, $Q$, $R$ 关于长方体中心对称, 平面 $PQR$ 的法向量 $\boldsymbo
 
 (习题 1.4 综合运用第 13 题) 如图, 已知正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $E$ 为 $CD$ 的中点, 求点 $D_1$ 到平面 $AEC_1$ 的距离.
 
-![week59-22.svg](../../figures/week59-22.svg){width=50%}
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：$E$ 是棱 $CD$ 的中点，图中画出平面 $AEC_1$。
 
 ### 解答 习题十三
 
@@ -786,7 +786,7 @@ $d=\frac{\lvert \boldsymbol{AD_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbo
 
 (习题 1.4 综合运用第 14 题) 如图, 正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $M$ 是棱 $AA_1$ 的中点, $O$ 是 $BD_1$ 的中点. 求证: $OM$ 分别与异面直线 $AA_1$, $BD_1$ 垂直, 并求 $OM$ 的长.
 
-![week59-23.svg](../../figures/week59-23.svg){width=50%}
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：$M$ 是棱 $AA_1$ 的中点，$O$ 是对角线 $BD_1$ 的中点，图中连有线段 $OM$。
 
 ### 解答 习题十四
 
@@ -812,7 +812,7 @@ $OM=\sqrt{\frac{1}{4}+\frac{1}{4}+0}=\frac{\sqrt{2}}{2}$. $\blacksquare$
 
 (习题 1.4 综合运用第 15 题) 如图, 已知正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $Q$ 为 $B_1C_1$ 的中点, 点 $P$ 在棱 $AA_1$ 上, $AP:AA_1=1:3$. 求平面 $ABCD$ 与平面 $BQP$ 夹角的余弦值.
 
-![week59-24.svg](../../figures/week59-24.svg){width=50%}
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：$Q$ 是棱 $B_1C_1$ 的中点，点 $P$ 在棱 $AA_1$ 上且 $AP:AA_1=1:3$，图中画出平面 $BQP$。
 
 ### 解答 习题十五
 
@@ -834,7 +834,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (习题 1.4 拓广探索第 16 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $\angle BAC=90^\circ$, $AB=AC=2$, $AA_1=3$. $M$ 是 $AB$ 的中点, $N$ 是 $B_1C_1$ 的中点, $P$ 是 $BC_1$ 与 $B_1C$ 的交点. 在线段 $A_1N$ 上是否存在点 $Q$, 使得 $PQ \parallel$ 平面 $A_1CM$?
 
-![week59-25.svg](../../figures/week59-25.svg){width=50%}
+该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图：下底面 $\triangle ABC$ 中 $\angle BAC=90^\circ$，$AB=AC=2$，侧棱 $AA_1=3$；$M$ 是 $AB$ 中点，$N$ 是 $B_1C_1$ 中点，$P$ 是侧面 $BCC_1B_1$ 两对角线 $BC_1$ 与 $B_1C$ 的交点，图中连有线段 $A_1N$。
 
 ### 解答 习题十六
 
@@ -902,7 +902,7 @@ $\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
 
 (3) 当 $MN$ 的长最小时, 求平面 $MNA$ 与平面 $MNB$ 夹角的余弦值.
 
-![week59-26.svg](../../figures/week59-26.svg){width=50%}
+该图为试验装置的直观图：两个边长均为 $1$ 的正方形框架 $ABCD$ 与 $ABEF$ 共用边 $AB$，且所在平面互相垂直；弹子 $M$ 在对角线 $AC$ 上、$N$ 在对角线 $BF$ 上，且 $CM=BN=a$（$0<a<\sqrt{2}$）。
 
 ### 解答 习题十八
 

@@ -108,7 +108,7 @@ From the second equation, $x=2$. Substituting into the first gives $2+y-3=0$, i.
 
 (Exercise 7.1, Problem 1) State the complex numbers represented by the points in the complex plane shown in the figure (each small square has side length $1$).
 
-![week35-1.svg](../../figures/week35-1.svg){width=50%}
+The figure: a rectangular coordinate plane of complex numbers (the horizontal axis is the real axis and the vertical axis is the imaginary axis, with the side of each small square equal to $1$); eight points are marked: $A\left(3,3\right)$, $B\left(2,-2\right)$, $C\left(-3,2\right)$, $D\left(-3,-2\right)$, $E\left(3,0\right)$ (on the real axis), $F\left(-2,0\right)$ (on the real axis), $G\left(0,3\right)$ (on the imaginary axis), and $H\left(0,-3\right)$ (on the imaginary axis).
 
 ### Solution to Exercise 4
 
@@ -134,7 +134,7 @@ Hence the complex numbers represented by the points are: $A:3+3\mathrm{i}$, $B:2
 
 (6) $-3\mathrm{i}$.
 
-![week35-2.svg](../../figures/week35-2.svg){width=50%}
+The figure: a rectangular coordinate plane of complex numbers with six points plotted: $2+5\mathrm{i}$ corresponds to $\left(2,5\right)$, $-3+2\mathrm{i}$ to $\left(-3,2\right)$, $2-4\mathrm{i}$ to $\left(2,-4\right)$, $-3-\mathrm{i}$ to $\left(-3,-1\right)$, $5$ to $\left(5,0\right)$ on the real axis, and $-3\mathrm{i}$ to $\left(0,-3\right)$ on the imaginary axis.
 
 ### Solution to Exercise 5
 
@@ -162,7 +162,7 @@ Just plot the above points in the complex plane. $\blacksquare$
 
 (2) Find the modulus of each of these complex numbers.
 
-![week35-3.svg](../../figures/week35-3.svg){width=50%}
+The figure: a rectangular coordinate plane of complex numbers, with five vectors drawn from the origin $O$, corresponding to the complex numbers $2+\mathrm{i}$ (i.e. $\left(2,1\right)$), $-2+4\mathrm{i}$ (i.e. $\left(-2,4\right)$), $-2\mathrm{i}$ (i.e. $\left(0,-2\right)$), $4$ (i.e. $\left(4,0\right)$), and $\frac{3}{2}-4\mathrm{i}$ (i.e. $\left(\frac{3}{2},-4\right)$).
 
 ### Solution to Exercise 6
 

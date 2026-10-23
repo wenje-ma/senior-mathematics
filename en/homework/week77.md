@@ -56,7 +56,7 @@ When $a<0$: if $x<-\frac{b}{2a}$, then $f'\left(x\right)>0$; if $x>-\frac{b}{2a}
 
 (Exercise 5.3, Problem 3) The graph of $y=f\left(x\right)$ is as shown. Sketch the approximate shape of the graph of $y=f'\left(x\right)$ on the interval $\left(0,b\right)$.
 
-![week77-1.svg](../../figures/week77-1.svg){width=100%}
+The figure is the graph of $y=f\left(x\right)$ on $\left(0,b\right)$: it rises from $x=0$, flattening on $\left(0,a\right)$ (tangent slope positive and decreasing), reaches its highest point at $x=a$ (tangent horizontal), and then falls on $\left(a,b\right)$.
 
 ### Solution to Exercise 3
 
@@ -110,7 +110,7 @@ By **Definition 5.3.1**, $f\left(x\right)$ is monotonically decreasing on $\left
 
 (Exercise 5.3, Problem 6) The graph of $y=f'\left(x\right)$ is as shown. Sketch the approximate shape of the graph of $y=f\left(x\right)$.
 
-![week77-2.svg](../../figures/week77-2.svg){width=100%}
+The figure is the graph of the derivative $y=f'\left(x\right)$: it lies above the $x$-axis on $\left(0,a\right)$ ($f'\left(x\right)>0$), crosses the $x$-axis at $x=a$, lies below the $x$-axis on $\left(a,b\right)$ ($f'\left(x\right)<0$), crosses the $x$-axis again at $x=b$, and lies above the $x$-axis once more on $\left(b,c\right)$.
 
 ### Solution to Exercise 6
 
@@ -124,7 +124,7 @@ Hence the graph of $y=f\left(x\right)$ first rises, then falls, then rises again
 
 (Exercise 5.3, Problem 7) The graph of the derivative $y=f'\left(x\right)$ of $f\left(x\right)$ is as shown. Find the extreme points of $f\left(x\right)$, and indicate which are local maximum points and which are local minimum points.
 
-![week77-3.svg](../../figures/week77-3.svg){width=50%}
+The figure is the graph of the derivative $y=f'\left(x\right)$: a continuous curve crossing the $x$-axis at $x_{2},x_{4},x_{6}$, with three more marked points $x_{1},x_{3},x_{5}$ where the curve does not cross the axis; the curve changes from negative to positive at $x_{2}$, positive to negative at $x_{4}$, and negative to positive at $x_{6}$.
 
 ### Solution to Exercise 7
 
@@ -206,7 +206,7 @@ The minimum value is $s\left(1\right)=0$. Hence $s\left(x\right)\ge s\left(1\rig
 
 (Exercise 5.3, Problem 11) Using the monotonicity of a function, prove the following inequality and verify it visually with a graph: $\sin x<x$, $x\in\left(0,\pi\right)$.
 
-![week77-4.svg](../../figures/week77-4.svg){width=50%}
+The figure shows two curves on $\left(0,\pi\right)$: the line $y=x$ and the sine curve $y=\sin x$; on $\left(0,\pi\right)$ the curve $y=\sin x$ always lies below $y=x$ (meeting only at the origin), visually illustrating $\sin x<x$.
 
 ### Solution to Exercise 11
 
@@ -220,7 +220,7 @@ Also $s\left(0\right)=0$, hence when $x\in\left(0,\pi\right)$, $s\left(x\right)>
 
 (Exercise 5.3, Problem 12) As shown in the figure, wire is bent into a shape with a semicircle on top and a rectangle below; its area is $a\ \mathrm{m^{2}}$. To use the least material, what should the diameter of the semicircle be? 
 
-![week77-5.svg](../../figures/week77-5.svg){width=50%}
+The figure shows a frame made of wire: a semicircle on top (its diameter horizontal, curving upward), joined below to a rectangle whose top side is exactly that diameter and which extends downward; the whole figure is enclosed by one continuous wire, with total area $a\ \mathrm{m^{2}}$.
 
 ### Solution to Exercise 12
 
@@ -296,7 +296,7 @@ By **Definition 5.3.1**.
 
 (2) If $y=f\left(t\right)$ represents the car's velocity at time $t$, what is the meaning of the points marked in (1)? 
 
-![week77-6.svg](../../figures/week77-6.svg){width=50%}
+The figure is the graph of $y=f\left(t\right)$ (horizontal axis time $t$, vertical axis $y$): a continuous curve that rises to a local maximum and then falls, with a horizontal tangent at the local maximum.
 
 ### Solution to Problem 3
 
@@ -318,7 +318,7 @@ By **Definition 5.1.3** (Geometric Meaning of the Derivative) and **Definition 5
 
 (4) does the function $f\left(x\right)$ have a local minimum? 
 
-![week77-7.svg](../../figures/week77-7.svg){width=50%}
+The figure is the graph of the derivative $y=f'\left(x\right)$: a continuous curve with four marked points $x_{1},x_{2},x_{3},x_{4}$ — $x_{1}$ is the lowest point of $f'\left(x\right)$, $x_{3}$ the highest point, and $x_{2},x_{4}$ are its intersections with the $x$-axis (negative to positive at $x_{2}$, positive to negative at $x_{4}$).
 
 ### Solution to Problem 4
 
@@ -490,7 +490,7 @@ This point is the maximum point. Hence when the selling price is $x=\frac{5b+4a}
 
 (2) $\ln x<x<\mathrm e^{x}$, $x>0$.
 
-![week77-8.svg](../../figures/week77-8.svg){width=100%}
+The figure shows four curves in one coordinate system: the line $y=1+x$, the exponential curve $y=\mathrm e^{x}$ (always above $y=1+x$, tangent to it only at $x=0$), the logarithmic curve $y=\ln x$, and the line $y=x$ (with $y=\ln x$ always below $y=x$), visually illustrating $\mathrm e^{x}>1+x$ and $\ln x<x<\mathrm e^{x}$.
 
 ### Solution to Problem 12
 
@@ -510,7 +510,7 @@ In summary, $\ln x<x<\mathrm e^{x}$, $x>0$. $\blacksquare$
 
 (2) Use derivatives to study its monotonicity and find the corresponding monotonic intervals.
 
-![week77-9.svg](../../figures/week77-9.svg){width=50%}
+The figure is the graph of the cubic $f\left(x\right)=-4x^{3}+x^{2}+5x-1$ ($a=-4,b=1,c=5,d=-1$): an "S"-shaped curve with left end rising and right end falling, having one local maximum and one local minimum, with monotonic intervals alternating between the two.
 
 ### Solution to Problem 13
 

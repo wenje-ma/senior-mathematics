@@ -36,7 +36,7 @@ By **Definition 8.2.2** (The Oblique Two-Measurement Method), segments parallel 
 
 (1) a rectangle; (2) a parallelogram; (3) an equilateral triangle; (4) a regular pentagon.
 
-![week39-1.svg](../../figures/week39-1.svg){width=100%}
+The figure: oblique (cavalier) projections of four horizontal plane figures—(1) a rectangle becomes a parallelogram; (2) a parallelogram remains a parallelogram; (3) an equilateral triangle becomes an isosceles triangle; (4) a regular pentagon becomes a pentagon under oblique projection.
 
 ### Solution to Exercise 2
 
@@ -54,7 +54,7 @@ By **Definition 8.2.2** (The Oblique Two-Measurement Method), draw in three step
 
 (Exercise 8.2, Problem 1) Use the oblique two-measurement method to draw the pictorial drawing of a cube with edge length $3\text{ cm}$.
 
-![week39-2.svg](../../figures/week39-2.svg){width=50%}
+The figure: an oblique drawing of a cube with edge length $3\text{ cm}$—the base is a parallelogram with a $45^{\circ}$ angle ($3\text{ cm}$ in the $x$ direction and $1.5\text{ cm}$ in the $y$ direction), the vertical edges are $3\text{ cm}$ long, and the hidden edges are drawn as dashed lines.
 
 ### Solution to Exercise 3
 
@@ -72,7 +72,7 @@ Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes, meeting at
 
 (Exercise 8.2, Problem 2) Use the oblique two-measurement method to draw the pictorial drawing of a regular hexagonal prism.
 
-![week39-3.svg](../../figures/week39-3.svg){width=50%}
+The figure: an oblique drawing of a regular hexagonal prism—the base is an oblique projection of a horizontal regular hexagon, each vertex translated vertically by the equal lateral edge length gives the upper base, and the hidden lateral edges are drawn as dashed lines.
 
 ### Solution to Exercise 4
 
@@ -88,7 +88,7 @@ Drawing method: (1) Use the oblique two-measurement method to draw the pictorial
 
 (Exercise 8.2, Problem 3) A simple composite solid consists of two parts: the lower part is a cylinder and the upper part is a hemisphere, and the center of the hemisphere is exactly the center of the upper base of the cylinder. Draw the pictorial drawing of this composite solid.
 
-![week39-4.svg](../../figures/week39-4.svg){width=50%}
+The figure: an oblique drawing of a composite solid consisting of a cylinder below a hemisphere—the lower part is a cylinder (upper and lower bases are ellipses, the side surface is two parallel tangent lines), and the upper part is a hemisphere (a half-ellipse outline centered at the center of the upper base).
 
 ### Solution to Exercise 5
 
@@ -134,7 +134,7 @@ By **Definition 8.2.2** (The Oblique Two-Measurement Method), parallelism is pre
 
 (2) the hypotenuse horizontal.
 
-![week39-5.svg](../../figures/week39-5.svg){width=100%}
+The figure: oblique drawings of two isosceles right triangles—(1) legs horizontal: the horizontal leg keeps its length, the vertical leg is halved, and the angle becomes $45^{\circ}$; (2) hypotenuse horizontal: the hypotenuse keeps its length, and the altitude to the hypotenuse is halved.
 
 ### Solution to Problem 2
 
@@ -148,7 +148,7 @@ By **Definition 8.2.2** (The Oblique Two-Measurement Method), segments parallel 
 
 (Exercise 8.2, Review and Consolidation, Problem 3) Use the oblique two-measurement method to draw the pictorial drawing of a regular triangular prism with base side $2\text{ cm}$ and lateral edge $3\text{ cm}$.
 
-![week39-6.svg](../../figures/week39-6.svg){width=50%}
+The figure: an oblique drawing of a regular triangular prism with base edge $2\text{ cm}$ and lateral edge $3\text{ cm}$—the lower base is an oblique projection of an equilateral triangle (base $2\text{ cm}$, altitude halved), the lateral edges are vertical and $3\text{ cm}$ long, and hidden parts are dashed.
 
 ### Solution to Problem 3
 
@@ -166,7 +166,7 @@ Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes with $\angl
 
 (Exercise 8.2, Review and Consolidation, Problem 4) Draw the pictorial drawing of a cylinder with base radius $1\text{ cm}$ and generatrix length $3\text{ cm}$.
 
-![week39-7.svg](../../figures/week39-7.svg){width=50%}
+The figure: an oblique drawing of a cylinder with base radius $1\text{ cm}$ and generatrix length $3\text{ cm}$—the upper and lower bases are ellipses ($2\text{ cm}$ wide horizontally), the centers of the two ellipses are $3\text{ cm}$ apart, and the side surface is two parallel tangent lines.
 
 ### Solution to Problem 4
 
@@ -184,7 +184,7 @@ Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle x
 
 (Exercise 8.2, Comprehensive Application, Problem 5) A rhombus has side length $4\text{ cm}$ and one interior angle $60^{\circ}$. Place the rhombus horizontally with its longer diagonal horizontal, and use the oblique two-measurement method to draw the pictorial drawing of this rhombus.
 
-![week39-8.svg](../../figures/week39-8.svg){width=50%}
+The figure: an oblique drawing of a rhombus with side $4\text{ cm}$ and one interior angle $60^{\circ}$—the longer diagonal ($4\sqrt{3}\text{ cm}$) is horizontal (parallel to the $x'$-axis), the shorter diagonal ($4\text{ cm}$) lies along the $y'$-axis and is halved to $2\text{ cm}$, and the four vertices are connected in order.
 
 ### Solution to Problem 5
 
@@ -198,7 +198,7 @@ Take the longer diagonal as the $x$-axis and the shorter diagonal as the $y$-axi
 
 (Exercise 8.2, Comprehensive Application, Problem 6) Given that a cone is formed by rotating an isosceles right triangle, draw the pictorial drawing of this cone.
 
-![week39-9.svg](../../figures/week39-9.svg){width=50%}
+The figure: an oblique drawing of a cone formed by rotating an isosceles right triangle—the base is an ellipse, the apex $S$ is directly above the center of the base, the height $OS$ equals the base radius $r$, and two tangent lines from $S$ to the ellipse are the generatrices.
 
 ### Solution to Problem 6
 
@@ -216,7 +216,7 @@ Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle x
 
 (Exercise 8.2, Comprehensive Application, Problem 7) The three-view drawing of a solid is shown in the figure. Draw the pictorial drawing of this solid.
 
-![week39-10.svg](../../figures/week39-10.svg){width=100%}
+The figure: three views of a solid—the front view is a rectangle, the side view is a rectangle, and the top view is a circle; the solid is a cylinder.
 
 ### Solution to Problem 7
 

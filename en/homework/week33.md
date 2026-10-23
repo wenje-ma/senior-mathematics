@@ -20,7 +20,7 @@
 
 (Exercise 6.3, Problem 1) As shown in the figure, $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors. Express the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$ in the figure in terms of the basis $\left\{\boldsymbol{e}_1,\boldsymbol{e}_2\right\}$.
 
-![week33-1.svg](../../figures/week33-1.svg){width=50%}
+The figure: using the two non-collinear vectors $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ as a basis, the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, and $\boldsymbol{d}$ are drawn from a common tail; each can be decomposed into components in the directions of $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ by completing a parallelogram.
 
 ### Solution to Exercise 1
 
@@ -30,7 +30,7 @@ By **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors), any vector has a un
 
 (Exercise 6.3, Problem 2) When $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors, construct the vector $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
 
-![week33-2.svg](../../figures/week33-2.svg){width=50%}
+The figure: first draw the basis vectors $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$, then construct $2\boldsymbol{e}_1$ (same direction as $\boldsymbol{e}_1$, twice its length) and $-\boldsymbol{e}_2$ (opposite direction to $\boldsymbol{e}_2$), and add them by the triangle rule to obtain $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
 
 ### Solution to Exercise 2
 
@@ -148,7 +148,7 @@ $\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{6
 
 (Exercise 6.3, Review and Consolidation, Problem 1) As shown in the figure, in $\triangle ABC$, $AD=\frac{1}{3}AB$, $E$ is a point on $AC$ with $EC=\frac{1}{3}AC$, and $BE$ and $CD$ meet at $P$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express $\boldsymbol{AP}$ in terms of the basis $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$.
 
-![week33-3.svg](../../figures/week33-3.svg){width=50%}
+The figure: triangle $ABC$, with point $D$ on side $AB$ such that $AD=\frac{1}{3}AB$, and point $E$ on side $AC$ such that $EC=\frac{1}{3}AC$ (i.e. $AE=\frac{2}{3}AC$); the segments $BE$ and $CD$ intersect at point $P$.
 
 ### Solution to Problem 1
 
@@ -302,7 +302,7 @@ $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
 
 (Exercise 6.3, Comprehensive Application, Problem 11) As shown in the figure, in $\square ABCD$, $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AD}=\boldsymbol{b}$; $E$ and $F$ are the midpoints of $AB$ and $CD$, and $M$, $N$ are two points on the diagonal $AC$ with $AM=MN=NC$. Prove that $\boldsymbol{EM}=\boldsymbol{FN}$.
 
-![week33-4.svg](../../figures/week33-4.svg){width=50%}
+The figure: the parallelogram $ABCD$, with $E$ the midpoint of side $AB$ and $F$ the midpoint of side $CD$; on the diagonal $AC$ lie two points $M$ and $N$ satisfying $AM=MN=NC$ (i.e. $M$ and $N$ trisect $AC$), and $EM$ and $FN$ are joined.
 
 ### Solution to Problem 11
 

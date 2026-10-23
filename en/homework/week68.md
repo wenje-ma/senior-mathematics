@@ -316,7 +316,7 @@ $\boldsymbol{a}+\boldsymbol{b}$ is a linear combination only of $\boldsymbol{a}$
 
 (2) $DB_1 \perp$ the plane $ACB_1$.
 
-![week68-1.svg](../../figures/week68-1.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; the body diagonal $DB_1$ and the face diagonal $AC$ are drawn.
 
 ### Solution to Problem 16
 
@@ -358,7 +358,7 @@ Hence $DB_1 \perp$ the plane $ACD_1$. $\blacksquare$
 
 (3) Prove that $A_1B \perp C_1M$.
 
-![week68-2.svg](../../figures/week68-2.svg){width=50%}
+The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BCA=90^\circ$, $CA=CB=1$, and the lateral edge $AA_1=2$ is perpendicular to the base; $M$ is the midpoint of $A_1B_1$ and $N$ is the midpoint of $A_1A$; a rectangular coordinate system is set up with $C$ as the origin, $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
 
 ### Solution to Problem 17
 

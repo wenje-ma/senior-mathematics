@@ -88,7 +88,7 @@ By **Definition 8.1.4** (Prism), the two bases of a prism are mutually parallel 
 
 (Exercise 8.1, Problem 4) Design a plane figure that can be folded into a right triangular prism.
 
-![week38-2.svg](../../figures/week38-2.svg){width=50%}
+The figure: a net of a right triangular prism—three congruent rectangles joined side by side as the lateral faces, with a congruent triangle attached to the top and bottom sides of the middle rectangle as the upper and lower bases.
 
 ### Solution to Exercise 4
 
@@ -136,7 +136,7 @@ By **Definition 8.1.16** (Simple Composite Solids), real objects can be made by 
 
 (Exercise 8.1, Problem 3) As shown in the figure, taking the line on which side $AB$ of triangle $ABC$ lies as the axis, the surfaces swept by the other two sides rotating through one full turn bound a geometric solid. State the structural features of this solid.
 
-![week38-5.svg](../../figures/week38-5.svg){width=50%}
+The figure: a right triangle $ABC$ with the leg $AB$ horizontal (as the axis of rotation), the leg $BC$ perpendicular to $AB$, and the hypotenuse $AC$ joining $A$ and $C$.
 
 ### Solution to Exercise 7
 
@@ -158,7 +158,7 @@ For example: a book approximates a rectangular box, i.e. a right quadrangular pr
 
 (Exercise 8.1, Review and Consolidation, Problem 1) As shown in the figure, in the rectangular box $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, point out the edges and faces passing through vertex $D$.
 
-![week38-6.svg](../../figures/week38-6.svg){width=50%}
+The figure: an oblique drawing of a rectangular prism $ABCD\text{-}A_1B_1C_1D_1$, with the lower base a rectangle $ABCD$, the upper base a rectangle $A_1B_1C_1D_1$, and the lateral edges $AA_1,BB_1,CC_1,DD_1$ perpendicular to the bases.
 
 ### Solution to Problem 1
 
@@ -172,7 +172,7 @@ In the rectangular box $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, there are three edges
 
 (1) an oblique parallelepiped; (2) a triangular prism; (3) an upright rectangular box; (4) a cylinder; (5) a composite of a rectangular box below with a triangular prism on top; (6) a composite of a frustum and a pyramid; (7) a triangular pyramid.
 
-![week38-7.svg](../../figures/week38-7.svg){width=100%}
+The figure: seven solids arranged side by side: (1) a slanted parallelepiped; (2) a triangular prism; (3) a vertical rectangular prism; (4) a cylinder; (5) a composite of a rectangular prism below a triangular prism; (6) a composite of a frustum and a pyramid; (7) a triangular pyramid.
 
 ### Solution to Problem 2
 
@@ -188,7 +188,7 @@ By **Definition 8.1.4** (Prism), a prism must have two mutually parallel faces, 
 
 > The original figure appears in the textbook, Compulsory Course Book 2, printed page 105 ($PDF$ page 111). It is a photograph and cannot be redrawn in R.
 
-![week38-8.svg](../../figures/week38-8.svg){width=100%}
+The figure: four answer options, each a plane figure rotated about a vertical axis: (A) a set of concentric circles; (B) two equal circles; (C) a small circle; (D) a circle.
 
 ### Solution to Problem 3
 
@@ -202,7 +202,7 @@ By **Definition 8.1.3** (Solids of Revolution), an inner tube is a torus, formed
 
 (1) a frustum of a pyramid with parallel upper and lower bases; (2) a pyramid cut by a plane not parallel to the base; (3) a cone cut by a plane not parallel to the base.
 
-![week38-9.svg](../../figures/week38-9.svg){width=100%}
+The figure: three solids arranged side by side: (1) a frustum (upper and lower bases parallel); (2) a pyramid cut by a plane not parallel to the base; (3) a cone cut by a plane not parallel to the base.
 
 ### Solution to Problem 4
 
@@ -220,7 +220,7 @@ By **Definition 8.1.10** (Frustum of a Pyramid) and **Definition 8.1.13** (Frust
 
 (1) a cone attached on top of a frustum of a cone; (2) a quadrangular pyramid attached on top of a rectangular box.
 
-![week38-10.svg](../../figures/week38-10.svg){width=100%}
+The figure: two composite solids arranged side by side: (1) a cone on top of a frustum; (2) a square pyramid on top of a rectangular prism.
 
 ### Solution to Problem 5
 
@@ -260,7 +260,7 @@ Judge by **Definition 8.1.4** (Prism), **Definition 8.1.7** (Parallelepiped), **
 
 (In the net, the middle rectangle has a rectangle attached above and below, and a small square attached on the left and right; the shaded faces are the middle rectangle, the lower rectangle, and the two small squares on the left and right.)
 
-![week38-11.svg](../../figures/week38-11.svg){width=50%}
+The figure: a net of a rectangular prism—a central rectangle as a lateral face, with a rectangle attached above and below (the lower rectangle shaded), and a small square attached to each side (both shaded).
 
 ### Solution to Problem 7
 
@@ -272,7 +272,7 @@ In the net, the middle long rectangle is a lateral face, the rectangle above it 
 
 (Exercise 8.1, Comprehensive Application, Problem 8) As shown in the figure, the rectangular box $ABCD\text{-}A'B'C'D'$ is cut by a plane into two solids, where $EH\parallel B'C'\parallel FG$. Please give the names of these two solids.
 
-![week38-12.svg](../../figures/week38-12.svg){width=50%}
+The figure: a rectangular prism $ABCD\text{-}A'B'C'D'$ cut by a plane, with the cross-section $EFGH$ parallel to the side face $BCC'B'$, where $EH\parallel B'C'\parallel FG$, dividing the prism into two parts.
 
 ### Solution to Problem 8
 
@@ -284,7 +284,7 @@ Because $EH\parallel B'C'\parallel FG$, the cross-section $EFGH$ is parallel to 
 
 (Exercise 8.1, Comprehensive Application, Problem 9) As shown in the figure, taking the line on which side $AB$ of $\square ABCD$ lies as the axis, the surfaces swept by the other three sides rotating through one full turn bound a geometric solid. Draw the figure of this solid, and state the simple solids it contains and the relevant structural features.
 
-![week38-13.svg](../../figures/week38-13.svg){width=50%}
+The figure: a parallelogram $ABCD$ with side $AB$ horizontal (as the axis of rotation), $CD\parallel AB$, and $AD$ and $BC$ as the two slanted sides; perpendiculars are dropped from $D$ and $C$ to $AB$, with feet $E$ and $F$.
 
 ### Solution to Problem 9
 

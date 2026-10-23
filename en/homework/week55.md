@@ -74,7 +74,7 @@ $\blacksquare$
 
 (2) Are events $A$ and $B$ mutually exclusive? Are events $A$ and $B$ mutually independent?
 
-![week55-1.svg](../../figures/week55-1.svg){width=50%}
+(Figure: a Venn diagram with two intersecting circles $A,B$ inside the sample space $\Omega$; $n(\Omega)=24, n(A)=12, n(B)=8, n(A\cup B)=16$.)
 
 ### Solution to Problem 2
 
@@ -268,7 +268,7 @@ Relationships: $C\subseteq A$, because "for the same foot" necessarily implies "
 
 (3) Find the probability that Li Ming eventually passes the interview.
 
-![week55-2.svg](../../figures/week55-2.svg){width=50%}
+(Figure: a tree diagram with root = first question, each branch labeled $Y$ (correct) or $N$ (wrong), three levels (three questions), showing all possible paths of the interview process.)
 
 ### Solution to Problem 8
 

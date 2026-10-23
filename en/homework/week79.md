@@ -97,7 +97,7 @@ $\blacksquare$
 
 (Review Reference Problem 5, Review and Consolidation, Problem 3) The graph of $y=f\left(x\right)$ is one of the four graphs shown, and the graph of its derivative $y=f'\left(x\right)$ is as shown. Then the graph of the function is ( ).
 
-![week79-1.svg](../../figures/week79-1.svg){width=100%}
+The upper part shows the graph of the derivative $y=f'\left(x\right)$ on $\left(-1,1\right)$: above the $x$-axis and rising on $\left(-1,0\right)$, above the $x$-axis but falling on $\left(0,1\right)$ (highest at $x=0$); the lower part shows four candidate graphs of $y=f\left(x\right)$ (A, B, C, D), from which the one corresponding to this derivative must be chosen.
 
 ### Solution to Problem 3
 
@@ -151,7 +151,7 @@ Hence the instantaneous rate of change of $F$ with respect to $r$ is $-\frac{2GM
 
 (2) What is the practical meaning of $f'\left(3\right)=-4$? If $f\left(3\right)=65\ {^\circ}\mathrm C$, can you sketch the approximate shape of the graph of $T=f\left(t\right)$ at $t=3$? 
 
-![week79-2.svg](../../figures/week79-2.svg){width=50%}
+The figure is the cooling curve $T=f\left(t\right)$ (horizontal axis time $t$ in $\mathrm{min}$, vertical axis temperature $T$ in ${^\circ}\mathrm C$): it drops from a high temperature and flattens out toward room temperature, with the point $\left(3,65\right)$ marked and a tangent of slope $-4$ drawn there.
 
 ### Solution to Problem 6
 
@@ -207,7 +207,7 @@ Hence $c=6$. $\blacksquare$
 
 (Review Reference Problem 5, Comprehensive Application, Problem 10) As shown in the figure, draw a line $AB$ through $P\left(1,1\right)$, intersecting the positive $x$-axis and the positive $y$-axis at $A,B$ respectively. At what position of line $AB$ is the area of $\triangle AOB$ minimized? What is the minimum area? 
 
-![week79-3.svg](../../figures/week79-3.svg){width=50%}
+The figure is a schematic in the coordinate plane: the point $P\left(1,1\right)$ lies in the first quadrant, a line $AB$ through $P$ meets the positive $x$-axis at $A$ and the positive $y$-axis at $B$, with $O$ the origin and $\triangle AOB$ shaded.
 
 ### Solution to Problem 10
 
@@ -231,7 +231,7 @@ Hence when line $AB$ is $x+y=2$, the area of $\triangle AOB$ is minimized, with 
 
 (Review Reference Problem 5, Comprehensive Application, Problem 11) As shown in the figure, line $l$ and circle $P$: when $l$ rotates counterclockwise at constant angular speed about $O$ starting from $l_{0}$ (the angle rotated does not exceed $90^\circ$), the area $S$ of the shaded region swept inside the circle is a function of time $t$. The approximate graph of this function is ( ).
 
-![week79-4.svg](../../figures/week79-4.svg){width=100%}
+The upper part is a geometric diagram: at point $O$ a line $l$, initially at $l_{0}$, rotates counterclockwise at constant speed through at most $90^\circ$, with the swept part inside circle $P$ shaded; the lower part shows four candidate graphs of the shaded area $S$ against time $t$ (A, B, C, D), from which the one matching "slow growth at first, faster in the middle, slower again at the end" must be chosen.
 
 ### Solution to Problem 11
 
@@ -361,7 +361,7 @@ Hence the most economical speed is about $54\ \mathrm{km/h}$, and the total cost
 
 (Review Reference Problem 5, Extension and Exploration, Problem 17) Sketch the graph of $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$.
 
-![week79-5.svg](../../figures/week79-5.svg){width=50%}
+The figure is a sketch of $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$: it has the vertical asymptote $x=1$ and the horizontal asymptote $y=0$ ($y\to0$ as $x\to-\infty$), crosses the $x$-axis at $\left(\frac{1}{2},0\right)$, and has extrema at $x=\frac{1\pm\sqrt{17}}{4}$.
 
 ### Solution to Problem 17
 

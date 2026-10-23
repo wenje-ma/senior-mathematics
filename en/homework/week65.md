@@ -112,7 +112,7 @@ When $y\neq0$, simplifying gives $\frac{x-1}{x+1}=2$, i.e. $x-1=2x+2$, so $x=-3$
 
 (Exercise 3.1, Problem 1) Can you use a compass to locate the foci of the ellipse in the figure? What is your justification?
 
-![week65-1.svg](../../figures/week65-1.svg){width=50%}
+The figure plots, in the rectangular coordinate system, an ellipse centered at the origin with its major axis on the $x$-axis: the two intersections of the ellipse with the $x$-axis are the major-axis vertices $A_1$, $A_2$ (symmetric about the origin), and the two intersections with the $y$-axis are the minor-axis vertices; the two foci $F_1$, $F_2$ are to be found.
 
 ### Solution to Exercise 5
 
@@ -330,7 +330,7 @@ $\blacksquare$
 
 (2) $9x^2+y^2=81$.
 
-![week65-2.svg](../../figures/week65-2.svg){width=100%}
+The figure plots two ellipses in the rectangular coordinate system: (1) $\frac{x^2}{16}+\frac{y^2}{4}=1$, $a=4$, $b=2$, major axis on the $x$-axis, vertices $\left(\pm4,0\right)$, $\left(0,\pm2\right)$, foci $\left(\pm2\sqrt 3,0\right)$; (2) $\frac{y^2}{81}+\frac{x^2}{9}=1$, $a=9$, $b=3$, major axis on the $y$-axis, vertices $\left(\pm3,0\right)$, $\left(0,\pm9\right)$, foci $\left(0,\pm6\sqrt 2\right)$.
 
 ### Solution to Problem 3
 
@@ -396,7 +396,7 @@ at four points. $\blacksquare$
 
 (Exercise 3.1, Review and Consolidation, Problem 6) As shown in the figure, the circle $O$ has fixed radius $r$, $A$ is a fixed point inside the circle $O$, and $P$ is any point on the circle $O$. The perpendicular bisector $l$ of segment $AP$ intersects the radius $OP$ at $Q$. As $P$ moves on the circle, what is the locus of $Q$? Why?
 
-![week65-3.svg](../../figures/week65-3.svg){width=50%}
+The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ inside the circle, and a point $P$ on the circle; the perpendicular bisector $l$ of segment $AP$ meets the radius $OP$ at point $Q$, and segments $AP$, $OQ$, $QP$ are drawn.
 
 ### Solution to Problem 6
 
@@ -456,7 +456,7 @@ By **Definition 3.1.1** (Ellipse), the locus is an ellipse centered at $\left(\f
 
 (Exercise 3.1, Comprehensive Application, Problem 9) As shown in the figure, $DP\perp x$ axis, with foot $D$, and $M$ lies on the extension of $DP$, with $\frac{DM}{DP}=\frac{3}{2}$. As $P$ moves on the circle $x^2+y^2=4$, find the locus equation of $M$ and describe its shape.
 
-![week65-4.svg](../../figures/week65-4.svg){width=50%}
+The figure plots the circle $x^2+y^2=4$ (center at the origin, radius $2$) in the rectangular coordinate system: point $P$ lies on the circle, $PD$ is perpendicular to the $x$-axis with foot $D$; point $M$ lies on the extension of $DP$, and $DM:DP=3:2$.
 
 ### Solution to Problem 9
 
@@ -502,7 +502,7 @@ $\blacksquare$
 
 (Exercise 3.1, Extension and Exploration, Problem 11) As shown in the figure, in rectangle $ABCD$, $AB=2a$, $BC=2b$ ($a>b>0$). $E$, $F$, $G$, $H$ are the midpoints of the four sides; $R$, $S$, $T$ are the points that divide segment $OF$ into four equal parts, and $R'$, $S'$, $T'$ are the points that divide segment $CF$ into four equal parts. Prove that the intersections $L$, $M$, $N$ of $ER$ and $GR'$, $ES$ and $GS'$, and $ET$ and $GT'$ all lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$).
 
-![week65-5.svg](../../figures/week65-5.svg){width=50%}
+The figure plots, in the rectangular coordinate system, the rectangle $ABCD$ (center at $O$, $AB=2a$ horizontal, $BC=2b$ vertical): $E$, $F$, $G$, $H$ are the midpoints of the four sides ($F$ at the midpoint of the right side, $G$ at the midpoint of the top side, $E$ at the midpoint of the bottom side); $R$, $S$, $T$ are the quarter points of segment $OF$ (on the $x$-axis), and $R'$, $S'$, $T'$ are the quarter points of segment $CF$ (on the right vertical side); the lines $ER$ and $GR'$, $ES$ and $GS'$, $ET$ and $GT'$ are drawn, and their intersections $L$, $M$, $N$ lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$.
 
 ### Solution to Problem 11
 

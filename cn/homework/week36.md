@@ -74,7 +74,7 @@ $$
 
 (3) $z+\left(-2+\mathrm{i}\right)$.
 
-![week36-1.svg](../../figures/week36-1.svg){width=100%}
+图：复平面直角坐标系中，从原点 $O$ 画出向量 $\boldsymbol{OZ}$ 表示复数 $z=a+b\mathrm{i}$（点 $Z\left(a,b\right)$）；另画出三条平移后的向量：$z+1$ 对应 $\left(a+1,b\right)$（即 $\boldsymbol{OZ}$ 向右平移 $1$ 个单位），$z-\mathrm{i}$ 对应 $\left(a,b-1\right)$（即向下平移 $1$ 个单位），$z+\left(-2+\mathrm{i}\right)$ 对应 $\left(a-2,b+1\right)$（即向左平移 $2$ 个单位、向上平移 $1$ 个单位）。
 
 ### 解答 练习二
 

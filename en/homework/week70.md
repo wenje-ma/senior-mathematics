@@ -26,7 +26,7 @@
 
 (Review Reference Problems 3, Review and Consolidation, Problem 1) As shown in the figure, the orbit of China's first artificial Earth satellite is an ellipse with the Earth's center $F_2$ as one focus. Its perigee $A$ is $439\,\mathrm{km}$ above the ground, its apogee $B$ is $2384\,\mathrm{km}$ above the ground, and $F_2$, $A$, $B$ are collinear; the Earth's radius is approximately $6371\,\mathrm{km}$. Find: (1) the equation of the satellite's orbit (accurate to $1\,\mathrm{km}$); (2) the eccentricity of the orbit.
 
-![week70-1.svg](../../figures/week70-1.svg){width=50%}
+The figure is a diagram of the satellite's orbit: an ellipse with the earth's center $F_2$ as one focus, the perigee $A$ and apogee $B$ lying on the major axis, with $F_2$, $A$, $B$ collinear; the earth is represented by a small circle centered at $F_2$.
 
 ### Solution to Problem 1
 
@@ -124,7 +124,7 @@ The line $PF_2$ passes through $F_2\left(6,0\right)$ with slope $-\frac{4\sqrt{3
 
 (Review Reference Problems 3, Comprehensive Application, Problem 8) As shown in the figure, from a point $P$ on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$) a perpendicular is dropped to the $x$-axis, whose foot is exactly the left focus $F_1$. Point $A$ is the intersection of the ellipse with the positive $x$-axis, and point $B$ is the intersection with the positive $y$-axis. Given $AB\parallel OP$ and $\lvert F_1A \rvert=\sqrt{10}+\sqrt{5}$, find the equation of the ellipse.
 
-![week70-2.svg](../../figures/week70-2.svg){width=50%}
+The figure plots, in the rectangular coordinate system, the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$) centered at the origin with foci on the $x$-axis: point $P$ lies on the ellipse, and the perpendicular from $P$ to the $x$-axis has its foot exactly at the left focus $F_1\left(-c,0\right)$; $A$ is the intersection of the ellipse with the positive $x$-axis $\left(a,0\right)$, $B$ is the intersection with the positive $y$-axis $\left(0,b\right)$, and $AB\parallel OP$.
 
 ### Solution to Problem 8
 
@@ -158,7 +158,7 @@ Simplifying gives $xy=x^2-1$, i.e. $x^2-xy-1=0$. The locus equation is $x^2-xy=1
 
 (Review Reference Problems 3, Extension and Exploration, Problem 10) As shown in the figure, a line intersects the parabola $y^2=2px$ ($p>0$) at $A$, $B$, with $OA\perp OB$ and $OD\perp AB$ meeting $AB$ at $D$, and the coordinates of $D$ are $\left(2,1\right)$. Find the value of $p$.
 
-![week70-3.svg](../../figures/week70-3.svg){width=50%}
+The figure plots, in the rectangular coordinate system, the parabola $y^2=2px$ opening to the right with vertex at the origin: a line meets the parabola at $A$ and $B$, and $OA\perp OB$ (with $O$ the origin); through $O$ draw $OD\perp AB$ with foot $D\left(2,1\right)$.
 
 ### Solution to Problem 10
 
@@ -224,7 +224,7 @@ $$
 
 (Review Reference Problems 3, Extension and Exploration, Problem 14) As shown in the figure, a tunnel carries a two-lane road, and its cross-section consists of a rectangle and a parabola. For safety, the vertical clearance between the top of a vehicle (assumed flat-roofed) and the tunnel ceiling must be at least $0.5\,\mathrm{m}$. Given that the total roadway width is $AB=6\,\mathrm{m}$, what is the height limit for vehicles passing through the tunnel? (Accurate to $0.1\,\mathrm{m}$)
 
-![week70-4.svg](../../figures/week70-4.svg){width=50%}
+The figure is a diagram of the tunnel cross-section: a rectangle at the bottom, surmounted by a downward-opening parabolic arc; the roadway is $AB=6\,\mathrm{m}$ wide, the parabolic part is $8\,\mathrm{m}$ wide with its crown $3\,\mathrm{m}$ above the top of the rectangle, and the rectangle is $2\,\mathrm{m}$ high.
 
 ### Solution to Problem 14
 
@@ -236,7 +236,7 @@ The roadway is $6\,\mathrm{m}$ wide, i.e. $x=\pm3$. Substituting: $9=-\frac{16}{
 
 (Review Reference Problems 3, Extension and Exploration, Problem 15) By combining the optical properties of the parabola and the hyperbola, one can design a reflecting astronomical telescope. Given that $F_1$, $F_2$ are the two foci of a hyperbola, and $F_2$ is also the focus of a parabola, find the equations of the parabola and the hyperbola based on the dimensions in the figure (unit: $\mathrm{mm}$).
 
-![week70-5.svg](../../figures/week70-5.svg){width=50%}
+The figure is a diagram of a reflecting astronomical telescope: with the intersection of the two axes of symmetry as the origin, the parabola has its vertex at the origin and opens to the left, with $F_2$ as its focus (the focal-related dimension is $529\,\mathrm{mm}$); the hyperbola has $F_1$ and $F_2$ as its foci ($2c=2080\,\mathrm{mm}$), and the position of its real-axis vertices is determined by the dimension $1763\,\mathrm{mm}$.
 
 ### Solution to Problem 15
 

@@ -82,7 +82,7 @@ By **Definition 8.3.3** (Null Hypothesis) and **Common Conclusion 8.3.5** (Rules
 
 (2) Draw a stacked bar chart of equal height and explain the inference.
 
-![week90-1.svg](../../figures/week90-1.svg){width=50%}
+The figure is an equal-height stacked bar chart: two bars of the same height represent girls and boys respectively; each bar is stacked proportionally into "does not exercise regularly" and "exercises regularly" parts, with the "exercises regularly" part taking up $0.75$ of the girls' bar and also $0.75$ of the boys' bar, the corresponding parts of the two bars being the same height.
 
 ### Solution to Exercise 4
 
@@ -264,7 +264,7 @@ It cannot necessarily serve as an explanation of a causal relationship between t
 
 From the contingency table, the frequency of girls whose height is not below $170\,\mathrm{cm}$ is $0.44$, and the frequency of boys whose height is not below $170\,\mathrm{cm}$ is $0.65$. Draw a stacked bar chart of equal height and, based on this, infer whether there is an association between gender and height among the senior-year students at this school.
 
-![week90-2.svg](../../figures/week90-2.svg){width=50%}
+The figure is an equal-height stacked bar chart: two bars of the same height represent girls and boys respectively; each bar is stacked proportionally into "height below $170\,\mathrm{cm}$" and "height at least $170\,\mathrm{cm}$" parts, with the "height at least $170\,\mathrm{cm}$" part taking up $0.44$ of the girls' bar and $0.65$ of the boys' bar, the latter being clearly higher than the corresponding part of the girls' bar.
 
 ### Solution to Problem 5
 

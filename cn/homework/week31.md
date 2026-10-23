@@ -30,7 +30,7 @@
 
 (练习 6.1 第 2 题) 画两条有向线段, 分别表示一个竖直向下, 大小为 $18\text{ N}$ 的力和一个水平向左, 大小为 $28\text{ N}$ 的力. (用 $1\text{ cm}$ 长表示 $10\text{ N}$)
 
-![week31-1.svg](../../figures/week31-1.svg){width=50%}
+图：按 $1\text{ cm}$ 表示 $10\text{ N}$ 的比例，画出一条竖直向下、长 $1.8\text{ cm}$ 的有向线段，表示大小为 $18\text{ N}$ 的力；旁边画出一条水平向左、长 $2.8\text{ cm}$ 的有向线段，表示大小为 $28\text{ N}$ 的力。
 
 ### 解答 练习二
 
@@ -42,7 +42,7 @@
 
 (练习 6.1 第 3 题) 指出图中各向量的长度. (规定小方格的边长为 $0.5$)
 
-![week31-2.svg](../../figures/week31-2.svg){width=50%}
+图：一张方格纸，小方格边长规定为 $0.5$，上面画出若干条方向各不相同的有向线段（有的沿方格边水平或竖直，有的沿方格对角线方向），要求按所占方格数计算各向量的长度。
 
 ### 解答 练习三
 
@@ -80,7 +80,7 @@
 
 (3) $\lvert\boldsymbol{OC}\rvert=2$, 点 $C$ 在点 $O$ 南偏西 $30^{\circ}$ 方向.
 
-![week31-3.svg](../../figures/week31-3.svg){width=50%}
+图：一张坐标纸，小方格边长规定为 $1$，以点 $O$ 为起点画出三条有向线段：$\boldsymbol{OA}$ 向正南方向长 $4$（占 $4$ 格）；$\boldsymbol{OB}$ 向北偏西 $45^\circ$ 方向长 $2\sqrt2$（即向西 $2$ 格、向北 $2$ 格）；$\boldsymbol{OC}$ 向南偏西 $30^\circ$ 方向长 $2$。
 
 ### 解答 习题一
 
@@ -96,7 +96,7 @@
 
 (习题 6.1 复习巩固第 2 题) 如图, 点 $O$ 是 $\square ABCD$ 的对角线的交点, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$, 分别写出 $\square ABCD$ 和折线 $MPQRST$ 中与 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 相等的向量.
 
-![week31-4.svg](../../figures/week31-4.svg){width=100%}
+图：左侧为平行四边形 $ABCD$，对角线 $AC$ 与 $BD$ 交于点 $O$，标出 $\boldsymbol{OA}=\boldsymbol{a}$、$\boldsymbol{OB}=\boldsymbol{b}$、$\boldsymbol{AB}=\boldsymbol{c}$；右侧为一条由点 $M,P,Q,R,S,T$ 依次连接而成的折线，每段均为带箭头的有向线段。
 
 ### 解答 习题二
 
@@ -148,7 +148,7 @@
 
 (习题 6.1 拓广探索第 4 题) 如图, 在矩形 $ABCD$ 中, $AB=2BC=2$, $M$, $N$ 分别为边 $AB$, $CD$ 的中点, 在以 $A$, $B$, $C$, $D$, $M$, $N$ 为起点和终点的所有有向线段表示的向量中, 相等的向量共有多少对?
 
-![week31-5.svg](../../figures/week31-5.svg){width=50%}
+图：矩形 $ABCD$ 水平放置，$AB$ 为上边、$CD$ 为下边，$AB=2$、$BC=1$；$M$ 为边 $AB$ 的中点，$N$ 为边 $CD$ 的中点，线段 $MN$ 竖直连接 $M$ 与 $N$。
 
 ### 解答 习题四
 

@@ -80,7 +80,7 @@ By **Definition 10.1.2** (Sample Points and Sample Space), each possible basic o
 
 (3) For the parallel circuit, write out the sample points contained in event $N=$ "the circuit is open".
 
-![week47-1.svg](../../figures/week47-1.svg){width=100%}
+(Figure: the left shows a series circuit with components $A$ and $B$ connected in sequence on one wire; the right shows a parallel circuit with components $A$ and $B$ on two parallel branches.)
 
 ### Solution to Exercise 2
 
@@ -325,7 +325,7 @@ $P\left(F\cap G_3\right)=\frac{7}{100}=0.07$. $\blacksquare$
 
 $A=$ "the two numbers are equal", $B=$ "the sum of the two numbers equals $5$", $C=$ "the number on the blue die is $2$".
 
-![week47-2.svg](../../figures/week47-2.svg){width=100%}
+(Figure: two regular tetrahedral dice, one blue on the left and one yellow on the right, each with its four faces labeled $1\sim4$.)
 
 ### Solution to Problem 1
 
@@ -676,7 +676,7 @@ $$
 
 (3) subscribing to no study material.
 
-![week47-3.svg](../../figures/week47-3.svg){width=50%}
+(Figure: a Venn diagram — a rectangle representing the whole class of $50$ students, with three mutually intersecting circles $A, B, C$ inside representing students subscribing to math, Chinese, and English materials respectively, divided into eight regions numbered $1\sim8$.)
 
 ### Solution to Problem 15
 

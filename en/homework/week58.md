@@ -62,7 +62,7 @@ By **Definition 1.3.1** (Rectangular Coordinate System in Space) and **Definitio
 
 (2) Write out the coordinates of the vectors $\boldsymbol{BB'}$, $\boldsymbol{A'C'}$.
 
-![week58-1.svg](../../figures/week58-1.svg){width=50%}
+The figure is an oblique projection of the cuboid $OABC-D'A'B'C'$: the lower face has vertices $O$, $A$, $B$, $C$ in order, and the upper face has corresponding vertices $D'$, $A'$, $B'$, $C'$; taking $O$ as the origin, $OA$ runs along the positive $x$-axis ($OA=3$), $OC$ along the positive $y$-axis ($OC=4$), and $OD'$ along the positive $z$-axis ($OD'=3$), with the three axes pairwise perpendicular; the two diagonals $A'C'$ and $B'D'$ of the upper face intersect at its center $P$.
 
 ### Solution to Exercise 3
 
@@ -154,7 +154,7 @@ Hence $M\left(0,0,-3\right)$. $\blacksquare$
 
 (Exercise 1.3, Problem 4) As shown in the figure, the edge length of the cube $OABC-D'A'B'C'$ is $a$; the points $N$, $M$ lie on $AC$, $BC'$ respectively, with $AN=2CN$, $BM=2MC'$. Find the length of $MN$.
 
-![week58-2.svg](../../figures/week58-2.svg){width=50%}
+The figure is an oblique projection of the cube $OABC-D'A'B'C'$ (edge length $a$): the lower face is $OABC$ and the upper face is $D'A'B'C'$; point $N$ lies on the face diagonal $AC$ with $AN:NC=2:1$, point $M$ lies on the face diagonal $BC'$ with $BM:MC'=2:1$, and segment $MN$ is drawn.
 
 ### Solution to Exercise 8
 
@@ -174,7 +174,7 @@ $MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\fra
 
 (Exercise 1.3, Problem 5) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $M$ is the midpoint of $AB$. Find the cosine of the angle between $DB_1$ and $CM$.
 
-![week58-3.svg](../../figures/week58-3.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; point $M$ is the midpoint of edge $AB$, and the diagonal $DB_1$ and segment $CM$ are drawn.
 
 ### Solution to Exercise 9
 
@@ -238,7 +238,7 @@ By **Definition 1.3.2** (Coordinates of a Point).
 
 (Exercise 1.3, Review and Consolidation, Problem 3) As shown in the figure, the edge length of the cube $OABC-D'A'B'C'$ is $a$, and $E$, $F$, $G$, $H$, $I$, $J$ are the midpoints of edges $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$, respectively. Write out the coordinates of the vertices of the regular hexagon $EFGHIJ$.
 
-![week58-4.svg](../../figures/week58-4.svg){width=50%}
+The figure is an oblique projection of the cube $OABC-D'A'B'C'$ (edge length $a$): $E$, $F$, $G$, $H$, $I$, $J$ are the midpoints of edges $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$, respectively; these six points form a regular hexagonal cross-section $EFGHIJ$.
 
 ### Solution to Problem 3
 
@@ -328,7 +328,7 @@ $AB=\sqrt{\left(-5\right)^2+\left(-1\right)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3
 
 (Exercise 1.3, Extension and Exploration, Problem 8) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $M$, $N$ are the midpoints of edges $A_1A$ and $B_1B$, respectively. Find the cosine of the angle between $CM$ and $D_1N$.
 
-![week58-5.svg](../../figures/week58-5.svg){width=50%}
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; point $M$ is the midpoint of lateral edge $A_1A$, point $N$ is the midpoint of lateral edge $B_1B$, and segments $CM$ and $D_1N$ are drawn.
 
 ### Solution to Problem 8
 

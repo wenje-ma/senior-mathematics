@@ -62,7 +62,7 @@ Hence the table is filled in order as follows: $n$-prism ($2n$, $3n$, $n+2$, $2$
 
 (2) Complete the quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ into a cuboid, and state the name of the solid added.
 
-![week53-1.svg](../../figures/week53-1.svg){width=50%}
+(Figure: a right quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ whose base $ABCD$ is a right trapezoid, with $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, and lateral edge $AA_{1}=4$ perpendicular to the base.)
 
 ### Solution to Problem 2
 
@@ -93,8 +93,6 @@ By **Definition 8.3.11** (Surface Area of a Sphere) and **Definition 8.3.12** (V
 (Review Exercises 8, Review and Consolidation, Problem 4) As shown in the figure, a square iron sheet of side length $10\text{ cm}$ has four shaded parts. Cut off these shaded parts, and then use the remaining four congruent isosceles triangles to make a regular square-pyramid-shaped container. Express the volume $V$ of the container (in $\text{cm}^{3}$) as a function of $x$ (in $\text{cm}$).
 
 (Figure: the square has side length $10$, the middle square has side length $x$, and the four isosceles triangles have base $x$ and height $5$.)
-
-![week53-2.svg](../../figures/week53-2.svg){width=50%}
 
 ### Solution to Problem 4
 
@@ -158,7 +156,7 @@ Therefore $a\parallel c$, $b\parallel c$. $\blacksquare$
 
 (Review Exercises 8, Review and Consolidation, Problem 7) As shown in the figure, the quadrilateral $A'B'C'D'$ is the projection of $\square ABCD$ onto the plane $\alpha$ ($AA'\parallel BB'\parallel CC'\parallel DD'$). Prove that the quadrilateral $A'B'C'D'$ is a parallelogram.
 
-![week53-3.svg](../../figures/week53-3.svg){width=50%}
+(Figure: parallelogram $ABCD$ lies above plane $\alpha$; the four vertices project in parallel onto $\alpha$ at $A',B',C',D'$.)
 
 ### Solution to Problem 7
 
@@ -174,7 +172,7 @@ Both pairs of opposite sides of the quadrilateral $A'B'C'D'$ are parallel, so it
 
 (Review Exercises 8, Review and Consolidation, Problem 8) As shown in the figure, on the upper face of a cube-shaped block of wood there is a point $E$. If through the point $E$ one wishes to draw a line on the upper face perpendicular to $CE$, how should it be drawn?
 
-![week53-4.svg](../../figures/week53-4.svg){width=50%}
+(Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with point $E$ on the top face $A_{1}B_{1}C_{1}D_{1}$ and $C$ a vertex on the bottom face.)
 
 ### Solution to Problem 8
 
@@ -194,7 +192,7 @@ Therefore the perpendicular to $C_{1}E$ drawn through $E$ is exactly what is req
 
 (2) $AB\perp PB$.
 
-![week53-5.svg](../../figures/week53-5.svg){width=50%}
+(Figure: a tetrahedron $P\text{-}ABC$ with $PC\perp$ base $ABC$ and $\angle ABC=90^{\circ}$ in the base triangle; $D$ is the midpoint of $AB$ and $E$ is the midpoint of $PB$.)
 
 ### Solution to Problem 9
 
@@ -216,7 +214,7 @@ As $PB\subset$ the plane $PBC$, we get $AB\perp PB$. $\blacksquare$
 
 (2) Find the volume of the triangular pyramid $A'\text{-}EFD$.
 
-![week53-6.svg](../../figures/week53-6.svg){width=100%}
+(Figure: a square $ABCD$ of side $2$, with $E$ the midpoint of $AB$ and $F$ the midpoint of $BC$; folded along $DE,EF,DF$ so that $A,B,C$ coincide at $A'$.)
 
 ### Solution to Problem 10
 
@@ -264,7 +262,7 @@ As $PQ\subset$ the plane $PQN$, it follows that $PQ\parallel$ the plane $BCD$. $
 
 (2) The intersection $H$ of $B_{1}D$ with the plane $A_{1}BC_{1}$ is the centroid of $\triangle A_{1}C_{1}B$.
 
-![week53-7.svg](../../figures/week53-7.svg){width=50%}
+(Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, showing the diagonal $B_{1}D$ and the plane $A_{1}BC_{1}$.)
 
 ### Solution to Problem 12
 
@@ -286,7 +284,7 @@ Since $A_{1}C_{1}\cap A_{1}B=A_{1}$, by **Theorem 8.6.4** (Criterion for a Line 
 
 (2) If $AC=BC=PA$ and $M$ is the midpoint of $PB$, find the tangent of the angle between $AM$ and the plane $PBC$.
 
-![week53-8.svg](../../figures/week53-8.svg){width=50%}
+(Figure: a tetrahedron $P\text{-}ABC$ with $PA\perp$ base $ABC$ and $\angle ACB=90^{\circ}$ in the base triangle.)
 
 ### Solution to Problem 13
 
@@ -322,7 +320,7 @@ $\blacksquare$
 
 (2) Find the cosine of the dihedral angle formed by the lateral face $PBC$ and the base $ABCD$.
 
-![week53-9.svg](../../figures/week53-9.svg){width=50%}
+(Figure: a quadrangular pyramid $P\text{-}ABCD$ with square base $ABCD$, lateral face $PAD$ an equilateral triangle and $PAD\perp$ base $ABCD$, and $M$ the midpoint of $PD$.)
 
 ### Solution to Problem 14
 

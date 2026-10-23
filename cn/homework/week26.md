@@ -250,7 +250,7 @@ $$
 
 (2) 如图, 在 $\triangle ABC$ 中, $AD$, $BE$ 与 $CF$ 分别为 $BC$, $AC$ 与 $AB$ 边上的高, 则 $AD$, $BE$ 与 $CF$ 所在的直线交于一点 $O$.
 
-![week26-1.svg](../../figures/week26-1.svg){width=50%}
+图：一个 $\triangle ABC$，$AD$ 为边 $BC$ 上的高（$D$ 在 $BC$ 上，$AD\perp BC$），$BE$ 为边 $AC$ 上的高（$E$ 在 $AC$ 上，$BE\perp AC$），$CF$ 为边 $AB$ 上的高（$F$ 在 $AB$ 上，$CF\perp AB$），三条高所在直线 $AD$、$BE$、$CF$ 交于三角形内一点 $O$（垂心）。
 
 ### 解答 习题十二
 

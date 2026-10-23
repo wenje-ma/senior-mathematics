@@ -68,7 +68,7 @@ Example: a certain kind of bacterium divides once every $20\;\mathrm{min}$ under
 
 (Exercise 4.2, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=3^x$ and $y=\left(\frac{1}{3}\right)^x$, and explain their relationship.
 
-![week14-1.svg](../../figures/week14-1.svg){width=50%}
+The graphs: in the same rectangular coordinate system, the two exponential curves both pass through the point $\left(0,1\right)$ and lie above the $x$-axis; $y=3^x$ is a monotonically increasing curve (rising for $x>0$ and approaching the $x$-axis for $x<0$), while $y=\left(\frac{1}{3}\right)^x$ is a monotonically decreasing curve (rising for $x<0$ and approaching the $x$-axis for $x>0$), and the two are symmetric about the $y$-axis.
 
 ### Solution to Exercise 4
 
@@ -100,7 +100,7 @@ By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions
 
 (Exercise 4.2, Problem 6) Cancer cells in the body increase very slowly in the early stage, but increase sharply in the late stage. Draw a schematic diagram reflecting how the number of cancer cells in the body changes over time.
 
-![week14-2.svg](../../figures/week14-2.svg){width=50%}
+Schematic diagram: the horizontal axis is time and the vertical axis is the number of cancer cells in the body; the curve starts near the origin, with a very small slope and a gentle rise in the early stage; as time passes, the slope gradually increases and in the later stage it rises sharply, showing a convex-up (concave-up) exponential growth shape, consistent with the graph of $y=a^x$ ($a>1$) when $x\ge0$.
 
 ### Solution to Exercise 6
 
@@ -256,7 +256,7 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model), compound 
 
 (2) determine the parity and monotonicity of this function.
 
-![week14-3.svg](../../figures/week14-3.svg){width=50%}
+The graph: the graph of the function $y=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$ passes through the origin $\left(0,0\right)$ and is symmetric about the $y$-axis; it attains its minimum value $0$ at $x=0$, rises gradually toward both sides, and has the horizontal line $y=2$ as an asymptote (approaching it arbitrarily closely but never intersecting it).
 
 ### Solution to Problem 9
 

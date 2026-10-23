@@ -574,7 +574,7 @@ i.e., $2000000\le \binom{37}{k}<3000000$. Calculating gives $\binom{37}{6}=23247
 
 (Exercise 6.2, Extension and Exploration, Problem 17) As shown in the figure, $5$ different colors are to be used to color a map of $4$ districts of a city, requiring that two regions sharing a common edge cannot use the same color. How many different ways of coloring are there?
 
-![week81-1.svg](../../figures/week81-1.svg){width=50%}
+The figure is a map of four districts of a city, labeled I, II, III, IV: I, II, III are pairwise adjacent (forming a triangle), while IV is adjacent only to III and not adjacent to I or II.
 
 ### Solution to Problem 17
 

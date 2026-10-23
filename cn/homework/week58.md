@@ -62,7 +62,7 @@ $D\left(1,3,4\right)$: 从原点沿 $x$ 轴走 $1$, 沿 $y$ 轴走 $3$, 沿 $z$ 
 
 (2) 写出向量 $\boldsymbol{BB'}$, $\boldsymbol{A'C'}$ 的坐标.
 
-![week58-1.svg](../../figures/week58-1.svg){width=50%}
+该图为长方体 $OABC-D'A'B'C'$ 的斜二测直观图：下底面顶点依次为 $O$, $A$, $B$, $C$，上底面对应顶点为 $D'$, $A'$, $B'$, $C'$；以 $O$ 为原点，$OA$ 沿 $x$ 轴正方向（$OA=3$），$OC$ 沿 $y$ 轴正方向（$OC=4$），$OD'$ 沿 $z$ 轴正方向（$OD'=3$），三条坐标轴两两垂直；上底面的两条对角线 $A'C'$ 与 $B'D'$ 相交于上底面中心 $P$。
 
 ### 解答 练习三
 
@@ -154,7 +154,7 @@ $MB=\sqrt{\left(1-0\right)^2+\left(-3-0\right)^2+\left(1-z\right)^2}=\sqrt{1+9+\
 
 (练习 1.3 第 4 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, 点 $N$, $M$ 分别在 $AC$, $BC'$ 上, $AN=2CN$, $BM=2MC'$, 求 $MN$ 的长.
 
-![week58-2.svg](../../figures/week58-2.svg){width=50%}
+该图为正方体 $OABC-D'A'B'C'$（棱长为 $a$）的斜二测直观图：下底面为 $OABC$，上底面为 $D'A'B'C'$；点 $N$ 在面对角线 $AC$ 上且 $AN:NC=2:1$，点 $M$ 在面对角线 $BC'$ 上且 $BM:MC'=2:1$，图中连有线段 $MN$。
 
 ### 解答 练习八
 
@@ -174,7 +174,7 @@ $MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\fra
 
 (练习 1.3 第 5 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$ 是 $AB$ 的中点, 求 $DB_1$ 与 $CM$ 所成角的余弦值.
 
-![week58-3.svg](../../figures/week58-3.svg){width=50%}
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：下底面为 $ABCD$，上底面为 $A_1B_1C_1D_1$；点 $M$ 是棱 $AB$ 的中点，图中连有对角线 $DB_1$ 与线段 $CM$。
 
 ### 解答 练习九
 
@@ -238,7 +238,7 @@ $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqr
 
 (习题 1.3 复习巩固第 3 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, $E$, $F$, $G$, $H$, $I$, $J$ 分别是棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点, 写出正六边形 $EFGHIJ$ 各顶点的坐标.
 
-![week58-4.svg](../../figures/week58-4.svg){width=50%}
+该图为正方体 $OABC-D'A'B'C'$（棱长为 $a$）的斜二测直观图：$E$, $F$, $G$, $H$, $I$, $J$ 依次为棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点，这六个点连成一个截面正六边形 $EFGHIJ$。
 
 ### 解答 习题三
 
@@ -328,7 +328,7 @@ $AB=\sqrt{\left(-5\right)^2+\left(-1\right)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3
 
 (习题 1.3 拓广探索第 8 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$, $N$ 分别为棱 $A_1A$ 和 $B_1B$ 的中点, 求 $CM$ 和 $D_1N$ 所成角的余弦值.
 
-![week58-5.svg](../../figures/week58-5.svg){width=50%}
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：下底面为 $ABCD$，上底面为 $A_1B_1C_1D_1$；点 $M$ 是侧棱 $A_1A$ 的中点，点 $N$ 是侧棱 $B_1B$ 的中点，图中连有线段 $CM$ 与 $D_1N$。
 
 ### 解答 习题八
 

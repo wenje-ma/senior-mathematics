@@ -160,7 +160,7 @@ By the ranges of the sine and cosine functions.
 
 (4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$.
 
-![week30-1.svg](../../figures/week30-1.svg){width=100%}
+The graphs: four sketches each over one period. (1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$: amplitude $\frac{1}{2}$, period $\frac{2\pi}{3}$; (2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$: amplitude $2$, period $2\pi$, with the oscillation direction opposite to $y=\sin x$; (3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$: amplitude $1$, period $\pi$, oscillating between $y=0$ and $y=2$; (4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$: amplitude $3$, period $12\pi$.
 
 ### Solution to Problem 8
 
@@ -184,7 +184,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (3) Based on part (2) and by translating the coordinate axes, how does one obtain the graph of the function $y=\sin\left(x+\varphi\right)+k$, $x\in\left[0,2\pi\right]$ ($\varphi$ and $k$ are both constants)?
 
-![week30-2.svg](../../figures/week30-2.svg){width=50%}
+The graph: in the rectangular coordinate plane, a quarter-wave-peak portion of $y=\sin x$ on $\left[0,\frac{\pi}{2}\right]$, rising from the origin $\left(0,0\right)$ to $\left(\frac{\pi}{2},1\right)$; five plotted points $\left(0,0\right)$, $\left(\frac{\pi}{6},\frac{1}{2}\right)$, $\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$, $\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$, and $\left(\frac{\pi}{2},1\right)$ are marked and joined by a smooth curve.
 
 ### Solution to Problem 9
 
@@ -478,7 +478,7 @@ By **Formula 5.2.2** (Relations among Trigonometric Functions of the Same Angle)
 
 (3) From the graph in (2), find the minimum value of $S\left(\alpha\right)$.
 
-![week30-3.svg](../../figures/week30-3.svg){width=50%}
+The figure: two parallel lines $l_1$ (upper) and $l_2$ (lower); the fixed point $A$ lies between them, at distance $h_1$ from $l_1$ and $h_2$ from $l_2$; the moving point $B$ lies on $l_2$, and the perpendicular from $A$ to $AB$ meets $l_1$ at point $C$, forming the right triangle $ABC$ ($\angle BAC=90^\circ$); $\angle ABD=\alpha$ is the angle between $AB$ and $l_2$ (with $D$ on $l_2$ on one side of $B$).
 
 ### Solution to Problem 25
 

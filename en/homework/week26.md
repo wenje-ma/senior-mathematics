@@ -250,7 +250,7 @@ The number participating only in swimming, i.e. in $S$ but not in $T,B$, is $\op
 
 (2) As shown in the figure, in $\triangle ABC$, $AD$, $BE$ and $CF$ are the altitudes to sides $BC$, $AC$ and $AB$ respectively; then the lines on which $AD$, $BE$ and $CF$ lie intersect at one point $O$.
 
-![week26-1.svg](../../figures/week26-1.svg){width=50%}
+The figure: a triangle $\triangle ABC$, where $AD$ is the altitude to side $BC$ ($D$ lies on $BC$, $AD\perp BC$), $BE$ is the altitude to side $AC$ ($E$ lies on $AC$, $BE\perp AC$), and $CF$ is the altitude to side $AB$ ($F$ lies on $AB$, $CF\perp AB$); the three lines containing the altitudes $AD$, $BE$, and $CF$ meet at a single point $O$ (the orthocenter) inside the triangle.
 
 ### Solution to Problem 12
 

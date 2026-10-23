@@ -106,7 +106,7 @@ By **Definition 3.3.2** (Standard Equation of a Parabola).
 
 (4) $y^2=4x$.
 
-![week67-1.svg](../../figures/week67-1.svg){width=50%}
+The figure plots, in the same rectangular coordinate system, four parabolas opening to the right with vertex at the origin: $y^2=12x$, $y^2=x$, $y^2=2x$, $y^2=4x$ (the larger the coefficient of $x$, the wider the opening).
 
 ### Solution to Exercise 5
 
@@ -256,7 +256,7 @@ By **Common Conclusion 3.3.3**, $\lvert MF \rvert=d$ (distance from $M$ to the d
 
 (2) vertex at the origin, axis of symmetry the $y$-axis, passing through $P\left(-6,-3\right)$.
 
-![week67-2.svg](../../figures/week67-2.svg){width=100%}
+The figure plots, in the rectangular coordinate system, two parabolas: (1) $y^2=\pm24x$, vertex at the origin, axis of symmetry the $x$-axis, with distance between vertex and focus equal to $6$ (opening left and right); (2) $x^2=-12y$, vertex at the origin, axis of symmetry the $y$-axis, passing through $P\left(-6,-3\right)$ and opening downward.
 
 ### Solution to Problem 4
 
@@ -270,7 +270,7 @@ By **Definition 3.3.2** (Standard Equation of a Parabola).
 
 (Exercise 3.3, Review and Consolidation, Problem 5) As shown in the figure, $M$ is a point on the parabola $y^2=4x$, $F$ is the focus, and the angle from the initial side $Fx$ to the terminal side $FM$ is $\angle xFM=60^{\circ}$. Find $\lvert FM \rvert$.
 
-![week67-3.svg](../../figures/week67-3.svg){width=50%}
+The figure plots, in the rectangular coordinate system, the parabola $y^2=4x$ opening to the right with vertex at the origin (focus $F\left(1,0\right)$): point $M$ lies on the parabola, and with $Fx$ (the positive $x$-axis direction) as the initial side and $FM$ as the terminal side, the angle $\angle xFM=60^\circ$; segment $FM$ is drawn.
 
 ### Solution to Problem 5
 
@@ -282,7 +282,7 @@ Substituting into $y^2=4x$ gives $3\left(x-1\right)^2=4x$, i.e. $3x^2-10x+3=0$, 
 
 (Exercise 3.3, Review and Consolidation, Problem 6) As shown in the figure, the line $y=x-2$ intersects the parabola $y^2=2x$ at $A$ and $B$. Prove that $OA\perp OB$.
 
-![week67-4.svg](../../figures/week67-4.svg){width=50%}
+The figure plots, in the rectangular coordinate system, the parabola $y^2=2x$ opening to the right with vertex at the origin, and the line $y=x-2$; they intersect at $A$ and $B$, and segments $OA$ and $OB$ (with $O$ the origin) are drawn.
 
 ### Solution to Problem 6
 
@@ -296,7 +296,7 @@ $\boldsymbol{OA}\cdot\boldsymbol{OB}=x_1x_2+y_1y_2=4-4=0$, so $OA\perp OB$. $\bl
 
 (Exercise 3.3, Comprehensive Application, Problem 7) As shown in the figure, the fish-belly portion $AOB$ of a crane beam is a parabolic arc with width $7\,\mathrm{m}$ and height $0.7\,\mathrm{m}$. Using the coordinate system in the figure, find the equation of the parabola.
 
-![week67-5.svg](../../figures/week67-5.svg){width=50%}
+The figure is a diagram of the fish-belly part $AOB$ of a crane beam: a coordinate system is set up with the vertex $O$ at the origin and the axis of symmetry on the $y$-axis; the parabola opens downward, is $7\,\mathrm{m}$ wide ($A$, $B$ have $x$-coordinates $\pm3.5$) and $0.7\,\mathrm{m}$ high ($A$, $B$ have $y$-coordinates $-0.7$).
 
 ### Solution to Problem 7
 
@@ -312,7 +312,7 @@ $\blacksquare$
 
 (Exercise 3.3, Comprehensive Application, Problem 8) The figure shows a parabolic arch bridge. When the water level is at $l$, the arch crown is $2\,\mathrm{m}$ above the water, and the water surface is $4\,\mathrm{m}$ wide. After the water level drops by $1\,\mathrm{m}$, how wide is the water surface? (to the nearest $0.1\,\mathrm{m}$)
 
-![week67-6.svg](../../figures/week67-6.svg){width=50%}
+The figure is a diagram of a parabolic arch bridge: a coordinate system is set up with the crown of the arch at the origin and the parabola opening downward; at the water level $l$, the crown is $2\,\mathrm{m}$ above the water and the water is $4\,\mathrm{m}$ wide (the two ends of the waterline have $x$-coordinates $\pm2$ and $y$-coordinate $-2$).
 
 ### Solution to Problem 8
 
@@ -370,7 +370,7 @@ The locus is a downward-opening parabola (with its intersections with the $x$-ax
 
 (2) What is the relationship between the number of solutions of the system formed by $y^2=4x$ and the equation of $l$, and the number of common points?
 
-![week67-7.svg](../../figures/week67-7.svg){width=100%}
+The figure plots, in the rectangular coordinate system, the parabola $y^2=4x$ opening to the right with vertex at the origin, and the various positions that a line $l$ through the point $P\left(-2,1\right)$ takes as it rotates about $P$ relative to the parabola (intersecting at two points, tangent at one point, meeting at one point when parallel to the axis of symmetry, and disjoint with no intersection).
 
 ### Solution to Problem 12
 

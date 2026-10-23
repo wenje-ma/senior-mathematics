@@ -52,7 +52,7 @@ $$
 
 ($\mathrm D$) there is definitely no negative correlation
 
-![week95-1.svg](../../figures/week95-1.svg){width=50%}
+The figure is a scatter plot of paired sample data for variables $x$ and $y$: there are $5$ points, distributed roughly along a line from lower left to upper right.
 
 ### Solution to Problem 1
 
@@ -84,7 +84,7 @@ gives the empirical regression model $\hat y=\hat b x+\hat a$, with the correspo
 
 ($\mathrm D$) satisfies neither the assumption $E\left(e\right)=0$ nor the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
 
-![week95-2.svg](../../figures/week95-2.svg){width=50%}
+The figure is the residual plot corresponding to the fitted regression model $\hat y=\hat b x+\hat a$: horizontal axis $x$, vertical axis the residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$, but the band widens noticeably as $x$ increases.
 
 ### Solution to Problem 2
 
@@ -144,7 +144,7 @@ But by **Definition 8.3.1** (Categorical Variable), whether one smokes and wheth
 
 (Review Reference Exercise 8, Comprehensive Application, Problem 5) Based on the data in Example $3$ of Section $8.1.2$, build an empirical regression model of arm span on height, draw a residual plot, and describe the features of the residual plot.
 
-![week95-3.svg](../../figures/week95-3.svg){width=50%}
+The figure is the residual plot for the regression of arm span on height: horizontal axis height, vertical axis residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$ of nearly constant width, with no obvious curved trend.
 
 ### Solution to Problem 5
 
@@ -292,7 +292,7 @@ we infer that the null hypothesis does not hold, i.e. at a wrong-decision probab
 
 (2) Compute the sample correlation coefficient and explain its meaning.
 
-![week95-4.svg](../../figures/week95-4.svg){width=50%}
+The figure is a scatter plot of the average high temperature in January versus that in July for 31 cities: horizontal axis January average high (in ${^\circ}\mathrm C$), vertical axis July average high (in ${^\circ}\mathrm C$); the points lie roughly in a wide horizontal band with no obvious linear trend.
 
 ### Solution to Problem 9
 

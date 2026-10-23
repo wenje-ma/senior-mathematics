@@ -38,7 +38,7 @@ $$
 
 (3) 比较 $\mathbb P\left(\lvert X\rvert\le 1\right)$ 与 $\mathbb P\left(\lvert Y\rvert\le 1\right)$ 的大小.
 
-![week87-1.svg](../../figures/week87-1.svg){width=50%}
+该图为同一坐标系中的两条正态密度曲线，均关于 $x=0$ 对称、呈钟形：$X\sim N\left(0,2^2\right)$ 的曲线更陡峻、更集中在 $0$ 附近，$Y\sim N\left(0,3^2\right)$ 的曲线更扁平、更分散（标准差较大者曲线更宽矮）。
 
 ### 解答 练习二
 

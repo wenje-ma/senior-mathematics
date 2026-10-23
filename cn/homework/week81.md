@@ -574,7 +574,7 @@ $$
 
 (习题 6.2 拓广探索第 17 题) 如图, 现要用 $5$ 种不同的颜色对某市的 $4$ 个区县地图进行着色, 要求有公共边的两个地区不能用同一种颜色, 共有几种不同的着色方法?
 
-![week81-1.svg](../../figures/week81-1.svg){width=50%}
+该图为某市 $4$ 个区县的地图，标注为 $\mathrm{I},\mathrm{II},\mathrm{III},\mathrm{IV}$ 四块：其中 $\mathrm{I},\mathrm{II},\mathrm{III}$ 两两相邻（构成一个三角形），$\mathrm{IV}$ 只与 $\mathrm{III}$ 相邻，与 $\mathrm{I},\mathrm{II}$ 均不相邻。
 
 ### 解答 习题十七
 

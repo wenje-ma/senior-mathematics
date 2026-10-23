@@ -184,7 +184,7 @@ It can be seen that propositions analogous to addition are mostly correct; when 
 
 (Review Reference Problem 2, Extension and Exploration, Problem 9) As shown in the figure, a residential community wants to build an octagonal leisure area; its main floor plan is a cross-shaped region of area $200\ \mathrm m^2$ formed by two identical rectangles $ABCD$ and $EFGH$. It is planned to build a flower bed on the square $MNPQ$, costing $4200$ yuan$/ \mathrm m^2$; to pave granite flooring on the four identical rectangles (the shaded parts in the figure), costing $210$ yuan$/ \mathrm m^2$; and to lay lawn on the four empty corners (the four triangles in the figure), costing $80$ yuan$/ \mathrm m^2$. Let the total cost be $S$ (unit: yuan) and the length $AD$ be $x$ (unit: $\mathrm m$). For what value of $x$ is $S$ minimized? And find this minimum value.
 
-![week27-1.svg](../../figures/week27-1.svg){width=50%}
+The figure: a plan of an octagonal cross-shaped (plus-sign) leisure area, formed by two congruent rectangles $ABCD$ and $EFGH$ overlapping orthogonally; the central overlap is the square $MNPQ$ (flower bed); from the central square a rectangle extends in each of the four directions up, down, left, and right (the shaded regions, paved with granite), and between the four outer ends of the cross and the enclosing square lie four corner triangles (lawn); the length $AD$ is denoted by $x$.
 
 ### Solution to Problem 9
 

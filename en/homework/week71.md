@@ -19,7 +19,7 @@
 
 (3) The sequence whose general term formula is $a_n=\begin{cases}2, & n\text{ 为奇数},\\ n+1, & n\text{ 为偶数}.\end{cases}$
 
-![week71-1.svg](../../figures/week71-1.svg){width=100%}
+The figure shows three scatter plots of sequences (horizontal axis the index $n$, vertical axis the corresponding term $a_n$): (1) $a_n=\frac{1}{n}$, the points decrease toward $0$ as $n$ increases; (2) $a_n=2n+1$, the points lie on the line $y=2x+1$ and increase with $n$; (3) $a_n=\begin{cases}2,&n\text{ odd}\\n+1,&n\text{ even}\end{cases}$, the odd-indexed points all lie on $y=2$ while the even-indexed points increase with $n$.
 
 ### Solution to Exercise 1
 
@@ -119,7 +119,7 @@ $\blacksquare$
 
 (3) The numbers of points are $3,8,15,24,\left(\quad\right)$ in turn.
 
-![week71-2.svg](../../figures/week71-2.svg){width=100%}
+The figure shows three columns of dot patterns, each displaying a sequence of figures made of points: the first column has $1,6,11,16$ points (consecutive figures differ by $5$); the second has $1,4,7,10$ points (differ by $3$); the third has $3,8,15,24$ points (differ by $5,7,9$).
 
 ### Solution to Exercise 2
 
@@ -223,7 +223,7 @@ $\blacksquare$
 
 (2) The sequence formed by arranging the values of the Euler totient function $\varphi\left(n\right)$ ($n\in\mathbb N^*$) in increasing order of the independent variable.
 
-![week71-3.svg](../../figures/week71-3.svg){width=100%}
+The figure shows two scatter plots of sequences (horizontal axis the index $n$, vertical axis the corresponding term): (1) the primes in increasing order $2,3,5,7,11,13,17,19,23,29$; (2) the first $10$ terms of Euler's totient $\varphi(n)$: $1,1,2,2,4,2,6,4,6,4$.
 
 ### Solution to Problem 1
 
@@ -363,7 +363,7 @@ $\blacksquare$
 
 (Exercise 4.1, Comprehensive Application, Problem 5) Legend has it that mathematicians of the ancient Greek Pythagorean school used grains of sand and pebbles to study numbers. They classified numbers according to the shapes formed by the arrangement of sand or pebbles: as shown in the figure, $1,3,6,10$ in the first row are called triangular numbers, $1,4,9,16$ in the second row are called square numbers, and $1,5,12,22$ in the third row are called pentagonal numbers. Write out the $5$-th and $6$-th terms of the sequences formed by triangular numbers, square numbers, and pentagonal numbers respectively.
 
-![week71-4.svg](../../figures/week71-4.svg){width=100%}
+The figure shows three rows of pebbles (points): the first row are the triangular numbers $1,3,6,10$ (arranged in triangles); the second row are the square numbers $1,4,9,16$ (arranged in squares); the third row are the pentagonal numbers $1,5,12,22$ (arranged in pentagons).
 
 ### Solution to Problem 1
 

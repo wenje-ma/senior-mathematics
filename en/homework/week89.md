@@ -70,7 +70,7 @@ In the simple linear regression model $Y=bx+a+e$, the parameter $b$ is the slope
 
 (Exercise 8.2, Problem 3) Connect the points in Figure $8.2-1$ with line segments in increasing order of the father's height. What pattern can you observe in the line graph? Compared with the scatter plot, which one more intuitively shows the relationship between the two variables?
 
-![week89-1.svg](../../figures/week89-1.svg){width=50%}
+The figure is a scatter plot of father's height versus daughter's height (Figure 8.2-1): horizontal axis father's height, vertical axis daughter's height, with the points generally rising from lower left to upper right.
 
 ### Solution to Exercise 3
 
@@ -242,7 +242,7 @@ By **Definition 8.2.5** (Residual), the residual is the difference obtained by s
 
 (5) Does your predicted $\mathrm{GDP}$ for $2023$ agree with the actual value? Please explain why.
 
-![week89-2.svg](../../figures/week89-2.svg){width=50%}
+The figure is a scatter plot of China's $\mathrm{GDP}$ against year for 2003 to 2012: horizontal axis the year, vertical axis $\mathrm{GDP}$ (in hundred million yuan), with the points rising roughly along a straight line from lower left to upper right.
 
 ### Solution to Exercise 10
 
@@ -374,7 +374,7 @@ Thus the predicted sales of product $A$ for that household is about $42.04$ (in 
 
 (3) Predict our country's total population in $2023$ and compare it with the officially published figure for $2023$.
 
-![week89-3.svg](../../figures/week89-3.svg){width=50%}
+The figure is a scatter plot of China's total population against year for 1949 to 2022: horizontal axis the year, vertical axis total population (in ten thousand persons), with the points generally rising roughly along a straight line from lower left to upper right.
 
 ### Solution to Problem 4
 

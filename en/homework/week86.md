@@ -184,7 +184,7 @@ $\blacksquare$
 
 (2) the probability of being at coordinate 4.
 
-![week86-1.svg](../../figures/week86-1.svg){width=50%}
+The figure illustrates a particle moving randomly on integer points: the horizontal axis is a number line of integer points with the origin marked, and the particle starts at the origin, moving left or right by $1$ unit with equal probability each time.
 
 ### Solution to Problem 3
 
@@ -394,7 +394,7 @@ That is, under the assumption that the effective rate is $90\%$, the probability
 
 (Think About 1) Properties of the binomial distribution. Observe the graphs of the binomial distribution $X\sim B\left(n,p\right)$ for various values of the parameters $n$ and $p$, and, by analogy with the study of function properties, what properties of the binomial distribution can you discover?
 
-![week86-2.svg](../../figures/week86-2.svg){width=100%}
+The figure is a set of bar charts of the distribution of the binomial distribution $X\sim B\left(n,p\right)$ for different values of $n,p$ (several charts side by side): horizontal axis the value $k$, vertical axis the probability $\mathbb P\left(X=k\right)$; each chart is unimodal, with the probability first increasing with $k$, reaching a maximum near $k=np$, and then decreasing.
 
 ### Solution to Inquiry and Discovery 1
 

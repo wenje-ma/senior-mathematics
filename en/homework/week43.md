@@ -46,7 +46,7 @@ Judge by **Definition 8.6.2** (Perpendicular Skew Lines).
 
 (4) the line perpendicular to and intersecting both line $AB$ and $A'D'$ is line $\;\_\_\;$.
 
-![week43-1.svg](../../figures/week43-1.svg){width=50%}
+(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
 
 ### Solution to Exercise 2
 
@@ -68,7 +68,7 @@ Judge by **Definition 8.6.2** (Perpendicular Skew Lines) and the directions of t
 
 (2) the size of the angle formed by lines $AA'$ and $BC$.
 
-![week43-2.svg](../../figures/week43-2.svg){width=50%}
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $AB=AD=2\sqrt{3}$, $AA'=2$.)
 
 ### Solution to Exercise 3
 
@@ -82,7 +82,7 @@ By **Definition 8.6.1** (Angle Between Skew Lines).
 
 (Exercise 8.6, Problem 4) As shown in the figure, in the regular triangular prism $ABC\text{-}A'B'C'$, $D$ is the midpoint of edge $AC$, $AB=BB'=2$. Prove that $BD\perp AC'$.
 
-![week43-3.svg](../../figures/week43-3.svg){width=50%}
+(Figure: a regular triangular prism $ABC\text{-}A'B'C'$ with $D$ the midpoint of $AC$.)
 
 ### Solution to Exercise 4
 
@@ -108,7 +108,7 @@ Not necessarily. When two lines form equal angles with the same plane, they may 
 
 (Exercise 8.6, Problem 2) As shown in the figure, the base of the quadrangular pyramid $S\text{-}ABCD$ is a square, and $SD\perp$ plane $ABCD$. Prove that $AC\perp$ plane $SDB$.
 
-![week43-4.svg](../../figures/week43-4.svg){width=50%}
+(Figure: a quadrangular pyramid $S\text{-}ABCD$ with square base $ABCD$ and $SD\perp$ the base.)
 
 ### Solution to Exercise 6
 
@@ -124,7 +124,7 @@ Moreover, $SD\cap BD=D$; by **Theorem 8.6.4** (Criterion for a Line Being Perpen
 
 (Exercise 8.6, Problem 3) As shown in the figure, in the right quadrangular prism $A'B'C'D'\text{-}ABCD$, what condition must the base quadrilateral $ABCD$ satisfy so that $A'C\perp B'D'$?
 
-![week43-5.svg](../../figures/week43-5.svg){width=50%}
+(Figure: a right quadrangular prism $A'B'C'D'\text{-}ABCD$.)
 
 ### Solution to Exercise 7
 
@@ -184,7 +184,7 @@ Moreover, $A'B'\subset\alpha$, $AB\not\subset\alpha$; by **Theorem 8.5.3** (Crit
 
 (Exercise 8.6, Problem 3) As shown in the figure, $EA$ and $DC$ are both perpendicular to the plane $ABC$, and $EA=2DC$. $F$ is the midpoint of $EB$. Prove that $DF\parallel$ plane $ABC$.
 
-![week43-6.svg](../../figures/week43-6.svg){width=50%}
+(Figure: $EA\perp$ plane $ABC$, $DC\perp$ plane $ABC$, $EA=2DC$, and $F$ the midpoint of $EB$.)
 
 ### Solution to Exercise 11
 
@@ -220,7 +220,7 @@ $a$, $b$ are two intersecting lines in $\alpha$, and $a'$, $b'$ are two intersec
 
 (Exercise 8.6, Problem 1) As shown in the figure, when checking whether two adjacent (flat) faces of a workpiece are perpendicular, one simply presses one arm of a try square against one face of the workpiece and rotates the other arm on the other face of the workpiece, observing whether the arm fits snugly against this face. Why is this so?
 
-![week43-7.svg](../../figures/week43-7.svg){width=50%}
+(Figure: a workpiece with two adjacent faces, and a try square (right-angle ruler) with one arm on one face and the other arm on the other face.)
 
 ### Solution to Exercise 13
 
@@ -254,7 +254,7 @@ Hence choose (B). $\blacksquare$
 
 (Exercise 8.6, Problem 3) As shown in the figure, $AB\perp$ plane $BCD$, $BC\perp CD$. Which planes can you find that are perpendicular to each other? Why?
 
-![week43-8.svg](../../figures/week43-8.svg){width=50%}
+(Figure: $AB\perp$ plane $BCD$, with $BC\perp CD$ in $\triangle BCD$.)
 
 ### Solution to Exercise 15
 
@@ -270,7 +270,7 @@ In summary, the pairs of mutually perpendicular planes are: plane $ABC\perp$ pla
 
 (Exercise 8.6, Problem 4) As shown in the figure, in the regular triangular prism $ABC\text{-}A'B'C'$, $D$ is the midpoint of edge $AC$. Prove that plane $BDC'\perp$ plane $ACC'A'$.
 
-![week43-9.svg](../../figures/week43-9.svg){width=50%}
+(Figure: a regular triangular prism $ABC\text{-}A'B'C'$ with $D$ the midpoint of $AC$.)
 
 ### Solution to Exercise 16
 
@@ -444,7 +444,7 @@ Judge by **Theorem 8.6.4** (Criterion for a Line Being Perpendicular to a Plane)
 
 (3) $PQ\perp A_{1}B$.
 
-![week43-10.svg](../../figures/week43-10.svg){width=50%}
+(Figure: a right triangular prism $ABC\text{-}A_{1}B_{1}C_{1}$ with $CA=CB$, $P$ the midpoint of $A_{1}B$, and $Q$ the midpoint of $C_{1}C$.)
 
 ### Solution to Problem 4
 
@@ -462,7 +462,7 @@ Take the midpoint $M$ of $AB$, and connect $PM$, $CM$.
 
 (Exercise 8.6, Review and Consolidation, Problem 5) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $CD\perp AB$ with foot $D$, $PO\perp$ the base $ABC$ with foot $O$, and $O$ lies on $CD$. Prove that $AB\perp PC$.
 
-![week43-11.svg](../../figures/week43-11.svg){width=50%}
+(Figure: a triangular pyramid $P\text{-}ABC$ with $PO\perp$ base $ABC$, $O$ on $CD$, and $CD\perp AB$.)
 
 ### Solution to Problem 5
 
@@ -478,7 +478,7 @@ Since $PC\subset$ plane $PCD$, we have $AB\perp PC$. $\blacksquare$
 
 (Exercise 8.6, Review and Consolidation, Problem 6) As shown in the figure, in the cube $ABCD\text{-}A'B'C'D'$, what are the sizes of the dihedral angles formed by the plane $ABC'D'$ and the planes of the various faces of the cube respectively?
 
-![week43-12.svg](../../figures/week43-12.svg){width=50%}
+(Figure: a cube $ABCD\text{-}A'B'C'D'$ with the plane $ABC'D'$ marked.)
 
 ### Solution to Problem 6
 
@@ -496,7 +496,7 @@ Hence the plane $ABC'D'$ forms $45^{\circ}$ with the four front/back/top/bottom 
 
 (Exercise 8.6, Review and Consolidation, Problem 7) As shown in the figure, in the triangular pyramid $V\text{-}ABC$, given $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$, determine the positional relationship between plane $VAB$ and plane $VBC$, and explain why.
 
-![week43-13.svg](../../figures/week43-13.svg){width=50%}
+(Figure: a triangular pyramid $V\text{-}ABC$ with $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$.)
 
 ### Solution to Problem 7
 
@@ -570,7 +570,7 @@ Hence $A_{1}P\perp BQ$. $\blacksquare$
 
 (Exercise 8.6, Comprehensive Application, Problem 12) As shown in the figure, $m$, $n$ are two intersecting lines, $l_{1}$, $l_{2}$ are two lines both perpendicular to $m$, $n$, and the line $l$ intersects both $l_{1}$, $l_{2}$. Prove that $\angle 1=\angle 2$.
 
-![week43-14.svg](../../figures/week43-14.svg){width=50%}
+(Figure: two intersecting lines $m,n$, two lines $l_{1},l_{2}$ both perpendicular to the plane of $m,n$, and a line $l$ cutting $l_{1},l_{2}$ to form angles $\angle 1,\angle 2$.)
 
 ### Solution to Problem 12
 
@@ -600,7 +600,7 @@ From $a\parallel b$, the two right triangles are similar, and the angles formed 
 
 (Exercise 8.6, Comprehensive Application, Problem 14) As shown in the figure, in the pyramid $V\text{-}ABC$, $VO\perp$ plane $ABC$, $O\in CD$, $VA=VB$, $AD=BD$. Can you conclude that $CD\perp AB$ and that $AC=BC$?
 
-![week43-15.svg](../../figures/week43-15.svg){width=50%}
+(Figure: a pyramid $V\text{-}ABC$ with $VO\perp$ base $ABC$, $O$ on $CD$, and $D$ the midpoint of $AB$.)
 
 ### Solution to Problem 14
 
@@ -616,7 +616,7 @@ $CD\perp AB$, $D$ is the midpoint of $AB$, so $CD$ is the perpendicular bisector
 
 (Exercise 8.6, Comprehensive Application, Problem 15) As shown in the figure, in the square $SG_{1}G_{2}G_{3}$, $E$, $F$ are the midpoints of $G_{1}G_{2}$, $G_{2}G_{3}$ respectively, and $D$ is the midpoint of $EF$. If along $SE$, $SF$ and $EF$ this square is folded into a tetrahedron so that the three points $G_{1}$, $G_{2}$, $G_{3}$ coincide, and the coincident point is denoted $G$, then in the tetrahedron $S\text{-}EFG$, which edges are perpendicular to which faces?
 
-![week43-16.svg](../../figures/week43-16.svg){width=100%}
+(Figure: a square $SG_{1}G_{2}G_{3}$ with $E$ the midpoint of $G_{1}G_{2}$, $F$ the midpoint of $G_{2}G_{3}$, and $D$ the midpoint of $EF$.)
 
 ### Solution to Problem 15
 
@@ -670,7 +670,7 @@ Hence $l$, $m$, $n$ are pairwise perpendicular. $\blacksquare$
 
 (Exercise 8.6, Comprehensive Application, Problem 18) As shown in the figure, in the triangular pyramid $V\text{-}ABC$, $VA=VB=AB=AC=BC=2$, $VC=1$. Construct the plane angle of the dihedral angle $V\text{-}AB\text{-}C$ and find its cosine value.
 
-![week43-17.svg](../../figures/week43-17.svg){width=50%}
+(Figure: a triangular pyramid $V\text{-}ABC$ with $VA=VB=AB=AC=BC=2$, $VC=1$.)
 
 ### Solution to Problem 18
 
@@ -696,7 +696,7 @@ Hence the cosine value of the dihedral angle $V\text{-}AB\text{-}C$ is $\frac{5}
 
 (Exercise 8.6, Extension and Exploration, Problem 19) As shown in the figure, in the right triangular prism $ABC\text{-}A_{1}B_{1}C_{1}$, $\angle ABC=90^{\circ}$, $AA_{1}=AB$. Prove that $A_{1}C\perp AB_{1}$.
 
-![week43-18.svg](../../figures/week43-18.svg){width=50%}
+(Figure: a right triangular prism $ABC\text{-}A_{1}B_{1}C_{1}$ with $\angle ABC=90^{\circ}$.)
 
 ### Solution to Problem 19
 
@@ -734,7 +734,7 @@ Since $DE\parallel AC$, we have $DE\perp$ plane $VBC$. $\blacksquare$
 
 (Exercise 8.6, Extension and Exploration, Problem 21) As shown in the figure, in the quadrangular pyramid $P\text{-}ABCD$, the base $ABCD$ is a square, $PA\perp$ the base $ABCD$, $PA=AB$, $E$ is the midpoint of segment $PB$, and $F$ is a moving point on segment $BC$. Are the plane $AEF$ and the plane $PBC$ perpendicular to each other? If they are perpendicular, prove it; if not, explain why.
 
-![week43-19.svg](../../figures/week43-19.svg){width=50%}
+(Figure: a quadrangular pyramid $P\text{-}ABCD$ with square base $ABCD$, $PA\perp$ base, $E$ the midpoint of $PB$, and $F$ on $BC$.)
 
 ### Solution to Problem 21
 

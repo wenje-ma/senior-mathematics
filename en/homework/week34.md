@@ -26,7 +26,7 @@ Since $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ and $\boldsymbol{b
 
 (Exercise 6.4, Problem 2) As shown in the figure, the square $ABCD$ has side length $a$, $E$ is the midpoint of $AB$, $F$ is the trisection point on side $BC$ closer to $B$, and $AF$ and $DE$ meet at $M$. Find the cosine of $\angle EMF$.
 
-![week34-1.svg](../../figures/week34-1.svg){width=50%}
+The figure: square $ABCD$, with $E$ the midpoint of side $AB$ and $F$ the trisection point on side $BC$ nearer to $B$ (i.e. $BF=\frac{1}{3}BC$); the segments $AF$ and $DE$ are drawn and intersect at point $M$.
 
 ### Solution to Exercise 2
 
@@ -44,7 +44,7 @@ $\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}
 
 (Exercise 6.4, Problem 3) As shown in the figure, in $\triangle ABC$, $O$ is the midpoint of $BC$, and a line through $O$ meets the lines $AB$ and $AC$ at two distinct points $M$ and $N$. Let $\boldsymbol{AB}=m\boldsymbol{AM}$ and $\boldsymbol{AC}=n\boldsymbol{AN}$. Find the value of $m+n$.
 
-![week34-2.svg](../../figures/week34-2.svg){width=50%}
+The figure: triangle $ABC$, with $O$ the midpoint of side $BC$; a line through $O$ meets the line $AB$ at point $M$ and the line $AC$ at point $N$ (with $M$ and $N$ distinct).
 
 ### Solution to Exercise 3
 
@@ -74,7 +74,7 @@ The work $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times\left(-13\right)+\left(-5\r
 
 (Exercise 6.4, Problem 5) As shown in the figure, a pulley system has two fixed pulleys $A$ and $B$; at the ends of three ropes leaving the connecting point $O$, $3$ weights are hung, subject to gravitational forces of $4\text{ N}$, $4\text{ N}$, and $4\sqrt 3\text{ N}$, respectively. The system is exactly in equilibrium. Find the size of $\angle AOB$.
 
-![week34-3.svg](../../figures/week34-3.svg){width=50%}
+The figure: a pulley-system diagram with two fixed pulleys $A$ and $B$ above; from the junction point $O$ below three ropes extend: two ropes pass over the fixed pulleys $A$ and $B$ and each hangs a weight of $4\text{ N}$, while the third rope hangs vertically downward a weight of $4\sqrt 3\text{ N}$, and the whole system is in equilibrium.
 
 ### Solution to Exercise 5
 
@@ -238,7 +238,7 @@ $c=\frac{b\sin C}{\sin B}=\frac{\sqrt 3\cdot\frac{3+4\sqrt 3}{10}}{\frac{\sqrt 3
 
 (Exercise 6.4, Problem 13) As shown in the figure, from a point $B$ the angle of elevation to the top $A$ of a building $AE$ is measured as $\alpha$; moving forward along $BE$, from a point $C$ the angle of elevation to $A$ is $2\alpha$; continuing forward $10\sqrt{3}\text{ m}$ to a point $D$, the angle of elevation to $A$ is $4\alpha$. Find the height of the building $AE$.
 
-![week34-4.svg](../../figures/week34-4.svg){width=50%}
+The figure: the vertical building $AE$ ($E$ on the ground, $A$ its top); an observer at point $B$ on the ground measures the angle of elevation to $A$ as $\alpha$, walks forward along $BE$ to point $C$ where the elevation angle is $2\alpha$, then walks another $10\sqrt 3\text{ m}$ to point $D$ where the elevation angle is $4\alpha$; $B$, $C$, $D$, and $E$ lie on the same horizontal line.
 
 ### Solution to Exercise 13
 
@@ -406,7 +406,7 @@ $B\approx43^{\circ}$ or $B\approx137^{\circ}$.
 
 (Exercise 6.4, Review and Consolidation, Problem 8) As shown in the figure, to measure the height $AB$ of a tower on the opposite bank of a river, choose two survey points $C$ and $D$ in the same horizontal plane as the tower base $B$. It is measured that $\angle BCD=\alpha$, $\angle BDC=\beta$, $CD=s$, and from point $C$ the angle of elevation to the tower top $A$ is $\theta$. Find the tower height $AB$.
 
-![week34-5.svg](../../figures/week34-5.svg){width=50%}
+The figure: the vertical tower $AB$ ($B$ on the ground, $A$ the top); on the ground, in the same horizontal plane as the tower base $B$, lie two survey points $C$ and $D$ forming the horizontal triangle $BCD$, with $\angle BCD=\alpha$, $\angle BDC=\beta$, and $CD=s$; at point $C$ the angle of elevation to the tower top $A$ is measured as $\theta$.
 
 ### Solution to Problem 8
 
@@ -480,7 +480,7 @@ $\boldsymbol{AP}=\left(-1,-3\right)$. $P=A+\boldsymbol{AP}=\left(1-1,2-3\right)=
 
 (Exercise 6.4, Comprehensive Application, Problem 12) As shown in the figure, in $\triangle ABC$, given $AB=2$, $AC=5$, $\angle BAC=60^{\circ}$, the two medians $AM$ on side $BC$ and $BN$ on side $AC$ intersect at $P$. Find the cosine of $\angle MPN$.
 
-![week34-6.svg](../../figures/week34-6.svg){width=50%}
+The figure: triangle $ABC$ with $AB=2$, $AC=5$, and $\angle BAC=60^\circ$; $M$ is the midpoint of side $BC$ and $N$ is the midpoint of side $AC$, and the medians $AM$ and $BN$ intersect at point $P$.
 
 ### Solution to Problem 12
 
@@ -594,7 +594,7 @@ $S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\
 
 (Exercise 6.4, Extension and Exploration, Problem 19) As shown in the figure, in $\square ABCD$, $E$ and $F$ are the midpoints of sides $AD$ and $DC$, and $BE$, $BF$ meet $AC$ at $R$ and $T$, respectively. What relation do you find among $AR$, $RT$, $TC$? Prove your conclusion by a vector method.
 
-![week34-7.svg](../../figures/week34-7.svg){width=50%}
+The figure: the parallelogram $ABCD$, with $E$ the midpoint of side $AD$ and $F$ the midpoint of side $DC$; the segment $BE$ meets the diagonal $AC$ at point $R$, and the segment $BF$ meets the diagonal $AC$ at point $T$.
 
 ### Solution to Problem 19
 
@@ -642,7 +642,7 @@ $=p\left(p-a\right)\left(p-b\right)\left(p-c\right)$. $S=\sqrt{p\left(p-a\right)
 
 (Exercise 6.4, Extension and Exploration, Problem 21) As shown in the figure, to measure the distance between two mountain tops $M$ and $N$, an aircraft makes horizontal measurements at two points $A$ and $B$, with $A$, $B$, $M$, $N$ in the same vertical plane. Design a measurement scheme.
 
-![week34-8.svg](../../figures/week34-8.svg){width=50%}
+The figure: a survey diagram in a vertical plane, with two aircraft positions $A$ and $B$ on an upper horizontal line and two mountain peaks $M$ and $N$ on the ground below; the angles of elevation to $M$ and $N$ are measured from both $A$ and $B$, and $AB$ is the horizontal baseline.
 
 ### Solution to Problem 21
 

@@ -210,7 +210,7 @@ $$
 
 (3) 半径为 $\sqrt{13}$, 且与直线 $2x-3y+6=0$ 相切于点 $\left(3,4\right)$.
 
-![week64-1.svg](../../figures/week64-1.svg){width=100%}
+该图在平面直角坐标系中画出三个圆：(1) 圆心 $M\left(3,-5\right)$、半径 $4\sqrt 2$、且与直线 $x-7y+2=0$ 相切的圆 $\left(x-3\right)^2+\left(y+5\right)^2=32$；(2) 圆心在直线 $y=x$ 上、半径为 $2$、且与直线 $y=6$ 相切的两个圆，圆心分别为 $\left(4,4\right)$ 与 $\left(8,8\right)$，方程为 $\left(x-4\right)^2+\left(y-4\right)^2=4$ 与 $\left(x-8\right)^2+\left(y-8\right)^2=4$；(3) 半径为 $\sqrt{13}$、且与直线 $2x-3y+6=0$ 相切于点 $\left(3,4\right)$ 的两个圆，圆心分别为 $\left(5,1\right)$ 与 $\left(1,7\right)$。
 
 ### 解答 习题二
 
@@ -484,7 +484,7 @@ $$
 
 (2) 是否存在弦 $AB$ 被点 $P_0$ 平分? 若存在, 写出直线 $AB$ 的方程; 若不存在, 请说明理由.
 
-![week64-2.svg](../../figures/week64-2.svg){width=50%}
+该图在平面直角坐标系中画出圆 $x^2+y^2=8$（圆心在原点、半径 $2\sqrt 2$），圆内有一点 $P_0\left(-1,2\right)$，过 $P_0$ 作一条倾斜角为 $\alpha$ 的弦 $AB$（端点 $A,B$ 在圆上）。
 
 ### 解答 习题十四
 
@@ -514,7 +514,7 @@ $$
 
 (3) 求直线 $AB$ 的方程.
 
-![week64-3.svg](../../figures/week64-3.svg){width=50%}
+该图在平面直角坐标系中画出：点 $P\left(-2,-3\right)$；以 $Q\left(4,2\right)$ 为圆心、半径为 $3$ 的圆 $\left(x-4\right)^2+\left(y-2\right)^2=9$；以及以线段 $PQ$ 为直径、$Q'$ 为圆心的圆（$Q'$ 为 $PQ$ 的中点 $\left(1,-\frac{1}{2}\right)$）。两圆相交于 $A,B$，并连有线段 $PA$, $PB$, $QA$, $QB$。
 
 ### 解答 习题十五
 

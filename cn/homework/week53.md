@@ -62,7 +62,7 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 (2) 将四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 补成一个长方体, 并说出补上的几何体的名称.
 
-![week53-1.svg](../../figures/week53-1.svg){width=50%}
+(题图: 直四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 底面 $ABCD$ 为直角梯形, $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, 侧棱 $AA_{1}=4$ 垂直底面.)
 
 ### 解答 习题二
 
@@ -93,8 +93,6 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 (复习参考题8 复习巩固第 4 题) 如图, 一块边长为 $10\text{ cm}$ 的正方形铁片上有四块阴影部分. 将这些阴影部分裁下来, 然后用余下的四个全等的等腰三角形加工成一个正四棱锥形容器, 把容器的容积 $V$ (单位: $\text{cm}^{3}$) 表示为 $x$ (单位: $\text{cm}$) 的函数.
 
 (图: 正方形边长 $10$, 中间正方形边长 $x$, 四个等腰三角形底为 $x$, 高为 $5$.)
-
-![week53-2.svg](../../figures/week53-2.svg){width=50%}
 
 ### 解答 习题四
 
@@ -158,7 +156,7 @@ $\blacksquare$
 
 (复习参考题8 复习巩固第 7 题) 如图, 四边形 $A'B'C'D'$ 是 $\square ABCD$ 在平面 $\alpha$ 上的投影 ($AA'\parallel BB'\parallel CC'\parallel DD'$), 求证: 四边形 $A'B'C'D'$ 是平行四边形.
 
-![week53-3.svg](../../figures/week53-3.svg){width=50%}
+(题图: 平行四边形 $ABCD$ 在平面 $\alpha$ 上方, 四点向 $\alpha$ 作平行投影, 垂足 $A',B',C',D'$ 构成投影四边形.)
 
 ### 解答 习题七
 
@@ -174,7 +172,7 @@ $\blacksquare$
 
 (复习参考题8 复习巩固第 8 题) 如图, 一块正方体形木料的上底面有一点 $E$. 若经过点 $E$ 在上底面上画一条直线与 $CE$ 垂直, 则应该怎样画?
 
-![week53-4.svg](../../figures/week53-4.svg){width=50%}
+(题图: 正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 上底面 $A_{1}B_{1}C_{1}D_{1}$ 上有一点 $E$, $C$ 为下底面一顶点.)
 
 ### 解答 习题八
 
@@ -194,7 +192,7 @@ $\blacksquare$
 
 (2) $AB\perp PB$.
 
-![week53-5.svg](../../figures/week53-5.svg){width=50%}
+(题图: 三棱锥 $P\text{-}ABC$, $PC\perp$ 底面 $ABC$, $\triangle ABC$ 中 $\angle ABC=90^{\circ}$; $D$ 为 $AB$ 中点, $E$ 为 $PB$ 中点.)
 
 ### 解答 习题九
 
@@ -216,7 +214,7 @@ $\blacksquare$
 
 (2) 求三棱锥 $A'\text{-}EFD$ 的体积.
 
-![week53-6.svg](../../figures/week53-6.svg){width=100%}
+(题图: 边长为 $2$ 的正方形 $ABCD$, $E$ 为 $AB$ 中点, $F$ 为 $BC$ 中点; 沿 $DE,EF,DF$ 折起, 使 $A,B,C$ 重合于 $A'$.)
 
 ### 解答 习题十
 
@@ -264,7 +262,7 @@ $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$, $BD\cap DC=D$. 由面面平�
 
 (2) $B_{1}D$ 与平面 $A_{1}BC_{1}$ 的交点 $H$ 是 $\triangle A_{1}C_{1}B$ 的重心.
 
-![week53-7.svg](../../figures/week53-7.svg){width=50%}
+(题图: 正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 标出对角线 $B_{1}D$ 与平面 $A_{1}BC_{1}$.)
 
 ### 解答 习题十二
 
@@ -286,7 +284,7 @@ $A_{1}C_{1}\cap A_{1}B=A_{1}$, 由**定理 8.6.4** (直线与平面垂直的判�
 
 (2) 若 $AC=BC=PA$, $M$ 是 $PB$ 的中点, 求 $AM$ 与平面 $PBC$ 所成角的正切值.
 
-![week53-8.svg](../../figures/week53-8.svg){width=50%}
+(题图: 三棱锥 $P\text{-}ABC$, $PA\perp$ 底面 $ABC$, $\triangle ABC$ 中 $\angle ACB=90^{\circ}$.)
 
 ### 解答 习题十三
 
@@ -322,7 +320,7 @@ $\blacksquare$
 
 (2) 求侧面 $PBC$ 与底面 $ABCD$ 所成二面角的余弦值.
 
-![week53-9.svg](../../figures/week53-9.svg){width=50%}
+(题图: 四棱锥 $P\text{-}ABCD$, 底面 $ABCD$ 为正方形, 侧面 $PAD$ 为正三角形且 $PAD\perp$ 底面 $ABCD$, $M$ 为 $PD$ 中点.)
 
 ### 解答 习题十四
 

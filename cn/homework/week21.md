@@ -14,7 +14,7 @@
 
 (练习 5.4 第 1 题) 在同一直角坐标系中, 画出函数 $y=\sin x$, $x\in\left[0,2\pi\right]$, $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$ 的图象. 通过观察两条曲线, 说出它们的异同.
 
-![week21-1.svg](../../figures/week21-1.svg){width=50%}
+图：同一直角坐标系中，两条形状相同、周期均为 $2\pi$、值域均为 $\left[-1,1\right]$ 的波浪曲线：$y=\sin x$ ($x\in\left[0,2\pi\right]$) 从原点出发，先上升至 $\left(\frac{\pi}{2},1\right)$，下降穿过 $\left(\pi,0\right)$ 至 $\left(\frac{3\pi}{2},-1\right)$，再回到 $\left(2\pi,0\right)$；$y=\cos x$ ($x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$) 从 $\left(-\frac{\pi}{2},0\right)$ 上升至 $\left(0,1\right)$，下降穿过 $\left(\frac{\pi}{2},0\right)$ 至 $\left(\pi,-1\right)$，再上升穿过 $\left(\frac{3\pi}{2},0\right)$；余弦曲线相当于正弦曲线向左平移 $\frac{\pi}{2}$。
 
 ### 解答 练习一
 
@@ -32,7 +32,7 @@
 
 (2) $y=2-\cos x$.
 
-![week21-2.svg](../../figures/week21-2.svg){width=100%}
+图：共两幅。左为 $y=-\sin x$ 在 $\left[-\pi,\pi\right]$ 上的五点作图，关键点为 $\left(-\pi,0\right)$、$\left(-\frac{\pi}{2},1\right)$、$\left(0,0\right)$、$\left(\frac{\pi}{2},-1\right)$、$\left(\pi,0\right)$，即正弦曲线关于 $x$ 轴翻折；右为 $y=2-\cos x$ 在 $\left[-\pi,\pi\right]$ 上的五点作图，关键点为 $\left(-\pi,3\right)$、$\left(-\frac{\pi}{2},2\right)$、$\left(0,1\right)$、$\left(\frac{\pi}{2},2\right)$、$\left(\pi,3\right)$，是一条在 $y=1$ 与 $y=3$ 之间波动、与余弦曲线上下颠倒的波浪曲线。
 
 ### 解答 练习二
 
@@ -46,7 +46,7 @@
 
 (练习 5.4 第 3 题) 想一想函数 $y=\lvert\sin x\rvert$ 与 $y=\sin x$ 的图象及其关系, 并借助信息技术画出函数的图象进行检验.
 
-![week21-3.svg](../../figures/week21-3.svg){width=50%}
+图：函数 $y=\left|\sin x\right|$ 的图象，是将 $y=\sin x$ 位于 $x$ 轴下方的部分沿 $x$ 轴翻折到上方而得到的；曲线全部位于 $x$ 轴上方（含 $x$ 轴），值域为 $\left[0,1\right]$，周期为 $\pi$，关于 $y$ 轴对称，在 $x=k\pi$ 处接触 $x$ 轴，在 $x=\frac{\pi}{2}+k\pi$ 处取到峰值 $1$。
 
 ### 解答 练习三
 
@@ -310,7 +310,7 @@
 
 (2) $y=3\cos x+1$, $x\in\left[0,2\pi\right]$.
 
-![week21-4.svg](../../figures/week21-4.svg){width=100%}
+图：共两幅。左为 $y=1-\sin x$ 在 $\left[0,2\pi\right]$ 上的五点作图，关键点为 $\left(0,1\right)$、$\left(\frac{\pi}{2},0\right)$、$\left(\pi,1\right)$、$\left(\frac{3\pi}{2},2\right)$、$\left(2\pi,1\right)$；右为 $y=3\cos x+1$ 在 $\left[0,2\pi\right]$ 上的五点作图，关键点为 $\left(0,4\right)$、$\left(\frac{\pi}{2},1\right)$、$\left(\pi,-2\right)$、$\left(\frac{3\pi}{2},1\right)$、$\left(2\pi,4\right)$，振幅为 $3$、沿 $y$ 轴平移 $1$。
 
 ### 解答 习题一
 
@@ -584,7 +584,7 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 (习题 5.4 拓广探索第 17 题) 在直角坐标系中, 已知 $\odot O$ 是以原点 $O$ 为圆心, 半径长为 $2$ 的圆, 角 $x$ 的终边与 $\odot O$ 的交点为 $B$, 求点 $B$ 的纵坐标 $y$ 关于 $x$ 的函数解析式, 并借助信息技术画出其图象.
 
-![week21-5.svg](../../figures/week21-5.svg){width=50%}
+图：左侧为平面直角坐标系中以原点 $O$ 为圆心、半径为 $2$ 的圆，角 $x$ 的终边与圆交于点 $B$；右侧为点 $B$ 的纵坐标 $y$ 关于角 $x$ 的函数图象 $y=2\sin x$，即振幅为 $2$、周期为 $2\pi$ 的正弦曲线，在 $y=-2$ 与 $y=2$ 之间波动。
 
 ### 解答 习题十七
 
@@ -600,7 +600,7 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 (2) 画出函数 $y=f\left(x+1\right)$ 的图象.
 
-![week21-6.svg](../../figures/week21-6.svg){width=50%}
+图：函数 $y=f\left(x\right)$ 的一段周期图象（周期为 $2$），曲线过原点，在 $y=-1$ 与 $y=1$ 之间波动，在整数点 $x$ 处穿过 $x$ 轴，形状为 $y=\sin\pi x$ 的正弦波；图中画出了若干个连续周期的波形。
 
 ### 解答 习题十八
 

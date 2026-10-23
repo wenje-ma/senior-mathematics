@@ -14,7 +14,7 @@
 
 (2) Write down the analytic expression of this simple harmonic motion.
 
-![week24-1.svg](../../figures/week24-1.svg){width=50%}
+The graph: horizontal axis is time $t$ (unit: s), vertical axis is displacement $y$ (unit: cm); a sine curve starts at the origin $\left(0,0\right)$ on a rising edge, with amplitude $3$ (maximum $3$, minimum $-3$) and period $2$ s (two consecutive rising zero-crossings at about $t=1.2$ and $t=3.2$).
 
 ### Solution to Exercise 1
 
@@ -44,7 +44,7 @@ By **Definition 5.7.1** (Simple Harmonic Motion).
 
 (Exercise 5.7, Problem 3) The current produced by a generator is a sinusoidal current, and the relationship between voltage and time is shown in the figure. From the graph, state its period, frequency and maximum voltage, and find the analytic expression of the voltage $U$ (unit: $\text{V}$) with respect to time $t$ (unit: $\text{s}$).
 
-![week24-2.svg](../../figures/week24-2.svg){width=50%}
+The graph: horizontal axis is time $t$ (unit: s), vertical axis is voltage $U$ (unit: V); a sine curve starts at the origin on a rising edge, with maximum $311$ V, minimum $-311$ V, and period $0.02$ s.
 
 ### Solution to Exercise 3
 
@@ -56,7 +56,7 @@ From the graph, the maximum voltage is $311\text{ V}$, the period is $0.02\text{
 
 (Exercise 5.7, Comprehensive Application, Problem 1) Some stars in the sky have changing brightness; one type is called a Cepheid variable star. The figure below shows the periodic change of the brightness of a Cepheid variable star over time. What is the period of the brightness change of this variable star in days? What is its magnitude at its brightest? What is its magnitude at its dimmest?
 
-![week24-3.svg](../../figures/week24-3.svg){width=50%}
+The graph: horizontal axis is time (unit: day), vertical axis is the star's brightness (magnitude); a periodically oscillating curve fluctuates between about magnitude $3.5$ (brightest) and about magnitude $4.5$ (dimmest), with a period of about $5.5$ days.
 
 ### Solution to Problem 1
 
@@ -96,7 +96,7 @@ By **Definition 5.7.2** (Amplitude, Period, Frequency, Phase).
 
 (2) A student plans to watch the flag-raising ceremony during the May Day holiday. By what time should he arrive at Tiananmen Square?
 
-![week24-4.svg](../../figures/week24-4.svg){width=50%}
+The graph: horizontal axis is the date (different dates over the year), vertical axis is time; two sets of points are plotted for the sunrise time and the sunset time, fitted with approximate sine curves; both curves vary periodically over one year (about $365$ days), and the time between the sunrise and sunset curves is the duration of daylight.
 
 ### Solution to Problem 3
 

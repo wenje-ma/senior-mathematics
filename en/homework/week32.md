@@ -32,7 +32,7 @@
 
 (Exercise 6.2, Problem 1) As shown in the figure, in each of the following, given the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, construct the vector $\boldsymbol{a}+\boldsymbol{b}$ in two ways.
 
-![week32-1.svg](../../figures/week32-1.svg){width=100%}
+The figure: several pairs of given vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ (with different directions and angles), asking to construct the sum $\boldsymbol{a}+\boldsymbol{b}$ by both the triangle rule (moving the tail of $\boldsymbol{b}$ to the head of $\boldsymbol{a}$) and the parallelogram rule (placing the two vectors tail-to-tail and completing the parallelogram).
 
 ### Solution to Exercise 1
 
@@ -58,7 +58,7 @@ By **Common Conclusion 6.2.3** (Triangle Inequality), $\lvert\boldsymbol{a}+\bol
 
 (4) $\boldsymbol{c}+\boldsymbol{d}+\boldsymbol{e}=\;\_\_\;$.
 
-![week32-2.svg](../../figures/week32-2.svg){width=50%}
+The figure: several vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$, and $\boldsymbol{e}$ drawn head-to-tail on the same diagram, with the task of filling in the sums of various vectors based on the head-to-tail connections.
 
 ### Solution to Exercise 3
 
@@ -74,7 +74,7 @@ By **Definition 6.2.1** (Triangle Rule), the sum of vectors placed head-to-tail 
 
 (3) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CP}=\boldsymbol{PA}$.
 
-![week32-3.svg](../../figures/week32-3.svg){width=50%}
+The figure: the parallelogram $ABCD$, with point $P$ on side $CD$; the directed segments $\boldsymbol{DA}$, $\boldsymbol{DP}$, $\boldsymbol{AB}$, $\boldsymbol{BP}$, $\boldsymbol{BC}$, $\boldsymbol{CP}$, etc. are marked, used to judge whether various vector-sum equalities hold.
 
 ### Solution to Exercise 4
 
@@ -134,7 +134,7 @@ $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{
 
 (Exercise 6.2, Problem 8) Verify by construction: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
 
-![week32-4.svg](../../figures/week32-4.svg){width=50%}
+The figure: first draw the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ and their sum $\boldsymbol{a}+\boldsymbol{b}$ from a common tail, then draw the opposite vector $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$; separately draw $-\boldsymbol{a}$ and $-\boldsymbol{b}$ and add them by the triangle rule; the two constructions coincide, verifying $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
 
 ### Solution to Exercise 8
 
@@ -394,7 +394,7 @@ By **Definition 6.2.1** (Triangle Rule) and **Definition 6.2.5** (Subtraction of
 
 (2) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{b}$.
 
-![week32-5.svg](../../figures/week32-5.svg){width=100%}
+The figure: from a common tail draw the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$; first construct $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$ and $\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$ and add them to obtain $\boldsymbol{a}$; in another construction subtract the two to obtain $\boldsymbol{b}$, verifying the two identities.
 
 ### Solution to Problem 5
 
@@ -464,7 +464,7 @@ By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
 (Exercise 6.2, Review and Consolidation, Problem 9) As shown in the figure, $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$ and $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$. Prove that $\boldsymbol{MN}=\frac{1}{3}\boldsymbol{BC}$.
 
-![week32-6.svg](../../figures/week32-6.svg){width=50%}
+The figure: triangle $ABC$, with point $M$ on side $AB$ such that $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$ and point $N$ on side $AC$ such that $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$; $MN$ is joined, and segment $MN$ is parallel to $BC$ with $MN=\frac{1}{3}BC$.
 
 ### Solution to Problem 9
 
@@ -570,7 +570,7 @@ $\boldsymbol{AN}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$. $\black
 
 (Exercise 6.2, Comprehensive Application, Problem 15) As shown in the figure, in an arbitrary quadrilateral $ABCD$, $E$ and $F$ are the midpoints of $AD$ and $BC$, respectively. Prove that $\boldsymbol{AB}+\boldsymbol{DC}=2\boldsymbol{EF}$.
 
-![week32-7.svg](../../figures/week32-7.svg){width=50%}
+The figure: an arbitrary quadrilateral $ABCD$, with $E$ the midpoint of side $AD$ and $F$ the midpoint of side $BC$, and $EF$ joined.
 
 ### Solution to Problem 15
 
@@ -586,7 +586,7 @@ $E$ is the midpoint of $AD$, so $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$
 
 (Exercise 6.2, Comprehensive Application, Problem 16) An airplane flies from place A in the direction $15^{\circ}$ west of north for $1400\text{ km}$ to reach place B, and then from B in the direction $75^{\circ}$ east of south for $1400\text{ km}$ to reach place C. Draw a schematic diagram of the airplane's displacements, and state: in what direction is C from A? How far is C from A?
 
-![week32-8.svg](../../figures/week32-8.svg){width=50%}
+The figure: a displacement diagram starting from point $A$ (place A); the first displacement $\boldsymbol{AB}$ runs in the direction north by west $15^\circ$ for $1400\text{ km}$ to point $B$ (place B), and the second displacement $\boldsymbol{BC}$ runs in the direction south by east $75^\circ$ for $1400\text{ km}$ to point $C$ (place C), with $AC$ joined.
 
 ### Solution to Problem 16
 
@@ -604,7 +604,7 @@ Take A as the origin. The first displacement $\boldsymbol{AB}$ is directed $15^{
 
 (3) As in figure (3), in the $n$-gon $A_1A_2A_3\cdots A_n$, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? Prove your conclusion.
 
-![week32-9.svg](../../figures/week32-9.svg){width=100%}
+The figure: three diagrams. Figure (1): triangle $ABC$ with directed sides $\boldsymbol{AB}$, $\boldsymbol{BC}$, and $\boldsymbol{CA}$ marked; Figure (2): quadrilateral $ABCD$ with directed sides $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CD}$, and $\boldsymbol{DA}$ marked; Figure (3): the $n$-gon $A_1A_2\cdots A_n$ with head-to-tail directed sides $\boldsymbol{A_1A_2},\boldsymbol{A_2A_3},\ldots,\boldsymbol{A_nA_1}$ marked.
 
 ### Solution to Problem 17
 
@@ -670,7 +670,7 @@ The projection of $\boldsymbol{BA}$ onto $\boldsymbol{BC}$ is $\lvert\boldsymbol
 
 (Exercise 6.2, Extension and Exploration, Problem 22) As shown in the figure, $O$ is a point outside the parallelogram $ABCD$. Express $\boldsymbol{OD}$ in terms of $\boldsymbol{OA}$, $\boldsymbol{OB}$, and $\boldsymbol{OC}$.
 
-![week32-10.svg](../../figures/week32-10.svg){width=50%}
+The figure: the parallelogram $ABCD$, with point $O$ outside the parallelogram; from $O$ the directed segments $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, and $\boldsymbol{OD}$ are drawn to the vertices $A$, $B$, $C$, and $D$ respectively.
 
 ### Solution to Problem 22
 
@@ -686,7 +686,7 @@ In $\square ABCD$, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymb
 
 (2) What properties does the quadrilateral $ABCD$ have? Prove your conjecture.
 
-![week32-11.svg](../../figures/week32-11.svg){width=50%}
+The figure: quadrilateral $ABCD$, with a point $O$ in the plane; from $O$ the directed segments $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, and $\boldsymbol{OD}$ are drawn to the four vertices.
 
 ### Solution to Problem 23
 
@@ -700,7 +700,7 @@ By **Definition 6.2.5** (Subtraction of Vectors).
 
 (Exercise 6.2, Extension and Exploration, Problem 24) As shown in the figure, in $\odot C$, is it enough to know only the radius of $\odot C$ or the length of the chord $AB$ to determine the value of $\boldsymbol{AB}\cdot\boldsymbol{AC}$?
 
-![week32-12.svg](../../figures/week32-12.svg){width=50%}
+The figure: the circle $\odot C$ centered at point $C$, with the chord $AB$ whose endpoints $A$ and $B$ lie on the circle; the center $C$ is joined to $A$ and $B$, forming the isosceles triangle $CAB$ ($CA=CB$ are radii).
 
 ### Solution to Problem 24
 

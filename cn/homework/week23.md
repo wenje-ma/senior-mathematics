@@ -22,7 +22,7 @@
 
 (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$.
 
-![week23-1.svg](../../figures/week23-1.svg){width=100%}
+图：共四幅长度为一个周期的正弦简图。(1) $y=\frac{1}{2}\sin x$：周期 $2\pi$、振幅 $\frac{1}{2}$，在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动；(2) $y=\sin3x$：周期 $\frac{2\pi}{3}$、振幅 $1$，在 $y=-1$ 与 $y=1$ 之间波动且波形较密；(3) $y=\sin\left(x-\frac{\pi}{3}\right)$：周期 $2\pi$、振幅 $1$，相当于 $y=\sin x$ 向右平移 $\frac{\pi}{3}$；(4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$：周期 $\pi$、振幅 $2$，在 $y=-2$ 与 $y=2$ 之间波动。
 
 ### 解答 练习一
 
@@ -156,7 +156,7 @@
 
 (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$.
 
-![week23-2.svg](../../figures/week23-2.svg){width=100%}
+图：共四幅长度为一个周期的简图。(1) $y=4\sin\frac{x}{2}$：周期 $4\pi$、振幅 $4$，在 $y=-4$ 与 $y=4$ 之间波动且波形较疏；(2) $y=\frac{1}{2}\cos3x$：周期 $\frac{2\pi}{3}$、振幅 $\frac{1}{2}$，在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动；(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$：周期 $\pi$、振幅 $3$；(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$：周期 $4\pi$、振幅 $2$。
 
 ### 解答 习题二
 
@@ -190,7 +190,7 @@
 
 (习题 5.6 综合运用第 4 题) 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) 在一个周期内的图象如图所示, 此函数的解析式为 $y=$ $\;\_\_\;$ .
 
-![week23-3.svg](../../figures/week23-3.svg){width=50%}
+图：函数 $y=A\sin\left(\omega x+\varphi\right)$ 在一个周期内的图象，振幅 $A=2$（最大值 $2$、最小值 $-2$），周期为 $\pi$，曲线过点 $\left(0,1\right)$ 且处于上升沿（即 $x=0$ 时函数值为 $1$、随后上升至峰值 $2$）。
 
 ### 解答 习题四
 

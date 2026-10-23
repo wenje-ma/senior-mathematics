@@ -30,7 +30,7 @@ Pulling force, friction and acceleration all have both magnitude and direction, 
 
 (Exercise 6.1, Problem 2) Draw two directed line segments to represent respectively a force of $18\text{ N}$ acting vertically downward and a force of $28\text{ N}$ acting horizontally to the left. (Use a length of $1\text{ cm}$ to represent $10\text{ N}$.)
 
-![week31-1.svg](../../figures/week31-1.svg){width=50%}
+The figure: using the scale $1\text{ cm}$ to represent $10\text{ N}$, draw a directed segment $1.8\text{ cm}$ long pointing vertically downward to represent a force of magnitude $18\text{ N}$, and alongside it a directed segment $2.8\text{ cm}$ long pointing horizontally leftward to represent a force of magnitude $28\text{ N}$.
 
 ### Solution to Exercise 2
 
@@ -42,7 +42,7 @@ Taking $1\text{ cm}$ to represent $10\text{ N}$, the force of $18\text{ N}$ corr
 
 (Exercise 6.1, Problem 3) Indicate the lengths of the vectors in the figure. (The side length of each small square is stipulated to be $0.5$.)
 
-![week31-2.svg](../../figures/week31-2.svg){width=50%}
+The figure: a sheet of grid paper, with the side of each small square set to $0.5$, on which several directed segments of various directions are drawn (some horizontal or vertical along the grid lines, some along the grid diagonals); the task is to compute the length of each vector from the number of squares it spans.
 
 ### Solution to Exercise 3
 
@@ -80,7 +80,7 @@ By **Definition 6.1.6** (Parallel Vectors and Collinear Vectors), parallel vecto
 
 (3) $\lvert\boldsymbol{OC}\rvert=2$, with point $C$ in the direction $30^{\circ}$ south of west of point $O$.
 
-![week31-3.svg](../../figures/week31-3.svg){width=50%}
+The figure: a sheet of coordinate grid paper, with the side of each small square set to $1$; starting from the point $O$, three directed segments are drawn: $\boldsymbol{OA}$ due south of length $4$ (spanning $4$ squares); $\boldsymbol{OB}$ in the direction north by west $45^\circ$ of length $2\sqrt2$ (i.e. $2$ squares west and $2$ squares north); and $\boldsymbol{OC}$ in the direction south by west $30^\circ$ of length $2$.
 
 ### Solution to Problem 1
 
@@ -96,7 +96,7 @@ By **Definition 6.1.2** (Directed Line Segments) and **Definition 6.1.3** (Magni
 
 (Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, point $O$ is the intersection of the diagonals of $\square ABCD$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$. Write out respectively, in $\square ABCD$ and in the broken line $MPQRST$, the vectors equal to $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
 
-![week31-4.svg](../../figures/week31-4.svg){width=100%}
+The figure: on the left is the parallelogram $ABCD$, whose diagonals $AC$ and $BD$ intersect at point $O$, with $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, and $\boldsymbol{AB}=\boldsymbol{c}$ marked; on the right is a broken line formed by connecting the points $M,P,Q,R,S,T$ in order, each segment being a directed segment with an arrow.
 
 ### Solution to Problem 2
 
@@ -148,7 +148,7 @@ By **Definition 6.1.7** (Equal Vectors), if two vectors with the same starting p
 
 (Exercise 6.1, Extension and Exploration, Problem 4) As shown in the figure, in the rectangle $ABCD$, $AB=2BC=2$, and $M$, $N$ are the midpoints of sides $AB$, $CD$ respectively. Among all the vectors represented by directed line segments with $A$, $B$, $C$, $D$, $M$, $N$ as starting and terminal points, how many pairs of equal vectors are there in total?
 
-![week31-5.svg](../../figures/week31-5.svg){width=50%}
+The figure: the rectangle $ABCD$ placed horizontally, with $AB$ as the top side and $CD$ as the bottom side, $AB=2$ and $BC=1$; $M$ is the midpoint of side $AB$ and $N$ is the midpoint of side $CD$, and the segment $MN$ joins $M$ to $N$ vertically.
 
 ### Solution to Problem 4
 

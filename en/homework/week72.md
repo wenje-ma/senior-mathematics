@@ -140,7 +140,7 @@ $\blacksquare$
 
 (Exercise 4.2, Problem 2) Draw the graph of the sequence $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1<n\le 6\end{cases}$, and find the slope of the line passing through all the points on the graph
 
-![week72-1.svg](../../figures/week72-1.svg){width=50%}
+The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1<n\le6\end{cases}$ (horizontal axis $n$, vertical axis $a_n$): the six points are $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$, lying exactly on the line $y=21-3x$.
 
 ### Solution to Exercise 2
 

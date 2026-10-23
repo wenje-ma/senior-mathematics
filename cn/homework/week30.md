@@ -160,7 +160,7 @@ $\blacksquare$
 
 (4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$.
 
-![week30-1.svg](../../figures/week30-1.svg){width=100%}
+图：共四幅长度为一个周期的简图。(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$：振幅 $\frac{1}{2}$、周期 $\frac{2\pi}{3}$；(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$：振幅 $2$、周期 $2\pi$，与 $y=\sin x$ 的起伏方向相反；(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$：振幅 $1$、周期 $\pi$，在 $y=0$ 与 $y=2$ 之间波动；(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$：振幅 $3$、周期 $12\pi$。
 
 ### 解答 习题八
 
@@ -184,7 +184,7 @@ $\blacksquare$
 
 (3) 如何根据第 (2) 小题并通过平行移动坐标轴, 得到函数 $y=\sin\left(x+\varphi\right)+k$, $x\in\left[0,2\pi\right]$ ($\varphi$, $k$ 都是常数) 的图象?
 
-![week30-2.svg](../../figures/week30-2.svg){width=50%}
+图：平面直角坐标系中，$y=\sin x$ 在 $\left[0,\frac{\pi}{2}\right]$ 上的一段四分之一波峰状正弦曲线，从原点 $\left(0,0\right)$ 上升至 $\left(\frac{\pi}{2},1\right)$，标出五个描点 $\left(0,0\right)$、$\left(\frac{\pi}{6},\frac{1}{2}\right)$、$\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$、$\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$、$\left(\frac{\pi}{2},1\right)$ 并用光滑曲线连接。
 
 ### 解答 习题九
 
@@ -478,7 +478,7 @@ $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(
 
 (3) 由 (2) 中的图象求 $S\left(\alpha\right)$ 的最小值.
 
-![week30-3.svg](../../figures/week30-3.svg){width=50%}
+图：两条平行直线 $l_1$（上方）与 $l_2$（下方），定点 $A$ 在两线之间，到 $l_1$ 的距离为 $h_1$、到 $l_2$ 的距离为 $h_2$；动点 $B$ 在 $l_2$ 上，从 $A$ 作 $AB$ 的垂线交 $l_1$ 于点 $C$，构成直角三角形 $ABC$（$\angle BAC=90^\circ$），$\angle ABD=\alpha$ 为 $AB$ 与 $l_2$ 的夹角（$D$ 在 $l_2$ 上 $B$ 的一侧）。
 
 ### 解答 习题二十五
 

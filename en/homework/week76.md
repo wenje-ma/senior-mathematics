@@ -510,7 +510,7 @@ which gives $a=-\frac{1}{4}$. $\blacksquare$
 
 (3) Guess the derivative of $y=\sin x$. Is it the same as the derivative formula for $\sin x$ in the table of derivative formulas for basic elementary functions? 
 
-![week76-1.svg](../../figures/week76-1.svg){width=50%}
+The figure shows four graphs of $y=\frac{\sin\left(x+h\right)-\sin x}{h}$ for $h=1,0.5,0.1,0.05$ (all cosine-type curves), together with the reference graph $y=\cos x$; as $h$ grows smaller, the first four curves approach $y=\cos x$ more and more closely.
 
 ### Solution to Problem 12
 

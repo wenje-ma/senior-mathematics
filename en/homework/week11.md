@@ -54,7 +54,7 @@ Parity: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, so $f\left(x
 
 (Exercise 3.3, Review and Consolidation, Problem 1) Draw the graph of the function $y=\sqrt{\left|x\right|}$, determine the parity of the function, and discuss its monotonicity.
 
-![week11-1.svg](../../figures/week11-1.svg){width=50%}
+The graph: in a rectangular coordinate plane, the graph of $y=\sqrt{\left|x\right|}$ is symmetric about the $y$-axis; for $x\ge0$ it is the curve $y=\sqrt x$ rising from the origin $\left(0,0\right)$ to the upper right, and for $x<0$ it is its mirror image about the $y$-axis rising from the origin to the upper left.
 
 ### Solution to Problem 1
 
@@ -92,7 +92,7 @@ By **Definition 3.3.1** (Power Function), the flow rate is proportional to the f
 
 (Exercise 3.3, Comprehensive Application, Problem 3) Try to plot points to draw the graph of the function $f\left(x\right)=x^{-2}$, find its domain and range; discuss its monotonicity and parity, and prove.
 
-![week11-2.svg](../../figures/week11-2.svg){width=50%}
+The graph: in a rectangular coordinate plane, the graph of $f\left(x\right)=x^{-2}=\frac{1}{x^2}$ lies above the $x$-axis and is symmetric about the $y$-axis; in the first quadrant it is a decreasing hyperbola-like curve descending from $+\infty$ as $x$ increases, with the $x$-axis as an asymptote, and in the second quadrant it is its mirror image about the $y$-axis; both coordinate axes are asymptotes.
 
 ### Solution to Problem 3
 
@@ -160,7 +160,7 @@ When $x<0$, let $t=-x>0$, then $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$,
 
 (Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Is the function graph you drew similar to Figure 1?
 
-![week11-3.svg](../../figures/week11-3.svg){width=50%}
+Figure 1: in a rectangular coordinate plane, the graph of $y=x+\frac{1}{x}$ is symmetric about the origin; in the first quadrant the curve decreases from $+\infty$ as $x\to0^+$ to the local minimum point $\left(1,2\right)$ and then increases to $+\infty$, approaching the line $y=x$ as an asymptote; in the third quadrant it is the part symmetric about the origin, increasing from $-\infty$ to the local maximum point $\left(-1,-2\right)$ and then decreasing to $-\infty$.
 
 ### Solution to Inquiry and Discovery 5
 

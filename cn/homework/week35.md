@@ -108,7 +108,7 @@ $$
 
 (练习 7.1 第 1 题) 说出图中复平面内各点所表示的复数 (每个小方格的边长为 $1$).
 
-![week35-1.svg](../../figures/week35-1.svg){width=50%}
+图：复平面直角坐标系（横轴为实轴、纵轴为虚轴，小方格边长为 $1$），标出八个点：$A\left(3,3\right)$、$B\left(2,-2\right)$、$C\left(-3,2\right)$、$D\left(-3,-2\right)$、$E\left(3,0\right)$（在实轴上）、$F\left(-2,0\right)$（在实轴上）、$G\left(0,3\right)$（在虚轴上）、$H\left(0,-3\right)$（在虚轴上）。
 
 ### 解答 练习四
 
@@ -134,7 +134,7 @@ $$
 
 (6) $-3\mathrm{i}$.
 
-![week35-2.svg](../../figures/week35-2.svg){width=50%}
+图：复平面直角坐标系，描出六个点：$2+5\mathrm{i}$ 对应 $\left(2,5\right)$、$-3+2\mathrm{i}$ 对应 $\left(-3,2\right)$、$2-4\mathrm{i}$ 对应 $\left(2,-4\right)$、$-3-\mathrm{i}$ 对应 $\left(-3,-1\right)$、$5$ 对应实轴上的 $\left(5,0\right)$、$-3\mathrm{i}$ 对应虚轴上的 $\left(0,-3\right)$。
 
 ### 解答 练习五
 
@@ -162,7 +162,7 @@ $$
 
 (2) 求这些复数的模.
 
-![week35-3.svg](../../figures/week35-3.svg){width=50%}
+图：复平面直角坐标系，以原点 $O$ 为起点画出五个向量，分别对应复数 $2+\mathrm{i}$（即 $\left(2,1\right)$）、$-2+4\mathrm{i}$（即 $\left(-2,4\right)$）、$-2\mathrm{i}$（即 $\left(0,-2\right)$）、$4$（即 $\left(4,0\right)$）、$\frac{3}{2}-4\mathrm{i}$（即 $\left(\frac{3}{2},-4\right)$）。
 
 ### 解答 练习六
 

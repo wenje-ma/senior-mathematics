@@ -38,7 +38,7 @@ The blanks are, in order, $f\left(x\right)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2
 
 (3) Compare $\mathbb P\left(\lvert X\rvert\le 1\right)$ and $\mathbb P\left(\lvert Y\rvert\le 1\right)$.
 
-![week87-1.svg](../../figures/week87-1.svg){width=50%}
+The figure shows two normal density curves in one coordinate system, both symmetric about $x=0$ and bell-shaped: the curve for $X\sim N\left(0,2^2\right)$ is steeper and more concentrated near $0$, while the curve for $Y\sim N\left(0,3^2\right)$ is flatter and more spread out (the larger the standard deviation, the wider and lower the curve).
 
 ### Solution to Exercise 2
 

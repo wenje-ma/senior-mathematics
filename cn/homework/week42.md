@@ -16,7 +16,7 @@
 
 (练习 8.5 第 1 题) 如图, 把一张矩形纸片对折几次, 然后打开, 得到的折痕互相平行吗? 为什么?
 
-![week42-1.svg](../../figures/week42-1.svg){width=50%}
+(题图: 一张矩形纸片对折两次后打开, 三条折痕互相平行.)
 
 ### 解答 练习一
 
@@ -28,7 +28,7 @@
 
 (练习 8.5 第 2 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, 与棱 $AA'$ 平行的棱共有几条? 分别是什么?
 
-![week42-2.svg](../../figures/week42-2.svg){width=50%}
+(题图: 长方体 $ABCD\text{-}A'B'C'D'$ 的直观图.)
 
 ### 解答 练习二
 
@@ -40,7 +40,7 @@
 
 (练习 8.5 第 3 题) 如图, $AA'$, $BB'$, $CC'$ 不共面, 且 $AA'=\ BB'$, $BB'=\ CC'$. 求证: $\triangle ABC\cong\triangle A'B'C'$.
 
-![week42-3.svg](../../figures/week42-3.svg){width=50%}
+(题图: 两个三角形 $ABC$ 与 $A'B'C'$, 对应顶点连线 $AA'$, $BB'$, $CC'$ 平行且相等.)
 
 ### 解答 练习三
 
@@ -56,7 +56,7 @@
 
 (练习 8.5 第 4 题) 如图, 在四面体 $A\text{-}BCD$ 中, $E$, $F$, $G$ 分别为 $AB$, $AC$, $AD$ 上的点. 若 $EF\parallel BC$, $FG\parallel CD$, 则 $\triangle EFG$ 和 $\triangle BCD$ 有什么关系? 为什么?
 
-![week42-4.svg](../../figures/week42-4.svg){width=50%}
+(题图: 四面体 $A\text{-}BCD$, $E$ 在 $AB$ 上, $F$ 在 $AC$ 上, $G$ 在 $AD$ 上, 连接 $EF$, $FG$, $EG$.)
 
 ### 解答 练习四
 
@@ -78,7 +78,7 @@
 
 (3) 与 $AD$ 平行的平面是 $\;\_\_\;$.
 
-![week42-5.svg](../../figures/week42-5.svg){width=50%}
+(题图: 长方体 $ABCD\text{-}A'B'C'D'$ 的直观图.)
 
 ### 解答 练习五
 
@@ -94,7 +94,7 @@
 
 (练习 8.5 第 2 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, $E'$ 是 $A'A$ 上一点, 求证: $AB\parallel$ 平面 $DCC'D'$.
 
-![week42-6.svg](../../figures/week42-6.svg){width=50%}
+(题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E'$ 为侧棱 $A'A$ 上一点.)
 
 ### 解答 练习六
 
@@ -162,7 +162,7 @@
 
 (练习 8.5 第 3 题) 如图, 在正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, $M$, $N$, $E$, $F$ 分别是棱 $A_{1}B_{1}$, $A_{1}D_{1}$, $B_{1}C_{1}$, $C_{1}D_{1}$ 的中点. 求证: 平面 $AMN\parallel$ 平面 $DBEF$.
 
-![week42-7.svg](../../figures/week42-7.svg){width=50%}
+(题图: 正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $M,N,E,F$ 分别为上底面四条棱的中点.)
 
 ### 解答 练习九
 
@@ -178,7 +178,7 @@ $M$, $N$ 分别为 $A_{1}B_{1}$, $A_{1}D_{1}$ 的中点, 故 $MN\parallel B_{1}D
 
 (练习 8.5 第 4 题) 如图, 平面 $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel b$. 判断 $c$ 与 $a$, $c$ 与 $\alpha$ 的位置关系, 并说明理由.
 
-![week42-8.svg](../../figures/week42-8.svg){width=50%}
+(题图: 两个平行平面 $\alpha,\beta$ 被第三个平面 $\gamma$ 所截, 交线为 $a,b$; $c$ 在 $\beta$ 内且平行于 $b$.)
 
 ### 解答 练习十
 
@@ -228,7 +228,7 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 (习题 8.5 复习巩固第 3 题) 如图, 在长方体木块 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 面 $A_{1}C_{1}$ 上有一点 $P$, 怎样过点 $P$ 画一条直线与棱 $CD$ 平行?
 
-![week42-9.svg](../../figures/week42-9.svg){width=50%}
+(题图: 长方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 上底面 $A_{1}B_{1}C_{1}D_{1}$ 上有一点 $P$.)
 
 ### 解答 习题三
 
@@ -242,7 +242,7 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 (习题 8.5 复习巩固第 4 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, $E$, $F$ 分别是 $AB$, $BC$ 的中点, 求证 $EF\parallel A'C'$.
 
-![week42-10.svg](../../figures/week42-10.svg){width=50%}
+(题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E$ 为 $AB$ 中点, $F$ 为 $BC$ 中点.)
 
 ### 解答 习题四
 
@@ -272,7 +272,7 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 (习题 8.5 复习巩固第 6 题) 如图, $a$, $b$ 是异面直线, 画出平面 $\alpha$, 使 $a\subset\alpha$, 且 $b\parallel\alpha$, 并说明理由.
 
-![week42-11.svg](../../figures/week42-11.svg){width=50%}
+(题图: 两条异面直线 $a,b$.)
 
 ### 解答 习题六
 
@@ -286,7 +286,7 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 (习题 8.5 复习巩固第 7 题) 如图, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$, 求证 $CD\parallel EF$.
 
-![week42-12.svg](../../figures/week42-12.svg){width=50%}
+(题图: 三个平面 $\alpha,\beta,\gamma$ 两两相交, 交线分别为 $CD,EF,AB$.)
 
 ### 解答 习题七
 
@@ -302,7 +302,7 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 (习题 8.5 复习巩固第 8 题) 如图, 直线 $AA'$, $BB'$, $CC'$ 相交于点 $O$, $AO=A'O$, $BO=B'O$, $CO=C'O$, 求证: 平面 $ABC\parallel$ 平面 $A'B'C'$.
 
-![week42-13.svg](../../figures/week42-13.svg){width=50%}
+(题图: 直线 $AA',BB',CC'$ 交于点 $O$, $A,B,C$ 与 $A',B',C'$ 分别位于 $O$ 的两侧.)
 
 ### 解答 习题八
 
@@ -320,7 +320,7 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 (习题 8.5 综合运用第 9 题) 如图, $E$, $E'$ 分别为长方体 $ABCD\text{-}A'B'C'D'$ 的棱 $AD$, $A'D'$ 的中点, 求证 $\angle BEC=\angle B'E'C'$.
 
-![week42-14.svg](../../figures/week42-14.svg){width=50%}
+(题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E$ 为 $AD$ 中点, $E'$ 为 $A'D'$ 中点.)
 
 ### 解答 习题九
 
@@ -336,7 +336,7 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 (习题 8.5 综合运用第 10 题) 如图, $AB\parallel\alpha$, $AC\parallel BD$, $C\in\alpha$, $D\in\alpha$, 求证 $AC=BD$.
 
-![week42-15.svg](../../figures/week42-15.svg){width=50%}
+(题图: 平面 $\alpha$, $C,D\in\alpha$, $A,B$ 在 $\alpha$ 外, $AB\parallel\alpha$ 且 $AC\parallel BD$.)
 
 ### 解答 习题十
 
@@ -368,7 +368,7 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 (习题 8.5 综合运用第 12 题) 一木块如下页图所示, 点 $P$ 在平面 $VAC$ 内, 过点 $P$ 将木块锯开, 使截面平行于直线 $VB$ 和 $AC$, 在木块表面应该怎样画线?
 
-![week42-16.svg](../../figures/week42-16.svg){width=50%}
+(题图: 四面体 $V\text{-}ABC$, 点 $P$ 在面 $VAC$ 内.)
 
 ### 解答 习题十二
 
@@ -384,7 +384,7 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 (习题 8.5 拓广探索第 13 题) 如图, $\alpha\parallel\beta\parallel\gamma$, 直线 $a$ 与 $b$ 分别交 $\alpha$, $\beta$, $\gamma$ 于点 $A$, $B$, $C$ 和点 $D$, $E$, $F$, 求证 $\frac{AB}{BC}=\frac{DE}{EF}$.
 
-![week42-17.svg](../../figures/week42-17.svg){width=50%}
+(题图: 三个平行平面 $\alpha,\beta,\gamma$, 两条直线 $a,b$ 分别交三平面于 $A,B,C$ 与 $D,E,F$.)
 
 ### 解答 习题十三
 
@@ -402,7 +402,7 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 (习题 8.5 拓广探索第 14 题) 如图, $a$, $b$ 是异面直线, $a\subset\alpha$, $a\parallel\beta$, $b\subset\beta$, $b\parallel\alpha$, 求证 $\alpha\parallel\beta$.
 
-![week42-18.svg](../../figures/week42-18.svg){width=50%}
+(题图: 两个平面 $\alpha,\beta$, 直线 $a\subset\alpha$ 且平行于 $\beta$, 直线 $b\subset\beta$ 且平行于 $\alpha$, $a,b$ 异面.)
 
 ### 解答 习题十四
 
@@ -432,7 +432,7 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 其中所有正确命题的序号是 $\;\_\_\;$, 为什么?
 
-![week42-19.svg](../../figures/week42-19.svg){width=100%}
+(题图: 透明长方体容器 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 绕底面边 $BC$ 倾斜的三个不同倾斜度示意图, 水面为 $EFGH$.)
 
 ### 解答 习题十五
 

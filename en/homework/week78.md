@@ -28,7 +28,7 @@
 
 (4) $d_n=\frac{\left(-1\right)^n}{n}$.
 
-![week78-1.svg](../../figures/week78-1.svg){width=100%}
+The figure shows four scatter plots of sequences (horizontal axis the index $n$, vertical axis the corresponding term): (1) $a_n=-\frac{n}{4}$, points on the line $y=-\frac{x}{4}$, decreasing; (2) $b_n=\frac{2n}{3}$, points on the line $y=\frac{2x}{3}$, increasing; (3) $c_n=2+\frac{1}{n}$, points decreasing from $3$ toward $2$; (4) $d_n=\frac{\left(-1\right)^n}{n}$, points alternating in sign with absolute values decreasing toward $0$.
 
 ### Solution to Problem 1
 
@@ -110,7 +110,7 @@ $\blacksquare$
 
 (D) $\frac{128}{27}$
 
-![week78-2.svg](../../figures/week78-2.svg){width=100%}
+The figure shows the first four iterations of the Koch snowflake curve: $C_1$ is an equilateral triangle of side $1$; $C_2,C_3,C_4$ are obtained successively by raising a small equilateral triangle outward on the middle third of each side, giving a snowflake-like shape whose number of sides multiplies by $\frac{4}{3}$ at each step.
 
 ### Solution to Problem 1
 
@@ -462,7 +462,7 @@ $\blacksquare$
 
 Reference formula: $1^2+2^2+\cdots+n^2=\frac{1}{6}n\left(n+1\right)\left(2n+1\right)$.
 
-![week78-3.svg](../../figures/week78-3.svg){width=100%}
+The figure shows several "regular triangular pyramid" decorations made of ping-pong balls: the 1st pile has only a single ball; the bottom layers of the 2nd, 3rd, 4th, ... piles are arranged in triangular patterns (containing the triangular numbers $1,3,6,10,\cdots$ balls), and from the second layer up the balls rest naturally on the layer below, with the $n$-th pile's $n$-th layer containing just one ball.
 
 ### Solution to Problem 3
 

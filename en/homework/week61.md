@@ -128,7 +128,7 @@ i.e. $\frac{y-5}{-5}=\frac{x}{5}$. $\blacksquare$
 
 (2) The intercepts on the $x$-axis and $y$-axis are $-5,6$, respectively.
 
-![week61-1.svg](../../figures/week61-1.svg){width=100%}
+The figure plots two intercept-form lines in the rectangular coordinate system: one has $x$-intercept $2$ and $y$-intercept $3$, i.e. passes through $\left(2,0\right)$ and $\left(0,3\right)$; the other has $x$-intercept $-5$ and $y$-intercept $6$, i.e. passes through $\left(-5,0\right)$ and $\left(0,6\right)$.
 
 ### Solution to Exercise 6
 
@@ -192,7 +192,7 @@ By **Definition 2.2.6** (General Equation), the general form is $Ax+By+C=0$.
 
 (4) $7x-6y+4=0$.
 
-![week61-2.svg](../../figures/week61-2.svg){width=100%}
+The figure plots four lines in the rectangular coordinate system: (1) $3x+y-5=0$, i.e. $y=-3x+5$, slope $-3$, passing through $\left(0,5\right)$; (2) $\frac{x}{4}-\frac{y}{5}=1$, i.e. $y=\frac{5}{4}x-5$, slope $\frac{5}{4}$, passing through $\left(0,-5\right)$; (3) $x+2y=0$, i.e. $y=-\frac{1}{2}x$, slope $-\frac{1}{2}$, passing through the origin; (4) $7x-6y+4=0$, i.e. $y=\frac{7}{6}x+\frac{2}{3}$, slope $\frac{7}{6}$, $y$-intercept $\frac{2}{3}$.
 
 ### Solution to Exercise 9
 
@@ -504,7 +504,7 @@ In summary, $l_1\perp l_2$. $\blacksquare$
 
 (Exercise 2.2, Extension and Exploration, Problem 15) Draw the line $l:2x-y+3=0$, take several points outside the line $l$, substitute the coordinates of these points into $2x-y+3$, and compute its value; observe what pattern appears and express it.
 
-![week61-3.svg](../../figures/week61-3.svg){width=50%}
+The figure plots the line $l:2x-y+3=0$ (i.e. $y=2x+3$, slope $2$, $y$-intercept $3$) in the rectangular coordinate system, and takes points $P_1\left(0,0\right)$ and $P_2\left(-3,0\right)$ on the two sides of the line, respectively.
 
 ### Solution to Problem 15
 
@@ -526,7 +526,7 @@ $$
 
 From the kinematic point of view, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t>0$) can be regarded as the displacement of a particle $P$ starting from the point $P_0$, moving in uniform linear motion with velocity $\boldsymbol{v}=\left(m,n\right)$, after time $t$. Can you describe the ray $P_0N$? From the above discussion, can you state the kinematic meaning of equation ①?
 
-![week61-4.svg](../../figures/week61-4.svg){width=50%}
+The figure plots, in the rectangular coordinate system, the line $l$ through the point $P_0\left(x_0,y_0\right)$ and marks the direction vector $\boldsymbol{v}=\left(m,n\right)$: the point $P\left(x,y\right)$ lies on the line, and the vector $\boldsymbol{P_0P}$ is collinear with $\boldsymbol{v}$ in the same direction; extending from $P_0$ in the opposite direction $-\boldsymbol{v}$ gives the ray $P_0N$.
 
 ### Solution to Inquiry and Discovery 1
 

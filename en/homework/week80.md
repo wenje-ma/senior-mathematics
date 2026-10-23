@@ -246,7 +246,7 @@ Therefore there are $11$ different choices. $\blacksquare$
 
 (Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, there are $2$ roads from Place A to Place B and $3$ roads from Place B to Place D; there are $4$ roads from Place A to Place C and $2$ roads from Place C to Place D. How many different routes are there from Place A to Place D in total?
 
-![week80-1.svg](../../figures/week80-1.svg){width=50%}
+The figure is a road map: from Place A to Place B there are $2$ roads, from Place B to Place D there are $3$ roads; from Place A to Place C there are $4$ roads, and from Place C to Place D there are $2$ roads (the numbers of connecting roads among the four places A, B, C, D are as shown).
 
 ### Solution to Problem 2
 
@@ -270,7 +270,7 @@ different routes. $\blacksquare$
 
 (Exercise 6.1, Review and Consolidation, Problem 3) As shown in the figure, to make the circuit conduct from point $A$ to point $B$ with exactly one branch connected, how many different paths are possible?
 
-![week80-2.svg](../../figures/week80-2.svg){width=50%}
+The figure is a circuit diagram: from point $A$ to point $B$ there are three parallel branches (upper, middle, lower), each with several switches connected in series.
 
 ### Solution to Problem 3
 

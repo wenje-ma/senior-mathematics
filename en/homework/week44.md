@@ -50,7 +50,7 @@ Examples for which a complete survey is not appropriate: testing the service lif
 
 (2) Three regular icosahedra are painted red, yellow, and blue respectively, representing the hundreds, tens, and units digits; tossing them together can produce a three-digit number (one whose hundreds digit is 0 is also regarded as a three-digit number). Is it a random number in the range $000\sim999$?
 
-![week44-1.svg](../../figures/week44-1.svg){width=50%}
+(Figure: a regular icosahedron with all triangular faces, the 20 faces labeled with digits $0\sim9$.)
 
 ### Solution to Exercise 2
 

@@ -46,7 +46,7 @@ $$
 
 (4) $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
 
-![week37-1.svg](../../figures/week37-1.svg){width=100%}
+The figure: in a rectangular coordinate plane of complex numbers, four vectors are drawn from the origin $O$: $4$ (a vector of length $4$ along the positive real axis), $-\mathrm{i}$ (a vector of length $1$ along the negative imaginary axis), $2\sqrt{3}+2\mathrm{i}$ (a vector in the first quadrant with coordinates $\left(2\sqrt{3},2\right)$, modulus $4$, and argument $\frac{\pi}{6}$), and $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$ (a vector in the third quadrant with coordinates $\left(-\frac{1}{2},-\frac{\sqrt{3}}{2}\right)$, modulus $1$, and argument $\frac{4\pi}{3}$).
 
 ### Solution to Exercise 1
 
@@ -182,7 +182,7 @@ Converting to algebraic form: $2\sqrt{3}\left(0-\mathrm{i}\right)=-2\sqrt{3}\mat
 
 (4) $-\frac{\sqrt{3}}{2}+\frac{1}{2}\mathrm{i}$.
 
-![week37-2.svg](../../figures/week37-2.svg){width=100%}
+The figure: in a rectangular coordinate plane of complex numbers, four vectors are drawn from the origin $O$: $6$ (length $6$ along the positive real axis), $1+\mathrm{i}$ (first quadrant, coordinates $\left(1,1\right)$, modulus $\sqrt2$, argument $\frac{\pi}{4}$), $1-\sqrt3\,\mathrm{i}$ (fourth quadrant, coordinates $\left(1,-\sqrt3\right)$, modulus $2$, argument $\frac{5\pi}{3}$), and $-\frac{\sqrt3}{2}+\frac{1}{2}\mathrm{i}$ (second quadrant, coordinates $\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$, modulus $1$, argument $\frac{5\pi}{6}$).
 
 ### Solution to Problem 1
 
@@ -256,7 +256,7 @@ By **Definition 7.3.5** (Trigonometric Form of Multiplication) and **Definition 
 
 (4) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\div\left[2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]$.
 
-![week37-3.svg](../../figures/week37-3.svg){width=100%}
+The figure: in a rectangular coordinate plane of complex numbers, several vectors are drawn to illustrate the geometric meaning of complex multiplication and division: when two complex numbers are multiplied, the vector is rotated about the origin by the argument of the second complex number and its modulus is multiplied by the modulus of the second complex number; when two complex numbers are divided, the vector is rotated about the origin by the negative of the argument of the divisor and its modulus is divided by the modulus of the divisor.
 
 ### Solution to Problem 4
 

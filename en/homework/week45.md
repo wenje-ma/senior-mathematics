@@ -20,7 +20,7 @@
 
 (2) Among the surveyed users, the number of households whose electricity use falls in the interval $\left[100,250\right)$ is $\;\_\_\;$.
 
-![week45-1.svg](../../figures/week45-1.svg){width=50%}
+(Figure: a frequency distribution histogram; horizontal axis = monthly electricity use ($\mathrm{kW\cdot h}$) from $50$ to $350$ in $6$ groups of width $50$: $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; vertical axis = frequency/class-width, with the six heights $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
 
 ### Solution to Exercise 1
 
@@ -50,7 +50,7 @@ Hence the number of households is $100\times0.70=70$. $\blacksquare$
 
 (2) The height of the small rectangle over $\left[20,30\right)$ is lower than that over $\left[15,20\right)$. What does this indicate? In terms of practical meaning, discuss your view.
 
-![week45-2.svg](../../figures/week45-2.svg){width=50%}
+(Figure: a frequency distribution histogram; horizontal axis = call duration (minutes), vertical axis = frequency/class-width; the bar over $\left[15,20\right)$ has height $0.030$, and the bar over $\left[20,30\right)$ has height $0.020$.)
 
 ### Solution to Exercise 2
 
@@ -82,7 +82,7 @@ $\left[0,10\right)$ 3; $\left[10,20\right)$ 5; $\left[20,30\right)$ 9; $\left[30
 
 (3) Estimate approximately the relative frequency of data falling in $\left[10,50\right)$.
 
-![week45-3.svg](../../figures/week45-3.svg){width=50%}
+(Figure: a frequency distribution histogram; horizontal axis = data with class width $10$, groups $\left[0,10\right),\left[10,20\right),\left[20,30\right),\left[30,40\right),\left[40,50\right),\left[50,60\right]$; vertical axis = frequency/class-width, with the six heights $0.010,0.017,0.030,0.023,0.017,0.003$.)
 
 ### Solution to Exercise 3
 
@@ -102,7 +102,7 @@ $35,54,80,86,72,85,58,125,111,53,10,66,46,36,18,25,23,40,60,89,88,54,79,14,16,40
 
 What do you think of the air quality this month? Please design an appropriate frequency distribution histogram to display these data, and analyze the data in conjunction with the air-quality grade standards.
 
-![week45-4.svg](../../figures/week45-4.svg){width=50%}
+(Figure: a frequency distribution histogram; horizontal axis = air quality index grouped by grade: excellent ($\le50$), good ($51\sim100$), light pollution ($101\sim150$), moderate pollution ($151\sim200$), heavy pollution ($201\sim300$); vertical axis = frequency/class-width.)
 
 ### Solution to Exercise 4
 
@@ -170,7 +170,7 @@ Hence the 25th, 50th and 75th percentiles of the boys' height data are $168.0\,\
 
 (Exercise 9.2, Problem 8) Using the frequency distribution histogram of residents' average monthly water use that you drew (textbook Figure 9.2-2), estimate the 80th and 95th percentiles of the data on all residents' average monthly water use in the city. Compare these histogram estimates with the corresponding percentiles computed directly from the raw data; can they estimate the population percentiles well?
 
-![week45-5.svg](../../figures/week45-5.svg){width=50%}
+(Figure: textbook Figure 9.2-2, a frequency distribution histogram of residents' average monthly water use; horizontal axis = average monthly water use ($\mathrm{t}$), vertical axis = frequency/class-width.)
 
 ### Solution to Exercise 8
 
@@ -264,7 +264,7 @@ In a weighted mean, the size of the mean depends not only on the data values the
 
 (2) Please estimate the 5th and 95th percentiles of this batch of cotton.
 
-![week45-6.svg](../../figures/week45-6.svg){width=50%}
+(Figure: a frequency distribution histogram of cotton fiber length; horizontal axis = fiber length ($\mathrm{mm}$), data range $25\sim385$, class width $60$; vertical axis = frequency/class-width; the distribution is unimodal with a long tail to the right.)
 
 ### Solution to Problem 1
 

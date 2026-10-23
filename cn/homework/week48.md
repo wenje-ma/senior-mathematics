@@ -210,7 +210,7 @@ $\blacksquare$
 
 (习题 10.2 综合运用第 5 题) 如图, 一个正八面体, 八个面分别标以数字 $1$ 到 $8$, 任意抛掷一次这个正八面体, 观察它与地面接触的面上的数字, 得到样本空间为 $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8\right\}$. 构造适当的事件 $A, B, C$, 使 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但不满足 $A, B, C$ 两两独立.
 
-![week48-1.svg](../../figures/week48-1.svg){width=50%}
+(题图: 一个正八面体 (两个四棱锥底面粘合而成), 八个三角形面上分别标有数字 $1\sim8$.)
 
 ### 解答 习题五
 

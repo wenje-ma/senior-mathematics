@@ -10,7 +10,7 @@
 
 (练习 4.5 第 1 题) 图 (1)(2)(3) 分别为函数 $y=f\left(x\right)$ 在三个不同范围的图象. 能否仅根据其中一个图象, 得出函数 $y=f\left(x\right)$ 在某个区间只有一个零点的判断? 为什么?
 
-![week17-1.svg](../../figures/week17-1.svg){width=100%}
+图：共三幅直角坐标图，分别标为图 (1)(2)(3)，每幅图均在某一有限区间内画出一条连续不断的函数曲线 $y=f\left(x\right)$；在各自显示的区间内，曲线与 $x$ 轴看似只有一个交点（穿过或相切），但区间以外曲线的走势未画出。
 
 ### 解答 练习一
 
@@ -30,7 +30,7 @@
 
 (4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
 
-![week17-2.svg](../../figures/week17-2.svg){width=100%}
+图：共四幅小坐标图。(1) $f\left(x\right)=-x^3-3x+5$ 为一条三次曲线，在 $x=1$ 附近位于 $x$ 轴上方、$x=2$ 附近位于下方，零点在 $\left(1,2\right)$；(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ 定义域为 $x>2$，在 $x=3$ 附近位于 $x$ 轴下方、$x=4$ 附近位于上方，零点在 $\left(3,4\right)$；(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ 为一条单调上升曲线，在 $x=0$ 附近位于下方、$x=1$ 附近位于上方，零点在 $\left(0,1\right)$；(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ 为一条多次穿越 $x$ 轴的曲线，零点分别在 $\left(-4,-3\right)$、$\left(-3,-2\right)$、$\left(2,3\right)$ 三处。
 
 ### 解答 练习二
 
@@ -210,7 +210,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 (3) 求函数 $y=g\left(x\right)$ 的零点 (精确度为 $0.1$).
 
-![week17-3.svg](../../figures/week17-3.svg){width=50%}
+图：函数 $y=g\left(x\right)=2-\left(x^2+3x+2\right)^2$ 的图象为开口向下的双峰（波浪形）曲线，在 $x=-2$ 与 $x=-1$ 附近各有一个高度为 $2$ 的峰顶，两峰之间在 $x=-1.5$ 处有一个浅谷（高度约 $1.94$），曲线向左、右两端向下延伸趋向 $-\infty$，并与 $x$ 轴交于约 $x\approx-2.71$ 和 $x\approx-0.29$ 两处。
 
 ### 解答 习题八
 
@@ -238,7 +238,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 (A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
 
-![week17-4.svg](../../figures/week17-4.svg){width=50%}
+图：横轴为时间 $t$（单位：月），纵轴为浮萍面积 $y$（单位: $\mathrm{m^2}$），指数增长曲线 $y=2^t$ 过点 $\left(0,1\right)$ 和 $\left(1,2\right)$，单调递增且上升越来越陡。
 
 ### 解答 习题九
 

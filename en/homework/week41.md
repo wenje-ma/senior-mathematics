@@ -64,7 +64,7 @@ Choose (D). $\blacksquare$
 
 (Exercise 8.4, Problem 3) How many planes can be determined by four non-coplanar points? Draw a figure to illustrate your conclusion.
 
-![week41-1.svg](../../figures/week41-1.svg){width=50%}
+(Figure: a tetrahedron with vertices labeled $A,B,C,D$, all four faces triangular, representing the four planes determined by four non-coplanar points.)
 
 ### Solution to Exercise 3
 
@@ -82,7 +82,7 @@ Hence four non-coplanar points determine $4$ planes. $\blacksquare$
 
 (2) Line $a$ lies both in plane $\alpha$ and in plane $\beta$.
 
-![week41-2.svg](../../figures/week41-2.svg){width=100%}
+(Figure: two diagrams side by side; the left shows a parallelogram plane $\alpha$ with a point $A$ inside and a point $B$ outside; the right shows two intersecting planes $\alpha$ and $\beta$ with their intersection line labeled $a$.)
 
 ### Solution to Exercise 4
 
@@ -116,7 +116,7 @@ By **Definition 8.4.8** (Skew Lines), when two lines in space are distinct, havi
 
 (Exercise 8.4, Problem 2) As shown in the figure, in the rectangular box $ABCD\text{-}A'B'C'D'$, determine the positional relationship between lines $AB$ and $AC$, between $AC$ and $A'C'$, between $A'B$ and $AC$, and between $A'B$ and $C'D$.
 
-![week41-3.svg](../../figures/week41-3.svg){width=50%}
+(Figure: a rectangular box $ABCD\text{-}A'B'C'D'$ with bottom face $ABCD$ and top face $A'B'C'D'$, showing the space diagonals $AC$ and $A'C'$ and face diagonals $A'B$ and $C'D$.)
 
 ### Solution to Exercise 6
 
@@ -174,7 +174,7 @@ Hence $a$ and $b$ may be parallel or may be skew. $\blacksquare$
 
 (2) $\alpha\cap\beta=l$, $AB\subset\alpha$, $CD\subset\beta$, $AB\parallel l$, $CD\parallel l$.
 
-![week41-4.svg](../../figures/week41-4.svg){width=100%}
+(Figure: two diagrams side by side; the left shows plane $\alpha$ with two intersecting lines $a,b$ meeting at $A$, and a line $c$ through $A$ piercing the plane; the right shows two intersecting planes $\alpha,\beta$ with intersection line $l$, and lines $AB\parallel l$ in $\alpha$ and $CD\parallel l$ in $\beta$.)
 
 ### Solution to Problem 1
 
@@ -276,7 +276,7 @@ Thus all three lines $a$, $b$, $l$ lie in plane $\alpha$, and they are coplanar.
 
 (Exercise 8.4, Comprehensive Application, Problem 7) As shown in the figure, three lines are pairwise parallel and not coplanar, and each pair determines a plane; how many planes in total can be determined? If the three lines intersect at one point, at most how many planes can they determine?
 
-![week41-5.svg](../../figures/week41-5.svg){width=50%}
+(Figure: the left shows three pairwise parallel lines $a,b,c$ with different directions (not coplanar); the right shows three lines $a,b,c$ intersecting at a common point $P$.)
 
 ### Solution to Problem 7
 
@@ -290,7 +290,7 @@ When three lines meet at one point, each pair of intersecting lines determines a
 
 (Exercise 8.4, Comprehensive Application, Problem 8) As shown in the figure, $\triangle ABC$ lies outside plane $\alpha$, with $AB\cap\alpha=P$, $BC\cap\alpha=Q$, $AC\cap\alpha=R$. Prove that $P$, $Q$, $R$ are collinear.
 
-![week41-6.svg](../../figures/week41-6.svg){width=50%}
+(Figure: a parallelogram representing plane $\alpha$, with triangle $ABC$ above the plane; the sides $AB,BC,AC$ pierce the plane at $P,Q,R$ respectively.)
 
 ### Solution to Problem 8
 
@@ -306,7 +306,7 @@ By **Basic Fact 8.4.4** (Basic Fact 3), plane $ABC$ and plane $\alpha$ have exac
 
 (Exercise 8.4, Extension and Exploration, Problem 9) The figure is the net of a cube. If it is folded back into a cube, among the four segments $AB$, $CD$, $EF$, $GH$, which pairs of containing lines are skew?
 
-![week41-7.svg](../../figures/week41-7.svg){width=100%}
+(Figure: a cross-shaped net of a cube with six connected square faces, on which the segments $AB,CD,EF,GH$ are marked.)
 
 ### Solution to Problem 9
 

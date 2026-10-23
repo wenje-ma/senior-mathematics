@@ -224,7 +224,7 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 (Review Reference Problem 6, Review and Consolidation, Problem 10) As shown in the figure, support $A$ is acted on by two forces $\boldsymbol{F}_1$ and $\boldsymbol{F}_2$. Given that $\boldsymbol{F}_1$ makes an angle $\theta$ with the horizontal, $\lvert\boldsymbol{F}_1\rvert=40\text{ N}$, $\boldsymbol{F}_2$ is horizontal, $\lvert\boldsymbol{F}_2\rvert=70\text{ N}$, and the magnitude of the resultant $\boldsymbol{F}$ of $\boldsymbol{F}_1$ and $\boldsymbol{F}_2$ is $100\text{ N}$, find $\cos\theta$ and the cosine of the angle $\beta$ between $\boldsymbol{F}$ and $\boldsymbol{F}_2$.
 
-![week51-1.svg](../../figures/week51-1.svg){width=50%}
+(Figure: support $A$ is acted on by two forces $\boldsymbol{F}_1,\boldsymbol{F}_2$; $\boldsymbol{F}_1$ points upward at angle $\theta$ to the horizontal, $\boldsymbol{F}_2$ points horizontally to the right, and their resultant $\boldsymbol{F}$ points upward at angle $\beta$ to $\boldsymbol{F}_2$.)
 
 ### Solution to Problem 10
 
@@ -394,7 +394,7 @@ The three sides are equal, so it is an equilateral triangle. $\blacksquare$
 
 (Review Reference Problem 6, Comprehensive Application, Problem 16) As shown in the figure, given $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, the point symmetric to any point $M$ about point $A$ is $S$, and the point symmetric to $S$ about point $B$ is $N$; express the vector $\boldsymbol{MN}$ in terms of $\boldsymbol{a}$ and $\boldsymbol{b}$.
 
-![week51-2.svg](../../figures/week51-2.svg){width=50%}
+(Figure: from point $O$ two vectors $\boldsymbol{OA}=\boldsymbol{a}$ and $\boldsymbol{OB}=\boldsymbol{b}$; any point $M$, its reflection about $A$ is $S$, and the reflection of $S$ about $B$ is $N$, with $M,S,N,A,B$ arranged collinearly.)
 
 ### Solution to Problem 16
 
@@ -442,7 +442,7 @@ Observe the ship's position simultaneously at points $C$ and $D$, and record the
 
 (Review Reference Problem 6, Extension and Exploration, Problem 19) As shown in the figure, the line $l$ intersects the sides $AB$ and $AC$ of $\triangle ABC$ at points $D$ and $E$ respectively. Let $AB=c$, $BC=a$, $CA=b$, $\angle ADE=\theta$; use vector methods to explore the quantitative relationship between $\theta$ and the sides and angles of $\triangle ABC$.
 
-![week51-3.svg](../../figures/week51-3.svg){width=50%}
+(Figure: $\triangle ABC$ with a line $l$ intersecting $AB$ at $D$ and $AC$ at $E$, and $\angle ADE=\theta$.)
 
 ### Solution to Problem 19
 

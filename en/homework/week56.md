@@ -52,7 +52,7 @@ Examples: in a cube, the vectors $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsym
 
 (4) $\boldsymbol{AB}+\boldsymbol{CF}$.
 
-![week56-1.svg](../../figures/week56-1.svg){width=50%}
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AB$ and $F$ the midpoint of $CD$.)
 
 ### Solution to Exercise 2
 
@@ -70,7 +70,7 @@ By **Definition 1.1.5** (Linear Operations on Spatial Vectors), simplify using t
 
 (Exercise 1.1, Problem 3) In Figure 1.1-6, express $\boldsymbol{AC'}$, $\boldsymbol{BD'}$ and $\boldsymbol{DB'}$ in terms of $\boldsymbol{AB}$, $\boldsymbol{AD}$, $\boldsymbol{AA'}$.
 
-![week56-2.svg](../../figures/week56-2.svg){width=50%}
+(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$.)
 
 ### Solution to Exercise 3
 
@@ -102,7 +102,7 @@ $\blacksquare$
 
 (3) $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)$.
 
-![week56-3.svg](../../figures/week56-3.svg){width=50%}
+(Figure: a tetrahedron $ABCD$ with $E$ the midpoint of $BC$ and $F$ the midpoint of $CD$.)
 
 ### Solution to Exercise 4
 
@@ -124,7 +124,7 @@ By **Definition 1.1.5** (Linear Operations on Spatial Vectors), simplify using t
 
 (3) $\boldsymbol{AF}=\boldsymbol{AD}+x\boldsymbol{AB}+y\boldsymbol{AA'}$.
 
-![week56-4.svg](../../figures/week56-4.svg){width=50%}
+(Figure: a cube $ABCD\text{-}A'B'C'D'$ with $E$ the center of the upper face $A'C'$ and $F$ the center of side face $CD'$.)
 
 ### Solution to Exercise 5
 
@@ -142,7 +142,7 @@ By **Definition 1.1.5** (Linear Operations on Spatial Vectors), express the vect
 
 (A) $60^\circ$ (B) $90^\circ$ (C) $105^\circ$ (D) $75^\circ$
 
-![week56-5.svg](../../figures/week56-5.svg){width=50%}
+(Figure: a regular triangular prism $ABC\text{-}A_1B_1C_1$.)
 
 ### Solution to Exercise 6
 
@@ -176,7 +176,7 @@ By **Common Conclusion 1.1.13** (Properties of the Dot Product), $\boldsymbol{AB
 
 (3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$.
 
-![week56-6.svg](../../figures/week56-6.svg){width=50%}
+(Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$.)
 
 ### Solution to Exercise 7
 
@@ -200,7 +200,7 @@ In the cube, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise p
 
 (3) the length of $AC'$.
 
-![week56-7.svg](../../figures/week56-7.svg){width=50%}
+(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$ with $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$.)
 
 ### Solution to Exercise 8
 
@@ -218,7 +218,7 @@ Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsy
 
 (Exercise 1.1, Problem 4) As shown in the figure, the segments $AB$, $BD$ lie in the plane $\alpha$, $BD \perp AB$, $AC \perp \alpha$, and $AB=a$, $BD=b$, $AC=c$. Find the distance between the two points $C$ and $D$.
 
-![week56-8.svg](../../figures/week56-8.svg){width=50%}
+(Figure: in plane $\alpha$, segments $AB$ and $BD$ with $BD\perp AB$; $AC\perp\alpha$ at $A$; $AB=a$, $BD=b$, $AC=c$.)
 
 ### Solution to Exercise 9
 
@@ -244,7 +244,7 @@ Hence $CD=\sqrt{a^2+b^2+c^2}$. $\blacksquare$
 
 (3) Write out the vectors parallel to $\boldsymbol{EF}$.
 
-![week56-9.svg](../../figures/week56-9.svg){width=50%}
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AA'$ and $F$ the midpoint of $AB$.)
 
 ### Solution to Problem 1
 
@@ -268,7 +268,7 @@ By **Definition 1.1.4** (Equal Vectors), **Definition 1.1.2** (Opposite Vector) 
 
 (4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)$.
 
-![week56-10.svg](../../figures/week56-10.svg){width=50%}
+(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$.)
 
 ### Solution to Problem 2
 
@@ -312,7 +312,7 @@ By **Common Conclusion 1.1.7**, $2\boldsymbol{a}+\boldsymbol{b}$ is collinear wi
 
 (6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
 
-![week56-11.svg](../../figures/week56-11.svg){width=50%}
+(Figure: a tetrahedron $ABCD$ with all edges equal to $a$, $E$ the midpoint of $AB$, $F$ the midpoint of $AD$, and $G$ the midpoint of $DC$.)
 
 ### Solution to Problem 4
 
@@ -346,7 +346,7 @@ $=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^
 
 (A) $-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (B) $\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (C) $\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (D) $-\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$
 
-![week56-12.svg](../../figures/week56-12.svg){width=50%}
+(Figure: a parallelepiped $ABCD\text{-}A_1B_1C_1D_1$ with $M$ the intersection of diagonals $AC$ and $BD$.)
 
 ### Solution to Problem 5
 
@@ -364,7 +364,7 @@ Hence the answer is (A). $\blacksquare$
 
 (Exercise 1.1, Comprehensive Application, Problem 6) As shown in the figure, given that $E$, $F$, $G$, $H$ are the midpoints of edges $AB$, $BC$, $CD$, $DA$ of the tetrahedron $ABCD$, respectively, prove that the four points $E$, $F$, $G$, $H$ are coplanar.
 
-![week56-13.svg](../../figures/week56-13.svg){width=50%}
+(Figure: a tetrahedron $ABCD$ with $E$, $F$, $G$, $H$ the midpoints of $AB$, $BC$, $CD$, $DA$, respectively.)
 
 ### Solution to Problem 6
 
@@ -388,7 +388,7 @@ By **Common Conclusion 1.1.9**, $\boldsymbol{EG}$ is coplanar with $\boldsymbol{
 
 (2) Prove that $A'B \perp AC'$.
 
-![week56-14.svg](../../figures/week56-14.svg){width=50%}
+(Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $a$.)
 
 ### Solution to Problem 7
 
@@ -438,7 +438,7 @@ By **Common Conclusion 1.1.13**, $\boldsymbol{a} \perp \boldsymbol{AB}$, i.e. $l
 
 (Exercise 1.1, Extension and Exploration, Problem 9) As shown in the figure, in the tetrahedron $OABC$, $OA \perp BC$, $OB \perp AC$. Prove that $OC \perp AB$.
 
-![week56-15.svg](../../figures/week56-15.svg){width=50%}
+(Figure: a tetrahedron $OABC$.)
 
 ### Solution to Problem 9
 
@@ -464,7 +464,7 @@ By **Common Conclusion 1.1.13**, $\boldsymbol{OC} \perp \boldsymbol{AB}$, i.e. $
 
 (Exercise 1.1, Extension and Exploration, Problem 10) As shown in the figure, in the tetrahedron $OABC$, $OA=OB$, $CA=CB$, and $E$, $F$, $G$, $H$ are the midpoints of $OA$, $OB$, $BC$, $CA$, respectively. Prove that the quadrilateral $EFGH$ is a rectangle.
 
-![week56-16.svg](../../figures/week56-16.svg){width=50%}
+(Figure: a tetrahedron $OABC$ with $E$, $F$, $G$, $H$ the midpoints of $OA$, $OB$, $BC$, $CA$, respectively.)
 
 ### Solution to Problem 10
 

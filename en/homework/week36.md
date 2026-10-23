@@ -74,7 +74,7 @@ By **Definition 7.2.1** (Rule of Complex Addition) and **Definition 7.2.2** (Rul
 
 (3) $z+\left(-2+\mathrm{i}\right)$.
 
-![week36-1.svg](../../figures/week36-1.svg){width=100%}
+The figure: in a rectangular coordinate plane of complex numbers, the vector $\boldsymbol{OZ}$ is drawn from the origin $O$ to represent the complex number $z=a+b\mathrm{i}$ (point $Z\left(a,b\right)$); three translated vectors are also drawn: $z+1$ corresponds to $\left(a+1,b\right)$ (i.e. $\boldsymbol{OZ}$ shifted right by $1$ unit), $z-\mathrm{i}$ corresponds to $\left(a,b-1\right)$ (shifted down by $1$ unit), and $z+\left(-2+\mathrm{i}\right)$ corresponds to $\left(a-2,b+1\right)$ (shifted left by $2$ units and up by $1$ unit).
 
 ### Solution to Exercise 2
 

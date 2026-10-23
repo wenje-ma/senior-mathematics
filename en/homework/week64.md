@@ -210,7 +210,7 @@ Tangency point coordinates: combine $\begin{cases}4x-3y=50\\x^2+y^2=100\end{case
 
 (3) radius $\sqrt{13}$, tangent to the line $2x-3y+6=0$ at the point $\left(3,4\right)$.
 
-![week64-1.svg](../../figures/week64-1.svg){width=100%}
+The figure plots three circles in the rectangular coordinate system: (1) the circle $\left(x-3\right)^2+\left(y+5\right)^2=32$ with center $M\left(3,-5\right)$, radius $4\sqrt 2$, tangent to the line $x-7y+2=0$; (2) two circles with center on the line $y=x$, radius $2$, tangent to the line $y=6$, with centers $\left(4,4\right)$ and $\left(8,8\right)$, equations $\left(x-4\right)^2+\left(y-4\right)^2=4$ and $\left(x-8\right)^2+\left(y-8\right)^2=4$; (3) two circles of radius $\sqrt{13}$ tangent to the line $2x-3y+6=0$ at the point $\left(3,4\right)$, with centers $\left(5,1\right)$ and $\left(1,7\right)$.
 
 ### Solution to Problem 2
 
@@ -484,7 +484,7 @@ Hence $d=\frac{\lvert b \rvert}{\sqrt 2}=1$, i.e. $b=\pm\sqrt 2$. $\blacksquare$
 
 (2) Is there a chord $AB$ that is bisected by $P_0$? If so, write the equation of line $AB$; if not, explain why.
 
-![week64-2.svg](../../figures/week64-2.svg){width=50%}
+The figure plots, in the rectangular coordinate system, the circle $x^2+y^2=8$ (center at the origin, radius $2\sqrt 2$), a point $P_0\left(-1,2\right)$ inside the circle, and a chord $AB$ through $P_0$ with inclination angle $\alpha$ (endpoints $A,B$ on the circle).
 
 ### Solution to Problem 14
 
@@ -514,7 +514,7 @@ The distance from the center to the line is $d=\frac{\lvert 5 \rvert}{\sqrt 5}=\
 
 (3) Find the equation of line $AB$.
 
-![week64-3.svg](../../figures/week64-3.svg){width=50%}
+The figure plots, in the rectangular coordinate system: the point $P\left(-2,-3\right)$; the circle $\left(x-4\right)^2+\left(y-2\right)^2=9$ with center $Q\left(4,2\right)$ and radius $3$; and the circle with diameter $PQ$ and center $Q'$ (the midpoint of $PQ$, $\left(1,-\frac{1}{2}\right)$). The two circles intersect at $A,B$, and segments $PA$, $PB$, $QA$, $QB$ are drawn.
 
 ### Solution to Problem 15
 

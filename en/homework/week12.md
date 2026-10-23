@@ -62,7 +62,7 @@ The total profit is $y_4=y_3-y_1=0.35x-\left(150+0.25x\right)=0.1x-150$ (ten-tho
 
 (Exercise 3.4, Comprehensive Application, Problem 1) A person drives a car at a speed of $60\ \text{km/h}$ from place $A$ to place $B$, which is $150\ \text{km}$ away. After staying at place $B$ for $1\ \text{h}$, the person returns to place $A$ at a speed of $50\ \text{km/h}$. Express the distance $x$ (unit: $\text{km}$) of the car from place $A$ as a function of the time $t$ (unit: $\text{h}$) (starting from the moment of departure from place $A$); then express the car speed $v$ (unit: $\text{km/h}$) as a function of the time $t$, and draw the graphs of these two functions respectively.
 
-![week12-1.svg](../../figures/week12-1.svg){width=100%}
+The graphs: on the left is the piecewise line graph of the distance $x$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $x$ (unit: km), rising from the origin $\left(0,0\right)$ with slope $60$ to $\left(2.5,150\right)$, extending horizontally to $\left(3.5,150\right)$, and then falling with slope $-50$ to $\left(6.5,0\right)$; on the right is the piecewise constant graph of the car speed $v$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $v$ (unit: km/h), with three horizontal segments at $v=60$ ($0\le t\le2.5$), $v=0$ ($2.5<t\le3.5$), and $v=50$ ($3.5<t\le6.5$).
 
 ### Solution to Problem 1
 
@@ -134,7 +134,7 @@ Therefore the total water consumption is $12+2=14\ \text{m}^3$. $\blacksquare$
 
 (2) Since this route is currently operating at a loss, the company personnel have proposed two suggestions to turn the loss into profit, as shown in Figures (2) and (3). Based on the graphs, can you explain what these two suggestions are?
 
-![week12-2.svg](../../figures/week12-2.svg){width=100%}
+The figures: three graphs of the revenue-expenditure difference $y$ as a linear function of the passenger volume $x$. Figure (1): horizontal axis is the passenger volume $x$, vertical axis is the revenue-expenditure difference $y$; a ray starts from the point $A$ on the negative $y$-axis (the fixed loss when $x=0$) with a positive slope and meets the horizontal axis at the break-even point $B$. Figure (2): the slope is the same as in Figure (1), but the whole ray shifts upward (point $A$ moves up), and the break-even point $B$ shifts to the left. Figure (3): the intercept is the same as in Figure (1) (point $A$ stays in place), but the slope is larger, the ray is steeper, and the break-even point $B$ shifts to the left.
 
 ### Solution to Problem 4
 
@@ -152,7 +152,7 @@ $F$ is $1,2,3,4,5$; the corresponding $x$ is $14.2,28.8,41.3,57.5,70.2$.
 
 Plot points to draw the graph of the spring extension length as a function of the pulling force, and write a function analytic expression that can basically reflect this phenomenon.
 
-![week12-3.svg](../../figures/week12-3.svg){width=50%}
+The graph: horizontal axis is the pulling force $F$ (unit: N), vertical axis is the spring extension length $x$ (unit: cm); five data points are marked, $\left(1,14.2\right)$, $\left(2,28.8\right)$, $\left(3,41.3\right)$, $\left(4,57.5\right)$, and $\left(5,70.2\right)$, and the points lie approximately on a straight line $x\approx14.2F$ passing near the origin.
 
 ### Solution to Problem 5
 

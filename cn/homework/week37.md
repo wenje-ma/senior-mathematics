@@ -46,7 +46,7 @@ $$
 
 (4) $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
 
-![week37-1.svg](../../figures/week37-1.svg){width=100%}
+图：复平面直角坐标系中，从原点 $O$ 画出四个向量：$4$（即实轴正方向上长 $4$ 的向量）、$-\mathrm{i}$（即虚轴负方向上长 $1$ 的向量）、$2\sqrt{3}+2\mathrm{i}$（即第一象限内坐标 $\left(2\sqrt{3},2\right)$、模 $4$、辐角 $\frac{\pi}{6}$ 的向量）、$-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$（即第三象限内坐标 $\left(-\frac{1}{2},-\frac{\sqrt{3}}{2}\right)$、模 $1$、辐角 $\frac{4\pi}{3}$ 的向量）。
 
 ### 解答 练习一
 
@@ -182,7 +182,7 @@ $$
 
 (4) $-\frac{\sqrt{3}}{2}+\frac{1}{2}\mathrm{i}$.
 
-![week37-2.svg](../../figures/week37-2.svg){width=100%}
+图：复平面直角坐标系中，从原点 $O$ 画出四个向量：$6$（实轴正方向上长 $6$）、$1+\mathrm{i}$（第一象限，坐标 $\left(1,1\right)$，模 $\sqrt2$，辐角 $\frac{\pi}{4}$）、$1-\sqrt3\,\mathrm{i}$（第四象限，坐标 $\left(1,-\sqrt3\right)$，模 $2$，辐角 $\frac{5\pi}{3}$）、$-\frac{\sqrt3}{2}+\frac{1}{2}\mathrm{i}$（第二象限，坐标 $\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$，模 $1$，辐角 $\frac{5\pi}{6}$）。
 
 ### 解答 习题一
 
@@ -256,7 +256,7 @@ $$
 
 (4) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\div\left[2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]$.
 
-![week37-3.svg](../../figures/week37-3.svg){width=100%}
+图：复平面直角坐标系中，画出若干向量并演示乘、除运算的几何意义：两个复数相乘时，把向量绕原点旋转第二个复数的辐角，并把模变为原来的第二个复数模的倍数；两个复数相除时，把向量反向旋转第二个复数的辐角，并把模缩小为原来的第二个复数模分之一。
 
 ### 解答 习题四
 
