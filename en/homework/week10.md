@@ -116,7 +116,7 @@ By Exercise 4, $f\left(x\right)=\frac{1}{x}$ is monotonically decreasing on $\le
 
 (Exercise 3.2, Problem 8) Given that $f\left(x\right)$ is an even function and $g\left(x\right)$ is an odd function, please complete the following figure.
 
-(Figure: two coordinate systems side by side, each showing only the right half of a curve with the left half to be completed; the left one labeled $f(x)$ to be symmetric about the $y$-axis, the right one labeled $g(x)$ to be symmetric about the origin.)
+(Figure: two coordinate systems side by side, each showing only the right half of a curve with the left half to be completed; the left one labeled $f\left(x\right)$ to be symmetric about the $y$-axis, the right one labeled $g\left(x\right)$ to be symmetric about the origin.)
 
 ### Solution to Exercise 8
 
@@ -180,7 +180,7 @@ From left to right, the graph first falls, then rises, then falls, then rises. T
 
 (2) $y=9-x^2$.
 
-(Figure: two coordinate systems side by side, the left showing the upward-opening parabola $y=x^2-5x-6$ with vertex $(5/2,-49/4)$, the right showing the downward-opening parabola $y=9-x^2$ with vertex $(0,9)$.)
+(Figure: two coordinate systems side by side, the left showing the upward-opening parabola $y=x^2-5x-6$ with vertex $\left(5/2,-49/4\right)$, the right showing the downward-opening parabola $y=9-x^2$ with vertex $\left(0,9\right)$.)
 
 ### Solution to Problem 2
 

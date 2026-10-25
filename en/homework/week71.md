@@ -223,7 +223,7 @@ $\blacksquare$
 
 (2) The sequence formed by arranging the values of the Euler totient function $\varphi\left(n\right)$ ($n\in\mathbb N^*$) in increasing order of the independent variable.
 
-The figure shows two scatter plots of sequences (horizontal axis the index $n$, vertical axis the corresponding term): (1) the primes in increasing order $2,3,5,7,11,13,17,19,23,29$; (2) the first $10$ terms of Euler's totient $\varphi(n)$: $1,1,2,2,4,2,6,4,6,4$.
+The figure shows two scatter plots of sequences (horizontal axis the index $n$, vertical axis the corresponding term): (1) the primes in increasing order $2,3,5,7,11,13,17,19,23,29$; (2) the first $10$ terms of Euler's totient $\varphi\left(n\right)$: $1,1,2,2,4,2,6,4,6,4$.
 
 ### Solution to Problem 1
 

@@ -74,7 +74,7 @@ $\blacksquare$
 
 (2) Are events $A$ and $B$ mutually exclusive? Are events $A$ and $B$ mutually independent?
 
-(Figure: a Venn diagram with two intersecting circles $A,B$ inside the sample space $\Omega$; $n(\Omega)=24, n(A)=12, n(B)=8, n(A\cup B)=16$.)
+(Figure: a Venn diagram with two intersecting circles $A,B$ inside the sample space $\Omega$; $n\left(\Omega\right)=24, n\left(A\right)=12, n\left(B\right)=8, n\left(A\cup B\right)=16$.)
 
 ### Solution to Problem 2
 

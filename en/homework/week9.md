@@ -140,7 +140,7 @@ Let the other side of the rectangle have length $z$. By the Pythagorean theorem,
 
 (Exercise 3.1, Problem 9) Draw the graph of the function $y=\left|x-2\right|$.
 
-(Figure: in a coordinate system, a V-shaped broken line with vertex at $(2,0)$ opening upward; the left branch is the ray $y=-x+2$ ($x<2$) and the right branch is the ray $y=x-2$ ($x\ge2$).)
+(Figure: in a coordinate system, a V-shaped broken line with vertex at $\left(2,0\right)$ opening upward; the left branch is the ray $y=-x+2$ ($x<2$) and the right branch is the ray $y=x-2$ ($x\ge2$).)
 
 ### Solution to Exercise 9
 
@@ -160,7 +160,7 @@ The graph is a $V$-shaped broken line with vertex at $\left(2,0\right)$ opening 
 
 (2) for $\forall x\in\mathbb R$, let $m\left(x\right)$ denote the smaller of $f\left(x\right)$ and $g\left(x\right)$, denoted by $m\left(x\right)=\min\left\{f\left(x\right),g\left(x\right)\right\}$; represent the function $m\left(x\right)$ by the graphical method and the analytic method respectively.
 
-(Figure: in one coordinate system, the line $f(x)=-x+1$ (through $(0,1)$ and $(1,0)$) and the parabola $g(x)=(x-1)^2$ (vertex $(1,0)$, opening upward); the two curves intersect at $(0,1)$ and $(1,0)$.)
+(Figure: in one coordinate system, the line $f\left(x\right)=-x+1$ (through $\left(0,1\right)$ and $\left(1,0\right)$) and the parabola $g\left(x\right)=\left(x-1\right)^2$ (vertex $\left(1,0\right)$, opening upward); the two curves intersect at $\left(0,1\right)$ and $\left(1,0\right)$.)
 
 ### Solution to Exercise 10
 
@@ -212,7 +212,7 @@ The remaining graph (C) has the distance increasing over time with the slope gra
 
 If the total mileage of a certain route is $20\ \text{km}$, according to the problem, write the analytic expression of the function between the fare and the mileage, and draw the graph of the function.
 
-(Figure: a fare-mileage coordinate system with mileage $x$ (km) on the horizontal axis and fare $y$ (yuan) on the vertical axis; four horizontal segments: $y=2$ on $(0,5]$, $y=3$ on $(5,10]$, $y=4$ on $(10,15]$, $y=5$ on $(15,20]$, each with a solid dot at the left endpoint and an open dot at the right endpoint.)
+(Figure: a fare-mileage coordinate system with mileage $x$ (km) on the horizontal axis and fare $y$ (yuan) on the vertical axis; four horizontal segments: $y=2$ on $\left(0,5\right]$, $y=3$ on $\left(5,10\right]$, $y=4$ on $\left(10,15\right]$, $y=5$ on $\left(15,20\right]$, each with a solid dot at the left endpoint and an open dot at the right endpoint.)
 
 ### Solution to Exercise 12
 
@@ -284,7 +284,7 @@ By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), t
 
 (4) $y=x^2-6x+7$.
 
-(Figure: four coordinate systems side by side, showing in order: (1) a line through the origin with slope $3$; (2) a hyperbola $y=8/x$ in quadrants I and III; (3) a line with slope $-4$ and intercept $5$; (4) a parabola with vertex $(3,-2)$ opening upward.)
+(Figure: four coordinate systems side by side, showing in order: (1) a line through the origin with slope $3$; (2) a hyperbola $y=8/x$ in quadrants I and III; (3) a line with slope $-4$ and intercept $5$; (4) a parabola with vertex $\left(3,-2\right)$ opening upward.)
 
 ### Solution to Problem 3
 
@@ -362,7 +362,7 @@ From $f\left(1\right)=1+b+c=0$ and $f\left(3\right)=9+3b+c=0$, subtracting the t
 
 (2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
 
-(Figure: the left graph shows the piecewise function $f(x)=0$ for $x\le0$ and $f(x)=1$ for $x>0$, i.e. a ray on the $x$-axis for $x\le0$ and a ray on the line $y=1$ for $x>0$; the right graph shows three isolated points $(1,4)$, $(2,7)$, $(3,10)$.)
+(Figure: the left graph shows the piecewise function $f\left(x\right)=0$ for $x\le0$ and $f\left(x\right)=1$ for $x>0$, i.e. a ray on the $x$-axis for $x\le0$ and a ray on the line $y=1$ for $x>0$; the right graph shows three isolated points $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$.)
 
 ### Solution to Problem 7
 
@@ -420,7 +420,7 @@ For each $x\in\left\{1,2,3,4,5,6\right\}$, there is a unique determined $y$ corr
 
 (2) For what values of $r$ is there only a unique value of $p$ corresponding to it?
 
-(Figure: a $p$-$r$ coordinate system; the left segment $p\in[-5,0]$ shows a curve rising from $(-5,2)$ to $(0,5)$; the right segment $p\in[2,6)$ shows a curve rising from $(2,0)$ and gradually approaching a horizontal dashed line $m$.)
+(Figure: a $p$-$r$ coordinate system; the left segment $p\in\left[-5,0\right]$ shows a curve rising from $\left(-5,2\right)$ to $\left(0,5\right)$; the right segment $p\in\left[2,6\right)$ shows a curve rising from $\left(2,0\right)$ and gradually approaching a horizontal dashed line $m$.)
 
 ### Solution to Problem 11
 

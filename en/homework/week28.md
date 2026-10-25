@@ -84,7 +84,7 @@ For $f\left(x\right)$ to be monotonic on $\left[5,20\right]$, the axis must lie 
 
 (Review Reference Problem 3, Review and Consolidation, Problem 5) Given that the graph of the power function $y=f\left(x\right)$ passes through the point $\left(2,\frac{\sqrt2}{2}\right)$, find the analytic expression of this function, sketch its graph, and determine its odd-even property and monotonicity.
 
-The graph: in the rectangular coordinate plane, the graph of the power function $y=x^{-\frac{1}{2}}=\frac{1}{\sqrt{x}}$ lies only in the first quadrant (domain $(0,+\infty)$); it is a monotonically decreasing curve that falls from $+\infty$ as $x\to0^+$ as $x$ increases, gradually approaching both coordinate axes as asymptotes, and passes through the point $\left(2,\frac{\sqrt2}{2}\right)$.
+The graph: in the rectangular coordinate plane, the graph of the power function $y=x^{-\frac{1}{2}}=\frac{1}{\sqrt{x}}$ lies only in the first quadrant (domain $\left(0,+\infty\right)$); it is a monotonically decreasing curve that falls from $+\infty$ as $x\to0^+$ as $x$ increases, gradually approaching both coordinate axes as asymptotes, and passes through the point $\left(2,\frac{\sqrt2}{2}\right)$.
 
 ### Solution to Problem 5
 

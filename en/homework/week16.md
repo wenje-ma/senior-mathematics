@@ -66,7 +66,7 @@ By the definition of a function, for any element in $A$, the function value obta
 
 (Exercise 4.4, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=\log_3 x$ and $y=\log_{\frac{1}{3}} x$, and explain their relationship.
 
-The graphs: in the same rectangular coordinate system, the two logarithmic curves both have domain $(0,+\infty)$, lie to the right of the $y$-axis, and pass through the point $\left(1,0\right)$; $y=\log_3 x$ is a monotonically increasing curve (below the $x$-axis for $0<x<1$ and above it for $x>1$), while $y=\log_{\frac{1}{3}} x$ is a monotonically decreasing curve (above the $x$-axis for $0<x<1$ and below it for $x>1$), and the two are symmetric about the $x$-axis.
+The graphs: in the same rectangular coordinate system, the two logarithmic curves both have domain $\left(0,+\infty\right)$, lie to the right of the $y$-axis, and pass through the point $\left(1,0\right)$; $y=\log_3 x$ is a monotonically increasing curve (below the $x$-axis for $0<x<1$ and above it for $x>1$), while $y=\log_{\frac{1}{3}} x$ is a monotonically decreasing curve (above the $x$-axis for $0<x<1$ and below it for $x>1$), and the two are symmetric about the $x$-axis.
 
 ### Solution to Exercise 4
 
@@ -224,7 +224,7 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. Let $2000\ln\left(1+\frac{M}{m}\right)=
 
 (3) what do you discover from the graph in (2)?
 
-The graphs: in the same rectangular coordinate system, the three increasing logarithmic curves $y=\log_2 x$, $y=\log_3 x$, and $y=\lg x$ all have domain $(0,+\infty)$ and pass through the point $\left(1,0\right)$; in the region $x>1$, from top to bottom the graphs are $y=\log_2 x$ (topmost and steepest), $y=\log_3 x$ (middle), and $y=\lg x$ (bottommost and most gentle), while in the region $0<x<1$ the vertical order is reversed.
+The graphs: in the same rectangular coordinate system, the three increasing logarithmic curves $y=\log_2 x$, $y=\log_3 x$, and $y=\lg x$ all have domain $\left(0,+\infty\right)$ and pass through the point $\left(1,0\right)$; in the region $x>1$, from top to bottom the graphs are $y=\log_2 x$ (topmost and steepest), $y=\log_3 x$ (middle), and $y=\lg x$ (bottommost and most gentle), while in the region $0<x<1$ the vertical order is reversed.
 
 ### Solution to Problem 4
 

@@ -74,7 +74,7 @@ $\blacksquare$
 
 (2) 事件 $A$ 与 $B$ 互斥吗? 事件 $A$ 与 $B$ 相互独立吗?
 
-(题图: 韦恩图, 样本空间 $\Omega$ 内两个相交的圆 $A,B$; 其中 $n(\Omega)=24, n(A)=12, n(B)=8, n(A\cup B)=16$.)
+(题图: 韦恩图, 样本空间 $\Omega$ 内两个相交的圆 $A,B$; 其中 $n\left(\Omega\right)=24, n\left(A\right)=12, n\left(B\right)=8, n\left(A\cup B\right)=16$.)
 
 ### 解答 习题二
 

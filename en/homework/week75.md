@@ -280,7 +280,7 @@ Hence the tangent line passes through the point $\left(1,-1\right)$ with slope $
 
 (Exercise 5.1, Problem 13) When blowing up a balloon, the functional relation between the radius $r$ (in $\mathrm{dm}$) and the volume $V$ (in $\mathrm{L}$) is $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. Using an information technology tool, draw the graph of the function for $0\le V\le5$, and from the graph estimate the instantaneous inflation rate of the balloon at $V=0.6,1.2\ \mathrm{L}$.
 
-The figure is the graph of $r\left(V\right)=\sqrt[3]{\frac{3V}{4\pi}}$ on $0\le V\le5$: horizontal axis the volume $V$ (in $\mathrm{L}$), vertical axis the balloon radius $r$ (in $\mathrm{dm}$); the curve starts at the origin and increases monotonically but flattens out (concave down), with tangent lines drawn at $V=0.6$ and $V=1.2$.
+The figure is the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ on $0\le V\le5$: horizontal axis the volume $V$ (in $\mathrm{L}$), vertical axis the balloon radius $r$ (in $\mathrm{dm}$); the curve starts at the origin and increases monotonically but flattens out (concave down), with tangent lines drawn at $V=0.6$ and $V=1.2$.
 
 ### Solution to Exercise 13
 
