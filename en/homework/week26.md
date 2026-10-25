@@ -100,25 +100,25 @@ By **Definition 1.4.2** (Sufficient and Necessary Conditions) and **Definition 1
 
 (Review Reference Problem 1, Review and Consolidation, Problem 5) Given that $a,b,c$ are real numbers, determine whether the following propositions are true or false:
 
-(1) "$a>b$" is a sufficient condition for "$a^2>b^2$"; ($\;\_\_\;$)
+(1) "$a> b$" is a sufficient condition for "$a^2> b^2$"; ($\;\_\_\;$)
 
-(2) "$a>b$" is a necessary condition for "$a^2>b^2$"; ($\;\_\_\;$)
+(2) "$a> b$" is a necessary condition for "$a^2> b^2$"; ($\;\_\_\;$)
 
-(3) "$a>b$" is a sufficient condition for "$ac^2>bc^2$"; ($\;\_\_\;$)
+(3) "$a> b$" is a sufficient condition for "$ac^2> bc^2$"; ($\;\_\_\;$)
 
-(4) "$a>b$" is a necessary condition for "$ac^2>bc^2$". ($\;\_\_\;$)
+(4) "$a> b$" is a necessary condition for "$ac^2> bc^2$". ($\;\_\_\;$)
 
 ### Solution to Problem 5
 
 By **Definition 1.4.2** (Sufficient and Necessary Conditions), a counterexample shows it false, while a general proof shows it true.
 
-(1) Take $a=1$, $b=-2$; then $a>b$, but $a^2=1<4=b^2$, hence $a>b\nRightarrow a^2>b^2$, and the proposition is false.
+(1) Take $a=1$, $b=-2$; then $a> b$, but $a^2=1< 4=b^2$, hence $a> b\nRightarrow a^2> b^2$, and the proposition is false.
 
-(2) Take $a=-2$, $b=1$; then $a^2=4>1=b^2$, but $a<b$, hence $a^2>b^2\nRightarrow a>b$, i.e. "$a>b$" is not a necessary condition for "$a^2>b^2$", and the proposition is false.
+(2) Take $a=-2$, $b=1$; then $a^2=4> 1=b^2$, but $a< b$, hence $a^2> b^2\nRightarrow a> b$, i.e. "$a> b$" is not a necessary condition for "$a^2> b^2$", and the proposition is false.
 
-(3) Take $c=0$; then $ac^2=bc^2=0$, and even if $a>b$ we still have $ac^2=bc^2$, hence $a>b\nRightarrow ac^2>bc^2$, and the proposition is false.
+(3) Take $c=0$; then $ac^2=bc^2=0$, and even if $a> b$ we still have $ac^2=bc^2$, hence $a> b\nRightarrow ac^2> bc^2$, and the proposition is false.
 
-(4) If $ac^2>bc^2$, then necessarily $c^2>0$ (otherwise both sides are $0$, which does not satisfy $>$); dividing both sides by the positive number $c^2$ gives $a>b$, hence $ac^2>bc^2\Rightarrow a>b$, and the proposition is true. $\blacksquare$
+(4) If $ac^2> bc^2$, then necessarily $c^2> 0$ (otherwise both sides are $0$, which does not satisfy $> $); dividing both sides by the positive number $c^2$ gives $a> b$, hence $ac^2> bc^2\Rightarrow a> b$, and the proposition is true. $\blacksquare$
 
 ### Problem 6
 
@@ -160,7 +160,7 @@ Express and judge by **Definition 1.5.1** (Universal Quantifier and Universal Qu
 
 Rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quantified Statement) and **Common Conclusion 1.5.5** (Negation of an Existential Quantified Statement), and judge by the fact that the negation has the opposite truth value.
 
-(1) This is a universal quantified statement; its negation is $\exists a\in\mathbb R$ such that the quadratic equation $x^2-ax-1=0$ has no real roots. The discriminant of the original equation is $\left(-a\right)^2+4=a^2+4>0$ always, hence the original proposition is true and its negation is false.
+(1) This is a universal quantified statement; its negation is $\exists a\in\mathbb R$ such that the quadratic equation $x^2-ax-1=0$ has no real roots. The discriminant of the original equation is $\left(-a\right)^2+4=a^2+4> 0$ always, hence the original proposition is true and its negation is false.
 
 (2) This is a universal quantified statement; its negation is "there exists a square that is not a parallelogram". A square is a special parallelogram, hence the original proposition is true and its negation is false.
 

@@ -1,6 +1,6 @@
 # 作业 23
 
-> **定义 5.6.1** (振幅) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+> **定义 5.6.1** (振幅) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
 
 > **定义 5.6.2** (周期) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ 的周期 $T=\frac{2\pi}{\omega}$, 即往复运动一次所需的时间.
 
@@ -188,7 +188,7 @@
 
 ### 习题四
 
-(习题 5.6 综合运用第 4 题) 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) 在一个周期内的图象如图所示, 此函数的解析式为 $y=$ $\;\_\_\;$ .
+(习题 5.6 综合运用第 4 题) 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$, $0< \varphi< \pi$) 在一个周期内的图象如图所示, 此函数的解析式为 $y=$ $\;\_\_\;$ .
 
 图：函数 $y=A\sin\left(\omega x+\varphi\right)$ 在一个周期内的图象，振幅 $A=2$（最大值 $2$、最小值 $-2$），周期为 $\pi$，曲线过点 $\left(0,1\right)$ 且处于上升沿（即 $x=0$ 时函数值为 $1$、随后上升至峰值 $2$）。
 
@@ -220,7 +220,7 @@
 
 ### 习题七
 
-(习题 5.6 综合运用第 7 题) 一个半径为 $3\text{ m}$ 的筒车按逆时针方向每分转 $1.5$ 圈, 筒车的轴心 $O$ 距离水面的高度为 $2.2\text{ m}$. 设筒车上的某个盛水筒 $P$ 到水面的距离为 $d$ (单位: $\text{m}$) (在水面下则 $d$ 为负数), 若以盛水筒 $P$ 刚浮出水面时开始计算时间, 则 $d$ 与时间 $t$ (单位: $\text{s}$) 之间的关系为 $d=A\sin\left(\omega t+\varphi\right)+K$ ($A>0$, $\omega>0$, $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$).
+(习题 5.6 综合运用第 7 题) 一个半径为 $3\text{ m}$ 的筒车按逆时针方向每分转 $1.5$ 圈, 筒车的轴心 $O$ 距离水面的高度为 $2.2\text{ m}$. 设筒车上的某个盛水筒 $P$ 到水面的距离为 $d$ (单位: $\text{m}$) (在水面下则 $d$ 为负数), 若以盛水筒 $P$ 刚浮出水面时开始计算时间, 则 $d$ 与时间 $t$ (单位: $\text{s}$) 之间的关系为 $d=A\sin\left(\omega t+\varphi\right)+K$ ($A> 0$, $\omega> 0$, $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$).
 
 (1) 求 $A$, $\omega$, $\varphi$, $K$ 的值 ($\varphi$ 精确到 $0.0001$);
 
@@ -232,6 +232,6 @@
 
 (1) 由筒车半径 $3\text{ m}$, 得 $A=3$. 由轴心距水面 $2.2\text{ m}$, 得 $K=2.2$. 由每分转 $1.5$ 圈, 周期 $T=\frac{60}{1.5}=40\text{ s}$, 故 $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
 
-由 $t=0$ 时盛水筒刚浮出水面, 即 $d=0$, 得 $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. 又 $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$, 故 $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
+由 $t=0$ 时盛水筒刚浮出水面, 即 $d=0$, 得 $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. 又 $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$, 故 $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
 
 (2) 由最高点时 $\sin\left(\omega t+\varphi\right)=1$, 即 $\omega t+\varphi=\frac{\pi}{2}$, 得 $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{ s}$. $\blacksquare$

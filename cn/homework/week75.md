@@ -232,21 +232,21 @@ $$
 
 由**定义 5.1.3** (导数的几何意义), 曲线 $h\left(t\right)$ 在某点处切线斜率 $h'\left(t\right)$ 的正负反映曲线在该点附近的升降, 其绝对值大小反映升降的快慢.
 
-在 $t=t_{3}$ 附近, 曲线上升, 切线斜率 $h'\left(t_{3}\right)>0$, 故曲线在 $t=t_{3}$ 附近单调递增; 又切线倾斜程度较大, 斜率绝对值较大, 故递增得较快.
+在 $t=t_{3}$ 附近, 曲线上升, 切线斜率 $h'\left(t_{3}\right)> 0$, 故曲线在 $t=t_{3}$ 附近单调递增; 又切线倾斜程度较大, 斜率绝对值较大, 故递增得较快.
 
-在 $t=t_{4}$ 附近, 曲线上升, 切线斜率 $h'\left(t_{4}\right)>0$, 故曲线在 $t=t_{4}$ 附近单调递增; 但切线较为平缓, 斜率绝对值较小, 故递增得较慢. $\blacksquare$
+在 $t=t_{4}$ 附近, 曲线上升, 切线斜率 $h'\left(t_{4}\right)> 0$, 故曲线在 $t=t_{4}$ 附近单调递增; 但切线较为平缓, 斜率绝对值较小, 故递增得较慢. $\blacksquare$
 
 ### 练习十一
 
 (练习 5.1 第 11 题) 函数 $f\left(x\right)$ 的图象如图所示, 下列数值排序正确的是 ( ).
 
-(A) $f'\left(1\right)>f'\left(2\right)>f'\left(3\right)>0$
+(A) $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$
 
-(B) $f'\left(1\right)<f'\left(2\right)<f'\left(3\right)<0$
+(B) $f'\left(1\right)< f'\left(2\right)< f'\left(3\right)< 0$
 
-(C) $0<f'\left(1\right)<f'\left(2\right)<f'\left(3\right)$
+(C) $0< f'\left(1\right)< f'\left(2\right)< f'\left(3\right)$
 
-(D) $f'\left(1\right)>f'\left(2\right)>0>f'\left(3\right)$
+(D) $f'\left(1\right)> f'\left(2\right)> 0> f'\left(3\right)$
 
 该图为函数 $y=f\left(x\right)$ 的图象：一条从左下向右上上升的曲线，上升越来越平缓（上凸），图中在 $x=1,2,3$ 三处分别画出了曲线的切线，三条切线斜率均为正且依次减小。
 
@@ -256,7 +256,7 @@ $$
 
 由图象, 曲线 $y=f\left(x\right)$ 在 $x=1,2,3$ 处均呈上升趋势, 切线斜率均为正, 即 $f'\left(1\right),f'\left(2\right),f'\left(3\right)$ 均大于 $0$.
 
-又图象上升越来越平缓, 切线斜率逐渐减小, 即 $f'\left(1\right)>f'\left(2\right)>f'\left(3\right)>0$.
+又图象上升越来越平缓, 切线斜率逐渐减小, 即 $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$.
 
 故选 (A). $\blacksquare$
 
@@ -290,7 +290,7 @@ $$
 \frac{\Delta r}{\Delta V}=\frac{r\left(V+\Delta V\right)-r\left(V\right)}{\Delta V}.
 $$
 
-由函数 $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ 的图象可知, $r\left(V\right)$ 随 $V$ 增大而增大, 但增长越来越平缓, 故 $r'\left(V\right)>0$ 且随 $V$ 增大而减小.
+由函数 $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ 的图象可知, $r\left(V\right)$ 随 $V$ 增大而增大, 但增长越来越平缓, 故 $r'\left(V\right)> 0$ 且随 $V$ 增大而减小.
 
 由图象估计, 当 $V=0.6$ 时, 切线斜率约为 $r'\left(0.6\right)\approx0.3$; 当 $V=1.2$ 时, 切线斜率约为 $r'\left(1.2\right)\approx0.2$.
 
@@ -434,7 +434,7 @@ $$
 
 令 $\Delta x\to0$, 得切线斜率 $k=1$.
 
-设切线的倾斜角为 $\alpha$, 则 $\tan\alpha=1$. 又 $0\le\alpha<\pi$, 故 $\alpha=\frac{\pi}{4}$.
+设切线的倾斜角为 $\alpha$, 则 $\tan\alpha=1$. 又 $0\le\alpha< \pi$, 故 $\alpha=\frac{\pi}{4}$.
 
 故切线的倾斜角为 $\frac{\pi}{4}$. $\blacksquare$
 

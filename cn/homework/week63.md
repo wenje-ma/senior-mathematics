@@ -6,9 +6,9 @@
 
 > **定义 2.4.1** (圆的标准方程) <br>圆心为 $A\left(a,b\right)$, 半径长为 $r$ 的圆的标准方程为 $\left(x-a\right)^2+\left(y-b\right)^2=r^2$. 特别地, 当圆心在原点 $O\left(0,0\right)$ 时, 圆的方程为 $x^2+y^2=r^2$.
 
-> **常用结论 2.4.2** (点与圆的位置关系) <br>设点 $P\left(x_0,y_0\right)$ 到圆心 $A\left(a,b\right)$ 的距离为 $d$, 圆的半径为 $r$, 则 $d<r$ 时点在圆内, $d=r$ 时点在圆上, $d>r$ 时点在圆外. 即 $\left(x_0-a\right)^2+\left(y_0-b\right)^2<r^2$ 时点在圆内, $=r^2$ 时点在圆上, $>r^2$ 时点在圆外.
+> **常用结论 2.4.2** (点与圆的位置关系) <br>设点 $P\left(x_0,y_0\right)$ 到圆心 $A\left(a,b\right)$ 的距离为 $d$, 圆的半径为 $r$, 则 $d< r$ 时点在圆内, $d=r$ 时点在圆上, $d> r$ 时点在圆外. 即 $\left(x_0-a\right)^2+\left(y_0-b\right)^2< r^2$ 时点在圆内, $=r^2$ 时点在圆上, $> r^2$ 时点在圆外.
 
-> **定义 2.4.3** (圆的一般方程) <br>方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F>0$ 时, 方程表示以 $\left(-\frac{D}{2},-\frac{E}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt{D^2+E^2-4F}}{2}$ 的圆; 当 $D^2+E^2-4F=0$ 时, 方程表示一个点 $\left(-\frac{D}{2},-\frac{E}{2}\right)$; 当 $D^2+E^2-4F<0$ 时, 方程不表示任何图形.
+> **定义 2.4.3** (圆的一般方程) <br>方程 $x^2+y^2+Dx+Ey+F=0$ 称为圆的一般方程. 当 $D^2+E^2-4F> 0$ 时, 方程表示以 $\left(-\frac{D}{2},-\frac{E}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt{D^2+E^2-4F}}{2}$ 的圆; 当 $D^2+E^2-4F=0$ 时, 方程表示一个点 $\left(-\frac{D}{2},-\frac{E}{2}\right)$; 当 $D^2+E^2-4F< 0$ 时, 方程不表示任何图形.
 
 ### 练习一
 
@@ -54,11 +54,11 @@
 
 由**常用结论 2.4.2** (点与圆的位置关系), 圆心为 $\left(-2,-3\right)$, 半径 $r=2$, $r^2=4$.
 
-(1) 点 $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29>4$, 故点 $P_1$ 在圆外.
+(1) 点 $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29> 4$, 故点 $P_1$ 在圆外.
 
-(2) 点 $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13>4$, 故点 $P_2$ 在圆外.
+(2) 点 $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13> 4$, 故点 $P_2$ 在圆外.
 
-(3) 点 $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5>4$, 故点 $P_3$ 在圆外. $\blacksquare$
+(3) 点 $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5> 4$, 故点 $P_3$ 在圆外. $\blacksquare$
 
 ### 练习四
 
@@ -80,7 +80,7 @@ $$
 
 (2) 圆心在 $x$ 轴上, 设圆心为 $\left(a,0\right)$. 圆过点 $A\left(2,-3\right)$, 由**常用结论 2.3.2** (两点间距离公式), 半径为 $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt 5$. 两边平方, 得 $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 无解.
 
-重新审题: 半径为 $\sqrt 5$, 即 $r^2=5$, $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 确实无解. 检查: 圆心在 $x$ 轴上, 到点 $A\left(2,-3\right)$ 的距离为 $\sqrt 5$, 但点 $A$ 到 $x$ 轴的距离已为 $3>\sqrt 5$, 故无这样的圆. 题目应为半径为 $5$. 若 $r=5$, 则 $\left(2-a\right)^2+9=25$, 即 $\left(2-a\right)^2=16$, 故 $a=6$ 或 $a=-2$. 圆的方程为 $\left(x-6\right)^2+y^2=25$ 或 $\left(x+2\right)^2+y^2=25$. $\blacksquare$
+重新审题: 半径为 $\sqrt 5$, 即 $r^2=5$, $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 确实无解. 检查: 圆心在 $x$ 轴上, 到点 $A\left(2,-3\right)$ 的距离为 $\sqrt 5$, 但点 $A$ 到 $x$ 轴的距离已为 $3> \sqrt 5$, 故无这样的圆. 题目应为半径为 $5$. 若 $r=5$, 则 $\left(2-a\right)^2+9=25$, 即 $\left(2-a\right)^2=16$, 故 $a=6$ 或 $a=-2$. 圆的方程为 $\left(x-6\right)^2+y^2=25$ 或 $\left(x+2\right)^2+y^2=25$. $\blacksquare$
 
 ### 练习五
 
@@ -118,11 +118,11 @@ $\blacksquare$
 
 由**定义 2.4.3** (圆的一般方程), 判别 $D^2+E^2-4F$ 的符号.
 
-(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4>0$, 表示圆. 圆心为 $\left(2,3\right)$, 半径为 $\frac{\sqrt 4}{2}=1$.
+(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4> 0$, 表示圆. 圆心为 $\left(2,3\right)$, 半径为 $\frac{\sqrt 4}{2}=1$.
 
 (2) $D=-2$, $E=-4$, $F=5$. $D^2+E^2-4F=4+16-20=0$, 不表示圆, 仅表示一个点 $\left(1,2\right)$.
 
-(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44>0$, 表示圆. 圆心为 $\left(1,2\right)$, 半径为 $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
+(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44> 0$, 表示圆. 圆心为 $\left(1,2\right)$, 半径为 $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
 
 ### 练习七
 
@@ -182,9 +182,9 @@ $\blacksquare$
 
 ### 解答 习题二
 
-由**定义 2.4.1** (圆的标准方程), 圆心在 $x$ 轴正半轴上, 设圆心为 $\left(a,0\right)$, $a>0$.
+由**定义 2.4.1** (圆的标准方程), 圆心在 $x$ 轴正半轴上, 设圆心为 $\left(a,0\right)$, $a> 0$.
 
-圆过点 $\left(1,0\right)$, 半径为 $2\sqrt 2$, 由**常用结论 2.3.2** (两点间距离公式), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, 即 $\left(a-1\right)^2=8$, 故 $a-1=\pm2\sqrt 2$. 因 $a>0$, 故 $a=1+2\sqrt 2$.
+圆过点 $\left(1,0\right)$, 半径为 $2\sqrt 2$, 由**常用结论 2.3.2** (两点间距离公式), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, 即 $\left(a-1\right)^2=8$, 故 $a-1=\pm2\sqrt 2$. 因 $a> 0$, 故 $a=1+2\sqrt 2$.
 
 圆的标准方程为 $\left(x-1-2\sqrt 2\right)^2+y^2=8$. $\blacksquare$
 
@@ -264,7 +264,7 @@ $$
 
 ### 解答 习题七
 
-圆心为 $C\left(1,2\right)$, 半径 $r=2$. 点 $P\left(3,5\right)$ 到圆心的距离为 $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}>2$, 点 $P$ 在圆外.
+圆心为 $C\left(1,2\right)$, 半径 $r=2$. 点 $P\left(3,5\right)$ 到圆心的距离为 $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}> 2$, 点 $P$ 在圆外.
 
 设切线方程为 $y-5=k\left(x-3\right)$, 即 $kx-y+5-3k=0$.
 
@@ -308,11 +308,11 @@ $x^2+y^2=2x$ 即 $\left(x-1\right)^2+y^2=1$, 是圆心在 $\left(1,0\right)$ 半
 
 圆上恰有两个点到 $l$ 的距离为 $1$, 即上述两条平行线中一条与圆相交于两点, 另一条与圆相离.
 
-(a) 当 $\lvert d-1 \rvert<2$ 且 $d+1>2$ 时, 即 $-1<d<3$ 且 $d>1$, 即 $1<d<3$.
+(a) 当 $\lvert d-1 \rvert< 2$ 且 $d+1> 2$ 时, 即 $-1< d< 3$ 且 $d> 1$, 即 $1< d< 3$.
 
-(b) 当 $d-1>2$ 且 $\lvert d+1 \rvert<2$ 时, 即 $d>3$ 且 $-3<d<1$, 无解.
+(b) 当 $d-1> 2$ 且 $\lvert d+1 \rvert< 2$ 时, 即 $d> 3$ 且 $-3< d< 1$, 无解.
 
-综合, $1<d<3$, 即 $1<\frac{\lvert b \rvert}{\sqrt 2}<3$, 即 $\sqrt 2<\lvert b \rvert<3\sqrt 2$, 故 $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
+综合, $1< d< 3$, 即 $1< \frac{\lvert b \rvert}{\sqrt 2}< 3$, 即 $\sqrt 2< \lvert b \rvert< 3\sqrt 2$, 故 $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
 
 ### 习题十
 
@@ -328,7 +328,7 @@ $x^2+y^2=2x$ 即 $\left(x-1\right)^2+y^2=1$, 是圆心在 $\left(1,0\right)$ 半
 
 (2) $u=\frac{b-3}{a-6}$ 表示点 $Q\left(a,b\right)$ 与点 $P\left(6,3\right)$ 连线的斜率. 问题转化为: 点 $P\left(6,3\right)$ 与圆上动点连线斜率的取值范围.
 
-点 $P$ 到圆心 $\left(2,7\right)$ 的距离为 $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2>2\sqrt 2$, 点 $P$ 在圆外.
+点 $P$ 到圆心 $\left(2,7\right)$ 的距离为 $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2> 2\sqrt 2$, 点 $P$ 在圆外.
 
 设过点 $P$ 的切线斜率为 $k$, 切线方程为 $y-3=k\left(x-6\right)$, 即 $kx-y+3-6k=0$.
 

@@ -138,9 +138,9 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 2) Draw the graph of the sequence $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1<n\le 6\end{cases}$, and find the slope of the line passing through all the points on the graph
+(Exercise 4.2, Problem 2) Draw the graph of the sequence $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1< n\le 6\end{cases}$, and find the slope of the line passing through all the points on the graph
 
-The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1<n\le6\end{cases}$ (horizontal axis $n$, vertical axis $a_n$): the six points are $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$, lying exactly on the line $y=21-3x$.
+The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1< n\le6\end{cases}$ (horizontal axis $n$, vertical axis $a_n$): the six points are $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$, lying exactly on the line $y=21-3x$.
 
 ### Solution to Exercise 2
 
@@ -336,7 +336,7 @@ The total amount for the first option is $100\times 10=1000$ yuan.
 
 The second option is a geometric series sum with first term $1$ and common ratio $2$; the total amount over $20$ days is $2^{20}-1=1048575$ yuan.
 
-Since $1048575>1000$, choose the second option.
+Since $1048575> 1000$, choose the second option.
 
 $\blacksquare$
 
@@ -380,11 +380,11 @@ The minimum value of $S_n$ is $-19.8$, corresponding to $n=9$.
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m<60\right\}$, and find the sum of these elements
+(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m< 60\right\}$, and find the sum of these elements
 
 ### Solution to Exercise 4
 
-From $m=2n-1<60$, we get $n<30.5$, so $n=1,2,\cdots,30$, giving $30$ elements in total.
+From $m=2n-1< 60$, we get $n< 30.5$, so $n=1,2,\cdots,30$, giving $30$ elements in total.
 
 These elements are $1,3,5,\cdots,59$, forming an arithmetic sequence with first term $1$, last term $59$, and common difference $2$.
 
@@ -402,7 +402,7 @@ $\blacksquare$
 
 From $a_n=\frac{n-2}{2n-15}$, setting $a_n=0$ gives $n=2$.
 
-When $n<2$, $a_1=\frac{-1}{-13}>0$; when $n=2$, $a_2=0$; when $7.5>n>2$, $a_n<0$; when $n>8$, $a_n>0$.
+When $n< 2$, $a_1=\frac{-1}{-13}> 0$; when $n=2$, $a_2=0$; when $7.5> n> 2$, $a_n< 0$; when $n> 8$, $a_n> 0$.
 
 The sum $S_n$ of the first $n$ terms attains its minimum when the terms change from negative to positive, i.e. $S_8$ is minimal at $n=8$.
 
@@ -662,7 +662,7 @@ $\blacksquare$
 
 (1) By **Definition 4.2.1** (Arithmetic Sequence), the egg counts are $100,95,90,\cdots$, with common difference $-5$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=100-5\left(n-1\right)>0$, so $n-1<20$ and $n<21$.
+By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=100-5\left(n-1\right)> 0$, so $n-1< 20$ and $n< 21$.
 
 At most $20$ layings: the $20$th laying produces $5$ eggs, and the $21$th would produce $0$ eggs.
 

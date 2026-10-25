@@ -6,11 +6,11 @@
 
 > **Definition 3.1.2** (Domain and Range) <br>$x$ is called the independent variable, and the range $A$ of values of $x$ is called the domain of the function; the value $y$ corresponding to the value of $x$ is called the function value, and the set of function values $\left\{f\left(x\right)\mid x\in A\right\}$ is called the range of the function. Obviously, the range is a subset of the set $B$.
 
-> **Definition 3.1.3** (Intervals) <br>Let $a,b$ be two real numbers with $a<b$. (1) The set of real numbers $x$ satisfying the inequality $a\le x\le b$ is called a closed interval, denoted by $\left[a,b\right]$; (2) the set of real numbers $x$ satisfying the inequality $a<x<b$ is called an open interval, denoted by $\left(a,b\right)$; (3) the set of real numbers $x$ satisfying the inequality $a\le x<b$ or $a<x\le b$ is called a half-open half-closed interval, denoted by $\left[a,b\right)$ and $\left(a,b\right]$ respectively. The set of real numbers $\mathbb R$ can be represented as the interval $\left(-\infty,+\infty\right)$.
+> **Definition 3.1.3** (Intervals) <br>Let $a,b$ be two real numbers with $a< b$. (1) The set of real numbers $x$ satisfying the inequality $a\le x\le b$ is called a closed interval, denoted by $\left[a,b\right]$; (2) the set of real numbers $x$ satisfying the inequality $a< x< b$ is called an open interval, denoted by $\left(a,b\right)$; (3) the set of real numbers $x$ satisfying the inequality $a\le x< b$ or $a< x\le b$ is called a half-open half-closed interval, denoted by $\left[a,b\right)$ and $\left(a,b\right]$ respectively. The set of real numbers $\mathbb R$ can be represented as the interval $\left(-\infty,+\infty\right)$.
 
 > **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same) <br>The constituent elements of a function are: the domain, the correspondence, and the range. Since the range is determined by the domain and the correspondence, if two functions have the same domain and exactly the same correspondence, i.e. the same independent variable corresponds to the same function value, then the two functions are the same function.
 
-> **Definition 3.1.5** (Piecewise Function) <br>A function such as $y=\begin{cases}-x, & x<0,\\x, & x\ge0\end{cases}$ is called a piecewise function.
+> **Definition 3.1.5** (Piecewise Function) <br>A function such as $y=\begin{cases}-x, & x< 0,\\x, & x\ge0\end{cases}$ is called a piecewise function.
 
 > **Definition 3.1.6** (Ways of Representing a Function) <br>The analytic method uses an analytic expression to represent the correspondence between two variables; the tabular method uses a table to represent the correspondence between two variables; the graphical method uses a graph to represent the correspondence between two variables.
 
@@ -134,23 +134,23 @@ By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), t
 
 By **Definition 3.1.1** (Function), the rectangle is inscribed in a circle of radius $25\ \text{cm}$, and the diagonal of the rectangle equals the diameter of the circle, $50\ \text{cm}$.
 
-Let the other side of the rectangle have length $z$. By the Pythagorean theorem, $x^2+z^2=50^2=2500$, so $z=\sqrt{2500-x^2}$. The area of the rectangle is $y=xz=x\sqrt{2500-x^2}$. From $x>0$ and $z>0$, we get $0<x<50$. Thus the function is $y=x\sqrt{2500-x^2}$, $x\in\left(0,50\right)$. $\blacksquare$
+Let the other side of the rectangle have length $z$. By the Pythagorean theorem, $x^2+z^2=50^2=2500$, so $z=\sqrt{2500-x^2}$. The area of the rectangle is $y=xz=x\sqrt{2500-x^2}$. From $x> 0$ and $z> 0$, we get $0< x< 50$. Thus the function is $y=x\sqrt{2500-x^2}$, $x\in\left(0,50\right)$. $\blacksquare$
 
 ### Exercise 9
 
 (Exercise 3.1, Problem 9) Draw the graph of the function $y=\left|x-2\right|$.
 
-(Figure: in a coordinate system, a V-shaped broken line with vertex at $\left(2,0\right)$ opening upward; the left branch is the ray $y=-x+2$ ($x<2$) and the right branch is the ray $y=x-2$ ($x\ge2$).)
+(Figure: in a coordinate system, a V-shaped broken line with vertex at $\left(2,0\right)$ opening upward; the left branch is the ray $y=-x+2$ ($x< 2$) and the right branch is the ray $y=x-2$ ($x\ge2$).)
 
 ### Solution to Exercise 9
 
 By **Definition 3.1.5** (Piecewise Function), the absolute value function can be written in piecewise form.
 
 $$
-y=\left|x-2\right|=\begin{cases}-x+2, & x<2,\\x-2, & x\ge2.\end{cases}
+y=\left|x-2\right|=\begin{cases}-x+2, & x< 2,\\x-2, & x\ge2.\end{cases}
 $$
 
-The graph is a $V$-shaped broken line with vertex at $\left(2,0\right)$ opening upward: when $x<2$ it is the ray of the line $y=-x+2$, and when $x\ge2$ it is the ray of the line $y=x-2$. $\blacksquare$
+The graph is a $V$-shaped broken line with vertex at $\left(2,0\right)$ opening upward: when $x< 2$ it is the ray of the line $y=-x+2$, and when $x\ge2$ it is the ray of the line $y=x-2$. $\blacksquare$
 
 ### Exercise 10
 
@@ -170,10 +170,10 @@ By **Definition 3.1.6** (Ways of Representing a Function) and **Definition 3.1.5
 
 (2) Set $-x+1=\left(x-1\right)^2$; expanding gives $-x+1=x^2-2x+1$, i.e. $x^2-x=0$, and solving gives $x=0$ or $x=1$.
 
-When $x\le0$, $\left(x-1\right)^2\le-x+1$, so $m\left(x\right)=\left(x-1\right)^2$; when $0<x\le1$, $-x+1<\left(x-1\right)^2$, so $m\left(x\right)=-x+1$; when $x>1$, $\left(x-1\right)^2<-x+1$, so $m\left(x\right)=\left(x-1\right)^2$. Therefore
+When $x\le0$, $\left(x-1\right)^2\le-x+1$, so $m\left(x\right)=\left(x-1\right)^2$; when $0< x\le1$, $-x+1< \left(x-1\right)^2$, so $m\left(x\right)=-x+1$; when $x> 1$, $\left(x-1\right)^2< -x+1$, so $m\left(x\right)=\left(x-1\right)^2$. Therefore
 
 $$
-m\left(x\right)=\begin{cases}\left(x-1\right)^2, & x\le0,\\-x+1, & 0<x\le1,\\\left(x-1\right)^2, & x>1.\end{cases}
+m\left(x\right)=\begin{cases}\left(x-1\right)^2, & x\le0,\\-x+1, & 0< x\le1,\\\left(x-1\right)^2, & x> 1.\end{cases}
 $$
 
 Graphical method: take the lower of the graphs of $f\left(x\right)$ and $g\left(x\right)$ to obtain the graph of $m\left(x\right)$. $\blacksquare$
@@ -218,12 +218,12 @@ If the total mileage of a certain route is $20\ \text{km}$, according to the pro
 
 By **Definition 3.1.5** (Piecewise Function), the fare is priced in segments according to the mileage.
 
-Let the mileage be $x$ (unit: $\text{km}$) and the fare be $y$ (unit: yuan), then $0<x\le20$.
+Let the mileage be $x$ (unit: $\text{km}$) and the fare be $y$ (unit: yuan), then $0< x\le20$.
 
-When $0<x\le5$, $y=2$; when $5<x\le10$, $y=3$; when $10<x\le15$, $y=4$; when $15<x\le20$, $y=5$. That is,
+When $0< x\le5$, $y=2$; when $5< x\le10$, $y=3$; when $10< x\le15$, $y=4$; when $15< x\le20$, $y=5$. That is,
 
 $$
-y=\begin{cases}2, & 0<x\le5,\\3, & 5<x\le10,\\4, & 10<x\le15,\\5, & 15<x\le20.\end{cases}
+y=\begin{cases}2, & 0< x\le5,\\3, & 5< x\le10,\\4, & 10< x\le15,\\5, & 15< x\le20.\end{cases}
 $$
 
 The graph consists of four horizontal segments, each with a solid left endpoint and an open right endpoint. $\blacksquare$
@@ -270,7 +270,7 @@ By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), t
 
 (2) $f\left(x\right)=x^2$ has domain $\mathbb R$, while $g\left(x\right)=\left(\sqrt x\right)^4=x^2$ has domain $\left\{x\mid x\ge0\right\}$; the domains are different, so they are not the same function.
 
-(3) $f\left(x\right)=x^2$ has domain $\mathbb R$, while $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$; when $x<0$, $g\left(x\right)=-x\ne x^2$, the correspondences are different, so they are not the same function. $\blacksquare$
+(3) $f\left(x\right)=x^2$ has domain $\mathbb R$, while $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$; when $x< 0$, $g\left(x\right)=-x\ne x^2$, the correspondences are different, so they are not the same function. $\blacksquare$
 
 ### Problem 3
 
@@ -358,17 +358,17 @@ From $f\left(1\right)=1+b+c=0$ and $f\left(3\right)=9+3b+c=0$, subtracting the t
 
 (Exercise 3.1, Review and Consolidation, Problem 7) Draw the graphs of the following functions:
 
-(1) $f\left(x\right)=\begin{cases}0, & x\le0,\\1, & x>0;\end{cases}$
+(1) $f\left(x\right)=\begin{cases}0, & x\le0,\\1, & x> 0;\end{cases}$
 
 (2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
 
-(Figure: the left graph shows the piecewise function $f\left(x\right)=0$ for $x\le0$ and $f\left(x\right)=1$ for $x>0$, i.e. a ray on the $x$-axis for $x\le0$ and a ray on the line $y=1$ for $x>0$; the right graph shows three isolated points $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$.)
+(Figure: the left graph shows the piecewise function $f\left(x\right)=0$ for $x\le0$ and $f\left(x\right)=1$ for $x> 0$, i.e. a ray on the $x$-axis for $x\le0$ and a ray on the line $y=1$ for $x> 0$; the right graph shows three isolated points $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$.)
 
 ### Solution to Problem 7
 
 By **Definition 3.1.5** (Piecewise Function) and **Definition 3.1.6** (Ways of Representing a Function).
 
-(1) When $x\le0$ the function value is always $0$, and when $x>0$ the function value is always $1$; the graph consists of two horizontal rays: on the $x$-axis when $x\le0$, and on the line $y=1$ when $x>0$.
+(1) When $x\le0$ the function value is always $0$, and when $x> 0$ the function value is always $1$; the graph consists of two horizontal rays: on the $x$-axis when $x\le0$, and on the line $y=1$ when $x> 0$.
 
 (2) The domain is the finite set $\left\{1,2,3\right\}$, $G\left(1\right)=4$, $G\left(2\right)=7$, $G\left(3\right)=10$, and the graph consists of three isolated points $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$. $\blacksquare$
 
@@ -382,11 +382,11 @@ By **Definition 3.1.5** (Piecewise Function) and **Definition 3.1.6** (Ways of R
 
 By **Definition 3.1.1** (Function) and the geometric properties of a rectangle, there are determined correspondences among the quantities.
 
-From the area $xy=10$, we get $y=\frac{10}{x}$ $\left(x>0\right)$.
+From the area $xy=10$, we get $y=\frac{10}{x}$ $\left(x> 0\right)$.
 
-By the Pythagorean theorem, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x>0\right)$.
+By the Pythagorean theorem, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x> 0\right)$.
 
-From the perimeter formula, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x>0\right)$. $\blacksquare$
+From the perimeter formula, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x> 0\right)$. $\blacksquare$
 
 ### Problem 9
 
@@ -428,7 +428,7 @@ By **Definition 3.1.2** (Domain and Range), read the ranges of the independent v
 
 (1) The graph consists of two parts: the left part $p\in\left[-5,0\right]$, where the curve rises from $r=2$ to $r=5$; the right part $p\in\left[2,6\right]$, where the curve rises from $r=0$ and is asymptotic to the line $m$ (dashed). Thus the domain is $\left[-5,0\right]\cup\left[2,6\right)$. The left part has $r\in\left[2,5\right]$ and the right part has $r\in\left[0,+\infty\right)$, so the range is $\left[0,+\infty\right)$.
 
-(2) When $r\in\left[0,2\right)$, only the right part of the curve corresponds to it, so there is only a unique value of $p$; when $r\in\left[2,5\right]$, each of the left and right parts has a value of $p$; when $r>5$, only the right part of the curve. Thus when $r\in\left[0,2\right)$ or $r>5$, there is only a unique value of $p$ corresponding to it. $\blacksquare$
+(2) When $r\in\left[0,2\right)$, only the right part of the curve corresponds to it, so there is only a unique value of $p$; when $r\in\left[2,5\right]$, each of the left and right parts has a value of $p$; when $r> 5$, only the right part of the curve. Thus when $r\in\left[0,2\right)$ or $r> 5$, there is only a unique value of $p$ corresponding to it. $\blacksquare$
 
 ### Problem 12
 
@@ -438,13 +438,13 @@ By **Definition 3.1.2** (Domain and Range), read the ranges of the independent v
 
 (2) If the coordinates of a point $P\left(x,y\right)$ in the rectangular coordinate system satisfy $-3\le x\le8$, $-1\le y\le2$, which of these points cannot be on the graph?
 
-(Figure: a sample function graph in the coordinate system: a horizontal segment $y=1$ for $-3\le x<5$, and a horizontal segment $y=-1$ for $5<x\le8$, disconnected at $x=5$.)
+(Figure: a sample function graph in the coordinate system: a horizontal segment $y=1$ for $-3\le x< 5$, and a horizontal segment $y=-1$ for $5< x\le8$, disconnected at $x=5$.)
 
 ### Solution to Problem 12
 
 By **Definition 3.1.1** (Function) and **Definition 3.1.2** (Domain and Range), each $x$ on the graph can correspond to only a unique $y$.
 
-One can construct a function: when $-3\le x<5$ take $y=1$, and when $5<x\le8$ take $y=-1$; the graph consists of two horizontal segments, broken at $x=5$.
+One can construct a function: when $-3\le x< 5$ take $y=1$, and when $5< x\le8$ take $y=-1$; the graph consists of two horizontal segments, broken at $x=5$.
 
 (1) Different students construct different functions, so the graphs are naturally different.
 
@@ -463,20 +463,20 @@ By **Definition 3.1.5** (Piecewise Function), represent it in segments according
 When $x\in\left(-2.5,-2\right)$, $f\left(x\right)=-3$; when $x\in\left[-2,-1\right)$, $f\left(x\right)=-2$; when $x\in\left[-1,0\right)$, $f\left(x\right)=-1$; when $x\in\left[0,1\right)$, $f\left(x\right)=0$; when $x\in\left[1,2\right)$, $f\left(x\right)=1$; when $x\in\left[2,3\right)$, $f\left(x\right)=2$; when $x=3$, $f\left(3\right)=3$. That is,
 
 $$
-f\left(x\right)=\begin{cases}-3, & -2.5<x<-2,\\-2, & -2\le x<-1,\\-1, & -1\le x<0,\\0, & 0\le x<1,\\1, & 1\le x<2,\\2, & 2\le x<3,\\3, & x=3.\end{cases}
+f\left(x\right)=\begin{cases}-3, & -2.5< x< -2,\\-2, & -2\le x< -1,\\-1, & -1\le x< 0,\\0, & 0\le x< 1,\\1, & 1\le x< 2,\\2, & 2\le x< 3,\\3, & x=3.\end{cases}
 $$
 
 The graph is step-shaped: each horizontal segment is closed on the left and open on the right, jumping to the next level at the right endpoint. $\blacksquare$
 
 ### Problem 14
 
-(Exercise 3.1, Extension and Exploration, Problem 14) Construct a problem situation in which the variable relation can be described by the analytic expression $y=\frac{1}{2}ax^2$ ($a>0$).
+(Exercise 3.1, Extension and Exploration, Problem 14) Construct a problem situation in which the variable relation can be described by the analytic expression $y=\frac{1}{2}ax^2$ ($a> 0$).
 
 ### Solution to Problem 14
 
 By **Definition 3.1.6** (Ways of Representing a Function), the analytic method corresponds to the variable relation in a practical situation.
 
-Take free-fall motion: an object falls freely from rest, and the relation between the falling distance $y$ and the time $x$ is $y=\frac{1}{2}gx^2$, where $g>0$ is the acceleration due to gravity. In this situation, $a=g$ ($a>0$), and the variable relation can be described by $y=\frac{1}{2}ax^2$. $\blacksquare$
+Take free-fall motion: an object falls freely from rest, and the relation between the falling distance $y$ and the time $x$ is $y=\frac{1}{2}gx^2$, where $g> 0$ is the acceleration due to gravity. In this situation, $a=g$ ($a> 0$), and the variable relation can be described by $y=\frac{1}{2}ax^2$. $\blacksquare$
 
 ### Problem 15
 
@@ -518,7 +518,7 @@ By **Definition 3.1.1** (Function), for each element in the domain there must be
 
 (1) For any $u\in\mathbb R$, from $u^2+2v=0$ we get $v=-\frac{u^2}{2}$; $v$ is uniquely determined and $v\le0\in B$, so $v=f\left(u\right)$ is a function.
 
-(2) For any $v\in\left(-\infty,0\right]$, from $u^2=-2v$, when $v<0$, $u=\pm\sqrt{-2v}$ has two values, not unique; when $v=0$, $u=0$ is unique. Since there exists a $v$ corresponding to two values of $u$, $u=g\left(v\right)$ is not a function. $\blacksquare$
+(2) For any $v\in\left(-\infty,0\right]$, from $u^2=-2v$, when $v< 0$, $u=\pm\sqrt{-2v}$ has two values, not unique; when $v=0$, $u=0$ is unique. Since there exists a $v$ corresponding to two values of $u$, $u=g\left(v\right)$ is not a function. $\blacksquare$
 
 ### Problem 17
 

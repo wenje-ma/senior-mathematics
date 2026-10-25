@@ -1,14 +1,14 @@
 # 作业 15
 
-> **定义 4.3.1** (对数) <br>一般地, 如果 $a^x=N$ ($a>0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
+> **定义 4.3.1** (对数) <br>一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
 
 > **定义 4.3.2** (常用对数与自然对数) <br>以 $10$ 为底的对数叫做常用对数, 并把 $\log_{10} N$ 记为 $\lg N$; 以 $\mathrm e$ 为底的对数称为自然对数, 并把 $\log_{\mathrm e} N$ 记为 $\ln N$.
 
-> **常用结论 4.3.3** (对数与指数的关系) <br>当 $a>0$, $a\neq 1$ 时, $a^x=N\Leftrightarrow x=\log_a N$. 负数和 $0$ 没有对数; $\log_a 1=0$, $\log_a a=1$.
+> **常用结论 4.3.3** (对数与指数的关系) <br>当 $a> 0$, $a\neq 1$ 时, $a^x=N\Leftrightarrow x=\log_a N$. 负数和 $0$ 没有对数; $\log_a 1=0$, $\log_a a=1$.
 
-> **常用结论 4.3.4** (对数运算性质) <br>如果 $a>0$, 且 $a\neq 1$, $M>0$, $N>0$, 那么 (1) $\log_a\left(MN\right)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
+> **常用结论 4.3.4** (对数运算性质) <br>如果 $a> 0$, 且 $a\neq 1$, $M> 0$, $N> 0$, 那么 (1) $\log_a\left(MN\right)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
 
-> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, 且 $a\neq 1$; $b>0$; $c>0$, 且 $c\neq 1$).
+> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a> 0$, 且 $a\neq 1$; $b> 0$; $c> 0$, 且 $c\neq 1$).
 
 ### 练习一
 
@@ -84,7 +84,7 @@
 
 (1) $\log_{\frac{1}{3}} x=-3$ 化为 $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
 
-(2) $\log_x 49=4$ 化为 $x^4=49$, 又 $x>0$ 且 $x\neq 1$, 故 $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
+(2) $\log_x 49=4$ 化为 $x^4=49$, 又 $x> 0$ 且 $x\neq 1$, 故 $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
 
 (3) $\lg 0.00001=x$ 化为 $10^x=0.00001=10^{-5}$, 故 $x=-5$.
 
@@ -206,9 +206,9 @@ $\blacksquare$
 
 (1) 使式子 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义的 $x$ 的取值范围是 ( ).
 
-(A) $x>2$ (B) $x<2$ (C) $\frac{1}{2}<x<2$ (D) $\frac{1}{2}<x<2$, 且 $x\neq 1$
+(A) $x> 2$ (B) $x< 2$ (C) $\frac{1}{2}< x< 2$ (D) $\frac{1}{2}< x< 2$, 且 $x\neq 1$
 
-(2) 若 $\lg a$ ($a>0$) 与 $\lg b$ ($b>0$) 互为相反数, 则 ( ).
+(2) 若 $\lg a$ ($a> 0$) 与 $\lg b$ ($b> 0$) 互为相反数, 则 ( ).
 
 (A) $a+b=0$ (B) $a-b=0$ (C) $ab=1$ (D) $\frac{a}{b}=1$
 
@@ -216,7 +216,7 @@ $\blacksquare$
 
 由**定义 4.3.1** (对数) 与**常用结论 4.3.4** (对数运算性质).
 
-(1) 对数 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义要求底数 $2x-1>0$ 且 $2x-1\neq 1$, 真数 $2-x>0$. 即 $x>\frac{1}{2}$, $x\neq 1$, $x<2$. 综合得 $\frac{1}{2}<x<2$ 且 $x\neq 1$, 故选 (D).
+(1) 对数 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义要求底数 $2x-1> 0$ 且 $2x-1\neq 1$, 真数 $2-x> 0$. 即 $x> \frac{1}{2}$, $x\neq 1$, $x< 2$. 综合得 $\frac{1}{2}< x< 2$ 且 $x\neq 1$, 故选 (D).
 
 (2) $\lg a$ 与 $\lg b$ 互为相反数, 即 $\lg a+\lg b=0$. 由**常用结论 4.3.4** (1), $\lg\left(ab\right)=0$, 故 $ab=1$, 选 (C). $\blacksquare$
 
@@ -366,4 +366,4 @@ $\blacksquare$
 
 由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.5** (对数换底公式).
 
-每小时减少 $30\%$, 即每小时酒精含量为原来的 $0.7$. 初始含量为 $1\;\mathrm{mg/mL}$, 经过 $t$ 小时后含量为 $0.7^t\;\mathrm{mg/mL}$. 酒后驾车标准为 $100\;\mathrm{mL}$ 中 $20\;\mathrm{mg}$, 即 $0.2\;\mathrm{mg/mL}$, 要能驾驶须 $0.7^t<0.2$. 由对数定义, $t>\log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. 故他至少经过 $5$ 个小时才能驾驶. $\blacksquare$
+每小时减少 $30\%$, 即每小时酒精含量为原来的 $0.7$. 初始含量为 $1\;\mathrm{mg/mL}$, 经过 $t$ 小时后含量为 $0.7^t\;\mathrm{mg/mL}$. 酒后驾车标准为 $100\;\mathrm{mL}$ 中 $20\;\mathrm{mg}$, 即 $0.2\;\mathrm{mg/mL}$, 要能驾驶须 $0.7^t< 0.2$. 由对数定义, $t> \log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. 故他至少经过 $5$ 个小时才能驾驶. $\blacksquare$

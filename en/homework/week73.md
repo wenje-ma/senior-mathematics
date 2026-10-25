@@ -93,7 +93,7 @@ $\blacksquare$
 
 (1) Do $a_3,a_5,a_7$ form a geometric sequence? Why? What about $a_1,a_5,a_9$?
 
-(2) When $n>1$, do $a_{n-1},a_n,a_{n+1}$ form a geometric sequence? Why? When $n>k>0$, do $a_{n-k},a_n,a_{n+k}$ form a geometric sequence?
+(2) When $n> 1$, do $a_{n-1},a_n,a_{n+1}$ form a geometric sequence? Why? When $n> k> 0$, do $a_{n-k},a_n,a_{n+k}$ form a geometric sequence?
 
 ### Solution to Exercise 1
 
@@ -207,9 +207,9 @@ $$
 
 Setting $\frac{\left(n+1\right)^3}{3n^3}\le 1$, i.e. $\left(n+1\right)^3\le 3n^3$, gives $n+1\le \sqrt\left[3\right]{3}n$.
 
-When $n=2$: $\frac{27}{24}>1$; when $n=3$: $\frac{64}{81}<1$.
+When $n=2$: $\frac{27}{24}> 1$; when $n=3$: $\frac{64}{81}< 1$.
 
-Hence $a_3>a_2$ and $a_4<a_3$, so the maximum is attained at $n=3$.
+Hence $a_3> a_2$ and $a_4< a_3$, so the maximum is attained at $n=3$.
 
 $\blacksquare$
 
@@ -335,7 +335,7 @@ $$
 S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{1-0.5}=100+200\left(1-0.5^{n-1}\right).
 $$
 
-Setting $S_n>300$: $100+200\left(1-0.5^{n-1}\right)>300$, so $1-0.5^{n-1}>1$, which has no solution.
+Setting $S_n> 300$: $100+200\left(1-0.5^{n-1}\right)> 300$, so $1-0.5^{n-1}> 1$, which has no solution.
 
 Actually, in $S_n=100+100\left(1-0.5^{n-1}\right)/\left(1-0.5\right)\times 2$, by the $n$th impact the ball has risen and fallen $n-1$ times:
 
@@ -343,7 +343,7 @@ $$
 S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{0.5}=100+200\left(1-0.5^{n-1}\right).
 $$
 
-$S_n<300$ always holds, and its limit is $300$, so it never exceeds $300\ \mathrm{m}$.
+$S_n< 300$ always holds, and its limit is $300$, so it never exceeds $300\ \mathrm{m}$.
 
 $\blacksquare$
 
@@ -459,7 +459,7 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.3, Comprehensive Application, Problem 4) The radioactive element uranium emits radiation and, after a certain time, decays into other elements; this phenomenon is called decay. Experiments show that the amount of uranium decaying per second is proportional to the amount present at that time, with proportionality constant $k>0$. Let the initial amount of uranium be $N_0$
+(Exercise 4.3, Comprehensive Application, Problem 4) The radioactive element uranium emits radiation and, after a certain time, decays into other elements; this phenomenon is called decay. Experiments show that the amount of uranium decaying per second is proportional to the amount present at that time, with proportionality constant $k> 0$. Let the initial amount of uranium be $N_0$
 
 (1) Write an expression for the amount $N\left(t\right)$ of uranium after $t$ seconds;
 
@@ -611,19 +611,19 @@ $\blacksquare$
 
 $\blacksquare$
 
-(Exercise 4.3, Extension and Exploration, Problem 10) Given that the product of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $T_n$, with $a_1>1$ and $a_{2016}a_{2017}<0$. Find the value of $n$ at which $T_n$ attains its maximum
+(Exercise 4.3, Extension and Exploration, Problem 10) Given that the product of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $T_n$, with $a_1> 1$ and $a_{2016}a_{2017}< 0$. Find the value of $n$ at which $T_n$ attains its maximum
 
 ### Solution to Problem 1
 
-By **Definition 4.3.1** (Geometric Sequence), $a_{2016}a_{2017}=a_{2016}^2 q<0$, hence $q<0$.
+By **Definition 4.3.1** (Geometric Sequence), $a_{2016}a_{2017}=a_{2016}^2 q< 0$, hence $q< 0$.
 
-$a_1>1$ and $a_{2016}a_{2017}<0$ mean that $a_{2016}$ and $a_{2017}$ have opposite signs, i.e. the sequence changes from positive to negative around the $2016$th term.
+$a_1> 1$ and $a_{2016}a_{2017}< 0$ mean that $a_{2016}$ and $a_{2017}$ have opposite signs, i.e. the sequence changes from positive to negative around the $2016$th term.
 
 The product of the first $n$ terms is $T_n=a_1^n q^{n\left(n-1\right)/2}$; $T_n$ is maximal when the terms have the largest absolute values and positive sign.
 
-$T_{2016}=a_1^{2016} q^{2016\times 2015/2}$; since $a_{2016}>0,a_{2017}<0$, we have $T_{2016}>0$ and $T_{2017}<0$.
+$T_{2016}=a_1^{2016} q^{2016\times 2015/2}$; since $a_{2016}> 0,a_{2017}< 0$, we have $T_{2016}> 0$ and $T_{2017}< 0$.
 
-Moreover, when $\lvert a_{2016}\rvert>1$ and $\lvert a_{2017}\rvert<1$, $T_{2016}$ is maximal, so $n=2016$.
+Moreover, when $\lvert a_{2016}\rvert> 1$ and $\lvert a_{2017}\rvert< 1$, $T_{2016}$ is maximal, so $n=2016$.
 
 $\blacksquare$
 

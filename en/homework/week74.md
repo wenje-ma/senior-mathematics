@@ -158,23 +158,23 @@ $\blacksquare$
 
 By **Definition 4.1.5** (General Term Formula), $a_n=n^2$ and $b_n=2^n$.
 
-Compute: $a_1=1<2=b_1$, $a_2=4=b_2$, $a_3=9>8=b_3$, $a_4=16=b_4$, $a_5=25<32=b_5$, $a_6=36<64=b_6$.
+Compute: $a_1=1< 2=b_1$, $a_2=4=b_2$, $a_3=9> 8=b_3$, $a_4=16=b_4$, $a_5=25< 32=b_5$, $a_6=36< 64=b_6$.
 
-Conjecture: from the $5$th term onward, $a_n<b_n$, i.e. $n^2<2^n$ holds for $n\ge 5$.
+Conjecture: from the $5$th term onward, $a_n< b_n$, i.e. $n^2< 2^n$ holds for $n\ge 5$.
 
-(1) When $n=5$, $25<32$, which holds.
+(1) When $n=5$, $25< 32$, which holds.
 
-(2) Assume when $n=k$ ($k\ge 5$), $k^2<2^k$.
+(2) Assume when $n=k$ ($k\ge 5$), $k^2< 2^k$.
 
-When $n=k+1$, it suffices to prove $\left(k+1\right)^2<2^{k+1}$.
+When $n=k+1$, it suffices to prove $\left(k+1\right)^2< 2^{k+1}$.
 
-From $k^2<2^k$, we get $2^{k+1}>2k^2$.
+From $k^2< 2^k$, we get $2^{k+1}> 2k^2$.
 
-$\left(k+1\right)^2=k^2+2k+1$. When $k\ge 5$, $2k^2-\left(k^2+2k+1\right)=k^2-2k-1>0$, hence $2k^2>\left(k+1\right)^2$.
+$\left(k+1\right)^2=k^2+2k+1$. When $k\ge 5$, $2k^2-\left(k^2+2k+1\right)=k^2-2k-1> 0$, hence $2k^2> \left(k+1\right)^2$.
 
-Therefore $2^{k+1}>2k^2>\left(k+1\right)^2$.
+Therefore $2^{k+1}> 2k^2> \left(k+1\right)^2$.
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), from the $5$th term onward, $a_n<b_n$.
+That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), from the $5$th term onward, $a_n< b_n$.
 
 $\blacksquare$
 
@@ -352,43 +352,43 @@ It holds. By **Definition 4.4.1** (Mathematical Induction), the identity holds.
 
 $\blacksquare$
 
-(Exercise 4.4, Comprehensive Application, Problem 6) Given that the general terms of the sequences $\left\{a_n\right\},\left\{b_n\right\}$ are $a_n=2^n$ and $b_n=n^4$ respectively, where $n\in\mathbb N^*$. Determine for which positive integers $n$ the inequality $a_n>b_n$ holds, and prove your conclusion
+(Exercise 4.4, Comprehensive Application, Problem 6) Given that the general terms of the sequences $\left\{a_n\right\},\left\{b_n\right\}$ are $a_n=2^n$ and $b_n=n^4$ respectively, where $n\in\mathbb N^*$. Determine for which positive integers $n$ the inequality $a_n> b_n$ holds, and prove your conclusion
 
 ### Solution to Problem 1
 
-Compute: $a_1=2<1=b_1$; $a_2=4<16=b_2$; $a_3=8<81=b_3$; $a_4=16<256=b_4$; $a_5=32<625=b_5$; $a_6=64<1296=b_6$; $a_7=128<2401=b_7$; $a_8=256<4096=b_8$; $a_9=512<6561=b_9$; $a_{10}=1024<10000=b_{10}$; $a_{11}=2048<14641=b_{11}$; $a_{12}=4096<20736=b_{12}$; $a_{13}=8192<28561=b_{13}$; $a_{14}=16384>38416=b_{14}$? Since $14^4=38416>16384$, it does not hold.
+Compute: $a_1=2< 1=b_1$; $a_2=4< 16=b_2$; $a_3=8< 81=b_3$; $a_4=16< 256=b_4$; $a_5=32< 625=b_5$; $a_6=64< 1296=b_6$; $a_7=128< 2401=b_7$; $a_8=256< 4096=b_8$; $a_9=512< 6561=b_9$; $a_{10}=1024< 10000=b_{10}$; $a_{11}=2048< 14641=b_{11}$; $a_{12}=4096< 20736=b_{12}$; $a_{13}=8192< 28561=b_{13}$; $a_{14}=16384> 38416=b_{14}$? Since $14^4=38416> 16384$, it does not hold.
 
-Continue: $n=15$: $2^{15}=32768$, $15^4=50625$, does not hold. $n=16$: $65536<65536$? Since $16^4=65536$, they are equal. $n=17$: $131072>83521$, holds.
+Continue: $n=15$: $2^{15}=32768$, $15^4=50625$, does not hold. $n=16$: $65536< 65536$? Since $16^4=65536$, they are equal. $n=17$: $131072> 83521$, holds.
 
-Conjecture: when $n\ge 17$, $2^n>n^4$.
+Conjecture: when $n\ge 17$, $2^n> n^4$.
 
-(1) When $n=17$, $2^{17}=131072>83521=17^4$, which holds.
+(1) When $n=17$, $2^{17}=131072> 83521=17^4$, which holds.
 
-(2) Assume when $n=k$ ($k\ge 17$), $2^k>k^4$.
+(2) Assume when $n=k$ ($k\ge 17$), $2^k> k^4$.
 
-When $n=k+1$, it suffices to prove $2^{k+1}>\left(k+1\right)^4$.
+When $n=k+1$, it suffices to prove $2^{k+1}> \left(k+1\right)^4$.
 
-From $2^{k+1}>2k^4$, it suffices to prove $2k^4>\left(k+1\right)^4$, i.e. $2>\left(1+\frac{1}{k}\right)^4$.
+From $2^{k+1}> 2k^4$, it suffices to prove $2k^4> \left(k+1\right)^4$, i.e. $2> \left(1+\frac{1}{k}\right)^4$.
 
-When $k\ge 17$, $\left(1+\frac{1}{17}\right)^4<2$, which holds.
+When $k\ge 17$, $\left(1+\frac{1}{17}\right)^4< 2$, which holds.
 
-Hence $2^{k+1}>\left(k+1\right)^4$. By **Definition 4.4.1** (Mathematical Induction), when $n\ge 17$, $a_n>b_n$.
+Hence $2^{k+1}> \left(k+1\right)^4$. By **Definition 4.4.1** (Mathematical Induction), when $n\ge 17$, $a_n> b_n$.
 
 $\blacksquare$
 
-(Exercise 4.4, Comprehensive Application, Problem 7) Given that a sequence $\left\{x_n\right\}$ satisfies $x_1=1$, $x_n=x_{n+1}+\ln\left(1+x_{n+1}\right)$ ($n\in\mathbb N^*$). Use mathematical induction to prove that $x_n>0$, and compare the sizes of $x_n$ and $x_{n+1}$
+(Exercise 4.4, Comprehensive Application, Problem 7) Given that a sequence $\left\{x_n\right\}$ satisfies $x_1=1$, $x_n=x_{n+1}+\ln\left(1+x_{n+1}\right)$ ($n\in\mathbb N^*$). Use mathematical induction to prove that $x_n> 0$, and compare the sizes of $x_n$ and $x_{n+1}$
 
 ### Solution to Problem 1
 
-(1) When $n=1$, $x_1=1>0$, which holds.
+(1) When $n=1$, $x_1=1> 0$, which holds.
 
-(2) Assume when $n=k$, $x_k>0$.
+(2) Assume when $n=k$, $x_k> 0$.
 
 From $x_k=x_{k+1}+\ln\left(1+x_{k+1}\right)$, if $x_{k+1}\le 0$, then $\ln\left(1+x_{k+1}\right)\le 0$, hence $x_k\le 0$, a contradiction.
 
-Therefore $x_{k+1}>0$. By **Definition 4.4.1** (Mathematical Induction), $x_n>0$ holds for all $n\in\mathbb N^*$.
+Therefore $x_{k+1}> 0$. By **Definition 4.4.1** (Mathematical Induction), $x_n> 0$ holds for all $n\in\mathbb N^*$.
 
-Also, $x_n-x_{n+1}=\ln\left(1+x_{n+1}\right)>0$, hence $x_n>x_{n+1}$, so the sequence is decreasing.
+Also, $x_n-x_{n+1}=\ln\left(1+x_{n+1}\right)> 0$, hence $x_n> x_{n+1}$, so the sequence is decreasing.
 
 $\blacksquare$
 

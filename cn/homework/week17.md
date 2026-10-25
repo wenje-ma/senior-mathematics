@@ -2,9 +2,9 @@
 
 > **定义 4.5.1** (函数的零点) <br>对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
 
-> **常用结论 4.5.2** (函数零点存在定理) <br>如果函数 $y=f\left(x\right)$ 在区间 $\left[a,b\right]$ 上的图象是一条连续不断的曲线, 且有 $f\left(a\right)f\left(b\right)<0$, 那么, 函数 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ 内至少有一个零点, 即存在 $c\in\left(a,b\right)$, 使得 $f\left(c\right)=0$, 这个 $c$ 也就是方程 $f\left(x\right)=0$ 的解.
+> **常用结论 4.5.2** (函数零点存在定理) <br>如果函数 $y=f\left(x\right)$ 在区间 $\left[a,b\right]$ 上的图象是一条连续不断的曲线, 且有 $f\left(a\right)f\left(b\right)< 0$, 那么, 函数 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ 内至少有一个零点, 即存在 $c\in\left(a,b\right)$, 使得 $f\left(c\right)=0$, 这个 $c$ 也就是方程 $f\left(x\right)=0$ 的解.
 
-> **定义 4.5.3** (二分法) <br>对于在区间 $\left[a,b\right]$ 上图象连续不断且 $f\left(a\right)f\left(b\right)<0$ 的函数 $y=f\left(x\right)$, 通过不断地把它的零点所在区间一分为二, 使所得区间的两个端点逐步逼近零点, 进而得到零点近似值的方法叫做二分法.
+> **定义 4.5.3** (二分法) <br>对于在区间 $\left[a,b\right]$ 上图象连续不断且 $f\left(a\right)f\left(b\right)< 0$ 的函数 $y=f\left(x\right)$, 通过不断地把它的零点所在区间一分为二, 使所得区间的两个端点逐步逼近零点, 进而得到零点近似值的方法叫做二分法.
 
 ### 练习一
 
@@ -14,7 +14,7 @@
 
 ### 解答 练习一
 
-由**常用结论 4.5.2** (函数零点存在定理), 图象连续且 $f\left(a\right)f\left(b\right)<0$ 只能保证区间内至少有一个零点, 不能保证只有一个.
+由**常用结论 4.5.2** (函数零点存在定理), 图象连续且 $f\left(a\right)f\left(b\right)< 0$ 只能保证区间内至少有一个零点, 不能保证只有一个.
 
 仅凭一个范围的图象不能得出函数在某个区间只有一个零点的判断. 因为图象可能在该区间内多次穿过 $x$ 轴, 也可能与 $x$ 轴相切, 还可能存在其他未显示的零点. 要判断零点个数, 还需结合函数的单调性或更广泛范围的图象. $\blacksquare$
 
@@ -30,19 +30,19 @@
 
 (4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
 
-图：共四幅小坐标图。(1) $f\left(x\right)=-x^3-3x+5$ 为一条三次曲线，在 $x=1$ 附近位于 $x$ 轴上方、$x=2$ 附近位于下方，零点在 $\left(1,2\right)$；(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ 定义域为 $x>2$，在 $x=3$ 附近位于 $x$ 轴下方、$x=4$ 附近位于上方，零点在 $\left(3,4\right)$；(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ 为一条单调上升曲线，在 $x=0$ 附近位于下方、$x=1$ 附近位于上方，零点在 $\left(0,1\right)$；(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ 为一条多次穿越 $x$ 轴的曲线，零点分别在 $\left(-4,-3\right)$、$\left(-3,-2\right)$、$\left(2,3\right)$ 三处。
+图：共四幅小坐标图。(1) $f\left(x\right)=-x^3-3x+5$ 为一条三次曲线，在 $x=1$ 附近位于 $x$ 轴上方、$x=2$ 附近位于下方，零点在 $\left(1,2\right)$；(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ 定义域为 $x> 2$，在 $x=3$ 附近位于 $x$ 轴下方、$x=4$ 附近位于上方，零点在 $\left(3,4\right)$；(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ 为一条单调上升曲线，在 $x=0$ 附近位于下方、$x=1$ 附近位于上方，零点在 $\left(0,1\right)$；(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ 为一条多次穿越 $x$ 轴的曲线，零点分别在 $\left(-4,-3\right)$、$\left(-3,-2\right)$、$\left(2,3\right)$ 三处。
 
 ### 解答 练习二
 
 由**常用结论 4.5.2** (函数零点存在定理), 找到端点函数值异号的区间即可.
 
-(1) $f\left(1\right)=1>0$, $f\left(2\right)=-8-6+5=-9<0$, 故零点在 $\left(1,2\right)$.
+(1) $f\left(1\right)=1> 0$, $f\left(2\right)=-8-6+5=-9< 0$, 故零点在 $\left(1,2\right)$.
 
-(2) 定义域为 $x>2$. $f\left(3\right)=6\ln 1-3=-3<0$, $f\left(4\right)=8\ln 2-3\approx 2.54>0$, 故零点在 $\left(3,4\right)$.
+(2) 定义域为 $x> 2$. $f\left(3\right)=6\ln 1-3=-3< 0$, $f\left(4\right)=8\ln 2-3\approx 2.54> 0$, 故零点在 $\left(3,4\right)$.
 
-(3) $f\left(0\right)=\mathrm e^{-1}-4<0$, $f\left(1\right)=1+4-4=1>0$, 故零点在 $\left(0,1\right)$.
+(3) $f\left(0\right)=\mathrm e^{-1}-4< 0$, $f\left(1\right)=1+4-4=1> 0$, 故零点在 $\left(0,1\right)$.
 
-(4) $f\left(-4\right)=-4<0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15>0$, 零点在 $\left(-4,-3\right)$; $f\left(-2\right)=-2<0$, 零点在 $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70<0$, $f\left(3\right)=3>0$, 零点在 $\left(2,3\right)$. $\blacksquare$
+(4) $f\left(-4\right)=-4< 0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15> 0$, 零点在 $\left(-4,-3\right)$; $f\left(-2\right)=-2< 0$, 零点在 $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70< 0$, $f\left(3\right)=3> 0$, 零点在 $\left(2,3\right)$. $\blacksquare$
 
 ### 练习三
 
@@ -52,7 +52,7 @@
 
 由**定义 4.5.3** (二分法).
 
-$f\left(0\right)=-1.4<0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6>0$. 取中点 $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55<0$, 零点在 $\left(0.5,1\right)$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.316>0$, 零点在 $\left(0.5,0.75\right)$. 取中点 $0.625$, $f\left(0.625\right)\approx -0.163<0$, 零点在 $\left(0.625,0.75\right)$. 此时 $\lvert 0.75-0.625\rvert=0.125>0.1$. 取中点 $0.6875$, $f\left(0.6875\right)\approx 0.064>0$, 零点在 $\left(0.625,0.6875\right)$. 此时 $\lvert 0.6875-0.625\rvert=0.0625<0.1$. 故零点近似值可取 $0.625$. $\blacksquare$
+$f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55< 0$, 零点在 $\left(0.5,1\right)$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.316> 0$, 零点在 $\left(0.5,0.75\right)$. 取中点 $0.625$, $f\left(0.625\right)\approx -0.163< 0$, 零点在 $\left(0.625,0.75\right)$. 此时 $\lvert 0.75-0.625\rvert=0.125> 0.1$. 取中点 $0.6875$, $f\left(0.6875\right)\approx 0.064> 0$, 零点在 $\left(0.625,0.6875\right)$. 此时 $\lvert 0.6875-0.625\rvert=0.0625< 0.1$. 故零点近似值可取 $0.625$. $\blacksquare$
 
 ### 练习四
 
@@ -62,7 +62,7 @@ $f\left(0\right)=-1.4<0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6>0$. 取中点 $0.5$
 
 由**定义 4.5.3** (二分法).
 
-原方程即 $x+\lg x-3=0$. 令 $f\left(x\right)=x+\lg x-3$. $f\left(2\right)=2+\lg 2-3\approx -0.699<0$, $f\left(3\right)=\lg 3\approx 0.477>0$. 取中点 $2.5$, $f\left(2.5\right)\approx -0.102<0$, 零点在 $\left(2.5,3\right)$. 取中点 $2.75$, $f\left(2.75\right)\approx 0.189>0$, 零点在 $\left(2.5,2.75\right)$. 取中点 $2.625$, $f\left(2.625\right)\approx 0.045>0$, 零点在 $\left(2.5,2.625\right)$. 此时 $\lvert 2.625-2.5\rvert=0.125>0.1$. 取中点 $2.5625$, $f\left(2.5625\right)\approx -0.029<0$, 零点在 $\left(2.5625,2.625\right)$. 此时 $\lvert 2.625-2.5625\rvert=0.0625<0.1$. 故方程近似解可取 $2.5625$. $\blacksquare$
+原方程即 $x+\lg x-3=0$. 令 $f\left(x\right)=x+\lg x-3$. $f\left(2\right)=2+\lg 2-3\approx -0.699< 0$, $f\left(3\right)=\lg 3\approx 0.477> 0$. 取中点 $2.5$, $f\left(2.5\right)\approx -0.102< 0$, 零点在 $\left(2.5,3\right)$. 取中点 $2.75$, $f\left(2.75\right)\approx 0.189> 0$, 零点在 $\left(2.5,2.75\right)$. 取中点 $2.625$, $f\left(2.625\right)\approx 0.045> 0$, 零点在 $\left(2.5,2.625\right)$. 此时 $\lvert 2.625-2.5\rvert=0.125> 0.1$. 取中点 $2.5625$, $f\left(2.5625\right)\approx -0.029< 0$, 零点在 $\left(2.5625,2.625\right)$. 此时 $\lvert 2.625-2.5625\rvert=0.0625< 0.1$. 故方程近似解可取 $2.5625$. $\blacksquare$
 
 ### 练习五
 
@@ -136,9 +136,9 @@ $f\left(0\right)=-1.4<0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6>0$. 取中点 $0.5$
 
 ### 解答 习题一
 
-由**定义 4.5.3** (二分法), 二分法要求 $f\left(a\right)f\left(b\right)<0$, 即图象穿过 $x$ 轴.
+由**定义 4.5.3** (二分法), 二分法要求 $f\left(a\right)f\left(b\right)< 0$, 即图象穿过 $x$ 轴.
 
-图 ① 中图象与 $x$ 轴相切 (不穿过), 图 ③ 中图象多次与 $x$ 轴相切 (接触但不穿过), 均不满足 $f\left(a\right)f\left(b\right)<0$, 不能用二分法. 图 ② 和图 ④ 中图象穿过 $x$ 轴, 可以用二分法. 故不能用二分法求零点的是 ①③. $\blacksquare$
+图 ① 中图象与 $x$ 轴相切 (不穿过), 图 ③ 中图象多次与 $x$ 轴相切 (接触但不穿过), 均不满足 $f\left(a\right)f\left(b\right)< 0$, 不能用二分法. 图 ② 和图 ④ 中图象穿过 $x$ 轴, 可以用二分法. 故不能用二分法求零点的是 ①③. $\blacksquare$
 
 ### 习题二
 
@@ -148,7 +148,7 @@ $f\left(0\right)=-1.4<0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6>0$. 取中点 $0.5$
 
 由**常用结论 4.5.2** (函数零点存在定理).
 
-$f\left(2\right)=15.552>0$, $f\left(3\right)=-3.92<0$, $f\left(2\right)f\left(3\right)<0$, 故 $\left(2,3\right)$ 内一定有零点; $f\left(3\right)<0$, $f\left(4\right)=10.88>0$, $f\left(3\right)f\left(4\right)<0$, 故 $\left(3,4\right)$ 内一定有零点; $f\left(4\right)>0$, $f\left(5\right)=-52.488<0$, $f\left(4\right)f\left(5\right)<0$, 故 $\left(4,5\right)$ 内一定有零点. $\blacksquare$
+$f\left(2\right)=15.552> 0$, $f\left(3\right)=-3.92< 0$, $f\left(2\right)f\left(3\right)< 0$, 故 $\left(2,3\right)$ 内一定有零点; $f\left(3\right)< 0$, $f\left(4\right)=10.88> 0$, $f\left(3\right)f\left(4\right)< 0$, 故 $\left(3,4\right)$ 内一定有零点; $f\left(4\right)> 0$, $f\left(5\right)=-52.488< 0$, $f\left(4\right)f\left(5\right)< 0$, 故 $\left(4,5\right)$ 内一定有零点. $\blacksquare$
 
 ### 习题三
 
@@ -158,7 +158,7 @@ $f\left(2\right)=15.552>0$, $f\left(3\right)=-3.92<0$, $f\left(2\right)f\left(3\
 
 由**常用结论 4.5.2** (函数零点存在定理).
 
-令 $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1>0$, $g\left(1\right)=1-3+1=-1<0$, $g\left(0\right)g\left(1\right)<0$, 故 $g\left(x\right)$ 在 $\left(0,1\right)$ 内至少有一个零点; $g\left(1\right)<0$, $g\left(2\right)=8-6+1=3>0$, $g\left(1\right)g\left(2\right)<0$, 故 $g\left(x\right)$ 在 $\left(1,2\right)$ 内至少有一个零点. 因此方程 $f\left(x\right)=x$ 在 $\left(-1,2\right)$ 内至少有两个实数解. $\blacksquare$
+令 $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1> 0$, $g\left(1\right)=1-3+1=-1< 0$, $g\left(0\right)g\left(1\right)< 0$, 故 $g\left(x\right)$ 在 $\left(0,1\right)$ 内至少有一个零点; $g\left(1\right)< 0$, $g\left(2\right)=8-6+1=3> 0$, $g\left(1\right)g\left(2\right)< 0$, 故 $g\left(x\right)$ 在 $\left(1,2\right)$ 内至少有一个零点. 因此方程 $f\left(x\right)=x$ 在 $\left(-1,2\right)$ 内至少有两个实数解. $\blacksquare$
 
 ### 习题四
 
@@ -168,7 +168,7 @@ $f\left(2\right)=15.552>0$, $f\left(3\right)=-3.92<0$, $f\left(2\right)f\left(3\
 
 由**定义 4.5.3** (二分法).
 
-$f\left(2\right)=\ln 2-1\approx -0.307<0$, $f\left(3\right)=\ln 3-\frac{2}{3}\approx 0.432>0$. 取中点 $2.5$, $f\left(2.5\right)\approx 0.116>0$, 零点在 $\left(2,2.5\right)$. 取中点 $2.25$, $f\left(2.25\right)\approx -0.078<0$, 零点在 $\left(2.25,2.5\right)$. 取中点 $2.375$, $f\left(2.375\right)\approx 0.023>0$, 零点在 $\left(2.25,2.375\right)$. 此时 $\lvert 2.375-2.25\rvert=0.125>0.1$. 取中点 $2.3125$, $f\left(2.3125\right)\approx -0.027<0$, 零点在 $\left(2.3125,2.375\right)$. 此时 $\lvert 2.375-2.3125\rvert=0.0625<0.1$. 故零点近似值可取 $2.3125$. $\blacksquare$
+$f\left(2\right)=\ln 2-1\approx -0.307< 0$, $f\left(3\right)=\ln 3-\frac{2}{3}\approx 0.432> 0$. 取中点 $2.5$, $f\left(2.5\right)\approx 0.116> 0$, 零点在 $\left(2,2.5\right)$. 取中点 $2.25$, $f\left(2.25\right)\approx -0.078< 0$, 零点在 $\left(2.25,2.5\right)$. 取中点 $2.375$, $f\left(2.375\right)\approx 0.023> 0$, 零点在 $\left(2.25,2.375\right)$. 此时 $\lvert 2.375-2.25\rvert=0.125> 0.1$. 取中点 $2.3125$, $f\left(2.3125\right)\approx -0.027< 0$, 零点在 $\left(2.3125,2.375\right)$. 此时 $\lvert 2.375-2.3125\rvert=0.0625< 0.1$. 故零点近似值可取 $2.3125$. $\blacksquare$
 
 ### 习题五
 
@@ -178,7 +178,7 @@ $f\left(2\right)=\ln 2-1\approx -0.307<0$, $f\left(3\right)=\ln 3-\frac{2}{3}\ap
 
 由**定义 4.5.3** (二分法).
 
-令 $f\left(x\right)=0.8^x-1-\ln x$. $f\left(0.5\right)=0.8^{0.5}-1-\ln 0.5\approx 0.587>0$, $f\left(1\right)=0.8-1-0=-0.2<0$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.134>0$, 零点在 $\left(0.75,1\right)$. 取中点 $0.875$, $f\left(0.875\right)\approx -0.045<0$, 零点在 $\left(0.75,0.875\right)$. 取中点 $0.8125$, $f\left(0.8125\right)\approx 0.042>0$, 零点在 $\left(0.8125,0.875\right)$. 此时 $\lvert 0.875-0.8125\rvert=0.0625<0.1$. 故方程近似解可取 $0.8125$. $\blacksquare$
+令 $f\left(x\right)=0.8^x-1-\ln x$. $f\left(0.5\right)=0.8^{0.5}-1-\ln 0.5\approx 0.587> 0$, $f\left(1\right)=0.8-1-0=-0.2< 0$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.134> 0$, 零点在 $\left(0.75,1\right)$. 取中点 $0.875$, $f\left(0.875\right)\approx -0.045< 0$, 零点在 $\left(0.75,0.875\right)$. 取中点 $0.8125$, $f\left(0.8125\right)\approx 0.042> 0$, 零点在 $\left(0.8125,0.875\right)$. 此时 $\lvert 0.875-0.8125\rvert=0.0625< 0.1$. 故方程近似解可取 $0.8125$. $\blacksquare$
 
 ### 习题六
 
@@ -192,13 +192,13 @@ $64\;\mathrm{MB}=64\times 1024=65536\;\mathrm{KB}$. 设复制 $n$ 次后达到 $
 
 ### 习题七
 
-(习题 4.5 综合运用第 7 题) 设函数 $f\left(x\right)=ax^2+bx+c$ ($a>0$, $b,c\in\mathbb R$), 且 $f\left(1\right)=-\frac{a}{2}$, 求证: 函数 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点.
+(习题 4.5 综合运用第 7 题) 设函数 $f\left(x\right)=ax^2+bx+c$ ($a> 0$, $b,c\in\mathbb R$), 且 $f\left(1\right)=-\frac{a}{2}$, 求证: 函数 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点.
 
 ### 解答 习题七
 
 由**常用结论 4.5.2** (函数零点存在定理).
 
-$f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a>0$. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 异号, 则由零点存在定理, $\left(0,2\right)$ 内有零点. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 同号, 因 $f\left(0\right)+f\left(2\right)>0$, 故二者均为正. 又 $f\left(1\right)=-\frac{a}{2}<0$, 故 $f\left(0\right)f\left(1\right)<0$ 或 $f\left(1\right)f\left(2\right)<0$, 即零点在 $\left(0,1\right)$ 或 $\left(1,2\right)$ 内. 因此 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点. $\blacksquare$
+$f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a> 0$. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 异号, 则由零点存在定理, $\left(0,2\right)$ 内有零点. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 同号, 因 $f\left(0\right)+f\left(2\right)> 0$, 故二者均为正. 又 $f\left(1\right)=-\frac{a}{2}< 0$, 故 $f\left(0\right)f\left(1\right)< 0$ 或 $f\left(1\right)f\left(2\right)< 0$, 即零点在 $\left(0,1\right)$ 或 $\left(1,2\right)$ 内. 因此 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点. $\blacksquare$
 
 ### 习题八
 
@@ -220,7 +220,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 (2) 图象为开口向下的"波浪形"曲线, 与 $x$ 轴有四个交点.
 
-(3) 令 $g\left(x\right)=0$, 即 $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. 由 $x^2+3x+2=\sqrt{2}$ 得 $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ 或 $-2.71$. 由 $x^2+3x+2=-\sqrt{2}$ 得 $\Delta=1-4\sqrt{2}<0$, 无实根. 故零点约为 $-0.3$ 和 $-2.7$. $\blacksquare$
+(3) 令 $g\left(x\right)=0$, 即 $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. 由 $x^2+3x+2=\sqrt{2}$ 得 $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ 或 $-2.71$. 由 $x^2+3x+2=-\sqrt{2}$ 得 $\Delta=1-4\sqrt{2}< 0$, 无实根. 故零点约为 $-0.3$ 和 $-2.7$. $\blacksquare$
 
 ### 习题九
 
@@ -244,7 +244,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.3.4** (对数运算性质).
 
-由 $a^0=1$, $a^1=2$ 得 $a=2$, $y=2^t$. (1) 每月增长为 $2^{t+1}/2^t=2$, 即增长率为 $1$, 正确. (2) $t=5$ 时 $y=2^5=32>30$, 正确. (3) 每月增加面积为 $2^{t+1}-2^t=2^t$, 随 $t$ 增大, 不正确. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, 正确. 故选 (C). $\blacksquare$
+由 $a^0=1$, $a^1=2$ 得 $a=2$, $y=2^t$. (1) 每月增长为 $2^{t+1}/2^t=2$, 即增长率为 $1$, 正确. (2) $t=5$ 时 $y=2^5=32> 30$, 正确. (3) 每月增加面积为 $2^{t+1}-2^t=2^t$, 随 $t$ 增大, 不正确. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, 正确. 故选 (C). $\blacksquare$
 
 ### 习题十
 
@@ -286,17 +286,17 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 (1) 体重随身高增长加速, 近似幂函数 $y=ax^b$. 取 $\left(60,6.13\right)$ 和 $\left(170,55.05\right)$, 相除得 $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, 解得 $b\approx 2.0$, $a\approx 0.0017$. 故 $y\approx 0.0017x^2$.
 
-(2) 当 $x=175$ 时, $y\approx 0.0017\times 175^2\approx 52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx 1.49>1.2$, 故该男生体重偏胖. $\blacksquare$
+(2) 当 $x=175$ 时, $y\approx 0.0017\times 175^2\approx 52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx 1.49> 1.2$, 故该男生体重偏胖. $\blacksquare$
 
 ### 习题十三
 
-(习题 4.5 拓广探索第 13 题) 有一道题 "若函数 $f\left(x\right)=24ax^2+4x-1$ 在区间 $\left(-1,1\right)$ 内恰有一个零点, 求实数 $a$ 的取值范围", 某同学给出了如下解答: 由 $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)<0$, 解得 $-\frac{1}{8}<a<\frac{5}{24}$. 上述解答正确吗? 若不正确, 请说明理由, 并给出正确的解答.
+(习题 4.5 拓广探索第 13 题) 有一道题 "若函数 $f\left(x\right)=24ax^2+4x-1$ 在区间 $\left(-1,1\right)$ 内恰有一个零点, 求实数 $a$ 的取值范围", 某同学给出了如下解答: 由 $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)< 0$, 解得 $-\frac{1}{8}< a< \frac{5}{24}$. 上述解答正确吗? 若不正确, 请说明理由, 并给出正确的解答.
 
 ### 解答 习题十三
 
 由**常用结论 4.5.2** (函数零点存在定理) 与**定义 4.5.1** (函数的零点).
 
-上述解答不正确. 当 $a=0$ 时, $f\left(x\right)=4x-1$, 零点 $x=\frac{1}{4}\in\left(-1,1\right)$, 恰有一个零点, 已包含在 $-\frac{1}{8}<a<\frac{5}{24}$ 内. 但还需考虑判别式为零的情况: $\Delta=16+96a=0$ 时 $a=-\frac{1}{6}$, 此时零点 $x=\frac{1}{2}\in\left(-1,1\right)$, 为二重根, 也恰有一个零点, 但 $a=-\frac{1}{6}<-\frac{1}{8}$, 不在原范围内. 此外, $a=-\frac{1}{8}$ 时 $f\left(1\right)=0$, 零点 $x=1$ 不在开区间 $\left(-1,1\right)$ 内; $a=\frac{5}{24}$ 时 $f\left(-1\right)=0$, 零点 $x=-1$ 不在开区间 $\left(-1,1\right)$ 内. 故正确范围为 $a=-\frac{1}{6}$ 或 $-\frac{1}{8}<a<\frac{5}{24}$. $\blacksquare$
+上述解答不正确. 当 $a=0$ 时, $f\left(x\right)=4x-1$, 零点 $x=\frac{1}{4}\in\left(-1,1\right)$, 恰有一个零点, 已包含在 $-\frac{1}{8}< a< \frac{5}{24}$ 内. 但还需考虑判别式为零的情况: $\Delta=16+96a=0$ 时 $a=-\frac{1}{6}$, 此时零点 $x=\frac{1}{2}\in\left(-1,1\right)$, 为二重根, 也恰有一个零点, 但 $a=-\frac{1}{6}< -\frac{1}{8}$, 不在原范围内. 此外, $a=-\frac{1}{8}$ 时 $f\left(1\right)=0$, 零点 $x=1$ 不在开区间 $\left(-1,1\right)$ 内; $a=\frac{5}{24}$ 时 $f\left(-1\right)=0$, 零点 $x=-1$ 不在开区间 $\left(-1,1\right)$ 内. 故正确范围为 $a=-\frac{1}{6}$ 或 $-\frac{1}{8}< a< \frac{5}{24}$. $\blacksquare$
 
 ### 习题十四
 

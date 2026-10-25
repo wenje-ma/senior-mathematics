@@ -106,15 +106,15 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 ### Solution to Exercise 6
 
-By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant), an interior angle of a triangle satisfies $0<\alpha<\pi$.
+By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant), an interior angle of a triangle satisfies $0< \alpha< \pi$.
 
-(1) From $0<\alpha<\pi$, the terminal side of $\alpha$ lies in the first or second quadrant; by **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant), $\sin\alpha>0$, so it cannot be negative.
+(1) From $0< \alpha< \pi$, the terminal side of $\alpha$ lies in the first or second quadrant; by **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant), $\sin\alpha> 0$, so it cannot be negative.
 
-(2) When $\frac{\pi}{2}<\alpha<\pi$, $\alpha$ is a second-quadrant angle, so $\cos\alpha<0$; hence $\cos\alpha$ can be negative.
+(2) When $\frac{\pi}{2}< \alpha< \pi$, $\alpha$ is a second-quadrant angle, so $\cos\alpha< 0$; hence $\cos\alpha$ can be negative.
 
-(3) When $\frac{\pi}{2}<\alpha<\pi$, $\alpha$ is a second-quadrant angle, so $\tan\alpha<0$; hence $\tan\alpha$ can be negative.
+(3) When $\frac{\pi}{2}< \alpha< \pi$, $\alpha$ is a second-quadrant angle, so $\tan\alpha< 0$; hence $\tan\alpha$ can be negative.
 
-(4) From $0<\alpha<\pi$, we have $0<\frac{\alpha}{2}<\frac{\pi}{2}$, so $\frac{\alpha}{2}$ is a first-quadrant angle and $\tan\frac{\alpha}{2}>0$, which cannot be negative.
+(4) From $0< \alpha< \pi$, we have $0< \frac{\alpha}{2}< \frac{\pi}{2}$, so $\frac{\alpha}{2}$ is a first-quadrant angle and $\tan\frac{\alpha}{2}> 0$, which cannot be negative.
 
 In summary, $\cos\alpha$ and $\tan\alpha$ can be negative. $\blacksquare$
 
@@ -138,21 +138,21 @@ In summary, $\cos\alpha$ and $\tan\alpha$ can be negative. $\blacksquare$
 
 By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) and **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side).
 
-(1) Since $156^{\circ}$ is a second-quadrant angle, $\sin156^{\circ}>0$.
+(1) Since $156^{\circ}$ is a second-quadrant angle, $\sin156^{\circ}> 0$.
 
-(2) Since $\frac{16\pi}{5}=2\pi+\frac{6\pi}{5}$ and $\frac{6\pi}{5}$ is a third-quadrant angle, $\cos\frac{16\pi}{5}<0$.
+(2) Since $\frac{16\pi}{5}=2\pi+\frac{6\pi}{5}$ and $\frac{6\pi}{5}$ is a third-quadrant angle, $\cos\frac{16\pi}{5}< 0$.
 
 (3) Since $-450^{\circ}=-360^{\circ}-90^{\circ}$, the terminal side lies on the negative half of the $y$-axis, so $\cos\left(-450^{\circ}\right)=0$.
 
-(4) Since $-\frac{17\pi}{8}=-2\pi-\frac{\pi}{8}$ and $-\frac{\pi}{8}$ is a fourth-quadrant angle, $\tan\left(-\frac{17\pi}{8}\right)<0$.
+(4) Since $-\frac{17\pi}{8}=-2\pi-\frac{\pi}{8}$ and $-\frac{\pi}{8}$ is a fourth-quadrant angle, $\tan\left(-\frac{17\pi}{8}\right)< 0$.
 
-(5) Since $-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$ and $\frac{2\pi}{3}$ is a second-quadrant angle, $\sin\left(-\frac{4\pi}{3}\right)>0$.
+(5) Since $-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$ and $\frac{2\pi}{3}$ is a second-quadrant angle, $\sin\left(-\frac{4\pi}{3}\right)> 0$.
 
-(6) Since $556^{\circ}=360^{\circ}+196^{\circ}$ and $196^{\circ}$ is a third-quadrant angle, $\tan556^{\circ}>0$. $\blacksquare$
+(6) Since $556^{\circ}=360^{\circ}+196^{\circ}$ and $196^{\circ}$ is a third-quadrant angle, $\tan556^{\circ}> 0$. $\blacksquare$
 
 ### Exercise 8
 
-(Exercise 5.2, Problem 8) Among ①$\sin\theta>0$, ②$\sin\theta<0$, ③$\cos\theta>0$, ④$\cos\theta<0$, ⑤$\tan\theta>0$ and ⑥$\tan\theta<0$, choose the appropriate number to fill in the blank:
+(Exercise 5.2, Problem 8) Among ①$\sin\theta> 0$, ②$\sin\theta< 0$, ③$\cos\theta> 0$, ④$\cos\theta< 0$, ⑤$\tan\theta> 0$ and ⑥$\tan\theta< 0$, choose the appropriate number to fill in the blank:
 
 (1) The necessary and sufficient condition for $\theta$ to be a first-quadrant angle is $\;\_\_\;$;
 
@@ -166,13 +166,13 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) and
 
 By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
-(1) First-quadrant angle: $\sin\theta>0$ and $\cos\theta>0$, and $\tan\theta>0$. The necessary and sufficient condition is ①③⑤.
+(1) First-quadrant angle: $\sin\theta> 0$ and $\cos\theta> 0$, and $\tan\theta> 0$. The necessary and sufficient condition is ①③⑤.
 
-(2) Second-quadrant angle: $\sin\theta>0$ and $\cos\theta<0$, and $\tan\theta<0$. The necessary and sufficient condition is ①④⑥.
+(2) Second-quadrant angle: $\sin\theta> 0$ and $\cos\theta< 0$, and $\tan\theta< 0$. The necessary and sufficient condition is ①④⑥.
 
-(3) Third-quadrant angle: $\sin\theta<0$ and $\cos\theta<0$, and $\tan\theta>0$. The necessary and sufficient condition is ②④⑤.
+(3) Third-quadrant angle: $\sin\theta< 0$ and $\cos\theta< 0$, and $\tan\theta> 0$. The necessary and sufficient condition is ②④⑤.
 
-(4) Fourth-quadrant angle: $\sin\theta<0$ and $\cos\theta>0$, and $\tan\theta<0$. The necessary and sufficient condition is ②③⑥. $\blacksquare$
+(4) Fourth-quadrant angle: $\sin\theta< 0$ and $\cos\theta> 0$, and $\tan\theta< 0$. The necessary and sufficient condition is ②③⑥. $\blacksquare$
 
 ### Exercise 9
 
@@ -206,7 +206,7 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-From $\cos\alpha=-\frac{4}{5}$, we get $\sin^{2}\alpha=1-\cos^{2}\alpha=1-\frac{16}{25}=\frac{9}{25}$. Since $\alpha$ is a third-quadrant angle, by **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant), $\sin\alpha<0$, so
+From $\cos\alpha=-\frac{4}{5}$, we get $\sin^{2}\alpha=1-\cos^{2}\alpha=1-\frac{16}{25}=\frac{9}{25}$. Since $\alpha$ is a third-quadrant angle, by **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant), $\sin\alpha< 0$, so
 
 $$
 \sin\alpha=-\frac{3}{5},\quad \tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{-\frac{3}{5}}{-\frac{4}{5}}=\frac{3}{4}.
@@ -224,9 +224,9 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 From $\tan\varphi=-\sqrt{3}$, $\varphi$ is a second- or fourth-quadrant angle.
 
-(1) If $\varphi$ is a second-quadrant angle, then $\sin\varphi>0$ and $\cos\varphi<0$. Substituting $\sin\varphi=-\sqrt{3}\cos\varphi$ into $\sin^{2}\varphi+\cos^{2}\varphi=1$ gives $3\cos^{2}\varphi+\cos^{2}\varphi=1$, i.e. $\cos^{2}\varphi=\frac{1}{4}$, so $\cos\varphi=-\frac{1}{2}$ and $\sin\varphi=\frac{\sqrt{3}}{2}$.
+(1) If $\varphi$ is a second-quadrant angle, then $\sin\varphi> 0$ and $\cos\varphi< 0$. Substituting $\sin\varphi=-\sqrt{3}\cos\varphi$ into $\sin^{2}\varphi+\cos^{2}\varphi=1$ gives $3\cos^{2}\varphi+\cos^{2}\varphi=1$, i.e. $\cos^{2}\varphi=\frac{1}{4}$, so $\cos\varphi=-\frac{1}{2}$ and $\sin\varphi=\frac{\sqrt{3}}{2}$.
 
-(2) If $\varphi$ is a fourth-quadrant angle, then $\sin\varphi<0$ and $\cos\varphi>0$; by the same argument, $\cos\varphi=\frac{1}{2}$ and $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
+(2) If $\varphi$ is a fourth-quadrant angle, then $\sin\varphi< 0$ and $\cos\varphi> 0$; by the same argument, $\cos\varphi=\frac{1}{2}$ and $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
 ### Exercise 12
 
@@ -320,9 +320,9 @@ By **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side)
 
 From $x=3a$ and $y=4a$, we get $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
 
-(1) When $a>0$, $r=5a$, so $\sin\alpha=\frac{4a}{5a}=\frac{4}{5}$, $\cos\alpha=\frac{3a}{5a}=\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$.
+(1) When $a> 0$, $r=5a$, so $\sin\alpha=\frac{4a}{5a}=\frac{4}{5}$, $\cos\alpha=\frac{3a}{5a}=\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$.
 
-(2) When $a<0$, $r=-5a$, so $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
+(2) When $a< 0$, $r=-5a$, so $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
 
 ### Problem 3
 
@@ -410,17 +410,17 @@ Use **Definition 5.2.1** (Sine, Cosine and Tangent Functions) to find the trigon
 
 By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) and **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side).
 
-(1) $186^{\circ}$ is a third-quadrant angle, so $\sin186^{\circ}<0$.
+(1) $186^{\circ}$ is a third-quadrant angle, so $\sin186^{\circ}< 0$.
 
-(2) $505^{\circ}=360^{\circ}+145^{\circ}$, and $145^{\circ}$ is a second-quadrant angle, so $\tan505^{\circ}<0$.
+(2) $505^{\circ}=360^{\circ}+145^{\circ}$, and $145^{\circ}$ is a second-quadrant angle, so $\tan505^{\circ}< 0$.
 
-(3) $7.6\pi=6\pi+1.6\pi$, and $1.6\pi$, i.e. $288^{\circ}$, is a fourth-quadrant angle, so $\sin7.6\pi<0$.
+(3) $7.6\pi=6\pi+1.6\pi$, and $1.6\pi$, i.e. $288^{\circ}$, is a fourth-quadrant angle, so $\sin7.6\pi< 0$.
 
-(4) $-\frac{23\pi}{4}=-6\pi+\frac{\pi}{4}$, and $\frac{\pi}{4}$ is a first-quadrant angle, so $\tan\left(-\frac{23\pi}{4}\right)>0$.
+(4) $-\frac{23\pi}{4}=-6\pi+\frac{\pi}{4}$, and $\frac{\pi}{4}$ is a first-quadrant angle, so $\tan\left(-\frac{23\pi}{4}\right)> 0$.
 
-(5) $940^{\circ}=2\times360^{\circ}+220^{\circ}$, and $220^{\circ}$ is a third-quadrant angle, so $\cos940^{\circ}<0$.
+(5) $940^{\circ}=2\times360^{\circ}+220^{\circ}$, and $220^{\circ}$ is a third-quadrant angle, so $\cos940^{\circ}< 0$.
 
-(6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, and $\frac{9\pi}{17}$ is a second-quadrant angle, so $\cos\left(-\frac{59\pi}{17}\right)<0$. $\blacksquare$
+(6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, and $\frac{9\pi}{17}$ is a second-quadrant angle, so $\cos\left(-\frac{59\pi}{17}\right)< 0$. $\blacksquare$
 
 ### Problem 6
 
@@ -438,9 +438,9 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) and
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle) and **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
-(1) From $\sin^{2}\alpha+\cos^{2}\alpha=1$, we get $\cos^{2}\alpha=1-\frac{3}{4}=\frac{1}{4}$. Since $\alpha$ is a fourth-quadrant angle, $\cos\alpha>0$, so $\cos\alpha=\frac{1}{2}$ and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
+(1) From $\sin^{2}\alpha+\cos^{2}\alpha=1$, we get $\cos^{2}\alpha=1-\frac{3}{4}=\frac{1}{4}$. Since $\alpha$ is a fourth-quadrant angle, $\cos\alpha> 0$, so $\cos\alpha=\frac{1}{2}$ and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
 
-(2) From $\sin^{2}\alpha+\cos^{2}\alpha=1$, we get $\sin^{2}\alpha=1-\frac{25}{169}=\frac{144}{169}$. Since $\alpha$ is a second-quadrant angle, $\sin\alpha>0$, so $\sin\alpha=\frac{12}{13}$ and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\frac{12}{5}$.
+(2) From $\sin^{2}\alpha+\cos^{2}\alpha=1$, we get $\sin^{2}\alpha=1-\frac{25}{169}=\frac{144}{169}$. Since $\alpha$ is a second-quadrant angle, $\sin\alpha> 0$, so $\sin\alpha=\frac{12}{13}$ and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\frac{12}{5}$.
 
 (3) From $\tan\alpha=-\frac{3}{4}$, $\alpha$ is a second- or fourth-quadrant angle. Substituting $\sin\alpha=-\frac{3}{4}\cos\alpha$ into $\sin^{2}\alpha+\cos^{2}\alpha=1$ gives $\frac{9}{16}\cos^{2}\alpha+\cos^{2}\alpha=1$, i.e. $\cos^{2}\alpha=\frac{16}{25}$. If $\alpha$ is a second-quadrant angle, then $\cos\alpha=-\frac{4}{5}$ and $\sin\alpha=\frac{3}{5}$; if $\alpha$ is a fourth-quadrant angle, then $\cos\alpha=\frac{4}{5}$ and $\sin\alpha=-\frac{3}{5}$.
 
@@ -496,13 +496,13 @@ $\blacksquare$
 
 By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
-(1) $125^{\circ}$ is a second-quadrant angle, so $\tan125^{\circ}<0$; $273^{\circ}$ is a fourth-quadrant angle, so $\sin273^{\circ}<0$. Hence $\tan125^{\circ}\sin273^{\circ}>0$.
+(1) $125^{\circ}$ is a second-quadrant angle, so $\tan125^{\circ}< 0$; $273^{\circ}$ is a fourth-quadrant angle, so $\sin273^{\circ}< 0$. Hence $\tan125^{\circ}\sin273^{\circ}> 0$.
 
-(2) $108^{\circ}$ is a second-quadrant angle, so $\tan108^{\circ}<0$; $305^{\circ}$ is a fourth-quadrant angle, so $\cos305^{\circ}>0$. Hence $\frac{\tan108^{\circ}}{\cos305^{\circ}}<0$.
+(2) $108^{\circ}$ is a second-quadrant angle, so $\tan108^{\circ}< 0$; $305^{\circ}$ is a fourth-quadrant angle, so $\cos305^{\circ}> 0$. Hence $\frac{\tan108^{\circ}}{\cos305^{\circ}}< 0$.
 
-(3) $\frac{5\pi}{4}$ is a third-quadrant angle, so $\sin\frac{5\pi}{4}<0$; $\frac{4\pi}{5}$ is a second-quadrant angle, so $\cos\frac{4\pi}{5}<0$; $\frac{11\pi}{6}$ is a fourth-quadrant angle, so $\tan\frac{11\pi}{6}<0$. Three negative factors are multiplied, so the original expression $<0$.
+(3) $\frac{5\pi}{4}$ is a third-quadrant angle, so $\sin\frac{5\pi}{4}< 0$; $\frac{4\pi}{5}$ is a second-quadrant angle, so $\cos\frac{4\pi}{5}< 0$; $\frac{11\pi}{6}$ is a fourth-quadrant angle, so $\tan\frac{11\pi}{6}< 0$. Three negative factors are multiplied, so the original expression $< 0$.
 
-(4) $\frac{5\pi}{6}$ is a second-quadrant angle, so $\cos\frac{5\pi}{6}<0$; $\frac{11\pi}{6}$ is a fourth-quadrant angle, so $\tan\frac{11\pi}{6}<0$; $\frac{2\pi}{3}$ is a second-quadrant angle, so $\sin\frac{2\pi}{3}>0$. The numerator is positive and the denominator is positive, so the original expression $>0$. $\blacksquare$
+(4) $\frac{5\pi}{6}$ is a second-quadrant angle, so $\cos\frac{5\pi}{6}< 0$; $\frac{11\pi}{6}$ is a fourth-quadrant angle, so $\tan\frac{11\pi}{6}< 0$; $\frac{2\pi}{3}$ is a second-quadrant angle, so $\sin\frac{2\pi}{3}> 0$. The numerator is positive and the denominator is positive, so the original expression $> 0$. $\blacksquare$
 
 ### Problem 9
 
@@ -532,25 +532,25 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 (Exercise 5.2, Comprehensive Application, Problem 10) Prove:
 
-(1) The necessary and sufficient condition for $\theta$ to be a second- or third-quadrant angle is $\sin\theta\tan\theta<0$;
+(1) The necessary and sufficient condition for $\theta$ to be a second- or third-quadrant angle is $\sin\theta\tan\theta< 0$;
 
-(2) The necessary and sufficient condition for $\theta$ to be a third- or fourth-quadrant angle is $\cos\theta\tan\theta<0$;
+(2) The necessary and sufficient condition for $\theta$ to be a third- or fourth-quadrant angle is $\cos\theta\tan\theta< 0$;
 
-(3) The necessary and sufficient condition for $\theta$ to be a first- or fourth-quadrant angle is $\frac{\sin\theta}{\tan\theta}>0$;
+(3) The necessary and sufficient condition for $\theta$ to be a first- or fourth-quadrant angle is $\frac{\sin\theta}{\tan\theta}> 0$;
 
-(4) The necessary and sufficient condition for $\theta$ to be a first- or third-quadrant angle is $\sin\theta\cos\theta>0$.
+(4) The necessary and sufficient condition for $\theta$ to be a first- or third-quadrant angle is $\sin\theta\cos\theta> 0$.
 
 ### Solution to Problem 10
 
 By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
-(1) $\sin\theta\tan\theta<0$ is equivalent to $\sin\theta$ and $\tan\theta$ having opposite signs. Second quadrant: $\sin\theta>0$, $\tan\theta<0$, opposite signs; third quadrant: $\sin\theta<0$, $\tan\theta>0$, opposite signs. The other quadrants have like signs. Hence the necessary and sufficient condition holds.
+(1) $\sin\theta\tan\theta< 0$ is equivalent to $\sin\theta$ and $\tan\theta$ having opposite signs. Second quadrant: $\sin\theta> 0$, $\tan\theta< 0$, opposite signs; third quadrant: $\sin\theta< 0$, $\tan\theta> 0$, opposite signs. The other quadrants have like signs. Hence the necessary and sufficient condition holds.
 
-(2) $\cos\theta\tan\theta<0$ is equivalent to $\cos\theta$ and $\tan\theta$ having opposite signs. Third quadrant: $\cos\theta<0$, $\tan\theta>0$, opposite signs; fourth quadrant: $\cos\theta>0$, $\tan\theta<0$, opposite signs. The other quadrants have like signs. Hence the necessary and sufficient condition holds.
+(2) $\cos\theta\tan\theta< 0$ is equivalent to $\cos\theta$ and $\tan\theta$ having opposite signs. Third quadrant: $\cos\theta< 0$, $\tan\theta> 0$, opposite signs; fourth quadrant: $\cos\theta> 0$, $\tan\theta< 0$, opposite signs. The other quadrants have like signs. Hence the necessary and sufficient condition holds.
 
-(3) $\frac{\sin\theta}{\tan\theta}>0$ is equivalent to $\sin\theta$ and $\tan\theta$ having the same sign. First quadrant: $\sin\theta>0$, $\tan\theta>0$, same sign; fourth quadrant: $\sin\theta<0$, $\tan\theta<0$, same sign. The other quadrants have opposite signs. Hence the necessary and sufficient condition holds.
+(3) $\frac{\sin\theta}{\tan\theta}> 0$ is equivalent to $\sin\theta$ and $\tan\theta$ having the same sign. First quadrant: $\sin\theta> 0$, $\tan\theta> 0$, same sign; fourth quadrant: $\sin\theta< 0$, $\tan\theta< 0$, same sign. The other quadrants have opposite signs. Hence the necessary and sufficient condition holds.
 
-(4) $\sin\theta\cos\theta>0$ is equivalent to $\sin\theta$ and $\cos\theta$ having the same sign. First quadrant: both positive; third quadrant: both negative. The second and fourth quadrants have opposite signs. Hence the necessary and sufficient condition holds. $\blacksquare$
+(4) $\sin\theta\cos\theta> 0$ is equivalent to $\sin\theta$ and $\cos\theta$ having the same sign. First quadrant: both positive; third quadrant: both negative. The second and fourth quadrants have opposite signs. Hence the necessary and sufficient condition holds. $\blacksquare$
 
 ### Problem 11
 
@@ -560,21 +560,21 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}x+\cos^{2}x=1$.
 
-Since $\sin x=-\frac{1}{3}<0$, $x$ is a third- or fourth-quadrant angle. From $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, we get $\cos x=\pm\frac{2\sqrt{2}}{3}$.
+Since $\sin x=-\frac{1}{3}< 0$, $x$ is a third- or fourth-quadrant angle. From $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, we get $\cos x=\pm\frac{2\sqrt{2}}{3}$.
 
-(1) If $x$ is a third-quadrant angle, then $\cos x<0$, so $\cos x=-\frac{2\sqrt{2}}{3}$ and $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
+(1) If $x$ is a third-quadrant angle, then $\cos x< 0$, so $\cos x=-\frac{2\sqrt{2}}{3}$ and $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
 
-(2) If $x$ is a fourth-quadrant angle, then $\cos x>0$, so $\cos x=\frac{2\sqrt{2}}{3}$ and $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
+(2) If $x$ is a fourth-quadrant angle, then $\cos x> 0$, so $\cos x=\frac{2\sqrt{2}}{3}$ and $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
 
 ### Problem 12
 
-(Exercise 5.2, Comprehensive Application, Problem 12) Given $\tan\alpha=\sqrt{3}$ and $\pi<\alpha<\frac{3\pi}{2}$, find the value of $\cos\alpha-\sin\alpha$.
+(Exercise 5.2, Comprehensive Application, Problem 12) Given $\tan\alpha=\sqrt{3}$ and $\pi< \alpha< \frac{3\pi}{2}$, find the value of $\cos\alpha-\sin\alpha$.
 
 ### Solution to Problem 12
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$ and $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-Since $\pi<\alpha<\frac{3\pi}{2}$, $\alpha$ is a third-quadrant angle, so $\sin\alpha<0$ and $\cos\alpha<0$. From $\tan\alpha=\sqrt{3}$, we get $\sin\alpha=\sqrt{3}\cos\alpha$; substituting into $\sin^{2}\alpha+\cos^{2}\alpha=1$ gives $4\cos^{2}\alpha=1$, i.e. $\cos^{2}\alpha=\frac{1}{4}$, so $\cos\alpha=-\frac{1}{2}$ and $\sin\alpha=-\frac{\sqrt{3}}{2}$. Therefore
+Since $\pi< \alpha< \frac{3\pi}{2}$, $\alpha$ is a third-quadrant angle, so $\sin\alpha< 0$ and $\cos\alpha< 0$. From $\tan\alpha=\sqrt{3}$, we get $\sin\alpha=\sqrt{3}\cos\alpha$; substituting into $\sin^{2}\alpha+\cos^{2}\alpha=1$ gives $4\cos^{2}\alpha=1$, i.e. $\cos^{2}\alpha=\frac{1}{4}$, so $\cos\alpha=-\frac{1}{2}$ and $\sin\alpha=-\frac{\sqrt{3}}{2}$. Therefore
 
 $$
 \cos\alpha-\sin\alpha=-\frac{1}{2}-\left(-\frac{\sqrt{3}}{2}\right)=\frac{\sqrt{3}-1}{2}.
@@ -646,7 +646,7 @@ $\blacksquare$
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-Since $\alpha$ is a second-quadrant angle, $\cos\alpha<0$. Rationalizing the two expressions separately:
+Since $\alpha$ is a second-quadrant angle, $\cos\alpha< 0$. Rationalizing the two expressions separately:
 
 $$
 \sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{\left(1+\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},

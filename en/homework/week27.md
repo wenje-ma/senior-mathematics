@@ -1,32 +1,32 @@
 # Assignment 27
 
-> **Basic Fact 2.1.1** (Order Relations of Real Numbers) <br>If $a-b$ is a positive number, then $a>b$; if $a-b$ equals $0$, then $a=b$; if $a-b$ is a negative number, then $a<b$. The converse also holds, i.e. $a>b\Leftrightarrow a-b>0$.
+> **Basic Fact 2.1.1** (Order Relations of Real Numbers) <br>If $a-b$ is a positive number, then $a> b$; if $a-b$ equals $0$, then $a=b$; if $a-b$ is a negative number, then $a< b$. The converse also holds, i.e. $a> b\Leftrightarrow a-b> 0$.
 
 > **Common Conclusion 2.1.2** (Important Inequality) <br>$\forall a,b\in\mathbb R$, we have $a^2+b^2\ge 2ab$, with equality holding if and only if $a=b$.
 
-> **Property 2.1.3** (Symmetry) <br>$a>b\Leftrightarrow b<a$.
+> **Property 2.1.3** (Symmetry) <br>$a> b\Leftrightarrow b< a$.
 
-> **Property 2.1.4** (Transitivity) <br>$a>b$, $b>c\Rightarrow a>c$.
+> **Property 2.1.4** (Transitivity) <br>$a> b$, $b> c\Rightarrow a> c$.
 
-> **Property 2.1.5** (Additivity) <br>$a>b\Rightarrow a+c>b+c$.
+> **Property 2.1.5** (Additivity) <br>$a> b\Rightarrow a+c> b+c$.
 
-> **Property 2.1.6** (Multiplicativity) <br>$a>b$, $c>0\Rightarrow ac>bc$; $a>b$, $c<0\Rightarrow ac<bc$.
+> **Property 2.1.6** (Multiplicativity) <br>$a> b$, $c> 0\Rightarrow ac> bc$; $a> b$, $c< 0\Rightarrow ac< bc$.
 
-> **Property 2.1.7** (Adding Same-Direction Inequalities) <br>$a>b$, $c>d\Rightarrow a+c>b+d$.
+> **Property 2.1.7** (Adding Same-Direction Inequalities) <br>$a> b$, $c> d\Rightarrow a+c> b+d$.
 
-> **Property 2.1.8** (Multiplying Same-Direction Positive Inequalities) <br>$a>b>0$, $c>d>0\Rightarrow ac>bd$.
+> **Property 2.1.8** (Multiplying Same-Direction Positive Inequalities) <br>$a> b> 0$, $c> d> 0\Rightarrow ac> bd$.
 
-> **Property 2.1.9** (Powers) <br>$a>b>0\Rightarrow a^n>b^n$ ($n\in\mathbb N$, $n\ge2$).
+> **Property 2.1.9** (Powers) <br>$a> b> 0\Rightarrow a^n> b^n$ ($n\in\mathbb N$, $n\ge2$).
 
-> **Theorem 2.2.1** (Basic Inequality) <br>If $a>0$, $b>0$, then $\sqrt{ab}\le\frac{a+b}{2}$, with equality holding if and only if $a=b$.
+> **Theorem 2.2.1** (Basic Inequality) <br>If $a> 0$, $b> 0$, then $\sqrt{ab}\le\frac{a+b}{2}$, with equality holding if and only if $a=b$.
 
-> **Common Conclusion 2.2.2** (Fixed Product Minimizes Sum, Fixed Sum Maximizes Product) <br>$x,y>0$: when the product $xy=P$ is fixed, $x+y\ge2\sqrt P$; when the sum $x+y=S$ is fixed, $xy\le\frac{1}{4}S^2$.
+> **Common Conclusion 2.2.2** (Fixed Product Minimizes Sum, Fixed Sum Maximizes Product) <br>$x,y> 0$: when the product $xy=P$ is fixed, $x+y\ge2\sqrt P$; when the sum $x+y=S$ is fixed, $xy\le\frac{1}{4}S^2$.
 
-> **Definition 2.3.1** (Quadratic Inequality in One Variable) <br>An inequality containing only one unknown, with the highest degree of the unknown being $2$, has the general form $ax^2+bx+c>0$ or $<0$, $a\neq0$.
+> **Definition 2.3.1** (Quadratic Inequality in One Variable) <br>An inequality containing only one unknown, with the highest degree of the unknown being $2$, has the general form $ax^2+bx+c> 0$ or $< 0$, $a\neq0$.
 
 > **Definition 2.3.2** (Zeros of a Quadratic Function) <br>The real numbers $x$ that satisfy $ax^2+bx+c=0$.
 
-> **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable) <br>When $a>0$, $\Delta>0$: the solution set of $>0$ is $\left\{x\mid x<x_1$ or $x>x_2\right\}$, and of $<0$ is $\left\{x\mid x_1<x<x_2\right\}$; $\Delta=0$: the solution set of $>0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and of $<0$ is $\varnothing$; $\Delta<0$: the solution set of $>0$ is $\mathbb R$, and of $<0$ is $\varnothing$.
+> **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable) <br>When $a> 0$, $\Delta> 0$: the solution set of $> 0$ is $\left\{x\mid x< x_1$ or $x> x_2\right\}$, and of $< 0$ is $\left\{x\mid x_1< x< x_2\right\}$; $\Delta=0$: the solution set of $> 0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and of $< 0$ is $\varnothing$; $\Delta< 0$: the solution set of $> 0$ is $\mathbb R$, and of $< 0$ is $\varnothing$.
 
 ### Problem 1
 
@@ -36,37 +36,37 @@
 
 By **Basic Fact 2.1.1** (Order Relations of Real Numbers), the number of type $B$ tents is $x+5$; write each restriction as an inequality sentence by sentence.
 
-Choosing only type $A$: at $4$ per tent there are not enough, i.e. $4x<48$; at $5$ per tent one tent is not full, i.e. $5x>48$ and the rest are all full, $5\left(x-1\right)<48$.
+Choosing only type $A$: at $4$ per tent there are not enough, i.e. $4x< 48$; at $5$ per tent one tent is not full, i.e. $5x> 48$ and the rest are all full, $5\left(x-1\right)< 48$.
 
-Choosing only type $B$: at $3$ per tent there are not enough, i.e. $3\left(x+5\right)<48$; at $4$ per tent there are spares, i.e. $4\left(x+5\right)>48$.
+Choosing only type $B$: at $3$ per tent there are not enough, i.e. $3\left(x+5\right)< 48$; at $4$ per tent there are spares, i.e. $4\left(x+5\right)> 48$.
 
 Hence the required system of inequalities is
 
 $$
-\left\{\begin{array}{l}4x<48,\\5x>48,\\5\left(x-1\right)<48,\\3\left(x+5\right)<48,\\4\left(x+5\right)>48.\end{array}\right.
+\left\{\begin{array}{l}4x< 48,\\5x> 48,\\5\left(x-1\right)< 48,\\3\left(x+5\right)< 48,\\4\left(x+5\right)> 48.\end{array}\right.
 $$
 
 $\blacksquare$
 
 ### Problem 2
 
-(Review Reference Problem 2, Review and Consolidation, Problem 2) Fill in the blanks with the inequality sign "$>$" or "$<$".
+(Review Reference Problem 2, Review and Consolidation, Problem 2) Fill in the blanks with the inequality sign "$> $" or "$< $".
 
-(1) If $a>b$ and $\frac{1}{a}>\frac{1}{b}$, then $ab\;\_\_\;0$;
+(1) If $a> b$ and $\frac{1}{a}> \frac{1}{b}$, then $ab\;\_\_\;0$;
 
-(2) If $c>a>b>0$, then $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
+(2) If $c> a> b> 0$, then $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
 
-(3) If $a>b>c>0$, then $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
+(3) If $a> b> c> 0$, then $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
 
 ### Solution to Problem 2
 
 By **Basic Fact 2.1.1** (Order Relations of Real Numbers), compare by taking the difference.
 
-(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}>0$. Since $a>b$ gives $b-a<0$, we must have $ab<0$ for the quotient to be positive. Hence fill in $<$.
+(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}> 0$. Since $a> b$ gives $b-a< 0$, we must have $ab< 0$ for the quotient to be positive. Hence fill in $< $.
 
-(2) Taking the difference: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. From $c>a>b>0$, the numerator $c\left(a-b\right)>0$ and the denominator $\left(c-a\right)\left(c-b\right)>0$, hence the difference is positive; fill in $>$.
+(2) Taking the difference: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. From $c> a> b> 0$, the numerator $c\left(a-b\right)> 0$ and the denominator $\left(c-a\right)\left(c-b\right)> 0$, hence the difference is positive; fill in $> $.
 
-(3) Taking the difference: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}>0$, hence fill in $>$. $\blacksquare$
+(3) Taking the difference: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}> 0$, hence fill in $> $. $\blacksquare$
 
 ### Problem 3
 
@@ -92,9 +92,9 @@ By **Common Conclusion 2.2.2** (Fixed Product Minimizes Sum, Fixed Sum Maximizes
 
 (2) $x^2-14x+45\le0$;
 
-(3) $x^2+6x+10>0$;
+(3) $x^2+6x+10> 0$;
 
-(4) $x\left(x+2\right)>x\left(3-x\right)+1$.
+(4) $x\left(x+2\right)> x\left(3-x\right)+1$.
 
 ### Solution to Problem 4
 
@@ -104,39 +104,39 @@ By **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Va
 
 (2) $\left(x-5\right)\left(x-9\right)\le0$, roots $x=5,9$, hence the solution set is $\left\{x\mid5\le x\le9\right\}$.
 
-(3) $\Delta=36-40=-4<0$, opening upward, hence the solution set is $\mathbb R$.
+(3) $\Delta=36-40=-4< 0$, opening upward, hence the solution set is $\mathbb R$.
 
-(4) Expanding and rearranging gives $2x^2-x-1>0$, i.e. $\left(2x+1\right)\left(x-1\right)>0$, roots $x=-\frac{1}{2},1$, hence the solution set is $\left\{x\mid x<-\frac{1}{2}$ or $x>1\right\}$. $\blacksquare$
+(4) Expanding and rearranging gives $2x^2-x-1> 0$, i.e. $\left(2x+1\right)\left(x-1\right)> 0$, roots $x=-\frac{1}{2},1$, hence the solution set is $\left\{x\mid x< -\frac{1}{2}$ or $x> 1\right\}$. $\blacksquare$
 
 ### Problem 5
 
-(Review Reference Problem 2, Comprehensive Application, Problem 5) If $a,b>0$ and $ab=a+b+3$, find the range of $ab$.
+(Review Reference Problem 2, Comprehensive Application, Problem 5) If $a,b> 0$ and $ab=a+b+3$, find the range of $ab$.
 
 ### Solution to Problem 5
 
 By **Theorem 2.2.1** (Basic Inequality), $a+b\ge2\sqrt{ab}$.
 
-From $ab=a+b+3$, we get $ab\ge2\sqrt{ab}+3$. Let $t=\sqrt{ab}>0$, then
+From $ab=a+b+3$, we get $ab\ge2\sqrt{ab}+3$. Let $t=\sqrt{ab}> 0$, then
 
 $$
 t^2\ge2t+3,
 $$
 
-i.e. $\left(t-3\right)\left(t+1\right)\ge0$. Since $t>0$, we have $t\ge3$, and hence $ab=t^2\ge9$. Equality holds if and only if $a=b=3$. Hence the range of $ab$ is $\left\{x\mid x\ge9\right\}$. $\blacksquare$
+i.e. $\left(t-3\right)\left(t+1\right)\ge0$. Since $t> 0$, we have $t\ge3$, and hence $ab=t^2\ge9$. Equality holds if and only if $a=b=3$. Hence the range of $ab$ is $\left\{x\mid x\ge9\right\}$. $\blacksquare$
 
 ### Problem 6
 
-(Review Reference Problem 2, Comprehensive Application, Problem 6) For what value of $k$ does the quadratic inequality $2kx^2+kx-\frac{3}{8}<0$ hold for all real numbers $x$?
+(Review Reference Problem 2, Comprehensive Application, Problem 6) For what value of $k$ does the quadratic inequality $2kx^2+kx-\frac{3}{8}< 0$ hold for all real numbers $x$?
 
 ### Solution to Problem 6
 
-By **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable), $ax^2+bx+c<0$ holding for all real numbers requires opening downward ($a<0$) and having no real roots ($\Delta<0$).
+By **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable), $ax^2+bx+c< 0$ holding for all real numbers requires opening downward ($a< 0$) and having no real roots ($\Delta< 0$).
 
-First, $2k<0$, i.e. $k<0$.
+First, $2k< 0$, i.e. $k< 0$.
 
-Also require $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k<0$, i.e. $k\left(k+3\right)<0$, solving to $-3<k<0$.
+Also require $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k< 0$, i.e. $k\left(k+3\right)< 0$, solving to $-3< k< 0$.
 
-Intersecting with $k<0$ gives $-3<k<0$. Hence when $-3<k<0$, the inequality holds for all real numbers $x$. $\blacksquare$
+Intersecting with $k< 0$ gives $-3< k< 0$. Hence when $-3< k< 0$, the inequality holds for all real numbers $x$. $\blacksquare$
 
 ### Problem 7
 
@@ -148,17 +148,17 @@ Intersecting with $k<0$ gives $-3<k<0$. Hence when $-3<k<0$, the inequality hold
 
 ### Solution to Problem 7
 
-Let the window area be $w$ and the floor area be $f$, then $w<f$ and $\frac{w}{f}\ge0.1$.
+Let the window area be $w$ and the floor area be $f$, then $w< f$ and $\frac{w}{f}\ge0.1$.
 
 (1) From $w+f=220$, i.e. $f=220-w$. From $\frac{w}{f}\ge0.1$, we get $w\ge0.1\left(220-w\right)$, i.e. $1.1w\ge22$, hence $w\ge20$. Hence the window area is at least $20\ \mathrm m^2$.
 
-(2) Let the window and floor areas both increase by $m>0$. By **Basic Fact 2.1.1** (Order Relations of Real Numbers), compare the new ratio with the old:
+(2) Let the window and floor areas both increase by $m> 0$. By **Basic Fact 2.1.1** (Order Relations of Real Numbers), compare the new ratio with the old:
 
 $$
 \frac{w+m}{f+m}-\frac{w}{f}=\frac{f\left(w+m\right)-w\left(f+m\right)}{f\left(f+m\right)}=\frac{m\left(f-w\right)}{f\left(f+m\right)}.
 $$
 
-Since $f>w$, the numerator is positive, hence the difference is positive, i.e. the new ratio is larger. Hence after adding the same area to both, the lighting improves. $\blacksquare$
+Since $f> w$, the numerator is positive, hence the difference is positive, i.e. the new ratio is larger. Hence after adding the same area to both, the lighting improves. $\blacksquare$
 
 ### Problem 8
 
@@ -168,15 +168,15 @@ Since $f>w$, the numerator is positive, hence the difference is positive, i.e. t
 
 By **Property 2.1.5** (Additivity), **Property 2.1.6** (Multiplicativity) and **Basic Fact 2.1.1** (Order Relations of Real Numbers), list analogously and judge.
 
-(1) If $x=y$, then $x+z=y+z$; corresponding: if $x>y$, then $x+z>y+z$. Correct, i.e. **Property 2.1.5** (Additivity).
+(1) If $x=y$, then $x+z=y+z$; corresponding: if $x> y$, then $x+z> y+z$. Correct, i.e. **Property 2.1.5** (Additivity).
 
-(2) If $x=y$, then $xz=yz$; corresponding: if $x>y$, then $xz>yz$. Incorrect; when $z<0$ the inequality sign reverses.
+(2) If $x=y$, then $xz=yz$; corresponding: if $x> y$, then $xz> yz$. Incorrect; when $z< 0$ the inequality sign reverses.
 
-(3) If $x=y$, then $x^3=y^3$; corresponding: if $x>y$, then $x^3>y^3$. Correct, since $x^3-y^3=\left(x-y\right)\left(x^2+xy+y^2\right)>0$.
+(3) If $x=y$, then $x^3=y^3$; corresponding: if $x> y$, then $x^3> y^3$. Correct, since $x^3-y^3=\left(x-y\right)\left(x^2+xy+y^2\right)> 0$.
 
-(4) If $x=y$, then $x^2=y^2$; corresponding: if $x>y$, then $x^2>y^2$. Incorrect; e.g. $1>-2$ but $1<4$; it holds only when the two numbers have the same sign.
+(4) If $x=y$, then $x^2=y^2$; corresponding: if $x> y$, then $x^2> y^2$. Incorrect; e.g. $1> -2$ but $1< 4$; it holds only when the two numbers have the same sign.
 
-(5) If $x=y$, $z\neq0$, then $\frac{x}{z}=\frac{y}{z}$; corresponding: if $x>y$, then $\frac{x}{z}>\frac{y}{z}$. Correct when $z>0$, incorrect when $z<0$.
+(5) If $x=y$, $z\neq0$, then $\frac{x}{z}=\frac{y}{z}$; corresponding: if $x> y$, then $\frac{x}{z}> \frac{y}{z}$. Correct when $z> 0$, incorrect when $z< 0$.
 
 It can be seen that propositions analogous to addition are mostly correct; when analogous to multiplication and division, a negative multiplier or divisor reverses the inequality sign, so an additional condition is needed. $\blacksquare$
 
@@ -216,7 +216,7 @@ with equality if and only if $4000x^2=\frac{400000}{x^2}$, i.e. $x^2=10$, $x=\sq
 
 ### Solution to Problem 10
 
-By **Theorem 2.2.1** (Basic Inequality), let the two prices be $p_1,p_2>0$, and compare the average price of the two strategies.
+By **Theorem 2.2.1** (Basic Inequality), let the two prices be $p_1,p_2> 0$, and compare the average price of the two strategies.
 
 First strategy: each time buy a fixed quantity $q$; in total spend $q\left(p_1+p_2\right)$, buy $2q$, and the average price is $\frac{p_1+p_2}{2}$ (the arithmetic mean).
 

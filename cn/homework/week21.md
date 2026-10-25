@@ -8,7 +8,7 @@
 
 > **常用结论** (正切函数的图象与性质) <br>正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$ 的图象叫做正切曲线. 正切函数是周期函数, 最小正周期为 $\pi$. 正切函数是奇函数. 正切函数在每一个区间 $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ ($k\in\mathbb Z$) 上都单调递增. 正切函数的值域是实数集 $\mathbb R$.
 
-> **常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\mathbb R$ 及函数 $y=A\cos\left(\omega x+\varphi\right)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega>0$) 的周期 $T=\frac{2\pi}{\omega}$.
+> **常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\mathbb R$ 及函数 $y=A\cos\left(\omega x+\varphi\right)$, $x\in\mathbb R$ (其中 $A$, $\omega$, $\varphi$ 为常数, 且 $A\neq0$, $\omega> 0$) 的周期 $T=\frac{2\pi}{\omega}$.
 
 ### 练习一
 
@@ -74,7 +74,7 @@
 
 在区间 $\left[\frac{\pi}{3},2\pi\right]$ 上, $\cos x$ 从 $\frac{1}{2}$ 先降到 $-1$ (在 $x=\pi$), 再升到 $1$ (在 $x=2\pi$). 故 $y=1+\cos x$ 从 $1.5$ 先降到 $0$ (在 $x=\pi$), 再升到 $2$ (在 $x=2\pi$).
 
-当 $t\in\left(1.5,2\right]$ 时, 有 $1$ 个交点; 当 $t\in\left[0,1.5\right)$ 时, 有 $2$ 个交点; 当 $t<0$ 或 $t>2$ 时, 有 $0$ 个交点. 故可能有 $0$ 个, $1$ 个或 $2$ 个交点, 选 (A)(B)(C). $\blacksquare$
+当 $t\in\left(1.5,2\right]$ 时, 有 $1$ 个交点; 当 $t\in\left[0,1.5\right)$ 时, 有 $2$ 个交点; 当 $t< 0$ 或 $t> 2$ 时, 有 $0$ 个交点. 故可能有 $0$ 个, $1$ 个或 $2$ 个交点, 选 (A)(B)(C). $\blacksquare$
 
 ### 练习五
 
@@ -150,25 +150,25 @@
 
 (练习 5.4 第 9 题) 观察正弦曲线和余弦曲线, 写出满足下列条件的 $x$ 所在的区间:
 
-(1) $\sin x>0$;
+(1) $\sin x> 0$;
 
-(2) $\sin x<0$;
+(2) $\sin x< 0$;
 
-(3) $\cos x>0$;
+(3) $\cos x> 0$;
 
-(4) $\cos x<0$.
+(4) $\cos x< 0$.
 
 ### 解答 练习九
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) $\sin x>0$: $x\in\left(2k\pi,\ \pi+2k\pi\right)$, $k\in\mathbb Z$.
+(1) $\sin x> 0$: $x\in\left(2k\pi,\ \pi+2k\pi\right)$, $k\in\mathbb Z$.
 
-(2) $\sin x<0$: $x\in\left(\pi+2k\pi,\ 2\pi+2k\pi\right)$, $k\in\mathbb Z$.
+(2) $\sin x< 0$: $x\in\left(\pi+2k\pi,\ 2\pi+2k\pi\right)$, $k\in\mathbb Z$.
 
-(3) $\cos x>0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$.
+(3) $\cos x> 0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$.
 
-(4) $\cos x<0$: $x\in\left(\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
+(4) $\cos x< 0$: $x\in\left(\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
 
 ### 练习十
 
@@ -216,9 +216,9 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0<\frac{3\pi}{7}<\frac{4\pi}{9}<\pi$, 且余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{7}>\cos\frac{4\pi}{9}$, 即 $\cos\frac{3\pi}{7}>\cos\left(-\frac{4\pi}{9}\right)$.
+(1) 由 $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0< \frac{3\pi}{7}< \frac{4\pi}{9}< \pi$, 且余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{7}> \cos\frac{4\pi}{9}$, 即 $\cos\frac{3\pi}{7}> \cos\left(-\frac{4\pi}{9}\right)$.
 
-(2) 由 $90^{\circ}<250^{\circ}<260^{\circ}<270^{\circ}$, 且正弦函数在 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 即 $\left[90^{\circ},270^{\circ}\right]$ 上单调递减, 得 $\sin250^{\circ}>\sin260^{\circ}$. $\blacksquare$
+(2) 由 $90^{\circ}< 250^{\circ}< 260^{\circ}< 270^{\circ}$, 且正弦函数在 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 即 $\left[90^{\circ},270^{\circ}\right]$ 上单调递减, 得 $\sin250^{\circ}> \sin260^{\circ}$. $\blacksquare$
 
 ### 练习十三
 
@@ -238,27 +238,27 @@
 
 由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 和 $\left(\frac{\pi}{2},\frac{3\pi}{2}\right)$ 上单调递增.
 
-由 $\tan\left(-\frac{\pi}{4}\right)=-1$, 在 $\left[0,\frac{\pi}{2}\right)$ 上 $\tan x\ge0>-1$, 恒成立. 在 $\left(\frac{\pi}{2},\pi\right)$ 上, $\tan x\ge-1=\tan\left(-\frac{\pi}{4}\right)=\tan\frac{3\pi}{4}$, 由单调性得 $x\ge\frac{3\pi}{4}$. 故解集为 $\left[0,\frac{\pi}{2}\right)\cup\left[\frac{3\pi}{4},\pi\right)$. $\blacksquare$
+由 $\tan\left(-\frac{\pi}{4}\right)=-1$, 在 $\left[0,\frac{\pi}{2}\right)$ 上 $\tan x\ge0> -1$, 恒成立. 在 $\left(\frac{\pi}{2},\pi\right)$ 上, $\tan x\ge-1=\tan\left(-\frac{\pi}{4}\right)=\tan\frac{3\pi}{4}$, 由单调性得 $x\ge\frac{3\pi}{4}$. 故解集为 $\left[0,\frac{\pi}{2}\right)\cup\left[\frac{3\pi}{4},\pi\right)$. $\blacksquare$
 
 ### 练习十五
 
 (练习 5.4 第 15 题) 观察正切曲线, 写出满足下列条件的 $x$ 值的范围:
 
-(1) $\tan x>0$;
+(1) $\tan x> 0$;
 
 (2) $\tan x=0$;
 
-(3) $\tan x<0$.
+(3) $\tan x< 0$.
 
 ### 解答 练习十五
 
 由**常用结论** (正切函数的图象与性质).
 
-(1) $\tan x>0$: $x\in\left(k\pi,\ \frac{\pi}{2}+k\pi\right)$, $k\in\mathbb Z$.
+(1) $\tan x> 0$: $x\in\left(k\pi,\ \frac{\pi}{2}+k\pi\right)$, $k\in\mathbb Z$.
 
 (2) $\tan x=0$: $x=k\pi$, $k\in\mathbb Z$.
 
-(3) $\tan x<0$: $x\in\left(-\frac{\pi}{2}+k\pi,\ k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
+(3) $\tan x< 0$: $x\in\left(-\frac{\pi}{2}+k\pi,\ k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
 
 ### 练习十六
 
@@ -298,9 +298,9 @@
 
 由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上单调递增.
 
-(1) 由 $-90^{\circ}<-52^{\circ}<-47^{\circ}<0^{\circ}$, 得 $\tan\left(-52^{\circ}\right)<\tan\left(-47^{\circ}\right)$.
+(1) 由 $-90^{\circ}< -52^{\circ}< -47^{\circ}< 0^{\circ}$, 得 $\tan\left(-52^{\circ}\right)< \tan\left(-47^{\circ}\right)$.
 
-(2) 由 $\tan\frac{13\pi}{4}=\tan\left(3\pi+\frac{\pi}{4}\right)=\tan\frac{\pi}{4}$, $\tan\frac{17\pi}{5}=\tan\left(3\pi+\frac{2\pi}{5}\right)=\tan\frac{2\pi}{5}$. 由 $0<\frac{\pi}{4}<\frac{2\pi}{5}<\frac{\pi}{2}$, 得 $\tan\frac{\pi}{4}<\tan\frac{2\pi}{5}$, 即 $\tan\frac{13\pi}{4}<\tan\frac{17\pi}{5}$. $\blacksquare$
+(2) 由 $\tan\frac{13\pi}{4}=\tan\left(3\pi+\frac{\pi}{4}\right)=\tan\frac{\pi}{4}$, $\tan\frac{17\pi}{5}=\tan\left(3\pi+\frac{2\pi}{5}\right)=\tan\frac{2\pi}{5}$. 由 $0< \frac{\pi}{4}< \frac{2\pi}{5}< \frac{\pi}{2}$, 得 $\tan\frac{\pi}{4}< \tan\frac{2\pi}{5}$, 即 $\tan\frac{13\pi}{4}< \tan\frac{17\pi}{5}$. $\blacksquare$
 
 ### 习题一
 
@@ -400,13 +400,13 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 $90^{\circ}<103^{\circ}15'<164^{\circ}30'<180^{\circ}$, 正弦函数在 $\left[90^{\circ},180^{\circ}\right]$ 上单调递减, 得 $\sin103^{\circ}15'>\sin164^{\circ}30'$.
+(1) 由 $90^{\circ}< 103^{\circ}15'< 164^{\circ}30'< 180^{\circ}$, 正弦函数在 $\left[90^{\circ},180^{\circ}\right]$ 上单调递减, 得 $\sin103^{\circ}15'> \sin164^{\circ}30'$.
 
-(2) 由 $\cos\left(-\frac{3\pi}{10}\right)=\cos\frac{3\pi}{10}$, $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0<\frac{3\pi}{10}<\frac{4\pi}{9}<\pi$, 余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{10}>\cos\frac{4\pi}{9}$.
+(2) 由 $\cos\left(-\frac{3\pi}{10}\right)=\cos\frac{3\pi}{10}$, $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0< \frac{3\pi}{10}< \frac{4\pi}{9}< \pi$, 余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{10}> \cos\frac{4\pi}{9}$.
 
-(3) 由 $\sin508^{\circ}=\sin\left(360^{\circ}+148^{\circ}\right)=\sin148^{\circ}$. 由 $90^{\circ}<144^{\circ}<148^{\circ}<180^{\circ}$, 得 $\sin144^{\circ}>\sin148^{\circ}$, 即 $\sin144^{\circ}>\sin508^{\circ}$.
+(3) 由 $\sin508^{\circ}=\sin\left(360^{\circ}+148^{\circ}\right)=\sin148^{\circ}$. 由 $90^{\circ}< 144^{\circ}< 148^{\circ}< 180^{\circ}$, 得 $\sin144^{\circ}> \sin148^{\circ}$, 即 $\sin144^{\circ}> \sin508^{\circ}$.
 
-(4) 由 $\cos\frac{47\pi}{10}=\cos\left(4\pi+\frac{7\pi}{10}\right)=\cos\frac{7\pi}{10}$, $\cos\frac{44\pi}{9}=\cos\left(4\pi+\frac{8\pi}{9}\right)=\cos\frac{8\pi}{9}$. 由 $0<\frac{7\pi}{10}<\frac{8\pi}{9}<\pi$, 得 $\cos\frac{7\pi}{10}>\cos\frac{8\pi}{9}$, 即 $\cos\frac{47\pi}{10}>\cos\frac{44\pi}{9}$. $\blacksquare$
+(4) 由 $\cos\frac{47\pi}{10}=\cos\left(4\pi+\frac{7\pi}{10}\right)=\cos\frac{7\pi}{10}$, $\cos\frac{44\pi}{9}=\cos\left(4\pi+\frac{8\pi}{9}\right)=\cos\frac{8\pi}{9}$. 由 $0< \frac{7\pi}{10}< \frac{8\pi}{9}< \pi$, 得 $\cos\frac{7\pi}{10}> \cos\frac{8\pi}{9}$, 即 $\cos\frac{47\pi}{10}> \cos\frac{44\pi}{9}$. $\blacksquare$
 
 ### 习题六
 
@@ -460,13 +460,13 @@
 
 由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上单调递增.
 
-(1) 由 $-\frac{\pi}{2}<-\frac{3\pi}{7}<-\frac{\pi}{5}<\frac{\pi}{2}$, 得 $\tan\left(-\frac{3\pi}{7}\right)<\tan\left(-\frac{\pi}{5}\right)$.
+(1) 由 $-\frac{\pi}{2}< -\frac{3\pi}{7}< -\frac{\pi}{5}< \frac{\pi}{2}$, 得 $\tan\left(-\frac{3\pi}{7}\right)< \tan\left(-\frac{\pi}{5}\right)$.
 
-(2) 由 $\tan1519^{\circ}=\tan\left(4\times360^{\circ}+79^{\circ}\right)=\tan79^{\circ}$, $\tan1493^{\circ}=\tan\left(4\times360^{\circ}+53^{\circ}\right)=\tan53^{\circ}$. 由 $0^{\circ}<53^{\circ}<79^{\circ}<90^{\circ}$, 得 $\tan53^{\circ}<\tan79^{\circ}$, 即 $\tan1493^{\circ}<\tan1519^{\circ}$.
+(2) 由 $\tan1519^{\circ}=\tan\left(4\times360^{\circ}+79^{\circ}\right)=\tan79^{\circ}$, $\tan1493^{\circ}=\tan\left(4\times360^{\circ}+53^{\circ}\right)=\tan53^{\circ}$. 由 $0^{\circ}< 53^{\circ}< 79^{\circ}< 90^{\circ}$, 得 $\tan53^{\circ}< \tan79^{\circ}$, 即 $\tan1493^{\circ}< \tan1519^{\circ}$.
 
 (3) 由 $\tan\frac{6\pi}{11}=\tan\left(-\frac{5\pi}{11}+\pi\right)=\tan\left(-\frac{5\pi}{11}\right)$. 故两者相等.
 
-(4) 由 $\frac{7\pi}{8}\in\left(\frac{\pi}{2},\pi\right)$, $\tan\frac{7\pi}{8}<0$, 而 $\tan\frac{\pi}{6}>0$, 得 $\tan\frac{7\pi}{8}<\tan\frac{\pi}{6}$. $\blacksquare$
+(4) 由 $\frac{7\pi}{8}\in\left(\frac{\pi}{2},\pi\right)$, $\tan\frac{7\pi}{8}< 0$, 而 $\tan\frac{\pi}{6}> 0$, 得 $\tan\frac{7\pi}{8}< \tan\frac{\pi}{6}$. $\blacksquare$
 
 ### 习题十
 
@@ -516,7 +516,7 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(A) $y=\lvert\sin x\rvert$ 的周期为 $\pi$, 在 $\left(\frac{\pi}{2},\pi\right)$ 上 $\sin x>0$ 且递减, 故 $\lvert\sin x\rvert$ 递减, 符合条件.
+(A) $y=\lvert\sin x\rvert$ 的周期为 $\pi$, 在 $\left(\frac{\pi}{2},\pi\right)$ 上 $\sin x> 0$ 且递减, 故 $\lvert\sin x\rvert$ 递减, 符合条件.
 
 (B) $y=\cos x$ 的周期为 $2\pi$, 不符合.
 
@@ -550,7 +550,7 @@
 
 由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ 上单调递增.
 
-$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\pi}{4}\right)$ 相反. 令 $-\frac{\pi}{2}+k\pi<2x-\frac{3\pi}{4}<\frac{\pi}{2}+k\pi$, 解得 $\frac{\pi}{8}+\frac{k\pi}{2}<x<\frac{5\pi}{8}+\frac{k\pi}{2}$. 故 $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 在 $\left(\frac{\pi}{8}+\frac{k\pi}{2},\ \frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb Z$) 上单调递减. $\blacksquare$
+$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\pi}{4}\right)$ 相反. 令 $-\frac{\pi}{2}+k\pi< 2x-\frac{3\pi}{4}< \frac{\pi}{2}+k\pi$, 解得 $\frac{\pi}{8}+\frac{k\pi}{2}< x< \frac{5\pi}{8}+\frac{k\pi}{2}$. 故 $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 在 $\left(\frac{\pi}{8}+\frac{k\pi}{2},\ \frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb Z$) 上单调递减. $\blacksquare$
 
 ### 习题十五
 

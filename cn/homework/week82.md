@@ -16,7 +16,7 @@ $$
 
 > **公式 6.3.3** ($\left(1+x\right)^n$ 的展开式) <br>在二项式定理中令 $a=1$, $b=x$, 得 $\left(1+x\right)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n$.
 
-> **性质 6.3.4** (二项式系数的性质) <br>(1) 对称性: $\binom{n}{k}=\binom{n}{n-k}$; (2) 增减性与最大值: 当 $k<\frac{n+1}{2}$ 时 $\binom{n}{k}$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $\binom{n}{n/2}$ 最大, $n$ 为奇数时中间两项 $\binom{n}{\left(n-1\right)/2}$ 与 $\binom{n}{\left(n+1\right)/2}$ 相等且最大; (3) 各二项式系数的和: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) 奇数项与偶数项二项式系数的和相等: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
+> **性质 6.3.4** (二项式系数的性质) <br>(1) 对称性: $\binom{n}{k}=\binom{n}{n-k}$; (2) 增减性与最大值: 当 $k< \frac{n+1}{2}$ 时 $\binom{n}{k}$ 随 $k$ 增大而增大, $n$ 为偶数时中间一项 $\binom{n}{n/2}$ 最大, $n$ 为奇数时中间两项 $\binom{n}{\left(n-1\right)/2}$ 与 $\binom{n}{\left(n+1\right)/2}$ 相等且最大; (3) 各二项式系数的和: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) 奇数项与偶数项二项式系数的和相等: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
 
 ### 练习一
 

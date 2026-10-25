@@ -162,7 +162,7 @@ $\blacksquare$
 
 ### Problem 3
 
-(Exercise 10.2, Review and Consolidation, Problem 3) If $P\left(A\right)>0$, $P\left(B\right)>0$, prove that events $A, B$ being mutually independent and $A, B$ being mutually exclusive cannot hold simultaneously.
+(Exercise 10.2, Review and Consolidation, Problem 3) If $P\left(A\right)> 0$, $P\left(B\right)> 0$, prove that events $A, B$ being mutually independent and $A, B$ being mutually exclusive cannot hold simultaneously.
 
 ### Solution to Problem 3
 
@@ -170,9 +170,9 @@ By **Definition 10.1.12** (Mutually Exclusive), if $A, B$ are mutually exclusive
 
 By **Definition 10.2.1** (Mutual Independence of Events), if $A, B$ are mutually independent, then $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$.
 
-If $A, B$ were both independent and mutually exclusive, then necessarily $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. But given $P\left(A\right)>0$ and $P\left(B\right)>0$, we have $P\left(A\right)P\left(B\right)>0$, a contradiction.
+If $A, B$ were both independent and mutually exclusive, then necessarily $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. But given $P\left(A\right)> 0$ and $P\left(B\right)> 0$, we have $P\left(A\right)P\left(B\right)> 0$, a contradiction.
 
-Therefore, when $P\left(A\right)>0$ and $P\left(B\right)>0$, events $A, B$ being mutually independent and $A, B$ being mutually exclusive cannot hold simultaneously. $\blacksquare$
+Therefore, when $P\left(A\right)> 0$ and $P\left(B\right)> 0$, events $A, B$ being mutually independent and $A, B$ being mutually exclusive cannot hold simultaneously. $\blacksquare$
 
 ### Problem 4
 

@@ -8,7 +8,7 @@
 
 > **定义 1.1.4** (相等向量) <br>方向相同且模相等的向量叫做相等向量. 因此, 在空间, 同向且等长的有向线段表示同一向量或相等向量. 空间向量是自由的, 所以对于空间中的任意两个非零向量, 我们都可以通过平移使它们的起点重合.
 
-> **定义 1.1.5** (空间向量的线性运算) <br>与平面向量一样, 我们把平面向量的线性运算推广到空间, 定义空间向量的加法, 减法以及数乘运算: (1) $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{OA}+\boldsymbol{AB}=\boldsymbol{OB}$; (2) $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{OA}-\boldsymbol{OC}=\boldsymbol{CA}$; (3) 当 $\lambda>0$ 时, $\lambda\boldsymbol{a}=\lambda\boldsymbol{OA}=\boldsymbol{PQ}$; 当 $\lambda<0$ 时, $\lambda\boldsymbol{a}=\lambda\boldsymbol{OA}=\boldsymbol{MN}$; 当 $\lambda=0$ 时, $\lambda\boldsymbol{a}=\boldsymbol{0}$.
+> **定义 1.1.5** (空间向量的线性运算) <br>与平面向量一样, 我们把平面向量的线性运算推广到空间, 定义空间向量的加法, 减法以及数乘运算: (1) $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{OA}+\boldsymbol{AB}=\boldsymbol{OB}$; (2) $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{OA}-\boldsymbol{OC}=\boldsymbol{CA}$; (3) 当 $\lambda> 0$ 时, $\lambda\boldsymbol{a}=\lambda\boldsymbol{OA}=\boldsymbol{PQ}$; 当 $\lambda< 0$ 时, $\lambda\boldsymbol{a}=\lambda\boldsymbol{OA}=\boldsymbol{MN}$; 当 $\lambda=0$ 时, $\lambda\boldsymbol{a}=\boldsymbol{0}$.
 
 > **常用结论 1.1.6** (空间向量线性运算的运算律) <br>交换律: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; 结合律: $\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right)$, $\mu\left(\lambda\boldsymbol{a}\right)=\left(\mu\lambda\right)\boldsymbol{a}$; 分配律: $\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$, $\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
 

@@ -2,11 +2,11 @@
 
 > **Definition 3.3.1** (Parabola) <br>The locus of points in a plane whose distances to a fixed point $F$ and a fixed line $l$ (where $l$ does not pass through $F$) are equal is called a parabola. The point $F$ is called the focus of the parabola, and the line $l$ is called the directrix.
 
-> **Definition 3.3.2** (Standard Equation of a Parabola) <br>When the focus is on the positive $x$-axis at $F\left(\frac{p}{2},0\right)$ and the directrix is $x=-\frac{p}{2}$, the standard equation is $y^2=2px$ ($p>0$). The other three forms are $y^2=-2px$, $x^2=2py$, and $x^2=-2py$ ($p>0$).
+> **Definition 3.3.2** (Standard Equation of a Parabola) <br>When the focus is on the positive $x$-axis at $F\left(\frac{p}{2},0\right)$ and the directrix is $x=-\frac{p}{2}$, the standard equation is $y^2=2px$ ($p> 0$). The other three forms are $y^2=-2px$, $x^2=2py$, and $x^2=-2py$ ($p> 0$).
 
 > **Common Conclusion 3.3.3** (Distance from a Point on a Parabola to Focus and Directrix) <br>The distance from any point $M$ on a parabola to the focus $F$ equals its distance to the directrix, i.e. $\lvert MF \rvert=d$ ($d$ is the distance from $M$ to the directrix).
 
-> **Common Conclusion 3.3.4** (Range, Symmetry, and Vertex of a Parabola) <br>For $y^2=2px$ ($p>0$), we have $x\ge0$, $y\in\mathbb R$; the parabola is symmetric about the $x$-axis, and its vertex is at the origin.
+> **Common Conclusion 3.3.4** (Range, Symmetry, and Vertex of a Parabola) <br>For $y^2=2px$ ($p> 0$), we have $x\ge0$, $y\in\mathbb R$; the parabola is symmetric about the $x$-axis, and its vertex is at the origin.
 
 > **Definition 3.3.5** (Eccentricity of a Parabola) <br>The ratio $\frac{\lvert MF \rvert}{d}$ of the distance from a point $M$ on the parabola to the focus to its distance to the directrix is called the eccentricity of the parabola; by the definition of a parabola, $e=1$.
 
@@ -58,7 +58,7 @@ By **Definition 3.3.2** (Standard Equation of a Parabola), for $y^2=2px$ the foc
 
 (Exercise 3.3, Problem 3) Fill in the blanks.
 
-(1) A point $M$ on the parabola $y^2=2px$ ($p>0$) is at distance $a$ ($a>\frac{p}{2}$) from the focus; then the distance from $M$ to the directrix is $\;\_\_\;$, and the abscissa of $M$ is $\;\_\_\;$;
+(1) A point $M$ on the parabola $y^2=2px$ ($p> 0$) is at distance $a$ ($a> \frac{p}{2}$) from the focus; then the distance from $M$ to the directrix is $\;\_\_\;$, and the abscissa of $M$ is $\;\_\_\;$;
 
 (2) The coordinates of the point on the parabola $y^2=12x$ whose distance to the focus equals $9$ are $\;\_\_\;$.
 
@@ -166,7 +166,7 @@ $\lvert FN \rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$
 
 ### Exercise 10
 
-(Exercise 3.3, Problem 3) Let the distance from a point $M$ on the parabola $x^2=2py$ ($p>0$) to the focus $F$ be $4$, and the distance from $M$ to the $y$-axis be $\sqrt{3p}$. Find the equation of the parabola and the coordinates of $M$.
+(Exercise 3.3, Problem 3) Let the distance from a point $M$ on the parabola $x^2=2py$ ($p> 0$) to the focus $F$ be $4$, and the distance from $M$ to the $y$-axis be $\sqrt{3p}$. Find the equation of the parabola and the coordinates of $M$.
 
 ### Solution to Exercise 10
 
@@ -178,7 +178,7 @@ From $\lvert MF \rvert=4$, we get $\frac{3}{2}+\frac{p}{2}=4$, so $p=5$. The par
 
 ### Exercise 11
 
-(Exercise 3.3, Problem 4) The two lines $y=kx$ and $y=-kx$ intersect the parabola $y^2=2px$ ($p>0$) at $A$ and $B$ (other than the origin). For what value of $k$ does the line $AB$ pass through the focus of the parabola?
+(Exercise 3.3, Problem 4) The two lines $y=kx$ and $y=-kx$ intersect the parabola $y^2=2px$ ($p> 0$) at $A$ and $B$ (other than the origin). For what value of $k$ does the line $AB$ pass through the focus of the parabola?
 
 ### Solution to Exercise 11
 
@@ -242,7 +242,7 @@ By **Definition 3.3.2** and **Common Conclusion 3.3.3**.
 
 ### Problem 3
 
-(Exercise 3.3, Review and Consolidation, Problem 3) A point $M$ on the parabola $y^2=2px$ ($p>0$) has distance $\lvert MF \rvert=2p$ to the focus $F$. Find the coordinates of $M$.
+(Exercise 3.3, Review and Consolidation, Problem 3) A point $M$ on the parabola $y^2=2px$ ($p> 0$) has distance $\lvert MF \rvert=2p$ to the focus $F$. Find the coordinates of $M$.
 
 ### Solution to Problem 3
 
@@ -322,7 +322,7 @@ After the water drops $1\,\mathrm{m}$, $y=-3$, $x^2=6$, $x=\pm\sqrt{6}\approx\pm
 
 ### Problem 9
 
-(Exercise 3.3, Comprehensive Application, Problem 9) From each point on the parabola $y^2=2px$ ($p>0$), drop a perpendicular segment to the $x$-axis. Find the locus equation of the midpoints of these perpendicular segments, and describe the curve.
+(Exercise 3.3, Comprehensive Application, Problem 9) From each point on the parabola $y^2=2px$ ($p> 0$), drop a perpendicular segment to the $x$-axis. Find the locus equation of the midpoints of these perpendicular segments, and describe the curve.
 
 ### Solution to Problem 9
 
@@ -336,7 +336,7 @@ The locus is a parabola opening to the right. $\blacksquare$
 
 ### Problem 10
 
-(Exercise 3.3, Comprehensive Application, Problem 10) One vertex of an equilateral triangle lies at the origin, and the other two lie on the parabola $y^2=2px$ ($p>0$). Find the side length of this equilateral triangle.
+(Exercise 3.3, Comprehensive Application, Problem 10) One vertex of an equilateral triangle lies at the origin, and the other two lie on the parabola $y^2=2px$ ($p> 0$). Find the side length of this equilateral triangle.
 
 ### Solution to Problem 10
 
@@ -382,7 +382,7 @@ Let a line through $P\left(-2,1\right)$ be $y-1=k\left(x+2\right)$. Substituting
 
 ### Problem 13
 
-(Exercise 3.3, Extension and Exploration, Problem 13) Let $F$ be the focus of the parabola $y^2=2px$ ($p>0$). Light emitted from $F$ reflects off a point $M$ on the parabola (other than the vertex). Prove that the reflected ray is parallel to the axis of symmetry of the parabola.
+(Exercise 3.3, Extension and Exploration, Problem 13) Let $F$ be the focus of the parabola $y^2=2px$ ($p> 0$). Light emitted from $F$ reflects off a point $M$ on the parabola (other than the vertex). Prove that the reflected ray is parallel to the axis of symmetry of the parabola.
 
 ### Solution to Problem 13
 

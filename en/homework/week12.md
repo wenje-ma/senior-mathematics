@@ -2,7 +2,7 @@
 
 > **Definition 3.1.1** (Function) <br>In general, let $A,B$ be nonempty sets of real numbers. If for any number $x$ in the set $A$, according to a certain determined correspondence $f$, there is a unique determined number $y$ in the set $B$ corresponding to it, then $f:A\to B$ is called a function from the set $A$ to the set $B$, denoted by $y=f\left(x\right)$, $x\in A$.
 
-> **Definition 3.1.5** (Piecewise Function) <br>A function such as $y=\begin{cases}-x, & x<0,\\x, & x\ge0\end{cases}$ is called a piecewise function.
+> **Definition 3.1.5** (Piecewise Function) <br>A function such as $y=\begin{cases}-x, & x< 0,\\x, & x\ge0\end{cases}$ is called a piecewise function.
 
 > **Definition 3.2.3** (Maximum Value) <br>Let the domain of the function $y=f\left(x\right)$ be $D$. If there exists a real number $M$ satisfying: (1) for $\forall x\in D$, we always have $f\left(x\right)\le M$; (2) $\exists x_0\in D$ such that $f\left(x_0\right)=M$. Then $M$ is called the maximum value of the function $y=f\left(x\right)$.
 
@@ -18,7 +18,7 @@ By **Definition 3.3.1** (Power Function), first determine the coefficient $a$ fr
 
 From $y=20$ when $x=60$, we get $20=a\cdot60^2=3600a$, so $a=\frac{20}{3600}=\frac{1}{180}$. Therefore $y=\frac{x^2}{180}$.
 
-When $y=50$, $50=\frac{x^2}{180}$, giving $x^2=9000$, i.e. $x=\sqrt{9000}\approx94.9\ \text{km/h}$. Since $94.9<100$, this car is not speeding. $\blacksquare$
+When $y=50$, $50=\frac{x^2}{180}$, giving $x^2=9000$, i.e. $x=\sqrt{9000}\approx94.9\ \text{km/h}$. Since $94.9< 100$, this car is not speeding. $\blacksquare$
 
 ### Exercise 2
 
@@ -56,13 +56,13 @@ The total sales revenue is $y_3=3500x$ yuan $=0.35x$ (ten-thousand yuan).
 
 The total profit is $y_4=y_3-y_1=0.35x-\left(150+0.25x\right)=0.1x-150$ (ten-thousand yuan).
 
-(2) When $y_4=0$, $0.1x-150=0$, i.e. $x=1500$. When the output $x>1500$ pieces, the company makes a profit; when $x<1500$ pieces, it incurs a loss; when $x=1500$ pieces, it breaks even. As the output increases, the unit cost $y_2=\frac{150}{x}+0.25$ gradually decreases and approaches $0.25$ ten-thousand yuan per piece. $\blacksquare$
+(2) When $y_4=0$, $0.1x-150=0$, i.e. $x=1500$. When the output $x> 1500$ pieces, the company makes a profit; when $x< 1500$ pieces, it incurs a loss; when $x=1500$ pieces, it breaks even. As the output increases, the unit cost $y_2=\frac{150}{x}+0.25$ gradually decreases and approaches $0.25$ ten-thousand yuan per piece. $\blacksquare$
 
 ### Problem 1
 
 (Exercise 3.4, Comprehensive Application, Problem 1) A person drives a car at a speed of $60\ \text{km/h}$ from place $A$ to place $B$, which is $150\ \text{km}$ away. After staying at place $B$ for $1\ \text{h}$, the person returns to place $A$ at a speed of $50\ \text{km/h}$. Express the distance $x$ (unit: $\text{km}$) of the car from place $A$ as a function of the time $t$ (unit: $\text{h}$) (starting from the moment of departure from place $A$); then express the car speed $v$ (unit: $\text{km/h}$) as a function of the time $t$, and draw the graphs of these two functions respectively.
 
-The graphs: on the left is the piecewise line graph of the distance $x$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $x$ (unit: km), rising from the origin $\left(0,0\right)$ with slope $60$ to $\left(2.5,150\right)$, extending horizontally to $\left(3.5,150\right)$, and then falling with slope $-50$ to $\left(6.5,0\right)$; on the right is the piecewise constant graph of the car speed $v$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $v$ (unit: km/h), with three horizontal segments at $v=60$ ($0\le t\le2.5$), $v=0$ ($2.5<t\le3.5$), and $v=50$ ($3.5<t\le6.5$).
+The graphs: on the left is the piecewise line graph of the distance $x$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $x$ (unit: km), rising from the origin $\left(0,0\right)$ with slope $60$ to $\left(2.5,150\right)$, extending horizontally to $\left(3.5,150\right)$, and then falling with slope $-50$ to $\left(6.5,0\right)$; on the right is the piecewise constant graph of the car speed $v$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $v$ (unit: km/h), with three horizontal segments at $v=60$ ($0\le t\le2.5$), $v=0$ ($2.5< t\le3.5$), and $v=50$ ($3.5< t\le6.5$).
 
 ### Solution to Problem 1
 
@@ -73,13 +73,13 @@ The trip from $A$ to $B$ takes $\frac{150}{60}=2.5\ \text{h}$, the stay at $B$ i
 The function of distance with respect to time:
 
 $$
-x=\begin{cases}60t, & 0\le t\le2.5,\\150, & 2.5<t\le3.5,\\150-50\left(t-3.5\right), & 3.5<t\le6.5.\end{cases}
+x=\begin{cases}60t, & 0\le t\le2.5,\\150, & 2.5< t\le3.5,\\150-50\left(t-3.5\right), & 3.5< t\le6.5.\end{cases}
 $$
 
 The function of car speed with respect to time:
 
 $$
-v=\begin{cases}60, & 0\le t\le2.5,\\0, & 2.5<t\le3.5,\\50, & 3.5<t\le6.5.\end{cases}
+v=\begin{cases}60, & 0\le t\le2.5,\\0, & 2.5< t\le3.5,\\50, & 3.5< t\le6.5.\end{cases}
 $$
 
 The distance graph is: a segment rising from the origin to $\left(2.5,150\right)$, a horizontal segment to $\left(3.5,150\right)$, and then falling to $\left(6.5,0\right)$. The speed graph consists of three horizontal segments. $\blacksquare$
@@ -120,7 +120,7 @@ By **Definition 3.1.5** (Piecewise Function), calculate the water bill in tiered
 
 When the water consumption is $12\ \text{m}^3$, the water bill is $12\times3=36$ yuan. When the water consumption is $18\ \text{m}^3$, the water bill is $36+6\times6=72$ yuan.
 
-Since $36<48<72$, the water consumption of this household is between $12\ \text{m}^3$ and $18\ \text{m}^3$.
+Since $36< 48< 72$, the water consumption of this household is between $12\ \text{m}^3$ and $18\ \text{m}^3$.
 
 The water bill for the part exceeding $12\ \text{m}^3$ is $48-36=12$ yuan, and the price of this part is $6$ yuan/$\text{m}^3$, so the excess amount is $\frac{12}{6}=2\ \text{m}^3$.
 

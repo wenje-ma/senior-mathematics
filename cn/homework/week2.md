@@ -70,7 +70,7 @@
 
 (练习 1.2 第 3 题) 判断下列两个集合之间的关系.
 
-(1) $A=\left\{x\mid x<0\right\}$, $B=\left\{x\mid x<1\right\}$;
+(1) $A=\left\{x\mid x< 0\right\}$, $B=\left\{x\mid x< 1\right\}$;
 
 (2) $A=\left\{x\mid x=3k,\ k\in\mathbb N\right\}$, $B=\left\{x\mid x=6z,\ z\in\mathbb N\right\}$;
 
@@ -80,7 +80,7 @@
 
 由**定义 1.2.1** (子集), **定义 1.2.2** (集合相等), **定义 1.2.3** (真子集) 及**常用数集**.
 
-(1) 任取 $x\in A$, 则 $x<0$. 由 $x<0$ 必有 $x<1$, 故 $x\in B$, 从而 $A\subseteq B$. 又 $0.5\in B$ 但 $0.5\notin A$, 故 $A\subsetneq B$.
+(1) 任取 $x\in A$, 则 $x< 0$. 由 $x< 0$ 必有 $x< 1$, 故 $x\in B$, 从而 $A\subseteq B$. 又 $0.5\in B$ 但 $0.5\notin A$, 故 $A\subsetneq B$.
 
 (2) 任取 $x\in B$, 则 $x=6z=3\left(2z\right)$, 其中 $z\in\mathbb N$, 故 $2z\in\mathbb N$, 即 $x$ 是 $3$ 的非负整数倍, 故 $x\in A$, 从而 $B\subseteq A$. 又 $3=3\cdot1\in A$, 但 $3$ 不是 $6$ 的非负整数倍, 故 $3\notin B$, 故 $B\subsetneq A$.
 
@@ -90,7 +90,7 @@
 
 (习题 1.2 复习巩固第 1 题) 选用适当的符号填空.
 
-(1) 若集合 $A=\left\{x\mid 2x-3<3x\right\}$, $B=\left\{x\mid x\ge2\right\}$, 则 $-4\;\_\_\;B$, $-3\;\_\_\;A$, $\left\{2\right\}\;\_\_\;B$, $B\;\_\_\;A$;
+(1) 若集合 $A=\left\{x\mid 2x-3< 3x\right\}$, $B=\left\{x\mid x\ge2\right\}$, 则 $-4\;\_\_\;B$, $-3\;\_\_\;A$, $\left\{2\right\}\;\_\_\;B$, $B\;\_\_\;A$;
 
 (2) 若集合 $A=\left\{x\mid x^2-1=0\right\}$, 则 $1\;\_\_\;A$, $\left\{-1\right\}\;\_\_\;A$, $\varnothing\;\_\_\;A$, $\left\{1,-1\right\}\;\_\_\;A$;
 
@@ -100,15 +100,15 @@
 
 由**定义 1.1.5** (属于与不属于), **定义 1.2.1** (子集), **定义 1.2.2** (集合相等), **定义 1.2.3** (真子集) 及**定义 1.2.4** (空集).
 
-(1) 由 $2x-3<3x$, 移项得 $x>-3$, 故 $A=\left\{x\mid x>-3\right\}$.
+(1) 由 $2x-3< 3x$, 移项得 $x> -3$, 故 $A=\left\{x\mid x> -3\right\}$.
 
-$-4<2$, 故 $-4\notin B$;
+$-4< 2$, 故 $-4\notin B$;
 
-$-3$ 不满足 $x>-3$, 故 $-3\notin A$;
+$-3$ 不满足 $x> -3$, 故 $-3\notin A$;
 
 $2\in B$, 故 $\left\{2\right\}\subseteq B$, 且 $B$ 中还有其他元素 (如 $3$), 故 $\left\{2\right\}\subsetneq B$;
 
-任取 $x\in B$, 则 $x\ge2$, 必有 $x>-3$, 故 $x\in A$, 又 $-2\in A$ 但 $-2\notin B$, 故 $B\subsetneq A$.
+任取 $x\in B$, 则 $x\ge2$, 必有 $x> -3$, 故 $x\in A$, 又 $-2\in A$ 但 $-2\notin B$, 故 $B\subsetneq A$.
 
 (2) 方程 $x^2-1=0$ 即 $\left(x-1\right)\left(x+1\right)=0$, 其根为 $1,-1$, 故 $A=\left\{1,-1\right\}$.
 
@@ -154,7 +154,7 @@ $$
 
 (3) $C=\left\{0\right\}$;
 
-(4) $D=\left\{x\in\mathbb Z\mid 3<x<30\right\}$.
+(4) $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}$.
 
 ### 解答 习题三
 
@@ -166,7 +166,7 @@ $$
 
 (3) 集合 $C=\left\{0\right\}$ 的子集有 $\varnothing$ 与 $\left\{0\right\}$, 故可取 $\varnothing\subseteq C$.
 
-(4) 由**常用数集**, $D=\left\{x\in\mathbb Z\mid 3<x<30\right\}=\left\{4,5,\cdots,29\right\}$, 取其中大于 $3$ 且小于 $10$ 的整数, 得 $\left\{x\in\mathbb Z\mid 3<x<10\right\}\subseteq D$. $\blacksquare$
+(4) 由**常用数集**, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$, 取其中大于 $3$ 且小于 $10$ 的整数, 得 $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
 
 ### 习题四
 
@@ -198,7 +198,7 @@ $$
 
 (1) 设 $a,b\in\mathbb R$, $P=\left\{1,a\right\}$, $Q=\left\{-1,-b\right\}$, 若 $P=Q$, 求 $a-b$ 的值;
 
-(2) 已知集合 $A=\left\{x\mid 0<x<a\right\}$, $B=\left\{x\mid 1<x<2\right\}$, 若 $B\subseteq A$, 求实数 $a$ 的取值范围.
+(2) 已知集合 $A=\left\{x\mid 0< x< a\right\}$, $B=\left\{x\mid 1< x< 2\right\}$, 若 $B\subseteq A$, 求实数 $a$ 的取值范围.
 
 ### 解答 习题五
 
@@ -206,4 +206,4 @@ $$
 
 (1) 由 $P=Q$, 两集合所含元素完全相同. 因为 $1\in P$, 故 $1\in Q=\left\{-1,-b\right\}$. 而 $-1\neq1$, 故必有 $-b=1$, 即 $b=-1$, 从而 $Q=\left\{-1,1\right\}$. 再由 $P=\left\{1,a\right\}=\left\{-1,1\right\}$, 得 $a=-1$. 故 $a-b=-1-\left(-1\right)=0$.
 
-(2) 由 $B\subseteq A$, $B$ 的每一个元素都必须属于 $A$. 任取 $x\in B$, 则 $1<x<2$, 要使 $x\in A=\left\{x\mid 0<x<a\right\}$, 必须 $x<a$. 由于 $x$ 可无限接近 $2$, 故须 $a\ge2$. 反之, 当 $a\ge2$ 时, 任取 $x\in B$, 有 $0<1<x<2\le a$, 即 $0<x<a$, 故 $x\in A$, 从而 $B\subseteq A$. 故实数 $a$ 的取值范围为 $a\ge2$. $\blacksquare$
+(2) 由 $B\subseteq A$, $B$ 的每一个元素都必须属于 $A$. 任取 $x\in B$, 则 $1< x< 2$, 要使 $x\in A=\left\{x\mid 0< x< a\right\}$, 必须 $x< a$. 由于 $x$ 可无限接近 $2$, 故须 $a\ge2$. 反之, 当 $a\ge2$ 时, 任取 $x\in B$, 有 $0< 1< x< 2\le a$, 即 $0< x< a$, 故 $x\in A$, 从而 $B\subseteq A$. 故实数 $a$ 的取值范围为 $a\ge2$. $\blacksquare$

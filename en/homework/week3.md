@@ -108,15 +108,15 @@ By **Definition 1.3.4** (Complement), $\boldsymbol{U\setminus A}$ is the part of
 
 ### Problem 1
 
-(Problem 1.3, Review and Consolidation, Problem 1) The sets are $A=\left\{x\mid 2\le x<4\right\}$, $B=\left\{x\mid 3x-7\ge 8-2x\right\}$. Find $A\cup B$, $A\cap B$.
+(Problem 1.3, Review and Consolidation, Problem 1) The sets are $A=\left\{x\mid 2\le x< 4\right\}$, $B=\left\{x\mid 3x-7\ge 8-2x\right\}$. Find $A\cup B$, $A\cap B$.
 
 ### Solution to Problem 1
 
 First simplify the set $B$. From $3x-7\ge 8-2x$, transposing gives $5x\ge 15$, i.e. $x\ge 3$, so $B=\left\{x\mid x\ge 3\right\}$.
 
-By **Definition 1.3.1** (Union), $A\cup B$ consists of real numbers satisfying $2\le x<4$ or $x\ge 3$, i.e. $x\ge 2$, so $A\cup B=\left\{x\mid x\ge 2\right\}$.
+By **Definition 1.3.1** (Union), $A\cup B$ consists of real numbers satisfying $2\le x< 4$ or $x\ge 3$, i.e. $x\ge 2$, so $A\cup B=\left\{x\mid x\ge 2\right\}$.
 
-By **Definition 1.3.2** (Intersection), $A\cap B$ consists of real numbers simultaneously satisfying $2\le x<4$ and $x\ge 3$, i.e. $3\le x<4$, so $A\cap B=\left\{x\mid 3\le x<4\right\}$. $\blacksquare$
+By **Definition 1.3.2** (Intersection), $A\cap B$ consists of real numbers simultaneously satisfying $2\le x< 4$ and $x\ge 3$, i.e. $3\le x< 4$, so $A\cap B=\left\{x\mid 3\le x< 4\right\}$. $\blacksquare$
 
 ### Problem 2
 
@@ -152,19 +152,19 @@ The school stipulates that each student may participate in at most two events, i
 
 ### Problem 4
 
-(Problem 1.3, Comprehensive Application, Problem 4) Given the sets $A=\left\{x\mid 3\le x<7\right\}$, $B=\left\{x\mid 2<x<10\right\}$, find $\boldsymbol{\left(A\cup B\right)^c}$, $\boldsymbol{\left(A\cap B\right)^c}$, $\left(\boldsymbol{A^c}\right)\cap B$, $A\cup\left(\boldsymbol{B^c}\right)$.
+(Problem 1.3, Comprehensive Application, Problem 4) Given the sets $A=\left\{x\mid 3\le x< 7\right\}$, $B=\left\{x\mid 2< x< 10\right\}$, find $\boldsymbol{\left(A\cup B\right)^c}$, $\boldsymbol{\left(A\cap B\right)^c}$, $\left(\boldsymbol{A^c}\right)\cap B$, $A\cup\left(\boldsymbol{B^c}\right)$.
 
 ### Solution to Problem 4
 
-By **Definition 1.3.1** (Union), $A\cup B=\left\{x\mid 2<x<10\right\}$. By **Definition 1.3.2** (Intersection), $A\cap B=\left\{x\mid 3\le x<7\right\}$.
+By **Definition 1.3.1** (Union), $A\cup B=\left\{x\mid 2< x< 10\right\}$. By **Definition 1.3.2** (Intersection), $A\cap B=\left\{x\mid 3\le x< 7\right\}$.
 
-By **Definition 1.3.4** (Complement), take complements in the universal set $\mathbb R$. First find the complement of $A\cup B$: the real numbers outside $2<x<10$ are $x\le 2$ or $x\ge 10$, so $\boldsymbol{\left(A\cup B\right)^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$.
+By **Definition 1.3.4** (Complement), take complements in the universal set $\mathbb R$. First find the complement of $A\cup B$: the real numbers outside $2< x< 10$ are $x\le 2$ or $x\ge 10$, so $\boldsymbol{\left(A\cup B\right)^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$.
 
-Then find the complement of $A\cap B$: the real numbers outside $3\le x<7$ are $x<3$ or $x\ge 7$, so $\boldsymbol{\left(A\cap B\right)^c}=\left\{x\mid x<3\text{ 或 }x\ge 7\right\}$.
+Then find the complement of $A\cap B$: the real numbers outside $3\le x< 7$ are $x< 3$ or $x\ge 7$, so $\boldsymbol{\left(A\cap B\right)^c}=\left\{x\mid x< 3\text{ 或 }x\ge 7\right\}$.
 
-The complement of $A$ in $\mathbb R$ is $\boldsymbol{A^c}=\left\{x\mid x<3\text{ 或 }x\ge 7\right\}$. Then by **Definition 1.3.2** (Intersection), $\left(\boldsymbol{A^c}\right)\cap B$ consists of real numbers simultaneously satisfying $x<3$ or $x\ge 7$ and $2<x<10$, i.e. $2<x<3$ or $7\le x<10$, so $\left(\boldsymbol{A^c}\right)\cap B=\left\{x\mid 2<x<3\text{ 或 }7\le x<10\right\}$.
+The complement of $A$ in $\mathbb R$ is $\boldsymbol{A^c}=\left\{x\mid x< 3\text{ 或 }x\ge 7\right\}$. Then by **Definition 1.3.2** (Intersection), $\left(\boldsymbol{A^c}\right)\cap B$ consists of real numbers simultaneously satisfying $x< 3$ or $x\ge 7$ and $2< x< 10$, i.e. $2< x< 3$ or $7\le x< 10$, so $\left(\boldsymbol{A^c}\right)\cap B=\left\{x\mid 2< x< 3\text{ 或 }7\le x< 10\right\}$.
 
-The complement of $B$ in $\mathbb R$ is $\boldsymbol{B^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$. Then by **Definition 1.3.1** (Union), $A\cup\left(\boldsymbol{B^c}\right)$ consists of real numbers satisfying $3\le x<7$ or $x\le 2$ or $x\ge 10$, so $A\cup\left(\boldsymbol{B^c}\right)=\left\{x\mid x\le 2\text{ 或 }3\le x<7\text{ 或 }x\ge 10\right\}$. $\blacksquare$
+The complement of $B$ in $\mathbb R$ is $\boldsymbol{B^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$. Then by **Definition 1.3.1** (Union), $A\cup\left(\boldsymbol{B^c}\right)$ consists of real numbers satisfying $3\le x< 7$ or $x\le 2$ or $x\ge 10$, so $A\cup\left(\boldsymbol{B^c}\right)=\left\{x\mid x\le 2\text{ 或 }3\le x< 7\text{ 或 }x\ge 10\right\}$. $\blacksquare$
 
 ### Problem 5
 

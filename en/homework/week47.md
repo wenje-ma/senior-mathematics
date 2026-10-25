@@ -428,7 +428,7 @@ By **Definition 10.1.12** (Mutually Exclusive) and **Definition 10.1.13** (Compl
 
 (3) By **Property 10.1.21** (General Additive Formula), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. The probability that "exactly one of $A, B$ occurs" is $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. Their difference is $P\left(A\cup B\right)-\bigl[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\bigr]=P\left(A\cap B\right)\ge 0$, so the probability that "at least one occurs" is not necessarily greater than the probability that "exactly one occurs". When $P\left(A\cap B\right)=0$, the two are equal. The statement is wrong. Counterexample: for mutually exclusive events $A, B$, their probabilities are equal.
 
-(4) By **Property 10.1.16** (Non-negativity of Probability), $P\left(A\cap B\right)\ge 0$, while the probability that "exactly one occurs" is $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. When $P\left(A\right)=P\left(B\right)=0.9$, $P\left(A\cap B\right)=0.81$, the probability that exactly one occurs is $0.9+0.9-2\times 0.81=0.18$, at which point $P\left(A\cap B\right)>$ the probability that exactly one occurs. The statement is wrong. $\blacksquare$
+(4) By **Property 10.1.16** (Non-negativity of Probability), $P\left(A\cap B\right)\ge 0$, while the probability that "exactly one occurs" is $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. When $P\left(A\right)=P\left(B\right)=0.9$, $P\left(A\cap B\right)=0.81$, the probability that exactly one occurs is $0.9+0.9-2\times 0.81=0.18$, at which point $P\left(A\cap B\right)> $ the probability that exactly one occurs. The statement is wrong. $\blacksquare$
 
 ### Problem 5
 
@@ -500,25 +500,25 @@ By **Definition 10.1.15** (Classical Definition of Probability), taking any $3$ 
 
 The triangle inequality requires that the sum of any two sides be greater than the third. Enumerate all choices:
 
-$\left(1, 3, 5\right)$: $1+3=4<5$, cannot form a triangle.
+$\left(1, 3, 5\right)$: $1+3=4< 5$, cannot form a triangle.
 
-$\left(1, 3, 7\right)$: $1+3=4<7$, cannot.
+$\left(1, 3, 7\right)$: $1+3=4< 7$, cannot.
 
-$\left(1, 3, 9\right)$: $1+3=4<9$, cannot.
+$\left(1, 3, 9\right)$: $1+3=4< 9$, cannot.
 
-$\left(1, 5, 7\right)$: $1+5=6<7$, cannot.
+$\left(1, 5, 7\right)$: $1+5=6< 7$, cannot.
 
-$\left(1, 5, 9\right)$: $1+5=6<9$, cannot.
+$\left(1, 5, 9\right)$: $1+5=6< 9$, cannot.
 
-$\left(1, 7, 9\right)$: $1+7=8<9$, cannot.
+$\left(1, 7, 9\right)$: $1+7=8< 9$, cannot.
 
-$\left(3, 5, 7\right)$: $3+5=8>7$, can form a triangle.
+$\left(3, 5, 7\right)$: $3+5=8> 7$, can form a triangle.
 
-$\left(3, 5, 9\right)$: $3+5=8<9$, cannot.
+$\left(3, 5, 9\right)$: $3+5=8< 9$, cannot.
 
-$\left(3, 7, 9\right)$: $3+7=10>9$, can form a triangle.
+$\left(3, 7, 9\right)$: $3+7=10> 9$, can form a triangle.
 
-$\left(5, 7, 9\right)$: $5+7=12>9$, can form a triangle.
+$\left(5, 7, 9\right)$: $5+7=12> 9$, can form a triangle.
 
 There are $3$ choices that form a triangle, so $P\left(A\right)=\frac{3}{10}$. $\blacksquare$
 

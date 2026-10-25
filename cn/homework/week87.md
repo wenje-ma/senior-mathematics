@@ -2,7 +2,7 @@
 
 > **定义 7.5.1** (连续型随机变量) <br>对于随机变量 $X$, 如果它可以取某一区间内的任意值, 称 $X$ 为连续型随机变量.
 
-> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N\left(\mu,\sigma^2\right)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
+> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma> 0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N\left(\mu,\sigma^2\right)$. 当 $\mu=0$, $\sigma=1$ 时称为标准正态分布.
 
 > **结论 7.5.3** (正态曲线的性质) <br>正态曲线关于直线 $x=\mu$ 对称, 在 $x=\mu$ 处达到峰值 $\frac{1}{\sigma\sqrt{2\pi}}$; 且 $\mathbb E\left(X\right)=\mu$, $D\left(X\right)=\sigma^2$.
 
@@ -10,7 +10,7 @@
 
 ### 练习一
 
-(练习 7.5 第 1 题) 已知 $X\sim N\left(0,1\right)$, 则正态密度函数为 $\;\_\_\;$, $\mathbb P\left(X\le 0\right)=\;\_\_\;$, $\mathbb P\left(\lvert X\rvert\le 1\right)=\;\_\_\;$, $\mathbb P\left(X\le 1\right)=\;\_\_\;$, $\mathbb P\left(X>1\right)=\;\_\_\;$.
+(练习 7.5 第 1 题) 已知 $X\sim N\left(0,1\right)$, 则正态密度函数为 $\;\_\_\;$, $\mathbb P\left(X\le 0\right)=\;\_\_\;$, $\mathbb P\left(\lvert X\rvert\le 1\right)=\;\_\_\;$, $\mathbb P\left(X\le 1\right)=\;\_\_\;$, $\mathbb P\left(X> 1\right)=\;\_\_\;$.
 
 ### 解答 练习一
 
@@ -24,7 +24,7 @@ $$
 
 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb P\left(X\le 0\right)=0.5$.
 
-由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P\left(\lvert X\rvert\le 1\right)\approx 0.6827$. 又 $\mathbb P\left(X\le 1\right)=0.5+\frac{0.6827}{2}\approx 0.8413$, 故 $\mathbb P\left(X>1\right)=1-0.8413=0.1587$.
+由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P\left(\lvert X\rvert\le 1\right)\approx 0.6827$. 又 $\mathbb P\left(X\le 1\right)=0.5+\frac{0.6827}{2}\approx 0.8413$, 故 $\mathbb P\left(X> 1\right)=1-0.8413=0.1587$.
 
 填空处依次为 $f\left(x\right)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$, $0.5$, $0.6827$, $0.8413$, $0.1587$. $\blacksquare$
 
@@ -46,9 +46,9 @@ $$
 
 (1) 两条密度曲线都关于 $x=0$ 对称, 呈钟形. $X$ 的标准差为 2, $Y$ 的标准差为 3, 故 $X$ 的曲线更陡峻, 更集中在 0 附近, $Y$ 的曲线更扁平, 更分散.
 
-(2) 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb P\left(X\le -2\right)=\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X\le 2\right)$. 二者不相等, 且 $\mathbb P\left(X\le -2\right)<\mathbb P\left(X\le 2\right)$.
+(2) 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb P\left(X\le -2\right)=\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X\le 2\right)$. 二者不相等, 且 $\mathbb P\left(X\le -2\right)< \mathbb P\left(X\le 2\right)$.
 
-(3) $X$ 的标准差较小, 取值更集中在均值 0 附近, 故落在区间 $\left[-1,1\right]$ 内的概率更大, 即 $\mathbb P\left(\lvert X\rvert\le 1\right)>\mathbb P\left(\lvert Y\rvert\le 1\right)$. $\blacksquare$
+(3) $X$ 的标准差较小, 取值更集中在均值 0 附近, 故落在区间 $\left[-1,1\right]$ 内的概率更大, 即 $\mathbb P\left(\lvert X\rvert\le 1\right)> \mathbb P\left(\lvert Y\rvert\le 1\right)$. $\blacksquare$
 
 ### 练习三
 
@@ -76,11 +76,11 @@ $$
 
 (习题 7.5 复习巩固第 2 题) 已知某地区成年男子的身高 $X\sim N\left(170,5^2\right)$ (单位: $\mathrm{cm}$). 求:
 
-(1) $\mathbb P\left(165<X\le 175\right)$;
+(1) $\mathbb P\left(165< X\le 175\right)$;
 
 (2) $\mathbb P\left(X\le 165\right)$;
 
-(3) $\mathbb P\left(X>175\right)$.
+(3) $\mathbb P\left(X> 175\right)$.
 
 ### 解答 习题二
 
@@ -91,7 +91,7 @@ $$
 (1)
 
 $$
-\mathbb P\left(165<X\le 175\right)=\mathbb P\left(\mu-\sigma<X\le\mu+\sigma\right)\approx 0.6827.
+\mathbb P\left(165< X\le 175\right)=\mathbb P\left(\mu-\sigma< X\le\mu+\sigma\right)\approx 0.6827.
 $$
 
 (2) 由对称性, $\mathbb P\left(X\le 165\right)=\mathbb P\left(X\le\mu-\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587$.
@@ -99,7 +99,7 @@ $$
 (3)
 
 $$
-\mathbb P\left(X>175\right)=\mathbb P\left(X>\mu+\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587.
+\mathbb P\left(X> 175\right)=\mathbb P\left(X> \mu+\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587.
 $$
 
 $\blacksquare$

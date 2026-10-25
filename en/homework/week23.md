@@ -1,6 +1,6 @@
 # Assignment 23
 
-> **Definition 5.6.1** (Amplitude) <br>In the function $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$), $A$ is called the amplitude, i.e. the maximum distance the object moves away from the equilibrium position.
+> **Definition 5.6.1** (Amplitude) <br>In the function $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$), $A$ is called the amplitude, i.e. the maximum distance the object moves away from the equilibrium position.
 
 > **Definition 5.6.2** (Period) <br>The period of the function $y=A\sin\left(\omega x+\varphi\right)$ is $T=\frac{2\pi}{\omega}$, i.e. the time required for one complete back-and-forth motion.
 
@@ -188,7 +188,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 ### Problem 4
 
-(Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega x+\varphi\right)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
+(Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$, $0< \varphi< \pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
 
 The graph: the graph of $y=A\sin\left(\omega x+\varphi\right)$ over one period, with amplitude $A=2$ (maximum $2$, minimum $-2$) and period $\pi$; the curve passes through the point $\left(0,1\right)$ on a rising edge (i.e. at $x=0$ the function value is $1$ and then rises to the peak $2$).
 
@@ -220,7 +220,7 @@ Since the second hand makes one revolution in $60\text{ s}$, the angular velocit
 
 ### Problem 7
 
-(Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{ m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{ m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin\left(\omega t+\varphi\right)+K$ ($A>0$, $\omega>0$, $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$).
+(Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{ m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{ m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin\left(\omega t+\varphi\right)+K$ ($A> 0$, $\omega> 0$, $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$).
 
 (1) Find the values of $A$, $\omega$, $\varphi$, $K$ ($\varphi$ accurate to $0.0001$);
 
@@ -232,6 +232,6 @@ By **Definition 5.6.1** through **Definition 5.6.4**.
 
 (1) From the waterwheel radius $3\text{ m}$, we get $A=3$. From the axle center being $2.2\text{ m}$ above the water, we get $K=2.2$. From $1.5$ revolutions per minute, the period is $T=\frac{60}{1.5}=40\text{ s}$, hence $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
 
-Since at $t=0$ the bucket just emerges from the water, i.e. $d=0$, we get $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. Also $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$, hence $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
+Since at $t=0$ the bucket just emerges from the water, i.e. $d=0$, we get $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. Also $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$, hence $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
 
 (2) At the highest point, $\sin\left(\omega t+\varphi\right)=1$, i.e. $\omega t+\varphi=\frac{\pi}{2}$, so $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{ s}$. $\blacksquare$

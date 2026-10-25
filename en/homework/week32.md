@@ -10,7 +10,7 @@
 
 > **Definition 6.2.5** (Subtraction of Vectors) <br>Adding the opposite vector of $\boldsymbol{b}$ to the vector $\boldsymbol{a}$ is called the difference of $\boldsymbol{a}$ and $\boldsymbol{b}$, that is, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
-> **Definition 6.2.6** (Scalar Multiplication of a Vector) <br>The product of a real number $\lambda$ and a vector $\boldsymbol{a}$ is a vector, denoted $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; when $\lambda>0$, the direction of $\lambda\boldsymbol{a}$ is the same as that of $\boldsymbol{a}$; when $\lambda<0$, the direction is opposite.
+> **Definition 6.2.6** (Scalar Multiplication of a Vector) <br>The product of a real number $\lambda$ and a vector $\boldsymbol{a}$ is a vector, denoted $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; when $\lambda> 0$, the direction of $\lambda\boldsymbol{a}$ is the same as that of $\boldsymbol{a}$; when $\lambda< 0$, the direction is opposite.
 
 > **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication) <br>$\lambda\left(\mu\boldsymbol{a}\right)=\left(\lambda\mu\right)\boldsymbol{a}$; $\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$; $\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
 
@@ -242,7 +242,7 @@ By **Definition 6.2.11** (Dot Product), $\boldsymbol{p}\cdot\boldsymbol{q}=\lver
 
 ### Exercise 16
 
-(Exercise 6.2, Problem 16) In $\triangle ABC$, given $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$, determine the shape of $\triangle ABC$ when $\boldsymbol{a}\cdot\boldsymbol{b}<0$ or $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+(Exercise 6.2, Problem 16) In $\triangle ABC$, given $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$, determine the shape of $\triangle ABC$ when $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ or $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 ### Solution to Exercise 16
 
@@ -250,7 +250,7 @@ By **Common Conclusion 6.2.13** (Properties of the Dot Product), $\boldsymbol{a}
 
 When $\boldsymbol{a}\cdot\boldsymbol{b}=0$, $\boldsymbol{AB}\perp\boldsymbol{AC}$ and $\angle A=90^{\circ}$, so $\triangle ABC$ is a right triangle.
 
-When $\boldsymbol{a}\cdot\boldsymbol{b}<0$, $\cos A<0$ and $A>90^{\circ}$, so $\triangle ABC$ is an obtuse triangle. $\blacksquare$
+When $\boldsymbol{a}\cdot\boldsymbol{b}< 0$, $\cos A< 0$ and $A> 90^{\circ}$, so $\triangle ABC$ is an obtuse triangle. $\blacksquare$
 
 ### Exercise 17
 
@@ -520,7 +520,7 @@ By **Definition 6.2.11** (Dot Product).
 
 $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
 
-$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. When $\lambda<0$, the angle changes but the sign of the cosine is the same, so the equality still holds. By the same argument, $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ is identical. $\blacksquare$
+$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. When $\lambda< 0$, the angle changes but the sign of the cosine is the same, so the equality still holds. By the same argument, $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ is identical. $\blacksquare$
 
 ### Problem 13
 

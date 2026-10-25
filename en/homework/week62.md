@@ -336,7 +336,7 @@ $$
 \left|PQ\right|=\sqrt{\left(-1-0\right)^2+\left(1-3\right)^2}=\sqrt{1+4}=\sqrt 5.
 $$
 
-The condition for three segments to form a triangle is that the sum of any two sides is greater than the third. Since $\sqrt 5+\sqrt 5=2\sqrt 5<5$, the triangle inequality is not satisfied, so the three segments cannot form a triangle. $\blacksquare$
+The condition for three segments to form a triangle is that the sum of any two sides is greater than the third. Since $\sqrt 5+\sqrt 5=2\sqrt 5< 5$, the triangle inequality is not satisfied, so the three segments cannot form a triangle. $\blacksquare$
 
 ### Problem 4
 
@@ -538,7 +538,7 @@ The left-hand side equals the right-hand side, so $\left|AB\right|^2+\left|AC\ri
 
 ### Problem 13
 
-(Exercise 2.3, Comprehensive Application, Problem 13) Given that the distance $d$ from the point $A\left(a,6\right)$ to the line $3x-4y=2$ takes the following values: (1) $d=4$; (2) $d>4$, find the range of $a$.
+(Exercise 2.3, Comprehensive Application, Problem 13) Given that the distance $d$ from the point $A\left(a,6\right)$ to the line $3x-4y=2$ takes the following values: (1) $d=4$; (2) $d> 4$, find the range of $a$.
 
 ### Solution to Problem 13
 
@@ -550,7 +550,7 @@ $$
 
 (1) Setting $d=4$, i.e. $\frac{\left|3a-26\right|}{5}=4$, gives $\left|3a-26\right|=20$, i.e. $3a-26=20$ or $3a-26=-20$, so $a=\frac{46}{3}$ or $a=2$.
 
-(2) Setting $d>4$, i.e. $\frac{\left|3a-26\right|}{5}>4$, gives $\left|3a-26\right|>20$, i.e. $3a-26>20$ or $3a-26<-20$, i.e. $a>\frac{46}{3}$ or $a<2$. $\blacksquare$
+(2) Setting $d> 4$, i.e. $\frac{\left|3a-26\right|}{5}> 4$, gives $\left|3a-26\right|> 20$, i.e. $3a-26> 20$ or $3a-26< -20$, i.e. $a> \frac{46}{3}$ or $a< 2$. $\blacksquare$
 
 ### Problem 14
 
@@ -630,7 +630,7 @@ As $\lambda$ varies, the equation represents all lines passing through the fixed
 
 ### Problem 17
 
-(Exercise 2.3, Extension and Exploration, Problem 17) Given $0<x<1$, $0<y<1$.
+(Exercise 2.3, Extension and Exploration, Problem 17) Given $0< x< 1$, $0< y< 1$.
 
 (1) Prove that $\sqrt{x^2+y^2}+\sqrt{x^2+\left(1-y\right)^2}+\sqrt{\left(1-x\right)^2+y^2}+\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}\ge2\sqrt 2$, and find the condition under which equality holds.
 

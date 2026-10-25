@@ -8,7 +8,7 @@ $$
 r=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}}.
 $$
 
-> **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) <br>When $r>0$ the pairs are positively correlated, and when $r<0$ the pairs are negatively correlated; $-1\leqslant r\leqslant 1$; the closer $\left|r\right|$ is to $1$, the stronger the linear correlation, and the closer $\left|r\right|$ is to $0$, the weaker the linear correlation.
+> **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) <br>When $r> 0$ the pairs are positively correlated, and when $r< 0$ the pairs are negatively correlated; $-1\leqslant r\leqslant 1$; the closer $\left|r\right|$ is to $1$, the stronger the linear correlation, and the closer $\left|r\right|$ is to $0$, the weaker the linear correlation.
 
 > **Definition 8.2.1** (Simple Linear Regression Model) <br>The simple linear regression model for $x$ and the random variable $Y$ is
 
@@ -36,7 +36,7 @@ $$
 \chi^2=\frac{n\left(ad-bc\right)^2}{\left(a+b\right)\left(c+d\right)\left(a+c\right)\left(b+d\right)}.
 $$
 
-> **Common Conclusion 8.3.5** (Rules of the Independence Test) <br>When $\chi^2\geqslant x_\alpha$, we infer that $H_0$ does not hold, i.e. consider $X$ and $Y$ not independent, and the probability that this inference is wrong does not exceed $\alpha$; when $\chi^2<x_\alpha$, there is insufficient evidence to infer that $H_0$ does not hold, and $X$ and $Y$ may be considered independent. Common critical value: when $\alpha=0.05$, $x_\alpha=3.841$.
+> **Common Conclusion 8.3.5** (Rules of the Independence Test) <br>When $\chi^2\geqslant x_\alpha$, we infer that $H_0$ does not hold, i.e. consider $X$ and $Y$ not independent, and the probability that this inference is wrong does not exceed $\alpha$; when $\chi^2< x_\alpha$, there is insufficient evidence to infer that $H_0$ does not hold, and $X$ and $Y$ may be considered independent. Common critical value: when $\alpha=0.05$, $x_\alpha=3.841$.
 
 ### Problem 1
 
@@ -117,12 +117,12 @@ By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\alpha=0.
 Because
 
 $$
-\chi^2=2.974<3.841,
+\chi^2=2.974< 3.841,
 $$
 
 there is insufficient evidence to infer that the null hypothesis $H_0$ does not hold, i.e. the variables $x$ and $y$ may be considered independent.
 
-By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\chi^2<x_\alpha$, there is only insufficient evidence to reject $H_0$, which does not mean there is sufficient certainty that $H_0$ holds; hence one cannot say "the probability that this conclusion is wrong does not exceed $0.05$".
+By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\chi^2< x_\alpha$, there is only insufficient evidence to reject $H_0$, which does not mean there is sufficient certainty that $H_0$ holds; hence one cannot say "the probability that this conclusion is wrong does not exceed $0.05$".
 
 Therefore choose ($\mathrm C$). $\blacksquare$
 
@@ -260,7 +260,7 @@ $$
 By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 9.47>3.841,
+\chi^2\approx 9.47> 3.841,
 $$
 
 we infer that the null hypothesis does not hold, i.e. at a wrong-decision probability not exceeding $0.05$, the drug may be considered effective. $\blacksquare$

@@ -6,11 +6,11 @@
 
 > **定义 3.1.2** (定义域与值域) <br>$x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域; 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
 
-> **定义 3.1.5** (分段函数) <br>像 $y=\begin{cases}-x, & x<0,\\x, & x\ge0\end{cases}$ 这样的函数称为分段函数.
+> **定义 3.1.5** (分段函数) <br>像 $y=\begin{cases}-x, & x< 0,\\x, & x\ge0\end{cases}$ 这样的函数称为分段函数.
 
-> **定义 3.2.1** (单调递增与增函数) <br>设函数 $f\left(x\right)$ 的定义域为 $D$, 区间 $I\subseteq D$: 如果 $\forall x_1,x_2\in I$, 当 $x_1<x_2$ 时, 都有 $f\left(x_1\right)<f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递增. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递增时, 就称它是增函数.
+> **定义 3.2.1** (单调递增与增函数) <br>设函数 $f\left(x\right)$ 的定义域为 $D$, 区间 $I\subseteq D$: 如果 $\forall x_1,x_2\in I$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递增. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递增时, 就称它是增函数.
 
-> **定义 3.2.2** (单调递减与减函数) <br>如果 $\forall x_1,x_2\in I$, 当 $x_1<x_2$ 时, 都有 $f\left(x_1\right)>f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递减. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递减时, 就称它是减函数.
+> **定义 3.2.2** (单调递减与减函数) <br>如果 $\forall x_1,x_2\in I$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递减. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递减时, 就称它是减函数.
 
 > **定义 3.2.3** (最大值) <br>设函数 $y=f\left(x\right)$ 的定义域为 $D$, 如果存在实数 $M$ 满足: (1) $\forall x\in D$, 都有 $f\left(x\right)\le M$; (2) $\exists x_0\in D$, 使得 $f\left(x_0\right)=M$. 那么, 称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
 
@@ -101,7 +101,7 @@ $f\left(x\right)=4x^2-kx-8$ 的对称轴为 $x=\frac{k}{8}$. 抛物线开口向�
 (复习参考题 3 复习巩固第 6 题) 某公司生产某种电子仪器的固定成本为 $20000$ 元, 每生产一台仪器需增加投入 $100$ 元, 已知总收入 $R$ (单位: 元) 关于月产量 $x$ (单位: 台) 满足函数:
 
 $$
-R=\begin{cases}400x-\frac{1}{2}x^2, & 0\le x\le400,\\80000, & x>400.\end{cases}
+R=\begin{cases}400x-\frac{1}{2}x^2, & 0\le x\le400,\\80000, & x> 400.\end{cases}
 $$
 
 (1) 将利润 $P$ (单位: 元) 表示为月产量 $x$ 的函数;
@@ -116,19 +116,19 @@ $$
 
 当 $0\le x\le400$ 时, $P=400x-\frac{1}{2}x^2-20000-100x=-\frac{1}{2}x^2+300x-20000$.
 
-当 $x>400$ 时, $P=80000-20000-100x=60000-100x$.
+当 $x> 400$ 时, $P=80000-20000-100x=60000-100x$.
 
 故
 
 $$
-P=\begin{cases}-\frac{1}{2}x^2+300x-20000, & 0\le x\le400,\\60000-100x, & x>400.\end{cases}
+P=\begin{cases}-\frac{1}{2}x^2+300x-20000, & 0\le x\le400,\\60000-100x, & x> 400.\end{cases}
 $$
 
-(2) 当 $0\le x\le400$ 时, $P=-\frac{1}{2}\left(x-300\right)^2+25000$, 在 $x=300$ 时取最大值 $25000$. 当 $x>400$ 时, $P=60000-100x<60000-40000=20000<25000$. 故当月产量为 $300$ 台时利润最大, 最大利润为 $25000$ 元. $\blacksquare$
+(2) 当 $0\le x\le400$ 时, $P=-\frac{1}{2}\left(x-300\right)^2+25000$, 在 $x=300$ 时取最大值 $25000$. 当 $x> 400$ 时, $P=60000-100x< 60000-40000=20000< 25000$. 故当月产量为 $300$ 台时利润最大, 最大利润为 $25000$ 元. $\blacksquare$
 
 ### 习题七
 
-(复习参考题 3 综合运用第 7 题) 已知函数 $f\left(x\right)=\begin{cases}x\left(x+4\right), & x\ge0,\\x\left(x-4\right), & x<0,\end{cases}$ 求 $f\left(1\right)$, $f\left(-3\right)$, $f\left(a+1\right)$ 的值.
+(复习参考题 3 综合运用第 7 题) 已知函数 $f\left(x\right)=\begin{cases}x\left(x+4\right), & x\ge0,\\x\left(x-4\right), & x< 0,\end{cases}$ 求 $f\left(1\right)$, $f\left(-3\right)$, $f\left(a+1\right)$ 的值.
 
 ### 解答 习题七
 
@@ -138,7 +138,7 @@ $f\left(1\right)=1\cdot\left(1+4\right)=5$.
 
 $f\left(-3\right)=\left(-3\right)\cdot\left(-3-4\right)=\left(-3\right)\cdot\left(-7\right)=21$.
 
-当 $a+1\ge0$ 即 $a\ge-1$ 时, $f\left(a+1\right)=\left(a+1\right)\left(a+5\right)$; 当 $a+1<0$ 即 $a<-1$ 时, $f\left(a+1\right)=\left(a+1\right)\left(a-3\right)$. $\blacksquare$
+当 $a+1\ge0$ 即 $a\ge-1$ 时, $f\left(a+1\right)=\left(a+1\right)\left(a+5\right)$; 当 $a+1< 0$ 即 $a< -1$ 时, $f\left(a+1\right)=\left(a+1\right)\left(a-3\right)$. $\blacksquare$
 
 ### 习题八
 
@@ -176,9 +176,9 @@ $$
 
 由**定义 3.2.6** (奇函数) 及**定义 3.2.5** (偶函数), 利用奇偶性转化.
 
-(1) 任取 $x_1,x_2\in\left[-b,-a\right]$, 且 $x_1<x_2$, 则 $-x_1>-x_2$, 且 $-x_1,-x_2\in\left[a,b\right]$. 由 $f\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 得 $f\left(-x_1\right)<f\left(-x_2\right)$. 由奇函数性质, $f\left(-x_1\right)=-f\left(x_1\right)$, $f\left(-x_2\right)=-f\left(x_2\right)$, 故 $-f\left(x_1\right)<-f\left(x_2\right)$, 即 $f\left(x_1\right)>f\left(x_2\right)$. 因此 $f\left(x\right)$ 在 $\left[-b,-a\right]$ 上单调递减.
+(1) 任取 $x_1,x_2\in\left[-b,-a\right]$, 且 $x_1< x_2$, 则 $-x_1> -x_2$, 且 $-x_1,-x_2\in\left[a,b\right]$. 由 $f\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 得 $f\left(-x_1\right)< f\left(-x_2\right)$. 由奇函数性质, $f\left(-x_1\right)=-f\left(x_1\right)$, $f\left(-x_2\right)=-f\left(x_2\right)$, 故 $-f\left(x_1\right)< -f\left(x_2\right)$, 即 $f\left(x_1\right)> f\left(x_2\right)$. 因此 $f\left(x\right)$ 在 $\left[-b,-a\right]$ 上单调递减.
 
-(2) 任取 $x_1,x_2\in\left[-b,-a\right]$, 且 $x_1<x_2$, 则 $-x_1>-x_2$, 且 $-x_1,-x_2\in\left[a,b\right]$. 由 $g\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 得 $g\left(-x_1\right)<g\left(-x_2\right)$. 由偶函数性质, $g\left(-x_1\right)=g\left(x_1\right)$, $g\left(-x_2\right)=g\left(x_2\right)$, 故 $g\left(x_1\right)<g\left(x_2\right)$. 因此 $g\left(x\right)$ 在 $\left[-b,-a\right]$ 上单调递增. $\blacksquare$
+(2) 任取 $x_1,x_2\in\left[-b,-a\right]$, 且 $x_1< x_2$, 则 $-x_1> -x_2$, 且 $-x_1,-x_2\in\left[a,b\right]$. 由 $g\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 得 $g\left(-x_1\right)< g\left(-x_2\right)$. 由偶函数性质, $g\left(-x_1\right)=g\left(x_1\right)$, $g\left(-x_2\right)=g\left(x_2\right)$, 故 $g\left(x_1\right)< g\left(x_2\right)$. 因此 $g\left(x\right)$ 在 $\left[-b,-a\right]$ 上单调递增. $\blacksquare$
 
 ### 习题十
 
@@ -244,12 +244,12 @@ $$
 
 奇偶性: $f\left(-x\right)=-x-\frac{1}{-x}=-x+\frac{1}{x}=-\left(x-\frac{1}{x}\right)=-f\left(x\right)$, 故为奇函数.
 
-单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1<x_2$, 则
+单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1< x_2$, 则
 
 $$
 f\left(x_1\right)-f\left(x_2\right)=\left(x_1-\frac{1}{x_1}\right)-\left(x_2-\frac{1}{x_2}\right)=\left(x_1-x_2\right)+\left(\frac{1}{x_2}-\frac{1}{x_1}\right)=\left(x_1-x_2\right)\left(1+\frac{1}{x_1x_2}\right).
 $$
 
-由 $x_1<x_2$ 得 $x_1-x_2<0$, 又 $1+\frac{1}{x_1x_2}>0$, 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<f\left(x_2\right)$, 在 $\left(0,+\infty\right)$ 上单调递增. 由奇函数性质, 在 $\left(-\infty,0\right)$ 上也单调递增.
+由 $x_1< x_2$ 得 $x_1-x_2< 0$, 又 $1+\frac{1}{x_1x_2}> 0$, 故 $f\left(x_1\right)-f\left(x_2\right)< 0$, 即 $f\left(x_1\right)< f\left(x_2\right)$, 在 $\left(0,+\infty\right)$ 上单调递增. 由奇函数性质, 在 $\left(-\infty,0\right)$ 上也单调递增.
 
 值域: 当 $x\to0^+$ 时 $y\to-\infty$, 当 $x\to+\infty$ 时 $y\to+\infty$, 且函数在 $\left(0,+\infty\right)$ 上连续递增, 故值域为 $\mathbb R$. 图象关于原点对称, 在第一象限从 $-\infty$ 递增至 $+\infty$, 以 $y=x$ 和 $y$ 轴为渐近线. $\blacksquare$

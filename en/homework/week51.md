@@ -70,7 +70,7 @@ By **Definition 6.2.4** (Opposite Vectors) and **Definition 6.2.5** (Vector Subt
 
 (2) For any two vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, which of the following propositions is correct? ().
 
-(A) If $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert\boldsymbol{a}\rvert>\lvert\boldsymbol{b}\rvert$, and $\boldsymbol{a}$ and $\boldsymbol{b}$ are in the same direction, then $\boldsymbol{a}>\boldsymbol{b}$
+(A) If $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert\boldsymbol{a}\rvert> \lvert\boldsymbol{b}\rvert$, and $\boldsymbol{a}$ and $\boldsymbol{b}$ are in the same direction, then $\boldsymbol{a}> \boldsymbol{b}$
 
 (B) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$
 
@@ -108,7 +108,7 @@ By **Definition 6.2.4** (Opposite Vectors) and **Definition 6.2.5** (Vector Subt
 
 (3) By **Definition 6.1.7**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ shows that $ABCD$ is a parallelogram. Choose (D).
 
-(4) By **Definition 6.2.6**, $\lambda^2>0$, so $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction. Choose (C).
+(4) By **Definition 6.2.6**, $\lambda^2> 0$, so $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction. Choose (C).
 
 (5) $M$ is the midpoint of the diagonals, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, and the sum is $4\boldsymbol{OM}$. Choose (D).
 
@@ -284,7 +284,7 @@ By the Law of Sines: $\frac{AP}{\sin145^{\circ}}=\frac{8}{\sin20^{\circ}}$.
 
 $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ}}$.
 
-The perpendicular distance from the island to the course (the east-west direction): $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47>3$.
+The perpendicular distance from the island to the course (the east-west direction): $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47> 3$.
 
 Hence there is no danger of hitting the reef. $\blacksquare$
 

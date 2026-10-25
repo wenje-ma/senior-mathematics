@@ -2,7 +2,7 @@
 
 > **Definition 7.5.1** (Continuous Random Variable) <br>For a random variable $X$, if it can take any value in some interval, we call $X$ a continuous random variable.
 
-> **Definition 7.5.2** (Normal Distribution) <br>The normal density function is $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, where $\mu\in\mathbb R$, $\sigma>0$. We say that the random variable $X$ follows a normal distribution, denoted by $X\sim N\left(\mu,\sigma^2\right)$. When $\mu=0$, $\sigma=1$, it is called the standard normal distribution.
+> **Definition 7.5.2** (Normal Distribution) <br>The normal density function is $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, where $\mu\in\mathbb R$, $\sigma> 0$. We say that the random variable $X$ follows a normal distribution, denoted by $X\sim N\left(\mu,\sigma^2\right)$. When $\mu=0$, $\sigma=1$, it is called the standard normal distribution.
 
 > **Conclusion 7.5.3** (Properties of the Normal Curve) <br>The normal curve is symmetric about the line $x=\mu$, and reaches its peak $\frac{1}{\sigma\sqrt{2\pi}}$ at $x=\mu$; moreover, $\mathbb E\left(X\right)=\mu$, $D\left(X\right)=\sigma^2$.
 
@@ -10,7 +10,7 @@
 
 ### Exercise 1
 
-(Exercise 7.5, Problem 1) Given $X\sim N\left(0,1\right)$, the normal density function is $\;\_\_\;$, $\mathbb P\left(X\le 0\right)=\;\_\_\;$, $\mathbb P\left(\lvert X\rvert\le 1\right)=\;\_\_\;$, $\mathbb P\left(X\le 1\right)=\;\_\_\;$, $\mathbb P\left(X>1\right)=\;\_\_\;$.
+(Exercise 7.5, Problem 1) Given $X\sim N\left(0,1\right)$, the normal density function is $\;\_\_\;$, $\mathbb P\left(X\le 0\right)=\;\_\_\;$, $\mathbb P\left(\lvert X\rvert\le 1\right)=\;\_\_\;$, $\mathbb P\left(X\le 1\right)=\;\_\_\;$, $\mathbb P\left(X> 1\right)=\;\_\_\;$.
 
 ### Solution to Exercise 1
 
@@ -24,7 +24,7 @@ $$
 
 By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=0$, so $\mathbb P\left(X\le 0\right)=0.5$.
 
-By **Conclusion 7.5.4** (The $3\sigma$ Rule), $\mathbb P\left(\lvert X\rvert\le 1\right)\approx 0.6827$. Also $\mathbb P\left(X\le 1\right)=0.5+\frac{0.6827}{2}\approx 0.8413$, so $\mathbb P\left(X>1\right)=1-0.8413=0.1587$.
+By **Conclusion 7.5.4** (The $3\sigma$ Rule), $\mathbb P\left(\lvert X\rvert\le 1\right)\approx 0.6827$. Also $\mathbb P\left(X\le 1\right)=0.5+\frac{0.6827}{2}\approx 0.8413$, so $\mathbb P\left(X> 1\right)=1-0.8413=0.1587$.
 
 The blanks are, in order, $f\left(x\right)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$, $0.5$, $0.6827$, $0.8413$, $0.1587$. $\blacksquare$
 
@@ -46,9 +46,9 @@ By **Conclusion 7.5.3** (Properties of the Normal Curve) and **Conclusion 7.5.4*
 
 (1) Both density curves are symmetric about $x=0$ and bell-shaped. The standard deviation of $X$ is 2 and that of $Y$ is 3, so the curve of $X$ is steeper and more concentrated near 0, while the curve of $Y$ is flatter and more spread out.
 
-(2) By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=0$, so $\mathbb P\left(X\le -2\right)=\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X\le 2\right)$. The two are not equal, and $\mathbb P\left(X\le -2\right)<\mathbb P\left(X\le 2\right)$.
+(2) By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=0$, so $\mathbb P\left(X\le -2\right)=\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X\le 2\right)$. The two are not equal, and $\mathbb P\left(X\le -2\right)< \mathbb P\left(X\le 2\right)$.
 
-(3) $X$ has a smaller standard deviation, so its values are more concentrated near the mean 0; hence the probability of falling in the interval $\left[-1,1\right]$ is larger, i.e. $\mathbb P\left(\lvert X\rvert\le 1\right)>\mathbb P\left(\lvert Y\rvert\le 1\right)$. $\blacksquare$
+(3) $X$ has a smaller standard deviation, so its values are more concentrated near the mean 0; hence the probability of falling in the interval $\left[-1,1\right]$ is larger, i.e. $\mathbb P\left(\lvert X\rvert\le 1\right)> \mathbb P\left(\lvert Y\rvert\le 1\right)$. $\blacksquare$
 
 ### Exercise 3
 
@@ -76,11 +76,11 @@ The mean height of girls is 74 and that of boys is 72, i.e. the average height o
 
 (Exercise 7.5, Review and Consolidation, Problem 2) Given that the heights of adult men in a region satisfy $X\sim N\left(170,5^2\right)$ (unit: $\mathrm{cm}$). Find:
 
-(1) $\mathbb P\left(165<X\le 175\right)$;
+(1) $\mathbb P\left(165< X\le 175\right)$;
 
 (2) $\mathbb P\left(X\le 165\right)$;
 
-(3) $\mathbb P\left(X>175\right)$.
+(3) $\mathbb P\left(X> 175\right)$.
 
 ### Solution to Problem 2
 
@@ -91,7 +91,7 @@ Here $\mu=170$, $\sigma=5$, so $165=\mu-\sigma$, $175=\mu+\sigma$.
 (1)
 
 $$
-\mathbb P\left(165<X\le 175\right)=\mathbb P\left(\mu-\sigma<X\le\mu+\sigma\right)\approx 0.6827.
+\mathbb P\left(165< X\le 175\right)=\mathbb P\left(\mu-\sigma< X\le\mu+\sigma\right)\approx 0.6827.
 $$
 
 (2) By symmetry, $\mathbb P\left(X\le 165\right)=\mathbb P\left(X\le\mu-\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587$.
@@ -99,7 +99,7 @@ $$
 (3)
 
 $$
-\mathbb P\left(X>175\right)=\mathbb P\left(X>\mu+\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587.
+\mathbb P\left(X> 175\right)=\mathbb P\left(X> \mu+\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587.
 $$
 
 $\blacksquare$

@@ -4,7 +4,7 @@
 
 > **Definition 6.2.5** (Vector Subtraction) <br>Adding the opposite vector of $\boldsymbol{b}$ to the vector $\boldsymbol{a}$ is called the difference of $\boldsymbol{a}$ and $\boldsymbol{b}$, i.e. $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
 
-> **Definition 6.2.6** (Scalar Multiplication of Vectors) <br>The product of a real number $\lambda$ and a vector $\boldsymbol{a}$ is a vector, denoted $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; when $\lambda>0$, the direction of $\lambda\boldsymbol{a}$ is the same as that of $\boldsymbol{a}$; when $\lambda<0$, the direction is opposite.
+> **Definition 6.2.6** (Scalar Multiplication of Vectors) <br>The product of a real number $\lambda$ and a vector $\boldsymbol{a}$ is a vector, denoted $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; when $\lambda> 0$, the direction of $\lambda\boldsymbol{a}$ is the same as that of $\boldsymbol{a}$; when $\lambda< 0$, the direction is opposite.
 
 > **Theorem 6.2.8** (Collinear Vectors Theorem) <br>The necessary and sufficient condition for the vector $\boldsymbol{a}$ ($\boldsymbol{a}\neq\boldsymbol{0}$) and the vector $\boldsymbol{b}$ to be collinear is: there exists a unique real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 

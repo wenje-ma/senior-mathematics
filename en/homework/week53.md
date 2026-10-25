@@ -109,7 +109,7 @@ $$
 Hence the volume
 
 $$
-V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad \left(0<x<10\right).
+V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad \left(0< x< 10\right).
 $$
 
 $\blacksquare$

@@ -106,15 +106,15 @@ $$
 
 ### 解答 练习六
 
-由**常用结论** (三角函数在各象限的符号), 三角形内角满足 $0<\alpha<\pi$.
+由**常用结论** (三角函数在各象限的符号), 三角形内角满足 $0< \alpha< \pi$.
 
-(1) 由 $0<\alpha<\pi$, 角 $\alpha$ 的终边在第一或第二象限, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha>0$, 不可能取负值.
+(1) 由 $0< \alpha< \pi$, 角 $\alpha$ 的终边在第一或第二象限, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha> 0$, 不可能取负值.
 
-(2) 当 $\frac{\pi}{2}<\alpha<\pi$ 时, $\alpha$ 为第二象限角, $\cos\alpha<0$, 故 $\cos\alpha$ 有可能取负值.
+(2) 当 $\frac{\pi}{2}< \alpha< \pi$ 时, $\alpha$ 为第二象限角, $\cos\alpha< 0$, 故 $\cos\alpha$ 有可能取负值.
 
-(3) 当 $\frac{\pi}{2}<\alpha<\pi$ 时, $\alpha$ 为第二象限角, $\tan\alpha<0$, 故 $\tan\alpha$ 有可能取负值.
+(3) 当 $\frac{\pi}{2}< \alpha< \pi$ 时, $\alpha$ 为第二象限角, $\tan\alpha< 0$, 故 $\tan\alpha$ 有可能取负值.
 
-(4) 由 $0<\alpha<\pi$, 知 $0<\frac{\alpha}{2}<\frac{\pi}{2}$, $\frac{\alpha}{2}$ 为第一象限角, $\tan\frac{\alpha}{2}>0$, 不可能取负值.
+(4) 由 $0< \alpha< \pi$, 知 $0< \frac{\alpha}{2}< \frac{\pi}{2}$, $\frac{\alpha}{2}$ 为第一象限角, $\tan\frac{\alpha}{2}> 0$, 不可能取负值.
 
 综上, $\cos\alpha$ 和 $\tan\alpha$ 有可能取负值. $\blacksquare$
 
@@ -138,21 +138,21 @@ $$
 
 由**常用结论** (三角函数在各象限的符号) 及**公式一** (终边相同的角的三角函数值).
 
-(1) 由 $156^{\circ}$ 是第二象限角, 知 $\sin156^{\circ}>0$.
+(1) 由 $156^{\circ}$ 是第二象限角, 知 $\sin156^{\circ}> 0$.
 
-(2) 由 $\frac{16\pi}{5}=2\pi+\frac{6\pi}{5}$, $\frac{6\pi}{5}$ 是第三象限角, 知 $\cos\frac{16\pi}{5}<0$.
+(2) 由 $\frac{16\pi}{5}=2\pi+\frac{6\pi}{5}$, $\frac{6\pi}{5}$ 是第三象限角, 知 $\cos\frac{16\pi}{5}< 0$.
 
 (3) 由 $-450^{\circ}=-360^{\circ}-90^{\circ}$, 终边在 $y$ 轴负半轴, $\cos\left(-450^{\circ}\right)=0$.
 
-(4) 由 $-\frac{17\pi}{8}=-2\pi-\frac{\pi}{8}$, $-\frac{\pi}{8}$ 是第四象限角, 知 $\tan\left(-\frac{17\pi}{8}\right)<0$.
+(4) 由 $-\frac{17\pi}{8}=-2\pi-\frac{\pi}{8}$, $-\frac{\pi}{8}$ 是第四象限角, 知 $\tan\left(-\frac{17\pi}{8}\right)< 0$.
 
-(5) 由 $-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$, $\frac{2\pi}{3}$ 是第二象限角, 知 $\sin\left(-\frac{4\pi}{3}\right)>0$.
+(5) 由 $-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$, $\frac{2\pi}{3}$ 是第二象限角, 知 $\sin\left(-\frac{4\pi}{3}\right)> 0$.
 
-(6) 由 $556^{\circ}=360^{\circ}+196^{\circ}$, $196^{\circ}$ 是第三象限角, 知 $\tan556^{\circ}>0$. $\blacksquare$
+(6) 由 $556^{\circ}=360^{\circ}+196^{\circ}$, $196^{\circ}$ 是第三象限角, 知 $\tan556^{\circ}> 0$. $\blacksquare$
 
 ### 练习八
 
-(练习 5.2 第 8 题) 对于 ①$\sin\theta>0$, ②$\sin\theta<0$, ③$\cos\theta>0$, ④$\cos\theta<0$, ⑤$\tan\theta>0$ 与 ⑥$\tan\theta<0$, 选择恰当的关系式序号填空:
+(练习 5.2 第 8 题) 对于 ①$\sin\theta> 0$, ②$\sin\theta< 0$, ③$\cos\theta> 0$, ④$\cos\theta< 0$, ⑤$\tan\theta> 0$ 与 ⑥$\tan\theta< 0$, 选择恰当的关系式序号填空:
 
 (1) 角 $\theta$ 为第一象限角的充要条件是 $\;\_\_\;$;
 
@@ -166,13 +166,13 @@ $$
 
 由**常用结论** (三角函数在各象限的符号).
 
-(1) 第一象限角: $\sin\theta>0$ 且 $\cos\theta>0$, 且 $\tan\theta>0$. 充要条件是 ①③⑤.
+(1) 第一象限角: $\sin\theta> 0$ 且 $\cos\theta> 0$, 且 $\tan\theta> 0$. 充要条件是 ①③⑤.
 
-(2) 第二象限角: $\sin\theta>0$ 且 $\cos\theta<0$, 且 $\tan\theta<0$. 充要条件是 ①④⑥.
+(2) 第二象限角: $\sin\theta> 0$ 且 $\cos\theta< 0$, 且 $\tan\theta< 0$. 充要条件是 ①④⑥.
 
-(3) 第三象限角: $\sin\theta<0$ 且 $\cos\theta<0$, 且 $\tan\theta>0$. 充要条件是 ②④⑤.
+(3) 第三象限角: $\sin\theta< 0$ 且 $\cos\theta< 0$, 且 $\tan\theta> 0$. 充要条件是 ②④⑤.
 
-(4) 第四象限角: $\sin\theta<0$ 且 $\cos\theta>0$, 且 $\tan\theta<0$. 充要条件是 ②③⑥. $\blacksquare$
+(4) 第四象限角: $\sin\theta< 0$ 且 $\cos\theta> 0$, 且 $\tan\theta< 0$. 充要条件是 ②③⑥. $\blacksquare$
 
 ### 练习九
 
@@ -206,7 +206,7 @@ $$
 
 由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-由 $\cos\alpha=-\frac{4}{5}$, 得 $\sin^{2}\alpha=1-\cos^{2}\alpha=1-\frac{16}{25}=\frac{9}{25}$. 因为 $\alpha$ 为第三象限角, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha<0$, 故
+由 $\cos\alpha=-\frac{4}{5}$, 得 $\sin^{2}\alpha=1-\cos^{2}\alpha=1-\frac{16}{25}=\frac{9}{25}$. 因为 $\alpha$ 为第三象限角, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha< 0$, 故
 
 $$
 \sin\alpha=-\frac{3}{5},\quad \tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{-\frac{3}{5}}{-\frac{4}{5}}=\frac{3}{4}.
@@ -224,9 +224,9 @@ $\blacksquare$
 
 由 $\tan\varphi=-\sqrt{3}$, 知 $\varphi$ 为第二或第四象限角.
 
-(1) 若 $\varphi$ 为第二象限角, 则 $\sin\varphi>0$, $\cos\varphi<0$. 由 $\sin\varphi=-\sqrt{3}\cos\varphi$ 代入 $\sin^{2}\varphi+\cos^{2}\varphi=1$, 得 $3\cos^{2}\varphi+\cos^{2}\varphi=1$, 即 $\cos^{2}\varphi=\frac{1}{4}$, 故 $\cos\varphi=-\frac{1}{2}$, $\sin\varphi=\frac{\sqrt{3}}{2}$.
+(1) 若 $\varphi$ 为第二象限角, 则 $\sin\varphi> 0$, $\cos\varphi< 0$. 由 $\sin\varphi=-\sqrt{3}\cos\varphi$ 代入 $\sin^{2}\varphi+\cos^{2}\varphi=1$, 得 $3\cos^{2}\varphi+\cos^{2}\varphi=1$, 即 $\cos^{2}\varphi=\frac{1}{4}$, 故 $\cos\varphi=-\frac{1}{2}$, $\sin\varphi=\frac{\sqrt{3}}{2}$.
 
-(2) 若 $\varphi$ 为第四象限角, 则 $\sin\varphi<0$, $\cos\varphi>0$, 同理得 $\cos\varphi=\frac{1}{2}$, $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
+(2) 若 $\varphi$ 为第四象限角, 则 $\sin\varphi< 0$, $\cos\varphi> 0$, 同理得 $\cos\varphi=\frac{1}{2}$, $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
 ### 练习十二
 
@@ -320,9 +320,9 @@ $\blacksquare$
 
 由 $x=3a$, $y=4a$, 得 $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
 
-(1) 当 $a>0$ 时, $r=5a$, 得 $\sin\alpha=\frac{4a}{5a}=\frac{4}{5}$, $\cos\alpha=\frac{3a}{5a}=\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$.
+(1) 当 $a> 0$ 时, $r=5a$, 得 $\sin\alpha=\frac{4a}{5a}=\frac{4}{5}$, $\cos\alpha=\frac{3a}{5a}=\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$.
 
-(2) 当 $a<0$ 时, $r=-5a$, 得 $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
+(2) 当 $a< 0$ 时, $r=-5a$, 得 $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
 
 ### 习题三
 
@@ -410,17 +410,17 @@ $\blacksquare$
 
 由**常用结论** (三角函数在各象限的符号) 及**公式一** (终边相同的角的三角函数值).
 
-(1) $186^{\circ}$ 是第三象限角, $\sin186^{\circ}<0$.
+(1) $186^{\circ}$ 是第三象限角, $\sin186^{\circ}< 0$.
 
-(2) $505^{\circ}=360^{\circ}+145^{\circ}$, $145^{\circ}$ 是第二象限角, $\tan505^{\circ}<0$.
+(2) $505^{\circ}=360^{\circ}+145^{\circ}$, $145^{\circ}$ 是第二象限角, $\tan505^{\circ}< 0$.
 
-(3) $7.6\pi=6\pi+1.6\pi$, $1.6\pi$ 即 $288^{\circ}$, 是第四象限角, $\sin7.6\pi<0$.
+(3) $7.6\pi=6\pi+1.6\pi$, $1.6\pi$ 即 $288^{\circ}$, 是第四象限角, $\sin7.6\pi< 0$.
 
-(4) $-\frac{23\pi}{4}=-6\pi+\frac{\pi}{4}$, $\frac{\pi}{4}$ 是第一象限角, $\tan\left(-\frac{23\pi}{4}\right)>0$.
+(4) $-\frac{23\pi}{4}=-6\pi+\frac{\pi}{4}$, $\frac{\pi}{4}$ 是第一象限角, $\tan\left(-\frac{23\pi}{4}\right)> 0$.
 
-(5) $940^{\circ}=2\times360^{\circ}+220^{\circ}$, $220^{\circ}$ 是第三象限角, $\cos940^{\circ}<0$.
+(5) $940^{\circ}=2\times360^{\circ}+220^{\circ}$, $220^{\circ}$ 是第三象限角, $\cos940^{\circ}< 0$.
 
-(6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, $\frac{9\pi}{17}$ 是第二象限角, $\cos\left(-\frac{59\pi}{17}\right)<0$. $\blacksquare$
+(6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, $\frac{9\pi}{17}$ 是第二象限角, $\cos\left(-\frac{59\pi}{17}\right)< 0$. $\blacksquare$
 
 ### 习题六
 
@@ -438,9 +438,9 @@ $\blacksquare$
 
 由**常用结论** (同角三角函数的基本关系) 及**常用结论** (三角函数在各象限的符号).
 
-(1) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\cos^{2}\alpha=1-\frac{3}{4}=\frac{1}{4}$. 因为 $\alpha$ 为第四象限角, $\cos\alpha>0$, 故 $\cos\alpha=\frac{1}{2}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
+(1) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\cos^{2}\alpha=1-\frac{3}{4}=\frac{1}{4}$. 因为 $\alpha$ 为第四象限角, $\cos\alpha> 0$, 故 $\cos\alpha=\frac{1}{2}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
 
-(2) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-\frac{25}{169}=\frac{144}{169}$. 因为 $\alpha$ 为第二象限角, $\sin\alpha>0$, 故 $\sin\alpha=\frac{12}{13}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\frac{12}{5}$.
+(2) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-\frac{25}{169}=\frac{144}{169}$. 因为 $\alpha$ 为第二象限角, $\sin\alpha> 0$, 故 $\sin\alpha=\frac{12}{13}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\frac{12}{5}$.
 
 (3) 由 $\tan\alpha=-\frac{3}{4}$, 知 $\alpha$ 为第二或第四象限角. 由 $\sin\alpha=-\frac{3}{4}\cos\alpha$ 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\frac{9}{16}\cos^{2}\alpha+\cos^{2}\alpha=1$, 即 $\cos^{2}\alpha=\frac{16}{25}$. 若 $\alpha$ 为第二象限角, 则 $\cos\alpha=-\frac{4}{5}$, $\sin\alpha=\frac{3}{5}$; 若 $\alpha$ 为第四象限角, 则 $\cos\alpha=\frac{4}{5}$, $\sin\alpha=-\frac{3}{5}$.
 
@@ -496,13 +496,13 @@ $\blacksquare$
 
 由**常用结论** (三角函数在各象限的符号).
 
-(1) $125^{\circ}$ 是第二象限角, $\tan125^{\circ}<0$; $273^{\circ}$ 是第四象限角, $\sin273^{\circ}<0$. 故 $\tan125^{\circ}\sin273^{\circ}>0$.
+(1) $125^{\circ}$ 是第二象限角, $\tan125^{\circ}< 0$; $273^{\circ}$ 是第四象限角, $\sin273^{\circ}< 0$. 故 $\tan125^{\circ}\sin273^{\circ}> 0$.
 
-(2) $108^{\circ}$ 是第二象限角, $\tan108^{\circ}<0$; $305^{\circ}$ 是第四象限角, $\cos305^{\circ}>0$. 故 $\frac{\tan108^{\circ}}{\cos305^{\circ}}<0$.
+(2) $108^{\circ}$ 是第二象限角, $\tan108^{\circ}< 0$; $305^{\circ}$ 是第四象限角, $\cos305^{\circ}> 0$. 故 $\frac{\tan108^{\circ}}{\cos305^{\circ}}< 0$.
 
-(3) $\frac{5\pi}{4}$ 是第三象限角, $\sin\frac{5\pi}{4}<0$; $\frac{4\pi}{5}$ 是第二象限角, $\cos\frac{4\pi}{5}<0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}<0$. 三个负数相乘, 故原式 $<0$.
+(3) $\frac{5\pi}{4}$ 是第三象限角, $\sin\frac{5\pi}{4}< 0$; $\frac{4\pi}{5}$ 是第二象限角, $\cos\frac{4\pi}{5}< 0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}< 0$. 三个负数相乘, 故原式 $< 0$.
 
-(4) $\frac{5\pi}{6}$ 是第二象限角, $\cos\frac{5\pi}{6}<0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}<0$; $\frac{2\pi}{3}$ 是第二象限角, $\sin\frac{2\pi}{3}>0$. 分子为正, 分母为正, 故原式 $>0$. $\blacksquare$
+(4) $\frac{5\pi}{6}$ 是第二象限角, $\cos\frac{5\pi}{6}< 0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}< 0$; $\frac{2\pi}{3}$ 是第二象限角, $\sin\frac{2\pi}{3}> 0$. 分子为正, 分母为正, 故原式 $> 0$. $\blacksquare$
 
 ### 习题九
 
@@ -532,25 +532,25 @@ $\blacksquare$
 
 (习题 5.2 综合运用第 10 题) 求证:
 
-(1) 角 $\theta$ 为第二或第三象限角的充要条件是 $\sin\theta\tan\theta<0$;
+(1) 角 $\theta$ 为第二或第三象限角的充要条件是 $\sin\theta\tan\theta< 0$;
 
-(2) 角 $\theta$ 为第三或第四象限角的充要条件是 $\cos\theta\tan\theta<0$;
+(2) 角 $\theta$ 为第三或第四象限角的充要条件是 $\cos\theta\tan\theta< 0$;
 
-(3) 角 $\theta$ 为第一或第四象限角的充要条件是 $\frac{\sin\theta}{\tan\theta}>0$;
+(3) 角 $\theta$ 为第一或第四象限角的充要条件是 $\frac{\sin\theta}{\tan\theta}> 0$;
 
-(4) 角 $\theta$ 为第一或第三象限角的充要条件是 $\sin\theta\cos\theta>0$.
+(4) 角 $\theta$ 为第一或第三象限角的充要条件是 $\sin\theta\cos\theta> 0$.
 
 ### 解答 习题十
 
 由**常用结论** (三角函数在各象限的符号).
 
-(1) $\sin\theta\tan\theta<0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 异号. 第二象限: $\sin\theta>0$, $\tan\theta<0$, 异号; 第三象限: $\sin\theta<0$, $\tan\theta>0$, 异号. 其他象限同号. 故充要条件成立.
+(1) $\sin\theta\tan\theta< 0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 异号. 第二象限: $\sin\theta> 0$, $\tan\theta< 0$, 异号; 第三象限: $\sin\theta< 0$, $\tan\theta> 0$, 异号. 其他象限同号. 故充要条件成立.
 
-(2) $\cos\theta\tan\theta<0$ 等价于 $\cos\theta$ 与 $\tan\theta$ 异号. 第三象限: $\cos\theta<0$, $\tan\theta>0$, 异号; 第四象限: $\cos\theta>0$, $\tan\theta<0$, 异号. 其他象限同号. 故充要条件成立.
+(2) $\cos\theta\tan\theta< 0$ 等价于 $\cos\theta$ 与 $\tan\theta$ 异号. 第三象限: $\cos\theta< 0$, $\tan\theta> 0$, 异号; 第四象限: $\cos\theta> 0$, $\tan\theta< 0$, 异号. 其他象限同号. 故充要条件成立.
 
-(3) $\frac{\sin\theta}{\tan\theta}>0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 同号. 第一象限: $\sin\theta>0$, $\tan\theta>0$, 同号; 第四象限: $\sin\theta<0$, $\tan\theta<0$, 同号. 其他象限异号. 故充要条件成立.
+(3) $\frac{\sin\theta}{\tan\theta}> 0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 同号. 第一象限: $\sin\theta> 0$, $\tan\theta> 0$, 同号; 第四象限: $\sin\theta< 0$, $\tan\theta< 0$, 同号. 其他象限异号. 故充要条件成立.
 
-(4) $\sin\theta\cos\theta>0$ 等价于 $\sin\theta$ 与 $\cos\theta$ 同号. 第一象限: 均正; 第三象限: 均负. 第二, 四象限异号. 故充要条件成立. $\blacksquare$
+(4) $\sin\theta\cos\theta> 0$ 等价于 $\sin\theta$ 与 $\cos\theta$ 同号. 第一象限: 均正; 第三象限: 均负. 第二, 四象限异号. 故充要条件成立. $\blacksquare$
 
 ### 习题十一
 
@@ -560,21 +560,21 @@ $\blacksquare$
 
 由**常用结论** (同角三角函数的基本关系), $\sin^{2}x+\cos^{2}x=1$.
 
-由 $\sin x=-\frac{1}{3}<0$, 知 $x$ 为第三或第四象限角. 由 $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, 得 $\cos x=\pm\frac{2\sqrt{2}}{3}$.
+由 $\sin x=-\frac{1}{3}< 0$, 知 $x$ 为第三或第四象限角. 由 $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, 得 $\cos x=\pm\frac{2\sqrt{2}}{3}$.
 
-(1) 若 $x$ 为第三象限角, 则 $\cos x<0$, $\cos x=-\frac{2\sqrt{2}}{3}$, $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
+(1) 若 $x$ 为第三象限角, 则 $\cos x< 0$, $\cos x=-\frac{2\sqrt{2}}{3}$, $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
 
-(2) 若 $x$ 为第四象限角, 则 $\cos x>0$, $\cos x=\frac{2\sqrt{2}}{3}$, $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
+(2) 若 $x$ 为第四象限角, 则 $\cos x> 0$, $\cos x=\frac{2\sqrt{2}}{3}$, $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
 
 ### 习题十二
 
-(习题 5.2 综合运用第 12 题) 已知 $\tan\alpha=\sqrt{3}$, $\pi<\alpha<\frac{3\pi}{2}$, 求 $\cos\alpha-\sin\alpha$ 的值.
+(习题 5.2 综合运用第 12 题) 已知 $\tan\alpha=\sqrt{3}$, $\pi< \alpha< \frac{3\pi}{2}$, 求 $\cos\alpha-\sin\alpha$ 的值.
 
 ### 解答 习题十二
 
 由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-由 $\pi<\alpha<\frac{3\pi}{2}$, 知 $\alpha$ 为第三象限角, $\sin\alpha<0$, $\cos\alpha<0$. 由 $\tan\alpha=\sqrt{3}$, 得 $\sin\alpha=\sqrt{3}\cos\alpha$, 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $4\cos^{2}\alpha=1$, $\cos^{2}\alpha=\frac{1}{4}$, 故 $\cos\alpha=-\frac{1}{2}$, $\sin\alpha=-\frac{\sqrt{3}}{2}$. 因此
+由 $\pi< \alpha< \frac{3\pi}{2}$, 知 $\alpha$ 为第三象限角, $\sin\alpha< 0$, $\cos\alpha< 0$. 由 $\tan\alpha=\sqrt{3}$, 得 $\sin\alpha=\sqrt{3}\cos\alpha$, 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $4\cos^{2}\alpha=1$, $\cos^{2}\alpha=\frac{1}{4}$, 故 $\cos\alpha=-\frac{1}{2}$, $\sin\alpha=-\frac{\sqrt{3}}{2}$. 因此
 
 $$
 \cos\alpha-\sin\alpha=-\frac{1}{2}-\left(-\frac{\sqrt{3}}{2}\right)=\frac{\sqrt{3}-1}{2}.
@@ -646,7 +646,7 @@ $\blacksquare$
 
 由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-因为 $\alpha$ 为第二象限角, $\cos\alpha<0$. 对两式分别有理化:
+因为 $\alpha$ 为第二象限角, $\cos\alpha< 0$. 对两式分别有理化:
 
 $$
 \sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{\left(1+\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},

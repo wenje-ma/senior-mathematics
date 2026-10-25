@@ -1,8 +1,8 @@
 # Assignment 11
 
-> **Definition 3.2.1** (Monotone Increasing and Increasing Function) <br>Let the domain of the function $f\left(x\right)$ be $D$, and let $I\subseteq D$ be an interval: if for $\forall x_1,x_2\in I$, whenever $x_1<x_2$, we always have $f\left(x_1\right)<f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically increasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically increasing on its domain, it is called an increasing function.
+> **Definition 3.2.1** (Monotone Increasing and Increasing Function) <br>Let the domain of the function $f\left(x\right)$ be $D$, and let $I\subseteq D$ be an interval: if for $\forall x_1,x_2\in I$, whenever $x_1< x_2$, we always have $f\left(x_1\right)< f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically increasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically increasing on its domain, it is called an increasing function.
 
-> **Definition 3.2.2** (Monotone Decreasing and Decreasing Function) <br>If for $\forall x_1,x_2\in I$, whenever $x_1<x_2$, we always have $f\left(x_1\right)>f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically decreasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically decreasing on its domain, it is called a decreasing function.
+> **Definition 3.2.2** (Monotone Decreasing and Decreasing Function) <br>If for $\forall x_1,x_2\in I$, whenever $x_1< x_2$, we always have $f\left(x_1\right)> f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically decreasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically decreasing on its domain, it is called a decreasing function.
 
 > **Definition 3.2.5** (Even Function) <br>Let the domain of the function $f\left(x\right)$ be $D$. If for $\forall x\in D$ we always have $-x\in D$ and $f\left(-x\right)=f\left(x\right)$, then the function $f\left(x\right)$ is called an even function.
 
@@ -34,9 +34,9 @@ Since the graph passes through the point $\left(2,\sqrt2\right)$, we have $2^\al
 
 By **Standard Conclusion 3.3.2** (Properties of Power Functions), use the monotonicity of power functions to compare.
 
-(1) The function $y=x^3$ is monotonically increasing on $\mathbb R$. From $-1.5<-1.4$, we get $\left(-1.5\right)^3<\left(-1.4\right)^3$.
+(1) The function $y=x^3$ is monotonically increasing on $\mathbb R$. From $-1.5< -1.4$, we get $\left(-1.5\right)^3< \left(-1.4\right)^3$.
 
-(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. The function $y=x^{-1}=\frac{1}{x}$ is monotonically decreasing on $\left(0,+\infty\right)$. From $1.5>1.4>0$, we get $\frac{1}{1.5}<\frac{1}{1.4}$, so $-\frac{1}{1.5}>-\frac{1}{1.4}$, i.e. $\frac{1}{-1.5}>\frac{1}{-1.4}$. $\blacksquare$
+(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. The function $y=x^{-1}=\frac{1}{x}$ is monotonically decreasing on $\left(0,+\infty\right)$. From $1.5> 1.4> 0$, we get $\frac{1}{1.5}< \frac{1}{1.4}$, so $-\frac{1}{1.5}> -\frac{1}{1.4}$, i.e. $\frac{1}{-1.5}> \frac{1}{-1.4}$. $\blacksquare$
 
 ### Exercise 3
 
@@ -46,7 +46,7 @@ By **Standard Conclusion 3.3.2** (Properties of Power Functions), use the monoto
 
 By **Definition 3.2.1** (Monotone Increasing and Increasing Function) and **Definition 3.2.6** (Odd Function).
 
-Monotonicity: for $\forall x_1,x_2\in\mathbb R$ with $x_1<x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. From $x_1<x_2$ we get $x_1-x_2<0$. When $x_1,x_2$ have the same sign, $x_1^2+x_1x_2+x_2^2>0$; when $x_1x_2\le0$, $x_1^2+x_2^2>0$ and $x_1x_2\le0$, but $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}>0$. Thus $f\left(x_1\right)-f\left(x_2\right)<0$, i.e. $f\left(x_1\right)<f\left(x_2\right)$, so $f\left(x\right)=x^3$ is monotonically increasing on $\mathbb R$.
+Monotonicity: for $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$. When $x_1,x_2$ have the same sign, $x_1^2+x_1x_2+x_2^2> 0$; when $x_1x_2\le0$, $x_1^2+x_2^2> 0$ and $x_1x_2\le0$, but $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}> 0$. Thus $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so $f\left(x\right)=x^3$ is monotonically increasing on $\mathbb R$.
 
 Parity: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, so $f\left(x\right)=x^3$ is an odd function. $\blacksquare$
 
@@ -54,19 +54,19 @@ Parity: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, so $f\left(x
 
 (Exercise 3.3, Review and Consolidation, Problem 1) Draw the graph of the function $y=\sqrt{\left|x\right|}$, determine the parity of the function, and discuss its monotonicity.
 
-The graph: in a rectangular coordinate plane, the graph of $y=\sqrt{\left|x\right|}$ is symmetric about the $y$-axis; for $x\ge0$ it is the curve $y=\sqrt x$ rising from the origin $\left(0,0\right)$ to the upper right, and for $x<0$ it is its mirror image about the $y$-axis rising from the origin to the upper left.
+The graph: in a rectangular coordinate plane, the graph of $y=\sqrt{\left|x\right|}$ is symmetric about the $y$-axis; for $x\ge0$ it is the curve $y=\sqrt x$ rising from the origin $\left(0,0\right)$ to the upper right, and for $x< 0$ it is its mirror image about the $y$-axis rising from the origin to the upper left.
 
 ### Solution to Problem 1
 
 By **Definition 3.2.5** (Even Function) and **Definition 3.2.1** (Monotone Increasing and Increasing Function).
 
 $$
-y=\sqrt{\left|x\right|}=\begin{cases}\sqrt x, & x\ge0,\\\sqrt{-x}, & x<0.\end{cases}
+y=\sqrt{\left|x\right|}=\begin{cases}\sqrt x, & x\ge0,\\\sqrt{-x}, & x< 0.\end{cases}
 $$
 
 Parity: $f\left(-x\right)=\sqrt{\left|-x\right|}=\sqrt{\left|x\right|}=f\left(x\right)$, so it is an even function.
 
-Monotonicity: when $x\ge0$, $y=\sqrt x$ is monotonically increasing; when $x<0$, $y=\sqrt{-x}$ is monotonically decreasing. Thus the monotonically increasing interval is $\left[0,+\infty\right)$, and the monotonically decreasing interval is $\left(-\infty,0\right]$. The graph is symmetric about the $y$-axis: on the right it is the curve $y=\sqrt x$, and on the left it is its mirror image about the $y$-axis. $\blacksquare$
+Monotonicity: when $x\ge0$, $y=\sqrt x$ is monotonically increasing; when $x< 0$, $y=\sqrt{-x}$ is monotonically decreasing. Thus the monotonically increasing interval is $\left[0,+\infty\right)$, and the monotonically decreasing interval is $\left(-\infty,0\right]$. The graph is symmetric about the $y$-axis: on the right it is the curve $y=\sqrt x$, and on the left it is its mirror image about the $y$-axis. $\blacksquare$
 
 ### Problem 2
 
@@ -82,7 +82,7 @@ Monotonicity: when $x\ge0$, $y=\sqrt x$ is monotonically increasing; when $x<0$,
 
 By **Definition 3.3.1** (Power Function), the flow rate is proportional to the fourth power of the radius.
 
-(1) Let the proportionality coefficient be $k$, then $v=kr^4$ ($k>0$).
+(1) Let the proportionality coefficient be $k$, then $v=kr^4$ ($k> 0$).
 
 (2) From $v=400$ when $r=3$, we get $400=k\cdot3^4=81k$, so $k=\frac{400}{81}$. Therefore $v=\frac{400}{81}r^4$.
 
@@ -100,11 +100,11 @@ By **Definition 3.2.5** (Even Function), **Definition 3.2.1** (Monotone Increasi
 
 Domain: $x^{-2}=\frac{1}{x^2}$ requires $x\ne0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-Range: $\frac{1}{x^2}>0$, so the range is $\left(0,+\infty\right)$.
+Range: $\frac{1}{x^2}> 0$, so the range is $\left(0,+\infty\right)$.
 
 Parity: $f\left(-x\right)=\frac{1}{\left(-x\right)^2}=\frac{1}{x^2}=f\left(x\right)$, so it is an even function.
 
-Monotonicity: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1<x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}>0$, i.e. $f\left(x_1\right)>f\left(x_2\right)$, so it is monotonically decreasing on $\left(0,+\infty\right)$. By the property of even functions, it is monotonically increasing on $\left(-\infty,0\right)$.
+Monotonicity: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically decreasing on $\left(0,+\infty\right)$. By the property of even functions, it is monotonically increasing on $\left(-\infty,0\right)$.
 
 Graph: in the first quadrant it is a decreasing hyperbola-like curve, and in the second quadrant it is its mirror image about the $y$-axis, with the two coordinate axes as asymptotes. $\blacksquare$
 
@@ -146,15 +146,15 @@ Extrema: it attains the local minimum $f\left(1\right)=2$ at $x=1$, and the loca
 
 ### Inquiry and Discovery 4
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Prove that: when $x>0$, $x+\frac{1}{x}\ge2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=1$; when $x<0$, $x+\frac{1}{x}\le-2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=-1$.
+(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Prove that: when $x> 0$, $x+\frac{1}{x}\ge2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=1$; when $x< 0$, $x+\frac{1}{x}\le-2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=-1$.
 
 ### Solution to Inquiry and Discovery 4
 
 By **Definition 3.2.3** (Maximum Value) and **Definition 3.2.4** (Minimum Value), use the nonnegativity of a square to prove.
 
-When $x>0$, $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$, and expanding gives $x-2+\frac{1}{x}\ge0$, i.e. $x+\frac{1}{x}\ge2$. Equality holds if and only if $\sqrt x=\frac{1}{\sqrt x}$, i.e. $x=1$.
+When $x> 0$, $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$, and expanding gives $x-2+\frac{1}{x}\ge0$, i.e. $x+\frac{1}{x}\ge2$. Equality holds if and only if $\sqrt x=\frac{1}{\sqrt x}$, i.e. $x=1$.
 
-When $x<0$, let $t=-x>0$, then $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, and equality holds if and only if $t=1$, i.e. $x=-1$. $\blacksquare$
+When $x< 0$, let $t=-x> 0$, then $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, and equality holds if and only if $t=1$, i.e. $x=-1$. $\blacksquare$
 
 ### Inquiry and Discovery 5
 
@@ -176,7 +176,7 @@ Based on the domain, parity, monotonicity, and extrema discussed above, the draw
 
 By **Definition 3.2.1** (Monotone Increasing and Increasing Function) and **Definition 3.2.2** (Monotone Decreasing and Decreasing Function).
 
-When $x\to+\infty$, $y=\frac{1}{x}\to0$, so $y=x+\frac{1}{x}\approx x$, and the graph approaches the line $y=x$. When $x\to0^+$, $y=\frac{1}{x}\to+\infty$, so $y\to+\infty$. For $x>0$, $y=x$ is increasing and $y=\frac{1}{x}$ is decreasing; the superposition of the two makes the function attain the local minimum $2$ at $x=1$. For $x<0$, by symmetry the reasoning is analogous. $\blacksquare$
+When $x\to+\infty$, $y=\frac{1}{x}\to0$, so $y=x+\frac{1}{x}\approx x$, and the graph approaches the line $y=x$. When $x\to0^+$, $y=\frac{1}{x}\to+\infty$, so $y\to+\infty$. For $x> 0$, $y=x$ is increasing and $y=\frac{1}{x}$ is decreasing; the superposition of the two makes the function attain the local minimum $2$ at $x=1$. For $x< 0$, by symmetry the reasoning is analogous. $\blacksquare$
 
 ### Inquiry and Discovery 7
 

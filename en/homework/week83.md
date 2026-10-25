@@ -1,16 +1,16 @@
 # Assignment 83
 
-> **Definition 7.1.1** (Conditional Probability) <br>In general, let $A$, $B$ be two random events with $\mathbb P\left(A\right)>0$. We call $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ the conditional probability of event $B$ occurring under the condition that event $A$ occurs, abbreviated as conditional probability.
+> **Definition 7.1.1** (Conditional Probability) <br>In general, let $A$, $B$ be two random events with $\mathbb P\left(A\right)> 0$. We call $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ the conditional probability of event $B$ occurring under the condition that event $A$ occurs, abbreviated as conditional probability.
 
-> **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)>0$, then $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
+> **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)> 0$, then $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **Conclusion 7.1.3** (Properties of Conditional Probability) <br>Let $\mathbb P\left(A\right)>0$. Then (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) let $\bar B$ and $B$ be complementary events, then $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
+> **Conclusion 7.1.3** (Properties of Conditional Probability) <br>Let $\mathbb P\left(A\right)> 0$. Then (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) let $\bar B$ and $B$ be complementary events, then $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
-> **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P\left(A\right)>0$, event $A$ and event $B$ are mutually independent if and only if $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
+> **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P\left(A\right)> 0$, event $A$ and event $B$ are mutually independent if and only if $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
-> **Conclusion 7.1.5** (Total Probability Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$, $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
+> **Conclusion 7.1.5** (Total Probability Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$, $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
 
-> **Conclusion 7.1.6** (Bayes' Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$ with $\mathbb P\left(B\right)>0$, $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
+> **Conclusion 7.1.6** (Bayes' Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$ with $\mathbb P\left(B\right)> 0$, $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
 
 ### Exercise 1
 
@@ -188,7 +188,7 @@ $$
 \mathbb P\left(C\right)\le \mathbb P\left(B\right).
 $$
 
-Moreover, not everyone with heart disease is older than 50 years, i.e. $B$ contains cases not in $C$, so in fact $\mathbb P\left(C\right)<\mathbb P\left(B\right)$. $\blacksquare$
+Moreover, not everyone with heart disease is older than 50 years, i.e. $B$ contains cases not in $C$, so in fact $\mathbb P\left(C\right)< \mathbb P\left(B\right)$. $\blacksquare$
 
 ### Problem 3
 
@@ -274,7 +274,7 @@ $\blacksquare$
 
 ### Problem 6
 
-(Exercise 7.1, Review and Consolidation, Problem 6) Given $\mathbb P\left(A\right)>0$, $\mathbb P\left(B\right)>0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, prove that $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
+(Exercise 7.1, Review and Consolidation, Problem 6) Given $\mathbb P\left(A\right)> 0$, $\mathbb P\left(B\right)> 0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, prove that $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
 
 ### Solution to Problem 6
 
@@ -376,13 +376,13 @@ $\blacksquare$
 
 ### Problem 10
 
-(Exercise 7.1, Extension and Exploration, Problem 10) Prove that when $\mathbb P\left(AB\right)>0$, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. From this, can you find a formula for computing $\mathbb P\left(A_1A_2\cdots A_n\right)$?
+(Exercise 7.1, Extension and Exploration, Problem 10) Prove that when $\mathbb P\left(AB\right)> 0$, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. From this, can you find a formula for computing $\mathbb P\left(A_1A_2\cdots A_n\right)$?
 
 ### Solution to Problem 10
 
 By **Definition 7.1.1** (Conditional Probability) and **Conclusion 7.1.2** (Multiplication Formula for Probability).
 
-From $\mathbb P\left(AB\right)>0$, it necessarily follows that $\mathbb P\left(A\right)>0$ and $\mathbb P\left(AB\right)>0$. Use **Conclusion 7.1.2** (Multiplication Formula for Probability) twice:
+From $\mathbb P\left(AB\right)> 0$, it necessarily follows that $\mathbb P\left(A\right)> 0$ and $\mathbb P\left(AB\right)> 0$. Use **Conclusion 7.1.2** (Multiplication Formula for Probability) twice:
 
 First treat $AB$ as a single event, giving
 

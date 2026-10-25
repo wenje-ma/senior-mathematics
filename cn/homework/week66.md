@@ -1,12 +1,12 @@
 # 作业 66
 
-> **定义 3.1.3** (椭圆的标准方程) <br>焦点在 $x$ 轴上的椭圆标准方程为 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$), 其中 $c^2=a^2-b^2$; 焦点在 $y$ 轴上时为 $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$.
+> **定义 3.1.3** (椭圆的标准方程) <br>焦点在 $x$ 轴上的椭圆标准方程为 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$), 其中 $c^2=a^2-b^2$; 焦点在 $y$ 轴上时为 $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$.
 
 > **定义 3.2.1** (双曲线) <br>平面内与两个定点 $F_1$, $F_2$ 的距离的差的绝对值等于非零常数 (小于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做双曲线. 这两个定点叫做双曲线的焦点, 两焦点间的距离叫做双曲线的焦距.
 
-> **常用结论 3.2.2** (双曲线上点到两焦点距离之差) <br>双曲线上任意一点 $M$ 到两焦点距离的差的绝对值等于 $2a$, 即 $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a$, 其中 $0<2a<\lvert F_1F_2 \rvert$.
+> **常用结论 3.2.2** (双曲线上点到两焦点距离之差) <br>双曲线上任意一点 $M$ 到两焦点距离的差的绝对值等于 $2a$, 即 $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a$, 其中 $0< 2a< \lvert F_1F_2 \rvert$.
 
-> **定义 3.2.3** (双曲线的标准方程) <br>焦点在 $x$ 轴上, 焦点 $F_1\left(-c,0\right)$, $F_2\left(c,0\right)$ 的双曲线标准方程为 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ ($a>0$, $b>0$), 其中 $c^2=a^2+b^2$; 焦点在 $y$ 轴上时为 $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
+> **定义 3.2.3** (双曲线的标准方程) <br>焦点在 $x$ 轴上, 焦点 $F_1\left(-c,0\right)$, $F_2\left(c,0\right)$ 的双曲线标准方程为 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ ($a> 0$, $b> 0$), 其中 $c^2=a^2+b^2$; 焦点在 $y$ 轴上时为 $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
 
 > **常用结论 3.2.4** (双曲线的范围与对称性) <br>由 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ 得 $x\le-a$ 或 $x\ge a$, $y\in\mathbb R$. 双曲线关于 $x$ 轴, $y$ 轴和原点对称, 原点是双曲线的中心.
 
@@ -16,7 +16,7 @@
 
 > **定义 3.2.7** (等轴双曲线) <br>实轴和虚轴等长的双曲线叫做等轴双曲线, 其方程为 $x^2-y^2=a^2$, 渐近线为 $y=\pm x$.
 
-> **定义 3.2.8** (双曲线的离心率) <br>双曲线的焦距与实轴长的比 $\frac{c}{a}$ 叫做双曲线的离心率, 记 $e=\frac{c}{a}$. 因为 $c>a>0$, 所以 $e>1$. 离心率刻画双曲线的张口大小.
+> **定义 3.2.8** (双曲线的离心率) <br>双曲线的焦距与实轴长的比 $\frac{c}{a}$ 叫做双曲线的离心率, 记 $e=\frac{c}{a}$. 因为 $c> a> 0$, 所以 $e> 1$. 离心率刻画双曲线的张口大小.
 
 ### 练习一
 
@@ -78,11 +78,11 @@ $\blacksquare$
 
 由**定义 3.2.3** (双曲线的标准方程), 双曲线标准方程中 $x^2$ 与 $y^2$ 项的符号相反, 即两分母必须同号 (一正一负不成立; 标准形式中两项一正一负, 故两分母须同号).
 
-方程 $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ 表示双曲线, 需两分母同号. 即 $2+m>0$ 且 $m+1>0$, 解得 $m>-1$; 或 $2+m<0$ 且 $m+1<0$, 解得 $m<-2$. 故 $m$ 的取值范围是 $m<-2$ 或 $m>-1$. $\blacksquare$
+方程 $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ 表示双曲线, 需两分母同号. 即 $2+m> 0$ 且 $m+1> 0$, 解得 $m> -1$; 或 $2+m< 0$ 且 $m+1< 0$, 解得 $m< -2$. 故 $m$ 的取值范围是 $m< -2$ 或 $m> -1$. $\blacksquare$
 
 ### 练习四
 
-(练习 3.2 第 4 题) 双曲线 $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a>0$) 的两个焦点分别是 $F_1$ 与 $F_2$, 焦距为 $8$; $M$ 是双曲线上的一点, 且 $\lvert MF_1 \rvert=5$, 求 $\lvert MF_2 \rvert$ 的值.
+(练习 3.2 第 4 题) 双曲线 $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a> 0$) 的两个焦点分别是 $F_1$ 与 $F_2$, 焦距为 $8$; $M$ 是双曲线上的一点, 且 $\lvert MF_1 \rvert=5$, 求 $\lvert MF_2 \rvert$ 的值.
 
 ### 解答 练习四
 
@@ -224,7 +224,7 @@ $$
 
 ### 练习十一
 
-(练习 3.2 第 3 题) 直线 $y=\frac{2}{3}x$ 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a>0$) 相交于 $A$, $B$ 两点, 且 $A$, $B$ 两点的横坐标之积为 $-9$, 求离心率 $e$.
+(练习 3.2 第 3 题) 直线 $y=\frac{2}{3}x$ 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a> 0$) 相交于 $A$, $B$ 两点, 且 $A$, $B$ 两点的横坐标之积为 $-9$, 求离心率 $e$.
 
 ### 解答 练习十一
 
@@ -244,7 +244,7 @@ $$
 
 将双曲线 $4x^2-y^2+64=0$ 化为 $\frac{y^2}{64}-\frac{x^2}{16}=1$, $a=8$, $b=4$, $c=\sqrt{64+16}=4\sqrt{5}$.
 
-由**常用结论 3.2.2** (双曲线上点到两焦点距离之差), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. 已知一焦点距离为 $1$, 则另一焦点距离为 $1+16=17$ (舍去 $\lvert 1-16 \rvert=15$, 因为双曲线上点到较近焦点距离至少 $c-a=4\sqrt{5}-8\approx0.94>0$, 距离 $1$ 对应较近焦点, 故较远焦点距离为 $17$). $\blacksquare$
+由**常用结论 3.2.2** (双曲线上点到两焦点距离之差), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. 已知一焦点距离为 $1$, 则另一焦点距离为 $1+16=17$ (舍去 $\lvert 1-16 \rvert=15$, 因为双曲线上点到较近焦点距离至少 $c-a=4\sqrt{5}-8\approx0.94> 0$, 距离 $1$ 对应较近焦点, 故较远焦点距离为 $17$). $\blacksquare$
 
 ### 习题二
 
@@ -264,7 +264,7 @@ $$
 \frac{x^2}{20}-\frac{y^2}{16}=1.
 $$
 
-(2) 设方程为 $mx^2+ny^2=1$ ($mn<0$). 代入 $A\left(-7,-6\sqrt{2}\right)$, $B\left(2\sqrt{7},3\right)$:
+(2) 设方程为 $mx^2+ny^2=1$ ($mn< 0$). 代入 $A\left(-7,-6\sqrt{2}\right)$, $B\left(2\sqrt{7},3\right)$:
 
 $$
 49m+72n=1,\quad 28m+9n=1.
@@ -338,13 +338,13 @@ $\blacksquare$
 
 由垂直平分线性质, $\lvert QA \rvert=\lvert QP \rvert$. 又 $Q$ 在直线 $OP$ 上, $\lvert OP \rvert=r$.
 
-因为 $A$ 在圆 $O$ 外, $\lvert OA \rvert>r$, $Q$ 在 $OP$ 的延长线上 (在 $P$ 外侧), 故 $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, 即
+因为 $A$ 在圆 $O$ 外, $\lvert OA \rvert> r$, $Q$ 在 $OP$ 的延长线上 (在 $P$ 外侧), 故 $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, 即
 
 $$
 \lvert QO \rvert-\lvert QA \rvert=r.
 $$
 
-由**定义 3.2.1** (双曲线), 点 $Q$ 到两定点 $O$, $A$ 距离之差为常数 $r$, 且 $r<\lvert OA \rvert$, 故点 $Q$ 的轨迹是以 $O$, $A$ 为焦点的双曲线的一支. $\blacksquare$
+由**定义 3.2.1** (双曲线), 点 $Q$ 到两定点 $O$, $A$ 距离之差为常数 $r$, 且 $r< \lvert OA \rvert$, 故点 $Q$ 的轨迹是以 $O$, $A$ 为焦点的双曲线的一支. $\blacksquare$
 
 ### 习题六
 
@@ -372,11 +372,11 @@ $\blacksquare$
 
 ### 解答 习题七
 
-(1) 由**定义 3.1.3** (椭圆的标准方程), 圆是椭圆当 $a=b$ 时的特例, 需 $m=n>0$.
+(1) 由**定义 3.1.3** (椭圆的标准方程), 圆是椭圆当 $a=b$ 时的特例, 需 $m=n> 0$.
 
-(2) 由**定义 3.1.3**, 椭圆需两分母均为正且不等, 即 $m>0$, $n>0$ 且 $m\neq n$.
+(2) 由**定义 3.1.3**, 椭圆需两分母均为正且不等, 即 $m> 0$, $n> 0$ 且 $m\neq n$.
 
-(3) 由**定义 3.2.3** (双曲线的标准方程), 双曲线需两分母异号, 即 $m>0$, $n<0$ 或 $m<0$, $n>0$. $\blacksquare$
+(3) 由**定义 3.2.3** (双曲线的标准方程), 双曲线需两分母异号, 即 $m> 0$, $n< 0$ 或 $m< 0$, $n> 0$. $\blacksquare$
 
 ### 习题八
 
@@ -412,7 +412,7 @@ $\blacksquare$
 
 ### 习题十
 
-(习题 3.2 综合运用第 10 题) 设动点 $M$ 与定点 $F\left(c,0\right)$ ($c>0$) 的距离和 $M$ 到定直线 $l:x=\frac{a^2}{c}$ 的距离的比是 $\frac{c}{a}$ ($a<c$), 求动点 $M$ 的轨迹方程, 并说明轨迹的形状.
+(习题 3.2 综合运用第 10 题) 设动点 $M$ 与定点 $F\left(c,0\right)$ ($c> 0$) 的距离和 $M$ 到定直线 $l:x=\frac{a^2}{c}$ 的距离的比是 $\frac{c}{a}$ ($a< c$), 求动点 $M$ 的轨迹方程, 并说明轨迹的形状.
 
 ### 解答 习题十
 
@@ -428,7 +428,7 @@ $$
 \left(a^2-c^2\right)x^2+a^2y^2=a^2\left(a^2-c^2\right).
 $$
 
-因为 $a<c$, $a^2-c^2<0$, 两边除以 $a^2\left(a^2-c^2\right)$ 得
+因为 $a< c$, $a^2-c^2< 0$, 两边除以 $a^2\left(a^2-c^2\right)$ 得
 
 $$
 \frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
@@ -444,7 +444,7 @@ $$
 
 设 $M\left(x,y\right)$. $MA\perp y=x$, 垂足 $A$ 在 $y=x$ 上; $MB\perp y=-x$, 垂足 $B$ 在 $y=-x$ 上.
 
-由投影公式, $A$ 的坐标为 $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, $B$ 的坐标为 $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. 由 $A$ 在第一象限, $x+y>0$; $B$ 在第四象限, $x-y>0$, 故 $x>\lvert y \rvert$.
+由投影公式, $A$ 的坐标为 $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, $B$ 的坐标为 $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. 由 $A$ 在第一象限, $x+y> 0$; $B$ 在第四象限, $x-y> 0$, 故 $x> \lvert y \rvert$.
 
 四边形 $OAMB$ 可分为 $\triangle OMA$ 和 $\triangle OMB$. $\lvert OA \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$, $\lvert MA \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$; $\lvert OB \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$, $\lvert MB \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$. 面积
 
@@ -452,25 +452,25 @@ $$
 S=\frac{1}{2}\lvert OA \rvert\lvert MA \rvert+\frac{1}{2}\lvert OB \rvert\lvert MB \rvert=\frac{1}{2}\cdot\frac{\lvert x^2-y^2 \rvert}{2}\cdot2=\frac{\lvert x^2-y^2 \rvert}{2}=3.
 $$
 
-因 $x>\lvert y \rvert$, $x^2-y^2>0$, 故 $x^2-y^2=6$. 轨迹方程为
+因 $x> \lvert y \rvert$, $x^2-y^2> 0$, 故 $x^2-y^2=6$. 轨迹方程为
 
 $$
-\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x>\sqrt{6}\right).
+\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x> \sqrt{6}\right).
 $$
 
 $\blacksquare$
 
 ### 习题十二
 
-(习题 3.2 拓广探索第 12 题) 设椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$) 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ 的离心率分别为 $e_1$, $e_2$, 双曲线的渐近线的斜率小于 $\frac{2\sqrt{5}}{5}$, 求 $e_1$ 和 $e_2$ 的取值范围.
+(习题 3.2 拓广探索第 12 题) 设椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ 的离心率分别为 $e_1$, $e_2$, 双曲线的渐近线的斜率小于 $\frac{2\sqrt{5}}{5}$, 求 $e_1$ 和 $e_2$ 的取值范围.
 
 ### 解答 习题十二
 
 由**定义 3.1.7** (椭圆的离心率), $e_1=\frac{c_1}{a}=\frac{\sqrt{a^2-b^2}}{a}$; 由**定义 3.2.8** (双曲线的离心率), $e_2=\frac{c_2}{a}=\frac{\sqrt{a^2+b^2}}{a}$.
 
-双曲线渐近线斜率为 $\frac{b}{a}<\frac{2\sqrt{5}}{5}$, 故 $\frac{b^2}{a^2}<\frac{4}{5}$.
+双曲线渐近线斜率为 $\frac{b}{a}< \frac{2\sqrt{5}}{5}$, 故 $\frac{b^2}{a^2}< \frac{4}{5}$.
 
-令 $t=\frac{b^2}{a^2}$, 则 $0<t<\frac{4}{5}$. $e_1^2=1-t>\frac{1}{5}$, 又 $e_1<1$, 故 $\frac{\sqrt{5}}{5}<e_1<1$. $e_2^2=1+t<\frac{9}{5}$, 又 $e_2>1$, 故 $1<e_2<\frac{3\sqrt{5}}{5}$. $\blacksquare$
+令 $t=\frac{b^2}{a^2}$, 则 $0< t< \frac{4}{5}$. $e_1^2=1-t> \frac{1}{5}$, 又 $e_1< 1$, 故 $\frac{\sqrt{5}}{5}< e_1< 1$. $e_2^2=1+t< \frac{9}{5}$, 又 $e_2> 1$, 故 $1< e_2< \frac{3\sqrt{5}}{5}$. $\blacksquare$
 
 ### 习题十三
 
@@ -486,7 +486,7 @@ $$
 
 化简得 $\left(2-k^2\right)x^2-2k\left(1-k\right)x-\left(1-k\right)^2-2=0$. 设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, 若 $P\left(1,1\right)$ 为中点, 则 $x_1+x_2=2$. 由韦达定理, $x_1+x_2=\frac{2k\left(1-k\right)}{2-k^2}=2$, 解得 $k=2$.
 
-当 $k=2$ 时, 方程为 $-2x^2+4x-3=0$, 判别式 $\Delta=16-24=-8<0$, 无实根. 故不存在这样的直线, $P$ 不能是线段 $AB$ 的中点. $\blacksquare$
+当 $k=2$ 时, 方程为 $-2x^2+4x-3=0$, 判别式 $\Delta=16-24=-8< 0$, 无实根. 故不存在这样的直线, $P$ 不能是线段 $AB$ 的中点. $\blacksquare$
 
 ### 习题十四
 
@@ -512,7 +512,7 @@ $$
 
 ### 解答 探究与发现一
 
-在第一象限内, 双曲线方程为 $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x>a$). 点 $M\left(x,y\right)$ 到渐近线 $bx-ay=0$ 的距离为
+在第一象限内, 双曲线方程为 $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x> a$). 点 $M\left(x,y\right)$ 到渐近线 $bx-ay=0$ 的距离为
 
 $$
 \lvert MQ \rvert=\frac{\lvert bx-ay \rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.

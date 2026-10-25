@@ -70,7 +70,7 @@
 
 (2) 对于任意两个向量 $\boldsymbol{a}$ 和 $\boldsymbol{b}$, 下列命题中正确的是 ().
 
-(A) 若 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert\boldsymbol{a}\rvert>\lvert\boldsymbol{b}\rvert$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 同向, 则 $\boldsymbol{a}>\boldsymbol{b}$
+(A) 若 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert\boldsymbol{a}\rvert> \lvert\boldsymbol{b}\rvert$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 同向, 则 $\boldsymbol{a}> \boldsymbol{b}$
 
 (B) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$
 
@@ -108,7 +108,7 @@
 
 (3) 由**定义 6.1.7**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ 说明 $ABCD$ 为平行四边形. 选 (D).
 
-(4) 由**定义 6.2.6**, $\lambda^2>0$, $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 方向相同. 选 (C).
+(4) 由**定义 6.2.6**, $\lambda^2> 0$, $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 方向相同. 选 (C).
 
 (5) $M$ 为对角线中点, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, 和为 $4\boldsymbol{OM}$. 选 (D).
 
@@ -284,7 +284,7 @@ $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert
 
 $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ}}$.
 
-岛到航线 (东西方向) 的垂直距离: $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47>3$.
+岛到航线 (东西方向) 的垂直距离: $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47> 3$.
 
 故没有触礁危险. $\blacksquare$
 

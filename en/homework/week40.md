@@ -104,7 +104,7 @@ By **Definition 8.3.2** (Volume of a Prism-like or Cylinder-like Solid) and the 
 
 Let the three sides of the base triangle be $a$, $b$, $c$, and the lateral edge be $l$. The three lateral-face areas are $al$, $bl$, $cl$, respectively.
 
-By the fact that the sum of two sides of a triangle is greater than the third, $a+b>c$. Multiplying both sides by the positive number $l$ gives $al+bl>cl$, i.e. the sum of any two lateral-face areas is greater than the third. The other two pairs follow similarly. Hence the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third. $\blacksquare$
+By the fact that the sum of two sides of a triangle is greater than the third, $a+b> c$. Multiplying both sides by the positive number $l$ gives $al+bl> cl$, i.e. the sum of any two lateral-face areas is greater than the third. The other two pairs follow similarly. Hence the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third. $\blacksquare$
 
 ### Exercise 5
 
@@ -134,7 +134,7 @@ $$
 \frac{4}{3}\pi R^{3}=4\pi R^{2}.
 $$
 
-Dividing both sides by $4\pi R^{2}$ ($R>0$) gives $\frac{R}{3}=1$, i.e. $R=3$.
+Dividing both sides by $4\pi R^{2}$ ($R> 0$) gives $\frac{R}{3}=1$, i.e. $R=3$.
 
 Hence when the radius of the sphere is $3$, the numerical values of its volume and surface area coincide. $\blacksquare$
 
@@ -162,7 +162,7 @@ The tank capacity is $80\times 60\times 55=264000\text{ cm}^{3}$. It already hol
 
 The sphere has radius $R=25\text{ cm}$ and volume $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 25^{3}\approx 65450\text{ cm}^{3}$. The submerged volume is $\frac{2}{3}V\approx 43633\text{ cm}^{3}$.
 
-Since $43633<64000$, the submerged volume is less than the remaining space, so the water will not overflow. $\blacksquare$
+Since $43633< 64000$, the submerged volume is less than the remaining space, so the water will not overflow. $\blacksquare$
 
 ### Problem 1
 

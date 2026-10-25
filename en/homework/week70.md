@@ -4,9 +4,9 @@
 
 > **Common Conclusion 3.1.2** (Sum of Distances from a Point on the Ellipse to the Two Foci) <br>For any point $M$ on the ellipse, the sum of its distances to the two foci equals $2a$, i.e. $\lvert MF_1 \rvert+\lvert MF_2 \rvert=2a$.
 
-> **Definition 3.1.3** (Standard Equation of an Ellipse) <br>When the foci lie on the $x$-axis the equation is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$), $c^2=a^2-b^2$; when the foci lie on the $y$-axis it is $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$.
+> **Definition 3.1.3** (Standard Equation of an Ellipse) <br>When the foci lie on the $x$-axis the equation is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$), $c^2=a^2-b^2$; when the foci lie on the $y$-axis it is $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$.
 
-> **Definition 3.1.7** (Eccentricity of an Ellipse) <br>$e=\frac{c}{a}$, $0<e<1$; the closer $e$ is to $1$, the flatter the ellipse.
+> **Definition 3.1.7** (Eccentricity of an Ellipse) <br>$e=\frac{c}{a}$, $0< e< 1$; the closer $e$ is to $1$, the flatter the ellipse.
 
 > **Definition 3.2.1** (Hyperbola) <br>The locus of points in the plane the absolute value of the difference of whose distances to two fixed points $F_1$, $F_2$ equals a nonzero constant (less than $\lvert F_1F_2 \rvert$) is called a hyperbola.
 
@@ -14,11 +14,11 @@
 
 > **Definition 3.2.3** (Standard Equation of a Hyperbola) <br>When the foci lie on the $x$-axis the equation is $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$, $c^2=a^2+b^2$; when the foci lie on the $y$-axis it is $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
 
-> **Definition 3.2.8** (Eccentricity of a Hyperbola) <br>$e=\frac{c}{a}>1$.
+> **Definition 3.2.8** (Eccentricity of a Hyperbola) <br>$e=\frac{c}{a}> 1$.
 
 > **Definition 3.3.1** (Parabola) <br>The locus of points in the plane equidistant from a fixed point $F$ and a fixed line $l$ (where $l$ does not pass through $F$) is called a parabola.
 
-> **Definition 3.3.2** (Standard Equation of a Parabola) <br>$y^2=2px$ ($p>0$), focus $\left(\frac{p}{2},0\right)$, directrix $x=-\frac{p}{2}$.
+> **Definition 3.3.2** (Standard Equation of a Parabola) <br>$y^2=2px$ ($p> 0$), focus $\left(\frac{p}{2},0\right)$, directrix $x=-\frac{p}{2}$.
 
 > **Common Conclusion 3.3.3** (Distances from a Point on the Parabola to the Focus and Directrix) <br>$\lvert MF \rvert=d$ (where $d$ is the distance from $M$ to the directrix).
 
@@ -44,7 +44,7 @@ $$
 
 (Review Reference Problems 3, Review and Consolidation, Problem 2) Multiple choice.
 
-(1) The ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ and the ellipse $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k<9$) have the same $\left(\quad\right)$.
+(1) The ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ and the ellipse $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k< 9$) have the same $\left(\quad\right)$.
 
 (A) major axis length    (B) minor axis length
 
@@ -72,11 +72,11 @@ Classify by the value of $\cos\alpha$.
 
 (1) When $\alpha=0^{\circ}$, $\cos\alpha=1$, the equation is $x^2+y^2=1$, a unit circle.
 
-(2) When $0^{\circ}<\alpha<90^{\circ}$, $0<\cos\alpha<1$, the equation is $\frac{x^2}{1}+\frac{y^2}{1/\cos\alpha}=1$, an ellipse with foci on the $y$-axis.
+(2) When $0^{\circ}< \alpha< 90^{\circ}$, $0< \cos\alpha< 1$, the equation is $\frac{x^2}{1}+\frac{y^2}{1/\cos\alpha}=1$, an ellipse with foci on the $y$-axis.
 
 (3) When $\alpha=90^{\circ}$, $\cos\alpha=0$, the equation is $x^2=1$, i.e. $x=\pm1$, two parallel lines.
 
-(4) When $90^{\circ}<\alpha\le180^{\circ}$, $-1\le\cos\alpha<0$, the equation is $x^2-\frac{y^2}{-1/\cos\alpha}=1$, a hyperbola with foci on the $x$-axis (when $\alpha=180^{\circ}$ it is the equilateral hyperbola $x^2-y^2=1$). $\blacksquare$
+(4) When $90^{\circ}< \alpha\le180^{\circ}$, $-1\le\cos\alpha< 0$, the equation is $x^2-\frac{y^2}{-1/\cos\alpha}=1$, a hyperbola with foci on the $x$-axis (when $\alpha=180^{\circ}$ it is the equilateral hyperbola $x^2-y^2=1$). $\blacksquare$
 
 ### Problem 4
 
@@ -86,7 +86,7 @@ Classify by the value of $\cos\alpha$.
 
 Substituting $y=kx-1$ into $x^2-y^2=4$ gives $x^2-\left(kx-1\right)^2=4$, i.e. $\left(1-k^2\right)x^2+2kx-5=0$.
 
-No common point requires no real root. When $1-k^2=0$, i.e. $k=\pm1$, the equation is linear and has one solution, which does not satisfy the condition. When $1-k^2\neq0$, the discriminant is $\Delta=4k^2+20\left(1-k^2\right)<0$, i.e. $20-16k^2<0$, $k^2>\frac{5}{4}$. Hence the range of $k$ is $k<-\frac{\sqrt{5}}{2}$ or $k>\frac{\sqrt{5}}{2}$. $\blacksquare$
+No common point requires no real root. When $1-k^2=0$, i.e. $k=\pm1$, the equation is linear and has one solution, which does not satisfy the condition. When $1-k^2\neq0$, the discriminant is $\Delta=4k^2+20\left(1-k^2\right)< 0$, i.e. $20-16k^2< 0$, $k^2> \frac{5}{4}$. Hence the range of $k$ is $k< -\frac{\sqrt{5}}{2}$ or $k> \frac{\sqrt{5}}{2}$. $\blacksquare$
 
 ### Problem 5
 
@@ -102,13 +102,13 @@ $\lvert PQ \rvert^2=y_0^2=2px_0$, and $\lvert BC \rvert\cdot\lvert OQ \rvert=2p\
 
 ### Problem 6
 
-(Review Reference Problems 3, Review and Consolidation, Problem 6) One vertex of an equilateral triangle lies at the focus of the parabola $y^2=2px$ ($p>0$), and the other two vertices lie on the parabola. Find the side length of this equilateral triangle.
+(Review Reference Problems 3, Review and Consolidation, Problem 6) One vertex of an equilateral triangle lies at the focus of the parabola $y^2=2px$ ($p> 0$), and the other two vertices lie on the parabola. Find the side length of this equilateral triangle.
 
 ### Solution to Problem 6
 
 The focus is $F\left(\frac{p}{2},0\right)$. Let two points $A$, $B$ on the parabola be symmetric about the $x$-axis, with $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$. Then $\lvert FA \rvert=\lvert FB \rvert=\lvert AB \rvert$.
 
-$\lvert AB \rvert=2\lvert y_0 \rvert$, and $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. From $\lvert FA \rvert=\lvert AB \rvert$ and $y_0^2=2px_0$, we get $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, i.e. $x_0^2-px_0+\frac{p^2}{4}=8px_0$, i.e. $x_0^2-9px_0+\frac{p^2}{4}=0$. Solving gives $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. Taking the solution with $x_0>0$, the side length is $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. Substituting gives the side length $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
+$\lvert AB \rvert=2\lvert y_0 \rvert$, and $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. From $\lvert FA \rvert=\lvert AB \rvert$ and $y_0^2=2px_0$, we get $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, i.e. $x_0^2-px_0+\frac{p^2}{4}=8px_0$, i.e. $x_0^2-9px_0+\frac{p^2}{4}=0$. Solving gives $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. Taking the solution with $x_0> 0$, the side length is $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. Substituting gives the side length $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
 
 ### Problem 7
 
@@ -122,9 +122,9 @@ The line $PF_2$ passes through $F_2\left(6,0\right)$ with slope $-\frac{4\sqrt{3
 
 ### Problem 8
 
-(Review Reference Problems 3, Comprehensive Application, Problem 8) As shown in the figure, from a point $P$ on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$) a perpendicular is dropped to the $x$-axis, whose foot is exactly the left focus $F_1$. Point $A$ is the intersection of the ellipse with the positive $x$-axis, and point $B$ is the intersection with the positive $y$-axis. Given $AB\parallel OP$ and $\lvert F_1A \rvert=\sqrt{10}+\sqrt{5}$, find the equation of the ellipse.
+(Review Reference Problems 3, Comprehensive Application, Problem 8) As shown in the figure, from a point $P$ on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) a perpendicular is dropped to the $x$-axis, whose foot is exactly the left focus $F_1$. Point $A$ is the intersection of the ellipse with the positive $x$-axis, and point $B$ is the intersection with the positive $y$-axis. Given $AB\parallel OP$ and $\lvert F_1A \rvert=\sqrt{10}+\sqrt{5}$, find the equation of the ellipse.
 
-The figure plots, in the rectangular coordinate system, the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$) centered at the origin with foci on the $x$-axis: point $P$ lies on the ellipse, and the perpendicular from $P$ to the $x$-axis has its foot exactly at the left focus $F_1\left(-c,0\right)$; $A$ is the intersection of the ellipse with the positive $x$-axis $\left(a,0\right)$, $B$ is the intersection with the positive $y$-axis $\left(0,b\right)$, and $AB\parallel OP$.
+The figure plots, in the rectangular coordinate system, the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) centered at the origin with foci on the $x$-axis: point $P$ lies on the ellipse, and the perpendicular from $P$ to the $x$-axis has its foot exactly at the left focus $F_1\left(-c,0\right)$; $A$ is the intersection of the ellipse with the positive $x$-axis $\left(a,0\right)$, $B$ is the intersection with the positive $y$-axis $\left(0,b\right)$, and $AB\parallel OP$.
 
 ### Solution to Problem 8
 
@@ -156,7 +156,7 @@ Simplifying gives $xy=x^2-1$, i.e. $x^2-xy-1=0$. The locus equation is $x^2-xy=1
 
 ### Problem 10
 
-(Review Reference Problems 3, Extension and Exploration, Problem 10) As shown in the figure, a line intersects the parabola $y^2=2px$ ($p>0$) at $A$, $B$, with $OA\perp OB$ and $OD\perp AB$ meeting $AB$ at $D$, and the coordinates of $D$ are $\left(2,1\right)$. Find the value of $p$.
+(Review Reference Problems 3, Extension and Exploration, Problem 10) As shown in the figure, a line intersects the parabola $y^2=2px$ ($p> 0$) at $A$, $B$, with $OA\perp OB$ and $OD\perp AB$ meeting $AB$ at $D$, and the coordinates of $D$ are $\left(2,1\right)$. Find the value of $p$.
 
 The figure plots, in the rectangular coordinate system, the parabola $y^2=2px$ opening to the right with vertex at the origin: a line meets the parabola at $A$ and $B$, and $OA\perp OB$ (with $O$ the origin); through $O$ draw $OD\perp AB$ with foot $D\left(2,1\right)$.
 
@@ -182,7 +182,7 @@ $$
 \frac{x^2}{25}-\frac{y^2}{25m}=1.
 $$
 
-When $m>0$, the locus is a hyperbola with foci on the $x$-axis (excluding the two points $A$, $B$); when $m<0$, the locus is an ellipse (excluding the two points $A$, $B$). $\blacksquare$
+When $m> 0$, the locus is a hyperbola with foci on the $x$-axis (excluding the two points $A$, $B$); when $m< 0$, the locus is an ellipse (excluding the two points $A$, $B$). $\blacksquare$
 
 ### Problem 12
 
@@ -196,7 +196,7 @@ $$
 d=\frac{\left|x_0-y_0+3\right|}{\sqrt{2}}=\frac{\left|\frac{y_0^2}{4}-y_0+3\right|}{\sqrt{2}}.
 $$
 
-Since $\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2>0$, we have $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. $d$ is minimized when $y_0=2$, giving $x_0=1$. The point $P$ is $\left(1,2\right)$. $\blacksquare$
+Since $\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2> 0$, we have $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. $d$ is minimized when $y_0=2$, giving $x_0=1$. The point $P$ is $\left(1,2\right)$. $\blacksquare$
 
 ### Problem 13
 
@@ -214,11 +214,11 @@ $$
 
 (2) When $m=3$, the equation is $2x^2=0$, i.e. $x=0$, a single line.
 
-(3) When $1<m<3$, both denominators are positive, so the curve is an ellipse (when $3-m=m-1$, i.e. $m=2$, it is a circle).
+(3) When $1< m< 3$, both denominators are positive, so the curve is an ellipse (when $3-m=m-1$, i.e. $m=2$, it is a circle).
 
-(4) When $m<1$, $3-m>0$ and $m-1<0$, so the curve is a hyperbola with foci on the $x$-axis.
+(4) When $m< 1$, $3-m> 0$ and $m-1< 0$, so the curve is a hyperbola with foci on the $x$-axis.
 
-(5) When $m>3$, $3-m<0$ and $m-1>0$, so the curve is a hyperbola with foci on the $y$-axis. $\blacksquare$
+(5) When $m> 3$, $3-m< 0$ and $m-1> 0$, so the curve is a hyperbola with foci on the $y$-axis. $\blacksquare$
 
 ### Problem 14
 
@@ -252,7 +252,7 @@ $\blacksquare$
 
 ### Problem 16
 
-(Review Reference Problems 3, Extension and Exploration, Problem 16) Through the focus $F$ of the parabola $y^2=2px$ ($p>0$) draw a line meeting the parabola at $A$, $B$. Draw a circle with $AB$ as diameter, and observe its relation to the directrix $l$ of the parabola. What conclusion can you draw? What about the corresponding cases for the ellipse and the hyperbola? Can you prove your conclusions?
+(Review Reference Problems 3, Extension and Exploration, Problem 16) Through the focus $F$ of the parabola $y^2=2px$ ($p> 0$) draw a line meeting the parabola at $A$, $B$. Draw a circle with $AB$ as diameter, and observe its relation to the directrix $l$ of the parabola. What conclusion can you draw? What about the corresponding cases for the ellipse and the hyperbola? Can you prove your conclusions?
 
 ### Solution to Problem 16
 

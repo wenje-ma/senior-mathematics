@@ -430,7 +430,7 @@ $BC=\frac{s\sin\beta}{\sin\left(\alpha+\beta\right)}$.
 
 设台风中心初始位置为 $B$, $AB=300\text{ km}$, 方向东北 (北偏东 $45^{\circ}$). 设 $t$ 后台风中心到达 $C$, $BC=40t$.
 
-气象台 $A$ 到台风路径的垂直距离: $d=300\times\sin45^{\circ}=150\sqrt 2\approx212.1\text{ km}<250\text{ km}$. 故会受影响.
+气象台 $A$ 到台风路径的垂直距离: $d=300\times\sin45^{\circ}=150\sqrt 2\approx212.1\text{ km}< 250\text{ km}$. 故会受影响.
 
 以 $A$ 为圆心, $250\text{ km}$ 为半径作圆, 与台风路径交于 $P$, $Q$.
 

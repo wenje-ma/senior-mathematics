@@ -4,7 +4,7 @@
 
 > **定义 5.1.3** (导数的几何意义) <br>函数 $y=f\left(x\right)$ 在 $x=x_{0}$ 处的导数 $f'\left(x_{0}\right)$ 就是曲线在该点处切线的斜率.
 
-> **定义 5.2.1** (基本初等函数的导数公式) <br>(1) 若 $f\left(x\right)=c$ ($c$ 为常数), 则 $f'\left(x\right)=0$; (2) 若 $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, 且 $\alpha\neq0$), 则 $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) 若 $f\left(x\right)=\sin x$, 则 $f'\left(x\right)=\cos x$; (4) 若 $f\left(x\right)=\cos x$, 则 $f'\left(x\right)=-\sin x$; (5) 若 $f\left(x\right)=a^{x}$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=a^{x}\ln a$, 特别地, 若 $f\left(x\right)=\mathrm e^{x}$, 则 $f'\left(x\right)=\mathrm e^{x}$; (6) 若 $f\left(x\right)=\log_{a}x$ ($a>0$, 且 $a\neq1$), 则 $f'\left(x\right)=\frac{1}{x\ln a}$, 特别地, 若 $f\left(x\right)=\ln x$, 则 $f'\left(x\right)=\frac{1}{x}$.
+> **定义 5.2.1** (基本初等函数的导数公式) <br>(1) 若 $f\left(x\right)=c$ ($c$ 为常数), 则 $f'\left(x\right)=0$; (2) 若 $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, 且 $\alpha\neq0$), 则 $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) 若 $f\left(x\right)=\sin x$, 则 $f'\left(x\right)=\cos x$; (4) 若 $f\left(x\right)=\cos x$, 则 $f'\left(x\right)=-\sin x$; (5) 若 $f\left(x\right)=a^{x}$ ($a> 0$, 且 $a\neq1$), 则 $f'\left(x\right)=a^{x}\ln a$, 特别地, 若 $f\left(x\right)=\mathrm e^{x}$, 则 $f'\left(x\right)=\mathrm e^{x}$; (6) 若 $f\left(x\right)=\log_{a}x$ ($a> 0$, 且 $a\neq1$), 则 $f'\left(x\right)=\frac{1}{x\ln a}$, 特别地, 若 $f\left(x\right)=\ln x$, 则 $f'\left(x\right)=\frac{1}{x}$.
 
 > **定义 5.2.2** (导数的四则运算法则) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$ ($g\left(x\right)\neq0$); $\left[cf\left(x\right)\right]'=cf'\left(x\right)$.
 
@@ -406,7 +406,7 @@ $$
 
 ### 习题八
 
-(习题 5.2 综合运用第 8 题) 已知函数 $f\left(x\right)=\frac{x^{2}}{2}+2x-3\ln x$, 求 $f\left(x\right)$ 的导数, 并求出 $f'\left(x\right)>0$ 的解集.
+(习题 5.2 综合运用第 8 题) 已知函数 $f\left(x\right)=\frac{x^{2}}{2}+2x-3\ln x$, 求 $f\left(x\right)$ 的导数, 并求出 $f'\left(x\right)> 0$ 的解集.
 
 ### 解答 习题八
 
@@ -416,15 +416,15 @@ $$
 f'\left(x\right)=x+2-\frac{3}{x}.
 $$
 
-令 $f'\left(x\right)>0$, 即 $x+2-\frac{3}{x}>0$. 函数定义域为 $x>0$, 两边乘 $x$, 得
+令 $f'\left(x\right)> 0$, 即 $x+2-\frac{3}{x}> 0$. 函数定义域为 $x> 0$, 两边乘 $x$, 得
 
 $$
-x^{2}+2x-3>0.
+x^{2}+2x-3> 0.
 $$
 
-解不等式 $\left(x+3\right)\left(x-1\right)>0$, 得 $x<-3$ 或 $x>1$. 结合定义域 $x>0$, 得 $x>1$.
+解不等式 $\left(x+3\right)\left(x-1\right)> 0$, 得 $x< -3$ 或 $x> 1$. 结合定义域 $x> 0$, 得 $x> 1$.
 
-故 $f'\left(x\right)>0$ 的解集为 $\left\{x\mid x>1\right\}$. $\blacksquare$
+故 $f'\left(x\right)> 0$ 的解集为 $\left\{x\mid x> 1\right\}$. $\blacksquare$
 
 ### 习题九
 

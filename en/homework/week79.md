@@ -14,9 +14,9 @@
 
 > **Definition 5.2.3** (Chain Rule for Composite Functions) <br>$y'_{x}=y'_{u}\cdot u'_{x}$.
 
-> **Definition 5.3.1** (Monotonicity of a Function and the Sign of the Derivative) <br>On an interval $\left(a,b\right)$, if $f'\left(x\right)>0$ then $f\left(x\right)$ is increasing; if $f'\left(x\right)<0$ then $f\left(x\right)$ is decreasing.
+> **Definition 5.3.1** (Monotonicity of a Function and the Sign of the Derivative) <br>On an interval $\left(a,b\right)$, if $f'\left(x\right)> 0$ then $f\left(x\right)$ is increasing; if $f'\left(x\right)< 0$ then $f\left(x\right)$ is decreasing.
 
-> **Definition 5.3.2** (Extreme Values of a Function) <br>If near $x_{0}$, on the left $f'\left(x\right)>0$ and on the right $f'\left(x\right)<0$, then $f\left(x_{0}\right)$ is a local maximum; if on the left $f'\left(x\right)<0$ and on the right $f'\left(x\right)>0$, then $f\left(x_{0}\right)$ is a local minimum.
+> **Definition 5.3.2** (Extreme Values of a Function) <br>If near $x_{0}$, on the left $f'\left(x\right)> 0$ and on the right $f'\left(x\right)< 0$, then $f\left(x_{0}\right)$ is a local maximum; if on the left $f'\left(x\right)< 0$ and on the right $f'\left(x\right)> 0$, then $f\left(x_{0}\right)$ is a local minimum.
 
 > **Definition 5.3.3** (Method for Finding Extreme Values) <br>Solve $f'\left(x\right)=0$; determine whether it is a local maximum or minimum by the signs of the derivative on either side.
 
@@ -103,7 +103,7 @@ The upper part shows the graph of the derivative $y=f'\left(x\right)$ on $\left(
 
 By **Definition 5.3.1**, the sign of $f'\left(x\right)$ determines whether $f\left(x\right)$ increases or decreases.
 
-From the graph of the derivative: on $\left(-1,0\right)$, $f'\left(x\right)>0$ and is increasing, so $f\left(x\right)$ is increasing and becoming steeper; on $\left(0,1\right)$, $f'\left(x\right)>0$ but is decreasing, so $f\left(x\right)$ is increasing but becoming flatter.
+From the graph of the derivative: on $\left(-1,0\right)$, $f'\left(x\right)> 0$ and is increasing, so $f\left(x\right)$ is increasing and becoming steeper; on $\left(0,1\right)$, $f'\left(x\right)> 0$ but is decreasing, so $f\left(x\right)$ is increasing but becoming flatter.
 
 Hence $f\left(x\right)$ is always increasing on $\left(-1,1\right)$, with slope first increasing then decreasing. The graph with this feature is option (B). $\blacksquare$
 
@@ -155,11 +155,11 @@ The figure is the cooling curve $T=f\left(t\right)$ (horizontal axis time $t$ in
 
 ### Solution to Problem 6
 
-(1) By **Definition 5.1.2** (Derivative), $f'\left(t\right)$ is the instantaneous rate of change of temperature with respect to time. The hot tea gradually cools, so the temperature decreases as time increases, and $f'\left(t\right)<0$.
+(1) By **Definition 5.1.2** (Derivative), $f'\left(t\right)$ is the instantaneous rate of change of temperature with respect to time. The hot tea gradually cools, so the temperature decreases as time increases, and $f'\left(t\right)< 0$.
 
 (2) $f'\left(3\right)=-4$ means that around the $3\ \mathrm{min}$ mark, the tea temperature is decreasing at a rate of about $4\ {^\circ}\mathrm C$ per minute.
 
-Since $f\left(3\right)=65$ and $f'\left(3\right)=-4<0$, the graph is decreasing at the point $\left(3,65\right)$ with tangent slope $-4$. Also, the cooling rate slows as the temperature difference decreases, so the graph decreases and becomes flatter. $\blacksquare$
+Since $f\left(3\right)=65$ and $f'\left(3\right)=-4< 0$, the graph is decreasing at the point $\left(3,65\right)$ with tangent slope $-4$. Also, the cooling rate slows as the temperature difference decreases, so the graph decreases and becomes flatter. $\blacksquare$
 
 ### Problem 7
 
@@ -169,7 +169,7 @@ Since $f\left(3\right)=65$ and $f'\left(3\right)=-4<0$, the graph is decreasing 
 
 By **Definition 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, hence $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
-When $x>0$, $f'\left(x\right)>0$; when $x<0$, $f'\left(x\right)<0$.
+When $x> 0$, $f'\left(x\right)> 0$; when $x< 0$, $f'\left(x\right)< 0$.
 
 By **Definition 5.3.1**, $f\left(x\right)$ is decreasing on $\left(-\infty,0\right)$ and increasing on $\left(0,+\infty\right)$. $\blacksquare$
 
@@ -211,7 +211,7 @@ The figure is a schematic in the coordinate plane: the point $P\left(1,1\right)$
 
 ### Solution to Problem 10
 
-Let the slope of line $AB$ be $k$; then its equation is $y-1=k\left(x-1\right)$. Setting $y=0$, we get $A\left(1-\frac{1}{k},0\right)$; setting $x=0$, we get $B\left(0,1-k\right)$. Since $A,B$ lie on the positive axes, $k<0$.
+Let the slope of line $AB$ be $k$; then its equation is $y-1=k\left(x-1\right)$. Setting $y=0$, we get $A\left(1-\frac{1}{k},0\right)$; setting $x=0$, we get $B\left(0,1-k\right)$. Since $A,B$ lie on the positive axes, $k< 0$.
 
 The area of $\triangle AOB$ is
 
@@ -219,9 +219,9 @@ $$
 S=\frac{1}{2}\left(1-\frac{1}{k}\right)\left(1-k\right)=\frac{1}{2}\left(2-k-\frac{1}{k}\right).
 $$
 
-Differentiating, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. Setting $S'=0$, we get $k^{2}=1$, and since $k<0$, $k=-1$.
+Differentiating, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. Setting $S'=0$, we get $k^{2}=1$, and since $k< 0$, $k=-1$.
 
-When $k<-1$, $S'<0$; when $-1<k<0$, $S'>0$, so $k=-1$ is the minimum point.
+When $k< -1$, $S'< 0$; when $-1< k< 0$, $S'> 0$, so $k=-1$ is the minimum point.
 
 Then $A\left(2,0\right)$, $B\left(0,2\right)$, and the minimum area is $S=\frac{1}{2}\times2\times2=2$.
 
@@ -259,7 +259,7 @@ $b'\left(5\right)=10000-10000=0$.
 
 $b'\left(10\right)=10000-20000=-10000$.
 
-(2) Setting $b'\left(t\right)=0$, we get $t=5$. When $0<t<5$, $b'\left(t\right)>0$ and the bacteria count increases; when $t>5$, $b'\left(t\right)<0$ and the bacteria count decreases. $\blacksquare$
+(2) Setting $b'\left(t\right)=0$, we get $t=5$. When $0< t< 5$, $b'\left(t\right)> 0$ and the bacteria count increases; when $t> 5$, $b'\left(t\right)< 0$ and the bacteria count decreases. $\blacksquare$
 
 ### Problem 13
 
@@ -383,13 +383,13 @@ Hence the graph has two asymptotes $x=1$ and $y=0$, and attains extreme values a
 
 ### Problem 18
 
-(Review Reference Problem 5, Extension and Exploration, Problem 18) Given $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. When $m\le2$, prove that $f\left(x\right)>0$.
+(Review Reference Problem 5, Extension and Exploration, Problem 18) Given $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. When $m\le2$, prove that $f\left(x\right)> 0$.
 
 ### Solution to Problem 18
 
 By **Definition 5.3.1**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. Setting $f'\left(x\right)=0$, i.e. $\mathrm e^{x}=\frac{1}{x+m}$.
 
-When $m\le2$, within the domain of $\ln\left(x+m\right)$ we have $x+m>0$. Let the minimum point of $f\left(x\right)$ be $x_{0}$, satisfying $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, i.e. $x_{0}+m=\mathrm e^{-x_{0}}$.
+When $m\le2$, within the domain of $\ln\left(x+m\right)$ we have $x+m> 0$. Let the minimum point of $f\left(x\right)$ be $x_{0}$, satisfying $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, i.e. $x_{0}+m=\mathrm e^{-x_{0}}$.
 
 The minimum value is
 
@@ -397,9 +397,9 @@ $$
 f\left(x_{0}\right)=\mathrm e^{x_{0}}-\ln\left(x_{0}+m\right)=\mathrm e^{x_{0}}-\ln\left(\mathrm e^{-x_{0}}\right)=\mathrm e^{x_{0}}+x_{0}.
 $$
 
-From $x_{0}+m=\mathrm e^{-x_{0}}$ and $m\le2$, we get $x_{0}\ge\mathrm e^{-x_{0}}-2$. Also $\mathrm e^{x_{0}}+x_{0}>0$ for all $x_{0}$ (since $\mathrm e^{x_{0}}>0$, and when $x_{0}\ge-2$, $\mathrm e^{x_{0}}+x_{0}>0$).
+From $x_{0}+m=\mathrm e^{-x_{0}}$ and $m\le2$, we get $x_{0}\ge\mathrm e^{-x_{0}}-2$. Also $\mathrm e^{x_{0}}+x_{0}> 0$ for all $x_{0}$ (since $\mathrm e^{x_{0}}> 0$, and when $x_{0}\ge-2$, $\mathrm e^{x_{0}}+x_{0}> 0$).
 
-Hence the minimum of $f\left(x\right)$ is greater than $0$, i.e. $f\left(x\right)>0$. $\blacksquare$
+Hence the minimum of $f\left(x\right)$ is greater than $0$, i.e. $f\left(x\right)> 0$. $\blacksquare$
 
 ### Problem 19
 
@@ -411,27 +411,27 @@ Hence the minimum of $f\left(x\right)$ is greater than $0$, i.e. $f\left(x\right
 
 ### Solution to Problem 19
 
-By **Definition 5.2.3**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. Letting $t=\mathrm e^{x}>0$, we have
+By **Definition 5.2.3**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. Letting $t=\mathrm e^{x}> 0$, we have
 
 $$
 f'\left(x\right)=\left(at-1\right)\left(2t+1\right).
 $$
 
-(1) Since $2t+1>0$, the sign of $f'\left(x\right)$ is determined by $at-1$.
+(1) Since $2t+1> 0$, the sign of $f'\left(x\right)$ is determined by $at-1$.
 
-When $a\le0$, $at-1<0$, so $f'\left(x\right)<0$, and $f\left(x\right)$ is monotonically decreasing on $\mathbb R$.
+When $a\le0$, $at-1< 0$, so $f'\left(x\right)< 0$, and $f\left(x\right)$ is monotonically decreasing on $\mathbb R$.
 
-When $a>0$, setting $at-1=0$, we get $t=\frac{1}{a}$, i.e. $x=-\ln a$. When $x<-\ln a$, $f'\left(x\right)<0$; when $x>-\ln a$, $f'\left(x\right)>0$. Hence $f\left(x\right)$ is decreasing on $\left(-\infty,-\ln a\right)$ and increasing on $\left(-\ln a,+\infty\right)$.
+When $a> 0$, setting $at-1=0$, we get $t=\frac{1}{a}$, i.e. $x=-\ln a$. When $x< -\ln a$, $f'\left(x\right)< 0$; when $x> -\ln a$, $f'\left(x\right)> 0$. Hence $f\left(x\right)$ is decreasing on $\left(-\infty,-\ln a\right)$ and increasing on $\left(-\ln a,+\infty\right)$.
 
 (2) When $a\le0$, $f\left(x\right)$ is decreasing and has at most one zero.
 
-When $a>0$, $f\left(x\right)$ attains its minimum at $x=-\ln a$, namely $f\left(-\ln a\right)$. Substituting $t=\frac{1}{a}$, 
+When $a> 0$, $f\left(x\right)$ attains its minimum at $x=-\ln a$, namely $f\left(-\ln a\right)$. Substituting $t=\frac{1}{a}$, 
 
 $$
 f\left(-\ln a\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln a=\frac{1}{a}+1-\frac{2}{a}+\ln a=1-\frac{1}{a}+\ln a.
 $$
 
-For $f\left(x\right)$ to have two zeros, the minimum must be less than $0$, i.e. $1-\frac{1}{a}+\ln a<0$. Let $g\left(a\right)=1-\frac{1}{a}+\ln a$; then $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}>0$, so $g\left(a\right)$ is increasing, and $g\left(1\right)=0$. Hence when $0<a<1$, $g\left(a\right)<0$.
+For $f\left(x\right)$ to have two zeros, the minimum must be less than $0$, i.e. $1-\frac{1}{a}+\ln a< 0$. Let $g\left(a\right)=1-\frac{1}{a}+\ln a$; then $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}> 0$, so $g\left(a\right)$ is increasing, and $g\left(1\right)=0$. Hence when $0< a< 1$, $g\left(a\right)< 0$.
 
 Also, when $x\to-\infty$, $f\left(x\right)\to+\infty$, and when $x\to+\infty$, $f\left(x\right)\to+\infty$.
 

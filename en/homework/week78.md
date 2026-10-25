@@ -80,7 +80,7 @@ $\blacksquare$
 
 (Review Reference Problem 4, Review and Consolidation, Problem 3) Multiple choice
 
-(1) There are many ways to predict population trends. The formula used by the "direct projection method" is $P_n=P_0\left(1+k\right)^n$ ($k>-1$), where $P_n$ is the projected population, $P_0$ the initial population, $k$ the annual population growth rate during the projection period, and $n$ the number of years. If during a certain period $k\in\left(-1,0\right)$, then during this period the population ( ).
+(1) There are many ways to predict population trends. The formula used by the "direct projection method" is $P_n=P_0\left(1+k\right)^n$ ($k> -1$), where $P_n$ is the projected population, $P_0$ the initial population, $k$ the annual population growth rate during the projection period, and $n$ the number of years. If during a certain period $k\in\left(-1,0\right)$, then during this period the population ( ).
 
 (A) shows an upward trend
 
@@ -114,7 +114,7 @@ The figure shows the first four iterations of the Koch snowflake curve: $C_1$ is
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $P_n=P_0\left(1+k\right)^n$. When $k\in\left(-1,0\right)$, $0<1+k<1$, so $P_n$ decreases. Choose (B).
+(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $P_n=P_0\left(1+k\right)^n$. When $k\in\left(-1,0\right)$, $0< 1+k< 1$, so $P_n$ decreases. Choose (B).
 
 $\blacksquare$
 
@@ -212,7 +212,7 @@ Plan 2: by **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $65n+\fra
 
 Plan 3: by **Theorem 4.3.5** (Sum of the First $n$ Terms), $\frac{40\left(1.1^n-1\right)}{1.1-1}=400\left(1.1^n-1\right)$ yuan.
 
-Comparing: Plan 2 $-$ Plan 1 $=n^2+64n-85n=n\left(n-21\right)<0$ ($n<21$); Plan 1 is always better than Plan 2.
+Comparing: Plan 2 $-$ Plan 1 $=n^2+64n-85n=n\left(n-21\right)< 0$ ($n< 21$); Plan 1 is always better than Plan 2.
 
 Comparing Plan 3 with Plan 1: $400\left(1.1^n-1\right)$ versus $85n$.
 
@@ -422,7 +422,7 @@ $\blacksquare$
 
 (1) Based on the above statement, infer the corresponding dual relations from the information given in the table;
 
-(2) In an arithmetic sequence $\left\{a_n\right\}$, if $a_{2018}=0$, then $a_1+a_2+\cdots+a_n=a_1+a_2+\cdots+a_{4035-n}$ ($n\in\mathbb N^*$, $n<4035$). Correspondingly, in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, infer by analogy the dual equality and prove it.
+(2) In an arithmetic sequence $\left\{a_n\right\}$, if $a_{2018}=0$, then $a_1+a_2+\cdots+a_n=a_1+a_2+\cdots+a_{4035-n}$ ($n\in\mathbb N^*$, $n< 4035$). Correspondingly, in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, infer by analogy the dual equality and prove it.
 
 ### Solution to Problem 2
 
@@ -437,7 +437,7 @@ $\blacksquare$
 (2) Dual conjecture: in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, then
 
 $$
-b_1 b_2\cdots b_n=b_1 b_2\cdots b_{4037-n}\ \left(n<4037\right).
+b_1 b_2\cdots b_n=b_1 b_2\cdots b_{4037-n}\ \left(n< 4037\right).
 $$
 
 Proof: by **Definition 4.3.2** (Geometric Mean), $b_i b_{4037-i}=b_{2019}^2=1$.

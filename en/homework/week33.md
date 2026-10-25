@@ -336,7 +336,7 @@ $\boldsymbol{AB}=\left(3,3\right)$. $\boldsymbol{OP}=\left(1,2\right)+t\left(3,3
 
 $P$ on the $y$-axis: $1+3t=0$, $t=-\frac{1}{3}$.
 
-$P$ in the second quadrant: $1+3t<0$ and $2+3t>0$, i.e. $-\frac{2}{3}<t<-\frac{1}{3}$.
+$P$ in the second quadrant: $1+3t< 0$ and $2+3t> 0$, i.e. $-\frac{2}{3}< t< -\frac{1}{3}$.
 
 (2) If $OABP$ were a parallelogram, then $\boldsymbol{OP}=\boldsymbol{AB}=\left(3,3\right)$, i.e. $1+3t=3$ and $2+3t=3$, a contradiction. It cannot be a parallelogram. $\blacksquare$
 
@@ -378,7 +378,7 @@ $x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
 
 ### Problem 15
 
-(Exercise 6.3, Extension and Exploration, Problem 15) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, and that $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k>0$).
+(Exercise 6.3, Extension and Exploration, Problem 15) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, and that $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k> 0$).
 
 (1) Prove that $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
 
@@ -406,7 +406,7 @@ At this time $\cos\theta=\frac{1}{2}$, so $\theta=60^{\circ}$. $\blacksquare$
 
 ### Problem 16
 
-(Exercise 6.3, Extension and Exploration, Problem 16) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, where $0<\alpha<\beta<\pi$.
+(Exercise 6.3, Extension and Exploration, Problem 16) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, where $0< \alpha< \beta< \pi$.
 
 (1) Prove that $\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{a}-\boldsymbol{b}$ are perpendicular to each other;
 
@@ -426,4 +426,4 @@ Equating: $2k\cos\left(\beta-\alpha\right)=-2k\cos\left(\beta-\alpha\right)$.
 
 $4k\cos\left(\beta-\alpha\right)=0$. $\cos\left(\beta-\alpha\right)=0$.
 
-Since $0<\beta-\alpha<\pi$, we have $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
+Since $0< \beta-\alpha< \pi$, we have $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$

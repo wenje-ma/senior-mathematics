@@ -378,13 +378,13 @@ $\blacksquare$
 
 ### 习题八
 
-(习题 5.3 综合运用第 8 题) 已知 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 且 $0<x<\frac{\pi}{2}$, 求 $\sin\left(\frac{\pi}{6}+x\right)$ 和 $\cos\left(\frac{\pi}{3}+x\right)$ 的值.
+(习题 5.3 综合运用第 8 题) 已知 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 且 $0< x< \frac{\pi}{2}$, 求 $\sin\left(\frac{\pi}{6}+x\right)$ 和 $\cos\left(\frac{\pi}{3}+x\right)$ 的值.
 
 ### 解答 习题八
 
 由**公式五**, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-(1) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, 得 $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. 由 $0<x<\frac{\pi}{2}$, 得 $-\frac{\pi}{6}<\frac{\pi}{3}-x<\frac{\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}-x\right)>0$. 由 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 得 $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. 故 $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
+(1) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, 得 $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. 由 $0< x< \frac{\pi}{2}$, 得 $-\frac{\pi}{6}< \frac{\pi}{3}-x< \frac{\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}-x\right)> 0$. 由 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 得 $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. 故 $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
 
 (2) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 无法直接用诱导公式. 注意到 $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, 而 $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. 另注意到 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\pi-\alpha\right)=-\cos\alpha$, 得 $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$
 

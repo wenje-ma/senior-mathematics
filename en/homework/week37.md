@@ -6,7 +6,7 @@
 
 > **Definition 7.3.2** (Argument) <br> The angle $\theta$ whose initial side is the nonnegative half of the $x$-axis and whose terminal side is the ray on which the vector $\boldsymbol{OZ}$ lies is called the argument of the complex number $z=a+b\mathrm{i}$. The argument of any nonzero complex number has infinitely many values, which differ by integer multiples of $2\pi$.
 
-> **Definition 7.3.3** (Principal Value of the Argument) <br> The value of the argument $\theta$ in the range $0\le\theta<2\pi$ is stipulated to be the principal value of the argument, usually denoted $\arg z$, that is, $0\le\arg z<2\pi$.
+> **Definition 7.3.3** (Principal Value of the Argument) <br> The value of the argument $\theta$ in the range $0\le\theta< 2\pi$ is stipulated to be the principal value of the argument, usually denoted $\arg z$, that is, $0\le\arg z< 2\pi$.
 
 > **Definition 7.3.4** (Condition for Equality of Nonzero Complex Numbers in Trigonometric Form) <br> Two nonzero complex numbers are equal if and only if their moduli and their principal arguments are respectively equal.
 
@@ -84,7 +84,7 @@ $$
 \frac{1}{2}\left(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4}\right)=\frac{1}{2}\left[\cos\left(-\frac{\pi}{4}\right)+\mathrm{i}\sin\left(-\frac{\pi}{4}\right)\right].
 $$
 
-(2) Not in trigonometric form, because the modulus is $-\frac{1}{2}<0$. Rewrite as $\frac{1}{2}\left[-\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]=\frac{1}{2}\left[\cos\left(\frac{\pi}{3}+\pi\right)+\mathrm{i}\sin\left(\frac{\pi}{3}+\pi\right)\right]=\frac{1}{2}\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
+(2) Not in trigonometric form, because the modulus is $-\frac{1}{2}< 0$. Rewrite as $\frac{1}{2}\left[-\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]=\frac{1}{2}\left[\cos\left(\frac{\pi}{3}+\pi\right)+\mathrm{i}\sin\left(\frac{\pi}{3}+\pi\right)\right]=\frac{1}{2}\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
 
 (3) Not in trigonometric form, because the expression in parentheses is $\sin\theta+\mathrm{i}\cos\theta$. Since $\sin\theta=\cos\left(\frac{\pi}{2}-\theta\right)$, $\cos\theta=\sin\left(\frac{\pi}{2}-\theta\right)$, we get $\sin\frac{5\pi}{12}+\mathrm{i}\cos\frac{5\pi}{12}=\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}$. Hence the original expression $=\frac{1}{2}\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$.
 
@@ -426,13 +426,13 @@ By **Theorem 7.3.8** (De Moivre's Theorem), $\omega_k=\cos\frac{2k\pi}{3}+\mathr
 
 ### Solution to Inquiry and Discovery 3
 
-Let $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho>0\right)$ be an $n$th root of $1$; then $z^n=1=\cos 0+\mathrm{i}\sin 0$. By **Theorem 7.3.8** (De Moivre's Theorem),
+Let $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ be an $n$th root of $1$; then $z^n=1=\cos 0+\mathrm{i}\sin 0$. By **Theorem 7.3.8** (De Moivre's Theorem),
 
 $$
 z^n=\rho^n\left(\cos n\varphi+\mathrm{i}\sin n\varphi\right)=\cos 0+\mathrm{i}\sin 0.
 $$
 
-By **Definition 7.3.4** (Condition for Equality of Nonzero Complex Numbers in Trigonometric Form), $\rho^n=1$ and $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. Since $\rho>0$, we have $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
+By **Definition 7.3.4** (Condition for Equality of Nonzero Complex Numbers in Trigonometric Form), $\rho^n=1$ and $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. Since $\rho> 0$, we have $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
 
 By the periodicity of the trigonometric functions, $k=0,1,\cdots,n-1$ gives $n$ distinct roots: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\ \left(k=0,1,\cdots,n-1\right)$.
 

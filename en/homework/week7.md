@@ -2,7 +2,7 @@
 
 > **Standard Conclusion 2.1.2** (Important Inequality) <br>For $\forall a,b\in\mathbb R$, we have $a^2+b^2\ge 2ab$, with equality holding if and only if $a=b$.
 
-> **Theorem 2.2.1** (Basic Inequality) <br>If $a>0$ and $b>0$, then $\sqrt{ab}\le\frac{a+b}{2}$, with equality holding if and only if $a=b$. Here $\frac{a+b}{2}$ is called the arithmetic mean of the positive numbers $a,b$, and $\sqrt{ab}$ is called the geometric mean of the positive numbers $a,b$. The basic inequality states that the arithmetic mean of two positive numbers is not less than their geometric mean.
+> **Theorem 2.2.1** (Basic Inequality) <br>If $a> 0$ and $b> 0$, then $\sqrt{ab}\le\frac{a+b}{2}$, with equality holding if and only if $a=b$. Here $\frac{a+b}{2}$ is called the arithmetic mean of the positive numbers $a,b$, and $\sqrt{ab}$ is called the geometric mean of the positive numbers $a,b$. The basic inequality states that the arithmetic mean of two positive numbers is not less than their geometric mean.
 
 > **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product) <br>Given that $x,y$ are both positive, (1) if the product $xy$ equals a fixed value $P$, then when $x=y$, the sum $x+y$ has the minimum value $2\sqrt P$; (2) if the sum $x+y$ equals a fixed value $S$, then when $x=y$, the product $xy$ has the maximum value $\frac{1}{4}S^2$.
 
@@ -26,9 +26,9 @@ with equality holding if and only if $a=b$. $\blacksquare$
 
 (Exercise 2.2, Problem 2) Given that $x,y$ are both positive and $x\neq y$, prove that.
 
-(1) $\frac{x}{y}+\frac{y}{x}>2$;
+(1) $\frac{x}{y}+\frac{y}{x}> 2$;
 
-(2) $\frac{2xy}{x+y}<\sqrt{xy}$.
+(2) $\frac{2xy}{x+y}< \sqrt{xy}$.
 
 ### Solution to Exercise 2
 
@@ -40,12 +40,12 @@ $$
 \frac{x}{y}+\frac{y}{x}\ge2\sqrt{\frac{x}{y}\cdot\frac{y}{x}}=2.
 $$
 
-Since $x\neq y$, equality does not hold, so $\frac{x}{y}+\frac{y}{x}>2$.
+Since $x\neq y$, equality does not hold, so $\frac{x}{y}+\frac{y}{x}> 2$.
 
-(2) Since $x\neq y$, **Theorem 2.2.1** (Basic Inequality) gives $x+y>2\sqrt{xy}$. Both sides are positive, so taking reciprocals gives $\frac{2}{x+y}<\frac{1}{\sqrt{xy}}$; multiplying both sides by the positive number $xy$, we get
+(2) Since $x\neq y$, **Theorem 2.2.1** (Basic Inequality) gives $x+y> 2\sqrt{xy}$. Both sides are positive, so taking reciprocals gives $\frac{2}{x+y}< \frac{1}{\sqrt{xy}}$; multiplying both sides by the positive number $xy$, we get
 
 $$
-\frac{2xy}{x+y}<\frac{xy}{\sqrt{xy}}=\sqrt{xy}.
+\frac{2xy}{x+y}< \frac{xy}{\sqrt{xy}}=\sqrt{xy}.
 $$
 
 $\blacksquare$
@@ -56,7 +56,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Theorem 2.2.1** (Basic Inequality), $x^2>0$ and $\frac{1}{x^2}>0$, so
+By **Theorem 2.2.1** (Basic Inequality), $x^2> 0$ and $\frac{1}{x^2}> 0$, so
 
 $$
 x^2+\frac{1}{x^2}\ge2\sqrt{x^2\cdot\frac{1}{x^2}}=2.
@@ -114,7 +114,7 @@ $$
 S=xy=\frac{1}{2}\left(2x\right)y=\frac{1}{2}uy.
 $$
 
-By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), $uy\le\left(\frac{u+y}{2}\right)^2=225$, with equality holding if and only if $u=y=15$. Then $2x=15$, $x=7.5$, $y=15$, and $y=15<18$ does not exceed the wall length, so it is feasible.
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), $uy\le\left(\frac{u+y}{2}\right)^2=225$, with equality holding if and only if $u=y=15$. Then $2x=15$, $x=7.5$, $y=15$, and $y=15< 18$ does not exceed the wall length, so it is feasible.
 
 Thus when the side perpendicular to the wall is $7.5\ \mathrm m$ and the side parallel to the wall is $15\ \mathrm m$, the area of the garden is maximized, and the maximum area is $\frac{225}{2}=112.5\ \mathrm m^2$. $\blacksquare$
 
@@ -154,7 +154,7 @@ By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Giv
 
 (Exercise 2.2, Review and Consolidation, Problem 1)
 
-(1) Given $x>1$, find the minimum value of $x+\frac{1}{x-1}$;
+(1) Given $x> 1$, find the minimum value of $x+\frac{1}{x-1}$;
 
 (2) find the maximum value of $\sqrt{x\left(10-x\right)}$.
 
@@ -162,7 +162,7 @@ By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Giv
 
 By **Theorem 2.2.1** (Basic Inequality), rewrite the expression as the sum or product of two positive numbers.
 
-(1) Since $x>1$, we have $x-1>0$. Rewrite
+(1) Since $x> 1$, we have $x-1> 0$. Rewrite
 
 $$
 x+\frac{1}{x-1}=\left(x-1\right)+\frac{1}{x-1}+1\ge2\sqrt{\left(x-1\right)\cdot\frac{1}{x-1}}+1=3,
@@ -226,7 +226,7 @@ Then $z=3600\times8+4800\times6+5800=63400$ yuan. Thus when the front width is $
 
 By **Theorem 2.2.1** (Basic Inequality), apply the basic inequality to the three pairs of positive numbers respectively.
 
-From $x,y>0$, $y,z>0$, $z,x>0$, we get
+From $x,y> 0$, $y,z> 0$, $z,x> 0$, we get
 
 $$
 x+y\ge2\sqrt{xy},\quad y+z\ge2\sqrt{yz},\quad z+x\ge2\sqrt{zx}.
@@ -242,11 +242,11 @@ Equality holds if and only if $x=y=z$. $\blacksquare$
 
 ### Problem 5
 
-(Exercise 2.2, Comprehensive Application, Problem 5) Given $x>0$, prove that the maximum value of $2-3x-\frac{4}{x}$ is $2-4\sqrt3$.
+(Exercise 2.2, Comprehensive Application, Problem 5) Given $x> 0$, prove that the maximum value of $2-3x-\frac{4}{x}$ is $2-4\sqrt3$.
 
 ### Solution to Problem 5
 
-By **Theorem 2.2.1** (Basic Inequality), $3x>0$ and $\frac{4}{x}>0$, so
+By **Theorem 2.2.1** (Basic Inequality), $3x> 0$ and $\frac{4}{x}> 0$, so
 
 $$
 3x+\frac{4}{x}\ge2\sqrt{3x\cdot\frac{4}{x}}=4\sqrt3.
@@ -300,11 +300,11 @@ $$
 x+y=5\left(\frac{l_1}{l_2}+\frac{l_2}{l_1}\right)\ge5\cdot2\sqrt{\frac{l_1}{l_2}\cdot\frac{l_2}{l_1}}=10.
 $$
 
-Since the two arms are unequal $l_1\neq l_2$, equality does not hold, so $x+y>10$. The gold the customer receives is greater than $10\ \mathrm g$. $\blacksquare$
+Since the two arms are unequal $l_1\neq l_2$, equality does not hold, so $x+y> 10$. The gold the customer receives is greater than $10\ \mathrm g$. $\blacksquare$
 
 ### Problem 8
 
-(Exercise 2.2, Extension and Exploration, Problem 8) Let the rectangle $ABCD$ ($AB>AD$) have perimeter $24\ \mathrm{cm}$. Fold $\triangle ABC$ along $AC$ toward $\triangle ADC$; after $AB$ is folded over, it intersects $DC$ at the point $P$. Let $AB=x\ \mathrm{cm}$. Find the maximum area of $\triangle ADP$ and the corresponding value of $x$.
+(Exercise 2.2, Extension and Exploration, Problem 8) Let the rectangle $ABCD$ ($AB> AD$) have perimeter $24\ \mathrm{cm}$. Fold $\triangle ABC$ along $AC$ toward $\triangle ADC$; after $AB$ is folded over, it intersects $DC$ at the point $P$. Let $AB=x\ \mathrm{cm}$. Find the maximum area of $\triangle ADP$ and the corresponding value of $x$.
 
 ### Solution to Problem 8
 
@@ -324,6 +324,6 @@ $$
 S=\frac{1}{2}\cdot AD\cdot t=\frac{1}{2}\left(12-x\right)\cdot\frac{12x-72}{x}=\frac{6\left(12-x\right)\left(x-6\right)}{x}=6\left(18-x-\frac{72}{x}\right).
 $$
 
-By **Theorem 2.2.1** (Basic Inequality), $x+\frac{72}{x}\ge2\sqrt{72}=12\sqrt2$, with equality holding if and only if $x=\frac{72}{x}$, i.e. $x=6\sqrt2$. Then $AD=12-6\sqrt2>0$ and $AB>AD$, which is consistent with the problem.
+By **Theorem 2.2.1** (Basic Inequality), $x+\frac{72}{x}\ge2\sqrt{72}=12\sqrt2$, with equality holding if and only if $x=\frac{72}{x}$, i.e. $x=6\sqrt2$. Then $AD=12-6\sqrt2> 0$ and $AB> AD$, which is consistent with the problem.
 
 Thus when $x=6\sqrt2\ \mathrm{cm}$, the area of $\triangle ADP$ is maximized, with maximum value $6\left(18-12\sqrt2\right)=108-72\sqrt2\ \mathrm{cm}^2$. $\blacksquare$

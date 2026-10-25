@@ -24,7 +24,7 @@ $$
 \chi^2=\frac{n\left(ad-bc\right)^2}{\left(a+b\right)\left(c+d\right)\left(a+c\right)\left(b+d\right)}.
 $$
 
-> **Common Conclusion 8.3.5** (Rules for the Independence Test) <br>When $\chi^2\geqslant x_\alpha$, we infer that $H_0$ does not hold, i.e. we consider $X$ and $Y$ to be dependent, and the probability that this inference is wrong is no more than $\alpha$; when $\chi^2<x_\alpha$, we do not have sufficient evidence to infer that $H_0$ does not hold, and we may consider $X$ and $Y$ to be independent. Commonly used small probability values and the corresponding critical values are: when $\alpha=0.1$, $x_\alpha=2.706$; when $\alpha=0.05$, $x_\alpha=3.841$; when $\alpha=0.01$, $x_\alpha=6.635$; when $\alpha=0.005$, $x_\alpha=7.879$; when $\alpha=0.001$, $x_\alpha=10.828$.
+> **Common Conclusion 8.3.5** (Rules for the Independence Test) <br>When $\chi^2\geqslant x_\alpha$, we infer that $H_0$ does not hold, i.e. we consider $X$ and $Y$ to be dependent, and the probability that this inference is wrong is no more than $\alpha$; when $\chi^2< x_\alpha$, we do not have sufficient evidence to infer that $H_0$ does not hold, and we may consider $X$ and $Y$ to be independent. Commonly used small probability values and the corresponding critical values are: when $\alpha=0.1$, $x_\alpha=2.706$; when $\alpha=0.05$, $x_\alpha=3.841$; when $\alpha=0.01$, $x_\alpha=6.635$; when $\alpha=0.005$, $x_\alpha=7.879$; when $\alpha=0.001$, $x_\alpha=10.828$.
 
 ### Exercise 1
 
@@ -96,7 +96,7 @@ $$
 \chi^2=\frac{44\times\left(5\times 18-15\times 6\right)^2}{20\times 24\times 11\times 33}=\frac{44\times 0}{20\times 24\times 11\times 33}=0.
 $$
 
-By **Common Conclusion 8.3.5** (Rules for the Independence Test), $\chi^2=0<2.706$, so there is insufficient evidence to infer that the proportion of female students who exercise regularly differs from the proportion of male students who exercise regularly at this school.
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), $\chi^2=0< 2.706$, so there is insufficient evidence to infer that the proportion of female students who exercise regularly differs from the proportion of male students who exercise regularly at this school.
 
 (2) In the stacked bar chart of equal height, the two bars representing girls and boys have the same height, and the proportion occupied by the "exercise regularly" part within each bar is also the same (both $0.75$), which intuitively shows that there is no obvious association between gender and whether one exercises regularly. $\blacksquare$
 
@@ -117,7 +117,7 @@ $$
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 4.88>3.841,
+\chi^2\approx 4.88> 3.841,
 $$
 
 we infer that the null hypothesis does not hold, i.e. we consider there to be a difference between the efficacy of drug $A$ and that of drug $B$, and the probability that this inference is wrong is no more than $0.05$. $\blacksquare$
@@ -134,7 +134,7 @@ Different conclusions may be reached.
 
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), an independence test makes an inference by comparing the size of the $\chi^2$ statistic with the critical value $x_\alpha$. Different small probability values $\alpha$ correspond to different critical values $x_\alpha$: the smaller $\alpha$ is, the larger the critical value $x_\alpha$ is, and the harder it is to reject the null hypothesis.
 
-Therefore, when the $\chi^2$ computed from the data lies between the critical values corresponding to two different small probability values, for example $3.841<\chi^2<6.635$, using $\alpha=0.05$ leads to the inference that the two variables are associated, whereas using $\alpha=0.01$ gives insufficient evidence to infer that they are associated. Hence applying different small probability values may lead to different conclusions. $\blacksquare$
+Therefore, when the $\chi^2$ computed from the data lies between the critical values corresponding to two different small probability values, for example $3.841< \chi^2< 6.635$, using $\alpha=0.05$ leads to the inference that the two variables are associated, whereas using $\alpha=0.01$ gives insufficient evidence to infer that they are associated. Hence applying different small probability values may lead to different conclusions. $\blacksquare$
 
 ### Exercise 7
 
@@ -163,7 +163,7 @@ $$
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 1.59<3.841,
+\chi^2\approx 1.59< 3.841,
 $$
 
 there is insufficient evidence to infer that the null hypothesis does not hold, i.e. one cannot infer that drug $A$ is effective in preventing disease $B$. $\blacksquare$
@@ -195,7 +195,7 @@ $$
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 48.03>3.841,
+\chi^2\approx 48.03> 3.841,
 $$
 
 we infer that the null hypothesis does not hold, i.e. we consider excellent math scores to be associated with excellent Chinese scores, and the probability that this inference is wrong is no more than $0.05$. $\blacksquare$
@@ -317,7 +317,7 @@ $$
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 2.43<3.841,
+\chi^2\approx 2.43< 3.841,
 $$
 
 there is insufficient evidence to infer that the null hypothesis does not hold, i.e. one cannot consider there to be an association between gender and height among the senior-year students at this school.
@@ -353,7 +353,7 @@ $$
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because
 
 $$
-\chi^2\approx 3.69>2.706,
+\chi^2\approx 3.69> 2.706,
 $$
 
 we infer that the null hypothesis does not hold, i.e. we consider there to be an association between a baby's gender and its time of birth, and the probability that this inference is wrong is no more than $0.1$. $\blacksquare$
@@ -374,7 +374,7 @@ $$
 \chi^2=\frac{88\times\left(33\times 7-10\times 38\right)^2}{43\times 45\times 71\times 17}\approx 0.58.
 $$
 
-By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 0.58<2.706$, there is insufficient evidence to infer that the two schools differ in math excellence rate.
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 0.58< 2.706$, there is insufficient evidence to infer that the two schools differ in math excellence rate.
 
 When all the data in the table are enlarged to $10$ times the original: School A, not excellent $330$, excellent $100$, total $430$; School B, not excellent $380$, excellent $70$, total $450$; grand total $880$. By **Definition 8.3.4** ($\chi^2$ Statistic),
 
@@ -382,7 +382,7 @@ $$
 \chi^2=\frac{880\times\left(330\times 70-100\times 380\right)^2}{430\times 450\times 710\times 170}\approx 5.81.
 $$
 
-By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 5.81>2.706$, we infer that the two schools differ in math excellence rate, and the conclusion has changed.
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 5.81> 2.706$, we infer that the two schools differ in math excellence rate, and the conclusion has changed.
 
 After the data are enlarged to $10$ times the original, the proportions of the excellence rates in the two schools are unchanged, so the shape of the stacked bar chart of equal height is essentially unchanged.
 

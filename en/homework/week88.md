@@ -16,7 +16,7 @@ $$
 
 is called the sample correlation coefficient between the variable $x$ and the variable $y$.
 
-> **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) <br>When $r>0$, the paired sample data are said to be positively correlated; when $r<0$, the paired sample data are said to be negatively correlated; the range of the sample correlation coefficient is $\left[-1,1\right]$; the closer $\left|r\right|$ is to $1$, the stronger the linear correlation of the paired sample data; the closer $\left|r\right|$ is to $0$, the weaker the linear correlation of the paired sample data.
+> **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) <br>When $r> 0$, the paired sample data are said to be positively correlated; when $r< 0$, the paired sample data are said to be negatively correlated; the range of the sample correlation coefficient is $\left[-1,1\right]$; the closer $\left|r\right|$ is to $1$, the stronger the linear correlation of the paired sample data; the closer $\left|r\right|$ is to $0$, the weaker the linear correlation of the paired sample data.
 
 ### Exercise 1
 
@@ -69,7 +69,7 @@ $$
 r\approx 0.79.
 $$
 
-By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r>0$ and is close to $1$, so there is a positive correlation between the number of bird species and the altitude: the higher the altitude, the more bird species a region generally has, and the linear correlation is strong. $\blacksquare$
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r> 0$ and is close to $1$, so there is a positive correlation between the number of bird species and the altitude: the higher the altitude, the more bird species a region generally has, and the linear correlation is strong. $\blacksquare$
 
 ### Exercise 4
 
@@ -178,7 +178,7 @@ $$
 r\approx 0.83.
 $$
 
-By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r>0$ and is close to $1$, so there is a positive linear correlation between a supermarket's sales and its advertising expenditure: the more a supermarket spends on advertising, the higher its sales generally are, the trends are the same, and the linear correlation is strong. $\blacksquare$
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r> 0$ and is close to $1$, so there is a positive linear correlation between a supermarket's sales and its advertising expenditure: the more a supermarket spends on advertising, the higher its sales generally are, the trends are the same, and the linear correlation is strong. $\blacksquare$
 
 ### Problem 1
 
@@ -221,7 +221,7 @@ $$
 r\approx -0.87.
 $$
 
-By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r<0$ and its absolute value is close to $1$, so there is a negative linear correlation between the number of customer complaints and the on-time flight rate: the higher the on-time flight rate of an airline, the fewer customer complaints it generally receives, the two trends are opposite, and the linear correlation is strong. $\blacksquare$
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r< 0$ and its absolute value is close to $1$, so there is a negative linear correlation between the number of customer complaints and the on-time flight rate: the higher the on-time flight rate of an airline, the fewer customer complaints it generally receives, the two trends are opposite, and the linear correlation is strong. $\blacksquare$
 
 ### Problem 3
 

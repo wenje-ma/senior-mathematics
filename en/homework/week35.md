@@ -256,25 +256,25 @@ From the second equation, $x=4$. Substituting into the first gives $4+y-3=0$, i.
 
 (Exercise 7.1, Review and Consolidation, Problem 4) If $P$ is the point in the complex plane representing the complex number $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, state the location of $P$ under each of the following conditions.
 
-(1) $a>0$, $b>0$;
+(1) $a> 0$, $b> 0$;
 
-(2) $a<0$, $b>0$;
+(2) $a< 0$, $b> 0$;
 
 (3) $a=0$, $b\le 0$;
 
-(4) $b<0$.
+(4) $b< 0$.
 
 ### Solution to Problem 4
 
 By **Definition 7.1.7** (The Complex Plane) and **Definition 7.1.8** (Geometric Meaning of a Complex Number), $a+b\mathrm{i}$ corresponds to the point $P\left(a,b\right)$ in the complex plane, with $a$ the horizontal coordinate and $b$ the vertical coordinate.
 
-(1) $a>0$, $b>0$, so $P$ lies in the first quadrant.
+(1) $a> 0$, $b> 0$, so $P$ lies in the first quadrant.
 
-(2) $a<0$, $b>0$, so $P$ lies in the second quadrant.
+(2) $a< 0$, $b> 0$, so $P$ lies in the second quadrant.
 
 (3) $a=0$, so $P$ lies on the $y$-axis (the imaginary axis); and $b\le 0$, so $P$ lies on the lower half of the imaginary axis (including the origin).
 
-(4) $b<0$, so the vertical coordinate of $P$ is negative, and $P$ lies in the half-plane below the real axis. $\blacksquare$
+(4) $b< 0$, so the vertical coordinate of $P$ is negative, and $P$ lies in the half-plane below the real axis. $\blacksquare$
 
 ### Problem 5
 
@@ -292,7 +292,7 @@ $$
 \lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
 $$
 
-Since $5>\frac{3}{2}$, we have $\lvert z_1\rvert>\lvert z_2\rvert$. $\blacksquare$
+Since $5> \frac{3}{2}$, we have $\lvert z_1\rvert> \lvert z_2\rvert$. $\blacksquare$
 
 ### Problem 6
 
@@ -308,15 +308,15 @@ Since $5>\frac{3}{2}$, we have $\lvert z_1\rvert>\lvert z_2\rvert$. $\blacksquar
 
 By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i}$ corresponds to the point $P\left(a,b\right)$. Write $a=m^2-8m+15=\left(m-3\right)\left(m-5\right)$, $b=m^2-5m-14=\left(m-7\right)\left(m+2\right)$.
 
-(1) To lie in the fourth quadrant, require $a>0$ and $b<0$. From $a>0$, we get $m<3$ or $m>5$; from $b<0$, we get $-2<m<7$. Taking the intersection gives $-2<m<3$ or $5<m<7$.
+(1) To lie in the fourth quadrant, require $a> 0$ and $b< 0$. From $a> 0$, we get $m< 3$ or $m> 5$; from $b< 0$, we get $-2< m< 7$. Taking the intersection gives $-2< m< 3$ or $5< m< 7$.
 
-(2) To lie in the first or third quadrant, require $a$ and $b$ to have the same sign, i.e. $ab>0$.
+(2) To lie in the first or third quadrant, require $a$ and $b$ to have the same sign, i.e. $ab> 0$.
 
-(a) When $a>0$ and $b>0$: $m<3$ or $m>5$, and $m<-2$ or $m>7$, giving $m<-2$ or $m>7$.
+(a) When $a> 0$ and $b> 0$: $m< 3$ or $m> 5$, and $m< -2$ or $m> 7$, giving $m< -2$ or $m> 7$.
 
-(b) When $a<0$ and $b<0$: $3<m<5$, and $-2<m<7$, giving $3<m<5$.
+(b) When $a< 0$ and $b< 0$: $3< m< 5$, and $-2< m< 7$, giving $3< m< 5$.
 
-In summary, $m<-2$ or $3<m<5$ or $m>7$.
+In summary, $m< -2$ or $3< m< 5$ or $m> 7$.
 
 (3) To lie on the line $y=x$, require $P\left(a,b\right)$ to satisfy $b=a$, i.e. $m^2-5m-14=m^2-8m+15$. Simplifying gives $3m=29$, i.e. $m=\frac{29}{3}$. $\blacksquare$
 
@@ -342,7 +342,7 @@ By **Definition 7.1.8** (Geometric Meaning of a Complex Number), the vector $\bo
 
 (1) $\lvert z\rvert=3$;
 
-(2) $2\le \lvert z\rvert<5$.
+(2) $2\le \lvert z\rvert< 5$.
 
 ### Solution to Problem 8
 
@@ -350,7 +350,7 @@ By **Definition 7.1.9** (Modulus of a Complex Number), $\lvert z\rvert$ is the l
 
 (1) $\lvert z\rvert=3$ means the distance from $Z$ to the origin $O$ is always $3$. By plane geometry, the set of points $Z$ is a circle centered at the origin $O$ with radius $3$.
 
-(2) $\lvert z\rvert<5$ means the distance from $Z$ to the origin is less than $5$, i.e. the interior of the circle centered at $O$ with radius $5$; $\lvert z\rvert\ge 2$ means the distance from $Z$ to the origin is at least $2$, i.e. the exterior of the circle centered at $O$ with radius $2$ (including the circle). Their intersection is: the annulus between the two circles centered at $O$ with radii $2$ and $5$, where the inner circle ( $\lvert z\rvert=2$ ) is included and the outer circle ( $\lvert z\rvert=5$ ) is excluded. $\blacksquare$
+(2) $\lvert z\rvert< 5$ means the distance from $Z$ to the origin is less than $5$, i.e. the interior of the circle centered at $O$ with radius $5$; $\lvert z\rvert\ge 2$ means the distance from $Z$ to the origin is at least $2$, i.e. the exterior of the circle centered at $O$ with radius $2$ (including the circle). Their intersection is: the annulus between the two circles centered at $O$ with radii $2$ and $5$, where the inner circle ( $\lvert z\rvert=2$ ) is included and the outer circle ( $\lvert z\rvert=5$ ) is excluded. $\blacksquare$
 
 ### Problem 9
 
@@ -358,9 +358,9 @@ By **Definition 7.1.9** (Modulus of a Complex Number), $\lvert z\rvert$ is the l
 
 ### Solution to Problem 9
 
-By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i}$ corresponds to the point $Z\left(a,b\right)$. Given the imaginary part $b=3$ and real part $a>0$, the vertical coordinate of $Z$ is always $3$ and the horizontal coordinate is positive.
+By **Definition 7.1.8** (Geometric Meaning of a Complex Number), $z=a+b\mathrm{i}$ corresponds to the point $Z\left(a,b\right)$. Given the imaginary part $b=3$ and real part $a> 0$, the vertical coordinate of $Z$ is always $3$ and the horizontal coordinate is positive.
 
-Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the first quadrant, i.e. the ray $y=3\ \left(x>0\right)$, not including the endpoint $\left(0,3\right)$. $\blacksquare$
+Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the first quadrant, i.e. the ray $y=3\ \left(x> 0\right)$, not including the endpoint $\left(0,3\right)$. $\blacksquare$
 
 ### Problem 10
 

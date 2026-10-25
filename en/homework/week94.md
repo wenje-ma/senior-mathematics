@@ -1,14 +1,14 @@
 # Assignment 94
 
-> **Definition 7.1.1** (Conditional Probability) <br>In general, let $A$, $B$ be two random events with $\mathbb P\left(A\right)>0$; we call $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ the conditional probability of event $B$ occurring given that event $A$ has occurred, or conditional probability for short.
+> **Definition 7.1.1** (Conditional Probability) <br>In general, let $A$, $B$ be two random events with $\mathbb P\left(A\right)> 0$; we call $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ the conditional probability of event $B$ occurring given that event $A$ has occurred, or conditional probability for short.
 
-> **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)>0$, then $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
+> **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)> 0$, then $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P\left(A\right)>0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ holds if and only if events $A$ and $B$ are mutually independent; in this case $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$.
+> **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P\left(A\right)> 0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ holds if and only if events $A$ and $B$ are mutually independent; in this case $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$.
 
-> **Conclusion 7.1.5** (Law of Total Probability) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a family of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$, $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
+> **Conclusion 7.1.5** (Law of Total Probability) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a family of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$, $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
 
-> **Conclusion 7.1.6** (Bayes' Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a family of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$ with $\mathbb P\left(B\right)>0$, $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
+> **Conclusion 7.1.6** (Bayes' Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a family of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$; then for any event $B\subseteq\Omega$ with $\mathbb P\left(B\right)> 0$, $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
 
 > **Definition 7.2.1** (Random Variable) <br>In general, for every sample point $\omega$ in the sample space $\Omega$ of a random experiment, there is a unique real number $X\left(\omega\right)$ corresponding to it; we call $X$ a random variable.
 
@@ -28,7 +28,7 @@
 
 > **Definition 7.5.1** (Continuous Random Variable) <br>For a random variable $X$, if it can take any value in a certain interval, we call $X$ a continuous random variable.
 
-> **Definition 7.5.2** (Normal Distribution) <br>The normal density function is $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, where $\mu\in\mathbb R$, $\sigma>0$. We say the random variable $X$ follows a normal distribution, denoted $X\sim N\left(\mu,\sigma^2\right)$.
+> **Definition 7.5.2** (Normal Distribution) <br>The normal density function is $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, where $\mu\in\mathbb R$, $\sigma> 0$. We say the random variable $X$ follows a normal distribution, denoted $X\sim N\left(\mu,\sigma^2\right)$.
 
 > **Conclusion 7.5.4** ($3\sigma$ Rule) <br>If $X\sim N\left(\mu,\sigma^2\right)$, then $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$, $\mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)\approx 0.9545$, $\mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)\approx 0.9973$.
 
@@ -40,11 +40,11 @@
 
 By **Definition 7.1.1** (Conditional Probability), $\mathbb P\left(B\mid A\right)$ is the probability that $B$ occurs given that $A$ has occurred; its order relation with $\mathbb P\left(B\right)$ depends on the specific relationship between events $A$ and $B$.
 
-(1) An example where $\mathbb P\left(B\mid A\right)>\mathbb P\left(B\right)$. Toss a fair die; let $A$ = "rolling a 2", $B$ = "the rolled number is at most 2". Then $\mathbb P\left(B\right)=\frac{2}{6}=\frac{1}{3}$, and $A\subseteq B$, so whenever $A$ occurs, $B$ must occur, i.e. $\mathbb P\left(B\mid A\right)=1$. Thus $\mathbb P\left(B\mid A\right)=1>\frac{1}{3}=\mathbb P\left(B\right)$.
+(1) An example where $\mathbb P\left(B\mid A\right)> \mathbb P\left(B\right)$. Toss a fair die; let $A$ = "rolling a 2", $B$ = "the rolled number is at most 2". Then $\mathbb P\left(B\right)=\frac{2}{6}=\frac{1}{3}$, and $A\subseteq B$, so whenever $A$ occurs, $B$ must occur, i.e. $\mathbb P\left(B\mid A\right)=1$. Thus $\mathbb P\left(B\mid A\right)=1> \frac{1}{3}=\mathbb P\left(B\right)$.
 
 (2) An example where $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$. Toss two fair dice simultaneously; let $A$ = "the first die shows an even number", $B$ = "the second die shows an even number". By **Conclusion 7.1.4** (Mutual Independence of Events), the two dice are independent, so $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)=\frac{1}{2}$.
 
-(3) An example where $\mathbb P\left(B\mid A\right)<\mathbb P\left(B\right)$. Toss a fair die; let $A$ = "the rolled number is at least 5", $B$ = "the rolled number is at most 4". Then $\mathbb P\left(B\right)=\frac{4}{6}=\frac{2}{3}$, and $A$ and $B$ are mutually exclusive, so whenever $A$ occurs, $B$ cannot occur, i.e. $\mathbb P\left(B\mid A\right)=0$. Thus $\mathbb P\left(B\mid A\right)=0<\frac{2}{3}=\mathbb P\left(B\right)$.
+(3) An example where $\mathbb P\left(B\mid A\right)< \mathbb P\left(B\right)$. Toss a fair die; let $A$ = "the rolled number is at least 5", $B$ = "the rolled number is at most 4". Then $\mathbb P\left(B\right)=\frac{4}{6}=\frac{2}{3}$, and $A$ and $B$ are mutually exclusive, so whenever $A$ occurs, $B$ cannot occur, i.e. $\mathbb P\left(B\mid A\right)=0$. Thus $\mathbb P\left(B\mid A\right)=0< \frac{2}{3}=\mathbb P\left(B\right)$.
 
 In summary, $\mathbb P\left(B\mid A\right)$ may be greater than, equal to, or less than $\mathbb P\left(B\right)$; the two have no definite order relation. $\blacksquare$
 
@@ -136,7 +136,7 @@ $$
 q^2-2q+0.36=0.
 $$
 
-Solving this quadratic equation gives $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm 1.6}{2}$, i.e. $q=1.8$ or $q=0.2$. When $q=1.8$, $1-2q=-2.6<0$, which violates $p_i\ge 0$ in **Definition 7.2.3** (Distribution List), so it is discarded; when $q=0.2$, $1-2q=0.6\ge 0$, $q^2=0.04\ge 0$, and $0.36+0.6+0.04=1$, which meets the requirement. Hence $q=0.2$.
+Solving this quadratic equation gives $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm 1.6}{2}$, i.e. $q=1.8$ or $q=0.2$. When $q=1.8$, $1-2q=-2.6< 0$, which violates $p_i\ge 0$ in **Definition 7.2.3** (Distribution List), so it is discarded; when $q=0.2$, $1-2q=0.6\ge 0$, $q^2=0.04\ge 0$, and $0.36+0.6+0.04=1$, which meets the requirement. Hence $q=0.2$.
 
 (2) By **Definition 7.3.1** (Mean or Mathematical Expectation),
 
@@ -208,16 +208,16 @@ $$
 \mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-0.7^n.
 $$
 
-By the problem, $\mathbb P\left(X\ge 1\right)>0.95$, i.e.
+By the problem, $\mathbb P\left(X\ge 1\right)> 0.95$, i.e.
 
 $$
-1-0.7^n>0.95,
+1-0.7^n> 0.95,
 $$
 
-which is $0.7^n<0.05$. Taking logarithms of both sides gives $n\ln 0.7<\ln 0.05$; since $\ln 0.7<0$, the inequality sign reverses, giving
+which is $0.7^n< 0.05$. Taking logarithms of both sides gives $n\ln 0.7< \ln 0.05$; since $\ln 0.7< 0$, the inequality sign reverses, giving
 
 $$
-n>\frac{\ln 0.05}{\ln 0.7}\approx 8.4.
+n> \frac{\ln 0.05}{\ln 0.7}\approx 8.4.
 $$
 
 Hence $n$ takes the smallest integer not less than 8.4, i.e. at least 9 cannons are needed. $\blacksquare$
@@ -268,7 +268,7 @@ $$
 E=0.6\times 8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{ \left(万元\right)}.
 $$
 
-Comparing the expected profits of the two methods, $3.6>2$, so from the standpoint of maximum expected profit, the mall should choose to hold the promotion outside the mall. $\blacksquare$
+Comparing the expected profits of the two methods, $3.6> 2$, so from the standpoint of maximum expected profit, the mall should choose to hold the promotion outside the mall. $\blacksquare$
 
 ### Problem 9
 
@@ -284,7 +284,7 @@ By **Definition 7.4.2** (Binomial Distribution), let $X$ be the number of polici
 
 The insurance company's total premium income is $10^5\times 20=2\times 10^6$ yuan, i.e. 2 million yuan; the total payout is 500 thousand yuan per policy, i.e. $50X$ (in 10-thousand yuan).
 
-(1) Losing money means the total payout exceeds the total premium income, i.e. $50X>200$, i.e. $X>4$. Hence the probability of losing money is
+(1) Losing money means the total payout exceeds the total premium income, i.e. $50X> 200$, i.e. $X> 4$. Hence the probability of losing money is
 
 $$
 \mathbb P\left(X\ge 5\right)=1-\mathbb P\left(X\le 4\right).
@@ -365,7 +365,7 @@ $$
 The 10000 people form $10000\div 5=2000$ groups of 5, so the total average number of tests is
 
 $$
-2000\times 2.131=4262<10000.
+2000\times 2.131=4262< 10000.
 $$
 
 Hence this testing method reduces the number of tests.
@@ -396,11 +396,11 @@ By **Conclusion 7.5.4** ($3\sigma$ Rule), $\mathbb P\left(\mu-\sigma\le X\le\mu+
 
 Accordingly, set the four grades:
 
-(1) Grade $D$ is the lowest $16\%$, i.e. $X<67$;
+(1) Grade $D$ is the lowest $16\%$, i.e. $X< 67$;
 
-(2) Grade $C$ is the next $34\%$, i.e. $67\le X<75$;
+(2) Grade $C$ is the next $34\%$, i.e. $67\le X< 75$;
 
-(3) Grade $B$ is the next $34\%$, i.e. $75\le X<83$;
+(3) Grade $B$ is the next $34\%$, i.e. $75\le X< 83$;
 
 (4) Grade $A$ is the highest $16\%$, i.e. $X\ge 83$.
 

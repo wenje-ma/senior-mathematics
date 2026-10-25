@@ -14,9 +14,9 @@
 
 > **定义 5.2.3** (复合函数的求导法则) <br>$y'_{x}=y'_{u}\cdot u'_{x}$.
 
-> **定义 5.3.1** (函数的单调性与导数的正负) <br>在某个区间 $\left(a,b\right)$ 内, $f'\left(x\right)>0$ 则 $f\left(x\right)$ 单调递增; $f'\left(x\right)<0$ 则 $f\left(x\right)$ 单调递减.
+> **定义 5.3.1** (函数的单调性与导数的正负) <br>在某个区间 $\left(a,b\right)$ 内, $f'\left(x\right)> 0$ 则 $f\left(x\right)$ 单调递增; $f'\left(x\right)< 0$ 则 $f\left(x\right)$ 单调递减.
 
-> **定义 5.3.2** (函数的极值) <br>在 $x_{0}$ 附近左侧 $f'\left(x\right)>0$, 右侧 $f'\left(x\right)<0$ 时 $f\left(x_{0}\right)$ 为极大值; 左侧 $f'\left(x\right)<0$, 右侧 $f'\left(x\right)>0$ 时 $f\left(x_{0}\right)$ 为极小值.
+> **定义 5.3.2** (函数的极值) <br>在 $x_{0}$ 附近左侧 $f'\left(x\right)> 0$, 右侧 $f'\left(x\right)< 0$ 时 $f\left(x_{0}\right)$ 为极大值; 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$ 时 $f\left(x_{0}\right)$ 为极小值.
 
 > **定义 5.3.3** (求函数极值的方法) <br>解方程 $f'\left(x\right)=0$, 按两侧导数正负判断极大或极小.
 
@@ -103,7 +103,7 @@ $\blacksquare$
 
 由**定义 5.3.1**, 由导函数 $f'\left(x\right)$ 的正负判断 $f\left(x\right)$ 的增减.
 
-由导函数图象, 在 $\left(-1,0\right)$ 内 $f'\left(x\right)>0$ 且逐渐增大, 故 $f\left(x\right)$ 递增且越来越陡; 在 $\left(0,1\right)$ 内 $f'\left(x\right)>0$ 但逐渐减小, 故 $f\left(x\right)$ 递增但越来越平缓.
+由导函数图象, 在 $\left(-1,0\right)$ 内 $f'\left(x\right)> 0$ 且逐渐增大, 故 $f\left(x\right)$ 递增且越来越陡; 在 $\left(0,1\right)$ 内 $f'\left(x\right)> 0$ 但逐渐减小, 故 $f\left(x\right)$ 递增但越来越平缓.
 
 故 $f\left(x\right)$ 在 $\left(-1,1\right)$ 内始终递增, 斜率先增后减. 符合这一特征的是选项 (B). $\blacksquare$
 
@@ -155,11 +155,11 @@ $$
 
 ### 解答 习题六
 
-(1) 由**定义 5.1.2** (导数), $f'\left(t\right)$ 是温度关于时间的瞬时变化率. 热红茶温度逐渐下降, 故温度随时间增加而减小, $f'\left(t\right)<0$.
+(1) 由**定义 5.1.2** (导数), $f'\left(t\right)$ 是温度关于时间的瞬时变化率. 热红茶温度逐渐下降, 故温度随时间增加而减小, $f'\left(t\right)< 0$.
 
 (2) $f'\left(3\right)=-4$ 表示在第 $3\ \mathrm{min}$ 附近, 红茶温度大约以每分钟 $4\ {^\circ}\mathrm C$ 的速率下降.
 
-由 $f\left(3\right)=65$ 且 $f'\left(3\right)=-4<0$, 图象在点 $\left(3,65\right)$ 处下降, 切线斜率为 $-4$. 又冷却速度随温差减小而变慢, 故图象下降且越来越平缓. $\blacksquare$
+由 $f\left(3\right)=65$ 且 $f'\left(3\right)=-4< 0$, 图象在点 $\left(3,65\right)$ 处下降, 切线斜率为 $-4$. 又冷却速度随温差减小而变慢, 故图象下降且越来越平缓. $\blacksquare$
 
 ### 习题七
 
@@ -169,7 +169,7 @@ $$
 
 由**定义 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
-当 $x>0$ 时 $f'\left(x\right)>0$; 当 $x<0$ 时 $f'\left(x\right)<0$.
+当 $x> 0$ 时 $f'\left(x\right)> 0$; 当 $x< 0$ 时 $f'\left(x\right)< 0$.
 
 由**定义 5.3.1**, $f\left(x\right)$ 在 $\left(-\infty,0\right)$ 内单调递减, 在 $\left(0,+\infty\right)$ 内单调递增. $\blacksquare$
 
@@ -211,7 +211,7 @@ $$
 
 ### 解答 习题十
 
-设直线 $AB$ 的斜率为 $k$, 则直线方程为 $y-1=k\left(x-1\right)$. 令 $y=0$, 得 $A\left(1-\frac{1}{k},0\right)$; 令 $x=0$, 得 $B\left(0,1-k\right)$. 由 $A,B$ 在正半轴, $k<0$.
+设直线 $AB$ 的斜率为 $k$, 则直线方程为 $y-1=k\left(x-1\right)$. 令 $y=0$, 得 $A\left(1-\frac{1}{k},0\right)$; 令 $x=0$, 得 $B\left(0,1-k\right)$. 由 $A,B$ 在正半轴, $k< 0$.
 
 $\triangle AOB$ 的面积为
 
@@ -219,9 +219,9 @@ $$
 S=\frac{1}{2}\left(1-\frac{1}{k}\right)\left(1-k\right)=\frac{1}{2}\left(2-k-\frac{1}{k}\right).
 $$
 
-求导, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. 令 $S'=0$, 得 $k^{2}=1$, 由 $k<0$ 得 $k=-1$.
+求导, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. 令 $S'=0$, 得 $k^{2}=1$, 由 $k< 0$ 得 $k=-1$.
 
-当 $k<-1$ 时 $S'<0$, 当 $-1<k<0$ 时 $S'>0$, 故 $k=-1$ 为最小值点.
+当 $k< -1$ 时 $S'< 0$, 当 $-1< k< 0$ 时 $S'> 0$, 故 $k=-1$ 为最小值点.
 
 此时 $A\left(2,0\right)$, $B\left(0,2\right)$, 最小面积为 $S=\frac{1}{2}\times2\times2=2$.
 
@@ -259,7 +259,7 @@ $b'\left(5\right)=10000-10000=0$.
 
 $b'\left(10\right)=10000-20000=-10000$.
 
-(2) 令 $b'\left(t\right)=0$, 得 $t=5$. 当 $0<t<5$ 时 $b'\left(t\right)>0$, 细菌数量增加; 当 $t>5$ 时 $b'\left(t\right)<0$, 细菌数量减少. $\blacksquare$
+(2) 令 $b'\left(t\right)=0$, 得 $t=5$. 当 $0< t< 5$ 时 $b'\left(t\right)> 0$, 细菌数量增加; 当 $t> 5$ 时 $b'\left(t\right)< 0$, 细菌数量减少. $\blacksquare$
 
 ### 习题十三
 
@@ -383,13 +383,13 @@ $$
 
 ### 习题十八
 
-(复习参考题 5 拓广探索第 18 题) 已知函数 $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. 当 $m\le2$ 时, 求证 $f\left(x\right)>0$.
+(复习参考题 5 拓广探索第 18 题) 已知函数 $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. 当 $m\le2$ 时, 求证 $f\left(x\right)> 0$.
 
 ### 解答 习题十八
 
 由**定义 5.3.1**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. 令 $f'\left(x\right)=0$, 即 $\mathrm e^{x}=\frac{1}{x+m}$.
 
-当 $m\le2$ 时, $\ln\left(x+m\right)$ 的定义域内 $x+m>0$. 设 $f\left(x\right)$ 的最小值点为 $x_{0}$, 满足 $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, 即 $x_{0}+m=\mathrm e^{-x_{0}}$.
+当 $m\le2$ 时, $\ln\left(x+m\right)$ 的定义域内 $x+m> 0$. 设 $f\left(x\right)$ 的最小值点为 $x_{0}$, 满足 $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, 即 $x_{0}+m=\mathrm e^{-x_{0}}$.
 
 最小值为
 
@@ -397,9 +397,9 @@ $$
 f\left(x_{0}\right)=\mathrm e^{x_{0}}-\ln\left(x_{0}+m\right)=\mathrm e^{x_{0}}-\ln\left(\mathrm e^{-x_{0}}\right)=\mathrm e^{x_{0}}+x_{0}.
 $$
 
-由 $x_{0}+m=\mathrm e^{-x_{0}}$ 及 $m\le2$, 得 $x_{0}\ge\mathrm e^{-x_{0}}-2$. 又 $\mathrm e^{x_{0}}+x_{0}>0$ 对任意 $x_{0}$ 成立 (因 $\mathrm e^{x_{0}}>0$ 且当 $x_{0}\ge-2$ 时 $\mathrm e^{x_{0}}+x_{0}>0$).
+由 $x_{0}+m=\mathrm e^{-x_{0}}$ 及 $m\le2$, 得 $x_{0}\ge\mathrm e^{-x_{0}}-2$. 又 $\mathrm e^{x_{0}}+x_{0}> 0$ 对任意 $x_{0}$ 成立 (因 $\mathrm e^{x_{0}}> 0$ 且当 $x_{0}\ge-2$ 时 $\mathrm e^{x_{0}}+x_{0}> 0$).
 
-故 $f\left(x\right)$ 的最小值大于 $0$, 即 $f\left(x\right)>0$. $\blacksquare$
+故 $f\left(x\right)$ 的最小值大于 $0$, 即 $f\left(x\right)> 0$. $\blacksquare$
 
 ### 习题十九
 
@@ -411,27 +411,27 @@ $$
 
 ### 解答 习题十九
 
-由**定义 5.2.3**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. 令 $t=\mathrm e^{x}>0$, 则
+由**定义 5.2.3**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. 令 $t=\mathrm e^{x}> 0$, 则
 
 $$
 f'\left(x\right)=\left(at-1\right)\left(2t+1\right).
 $$
 
-(1) 因 $2t+1>0$, $f'\left(x\right)$ 的符号由 $at-1$ 决定.
+(1) 因 $2t+1> 0$, $f'\left(x\right)$ 的符号由 $at-1$ 决定.
 
-当 $a\le0$ 时, $at-1<0$, $f'\left(x\right)<0$, $f\left(x\right)$ 在 $\mathbb R$ 上单调递减.
+当 $a\le0$ 时, $at-1< 0$, $f'\left(x\right)< 0$, $f\left(x\right)$ 在 $\mathbb R$ 上单调递减.
 
-当 $a>0$ 时, 令 $at-1=0$, 得 $t=\frac{1}{a}$, 即 $x=-\ln a$. 当 $x<-\ln a$ 时 $f'\left(x\right)<0$, 当 $x>-\ln a$ 时 $f'\left(x\right)>0$. 故 $f\left(x\right)$ 在 $\left(-\infty,-\ln a\right)$ 内递减, 在 $\left(-\ln a,+\infty\right)$ 内递增.
+当 $a> 0$ 时, 令 $at-1=0$, 得 $t=\frac{1}{a}$, 即 $x=-\ln a$. 当 $x< -\ln a$ 时 $f'\left(x\right)< 0$, 当 $x> -\ln a$ 时 $f'\left(x\right)> 0$. 故 $f\left(x\right)$ 在 $\left(-\infty,-\ln a\right)$ 内递减, 在 $\left(-\ln a,+\infty\right)$ 内递增.
 
 (2) 当 $a\le0$ 时, $f\left(x\right)$ 单调递减, 至多一个零点.
 
-当 $a>0$ 时, $f\left(x\right)$ 在 $x=-\ln a$ 处取最小值 $f\left(-\ln a\right)$. 代入, $t=\frac{1}{a}$, 
+当 $a> 0$ 时, $f\left(x\right)$ 在 $x=-\ln a$ 处取最小值 $f\left(-\ln a\right)$. 代入, $t=\frac{1}{a}$, 
 
 $$
 f\left(-\ln a\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln a=\frac{1}{a}+1-\frac{2}{a}+\ln a=1-\frac{1}{a}+\ln a.
 $$
 
-要使 $f\left(x\right)$ 有两个零点, 须最小值小于 $0$, 即 $1-\frac{1}{a}+\ln a<0$. 设 $g\left(a\right)=1-\frac{1}{a}+\ln a$, 则 $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}>0$, $g\left(a\right)$ 单调递增, 且 $g\left(1\right)=0$. 故当 $0<a<1$ 时 $g\left(a\right)<0$.
+要使 $f\left(x\right)$ 有两个零点, 须最小值小于 $0$, 即 $1-\frac{1}{a}+\ln a< 0$. 设 $g\left(a\right)=1-\frac{1}{a}+\ln a$, 则 $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}> 0$, $g\left(a\right)$ 单调递增, 且 $g\left(1\right)=0$. 故当 $0< a< 1$ 时 $g\left(a\right)< 0$.
 
 又当 $x\to-\infty$ 时 $f\left(x\right)\to+\infty$, 当 $x\to+\infty$ 时 $f\left(x\right)\to+\infty$.
 

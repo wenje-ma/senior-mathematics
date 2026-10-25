@@ -2,17 +2,17 @@
 
 > **Definition 2.4.1** (Standard Equation of a Circle) <br>The standard equation of a circle with center $A\left(a,b\right)$ and radius $r$ is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
 
-> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F>0$, the equation represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$.
+> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F> 0$, the equation represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$.
 
 > **Common Conclusion 2.3.2** (Distance Formula Between Two Points) <br>The distance between two points $P_1\left(x_1,y_1\right)$ and $P_2\left(x_2,y_2\right)$ in the plane is $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
 
 > **Common Conclusion 2.3.3** (Distance from a Point to a Line) <br>The distance from the point $P\left(x_0,y_0\right)$ to the line $l:Ax+By+C=0$ is $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
 
-> **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle) <br>Let the radius of the circle be $r$ and the distance from the center to the line be $d$. Then when $d<r$ the line intersects the circle (two common points), when $d=r$ the line is tangent to the circle (one common point), and when $d>r$ the line is disjoint from the circle (no common points).
+> **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle) <br>Let the radius of the circle be $r$ and the distance from the center to the line be $d$. Then when $d< r$ the line intersects the circle (two common points), when $d=r$ the line is tangent to the circle (one common point), and when $d> r$ the line is disjoint from the circle (no common points).
 
 > **Common Conclusion 2.5.2** (Chord Length Formula) <br>When a line intersects a circle, the chord length is $\left|AB\right|=2\sqrt{r^2-d^2}$, where $d$ is the distance from the center to the line and $r$ is the radius of the circle.
 
-> **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other) <br>Let the radii of the two circles be $r_1,r_2$ ($r_1\ge r_2$) and the distance between centers be $d$. Then when $d>r_1+r_2$ the circles are externally separated, when $d=r_1+r_2$ they are externally tangent, when $r_1-r_2<d<r_1+r_2$ they intersect, when $d=r_1-r_2$ they are internally tangent, and when $d<r_1-r_2$ one is contained in the other.
+> **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other) <br>Let the radii of the two circles be $r_1,r_2$ ($r_1\ge r_2$) and the distance between centers be $d$. Then when $d> r_1+r_2$ the circles are externally separated, when $d=r_1+r_2$ they are externally tangent, when $r_1-r_2< d< r_1+r_2$ they intersect, when $d=r_1-r_2$ they are internally tangent, and when $d< r_1-r_2$ one is contained in the other.
 
 ### Exercise 1
 
@@ -34,7 +34,7 @@ $$
 d=\frac{\left|0-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{1}{\sqrt 2}.
 $$
 
-Since $d=\frac{1}{\sqrt 2}<\sqrt 3=r$, the line $l$ intersects the circle $C$.
+Since $d=\frac{1}{\sqrt 2}< \sqrt 3=r$, the line $l$ intersects the circle $C$.
 
 (2) The circle $C:x^2+y^2-2x=0$ is $\left(x-1\right)^2+y^2=1$, with center $\left(1,0\right)$ and radius $r=1$. By the distance formula,
 
@@ -50,7 +50,7 @@ $$
 d=\frac{\left|0+\left(-1\right)+3\right|}{\sqrt{1^2+1^2}}=\frac{2}{\sqrt 2}=\sqrt 2.
 $$
 
-Since $d=\sqrt 2>1=r$, the line $l$ is disjoint from the circle $C$. $\blacksquare$
+Since $d=\sqrt 2> 1=r$, the line $l$ is disjoint from the circle $C$. $\blacksquare$
 
 ### Exercise 2
 
@@ -78,7 +78,7 @@ $$
 d=\frac{\left|2\cdot1-2+2\right|}{\sqrt{2^2+\left(-1\right)^2}}=\frac{2}{\sqrt 5}.
 $$
 
-Since $d=\frac{2}{\sqrt 5}<2=r$, the line intersects the circle.
+Since $d=\frac{2}{\sqrt 5}< 2=r$, the line intersects the circle.
 
 By **Common Conclusion 2.5.2** (Chord Length Formula), the chord length is
 
@@ -124,7 +124,7 @@ The equation of the arch circle is $x^2+\left(y+10.5\right)^2=210.25$.
 
 The boat is $10\,\mathrm{m}$ wide, so we check the arch height at $x=\pm5$. Substituting $x=5$ gives $25+\left(y+10.5\right)^2=210.25$, i.e. $\left(y+10.5\right)^2=185.25$, i.e. $y+10.5=\sqrt{185.25}\approx13.61$, hence $y\approx3.11$.
 
-The boat is $3\,\mathrm{m}$ above the water, while the arch at the edge of the boat's width is approximately $3.11\,\mathrm{m}>3\,\mathrm{m}$, so the boat can pass under the bridge. $\blacksquare$
+The boat is $3\,\mathrm{m}$ above the water, while the arch at the edge of the boat's width is approximately $3.11\,\mathrm{m}> 3\,\mathrm{m}$, so the boat can pass under the bridge. $\blacksquare$
 
 ### Exercise 6
 
@@ -142,7 +142,7 @@ $$
 d=\frac{\left|6\cdot5-5\cdot\left(-3\right)+60\right|}{\sqrt{6^2+\left(-5\right)^2}}=\frac{\left|30+15+60\right|}{\sqrt{61}}=\frac{105}{\sqrt{61}}\approx13.44.
 $$
 
-Since $d\approx13.44>9=r$, the line is disjoint from the circle.
+Since $d\approx13.44> 9=r$, the line is disjoint from the circle.
 
 The robot's closest distance to the line is $d-r=13.44-9=4.44$, and its farthest distance is $d+r=13.44+9=22.44$. $\blacksquare$
 
@@ -180,7 +180,7 @@ Circle $C_2:\left(x+2\right)^2+\left(y+\frac{3}{2}\right)^2=\frac{17}{4}$, cente
 
 By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the distance between centers is $d=\sqrt{\left(-2+1\right)^2+0}=1$.
 
-$r_1=\frac{3}{2}$, $r_2=\frac{\sqrt{17}}{2}$. $\lvert r_1-r_2 \rvert=\frac{\sqrt{17}-3}{2}\approx0.56<1<\frac{3+\sqrt{17}}{2}\approx3.56=r_1+r_2$. By **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other), the circles intersect.
+$r_1=\frac{3}{2}$, $r_2=\frac{\sqrt{17}}{2}$. $\lvert r_1-r_2 \rvert=\frac{\sqrt{17}-3}{2}\approx0.56< 1< \frac{3+\sqrt{17}}{2}\approx3.56=r_1+r_2$. By **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other), the circles intersect.
 
 Subtracting the two circle equations gives $\left(x^2+y^2+4x+3y+2\right)-\left(x^2+y^2+2x+3y+1\right)=0$, i.e. $2x+1=0$, i.e. $x=-\frac{1}{2}$. The equation of the line containing the common chord is $x=-\frac{1}{2}$. $\blacksquare$
 
@@ -502,7 +502,7 @@ $$
 
 The line $AB$ passes through $P_0\left(-1,2\right)$; its equation is $y-2=\frac{1}{2}\left(x+1\right)$, i.e. $x-2y+5=0$.
 
-The distance from the center to the line is $d=\frac{\lvert 5 \rvert}{\sqrt 5}=\sqrt 5<2\sqrt 2=r$, so the line intersects the circle, and such a chord exists. The equation of line $AB$ is $x-2y+5=0$. $\blacksquare$
+The distance from the center to the line is $d=\frac{\lvert 5 \rvert}{\sqrt 5}=\sqrt 5< 2\sqrt 2=r$, so the line intersects the circle, and such a chord exists. The equation of line $AB$ is $x-2y+5=0$. $\blacksquare$
 
 ### Problem 15
 

@@ -1,24 +1,24 @@
 # 作业 13
 
-> **定义 4.1.1** (n 次方根) <br>一般地, 如果 $x^n=a$, 那么 $x$ 叫做 $a$ 的 $n$ 次方根, 其中 $n>1$, 且 $n\in\mathbb N^*$. 当 $n$ 是奇数时, 正数的 $n$ 次方根是一个正数, 负数的 $n$ 次方根是一个负数, 这时 $a$ 的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示; 当 $n$ 是偶数时, 正数的 $n$ 次方根有两个, 这两个数互为相反数, 正的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示, 负的 $n$ 次方根用符号 $-\sqrt\left[n\right]{a}$ 表示, 合并写成 $\pm\sqrt\left[n\right]{a}$ ($a>0$). 负数没有偶次方根, $0$ 的任何次方根都是 $0$, 记作 $\sqrt\left[n\right]{0}=0$.
+> **定义 4.1.1** (n 次方根) <br>一般地, 如果 $x^n=a$, 那么 $x$ 叫做 $a$ 的 $n$ 次方根, 其中 $n> 1$, 且 $n\in\mathbb N^*$. 当 $n$ 是奇数时, 正数的 $n$ 次方根是一个正数, 负数的 $n$ 次方根是一个负数, 这时 $a$ 的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示; 当 $n$ 是偶数时, 正数的 $n$ 次方根有两个, 这两个数互为相反数, 正的 $n$ 次方根用符号 $\sqrt\left[n\right]{a}$ 表示, 负的 $n$ 次方根用符号 $-\sqrt\left[n\right]{a}$ 表示, 合并写成 $\pm\sqrt\left[n\right]{a}$ ($a> 0$). 负数没有偶次方根, $0$ 的任何次方根都是 $0$, 记作 $\sqrt\left[n\right]{0}=0$.
 
 > **定义 4.1.2** (根式) <br>式子 $\sqrt\left[n\right]{a}$ 叫做根式, 这里 $n$ 叫做根指数, $a$ 叫做被开方数. 根据 $n$ 次方根的意义, 可得 $\left(\sqrt\left[n\right]{a}\right)^n=a$.
 
-> **常用结论 4.1.3** (n 次方根的性质) <br>当 $n$ 为奇数时, $\sqrt\left[n\right]{a^n}=a$; 当 $n$ 为偶数时, $\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a<0.\end{cases}$
+> **常用结论 4.1.3** (n 次方根的性质) <br>当 $n$ 为奇数时, $\sqrt\left[n\right]{a^n}=a$; 当 $n$ 为偶数时, $\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a< 0.\end{cases}$
 
-> **定义 4.1.4** (正分数指数幂) <br>正数的正分数指数幂的意义是 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
+> **定义 4.1.4** (正分数指数幂) <br>正数的正分数指数幂的意义是 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a> 0$, $m,n\in\mathbb N^*$, $n> 1$).
 
-> **定义 4.1.5** (负分数指数幂) <br>正数的负分数指数幂的意义是 $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
+> **定义 4.1.5** (负分数指数幂) <br>正数的负分数指数幂的意义是 $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ ($a> 0$, $m,n\in\mathbb N^*$, $n> 1$). $0$ 的正分数指数幂等于 $0$, $0$ 的负分数指数幂没有意义.
 
-> **常用结论 4.1.6** (有理数指数幂的运算性质) <br>对于任意有理数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb Q$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb Q$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb Q$).
+> **常用结论 4.1.6** (有理数指数幂的运算性质) <br>对于任意有理数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a> 0$, $r,s\in\mathbb Q$); (2) $\left(a^r\right)^s=a^{rs}$ ($a> 0$, $r,s\in\mathbb Q$); (3) $\left(ab\right)^r=a^r b^r$ ($a> 0$, $b> 0$, $r\in\mathbb Q$).
 
-> **常用结论 4.1.7** (无理数指数幂) <br>一般地, 无理数指数幂 $a^\alpha$ ($a>0$, $\alpha$ 为无理数) 是一个确定的实数. 这样, 指数幂 $a^x$ ($a>0$) 中指数 $x$ 的取值范围就从整数逐步拓展到了实数.
+> **常用结论 4.1.7** (无理数指数幂) <br>一般地, 无理数指数幂 $a^\alpha$ ($a> 0$, $\alpha$ 为无理数) 是一个确定的实数. 这样, 指数幂 $a^x$ ($a> 0$) 中指数 $x$ 的取值范围就从整数逐步拓展到了实数.
 
-> **常用结论 4.1.8** (实数指数幂的运算性质) <br>对于任意实数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb R$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb R$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb R$).
+> **常用结论 4.1.8** (实数指数幂的运算性质) <br>对于任意实数 $r,s$, 均有 (1) $a^r a^s=a^{r+s}$ ($a> 0$, $r,s\in\mathbb R$); (2) $\left(a^r\right)^s=a^{rs}$ ($a> 0$, $r,s\in\mathbb R$); (3) $\left(ab\right)^r=a^r b^r$ ($a> 0$, $b> 0$, $r\in\mathbb R$).
 
 ### 练习一
 
-(练习 4.1 第 1 题) 用根式的形式表示下列各式 ($a>0$).
+(练习 4.1 第 1 题) 用根式的形式表示下列各式 ($a> 0$).
 
 (1) $a^{\frac{1}{2}}$;
 
@@ -44,25 +44,25 @@
 
 (练习 4.1 第 2 题) 用分数指数幂的形式表示并计算下列各式.
 
-(1) $\sqrt\left[3\right]{x^2}$ ($x>0$);
+(1) $\sqrt\left[3\right]{x^2}$ ($x> 0$);
 
-(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m>n$);
+(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m> n$);
 
-(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p>0$);
+(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p> 0$);
 
-(4) $\frac{a^3}{\sqrt{a}}$ ($a>0$).
+(4) $\frac{a^3}{\sqrt{a}}$ ($a> 0$).
 
 ### 解答 练习二
 
 由**定义 4.1.4** (正分数指数幂) 与**常用结论 4.1.6** (有理数指数幂的运算性质).
 
-(1) 由**定义 4.1.4**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x>0$).
+(1) 由**定义 4.1.4**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x> 0$).
 
-(2) 由**定义 4.1.4**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m>n$).
+(2) 由**定义 4.1.4**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m> n$).
 
-(3) 由**定义 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. 再由**常用结论 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p>0$).
+(3) 由**定义 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. 再由**常用结论 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p> 0$).
 
-(4) 由**定义 4.1.4**, $\sqrt{a}=a^{\frac{1}{2}}$. 再由**常用结论 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a>0$). $\blacksquare$
+(4) 由**定义 4.1.4**, $\sqrt{a}=a^{\frac{1}{2}}$. 再由**常用结论 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a> 0$). $\blacksquare$
 
 ### 练习三
 
@@ -72,7 +72,7 @@
 
 (2) $2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}$;
 
-(3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a>0$);
+(3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a> 0$);
 
 (4) $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)$.
 
@@ -88,7 +88,7 @@ $$
 2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
 $$
 
-(3) 由**常用结论 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a>0$).
+(3) 由**常用结论 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a> 0$).
 
 (4) 由**常用结论 4.1.6** (1), $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)=x^{-\frac{1}{3}+\frac{1}{3}}-4x^{-\frac{1}{3}-\frac{2}{3}}=1-4x^{-1}$. $\blacksquare$
 
@@ -122,9 +122,9 @@ $$
 
 ### 解答 练习五
 
-由**常用结论 4.1.7** (无理数指数幂), 实数指数幂 $a^x$ ($a>0$) 是确定的实数, 可借助计算工具考察其变化趋势.
+由**常用结论 4.1.7** (无理数指数幂), 实数指数幂 $a^x$ ($a> 0$) 是确定的实数, 可借助计算工具考察其变化趋势.
 
-(1) 当 $x$ 取负实数且 $\left|x\right|\to+\infty$ 时, 令 $x=-t$, $t>0$, $t\to+\infty$, 则 $2^x=2^{-t}=\frac{1}{2^t}$. 由于 $2^t$ 随 $t$ 增大而增大, 故 $\frac{1}{2^t}$ 随 $t$ 增大而减小并趋向于 $0$, 即 $2^x$ 随 $\left|x\right|$ 增大而逐渐减小并趋向于 $0$.
+(1) 当 $x$ 取负实数且 $\left|x\right|\to+\infty$ 时, 令 $x=-t$, $t> 0$, $t\to+\infty$, 则 $2^x=2^{-t}=\frac{1}{2^t}$. 由于 $2^t$ 随 $t$ 增大而增大, 故 $\frac{1}{2^t}$ 随 $t$ 增大而减小并趋向于 $0$, 即 $2^x$ 随 $\left|x\right|$ 增大而逐渐减小并趋向于 $0$.
 
 (2) 当 $x$ 取正实数且 $x\to+\infty$ 时, $\left(\frac{1}{2}\right)^x=\frac{1}{2^x}$. 由于 $2^x$ 随 $x$ 增大而增大, 故 $\frac{1}{2^x}$ 随 $x$ 增大而减小并趋向于 $0$, 即 $\left(\frac{1}{2}\right)^x$ 随 $x$ 增大而逐渐减小并趋向于 $0$. $\blacksquare$
 
@@ -156,11 +156,11 @@ $$
 
 (习题 4.1 复习巩固第 2 题) 选择题.
 
-(1) 设 $a>0$, 则下列运算中正确的是 ( ).
+(1) 设 $a> 0$, 则下列运算中正确的是 ( ).
 
 (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a$ (B) $a\div a^{\frac{2}{3}}=a^{\frac{3}{2}}$ (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=0$ (D) $\left(a^{\frac{1}{4}}\right)^4=a$
 
-(2) 设 $a>0$, $m$, $n$ 是正整数, 且 $n>1$, 则下列各式 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$, 正确的个数是 ( ).
+(2) 设 $a> 0$, $m$, $n$ 是正整数, 且 $n> 1$, 则下列各式 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$, 正确的个数是 ( ).
 
 (A) $3$ (B) $2$ (C) $1$ (D) $0$
 
@@ -186,7 +186,7 @@ $$
 
 (1) 分别计算: $\left(-\frac{1}{2}\right)^{-1}=-2$; $2^{-\frac{1}{2}}=\frac{1}{\sqrt{2}}\approx 0.707$; $\left(\frac{1}{2}\right)^{-1}=2$; $2^{-1}=\frac{1}{2}=0.5$. 比较得最大的数是 $\left(\frac{1}{2}\right)^{-1}$.
 
-(2) 用计算工具近似: $2^{\sqrt{3}}\approx 2^{1.732}\approx 3.32$; $3^{\sqrt{2}}\approx 3^{1.414}\approx 4.73$; $\pi^{\sqrt{5}}\approx \pi^{2.236}\approx 11.2$; $2^\pi\approx 2^{3.142}\approx 8.83$. 故从小到大排列为 $2^{\sqrt{3}}<3^{\sqrt{2}}<2^\pi<\pi^{\sqrt{5}}$. $\blacksquare$
+(2) 用计算工具近似: $2^{\sqrt{3}}\approx 2^{1.732}\approx 3.32$; $3^{\sqrt{2}}\approx 3^{1.414}\approx 4.73$; $\pi^{\sqrt{5}}\approx \pi^{2.236}\approx 11.2$; $2^\pi\approx 2^{3.142}\approx 8.83$. 故从小到大排列为 $2^{\sqrt{3}}< 3^{\sqrt{2}}< 2^\pi< \pi^{\sqrt{5}}$. $\blacksquare$
 
 ### 习题四
 

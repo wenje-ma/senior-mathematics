@@ -1,46 +1,46 @@
 # 作业 29
 
-> **定义 4.1.1** (n 次方根) <br>一般地, 如果 $x^n=a$ ($n>1$, $n\in\mathbb N^*$), 那么 $x$ 叫做 $a$ 的 $n$ 次方根.
+> **定义 4.1.1** (n 次方根) <br>一般地, 如果 $x^n=a$ ($n> 1$, $n\in\mathbb N^*$), 那么 $x$ 叫做 $a$ 的 $n$ 次方根.
 
-> **定义 4.1.2** (分数指数幂) <br>规定 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$), $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
+> **定义 4.1.2** (分数指数幂) <br>规定 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a> 0$, $m,n\in\mathbb N^*$, $n> 1$), $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}$ ($a> 0$, $m,n\in\mathbb N^*$, $n> 1$).
 
 > **常用结论 4.1.3** (n 次方根的性质) <br>当 $n$ 为奇数时, $\sqrt\left[n\right]{a^n}=a$; 当 $n$ 为偶数时, $\sqrt\left[n\right]{a^n}=\left|a\right|$.
 
-> **常用结论 4.1.4** (分数指数幂的运算性质) <br>$a^r a^s=a^{r+s}$, $\left(a^r\right)^s=a^{rs}$, $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r,s\in\mathbb Q$).
+> **常用结论 4.1.4** (分数指数幂的运算性质) <br>$a^r a^s=a^{r+s}$, $\left(a^r\right)^s=a^{rs}$, $\left(ab\right)^r=a^r b^r$ ($a> 0$, $b> 0$, $r,s\in\mathbb Q$).
 
-> **定义 4.1.5** (无理数指数幂) <br>当 $a>0$, $\alpha$ 为无理数时, $a^\alpha$ 是一个确定的实数.
+> **定义 4.1.5** (无理数指数幂) <br>当 $a> 0$, $\alpha$ 为无理数时, $a^\alpha$ 是一个确定的实数.
 
-> **常用结论 4.1.6** (实数指数幂的运算性质) <br>$a^r a^s=a^{r+s}$, $\left(a^r\right)^s=a^{rs}$, $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r,s\in\mathbb R$).
+> **常用结论 4.1.6** (实数指数幂的运算性质) <br>$a^r a^s=a^{r+s}$, $\left(a^r\right)^s=a^{rs}$, $\left(ab\right)^r=a^r b^r$ ($a> 0$, $b> 0$, $r,s\in\mathbb R$).
 
-> **定义 4.2.1** (指数函数) <br>一般地, 函数 $y=a^x$ ($a>0$, 且 $a\neq 1$) 叫做指数函数.
+> **定义 4.2.1** (指数函数) <br>一般地, 函数 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 叫做指数函数.
 
-> **常用结论 4.2.2** (指数函数的图象和性质) <br>定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$, 过定点 $\left(0,1\right)$; 当 $a>1$ 时为增函数, 当 $0<a<1$ 时为减函数.
+> **常用结论 4.2.2** (指数函数的图象和性质) <br>定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$, 过定点 $\left(0,1\right)$; 当 $a> 1$ 时为增函数, 当 $0< a< 1$ 时为减函数.
 
-> **常用结论 4.2.3** (指数增长与指数衰减模型) <br>$y=a\left(1+r\right)^x$ ($a>0$, $r>0$) 为指数增长模型, $y=a\left(1-r\right)^x$ ($a>0$, $0<r<1$) 为指数衰减模型.
+> **常用结论 4.2.3** (指数增长与指数衰减模型) <br>$y=a\left(1+r\right)^x$ ($a> 0$, $r> 0$) 为指数增长模型, $y=a\left(1-r\right)^x$ ($a> 0$, $0< r< 1$) 为指数衰减模型.
 
-> **定义 4.3.1** (对数) <br>一般地, 如果 $a^x=N$ ($a>0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$.
+> **定义 4.3.1** (对数) <br>一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$.
 
 > **定义 4.3.2** (常用对数与自然对数) <br>以 $10$ 为底的对数叫做常用对数, 记作 $\lg N$; 以 $\mathrm e$ 为底的对数叫做自然对数, 记作 $\ln N$.
 
-> **常用结论 4.3.3** (对数与指数的关系) <br>$a^{\log_a N}=N$, $\log_a a^x=x$ ($a>0$, $a\neq 1$, $N>0$).
+> **常用结论 4.3.3** (对数与指数的关系) <br>$a^{\log_a N}=N$, $\log_a a^x=x$ ($a> 0$, $a\neq 1$, $N> 0$).
 
-> **常用结论 4.3.4** (对数运算性质) <br>$\log_a\left(MN\right)=\log_a M+\log_a N$, $\log_a\frac{M}{N}=\log_a M-\log_a N$, $\log_a M^n=n\log_a M$ ($a>0$, $a\neq 1$, $M>0$, $N>0$).
+> **常用结论 4.3.4** (对数运算性质) <br>$\log_a\left(MN\right)=\log_a M+\log_a N$, $\log_a\frac{M}{N}=\log_a M-\log_a N$, $\log_a M^n=n\log_a M$ ($a> 0$, $a\neq 1$, $M> 0$, $N> 0$).
 
-> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, $a\neq 1$, $c>0$, $c\neq 1$, $b>0$).
+> **常用结论 4.3.5** (对数换底公式) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a> 0$, $a\neq 1$, $c> 0$, $c\neq 1$, $b> 0$).
 
-> **定义 4.4.1** (对数函数) <br>一般地, 函数 $y=\log_a x$ ($a>0$, 且 $a\neq 1$) 叫做对数函数, 定义域是 $\left(0,+\infty\right)$.
+> **定义 4.4.1** (对数函数) <br>一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 定义域是 $\left(0,+\infty\right)$.
 
-> **定义 4.4.2** (反函数) <br>指数函数 $y=a^x$ ($a>0$, 且 $a\neq 1$) 与对数函数 $y=\log_a x$ ($a>0$, 且 $a\neq 1$) 互为反函数, 它们的定义域与值域正好互换.
+> **定义 4.4.2** (反函数) <br>指数函数 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 与对数函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 互为反函数, 它们的定义域与值域正好互换.
 
-> **常用结论 4.4.3** (对数函数的图象和性质) <br>定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb R$, 过定点 $\left(1,0\right)$; 当 $a>1$ 时为增函数, 当 $0<a<1$ 时为减函数. 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称.
+> **常用结论 4.4.3** (对数函数的图象和性质) <br>定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb R$, 过定点 $\left(1,0\right)$; 当 $a> 1$ 时为增函数, 当 $0< a< 1$ 时为减函数. 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称.
 
-> **常用结论 4.4.4** (不同函数增长的差异) <br>指数函数 $y=a^x$ ($a>1$) 的增长速度最终会大大超过一次函数 $y=kx$ ($k>0$); 对数函数 $y=\log_a x$ ($a>1$) 的增长速度会越来越慢, 最终会慢于一次函数 $y=kx$ ($k>0$).
+> **常用结论 4.4.4** (不同函数增长的差异) <br>指数函数 $y=a^x$ ($a> 1$) 的增长速度最终会大大超过一次函数 $y=kx$ ($k> 0$); 对数函数 $y=\log_a x$ ($a> 1$) 的增长速度会越来越慢, 最终会慢于一次函数 $y=kx$ ($k> 0$).
 
 > **定义 4.5.1** (函数的零点) <br>对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
 
-> **常用结论 4.5.2** (函数零点存在定理) <br>如果函数 $y=f\left(x\right)$ 在区间 $\left[a,b\right]$ 上的图象是一条连续不断的曲线, 且有 $f\left(a\right)f\left(b\right)<0$, 那么, 函数 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ 内至少有一个零点.
+> **常用结论 4.5.2** (函数零点存在定理) <br>如果函数 $y=f\left(x\right)$ 在区间 $\left[a,b\right]$ 上的图象是一条连续不断的曲线, 且有 $f\left(a\right)f\left(b\right)< 0$, 那么, 函数 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ 内至少有一个零点.
 
-> **定义 4.5.3** (二分法) <br>对于在区间 $\left[a,b\right]$ 上图象连续不断且 $f\left(a\right)f\left(b\right)<0$ 的函数 $y=f\left(x\right)$, 通过不断地把它的零点所在区间一分为二, 使所得区间的两个端点逐步逼近零点, 进而得到零点近似值的方法叫做二分法.
+> **定义 4.5.3** (二分法) <br>对于在区间 $\left[a,b\right]$ 上图象连续不断且 $f\left(a\right)f\left(b\right)< 0$ 的函数 $y=f\left(x\right)$, 通过不断地把它的零点所在区间一分为二, 使所得区间的两个端点逐步逼近零点, 进而得到零点近似值的方法叫做二分法.
 
 ### 习题一
 
@@ -64,41 +64,41 @@
 
 (1) 若点 $\left(x,y\right)$ 在 $y=-2^{-x}$ 上, 则 $y=-2^{-x}$, 即 $-y=2^{-x}$, 故点 $\left(-x,-y\right)$ 在 $y=2^x$ 上. 因此两图象关于原点对称. 选 (C).
 
-(2) $y=2^x$ 和 $y=6^x$ 为递增曲线, $y=\left(\frac{1}{2}\right)^x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x>1$ 时底数越小图象越靠上, 故 ③ 为 $y=2^x$, ④ 为 $y=6^x$. 递减曲线中, ① 为 $y=\left(\frac{1}{2}\right)^x$, ② 不属于上述三个函数. 选 (B).
+(2) $y=2^x$ 和 $y=6^x$ 为递增曲线, $y=\left(\frac{1}{2}\right)^x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x> 1$ 时底数越小图象越靠上, 故 ③ 为 $y=2^x$, ④ 为 $y=6^x$. 递减曲线中, ① 为 $y=\left(\frac{1}{2}\right)^x$, ② 不属于上述三个函数. 选 (B).
 
-(3) $y=\log_2 x$ 为递增曲线, $y=\log_{\frac{1}{2}} x$ 和 $y=\log_{\frac{1}{3}} x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x>1$ 时底数越小图象越靠上, 故 ③ 为 $y=\log_2 x$, ④ 不属于上述三个函数. 选 (D). $\blacksquare$
+(3) $y=\log_2 x$ 为递增曲线, $y=\log_{\frac{1}{2}} x$ 和 $y=\log_{\frac{1}{3}} x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x> 1$ 时底数越小图象越靠上, 故 ③ 为 $y=\log_2 x$, ④ 不属于上述三个函数. 选 (D). $\blacksquare$
 
 ### 习题二
 
-(复习参考题4 复习巩固第 2 题) 用 "<" ">" "=" 填空.
+(复习参考题4 复习巩固第 2 题) 用 "< " "> " "=" 填空.
 
 (1) $\mathrm e^{0.8}$ ___ $0.8^{\mathrm e}$;
 
-(2) $2^{a+1}$ ___ $3^a$ ($a>2$);
+(2) $2^{a+1}$ ___ $3^a$ ($a> 2$);
 
-(3) $a^{0.2}$ ___ $a^{0.3}$ ($0<a<1$);
+(3) $a^{0.2}$ ___ $a^{0.3}$ ($0< a< 1$);
 
 (4) $\lg\mathrm e$ ___ $\ln 0.8$;
 
 (5) $\log_2 3$ ___ $\log_3 2$;
 
-(6) $\log_a 0.2$ ___ $\log_a 0.3$ ($a>1$).
+(6) $\log_a 0.2$ ___ $\log_a 0.3$ ($a> 1$).
 
 ### 解答 习题二
 
 由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.4.3** (对数函数的图象和性质).
 
-(1) $\mathrm e^{0.8}\approx 2.23$, $0.8^{\mathrm e}\approx 0.48$, 故 $\mathrm e^{0.8}>0.8^{\mathrm e}$.
+(1) $\mathrm e^{0.8}\approx 2.23$, $0.8^{\mathrm e}\approx 0.48$, 故 $\mathrm e^{0.8}> 0.8^{\mathrm e}$.
 
-(2) 取 $a=3$, $2^{4}=16<27=3^3$, 故 $2^{a+1}<3^a$.
+(2) 取 $a=3$, $2^{4}=16< 27=3^3$, 故 $2^{a+1}< 3^a$.
 
-(3) $0<a<1$ 时 $y=a^x$ 递减, $0.2<0.3$, 故 $a^{0.2}>a^{0.3}$.
+(3) $0< a< 1$ 时 $y=a^x$ 递减, $0.2< 0.3$, 故 $a^{0.2}> a^{0.3}$.
 
-(4) $\lg\mathrm e\approx 0.434>0$, $\ln 0.8<0$, 故 $\lg\mathrm e>\ln 0.8$.
+(4) $\lg\mathrm e\approx 0.434> 0$, $\ln 0.8< 0$, 故 $\lg\mathrm e> \ln 0.8$.
 
-(5) $\log_2 3>1$, $\log_3 2<1$, 故 $\log_2 3>\log_3 2$.
+(5) $\log_2 3> 1$, $\log_3 2< 1$, 故 $\log_2 3> \log_3 2$.
 
-(6) $a>1$ 时 $y=\log_a x$ 递增, $0.2<0.3$, 故 $\log_a 0.2<\log_a 0.3$. $\blacksquare$
+(6) $a> 1$ 时 $y=\log_a x$ 递增, $0.2< 0.3$, 故 $\log_a 0.2< \log_a 0.3$. $\blacksquare$
 
 ### 习题三
 
@@ -112,49 +112,49 @@
 
 由**定义 4.5.3** (二分法).
 
-(1) 令 $h\left(x\right)=2x^3-4x^2-3x+1$. $h\left(2\right)=16-16-6+1=-5<0$, $h\left(3\right)=54-36-9+1=10>0$. 在 $\left(2,3\right)$ 内二分, 逐步逼近, 最大根约为 $2.60$.
+(1) 令 $h\left(x\right)=2x^3-4x^2-3x+1$. $h\left(2\right)=16-16-6+1=-5< 0$, $h\left(3\right)=54-36-9+1=10> 0$. 在 $\left(2,3\right)$ 内二分, 逐步逼近, 最大根约为 $2.60$.
 
-(2) 令 $h\left(x\right)=x\lg x-1$. $h\left(2\right)=2\lg 2-1\approx -0.398<0$, $h\left(3\right)=3\lg 3-1\approx 0.431>0$. 在 $\left(2,3\right)$ 内二分, 交点横坐标约为 $2.5$. $\blacksquare$
+(2) 令 $h\left(x\right)=x\lg x-1$. $h\left(2\right)=2\lg 2-1\approx -0.398< 0$, $h\left(3\right)=3\lg 3-1\approx 0.431> 0$. 在 $\left(2,3\right)$ 内二分, 交点横坐标约为 $2.5$. $\blacksquare$
 
 ### 习题四
 
-(复习参考题4 复习巩固第 4 题) 已知函数 $f\left(x\right)=\begin{cases}x^2+2x-3, & x\le 0,\\ -2+\ln x, & x>0,\end{cases}$ 求使方程 $f\left(x\right)=k$ 的实数解个数分别为 $1$, $2$, $3$ 时 $k$ 的相应取值范围.
+(复习参考题4 复习巩固第 4 题) 已知函数 $f\left(x\right)=\begin{cases}x^2+2x-3, & x\le 0,\\ -2+\ln x, & x> 0,\end{cases}$ 求使方程 $f\left(x\right)=k$ 的实数解个数分别为 $1$, $2$, $3$ 时 $k$ 的相应取值范围.
 
 ### 解答 习题四
 
 由**定义 4.5.1** (函数的零点) 与**常用结论 4.4.3** (对数函数的图象和性质).
 
-$x\le 0$ 时, $y=\left(x+1\right)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时 $y=-3$. $x>0$ 时, $y=-2+\ln x$ 为增函数, 对任意 $k$ 有且仅有一解 $x=\mathrm e^{k+2}$.
+$x\le 0$ 时, $y=\left(x+1\right)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时 $y=-3$. $x> 0$ 时, $y=-2+\ln x$ 为增函数, 对任意 $k$ 有且仅有一解 $x=\mathrm e^{k+2}$.
 
-当 $k<-4$ 时, $x\le 0$ 部分无解, 共 $1$ 解; 当 $k=-4$ 时, $x\le 0$ 部分有 $1$ 解 $x=-1$, 共 $2$ 解; 当 $-4<k\le -3$ 时, $x\le 0$ 部分有 $2$ 解, 共 $3$ 解; 当 $k>-3$ 时, $x\le 0$ 部分有 $1$ 解, 共 $2$ 解.
+当 $k< -4$ 时, $x\le 0$ 部分无解, 共 $1$ 解; 当 $k=-4$ 时, $x\le 0$ 部分有 $1$ 解 $x=-1$, 共 $2$ 解; 当 $-4< k\le -3$ 时, $x\le 0$ 部分有 $2$ 解, 共 $3$ 解; 当 $k> -3$ 时, $x\le 0$ 部分有 $1$ 解, 共 $2$ 解.
 
-故 $1$ 解时 $k<-4$; $2$ 解时 $k=-4$ 或 $k>-3$; $3$ 解时 $-4<k\le -3$. $\blacksquare$
+故 $1$ 解时 $k< -4$; $2$ 解时 $k=-4$ 或 $k> -3$; $3$ 解时 $-4< k\le -3$. $\blacksquare$
 
 ### 习题五
 
 (复习参考题4 综合运用第 5 题) 选择题.
 
-(1) 已知集合 $A=\left\{y\,|\,y=\log_2 x,\,x>1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},\,x>1\right\}$, 则 $A\cap B=$ ( ).
+(1) 已知集合 $A=\left\{y\,|\,y=\log_2 x,\,x> 1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},\,x> 1\right\}$, 则 $A\cap B=$ ( ).
 
-(A) $\left\{y\,|\,0<y<\frac{1}{2}\right\}$ (B) $\left\{y\,|\,0<y<1\right\}$ (C) $\left\{y\,|\,\frac{1}{2}<y<1\right\}$ (D) $\varnothing$
+(A) $\left\{y\,|\,0< y< \frac{1}{2}\right\}$ (B) $\left\{y\,|\,0< y< 1\right\}$ (C) $\left\{y\,|\,\frac{1}{2}< y< 1\right\}$ (D) $\varnothing$
 
 (2) 已知 $f\left(x\right)=\left|\lg x\right|$, 若 $a=f\left(\frac{1}{4}\right)$, $b=f\left(\frac{1}{3}\right)$, $c=f\left(2\right)$, 则 ( ).
 
-(A) $a<b<c$ (B) $b<c<a$ (C) $c<a<b$ (D) $c<b<a$
+(A) $a< b< c$ (B) $b< c< a$ (C) $c< a< b$ (D) $c< b< a$
 
 (3) 已知函数 $f\left(x\right)=2^x+x$, $g\left(x\right)=\log_2 x+x$, $h\left(x\right)=x^3+x$ 的零点分别为 $a$, $b$, $c$, 则 $a$, $b$, $c$ 的大小顺序为 ( ).
 
-(A) $a>b>c$ (B) $b>c>a$ (C) $c>a>b$ (D) $b>a>c$
+(A) $a> b> c$ (B) $b> c> a$ (C) $c> a> b$ (D) $b> a> c$
 
 ### 解答 习题五
 
 由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.4.3** (对数函数的图象和性质).
 
-(1) $x>1$ 时 $\log_2 x>0$, 故 $A=\left\{y\,|\,y>0\right\}$; $x>1$ 时 $0<\frac{1}{2^x}<\frac{1}{2}$, 故 $B=\left\{y\,|\,0<y<\frac{1}{2}\right\}$. $A\cap B=\left\{y\,|\,0<y<\frac{1}{2}\right\}$. 选 (A).
+(1) $x> 1$ 时 $\log_2 x> 0$, 故 $A=\left\{y\,|\,y> 0\right\}$; $x> 1$ 时 $0< \frac{1}{2^x}< \frac{1}{2}$, 故 $B=\left\{y\,|\,0< y< \frac{1}{2}\right\}$. $A\cap B=\left\{y\,|\,0< y< \frac{1}{2}\right\}$. 选 (A).
 
-(2) $a=\left|\lg\frac{1}{4}\right|=\lg 4$, $b=\left|\lg\frac{1}{3}\right|=\lg 3$, $c=\left|\lg 2\right|=\lg 2$. 因 $\lg 2<\lg 3<\lg 4$, 故 $c<b<a$. 选 (D).
+(2) $a=\left|\lg\frac{1}{4}\right|=\lg 4$, $b=\left|\lg\frac{1}{3}\right|=\lg 3$, $c=\left|\lg 2\right|=\lg 2$. 因 $\lg 2< \lg 3< \lg 4$, 故 $c< b< a$. 选 (D).
 
-(3) $f\left(x\right)=2^x+x=0$ 即 $2^x=-x$, 有解 $a<0$; $g\left(x\right)=\log_2 x+x=0$ 即 $\log_2 x=-x$, 有解 $0<b<1$; $h\left(x\right)=x^3+x=x\left(x^2+1\right)=0$ 有解 $c=0$. 故 $b>c>a$. 选 (B). $\blacksquare$
+(3) $f\left(x\right)=2^x+x=0$ 即 $2^x=-x$, 有解 $a< 0$; $g\left(x\right)=\log_2 x+x=0$ 即 $\log_2 x=-x$, 有解 $0< b< 1$; $h\left(x\right)=x^3+x=x\left(x^2+1\right)=0$ 有解 $c=0$. 故 $b> c> a$. 选 (B). $\blacksquare$
 
 ### 习题六
 
@@ -180,13 +180,13 @@ $x\le 0$ 时, $y=\left(x+1\right)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ �
 
 (复习参考题4 综合运用第 7 题) 指数函数 $y=\left(\frac{b}{a}\right)^x$ 的图象如图所示 (递减曲线), 求二次函数 $y=ax^2+bx$ 图象顶点的横坐标的取值范围.
 
-图：平面直角坐标系中，指数函数 $y=\left(\frac{b}{a}\right)^x$ 的图象是一条位于 $x$ 轴上方、过点 $\left(0,1\right)$ 的单调递减曲线（$x>0$ 时下降并趋近于 $x$ 轴，$x<0$ 时上升）。
+图：平面直角坐标系中，指数函数 $y=\left(\frac{b}{a}\right)^x$ 的图象是一条位于 $x$ 轴上方、过点 $\left(0,1\right)$ 的单调递减曲线（$x> 0$ 时下降并趋近于 $x$ 轴，$x< 0$ 时上升）。
 
 ### 解答 习题七
 
 由**常用结论 4.2.2** (指数函数的图象和性质).
 
-$y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0<\frac{b}{a}<1$. 二次函数 $y=ax^2+bx$ 顶点的横坐标为 $x=-\frac{b}{2a}$. 由 $0<\frac{b}{a}<1$ 得 $0<\frac{b}{2a}<\frac{1}{2}$, 故 $-\frac{1}{2}<-\frac{b}{2a}<0$. 即顶点横坐标的取值范围为 $\left(-\frac{1}{2},0\right)$. $\blacksquare$
+$y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0< \frac{b}{a}< 1$. 二次函数 $y=ax^2+bx$ 顶点的横坐标为 $x=-\frac{b}{2a}$. 由 $0< \frac{b}{a}< 1$ 得 $0< \frac{b}{2a}< \frac{1}{2}$, 故 $-\frac{1}{2}< -\frac{b}{2a}< 0$. 即顶点横坐标的取值范围为 $\left(-\frac{1}{2},0\right)$. $\blacksquare$
 
 ### 习题八
 
@@ -238,7 +238,7 @@ $y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0<\frac{b}{a}<1$. 二次函数 $y=ax
 
 ### 习题十一
 
-(复习参考题4 拓广探索第 11 题) 已知函数 $f\left(x\right)=\log_a\left(x+1\right)$, $g\left(x\right)=\log_a\left(1-x\right)$ ($a>0$, 且 $a\neq 1$).
+(复习参考题4 拓广探索第 11 题) 已知函数 $f\left(x\right)=\log_a\left(x+1\right)$, $g\left(x\right)=\log_a\left(1-x\right)$ ($a> 0$, 且 $a\neq 1$).
 
 (1) 求函数 $f\left(x\right)+g\left(x\right)$ 的定义域;
 
@@ -248,7 +248,7 @@ $y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0<\frac{b}{a}<1$. 二次函数 $y=ax
 
 由**定义 4.4.1** (对数函数).
 
-(1) 要求 $x+1>0$ 且 $1-x>0$, 即 $-1<x<1$. 故定义域为 $\left(-1,1\right)$.
+(1) 要求 $x+1> 0$ 且 $1-x> 0$, 即 $-1< x< 1$. 故定义域为 $\left(-1,1\right)$.
 
 (2) $F\left(x\right)=f\left(x\right)+g\left(x\right)=\log_a\left(x+1\right)+\log_a\left(1-x\right)=\log_a\left(1-x^2\right)$. $F\left(-x\right)=\log_a\left(1-\left(-x\right)^2\right)=\log_a\left(1-x^2\right)=F\left(x\right)$. 故 $F\left(x\right)$ 为偶函数. $\blacksquare$
 
@@ -280,6 +280,6 @@ $y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0<\frac{b}{a}<1$. 二次函数 $y=ax
 
 由**常用结论 4.4.4** (不同函数增长的差异).
 
-(1) 曲线段 $OA$ 可设为二次函数 $y=\frac{3}{4}x^2$ ($0\le x\le 2$); 直线段 $AB$ 过 $\left(2,3\right)$ 和 $\left(5,0\right)$, 斜率为 $-1$, 方程为 $y=-x+5$ ($2<x\le 5$). 故 $f\left(x\right)=\begin{cases}\frac{3}{4}x^2, & 0\le x\le 2,\\ -x+5, & 2<x\le 5.\end{cases}$
+(1) 曲线段 $OA$ 可设为二次函数 $y=\frac{3}{4}x^2$ ($0\le x\le 2$); 直线段 $AB$ 过 $\left(2,3\right)$ 和 $\left(5,0\right)$, 斜率为 $-1$, 方程为 $y=-x+5$ ($2< x\le 5$). 故 $f\left(x\right)=\begin{cases}\frac{3}{4}x^2, & 0\le x\le 2,\\ -x+5, & 2< x\le 5.\end{cases}$
 
 (2) 实际问题: 如某物体先做加速运动到达最高点, 再做匀速减速运动回到初始位置. $\blacksquare$

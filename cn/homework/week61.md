@@ -56,9 +56,9 @@
 
 由**定义 2.2.1** (点斜式方程), 点斜式 $y-y_0=k\left(x-x_0\right)$ 中 $k$ 即为斜率; 由**定义 2.1.2** (斜率), $k=\tan\alpha$.
 
-(1) 方程 $y-2=x-1$ 即 $y-2=1\cdot\left(x-1\right)$, 对照点斜式, 得斜率 $k=1$. 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha<180^\circ$, 得倾斜角 $\alpha=45^\circ$.
+(1) 方程 $y-2=x-1$ 即 $y-2=1\cdot\left(x-1\right)$, 对照点斜式, 得斜率 $k=1$. 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha< 180^\circ$, 得倾斜角 $\alpha=45^\circ$.
 
-(2) 方程 $y+2=\sqrt 3\left(x+1\right)$ 即 $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$, 对照点斜式, 得斜率 $k=\sqrt 3$. 由 $\tan\alpha=\sqrt 3$ 及 $0^\circ\le\alpha<180^\circ$, 得倾斜角 $\alpha=60^\circ$. $\blacksquare$
+(2) 方程 $y+2=\sqrt 3\left(x+1\right)$ 即 $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$, 对照点斜式, 得斜率 $k=\sqrt 3$. 由 $\tan\alpha=\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得倾斜角 $\alpha=60^\circ$. $\blacksquare$
 
 ### 练习三
 
@@ -512,7 +512,7 @@ $$
 
 在直线 $l$ 上的点, 其坐标代入 $2x-y+3$ 的值为 $0$. 在直线 $l$ 外的点, 代入 $2x-y+3$ 的值不为 $0$.
 
-取点 $P_1\left(0,0\right)$, 代入得 $2\cdot0-0+3=3>0$; 取点 $P_2\left(-3,0\right)$, 代入得 $2\cdot\left(-3\right)-0+3=-3<0$.
+取点 $P_1\left(0,0\right)$, 代入得 $2\cdot0-0+3=3> 0$; 取点 $P_2\left(-3,0\right)$, 代入得 $2\cdot\left(-3\right)-0+3=-3< 0$.
 
 观察规律: 在直线 $l$ 同侧的点, 代入 $2x-y+3$ 的值同号; 在直线 $l$ 两侧的点, 代入的值异号. 即二元一次式 $2x-y+3$ 的值的正负刻画了点在直线的哪一侧. $\blacksquare$
 
@@ -524,7 +524,7 @@ $$
 \begin{cases}x=x_0+mt,\\y=y_0+nt.\end{cases}
 $$
 
-从运动学角度看, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t>0$) 可以看成质点 $P$ 从点 $P_0$ 出发, 以速度 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后的位移. 你能刻画射线 $P_0N$ 吗? 由以上讨论, 你能说说方程 ① 的运动学意义吗?
+从运动学角度看, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t> 0$) 可以看成质点 $P$ 从点 $P_0$ 出发, 以速度 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后的位移. 你能刻画射线 $P_0N$ 吗? 由以上讨论, 你能说说方程 ① 的运动学意义吗?
 
 该图在平面直角坐标系中画出过点 $P_0\left(x_0,y_0\right)$ 的直线 $l$，并标出方向向量 $\boldsymbol{v}=\left(m,n\right)$：点 $P\left(x,y\right)$ 在直线上，向量 $\boldsymbol{P_0P}$ 与 $\boldsymbol{v}$ 同向共线；沿 $-\boldsymbol{v}$ 的反方向从 $P_0$ 延伸出射线 $P_0N$。
 
@@ -534,7 +534,7 @@ $$
 
 射线 $P_0N$ 是从点 $P_0$ 出发沿方向 $-\boldsymbol{v}$ 延伸的, 即在参数方程中令 $t\le0$ 即得射线 $P_0N$.
 
-方程 $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ 的运动学意义为: 质点 $P$ 从点 $P_0\left(x_0,y_0\right)$ 出发, 以速度向量 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后到达点 $\left(x,y\right)$. 当 $t>0$ 时, 质点沿 $\boldsymbol{v}$ 方向运动; 当 $t<0$ 时, 质点沿 $-\boldsymbol{v}$ 方向运动; $t$ 的绝对值表示运动的时间. $\blacksquare$
+方程 $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ 的运动学意义为: 质点 $P$ 从点 $P_0\left(x_0,y_0\right)$ 出发, 以速度向量 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后到达点 $\left(x,y\right)$. 当 $t> 0$ 时, 质点沿 $\boldsymbol{v}$ 方向运动; 当 $t< 0$ 时, 质点沿 $-\boldsymbol{v}$ 方向运动; $t$ 的绝对值表示运动的时间. $\blacksquare$
 
 ### 探究与发现二
 

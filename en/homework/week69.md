@@ -26,13 +26,13 @@
 
 > **Definition 2.4.1** (Standard Equation of a Circle) <br>The standard equation of a circle with center $A\left(a,b\right)$ and radius $r$ is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
 
-> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F>0$, it represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$.
+> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F> 0$, it represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$.
 
-> **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle) <br>Let the circle have radius $r$ and the center-to-line distance be $d$: $d<r$ means intersecting, $d=r$ means tangent, and $d>r$ means disjoint.
+> **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle) <br>Let the circle have radius $r$ and the center-to-line distance be $d$: $d< r$ means intersecting, $d=r$ means tangent, and $d> r$ means disjoint.
 
 > **Common Conclusion 2.5.2** (Chord Length Formula) <br>When a line intersects a circle, the chord length is $\left|AB\right|=2\sqrt{r^2-d^2}$.
 
-> **Common Conclusion 2.5.3** (Position of Two Circles) <br>Let the two circles have radii $r_1,r_2$ ($r_1\ge r_2$) and center distance $d$: $d>r_1+r_2$ means external separation, $d=r_1+r_2$ means external tangency, $r_1-r_2<d<r_1+r_2$ means intersecting, $d=r_1-r_2$ means internal tangency, and $d<r_1-r_2$ means containment.
+> **Common Conclusion 2.5.3** (Position of Two Circles) <br>Let the two circles have radii $r_1,r_2$ ($r_1\ge r_2$) and center distance $d$: $d> r_1+r_2$ means external separation, $d=r_1+r_2$ means external tangency, $r_1-r_2< d< r_1+r_2$ means intersecting, $d=r_1-r_2$ means internal tangency, and $d< r_1-r_2$ means containment.
 
 ### Problem 1
 
@@ -174,7 +174,7 @@ Expanding gives $a^2+25-30a+9a^2=9-6a+a^2+36-36a+9a^2$, i.e. $0=20-12a$, so $a=\
 
 By **Definition 2.4.3** (General Equation of a Circle), $D=-4$, $E=2m$, $F=2m^2-2m+1$.
 
-The equation represents a circle iff $D^2+E^2-4F>0$, i.e. $16+4m^2-4\left(2m^2-2m+1\right)>0$, i.e. $16+4m^2-8m^2+8m-4>0$, i.e. $-4m^2+8m+12>0$, i.e. $m^2-2m-3<0$, i.e. $\left(m-3\right)\left(m+1\right)<0$. Hence $-1<m<3$.
+The equation represents a circle iff $D^2+E^2-4F> 0$, i.e. $16+4m^2-4\left(2m^2-2m+1\right)> 0$, i.e. $16+4m^2-8m^2+8m-4> 0$, i.e. $-4m^2+8m+12> 0$, i.e. $m^2-2m-3< 0$, i.e. $\left(m-3\right)\left(m+1\right)< 0$. Hence $-1< m< 3$.
 
 The squared radius is $\frac{D^2+E^2-4F}{4}=\frac{-4m^2+8m+12}{4}=-m^2+2m+3=-\left(m-1\right)^2+4$.
 
@@ -441,7 +441,7 @@ Solving $\begin{cases}x+y-4=0\\2x+y-7=0\end{cases}$, subtracting gives $x=3$, $y
 (2) The center is $C\left(1,2\right)$ and radius $r=5$. The distance from the fixed point $P\left(3,1\right)$ to the center is
 
 $$
-\lvert CP \rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt 5<5.
+\lvert CP \rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt 5< 5.
 $$
 
 Point $P$ is inside the circle. When $l$ passes through the center $C$, the chord is longest (a diameter), with length $10$.

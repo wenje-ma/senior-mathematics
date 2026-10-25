@@ -82,7 +82,7 @@ $$
 \mathbb E\left(X_2\right)=0\times 0.3+1\times 0.5+2\times 0.2=0.9.
 $$
 
-因为 $\mathbb E\left(X_2\right)<\mathbb E\left(X_1\right)$, 即乙机床平均每小时生产的次品数较少, 故乙机床更好. 其实际含义是: 在产量相同的情况下, 乙机床出次品的平均水平更低, 质量更稳定可靠. $\blacksquare$
+因为 $\mathbb E\left(X_2\right)< \mathbb E\left(X_1\right)$, 即乙机床平均每小时生产的次品数较少, 故乙机床更好. 其实际含义是: 在产量相同的情况下, 乙机床出次品的平均水平更低, 质量更稳定可靠. $\blacksquare$
 
 ### 练习四
 
@@ -166,7 +166,7 @@ $$
 D\left(Y\right)=\left(-2\right)^2\times 0.05+\left(-1\right)^2\times 0.15+0^2\times 0.6+1^2\times 0.15+2^2\times 0.05=0.7.
 $$
 
-由 $D\left(X\right)=1.2>D\left(Y\right)=0.7$, 知 $X$ 的离散程度较大, 与直观判断一致. $\blacksquare$
+由 $D\left(X\right)=1.2> D\left(Y\right)=0.7$, 知 $X$ 的离散程度较大, 与直观判断一致. $\blacksquare$
 
 ### 习题一
 
@@ -300,7 +300,7 @@ $$
 \mathbb E\left(X_2\right)=0\times 0.5+20\times\left(0.5\times 0.2\right)+30\times\left(0.5\times 0.8\right)=2+12=14.
 $$
 
-因为 $\mathbb E\left(X_1\right)=16>\mathbb E\left(X_2\right)=14$, 故张某应选择先猜 $A$ 谜语. $\blacksquare$
+因为 $\mathbb E\left(X_1\right)=16> \mathbb E\left(X_2\right)=14$, 故张某应选择先猜 $A$ 谜语. $\blacksquare$
 
 ### 习题七
 
@@ -330,7 +330,7 @@ $$
 D\left(Y\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
 $$
 
-因为 $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ 而 $D\left(X\right)<D\left(Y\right)$, 即甲手表走时误差更小, 更稳定, 故甲品牌手表性能更好. $\blacksquare$
+因为 $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ 而 $D\left(X\right)< D\left(Y\right)$, 即甲手表走时误差更小, 更稳定, 故甲品牌手表性能更好. $\blacksquare$
 
 ### 习题八
 
@@ -356,4 +356,4 @@ $$
 \mathbb E\bigl(\left(X-a\right)^2\bigr)=D\left(X\right)+\left(\mu-a\right)^2.
 $$
 
-由于 $a\neq\mu$, $\left(\mu-a\right)^2>0$, 故 $\mathbb E\left(\left(X-a\right)^2\right)>D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. 即 $X$ 相对于 $\mu$ 的偏离程度最小. 其意义是: 均值 $\mu$ 是使随机变量与其均方偏离达到最小的常数, 这正是均值能代表随机变量平均水平的原因. $\blacksquare$
+由于 $a\neq\mu$, $\left(\mu-a\right)^2> 0$, 故 $\mathbb E\left(\left(X-a\right)^2\right)> D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. 即 $X$ 相对于 $\mu$ 的偏离程度最小. 其意义是: 均值 $\mu$ 是使随机变量与其均方偏离达到最小的常数, 这正是均值能代表随机变量平均水平的原因. $\blacksquare$

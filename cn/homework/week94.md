@@ -1,14 +1,14 @@
 # 作业 94
 
-> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)>0$, 我们称 $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
+> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)> 0$, 我们称 $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
 
-> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)>0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
+> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)> 0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$; 此时 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$.
+> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)> 0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$; 此时 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$.
 
-> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
+> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
 
-> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)>0$, 有 $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
+> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)> 0$, 有 $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
 
 > **定义 7.2.1** (随机变量) <br>一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X\left(\omega\right)$ 与之对应, 我们称 $X$ 为随机变量.
 
@@ -28,7 +28,7 @@
 
 > **定义 7.5.1** (连续型随机变量) <br>对于随机变量 $X$, 如果它可以取某一区间内的任意值, 称 $X$ 为连续型随机变量.
 
-> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma>0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N\left(\mu,\sigma^2\right)$.
+> **定义 7.5.2** (正态分布) <br>正态密度函数为 $f\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}$, $x\in\mathbb R$, 其中 $\mu\in\mathbb R$, $\sigma> 0$. 称随机变量 $X$ 服从正态分布, 记作 $X\sim N\left(\mu,\sigma^2\right)$.
 
 > **结论 7.5.4** ($3\sigma$ 原则) <br>若 $X\sim N\left(\mu,\sigma^2\right)$, 则 $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$, $\mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)\approx 0.9545$, $\mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)\approx 0.9973$.
 
@@ -40,11 +40,11 @@
 
 由**定义 7.1.1** (条件概率), $\mathbb P\left(B\mid A\right)$ 是在 $A$ 发生的条件下 $B$ 发生的概率, 它与 $\mathbb P\left(B\right)$ 的大小关系取决于事件 $A$, $B$ 之间的具体关系.
 
-(1) 取 $\mathbb P\left(B\mid A\right)>\mathbb P\left(B\right)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出 2 点", $B$ = "掷出的点数不超过 2". 则 $\mathbb P\left(B\right)=\frac{2}{6}=\frac{1}{3}$, 而 $A\subseteq B$, 故事件 $A$ 发生时 $B$ 必然发生, $\mathbb P\left(B\mid A\right)=1$. 于是 $\mathbb P\left(B\mid A\right)=1>\frac{1}{3}=\mathbb P\left(B\right)$.
+(1) 取 $\mathbb P\left(B\mid A\right)> \mathbb P\left(B\right)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出 2 点", $B$ = "掷出的点数不超过 2". 则 $\mathbb P\left(B\right)=\frac{2}{6}=\frac{1}{3}$, 而 $A\subseteq B$, 故事件 $A$ 发生时 $B$ 必然发生, $\mathbb P\left(B\mid A\right)=1$. 于是 $\mathbb P\left(B\mid A\right)=1> \frac{1}{3}=\mathbb P\left(B\right)$.
 
 (2) 取 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ 的例子. 同时抛掷两枚质地均匀的骰子, 设 $A$ = "第一枚掷出偶数点", $B$ = "第二枚掷出偶数点". 由**结论 7.1.4** (事件的相互独立), 两枚骰子的点数相互独立, 故 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)=\frac{1}{2}$.
 
-(3) 取 $\mathbb P\left(B\mid A\right)<\mathbb P\left(B\right)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出的点数不小于 5", $B$ = "掷出的点数不超过 4". 则 $\mathbb P\left(B\right)=\frac{4}{6}=\frac{2}{3}$, 而 $A$ 与 $B$ 互斥, 故事件 $A$ 发生时 $B$ 必不发生, $\mathbb P\left(B\mid A\right)=0$. 于是 $\mathbb P\left(B\mid A\right)=0<\frac{2}{3}=\mathbb P\left(B\right)$.
+(3) 取 $\mathbb P\left(B\mid A\right)< \mathbb P\left(B\right)$ 的例子. 掷一枚质地均匀的骰子, 设 $A$ = "掷出的点数不小于 5", $B$ = "掷出的点数不超过 4". 则 $\mathbb P\left(B\right)=\frac{4}{6}=\frac{2}{3}$, 而 $A$ 与 $B$ 互斥, 故事件 $A$ 发生时 $B$ 必不发生, $\mathbb P\left(B\mid A\right)=0$. 于是 $\mathbb P\left(B\mid A\right)=0< \frac{2}{3}=\mathbb P\left(B\right)$.
 
 综上, $\mathbb P\left(B\mid A\right)$ 可能大于, 等于或小于 $\mathbb P\left(B\right)$, 二者没有确定的大小关系. $\blacksquare$
 
@@ -136,7 +136,7 @@ $$
 q^2-2q+0.36=0.
 $$
 
-解此一元二次方程, 得 $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm 1.6}{2}$, 即 $q=1.8$ 或 $q=0.2$. 当 $q=1.8$ 时, $1-2q=-2.6<0$, 不满足**定义 7.2.3** (分布列) 中 $p_i\ge 0$, 舍去; 当 $q=0.2$ 时, $1-2q=0.6\ge 0$, $q^2=0.04\ge 0$, 且 $0.36+0.6+0.04=1$, 符合要求. 故 $q=0.2$.
+解此一元二次方程, 得 $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm 1.6}{2}$, 即 $q=1.8$ 或 $q=0.2$. 当 $q=1.8$ 时, $1-2q=-2.6< 0$, 不满足**定义 7.2.3** (分布列) 中 $p_i\ge 0$, 舍去; 当 $q=0.2$ 时, $1-2q=0.6\ge 0$, $q^2=0.04\ge 0$, 且 $0.36+0.6+0.04=1$, 符合要求. 故 $q=0.2$.
 
 (2) 由**定义 7.3.1** (均值或数学期望),
 
@@ -208,16 +208,16 @@ $$
 \mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-0.7^n.
 $$
 
-由题意 $\mathbb P\left(X\ge 1\right)>0.95$, 即
+由题意 $\mathbb P\left(X\ge 1\right)> 0.95$, 即
 
 $$
-1-0.7^n>0.95,
+1-0.7^n> 0.95,
 $$
 
-亦即 $0.7^n<0.05$. 两边取对数, 得 $n\ln 0.7<\ln 0.05$, 由于 $\ln 0.7<0$, 不等号反向, 得
+亦即 $0.7^n< 0.05$. 两边取对数, 得 $n\ln 0.7< \ln 0.05$, 由于 $\ln 0.7< 0$, 不等号反向, 得
 
 $$
-n>\frac{\ln 0.05}{\ln 0.7}\approx 8.4.
+n> \frac{\ln 0.05}{\ln 0.7}\approx 8.4.
 $$
 
 故 $n$ 取不小于 8.4 的最小整数, 即至少需要 9 门大炮. $\blacksquare$
@@ -268,7 +268,7 @@ $$
 E=0.6\times 8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{ \left(万元\right)}.
 $$
 
-比较两种方式的期望利润, $3.6>2$, 故从期望利润最大的角度, 商场应选择在商场外举行促销活动. $\blacksquare$
+比较两种方式的期望利润, $3.6> 2$, 故从期望利润最大的角度, 商场应选择在商场外举行促销活动. $\blacksquare$
 
 ### 习题九
 
@@ -284,7 +284,7 @@ $$
 
 保险公司的保费总收入为 $10^5\times 20=2\times 10^6$ 元, 即 200 万元; 总赔付金额为每份 50 万元, 即 $50X$ 万元.
 
-(1) 亏本即总赔付超过保费总收入, 亦即 $50X>200$, 即 $X>4$. 故亏本的概率为
+(1) 亏本即总赔付超过保费总收入, 亦即 $50X> 200$, 即 $X> 4$. 故亏本的概率为
 
 $$
 \mathbb P\left(X\ge 5\right)=1-\mathbb P\left(X\le 4\right).
@@ -365,7 +365,7 @@ $$
 10000 人按 5 人一组共 $10000\div 5=2000$ 组, 故总平均化验次数为
 
 $$
-2000\times 2.131=4262<10000.
+2000\times 2.131=4262< 10000.
 $$
 
 故这种化验方法能减少化验次数.
@@ -396,11 +396,11 @@ $$
 
 据此划定四个等级:
 
-(1) $D$ 等为成绩最低的 $16\%$, 即 $X<67$;
+(1) $D$ 等为成绩最低的 $16\%$, 即 $X< 67$;
 
-(2) $C$ 等为接下来的 $34\%$, 即 $67\le X<75$;
+(2) $C$ 等为接下来的 $34\%$, 即 $67\le X< 75$;
 
-(3) $B$ 等为再接下来的 $34\%$, 即 $75\le X<83$;
+(3) $B$ 等为再接下来的 $34\%$, 即 $75\le X< 83$;
 
 (4) $A$ 等为成绩最高的 $16\%$, 即 $X\ge 83$.
 

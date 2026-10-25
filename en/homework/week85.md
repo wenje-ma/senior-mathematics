@@ -82,7 +82,7 @@ $$
 \mathbb E\left(X_2\right)=0\times 0.3+1\times 0.5+2\times 0.2=0.9.
 $$
 
-Because $\mathbb E\left(X_2\right)<\mathbb E\left(X_1\right)$, i.e. machine B produces fewer defective parts per hour on average, machine B is better. The practical meaning is: with the same output, machine B has a lower average rate of defective parts and is more stable and reliable. $\blacksquare$
+Because $\mathbb E\left(X_2\right)< \mathbb E\left(X_1\right)$, i.e. machine B produces fewer defective parts per hour on average, machine B is better. The practical meaning is: with the same output, machine B has a lower average rate of defective parts and is more stable and reliable. $\blacksquare$
 
 ### Exercise 4
 
@@ -166,7 +166,7 @@ $$
 D\left(Y\right)=\left(-2\right)^2\times 0.05+\left(-1\right)^2\times 0.15+0^2\times 0.6+1^2\times 0.15+2^2\times 0.05=0.7.
 $$
 
-Since $D\left(X\right)=1.2>D\left(Y\right)=0.7$, $X$ is more spread out, which agrees with the intuitive judgment. $\blacksquare$
+Since $D\left(X\right)=1.2> D\left(Y\right)=0.7$, $X$ is more spread out, which agrees with the intuitive judgment. $\blacksquare$
 
 ### Problem 1
 
@@ -300,7 +300,7 @@ $$
 \mathbb E\left(X_2\right)=0\times 0.5+20\times\left(0.5\times 0.2\right)+30\times\left(0.5\times 0.8\right)=2+12=14.
 $$
 
-Because $\mathbb E\left(X_1\right)=16>\mathbb E\left(X_2\right)=14$, Zhang should choose to guess riddle $A$ first. $\blacksquare$
+Because $\mathbb E\left(X_1\right)=16> \mathbb E\left(X_2\right)=14$, Zhang should choose to guess riddle $A$ first. $\blacksquare$
 
 ### Problem 7
 
@@ -330,7 +330,7 @@ $$
 D\left(Y\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
 $$
 
-Because $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ but $D\left(X\right)<D\left(Y\right)$, i.e. watch A has a smaller and more stable timing error, brand A watches perform better. $\blacksquare$
+Because $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ but $D\left(X\right)< D\left(Y\right)$, i.e. watch A has a smaller and more stable timing error, brand A watches perform better. $\blacksquare$
 
 ### Problem 8
 
@@ -356,4 +356,4 @@ $$
 \mathbb E\bigl(\left(X-a\right)^2\bigr)=D\left(X\right)+\left(\mu-a\right)^2.
 $$
 
-Since $a\neq\mu$, $\left(\mu-a\right)^2>0$, so $\mathbb E\left(\left(X-a\right)^2\right)>D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. That is, the degree to which $X$ deviates from $\mu$ is minimal. Its significance is: the mean $\mu$ is the constant that minimizes the mean-square deviation of the random variable, which is precisely why the mean can represent the average level of the random variable. $\blacksquare$
+Since $a\neq\mu$, $\left(\mu-a\right)^2> 0$, so $\mathbb E\left(\left(X-a\right)^2\right)> D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. That is, the degree to which $X$ deviates from $\mu$ is minimal. Its significance is: the mean $\mu$ is the constant that minimizes the mean-square deviation of the random variable, which is precisely why the mean can represent the average level of the random variable. $\blacksquare$

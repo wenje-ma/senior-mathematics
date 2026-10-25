@@ -72,7 +72,7 @@ By the **Common Number Sets** and **Definition 1.1.5** (Belonging and Not Belong
 
 (2) the set formed by the intersection points of the graphs of the linear functions $y=x+3$ and $y=-2x+6$;
 
-(3) the solution set of the inequality $4x-5<3$.
+(3) the solution set of the inequality $4x-5< 3$.
 
 ### Solution to Exercise 3
 
@@ -88,7 +88,7 @@ $$
 
 From $x+3=-2x+6$, we get $3x=3$, i.e. $x=1$; substituting back gives $y=4$, so the intersection point is unique, namely the point $\left(1,4\right)$. The elements of this set can be listed one by one, so using the roster method, we obtain $\left\{\left(1,4\right)\right\}$.
 
-(3) From $4x-5<3$, transposing gives $4x<8$, i.e. $x<2$, so the solution set is $\left\{x\mid x<2\right\}$; its elements are infinite, so it is represented using set-builder notation, giving $\left\{x\mid x<2\right\}$. $\blacksquare$
+(3) From $4x-5< 3$, transposing gives $4x< 8$, i.e. $x< 2$, so the solution set is $\left\{x\mid x< 2\right\}$; its elements are infinite, so it is represented using set-builder notation, giving $\left\{x\mid x< 2\right\}$. $\blacksquare$
 
 ### Problem 1
 
@@ -122,7 +122,7 @@ By **Definition 1.1.5** (Belonging and Not Belonging) and the **Common Number Se
 
 (2) $A=\left\{x\mid\left(x-1\right)\left(x+2\right)=0\right\}$;
 
-(3) $B=\left\{x\in\mathbb Z\mid -3<2x-1<3\right\}$.
+(3) $B=\left\{x\in\mathbb Z\mid -3< 2x-1< 3\right\}$.
 
 ### Solution to Problem 2
 
@@ -132,7 +132,7 @@ By **Definition 1.1.6** (Roster Method), list the elements of the set one by one
 
 (2) The roots of the equation $\left(x-1\right)\left(x+2\right)=0$ are $x=1$ or $x=-2$, so $A=\left\{1,-2\right\}$.
 
-(3) From $-3<2x-1<3$, adding $1$ to each part gives $-2<2x<4$, and dividing each part by $2$ gives $-1<x<2$. Also by the **Common Number Sets**, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\left\{0,1\right\}$. $\blacksquare$
+(3) From $-3< 2x-1< 3$, adding $1$ to each part gives $-2< 2x< 4$, and dividing each part by $2$ gives $-1< x< 2$. Also by the **Common Number Sets**, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\left\{0,1\right\}$. $\blacksquare$
 
 ### Problem 3
 
@@ -142,7 +142,7 @@ By **Definition 1.1.6** (Roster Method), list the elements of the set one by one
 
 (2) all natural numbers formed by taking some or all of the digits $1,2,3$ without repetition;
 
-(3) $\left\{x\in\mathbb N\mid 3<x<7\right\}$;
+(3) $\left\{x\in\mathbb N\mid 3< x< 7\right\}$;
 
 (4) the Four Great Inventions of ancient China.
 
@@ -154,7 +154,7 @@ By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder No
 
 (2) The elements of this set are formed by taking some or all of the digits $1,2,3$; listing them gives $\left\{1,2,3,12,13,21,23,31,32,123,132,213,231,312,321\right\}$, and using set-builder notation, it is $\left\{x\mid x\text{ 由数字 }1,2,3\text{ 中若干个不重复地组成}\right\}$.
 
-(3) The elements of the set $\left\{x\in\mathbb N\mid 3<x<7\right\}$ are $4,5,6$; using the roster method, it is $\left\{4,5,6\right\}$.
+(3) The elements of the set $\left\{x\in\mathbb N\mid 3< x< 7\right\}$ are $4,5,6$; using the roster method, it is $\left\{4,5,6\right\}$.
 
 (4) The Four Great Inventions of ancient China are papermaking, printing, gunpowder, and the compass; using the roster method, it is $\left\{$papermaking, printing, gunpowder, the compass$\right\}$. $\blacksquare$
 

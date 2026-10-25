@@ -2,9 +2,9 @@
 
 > **Definition 3.1.1** (Ellipse) <br>The locus of points in a plane whose sum of distances to two fixed points $F_1,F_2$ equals a constant (greater than $\lvert F_1F_2 \rvert$) is called an ellipse. These two fixed points are called the foci of the ellipse, the distance between the two foci is called the focal distance, and half of it is called the semi-focal distance.
 
-> **Common Conclusion 3.1.2** (Sum of Distances from a Point on an Ellipse to the Two Foci) <br>The sum of the distances from any point $M$ on an ellipse to the two foci $F_1,F_2$ equals the fixed length $2a$, i.e. $\lvert MF_1 \rvert+\lvert MF_2 \rvert=2a$, where $2a>\lvert F_1F_2 \rvert$.
+> **Common Conclusion 3.1.2** (Sum of Distances from a Point on an Ellipse to the Two Foci) <br>The sum of the distances from any point $M$ on an ellipse to the two foci $F_1,F_2$ equals the fixed length $2a$, i.e. $\lvert MF_1 \rvert+\lvert MF_2 \rvert=2a$, where $2a> \lvert F_1F_2 \rvert$.
 
-> **Definition 3.1.3** (Standard Equation of an Ellipse) <br>When the foci lie on the $x$-axis at $F_1\left(-c,0\right)$ and $F_2\left(c,0\right)$, the standard equation of the ellipse is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$), where $c^2=a^2-b^2$; when the foci lie on the $y$-axis at $F_1\left(0,-c\right)$ and $F_2\left(0,c\right)$, the standard equation is $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$ ($a>b>0$).
+> **Definition 3.1.3** (Standard Equation of an Ellipse) <br>When the foci lie on the $x$-axis at $F_1\left(-c,0\right)$ and $F_2\left(c,0\right)$, the standard equation of the ellipse is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$), where $c^2=a^2-b^2$; when the foci lie on the $y$-axis at $F_1\left(0,-c\right)$ and $F_2\left(0,c\right)$, the standard equation is $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$ ($a> b> 0$).
 
 > **Common Conclusion 3.1.4** (Range of an Ellipse) <br>From $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ we obtain $-a\le x\le a$ and $-b\le y\le b$; the ellipse lies inside the rectangle bounded by the lines $x=\pm a$ and $y=\pm b$.
 
@@ -12,9 +12,9 @@
 
 > **Definition 3.1.6** (Vertices, Major Axis, and Minor Axis of an Ellipse) <br>The four intersection points $A_1\left(-a,0\right)$, $A_2\left(a,0\right)$, $B_1\left(0,-b\right)$, $B_2\left(0,b\right)$ of an ellipse with its axes of symmetry are called the vertices of the ellipse. The segment $A_1A_2$ is called the major axis, with length $2a$; the segment $B_1B_2$ is called the minor axis, with length $2b$. $a$ and $b$ are called the semi-major axis length and semi-minor axis length, respectively.
 
-> **Definition 3.1.7** (Eccentricity of an Ellipse) <br>The ratio of the focal distance to the major axis length, $\frac{c}{a}$, is called the eccentricity of the ellipse, denoted $e$, i.e. $e=\frac{c}{a}$. Since $a>c>0$, we have $0<e<1$. The closer $e$ is to $1$, the flatter the ellipse; the closer $e$ is to $0$, the closer the ellipse is to a circle.
+> **Definition 3.1.7** (Eccentricity of an Ellipse) <br>The ratio of the focal distance to the major axis length, $\frac{c}{a}$, is called the eccentricity of the ellipse, denoted $e$, i.e. $e=\frac{c}{a}$. Since $a> c> 0$, we have $0< e< 1$. The closer $e$ is to $1$, the flatter the ellipse; the closer $e$ is to $0$, the closer the ellipse is to a circle.
 
-> **Common Conclusion 3.1.8** (Position of a Line Relative to an Ellipse) <br>Eliminating a variable by combining the line equation with the ellipse gives a quadratic equation in one variable. When its discriminant is $\Delta>0$, the line and ellipse have two common points; when $\Delta=0$, they have exactly one common point; when $\Delta<0$, they have no common points.
+> **Common Conclusion 3.1.8** (Position of a Line Relative to an Ellipse) <br>Eliminating a variable by combining the line equation with the ellipse gives a quadratic equation in one variable. When its discriminant is $\Delta> 0$, the line and ellipse have two common points; when $\Delta=0$, they have exactly one common point; when $\Delta< 0$, they have no common points.
 
 ### Exercise 1
 
@@ -174,7 +174,7 @@ $\blacksquare$
 
 By **Definition 3.1.6** (Vertices), the intersections of the ellipse with the coordinate axes are the vertices; by **Definition 3.1.7** (Eccentricity), $e=\frac{c}{a}$.
 
-(1) The point $P\left(-3,0\right)$ is on the $x$-axis and $Q\left(0,-2\right)$ is on the $y$-axis; these are the intersections of the ellipse with the two coordinate axes. By **Definition 3.1.6**, the vertices are at $\left(\pm a,0\right)$ and $\left(0,\pm b\right)$, so $a=3$, $b=2$. Since $a>b$, the foci are on the $x$-axis, and the standard equation is
+(1) The point $P\left(-3,0\right)$ is on the $x$-axis and $Q\left(0,-2\right)$ is on the $y$-axis; these are the intersections of the ellipse with the two coordinate axes. By **Definition 3.1.6**, the vertices are at $\left(\pm a,0\right)$ and $\left(0,\pm b\right)$, so $a=3$, $b=2$. Since $a> b$, the foci are on the $x$-axis, and the standard equation is
 
 $$
 \frac{x^2}{9}+\frac{y^2}{4}=1.
@@ -206,9 +206,9 @@ $\blacksquare$
 
 By **Definition 3.1.7** (Eccentricity), $e=\frac{c}{a}=\sqrt{1-\frac{b^2}{a^2}}$; the closer $e$ is to $0$, the closer $a$ and $b$ are, and the closer the ellipse is to a circle.
 
-(1) Rewrite $9x^2+y^2=36$ as $\frac{y^2}{36}+\frac{x^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{16}+\frac{y^2}{12}=1$, we have $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. Since $e_2<e_1$, the ellipse $\frac{x^2}{16}+\frac{y^2}{12}=1$ is closer to a circle.
+(1) Rewrite $9x^2+y^2=36$ as $\frac{y^2}{36}+\frac{x^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{16}+\frac{y^2}{12}=1$, we have $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. Since $e_2< e_1$, the ellipse $\frac{x^2}{16}+\frac{y^2}{12}=1$ is closer to a circle.
 
-(2) Rewrite $x^2+9y^2=36$ as $\frac{x^2}{36}+\frac{y^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{6}+\frac{y^2}{10}=1$, we have $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. Since $e_2<e_1$, the ellipse $\frac{x^2}{6}+\frac{y^2}{10}=1$ is closer to a circle. $\blacksquare$
+(2) Rewrite $x^2+9y^2=36$ as $\frac{x^2}{36}+\frac{y^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{6}+\frac{y^2}{10}=1$, we have $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. Since $e_2< e_1$, the ellipse $\frac{x^2}{6}+\frac{y^2}{10}=1$ is closer to a circle. $\blacksquare$
 
 ### Exercise 10
 
@@ -280,7 +280,7 @@ as it moves, what curve is the locus of $M$? Why? Write its equation.
 
 By **Definition 3.1.1** (Ellipse), the locus of points in a plane whose sum of distances to two fixed points equals a constant (greater than the distance between the two fixed points) is an ellipse.
 
-$\sqrt{x^2+\left(y-3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,3\right)$, and $\sqrt{x^2+\left(y+3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,-3\right)$. The two fixed points are $F_1\left(0,3\right)$ and $F_2\left(0,-3\right)$, with $\lvert F_1F_2 \rvert=6$. The sum of the distances from $M$ to the two fixed points is the constant $10$, and $10>6$, so by **Definition 3.1.1** the locus of $M$ is an ellipse with foci at $\left(0,\pm3\right)$.
+$\sqrt{x^2+\left(y-3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,3\right)$, and $\sqrt{x^2+\left(y+3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,-3\right)$. The two fixed points are $F_1\left(0,3\right)$ and $F_2\left(0,-3\right)$, with $\lvert F_1F_2 \rvert=6$. The sum of the distances from $M$ to the two fixed points is the constant $10$, and $10> 6$, so by **Definition 3.1.1** the locus of $M$ is an ellipse with foci at $\left(0,\pm3\right)$.
 
 From $2a=10$ we get $a=5$, and from $2c=6$ we get $c=3$, with $b^2=a^2-c^2=25-9=16$. The foci are on the $y$-axis, so the equation is
 
@@ -354,7 +354,7 @@ By **Definition 3.1.3** (Standard Equation of an Ellipse), rewrite the equations
 
 Use **Definition 3.1.6** (Vertices) and **Definition 3.1.7** (Eccentricity).
 
-(1) $P\left(-2\sqrt{2},0\right)$ is on the $x$-axis and $Q\left(0,\sqrt{5}\right)$ is on the $y$-axis, so $a=2\sqrt{2}$, $b=\sqrt{5}$, with $a>b$ and the foci on the $x$-axis. The standard equation is
+(1) $P\left(-2\sqrt{2},0\right)$ is on the $x$-axis and $Q\left(0,\sqrt{5}\right)$ is on the $y$-axis, so $a=2\sqrt{2}$, $b=\sqrt{5}$, with $a> b$ and the foci on the $x$-axis. The standard equation is
 
 $$
 \frac{x^2}{8}+\frac{y^2}{5}=1.
@@ -408,7 +408,7 @@ $$
 \lvert QO \rvert+\lvert QA \rvert=r.
 $$
 
-By **Definition 3.1.1** (Ellipse), the sum of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$. Since $A$ is inside the circle $O$, we have $\lvert OA \rvert<r$, satisfying the condition that the constant is greater than the distance between the two fixed points. Hence the locus of $Q$ is an ellipse with foci at $O$ and $A$. $\blacksquare$
+By **Definition 3.1.1** (Ellipse), the sum of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$. Since $A$ is inside the circle $O$, we have $\lvert OA \rvert< r$, satisfying the condition that the constant is greater than the distance between the two fixed points. Hence the locus of $Q$ is an ellipse with foci at $O$ and $A$. $\blacksquare$
 
 ### Problem 7
 
@@ -490,7 +490,7 @@ $$
 \lvert MC_1 \rvert+\lvert MC_2 \rvert=12.
 $$
 
-By **Definition 3.1.1** (Ellipse), the sum of the distances from $M$ to the two fixed points $C_1\left(-3,0\right)$ and $C_2\left(3,0\right)$ is the constant $12$, and $12>\lvert C_1C_2 \rvert=6$, so the locus is an ellipse with foci at $C_1,C_2$. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. The locus equation is
+By **Definition 3.1.1** (Ellipse), the sum of the distances from $M$ to the two fixed points $C_1\left(-3,0\right)$ and $C_2\left(3,0\right)$ is the constant $12$, and $12> \lvert C_1C_2 \rvert=6$, so the locus is an ellipse with foci at $C_1,C_2$. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. The locus equation is
 
 $$
 \frac{x^2}{36}+\frac{y^2}{27}=1.
@@ -500,7 +500,7 @@ $\blacksquare$
 
 ### Problem 11
 
-(Exercise 3.1, Extension and Exploration, Problem 11) As shown in the figure, in rectangle $ABCD$, $AB=2a$, $BC=2b$ ($a>b>0$). $E$, $F$, $G$, $H$ are the midpoints of the four sides; $R$, $S$, $T$ are the points that divide segment $OF$ into four equal parts, and $R'$, $S'$, $T'$ are the points that divide segment $CF$ into four equal parts. Prove that the intersections $L$, $M$, $N$ of $ER$ and $GR'$, $ES$ and $GS'$, and $ET$ and $GT'$ all lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$).
+(Exercise 3.1, Extension and Exploration, Problem 11) As shown in the figure, in rectangle $ABCD$, $AB=2a$, $BC=2b$ ($a> b> 0$). $E$, $F$, $G$, $H$ are the midpoints of the four sides; $R$, $S$, $T$ are the points that divide segment $OF$ into four equal parts, and $R'$, $S'$, $T'$ are the points that divide segment $CF$ into four equal parts. Prove that the intersections $L$, $M$, $N$ of $ER$ and $GR'$, $ES$ and $GS'$, and $ET$ and $GT'$ all lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$).
 
 The figure plots, in the rectangular coordinate system, the rectangle $ABCD$ (center at $O$, $AB=2a$ horizontal, $BC=2b$ vertical): $E$, $F$, $G$, $H$ are the midpoints of the four sides ($F$ at the midpoint of the right side, $G$ at the midpoint of the top side, $E$ at the midpoint of the bottom side); $R$, $S$, $T$ are the quarter points of segment $OF$ (on the $x$-axis), and $R'$, $S'$, $T'$ are the quarter points of segment $CF$ (on the right vertical side); the lines $ER$ and $GR'$, $ES$ and $GS'$, $ET$ and $GT'$ are drawn, and their intersections $L$, $M$, $N$ lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$.
 
@@ -596,7 +596,7 @@ $$
 
 Simplifying gives $18x^2+12mx+4m^2-36=0$, i.e. $9x^2+6mx+2m^2-18=0$.
 
-(1) By **Common Conclusion 3.1.8**, having two common points requires $\Delta>0$, i.e. $36m^2-36\left(2m^2-18\right)>0$, which simplifies to $m^2<18$, i.e. $-3\sqrt{2}<m<3\sqrt{2}$.
+(1) By **Common Conclusion 3.1.8**, having two common points requires $\Delta> 0$, i.e. $36m^2-36\left(2m^2-18\right)> 0$, which simplifies to $m^2< 18$, i.e. $-3\sqrt{2}< m< 3\sqrt{2}$.
 
 (2) Let the abscissas of the intersections be $x_1,x_2$; then the abscissa of the midpoint is $x_0=\frac{x_1+x_2}{2}=-\frac{m}{3}$. The ordinate of the midpoint is $y_0=\frac{3}{2}x_0+m=-\frac{m}{2}+m=\frac{m}{2}$. Eliminating $m$ gives $y_0=-\frac{3}{2}x_0$, i.e. the midpoints lie on the line $y=-\frac{3}{2}x$. $\blacksquare$
 

@@ -6,7 +6,7 @@
 
 > **定义 7.3.2** (辐角) <br> 以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角 $\theta$ 叫做复数 $z=a+b\mathrm{i}$ 的辐角. 任何不为零的复数的辐角有无限多个值, 且相差 $2\pi$ 的整数倍.
 
-> **定义 7.3.3** (辐角的主值) <br> 规定在 $0\le\theta<2\pi$ 范围内的辐角 $\theta$ 的值为辐角的主值, 通常记作 $\arg z$, 即 $0\le\arg z<2\pi$.
+> **定义 7.3.3** (辐角的主值) <br> 规定在 $0\le\theta< 2\pi$ 范围内的辐角 $\theta$ 的值为辐角的主值, 通常记作 $\arg z$, 即 $0\le\arg z< 2\pi$.
 
 > **定义 7.3.4** (非零复数相等的三角形式条件) <br> 两个非零复数相等当且仅当它们的模与辐角的主值分别相等.
 
@@ -84,7 +84,7 @@ $$
 \frac{1}{2}\left(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4}\right)=\frac{1}{2}\left[\cos\left(-\frac{\pi}{4}\right)+\mathrm{i}\sin\left(-\frac{\pi}{4}\right)\right].
 $$
 
-(2) 不是三角形式, 因为模为 $-\frac{1}{2}<0$. 改写为 $\frac{1}{2}\left[-\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]=\frac{1}{2}\left[\cos\left(\frac{\pi}{3}+\pi\right)+\mathrm{i}\sin\left(\frac{\pi}{3}+\pi\right)\right]=\frac{1}{2}\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
+(2) 不是三角形式, 因为模为 $-\frac{1}{2}< 0$. 改写为 $\frac{1}{2}\left[-\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]=\frac{1}{2}\left[\cos\left(\frac{\pi}{3}+\pi\right)+\mathrm{i}\sin\left(\frac{\pi}{3}+\pi\right)\right]=\frac{1}{2}\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
 
 (3) 不是三角形式, 因为括号内为 $\sin\theta+\mathrm{i}\cos\theta$. 由 $\sin\theta=\cos\left(\frac{\pi}{2}-\theta\right)$, $\cos\theta=\sin\left(\frac{\pi}{2}-\theta\right)$, 得 $\sin\frac{5\pi}{12}+\mathrm{i}\cos\frac{5\pi}{12}=\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}$. 故原式 $=\frac{1}{2}\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$.
 
@@ -426,13 +426,13 @@ $$
 
 ### 解答 探究与发现三
 
-设 $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho>0\right)$ 是 $1$ 的 $n$ 次方根, 则 $z^n=1=\cos 0+\mathrm{i}\sin 0$. 由**定理 7.3.8** (棣莫弗定理),
+设 $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ 是 $1$ 的 $n$ 次方根, 则 $z^n=1=\cos 0+\mathrm{i}\sin 0$. 由**定理 7.3.8** (棣莫弗定理),
 
 $$
 z^n=\rho^n\left(\cos n\varphi+\mathrm{i}\sin n\varphi\right)=\cos 0+\mathrm{i}\sin 0.
 $$
 
-由**定义 7.3.4** (非零复数相等的三角形式条件), $\rho^n=1$ 且 $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. 因 $\rho>0$, 故 $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
+由**定义 7.3.4** (非零复数相等的三角形式条件), $\rho^n=1$ 且 $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. 因 $\rho> 0$, 故 $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
 
 由三角函数的周期性, $k=0,1,\cdots,n-1$ 给出 $n$ 个不同的根: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\ \left(k=0,1,\cdots,n-1\right)$.
 

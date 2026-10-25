@@ -34,7 +34,7 @@ $$
 \frac{a+b\mathrm{i}}{c+d\mathrm{i}}=\frac{ac+bd}{c^2+d^2}+\frac{bc-ad}{c^2+d^2}\mathrm{i}\quad \left(c+d\mathrm{i}\neq 0\right).
 $$
 
-> **Definition 7.2.8** (Root Formula for Real-Coefficient Quadratic Equations over the Complex Numbers) <br> When $\Delta=b^2-4ac<0$, the roots of the equation $ax^2+bx+c=0\ \left(a\neq 0\right)$ are
+> **Definition 7.2.8** (Root Formula for Real-Coefficient Quadratic Equations over the Complex Numbers) <br> When $\Delta=b^2-4ac< 0$, the roots of the equation $ax^2+bx+c=0\ \left(a\neq 0\right)$ are
 
 $$
 x=\frac{-b\pm\sqrt{-\left(b^2-4ac\right)}\,\mathrm{i}}{2a}.
@@ -224,7 +224,7 @@ By **Definition 7.2.8** (Root Formula for Real-Coefficient Quadratic Equations o
 
 (1) From $9x^2+16=0$, we get $x^2=-\frac{16}{9}$. Since $\left(\frac{4}{3}\mathrm{i}\right)^2=\left(-\frac{4}{3}\mathrm{i}\right)^2=-\frac{16}{9}$, we have $x=\pm\frac{4}{3}\mathrm{i}$.
 
-(2) In the equation $x^2+x+1=0$, $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3<0$. By **Definition 7.2.8**,
+(2) In the equation $x^2+x+1=0$, $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3< 0$. By **Definition 7.2.8**,
 
 $$
 x=\frac{-1\pm\sqrt{3}\,\mathrm{i}}{2}.
@@ -352,13 +352,13 @@ Let $z_D$ be the complex number corresponding to point $D$, and point $B$ corres
 
 By **Definition 7.2.8** (Root Formula for Real-Coefficient Quadratic Equations over the Complex Numbers).
 
-(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4<0$. Hence
+(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4< 0$. Hence
 
 $$
 x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm 2\mathrm{i}}{2}=-2\pm\mathrm{i}.
 $$
 
-(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23<0$. Hence
+(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23< 0$. Hence
 
 $$
 x=\frac{3\pm\sqrt{23}\,\mathrm{i}}{4}.

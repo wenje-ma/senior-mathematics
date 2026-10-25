@@ -70,7 +70,7 @@ By **Definition 1.1.5** (Belonging and Not Belonging), **Definition 1.2.1** (Sub
 
 (Exercise 1.2, Problem 3) Determine the relationship between the following two sets.
 
-(1) $A=\left\{x\mid x<0\right\}$, $B=\left\{x\mid x<1\right\}$;
+(1) $A=\left\{x\mid x< 0\right\}$, $B=\left\{x\mid x< 1\right\}$;
 
 (2) $A=\left\{x\mid x=3k,\ k\in\mathbb N\right\}$, $B=\left\{x\mid x=6z,\ z\in\mathbb N\right\}$;
 
@@ -80,7 +80,7 @@ By **Definition 1.1.5** (Belonging and Not Belonging), **Definition 1.2.1** (Sub
 
 By **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Definition 1.2.3** (Proper Subset), and the **Common Number Sets**.
 
-(1) Take any $x\in A$, then $x<0$. Since $x<0$ necessarily implies $x<1$, we have $x\in B$, and thus $A\subseteq B$. Also $0.5\in B$ but $0.5\notin A$, so $A\subsetneq B$.
+(1) Take any $x\in A$, then $x< 0$. Since $x< 0$ necessarily implies $x< 1$, we have $x\in B$, and thus $A\subseteq B$. Also $0.5\in B$ but $0.5\notin A$, so $A\subsetneq B$.
 
 (2) Take any $x\in B$, then $x=6z=3\left(2z\right)$, where $z\in\mathbb N$, so $2z\in\mathbb N$, i.e. $x$ is a non-negative integer multiple of $3$, so $x\in A$, and thus $B\subseteq A$. Also $3=3\cdot1\in A$, but $3$ is not a non-negative integer multiple of $6$, so $3\notin B$, and thus $B\subsetneq A$.
 
@@ -90,7 +90,7 @@ By **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Def
 
 (Problem 1.2, Review and Consolidation, Problem 1) Fill in the blanks with appropriate symbols.
 
-(1) If the set $A=\left\{x\mid 2x-3<3x\right\}$, $B=\left\{x\mid x\ge2\right\}$, then $-4\;\_\_\;B$, $-3\;\_\_\;A$, $\left\{2\right\}\;\_\_\;B$, $B\;\_\_\;A$;
+(1) If the set $A=\left\{x\mid 2x-3< 3x\right\}$, $B=\left\{x\mid x\ge2\right\}$, then $-4\;\_\_\;B$, $-3\;\_\_\;A$, $\left\{2\right\}\;\_\_\;B$, $B\;\_\_\;A$;
 
 (2) If the set $A=\left\{x\mid x^2-1=0\right\}$, then $1\;\_\_\;A$, $\left\{-1\right\}\;\_\_\;A$, $\varnothing\;\_\_\;A$, $\left\{1,-1\right\}\;\_\_\;A$;
 
@@ -100,15 +100,15 @@ By **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Def
 
 By **Definition 1.1.5** (Belonging and Not Belonging), **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Definition 1.2.3** (Proper Subset), and **Definition 1.2.4** (Empty Set).
 
-(1) From $2x-3<3x$, transposing gives $x>-3$, so $A=\left\{x\mid x>-3\right\}$.
+(1) From $2x-3< 3x$, transposing gives $x> -3$, so $A=\left\{x\mid x> -3\right\}$.
 
-$-4<2$, so $-4\notin B$;
+$-4< 2$, so $-4\notin B$;
 
-$-3$ does not satisfy $x>-3$, so $-3\notin A$;
+$-3$ does not satisfy $x> -3$, so $-3\notin A$;
 
 $2\in B$, so $\left\{2\right\}\subseteq B$, and $B$ also contains other elements (such as $3$), so $\left\{2\right\}\subsetneq B$;
 
-Take any $x\in B$, then $x\ge2$, which necessarily implies $x>-3$, so $x\in A$; also $-2\in A$ but $-2\notin B$, so $B\subsetneq A$.
+Take any $x\in B$, then $x\ge2$, which necessarily implies $x> -3$, so $x\in A$; also $-2\in A$ but $-2\notin B$, so $B\subsetneq A$.
 
 (2) The equation $x^2-1=0$ is equivalent to $\left(x-1\right)\left(x+1\right)=0$, whose roots are $1,-1$, so $A=\left\{1,-1\right\}$.
 
@@ -154,7 +154,7 @@ That is, the set of squares is properly contained in the set of rectangles, the 
 
 (3) $C=\left\{0\right\}$;
 
-(4) $D=\left\{x\in\mathbb Z\mid 3<x<30\right\}$.
+(4) $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}$.
 
 ### Solution to Problem 3
 
@@ -166,7 +166,7 @@ By **Definition 1.2.1** (Subset), a set formed by taking some elements from a se
 
 (3) The subsets of the set $C=\left\{0\right\}$ are $\varnothing$ and $\left\{0\right\}$, so one may take $\varnothing\subseteq C$.
 
-(4) By the **Common Number Sets**, $D=\left\{x\in\mathbb Z\mid 3<x<30\right\}=\left\{4,5,\cdots,29\right\}$; taking the integers among them that are greater than $3$ and less than $10$, we get $\left\{x\in\mathbb Z\mid 3<x<10\right\}\subseteq D$. $\blacksquare$
+(4) By the **Common Number Sets**, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$; taking the integers among them that are greater than $3$ and less than $10$, we get $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
 
 ### Problem 4
 
@@ -198,7 +198,7 @@ Also, the coordinates of the point $\left(1,1\right)$ satisfy $y=x$, so $\left(1
 
 (1) Let $a,b\in\mathbb R$, $P=\left\{1,a\right\}$, $Q=\left\{-1,-b\right\}$. If $P=Q$, find the value of $a-b$;
 
-(2) Given the sets $A=\left\{x\mid 0<x<a\right\}$, $B=\left\{x\mid 1<x<2\right\}$, if $B\subseteq A$, find the range of the real number $a$.
+(2) Given the sets $A=\left\{x\mid 0< x< a\right\}$, $B=\left\{x\mid 1< x< 2\right\}$, if $B\subseteq A$, find the range of the real number $a$.
 
 ### Solution to Problem 5
 
@@ -206,4 +206,4 @@ By **Definition 1.2.2** (Equality of Sets) and **Definition 1.2.1** (Subset).
 
 (1) From $P=Q$, the two sets contain exactly the same elements. Since $1\in P$, we have $1\in Q=\left\{-1,-b\right\}$. Since $-1\neq1$, it must be that $-b=1$, i.e. $b=-1$, and thus $Q=\left\{-1,1\right\}$. Then from $P=\left\{1,a\right\}=\left\{-1,1\right\}$, we get $a=-1$. Therefore $a-b=-1-\left(-1\right)=0$.
 
-(2) From $B\subseteq A$, every element of $B$ must belong to $A$. Take any $x\in B$, then $1<x<2$; for $x\in A=\left\{x\mid 0<x<a\right\}$, we must have $x<a$. Since $x$ can approach $2$ arbitrarily closely, we must have $a\ge2$. Conversely, when $a\ge2$, take any $x\in B$; we have $0<1<x<2\le a$, i.e. $0<x<a$, so $x\in A$, and thus $B\subseteq A$. Therefore the range of the real number $a$ is $a\ge2$. $\blacksquare$
+(2) From $B\subseteq A$, every element of $B$ must belong to $A$. Take any $x\in B$, then $1< x< 2$; for $x\in A=\left\{x\mid 0< x< a\right\}$, we must have $x< a$. Since $x$ can approach $2$ arbitrarily closely, we must have $a\ge2$. Conversely, when $a\ge2$, take any $x\in B$; we have $0< 1< x< 2\le a$, i.e. $0< x< a$, so $x\in A$, and thus $B\subseteq A$. Therefore the range of the real number $a$ is $a\ge2$. $\blacksquare$

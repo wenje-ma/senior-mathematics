@@ -2,7 +2,7 @@
 
 > **常用结论 2.1.2** (重要不等式) <br>$\forall a,b\in\mathbb R$, 有 $a^2+b^2\ge 2ab$, 当且仅当 $a=b$ 时, 等号成立.
 
-> **定理 2.2.1** (基本不等式) <br>如果 $a>0$, $b>0$, 那么 $\sqrt{ab}\le\frac{a+b}{2}$, 当且仅当 $a=b$ 时, 等号成立. 其中 $\frac{a+b}{2}$ 叫做正数 $a,b$ 的算术平均数, $\sqrt{ab}$ 叫做正数 $a,b$ 的几何平均数. 基本不等式表明: 两个正数的算术平均数不小于它们的几何平均数.
+> **定理 2.2.1** (基本不等式) <br>如果 $a> 0$, $b> 0$, 那么 $\sqrt{ab}\le\frac{a+b}{2}$, 当且仅当 $a=b$ 时, 等号成立. 其中 $\frac{a+b}{2}$ 叫做正数 $a,b$ 的算术平均数, $\sqrt{ab}$ 叫做正数 $a,b$ 的几何平均数. 基本不等式表明: 两个正数的算术平均数不小于它们的几何平均数.
 
 > **常用结论 2.2.2** (积定和最小, 和定积最大) <br>已知 $x,y$ 都是正数, (1) 如果积 $xy$ 等于定值 $P$, 那么当 $x=y$ 时, 和 $x+y$ 有最小值 $2\sqrt P$; (2) 如果和 $x+y$ 等于定值 $S$, 那么当 $x=y$ 时, 积 $xy$ 有最大值 $\frac{1}{4}S^2$.
 
@@ -26,9 +26,9 @@ $$
 
 (练习 2.2 第 2 题) 已知 $x,y$ 都是正数, 且 $x\neq y$, 求证.
 
-(1) $\frac{x}{y}+\frac{y}{x}>2$;
+(1) $\frac{x}{y}+\frac{y}{x}> 2$;
 
-(2) $\frac{2xy}{x+y}<\sqrt{xy}$.
+(2) $\frac{2xy}{x+y}< \sqrt{xy}$.
 
 ### 解答 练习二
 
@@ -40,12 +40,12 @@ $$
 \frac{x}{y}+\frac{y}{x}\ge2\sqrt{\frac{x}{y}\cdot\frac{y}{x}}=2.
 $$
 
-因 $x\neq y$, 等号不成立, 故 $\frac{x}{y}+\frac{y}{x}>2$.
+因 $x\neq y$, 等号不成立, 故 $\frac{x}{y}+\frac{y}{x}> 2$.
 
-(2) 由 $x\neq y$, **定理 2.2.1** (基本不等式) 给出 $x+y>2\sqrt{xy}$. 两边均为正, 取倒数得 $\frac{2}{x+y}<\frac{1}{\sqrt{xy}}$, 两边同乘正数 $xy$, 得
+(2) 由 $x\neq y$, **定理 2.2.1** (基本不等式) 给出 $x+y> 2\sqrt{xy}$. 两边均为正, 取倒数得 $\frac{2}{x+y}< \frac{1}{\sqrt{xy}}$, 两边同乘正数 $xy$, 得
 
 $$
-\frac{2xy}{x+y}<\frac{xy}{\sqrt{xy}}=\sqrt{xy}.
+\frac{2xy}{x+y}< \frac{xy}{\sqrt{xy}}=\sqrt{xy}.
 $$
 
 $\blacksquare$
@@ -56,7 +56,7 @@ $\blacksquare$
 
 ### 解答 练习三
 
-由**定理 2.2.1** (基本不等式), $x^2>0$, $\frac{1}{x^2}>0$, 故
+由**定理 2.2.1** (基本不等式), $x^2> 0$, $\frac{1}{x^2}> 0$, 故
 
 $$
 x^2+\frac{1}{x^2}\ge2\sqrt{x^2\cdot\frac{1}{x^2}}=2.
@@ -114,7 +114,7 @@ $$
 S=xy=\frac{1}{2}\left(2x\right)y=\frac{1}{2}uy.
 $$
 
-由**常用结论 2.2.2** (积定和最小, 和定积最大), $uy\le\left(\frac{u+y}{2}\right)^2=225$, 当且仅当 $u=y=15$ 时, 等号成立. 此时 $2x=15$, $x=7.5$, $y=15$, 而 $y=15<18$ 不超过墙长, 可行.
+由**常用结论 2.2.2** (积定和最小, 和定积最大), $uy\le\left(\frac{u+y}{2}\right)^2=225$, 当且仅当 $u=y=15$ 时, 等号成立. 此时 $2x=15$, $x=7.5$, $y=15$, 而 $y=15< 18$ 不超过墙长, 可行.
 
 故当垂直于墙的边长为 $7.5\ \mathrm m$, 平行于墙的边长为 $15\ \mathrm m$ 时, 菜园面积最大, 最大面积为 $\frac{225}{2}=112.5\ \mathrm m^2$. $\blacksquare$
 
@@ -154,7 +154,7 @@ $$
 
 (习题 2.2 复习巩固第 1 题)
 
-(1) 已知 $x>1$, 求 $x+\frac{1}{x-1}$ 的最小值;
+(1) 已知 $x> 1$, 求 $x+\frac{1}{x-1}$ 的最小值;
 
 (2) 求 $\sqrt{x\left(10-x\right)}$ 的最大值.
 
@@ -162,7 +162,7 @@ $$
 
 由**定理 2.2.1** (基本不等式), 把所求式凑成两正数之和或积的形式.
 
-(1) 因为 $x>1$, 所以 $x-1>0$. 改写
+(1) 因为 $x> 1$, 所以 $x-1> 0$. 改写
 
 $$
 x+\frac{1}{x-1}=\left(x-1\right)+\frac{1}{x-1}+1\ge2\sqrt{\left(x-1\right)\cdot\frac{1}{x-1}}+1=3,
@@ -226,7 +226,7 @@ $$
 
 由**定理 2.2.1** (基本不等式), 分别对三对正数用基本不等式.
 
-由 $x,y>0$, $y,z>0$, $z,x>0$, 得
+由 $x,y> 0$, $y,z> 0$, $z,x> 0$, 得
 
 $$
 x+y\ge2\sqrt{xy},\quad y+z\ge2\sqrt{yz},\quad z+x\ge2\sqrt{zx}.
@@ -242,11 +242,11 @@ $$
 
 ### 习题五
 
-(习题 2.2 综合运用第 5 题) 已知 $x>0$, 求证: $2-3x-\frac{4}{x}$ 的最大值是 $2-4\sqrt3$.
+(习题 2.2 综合运用第 5 题) 已知 $x> 0$, 求证: $2-3x-\frac{4}{x}$ 的最大值是 $2-4\sqrt3$.
 
 ### 解答 习题五
 
-由**定理 2.2.1** (基本不等式), $3x>0$, $\frac{4}{x}>0$, 故
+由**定理 2.2.1** (基本不等式), $3x> 0$, $\frac{4}{x}> 0$, 故
 
 $$
 3x+\frac{4}{x}\ge2\sqrt{3x\cdot\frac{4}{x}}=4\sqrt3.
@@ -300,11 +300,11 @@ $$
 x+y=5\left(\frac{l_1}{l_2}+\frac{l_2}{l_1}\right)\ge5\cdot2\sqrt{\frac{l_1}{l_2}\cdot\frac{l_2}{l_1}}=10.
 $$
 
-由于两臂不等长 $l_1\neq l_2$, 等号不成立, 故 $x+y>10$. 顾客购得的黄金大于 $10\ \mathrm g$. $\blacksquare$
+由于两臂不等长 $l_1\neq l_2$, 等号不成立, 故 $x+y> 10$. 顾客购得的黄金大于 $10\ \mathrm g$. $\blacksquare$
 
 ### 习题八
 
-(习题 2.2 拓广探索第 8 题) 设矩形 $ABCD$ ($AB>AD$) 的周长为 $24\ \mathrm{cm}$, 把 $\triangle ABC$ 沿 $AC$ 向 $\triangle ADC$ 折叠, $AB$ 折过去后交 $DC$ 于点 $P$. 设 $AB=x\ \mathrm{cm}$, 求 $\triangle ADP$ 的最大面积及相应 $x$ 的值.
+(习题 2.2 拓广探索第 8 题) 设矩形 $ABCD$ ($AB> AD$) 的周长为 $24\ \mathrm{cm}$, 把 $\triangle ABC$ 沿 $AC$ 向 $\triangle ADC$ 折叠, $AB$ 折过去后交 $DC$ 于点 $P$. 设 $AB=x\ \mathrm{cm}$, 求 $\triangle ADP$ 的最大面积及相应 $x$ 的值.
 
 ### 解答 习题八
 
@@ -324,6 +324,6 @@ $$
 S=\frac{1}{2}\cdot AD\cdot t=\frac{1}{2}\left(12-x\right)\cdot\frac{12x-72}{x}=\frac{6\left(12-x\right)\left(x-6\right)}{x}=6\left(18-x-\frac{72}{x}\right).
 $$
 
-由**定理 2.2.1** (基本不等式), $x+\frac{72}{x}\ge2\sqrt{72}=12\sqrt2$, 当且仅当 $x=\frac{72}{x}$, 即 $x=6\sqrt2$ 时, 等号成立. 此时 $AD=12-6\sqrt2>0$ 且 $AB>AD$, 符合题意.
+由**定理 2.2.1** (基本不等式), $x+\frac{72}{x}\ge2\sqrt{72}=12\sqrt2$, 当且仅当 $x=\frac{72}{x}$, 即 $x=6\sqrt2$ 时, 等号成立. 此时 $AD=12-6\sqrt2> 0$ 且 $AB> AD$, 符合题意.
 
 故当 $x=6\sqrt2\ \mathrm{cm}$ 时, $\triangle ADP$ 面积最大, 最大值为 $6\left(18-12\sqrt2\right)=108-72\sqrt2\ \mathrm{cm}^2$. $\blacksquare$

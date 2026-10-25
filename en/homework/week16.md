@@ -1,12 +1,12 @@
 # Assignment 16
 
-> **Definition 4.4.1** (Logarithmic Function) <br>In general, the function $y=\log_a x$ ($a>0$, and $a\neq 1$) is called a logarithmic function, where $x$ is the independent variable and the domain is $\left(0,+\infty\right)$.
+> **Definition 4.4.1** (Logarithmic Function) <br>In general, the function $y=\log_a x$ ($a> 0$, and $a\neq 1$) is called a logarithmic function, where $x$ is the independent variable and the domain is $\left(0,+\infty\right)$.
 
-> **Definition 4.4.2** (Inverse Function) <br>The exponential function $y=a^x$ ($a>0$, and $a\neq 1$) and the logarithmic function $y=\log_a x$ ($a>0$, and $a\neq 1$) are inverse functions of each other, and their domains and ranges are exactly interchanged.
+> **Definition 4.4.2** (Inverse Function) <br>The exponential function $y=a^x$ ($a> 0$, and $a\neq 1$) and the logarithmic function $y=\log_a x$ ($a> 0$, and $a\neq 1$) are inverse functions of each other, and their domains and ranges are exactly interchanged.
 
-> **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) <br>(1) The domain is $\left(0,+\infty\right)$; (2) the range is $\mathbb R$; (3) the graph passes through the fixed point $\left(1,0\right)$, i.e. when $x=1$, $y=0$; (4) when $a>1$, $y=\log_a x$ is an increasing function; when $0<a<1$, $y=\log_a x$ is a decreasing function. The graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis.
+> **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) <br>(1) The domain is $\left(0,+\infty\right)$; (2) the range is $\mathbb R$; (3) the graph passes through the fixed point $\left(1,0\right)$, i.e. when $x=1$, $y=0$; (4) when $a> 1$, $y=\log_a x$ is an increasing function; when $0< a< 1$, $y=\log_a x$ is a decreasing function. The graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis.
 
-> **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions) <br>The growth rate of the exponential function $y=a^x$ ($a>1$) will eventually greatly exceed that of the linear function $y=kx$ ($k>0$); the growth rate of the logarithmic function $y=\log_a x$ ($a>1$) becomes slower and slower, and will eventually be slower than that of the linear function $y=kx$ ($k>0$).
+> **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions) <br>The growth rate of the exponential function $y=a^x$ ($a> 1$) will eventually greatly exceed that of the linear function $y=kx$ ($k> 0$); the growth rate of the logarithmic function $y=\log_a x$ ($a> 1$) becomes slower and slower, and will eventually be slower than that of the linear function $y=kx$ ($k> 0$).
 
 ### Exercise 1
 
@@ -18,19 +18,19 @@
 
 (3) $y=\log_7\frac{1}{1-3x}$;
 
-(4) $y=\log_a\left|x\right|$ ($a>0$, and $a\neq 1$).
+(4) $y=\log_a\left|x\right|$ ($a> 0$, and $a\neq 1$).
 
 ### Solution to Exercise 1
 
 By **Definition 4.4.1** (Logarithmic Function), the antilogarithm must be greater than $0$.
 
-(1) $1-x>0$, i.e. $x<1$, so the domain is $\left(-\infty,1\right)$.
+(1) $1-x> 0$, i.e. $x< 1$, so the domain is $\left(-\infty,1\right)$.
 
-(2) $x>0$ and $\lg x\neq 0$, i.e. $x>0$ and $x\neq 1$, so the domain is $\left(0,1\right)\cup\left(1,+\infty\right)$.
+(2) $x> 0$ and $\lg x\neq 0$, i.e. $x> 0$ and $x\neq 1$, so the domain is $\left(0,1\right)\cup\left(1,+\infty\right)$.
 
-(3) $\frac{1}{1-3x}>0$, i.e. $1-3x>0$, $x<\frac{1}{3}$, so the domain is $\left(-\infty,\frac{1}{3}\right)$.
+(3) $\frac{1}{1-3x}> 0$, i.e. $1-3x> 0$, $x< \frac{1}{3}$, so the domain is $\left(-\infty,\frac{1}{3}\right)$.
 
-(4) $\left|x\right|>0$, i.e. $x\neq 0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
+(4) $\left|x\right|> 0$, i.e. $x\neq 0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
 
 ### Exercise 2
 
@@ -40,7 +40,7 @@ By **Definition 4.4.1** (Logarithmic Function), the antilogarithm must be greate
 
 (2) $y=10^{\lg x}$.
 
-The graphs: on the left, the graph of $y=\lg 10^x=x$ is the whole straight line of slope $1$ passing through the origin in the rectangular coordinate plane (crossing the first and third quadrants); on the right, the graph of $y=10^{\lg x}=x$ ($x>0$) is the ray on the same line $y=x$ restricted to $x>0$ (lying only in the first quadrant, extending from the origin to the upper right).
+The graphs: on the left, the graph of $y=\lg 10^x=x$ is the whole straight line of slope $1$ passing through the origin in the rectangular coordinate plane (crossing the first and third quadrants); on the right, the graph of $y=10^{\lg x}=x$ ($x> 0$) is the ray on the same line $y=x$ restricted to $x> 0$ (lying only in the first quadrant, extending from the origin to the upper right).
 
 ### Solution to Exercise 2
 
@@ -48,7 +48,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (1) By the relationship between logarithms and exponents, $\lg 10^x=x$, so $y=\lg 10^x$ is exactly the line $y=x$.
 
-(2) By the relationship between logarithms and exponents, $10^{\lg x}=x$ ($x>0$), so $y=10^{\lg x}$ is exactly the ray $y=x$ ($x>0$). $\blacksquare$
+(2) By the relationship between logarithms and exponents, $10^{\lg x}=x$ ($x> 0$), so $y=10^{\lg x}$ is exactly the ray $y=x$ ($x> 0$). $\blacksquare$
 
 ### Exercise 3
 
@@ -66,7 +66,7 @@ By the definition of a function, for any element in $A$, the function value obta
 
 (Exercise 4.4, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=\log_3 x$ and $y=\log_{\frac{1}{3}} x$, and explain their relationship.
 
-The graphs: in the same rectangular coordinate system, the two logarithmic curves both have domain $\left(0,+\infty\right)$, lie to the right of the $y$-axis, and pass through the point $\left(1,0\right)$; $y=\log_3 x$ is a monotonically increasing curve (below the $x$-axis for $0<x<1$ and above it for $x>1$), while $y=\log_{\frac{1}{3}} x$ is a monotonically decreasing curve (above the $x$-axis for $0<x<1$ and below it for $x>1$), and the two are symmetric about the $x$-axis.
+The graphs: in the same rectangular coordinate system, the two logarithmic curves both have domain $\left(0,+\infty\right)$, lie to the right of the $y$-axis, and pass through the point $\left(1,0\right)$; $y=\log_3 x$ is a monotonically increasing curve (below the $x$-axis for $0< x< 1$ and above it for $x> 1$), while $y=\log_{\frac{1}{3}} x$ is a monotonically decreasing curve (above the $x$-axis for $0< x< 1$ and below it for $x> 1$), and the two are symmetric about the $x$-axis.
 
 ### Solution to Exercise 4
 
@@ -88,11 +88,11 @@ By the change-of-base formula, $\log_{\frac{1}{3}} x=-\log_3 x$. If the point $\
 
 By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), use the monotonicity of logarithmic functions to compare.
 
-(1) The base $10>1$, $\lg x$ is an increasing function, $0.6<0.8$, so $\lg 0.6<\lg 0.8$.
+(1) The base $10> 1$, $\lg x$ is an increasing function, $0.6< 0.8$, so $\lg 0.6< \lg 0.8$.
 
-(2) The base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function, $6>4$, so $\log_{0.5} 6<\log_{0.5} 4$.
+(2) The base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function, $6> 4$, so $\log_{0.5} 6< \log_{0.5} 4$.
 
-(3) When $m>1$, $y=\log_m x$ is an increasing function, $5<7$, so $\log_m 5<\log_m 7$; when $0<m<1$, $y=\log_m x$ is a decreasing function, $5<7$, so $\log_m 5>\log_m 7$. $\blacksquare$
+(3) When $m> 1$, $y=\log_m x$ is an increasing function, $5< 7$, so $\log_m 5< \log_m 7$; when $0< m< 1$, $y=\log_m x$ is a decreasing function, $5< 7$, so $\log_m 5> \log_m 7$. $\blacksquare$
 
 ### Exercise 6
 
@@ -120,7 +120,7 @@ The graphs: in the same rectangular coordinate system, the exponential function 
 
 By **Definition 4.4.2** (Inverse Function), the exponential function and the logarithmic function are inverses of each other.
 
-If the point $P_0\left(x_0,y_0\right)$ lies on the graph of $y=2^x$, then $y_0=2^{x_0}$, i.e. $x_0=\log_2 y_0$, so the point $\left(y_0,x_0\right)$ lies on the graph of $y=\log_2 x$. And the point $\left(x_0,y_0\right)$ and the point $\left(y_0,x_0\right)$ are symmetric about the line $y=x$. Therefore, the graphs of two functions that are inverses of each other are symmetric about the line $y=x$. This conclusion holds for any $y=a^x$ ($a>0$, and $a\neq 1$) and its inverse function $y=\log_a x$. $\blacksquare$
+If the point $P_0\left(x_0,y_0\right)$ lies on the graph of $y=2^x$, then $y_0=2^{x_0}$, i.e. $x_0=\log_2 y_0$, so the point $\left(y_0,x_0\right)$ lies on the graph of $y=\log_2 x$. And the point $\left(x_0,y_0\right)$ and the point $\left(y_0,x_0\right)$ are symmetric about the line $y=x$. Therefore, the graphs of two functions that are inverses of each other are symmetric about the line $y=x$. This conclusion holds for any $y=a^x$ ($a> 0$, and $a\neq 1$) and its inverse function $y=\log_a x$. $\blacksquare$
 
 ### Exercise 7
 
@@ -134,13 +134,13 @@ $y_3$ increases by $25$ for every increase of $5$, showing linear growth; $y_1$ 
 
 ### Exercise 8
 
-(Exercise 4.4, Problem 8) With the help of a calculating tool, estimate the range of values of $x$ for which $3^x>5x$ (accurate to $0.01$).
+(Exercise 4.4, Problem 8) With the help of a calculating tool, estimate the range of values of $x$ for which $3^x> 5x$ (accurate to $0.01$).
 
 ### Solution to Exercise 8
 
 By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions), the exponential function will eventually exceed the linear function, but in the intermediate interval it may be smaller than the linear function.
 
-The equation $3^x=5x$ has two intersection points. Estimate: near $x\approx 0.26$, $3^{0.26}\approx 1.32$, $5\times 0.26=1.30$, the two are close; near $x\approx 2.25$, $3^{2.25}\approx 11.84$, $5\times 2.25=11.25$, the two are close. Therefore the range of values for which $3^x>5x$ is approximately $x<0.26$ or $x>2.25$. $\blacksquare$
+The equation $3^x=5x$ has two intersection points. Estimate: near $x\approx 0.26$, $3^{0.26}\approx 1.32$, $5\times 0.26=1.30$, the two are close; near $x\approx 2.25$, $3^{2.25}\approx 11.84$, $5\times 2.25=11.25$, the two are close. Therefore the range of values for which $3^x> 5x$ is approximately $x< 0.26$ or $x> 2.25$. $\blacksquare$
 
 ### Exercise 9
 
@@ -176,33 +176,33 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 By **Definition 4.4.1** (Logarithmic Function), the antilogarithm must be greater than $0$.
 
-(1) $\log_2 x$ requires $x>0$, and the cube root has no restriction on the radicand, so the domain is $\left(0,+\infty\right)$.
+(1) $\log_2 x$ requires $x> 0$, and the cube root has no restriction on the radicand, so the domain is $\left(0,+\infty\right)$.
 
-(2) We require $\log_{0.5}\left(4x-3\right)\ge 0$ and $4x-3>0$. Since the base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function; $\log_{0.5}\left(4x-3\right)\ge 0=\log_{0.5} 1$ is equivalent to $0<4x-3\le 1$, i.e. $\frac{3}{4}<x\le 1$. So the domain is $\left(\frac{3}{4},1\right]$. $\blacksquare$
+(2) We require $\log_{0.5}\left(4x-3\right)\ge 0$ and $4x-3> 0$. Since the base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function; $\log_{0.5}\left(4x-3\right)\ge 0=\log_{0.5} 1$ is equivalent to $0< 4x-3\le 1$, i.e. $\frac{3}{4}< x\le 1$. So the domain is $\left(\frac{3}{4},1\right]$. $\blacksquare$
 
 ### Problem 2
 
 (Exercise 4.4, Review and Consolidation, Problem 2) Compare the sizes of the two positive numbers $m$, $n$ satisfying the following conditions.
 
-(1) $\log_3 m<\log_3 n$;
+(1) $\log_3 m< \log_3 n$;
 
-(2) $\log_{0.3} m<\log_{0.3} n$;
+(2) $\log_{0.3} m< \log_{0.3} n$;
 
-(3) $\log_a m<\log_a n$ ($0<a<1$);
+(3) $\log_a m< \log_a n$ ($0< a< 1$);
 
-(4) $\log_a m>\log_a n$ ($a>1$).
+(4) $\log_a m> \log_a n$ ($a> 1$).
 
 ### Solution to Problem 2
 
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $a>1$, $y=\log_a x$ is increasing, and when $0<a<1$, it is decreasing.
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $a> 1$, $y=\log_a x$ is increasing, and when $0< a< 1$, it is decreasing.
 
-(1) The base $3>1$, increasing; from $\log_3 m<\log_3 n$ we get $m<n$.
+(1) The base $3> 1$, increasing; from $\log_3 m< \log_3 n$ we get $m< n$.
 
-(2) The base $0.3\in\left(0,1\right)$, decreasing; from $\log_{0.3} m<\log_{0.3} n$ we get $m>n$.
+(2) The base $0.3\in\left(0,1\right)$, decreasing; from $\log_{0.3} m< \log_{0.3} n$ we get $m> n$.
 
-(3) $0<a<1$, decreasing; from $\log_a m<\log_a n$ we get $m>n$.
+(3) $0< a< 1$, decreasing; from $\log_a m< \log_a n$ we get $m> n$.
 
-(4) $a>1$, increasing; from $\log_a m>\log_a n$ we get $m>n$. $\blacksquare$
+(4) $a> 1$, increasing; from $\log_a m> \log_a n$ we get $m> n$. $\blacksquare$
 
 ### Problem 3
 
@@ -224,13 +224,13 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. Let $2000\ln\left(1+\frac{M}{m}\right)=
 
 (3) what do you discover from the graph in (2)?
 
-The graphs: in the same rectangular coordinate system, the three increasing logarithmic curves $y=\log_2 x$, $y=\log_3 x$, and $y=\lg x$ all have domain $\left(0,+\infty\right)$ and pass through the point $\left(1,0\right)$; in the region $x>1$, from top to bottom the graphs are $y=\log_2 x$ (topmost and steepest), $y=\log_3 x$ (middle), and $y=\lg x$ (bottommost and most gentle), while in the region $0<x<1$ the vertical order is reversed.
+The graphs: in the same rectangular coordinate system, the three increasing logarithmic curves $y=\log_2 x$, $y=\log_3 x$, and $y=\lg x$ all have domain $\left(0,+\infty\right)$ and pass through the point $\left(1,0\right)$; in the region $x> 1$, from top to bottom the graphs are $y=\log_2 x$ (topmost and steepest), $y=\log_3 x$ (middle), and $y=\lg x$ (bottommost and most gentle), while in the region $0< x< 1$ the vertical order is reversed.
 
 ### Solution to Problem 4
 
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $x>1$, the smaller the base, the higher the logarithmic function graph.
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $x> 1$, the smaller the base, the higher the logarithmic function graph.
 
-(1) When $x>1$, the smaller the base, the larger the value of $\log_a x$, and the higher the graph. The bases satisfy $2<3<10$, so when $x>1$, the highest graph is $y=\log_2 x$, the middle one is $y=\log_3 x$, and the lowest is $y=\lg x$. That is, the steepest curve corresponds to $y=\log_2 x$, the middle one to $y=\log_3 x$, and the flattest one to $y=\lg x$.
+(1) When $x> 1$, the smaller the base, the larger the value of $\log_a x$, and the higher the graph. The bases satisfy $2< 3< 10$, so when $x> 1$, the highest graph is $y=\log_2 x$, the middle one is $y=\log_3 x$, and the lowest is $y=\lg x$. That is, the steepest curve corresponds to $y=\log_2 x$, the middle one to $y=\log_3 x$, and the flattest one to $y=\lg x$.
 
 (2) By **Standard Conclusion 4.4.3**, the graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis. Therefore $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ are respectively symmetric to $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ about the $x$-axis.
 
@@ -344,13 +344,13 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model).
 
 ### Problem 12
 
-(Exercise 4.4, Extension and Exploration, Problem 12) Given $\log_a\frac{1}{2}<1$, $\left(\frac{1}{2}\right)^a<1$, $a^{\frac{1}{2}}<1$, find the range of values of the real number $a$.
+(Exercise 4.4, Extension and Exploration, Problem 12) Given $\log_a\frac{1}{2}< 1$, $\left(\frac{1}{2}\right)^a< 1$, $a^{\frac{1}{2}}< 1$, find the range of values of the real number $a$.
 
 ### Solution to Problem 12
 
 By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) and **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
 
-From $\left(\frac{1}{2}\right)^a<1=\left(\frac{1}{2}\right)^0$, the base $\frac{1}{2}\in\left(0,1\right)$ is decreasing, so $a>0$. From $a^{\frac{1}{2}}<1$, we get $0<a<1$. Then from $\log_a\frac{1}{2}<1=\log_a a$: when $0<a<1$, $y=\log_a x$ is decreasing; from $\log_a\frac{1}{2}<\log_a a$ we get $\frac{1}{2}>a$, i.e. $a<\frac{1}{2}$. Combining gives $0<a<\frac{1}{2}$. $\blacksquare$
+From $\left(\frac{1}{2}\right)^a< 1=\left(\frac{1}{2}\right)^0$, the base $\frac{1}{2}\in\left(0,1\right)$ is decreasing, so $a> 0$. From $a^{\frac{1}{2}}< 1$, we get $0< a< 1$. Then from $\log_a\frac{1}{2}< 1=\log_a a$: when $0< a< 1$, $y=\log_a x$ is decreasing; from $\log_a\frac{1}{2}< \log_a a$ we get $\frac{1}{2}> a$, i.e. $a< \frac{1}{2}$. Combining gives $0< a< \frac{1}{2}$. $\blacksquare$
 
 ### Problem 13
 
@@ -364,6 +364,6 @@ From $\left(\frac{1}{2}\right)^a<1=\left(\frac{1}{2}\right)^0$, the base $\frac{
 
 By **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-(1) By the change-of-base formula, $\log_a 6=\frac{\ln 6}{\ln a}$. Since $0.2<0.3<0.4<1$, we have $\ln 0.2<\ln 0.3<\ln 0.4<0$. The numerator $\ln 6>0$ is positive and the denominator is negative; the more negative (smaller) the denominator, the smaller the fraction value. Therefore $\log_{0.2} 6<\log_{0.3} 6<\log_{0.4} 6$.
+(1) By the change-of-base formula, $\log_a 6=\frac{\ln 6}{\ln a}$. Since $0.2< 0.3< 0.4< 1$, we have $\ln 0.2< \ln 0.3< \ln 0.4< 0$. The numerator $\ln 6> 0$ is positive and the denominator is negative; the more negative (smaller) the denominator, the smaller the fraction value. Therefore $\log_{0.2} 6< \log_{0.3} 6< \log_{0.4} 6$.
 
-(2) By the change-of-base formula, $\log_2 3=\frac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\frac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\frac{\ln 5}{\ln 4}\approx 1.161$. Therefore $\log_4 5<\log_3 4<\log_2 3$. $\blacksquare$
+(2) By the change-of-base formula, $\log_2 3=\frac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\frac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\frac{\ln 5}{\ln 4}\approx 1.161$. Therefore $\log_4 5< \log_3 4< \log_2 3$. $\blacksquare$

@@ -424,6 +424,6 @@ $$
 \frac{\mathbb P\left(X=k+1\right)}{\mathbb P\left(X=k\right)}=\frac{\binom{n}{k+1} p^{k+1}\left(1-p\right)^{n-k-1}}{\binom{n}{k} p^k\left(1-p\right)^{n-k}}=\frac{n-k}{k+1}\cdot\frac{p}{1-p}.
 $$
 
-When this ratio is greater than $1$, i.e. $k<\left(n+1\right)p-1$, then $\mathbb P\left(X=k+1\right)>\mathbb P\left(X=k\right)$ and the distribution rises; when the ratio is less than $1$, i.e. $k>\left(n+1\right)p-1$, then $\mathbb P\left(X=k+1\right)<\mathbb P\left(X=k\right)$ and the distribution falls. Thus $\mathbb P\left(X=k\right)$ reaches its maximum at the integer $k$ closest to $\left(n+1\right)p$, proving the unimodal property.
+When this ratio is greater than $1$, i.e. $k< \left(n+1\right)p-1$, then $\mathbb P\left(X=k+1\right)> \mathbb P\left(X=k\right)$ and the distribution rises; when the ratio is less than $1$, i.e. $k> \left(n+1\right)p-1$, then $\mathbb P\left(X=k+1\right)< \mathbb P\left(X=k\right)$ and the distribution falls. Thus $\mathbb P\left(X=k\right)$ reaches its maximum at the integer $k$ closest to $\left(n+1\right)p$, proving the unimodal property.
 
 When $p=0.5$, $\mathbb P\left(X=k\right)=\mathbb P\left(X=n-k\right)$, so the distribution is symmetric about $k=\frac{n}{2}$, proving the symmetry property. $\blacksquare$

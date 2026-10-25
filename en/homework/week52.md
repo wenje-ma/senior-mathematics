@@ -24,13 +24,13 @@
 
 > **Definition 7.2.7** (Division Rule for Complex Numbers) <br> $\frac{a+b\mathrm{i}}{c+d\mathrm{i}}=\frac{ac+bd}{c^2+d^2}+\frac{bc-ad}{c^2+d^2}\mathrm{i}\ \left(c+d\mathrm{i}\neq 0\right)$.
 
-> **Definition 7.2.8** (Root Formula for Real-Coefficient Quadratic Equations over the Complex Numbers) <br> When $\Delta=b^2-4ac<0$, the roots of the equation $ax^2+bx+c=0\ \left(a\neq 0\right)$ are $x=\frac{-b\pm\sqrt{-\left(b^2-4ac\right)}\,\mathrm{i}}{2a}$.
+> **Definition 7.2.8** (Root Formula for Real-Coefficient Quadratic Equations over the Complex Numbers) <br> When $\Delta=b^2-4ac< 0$, the roots of the equation $ax^2+bx+c=0\ \left(a\neq 0\right)$ are $x=\frac{-b\pm\sqrt{-\left(b^2-4ac\right)}\,\mathrm{i}}{2a}$.
 
 > **Definition 7.3.1** (Trigonometric Form of a Complex Number) <br> Any complex number $z=a+b\mathrm{i}$ can be expressed in the form $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$.
 
 > **Definition 7.3.2** (Argument) <br> Taking the nonnegative half of the $x$-axis as the initial side and the ray where the vector $\boldsymbol{OZ}$ lies as the terminal side, the angle $\theta$ is called the argument of the complex number $z=a+b\mathrm{i}$.
 
-> **Definition 7.3.3** (Principal Value of the Argument) <br> The value of the argument $\theta$ in the range $0\le\theta<2\pi$ is stipulated to be the principal value of the argument, denoted $\arg z$.
+> **Definition 7.3.3** (Principal Value of the Argument) <br> The value of the argument $\theta$ in the range $0\le\theta< 2\pi$ is stipulated to be the principal value of the argument, denoted $\arg z$.
 
 > **Definition 7.3.5** (Trigonometric Form of Complex Multiplication) <br> $r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)\cdot r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)=r_1r_2\left[\cos\left(\theta_1+\theta_2\right)+\mathrm{i}\sin\left(\theta_1+\theta_2\right)\right]$.
 
@@ -60,7 +60,7 @@
 
 (D) $2-\mathrm{i}$
 
-(3) When $\frac{2}{3}<m<1$, the point corresponding to the complex number $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ in the complex plane lies in ( ).
+(3) When $\frac{2}{3}< m< 1$, the point corresponding to the complex number $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ in the complex plane lies in ( ).
 
 (A) the first quadrant
 
@@ -86,7 +86,7 @@
 
 (2) By **Definition 7.2.7** (Division Rule for Complex Numbers), $\frac{5}{\mathrm{i}-2}=\frac{5\left(-2-\mathrm{i}\right)}{\left(\mathrm{i}-2\right)\left(-2-\mathrm{i}\right)}=\frac{-10-5\mathrm{i}}{5}=-2-\mathrm{i}$. By **Definition 7.1.10** (Conjugate Complex Number), its conjugate complex number is $-2+\mathrm{i}$, i.e. $\mathrm{i}-2$. Therefore choose (B).
 
-(3) By **Definition 7.2.1** and **Definition 7.2.2**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. When $\frac{2}{3}<m<1$, $3m-2>0$, $m-1<0$. By **Definition 7.1.8** (Geometric Meaning of a Complex Number), a point with positive real part and negative imaginary part lies in the fourth quadrant. Therefore choose (D).
+(3) By **Definition 7.2.1** and **Definition 7.2.2**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. When $\frac{2}{3}< m< 1$, $3m-2> 0$, $m-1< 0$. By **Definition 7.1.8** (Geometric Meaning of a Complex Number), a point with positive real part and negative imaginary part lies in the fourth quadrant. Therefore choose (D).
 
 (4) $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$. By trigonometric identities, $\sin 40^{\circ}=\cos 50^{\circ}$, $\cos 40^{\circ}=\sin 50^{\circ}$, so the original expression $=\cos 50^{\circ}-\mathrm{i}\sin 50^{\circ}=\cos\left(-50^{\circ}\right)+\mathrm{i}\sin\left(-50^{\circ}\right)=\cos 310^{\circ}+\mathrm{i}\sin 310^{\circ}$. By **Definition 7.3.3** (Principal Value of the Argument), the principal argument is $310^{\circ}$. Therefore choose (D). $\blacksquare$
 
@@ -168,7 +168,7 @@ Therefore $z=-2\mathrm{i}$. $\blacksquare$
 
 (1) From $4x^2+9=0$, we get $x^2=-\frac{9}{4}$. Since $\left(\frac{3}{2}\mathrm{i}\right)^2=\left(-\frac{3}{2}\mathrm{i}\right)^2=-\frac{9}{4}$, we have $x=\pm\frac{3}{2}\mathrm{i}$.
 
-(2) Expanding $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. Here $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4<0$. By **Definition 7.2.8** (Root Formula),
+(2) Expanding $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. Here $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4< 0$. By **Definition 7.2.8** (Root Formula),
 
 $$
 x=\frac{8\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{8\pm 2\mathrm{i}}{2}=4\pm\mathrm{i}.

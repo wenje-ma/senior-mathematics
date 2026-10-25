@@ -232,21 +232,21 @@ Hence the derivative of the function at $x=1$ is $2$. $\blacksquare$
 
 By **Definition 5.1.3** (Geometric Meaning of the Derivative), for the curve $h\left(t\right)$, the sign of the tangent slope $h'\left(t\right)$ at a point reflects whether it is rising or falling near that point, and its absolute value reflects how fast it rises or falls.
 
-Near $t=t_{3}$, the curve is rising, and the tangent slope $h'\left(t_{3}\right)>0$, so the curve is monotonically increasing near $t=t_{3}$; moreover, the tangent is steep and the absolute value of the slope is large, so it increases relatively fast.
+Near $t=t_{3}$, the curve is rising, and the tangent slope $h'\left(t_{3}\right)> 0$, so the curve is monotonically increasing near $t=t_{3}$; moreover, the tangent is steep and the absolute value of the slope is large, so it increases relatively fast.
 
-Near $t=t_{4}$, the curve is rising, and the tangent slope $h'\left(t_{4}\right)>0$, so the curve is monotonically increasing near $t=t_{4}$; however, the tangent is relatively flat and the absolute value of the slope is small, so it increases relatively slowly. $\blacksquare$
+Near $t=t_{4}$, the curve is rising, and the tangent slope $h'\left(t_{4}\right)> 0$, so the curve is monotonically increasing near $t=t_{4}$; however, the tangent is relatively flat and the absolute value of the slope is small, so it increases relatively slowly. $\blacksquare$
 
 ### Exercise 11
 
 (Exercise 5.1, Problem 11) The graph of the function $f\left(x\right)$ is as shown. Which of the following orderings of the values is correct? ( )
 
-(A) $f'\left(1\right)>f'\left(2\right)>f'\left(3\right)>0$
+(A) $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$
 
-(B) $f'\left(1\right)<f'\left(2\right)<f'\left(3\right)<0$
+(B) $f'\left(1\right)< f'\left(2\right)< f'\left(3\right)< 0$
 
-(C) $0<f'\left(1\right)<f'\left(2\right)<f'\left(3\right)$
+(C) $0< f'\left(1\right)< f'\left(2\right)< f'\left(3\right)$
 
-(D) $f'\left(1\right)>f'\left(2\right)>0>f'\left(3\right)$
+(D) $f'\left(1\right)> f'\left(2\right)> 0> f'\left(3\right)$
 
 The figure is the graph of $y=f\left(x\right)$: a curve rising from lower left to upper right but flattening out (concave down), with tangent lines drawn at $x=1,2,3$; all three tangents have positive slopes that decrease successively.
 
@@ -256,7 +256,7 @@ By **Definition 5.1.3** (Geometric Meaning of the Derivative), $f'\left(x\right)
 
 From the graph, the curve $y=f\left(x\right)$ is rising at $x=1,2,3$, and the tangent slopes are all positive, i.e. $f'\left(1\right),f'\left(2\right),f'\left(3\right)$ are all greater than $0$.
 
-Moreover, the graph rises more and more gently, and the tangent slope gradually decreases, i.e. $f'\left(1\right)>f'\left(2\right)>f'\left(3\right)>0$.
+Moreover, the graph rises more and more gently, and the tangent slope gradually decreases, i.e. $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$.
 
 Therefore choose (A). $\blacksquare$
 
@@ -290,7 +290,7 @@ $$
 \frac{\Delta r}{\Delta V}=\frac{r\left(V+\Delta V\right)-r\left(V\right)}{\Delta V}.
 $$
 
-From the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$, $r\left(V\right)$ increases as $V$ increases, but the growth becomes more and more gentle, so $r'\left(V\right)>0$ and decreases as $V$ increases.
+From the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$, $r\left(V\right)$ increases as $V$ increases, but the growth becomes more and more gentle, so $r'\left(V\right)> 0$ and decreases as $V$ increases.
 
 Estimating from the graph, when $V=0.6$, the tangent slope is approximately $r'\left(0.6\right)\approx0.3$; when $V=1.2$, the tangent slope is approximately $r'\left(1.2\right)\approx0.2$.
 
@@ -434,7 +434,7 @@ $$
 
 Letting $\Delta x\to0$, we get the tangent slope $k=1$.
 
-Let the angle of inclination of the tangent be $\alpha$; then $\tan\alpha=1$. Since $0\le\alpha<\pi$, we have $\alpha=\frac{\pi}{4}$.
+Let the angle of inclination of the tangent be $\alpha$; then $\tan\alpha=1$. Since $0\le\alpha< \pi$, we have $\alpha=\frac{\pi}{4}$.
 
 Hence the angle of inclination of the tangent is $\frac{\pi}{4}$. $\blacksquare$
 

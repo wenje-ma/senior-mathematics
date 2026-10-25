@@ -428,7 +428,7 @@ $$
 
 (3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. "$A, B$ 中恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 二者之差为 $P\left(A\cup B\right)-\bigl[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\bigr]=P\left(A\cap B\right)\ge 0$, 故 "至少有一个发生" 的概率不一定比 "恰有一个发生" 的概率大. 当 $P\left(A\cap B\right)=0$ 时, 二者相等. 该说法错误. 反例: 互斥事件 $A, B$ 中, 二者概率相等.
 
-(4) 由**性质 10.1.16** (概率的非负性), $P\left(A\cap B\right)\ge 0$, 而 "恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 当 $P\left(A\right)=P\left(B\right)=0.9$ 时, $P\left(A\cap B\right)=0.81$, 恰有一个发生的概率为 $0.9+0.9-2\times 0.81=0.18$, 此时 $P\left(A\cap B\right)>$ 恰有一个发生的概率. 该说法错误. $\blacksquare$
+(4) 由**性质 10.1.16** (概率的非负性), $P\left(A\cap B\right)\ge 0$, 而 "恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 当 $P\left(A\right)=P\left(B\right)=0.9$ 时, $P\left(A\cap B\right)=0.81$, 恰有一个发生的概率为 $0.9+0.9-2\times 0.81=0.18$, 此时 $P\left(A\cap B\right)> $ 恰有一个发生的概率. 该说法错误. $\blacksquare$
 
 ### 习题五
 
@@ -500,25 +500,25 @@ $\blacksquare$
 
 三角形的三边关系要求任意两边之和大于第三边. 枚举所有取法:
 
-$\left(1, 3, 5\right)$: $1+3=4<5$, 不能构成三角形.
+$\left(1, 3, 5\right)$: $1+3=4< 5$, 不能构成三角形.
 
-$\left(1, 3, 7\right)$: $1+3=4<7$, 不能构成.
+$\left(1, 3, 7\right)$: $1+3=4< 7$, 不能构成.
 
-$\left(1, 3, 9\right)$: $1+3=4<9$, 不能构成.
+$\left(1, 3, 9\right)$: $1+3=4< 9$, 不能构成.
 
-$\left(1, 5, 7\right)$: $1+5=6<7$, 不能构成.
+$\left(1, 5, 7\right)$: $1+5=6< 7$, 不能构成.
 
-$\left(1, 5, 9\right)$: $1+5=6<9$, 不能构成.
+$\left(1, 5, 9\right)$: $1+5=6< 9$, 不能构成.
 
-$\left(1, 7, 9\right)$: $1+7=8<9$, 不能构成.
+$\left(1, 7, 9\right)$: $1+7=8< 9$, 不能构成.
 
-$\left(3, 5, 7\right)$: $3+5=8>7$, 能构成三角形.
+$\left(3, 5, 7\right)$: $3+5=8> 7$, 能构成三角形.
 
-$\left(3, 5, 9\right)$: $3+5=8<9$, 不能构成.
+$\left(3, 5, 9\right)$: $3+5=8< 9$, 不能构成.
 
-$\left(3, 7, 9\right)$: $3+7=10>9$, 能构成三角形.
+$\left(3, 7, 9\right)$: $3+7=10> 9$, 能构成三角形.
 
-$\left(5, 7, 9\right)$: $5+7=12>9$, 能构成三角形.
+$\left(5, 7, 9\right)$: $5+7=12> 9$, 能构成三角形.
 
 能构成三角形的取法有 $3$ 种, 故 $P\left(A\right)=\frac{3}{10}$. $\blacksquare$
 

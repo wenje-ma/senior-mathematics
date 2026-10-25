@@ -1,10 +1,10 @@
 # Assignment 14
 
-> **Definition 4.2.1** (Exponential Function) <br>In general, the function $y=a^x$ ($a>0$, and $a\neq 1$) is called an exponential function, where the exponent $x$ is the independent variable and the domain is $\mathbb R$.
+> **Definition 4.2.1** (Exponential Function) <br>In general, the function $y=a^x$ ($a> 0$, and $a\neq 1$) is called an exponential function, where the exponent $x$ is the independent variable and the domain is $\mathbb R$.
 
-> **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) <br>(1) The domain is $\mathbb R$; (2) the range is $\left(0,+\infty\right)$; (3) the graph passes through the fixed point $\left(0,1\right)$, i.e. when $x=0$, $y=1$; (4) when $a>1$, $y=a^x$ is an increasing function; when $0<a<1$, $y=a^x$ is a decreasing function. The graphs of two exponential functions whose bases are reciprocals of each other are symmetric about the $y$-axis.
+> **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) <br>(1) The domain is $\mathbb R$; (2) the range is $\left(0,+\infty\right)$; (3) the graph passes through the fixed point $\left(0,1\right)$, i.e. when $x=0$, $y=1$; (4) when $a> 1$, $y=a^x$ is an increasing function; when $0< a< 1$, $y=a^x$ is a decreasing function. The graphs of two exponential functions whose bases are reciprocals of each other are symmetric about the $y$-axis.
 
-> **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model) <br>Let the initial quantity be $N$, the growth rate each time be $p$, and after $x$ growth steps the quantity grows to $y$, then $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$, and $k\neq 0$; $a>0$, and $a\neq 1$) is a very useful function model for describing the laws of exponential growth or exponential decay.
+> **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model) <br>Let the initial quantity be $N$, the growth rate each time be $p$, and after $x$ growth steps the quantity grows to $y$, then $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$, and $k\neq 0$; $a> 0$, and $a\neq 1$) is a very useful function model for describing the laws of exponential growth or exponential decay.
 
 ### Exercise 1
 
@@ -14,9 +14,9 @@
 
 ### Solution to Exercise 1
 
-By **Definition 4.2.1** (Exponential Function) and **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions), the exponential function $y=a^x$ ($a>0$, and $a\neq 1$) has domain $\mathbb R$, range $\left(0,+\infty\right)$, its graph always lies above the $x$-axis, passes through the fixed point $\left(0,1\right)$, and is monotonic.
+By **Definition 4.2.1** (Exponential Function) and **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions), the exponential function $y=a^x$ ($a> 0$, and $a\neq 1$) has domain $\mathbb R$, range $\left(0,+\infty\right)$, its graph always lies above the $x$-axis, passes through the fixed point $\left(0,1\right)$, and is monotonic.
 
-(A) is a straight line, a linear function; (B) is a parabola, a quadratic function; (D) passes through the origin and lies in the first and third quadrants, with a range containing negative numbers, which does not match the range $\left(0,+\infty\right)$. Only the graph in (C) lies above the $x$-axis, passes through $\left(0,1\right)$, and is monotonically increasing, consistent with the features of $y=a^x$ ($a>1$). Therefore choose (C). $\blacksquare$
+(A) is a straight line, a linear function; (B) is a parabola, a quadratic function; (D) passes through the origin and lies in the first and third quadrants, with a range containing negative numbers, which does not match the range $\left(0,+\infty\right)$. Only the graph in (C) lies above the $x$-axis, passes through $\left(0,1\right)$, and is monotonically increasing, consistent with the features of $y=a^x$ ($a> 1$). Therefore choose (C). $\blacksquare$
 
 ### Exercise 2
 
@@ -68,7 +68,7 @@ Example: a certain kind of bacterium divides once every $20\;\mathrm{min}$ under
 
 (Exercise 4.2, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=3^x$ and $y=\left(\frac{1}{3}\right)^x$, and explain their relationship.
 
-The graphs: in the same rectangular coordinate system, the two exponential curves both pass through the point $\left(0,1\right)$ and lie above the $x$-axis; $y=3^x$ is a monotonically increasing curve (rising for $x>0$ and approaching the $x$-axis for $x<0$), while $y=\left(\frac{1}{3}\right)^x$ is a monotonically decreasing curve (rising for $x<0$ and approaching the $x$-axis for $x>0$), and the two are symmetric about the $y$-axis.
+The graphs: in the same rectangular coordinate system, the two exponential curves both pass through the point $\left(0,1\right)$ and lie above the $x$-axis; $y=3^x$ is a monotonically increasing curve (rising for $x> 0$ and approaching the $x$-axis for $x< 0$), while $y=\left(\frac{1}{3}\right)^x$ is a monotonically decreasing curve (rising for $x< 0$ and approaching the $x$-axis for $x> 0$), and the two are symmetric about the $y$-axis.
 
 ### Solution to Exercise 4
 
@@ -90,23 +90,23 @@ Since $\left(\frac{1}{3}\right)^x=3^{-x}$, if the point $\left(x,y\right)$ lies 
 
 By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions), use the monotonicity of exponential functions to compare sizes.
 
-(1) $\sqrt{2}>0$; for the power $x^{\sqrt{2}}$, the power value increases as the base increases, so $6^{\sqrt{2}}<7^{\sqrt{2}}$.
+(1) $\sqrt{2}> 0$; for the power $x^{\sqrt{2}}$, the power value increases as the base increases, so $6^{\sqrt{2}}< 7^{\sqrt{2}}$.
 
-(2) The base $0.3\in\left(0,1\right)$, and the function $y=0.3^x$ is decreasing. Since $-3.5<-2.3$, in a decreasing function the smaller the independent variable, the larger the function value, so $0.3^{-3.5}>0.3^{-2.3}$.
+(2) The base $0.3\in\left(0,1\right)$, and the function $y=0.3^x$ is decreasing. Since $-3.5< -2.3$, in a decreasing function the smaller the independent variable, the larger the function value, so $0.3^{-3.5}> 0.3^{-2.3}$.
 
-(3) $1.2^{0.5}>1.2^0=1$, while $0.5^{1.2}<0.5^0=1$, so $1.2^{0.5}>0.5^{1.2}$. $\blacksquare$
+(3) $1.2^{0.5}> 1.2^0=1$, while $0.5^{1.2}< 0.5^0=1$, so $1.2^{0.5}> 0.5^{1.2}$. $\blacksquare$
 
 ### Exercise 6
 
 (Exercise 4.2, Problem 6) Cancer cells in the body increase very slowly in the early stage, but increase sharply in the late stage. Draw a schematic diagram reflecting how the number of cancer cells in the body changes over time.
 
-Schematic diagram: the horizontal axis is time and the vertical axis is the number of cancer cells in the body; the curve starts near the origin, with a very small slope and a gentle rise in the early stage; as time passes, the slope gradually increases and in the later stage it rises sharply, showing a convex-up (concave-up) exponential growth shape, consistent with the graph of $y=a^x$ ($a>1$) when $x\ge0$.
+Schematic diagram: the horizontal axis is time and the vertical axis is the number of cancer cells in the body; the curve starts near the origin, with a very small slope and a gentle rise in the early stage; as time passes, the slope gradually increases and in the later stage it rises sharply, showing a convex-up (concave-up) exponential growth shape, consistent with the graph of $y=a^x$ ($a> 1$) when $x\ge0$.
 
 ### Solution to Exercise 6
 
 By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model), the number of cancer cells grows exponentially with time.
 
-Schematic diagram: the horizontal axis is time and the vertical axis is the number of cancer cells. The curve starts near the origin, with a very small slope in the early stage and a gentle rise; as time passes, the slope gradually increases, and in the later stage it rises sharply, showing a convex-down exponential growth shape, consistent with the graph of $y=a^x$ ($a>1$) when $x\ge 0$. $\blacksquare$
+Schematic diagram: the horizontal axis is time and the vertical axis is the number of cancer cells. The curve starts near the origin, with a very small slope in the early stage and a gentle rise; as time passes, the slope gradually increases, and in the later stage it rises sharply, showing a convex-down exponential growth shape, consistent with the graph of $y=a^x$ ($a> 1$) when $x\ge 0$. $\blacksquare$
 
 ### Problem 1
 
@@ -146,25 +146,25 @@ After $x$ years, the annual output is $y=a\left(1+\frac{p}{100}\right)^x$, where
 
 (Exercise 4.2, Review and Consolidation, Problem 3) Compare the sizes of $m$ and $n$ satisfying the following conditions.
 
-(1) $2^m<2^n$;
+(1) $2^m< 2^n$;
 
-(2) $0.2^m<0.2^n$;
+(2) $0.2^m< 0.2^n$;
 
-(3) $a^m<a^n$ ($0<a<1$);
+(3) $a^m< a^n$ ($0< a< 1$);
 
-(4) $a^m>a^n$ ($a>1$).
+(4) $a^m> a^n$ ($a> 1$).
 
 ### Solution to Problem 3
 
-By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions), when $a>1$, $y=a^x$ is increasing, and when $0<a<1$, $y=a^x$ is decreasing.
+By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions), when $a> 1$, $y=a^x$ is increasing, and when $0< a< 1$, $y=a^x$ is decreasing.
 
-(1) The base $2>1$, and $y=2^x$ is increasing; from $2^m<2^n$ we get $m<n$.
+(1) The base $2> 1$, and $y=2^x$ is increasing; from $2^m< 2^n$ we get $m< n$.
 
-(2) The base $0.2\in\left(0,1\right)$, and $y=0.2^x$ is decreasing; from $0.2^m<0.2^n$ we get $m>n$.
+(2) The base $0.2\in\left(0,1\right)$, and $y=0.2^x$ is decreasing; from $0.2^m< 0.2^n$ we get $m> n$.
 
-(3) $0<a<1$, and $y=a^x$ is decreasing; from $a^m<a^n$ we get $m>n$.
+(3) $0< a< 1$, and $y=a^x$ is decreasing; from $a^m< a^n$ we get $m> n$.
 
-(4) $a>1$, and $y=a^x$ is increasing; from $a^m>a^n$ we get $m>n$. $\blacksquare$
+(4) $a> 1$, and $y=a^x$ is increasing; from $a^m> a^n$ we get $m> n$. $\blacksquare$
 
 ### Problem 4
 
@@ -196,7 +196,7 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model), assume th
 
 (1) From the data: $\frac{f\left(1\right)}{f\left(0\right)}=\frac{4.20}{3.50}=1.2$, $\frac{f\left(2\right)}{f\left(1\right)}=\frac{5.04}{4.20}=1.2$, the common ratio is $1.2$, and the first term is $f\left(0\right)=3.50$. Thus $f\left(x\right)=3.50\times 1.2^x$.
 
-(2) Let $g\left(x\right)=ka^x$ ($0<a<1$). From $g\left(1\right)=ka=2$ and $g\left(-1\right)=ka^{-1}=8$, dividing the two equations gives $a^2=\frac{2}{8}=\frac{1}{4}$, so $a=\frac{1}{2}$, and substituting into $ka=2$ gives $k=4$. Thus $g\left(x\right)=4\cdot\left(\frac{1}{2}\right)^x=2^{2-x}$. $\blacksquare$
+(2) Let $g\left(x\right)=ka^x$ ($0< a< 1$). From $g\left(1\right)=ka=2$ and $g\left(-1\right)=ka^{-1}=8$, dividing the two equations gives $a^2=\frac{2}{8}=\frac{1}{4}$, so $a=\frac{1}{2}$, and substituting into $ka=2$ gives $k=4$. Thus $g\left(x\right)=4\cdot\left(\frac{1}{2}\right)^x=2^{2-x}$. $\blacksquare$
 
 ### Problem 6
 
@@ -214,13 +214,13 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model), assume th
 
 By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions), compare using monotonicity.
 
-(1) The base $3>1$, $y=3^x$ is increasing, $0.8>0.7$, so $3^{0.8}>3^{0.7}$.
+(1) The base $3> 1$, $y=3^x$ is increasing, $0.8> 0.7$, so $3^{0.8}> 3^{0.7}$.
 
-(2) The base $0.75\in\left(0,1\right)$, $y=0.75^x$ is decreasing, $-0.1<0.1$, so $0.75^{-0.1}>0.75^{0.1}$.
+(2) The base $0.75\in\left(0,1\right)$, $y=0.75^x$ is decreasing, $-0.1< 0.1$, so $0.75^{-0.1}> 0.75^{0.1}$.
 
-(3) The base $1.01>1$, $y=1.01^x$ is increasing, $2.7<3.5$, so $1.01^{2.7}<1.01^{3.5}$.
+(3) The base $1.01> 1$, $y=1.01^x$ is increasing, $2.7< 3.5$, so $1.01^{2.7}< 1.01^{3.5}$.
 
-(4) The base $0.99\in\left(0,1\right)$, $y=0.99^x$ is decreasing, $3.3<4.5$, so $0.99^{3.3}>0.99^{4.5}$. $\blacksquare$
+(4) The base $0.99\in\left(0,1\right)$, $y=0.99^x$ is decreasing, $3.3< 4.5$, so $0.99^{3.3}> 0.99^{4.5}$. $\blacksquare$
 
 ### Problem 7
 
@@ -230,7 +230,7 @@ By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions
 
 By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model), each time a half-life passes, the remaining mass is halved.
 
-After nine half-lives, the remaining carbon $14$ is $\left(\frac{1}{2}\right)^9=\frac{1}{512}\approx 0.001953=0.1953\%$ of the original. One-thousandth is $0.1\%$. Since $0.1953\%>0.1\%$, i.e. the remaining content exceeds one-thousandth, a general radioactive detector can still detect carbon $14$. $\blacksquare$
+After nine half-lives, the remaining carbon $14$ is $\left(\frac{1}{2}\right)^9=\frac{1}{512}\approx 0.001953=0.1953\%$ of the original. One-thousandth is $0.1\%$. Since $0.1953\%> 0.1\%$, i.e. the remaining content exceeds one-thousandth, a general radioactive detector can still detect carbon $14$. $\blacksquare$
 
 ### Problem 8
 
@@ -268,19 +268,19 @@ By **Definition 4.2.1** (Exponential Function) and **Standard Conclusion 4.2.2**
 
 ### Problem 10
 
-(Exercise 4.2, Extension and Exploration, Problem 10) Given $f\left(x\right)=a^x$, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ ($a>0$, and $a\neq 1$).
+(Exercise 4.2, Extension and Exploration, Problem 10) Given $f\left(x\right)=a^x$, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ ($a> 0$, and $a\neq 1$).
 
 (1) Discuss the monotonicity of the functions $f\left(x\right)$ and $g\left(x\right)$;
 
-(2) if $f\left(x\right)<g\left(x\right)$, what is the range of values of $x$?
+(2) if $f\left(x\right)< g\left(x\right)$, what is the range of values of $x$?
 
 ### Solution to Problem 10
 
 By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
 
-(1) When $a>1$, $f\left(x\right)=a^x$ is an increasing function, and the base of $g\left(x\right)=\left(\frac{1}{a}\right)^x$ is $\frac{1}{a}\in\left(0,1\right)$, so $g\left(x\right)$ is a decreasing function; when $0<a<1$, $f\left(x\right)=a^x$ is a decreasing function, and the base of $g\left(x\right)=\left(\frac{1}{a}\right)^x$ is $\frac{1}{a}>1$, so $g\left(x\right)$ is an increasing function.
+(1) When $a> 1$, $f\left(x\right)=a^x$ is an increasing function, and the base of $g\left(x\right)=\left(\frac{1}{a}\right)^x$ is $\frac{1}{a}\in\left(0,1\right)$, so $g\left(x\right)$ is a decreasing function; when $0< a< 1$, $f\left(x\right)=a^x$ is a decreasing function, and the base of $g\left(x\right)=\left(\frac{1}{a}\right)^x$ is $\frac{1}{a}> 1$, so $g\left(x\right)$ is an increasing function.
 
-(2) $f\left(x\right)<g\left(x\right)$ means $a^x<\left(\frac{1}{a}\right)^x=a^{-x}$, i.e. $a^{2x}<1=a^0$. When $a>1$, $y=a^x$ is increasing; from $a^{2x}<a^0$ we get $2x<0$, i.e. $x<0$. When $0<a<1$, $y=a^x$ is decreasing; from $a^{2x}<a^0$ we get $2x>0$, i.e. $x>0$. $\blacksquare$
+(2) $f\left(x\right)< g\left(x\right)$ means $a^x< \left(\frac{1}{a}\right)^x=a^{-x}$, i.e. $a^{2x}< 1=a^0$. When $a> 1$, $y=a^x$ is increasing; from $a^{2x}< a^0$ we get $2x< 0$, i.e. $x< 0$. When $0< a< 1$, $y=a^x$ is decreasing; from $a^{2x}< a^0$ we get $2x> 0$, i.e. $x> 0$. $\blacksquare$
 
 ### Information Technology Application 1
 
@@ -290,7 +290,7 @@ By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions
 
 By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions), compare exponential functions with different bases in the same coordinate system.
 
-When $x>0$, the larger the base of the exponential function $y=a^x$, the larger the function value, i.e. the graph is higher; when $x<0$, the larger the base, the smaller the function value, i.e. the graph is lower; all graphs pass through $\left(0,1\right)$. Pattern: to the right of the $y$-axis, the base increases as the graphs go from bottom to top; to the left of the $y$-axis, the base decreases as the graphs go from bottom to top. $\blacksquare$
+When $x> 0$, the larger the base of the exponential function $y=a^x$, the larger the function value, i.e. the graph is higher; when $x< 0$, the larger the base, the smaller the function value, i.e. the graph is lower; all graphs pass through $\left(0,1\right)$. Pattern: to the right of the $y$-axis, the base increases as the graphs go from bottom to top; to the left of the $y$-axis, the base decreases as the graphs go from bottom to top. $\blacksquare$
 
 ### Information Technology Application 2
 
@@ -300,4 +300,4 @@ When $x>0$, the larger the base of the exponential function $y=a^x$, the larger 
 
 By the graphs and properties of power functions, changing the exponent $\alpha$ allows observation of how power functions change in the first quadrant.
 
-When $\alpha>0$, the graph passes through the origin $\left(0,0\right)$ and $\left(1,1\right)$, and is increasing in the first quadrant; the larger $\alpha$ is, the steeper the graph is when $x>1$. When $\alpha<0$, the graph does not pass through the origin, is decreasing in the first quadrant, and has the coordinate axes as asymptotes. All power function graphs pass through the point $\left(1,1\right)$. $\blacksquare$
+When $\alpha> 0$, the graph passes through the origin $\left(0,0\right)$ and $\left(1,1\right)$, and is increasing in the first quadrant; the larger $\alpha$ is, the steeper the graph is when $x> 1$. When $\alpha< 0$, the graph does not pass through the origin, is decreasing in the first quadrant, and has the coordinate axes as asymptotes. All power function graphs pass through the point $\left(1,1\right)$. $\blacksquare$

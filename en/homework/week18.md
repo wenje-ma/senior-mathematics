@@ -12,7 +12,7 @@
 
 > **Standard Conclusion** (Conversion between Degrees and Radians) <br>$360^{\circ}=2\pi\ \mathrm{rad}$, $180^{\circ}=\pi\ \mathrm{rad}$, $1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}$ $\approx0.01745\ \mathrm{rad}$, $1\ \mathrm{rad}$ $=\left(\frac{180}{\pi}\right)^{\circ}\approx57.30^{\circ}=57^{\circ}18'$.
 
-> **Standard Conclusion** (Arc Length and Area Formulas for a Sector) <br>$l=\alpha R$, $S=\frac{1}{2}\alpha R^{2}$, $S=\frac{1}{2}lR$, where $R$ is the radius of the circle, $\alpha$ ($0<\alpha<2\pi$) is the central angle, $l$ is the arc length of the sector, and $S$ is the area of the sector.
+> **Standard Conclusion** (Arc Length and Area Formulas for a Sector) <br>$l=\alpha R$, $S=\frac{1}{2}\alpha R^{2}$, $S=\frac{1}{2}lR$, where $R$ is the radius of the circle, $\alpha$ ($0< \alpha< 2\pi$) is the central angle, $l$ is the arc length of the sector, and $S$ is the area of the sector.
 
 ### Exercise 1
 
@@ -22,11 +22,11 @@
 
 By **Definition 5.1.2** (Quadrant Angle), whichever quadrant the terminal side of the angle lies in, the angle is said to be a quadrant angle of that quadrant; if the terminal side of the angle lies on a coordinate axis, the angle is considered not to belong to any quadrant.
 
-(1) The degree range of an acute angle is $0^{\circ}<\alpha<90^{\circ}$, and its terminal side lies in the first quadrant, so an acute angle is a first-quadrant angle. But a first-quadrant angle is not necessarily an acute angle; for example, $390^{\circ}$ has the same terminal side as $30^{\circ}$ and is a first-quadrant angle, yet is not an acute angle.
+(1) The degree range of an acute angle is $0^{\circ}< \alpha< 90^{\circ}$, and its terminal side lies in the first quadrant, so an acute angle is a first-quadrant angle. But a first-quadrant angle is not necessarily an acute angle; for example, $390^{\circ}$ has the same terminal side as $30^{\circ}$ and is a first-quadrant angle, yet is not an acute angle.
 
 (2) The right angle is $90^{\circ}$, and its terminal side lies on the $y$-axis; by **Definition 5.1.2** (Quadrant Angle), the right angle does not belong to any quadrant. Any angle whose terminal side lies on the $y$-axis is not a quadrant angle.
 
-(3) The degree range of an obtuse angle is $90^{\circ}<\alpha<180^{\circ}$, and its terminal side lies in the second quadrant, so an obtuse angle is a second-quadrant angle. But a second-quadrant angle is not necessarily an obtuse angle; for example, $480^{\circ}$ has the same terminal side as $120^{\circ}$ and is a second-quadrant angle, yet is not an obtuse angle. $\blacksquare$
+(3) The degree range of an obtuse angle is $90^{\circ}< \alpha< 180^{\circ}$, and its terminal side lies in the second quadrant, so an obtuse angle is a second-quadrant angle. But a second-quadrant angle is not necessarily an obtuse angle; for example, $480^{\circ}$ has the same terminal side as $120^{\circ}$ and is a second-quadrant angle, yet is not an obtuse angle. $\blacksquare$
 
 ### Exercise 2
 
@@ -80,15 +80,15 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), reduce each ang
 
 By **Standard Conclusion** (Angles with the Same Terminal Side), add to or subtract from each angle an integer multiple of $360^{\circ}$ to reduce it to an angle within the range $0^{\circ}\sim360^{\circ}$.
 
-(1) From $-54^{\circ}18'+360^{\circ}=305^{\circ}42'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-54^{\circ}18'$ is $305^{\circ}42'$. Since $270^{\circ}<305^{\circ}42'<360^{\circ}$, it is a fourth-quadrant angle.
+(1) From $-54^{\circ}18'+360^{\circ}=305^{\circ}42'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-54^{\circ}18'$ is $305^{\circ}42'$. Since $270^{\circ}< 305^{\circ}42'< 360^{\circ}$, it is a fourth-quadrant angle.
 
-(2) From $395^{\circ}8'-360^{\circ}=35^{\circ}8'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $395^{\circ}8'$ is $35^{\circ}8'$. Since $0^{\circ}<35^{\circ}8'<90^{\circ}$, it is a first-quadrant angle.
+(2) From $395^{\circ}8'-360^{\circ}=35^{\circ}8'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $395^{\circ}8'$ is $35^{\circ}8'$. Since $0^{\circ}< 35^{\circ}8'< 90^{\circ}$, it is a first-quadrant angle.
 
-(3) From $-1190^{\circ}30'=-4\times360^{\circ}+249^{\circ}30'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-1190^{\circ}30'$ is $249^{\circ}30'$. Since $180^{\circ}<249^{\circ}30'<270^{\circ}$, it is a third-quadrant angle. $\blacksquare$
+(3) From $-1190^{\circ}30'=-4\times360^{\circ}+249^{\circ}30'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-1190^{\circ}30'$ is $249^{\circ}30'$. Since $180^{\circ}< 249^{\circ}30'< 270^{\circ}$, it is a third-quadrant angle. $\blacksquare$
 
 ### Exercise 5
 
-(Exercise 5.1, Problem 5) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-720^{\circ}\le\beta<360^{\circ}$:
+(Exercise 5.1, Problem 5) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-720^{\circ}\le\beta< 360^{\circ}$:
 
 (1) $1303^{\circ}18'$;
 
@@ -104,7 +104,7 @@ $$
 S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
 $$
 
-From $-720^{\circ}\le\beta<360^{\circ}$, i.e. $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}<360^{\circ}$, solving gives $k=-2,-1,0$. When $k=-2$, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; when $k=-1$, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; when $k=0$, $\beta=223^{\circ}18'$. Therefore the elements satisfying the inequality are $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
+From $-720^{\circ}\le\beta< 360^{\circ}$, i.e. $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}< 360^{\circ}$, solving gives $k=-2,-1,0$. When $k=-2$, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; when $k=-1$, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; when $k=0$, $\beta=223^{\circ}18'$. Therefore the elements satisfying the inequality are $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
 
 (2) The set of angles with the same terminal side as $-225^{\circ}$ is
 
@@ -112,7 +112,7 @@ $$
 S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
 $$
 
-From $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}<360^{\circ}$, solving gives $k=0,1$. When $k=0$, $\beta=-225^{\circ}$; when $k=1$, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. Therefore the elements satisfying the inequality are $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
+From $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, solving gives $k=0,1$. When $k=0$, $\beta=-225^{\circ}$; when $k=1$, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. Therefore the elements satisfying the inequality are $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
 
 ### Exercise 6
 
@@ -210,9 +210,9 @@ By **Standard Conclusion** (Angles with the Same Terminal Side) and $180^{\circ}
 
 By **Standard Conclusion** (Conversion between Degrees and Radians), $1^{\circ}=\frac{\pi}{180}\approx0.01745\ \mathrm{rad}$, so $0.75^{\circ}\approx0.0131\ \mathrm{rad}$, $1.2^{\circ}\approx0.0209\ \mathrm{rad}$.
 
-(1) From $0.75^{\circ}\approx0.0131<0.75$, and the cosine function is monotonically decreasing on $\left[0,\frac{\pi}{2}\right]$, we get $\cos0.75^{\circ}>\cos0.75$.
+(1) From $0.75^{\circ}\approx0.0131< 0.75$, and the cosine function is monotonically decreasing on $\left[0,\frac{\pi}{2}\right]$, we get $\cos0.75^{\circ}> \cos0.75$.
 
-(2) From $1.2^{\circ}\approx0.0209<1.2$, and the tangent function is monotonically increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$, we get $\tan1.2^{\circ}<\tan1.2$. $\blacksquare$
+(2) From $1.2^{\circ}\approx0.0209< 1.2$, and the tangent function is monotonically increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$, we get $\tan1.2^{\circ}< \tan1.2$. $\blacksquare$
 
 ### Exercise 10
 
@@ -268,17 +268,17 @@ $\blacksquare$
 
 By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an angle within the range $0^{\circ}\sim360^{\circ}$, and then judge by **Definition 5.1.2** (Quadrant Angle).
 
-(1) From $-265^{\circ}+360^{\circ}=95^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-265^{\circ}$ is $95^{\circ}$. Since $90^{\circ}<95^{\circ}<180^{\circ}$, it is a second-quadrant angle.
+(1) From $-265^{\circ}+360^{\circ}=95^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-265^{\circ}$ is $95^{\circ}$. Since $90^{\circ}< 95^{\circ}< 180^{\circ}$, it is a second-quadrant angle.
 
-(2) From $-1000^{\circ}+3\times360^{\circ}=80^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-1000^{\circ}$ is $80^{\circ}$. Since $0^{\circ}<80^{\circ}<90^{\circ}$, it is a first-quadrant angle.
+(2) From $-1000^{\circ}+3\times360^{\circ}=80^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-1000^{\circ}$ is $80^{\circ}$. Since $0^{\circ}< 80^{\circ}< 90^{\circ}$, it is a first-quadrant angle.
 
-(3) From $-843^{\circ}10'+3\times360^{\circ}=236^{\circ}50'$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-843^{\circ}10'$ is $236^{\circ}50'$. Since $180^{\circ}<236^{\circ}50'<270^{\circ}$, it is a third-quadrant angle.
+(3) From $-843^{\circ}10'+3\times360^{\circ}=236^{\circ}50'$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-843^{\circ}10'$ is $236^{\circ}50'$. Since $180^{\circ}< 236^{\circ}50'< 270^{\circ}$, it is a third-quadrant angle.
 
-(4) From $3900^{\circ}-10\times360^{\circ}=300^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $3900^{\circ}$ is $300^{\circ}$. Since $270^{\circ}<300^{\circ}<360^{\circ}$, it is a fourth-quadrant angle. $\blacksquare$
+(4) From $3900^{\circ}-10\times360^{\circ}=300^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $3900^{\circ}$ is $300^{\circ}$. Since $270^{\circ}< 300^{\circ}< 360^{\circ}$, it is a fourth-quadrant angle. $\blacksquare$
 
 ### Problem 2
 
-(Exercise 5.1, Review and Consolidation, Problem 2) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-360^{\circ}\le\beta<360^{\circ}$:
+(Exercise 5.1, Review and Consolidation, Problem 2) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-360^{\circ}\le\beta< 360^{\circ}$:
 
 (1) $60^{\circ}$;
 
@@ -300,21 +300,21 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an an
 
 By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$.
 
-(1) The set of angles with the same terminal side as $60^{\circ}$ is $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-300^{\circ}$; when $k=0$, $\beta=60^{\circ}$. Therefore the suitable elements are $-300^{\circ}$, $60^{\circ}$.
+(1) The set of angles with the same terminal side as $60^{\circ}$ is $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-300^{\circ}$; when $k=0$, $\beta=60^{\circ}$. Therefore the suitable elements are $-300^{\circ}$, $60^{\circ}$.
 
-(2) The set of angles with the same terminal side as $-75^{\circ}$ is $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=0,1$. When $k=0$, $\beta=-75^{\circ}$; when $k=1$, $\beta=285^{\circ}$. Therefore the suitable elements are $-75^{\circ}$, $285^{\circ}$.
+(2) The set of angles with the same terminal side as $-75^{\circ}$ is $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=0,1$. When $k=0$, $\beta=-75^{\circ}$; when $k=1$, $\beta=285^{\circ}$. Therefore the suitable elements are $-75^{\circ}$, $285^{\circ}$.
 
-(3) From $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, the set of angles with the same terminal side as $-824^{\circ}30'$ is $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-104^{\circ}30'$; when $k=0$, $\beta=255^{\circ}30'$. Therefore the suitable elements are $-104^{\circ}30'$, $255^{\circ}30'$.
+(3) From $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, the set of angles with the same terminal side as $-824^{\circ}30'$ is $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-104^{\circ}30'$; when $k=0$, $\beta=255^{\circ}30'$. Therefore the suitable elements are $-104^{\circ}30'$, $255^{\circ}30'$.
 
-(4) From $475^{\circ}=360^{\circ}+115^{\circ}$, the set of angles with the same terminal side as $475^{\circ}$ is $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-245^{\circ}$; when $k=0$, $\beta=115^{\circ}$. Therefore the suitable elements are $-245^{\circ}$, $115^{\circ}$.
+(4) From $475^{\circ}=360^{\circ}+115^{\circ}$, the set of angles with the same terminal side as $475^{\circ}$ is $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-245^{\circ}$; when $k=0$, $\beta=115^{\circ}$. Therefore the suitable elements are $-245^{\circ}$, $115^{\circ}$.
 
-(5) The set of angles with the same terminal side as $90^{\circ}$ is $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-270^{\circ}$; when $k=0$, $\beta=90^{\circ}$. Therefore the suitable elements are $-270^{\circ}$, $90^{\circ}$.
+(5) The set of angles with the same terminal side as $90^{\circ}$ is $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-270^{\circ}$; when $k=0$, $\beta=90^{\circ}$. Therefore the suitable elements are $-270^{\circ}$, $90^{\circ}$.
 
-(6) The set of angles with the same terminal side as $270^{\circ}$ is $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-90^{\circ}$; when $k=0$, $\beta=270^{\circ}$. Therefore the suitable elements are $-90^{\circ}$, $270^{\circ}$.
+(6) The set of angles with the same terminal side as $270^{\circ}$ is $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-90^{\circ}$; when $k=0$, $\beta=270^{\circ}$. Therefore the suitable elements are $-90^{\circ}$, $270^{\circ}$.
 
-(7) The set of angles with the same terminal side as $180^{\circ}$ is $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-180^{\circ}$; when $k=0$, $\beta=180^{\circ}$. Therefore the suitable elements are $-180^{\circ}$, $180^{\circ}$.
+(7) The set of angles with the same terminal side as $180^{\circ}$ is $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-180^{\circ}$; when $k=0$, $\beta=180^{\circ}$. Therefore the suitable elements are $-180^{\circ}$, $180^{\circ}$.
 
-(8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
+(8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
 
 ### Problem 3
 
@@ -327,49 +327,49 @@ By **Definition 5.1.2** (Quadrant Angle), angles whose terminal side lies on a c
 (1) First-quadrant angles: the terminal side lies between $0^{\circ}$ and $90^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid k\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid k\cdot360^{\circ}< \beta< 90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid 2k\pi<\beta<\frac{\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid 2k\pi< \beta< \frac{\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 (2) Second-quadrant angles: the terminal side lies between $90^{\circ}$ and $180^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid 90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid 90^{\circ}+k\cdot360^{\circ}< \beta< 180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid \frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid \frac{\pi}{2}+2k\pi< \beta< \pi+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 (3) Third-quadrant angles: the terminal side lies between $180^{\circ}$ and $270^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid 180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid 180^{\circ}+k\cdot360^{\circ}< \beta< 270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid \pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid \pi+2k\pi< \beta< \frac{3\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 (4) Fourth-quadrant angles: the terminal side lies between $270^{\circ}$ and $360^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid 270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid 270^{\circ}+k\cdot360^{\circ}< \beta< 360^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid \frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid \frac{3\pi}{2}+2k\pi< \beta< 2\pi+2k\pi,\ k\in\mathbb Z\right\}.
 $$
 
 $\blacksquare$
@@ -496,9 +496,9 @@ $\blacksquare$
 
 By **Definition 5.1.2** (Quadrant Angle) and **Standard Conclusion** (Angles with the Same Terminal Side).
 
-(1) Since $\alpha$ is an acute angle, $0^{\circ}<\alpha<90^{\circ}$, so $0^{\circ}<2\alpha<180^{\circ}$. When $0^{\circ}<2\alpha<90^{\circ}$, $2\alpha$ is a first-quadrant angle; when $90^{\circ}<2\alpha<180^{\circ}$, $2\alpha$ is a second-quadrant angle; when $2\alpha=90^{\circ}$, $2\alpha$ is a right angle, not belonging to any quadrant. Therefore $2\alpha$ is a positive angle less than $180^{\circ}$; choose (C).
+(1) Since $\alpha$ is an acute angle, $0^{\circ}< \alpha< 90^{\circ}$, so $0^{\circ}< 2\alpha< 180^{\circ}$. When $0^{\circ}< 2\alpha< 90^{\circ}$, $2\alpha$ is a first-quadrant angle; when $90^{\circ}< 2\alpha< 180^{\circ}$, $2\alpha$ is a second-quadrant angle; when $2\alpha=90^{\circ}$, $2\alpha$ is a right angle, not belonging to any quadrant. Therefore $2\alpha$ is a positive angle less than $180^{\circ}$; choose (C).
 
-(2) Since $\alpha$ is a first-quadrant angle, $k\cdot360^{\circ}<\alpha<90^{\circ}+k\cdot360^{\circ}$ ($k\in\mathbb Z$). When $k$ is even, i.e. $k=2n$, $n\cdot360^{\circ}<\frac{\alpha}{2}<45^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a first-quadrant angle; when $k$ is odd, i.e. $k=2n+1$, $180^{\circ}+n\cdot360^{\circ}<\frac{\alpha}{2}<225^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a third-quadrant angle. Therefore $\frac{\alpha}{2}$ is a first- or third-quadrant angle; choose (D). $\blacksquare$
+(2) Since $\alpha$ is a first-quadrant angle, $k\cdot360^{\circ}< \alpha< 90^{\circ}+k\cdot360^{\circ}$ ($k\in\mathbb Z$). When $k$ is even, i.e. $k=2n$, $n\cdot360^{\circ}< \frac{\alpha}{2}< 45^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a first-quadrant angle; when $k$ is odd, i.e. $k=2n+1$, $180^{\circ}+n\cdot360^{\circ}< \frac{\alpha}{2}< 225^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a third-quadrant angle. Therefore $\frac{\alpha}{2}$ is a first- or third-quadrant angle; choose (D). $\blacksquare$
 
 ### Problem 8
 

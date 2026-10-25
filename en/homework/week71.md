@@ -335,7 +335,7 @@ $$
 
 $\blacksquare$
 
-(Exercise 4.1, Comprehensive Application, Problem 4) Given that the sequence $\left\{a_n\right\}$ has $1$ as its $1$-st term and $2$ as its $2$-nd term, and all subsequent terms are given by $a_n=a_{n-1}+a_{n-2}$ ($n>2$).
+(Exercise 4.1, Comprehensive Application, Problem 4) Given that the sequence $\left\{a_n\right\}$ has $1$ as its $1$-st term and $2$ as its $2$-nd term, and all subsequent terms are given by $a_n=a_{n-1}+a_{n-2}$ ($n> 2$).
 
 (1) Write out the first $5$ terms of this sequence;
 
@@ -438,9 +438,9 @@ $\blacksquare$
 (2) By **Definition 4.1.4** (Increasing and Decreasing Sequences), compare $a_{n+1}$ with $a_n$.
 
 $$
-a_{n+1}-a_n=\left(1-\frac{1}{2^{n+1}}\right)-\left(1-\frac{1}{2^n}\right)=\frac{1}{2^n}-\frac{1}{2^{n+1}}=\frac{1}{2^{n+1}}>0.
+a_{n+1}-a_n=\left(1-\frac{1}{2^{n+1}}\right)-\left(1-\frac{1}{2^n}\right)=\frac{1}{2^n}-\frac{1}{2^{n+1}}=\frac{1}{2^{n+1}}> 0.
 $$
 
-Hence $a_{n+1}>a_n$; by **Definition 4.1.4** (Increasing and Decreasing Sequences), $\left\{a_n\right\}$ is an increasing sequence.
+Hence $a_{n+1}> a_n$; by **Definition 4.1.4** (Increasing and Decreasing Sequences), $\left\{a_n\right\}$ is an increasing sequence.
 
 $\blacksquare$

@@ -424,6 +424,6 @@ $$
 \frac{\mathbb P\left(X=k+1\right)}{\mathbb P\left(X=k\right)}=\frac{\binom{n}{k+1} p^{k+1}\left(1-p\right)^{n-k-1}}{\binom{n}{k} p^k\left(1-p\right)^{n-k}}=\frac{n-k}{k+1}\cdot\frac{p}{1-p}.
 $$
 
-当该比值大于 $1$, 即 $k<\left(n+1\right)p-1$ 时, $\mathbb P\left(X=k+1\right)>\mathbb P\left(X=k\right)$, 分布列上升; 当该比值小于 $1$, 即 $k>\left(n+1\right)p-1$ 时, $\mathbb P\left(X=k+1\right)<\mathbb P\left(X=k\right)$, 分布列下降. 故 $\mathbb P\left(X=k\right)$ 在 $k$ 最接近 $\left(n+1\right)p$ 的整数处取得最大值, 即单峰性质得证.
+当该比值大于 $1$, 即 $k< \left(n+1\right)p-1$ 时, $\mathbb P\left(X=k+1\right)> \mathbb P\left(X=k\right)$, 分布列上升; 当该比值小于 $1$, 即 $k> \left(n+1\right)p-1$ 时, $\mathbb P\left(X=k+1\right)< \mathbb P\left(X=k\right)$, 分布列下降. 故 $\mathbb P\left(X=k\right)$ 在 $k$ 最接近 $\left(n+1\right)p$ 的整数处取得最大值, 即单峰性质得证.
 
 当 $p=0.5$ 时, $\mathbb P\left(X=k\right)=\mathbb P\left(X=n-k\right)$, 分布列关于 $k=\frac{n}{2}$ 对称, 对称性质得证. $\blacksquare$

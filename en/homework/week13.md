@@ -1,24 +1,24 @@
 # Assignment 13
 
-> **Definition 4.1.1** (n-th Root) <br>In general, if $x^n=a$, then $x$ is called the $n$-th root of $a$, where $n>1$ and $n\in\mathbb N^*$. When $n$ is odd, the $n$-th root of a positive number is a positive number, and the $n$-th root of a negative number is a negative number; in this case the $n$-th root of $a$ is denoted by the symbol $\sqrt\left[n\right]{a}$. When $n$ is even, a positive number has two $n$-th roots, which are opposites of each other; the positive $n$-th root is denoted by $\sqrt\left[n\right]{a}$, the negative $n$-th root is denoted by $-\sqrt\left[n\right]{a}$, and together they are written as $\pm\sqrt\left[n\right]{a}$ ($a>0$). A negative number has no even root, and any root of $0$ is $0$, denoted by $\sqrt\left[n\right]{0}=0$.
+> **Definition 4.1.1** (n-th Root) <br>In general, if $x^n=a$, then $x$ is called the $n$-th root of $a$, where $n> 1$ and $n\in\mathbb N^*$. When $n$ is odd, the $n$-th root of a positive number is a positive number, and the $n$-th root of a negative number is a negative number; in this case the $n$-th root of $a$ is denoted by the symbol $\sqrt\left[n\right]{a}$. When $n$ is even, a positive number has two $n$-th roots, which are opposites of each other; the positive $n$-th root is denoted by $\sqrt\left[n\right]{a}$, the negative $n$-th root is denoted by $-\sqrt\left[n\right]{a}$, and together they are written as $\pm\sqrt\left[n\right]{a}$ ($a> 0$). A negative number has no even root, and any root of $0$ is $0$, denoted by $\sqrt\left[n\right]{0}=0$.
 
 > **Definition 4.1.2** (Radical) <br>The expression $\sqrt\left[n\right]{a}$ is called a radical, where $n$ is called the root exponent and $a$ is called the radicand. From the meaning of the $n$-th root, we get $\left(\sqrt\left[n\right]{a}\right)^n=a$.
 
-> **Standard Conclusion 4.1.3** (Properties of the n-th Root) <br>When $n$ is odd, $\sqrt\left[n\right]{a^n}=a$; when $n$ is even, $\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a<0.\end{cases}$
+> **Standard Conclusion 4.1.3** (Properties of the n-th Root) <br>When $n$ is odd, $\sqrt\left[n\right]{a^n}=a$; when $n$ is even, $\sqrt\left[n\right]{a^n}=\left|a\right|=\begin{cases}a,&a\ge 0,\\-a,&a< 0.\end{cases}$
 
-> **Definition 4.1.4** (Positive Fractional Exponent) <br>The meaning of the positive fractional exponent of a positive number is $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$).
+> **Definition 4.1.4** (Positive Fractional Exponent) <br>The meaning of the positive fractional exponent of a positive number is $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ ($a> 0$, $m,n\in\mathbb N^*$, $n> 1$).
 
-> **Definition 4.1.5** (Negative Fractional Exponent) <br>The meaning of the negative fractional exponent of a positive number is $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ ($a>0$, $m,n\in\mathbb N^*$, $n>1$). The positive fractional exponent of $0$ equals $0$, and the negative fractional exponent of $0$ is meaningless.
+> **Definition 4.1.5** (Negative Fractional Exponent) <br>The meaning of the negative fractional exponent of a positive number is $a^{-\frac{m}{n}}=\frac{1}{a^{\frac{m}{n}}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ ($a> 0$, $m,n\in\mathbb N^*$, $n> 1$). The positive fractional exponent of $0$ equals $0$, and the negative fractional exponent of $0$ is meaningless.
 
-> **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) <br>For any rational numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb Q$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb Q$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb Q$).
+> **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) <br>For any rational numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a> 0$, $r,s\in\mathbb Q$); (2) $\left(a^r\right)^s=a^{rs}$ ($a> 0$, $r,s\in\mathbb Q$); (3) $\left(ab\right)^r=a^r b^r$ ($a> 0$, $b> 0$, $r\in\mathbb Q$).
 
-> **Standard Conclusion 4.1.7** (Irrational Exponents) <br>In general, the irrational exponent power $a^\alpha$ ($a>0$, where $\alpha$ is an irrational number) is a determined real number. Thus the range of values of the exponent $x$ in the power $a^x$ ($a>0$) has gradually been extended from integers to real numbers.
+> **Standard Conclusion 4.1.7** (Irrational Exponents) <br>In general, the irrational exponent power $a^\alpha$ ($a> 0$, where $\alpha$ is an irrational number) is a determined real number. Thus the range of values of the exponent $x$ in the power $a^x$ ($a> 0$) has gradually been extended from integers to real numbers.
 
-> **Standard Conclusion 4.1.8** (Operation Properties of Real Exponents) <br>For any real numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a>0$, $r,s\in\mathbb R$); (2) $\left(a^r\right)^s=a^{rs}$ ($a>0$, $r,s\in\mathbb R$); (3) $\left(ab\right)^r=a^r b^r$ ($a>0$, $b>0$, $r\in\mathbb R$).
+> **Standard Conclusion 4.1.8** (Operation Properties of Real Exponents) <br>For any real numbers $r,s$, we have (1) $a^r a^s=a^{r+s}$ ($a> 0$, $r,s\in\mathbb R$); (2) $\left(a^r\right)^s=a^{rs}$ ($a> 0$, $r,s\in\mathbb R$); (3) $\left(ab\right)^r=a^r b^r$ ($a> 0$, $b> 0$, $r\in\mathbb R$).
 
 ### Exercise 1
 
-(Exercise 4.1, Problem 1) Express the following in radical form ($a>0$).
+(Exercise 4.1, Problem 1) Express the following in radical form ($a> 0$).
 
 (1) $a^{\frac{1}{2}}$;
 
@@ -44,25 +44,25 @@ By **Definition 4.1.4** (Positive Fractional Exponent) and **Definition 4.1.5** 
 
 (Exercise 4.1, Problem 2) Express and calculate the following in fractional exponent form.
 
-(1) $\sqrt\left[3\right]{x^2}$ ($x>0$);
+(1) $\sqrt\left[3\right]{x^2}$ ($x> 0$);
 
-(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m>n$);
+(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m> n$);
 
-(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p>0$);
+(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p> 0$);
 
-(4) $\frac{a^3}{\sqrt{a}}$ ($a>0$).
+(4) $\frac{a^3}{\sqrt{a}}$ ($a> 0$).
 
 ### Solution to Exercise 2
 
 By **Definition 4.1.4** (Positive Fractional Exponent) and **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents).
 
-(1) By **Definition 4.1.4**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x>0$).
+(1) By **Definition 4.1.4**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x> 0$).
 
-(2) By **Definition 4.1.4**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m>n$).
+(2) By **Definition 4.1.4**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m> n$).
 
-(3) By **Definition 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. Then by **Standard Conclusion 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p>0$).
+(3) By **Definition 4.1.4**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. Then by **Standard Conclusion 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p> 0$).
 
-(4) By **Definition 4.1.4**, $\sqrt{a}=a^{\frac{1}{2}}$. Then by **Standard Conclusion 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a>0$). $\blacksquare$
+(4) By **Definition 4.1.4**, $\sqrt{a}=a^{\frac{1}{2}}$. Then by **Standard Conclusion 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a> 0$). $\blacksquare$
 
 ### Exercise 3
 
@@ -72,7 +72,7 @@ By **Definition 4.1.4** (Positive Fractional Exponent) and **Standard Conclusion
 
 (2) $2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}$;
 
-(3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a>0$);
+(3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a> 0$);
 
 (4) $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)$.
 
@@ -88,7 +88,7 @@ $$
 2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
 $$
 
-(3) By **Standard Conclusion 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a>0$).
+(3) By **Standard Conclusion 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a> 0$).
 
 (4) By **Standard Conclusion 4.1.6** (1), $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)=x^{-\frac{1}{3}+\frac{1}{3}}-4x^{-\frac{1}{3}-\frac{2}{3}}=1-4x^{-1}$. $\blacksquare$
 
@@ -122,9 +122,9 @@ $$
 
 ### Solution to Exercise 5
 
-By **Standard Conclusion 4.1.7** (Irrational Exponents), the real exponent power $a^x$ ($a>0$) is a determined real number, and its trend of change can be investigated with a calculating tool.
+By **Standard Conclusion 4.1.7** (Irrational Exponents), the real exponent power $a^x$ ($a> 0$) is a determined real number, and its trend of change can be investigated with a calculating tool.
 
-(1) When $x$ takes negative real numbers and $\left|x\right|\to+\infty$, let $x=-t$, $t>0$, $t\to+\infty$, then $2^x=2^{-t}=\frac{1}{2^t}$. Since $2^t$ increases as $t$ increases, $\frac{1}{2^t}$ decreases as $t$ increases and tends to $0$, i.e. $2^x$ gradually decreases and tends to $0$ as $\left|x\right|$ increases.
+(1) When $x$ takes negative real numbers and $\left|x\right|\to+\infty$, let $x=-t$, $t> 0$, $t\to+\infty$, then $2^x=2^{-t}=\frac{1}{2^t}$. Since $2^t$ increases as $t$ increases, $\frac{1}{2^t}$ decreases as $t$ increases and tends to $0$, i.e. $2^x$ gradually decreases and tends to $0$ as $\left|x\right|$ increases.
 
 (2) When $x$ takes positive real numbers and $x\to+\infty$, $\left(\frac{1}{2}\right)^x=\frac{1}{2^x}$. Since $2^x$ increases as $x$ increases, $\frac{1}{2^x}$ decreases as $x$ increases and tends to $0$, i.e. $\left(\frac{1}{2}\right)^x$ gradually decreases and tends to $0$ as $x$ increases. $\blacksquare$
 
@@ -156,11 +156,11 @@ By **Standard Conclusion 4.1.3** (Properties of the n-th Root), take the absolut
 
 (Exercise 4.1, Review and Consolidation, Problem 2) Multiple choice.
 
-(1) Let $a>0$; which of the following operations is correct? ( ).
+(1) Let $a> 0$; which of the following operations is correct? ( ).
 
 (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a$ (B) $a\div a^{\frac{2}{3}}=a^{\frac{3}{2}}$ (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=0$ (D) $\left(a^{\frac{1}{4}}\right)^4=a$
 
-(2) Let $a>0$, and let $m$, $n$ be positive integers with $n>1$; how many of the following expressions $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ are correct? ( ).
+(2) Let $a> 0$, and let $m$, $n$ be positive integers with $n> 1$; how many of the following expressions $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ are correct? ( ).
 
 (A) $3$ (B) $2$ (C) $1$ (D) $0$
 
@@ -186,7 +186,7 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) an
 
 (1) Calculate separately: $\left(-\frac{1}{2}\right)^{-1}=-2$; $2^{-\frac{1}{2}}=\frac{1}{\sqrt{2}}\approx 0.707$; $\left(\frac{1}{2}\right)^{-1}=2$; $2^{-1}=\frac{1}{2}=0.5$. Comparing, the largest number is $\left(\frac{1}{2}\right)^{-1}$.
 
-(2) Approximate with a calculating tool: $2^{\sqrt{3}}\approx 2^{1.732}\approx 3.32$; $3^{\sqrt{2}}\approx 3^{1.414}\approx 4.73$; $\pi^{\sqrt{5}}\approx \pi^{2.236}\approx 11.2$; $2^\pi\approx 2^{3.142}\approx 8.83$. Thus in ascending order: $2^{\sqrt{3}}<3^{\sqrt{2}}<2^\pi<\pi^{\sqrt{5}}$. $\blacksquare$
+(2) Approximate with a calculating tool: $2^{\sqrt{3}}\approx 2^{1.732}\approx 3.32$; $3^{\sqrt{2}}\approx 3^{1.414}\approx 4.73$; $\pi^{\sqrt{5}}\approx \pi^{2.236}\approx 11.2$; $2^\pi\approx 2^{3.142}\approx 8.83$. Thus in ascending order: $2^{\sqrt{3}}< 3^{\sqrt{2}}< 2^\pi< \pi^{\sqrt{5}}$. $\blacksquare$
 
 ### Problem 4
 

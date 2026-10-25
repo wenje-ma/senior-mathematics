@@ -1,12 +1,12 @@
 # Assignment 66
 
-> **Definition 3.1.3** (Standard Equation of an Ellipse) <br>The standard equation of an ellipse with foci on the $x$-axis is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$), where $c^2=a^2-b^2$; when the foci are on the $y$-axis it is $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$.
+> **Definition 3.1.3** (Standard Equation of an Ellipse) <br>The standard equation of an ellipse with foci on the $x$-axis is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$), where $c^2=a^2-b^2$; when the foci are on the $y$-axis it is $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$.
 
 > **Definition 3.2.1** (Hyperbola) <br>The locus of points in a plane whose absolute difference of distances to two fixed points $F_1$ and $F_2$ equals a nonzero constant (less than $\lvert F_1F_2 \rvert$) is called a hyperbola. These two fixed points are called the foci of the hyperbola, and the distance between the two foci is called the focal distance.
 
-> **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci) <br>The absolute value of the difference of the distances from any point $M$ on a hyperbola to the two foci equals $2a$, i.e. $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a$, where $0<2a<\lvert F_1F_2 \rvert$.
+> **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci) <br>The absolute value of the difference of the distances from any point $M$ on a hyperbola to the two foci equals $2a$, i.e. $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a$, where $0< 2a< \lvert F_1F_2 \rvert$.
 
-> **Definition 3.2.3** (Standard Equation of a Hyperbola) <br>When the foci are on the $x$-axis at $F_1\left(-c,0\right)$ and $F_2\left(c,0\right)$, the standard equation is $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ ($a>0$, $b>0$), where $c^2=a^2+b^2$; when the foci are on the $y$-axis it is $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
+> **Definition 3.2.3** (Standard Equation of a Hyperbola) <br>When the foci are on the $x$-axis at $F_1\left(-c,0\right)$ and $F_2\left(c,0\right)$, the standard equation is $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ ($a> 0$, $b> 0$), where $c^2=a^2+b^2$; when the foci are on the $y$-axis it is $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
 
 > **Common Conclusion 3.2.4** (Range and Symmetry of a Hyperbola) <br>From $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ we get $x\le-a$ or $x\ge a$, with $y\in\mathbb R$. The hyperbola is symmetric about the $x$-axis, the $y$-axis, and the origin; the origin is the center of the hyperbola.
 
@@ -16,7 +16,7 @@
 
 > **Definition 3.2.7** (Equilateral Hyperbola) <br>A hyperbola whose transverse and conjugate axes have equal length is called an equilateral hyperbola, with equation $x^2-y^2=a^2$ and asymptotes $y=\pm x$.
 
-> **Definition 3.2.8** (Eccentricity of a Hyperbola) <br>The ratio of the focal distance to the transverse axis length, $\frac{c}{a}$, is called the eccentricity of the hyperbola, denoted $e=\frac{c}{a}$. Since $c>a>0$, we have $e>1$. The eccentricity describes how wide the opening of the hyperbola is.
+> **Definition 3.2.8** (Eccentricity of a Hyperbola) <br>The ratio of the focal distance to the transverse axis length, $\frac{c}{a}$, is called the eccentricity of the hyperbola, denoted $e=\frac{c}{a}$. Since $c> a> 0$, we have $e> 1$. The eccentricity describes how wide the opening of the hyperbola is.
 
 ### Exercise 1
 
@@ -78,11 +78,11 @@ The foci are exactly the same, and the claim follows. $\blacksquare$
 
 By **Definition 3.2.3** (Standard Equation of a Hyperbola), in the standard hyperbola equation the signs of the $x^2$ and $y^2$ terms are opposite, i.e. the two denominators must have the same sign (one positive and one negative is impossible; in the standard form the two terms have opposite signs, so the two denominators must have the same sign).
 
-For $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ to represent a hyperbola, the two denominators must have the same sign. Either $2+m>0$ and $m+1>0$, giving $m>-1$; or $2+m<0$ and $m+1<0$, giving $m<-2$. Hence the range of $m$ is $m<-2$ or $m>-1$. $\blacksquare$
+For $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ to represent a hyperbola, the two denominators must have the same sign. Either $2+m> 0$ and $m+1> 0$, giving $m> -1$; or $2+m< 0$ and $m+1< 0$, giving $m< -2$. Hence the range of $m$ is $m< -2$ or $m> -1$. $\blacksquare$
 
 ### Exercise 4
 
-(Exercise 3.2, Problem 4) The two foci of the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a>0$) are $F_1$ and $F_2$, with focal distance $8$; $M$ is a point on the hyperbola with $\lvert MF_1 \rvert=5$. Find $\lvert MF_2 \rvert$.
+(Exercise 3.2, Problem 4) The two foci of the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a> 0$) are $F_1$ and $F_2$, with focal distance $8$; $M$ is a point on the hyperbola with $\lvert MF_1 \rvert=5$. Find $\lvert MF_2 \rvert$.
 
 ### Solution to Exercise 4
 
@@ -224,7 +224,7 @@ Simplifying gives $16x^2-\left(4x-16\right)^2=400$, i.e. $128x=656$, $x=\frac{41
 
 ### Exercise 11
 
-(Exercise 3.2, Problem 3) The line $y=\frac{2}{3}x$ intersects the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a>0$) at $A$ and $B$, and the product of the abscissas of $A$ and $B$ is $-9$. Find the eccentricity $e$.
+(Exercise 3.2, Problem 3) The line $y=\frac{2}{3}x$ intersects the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a> 0$) at $A$ and $B$, and the product of the abscissas of $A$ and $B$ is $-9$. Find the eccentricity $e$.
 
 ### Solution to Exercise 11
 
@@ -244,7 +244,7 @@ i.e. $x^2\left(\frac{1}{a^2}-\frac{1}{18}\right)=1$. Let the abscissas of the tw
 
 Rewrite the hyperbola $4x^2-y^2+64=0$ as $\frac{y^2}{64}-\frac{x^2}{16}=1$, with $a=8$, $b=4$, $c=\sqrt{64+16}=4\sqrt{5}$.
 
-By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. Given that the distance to one focus is $1$, the distance to the other is $1+16=17$ (rejecting $\lvert 1-16 \rvert=15$, because the distance from a point on the hyperbola to the nearer focus is at least $c-a=4\sqrt{5}-8\approx0.94>0$; the distance $1$ corresponds to the nearer focus, so the distance to the farther focus is $17$). $\blacksquare$
+By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. Given that the distance to one focus is $1$, the distance to the other is $1+16=17$ (rejecting $\lvert 1-16 \rvert=15$, because the distance from a point on the hyperbola to the nearer focus is at least $c-a=4\sqrt{5}-8\approx0.94> 0$; the distance $1$ corresponds to the nearer focus, so the distance to the farther focus is $17$). $\blacksquare$
 
 ### Problem 2
 
@@ -264,7 +264,7 @@ $$
 \frac{x^2}{20}-\frac{y^2}{16}=1.
 $$
 
-(2) Let the equation be $mx^2+ny^2=1$ ($mn<0$). Substituting $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$:
+(2) Let the equation be $mx^2+ny^2=1$ ($mn< 0$). Substituting $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$:
 
 $$
 49m+72n=1,\quad 28m+9n=1.
@@ -338,13 +338,13 @@ The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ outside t
 
 By the property of the perpendicular bisector, $\lvert QA \rvert=\lvert QP \rvert$. Also, $Q$ lies on the line $OP$, and $\lvert OP \rvert=r$.
 
-Since $A$ is outside the circle $O$, $\lvert OA \rvert>r$, and $Q$ lies on the extension of $OP$ (on the side beyond $P$), so $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, i.e.
+Since $A$ is outside the circle $O$, $\lvert OA \rvert> r$, and $Q$ lies on the extension of $OP$ (on the side beyond $P$), so $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, i.e.
 
 $$
 \lvert QO \rvert-\lvert QA \rvert=r.
 $$
 
-By **Definition 3.2.1** (Hyperbola), the difference of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$, and $r<\lvert OA \rvert$, so the locus of $Q$ is one branch of a hyperbola with foci at $O$ and $A$. $\blacksquare$
+By **Definition 3.2.1** (Hyperbola), the difference of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$, and $r< \lvert OA \rvert$, so the locus of $Q$ is one branch of a hyperbola with foci at $O$ and $A$. $\blacksquare$
 
 ### Problem 6
 
@@ -372,11 +372,11 @@ $\blacksquare$
 
 ### Solution to Problem 7
 
-(1) By **Definition 3.1.3** (Standard Equation of an Ellipse), a circle is the special case of an ellipse when $a=b$, so we need $m=n>0$.
+(1) By **Definition 3.1.3** (Standard Equation of an Ellipse), a circle is the special case of an ellipse when $a=b$, so we need $m=n> 0$.
 
-(2) By **Definition 3.1.3**, an ellipse requires both denominators positive and unequal, i.e. $m>0$, $n>0$, and $m\neq n$.
+(2) By **Definition 3.1.3**, an ellipse requires both denominators positive and unequal, i.e. $m> 0$, $n> 0$, and $m\neq n$.
 
-(3) By **Definition 3.2.3** (Standard Equation of a Hyperbola), a hyperbola requires the two denominators to have opposite signs, i.e. $m>0$, $n<0$ or $m<0$, $n>0$. $\blacksquare$
+(3) By **Definition 3.2.3** (Standard Equation of a Hyperbola), a hyperbola requires the two denominators to have opposite signs, i.e. $m> 0$, $n< 0$ or $m< 0$, $n> 0$. $\blacksquare$
 
 ### Problem 8
 
@@ -412,7 +412,7 @@ $\blacksquare$
 
 ### Problem 10
 
-(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F\left(c,0\right)$ ($c>0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a<c$). Find the locus equation of $M$ and describe its shape.
+(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F\left(c,0\right)$ ($c> 0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a< c$). Find the locus equation of $M$ and describe its shape.
 
 ### Solution to Problem 10
 
@@ -428,7 +428,7 @@ $$
 \left(a^2-c^2\right)x^2+a^2y^2=a^2\left(a^2-c^2\right).
 $$
 
-Since $a<c$, we have $a^2-c^2<0$; dividing both sides by $a^2\left(a^2-c^2\right)$ gives
+Since $a< c$, we have $a^2-c^2< 0$; dividing both sides by $a^2\left(a^2-c^2\right)$ gives
 
 $$
 \frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
@@ -444,7 +444,7 @@ By **Definition 3.2.1** (Hyperbola), the locus is a hyperbola with foci on the $
 
 Let $M\left(x,y\right)$. $MA\perp y=x$, with foot $A$ on $y=x$; $MB\perp y=-x$, with foot $B$ on $y=-x$.
 
-By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. Since $A$ is in the first quadrant, $x+y>0$; since $B$ is in the fourth quadrant, $x-y>0$, so $x>\lvert y \rvert$.
+By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. Since $A$ is in the first quadrant, $x+y> 0$; since $B$ is in the fourth quadrant, $x-y> 0$, so $x> \lvert y \rvert$.
 
 The quadrilateral $OAMB$ is split into $\triangle OMA$ and $\triangle OMB$. $\lvert OA \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$, $\lvert MA \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$; $\lvert OB \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$, $\lvert MB \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$. The area is
 
@@ -452,25 +452,25 @@ $$
 S=\frac{1}{2}\lvert OA \rvert\lvert MA \rvert+\frac{1}{2}\lvert OB \rvert\lvert MB \rvert=\frac{1}{2}\cdot\frac{\lvert x^2-y^2 \rvert}{2}\cdot2=\frac{\lvert x^2-y^2 \rvert}{2}=3.
 $$
 
-Since $x>\lvert y \rvert$, we have $x^2-y^2>0$, so $x^2-y^2=6$. The locus equation is
+Since $x> \lvert y \rvert$, we have $x^2-y^2> 0$, so $x^2-y^2=6$. The locus equation is
 
 $$
-\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x>\sqrt{6}\right).
+\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x> \sqrt{6}\right).
 $$
 
 $\blacksquare$
 
 ### Problem 12
 
-(Exercise 3.2, Extension and Exploration, Problem 12) Let the eccentricities of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>b>0$) and the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ be $e_1$ and $e_2$, respectively, and suppose the slopes of the asymptotes of the hyperbola are less than $\frac{2\sqrt{5}}{5}$. Find the ranges of $e_1$ and $e_2$.
+(Exercise 3.2, Extension and Exploration, Problem 12) Let the eccentricities of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) and the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ be $e_1$ and $e_2$, respectively, and suppose the slopes of the asymptotes of the hyperbola are less than $\frac{2\sqrt{5}}{5}$. Find the ranges of $e_1$ and $e_2$.
 
 ### Solution to Problem 12
 
 By **Definition 3.1.7** (Eccentricity of an Ellipse), $e_1=\frac{c_1}{a}=\frac{\sqrt{a^2-b^2}}{a}$; by **Definition 3.2.8** (Eccentricity of a Hyperbola), $e_2=\frac{c_2}{a}=\frac{\sqrt{a^2+b^2}}{a}$.
 
-The slopes of the hyperbola's asymptotes are $\frac{b}{a}<\frac{2\sqrt{5}}{5}$, so $\frac{b^2}{a^2}<\frac{4}{5}$.
+The slopes of the hyperbola's asymptotes are $\frac{b}{a}< \frac{2\sqrt{5}}{5}$, so $\frac{b^2}{a^2}< \frac{4}{5}$.
 
-Let $t=\frac{b^2}{a^2}$; then $0<t<\frac{4}{5}$. $e_1^2=1-t>\frac{1}{5}$, and since $e_1<1$, we have $\frac{\sqrt{5}}{5}<e_1<1$. $e_2^2=1+t<\frac{9}{5}$, and since $e_2>1$, we have $1<e_2<\frac{3\sqrt{5}}{5}$. $\blacksquare$
+Let $t=\frac{b^2}{a^2}$; then $0< t< \frac{4}{5}$. $e_1^2=1-t> \frac{1}{5}$, and since $e_1< 1$, we have $\frac{\sqrt{5}}{5}< e_1< 1$. $e_2^2=1+t< \frac{9}{5}$, and since $e_2> 1$, we have $1< e_2< \frac{3\sqrt{5}}{5}$. $\blacksquare$
 
 ### Problem 13
 
@@ -486,7 +486,7 @@ $$
 
 Simplifying gives $\left(2-k^2\right)x^2-2k\left(1-k\right)x-\left(1-k\right)^2-2=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. If $P\left(1,1\right)$ is the midpoint, then $x_1+x_2=2$. By Vieta's formulas, $x_1+x_2=\frac{2k\left(1-k\right)}{2-k^2}=2$, so $k=2$.
 
-When $k=2$, the equation becomes $-2x^2+4x-3=0$, with discriminant $\Delta=16-24=-8<0$, so there are no real roots. Hence no such line exists, and $P$ cannot be the midpoint of $AB$. $\blacksquare$
+When $k=2$, the equation becomes $-2x^2+4x-3=0$, with discriminant $\Delta=16-24=-8< 0$, so there are no real roots. Hence no such line exists, and $P$ cannot be the midpoint of $AB$. $\blacksquare$
 
 ### Problem 14
 
@@ -512,7 +512,7 @@ The locus is a hyperbola. Generalizing to a general hyperbola, the locus of the 
 
 ### Solution to Inquiry and Discovery 1
 
-In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x>a$). The distance from $M\left(x,y\right)$ to the asymptote $bx-ay=0$ is
+In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x> a$). The distance from $M\left(x,y\right)$ to the asymptote $bx-ay=0$ is
 
 $$
 \lvert MQ \rvert=\frac{\lvert bx-ay \rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.

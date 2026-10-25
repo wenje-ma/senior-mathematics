@@ -1,6 +1,6 @@
 # 作业 60
 
-> **定义 2.1.1** (倾斜角) <br>当直线 $l$ 与 $x$ 轴相交时, 我们以 $x$ 轴为基准, $x$ 轴正向与直线 $l$ 向上的方向之间所成的角 $\alpha$ 叫做直线 $l$ 的倾斜角. 当直线 $l$ 与 $x$ 轴平行或重合时, 我们规定它的倾斜角为 $0^\circ$. 因此, 直线的倾斜角 $\alpha$ 的取值范围为 $0^\circ\le\alpha<180^\circ$.
+> **定义 2.1.1** (倾斜角) <br>当直线 $l$ 与 $x$ 轴相交时, 我们以 $x$ 轴为基准, $x$ 轴正向与直线 $l$ 向上的方向之间所成的角 $\alpha$ 叫做直线 $l$ 的倾斜角. 当直线 $l$ 与 $x$ 轴平行或重合时, 我们规定它的倾斜角为 $0^\circ$. 因此, 直线的倾斜角 $\alpha$ 的取值范围为 $0^\circ\le\alpha< 180^\circ$.
 
 > **定义 2.1.2** (斜率) <br>我们把一条直线的倾斜角 $\alpha$ 的正切值叫做这条直线的斜率. 斜率常用小写字母 $k$ 表示, 即 $k=\tan\alpha$. 倾斜角是 $90^\circ$ 的直线没有斜率, 倾斜角不是 $90^\circ$ 的直线都有斜率.
 
@@ -50,15 +50,15 @@
 
 ### 解答 练习二
 
-由**定义 2.1.2** (斜率), $k=\tan\alpha$, 且倾斜角范围为 $0^\circ\le\alpha<180^\circ$.
+由**定义 2.1.2** (斜率), $k=\tan\alpha$, 且倾斜角范围为 $0^\circ\le\alpha< 180^\circ$.
 
-(1) 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=0^\circ$.
+(1) 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=0^\circ$.
 
-(2) 由 $\tan\alpha=\sqrt 3$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=60^\circ$.
+(2) 由 $\tan\alpha=\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=60^\circ$.
 
-(3) 由 $\tan\alpha=-\sqrt 3$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=120^\circ$.
+(3) 由 $\tan\alpha=-\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=120^\circ$.
 
-(4) 由 $\tan\alpha=-\frac{\sqrt 3}{3}$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=150^\circ$. $\blacksquare$
+(4) 由 $\tan\alpha=-\frac{\sqrt 3}{3}$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=150^\circ$. $\blacksquare$
 
 ### 练习三
 
@@ -70,11 +70,11 @@
 
 ### 解答 练习三
 
-由**常用结论 2.1.3** (斜率公式), 经过两点的直线斜率为 $k=\frac{y_2-y_1}{x_2-x_1}$; 由**定义 2.1.2** (斜率), $k>0$ 时倾斜角为锐角, $k<0$ 时倾斜角为钝角.
+由**常用结论 2.1.3** (斜率公式), 经过两点的直线斜率为 $k=\frac{y_2-y_1}{x_2-x_1}$; 由**定义 2.1.2** (斜率), $k> 0$ 时倾斜角为锐角, $k< 0$ 时倾斜角为钝角.
 
-(1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. 因为 $k_{CD}>0$, 所以倾斜角为锐角.
+(1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. 因为 $k_{CD}> 0$, 所以倾斜角为锐角.
 
-(2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. 因为 $k_{PQ}<0$, 所以倾斜角为钝角. $\blacksquare$
+(2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. 因为 $k_{PQ}< 0$, 所以倾斜角为钝角. $\blacksquare$
 
 ### 练习四
 
@@ -90,11 +90,11 @@
 
 由**常用结论 2.1.3** (斜率公式) 及**定义 2.1.2** (斜率).
 
-(1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$, 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=0^\circ$.
+(1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$, 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=0^\circ$.
 
 (2) $C,D$ 两点的横坐标相同, 即 $x_1=x_2=a$, 此时斜率公式中分母为零, 直线没有斜率. 由**定义 2.1.1** (倾斜角), 直线与 $x$ 轴垂直, 故 $\alpha=90^\circ$.
 
-(3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$, 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=45^\circ$. $\blacksquare$
+(3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$, 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=45^\circ$. $\blacksquare$
 
 ### 练习五
 
@@ -176,7 +176,7 @@ $$
 
 由**定义 2.1.2** (斜率), $k=\tan\alpha$, 且 $\lvert k \rvert=1$.
 
-由 $\lvert \tan\alpha \rvert=1$, 得 $\tan\alpha=1$ 或 $\tan\alpha=-1$. 又倾斜角范围为 $0^\circ\le\alpha<180^\circ$, 当 $\tan\alpha=1$ 时 $\alpha=45^\circ$, 当 $\tan\alpha=-1$ 时 $\alpha=135^\circ$. 故直线的倾斜角为 $45^\circ$ 或 $135^\circ$. $\blacksquare$
+由 $\lvert \tan\alpha \rvert=1$, 得 $\tan\alpha=1$ 或 $\tan\alpha=-1$. 又倾斜角范围为 $0^\circ\le\alpha< 180^\circ$, 当 $\tan\alpha=1$ 时 $\alpha=45^\circ$, 当 $\tan\alpha=-1$ 时 $\alpha=135^\circ$. 故直线的倾斜角为 $45^\circ$ 或 $135^\circ$. $\blacksquare$
 
 ### 习题二
 

@@ -22,7 +22,7 @@
 
 ### 习题一
 
-(复习参考题5 复习巩固第 1 题) 写出与下列各角终边相同的角的集合 $S$, 并且把 $S$ 中适合不等式 $-2\pi\leq\beta<4\pi$ 的元素 $\beta$ 写出来:
+(复习参考题5 复习巩固第 1 题) 写出与下列各角终边相同的角的集合 $S$, 并且把 $S$ 中适合不等式 $-2\pi\leq\beta< 4\pi$ 的元素 $\beta$ 写出来:
 
 (1) $\frac{\pi}{4}$;
 
@@ -118,7 +118,7 @@
 
 ### 习题六
 
-(复习参考题5 复习巩固第 6 题) 设 $\pi<x<2\pi$, 填表.
+(复习参考题5 复习巩固第 6 题) 设 $\pi< x< 2\pi$, 填表.
 
 ### 解答 习题六
 
@@ -284,7 +284,7 @@ $\blacksquare$
 
 (复习参考题5 复习巩固第 14 题)
 
-(1) 已知 $\cos\theta=-\frac{3}{5}$, $\pi<\theta<\frac{3\pi}{2}$, 求 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}$ 的值;
+(1) 已知 $\cos\theta=-\frac{3}{5}$, $\pi< \theta< \frac{3\pi}{2}$, 求 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}$ 的值;
 
 (2) 已知 $\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}=\frac{1}{5}$, 求 $\sin\alpha$ 的值;
 
@@ -296,7 +296,7 @@ $\blacksquare$
 
 由**公式 5.5.7** 及**公式 5.5.8**.
 
-(1) 由 $\pi<\theta<\frac{3\pi}{2}$, 得 $\frac{\pi}{2}<\frac{\theta}{2}<\frac{3\pi}{4}$, $\sin\frac{\theta}{2}>\cos\frac{\theta}{2}$. $\left(\sin\frac{\theta}{2}-\cos\frac{\theta}{2}\right)^{2}=1-\sin\theta=1-\left(-\frac{4}{5}\right)=\frac{9}{5}$. 故 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}=\frac{3\sqrt{5}}{5}$.
+(1) 由 $\pi< \theta< \frac{3\pi}{2}$, 得 $\frac{\pi}{2}< \frac{\theta}{2}< \frac{3\pi}{4}$, $\sin\frac{\theta}{2}> \cos\frac{\theta}{2}$. $\left(\sin\frac{\theta}{2}-\cos\frac{\theta}{2}\right)^{2}=1-\sin\theta=1-\left(-\frac{4}{5}\right)=\frac{9}{5}$. 故 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}=\frac{3\sqrt{5}}{5}$.
 
 (2) 由 $\left(\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}\right)^{2}=\frac{1}{25}=1-\sin\alpha$, 得 $\sin\alpha=\frac{24}{25}$.
 
@@ -352,7 +352,7 @@ $\blacksquare$
 
 由**公式 5.5.7** 及**公式 5.5.3**.
 
-由 $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, 得 $\sin2\alpha=\frac{24}{25}$. 又 $0\leq\alpha\leq\pi$, $\sin\alpha-\cos\alpha=\frac{1}{5}>0$, 得 $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. 由 $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. 若 $\cos2\alpha=\frac{7}{25}$, 则 $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ 不成立; 故 $\cos2\alpha=-\frac{7}{25}$.
+由 $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, 得 $\sin2\alpha=\frac{24}{25}$. 又 $0\leq\alpha\leq\pi$, $\sin\alpha-\cos\alpha=\frac{1}{5}> 0$, 得 $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. 由 $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. 若 $\cos2\alpha=\frac{7}{25}$, 则 $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ 不成立; 故 $\cos2\alpha=-\frac{7}{25}$.
 
 $$
 \sin\left(2\alpha-\frac{\pi}{4}\right)=\sin2\alpha\cos\frac{\pi}{4}-\cos2\alpha\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}\left(\frac{24}{25}+\frac{7}{25}\right)=\frac{31\sqrt{2}}{50}.
@@ -362,13 +362,13 @@ $\blacksquare$
 
 ### 习题十八
 
-(复习参考题5 综合运用第 18 题) 已知 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}<x<\frac{7\pi}{4}$, 求 $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$ 的值.
+(复习参考题5 综合运用第 18 题) 已知 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 求 $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$ 的值.
 
 ### 解答 习题十八
 
 由**公式 5.5.7** 及**公式 5.5.1**.
 
-由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}<x<\frac{7\pi}{4}$, 得 $\frac{5\pi}{3}<\frac{\pi}{4}+x<2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
+由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 得 $\frac{5\pi}{3}< \frac{\pi}{4}+x< 2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
 
 ### 习题十九
 
@@ -464,7 +464,7 @@ $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(
 
 由**公式 5.2.2** (同角三角函数关系).
 
-(1) 由 $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, 得 $\sin2\beta=-\frac{24}{25}$. 由 $\beta\in\left(0,\pi\right)$, $\sin\beta+\cos\beta=\frac{1}{5}>0$, 得 $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. 故 $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
+(1) 由 $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, 得 $\sin2\beta=-\frac{24}{25}$. 由 $\beta\in\left(0,\pi\right)$, $\sin\beta+\cos\beta=\frac{1}{5}> 0$, 得 $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. 故 $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
 
 (2) 可构造求 $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$ 等问题. $\blacksquare$
 

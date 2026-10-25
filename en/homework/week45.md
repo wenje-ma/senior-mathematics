@@ -252,7 +252,7 @@ $$
 85\times50\%+95\times40\%+95\times10\%=42.5+38+9.5=90.
 $$
 
-Because $91>90$, Contestant A is first and Contestant B is second.
+Because $91> 90$, Contestant A is first and Contestant B is second.
 
 In a weighted mean, the size of the mean depends not only on the data values themselves but also on their weights; the larger the weight of an item, the greater its influence on the mean. Here speech content has the largest weight, so A's high score in speech content makes A's overall score surpass B, who has stronger speaking ability. $\blacksquare$
 

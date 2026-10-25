@@ -34,7 +34,7 @@ $$
 \frac{a+b\mathrm{i}}{c+d\mathrm{i}}=\frac{ac+bd}{c^2+d^2}+\frac{bc-ad}{c^2+d^2}\mathrm{i}\quad \left(c+d\mathrm{i}\neq 0\right).
 $$
 
-> **定义 7.2.8** (实系数一元二次方程在复数范围内的求根公式) <br> 当 $\Delta=b^2-4ac<0$ 时, 方程 $ax^2+bx+c=0\ \left(a\neq 0\right)$ 的根为
+> **定义 7.2.8** (实系数一元二次方程在复数范围内的求根公式) <br> 当 $\Delta=b^2-4ac< 0$ 时, 方程 $ax^2+bx+c=0\ \left(a\neq 0\right)$ 的根为
 
 $$
 x=\frac{-b\pm\sqrt{-\left(b^2-4ac\right)}\,\mathrm{i}}{2a}.
@@ -224,7 +224,7 @@ $$
 
 (1) 由 $9x^2+16=0$, 得 $x^2=-\frac{16}{9}$. 因为 $\left(\frac{4}{3}\mathrm{i}\right)^2=\left(-\frac{4}{3}\mathrm{i}\right)^2=-\frac{16}{9}$, 所以 $x=\pm\frac{4}{3}\mathrm{i}$.
 
-(2) 方程 $x^2+x+1=0$ 中 $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3<0$. 由**定义 7.2.8**,
+(2) 方程 $x^2+x+1=0$ 中 $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3< 0$. 由**定义 7.2.8**,
 
 $$
 x=\frac{-1\pm\sqrt{3}\,\mathrm{i}}{2}.
@@ -352,13 +352,13 @@ $\blacksquare$
 
 由**定义 7.2.8** (实系数一元二次方程在复数范围内的求根公式).
 
-(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4<0$. 故
+(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4< 0$. 故
 
 $$
 x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm 2\mathrm{i}}{2}=-2\pm\mathrm{i}.
 $$
 
-(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23<0$. 故
+(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23< 0$. 故
 
 $$
 x=\frac{3\pm\sqrt{23}\,\mathrm{i}}{4}.

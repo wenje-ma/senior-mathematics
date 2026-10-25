@@ -112,7 +112,7 @@ By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Propositi
 
 (2) By the property of the perpendicular bisector of a segment, any point on it is equidistant from the two endpoints of the segment, so this proposition is true.
 
-(3) For any negative number $x<0$, since a negative number times a negative number is positive, we have $x^2>0$, so this proposition is true.
+(3) For any negative number $x< 0$, since a negative number times a negative number is positive, we have $x^2> 0$, so this proposition is true.
 
 (4) Only isosceles trapezoids have equal diagonals; the diagonals of a general trapezoid are not equal. Taking a non-isosceles trapezoid gives a counterexample, so this proposition is false. $\blacksquare$
 
@@ -160,7 +160,7 @@ By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition) 
 
 (2) This is a universal quantifier proposition; its negation is "there exists an integer divisible by $5$ whose last digit is not $0$".
 
-(3) This is an existential quantifier proposition; its negation is $\forall x\in\mathbb R,\ x+1<0$.
+(3) This is an existential quantifier proposition; its negation is $\forall x\in\mathbb R,\ x+1< 0$.
 
 (4) This is an existential quantifier proposition; its negation is "the diagonals of all quadrilaterals are not perpendicular to each other". $\blacksquare$
 
@@ -216,13 +216,13 @@ Rewrite by **Definition 1.5.1** (Universal Quantifier and Universal Quantifier P
 
 (Problem 1.5, Extension and Exploration, Problem 6) In this section, we introduced the concept of the negation of a proposition, knowing that the negation of a proposition is still a proposition, and it and the original proposition must be one true and one false, and cannot both be true or both be false. In mathematics, there are many propositions in the form "if $p$, then $q$", some true and some false. For example:
 
-(1) If $x>1$, then $2x+1>5$; (false proposition)
+(1) If $x> 1$, then $2x+1> 5$; (false proposition)
 
 (2) If a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are equal. (true proposition)
 
 Here, propositions (1) and (2) are both universal quantifier propositions with omitted quantifiers.
 
-(a) Some people think that the negation of (1) is "if $x>1$, then $2x+1\le 5$", and the negation of (2) is "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal". Do you think this is correct? If not, please correctly write the negations of propositions (1) and (2).
+(a) Some people think that the negation of (1) is "if $x> 1$, then $2x+1\le 5$", and the negation of (2) is "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal". Do you think this is correct? If not, please correctly write the negations of propositions (1) and (2).
 
 (b) Please give several examples of universal quantifier propositions in the form "if $p$, then $q$" with omitted quantifiers, write their negations respectively, and determine whether they are true or false.
 
@@ -230,7 +230,7 @@ Here, propositions (1) and (2) are both universal quantifier propositions with o
 
 By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), a proposition in the form "if $p$, then $q$" with omitted quantifiers should first have the universal quantifier restored, then be negated.
 
-(a) This view is incorrect. Proposition (1) is actually the universal quantifier proposition "for any $x>1$, we have $2x+1>5$", i.e. $\forall x>1,\ 2x+1>5$. By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), its negation should be the existential quantifier proposition "there exists an $x>1$ such that $2x+1\le 5$", i.e. $\exists x>1,\ 2x+1\le 5$, rather than directly changing the conclusion $2x+1>5$ to $2x+1\le 5$ while retaining the "if $x>1$ then $\cdots$" form.
+(a) This view is incorrect. Proposition (1) is actually the universal quantifier proposition "for any $x> 1$, we have $2x+1> 5$", i.e. $\forall x> 1,\ 2x+1> 5$. By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), its negation should be the existential quantifier proposition "there exists an $x> 1$ such that $2x+1\le 5$", i.e. $\exists x> 1,\ 2x+1\le 5$, rather than directly changing the conclusion $2x+1> 5$ to $2x+1\le 5$ while retaining the "if $x> 1$ then $\cdots$" form.
 
 Similarly, proposition (2) is actually the universal quantifier proposition "for any isosceles trapezoid, its diagonals are equal"; its negation should be "there exists an isosceles trapezoid whose diagonals are not equal", rather than "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal".
 

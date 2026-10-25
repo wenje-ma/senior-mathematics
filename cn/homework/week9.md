@@ -6,11 +6,11 @@
 
 > **定义 3.1.2** (定义域与值域) <br>$x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域; 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域. 显然, 值域是集合 $B$ 的子集.
 
-> **定义 3.1.3** (区间) <br>设 $a,b$ 是两个实数, 而且 $a<b$. (1) 满足不等式 $a\le x\le b$ 的实数 $x$ 的集合叫做闭区间, 表示为 $\left[a,b\right]$; (2) 满足不等式 $a<x<b$ 的实数 $x$ 的集合叫做开区间, 表示为 $\left(a,b\right)$; (3) 满足不等式 $a\le x<b$ 或 $a<x\le b$ 的实数 $x$ 的集合叫做半开半闭区间, 分别表示为 $\left[a,b\right)$, $\left(a,b\right]$. 实数集 $\mathbb R$ 可以用区间表示为 $\left(-\infty,+\infty\right)$.
+> **定义 3.1.3** (区间) <br>设 $a,b$ 是两个实数, 而且 $a< b$. (1) 满足不等式 $a\le x\le b$ 的实数 $x$ 的集合叫做闭区间, 表示为 $\left[a,b\right]$; (2) 满足不等式 $a< x< b$ 的实数 $x$ 的集合叫做开区间, 表示为 $\left(a,b\right)$; (3) 满足不等式 $a\le x< b$ 或 $a< x\le b$ 的实数 $x$ 的集合叫做半开半闭区间, 分别表示为 $\left[a,b\right)$, $\left(a,b\right]$. 实数集 $\mathbb R$ 可以用区间表示为 $\left(-\infty,+\infty\right)$.
 
 > **常用结论 3.1.4** (同一函数的判断) <br>一个函数的构成要素为: 定义域, 对应关系和值域. 因为值域是由定义域和对应关系决定的, 所以, 如果两个函数的定义域相同, 并且对应关系完全一致, 即相同的自变量对应的函数值也相同, 那么这两个函数是同一个函数.
 
-> **定义 3.1.5** (分段函数) <br>像 $y=\begin{cases}-x, & x<0,\\x, & x\ge0\end{cases}$ 这样的函数称为分段函数.
+> **定义 3.1.5** (分段函数) <br>像 $y=\begin{cases}-x, & x< 0,\\x, & x\ge0\end{cases}$ 这样的函数称为分段函数.
 
 > **定义 3.1.6** (函数的表示法) <br>解析法就是用解析式表示两个变量之间的对应关系; 列表法就是列出表格来表示两个变量之间的对应关系; 图象法就是用图象表示两个变量之间的对应关系.
 
@@ -134,23 +134,23 @@ $A$ 中每个元素在 $B$ 中都有唯一确定的元素与之对应, 故 $f:A\
 
 由**定义 3.1.1** (函数), 矩形内接于半径为 $25\ \text{cm}$ 的圆, 矩形的对角线等于圆的直径 $50\ \text{cm}$.
 
-设矩形另一边长为 $z$, 由勾股定理, $x^2+z^2=50^2=2500$, 故 $z=\sqrt{2500-x^2}$. 矩形面积为 $y=xz=x\sqrt{2500-x^2}$. 由 $x>0$ 且 $z>0$, 得 $0<x<50$. 故函数为 $y=x\sqrt{2500-x^2}$, $x\in\left(0,50\right)$. $\blacksquare$
+设矩形另一边长为 $z$, 由勾股定理, $x^2+z^2=50^2=2500$, 故 $z=\sqrt{2500-x^2}$. 矩形面积为 $y=xz=x\sqrt{2500-x^2}$. 由 $x> 0$ 且 $z> 0$, 得 $0< x< 50$. 故函数为 $y=x\sqrt{2500-x^2}$, $x\in\left(0,50\right)$. $\blacksquare$
 
 ### 练习九
 
 (练习 3.1 第 9 题) 画出函数 $y=\left|x-2\right|$ 的图象.
 
-(题图: 直角坐标系中画出顶点在 $\left(2,0\right)$、开口向上的 $V$ 形折线, 左支为射线 $y=-x+2$ ($x<2$), 右支为射线 $y=x-2$ ($x\ge2$).)
+(题图: 直角坐标系中画出顶点在 $\left(2,0\right)$、开口向上的 $V$ 形折线, 左支为射线 $y=-x+2$ ($x< 2$), 右支为射线 $y=x-2$ ($x\ge2$).)
 
 ### 解答 练习九
 
 由**定义 3.1.5** (分段函数), 绝对值函数可写成分段形式.
 
 $$
-y=\left|x-2\right|=\begin{cases}-x+2, & x<2,\\x-2, & x\ge2.\end{cases}
+y=\left|x-2\right|=\begin{cases}-x+2, & x< 2,\\x-2, & x\ge2.\end{cases}
 $$
 
-图象为顶点在 $\left(2,0\right)$, 开口向上的 $V$ 形折线: 当 $x<2$ 时为直线 $y=-x+2$ 的射线, 当 $x\ge2$ 时为直线 $y=x-2$ 的射线. $\blacksquare$
+图象为顶点在 $\left(2,0\right)$, 开口向上的 $V$ 形折线: 当 $x< 2$ 时为直线 $y=-x+2$ 的射线, 当 $x\ge2$ 时为直线 $y=x-2$ 的射线. $\blacksquare$
 
 ### 练习十
 
@@ -170,10 +170,10 @@ $$
 
 (2) 令 $-x+1=\left(x-1\right)^2$, 展开得 $-x+1=x^2-2x+1$, 即 $x^2-x=0$, 解得 $x=0$ 或 $x=1$.
 
-当 $x\le0$ 时, $\left(x-1\right)^2\le-x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$; 当 $0<x\le1$ 时, $-x+1<\left(x-1\right)^2$, 故 $m\left(x\right)=-x+1$; 当 $x>1$ 时, $\left(x-1\right)^2<-x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$. 因此
+当 $x\le0$ 时, $\left(x-1\right)^2\le-x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$; 当 $0< x\le1$ 时, $-x+1< \left(x-1\right)^2$, 故 $m\left(x\right)=-x+1$; 当 $x> 1$ 时, $\left(x-1\right)^2< -x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$. 因此
 
 $$
-m\left(x\right)=\begin{cases}\left(x-1\right)^2, & x\le0,\\-x+1, & 0<x\le1,\\\left(x-1\right)^2, & x>1.\end{cases}
+m\left(x\right)=\begin{cases}\left(x-1\right)^2, & x\le0,\\-x+1, & 0< x\le1,\\\left(x-1\right)^2, & x> 1.\end{cases}
 $$
 
 图象法: 取 $f\left(x\right)$ 与 $g\left(x\right)$ 图象中较低的部分, 即得到 $m\left(x\right)$ 的图象. $\blacksquare$
@@ -218,12 +218,12 @@ $$
 
 由**定义 3.1.5** (分段函数), 票价按里程分段计价.
 
-设里程为 $x$ (单位: $\text{km}$), 票价为 $y$ (单位: 元), 则 $0<x\le20$.
+设里程为 $x$ (单位: $\text{km}$), 票价为 $y$ (单位: 元), 则 $0< x\le20$.
 
-当 $0<x\le5$ 时, $y=2$; 当 $5<x\le10$ 时, $y=3$; 当 $10<x\le15$ 时, $y=4$; 当 $15<x\le20$ 时, $y=5$. 即
+当 $0< x\le5$ 时, $y=2$; 当 $5< x\le10$ 时, $y=3$; 当 $10< x\le15$ 时, $y=4$; 当 $15< x\le20$ 时, $y=5$. 即
 
 $$
-y=\begin{cases}2, & 0<x\le5,\\3, & 5<x\le10,\\4, & 10<x\le15,\\5, & 15<x\le20.\end{cases}
+y=\begin{cases}2, & 0< x\le5,\\3, & 5< x\le10,\\4, & 10< x\le15,\\5, & 15< x\le20.\end{cases}
 $$
 
 图象为四段水平线段, 每段左端实心, 右端空心. $\blacksquare$
@@ -270,7 +270,7 @@ $$
 
 (2) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\left(\sqrt x\right)^4=x^2$ 的定义域为 $\left\{x\mid x\ge0\right\}$, 定义域不同, 不是同一函数.
 
-(3) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$, 当 $x<0$ 时 $g\left(x\right)=-x\ne x^2$, 对应关系不同, 不是同一函数. $\blacksquare$
+(3) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$, 当 $x< 0$ 时 $g\left(x\right)=-x\ne x^2$, 对应关系不同, 不是同一函数. $\blacksquare$
 
 ### 习题三
 
@@ -358,17 +358,17 @@ $\blacksquare$
 
 (习题 3.1 复习巩固第 7 题) 画出下列函数的图象:
 
-(1) $f\left(x\right)=\begin{cases}0, & x\le0,\\1, & x>0;\end{cases}$
+(1) $f\left(x\right)=\begin{cases}0, & x\le0,\\1, & x> 0;\end{cases}$
 
 (2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
 
-(题图: 左图画分段函数 $f\left(x\right)=0$ ($x\le0$) 与 $f\left(x\right)=1$ ($x>0$), 即 $x\le0$ 时 $x$ 轴上的射线、$x>0$ 时直线 $y=1$ 上的射线; 右图画三个孤立点 $\left(1,4\right),\left(2,7\right),\left(3,10\right)$.)
+(题图: 左图画分段函数 $f\left(x\right)=0$ ($x\le0$) 与 $f\left(x\right)=1$ ($x> 0$), 即 $x\le0$ 时 $x$ 轴上的射线、$x> 0$ 时直线 $y=1$ 上的射线; 右图画三个孤立点 $\left(1,4\right),\left(2,7\right),\left(3,10\right)$.)
 
 ### 解答 习题七
 
 由**定义 3.1.5** (分段函数) 及**定义 3.1.6** (函数的表示法).
 
-(1) 当 $x\le0$ 时函数值恒为 $0$, 当 $x>0$ 时函数值恒为 $1$, 图象为两条水平射线: $x\le0$ 时在 $x$ 轴上, $x>0$ 时在直线 $y=1$ 上.
+(1) 当 $x\le0$ 时函数值恒为 $0$, 当 $x> 0$ 时函数值恒为 $1$, 图象为两条水平射线: $x\le0$ 时在 $x$ 轴上, $x> 0$ 时在直线 $y=1$ 上.
 
 (2) 定义域为有限集 $\left\{1,2,3\right\}$, $G\left(1\right)=4$, $G\left(2\right)=7$, $G\left(3\right)=10$, 图象为三个孤立点 $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$. $\blacksquare$
 
@@ -382,11 +382,11 @@ $\blacksquare$
 
 由**定义 3.1.1** (函数) 及矩形的几何性质, 各量之间存在确定的对应关系.
 
-由面积 $xy=10$, 得 $y=\frac{10}{x}$ $\left(x>0\right)$.
+由面积 $xy=10$, 得 $y=\frac{10}{x}$ $\left(x> 0\right)$.
 
-由勾股定理, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x>0\right)$.
+由勾股定理, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x> 0\right)$.
 
-由周长公式, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x>0\right)$. $\blacksquare$
+由周长公式, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x> 0\right)$. $\blacksquare$
 
 ### 习题九
 
@@ -428,7 +428,7 @@ $\blacksquare$
 
 (1) 图象由两部分组成: 左半部分 $p\in\left[-5,0\right]$, 曲线从 $r=2$ 上升到 $r=5$; 右半部分 $p\in\left[2,6\right]$, 曲线从 $r=0$ 上升, 渐近于直线 $m$ (虚线). 故定义域为 $\left[-5,0\right]\cup\left[2,6\right)$. 左半部分 $r\in\left[2,5\right]$, 右半部分 $r\in\left[0,+\infty\right)$, 故值域为 $\left[0,+\infty\right)$.
 
-(2) 当 $r\in\left[0,2\right)$ 时, 只有右半部分曲线与之对应, 故只有唯一的 $p$ 值; 当 $r\in\left[2,5\right]$ 时, 左右两部分各有一个 $p$ 值; 当 $r>5$ 时, 只有右半部分曲线. 故当 $r\in\left[0,2\right)$ 或 $r>5$ 时, 只有唯一的 $p$ 值与之对应. $\blacksquare$
+(2) 当 $r\in\left[0,2\right)$ 时, 只有右半部分曲线与之对应, 故只有唯一的 $p$ 值; 当 $r\in\left[2,5\right]$ 时, 左右两部分各有一个 $p$ 值; 当 $r> 5$ 时, 只有右半部分曲线. 故当 $r\in\left[0,2\right)$ 或 $r> 5$ 时, 只有唯一的 $p$ 值与之对应. $\blacksquare$
 
 ### 习题十二
 
@@ -438,13 +438,13 @@ $\blacksquare$
 
 (2) 如果平面直角坐标系中点 $P\left(x,y\right)$ 的坐标满足 $-3\le x\le8$, $-1\le y\le2$, 那么其中哪些点不能在图象上?
 
-(题图: 坐标系中画出一个示例函数图象: 当 $-3\le x<5$ 时 $y=1$ 的水平线段, 当 $5<x\le8$ 时 $y=-1$ 的水平线段, 在 $x=5$ 处断开.)
+(题图: 坐标系中画出一个示例函数图象: 当 $-3\le x< 5$ 时 $y=1$ 的水平线段, 当 $5< x\le8$ 时 $y=-1$ 的水平线段, 在 $x=5$ 处断开.)
 
 ### 解答 习题十二
 
 由**定义 3.1.1** (函数) 及**定义 3.1.2** (定义域与值域), 图象上每个 $x$ 只能对应唯一的 $y$.
 
-可构造函数: 当 $-3\le x<5$ 时取 $y=1$, 当 $5<x\le8$ 时取 $y=-1$, 图象为两条水平线段, 在 $x=5$ 处断开.
+可构造函数: 当 $-3\le x< 5$ 时取 $y=1$, 当 $5< x\le8$ 时取 $y=-1$, 图象为两条水平线段, 在 $x=5$ 处断开.
 
 (1) 不同同学构造的函数不同, 图象自然不同.
 
@@ -463,20 +463,20 @@ $\blacksquare$
 当 $x\in\left(-2.5,-2\right)$ 时, $f\left(x\right)=-3$; 当 $x\in\left[-2,-1\right)$ 时, $f\left(x\right)=-2$; 当 $x\in\left[-1,0\right)$ 时, $f\left(x\right)=-1$; 当 $x\in\left[0,1\right)$ 时, $f\left(x\right)=0$; 当 $x\in\left[1,2\right)$ 时, $f\left(x\right)=1$; 当 $x\in\left[2,3\right)$ 时, $f\left(x\right)=2$; 当 $x=3$ 时, $f\left(3\right)=3$. 即
 
 $$
-f\left(x\right)=\begin{cases}-3, & -2.5<x<-2,\\-2, & -2\le x<-1,\\-1, & -1\le x<0,\\0, & 0\le x<1,\\1, & 1\le x<2,\\2, & 2\le x<3,\\3, & x=3.\end{cases}
+f\left(x\right)=\begin{cases}-3, & -2.5< x< -2,\\-2, & -2\le x< -1,\\-1, & -1\le x< 0,\\0, & 0\le x< 1,\\1, & 1\le x< 2,\\2, & 2\le x< 3,\\3, & x=3.\end{cases}
 $$
 
 图象为阶梯形: 每段水平线段左闭右开, 右端点处跳到下一级. $\blacksquare$
 
 ### 习题十四
 
-(习题 3.1 拓广探索第 14 题) 构建一个问题情境, 使其中的变量关系能用解析式 $y=\frac{1}{2}ax^2$ ($a>0$) 来描述.
+(习题 3.1 拓广探索第 14 题) 构建一个问题情境, 使其中的变量关系能用解析式 $y=\frac{1}{2}ax^2$ ($a> 0$) 来描述.
 
 ### 解答 习题十四
 
 由**定义 3.1.6** (函数的表示法), 解析法对应实际情境中的变量关系.
 
-取自由落体运动: 物体从静止开始自由下落, 下落距离 $y$ 与时间 $x$ 的关系为 $y=\frac{1}{2}gx^2$, 其中 $g>0$ 为重力加速度. 此情境中 $a=g$ ($a>0$), 变量关系即可用 $y=\frac{1}{2}ax^2$ 描述. $\blacksquare$
+取自由落体运动: 物体从静止开始自由下落, 下落距离 $y$ 与时间 $x$ 的关系为 $y=\frac{1}{2}gx^2$, 其中 $g> 0$ 为重力加速度. 此情境中 $a=g$ ($a> 0$), 变量关系即可用 $y=\frac{1}{2}ax^2$ 描述. $\blacksquare$
 
 ### 习题十五
 
@@ -518,7 +518,7 @@ $$
 
 (1) 对任意 $u\in\mathbb R$, 由 $u^2+2v=0$ 得 $v=-\frac{u^2}{2}$, $v$ 唯一确定且 $v\le0\in B$, 故 $v=f\left(u\right)$ 是函数.
 
-(2) 对任意 $v\in\left(-\infty,0\right]$, 由 $u^2=-2v$, 当 $v<0$ 时 $u=\pm\sqrt{-2v}$ 有两个值, 不唯一; 当 $v=0$ 时 $u=0$ 唯一. 由于存在 $v$ 对应两个 $u$ 值, 故 $u=g\left(v\right)$ 不是函数. $\blacksquare$
+(2) 对任意 $v\in\left(-\infty,0\right]$, 由 $u^2=-2v$, 当 $v< 0$ 时 $u=\pm\sqrt{-2v}$ 有两个值, 不唯一; 当 $v=0$ 时 $u=0$ 唯一. 由于存在 $v$ 对应两个 $u$ 值, 故 $u=g\left(v\right)$ 不是函数. $\blacksquare$
 
 ### 习题十七
 

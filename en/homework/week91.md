@@ -118,7 +118,7 @@ The figure is an ancient computational diagram using Yang Hui's triangle (Figure
 
 By **Theorem 6.3.1** (Binomial Theorem), ancient Chinese mathematicians used the coefficients in the rows of Pascal's triangle to extract roots. This problem is to find the positive root of $x^4=1336336$.
 
-(1) Estimate the number of digits and the range. Since $30^4=810000$, $40^4=2560000$, and $810000<1336336<2560000$, $x$ lies between 30 and 40; that is, the tens digit of $x$ is 3. Write $x=30+b$, where $b$ is the units digit.
+(1) Estimate the number of digits and the range. Since $30^4=810000$, $40^4=2560000$, and $810000< 1336336< 2560000$, $x$ lies between 30 and 40; that is, the tens digit of $x$ is 3. Write $x=30+b$, where $b$ is the units digit.
 
 (2) Use the expansion of a complete fourth power. By **Theorem 6.3.1** (Binomial Theorem),
 

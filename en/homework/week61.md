@@ -56,9 +56,9 @@ By **Definition 2.2.1** (Point-slope Equation), the point-slope equation is $y-y
 
 By **Definition 2.2.1** (Point-slope Equation), in the point-slope form $y-y_0=k\left(x-x_0\right)$, $k$ is the slope; by **Definition 2.1.2** (Slope), $k=\tan\alpha$.
 
-(1) The equation $y-2=x-1$ is $y-2=1\cdot\left(x-1\right)$; comparing with the point-slope form, the slope is $k=1$. From $\tan\alpha=1$ and $0^\circ\le\alpha<180^\circ$, the inclination angle is $\alpha=45^\circ$.
+(1) The equation $y-2=x-1$ is $y-2=1\cdot\left(x-1\right)$; comparing with the point-slope form, the slope is $k=1$. From $\tan\alpha=1$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=45^\circ$.
 
-(2) The equation $y+2=\sqrt 3\left(x+1\right)$ is $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$; comparing with the point-slope form, the slope is $k=\sqrt 3$. From $\tan\alpha=\sqrt 3$ and $0^\circ\le\alpha<180^\circ$, the inclination angle is $\alpha=60^\circ$. $\blacksquare$
+(2) The equation $y+2=\sqrt 3\left(x+1\right)$ is $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$; comparing with the point-slope form, the slope is $k=\sqrt 3$. From $\tan\alpha=\sqrt 3$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=60^\circ$. $\blacksquare$
 
 ### Exercise 3
 
@@ -512,7 +512,7 @@ By **Definition 2.2.6** (General Equation), the equation of line $l$ is $2x-y+3=
 
 For points on line $l$, the value obtained by substituting their coordinates into $2x-y+3$ is $0$. For points outside line $l$, the value obtained by substituting into $2x-y+3$ is not $0$.
 
-Take the point $P_1\left(0,0\right)$; substituting gives $2\cdot0-0+3=3>0$. Take the point $P_2\left(-3,0\right)$; substituting gives $2\cdot\left(-3\right)-0+3=-3<0$.
+Take the point $P_1\left(0,0\right)$; substituting gives $2\cdot0-0+3=3> 0$. Take the point $P_2\left(-3,0\right)$; substituting gives $2\cdot\left(-3\right)-0+3=-3< 0$.
 
 Observed pattern: for points on the same side of line $l$, the value obtained by substituting into $2x-y+3$ has the same sign; for points on the two sides of line $l$, the values obtained have opposite signs. That is, the sign of the value of the linear expression $2x-y+3$ characterizes which side of the line a point lies on. $\blacksquare$
 
@@ -524,7 +524,7 @@ $$
 \begin{cases}x=x_0+mt,\\y=y_0+nt.\end{cases}
 $$
 
-From the kinematic point of view, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t>0$) can be regarded as the displacement of a particle $P$ starting from the point $P_0$, moving in uniform linear motion with velocity $\boldsymbol{v}=\left(m,n\right)$, after time $t$. Can you describe the ray $P_0N$? From the above discussion, can you state the kinematic meaning of equation ①?
+From the kinematic point of view, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t> 0$) can be regarded as the displacement of a particle $P$ starting from the point $P_0$, moving in uniform linear motion with velocity $\boldsymbol{v}=\left(m,n\right)$, after time $t$. Can you describe the ray $P_0N$? From the above discussion, can you state the kinematic meaning of equation ①?
 
 The figure plots, in the rectangular coordinate system, the line $l$ through the point $P_0\left(x_0,y_0\right)$ and marks the direction vector $\boldsymbol{v}=\left(m,n\right)$: the point $P\left(x,y\right)$ lies on the line, and the vector $\boldsymbol{P_0P}$ is collinear with $\boldsymbol{v}$ in the same direction; extending from $P_0$ in the opposite direction $-\boldsymbol{v}$ gives the ray $P_0N$.
 
@@ -534,7 +534,7 @@ By **Common Conclusion 2.1.4** (Direction Vector and Slope), when the direction 
 
 The ray $P_0N$ extends from the point $P_0$ along the direction $-\boldsymbol{v}$, i.e. in the parametric equation one sets $t\le0$ to obtain the ray $P_0N$.
 
-The kinematic meaning of the equation $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ is: a particle $P$ starts from the point $P_0\left(x_0,y_0\right)$, moves in uniform linear motion with velocity vector $\boldsymbol{v}=\left(m,n\right)$, and after time $t$ reaches the point $\left(x,y\right)$. When $t>0$, the particle moves in the $\boldsymbol{v}$ direction; when $t<0$, the particle moves in the $-\boldsymbol{v}$ direction; the absolute value of $t$ represents the time of motion. $\blacksquare$
+The kinematic meaning of the equation $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ is: a particle $P$ starts from the point $P_0\left(x_0,y_0\right)$, moves in uniform linear motion with velocity vector $\boldsymbol{v}=\left(m,n\right)$, and after time $t$ reaches the point $\left(x,y\right)$. When $t> 0$, the particle moves in the $\boldsymbol{v}$ direction; when $t< 0$, the particle moves in the $-\boldsymbol{v}$ direction; the absolute value of $t$ represents the time of motion. $\blacksquare$
 
 ### Inquiry and Discovery 2
 

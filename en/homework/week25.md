@@ -2,11 +2,11 @@
 
 > **Definition 3.1.1** (Function) <br>In general, let $A,B$ be nonempty sets of real numbers. If, for any number $x$ in set $A$, there is a uniquely determined number $y$ in set $B$ corresponding to it according to some definite correspondence rule $f$, then $f:A\to B$ is called a function from set $A$ to set $B$, denoted $y=f\left(x\right)$, $x\in A$.
 
-> **Common Conclusion 4.2.3** (Exponential Growth and Decay Models) <br>Let the original quantity be $N$, the growth rate each time be $p$, and after $x$ growth periods the quantity grows to $y$, then $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$, and $k\neq 0$; $a>0$, and $a\neq 1$) is a very useful function model for describing exponential growth or exponential decay patterns.
+> **Common Conclusion 4.2.3** (Exponential Growth and Decay Models) <br>Let the original quantity be $N$, the growth rate each time be $p$, and after $x$ growth periods the quantity grows to $y$, then $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$, and $k\neq 0$; $a> 0$, and $a\neq 1$) is a very useful function model for describing exponential growth or exponential decay patterns.
 
-> **Definition 4.3.1** (Logarithm) <br>In general, if $a^x=N$ ($a>0$, and $a\neq 1$), then the number $x$ is called the logarithm of $N$ with base $a$, denoted $x=\log_a N$, where $a$ is called the base of the logarithm and $N$ is called the argument.
+> **Definition 4.3.1** (Logarithm) <br>In general, if $a^x=N$ ($a> 0$, and $a\neq 1$), then the number $x$ is called the logarithm of $N$ with base $a$, denoted $x=\log_a N$, where $a$ is called the base of the logarithm and $N$ is called the argument.
 
-> **Common Conclusion 4.3.3** (Relationship between Logarithms and Exponents) <br>When $a>0$, $a\neq 1$, $a^x=N\Leftrightarrow x=\log_a N$. Negative numbers and $0$ have no logarithm; $\log_a 1=0$, $\log_a a=1$.
+> **Common Conclusion 4.3.3** (Relationship between Logarithms and Exponents) <br>When $a> 0$, $a\neq 1$, $a^x=N\Leftrightarrow x=\log_a N$. Negative numbers and $0$ have no logarithm; $\log_a 1=0$, $\log_a a=1$.
 
 ### Problem 1
 
@@ -23,7 +23,7 @@ A researcher measured the tea temperature every $1\ \min$ and obtained a set of 
 By **Definition 3.1.1** (Function), the tea temperature $y$ is a function of time $x$. By **Common Conclusion 4.2.3** (Exponential Growth and Decay Models), observing the distribution of the scatter plot and taking into account the fact that the tea temperature cannot drop below room temperature, one may choose the function
 
 $$
-y=ka^x+25\quad\left(k\in\mathbb R,\ 0<a<1,\ x\ge 0\right)
+y=ka^x+25\quad\left(k\in\mathbb R,\ 0< a< 1,\ x\ge 0\right)
 $$
 
 to approximately describe the law by which the tea temperature changes over time.

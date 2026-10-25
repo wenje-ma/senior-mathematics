@@ -154,9 +154,9 @@ From the above two steps, $AC=BD$ is a necessary and sufficient condition for th
 
 By **Definition 1.4.2** (Sufficient Condition and Necessary Condition) and **Definition 1.4.4** (Necessary and Sufficient Condition), examples are as follows.
 
-(1) Take $p$: $x>1$, $q$: $x>0$. From $x>1$ necessarily $x>0$, so $p\Rightarrow q$; but $x>0$ does not imply $x>1$ (e.g. $x=\frac12$), so $q\nRightarrow p$. Thus $p$ is a sufficient but not necessary condition for $q$.
+(1) Take $p$: $x> 1$, $q$: $x> 0$. From $x> 1$ necessarily $x> 0$, so $p\Rightarrow q$; but $x> 0$ does not imply $x> 1$ (e.g. $x=\frac12$), so $q\nRightarrow p$. Thus $p$ is a sufficient but not necessary condition for $q$.
 
-(2) Take $p$: $x>0$, $q$: $x>1$. From $x>1$ necessarily $x>0$, i.e. $q\Rightarrow p$, but $x>0$ does not imply $x>1$, i.e. $p\nRightarrow q$. Thus $p$ is a necessary but not sufficient condition for $q$.
+(2) Take $p$: $x> 0$, $q$: $x> 1$. From $x> 1$ necessarily $x> 0$, i.e. $q\Rightarrow p$, but $x> 0$ does not imply $x> 1$, i.e. $p\nRightarrow q$. Thus $p$ is a necessary but not sufficient condition for $q$.
 
 (3) Take $p$: corresponding angles are equal, $q$: two lines are parallel. By the determination theorem of parallel lines, $p\Rightarrow q$; by the property theorem of parallel lines, $q\Rightarrow p$. Thus $p\Leftrightarrow q$, i.e. $p$ is a necessary and sufficient condition for $q$. $\blacksquare$
 
@@ -172,7 +172,7 @@ By **Definition 1.4.2** (Sufficient Condition and Necessary Condition) and **Def
 
 (4) $p$: $a\in P\cup Q$, $q$: $a\in P$;
 
-(5) $p$: $x>y$, $q$: $x^2>y^2$.
+(5) $p$: $x> y$, $q$: $x^2> y^2$.
 
 ### Solution to Problem 2
 
@@ -186,7 +186,7 @@ By **Definition 1.4.2** (Sufficient Condition and Necessary Condition) and **Def
 
 (4) By **Definition 1.3.1** (Union), if $a\in P$, then $a$ must belong to $P\cup Q$, so $q\Rightarrow p$; but $a\in P\cup Q$ may belong only to $Q$ and not to $P$, so $p\nRightarrow q$. Therefore, $p$ is a necessary but not sufficient condition for $q$.
 
-(5) Taking $x=1$, $y=-2$, then $x>y$, but $x^2=1<4=y^2$, so $p\nRightarrow q$; taking $x=-2$, $y=1$, then $x^2=4>1=y^2$, but $x<y$, so $q\nRightarrow p$. Therefore, $p$ is a neither sufficient nor necessary condition for $q$. $\blacksquare$
+(5) Taking $x=1$, $y=-2$, then $x> y$, but $x^2=1< 4=y^2$, so $p\nRightarrow q$; taking $x=-2$, $y=1$, then $x^2=4> 1=y^2$, but $x< y$, so $q\nRightarrow p$. Therefore, $p$ is a neither sufficient nor necessary condition for $q$. $\blacksquare$
 
 ### Problem 3
 
@@ -272,11 +272,11 @@ $$
 \cos C=\frac{a^2+b^2-c^2}{2ab}.
 $$
 
-Since $a,b>0$, we have $2ab>0$, so the sign of $\cos C$ is completely determined by $a^2+b^2-c^2$.
+Since $a,b> 0$, we have $2ab> 0$, so the sign of $\cos C$ is completely determined by $a^2+b^2-c^2$.
 
-(1) A triangle is an acute triangle if and only if the largest angle $C$ is acute, i.e. $\cos C>0$, i.e. $a^2+b^2-c^2>0$, i.e. $a^2+b^2>c^2$. Therefore, a necessary and sufficient condition for $\triangle ABC$ to be an acute triangle is $a^2+b^2>c^2$.
+(1) A triangle is an acute triangle if and only if the largest angle $C$ is acute, i.e. $\cos C> 0$, i.e. $a^2+b^2-c^2> 0$, i.e. $a^2+b^2> c^2$. Therefore, a necessary and sufficient condition for $\triangle ABC$ to be an acute triangle is $a^2+b^2> c^2$.
 
-(2) A triangle is an obtuse triangle if and only if the largest angle $C$ is obtuse, i.e. $\cos C<0$, i.e. $a^2+b^2-c^2<0$, i.e. $a^2+b^2<c^2$. Therefore, a necessary and sufficient condition for $\triangle ABC$ to be an obtuse triangle is $a^2+b^2<c^2$.
+(2) A triangle is an obtuse triangle if and only if the largest angle $C$ is obtuse, i.e. $\cos C< 0$, i.e. $a^2+b^2-c^2< 0$, i.e. $a^2+b^2< c^2$. Therefore, a necessary and sufficient condition for $\triangle ABC$ to be an obtuse triangle is $a^2+b^2< c^2$.
 
 The above derivations are all reversible, so the two conditions are respectively the necessary and sufficient conditions for an acute triangle and an obtuse triangle. $\blacksquare$
 

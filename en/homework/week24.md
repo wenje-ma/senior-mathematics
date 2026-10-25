@@ -1,6 +1,6 @@
 # Assignment 24
 
-> **Definition 5.7.1** (Simple Harmonic Motion) <br>The motion of an object in which the force it experiences (always directed toward the equilibrium position) is proportional to its distance from the equilibrium position is called simple harmonic motion. Under a suitable rectangular coordinate system, simple harmonic motion can be represented by $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$, where $A>0$, $\omega>0$.
+> **Definition 5.7.1** (Simple Harmonic Motion) <br>The motion of an object in which the force it experiences (always directed toward the equilibrium position) is proportional to its distance from the equilibrium position is called simple harmonic motion. Under a suitable rectangular coordinate system, simple harmonic motion can be represented by $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$, where $A> 0$, $\omega> 0$.
 
 > **Definition 5.7.2** (Amplitude, Period, Frequency, Phase) <br>$A$ is the amplitude, i.e. the maximum distance from the equilibrium position; the period is $T=\frac{2\pi}{\omega}$; the frequency is $f=\frac{1}{T}=\frac{\omega}{2\pi}$; $\omega x+\varphi$ is called the phase, and the phase $\varphi$ when $x=0$ is called the initial phase.
 

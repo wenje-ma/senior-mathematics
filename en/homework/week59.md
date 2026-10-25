@@ -894,7 +894,7 @@ Expanding gives $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$.
 
 ### Problem 18
 
-(Exercise 1.4, Extension and Exploration, Problem 18) In the experimental apparatus shown in the figure, the two square frames $ABCD$, $ABEF$ both have edge length $1$, and the planes in which they lie are perpendicular to each other. The moving beads $M$, $N$ travel along the diagonals $AC$ and $BF$ of the squares, respectively, and the lengths $CM$ and $BN$ remain equal; write $CM=BN=a$ ($0<a<\sqrt{2}$).
+(Exercise 1.4, Extension and Exploration, Problem 18) In the experimental apparatus shown in the figure, the two square frames $ABCD$, $ABEF$ both have edge length $1$, and the planes in which they lie are perpendicular to each other. The moving beads $M$, $N$ travel along the diagonals $AC$ and $BF$ of the squares, respectively, and the lengths $CM$ and $BN$ remain equal; write $CM=BN=a$ ($0< a< \sqrt{2}$).
 
 (1) Find the length of $MN$;
 
@@ -902,7 +902,7 @@ Expanding gives $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$.
 
 (3) When the length of $MN$ is minimal, find the cosine of the angle between the plane $MNA$ and the plane $MNB$.
 
-The figure is a view of the experimental setup: two square frames $ABCD$ and $ABEF$, each of side length $1$, share the edge $AB$, and the planes they lie in are perpendicular; the beads $M$ and $N$ move on the diagonals $AC$ and $BF$, respectively, with $CM=BN=a$ ($0<a<\sqrt{2}$).
+The figure is a view of the experimental setup: two square frames $ABCD$ and $ABEF$, each of side length $1$, share the edge $AB$, and the planes they lie in are perpendicular; the beads $M$ and $N$ move on the diagonals $AC$ and $BF$, respectively, with $CM=BN=a$ ($0< a< \sqrt{2}$).
 
 ### Solution to Problem 18
 

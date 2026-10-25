@@ -24,13 +24,13 @@
 
 > **定义 7.2.7** (复数除法法则) <br> $\frac{a+b\mathrm{i}}{c+d\mathrm{i}}=\frac{ac+bd}{c^2+d^2}+\frac{bc-ad}{c^2+d^2}\mathrm{i}\ \left(c+d\mathrm{i}\neq 0\right)$.
 
-> **定义 7.2.8** (实系数一元二次方程在复数范围内的求根公式) <br> 当 $\Delta=b^2-4ac<0$ 时, 方程 $ax^2+bx+c=0\ \left(a\neq 0\right)$ 的根为 $x=\frac{-b\pm\sqrt{-\left(b^2-4ac\right)}\,\mathrm{i}}{2a}$.
+> **定义 7.2.8** (实系数一元二次方程在复数范围内的求根公式) <br> 当 $\Delta=b^2-4ac< 0$ 时, 方程 $ax^2+bx+c=0\ \left(a\neq 0\right)$ 的根为 $x=\frac{-b\pm\sqrt{-\left(b^2-4ac\right)}\,\mathrm{i}}{2a}$.
 
 > **定义 7.3.1** (复数的三角表示式) <br> 任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$ 的形式.
 
 > **定义 7.3.2** (辐角) <br> 以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角 $\theta$ 叫做复数 $z=a+b\mathrm{i}$ 的辐角.
 
-> **定义 7.3.3** (辐角的主值) <br> 规定在 $0\le\theta<2\pi$ 范围内的辐角 $\theta$ 的值为辐角的主值, 记作 $\arg z$.
+> **定义 7.3.3** (辐角的主值) <br> 规定在 $0\le\theta< 2\pi$ 范围内的辐角 $\theta$ 的值为辐角的主值, 记作 $\arg z$.
 
 > **定义 7.3.5** (复数乘法的三角表示) <br> $r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)\cdot r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)=r_1r_2\left[\cos\left(\theta_1+\theta_2\right)+\mathrm{i}\sin\left(\theta_1+\theta_2\right)\right]$.
 
@@ -60,7 +60,7 @@
 
 (D) $2-\mathrm{i}$
 
-(3) 当 $\frac{2}{3}<m<1$ 时, 复数 $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ 在复平面内对应的点位于 ( ).
+(3) 当 $\frac{2}{3}< m< 1$ 时, 复数 $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ 在复平面内对应的点位于 ( ).
 
 (A) 第一象限
 
@@ -86,7 +86,7 @@
 
 (2) 由**定义 7.2.7** (复数除法法则), $\frac{5}{\mathrm{i}-2}=\frac{5\left(-2-\mathrm{i}\right)}{\left(\mathrm{i}-2\right)\left(-2-\mathrm{i}\right)}=\frac{-10-5\mathrm{i}}{5}=-2-\mathrm{i}$. 由**定义 7.1.10** (共轭复数), 其共轭复数为 $-2+\mathrm{i}$, 即 $\mathrm{i}-2$. 故选 (B).
 
-(3) 由**定义 7.2.1** 与**定义 7.2.2**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. 当 $\frac{2}{3}<m<1$ 时, $3m-2>0$, $m-1<0$. 由**定义 7.1.8** (复数的几何意义), 实部为正, 虚部为负的点位于第四象限. 故选 (D).
+(3) 由**定义 7.2.1** 与**定义 7.2.2**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. 当 $\frac{2}{3}< m< 1$ 时, $3m-2> 0$, $m-1< 0$. 由**定义 7.1.8** (复数的几何意义), 实部为正, 虚部为负的点位于第四象限. 故选 (D).
 
 (4) $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$. 由三角恒等式, $\sin 40^{\circ}=\cos 50^{\circ}$, $\cos 40^{\circ}=\sin 50^{\circ}$, 故原式 $=\cos 50^{\circ}-\mathrm{i}\sin 50^{\circ}=\cos\left(-50^{\circ}\right)+\mathrm{i}\sin\left(-50^{\circ}\right)=\cos 310^{\circ}+\mathrm{i}\sin 310^{\circ}$. 由**定义 7.3.3** (辐角主值), 辐角主值为 $310^{\circ}$. 故选 (D). $\blacksquare$
 
@@ -168,7 +168,7 @@ $$
 
 (1) 由 $4x^2+9=0$, 得 $x^2=-\frac{9}{4}$. 因为 $\left(\frac{3}{2}\mathrm{i}\right)^2=\left(-\frac{3}{2}\mathrm{i}\right)^2=-\frac{9}{4}$, 所以 $x=\pm\frac{3}{2}\mathrm{i}$.
 
-(2) 展开 $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. 这里 $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4<0$. 由**定义 7.2.8** (求根公式),
+(2) 展开 $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. 这里 $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4< 0$. 由**定义 7.2.8** (求根公式),
 
 $$
 x=\frac{8\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{8\pm 2\mathrm{i}}{2}=4\pm\mathrm{i}.

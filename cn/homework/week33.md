@@ -336,7 +336,7 @@ $\boldsymbol{AB}=\left(3,3\right)$. $\boldsymbol{OP}=\left(1,2\right)+t\left(3,3
 
 $P$ 在 $y$ 轴上: $1+3t=0$, $t=-\frac{1}{3}$.
 
-$P$ 在第二象限: $1+3t<0$ 且 $2+3t>0$, 即 $-\frac{2}{3}<t<-\frac{1}{3}$.
+$P$ 在第二象限: $1+3t< 0$ 且 $2+3t> 0$, 即 $-\frac{2}{3}< t< -\frac{1}{3}$.
 
 (2) 若 $OABP$ 为平行四边形, 则 $\boldsymbol{OP}=\boldsymbol{AB}=\left(3,3\right)$, 即 $1+3t=3$ 且 $2+3t=3$, 矛盾. 不能成为平行四边形. $\blacksquare$
 
@@ -378,7 +378,7 @@ $x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
 
 ### 习题十五
 
-(习题 6.3 拓广探索第 15 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k>0$).
+(习题 6.3 拓广探索第 15 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k> 0$).
 
 (1) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
 
@@ -406,7 +406,7 @@ $8k\boldsymbol{a}\cdot\boldsymbol{b}=2+2k^2$, $\boldsymbol{a}\cdot\boldsymbol{b}
 
 ### 习题十六
 
-(习题 6.3 拓广探索第 16 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 其中 $0<\alpha<\beta<\pi$.
+(习题 6.3 拓广探索第 16 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 其中 $0< \alpha< \beta< \pi$.
 
 (1) 求证: $\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}-\boldsymbol{b}$ 互相垂直;
 
@@ -426,4 +426,4 @@ $\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=1+k^2-2k\cos\left(\beta-\alpha\rig
 
 $4k\cos\left(\beta-\alpha\right)=0$. $\cos\left(\beta-\alpha\right)=0$.
 
-$0<\beta-\alpha<\pi$, 故 $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
+$0< \beta-\alpha< \pi$, 故 $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$

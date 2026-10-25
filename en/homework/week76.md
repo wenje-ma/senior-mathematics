@@ -4,7 +4,7 @@
 
 > **Definition 5.1.3** (Geometric Meaning of the Derivative) <br>The derivative $f'\left(x_{0}\right)$ of the function $y=f\left(x\right)$ at $x=x_{0}$ is exactly the slope of the tangent line to the curve at that point.
 
-> **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions) <br>(1) If $f\left(x\right)=c$ ($c$ a constant), then $f'\left(x\right)=0$; (2) if $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, $\alpha\neq0$), then $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) if $f\left(x\right)=\sin x$, then $f'\left(x\right)=\cos x$; (4) if $f\left(x\right)=\cos x$, then $f'\left(x\right)=-\sin x$; (5) if $f\left(x\right)=a^{x}$ ($a>0$, $a\neq1$), then $f'\left(x\right)=a^{x}\ln a$; in particular, if $f\left(x\right)=\mathrm e^{x}$, then $f'\left(x\right)=\mathrm e^{x}$; (6) if $f\left(x\right)=\log_{a}x$ ($a>0$, $a\neq1$), then $f'\left(x\right)=\frac{1}{x\ln a}$; in particular, if $f\left(x\right)=\ln x$, then $f'\left(x\right)=\frac{1}{x}$.
+> **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions) <br>(1) If $f\left(x\right)=c$ ($c$ a constant), then $f'\left(x\right)=0$; (2) if $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, $\alpha\neq0$), then $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) if $f\left(x\right)=\sin x$, then $f'\left(x\right)=\cos x$; (4) if $f\left(x\right)=\cos x$, then $f'\left(x\right)=-\sin x$; (5) if $f\left(x\right)=a^{x}$ ($a> 0$, $a\neq1$), then $f'\left(x\right)=a^{x}\ln a$; in particular, if $f\left(x\right)=\mathrm e^{x}$, then $f'\left(x\right)=\mathrm e^{x}$; (6) if $f\left(x\right)=\log_{a}x$ ($a> 0$, $a\neq1$), then $f'\left(x\right)=\frac{1}{x\ln a}$; in particular, if $f\left(x\right)=\ln x$, then $f'\left(x\right)=\frac{1}{x}$.
 
 > **Definition 5.2.2** (Rules for Arithmetic Operations on Derivatives) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$ ($g\left(x\right)\neq0$); $\left[cf\left(x\right)\right]'=cf'\left(x\right)$.
 
@@ -406,7 +406,7 @@ The tangent line passes through the point $P\left(0,0\right)$, so its equation i
 
 ### Problem 8
 
-(Exercise 5.2, Comprehensive Application, Problem 8) Given $f\left(x\right)=\frac{x^{2}}{2}+2x-3\ln x$, find the derivative of $f\left(x\right)$ and the solution set of $f'\left(x\right)>0$.
+(Exercise 5.2, Comprehensive Application, Problem 8) Given $f\left(x\right)=\frac{x^{2}}{2}+2x-3\ln x$, find the derivative of $f\left(x\right)$ and the solution set of $f'\left(x\right)> 0$.
 
 ### Solution to Problem 8
 
@@ -416,15 +416,15 @@ $$
 f'\left(x\right)=x+2-\frac{3}{x}.
 $$
 
-Setting $f'\left(x\right)>0$, i.e. $x+2-\frac{3}{x}>0$. The domain of the function is $x>0$; multiplying both sides by $x$, we get
+Setting $f'\left(x\right)> 0$, i.e. $x+2-\frac{3}{x}> 0$. The domain of the function is $x> 0$; multiplying both sides by $x$, we get
 
 $$
-x^{2}+2x-3>0.
+x^{2}+2x-3> 0.
 $$
 
-Solving the inequality $\left(x+3\right)\left(x-1\right)>0$, we get $x<-3$ or $x>1$. Combining with the domain $x>0$, we get $x>1$.
+Solving the inequality $\left(x+3\right)\left(x-1\right)> 0$, we get $x< -3$ or $x> 1$. Combining with the domain $x> 0$, we get $x> 1$.
 
-Hence the solution set of $f'\left(x\right)>0$ is $\left\{x\mid x>1\right\}$. $\blacksquare$
+Hence the solution set of $f'\left(x\right)> 0$ is $\left\{x\mid x> 1\right\}$. $\blacksquare$
 
 ### Problem 9
 

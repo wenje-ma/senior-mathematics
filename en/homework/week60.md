@@ -1,6 +1,6 @@
 # Assignment 60
 
-> **Definition 2.1.1** (Inclination Angle) <br>When a line $l$ intersects the $x$-axis, we take the $x$-axis as the reference, and the angle $\alpha$ formed between the positive direction of the $x$-axis and the upward direction of line $l$ is called the inclination angle of line $l$. When line $l$ is parallel to or coincident with the $x$-axis, we stipulate that its inclination angle is $0^\circ$. Therefore, the range of the inclination angle $\alpha$ of a line is $0^\circ\le\alpha<180^\circ$.
+> **Definition 2.1.1** (Inclination Angle) <br>When a line $l$ intersects the $x$-axis, we take the $x$-axis as the reference, and the angle $\alpha$ formed between the positive direction of the $x$-axis and the upward direction of line $l$ is called the inclination angle of line $l$. When line $l$ is parallel to or coincident with the $x$-axis, we stipulate that its inclination angle is $0^\circ$. Therefore, the range of the inclination angle $\alpha$ of a line is $0^\circ\le\alpha< 180^\circ$.
 
 > **Definition 2.1.2** (Slope) <br>We call the tangent value of the inclination angle $\alpha$ of a line the slope of that line. The slope is commonly denoted by the lowercase letter $k$, i.e. $k=\tan\alpha$. A line whose inclination angle is $90^\circ$ has no slope, and every line whose inclination angle is not $90^\circ$ has a slope.
 
@@ -50,15 +50,15 @@ By **Definition 2.1.2** (Slope), the slope of a line is the tangent value of its
 
 ### Solution to Exercise 2
 
-By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and the range of the inclination angle is $0^\circ\le\alpha<180^\circ$.
+By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and the range of the inclination angle is $0^\circ\le\alpha< 180^\circ$.
 
-(1) From $\tan\alpha=0$ and $0^\circ\le\alpha<180^\circ$, we get $\alpha=0^\circ$.
+(1) From $\tan\alpha=0$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=0^\circ$.
 
-(2) From $\tan\alpha=\sqrt 3$ and $0^\circ\le\alpha<180^\circ$, we get $\alpha=60^\circ$.
+(2) From $\tan\alpha=\sqrt 3$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=60^\circ$.
 
-(3) From $\tan\alpha=-\sqrt 3$ and $0^\circ\le\alpha<180^\circ$, we get $\alpha=120^\circ$.
+(3) From $\tan\alpha=-\sqrt 3$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=120^\circ$.
 
-(4) From $\tan\alpha=-\frac{\sqrt 3}{3}$ and $0^\circ\le\alpha<180^\circ$, we get $\alpha=150^\circ$. $\blacksquare$
+(4) From $\tan\alpha=-\frac{\sqrt 3}{3}$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=150^\circ$. $\blacksquare$
 
 ### Exercise 3
 
@@ -70,11 +70,11 @@ By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and the range of the inclinatio
 
 ### Solution to Exercise 3
 
-By **Common Conclusion 2.1.3** (Slope Formula), the slope of the line through two points is $k=\frac{y_2-y_1}{x_2-x_1}$; by **Definition 2.1.2** (Slope), when $k>0$ the inclination angle is acute, and when $k<0$ the inclination angle is obtuse.
+By **Common Conclusion 2.1.3** (Slope Formula), the slope of the line through two points is $k=\frac{y_2-y_1}{x_2-x_1}$; by **Definition 2.1.2** (Slope), when $k> 0$ the inclination angle is acute, and when $k< 0$ the inclination angle is obtuse.
 
-(1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. Since $k_{CD}>0$, the inclination angle is acute.
+(1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. Since $k_{CD}> 0$, the inclination angle is acute.
 
-(2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. Since $k_{PQ}<0$, the inclination angle is obtuse. $\blacksquare$
+(2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. Since $k_{PQ}< 0$, the inclination angle is obtuse. $\blacksquare$
 
 ### Exercise 4
 
@@ -90,11 +90,11 @@ By **Common Conclusion 2.1.3** (Slope Formula), the slope of the line through tw
 
 By **Common Conclusion 2.1.3** (Slope Formula) and **Definition 2.1.2** (Slope).
 
-(1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$; from $\tan\alpha=0$ and $0^\circ\le\alpha<180^\circ$, we get $\alpha=0^\circ$.
+(1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$; from $\tan\alpha=0$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=0^\circ$.
 
 (2) The two points $C,D$ have the same abscissa, i.e. $x_1=x_2=a$, in which case the denominator of the slope formula is zero and the line has no slope. By **Definition 2.1.1** (Inclination Angle), the line is perpendicular to the $x$-axis, so $\alpha=90^\circ$.
 
-(3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$; from $\tan\alpha=1$ and $0^\circ\le\alpha<180^\circ$, we get $\alpha=45^\circ$. $\blacksquare$
+(3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$; from $\tan\alpha=1$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=45^\circ$. $\blacksquare$
 
 ### Exercise 5
 
@@ -176,7 +176,7 @@ Simplifying gives $\frac{m-1}{-m-1}=-3$, i.e. $m-1=3\left(m+1\right)$, i.e. $m-1
 
 By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and $\lvert k \rvert=1$.
 
-From $\lvert \tan\alpha \rvert=1$, we get $\tan\alpha=1$ or $\tan\alpha=-1$. Also the range of the inclination angle is $0^\circ\le\alpha<180^\circ$: when $\tan\alpha=1$, $\alpha=45^\circ$; when $\tan\alpha=-1$, $\alpha=135^\circ$. Hence the inclination angle of the line is $45^\circ$ or $135^\circ$. $\blacksquare$
+From $\lvert \tan\alpha \rvert=1$, we get $\tan\alpha=1$ or $\tan\alpha=-1$. Also the range of the inclination angle is $0^\circ\le\alpha< 180^\circ$: when $\tan\alpha=1$, $\alpha=45^\circ$; when $\tan\alpha=-1$, $\alpha=135^\circ$. Hence the inclination angle of the line is $45^\circ$ or $135^\circ$. $\blacksquare$
 
 ### Problem 2
 

@@ -4,9 +4,9 @@
 
 > **Definition 3.1.2** (Domain and Range) <br>$x$ is called the independent variable, and the range $A$ of values of $x$ is called the domain of the function; the value $y$ corresponding to the value of $x$ is called the function value, and the set of function values $\left\{f\left(x\right)\mid x\in A\right\}$ is called the range of the function.
 
-> **Definition 3.2.1** (Monotone Increasing and Increasing Function) <br>Let the domain of the function $f\left(x\right)$ be $D$, and let $I\subseteq D$ be an interval: if for $\forall x_1,x_2\in I$, whenever $x_1<x_2$, we always have $f\left(x_1\right)<f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically increasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically increasing on its domain, it is called an increasing function.
+> **Definition 3.2.1** (Monotone Increasing and Increasing Function) <br>Let the domain of the function $f\left(x\right)$ be $D$, and let $I\subseteq D$ be an interval: if for $\forall x_1,x_2\in I$, whenever $x_1< x_2$, we always have $f\left(x_1\right)< f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically increasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically increasing on its domain, it is called an increasing function.
 
-> **Definition 3.2.2** (Monotone Decreasing and Decreasing Function) <br>If for $\forall x_1,x_2\in I$, whenever $x_1<x_2$, we always have $f\left(x_1\right)>f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically decreasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically decreasing on its domain, it is called a decreasing function. If the function $y=f\left(x\right)$ is monotonically increasing or monotonically decreasing on the interval $I$, then the function $y=f\left(x\right)$ is said to have (strict) monotonicity on this interval, and the interval $I$ is called a monotonic interval of $y=f\left(x\right)$.
+> **Definition 3.2.2** (Monotone Decreasing and Decreasing Function) <br>If for $\forall x_1,x_2\in I$, whenever $x_1< x_2$, we always have $f\left(x_1\right)> f\left(x_2\right)$, then the function $f\left(x\right)$ is said to be monotonically decreasing on the interval $I$. In particular, when the function $f\left(x\right)$ is monotonically decreasing on its domain, it is called a decreasing function. If the function $y=f\left(x\right)$ is monotonically increasing or monotonically decreasing on the interval $I$, then the function $y=f\left(x\right)$ is said to have (strict) monotonicity on this interval, and the interval $I$ is called a monotonic interval of $y=f\left(x\right)$.
 
 > **Definition 3.2.3** (Maximum Value) <br>Let the domain of the function $y=f\left(x\right)$ be $D$. If there exists a real number $M$ satisfying: (1) for $\forall x\in D$, we always have $f\left(x\right)\le M$; (2) $\exists x_0\in D$ such that $f\left(x_0\right)=M$. Then $M$ is called the maximum value of the function $y=f\left(x\right)$.
 
@@ -34,15 +34,15 @@ The production efficiency first rises as the number of workers increases, reache
 
 ### Solution to Exercise 2
 
-By **Definition 3.2.1** (Monotone Increasing and Increasing Function), take any $x_1<x_2$ and prove $f\left(x_1\right)<f\left(x_2\right)$.
+By **Definition 3.2.1** (Monotone Increasing and Increasing Function), take any $x_1< x_2$ and prove $f\left(x_1\right)< f\left(x_2\right)$.
 
-For $\forall x_1,x_2\in\mathbb R$ with $x_1<x_2$, we have
+For $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have
 
 $$
 f\left(x_1\right)-f\left(x_2\right)=\left(3x_1+2\right)-\left(3x_2+2\right)=3\left(x_1-x_2\right).
 $$
 
-From $x_1<x_2$, we get $x_1-x_2<0$, and since $3>0$, we have $3\left(x_1-x_2\right)<0$, i.e. $f\left(x_1\right)-f\left(x_2\right)<0$, equivalently $f\left(x_1\right)<f\left(x_2\right)$. Thus $f\left(x\right)=3x+2$ is an increasing function. $\blacksquare$
+From $x_1< x_2$, we get $x_1-x_2< 0$, and since $3> 0$, we have $3\left(x_1-x_2\right)< 0$, i.e. $f\left(x_1\right)-f\left(x_2\right)< 0$, equivalently $f\left(x_1\right)< f\left(x_2\right)$. Thus $f\left(x\right)=3x+2$ is an increasing function. $\blacksquare$
 
 ### Exercise 3
 
@@ -50,15 +50,15 @@ From $x_1<x_2$, we get $x_1-x_2<0$, and since $3>0$, we have $3\left(x_1-x_2\rig
 
 ### Solution to Exercise 3
 
-By **Definition 3.2.1** (Monotone Increasing and Increasing Function), take any $x_1<x_2<0$ and prove $f\left(x_1\right)<f\left(x_2\right)$.
+By **Definition 3.2.1** (Monotone Increasing and Increasing Function), take any $x_1< x_2< 0$ and prove $f\left(x_1\right)< f\left(x_2\right)$.
 
-For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1<x_2$, we have
+For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2$, we have
 
 $$
 f\left(x_1\right)-f\left(x_2\right)=-\frac{2}{x_1}-\left(-\frac{2}{x_2}\right)=\frac{2}{x_2}-\frac{2}{x_1}=\frac{2\left(x_1-x_2\right)}{x_1x_2}.
 $$
 
-From $x_1<x_2<0$, we get $x_1-x_2<0$ and $x_1x_2>0$, and since $2>0$, we have $\frac{2\left(x_1-x_2\right)}{x_1x_2}<0$, i.e. $f\left(x_1\right)-f\left(x_2\right)<0$, equivalently $f\left(x_1\right)<f\left(x_2\right)$. Thus $f\left(x\right)=-\frac{2}{x}$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
+From $x_1< x_2< 0$, we get $x_1-x_2< 0$ and $x_1x_2> 0$, and since $2> 0$, we have $\frac{2\left(x_1-x_2\right)}{x_1x_2}< 0$, i.e. $f\left(x_1\right)-f\left(x_2\right)< 0$, equivalently $f\left(x_1\right)< f\left(x_2\right)$. Thus $f\left(x\right)=-\frac{2}{x}$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
 
 ### Exercise 4
 
@@ -76,7 +76,7 @@ By **Definition 3.1.2** (Domain and Range) and **Definition 3.2.1** (Monotone In
 
 (1) The fraction $\frac{k}{x}$ requires $x\ne0$, so the domain is $D=\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-(2) When $k>0$, the graph lies in the first and third quadrants: it is monotonically decreasing on $\left(-\infty,0\right)$ and also monotonically decreasing on $\left(0,+\infty\right)$. Proof: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1<x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{k}{x_1}-\frac{k}{x_2}=\frac{k\left(x_2-x_1\right)}{x_1x_2}>0$, i.e. $f\left(x_1\right)>f\left(x_2\right)$, so it is monotonically decreasing. Similarly it is monotonically decreasing on $\left(-\infty,0\right)$. When $k<0$, the graph lies in the second and fourth quadrants, and it is monotonically increasing on both intervals. $\blacksquare$
+(2) When $k> 0$, the graph lies in the first and third quadrants: it is monotonically decreasing on $\left(-\infty,0\right)$ and also monotonically decreasing on $\left(0,+\infty\right)$. Proof: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{k}{x_1}-\frac{k}{x_2}=\frac{k\left(x_2-x_1\right)}{x_1x_2}> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically decreasing. Similarly it is monotonically decreasing on $\left(-\infty,0\right)$. When $k< 0$, the graph lies in the second and fourth quadrants, and it is monotonically increasing on both intervals. $\blacksquare$
 
 ### Exercise 5
 
@@ -204,11 +204,11 @@ By **Definition 3.2.1** (Monotone Increasing and Increasing Function) and **Defi
 
 By **Definition 3.2.1** (Monotone Increasing and Increasing Function) and **Definition 3.2.2** (Monotone Decreasing and Decreasing Function).
 
-(1) For $\forall x_1,x_2\in\mathbb R$ with $x_1<x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(-2x_1+1\right)-\left(-2x_2+1\right)=-2\left(x_1-x_2\right)$. From $x_1<x_2$ we get $x_1-x_2<0$, so $-2\left(x_1-x_2\right)>0$, i.e. $f\left(x_1\right)>f\left(x_2\right)$, so $f\left(x\right)=-2x+1$ is a decreasing function.
+(1) For $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(-2x_1+1\right)-\left(-2x_2+1\right)=-2\left(x_1-x_2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$, so $-2\left(x_1-x_2\right)> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so $f\left(x\right)=-2x+1$ is a decreasing function.
 
-(2) For $\forall x_1,x_2\in\left(0,+\infty\right)$ with $x_1<x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(x_1^2+1\right)-\left(x_2^2+1\right)=x_1^2-x_2^2=\left(x_1-x_2\right)\left(x_1+x_2\right)$. From $x_1<x_2$ we get $x_1-x_2<0$, and from $x_1,x_2>0$ we get $x_1+x_2>0$, so $f\left(x_1\right)-f\left(x_2\right)<0$, i.e. $f\left(x_1\right)<f\left(x_2\right)$, so it is monotonically increasing.
+(2) For $\forall x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(x_1^2+1\right)-\left(x_2^2+1\right)=x_1^2-x_2^2=\left(x_1-x_2\right)\left(x_1+x_2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$, and from $x_1,x_2> 0$ we get $x_1+x_2> 0$, so $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically increasing.
 
-(3) For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1<x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(1-\frac{1}{x_1}\right)-\left(1-\frac{1}{x_2}\right)=\frac{1}{x_2}-\frac{1}{x_1}=\frac{x_1-x_2}{x_1x_2}$. From $x_1<x_2<0$ we get $x_1-x_2<0$ and $x_1x_2>0$, so $f\left(x_1\right)-f\left(x_2\right)<0$, i.e. $f\left(x_1\right)<f\left(x_2\right)$, so it is monotonically increasing. $\blacksquare$
+(3) For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(1-\frac{1}{x_1}\right)-\left(1-\frac{1}{x_2}\right)=\frac{1}{x_2}-\frac{1}{x_1}=\frac{x_1-x_2}{x_1x_2}$. From $x_1< x_2< 0$ we get $x_1-x_2< 0$ and $x_1x_2> 0$, so $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically increasing. $\blacksquare$
 
 ### Problem 4
 
@@ -276,43 +276,43 @@ $f\left(x\right)=x^2-2x=\left(x-1\right)^2-1$, with vertex $\left(1,-1\right)$.
 
 (2) Discuss the monotonicity of the function $y=x+\frac{9}{x}$ on the interval $\left(0,+\infty\right)$.
 
-(3) Discuss the monotonicity of the function $y=x+\frac{k}{x}$ ($k>0$) on the interval $\left(0,+\infty\right)$.
+(3) Discuss the monotonicity of the function $y=x+\frac{k}{x}$ ($k> 0$) on the interval $\left(0,+\infty\right)$.
 
 ### Solution to Problem 8
 
 By **Definition 3.2.1** (Monotone Increasing and Increasing Function) and **Definition 3.2.2** (Monotone Decreasing and Decreasing Function).
 
-(1) For $\forall x_1,x_2\in\left[3,+\infty\right)$ with $x_1<x_2$, we have
+(1) For $\forall x_1,x_2\in\left[3,+\infty\right)$ with $x_1< x_2$, we have
 
 $$
 y_1-y_2=\left(x_1+\frac{9}{x_1}\right)-\left(x_2+\frac{9}{x_2}\right)=\left(x_1-x_2\right)+9\left(\frac{1}{x_1}-\frac{1}{x_2}\right)=\left(x_1-x_2\right)\left(1-\frac{9}{x_1x_2}\right).
 $$
 
-From $x_1,x_2\ge3$ we get $x_1x_2\ge9$, so $1-\frac{9}{x_1x_2}\ge0$; from $x_1<x_2$ we get $x_1-x_2<0$. When $x_1,x_2>3$, $x_1x_2>9$, so $1-\frac{9}{x_1x_2}>0$, and hence $y_1-y_2<0$, i.e. $y_1<y_2$, so it is monotonically increasing.
+From $x_1,x_2\ge3$ we get $x_1x_2\ge9$, so $1-\frac{9}{x_1x_2}\ge0$; from $x_1< x_2$ we get $x_1-x_2< 0$. When $x_1,x_2> 3$, $x_1x_2> 9$, so $1-\frac{9}{x_1x_2}> 0$, and hence $y_1-y_2< 0$, i.e. $y_1< y_2$, so it is monotonically increasing.
 
-(2) By the same reasoning as (1), when $x_1,x_2\in\left(0,3\right)$ with $x_1<x_2$, $x_1x_2<9$, so $1-\frac{9}{x_1x_2}<0$, and hence $y_1-y_2>0$, i.e. $y_1>y_2$, so it is monotonically decreasing. Thus $y=x+\frac{9}{x}$ is monotonically decreasing on $\left(0,3\right]$ and monotonically increasing on $\left[3,+\infty\right)$.
+(2) By the same reasoning as (1), when $x_1,x_2\in\left(0,3\right)$ with $x_1< x_2$, $x_1x_2< 9$, so $1-\frac{9}{x_1x_2}< 0$, and hence $y_1-y_2> 0$, i.e. $y_1> y_2$, so it is monotonically decreasing. Thus $y=x+\frac{9}{x}$ is monotonically decreasing on $\left(0,3\right]$ and monotonically increasing on $\left[3,+\infty\right)$.
 
-(3) For $y=x+\frac{k}{x}$ ($k>0$), by the same reasoning we get $y_1-y_2=\left(x_1-x_2\right)\left(1-\frac{k}{x_1x_2}\right)$. It is decreasing when $x_1x_2<k$ and increasing when $x_1x_2>k$. The dividing point is $x=\sqrt k$, so it is monotonically decreasing on $\left(0,\sqrt k\right]$ and monotonically increasing on $\left[\sqrt k,+\infty\right)$. $\blacksquare$
+(3) For $y=x+\frac{k}{x}$ ($k> 0$), by the same reasoning we get $y_1-y_2=\left(x_1-x_2\right)\left(1-\frac{k}{x_1x_2}\right)$. It is decreasing when $x_1x_2< k$ and increasing when $x_1x_2> k$. The dividing point is $x=\sqrt k$, so it is monotonically decreasing on $\left(0,\sqrt k\right]$ and monotonically increasing on $\left[\sqrt k,+\infty\right)$. $\blacksquare$
 
 ### Problem 9
 
 (Exercise 3.2, Comprehensive Application, Problem 9) Let the domain of the function $y=f\left(x\right)$ be $D$, let $I\subseteq D$ be an interval, and write $\Delta x=x_1-x_2$, $\Delta y=f\left(x_1\right)-f\left(x_2\right)$. Prove that:
 
-(1) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically increasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}>0$;
+(1) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically increasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}> 0$;
 
-(2) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically decreasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}<0$.
+(2) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically decreasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}< 0$.
 
 ### Solution to Problem 9
 
 By **Definition 3.2.1** (Monotone Increasing and Increasing Function) and **Definition 3.2.2** (Monotone Decreasing and Decreasing Function).
 
-(1) Necessity: If $f$ is monotonically increasing on $I$, then for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, without loss of generality let $x_1>x_2$, then $\Delta x=x_1-x_2>0$, and $f\left(x_1\right)>f\left(x_2\right)$, i.e. $\Delta y>0$, so $\frac{\Delta y}{\Delta x}>0$.
+(1) Necessity: If $f$ is monotonically increasing on $I$, then for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, without loss of generality let $x_1> x_2$, then $\Delta x=x_1-x_2> 0$, and $f\left(x_1\right)> f\left(x_2\right)$, i.e. $\Delta y> 0$, so $\frac{\Delta y}{\Delta x}> 0$.
 
-Sufficiency: If $\frac{\Delta y}{\Delta x}>0$, then $\Delta y$ and $\Delta x$ have the same sign. When $x_1>x_2$, $\Delta x>0$, so $\Delta y>0$, i.e. $f\left(x_1\right)>f\left(x_2\right)$, so it is monotonically increasing.
+Sufficiency: If $\frac{\Delta y}{\Delta x}> 0$, then $\Delta y$ and $\Delta x$ have the same sign. When $x_1> x_2$, $\Delta x> 0$, so $\Delta y> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically increasing.
 
-(2) Necessity: If $f$ is monotonically decreasing on $I$, then when $x_1>x_2$, $\Delta x>0$, and $f\left(x_1\right)<f\left(x_2\right)$, i.e. $\Delta y<0$, so $\frac{\Delta y}{\Delta x}<0$.
+(2) Necessity: If $f$ is monotonically decreasing on $I$, then when $x_1> x_2$, $\Delta x> 0$, and $f\left(x_1\right)< f\left(x_2\right)$, i.e. $\Delta y< 0$, so $\frac{\Delta y}{\Delta x}< 0$.
 
-Sufficiency: If $\frac{\Delta y}{\Delta x}<0$, then $\Delta y$ and $\Delta x$ have opposite signs. When $x_1>x_2$, $\Delta x>0$, so $\Delta y<0$, i.e. $f\left(x_1\right)<f\left(x_2\right)$, so it is monotonically decreasing. $\blacksquare$
+Sufficiency: If $\frac{\Delta y}{\Delta x}< 0$, then $\Delta y$ and $\Delta x$ have opposite signs. When $x_1> x_2$, $\Delta x> 0$, so $\Delta y< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically decreasing. $\blacksquare$
 
 ### Problem 10
 
@@ -332,19 +332,19 @@ When $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$, $S$ attains its maximum $S_{\m
 
 (Exercise 3.2, Comprehensive Application, Problem 11) Given that the function $f\left(x\right)$ is an odd function with domain $\mathbb R$, and when $x\ge0$, $f\left(x\right)=x\left(1+x\right)$. Draw the graph of the function $f\left(x\right)$ and find its analytic expression.
 
-(Figure: in the coordinate system, the $x\ge0$ part is the right half of an upward-opening parabola, and the $x<0$ part is its central-symmetric counterpart about the origin.)
+(Figure: in the coordinate system, the $x\ge0$ part is the right half of an upward-opening parabola, and the $x< 0$ part is its central-symmetric counterpart about the origin.)
 
 ### Solution to Problem 11
 
-By **Definition 3.2.6** (Odd Function), use $f\left(x\right)=-f\left(-x\right)$ to find the analytic expression when $x<0$.
+By **Definition 3.2.6** (Odd Function), use $f\left(x\right)=-f\left(-x\right)$ to find the analytic expression when $x< 0$.
 
-When $x<0$, $-x>0$, so $f\left(-x\right)=\left(-x\right)\left(1-x\right)=-x\left(1-x\right)$. By the property of odd functions, $f\left(x\right)=-f\left(-x\right)=x\left(1-x\right)$. Thus
+When $x< 0$, $-x> 0$, so $f\left(-x\right)=\left(-x\right)\left(1-x\right)=-x\left(1-x\right)$. By the property of odd functions, $f\left(x\right)=-f\left(-x\right)=x\left(1-x\right)$. Thus
 
 $$
-f\left(x\right)=\begin{cases}x\left(1+x\right), & x\ge0,\\x\left(1-x\right), & x<0.\end{cases}
+f\left(x\right)=\begin{cases}x\left(1+x\right), & x\ge0,\\x\left(1-x\right), & x< 0.\end{cases}
 $$
 
-The graph is the right half of a parabola opening upward when $x\ge0$, and its centrally symmetric figure about the origin when $x<0$. $\blacksquare$
+The graph is the right half of a parabola opening upward when $x\ge0$, and its centrally symmetric figure about the origin when $x< 0$. $\blacksquare$
 
 ### Problem 12
 
@@ -354,7 +354,7 @@ The graph is the right half of a parabola opening upward when $x\ge0$, and its c
 
 By **Definition 3.2.5** (Even Function) and **Definition 3.2.1** (Monotone Increasing and Increasing Function), use the property of even functions to transform.
 
-$f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. Proof: take any $x_1,x_2\in\left(-\infty,0\right)$ with $x_1<x_2<0$, then $-x_1>-x_2>0$. Since $f\left(x\right)$ is monotonically decreasing on $\left(0,+\infty\right)$, we get $f\left(-x_1\right)<f\left(-x_2\right)$. Also since $f\left(x\right)$ is an even function, $f\left(-x_1\right)=f\left(x_1\right)$ and $f\left(-x_2\right)=f\left(x_2\right)$, so $f\left(x_1\right)<f\left(x_2\right)$. Therefore $f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
+$f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. Proof: take any $x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2< 0$, then $-x_1> -x_2> 0$. Since $f\left(x\right)$ is monotonically decreasing on $\left(0,+\infty\right)$, we get $f\left(-x_1\right)< f\left(-x_2\right)$. Also since $f\left(x\right)$ is an even function, $f\left(-x_1\right)=f\left(x_1\right)$ and $f\left(-x_2\right)=f\left(x_2\right)$, so $f\left(x_1\right)< f\left(x_2\right)$. Therefore $f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
 
 ### Problem 13
 
@@ -386,7 +386,7 @@ For an odd function, $g\left(x\right)$ must contain no even-powered terms and no
 
 By **Definition 3.1.6** (Ways of Representing a Function), observe from the graphs the influence of the coefficients on the shape and position of the parabola.
 
-(1) The coefficient $a$ determines the opening direction and width: when $a>0$ it opens upward, and when $a<0$ it opens downward; the larger $\left|a\right|$ is, the narrower the opening, and the smaller $\left|a\right|$ is, the wider the opening.
+(1) The coefficient $a$ determines the opening direction and width: when $a> 0$ it opens upward, and when $a< 0$ it opens downward; the larger $\left|a\right|$ is, the narrower the opening, and the smaller $\left|a\right|$ is, the wider the opening.
 
 (2) The coefficient $c$ determines the position of the intersection of the graph with the $y$-axis: when $x=0$, $y=c$, so the graph intersects the $y$-axis at the point $\left(0,c\right)$.
 

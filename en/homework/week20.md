@@ -378,13 +378,13 @@ From the sum of the interior angles of a triangle, $A+B+C=\pi$, we get $A+B=\pi-
 
 ### Problem 8
 
-(Exercise 5.3, Comprehensive Application, Problem 8) Given $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$ and $0<x<\frac{\pi}{2}$, find the values of $\sin\left(\frac{\pi}{6}+x\right)$ and $\cos\left(\frac{\pi}{3}+x\right)$.
+(Exercise 5.3, Comprehensive Application, Problem 8) Given $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$ and $0< x< \frac{\pi}{2}$, find the values of $\sin\left(\frac{\pi}{6}+x\right)$ and $\cos\left(\frac{\pi}{3}+x\right)$.
 
 ### Solution to Problem 8
 
 By **Formula 5**, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-(1) Since $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, we get $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. From $0<x<\frac{\pi}{2}$, we get $-\frac{\pi}{6}<\frac{\pi}{3}-x<\frac{\pi}{3}$, so $\cos\left(\frac{\pi}{3}-x\right)>0$. From $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, we get $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. Hence $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
+(1) Since $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, we get $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. From $0< x< \frac{\pi}{2}$, we get $-\frac{\pi}{6}< \frac{\pi}{3}-x< \frac{\pi}{3}$, so $\cos\left(\frac{\pi}{3}-x\right)> 0$. From $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, we get $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. Hence $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
 
 (2) Since $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, the reduction formulas cannot be used directly. Note that $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, while $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. Note also that $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, so $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. From $\cos\left(\pi-\alpha\right)=-\cos\alpha$, we get $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. Since $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, we get $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$
 

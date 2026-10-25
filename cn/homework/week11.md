@@ -1,8 +1,8 @@
 # 作业 11
 
-> **定义 3.2.1** (单调递增与增函数) <br>设函数 $f\left(x\right)$ 的定义域为 $D$, 区间 $I\subseteq D$: 如果 $\forall x_1,x_2\in I$, 当 $x_1<x_2$ 时, 都有 $f\left(x_1\right)<f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递增. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递增时, 就称它是增函数.
+> **定义 3.2.1** (单调递增与增函数) <br>设函数 $f\left(x\right)$ 的定义域为 $D$, 区间 $I\subseteq D$: 如果 $\forall x_1,x_2\in I$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递增. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递增时, 就称它是增函数.
 
-> **定义 3.2.2** (单调递减与减函数) <br>如果 $\forall x_1,x_2\in I$, 当 $x_1<x_2$ 时, 都有 $f\left(x_1\right)>f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递减. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递减时, 就称它是减函数.
+> **定义 3.2.2** (单调递减与减函数) <br>如果 $\forall x_1,x_2\in I$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $I$ 上单调递减. 特别地, 当函数 $f\left(x\right)$ 在它的定义域上单调递减时, 就称它是减函数.
 
 > **定义 3.2.5** (偶函数) <br>设函数 $f\left(x\right)$ 的定义域为 $D$, 如果 $\forall x\in D$, 都有 $-x\in D$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
 
@@ -34,9 +34,9 @@
 
 由**常用结论 3.3.2** (幂函数的性质), 利用幂函数的单调性比较.
 
-(1) 函数 $y=x^3$ 在 $\mathbb R$ 上单调递增. 由 $-1.5<-1.4$, 得 $\left(-1.5\right)^3<\left(-1.4\right)^3$.
+(1) 函数 $y=x^3$ 在 $\mathbb R$ 上单调递增. 由 $-1.5< -1.4$, 得 $\left(-1.5\right)^3< \left(-1.4\right)^3$.
 
-(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. 函数 $y=x^{-1}=\frac{1}{x}$ 在 $\left(0,+\infty\right)$ 上单调递减. 由 $1.5>1.4>0$, 得 $\frac{1}{1.5}<\frac{1}{1.4}$, 故 $-\frac{1}{1.5}>-\frac{1}{1.4}$, 即 $\frac{1}{-1.5}>\frac{1}{-1.4}$. $\blacksquare$
+(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. 函数 $y=x^{-1}=\frac{1}{x}$ 在 $\left(0,+\infty\right)$ 上单调递减. 由 $1.5> 1.4> 0$, 得 $\frac{1}{1.5}< \frac{1}{1.4}$, 故 $-\frac{1}{1.5}> -\frac{1}{1.4}$, 即 $\frac{1}{-1.5}> \frac{1}{-1.4}$. $\blacksquare$
 
 ### 练习三
 
@@ -46,7 +46,7 @@
 
 由**定义 3.2.1** (单调递增与增函数) 及**定义 3.2.6** (奇函数).
 
-单调性: $\forall x_1,x_2\in\mathbb R$, $x_1<x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. 由 $x_1<x_2$ 得 $x_1-x_2<0$. 当 $x_1,x_2$ 同号时 $x_1^2+x_1x_2+x_2^2>0$; 当 $x_1x_2\le0$ 时 $x_1^2+x_2^2>0$ 且 $x_1x_2\le0$, 但 $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}>0$. 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<f\left(x_2\right)$, 因此 $f\left(x\right)=x^3$ 在 $\mathbb R$ 上单调递增.
+单调性: $\forall x_1,x_2\in\mathbb R$, $x_1< x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. 由 $x_1< x_2$ 得 $x_1-x_2< 0$. 当 $x_1,x_2$ 同号时 $x_1^2+x_1x_2+x_2^2> 0$; 当 $x_1x_2\le0$ 时 $x_1^2+x_2^2> 0$ 且 $x_1x_2\le0$, 但 $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}> 0$. 故 $f\left(x_1\right)-f\left(x_2\right)< 0$, 即 $f\left(x_1\right)< f\left(x_2\right)$, 因此 $f\left(x\right)=x^3$ 在 $\mathbb R$ 上单调递增.
 
 奇偶性: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, 故 $f\left(x\right)=x^3$ 为奇函数. $\blacksquare$
 
@@ -54,19 +54,19 @@
 
 (习题 3.3 复习巩固第 1 题) 画出函数 $y=\sqrt{\left|x\right|}$ 的图象, 并判断函数的奇偶性, 讨论函数的单调性.
 
-图：平面直角坐标系中，函数 $y=\sqrt{\left|x\right|}$ 的图象关于 $y$ 轴对称；$x\ge0$ 部分为曲线 $y=\sqrt x$，从原点 $\left(0,0\right)$ 出发向右上方上升，$x<0$ 部分为其关于 $y$ 轴的镜像，从原点出发向左上方上升。
+图：平面直角坐标系中，函数 $y=\sqrt{\left|x\right|}$ 的图象关于 $y$ 轴对称；$x\ge0$ 部分为曲线 $y=\sqrt x$，从原点 $\left(0,0\right)$ 出发向右上方上升，$x< 0$ 部分为其关于 $y$ 轴的镜像，从原点出发向左上方上升。
 
 ### 解答 习题一
 
 由**定义 3.2.5** (偶函数) 及**定义 3.2.1** (单调递增与增函数).
 
 $$
-y=\sqrt{\left|x\right|}=\begin{cases}\sqrt x, & x\ge0,\\\sqrt{-x}, & x<0.\end{cases}
+y=\sqrt{\left|x\right|}=\begin{cases}\sqrt x, & x\ge0,\\\sqrt{-x}, & x< 0.\end{cases}
 $$
 
 奇偶性: $f\left(-x\right)=\sqrt{\left|-x\right|}=\sqrt{\left|x\right|}=f\left(x\right)$, 故为偶函数.
 
-单调性: 当 $x\ge0$ 时, $y=\sqrt x$ 单调递增; 当 $x<0$ 时, $y=\sqrt{-x}$ 单调递减. 故单调递增区间为 $\left[0,+\infty\right)$, 单调递减区间为 $\left(-\infty,0\right]$. 图象关于 $y$ 轴对称, 在右侧为 $y=\sqrt x$ 的曲线, 左侧为其关于 $y$ 轴的镜像. $\blacksquare$
+单调性: 当 $x\ge0$ 时, $y=\sqrt x$ 单调递增; 当 $x< 0$ 时, $y=\sqrt{-x}$ 单调递减. 故单调递增区间为 $\left[0,+\infty\right)$, 单调递减区间为 $\left(-\infty,0\right]$. 图象关于 $y$ 轴对称, 在右侧为 $y=\sqrt x$ 的曲线, 左侧为其关于 $y$ 轴的镜像. $\blacksquare$
 
 ### 习题二
 
@@ -82,7 +82,7 @@ $$
 
 由**定义 3.3.1** (幂函数), 流量与半径四次方成正比.
 
-(1) 设比例系数为 $k$, 则 $v=kr^4$ ($k>0$).
+(1) 设比例系数为 $k$, 则 $v=kr^4$ ($k> 0$).
 
 (2) 由 $r=3$ 时 $v=400$, 得 $400=k\cdot3^4=81k$, 故 $k=\frac{400}{81}$. 因此 $v=\frac{400}{81}r^4$.
 
@@ -100,11 +100,11 @@ $$
 
 定义域: $x^{-2}=\frac{1}{x^2}$, 要求 $x\ne0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-值域: $\frac{1}{x^2}>0$, 故值域为 $\left(0,+\infty\right)$.
+值域: $\frac{1}{x^2}> 0$, 故值域为 $\left(0,+\infty\right)$.
 
 奇偶性: $f\left(-x\right)=\frac{1}{\left(-x\right)^2}=\frac{1}{x^2}=f\left(x\right)$, 故为偶函数.
 
-单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1<x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}>0$, 即 $f\left(x_1\right)>f\left(x_2\right)$, 故在 $\left(0,+\infty\right)$ 上单调递减. 由偶函数性质, 在 $\left(-\infty,0\right)$ 上单调递增.
+单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1< x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}> 0$, 即 $f\left(x_1\right)> f\left(x_2\right)$, 故在 $\left(0,+\infty\right)$ 上单调递减. 由偶函数性质, 在 $\left(-\infty,0\right)$ 上单调递增.
 
 图象: 在第一象限为递减的双曲线型曲线, 在第二象限为其关于 $y$ 轴的镜像, 以两坐标轴为渐近线. $\blacksquare$
 
@@ -146,15 +146,15 @@ $$
 
 ### 探究与发现四
 
-(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 证明: 当 $x>0$ 时, $x+\frac{1}{x}\ge2$, 当且仅当 $x=\frac{1}{x}$, 即 $x=1$ 时取得等号; 当 $x<0$ 时, $x+\frac{1}{x}\le-2$, 当且仅当 $x=\frac{1}{x}$, 即 $x=-1$ 时取得等号.
+(探究与发现 探究函数 $y=x+\frac{1}{x}$ 的图象与性质) 证明: 当 $x> 0$ 时, $x+\frac{1}{x}\ge2$, 当且仅当 $x=\frac{1}{x}$, 即 $x=1$ 时取得等号; 当 $x< 0$ 时, $x+\frac{1}{x}\le-2$, 当且仅当 $x=\frac{1}{x}$, 即 $x=-1$ 时取得等号.
 
 ### 解答 探究与发现四
 
 由**定义 3.2.3** (最大值) 及**定义 3.2.4** (最小值), 利用平方非负证明.
 
-当 $x>0$ 时, $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$, 展开得 $x-2+\frac{1}{x}\ge0$, 即 $x+\frac{1}{x}\ge2$. 等号当且仅当 $\sqrt x=\frac{1}{\sqrt x}$ 即 $x=1$ 时成立.
+当 $x> 0$ 时, $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$, 展开得 $x-2+\frac{1}{x}\ge0$, 即 $x+\frac{1}{x}\ge2$. 等号当且仅当 $\sqrt x=\frac{1}{\sqrt x}$ 即 $x=1$ 时成立.
 
-当 $x<0$ 时, 令 $t=-x>0$, 则 $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, 等号当且仅当 $t=1$ 即 $x=-1$ 时成立. $\blacksquare$
+当 $x< 0$ 时, 令 $t=-x> 0$, 则 $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, 等号当且仅当 $t=1$ 即 $x=-1$ 时成立. $\blacksquare$
 
 ### 探究与发现五
 
@@ -176,7 +176,7 @@ $$
 
 由**定义 3.2.1** (单调递增与增函数) 及**定义 3.2.2** (单调递减与减函数).
 
-当 $x\to+\infty$ 时, $y=\frac{1}{x}\to0$, 故 $y=x+\frac{1}{x}\approx x$, 图象趋近于直线 $y=x$. 当 $x\to0^+$ 时, $y=\frac{1}{x}\to+\infty$, 故 $y\to+\infty$. 在 $x>0$ 时, $y=x$ 递增, $y=\frac{1}{x}$ 递减, 两者叠加使函数在 $x=1$ 处取得极小值 $2$. $x<0$ 时由对称性同理. $\blacksquare$
+当 $x\to+\infty$ 时, $y=\frac{1}{x}\to0$, 故 $y=x+\frac{1}{x}\approx x$, 图象趋近于直线 $y=x$. 当 $x\to0^+$ 时, $y=\frac{1}{x}\to+\infty$, 故 $y\to+\infty$. 在 $x> 0$ 时, $y=x$ 递增, $y=\frac{1}{x}$ 递减, 两者叠加使函数在 $x=1$ 处取得极小值 $2$. $x< 0$ 时由对称性同理. $\blacksquare$
 
 ### 探究与发现七
 

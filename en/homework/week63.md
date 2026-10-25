@@ -6,9 +6,9 @@
 
 > **Definition 2.4.1** (Standard Equation of a Circle) <br>The standard equation of a circle with center $A\left(a,b\right)$ and radius $r$ is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$. In particular, when the center is at the origin $O\left(0,0\right)$, the equation is $x^2+y^2=r^2$.
 
-> **Common Conclusion 2.4.2** (Position of a Point Relative to a Circle) <br>Let the distance from the point $P\left(x_0,y_0\right)$ to the center $A\left(a,b\right)$ be $d$, and let the radius of the circle be $r$. Then when $d<r$ the point is inside the circle, when $d=r$ the point is on the circle, and when $d>r$ the point is outside the circle. That is, when $\left(x_0-a\right)^2+\left(y_0-b\right)^2<r^2$ the point is inside, when $=r^2$ the point is on the circle, and when $>r^2$ the point is outside.
+> **Common Conclusion 2.4.2** (Position of a Point Relative to a Circle) <br>Let the distance from the point $P\left(x_0,y_0\right)$ to the center $A\left(a,b\right)$ be $d$, and let the radius of the circle be $r$. Then when $d< r$ the point is inside the circle, when $d=r$ the point is on the circle, and when $d> r$ the point is outside the circle. That is, when $\left(x_0-a\right)^2+\left(y_0-b\right)^2< r^2$ the point is inside, when $=r^2$ the point is on the circle, and when $> r^2$ the point is outside.
 
-> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F>0$, the equation represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$; when $D^2+E^2-4F=0$, the equation represents a single point $\left(-\frac{D}{2},-\frac{E}{2}\right)$; when $D^2+E^2-4F<0$, the equation represents no figure.
+> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F> 0$, the equation represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$; when $D^2+E^2-4F=0$, the equation represents a single point $\left(-\frac{D}{2},-\frac{E}{2}\right)$; when $D^2+E^2-4F< 0$, the equation represents no figure.
 
 ### Exercise 1
 
@@ -54,11 +54,11 @@ By **Definition 2.4.1** (Standard Equation of a Circle), compare with $\left(x-a
 
 By **Common Conclusion 2.4.2** (Position of a Point Relative to a Circle), the center is $\left(-2,-3\right)$, radius $r=2$, and $r^2=4$.
 
-(1) Point $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29>4$, so $P_1$ is outside the circle.
+(1) Point $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29> 4$, so $P_1$ is outside the circle.
 
-(2) Point $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13>4$, so $P_2$ is outside the circle.
+(2) Point $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13> 4$, so $P_2$ is outside the circle.
 
-(3) Point $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5>4$, so $P_3$ is outside the circle. $\blacksquare$
+(3) Point $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5> 4$, so $P_3$ is outside the circle. $\blacksquare$
 
 ### Exercise 4
 
@@ -80,7 +80,7 @@ By **Definition 2.4.1** (Standard Equation of a Circle), the equation of the cir
 
 (2) The center is on the $x$-axis; let it be $\left(a,0\right)$. The circle passes through $A\left(2,-3\right)$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the radius is $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt 5$. Squaring both sides gives $\left(2-a\right)^2+9=5$, i.e. $\left(2-a\right)^2=-4$, which has no solution.
 
-Re-reading the problem: the radius is $\sqrt 5$, i.e. $r^2=5$, and $\left(2-a\right)^2+9=5$ gives $\left(2-a\right)^2=-4$, which indeed has no solution. Check: the center is on the $x$-axis, and its distance to $A\left(2,-3\right)$ is $\sqrt 5$, but the distance from $A$ to the $x$-axis is already $3>\sqrt 5$, so no such circle exists. The problem likely intends the radius to be $5$. If $r=5$, then $\left(2-a\right)^2+9=25$, i.e. $\left(2-a\right)^2=16$, hence $a=6$ or $a=-2$. The equations of the circle are $\left(x-6\right)^2+y^2=25$ or $\left(x+2\right)^2+y^2=25$. $\blacksquare$
+Re-reading the problem: the radius is $\sqrt 5$, i.e. $r^2=5$, and $\left(2-a\right)^2+9=5$ gives $\left(2-a\right)^2=-4$, which indeed has no solution. Check: the center is on the $x$-axis, and its distance to $A\left(2,-3\right)$ is $\sqrt 5$, but the distance from $A$ to the $x$-axis is already $3> \sqrt 5$, so no such circle exists. The problem likely intends the radius to be $5$. If $r=5$, then $\left(2-a\right)^2+9=25$, i.e. $\left(2-a\right)^2=16$, hence $a=6$ or $a=-2$. The equations of the circle are $\left(x-6\right)^2+y^2=25$ or $\left(x+2\right)^2+y^2=25$. $\blacksquare$
 
 ### Exercise 5
 
@@ -118,11 +118,11 @@ $\blacksquare$
 
 By **Definition 2.4.3** (General Equation of a Circle), check the sign of $D^2+E^2-4F$.
 
-(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4>0$, so it represents a circle. The center is $\left(2,3\right)$ and the radius is $\frac{\sqrt 4}{2}=1$.
+(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4> 0$, so it represents a circle. The center is $\left(2,3\right)$ and the radius is $\frac{\sqrt 4}{2}=1$.
 
 (2) $D=-2$, $E=-4$, $F=5$. $D^2+E^2-4F=4+16-20=0$, so it does not represent a circle, only a single point $\left(1,2\right)$.
 
-(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44>0$, so it represents a circle. The center is $\left(1,2\right)$ and the radius is $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
+(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44> 0$, so it represents a circle. The center is $\left(1,2\right)$ and the radius is $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
 
 ### Exercise 7
 
@@ -182,9 +182,9 @@ Hence $E=-4$. The equation of the circle is $x^2+y^2+2x-4y=0$. $\blacksquare$
 
 ### Solution to Problem 2
 
-By **Definition 2.4.1** (Standard Equation of a Circle), the center is on the positive half of the $x$-axis; let it be $\left(a,0\right)$ with $a>0$.
+By **Definition 2.4.1** (Standard Equation of a Circle), the center is on the positive half of the $x$-axis; let it be $\left(a,0\right)$ with $a> 0$.
 
-The circle passes through $\left(1,0\right)$ with radius $2\sqrt 2$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, i.e. $\left(a-1\right)^2=8$, hence $a-1=\pm2\sqrt 2$. Since $a>0$, we have $a=1+2\sqrt 2$.
+The circle passes through $\left(1,0\right)$ with radius $2\sqrt 2$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, i.e. $\left(a-1\right)^2=8$, hence $a-1=\pm2\sqrt 2$. Since $a> 0$, we have $a=1+2\sqrt 2$.
 
 The standard equation of the circle is $\left(x-1-2\sqrt 2\right)^2+y^2=8$. $\blacksquare$
 
@@ -264,7 +264,7 @@ When $A$ is the midpoint of $BC$, the three points are collinear and do not form
 
 ### Solution to Problem 7
 
-The center is $C\left(1,2\right)$ and the radius is $r=2$. The distance from $P\left(3,5\right)$ to the center is $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}>2$, so $P$ is outside the circle.
+The center is $C\left(1,2\right)$ and the radius is $r=2$. The distance from $P\left(3,5\right)$ to the center is $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}> 2$, so $P$ is outside the circle.
 
 Let the tangent line have equation $y-5=k\left(x-3\right)$, i.e. $kx-y+5-3k=0$.
 
@@ -308,11 +308,11 @@ The radius of the circle is $2$. The points at distance $1$ from $l$ lie on two 
 
 There being exactly two points on the circle at distance $1$ from $l$ means that of the two parallel lines above, one intersects the circle at two points and the other is disjoint from the circle.
 
-(a) When $\lvert d-1 \rvert<2$ and $d+1>2$, i.e. $-1<d<3$ and $d>1$, i.e. $1<d<3$.
+(a) When $\lvert d-1 \rvert< 2$ and $d+1> 2$, i.e. $-1< d< 3$ and $d> 1$, i.e. $1< d< 3$.
 
-(b) When $d-1>2$ and $\lvert d+1 \rvert<2$, i.e. $d>3$ and $-3<d<1$, there is no solution.
+(b) When $d-1> 2$ and $\lvert d+1 \rvert< 2$, i.e. $d> 3$ and $-3< d< 1$, there is no solution.
 
-In summary, $1<d<3$, i.e. $1<\frac{\lvert b \rvert}{\sqrt 2}<3$, i.e. $\sqrt 2<\lvert b \rvert<3\sqrt 2$, hence $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
+In summary, $1< d< 3$, i.e. $1< \frac{\lvert b \rvert}{\sqrt 2}< 3$, i.e. $\sqrt 2< \lvert b \rvert< 3\sqrt 2$, hence $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
 
 ### Problem 10
 
@@ -328,7 +328,7 @@ In summary, $1<d<3$, i.e. $1<\frac{\lvert b \rvert}{\sqrt 2}<3$, i.e. $\sqrt 2<\
 
 (2) $u=\frac{b-3}{a-6}$ is the slope of the line joining $Q\left(a,b\right)$ and $P\left(6,3\right)$. The problem becomes: find the range of the slope of the line joining $P\left(6,3\right)$ to a moving point on the circle.
 
-The distance from $P$ to the center $\left(2,7\right)$ is $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2>2\sqrt 2$, so $P$ is outside the circle.
+The distance from $P$ to the center $\left(2,7\right)$ is $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2> 2\sqrt 2$, so $P$ is outside the circle.
 
 Let the slope of a tangent through $P$ be $k$; the tangent equation is $y-3=k\left(x-6\right)$, i.e. $kx-y+3-6k=0$.
 

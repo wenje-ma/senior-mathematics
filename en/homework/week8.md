@@ -1,42 +1,42 @@
 # Assignment 8
 
-> **Definition 2.3.1** (Quadratic Inequality in One Variable) <br>In general, an inequality containing only one unknown and in which the highest degree of the unknown is $2$ is called a quadratic inequality in one variable. Its general form is $ax^2+bx+c>0$ or $ax^2+bx+c<0$, where $a,b,c$ are all constants and $a\neq0$.
+> **Definition 2.3.1** (Quadratic Inequality in One Variable) <br>In general, an inequality containing only one unknown and in which the highest degree of the unknown is $2$ is called a quadratic inequality in one variable. Its general form is $ax^2+bx+c> 0$ or $ax^2+bx+c< 0$, where $a,b,c$ are all constants and $a\neq0$.
 
 > **Definition 2.3.2** (Zeros of a Quadratic Function) <br>For the quadratic function $y=ax^2+bx+c$, the real number $x$ satisfying $ax^2+bx+c=0$ is called a zero of the quadratic function $y=ax^2+bx+c$.
 
-> **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality) <br>For $ax^2+bx+c>0$ or $ax^2+bx+c<0$ ($a>0$), let $\Delta=b^2-4ac$, and let $x_1,x_2$ be the two real roots of the equation $ax^2+bx+c=0$ ($x_1<x_2$). When $\Delta>0$, the solution set of $ax^2+bx+c>0$ is $\left\{x\mid x<x_1$ or $x>x_2\right\}$, and the solution set of $ax^2+bx+c<0$ is $\left\{x\mid x_1<x<x_2\right\}$; when $\Delta=0$, the solution set of $ax^2+bx+c>0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and the solution set of $ax^2+bx+c<0$ is $\varnothing$; when $\Delta<0$, the solution set of $ax^2+bx+c>0$ is $\mathbb R$, and the solution set of $ax^2+bx+c<0$ is $\varnothing$. For an inequality whose quadratic coefficient is negative, first change the quadratic coefficient to a positive one and then solve it.
+> **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality) <br>For $ax^2+bx+c> 0$ or $ax^2+bx+c< 0$ ($a> 0$), let $\Delta=b^2-4ac$, and let $x_1,x_2$ be the two real roots of the equation $ax^2+bx+c=0$ ($x_1< x_2$). When $\Delta> 0$, the solution set of $ax^2+bx+c> 0$ is $\left\{x\mid x< x_1$ or $x> x_2\right\}$, and the solution set of $ax^2+bx+c< 0$ is $\left\{x\mid x_1< x< x_2\right\}$; when $\Delta=0$, the solution set of $ax^2+bx+c> 0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and the solution set of $ax^2+bx+c< 0$ is $\varnothing$; when $\Delta< 0$, the solution set of $ax^2+bx+c> 0$ is $\mathbb R$, and the solution set of $ax^2+bx+c< 0$ is $\varnothing$. For an inequality whose quadratic coefficient is negative, first change the quadratic coefficient to a positive one and then solve it.
 
 ### Exercise 1
 
 (Exercise 2.3, Problem 1) Find the solution sets of the following inequalities.
 
-(1) $\left(x+2\right)\left(x-3\right)>0$;
+(1) $\left(x+2\right)\left(x-3\right)> 0$;
 
 (2) $3x^2-7x\le10$;
 
-(3) $-x^2+4x-4<0$;
+(3) $-x^2+4x-4< 0$;
 
-(4) $x^2-x+\frac{1}{4}<0$;
+(4) $x^2-x+\frac{1}{4}< 0$;
 
 (5) $-2x^2+x\le-3$;
 
-(6) $x^2-3x+4>0$.
+(6) $x^2-3x+4> 0$.
 
 ### Solution to Exercise 1
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first find the roots of the corresponding equation, and then write the solution set according to the position of the graph.
 
-(1) The roots of the equation $\left(x+2\right)\left(x-3\right)=0$ are $x=-2,3$, and the quadratic coefficient is positive, so the solution set is $\left\{x\mid x<-2$ or $x>3\right\}$.
+(1) The roots of the equation $\left(x+2\right)\left(x-3\right)=0$ are $x=-2,3$, and the quadratic coefficient is positive, so the solution set is $\left\{x\mid x< -2$ or $x> 3\right\}$.
 
 (2) Rearranging gives $3x^2-7x-10\le0$. The roots of the equation $3x^2-7x-10=0$ are $x=-1,\frac{10}{3}$, so the solution set is $\left\{x\mid-1\le x\le\frac{10}{3}\right\}$.
 
-(3) Multiplying both sides by $-1$ gives $x^2-4x+4>0$, i.e. $\left(x-2\right)^2>0$, so the solution set is $\left\{x\mid x\neq2\right\}$.
+(3) Multiplying both sides by $-1$ gives $x^2-4x+4> 0$, i.e. $\left(x-2\right)^2> 0$, so the solution set is $\left\{x\mid x\neq2\right\}$.
 
-(4) $x^2-x+\frac{1}{4}=\left(x-\frac{1}{2}\right)^2\ge0$ always holds, and $\left(x-\frac{1}{2}\right)^2<0$ has no solution, so the solution set is $\varnothing$.
+(4) $x^2-x+\frac{1}{4}=\left(x-\frac{1}{2}\right)^2\ge0$ always holds, and $\left(x-\frac{1}{2}\right)^2< 0$ has no solution, so the solution set is $\varnothing$.
 
 (5) Rearranging gives $2x^2-x-3\ge0$. The roots of the equation $2x^2-x-3=0$ are $x=-1,\frac{3}{2}$, so the solution set is $\left\{x\mid x\le-1$ or $x\ge\frac{3}{2}\right\}$.
 
-(6) $\Delta=9-16=-7<0$, and the quadratic coefficient is positive; by **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $\mathbb R$. $\blacksquare$
+(6) $\Delta=9-16=-7< 0$, and the quadratic coefficient is positive; by **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $\mathbb R$. $\blacksquare$
 
 ### Exercise 2
 
@@ -54,13 +54,13 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first find the zeros, and then determine the positive and negative intervals according to the opening direction.
 
-(1) $\Delta=36-24=12>0$, the zeros are $x=1\pm\frac{\sqrt3}{3}$, and the parabola opens upward. Thus $y=0$ when $x=1\pm\frac{\sqrt3}{3}$; $y>0$ when $x<1-\frac{\sqrt3}{3}$ or $x>1+\frac{\sqrt3}{3}$; $y<0$ when $1-\frac{\sqrt3}{3}<x<1+\frac{\sqrt3}{3}$.
+(1) $\Delta=36-24=12> 0$, the zeros are $x=1\pm\frac{\sqrt3}{3}$, and the parabola opens upward. Thus $y=0$ when $x=1\pm\frac{\sqrt3}{3}$; $y> 0$ when $x< 1-\frac{\sqrt3}{3}$ or $x> 1+\frac{\sqrt3}{3}$; $y< 0$ when $1-\frac{\sqrt3}{3}< x< 1+\frac{\sqrt3}{3}$.
 
-(2) The zeros are $x=\pm5$, and the parabola opens downward. Thus $y=0$ when $x=\pm5$; $y>0$ when $-5<x<5$; $y<0$ when $x<-5$ or $x>5$.
+(2) The zeros are $x=\pm5$, and the parabola opens downward. Thus $y=0$ when $x=\pm5$; $y> 0$ when $-5< x< 5$; $y< 0$ when $x< -5$ or $x> 5$.
 
-(3) $\Delta=36-40=-4<0$, the parabola opens upward, and the graph always lies above the $x$-axis. Thus $y$ is always greater than $0$, and both $y=0$ and $y<0$ have no solution.
+(3) $\Delta=36-40=-4< 0$, the parabola opens upward, and the graph always lies above the $x$-axis. Thus $y$ is always greater than $0$, and both $y=0$ and $y< 0$ have no solution.
 
-(4) $y=-3\left(x-2\right)^2$. Thus $y=0$ when $x=2$; $y<0$ when $x\neq2$; $y>0$ has no solution. $\blacksquare$
+(4) $y=-3\left(x-2\right)^2$. Thus $y=0$ when $x=2$; $y< 0$ when $x\neq2$; $y> 0$ has no solution. $\blacksquare$
 
 ### Exercise 3
 
@@ -80,7 +80,7 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the e
 
 ### Solution to Exercise 4
 
-Let the width of the flower border be $x\ \mathrm m$, then the middle lawn has length $8-2x$ and width $6-2x$, and we must have $0<x<3$.
+Let the width of the flower border be $x\ \mathrm m$, then the middle lawn has length $8-2x$ and width $6-2x$, and we must have $0< x< 3$.
 
 The total area of the ground is $8\times6=48$, and the lawn area is not more than half, i.e.
 
@@ -88,7 +88,7 @@ $$
 \left(8-2x\right)\left(6-2x\right)\le24.
 $$
 
-Expanding and rearranging gives $4x^2-28x+24\le0$, i.e. $\left(x-1\right)\left(x-6\right)\le0$. By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $1\le x\le6$. Combined with $0<x<3$, we get $1\le x<3$. Thus the width of the flower border should be not less than $1\ \mathrm m$ and less than $3\ \mathrm m$. $\blacksquare$
+Expanding and rearranging gives $4x^2-28x+24\le0$, i.e. $\left(x-1\right)\left(x-6\right)\le0$. By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $1\le x\le6$. Combined with $0< x< 3$, we get $1\le x< 3$. Thus the width of the flower border should be not less than $1\ \mathrm m$ and less than $3\ \mathrm m$. $\blacksquare$
 
 ### Exercise 5
 
@@ -101,34 +101,34 @@ Let the selling price be raised by $x$ yuan above the lowest price, then the sel
 Requiring the sales revenue to be greater than $400$ yuan, i.e.
 
 $$
-\left(15+x\right)\left(30-2x\right)>400.
+\left(15+x\right)\left(30-2x\right)> 400.
 $$
 
-Expanding gives $450-2x^2>400$, i.e. $x^2<25$, equivalently $-5<x<5$. Combined with $x\ge0$, we get $0\le x<5$. Thus the selling price $15+x$ should satisfy $15\le$ price $<20$ yuan. That is, when the selling price is set not less than $15$ yuan and less than $20$ yuan, the daily sales revenue is above $400$ yuan. $\blacksquare$
+Expanding gives $450-2x^2> 400$, i.e. $x^2< 25$, equivalently $-5< x< 5$. Combined with $x\ge0$, we get $0\le x< 5$. Thus the selling price $15+x$ should satisfy $15\le$ price $< 20$ yuan. That is, when the selling price is set not less than $15$ yuan and less than $20$ yuan, the daily sales revenue is above $400$ yuan. $\blacksquare$
 
 ### Problem 1
 
 (Exercise 2.3, Review and Consolidation, Problem 1) Find the solution sets of the following inequalities.
 
-(1) $13-4x^2>0$;
+(1) $13-4x^2> 0$;
 
-(2) $\left(x-3\right)\left(x-7\right)<0$;
+(2) $\left(x-3\right)\left(x-7\right)< 0$;
 
-(3) $x^2-3x-10>0$;
+(3) $x^2-3x-10> 0$;
 
-(4) $-3x^2+5x-4>0$.
+(4) $-3x^2+5x-4> 0$.
 
 ### Solution to Problem 1
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), solve each item.
 
-(1) $4x^2<13$, i.e. $x^2<\frac{13}{4}$, and the solution set is $\left\{x\mid-\frac{\sqrt{13}}{2}<x<\frac{\sqrt{13}}{2}\right\}$.
+(1) $4x^2< 13$, i.e. $x^2< \frac{13}{4}$, and the solution set is $\left\{x\mid-\frac{\sqrt{13}}{2}< x< \frac{\sqrt{13}}{2}\right\}$.
 
-(2) The roots are $x=3,7$, the parabola opens upward and we take $<0$, so the solution set is $\left\{x\mid3<x<7\right\}$.
+(2) The roots are $x=3,7$, the parabola opens upward and we take $< 0$, so the solution set is $\left\{x\mid3< x< 7\right\}$.
 
-(3) $\left(x-5\right)\left(x+2\right)>0$, the roots are $x=-2,5$, and the solution set is $\left\{x\mid x<-2$ or $x>5\right\}$.
+(3) $\left(x-5\right)\left(x+2\right)> 0$, the roots are $x=-2,5$, and the solution set is $\left\{x\mid x< -2$ or $x> 5\right\}$.
 
-(4) Multiplying both sides by $-1$ gives $3x^2-5x+4<0$. $\Delta=25-48=-23<0$, the parabola opens upward, and $3x^2-5x+4$ is always positive, so it cannot be less than $0$; thus the solution set is $\varnothing$. $\blacksquare$
+(4) Multiplying both sides by $-1$ gives $3x^2-5x+4< 0$. $\Delta=25-48=-23< 0$, the parabola opens upward, and $3x^2-5x+4$ is always positive, so it cannot be less than $0$; thus the solution set is $\varnothing$. $\blacksquare$
 
 ### Problem 2
 
@@ -142,32 +142,32 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), solve
 
 By the condition for a quadratic radical to be meaningful, the radicand must be nonnegative; then solve by **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality).
 
-(1) We require $x^2-4x+9\ge0$. $\Delta=16-36=-20<0$, the parabola opens upward, so $x^2-4x+9>0$ always holds for all real numbers. Thus the expression is meaningful for any real number $x$.
+(1) We require $x^2-4x+9\ge0$. $\Delta=16-36=-20< 0$, the parabola opens upward, so $x^2-4x+9> 0$ always holds for all real numbers. Thus the expression is meaningful for any real number $x$.
 
 (2) We require $-2x^2+12x-18\ge0$, i.e. $\left(x-3\right)^2\le0$. It holds only when $x=3$, so the expression is meaningful when $x=3$. $\blacksquare$
 
 ### Problem 3
 
-(Exercise 2.3, Comprehensive Application, Problem 3) Given $M=\left\{x\mid4x^2-4x-15>0\right\}$ and $N=\left\{x\mid x^2-5x-6>0\right\}$, find $M\cap N$ and $M\cup N$.
+(Exercise 2.3, Comprehensive Application, Problem 3) Given $M=\left\{x\mid4x^2-4x-15> 0\right\}$ and $N=\left\{x\mid x^2-5x-6> 0\right\}$, find $M\cap N$ and $M\cup N$.
 
 ### Solution to Problem 3
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first simplify $M,N$ separately.
 
-The roots of $4x^2-4x-15=0$ are $x=-\frac{3}{2},\frac{5}{2}$, so $M=\left\{x\mid x<-\frac{3}{2}$ or $x>\frac{5}{2}\right\}$.
+The roots of $4x^2-4x-15=0$ are $x=-\frac{3}{2},\frac{5}{2}$, so $M=\left\{x\mid x< -\frac{3}{2}$ or $x> \frac{5}{2}\right\}$.
 
-The roots of $x^2-5x-6=\left(x-6\right)\left(x+1\right)=0$ are $x=-1,6$, so $N=\left\{x\mid x<-1$ or $x>6\right\}$.
+The roots of $x^2-5x-6=\left(x-6\right)\left(x+1\right)=0$ are $x=-1,6$, so $N=\left\{x\mid x< -1$ or $x> 6\right\}$.
 
 Taking the common part, we get
 
 $$
-M\cap N=\left\{x\mid x<-\frac{3}{2}\text{ 或 }x>6\right\}.
+M\cap N=\left\{x\mid x< -\frac{3}{2}\text{ 或 }x> 6\right\}.
 $$
 
 Taking the union, we get
 
 $$
-M\cup N=\left\{x\mid x<-1\text{ 或 }x>\frac{5}{2}\right\}.
+M\cup N=\left\{x\mid x< -1\text{ 或 }x> \frac{5}{2}\right\}.
 $$
 
 $\blacksquare$
@@ -196,17 +196,17 @@ $\blacksquare$
 
 ### Problem 5
 
-(Exercise 2.3, Comprehensive Application, Problem 5) Given the sets $A=\left\{x\mid x^2-16<0\right\}$ and $B=\left\{x\mid x^2-4x+3>0\right\}$, find $A\cup B$.
+(Exercise 2.3, Comprehensive Application, Problem 5) Given the sets $A=\left\{x\mid x^2-16< 0\right\}$ and $B=\left\{x\mid x^2-4x+3> 0\right\}$, find $A\cup B$.
 
 ### Solution to Problem 5
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first simplify $A,B$.
 
-$x^2-16<0$, i.e. $-4<x<4$, so $A=\left\{x\mid-4<x<4\right\}$.
+$x^2-16< 0$, i.e. $-4< x< 4$, so $A=\left\{x\mid-4< x< 4\right\}$.
 
-The solution of $x^2-4x+3=\left(x-1\right)\left(x-3\right)>0$ is $x<1$ or $x>3$, so $B=\left\{x\mid x<1$ or $x>3\right\}$.
+The solution of $x^2-4x+3=\left(x-1\right)\left(x-3\right)> 0$ is $x< 1$ or $x> 3$, so $B=\left\{x\mid x< 1$ or $x> 3\right\}$.
 
-Combining $A$ and $B$: $B$ already contains $x<1$ and $x>3$, and $A$ supplements the part $1\le x\le3$ within $-4<x<4$; together they cover all real numbers, so $A\cup B=\mathbb R$. $\blacksquare$
+Combining $A$ and $B$: $B$ already contains $x< 1$ and $x> 3$, and $A$ supplements the part $1\le x\le3$ within $-4< x< 4$; together they cover all real numbers, so $A\cup B=\mathbb R$. $\blacksquare$
 
 ### Problem 6
 

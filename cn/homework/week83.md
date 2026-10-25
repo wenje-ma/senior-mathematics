@@ -1,16 +1,16 @@
 # 作业 83
 
-> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)>0$, 我们称 $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
+> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)> 0$, 我们称 $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
 
-> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)>0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
+> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)> 0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **结论 7.1.3** (条件概率的性质) <br>设 $\mathbb P\left(A\right)>0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
+> **结论 7.1.3** (条件概率的性质) <br>设 $\mathbb P\left(A\right)> 0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
-> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)>0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
+> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)> 0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
-> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
+> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
 
-> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)>0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)>0$, 有 $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
+> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)> 0$, 有 $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
 
 ### 练习一
 
@@ -188,7 +188,7 @@ $$
 \mathbb P\left(C\right)\le \mathbb P\left(B\right).
 $$
 
-又因为患心脏病的人未必都年龄大于 50 岁, 即 $B$ 中存在不属于 $C$ 的情形, 故实际上 $\mathbb P\left(C\right)<\mathbb P\left(B\right)$. $\blacksquare$
+又因为患心脏病的人未必都年龄大于 50 岁, 即 $B$ 中存在不属于 $C$ 的情形, 故实际上 $\mathbb P\left(C\right)< \mathbb P\left(B\right)$. $\blacksquare$
 
 ### 习题三
 
@@ -274,7 +274,7 @@ $\blacksquare$
 
 ### 习题六
 
-(习题 7.1 复习巩固第 6 题) 已知 $\mathbb P\left(A\right)>0$, $\mathbb P\left(B\right)>0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, 证明: $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
+(习题 7.1 复习巩固第 6 题) 已知 $\mathbb P\left(A\right)> 0$, $\mathbb P\left(B\right)> 0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, 证明: $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
 
 ### 解答 习题六
 
@@ -376,13 +376,13 @@ $\blacksquare$
 
 ### 习题十
 
-(习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb P\left(AB\right)>0$ 时, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. 据此你能发现计算 $\mathbb P\left(A_1A_2\cdots A_n\right)$ 的公式吗?
+(习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb P\left(AB\right)> 0$ 时, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. 据此你能发现计算 $\mathbb P\left(A_1A_2\cdots A_n\right)$ 的公式吗?
 
 ### 解答 习题十
 
 由**定义 7.1.1** (条件概率) 及**结论 7.1.2** (概率的乘法公式).
 
-由 $\mathbb P\left(AB\right)>0$, 必有 $\mathbb P\left(A\right)>0$ 且 $\mathbb P\left(AB\right)>0$. 两次使用**结论 7.1.2** (概率的乘法公式):
+由 $\mathbb P\left(AB\right)> 0$, 必有 $\mathbb P\left(A\right)> 0$ 且 $\mathbb P\left(AB\right)> 0$. 两次使用**结论 7.1.2** (概率的乘法公式):
 
 先把 $AB$ 看作一个事件, 有
 

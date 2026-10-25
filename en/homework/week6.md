@@ -1,24 +1,24 @@
 # Assignment 6
 
-> **Basic Fact 2.1.1** (Order Relations Among Real Numbers) <br>If $a-b$ is positive, then $a>b$; if $a-b$ equals $0$, then $a=b$; if $a-b$ is negative, then $a<b$. The converse also holds, namely $a>b\Leftrightarrow a-b>0$, $a=b\Leftrightarrow a-b=0$, $a<b\Leftrightarrow a-b<0$.
+> **Basic Fact 2.1.1** (Order Relations Among Real Numbers) <br>If $a-b$ is positive, then $a> b$; if $a-b$ equals $0$, then $a=b$; if $a-b$ is negative, then $a< b$. The converse also holds, namely $a> b\Leftrightarrow a-b> 0$, $a=b\Leftrightarrow a-b=0$, $a< b\Leftrightarrow a-b< 0$.
 
 > **Standard Conclusion 2.1.2** (Important Inequality) <br>For $\forall a,b\in\mathbb R$, we have $a^2+b^2\ge 2ab$, with equality holding if and only if $a=b$.
 
 > **Basic Properties of Equality** <br>Property 1 If $a=b$, then $b=a$; Property 2 If $a=b$ and $b=c$, then $a=c$; Property 3 If $a=b$, then $a\pm c=b\pm c$; Property 4 If $a=b$, then $ac=bc$; Property 5 If $a=b$ and $c\neq0$, then $\frac{a}{c}=\frac{b}{c}$.
 
-> **Property 2.1.3** (Symmetry) <br>If $a>b$, then $b<a$; if $b<a$, then $a>b$. Namely, $a>b\Leftrightarrow b<a$.
+> **Property 2.1.3** (Symmetry) <br>If $a> b$, then $b< a$; if $b< a$, then $a> b$. Namely, $a> b\Leftrightarrow b< a$.
 
-> **Property 2.1.4** (Transitivity) <br>If $a>b$ and $b>c$, then $a>c$. Namely, $a>b$, $b>c\Rightarrow a>c$.
+> **Property 2.1.4** (Transitivity) <br>If $a> b$ and $b> c$, then $a> c$. Namely, $a> b$, $b> c\Rightarrow a> c$.
 
-> **Property 2.1.5** (Additivity) <br>If $a>b$, then $a+c>b+c$. That is, adding the same real number to both sides of an inequality yields an inequality with the same direction.
+> **Property 2.1.5** (Additivity) <br>If $a> b$, then $a+c> b+c$. That is, adding the same real number to both sides of an inequality yields an inequality with the same direction.
 
-> **Property 2.1.6** (Multiplicativity) <br>If $a>b$ and $c>0$, then $ac>bc$; if $a>b$ and $c<0$, then $ac<bc$. That is, multiplying both sides of an inequality by a positive number yields an inequality with the same direction; multiplying both sides by a negative number reverses the direction.
+> **Property 2.1.6** (Multiplicativity) <br>If $a> b$ and $c> 0$, then $ac> bc$; if $a> b$ and $c< 0$, then $ac< bc$. That is, multiplying both sides of an inequality by a positive number yields an inequality with the same direction; multiplying both sides by a negative number reverses the direction.
 
-> **Property 2.1.7** (Adding Inequalities in the Same Direction) <br>If $a>b$ and $c>d$, then $a+c>b+d$.
+> **Property 2.1.7** (Adding Inequalities in the Same Direction) <br>If $a> b$ and $c> d$, then $a+c> b+d$.
 
-> **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) <br>If $a>b>0$ and $c>d>0$, then $ac>bd$.
+> **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) <br>If $a> b> 0$ and $c> d> 0$, then $ac> bd$.
 
-> **Property 2.1.9** (Powers) <br>If $a>b>0$, then $a^n>b^n$ ($n\in\mathbb N$, $n\ge2$).
+> **Property 2.1.9** (Powers) <br>If $a> b> 0$, then $a^n> b^n$ ($n\in\mathbb N$, $n\ge2$).
 
 ### Exercise 1
 
@@ -40,10 +40,10 @@ By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), write down the res
 
 (2) The sum of $a$ and $b$ is a nonnegative real number, i.e. $a+b$ is greater than or equal to $0$, so $a+b\ge0$.
 
-(3) The green space is $5\ \mathrm m$ wide around the warehouse, so the site has length $L+10$ and width $W+10$. The site area is less than $350\ \mathrm m^2$, i.e. $\left(L+10\right)\left(W+10\right)<350$; the length $L$ of the warehouse is greater than $4$ times its width $W$, i.e. $L>4W$. Thus the required system of inequalities is
+(3) The green space is $5\ \mathrm m$ wide around the warehouse, so the site has length $L+10$ and width $W+10$. The site area is less than $350\ \mathrm m^2$, i.e. $\left(L+10\right)\left(W+10\right)< 350$; the length $L$ of the warehouse is greater than $4$ times its width $W$, i.e. $L> 4W$. Thus the required system of inequalities is
 
 $$
-\left\{\begin{array}{l}\left(L+10\right)\left(W+10\right)<350,\\L>4W.\end{array}\right.
+\left\{\begin{array}{l}\left(L+10\right)\left(W+10\right)< 350,\\L> 4W.\end{array}\right.
 $$
 
 $\blacksquare$
@@ -59,38 +59,38 @@ By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), to compare two alg
 Taking the difference, we get
 
 $$
-\left(x+3\right)\left(x+7\right)-\left(x+4\right)\left(x+6\right)=\left(x^2+10x+21\right)-\left(x^2+10x+24\right)=-3<0.
+\left(x+3\right)\left(x+7\right)-\left(x+4\right)\left(x+6\right)=\left(x^2+10x+21\right)-\left(x^2+10x+24\right)=-3< 0.
 $$
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $\left(x+3\right)\left(x+7\right)<\left(x+4\right)\left(x+6\right)$. $\blacksquare$
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $\left(x+3\right)\left(x+7\right)< \left(x+4\right)\left(x+6\right)$. $\blacksquare$
 
 ### Exercise 3
 
-(Exercise 2.1, Problem 3) Given $a>b$, prove that $a>\frac{a+b}{2}>b$.
+(Exercise 2.1, Problem 3) Given $a> b$, prove that $a> \frac{a+b}{2}> b$.
 
 ### Solution to Exercise 3
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), prove both inequalities simultaneously by taking differences.
 
-Since $a>b$, we have $a-b>0$.
+Since $a> b$, we have $a-b> 0$.
 
 First compare $a$ and $\frac{a+b}{2}$:
 
 $$
-a-\frac{a+b}{2}=\frac{a-b}{2}>0,
+a-\frac{a+b}{2}=\frac{a-b}{2}> 0,
 $$
 
-so $a>\frac{a+b}{2}$.
+so $a> \frac{a+b}{2}$.
 
 Then compare $\frac{a+b}{2}$ and $b$:
 
 $$
-\frac{a+b}{2}-b=\frac{a-b}{2}>0,
+\frac{a+b}{2}-b=\frac{a-b}{2}> 0,
 $$
 
-so $\frac{a+b}{2}>b$.
+so $\frac{a+b}{2}> b$.
 
-In summary, $a>\frac{a+b}{2}>b$. $\blacksquare$
+In summary, $a> \frac{a+b}{2}> b$. $\blacksquare$
 
 ### Exercise 4
 
@@ -100,49 +100,49 @@ In summary, $a>\frac{a+b}{2}>b$. $\blacksquare$
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate the inequality relations into the sign of a difference from $0$ and prove them.
 
-Proof of **Property 2.1.3** (Symmetry): If $a>b$, then $a-b>0$, and hence $-\left(a-b\right)=b-a<0$, so $b<a$. Similarly, if $b<a$, then $b-a<0$, and hence $a-b>0$, so $a>b$. Namely, $a>b\Leftrightarrow b<a$.
+Proof of **Property 2.1.3** (Symmetry): If $a> b$, then $a-b> 0$, and hence $-\left(a-b\right)=b-a< 0$, so $b< a$. Similarly, if $b< a$, then $b-a< 0$, and hence $a-b> 0$, so $a> b$. Namely, $a> b\Leftrightarrow b< a$.
 
-Proof of **Property 2.1.5** (Additivity): If $a>b$, then
-
-$$
-\left(a+c\right)-\left(b+c\right)=a-b>0,
-$$
-
-so $a+c>b+c$.
-
-Proof of **Property 2.1.6** (Multiplicativity): If $a>b$, then $a-b>0$. When $c>0$,
+Proof of **Property 2.1.5** (Additivity): If $a> b$, then
 
 $$
-ac-bc=c\left(a-b\right)>0,
+\left(a+c\right)-\left(b+c\right)=a-b> 0,
 $$
 
-so $ac>bc$; when $c<0$, $c\left(a-b\right)<0$, i.e. $ac-bc<0$, so $ac<bc$.
+so $a+c> b+c$.
 
-Proof of **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms): If $a>b>0$ and $c>0$, then by **Property 2.1.6** (Multiplicativity) we get $ac>bc$; also $c>d>0$ and $b>0$, and again by **Property 2.1.6** (Multiplicativity) we get $bc>bd$. By **Property 2.1.4** (Transitivity), $ac>bc>bd$, so $ac>bd$. $\blacksquare$
+Proof of **Property 2.1.6** (Multiplicativity): If $a> b$, then $a-b> 0$. When $c> 0$,
+
+$$
+ac-bc=c\left(a-b\right)> 0,
+$$
+
+so $ac> bc$; when $c< 0$, $c\left(a-b\right)< 0$, i.e. $ac-bc< 0$, so $ac< bc$.
+
+Proof of **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms): If $a> b> 0$ and $c> 0$, then by **Property 2.1.6** (Multiplicativity) we get $ac> bc$; also $c> d> 0$ and $b> 0$, and again by **Property 2.1.6** (Multiplicativity) we get $bc> bd$. By **Property 2.1.4** (Transitivity), $ac> bc> bd$, so $ac> bd$. $\blacksquare$
 
 ### Exercise 5
 
-(Exercise 2.1, Problem 5) Fill in the blanks with the inequality sign "$>$" or "$<$".
+(Exercise 2.1, Problem 5) Fill in the blanks with the inequality sign "$> $" or "$< $".
 
-(1) If $a>b$ and $c<d$, then $a-c\;\_\_\;b-d$;
+(1) If $a> b$ and $c< d$, then $a-c\;\_\_\;b-d$;
 
-(2) if $a>b>0$ and $c<d<0$, then $ac\;\_\_\;bd$;
+(2) if $a> b> 0$ and $c< d< 0$, then $ac\;\_\_\;bd$;
 
-(3) if $a>b>0$, then $\frac{1}{a^2}\;\_\_\;\frac{1}{b^2}$;
+(3) if $a> b> 0$, then $\frac{1}{a^2}\;\_\_\;\frac{1}{b^2}$;
 
-(4) if $a>b>c>0$, then $\frac{c}{a}\;\_\_\;\frac{c}{b}$.
+(4) if $a> b> c> 0$, then $\frac{c}{a}\;\_\_\;\frac{c}{b}$.
 
 ### Solution to Exercise 5
 
 By **Property 2.1.6** (Multiplicativity), **Property 2.1.7** (Adding Inequalities in the Same Direction), **Property 2.1.9** (Powers), and **Basic Fact 2.1.1** (Order Relations Among Real Numbers), judge each item.
 
-(1) Multiplying both sides of $c<d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c>-d$. Also $a>b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)>b+\left(-d\right)$, i.e. $a-c>b-d$. So fill in $>$.
+(1) Multiplying both sides of $c< d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d$. Also $a> b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)> b+\left(-d\right)$, i.e. $a-c> b-d$. So fill in $> $.
 
-(2) Multiplying both sides of $c<d<0$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c>-d>0$. Also $a>b>0$, and by **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) we get $a\left(-c\right)>b\left(-d\right)$, i.e. $-ac>-bd$; multiplying both sides by $-1$ gives $ac<bd$. So fill in $<$.
+(2) Multiplying both sides of $c< d< 0$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d> 0$. Also $a> b> 0$, and by **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) we get $a\left(-c\right)> b\left(-d\right)$, i.e. $-ac> -bd$; multiplying both sides by $-1$ gives $ac< bd$. So fill in $< $.
 
-(3) From $a>b>0$, by **Property 2.1.9** (Powers) we get $a^2>b^2>0$. Taking reciprocals of positive numbers reverses the inequality sign (i.e. from $a^2>b^2>0$ we get $\frac{1}{a^2}<\frac{1}{b^2}$), so fill in $<$.
+(3) From $a> b> 0$, by **Property 2.1.9** (Powers) we get $a^2> b^2> 0$. Taking reciprocals of positive numbers reverses the inequality sign (i.e. from $a^2> b^2> 0$ we get $\frac{1}{a^2}< \frac{1}{b^2}$), so fill in $< $.
 
-(4) From $a>b>0$ we get $ab>0$, so $\frac{1}{ab}>0$. Multiplying both sides of $a>b$ by $\frac{1}{ab}$, by **Property 2.1.6** (Multiplicativity) we get $\frac{a}{ab}>\frac{b}{ab}$, i.e. $\frac{1}{b}>\frac{1}{a}$, equivalently $\frac{1}{a}<\frac{1}{b}$. Also $c>0$, and multiplying both sides by the positive number $c$ does not change the direction, giving $\frac{c}{a}<\frac{c}{b}$, so fill in $<$.
+(4) From $a> b> 0$ we get $ab> 0$, so $\frac{1}{ab}> 0$. Multiplying both sides of $a> b$ by $\frac{1}{ab}$, by **Property 2.1.6** (Multiplicativity) we get $\frac{a}{ab}> \frac{b}{ab}$, i.e. $\frac{1}{b}> \frac{1}{a}$, equivalently $\frac{1}{a}< \frac{1}{b}$. Also $c> 0$, and multiplying both sides by the positive number $c$ does not change the direction, giving $\frac{c}{a}< \frac{c}{b}$, so fill in $< $.
 
 $\blacksquare$
 
@@ -156,11 +156,11 @@ By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), in real life every
 
 For example:
 
-(1) A speed limit of $40\ \mathrm{km/h}$ on a certain road, i.e. the car speed $v$ satisfies $0<v\le40$;
+(1) A speed limit of $40\ \mathrm{km/h}$ on a certain road, i.e. the car speed $v$ satisfies $0< v\le40$;
 
 (2) a student's height $h$ is not less than $1.60\ \mathrm m$, i.e. $h\ge1.60$;
 
-(3) a class has $m$ boys and $n$ girls, and there are more boys than girls, i.e. $m>n$;
+(3) a class has $m$ boys and $n$ girls, and there are more boys than girls, i.e. $m> n$;
 
 (4) the capacity $V$ of a certain container is not more than $5\ \mathrm L$, i.e. $V\le5$. $\blacksquare$
 
@@ -192,7 +192,7 @@ $\blacksquare$
 
 (2) $\left(x-3\right)^2$ and $\left(x-2\right)\left(x-4\right)$;
 
-(3) when $x>1$, $x^2$ and $x^2-x+1$;
+(3) when $x> 1$, $x^2$ and $x^2-x+1$;
 
 (4) $x^2+y^2+1$ and $2\left(x+y-1\right)$.
 
@@ -200,19 +200,19 @@ $\blacksquare$
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), take the difference of the two expressions in each group and determine whether the difference is greater than or less than $0$.
 
-(1) $\left(x^2+5x+6\right)-\left(2x^2+5x+9\right)=-x^2-3=-\left(x^2+3\right)<0$, so $x^2+5x+6<2x^2+5x+9$.
+(1) $\left(x^2+5x+6\right)-\left(2x^2+5x+9\right)=-x^2-3=-\left(x^2+3\right)< 0$, so $x^2+5x+6< 2x^2+5x+9$.
 
-(2) $\left(x-3\right)^2-\left(x-2\right)\left(x-4\right)=\left(x^2-6x+9\right)-\left(x^2-6x+8\right)=1>0$, so $\left(x-3\right)^2>\left(x-2\right)\left(x-4\right)$.
+(2) $\left(x-3\right)^2-\left(x-2\right)\left(x-4\right)=\left(x^2-6x+9\right)-\left(x^2-6x+8\right)=1> 0$, so $\left(x-3\right)^2> \left(x-2\right)\left(x-4\right)$.
 
-(3) When $x>1$, $x^2-\left(x^2-x+1\right)=x-1>0$, so $x^2>x^2-x+1$.
+(3) When $x> 1$, $x^2-\left(x^2-x+1\right)=x-1> 0$, so $x^2> x^2-x+1$.
 
 (4)
 
 $$
-\left(x^2+y^2+1\right)-2\left(x+y-1\right)=x^2+y^2-2x-2y+3=\left(x-1\right)^2+\left(y-1\right)^2+1>0,
+\left(x^2+y^2+1\right)-2\left(x+y-1\right)=x^2+y^2-2x-2y+3=\left(x-1\right)^2+\left(y-1\right)^2+1> 0,
 $$
 
-so $x^2+y^2+1>2\left(x+y-1\right)$. $\blacksquare$
+so $x^2+y^2+1> 2\left(x+y-1\right)$. $\blacksquare$
 
 ### Problem 4
 
@@ -225,7 +225,7 @@ By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), write the inequali
 This two-digit number is $10a+b$. Since it is greater than $50$ and less than $60$, we have
 
 $$
-50<10a+b<60.
+50< 10a+b< 60.
 $$
 
 Since the units digit is $2$ greater than the tens digit, we have
@@ -234,66 +234,66 @@ $$
 b=a+2.
 $$
 
-Since $a,b$ are both digits and $50<10a+b<60$, the tens digit $a$ must be $5$. Substituting into $b=a+2$, we get $b=7$. Thus the required two-digit number is $57$. $\blacksquare$
+Since $a,b$ are both digits and $50< 10a+b< 60$, the tens digit $a$ must be $5$. Substituting into $b=a+2$, we get $b=7$. Thus the required two-digit number is $57$. $\blacksquare$
 
 ### Problem 5
 
-(Exercise 2.1, Review and Consolidation, Problem 5) Given $2<a<3$ and $-2<b<-1$, find the range of $2a+b$.
+(Exercise 2.1, Review and Consolidation, Problem 5) Given $2< a< 3$ and $-2< b< -1$, find the range of $2a+b$.
 
 ### Solution to Problem 5
 
 By **Property 2.1.6** (Multiplicativity), first multiply the range of $a$ by a factor, and then by **Property 2.1.7** (Adding Inequalities in the Same Direction) add the range of $b$.
 
-From $2<a<3$, multiplying both sides by $2$, we get $4<2a<6$.
+From $2< a< 3$, multiplying both sides by $2$, we get $4< 2a< 6$.
 
-Also $-2<b<-1$. Adding the two inequalities in the same direction, we get
+Also $-2< b< -1$. Adding the two inequalities in the same direction, we get
 
 $$
-4+\left(-2\right)<2a+b<6+\left(-1\right),
+4+\left(-2\right)< 2a+b< 6+\left(-1\right),
 $$
 
-i.e. $2<2a+b<5$. Thus the range of $2a+b$ is $\left\{x\mid2<x<5\right\}$. $\blacksquare$
+i.e. $2< 2a+b< 5$. Thus the range of $2a+b$ is $\left\{x\mid2< x< 5\right\}$. $\blacksquare$
 
 ### Problem 6
 
-(Exercise 2.1, Review and Consolidation, Problem 6) Prove that $c<b$, $b<a\Rightarrow c<a$.
+(Exercise 2.1, Review and Consolidation, Problem 6) Prove that $c< b$, $b< a\Rightarrow c< a$.
 
 ### Solution to Problem 6
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate $c<a$ into $c-a<0$ and prove it.
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate $c< a$ into $c-a< 0$ and prove it.
 
-Since $c<b$, we have $c-b<0$; since $b<a$, we have $b-a<0$. Adding the two inequalities, we get
+Since $c< b$, we have $c-b< 0$; since $b< a$, we have $b-a< 0$. Adding the two inequalities, we get
 
 $$
-c-a=\left(c-b\right)+\left(b-a\right)<0.
+c-a=\left(c-b\right)+\left(b-a\right)< 0.
 $$
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $c<a$. This is precisely **Property 2.1.4** (Transitivity). $\blacksquare$
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $c< a$. This is precisely **Property 2.1.4** (Transitivity). $\blacksquare$
 
 ### Problem 7
 
-(Exercise 2.1, Comprehensive Application, Problem 7) Given $a>b>0$, $c<d<0$, and $e<0$, prove that $\frac{e}{a-c}>\frac{e}{b-d}$.
+(Exercise 2.1, Comprehensive Application, Problem 7) Given $a> b> 0$, $c< d< 0$, and $e< 0$, prove that $\frac{e}{a-c}> \frac{e}{b-d}$.
 
 ### Solution to Problem 7
 
 By **Property 2.1.7** (Adding Inequalities in the Same Direction), first compare $a-c$ and $b-d$, and then by **Basic Fact 2.1.1** (Order Relations Among Real Numbers) take reciprocals and multiply by the negative number $e$.
 
-Multiplying both sides of $c<d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c>-d$. Also $a>b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)>b+\left(-d\right)$, i.e.
+Multiplying both sides of $c< d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d$. Also $a> b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)> b+\left(-d\right)$, i.e.
 
 $$
-a-c>b-d.
+a-c> b-d.
 $$
 
-Also $a>0$ and $-c>0$, so $a-c=a+\left(-c\right)>0$; similarly $b-d>0$, and hence
+Also $a> 0$ and $-c> 0$, so $a-c=a+\left(-c\right)> 0$; similarly $b-d> 0$, and hence
 
 $$
-0<b-d<a-c.
+0< b-d< a-c.
 $$
 
-Taking reciprocals of positive numbers reverses the inequality sign, giving $\frac{1}{a-c}<\frac{1}{b-d}$. Multiplying both sides by the negative number $e<0$, by **Property 2.1.6** (Multiplicativity), the inequality sign reverses again, giving
+Taking reciprocals of positive numbers reverses the inequality sign, giving $\frac{1}{a-c}< \frac{1}{b-d}$. Multiplying both sides by the negative number $e< 0$, by **Property 2.1.6** (Multiplicativity), the inequality sign reverses again, giving
 
 $$
-\frac{e}{a-c}>\frac{e}{b-d}.
+\frac{e}{a-c}> \frac{e}{b-d}.
 $$
 
 $\blacksquare$
@@ -302,25 +302,25 @@ $\blacksquare$
 
 (Exercise 2.1, Comprehensive Application, Problem 8) Which of the following propositions is true?
 
-($A$) If $a>b>0$, then $ac^2>bc^2$;
+($A$) If $a> b> 0$, then $ac^2> bc^2$;
 
-($B$) If $a>b>0$, then $a^2>b^2$;
+($B$) If $a> b> 0$, then $a^2> b^2$;
 
-($C$) If $a<b<0$, then $a^2<ab<b^2$;
+($C$) If $a< b< 0$, then $a^2< ab< b^2$;
 
-($D$) If $a<b<0$, then $\frac{1}{a}<\frac{1}{b}$.
+($D$) If $a< b< 0$, then $\frac{1}{a}< \frac{1}{b}$.
 
 ### Solution to Problem 8
 
 By **Property 2.1.6** (Multiplicativity) and **Property 2.1.9** (Powers), judge each one.
 
-($A$) When $c=0$, $ac^2=bc^2=0$, so $ac^2>bc^2$ does not always hold; false.
+($A$) When $c=0$, $ac^2=bc^2=0$, so $ac^2> bc^2$ does not always hold; false.
 
-($B$) From $a>b>0$, by **Property 2.1.9** (Powers) we get $a^2>b^2$; true.
+($B$) From $a> b> 0$, by **Property 2.1.9** (Powers) we get $a^2> b^2$; true.
 
-($C$) Multiplying both sides of $a<b$ by the negative number $a<0$, by **Property 2.1.6** (Multiplicativity) we get $a^2>ab$, which contradicts $a^2<ab$; false.
+($C$) Multiplying both sides of $a< b$ by the negative number $a< 0$, by **Property 2.1.6** (Multiplicativity) we get $a^2> ab$, which contradicts $a^2< ab$; false.
 
-($D$) From $a<b<0$, taking reciprocals gives $\frac{1}{a}>\frac{1}{b}$ (for example, when $a=-3$ and $b=-1$, $\frac{1}{a}=-\frac{1}{3}>-1=\frac{1}{b}$), which contradicts $\frac{1}{a}<\frac{1}{b}$; false.
+($D$) From $a< b< 0$, taking reciprocals gives $\frac{1}{a}> \frac{1}{b}$ (for example, when $a=-3$ and $b=-1$, $\frac{1}{a}=-\frac{1}{3}> -1=\frac{1}{b}$), which contradicts $\frac{1}{a}< \frac{1}{b}$; false.
 
 Thus the true proposition is ($B$). $\blacksquare$
 
@@ -342,19 +342,19 @@ $$
 \frac{l^2}{4\pi}-\frac{l^2}{16}=l^2\left(\frac{1}{4\pi}-\frac{1}{16}\right).
 $$
 
-Since $4\pi<16$, we have $\frac{1}{4\pi}>\frac{1}{16}$, so the above expression is positive, and the area of the circle is greater than the area of a square with the same perimeter.
+Since $4\pi< 16$, we have $\frac{1}{4\pi}> \frac{1}{16}$, so the above expression is positive, and the area of the circle is greater than the area of a square with the same perimeter.
 
 When the perimeters of the cross-sections are equal, the circular cross-section has the largest area. Therefore, water pipes are made circular, so that with the same material the water-passing cross-section is the largest and the flow capacity is the strongest. $\blacksquare$
 
 ### Problem 10
 
-(Exercise 2.1, Comprehensive Application, Problem 10) Given that $b$ grams of sugar water contains $a$ grams of sugar ($b>a>0$), and then $m$ grams of sugar ($m>0$) are added (assuming all dissolves), the sugar water becomes sweeter. Express this fact as an inequality, and prove that this inequality holds.
+(Exercise 2.1, Comprehensive Application, Problem 10) Given that $b$ grams of sugar water contains $a$ grams of sugar ($b> a> 0$), and then $m$ grams of sugar ($m> 0$) are added (assuming all dissolves), the sugar water becomes sweeter. Express this fact as an inequality, and prove that this inequality holds.
 
 ### Solution to Problem 10
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the sugar water becoming sweeter means the concentration becomes larger; take the difference to compare the concentrations before and after adding sugar.
 
-Before adding sugar, the concentration of the sugar water is $\frac{a}{b}$; after adding sugar, the concentration is $\frac{a+m}{b+m}$. Becoming sweeter means $\frac{a+m}{b+m}>\frac{a}{b}$.
+Before adding sugar, the concentration of the sugar water is $\frac{a}{b}$; after adding sugar, the concentration is $\frac{a+m}{b+m}$. Becoming sweeter means $\frac{a+m}{b+m}> \frac{a}{b}$.
 
 Taking the difference:
 
@@ -362,23 +362,23 @@ $$
 \frac{a+m}{b+m}-\frac{a}{b}=\frac{b\left(a+m\right)-a\left(b+m\right)}{b\left(b+m\right)}=\frac{m\left(b-a\right)}{b\left(b+m\right)}.
 $$
 
-Since $b>a>0$ and $m>0$, the numerator $m\left(b-a\right)>0$ and the denominator $b\left(b+m\right)>0$, so the difference is positive, i.e. $\frac{a+m}{b+m}>\frac{a}{b}$. Thus after adding $m$ grams of sugar the sugar water becomes sweeter. $\blacksquare$
+Since $b> a> 0$ and $m> 0$, the numerator $m\left(b-a\right)> 0$ and the denominator $b\left(b+m\right)> 0$, so the difference is positive, i.e. $\frac{a+m}{b+m}> \frac{a}{b}$. Thus after adding $m$ grams of sugar the sugar water becomes sweeter. $\blacksquare$
 
 ### Problem 11
 
-(Exercise 2.1, Extension and Exploration, Problem 11) Given $a>b>0$, prove that $\sqrt a>\sqrt b$.
+(Exercise 2.1, Extension and Exploration, Problem 11) Given $a> b> 0$, prove that $\sqrt a> \sqrt b$.
 
 ### Solution to Problem 11
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), compare the difference between $\sqrt a$ and $\sqrt b$.
 
-Since $a>b>0$, we have $\sqrt a>0$, $\sqrt b>0$, and $\sqrt a+\sqrt b>0$. Also,
+Since $a> b> 0$, we have $\sqrt a> 0$, $\sqrt b> 0$, and $\sqrt a+\sqrt b> 0$. Also,
 
 $$
 a-b=\left(\sqrt a\right)^2-\left(\sqrt b\right)^2=\left(\sqrt a-\sqrt b\right)\left(\sqrt a+\sqrt b\right).
 $$
 
-From $a>b$ we know $a-b>0$, while $\sqrt a+\sqrt b>0$, so $\sqrt a-\sqrt b>0$, i.e. $\sqrt a>\sqrt b$. $\blacksquare$
+From $a> b$ we know $a-b> 0$, while $\sqrt a+\sqrt b> 0$, so $\sqrt a-\sqrt b> 0$, i.e. $\sqrt a> \sqrt b$. $\blacksquare$
 
 ### Problem 12
 

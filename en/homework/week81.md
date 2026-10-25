@@ -565,10 +565,10 @@ $$
 (2) Suppose $k$ numbers are chosen from the $37$. The chance of winning is $\frac{1}{\binom{37}{k}}$, and we require
 
 $$
-\frac{1}{3000000}<\frac{1}{\binom{37}{k}}\le\frac{1}{2000000},
+\frac{1}{3000000}< \frac{1}{\binom{37}{k}}\le\frac{1}{2000000},
 $$
 
-i.e., $2000000\le \binom{37}{k}<3000000$. Calculating gives $\binom{37}{6}=2324784$, which satisfies $2000000\le 2324784<3000000$, while $\binom{37}{7}=10295472$ is too large and $\binom{37}{5}=435897$ is too small. Hence $6$ numbers should be chosen from the $37$. $\blacksquare$
+i.e., $2000000\le \binom{37}{k}< 3000000$. Calculating gives $\binom{37}{6}=2324784$, which satisfies $2000000\le 2324784< 3000000$, while $\binom{37}{7}=10295472$ is too large and $\binom{37}{5}=435897$ is too small. Hence $6$ numbers should be chosen from the $37$. $\blacksquare$
 
 ### Problem 17
 

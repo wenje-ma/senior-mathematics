@@ -1,14 +1,14 @@
 # Assignment 15
 
-> **Definition 4.3.1** (Logarithm) <br>In general, if $a^x=N$ ($a>0$, and $a\neq 1$), then the number $x$ is called the logarithm of $N$ with base $a$, denoted by $x=\log_a N$, where $a$ is called the base of the logarithm and $N$ is called the antilogarithm.
+> **Definition 4.3.1** (Logarithm) <br>In general, if $a^x=N$ ($a> 0$, and $a\neq 1$), then the number $x$ is called the logarithm of $N$ with base $a$, denoted by $x=\log_a N$, where $a$ is called the base of the logarithm and $N$ is called the antilogarithm.
 
 > **Definition 4.3.2** (Common Logarithm and Natural Logarithm) <br>The logarithm with base $10$ is called the common logarithm, and $\log_{10} N$ is denoted by $\lg N$; the logarithm with base $\mathrm e$ is called the natural logarithm, and $\log_{\mathrm e} N$ is denoted by $\ln N$.
 
-> **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) <br>When $a>0$, $a\neq 1$, $a^x=N\Leftrightarrow x=\log_a N$. Negative numbers and $0$ have no logarithms; $\log_a 1=0$, $\log_a a=1$.
+> **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) <br>When $a> 0$, $a\neq 1$, $a^x=N\Leftrightarrow x=\log_a N$. Negative numbers and $0$ have no logarithms; $\log_a 1=0$, $\log_a a=1$.
 
-> **Standard Conclusion 4.3.4** (Logarithm Operation Properties) <br>If $a>0$, and $a\neq 1$, $M>0$, $N>0$, then (1) $\log_a\left(MN\right)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
+> **Standard Conclusion 4.3.4** (Logarithm Operation Properties) <br>If $a> 0$, and $a\neq 1$, $M> 0$, $N> 0$, then (1) $\log_a\left(MN\right)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
 
-> **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a>0$, and $a\neq 1$; $b>0$; $c>0$, and $c\neq 1$).
+> **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a> 0$, and $a\neq 1$; $b> 0$; $c> 0$, and $c\neq 1$).
 
 ### Exercise 1
 
@@ -84,7 +84,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (1) $\log_{\frac{1}{3}} x=-3$ becomes $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
 
-(2) $\log_x 49=4$ becomes $x^4=49$, and since $x>0$ and $x\neq 1$, $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
+(2) $\log_x 49=4$ becomes $x^4=49$, and since $x> 0$ and $x\neq 1$, $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
 
 (3) $\lg 0.00001=x$ becomes $10^x=0.00001=10^{-5}$, so $x=-5$.
 
@@ -206,9 +206,9 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relations
 
 (1) The range of values of $x$ for which the expression $\log_{\left(2x-1\right)}\left(2-x\right)$ is meaningful is ( ).
 
-(A) $x>2$ (B) $x<2$ (C) $\frac{1}{2}<x<2$ (D) $\frac{1}{2}<x<2$, and $x\neq 1$
+(A) $x> 2$ (B) $x< 2$ (C) $\frac{1}{2}< x< 2$ (D) $\frac{1}{2}< x< 2$, and $x\neq 1$
 
-(2) If $\lg a$ ($a>0$) and $\lg b$ ($b>0$) are opposites of each other, then ( ).
+(2) If $\lg a$ ($a> 0$) and $\lg b$ ($b> 0$) are opposites of each other, then ( ).
 
 (A) $a+b=0$ (B) $a-b=0$ (C) $ab=1$ (D) $\frac{a}{b}=1$
 
@@ -216,7 +216,7 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relations
 
 By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
-(1) For the logarithm $\log_{\left(2x-1\right)}\left(2-x\right)$ to be meaningful, the base $2x-1>0$ and $2x-1\neq 1$, and the antilogarithm $2-x>0$. That is, $x>\frac{1}{2}$, $x\neq 1$, $x<2$. Combining gives $\frac{1}{2}<x<2$ and $x\neq 1$, so choose (D).
+(1) For the logarithm $\log_{\left(2x-1\right)}\left(2-x\right)$ to be meaningful, the base $2x-1> 0$ and $2x-1\neq 1$, and the antilogarithm $2-x> 0$. That is, $x> \frac{1}{2}$, $x\neq 1$, $x< 2$. Combining gives $\frac{1}{2}< x< 2$ and $x\neq 1$, so choose (D).
 
 (2) $\lg a$ and $\lg b$ are opposites of each other, i.e. $\lg a+\lg b=0$. By **Standard Conclusion 4.3.4** (1), $\lg\left(ab\right)=0$, so $ab=1$; choose (C). $\blacksquare$
 
@@ -366,4 +366,4 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-It decreases by $30\%$ per hour, i.e. the alcohol content each hour is $0.7$ of the original. The initial content is $1\;\mathrm{mg/mL}$, and after $t$ hours the content is $0.7^t\;\mathrm{mg/mL}$. The standard for driving after drinking is $20\;\mathrm{mg}$ in $100\;\mathrm{mL}$, i.e. $0.2\;\mathrm{mg/mL}$; to be able to drive we need $0.7^t<0.2$. By the definition of logarithms, $t>\log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. Therefore he must wait at least $5$ hours before he can drive. $\blacksquare$
+It decreases by $30\%$ per hour, i.e. the alcohol content each hour is $0.7$ of the original. The initial content is $1\;\mathrm{mg/mL}$, and after $t$ hours the content is $0.7^t\;\mathrm{mg/mL}$. The standard for driving after drinking is $20\;\mathrm{mg}$ in $100\;\mathrm{mL}$, i.e. $0.2\;\mathrm{mg/mL}$; to be able to drive we need $0.7^t< 0.2$. By the definition of logarithms, $t> \log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. Therefore he must wait at least $5$ hours before he can drive. $\blacksquare$

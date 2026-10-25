@@ -108,15 +108,15 @@ $\boldsymbol{U\setminus A}=\left\{1,3,6,7\right\}$ 与 $\boldsymbol{U\setminus B
 
 ### 习题一
 
-(习题 1.3 复习巩固第 1 题) 集合 $A=\left\{x\mid 2\le x<4\right\}$, $B=\left\{x\mid 3x-7\ge 8-2x\right\}$, 求 $A\cup B$, $A\cap B$.
+(习题 1.3 复习巩固第 1 题) 集合 $A=\left\{x\mid 2\le x< 4\right\}$, $B=\left\{x\mid 3x-7\ge 8-2x\right\}$, 求 $A\cup B$, $A\cap B$.
 
 ### 解答 习题一
 
 先化简集合 $B$. 由 $3x-7\ge 8-2x$, 移项得 $5x\ge 15$, 即 $x\ge 3$, 故 $B=\left\{x\mid x\ge 3\right\}$.
 
-由**定义 1.3.1** (并集), $A\cup B$ 由满足 $2\le x<4$ 或 $x\ge 3$ 的实数组成, 即 $x\ge 2$, 故 $A\cup B=\left\{x\mid x\ge 2\right\}$.
+由**定义 1.3.1** (并集), $A\cup B$ 由满足 $2\le x< 4$ 或 $x\ge 3$ 的实数组成, 即 $x\ge 2$, 故 $A\cup B=\left\{x\mid x\ge 2\right\}$.
 
-由**定义 1.3.2** (交集), $A\cap B$ 由同时满足 $2\le x<4$ 与 $x\ge 3$ 的实数组成, 即 $3\le x<4$, 故 $A\cap B=\left\{x\mid 3\le x<4\right\}$. $\blacksquare$
+由**定义 1.3.2** (交集), $A\cap B$ 由同时满足 $2\le x< 4$ 与 $x\ge 3$ 的实数组成, 即 $3\le x< 4$, 故 $A\cap B=\left\{x\mid 3\le x< 4\right\}$. $\blacksquare$
 
 ### 习题二
 
@@ -152,19 +152,19 @@ $\boldsymbol{U\setminus A}=\left\{1,3,6,7\right\}$ 与 $\boldsymbol{U\setminus B
 
 ### 习题四
 
-(习题 1.3 综合运用第 4 题) 已知集合 $A=\left\{x\mid 3\le x<7\right\}$, $B=\left\{x\mid 2<x<10\right\}$, 求 $\boldsymbol{\left(A\cup B\right)^c}$, $\boldsymbol{\left(A\cap B\right)^c}$, $\left(\boldsymbol{A^c}\right)\cap B$, $A\cup\left(\boldsymbol{B^c}\right)$.
+(习题 1.3 综合运用第 4 题) 已知集合 $A=\left\{x\mid 3\le x< 7\right\}$, $B=\left\{x\mid 2< x< 10\right\}$, 求 $\boldsymbol{\left(A\cup B\right)^c}$, $\boldsymbol{\left(A\cap B\right)^c}$, $\left(\boldsymbol{A^c}\right)\cap B$, $A\cup\left(\boldsymbol{B^c}\right)$.
 
 ### 解答 习题四
 
-由**定义 1.3.1** (并集), $A\cup B=\left\{x\mid 2<x<10\right\}$. 由**定义 1.3.2** (交集), $A\cap B=\left\{x\mid 3\le x<7\right\}$.
+由**定义 1.3.1** (并集), $A\cup B=\left\{x\mid 2< x< 10\right\}$. 由**定义 1.3.2** (交集), $A\cap B=\left\{x\mid 3\le x< 7\right\}$.
 
-由**定义 1.3.4** (补集), 在全集 $\mathbb R$ 中取补集. 先求 $A\cup B$ 的补集: $2<x<10$ 以外的实数为 $x\le 2$ 或 $x\ge 10$, 故 $\boldsymbol{\left(A\cup B\right)^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$.
+由**定义 1.3.4** (补集), 在全集 $\mathbb R$ 中取补集. 先求 $A\cup B$ 的补集: $2< x< 10$ 以外的实数为 $x\le 2$ 或 $x\ge 10$, 故 $\boldsymbol{\left(A\cup B\right)^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$.
 
-再求 $A\cap B$ 的补集: $3\le x<7$ 以外的实数为 $x<3$ 或 $x\ge 7$, 故 $\boldsymbol{\left(A\cap B\right)^c}=\left\{x\mid x<3\text{ 或 }x\ge 7\right\}$.
+再求 $A\cap B$ 的补集: $3\le x< 7$ 以外的实数为 $x< 3$ 或 $x\ge 7$, 故 $\boldsymbol{\left(A\cap B\right)^c}=\left\{x\mid x< 3\text{ 或 }x\ge 7\right\}$.
 
-$A$ 在 $\mathbb R$ 中的补集为 $\boldsymbol{A^c}=\left\{x\mid x<3\text{ 或 }x\ge 7\right\}$. 再由**定义 1.3.2** (交集), $\left(\boldsymbol{A^c}\right)\cap B$ 由同时满足 $x<3$ 或 $x\ge 7$ 与 $2<x<10$ 的实数组成, 即 $2<x<3$ 或 $7\le x<10$, 故 $\left(\boldsymbol{A^c}\right)\cap B=\left\{x\mid 2<x<3\text{ 或 }7\le x<10\right\}$.
+$A$ 在 $\mathbb R$ 中的补集为 $\boldsymbol{A^c}=\left\{x\mid x< 3\text{ 或 }x\ge 7\right\}$. 再由**定义 1.3.2** (交集), $\left(\boldsymbol{A^c}\right)\cap B$ 由同时满足 $x< 3$ 或 $x\ge 7$ 与 $2< x< 10$ 的实数组成, 即 $2< x< 3$ 或 $7\le x< 10$, 故 $\left(\boldsymbol{A^c}\right)\cap B=\left\{x\mid 2< x< 3\text{ 或 }7\le x< 10\right\}$.
 
-$B$ 在 $\mathbb R$ 中的补集为 $\boldsymbol{B^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$. 再由**定义 1.3.1** (并集), $A\cup\left(\boldsymbol{B^c}\right)$ 由满足 $3\le x<7$ 或 $x\le 2$ 或 $x\ge 10$ 的实数组成, 故 $A\cup\left(\boldsymbol{B^c}\right)=\left\{x\mid x\le 2\text{ 或 }3\le x<7\text{ 或 }x\ge 10\right\}$. $\blacksquare$
+$B$ 在 $\mathbb R$ 中的补集为 $\boldsymbol{B^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$. 再由**定义 1.3.1** (并集), $A\cup\left(\boldsymbol{B^c}\right)$ 由满足 $3\le x< 7$ 或 $x\le 2$ 或 $x\ge 10$ 的实数组成, 故 $A\cup\left(\boldsymbol{B^c}\right)=\left\{x\mid x\le 2\text{ 或 }3\le x< 7\text{ 或 }x\ge 10\right\}$. $\blacksquare$
 
 ### 习题五
 

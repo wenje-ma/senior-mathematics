@@ -4,7 +4,7 @@
 
 > **Definition 9.1.2** (Population, Individual, Sample and Sample Size) <br>In a survey, we call the whole collection of objects of study the population, and each object of study making up the population an individual. To emphasize the purpose of the survey, one may also take as the population the whole collection of certain indicators of the objects of study, and as the individual the corresponding indicator of each object of study. The part of the individuals drawn from the population is called the sample; the number of individuals contained in the sample is called the sample size, abbreviated as sample size. The variable values obtained by surveying the sample are called the observed data of the sample, abbreviated as sample data.
 
-> **Definition 9.1.3** (Simple Random Sampling) <br>Suppose a population contains $N$ ($N$ a positive integer) individuals, from which $n$ ($1\le n<N$) individuals are drawn one by one as a sample. If the drawing is with replacement and, at each draw, every individual in the population has equal probability of being selected, it is called simple random sampling with replacement; if the drawing is without replacement and, at each draw, every individual in the population not yet in the sample has equal probability of being selected, it is called simple random sampling without replacement. Both are collectively called simple random sampling, and a sample obtained by simple random sampling is called a simple random sample. Unless otherwise stated, simple random sampling in this chapter refers to simple random sampling without replacement.
+> **Definition 9.1.3** (Simple Random Sampling) <br>Suppose a population contains $N$ ($N$ a positive integer) individuals, from which $n$ ($1\le n< N$) individuals are drawn one by one as a sample. If the drawing is with replacement and, at each draw, every individual in the population has equal probability of being selected, it is called simple random sampling with replacement; if the drawing is without replacement and, at each draw, every individual in the population not yet in the sample has equal probability of being selected, it is called simple random sampling without replacement. Both are collectively called simple random sampling, and a sample obtained by simple random sampling is called a simple random sample. Unless otherwise stated, simple random sampling in this chapter refers to simple random sampling without replacement.
 
 > **Definition 9.1.4** (Population Mean and Sample Mean) <br>The population has $N$ individuals with variable values $Y_1,Y_2,\cdots,Y_N$; then $\bar Y=\frac{1}{N}\sum_{i=1}^{N}Y_i$ is called the population mean, also called the population average. If a sample of size $n$ is drawn from the population with variable values $y_1,y_2,\cdots,y_n$, then $\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i$ is called the sample mean, also called the sample average. In simple random sampling, the sample average $\bar y$ is commonly used to estimate the population average $\bar Y$.
 
@@ -92,7 +92,7 @@ $$
 \left\lfloor 100U\right\rfloor+1.
 $$
 
-Because $0\le U<1$, we have $0\le 100U<100$, so $\lfloor 100U\rfloor$ takes all values $0,1,\cdots,99$; after adding 1 it is exactly $1,2,\cdots,100$, and each integer appears with probability $\frac{1}{100}$.
+Because $0\le U< 1$, we have $0\le 100U< 100$, so $\lfloor 100U\rfloor$ takes all values $0,1,\cdots,99$; after adding 1 it is exactly $1,2,\cdots,100$, and each integer appears with probability $\frac{1}{100}$.
 
 Similarly, to convert into integer random numbers in the range $1\sim712$, simply take
 
@@ -100,7 +100,7 @@ $$
 \left\lfloor 712U\right\rfloor+1.
 $$
 
-Because $0\le 712U<712$, $\lfloor 712U\rfloor$ takes all values $0,1,\cdots,711$; after adding 1 it is exactly $1,2,\cdots,712$, and each integer appears with probability $\frac{1}{712}$. $\blacksquare$
+Because $0\le 712U< 712$, $\lfloor 712U\rfloor$ takes all values $0,1,\cdots,711$; after adding 1 it is exactly $1,2,\cdots,712$, and each integer appears with probability $\frac{1}{712}$. $\blacksquare$
 
 ### Exercise 5
 
@@ -342,7 +342,7 @@ The sampling frames of all three cannot cover the population of "national TV vie
 
 (Exercise 9.1, Review and Consolidation, Problem 4) Are the following samples drawn from the population simple random samples?
 
-(1) The population is numbered $1\sim75$; generate a random integer $r$ in $0\sim99$. If $r=0$ or $r>75$, discard it and draw again.
+(1) The population is numbered $1\sim75$; generate a random integer $r$ in $0\sim99$. If $r=0$ or $r> 75$, discard it and draw again.
 
 (2) The population is numbered $1\sim75$; generate a random integer $r$ in $0\sim99$, and take the remainder of $r$ divided by 75 as the selected number. If the remainder is 0, then select 75.
 
@@ -352,7 +352,7 @@ The sampling frames of all three cannot cover the population of "national TV vie
 
 By **Definition 9.1.3** (Simple Random Sampling), a simple random sample requires every individual in the population to be selected with equal probability.
 
-(1) It is a simple random sample. After generating random numbers in $0\sim99$, whenever $r=0$ or $r>75$ the draw is discarded and repeated; among the valid numbers $1\sim75$ finally retained, each number is selected with equal probability, so the result is a simple random sample.
+(1) It is a simple random sample. After generating random numbers in $0\sim99$, whenever $r=0$ or $r> 75$ the draw is discarded and repeated; among the valid numbers $1\sim75$ finally retained, each number is selected with equal probability, so the result is a simple random sample.
 
 (2) It is not a simple random sample. $r$ takes 100 values from $0\sim99$. Number 1 corresponds to $r=1,76$, number 2 to $r=2,77$, ..., number 24 to $r=24,99$, and number 75 to $r=0,75$; that is, numbers $1\sim24$ and 75 each correspond to 2 random numbers and are selected with probability $\frac{2}{100}$, while numbers $25\sim74$ each correspond to only 1 random number and are selected with probability $\frac{1}{100}$. The numbers are selected with unequal probabilities, so it is not a simple random sample.
 

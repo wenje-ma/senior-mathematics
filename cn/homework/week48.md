@@ -162,7 +162,7 @@ $\blacksquare$
 
 ### 习题三
 
-(习题 10.2 复习巩固第 3 题) 若 $P\left(A\right)>0$, $P\left(B\right)>0$, 证明: 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立.
+(习题 10.2 复习巩固第 3 题) 若 $P\left(A\right)> 0$, $P\left(B\right)> 0$, 证明: 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立.
 
 ### 解答 习题三
 
@@ -170,9 +170,9 @@ $\blacksquare$
 
 由**定义 10.2.1** (事件的相互独立性), 若 $A, B$ 相互独立, 则 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$.
 
-若 $A, B$ 既独立又互斥, 则必有 $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. 但已知 $P\left(A\right)>0$ 且 $P\left(B\right)>0$, 故 $P\left(A\right)P\left(B\right)>0$, 矛盾.
+若 $A, B$ 既独立又互斥, 则必有 $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. 但已知 $P\left(A\right)> 0$ 且 $P\left(B\right)> 0$, 故 $P\left(A\right)P\left(B\right)> 0$, 矛盾.
 
-因此, 当 $P\left(A\right)>0$, $P\left(B\right)>0$ 时, 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立. $\blacksquare$
+因此, 当 $P\left(A\right)> 0$, $P\left(B\right)> 0$ 时, 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立. $\blacksquare$
 
 ### 习题四
 
