@@ -338,7 +338,7 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model).
 
 (1) $P_1$ rises linearly, as a linear function. Let $P_1=kt+b$; from $P_1=20$ when $t=0$, we get $b=20$; from $P_1=40$ when $t=10$, we get $10k+20=40$, $k=2$. Therefore $P_1=f\left(t\right)=2t+20$.
 
-(2) $P_2$ grows exponentially; let $P_2=20\cdot a^t$. From $P_2=40$ when $t=10$, we get $20\cdot a^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. Therefore $P_2=g\left(t\right)=20\cdot 2^{\frac{t}{10}}$.
+(2) $P_2$ grows exponentially; let $P_2=20\cdot a^\top$. From $P_2=40$ when $t=10$, we get $20\cdot a^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. Therefore $P_2=g\left(t\right)=20\cdot 2^{\frac{t}{10}}$.
 
 (3) When $t=5$, $P_1=30$, $P_2=20\cdot 2^{0.5}\approx 28.3$; when $t=15$, $P_1=50$, $P_2=20\cdot 2^{1.5}\approx 56.6$; when $t=20$, $P_1=60$, $P_2=80$. Linear growth maintains a fixed speed, while exponential growth has an increasingly fast speed; in the long run, exponential growth will eventually exceed linear growth. $\blacksquare$
 

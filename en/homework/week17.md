@@ -224,7 +224,7 @@ By **Definition 4.5.1** (Zero of a Function).
 
 ### Problem 9
 
-(Exercise 4.5, Comprehensive Application, Problem 9) In a certain pond, the relationship between the area $y$ (unit: $\mathrm{m^2}$) of duckweed and time $t$ (unit: months) is $y=a^t$. From the graph, when $t=0$, $y=1$, and when $t=1$, $y=2$. Consider the following statements:
+(Exercise 4.5, Comprehensive Application, Problem 9) In a certain pond, the relationship between the area $y$ (unit: $\mathrm{m^2}$) of duckweed and time $t$ (unit: months) is $y=a^\top$. From the graph, when $t=0$, $y=1$, and when $t=1$, $y=2$. Consider the following statements:
 
 (1) the monthly growth rate of the duckweed is $1$;
 
@@ -238,13 +238,13 @@ The correct statements among them are ( ).
 
 (A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
 
-The graph: horizontal axis is time $t$ (unit: month), vertical axis is the duckweed area $y$ (unit: $\mathrm{m^2}$); the exponential growth curve $y=2^t$ passes through the points $\left(0,1\right)$ and $\left(1,2\right)$, is monotonically increasing, and rises more and more steeply.
+The graph: horizontal axis is time $t$ (unit: month), vertical axis is the duckweed area $y$ (unit: $\mathrm{m^2}$); the exponential growth curve $y=2^\top$ passes through the points $\left(0,1\right)$ and $\left(1,2\right)$, is monotonically increasing, and rises more and more steeply.
 
 ### Solution to Problem 9
 
 By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
-From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^t$. (1) The monthly growth is $2^{t+1}/2^t=2$, i.e. the growth rate is $1$, correct. (2) When $t=5$, $y=2^5=32> 30$, correct. (3) The area added each month is $2^{t+1}-2^t=2^t$, which increases with $t$, incorrect. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, correct. Therefore choose (C). $\blacksquare$
+From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^\top$. (1) The monthly growth is $2^{t+1}/2^\top=2$, i.e. the growth rate is $1$, correct. (2) When $t=5$, $y=2^5=32> 30$, correct. (3) The area added each month is $2^{t+1}-2^\top=2^\top$, which increases with $t$, incorrect. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, correct. Therefore choose (C). $\blacksquare$
 
 ### Problem 10
 
@@ -254,7 +254,7 @@ From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^t$. (1) The monthly growth is $2^{t+1}/
 
 By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-Let after $t$ hours the drug amount be $2500\times 0.8^t\;\mathrm{mg}$. Let $2500\times 0.8^t=1500$, i.e. $0.8^t=0.6$, $t=\log_{0.8} 0.6=\frac{\lg 0.6}{\lg 0.8}\approx\frac{-0.222}{-0.097}\approx 2.3$. Therefore the drug should be replenished at the latest after $2.3\;\mathrm{h}$. $\blacksquare$
+Let after $t$ hours the drug amount be $2500\times 0.8^\top\;\mathrm{mg}$. Let $2500\times 0.8^\top=1500$, i.e. $0.8^\top=0.6$, $t=\log_{0.8} 0.6=\frac{\lg 0.6}{\lg 0.8}\approx\frac{-0.222}{-0.097}\approx 2.3$. Therefore the drug should be replenished at the latest after $2.3\;\mathrm{h}$. $\blacksquare$
 
 ### Problem 11
 

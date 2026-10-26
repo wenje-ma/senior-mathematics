@@ -124,7 +124,7 @@ $$
 
 By **Standard Conclusion 4.1.7** (Irrational Exponents), the real exponent power $a^x$ ($a> 0$) is a determined real number, and its trend of change can be investigated with a calculating tool.
 
-(1) When $x$ takes negative real numbers and $\left|x\right|\to+\infty$, let $x=-t$, $t> 0$, $t\to+\infty$, then $2^x=2^{-t}=\frac{1}{2^t}$. Since $2^t$ increases as $t$ increases, $\frac{1}{2^t}$ decreases as $t$ increases and tends to $0$, i.e. $2^x$ gradually decreases and tends to $0$ as $\left|x\right|$ increases.
+(1) When $x$ takes negative real numbers and $\left|x\right|\to+\infty$, let $x=-t$, $t> 0$, $t\to+\infty$, then $2^x=2^{-t}=\frac{1}{2^\top}$. Since $2^\top$ increases as $t$ increases, $\frac{1}{2^\top}$ decreases as $t$ increases and tends to $0$, i.e. $2^x$ gradually decreases and tends to $0$ as $\left|x\right|$ increases.
 
 (2) When $x$ takes positive real numbers and $x\to+\infty$, $\left(\frac{1}{2}\right)^x=\frac{1}{2^x}$. Since $2^x$ increases as $x$ increases, $\frac{1}{2^x}$ decreases as $x$ increases and tends to $0$, i.e. $\left(\frac{1}{2}\right)^x$ gradually decreases and tends to $0$ as $x$ increases. $\blacksquare$
 

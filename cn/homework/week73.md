@@ -470,7 +470,7 @@ $\blacksquare$
 (1) 由**定义 4.3.1** (等比数列), 每秒剩余量为前一秒的 $1-k$ 倍,
 
 $$
-N\left(t\right)=N_0\left(1-k\right)^t.
+N\left(t\right)=N_0\left(1-k\right)^\top.
 $$
 
 $\blacksquare$

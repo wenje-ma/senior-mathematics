@@ -428,7 +428,7 @@ Hence the solution set of $f'\left(x\right)> 0$ is $\left\{x\mid x> 1\right\}$. 
 
 ### Problem 9
 
-(Exercise 5.2, Extension and Exploration, Problem 9) Radon is a colorless, odorless radioactive gas that naturally emanates from the ground or from building materials. If $500\ \mathrm{g}$ of radon gas, after emanating for $t$ days, leaves an amount of $A\left(t\right)=500\times0.834^{t}\ \mathrm{g}$.
+(Exercise 5.2, Extension and Exploration, Problem 9) Radon is a colorless, odorless radioactive gas that naturally emanates from the ground or from building materials. If $500\ \mathrm{g}$ of radon gas, after emanating for $t$ days, leaves an amount of $A\left(t\right)=500\times0.834^{\top}\ \mathrm{g}$.
 
 (1) What is the emanation rate of the radon gas? 
 
@@ -438,7 +438,7 @@ Hence the solution set of $f'\left(x\right)> 0$ is $\left\{x\mid x> 1\right\}$. 
 
 By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions).
 
-(1) $A'\left(t\right)=500\times0.834^{t}\ln0.834$. This is the emanation rate of the radon gas.
+(1) $A'\left(t\right)=500\times0.834^{\top}\ln0.834$. This is the emanation rate of the radon gas.
 
 (2) $A'\left(7\right)=500\times0.834^{7}\ln0.834$. Computing: $0.834^{7}\approx0.274$, $\ln0.834\approx-0.1815$, hence
 

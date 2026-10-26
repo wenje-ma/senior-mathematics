@@ -470,7 +470,7 @@ $\blacksquare$
 (1) By **Definition 4.3.1** (Geometric Sequence), the amount remaining each second is $1-k$ times the previous second's amount,
 
 $$
-N\left(t\right)=N_0\left(1-k\right)^t.
+N\left(t\right)=N_0\left(1-k\right)^\top.
 $$
 
 $\blacksquare$
