@@ -40,11 +40,11 @@ By **Definition 6.2.1** (Triangle Rule), move the initial point of $\boldsymbol{
 
 ### Exercise 2
 
-(Exercise 6.2, Problem 2) Under what conditions on the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ does $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\bigl\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\bigr\rvert$?
+(Exercise 6.2, Problem 2) Under what conditions on the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ does $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$?
 
 ### Solution to Exercise 2
 
-By **Common Conclusion 6.2.3** (Triangle Inequality), $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. When $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, the magnitude of $\boldsymbol{a}+\boldsymbol{b}$ equals the difference of the two magnitudes. Thus when $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, or one of them is the zero vector, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\bigl\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\bigr\rvert$. $\blacksquare$
+By **Common Conclusion 6.2.3** (Triangle Inequality), $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. When $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, the magnitude of $\boldsymbol{a}+\boldsymbol{b}$ equals the difference of the two magnitudes. Thus when $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, or one of them is the zero vector, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$. $\blacksquare$
 
 ### Exercise 3
 

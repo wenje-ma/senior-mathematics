@@ -40,11 +40,11 @@
 
 ### 练习二
 
-(练习 6.2 第 2 题) 当向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足什么条件时, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\bigl\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\bigr\rvert$?
+(练习 6.2 第 2 题) 当向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足什么条件时, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$?
 
 ### 解答 练习二
 
-由**常用结论 6.2.3** (三角不等式), $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. 当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 方向相反时, $\boldsymbol{a}+\boldsymbol{b}$ 的模等于两模之差. 当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 方向相反, 或其中有一个为零向量时, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\bigl\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\bigr\rvert$. $\blacksquare$
+由**常用结论 6.2.3** (三角不等式), $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. 当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 方向相反时, $\boldsymbol{a}+\boldsymbol{b}$ 的模等于两模之差. 当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 方向相反, 或其中有一个为零向量时, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$. $\blacksquare$
 
 ### 练习三
 

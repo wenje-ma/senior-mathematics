@@ -530,7 +530,7 @@ The locus of points in a plane for which the absolute value of the difference of
 
 **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci)
 
-For any point $M$ on the hyperbola, the absolute value of the difference of its distances to the two foci equals $2a$, i.e. $\bigl\lvert \lvert MF_1\rvert-\lvert MF_2\rvert\bigr\rvert=2a$, where $0< 2a< \lvert F_1F_2\rvert$.
+For any point $M$ on the hyperbola, the absolute value of the difference of its distances to the two foci equals $2a$, i.e. $\lvert \lvert MF_1\rvert-\lvert MF_2\rvert\rvert=2a$, where $0< 2a< \lvert F_1F_2\rvert$.
 
 **Definition 3.2.3** (Standard Equation of a Hyperbola)
 

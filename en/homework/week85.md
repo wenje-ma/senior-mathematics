@@ -269,13 +269,13 @@ By **Conclusion 7.3.2** (Properties of the Mean) and **Definition 7.3.3** (Varia
 By **Conclusion 7.3.2** (Properties of the Mean), $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$. By **Definition 7.3.3** (Variance and Standard Deviation),
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \bigl(a x_i+b-\mathbb E\left(aX+b\right)\bigr)^2 p_i.
+D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-\mathbb E\left(aX+b\right)\right)^2 p_i.
 $$
 
 Substituting $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$, we get
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \bigl(a x_i+b-a\mathbb E\left(X\right)-b\bigr)^2 p_i=\sum_{i=1}^n a^2\bigl(x_i-\mathbb E\left(X\right)\bigr)^2 p_i=a^2 D\left(X\right).
+D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-a\mathbb E\left(X\right)-b\right)^2 p_i=\sum_{i=1}^n a^2\left(x_i-\mathbb E\left(X\right)\right)^2 p_i=a^2 D\left(X\right).
 $$
 
 Thus $D\left(aX+b\right)=a^2 D\left(X\right)$. $\blacksquare$
@@ -343,17 +343,17 @@ By **Definition 7.3.1** (Mean) and **Definition 7.3.3** (Variance and Standard D
 Use the mean-square deviation to measure how much $X$ deviates from a constant. Expand the mean-square deviation of $X$ from $a$:
 
 $$
-\mathbb E\bigl(\left(X-a\right)^2\bigr)=\mathbb E\bigl(\left(X-\mu+\mu-a\right)^2\bigr).
+\mathbb E\left(\left(X-a\right)^2\right)=\mathbb E\left(\left(X-\mu+\mu-a\right)^2\right).
 $$
 
 $$
-=\mathbb E\bigl(\left(X-\mu\right)^2\bigr)+2\left(\mu-a\right)\mathbb E\left(X-\mu\right)+\left(\mu-a\right)^2.
+=\mathbb E\left(\left(X-\mu\right)^2\right)+2\left(\mu-a\right)\mathbb E\left(X-\mu\right)+\left(\mu-a\right)^2.
 $$
 
 Because $\mathbb E\left(X-\mu\right)=\mathbb E\left(X\right)-\mu=0$, we get
 
 $$
-\mathbb E\bigl(\left(X-a\right)^2\bigr)=D\left(X\right)+\left(\mu-a\right)^2.
+\mathbb E\left(\left(X-a\right)^2\right)=D\left(X\right)+\left(\mu-a\right)^2.
 $$
 
 Since $a\neq\mu$, $\left(\mu-a\right)^2> 0$, so $\mathbb E\left(\left(X-a\right)^2\right)> D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. That is, the degree to which $X$ deviates from $\mu$ is minimal. Its significance is: the mean $\mu$ is the constant that minimizes the mean-square deviation of the random variable, which is precisely why the mean can represent the average level of the random variable. $\blacksquare$

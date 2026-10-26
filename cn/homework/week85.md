@@ -269,13 +269,13 @@ $$
 由**结论 7.3.2** (均值的性质), $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$. 由**定义 7.3.3** (方差与标准差),
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \bigl(a x_i+b-\mathbb E\left(aX+b\right)\bigr)^2 p_i.
+D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-\mathbb E\left(aX+b\right)\right)^2 p_i.
 $$
 
 代入 $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$, 得
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \bigl(a x_i+b-a\mathbb E\left(X\right)-b\bigr)^2 p_i=\sum_{i=1}^n a^2\bigl(x_i-\mathbb E\left(X\right)\bigr)^2 p_i=a^2 D\left(X\right).
+D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-a\mathbb E\left(X\right)-b\right)^2 p_i=\sum_{i=1}^n a^2\left(x_i-\mathbb E\left(X\right)\right)^2 p_i=a^2 D\left(X\right).
 $$
 
 故 $D\left(aX+b\right)=a^2 D\left(X\right)$. $\blacksquare$
@@ -343,17 +343,17 @@ $$
 用均方偏离度量 $X$ 相对于一个常数的偏离程度. 展开 $X$ 相对于 $a$ 的均方偏离:
 
 $$
-\mathbb E\bigl(\left(X-a\right)^2\bigr)=\mathbb E\bigl(\left(X-\mu+\mu-a\right)^2\bigr).
+\mathbb E\left(\left(X-a\right)^2\right)=\mathbb E\left(\left(X-\mu+\mu-a\right)^2\right).
 $$
 
 $$
-=\mathbb E\bigl(\left(X-\mu\right)^2\bigr)+2\left(\mu-a\right)\mathbb E\left(X-\mu\right)+\left(\mu-a\right)^2.
+=\mathbb E\left(\left(X-\mu\right)^2\right)+2\left(\mu-a\right)\mathbb E\left(X-\mu\right)+\left(\mu-a\right)^2.
 $$
 
 因为 $\mathbb E\left(X-\mu\right)=\mathbb E\left(X\right)-\mu=0$, 故
 
 $$
-\mathbb E\bigl(\left(X-a\right)^2\bigr)=D\left(X\right)+\left(\mu-a\right)^2.
+\mathbb E\left(\left(X-a\right)^2\right)=D\left(X\right)+\left(\mu-a\right)^2.
 $$
 
 由于 $a\neq\mu$, $\left(\mu-a\right)^2> 0$, 故 $\mathbb E\left(\left(X-a\right)^2\right)> D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. 即 $X$ 相对于 $\mu$ 的偏离程度最小. 其意义是: 均值 $\mu$ 是使随机变量与其均方偏离达到最小的常数, 这正是均值能代表随机变量平均水平的原因. $\blacksquare$

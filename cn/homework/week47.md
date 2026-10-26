@@ -426,7 +426,7 @@ $$
 
 (2) 由上述分析, 互斥事件不一定是对立事件, 对立事件一定是互斥事件. 该说法正确.
 
-(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. "$A, B$ 中恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 二者之差为 $P\left(A\cup B\right)-\bigl[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\bigr]=P\left(A\cap B\right)\ge 0$, 故 "至少有一个发生" 的概率不一定比 "恰有一个发生" 的概率大. 当 $P\left(A\cap B\right)=0$ 时, 二者相等. 该说法错误. 反例: 互斥事件 $A, B$ 中, 二者概率相等.
+(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. "$A, B$ 中恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 二者之差为 $P\left(A\cup B\right)-\left[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\right]=P\left(A\cap B\right)\ge 0$, 故 "至少有一个发生" 的概率不一定比 "恰有一个发生" 的概率大. 当 $P\left(A\cap B\right)=0$ 时, 二者相等. 该说法错误. 反例: 互斥事件 $A, B$ 中, 二者概率相等.
 
 (4) 由**性质 10.1.16** (概率的非负性), $P\left(A\cap B\right)\ge 0$, 而 "恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 当 $P\left(A\right)=P\left(B\right)=0.9$ 时, $P\left(A\cap B\right)=0.81$, 恰有一个发生的概率为 $0.9+0.9-2\times 0.81=0.18$, 此时 $P\left(A\cap B\right)> $ 恰有一个发生的概率. 该说法错误. $\blacksquare$
 

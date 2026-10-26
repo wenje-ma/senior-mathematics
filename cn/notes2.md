@@ -530,7 +530,7 @@ $$
 
 **常用结论 3.2.2** (双曲线上点到两焦点距离之差)
 
-双曲线上任意一点 $M$ 到两焦点距离的差的绝对值等于 $2a$, 即 $\bigl\lvert \lvert MF_1\rvert-\lvert MF_2\rvert\bigr\rvert=2a$, 其中 $0< 2a< \lvert F_1F_2\rvert$.
+双曲线上任意一点 $M$ 到两焦点距离的差的绝对值等于 $2a$, 即 $\lvert \lvert MF_1\rvert-\lvert MF_2\rvert\rvert=2a$, 其中 $0< 2a< \lvert F_1F_2\rvert$.
 
 **定义 3.2.3** (双曲线的标准方程)
 

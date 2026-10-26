@@ -146,7 +146,7 @@ By **Definition 7.4.4** (Hypergeometric Distribution), the hypergeometric distri
 
 By **Definition 7.4.2** (Binomial Distribution) and **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution).
 
-Rolling a die, a 5 or 6 is a success, so the success probability is $p=\frac{2}{6}=\frac{1}{3}$. Repeating independently 30 times, the number of successes is $X\sim B\bigl(30,\frac{1}{3}\bigr)$.
+Rolling a die, a 5 or 6 is a success, so the success probability is $p=\frac{2}{6}=\frac{1}{3}$. Repeating independently 30 times, the number of successes is $X\sim B\left(30,\frac{1}{3}\right)$.
 
 By **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution),
 
