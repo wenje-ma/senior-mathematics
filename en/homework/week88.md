@@ -8,10 +8,10 @@
 
 > **Definition 8.1.4** (Linear and Nonlinear Correlation) <br>In general, if the values of two variables show positive or negative correlation and the scattered points lie near a straight line, the two variables are said to be linearly correlated; in general, if two variables are correlated but not linearly correlated, they are said to be nonlinearly correlated or curvilinearly correlated.
 
-> **Definition 8.1.5** (Sample Correlation Coefficient) <br>For the variable $x$ and the variable $y$, let the paired sample data obtained by random sampling be $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, with means $\bar x$ and $\bar y$ respectively; then
+> **Definition 8.1.5** (Sample Correlation Coefficient) <br>For the variable $x$ and the variable $y$, let the paired sample data obtained by random sampling be $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, with means $\overline x$ and $\overline y$ respectively; then
 
 $$
-r=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}}
+r=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}}
 $$
 
 is called the sample correlation coefficient between the variable $x$ and the variable $y$.
@@ -94,17 +94,17 @@ By **Definition 8.1.5** (Sample Correlation Coefficient).
 From the data
 
 $$
-\bar x=\frac{2+3+5}{3}=\frac{10}{3},\quad \bar y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
+\overline x=\frac{2+3+5}{3}=\frac{10}{3},\quad \overline y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
 $$
 
 By **Definition 8.1.5** (Sample Correlation Coefficient),
 
 $$
-\sum_{i=1}^{3}\left(x_i-\bar x\right)\left(y_i-\bar y\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
+\sum_{i=1}^{3}\left(x_i-\overline x\right)\left(y_i-\overline y\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
 $$
 
 $$
-\sum_{i=1}^{3}\left(x_i-\bar x\right)^2=\frac{14}{3},\quad \sum_{i=1}^{3}\left(y_i-\bar y\right)^2=42.
+\sum_{i=1}^{3}\left(x_i-\overline x\right)^2=\frac{14}{3},\quad \sum_{i=1}^{3}\left(y_i-\overline y\right)^2=42.
 $$
 
 Thus
@@ -135,7 +135,7 @@ By **Definition 8.1.5** (Sample Correlation Coefficient) and **Common Conclusion
 
 (1) The data satisfy $y=2x+1$ and the points lie exactly on a straight line; computing by **Definition 8.1.5** (Sample Correlation Coefficient) gives $r=1$.
 
-(2) From the data, $\bar x=2$, $\bar y=6$; further, by **Definition 8.1.5** (Sample Correlation Coefficient),
+(2) From the data, $\overline x=2$, $\overline y=6$; further, by **Definition 8.1.5** (Sample Correlation Coefficient),
 
 $$
 r=\frac{40}{\sqrt{10\times 174}}\approx 0.96.
@@ -151,7 +151,7 @@ $$
 
 The points follow the curve $y=x^3$, and $r$ is positive and relatively large.
 
-(4) From the data, $\sum_{i=1}^{5}x_i\left(y_i-\bar y\right)=0$, so by **Definition 8.1.5** (Sample Correlation Coefficient), $r=0$. The points follow the upper half of a circle; there is a clear curvilinear correlation between the two variables, but the degree of linear correlation is zero.
+(4) From the data, $\sum_{i=1}^{5}x_i\left(y_i-\overline y\right)=0$, so by **Definition 8.1.5** (Sample Correlation Coefficient), $r=0$. The points follow the upper half of a circle; there is a clear curvilinear correlation between the two variables, but the degree of linear correlation is zero.
 
 These four examples show that the sample correlation coefficient $r$ only characterizes the degree of linear correlation of the paired sample data: when $r=0$, it only means that there is no linear correlation between the two variables, but does not rule out other (e.g. curvilinear) correlations; when the absolute value of $r$ is close to $1$, the data may still follow a curve, so one should make a comprehensive judgment together with the scatter plot. $\blacksquare$
 
@@ -172,7 +172,7 @@ By **Definition 8.1.5** (Sample Correlation Coefficient) and **Common Conclusion
 
 Taking advertising expenditure as the horizontal axis and sales as the vertical axis, draw a scatter plot; the points are roughly distributed near a straight line from lower left to upper right.
 
-From the data, $\bar x=\frac{57}{7}$, $\bar y=42$; computing by **Definition 8.1.5** (Sample Correlation Coefficient) gives
+From the data, $\overline x=\frac{57}{7}$, $\overline y=42$; computing by **Definition 8.1.5** (Sample Correlation Coefficient) gives
 
 $$
 r\approx 0.83.
@@ -215,7 +215,7 @@ Is there a linear correlation between the number of customer complaints and the 
 
 By **Definition 8.1.5** (Sample Correlation Coefficient) and **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
 
-Taking the on-time flight rate as the horizontal axis and the number of customer complaints as the vertical axis, draw a scatter plot. From the data, $\bar x=75.88$, $\bar y=73.6$; computing by **Definition 8.1.5** (Sample Correlation Coefficient) gives
+Taking the on-time flight rate as the horizontal axis and the number of customer complaints as the vertical axis, draw a scatter plot. From the data, $\overline x=75.88$, $\overline y=73.6$; computing by **Definition 8.1.5** (Sample Correlation Coefficient) gives
 
 $$
 r\approx -0.87.
@@ -238,7 +238,7 @@ Is the sample correlation coefficient of the two variables equal to $1$? Please 
 
 By **Definition 8.1.5** (Sample Correlation Coefficient) and **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
 
-From the data, $\bar x=1.94$, $\bar y=5.985$; computing by **Definition 8.1.5** (Sample Correlation Coefficient) gives
+From the data, $\overline x=1.94$, $\overline y=5.985$; computing by **Definition 8.1.5** (Sample Correlation Coefficient) gives
 
 $$
 r\approx 0.9997.

@@ -24,7 +24,7 @@
 
 > **定义 10.1.12** (互斥) <br>一般地, 如果事件 $A$ 与事件 $B$ 不能同时发生, 也就是说 $A\cap B$ 是一个不可能事件, 即 $A\cap B=\varnothing$, 则称事件 $A$ 与事件 $B$ 互斥 (或互不相容).
 
-> **定义 10.1.13** (互为对立) <br>一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\bar A$.
+> **定义 10.1.13** (互为对立) <br>一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\overline A$.
 
 > **定义 10.1.14** (古典概型) <br>我们将具有以下两个特征的试验称为古典概型试验, 其数学模型称为古典概率模型, 简称古典概型: (1) 有限性: 样本空间的样本点只有有限个; (2) 等可能性: 每个样本点发生的可能性相等.
 
@@ -122,9 +122,9 @@
 
 ### 解答 练习四
 
-由**定义 10.1.13** (互为对立), 若事件 $A$ 与事件 $B$ 互为对立, 则 $A\cup B=\Omega$ 且 $A\cap B=\varnothing$, 即 $B=\bar A$.
+由**定义 10.1.13** (互为对立), 若事件 $A$ 与事件 $B$ 互为对立, 则 $A\cup B=\Omega$ 且 $A\cap B=\varnothing$, 即 $B=\overline A$.
 
-设事件 $A=$ "至少一次中靶", 则 $\bar A$ 表示 $A$ 不发生, 即两次射击都没有中靶. 对照选项, (D) "两次都没有中靶" 正是 $\bar A$. $\blacksquare$
+设事件 $A=$ "至少一次中靶", 则 $\overline A$ 表示 $A$ 不发生, 即两次射击都没有中靶. 对照选项, (D) "两次都没有中靶" 正是 $\overline A$. $\blacksquare$
 
 ### 练习五
 
@@ -432,7 +432,7 @@ $$
 
 ### 习题五
 
-(习题 10.1 复习巩固第 5 题) 生产某种产品需要两道工序, 设事件 $A=$ "第一道工序加工合格", 事件 $B=$ "第二道工序加工合格", 用 $A, B, \bar A, \bar B$ 表示下列事件:
+(习题 10.1 复习巩固第 5 题) 生产某种产品需要两道工序, 设事件 $A=$ "第一道工序加工合格", 事件 $B=$ "第二道工序加工合格", 用 $A, B, \overline A, \overline B$ 表示下列事件:
 
 $C=$ "产品合格", $D=$ "产品不合格".
 
@@ -444,10 +444,10 @@ $$
 C=A\cap B.
 $$
 
-由**定义 10.1.13** (互为对立), 产品不合格是产品合格的对立事件, 故 $D=\bar C$. 也可以表示为: 产品不合格即至少有一道工序不合格, 即第一道工序不合格 ($\bar A$) 或第二道工序不合格 ($\bar B$), 故
+由**定义 10.1.13** (互为对立), 产品不合格是产品合格的对立事件, 故 $D=\overline C$. 也可以表示为: 产品不合格即至少有一道工序不合格, 即第一道工序不合格 ($\overline A$) 或第二道工序不合格 ($\overline B$), 故
 
 $$
-D=\bar A\cup\bar B.
+D=\overline A\cup\overline B.
 $$
 
 $\blacksquare$
@@ -686,9 +686,9 @@ $$
 
 (2) (1) 至少订阅一种学习资料, 即订阅数学或语文或英语, 由**定义 10.1.10** (并事件), 表示为 $A\cup B\cup C$.
 
-(2) 恰好订阅一种学习资料, 即只订阅数学, 或只订阅语文, 或只订阅英语, 表示为 $\left(A\cap\bar B\cap\bar C\right)\cup\left(\bar A\cap B\cap\bar C\right)\cup\left(\bar A\cap\bar B\cap C\right)$.
+(2) 恰好订阅一种学习资料, 即只订阅数学, 或只订阅语文, 或只订阅英语, 表示为 $\left(A\cap\overline B\cap\overline C\right)\cup\left(\overline A\cap B\cap\overline C\right)\cup\left(\overline A\cap\overline B\cap C\right)$.
 
-(3) 没有订阅任何学习资料, 是 "至少订阅一种" 的对立事件, 由**定义 10.1.13** (互为对立), 表示为 $\overline{A\cup B\cup C}=\bar A\cap\bar B\cap\bar C$. $\blacksquare$
+(3) 没有订阅任何学习资料, 是 "至少订阅一种" 的对立事件, 由**定义 10.1.13** (互为对立), 表示为 $\overline{A\cup B\cup C}=\overline A\cap\overline B\cap\overline C$. $\blacksquare$
 
 ### 习题十六
 
@@ -719,7 +719,7 @@ $$
 (3) 由**性质 10.1.19** (对立事件的概率), "既不能被 $2$ 也不能被 $3$ 整除" 是 "能被 $2$ 或能被 $3$ 整除" 的对立事件, 故
 
 $$
-P\left(\bar A\cap\bar B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
+P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
 $$
 
 $\blacksquare$

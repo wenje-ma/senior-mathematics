@@ -19,23 +19,23 @@ is called the sum of squared residuals; the estimation method for $a$ and $b$ th
 > **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) <br>By the least squares method we obtain
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
+\widehat b=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2},\quad \widehat a=\overline y-\widehat b\overline x.
 $$
 
 > **Definition 8.2.4** (Empirical Regression Equation) <br>The equation obtained from the least squares estimates
 
 $$
-\hat y=\hat b x+\hat a
+\widehat y=\widehat b x+\widehat a
 $$
 
 is called the empirical regression equation of $y$ on $x$.
 
-> **Definition 8.2.5** (Residual) <br>The difference $e_i=y_i-\hat y_i$ obtained by subtracting the predicted value $\hat y_i$ from the observed value $y_i$ is called the residual corresponding to the point $\left(x_i,y_i\right)$.
+> **Definition 8.2.5** (Residual) <br>The difference $e_i=y_i-\widehat y_i$ obtained by subtracting the predicted value $\widehat y_i$ from the observed value $y_i$ is called the residual corresponding to the point $\left(x_i,y_i\right)$.
 
 > **Common Conclusion 8.2.6** (Coefficient of Determination) <br>The coefficient of determination
 
 $$
-R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\hat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}
+R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}
 $$
 
 measures the goodness of fit of the regression line: the larger $R^2$ is, the smaller the sum of squared residuals is, and the better the model fits.
@@ -82,7 +82,7 @@ The line graph shows the general trend of how the daughter's height varies with 
 
 ### Exercise 4
 
-(Exercise 8.2, Problem 1) In estimating the parameters $a$ and $b$ of the simple linear regression model, someone argues that, since $\bar y=\hat b\bar x+\hat a$, the point $\left(\bar x,\bar y\right)$ must lie on the regression line. Do you think this is correct?
+(Exercise 8.2, Problem 1) In estimating the parameters $a$ and $b$ of the simple linear regression model, someone argues that, since $\overline y=\widehat b\overline x+\widehat a$, the point $\left(\overline x,\overline y\right)$ must lie on the regression line. Do you think this is correct?
 
 ### Solution to Exercise 4
 
@@ -90,28 +90,28 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas).
 
 This statement is correct.
 
-By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\hat a=\bar y-\hat b\bar x$, i.e. $\bar y=\hat b\bar x+\hat a$.
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat a=\overline y-\widehat b\overline x$, i.e. $\overline y=\widehat b\overline x+\widehat a$.
 
-Substituting $x=\bar x$ into the empirical regression equation $\hat y=\hat b x+\hat a$ (**Definition 8.2.4**) gives
+Substituting $x=\overline x$ into the empirical regression equation $\widehat y=\widehat b x+\widehat a$ (**Definition 8.2.4**) gives
 
 $$
-\hat y=\hat b\bar x+\hat a=\bar y.
+\widehat y=\widehat b\overline x+\widehat a=\overline y.
 $$
 
-Thus the coordinates of the point $\left(\bar x,\bar y\right)$ satisfy the empirical regression equation, so it must lie on the regression line. $\blacksquare$
+Thus the coordinates of the point $\left(\overline x,\overline y\right)$ satisfy the empirical regression equation, so it must lie on the regression line. $\blacksquare$
 
 ### Exercise 5
 
-(Exercise 8.2, Problem 2) Suppose the empirical regression equation of a daughter's height $y$ on her father's height $x$ is $\hat y=0.81x+25.82$, and the father's height is $175\,\mathrm{cm}$; predict his daughter's height.
+(Exercise 8.2, Problem 2) Suppose the empirical regression equation of a daughter's height $y$ on her father's height $x$ is $\widehat y=0.81x+25.82$, and the father's height is $175\,\mathrm{cm}$; predict his daughter's height.
 
 ### Solution to Exercise 5
 
 By **Definition 8.2.4** (Empirical Regression Equation).
 
-Substituting $x=175$ into the empirical regression equation $\hat y=0.81x+25.82$ gives
+Substituting $x=175$ into the empirical regression equation $\widehat y=0.81x+25.82$ gives
 
 $$
-\hat y=0.81\times 175+25.82=167.57.
+\widehat y=0.81\times 175+25.82=167.57.
 $$
 
 Thus the predicted height of his daughter is $167.57\,\mathrm{cm}$. $\blacksquare$
@@ -127,23 +127,23 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definit
 From the $14$ pairs of data in Table $8.1-1$, we compute
 
 $$
-\bar x\approx 48.07,\quad \bar y\approx 27.26.
+\overline x\approx 48.07,\quad \overline y\approx 27.26.
 $$
 
 By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b=\frac{\sum_{i=1}^{14}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{14}\left(x_i-\bar x\right)^2}\approx 0.576,
+\widehat b=\frac{\sum_{i=1}^{14}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{14}\left(x_i-\overline x\right)^2}\approx 0.576,
 $$
 
 $$
-\hat a=\bar y-\hat b\bar x\approx -0.448.
+\widehat a=\overline y-\widehat b\overline x\approx -0.448.
 $$
 
 Thus, by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation of body fat content on age is
 
 $$
-\hat y=0.576x-0.448.
+\widehat y=0.576x-0.448.
 $$
 
 The slope of the regression line is positive, consistent with the upward trend of the scatter plot from lower left to upper right; the points are roughly distributed near this line, so the line fits the scatter plot well. $\blacksquare$
@@ -164,10 +164,10 @@ $$
 \sum_{i=1}^{14}e_i\approx 0.
 $$
 
-Pattern: by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\hat a=\bar y-\hat b\bar x$, so
+Pattern: by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat a=\overline y-\widehat b\overline x$, so
 
 $$
-\sum_{i=1}^{n}\left(y_i-\hat y_i\right)=\sum_{i=1}^{n}\left[y_i-\left(\hat b x_i+\hat a\right)\right]=\sum_{i=1}^{n}y_i-n\hat b\bar x-n\hat a=n\bar y-n\hat b\bar x-n\hat a=0.
+\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)=\sum_{i=1}^{n}\left[y_i-\left(\widehat b x_i+\widehat a\right)\right]=\sum_{i=1}^{n}y_i-n\widehat b\overline x-n\widehat a=n\overline y-n\widehat b\overline x-n\widehat a=0.
 $$
 
 That is, for the empirical regression equation obtained by the least squares method, the sum of all residuals is exactly $0$. $\blacksquare$
@@ -201,7 +201,7 @@ $$
 Thus the least squares estimate of the parameter $b$ is
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}x_i y_i}{\sum_{i=1}^{n}x_i^2}.
+\widehat b=\frac{\sum_{i=1}^{n}x_i y_i}{\sum_{i=1}^{n}x_i^2}.
 $$
 
 $\blacksquare$
@@ -250,16 +250,16 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition
 
 (1) Taking year as the horizontal axis and $\mathrm{GDP}$ as the vertical axis, draw a scatter plot; the points rise approximately along a straight line from lower left to upper right.
 
-(2) From the data, the mean year is $\bar x=2007.5$ and the mean $\mathrm{GDP}$ is $\bar y=308251.4$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(2) From the data, the mean year is $\overline x=2007.5$ and the mean $\mathrm{GDP}$ is $\overline y=308251.4$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b\approx 45172.8,\quad \hat a\approx -90376168.
+\widehat b\approx 45172.8,\quad \widehat a\approx -90376168.
 $$
 
 Thus the empirical regression equation of $\mathrm{GDP}$ on year is
 
 $$
-\hat y=45172.8x-90376168.
+\widehat y=45172.8x-90376168.
 $$
 
 (3) The slope of the regression line is positive, consistent with the upward trend of the scatter plot; the points are roughly distributed near the line, so the fit is good.
@@ -267,7 +267,7 @@ $$
 (4) Substituting $x=2023$ into the empirical regression equation gives
 
 $$
-\hat y=45172.8\times 2023-90376168\approx 1008430.
+\widehat y=45172.8\times 2023-90376168\approx 1008430.
 $$
 
 That is, the predicted $\mathrm{GDP}$ of our country in $2023$ is about $1008430$ (100 million yuan).
@@ -310,22 +310,22 @@ By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient
 
 (1) Taking the number of parts as the horizontal axis and the machining time as the vertical axis, draw a scatter plot; the points lie approximately along a straight line from lower left to upper right. From the data, the sample correlation coefficient is $r\approx 0.9998$; by **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r$ is very close to $1$, so $y$ and $x$ have a very strong positive linear correlation.
 
-(2) From the data, $\bar x=55$, $\bar y=91.7$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(2) From the data, $\overline x=55$, $\overline y=91.7$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b\approx 0.668,\quad \hat a\approx 54.93.
+\widehat b\approx 0.668,\quad \widehat a\approx 54.93.
 $$
 
 Thus, by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation is
 
 $$
-\hat y=0.668x+54.93.
+\widehat y=0.668x+54.93.
 $$
 
 (3) Substituting $x=200$ into the empirical regression equation gives
 
 $$
-\hat y=0.668\times 200+54.93\approx 188.5.
+\widehat y=0.668\times 200+54.93\approx 188.5.
 $$
 
 Thus the predicted time to machine $200$ parts is about $188.5\,\min$. $\blacksquare$
@@ -342,22 +342,22 @@ Thus the predicted time to machine $200$ parts is about $188.5\,\min$. $\blacksq
 
 By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4** (Empirical Regression Equation).
 
-(1) From the $10$ pairs of data in Example $2$, the mean resident annual income is $\bar x=38.96$ and the mean sales of product $A$ is $\bar y=39.1$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(1) From the $10$ pairs of data in Example $2$, the mean resident annual income is $\overline x=38.96$ and the mean sales of product $A$ is $\overline y=39.1$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b\approx 1.447,\quad \hat a\approx -15.84.
+\widehat b\approx 1.447,\quad \widehat a\approx -15.84.
 $$
 
 Thus, by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation of the sales of product $A$ on residents' annual income is
 
 $$
-\hat y=1.447x-15.84.
+\widehat y=1.447x-15.84.
 $$
 
 (2) Substituting $x=40$ into the empirical regression equation gives
 
 $$
-\hat y=1.447\times 40-15.84\approx 42.04.
+\widehat y=1.447\times 40-15.84\approx 42.04.
 $$
 
 Thus the predicted sales of product $A$ for that household is about $42.04$ (in 10-thousand yuan). $\blacksquare$
@@ -370,7 +370,7 @@ Thus the predicted sales of product $A$ for that household is about $42.04$ (in 
 
 (1) Draw a scatter plot of the total population against year;
 
-(2) Build the empirical regression equation $\hat y=\hat b x+\hat a$ of the total population (in 10-thousands) on year;
+(2) Build the empirical regression equation $\widehat y=\widehat b x+\widehat a$ of the total population (in 10-thousands) on year;
 
 (3) Predict our country's total population in $2023$ and compare it with the officially published figure for $2023$.
 
@@ -382,22 +382,22 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition
 
 (1) Taking year as the horizontal axis and the total population as the vertical axis, draw a scatter plot; overall the points lie approximately along a straight line from lower left to upper right.
 
-(2) From the table, the mean year is $\bar x\approx 1985.6$ and the mean total population is $\bar y\approx 103511$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(2) From the table, the mean year is $\overline x\approx 1985.6$ and the mean total population is $\overline y\approx 103511$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b\approx 1249.2,\quad \hat a\approx -2375604.
+\widehat b\approx 1249.2,\quad \widehat a\approx -2375604.
 $$
 
 Thus, by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation of the total population on year is
 
 $$
-\hat y=1249.2x-2375604.
+\widehat y=1249.2x-2375604.
 $$
 
 (3) Substituting $x=2023$ into the empirical regression equation gives
 
 $$
-\hat y=1249.2\times 2023-2375604\approx 151453.
+\widehat y=1249.2\times 2023-2375604\approx 151453.
 $$
 
 That is, the predicted total population of our country in $2023$ is about $151453$ (10-thousands). By **Common Conclusion 8.2.7** (Cautions on Regression Prediction), the total population is affected by factors such as the national birth policy and the laws of population development; in recent years the population growth trend has changed, and a linear regression equation built from earlier years' data, when used to predict a far-off year, gives a predicted value noticeably larger than the officially published total population for $2023$. $\blacksquare$
@@ -420,10 +420,10 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definit
 
 Let $Y=\lg N$; then the relation $\lg N=a+bx$ is exactly the simple linear regression model $Y=bx+a$.
 
-Taking the common logarithm of each entry gives $Y_i=\lg N_i$. From the data, $\bar x=5.0$, $\bar Y\approx 2.95$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+Taking the common logarithm of each entry gives $Y_i=\lg N_i$. From the data, $\overline x=5.0$, $\overline Y\approx 2.95$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b\approx -0.74,\quad \hat a\approx 6.70.
+\widehat b\approx -0.74,\quad \widehat a\approx 6.70.
 $$
 
 Thus, by **Definition 8.2.4** (Empirical Regression Equation),
@@ -450,7 +450,7 @@ This is an open-ended practical problem; the general steps of the solution are:
 
 (3) By **Definition 8.1.5** (Sample Correlation Coefficient), compute the sample correlation coefficient $r$ to judge whether there is a linear correlation between weight and height and its strength;
 
-(4) By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), compute $\hat b$ and $\hat a$, and by **Definition 8.2.4** (Empirical Regression Equation), write the empirical regression equation of weight on height $\hat y=\hat b x+\hat a$;
+(4) By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), compute $\widehat b$ and $\widehat a$, and by **Definition 8.2.4** (Empirical Regression Equation), write the empirical regression equation of weight on height $\widehat y=\widehat b x+\widehat a$;
 
 (5) Draw a residual plot; by **Definition 8.2.5** (Residual), observe whether the residual points are evenly distributed in a horizontal band centered at $0$, and analyze the fit of the regression model. $\blacksquare$
 

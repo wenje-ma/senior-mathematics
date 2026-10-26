@@ -24,7 +24,7 @@
 
 > **Definition 10.1.12** (Mutually Exclusive) <br>In general, if events $A$ and $B$ cannot occur simultaneously, i.e. $A\cap B$ is an impossible event, namely $A\cap B=\varnothing$, then events $A$ and $B$ are said to be mutually exclusive (or incompatible).
 
-> **Definition 10.1.13** (Complementary Events) <br>In general, if events $A$ and $B$ in any trial have exactly one occurring, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary to each other. The complementary event of $A$ is written $\bar A$.
+> **Definition 10.1.13** (Complementary Events) <br>In general, if events $A$ and $B$ in any trial have exactly one occurring, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary to each other. The complementary event of $A$ is written $\overline A$.
 
 > **Definition 10.1.14** (Classical Probability Model) <br>We call an experiment with the following two features a classical-model experiment, and its mathematical model the classical probability model, shortened to classical probability model: (1) finiteness: there are only finitely many sample points in the sample space; (2) equal likelihood: each sample point is equally likely to occur.
 
@@ -122,9 +122,9 @@ By **Definition 10.1.2** (Sample Points and Sample Space), the sample point is t
 
 ### Solution to Exercise 4
 
-By **Definition 10.1.13** (Complementary Events), if events $A$ and $B$ are complementary, then $A\cup B=\Omega$ and $A\cap B=\varnothing$, i.e. $B=\bar A$.
+By **Definition 10.1.13** (Complementary Events), if events $A$ and $B$ are complementary, then $A\cup B=\Omega$ and $A\cap B=\varnothing$, i.e. $B=\overline A$.
 
-Let event $A=$ "hit at least once"; then $\bar A$ means that $A$ does not occur, i.e. neither shot hits. Checking the options, (D) "hit neither time" is exactly $\bar A$. $\blacksquare$
+Let event $A=$ "hit at least once"; then $\overline A$ means that $A$ does not occur, i.e. neither shot hits. Checking the options, (D) "hit neither time" is exactly $\overline A$. $\blacksquare$
 
 ### Exercise 5
 
@@ -432,7 +432,7 @@ By **Definition 10.1.12** (Mutually Exclusive) and **Definition 10.1.13** (Compl
 
 ### Problem 5
 
-(Exercise 10.1, Review and Consolidation, Problem 5) Producing a certain product requires two processes. Let event $A=$ "the first process is qualified" and event $B=$ "the second process is qualified". Use $A, B, \bar A, \bar B$ to denote the following events:
+(Exercise 10.1, Review and Consolidation, Problem 5) Producing a certain product requires two processes. Let event $A=$ "the first process is qualified" and event $B=$ "the second process is qualified". Use $A, B, \overline A, \overline B$ to denote the following events:
 
 $C=$ "the product is qualified", $D=$ "the product is unqualified".
 
@@ -444,10 +444,10 @@ $$
 C=A\cap B.
 $$
 
-By **Definition 10.1.13** (Complementary Events), the product being unqualified is the complementary event of the product being qualified, so $D=\bar C$. It can also be expressed as: the product being unqualified means at least one process is unqualified, i.e. the first process is unqualified ($\bar A$) or the second process is unqualified ($\bar B$), so
+By **Definition 10.1.13** (Complementary Events), the product being unqualified is the complementary event of the product being qualified, so $D=\overline C$. It can also be expressed as: the product being unqualified means at least one process is unqualified, i.e. the first process is unqualified ($\overline A$) or the second process is unqualified ($\overline B$), so
 
 $$
-D=\bar A\cup\bar B.
+D=\overline A\cup\overline B.
 $$
 
 $\blacksquare$
@@ -686,9 +686,9 @@ By **Definition 10.1.10** (Union Event), **Definition 10.1.11** (Intersection Ev
 
 (2) (1) Subscribing to at least one study material, i.e. subscribing to math or Chinese or English; by **Definition 10.1.10** (Union Event), denoted $A\cup B\cup C$.
 
-(2) Subscribing to exactly one study material, i.e. subscribing only to math, or only to Chinese, or only to English, denoted $\left(A\cap\bar B\cap\bar C\right)\cup\left(\bar A\cap B\cap\bar C\right)\cup\left(\bar A\cap\bar B\cap C\right)$.
+(2) Subscribing to exactly one study material, i.e. subscribing only to math, or only to Chinese, or only to English, denoted $\left(A\cap\overline B\cap\overline C\right)\cup\left(\overline A\cap B\cap\overline C\right)\cup\left(\overline A\cap\overline B\cap C\right)$.
 
-(3) Subscribing to no study material is the complementary event of "subscribing to at least one"; by **Definition 10.1.13** (Complementary Events), denoted $\overline{A\cup B\cup C}=\bar A\cap\bar B\cap\bar C$. $\blacksquare$
+(3) Subscribing to no study material is the complementary event of "subscribing to at least one"; by **Definition 10.1.13** (Complementary Events), denoted $\overline{A\cup B\cup C}=\overline A\cap\overline B\cap\overline C$. $\blacksquare$
 
 ### Problem 16
 
@@ -719,7 +719,7 @@ $$
 (3) By **Property 10.1.19** (Probability of Complementary Events), "divisible by neither $2$ nor $3$" is the complementary event of "divisible by $2$ or divisible by $3$", so
 
 $$
-P\left(\bar A\cap\bar B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
+P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
 $$
 
 $\blacksquare$

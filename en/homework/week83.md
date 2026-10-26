@@ -4,7 +4,7 @@
 
 > **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)> 0$, then $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **Conclusion 7.1.3** (Properties of Conditional Probability) <br>Let $\mathbb P\left(A\right)> 0$. Then (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) let $\bar B$ and $B$ be complementary events, then $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
+> **Conclusion 7.1.3** (Properties of Conditional Probability) <br>Let $\mathbb P\left(A\right)> 0$. Then (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) let $\overline B$ and $B$ be complementary events, then $\mathbb P\left(\overline B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
 > **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P\left(A\right)> 0$, event $A$ and event $B$ are mutually independent if and only if $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
@@ -84,16 +84,16 @@ $\blacksquare$
 
 By **Conclusion 7.1.5** (Total Probability Formula), divide the sample space into two mutually exclusive events according to whether the chosen question has an idea.
 
-Let $A$ = "choosing a question with an idea", $\bar A$ = "choosing a question with no idea", $B$ = "answering the question correctly". By the hypothesis,
+Let $A$ = "choosing a question with an idea", $\overline A$ = "choosing a question with no idea", $B$ = "answering the question correctly". By the hypothesis,
 
 $$
-\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\bar A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\bar A\right)=0.25.
+\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\overline A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\overline A\right)=0.25.
 $$
 
 By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\bar A\right)\mathbb P\left(B\mid\bar A\right).
+\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\overline A\right)\mathbb P\left(B\mid\overline A\right).
 $$
 
 Substituting the data, we get
@@ -307,13 +307,13 @@ Let $G_i$ = "the $i$th drawn item is qualified". The batch is rejected in two mu
 The probability that the 1st item is unqualified is
 
 $$
-\mathbb P\left(\bar G_1\right)=\frac{5}{100}=\frac{1}{20}.
+\mathbb P\left(\overline G_1\right)=\frac{5}{100}=\frac{1}{20}.
 $$
 
 The probability that the 1st item is qualified and the 2nd is unqualified, by **Conclusion 7.1.2** (Multiplication Formula for Probability), is
 
 $$
-\mathbb P\left(G_1\bar G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\bar G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
+\mathbb P\left(G_1\overline G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\overline G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
 $$
 
 The two cases are mutually exclusive, so by the addition formula for probability, the probability that the batch is rejected is

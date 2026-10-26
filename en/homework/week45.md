@@ -6,11 +6,11 @@
 
 > **Definition 9.2.3** (Mode, Median and Mean) <br>The mode is the data value appearing most often in a set of data; the median is the data value in the middle position after the data are arranged in ascending order (or the average of the two middle data values); the mean is the arithmetic average of the data. The mode, median and mean describe the central tendency of a set of data from different angles.
 
-> **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) <br>The average of the squared deviations of all data $Y_1,\cdots,Y_N$ in the population from the population mean $\bar Y$, namely $s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2$, is called the population variance, and its arithmetic square root $s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2}$ is called the population standard deviation; correspondingly, the sample variance is $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2$, and the sample standard deviation is $s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}$. The larger the variance (standard deviation), the greater the dispersion of the data.
+> **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) <br>The average of the squared deviations of all data $Y_1,\cdots,Y_N$ in the population from the population mean $\overline Y$, namely $s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2$, is called the population variance, and its arithmetic square root $s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2}$ is called the population standard deviation; correspondingly, the sample variance is $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2$, and the sample standard deviation is $s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}$. The larger the variance (standard deviation), the greater the dispersion of the data.
 
-> **Common Result 9.2.5** (Total Variance of Stratified Random Sampling) <br>The sample sizes of the two strata are $n_1,n_2$, the stratum means are $\bar x_1,\bar x_2$, the stratum variances are $s_1^2,s_2^2$, and the total sample mean is $\bar w=\frac{n_1\bar x_1+n_2\bar x_2}{n_1+n_2}$; then the variance of the combined data is $s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}$.
+> **Common Result 9.2.5** (Total Variance of Stratified Random Sampling) <br>The sample sizes of the two strata are $n_1,n_2$, the stratum means are $\overline x_1,\overline x_2$, the stratum variances are $s_1^2,s_2^2$, and the total sample mean is $\overline w=\frac{n_1\overline x_1+n_2\overline x_2}{n_1+n_2}$; then the variance of the combined data is $s^2=\frac{n_1\left(s_1^2+\left(\overline x_1-\overline w\right)^2\right)+n_2\left(s_2^2+\left(\overline x_2-\overline w\right)^2\right)}{n_1+n_2}$.
 
-> **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$ ($a,b$ constants, $i=1,\cdots,n$), and $\bar x,\bar y$ and $s_x^2,s_y^2$ are the means and variances of the two sets of data respectively, then $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
+> **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$ ($a,b$ constants, $i=1,\cdots,n$), and $\overline x,\overline y$ and $s_x^2,s_y^2$ are the means and variances of the two sets of data respectively, then $\overline y=a\overline x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
 
 ### Exercise 1
 
@@ -195,7 +195,7 @@ By **Definition 9.2.3** (Mode, Median and Mean) and **Definition 9.2.2** (The $p
 Mean: the sum of the data is $87+90+\cdots+190=3858$, so
 
 $$
-\bar x=\frac{3858}{30}=128.6.
+\overline x=\frac{3858}{30}=128.6.
 $$
 
 Arrange the 30 data in ascending order. 80th percentile: $i=30\times80\%=24$, an integer, so the 80th percentile is the average of the 24th and 25th numbers, namely
@@ -291,7 +291,7 @@ By **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sam
 Machine A's mean is
 
 $$
-\bar x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
+\overline x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
 $$
 
 the variance is $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, and the standard deviation is $s_{\text{甲}}\approx1.28$.
@@ -299,7 +299,7 @@ the variance is $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, and the standard deviat
 Machine B's mean is
 
 $$
-\bar x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
+\overline x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
 $$
 
 the variance is $s_{\text{乙}}^2=\frac{7.6}{10}=0.76$, and the standard deviation is $s_{\text{乙}}\approx0.87$.
@@ -340,10 +340,10 @@ All four statements are correct; they describe the two teams' defense from the t
 
 By **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance).
 
-Because $y_i=ax_i+b$, by **Common Result 9.2.6**, $\bar y=a\bar x+b$, so $y_i-\bar y=a\left(x_i-\bar x\right)$. Thus
+Because $y_i=ax_i+b$, by **Common Result 9.2.6**, $\overline y=a\overline x+b$, so $y_i-\overline y=a\left(x_i-\overline x\right)$. Thus
 
 $$
-s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\bar x\right)^2=a^2s_x^2,
+s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline x\right)^2=a^2s_x^2,
 $$
 
 and hence $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. This proves the original identity. $\blacksquare$
@@ -356,13 +356,13 @@ and hence $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. This proves the original iden
 
 By **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation).
 
-From $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\bar x\right)^2=0$,
+From $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0$,
 
 $$
-\sum_{i=1}^{n}\left(x_i-\bar x\right)^2=0.
+\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0.
 $$
 
-Each term $\left(x_i-\bar x\right)^2\ge0$, and their sum is 0, so every term is 0, i.e. $x_i-\bar x=0$, $x_i=\bar x$ for all $i$. Hence all the $x_i$ are equal. $\blacksquare$
+Each term $\left(x_i-\overline x\right)^2\ge0$, and their sum is 0, so every term is 0, i.e. $x_i-\overline x=0$, $x_i=\overline x$ for all $i$. Hence all the $x_i$ are equal. $\blacksquare$
 
 ### Problem 6
 
@@ -413,14 +413,14 @@ By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution
 (2) The sample mean is
 
 $$
-\bar x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
+\overline x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
 $$
 
 the sample variance is approximately $0.2043$, and the sample standard deviation is $s\approx0.45$.
 
 (3) One cannot conclude that the average mercury content of every batch of this fish is greater than $1.00\times10^{-6}$. Because the sample is random, different batches of fish may have different mercury content, and this sample's mean is only an estimate for this batch.
 
-(4) The interval $\left[\bar x-2s,\bar x+2s\right]$ is approximately $\left[0.18,1.98\right]$. Counting one by one, except for $0.07$ and $2.10$, the mercury content of the remaining 28 fish lies in this interval. Hence about 28 fish. $\blacksquare$
+(4) The interval $\left[\overline x-2s,\overline x+2s\right]$ is approximately $\left[0.18,1.98\right]$. Counting one by one, except for $0.07$ and $2.10$, the mercury content of the remaining 28 fish lies in this interval. Hence about 28 fish. $\blacksquare$
 
 ### Problem 9
 
@@ -467,7 +467,7 @@ By **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sam
 (1) The population mean is
 
 $$
-\bar x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
+\overline x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
 $$
 
 and the population standard deviation is approximately $95.26$.
@@ -480,32 +480,32 @@ and the population standard deviation is approximately $95.26$.
 
 ### Problem 11
 
-(Exercise 9.2, Extension and Exploration, Problem 11) Given that the population is divided into 3 strata, by stratified random sampling the sample size, sample mean and sample variance drawn from each stratum are: $l,\bar x,s_1^2$; $m,\bar y,s_2^2$; $n,\bar z,s_3^2$. Let the total sample mean be $\bar w$ and the sample variance be $s^2$. Prove:
+(Exercise 9.2, Extension and Exploration, Problem 11) Given that the population is divided into 3 strata, by stratified random sampling the sample size, sample mean and sample variance drawn from each stratum are: $l,\overline x,s_1^2$; $m,\overline y,s_2^2$; $n,\overline z,s_3^2$. Let the total sample mean be $\overline w$ and the sample variance be $s^2$. Prove:
 
-(1) $\bar w=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z$;
+(1) $\overline w=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z$;
 
-(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\bar x-\bar w\right)^2\right]+m\left[s_2^2+\left(\bar y-\bar w\right)^2\right]+n\left[s_3^2+\left(\bar z-\bar w\right)^2\right]\right\}$.
+(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}$.
 
 ### Solution to Problem 11
 
 By **Common Result 9.2.5** (Total Variance of Stratified Random Sampling) and **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation).
 
-(1) The sums of the three strata's data are $l\bar x,m\bar y,n\bar z$ respectively, and the total number of data is $l+m+n$, so the total sample mean is
+(1) The sums of the three strata's data are $l\overline x,m\overline y,n\overline z$ respectively, and the total number of data is $l+m+n$, so the total sample mean is
 
 $$
-\bar w=\frac{l\bar x+m\bar y+n\bar z}{l+m+n}=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z.
+\overline w=\frac{l\overline x+m\overline y+n\overline z}{l+m+n}=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
 $$
 
-(2) For the 1st stratum, $\sum_{i=1}^{l}\left(x_i-\bar w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\bar x\right)+\left(\bar x-\bar w\right)\right]^2$. After expansion, the cross term $2\left(\bar x-\bar w\right)\sum_{i=1}^{l}\left(x_i-\bar x\right)=0$, so
+(2) For the 1st stratum, $\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline x\right)+\left(\overline x-\overline w\right)\right]^2$. After expansion, the cross term $2\left(\overline x-\overline w\right)\sum_{i=1}^{l}\left(x_i-\overline x\right)=0$, so
 
 $$
-\sum_{i=1}^{l}\left(x_i-\bar w\right)^2=\sum_{i=1}^{l}\left(x_i-\bar x\right)^2+l\left(\bar x-\bar w\right)^2=ls_1^2+l\left(\bar x-\bar w\right)^2.
+\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left(x_i-\overline x\right)^2+l\left(\overline x-\overline w\right)^2=ls_1^2+l\left(\overline x-\overline w\right)^2.
 $$
 
 The same holds for the 2nd and 3rd strata. Thus
 
 $$
-s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\bar x-\bar w\right)^2\right]+m\left[s_2^2+\left(\bar y-\bar w\right)^2\right]+n\left[s_3^2+\left(\bar z-\bar w\right)^2\right]\right\}.
+s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}.
 $$
 
 This proves the original identity. $\blacksquare$
@@ -531,7 +531,7 @@ By **Definition 9.2.3** (Mode, Median and Mean) and **Definition 9.2.4** (Popula
 
 Let the serial numbers of the tanks Germany produces monthly be $1,2,\cdots,N$, and the captured tank serial numbers form a simple random sample. Several methods for estimating $N$:
 
-(1) Use the mean of the sample serial numbers to estimate the mean of the population serial numbers. The mean of the population serial numbers $1\sim N$ is $\frac{N+1}{2}$; set the sample mean $\bar x=\frac{N+1}{2}$, solving gives $N=2\bar x-1$.
+(1) Use the mean of the sample serial numbers to estimate the mean of the population serial numbers. The mean of the population serial numbers $1\sim N$ is $\frac{N+1}{2}$; set the sample mean $\overline x=\frac{N+1}{2}$, solving gives $N=2\overline x-1$.
 
 (2) Use the maximum sample serial number $m$ to estimate. The maximum sample serial number is usually close to $N$; one may estimate $N\approx m\cdot\frac{n+1}{n}$, i.e. slightly correct the sample maximum.
 

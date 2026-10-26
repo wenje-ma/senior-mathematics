@@ -4,7 +4,7 @@
 
 > **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)> 0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
 
-> **结论 7.1.3** (条件概率的性质) <br>设 $\mathbb P\left(A\right)> 0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
+> **结论 7.1.3** (条件概率的性质) <br>设 $\mathbb P\left(A\right)> 0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\overline B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\overline B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
 > **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)> 0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
 
@@ -84,16 +84,16 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式), 按所选题目是否有思路将样本空间划分为两个互斥事件.
 
-设 $A$ = "选到有思路的题", $\bar A$ = "选到没有思路的题", $B$ = "做对该题". 由题意,
+设 $A$ = "选到有思路的题", $\overline A$ = "选到没有思路的题", $B$ = "做对该题". 由题意,
 
 $$
-\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\bar A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\bar A\right)=0.25.
+\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\overline A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\overline A\right)=0.25.
 $$
 
 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\bar A\right)\mathbb P\left(B\mid\bar A\right).
+\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\overline A\right)\mathbb P\left(B\mid\overline A\right).
 $$
 
 代入数据, 得
@@ -307,13 +307,13 @@ $$
 第 1 件不合格的概率为
 
 $$
-\mathbb P\left(\bar G_1\right)=\frac{5}{100}=\frac{1}{20}.
+\mathbb P\left(\overline G_1\right)=\frac{5}{100}=\frac{1}{20}.
 $$
 
 第 1 件合格且第 2 件不合格的概率, 由**结论 7.1.2** (概率的乘法公式), 为
 
 $$
-\mathbb P\left(G_1\bar G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\bar G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
+\mathbb P\left(G_1\overline G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\overline G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
 $$
 
 两种情形互斥, 由概率的加法公式, 这批产品被拒绝的概率为

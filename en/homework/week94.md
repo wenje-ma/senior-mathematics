@@ -241,13 +241,13 @@ $$
 Hence the proportion of myopic students among those who spend at most $1\ \mathrm{h}$ a day on a mobile phone is
 
 $$
-\mathbb P\left(A\bar B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
+\mathbb P\left(A\overline B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
 $$
 
-Also, the proportion of students who spend at most $1\ \mathrm{h}$ a day on a mobile phone is $\mathbb P\left(\bar B\right)=1-\mathbb P\left(B\right)=0.8$. By **Definition 7.1.1** (Conditional Probability), when one student is surveyed at random from this group, the probability that he or she is myopic is
+Also, the proportion of students who spend at most $1\ \mathrm{h}$ a day on a mobile phone is $\mathbb P\left(\overline B\right)=1-\mathbb P\left(B\right)=0.8$. By **Definition 7.1.1** (Conditional Probability), when one student is surveyed at random from this group, the probability that he or she is myopic is
 
 $$
-\mathbb P\left(A\mid\bar B\right)=\frac{\mathbb P\left(A\bar B\right)}{\mathbb P\left(\bar B\right)}=\frac{0.3}{0.8}=0.375.
+\mathbb P\left(A\mid\overline B\right)=\frac{\mathbb P\left(A\overline B\right)}{\mathbb P\left(\overline B\right)}=\frac{0.3}{0.8}=0.375.
 $$
 
 $\blacksquare$

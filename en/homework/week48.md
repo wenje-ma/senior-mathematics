@@ -14,7 +14,7 @@
 
 > **Definition 10.2.1** (Mutual Independence of Events) <br>For any two events $A$ and $B$, if $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ holds, then events $A$ and $B$ are said to be mutually independent, shortened to independent.
 
-> **Property 10.2.2** (Independence of Complementary Events) <br>From the definition of mutual independence of two events, it is easy to verify that the certain event $\Omega$ and the impossible event $\varnothing$ are both independent of any event. If events $A$ and $B$ are mutually independent, then $A$ and $\bar B$, $\bar A$ and $B$, and $\bar A$ and $\bar B$ are also mutually independent.
+> **Property 10.2.2** (Independence of Complementary Events) <br>From the definition of mutual independence of two events, it is easy to verify that the certain event $\Omega$ and the impossible event $\varnothing$ are both independent of any event. If events $A$ and $B$ are mutually independent, then $A$ and $\overline B$, $\overline A$ and $B$, and $\overline A$ and $\overline B$ are also mutually independent.
 
 ### Exercise 1
 
@@ -78,7 +78,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-Let event $A=$ "it rains in place A", $B=$ "it rains in place B"; then $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. By the problem, $A$ and $B$ are mutually independent. By **Property 10.2.2** (Independence of Complementary Events), $\bar A, \bar B$ are also mutually independent.
+Let event $A=$ "it rains in place A", $B=$ "it rains in place B"; then $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. By the problem, $A$ and $B$ are mutually independent. By **Property 10.2.2** (Independence of Complementary Events), $\overline A, \overline B$ are also mutually independent.
 
 (1) By **Definition 10.2.1** (Mutual Independence of Events), rain in both places means $A\cap B$ occurs, so
 
@@ -86,16 +86,16 @@ $$
 P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.2\times 0.3=0.06.
 $$
 
-(2) Rain in neither place means $\bar A\cap\bar B$ occurs. By **Property 10.1.19** (Probability of Complementary Events), $P\left(\bar A\right)=1-0.2=0.8$, $P\left(\bar B\right)=1-0.3=0.7$. Then by **Definition 10.2.1** (Mutual Independence of Events),
+(2) Rain in neither place means $\overline A\cap\overline B$ occurs. By **Property 10.1.19** (Probability of Complementary Events), $P\left(\overline A\right)=1-0.2=0.8$, $P\left(\overline B\right)=1-0.3=0.7$. Then by **Definition 10.2.1** (Mutual Independence of Events),
 
 $$
-P\left(\bar A\cap\bar B\right)=P\left(\bar A\right)P\left(\bar B\right)=0.8\times 0.7=0.56.
+P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0.8\times 0.7=0.56.
 $$
 
 (3) "It rains in at least one place" is the complementary event of "it rains in neither place". By **Property 10.1.19** (Probability of Complementary Events),
 
 $$
-P\left(\text{至少一个降雨}\right)=1-P\left(\bar A\cap\bar B\right)=1-0.56=0.44.
+P\left(\text{至少一个降雨}\right)=1-P\left(\overline A\cap\overline B\right)=1-0.56=0.44.
 $$
 
 $\blacksquare$
@@ -198,10 +198,10 @@ $$
 P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
 $$
 
-It can also be computed via the complementary event: by **Property 10.2.2** (Independence of Complementary Events), $\bar A$ and $\bar B$ are independent, $P\left(\bar A\right)=\frac{2}{3}$, $P\left(\bar B\right)=\frac{3}{4}$, so
+It can also be computed via the complementary event: by **Property 10.2.2** (Independence of Complementary Events), $\overline A$ and $\overline B$ are independent, $P\left(\overline A\right)=\frac{2}{3}$, $P\left(\overline B\right)=\frac{3}{4}$, so
 
 $$
-P\left(\text{密码被破译}\right)=1-P\left(\bar A\cap\bar B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
+P\left(\text{密码被破译}\right)=1-P\left(\overline A\cap\overline B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
 $$
 
 $\blacksquare$

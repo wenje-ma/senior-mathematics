@@ -1056,7 +1056,7 @@ $$
 
 **结论 7.1.3** (条件概率的性质)
 
-设 $\mathbb P\left(A\right)> 0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\bar B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
+设 $\mathbb P\left(A\right)> 0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\overline B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\overline B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
 **结论 7.1.4** (事件的相互独立)
 
@@ -1110,7 +1110,7 @@ $$
 
 **定义 7.2.4** (两点分布)
 
-对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $\mathbb P\left(A\right)=p$, 则 $\mathbb P\left(\bar A\right)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
+对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\overline A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\overline A$ 发生. 若 $\mathbb P\left(A\right)=p$, 则 $\mathbb P\left(\overline A\right)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
 
 #### 7.3 离散型随机变量的数字特征
 
@@ -1246,10 +1246,10 @@ $$
 
 **定义 8.1.5** (样本相关系数)
 
-对于变量 $x$ 和变量 $y$, 设经过随机抽样获得的成对样本数据为 $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, 其均值分别为 $\bar x$ 和 $\bar y$, 则称
+对于变量 $x$ 和变量 $y$, 设经过随机抽样获得的成对样本数据为 $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, 其均值分别为 $\overline x$ 和 $\overline y$, 则称
 
 $$
-r=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}}
+r=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}}
 $$
 
 为变量 $x$ 和变量 $y$ 的样本相关系数.
@@ -1285,7 +1285,7 @@ $$
 由最小二乘法可得
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
+\widehat b=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2},\quad \widehat a=\overline y-\widehat b\overline x.
 $$
 
 **定义 8.2.4** (经验回归方程)
@@ -1293,21 +1293,21 @@ $$
 由最小二乘估计得到的方程
 
 $$
-\hat y=\hat b x+\hat a
+\widehat y=\widehat b x+\widehat a
 $$
 
 称为 $y$ 关于 $x$ 的经验回归方程.
 
 **定义 8.2.5** (残差)
 
-观测值 $y_i$ 减去预测值 $\hat y_i$ 所得的差 $e_i=y_i-\hat y_i$ 称为相应于点 $\left(x_i,y_i\right)$ 的残差.
+观测值 $y_i$ 减去预测值 $\widehat y_i$ 所得的差 $e_i=y_i-\widehat y_i$ 称为相应于点 $\left(x_i,y_i\right)$ 的残差.
 
 **常用结论 8.2.6** (决定系数)
 
 用决定系数
 
 $$
-R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\hat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}
+R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}
 $$
 
 度量回归直线的拟合效果, $R^2$ 越大, 残差平方和越小, 模型的拟合效果越好.
@@ -1358,4 +1358,4 @@ $$
 
 **常用结论 8.2.8** (回归结果分析)
 
-回归系数 $\hat b$ 的符号反映 $Y$ 随 $x$ 变化的方向; 检验回归系数 $b$ 是否为 0 用 $t$ 统计量, 检验两变量线性关系是否显著用 $F$ 统计量, 给定显著性水平 $\alpha=0.05$, 当 $p$ 值小于 $\alpha$ 时认为线性关系显著; 决定系数 $R^2$ 反映自变量对回归的贡献, 即因变量总变异中回归关系所能解释的百分比.
+回归系数 $\widehat b$ 的符号反映 $Y$ 随 $x$ 变化的方向; 检验回归系数 $b$ 是否为 0 用 $t$ 统计量, 检验两变量线性关系是否显著用 $F$ 统计量, 给定显著性水平 $\alpha=0.05$, 当 $p$ 值小于 $\alpha$ 时认为线性关系显著; 决定系数 $R^2$ 反映自变量对回归的贡献, 即因变量总变异中回归关系所能解释的百分比.

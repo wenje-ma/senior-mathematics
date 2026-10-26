@@ -6,13 +6,13 @@
 
 > **定义 9.1.3** (简单随机抽样) <br>设一个总体含有 $N$ ($N$ 为正整数) 个个体, 从中逐个抽取 $n$ ($1\le n< N$) 个个体作为样本, 如果抽取是放回的, 且每次抽取时总体内的各个个体被抽到的概率都相等, 称为放回简单随机抽样; 如果抽取是不放回的, 且每次抽取时总体内未进入样本的各个个体被抽到的概率都相等, 称为不放回简单随机抽样. 两者统称为简单随机抽样, 通过简单随机抽样获得的样本称为简单随机样本. 除非特殊声明, 本章所称的简单随机抽样指不放回简单随机抽样.
 
-> **定义 9.1.4** (总体均值与样本均值) <br>总体中有 $N$ 个个体, 它们的变量值分别为 $Y_1,Y_2,\cdots,Y_N$, 则称 $\bar Y=\frac{1}{N}\sum_{i=1}^{N}Y_i$ 为总体均值, 又称总体平均数. 如果从总体中抽取一个容量为 $n$ 的样本, 其变量值分别为 $y_1,y_2,\cdots,y_n$, 则称 $\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i$ 为样本均值, 又称样本平均数. 在简单随机抽样中, 常用样本平均数 $\bar y$ 估计总体平均数 $\bar Y$.
+> **定义 9.1.4** (总体均值与样本均值) <br>总体中有 $N$ 个个体, 它们的变量值分别为 $Y_1,Y_2,\cdots,Y_N$, 则称 $\overline Y=\frac{1}{N}\sum_{i=1}^{N}Y_i$ 为总体均值, 又称总体平均数. 如果从总体中抽取一个容量为 $n$ 的样本, 其变量值分别为 $y_1,y_2,\cdots,y_n$, 则称 $\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i$ 为样本均值, 又称样本平均数. 在简单随机抽样中, 常用样本平均数 $\overline y$ 估计总体平均数 $\overline Y$.
 
 > **定义 9.1.5** (分层随机抽样, 层与比例分配) <br>按一个或多个变量把总体划分成若干个子总体, 每个个体属于且仅属于一个子总体, 在每个子总体中独立地进行简单随机抽样, 再把所有子总体中抽取的样本合在一起作为总样本, 这样的抽样方法称为分层随机抽样, 每一个子总体称为层. 在分层随机抽样中, 如果每层样本量都与层的大小成比例, 那么称这种样本量的分配方式为比例分配.
 
-> **常用结论 9.1.6** (分层随机抽样的总体平均数估计) <br>在比例分配的分层随机抽样中, 第 1 层与第 2 层的层大小分别为 $M,N$, 样本量分别为 $m,n$, 层样本平均数分别为 $\bar x,\bar y$, 则可直接用样本平均数 $\bar w=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y$ 估计总体平均数 $\bar W$; 在非比例分配时, 须按各层的总体大小加权, 用 $\frac{M}{M+N}\bar x+\frac{N}{M+N}\bar y$ 估计总体平均数.
+> **常用结论 9.1.6** (分层随机抽样的总体平均数估计) <br>在比例分配的分层随机抽样中, 第 1 层与第 2 层的层大小分别为 $M,N$, 样本量分别为 $m,n$, 层样本平均数分别为 $\overline x,\overline y$, 则可直接用样本平均数 $\overline w=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y$ 估计总体平均数 $\overline W$; 在非比例分配时, 须按各层的总体大小加权, 用 $\frac{M}{M+N}\overline x+\frac{N}{M+N}\overline y$ 估计总体平均数.
 
-> **常用结论 9.1.7** (数据变换对平均数的影响) <br>若 $y_i=ax_i+b$ ($i=1,2,\cdots,n$), $\bar x,\bar y$ 分别为两组数据的平均数, 则 $\bar y=a\bar x+b$.
+> **常用结论 9.1.7** (数据变换对平均数的影响) <br>若 $y_i=ax_i+b$ ($i=1,2,\cdots,n$), $\overline x,\overline y$ 分别为两组数据的平均数, 则 $\overline y=a\overline x+b$.
 
 ### 练习一
 
@@ -160,22 +160,22 @@ $$
 
 ### 练习九
 
-(练习 9.1 第 9 题) 数据 $x_1,x_2,\cdots,x_m$ 的平均数为 $\bar x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\bar y$, 证明:
+(练习 9.1 第 9 题) 数据 $x_1,x_2,\cdots,x_m$ 的平均数为 $\overline x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline y$, 证明:
 
 $$
-\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y.
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
 $$
 
 ### 解答 练习九
 
 由**定义 9.1.4** (总体均值与样本均值), 平均数等于数据之和除以数据个数.
 
-由 $\bar x=\frac{1}{m}\sum_{i=1}^{m}x_i$, 得 $\sum_{i=1}^{m}x_i=m\bar x$; 由 $\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i$, 得 $\sum_{i=1}^{n}y_i=n\bar y$.
+由 $\overline x=\frac{1}{m}\sum_{i=1}^{m}x_i$, 得 $\sum_{i=1}^{m}x_i=m\overline x$; 由 $\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i$, 得 $\sum_{i=1}^{n}y_i=n\overline y$.
 
 把两组数据合并, 其数据之和为 $\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i$, 数据个数为 $m+n$, 故合并后数据的平均数为
 
 $$
-\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\bar x+n\bar y}{m+n}=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y.
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\overline x+n\overline y}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
 $$
 
 原式得证. $\blacksquare$
@@ -382,7 +382,7 @@ $$
 
 ### 习题六
 
-(习题 9.1 综合运用第 6 题) 数据 $x_1,x_2,\cdots,x_n$ 的平均数为 $\bar x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\bar y$, $a,b$ 为常数. 如果满足 $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, 证明 $\bar y=a\bar x+b$.
+(习题 9.1 综合运用第 6 题) 数据 $x_1,x_2,\cdots,x_n$ 的平均数为 $\overline x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline y$, $a,b$ 为常数. 如果满足 $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, 证明 $\overline y=a\overline x+b$.
 
 ### 解答 习题六
 
@@ -391,31 +391,31 @@ $$
 因为 $y_i=ax_i+b$ ($i=1,2,\cdots,n$), 所以
 
 $$
-\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\bar x+b.
+\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\overline x+b.
 $$
 
 原式得证. $\blacksquare$
 
 ### 习题七
 
-(习题 9.1 综合运用第 7 题) 已知总体划分为 3 层, 通过分层随机抽样, 得到各层的样本平均数分别为 $\bar x,\bar y,\bar z$.
+(习题 9.1 综合运用第 7 题) 已知总体划分为 3 层, 通过分层随机抽样, 得到各层的样本平均数分别为 $\overline x,\overline y,\overline z$.
 
 (1) 根据以上信息可以估计总体平均数吗? 如果不能, 还需要什么条件? 写出估计式.
 
 (2) 如果样本量是按比例分配, 第 1, 2, 3 层的个体数分别为 $L,M,N$, 样本量分别为 $l,m,n$, 证明:
 
 $$
-\frac{L}{L+M+N}\bar x+\frac{M}{L+M+N}\bar y+\frac{N}{L+M+N}\bar z=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z.
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
 $$
 
 ### 解答 习题七
 
 由**定义 9.1.5** (分层随机抽样, 层与比例分配) 与**常用结论 9.1.6** (分层随机抽样的总体平均数估计).
 
-(1) 仅凭各层的样本平均数 $\bar x,\bar y,\bar z$ 不能估计总体平均数, 还需要知道各层在总体中所占的比重 (即各层的个体数或样本量), 才能对各层样本平均数加权. 估计式为
+(1) 仅凭各层的样本平均数 $\overline x,\overline y,\overline z$ 不能估计总体平均数, 还需要知道各层在总体中所占的比重 (即各层的个体数或样本量), 才能对各层样本平均数加权. 估计式为
 
 $$
-\bar W=\frac{L\bar x+M\bar y+N\bar z}{L+M+N},
+\overline W=\frac{L\overline x+M\overline y+N\overline z}{L+M+N},
 $$
 
 其中 $L,M,N$ 分别为第 1, 2, 3 层的个体数.
@@ -431,7 +431,7 @@ $$
 代入即得
 
 $$
-\frac{L}{L+M+N}\bar x+\frac{M}{L+M+N}\bar y+\frac{N}{L+M+N}\bar z=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z.
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
 $$
 
 原式得证. $\blacksquare$

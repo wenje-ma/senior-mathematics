@@ -6,13 +6,13 @@
 
 > **Definition 9.1.3** (Simple Random Sampling) <br>Suppose a population contains $N$ ($N$ a positive integer) individuals, from which $n$ ($1\le n< N$) individuals are drawn one by one as a sample. If the drawing is with replacement and, at each draw, every individual in the population has equal probability of being selected, it is called simple random sampling with replacement; if the drawing is without replacement and, at each draw, every individual in the population not yet in the sample has equal probability of being selected, it is called simple random sampling without replacement. Both are collectively called simple random sampling, and a sample obtained by simple random sampling is called a simple random sample. Unless otherwise stated, simple random sampling in this chapter refers to simple random sampling without replacement.
 
-> **Definition 9.1.4** (Population Mean and Sample Mean) <br>The population has $N$ individuals with variable values $Y_1,Y_2,\cdots,Y_N$; then $\bar Y=\frac{1}{N}\sum_{i=1}^{N}Y_i$ is called the population mean, also called the population average. If a sample of size $n$ is drawn from the population with variable values $y_1,y_2,\cdots,y_n$, then $\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i$ is called the sample mean, also called the sample average. In simple random sampling, the sample average $\bar y$ is commonly used to estimate the population average $\bar Y$.
+> **Definition 9.1.4** (Population Mean and Sample Mean) <br>The population has $N$ individuals with variable values $Y_1,Y_2,\cdots,Y_N$; then $\overline Y=\frac{1}{N}\sum_{i=1}^{N}Y_i$ is called the population mean, also called the population average. If a sample of size $n$ is drawn from the population with variable values $y_1,y_2,\cdots,y_n$, then $\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i$ is called the sample mean, also called the sample average. In simple random sampling, the sample average $\overline y$ is commonly used to estimate the population average $\overline Y$.
 
 > **Definition 9.1.5** (Stratified Random Sampling, Strata and Proportional Allocation) <br>The population is divided into several sub-populations according to one or more variables, each individual belonging to exactly one sub-population; in each sub-population, simple random sampling is carried out independently, and then the samples drawn from all sub-populations are combined into the total sample. Such a sampling method is called stratified random sampling, and each sub-population is called a stratum. In stratified random sampling, if the sample size of each stratum is proportional to the size of that stratum, this allocation of sample sizes is called proportional allocation.
 
-> **Common Result 9.1.6** (Estimating the Population Mean by Stratified Random Sampling) <br>In proportionally allocated stratified random sampling, the sizes of the 1st and 2nd strata are $M,N$, the sample sizes are $m,n$, and the stratum sample averages are $\bar x,\bar y$; then one may directly use the sample average $\bar w=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y$ to estimate the population average $\bar W$. In the non-proportional case, one must weight by the population size of each stratum and use $\frac{M}{M+N}\bar x+\frac{N}{M+N}\bar y$ to estimate the population average.
+> **Common Result 9.1.6** (Estimating the Population Mean by Stratified Random Sampling) <br>In proportionally allocated stratified random sampling, the sizes of the 1st and 2nd strata are $M,N$, the sample sizes are $m,n$, and the stratum sample averages are $\overline x,\overline y$; then one may directly use the sample average $\overline w=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y$ to estimate the population average $\overline W$. In the non-proportional case, one must weight by the population size of each stratum and use $\frac{M}{M+N}\overline x+\frac{N}{M+N}\overline y$ to estimate the population average.
 
-> **Common Result 9.1.7** (Effect of Data Transformation on the Mean) <br>If $y_i=ax_i+b$ ($i=1,2,\cdots,n$), and $\bar x,\bar y$ are the averages of the two sets of data respectively, then $\bar y=a\bar x+b$.
+> **Common Result 9.1.7** (Effect of Data Transformation on the Mean) <br>If $y_i=ax_i+b$ ($i=1,2,\cdots,n$), and $\overline x,\overline y$ are the averages of the two sets of data respectively, then $\overline y=a\overline x+b$.
 
 ### Exercise 1
 
@@ -160,22 +160,22 @@ The reason is: the larger the sample size, the closer the proportions of the var
 
 ### Exercise 9
 
-(Exercise 9.1, Problem 9) The average of the data $x_1,x_2,\cdots,x_m$ is $\bar x$, and the average of the data $y_1,y_2,\cdots,y_n$ is $\bar y$. Prove that
+(Exercise 9.1, Problem 9) The average of the data $x_1,x_2,\cdots,x_m$ is $\overline x$, and the average of the data $y_1,y_2,\cdots,y_n$ is $\overline y$. Prove that
 
 $$
-\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y.
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
 $$
 
 ### Solution to Exercise 9
 
 By **Definition 9.1.4** (Population Mean and Sample Mean), the average equals the sum of the data divided by the number of data.
 
-From $\bar x=\frac{1}{m}\sum_{i=1}^{m}x_i$, we get $\sum_{i=1}^{m}x_i=m\bar x$; from $\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i$, we get $\sum_{i=1}^{n}y_i=n\bar y$.
+From $\overline x=\frac{1}{m}\sum_{i=1}^{m}x_i$, we get $\sum_{i=1}^{m}x_i=m\overline x$; from $\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i$, we get $\sum_{i=1}^{n}y_i=n\overline y$.
 
 Combining the two sets of data, their sum is $\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i$ and their count is $m+n$, so the average of the combined data is
 
 $$
-\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\bar x+n\bar y}{m+n}=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y.
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\overline x+n\overline y}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
 $$
 
 This proves the original identity. $\blacksquare$
@@ -382,7 +382,7 @@ And $16+12=28$, exactly the sample size. Hence 16 male athletes and 12 female at
 
 ### Problem 6
 
-(Exercise 9.1, Comprehensive Application, Problem 6) The average of the data $x_1,x_2,\cdots,x_n$ is $\bar x$, the average of the data $y_1,y_2,\cdots,y_n$ is $\bar y$, and $a,b$ are constants. If $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, prove that $\bar y=a\bar x+b$.
+(Exercise 9.1, Comprehensive Application, Problem 6) The average of the data $x_1,x_2,\cdots,x_n$ is $\overline x$, the average of the data $y_1,y_2,\cdots,y_n$ is $\overline y$, and $a,b$ are constants. If $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, prove that $\overline y=a\overline x+b$.
 
 ### Solution to Problem 6
 
@@ -391,31 +391,31 @@ By **Common Result 9.1.7** (Effect of Data Transformation on the Mean).
 Because $y_i=ax_i+b$ ($i=1,2,\cdots,n$), we have
 
 $$
-\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\bar x+b.
+\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\overline x+b.
 $$
 
 This proves the original identity. $\blacksquare$
 
 ### Problem 7
 
-(Exercise 9.1, Comprehensive Application, Problem 7) Given that the population is divided into 3 strata, and through stratified random sampling the stratum sample averages are obtained as $\bar x,\bar y,\bar z$.
+(Exercise 9.1, Comprehensive Application, Problem 7) Given that the population is divided into 3 strata, and through stratified random sampling the stratum sample averages are obtained as $\overline x,\overline y,\overline z$.
 
 (1) Based on the above information, can the population average be estimated? If not, what additional condition is needed? Write the estimation formula.
 
 (2) If the sample size is proportionally allocated and the individual counts of the 1st, 2nd, 3rd strata are $L,M,N$ with sample sizes $l,m,n$, prove that
 
 $$
-\frac{L}{L+M+N}\bar x+\frac{M}{L+M+N}\bar y+\frac{N}{L+M+N}\bar z=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z.
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
 $$
 
 ### Solution to Problem 7
 
 By **Definition 9.1.5** (Stratified Random Sampling, Strata and Proportional Allocation) and **Common Result 9.1.6** (Estimating the Population Mean by Stratified Random Sampling).
 
-(1) From the stratum sample averages $\bar x,\bar y,\bar z$ alone one cannot estimate the population average; one also needs to know the proportion each stratum occupies in the population (i.e. the individual count or sample size of each stratum) in order to weight the stratum sample averages. The estimation formula is
+(1) From the stratum sample averages $\overline x,\overline y,\overline z$ alone one cannot estimate the population average; one also needs to know the proportion each stratum occupies in the population (i.e. the individual count or sample size of each stratum) in order to weight the stratum sample averages. The estimation formula is
 
 $$
-\bar W=\frac{L\bar x+M\bar y+N\bar z}{L+M+N},
+\overline W=\frac{L\overline x+M\overline y+N\overline z}{L+M+N},
 $$
 
 where $L,M,N$ are the individual counts of the 1st, 2nd, 3rd strata respectively.
@@ -431,7 +431,7 @@ From $\frac{l}{L}=\frac{l+m+n}{L+M+N}$, we get $\frac{L}{L+M+N}=\frac{l}{l+m+n}$
 Substituting gives
 
 $$
-\frac{L}{L+M+N}\bar x+\frac{M}{L+M+N}\bar y+\frac{N}{L+M+N}\bar z=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z.
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
 $$
 
 This proves the original identity. $\blacksquare$

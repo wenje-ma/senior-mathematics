@@ -10,9 +10,9 @@
 
 > **Definition 9.1.5** (Stratified Random Sampling, Strata and Proportional Allocation) <br>Dividing the population into several subpopulations according to one or more variables, with each individual belonging to exactly one subpopulation, conducting simple random sampling independently in each subpopulation, and then combining the samples drawn from all subpopulations into the total sample, such a sampling method is called stratified random sampling; if the sample size of each stratum is proportional to the size of the stratum, it is called proportional allocation.
 
-> **Common Conclusion 9.1.6** (Estimating the Population Mean by Stratified Random Sampling) <br>In stratified random sampling with proportional allocation, the population mean can be estimated directly by the sample mean $\bar w=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y$; in the case of non-proportional allocation, the estimate is weighted by the size of each stratum's population.
+> **Common Conclusion 9.1.6** (Estimating the Population Mean by Stratified Random Sampling) <br>In stratified random sampling with proportional allocation, the population mean can be estimated directly by the sample mean $\overline w=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y$; in the case of non-proportional allocation, the estimate is weighted by the size of each stratum's population.
 
-> **Common Conclusion 9.1.7** (Effect of Data Transformation on the Mean) <br>If $y_i=ax_i+b$, then $\bar y=a\bar x+b$.
+> **Common Conclusion 9.1.7** (Effect of Data Transformation on the Mean) <br>If $y_i=ax_i+b$, then $\overline y=a\overline x+b$.
 
 > **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram) <br>Dividing the data into several groups and listing the frequency and relative frequency of each group produces a frequency distribution table; in a frequency distribution histogram, the vertical axis represents $\frac{\text{频率}}{\text{组距}}$, the area of each small rectangle equals the relative frequency of the corresponding group, and the sum of the areas of all small rectangles equals 1.
 
@@ -22,9 +22,9 @@
 
 > **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) <br>The variance (standard deviation) is the mean (the arithmetic square root) of the squares of the deviations of each data value from the mean, measuring the dispersion of the data; the larger the variance (standard deviation), the greater the dispersion of the data.
 
-> **Common Conclusion 9.2.5** (Total Variance of Stratified Random Sampling) <br>The variance after combining the two strata is $s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}$.
+> **Common Conclusion 9.2.5** (Total Variance of Stratified Random Sampling) <br>The variance after combining the two strata is $s^2=\frac{n_1\left(s_1^2+\left(\overline x_1-\overline w\right)^2\right)+n_2\left(s_2^2+\left(\overline x_2-\overline w\right)^2\right)}{n_1+n_2}$.
 
-> **Common Conclusion 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$, then $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
+> **Common Conclusion 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$, then $\overline y=a\overline x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
 
 ### Problem 1
 
@@ -58,10 +58,10 @@ By **Definition 9.2.3** (Mode, Median and Mean) and **Definition 9.2.4** (Popula
 
 (2) For (B): for example, $2,2,3,4,6$ has median 3 and mode 2, in which 6 appears. Hence (B) cannot determine that 6 definitely did not appear.
 
-(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum\left(x_i-\bar x\right)^2=5\times2.4=12$, i.e.
+(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum\left(x_i-\overline x\right)^2=5\times2.4=12$, i.e.
 
 $$
-\sum x_i^2=\sum\left(x_i-\bar x\right)^2+n\bar x^2=12+5\times4=32.
+\sum x_i^2=\sum\left(x_i-\overline x\right)^2+n\overline x^2=12+5\times4=32.
 $$
 
 If 6 appeared once, then the sum of the other 4 rolls would be $10-6=4$, i.e. the other 4 rolls are all 1; in this case the sum of squares would be $6^2+4\times1^2=40> 32$, a contradiction. Hence 6 definitely did not appear.
@@ -167,7 +167,7 @@ By **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sam
 The mean of panel A is
 
 $$
-\bar x_A=\frac{42+45+\cdots+45}{12}=\frac{569}{12}\approx47.42,
+\overline x_A=\frac{42+45+\cdots+45}{12}=\frac{569}{12}\approx47.42,
 $$
 
 with variance approximately $s_A^2\approx13.91$ and standard deviation approximately $s_A\approx3.73$.
@@ -175,7 +175,7 @@ with variance approximately $s_A^2\approx13.91$ and standard deviation approxima
 The mean of panel B is
 
 $$
-\bar x_B=\frac{55+36+\cdots+47}{12}=\frac{674}{12}\approx56.17,
+\overline x_B=\frac{55+36+\cdots+47}{12}=\frac{674}{12}\approx56.17,
 $$
 
 with variance approximately $s_B^2\approx138.97$ and standard deviation approximately $s_B\approx11.79$.
@@ -201,13 +201,13 @@ By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution
 (2) The computed mean is
 
 $$
-\bar x=\frac{\sum_{i=1}^{100}x_i}{100}\approx9370,
+\overline x=\frac{\sum_{i=1}^{100}x_i}{100}\approx9370,
 $$
 
 the median is approximately $9015$, and the standard deviation is approximately
 
 $$
-s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\bar x\right)^2}\approx4223.
+s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\overline x\right)^2}\approx4223.
 $$
 
 This student walks about 9370 steps per day on average, with a median of about 9015 steps, indicating a moderate daily walking amount; the relatively large standard deviation indicates that his daily exercise is unstable, walking more on some days and less on others, and his exercise habits are not yet regular enough. $\blacksquare$
@@ -229,7 +229,7 @@ By **Definition 9.2.3** (Mode, Median and Mean), **Definition 9.2.4** (Populatio
 (1) Arrange the 30 data values from small to large. The mean is
 
 $$
-\bar x=\frac{83+96+\cdots+104}{30}=\frac{2676}{30}=89.2.
+\overline x=\frac{83+96+\cdots+104}{30}=\frac{2676}{30}=89.2.
 $$
 
 The median is the average of the 15th and 16th values, namely $88$. The range is the difference between the maximum and minimum, namely $117-55=62$. The standard deviation is

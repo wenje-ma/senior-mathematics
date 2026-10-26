@@ -1056,7 +1056,7 @@ $$
 
 **Conclusion 7.1.3** (Properties of Conditional Probability)
 
-Let $\mathbb P\left(A\right)> 0$, then: (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) if $\bar B$ and $B$ are complementary events, then $\mathbb P\left(\bar B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
+Let $\mathbb P\left(A\right)> 0$, then: (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) if $\overline B$ and $B$ are complementary events, then $\mathbb P\left(\overline B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
 
 **Conclusion 7.1.4** (Mutual Independence of Events)
 
@@ -1110,7 +1110,7 @@ $$
 
 **Definition 7.2.4** (Bernoulli Distribution)
 
-For a random experiment with only two possible outcomes, let $A$ denote "success" and $\bar A$ denote "failure"; define $X=1$ when $A$ occurs and $X=0$ when $\bar A$ occurs. If $\mathbb P\left(A\right)=p$, then $\mathbb P\left(\bar A\right)=1-p$; we say $X$ follows the Bernoulli distribution or the $0-1$ distribution.
+For a random experiment with only two possible outcomes, let $A$ denote "success" and $\overline A$ denote "failure"; define $X=1$ when $A$ occurs and $X=0$ when $\overline A$ occurs. If $\mathbb P\left(A\right)=p$, then $\mathbb P\left(\overline A\right)=1-p$; we say $X$ follows the Bernoulli distribution or the $0-1$ distribution.
 
 #### 7.3 Numerical Characteristics of Discrete Random Variables
 
@@ -1246,10 +1246,10 @@ Generally, if the values of two variables show positive or negative correlation 
 
 **Definition 8.1.5** (Sample Correlation Coefficient)
 
-For the variables $x$ and $y$, let the paired sample data obtained through random sampling be $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, with means $\bar x$ and $\bar y$ respectively; then
+For the variables $x$ and $y$, let the paired sample data obtained through random sampling be $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, with means $\overline x$ and $\overline y$ respectively; then
 
 $$
-r=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}}
+r=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}}
 $$
 
 is called the sample correlation coefficient between $x$ and $y$.
@@ -1285,7 +1285,7 @@ the residual sum of squares, and the estimation method for $a$ and $b$ that mini
 From the least squares method we obtain
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
+\widehat b=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2},\quad \widehat a=\overline y-\widehat b\overline x.
 $$
 
 **Definition 8.2.4** (Empirical Regression Equation)
@@ -1293,21 +1293,21 @@ $$
 The equation obtained from the least squares estimation
 
 $$
-\hat y=\hat b x+\hat a
+\widehat y=\widehat b x+\widehat a
 $$
 
 is called the empirical regression equation of $y$ on $x$.
 
 **Definition 8.2.5** (Residual)
 
-The difference $e_i=y_i-\hat y_i$ obtained by subtracting the predicted value $\hat y_i$ from the observed value $y_i$ is called the residual corresponding to the point $\left(x_i,y_i\right)$.
+The difference $e_i=y_i-\widehat y_i$ obtained by subtracting the predicted value $\widehat y_i$ from the observed value $y_i$ is called the residual corresponding to the point $\left(x_i,y_i\right)$.
 
 **Common Conclusion 8.2.6** (Coefficient of Determination)
 
 Using the coefficient of determination
 
 $$
-R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\hat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}
+R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}
 $$
 
 to measure the fit of the regression line; the larger $R^2$ is, the smaller the residual sum of squares, and the better the model fit.
@@ -1358,4 +1358,4 @@ When $\chi^2\geqslant x_\alpha$, we infer that $H_0$ does not hold, i.e. we cons
 
 **Common Conclusion 8.2.8** (Analysis of Regression Results)
 
-The sign of the regression coefficient $\hat b$ reflects the direction in which $Y$ changes with $x$; to test whether the regression coefficient $b$ is 0, use the $t$ statistic; to test whether the linear relationship between the two variables is significant, use the $F$ statistic; given the significance level $\alpha=0.05$, when the $p$-value is less than $\alpha$, the linear relationship is considered significant; the coefficient of determination $R^2$ reflects the contribution of the independent variable to the regression, i.e. the percentage of the total variation of the dependent variable that can be explained by the regression relationship.
+The sign of the regression coefficient $\widehat b$ reflects the direction in which $Y$ changes with $x$; to test whether the regression coefficient $b$ is 0, use the $t$ statistic; to test whether the linear relationship between the two variables is significant, use the $F$ statistic; given the significance level $\alpha=0.05$, when the $p$-value is less than $\alpha$, the linear relationship is considered significant; the coefficient of determination $R^2$ reflects the contribution of the independent variable to the regression, i.e. the percentage of the total variation of the dependent variable that can be explained by the regression relationship.

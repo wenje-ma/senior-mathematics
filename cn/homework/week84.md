@@ -6,7 +6,7 @@
 
 > **定义 7.2.3** (分布列) <br>设离散型随机变量 $X$ 的可能取值为 $x_1$, $x_2$, $\cdots$, $x_n$, 称 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$ 为 $X$ 的概率分布列, 简称分布列. 它具有两个性质: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
 
-> **定义 7.2.4** (两点分布) <br>对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\bar A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\bar A$ 发生. 若 $\mathbb P\left(A\right)=p$, 则 $\mathbb P\left(\bar A\right)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
+> **定义 7.2.4** (两点分布) <br>对于只有两个可能结果的随机试验, 用 $A$ 表示 "成功", $\overline A$ 表示 "失败", 定义 $X=1$ 表示 $A$ 发生, $X=0$ 表示 $\overline A$ 发生. 若 $\mathbb P\left(A\right)=p$, 则 $\mathbb P\left(\overline A\right)=1-p$, 称 $X$ 服从两点分布或 $0-1$ 分布.
 
 ### 练习一
 

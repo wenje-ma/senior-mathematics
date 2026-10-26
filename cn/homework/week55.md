@@ -10,7 +10,7 @@
 
 > **定义 10.1.12** (互斥) <br>一般地, 如果事件 $A$ 与事件 $B$ 不能同时发生, 也就是说 $A\cap B$ 是一个不可能事件, 即 $A\cap B=\varnothing$, 则称事件 $A$ 与事件 $B$ 互斥 (或互不相容).
 
-> **定义 10.1.13** (互为对立) <br>一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\bar A$.
+> **定义 10.1.13** (互为对立) <br>一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\overline A$.
 
 > **定义 10.1.14** (古典概型) <br>我们将具有以下两个特征的试验称为古典概型试验, 其数学模型称为古典概率模型, 简称古典概型: (1) 有限性: 样本空间的样本点只有有限个; (2) 等可能性: 每个样本点发生的可能性相等.
 
@@ -28,7 +28,7 @@
 
 > **定义 10.2.1** (事件的相互独立性) <br>对任意两个事件 $A$ 与 $B$, 如果 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ 成立, 则称事件 $A$ 与事件 $B$ 相互独立, 简称为独立.
 
-> **性质 10.2.2** (对立事件的独立性) <br>由两个事件相互独立的定义, 容易验证必然事件 $\Omega$, 不可能事件 $\varnothing$ 都与任意事件相互独立. 若事件 $A$ 与事件 $B$ 相互独立, 则 $A$ 与 $\bar B$, $\bar A$ 与 $B$, $\bar A$ 与 $\bar B$ 也都相互独立.
+> **性质 10.2.2** (对立事件的独立性) <br>由两个事件相互独立的定义, 容易验证必然事件 $\Omega$, 不可能事件 $\varnothing$ 都与任意事件相互独立. 若事件 $A$ 与事件 $B$ 相互独立, 则 $A$ 与 $\overline B$, $\overline A$ 与 $B$, $\overline A$ 与 $\overline B$ 也都相互独立.
 
 > **定义 10.3.1** (频率的稳定性) <br>一般地, 随着试验次数 $n$ 的增大, 频率偏离概率的幅度会缩小, 即事件 $A$ 发生的频率 $f_n\left(A\right)$ 会逐渐稳定于事件 $A$ 发生的概率 $P\left(A\right)$. 我们称频率的这个性质为频率的稳定性. 因此, 我们可以用频率 $f_n\left(A\right)$ 估计概率 $P\left(A\right)$.
 
@@ -70,7 +70,7 @@ $\blacksquare$
 
 (复习参考题10 复习巩固第 2 题) 如图是一个古典概型的样本空间 $\Omega$ 和事件 $A$ 和 $B$, 其中 $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup B\right)=16$, 那么
 
-(1) $n\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$, $P\left(\bar A\cap\bar B\right)=\;\_\_\;$.
+(1) $n\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$, $P\left(\overline A\cap\overline B\right)=\;\_\_\;$.
 
 (2) 事件 $A$ 与 $B$ 互斥吗? 事件 $A$ 与 $B$ 相互独立吗?
 
@@ -96,10 +96,10 @@ $$
 P\left(A\cup B\right)=\frac{n\left(A\cup B\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
 $$
 
-由**定义 10.1.13** (互为对立), $\bar A\cap\bar B=\overline{A\cup B}$. 由**性质 10.1.19** (对立事件的概率),
+由**定义 10.1.13** (互为对立), $\overline A\cap\overline B=\overline{A\cup B}$. 由**性质 10.1.19** (对立事件的概率),
 
 $$
-P\left(\bar A\cap\bar B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
+P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
 $$
 
 (2) 由**定义 10.1.12** (互斥), $n\left(A\cap B\right)=4\neq 0$, 故 $A\cap B\neq\varnothing$, $A$ 与 $B$ 不互斥.

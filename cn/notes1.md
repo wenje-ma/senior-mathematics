@@ -1418,16 +1418,16 @@ $$
 总体中有 $N$ 个个体, 它们的变量值分别为 $Y_1,Y_2,\cdots,Y_N$, 则称
 
 $$
-\bar Y=\frac{1}{N}\sum_{i=1}^{N}Y_i
+\overline Y=\frac{1}{N}\sum_{i=1}^{N}Y_i
 $$
 
 为总体均值, 又称总体平均数. 如果从总体中抽取一个容量为 $n$ 的样本, 其变量值分别为 $y_1,y_2,\cdots,y_n$, 则称
 
 $$
-\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i
+\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i
 $$
 
-为样本均值, 又称样本平均数. 在简单随机抽样中, 常用样本平均数 $\bar y$ 估计总体平均数 $\bar Y$.
+为样本均值, 又称样本平均数. 在简单随机抽样中, 常用样本平均数 $\overline y$ 估计总体平均数 $\overline Y$.
 
 **定义 9.1.5** (分层随机抽样, 层与比例分配)
 
@@ -1435,26 +1435,26 @@ $$
 
 **常用结论 9.1.6** (分层随机抽样的总体平均数估计)
 
-在比例分配的分层随机抽样中, 第 1 层与第 2 层的层大小分别为 $M,N$, 样本量分别为 $m,n$, 层样本平均数分别为 $\bar x,\bar y$, 则可直接用样本平均数
+在比例分配的分层随机抽样中, 第 1 层与第 2 层的层大小分别为 $M,N$, 样本量分别为 $m,n$, 层样本平均数分别为 $\overline x,\overline y$, 则可直接用样本平均数
 
 $$
-\bar w=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y
+\overline w=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y
 $$
 
-估计总体平均数 $\bar W$; 在非比例分配时, 须按各层的总体大小加权, 用
+估计总体平均数 $\overline W$; 在非比例分配时, 须按各层的总体大小加权, 用
 
 $$
-\frac{M}{M+N}\bar x+\frac{N}{M+N}\bar y
+\frac{M}{M+N}\overline x+\frac{N}{M+N}\overline y
 $$
 
 估计总体平均数.
 
 **常用结论 9.1.7** (数据变换对平均数的影响)
 
-若 $y_i=ax_i+b$ ($i=1,2,\cdots,n$), $\bar x,\bar y$ 分别为两组数据的平均数, 则
+若 $y_i=ax_i+b$ ($i=1,2,\cdots,n$), $\overline x,\overline y$ 分别为两组数据的平均数, 则
 
 $$
-\bar y=a\bar x+b.
+\overline y=a\overline x+b.
 $$
 
 #### 9.2 用样本估计总体
@@ -1473,52 +1473,52 @@ $$
 
 **定义 9.2.4** (总体方差, 总体标准差, 样本方差与样本标准差)
 
-总体中所有数据 $Y_1,\cdots,Y_N$ 与总体平均数 $\bar Y$ 差的平方的平均数
+总体中所有数据 $Y_1,\cdots,Y_N$ 与总体平均数 $\overline Y$ 差的平方的平均数
 
 $$
-s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2
+s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2
 $$
 
 称为总体方差, 其算术平方根
 
 $$
-s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2}
+s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2}
 $$
 
 称为总体标准差; 相应地, 样本方差为
 
 $$
-s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2,
+s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2,
 $$
 
 样本标准差为
 
 $$
-s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}.
+s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}.
 $$
 
 方差 (标准差) 越大, 数据的离散程度越大.
 
 **常用结论 9.2.5** (分层随机抽样的总方差)
 
-两层的样本量分别为 $n_1,n_2$, 层平均数分别为 $\bar x_1,\bar x_2$, 层方差分别为 $s_1^2,s_2^2$, 总样本平均数为
+两层的样本量分别为 $n_1,n_2$, 层平均数分别为 $\overline x_1,\overline x_2$, 层方差分别为 $s_1^2,s_2^2$, 总样本平均数为
 
 $$
-\bar w=\frac{n_1\bar x_1+n_2\bar x_2}{n_1+n_2},
+\overline w=\frac{n_1\overline x_1+n_2\overline x_2}{n_1+n_2},
 $$
 
 则合并数据的方差为
 
 $$
-s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}.
+s^2=\frac{n_1\left(s_1^2+\left(\overline x_1-\overline w\right)^2\right)+n_2\left(s_2^2+\left(\overline x_2-\overline w\right)^2\right)}{n_1+n_2}.
 $$
 
 **常用结论 9.2.6** (数据变换对平均数与方差的影响)
 
-若 $y_i=ax_i+b$ ($a,b$ 为常数, $i=1,\cdots,n$), $\bar x,\bar y$ 与 $s_x^2,s_y^2$ 分别为两组数据的平均数与方差, 则
+若 $y_i=ax_i+b$ ($a,b$ 为常数, $i=1,\cdots,n$), $\overline x,\overline y$ 与 $s_x^2,s_y^2$ 分别为两组数据的平均数与方差, 则
 
 $$
-\bar y=a\bar x+b,\quad s_y^2=a^2s_x^2,\quad s_y=\lvert a\rvert\, s_x.
+\overline y=a\overline x+b,\quad s_y^2=a^2s_x^2,\quad s_y=\lvert a\rvert\, s_x.
 $$
 
 ### 第十章 概率
@@ -1575,7 +1575,7 @@ $\Omega$ 作为自身的子集, 包含了所有的样本点, 在每次试验中�
 
 **定义 10.1.13** (互为对立)
 
-一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\bar A$.
+一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\overline A$.
 
 **定义 10.1.14** (古典概型)
 
@@ -1643,7 +1643,7 @@ $$
 
 **性质 10.2.2** (对立事件的独立性)
 
-由两个事件相互独立的定义, 容易验证必然事件 $\Omega$, 不可能事件 $\varnothing$ 都与任意事件相互独立. 若事件 $A$ 与事件 $B$ 相互独立, 则 $A$ 与 $\bar B$, $\bar A$ 与 $B$, $\bar A$ 与 $\bar B$ 也都相互独立.
+由两个事件相互独立的定义, 容易验证必然事件 $\Omega$, 不可能事件 $\varnothing$ 都与任意事件相互独立. 若事件 $A$ 与事件 $B$ 相互独立, 则 $A$ 与 $\overline B$, $\overline A$ 与 $B$, $\overline A$ 与 $\overline B$ 也都相互独立.
 
 #### 10.3 频率与概率
 

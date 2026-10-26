@@ -241,13 +241,13 @@ $$
 于是每天玩手机不超过 $1\ \mathrm{h}$ 的学生中近视的比例为
 
 $$
-\mathbb P\left(A\bar B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
+\mathbb P\left(A\overline B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
 $$
 
-又每天玩手机不超过 $1\ \mathrm{h}$ 的学生所占比例为 $\mathbb P\left(\bar B\right)=1-\mathbb P\left(B\right)=0.8$. 由**定义 7.1.1** (条件概率), 在该群体中任意调查一名学生, 他近视的概率为
+又每天玩手机不超过 $1\ \mathrm{h}$ 的学生所占比例为 $\mathbb P\left(\overline B\right)=1-\mathbb P\left(B\right)=0.8$. 由**定义 7.1.1** (条件概率), 在该群体中任意调查一名学生, 他近视的概率为
 
 $$
-\mathbb P\left(A\mid\bar B\right)=\frac{\mathbb P\left(A\bar B\right)}{\mathbb P\left(\bar B\right)}=\frac{0.3}{0.8}=0.375.
+\mathbb P\left(A\mid\overline B\right)=\frac{\mathbb P\left(A\overline B\right)}{\mathbb P\left(\overline B\right)}=\frac{0.3}{0.8}=0.375.
 $$
 
 $\blacksquare$

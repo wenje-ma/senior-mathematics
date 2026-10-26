@@ -6,7 +6,7 @@
 
 > **Definition 7.2.3** (Probability Distribution) <br>Let the possible values of a discrete random variable $X$ be $x_1$, $x_2$, $\cdots$, $x_n$. We call $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$ the probability distribution of $X$, abbreviated as the distribution. It has two properties: (1) $p_i\ge 0$, $i=1,2,\cdots,n$; (2) $p_1+p_2+\cdots+p_n=1$.
 
-> **Definition 7.2.4** (Two-point Distribution) <br>For a random experiment with only two possible outcomes, let $A$ denote "success" and $\bar A$ denote "failure". Define $X=1$ to mean that $A$ occurs and $X=0$ to mean that $\bar A$ occurs. If $\mathbb P\left(A\right)=p$, then $\mathbb P\left(\bar A\right)=1-p$. We say that $X$ follows a two-point distribution or a $0-1$ distribution.
+> **Definition 7.2.4** (Two-point Distribution) <br>For a random experiment with only two possible outcomes, let $A$ denote "success" and $\overline A$ denote "failure". Define $X=1$ to mean that $A$ occurs and $X=0$ to mean that $\overline A$ occurs. If $\mathbb P\left(A\right)=p$, then $\mathbb P\left(\overline A\right)=1-p$. We say that $X$ follows a two-point distribution or a $0-1$ distribution.
 
 ### Exercise 1
 

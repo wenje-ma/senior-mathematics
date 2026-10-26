@@ -2,9 +2,9 @@
 
 > **Definition 8.2.1** (Simple Linear Regression Model) <br>Let $x$ denote the independent variable, $Y$ the dependent variable, and $e$ the random error; assume the mean of the random error $e$ is 0 and its variance is a constant $\sigma^2$ independent of $x$; then the relationship among them can be written as $Y=bx+a+e$, $\mathbb E\left(e\right)=0$, $D\left(e\right)=\sigma^2$. Here $a$ is called the intercept parameter, $b$ is called the slope parameter, and $e$ is the random error between $Y$ and $bx+a$.
 
-> **Definition 8.2.4** (Empirical Regression Equation) <br>Based on the sample data, the least squares method is used to estimate the model parameters $a$, $b$; the equation $\hat y=\hat b x+\hat a$ obtained from the least squares estimates is called the empirical regression equation of $y$ on $x$.
+> **Definition 8.2.4** (Empirical Regression Equation) <br>Based on the sample data, the least squares method is used to estimate the model parameters $a$, $b$; the equation $\widehat y=\widehat b x+\widehat a$ obtained from the least squares estimates is called the empirical regression equation of $y$ on $x$.
 
-> **Common Conclusion 8.2.8** (Analysis of Regression Results) <br>The sign of the regression coefficient $\hat b$ reflects the direction in which $Y$ changes with $x$; to test whether the regression coefficient $b$ is 0, a $t$ statistic is used, and to test whether the linear relationship between the two variables is significant, an $F$ statistic is used; given the significance level $\alpha=0.05$, when the $p$-value is less than $\alpha$, the linear relationship is considered significant; the coefficient of determination $R^2$ reflects the contribution of the independent variable to the regression, i.e. the percentage of the total variation of the dependent variable that can be explained by the regression.
+> **Common Conclusion 8.2.8** (Analysis of Regression Results) <br>The sign of the regression coefficient $\widehat b$ reflects the direction in which $Y$ changes with $x$; to test whether the regression coefficient $b$ is 0, a $t$ statistic is used, and to test whether the linear relationship between the two variables is significant, an $F$ statistic is used; given the significance level $\alpha=0.05$, when the $p$-value is less than $\alpha$, the linear relationship is considered significant; the coefficient of determination $R^2$ reflects the contribution of the independent variable to the regression, i.e. the percentage of the total variation of the dependent variable that can be explained by the regression.
 
 ### Problem 1
 
@@ -42,46 +42,46 @@ $$
 By **Definition 8.2.4** (Empirical Regression Equation), using the least squares method to estimate the parameters $a$, $b$, we obtain the empirical regression equation
 
 $$
-\hat y=\hat b x+\hat a.
+\widehat y=\widehat b x+\widehat a.
 $$
 
 Computing from the sample data gives
 
 $$
-\hat a=-99.69,\quad \hat b=138.60,
+\widehat a=-99.69,\quad \widehat b=138.60,
 $$
 
 i.e. the regression equation of the $PM_{2.5}$ concentration on traffic flow is
 
 $$
-\hat y=138.60x-99.69. \tag{1}
+\widehat y=138.60x-99.69. \tag{1}
 $$
 
 (3) Analysis of the regression results. By **Common Conclusion 8.2.8** (Analysis of Regression Results), the model is tested from three aspects.
 
-(a) Estimate of the regression coefficient. $\hat b=138.60> 0$, indicating that the $PM_{2.5}$ concentration increases as traffic flow increases: for every additional 100 vehicles (i.e. 0.1 thousand vehicles), the $PM_{2.5}$ concentration in the air increases on average by $13.86\ \mu\mathrm{g/m^3}$. The $t$ statistic corresponding to the regression coefficient $b$ is $6.721$, with degrees of freedom $n-2=22$; given the significance level $\alpha=0.05$, the critical value is $t_{0.025}\left(22\right)=2.074$. Since $t=6.721> t_{0.025}\left(22\right)$, or the corresponding $p$-value $9.37\times 10^{-7}< 0.05$, this shows that $b$ is significantly not 0, and traffic flow is a significant factor affecting the $PM_{2.5}$ concentration.
+(a) Estimate of the regression coefficient. $\widehat b=138.60> 0$, indicating that the $PM_{2.5}$ concentration increases as traffic flow increases: for every additional 100 vehicles (i.e. 0.1 thousand vehicles), the $PM_{2.5}$ concentration in the air increases on average by $13.86\ \mu\mathrm{g/m^3}$. The $t$ statistic corresponding to the regression coefficient $b$ is $6.721$, with degrees of freedom $n-2=22$; given the significance level $\alpha=0.05$, the critical value is $t_{0.025}\left(22\right)=2.074$. Since $t=6.721> t_{0.025}\left(22\right)$, or the corresponding $p$-value $9.37\times 10^{-7}< 0.05$, this shows that $b$ is significantly not 0, and traffic flow is a significant factor affecting the $PM_{2.5}$ concentration.
 
 (b) Test of significance of the linear relationship. The value of the $F$ statistic is $45.17$, with numerator degrees of freedom $1$ and denominator degrees of freedom $n-2=22$; the critical value is $F_{0.05}\left(1,22\right)=4.301$. Since $F=45.17> F_{0.05}\left(1,22\right)$, or the $p$-value $9.366\times 10^{-7}< 0.05$, this shows that the linear relationship between the $PM_{2.5}$ concentration and traffic flow is significant, and regression equation (1) can be considered to be statistically meaningful.
 
 (c) Coefficient of determination. The multiple coefficient of determination is $R^2=0.6725$, and the adjusted coefficient of determination is $R'=0.6576=65.76\%$, indicating that $65.76\%$ of the total variation in the $PM_{2.5}$ concentration is related to traffic flow, and the model fits well.
 
-(4) Application of the model. One important application of a regression model is prediction: given a value of $x$, the predicted value $\hat y$ of $Y$ is computed from the regression equation.
+(4) Application of the model. One important application of a regression model is prediction: given a value of $x$, the predicted value $\widehat y$ of $Y$ is computed from the regression equation.
 
 China's safety standard for the $PM_{2.5}$ concentration in the air is an annual average concentration of $35\ \mu\mathrm{g/m^3}$ and a $24\ \mathrm{h}$ average concentration of $75\ \mu\mathrm{g/m^3}$. When the traffic flow is 1300 vehicles, i.e. $x=1.3$, by equation (1),
 
 $$
-\hat y=138.60\times 1.3-99.69=80.49,
+\widehat y=138.60\times 1.3-99.69=80.49,
 $$
 
 indicating that the $PM_{2.5}$ concentration is near the safety standard; when the traffic flow is 2300 vehicles, i.e. $x=2.3$,
 
 $$
-\hat y=138.60\times 2.3-99.69=219.09,
+\widehat y=138.60\times 2.3-99.69=219.09,
 $$
 
 indicating that the $PM_{2.5}$ concentration seriously exceeds the standard, and a warning and intervention measures are needed.
 
-Conversely, if the average $PM_{2.5}$ concentration is to be controlled within $60\sim 120$, solve for $x$ from equation (1): when $\hat y_1=60$, $x_1=\frac{60+99.69}{138.60}\approx 1.152$; when $\hat y_2=120$, $x_2=\frac{120+99.69}{138.60}\approx 1.585$. Hence, to keep the average $PM_{2.5}$ concentration of this city within $60\sim 120$, the $24\ \mathrm{h}$ traffic flow must be controlled within $1152\sim 1585$ vehicles. $\blacksquare$
+Conversely, if the average $PM_{2.5}$ concentration is to be controlled within $60\sim 120$, solve for $x$ from equation (1): when $\widehat y_1=60$, $x_1=\frac{60+99.69}{138.60}\approx 1.152$; when $\widehat y_2=120$, $x_2=\frac{120+99.69}{138.60}\approx 1.585$. Hence, to keep the average $PM_{2.5}$ concentration of this city within $60\sim 120$, the $24\ \mathrm{h}$ traffic flow must be controlled within $1152\sim 1585$ vehicles. $\blacksquare$
 
 ### Activity Topic
 

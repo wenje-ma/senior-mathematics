@@ -5,7 +5,7 @@
 > **定义 8.1.5** (样本相关系数) <br>对于变量 $x$ 和变量 $y$, 成对样本数据 $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$ 的样本相关系数为
 
 $$
-r=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}}.
+r=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}}.
 $$
 
 > **常用结论 8.1.6** (样本相关系数的性质) <br>当 $r> 0$ 时成对数正相关, 当 $r< 0$ 时成对数负相关; $-1\leqslant r\leqslant 1$; $\left|r\right|$ 越接近 $1$ 线性相关程度越强, $\left|r\right|$ 越接近 $0$ 线性相关程度越弱.
@@ -19,12 +19,12 @@ $$
 > **常用结论 8.2.3** (最小二乘估计公式) <br>由最小二乘法可得
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
+\widehat b=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2},\quad \widehat a=\overline y-\widehat b\overline x.
 $$
 
-> **定义 8.2.4** (经验回归方程) <br>由最小二乘估计得到的方程 $\hat y=\hat b x+\hat a$ 称为 $y$ 关于 $x$ 的经验回归方程.
+> **定义 8.2.4** (经验回归方程) <br>由最小二乘估计得到的方程 $\widehat y=\widehat b x+\widehat a$ 称为 $y$ 关于 $x$ 的经验回归方程.
 
-> **定义 8.2.5** (残差) <br>观测值 $y_i$ 减去预测值 $\hat y_i$ 所得的差 $e_i=y_i-\hat y_i$ 称为相应于点 $\left(x_i,y_i\right)$ 的残差.
+> **定义 8.2.5** (残差) <br>观测值 $y_i$ 减去预测值 $\widehat y_i$ 所得的差 $e_i=y_i-\widehat y_i$ 称为相应于点 $\left(x_i,y_i\right)$ 的残差.
 
 > **定义 8.3.1** (分类变量) <br>一般地, 离散变量的取值可以用来表示个体所属的不同类别, 像这样的变量称为分类变量.
 
@@ -72,7 +72,7 @@ $$
 \begin{cases}Y=bx+a+e,\\ E\left(e\right)=0,\ D\left(e\right)=\sigma^2\end{cases}
 $$
 
-得到经验回归模型 $\hat y=\hat b x+\hat a$, 对应的残差如图所示. 模型误差 ( ).
+得到经验回归模型 $\widehat y=\widehat b x+\widehat a$, 对应的残差如图所示. 模型误差 ( ).
 
 (残差图中, 残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内, 但带状区域的宽度随 $x$ 的增大而明显变宽.)
 
@@ -84,7 +84,7 @@ $$
 
 ($\mathrm D$) 不满足一元线性回归模型的 $E\left(e\right)=0$ 和 $D\left(e\right)=\sigma^2$ 的假设
 
-该图为对应经验回归模型 $\hat y=\hat b x+\hat a$ 的残差图：横轴为 $x$，纵轴为残差，残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内，但带状区域的宽度随 $x$ 的增大而明显变宽。
+该图为对应经验回归模型 $\widehat y=\widehat b x+\widehat a$ 的残差图：横轴为 $x$，纵轴为残差，残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内，但带状区域的宽度随 $x$ 的增大而明显变宽。
 
 ### 解答 习题二
 
@@ -153,26 +153,26 @@ $$
 由例 $3$ 中 $25$ 名女大学生的身高与臂展数据, 计算得
 
 $$
-\bar x\approx 174.32,\quad \bar y\approx 170.68.
+\overline x\approx 174.32,\quad \overline y\approx 170.68.
 $$
 
 由**常用结论 8.2.3** (最小二乘估计公式),
 
 $$
-\hat b=\frac{\sum_{i=1}^{25}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{25}\left(x_i-\bar x\right)^2}\approx 0.965,
+\widehat b=\frac{\sum_{i=1}^{25}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{25}\left(x_i-\overline x\right)^2}\approx 0.965,
 $$
 
 $$
-\hat a=\bar y-\hat b\bar x\approx 0.84.
+\widehat a=\overline y-\widehat b\overline x\approx 0.84.
 $$
 
 故由**定义 8.2.4** (经验回归方程), 臂展关于身高的经验回归方程为
 
 $$
-\hat y=0.965x+0.84.
+\widehat y=0.965x+0.84.
 $$
 
-由**定义 8.2.5** (残差), 计算各点的残差 $e_i=y_i-\hat y_i$, 以身高为横轴, 残差为纵轴画出残差图. 残差图中, 残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内, 带状区域宽度基本一致, 没有明显的曲线趋势.
+由**定义 8.2.5** (残差), 计算各点的残差 $e_i=y_i-\widehat y_i$, 以身高为横轴, 残差为纵轴画出残差图. 残差图中, 残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内, 带状区域宽度基本一致, 没有明显的曲线趋势.
 
 这说明所选的一元线性回归模型与数据配合较好, 模型的误差方差基本恒定. $\blacksquare$
 
@@ -215,23 +215,23 @@ $$
 
 以行驶里程为横轴, 凹槽深度为纵轴作散点图, 散点从左上到右下大致沿一条直线分布.
 
-由数据计算得 $\bar x\approx 2.574$, $\bar y\approx 6.19$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
+由数据计算得 $\overline x\approx 2.574$, $\overline y\approx 6.19$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b=\frac{\sum_{i=1}^{9}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{9}\left(x_i-\bar x\right)^2}\approx -1.149,
+\widehat b=\frac{\sum_{i=1}^{9}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{9}\left(x_i-\overline x\right)^2}\approx -1.149,
 $$
 
 $$
-\hat a=\bar y-\hat b\bar x\approx 9.16.
+\widehat a=\overline y-\widehat b\overline x\approx 9.16.
 $$
 
 故由**定义 8.2.4** (经验回归方程), 轮胎凹槽深度关于行驶里程的经验回归方程为
 
 $$
-\hat y=-1.149x+9.16.
+\widehat y=-1.149x+9.16.
 $$
 
-模型的含义: 斜率 $\hat b\approx -1.149$ 表示, 行驶里程每增加 $1$ 千$\mathrm{km}$, 轮胎凹槽深度平均减少约 $1.149\,\mathrm{mm}$; 截距 $\hat a\approx 9.16\,\mathrm{mm}$ 表示新轮胎的凹槽深度估计值. 这表明随着行驶里程的增加, 轮胎凹槽深度近似线性地减小, 胎面持续磨损. $\blacksquare$
+模型的含义: 斜率 $\widehat b\approx -1.149$ 表示, 行驶里程每增加 $1$ 千$\mathrm{km}$, 轮胎凹槽深度平均减少约 $1.149\,\mathrm{mm}$; 截距 $\widehat a\approx 9.16\,\mathrm{mm}$ 表示新轮胎的凹槽深度估计值. 这表明随着行驶里程的增加, 轮胎凹槽深度近似线性地减小, 胎面持续磨损. $\blacksquare$
 
 ### 习题八
 

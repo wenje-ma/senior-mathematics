@@ -19,23 +19,23 @@ $$
 > **常用结论 8.2.3** (最小二乘估计公式) <br>由最小二乘法可得
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
+\widehat b=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2},\quad \widehat a=\overline y-\widehat b\overline x.
 $$
 
 > **定义 8.2.4** (经验回归方程) <br>由最小二乘估计得到的方程
 
 $$
-\hat y=\hat b x+\hat a
+\widehat y=\widehat b x+\widehat a
 $$
 
 称为 $y$ 关于 $x$ 的经验回归方程.
 
-> **定义 8.2.5** (残差) <br>观测值 $y_i$ 减去预测值 $\hat y_i$ 所得的差 $e_i=y_i-\hat y_i$ 称为相应于点 $\left(x_i,y_i\right)$ 的残差.
+> **定义 8.2.5** (残差) <br>观测值 $y_i$ 减去预测值 $\widehat y_i$ 所得的差 $e_i=y_i-\widehat y_i$ 称为相应于点 $\left(x_i,y_i\right)$ 的残差.
 
 > **常用结论 8.2.6** (决定系数) <br>用决定系数
 
 $$
-R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\hat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}
+R^2=1-\frac{\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)^2}{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}
 $$
 
 度量回归直线的拟合效果, $R^2$ 越大, 残差平方和越小, 模型的拟合效果越好.
@@ -82,7 +82,7 @@ $$
 
 ### 练习四
 
-(练习 8.2 第 1 题) 对一元线性回归模型参数 $a$ 和 $b$ 的估计中, 有人认为, 因为 $\bar y=\hat b\bar x+\hat a$, 所以点 $\left(\bar x,\bar y\right)$ 一定在回归直线上. 你认为这种说法正确吗?
+(练习 8.2 第 1 题) 对一元线性回归模型参数 $a$ 和 $b$ 的估计中, 有人认为, 因为 $\overline y=\widehat b\overline x+\widehat a$, 所以点 $\left(\overline x,\overline y\right)$ 一定在回归直线上. 你认为这种说法正确吗?
 
 ### 解答 练习四
 
@@ -90,28 +90,28 @@ $$
 
 这种说法正确.
 
-由**常用结论 8.2.3** (最小二乘估计公式), $\hat a=\bar y-\hat b\bar x$, 即 $\bar y=\hat b\bar x+\hat a$.
+由**常用结论 8.2.3** (最小二乘估计公式), $\widehat a=\overline y-\widehat b\overline x$, 即 $\overline y=\widehat b\overline x+\widehat a$.
 
-把 $x=\bar x$ 代入经验回归方程 $\hat y=\hat b x+\hat a$ (**定义 8.2.4**), 得
+把 $x=\overline x$ 代入经验回归方程 $\widehat y=\widehat b x+\widehat a$ (**定义 8.2.4**), 得
 
 $$
-\hat y=\hat b\bar x+\hat a=\bar y.
+\widehat y=\widehat b\overline x+\widehat a=\overline y.
 $$
 
-故点 $\left(\bar x,\bar y\right)$ 的坐标满足经验回归方程, 一定在回归直线上. $\blacksquare$
+故点 $\left(\overline x,\overline y\right)$ 的坐标满足经验回归方程, 一定在回归直线上. $\blacksquare$
 
 ### 练习五
 
-(练习 8.2 第 2 题) 假如女儿身高 $y$ 关于父亲身高 $x$ 的经验回归方程为 $\hat y=0.81x+25.82$, 父亲的身高为 $175\,\mathrm{cm}$, 请预测他女儿的身高.
+(练习 8.2 第 2 题) 假如女儿身高 $y$ 关于父亲身高 $x$ 的经验回归方程为 $\widehat y=0.81x+25.82$, 父亲的身高为 $175\,\mathrm{cm}$, 请预测他女儿的身高.
 
 ### 解答 练习五
 
 由**定义 8.2.4** (经验回归方程).
 
-把 $x=175$ 代入经验回归方程 $\hat y=0.81x+25.82$, 得
+把 $x=175$ 代入经验回归方程 $\widehat y=0.81x+25.82$, 得
 
 $$
-\hat y=0.81\times 175+25.82=167.57.
+\widehat y=0.81\times 175+25.82=167.57.
 $$
 
 故预测他女儿的身高为 $167.57\,\mathrm{cm}$. $\blacksquare$
@@ -127,23 +127,23 @@ $$
 由表 $8.1-1$ 中的 $14$ 对数据, 计算得
 
 $$
-\bar x\approx 48.07,\quad \bar y\approx 27.26.
+\overline x\approx 48.07,\quad \overline y\approx 27.26.
 $$
 
 由**常用结论 8.2.3** (最小二乘估计公式),
 
 $$
-\hat b=\frac{\sum_{i=1}^{14}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{14}\left(x_i-\bar x\right)^2}\approx 0.576,
+\widehat b=\frac{\sum_{i=1}^{14}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{14}\left(x_i-\overline x\right)^2}\approx 0.576,
 $$
 
 $$
-\hat a=\bar y-\hat b\bar x\approx -0.448.
+\widehat a=\overline y-\widehat b\overline x\approx -0.448.
 $$
 
 故由**定义 8.2.4** (经验回归方程), 人体的脂肪含量关于年龄的经验回归方程为
 
 $$
-\hat y=0.576x-0.448.
+\widehat y=0.576x-0.448.
 $$
 
 回归直线的斜率为正, 与散点图从左下到右上的上升趋势一致, 散点大致分布在这条直线附近, 直线与散点图配合较好. $\blacksquare$
@@ -164,10 +164,10 @@ $$
 \sum_{i=1}^{14}e_i\approx 0.
 $$
 
-规律: 由**常用结论 8.2.3** (最小二乘估计公式), $\hat a=\bar y-\hat b\bar x$, 故
+规律: 由**常用结论 8.2.3** (最小二乘估计公式), $\widehat a=\overline y-\widehat b\overline x$, 故
 
 $$
-\sum_{i=1}^{n}\left(y_i-\hat y_i\right)=\sum_{i=1}^{n}\left[y_i-\left(\hat b x_i+\hat a\right)\right]=\sum_{i=1}^{n}y_i-n\hat b\bar x-n\hat a=n\bar y-n\hat b\bar x-n\hat a=0.
+\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)=\sum_{i=1}^{n}\left[y_i-\left(\widehat b x_i+\widehat a\right)\right]=\sum_{i=1}^{n}y_i-n\widehat b\overline x-n\widehat a=n\overline y-n\widehat b\overline x-n\widehat a=0.
 $$
 
 即由最小二乘法得到的经验回归方程, 其所有残差之和恰好为 $0$. $\blacksquare$
@@ -201,7 +201,7 @@ $$
 故参数 $b$ 的最小二乘估计为
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}x_i y_i}{\sum_{i=1}^{n}x_i^2}.
+\widehat b=\frac{\sum_{i=1}^{n}x_i y_i}{\sum_{i=1}^{n}x_i^2}.
 $$
 
 $\blacksquare$
@@ -250,16 +250,16 @@ $\blacksquare$
 
 (1) 以年份为横轴, $\mathrm{GDP}$ 为纵轴作散点图, 散点从左下到右上近似呈一条直线上升.
 
-(2) 由数据计算得年份均值 $\bar x=2007.5$, $\mathrm{GDP}$ 均值 $\bar y=308251.4$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
+(2) 由数据计算得年份均值 $\overline x=2007.5$, $\mathrm{GDP}$ 均值 $\overline y=308251.4$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 45172.8,\quad \hat a\approx -90376168.
+\widehat b\approx 45172.8,\quad \widehat a\approx -90376168.
 $$
 
 故 $\mathrm{GDP}$ 关于年份的经验回归方程为
 
 $$
-\hat y=45172.8x-90376168.
+\widehat y=45172.8x-90376168.
 $$
 
 (3) 回归直线斜率为正, 与散点图的上升趋势一致, 散点大致分布在直线附近, 配合情况较好.
@@ -267,7 +267,7 @@ $$
 (4) 把 $x=2023$ 代入经验回归方程, 得
 
 $$
-\hat y=45172.8\times 2023-90376168\approx 1008430.
+\widehat y=45172.8\times 2023-90376168\approx 1008430.
 $$
 
 即预测 $2023$ 年我国的 $\mathrm{GDP}$ 约为 $1008430$ 亿元.
@@ -310,22 +310,22 @@ $$
 
 (1) 以零件数为横轴, 加工时间为纵轴作散点图, 散点从左下到右上近似呈一条直线. 由数据计算得样本相关系数 $r\approx 0.9998$, 由**常用结论 8.1.6** (样本相关系数的性质), $r$ 非常接近 $1$, 故 $y$ 与 $x$ 具有很强的正线性相关关系.
 
-(2) 由数据计算得 $\bar x=55$, $\bar y=91.7$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
+(2) 由数据计算得 $\overline x=55$, $\overline y=91.7$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 0.668,\quad \hat a\approx 54.93.
+\widehat b\approx 0.668,\quad \widehat a\approx 54.93.
 $$
 
 故由**定义 8.2.4** (经验回归方程), 经验回归方程为
 
 $$
-\hat y=0.668x+54.93.
+\widehat y=0.668x+54.93.
 $$
 
 (3) 把 $x=200$ 代入经验回归方程, 得
 
 $$
-\hat y=0.668\times 200+54.93\approx 188.5.
+\widehat y=0.668\times 200+54.93\approx 188.5.
 $$
 
 故预测加工 $200$ 个零件需要花费约 $188.5\,\min$. $\blacksquare$
@@ -342,22 +342,22 @@ $$
 
 由**常用结论 8.2.3** (最小二乘估计公式) 及**定义 8.2.4** (经验回归方程).
 
-(1) 由例 $2$ 中 $10$ 对数据计算得, 居民年收入均值 $\bar x=38.96$, $A$ 商品销售额均值 $\bar y=39.1$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
+(1) 由例 $2$ 中 $10$ 对数据计算得, 居民年收入均值 $\overline x=38.96$, $A$ 商品销售额均值 $\overline y=39.1$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 1.447,\quad \hat a\approx -15.84.
+\widehat b\approx 1.447,\quad \widehat a\approx -15.84.
 $$
 
 故由**定义 8.2.4** (经验回归方程), $A$ 商品销售额关于居民年收入的经验回归方程为
 
 $$
-\hat y=1.447x-15.84.
+\widehat y=1.447x-15.84.
 $$
 
 (2) 把 $x=40$ 代入经验回归方程, 得
 
 $$
-\hat y=1.447\times 40-15.84\approx 42.04.
+\widehat y=1.447\times 40-15.84\approx 42.04.
 $$
 
 故预测该家庭 $A$ 商品的销售额约为 $42.04$ 万元. $\blacksquare$
@@ -370,7 +370,7 @@ $$
 
 (1) 作人口总数关于年份的散点图;
 
-(2) 建立人口总数 (万人) 关于年份的经验回归方程 $\hat y=\hat b x+\hat a$;
+(2) 建立人口总数 (万人) 关于年份的经验回归方程 $\widehat y=\widehat b x+\widehat a$;
 
 (3) 预测 $2023$ 年我国的人口总数, 并与网上公布的 $2023$ 年我国人口总数相比较.
 
@@ -382,22 +382,22 @@ $$
 
 (1) 以年份为横轴, 人口总数为纵轴作散点图, 散点整体从左下到右上近似呈一条直线.
 
-(2) 由表中数据计算得年份均值 $\bar x\approx 1985.6$, 人口总数均值 $\bar y\approx 103511$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
+(2) 由表中数据计算得年份均值 $\overline x\approx 1985.6$, 人口总数均值 $\overline y\approx 103511$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx 1249.2,\quad \hat a\approx -2375604.
+\widehat b\approx 1249.2,\quad \widehat a\approx -2375604.
 $$
 
 故由**定义 8.2.4** (经验回归方程), 人口总数关于年份的经验回归方程为
 
 $$
-\hat y=1249.2x-2375604.
+\widehat y=1249.2x-2375604.
 $$
 
 (3) 把 $x=2023$ 代入经验回归方程, 得
 
 $$
-\hat y=1249.2\times 2023-2375604\approx 151453.
+\widehat y=1249.2\times 2023-2375604\approx 151453.
 $$
 
 即预测 $2023$ 年我国人口总数约为 $151453$ 万人. 由**常用结论 8.2.7** (回归预测的注意事项), 人口总数受国家生育政策, 人口发展规律等因素影响, 近年来人口增长趋势已发生变化, 由较早年份数据建立的线性回归方程预测较远年份, 预测值会明显大于网上公布的 $2023$ 年我国人口总数. $\blacksquare$
@@ -420,10 +420,10 @@ $$
 
 令 $Y=\lg N$, 则关系式 $\lg N=a+bx$ 即为一元线性回归模型 $Y=bx+a$.
 
-对表中各数据取常用对数, 得 $Y_i=\lg N_i$. 由数据计算得 $\bar x=5.0$, $\bar Y\approx 2.95$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
+对表中各数据取常用对数, 得 $Y_i=\lg N_i$. 由数据计算得 $\overline x=5.0$, $\overline Y\approx 2.95$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\hat b\approx -0.74,\quad \hat a\approx 6.70.
+\widehat b\approx -0.74,\quad \widehat a\approx 6.70.
 $$
 
 故由**定义 8.2.4** (经验回归方程),
@@ -450,7 +450,7 @@ $$
 
 (3) 由**定义 8.1.5** (样本相关系数) 计算样本相关系数 $r$, 判断体重与身高之间是否存在线性相关关系及其强弱;
 
-(4) 由**常用结论 8.2.3** (最小二乘估计公式) 计算 $\hat b$ 和 $\hat a$, 由**定义 8.2.4** (经验回归方程) 写出体重关于身高的经验回归方程 $\hat y=\hat b x+\hat a$;
+(4) 由**常用结论 8.2.3** (最小二乘估计公式) 计算 $\widehat b$ 和 $\widehat a$, 由**定义 8.2.4** (经验回归方程) 写出体重关于身高的经验回归方程 $\widehat y=\widehat b x+\widehat a$;
 
 (5) 画出残差图, 由**定义 8.2.5** (残差) 观察残差点是否均匀地分布在以 $0$ 为中心的水平带状区域内, 分析回归模型的拟合情况. $\blacksquare$
 

@@ -4,7 +4,7 @@
 
 > **定义 10.1.15** (概率的古典定义) <br>一般地, 设试验 $E$ 是古典概型, 样本空间 $\Omega$ 包含 $n$ 个样本点, 事件 $A$ 包含其中的 $k$ 个样本点, 则定义事件 $A$ 的概率 $P\left(A\right)=\frac{k}{n}=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
 
-> **定义 10.1.13** (互为对立) <br>一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\bar A$.
+> **定义 10.1.13** (互为对立) <br>一般地, 如果事件 $A$ 和事件 $B$ 在任何一次试验中有且仅有一个发生, 即 $A\cup B=\Omega$, 且 $A\cap B=\varnothing$, 那么称事件 $A$ 与事件 $B$ 互为对立. 事件 $A$ 的对立事件记为 $\overline A$.
 
 > **性质 10.1.19** (对立事件的概率) <br>如果事件 $A$ 与事件 $B$ 互为对立事件, 那么 $P\left(B\right)=1-P\left(A\right)$, $P\left(A\right)=1-P\left(B\right)$.
 

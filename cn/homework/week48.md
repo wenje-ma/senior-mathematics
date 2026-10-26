@@ -14,7 +14,7 @@
 
 > **定义 10.2.1** (事件的相互独立性) <br>对任意两个事件 $A$ 与 $B$, 如果 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ 成立, 则称事件 $A$ 与事件 $B$ 相互独立, 简称为独立.
 
-> **性质 10.2.2** (对立事件的独立性) <br>由两个事件相互独立的定义, 容易验证必然事件 $\Omega$, 不可能事件 $\varnothing$ 都与任意事件相互独立. 若事件 $A$ 与事件 $B$ 相互独立, 则 $A$ 与 $\bar B$, $\bar A$ 与 $B$, $\bar A$ 与 $\bar B$ 也都相互独立.
+> **性质 10.2.2** (对立事件的独立性) <br>由两个事件相互独立的定义, 容易验证必然事件 $\Omega$, 不可能事件 $\varnothing$ 都与任意事件相互独立. 若事件 $A$ 与事件 $B$ 相互独立, 则 $A$ 与 $\overline B$, $\overline A$ 与 $B$, $\overline A$ 与 $\overline B$ 也都相互独立.
 
 ### 练习一
 
@@ -78,7 +78,7 @@ $\blacksquare$
 
 ### 解答 练习三
 
-设事件 $A=$ "甲地降雨", $B=$ "乙地降雨", 则 $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. 由题意, $A$ 与 $B$ 相互独立. 由**性质 10.2.2** (对立事件的独立性), $\bar A, \bar B$ 也相互独立.
+设事件 $A=$ "甲地降雨", $B=$ "乙地降雨", 则 $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. 由题意, $A$ 与 $B$ 相互独立. 由**性质 10.2.2** (对立事件的独立性), $\overline A, \overline B$ 也相互独立.
 
 (1) 由**定义 10.2.1** (事件的相互独立性), 两地都降雨即 $A\cap B$ 发生, 故
 
@@ -86,16 +86,16 @@ $$
 P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.2\times 0.3=0.06.
 $$
 
-(2) 两地都不降雨即 $\bar A\cap\bar B$ 发生. 由**性质 10.1.19** (对立事件的概率), $P\left(\bar A\right)=1-0.2=0.8$, $P\left(\bar B\right)=1-0.3=0.7$. 再由**定义 10.2.1** (事件的相互独立性),
+(2) 两地都不降雨即 $\overline A\cap\overline B$ 发生. 由**性质 10.1.19** (对立事件的概率), $P\left(\overline A\right)=1-0.2=0.8$, $P\left(\overline B\right)=1-0.3=0.7$. 再由**定义 10.2.1** (事件的相互独立性),
 
 $$
-P\left(\bar A\cap\bar B\right)=P\left(\bar A\right)P\left(\bar B\right)=0.8\times 0.7=0.56.
+P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0.8\times 0.7=0.56.
 $$
 
 (3) "至少一个地方降雨" 是 "两地都不降雨" 的对立事件. 由**性质 10.1.19** (对立事件的概率),
 
 $$
-P\left(\text{至少一个降雨}\right)=1-P\left(\bar A\cap\bar B\right)=1-0.56=0.44.
+P\left(\text{至少一个降雨}\right)=1-P\left(\overline A\cap\overline B\right)=1-0.56=0.44.
 $$
 
 $\blacksquare$
@@ -198,10 +198,10 @@ $$
 P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
 $$
 
-也可由对立事件计算: 由**性质 10.2.2** (对立事件的独立性), $\bar A$ 与 $\bar B$ 独立, $P\left(\bar A\right)=\frac{2}{3}$, $P\left(\bar B\right)=\frac{3}{4}$, 故
+也可由对立事件计算: 由**性质 10.2.2** (对立事件的独立性), $\overline A$ 与 $\overline B$ 独立, $P\left(\overline A\right)=\frac{2}{3}$, $P\left(\overline B\right)=\frac{3}{4}$, 故
 
 $$
-P\left(\text{密码被破译}\right)=1-P\left(\bar A\cap\bar B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
+P\left(\text{密码被破译}\right)=1-P\left(\overline A\cap\overline B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
 $$
 
 $\blacksquare$

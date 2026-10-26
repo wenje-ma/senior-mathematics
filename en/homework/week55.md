@@ -10,7 +10,7 @@
 
 > **Definition 10.1.12** (Mutually Exclusive) <br>In general, if event $A$ and event $B$ cannot occur simultaneously, i.e. $A\cap B$ is an impossible event, namely $A\cap B=\varnothing$, then events $A$ and $B$ are said to be mutually exclusive (or disjoint).
 
-> **Definition 10.1.13** (Complementary Events) <br>In general, if in any trial exactly one of event $A$ and event $B$ occurs, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary. The complementary event of event $A$ is denoted by $\bar A$.
+> **Definition 10.1.13** (Complementary Events) <br>In general, if in any trial exactly one of event $A$ and event $B$ occurs, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary. The complementary event of event $A$ is denoted by $\overline A$.
 
 > **Definition 10.1.14** (Classical Probability Model) <br>We call an experiment having the following two features a classical-probability-model experiment, and its mathematical model is called the classical probability model, abbreviated as the classical probability model: (1) finiteness: there are only finitely many sample points in the sample space; (2) equal likelihood: each sample point occurs with equal probability.
 
@@ -28,7 +28,7 @@
 
 > **Definition 10.2.1** (Mutual Independence of Events) <br>For any two events $A$ and $B$, if $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ holds, then events $A$ and $B$ are said to be mutually independent, abbreviated as independent.
 
-> **Property 10.2.2** (Independence of Complementary Events) <br>From the definition of mutual independence of two events, it is easy to verify that the certain event $\Omega$ and the impossible event $\varnothing$ are both mutually independent of any event. If events $A$ and $B$ are mutually independent, then $A$ and $\bar B$, $\bar A$ and $B$, and $\bar A$ and $\bar B$ are also mutually independent.
+> **Property 10.2.2** (Independence of Complementary Events) <br>From the definition of mutual independence of two events, it is easy to verify that the certain event $\Omega$ and the impossible event $\varnothing$ are both mutually independent of any event. If events $A$ and $B$ are mutually independent, then $A$ and $\overline B$, $\overline A$ and $B$, and $\overline A$ and $\overline B$ are also mutually independent.
 
 > **Definition 10.3.1** (Stability of Frequency) <br>In general, as the number of trials $n$ increases, the extent to which the frequency deviates from the probability becomes smaller; that is, the frequency $f_n\left(A\right)$ of the occurrence of event $A$ gradually stabilizes at the probability $P\left(A\right)$ of the occurrence of event $A$. We call this property of frequency the stability of frequency. Hence we can use the frequency $f_n\left(A\right)$ to estimate the probability $P\left(A\right)$.
 
@@ -70,7 +70,7 @@ $\blacksquare$
 
 (Review Exercises 10, Review and Consolidation, Problem 2) The figure shows the sample space $\Omega$ and the events $A$ and $B$ of a classical probability model, where $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup B\right)=16$. Then
 
-(1) $n\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$, $P\left(\bar A\cap\bar B\right)=\;\_\_\;$.
+(1) $n\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$, $P\left(\overline A\cap\overline B\right)=\;\_\_\;$.
 
 (2) Are events $A$ and $B$ mutually exclusive? Are events $A$ and $B$ mutually independent?
 
@@ -96,10 +96,10 @@ $$
 P\left(A\cup B\right)=\frac{n\left(A\cup B\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
 $$
 
-By **Definition 10.1.13** (Complementary Events), $\bar A\cap\bar B=\overline{A\cup B}$. By **Property 10.1.19** (Probability of Complementary Events),
+By **Definition 10.1.13** (Complementary Events), $\overline A\cap\overline B=\overline{A\cup B}$. By **Property 10.1.19** (Probability of Complementary Events),
 
 $$
-P\left(\bar A\cap\bar B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
+P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
 $$
 
 (2) By **Definition 10.1.12** (Mutually Exclusive), $n\left(A\cap B\right)=4\neq 0$, so $A\cap B\neq\varnothing$, and $A$ and $B$ are not mutually exclusive.

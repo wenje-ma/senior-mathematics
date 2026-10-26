@@ -8,10 +8,10 @@
 
 > **定义 8.1.4** (线性相关与非线性相关) <br>一般地, 如果两个变量的取值呈现正相关或负相关, 而且散点落在一条直线附近, 就称这两个变量线性相关; 一般地, 如果两个变量具有相关性, 但不是线性相关, 那么就称这两个变量非线性相关或曲线相关.
 
-> **定义 8.1.5** (样本相关系数) <br>对于变量 $x$ 和变量 $y$, 设经过随机抽样获得的成对样本数据为 $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, 其均值分别为 $\bar x$ 和 $\bar y$, 则称
+> **定义 8.1.5** (样本相关系数) <br>对于变量 $x$ 和变量 $y$, 设经过随机抽样获得的成对样本数据为 $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$, 其均值分别为 $\overline x$ 和 $\overline y$, 则称
 
 $$
-r=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}}
+r=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}}
 $$
 
 为变量 $x$ 和变量 $y$ 的样本相关系数.
@@ -94,17 +94,17 @@ $$
 由数据得
 
 $$
-\bar x=\frac{2+3+5}{3}=\frac{10}{3},\quad \bar y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
+\overline x=\frac{2+3+5}{3}=\frac{10}{3},\quad \overline y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
 $$
 
 由**定义 8.1.5** (样本相关系数),
 
 $$
-\sum_{i=1}^{3}\left(x_i-\bar x\right)\left(y_i-\bar y\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
+\sum_{i=1}^{3}\left(x_i-\overline x\right)\left(y_i-\overline y\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
 $$
 
 $$
-\sum_{i=1}^{3}\left(x_i-\bar x\right)^2=\frac{14}{3},\quad \sum_{i=1}^{3}\left(y_i-\bar y\right)^2=42.
+\sum_{i=1}^{3}\left(x_i-\overline x\right)^2=\frac{14}{3},\quad \sum_{i=1}^{3}\left(y_i-\overline y\right)^2=42.
 $$
 
 故
@@ -135,7 +135,7 @@ $$
 
 (1) 数据满足 $y=2x+1$, 各点恰好落在一条直线上, 由**定义 8.1.5** (样本相关系数) 计算得 $r=1$.
 
-(2) 由数据计算得 $\bar x=2$, $\bar y=6$, 进而由**定义 8.1.5** (样本相关系数) 得
+(2) 由数据计算得 $\overline x=2$, $\overline y=6$, 进而由**定义 8.1.5** (样本相关系数) 得
 
 $$
 r=\frac{40}{\sqrt{10\times 174}}\approx 0.96.
@@ -151,7 +151,7 @@ $$
 
 散点呈曲线 $y=x^3$ 分布, $r$ 为正且较大.
 
-(4) 由数据计算得 $\sum_{i=1}^{5}x_i\left(y_i-\bar y\right)=0$, 故由**定义 8.1.5** (样本相关系数) 得 $r=0$. 散点呈上半圆分布, 两个变量之间存在明显的曲线相关关系, 但线性相关程度为零.
+(4) 由数据计算得 $\sum_{i=1}^{5}x_i\left(y_i-\overline y\right)=0$, 故由**定义 8.1.5** (样本相关系数) 得 $r=0$. 散点呈上半圆分布, 两个变量之间存在明显的曲线相关关系, 但线性相关程度为零.
 
 由以上四例可见: 样本相关系数 $r$ 只刻画成对样本数据的线性相关程度, 当 $r=0$ 时只表明两个变量之间没有线性相关关系, 并不排除它们之间存在其他 (如曲线) 相关关系; $r$ 的绝对值接近 $1$ 时, 数据也可能呈曲线分布, 故应结合散点图综合判断. $\blacksquare$
 
@@ -172,7 +172,7 @@ $$
 
 以广告支出为横轴, 销售额为纵轴作散点图, 散点大致分布在一条从左下到右上的直线附近.
 
-由数据得 $\bar x=\frac{57}{7}$, $\bar y=42$, 由**定义 8.1.5** (样本相关系数) 计算得
+由数据得 $\overline x=\frac{57}{7}$, $\overline y=42$, 由**定义 8.1.5** (样本相关系数) 计算得
 
 $$
 r\approx 0.83.
@@ -215,7 +215,7 @@ $$
 
 由**定义 8.1.5** (样本相关系数) 及**常用结论 8.1.6** (样本相关系数的性质).
 
-以航班正点率为横轴, 顾客投诉次数为纵轴作散点图. 由数据计算得 $\bar x=75.88$, $\bar y=73.6$, 由**定义 8.1.5** (样本相关系数) 计算得
+以航班正点率为横轴, 顾客投诉次数为纵轴作散点图. 由数据计算得 $\overline x=75.88$, $\overline y=73.6$, 由**定义 8.1.5** (样本相关系数) 计算得
 
 $$
 r\approx -0.87.
@@ -238,7 +238,7 @@ $$
 
 由**定义 8.1.5** (样本相关系数) 及**常用结论 8.1.6** (样本相关系数的性质).
 
-由数据计算得 $\bar x=1.94$, $\bar y=5.985$, 由**定义 8.1.5** (样本相关系数) 计算得
+由数据计算得 $\overline x=1.94$, $\overline y=5.985$, 由**定义 8.1.5** (样本相关系数) 计算得
 
 $$
 r\approx 0.9997.

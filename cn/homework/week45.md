@@ -6,11 +6,11 @@
 
 > **定义 9.2.3** (众数, 中位数与平均数) <br>众数是一组数据中出现次数最多的数据; 中位数是把一组数据按从小到大的顺序排列后, 处于中间位置的那个数据 (或中间两个数据的平均数); 平均数是一组数据的算术平均数. 众数, 中位数, 平均数从不同角度描述了一组数据的集中趋势.
 
-> **定义 9.2.4** (总体方差, 总体标准差, 样本方差与样本标准差) <br>总体中所有数据 $Y_1,\cdots,Y_N$ 与总体平均数 $\bar Y$ 差的平方的平均数 $s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2$ 称为总体方差, 其算术平方根 $s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2}$ 称为总体标准差; 相应地, 样本方差为 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2$, 样本标准差为 $s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}$. 方差 (标准差) 越大, 数据的离散程度越大.
+> **定义 9.2.4** (总体方差, 总体标准差, 样本方差与样本标准差) <br>总体中所有数据 $Y_1,\cdots,Y_N$ 与总体平均数 $\overline Y$ 差的平方的平均数 $s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2$ 称为总体方差, 其算术平方根 $s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2}$ 称为总体标准差; 相应地, 样本方差为 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2$, 样本标准差为 $s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}$. 方差 (标准差) 越大, 数据的离散程度越大.
 
-> **常用结论 9.2.5** (分层随机抽样的总方差) <br>两层的样本量分别为 $n_1,n_2$, 层平均数分别为 $\bar x_1,\bar x_2$, 层方差分别为 $s_1^2,s_2^2$, 总样本平均数为 $\bar w=\frac{n_1\bar x_1+n_2\bar x_2}{n_1+n_2}$, 则合并数据的方差为 $s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}$.
+> **常用结论 9.2.5** (分层随机抽样的总方差) <br>两层的样本量分别为 $n_1,n_2$, 层平均数分别为 $\overline x_1,\overline x_2$, 层方差分别为 $s_1^2,s_2^2$, 总样本平均数为 $\overline w=\frac{n_1\overline x_1+n_2\overline x_2}{n_1+n_2}$, 则合并数据的方差为 $s^2=\frac{n_1\left(s_1^2+\left(\overline x_1-\overline w\right)^2\right)+n_2\left(s_2^2+\left(\overline x_2-\overline w\right)^2\right)}{n_1+n_2}$.
 
-> **常用结论 9.2.6** (数据变换对平均数与方差的影响) <br>若 $y_i=ax_i+b$ ($a,b$ 为常数, $i=1,\cdots,n$), $\bar x,\bar y$ 与 $s_x^2,s_y^2$ 分别为两组数据的平均数与方差, 则 $\bar y=a\bar x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
+> **常用结论 9.2.6** (数据变换对平均数与方差的影响) <br>若 $y_i=ax_i+b$ ($a,b$ 为常数, $i=1,\cdots,n$), $\overline x,\overline y$ 与 $s_x^2,s_y^2$ 分别为两组数据的平均数与方差, 则 $\overline y=a\overline x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
 
 ### 练习一
 
@@ -195,7 +195,7 @@ $87,90,90,102,126,138,158,163,170,172,71,76,88,93,94,104,160,180,200,220,75,80,8
 平均数: 数据之和为 $87+90+\cdots+190=3858$, 故
 
 $$
-\bar x=\frac{3858}{30}=128.6.
+\overline x=\frac{3858}{30}=128.6.
 $$
 
 把 30 个数据从小到大排列, 第 80 百分位数: $i=30\times80\%=24$, 是整数, 故第 80 百分位数为第 24 个数与第 25 个数的平均数, 即
@@ -291,7 +291,7 @@ $$
 甲的平均数为
 
 $$
-\bar x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
+\overline x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
 $$
 
 方差为 $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, 标准差 $s_{\text{甲}}\approx1.28$.
@@ -299,7 +299,7 @@ $$
 乙的平均数为
 
 $$
-\bar x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
+\overline x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
 $$
 
 方差为 $s_{\text{乙}}^2=\frac{7.6}{10}=0.76$, 标准差 $s_{\text{乙}}\approx0.87$.
@@ -340,10 +340,10 @@ $$
 
 由**常用结论 9.2.6** (数据变换对平均数与方差的影响).
 
-因为 $y_i=ax_i+b$, 由**常用结论 9.2.6**, $\bar y=a\bar x+b$, 故 $y_i-\bar y=a\left(x_i-\bar x\right)$. 于是
+因为 $y_i=ax_i+b$, 由**常用结论 9.2.6**, $\overline y=a\overline x+b$, 故 $y_i-\overline y=a\left(x_i-\overline x\right)$. 于是
 
 $$
-s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\bar x\right)^2=a^2s_x^2,
+s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline x\right)^2=a^2s_x^2,
 $$
 
 从而 $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. 原式得证. $\blacksquare$
@@ -356,13 +356,13 @@ $$
 
 由**定义 9.2.4** (总体方差, 总体标准差, 样本方差与样本标准差).
 
-由 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\bar x\right)^2=0$, 得
+由 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0$, 得
 
 $$
-\sum_{i=1}^{n}\left(x_i-\bar x\right)^2=0.
+\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0.
 $$
 
-每一项 $\left(x_i-\bar x\right)^2\ge0$, 它们的和为 0, 故每一项都为 0, 即 $x_i-\bar x=0$, $x_i=\bar x$ 对所有 $i$ 成立. 所以所有的 $x_i$ 都相同. $\blacksquare$
+每一项 $\left(x_i-\overline x\right)^2\ge0$, 它们的和为 0, 故每一项都为 0, 即 $x_i-\overline x=0$, $x_i=\overline x$ 对所有 $i$ 成立. 所以所有的 $x_i$ 都相同. $\blacksquare$
 
 ### 习题六
 
@@ -413,14 +413,14 @@ $0.07,0.24,0.95,0.98,1.02,0.98,1.37,1.40,0.39,1.02,1.44,1.58,0.54,1.08,0.61,0.72
 (2) 样本平均数为
 
 $$
-\bar x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
+\overline x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
 $$
 
 样本方差约为 $0.2043$, 样本标准差 $s\approx0.45$.
 
 (3) 不能认为每批这种鱼的平均汞含量都比 $1.00\times10^{-6}$ 大. 因为样本具有随机性, 不同批次鱼的汞含量可能不同, 本批样本的平均数只是对本批鱼的估计.
 
-(4) 区间 $\left[\bar x-2s,\bar x+2s\right]$ 约为 $\left[0.18,1.98\right]$. 逐一清点, 除 $0.07$ 和 $2.10$ 外, 其余 28 条鱼的汞含量都在该区间内. 故约有 28 条鱼. $\blacksquare$
+(4) 区间 $\left[\overline x-2s,\overline x+2s\right]$ 约为 $\left[0.18,1.98\right]$. 逐一清点, 除 $0.07$ 和 $2.10$ 外, 其余 28 条鱼的汞含量都在该区间内. 故约有 28 条鱼. $\blacksquare$
 
 ### 习题九
 
@@ -467,7 +467,7 @@ $110,120,123,165,432,190,174,235,428,318,249,280,162,146,210,120,123,120,150,140
 (1) 总体平均数为
 
 $$
-\bar x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
+\overline x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
 $$
 
 总体标准差约为 $95.26$.
@@ -480,32 +480,32 @@ $$
 
 ### 习题十一
 
-(习题 9.2 拓广探索第 11 题) 已知总体划分为 3 层, 通过分层随机抽样, 各层抽取的样本量, 样本平均数和样本方差分别为: $l,\bar x,s_1^2$; $m,\bar y,s_2^2$; $n,\bar z,s_3^2$. 记总的样本平均数为 $\bar w$, 样本方差为 $s^2$, 证明:
+(习题 9.2 拓广探索第 11 题) 已知总体划分为 3 层, 通过分层随机抽样, 各层抽取的样本量, 样本平均数和样本方差分别为: $l,\overline x,s_1^2$; $m,\overline y,s_2^2$; $n,\overline z,s_3^2$. 记总的样本平均数为 $\overline w$, 样本方差为 $s^2$, 证明:
 
-(1) $\bar w=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z$;
+(1) $\overline w=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z$;
 
-(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\bar x-\bar w\right)^2\right]+m\left[s_2^2+\left(\bar y-\bar w\right)^2\right]+n\left[s_3^2+\left(\bar z-\bar w\right)^2\right]\right\}$.
+(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}$.
 
 ### 解答 习题十一
 
 由**常用结论 9.2.5** (分层随机抽样的总方差) 与**定义 9.2.4** (总体方差, 总体标准差, 样本方差与样本标准差).
 
-(1) 三层数据之和分别为 $l\bar x,m\bar y,n\bar z$, 总数据个数为 $l+m+n$, 故总样本平均数为
+(1) 三层数据之和分别为 $l\overline x,m\overline y,n\overline z$, 总数据个数为 $l+m+n$, 故总样本平均数为
 
 $$
-\bar w=\frac{l\bar x+m\bar y+n\bar z}{l+m+n}=\frac{l}{l+m+n}\bar x+\frac{m}{l+m+n}\bar y+\frac{n}{l+m+n}\bar z.
+\overline w=\frac{l\overline x+m\overline y+n\overline z}{l+m+n}=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
 $$
 
-(2) 对第 1 层, $\sum_{i=1}^{l}\left(x_i-\bar w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\bar x\right)+\left(\bar x-\bar w\right)\right]^2$. 展开后交叉项 $2\left(\bar x-\bar w\right)\sum_{i=1}^{l}\left(x_i-\bar x\right)=0$, 故
+(2) 对第 1 层, $\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline x\right)+\left(\overline x-\overline w\right)\right]^2$. 展开后交叉项 $2\left(\overline x-\overline w\right)\sum_{i=1}^{l}\left(x_i-\overline x\right)=0$, 故
 
 $$
-\sum_{i=1}^{l}\left(x_i-\bar w\right)^2=\sum_{i=1}^{l}\left(x_i-\bar x\right)^2+l\left(\bar x-\bar w\right)^2=ls_1^2+l\left(\bar x-\bar w\right)^2.
+\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left(x_i-\overline x\right)^2+l\left(\overline x-\overline w\right)^2=ls_1^2+l\left(\overline x-\overline w\right)^2.
 $$
 
 对第 2, 3 层同理. 于是
 
 $$
-s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\bar x-\bar w\right)^2\right]+m\left[s_2^2+\left(\bar y-\bar w\right)^2\right]+n\left[s_3^2+\left(\bar z-\bar w\right)^2\right]\right\}.
+s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}.
 $$
 
 原式得证. $\blacksquare$
@@ -531,7 +531,7 @@ $$
 
 设德军每月生产坦克编号为 $1,2,\cdots,N$, 缴获的坦克编号构成一个简单随机样本. 几种估计 $N$ 的方法:
 
-(1) 用样本编号的平均数估计总体编号的平均数. 总体编号 $1\sim N$ 的平均数为 $\frac{N+1}{2}$, 令样本平均数 $\bar x=\frac{N+1}{2}$, 解得 $N=2\bar x-1$.
+(1) 用样本编号的平均数估计总体编号的平均数. 总体编号 $1\sim N$ 的平均数为 $\frac{N+1}{2}$, 令样本平均数 $\overline x=\frac{N+1}{2}$, 解得 $N=2\overline x-1$.
 
 (2) 用样本最大编号 $m$ 估计. 样本最大编号通常接近 $N$, 可估计 $N\approx m\cdot\frac{n+1}{n}$, 即用样本最大值略加修正.
 

@@ -5,7 +5,7 @@
 > **Definition 8.1.5** (Sample Correlation Coefficient) <br>For the variables $x$ and $y$, the sample correlation coefficient of the paired sample data $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$ is
 
 $$
-r=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}}.
+r=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}}.
 $$
 
 > **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) <br>When $r> 0$ the pairs are positively correlated, and when $r< 0$ the pairs are negatively correlated; $-1\leqslant r\leqslant 1$; the closer $\left|r\right|$ is to $1$, the stronger the linear correlation, and the closer $\left|r\right|$ is to $0$, the weaker the linear correlation.
@@ -19,12 +19,12 @@ $$
 > **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) <br>By the least squares method,
 
 $$
-\hat b=\frac{\sum_{i=1}^{n}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{n}\left(x_i-\bar x\right)^2},\quad \hat a=\bar y-\hat b\bar x.
+\widehat b=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2},\quad \widehat a=\overline y-\widehat b\overline x.
 $$
 
-> **Definition 8.2.4** (Empirical Regression Equation) <br>The equation $\hat y=\hat b x+\hat a$ obtained from the least squares estimates is called the empirical regression equation of $y$ on $x$.
+> **Definition 8.2.4** (Empirical Regression Equation) <br>The equation $\widehat y=\widehat b x+\widehat a$ obtained from the least squares estimates is called the empirical regression equation of $y$ on $x$.
 
-> **Definition 8.2.5** (Residual) <br>The difference $e_i=y_i-\hat y_i$ obtained by subtracting the predicted value $\hat y_i$ from the observed value $y_i$ is called the residual corresponding to the point $\left(x_i,y_i\right)$.
+> **Definition 8.2.5** (Residual) <br>The difference $e_i=y_i-\widehat y_i$ obtained by subtracting the predicted value $\widehat y_i$ from the observed value $y_i$ is called the residual corresponding to the point $\left(x_i,y_i\right)$.
 
 > **Definition 8.3.1** (Categorical Variable) <br>In general, the values of a discrete variable can be used to denote the different categories to which individuals belong; such a variable is called a categorical variable.
 
@@ -72,7 +72,7 @@ $$
 \begin{cases}Y=bx+a+e,\\ E\left(e\right)=0,\ D\left(e\right)=\sigma^2\end{cases}
 $$
 
-gives the empirical regression model $\hat y=\hat b x+\hat a$, with the corresponding residuals shown in the figure. The model error ( ).
+gives the empirical regression model $\widehat y=\widehat b x+\widehat a$, with the corresponding residuals shown in the figure. The model error ( ).
 
 (In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, but the width of the band clearly widens as $x$ increases.)
 
@@ -84,7 +84,7 @@ gives the empirical regression model $\hat y=\hat b x+\hat a$, with the correspo
 
 ($\mathrm D$) satisfies neither the assumption $E\left(e\right)=0$ nor the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
 
-The figure is the residual plot corresponding to the fitted regression model $\hat y=\hat b x+\hat a$: horizontal axis $x$, vertical axis the residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$, but the band widens noticeably as $x$ increases.
+The figure is the residual plot corresponding to the fitted regression model $\widehat y=\widehat b x+\widehat a$: horizontal axis $x$, vertical axis the residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$, but the band widens noticeably as $x$ increases.
 
 ### Solution to Problem 2
 
@@ -153,26 +153,26 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition
 From the height and arm-span data of $25$ female college students in Example $3$, computing gives
 
 $$
-\bar x\approx 174.32,\quad \bar y\approx 170.68.
+\overline x\approx 174.32,\quad \overline y\approx 170.68.
 $$
 
 By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b=\frac{\sum_{i=1}^{25}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{25}\left(x_i-\bar x\right)^2}\approx 0.965,
+\widehat b=\frac{\sum_{i=1}^{25}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{25}\left(x_i-\overline x\right)^2}\approx 0.965,
 $$
 
 $$
-\hat a=\bar y-\hat b\bar x\approx 0.84.
+\widehat a=\overline y-\widehat b\overline x\approx 0.84.
 $$
 
 Hence by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation of arm span on height is
 
 $$
-\hat y=0.965x+0.84.
+\widehat y=0.965x+0.84.
 $$
 
-By **Definition 8.2.5** (Residual), compute the residual $e_i=y_i-\hat y_i$ for each point, and plot the residual plot with height as the horizontal axis and residual as the vertical axis. In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, the width of the band is basically constant, and there is no obvious curved trend.
+By **Definition 8.2.5** (Residual), compute the residual $e_i=y_i-\widehat y_i$ for each point, and plot the residual plot with height as the horizontal axis and residual as the vertical axis. In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, the width of the band is basically constant, and there is no obvious curved trend.
 
 This indicates that the chosen simple linear regression model fits the data well, and the error variance of the model is basically constant. $\blacksquare$
 
@@ -215,23 +215,23 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definit
 
 Plot a scatter plot with mileage as the horizontal axis and groove depth as the vertical axis; the points are distributed roughly along a straight line from the upper left to the lower right.
 
-From the data, $\bar x\approx 2.574$, $\bar y\approx 6.19$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+From the data, $\overline x\approx 2.574$, $\overline y\approx 6.19$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\hat b=\frac{\sum_{i=1}^{9}\left(x_i-\bar x\right)\left(y_i-\bar y\right)}{\sum_{i=1}^{9}\left(x_i-\bar x\right)^2}\approx -1.149,
+\widehat b=\frac{\sum_{i=1}^{9}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{9}\left(x_i-\overline x\right)^2}\approx -1.149,
 $$
 
 $$
-\hat a=\bar y-\hat b\bar x\approx 9.16.
+\widehat a=\overline y-\widehat b\overline x\approx 9.16.
 $$
 
 Hence by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation of tire groove depth on mileage is
 
 $$
-\hat y=-1.149x+9.16.
+\widehat y=-1.149x+9.16.
 $$
 
-Meaning of the model: the slope $\hat b\approx -1.149$ means that for every additional $1$ thousand $\mathrm{km}$ of mileage, the tire groove depth decreases on average by about $1.149\,\mathrm{mm}$; the intercept $\hat a\approx 9.16\,\mathrm{mm}$ is the estimated groove depth of a new tire. This shows that as the mileage increases, the tire groove depth decreases approximately linearly, and the tread wears continuously. $\blacksquare$
+Meaning of the model: the slope $\widehat b\approx -1.149$ means that for every additional $1$ thousand $\mathrm{km}$ of mileage, the tire groove depth decreases on average by about $1.149\,\mathrm{mm}$; the intercept $\widehat a\approx 9.16\,\mathrm{mm}$ is the estimated groove depth of a new tire. This shows that as the mileage increases, the tire groove depth decreases approximately linearly, and the tread wears continuously. $\blacksquare$
 
 ### Problem 8
 

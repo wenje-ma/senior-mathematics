@@ -4,7 +4,7 @@
 
 > **Definition 10.1.15** (Classical Definition of Probability) <br>In general, let experiment $E$ be a classical probability model, the sample space $\Omega$ contain $n$ sample points, and event $A$ contain $k$ of them; then the probability of event $A$ is defined as $P\left(A\right)=\frac{k}{n}=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
 
-> **Definition 10.1.13** (Complementary Events) <br>In general, if events $A$ and $B$ occur with exactly one of them in every trial, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary. The complementary event of $A$ is denoted $\bar A$.
+> **Definition 10.1.13** (Complementary Events) <br>In general, if events $A$ and $B$ occur with exactly one of them in every trial, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary. The complementary event of $A$ is denoted $\overline A$.
 
 > **Property 10.1.19** (Probability of Complementary Events) <br>If events $A$ and $B$ are complementary, then $P\left(B\right)=1-P\left(A\right)$, $P\left(A\right)=1-P\left(B\right)$.
 

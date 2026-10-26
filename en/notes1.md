@@ -1418,16 +1418,16 @@ Let a population contain $N$ ($N$ a positive integer) individuals. Draw $n$ ($1\
 If the population has $N$ individuals with variable values $Y_1,Y_2,\cdots,Y_N$, then
 
 $$
-\bar Y=\frac{1}{N}\sum_{i=1}^{N}Y_i
+\overline Y=\frac{1}{N}\sum_{i=1}^{N}Y_i
 $$
 
 is called the population mean, also known as the population average. If a sample of size $n$ is drawn from the population with variable values $y_1,y_2,\cdots,y_n$, then
 
 $$
-\bar y=\frac{1}{n}\sum_{i=1}^{n}y_i
+\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i
 $$
 
-is called the sample mean, also known as the sample average. In simple random sampling, the sample average $\bar y$ is commonly used to estimate the population average $\bar Y$.
+is called the sample mean, also known as the sample average. In simple random sampling, the sample average $\overline y$ is commonly used to estimate the population average $\overline Y$.
 
 **Definition 9.1.5** (Stratified Random Sampling, Strata, and Proportional Allocation)
 
@@ -1435,26 +1435,26 @@ Dividing the population into several sub-populations by one or more variables, w
 
 **Common Conclusion 9.1.6** (Estimating the Population Mean in Stratified Random Sampling)
 
-In proportional allocation stratified random sampling, if the sizes of the first and second strata are $M,N$, the sample sizes are $m,n$, and the stratum sample averages are $\bar x,\bar y$, then one may directly use the sample average
+In proportional allocation stratified random sampling, if the sizes of the first and second strata are $M,N$, the sample sizes are $m,n$, and the stratum sample averages are $\overline x,\overline y$, then one may directly use the sample average
 
 $$
-\bar w=\frac{m}{m+n}\bar x+\frac{n}{m+n}\bar y
+\overline w=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y
 $$
 
-to estimate the population mean $\bar W$; in non-proportional allocation, one must weight by the population size of each stratum, using
+to estimate the population mean $\overline W$; in non-proportional allocation, one must weight by the population size of each stratum, using
 
 $$
-\frac{M}{M+N}\bar x+\frac{N}{M+N}\bar y
+\frac{M}{M+N}\overline x+\frac{N}{M+N}\overline y
 $$
 
 to estimate the population mean.
 
 **Common Conclusion 9.1.7** (Effect of Data Transformation on the Mean)
 
-If $y_i=ax_i+b$ ($i=1,2,\cdots,n$), and $\bar x,\bar y$ are the means of the two sets of data respectively, then
+If $y_i=ax_i+b$ ($i=1,2,\cdots,n$), and $\overline x,\overline y$ are the means of the two sets of data respectively, then
 
 $$
-\bar y=a\bar x+b.
+\overline y=a\overline x+b.
 $$
 
 #### 9.2 Estimating the Population from a Sample
@@ -1473,52 +1473,52 @@ The mode is the data value that appears most frequently in a set; the median is 
 
 **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance, and Sample Standard Deviation)
 
-The mean of the squared deviations of all data $Y_1,\cdots,Y_N$ in the population from the population mean $\bar Y$
+The mean of the squared deviations of all data $Y_1,\cdots,Y_N$ in the population from the population mean $\overline Y$
 
 $$
-s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2
+s^2=\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2
 $$
 
 is called the population variance, and its arithmetic square root
 
 $$
-s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\bar Y\right)^2}
+s=\sqrt{\frac{1}{N}\sum_{i=1}^{N}\left(Y_i-\overline Y\right)^2}
 $$
 
 is called the population standard deviation; correspondingly, the sample variance is
 
 $$
-s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2,
+s^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2,
 $$
 
 and the sample standard deviation is
 
 $$
-s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\bar y\right)^2}.
+s=\sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}.
 $$
 
 The larger the variance (standard deviation), the greater the dispersion of the data.
 
 **Common Conclusion 9.2.5** (Total Variance in Stratified Random Sampling)
 
-If the sample sizes of the two strata are $n_1,n_2$, the stratum means are $\bar x_1,\bar x_2$, the stratum variances are $s_1^2,s_2^2$, and the total sample mean is
+If the sample sizes of the two strata are $n_1,n_2$, the stratum means are $\overline x_1,\overline x_2$, the stratum variances are $s_1^2,s_2^2$, and the total sample mean is
 
 $$
-\bar w=\frac{n_1\bar x_1+n_2\bar x_2}{n_1+n_2},
+\overline w=\frac{n_1\overline x_1+n_2\overline x_2}{n_1+n_2},
 $$
 
 then the variance of the combined data is
 
 $$
-s^2=\frac{n_1\left(s_1^2+\left(\bar x_1-\bar w\right)^2\right)+n_2\left(s_2^2+\left(\bar x_2-\bar w\right)^2\right)}{n_1+n_2}.
+s^2=\frac{n_1\left(s_1^2+\left(\overline x_1-\overline w\right)^2\right)+n_2\left(s_2^2+\left(\overline x_2-\overline w\right)^2\right)}{n_1+n_2}.
 $$
 
 **Common Conclusion 9.2.6** (Effect of Data Transformation on the Mean and Variance)
 
-If $y_i=ax_i+b$ ($a,b$ constants, $i=1,\cdots,n$), and $\bar x,\bar y$ and $s_x^2,s_y^2$ are the means and variances of the two sets of data respectively, then
+If $y_i=ax_i+b$ ($a,b$ constants, $i=1,\cdots,n$), and $\overline x,\overline y$ and $s_x^2,s_y^2$ are the means and variances of the two sets of data respectively, then
 
 $$
-\bar y=a\bar x+b,\quad s_y^2=a^2s_x^2,\quad s_y=\lvert a\rvert\, s_x.
+\overline y=a\overline x+b,\quad s_y^2=a^2s_x^2,\quad s_y=\lvert a\rvert\, s_x.
 $$
 
 ### Chapter 10 Probability
@@ -1575,7 +1575,7 @@ Generally, if events $A$ and $B$ cannot occur simultaneously, i.e. $A\cap B$ is 
 
 **Definition 10.1.13** (Complementary Events)
 
-Generally, if exactly one of events $A$ and $B$ occurs in any trial, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are called complementary to each other. The complementary event of $A$ is denoted $\bar A$.
+Generally, if exactly one of events $A$ and $B$ occurs in any trial, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are called complementary to each other. The complementary event of $A$ is denoted $\overline A$.
 
 **Definition 10.1.14** (Classical Probability Model)
 
@@ -1643,7 +1643,7 @@ holds, then events $A$ and $B$ are called mutually independent, or independent f
 
 **Property 10.2.2** (Independence of Complementary Events)
 
-From the definition of mutual independence, it is easy to verify that the certain event $\Omega$ and the impossible event $\varnothing$ are both independent of any event. If events $A$ and $B$ are independent, then $A$ and $\bar B$, $\bar A$ and $B$, and $\bar A$ and $\bar B$ are also all independent.
+From the definition of mutual independence, it is easy to verify that the certain event $\Omega$ and the impossible event $\varnothing$ are both independent of any event. If events $A$ and $B$ are independent, then $A$ and $\overline B$, $\overline A$ and $B$, and $\overline A$ and $\overline B$ are also all independent.
 
 #### 10.3 Frequency and Probability
 
