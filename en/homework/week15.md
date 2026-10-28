@@ -1,16 +1,9 @@
-# Assignment 15
+# week15
+> **Definition 4.3.1 (对数)**<br>一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
 
-> **Definition 4.3.1** (Logarithm) <br>In general, if $a^x=N$ ($a> 0$, and $a\neq 1$), then the number $x$ is called the logarithm of $N$ with base $a$, denoted by $x=\log_a N$, where $a$ is called the base of the logarithm and $N$ is called the antilogarithm.
+---
 
-> **Definition 4.3.2** (Common Logarithm and Natural Logarithm) <br>The logarithm with base $10$ is called the common logarithm, and $\log_{10} N$ is denoted by $\lg N$; the logarithm with base $\mathrm e$ is called the natural logarithm, and $\log_{\mathrm e} N$ is denoted by $\ln N$.
-
-> **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) <br>When $a> 0$, $a\neq 1$, $a^x=N\Leftrightarrow x=\log_a N$. Negative numbers and $0$ have no logarithms; $\log_a 1=0$, $\log_a a=1$.
-
-> **Standard Conclusion 4.3.4** (Logarithm Operation Properties) <br>If $a> 0$, and $a\neq 1$, $M> 0$, $N> 0$, then (1) $\log_a\left(MN\right)=\log_a M+\log_a N$; (2) $\log_a\frac{M}{N}=\log_a M-\log_a N$; (3) $\log_a M^n=n\log_a M$ ($n\in\mathbb R$).
-
-> **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula) <br>$\log_a b=\frac{\log_c b}{\log_c a}$ ($a> 0$, and $a\neq 1$; $b> 0$; $c> 0$, and $c\neq 1$).
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 4.3, Problem 1) Write the following exponential expressions as logarithmic expressions, and the logarithmic expressions as exponential expressions.
 
@@ -28,7 +21,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), $a^x=N\Leftrightarrow x=\log_a N$.
+By **Definition 4.3.1 (Logarithm)** and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), $a^x=N\Leftrightarrow x=\log_a N$.
 
 (1) $2^3=8$ becomes the logarithmic expression: $\log_2 8=3$.
 
@@ -42,7 +35,7 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relations
 
 (6) $\log_3\frac{1}{81}=-4$ becomes the exponential expression: $3^{-4}=\frac{1}{81}$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 4.3, Problem 2) Find the values of the following.
 
@@ -66,7 +59,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (4) $\lg 0.001=\lg 10^{-3}=-3$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 4.3, Problem 3) Find the value of $x$ in each of the following.
 
@@ -90,7 +83,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (4) $\ln\sqrt{\mathrm e}=-x$ becomes $\mathrm e^{-x}=\sqrt{\mathrm e}=\mathrm e^{\frac{1}{2}}$, so $-x=\frac{1}{2}$, i.e. $x=-\frac{1}{2}$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 4.3, Problem 4) Find the values of the following.
 
@@ -114,7 +107,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
 (4) By (2), $\log_3 5-\log_3 15=\log_3\frac{5}{15}=\log_3\frac{1}{3}=-1$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 4.3, Problem 5) Express the following in terms of $\lg x$, $\lg y$, $\lg z$.
 
@@ -138,7 +131,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
 (4) By (1) (2) (3), $\lg\frac{\sqrt{x}}{y^2 z}=\frac{1}{2}\lg x-2\lg y-\lg z$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 4.3, Problem 6) Simplify the following.
 
@@ -160,7 +153,7 @@ $$
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 4.3, Review and Consolidation, Problem 1) Write the following exponential expressions as logarithmic expressions, and the logarithmic expressions as exponential expressions.
 
@@ -182,7 +175,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Definition 4.3.1 (Logarithm)** and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
 (1) $3^x=1$ becomes $\log_3 1=x$.
 
@@ -200,7 +193,7 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relations
 
 (8) $x=\ln\sqrt{3}$ becomes $\mathrm e^x=\sqrt{3}$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 4.3, Review and Consolidation, Problem 2) Multiple choice.
 
@@ -214,13 +207,13 @@ By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.3** (Relations
 
 ### Solution to Problem 2
 
-By **Definition 4.3.1** (Logarithm) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
+By **Definition 4.3.1 (Logarithm)** and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
 (1) For the logarithm $\log_{\left(2x-1\right)}\left(2-x\right)$ to be meaningful, the base $2x-1> 0$ and $2x-1\neq 1$, and the antilogarithm $2-x> 0$. That is, $x> \frac{1}{2}$, $x\neq 1$, $x< 2$. Combining gives $\frac{1}{2}< x< 2$ and $x\neq 1$, so choose (D).
 
 (2) $\lg a$ and $\lg b$ are opposites of each other, i.e. $\lg a+\lg b=0$. By **Standard Conclusion 4.3.4** (1), $\lg\left(ab\right)=0$, so $ab=1$; choose (C). $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 4.3, Review and Consolidation, Problem 3) Find the values of the following.
 
@@ -252,7 +245,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard
 
 (6) By the change-of-base formula, the original expression $=\frac{\ln 25}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 9}{\ln 5}=\frac{2\ln 5}{\ln 2}\cdot\frac{2\ln 2}{\ln 3}\cdot\frac{2\ln 3}{\ln 5}=8$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 4.3, Review and Consolidation, Problem 4) Find the value of $x$ satisfying the following conditions.
 
@@ -276,7 +269,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard
 
 (4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$; from $\log_a 1=0$, we get $\log_3\left(\log_4 x\right)=1$; from $a^1=a$, we get $\log_4 x=3$; so $x=4^3=64$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 4.3, Comprehensive Application, Problem 5) Given $\lg 2=a$, $\lg 3=b$, find the values of the following.
 
@@ -300,7 +293,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard
 
 (4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 4.3, Comprehensive Application, Problem 6) Find the values under the following conditions.
 
@@ -316,7 +309,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (2) $f\left(\log_3 2\right)=3^{\log_3 2}=2$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 4.3, Comprehensive Application, Problem 7) Prove.
 
@@ -332,7 +325,7 @@ By **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
 (2) By the change-of-base formula, $\log_{a^m} b^n=\frac{\ln b^n}{\ln a^m}=\frac{n\ln b}{m\ln a}=\frac{n}{m}\log_a b$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 4.3, Comprehensive Application, Problem 8) The average annual growth rate of the gross domestic product of a certain place is $6.5\%$. At this growth rate, after how many years will the gross domestic product of this place quadruple?
 
@@ -342,7 +335,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 Let $x$ years be needed for the gross domestic product to quadruple, then $1.065^x=4$. By the definition of logarithms, $x=\log_{1.065} 4$. By the change-of-base formula, $x=\frac{\lg 4}{\lg 1.065}\approx\frac{0.602}{0.0273}\approx 22$. Therefore after about $22$ years the gross domestic product of this place will quadruple. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 4.3, Extension and Exploration, Problem 9) We can regard $\left(1+1\%\right)^{365}$ as the daily "progress" rate being $1\%$, and after one year it is $1.01^{365}$; while regarding $\left(1-1\%\right)^{365}$ as the daily "falling behind" rate being $1\%$, and after one year it is $0.99^{365}$. Use a calculating tool to compute and answer the following questions.
 
@@ -358,7 +351,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (2) Let $x$ days be needed for progress to be $k$ times falling behind, then $\left(\frac{1.01}{0.99}\right)^x=k$, so $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg\left(1.01/0.99\right)}$. When $k=10$, $x\approx\frac{1}{0.0087}\approx 115$ days; when $k=100$, $x\approx 230$ days; when $k=1000$, $x\approx 345$ days. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 4.3, Extension and Exploration, Problem 10) Drunk driving is an illegal act that seriously endangers traffic safety. To ensure traffic safety, according to relevant national regulations: a driver whose alcohol content in $100\;\mathrm{mL}$ of blood reaches $20\sim 79\;\mathrm{mg}$ is considered to be driving after drinking, and $80\;\mathrm{mg}$ or above is determined to be drunk driving. Suppose a driver has drunk a certain amount of alcohol, and the alcohol content in his blood has risen to $1\;\mathrm{mg/mL}$. If after he stops drinking, the alcohol content in his blood decreases at a rate of $30\%$ per hour, then at least how many hours must pass before he can drive?
 

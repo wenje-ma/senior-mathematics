@@ -1,28 +1,16 @@
-# 作业 79
+# week79
+> **定义 5.1.1 (平均变化率)**<br>$\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **定义 5.1.2 (导数)**<br>函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **定义 5.1.3 (1 弧度的角)**<br>长度等于半径长的圆弧所对的圆心角叫做 1 弧度的角.
+> **定义 5.2.1 (基本初等函数的导数公式)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.2.2 (导数的四则运算法则)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.2.3 (复合函数的求导法则)**<br>复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
+> **定义 5.3.1 (函数的单调性与导数的正负)**<br>在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+> **定义 5.3.2 (函数的极值)**<br>如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
 
-> **定义 5.1.1** (平均变化率) <br>$\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+---
 
-> **定义 5.1.2** (导数) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
-
-> **定义 5.1.3** (导数的几何意义) <br>$f'\left(x_{0}\right)$ 是曲线 $y=f\left(x\right)$ 在点 $\left(x_{0},f\left(x_{0}\right)\right)$ 处切线的斜率.
-
-> **定义 5.1.4** (导函数) <br>$f'\left(x\right)=y'=\lim_{\Delta x\to0}\frac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}$.
-
-> **定义 5.2.1** (基本初等函数的导数公式) <br>$\left(c\right)'=0$; $\left(x^{\alpha}\right)'=\alpha x^{\alpha-1}$; $\left(\sin x\right)'=\cos x$; $\left(\cos x\right)'=-\sin x$; $\left(a^{x}\right)'=a^{x}\ln a$; $\left(\mathrm e^{x}\right)'=\mathrm e^{x}$; $\left(\log_{a}x\right)'=\frac{1}{x\ln a}$; $\left(\ln x\right)'=\frac{1}{x}$.
-
-> **定义 5.2.2** (导数的四则运算法则) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$.
-
-> **定义 5.2.3** (复合函数的求导法则) <br>$y'_{x}=y'_{u}\cdot u'_{x}$.
-
-> **定义 5.3.1** (函数的单调性与导数的正负) <br>在某个区间 $\left(a,b\right)$ 内, $f'\left(x\right)> 0$ 则 $f\left(x\right)$ 单调递增; $f'\left(x\right)< 0$ 则 $f\left(x\right)$ 单调递减.
-
-> **定义 5.3.2** (函数的极值) <br>在 $x_{0}$ 附近左侧 $f'\left(x\right)> 0$, 右侧 $f'\left(x\right)< 0$ 时 $f\left(x_{0}\right)$ 为极大值; 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$ 时 $f\left(x_{0}\right)$ 为极小值.
-
-> **定义 5.3.3** (求函数极值的方法) <br>解方程 $f'\left(x\right)=0$, 按两侧导数正负判断极大或极小.
-
-> **定义 5.3.4** (闭区间上的最大 (小) 值) <br>闭区间上连续函数必有最大值和最小值, 比较各极值与端点函数值即得.
-
-### 习题一
+## 习题一
 
 (复习参考题 5 复习巩固第 1 题) 已知点 $P$ 和点 $Q$ 是曲线 $y=x^{2}-2x-3$ 上的两点, 且点 $P$ 的横坐标是 $1$, 点 $Q$ 的横坐标是 $4$. 求: 
 
@@ -32,7 +20,7 @@
 
 ### 解答 习题一
 
-由**定义 5.1.1** 与**定义 5.1.3**.
+由**定义 5.1.1 (平均变化率)** 与**定义 5.1.3 (1 弧度的角)**.
 
 (1) $P\left(1,f\left(1\right)\right)=\left(1,-4\right)$, $Q\left(4,f\left(4\right)\right)=\left(4,5\right)$. 割线 $PQ$ 的斜率为
 
@@ -42,7 +30,7 @@ $$
 
 (2) $y'=2x-2$, 故点 $P$ 处切线斜率为 $y'\big|_{x=1}=0$. 切线过 $\left(1,-4\right)$, 切线方程为 $y=-4$. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (复习参考题 5 复习巩固第 2 题) 求下列函数的导数: 
 
@@ -60,7 +48,7 @@ $$
 
 ### 解答 习题二
 
-由**定义 5.2.1**, **定义 5.2.2** 与**定义 5.2.3**.
+由**定义 5.2.1 (基本初等函数的导数公式)**, **定义 5.2.2 (导数的四则运算法则)** 与**定义 5.2.3 (复合函数的求导法则)**.
 
 (1) $y'=2^{x}\ln2\cdot\tan x+2^{x}\cdot\frac{1}{\cos^{2}x}$.
 
@@ -90,24 +78,23 @@ $$
 y'=\frac{2\cos2x\cdot\sqrt{x}-\sin2x\cdot\frac{1}{2\sqrt{x}}}{x}=\frac{4x\cos2x-\sin2x}{2x\sqrt{x}}.
 $$
 
-
 $\blacksquare$
 
-### 习题三
+## 习题三
 
 (复习参考题 5 复习巩固第 3 题) 已知函数 $y=f\left(x\right)$ 的图象是下列四个图象之一, 且其导函数 $y=f'\left(x\right)$ 的图象如图所示, 则该函数的图象是 ( ).
 
-该图上方是导函数 $y=f'\left(x\right)$ 在区间 $\left(-1,1\right)$ 内的图象：在 $\left(-1,0\right)$ 内位于 $x$ 轴上方且逐渐上升，在 $\left(0,1\right)$ 内位于 $x$ 轴上方但逐渐下降（在 $x=0$ 处最高）；下方是四个候选的 $y=f\left(x\right)$ 图象（A、B、C、D），需选出与该导函数对应的原函数。
+该图上方是导函数 $y=f'\left(x\right)$ 在区间 $\left(-1,1\right)$ 内的图象:在 $\left(-1,0\right)$ 内位于 $x$ 轴上方且逐渐上升,在 $\left(0,1\right)$ 内位于 $x$ 轴上方但逐渐下降(在 $x=0$ 处最高);下方是四个候选的 $y=f\left(x\right)$ 图象(A,B,C,D),需选出与该导函数对应的原函数.
 
 ### 解答 习题三
 
-由**定义 5.3.1**, 由导函数 $f'\left(x\right)$ 的正负判断 $f\left(x\right)$ 的增减.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, 由导函数 $f'\left(x\right)$ 的正负判断 $f\left(x\right)$ 的增减.
 
 由导函数图象, 在 $\left(-1,0\right)$ 内 $f'\left(x\right)> 0$ 且逐渐增大, 故 $f\left(x\right)$ 递增且越来越陡; 在 $\left(0,1\right)$ 内 $f'\left(x\right)> 0$ 但逐渐减小, 故 $f\left(x\right)$ 递增但越来越平缓.
 
 故 $f\left(x\right)$ 在 $\left(-1,1\right)$ 内始终递增, 斜率先增后减. 符合这一特征的是选项 (B). $\blacksquare$
 
-### 习题四
+## 习题四
 
 (复习参考题 5 复习巩固第 4 题) 求下列曲线在给定点处的切线方程: 
 
@@ -117,7 +104,7 @@ $\blacksquare$
 
 ### 解答 习题四
 
-由**定义 5.1.3** 与**定义 5.2.2**.
+由**定义 5.1.3 (1 弧度的角)** 与**定义 5.2.2 (导数的四则运算法则)**.
 
 (1) $y'=1+\frac{1}{x^{2}}$, 切线斜率 $k=y'\big|_{x=1}=2$. 切线过 $\left(1,0\right)$, 方程为 $y=2\left(x-1\right)$, 即 $y=2x-2$.
 
@@ -129,13 +116,13 @@ $$
 
 切线过 $\left(\frac{1}{2},4\right)$, 方程为 $y-4=-8\left(x-\frac{1}{2}\right)$, 即 $y=-8x+8$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (复习参考题 5 复习巩固第 5 题) 一个距地心距离为 $r$, 质量为 $m$ 的人造卫星, 与地球之间的万有引力 $F$ 由公式 $F=\frac{GMm}{r^{2}}$ 给出, 其中 $M$ 为地球质量, $G$ 为引力常量. 求 $F$ 对于 $r$ 的瞬时变化率.
 
 ### 解答 习题五
 
-由**定义 5.2.1**, $F=GMm\cdot r^{-2}$, 故
+由**定义 5.2.1 (基本初等函数的导数公式)**, $F=GMm\cdot r^{-2}$, 故
 
 $$
 F'\left(r\right)=GMm\cdot\left(-2\right)r^{-3}=-\frac{2GMm}{r^{3}}.
@@ -143,7 +130,7 @@ $$
 
 故 $F$ 对于 $r$ 的瞬时变化率为 $-\frac{2GMm}{r^{3}}$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (复习参考题 5 复习巩固第 6 题) 一杯 $80\ {^\circ}\mathrm C$ 的热红茶置于 $20\ {^\circ}\mathrm C$ 的房间里, 它的温度会逐渐下降, 温度 $T$ (单位: ${^\circ}\mathrm C$) 与时间 $t$ (单位: $\mathrm{min}$) 之间的关系由函数 $T=f\left(t\right)$ 给出.
 
@@ -151,35 +138,35 @@ $$
 
 (2) $f'\left(3\right)=-4$ 的实际意义是什么? 如果 $f\left(3\right)=65\ {^\circ}\mathrm C$, 你能画出函数 $T=f\left(t\right)$ 在 $t=3$ 时图象的大致形状吗? 
 
-该图为函数 $T=f\left(t\right)$ 的冷却曲线（横轴时间 $t$ 单位 $\mathrm{min}$，纵轴温度 $T$ 单位 ${^\circ}\mathrm C$）：从高温逐渐下降、越来越平缓地趋近室温，图中标出点 $\left(3,65\right)$ 并画出该点处斜率为 $-4$ 的切线。
+该图为函数 $T=f\left(t\right)$ 的冷却曲线(横轴时间 $t$ 单位 $\mathrm{min}$,纵轴温度 $T$ 单位 ${^\circ}\mathrm C$):从高温逐渐下降,越来越平缓地趋近室温,图中标出点 $\left(3,65\right)$ 并画出该点处斜率为 $-4$ 的切线.
 
 ### 解答 习题六
 
-(1) 由**定义 5.1.2** (导数), $f'\left(t\right)$ 是温度关于时间的瞬时变化率. 热红茶温度逐渐下降, 故温度随时间增加而减小, $f'\left(t\right)< 0$.
+(1) 由**定义 5.1.2 (导数)**, $f'\left(t\right)$ 是温度关于时间的瞬时变化率. 热红茶温度逐渐下降, 故温度随时间增加而减小, $f'\left(t\right)< 0$.
 
 (2) $f'\left(3\right)=-4$ 表示在第 $3\ \mathrm{min}$ 附近, 红茶温度大约以每分钟 $4\ {^\circ}\mathrm C$ 的速率下降.
 
 由 $f\left(3\right)=65$ 且 $f'\left(3\right)=-4< 0$, 图象在点 $\left(3,65\right)$ 处下降, 切线斜率为 $-4$. 又冷却速度随温差减小而变慢, 故图象下降且越来越平缓. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (复习参考题 5 复习巩固第 7 题) 求函数 $f\left(x\right)=\sqrt\left[3\right]{x^{2}}$ 的单调区间.
 
 ### 解答 习题七
 
-由**定义 5.2.1**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
+由**定义 5.2.1 (基本初等函数的导数公式)**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
 当 $x> 0$ 时 $f'\left(x\right)> 0$; 当 $x< 0$ 时 $f'\left(x\right)< 0$.
 
-由**定义 5.3.1**, $f\left(x\right)$ 在 $\left(-\infty,0\right)$ 内单调递减, 在 $\left(0,+\infty\right)$ 内单调递增. $\blacksquare$
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f\left(x\right)$ 在 $\left(-\infty,0\right)$ 内单调递减, 在 $\left(0,+\infty\right)$ 内单调递增. $\blacksquare$
 
-### 习题八
+## 习题八
 
 (复习参考题 5 综合运用第 8 题) 已知函数 $f\left(x\right)=x^{2}+px+q$, 试确定 $p,q$ 的值, 使得当 $x=1$ 时, $f\left(x\right)$ 有最小值 $4$.
 
 ### 解答 习题八
 
-由**定义 5.3.2**, $f'\left(x\right)=2x+p$. 在 $x=1$ 处取极值, 须 $f'\left(1\right)=0$, 即 $2+p=0$, 故 $p=-2$.
+由**定义 5.3.2 (函数的极值)**, $f'\left(x\right)=2x+p$. 在 $x=1$ 处取极值, 须 $f'\left(1\right)=0$, 即 $2+p=0$, 故 $p=-2$.
 
 又 $f\left(1\right)=4$, 即 $1+p+q=4$, 代入 $p=-2$, 得 $1-2+q=4$, 故 $q=5$.
 
@@ -187,13 +174,13 @@ $$
 
 故 $p=-2$, $q=5$. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (复习参考题 5 综合运用第 9 题) 已知函数 $f\left(x\right)=x\left(x-c\right)^{2}$ 在 $x=2$ 处有极大值, 求 $c$ 的值.
 
 ### 解答 习题九
 
-由**定义 5.2.2**, $f'\left(x\right)=\left(x-c\right)^{2}+x\cdot2\left(x-c\right)=\left(x-c\right)\left(3x-c\right)$.
+由**定义 5.2.2 (导数的四则运算法则)**, $f'\left(x\right)=\left(x-c\right)^{2}+x\cdot2\left(x-c\right)=\left(x-c\right)\left(3x-c\right)$.
 
 在 $x=2$ 处取极值, 须 $f'\left(2\right)=0$, 即 $\left(2-c\right)\left(6-c\right)=0$, 故 $c=2$ 或 $c=6$.
 
@@ -203,11 +190,11 @@ $$
 
 故 $c=6$. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (复习参考题 5 综合运用第 10 题) 如图, 过点 $P\left(1,1\right)$ 作直线 $AB$, 分别与 $x$ 轴的正半轴, $y$ 轴的正半轴交于点 $A,B$. 当直线 $AB$ 在什么位置时, $\triangle AOB$ 的面积最小? 最小面积是多少? 
 
-该图为直角坐标系中的示意图：点 $P\left(1,1\right)$ 在第一象限，过 $P$ 的一条直线 $AB$ 分别与 $x$ 轴正半轴交于 $A$、与 $y$ 轴正半轴交于 $B$，$O$ 为原点，$\triangle AOB$ 为阴影三角形。
+该图为直角坐标系中的示意图:点 $P\left(1,1\right)$ 在第一象限,过 $P$ 的一条直线 $AB$ 分别与 $x$ 轴正半轴交于 $A$,与 $y$ 轴正半轴交于 $B$,$O$ 为原点,$\triangle AOB$ 为阴影三角形.
 
 ### 解答 习题十
 
@@ -227,21 +214,21 @@ $$
 
 故当直线 $AB$ 为 $x+y=2$ 时, $\triangle AOB$ 面积最小, 最小面积为 $2$. $\blacksquare$
 
-### 习题十一
+## 习题十一
 
 (复习参考题 5 综合运用第 11 题) 如图, 直线 $l$ 和圆 $P$, 当 $l$ 从 $l_{0}$ 开始在平面上按逆时针方向绕点 $O$ 匀速转动 (转动角度不超过 $90^\circ$) 时, 它扫过的圆内阴影部分的面积 $S$ 是时间 $t$ 的函数. 这个函数的图象大致是 ( ).
 
-该图上方为几何示意图：点 $O$ 处一条初始位置为 $l_{0}$ 的直线 $l$ 绕 $O$ 逆时针匀速转动（转角不超过 $90^\circ$），圆 $P$ 内被扫过的部分为阴影；下方是四个候选的阴影面积 $S$ 关于时间 $t$ 的图象（A、B、C、D），需选出符合“开始增长慢、中间快、最后又变慢”的一条。
+该图上方为几何示意图:点 $O$ 处一条初始位置为 $l_{0}$ 的直线 $l$ 绕 $O$ 逆时针匀速转动(转角不超过 $90^\circ$),圆 $P$ 内被扫过的部分为阴影;下方是四个候选的阴影面积 $S$ 关于时间 $t$ 的图象(A,B,C,D),需选出符合开始增长慢,中间快,最后又变慢的一条.
 
 ### 解答 习题十一
 
-由**定义 5.1.3**, $S'\left(t\right)$ 表示面积的变化快慢.
+由**定义 5.1.3 (1 弧度的角)**, $S'\left(t\right)$ 表示面积的变化快慢.
 
 直线匀速转动时, 扫过的阴影面积开始时增长较慢, 中间较快, 最后又变慢. 故 $S'\left(t\right)$ 先增后减, $S\left(t\right)$ 的图象先下凸 (越来越陡), 后上凸 (越来越平缓).
 
 符合这一特征的是选项 (C). $\blacksquare$
 
-### 习题十二
+## 习题十二
 
 (复习参考题 5 综合运用第 12 题) 当室内的有毒细菌开始增加时, 就要使用杀菌剂. 刚开始使用的时候, 细菌数量还会继续增加, 随着时间的增加, 它增加的幅度逐渐变小, 到一定时间, 细菌数量开始减少. 已知使用杀菌剂 $t\ \mathrm{h}$ 后的细菌数量为 $b\left(t\right)=10^{5}+10^{4}t-10^{3}t^{2}$.
 
@@ -251,7 +238,7 @@ $$
 
 ### 解答 习题十二
 
-由**定义 5.3.1**.
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
 (1) $b'\left(t\right)=10^{4}-2\times10^{3}t=10^{4}-2000t$.
 
@@ -261,7 +248,7 @@ $b'\left(10\right)=10000-20000=-10000$.
 
 (2) 令 $b'\left(t\right)=0$, 得 $t=5$. 当 $0< t< 5$ 时 $b'\left(t\right)> 0$, 细菌数量增加; 当 $t> 5$ 时 $b'\left(t\right)< 0$, 细菌数量减少. $\blacksquare$
 
-### 习题十三
+## 习题十三
 
 (复习参考题 5 综合运用第 13 题) 已知曲线 $y=x+\ln x$ 在点 $\left(1,1\right)$ 处的切线与曲线 $y=ax^{2}+\left(2a+3\right)x+1$ 只有一个公共点, 求 $a$ 的值.
 
@@ -281,7 +268,7 @@ $$
 
 故 $a=0$ 或 $a=\frac{1}{2}$. $\blacksquare$
 
-### 习题十四
+## 习题十四
 
 (复习参考题 5 综合运用第 14 题) 用总长 $14.8\ \mathrm{m}$ 的钢条制作一个长方体容器的框架, 如果所制容器底面一边的长比另一边的长多 $0.5\ \mathrm{m}$, 那么高为多少时容器的容积最大? 最大容积是多少? 
 
@@ -309,7 +296,7 @@ $$
 
 故高为 $1.2\ \mathrm{m}$ 时容积最大, 最大容积为 $1.8\ \mathrm{m^{3}}$. $\blacksquare$
 
-### 习题十五
+## 习题十五
 
 (复习参考题 5 综合运用第 15 题) 用半径为 $R$ 的圆形铁皮剪出一个圆心角为 $\alpha$ 的扇形, 制成一个圆锥形容器. 扇形的圆心角 $\alpha$ 为多大时, 容器的容积最大? 
 
@@ -333,7 +320,7 @@ $$
 
 当圆心角 $\alpha=\frac{2\sqrt{6}\pi}{3}$ 时, 圆锥形容器容积最大. $\blacksquare$
 
-### 习题十六
+## 习题十六
 
 (复习参考题 5 拓广探索第 16 题) 已知 $A,B$ 两地的距离是 $130\ \mathrm{km}$. 根据交通法规, 两地之间的公路车速应限制在 $50\sim100\ \mathrm{km/h}$. 假设油价是 $7$ 元/$\mathrm L$, 以 $x\ \mathrm{km/h}$ 的速度行驶时, 汽车的耗油率为 $\left(3+\frac{x^{2}}{360}\right)\ \mathrm{L/h}$, 司机每小时的工资是 $35$ 元. 那么最经济的车速是多少 (精确到 $1\ \mathrm{km/h}$)? 如果不考虑其他费用, 这次行车的总费用是多少 (精确到 $1$ 元)? 
 
@@ -357,15 +344,15 @@ $$
 
 故最经济车速约为 $54\ \mathrm{km/h}$, 总费用约为 $271$ 元. $\blacksquare$
 
-### 习题十七
+## 习题十七
 
 (复习参考题 5 拓广探索第 17 题) 作函数 $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象.
 
-该图为函数 $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象：有竖直渐近线 $x=1$ 与水平渐近线 $y=0$（$x\to-\infty$ 时 $y\to0$），图象穿过 $x$ 轴于 $\left(\frac{1}{2},0\right)$，在 $x=\frac{1\pm\sqrt{17}}{4}$ 处各取一个极值。
+该图为函数 $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象:有竖直渐近线 $x=1$ 与水平渐近线 $y=0$($x\to-\infty$ 时 $y\to0$),图象穿过 $x$ 轴于 $\left(\frac{1}{2},0\right)$,在 $x=\frac{1\pm\sqrt{17}}{4}$ 处各取一个极值.
 
 ### 解答 习题十七
 
-由**定义 5.3.1** 与**定义 5.3.2**.
+由**定义 5.3.1 (函数的单调性与导数的正负)** 与**定义 5.3.2 (函数的极值)**.
 
 定义域为 $x\neq1$. 令 $y=0$, 得 $x=\frac{1}{2}$, 即图象过 $\left(\frac{1}{2},0\right)$.
 
@@ -381,13 +368,13 @@ $$
 
 故图象有两条渐近线 $x=1$ 与 $y=0$, 在 $x=\frac{1\pm\sqrt{17}}{4}$ 处取极值. $\blacksquare$
 
-### 习题十八
+## 习题十八
 
 (复习参考题 5 拓广探索第 18 题) 已知函数 $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. 当 $m\le2$ 时, 求证 $f\left(x\right)> 0$.
 
 ### 解答 习题十八
 
-由**定义 5.3.1**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. 令 $f'\left(x\right)=0$, 即 $\mathrm e^{x}=\frac{1}{x+m}$.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. 令 $f'\left(x\right)=0$, 即 $\mathrm e^{x}=\frac{1}{x+m}$.
 
 当 $m\le2$ 时, $\ln\left(x+m\right)$ 的定义域内 $x+m> 0$. 设 $f\left(x\right)$ 的最小值点为 $x_{0}$, 满足 $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, 即 $x_{0}+m=\mathrm e^{-x_{0}}$.
 
@@ -401,7 +388,7 @@ $$
 
 故 $f\left(x\right)$ 的最小值大于 $0$, 即 $f\left(x\right)> 0$. $\blacksquare$
 
-### 习题十九
+## 习题十九
 
 (复习参考题 5 拓广探索第 19 题) 已知函数 $f\left(x\right)=a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-x$.
 
@@ -411,7 +398,7 @@ $$
 
 ### 解答 习题十九
 
-由**定义 5.2.3**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. 令 $t=\mathrm e^{x}> 0$, 则
+由**定义 5.2.3 (复合函数的求导法则)**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. 令 $t=\mathrm e^{x}> 0$, 则
 
 $$
 f'\left(x\right)=\left(at-1\right)\left(2t+1\right).

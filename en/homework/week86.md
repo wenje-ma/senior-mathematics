@@ -1,16 +1,11 @@
-# Assignment 86
+# week86
+> **Definition 7.4.1 (伯努利试验与 $n$ 重伯努利试验)**<br>只包含两个可能结果的试验叫做伯努利试验. 将一个伯努利试验独立地重复进行 $n$ 次所组成的随机试验称为 $n$ 重伯努利试验.
+> **Definition 7.4.2 (二项分布)**<br>在 n 次独立重复试验中, 设事件 A 发生的次数为 X, 每次试验中 A 发生的概率为 p, 则 X ~ B(n, p).
+> **Definition 7.4.4 (超几何分布)**<br>在含有 M 件次品的 N 件产品中, 任取 n 件, 其中恰有 X 件次品, 则 P(X=k) = C(M,k)*C(N-M,n-k)/C(N,n).
 
-> **Definition 7.4.1** (Bernoulli Trials and $n$ Independent Bernoulli Trials) <br>A trial with only two possible outcomes is called a Bernoulli trial. A random experiment formed by independently repeating a Bernoulli trial $n$ times is called $n$ independent Bernoulli trials.
+---
 
-> **Definition 7.4.2** (Binomial Distribution) <br>In $n$ independent Bernoulli trials, let the probability of event $A$ occurring in each trial be $p$, and let $X$ denote the number of times event $A$ occurs. Then $\mathbb P\left(X=k\right)=\binom{n}{k} p^k \left(1-p\right)^{n-k}$, $k=0,1,\cdots,n$. We say that $X$ follows a binomial distribution, denoted by $X\sim B\left(n,p\right)$.
-
-> **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution) <br>If $X\sim B\left(n,p\right)$, then $\mathbb E\left(X\right)=np$, $D\left(X\right)=np\left(1-p\right)$.
-
-> **Definition 7.4.4** (Hypergeometric Distribution) <br>Suppose there are $N$ products, among which $M$ are defective. $n$ items are drawn at random without replacement. Let $X$ denote the number of defective items among the $n$ drawn products. Then $\mathbb P\left(X=k\right)=\frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}}$, $k=0,1,\cdots,\min\left(n,M\right)$. We say that $X$ follows a hypergeometric distribution.
-
-> **Conclusion 7.4.5** (Mean of the Hypergeometric Distribution) <br>If $X$ follows a hypergeometric distribution, let $p=\frac{M}{N}$; then $\mathbb E\left(X\right)=np$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 7.4, Problem 1) A fair coin is tossed 4 times at random. Let $X$ be the number of heads.
 
@@ -20,11 +15,11 @@
 
 ### Solution to Exercise 1
 
-By **Definition 7.4.2** (Binomial Distribution) and **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)** and **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution).
 
 Tossing the coin 4 times, the probability of heads each time is $0.5$, and the tosses are independent, so $X\sim B\left(4,0.5\right)$.
 
-(1) By **Definition 7.4.2** (Binomial Distribution), $\mathbb P\left(X=k\right)=\binom{4}{k} \left(0.5\right)^4$, so the distribution is
+(1) By **Definition 7.4.2 (Binomial Distribution)**, $\mathbb P\left(X=k\right)=\binom{4}{k} \left(0.5\right)^4$, so the distribution is
 
 | $X$ | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
@@ -32,7 +27,7 @@ Tossing the coin 4 times, the probability of heads each time is $0.5$, and the t
 
 (2) By **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution), $\mathbb E\left(X\right)=np=4\times 0.5=2$, $D\left(X\right)=np\left(1-p\right)=4\times 0.5\times 0.5=1$. Thus the blanks are, in order, $2$, $1$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 7.4, Problem 2) After a certain vaccine is administered, the probability that a chicken is infected with a certain disease is $0.2$. If none of the 5 vaccinated chickens is infected, find:
 
@@ -42,7 +37,7 @@ Tossing the coin 4 times, the probability of heads each time is $0.5$, and the t
 
 ### Solution to Exercise 2
 
-By **Definition 7.4.2** (Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)**.
 
 Let $X$ be the number of chickens among the 5 that are not infected. The probability that each chicken is not infected is $0.8$, and the chickens are independent, so $X\sim B\left(5,0.8\right)$.
 
@@ -60,7 +55,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 7.4, Problem 3) Determine whether each of the following random variables follows a binomial distribution. If so, write down the values of the parameters $n$ and $p$.
 
@@ -70,31 +65,31 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Definition 7.4.2** (Binomial Distribution) and **Definition 7.4.4** (Hypergeometric Distribution).
+By **Definition 7.4.2 (Binomial Distribution)** and **Definition 7.4.4 (Hypergeometric Distribution)**.
 
 (1) Each shot is independent, with only two outcomes (hit or miss), and the hit probability is always $0.8$, so $X$ follows a binomial distribution: $X\sim B\left(12,0.8\right)$, with parameters $n=12$, $p=0.8$.
 
-(2) The sampling is without replacement, so the draws are not independent; the number of defective items $Y$ follows **Definition 7.4.4** (Hypergeometric Distribution), not a binomial distribution. $\blacksquare$
+(2) The sampling is without replacement, so the draws are not independent; the number of defective items $Y$ follows **Definition 7.4.4 (Hypergeometric Distribution)**, not a binomial distribution. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 7.4, Problem 4) Give two examples of random variables that follow a binomial distribution.
 
 ### Solution to Exercise 4
 
-By **Definition 7.4.2** (Binomial Distribution), the binomial distribution describes the number of occurrences of an event in $n$ independent repeated trials.
+By **Definition 7.4.2 (Binomial Distribution)**, the binomial distribution describes the number of occurrences of an event in $n$ independent repeated trials.
 
 (1) A shooter hits the target with probability $0.7$ each time; he fires 10 shots in a row, and the number of hits $X$ follows a binomial distribution $X\sim B\left(10,0.7\right)$.
 
 (2) The defective rate of products from a certain factory is $0.05$; 20 items are sampled with replacement, and the number of defective items $Y$ follows a binomial distribution $Y\sim B\left(20,0.05\right)$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 7.4, Problem 1) In a case of 24 cans of a drink, 4 cans have prize vouchers, each awarding one can of drink. If 2 cans are drawn at random, find the probability that the 2 cans include at least one prize voucher.
 
 ### Solution to Exercise 5
 
-By **Definition 7.4.4** (Hypergeometric Distribution).
+By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
 Let $X$ be the number of cans with prize vouchers among the 2 drawn. The population is $N=24$, of which $M=4$ have prize vouchers, and we draw $n=2$. What is sought is $\mathbb P\left(X\ge 1\right)$.
 
@@ -110,13 +105,13 @@ $$
 
 $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 7.4, Problem 2) From 12 volunteers of a university mental health education center, 4 are chosen to participate in psychological aid work. It is known that 4 of the 12 volunteers are from class A. Find the probability that exactly 2 of the chosen volunteers are from class A.
 
 ### Solution to Exercise 6
 
-By **Definition 7.4.4** (Hypergeometric Distribution).
+By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
 Let $X$ be the number of chosen volunteers from class A. The population is $N=12$, of which $M=4$ are from class A, and we draw $n=4$. What is sought is $\mathbb P\left(X=2\right)$.
 
@@ -126,25 +121,25 @@ $$
 
 $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 7.4, Problem 3) Give two examples of random variables that follow a hypergeometric distribution.
 
 ### Solution to Exercise 7
 
-By **Definition 7.4.4** (Hypergeometric Distribution), the hypergeometric distribution describes the number of items with a certain characteristic in sampling without replacement.
+By **Definition 7.4.4 (Hypergeometric Distribution)**, the hypergeometric distribution describes the number of items with a certain characteristic in sampling without replacement.
 
 (1) A batch has $N$ products, among which $M$ are defective; $n$ items are drawn without replacement, and the number of defective items $X$ follows a hypergeometric distribution.
 
 (2) A class has $N_1$ male students and $N_2$ female students; $k$ students are chosen at random, and the number of female students $Y$ follows a hypergeometric distribution. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 7.4, Review and Consolidation, Problem 1) A die is rolled; if a 5 or 6 appears, the trial is called a success. Find the mean and variance of the number of successes $X$ in 30 trials.
 
 ### Solution to Problem 1
 
-By **Definition 7.4.2** (Binomial Distribution) and **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)** and **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution).
 
 Rolling a die, a 5 or 6 is a success, so the success probability is $p=\frac{2}{6}=\frac{1}{3}$. Repeating independently 30 times, the number of successes is $X\sim B\left(30,\frac{1}{3}\right)$.
 
@@ -160,13 +155,13 @@ $$
 
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 7.4, Review and Consolidation, Problem 2) A shooter hits the target with probability 0.9 each time; he fires 4 shots in a row. Find the probability that exactly 1 shot misses the target.
 
 ### Solution to Problem 2
 
-By **Definition 7.4.2** (Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)**.
 
 Let $X$ be the number of hits in the 4 shots; then $X\sim B\left(4,0.9\right)$. Exactly 1 miss means exactly 3 hits, and what is sought is $\mathbb P\left(X=3\right)$.
 
@@ -176,7 +171,7 @@ $$
 
 $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 7.4, Review and Consolidation, Problem 3) A particle moves randomly on integer points; each step it moves left or right by 1 unit length with equal probability, and the steps are independent. Find, after 6 steps:
 
@@ -188,7 +183,7 @@ The figure illustrates a particle moving randomly on integer points: the horizon
 
 ### Solution to Problem 3
 
-By **Definition 7.4.2** (Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)**.
 
 Let $X$ be the number of rightward steps among the 6 moves; the probability of moving right each time is $0.5$, so $X\sim B\left(6,0.5\right)$. The final position of the particle is $X-\left(6-X\right)=2X-6$.
 
@@ -206,13 +201,13 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 7.4, Review and Consolidation, Problem 4) From a deck of 52 playing cards excluding the jokers, 5 cards are drawn at random. Find the probability of drawing at least 2 $A$ cards.
 
 ### Solution to Problem 4
 
-By **Definition 7.4.4** (Hypergeometric Distribution).
+By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
 Let $X$ be the number of $A$ cards drawn. The population is $N=52$, of which $M=4$ are $A$ cards, and we draw $n=5$. What is sought is $\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X=0\right)-\mathbb P\left(X=1\right)$.
 
@@ -230,7 +225,7 @@ $$
 
 $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 7.4, Comprehensive Application, Problem 5) A shooter hits the target with probability 0.8 each time; he fires 10 shots in a row.
 
@@ -240,7 +235,7 @@ $\blacksquare$
 
 ### Solution to Problem 5
 
-By **Definition 7.4.2** (Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)**.
 
 Let $X$ be the number of hits in the 10 shots; then $X\sim B\left(10,0.8\right)$.
 
@@ -266,13 +261,13 @@ $$
 
 $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 7.4, Comprehensive Application, Problem 6) A bag contains 10 red balls and 20 white balls. 5 balls are drawn at random without replacement. Find the probability of winning, where winning means at least 3 of the drawn balls are red.
 
 ### Solution to Problem 6
 
-By **Definition 7.4.4** (Hypergeometric Distribution).
+By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
 Let $X$ be the number of red balls among the 5 drawn. The population is $N=30$, of which $M=10$ are red, and we draw $n=5$. What is sought is $\mathbb P\left(X\ge 3\right)=\mathbb P\left(X=3\right)+\mathbb P\left(X=4\right)+\mathbb P\left(X=5\right)$.
 
@@ -294,7 +289,7 @@ $$
 
 $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 7.4, Comprehensive Application, Problem 7) A workshop has 3 lathes that work independently. Let $X$ be the number of lathes that break down within a period. Find the distribution of $X$ in each of the following two cases.
 
@@ -304,7 +299,7 @@ $\blacksquare$
 
 ### Solution to Problem 7
 
-By **Definition 7.4.2** (Binomial Distribution) and the multiplication formula for probability.
+By **Definition 7.4.2 (Binomial Distribution)** and the multiplication formula for probability.
 
 (1) The 3 lathes are of the same model and independent, each with breakdown probability $0.2$, so $X\sim B\left(3,0.2\right)$.
 
@@ -354,13 +349,13 @@ Thus the distributions of $X$ in the two cases are, respectively,
 
 $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 7.4, Extension and Exploration, Problem 8) A pharmaceutical company claims that its new drug has an effective rate of $90\%$ against a certain disease. A hospital conducts a clinical trial on 10 patients, of whom no more than 6 are cured. Do you doubt the drug's effective rate? Explain your reasoning.
 
 ### Solution to Problem 8
 
-By **Definition 7.4.2** (Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)**.
 
 If the drug's effective rate is indeed $0.9$, let $X$ be the number cured among the 10 patients; then $X\sim B\left(10,0.9\right)$. Compute $\mathbb P\left(X\le 6\right)=1-\mathbb P\left(X\ge 7\right)$.
 
@@ -398,7 +393,7 @@ The figure is a set of bar charts of the distribution of the binomial distributi
 
 ### Solution to Inquiry and Discovery 1
 
-By **Definition 7.4.2** (Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)**.
 
 Observing the distribution graphs, one can find:
 
@@ -416,7 +411,7 @@ Observing the distribution graphs, one can find:
 
 ### Solution to Inquiry and Discovery 2
 
-By **Definition 7.4.2** (Binomial Distribution).
+By **Definition 7.4.2 (Binomial Distribution)**.
 
 Consider the ratio of two adjacent terms:
 

@@ -1,28 +1,11 @@
-# Assignment 59
+# week59
+> **Basic Knowledge: 常用结论 1.3.4**<br>设向量 a = (a1, a2, a3), b = (b1, b2, b3), 则 a 平行 b 的充要条件是 a1*b2 = a2*b1, a1*b3 = a3*b1, a2*b3 = a3*b2.
+> **Definition 1.4.1 (Direction Vector of a Line)**<br>若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.
+> **Definition 1.4.2 (Normal Vector of a Plane)**<br>与平面垂直的直线叫做平面的垂线, 直线的方向向量称为平面的法向量. 求平面的法向量通常只需求出一个.
 
-> **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) <br>Let $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$; then $\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(a_1-b_1,a_2-b_2,a_3-b_3\right)$, $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right)$, $\lambda \in \mathbb R$, and $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$.
+---
 
-> **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism, Perpendicularity, Modulus and Angle) <br>When $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b}$; when $\boldsymbol{a} \neq \boldsymbol{0}$ and $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; and $\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert}$.
-
-> **Definition 1.4.1** (Direction Vector of a Line) <br>If $P$ is a point on line $l$ and $\boldsymbol{u}$ is a direction vector of line $l$, then taking any point $P$ on line $l$, for any point $P$ on line $l$ there exists a real number $t$ such that $\boldsymbol{AP}=t\boldsymbol{u}$, i.e. $\boldsymbol{AP}=t\boldsymbol{AB}$.
-
-> **Definition 1.4.2** (Normal Vector of a Plane) <br>A line perpendicular to a plane is called a normal line of the plane, and a direction vector of this line is called a normal vector of the plane. That is, if line $l \perp \alpha$, then the direction vector $\boldsymbol{n}$ of $l$ is called a normal vector of plane $\alpha$.
-
-> **Common Conclusion 1.4.3** (Describing Parallelism with Vectors) <br>Let $\boldsymbol{u}_1$, $\boldsymbol{u}_2$ be direction vectors of lines $l_1$, $l_2$, respectively; then $l_1 \parallel l_2 \iff \boldsymbol{u}_1 \parallel \boldsymbol{u}_2 \iff \exists \lambda \in \mathbb R$ such that $\boldsymbol{u}_1=\lambda\boldsymbol{u}_2$. Let $\boldsymbol{u}$ be a direction vector of line $l$ and $\boldsymbol{n}$ a normal vector of plane $\alpha$, with $l \not\subset \alpha$; then $l \parallel \alpha \iff \boldsymbol{u} \perp \boldsymbol{n} \iff \boldsymbol{u} \cdot \boldsymbol{n}=0$. Let $\boldsymbol{n}_1$, $\boldsymbol{n}_2$ be normal vectors of planes $\alpha$, $\beta$, respectively; then $\alpha \parallel \beta \iff \boldsymbol{n}_1 \parallel \boldsymbol{n}_2 \iff \exists \lambda \in \mathbb R$ such that $\boldsymbol{n}_1=\lambda\boldsymbol{n}_2$.
-
-> **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors) <br>Let $\boldsymbol{u}_1$, $\boldsymbol{u}_2$ be direction vectors of lines $l_1$, $l_2$, respectively; then $l_1 \perp l_2 \iff \boldsymbol{u}_1 \perp \boldsymbol{u}_2 \iff \boldsymbol{u}_1 \cdot \boldsymbol{u}_2=0$. Let $\boldsymbol{u}$ be a direction vector of line $l$ and $\boldsymbol{n}$ a normal vector of plane $\alpha$; then $l \perp \alpha \iff \boldsymbol{u} \parallel \boldsymbol{n}$. Let $\boldsymbol{n}_1$, $\boldsymbol{n}_2$ be normal vectors of planes $\alpha$, $\beta$, respectively; then $\alpha \perp \beta \iff \boldsymbol{n}_1 \perp \boldsymbol{n}_2 \iff \boldsymbol{n}_1 \cdot \boldsymbol{n}_2=0$.
-
-> **Common Conclusion 1.4.5** (Distance from a Point to a Line) <br>Let the direction vector of line $l$ be $\boldsymbol{u}$, point $P$ lie on $l$, and point $A$ be outside line $l$; then the distance from point $A$ to line $l$ is $d=\sqrt{\lvert \boldsymbol{PA} \rvert^2-\left(\frac{\boldsymbol{PA} \cdot \boldsymbol{u}}{\lvert \boldsymbol{u} \rvert}\right)^2}$.
-
-> **Common Conclusion 1.4.6** (Distance from a Point to a Plane) <br>Let the normal vector of plane $\alpha$ be $\boldsymbol{n}$, point $P$ lie in $\alpha$, and point $A$ be outside plane $\alpha$; then the distance from point $A$ to plane $\alpha$ is $d=\frac{\lvert \boldsymbol{PA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}$.
-
-> **Common Conclusion 1.4.7** (Angle between Skew Lines) <br>If the angle between the skew lines $l_1$, $l_2$ is $\theta$, and their direction vectors are $\boldsymbol{u}$, $\boldsymbol{v}$, respectively, then $\cos\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{v} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}$.
-
-> **Common Conclusion 1.4.8** (Angle between a Line and a Plane) <br>Let the angle between line $AB$ and plane $\alpha$ be $\theta$, the direction vector of line $AB$ be $\boldsymbol{u}$, and the normal vector of plane $\alpha$ be $\boldsymbol{n}$; then $\sin\theta=\lvert \cos \left\langle \boldsymbol{u}, \boldsymbol{n} \right\rangle \rvert=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}$.
-
-> **Common Conclusion 1.4.9** (Angle between Two Planes) <br>Let the normal vectors of planes $\alpha$, $\beta$ be $\boldsymbol{n}_1$ and $\boldsymbol{n}_2$, respectively, and let the angle between plane $\alpha$ and plane $\beta$ be $\theta$; then $\cos\theta=\lvert \cos \left\langle \boldsymbol{n}_1, \boldsymbol{n}_2 \right\rangle \rvert=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 1.4, Problem 1) Determine whether the following propositions are correct; mark " $\surd$ " in the parentheses if correct, and " $\times$ " if incorrect.
 
@@ -34,33 +17,33 @@
 
 ### Solution to Exercise 1
 
-By **Definition 1.4.1** (Direction Vector of a Line) and **Definition 1.4.2** (Normal Vector of a Plane).
+By **Definition 1.4.1 (Direction Vector of a Line)** and **Definition 1.4.2 (Normal Vector of a Plane)**.
 
-(1) By **Definition 1.4.1** and **Definition 1.4.2**, both direction vectors and normal vectors are required to be nonzero vectors (otherwise the direction cannot be determined), so the zero vector cannot be a direction vector of a line or a normal vector of a plane. Correct ($\surd$).
+(1) By **Definition 1.4.1 (Normal Vector of a Plane)** and **Definition 1.4.2 (Normal Vector of a Plane)**, both direction vectors and normal vectors are required to be nonzero vectors (otherwise the direction cannot be determined), so the zero vector cannot be a direction vector of a line or a normal vector of a plane. Correct ($\surd$).
 
-(2) By **Definition 1.4.1**, if $\boldsymbol{v}$ is a direction vector of line $l$, then $\lambda\boldsymbol{v}$ ($\lambda \neq 0$) is also one. But when $\lambda=0$, $\lambda\boldsymbol{v}=\boldsymbol{0}$ is not a direction vector. Since the problem states $\lambda \in \mathbb R$, which includes $\lambda=0$, it is incorrect ($\times$).
+(2) By **Definition 1.4.1 (Normal Vector of a Plane)**, if $\boldsymbol{v}$ is a direction vector of line $l$, then $\lambda\boldsymbol{v}$ ($\lambda \neq 0$) is also one. But when $\lambda=0$, $\lambda\boldsymbol{v}=\boldsymbol{0}$ is not a direction vector. Since the problem states $\lambda \in \mathbb R$, which includes $\lambda=0$, it is incorrect ($\times$).
 
-(3) All vectors in the coordinate plane $Oxy$ have $z$-coordinate $0$, and the dot product of $\boldsymbol{n}=\left(0,0,1\right)$ with any vector $\left(a,b,0\right)$ in the $Oxy$ plane is $0$, i.e. $\boldsymbol{n} \perp Oxy$ plane. By **Definition 1.4.2**, $\boldsymbol{n}$ is a normal vector of the coordinate plane $Oxy$. Correct ($\surd$). $\blacksquare$
+(3) All vectors in the coordinate plane $Oxy$ have $z$-coordinate $0$, and the dot product of $\boldsymbol{n}=\left(0,0,1\right)$ with any vector $\left(a,b,0\right)$ in the $Oxy$ plane is $0$, i.e. $\boldsymbol{n} \perp Oxy$ plane. By **Definition 1.4.2 (Normal Vector of a Plane)**, $\boldsymbol{n}$ is a normal vector of the coordinate plane $Oxy$. Correct ($\surd$). $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 1.4, Problem 2) In the parallelepiped $ABCD-A_1B_1C_1D_1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$, and $O$ is the intersection of $BD$ and $B_1D_1$. Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis of space, find a direction vector of line $OA$.
 
 ### Solution to Exercise 2
 
-By **Definition 1.4.1** (Direction Vector of a Line).
+By **Definition 1.4.1 (Direction Vector of a Line)**.
 
 $O$ is the intersection of $BD$ and $B_1D_1$, i.e. the midpoint of the segment joining the centers of the upper and lower faces. $\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{BO}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{BD}=\boldsymbol{a}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
 
 Hence a direction vector of line $OA$ is $\boldsymbol{OA}=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, or equivalently one may take $\boldsymbol{a}+\boldsymbol{b}$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 1.4, Problem 3) In the cuboid $ABCD-A_1B_1C_1D_1$, $AB=4$, $BC=3$, $CC_1=2$. Taking $D$ as the origin, set up a rectangular coordinate system in space and find a normal vector of the plane $BCC_1B_1$.
 
 ### Solution to Exercise 3
 
-By **Definition 1.4.2** (Normal Vector of a Plane).
+By **Definition 1.4.2 (Normal Vector of a Plane)**.
 
 Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis; then $D\left(0,0,0\right)$, $A\left(3,0,0\right)$, $B\left(3,4,0\right)$, $C\left(0,4,0\right)$, $C_1\left(0,4,2\right)$.
 
@@ -72,7 +55,7 @@ $-3x=0$, $2z=0$, so $x=0$, $z=0$, and $y$ is arbitrary.
 
 Taking $\boldsymbol{n}=\left(0,1,0\right)$ gives a normal vector of the plane $BCC_1B_1$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 1.4, Problem 1) Prove by the vector method the "criterion for a line to be parallel to a plane": if a line outside a plane is parallel to a line in the plane, then the line is parallel to the plane.
 
@@ -88,7 +71,7 @@ By **Common Conclusion 1.4.3**, $l \parallel \alpha \iff \boldsymbol{u} \perp \b
 
 Since $\boldsymbol{n} \cdot \boldsymbol{u}=0$, we have $l \parallel \alpha$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 1.4, Problem 2) As shown in the figure, in the tetrahedron $ABCD$, $E$ is the midpoint of $BC$. Does there exist a point $F$ on line $AD$ such that $AE \parallel CF$?
 
@@ -114,7 +97,7 @@ From $\frac{\lambda}{2}=0$ we get $\lambda=0$, but $\frac{\lambda}{2}=-1$ requir
 
 Hence there is no point $F$ on line $AD$ such that $AE \parallel CF$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 1.4, Problem 3) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $E$, $F$ are the centers of faces $AB_1$ and $A_1C_1$, respectively. Prove that $EF \parallel$ the plane $ACD_1$.
 
@@ -140,7 +123,7 @@ $\boldsymbol{EF} \cdot \boldsymbol{n}=\left(-\frac{1}{2}\right) \times 1+0 \time
 
 By **Common Conclusion 1.4.3**, $\boldsymbol{EF} \perp \boldsymbol{n}$, and since $EF \not\subset$ the plane $ACD_1$, we have $EF \parallel$ the plane $ACD_1$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 1.4, Problem 1) In the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, the distance from point $A$ to the plane $A_1BD$ is $\;\_\_\;$; the distance from line $DC$ to the plane $AB_1$ is $\;\_\_\;$; the distance from the plane $DA_1C_1$ to the plane $CB_1D$ is $\;\_\_\;$.
 
@@ -164,7 +147,7 @@ $d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{
 
 (3) The distance from the plane $DA_1C_1$ to the plane $CB_1D$. The two planes are parallel, and the distance is $\frac{\sqrt{3}}{3}$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 1.4, Problem 2) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $E$ is the midpoint of segment $DD_1$ and $F$ is the midpoint of segment $BB_1$.
 
@@ -202,7 +185,7 @@ $\boldsymbol{AF}=\left(0,1,\frac{1}{2}\right)$.
 
 $d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert \frac{1}{2}-1+\frac{1}{2} \rvert}{\frac{3}{2}}=0$. That is, $F$ lies in the plane, and the distance is $0$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 1.4, Problem 3) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, find the distance between the plane $A_1DB$ and the plane $D_1CB_1$.
 
@@ -224,7 +207,7 @@ $d=\frac{\lvert \boldsymbol{D_1A} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbo
 
 But because the two planes cut through the cube at its midsection, the actual distance is $\frac{\sqrt{3}}{3}$ (the distance from the plane $A_1DB$ to the plane $D_1CB_1$). $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 1.4, Problem 1) In the right triangular prism $ABC-A_1B_1C_1$, $\angle BCA=90^\circ$, $D_1$, $F_1$ are the midpoints of $A_1B_1$, $A_1C_1$, respectively, and $BC=CA=CC_1$. Then the cosine of the angle between $BD_1$ and $AF_1$ is ( ).
 
@@ -256,7 +239,7 @@ $\cos\theta=\frac{\frac{3}{4}}{\frac{\sqrt{6}}{2} \cdot \frac{\sqrt{5}}{2}}=\fra
 
 Hence the answer is (A). $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 1.4, Problem 2) $PA$, $PB$, $PC$ are three rays emanating from point $P$, and the angle between every two rays is $60^\circ$. Then the cosine of the angle between line $PC$ and the plane $PAB$ is ( ).
 
@@ -288,7 +271,7 @@ $\cos\theta=\sqrt{1-\frac{2}{3}}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
 
 Hence the answer is (C). $\blacksquare$
 
-### Exercise 12
+## Exercise 12
 
 (Exercise 1.4, Problem 3) As shown in the figure, all edges of the regular triangular prism $ABC-A_1B_1C_1$ have length $2$. Find the cosine of the angle between the plane $AA_1B$ and the plane $A_1BC_1$.
 
@@ -310,7 +293,7 @@ Normal vector $\boldsymbol{n}_2=\boldsymbol{A_1B} \times \boldsymbol{A_1C_1}=\le
 
 $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{2\sqrt{3}}{\sqrt{12+4+12} \cdot 1}=\frac{2\sqrt{3}}{\sqrt{28}}=\frac{2\sqrt{3}}{2\sqrt{7}}=\frac{\sqrt{21}}{7}$. $\blacksquare$
 
-### Exercise 13
+## Exercise 13
 
 (Exercise 1.4, Problem 4) As shown in the figure, the planes of $\triangle ABC$ and $\triangle DBC$ are perpendicular, and $AB=BC=BD$, $\angle CBA=\angle DBC=120^\circ$. Find:
 
@@ -350,7 +333,7 @@ The normal vector of plane $BDC$ is $\boldsymbol{n}_2=\left(0,0,1\right)$.
 
 $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{\sqrt{3}}{4}}{\sqrt{\frac{9}{16}+\frac{3}{16}+\frac{3}{16}}}=\frac{\frac{\sqrt{3}}{4}}{\frac{\sqrt{15}}{4}}=\frac{\sqrt{5}}{5}$. $\blacksquare$
 
-### Exercise 14
+## Exercise 14
 
 (Exercise 1.4, Problem 1) As shown in the figure, on the edge of the dihedral angle $\alpha-l-\beta$ there are two points $A$, $B$; the segments $BD$ and $AC$ lie in the two faces of this dihedral angle, and both are perpendicular to the edge $l$. If $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, find the angle between plane $\alpha$ and plane $\beta$.
 
@@ -376,7 +359,7 @@ Let the angle between the two planes be $\theta$; then $\cos\theta=\frac{\lvert 
 
 Hence $\theta=60^\circ$. $\blacksquare$
 
-### Exercise 15
+## Exercise 15
 
 (Exercise 1.4, Problem 2) As shown in the figure, in the triangular pyramid $A-BCD$, $AB=AC=BD=CD=3$, $AD=BC=2$, and $M$, $N$ are the midpoints of $AD$, $BC$, respectively. Find the cosine of the angle between the skew lines $AN$ and $CM$.
 
@@ -406,7 +389,7 @@ $\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{49 \times 2}{16}+\frac{7}{8}}=\sqrt
 
 $\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
 
-### Exercise 16
+## Exercise 16
 
 (Exercise 1.4, Problem 3) As shown in the figure, in the triangular pyramid $O-ABC$, $OA$, $OB$, $OC$ are pairwise perpendicular, $OA=OC=3$, $OB=2$. Find the sine of the angle between line $OB$ and the plane $ABC$.
 
@@ -428,7 +411,7 @@ $\boldsymbol{OB}=\left(0,2,0\right)$.
 
 $\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{OB} \rvert \lvert \boldsymbol{n} \rvert}=\frac{18}{2 \times \sqrt{4+9+4}}=\frac{18}{2 \times \sqrt{17}}=\frac{9}{\sqrt{17}}=\frac{9\sqrt{17}}{17}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 1.4, Review and Consolidation, Problem 1) As shown in the figure, in the triangular pyramid $A-BCD$, $E$ is the midpoint of $CD$, the point $F$ lies on $AE$, and $EF=2FA$. Set $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$. Find the direction vectors of lines $AE$ and $BF$.
 
@@ -436,7 +419,7 @@ The figure is a view of the triangular pyramid $A-BCD$: $E$ is the midpoint of e
 
 ### Solution to Problem 1
 
-By **Definition 1.4.1** (Direction Vector of a Line).
+By **Definition 1.4.1 (Direction Vector of a Line)**.
 
 $\boldsymbol{AE}=\boldsymbol{AB}+\boldsymbol{BE}=-\boldsymbol{c}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
 
@@ -446,7 +429,7 @@ $\boldsymbol{BF}=\boldsymbol{BA}+\boldsymbol{AF}=\boldsymbol{c}+\frac{1}{3}\bold
 
 Hence the direction vector of line $AE$ is $-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, and the direction vector of line $BF$ is $\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}+\frac{2}{3}\boldsymbol{c}$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 1.4, Review and Consolidation, Problem 2) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $AB \perp AC$, $AB=AC=1$, $AA_1=2$. Taking $A$ as the origin, set up the rectangular coordinate system in space shown in the figure.
 
@@ -458,7 +441,7 @@ The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1
 
 ### Solution to Problem 2
 
-By **Definition 1.4.2** (Normal Vector of a Plane).
+By **Definition 1.4.2 (Normal Vector of a Plane)**.
 
 $A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(0,1,0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(1,0,2\right)$, $C_1\left(0,1,2\right)$.
 
@@ -470,7 +453,7 @@ Let $\boldsymbol{n}_1=\left(x,y,z\right)$; $\boldsymbol{n}_1 \cdot \boldsymbol{B
 
 Let $\boldsymbol{n}_2=\left(x,y,z\right)$; $\boldsymbol{n}_2 \cdot \boldsymbol{A_1B}=x-2z=0$, $\boldsymbol{n}_2 \cdot \boldsymbol{A_1C}=y-2z=0$. Taking $z=1$ gives $\boldsymbol{n}_2=\left(2,2,1\right)$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 1.4, Review and Consolidation, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A_1B_1C_1D_1$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $C_1D_1$. Prove that $A_1E \parallel CF$.
 
@@ -490,7 +473,7 @@ Hence $\boldsymbol{A_1E}=-\boldsymbol{CF}$, i.e. $\boldsymbol{A_1E} \parallel \b
 
 By **Common Conclusion 1.4.3**, $A_1E \parallel CF$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 1.4, Review and Consolidation, Problem 4) As shown in the figure, in the tetrahedron $ABCD$, $AD \perp$ the plane $BCD$, $M$ is the midpoint of $AD$, and $P$ is the midpoint of $BM$. The point $Q$ lies on segment $AC$ with $AQ=3QC$. Prove that $PQ \parallel$ the plane $BCD$.
 
@@ -518,7 +501,7 @@ $\boldsymbol{PQ} \cdot \left(0,0,1\right)=0$, i.e. $\boldsymbol{PQ} \perp$ the n
 
 Moreover $PQ \not\subset$ the plane $BCD$ (since the $z$-coordinates of $P$, $Q$ are nonzero, but the $z$-component of $\boldsymbol{PQ}$ is zero), so $PQ \parallel$ the plane $BCD$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 1.4, Review and Consolidation, Problem 5) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, the point $E$ lies on $BD$ with $BE=\frac{1}{3}BD$; the point $F$ lies on $CB_1$ with $CF=\frac{1}{3}CB_1$. Prove:
 
@@ -550,7 +533,7 @@ $\boldsymbol{EF} \cdot \boldsymbol{BD}=\frac{1}{3}-\frac{1}{3}+0=0$. Hence $EF \
 
 $\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. Hence $EF \perp CB_1$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 1.4, Review and Consolidation, Problem 6) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $O$ is the center of the square $A_1ABB_1$ and $E$ is the midpoint of $BC$. Find the distance from point $O$ to the line $A_1E$.
 
@@ -578,7 +561,7 @@ $\lvert \boldsymbol{A_1E} \rvert=\sqrt{\frac{1}{4}+1+1}=\frac{3}{2}$.
 
 $d=\sqrt{\frac{1}{2}-\left(\frac{1}{\frac{3}{2}}\right)^2}=\sqrt{\frac{1}{2}-\frac{4}{9}}=\sqrt{\frac{1}{18}}=\frac{\sqrt{2}}{6}$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 1.4, Review and Consolidation, Problem 7) As shown in the figure, all edges of the tetrahedron $OABC$ have length $1$, and $D$, $E$ are the midpoints of $OA$, $BC$, respectively; join $DE$.
 
@@ -610,7 +593,7 @@ Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(-\fra
 
 $d=\frac{\sqrt{6}}{3}$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 1.4, Comprehensive Application, Problem 8) As shown in the figure, every edge of the tetrahedron $ABCD$ has length $a$, and $M$, $N$ are the midpoints of $AB$, $CD$, respectively. Prove that $MN \perp AB$ and $MN \perp CD$.
 
@@ -638,7 +621,7 @@ Similarly, $\boldsymbol{MN} \cdot \boldsymbol{CD}=\left(\frac{1}{2}\boldsymbol{b
 
 Hence $MN \perp CD$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 1.4, Comprehensive Application, Problem 9) As shown in the figure, $M$, $N$ are the midpoints of edges $BB'$ and $B'C'$ of the cube $ABCD-A'B'C'D'$, respectively. Find:
 
@@ -674,7 +657,7 @@ $\boldsymbol{MN} \cdot \boldsymbol{AD}=\frac{1}{2}$.
 
 $\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot 1}=\frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}$. Hence $\theta=45^\circ$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 1.4, Comprehensive Application, Problem 10) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $E$, $F$, $G$, $H$, $K$, $L$ are the midpoints of edges $AB$, $BB_1$, $B_1C_1$, $C_1D_1$, $D_1D$, $DA$, respectively.
 
@@ -712,7 +695,7 @@ $\sin\theta=\frac{\lvert \boldsymbol{DB_1} \cdot \boldsymbol{A_1C} \rvert}{\lver
 
 $\cos\theta=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 1.4, Comprehensive Application, Problem 11) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, $AB=2$, $BC=CC_1=1$, and $E$ is the midpoint of $CD$. Prove that $B_1E \perp$ the plane $AED_1$.
 
@@ -738,7 +721,7 @@ $\boldsymbol{B_1E} \cdot \boldsymbol{AD_1}=1+0-1=0$.
 
 Hence $B_1E \perp AE$ and $B_1E \perp AD_1$, and since $AE \cap AD_1=A$, we have $B_1E \perp$ the plane $AED_1$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 1.4, Comprehensive Application, Problem 12) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, the points $E$, $F$, $G$ lie on edges $A_1A$, $A_1B_1$, $A_1D_1$, respectively, with $A_1E=A_1F=A_1G=1$; the points $P$, $Q$, $R$ lie on edges $CC_1$, $CD$, $CB$, respectively, with $CP=CQ=CR=1$. Prove that the plane $EFG \parallel$ the plane $PQR$.
 
@@ -760,7 +743,7 @@ $P$, $Q$, $R$ are centrally symmetric about the center of the cuboid, and the no
 
 By **Common Conclusion 1.4.3**, $\boldsymbol{n}_1 \parallel \boldsymbol{n}_2$, so the plane $EFG \parallel$ the plane $PQR$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 1.4, Comprehensive Application, Problem 13) As shown in the figure, given that the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$ and $E$ is the midpoint of $CD$, find the distance from point $D_1$ to the plane $AEC_1$.
 
@@ -782,7 +765,7 @@ $\boldsymbol{AD_1}=\left(-1,0,1\right)$.
 
 $d=\frac{\lvert \boldsymbol{AD_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -\frac{1}{2}-\frac{1}{2} \rvert}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\frac{1}{\sqrt{\frac{3}{2}}}=\frac{\sqrt{6}}{3}$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 1.4, Comprehensive Application, Problem 14) As shown in the figure, the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$, $M$ is the midpoint of edge $AA_1$, and $O$ is the midpoint of $BD_1$. Prove that $OM$ is perpendicular to the skew lines $AA_1$ and $BD_1$, respectively, and find the length of $OM$.
 
@@ -808,7 +791,7 @@ $\boldsymbol{OM} \cdot \boldsymbol{BD_1}=-\frac{1}{2}+\frac{1}{2}+0=0$. Hence $O
 
 $OM=\sqrt{\frac{1}{4}+\frac{1}{4}+0}=\frac{\sqrt{2}}{2}$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 1.4, Comprehensive Application, Problem 15) As shown in the figure, given that the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$, $Q$ is the midpoint of $B_1C_1$, and the point $P$ lies on edge $AA_1$ with $AP:AA_1=1:3$. Find the cosine of the angle between the plane $ABCD$ and the plane $BQP$.
 
@@ -830,7 +813,7 @@ Normal vector $\boldsymbol{n}_2=\boldsymbol{BQ} \times \boldsymbol{BP}=\left(\fr
 
 $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{1}{2}}{\sqrt{\frac{1}{9}+\frac{1}{4}+\frac{1}{4}}}=\frac{\frac{1}{2}}{\sqrt{\frac{11}{18}}}=\frac{3\sqrt{22}}{22}$. $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Exercise 1.4, Extension and Exploration, Problem 16) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $\angle BAC=90^\circ$, $AB=AC=2$, $AA_1=3$. $M$ is the midpoint of $AB$, $N$ is the midpoint of $B_1C_1$, and $P$ is the intersection of $BC_1$ and $B_1C$. Does there exist a point $Q$ on segment $A_1N$ such that $PQ \parallel$ the plane $A_1CM$?
 
@@ -864,7 +847,7 @@ $-6\left(t-1\right)-3\left(t-1\right)-2 \cdot \frac{3}{2}=0$, i.e. $-9\left(t-1\
 
 $t=\frac{2}{3} \in \left[0,1\right]$, so such a point $Q$ exists: $Q\left(\frac{2}{3},\frac{2}{3},3\right)$. $\blacksquare$
 
-### Problem 17
+## Problem 17
 
 (Exercise 1.4, Extension and Exploration, Problem 17) In the rectangular coordinate system in space, given the vector $\boldsymbol{u}=\left(a,b,c\right)$ ($abc \neq 0$), the point $P_0\left(x_0,y_0,z_0\right)$, and the point $P\left(x,y,z\right)$.
 
@@ -874,9 +857,9 @@ $t=\frac{2}{3} \in \left[0,1\right]$, so such a point $Q$ exists: $Q\left(\frac{
 
 ### Solution to Problem 17
 
-By **Definition 1.4.1** (Direction Vector of a Line) and **Definition 1.4.2** (Normal Vector of a Plane).
+By **Definition 1.4.1 (Direction Vector of a Line)** and **Definition 1.4.2 (Normal Vector of a Plane)**.
 
-(1) By **Definition 1.4.1**, $P$ lies on line $l$, i.e. there exists a real number $t$ such that $\boldsymbol{P_0P}=t\boldsymbol{u}$.
+(1) By **Definition 1.4.1 (Normal Vector of a Plane)**, $P$ lies on line $l$, i.e. there exists a real number $t$ such that $\boldsymbol{P_0P}=t\boldsymbol{u}$.
 
 $\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
 
@@ -884,7 +867,7 @@ Hence $x-x_0=ta$, $y-y_0=tb$, $z-z_0=tc$.
 
 Eliminating $t$, we get $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}=t$.
 
-(2) By **Definition 1.4.2**, $\boldsymbol{u}$ is a normal vector of plane $\alpha$, so $\boldsymbol{u} \perp \boldsymbol{P_0P}$.
+(2) By **Definition 1.4.2 (Normal Vector of a Plane)**, $\boldsymbol{u}$ is a normal vector of plane $\alpha$, so $\boldsymbol{u} \perp \boldsymbol{P_0P}$.
 
 By **Common Conclusion 1.3.5**, $\boldsymbol{u} \cdot \boldsymbol{P_0P}=0$.
 
@@ -892,7 +875,7 @@ That is, $\left(a,b,c\right) \cdot \left(x-x_0,y-y_0,z-z_0\right)=0$.
 
 Expanding gives $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$. $\blacksquare$
 
-### Problem 18
+## Problem 18
 
 (Exercise 1.4, Extension and Exploration, Problem 18) In the experimental apparatus shown in the figure, the two square frames $ABCD$, $ABEF$ both have edge length $1$, and the planes in which they lie are perpendicular to each other. The moving beads $M$, $N$ travel along the diagonals $AC$ and $BF$ of the squares, respectively, and the lengths $CM$ and $BN$ remain equal; write $CM=BN=a$ ($0< a< \sqrt{2}$).
 

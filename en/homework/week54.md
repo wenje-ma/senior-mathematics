@@ -1,32 +1,17 @@
-# Assignment 54
+# week54
+> **Definition 9.1.1 (普查与抽样调查)**<br>对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
+> **Definition 9.1.2 (Population, Individual, Sample, Sample Size)**<br>统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
+> **Definition 9.1.3 (简单随机抽样)**<br>设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
+> **Definition 9.1.4 (Population Mean and Sample Mean)**<br>总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **Definition 9.1.5 (Stratified Random Sampling)**<br>将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
+> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**<br>将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
+> **Definition 9.2.2 (第 p 百分位数)**<br>将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
+> **Definition 9.2.3 (Mode, Median, and Mean)**<br>一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
+> **Definition 9.2.4 (Variance and Standard Deviation)**<br>方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
-> **Definition 9.1.1** (Census and Sampling Survey) <br>A method of surveying in which every subject under investigation is surveyed is called a complete survey, also known as a census; a survey method in which, according to a certain purpose, a part of the individuals is drawn from the population and surveyed, and on this basis estimates and inferences about the population are made, is called a sampling survey.
+---
 
-> **Definition 9.1.2** (Population, Individual, Sample and Sample Size) <br>In a survey, the whole set of subjects under investigation is called the population, and each subject making up the population is called an individual; the part of the individuals drawn from the population is called the sample, and the number of individuals contained in the sample is called the sample size, abbreviated as sample size.
-
-> **Definition 9.1.3** (Simple Random Sampling) <br>Suppose a population contains $N$ individuals, from which $n$ individuals are drawn one by one as a sample. If the drawing is with replacement and at each draw every individual in the population has equal probability of being selected, it is called simple random sampling with replacement; if the drawing is without replacement and at each draw every individual in the population not yet in the sample has equal probability of being selected, it is called simple random sampling without replacement.
-
-> **Definition 9.1.4** (Population Mean and Sample Mean) <br>The mean of the $N$ individual variable values in the population is called the population mean, and the mean of the $n$ variable values in the sample is called the sample mean; in simple random sampling, the sample mean is commonly used to estimate the population mean.
-
-> **Definition 9.1.5** (Stratified Random Sampling, Strata and Proportional Allocation) <br>Dividing the population into several subpopulations according to one or more variables, with each individual belonging to exactly one subpopulation, conducting simple random sampling independently in each subpopulation, and then combining the samples drawn from all subpopulations into the total sample, such a sampling method is called stratified random sampling; if the sample size of each stratum is proportional to the size of the stratum, it is called proportional allocation.
-
-> **Common Conclusion 9.1.6** (Estimating the Population Mean by Stratified Random Sampling) <br>In stratified random sampling with proportional allocation, the population mean can be estimated directly by the sample mean $\overline w=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y$; in the case of non-proportional allocation, the estimate is weighted by the size of each stratum's population.
-
-> **Common Conclusion 9.1.7** (Effect of Data Transformation on the Mean) <br>If $y_i=ax_i+b$, then $\overline y=a\overline x+b$.
-
-> **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram) <br>Dividing the data into several groups and listing the frequency and relative frequency of each group produces a frequency distribution table; in a frequency distribution histogram, the vertical axis represents $\frac{\text{频率}}{\text{组距}}$, the area of each small rectangle equals the relative frequency of the corresponding group, and the sum of the areas of all small rectangles equals 1.
-
-> **Definition 9.2.2** (The $p$-th Percentile) <br>The $p$-th percentile of a set of data is a value such that at least $p\%$ of the data are less than or equal to this value, and at least $\left(100-p\right)\%$ of the data are greater than or equal to this value; the median is precisely the 50th percentile.
-
-> **Definition 9.2.3** (Mode, Median and Mean) <br>The mode is the data value that appears most frequently in a set of data; the median is the value located in the middle after the data are arranged from small to large; the mean is the arithmetic mean of all the data; they describe the central tendency of the data from different angles, and the mean is easily affected by extreme values.
-
-> **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) <br>The variance (standard deviation) is the mean (the arithmetic square root) of the squares of the deviations of each data value from the mean, measuring the dispersion of the data; the larger the variance (standard deviation), the greater the dispersion of the data.
-
-> **Common Conclusion 9.2.5** (Total Variance of Stratified Random Sampling) <br>The variance after combining the two strata is $s^2=\frac{n_1\left(s_1^2+\left(\overline x_1-\overline w\right)^2\right)+n_2\left(s_2^2+\left(\overline x_2-\overline w\right)^2\right)}{n_1+n_2}$.
-
-> **Common Conclusion 9.2.6** (Effect of Data Transformation on the Mean and Variance) <br>If $y_i=ax_i+b$, then $\overline y=a\overline x+b$, $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
-
-### Problem 1
+## Problem 1
 
 (Review Exercises 9, Review and Consolidation, Problem 1) To understand the scores of 5000 students taking a computer proficiency test in a certain region, 200 students were drawn from them for investigation and analysis. In this problem, the 200 students drawn are ($\;\_\_\;$).
 
@@ -34,11 +19,11 @@
 
 ### Solution to Problem 1
 
-By **Definition 9.1.2** (Population, Individual, Sample and Sample Size), the whole set of subjects under investigation is the population, each subject making up the population is an individual, and the part of the individuals drawn from the population is the sample.
+By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)**, the whole set of subjects under investigation is the population, each subject making up the population is an individual, and the part of the individuals drawn from the population is the sample.
 
 In this problem, the scores of the 5000 students form the population, the score of each student is an individual, and the 200 students drawn are a part of the individuals taken from the population, i.e. the sample; it is 200 that is the sample size. Hence the answer is (C). $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Exercises 9, Review and Consolidation, Problem 2) Four students each roll a die 5 times, recording the number shown on each roll. Based on each student's statistical results, one can determine that the number 6 definitely did not appear for ($\;\_\_\;$).
 
@@ -52,7 +37,7 @@ In this problem, the scores of the 5000 students form the population, the score 
 
 ### Solution to Problem 2
 
-By **Definition 9.2.3** (Mode, Median and Mean) and **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation).
+By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
 
 (1) For (A): if the mean is 3, then the sum of the 5 rolls is 15. For example, $1,2,2,4,6$ has sum 15, median 2 and mean 3, in which 6 appears. Hence (A) cannot determine that 6 definitely did not appear.
 
@@ -70,7 +55,7 @@ If 6 appeared once, then the sum of the other 4 rolls would be $10-6=4$, i.e. th
 
 In summary, the answer is (C). $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Exercises 9, Review and Consolidation, Problem 3) If the median of a set of data is much smaller than the mean, which of the following statements must be false? Why?
 
@@ -84,7 +69,7 @@ In summary, the answer is (C). $\blacksquare$
 
 ### Solution to Problem 3
 
-By **Definition 9.2.3** (Mode, Median and Mean), the mean uses all the data and is easily affected by extreme values, whereas the median depends only on the position in the ordering.
+By **Definition 9.2.3 (Mode, Median and Mean)**, the mean uses all the data and is easily affected by extreme values, whereas the median depends only on the position in the ordering.
 
 (1) There may be outliers in the data: possible. A few exceptionally large values pull the mean upward.
 
@@ -96,7 +81,7 @@ By **Definition 9.2.3** (Mode, Median and Mean), the mean uses all the data and 
 
 Hence the statement that must be false is (2). $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Exercises 9, Review and Consolidation, Problem 4) (1) In a set of data already grouped, the frequency count of each group refers to $\;\_\_\;$, and the relative frequency of each group refers to $\;\_\_\;$.
 
@@ -104,7 +89,7 @@ Hence the statement that must be false is (2). $\blacksquare$
 
 ### Solution to Problem 4
 
-By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram) and **Definition 9.1.5** (Stratified Random Sampling, Strata and Proportional Allocation).
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)**.
 
 (1) The frequency count of a group refers to the number of data values falling into that group; the relative frequency of a group refers to the ratio of that group's frequency count to the total number of data values.
 
@@ -116,7 +101,7 @@ $$
 
 $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Exercises 9, Review and Consolidation, Problem 5) A famous national clothing chain conducted an opinion survey about the popular colors of autumn clothing of that year. The surveyors distributed drinks to customers and let customers "vote" for their favorite clothing color by choosing the color printed on the drink cup. According to the results of this survey, in a certain large city A, the mode of clothing colors was red, whereas the result released by the national apparel association of that year was coffee brown.
 
@@ -126,13 +111,13 @@ $\blacksquare$
 
 ### Solution to Problem 5
 
-By **Definition 9.1.3** (Simple Random Sampling) and **Definition 9.2.3** (Mode, Median and Mean).
+By **Definition 9.1.3 (Simple Random Sampling)** and **Definition 9.2.3 (Mode, Median and Mean)**.
 
 (1) This result cannot represent the views of all people in city A. Because those who voted were only customers shopping at this clothing store, they form a special group that differs from all residents of city A in age, gender and consumption preferences.
 
 (2) The difference between the two survey results is caused by sampling bias. The chain store's survey was conducted only on in-store customers, and the sampling frame did not cover all residents of city A; the national apparel association's survey had a wider coverage. Using the voting results of a special group to infer the preferences of all residents naturally produces bias. This shows that whether the sampling frame covers the population in a sampling survey directly affects the representativeness of the result. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Exercises 9, Comprehensive Application, Problem 6) Randomly draw 100 sentences from an English book, count the number of words in each sentence, and make a frequency distribution table of these 100 data values. What estimates can you make from this?
 
@@ -140,13 +125,13 @@ By **Definition 9.1.3** (Simple Random Sampling) and **Definition 9.2.3** (Mode,
 
 ### Solution to Problem 6
 
-By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram) and **Definition 9.1.4** (Population Mean and Sample Mean).
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.1.4 (Population Mean and Sample Mean)**.
 
 Tabulate the distribution of the number of words in these 100 sentences, list the frequency distribution table, and draw the frequency distribution histogram.
 
 From the frequency distribution table one can see the distribution pattern of sentence lengths in words in this book: how many words most sentences contain, in which range the sentence length in words is concentrated, and whether there are a few exceptionally long or short sentences. Furthermore, using the mean number of words in these 100 sentences, one can estimate the average number of words per sentence in this book, and thereby estimate the linguistic difficulty of the book. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Exercises 9, Comprehensive Application, Problem 7) In an arts competition, 12 professionals and 12 audience representatives each form a judging panel to score the contestants. Below are the scores given by the two panels to the same contestant:
 
@@ -160,7 +145,7 @@ Panel B: $55,36,70,66,75,49,46,68,42,62,58,47$.
 
 ### Solution to Problem 7
 
-By **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation).
+By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
 
 (1) Use the variance (or standard deviation) to measure the similarity of the scores within a panel: the smaller the variance, the more concentrated the scores within the panel and the more consistent the judges are.
 
@@ -182,7 +167,7 @@ with variance approximately $s_B^2\approx138.97$ and standard deviation approxim
 
 (2) Since $s_A\approx3.73< s_B\approx11.79$, the scores of panel A are clearly more concentrated and the judges' opinions are more consistent. Professional judges usually have uniform professional standards and score more consistently, whereas audience representatives score with greater variation. Hence panel A is more likely to consist of professionals. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Exercises 9, Comprehensive Application, Problem 8) Using a pedometer, a student recorded the number of steps walked each day for 100 days; the data are given in the textbook.
 
@@ -194,7 +179,7 @@ with variance approximately $s_B^2\approx138.97$ and standard deviation approxim
 
 ### Solution to Problem 8
 
-By **Definition 9.2.1** (Frequency Distribution Table and Frequency Distribution Histogram), **Definition 9.2.3** (Mode, Median and Mean) and **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation).
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
 
 (1) Group the 100 step-count data appropriately, list the frequency distribution table, and draw the frequency distribution histogram. One can see that this student's daily step count is roughly concentrated between $6000\sim12000$ steps, the distribution is roughly symmetric, but with a tail on the right, i.e. a few days have an exceptionally large step count.
 
@@ -212,7 +197,7 @@ $$
 
 This student walks about 9370 steps per day on average, with a median of about 9015 steps, indicating a moderate daily walking amount; the relatively large standard deviation indicates that his daily exercise is unstable, walking more on some days and less on others, and his exercise habits are not yet regular enough. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Exercises 9, Comprehensive Application, Problem 9) To understand the daily sales of apples in his shop, the manager of a fruit store recorded the daily sales of apples (in $\mathrm{kg}$) over the past 30 days, with the following results:
 
@@ -224,7 +209,7 @@ $83,96,107,91,70,75,94,80,80,100,75,99,117,89,74,94,84,85,101,87,93,85,107,99,55
 
 ### Solution to Problem 9
 
-By **Definition 9.2.3** (Mode, Median and Mean), **Definition 9.2.4** (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation) and **Definition 9.2.2** (The $p$-th Percentile).
+By **Definition 9.2.3 (Mode, Median and Mean)**, **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)** and **Definition 9.2.2 (The $p$-th Percentile)**.
 
 (1) Arrange the 30 data values from small to large. The mean is
 
@@ -244,7 +229,7 @@ The 80th percentile: $i=30\times80\%=24$, which is an integer, so it is the aver
 
 Hence about $100\,\mathrm{kg}$ of apples should be stocked each day, which keeps the apples as fresh as possible while meeting customer demand on about $80\%$ of days. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Review Exercises 9, Comprehensive Application, Problem 10) An insurance company decided to implement management by objectives for its salespeople, i.e. to set a specific sales target for each salesperson. The following data are the monthly sales (in ten thousand yuan) of some salespeople:
 
@@ -254,7 +239,7 @@ Based on this sample data, propose a suggestion so that $65\%$ of the employees 
 
 ### Solution to Problem 10
 
-By **Definition 9.2.2** (The $p$-th Percentile).
+By **Definition 9.2.2 (The $p$-th Percentile)**.
 
 To enable $65\%$ of the employees to meet the sales target, the sales target should be set at the 65th percentile of the monthly sales, so that about $65\%$ of the salespeople have monthly sales no lower than this target and can meet it.
 
@@ -262,13 +247,13 @@ Arrange the 50 monthly sales values from small to large. $i=50\times65\%=32.5$, 
 
 Hence it is suggested to set the monthly sales target at about $1.9$ ten thousand yuan. In this way about $65\%$ of the salespeople can meet the target, neither losing confidence because the target is too high for most people to reach, nor being hampered from tapping their work potential because the target is too low. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Review Exercises 9, Comprehensive Application, Problem 11) To understand the household electricity consumption in a certain city, the municipal statistics bureau surveyed the average monthly electricity consumption over the past year (in $\mathrm{kW\cdot h}$) of 200 households, with the data sorted from small to large. To both satisfy residents' basic electricity needs and improve energy efficiency, the municipal government plans to adopt a tiered electricity price, so that $75\%$ of residents pay at the first tier, $20\%$ pay at the second tier, and the remaining $5\%$ pay at the third tier. Please determine the range of each tier.
 
 ### Solution to Problem 11
 
-By **Definition 9.2.2** (The $p$-th Percentile).
+By **Definition 9.2.2 (The $p$-th Percentile)**.
 
 The first tier covers $75\%$ of residents, so the upper limit of the first tier is the 75th percentile; the second tier covers the next $20\%$, i.e. between the 75th and the 95th percentile; the third tier is the part exceeding the 95th percentile.
 
@@ -276,13 +261,13 @@ Arrange the 200 data values from small to large. The 75th percentile: $i=200\tim
 
 Hence the range of each tier can be set as: the first tier is average monthly consumption not exceeding $178\,\mathrm{kW\cdot h}$; the second tier is $\left(178,296.5\right]\,\mathrm{kW\cdot h}$; the third tier is average monthly consumption exceeding $296.5\,\mathrm{kW\cdot h}$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Review Exercises 9, Extension and Exploration, Problem 12) To understand the weight situation of students in the whole school, please design a survey plan, carry out the survey, and complete a statistical survey analysis report.
 
 ### Solution to Problem 12
 
-By **Definition 9.1.2** (Population, Individual, Sample and Sample Size), **Definition 9.1.5** (Stratified Random Sampling, Strata and Proportional Allocation) and **Definition 9.2.3** (Mode, Median and Mean).
+By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)**, **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)** and **Definition 9.2.3 (Mode, Median and Mean)**.
 
 The survey plan is designed as follows.
 

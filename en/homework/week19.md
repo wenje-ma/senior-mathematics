@@ -1,24 +1,16 @@
-# Assignment 19
+# week19
+> **Definition 5.2.1 (Sine, Cosine, Tangent)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (终边上任意一点的三角函数比值)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
-> **Definition 5.2.1** (Sine, Cosine and Tangent Functions) <br>Let $\alpha$ be an arbitrary angle, $\alpha\in\mathbb R$, whose terminal side $OP$ intersects the unit circle at the point $P\left(x,y\right)$. (1) The y-coordinate $y$ of the point $P$ is called the sine of $\alpha$, denoted by $\sin\alpha$, i.e. $y=\sin\alpha$; (2) the x-coordinate $x$ of the point $P$ is called the cosine of $\alpha$, denoted by $\cos\alpha$, i.e. $x=\cos\alpha$; (3) the ratio $\frac{y}{x}$ of the y-coordinate to the x-coordinate of the point $P$ is called the tangent of $\alpha$, denoted by $\tan\alpha$, i.e. $\frac{y}{x}=\tan\alpha$ ($x\neq0$).
+---
 
-> **Common Conclusion** (Domains of Trigonometric Functions) <br>The sine function $y=\sin x$, $x\in\mathbb R$; the cosine function $y=\cos x$, $x\in\mathbb R$; the tangent function $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$.
-
-> **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side) <br>Let $P$ be any point on the terminal side of the angle $\alpha$ (not coinciding with the origin $O$), with coordinates $\left(x,y\right)$, and let the distance from $P$ to the origin be $r=\sqrt{x^{2}+y^{2}}$. Then $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
-
-> **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side) <br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, where $k\in\mathbb Z$.
-
-> **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) <br>Sine: positive in the first and second quadrants, negative in the third and fourth; cosine: positive in the first and fourth quadrants, negative in the second and third; tangent: positive in the first and third quadrants, negative in the second and fourth.
-
-> **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle) <br>For the same angle $\alpha$, the sum of the squares of the sine and cosine equals $1$, and their quotient equals the tangent of $\alpha$, i.e. $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\frac{\sin\alpha}{\cos\alpha}=\tan\alpha$ ($\alpha\neq k\pi+\frac{\pi}{2}$, $k\in\mathbb Z$).
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.2, Problem 1) Using the definition of trigonometric functions, find the three trigonometric values of $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$.
 
 ### Solution to Exercise 1
 
-By **Definition 5.2.1** (Sine, Cosine and Tangent Functions), the terminal side of the angle $\alpha$ meets the unit circle at $P\left(x,y\right)$, so $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)**, the terminal side of the angle $\alpha$ meets the unit circle at $P\left(x,y\right)$, so $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
 
 (1) When $\alpha=0$, the terminal side meets the unit circle at $\left(1,0\right)$, so $\sin0=0$, $\cos0=1$, $\tan0=0$.
 
@@ -28,13 +20,13 @@ By **Definition 5.2.1** (Sine, Cosine and Tangent Functions), the terminal side 
 
 (4) When $\alpha=\frac{3\pi}{2}$, the terminal side meets the unit circle at $\left(0,-1\right)$, so $\sin\frac{3\pi}{2}=-1$, $\cos\frac{3\pi}{2}=0$, and $\tan\frac{3\pi}{2}$ is undefined. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.2, Problem 2) Using the definition of trigonometric functions, find the three trigonometric values of $-\frac{7\pi}{6}$.
 
 ### Solution to Exercise 2
 
-By **Definition 5.2.1** (Sine, Cosine and Tangent Functions).
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)**.
 
 Since $-\frac{7\pi}{6}=-2\pi+\frac{5\pi}{6}$, the terminal side of $-\frac{7\pi}{6}$ is the same as that of $\frac{5\pi}{6}$. The terminal side of $\frac{5\pi}{6}$ meets the unit circle at $\left(-\frac{\sqrt{3}}{2},\frac{1}{2}\right)$, so
 
@@ -44,13 +36,13 @@ $$
 
 $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.2, Problem 3) Given that the terminal side of the angle $\theta$ passes through the point $P\left(-12,5\right)$, find the trigonometric values of $\theta$.
 
 ### Solution to Exercise 3
 
-By **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side), $r=\sqrt{x^{2}+y^{2}}$.
+By **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**, $r=\sqrt{x^{2}+y^{2}}$.
 
 From $x=-12$ and $y=5$, we get $r=\sqrt{\left(-12\right)^{2}+5^{2}}=\sqrt{169}=13$. Hence
 
@@ -60,15 +52,15 @@ $$
 
 $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.2, Problem 4) Given that the point $P$ moves with uniform circular motion in the clockwise direction on a circle of radius $2$ at an angular velocity of $1\ \mathrm{rad/s}$, find the position of $P$ after $2\ \mathrm{s}$.
 
 ### Solution to Exercise 4
 
-By **Definition 5.2.1** (Sine, Cosine and Tangent Functions) and **Common Conclusion** (Formula for Radian Measure).
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Common Conclusion** (Formula for Radian Measure).
 
-After $2\ \mathrm{s}$, the angle swept by $P$ is $1\times2=2\ \mathrm{rad}$; since the rotation is clockwise, the swept angle is $-2\ \mathrm{rad}$. The circle has radius $2$, so by **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side), the coordinates of $P$ are
+After $2\ \mathrm{s}$, the angle swept by $P$ is $1\times2=2\ \mathrm{rad}$; since the rotation is clockwise, the swept angle is $-2\ \mathrm{rad}$. The circle has radius $2$, so by **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**, the coordinates of $P$ are
 
 $$
 \left(2\cos\left(-2\right),\ 2\sin\left(-2\right)\right)=\left(2\cos2,\ -2\sin2\right).
@@ -76,7 +68,7 @@ $$
 
 Hence after $2\ \mathrm{s}$, $P$ is at $\left(2\cos2,\ -2\sin2\right)$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 5.2, Problem 5) Fill in the table:
 
@@ -88,7 +80,7 @@ Hence after $2\ \mathrm{s}$, $P$ is at $\left(2\cos2,\ -2\sin2\right)$. $\blacks
 
 ### Solution to Exercise 5
 
-By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), reduce each angle to one with the same terminal side lying in the range $0\sim2\pi$, and then evaluate using **Definition 5.2.1** (Sine, Cosine and Tangent Functions).
+By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), reduce each angle to one with the same terminal side lying in the range $0\sim2\pi$, and then evaluate using **Definition 5.2.1 (Sine, Cosine and Tangent Functions)**.
 
 (1) $\alpha=2\pi$: $\sin2\pi=0$, $\cos2\pi=1$, $\tan2\pi=0$.
 
@@ -100,7 +92,7 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 (5) $\alpha=\frac{15\pi}{4}=4\pi-\frac{\pi}{4}$: $\sin\frac{15\pi}{4}=\sin\left(-\frac{\pi}{4}\right)=-\frac{\sqrt{3}}{2}$, $\cos\frac{15\pi}{4}=\cos\left(-\frac{\pi}{4}\right)=\frac{\sqrt{2}}{2}$, $\tan\frac{15\pi}{4}=\tan\left(-\frac{\pi}{4}\right)=-1$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 5.2, Problem 6) (Answer orally.) Let $\alpha$ be an interior angle of a triangle. Among $\sin\alpha$, $\cos\alpha$, $\tan\alpha$ and $\tan\frac{\alpha}{2}$, which can possibly take a negative value?
 
@@ -118,7 +110,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant), an
 
 In summary, $\cos\alpha$ and $\tan\alpha$ can be negative. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 5.2, Problem 7) Determine the sign of each of the following trigonometric values:
 
@@ -150,7 +142,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) and
 
 (6) Since $556^{\circ}=360^{\circ}+196^{\circ}$ and $196^{\circ}$ is a third-quadrant angle, $\tan556^{\circ}> 0$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 5.2, Problem 8) Among ①$\sin\theta> 0$, ②$\sin\theta< 0$, ③$\cos\theta> 0$, ④$\cos\theta< 0$, ⑤$\tan\theta> 0$ and ⑥$\tan\theta< 0$, choose the appropriate number to fill in the blank:
 
@@ -174,7 +166,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
 (4) Fourth-quadrant angle: $\sin\theta< 0$ and $\cos\theta> 0$, and $\tan\theta< 0$. The necessary and sufficient condition is ②③⑥. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 5.2, Problem 9) Find the following trigonometric values (a calculator may be used; round part (1) to $0.0001$):
 
@@ -198,7 +190,7 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 (4) From $-\frac{31\pi}{4}=-8\pi+\frac{\pi}{4}$, we get $\tan\left(-\frac{31\pi}{4}\right)=\tan\frac{\pi}{4}=1$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 5.2, Problem 10) Given $\cos\alpha=-\frac{4}{5}$ and that $\alpha$ is a third-quadrant angle, find the values of $\sin\alpha$ and $\tan\alpha$.
 
@@ -214,7 +206,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 5.2, Problem 11) Given $\tan\varphi=-\sqrt{3}$, find the values of $\sin\varphi$ and $\cos\varphi$.
 
@@ -228,7 +220,7 @@ From $\tan\varphi=-\sqrt{3}$, $\varphi$ is a second- or fourth-quadrant angle.
 
 (2) If $\varphi$ is a fourth-quadrant angle, then $\sin\varphi< 0$ and $\cos\varphi> 0$; by the same argument, $\cos\varphi=\frac{1}{2}$ and $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
-### Exercise 12
+## Exercise 12
 
 (Exercise 5.2, Problem 12) Given $\sin\theta=0.35$, find the values of $\cos\theta$ and $\tan\theta$ (round to $0.01$).
 
@@ -242,7 +234,7 @@ From $\sin\theta=0.35$, we get $\cos^{2}\theta=1-0.35^{2}=0.8775$, so $\cos\thet
 
 (2) If $\theta$ is a second-quadrant angle, then $\cos\theta\approx-0.94$ and $\tan\theta=\frac{0.35}{-0.94}\approx-0.37$. $\blacksquare$
 
-### Exercise 13
+## Exercise 13
 
 (Exercise 5.2, Problem 13) Simplify:
 
@@ -276,7 +268,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 14
+## Exercise 14
 
 (Exercise 5.2, Problem 14) Prove: $\sin^{4}\alpha+\sin^{2}\alpha\cos^{2}\alpha+\cos^{2}\alpha=1$.
 
@@ -286,7 +278,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 The left side $=\sin^{2}\alpha\left(\sin^{2}\alpha+\cos^{2}\alpha\right)+\cos^{2}\alpha=\sin^{2}\alpha\cdot1+\cos^{2}\alpha=\sin^{2}\alpha+\cos^{2}\alpha=1=$ the right side. Hence the identity holds. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.2, Review and Consolidation, Problem 1) Use the definition and Formula 1 to find the three trigonometric values of the following angles (a calculator may be used):
 
@@ -300,7 +292,7 @@ The left side $=\sin^{2}\alpha\left(\sin^{2}\alpha+\cos^{2}\alpha\right)+\cos^{2
 
 ### Solution to Problem 1
 
-By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), reduce each angle to the range $0\sim2\pi$ or $0^{\circ}\sim360^{\circ}$, and then evaluate using **Definition 5.2.1** (Sine, Cosine and Tangent Functions).
+By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), reduce each angle to the range $0\sim2\pi$ or $0^{\circ}\sim360^{\circ}$, and then evaluate using **Definition 5.2.1 (Sine, Cosine and Tangent Functions)**.
 
 (1) From $-\frac{17\pi}{3}=-6\pi+\frac{\pi}{3}$, we get $\sin\left(-\frac{17\pi}{3}\right)=\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{17\pi}{3}\right)=\cos\frac{\pi}{3}=\frac{1}{2}$, $\tan\left(-\frac{17\pi}{3}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
 
@@ -310,13 +302,13 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 (4) From $1500^{\circ}=4\times360^{\circ}+60^{\circ}$, we get $\sin1500^{\circ}=\sin60^{\circ}=\frac{\sqrt{3}}{2}$, $\cos1500^{\circ}=\cos60^{\circ}=\frac{1}{2}$, $\tan1500^{\circ}=\tan60^{\circ}=\sqrt{3}$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.2, Review and Consolidation, Problem 2) Given that a point $P$ on the terminal side of the angle $\alpha$ has coordinates $\left(3a,4a\right)$, where $a\neq0$, find the values of $\sin\alpha$, $\cos\alpha$ and $\tan\alpha$.
 
 ### Solution to Problem 2
 
-By **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side), $r=\sqrt{x^{2}+y^{2}}$.
+By **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**, $r=\sqrt{x^{2}+y^{2}}$.
 
 From $x=3a$ and $y=4a$, we get $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
 
@@ -324,7 +316,7 @@ From $x=3a$ and $y=4a$, we get $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}
 
 (2) When $a< 0$, $r=-5a$, so $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.2, Review and Consolidation, Problem 3) Compute:
 
@@ -338,7 +330,7 @@ From $x=3a$ and $y=4a$, we get $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}
 
 ### Solution to Problem 3
 
-Use **Definition 5.2.1** (Sine, Cosine and Tangent Functions) to find the trigonometric values of the special angles, and then substitute and compute.
+Use **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** to find the trigonometric values of the special angles, and then substitute and compute.
 
 (1) From $\sin\left(-90^{\circ}\right)=-1$, $\sin0^{\circ}=0$, $\sin270^{\circ}=-1$, $\cos180^{\circ}=-1$, we get
 
@@ -366,7 +358,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.2, Review and Consolidation, Problem 4) Simplify:
 
@@ -380,7 +372,7 @@ $\blacksquare$
 
 ### Solution to Problem 4
 
-Use **Definition 5.2.1** (Sine, Cosine and Tangent Functions) to find the trigonometric values of the special angles, and then substitute and simplify.
+Use **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** to find the trigonometric values of the special angles, and then substitute and simplify.
 
 (1) From $\sin0^{\circ}=0$, $\cos90^{\circ}=0$, $\tan180^{\circ}=0$, the original expression $=0$.
 
@@ -390,7 +382,7 @@ Use **Definition 5.2.1** (Sine, Cosine and Tangent Functions) to find the trigon
 
 (4) From $\tan0=0$, $\cos\frac{\pi}{2}=0$, $\sin\pi=0$, $\sin2\pi=0$, the original expression $=0$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.2, Review and Consolidation, Problem 5) Determine the sign of each of the following trigonometric values:
 
@@ -422,7 +414,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant) and
 
 (6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, and $\frac{9\pi}{17}$ is a second-quadrant angle, so $\cos\left(-\frac{59\pi}{17}\right)< 0$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.2, Review and Consolidation, Problem 6)
 
@@ -446,7 +438,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 (4) From $\sin^{2}\alpha+\cos^{2}\alpha=1$, we get $\sin^{2}\alpha=1-0.68^{2}=0.5376$, so $\sin\alpha=\pm\sqrt{0.5376}\approx\pm0.73$. If $\alpha$ is a first-quadrant angle, then $\sin\alpha\approx0.73$ and $\tan\alpha=\frac{0.73}{0.68}\approx1.07$; if $\alpha$ is a fourth-quadrant angle, then $\sin\alpha\approx-0.73$ and $\tan\alpha\approx-1.07$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.2, Comprehensive Application, Problem 7) Find the value of the function $f\left(x\right)=\sin\left(x+\frac{\pi}{4}\right)+2\sin\left(x-\frac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\frac{3\pi}{4}\right)$ under each of the following conditions:
 
@@ -456,7 +448,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 ### Solution to Problem 7
 
-Use **Definition 5.2.1** (Sine, Cosine and Tangent Functions) to find the trigonometric values of the special angles, and then substitute and compute.
+Use **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** to find the trigonometric values of the special angles, and then substitute and compute.
 
 (1) When $x=\frac{\pi}{4}$,
 
@@ -480,7 +472,7 @@ $$
 
 $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 5.2, Comprehensive Application, Problem 8) Determine the sign of each of the following expressions:
 
@@ -504,7 +496,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
 (4) $\frac{5\pi}{6}$ is a second-quadrant angle, so $\cos\frac{5\pi}{6}< 0$; $\frac{11\pi}{6}$ is a fourth-quadrant angle, so $\tan\frac{11\pi}{6}< 0$; $\frac{2\pi}{3}$ is a second-quadrant angle, so $\sin\frac{2\pi}{3}> 0$. The numerator is positive and the denominator is positive, so the original expression $> 0$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 5.2, Comprehensive Application, Problem 9) Find the following trigonometric values (a calculator may be used; round parts (1), (3) and (4) to $0.0001$):
 
@@ -528,7 +520,7 @@ By **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side), r
 
 (4) From $766^{\circ}15'=2\times360^{\circ}+46^{\circ}15'$, we get $\tan766^{\circ}15'=\tan46^{\circ}15'\approx1.0433$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 5.2, Comprehensive Application, Problem 10) Prove:
 
@@ -552,7 +544,7 @@ By **Common Conclusion** (Signs of Trigonometric Functions in Each Quadrant).
 
 (4) $\sin\theta\cos\theta> 0$ is equivalent to $\sin\theta$ and $\cos\theta$ having the same sign. First quadrant: both positive; third quadrant: both negative. The second and fourth quadrants have opposite signs. Hence the necessary and sufficient condition holds. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 5.2, Comprehensive Application, Problem 11) Given $\sin x=-\frac{1}{3}$, find the values of $\cos x$ and $\tan x$.
 
@@ -566,7 +558,7 @@ Since $\sin x=-\frac{1}{3}< 0$, $x$ is a third- or fourth-quadrant angle. From $
 
 (2) If $x$ is a fourth-quadrant angle, then $\cos x> 0$, so $\cos x=\frac{2\sqrt{2}}{3}$ and $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 5.2, Comprehensive Application, Problem 12) Given $\tan\alpha=\sqrt{3}$ and $\pi< \alpha< \frac{3\pi}{2}$, find the value of $\cos\alpha-\sin\alpha$.
 
@@ -582,7 +574,7 @@ $$
 
 $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 5.2, Comprehensive Application, Problem 13) Given that the terminal side of the angle $\alpha$ does not lie on a coordinate axis:
 
@@ -598,7 +590,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 (2) From $\cos^{2}\alpha=1-\sin^{2}\alpha$, we get $\cos\alpha=\pm\sqrt{1-\sin^{2}\alpha}$ (the sign is determined by the quadrant of $\alpha$), and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sin\alpha}{\sqrt{1-\sin^{2}\alpha}}$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 5.2, Comprehensive Application, Problem 14) Prove:
 
@@ -622,7 +614,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 (4) The left side $=\left(\sin^{2}x+\cos^{2}x\right)^{2}-2\sin^{2}x\cos^{2}x=1-2\sin^{2}x\cos^{2}x=$ the right side. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 5.2, Comprehensive Application, Problem 15) Given $\tan\alpha=2$, find the value of $\frac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$.
 
@@ -638,7 +630,7 @@ $$
 
 $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Exercise 5.2, Extension and Exploration, Problem 16) Simplify $\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}$, where $\alpha$ is a second-quadrant angle.
 
@@ -658,7 +650,7 @@ $$
 
 Hence the original expression $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\alpha}{-\cos\alpha}=\frac{2\sin\alpha}{-\cos\alpha}=-2\tan\alpha$. $\blacksquare$
 
-### Problem 17
+## Problem 17
 
 (Exercise 5.2, Extension and Exploration, Problem 17) From Example 7 of this section one can see that $\frac{\cos x}{1-\sin x}=\frac{1+\sin x}{\cos x}$ is just a variant form of $\sin^{2}x+\cos^{2}x=1$. Can you derive more relations using the basic relations among trigonometric functions of the same angle?
 
@@ -674,7 +666,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 (4) From $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha$, we obtain $\sin\alpha\cos\alpha=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}-1}{2}$. $\blacksquare$
 
-### Problem 18
+## Problem 18
 
 (Exercise 5.2, Extension and Exploration, Problem 18)
 
@@ -710,6 +702,6 @@ The two are equal.
 
 ### Solution to Reading and Thinking 1
 
-Based on **Definition 5.2.1** (Sine, Cosine and Tangent Functions) and **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), the core of trigonometry is to establish the correspondence between angles and ratios.
+Based on **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), the core of trigonometry is to establish the correspondence between angles and ratios.
 
 The origin and development of trigonometry are inextricably linked with astronomy. Before the year $1450$, trigonometry was mainly spherical trigonometry, owing to the needs of human practical activities such as navigation, calendar calculation and astronomical observation. The first mathematician to separate trigonometry from astronomy was the German Regiomontanus, whose work "On Various Triangles" was the first European treatise on trigonometry independent of astronomy. Later, Rheticus improved the traditional relationship between arcs and chords into the trigonometric relationship between angles, and produced more precise tables of trigonometric functions. Driven by the needs of astronomical research, producing ever more precise trigonometric tables was long the goal mathematicians strove for, which greatly advanced the development of trigonometry. In the $16$th century, trigonometry separated from astronomy and became an independent branch of mathematics. $\blacksquare$

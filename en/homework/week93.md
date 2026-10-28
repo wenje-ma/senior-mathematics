@@ -1,40 +1,11 @@
-# Assignment 93
+# week93
+> **Definition 6.1.1 (分类加法计数原理)**<br>完成一件事有两类不同方案, 在第 1 类方案中有 m 种不同的方法, 在第 2 类方案中有 n 种不同的方法, 那么完成这件事共有 N = m + n 种不同的方法.
+> **Definition 6.1.2 (分步乘法计数原理)**<br>完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
+> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**<br>如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
 
-> **Definition 6.1.1** (Classification Addition Counting Principle) <br>There are two different ways to accomplish a task; the first kind of way has $m$ different methods, and the second kind has $n$ different methods; then there are $N=m+n$ different methods in total to accomplish the task.
+---
 
-> **Definition 6.1.2** (Stepwise Multiplication Counting Principle) <br>Accomplishing a task requires two steps; the first step has $m$ different methods, and the second step has $n$ different methods; then there are $N=m\times n$ different methods in total to accomplish the task.
-
-> **Common Conclusion 6.1.3** (Key Points in Applying the Two Counting Principles) <br>When using the two counting principles to solve counting problems, first carefully analyze two points: (1) what exactly is the task to be accomplished; (2) whether classification or stepwise decomposition is needed. Classification must be neither overlapping nor omitting, and stepwise decomposition must be complete in its steps.
-
-> **Definition 6.2.1** (Permutation) <br>Choosing $m$ ($m\le n$) elements from $n$ distinct elements and arranging them in a row in a certain order is called a permutation of $m$ elements chosen from $n$ distinct elements.
-
-> **Definition 6.2.2** (Number of Permutations) <br>The number of all distinct permutations of $m$ ($m\le n$) elements chosen from $n$ distinct elements is called the number of permutations of $m$ elements chosen from $n$ distinct elements, denoted $\mathrm{P}\left(n,m\right)$.
-
-> **Formula 6.2.3** (Permutation Number Formula) <br>$\mathrm{P}\left(n,m\right)=n\left(n-1\right)\left(n-2\right)\cdots\left(n-m+1\right)=\frac{n!}{\left(n-m\right)!}$, where $n,m\in\mathbb N^*$ and $m\le n$. By convention $0!=1$.
-
-> **Definition 6.2.4** (Full Permutation and Factorial) <br>A permutation in which all $n$ distinct elements are taken is called a full permutation of $n$ elements, $\mathrm{P}\left(n,n\right)=n!=n\times\left(n-1\right)\times\cdots\times 2\times 1$.
-
-> **Definition 6.2.5** (Combination) <br>Choosing $m$ ($m\le n$) elements from $n$ distinct elements and grouping them together is called a combination of $m$ elements chosen from $n$ distinct elements.
-
-> **Definition 6.2.6** (Number of Combinations) <br>The number of all distinct combinations of $m$ ($m\le n$) elements chosen from $n$ distinct elements is called the number of combinations of $m$ elements chosen from $n$ distinct elements, denoted $\binom{n}{m}$.
-
-> **Formula 6.2.7** (Combination Number Formula) <br>$\binom{n}{m}=\frac{\mathrm{P}\left(n,m\right)}{\mathrm{P}\left(m,m\right)}=\frac{n!}{m!\left(n-m\right)!}$, where $m,n\in\mathbb N^*$ and $m\le n$. By convention $\binom{n}{0}=1$.
-
-> **Property** (Two Properties of Binomial Coefficients) <br>(1) $\binom{n}{m}=\binom{n}{n-m}$; (2) $\binom{n+1}{m}=\binom{n}{m}+\binom{n}{m-1}$.
-
-> **Theorem 6.3.1** (Binomial Theorem) <br>For any positive integer $n$,
-
-$$
-\left(a+b\right)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
-$$
-
-> **Formula 6.3.2** (General Term of the Binomial Expansion) <br>$T_{k+1}=\binom{n}{k} a^{n-k}b^k$, where $\binom{n}{k}$ is called a binomial coefficient.
-
-> **Formula 6.3.3** (Expansion of $\left(1+x\right)^n$) <br>$\left(1+x\right)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{n} x^n$.
-
-> **Property 6.3.4** (Properties of Binomial Coefficients) <br>(1) Symmetry: $\binom{n}{k}=\binom{n}{n-k}$; (2) Monotonicity and maximum: when $n$ is even the middle term $\binom{n}{n/2}$ is largest, and when $n$ is odd the two middle terms $\binom{n}{\left(n-1\right)/2}$ and $\binom{n}{\left(n+1\right)/2}$ are equal and largest; (3) Sum of all binomial coefficients: $\binom{n}{0}+\binom{n}{1}+\cdots+\binom{n}{n}=2^n$; (4) The sums of the binomial coefficients of the odd- and even-positioned terms are equal: $\binom{n}{0}+\binom{n}{2}+\cdots=\binom{n}{1}+\binom{n}{3}+\cdots=2^{n-1}$.
-
-### Problem 1
+## Problem 1
 
 (Review Reference Exercise 6, Review and Consolidation, Problem 1) Fill in the blanks.
 
@@ -54,17 +25,17 @@ $$
 
 ### Solution to Problem 1
 
-By **Definition 6.1.1** (Classification Addition Counting Principle), **Definition 6.1.2** (Stepwise Multiplication Counting Principle), **Formula 6.2.3** (Permutation Number Formula) and **Formula 6.2.7** (Combination Number Formula).
+By **Definition 6.1.1 (Classification Addition Counting Principle)**, **Definition 6.1.2 (Stepwise Multiplication Counting Principle)**, **Formula 6.2.3** (Permutation Number Formula) and **Formula 6.2.7** (Combination Number Formula).
 
-(1) When expanding, choose one $a_i$ from the first parentheses and one $b_j$ from the second; each pair $\left(a_i,b_j\right)$ gives one term. By **Definition 6.1.2**, the number of terms is $n\times n=n^2$.
+(1) When expanding, choose one $a_i$ from the first parentheses and one $b_j$ from the second; each pair $\left(a_i,b_j\right)$ gives one term. By **Definition 6.1.2 (Directed Line Segment)**, the number of terms is $n\times n=n^2$.
 
-(2) Choosing courses and choosing activity groups are two steps. By **Definition 6.1.2** and **Formula 6.2.7**, the number of different choices is
+(2) Choosing courses and choosing activity groups are two steps. By **Definition 6.1.2 (Directed Line Segment)** and **Formula 6.2.7**, the number of different choices is
 
 $$
 \binom{7}{3}\times \binom{6}{2}=35\times 15=525.
 $$
 
-(3) First arrange that singer: they cannot be first or last, so there are $4$ positions in the middle to choose from. Then arrange the remaining $5$ singers: by **Formula 6.2.3**, there are $\mathrm{P}\left(5,5\right)=120$ ways. By **Definition 6.1.2**, the number of different arrangements is
+(3) First arrange that singer: they cannot be first or last, so there are $4$ positions in the middle to choose from. Then arrange the remaining $5$ singers: by **Formula 6.2.3**, there are $\mathrm{P}\left(5,5\right)=120$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of different arrangements is
 
 $$
 4\times 120=480.
@@ -72,9 +43,9 @@ $$
 
 (4) Choose $4$ of the $5$ people to get tickets; by **Formula 6.2.7**, the number of different distributions is $\binom{5}{4}=5$.
 
-(5) Each student has $3$ choices, and the $5$ students are independent of one another. By **Definition 6.1.2**, the number of different choices is $3^5=243$.
+(5) Each student has $3$ choices, and the $5$ students are independent of one another. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is $3^5=243$.
 
-(6) A regular dodecagon has $12$ vertices; connecting every two vertices gives $\binom{12}{2}=66$ segments, of which $12$ are sides and the rest are diagonals. By **Definition 6.1.1**, the number of diagonals is
+(6) A regular dodecagon has $12$ vertices; connecting every two vertices gives $\binom{12}{2}=66$ segments, of which $12$ are sides and the rest are diagonals. By **Definition 6.1.1 (分类加法计数原理)**, the number of diagonals is
 
 $$
 \binom{12}{2}-12=66-12=54.
@@ -84,7 +55,7 @@ $$
 
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Reference Exercise 6, Review and Consolidation, Problem 2) A set has $5$ elements.
 
@@ -108,7 +79,7 @@ such subsets.
 
 $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Reference Exercise 6, Review and Consolidation, Problem 3) Fill in the blanks.
 
@@ -124,19 +95,19 @@ $\blacksquare$
 
 ### Solution to Problem 3
 
-By **Formula 6.2.7** (Combination Number Formula), **Definition 6.1.2** (Stepwise Multiplication Counting Principle) and **Formula 6.3.3** (Expansion of $\left(1+x\right)^n$).
+By **Formula 6.2.7** (Combination Number Formula), **Definition 6.1.2 (Stepwise Multiplication Counting Principle)** and **Formula 6.3.3** (Expansion of $\left(1+x\right)^n$).
 
 (1) By **Formula 6.2.7** and **Property** (Two Properties of Binomial Coefficients), $\binom{n+1}{n-1}=\binom{n+1}{2}=\frac{\left(n+1\right)n}{2}=21$, i.e. $n\left(n+1\right)=42$, solving gives $n=6$.
 
-(2) Mathematics is placed in one of the $4$ morning periods: $4$ ways; physical education in one of the $2$ afternoon periods: $2$ ways; the remaining $4$ courses are arranged freely in the remaining $4$ periods: $\mathrm{P}\left(4,4\right)=24$ ways. By **Definition 6.1.2**, the number of different arrangements is
+(2) Mathematics is placed in one of the $4$ morning periods: $4$ ways; physical education in one of the $2$ afternoon periods: $2$ ways; the remaining $4$ courses are arranged freely in the remaining $4$ periods: $\mathrm{P}\left(4,4\right)=24$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of different arrangements is
 
 $$
 4\times 2\times 24=192.
 $$
 
-(3) Two different English letters have $26\times 25=650$ possibilities; four digits have $10^4=10000$ possibilities. By **Definition 6.1.2**, the number of passwords is $650\times 10000=6500000$.
+(3) Two different English letters have $26\times 25=650$ possibilities; four digits have $10^4=10000$ possibilities. By **Definition 6.1.2 (Directed Line Segment)**, the number of passwords is $650\times 10000=6500000$.
 
-(4) A cube has $8$ vertices; choosing any $4$ gives $\binom{8}{4}=70$ ways. Among them, the cases where the four points are coplanar: $6$ faces plus $6$ diagonal planes, $12$ in all, cannot form a triangular pyramid. By **Definition 6.1.1**, the number of triangular pyramids is
+(4) A cube has $8$ vertices; choosing any $4$ gives $\binom{8}{4}=70$ ways. Among them, the cases where the four points are coplanar: $6$ faces plus $6$ diagonal planes, $12$ in all, cannot form a triangular pyramid. By **Definition 6.1.1 (分类加法计数原理)**, the number of triangular pyramids is
 
 $$
 70-12=58.
@@ -146,7 +117,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Reference Exercise 6, Review and Consolidation, Problem 4)
 
@@ -172,7 +143,7 @@ $$
 
 $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Reference Exercise 6, Comprehensive Application, Problem 5)
 
@@ -188,7 +159,7 @@ $\blacksquare$
 
 ### Solution to Problem 5
 
-By **Formula 6.3.2** (General Term of the Binomial Expansion), **Theorem 6.3.1** (Binomial Theorem) and **Property 6.3.4** (Properties of Binomial Coefficients).
+By **Formula 6.3.2** (General Term of the Binomial Expansion), **Theorem 6.3.1 (Binomial Theorem)** and **Property 6.3.4** (Properties of Binomial Coefficients).
 
 (1) Expand each up to the $x^2$ term:
 
@@ -228,7 +199,7 @@ $$
 
 Solving gives $n^2-37n+322=0$, i.e. $\left(n-14\right)\left(n-23\right)=0$, so $n=14$ or $n=23$.
 
-(4) By **Theorem 6.3.1**, $\left(1-x\right)^{10}=\sum_{k=0}^{10}\binom{10}{k}\left(-x\right)^k$. After multiplying by $\left(1+x+x^2\right)$, the coefficient of $x^4$ comes from three parts:
+(4) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, $\left(1-x\right)^{10}=\sum_{k=0}^{10}\binom{10}{k}\left(-x\right)^k$. After multiplying by $\left(1+x+x^2\right)$, the coefficient of $x^4$ comes from three parts:
 
 $$
 \binom{10}{4}\left(-1\right)^4+\binom{10}{3}\left(-1\right)^3+\binom{10}{2}\left(-1\right)^2=210-120+45=135.
@@ -242,15 +213,15 @@ $$
 
 $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Reference Exercise 6, Comprehensive Application, Problem 6) Use the binomial theorem to prove that $55^{55}+9$ is divisible by $8$. (Hint: $55^{55}+9=\left(56-1\right)^{55}+9$.)
 
 ### Solution to Problem 6
 
-By **Theorem 6.3.1** (Binomial Theorem).
+By **Theorem 6.3.1 (Binomial Theorem)**.
 
-By the hint, $55^{55}+9=\left(56-1\right)^{55}+9$. By **Theorem 6.3.1**,
+By the hint, $55^{55}+9=\left(56-1\right)^{55}+9$. By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
 \left(56-1\right)^{55}=\binom{55}{0} 56^{55}-\binom{55}{1} 56^{54}+\cdots+\binom{55}{54}56\left(-1\right)^{54}+\left(-1\right)^{55}.
@@ -270,7 +241,7 @@ $$
 
 Except for the last term $8$, every other term contains the factor $56$, and $56$ is divisible by $8$; hence $55^{55}+9$ is divisible by $8$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Reference Exercise 6, Comprehensive Application, Problem 7)
 
@@ -280,15 +251,15 @@ Except for the last term $8$, every other term contains the factor $56$, and $56
 
 ### Solution to Problem 7
 
-By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2** (Stepwise Multiplication Counting Principle).
+By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2 (Stepwise Multiplication Counting Principle)**.
 
-(1) Forming a parallelogram requires choosing $2$ lines from the first group and $2$ from the second. By **Definition 6.1.2**, the number is
+(1) Forming a parallelogram requires choosing $2$ lines from the first group and $2$ from the second. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
 \binom{m}{2} \binom{n}{2}.
 $$
 
-(2) Forming a parallelepiped requires choosing $2$ planes from each of the three groups. By **Definition 6.1.2**, the number is
+(2) Forming a parallelepiped requires choosing $2$ planes from each of the three groups. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
 \binom{m}{2} \binom{n}{2} \binom{l}{2}.
@@ -296,7 +267,7 @@ $$
 
 $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Reference Exercise 6, Comprehensive Application, Problem 8) The processing of a certain product requires going through $5$ processes.
 
@@ -310,27 +281,27 @@ $\blacksquare$
 
 ### Solution to Problem 8
 
-By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.1** (Classification Addition Counting Principle).
+By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.1 (Classification Addition Counting Principle)**.
 
-(1) One process cannot be placed last, so there are $4$ positions to choose from; the other $4$ processes are fully permuted: $\mathrm{P}\left(4,4\right)=24$. By **Definition 6.1.2**, the number of processing orders is
+(1) One process cannot be placed last, so there are $4$ positions to choose from; the other $4$ processes are fully permuted: $\mathrm{P}\left(4,4\right)=24$. By **Definition 6.1.2 (Directed Line Segment)**, the number of processing orders is
 
 $$
 4\times 24=96.
 $$
 
-(2) A certain $2$ processes can only be placed in the middle $3$ positions: choose and arrange $2$ of them: $\mathrm{P}\left(3,2\right)=6$; the remaining $3$ processes are fully permuted: $\mathrm{P}\left(3,3\right)=6$. By **Definition 6.1.2**, the number is
+(2) A certain $2$ processes can only be placed in the middle $3$ positions: choose and arrange $2$ of them: $\mathrm{P}\left(3,2\right)=6$; the remaining $3$ processes are fully permuted: $\mathrm{P}\left(3,3\right)=6$. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
 6\times 6=36.
 $$
 
-(3) Bind the $2$ processes that must be adjacent and regard them as one element; together with the other $3$ processes, fully permute the $4$ elements: $\mathrm{P}\left(4,4\right)=24$; permute the $2$ processes within the bundle: $\mathrm{P}\left(2,2\right)=2$. By **Definition 6.1.2**, the number is
+(3) Bind the $2$ processes that must be adjacent and regard them as one element; together with the other $3$ processes, fully permute the $4$ elements: $\mathrm{P}\left(4,4\right)=24$; permute the $2$ processes within the bundle: $\mathrm{P}\left(2,2\right)=2$. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
 24\times 2=48.
 $$
 
-(4) The $5$ processes are fully permuted in $\mathrm{P}\left(5,5\right)=120$ ways. By (3), of these $48$ are adjacent. By **Definition 6.1.1**, the number of non-adjacent arrangements is
+(4) The $5$ processes are fully permuted in $\mathrm{P}\left(5,5\right)=120$ ways. By (3), of these $48$ are adjacent. By **Definition 6.1.1 (分类加法计数原理)**, the number of non-adjacent arrangements is
 
 $$
 120-48=72.
@@ -338,7 +309,7 @@ $$
 
 $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Reference Exercise 6, Extension and Exploration, Problem 9) In the expansion of $\left(1+x\right)^3+\left(1+x\right)^4+\cdots+\left(1+x\right)^{n+2}$, what is the coefficient of the term containing $x^2$?
 
@@ -360,13 +331,13 @@ $$
 
 Hence the coefficient of the term containing $x^2$ is $\binom{n+3}{3}$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Review Reference Exercise 6, Extension and Exploration, Problem 10) Can you construct a real-world context that explains the meaning of the identity $\binom{n}{k}\cdot \binom{n-k}{m-k}=\binom{n}{m}\cdot \binom{m}{k}$?
 
 ### Solution to Problem 10
 
-By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2** (Stepwise Multiplication Counting Principle).
+By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2 (Stepwise Multiplication Counting Principle)**.
 
 Construct the following real-world context: choose $m$ people from $n$ to form a committee, and then choose $k$ of these $m$ to be standing committee members.
 
@@ -374,7 +345,7 @@ Right-hand side $\binom{n}{m}\cdot \binom{m}{k}$: first choose the $m$-person co
 
 Left-hand side $\binom{n}{k}\cdot \binom{n-k}{m-k}$: first choose $k$ of the $n$ people to be standing members, then choose $m-k$ of the remaining $n-k$ people to be ordinary committee members.
 
-The two ways of choosing accomplish the same task; counting by **Definition 6.1.2**, the results are equal, so
+The two ways of choosing accomplish the same task; counting by **Definition 6.1.2 (Directed Line Segment)**, the results are equal, so
 
 $$
 \binom{n}{k}\cdot \binom{n-k}{m-k}=\binom{n}{m}\cdot \binom{m}{k}.

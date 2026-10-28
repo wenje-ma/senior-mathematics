@@ -1,14 +1,10 @@
-# Assignment 25
+# week25
+> **Definition 3.1.1 (Function)**<br>设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> **Definition 4.3.1 (Logarithm)**<br>If a^b = N (a > 0, a != 1), then b is called the logarithm of N base a.
 
-> **Definition 3.1.1** (Function) <br>In general, let $A,B$ be nonempty sets of real numbers. If, for any number $x$ in set $A$, there is a uniquely determined number $y$ in set $B$ corresponding to it according to some definite correspondence rule $f$, then $f:A\to B$ is called a function from set $A$ to set $B$, denoted $y=f\left(x\right)$, $x\in A$.
+---
 
-> **Common Conclusion 4.2.3** (Exponential Growth and Decay Models) <br>Let the original quantity be $N$, the growth rate each time be $p$, and after $x$ growth periods the quantity grows to $y$, then $y=N\left(1+p\right)^x$ ($x\in\mathbb N$). A function of the form $y=ka^x$ ($k\in\mathbb R$, and $k\neq 0$; $a> 0$, and $a\neq 1$) is a very useful function model for describing exponential growth or exponential decay patterns.
-
-> **Definition 4.3.1** (Logarithm) <br>In general, if $a^x=N$ ($a> 0$, and $a\neq 1$), then the number $x$ is called the logarithm of $N$ with base $a$, denoted $x=\log_a N$, where $a$ is called the base of the logarithm and $N$ is called the argument.
-
-> **Common Conclusion 4.3.3** (Relationship between Logarithms and Exponents) <br>When $a> 0$, $a\neq 1$, $a^x=N\Leftrightarrow x=\log_a N$. Negative numbers and $0$ have no logarithm; $\log_a 1=0$, $\log_a a=1$.
-
-### Problem 1
+## Problem 1
 
 (Problem 1) Chinese tea culture is extensive and profound. The taste of tea depends on the type of tea leaves and the temperature of the water. Experience shows that for a certain green tea, brewing it with water at $85^\circ\text{C}$ and then waiting until the tea cools to $60^\circ\text{C}$ before drinking it gives the best taste. Then, at a room temperature of $25^\circ\text{C}$, approximately how long should freshly brewed tea stand to reach the optimal drinking taste?
 
@@ -20,7 +16,7 @@ A researcher measured the tea temperature every $1\ \min$ and obtained a set of 
 
 ### Solution to Problem 1
 
-By **Definition 3.1.1** (Function), the tea temperature $y$ is a function of time $x$. By **Common Conclusion 4.2.3** (Exponential Growth and Decay Models), observing the distribution of the scatter plot and taking into account the fact that the tea temperature cannot drop below room temperature, one may choose the function
+By **Definition 3.1.1 (Function)**, the tea temperature $y$ is a function of time $x$. By **Common Conclusion 4.2.3** (Exponential Growth and Decay Models), observing the distribution of the scatter plot and taking into account the fact that the tea temperature cannot drop below room temperature, one may choose the function
 
 $$
 y=ka^x+25\quad\left(k\in\mathbb R,\ 0< a< 1,\ x\ge 0\right)
@@ -69,7 +65,7 @@ $$
 x=\log_{0.9227}\frac{7}{12}.
 $$
 
-By **Definition 4.3.1** (Logarithm), the computation gives $x\approx 6.6997$.
+By **Definition 4.3.1 (Logarithm)**, the computation gives $x\approx 6.6997$.
 
 Therefore, the time needed to brew a cup of tea with the optimal taste is approximately $7\ \min$. $\blacksquare$
 
@@ -79,7 +75,7 @@ Therefore, the time needed to brew a cup of tea with the optimal taste is approx
 
 ### Solution to Thinking 1
 
-By **Definition 3.1.1** (Function), the function model contains the undetermined parameter $a$, while Table 1 gives multiple sets of measured data.
+By **Definition 3.1.1 (Function)**, the function model contains the undetermined parameter $a$, while Table 1 gives multiple sets of measured data.
 
 (1) Directly substituting one set of data to find $a$ is feasible. For example, taking $x=1$, $y=79.19$ and substituting into $y=60a^x+25$ gives
 

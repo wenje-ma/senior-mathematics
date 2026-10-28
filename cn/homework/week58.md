@@ -1,22 +1,12 @@
-# 作业 58
+# week58
+> **定理 1.2.1 (空间向量基本定理)**<br>如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
+> **定义 1.3.1 (空间直角坐标系)**<br>在空间中取一定点 O 和三个两两垂直的单位向量 i, j, k, 以 O 为原点建立三条数轴 x 轴, y 轴, z 轴, 就建立了空间直角坐标系.
+> **定义 1.3.2 (点的坐标)**<br>空间一点 M 的位置可用有序实数组 (x, y, z) 表示, 这个有序实数组叫做点 M 在此空间直角坐标系中的坐标.
+> **定义 1.3.3 (向量的坐标)**<br>在空间直角坐标系中, 对任一向量 a, 存在唯一有序实数组 (a1, a2, a3), 使 a = a1*i + a2*j + a3*k, (a1, a2, a3) 叫做向量 a 的坐标.
 
-> **定理 1.2.1** (空间向量基本定理) <br>如果三个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 不共面, 那么对任意一个空间向量 $\boldsymbol{p}$, 存在唯一的有序实数组 $\left(x,y,z\right)$, 使得 $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
+---
 
-> **定义 1.2.3** (单位正交基底) <br>如果空间的一个基底中的三个基向量两两垂直, 且长度都为 $1$, 那么这个基底叫做单位正交基底, 常用 $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$ 表示.
-
-> **定义 1.3.1** (空间直角坐标系) <br>在空间选定一点 $O$ 和一个单位正交基底 $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$. 以点 $O$ 为原点, 分别以 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 的方向为正方向, 以它们的长为单位长度建立三条数轴: $x$ 轴, $y$ 轴, $z$ 轴, 它们都叫做坐标轴. 这时我们就建立了一个空间直角坐标系 $Oxyz$, $O$ 叫做原点, $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ 都叫做坐标向量, 通过每两条坐标轴的平面叫做坐标平面.
-
-> **定义 1.3.2** (点的坐标) <br>在单位正交基底 $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$ 下与向量 $\boldsymbol{OA}$ 对应的有序实数组 $\left(x,y,z\right)$, 叫做点 $A$ 在空间直角坐标系中的坐标, 记作 $A\left(x,y,z\right)$, 其中 $x$ 叫做点 $A$ 的横坐标, $y$ 叫做点 $A$ 的纵坐标, $z$ 叫做点 $A$ 的竖坐标.
-
-> **定义 1.3.3** (向量的坐标) <br>有序实数组 $\left(x,y,z\right)$ 叫做 $\boldsymbol{a}$ 在空间直角坐标系 $Oxyz$ 中的坐标, 即 $\boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}+z\boldsymbol{k}$, 上式可简记作 $\boldsymbol{a}=\left(x,y,z\right)$.
-
-> **常用结论 1.3.4** (空间向量运算的坐标表示) <br>设 $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$, 则 $\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(a_1-b_1,a_2-b_2,a_3-b_3\right)$, $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right)$, $\lambda \in \mathbb R$, $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$. 一个空间向量的坐标等于表示此向量的有向线段的终点坐标减去起点坐标.
-
-> **常用结论 1.3.5** (平行, 垂直, 模长, 夹角的坐标表示) <br>当 $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1$, $a_2=\lambda b_2$, $a_3=\lambda b_3$ ($\lambda \in \mathbb R$); 当 $\boldsymbol{a} \neq \boldsymbol{0}$, $\boldsymbol{b} \neq \boldsymbol{0}$ 时, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0 \iff a_1b_1+a_2b_2+a_3b_3=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}$.
-
-> **常用结论 1.3.6** (空间两点间的距离公式) <br>设 $P_1\left(x_1,y_1,z_1\right)$, $P_2\left(x_2,y_2,z_2\right)$ 是空间中任意两点, 则 $P_1P_2=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2+\left(z_2-z_1\right)^2}$.
-
-### 练习一
+## 练习一
 
 (练习 1.3 第 1 题) 在空间直角坐标系中标出下列各点:
 
@@ -24,7 +14,7 @@ $A\left(0,2,4\right)$, $B\left(1,0,5\right)$, $C\left(0,2,0\right)$, $D\left(1,3
 
 ### 解答 练习一
 
-由**定义 1.3.2** (点的坐标), 在空间直角坐标系 $Oxyz$ 中, 横坐标对应 $x$ 轴, 纵坐标对应 $y$ 轴, 竖坐标对应 $z$ 轴.
+由**定义 1.3.2 (点的坐标)**, 在空间直角坐标系 $Oxyz$ 中, 横坐标对应 $x$ 轴, 纵坐标对应 $y$ 轴, 竖坐标对应 $z$ 轴.
 
 $A\left(0,2,4\right)$: 在 $yOz$ 平面内, 沿 $y$ 轴方向走 $2$, 再沿 $z$ 轴方向走 $4$.
 
@@ -34,7 +24,7 @@ $C\left(0,2,0\right)$: 在 $y$ 轴上, 坐标为 $\left(0,2,0\right)$.
 
 $D\left(1,3,4\right)$: 从原点沿 $x$ 轴走 $1$, 沿 $y$ 轴走 $3$, 沿 $z$ 轴走 $4$. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 1.3 第 2 题) 在空间直角坐标系 $Oxyz$ 中,
 
@@ -46,15 +36,15 @@ $D\left(1,3,4\right)$: 从原点沿 $x$ 轴走 $1$, 沿 $y$ 轴走 $3$, 沿 $z$ 
 
 ### 解答 练习二
 
-由**定义 1.3.1** (空间直角坐标系) 及**定义 1.3.2** (点的坐标).
+由**定义 1.3.1 (空间直角坐标系)** 及**定义 1.3.2 (点的坐标)**.
 
-(1) 由**定义 1.3.1**, $yOz$ 平面与 $x$ 轴垂直, $xOz$ 平面与 $y$ 轴垂直, $xOy$ 平面与 $z$ 轴垂直.
+(1) 由**定义 1.3.1 (空间直角坐标系)**, $yOz$ 平面与 $x$ 轴垂直, $xOz$ 平面与 $y$ 轴垂直, $xOy$ 平面与 $z$ 轴垂直.
 
 (2) 点 $P\left(2,3,4\right)$ 在 $xOy$ 平面内的射影为 $\left(2,3,0\right)$; 在 $yOz$ 平面内的射影为 $\left(0,3,4\right)$; 在 $xOz$ 平面内的射影为 $\left(2,0,4\right)$.
 
 (3) 点 $P\left(1,3,5\right)$ 关于原点成中心对称的点, 三个坐标均取相反数, 得 $\left(-1,-3,-5\right)$. $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 1.3 第 3 题) 在长方体 $OABC-D'A'B'C'$ 中, $OA=3$, $OC=4$, $OD'=3$, $A'C'$ 与 $B'D'$ 相交于点 $P$, 建立如图所示的空间直角坐标系 $Oxyz$.
 
@@ -62,11 +52,11 @@ $D\left(1,3,4\right)$: 从原点沿 $x$ 轴走 $1$, 沿 $y$ 轴走 $3$, 沿 $z$ 
 
 (2) 写出向量 $\boldsymbol{BB'}$, $\boldsymbol{A'C'}$ 的坐标.
 
-该图为长方体 $OABC-D'A'B'C'$ 的斜二测直观图：下底面顶点依次为 $O$, $A$, $B$, $C$，上底面对应顶点为 $D'$, $A'$, $B'$, $C'$；以 $O$ 为原点，$OA$ 沿 $x$ 轴正方向（$OA=3$），$OC$ 沿 $y$ 轴正方向（$OC=4$），$OD'$ 沿 $z$ 轴正方向（$OD'=3$），三条坐标轴两两垂直；上底面的两条对角线 $A'C'$ 与 $B'D'$ 相交于上底面中心 $P$。
+该图为长方体 $OABC-D'A'B'C'$ 的斜二测直观图:下底面顶点依次为 $O$, $A$, $B$, $C$,上底面对应顶点为 $D'$, $A'$, $B'$, $C'$;以 $O$ 为原点,$OA$ 沿 $x$ 轴正方向($OA=3$),$OC$ 沿 $y$ 轴正方向($OC=4$),$OD'$ 沿 $z$ 轴正方向($OD'=3$),三条坐标轴两两垂直;上底面的两条对角线 $A'C'$ 与 $B'D'$ 相交于上底面中心 $P$.
 
 ### 解答 练习三
 
-由**定义 1.3.2** (点的坐标) 及**定义 1.3.3** (向量的坐标).
+由**定义 1.3.2 (点的坐标)** 及**定义 1.3.3 (向量的坐标)**.
 
 (1) 由题意, $O$ 为原点, $OA$ 沿 $x$ 轴, $OC$ 沿 $y$ 轴, $OD'$ 沿 $z$ 轴.
 
@@ -80,13 +70,13 @@ $P$ 是 $A'C'$ 与 $B'D'$ 的交点, 即上底面的中心, 故 $P\left(\frac{3}
 
 $\boldsymbol{A'C'}=\boldsymbol{OC'}-\boldsymbol{OA'}=\left(0,4,3\right)-\left(3,0,3\right)=\left(-3,4,0\right)$. $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 1.3 第 4 题) 已知点 $B$ 是点 $A\left(3,4,5\right)$ 在坐标平面 $Oxy$ 内的射影, 求 $\lvert \boldsymbol{OB} \rvert$.
 
 ### 解答 练习四
 
-由**定义 1.3.2** (点的坐标) 及**常用结论 1.3.5** (模长的坐标表示).
+由**定义 1.3.2 (点的坐标)** 及**常用结论 1.3.5** (模长的坐标表示).
 
 点 $A\left(3,4,5\right)$ 在坐标平面 $Oxy$ 内的射影为 $B\left(3,4,0\right)$.
 
@@ -94,7 +84,7 @@ $\boldsymbol{OB}=\left(3,4,0\right)$.
 
 由**常用结论 1.3.5**, $\lvert \boldsymbol{OB} \rvert=\sqrt{3^2+4^2+0^2}=\sqrt{9+16}=5$. $\blacksquare$
 
-### 练习五
+## 练习五
 
 (练习 1.3 第 1 题) 已知 $\boldsymbol{a}=\left(-3,2,5\right)$, $\boldsymbol{b}=\left(1,5,-1\right)$, 求:
 
@@ -118,7 +108,7 @@ $\boldsymbol{OB}=\left(3,4,0\right)$.
 
 (4) $\boldsymbol{a} \cdot \boldsymbol{b}=\left(-3\right) \times 1+2 \times 5+5 \times \left(-1\right)=-3+10-5=2$. $\blacksquare$
 
-### 练习六
+## 练习六
 
 (练习 1.3 第 2 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a} \perp \boldsymbol{b}$. 求 $x$ 的值.
 
@@ -130,7 +120,7 @@ $\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \t
 
 由 $\boldsymbol{a} \perp \boldsymbol{b}$, 得 $3x-10=0$, 即 $x=\frac{10}{3}$. $\blacksquare$
 
-### 练习七
+## 练习七
 
 (练习 1.3 第 3 题) 在 $z$ 轴上求一点 $M$, 使点 $M$ 到点 $A\left(1,0,2\right)$ 与点 $B\left(1,-3,1\right)$ 的距离相等.
 
@@ -150,11 +140,11 @@ $MB=\sqrt{\left(1-0\right)^2+\left(-3-0\right)^2+\left(1-z\right)^2}=\sqrt{1+9+\
 
 故 $M\left(0,0,-3\right)$. $\blacksquare$
 
-### 练习八
+## 练习八
 
 (练习 1.3 第 4 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, 点 $N$, $M$ 分别在 $AC$, $BC'$ 上, $AN=2CN$, $BM=2MC'$, 求 $MN$ 的长.
 
-该图为正方体 $OABC-D'A'B'C'$（棱长为 $a$）的斜二测直观图：下底面为 $OABC$，上底面为 $D'A'B'C'$；点 $N$ 在面对角线 $AC$ 上且 $AN:NC=2:1$，点 $M$ 在面对角线 $BC'$ 上且 $BM:MC'=2:1$，图中连有线段 $MN$。
+该图为正方体 $OABC-D'A'B'C'$(棱长为 $a$)的斜二测直观图:下底面为 $OABC$,上底面为 $D'A'B'C'$;点 $N$ 在面对角线 $AC$ 上且 $AN:NC=2:1$,点 $M$ 在面对角线 $BC'$ 上且 $BM:MC'=2:1$,图中连有线段 $MN$.
 
 ### 解答 练习八
 
@@ -170,11 +160,11 @@ $\boldsymbol{MN}=M-N=\left(0, \frac{a}{3}, \frac{2a}{3}\right)$.
 
 $MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\frac{a^2}{9}+\frac{4a^2}{9}}=\frac{\sqrt{5}a}{3}$. $\blacksquare$
 
-### 练习九
+## 练习九
 
 (练习 1.3 第 5 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$ 是 $AB$ 的中点, 求 $DB_1$ 与 $CM$ 所成角的余弦值.
 
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：下底面为 $ABCD$，上底面为 $A_1B_1C_1D_1$；点 $M$ 是棱 $AB$ 的中点，图中连有对角线 $DB_1$ 与线段 $CM$。
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面为 $ABCD$,上底面为 $A_1B_1C_1D_1$;点 $M$ 是棱 $AB$ 的中点,图中连有对角线 $DB_1$ 与线段 $CM$.
 
 ### 解答 练习九
 
@@ -196,13 +186,13 @@ $\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{1}{4}}=\frac{\sqrt{5}}{2}$.
 
 $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqrt{15}}=\frac{\sqrt{15}}{15}$. $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 1.3 复习巩固第 1 题) 在空间直角坐标系 $Oxyz$ 中, 三个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 分别平行于 $x$ 轴, $y$ 轴, $z$ 轴, 它们的坐标各有什么特点?
 
 ### 解答 习题一
 
-由**定义 1.3.3** (向量的坐标).
+由**定义 1.3.3 (向量的坐标)**.
 
 平行于 $x$ 轴的向量 $\boldsymbol{a}$, 其 $y$ 坐标和 $z$ 坐标均为 $0$, 即 $\boldsymbol{a}=\left(a_1,0,0\right)$, $a_1 \neq 0$.
 
@@ -210,7 +200,7 @@ $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqr
 
 平行于 $z$ 轴的向量 $\boldsymbol{c}$, 其 $x$ 坐标和 $y$ 坐标均为 $0$, 即 $\boldsymbol{c}=\left(0,0,c_3\right)$, $c_3 \neq 0$. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 1.3 复习巩固第 2 题) $M\left(x,y,z\right)$ 是空间直角坐标系 $Oxyz$ 中的一点, 写出满足下列条件的点的坐标:
 
@@ -224,7 +214,7 @@ $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqr
 
 ### 解答 习题二
 
-由**定义 1.3.2** (点的坐标).
+由**定义 1.3.2 (点的坐标)**.
 
 (1) 关于 $x$ 轴对称, $x$ 坐标不变, $y$, $z$ 坐标取相反数: $\left(x,-y,-z\right)$.
 
@@ -234,15 +224,15 @@ $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqr
 
 (4) 关于原点对称, 三个坐标均取相反数: $\left(-x,-y,-z\right)$. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 1.3 复习巩固第 3 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, $E$, $F$, $G$, $H$, $I$, $J$ 分别是棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点, 写出正六边形 $EFGHIJ$ 各顶点的坐标.
 
-该图为正方体 $OABC-D'A'B'C'$（棱长为 $a$）的斜二测直观图：$E$, $F$, $G$, $H$, $I$, $J$ 依次为棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点，这六个点连成一个截面正六边形 $EFGHIJ$。
+该图为正方体 $OABC-D'A'B'C'$(棱长为 $a$)的斜二测直观图:$E$, $F$, $G$, $H$, $I$, $J$ 依次为棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点,这六个点连成一个截面正六边形 $EFGHIJ$.
 
 ### 解答 习题三
 
-由**定义 1.3.2** (点的坐标).
+由**定义 1.3.2 (点的坐标)**.
 
 以 $O$ 为原点, $OA$ 为 $x$ 轴, $OC$ 为 $y$ 轴, $OD'$ 为 $z$ 轴, 则 $O\left(0,0,0\right)$, $A\left(a,0,0\right)$, $B\left(a,a,0\right)$, $C\left(0,a,0\right)$, $D'\left(0,0,a\right)$, $A'\left(a,0,a\right)$, $B'\left(a,a,a\right)$, $C'\left(0,a,a\right)$.
 
@@ -258,7 +248,7 @@ $I$ 是 $BC$ 中点: $I\left(\frac{a}{2}, a, 0\right)$.
 
 $J$ 是 $CC'$ 中点: $J\left(0, a, \frac{a}{2}\right)$. $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 1.3 复习巩固第 4 题) 先在空间直角坐标系中标出 $A$, $B$ 两点, 再求它们之间的距离:
 
@@ -274,7 +264,7 @@ $J$ 是 $CC'$ 中点: $J\left(0, a, \frac{a}{2}\right)$. $\blacksquare$
 
 (2) $AB=\sqrt{\left(3-6\right)^2+\left(5-0\right)^2+\left(7-1\right)^2}=\sqrt{9+25+36}=\sqrt{70}$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 1.3 综合运用第 5 题) 已知 $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. 求:
 
@@ -290,7 +280,7 @@ $J$ 是 $CC'$ 中点: $J\left(0, a, \frac{a}{2}\right)$. $\blacksquare$
 
 (2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12-0, -3+0-0, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 1.3 综合运用第 6 题) 求证: 以 $A\left(4,1,9\right)$, $B\left(10,-1,6\right)$, $C\left(2,4,3\right)$ 为顶点的三角形是等腰直角三角形.
 
@@ -308,7 +298,7 @@ $BC=\sqrt{\left(2-10\right)^2+\left(4-\left(-1\right)\right)^2+\left(3-6\right)^
 
 由勾股定理的逆定理, $\angle BAC=90^\circ$, 且 $AB=AC$, 故 $\triangle ABC$ 是等腰直角三角形. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 1.3 拓广探索第 7 题) 已知 $A\left(3,5,-7\right)$, $B\left(-2,4,3\right)$, 求 $\boldsymbol{AB}$, $\boldsymbol{BA}$, 线段 $AB$ 的中点坐标及线段 $AB$ 的长.
 
@@ -324,11 +314,11 @@ $\boldsymbol{BA}=A-B=\left(5,1,-10\right)$.
 
 $AB=\sqrt{\left(-5\right)^2+\left(-1\right)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3\sqrt{14}$. $\blacksquare$
 
-### 习题八
+## 习题八
 
 (习题 1.3 拓广探索第 8 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$, $N$ 分别为棱 $A_1A$ 和 $B_1B$ 的中点, 求 $CM$ 和 $D_1N$ 所成角的余弦值.
 
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图：下底面为 $ABCD$，上底面为 $A_1B_1C_1D_1$；点 $M$ 是侧棱 $A_1A$ 的中点，点 $N$ 是侧棱 $B_1B$ 的中点，图中连有线段 $CM$ 与 $D_1N$。
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面为 $ABCD$,上底面为 $A_1B_1C_1D_1$;点 $M$ 是侧棱 $A_1A$ 的中点,点 $N$ 是侧棱 $B_1B$ 的中点,图中连有线段 $CM$ 与 $D_1N$.
 
 ### 解答 习题八
 
@@ -352,13 +342,13 @@ $\cos \theta=\frac{-\frac{1}{4}}{\frac{3}{2} \cdot \frac{3}{2}}=-\frac{1}{9}$.
 
 两直线所成角取锐角或直角, 故余弦值为 $\frac{1}{9}$. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (习题 1.3 拓广探索第 9 题) $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个单位正交基底, 向量 $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的另一个基底, 用基底 $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$ 表示向量 $\boldsymbol{p}$.
 
 ### 解答 习题九
 
-由**定理 1.2.1** (空间向量基本定理).
+由**定理 1.2.1 (空间向量基本定理)**.
 
 设 $\boldsymbol{p}=x\left(\boldsymbol{a}+\boldsymbol{b}\right)+y\left(\boldsymbol{a}-\boldsymbol{b}\right)+z\boldsymbol{c}=\left(x+y\right)\boldsymbol{a}+\left(x-y\right)\boldsymbol{b}+z\boldsymbol{c}$.
 

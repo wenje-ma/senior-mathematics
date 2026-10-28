@@ -1,20 +1,14 @@
-# Assignment 31
+# week31
+> **Definition 6.1.1 (向量与数量)**<br>在数学中, 我们把既有大小又有方向的量叫做向量, 而把只有大小没有方向的量称为数量, 如年龄, 身高, 长度, 面积, 体积, 质量等都是数量.
+> **Definition 6.1.2 (分步乘法计数原理)**<br>具有方向的线段叫做有向线段, 包含起点,方向和长度三个要素.
+> **Definition 6.1.3 (Magnitude of a Vector)**<br>向量 AB 的大小, 也就是向量 AB 的长度 (或称模), 记作 |AB|.
+> **Definition 6.1.5 (Unit Vector)**<br>长度等于 1 个单位长度的向量叫做单位向量.
+> **Definition 6.1.6 (Parallel and Collinear Vectors)**<br>方向相同或相反的非零向量叫做平行向量, 也叫共线向量.
+> **Definition 6.1.7 (Equal Vectors)**<br>长度相等且方向相同的向量叫做相等向量.
 
-> **Definition 6.1.1** (Vectors and Scalars) <br>In mathematics, a quantity that has both magnitude and direction is called a vector, while a quantity that has only magnitude and no direction is called a scalar; for example, age, height, length, area, volume and mass are all scalars.
+---
 
-> **Definition 6.1.2** (Directed Line Segments) <br>A line segment with a direction is called a directed line segment. The directed line segment with starting point $A$ and terminal point $B$ is denoted $\boldsymbol{AB}$. A directed line segment has three elements: starting point, direction, length.
-
-> **Definition 6.1.3** (Magnitude of a Vector) <br>The magnitude of the vector $\boldsymbol{AB}$ is called the length (or magnitude) of the vector $\boldsymbol{AB}$, denoted $\lvert\boldsymbol{AB}\rvert$.
-
-> **Definition 6.1.4** (Zero Vector) <br>A vector whose length is $0$ is called the zero vector, denoted $\boldsymbol{0}$.
-
-> **Definition 6.1.5** (Unit Vector) <br>A vector whose length equals $1$ unit of length is called a unit vector.
-
-> **Definition 6.1.6** (Parallel Vectors and Collinear Vectors) <br>Nonzero vectors with the same or opposite direction are called parallel vectors. The vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ being parallel is denoted $\boldsymbol{a}\parallel\boldsymbol{b}$. We stipulate that the zero vector is parallel to any vector. Any set of parallel vectors can be translated onto the same straight line, so parallel vectors are also called collinear vectors.
-
-> **Definition 6.1.7** (Equal Vectors) <br>Vectors with equal length and the same direction are called equal vectors, denoted $\boldsymbol{a}=\boldsymbol{b}$. Any two equal nonzero vectors can be represented by the same directed line segment, independently of the starting point of that directed line segment.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 6.1, Problem 1) Which of the following quantities are vectors?
 
@@ -22,11 +16,11 @@ The pulling force on a suspended object, pressure, friction, frequency, accelera
 
 ### Solution to Exercise 1
 
-By **Definition 6.1.1** (Vectors and Scalars), a vector is a quantity with both magnitude and direction, and a scalar is a quantity with only magnitude and no direction.
+By **Definition 6.1.1 (Vectors and Scalars)**, a vector is a quantity with both magnitude and direction, and a scalar is a quantity with only magnitude and no direction.
 
 Pulling force, friction and acceleration all have both magnitude and direction, so they are vectors. Pressure and frequency have only magnitude and no direction, so they are scalars. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 6.1, Problem 2) Draw two directed line segments to represent respectively a force of $18\text{ N}$ acting vertically downward and a force of $28\text{ N}$ acting horizontally to the left. (Use a length of $1\text{ cm}$ to represent $10\text{ N}$.)
 
@@ -34,11 +28,11 @@ The figure: using the scale $1\text{ cm}$ to represent $10\text{ N}$, draw a dir
 
 ### Solution to Exercise 2
 
-By **Definition 6.1.2** (Directed Line Segments), the direction of the directed line segment represents the direction of the force, and the length of the directed line segment represents the magnitude of the force to scale.
+By **Definition 6.1.2 (Directed Line Segments)**, the direction of the directed line segment represents the direction of the force, and the length of the directed line segment represents the magnitude of the force to scale.
 
 Taking $1\text{ cm}$ to represent $10\text{ N}$, the force of $18\text{ N}$ corresponds to a directed line segment of length $1.8\text{ cm}$, and the force of $28\text{ N}$ corresponds to a directed line segment of length $2.8\text{ cm}$. Draw a vertical downward directed line segment of length $1.8\text{ cm}$ to represent the $18\text{ N}$ force, and draw a horizontal leftward directed line segment of length $2.8\text{ cm}$ to represent the $28\text{ N}$ force. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 6.1, Problem 3) Indicate the lengths of the vectors in the figure. (The side length of each small square is stipulated to be $0.5$.)
 
@@ -46,9 +40,9 @@ The figure: a sheet of grid paper, with the side of each small square set to $0.
 
 ### Solution to Exercise 3
 
-By **Definition 6.1.3** (Magnitude of a Vector), the length of a vector is its magnitude. With the side length of each small square stipulated to be $0.5$, the length of a vector running along the edge direction of the squares is the number of squares it occupies multiplied by $0.5$; the length of a vector running along the diagonal direction is $\sqrt 2$ multiplied by the corresponding number of squares and then by $0.5$. By calculating one by one according to the number of squares each vector occupies in the figure, the lengths of the vectors are obtained. $\blacksquare$
+By **Definition 6.1.3 (Magnitude of a Vector)**, the length of a vector is its magnitude. With the side length of each small square stipulated to be $0.5$, the length of a vector running along the edge direction of the squares is the number of squares it occupies multiplied by $0.5$; the length of a vector running along the diagonal direction is $\sqrt 2$ multiplied by the corresponding number of squares and then by $0.5$. By calculating one by one according to the number of squares each vector occupies in the figure, the lengths of the vectors are obtained. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 6.1, Problem 4) Represent the vectors by directed line segments with the same starting point $O$.
 
@@ -58,11 +52,11 @@ By **Definition 6.1.3** (Magnitude of a Vector), the length of a vector is its m
 
 ### Solution to Exercise 4
 
-By **Definition 6.1.7** (Equal Vectors), equal vectors have equal length and the same direction.
+By **Definition 6.1.7 (Equal Vectors)**, equal vectors have equal length and the same direction.
 
 (1) From $\boldsymbol{OM}=\boldsymbol{ON}$, the two vectors share the same starting point $O$, have equal length and the same direction, so the terminal points $M$ and $N$ coincide.
 
-By **Definition 6.1.6** (Parallel Vectors and Collinear Vectors), parallel vectors have the same or opposite direction.
+By **Definition 6.1.6 (Parallel Vectors and Collinear Vectors)**, parallel vectors have the same or opposite direction.
 
 (2) From $\lvert\boldsymbol{OM}\rvert=2\lvert\boldsymbol{ON}\rvert=1$, we get $\lvert\boldsymbol{OM}\rvert=1$, $\lvert\boldsymbol{ON}\rvert=\frac{1}{2}$. Also $\boldsymbol{OM}$ and $\boldsymbol{ON}$ are parallel, so there are two cases.
 
@@ -70,7 +64,7 @@ By **Definition 6.1.6** (Parallel Vectors and Collinear Vectors), parallel vecto
 
 (b) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ have opposite directions, $M$ lies on the line through $O$ and $N$ on the other side of $O$, $MN=OM+ON=1+\frac{1}{2}=\frac{3}{2}$, and $\boldsymbol{MN}$ has the same direction as $\boldsymbol{ON}$ (pointing from $M$ through $O$ to $N$). $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 6.1, Review and Consolidation, Problem 1) On the coordinate paper shown in the figure (the side length of each small square is stipulated to be $1$), use a ruler and compass to draw the following vectors:
 
@@ -84,7 +78,7 @@ The figure: a sheet of coordinate grid paper, with the side of each small square
 
 ### Solution to Problem 1
 
-By **Definition 6.1.2** (Directed Line Segments) and **Definition 6.1.3** (Magnitude of a Vector), draw directed line segments according to the given direction and length.
+By **Definition 6.1.2 (Directed Line Segments)** and **Definition 6.1.3 (Magnitude of a Vector)**, draw directed line segments according to the given direction and length.
 
 (1) From point $O$, draw a directed line segment $\boldsymbol{OA}$ of length $4$ in the due south direction, and it is obtained.
 
@@ -92,7 +86,7 @@ By **Definition 6.1.2** (Directed Line Segments) and **Definition 6.1.3** (Magni
 
 (3) In the direction $30^{\circ}$ south of west, a directed line segment of length $2$ is obtained by starting from $O$ and drawing a directed line segment $\boldsymbol{OC}$ of length $2$ in this direction. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, point $O$ is the intersection of the diagonals of $\square ABCD$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$. Write out respectively, in $\square ABCD$ and in the broken line $MPQRST$, the vectors equal to $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
 
@@ -100,13 +94,13 @@ The figure: on the left is the parallelogram $ABCD$, whose diagonals $AC$ and $B
 
 ### Solution to Problem 2
 
-By **Definition 6.1.7** (Equal Vectors), vectors with equal length and the same direction are equal.
+By **Definition 6.1.7 (Equal Vectors)**, vectors with equal length and the same direction are equal.
 
 In $\square ABCD$, the diagonals bisect each other, so $O$ is the midpoint of $AC$ and $BD$. Hence $\boldsymbol{OC}$ is opposite in direction to $\boldsymbol{OA}$, and $\boldsymbol{OD}$ is opposite in direction to $\boldsymbol{OB}$. The vector equal to $\boldsymbol{a}=\boldsymbol{OA}$ is $\boldsymbol{CO}$; the vector equal to $\boldsymbol{b}=\boldsymbol{OB}$ is $\boldsymbol{DO}$; the vector equal to $\boldsymbol{c}=\boldsymbol{AB}$ is $\boldsymbol{DC}$.
 
 In the broken line $MPQRST$, according to the direction and length of each directed line segment in the figure, find the directed line segments with the same direction and equal length as $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$; these are the corresponding equal vectors. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 6.1, Comprehensive Application, Problem 3) Determine whether the following conclusions are correct (mark "$\surd$" in the parentheses for correct ones and "$\times$" for incorrect ones), and explain the reasons.
 
@@ -124,27 +118,27 @@ In the broken line $MPQRST$, according to the direction and length of each direc
 
 ### Solution to Problem 3
 
-By **Definition 6.1.5** (Unit Vector), unit vectors all have length $1$, but their directions are not necessarily the same.
+By **Definition 6.1.5 (Unit Vector)**, unit vectors all have length $1$, but their directions are not necessarily the same.
 
 (1) Incorrect. A unit vector only guarantees length $1$, but the direction need not be the same, so two unit vectors are not necessarily equal.
 
-By **Definition 6.1.6** (Parallel Vectors and Collinear Vectors), nonzero vectors with the same or opposite direction are collinear vectors.
+By **Definition 6.1.6 (Parallel Vectors and Collinear Vectors)**, nonzero vectors with the same or opposite direction are collinear vectors.
 
 (2) Correct. The directions $60^{\circ}$ south of west and $60^{\circ}$ north of east are exactly opposite, so the two vectors are collinear.
 
-By **Definition 6.1.1** (Vectors and Scalars), a vector has both magnitude and direction.
+By **Definition 6.1.1 (Vectors and Scalars)**, a vector has both magnitude and direction.
 
 (3) Incorrect. The $x$-axis and $y$-axis are straight lines, having direction but no definite magnitude, so they are not vectors.
 
 (4) Incorrect. Parallel vectors only require the same or opposite direction, and the lengths are not necessarily equal, so parallel vectors are not necessarily equal.
 
-By **Definition 6.1.7** (Equal Vectors), if two vectors with the same starting point are equal, their terminal points coincide.
+By **Definition 6.1.7 (Equal Vectors)**, if two vectors with the same starting point are equal, their terminal points coincide.
 
 (5) Correct. If two vectors $\boldsymbol{AM}$ and $\boldsymbol{AN}$ with the same starting point $A$ are not equal, then their length or direction differ, and the terminal points $M$ and $N$ do not coincide.
 
 (6) Correct. Altitude, temperature and angle all have only magnitude and no direction, so none of them is a vector. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 6.1, Extension and Exploration, Problem 4) As shown in the figure, in the rectangle $ABCD$, $AB=2BC=2$, and $M$, $N$ are the midpoints of sides $AB$, $CD$ respectively. Among all the vectors represented by directed line segments with $A$, $B$, $C$, $D$, $M$, $N$ as starting and terminal points, how many pairs of equal vectors are there in total?
 
@@ -152,7 +146,7 @@ The figure: the rectangle $ABCD$ placed horizontally, with $AB$ as the top side 
 
 ### Solution to Problem 4
 
-By **Definition 6.1.7** (Equal Vectors), vectors with equal length and the same direction form a pair of equal vectors.
+By **Definition 6.1.7 (Equal Vectors)**, vectors with equal length and the same direction form a pair of equal vectors.
 
 From $AB=2BC=2$, we get $AB=2$, $BC=1$. $M$, $N$ are the midpoints of $AB$, $CD$ respectively, so $AM=MB=DN=NC=1$.
 

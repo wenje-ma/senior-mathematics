@@ -1,34 +1,16 @@
-# Assignment 32
+# week32
+> **Definition 6.1.7 (Equal Vectors)**<br>长度相等且方向相同的向量叫做相等向量.
+> **Definition 6.2.1 (向量加法的三角形法则)**<br>已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+> **Definition 6.2.2 (Parallelogram Rule)**<br>已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
+> **Definition 6.2.4 (Permutation and Factorial)**<br>与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **Definition 6.2.5 (Vector Subtraction)**<br>a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+> **Definition 6.2.6 (Scalar Multiplication)**<br>实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+> **Theorem 6.2.8 (Collinear Vectors Theorem)**<br>向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+> **Definition 6.2.11 (向量的数量积)**<br>已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
 
-> **Definition 6.2.1** (Triangle Rule for Vector Addition) <br>Given nonzero vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, take any point $A$ in the plane, draw $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{BC}=\boldsymbol{b}$; then the vector $\boldsymbol{AC}$ is called the sum of $\boldsymbol{a}$ and $\boldsymbol{b}$, denoted $\boldsymbol{a}+\boldsymbol{b}$. The operation of finding the sum of two vectors is called vector addition, and this method is called the triangle rule for vector addition.
+---
 
-> **Definition 6.2.2** (Parallelogram Rule for Vector Addition) <br>Given two known vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ with the same initial point $O$, construct the parallelogram $\square OACB$ with $OA$ and $OB$ as adjacent sides; then the vector $\boldsymbol{OC}$ starting from $O$ is the sum of $\boldsymbol{a}$ and $\boldsymbol{b}$.
-
-> **Common Conclusion 6.2.3** (Operation Laws and Triangle Inequality for Vector Addition) <br>$\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; $\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right)$; $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$, with equality holding if and only if one of $\boldsymbol{a}$, $\boldsymbol{b}$ is the zero vector or they have the same direction.
-
-> **Definition 6.2.4** (Opposite Vectors) <br>A vector with the same length as $\boldsymbol{a}$ but the opposite direction is called the opposite vector of $\boldsymbol{a}$, denoted $-\boldsymbol{a}$. The opposite vector of the zero vector is still the zero vector. $\boldsymbol{a}+\left(-\boldsymbol{a}\right)=\boldsymbol{0}$.
-
-> **Definition 6.2.5** (Subtraction of Vectors) <br>Adding the opposite vector of $\boldsymbol{b}$ to the vector $\boldsymbol{a}$ is called the difference of $\boldsymbol{a}$ and $\boldsymbol{b}$, that is, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
-
-> **Definition 6.2.6** (Scalar Multiplication of a Vector) <br>The product of a real number $\lambda$ and a vector $\boldsymbol{a}$ is a vector, denoted $\lambda\boldsymbol{a}$. $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$; when $\lambda> 0$, the direction of $\lambda\boldsymbol{a}$ is the same as that of $\boldsymbol{a}$; when $\lambda< 0$, the direction is opposite.
-
-> **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication) <br>$\lambda\left(\mu\boldsymbol{a}\right)=\left(\lambda\mu\right)\boldsymbol{a}$; $\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$; $\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
-
-> **Theorem 6.2.8** (Collinear Vector Theorem) <br>The necessary and sufficient condition for the vector $\boldsymbol{a}$ ($\boldsymbol{a}\neq\boldsymbol{0}$) to be collinear with $\boldsymbol{b}$ is that there exists a unique real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
-
-> **Definition 6.2.9** (Angle between Two Vectors) <br>Given two nonzero vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, draw $\boldsymbol{OA}=\boldsymbol{a}$ and $\boldsymbol{OB}=\boldsymbol{b}$; then $\angle AOB=\theta$ ($0\le\theta\le\pi$) is called the angle between the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$.
-
-> **Definition 6.2.10** (Perpendicular Vectors) <br>If the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$ is $\frac{\pi}{2}$, we say that $\boldsymbol{a}$ and $\boldsymbol{b}$ are perpendicular, denoted $\boldsymbol{a}\perp\boldsymbol{b}$.
-
-> **Definition 6.2.11** (Dot Product) <br>Given two nonzero vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ with angle $\theta$ between them, the scalar $\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$ is called the dot product (or inner product) of the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, denoted $\boldsymbol{a}\cdot\boldsymbol{b}$, that is, $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. By convention, the dot product of the zero vector and any vector is $0$.
-
-> **Common Conclusion 6.2.12** (Projection Vector) <br>Let $\boldsymbol{e}$ be the unit vector in the same direction as $\boldsymbol{b}$, and let $\theta$ be the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$; then the projection vector of $\boldsymbol{a}$ onto $\boldsymbol{b}$ is $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
-
-> **Common Conclusion 6.2.13** (Properties of the Dot Product) <br>$\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert\cos\theta$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$; when they are in the same direction, $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$, and when in opposite directions, $\boldsymbol{a}\cdot\boldsymbol{b}=-\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$; $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$; $\lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$.
-
-> **Common Conclusion 6.2.14** (Operation Laws for the Dot Product) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$; $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$; $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 6.2, Problem 1) As shown in the figure, in each of the following, given the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, construct the vector $\boldsymbol{a}+\boldsymbol{b}$ in two ways.
 
@@ -36,9 +18,9 @@ The figure: several pairs of given vectors $\boldsymbol{a}$ and $\boldsymbol{b}$
 
 ### Solution to Exercise 1
 
-By **Definition 6.2.1** (Triangle Rule), move the initial point of $\boldsymbol{b}$ to the terminal point of $\boldsymbol{a}$; the vector from the initial point of $\boldsymbol{a}$ to the terminal point of $\boldsymbol{b}$ is $\boldsymbol{a}+\boldsymbol{b}$. By **Definition 6.2.2** (Parallelogram Rule), place the two vectors with the same initial point and construct a parallelogram with the two vectors as adjacent sides; the diagonal is $\boldsymbol{a}+\boldsymbol{b}$. The two methods give the same result. $\blacksquare$
+By **Definition 6.2.1 (Triangle Rule)**, move the initial point of $\boldsymbol{b}$ to the terminal point of $\boldsymbol{a}$; the vector from the initial point of $\boldsymbol{a}$ to the terminal point of $\boldsymbol{b}$ is $\boldsymbol{a}+\boldsymbol{b}$. By **Definition 6.2.2 (Parallelogram Rule)**, place the two vectors with the same initial point and construct a parallelogram with the two vectors as adjacent sides; the diagonal is $\boldsymbol{a}+\boldsymbol{b}$. The two methods give the same result. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 6.2, Problem 2) Under what conditions on the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ does $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$?
 
@@ -46,7 +28,7 @@ By **Definition 6.2.1** (Triangle Rule), move the initial point of $\boldsymbol{
 
 By **Common Conclusion 6.2.3** (Triangle Inequality), $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. When $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, the magnitude of $\boldsymbol{a}+\boldsymbol{b}$ equals the difference of the two magnitudes. Thus when $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, or one of them is the zero vector, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 6.2, Problem 3) Fill in the blanks according to the figure.
 
@@ -62,9 +44,9 @@ The figure: several vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$
 
 ### Solution to Exercise 3
 
-By **Definition 6.2.1** (Triangle Rule), the sum of vectors placed head-to-tail equals the vector from the first initial point to the last terminal point. Write them out one by one according to the head-to-tail relations in the figure. $\blacksquare$
+By **Definition 6.2.1 (Triangle Rule)**, the sum of vectors placed head-to-tail equals the vector from the first initial point to the last terminal point. Write them out one by one according to the head-to-tail relations in the figure. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 6.2, Problem 4) As shown in the figure, $ABCD$ is a parallelogram and the point $P$ lies on $CD$. Determine whether each of the following is correct.
 
@@ -78,7 +60,7 @@ The figure: the parallelogram $ABCD$, with point $P$ on side $CD$; the directed 
 
 ### Solution to Exercise 4
 
-By **Definition 6.2.1** (Triangle Rule).
+By **Definition 6.2.1 (Triangle Rule)**.
 
 (1) $\boldsymbol{DA}+\boldsymbol{DP}$ starts at $D$ and, by joining head to tail, gives the resultant vector starting from $D$, which is not equal to $\boldsymbol{PA}$ pointing from $P$ to $A$; hence it is incorrect.
 
@@ -86,13 +68,13 @@ By **Definition 6.2.1** (Triangle Rule).
 
 (3) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, and adding $\boldsymbol{CP}$ gives $\boldsymbol{AP}$, not $\boldsymbol{PA}$; hence it is incorrect. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 6.2, Problem 5) There is an east-west river, and a small boat sets out from a ferry crossing on the south bank to cross the river. The boat's speed through the water has magnitude $15\text{ km/h}$ in the direction $30^{\circ}$ west of north, and the current flows east at $7.5\text{ km/h}$. Find the magnitude and direction of the boat's actual velocity.
 
 ### Solution to Exercise 5
 
-By **Definition 6.2.2** (Parallelogram Rule), the boat's actual velocity is the vector sum of the boat's velocity and the current velocity.
+By **Definition 6.2.2 (Parallelogram Rule)**, the boat's actual velocity is the vector sum of the boat's velocity and the current velocity.
 
 Let the boat's velocity be $\boldsymbol{v}_1$, $\lvert\boldsymbol{v}_1\rvert=15$, directed $30^{\circ}$ west of north; let the current velocity be $\boldsymbol{v}_2$, $\lvert\boldsymbol{v}_2\rvert=7.5$, directed east.
 
@@ -110,15 +92,15 @@ Resultant velocity components: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt 3}{2}$.
 
 Hence the magnitude of the resultant velocity is $\frac{15\sqrt 3}{2}\approx13.0\text{ km/h}$, directed due north. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 6.2, Problem 6) As shown in the figure on the next page, in each part, given $\boldsymbol{a}$ and $\boldsymbol{b}$, construct $\boldsymbol{a}-\boldsymbol{b}$.
 
 ### Solution to Exercise 6
 
-By **Definition 6.2.5** (Subtraction of Vectors), $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$. Reverse $\boldsymbol{b}$ and add it to $\boldsymbol{a}$ by the triangle rule; alternatively, draw $\boldsymbol{a}$ and $\boldsymbol{b}$ from the same initial point, and the vector from the terminal point of $\boldsymbol{b}$ to the terminal point of $\boldsymbol{a}$ is $\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
+By **Definition 6.2.5 (Subtraction of Vectors)**, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$. Reverse $\boldsymbol{b}$ and add it to $\boldsymbol{a}$ by the triangle rule; alternatively, draw $\boldsymbol{a}$ and $\boldsymbol{b}$ from the same initial point, and the vector from the terminal point of $\boldsymbol{b}$ to the terminal point of $\boldsymbol{a}$ is $\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 6.2, Problem 7) Fill in the blanks.
 
@@ -126,11 +108,11 @@ $\boldsymbol{AB}-\boldsymbol{AD}=\;\_\_\;$; $\boldsymbol{BA}-\boldsymbol{BC}=\;\
 
 ### Solution to Exercise 7
 
-By **Definition 6.2.5** (Subtraction of Vectors), the difference of two vectors with the same initial point equals the vector from the terminal point of the subtracted vector to the terminal point of the vector from which it is subtracted.
+By **Definition 6.2.5 (Subtraction of Vectors)**, the difference of two vectors with the same initial point equals the vector from the terminal point of the subtracted vector to the terminal point of the vector from which it is subtracted.
 
 $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{BC}=\boldsymbol{CA}$; $\boldsymbol{BC}-\boldsymbol{BA}=\boldsymbol{AC}$; $\boldsymbol{OD}-\boldsymbol{OA}=\boldsymbol{AD}$; $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{BA}$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 6.2, Problem 8) Verify by construction: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
 
@@ -138,29 +120,29 @@ The figure: first draw the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ and their 
 
 ### Solution to Exercise 8
 
-By **Definition 6.2.4** (Opposite Vectors) and **Definition 6.2.5** (Subtraction of Vectors).
+By **Definition 6.2.4 (Opposite Vectors)** and **Definition 6.2.5 (Subtraction of Vectors)**.
 
 First construct $\boldsymbol{a}+\boldsymbol{b}$, then construct its opposite vector $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$. On the other hand, construct $-\boldsymbol{a}$ and $-\boldsymbol{b}$ separately and then add them by the triangle rule. The construction shows that the two results coincide, so $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 6.2, Problem 9) Draw any vector $\boldsymbol{e}$, and construct the vectors $\boldsymbol{a}=4\boldsymbol{e}$ and $\boldsymbol{b}=-4\boldsymbol{e}$.
 
 ### Solution to Exercise 9
 
-By **Definition 6.2.6** (Scalar Multiplication of a Vector), $4\boldsymbol{e}$ has the same direction as $\boldsymbol{e}$ and length $4$ times that of $\boldsymbol{e}$; $-4\boldsymbol{e}$ has the opposite direction to $\boldsymbol{e}$ and length $4$ times that of $\boldsymbol{e}$. $\blacksquare$
+By **Definition 6.2.6 (Scalar Multiplication of a Vector)**, $4\boldsymbol{e}$ has the same direction as $\boldsymbol{e}$ and length $4$ times that of $\boldsymbol{e}$; $-4\boldsymbol{e}$ has the opposite direction to $\boldsymbol{e}$ and length $4$ times that of $\boldsymbol{e}$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 6.2, Problem 10) The point $C$ lies on the segment $AB$, and $\frac{AC}{CB}=\frac{5}{2}$; then $\boldsymbol{AC}=\;\_\_\;\boldsymbol{AB}$, $\boldsymbol{BC}=\;\_\_\;\boldsymbol{AB}$.
 
 ### Solution to Exercise 10
 
-By **Definition 6.2.6** (Scalar Multiplication of a Vector) and **Theorem 6.2.8** (Collinear Vector Theorem).
+By **Definition 6.2.6 (Scalar Multiplication of a Vector)** and **Theorem 6.2.8 (Collinear Vector Theorem)**.
 
 $AC:CB=5:2$, so $AC=\frac{5}{7}AB$ and $CB=\frac{2}{7}AB$, in the same direction as $\boldsymbol{AB}$. Hence $\boldsymbol{AC}=\frac{5}{7}\boldsymbol{AB}$. Since $\boldsymbol{BC}$ is opposite in direction to $\boldsymbol{AB}$, $\boldsymbol{BC}=-\frac{2}{7}\boldsymbol{AB}$. $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 6.2, Problem 11) In each of the following, express the vector $\boldsymbol{b}$ as the product of a real number and the vector $\boldsymbol{a}$.
 
@@ -174,7 +156,7 @@ $AC:CB=5:2$, so $AC=\frac{5}{7}AB$ and $CB=\frac{2}{7}AB$, in the same direction
 
 ### Solution to Exercise 11
 
-By **Definition 6.2.6** (Scalar Multiplication of a Vector).
+By **Definition 6.2.6 (Scalar Multiplication of a Vector)**.
 
 (1) $\boldsymbol{b}=6\boldsymbol{e}=2\cdot\left(3\boldsymbol{e}\right)=2\boldsymbol{a}$.
 
@@ -184,7 +166,7 @@ By **Definition 6.2.6** (Scalar Multiplication of a Vector).
 
 (4) $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}=\frac{8}{9}\cdot\left(-\frac{3}{4}\boldsymbol{e}\right)=\frac{8}{9}\boldsymbol{a}$. $\blacksquare$
 
-### Exercise 12
+## Exercise 12
 
 (Exercise 6.2, Problem 12) Determine whether the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ in each of the following are collinear.
 
@@ -194,13 +176,13 @@ By **Definition 6.2.6** (Scalar Multiplication of a Vector).
 
 ### Solution to Exercise 12
 
-By **Theorem 6.2.8** (Collinear Vector Theorem), they are collinear if there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+By **Theorem 6.2.8 (Collinear Vector Theorem)**, they are collinear if there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
 (1) $\boldsymbol{b}=2\boldsymbol{e}=-\left(-2\boldsymbol{e}\right)=-\boldsymbol{a}$, so $\boldsymbol{a}$ and $\boldsymbol{b}$ are collinear.
 
 (2) $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2=-2\left(\boldsymbol{e}_1-\boldsymbol{e}_2\right)=-2\boldsymbol{a}$, so $\boldsymbol{a}$ and $\boldsymbol{b}$ are collinear. $\blacksquare$
 
-### Exercise 13
+## Exercise 13
 
 (Exercise 6.2, Problem 13) Simplify.
 
@@ -220,27 +202,27 @@ By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
 (3) The original expression $=\left(x+y-x+y\right)\boldsymbol{a}=2y\boldsymbol{a}$. $\blacksquare$
 
-### Exercise 14
+## Exercise 14
 
 (Exercise 6.2, Problem 14) Given that $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors, $\boldsymbol{a}=\boldsymbol{e}_1-2\boldsymbol{e}_2$, and $\boldsymbol{b}=2\boldsymbol{e}_1+k\boldsymbol{e}_2$. If $\boldsymbol{a}$ and $\boldsymbol{b}$ are collinear, find the value of the real number $k$.
 
 ### Solution to Exercise 14
 
-By **Theorem 6.2.8** (Collinear Vector Theorem), there exists $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+By **Theorem 6.2.8 (Collinear Vector Theorem)**, there exists $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
 $2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{e}_2\right)=\lambda\boldsymbol{e}_1-2\lambda\boldsymbol{e}_2$.
 
 Comparing coefficients: $2=\lambda$, $k=-2\lambda=-4$. Hence $k=-4$. $\blacksquare$
 
-### Exercise 15
+## Exercise 15
 
 (Exercise 6.2, Problem 15) Given $\lvert\boldsymbol{p}\rvert=8$, $\lvert\boldsymbol{q}\rvert=6$, and the angle between $\boldsymbol{p}$ and $\boldsymbol{q}$ is $60^{\circ}$, find $\boldsymbol{p}\cdot\boldsymbol{q}$.
 
 ### Solution to Exercise 15
 
-By **Definition 6.2.11** (Dot Product), $\boldsymbol{p}\cdot\boldsymbol{q}=\lvert\boldsymbol{p}\rvert\lvert\boldsymbol{q}\rvert\cos\theta=8\times6\times\cos60^{\circ}=48\times\frac{1}{2}=24$. $\blacksquare$
+By **Definition 6.2.11 (Dot Product)**, $\boldsymbol{p}\cdot\boldsymbol{q}=\lvert\boldsymbol{p}\rvert\lvert\boldsymbol{q}\rvert\cos\theta=8\times6\times\cos60^{\circ}=48\times\frac{1}{2}=24$. $\blacksquare$
 
-### Exercise 16
+## Exercise 16
 
 (Exercise 6.2, Problem 16) In $\triangle ABC$, given $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$, determine the shape of $\triangle ABC$ when $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ or $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
@@ -252,7 +234,7 @@ When $\boldsymbol{a}\cdot\boldsymbol{b}=0$, $\boldsymbol{AB}\perp\boldsymbol{AC}
 
 When $\boldsymbol{a}\cdot\boldsymbol{b}< 0$, $\cos A< 0$ and $A> 90^{\circ}$, so $\triangle ABC$ is an obtuse triangle. $\blacksquare$
 
-### Exercise 17
+## Exercise 17
 
 (Exercise 6.2, Problem 17) Given $\lvert\boldsymbol{a}\rvert=6$ and that $\boldsymbol{e}$ is a unit vector, find the projection vector of $\boldsymbol{a}$ onto $\boldsymbol{e}$ when the angle $\theta$ between $\boldsymbol{a}$ and $\boldsymbol{e}$ is $45^{\circ}$, $90^{\circ}$, and $135^{\circ}$, respectively.
 
@@ -266,7 +248,7 @@ $\theta=90^{\circ}$: $6\cos90^{\circ}\,\boldsymbol{e}=\boldsymbol{0}$.
 
 $\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e}$. $\blacksquare$
 
-### Exercise 18
+## Exercise 18
 
 (Exercise 6.2, Problem 18) Given $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=2$, $\lvert\boldsymbol{c}\rvert=3$, the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$ is $\frac{\pi}{6}$, and the angle between $\boldsymbol{b}$ and $\boldsymbol{c}$ is $\frac{\pi}{4}$. Compute:
 
@@ -276,13 +258,13 @@ $\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e
 
 ### Solution to Exercise 18
 
-By **Definition 6.2.11** (Dot Product).
+By **Definition 6.2.11 (Dot Product)**.
 
 (1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. Hence $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
 
 (2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. Hence $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
 
-### Exercise 19
+## Exercise 19
 
 (Exercise 6.2, Problem 19) Given $\lvert\boldsymbol{a}\rvert=\sqrt 2$, $\lvert\boldsymbol{b}\rvert=1$, and that $\boldsymbol{a}-\boldsymbol{b}$ is perpendicular to $\boldsymbol{a}+2\boldsymbol{b}$, prove that $\boldsymbol{a}\perp\boldsymbol{b}$.
 
@@ -294,7 +276,7 @@ $\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+2\boldsymbo
 
 Substituting $\lvert\boldsymbol{a}\rvert^2=2$ and $\lvert\boldsymbol{b}\rvert^2=1$ gives $2+\boldsymbol{a}\cdot\boldsymbol{b}-2=0$, that is, $\boldsymbol{a}\cdot\boldsymbol{b}=0$. Hence $\boldsymbol{a}\perp\boldsymbol{b}$. $\blacksquare$
 
-### Exercise 20
+## Exercise 20
 
 (Exercise 6.2, Problem 20) Prove that $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
 
@@ -308,7 +290,7 @@ $\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\c
 
 Subtracting the two equations gives $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 6.2, Review and Consolidation, Problem 1) If $\boldsymbol{a}$ means "walk $10\text{ km}$ east", $\boldsymbol{b}$ means "walk $5\text{ km}$ west", $\boldsymbol{c}$ means "walk $10\text{ km}$ north", and $\boldsymbol{d}$ means "walk $5\text{ km}$ south", what is the meaning of each of the following vectors?
 
@@ -316,7 +298,7 @@ Subtracting the two equations gives $\left(\boldsymbol{a}+\boldsymbol{b}\right)^
 
 ### Solution to Problem 1
 
-By **Definition 6.2.1** (Triangle Rule) and **Common Conclusion 6.2.3** (Operation Laws).
+By **Definition 6.2.1 (Triangle Rule)** and **Common Conclusion 6.2.3** (Operation Laws).
 
 (1) Walk $20\text{ km}$ east.
 
@@ -330,27 +312,27 @@ By **Definition 6.2.1** (Triangle Rule) and **Common Conclusion 6.2.3** (Operati
 
 (6) Walk $10\text{ km}$ south and then $10\text{ km}$ east, i.e. southeast. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 6.2, Review and Consolidation, Problem 2) An airplane flies $300\text{ km}$ north, then changes direction and flies $400\text{ km}$ west. Find the total distance traveled by the airplane and the resultant of the two displacements.
 
 ### Solution to Problem 2
 
-By **Definition 6.2.1** (Triangle Rule).
+By **Definition 6.2.1 (Triangle Rule)**.
 
 The distance traveled is $300+400=700\text{ km}$. The magnitude of the resultant of the two displacements is $\sqrt{300^2+400^2}=500\text{ km}$, in the direction $\arctan\frac{400}{300}\approx53.1^{\circ}$ west of north. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 6.2, Review and Consolidation, Problem 3) A boat sails perpendicular to the opposite bank at a speed of $16\text{ km/h}$, while the river current flows at $4\text{ km/h}$. Find the magnitude and direction of the boat's actual velocity (to the nearest $1^{\circ}$).
 
 ### Solution to Problem 3
 
-By **Definition 6.2.2** (Parallelogram Rule).
+By **Definition 6.2.2 (Parallelogram Rule)**.
 
 The boat's speed is $16\text{ km/h}$ perpendicular to the bank, and the current is $4\text{ km/h}$ along the bank. The magnitude of the resultant velocity is $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{ km/h}$. The angle $\theta$ between the direction and the perpendicular to the bank satisfies $\tan\theta=\frac{4}{16}=\frac{1}{4}$, so $\theta\approx14^{\circ}$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 6.2, Review and Consolidation, Problem 4) Simplify.
 
@@ -370,7 +352,7 @@ The boat's speed is $16\text{ km/h}$ perpendicular to the bank, and the current 
 
 ### Solution to Problem 4
 
-By **Definition 6.2.1** (Triangle Rule) and **Definition 6.2.5** (Subtraction of Vectors).
+By **Definition 6.2.1 (Triangle Rule)** and **Definition 6.2.5 (Subtraction of Vectors)**.
 
 (1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, and adding $\boldsymbol{CA}$ gives $\boldsymbol{0}$.
 
@@ -386,7 +368,7 @@ By **Definition 6.2.1** (Triangle Rule) and **Definition 6.2.5** (Subtraction of
 
 (7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}=\boldsymbol{NP}+\boldsymbol{MN}+\boldsymbol{PM}=\boldsymbol{MN}+\boldsymbol{NP}+\boldsymbol{PM}=\boldsymbol{0}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 6.2, Review and Consolidation, Problem 5) Verify by construction:
 
@@ -404,7 +386,7 @@ By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
 (2) The left-hand side $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\boldsymbol{b}=$ the right-hand side. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 6.2, Review and Consolidation, Problem 6)
 
@@ -414,13 +396,13 @@ By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
 ### Solution to Problem 6
 
-By **Definition 6.2.1** (Triangle Rule).
+By **Definition 6.2.1 (Triangle Rule)**.
 
 (1) Draw $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{BC}=\boldsymbol{b}$; then $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$. Take $\boldsymbol{c}=-\boldsymbol{AC}$, namely the vector from $C$ to $A$; then $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
 
 (2) The three directed segments join head to tail and form a triangle. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 6.2, Review and Consolidation, Problem 7) Given that $\boldsymbol{a}$ and $\boldsymbol{b}$ are two nonzero vectors.
 
@@ -430,13 +412,13 @@ By **Definition 6.2.1** (Triangle Rule).
 
 ### Solution to Problem 7
 
-By **Definition 6.2.1** and **Definition 6.2.5**.
+By **Definition 6.2.1 (Triangle Rule)** and **Definition 6.2.5 (Vector Subtraction)**.
 
 (1) Omitted.
 
 (2) Expanding $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}\right)^2$ gives $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, i.e. $\boldsymbol{a}\perp\boldsymbol{b}$. Thus the condition holds when $\boldsymbol{a}$ and $\boldsymbol{b}$ are perpendicular. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 6.2, Review and Consolidation, Problem 8) Simplify.
 
@@ -460,7 +442,7 @@ By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
 (4) The original expression $=\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{a}+\boldsymbol{b}\right)=2\left(x-y\right)\boldsymbol{b}$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 6.2, Review and Consolidation, Problem 9) As shown in the figure, $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$ and $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$. Prove that $\boldsymbol{MN}=\frac{1}{3}\boldsymbol{BC}$.
 
@@ -468,11 +450,11 @@ The figure: triangle $ABC$, with point $M$ on side $AB$ such that $\boldsymbol{A
 
 ### Solution to Problem 9
 
-By **Theorem 6.2.8** (Collinear Vector Theorem).
+By **Theorem 6.2.8 (Collinear Vector Theorem)**.
 
 $\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\frac{1}{3}\boldsymbol{AB}=\frac{1}{3}\left(\boldsymbol{AC}-\boldsymbol{AB}\right)=\frac{1}{3}\boldsymbol{BC}$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 6.2, Review and Consolidation, Problem 10) Fill in the blanks.
 
@@ -488,7 +470,7 @@ By **Common Conclusion 6.2.3** (Triangle Inequality).
 
 (2) When $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$, the parallelogram is a rhombus, and the diagonal bisects the angle. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 6.2, Review and Consolidation, Problem 11)
 
@@ -498,7 +480,7 @@ By **Common Conclusion 6.2.3** (Triangle Inequality).
 
 ### Solution to Problem 11
 
-By **Definition 6.2.11** (Dot Product) and **Common Conclusion 6.2.13**.
+By **Definition 6.2.11 (Dot Product)** and **Common Conclusion 6.2.13**.
 
 (1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt 3}{2}\right)=-6\sqrt 3$.
 
@@ -510,19 +492,19 @@ $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt 3}$.
 
 $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=4+6+25=35$, so $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert=\sqrt{35}$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 6.2, Review and Consolidation, Problem 12) Prove that $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$.
 
 ### Solution to Problem 12
 
-By **Definition 6.2.11** (Dot Product).
+By **Definition 6.2.11 (Dot Product)**.
 
 $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
 
 $\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. When $\lambda< 0$, the angle changes but the sign of the cosine is the same, so the equality still holds. By the same argument, $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ is identical. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 6.2, Comprehensive Application, Problem 13) According to the conditions in each part below, determine the shape of the quadrilateral $ABCD$ and give a proof.
 
@@ -534,7 +516,7 @@ $\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{
 
 ### Solution to Problem 13
 
-By **Definition 6.1.7** (Equal Vectors) and **Theorem 6.2.8** (Collinear Vector Theorem).
+By **Definition 6.1.7 (Equal Vectors)** and **Theorem 6.2.8 (Collinear Vector Theorem)**.
 
 (1) $\boldsymbol{AD}=\boldsymbol{BC}$ means that $AD$ and $BC$ are parallel and equal, so $ABCD$ is a parallelogram.
 
@@ -542,13 +524,13 @@ By **Definition 6.1.7** (Equal Vectors) and **Theorem 6.2.8** (Collinear Vector 
 
 (3) $\boldsymbol{AB}=\boldsymbol{DC}$ means $AB\parallel DC$ and $AB=DC$, so it is a parallelogram; moreover $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$, so the adjacent sides are equal, and hence it is a rhombus. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 6.2, Comprehensive Application, Problem 14) In $\triangle ABC$, $\boldsymbol{AD}=\frac{1}{4}\boldsymbol{AB}$, $DE\parallel BC$ and intersects the side $AC$ at $E$, and the median $AM$ of $\triangle ABC$ intersects $DE$ at $N$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express the vectors $\boldsymbol{AE}$, $\boldsymbol{BC}$, $\boldsymbol{DE}$, $\boldsymbol{DB}$, $\boldsymbol{EC}$, $\boldsymbol{DN}$, and $\boldsymbol{AN}$ in terms of $\boldsymbol{a}$ and $\boldsymbol{b}$.
 
 ### Solution to Problem 14
 
-By **Theorem 6.2.8** (Collinear Vector Theorem).
+By **Theorem 6.2.8 (Collinear Vector Theorem)**.
 
 $\boldsymbol{AE}=\frac{1}{4}\boldsymbol{AC}=\frac{1}{4}\boldsymbol{b}$.
 
@@ -566,7 +548,7 @@ $\boldsymbol{DN}=\boldsymbol{AN}-\boldsymbol{AD}=\frac{1}{8}\left(\boldsymbol{a}
 
 $\boldsymbol{AN}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 6.2, Comprehensive Application, Problem 15) As shown in the figure, in an arbitrary quadrilateral $ABCD$, $E$ and $F$ are the midpoints of $AD$ and $BC$, respectively. Prove that $\boldsymbol{AB}+\boldsymbol{DC}=2\boldsymbol{EF}$.
 
@@ -574,7 +556,7 @@ The figure: an arbitrary quadrilateral $ABCD$, with $E$ the midpoint of side $AD
 
 ### Solution to Problem 15
 
-By **Definition 6.2.5** (Subtraction of Vectors).
+By **Definition 6.2.5 (Subtraction of Vectors)**.
 
 $\boldsymbol{EF}=\boldsymbol{EA}+\boldsymbol{AB}+\boldsymbol{BF}$, $\boldsymbol{EF}=\boldsymbol{ED}+\boldsymbol{DC}+\boldsymbol{CF}$.
 
@@ -582,7 +564,7 @@ Adding the two equations: $2\boldsymbol{EF}=\left(\boldsymbol{EA}+\boldsymbol{ED
 
 $E$ is the midpoint of $AD$, so $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ is the midpoint of $BC$, so $\boldsymbol{BF}+\boldsymbol{CF}=\boldsymbol{0}$. Hence $2\boldsymbol{EF}=\boldsymbol{AB}+\boldsymbol{DC}$. $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Exercise 6.2, Comprehensive Application, Problem 16) An airplane flies from place A in the direction $15^{\circ}$ west of north for $1400\text{ km}$ to reach place B, and then from B in the direction $75^{\circ}$ east of south for $1400\text{ km}$ to reach place C. Draw a schematic diagram of the airplane's displacements, and state: in what direction is C from A? How far is C from A?
 
@@ -590,11 +572,11 @@ The figure: a displacement diagram starting from point $A$ (place A); the first 
 
 ### Solution to Problem 16
 
-By **Definition 6.2.1** (Triangle Rule).
+By **Definition 6.2.1 (Triangle Rule)**.
 
 Take A as the origin. The first displacement $\boldsymbol{AB}$ is directed $15^{\circ}$ west of north with length $1400$; the second displacement $\boldsymbol{BC}$ is directed $75^{\circ}$ east of south with length $1400$. The angle between the two directions is $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? The angle between the directions $15^{\circ}$ west of north and $75^{\circ}$ east of south is $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? Actually, viewed from $B$, $A$ lies $15^{\circ}$ east of south and $C$ lies $75^{\circ}$ east of south, so $\angle ABC=75^{\circ}-15^{\circ}=60^{\circ}$. Since $AB=BC=1400$ and $\angle B=60^{\circ}$ in $\triangle ABC$, $AC=1400$. Place C is $1400\text{ km}$ from place A, in the direction east of south. $\blacksquare$
 
-### Problem 17
+## Problem 17
 
 (Exercise 6.2, Extension and Exploration, Problem 17)
 
@@ -608,7 +590,7 @@ The figure: three diagrams. Figure (1): triangle $ABC$ with directed sides $\bol
 
 ### Solution to Problem 17
 
-By **Definition 6.2.1** (Triangle Rule).
+By **Definition 6.2.1 (Triangle Rule)**.
 
 (1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, and adding $\boldsymbol{CA}$ gives $\boldsymbol{0}$.
 
@@ -616,13 +598,13 @@ By **Definition 6.2.1** (Triangle Rule).
 
 (3) The sum of the vectors of a polygon joined head to tail is $\boldsymbol{0}$: $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\cdots+\boldsymbol{A_nA_1}=\boldsymbol{0}$. This follows by successively combining them by the triangle rule. $\blacksquare$
 
-### Problem 18
+## Problem 18
 
 (Exercise 6.2, Extension and Exploration, Problem 18) Given $\lvert\boldsymbol{a}\rvert=4$, $\lvert\boldsymbol{b}\rvert=3$, and $\left(2\boldsymbol{a}-3\boldsymbol{b}\right)\cdot\left(2\boldsymbol{a}+\boldsymbol{b}\right)=61$, find the angle $\theta$ between $\boldsymbol{a}$ and $\boldsymbol{b}$.
 
 ### Solution to Problem 18
 
-By **Definition 6.2.11** (Dot Product).
+By **Definition 6.2.11 (Dot Product)**.
 
 $\left(2\boldsymbol{a}-3\boldsymbol{b}\right)\cdot\left(2\boldsymbol{a}+\boldsymbol{b}\right)=4\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-6\boldsymbol{a}\cdot\boldsymbol{b}-3\boldsymbol{b}^2=4\lvert\boldsymbol{a}\rvert^2-4\boldsymbol{a}\cdot\boldsymbol{b}-3\lvert\boldsymbol{b}\rvert^2=61$.
 
@@ -630,7 +612,7 @@ Substituting: $4\times16-4\boldsymbol{a}\cdot\boldsymbol{b}-3\times9=64-4\boldsy
 
 Hence $\boldsymbol{a}\cdot\boldsymbol{b}=-6$. $\cos\theta=\frac{-6}{4\times3}=-\frac{1}{2}$, so $\theta=120^{\circ}$. $\blacksquare$
 
-### Problem 19
+## Problem 19
 
 (Exercise 6.2, Extension and Exploration, Problem 19) Given $\lvert\boldsymbol{a}\rvert=8$, $\lvert\boldsymbol{b}\rvert=10$, and $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=16$, find the angle $\theta$ between $\boldsymbol{a}$ and $\boldsymbol{b}$ (to the nearest $1^{\circ}$).
 
@@ -642,7 +624,7 @@ $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cd
 
 $2\boldsymbol{a}\cdot\boldsymbol{b}=92$, $\boldsymbol{a}\cdot\boldsymbol{b}=46$. $\cos\theta=\frac{46}{8\times10}=0.575$, $\theta\approx55^{\circ}$. $\blacksquare$
 
-### Problem 20
+## Problem 20
 
 (Exercise 6.2, Extension and Exploration, Problem 20) Given that $\boldsymbol{a}$ is a nonzero vector and $\boldsymbol{b}\neq\boldsymbol{c}$, prove that $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)$.
 
@@ -652,7 +634,7 @@ By **Common Conclusion 6.2.13** (Properties of the Dot Product), $\boldsymbol{a}
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}=0\Longleftrightarrow\boldsymbol{a}\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)=0\Longleftrightarrow\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)$. $\blacksquare$
 
-### Problem 21
+## Problem 21
 
 (Exercise 6.2, Extension and Exploration, Problem 21) Given that $O$ is the circumcenter of $\triangle ABC$, $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, and $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, the projection vector of $\boldsymbol{BA}$ onto $\boldsymbol{BC}$ is ( ).
 
@@ -666,7 +648,7 @@ From $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, $O$ is the midpoint of 
 
 The projection of $\boldsymbol{BA}$ onto $\boldsymbol{BC}$ is $\lvert\boldsymbol{BA}\rvert\cos60^{\circ}=AB\cdot\frac{1}{2}=\frac{R}{2}$. Since $BC=2R$, the projection vector is $\frac{R/2}{2R}\boldsymbol{BC}=\frac{1}{4}\boldsymbol{BC}$. Choose (A). $\blacksquare$
 
-### Problem 22
+## Problem 22
 
 (Exercise 6.2, Extension and Exploration, Problem 22) As shown in the figure, $O$ is a point outside the parallelogram $ABCD$. Express $\boldsymbol{OD}$ in terms of $\boldsymbol{OA}$, $\boldsymbol{OB}$, and $\boldsymbol{OC}$.
 
@@ -674,11 +656,11 @@ The figure: the parallelogram $ABCD$, with point $O$ outside the parallelogram; 
 
 ### Solution to Problem 22
 
-By **Definition 6.1.7** (Equal Vectors) and **Theorem 6.2.8**.
+By **Definition 6.1.7 (Equal Vectors)** and **Theorem 6.2.8 (Collinear Vectors Theorem)**.
 
 In $\square ABCD$, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
 
-### Problem 23
+## Problem 23
 
 (Exercise 6.2, Extension and Exploration, Problem 23) Given that $O$ is a point in the plane of the quadrilateral $ABCD$, and the vectors $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, $\boldsymbol{OD}$ satisfy $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$.
 
@@ -690,13 +672,13 @@ The figure: quadrilateral $ABCD$, with a point $O$ in the plane; from $O$ the di
 
 ### Solution to Problem 23
 
-By **Definition 6.2.5** (Subtraction of Vectors).
+By **Definition 6.2.5 (Subtraction of Vectors)**.
 
 (1) Omitted.
 
 (2) Rearranging $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$ gives $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{OD}-\boldsymbol{OC}$, i.e. $\boldsymbol{BA}=\boldsymbol{CD}$. Hence $BA\parallel CD$ and $BA=CD$, so the quadrilateral $ABCD$ is a parallelogram. $\blacksquare$
 
-### Problem 24
+## Problem 24
 
 (Exercise 6.2, Extension and Exploration, Problem 24) As shown in the figure, in $\odot C$, is it enough to know only the radius of $\odot C$ or the length of the chord $AB$ to determine the value of $\boldsymbol{AB}\cdot\boldsymbol{AC}$?
 
@@ -704,6 +686,6 @@ The figure: the circle $\odot C$ centered at point $C$, with the chord $AB$ whos
 
 ### Solution to Problem 24
 
-By **Definition 6.2.11** (Dot Product).
+By **Definition 6.2.11 (Dot Product)**.
 
 $\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos\angle BAC$. Let the radius be $R$, the chord length be $AB=l$, and the center be $C$. $\boldsymbol{AC}$ is the radius vector, $\lvert\boldsymbol{AC}\rvert=R$. From the geometry, $\cos\angle BAC$ is determined by $R$ and $l$ (in the isosceles triangle $CAB$). Hence knowing only the radius $R$ and the chord length $l$ suffices to find $\boldsymbol{AB}\cdot\boldsymbol{AC}$. $\blacksquare$

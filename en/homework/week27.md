@@ -1,34 +1,10 @@
-# Assignment 27
+# week27
+> **Basic Knowledge: 基本事实 2.1.1**<br>如果 $a-b$ 是正数, 那么 $a> b$; 如果 $a-b$ 等于 $0$, 那么 $a=b$; 如果 $a-b$ 是负数, 那么 $a< b$. 反过来也对, 即 $a> b\Leftrightarrow a-b> 0$.
+> **Theorem 2.2.1 (AM-GM Inequality)**<br>基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
 
-> **Basic Fact 2.1.1** (Order Relations of Real Numbers) <br>If $a-b$ is a positive number, then $a> b$; if $a-b$ equals $0$, then $a=b$; if $a-b$ is a negative number, then $a< b$. The converse also holds, i.e. $a> b\Leftrightarrow a-b> 0$.
+---
 
-> **Common Conclusion 2.1.2** (Important Inequality) <br>$\forall a,b\in\mathbb R$, we have $a^2+b^2\ge 2ab$, with equality holding if and only if $a=b$.
-
-> **Property 2.1.3** (Symmetry) <br>$a> b\Leftrightarrow b< a$.
-
-> **Property 2.1.4** (Transitivity) <br>$a> b$, $b> c\Rightarrow a> c$.
-
-> **Property 2.1.5** (Additivity) <br>$a> b\Rightarrow a+c> b+c$.
-
-> **Property 2.1.6** (Multiplicativity) <br>$a> b$, $c> 0\Rightarrow ac> bc$; $a> b$, $c< 0\Rightarrow ac< bc$.
-
-> **Property 2.1.7** (Adding Same-Direction Inequalities) <br>$a> b$, $c> d\Rightarrow a+c> b+d$.
-
-> **Property 2.1.8** (Multiplying Same-Direction Positive Inequalities) <br>$a> b> 0$, $c> d> 0\Rightarrow ac> bd$.
-
-> **Property 2.1.9** (Powers) <br>$a> b> 0\Rightarrow a^n> b^n$ ($n\in\mathbb N$, $n\ge2$).
-
-> **Theorem 2.2.1** (Basic Inequality) <br>If $a> 0$, $b> 0$, then $\sqrt{ab}\le\frac{a+b}{2}$, with equality holding if and only if $a=b$.
-
-> **Common Conclusion 2.2.2** (Fixed Product Minimizes Sum, Fixed Sum Maximizes Product) <br>$x,y> 0$: when the product $xy=P$ is fixed, $x+y\ge2\sqrt P$; when the sum $x+y=S$ is fixed, $xy\le\frac{1}{4}S^2$.
-
-> **Definition 2.3.1** (Quadratic Inequality in One Variable) <br>An inequality containing only one unknown, with the highest degree of the unknown being $2$, has the general form $ax^2+bx+c> 0$ or $< 0$, $a\neq0$.
-
-> **Definition 2.3.2** (Zeros of a Quadratic Function) <br>The real numbers $x$ that satisfy $ax^2+bx+c=0$.
-
-> **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable) <br>When $a> 0$, $\Delta> 0$: the solution set of $> 0$ is $\left\{x\mid x< x_1$ or $x> x_2\right\}$, and of $< 0$ is $\left\{x\mid x_1< x< x_2\right\}$; $\Delta=0$: the solution set of $> 0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and of $< 0$ is $\varnothing$; $\Delta< 0$: the solution set of $> 0$ is $\mathbb R$, and of $< 0$ is $\varnothing$.
-
-### Problem 1
+## Problem 1
 
 (Review Reference Problem 2, Review and Consolidation, Problem 1) A summer camp has $48$ people, and before departure it must choose between two types of tents, $A$ and $B$. There are $5$ fewer tents of type $A$ than of type $B$. If only type $A$ tents are chosen, at $4$ people per tent there are not enough tents, and at $5$ people per tent there is one tent that is not full. If only type $B$ tents are chosen, at $3$ people per tent there are not enough tents, and at $4$ people per tent there are spare tents. Let the number of type $A$ tents be $x$. Express the unequal relations in the problem using inequalities.
 
@@ -48,7 +24,7 @@ $$
 
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Reference Problem 2, Review and Consolidation, Problem 2) Fill in the blanks with the inequality sign "$> $" or "$< $".
 
@@ -68,7 +44,7 @@ By **Basic Fact 2.1.1** (Order Relations of Real Numbers), compare by taking the
 
 (3) Taking the difference: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}> 0$, hence fill in $> $. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Reference Problem 2, Review and Consolidation, Problem 3)
 
@@ -84,7 +60,7 @@ By **Common Conclusion 2.2.2** (Fixed Product Minimizes Sum, Fixed Sum Maximizes
 
 (2) The perimeter $P=2R+l$ is fixed. Let $u=2R$, then $u+l=P$, and the area $\frac{1}{2}Rl=\frac{1}{4}ul\le\frac{1}{4}\cdot\left(\frac{u+l}{2}\right)^2=\frac{P^2}{16}$, with equality if and only if $u=l$. At this time $2R=l=\frac{P}{2}$, giving $R=\frac{P}{4}$. Hence the area is maximized when the radius is $\frac{P}{4}$, and the maximum value is $\frac{P^2}{16}$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Reference Problem 2, Review and Consolidation, Problem 4) Find the solution set of the following inequalities.
 
@@ -108,13 +84,13 @@ By **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Va
 
 (4) Expanding and rearranging gives $2x^2-x-1> 0$, i.e. $\left(2x+1\right)\left(x-1\right)> 0$, roots $x=-\frac{1}{2},1$, hence the solution set is $\left\{x\mid x< -\frac{1}{2}$ or $x> 1\right\}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Reference Problem 2, Comprehensive Application, Problem 5) If $a,b> 0$ and $ab=a+b+3$, find the range of $ab$.
 
 ### Solution to Problem 5
 
-By **Theorem 2.2.1** (Basic Inequality), $a+b\ge2\sqrt{ab}$.
+By **Theorem 2.2.1 (Basic Inequality)**, $a+b\ge2\sqrt{ab}$.
 
 From $ab=a+b+3$, we get $ab\ge2\sqrt{ab}+3$. Let $t=\sqrt{ab}> 0$, then
 
@@ -124,7 +100,7 @@ $$
 
 i.e. $\left(t-3\right)\left(t+1\right)\ge0$. Since $t> 0$, we have $t\ge3$, and hence $ab=t^2\ge9$. Equality holds if and only if $a=b=3$. Hence the range of $ab$ is $\left\{x\mid x\ge9\right\}$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Reference Problem 2, Comprehensive Application, Problem 6) For what value of $k$ does the quadratic inequality $2kx^2+kx-\frac{3}{8}< 0$ hold for all real numbers $x$?
 
@@ -138,7 +114,7 @@ Also require $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k< 0$, i.e.
 
 Intersecting with $k< 0$ gives $-3< k< 0$. Hence when $-3< k< 0$, the inequality holds for all real numbers $x$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Reference Problem 2, Comprehensive Application, Problem 7) It is generally believed that in a residential building the window area must be smaller than the floor area, but the ratio of window area to floor area should be no less than $10\%$; and the larger this ratio, the better the lighting.
 
@@ -160,7 +136,7 @@ $$
 
 Since $f> w$, the numerator is positive, hence the difference is positive, i.e. the new ratio is larger. Hence after adding the same area to both, the lighting improves. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Reference Problem 2, Comprehensive Application, Problem 8) There is a correspondence between equalities and inequalities: one can obtain a corresponding inequality proposition simply by changing the equals sign in an equality proposition to an inequality sign. Please use analogy to explore the corresponding properties of equalities and inequalities, and following the table below list as many corresponding propositions as you can; indicate whether the listed corresponding inequality propositions are correct, and explain why.
 
@@ -180,7 +156,7 @@ By **Property 2.1.5** (Additivity), **Property 2.1.6** (Multiplicativity) and **
 
 It can be seen that propositions analogous to addition are mostly correct; when analogous to multiplication and division, a negative multiplier or divisor reverses the inequality sign, so an additional condition is needed. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Reference Problem 2, Extension and Exploration, Problem 9) As shown in the figure, a residential community wants to build an octagonal leisure area; its main floor plan is a cross-shaped region of area $200\ \mathrm m^2$ formed by two identical rectangles $ABCD$ and $EFGH$. It is planned to build a flower bed on the square $MNPQ$, costing $4200$ yuan$/ \mathrm m^2$; to pave granite flooring on the four identical rectangles (the shaded parts in the figure), costing $210$ yuan$/ \mathrm m^2$; and to lay lawn on the four empty corners (the four triangles in the figure), costing $80$ yuan$/ \mathrm m^2$. Let the total cost be $S$ (unit: yuan) and the length $AD$ be $x$ (unit: $\mathrm m$). For what value of $x$ is $S$ minimized? And find this minimum value.
 
@@ -202,7 +178,7 @@ $$
 S=4200x^2+840\cdot\frac{200-x^2}{4}+160t^2=4000x^2+38000+\frac{400000}{x^2}.
 $$
 
-By **Theorem 2.2.1** (Basic Inequality),
+By **Theorem 2.2.1 (Basic Inequality)**,
 
 $$
 4000x^2+\frac{400000}{x^2}\ge2\sqrt{4000x^2\cdot\frac{400000}{x^2}}=80000,
@@ -210,13 +186,13 @@ $$
 
 with equality if and only if $4000x^2=\frac{400000}{x^2}$, i.e. $x^2=10$, $x=\sqrt{10}$. At this time $S=80000+38000=118000$ yuan. Hence when $x=\sqrt{10}\ \mathrm m$ the total cost is minimized, and the minimum is $118000$ yuan. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Review Reference Problem 2, Extension and Exploration, Problem 10) When buying the same item, one may use two different strategies. The first is: regardless of rises or falls in the item's price, each time buy a fixed quantity of the item. The second is: regardless of rises or falls in the item's price, each time spend a fixed amount on the item. Which shopping method is more economical? Can you generalize the conclusion obtained?
 
 ### Solution to Problem 10
 
-By **Theorem 2.2.1** (Basic Inequality), let the two prices be $p_1,p_2> 0$, and compare the average price of the two strategies.
+By **Theorem 2.2.1 (Basic Inequality)**, let the two prices be $p_1,p_2> 0$, and compare the average price of the two strategies.
 
 First strategy: each time buy a fixed quantity $q$; in total spend $q\left(p_1+p_2\right)$, buy $2q$, and the average price is $\frac{p_1+p_2}{2}$ (the arithmetic mean).
 
@@ -228,6 +204,6 @@ $$
 
 (the harmonic mean).
 
-By **Theorem 2.2.1** (Basic Inequality), $\frac{2p_1p_2}{p_1+p_2}\le\frac{p_1+p_2}{2}$, with equality if and only if $p_1=p_2$. Hence the second strategy (spending a fixed amount each time) has a lower average price and is more economical.
+By **Theorem 2.2.1 (Basic Inequality)**, $\frac{2p_1p_2}{p_1+p_2}\le\frac{p_1+p_2}{2}$, with equality if and only if $p_1=p_2$. Hence the second strategy (spending a fixed amount each time) has a lower average price and is more economical.
 
 Generalization: when prices fluctuate, the strategy of investing a fixed amount each time is superior to the strategy of buying a fixed quantity each time, and its average price is never higher than the latter. $\blacksquare$

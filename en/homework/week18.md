@@ -1,34 +1,25 @@
-# Assignment 18
+# week18
+> **Definition 5.1.1 (正角, 负角, 零角)**<br>我们规定, 一条射线绕其端点按逆时针方向旋转形成的角叫做正角, 按顺时针方向旋转形成的角叫做负角. 如果一条射线没有做任何旋转, 就称它形成了一个零角. 零角的始边与终边重合.
+> **Definition 5.1.2 (象限角)**<br>在直角坐标系中, 使角的顶点与原点重合, 角的始边与 x 轴的非负半轴重合, 那么角的终边在第几象限, 就说这个角是第几象限角.
+> **Definition 5.1.3 (One Radian)**<br>长度等于半径长的圆弧所对的圆心角叫做 1 弧度的角.
 
-> **Definition 5.1.1** (Positive Angle, Negative Angle, Zero Angle) <br>We stipulate that the angle formed by a ray rotating counterclockwise about its endpoint is called a positive angle, and the angle formed by rotating clockwise is called a negative angle. If a ray does not make any rotation, it is said to form a zero angle. The initial side and terminal side of a zero angle coincide.
+---
 
-> **Definition 5.1.2** (Quadrant Angle) <br>Let the vertex of the angle coincide with the origin, and let the initial side of the angle coincide with the nonnegative half of the $x$-axis. Then, whichever quadrant the terminal side of the angle lies in, the angle is said to be a quadrant angle of that quadrant. If the terminal side of the angle lies on a coordinate axis, then the angle is considered not to belong to any quadrant.
-
-> **Standard Conclusion** (Angles with the Same Terminal Side) <br>All angles with the same terminal side as the angle $\alpha$, together with the angle $\alpha$ itself, can form a set $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$, i.e. any angle with the same terminal side as the angle $\alpha$ can be expressed as the sum of the angle $\alpha$ and an integer number of full rotations.
-
-> **Definition 5.1.3** (One-Radian Angle) <br>The central angle subtended by an arc whose length equals the radius is called a $1$ radian angle; the unit of radians is denoted by the symbol $\mathrm{rad}$, read as radian. We call a circle with radius $1$ the unit circle.
-
-> **Standard Conclusion** (Radian Measure Formula) <br>In a circle of radius $r$, if the central angle subtended by an arc of length $l$ is $\alpha\ \mathrm{rad}$, then $\lvert\alpha\rvert=\frac{l}{r}$. Here, the sign of $\alpha$ is determined by the rotation direction of the terminal side of the angle $\alpha$, i.e. counterclockwise rotation is positive and clockwise rotation is negative. The radian measure of a positive angle is a positive number, the radian measure of a negative angle is a negative number, and the radian measure of a zero angle is $0$.
-
-> **Standard Conclusion** (Conversion between Degrees and Radians) <br>$360^{\circ}=2\pi\ \mathrm{rad}$, $180^{\circ}=\pi\ \mathrm{rad}$, $1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}$ $\approx0.01745\ \mathrm{rad}$, $1\ \mathrm{rad}$ $=\left(\frac{180}{\pi}\right)^{\circ}\approx57.30^{\circ}=57^{\circ}18'$.
-
-> **Standard Conclusion** (Arc Length and Area Formulas for a Sector) <br>$l=\alpha R$, $S=\frac{1}{2}\alpha R^{2}$, $S=\frac{1}{2}lR$, where $R$ is the radius of the circle, $\alpha$ ($0< \alpha< 2\pi$) is the central angle, $l$ is the arc length of the sector, and $S$ is the area of the sector.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.1, Problem 1) (Oral answer) Which quadrant angle is an acute angle? Is a first-quadrant angle necessarily an acute angle? Then answer these two questions separately for the right angle and the obtuse angle.
 
 ### Solution to Exercise 1
 
-By **Definition 5.1.2** (Quadrant Angle), whichever quadrant the terminal side of the angle lies in, the angle is said to be a quadrant angle of that quadrant; if the terminal side of the angle lies on a coordinate axis, the angle is considered not to belong to any quadrant.
+By **Definition 5.1.2 (Quadrant Angle)**, whichever quadrant the terminal side of the angle lies in, the angle is said to be a quadrant angle of that quadrant; if the terminal side of the angle lies on a coordinate axis, the angle is considered not to belong to any quadrant.
 
 (1) The degree range of an acute angle is $0^{\circ}< \alpha< 90^{\circ}$, and its terminal side lies in the first quadrant, so an acute angle is a first-quadrant angle. But a first-quadrant angle is not necessarily an acute angle; for example, $390^{\circ}$ has the same terminal side as $30^{\circ}$ and is a first-quadrant angle, yet is not an acute angle.
 
-(2) The right angle is $90^{\circ}$, and its terminal side lies on the $y$-axis; by **Definition 5.1.2** (Quadrant Angle), the right angle does not belong to any quadrant. Any angle whose terminal side lies on the $y$-axis is not a quadrant angle.
+(2) The right angle is $90^{\circ}$, and its terminal side lies on the $y$-axis; by **Definition 5.1.2 (Quadrant Angle)**, the right angle does not belong to any quadrant. Any angle whose terminal side lies on the $y$-axis is not a quadrant angle.
 
 (3) The degree range of an obtuse angle is $90^{\circ}< \alpha< 180^{\circ}$, and its terminal side lies in the second quadrant, so an obtuse angle is a second-quadrant angle. But a second-quadrant angle is not necessarily an obtuse angle; for example, $480^{\circ}$ has the same terminal side as $120^{\circ}$ and is a second-quadrant angle, yet is not an obtuse angle. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.1, Problem 2) (Oral answer) Today is Wednesday. Then what day of the week is it $7k$ ($k\in\mathbb Z$) days from now? What day of the week was it $7k$ ($k\in\mathbb Z$) days ago? What day of the week is it $100$ days from now?
 
@@ -42,7 +33,7 @@ By the recurring-cycle idea of **Standard Conclusion** (Angles with the Same Ter
 
 (3) From $100=7\times14+2$, i.e. $100$ days equals $14$ complete weeks plus $2$ days. Counting $2$ days forward from Wednesday gives Friday, so $100$ days from now is Friday. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.1, Problem 3) Given that the vertex of the angle coincides with the origin of the rectangular coordinate system and the initial side coincides with the nonnegative half of the $x$-axis, draw the following angles and indicate which quadrant angle each is:
 
@@ -56,7 +47,7 @@ By the recurring-cycle idea of **Standard Conclusion** (Angles with the Same Ter
 
 ### Solution to Exercise 3
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), reduce each angle to an angle with the same terminal side within the range $0^{\circ}\sim360^{\circ}$, and then judge by **Definition 5.1.2** (Quadrant Angle).
+By **Standard Conclusion** (Angles with the Same Terminal Side), reduce each angle to an angle with the same terminal side within the range $0^{\circ}\sim360^{\circ}$, and then judge by **Definition 5.1.2 (Quadrant Angle)**.
 
 (1) From $420^{\circ}=360^{\circ}+60^{\circ}$, we know $420^{\circ}$ has the same terminal side as $60^{\circ}$. Since $60^{\circ}$ is a first-quadrant angle, $420^{\circ}$ is a first-quadrant angle.
 
@@ -66,7 +57,7 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), reduce each ang
 
 (4) From $-510^{\circ}=-2\times360^{\circ}+210^{\circ}$, we know $-510^{\circ}$ has the same terminal side as $210^{\circ}$. Since $210^{\circ}$ is a third-quadrant angle, $-510^{\circ}$ is a third-quadrant angle. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.1, Problem 4) Within the range $0^{\circ}\sim360^{\circ}$, find the angles with the same terminal side as the following angles, and indicate which quadrant angle each is:
 
@@ -86,7 +77,7 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), add to or subtr
 
 (3) From $-1190^{\circ}30'=-4\times360^{\circ}+249^{\circ}30'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-1190^{\circ}30'$ is $249^{\circ}30'$. Since $180^{\circ}< 249^{\circ}30'< 270^{\circ}$, it is a third-quadrant angle. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 5.1, Problem 5) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-720^{\circ}\le\beta< 360^{\circ}$:
 
@@ -114,7 +105,7 @@ $$
 
 From $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, solving gives $k=0,1$. When $k=0$, $\beta=-225^{\circ}$; when $k=1$, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. Therefore the elements satisfying the inequality are $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 5.1, Problem 6) Convert the following angles to radians:
 
@@ -148,7 +139,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 5.1, Problem 7) Convert the following radians to degrees:
 
@@ -182,7 +173,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 5.1, Problem 8) Express in radians:
 
@@ -198,7 +189,7 @@ By **Standard Conclusion** (Angles with the Same Terminal Side) and $180^{\circ}
 
 (2) For angles whose terminal side lies on the $y$-axis, their terminal side coincides with that of $\frac{\pi}{2}$ or $\frac{3\pi}{2}$. The angles with the same terminal side as $\frac{\pi}{2}$ are $\frac{\pi}{2}+2k\pi$, and the angles with the same terminal side as $\frac{3\pi}{2}$ are $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, which merge into $\frac{\pi}{2}+n\pi$ ($n\in\mathbb Z$). Therefore the set of angles whose terminal side lies on the $y$-axis is $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\ n\in\mathbb Z\right\}$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 5.1, Problem 9) Use a calculating tool to compare the following pairs of values:
 
@@ -214,7 +205,7 @@ By **Standard Conclusion** (Conversion between Degrees and Radians), $1^{\circ}=
 
 (2) From $1.2^{\circ}\approx0.0209< 1.2$, and the tangent function is monotonically increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$, we get $\tan1.2^{\circ}< \tan1.2$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 5.1, Problem 10) Using the arc length formulas in degrees and radians respectively, calculate the length of the arc subtended by the central angle $60^{\circ}$ in a circle of radius $1\ \mathrm{m}$.
 
@@ -236,7 +227,7 @@ $$
 
 The results of the two methods are consistent, and the arc length is $\frac{\pi}{3}\ \mathrm{m}$. $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 5.1, Problem 11) Given that on a circle of radius $120\ \mathrm{mm}$, the length of an arc is $144\ \mathrm{mm}$, find the radian measure of the central angle (positive angle) subtended by this arc.
 
@@ -252,7 +243,7 @@ $$
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.1, Review and Consolidation, Problem 1) Within the range $0^{\circ}\sim360^{\circ}$, find the angles with the same terminal side as the following angles, and indicate which quadrant angle each is:
 
@@ -266,7 +257,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an angle within the range $0^{\circ}\sim360^{\circ}$, and then judge by **Definition 5.1.2** (Quadrant Angle).
+By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an angle within the range $0^{\circ}\sim360^{\circ}$, and then judge by **Definition 5.1.2 (Quadrant Angle)**.
 
 (1) From $-265^{\circ}+360^{\circ}=95^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-265^{\circ}$ is $95^{\circ}$. Since $90^{\circ}< 95^{\circ}< 180^{\circ}$, it is a second-quadrant angle.
 
@@ -276,7 +267,7 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an an
 
 (4) From $3900^{\circ}-10\times360^{\circ}=300^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $3900^{\circ}$ is $300^{\circ}$. Since $270^{\circ}< 300^{\circ}< 360^{\circ}$, it is a fourth-quadrant angle. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.1, Review and Consolidation, Problem 2) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-360^{\circ}\le\beta< 360^{\circ}$:
 
@@ -316,13 +307,13 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angl
 
 (8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.1, Review and Consolidation, Problem 3) Write the sets of first-, second-, third-, and fourth-quadrant angles in degrees and radians respectively.
 
 ### Solution to Problem 3
 
-By **Definition 5.1.2** (Quadrant Angle), angles whose terminal side lies on a coordinate axis do not belong to any quadrant; by **Standard Conclusion** (Angles with the Same Terminal Side) and $90^{\circ}=\frac{\pi}{2}\ \mathrm{rad}$.
+By **Definition 5.1.2 (Quadrant Angle)**, angles whose terminal side lies on a coordinate axis do not belong to any quadrant; by **Standard Conclusion** (Angles with the Same Terminal Side) and $90^{\circ}=\frac{\pi}{2}\ \mathrm{rad}$.
 
 (1) First-quadrant angles: the terminal side lies between $0^{\circ}$ and $90^{\circ}$ (excluding the boundaries), expressed in degrees as
 
@@ -374,17 +365,17 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.1, Review and Consolidation, Problem 4) The length of a chord equals the radius. Does the central angle subtended by this chord equal $1$ radian? Why?
 
 ### Solution to Problem 4
 
-By **Definition 5.1.3** (One-Radian Angle), a $1$ radian angle is the central angle subtended by an arc whose length equals the radius; by **Standard Conclusion** (Radian Measure Formula), $\lvert\alpha\rvert=\frac{l}{r}$, where $l$ is the arc length, not the chord length.
+By **Definition 5.1.3 (One-Radian Angle)**, a $1$ radian angle is the central angle subtended by an arc whose length equals the radius; by **Standard Conclusion** (Radian Measure Formula), $\lvert\alpha\rvert=\frac{l}{r}$, where $l$ is the arc length, not the chord length.
 
 Let the radius of the circle be $r$, and the chord length also be $r$; then the chord and the two radii form an equilateral triangle, and the central angle it subtends is $60^{\circ}=\frac{\pi}{3}\ \mathrm{rad}$ $\approx1.047\ \mathrm{rad}$, which is not equal to $1\ \mathrm{rad}$. Because $1$ radian corresponds to the central angle subtended by an arc whose arc length equals the radius, while in this problem the chord length equals the radius and the arc length does not equal the radius, this central angle is not equal to $1$ radian. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.1, Review and Consolidation, Problem 5) Convert the following angles to radians:
 
@@ -426,7 +417,7 @@ $$
 
 $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.1, Review and Consolidation, Problem 6) Convert the following radians to degrees (problems (3) and (4) accurate to $0.01^{\circ}$):
 
@@ -468,7 +459,7 @@ $$
 
 $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.1, Comprehensive Application, Problem 7) Multiple choice:
 
@@ -494,13 +485,13 @@ $\blacksquare$
 
 ### Solution to Problem 7
 
-By **Definition 5.1.2** (Quadrant Angle) and **Standard Conclusion** (Angles with the Same Terminal Side).
+By **Definition 5.1.2 (Quadrant Angle)** and **Standard Conclusion** (Angles with the Same Terminal Side).
 
 (1) Since $\alpha$ is an acute angle, $0^{\circ}< \alpha< 90^{\circ}$, so $0^{\circ}< 2\alpha< 180^{\circ}$. When $0^{\circ}< 2\alpha< 90^{\circ}$, $2\alpha$ is a first-quadrant angle; when $90^{\circ}< 2\alpha< 180^{\circ}$, $2\alpha$ is a second-quadrant angle; when $2\alpha=90^{\circ}$, $2\alpha$ is a right angle, not belonging to any quadrant. Therefore $2\alpha$ is a positive angle less than $180^{\circ}$; choose (C).
 
 (2) Since $\alpha$ is a first-quadrant angle, $k\cdot360^{\circ}< \alpha< 90^{\circ}+k\cdot360^{\circ}$ ($k\in\mathbb Z$). When $k$ is even, i.e. $k=2n$, $n\cdot360^{\circ}< \frac{\alpha}{2}< 45^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a first-quadrant angle; when $k$ is odd, i.e. $k=2n+1$, $180^{\circ}+n\cdot360^{\circ}< \frac{\alpha}{2}< 225^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a third-quadrant angle. Therefore $\frac{\alpha}{2}$ is a first- or third-quadrant angle; choose (D). $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 5.1, Comprehensive Application, Problem 8) To cut a sector plate from a circular metal plate of radius $OA=100\ \mathrm{cm}$, so that the length of its arc $AB$ is $112\ \mathrm{cm}$, then how many degrees is the central angle $\angle AOB$ (a calculating tool may be used, accurate to $1^{\circ}$)?
 
@@ -518,7 +509,7 @@ Then by **Standard Conclusion** (Conversion between Degrees and Radians), $1.12\
 
 Therefore the central angle $\angle AOB$ is approximately $64^{\circ}$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 5.1, Comprehensive Application, Problem 9) Given that the central angle subtended by an arc of length $50\ \mathrm{cm}$ is $200^{\circ}$, find the radius of the circle to which this arc belongs (a calculating tool may be used, accurate to $1\ \mathrm{cm}$).
 
@@ -534,7 +525,7 @@ $$
 
 Therefore the radius of the circle to which this arc belongs is approximately $14\ \mathrm{cm}$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 5.1, Extension and Exploration, Problem 10) Each person prepares a sector-shaped fan, then compares it with those of the other students in the group, selects one fan that looks more aesthetically pleasing when opened, and uses a calculating tool to compute its area $S_{1}$.
 
@@ -564,7 +555,7 @@ Then by **Standard Conclusion** (Conversion between Degrees and Radians), we get
 
 Therefore the central angle of the fan should be approximately $138^{\circ}$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 5.1, Extension and Exploration, Problem 11) (1) After $4\ \mathrm{h}$ (hours) have elapsed, through how many degrees have the hour hand and the minute hand respectively rotated? How many radians does each equal?
 
@@ -584,7 +575,7 @@ $$
 
 Solving gives $t=\frac{720n}{11}$. One day is $24\ \mathrm{h}=1440\ \mathrm{min}$; from $t\le1440$, we get $\frac{720n}{11}\le1440$, i.e. $n\le22$. Therefore in one day (from midnight zero o'clock to before the next midnight zero o'clock) the minute hand and the hour hand coincide $22$ times, not $24$ times. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 5.1, Extension and Exploration, Problem 12) Given two intermeshing gears, the large gear has $48$ teeth and the small gear has $20$ teeth.
 

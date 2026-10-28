@@ -1,56 +1,12 @@
-# Assignment 68
+# week68
+> **Definition 1.1.1 (空间向量)**<br>在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模.
+> **Definition 1.1.4 (Equal Vectors)**<br>长度相等且方向相同的向量叫做相等向量.
+> **Theorem 1.2.1 (空间向量基本定理)**<br>如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
+> **Definition 1.2.2 (Basis, Basis Vectors)**<br>如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
 
-> **Definition 1.1.1** (Space Vector) <br>In space, a quantity with both magnitude and direction is called a space vector; the magnitude of a space vector is called its length or norm.
+---
 
-> **Definition 1.1.5** (Linear Operations on Space Vectors) <br>$\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{OA}+\boldsymbol{AB}=\boldsymbol{OB}$; $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{OA}-\boldsymbol{OC}=\boldsymbol{CA}$; $\lambda\boldsymbol{a}$ ($\lambda \in \mathbb R$).
-
-> **Common Conclusion 1.1.6** (Laws of Linear Operations on Space Vectors) <br>Commutative law: $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{b}+\boldsymbol{a}$; associative law: $\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=\boldsymbol{a}+\left(\boldsymbol{b}+\boldsymbol{c}\right)$; distributive law: $\left(\lambda+\mu\right)\boldsymbol{a}=\lambda\boldsymbol{a}+\mu\boldsymbol{a}$, $\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)=\lambda\boldsymbol{a}+\lambda\boldsymbol{b}$.
-
-> **Common Conclusion 1.1.7** (Necessary and Sufficient Condition for Collinear Vectors) <br>For any two space vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ ($\boldsymbol{b} \neq \boldsymbol{0}$), $\boldsymbol{a} \parallel \boldsymbol{b}$ iff there exists a real number $\lambda$ such that $\boldsymbol{a}=\lambda\boldsymbol{b}$.
-
-> **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Coplanar Vectors) <br>If the two vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ are not collinear, then the vector $\boldsymbol{p}$ is coplanar with $\boldsymbol{a}$ and $\boldsymbol{b}$ iff there exists a unique ordered pair $\left(x,y\right)$ of real numbers such that $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}$.
-
-> **Definition 1.1.10** (Angle Between Vectors) <br>Given two nonzero vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, take any point $O$ in space and draw $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$; then $\angle AOB$ is called the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$, denoted $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$, with $0 \leq \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle \leq \pi$.
-
-> **Definition 1.1.12** (Dot Product) <br>$\boldsymbol{a} \cdot \boldsymbol{b} = \lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle$. The dot product of the zero vector with any vector is $0$.
-
-> **Common Conclusion 1.1.13** (Properties of the Dot Product) <br>$\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b} = 0$; $\boldsymbol{a} \cdot \boldsymbol{a} = \lvert \boldsymbol{a} \rvert^2$.
-
-> **Common Conclusion 1.1.14** (Laws of the Dot Product) <br>Commutative law: $\boldsymbol{a} \cdot \boldsymbol{b} = \boldsymbol{b} \cdot \boldsymbol{a}$; scalar-associative law: $\left(\lambda\boldsymbol{a}\right) \cdot \boldsymbol{b} = \lambda\left(\boldsymbol{a} \cdot \boldsymbol{b}\right)$; distributive law: $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \boldsymbol{c} = \boldsymbol{a} \cdot \boldsymbol{c} + \boldsymbol{b} \cdot \boldsymbol{c}$.
-
-> **Theorem 1.2.1** (Fundamental Theorem of Space Vectors) <br>If three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, and $\boldsymbol{c}$ are not coplanar, then for any space vector $\boldsymbol{p}$ there exists a unique ordered triple $\left(x,y,z\right)$ of real numbers such that $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
-
-> **Definition 1.2.2** (Basis, Basis Vectors) <br>If three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, and $\boldsymbol{c}$ are not coplanar, then $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is called a basis of space, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are called basis vectors.
-
-> **Definition 1.2.3** (Orthonormal Basis) <br>If the three basis vectors in a basis are pairwise perpendicular and all have length $1$, the basis is called an orthonormal basis, usually denoted $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$.
-
-> **Definition 1.3.2** (Coordinates of a Point) <br>Under an orthonormal basis, the ordered triple $\left(x,y,z\right)$ corresponding to the vector $\boldsymbol{OA}$ is called the coordinates of the point $A$.
-
-> **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations) <br>Let $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$; then $\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right)$, $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right)$, and $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$.
-
-> **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism, Perpendicularity, Norm, and Angle) <br>$\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b}$; $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; $\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{\boldsymbol{a} \cdot \boldsymbol{b}}{\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert}$.
-
-> **Common Conclusion 1.3.6** (Distance Formula Between Two Points in Space) <br>$P_1P_2=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2+\left(z_2-z_1\right)^2}$.
-
-> **Definition 1.4.1** (Direction Vector of a Line) <br>If $P$ is a point on the line $l$ and $\boldsymbol{u}$ is a direction vector of $l$, then for any point $P$ on $l$ there exists a real number $t$ such that $\boldsymbol{AP}=t\boldsymbol{u}$.
-
-> **Definition 1.4.2** (Normal Vector of a Plane) <br>The direction vector of a line perpendicular to a plane is called a normal vector of the plane.
-
-> **Common Conclusion 1.4.3** (Vector Characterization of Parallelism) <br>$l_1 \parallel l_2 \iff \boldsymbol{u}_1 \parallel \boldsymbol{u}_2$; $l \parallel \alpha \iff \boldsymbol{u} \perp \boldsymbol{n}$; $\alpha \parallel \beta \iff \boldsymbol{n}_1 \parallel \boldsymbol{n}_2$.
-
-> **Common Conclusion 1.4.4** (Vector Characterization of Perpendicularity) <br>$l_1 \perp l_2 \iff \boldsymbol{u}_1 \perp \boldsymbol{u}_2$; $l \perp \alpha \iff \boldsymbol{u} \parallel \boldsymbol{n}$; $\alpha \perp \beta \iff \boldsymbol{n}_1 \perp \boldsymbol{n}_2$.
-
-> **Common Conclusion 1.4.5** (Distance from a Point to a Line) <br>$d=\sqrt{\lvert \boldsymbol{PA} \rvert^2-\left(\frac{\boldsymbol{PA} \cdot \boldsymbol{u}}{\lvert \boldsymbol{u} \rvert}\right)^2}$.
-
-> **Common Conclusion 1.4.6** (Distance from a Point to a Plane) <br>$d=\frac{\lvert \boldsymbol{PA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}$.
-
-> **Common Conclusion 1.4.7** (Angle Between Skew Lines) <br>$\cos\theta=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{v} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{v} \rvert}$.
-
-> **Common Conclusion 1.4.8** (Angle Between a Line and a Plane) <br>$\sin\theta=\frac{\lvert \boldsymbol{u} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{u} \rvert \lvert \boldsymbol{n} \rvert}$.
-
-> **Common Conclusion 1.4.9** (Angle Between Two Planes) <br>$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}$.
-
-### Problem 1
+## Problem 1
 
 (Review Reference Problems 1, Review and Consolidation, Problem 1) Consider the following statements:
 
@@ -70,7 +26,7 @@ The number of incorrect statements is ( ).
 
 ### Solution to Problem 1
 
-By **Definition 1.1.1** (Space Vector) and **Definition 1.1.4** (Equal Vectors).
+By **Definition 1.1.1 (Space Vector)** and **Definition 1.1.4 (Equal Vectors)**.
 
 (1) Equal vectors require only the same direction and equal norm, independent of the initial point; incorrect.
 
@@ -84,7 +40,7 @@ By **Definition 1.1.1** (Space Vector) and **Definition 1.1.4** (Equal Vectors).
 
 Hence there is 1 incorrect statement, namely (1). Choose (A). $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Reference Problems 1, Review and Consolidation, Problem 2) Given $\boldsymbol{a}=\left(3,1,2\right)$ and $\boldsymbol{b}=\left(-1,3,0\right)$, then $\boldsymbol{a}-\boldsymbol{b}$ and $\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$ are respectively ( ).
 
@@ -102,7 +58,7 @@ $\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2} \times \left(-1\ri
 
 Hence choose (A). $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Reference Problems 1, Review and Consolidation, Problem 3) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \perp \boldsymbol{b}$, then $x=\;\_\_\;$.
 
@@ -114,7 +70,7 @@ $\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \t
 
 Hence $x=\frac{10}{3}$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Reference Problems 1, Review and Consolidation, Problem 4) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \parallel \boldsymbol{b}$, then $x=\;\_\_\;$.
 
@@ -128,7 +84,7 @@ $2=\lambda \times \left(-1\right)=-\left(-2\right)=2$, which is consistent.
 
 $x=\lambda \times 3=-2 \times 3=-6$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Reference Problems 1, Review and Consolidation, Problem 5) Given points $A\left(1,0,0\right)$ and $B\left(2,1,2\right)$, then the vector $\boldsymbol{AB}=\;\_\_\;$, and $\lvert \boldsymbol{AB} \rvert=\;\_\_\;$.
 
@@ -140,7 +96,7 @@ $\boldsymbol{AB}=B-A=\left(2-1, 1-0, 2-0\right)=\left(1,1,2\right)$.
 
 $\lvert \boldsymbol{AB} \rvert=\sqrt{1^2+1^2+2^2}=\sqrt{6}$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Reference Problems 1, Review and Consolidation, Problem 6) Given $\boldsymbol{a}=\left(1,0,1\right)$ and $\boldsymbol{b}=\left(1,1,0\right)$, then $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\;\_\_\;$.
 
@@ -158,7 +114,7 @@ $\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{1}{\sqrt{2
 
 $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Reference Problems 1, Review and Consolidation, Problem 7) Given $A\left(3,5,-7\right)$ and $B\left(-2,4,3\right)$, the midpoint of segment $AB$ has coordinates $\;\_\_\;$, and $\boldsymbol{AB}=\;\_\_\;$.
 
@@ -170,13 +126,13 @@ The midpoint is $\left(\frac{3+\left(-2\right)}{2}, \frac{5+4}{2}, \frac{-7+3}{2
 
 $\boldsymbol{AB}=B-A=\left(-2-3, 4-5, 3-\left(-7\right)\right)=\left(-5,-1,10\right)$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Reference Problems 1, Review and Consolidation, Problem 8) Given the tetrahedron $OABC$, with $D$, $E$, $F$ the midpoints of edges $OA$, $OB$, $OC$ respectively, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, find the vectors $\boldsymbol{EF}$, $\boldsymbol{DE}$, $\boldsymbol{DF}$ and describe the relationship among them.
 
 ### Solution to Problem 8
 
-By **Theorem 1.2.1** (Fundamental Theorem of Space Vectors).
+By **Theorem 1.2.1 (Fundamental Theorem of Space Vectors)**.
 
 $\boldsymbol{EF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OB}\right)=\frac{1}{2}\left(\boldsymbol{c}-\boldsymbol{b}\right)$.
 
@@ -186,7 +142,7 @@ $\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OA}\right)=\frac{1
 
 Hence $\boldsymbol{DF}=\boldsymbol{DE}+\boldsymbol{EF}$, and the three vectors, placed head-to-tail, form the three sides of a triangle. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Reference Problems 1, Review and Consolidation, Problem 9) Given $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. Find:
 
@@ -202,7 +158,7 @@ By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operat
 
 (2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12, -3, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Review Reference Problems 1, Comprehensive Application, Problem 10) Given $\boldsymbol{a}=\left(1,1,0\right)$ and $\boldsymbol{b}=\left(-1,0,2\right)$, then $\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\;\_\_\;$, and the area of the parallelogram with $\boldsymbol{a}$ and $\boldsymbol{b}$ as adjacent sides is $\;\_\_\;$.
 
@@ -222,7 +178,7 @@ $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}
 
 Area of parallelogram $=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \sin \theta=\sqrt{2} \cdot \sqrt{5} \cdot \frac{3}{\sqrt{10}}=3$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Review Reference Problems 1, Comprehensive Application, Problem 11) Given $A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $C\left(0,0,2\right)$, find the coordinates of $D$ satisfying:
 
@@ -240,7 +196,7 @@ $\boldsymbol{AB}=\left(-1,1,0\right)$, $\boldsymbol{AC}=\left(-1,0,2\right)$.
 
 (2) $\boldsymbol{AB}+\boldsymbol{AC}=\left(-2,1,2\right)=\boldsymbol{AD}=D-A$. Hence $D=\left(-1,1,2\right)$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Review Reference Problems 1, Comprehensive Application, Problem 12) Given $\boldsymbol{a}=\left(1-t,1-t,t\right)$ and $\boldsymbol{b}=\left(2,t,t\right)$, find the minimum value of $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert$.
 
@@ -256,7 +212,7 @@ When $t=\frac{2}{10}=\frac{1}{5}$, the minimum is $5 \times \frac{1}{25}-2 \time
 
 $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert_{\min}=\sqrt{\frac{9}{5}}=\frac{3\sqrt{5}}{5}$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Review Reference Problems 1, Comprehensive Application, Problem 13) Prove that the three points $A\left(1,0,-1\right)$, $B\left(3,4,5\right)$, and $C\left(0,-2,-4\right)$ are collinear.
 
@@ -272,7 +228,7 @@ $\boldsymbol{AB}=-2 \cdot \boldsymbol{AC}$, i.e. $\boldsymbol{AB} \parallel \bol
 
 Also, $\boldsymbol{AB}$ and $\boldsymbol{AC}$ share the common initial point $A$, so $A$, $B$, $C$ are collinear. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Review Reference Problems 1, Comprehensive Application, Problem 14) Given $A\left(1,2,-1\right)$ and $B\left(2,0,2\right)$, the point $P$ lies in the $xOz$ plane with $PA=PB$. Find the locus of $P$.
 
@@ -296,19 +252,19 @@ Simplifying: $-2x+6+2z=-4x+8-4z$, i.e. $2x+6z-2=0$, i.e. $x+3z-1=0$.
 
 Hence the locus of $P$ is the line $x+3z=1$ in the $xOz$ plane. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Review Reference Problems 1, Comprehensive Application, Problem 15) Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is an orthonormal basis of space, what is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$? What is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$?
 
 ### Solution to Problem 15
 
-By **Definition 1.2.2** (Basis, Basis Vectors) and **Theorem 1.2.1** (Fundamental Theorem of Space Vectors).
+By **Definition 1.2.2 (Basis, Basis Vectors)** and **Theorem 1.2.1 (Fundamental Theorem of Space Vectors)**.
 
 $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ is a linear combination of the basis vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, i.e. its coordinates in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,-1\right)$.
 
 $\boldsymbol{a}+\boldsymbol{b}$ is a linear combination only of $\boldsymbol{a}$ and $\boldsymbol{b}$, with no $\boldsymbol{c}$, so it is parallel to the plane spanned by $\boldsymbol{a}$ and $\boldsymbol{b}$ (i.e. the $xOy$ plane). The coordinates of $\boldsymbol{a}+\boldsymbol{b}$ in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,0\right)$. $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Review Reference Problems 1, Extension and Exploration, Problem 16) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, prove:
 
@@ -348,7 +304,7 @@ Verification: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1
 
 Hence $DB_1 \perp$ the plane $ACD_1$. $\blacksquare$
 
-### Problem 17
+## Problem 17
 
 (Review Reference Problems 1, Extension and Exploration, Problem 17) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $CA=CB=1$, $\angle BCA=90^\circ$, the edge $AA_1=2$, and $M$ is the midpoint of $A_1B_1$. Set up the space rectangular coordinate system shown in the figure.
 

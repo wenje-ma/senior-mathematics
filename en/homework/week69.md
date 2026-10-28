@@ -1,40 +1,13 @@
-# Assignment 69
+# week69
+> **Definition 2.1.2 (Slope)**<br>一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> **Definition 2.2.1 (Point-slope Form)**<br>由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **Definition 2.2.6 (一般式方程)**<br>标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
+> **Definition 2.4.1 (圆的标准方程)**<br>圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
+> **Definition 2.4.3 (圆的一般方程)**<br>点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
 
-> **Definition 2.1.2** (Slope) <br>The tangent of the inclination angle $\alpha$ of a line is called the slope of the line. The slope is usually denoted by the lowercase letter $k$, i.e. $k=\tan\alpha$.
+---
 
-> **Common Conclusion 2.1.3** (Slope Formula) <br>If a line passes through two points $P_1\left(x_1,y_1\right)$ and $P_2\left(x_2,y_2\right)$ ($x_1\ne x_2$), then the slope is $k=\frac{y_2-y_1}{x_2-x_1}$.
-
-> **Common Conclusion 2.1.4** (Direction Vector and Slope) <br>If the slope of line $l$ is $k$ and a direction vector has coordinates $\left(x,y\right)$, then $k=\frac{y}{x}$.
-
-> **Common Conclusion 2.1.5** (Two Parallel Lines) <br>For two lines $l_1,l_2$ with slopes $k_1,k_2$, we have $l_1\parallel l_2\Leftrightarrow k_1=k_2$.
-
-> **Common Conclusion 2.1.6** (Two Perpendicular Lines) <br>$l_1\perp l_2\Leftrightarrow k_1k_2=-1$.
-
-> **Definition 2.2.1** (Point-Slope Form) <br>If the line $l$ passes through $P_0\left(x_0,y_0\right)$ with slope $k$, the equation $y-y_0=k\left(x-x_0\right)$ is called the point-slope form.
-
-> **Definition 2.2.2** (Slope-Intercept Form) <br>The equation $y=kx+b$ is called the slope-intercept form of a line.
-
-> **Definition 2.2.6** (General Form) <br>A linear equation $Ax+By+C=0$ in $x,y$ (where $A,B$ are not both $0$) is called the general form of a line.
-
-> **Common Conclusion 2.3.1** (Intersection of Two Lines) <br>The intersection coordinates of two lines are the solution to the system of their equations.
-
-> **Common Conclusion 2.3.2** (Distance Formula Between Two Points) <br>The distance between two points $P_1\left(x_1,y_1\right)$ and $P_2\left(x_2,y_2\right)$ in the plane is $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
-
-> **Common Conclusion 2.3.3** (Point-to-Line Distance Formula) <br>The distance from $P\left(x_0,y_0\right)$ to the line $l:Ax+By+C=0$ is $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
-
-> **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines) <br>The distance between the two parallel lines $Ax+By+C_1=0$ and $Ax+By+C_2=0$ is $d=\frac{\left|C_1-C_2\right|}{\sqrt{A^2+B^2}}$.
-
-> **Definition 2.4.1** (Standard Equation of a Circle) <br>The standard equation of a circle with center $A\left(a,b\right)$ and radius $r$ is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
-
-> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F> 0$, it represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$.
-
-> **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle) <br>Let the circle have radius $r$ and the center-to-line distance be $d$: $d< r$ means intersecting, $d=r$ means tangent, and $d> r$ means disjoint.
-
-> **Common Conclusion 2.5.2** (Chord Length Formula) <br>When a line intersects a circle, the chord length is $\left|AB\right|=2\sqrt{r^2-d^2}$.
-
-> **Common Conclusion 2.5.3** (Position of Two Circles) <br>Let the two circles have radii $r_1,r_2$ ($r_1\ge r_2$) and center distance $d$: $d> r_1+r_2$ means external separation, $d=r_1+r_2$ means external tangency, $r_1-r_2< d< r_1+r_2$ means intersecting, $d=r_1-r_2$ means internal tangency, and $d< r_1-r_2$ means containment.
-
-### Problem 1
+## Problem 1
 
 (Review Reference Problems 2, Review and Consolidation, Problem 1) Multiple choice.
 
@@ -58,7 +31,7 @@
 
 (3) Reflecting about the $x$-axis replaces $y$ by $-y$. The original $3x-4y+5=0$ becomes $3x+4y+5=0$. Choose (B). $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Reference Problems 2, Review and Consolidation, Problem 2) Given that the two equations in each pair below represent parallel lines, find $a$:
 
@@ -78,7 +51,7 @@ By **Common Conclusion 2.1.5** (Two Parallel Lines), parallel means equal slopes
 
 (3) $x+\left(1+a\right)y=2-a$, $2ax+4y=-16$. Parallel means $\frac{1}{2a}=\frac{1+a}{4}$, i.e. $4=2a\left(1+a\right)$, i.e. $a^2+a-2=0$, i.e. $\left(a+2\right)\left(a-1\right)=0$. Hence $a=-2$ or $a=1$. When $a=-2$, the lines are $x-y=4$ and $-4x+4y=-16$ (i.e. $x-y=4$), coincident, rejected. When $a=1$, the lines are $x+2y=1$ and $2x+4y=-16$, parallel but not coincident. Hence $a=1$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Reference Problems 2, Review and Consolidation, Problem 3) Given that the two equations in each pair below represent perpendicular lines, find $a$:
 
@@ -96,7 +69,7 @@ By **Common Conclusion 2.1.6** (Two Perpendicular Lines), the product of slopes 
 
 (2) $2x+ay=2$ is $y=-\frac{2}{a}x+\frac{2}{a}$ ($a\ne0$), slope $k_1=-\frac{2}{a}$. $ax+2y=1$ is $y=-\frac{a}{2}x+\frac{1}{2}$, slope $k_2=-\frac{a}{2}$. From $k_1k_2=-1$, we get $\left(-\frac{2}{a}\right)\left(-\frac{a}{2}\right)=1=-1$, a contradiction. When $a=0$, the lines are $x=1$ and $y=\frac{1}{2}$, one perpendicular to the $x$-axis and the other parallel to the $x$-axis, hence perpendicular. Hence $a=0$.
 
-(3) By **Definition 2.2.6** (General Form), two lines are perpendicular iff $A_1A_2+B_1B_2=0$. Substituting:
+(3) By **Definition 2.2.6 (General Form)**, two lines are perpendicular iff $A_1A_2+B_1B_2=0$. Substituting:
 
 $$
 \left(3a+2\right)\left(5a-2\right)+\left(1-4a\right)\left(a+4\right)=0.
@@ -104,7 +77,7 @@ $$
 
 Expanding gives $15a^2+10a-6a-4+a+4-4a^2-16a=0$, i.e. $11a^2-11a=0$, i.e. $11a\left(a-1\right)=0$. Hence $a=0$ or $a=1$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Reference Problems 2, Review and Consolidation, Problem 4) Find the equation of the line parallel to $x-y-2=0$ at distance $2\sqrt 2$.
 
@@ -118,7 +91,7 @@ Hence $\lvert c+2 \rvert=4$, i.e. $c+2=4$ or $c+2=-4$, i.e. $c=2$ or $c=-6$.
 
 The desired lines are $x-y+2=0$ or $x-y-6=0$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Reference Problems 2, Review and Consolidation, Problem 5) Two sides of a parallelogram lie on the lines $x+y-1=0$ and $3x-y+4=0$, and their diagonal intersection is $M\left(3,3\right)$. Find the equations of the other two sides.
 
@@ -134,7 +107,7 @@ The other two sides are parallel to the given sides.
 
 (b) The side parallel to $3x-y+4=0$ passes through $\left(\frac{27}{4},\frac{17}{4}\right)$; translating $3x-y+4=0$: $3\cdot\frac{27}{4}-\frac{17}{4}+c=0$, i.e. $\frac{81-17}{4}+c=0$, i.e. $c=-16$. The equation is $3x-y-16=0$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Reference Problems 2, Review and Consolidation, Problem 6) Find the equations of the following circles:
 
@@ -146,7 +119,7 @@ The other two sides are parallel to the given sides.
 
 ### Solution to Problem 6
 
-Use **Definition 2.4.1** (Standard Equation of a Circle) and **Definition 2.4.3** (General Equation of a Circle).
+Use **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
 
 (1) The radius is $\sqrt{\left(-8+5\right)^2+\left(-1-3\right)^2}=\sqrt{9+16}=5$. The circle is $\left(x+5\right)^2+\left(y-3\right)^2=25$.
 
@@ -166,13 +139,13 @@ $$
 
 Expanding gives $a^2+25-30a+9a^2=9-6a+a^2+36-36a+9a^2$, i.e. $0=20-12a$, so $a=\frac{5}{3}$. The center is $\left(\frac{5}{3},0\right)$. The squared radius is $\left(\frac{5}{3}\right)^2+0=\frac{25}{9}$. The circle is $\left(x-\frac{5}{3}\right)^2+y^2=\frac{25}{9}$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Reference Problems 2, Review and Consolidation, Problem 7) For what value of $m$ does the equation $x^2+y^2-4x+2my+2m^2-2m+1=0$ represent a circle? Find the equation when the radius is maximized.
 
 ### Solution to Problem 7
 
-By **Definition 2.4.3** (General Equation of a Circle), $D=-4$, $E=2m$, $F=2m^2-2m+1$.
+By **Definition 2.4.3 (General Equation of a Circle)**, $D=-4$, $E=2m$, $F=2m^2-2m+1$.
 
 The equation represents a circle iff $D^2+E^2-4F> 0$, i.e. $16+4m^2-4\left(2m^2-2m+1\right)> 0$, i.e. $16+4m^2-8m^2+8m-4> 0$, i.e. $-4m^2+8m+12> 0$, i.e. $m^2-2m-3< 0$, i.e. $\left(m-3\right)\left(m+1\right)< 0$. Hence $-1< m< 3$.
 
@@ -180,13 +153,13 @@ The squared radius is $\frac{D^2+E^2-4F}{4}=\frac{-4m^2+8m+12}{4}=-m^2+2m+3=-\le
 
 When $m=1$ the radius is maximized, with squared radius $4$. The center is $\left(1,-m\right)=\left(1,-1\right)$. The circle is $\left(x-1\right)^2+\left(y+1\right)^2=4$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Reference Problems 2, Review and Consolidation, Problem 8) Determine whether the circle $x^2+y^2-6x+4y+12=0$ is tangent to the circle $x^2+y^2-14x-2y+14=0$.
 
 ### Solution to Problem 8
 
-By **Definition 2.4.3** (General Equation of a Circle), rewrite in standard form.
+By **Definition 2.4.3 (General Equation of a Circle)**, rewrite in standard form.
 
 Circle $C_1:\left(x-3\right)^2+\left(y+2\right)^2=1$, center $O_1\left(3,-2\right)$, radius $r_1=1$.
 
@@ -200,7 +173,7 @@ $$
 
 $r_1+r_2=1+6=7$, $r_2-r_1=6-1=5=d$. By **Common Conclusion 2.5.3** (Position of Two Circles), since $d=r_2-r_1$, the circles are internally tangent, i.e. tangent. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Reference Problems 2, Comprehensive Application, Problem 9) If the graph of a function $y=f\left(x\right)$ between $x=a$ and $x=b$ can be approximated as a line segment, with $a\le c\le b$, prove:
 
@@ -216,7 +189,7 @@ $$
 k=\frac{f\left(b\right)-f\left(a\right)}{b-a}.
 $$
 
-By **Definition 2.2.1** (Point-Slope Form), the line through the segment is
+By **Definition 2.2.1 (Point-Slope Form)**, the line through the segment is
 
 $$
 y-f\left(a\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}\left(x-a\right).
@@ -230,7 +203,7 @@ $$
 
 Hence the claim follows. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Review Reference Problems 2, Comprehensive Application, Problem 10) Find the maximum distance from $P\left(-2,-1\right)$ to the line $l:\left(1+3\lambda\right)x+\left(1+\lambda\right)y-2-4\lambda=0$ (where $\lambda$ is any real number).
 
@@ -248,7 +221,7 @@ $$
 
 The maximum occurs when $l$ is perpendicular to $PQ$. The maximum distance is $\sqrt{13}$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Review Reference Problems 2, Comprehensive Application, Problem 11) Through $P\left(3,0\right)$ draw a line $l$ such that the segment cut off between the lines $l_1:2x-y-2=0$ and $l_2:x+y+3=0$ is bisected by $P$. Find the equation of $l$.
 
@@ -274,9 +247,9 @@ $$
 k=\frac{\frac{16}{3}-0}{\frac{11}{3}-3}=\frac{\frac{16}{3}}{\frac{2}{3}}=8.
 $$
 
-By **Definition 2.2.1** (Point-Slope Form), $y=8\left(x-3\right)$, i.e. $8x-y-24=0$. $\blacksquare$
+By **Definition 2.2.1 (Point-Slope Form)**, $y=8\left(x-3\right)$, i.e. $8x-y-24=0$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Review Reference Problems 2, Comprehensive Application, Problem 12) Given the line $l:x-2y-8=0$ and points $A\left(-2,0\right)$ and $B\left(2,4\right)$, suppose there is a point $P$ on $l$ that minimizes $\lvert PA \rvert+\lvert PB \rvert$. Find the coordinates of $P$.
 
@@ -294,7 +267,7 @@ $\lvert PA \rvert+\lvert PB \rvert=\lvert PA' \rvert+\lvert PB \rvert\ge\lvert A
 
 The line $A'B$ passes through $A'\left(2,-8\right)$ and $B\left(2,4\right)$, i.e. $x=2$. Substituting into $l:x-2y-8=0$ gives $2-2y-8=0$, i.e. $y=-3$. The coordinates of $P$ are $\left(2,-3\right)$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Review Reference Problems 2, Comprehensive Application, Problem 13) Find the length of the common chord of the circles $x^2+y^2-10x-10y=0$ and $x^2+y^2-6x+2y-40=0$.
 
@@ -318,7 +291,7 @@ $$
 
 $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Review Reference Problems 2, Comprehensive Application, Problem 14) The circles $x^2+y^2=4$ and $x^2+y^2+4x-4y+4=0$ are symmetric about a line $l$. Find the equation of $l$.
 
@@ -332,9 +305,9 @@ The radii are equal, and the circles are symmetric about $l$, so $l$ is the perp
 
 The midpoint of $O_1O_2$ is $\left(-1,1\right)$, and the slope of $O_1O_2$ is $\frac{2-0}{-2-0}=-1$. The perpendicular bisector has slope $1$.
 
-By **Definition 2.2.1** (Point-Slope Form), $y-1=1\cdot\left(x+1\right)$, i.e. $x-y+2=0$. $\blacksquare$
+By **Definition 2.2.1 (Point-Slope Form)**, $y-1=1\cdot\left(x+1\right)$, i.e. $x-y+2=0$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Review Reference Problems 2, Comprehensive Application, Problem 15) Find the circle symmetric to $C:\left(x+2\right)^2+\left(y-6\right)^2=1$ about the line $3x-4y+5=0$.
 
@@ -350,7 +323,7 @@ Solving $3\left(b-6\right)=-4\left(a+2\right)$ gives $3b-18=-4a-8$, i.e. $4a+3b=
 
 The reflected circle has center $\left(4,-2\right)$ and the same radius $1$. Its equation is $\left(x-4\right)^2+\left(y+2\right)^2=1$. $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Review Reference Problems 2, Comprehensive Application, Problem 16) Find the circle with center on the line $y=-2x$, passing through $A\left(2,-1\right)$, and tangent to the line $x+y=1$.
 
@@ -370,7 +343,7 @@ Squaring both sides gives $\frac{\left(-a-1\right)^2}{2}=\left(a-2\right)^2+\lef
 
 The center is $\left(1,-2\right)$, and the squared radius is $\left(1-2\right)^2+\left(-2+1\right)^2=2$. The circle is $\left(x-1\right)^2+\left(y+2\right)^2=2$. $\blacksquare$
 
-### Problem 17
+## Problem 17
 
 (Review Reference Problems 2, Extension and Exploration, Problem 17) If the sum of squares of one pair of opposite sides of a quadrilateral equals the sum of squares of the other pair, what is the relation between its diagonals? Why?
 
@@ -386,13 +359,13 @@ By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), expanding 
 
 Hence the diagonals are perpendicular. $\blacksquare$
 
-### Problem 18
+## Problem 18
 
 (Review Reference Problems 2, Extension and Exploration, Problem 18) Find the area enclosed by the curve $x^2+y^2=\lvert x \rvert+\lvert y \rvert$.
 
 ### Solution to Problem 18
 
-By **Definition 2.4.1** (Standard Equation of a Circle), consider cases.
+By **Definition 2.4.1 (Standard Equation of a Circle)**, consider cases.
 
 (a) When $x\ge0$ and $y\ge0$, the equation is $x^2+y^2=x+y$, i.e. $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. This is the portion in the first quadrant of the circle centered at $\left(\frac{1}{2},\frac{1}{2}\right)$ with radius $\frac{\sqrt 2}{2}$.
 
@@ -402,7 +375,7 @@ In addition, the four semicircles enclose a square of side $\sqrt 2$ (diagonal $
 
 The total area is $\pi+2$. $\blacksquare$
 
-### Problem 19
+## Problem 19
 
 (Review Reference Problems 2, Extension and Exploration, Problem 19) A light ray is emitted from $A\left(-2,3\right)$ and reflected by the $x$-axis; the reflected ray is tangent to the circle $C:\left(x-3\right)^2+\left(y-2\right)^2=1$. Find the equation of the reflected ray.
 
@@ -424,7 +397,7 @@ Solving gives $k=\frac{25\pm\sqrt{625-576}}{24}=\frac{25\pm7}{24}$, i.e. $k=\fra
 
 The reflected rays are $y+3=\frac{4}{3}\left(x+2\right)$, i.e. $4x-3y-1=0$, or $y+3=\frac{3}{4}\left(x+2\right)$, i.e. $3x-4y-6=0$. $\blacksquare$
 
-### Problem 20
+## Problem 20
 
 (Review Reference Problems 2, Extension and Exploration, Problem 20) Given the circle $C:\left(x-1\right)^2+\left(y-2\right)^2=25$ and the line $l:\left(2m+1\right)x+\left(m+1\right)y-7m-4=0$.
 

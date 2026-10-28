@@ -1,24 +1,15 @@
-# Assignment 83
+# week83
+> **Definition 7.1.1 (条件概率)**<br>设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
 
-> **Definition 7.1.1** (Conditional Probability) <br>In general, let $A$, $B$ be two random events with $\mathbb P\left(A\right)> 0$. We call $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ the conditional probability of event $B$ occurring under the condition that event $A$ occurs, abbreviated as conditional probability.
+---
 
-> **Conclusion 7.1.2** (Multiplication Formula for Probability) <br>From the definition of conditional probability, for any two events $A$ and $B$, if $\mathbb P\left(A\right)> 0$, then $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
-
-> **Conclusion 7.1.3** (Properties of Conditional Probability) <br>Let $\mathbb P\left(A\right)> 0$. Then (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) if $B$ and $C$ are two mutually exclusive events, then $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) let $\overline B$ and $B$ be complementary events, then $\mathbb P\left(\overline B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
-
-> **Conclusion 7.1.4** (Mutual Independence of Events) <br>When $\mathbb P\left(A\right)> 0$, event $A$ and event $B$ are mutually independent if and only if $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
-
-> **Conclusion 7.1.5** (Total Probability Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$, $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
-
-> **Conclusion 7.1.6** (Bayes' Formula) <br>Let $A_1$, $A_2$, $\cdots$, $A_n$ be a set of pairwise mutually exclusive events with $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, and $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$. Then for any event $B\subseteq\Omega$ with $\mathbb P\left(B\right)> 0$, $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 7.1, Problem 1) Let $A\subseteq B$, with $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. Based on the meaning of event inclusion and the meaning of conditional probability, directly write down the values of $\mathbb P\left(B\mid A\right)$ and $\mathbb P\left(A\mid B\right)$, and then verify them using the conditional probability formula.
 
 ### Solution to Exercise 1
 
-By **Definition 7.1.1** (Conditional Probability), $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
+By **Definition 7.1.1 (Conditional Probability)**, $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
 
 Because $A\subseteq B$, when event $A$ occurs event $B$ necessarily occurs, giving directly $\mathbb P\left(B\mid A\right)=1$; while under the condition that event $B$ occurs, the probability that event $A$ occurs should be the proportion that $A$ occupies in $B$, giving directly $\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5$.
 
@@ -34,13 +25,13 @@ $$
 
 This agrees with the intuitive judgment. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 7.1, Problem 2) From a deck of 52 playing cards excluding the jokers, one card is drawn at random each time, and the drawn card is not replaced. It is known that an $A$ was drawn on the 1st draw. Find the probability of drawing an $A$ on the 2nd draw.
 
 ### Solution to Exercise 2
 
-By **Definition 7.1.1** (Conditional Probability), compute using the reduced sample space after the 1st $A$ was drawn.
+By **Definition 7.1.1 (Conditional Probability)**, compute using the reduced sample space after the 1st $A$ was drawn.
 
 A deck has 52 cards in total, of which 4 are $A$ cards. It is known that 1 $A$ card has already been drawn on the 1st draw and not replaced; at this point 51 cards remain, of which 3 are $A$ cards. Thus the probability of the event "drawing an $A$ on the 2nd draw" is
 
@@ -50,7 +41,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 7.1, Problem 3) A bag contains 10 balls identical except in color, of which 7 are white and 3 are black. Each time one ball is drawn at random from the bag, and the drawn ball is not replaced. Find:
 
@@ -60,7 +51,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Definition 7.1.1** (Conditional Probability) and **Conclusion 7.1.2** (Multiplication Formula for Probability).
+By **Definition 7.1.1 (Conditional Probability)** and **Conclusion 7.1.2** (Multiplication Formula for Probability).
 
 (1) It is known that the 1st drawn ball is white; at this point 9 balls remain in the bag, of which 6 are white and 3 are black. Thus
 
@@ -76,7 +67,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 7.1, Problem 1) There are 12 multiple-choice questions with four options each; among them, the student Zhang Jun has an idea for 9 questions and no idea at all for 3 questions. The probability of answering a question with an idea correctly is 0.9; for a question with no idea, he can only guess an answer at random, and the probability of guessing correctly is 0.25. Zhang Jun chooses 1 of these 12 questions at random. Find the probability that he answers this question correctly.
 
@@ -104,7 +95,7 @@ $$
 
 Thus the probability that Zhang Jun answers the question correctly is 0.7375. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 7.1, Problem 2) Two batches of products of the same specification: the first batch makes up $40\%$ with a defective rate of $5\%$, and the second batch makes up $60\%$ with a defective rate of $4\%$. The two batches are mixed, and 1 item is drawn at random from the mixed products.
 
@@ -138,7 +129,7 @@ $$
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 7.1, Review and Consolidation, Problem 1) To study the proportion of color blindness among students of different genders, a survey was conducted of 2000 students in a certain school, with the data shown in the table on the right. One person is chosen at random from these 2000 people.
 
@@ -156,7 +147,7 @@ Table (unit: people)
 
 ### Solution to Problem 1
 
-By **Definition 7.1.1** (Conditional Probability), compute using the group defined by the given condition as the sample space.
+By **Definition 7.1.1 (Conditional Probability)**, compute using the group defined by the given condition as the sample space.
 
 Let $A$ = "a male is chosen", $B$ = "the chosen student is color-blind".
 
@@ -174,13 +165,13 @@ $$
 
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 7.1, Review and Consolidation, Problem 2) One person is chosen at random from a population. Let $B=$ "the chosen person has heart disease", $C=$ "the chosen person is a heart-disease patient older than 50 years". Determine the relationship between $\mathbb P\left(B\right)$ and $\mathbb P\left(C\right)$, and explain your reasoning.
 
 ### Solution to Problem 2
 
-By **Definition 7.1.1** (Conditional Probability) and the inclusion relation between events.
+By **Definition 7.1.1 (Conditional Probability)** and the inclusion relation between events.
 
 When event $C$ occurs, the person both has heart disease and is older than 50 years, so the occurrence of $C$ necessarily entails the occurrence of $B$, i.e. $C\subseteq B$. By the property of probability, the probability of a sub-event does not exceed that of the parent event, so
 
@@ -190,13 +181,13 @@ $$
 
 Moreover, not everyone with heart disease is older than 50 years, i.e. $B$ contains cases not in $C$, so in fact $\mathbb P\left(C\right)< \mathbb P\left(B\right)$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 7.1, Review and Consolidation, Problem 3) A and B each shoot once at the same target. It is known that the probability of A hitting the target is 0.6, and the probability of B hitting the target is 0.5. Given that the target is hit at least once, find the probability that A hit the target.
 
 ### Solution to Problem 3
 
-By **Definition 7.1.1** (Conditional Probability), using the addition and multiplication formulas for probability.
+By **Definition 7.1.1 (Conditional Probability)**, using the addition and multiplication formulas for probability.
 
 Let $A$ = "A hits the target", $B$ = "B hits the target". By the hypothesis, $\mathbb P\left(A\right)=0.6$, $\mathbb P\left(B\right)=0.5$, and the two shots are independent. By **Conclusion 7.1.4** (Mutual Independence of Events), $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=0.6\times 0.5=0.3$.
 
@@ -206,7 +197,7 @@ $$
 \mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(AB\right)=0.6+0.5-0.3=0.8.
 $$
 
-What is sought is the probability that $A$ occurs under the condition that $A\cup B$ occurs. By **Definition 7.1.1** (Conditional Probability),
+What is sought is the probability that $A$ occurs under the condition that $A\cup B$ occurs. By **Definition 7.1.1 (Conditional Probability)**,
 
 $$
 \mathbb P\left(A\mid A\cup B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\cup B\right)}=\frac{0.6}{0.8}=\frac{3}{4}.
@@ -214,7 +205,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 7.1, Review and Consolidation, Problem 4) Box A and box B each contain 10 balls: box A has 5 red and 5 white balls, and box B has 8 red and 2 white balls. A fair die is rolled: if the roll is 1 or 2, one ball is drawn at random from box A; if the roll is 3, 4, 5, or 6, one ball is drawn at random from box B. Find the probability of drawing a red ball.
 
@@ -238,7 +229,7 @@ $$
 
 $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 7.1, Review and Consolidation, Problem 5) A flu outbreak has occurred in three regions $A$, $B$, $C$. The proportions of people infected with flu in these three regions are $6\%$, $5\%$, and $4\%$, respectively. The ratio of the populations of the three regions is $5:7:8$. Now one person is chosen at random from these three regions.
 
@@ -272,21 +263,21 @@ $$
 
 $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 7.1, Review and Consolidation, Problem 6) Given $\mathbb P\left(A\right)> 0$, $\mathbb P\left(B\right)> 0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, prove that $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
 
 ### Solution to Problem 6
 
-By **Definition 7.1.1** (Conditional Probability).
+By **Definition 7.1.1 (Conditional Probability)**.
 
-From $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ and **Definition 7.1.1** (Conditional Probability),
+From $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ and **Definition 7.1.1 (Conditional Probability)**,
 
 $$
 \frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\right).
 $$
 
-Multiplying both sides by $\mathbb P\left(A\right)$, we get $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. Then by **Definition 7.1.1** (Conditional Probability),
+Multiplying both sides by $\mathbb P\left(A\right)$, we get $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. Then by **Definition 7.1.1 (Conditional Probability)**,
 
 $$
 \mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{\mathbb P\left(A\right)\mathbb P\left(B\right)}{\mathbb P\left(B\right)}=\mathbb P\left(A\right).
@@ -294,7 +285,7 @@ $$
 
 Thus $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 7.1, Comprehensive Application, Problem 7) A batch of products has 100 items in total, of which 5 are unqualified. The receiving party draws products at random without replacement for inspection, and decides whether to accept the batch according to the following rule: if the 1st inspected product is unqualified, the whole batch is rejected; if the 1st inspected product is qualified, then 1 more is drawn; if the 2nd inspected product is qualified, the whole batch is accepted, otherwise the whole batch is rejected. Find the probability that this batch is rejected.
 
@@ -324,7 +315,7 @@ $$
 
 $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 7.1, Comprehensive Application, Problem 8) In Mendel's pea experiments, the genotypes of the second filial generation are $DD$, $Dd$, $dd$, where $D$ is the dominant gene and $d$ is the recessive gene, and the ratio of these three genotypes is $1:2:1$. If 2 pea plants are chosen at random from the second filial generation and are crossed at random, what is the probability that the genotype in the third filial generation is $dd$?
 
@@ -352,21 +343,21 @@ $$
 
 $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 7.1, Comprehensive Application, Problem 9) Prove properties (1) and (2) of conditional probability.
 
 ### Solution to Problem 9
 
-By **Definition 7.1.1** (Conditional Probability).
+By **Definition 7.1.1 (Conditional Probability)**.
 
-(1) For any event $A$, $A\subseteq\Omega$, so $\Omega A=A$. By **Definition 7.1.1** (Conditional Probability),
+(1) For any event $A$, $A\subseteq\Omega$, so $\Omega A=A$. By **Definition 7.1.1 (Conditional Probability)**,
 
 $$
 \mathbb P\left(\Omega\mid A\right)=\frac{\mathbb P\left(\Omega A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\right)}=1.
 $$
 
-(2) If $B$ and $C$ are two mutually exclusive events, then $BA$ and $CA$ are also mutually exclusive. By the addition formula for probability, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. By **Definition 7.1.1** (Conditional Probability),
+(2) If $B$ and $C$ are two mutually exclusive events, then $BA$ and $CA$ are also mutually exclusive. By the addition formula for probability, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. By **Definition 7.1.1 (Conditional Probability)**,
 
 $$
 \mathbb P\left(B\cup C\mid A\right)=\frac{\mathbb P\left(\left(B\cup C\right)A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(BA\right)+\mathbb P\left(CA\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right).
@@ -374,13 +365,13 @@ $$
 
 $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 7.1, Extension and Exploration, Problem 10) Prove that when $\mathbb P\left(AB\right)> 0$, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. From this, can you find a formula for computing $\mathbb P\left(A_1A_2\cdots A_n\right)$?
 
 ### Solution to Problem 10
 
-By **Definition 7.1.1** (Conditional Probability) and **Conclusion 7.1.2** (Multiplication Formula for Probability).
+By **Definition 7.1.1 (Conditional Probability)** and **Conclusion 7.1.2** (Multiplication Formula for Probability).
 
 From $\mathbb P\left(AB\right)> 0$, it necessarily follows that $\mathbb P\left(A\right)> 0$ and $\mathbb P\left(AB\right)> 0$. Use **Conclusion 7.1.2** (Multiplication Formula for Probability) twice:
 

@@ -1,18 +1,10 @@
-# Assignment 20
+# week20
+> **Basic Knowledge: 公式一**<br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, 其中 $k\in\mathbb Z$.
+> **Definition 5.2.1 (Sine, Cosine, Tangent)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
-> **Formula 1** (Trigonometric Values of Angles with the Same Terminal Side) <br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, where $k\in\mathbb Z$.
+---
 
-> **Formula 2** <br>$\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$, $\tan\left(\pi+\alpha\right)=\tan\alpha$.
-
-> **Formula 3** <br>$\sin\left(-\alpha\right)=-\sin\alpha$, $\cos\left(-\alpha\right)=\cos\alpha$, $\tan\left(-\alpha\right)=-\tan\alpha$.
-
-> **Formula 4** <br>$\sin\left(\pi-\alpha\right)=\sin\alpha$, $\cos\left(\pi-\alpha\right)=-\cos\alpha$, $\tan\left(\pi-\alpha\right)=-\tan\alpha$.
-
-> **Formula 5** <br>$\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
-
-> **Formula 6** <br>$\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.3, Problem 1) Reduce the following trigonometric functions to acute-angle trigonometric functions, and fill in the blanks in the problem:
 
@@ -44,7 +36,7 @@ By **Formula 1** through **Formula 4**, reduce the trigonometric functions of ea
 
 (6) From $1000^{\circ}21'=2\times360^{\circ}+280^{\circ}21'$ and $280^{\circ}21'=360^{\circ}-79^{\circ}39'$, we get $\tan1000^{\circ}21'=\tan\left(-79^{\circ}39'\right)=-\tan79^{\circ}39'$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.3, Problem 2) Use the reduction formulas to find the following trigonometric values:
 
@@ -76,7 +68,7 @@ Simplify by **Formula 1** through **Formula 4**, and then find the trigonometric
 
 (6) By **Formula 3** and **Formula 1**, we get $\sin\left(-\frac{11\pi}{4}\right)=-\sin\frac{11\pi}{4}=-\sin\left(2\pi+\frac{3\pi}{4}\right)=-\sin\frac{3\pi}{4}=-\frac{\sqrt{2}}{2}$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.3, Problem 3) Simplify:
 
@@ -102,7 +94,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.3, Problem 4) Fill in the table:
 
@@ -128,7 +120,7 @@ After simplifying by **Formula 1**, **Formula 3** and **Formula 4**, find the tr
 
 (6) $\alpha=-\frac{11\pi}{4}=-4\pi+\frac{5\pi}{4}$: $\sin\left(-\frac{11\pi}{4}\right)=\sin\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\cos\left(-\frac{11\pi}{4}\right)=\cos\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\tan\left(-\frac{11\pi}{4}\right)=1$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 5.3, Problem 5) Use the reduction formulas to find the following trigonometric values (a calculator may be used; round parts (3), (4) and (6) to $0.0001$):
 
@@ -160,7 +152,7 @@ Simplify by **Formula 1** through **Formula 6**, and then evaluate.
 
 (6) From $580^{\circ}21'=360^{\circ}+220^{\circ}21'$, we get $\tan580^{\circ}21'=\tan220^{\circ}21'\approx0.8541$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 5.3, Problem 6) Prove:
 
@@ -184,7 +176,7 @@ Prove by **Formula 5**, **Formula 6** and **Formula 2**, **Formula 3**.
 
 (4) From $\frac{11\pi}{2}-\alpha=4\pi+\left(\frac{3\pi}{2}-\alpha\right)$, we get $\sin\left(\frac{11\pi}{2}-\alpha\right)=\sin\left(\frac{3\pi}{2}-\alpha\right)=\sin\left(\pi+\left(\frac{\pi}{2}-\alpha\right)\right)=-\sin\left(\frac{\pi}{2}-\alpha\right)=-\cos\alpha$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 5.3, Problem 7) Simplify:
 
@@ -218,7 +210,7 @@ $$
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.3, Review and Consolidation, Problem 1) Use the reduction formulas to find the following trigonometric values (a calculator may be used; round parts (2), (3), (4) and (5) to $0.0001$):
 
@@ -250,7 +242,7 @@ Simplify by **Formula 1** through **Formula 4**, and then evaluate.
 
 (6) From $-\frac{26\pi}{3}=-10\pi+\frac{4\pi}{3}$, we get $\sin\left(-\frac{26\pi}{3}\right)=\sin\frac{4\pi}{3}=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.3, Review and Consolidation, Problem 2) Prove:
 
@@ -270,7 +262,7 @@ Prove by **Formula 1** and **Formula 3**, **Formula 4**.
 
 (3) Since $\tan\left(360^{\circ}-\alpha\right)=\tan\left(-\alpha+360^{\circ}\right)=\tan\left(-\alpha\right)=-\tan\alpha$, it is proved. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.3, Review and Consolidation, Problem 3) Simplify:
 
@@ -296,13 +288,13 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.3, Review and Consolidation, Problem 4) In the unit circle, given that the terminal side of the angle $\alpha$ meets the unit circle at $P\left(-\frac{3}{5},\frac{4}{5}\right)$, find the sine and cosine values of the angles $\pi+\alpha$, $-\alpha$ and $\frac{\pi}{2}+\alpha$ respectively.
 
 ### Solution to Problem 4
 
-By **Definition 5.2.1** (Sine, Cosine and Tangent Functions), $\sin\alpha=\frac{4}{5}$, $\cos\alpha=-\frac{3}{5}$.
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)**, $\sin\alpha=\frac{4}{5}$, $\cos\alpha=-\frac{3}{5}$.
 
 (1) By **Formula 2**, we get $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{4}{5}$, $\cos\left(\pi+\alpha\right)=-\cos\alpha=\frac{3}{5}$.
 
@@ -310,7 +302,7 @@ By **Definition 5.2.1** (Sine, Cosine and Tangent Functions), $\sin\alpha=\frac{
 
 (3) By **Formula 6**, we get $\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha=-\frac{3}{5}$, $\cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha=-\frac{4}{5}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.3, Comprehensive Application, Problem 5) Given $\sin\left(\frac{\pi}{2}+\alpha\right)=\frac{3}{5}$, then $\cos\alpha=$ ( ).
 
@@ -328,7 +320,7 @@ By **Formula 6**, $\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$.
 
 From $\sin\left(\frac{\pi}{2}+\alpha\right)=\frac{3}{5}$, we get $\cos\alpha=\frac{3}{5}$, so choose (C). $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.3, Comprehensive Application, Problem 6) Given $\sin\left(\pi+\alpha\right)=-\frac{1}{2}$, compute:
 
@@ -352,7 +344,7 @@ By **Formula 2**, $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{1}{2}$, so $\s
 
 (4) By $\tan\left(\frac{\pi}{2}-\alpha\right)=\frac{\sin\left(\frac{\pi}{2}-\alpha\right)}{\cos\left(\frac{\pi}{2}-\alpha\right)}=\frac{\cos\alpha}{\sin\alpha}=\frac{\cos\alpha}{1/2}=2\cos\alpha=\pm\sqrt{3}$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.3, Comprehensive Application, Problem 7) In $\triangle ABC$, determine whether each of the following relations holds, and explain why.
 
@@ -376,7 +368,7 @@ From the sum of the interior angles of a triangle, $A+B+C=\pi$, we get $A+B=\pi-
 
 (4) By **Formula 5**, $\cos\frac{A+B}{2}=\cos\left(\frac{\pi}{2}-\frac{C}{2}\right)=\sin\frac{C}{2}\neq\cos\frac{C}{2}$, so it does not hold. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 5.3, Comprehensive Application, Problem 8) Given $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$ and $0< x< \frac{\pi}{2}$, find the values of $\sin\left(\frac{\pi}{6}+x\right)$ and $\cos\left(\frac{\pi}{3}+x\right)$.
 
@@ -388,7 +380,7 @@ By **Formula 5**, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left
 
 (2) Since $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, the reduction formulas cannot be used directly. Note that $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, while $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. Note also that $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, so $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. From $\cos\left(\pi-\alpha\right)=-\cos\alpha$, we get $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. Since $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, we get $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 5.3, Extension and Exploration, Problem 9) Simplify the following expressions, where $n\in\mathbb Z$:
 
@@ -416,7 +408,7 @@ When $n=4k+2$, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\pi-\alph
 
 When $n=4k+3$, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 5.3, Extension and Exploration, Problem 10) With the help of the unit circle, what other special positional relationships between the terminal sides of angles can be established? What further identities among trigonometric values can be obtained from them?
 

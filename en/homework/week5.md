@@ -1,18 +1,11 @@
-# Assignment 5
+# week5
+> **Basic Knowledge: Common Number Sets**<br>全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
+> **Definition 1.5.1 (Universal Quantifier)**<br>短语"所有的""任意一个"在逻辑中通常叫做全称量词, 用符号"$\forall$"表示. 含有全称量词的命题, 叫做全称量词命题.
+> **Definition 1.5.2 (Existential Quantifier)**<br>短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
 
-> **Common Number Sets** <br>The set of all non-negative integers is called the non-negative integer set, or the natural number set, denoted $\mathbb N$; the set of all positive integers is called the positive integer set, denoted $\mathbb N^*$ or $\mathbb N_+$; the set of all integers is called the integer set, denoted $\mathbb Z$; the set of all rational numbers is called the rational number set, denoted $\mathbb Q$; the set of all real numbers is called the real number set, denoted $\mathbb R$.
+---
 
-> **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Proposition) <br>The phrases "all" and "any one" are usually called universal quantifiers in logic, and are denoted by the symbol "$\forall$". A proposition containing a universal quantifier is called a universal quantifier proposition. Usually, a sentence containing the variable $x$ is denoted by $p\left(x\right)$, $q\left(x\right)$, $r\left(x\right)$, $\cdots$, and the range of values of the variable $x$ is denoted by $M$. Then the universal quantifier proposition "for any one $x$ in $M$, $p\left(x\right)$ holds" can be briefly written as $\forall x\in M,\ p\left(x\right)$.
-
-> **Definition 1.5.2** (Existential Quantifier and Existential Quantifier Proposition) <br>The phrases "there exists one" and "there is at least one" are usually called existential quantifiers in logic, and are denoted by the symbol "$\exists$". A proposition containing an existential quantifier is called an existential quantifier proposition. The existential quantifier proposition "there exists an element $x$ in $M$ such that $p\left(x\right)$ holds" can be briefly written as $\exists x\in M,\ p\left(x\right)$.
-
-> **Definition 1.5.3** (Negation of a Proposition) <br>Generally, negating a proposition gives a new proposition, which is called the negation of the original proposition. A proposition and its negation cannot both be true propositions, nor can both be false propositions; they must be one true and one false.
-
-> **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition) <br>The negation of the universal quantifier proposition $\forall x\in M,\ p\left(x\right)$ is $\exists x\in M,\ \lnot p\left(x\right)$. That is, the negation of a universal quantifier proposition is an existential quantifier proposition.
-
-> **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Proposition) <br>The negation of the existential quantifier proposition $\exists x\in M,\ p\left(x\right)$ is $\forall x\in M,\ \lnot p\left(x\right)$. That is, the negation of an existential quantifier proposition is a universal quantifier proposition.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 1.5, Problem 1) Determine whether the following universal quantifier propositions are true or false:
 
@@ -24,7 +17,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Proposition), to determine that the universal quantifier proposition $\forall x\in M,\ p\left(x\right)$ is true, one must prove that $p\left(x\right)$ holds for every $x$ in $M$; if a counterexample is found in $M$ such that $p\left(x\right)$ does not hold, then the proposition is false.
+By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, to determine that the universal quantifier proposition $\forall x\in M,\ p\left(x\right)$ is true, one must prove that $p\left(x\right)$ holds for every $x$ in $M$; if a counterexample is found in $M$ such that $p\left(x\right)$ does not hold, then the proposition is false.
 
 (1) By the formula for the sum of interior angles of a polygon, the sum of interior angles of a quadrilateral is $\left(4-2\right)\cdot180^\circ=360^\circ$, which holds for any quadrilateral, so this proposition is true.
 
@@ -32,7 +25,7 @@ By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Propositi
 
 (3) Taking $x=\sqrt\left[3\right]{2}$, it is irrational, but $x^3=2$ is rational; a counterexample is found, so this proposition is false. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 1.5, Problem 2) Determine whether the following existential quantifier propositions are true or false:
 
@@ -44,7 +37,7 @@ By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Propositi
 
 ### Solution to Exercise 2
 
-By **Definition 1.5.2** (Existential Quantifier and Existential Quantifier Proposition), to determine that the existential quantifier proposition $\exists x\in M,\ p\left(x\right)$ is true, one only needs to find an $x$ in $M$ such that $p\left(x\right)$ holds; if no such $x$ exists in $M$, then the proposition is false.
+By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, to determine that the existential quantifier proposition $\exists x\in M,\ p\left(x\right)$ is true, one only needs to find an $x$ in $M$ such that $p\left(x\right)$ holds; if no such $x$ exists in $M$, then the proposition is false.
 
 (1) The two diagonals of a rhombus are perpendicular to each other, and a rhombus is a quadrilateral, so such a quadrilateral exists; this proposition is true.
 
@@ -52,7 +45,7 @@ By **Definition 1.5.2** (Existential Quantifier and Existential Quantifier Propo
 
 (3) Taking $x=\sqrt 2$, $x$ is irrational, and $x^2=2$ is rational; but taking $x=\pi$, $x$ is irrational, and $x^2=\pi^2$ is also irrational; so such an $x$ exists; this proposition is true. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 1.5, Problem 1) Write the negation of the following propositions:
 
@@ -72,7 +65,7 @@ By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition),
 
 (3) The original proposition is "every parallelogram is a centrally symmetric figure"; its negation is "there exists a parallelogram that is not a centrally symmetric figure". $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 1.5, Problem 2) Write the negation of the following propositions:
 
@@ -92,7 +85,7 @@ By **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Propositio
 
 (3) The negation of this proposition is "the absolute value of every real number is positive". $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Problem 1.5, Review and Consolidation, Problem 1) Determine whether the following universal quantifier propositions are true or false:
 
@@ -106,7 +99,7 @@ By **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Propositio
 
 ### Solution to Problem 1
 
-By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Proposition), a counterexample can determine it to be false, and a general proof can determine it to be true.
+By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, a counterexample can determine it to be false, and a general proof can determine it to be true.
 
 (1) An integer ending in $0$ can be written as $10k$ ($k\in\mathbb Z$), which equals $5\cdot 2k$, and is a multiple of $5$, so this proposition is true.
 
@@ -116,7 +109,7 @@ By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Propositi
 
 (4) Only isosceles trapezoids have equal diagonals; the diagonals of a general trapezoid are not equal. Taking a non-isosceles trapezoid gives a counterexample, so this proposition is false. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Problem 1.5, Review and Consolidation, Problem 2) Determine whether the following existential quantifier propositions are true or false:
 
@@ -130,7 +123,7 @@ By **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Propositi
 
 ### Solution to Problem 2
 
-By **Definition 1.5.2** (Existential Quantifier and Existential Quantifier Proposition), finding one instance determines it to be true, and universal non-existence determines it to be false.
+By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, finding one instance determines it to be true, and universal non-existence determines it to be false.
 
 (1) Irrational numbers are precisely infinite non-repeating decimals, e.g. $\pi\in\mathbb R$, so this proposition is true.
 
@@ -140,7 +133,7 @@ By **Definition 1.5.2** (Existential Quantifier and Existential Quantifier Propo
 
 (4) For any integer $n$, when $n$ is even, $n^2$ is divisible by $4$, and $n^2+1$ leaves remainder $1$ upon division by $4$; when $n$ is odd, $n^2$ leaves remainder $1$ upon division by $4$, and $n^2+1$ leaves remainder $2$ upon division by $4$. Therefore, $n^2+1$ is never a multiple of $4$; this proposition is false. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Problem 1.5, Review and Consolidation, Problem 3) Write the negation of the following propositions:
 
@@ -164,7 +157,7 @@ By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition) 
 
 (4) This is an existential quantifier proposition; its negation is "the diagonals of all quadrilaterals are not perpendicular to each other". $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Problem 1.5, Comprehensive Application, Problem 4) Determine the truth value of the following propositions and write their negations:
 
@@ -188,7 +181,7 @@ Judge and rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quanti
 
 (4) A general quadrilateral (e.g. a quadrilateral with sides $1,1,1,2$) has four vertices that are not concyclic, so such a quadrilateral exists; this proposition is true. It is an existential quantifier proposition; its negation is "the four vertices of every quadrilateral lie on the same circle". $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Problem 1.5, Comprehensive Application, Problem 5) Rewrite the following propositions in the form of a universal quantifier proposition or an existential quantifier proposition containing one quantifier, and write their negations:
 
@@ -202,7 +195,7 @@ Judge and rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quanti
 
 ### Solution to Problem 5
 
-Rewrite by **Definition 1.5.1** (Universal Quantifier and Universal Quantifier Proposition) and **Definition 1.5.2** (Existential Quantifier and Existential Quantifier Proposition), then write the negations by **Common Conclusion 1.5.4** and **Common Conclusion 1.5.5**.
+Rewrite by **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)** and **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, then write the negations by **Common Conclusion 1.5.4** and **Common Conclusion 1.5.5**.
 
 (1) The original proposition is "the diagonals of every parallelogram bisect each other", which is a universal quantifier proposition: $\forall$ parallelograms, their diagonals bisect each other. Its negation is "there exists a parallelogram whose diagonals do not bisect each other".
 
@@ -212,7 +205,7 @@ Rewrite by **Definition 1.5.1** (Universal Quantifier and Universal Quantifier P
 
 (4) "Does not always have real roots" means "there exists a quadratic equation without real roots", which is an existential quantifier proposition. Its negation is "every quadratic equation has real roots". $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Problem 1.5, Extension and Exploration, Problem 6) In this section, we introduced the concept of the negation of a proposition, knowing that the negation of a proposition is still a proposition, and it and the original proposition must be one true and one false, and cannot both be true or both be false. In mathematics, there are many propositions in the form "if $p$, then $q$", some true and some false. For example:
 

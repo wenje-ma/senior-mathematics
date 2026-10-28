@@ -1,22 +1,14 @@
-# Assignment 1
+# week1
+> **Basic Knowledge: Common Number Sets**<br>全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
+> **Definition 1.1.1 (Sets and Elements)**<br>一般地, 我们把研究对象统称为元素, 把一些元素组成的总体叫做集合, 简称为集. 通常用大写拉丁字母 $A,B,C,\cdots$ 表示集合, 用小写拉丁字母 $a,b,c,\cdots$ 表示集合中的元素.
+> **Definition 1.1.2 (Determinacy of Elements)**<br>给定一个集合, 它的元素必须是确定的. 也就是说, 给定一个集合, 那么一个元素在或不在这个集合中就确定了.
+> **Definition 1.1.5 (Membership)**<br>如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> **Definition 1.1.6 (Roster Method)**<br>把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
+> **Definition 1.1.7 (Set-builder Notation)**<br>一般地, 设 $A$ 是一个集合, 我们把集合 $A$ 中所有具有共同特征 $P\left(x\right)$ 的元素 $x$ 所组成的集合表示为 $\left\{x\in A\mid P\left(x\right)\right\}$, 这种表示集合的方法称为描述法.
 
-> **Definition 1.1.1** (Sets and Elements) <br>Generally, we call the objects under study elements, and call a collection formed by some elements a set, or set for short. We usually use capital Latin letters $A,B,C,\cdots$ to denote sets, and lowercase Latin letters $a,b,c,\cdots$ to denote the elements in a set.
+---
 
-> **Definition 1.1.2** (Determinacy of Elements) <br>For a given set, its elements must be determinate. That is, once a set is given, whether an element belongs to this set is determined.
-
-> **Definition 1.1.3** (Distinctness of Elements) <br>The elements in a given set are mutually distinct. That is, the elements in a set do not repeat.
-
-> **Definition 1.1.4** (Equality of Sets) <br>As long as the elements forming two sets are the same, we say the two sets are equal.
-
-> **Definition 1.1.5** (Belonging and Not Belonging) <br>If $a$ is an element of the set $A$, we say $a$ belongs to the set $A$, denoted $a\in A$; if $a$ is not an element of the set $A$, we say $a$ does not belong to the set $A$, denoted $a\notin A$.
-
-> **Common Number Sets** <br>The set of all non-negative integers is called the non-negative integer set, or the natural number set, denoted $\mathbb N$; the set of all positive integers is called the positive integer set, denoted $\mathbb N^*$ or $\mathbb N_+$; the set of all integers is called the integer set, denoted $\mathbb Z$; the set of all rational numbers is called the rational number set, denoted $\mathbb Q$; the set of all real numbers is called the real number set, denoted $\mathbb R$.
-
-> **Definition 1.1.6** (Roster Method) <br>The method of listing all elements of a set one by one and enclosing them in braces "$\left\{\ \right\}$" is called the roster method.
-
-> **Definition 1.1.7** (Set-Builder Notation) <br>Generally, let $A$ be a set; we denote the set of all elements $x$ in $A$ that have the common property $P\left(x\right)$ as $\left\{x\in A\mid P\left(x\right)\right\}$, and this method of representing a set is called set-builder notation. Sometimes a colon or semicolon is used instead of the vertical bar, written as $\left\{x\in A:P\left(x\right)\right\}$ or $\left\{x\in A;P\left(x\right)\right\}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 1.1, Problem 1) Determine whether each of the following collections of elements forms a set, and explain your reasoning.
 
@@ -26,13 +18,13 @@
 
 ### Solution to Exercise 1
 
-By **Definition 1.1.2** (Determinacy of Elements), once a set is given, whether an element belongs to this set is determined.
+By **Definition 1.1.2 (Determinacy of Elements)**, once a set is given, whether an element belongs to this set is determined.
 
 (1) The points in the plane $\alpha$ equidistant from the two fixed points $A,B$ have a distance difference of $0$ from $A,B$. By plane geometry, the locus of points equidistant from two fixed points is the perpendicular bisector of the segment $AB$, which is a determinate line; therefore whether each point on it belongs to the set is determined, and thus the collection of these points forms a set.
 
-(2) The standard for "skilled swimmers" is unclear; whether a high school student is a skilled swimmer cannot be determined, which does not satisfy **Definition 1.1.2** (Determinacy of Elements), and thus the collection of these students does not form a set. $\blacksquare$
+(2) The standard for "skilled swimmers" is unclear; whether a high school student is a skilled swimmer cannot be determined, which does not satisfy **Definition 1.1.2 (Determinacy of Elements)**, and thus the collection of these students does not form a set. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 1.1, Problem 2) Fill in the blanks with the symbols "$\in$" or "$\notin$".
 
@@ -50,7 +42,7 @@ By **Definition 1.1.2** (Determinacy of Elements), once a set is given, whether 
 
 ### Solution to Exercise 2
 
-By the **Common Number Sets** and **Definition 1.1.5** (Belonging and Not Belonging).
+By the **Basic Knowledge: Common Number Sets** and **Definition 1.1.5 (Belonging and Not Belonging)**.
 
 (1) $0$ is a non-negative integer, so $0\in\mathbb N$.
 
@@ -64,7 +56,7 @@ By the **Common Number Sets** and **Definition 1.1.5** (Belonging and Not Belong
 
 (6) $\pi$ is a real number, so $\pi\in\mathbb R$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 1.1, Problem 3) Represent the following sets using an appropriate method.
 
@@ -76,7 +68,7 @@ By the **Common Number Sets** and **Definition 1.1.5** (Belonging and Not Belong
 
 ### Solution to Exercise 3
 
-By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder Notation), use the roster method when the elements of the set can be listed one by one, and use set-builder notation when the elements are infinite or inconvenient to list.
+By **Definition 1.1.6 (Roster Method)** and **Definition 1.1.7 (Set-Builder Notation)**, use the roster method when the elements of the set can be listed one by one, and use set-builder notation when the elements are infinite or inconvenient to list.
 
 (1) The roots of the equation $x^2-9=0$ are $x=\pm3$, and the elements of its solution set can be listed one by one, so using the roster method, we obtain $\left\{-3,3\right\}$.
 
@@ -90,7 +82,7 @@ From $x+3=-2x+6$, we get $3x=3$, i.e. $x=1$; substituting back gives $y=4$, so t
 
 (3) From $4x-5< 3$, transposing gives $4x< 8$, i.e. $x< 2$, so the solution set is $\left\{x\mid x< 2\right\}$; its elements are infinite, so it is represented using set-builder notation, giving $\left\{x\mid x< 2\right\}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Problem 1.1, Review and Consolidation, Problem 1) Fill in the blanks with the symbols "$\in$" or "$\notin$".
 
@@ -104,7 +96,7 @@ From $x+3=-2x+6$, we get $3x=3$, i.e. $x=1$; substituting back gives $y=4$, so t
 
 ### Solution to Problem 1
 
-By **Definition 1.1.5** (Belonging and Not Belonging) and the **Common Number Sets**.
+By **Definition 1.1.5 (Belonging and Not Belonging)** and the **Basic Knowledge: Common Number Sets**.
 
 (1) China is an Asian country, so China$\in A$; the United States is not an Asian country, so the United States$\notin A$; India is an Asian country, so India$\in A$; the United Kingdom is not an Asian country, so the United Kingdom$\notin A$.
 
@@ -112,9 +104,9 @@ By **Definition 1.1.5** (Belonging and Not Belonging) and the **Common Number Se
 
 (3) The equation $x^2+x-6=0$ is equivalent to $\left(x+3\right)\left(x-2\right)=0$, whose roots are $-3,2$, so $B=\left\{-3,2\right\}$. Since $3$ is not an element of $B$, we have $3\notin B$.
 
-(4) By the **Common Number Sets**, $\mathbb N$ is the non-negative integer set, and the set $C=\left\{x\in\mathbb N\mid 1\le x\le10\right\}=\left\{1,2,3,4,5,6,7,8,9,10\right\}$. Since $8\in C$, and $9.1$ is not an integer, we have $9.1\notin C$. $\blacksquare$
+(4) By the **Basic Knowledge: Common Number Sets**, $\mathbb N$ is the non-negative integer set, and the set $C=\left\{x\in\mathbb N\mid 1\le x\le10\right\}=\left\{1,2,3,4,5,6,7,8,9,10\right\}$. Since $8\in C$, and $9.1$ is not an integer, we have $9.1\notin C$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Problem 1.1, Review and Consolidation, Problem 2) Represent the following sets using the roster method.
 
@@ -126,15 +118,15 @@ By **Definition 1.1.5** (Belonging and Not Belonging) and the **Common Number Se
 
 ### Solution to Problem 2
 
-By **Definition 1.1.6** (Roster Method), list the elements of the set one by one and enclose them in braces.
+By **Definition 1.1.6 (Roster Method)**, list the elements of the set one by one and enclose them in braces.
 
 (1) The integers greater than $1$ and less than $6$ are $2,3,4,5$, so this set is $\left\{2,3,4,5\right\}$.
 
 (2) The roots of the equation $\left(x-1\right)\left(x+2\right)=0$ are $x=1$ or $x=-2$, so $A=\left\{1,-2\right\}$.
 
-(3) From $-3< 2x-1< 3$, adding $1$ to each part gives $-2< 2x< 4$, and dividing each part by $2$ gives $-1< x< 2$. Also by the **Common Number Sets**, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\left\{0,1\right\}$. $\blacksquare$
+(3) From $-3< 2x-1< 3$, adding $1$ to each part gives $-2< 2x< 4$, and dividing each part by $2$ gives $-1< x< 2$. Also by the **Basic Knowledge: Common Number Sets**, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\left\{0,1\right\}$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Problem 1.1, Comprehensive Application, Problem 3) Represent the following sets using an alternative method.
 
@@ -148,7 +140,7 @@ By **Definition 1.1.6** (Roster Method), list the elements of the set one by one
 
 ### Solution to Problem 3
 
-By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder Notation), the same set can be represented using different methods.
+By **Definition 1.1.6 (Roster Method)** and **Definition 1.1.7 (Set-Builder Notation)**, the same set can be represented using different methods.
 
 (1) The set $\left\{2,4,6,8,10\right\}$ is the set of positive even integers not exceeding $10$; using set-builder notation, it is $\left\{x\in\mathbb N\mid x=2k,\ k=1,2,3,4,5\right\}$.
 
@@ -158,7 +150,7 @@ By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder No
 
 (4) The Four Great Inventions of ancient China are papermaking, printing, gunpowder, and the compass; using the roster method, it is $\left\{$papermaking, printing, gunpowder, the compass$\right\}$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Problem 1.1, Comprehensive Application, Problem 4) Represent the following sets using an appropriate method.
 
@@ -170,7 +162,7 @@ By **Definition 1.1.6** (Roster Method) and **Definition 1.1.7** (Set-Builder No
 
 ### Solution to Problem 4
 
-By **Definition 1.1.7** (Set-Builder Notation), sets with infinite elements or elements inconvenient to list one by one are represented using set-builder notation.
+By **Definition 1.1.7 (Set-Builder Notation)**, sets with infinite elements or elements inconvenient to list one by one are represented using set-builder notation.
 
 (1) For the quadratic function $y=x^2-4$, since $x^2\ge0$, we have $y=x^2-4\ge-4$, so the set of function values is $\left\{y\mid y\ge-4\right\}$.
 
@@ -178,7 +170,7 @@ By **Definition 1.1.7** (Set-Builder Notation), sets with infinite elements or e
 
 (3) From $3x\ge4-2x$, transposing gives $5x\ge4$, i.e. $x\ge\frac{4}{5}$, so the solution set is $\left\{x\mid x\ge\frac{4}{5}\right\}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Problem 1.1, Extension and Exploration, Problem 5) Set theory was founded by the German mathematician Cantor in the late 19th century. At that time, when Cantor was solving mathematical problems involving the study of infinite quantities, he went beyond the restriction of "number sets" and proposed the general concept of a "set." Regarding set theory, Hilbert praised it as "the most astounding product of mathematical thought, one of the most beautiful manifestations of human activity in the realm of pure reason," and Russell described it as "possibly the greatest work of our time." Please consult relevant materials and write a brief report expounding your understanding of these evaluations.
 

@@ -1,40 +1,18 @@
-# 作业 51
+# week51
+> **定义 6.1.1 (向量与数量)**<br>既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
+> **定义 6.1.7 (相等向量)**<br>长度相等且方向相同的向量叫做相等向量.
+> **定义 6.2.4 (全排列与阶乘)**<br>与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **定义 6.2.5 (向量的减法)**<br>a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+> **定义 6.2.6 (向量的数乘)**<br>实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+> **定理 6.2.8 (共线向量定理)**<br>向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+> **定义 6.2.11 (向量的数量积)**<br>已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+> **定理 6.3.1 (平面向量基本定理)**<br>如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+> **定理 6.4.2 (余弦定理)**<br>三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
+> **定理 6.4.3 (正弦定理)**<br>在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
 
-> **定义 6.1.1** (向量与数量) <br>既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
+---
 
-> **定义 6.1.3** (向量的模) <br>向量 $\boldsymbol{AB}$ 的长度 (或称模) 记作 $\lvert\boldsymbol{AB}\rvert$.
-
-> **定义 6.1.6** (平行向量与共线向量) <br>方向相同或相反的非零向量叫做平行向量 (共线向量); 零向量与任意向量平行.
-
-> **定义 6.1.7** (相等向量) <br>长度相等且方向相同的向量叫做相等向量.
-
-> **定义 6.2.4** (相反向量) <br>与 $\boldsymbol{a}$ 长度相等, 方向相反的向量记作 $-\boldsymbol{a}$.
-
-> **定义 6.2.5** (向量的减法) <br>$\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$.
-
-> **定义 6.2.6** (向量的数乘) <br>$\lambda\boldsymbol{a}$ 是一个向量, $\lvert\lambda\boldsymbol{a}\rvert=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert$, 方向由 $\lambda$ 符号决定.
-
-> **定理 6.2.8** (共线向量定理) <br>$\boldsymbol{a}\neq\boldsymbol{0}$, $\boldsymbol{b}$ 与 $\boldsymbol{a}$ 共线 $\Longleftrightarrow$ 存在唯一实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
-
-> **定义 6.2.11** (数量积) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
-
-> **常用结论 6.2.13** (数量积的性质) <br>$\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$; $\boldsymbol{a}\cdot\boldsymbol{a}=\lvert\boldsymbol{a}\rvert^2$; $\lvert\boldsymbol{a}\cdot\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$.
-
-> **定理 6.3.1** (平面向量基本定理) <br>$\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$, $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 不共线.
-
-> **常用结论 6.3.4** (坐标运算) <br>$\boldsymbol{a}=\left(x_1,y_1\right)$, $\boldsymbol{b}=\left(x_2,y_2\right)$, 则 $\boldsymbol{a}+\boldsymbol{b}=\left(x_1+x_2,y_1+y_2\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(x_1-x_2,y_1-y_2\right)$, $\lambda\boldsymbol{a}=\left(\lambda x_1,\lambda y_1\right)$.
-
-> **常用结论 6.3.5** (共线的坐标表示) <br>$\boldsymbol{a}\parallel\boldsymbol{b}\Longleftrightarrow x_1y_2-x_2y_1=0$.
-
-> **常用结论 6.3.7** (数量积的坐标表示) <br>$\boldsymbol{a}\cdot\boldsymbol{b}=x_1x_2+y_1y_2$.
-
-> **常用结论 6.3.8** (模, 垂直与夹角) <br>$\lvert\boldsymbol{a}\rvert=\sqrt{x_1^2+y_1^2}$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow x_1x_2+y_1y_2=0$; $\cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$.
-
-> **定理 6.4.2** (余弦定理) <br>$a^2=b^2+c^2-2bc\cos A$; $\cos A=\frac{b^2+c^2-a^2}{2bc}$.
-
-> **定理 6.4.3** (正弦定理) <br>$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R$.
-
-### 习题一
+## 习题一
 
 (复习参考题 6 复习巩固第 1 题) 判断下列命题是否正确 (正确的在括号内打 "$\surd$", 错误的打 "$\times$").
 
@@ -48,7 +26,7 @@
 
 ### 解答 习题一
 
-由**定义 6.2.4** (相反向量) 与**定义 6.2.5** (向量的减法).
+由**定义 6.2.4 (全排列与阶乘)** 与**定义 6.2.5 (向量的减法)**.
 
 (1) 正确. $\boldsymbol{BA}=-\boldsymbol{AB}$, $\boldsymbol{AB}+\boldsymbol{BA}=\boldsymbol{0}$.
 
@@ -58,7 +36,7 @@
 
 (4) 正确. 数乘 $0\boldsymbol{AB}=\boldsymbol{0}$. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (复习参考题 6 复习巩固第 2 题) 选择题.
 
@@ -106,21 +84,21 @@
 
 (2) 由**常用结论 6.2.3**, 三角不等式 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. 选 (B).
 
-(3) 由**定义 6.1.7**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ 说明 $ABCD$ 为平行四边形. 选 (D).
+(3) 由**定义 6.1.7 (相等向量)**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ 说明 $ABCD$ 为平行四边形. 选 (D).
 
-(4) 由**定义 6.2.6**, $\lambda^2> 0$, $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 方向相同. 选 (C).
+(4) 由**定义 6.2.6 (向量的数乘)**, $\lambda^2> 0$, $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 方向相同. 选 (C).
 
 (5) $M$ 为对角线中点, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, 和为 $4\boldsymbol{OM}$. 选 (D).
 
-(6) 由**定理 6.3.1**, 基底要求不共线. (B) 中 $\left(-1\right)\times7-2\times5=-17\neq0$, 不共线. 选 (B). $\blacksquare$
+(6) 由**定理 6.3.1 (平面向量基本定理)**, 基底要求不共线. (B) 中 $\left(-1\right)\times7-2\times5=-17\neq0$, 不共线. 选 (B). $\blacksquare$
 
-### 习题三
+## 习题三
 
 (复习参考题 6 复习巩固第 3 题) 已知六边形 $ABCDEF$ 为正六边形, 且 $\boldsymbol{AC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, 分别用 $\boldsymbol{a}$, $\boldsymbol{b}$ 表示 $\boldsymbol{DE}$, $\boldsymbol{AD}$, $\boldsymbol{BC}$, $\boldsymbol{EF}$, $\boldsymbol{FA}$, $\boldsymbol{AB}$, $\boldsymbol{CE}$.
 
 ### 解答 习题三
 
-由**定理 6.3.1** (平面向量基本定理) 与**定义 6.1.7** (相等向量).
+由**定理 6.3.1 (平面向量基本定理)** 与**定义 6.1.7 (相等向量)**.
 
 设正六边形中心为 $O$. 由几何关系:
 
@@ -130,7 +108,7 @@ $\boldsymbol{AD}=\boldsymbol{AC}+\boldsymbol{CD}$. 由正六边形对称性, 逐
 
 $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{AD}=\boldsymbol{a}-\boldsymbol{b}$; $\boldsymbol{BC}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{EF}=-\boldsymbol{BC}$; $\boldsymbol{FA}=-\boldsymbol{DE}$; $\boldsymbol{AB}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{CE}=\boldsymbol{CD}+\boldsymbol{DE}$. $\blacksquare$
 
-### 习题四
+## 习题四
 
 (复习参考题 6 复习巩固第 4 题) 已知平面直角坐标系中, 点 $O$ 为原点, $A\left(-3,-4\right)$, $B\left(5,-12\right)$.
 
@@ -150,13 +128,13 @@ $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsy
 
 (3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=\left(-3\right)\times5+\left(-4\right)\times\left(-12\right)=-15+48=33$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (复习参考题 6 复习巩固第 5 题) 已知点 $A\left(1,1\right)$, $B\left(-1,0\right)$, $C\left(0,1\right)$. 若 $\boldsymbol{AB}=\boldsymbol{CD}$, 则点 $D$ 的坐标是什么?
 
 ### 解答 习题五
 
-由**常用结论 6.3.4** 与**定义 6.1.7** (相等向量).
+由**常用结论 6.3.4** 与**定义 6.1.7 (相等向量)**.
 
 $\boldsymbol{AB}=\left(-1-1,0-1\right)=\left(-2,-1\right)$.
 
@@ -164,7 +142,7 @@ $\boldsymbol{AB}=\left(-1-1,0-1\right)=\left(-2,-1\right)$.
 
 $x=-2$, $y-1=-1$, $y=0$. $D\left(-2,0\right)$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (复习参考题 6 复习巩固第 6 题) 已知向量 $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$, $\boldsymbol{c}=\left(-1,0\right)$, 求满足 $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$ 的 $\lambda$ 和 $\mu$ 的值.
 
@@ -176,7 +154,7 @@ $\left(-1,0\right)=\lambda\left(1,0\right)+\mu\left(1,1\right)=\left(\lambda+\mu
 
 $\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (复习参考题 6 复习巩固第 7 题) 已知 $\triangle ABC$ 的顶点坐标分别为 $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, 求 $\cos A$, $\cos B$, $\cos C$ 的值.
 
@@ -192,7 +170,7 @@ $\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\l
 
 $\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
 
-### 习题八
+## 习题八
 
 (复习参考题 6 复习巩固第 8 题) 已知向量 $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$. 当 $\lambda$ 为何值时, $\boldsymbol{a}+\lambda\boldsymbol{b}$ 与 $\boldsymbol{a}$ 垂直?
 
@@ -206,13 +184,13 @@ $\boldsymbol{a}+\lambda\boldsymbol{b}=\left(1+\lambda,\lambda\right)$.
 
 $1+\lambda=0$. $\lambda=-1$. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (复习参考题 6 复习巩固第 9 题) 已知向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt 3$, $\lvert\boldsymbol{b}\rvert=2$, 求 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$, $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$ 的值.
 
 ### 解答 习题九
 
-由**定义 6.2.11** (数量积) 与**常用结论 6.2.13**.
+由**定义 6.2.11 (向量的数量积)** 与**常用结论 6.2.13**.
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt 3\times2\times\cos30^{\circ}=2\sqrt 3\times\frac{\sqrt 3}{2}=3$.
 
@@ -220,7 +198,7 @@ $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cd
 
 $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3-6+4=1$. $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert=1$. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (复习参考题 6 复习巩固第 10 题) 如图, 支座 $A$ 受 $\boldsymbol{F}_1$, $\boldsymbol{F}_2$ 两个力的作用, 已知 $\boldsymbol{F}_1$ 与水平线成 $\theta$ 角, $\lvert\boldsymbol{F}_1\rvert=40\text{ N}$, $\boldsymbol{F}_2$ 沿水平方向, $\lvert\boldsymbol{F}_2\rvert=70\text{ N}$, $\boldsymbol{F}_1$ 与 $\boldsymbol{F}_2$ 的合力 $\boldsymbol{F}$ 的大小为 $100\text{ N}$, 求 $\cos\theta$ 以及 $\boldsymbol{F}$ 与 $\boldsymbol{F}_2$ 的夹角 $\beta$ 的余弦值.
 
@@ -228,7 +206,7 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 ### 解答 习题十
 
-由**定义 6.2.11** (数量积) 与**定理 6.4.2** (余弦定理).
+由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
 
 $\boldsymbol{F}=\boldsymbol{F}_1+\boldsymbol{F}_2$.
 
@@ -242,7 +220,7 @@ $\boldsymbol{F}\cdot\boldsymbol{F}_2=\left(\boldsymbol{F}_1+\boldsymbol{F}_2\rig
 
 $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert\lvert\boldsymbol{F}_2\rvert}=\frac{6650}{100\times70}=\frac{19}{20}$. $\blacksquare$
 
-### 习题十一
+## 习题十一
 
 (复习参考题 6 复习巩固第 11 题) 在 $\triangle ABC$ 中, 分别根据下列条件解三角形 (角度精确到 $1'$, 边长精确到 $0.01\text{ cm}$):
 
@@ -256,7 +234,7 @@ $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert
 
 ### 解答 习题十一
 
-由**定理 6.4.3** (正弦定理) 与**定理 6.4.2** (余弦定理).
+由**定理 6.4.3 (正弦定理)** 与**定理 6.4.2 (余弦定理)**.
 
 (1) $\sin B=\frac{b\sin A}{a}=\frac{5\times\sin120^{\circ}}{12}=\frac{5\sqrt 3}{24}\approx0.361$. $B\approx21^{\circ}10'$. $C=180^{\circ}-120^{\circ}-21^{\circ}10'=38^{\circ}50'$. $c=\frac{a\sin C}{\sin A}\approx7.51\text{ cm}$.
 
@@ -270,13 +248,13 @@ $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert
 
 (4) $\cos A=\frac{9+16-4}{24}=\frac{21}{24}=0.875$. $A\approx28^{\circ}57'$. $\cos B=\frac{4+16-9}{16}=\frac{11}{16}=0.6875$. $B\approx46^{\circ}34'$. $C\approx104^{\circ}29'$. $\blacksquare$
 
-### 习题十二
+## 习题十二
 
 (复习参考题 6 复习巩固第 12 题) 海中有一座小岛, 周围 $3\text{ n mile}$ 内有暗礁. 一艘海轮由西向东航行, 望见该岛在北偏东 $75^{\circ}$; 海轮航行 $8\text{ n mile}$ 以后, 望见该岛在北偏东 $55^{\circ}$. 如果这艘海轮不改变航向继续前进, 有没有触礁的危险?
 
 ### 解答 习题十二
 
-由**定理 6.4.3** (正弦定理).
+由**定理 6.4.3 (正弦定理)**.
 
 设岛为 $P$, 初始位置为 $A$, 航行后为 $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-\left(90^{\circ}-55^{\circ}\right)=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
 
@@ -288,7 +266,7 @@ $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ
 
 故没有触礁危险. $\blacksquare$
 
-### 习题十三
+## 习题十三
 
 (复习参考题 6 综合运用第 13 题) 选择题.
 
@@ -322,13 +300,13 @@ $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ
 
 ### 解答 习题十三
 
-(1) 由**定理 6.2.8**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=\left(-2\boldsymbol{a}+8\boldsymbol{b}\right)+\left(3\boldsymbol{a}-3\boldsymbol{b}\right)=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. 故 $A$, $B$, $D$ 共线. 选 (A).
+(1) 由**定理 6.2.8 (共线向量定理)**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=\left(-2\boldsymbol{a}+8\boldsymbol{b}\right)+\left(3\boldsymbol{a}-3\boldsymbol{b}\right)=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. 故 $A$, $B$, $D$ 共线. 选 (A).
 
 (2) 由**常用结论 6.3.4**, $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{AC}=\boldsymbol{c}$. $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=2\boldsymbol{c}$. $\lvert\boldsymbol{c}\rvert=\sqrt 2$. 选 (D).
 
-(3) 由**定义 6.1.7**, 平行四边形中 $\boldsymbol{AB}=\boldsymbol{DC}$, 即 $\boldsymbol{b}-\boldsymbol{a}=\boldsymbol{c}-\boldsymbol{d}$. $\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$. 选 (B).
+(3) 由**定义 6.1.7 (相等向量)**, 平行四边形中 $\boldsymbol{AB}=\boldsymbol{DC}$, 即 $\boldsymbol{b}-\boldsymbol{a}=\boldsymbol{c}-\boldsymbol{d}$. $\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$. 选 (B).
 
-(4) 由**定义 6.2.11**, $\boldsymbol{e}_1\cdot\boldsymbol{e}_2=\cos60^{\circ}=\frac{1}{2}$.
+(4) 由**定义 6.2.11 (向量的数量积)**, $\boldsymbol{e}_1\cdot\boldsymbol{e}_2=\cos60^{\circ}=\frac{1}{2}$.
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=\left(2\boldsymbol{e}_1+\boldsymbol{e}_2\right)\cdot\left(-3\boldsymbol{e}_1+2\boldsymbol{e}_2\right)=-6+4\cdot\frac{1}{2}+3\cdot\frac{1}{2}+2=-6+2+1.5+2=-0.5$.
 
@@ -338,7 +316,7 @@ $\cos\theta=\frac{-0.5}{7}=-\frac{1}{14}$? 修正: $\boldsymbol{a}\cdot\boldsymb
 
 $\cos\theta=\frac{-7/2}{\sqrt 7\cdot\sqrt 7}=-\frac{1}{2}$. $\theta=120^{\circ}$. 选 (C).
 
-(5) 由**定义 6.2.11**, 每对夹角为 $120^{\circ}$.
+(5) 由**定义 6.2.11 (向量的数量积)**, 每对夹角为 $120^{\circ}$.
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=1\times1\times\cos120^{\circ}=-\frac{1}{2}$. 三对之和 $=-\frac{3}{2}$. 选 (D).
 
@@ -348,7 +326,7 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=1\times1\times\cos120^{\circ}=-\frac{1}{2}$. 
 
 (b) 夹角 $120^{\circ}$: $\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=1+1+9+2\left(1\cdot1\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)\right)=11-7=4$. 模为 $2$. 选 (C). $\blacksquare$
 
-### 习题十四
+## 习题十四
 
 (复习参考题 6 综合运用第 14 题) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$ 为非零向量, 证明下列结论, 并解释其几何意义.
 
@@ -370,13 +348,13 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 $\boldsymbol{c}\perp\boldsymbol{d}\Longleftrightarrow\boldsymbol{c}\cdot\boldsymbol{d}=0\Longleftrightarrow\boldsymbol{a}^2=\boldsymbol{b}^2\Longleftrightarrow\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$. 几何意义: 菱形的对角线互相垂直. $\blacksquare$
 
-### 习题十五
+## 习题十五
 
 (复习参考题 6 综合运用第 15 题) 已知 $\triangle P_1P_2P_3$, 向量 $\boldsymbol{OP_1}$, $\boldsymbol{OP_2}$, $\boldsymbol{OP_3}$ 满足条件 $\boldsymbol{OP_1}+\boldsymbol{OP_2}+\boldsymbol{OP_3}=\boldsymbol{0}$, $\lvert\boldsymbol{OP_1}\rvert=\lvert\boldsymbol{OP_2}\rvert=\lvert\boldsymbol{OP_3}\rvert$. 求证: $\triangle P_1P_2P_3$ 是等边三角形.
 
 ### 解答 习题十五
 
-由**定义 6.2.11** (数量积) 与**定理 6.4.2** (余弦定理).
+由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
 
 设 $\lvert\boldsymbol{OP_1}\rvert=\lvert\boldsymbol{OP_2}\rvert=\lvert\boldsymbol{OP_3}\rvert=R$.
 
@@ -390,7 +368,7 @@ $P_1P_2^2=R^2+R^2-2R^2\cos120^{\circ}=3R^2$. $P_1P_2=R\sqrt 3$.
 
 三边长相等, 故为等边三角形. $\blacksquare$
 
-### 习题十六
+## 习题十六
 
 (复习参考题 6 综合运用第 16 题) 如图, 已知 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, 任意点 $M$ 关于点 $A$ 的对称点为 $S$, 点 $S$ 关于点 $B$ 的对称点为 $N$, 用 $\boldsymbol{a}$, $\boldsymbol{b}$ 表示向量 $\boldsymbol{MN}$.
 
@@ -398,7 +376,7 @@ $P_1P_2^2=R^2+R^2-2R^2\cos120^{\circ}=3R^2$. $P_1P_2=R\sqrt 3$.
 
 ### 解答 习题十六
 
-由**常用结论 6.3.6** (中点坐标公式) 与**定义 6.2.5** (向量的减法).
+由**常用结论 6.3.6** (中点坐标公式) 与**定义 6.2.5 (向量的减法)**.
 
 $A$ 为 $MS$ 中点: $\boldsymbol{OA}=\frac{\boldsymbol{OM}+\boldsymbol{OS}}{2}$. $\boldsymbol{OS}=2\boldsymbol{a}-\boldsymbol{OM}$.
 
@@ -406,13 +384,13 @@ $B$ 为 $SN$ 中点: $\boldsymbol{OB}=\frac{\boldsymbol{OS}+\boldsymbol{ON}}{2}$
 
 $\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}-\boldsymbol{OM}=2\left(\boldsymbol{b}-\boldsymbol{a}\right)$. $\blacksquare$
 
-### 习题十七
+## 习题十七
 
 (复习参考题 6 拓广探索第 17 题) 一个人骑自行车由 $A$ 地出发向东骑行了 $9\text{ km}$ 到达 $B$ 地, 然后由 $B$ 地向南偏东 $30^{\circ}$ 方向骑行了 $6\text{ km}$ 到达 $C$ 地, 再从 $C$ 地向北偏东 $30^{\circ}$ 骑行了 $16\text{ km}$ 到达 $D$ 地, 求这个人由 $A$ 地到 $D$ 地的位移 (角度精确到 $1^{\circ}$).
 
 ### 解答 习题十七
 
-由**定义 6.2.11** (数量积) 与**定理 6.4.2** (余弦定理).
+由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
 
 设东向为 $x$ 轴, 北向为 $y$ 轴.
 
@@ -428,17 +406,17 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 方向: $\tan\theta=\frac{5\sqrt 3}{20}=\frac{\sqrt 3}{4}$. $\theta\approx23^{\circ}$, 即东偏北 $23^{\circ}$. $\blacksquare$
 
-### 习题十八
+## 习题十八
 
 (复习参考题 6 拓广探索第 18 题) 设计一种借助两个观察点 $C$, $D$ (其中 $C$, $D$ 之间的距离是 $d$) 测量航船的航向与速度的方法.
 
 ### 解答 习题十八
 
-由**定理 6.4.2** 与**定理 6.4.3**.
+由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**.
 
 在 $C$, $D$ 两点同时观测航船位置, 记录两个时刻 $t_1$, $t_2$ 的方位角. 由三角形正弦定理求出航船在两个时刻到 $C$ 或 $D$ 的距离, 进而求出航船位移, 位移除以时间得速度, 位移方向即航向. $\blacksquare$
 
-### 习题十九
+## 习题十九
 
 (复习参考题 6 拓广探索第 19 题) 如图, 直线 $l$ 与 $\triangle ABC$ 的边 $AB$, $AC$ 分别相交于点 $D$, $E$. 设 $AB=c$, $BC=a$, $CA=b$, $\angle ADE=\theta$, 请用向量方法探究 $\theta$ 与 $\triangle ABC$ 的边和角之间的等量关系.
 
@@ -446,7 +424,7 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 ### 解答 习题十九
 
-由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.4.3** (正弦定理).
+由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.4.3 (正弦定理)**.
 
 设 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$. $D$ 在 $AB$ 上, $E$ 在 $AC$ 上.
 

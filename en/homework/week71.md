@@ -1,15 +1,16 @@
-# Assignment 71
+# week71
+> **Basic Knowledge: 常用结论 4.1.8**<br>当 $n=1$ 时, $a_1=S_1$; 当 $n\ge 2$ 时, $a_n=S_n-S_{n-1}$.
+> **Definition 4.1.1 (数列)**<br>按照确定的顺序排列的一列数称为数列, 数列中的每一个数叫做这个数列的项.
+> **Definition 4.1.2 (有穷数列与无穷数列)**<br>项数有限的数列叫做有穷数列, 项数无限的数列叫做无穷数列.
+> **Definition 4.1.3 (数列是特殊函数)**<br>数列 $\left\{a_n\right\}$ 是从正整数集 $\mathbb N^*$ (或它的有限子集 $\left\{1,2,\cdots,n\right\}$ ) 到实数集 $\mathbb R$ 的函数, 其自变量是序号 $n$, 对应的函数值是数列的第 $n$ 项 $a_n$, 记为 $a_n=f\left(n\right)$.
+> **Definition 4.1.4 (Increasing and Decreasing Sequences)**<br>如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
+> **Definition 4.1.5 (General Term Formula)**<br>如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.1.6 (递推公式)**<br>如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **Definition 4.1.7 (前 $n$ 项和)**<br>数列 $\left\{a_n\right\}$ 从第 $1$ 项起到第 $n$ 项止的各项之和, 称为数列 $\left\{a_n\right\}$ 的前 $n$ 项和, 记作 $S_n$.
 
-> **Definition 4.1.1** (Sequence) <br>An ordered list of numbers arranged in a definite order is called a sequence; each number in the sequence is called a term of the sequence.
-> **Definition 4.1.2** (Finite and Infinite Sequences) <br>A sequence with finitely many terms is called a finite sequence; a sequence with infinitely many terms is called an infinite sequence.
-> **Definition 4.1.3** (A Sequence Is a Special Function) <br>A sequence $\left\{a_n\right\}$ is a function from the set of positive integers $\mathbb N^*$ (or a finite subset $\left\{1,2,\cdots,n\right\}$ of it) to the set of real numbers $\mathbb R$, whose independent variable is the index $n$ and whose corresponding function value is the $n$-th term $a_n$ of the sequence, denoted $a_n=f\left(n\right)$.
-> **Definition 4.1.4** (Increasing and Decreasing Sequences) <br>A sequence in which every term from the $2$-nd term onward is greater than its preceding term is called an increasing sequence; a sequence in which every term from the $2$-nd term onward is less than its preceding term is called a decreasing sequence. A sequence whose terms are all equal is called a constant sequence.
-> **Definition 4.1.5** (General Term Formula) <br>If the correspondence between the $n$-th term $a_n$ of a sequence $\left\{a_n\right\}$ and its index $n$ can be expressed by a formula, then that formula is called the general term formula of the sequence.
-> **Definition 4.1.6** (Recurrence Formula) <br>If the relation between two or more adjacent terms of a sequence can be expressed by a formula, then that formula is called the recurrence formula of the sequence.
-> **Definition 4.1.7** (Sum of the First $n$ Terms) <br>The sum of all terms from the $1$-st term to the $n$-th term of a sequence $\left\{a_n\right\}$ is called the sum of the first $n$ terms of $\left\{a_n\right\}$, denoted $S_n$.
-> **Common Conclusion 4.1.8** (Relation Between $a_n$ and $S_n$) <br>When $n=1$, $a_1=S_1$; when $n\ge 2$, $a_n=S_n-S_{n-1}$.
+---
 
-### Exercise 1
+## Exercise 1
 
 (Exercise 4.1, Problem 1) Write out the first $10$ terms of the following sequences and sketch their graphs.
 
@@ -23,7 +24,7 @@ The figure shows three scatter plots of sequences (horizontal axis the index $n$
 
 ### Solution to Exercise 1
 
-(1) By **Definition 4.1.5** (General Term Formula), the reciprocals of all positive integers arranged in decreasing order have $n$-th term $a_n=\frac{1}{n}$.
+(1) By **Definition 4.1.5 (General Term Formula)**, the reciprocals of all positive integers arranged in decreasing order have $n$-th term $a_n=\frac{1}{n}$.
 
 $$
 a_1=1,\ a_2=\frac{1}{2},\ a_3=\frac{1}{3},\ \cdots,\ a_{10}=\frac{1}{10}.
@@ -33,7 +34,7 @@ The graph is a set of discrete points, with horizontal coordinate $n$ and vertic
 
 $\blacksquare$
 
-(2) By **Definition 4.1.3** (A Sequence Is a Special Function), as $x$ takes $1,2,3,\cdots$ in turn, the corresponding function values form the sequence $a_n=f\left(n\right)=2n+1$.
+(2) By **Definition 4.1.3 (A Sequence Is a Special Function)**, as $x$ takes $1,2,3,\cdots$ in turn, the corresponding function values form the sequence $a_n=f\left(n\right)=2n+1$.
 
 $$
 a_1=3,\ a_2=5,\ a_3=7,\ a_4=9,\ a_5=11,\ a_6=13,\ a_7=15,\ a_8=17,\ a_9=19,\ a_{10}=21.
@@ -43,7 +44,7 @@ The graph is a set of discrete points lying on the line $y=2x+1$, arranged in in
 
 $\blacksquare$
 
-(3) By **Definition 4.1.5** (General Term Formula), $a_n=2$ when $n$ is odd, and $a_n=n+1$ when $n$ is even.
+(3) By **Definition 4.1.5 (General Term Formula)**, $a_n=2$ when $n$ is odd, and $a_n=n+1$ when $n$ is even.
 
 $$
 a_1=2,\ a_2=3,\ a_3=2,\ a_4=5,\ a_5=2,\ a_6=7,\ a_7=2,\ a_8=9,\ a_9=2,\ a_{10}=11.
@@ -59,7 +60,7 @@ The general term formula is $a_n=3\left(3+4n\right)$; leave blank the indices co
 
 ### Solution to Exercise 1
 
-By **Definition 4.1.5** (General Term Formula), $a_n=3\left(3+4n\right)=9+12n$.
+By **Definition 4.1.5 (General Term Formula)**, $a_n=3\left(3+4n\right)=9+12n$.
 
 When $n=1$, $a_1=9+12=21$; when $n=2$, $a_2=9+24=33$; when $n=5$, $a_5=9+60=69$.
 
@@ -75,7 +76,7 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-By **Definition 4.1.5** (General Term Formula), compute the number of positive divisors term by term.
+By **Definition 4.1.5 (General Term Formula)**, compute the number of positive divisors term by term.
 
 $$
 d\left(1\right)=1,\ d\left(2\right)=2,\ d\left(3\right)=2,\ d\left(4\right)=3,\ d\left(5\right)=2,\ d\left(6\right)=4,\ d\left(7\right)=2,\ d\left(8\right)=4,\ d\left(9\right)=3,\ d\left(10\right)=4.
@@ -93,7 +94,7 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-(1) By **Definition 4.1.5** (General Term Formula), the denominators are consecutive odd numbers $1,3,5,7,9,\cdots$, and the denominator of the $n$-th term is $2n-1$, so
+(1) By **Definition 4.1.5 (General Term Formula)**, the denominators are consecutive odd numbers $1,3,5,7,9,\cdots$, and the denominator of the $n$-th term is $2n-1$, so
 
 $$
 a_n=\frac{1}{2n-1}.
@@ -101,7 +102,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.1.5** (General Term Formula), each term can be written as $1,\frac{1}{\sqrt{2}},\frac{1}{2},\frac{1}{2\sqrt{2}},\frac{1}{4}$, i.e. the denominators are $\left(\sqrt{2}\right)^{n-1}$, so
+(2) By **Definition 4.1.5 (General Term Formula)**, each term can be written as $1,\frac{1}{\sqrt{2}},\frac{1}{2},\frac{1}{2\sqrt{2}},\frac{1}{4}$, i.e. the denominators are $\left(\sqrt{2}\right)^{n-1}$, so
 
 $$
 a_n=\frac{1}{\left(\sqrt{2}\right)^{n-1}}=\left(\frac{\sqrt{2}}{2}\right)^{n-1}.
@@ -109,7 +110,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 4.1, Problem 1) Based on the figures below and the corresponding numbers of points, write a general term formula for the sequence formed by the numbers of points, and fill in the figure and the number of points for the $5$-th term on the blank and in the parentheses respectively.
 
@@ -123,7 +124,7 @@ The figure shows three columns of dot patterns, each displaying a sequence of fi
 
 ### Solution to Exercise 2
 
-(1) By **Definition 4.1.5** (General Term Formula), the numbers $1,6,11,16$ form an arithmetic sequence with common difference $5$, so
+(1) By **Definition 4.1.5 (General Term Formula)**, the numbers $1,6,11,16$ form an arithmetic sequence with common difference $5$, so
 
 $$
 a_n=1+5\left(n-1\right)=5n-4.
@@ -133,7 +134,7 @@ The $5$-th term is $a_5=5\times 5-4=21$.
 
 $\blacksquare$
 
-(2) By **Definition 4.1.5** (General Term Formula), the numbers $1,4,7,10$ form an arithmetic sequence with common difference $3$, so
+(2) By **Definition 4.1.5 (General Term Formula)**, the numbers $1,4,7,10$ form an arithmetic sequence with common difference $3$, so
 
 $$
 a_n=1+3\left(n-1\right)=3n-2.
@@ -143,7 +144,7 @@ The $5$-th term is $a_5=3\times 5-2=13$.
 
 $\blacksquare$
 
-(3) By **Definition 4.1.5** (General Term Formula), the numbers $3,8,15,24$ can be written as $2^2-1,3^2-1,4^2-1,5^2-1$, so
+(3) By **Definition 4.1.5 (General Term Formula)**, the numbers $3,8,15,24$ can be written as $2^2-1,3^2-1,4^2-1,5^2-1$, so
 
 $$
 a_n=\left(n+1\right)^2-1=n^2+2n.
@@ -161,7 +162,7 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-(1) By **Definition 4.1.6** (Recurrence Formula), iterate term by term.
+(1) By **Definition 4.1.6 (Recurrence Formula)**, iterate term by term.
 
 $$
 a_1=1,\ a_2=1+2=3,\ a_3=3+4=7,\ a_4=7+8=15,\ a_5=15+16=31.
@@ -169,7 +170,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.1.6** (Recurrence Formula), iterate term by term.
+(2) By **Definition 4.1.6 (Recurrence Formula)**, iterate term by term.
 
 $$
 a_1=3,\ a_2=\frac{2}{3}\times 3+1=3,\ a_3=\frac{2}{3}\times 3+1=3,\ a_4=3,\ a_5=3.
@@ -181,13 +182,13 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Definition 4.1.6** (Recurrence Formula), iterate term by term.
+By **Definition 4.1.6 (Recurrence Formula)**, iterate term by term.
 
 $$
 a_1=2,\ a_2=2-\frac{1}{2}=\frac{3}{2},\ a_3=2-\frac{2}{3}=\frac{4}{3},\ a_4=2-\frac{3}{4}=\frac{5}{4},\ a_5=2-\frac{4}{5}=\frac{6}{5}.
 $$
 
-By **Definition 4.1.5** (General Term Formula), observing the first $5$ terms $\frac{2}{1},\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5}$, we guess the general term formula is
+By **Definition 4.1.5 (General Term Formula)**, observing the first $5$ terms $\frac{2}{1},\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5}$, we guess the general term formula is
 
 $$
 a_n=\frac{n+1}{n}.
@@ -215,7 +216,7 @@ $$
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 4.1, Review and Consolidation, Problem 1) Write out the first $10$ terms of the following sequences and sketch their graphs.
 
@@ -227,7 +228,7 @@ The figure shows two scatter plots of sequences (horizontal axis the index $n$, 
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.5** (General Term Formula), the prime numbers in increasing order are
+(1) By **Definition 4.1.5 (General Term Formula)**, the prime numbers in increasing order are
 
 $$
 2,3,5,7,11,13,17,19,23,29.
@@ -237,7 +238,7 @@ The graph is a set of discrete points, with horizontal coordinate $n$ and vertic
 
 $\blacksquare$
 
-(2) By **Definition 4.1.5** (General Term Formula), the Euler totient function $\varphi\left(n\right)$ counts the positive integers not exceeding $n$ that are coprime to $n$; compute term by term.
+(2) By **Definition 4.1.5 (General Term Formula)**, the Euler totient function $\varphi\left(n\right)$ counts the positive integers not exceeding $n$ that are coprime to $n$; compute term by term.
 
 $$
 \varphi\left(1\right)=1,\ \varphi\left(2\right)=1,\ \varphi\left(3\right)=2,\ \varphi\left(4\right)=2,\ \varphi\left(5\right)=4,\ \varphi\left(6\right)=2,\ \varphi\left(7\right)=6,\ \varphi\left(8\right)=4,\ \varphi\left(9\right)=6,\ \varphi\left(10\right)=4.
@@ -259,7 +260,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.5** (General Term Formula),
+(1) By **Definition 4.1.5 (General Term Formula)**,
 
 $$
 a_1=1,\ a_2=\frac{1}{4},\ a_3=\frac{1}{9},\ a_4=\frac{1}{16},\ a_5=\frac{1}{25}.
@@ -267,7 +268,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.1.5** (General Term Formula),
+(2) By **Definition 4.1.5 (General Term Formula)**,
 
 $$
 a_1=2,\ a_2=-5,\ a_3=10,\ a_4=-17,\ a_5=26.
@@ -275,7 +276,7 @@ $$
 
 $\blacksquare$
 
-(3) By **Definition 4.1.6** (Recurrence Formula),
+(3) By **Definition 4.1.6 (Recurrence Formula)**,
 
 $$
 a_1=\frac{1}{2},\ a_4=4\times\frac{1}{2}+1=3,\ a_3=4\times 3+1=13,\ a_4=4\times 13+1=53,\ a_5=4\times 53+1=213.
@@ -283,7 +284,7 @@ $$
 
 $\blacksquare$
 
-(4) By **Definition 4.1.6** (Recurrence Formula),
+(4) By **Definition 4.1.6 (Recurrence Formula)**,
 
 $$
 a_1=-\frac{1}{4},\ a_2=1-\frac{1}{-1/4}=5,\ a_3=1-\frac{1}{5}=\frac{4}{5},\ a_4=1-\frac{5}{4}=-\frac{1}{4},\ a_5=5.
@@ -303,7 +304,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.5** (General Term Formula), the terms are $1^2,-2^2,3^2,-4^2,5^2,-6^2,7^2$, so fill in $1,-16,-36$, and the general term formula is
+(1) By **Definition 4.1.5 (General Term Formula)**, the terms are $1^2,-2^2,3^2,-4^2,5^2,-6^2,7^2$, so fill in $1,-16,-36$, and the general term formula is
 
 $$
 a_n=\left(-1\right)^{n+1}n^2.
@@ -311,7 +312,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.1.5** (General Term Formula), the denominators are squares of consecutive odd numbers $1^2,3^2,5^2,7^2,9^2,11^2,13^2$, so fill in $\frac{1}{25},\frac{1}{121}$, and the general term formula is
+(2) By **Definition 4.1.5 (General Term Formula)**, the denominators are squares of consecutive odd numbers $1^2,3^2,5^2,7^2,9^2,11^2,13^2$, so fill in $\frac{1}{25},\frac{1}{121}$, and the general term formula is
 
 $$
 a_n=\frac{1}{\left(2n-1\right)^2}.
@@ -319,7 +320,7 @@ $$
 
 $\blacksquare$
 
-(3) By **Definition 4.1.5** (General Term Formula), the terms are $\sqrt{1},\sqrt{2},\sqrt{3},\sqrt{4},\sqrt{5},\sqrt{6},\sqrt{7}$, so fill in $\sqrt{3},\sqrt{6}$, and the general term formula is
+(3) By **Definition 4.1.5 (General Term Formula)**, the terms are $\sqrt{1},\sqrt{2},\sqrt{3},\sqrt{4},\sqrt{5},\sqrt{6},\sqrt{7}$, so fill in $\sqrt{3},\sqrt{6}$, and the general term formula is
 
 $$
 a_n=\sqrt{n}.
@@ -327,7 +328,7 @@ $$
 
 $\blacksquare$
 
-(4) By **Definition 4.1.5** (General Term Formula), the denominators are $2,6,12,20,30,42$, i.e. $1\times 2,2\times 3,3\times 4,4\times 5,5\times 6,6\times 7$, so fill in $\frac{1}{12},\frac{1}{42}$, and the general term formula is
+(4) By **Definition 4.1.5 (General Term Formula)**, the denominators are $2,6,12,20,30,42$, i.e. $1\times 2,2\times 3,3\times 4,4\times 5,5\times 6,6\times 7$, so fill in $\frac{1}{12},\frac{1}{42}$, and the general term formula is
 
 $$
 a_n=\frac{1}{n\left(n+1\right)}.
@@ -343,7 +344,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.6** (Recurrence Formula),
+(1) By **Definition 4.1.6 (Recurrence Formula)**,
 
 $$
 a_1=1,\ a_2=2,\ a_3=2+1=3,\ a_4=3+2=5,\ a_5=5+3=8.
@@ -351,7 +352,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.1.5** (General Term Formula),
+(2) By **Definition 4.1.5 (General Term Formula)**,
 
 $$
 b_1=\frac{a_2}{a_1}=\frac{2}{1}=2,\ b_2=\frac{a_3}{a_2}=\frac{3}{2},\ b_3=\frac{a_4}{a_3}=\frac{5}{3},\ b_4=\frac{a_5}{a_4}=\frac{8}{5},\ b_5=\frac{a_6}{a_5}=\frac{13}{8}.
@@ -367,7 +368,7 @@ The figure shows three rows of pebbles (points): the first row are the triangula
 
 ### Solution to Problem 1
 
-By **Definition 4.1.5** (General Term Formula), the triangular numbers are $1,3,6,10,\cdots$, with differences between adjacent terms $2,3,4,\cdots$, so
+By **Definition 4.1.5 (General Term Formula)**, the triangular numbers are $1,3,6,10,\cdots$, with differences between adjacent terms $2,3,4,\cdots$, so
 
 $$
 a_5=10+5=15,\ a_6=15+6=21.
@@ -391,7 +392,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.1.6** (Recurrence Formula), after each year the deposit balance is $1+0.35\%=1.0035$ times the previous year's.
+By **Definition 4.1.6 (Recurrence Formula)**, after each year the deposit balance is $1+0.35\%=1.0035$ times the previous year's.
 
 $$
 a_1=10\times 1.0035=10.035\text{ 万元},
@@ -405,7 +406,7 @@ $$
 a_3=10\times 1.0035^3\approx 10.10537\text{ 万元}.
 $$
 
-By **Definition 4.1.5** (General Term Formula), the recurrence is $a_n=10\times 1.0035^n$, so
+By **Definition 4.1.5 (General Term Formula)**, the recurrence is $a_n=10\times 1.0035^n$, so
 
 $$
 a_n=10\times 1.0035^n\text{ 万元}.
@@ -421,7 +422,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.5** (General Term Formula),
+(1) By **Definition 4.1.5 (General Term Formula)**,
 
 $$
 a_n=f\left(n\right)=\frac{2^n-1}{2^n}=1-\frac{1}{2^n}.
@@ -435,12 +436,12 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.1.4** (Increasing and Decreasing Sequences), compare $a_{n+1}$ with $a_n$.
+(2) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, compare $a_{n+1}$ with $a_n$.
 
 $$
 a_{n+1}-a_n=\left(1-\frac{1}{2^{n+1}}\right)-\left(1-\frac{1}{2^n}\right)=\frac{1}{2^n}-\frac{1}{2^{n+1}}=\frac{1}{2^{n+1}}> 0.
 $$
 
-Hence $a_{n+1}> a_n$; by **Definition 4.1.4** (Increasing and Decreasing Sequences), $\left\{a_n\right\}$ is an increasing sequence.
+Hence $a_{n+1}> a_n$; by **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\left\{a_n\right\}$ is an increasing sequence.
 
 $\blacksquare$

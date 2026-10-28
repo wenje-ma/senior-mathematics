@@ -1,22 +1,23 @@
-# Assignment 78
+# week78
+> **Basic Knowledge: 常用结论 4.1.8**<br>当 $n=1$ 时, $a_1=S_1$; 当 $n\ge 2$ 时, $a_n=S_n-S_{n-1}$.
+> **Definition 4.1.1 (数列)**<br>按照确定的顺序排列的一列数称为数列, 数列中的每一个数叫做这个数列的项.
+> **Definition 4.1.5 (General Term Formula)**<br>如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.1.6 (递推公式)**<br>如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **Definition 4.2.1 (Arithmetic Sequence)**<br>如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **Definition 4.2.2 (等差中项)**<br>由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**<br>等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.5 (等差数列性质)**<br>在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**<br>如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **Definition 4.3.2 (等比中项)**<br>如果在 $a$ 与 $b$ 中间插入一个数 $G$, 使 $a,G,b$ 成等比数列, 那么 $G$ 叫做 $a$ 与 $b$ 的等比中项. 此时 $G^2=ab$.
+> **Theorem 4.3.3 (等比数列通项公式)**<br>首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **Theorem 4.3.5 (前 $n$ 项和公式)**<br>当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> **Definition 4.4.1 (数学归纳法)**<br>证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
 
-> **Definition 4.1.1** (Sequence) <br>An ordered list of numbers arranged in a definite order is called a sequence; each number in the sequence is called a term of the sequence.
-> **Definition 4.1.5** (General Term Formula) <br>If the correspondence between the $n$-th term $a_n$ of the sequence $\left\{a_n\right\}$ and its index $n$ can be expressed by a formula, that formula is called the general term formula of the sequence.
-> **Definition 4.1.6** (Recurrence Formula) <br>If the relation between two or more adjacent terms of a sequence can be expressed by a formula, that formula is called a recurrence formula of the sequence.
-> **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$) <br>When $n=1$, $a_1=S_1$; when $n\ge 2$, $a_n=S_n-S_{n-1}$.
-> **Definition 4.2.1** (Arithmetic Sequence) <br>If, starting from the $2$nd term, the difference between each term and the preceding term equals the same constant, the sequence is called an arithmetic sequence; this constant is called the common difference, usually denoted by $d$.
-> **Definition 4.2.2** (Arithmetic Mean) <br>For an arithmetic sequence formed by three numbers $a,A,b$, $A$ is called the arithmetic mean of $a$ and $b$. By the definition of an arithmetic sequence, $2A=a+b$.
-> **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence) <br>For an arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$, the general term is $a_n=a_1+\left(n-1\right)d$.
-> **Theorem 4.2.5** (Properties of an Arithmetic Sequence) <br>In an arithmetic sequence $\left\{a_n\right\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
-> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>For an arithmetic sequence $\left\{a_n\right\}$, the sum of the first $n$ terms is $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
-> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>For an arithmetic sequence $\left\{a_n\right\}$, the sum of the first $n$ terms is $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
-> **Definition 4.3.1** (Geometric Sequence) <br>If, starting from the $2$nd term, the ratio of each term to the preceding term equals the same constant, the sequence is called a geometric sequence; this constant is called the common ratio, usually denoted by $q$ ($q\ne 0$).
-> **Definition 4.3.2** (Geometric Mean) <br>If a number $G$ is inserted between $a$ and $b$ so that $a,G,b$ form a geometric sequence, then $G$ is called the geometric mean of $a$ and $b$. In this case $G^2=ab$.
-> **Theorem 4.3.3** (General Term Formula of a Geometric Sequence) <br>For a geometric sequence $\left\{a_n\right\}$ with first term $a_1$ and common ratio $q$, the general term is $a_n=a_1 q^{n-1}$.
-> **Theorem 4.3.5** (Sum of the First $n$ Terms) <br>When $q\ne 1$, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; when $q=1$, $S_n=na_1$.
-> **Definition 4.4.1** (Mathematical Induction) <br>To prove a proposition related to a positive integer $n$, proceed as follows: (1) (Inductive basis) prove that the proposition holds when $n=n_0$ ($n_0\in\mathbb N^*$); (2) (Inductive step) taking "the proposition holds when $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$)" as the hypothesis, deduce that "the proposition also holds when $n=k+1$". As long as these two steps are completed, one may conclude that the proposition holds for all positive integers $n$ starting from $n_0$.
+---
 
-### Problem 1
+## Problem 1
 
 (Review Reference Problem 4, Review and Consolidation, Problem 1) Based on the general term formulas of the following sequences, sketch their graphs respectively
 
@@ -32,7 +33,7 @@ The figure shows four scatter plots of sequences (horizontal axis the index $n$,
 
 ### Solution to Problem 1
 
-By **Definition 4.1.5** (General Term Formula), the first few terms of each sequence are:
+By **Definition 4.1.5 (General Term Formula)**, the first few terms of each sequence are:
 
 (1) $a_n=-\frac{n}{4}$: $-\frac{1}{4},-\frac{1}{2},-\frac{3}{4},-1,\cdots$; the graph consists of points on the line $y=-\frac{x}{4}$, decreasing.
 
@@ -54,7 +55,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.5** (General Term Formula), the numerators are $1,3,5,7$ and the denominators are $2,4,8,16$, hence
+(1) By **Definition 4.1.5 (General Term Formula)**, the numerators are $1,3,5,7$ and the denominators are $2,4,8,16$, hence
 
 $$
 a_n=\frac{2n-1}{2^n}.
@@ -62,7 +63,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.1.5** (General Term Formula), the signs alternate, the numerators are $1,3,5,7$, and the denominators are $2^2,4^2,6^2,8^2$, hence
+(2) By **Definition 4.1.5 (General Term Formula)**, the signs alternate, the numerators are $1,3,5,7$, and the denominators are $2^2,4^2,6^2,8^2$, hence
 
 $$
 a_n=1+\left(-1\right)^{n+1}\frac{2n-1}{\left(2n\right)^2}.
@@ -70,7 +71,7 @@ $$
 
 $\blacksquare$
 
-(3) By **Definition 4.1.5** (General Term Formula), $0,\sqrt{2},0,\sqrt{2}$ alternate, hence
+(3) By **Definition 4.1.5 (General Term Formula)**, $0,\sqrt{2},0,\sqrt{2}$ alternate, hence
 
 $$
 a_n=\frac{\sqrt{2}}{2}\left[1-\left(-1\right)^n\right].
@@ -114,11 +115,11 @@ The figure shows the first four iterations of the Koch snowflake curve: $C_1$ is
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $P_n=P_0\left(1+k\right)^n$. When $k\in\left(-1,0\right)$, $0< 1+k< 1$, so $P_n$ decreases. Choose (B).
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $P_n=P_0\left(1+k\right)^n$. When $k\in\left(-1,0\right)$, $0< 1+k< 1$, so $P_n$ decreases. Choose (B).
 
 $\blacksquare$
 
-(2) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), let the five people receive $a-2d,a-d,a,a+d,a+2d$.
+(2) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the five people receive $a-2d,a-d,a,a+d,a+2d$.
 
 $$
 5a=100,\ a=20.
@@ -134,7 +135,7 @@ The smallest share $a-2d=20-\frac{110}{6}=\frac{10}{6}=\frac{5}{3}$. Choose (A).
 
 $\blacksquare$
 
-(3) By **Definition 4.3.1** (Geometric Sequence), after each operation the number of sides is multiplied by $\frac{4}{3}$, and the perimeter is also multiplied by $\frac{4}{3}$.
+(3) By **Definition 4.3.1 (Geometric Sequence)**, after each operation the number of sides is multiplied by $\frac{4}{3}$, and the perimeter is also multiplied by $\frac{4}{3}$.
 
 $C_1=3$, $C_4=3\times\left(\frac{4}{3}\right)^3=\frac{64}{9}$. Choose (B).
 
@@ -148,15 +149,15 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.2.2** (Arithmetic Mean), $b=\frac{a+c}{2}=\frac{10}{2}=5$.
+(1) By **Definition 4.2.2 (Arithmetic Mean)**, $b=\frac{a+c}{2}=\frac{10}{2}=5$.
 
-By **Definition 4.3.2** (Geometric Mean), $b^2=ac=\left(5+2\sqrt{6}\right)\left(5-2\sqrt{6}\right)=25-24=1$, so $b=\pm 1$.
+By **Definition 4.3.2 (Geometric Mean)**, $b^2=ac=\left(5+2\sqrt{6}\right)\left(5-2\sqrt{6}\right)=25-24=1$, so $b=\pm 1$.
 
 $\blacksquare$
 
-(2) By **Definition 4.3.1** (Geometric Sequence), the number of lamps on each story forms a geometric sequence with first term $a_1$ (top story), common ratio $2$, and $7$ terms.
+(2) By **Definition 4.3.1 (Geometric Sequence)**, the number of lamps on each story forms a geometric sequence with first term $a_1$ (top story), common ratio $2$, and $7$ terms.
 
-By **Theorem 4.3.5** (Sum of the First $n$ Terms),
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
 S_7=\frac{a_1\left(1-2^7\right)}{1-2}=127a_1=381,\ a_1=3.
@@ -170,7 +171,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.3.1** (Geometric Sequence), the number of users forms a geometric sequence with first term $2000$ and common ratio $1.3$.
+By **Definition 4.3.1 (Geometric Sequence)**, the number of users forms a geometric sequence with first term $2000$ and common ratio $1.3$.
 
 $$
 2000\times 1.3^n\ge 10000,\ 1.3^n\ge 5,\ n\ge\log_{1.3}5\approx 6.8.
@@ -184,9 +185,9 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.2.1** (Arithmetic Sequence), the daily donations form an arithmetic sequence with first term $10$ and common difference $10$.
+By **Definition 4.2.1 (Arithmetic Sequence)**, the daily donations form an arithmetic sequence with first term $10$ and common difference $10$.
 
-By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
 S_n=10n+\frac{n\left(n-1\right)}{2}\times 10=5n^2+5n=1200.
@@ -208,9 +209,9 @@ Let him work $n$ days ($n\le 20$).
 
 Plan 1: $85n$ yuan.
 
-Plan 2: by **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $65n+\frac{n\left(n-1\right)}{2}\times 2=n^2+64n$ yuan.
+Plan 2: by **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $65n+\frac{n\left(n-1\right)}{2}\times 2=n^2+64n$ yuan.
 
-Plan 3: by **Theorem 4.3.5** (Sum of the First $n$ Terms), $\frac{40\left(1.1^n-1\right)}{1.1-1}=400\left(1.1^n-1\right)$ yuan.
+Plan 3: by **Theorem 4.3.5 (Sum of the First $n$ Terms)**, $\frac{40\left(1.1^n-1\right)}{1.1-1}=400\left(1.1^n-1\right)$ yuan.
 
 Comparing: Plan 2 $-$ Plan 1 $=n^2+64n-85n=n\left(n-21\right)< 0$ ($n< 21$); Plan 1 is always better than Plan 2.
 
@@ -226,7 +227,7 @@ Hence for $n\le 15$ choose Plan 1, and for $n\ge 16$ choose Plan 3.
 
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Reference Problem 4, Comprehensive Application, Problem 8) The nonzero real numbers $a,b,c$ are not all equal.
 
@@ -236,7 +237,7 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-(1) By **Definition 4.2.1** (Arithmetic Sequence), $2b=a+c$.
+(1) By **Definition 4.2.1 (Arithmetic Sequence)**, $2b=a+c$.
 
 If $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ formed an arithmetic sequence, then $\frac{2}{b}=\frac{1}{a}+\frac{1}{c}=\frac{a+c}{ac}=\frac{2b}{ac}$.
 
@@ -246,13 +247,13 @@ Hence $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ cannot form an arithmetic sequence.
 
 $\blacksquare$
 
-(2) By **Definition 4.3.1** (Geometric Sequence), $b^2=ac$.
+(2) By **Definition 4.3.1 (Geometric Sequence)**, $b^2=ac$.
 
 $$
 \frac{1}{b^2}=\frac{1}{ac}=\frac{1}{a}\cdot\frac{1}{c}.
 $$
 
-By **Definition 4.3.2** (Geometric Mean), $\frac{1}{b}$ is the geometric mean of $\frac{1}{a}$ and $\frac{1}{c}$, so $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ form a geometric sequence.
+By **Definition 4.3.2 (Geometric Mean)**, $\frac{1}{b}$ is the geometric mean of $\frac{1}{a}$ and $\frac{1}{c}$, so $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ form a geometric sequence.
 
 $\blacksquare$
 
@@ -260,13 +261,13 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-By **Definition 4.3.1** (Geometric Sequence), the accumulated principal and interest of each deposit by $2023$ forms a geometric sequence.
+By **Definition 4.3.1 (Geometric Sequence)**, the accumulated principal and interest of each deposit by $2023$ forms a geometric sequence.
 
 The $10000$ yuan deposited in $2017$ becomes, by $2023$: $10000\times 1.0275^6$.
 
 The $1200$ yuan deposited each year from $2018$ to $2022$ becomes, by $2023$: $1200\times 1.0275^5,1200\times 1.0275^4,\cdots,1200\times 1.0275^0$.
 
-By **Theorem 4.3.5** (Sum of the First $n$ Terms), the accumulated principal and interest of the subsequent deposits is
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, the accumulated principal and interest of the subsequent deposits is
 
 $$
 1200\times\frac{1.0275^6-1}{1.0275-1}=1200\times\frac{1.0275^6-1}{0.0275}.
@@ -286,7 +287,7 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-(1) By **Definition 4.1.6** (Recurrence Formula), compute term by term.
+(1) By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
 
 $17\to 52\to 26\to 13\to 40\to 20\to 10\to 5\to 16\to 8\to 4\to 2\to 1$.
 
@@ -322,7 +323,7 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-(1) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $S_4=4a_1+6d$, $S_2=2a_1+d$.
+(1) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $S_4=4a_1+6d$, $S_2=2a_1+d$.
 
 $4a_1+6d=4\left(2a_1+d\right)$, so $2a_1=d$.
 
@@ -378,7 +379,7 @@ Subtracting, $a_{n+1}-a_n=2a_n$, so $a_{n+1}=3a_n$.
 
 When $n=1$, $a_2=2a_1+2$, and also $a_2=3a_1$, hence $a_1=2$.
 
-By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_n=2\times 3^{n-1}$.
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_n=2\times 3^{n-1}$.
 
 $\blacksquare$
 
@@ -440,7 +441,7 @@ $$
 b_1 b_2\cdots b_n=b_1 b_2\cdots b_{4037-n}\ \left(n< 4037\right).
 $$
 
-Proof: by **Definition 4.3.2** (Geometric Mean), $b_i b_{4037-i}=b_{2019}^2=1$.
+Proof: by **Definition 4.3.2 (Geometric Mean)**, $b_i b_{4037-i}=b_{2019}^2=1$.
 
 The left side $=b_1 b_2\cdots b_n$, and the right side $=b_1 b_2\cdots b_n\cdot b_{n+1}\cdots b_{4037-n}$.
 
@@ -452,7 +453,7 @@ Hence the product is $1$, and the equality holds.
 
 $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Reference Problem 4, Extension and Exploration, Problem 14) During the $2015$ Suzhou World Table Tennis Championships, a scenic site used table tennis balls to build several decorations in the shape of "regular triangular pyramids". The $1$st pile has only $1$ layer with just one ball; the bottom layer (first layer) of piles $2,3,4,\cdots$ is fixed as shown in the figure; starting from the second layer, each layer's balls rest naturally on the layer below; and the $n$-th layer of the $n$-th pile has exactly one table tennis ball. Let the total number of balls in the $n$-th pile be $f\left(n\right)$.
 
@@ -538,7 +539,7 @@ $$
 \frac{k\left(k-1\right)}{2}+k=\frac{k\left(k+1\right)}{2}.
 $$
 
-Thus it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), $n$ points determine $\frac{n\left(n-1\right)}{2}$ lines.
+Thus it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, $n$ points determine $\frac{n\left(n-1\right)}{2}$ lines.
 
 $\blacksquare$
 
@@ -570,6 +571,6 @@ $$
 F_{k+1}=\frac{1}{\sqrt{5}}\left(\alpha^{k+1}-\beta^{k+1}\right).
 $$
 
-Holds. By the second form of **Definition 4.4.1** (Mathematical Induction), the general term holds for all $n\in\mathbb N^*$.
+Holds. By the second form of **Definition 4.4.1 (Mathematical Induction)**, the general term holds for all $n\in\mathbb N^*$.
 
 $\blacksquare$

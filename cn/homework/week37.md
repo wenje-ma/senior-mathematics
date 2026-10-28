@@ -1,40 +1,15 @@
-# 作业 37
+# week37
+> **定义 7.1.9 (复数的模)**<br>复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
+> **定义 7.3.1 (复数的三角表示式)**<br>任何一个复数 z = a + bi 都可以表示成 r(cos theta + i sin theta) 的形式, 其中 r = |z|, theta 为 z 的辐角.
+> **定义 7.3.2 (辐角)**<br>复数 z = a + bi 对应的向量 OZ 与 x 轴正方向的夹角 theta 叫做复数 z 的辐角.
+> **定义 7.3.4 (非零复数相等的三角形式条件)**<br>参见教材相应章节关于此概念的论述.
+> **定义 7.3.5 (复数乘法的三角表示)**<br>第二章　一元二次函数,方程和不等式 ２２　基本不等式 我们知道,乘法公式在代数式的运算中有重要作用.那 么,是否也有一些不等式,它们在解决不等式问题时有着与 乘法公式类似的重要作用呢?下面就来研究这个问题. 前面我们利用完全平方公式得出了一类重要不等式: ,∈,有 ２＋２≥２, 当且仅当＝时,等号成立. 特别地,如果＞０,＞０,我们用槡,槡分别代替上式中的,,可得 槡≤＋ ２, (１) 当且仅当＝时,等号成立. 通常称不等式(１)为基本不等式(ｂａｓｉｃｉｎｅｑｕａｌｉｔｙ).其中,＋ ２叫做正数,的 算术平均数,槡叫做正数,的几何平均数. 基本不等式表明:两个正数的算术平均数不小于它们的几何平均数. 上面通过考察２＋２≥２的特殊情形获得了基本不等式.能否直接利用不等式的性 质推导出基本不等式呢?下面我们来分析一下. 要证 槡≤＋ ２, ① 只要证 ２槡≤＋. ② 要证
+> **定义 7.3.6 (复数除法的三角表示)**<br>次 ２００２年游客人次＝３４４ ３０９≈１.１１, …… 　　做减法可以得到游客 人次的年增加量,做除法 可以得到游客人次的年增 长率.增加量,增长率是 刻画事物变化规律的两个 很重要的量. ２０１５年游客人次 ２０１４年游客人次＝１２４４ １１１８≈１.１１. 结果表明,Ｂ地景区的游客人次的年增长率都约为 １.１１－１＝０.１１,是一个常数. 像这样,增长率为常数的变化方式,我们称为指数增 长.因此,Ｂ地景区的游客人次近似于指数增长. 显然,从２００１年开始,Ｂ地景区游客人次的变化规律 可以近似描述为: １年后,游客人次是２００１年的１.１１１倍; ２１１ 比较两地景区游客人次的变化情况,你发现了怎样的变 化规律? 为了便于观察,可以 为了有利于观察规律,根据表 4.2-1,分别画出 A,B 先根据表格中的数据描 两地景区采取不同措施后的15年游客人次的图象(图4.2-1 点,然后用光滑的曲线将 和图4.2-2). 离散的点连起来. 人次/万次 人次/万次个 1 300 1 300 1
+> **定理 7.3.8 (棣莫弗定理)**<br>[r(cos theta + i sin theta)]^n = r^n (cos n theta + i sin n theta).
 
-> **定义 7.1.9** (复数的模) <br> 复数 $z=a+b\mathrm{i}$ 的模 $\lvert z\rvert=\sqrt{a^2+b^2}$.
+---
 
-> **定义 7.3.1** (复数的三角表示式) <br> 任何一个复数 $z=a+b\mathrm{i}$ 都可以表示成 $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$ 的形式, 其中 $r$ 是复数 $z$ 的模, $\theta$ 是以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角. $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$ 叫做复数 $z=a+b\mathrm{i}$ 的三角表示式, 简称三角形式; $a+b\mathrm{i}$ 叫做代数表示式.
-
-> **定义 7.3.2** (辐角) <br> 以 $x$ 轴非负半轴为始边, 向量 $\boldsymbol{OZ}$ 所在射线为终边的角 $\theta$ 叫做复数 $z=a+b\mathrm{i}$ 的辐角. 任何不为零的复数的辐角有无限多个值, 且相差 $2\pi$ 的整数倍.
-
-> **定义 7.3.3** (辐角的主值) <br> 规定在 $0\le\theta< 2\pi$ 范围内的辐角 $\theta$ 的值为辐角的主值, 通常记作 $\arg z$, 即 $0\le\arg z< 2\pi$.
-
-> **定义 7.3.4** (非零复数相等的三角形式条件) <br> 两个非零复数相等当且仅当它们的模与辐角的主值分别相等.
-
-> **定义 7.3.5** (复数乘法的三角表示) <br>
-
-$$
-r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)\cdot r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)=r_1r_2\left[\cos\left(\theta_1+\theta_2\right)+\mathrm{i}\sin\left(\theta_1+\theta_2\right)\right].
-$$
-
-即积的模等于各复数模的积, 积的辐角等于各复数辐角的和.
-
-> **定义 7.3.6** (复数除法的三角表示) <br>
-
-$$
-\frac{r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)}{r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)}=\frac{r_1}{r_2}\left[\cos\left(\theta_1-\theta_2\right)+\mathrm{i}\sin\left(\theta_1-\theta_2\right)\right]\quad \left(r_2\neq 0\right).
-$$
-
-即商的模等于被除数的模除以除数的模, 商的辐角等于被除数的辐角减去除数的辐角.
-
-> **常用结论 7.3.7** (复数乘, 除运算的几何意义) <br> 两个复数相乘时, 把向量 $\boldsymbol{OZ_1}$ 绕点 $O$ 旋转角 $\theta_2$, 再把模变为原来的 $r_2$ 倍, 得到积对应的向量. 两个复数相除时, 把向量旋转角 $-\theta_2$, 再把模变为原来的 $\frac{1}{r_2}$ 倍.
-
-> **定理 7.3.8** (棣莫弗定理) <br>
-
-$$
-\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)\quad \left(n\in\mathbb N^*\right).
-$$
-
-### 练习一
+## 练习一
 
 (练习 7.3 第 1 题) 画出下列复数对应的向量, 并把这些复数表示成三角形式:
 
@@ -46,11 +21,11 @@ $$
 
 (4) $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
 
-图：复平面直角坐标系中，从原点 $O$ 画出四个向量：$4$（即实轴正方向上长 $4$ 的向量）、$-\mathrm{i}$（即虚轴负方向上长 $1$ 的向量）、$2\sqrt{3}+2\mathrm{i}$（即第一象限内坐标 $\left(2\sqrt{3},2\right)$、模 $4$、辐角 $\frac{\pi}{6}$ 的向量）、$-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$（即第三象限内坐标 $\left(-\frac{1}{2},-\frac{\sqrt{3}}{2}\right)$、模 $1$、辐角 $\frac{4\pi}{3}$ 的向量）。
+图:复平面直角坐标系中,从原点 $O$ 画出四个向量:$4$(即实轴正方向上长 $4$ 的向量),$-\mathrm{i}$(即虚轴负方向上长 $1$ 的向量),$2\sqrt{3}+2\mathrm{i}$(即第一象限内坐标 $\left(2\sqrt{3},2\right)$,模 $4$,辐角 $\frac{\pi}{6}$ 的向量),$-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$(即第三象限内坐标 $\left(-\frac{1}{2},-\frac{\sqrt{3}}{2}\right)$,模 $1$,辐角 $\frac{4\pi}{3}$ 的向量).
 
 ### 解答 练习一
 
-由**定义 7.3.1** (复数的三角表示式), $r=\sqrt{a^2+b^2}$, $\cos\theta=\frac{a}{r}$, $\sin\theta=\frac{b}{r}$, 再由点所在象限确定 $\theta$.
+由**定义 7.3.1 (复数的三角表示式)**, $r=\sqrt{a^2+b^2}$, $\cos\theta=\frac{a}{r}$, $\sin\theta=\frac{b}{r}$, 再由点所在象限确定 $\theta$.
 
 (1) $4=4+0\mathrm{i}$, $r=4$, $\cos\theta=1$, $\sin\theta=0$, 点在实轴正方向, 故 $\arg 4=0$. 三角形式为 $4\left(\cos 0+\mathrm{i}\sin 0\right)$.
 
@@ -60,7 +35,7 @@ $$
 
 (4) $r=\sqrt{\left(-\frac{1}{2}\right)^2+\left(-\frac{\sqrt{3}}{2}\right)^2}=1$, $\cos\theta=-\frac{1}{2}$, $\sin\theta=-\frac{\sqrt{3}}{2}$, 点在第三象限, 故 $\arg=\frac{4\pi}{3}$. 三角形式为 $\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}$. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 7.3 第 2 题) 下列复数是不是三角形式? 如果不是, 把它们表示成三角形式.
 
@@ -76,7 +51,7 @@ $$
 
 ### 解答 练习二
 
-由**定义 7.3.1** (复数的三角表示式), 三角形式必须满足: 模 $r\ge 0$, 括号内为 $\cos\theta+\mathrm{i}\sin\theta$.
+由**定义 7.3.1 (复数的三角表示式)**, 三角形式必须满足: 模 $r\ge 0$, 括号内为 $\cos\theta+\mathrm{i}\sin\theta$.
 
 (1) 不是三角形式, 因为括号内为 $\cos\theta-\mathrm{i}\sin\theta$. 由 $\cos\theta-\mathrm{i}\sin\theta=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)$, 得
 
@@ -92,7 +67,7 @@ $$
 
 (5) 不是三角形式, 因为括号内 $\cos$ 与 $\sin$ 的角不同. 须统一辐角. $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{6}\right)=2\left(\frac{1}{2}+\mathrm{i}\cdot\frac{1}{2}\right)=1+\mathrm{i}$. 其模 $r=\sqrt{2}$, $\arg=\frac{\pi}{4}$, 故三角形式为 $\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$. $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 7.3 第 3 题) 把下列复数表示成代数形式:
 
@@ -102,13 +77,13 @@ $$
 
 ### 解答 练习三
 
-由**定义 7.3.1** (复数的三角表示式), $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
+由**定义 7.3.1 (复数的三角表示式)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
 
 (1) $6\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)=6\cdot 0+6\cdot\left(-1\right)\mathrm{i}=-6\mathrm{i}$.
 
 (2) $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)=2\cdot\frac{1}{2}+2\cdot\left(-\frac{\sqrt{3}}{2}\right)\mathrm{i}=1-\sqrt{3}\mathrm{i}$. $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 7.3 第 1 题) 计算:
 
@@ -122,7 +97,7 @@ $$
 
 ### 解答 练习四
 
-由**定义 7.3.5** (复数乘法的三角表示), 模相乘, 辐角相加.
+由**定义 7.3.5 (复数乘法的三角表示)**, 模相乘, 辐角相加.
 
 (1) 模: $8\times 2=16$; 辐角: $\frac{\pi}{6}+\frac{\pi}{4}=\frac{5\pi}{12}$. 结果为 $16\left(\cos\frac{5\pi}{12}+\mathrm{i}\sin\frac{5\pi}{12}\right)$.
 
@@ -132,7 +107,7 @@ $$
 
 (4) 模: $3\times 2\times 5=30$; 辐角: $18^{\circ}+54^{\circ}+108^{\circ}=180^{\circ}$. 结果为 $30\left(\cos 180^{\circ}+\mathrm{i}\sin 180^{\circ}\right)=-30$. $\blacksquare$
 
-### 练习五
+## 练习五
 
 (练习 7.3 第 2 题) 计算:
 
@@ -146,7 +121,7 @@ $$
 
 ### 解答 练习五
 
-由**定义 7.3.6** (复数除法的三角表示), 模相除, 辐角相减.
+由**定义 7.3.6 (复数除法的三角表示)**, 模相除, 辐角相减.
 
 (1) 模: $12\div 6=2$; 辐角: $\frac{7\pi}{4}-\frac{2\pi}{3}=\frac{21\pi}{12}-\frac{8\pi}{12}=\frac{13\pi}{12}$. 结果为 $2\left(\cos\frac{13\pi}{12}+\mathrm{i}\sin\frac{13\pi}{12}\right)$.
 
@@ -156,7 +131,7 @@ $$
 
 (4) 把 $-\mathrm{i}$ 写成 $\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}$. 模: $1\div 2=\frac{1}{2}$; 辐角: $\frac{3\pi}{2}-\frac{2\pi}{3}=\frac{9\pi}{6}-\frac{4\pi}{6}=\frac{5\pi}{6}$. 结果为 $\frac{1}{2}\left(\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}\right)$. $\blacksquare$
 
-### 练习六
+## 练习六
 
 (练习 7.3 第 3 题) 在复平面内, 把与复数 $3-\sqrt{3}\mathrm{i}$ 对应的向量绕原点 $O$ 按顺时针方向旋转 $60^{\circ}$, 求与所得的向量对应的复数 (用代数形式表示).
 
@@ -166,11 +141,11 @@ $$
 
 先将 $3-\sqrt{3}\mathrm{i}$ 化为三角形式. $r=\sqrt{3^2+\left(-\sqrt{3}\right)^2}=\sqrt{12}=2\sqrt{3}$, $\cos\theta=\frac{3}{2\sqrt{3}}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{-\sqrt{3}}{2\sqrt{3}}=-\frac{1}{2}$, 点在第四象限, 故 $\arg=\frac{11\pi}{6}=330^{\circ}$.
 
-由**定义 7.3.5**, 乘以 $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$, 得 $2\sqrt{3}\left(\cos 330^{\circ}+\mathrm{i}\sin 330^{\circ}\right)\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\sqrt{3}\left[\cos 270^{\circ}+\mathrm{i}\sin 270^{\circ}\right]$.
+由**定义 7.3.5 (复数乘法的三角表示)**, 乘以 $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$, 得 $2\sqrt{3}\left(\cos 330^{\circ}+\mathrm{i}\sin 330^{\circ}\right)\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\sqrt{3}\left[\cos 270^{\circ}+\mathrm{i}\sin 270^{\circ}\right]$.
 
 化为代数形式: $2\sqrt{3}\left(0-\mathrm{i}\right)=-2\sqrt{3}\mathrm{i}$. $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 7.3 复习巩固第 1 题) 画出下列复数对应的向量, 并把这些复数表示成三角形式:
 
@@ -182,11 +157,11 @@ $$
 
 (4) $-\frac{\sqrt{3}}{2}+\frac{1}{2}\mathrm{i}$.
 
-图：复平面直角坐标系中，从原点 $O$ 画出四个向量：$6$（实轴正方向上长 $6$）、$1+\mathrm{i}$（第一象限，坐标 $\left(1,1\right)$，模 $\sqrt2$，辐角 $\frac{\pi}{4}$）、$1-\sqrt3\,\mathrm{i}$（第四象限，坐标 $\left(1,-\sqrt3\right)$，模 $2$，辐角 $\frac{5\pi}{3}$）、$-\frac{\sqrt3}{2}+\frac{1}{2}\mathrm{i}$（第二象限，坐标 $\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$，模 $1$，辐角 $\frac{5\pi}{6}$）。
+图:复平面直角坐标系中,从原点 $O$ 画出四个向量:$6$(实轴正方向上长 $6$),$1+\mathrm{i}$(第一象限,坐标 $\left(1,1\right)$,模 $\sqrt2$,辐角 $\frac{\pi}{4}$),$1-\sqrt3\,\mathrm{i}$(第四象限,坐标 $\left(1,-\sqrt3\right)$,模 $2$,辐角 $\frac{5\pi}{3}$),$-\frac{\sqrt3}{2}+\frac{1}{2}\mathrm{i}$(第二象限,坐标 $\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$,模 $1$,辐角 $\frac{5\pi}{6}$).
 
 ### 解答 习题一
 
-由**定义 7.3.1** (复数的三角表示式).
+由**定义 7.3.1 (复数的三角表示式)**.
 
 (1) $6=6+0\mathrm{i}$, $r=6$, $\arg=0$. 三角形式为 $6\left(\cos 0+\mathrm{i}\sin 0\right)$.
 
@@ -196,7 +171,7 @@ $$
 
 (4) $r=\sqrt{\frac{3}{4}+\frac{1}{4}}=1$, $\cos\theta=-\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{1}{2}$, 第二象限, $\arg=\frac{5\pi}{6}$. 三角形式为 $\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}$. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 7.3 复习巩固第 2 题) 把下列复数表示成代数形式:
 
@@ -210,7 +185,7 @@ $$
 
 ### 解答 习题二
 
-由**定义 7.3.1** (复数的三角表示式), $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
+由**定义 7.3.1 (复数的三角表示式)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
 
 (1) $3\sqrt{2}\left(\frac{\sqrt{2}}{2}+\mathrm{i}\cdot\frac{\sqrt{2}}{2}\right)=3+3\mathrm{i}$.
 
@@ -220,7 +195,7 @@ $$
 
 (4) $6\left(-\frac{1}{2}+\mathrm{i}\cdot\left(-\frac{\sqrt{3}}{2}\right)\right)=-3-3\sqrt{3}\mathrm{i}$. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 7.3 复习巩固第 3 题) 计算:
 
@@ -234,7 +209,7 @@ $$
 
 ### 解答 习题三
 
-由**定义 7.3.5** (乘法的三角表示) 与**定义 7.3.6** (除法的三角表示).
+由**定义 7.3.5 (复数乘法的三角表示)** 与**定义 7.3.6 (复数除法的三角表示)**.
 
 (1) 模: $3\times 3=9$; 辐角: $\frac{\pi}{3}+\frac{\pi}{6}=\frac{\pi}{2}$. 结果为 $9\left(\cos\frac{\pi}{2}+\mathrm{i}\sin\frac{\pi}{2}\right)=9\mathrm{i}$.
 
@@ -244,7 +219,7 @@ $$
 
 (4) 模: $12\div 6=2$; 辐角: $\frac{3\pi}{2}-\frac{\pi}{6}=\frac{9\pi}{6}-\frac{\pi}{6}=\frac{8\pi}{6}=\frac{4\pi}{3}$. 结果为 $2\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$. $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 7.3 复习巩固第 4 题) 计算下列各式, 并作出几何解释:
 
@@ -256,11 +231,11 @@ $$
 
 (4) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\div\left[2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]$.
 
-图：复平面直角坐标系中，画出若干向量并演示乘、除运算的几何意义：两个复数相乘时，把向量绕原点旋转第二个复数的辐角，并把模变为原来的第二个复数模的倍数；两个复数相除时，把向量反向旋转第二个复数的辐角，并把模缩小为原来的第二个复数模分之一。
+图:复平面直角坐标系中,画出若干向量并演示乘,除运算的几何意义:两个复数相乘时,把向量绕原点旋转第二个复数的辐角,并把模变为原来的第二个复数模的倍数;两个复数相除时,把向量反向旋转第二个复数的辐角,并把模缩小为原来的第二个复数模分之一.
 
 ### 解答 习题四
 
-由**定义 7.3.5** 与**定义 7.3.6**.
+由**定义 7.3.5 (复数乘法的三角表示)** 与**定义 7.3.6 (复数除法的三角表示)**.
 
 (1) 模: $\sqrt{2}\times 2\sqrt{2}=4$; 辐角: $\frac{2\pi}{3}+\frac{\pi}{3}=\pi$. 结果为 $4\left(\cos\pi+\mathrm{i}\sin\pi\right)=-4$. 几何解释: 将模为 $\sqrt{2}$, 辐角为 $120^{\circ}$ 的向量旋转 $60^{\circ}$ 并伸长为原来的 $2\sqrt{2}$ 倍, 得到模为 $4$, 辐角为 $180^{\circ}$ 的向量.
 
@@ -270,7 +245,7 @@ $$
 
 (4) 先将 $-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$ 化为三角形式: $r=1$, $\arg=\frac{2\pi}{3}$. 模: $1\div 2=\frac{1}{2}$; 辐角: $\frac{2\pi}{3}-\frac{\pi}{3}=\frac{\pi}{3}$. 结果为 $\frac{1}{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)=\frac{1}{4}+\frac{\sqrt{3}}{4}\mathrm{i}$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 7.3 综合运用第 5 题) (1) 求证 $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\cos\theta-\mathrm{i}\sin\theta$;
 
@@ -280,11 +255,11 @@ $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{
 
 ### 解答 习题五
 
-由**定义 7.3.6** (复数除法的三角表示).
+由**定义 7.3.6 (复数除法的三角表示)**.
 
-(1) 由**定义 7.3.6**, $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\frac{\cos 0+\mathrm{i}\sin 0}{\cos\theta+\mathrm{i}\sin\theta}=\cos\left(0-\theta\right)+\mathrm{i}\sin\left(0-\theta\right)=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)=\cos\theta-\mathrm{i}\sin\theta$. 证毕.
+(1) 由**定义 7.3.6 (复数除法的三角表示)**, $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\frac{\cos 0+\mathrm{i}\sin 0}{\cos\theta+\mathrm{i}\sin\theta}=\cos\left(0-\theta\right)+\mathrm{i}\sin\left(0-\theta\right)=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)=\cos\theta-\mathrm{i}\sin\theta$. 证毕.
 
-(2) 由**定义 7.3.6**, $\frac{1}{z}$ 的模为 $\frac{1}{\lvert z\rvert}$, 辐角为 $-\arg z$.
+(2) 由**定义 7.3.6 (复数除法的三角表示)**, $\frac{1}{z}$ 的模为 $\frac{1}{\lvert z\rvert}$, 辐角为 $-\arg z$.
 
 (a) $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$: $\lvert z\rvert=4$, $\arg z=\frac{\pi}{12}$, 故 $\lvert\frac{1}{z}\rvert=\frac{1}{4}$, $\arg\frac{1}{z}=-\frac{\pi}{12}$.
 
@@ -292,7 +267,7 @@ $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{
 
 (c) $z=\frac{\sqrt{2}}{2}\left(1-\mathrm{i}\right)$: $\lvert z\rvert=\frac{\sqrt{2}}{2}\cdot\sqrt{2}=1$, $\arg z=\frac{7\pi}{4}$, 故 $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=-\frac{7\pi}{4}=\frac{\pi}{4}$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 7.3 综合运用第 6 题) 求证:
 
@@ -302,13 +277,13 @@ $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{
 
 ### 解答 习题六
 
-由**定义 7.3.5** (复数乘法的三角表示) 及 $\cos\left(-\alpha\right)+\mathrm{i}\sin\left(-\alpha\right)=\cos\alpha-\mathrm{i}\sin\alpha$.
+由**定义 7.3.5 (复数乘法的三角表示)** 及 $\cos\left(-\alpha\right)+\mathrm{i}\sin\left(-\alpha\right)=\cos\alpha-\mathrm{i}\sin\alpha$.
 
-(1) 由**定义 7.3.5**, 模: $1\times 1=1$; 辐角: $75^{\circ}+15^{\circ}=90^{\circ}$. 结果为 $\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}=\mathrm{i}$. 证毕.
+(1) 由**定义 7.3.5 (复数乘法的三角表示)**, 模: $1\times 1=1$; 辐角: $75^{\circ}+15^{\circ}=90^{\circ}$. 结果为 $\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}=\mathrm{i}$. 证毕.
 
-(2) 将 $\cos 3\theta-\mathrm{i}\sin 3\theta$ 写成 $\cos\left(-3\theta\right)+\mathrm{i}\sin\left(-3\theta\right)$, 将 $\cos 2\theta-\mathrm{i}\sin 2\theta$ 写成 $\cos\left(-2\theta\right)+\mathrm{i}\sin\left(-2\theta\right)$. 由**定义 7.3.5**, 模: $1\times 1=1$; 辐角: $-3\theta+\left(-2\theta\right)=-5\theta$. 结果为 $\cos\left(-5\theta\right)+\mathrm{i}\sin\left(-5\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$. 证毕. $\blacksquare$
+(2) 将 $\cos 3\theta-\mathrm{i}\sin 3\theta$ 写成 $\cos\left(-3\theta\right)+\mathrm{i}\sin\left(-3\theta\right)$, 将 $\cos 2\theta-\mathrm{i}\sin 2\theta$ 写成 $\cos\left(-2\theta\right)+\mathrm{i}\sin\left(-2\theta\right)$. 由**定义 7.3.5 (复数乘法的三角表示)**, 模: $1\times 1=1$; 辐角: $-3\theta+\left(-2\theta\right)=-5\theta$. 结果为 $\cos\left(-5\theta\right)+\mathrm{i}\sin\left(-5\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$. 证毕. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 7.3 综合运用第 7 题) 化简:
 
@@ -318,13 +293,13 @@ $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{
 
 ### 解答 习题七
 
-由**定义 7.3.5** (乘法) 与**定义 7.3.6** (除法) 的三角表示.
+由**定义 7.3.5 (复数乘法的三角表示)** 与**定义 7.3.6 (复数除法的三角表示)** 的三角表示.
 
 (1) 分子: 模为 $1$, 辐角为 $7\theta+2\theta=9\theta$. 分母: 模为 $1$, 辐角为 $5\theta+3\theta=8\theta$. 相除后, 模为 $1$, 辐角为 $9\theta-8\theta=\theta$. 结果为 $\cos\theta+\mathrm{i}\sin\theta$.
 
 (2) 分子 $\cos\varphi-\mathrm{i}\sin\varphi=\cos\left(-\varphi\right)+\mathrm{i}\sin\left(-\varphi\right)$. 相除后, 模为 $1$, 辐角为 $-\varphi-\varphi=-2\varphi$. 结果为 $\cos\left(-2\varphi\right)+\mathrm{i}\sin\left(-2\varphi\right)=\cos 2\varphi-\mathrm{i}\sin 2\varphi$. $\blacksquare$
 
-### 习题八
+## 习题八
 
 (习题 7.3 综合运用第 8 题) 设 $z=\sqrt{3}-\mathrm{i}$ 对应的向量为 $\boldsymbol{OZ}$, 将 $\boldsymbol{OZ}$ 绕点 $O$ 按逆时针方向和顺时针方向分别旋转 $45^{\circ}$ 和 $60^{\circ}$, 求所得向量对应的复数 (用代数形式表示).
 
@@ -336,17 +311,17 @@ $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{
 
 (1) 逆时针旋转 $45^{\circ}$:
 
-由**定义 7.3.5**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}\right)=2\left[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right]$.
+由**定义 7.3.5 (复数乘法的三角表示)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}\right)=2\left[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right]$.
 
 化为代数形式: $2\left(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right)=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
 
 (2) 顺时针旋转 $60^{\circ}$:
 
-由**定义 7.3.5**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\left[\cos\left(-90^{\circ}\right)+\mathrm{i}\sin\left(-90^{\circ}\right)\right]=2\left(-\mathrm{i}\right)=-2\mathrm{i}$.
+由**定义 7.3.5 (复数乘法的三角表示)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\left[\cos\left(-90^{\circ}\right)+\mathrm{i}\sin\left(-90^{\circ}\right)\right]=2\left(-\mathrm{i}\right)=-2\mathrm{i}$.
 
 $\blacksquare$
 
-### 习题九
+## 习题九
 
 (习题 7.3 拓广探索第 9 题) 如下页图, 复平面内的 $\triangle ABC$ 是等边三角形, 它的两个顶点 $A$, $B$ 的坐标分别为 $\left(1,0\right)$, $\left(2,1\right)$, 求点 $C$ 的坐标.
 
@@ -378,17 +353,17 @@ $$
 
 此时点 $C$ 对应的复数为 $1+\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}=\frac{3+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}$, 坐标为 $\left(\frac{3+\sqrt{3}}{2},\frac{1-\sqrt{3}}{2}\right)$. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (习题 7.3 拓广探索第 10 题) 如下页图, 已知平面内并列的三个全等的正方形, 利用复数证明 $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$.
 
 ### 解答 习题十
 
-由**定义 7.3.2** (辐角) 与**定义 7.3.5** (复数乘法的三角表示), 三个角分别对应三个复数的辐角.
+由**定义 7.3.2 (辐角)** 与**定义 7.3.5 (复数乘法的三角表示)**, 三个角分别对应三个复数的辐角.
 
 设三个正方形边长为 $1$. 由图, $\angle 1$ 对应复数 $1+\mathrm{i}$ 的辐角, $\angle 2$ 对应复数 $2+\mathrm{i}$ 的辐角, $\angle 3$ 对应复数 $3+\mathrm{i}$ 的辐角.
 
-由**定义 7.3.5**, 三个复数相乘后, 积的辐角等于各辐角之和. 计算
+由**定义 7.3.5 (复数乘法的三角表示)**, 三个复数相乘后, 积的辐角等于各辐角之和. 计算
 
 $$
 \left(1+\mathrm{i}\right)\left(2+\mathrm{i}\right)\left(3+\mathrm{i}\right)=\left(1+\mathrm{i}\right)\left(5+5\mathrm{i}\right)=5\left(1+\mathrm{i}\right)^2=5\cdot 2\mathrm{i}=10\mathrm{i}.
@@ -402,7 +377,7 @@ $$
 
 ### 解答 探究与发现一
 
-由**定理 7.3.8** (棣莫弗定理), $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)$.
+由**定理 7.3.8 (棣莫弗定理)**, $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)$.
 
 复数乘方的几何意义为: 将复数对应的向量绕原点 $O$ 每次旋转角 $\theta$ 并将模伸长为原来的 $r$ 倍, 重复 $n$ 次, 最终得到模为 $r^n$, 辐角为 $n\theta$ 的向量. 即连续旋转 $n$ 次角 $\theta$, 连续伸缩 $n$ 次为原来的 $r$ 倍. $\blacksquare$
 
@@ -412,7 +387,7 @@ $$
 
 ### 解答 探究与发现二
 
-由**定理 7.3.8** (棣莫弗定理), $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
+由**定理 7.3.8 (棣莫弗定理)**, $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
 
 (1) 由棣莫弗定理, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos 2k\pi+\mathrm{i}\sin 2k\pi=1$. 模 $\lvert\omega_k\rvert=1$.
 
@@ -426,13 +401,13 @@ $$
 
 ### 解答 探究与发现三
 
-设 $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ 是 $1$ 的 $n$ 次方根, 则 $z^n=1=\cos 0+\mathrm{i}\sin 0$. 由**定理 7.3.8** (棣莫弗定理),
+设 $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ 是 $1$ 的 $n$ 次方根, 则 $z^n=1=\cos 0+\mathrm{i}\sin 0$. 由**定理 7.3.8 (棣莫弗定理)**,
 
 $$
 z^n=\rho^n\left(\cos n\varphi+\mathrm{i}\sin n\varphi\right)=\cos 0+\mathrm{i}\sin 0.
 $$
 
-由**定义 7.3.4** (非零复数相等的三角形式条件), $\rho^n=1$ 且 $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. 因 $\rho> 0$, 故 $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
+由**定义 7.3.4 (非零复数相等的三角形式条件)**, $\rho^n=1$ 且 $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. 因 $\rho> 0$, 故 $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
 
 由三角函数的周期性, $k=0,1,\cdots,n-1$ 给出 $n$ 个不同的根: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\ \left(k=0,1,\cdots,n-1\right)$.
 

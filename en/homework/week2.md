@@ -1,26 +1,20 @@
-# Assignment 2
+# week2
+> **Basic Knowledge: Common Number Sets**<br>全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
+> **Definition 1.1.5 (Membership)**<br>如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> **Definition 1.2.1 (Subset)**<br>一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+> **Definition 1.2.2 (Equality of Sets)**<br>如果集合 $A$ 是集合 $B$ 的子集, 且集合 $B$ 是集合 $A$ 的子集, 此时集合 $A$ 与集合 $B$ 中的元素是一样的, 就称集合 $A$ 与集合 $B$ 相等, 记作 $A=B$.
+> **Definition 1.2.3 (Proper Subset)**<br>如果集合 $A\subseteq B$, 但存在元素 $x\in B$ 且 $x\notin A$, 就称集合 $A$ 是集合 $B$ 的真子集.
+> **Definition 1.2.4 (Empty Set)**<br>不含任何元素的集合叫做空集, 记作 $\varnothing$. 规定空集是任何集合的子集.
 
-> **Definition 1.1.5** (Belonging and Not Belonging) <br>If $a$ is an element of the set $A$, we say $a$ belongs to the set $A$, denoted $a\in A$; if $a$ is not an element of the set $A$, we say $a$ does not belong to the set $A$, denoted $a\notin A$.
+---
 
-> **Common Number Sets** <br>The set of all non-negative integers is called the non-negative integer set, or the natural number set, denoted $\mathbb N$; the set of all positive integers is called the positive integer set, denoted $\mathbb N^*$ or $\mathbb N_+$; the set of all integers is called the integer set, denoted $\mathbb Z$; the set of all rational numbers is called the rational number set, denoted $\mathbb Q$; the set of all real numbers is called the real number set, denoted $\mathbb R$.
-
-> **Definition 1.2.1** (Subset) <br>Generally, for two sets $A,B$, if every element in the set $A$ is an element of the set $B$, we call the set $A$ a subset of the set $B$, denoted $A\subseteq B$ (or $B\supseteq A$), read as "$A$ is contained in $B$" (or "$B$ contains $A$").
-
-> **Definition 1.2.2** (Equality of Sets) <br>Generally, if every element of the set $A$ is an element of the set $B$, and at the same time every element of the set $B$ is an element of the set $A$, then the set $A$ and the set $B$ are equal, denoted $A=B$. That is, if $A\subseteq B$ and $B\subseteq A$, then $A=B$.
-
-> **Definition 1.2.3** (Proper Subset) <br>If the set $A\subseteq B$, but there exists an element $x\in B$ such that $x\notin A$, we call the set $A$ a proper subset of the set $B$, denoted $A\subsetneq B$ (or $B\supsetneq A$), read as "$A$ is properly contained in $B$" (or "$B$ properly contains $A$").
-
-> **Definition 1.2.4** (Empty Set) <br>Generally, we call a set containing no elements the empty set, denoted $\varnothing$, and stipulate: the empty set is a subset of any set.
-
-> **Common Conclusion 1.2.5** (Basic Properties of Subsets) <br>(1) Any set is a subset of itself, i.e. $A\subseteq A$; (2) for the sets $A,B,C$, if $A\subseteq B$ and $B\subseteq C$, then $A\subseteq C$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 1.2, Problem 1) List all subsets of the set $\left\{a,b,c\right\}$.
 
 ### Solution to Exercise 1
 
-By **Definition 1.2.1** (Subset), a subset of the set $A$ is a set formed by some or all elements of $A$; by **Definition 1.2.4** (Empty Set), the empty set is a subset of any set.
+By **Definition 1.2.1 (Subset)**, a subset of the set $A$ is a set formed by some or all elements of $A$; by **Definition 1.2.4 (Empty Set)**, the empty set is a subset of any set.
 
 For the set $\left\{a,b,c\right\}$, list them by the number of elements contained.
 
@@ -34,7 +28,7 @@ For the set $\left\{a,b,c\right\}$, list them by the number of elements containe
 
 Therefore, all subsets of the set $\left\{a,b,c\right\}$ are $\varnothing$, $\left\{a\right\}$, $\left\{b\right\}$, $\left\{c\right\}$, $\left\{a,b\right\}$, $\left\{a,c\right\}$, $\left\{b,c\right\}$, $\left\{a,b,c\right\}$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 1.2, Problem 2) Fill in the blanks with appropriate symbols.
 
@@ -52,21 +46,21 @@ Therefore, all subsets of the set $\left\{a,b,c\right\}$ are $\varnothing$, $\le
 
 ### Solution to Exercise 2
 
-By **Definition 1.1.5** (Belonging and Not Belonging), **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Definition 1.2.3** (Proper Subset), and the **Common Number Sets**.
+By **Definition 1.1.5 (Belonging and Not Belonging)**, **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Definition 1.2.3 (Proper Subset)**, and the **Basic Knowledge: Common Number Sets**.
 
 (1) $a$ is an element of the set $\left\{a,b,c\right\}$, so $a\in\left\{a,b,c\right\}$.
 
 (2) The roots of the equation $x^2=0$ are $x=0$, so $\left\{x\mid x^2=0\right\}=\left\{0\right\}$; $0$ is an element of this set, so $0\in\left\{x\mid x^2=0\right\}$.
 
-(3) The equation $x^2+1=0$ has no real roots, so $\left\{x\in\mathbb R\mid x^2+1=0\right\}=\varnothing$. By **Definition 1.2.4** (Empty Set), the empty set is a subset of any set, so $\varnothing\subseteq\left\{x\in\mathbb R\mid x^2+1=0\right\}$.
+(3) The equation $x^2+1=0$ has no real roots, so $\left\{x\in\mathbb R\mid x^2+1=0\right\}=\varnothing$. By **Definition 1.2.4 (Empty Set)**, the empty set is a subset of any set, so $\varnothing\subseteq\left\{x\in\mathbb R\mid x^2+1=0\right\}$.
 
-(4) By the **Common Number Sets**, $\mathbb N$ is the non-negative integer set; both $0,1$ are non-negative integers, and $\mathbb N$ also contains other elements (such as $2$), so $\left\{0,1\right\}\subsetneq\mathbb N$.
+(4) By the **Basic Knowledge: Common Number Sets**, $\mathbb N$ is the non-negative integer set; both $0,1$ are non-negative integers, and $\mathbb N$ also contains other elements (such as $2$), so $\left\{0,1\right\}\subsetneq\mathbb N$.
 
 (5) The equation $x^2=x$ is equivalent to $x\left(x-1\right)=0$, whose roots are $0,1$, so $\left\{x\mid x^2=x\right\}=\left\{0,1\right\}$. Every element of $\left\{0\right\}$ is an element of $\left\{0,1\right\}$, but $1\in\left\{0,1\right\}$ and $1\notin\left\{0\right\}$, so $\left\{0\right\}\subsetneq\left\{x\mid x^2=x\right\}$.
 
 (6) The equation $x^2-3x+2=0$ is equivalent to $\left(x-1\right)\left(x-2\right)=0$, whose roots are $1,2$, so $\left\{x\mid x^2-3x+2=0\right\}=\left\{1,2\right\}=\left\{2,1\right\}$; the two sets have exactly the same elements, so $\left\{2,1\right\}=\left\{x\mid x^2-3x+2=0\right\}$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 1.2, Problem 3) Determine the relationship between the following two sets.
 
@@ -78,7 +72,7 @@ By **Definition 1.1.5** (Belonging and Not Belonging), **Definition 1.2.1** (Sub
 
 ### Solution to Exercise 3
 
-By **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Definition 1.2.3** (Proper Subset), and the **Common Number Sets**.
+By **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Definition 1.2.3 (Proper Subset)**, and the **Basic Knowledge: Common Number Sets**.
 
 (1) Take any $x\in A$, then $x< 0$. Since $x< 0$ necessarily implies $x< 1$, we have $x\in B$, and thus $A\subseteq B$. Also $0.5\in B$ but $0.5\notin A$, so $A\subsetneq B$.
 
@@ -86,7 +80,7 @@ By **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Def
 
 (3) The least common multiple of $4$ and $10$ is $20$, so the positive common multiples of $4$ and $10$ are precisely the positive integer multiples of $20$, i.e. $A=\left\{x\in\mathbb N_+\mid x=20m,\ m\in\mathbb N_+\right\}=B$, so $A=B$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Problem 1.2, Review and Consolidation, Problem 1) Fill in the blanks with appropriate symbols.
 
@@ -98,7 +92,7 @@ By **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Def
 
 ### Solution to Problem 1
 
-By **Definition 1.1.5** (Belonging and Not Belonging), **Definition 1.2.1** (Subset), **Definition 1.2.2** (Equality of Sets), **Definition 1.2.3** (Proper Subset), and **Definition 1.2.4** (Empty Set).
+By **Definition 1.1.5 (Belonging and Not Belonging)**, **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Definition 1.2.3 (Proper Subset)**, and **Definition 1.2.4 (Empty Set)**.
 
 (1) From $2x-3< 3x$, transposing gives $x> -3$, so $A=\left\{x\mid x> -3\right\}$.
 
@@ -116,7 +110,7 @@ $1$ is an element of $A$, so $1\in A$;
 
 $-1$ is an element of $A$, so $\left\{-1\right\}\subsetneq A$;
 
-By **Definition 1.2.4** (Empty Set), $\varnothing\subseteq A$;
+By **Definition 1.2.4 (Empty Set)**, $\varnothing\subseteq A$;
 
 $\left\{1,-1\right\}$ has exactly the same elements as $A$, so $\left\{1,-1\right\}=A$.
 
@@ -124,7 +118,7 @@ $\left\{1,-1\right\}$ has exactly the same elements as $A$, so $\left\{1,-1\righ
 
 An equilateral triangle is a special isosceles triangle, so every equilateral triangle is an isosceles triangle, but not conversely; that is, the set of equilateral triangles is a proper subset of the set of isosceles triangles, so $\left\{x\mid x\text{ 是等腰三角形}\right\}\supsetneq\left\{x\mid x\text{ 是等边三角形}\right\}$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Problem 1.2, Review and Consolidation, Problem 2) Indicate the relationship between the following sets, and represent it with a Venn diagram.
 
@@ -134,7 +128,7 @@ $A=\left\{x\mid x\text{ 是四边形}\right\}$, $B=\left\{x\mid x\text{ 是平�
 
 ### Solution to Problem 2
 
-By **Definition 1.2.1** (Subset) and **Definition 1.2.3** (Proper Subset), judge according to the inclusion relationships among the various figures.
+By **Definition 1.2.1 (Subset)** and **Definition 1.2.3 (Proper Subset)**, judge according to the inclusion relationships among the various figures.
 
 A parallelogram is a special quadrilateral, a rectangle is a special parallelogram, a square is a special rectangle, but not conversely; therefore the elements of each set are elements of the preceding set, and strictly smaller:
 
@@ -144,7 +138,7 @@ $$
 
 That is, the set of squares is properly contained in the set of rectangles, the set of rectangles is properly contained in the set of parallelograms, and the set of parallelograms is properly contained in the set of quadrilaterals. The Venn diagram can be drawn as four concentric closed curves, from outside to inside being $A,B,C,D$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Problem 1.2, Comprehensive Application, Problem 3) Give a subset of each of the following sets.
 
@@ -158,7 +152,7 @@ That is, the set of squares is properly contained in the set of rectangles, the 
 
 ### Solution to Problem 3
 
-By **Definition 1.2.1** (Subset), a set formed by taking some elements from a set is a subset of it; by **Definition 1.2.4** (Empty Set), the empty set is also a subset of any set.
+By **Definition 1.2.1 (Subset)**, a set formed by taking some elements from a set is a subset of it; by **Definition 1.2.4 (Empty Set)**, the empty set is also a subset of any set.
 
 (1) The Grade 10 students of Lide Middle School are a part of the students of Lide Middle School, so one may take $\left\{x\mid x\text{ 是立德中学的高一学生}\right\}\subseteq A$.
 
@@ -166,9 +160,9 @@ By **Definition 1.2.1** (Subset), a set formed by taking some elements from a se
 
 (3) The subsets of the set $C=\left\{0\right\}$ are $\varnothing$ and $\left\{0\right\}$, so one may take $\varnothing\subseteq C$.
 
-(4) By the **Common Number Sets**, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$; taking the integers among them that are greater than $3$ and less than $10$, we get $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
+(4) By the **Basic Knowledge: Common Number Sets**, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$; taking the integers among them that are greater than $3$ and less than $10$, we get $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Problem 1.2, Comprehensive Application, Problem 4) In a plane rectangular coordinate system, the set $C=\left\{\left(x,y\right)\mid y=x\right\}$ represents the line $y=x$. From this perspective, what does the set
 
@@ -180,7 +174,7 @@ represent? What is the relationship between the sets $C,D$?
 
 ### Solution to Problem 4
 
-By **Definition 1.2.1** (Subset) and **Definition 1.2.3** (Proper Subset), first find the point represented by $D$, then determine whether this point lies on the line $y=x$.
+By **Definition 1.2.1 (Subset)** and **Definition 1.2.3 (Proper Subset)**, first find the point represented by $D$, then determine whether this point lies on the line $y=x$.
 
 The set $D$ is the set of points corresponding to the solutions of the system of equations
 
@@ -192,7 +186,7 @@ From the first equation, $y=2x-1$; substituting into the second equation gives $
 
 Also, the coordinates of the point $\left(1,1\right)$ satisfy $y=x$, so $\left(1,1\right)\in C$, and thus $D\subseteq C$. Also, $C$ is the set of all points on the line $y=x$, containing infinitely many points, while $D$ contains only one point, so $D\subsetneq C$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Problem 1.2, Extension and Exploration, Problem 5)
 
@@ -202,7 +196,7 @@ Also, the coordinates of the point $\left(1,1\right)$ satisfy $y=x$, so $\left(1
 
 ### Solution to Problem 5
 
-By **Definition 1.2.2** (Equality of Sets) and **Definition 1.2.1** (Subset).
+By **Definition 1.2.2 (Equality of Sets)** and **Definition 1.2.1 (Subset)**.
 
 (1) From $P=Q$, the two sets contain exactly the same elements. Since $1\in P$, we have $1\in Q=\left\{-1,-b\right\}$. Since $-1\neq1$, it must be that $-b=1$, i.e. $b=-1$, and thus $Q=\left\{-1,1\right\}$. Then from $P=\left\{1,a\right\}=\left\{-1,1\right\}$, we get $a=-1$. Therefore $a-b=-1-\left(-1\right)=0$.
 

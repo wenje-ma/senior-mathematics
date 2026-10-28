@@ -1,22 +1,10 @@
-# Assignment 33
+# week33
+> **Definition 6.1.7 (Equal Vectors)**<br>长度相等且方向相同的向量叫做相等向量.
+> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**<br>如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
 
-> **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors) <br>If $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors in the same plane, then for any vector $\boldsymbol{a}$ in this plane there exists a unique pair of real numbers $\lambda_1$, $\lambda_2$ such that $\boldsymbol{a}=\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. Here, the non-collinear vectors $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are called a basis for all vectors in this plane.
+---
 
-> **Definition 6.3.2** (Orthogonal Decomposition) <br>Decomposing a vector into two mutually perpendicular vectors is called orthogonal decomposition of the vector.
-
-> **Definition 6.3.3** (Coordinates of a Vector) <br>In the rectangular coordinate plane, take the two unit vectors $\boldsymbol{i}$ and $\boldsymbol{j}$ in the directions of the $x$-axis and $y$-axis as a basis. Draw any vector $\boldsymbol{a}$; by the fundamental theorem of plane vectors, there exists a unique pair of real numbers $x$, $y$ such that $\boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}$. We call $\left(x,y\right)$ the coordinates of the vector $\boldsymbol{a}$, denoted $\boldsymbol{a}=\left(x,y\right)$.
-
-> **Common Conclusion 6.3.4** (Addition, Subtraction, and Scalar Multiplication in Coordinates) <br>If $\boldsymbol{a}=\left(x_1,y_1\right)$ and $\boldsymbol{b}=\left(x_2,y_2\right)$, then $\boldsymbol{a}+\boldsymbol{b}=\left(x_1+x_2,y_1+y_2\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(x_1-x_2,y_1-y_2\right)$, and $\lambda\boldsymbol{a}=\left(\lambda x_1,\lambda y_1\right)$. The coordinates of a vector equal the coordinates of the terminal point of the directed segment representing it minus the coordinates of the initial point.
-
-> **Common Conclusion 6.3.5** (Coordinate Condition for Collinearity) <br>If $\boldsymbol{a}=\left(x_1,y_1\right)$ and $\boldsymbol{b}=\left(x_2,y_2\right)$, where $\boldsymbol{b}\neq\boldsymbol{0}$, then $\boldsymbol{a}\parallel\boldsymbol{b}\Longleftrightarrow x_1y_2-x_2y_1=0$.
-
-> **Common Conclusion 6.3.6** (Midpoint Coordinate Formula) <br>Given $P_1\left(x_1,y_1\right)$ and $P_2\left(x_2,y_2\right)$, the coordinates of the midpoint $P$ of the segment $P_1P_2$ are $\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right)$.
-
-> **Common Conclusion 6.3.7** (Dot Product in Coordinates) <br>If $\boldsymbol{a}=\left(x_1,y_1\right)$ and $\boldsymbol{b}=\left(x_2,y_2\right)$, then $\boldsymbol{a}\cdot\boldsymbol{b}=x_1x_2+y_1y_2$.
-
-> **Common Conclusion 6.3.8** (Magnitude, Perpendicularity, and Angle in Coordinates) <br>$\lvert\boldsymbol{a}\rvert=\sqrt{x_1^2+y_1^2}$; $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow x_1x_2+y_1y_2=0$; $\cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 6.3, Problem 1) As shown in the figure, $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors. Express the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$ in the figure in terms of the basis $\left\{\boldsymbol{e}_1,\boldsymbol{e}_2\right\}$.
 
@@ -24,9 +12,9 @@ The figure: using the two non-collinear vectors $\boldsymbol{e}_1$ and $\boldsym
 
 ### Solution to Exercise 1
 
-By **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors), any vector has a unique decomposition $\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. Write out the decomposition of each vector from its components in the $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ directions. $\blacksquare$
+By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, any vector has a unique decomposition $\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. Write out the decomposition of each vector from its components in the $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ directions. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 6.3, Problem 2) When $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors, construct the vector $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
 
@@ -34,9 +22,9 @@ The figure: first draw the basis vectors $\boldsymbol{e}_1$ and $\boldsymbol{e}_
 
 ### Solution to Exercise 2
 
-By **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors), first construct $2\boldsymbol{e}_1$, then $-\boldsymbol{e}_2$, and add them by the triangle rule to obtain $2\boldsymbol{e}_1-\boldsymbol{e}_2$. $\blacksquare$
+By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, first construct $2\boldsymbol{e}_1$, then $-\boldsymbol{e}_2$, and add them by the triangle rule to obtain $2\boldsymbol{e}_1-\boldsymbol{e}_2$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 6.3, Problem 3) Given that the coordinates of the points $A$, $B$, $C$ are $\left(2,-1\right)$, $\left(3,2\right)$, $\left(-3,4\right)$, respectively, find the coordinates of $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$.
 
@@ -52,7 +40,7 @@ $\boldsymbol{CA}=\left(2-\left(-3\right),-1-4\right)=\left(5,-5\right)$.
 
 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}=\left(1-6+5,3+2-5\right)=\left(0,0\right)$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 6.3, Problem 4) Given $\boldsymbol{a}=\left(3,2\right)$ and $\boldsymbol{b}=\left(0,-1\right)$, find the coordinates of $-2\boldsymbol{a}+4\boldsymbol{b}$ and $4\boldsymbol{a}+3\boldsymbol{b}$.
 
@@ -64,7 +52,7 @@ $-2\boldsymbol{a}+4\boldsymbol{b}=-2\left(3,2\right)+4\left(0,-1\right)=\left(-6
 
 $4\boldsymbol{a}+3\boldsymbol{b}=4\left(3,2\right)+3\left(0,-1\right)=\left(12,8\right)+\left(0,-3\right)=\left(12,5\right)$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 6.3, Problem 5) Given $A\left(-2,-3\right)$, $B\left(2,1\right)$, $C\left(1,4\right)$, $D\left(-7,-4\right)$, determine whether $\boldsymbol{AB}$ and $\boldsymbol{CD}$ are collinear.
 
@@ -78,7 +66,7 @@ $\boldsymbol{CD}=\left(-7-1,-4-4\right)=\left(-8,-8\right)$.
 
 $4\times\left(-8\right)-\left(-8\right)\times4=-32+32=0$, so $\boldsymbol{AB}\parallel\boldsymbol{CD}$, and the two vectors are collinear. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 6.3, Problem 6) Find the coordinates of the midpoint $M$ of the segment $AB$.
 
@@ -94,7 +82,7 @@ By **Common Conclusion 6.3.6** (Midpoint Coordinate Formula).
 
 (2) $M=\left(\frac{-1+\left(-2\right)}{2},\frac{3+\left(-5\right)}{2}\right)=\left(-\frac{3}{2},-1\right)$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 6.3, Problem 7) Given $\boldsymbol{a}=\left(2,3\right)$, $\boldsymbol{b}=\left(-2,4\right)$, $\boldsymbol{c}=\left(1,-2\right)$, find $\boldsymbol{a}\cdot\boldsymbol{b}$, $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)$, $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)$, and $\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
@@ -112,7 +100,7 @@ $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)=2\times0+3\times7
 
 $\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)=4\times0+\left(-1\right)\times7=-7$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 6.3, Problem 8) Given $\boldsymbol{a}=\left(3,4\right)$ and $\boldsymbol{b}=\left(2,-1\right)$, find the value of $x$ for which $\boldsymbol{a}+x\boldsymbol{b}$ is perpendicular to $\boldsymbol{a}-\boldsymbol{b}$.
 
@@ -128,7 +116,7 @@ The two vectors are perpendicular: $\left(3+2x\right)\times1+\left(4-x\right)\ti
 
 $3+2x+20-5x=0$, $23-3x=0$, $x=\frac{23}{3}$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 6.3, Problem 9) Given $\boldsymbol{a}=\left(2,3\right)$ and $\boldsymbol{b}=\left(-2,4\right)$, find the cosine of the angle $\theta$ between $\boldsymbol{a}$ and $\boldsymbol{b}$.
 
@@ -144,7 +132,7 @@ $\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt 5$.
 
 $\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 6.3, Review and Consolidation, Problem 1) As shown in the figure, in $\triangle ABC$, $AD=\frac{1}{3}AB$, $E$ is a point on $AC$ with $EC=\frac{1}{3}AC$, and $BE$ and $CD$ meet at $P$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express $\boldsymbol{AP}$ in terms of the basis $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$.
 
@@ -152,7 +140,7 @@ The figure: triangle $ABC$, with point $D$ on side $AB$ such that $AD=\frac{1}{3
 
 ### Solution to Problem 1
 
-By **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors).
+By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**.
 
 Let $\boldsymbol{AP}=x\boldsymbol{a}+y\boldsymbol{b}$. Since $P$ lies on $CD$, $\boldsymbol{AP}=\boldsymbol{AD}+\boldsymbol{DP}=\frac{1}{3}\boldsymbol{a}+\lambda\left(\boldsymbol{b}-\frac{1}{3}\boldsymbol{a}\right)=\left(\frac{1}{3}-\frac{\lambda}{3}\right)\boldsymbol{a}+\lambda\boldsymbol{b}$.
 
@@ -164,7 +152,7 @@ Solving gives $\mu=\frac{2}{9}$, $\lambda=\frac{4}{27}$.
 
 $\boldsymbol{AP}=\frac{7}{27}\boldsymbol{a}+\frac{4}{27}\boldsymbol{b}$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 6.3, Review and Consolidation, Problem 2) Given three forces $\boldsymbol{f}_1=\left(3,4\right)$, $\boldsymbol{f}_2=\left(2,-5\right)$, $\boldsymbol{f}_3=\left(x,y\right)$ whose resultant $\boldsymbol{f}_1+\boldsymbol{f}_2+\boldsymbol{f}_3=\boldsymbol{0}$, find $\boldsymbol{f}_3$.
 
@@ -174,7 +162,7 @@ By **Common Conclusion 6.3.4** (Coordinate Operations).
 
 $\boldsymbol{f}_3=-\boldsymbol{f}_1-\boldsymbol{f}_2=-\left(3,4\right)-\left(2,-5\right)=\left(-5,1\right)$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 6.3, Review and Consolidation, Problem 3) Given the points $A\left(-2,5\right)$, $B\left(3,-4\right)$, $C\left(-1,1\right)$, find the coordinates of $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{AC}$, and verify that $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
 
@@ -190,7 +178,7 @@ $\boldsymbol{AC}=\left(-1-\left(-2\right),1-5\right)=\left(1,-4\right)$.
 
 $\boldsymbol{AB}+\boldsymbol{BC}=\left(5-4,-9+5\right)=\left(1,-4\right)=\boldsymbol{AC}$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 6.3, Review and Consolidation, Problem 4) Given $\boldsymbol{a}=\left(1,2\right)$ and $\boldsymbol{b}=\left(-3,2\right)$, for what value of the real number $k$ are $k\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{a}-3\boldsymbol{b}$ parallel? When they are parallel, are they in the same or opposite directions?
 
@@ -208,7 +196,7 @@ $-4k+12-20k-20=0$, $-24k-8=0$, $k=-\frac{1}{3}$.
 
 In this case $k\boldsymbol{a}+\boldsymbol{b}=\left(-\frac{10}{3},\frac{4}{3}\right)=-\frac{1}{3}\left(10,-4\right)=-\frac{1}{3}\left(\boldsymbol{a}-3\boldsymbol{b}\right)$, so the two vectors are in opposite directions. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 6.3, Review and Consolidation, Problem 5) Find the unit vector in the same direction as $\boldsymbol{a}=\left(12,5\right)$.
 
@@ -218,7 +206,7 @@ By **Common Conclusion 6.3.8** (Coordinate Formula for Magnitude).
 
 $\lvert\boldsymbol{a}\rvert=\sqrt{144+25}=13$. The required unit vector is $\frac{\boldsymbol{a}}{\lvert\boldsymbol{a}\rvert}=\left(\frac{12}{13},\frac{5}{13}\right)$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 6.3, Review and Consolidation, Problem 6) Given $\boldsymbol{a}=\left(3,-1\right)$ and $\boldsymbol{b}=\left(1,-2\right)$, find $\boldsymbol{a}\cdot\boldsymbol{b}$, $\lvert\boldsymbol{a}\rvert$, $\lvert\boldsymbol{b}\rvert$, and $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle$.
 
@@ -234,7 +222,7 @@ $\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt 5$.
 
 $\cos\theta=\frac{5}{\sqrt{10}\sqrt 5}=\frac{5}{\sqrt{50}}=\frac{\sqrt 2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 6.3, Review and Consolidation, Problem 7) Given $\boldsymbol{a}=\left(-3,2\right)$ and $\boldsymbol{b}=\left(-1,0\right)$, find the real number $\lambda$ such that $\left(\lambda\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-2\boldsymbol{b}\right)$.
 
@@ -250,7 +238,7 @@ Perpendicular: $\left(-3\lambda-1\right)\times\left(-1\right)+2\lambda\times2=0$
 
 $3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 6.3, Review and Consolidation, Problem 8) Given the points $A\left(1,0\right)$, $B\left(0,1\right)$, $C\left(2,5\right)$, find:
 
@@ -270,7 +258,7 @@ By **Common Conclusion 6.3.7** and **Common Conclusion 6.3.8**.
 
 (3) $\lvert\boldsymbol{AB}\rvert=\sqrt 2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle BAC=\frac{4}{\sqrt 2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 6.3, Review and Consolidation, Problem 9) Given $\boldsymbol{a}=\left(4,2\right)$, find the unit vector perpendicular to $\boldsymbol{a}$.
 
@@ -284,7 +272,7 @@ $y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt 5}{5}$, $y=\mp\frac{2\sqrt 5}{5}$.
 
 The required vectors are $\left(\frac{\sqrt 5}{5},-\frac{2\sqrt 5}{5}\right)$ or $\left(-\frac{\sqrt 5}{5},\frac{2\sqrt 5}{5}\right)$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 6.3, Review and Consolidation, Problem 10) Given the points $A\left(1,-2\right)$, $B\left(3,4\right)$, $C\left(-1,2\right)$, find the coordinates of $\boldsymbol{AB}+\boldsymbol{AC}$ and $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert$.
 
@@ -298,7 +286,7 @@ $\boldsymbol{AB}+\boldsymbol{AC}=\left(0,10\right)$.
 
 $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 6.3, Comprehensive Application, Problem 11) As shown in the figure, in $\square ABCD$, $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AD}=\boldsymbol{b}$; $E$ and $F$ are the midpoints of $AB$ and $CD$, and $M$, $N$ are two points on the diagonal $AC$ with $AM=MN=NC$. Prove that $\boldsymbol{EM}=\boldsymbol{FN}$.
 
@@ -306,7 +294,7 @@ The figure: the parallelogram $ABCD$, with $E$ the midpoint of side $AB$ and $F$
 
 ### Solution to Problem 11
 
-By **Theorem 6.3.1** (Fundamental Theorem of Plane Vectors) and **Definition 6.1.7** (Equal Vectors).
+By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)** and **Definition 6.1.7 (Equal Vectors)**.
 
 $\boldsymbol{EM}=\boldsymbol{AM}-\boldsymbol{AE}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\boldsymbol{a}=-\frac{1}{6}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
 
@@ -318,7 +306,7 @@ $\boldsymbol{EM}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{
 
 Since $M$ and $N$ occupy different positions on $AC$, $\boldsymbol{EM}$ and $\boldsymbol{FN}$ are in opposite directions, which should be confirmed from the figure. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 6.3, Comprehensive Application, Problem 12) Given $O\left(0,0\right)$, $A\left(1,2\right)$, $B\left(4,5\right)$, and $\boldsymbol{OP}=\boldsymbol{OA}+t\boldsymbol{AB}$.
 
@@ -340,7 +328,7 @@ $P$ in the second quadrant: $1+3t< 0$ and $2+3t> 0$, i.e. $-\frac{2}{3}< t< -\fr
 
 (2) If $OABP$ were a parallelogram, then $\boldsymbol{OP}=\boldsymbol{AB}=\left(3,3\right)$, i.e. $1+3t=3$ and $2+3t=3$, a contradiction. It cannot be a parallelogram. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 6.3, Comprehensive Application, Problem 13) Given $A\left(2,3\right)$, $B\left(4,-3\right)$, and the point $P$ lies on the line $AB$ with $\lvert\boldsymbol{AP}\rvert=\frac{3}{2}\lvert\boldsymbol{PB}\rvert$, find the coordinates of $P$.
 
@@ -362,7 +350,7 @@ $2x-4=12-3x$, $x=\frac{16}{5}$. $2y-6=-9-3y$, $y=-\frac{3}{5}$.
 
 Hence $P\left(\frac{16}{5},-\frac{3}{5}\right)$ or $\left(8,-15\right)$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 6.3, Comprehensive Application, Problem 14) Given $A\left(1,0\right)$, $B\left(5,-2\right)$, $\boldsymbol{a}=\left(x+1,x-3y-2\right)$, and $\boldsymbol{a}=2\boldsymbol{AB}$, find $x$ and $y$.
 
@@ -376,7 +364,7 @@ $x+1=8$, $x=7$.
 
 $x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 6.3, Extension and Exploration, Problem 15) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, and that $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k> 0$).
 
@@ -404,7 +392,7 @@ $8k\boldsymbol{a}\cdot\boldsymbol{b}=2+2k^2$, $\boldsymbol{a}\cdot\boldsymbol{b}
 
 At this time $\cos\theta=\frac{1}{2}$, so $\theta=60^{\circ}$. $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Exercise 6.3, Extension and Exploration, Problem 16) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, where $0< \alpha< \beta< \pi$.
 

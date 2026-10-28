@@ -1,16 +1,11 @@
-# Assignment 23
+# week23
+> **Definition 5.6.1 (振幅)**<br>函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+> **Definition 5.6.2 (Period)**<br>对于函数 f(x), 如果存在一个非零常数 T, 使得当 x 取定义域内的每一个值时, 都有 f(x+T) = f(x), 则 f(x) 叫做周期函数, T 叫做这个函数的周期.
+> **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**<br>参见教材相应章节关于此概念的论述.
 
-> **Definition 5.6.1** (Amplitude) <br>In the function $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$), $A$ is called the amplitude, i.e. the maximum distance the object moves away from the equilibrium position.
+---
 
-> **Definition 5.6.2** (Period) <br>The period of the function $y=A\sin\left(\omega x+\varphi\right)$ is $T=\frac{2\pi}{\omega}$, i.e. the time required for one complete back-and-forth motion.
-
-> **Definition 5.6.3** (Frequency) <br>The frequency of the function $y=A\sin\left(\omega x+\varphi\right)$ is $f=\frac{1}{T}=\frac{\omega}{2\pi}$, i.e. the number of back-and-forth motions per unit time.
-
-> **Definition 5.6.4** (Phase and Initial Phase) <br>$\omega x+\varphi$ is called the phase; the phase $\varphi$ when $x=0$ is called the initial phase.
-
-> **Property 5.6.1** (Graph Transformations) <br>From the graph of $y=\sin x$ to the graph of $y=A\sin\left(\omega x+\varphi\right)$: (1) shift left (right) by $\lvert\varphi\rvert$ units to get $y=\sin\left(x+\varphi\right)$; (2) compress (stretch) the x-coordinates to $\frac{1}{\omega}$ times the original to get $y=\sin\left(\omega x+\varphi\right)$; (3) stretch (compress) the y-coordinates to $A$ times the original to get $y=A\sin\left(\omega x+\varphi\right)$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.6, Problem 1) Sketch simple graphs of the following functions on a closed interval of length one period:
 
@@ -36,7 +31,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (4) Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{8}$, compress the x-coordinates to $\frac{1}{2}$ of the original, and stretch the y-coordinates to $2$ times the original, to obtain the graph of $y=2\sin\left(2x-\frac{\pi}{4}\right)$. Period $\pi$, amplitude $2$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.6, Problem 2) Given that the graph of the function $y=3\sin\left(x+\frac{\pi}{5}\right)$ is $C$.
 
@@ -80,7 +75,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (3) From $3\to4$, stretch the y-coordinates to $\frac{4}{3}$ times the original. Choose (C). $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.6, Problem 3) What is the relationship between the graph of the function $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$ and the sine curve?
 
@@ -90,7 +85,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{4}$, stretch the x-coordinates to $2$ times the original, and compress the y-coordinates to $\frac{2}{3}$ of the original, to obtain the graph of $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.6, Problem 4) What is the relationship between the graph of the function $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$, and the sine curve?
 
@@ -100,7 +95,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 Shift the graph of $y=\sin x$ ($x\in\mathbb R$) to the left by $\frac{\pi}{12}$ units, then take the part with $x\geq0$, to obtain the graph of $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.6, Review and Consolidation, Problem 1) Multiple-choice questions.
 
@@ -144,7 +139,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (3) From $1\to\frac{1}{4}$, compress the y-coordinates to $\frac{1}{4}$ of the original. Choose (D). $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.6, Review and Consolidation, Problem 2) Sketch simple graphs of the following functions on a closed interval of length one period:
 
@@ -170,7 +165,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: from $y=\cos x$, shift to the right by $\frac{\pi}{2}$, stretch the x-coordinates to $2$ times the original and the y-coordinates to $2$ times the original. Period $4\pi$, amplitude $2$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.6, Review and Consolidation, Problem 3) Explain what transformations applied to the sine curve produce the graphs of the following functions (note the domain):
 
@@ -186,7 +181,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 (2) From $y=\sin x$, shift to the left by $\frac{\pi}{21}$, compress the x-coordinates to $\frac{1}{3}$ of the original and the y-coordinates to $\frac{1}{3}$ of the original, then take the part with $x\geq0$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$, $0< \varphi< \pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
 
@@ -194,11 +189,11 @@ The graph: the graph of $y=A\sin\left(\omega x+\varphi\right)$ over one period, 
 
 ### Solution to Problem 4
 
-By **Definition 5.6.1** through **Definition 5.6.4**.
+By **Definition 5.6.1 (振幅)** through **Definition 5.6.4 (Period of y=Asin(omega x+phi))**.
 
 From the graph, the amplitude is $A=2$. From the relative positions of the highest and lowest points, the period is $T=\pi$, hence $\omega=2$. From the graph passing through the point $\left(0,1\right)$ on a rising part, we get $2\sin\varphi=1$, $\varphi=\frac{\pi}{6}$. Hence $y=2\sin\left(2x+\frac{\pi}{6}\right)$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.6, Comprehensive Application, Problem 5) After shifting the graph of the function $y=3\sin\left(2x+\frac{\pi}{4}\right)$ to the left by $\frac{\pi}{3}$, the graph of the function $y=g\left(x\right)$ is obtained. Find the analytic expression of $y=g\left(x\right)$.
 
@@ -208,17 +203,17 @@ By **Property 5.6.1** (Graph Transformations).
 
 From the shift to the left by $\frac{\pi}{3}$, we get $g\left(x\right)=3\sin\left[2\left(x+\frac{\pi}{3}\right)+\frac{\pi}{4}\right]=3\sin\left(2x+\frac{2\pi}{3}+\frac{\pi}{4}\right)=3\sin\left(2x+\frac{11\pi}{12}\right)$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.6, Comprehensive Application, Problem 6) For the second hand of a certain clock, the distance from its endpoint $A$ to the center $O$ is $5\text{ cm}$, and the second hand rotates uniformly about point $O$. At time $t=0$, point $A$ coincides with the point $B$ marked $12$ on the clock face. Express the distance $d$ (unit: $\text{cm}$) between points $A$ and $B$ as a function of $t$ (unit: $\text{s}$). Then $d=$ $\;\_\_\;$ , $t\in\left[0,60\right]$.
 
 ### Solution to Problem 6
 
-By **Definition 5.6.2** (Period) and the Law of Cosines.
+By **Definition 5.6.2 (Period)** and the Law of Cosines.
 
 Since the second hand makes one revolution in $60\text{ s}$, the angular velocity is $\omega=\frac{2\pi}{60}=\frac{\pi}{30}$. At $t=0$, $A$ coincides with $B$; after $t$ seconds, $\angle AOB=\frac{\pi t}{30}$. By the Law of Cosines, $d^{2}=5^{2}+5^{2}-2\times5\times5\cos\frac{\pi t}{30}=50\left(1-\cos\frac{\pi t}{30}\right)=100\sin^{2}\frac{\pi t}{60}$. Hence $d=10\sin\frac{\pi t}{60}$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{ m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{ m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin\left(\omega t+\varphi\right)+K$ ($A> 0$, $\omega> 0$, $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$).
 
@@ -228,7 +223,7 @@ Since the second hand makes one revolution in $60\text{ s}$, the angular velocit
 
 ### Solution to Problem 7
 
-By **Definition 5.6.1** through **Definition 5.6.4**.
+By **Definition 5.6.1 (振幅)** through **Definition 5.6.4 (Period of y=Asin(omega x+phi))**.
 
 (1) From the waterwheel radius $3\text{ m}$, we get $A=3$. From the axle center being $2.2\text{ m}$ above the water, we get $K=2.2$. From $1.5$ revolutions per minute, the period is $T=\frac{60}{1.5}=40\text{ s}$, hence $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
 

@@ -1,14 +1,10 @@
-# Assignment 16
+# week16
+> **Definition 4.4.1 (对数函数)**<br>一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+> **Definition 4.4.2 (反函数)**<br>………………………… ４.４　对数函数 １３０ …………………………………………… 探究与发现　互为反函数的两个函数图象间的关系 １３５ … ４.５　函数的应用(二) １４２ ………………………………… 阅读与思考　中外历史上的方程求解 １４７ …………… 文献阅读与数学写作　对数概念的形成与发展 １５７ …… 小结 １５８ ……………………………………………………… 复习参考题４ １５９ …………………………………………… 数学建模　建立函数模型解决实际问题 １６２ ………… 第五章　三角函数 １６７ ………………………………………… ５.１　任意角和弧度制 １６８ …………………………………… ５.２　三角函数的概念 １７７ …………………………………… 阅读与思考　三角学与天文学 １８６ …………………… ５.３　诱导公式 １８８ …………………………………………… ５.４　三角函数的图象与性质 １９６ …………………………… 探究与发现　函数狔＝ｓｉｎ(ω＋φ)及 函数狔＝
 
-> **Definition 4.4.1** (Logarithmic Function) <br>In general, the function $y=\log_a x$ ($a> 0$, and $a\neq 1$) is called a logarithmic function, where $x$ is the independent variable and the domain is $\left(0,+\infty\right)$.
+---
 
-> **Definition 4.4.2** (Inverse Function) <br>The exponential function $y=a^x$ ($a> 0$, and $a\neq 1$) and the logarithmic function $y=\log_a x$ ($a> 0$, and $a\neq 1$) are inverse functions of each other, and their domains and ranges are exactly interchanged.
-
-> **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) <br>(1) The domain is $\left(0,+\infty\right)$; (2) the range is $\mathbb R$; (3) the graph passes through the fixed point $\left(1,0\right)$, i.e. when $x=1$, $y=0$; (4) when $a> 1$, $y=\log_a x$ is an increasing function; when $0< a< 1$, $y=\log_a x$ is a decreasing function. The graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis.
-
-> **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions) <br>The growth rate of the exponential function $y=a^x$ ($a> 1$) will eventually greatly exceed that of the linear function $y=kx$ ($k> 0$); the growth rate of the logarithmic function $y=\log_a x$ ($a> 1$) becomes slower and slower, and will eventually be slower than that of the linear function $y=kx$ ($k> 0$).
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 4.4, Problem 1) Find the domains of the following functions.
 
@@ -22,7 +18,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 4.4.1** (Logarithmic Function), the antilogarithm must be greater than $0$.
+By **Definition 4.4.1 (Logarithmic Function)**, the antilogarithm must be greater than $0$.
 
 (1) $1-x> 0$, i.e. $x< 1$, so the domain is $\left(-\infty,1\right)$.
 
@@ -32,7 +28,7 @@ By **Definition 4.4.1** (Logarithmic Function), the antilogarithm must be greate
 
 (4) $\left|x\right|> 0$, i.e. $x\neq 0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 4.4, Problem 2) Draw the graphs of the following functions.
 
@@ -50,7 +46,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (2) By the relationship between logarithms and exponents, $10^{\lg x}=x$ ($x> 0$), so $y=10^{\lg x}$ is exactly the ray $y=x$ ($x> 0$). $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 4.4, Problem 3) Given the set $A=\left\{1,2,3,4,\cdots\right\}$ and the set $B=\left\{2,4,6,8,10,\cdots\right\}$, which of the following expressions can establish a function relationship from set $A$ to set $B$? $\;\_\_\;$
 
@@ -62,7 +58,7 @@ By the definition of a function, for any element in $A$, the function value obta
 
 (1) $y=2^x$: when $x=1$, $y=2\in B$; when $x=2$, $y=4\in B$, but $6$ in $B$ cannot be expressed as $2^x$ ($x\in A$), and the function value corresponding to each element in $A$ is in $B$, but elements in $B$ do not necessarily have a preimage, so a surjective relationship from $A$ to $B$ cannot be established. In fact, for any $x$ in $A$, the function value of $y=2^x$ is in $B$, but the problem requires "establishing a function relationship from set $A$ to set $B$", i.e. the function value of each element in $A$ is in $B$. $2^x$ is an even number and is in $B$, but for $y=x^2$, when $x=1$, $y=1\notin B$; for $y=\log_2 x$, when $x=1$, $y=0\notin B$; for $y=2x$, for any $x\in A$, $2x$ is a positive even number and is in $B$. Therefore only (4) $y=2x$ satisfies. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 4.4, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=\log_3 x$ and $y=\log_{\frac{1}{3}} x$, and explain their relationship.
 
@@ -74,7 +70,7 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 By the change-of-base formula, $\log_{\frac{1}{3}} x=-\log_3 x$. If the point $\left(x,y\right)$ lies on the graph of $y=\log_3 x$, then the point $\left(x,-y\right)$ lies on the graph of $y=\log_{\frac{1}{3}} x$, and conversely. Therefore the two graphs are symmetric about the $x$-axis. $y=\log_3 x$ is an increasing curve passing through $\left(1,0\right)$; $y=\log_{\frac{1}{3}} x$ is a decreasing curve passing through $\left(1,0\right)$, and the two are mirror images of each other about the $x$-axis. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 4.4, Problem 5) Compare the sizes of the two values in each of the following.
 
@@ -94,7 +90,7 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 (3) When $m> 1$, $y=\log_m x$ is an increasing function, $5< 7$, so $\log_m 5< \log_m 7$; when $0< m< 1$, $y=\log_m x$ is a decreasing function, $5< 7$, so $\log_m 5> \log_m 7$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 4.4, Problem 6) The gross domestic product of a certain place last year was $3000$ hundred million yuan, and the average growth rate for the next $5$ years is expected to be $6.8\%$.
 
@@ -118,11 +114,11 @@ The graphs: in the same rectangular coordinate system, the exponential function 
 
 ### Solution to Inquiry and Discovery 1
 
-By **Definition 4.4.2** (Inverse Function), the exponential function and the logarithmic function are inverses of each other.
+By **Definition 4.4.2 (Inverse Function)**, the exponential function and the logarithmic function are inverses of each other.
 
 If the point $P_0\left(x_0,y_0\right)$ lies on the graph of $y=2^x$, then $y_0=2^{x_0}$, i.e. $x_0=\log_2 y_0$, so the point $\left(y_0,x_0\right)$ lies on the graph of $y=\log_2 x$. And the point $\left(x_0,y_0\right)$ and the point $\left(y_0,x_0\right)$ are symmetric about the line $y=x$. Therefore, the graphs of two functions that are inverses of each other are symmetric about the line $y=x$. This conclusion holds for any $y=a^x$ ($a> 0$, and $a\neq 1$) and its inverse function $y=\log_a x$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 4.4, Problem 7) The data for how three variables $y_1$, $y_2$, $y_3$ change with the variable $x$ are as follows: when $x=0,5,10,15,20,25,30$, $y_1=5,130,505,1130,2005,3130,4505$; $y_2=5,90,1620,29160,524880,9447840,170061120$; $y_3=5,30,55,80,105,130,155$. Among them, the variable that grows exponentially with respect to $x$ is $\;\_\_\;$.
 
@@ -132,7 +128,7 @@ By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions),
 
 $y_3$ increases by $25$ for every increase of $5$, showing linear growth; $y_1$ increases by about $125,375,625,875,1125,1375$ for every increase of $5$, with a uniform growth rate, approximately a quadratic function; $y_2$ grows by about $18$ times for every increase of $5$, with an increasingly fast growth rate, showing exponential growth. Therefore the variable that grows exponentially is $y_2$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 4.4, Problem 8) With the help of a calculating tool, estimate the range of values of $x$ for which $3^x> 5x$ (accurate to $0.01$).
 
@@ -142,17 +138,17 @@ By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions),
 
 The equation $3^x=5x$ has two intersection points. Estimate: near $x\approx 0.26$, $3^{0.26}\approx 1.32$, $5\times 0.26=1.30$, the two are close; near $x\approx 2.25$, $3^{2.25}\approx 11.84$, $5\times 2.25=11.25$, the two are close. Therefore the range of values for which $3^x> 5x$ is approximately $x< 0.26$ or $x> 2.25$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 4.4, Problem 9) The graph of the logarithmic function $y=\lg x$ and the graph of the linear function $y=f\left(x\right)$ have two common points $A$ and $B$, where $A$ lies on the $x$-axis and the abscissa of $B$ is $2$. Find the analytic expression of the linear function $y=f\left(x\right)$.
 
 ### Solution to Exercise 9
 
-By **Definition 4.4.1** (Logarithmic Function) and **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), $y=\lg x$ passes through the fixed point $\left(1,0\right)$.
+By **Definition 4.4.1 (Logarithmic Function)** and **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), $y=\lg x$ passes through the fixed point $\left(1,0\right)$.
 
 $A$ lies on the $x$-axis and on $y=\lg x$, so $A=\left(1,0\right)$. The abscissa of $B$ is $2$, so $B=\left(2,\lg 2\right)$. The linear function passes through $A\left(1,0\right)$ and $B\left(2,\lg 2\right)$, and the slope is $k=\frac{\lg 2-0}{2-1}=\lg 2$, so $f\left(x\right)=\left(\lg 2\right)\left(x-1\right)$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 4.4, Problem 10) The graph of the function $y=f\left(x\right)$ passes through $\left(1,0\right)$, is increasing on $\left(0,+\infty\right)$, and has $y=1$ as a horizontal asymptote; then $y=f\left(x\right)$ could be ( ).
 
@@ -164,7 +160,7 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 (A) $y=1-\frac{1}{x}$: when $x=1$, $y=0$, it is increasing, and when $x\to+\infty$, $y\to 1$, which matches the graph features. (B) when $x=1$, $y=\frac{3}{2}-\frac{1}{2}=1\neq 0$, which does not match. (C) $y=\ln x$, when $x\to+\infty$, $y\to+\infty$, it does not have $y=1$ as an asymptote, which does not match. (D) $y=x-1$ is a straight line, which does not match the graph. Therefore choose (A). $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 4.4, Review and Consolidation, Problem 1) Find the domains of the following functions.
 
@@ -174,13 +170,13 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 ### Solution to Problem 1
 
-By **Definition 4.4.1** (Logarithmic Function), the antilogarithm must be greater than $0$.
+By **Definition 4.4.1 (Logarithmic Function)**, the antilogarithm must be greater than $0$.
 
 (1) $\log_2 x$ requires $x> 0$, and the cube root has no restriction on the radicand, so the domain is $\left(0,+\infty\right)$.
 
 (2) We require $\log_{0.5}\left(4x-3\right)\ge 0$ and $4x-3> 0$. Since the base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function; $\log_{0.5}\left(4x-3\right)\ge 0=\log_{0.5} 1$ is equivalent to $0< 4x-3\le 1$, i.e. $\frac{3}{4}< x\le 1$. So the domain is $\left(\frac{3}{4},1\right]$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 4.4, Review and Consolidation, Problem 2) Compare the sizes of the two positive numbers $m$, $n$ satisfying the following conditions.
 
@@ -204,7 +200,7 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 (4) $a> 1$, increasing; from $\log_a m> \log_a n$ we get $m> n$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 4.4, Review and Consolidation, Problem 3) Assuming that air resistance is not considered, the functional relationship between the maximum speed of the rocket $v$ (unit: $\mathrm{m/s}$), the mass of the fuel $M$ (unit: $\mathrm{kg}$), and the mass of the rocket (excluding fuel) $m$ (unit: $\mathrm{kg}$) is $v=2000\ln\left(1+\frac{M}{m}\right)$. When the fuel mass is how many times the rocket mass, can the maximum speed of the rocket reach $12\;\mathrm{km/s}$?
 
@@ -214,7 +210,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. Let $2000\ln\left(1+\frac{M}{m}\right)=12000$, we get $\ln\left(1+\frac{M}{m}\right)=6$, so $1+\frac{M}{m}=\mathrm e^6$, $\frac{M}{m}=\mathrm e^6-1\approx 402$. That is, when the fuel mass is about $402$ times the rocket mass, the maximum speed of the rocket can reach $12\;\mathrm{km/s}$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 4.4, Review and Consolidation, Problem 4) The graphs of the functions $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ are as shown in the figure.
 
@@ -236,7 +232,7 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 (3) The graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 4.4, Review and Consolidation, Problem 5) Atlantic salmon swim upstream every year back to their spawning grounds to lay eggs. Scientists studying salmon have found that the swimming speed $v$ (unit: $\mathrm{m/s}$) of salmon can be expressed as $v=\frac{1}{2}\log_3\frac{O}{100}$, where $O$ represents the number of units of oxygen consumed by the fish.
 
@@ -252,7 +248,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 (2) When stationary, $v=0$, i.e. $\frac{1}{2}\log_3\frac{O}{100}=0$, we get $\log_3\frac{O}{100}=0$, so $\frac{O}{100}=1$, $O=100$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 4.4, Review and Consolidation, Problem 6) A certain drug is injected into a patient's blood within $2\;\mathrm{h}$. During the injection, the drug content in the blood increases linearly; after the injection stops, the drug content in the blood decays exponentially. The graph that can reflect how the drug content $Q$ in the blood changes with time $t$ is ( ).
 
@@ -264,7 +260,7 @@ By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions),
 
 The injection lasts $2\;\mathrm{h}$, and the content increases linearly to the peak at $2\;\mathrm{h}$; after it stops, it decays exponentially, approaching $0$ but not becoming negative. Therefore choose (B). $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 4.4, Comprehensive Application, Problem 7) Determine whether each of the following pairs of functions are inverses of each other. If so, find their domains and ranges.
 
@@ -274,13 +270,13 @@ The injection lasts $2\;\mathrm{h}$, and the content increases linearly to the p
 
 ### Solution to Problem 7
 
-By **Definition 4.4.2** (Inverse Function).
+By **Definition 4.4.2 (Inverse Function)**.
 
 (1) $y=\ln x$ and $y=\mathrm e^x$ are inverses of each other. The domain of $y=\ln x$ is $\left(0,+\infty\right)$, and its range is $\mathbb R$; the domain of $y=\mathrm e^x$ is $\mathbb R$, and its range is $\left(0,+\infty\right)$.
 
 (2) $y=-\log_a x=\log_{\frac{1}{a}} x$, and it is the inverse of $y=\left(\frac{1}{a}\right)^x$. The domain of $y=\log_{\frac{1}{a}} x$ is $\left(0,+\infty\right)$, and its range is $\mathbb R$; the domain of $y=\left(\frac{1}{a}\right)^x$ is $\mathbb R$, and its range is $\left(0,+\infty\right)$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 4.4, Comprehensive Application, Problem 8) Let $y=f\left(x\right)$ represent that when the Celsius temperature is $x$, the Fahrenheit temperature is $y$.
 
@@ -290,13 +286,13 @@ By **Definition 4.4.2** (Inverse Function).
 
 ### Solution to Problem 8
 
-By **Definition 4.4.2** (Inverse Function).
+By **Definition 4.4.2 (Inverse Function)**.
 
 (1) $y=f\left(x\right)$ represents "Celsius temperature $x$ corresponds to Fahrenheit temperature $y$", and its inverse function $y=g\left(x\right)$ represents "Fahrenheit temperature $x$ corresponds to Celsius temperature $y$".
 
 (2) From $f\left(30\right)=86$, i.e. $30$ degrees Celsius corresponds to $86$ degrees Fahrenheit, by the definition of inverse functions, $g\left(86\right)=30$, which means $86$ degrees Fahrenheit corresponds to $30$ degrees Celsius. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 4.4, Comprehensive Application, Problem 9) Due to the continuous improvement of people's health level in a certain place, the prevalence rate of a certain disease is decreasing at a rate of $15\%$ per year. To reduce the current prevalence rate by half, how many years are needed?
 
@@ -306,7 +302,7 @@ By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents)
 
 It decreases by $15\%$ per year, i.e. the prevalence rate each year is $0.85$ of the original. Let $x$ years be needed, then $0.85^x=0.5$. By the definition of logarithms, $x=\log_{0.85} 0.5=\frac{\lg 0.5}{\lg 0.85}\approx\frac{-0.3010}{-0.0706}\approx 4.3$. Therefore after about $5$ years the prevalence rate will be reduced by half. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 4.4, Comprehensive Application, Problem 10) The sound intensity level $L_I$ (unit: $\mathrm{dB}$) is given by the formula $L_I=10\lg\left(\frac{I}{10^{-12}}\right)$, where $I$ is the sound intensity (unit: $\mathrm{W/m^2}$).
 
@@ -322,7 +318,7 @@ By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
 (2) When $I=10^{-6}$, $L_I=10\lg\frac{10^{-6}}{10^{-12}}=10\lg 10^6=60\;\mathrm{dB}$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 4.4, Comprehensive Application, Problem 11) Suppose the housing price of an apartment rose from $20$ hundred thousand yuan in 2002 to $40$ hundred thousand yuan in 2012. The following table gives two price growth methods, where $P_1$ is the housing price rising linearly, $P_2$ is the housing price growing exponentially, and $t$ is the number of years elapsed since 2002. When $t=0$, $P_1=20$, $P_2=20$; when $t=10$, $P_1=40$, $P_2=40$.
 
@@ -342,7 +338,7 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model).
 
 (3) When $t=5$, $P_1=30$, $P_2=20\cdot 2^{0.5}\approx 28.3$; when $t=15$, $P_1=50$, $P_2=20\cdot 2^{1.5}\approx 56.6$; when $t=20$, $P_1=60$, $P_2=80$. Linear growth maintains a fixed speed, while exponential growth has an increasingly fast speed; in the long run, exponential growth will eventually exceed linear growth. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 4.4, Extension and Exploration, Problem 12) Given $\log_a\frac{1}{2}< 1$, $\left(\frac{1}{2}\right)^a< 1$, $a^{\frac{1}{2}}< 1$, find the range of values of the real number $a$.
 
@@ -352,7 +348,7 @@ By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions
 
 From $\left(\frac{1}{2}\right)^a< 1=\left(\frac{1}{2}\right)^0$, the base $\frac{1}{2}\in\left(0,1\right)$ is decreasing, so $a> 0$. From $a^{\frac{1}{2}}< 1$, we get $0< a< 1$. Then from $\log_a\frac{1}{2}< 1=\log_a a$: when $0< a< 1$, $y=\log_a x$ is decreasing; from $\log_a\frac{1}{2}< \log_a a$ we get $\frac{1}{2}> a$, i.e. $a< \frac{1}{2}$. Combining gives $0< a< \frac{1}{2}$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 4.4, Extension and Exploration, Problem 13) Compare the sizes of the three values in each of the following.
 

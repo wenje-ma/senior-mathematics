@@ -1,40 +1,15 @@
-# Assignment 37
+# week37
+> **Definition 7.1.9 (Modulus of a Complex Number)**<br>复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
+> **Definition 7.3.1 (复数的三角表示式)**<br>任何一个复数 z = a + bi 都可以表示成 r(cos theta + i sin theta) 的形式, 其中 r = |z|, theta 为 z 的辐角.
+> **Definition 7.3.2 (辐角)**<br>复数 z = a + bi 对应的向量 OZ 与 x 轴正方向的夹角 theta 叫做复数 z 的辐角.
+> **Definition 7.3.4 (Conditions for Equal Complex Numbers in Trig Form)**<br>参见教材相应章节关于此概念的论述.
+> **Definition 7.3.5 (Trig Form of Multiplication)**<br>第二章　一元二次函数,方程和不等式 ２２　基本不等式 我们知道,乘法公式在代数式的运算中有重要作用.那 么,是否也有一些不等式,它们在解决不等式问题时有着与 乘法公式类似的重要作用呢?下面就来研究这个问题. 前面我们利用完全平方公式得出了一类重要不等式: ,∈,有 ２＋２≥２, 当且仅当＝时,等号成立. 特别地,如果＞０,＞０,我们用槡,槡分别代替上式中的,,可得 槡≤＋ ２, (１) 当且仅当＝时,等号成立. 通常称不等式(１)为基本不等式(ｂａｓｉｃｉｎｅｑｕａｌｉｔｙ).其中,＋ ２叫做正数,的 算术平均数,槡叫做正数,的几何平均数. 基本不等式表明:两个正数的算术平均数不小于它们的几何平均数. 上面通过考察２＋２≥２的特殊情形获得了基本不等式.能否直接利用不等式的性 质推导出基本不等式呢?下面我们来分析一下. 要证 槡≤＋ ２, ① 只要证 ２槡≤＋. ② 要证
+> **Definition 7.3.6 (Trig Form of Division)**<br>次 ２００２年游客人次＝３４４ ３０９≈１.１１, …… 　　做减法可以得到游客 人次的年增加量,做除法 可以得到游客人次的年增 长率.增加量,增长率是 刻画事物变化规律的两个 很重要的量. ２０１５年游客人次 ２０１４年游客人次＝１２４４ １１１８≈１.１１. 结果表明,Ｂ地景区的游客人次的年增长率都约为 １.１１－１＝０.１１,是一个常数. 像这样,增长率为常数的变化方式,我们称为指数增 长.因此,Ｂ地景区的游客人次近似于指数增长. 显然,从２００１年开始,Ｂ地景区游客人次的变化规律 可以近似描述为: １年后,游客人次是２００１年的１.１１１倍; ２１１ 比较两地景区游客人次的变化情况,你发现了怎样的变 化规律? 为了便于观察,可以 为了有利于观察规律,根据表 4.2-1,分别画出 A,B 先根据表格中的数据描 两地景区采取不同措施后的15年游客人次的图象(图4.2-1 点,然后用光滑的曲线将 和图4.2-2). 离散的点连起来. 人次/万次 人次/万次个 1 300 1 300 1
+> **Theorem 7.3.8 (棣莫弗定理)**<br>[r(cos theta + i sin theta)]^n = r^n (cos n theta + i sin n theta).
 
-> **Definition 7.1.9** (Modulus of a Complex Number) <br> The modulus of the complex number $z=a+b\mathrm{i}$ is $\lvert z\rvert=\sqrt{a^2+b^2}$.
+---
 
-> **Definition 7.3.1** (Trigonometric Form of a Complex Number) <br> Any complex number $z=a+b\mathrm{i}$ can be written in the form $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$, where $r$ is the modulus of $z$, and $\theta$ is the angle whose initial side is the nonnegative half of the $x$-axis and whose terminal side is the ray on which the vector $\boldsymbol{OZ}$ lies. The expression $r\left(\cos\theta+\mathrm{i}\sin\theta\right)$ is called the trigonometric form of the complex number $z=a+b\mathrm{i}$, or trigonometric form for short; $a+b\mathrm{i}$ is called the algebraic form.
-
-> **Definition 7.3.2** (Argument) <br> The angle $\theta$ whose initial side is the nonnegative half of the $x$-axis and whose terminal side is the ray on which the vector $\boldsymbol{OZ}$ lies is called the argument of the complex number $z=a+b\mathrm{i}$. The argument of any nonzero complex number has infinitely many values, which differ by integer multiples of $2\pi$.
-
-> **Definition 7.3.3** (Principal Value of the Argument) <br> The value of the argument $\theta$ in the range $0\le\theta< 2\pi$ is stipulated to be the principal value of the argument, usually denoted $\arg z$, that is, $0\le\arg z< 2\pi$.
-
-> **Definition 7.3.4** (Condition for Equality of Nonzero Complex Numbers in Trigonometric Form) <br> Two nonzero complex numbers are equal if and only if their moduli and their principal arguments are respectively equal.
-
-> **Definition 7.3.5** (Trigonometric Form of Complex Multiplication) <br>
-
-$$
-r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)\cdot r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)=r_1r_2\left[\cos\left(\theta_1+\theta_2\right)+\mathrm{i}\sin\left(\theta_1+\theta_2\right)\right].
-$$
-
-That is, the modulus of the product equals the product of the moduli, and the argument of the product equals the sum of the arguments.
-
-> **Definition 7.3.6** (Trigonometric Form of Complex Division) <br>
-
-$$
-\frac{r_1\left(\cos\theta_1+\mathrm{i}\sin\theta_1\right)}{r_2\left(\cos\theta_2+\mathrm{i}\sin\theta_2\right)}=\frac{r_1}{r_2}\left[\cos\left(\theta_1-\theta_2\right)+\mathrm{i}\sin\left(\theta_1-\theta_2\right)\right]\quad \left(r_2\neq 0\right).
-$$
-
-That is, the modulus of the quotient equals the modulus of the dividend divided by the modulus of the divisor, and the argument of the quotient equals the argument of the dividend minus the argument of the divisor.
-
-> **Common Conclusion 7.3.7** (Geometric Meaning of Complex Multiplication and Division) <br> When two complex numbers are multiplied, rotate the vector $\boldsymbol{OZ_1}$ about the point $O$ through the angle $\theta_2$, and then scale its modulus by a factor of $r_2$ to obtain the vector corresponding to the product. When two complex numbers are divided, rotate the vector through the angle $-\theta_2$, and then scale its modulus by a factor of $\frac{1}{r_2}$.
-
-> **Theorem 7.3.8** (De Moivre's Theorem) <br>
-
-$$
-\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)\quad \left(n\in\mathbb N^*\right).
-$$
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 7.3, Problem 1) Draw the vectors corresponding to the following complex numbers, and write these complex numbers in trigonometric form:
 
@@ -50,7 +25,7 @@ The figure: in a rectangular coordinate plane of complex numbers, four vectors a
 
 ### Solution to Exercise 1
 
-By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r=\sqrt{a^2+b^2}$, $\cos\theta=\frac{a}{r}$, $\sin\theta=\frac{b}{r}$, and $\theta$ is then determined by the quadrant in which the point lies.
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, $r=\sqrt{a^2+b^2}$, $\cos\theta=\frac{a}{r}$, $\sin\theta=\frac{b}{r}$, and $\theta$ is then determined by the quadrant in which the point lies.
 
 (1) $4=4+0\mathrm{i}$, $r=4$, $\cos\theta=1$, $\sin\theta=0$, the point lies on the positive real axis, so $\arg 4=0$. The trigonometric form is $4\left(\cos 0+\mathrm{i}\sin 0\right)$.
 
@@ -60,7 +35,7 @@ By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r=\sqrt{a^2+b
 
 (4) $r=\sqrt{\left(-\frac{1}{2}\right)^2+\left(-\frac{\sqrt{3}}{2}\right)^2}=1$, $\cos\theta=-\frac{1}{2}$, $\sin\theta=-\frac{\sqrt{3}}{2}$, the point lies in the third quadrant, so $\arg=\frac{4\pi}{3}$. The trigonometric form is $\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 7.3, Problem 2) Are the following complex numbers in trigonometric form? If not, write them in trigonometric form.
 
@@ -76,7 +51,7 @@ By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r=\sqrt{a^2+b
 
 ### Solution to Exercise 2
 
-By **Definition 7.3.1** (Trigonometric Form of a Complex Number), trigonometric form must satisfy: the modulus $r\ge 0$, and the expression in parentheses is $\cos\theta+\mathrm{i}\sin\theta$.
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, trigonometric form must satisfy: the modulus $r\ge 0$, and the expression in parentheses is $\cos\theta+\mathrm{i}\sin\theta$.
 
 (1) Not in trigonometric form, because the expression in parentheses is $\cos\theta-\mathrm{i}\sin\theta$. Since $\cos\theta-\mathrm{i}\sin\theta=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)$, we get
 
@@ -92,7 +67,7 @@ $$
 
 (5) Not in trigonometric form, because the angles of $\cos$ and $\sin$ in parentheses differ. The arguments must be unified. $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{6}\right)=2\left(\frac{1}{2}+\mathrm{i}\cdot\frac{1}{2}\right)=1+\mathrm{i}$. Its modulus $r=\sqrt{2}$, $\arg=\frac{\pi}{4}$, so the trigonometric form is $\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 7.3, Problem 3) Write the following complex numbers in algebraic form:
 
@@ -102,13 +77,13 @@ $$
 
 ### Solution to Exercise 3
 
-By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
 
 (1) $6\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)=6\cdot 0+6\cdot\left(-1\right)\mathrm{i}=-6\mathrm{i}$.
 
 (2) $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)=2\cdot\frac{1}{2}+2\cdot\left(-\frac{\sqrt{3}}{2}\right)\mathrm{i}=1-\sqrt{3}\mathrm{i}$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 7.3, Problem 1) Compute:
 
@@ -122,7 +97,7 @@ By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r\left(\cos\t
 
 ### Solution to Exercise 4
 
-By **Definition 7.3.5** (Trigonometric Form of Complex Multiplication), multiply the moduli and add the arguments.
+By **Definition 7.3.5 (Trigonometric Form of Complex Multiplication)**, multiply the moduli and add the arguments.
 
 (1) Modulus: $8\times 2=16$; argument: $\frac{\pi}{6}+\frac{\pi}{4}=\frac{5\pi}{12}$. The result is $16\left(\cos\frac{5\pi}{12}+\mathrm{i}\sin\frac{5\pi}{12}\right)$.
 
@@ -132,7 +107,7 @@ By **Definition 7.3.5** (Trigonometric Form of Complex Multiplication), multiply
 
 (4) Modulus: $3\times 2\times 5=30$; argument: $18^{\circ}+54^{\circ}+108^{\circ}=180^{\circ}$. The result is $30\left(\cos 180^{\circ}+\mathrm{i}\sin 180^{\circ}\right)=-30$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 7.3, Problem 2) Compute:
 
@@ -146,7 +121,7 @@ By **Definition 7.3.5** (Trigonometric Form of Complex Multiplication), multiply
 
 ### Solution to Exercise 5
 
-By **Definition 7.3.6** (Trigonometric Form of Complex Division), divide the moduli and subtract the arguments.
+By **Definition 7.3.6 (Trigonometric Form of Complex Division)**, divide the moduli and subtract the arguments.
 
 (1) Modulus: $12\div 6=2$; argument: $\frac{7\pi}{4}-\frac{2\pi}{3}=\frac{21\pi}{12}-\frac{8\pi}{12}=\frac{13\pi}{12}$. The result is $2\left(\cos\frac{13\pi}{12}+\mathrm{i}\sin\frac{13\pi}{12}\right)$.
 
@@ -156,7 +131,7 @@ By **Definition 7.3.6** (Trigonometric Form of Complex Division), divide the mod
 
 (4) Write $-\mathrm{i}$ as $\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}$. Modulus: $1\div 2=\frac{1}{2}$; argument: $\frac{3\pi}{2}-\frac{2\pi}{3}=\frac{9\pi}{6}-\frac{4\pi}{6}=\frac{5\pi}{6}$. The result is $\frac{1}{2}\left(\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}\right)$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 7.3, Problem 3) In the complex plane, rotate the vector corresponding to the complex number $3-\sqrt{3}\mathrm{i}$ clockwise about the origin $O$ by $60^{\circ}$. Find the complex number corresponding to the resulting vector (in algebraic form).
 
@@ -166,11 +141,11 @@ By **Common Conclusion 7.3.7** (Geometric Meaning of Complex Multiplication and 
 
 First convert $3-\sqrt{3}\mathrm{i}$ to trigonometric form. $r=\sqrt{3^2+\left(-\sqrt{3}\right)^2}=\sqrt{12}=2\sqrt{3}$, $\cos\theta=\frac{3}{2\sqrt{3}}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{-\sqrt{3}}{2\sqrt{3}}=-\frac{1}{2}$, the point lies in the fourth quadrant, so $\arg=\frac{11\pi}{6}=330^{\circ}$.
 
-By **Definition 7.3.5**, multiplying by $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$, we get $2\sqrt{3}\left(\cos 330^{\circ}+\mathrm{i}\sin 330^{\circ}\right)\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\sqrt{3}\left[\cos 270^{\circ}+\mathrm{i}\sin 270^{\circ}\right]$.
+By **Definition 7.3.5 (Trig Form of Multiplication)**, multiplying by $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$, we get $2\sqrt{3}\left(\cos 330^{\circ}+\mathrm{i}\sin 330^{\circ}\right)\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\sqrt{3}\left[\cos 270^{\circ}+\mathrm{i}\sin 270^{\circ}\right]$.
 
 Converting to algebraic form: $2\sqrt{3}\left(0-\mathrm{i}\right)=-2\sqrt{3}\mathrm{i}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 7.3, Review and Consolidation, Problem 1) Draw the vectors corresponding to the following complex numbers, and write these complex numbers in trigonometric form:
 
@@ -186,7 +161,7 @@ The figure: in a rectangular coordinate plane of complex numbers, four vectors a
 
 ### Solution to Problem 1
 
-By **Definition 7.3.1** (Trigonometric Form of a Complex Number).
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**.
 
 (1) $6=6+0\mathrm{i}$, $r=6$, $\arg=0$. The trigonometric form is $6\left(\cos 0+\mathrm{i}\sin 0\right)$.
 
@@ -196,7 +171,7 @@ By **Definition 7.3.1** (Trigonometric Form of a Complex Number).
 
 (4) $r=\sqrt{\frac{3}{4}+\frac{1}{4}}=1$, $\cos\theta=-\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{1}{2}$, second quadrant, $\arg=\frac{5\pi}{6}$. The trigonometric form is $\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 7.3, Review and Consolidation, Problem 2) Write the following complex numbers in algebraic form:
 
@@ -210,7 +185,7 @@ By **Definition 7.3.1** (Trigonometric Form of a Complex Number).
 
 ### Solution to Problem 2
 
-By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
 
 (1) $3\sqrt{2}\left(\frac{\sqrt{2}}{2}+\mathrm{i}\cdot\frac{\sqrt{2}}{2}\right)=3+3\mathrm{i}$.
 
@@ -220,7 +195,7 @@ By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r\left(\cos\t
 
 (4) $6\left(-\frac{1}{2}+\mathrm{i}\cdot\left(-\frac{\sqrt{3}}{2}\right)\right)=-3-3\sqrt{3}\mathrm{i}$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 7.3, Review and Consolidation, Problem 3) Compute:
 
@@ -234,7 +209,7 @@ By **Definition 7.3.1** (Trigonometric Form of a Complex Number), $r\left(\cos\t
 
 ### Solution to Problem 3
 
-By **Definition 7.3.5** (Trigonometric Form of Multiplication) and **Definition 7.3.6** (Trigonometric Form of Division).
+By **Definition 7.3.5 (Trigonometric Form of Multiplication)** and **Definition 7.3.6 (Trigonometric Form of Division)**.
 
 (1) Modulus: $3\times 3=9$; argument: $\frac{\pi}{3}+\frac{\pi}{6}=\frac{\pi}{2}$. The result is $9\left(\cos\frac{\pi}{2}+\mathrm{i}\sin\frac{\pi}{2}\right)=9\mathrm{i}$.
 
@@ -244,7 +219,7 @@ By **Definition 7.3.5** (Trigonometric Form of Multiplication) and **Definition 
 
 (4) Modulus: $12\div 6=2$; argument: $\frac{3\pi}{2}-\frac{\pi}{6}=\frac{9\pi}{6}-\frac{\pi}{6}=\frac{8\pi}{6}=\frac{4\pi}{3}$. The result is $2\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 7.3, Review and Consolidation, Problem 4) Compute each of the following and give a geometric interpretation:
 
@@ -260,7 +235,7 @@ The figure: in a rectangular coordinate plane of complex numbers, several vector
 
 ### Solution to Problem 4
 
-By **Definition 7.3.5** and **Definition 7.3.6**.
+By **Definition 7.3.5 (Trig Form of Multiplication)** and **Definition 7.3.6 (Trig Form of Division)**.
 
 (1) Modulus: $\sqrt{2}\times 2\sqrt{2}=4$; argument: $\frac{2\pi}{3}+\frac{\pi}{3}=\pi$. The result is $4\left(\cos\pi+\mathrm{i}\sin\pi\right)=-4$. Geometric interpretation: rotate the vector of modulus $\sqrt{2}$ and argument $120^{\circ}$ by $60^{\circ}$ and stretch it to $2\sqrt{2}$ times its original length, obtaining a vector of modulus $4$ and argument $180^{\circ}$.
 
@@ -270,7 +245,7 @@ By **Definition 7.3.5** and **Definition 7.3.6**.
 
 (4) First convert $-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$ to trigonometric form: $r=1$, $\arg=\frac{2\pi}{3}$. Modulus: $1\div 2=\frac{1}{2}$; argument: $\frac{2\pi}{3}-\frac{\pi}{3}=\frac{\pi}{3}$. The result is $\frac{1}{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)=\frac{1}{4}+\frac{\sqrt{3}}{4}\mathrm{i}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 7.3, Comprehensive Application, Problem 5) (1) Prove that $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\cos\theta-\mathrm{i}\sin\theta$;
 
@@ -280,11 +255,11 @@ $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{
 
 ### Solution to Problem 5
 
-By **Definition 7.3.6** (Trigonometric Form of Complex Division).
+By **Definition 7.3.6 (Trigonometric Form of Complex Division)**.
 
-(1) By **Definition 7.3.6**, $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\frac{\cos 0+\mathrm{i}\sin 0}{\cos\theta+\mathrm{i}\sin\theta}=\cos\left(0-\theta\right)+\mathrm{i}\sin\left(0-\theta\right)=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)=\cos\theta-\mathrm{i}\sin\theta$. QED.
+(1) By **Definition 7.3.6 (Trig Form of Division)**, $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\frac{\cos 0+\mathrm{i}\sin 0}{\cos\theta+\mathrm{i}\sin\theta}=\cos\left(0-\theta\right)+\mathrm{i}\sin\left(0-\theta\right)=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)=\cos\theta-\mathrm{i}\sin\theta$. QED.
 
-(2) By **Definition 7.3.6**, the modulus of $\frac{1}{z}$ is $\frac{1}{\lvert z\rvert}$, and its argument is $-\arg z$.
+(2) By **Definition 7.3.6 (Trig Form of Division)**, the modulus of $\frac{1}{z}$ is $\frac{1}{\lvert z\rvert}$, and its argument is $-\arg z$.
 
 (a) $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$: $\lvert z\rvert=4$, $\arg z=\frac{\pi}{12}$, so $\lvert\frac{1}{z}\rvert=\frac{1}{4}$, $\arg\frac{1}{z}=-\frac{\pi}{12}$.
 
@@ -292,7 +267,7 @@ By **Definition 7.3.6** (Trigonometric Form of Complex Division).
 
 (c) $z=\frac{\sqrt{2}}{2}\left(1-\mathrm{i}\right)$: $\lvert z\rvert=\frac{\sqrt{2}}{2}\cdot\sqrt{2}=1$, $\arg z=\frac{7\pi}{4}$, so $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=-\frac{7\pi}{4}=\frac{\pi}{4}$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 7.3, Comprehensive Application, Problem 6) Prove that:
 
@@ -302,13 +277,13 @@ By **Definition 7.3.6** (Trigonometric Form of Complex Division).
 
 ### Solution to Problem 6
 
-By **Definition 7.3.5** (Trigonometric Form of Complex Multiplication) and $\cos\left(-\alpha\right)+\mathrm{i}\sin\left(-\alpha\right)=\cos\alpha-\mathrm{i}\sin\alpha$.
+By **Definition 7.3.5 (Trigonometric Form of Complex Multiplication)** and $\cos\left(-\alpha\right)+\mathrm{i}\sin\left(-\alpha\right)=\cos\alpha-\mathrm{i}\sin\alpha$.
 
-(1) By **Definition 7.3.5**, modulus: $1\times 1=1$; argument: $75^{\circ}+15^{\circ}=90^{\circ}$. The result is $\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}=\mathrm{i}$. QED.
+(1) By **Definition 7.3.5 (Trig Form of Multiplication)**, modulus: $1\times 1=1$; argument: $75^{\circ}+15^{\circ}=90^{\circ}$. The result is $\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}=\mathrm{i}$. QED.
 
-(2) Write $\cos 3\theta-\mathrm{i}\sin 3\theta$ as $\cos\left(-3\theta\right)+\mathrm{i}\sin\left(-3\theta\right)$, and $\cos 2\theta-\mathrm{i}\sin 2\theta$ as $\cos\left(-2\theta\right)+\mathrm{i}\sin\left(-2\theta\right)$. By **Definition 7.3.5**, modulus: $1\times 1=1$; argument: $-3\theta+\left(-2\theta\right)=-5\theta$. The result is $\cos\left(-5\theta\right)+\mathrm{i}\sin\left(-5\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$. QED. $\blacksquare$
+(2) Write $\cos 3\theta-\mathrm{i}\sin 3\theta$ as $\cos\left(-3\theta\right)+\mathrm{i}\sin\left(-3\theta\right)$, and $\cos 2\theta-\mathrm{i}\sin 2\theta$ as $\cos\left(-2\theta\right)+\mathrm{i}\sin\left(-2\theta\right)$. By **Definition 7.3.5 (Trig Form of Multiplication)**, modulus: $1\times 1=1$; argument: $-3\theta+\left(-2\theta\right)=-5\theta$. The result is $\cos\left(-5\theta\right)+\mathrm{i}\sin\left(-5\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$. QED. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 7.3, Comprehensive Application, Problem 7) Simplify:
 
@@ -318,13 +293,13 @@ By **Definition 7.3.5** (Trigonometric Form of Complex Multiplication) and $\cos
 
 ### Solution to Problem 7
 
-By the trigonometric forms of **Definition 7.3.5** (multiplication) and **Definition 7.3.6** (division).
+By the trigonometric forms of **Definition 7.3.5 (multiplication)** and **Definition 7.3.6 (division)**.
 
 (1) Numerator: modulus $1$, argument $7\theta+2\theta=9\theta$. Denominator: modulus $1$, argument $5\theta+3\theta=8\theta$. After division, modulus $1$, argument $9\theta-8\theta=\theta$. The result is $\cos\theta+\mathrm{i}\sin\theta$.
 
 (2) Numerator $\cos\varphi-\mathrm{i}\sin\varphi=\cos\left(-\varphi\right)+\mathrm{i}\sin\left(-\varphi\right)$. After division, modulus $1$, argument $-\varphi-\varphi=-2\varphi$. The result is $\cos\left(-2\varphi\right)+\mathrm{i}\sin\left(-2\varphi\right)=\cos 2\varphi-\mathrm{i}\sin 2\varphi$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 7.3, Comprehensive Application, Problem 8) Let $\boldsymbol{OZ}$ be the vector corresponding to $z=\sqrt{3}-\mathrm{i}$. Rotate $\boldsymbol{OZ}$ about $O$ counterclockwise by $45^{\circ}$ and clockwise by $60^{\circ}$ respectively. Find the complex numbers corresponding to the resulting vectors (in algebraic form).
 
@@ -336,17 +311,17 @@ First convert $z=\sqrt{3}-\mathrm{i}$ to trigonometric form: $r=\sqrt{3+1}=2$, $
 
 (1) Counterclockwise rotation by $45^{\circ}$:
 
-By **Definition 7.3.5**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}\right)=2\left[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right]$.
+By **Definition 7.3.5 (Trig Form of Multiplication)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}\right)=2\left[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right]$.
 
 Converting to algebraic form: $2\left(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right)=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
 
 (2) Clockwise rotation by $60^{\circ}$:
 
-By **Definition 7.3.5**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\left[\cos\left(-90^{\circ}\right)+\mathrm{i}\sin\left(-90^{\circ}\right)\right]=2\left(-\mathrm{i}\right)=-2\mathrm{i}$.
+By **Definition 7.3.5 (Trig Form of Multiplication)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\left[\cos\left(-90^{\circ}\right)+\mathrm{i}\sin\left(-90^{\circ}\right)\right]=2\left(-\mathrm{i}\right)=-2\mathrm{i}$.
 
 $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 7.3, Extension and Exploration, Problem 9) As shown in the figure on the next page, $\triangle ABC$ in the complex plane is an equilateral triangle, and two of its vertices $A$ and $B$ have coordinates $\left(1,0\right)$ and $\left(2,1\right)$ respectively. Find the coordinates of point $C$.
 
@@ -378,17 +353,17 @@ $$
 
 In this case the complex number corresponding to point $C$ is $1+\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}=\frac{3+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}$, with coordinates $\left(\frac{3+\sqrt{3}}{2},\frac{1-\sqrt{3}}{2}\right)$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 7.3, Extension and Exploration, Problem 10) As shown in the figure on the next page, three congruent squares are placed side by side in the plane. Use complex numbers to prove that $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$.
 
 ### Solution to Problem 10
 
-By **Definition 7.3.2** (Argument) and **Definition 7.3.5** (Trigonometric Form of Complex Multiplication), the three angles correspond to the arguments of three complex numbers.
+By **Definition 7.3.2 (Argument)** and **Definition 7.3.5 (Trigonometric Form of Complex Multiplication)**, the three angles correspond to the arguments of three complex numbers.
 
 Let the side length of each square be $1$. From the figure, $\angle 1$ corresponds to the argument of $1+\mathrm{i}$, $\angle 2$ corresponds to the argument of $2+\mathrm{i}$, and $\angle 3$ corresponds to the argument of $3+\mathrm{i}$.
 
-By **Definition 7.3.5**, after multiplying the three complex numbers, the argument of the product equals the sum of the arguments. Compute
+By **Definition 7.3.5 (Trig Form of Multiplication)**, after multiplying the three complex numbers, the argument of the product equals the sum of the arguments. Compute
 
 $$
 \left(1+\mathrm{i}\right)\left(2+\mathrm{i}\right)\left(3+\mathrm{i}\right)=\left(1+\mathrm{i}\right)\left(5+5\mathrm{i}\right)=5\left(1+\mathrm{i}\right)^2=5\cdot 2\mathrm{i}=10\mathrm{i}.
@@ -402,7 +377,7 @@ The argument of the product $10\mathrm{i}$ is $\frac{\pi}{2}$. Moreover, all thr
 
 ### Solution to Inquiry and Discovery 1
 
-By **Theorem 7.3.8** (De Moivre's Theorem), $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)$.
+By **Theorem 7.3.8 (De Moivre's Theorem)**, $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)$.
 
 The geometric meaning of raising a complex number to a power is: rotate the vector corresponding to the complex number about the origin $O$ by the angle $\theta$ each time and stretch its modulus to $r$ times its original length, repeating this $n$ times; in the end one obtains a vector of modulus $r^n$ and argument $n\theta$. That is, rotate through the angle $\theta$ a total of $n$ times in succession, and scale by a factor of $r$ a total of $n$ times in succession. $\blacksquare$
 
@@ -412,7 +387,7 @@ The geometric meaning of raising a complex number to a power is: rotate the vect
 
 ### Solution to Inquiry and Discovery 2
 
-By **Theorem 7.3.8** (De Moivre's Theorem), $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
+By **Theorem 7.3.8 (De Moivre's Theorem)**, $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
 
 (1) By De Moivre's Theorem, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos 2k\pi+\mathrm{i}\sin 2k\pi=1$. The modulus is $\lvert\omega_k\rvert=1$.
 
@@ -426,13 +401,13 @@ By **Theorem 7.3.8** (De Moivre's Theorem), $\omega_k=\cos\frac{2k\pi}{3}+\mathr
 
 ### Solution to Inquiry and Discovery 3
 
-Let $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ be an $n$th root of $1$; then $z^n=1=\cos 0+\mathrm{i}\sin 0$. By **Theorem 7.3.8** (De Moivre's Theorem),
+Let $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ be an $n$th root of $1$; then $z^n=1=\cos 0+\mathrm{i}\sin 0$. By **Theorem 7.3.8 (De Moivre's Theorem)**,
 
 $$
 z^n=\rho^n\left(\cos n\varphi+\mathrm{i}\sin n\varphi\right)=\cos 0+\mathrm{i}\sin 0.
 $$
 
-By **Definition 7.3.4** (Condition for Equality of Nonzero Complex Numbers in Trigonometric Form), $\rho^n=1$ and $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. Since $\rho> 0$, we have $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
+By **Definition 7.3.4 (Condition for Equality of Nonzero Complex Numbers in Trigonometric Form)**, $\rho^n=1$ and $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. Since $\rho> 0$, we have $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
 
 By the periodicity of the trigonometric functions, $k=0,1,\cdots,n-1$ gives $n$ distinct roots: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\ \left(k=0,1,\cdots,n-1\right)$.
 

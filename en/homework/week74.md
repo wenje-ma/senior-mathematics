@@ -1,12 +1,16 @@
-# Assignment 74
+# week74
+> **Definition 4.1.5 (General Term Formula)**<br>如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**<br>等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**<br>如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **Theorem 4.3.3 (等比数列通项公式)**<br>首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **Theorem 4.3.5 (前 $n$ 项和公式)**<br>当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> **Definition 4.4.1 (数学归纳法)**<br>证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
 
-> **Definition 4.4.1** (Mathematical Induction) <br>To prove a proposition related to a positive integer $n$, one may proceed in the following steps: (1) (induction basis) prove that the proposition holds when $n=n_0$ ($n_0\in\mathbb N^*$); (2) (inductive step) taking "the proposition holds when $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$)" as the hypothesis, deduce that "the proposition also holds when $n=k+1$". Once these two steps are completed, one may conclude that the proposition holds for all positive integers $n$ starting from $n_0$.
-> **Theorem 4.3.3** (General Term Formula of a Geometric Sequence) <br>For a geometric sequence $\left\{a_n\right\}$ with first term $a_1$ and common ratio $q$, the general term formula is $a_n=a_1 q^{n-1}$.
-> **Theorem 4.3.5** (Sum of the First $n$ Terms) <br>When $q\ne 1$, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; when $q=1$, $S_n=na_1$.
-> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
-> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+---
 
-### Exercise 1
+## Exercise 1
 
 (Exercise 4.4, Problem 1) Analyze whether the following proofs by mathematical induction are correct, and explain why
 
@@ -36,11 +40,11 @@ From (1) and (2), the equality holds for any $n\in\mathbb N^*$.
 
 ### Solution to Exercise 1
 
-(1) By **Definition 4.4.1** (Mathematical Induction), the basis step (1) is correct, and in the inductive step (2) the deduction from the hypothesis at $n=k$ to the conclusion at $n=k+1$ is correct; the whole proof is correct.
+(1) By **Definition 4.4.1 (Mathematical Induction)**, the basis step (1) is correct, and in the inductive step (2) the deduction from the hypothesis at $n=k$ to the conclusion at $n=k+1$ is correct; the whole proof is correct.
 
 $\blacksquare$
 
-(2) By **Definition 4.4.1** (Mathematical Induction), the basis step (1) is correct, and in the inductive step (2) the deduction from the hypothesis at $n=k$ to the conclusion at $n=k+1$ is correct; the whole proof is correct.
+(2) By **Definition 4.4.1 (Mathematical Induction)**, the basis step (1) is correct, and in the inductive step (2) the deduction from the hypothesis at $n=k$ to the conclusion at $n=k+1$ is correct; the whole proof is correct.
 
 $\blacksquare$
 
@@ -54,13 +58,13 @@ First prove the sum formula for the first $n$ terms of an arithmetic sequence.
 
 (2) Assume when $n=k$, $S_k=\frac{k\left(a_1+a_k\right)}{2}$.
 
-By **Definition 4.4.1** (Mathematical Induction), when $n=k+1$,
+By **Definition 4.4.1 (Mathematical Induction)**, when $n=k+1$,
 
 $$
 S_{k+1}=S_k+a_{k+1}=\frac{k\left(a_1+a_k\right)}{2}+a_{k+1}.
 $$
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_k=a_1+\left(k-1\right)d$ and $a_{k+1}=a_1+kd$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_k=a_1+\left(k-1\right)d$ and $a_{k+1}=a_1+kd$.
 
 $$
 S_{k+1}=\frac{k\left[a_1+a_1+\left(k-1\right)d\right]}{2}+a_1+kd=\frac{k\left[2a_1+\left(k-1\right)d\right]}{2}+a_1+kd.
@@ -70,7 +74,7 @@ $$
 =\frac{ka_1+\frac{k\left(k-1\right)}{2}d+a_1+kd}{1}=\frac{\left(k+1\right)\left(a_1+a_{k+1}\right)}{2}.
 $$
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), the formula holds for all $n\in\mathbb N^*$.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds for all $n\in\mathbb N^*$.
 
 $\blacksquare$
 
@@ -80,9 +84,9 @@ Next prove the general term formula of a geometric sequence.
 
 (2) Assume when $n=k$, $a_k=a_1 q^{k-1}$.
 
-When $n=k+1$, by **Definition 4.3.1** (Geometric Sequence), $a_{k+1}=a_k q=a_1 q^{k-1}\cdot q=a_1 q^k$.
+When $n=k+1$, by **Definition 4.3.1 (Geometric Sequence)**, $a_{k+1}=a_k q=a_1 q^{k-1}\cdot q=a_1 q^k$.
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), the formula holds for all $n\in\mathbb N^*$.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds for all $n\in\mathbb N^*$.
 
 $\blacksquare$
 
@@ -98,11 +102,11 @@ $$
 S_{k+1}=S_k+a_{k+1}=\frac{a_1\left(1-q^k\right)}{1-q}+a_1 q^k=\frac{a_1\left(1-q^k\right)+a_1 q^k\left(1-q\right)}{1-q}=\frac{a_1\left(1-q^{k+1}\right)}{1-q}.
 $$
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), the formula holds for all $n\in\mathbb N^*$.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds for all $n\in\mathbb N^*$.
 
 $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 4.4, Problem 1) Prove by mathematical induction: $-1+3-5+\cdots+\left(-1\right)^n\left(2n-1\right)=\left(-1\right)^n n$
 
@@ -122,7 +126,7 @@ $$
 =\left(-1\right)^{k+1}\left[-k+2k+1\right]=\left(-1\right)^{k+1}\left(k+1\right).
 $$
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), the equality holds for all $n\in\mathbb N^*$.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the equality holds for all $n\in\mathbb N^*$.
 
 $\blacksquare$
 
@@ -130,7 +134,7 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Definition 4.1.5** (General Term Formula),
+By **Definition 4.1.5 (General Term Formula)**,
 
 $$
 S_1=\frac{1}{1\times 2}=\frac{1}{2},\ S_2=\frac{1}{2}+\frac{1}{2\times 3}=\frac{2}{3},\ S_3=\frac{2}{3}+\frac{1}{3\times 4}=\frac{3}{4}.
@@ -148,7 +152,7 @@ $$
 S_{k+1}=S_k+\frac{1}{\left(k+1\right)\left(k+2\right)}=\frac{k}{k+1}+\frac{1}{\left(k+1\right)\left(k+2\right)}=\frac{k\left(k+2\right)+1}{\left(k+1\right)\left(k+2\right)}=\frac{\left(k+1\right)^2}{\left(k+1\right)\left(k+2\right)}=\frac{k+1}{k+2}.
 $$
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), the formula holds.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds.
 
 $\blacksquare$
 
@@ -156,7 +160,7 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Definition 4.1.5** (General Term Formula), $a_n=n^2$ and $b_n=2^n$.
+By **Definition 4.1.5 (General Term Formula)**, $a_n=n^2$ and $b_n=2^n$.
 
 Compute: $a_1=1< 2=b_1$, $a_2=4=b_2$, $a_3=9> 8=b_3$, $a_4=16=b_4$, $a_5=25< 32=b_5$, $a_6=36< 64=b_6$.
 
@@ -174,7 +178,7 @@ $\left(k+1\right)^2=k^2+2k+1$. When $k\ge 5$, $2k^2-\left(k^2+2k+1\right)=k^2-2k
 
 Therefore $2^{k+1}> 2k^2> \left(k+1\right)^2$.
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), from the $5$th term onward, $a_n< b_n$.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, from the $5$th term onward, $a_n< b_n$.
 
 $\blacksquare$
 
@@ -204,11 +208,11 @@ The denominator $=2k-2\left(k-1\right)a-k+1+\left(k-2\right)a=k+1-\left[k-\left(
 
 Hence $a_{k+1}=\frac{k-\left(k-1\right)a}{\left(k+1\right)-ka}$, which matches the conjecture.
 
-That is, it holds when $n=k+1$. By **Definition 4.4.1** (Mathematical Induction), the general term formula holds.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the general term formula holds.
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 4.4, Review and Consolidation, Problem 1) Multiple choice: prove by mathematical induction the identity $-1+3-5+7+\cdots+\left(-1\right)^n\left(2n-1\right)+\left(-1\right)^{n+1}\left(2n+1\right)+\left(-1\right)^{n+2}\left(2n+3\right)=\left(-1\right)^{n+2}\left(n+2\right)$. To verify that the identity holds when $n=1$, the left-hand side should be ( )
 
@@ -222,7 +226,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.4.1** (Mathematical Induction), when $n=1$, the left-hand side is $-1+3-5=-3$.
+By **Definition 4.4.1 (Mathematical Induction)**, when $n=1$, the left-hand side is $-1+3-5=-3$.
 
 Comparing with the choices, select (C).
 
@@ -244,7 +248,7 @@ $\blacksquare$
 
 When $n=k+1$, the left-hand side $=k^2+\left(2k+1\right)=\left(k+1\right)^2$, which holds.
 
-By **Definition 4.4.1** (Mathematical Induction), the identity holds.
+By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
 $\blacksquare$
 
@@ -254,7 +258,7 @@ $\blacksquare$
 
 When $n=k+1$, the left-hand side $=2^k-1+2^k=2^{k+1}-1$, which holds.
 
-By **Definition 4.4.1** (Mathematical Induction), the identity holds.
+By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
 $\blacksquare$
 
@@ -268,7 +272,7 @@ $$
 \left[\frac{k\left(k+1\right)}{2}\right]^2+\left(k+1\right)^3=\frac{k^2\left(k+1\right)^2}{4}+\left(k+1\right)^3=\left(k+1\right)^2\cdot\frac{k^2+4k+4}{4}=\left[\frac{\left(k+1\right)\left(k+2\right)}{2}\right]^2.
 $$
 
-It holds. By **Definition 4.4.1** (Mathematical Induction), the identity holds.
+It holds. By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
 $\blacksquare$
 
@@ -298,7 +302,7 @@ $$
 
 This matches $\frac{6\left(k+1\right)-5}{2\left(k+1\right)-1}=\frac{6k+1}{2k+1}$. It holds.
 
-By **Definition 4.4.1** (Mathematical Induction), the general term formula holds.
+By **Definition 4.4.1 (Mathematical Induction)**, the general term formula holds.
 
 $\blacksquare$
 
@@ -324,7 +328,7 @@ $$
 
 This matches $\frac{k+1}{3\left(k+1\right)+1}=\frac{k+1}{3k+4}$. It holds.
 
-By **Definition 4.4.1** (Mathematical Induction), the expression holds.
+By **Definition 4.4.1 (Mathematical Induction)**, the expression holds.
 
 $\blacksquare$
 
@@ -348,7 +352,7 @@ $$
 =\frac{\left(k+1\right)\left(2k+1\right)\left(k+2\right)}{2\left(2k+1\right)\left(2k+3\right)}=\frac{\left(k+1\right)\left(k+2\right)}{2\left(2k+3\right)}.
 $$
 
-It holds. By **Definition 4.4.1** (Mathematical Induction), the identity holds.
+It holds. By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
 $\blacksquare$
 
@@ -372,7 +376,7 @@ From $2^{k+1}> 2k^4$, it suffices to prove $2k^4> \left(k+1\right)^4$, i.e. $2> 
 
 When $k\ge 17$, $\left(1+\frac{1}{17}\right)^4< 2$, which holds.
 
-Hence $2^{k+1}> \left(k+1\right)^4$. By **Definition 4.4.1** (Mathematical Induction), when $n\ge 17$, $a_n> b_n$.
+Hence $2^{k+1}> \left(k+1\right)^4$. By **Definition 4.4.1 (Mathematical Induction)**, when $n\ge 17$, $a_n> b_n$.
 
 $\blacksquare$
 
@@ -386,7 +390,7 @@ $\blacksquare$
 
 From $x_k=x_{k+1}+\ln\left(1+x_{k+1}\right)$, if $x_{k+1}\le 0$, then $\ln\left(1+x_{k+1}\right)\le 0$, hence $x_k\le 0$, a contradiction.
 
-Therefore $x_{k+1}> 0$. By **Definition 4.4.1** (Mathematical Induction), $x_n> 0$ holds for all $n\in\mathbb N^*$.
+Therefore $x_{k+1}> 0$. By **Definition 4.4.1 (Mathematical Induction)**, $x_n> 0$ holds for all $n\in\mathbb N^*$.
 
 Also, $x_n-x_{n+1}=\ln\left(1+x_{n+1}\right)> 0$, hence $x_n> x_{n+1}$, so the sequence is decreasing.
 
@@ -410,7 +414,7 @@ In $3k\left(k+1\right)$, one of $k$ and $k+1$ must be even, so $3k\left(k+1\righ
 
 By the induction hypothesis, $k^3+5k$ is divisible by $6$, and $6$ is also divisible by $6$.
 
-Hence $\left(k+1\right)^3+5\left(k+1\right)$ is divisible by $6$. By **Definition 4.4.1** (Mathematical Induction), the proposition holds.
+Hence $\left(k+1\right)^3+5\left(k+1\right)$ is divisible by $6$. By **Definition 4.4.1 (Mathematical Induction)**, the proposition holds.
 
 $\blacksquare$
 
@@ -450,7 +454,7 @@ $$
 
 This agrees with $\frac{1}{12}\left(k+1\right)\left(k+2\right)\left(k+3\right)\left[3\left(k+1\right)+5\right]$. It holds.
 
-By **Definition 4.4.1** (Mathematical Induction), the identity holds.
+By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
 $\blacksquare$
 
@@ -480,6 +484,6 @@ $$
 a_1^{b_1}\cdots a_{k-1}^{b_{k-1}}\cdot\left(a_k b_k+a_{k+1}b_{k+1}\right)^{b_k+b_{k+1}}\le a_1 b_1+\cdots+a_{k-1}b_{k-1}+\left(a_k b_k+a_{k+1}b_{k+1}\right).
 $$
 
-Rearranging gives the $n=k+1$ case. By **Definition 4.4.1** (Mathematical Induction), the generalized proposition holds.
+Rearranging gives the $n=k+1$ case. By **Definition 4.4.1 (Mathematical Induction)**, the generalized proposition holds.
 
 $\blacksquare$

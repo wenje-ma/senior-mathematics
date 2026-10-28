@@ -1,18 +1,17 @@
-# Assignment 42
+# week42
+> **Basic Knowledge: 基本事实 8.5.1**<br>平行于同一条直线的两条直线平行.
+> **Definition 8.1.4 (棱柱)**<br>有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
+> **Corollary 8.4.6 (推论 2)**<br>经过两条相交直线, 有且只有一个平面.
+> **Definition 8.4.9 (直线与平面的位置关系)**<br>用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应把直线画在 表示平面α的平行四边形 内;直线在平面α外, 应把直线或它的一部分 画在表示平面α的平行四 边形外. (２)直线与平面相交———有且只有一个公共点; (３)直线与平面平行———没有公共点. 当直线与平面相交或平行时,直线不在平面内,也称为 直线在平面外. 图８.４１３表示了直线与平面的三种位置关系. α a α a A α a 图８.４１３ 直线与平面α相交于点,记作∩α＝;直线与平面α平行,记作∥α. ９２１ 下面我们研究空间中直线,平面之间的位置关系,
+> **Theorem 8.5.2 (Equal Angles Theorem)**<br>如果一个角的两边和另一个角的两边分别平行, 那么这两个角相等或互补.
+> **Theorem 8.5.3 (直线与平面平行的判定定理)**<br>平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
+> **Theorem 8.5.4 (直线与平面平行的性质定理)**<br>一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
+> **Theorem 8.5.5 (平面与平面平行的判定定理)**<br>一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
+> **Theorem 8.5.6 (Property Theorem of Parallel Planes)**<br>两个平行平面同时和第三个平面相交, 所得的交线平行.
 
-> **Basic Fact 8.5.1** (Basic Fact 4) <br>Two lines parallel to the same line are parallel to each other.
+---
 
-> **Theorem 8.5.2** (Equal-Angle Theorem) <br>If the two sides of two angles in space are respectively parallel, then the two angles are equal or supplementary.
-
-> **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane) <br>If a line outside a plane is parallel to a line lying in that plane, then the line is parallel to the plane.
-
-> **Theorem 8.5.4** (Property of a Line Parallel to a Plane) <br>If a line is parallel to a plane, and a plane passing through the line intersects this plane, then the line is parallel to the line of intersection.
-
-> **Theorem 8.5.5** (Criterion for Two Parallel Planes) <br>If two intersecting lines in one plane are parallel to another plane, then the two planes are parallel.
-
-> **Theorem 8.5.6** (Property of Two Parallel Planes) <br>If two planes are parallel and another plane intersects both of them, then the two lines of intersection are parallel.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 8.5, Problem 1) As shown in the figure, fold a rectangular sheet of paper several times and then unfold it. Are the resulting creases parallel to one another? Why?
 
@@ -24,7 +23,7 @@ By **Basic Fact 8.5.1** (Basic Fact 4), two lines parallel to the same line are 
 
 Each crease is parallel to the same side of the original rectangle, so all the creases are parallel to the same line. By **Basic Fact 8.5.1** (Basic Fact 4), these creases are parallel to one another. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, how many edges are parallel to the edge $AA'$? Which edges are they?
 
@@ -36,7 +35,7 @@ By **Basic Fact 8.5.1** (Basic Fact 4) and the properties of the edges of a cubo
 
 The cuboid has $12$ edges, among which the $4$ mutually parallel lateral edges are $AA'$, $BB'$, $CC'$, $DD'$. Besides $AA'$ itself, there are $3$ edges parallel to $AA'$, namely $BB'$, $CC'$, $DD'$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 8.5, Problem 3) As shown in the figure, $AA'$, $BB'$, $CC'$ are not coplanar, and $AA'=\ BB'$, $BB'=\ CC'$. Prove that $\triangle ABC\cong\triangle A'B'C'$.
 
@@ -44,15 +43,15 @@ The cuboid has $12$ edges, among which the $4$ mutually parallel lateral edges a
 
 ### Solution to Exercise 3
 
-By **Basic Fact 8.5.1** (Basic Fact 4) and **Theorem 8.5.2** (Equal-Angle Theorem).
+By **Basic Fact 8.5.1** (Basic Fact 4) and **Theorem 8.5.2 (Equal-Angle Theorem)**.
 
 Since $AA'=\ BB'$, the quadrilateral $ABB'A'$ is a parallelogram, so $AB\parallel A'B'$ and $AB=A'B'$. Similarly, since $BB'=\ CC'$, $BC\parallel B'C'$ and $BC=B'C'$.
 
-By **Theorem 8.5.2** (Equal-Angle Theorem), the two sides of $\angle ABC$ and those of $\angle A'B'C'$ are respectively parallel and in the same direction, so $\angle ABC=\angle A'B'C'$.
+By **Theorem 8.5.2 (Equal-Angle Theorem)**, the two sides of $\angle ABC$ and those of $\angle A'B'C'$ are respectively parallel and in the same direction, so $\angle ABC=\angle A'B'C'$.
 
 In $\triangle ABC$ and $\triangle A'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\angle A'B'C'$, hence $\triangle ABC\cong\triangle A'B'C'$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 8.5, Problem 4) As shown in the figure, in the tetrahedron $A\text{-}BCD$, $E$, $F$, $G$ are points on $AB$, $AC$, $AD$ respectively. If $EF\parallel BC$ and $FG\parallel CD$, what is the relationship between $\triangle EFG$ and $\triangle BCD$? Why?
 
@@ -60,7 +59,7 @@ In $\triangle ABC$ and $\triangle A'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\an
 
 ### Solution to Exercise 4
 
-By **Theorem 8.5.2** (Equal-Angle Theorem) and the proportional division of a segment by parallel lines.
+By **Theorem 8.5.2 (Equal-Angle Theorem)** and the proportional division of a segment by parallel lines.
 
 Since $EF\parallel BC$ and $FG\parallel CD$, the corresponding sides are parallel and in the same direction, so $\angle EFG=\angle BCD$.
 
@@ -68,7 +67,7 @@ Also, from $EF\parallel BC$, $\frac{EF}{BC}=\frac{AF}{AC}$; from $FG\parallel CD
 
 Since the corresponding sides are proportional and the included angle is equal, $\triangle EFG\sim\triangle BCD$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 8.5, Problem 1) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$,
 
@@ -82,7 +81,7 @@ Since the corresponding sides are proportional and the included angle is equal, 
 
 ### Solution to Exercise 5
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
 (1) $AB\parallel A'B'\subset$ plane $A'B'C'D'$, and $AB\parallel DC\subset$ plane $D'DC'C$, so the planes parallel to $AB$ are plane $A'B'C'D'$ and plane $D'DC'C$.
 
@@ -90,7 +89,7 @@ By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
 
 (3) $AD\parallel A'D'\subset$ plane $A'B'C'D'$, $AD\parallel BC\subset$ plane $B'BCC'$, so the planes parallel to $AD$ are plane $A'B'C'D'$ and plane $B'BCC'$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E'$ is a point on $A'A$. Prove that $AB\parallel$ plane $DCC'D'$.
 
@@ -98,13 +97,13 @@ By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
 
 ### Solution to Exercise 6
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
 In the cuboid, $AB\parallel DC$. Moreover, $DC\subset$ plane $DCC'D'$, and $AB\not\subset$ plane $DCC'D'$.
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane), the line $AB$ outside the plane is parallel to the line $DC$ lying in the plane, so $AB\parallel$ plane $DCC'D'$. $\blacksquare$
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, the line $AB$ outside the plane is parallel to the line $DC$ lying in the plane, so $AB\parallel$ plane $DCC'D'$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 8.5, Problem 1) Determine whether the following statements are correct. If correct, explain why; if wrong, give a counterexample.
 
@@ -120,11 +119,11 @@ By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane), the line 
 
 ### Solution to Exercise 7
 
-Judge by **Theorem 8.5.5** (Criterion for Two Parallel Planes).
+Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
 (1) Wrong. $m$ and $n$ must intersect; if $m\parallel n$, the two planes may intersect.
 
-(2) Correct. Two non-parallel lines in $\alpha$ are intersecting lines, and they are both parallel to $\beta$; by **Theorem 8.5.5** (Criterion for Two Parallel Planes), $\alpha\parallel\beta$.
+(2) Correct. Two non-parallel lines in $\alpha$ are intersecting lines, and they are both parallel to $\beta$; by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$.
 
 (3) Wrong. Counterexample: two intersecting planes both parallel to a line parallel to their line of intersection.
 
@@ -132,7 +131,7 @@ Judge by **Theorem 8.5.5** (Criterion for Two Parallel Planes).
 
 (5) Correct. If the line were parallel to the other plane or lay in it, then by the property of parallel planes it would also have no intersection point with the first plane, a contradiction. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 8.5, Problem 2) A sufficient condition for plane $\alpha$ to be parallel to plane $\beta$ can be ( ).
 
@@ -146,7 +145,7 @@ Judge by **Theorem 8.5.5** (Criterion for Two Parallel Planes).
 
 ### Solution to Exercise 8
 
-Judge by **Theorem 8.5.5** (Criterion for Two Parallel Planes).
+Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
 (A) Wrong. Infinitely many lines in $\alpha$ are parallel to $\beta$, but they may all be parallel to the line of intersection of the two planes.
 
@@ -154,11 +153,11 @@ Judge by **Theorem 8.5.5** (Criterion for Two Parallel Planes).
 
 (C) Wrong. $a$ and $b$ each lying in one plane cannot determine it.
 
-(D) Correct. Every line in $\alpha$ is parallel to $\beta$; in particular, one can take two intersecting lines both parallel to $\beta$, and by **Theorem 8.5.5** (Criterion for Two Parallel Planes), $\alpha\parallel\beta$.
+(D) Correct. Every line in $\alpha$ is parallel to $\beta$; in particular, one can take two intersecting lines both parallel to $\beta$, and by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$.
 
 Hence choose (D). $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 8.5, Problem 3) As shown in the figure, in the cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $M$, $N$, $E$, $F$ are the midpoints of the edges $A_{1}B_{1}$, $A_{1}D_{1}$, $B_{1}C_{1}$, $C_{1}D_{1}$ respectively. Prove that plane $AMN\parallel$ plane $DBEF$.
 
@@ -166,15 +165,15 @@ Hence choose (D). $\blacksquare$
 
 ### Solution to Exercise 9
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane) and **Theorem 8.5.5** (Criterion for Two Parallel Planes).
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
 Since $M$, $N$ are the midpoints of $A_{1}B_{1}$, $A_{1}D_{1}$ respectively, $MN\parallel B_{1}D_{1}$. Also $B_{1}D_{1}\parallel BD$, so $MN\parallel BD$. Since $BD\subset$ plane $DBEF$ and $MN\not\subset$ plane $DBEF$, we have $MN\parallel$ plane $DBEF$.
 
 Similarly, $AM\parallel DF$ (by the mid-segment and the symmetry of the cube), $DF\subset$ plane $DBEF$, $AM\not\subset$ plane $DBEF$, so $AM\parallel$ plane $DBEF$.
 
-Moreover, $MN\cap AM=M$; the two intersecting lines $MN$, $AM$ both lie in plane $AMN$ and are both parallel to plane $DBEF$. By **Theorem 8.5.5** (Criterion for Two Parallel Planes), plane $AMN\parallel$ plane $DBEF$. $\blacksquare$
+Moreover, $MN\cap AM=M$; the two intersecting lines $MN$, $AM$ both lie in plane $AMN$ and are both parallel to plane $DBEF$. By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, plane $AMN\parallel$ plane $DBEF$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 8.5, Problem 4) As shown in the figure, planes $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel b$. Determine the positional relationship of $c$ with $a$ and of $c$ with $\alpha$, and explain why.
 
@@ -182,17 +181,17 @@ Moreover, $MN\cap AM=M$; the two intersecting lines $MN$, $AM$ both lie in plane
 
 ### Solution to Exercise 10
 
-By **Theorem 8.5.6** (Property of Two Parallel Planes) and **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
+By **Theorem 8.5.6 (Property of Two Parallel Planes)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-Since $\alpha\parallel\beta$ and $\gamma$ intersects them at $a$, $b$ respectively, by **Theorem 8.5.6** (Property of Two Parallel Planes), $a\parallel b$.
+Since $\alpha\parallel\beta$ and $\gamma$ intersects them at $a$, $b$ respectively, by **Theorem 8.5.6 (Property of Two Parallel Planes)**, $a\parallel b$.
 
 Also $c\parallel b$, and by the transitivity of parallelism, $c\parallel a$.
 
-Since $c\parallel a$, $a\subset\alpha$, $c\not\subset\alpha$, by **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane), $c\parallel\alpha$.
+Since $c\parallel a$, $a\subset\alpha$, $c\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $c\parallel\alpha$.
 
 Hence $c\parallel a$, and $c\parallel\alpha$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 8.5, Review and Consolidation, Problem 1) Multiple choice.
 
@@ -206,25 +205,25 @@ Hence $c\parallel a$, and $c\parallel\alpha$. $\blacksquare$
 
 ### Solution to Problem 1
 
-Judge by **Definition 8.4.9** (Positional Relationship Between a Line and a Plane).
+Judge by **Definition 8.4.9 (Positional Relationship Between a Line and a Plane)**.
 
 (1) If line $a$ is not parallel to plane $\alpha$, then $a$ lies in $\alpha$ or intersects $\alpha$; in both cases there is a common point. Hence choose (D).
 
 (2) $a\parallel\alpha$, $P\in\alpha$. Pass a plane through $a$ and $P$; this plane intersects $\alpha$ in exactly one line $b$, and by the property of line-plane parallelism, $b\parallel a$. This line is unique and lies in $\alpha$. Hence choose (C). $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 8.5, Review and Consolidation, Problem 2) Given planes $\alpha$, $\beta$ and lines $a$, $b$, $c$, with $a\parallel b\parallel c$, $a\subset\alpha$, $b\subset\beta$, $c\subset\beta$, the positional relationship between $\alpha$ and $\beta$ is $\;\_\_\;$.
 
 ### Solution to Problem 2
 
-Judge by **Theorem 8.5.5** (Criterion for Two Parallel Planes).
+Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
 $b$, $c$ are two parallel lines in $\beta$, and $a$ lies in $\alpha$ and is parallel to $b$, $c$. But $b$, $c$ are parallel and do not intersect, so this cannot determine $\alpha\parallel\beta$. The two planes may be parallel or may intersect (the line of intersection is parallel to these three lines).
 
 Hence the positional relationship between $\alpha$ and $\beta$ is parallel or intersecting. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 8.5, Review and Consolidation, Problem 3) As shown in the figure, in a cuboid block $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, there is a point $P$ on the face $A_{1}C_{1}$. How can one draw a line through point $P$ parallel to the edge $CD$?
 
@@ -232,13 +231,13 @@ Hence the positional relationship between $\alpha$ and $\beta$ is parallel or in
 
 ### Solution to Problem 3
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane) and the construction of parallel lines.
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and the construction of parallel lines.
 
 In the plane $A_{1}B_{1}C_{1}D_{1}$, draw a line $EF$ through point $P$ such that $EF\parallel C_{1}D_{1}$, intersecting $A_{1}D_{1}$ and $B_{1}C_{1}$ at $E$ and $F$ respectively.
 
 Since $CD\parallel C_{1}D_{1}$ and the constructed $EF\parallel C_{1}D_{1}$, we have $EF\parallel CD$. The line $EF$ is the required one. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 8.5, Review and Consolidation, Problem 4) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E$, $F$ are the midpoints of $AB$, $BC$ respectively. Prove that $EF\parallel A'C'$.
 
@@ -252,7 +251,7 @@ In $\triangle ABC$, $E$, $F$ are the midpoints of $AB$, $BC$ respectively, so $E
 
 In the cuboid, $AC\parallel A'C'$. By **Basic Fact 8.5.1** (Basic Fact 4), $EF\parallel A'C'$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 8.5, Review and Consolidation, Problem 5) As shown in the figure on the next page, in the tetrahedron $D\text{-}ABC$, $E$, $F$, $G$ are the midpoints of $AB$, $BC$, $CD$ respectively. Prove that:
 
@@ -262,13 +261,13 @@ In the cuboid, $AC\parallel A'C'$. By **Basic Fact 8.5.1** (Basic Fact 4), $EF\p
 
 ### Solution to Problem 5
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-(1) $F$, $G$ are the midpoints of $BC$, $CD$ respectively; in $\triangle BCD$, $FG\parallel BD$. Also $FG\subset$ plane $EFG$ and $BD\not\subset$ plane $EFG$. By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane), $BD\parallel$ plane $EFG$.
+(1) $F$, $G$ are the midpoints of $BC$, $CD$ respectively; in $\triangle BCD$, $FG\parallel BD$. Also $FG\subset$ plane $EFG$ and $BD\not\subset$ plane $EFG$. By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $BD\parallel$ plane $EFG$.
 
-(2) $E$, $F$ are the midpoints of $AB$, $BC$ respectively; in $\triangle ABC$, $EF\parallel AC$. Also $EF\subset$ plane $EFG$ and $AC\not\subset$ plane $EFG$. By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane), $AC\parallel$ plane $EFG$. $\blacksquare$
+(2) $E$, $F$ are the midpoints of $AB$, $BC$ respectively; in $\triangle ABC$, $EF\parallel AC$. Also $EF\subset$ plane $EFG$ and $AC\not\subset$ plane $EFG$. By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $AC\parallel$ plane $EFG$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 8.5, Review and Consolidation, Problem 6) As shown in the figure, $a$, $b$ are skew lines. Draw a plane $\alpha$ such that $a\subset\alpha$ and $b\parallel\alpha$, and explain why.
 
@@ -276,13 +275,13 @@ By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
 
 ### Solution to Problem 6
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-Take any point $A$ on the line $a$, and through $A$ draw a line $b'\parallel b$. By **Corollary 8.4.6** (Corollary 2), the two intersecting lines $a$ and $b'$ determine a plane, denoted $\alpha$, so that $a\subset\alpha$.
+Take any point $A$ on the line $a$, and through $A$ draw a line $b'\parallel b$. By **Corollary 8.4.6 (Corollary 2)**, the two intersecting lines $a$ and $b'$ determine a plane, denoted $\alpha$, so that $a\subset\alpha$.
 
-Since $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, by **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane), $b\parallel\alpha$. Thus the plane $\alpha$ is the required one. $\blacksquare$
+Since $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $b\parallel\alpha$. Thus the plane $\alpha$ is the required one. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 8.5, Review and Consolidation, Problem 7) As shown in the figure, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$. Prove that $CD\parallel EF$.
 
@@ -290,15 +289,15 @@ Since $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, by **Theorem 8.5
 
 ### Solution to Problem 7
 
-By **Theorem 8.5.4** (Property of a Line Parallel to a Plane) and **Basic Fact 8.5.1** (Basic Fact 4).
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Basic Fact 8.5.1** (Basic Fact 4).
 
-Since $AB\parallel\alpha$, $AB\subset\beta$, $\beta\cap\alpha=CD$, by **Theorem 8.5.4** (Property of a Line Parallel to a Plane), $AB\parallel CD$.
+Since $AB\parallel\alpha$, $AB\subset\beta$, $\beta\cap\alpha=CD$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $AB\parallel CD$.
 
 Also $AB\subset\gamma$, $\gamma\cap\alpha=EF$, and by the same reasoning, $AB\parallel EF$.
 
 By **Basic Fact 8.5.1** (Basic Fact 4), $CD\parallel EF$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 8.5, Review and Consolidation, Problem 8) As shown in the figure, the lines $AA'$, $BB'$, $CC'$ intersect at point $O$, $AO=A'O$, $BO=B'O$, $CO=C'O$. Prove that plane $ABC\parallel$ plane $A'B'C'$.
 
@@ -306,7 +305,7 @@ By **Basic Fact 8.5.1** (Basic Fact 4), $CD\parallel EF$. $\blacksquare$
 
 ### Solution to Problem 8
 
-By **Theorem 8.5.5** (Criterion for Two Parallel Planes).
+By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
 In $\triangle AOB$ and $\triangle A'OB'$, $AO=A'O$, $BO=B'O$, $\angle AOB=\angle A'OB'$ (vertical angles), so $\triangle AOB\cong\triangle A'OB'$. Hence $\angle OAB=\angle OA'B'$, and so $AB\parallel A'B'$.
 
@@ -314,9 +313,9 @@ Similarly, $AO=A'O$, $CO=C'O$, $\angle AOC=\angle A'OC'$, which gives $AC\parall
 
 Since $AB\parallel A'B'$, $A'B'\subset$ plane $A'B'C'$, $AB\not\subset$ plane $A'B'C'$, we have $AB\parallel$ plane $A'B'C'$. Similarly, $AC\parallel$ plane $A'B'C'$.
 
-Moreover, $AB\cap AC=A$; by **Theorem 8.5.5** (Criterion for Two Parallel Planes), plane $ABC\parallel$ plane $A'B'C'$. $\blacksquare$
+Moreover, $AB\cap AC=A$; by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, plane $ABC\parallel$ plane $A'B'C'$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 8.5, Comprehensive Application, Problem 9) As shown in the figure, $E$, $E'$ are the midpoints of the edges $AD$, $A'D'$ of the cuboid $ABCD\text{-}A'B'C'D'$ respectively. Prove that $\angle BEC=\angle B'E'C'$.
 
@@ -324,15 +323,15 @@ Moreover, $AB\cap AC=A$; by **Theorem 8.5.5** (Criterion for Two Parallel Planes
 
 ### Solution to Problem 9
 
-By **Theorem 8.5.2** (Equal-Angle Theorem).
+By **Theorem 8.5.2 (Equal-Angle Theorem)**.
 
 In the cuboid, $EE'\parallel AA'\parallel BB'\parallel CC'$, and the directions of $BE$ and $B'E'$ are correspondingly parallel, as are those of $CE$ and $C'E'$.
 
 The two sides $EB$, $EC$ of $\angle BEC$ and the two sides $E'B'$, $E'C'$ of $\angle B'E'C'$ are respectively parallel and in the same direction.
 
-By **Theorem 8.5.2** (Equal-Angle Theorem), $\angle BEC=\angle B'E'C'$. $\blacksquare$
+By **Theorem 8.5.2 (Equal-Angle Theorem)**, $\angle BEC=\angle B'E'C'$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 8.5, Comprehensive Application, Problem 10) As shown in the figure, $AB\parallel\alpha$, $AC\parallel BD$, $C\in\alpha$, $D\in\alpha$. Prove that $AC=BD$.
 
@@ -340,31 +339,31 @@ By **Theorem 8.5.2** (Equal-Angle Theorem), $\angle BEC=\angle B'E'C'$. $\blacks
 
 ### Solution to Problem 10
 
-By **Theorem 8.5.4** (Property of a Line Parallel to a Plane).
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**.
 
-Since $C$, $D\in\alpha$, the line $CD\subset\alpha$. Also $AB\parallel\alpha$; the plane passing through $AB$ and $CD$ intersects $\alpha$ in $CD$, and by **Theorem 8.5.4** (Property of a Line Parallel to a Plane), $AB\parallel CD$.
+Since $C$, $D\in\alpha$, the line $CD\subset\alpha$. Also $AB\parallel\alpha$; the plane passing through $AB$ and $CD$ intersects $\alpha$ in $CD$, and by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $AB\parallel CD$.
 
 Moreover, it is given that $AC\parallel BD$, so the two pairs of opposite sides of the quadrilateral $ABDC$ are respectively parallel, and it is a parallelogram.
 
 Therefore $AC=BD$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 8.5, Comprehensive Application, Problem 11) Given two parallel lines outside a plane, if one of them is parallel to this plane, prove that the other is also parallel to this plane.
 
 ### Solution to Problem 11
 
-By **Theorem 8.5.4** (Property of a Line Parallel to a Plane) and **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
 Let the lines be $a\parallel b$, $a\parallel$ plane $\alpha$, and both $a$, $b$ lie outside $\alpha$.
 
-Pass a plane $\beta$ through $a$ such that $\beta\cap\alpha=c$. Since $a\parallel\alpha$, by **Theorem 8.5.4** (Property of a Line Parallel to a Plane), $a\parallel c$.
+Pass a plane $\beta$ through $a$ such that $\beta\cap\alpha=c$. Since $a\parallel\alpha$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $a\parallel c$.
 
-Also $a\parallel b$, so by the transitivity of parallelism, $b\parallel c$. Since $c\subset\alpha$ and $b\not\subset\alpha$, by **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane), $b\parallel\alpha$.
+Also $a\parallel b$, so by the transitivity of parallelism, $b\parallel c$. Since $c\subset\alpha$ and $b\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $b\parallel\alpha$.
 
 Hence the other line $b$ is also parallel to the plane $\alpha$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 8.5, Comprehensive Application, Problem 12) A wooden block is shown in the figure on the next page. Point $P$ lies in the plane $VAC$. Saw the block through point $P$ so that the cross-section is parallel to the lines $VB$ and $AC$. How should one draw the lines on the surface of the block?
 
@@ -372,7 +371,7 @@ Hence the other line $b$ is also parallel to the plane $\alpha$. $\blacksquare$
 
 ### Solution to Problem 12
 
-By **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane) and **Theorem 8.5.4** (Property of a Line Parallel to a Plane).
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**.
 
 In the plane $VAC$, through $P$ draw a line $EF\parallel AC$, intersecting $VA$ and $VC$ at $E$ and $F$ respectively.
 
@@ -380,7 +379,7 @@ In the plane $VAB$, through $E$ draw a line $EG\parallel VB$, intersecting $AB$ 
 
 Then the cross-section $EFGH$ is the required one: $EF\parallel AC$, $EG\parallel FH\parallel VB$. Simply draw the lines along $EF$, $EG$, $GH$, $FH$ and saw along them. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 8.5, Extension and Exploration, Problem 13) As shown in the figure, $\alpha\parallel\beta\parallel\gamma$. The lines $a$ and $b$ intersect $\alpha$, $\beta$, $\gamma$ at points $A$, $B$, $C$ and points $D$, $E$, $F$ respectively. Prove that $\frac{AB}{BC}=\frac{DE}{EF}$.
 
@@ -388,17 +387,17 @@ Then the cross-section $EFGH$ is the required one: $EF\parallel AC$, $EG\paralle
 
 ### Solution to Problem 13
 
-By **Theorem 8.5.6** (Property of Two Parallel Planes) and the proportional division of a segment by parallel lines.
+By **Theorem 8.5.6 (Property of Two Parallel Planes)** and the proportional division of a segment by parallel lines.
 
 Connect $AF$, intersecting the plane $\beta$ at point $G$. The plane $ACF$ intersects $\beta$ in $BG$ and $\gamma$ in $CF$.
 
-Since $\beta\parallel\gamma$, by **Theorem 8.5.6** (Property of Two Parallel Planes), $BG\parallel CF$. In $\triangle ACF$, $\frac{AB}{BC}=\frac{AG}{GF}$.
+Since $\beta\parallel\gamma$, by **Theorem 8.5.6 (Property of Two Parallel Planes)**, $BG\parallel CF$. In $\triangle ACF$, $\frac{AB}{BC}=\frac{AG}{GF}$.
 
 Similarly, the plane $ADF$ intersects $\beta$ in $GE$ and $\alpha$ in $AD$. Since $\alpha\parallel\beta$, $AD\parallel GE$. In $\triangle ADF$, $\frac{DE}{EF}=\frac{AG}{GF}$.
 
 Hence $\frac{AB}{BC}=\frac{DE}{EF}$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 8.5, Extension and Exploration, Problem 14) As shown in the figure, $a$, $b$ are skew lines, $a\subset\alpha$, $a\parallel\beta$, $b\subset\beta$, $b\parallel\alpha$. Prove that $\alpha\parallel\beta$.
 
@@ -406,17 +405,17 @@ Hence $\frac{AB}{BC}=\frac{DE}{EF}$. $\blacksquare$
 
 ### Solution to Problem 14
 
-By **Theorem 8.5.4** (Property of a Line Parallel to a Plane) and **Theorem 8.5.5** (Criterion for Two Parallel Planes).
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
-Pass a plane through $a$ intersecting $\beta$ in a line $a'$. Since $a\parallel\beta$, by **Theorem 8.5.4** (Property of a Line Parallel to a Plane), $a\parallel a'$.
+Pass a plane through $a$ intersecting $\beta$ in a line $a'$. Since $a\parallel\beta$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $a\parallel a'$.
 
 Since $a$, $b$ are skew and $a\parallel a'$, the line $a'$ must intersect $b$; let the intersection point be $P$.
 
 Within $\beta$, $a'$ and $b$ are two intersecting lines. From $a\parallel a'$, $a\subset\alpha$, $a'\not\subset\alpha$, we get $a'\parallel\alpha$. It is also given that $b\parallel\alpha$.
 
-By **Theorem 8.5.5** (Criterion for Two Parallel Planes), the two intersecting lines $a'$, $b$ in $\beta$ are both parallel to $\alpha$, so $\alpha\parallel\beta$. $\blacksquare$
+By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, the two intersecting lines $a'$, $b$ in $\beta$ are both parallel to $\alpha$, so $\alpha\parallel\beta$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 8.5, Extension and Exploration, Problem 15) As shown in the figure, a transparent plastic cuboid container $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ is filled with some water. One edge $BC$ of the bottom of the container is fixed on the ground, and then the container is tilted. As the angle of tilt changes, consider the following five statements:
 
@@ -436,7 +435,7 @@ Among them, the numbers of all the correct statements are $\;\_\_\;$. Why?
 
 ### Solution to Problem 15
 
-By **Definition 8.1.4** (Prism) and **Theorem 8.5.3** (Criterion for a Line Being Parallel to a Plane).
+By **Definition 8.1.4 (Prism)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
 With the edge $BC$ fixed, the water surface is always a plane parallel to the ground, and its line of intersection with the side faces of the cuboid is always parallel to $BC$.
 

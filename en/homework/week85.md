@@ -1,16 +1,11 @@
-# Assignment 85
+# week85
+> **Definition 7.2.3 (分布列)**<br>设离散型随机变量 X 可能取的值为 x1, x2, ..., xn, X 取每一个值 xi 的概率 P(X=xi) = pi, 则表称为 X 的分布列.
+> **Definition 7.3.1 (均值)**<br>若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
+> **Definition 7.3.3 (Variance and Standard Deviation)**<br>D(X) = sum[(xi - E(X))^2 * pi] 称为随机变量 X 的方差, 其算术平方根 sqrt(D(X)) 称为标准差.
 
-> **Definition 7.3.1** (Mean) <br>If the distribution of a discrete random variable $X$ is $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, then we call $\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ the mean or mathematical expectation of the random variable $X$, abbreviated as the expectation.
+---
 
-> **Conclusion 7.3.2** (Properties of the Mean) <br>For constants $a$, $b$, we have $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$.
-
-> **Definition 7.3.3** (Variance and Standard Deviation) <br>We call $D\left(X\right)=\sum_{i=1}^n \left(x_i-\mathbb E\left(X\right)\right)^2 p_i$ the variance of the random variable $X$, and call $\sqrt{D\left(X\right)}$ the standard deviation of the random variable $X$, denoted by $\sigma\left(X\right)$.
-
-> **Conclusion 7.3.4** (Simplified Formula for Variance) <br>$D\left(X\right)=\sum_{i=1}^n x_i^2 p_i-\left(\mathbb E\left(X\right)\right)^2$.
-
-> **Conclusion 7.3.5** (Properties of Variance) <br>For constants $a$, $b$, we have $D\left(aX+b\right)=a^2 D\left(X\right)$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 7.3, Problem 1) The distribution of a random variable $X$ is
 
@@ -24,7 +19,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 7.3.1** (Mean) and **Conclusion 7.3.2** (Properties of the Mean).
+By **Definition 7.3.1 (Mean)** and **Conclusion 7.3.2** (Properties of the Mean).
 
 (1)
 
@@ -40,13 +35,13 @@ $$
 
 $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 7.3, Problem 2) A coin is tossed; heads up scores 1 point and tails up scores $-1$ point. Find the mean of the score $X$.
 
 ### Solution to Exercise 2
 
-By **Definition 7.3.1** (Mean).
+By **Definition 7.3.1 (Mean)**.
 
 Let $X$ be the score. Tossing a fair coin, $\mathbb P\left(X=1\right)=\mathbb P\left(X=-1\right)=0.5$. Thus
 
@@ -56,7 +51,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 7.3, Problem 3) Two machines A and B produce the same kind of parts, with the same output. The numbers of defective parts produced within $1\,\mathrm{h}$ are $X_1$ and $X_2$, whose distributions are
 
@@ -72,7 +67,7 @@ Which machine is better? Explain the practical meaning of your conclusion.
 
 ### Solution to Exercise 3
 
-By **Definition 7.3.1** (Mean), compare the expectations of the numbers of defective parts from the two machines.
+By **Definition 7.3.1 (Mean)**, compare the expectations of the numbers of defective parts from the two machines.
 
 $$
 \mathbb E\left(X_1\right)=0\times 0.4+1\times 0.3+2\times 0.2+3\times 0.1=1.0.
@@ -84,7 +79,7 @@ $$
 
 Because $\mathbb E\left(X_2\right)< \mathbb E\left(X_1\right)$, i.e. machine B produces fewer defective parts per hour on average, machine B is better. The practical meaning is: with the same output, machine B has a lower average rate of defective parts and is more stable and reliable. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 7.3, Problem 1) The distribution of a random variable $X$ is
 
@@ -96,7 +91,7 @@ Find $D\left(X\right)$ and $\sigma\left(2X+7\right)$.
 
 ### Solution to Exercise 4
 
-By **Definition 7.3.1** (Mean), **Conclusion 7.3.4** (Simplified Formula for Variance) and **Conclusion 7.3.5** (Properties of Variance).
+By **Definition 7.3.1 (Mean)**, **Conclusion 7.3.4** (Simplified Formula for Variance) and **Conclusion 7.3.5** (Properties of Variance).
 
 $$
 \mathbb E\left(X\right)=1\times 0.2+2\times 0.3+3\times 0.4+4\times 0.1=2.4.
@@ -120,15 +115,15 @@ $$
 
 $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 7.3, Problem 2) If a random variable $X$ satisfies $\mathbb P\left(X=c\right)=1$, where $c$ is a constant, find $D\left(X\right)$.
 
 ### Solution to Exercise 5
 
-By **Definition 7.3.1** (Mean) and **Definition 7.3.3** (Variance and Standard Deviation).
+By **Definition 7.3.1 (Mean)** and **Definition 7.3.3 (Variance and Standard Deviation)**.
 
-Because $\mathbb P\left(X=c\right)=1$, we have $\mathbb E\left(X\right)=c\times 1=c$. By **Definition 7.3.3** (Variance and Standard Deviation),
+Because $\mathbb P\left(X=c\right)=1$, we have $\mathbb E\left(X\right)=c\times 1=c$. By **Definition 7.3.3 (Variance and Standard Deviation)**,
 
 $$
 D\left(X\right)=\left(c-\mathbb E\left(X\right)\right)^2\times 1=\left(c-c\right)^2=0.
@@ -136,7 +131,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 7.3, Problem 3) Students from classes A and B each visually estimate the length of a mathematics textbook. The distributions of their errors $X$ and $Y$ (unit: $\mathrm{cm}$) are as follows:
 
@@ -152,7 +147,7 @@ First judge intuitively which of the distributions of $X$ and $Y$ is more spread
 
 ### Solution to Exercise 6
 
-By **Definition 7.3.3** (Variance and Standard Deviation).
+By **Definition 7.3.3 (Variance and Standard Deviation)**.
 
 Both distributions are symmetric about 0; intuitively the errors in class B are more concentrated near 0 (probability 0.6), so $X$ is more spread out.
 
@@ -168,13 +163,13 @@ $$
 
 Since $D\left(X\right)=1.2> D\left(Y\right)=0.7$, $X$ is more spread out, which agrees with the intuitive judgment. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 7.3, Review and Consolidation, Problem 1) A brand of mobile phones is launched on the market. Each phone may be sold at list price, sold at a discount, or unsold and returned. Sold at list price gives a profit of 100 yuan per phone; sold at a discount gives 0 yuan per phone; unsold and returned gives a profit of $-300$ yuan per phone. Market analysis shows the probabilities of these three cases are 0.6, 0.3, 0.1, respectively. Find the mean and variance of the profit per phone.
 
 ### Solution to Problem 1
 
-By **Definition 7.3.1** (Mean) and **Conclusion 7.3.4** (Simplified Formula for Variance).
+By **Definition 7.3.1 (Mean)** and **Conclusion 7.3.4** (Simplified Formula for Variance).
 
 Let the profit per phone be $X$. Its possible values are $100$, $0$, $-300$, with corresponding probabilities $0.6$, $0.3$, $0.1$.
 
@@ -194,13 +189,13 @@ $$
 
 Thus the mean profit per phone is 30 yuan, and the variance is 14100. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 7.3, Review and Consolidation, Problem 2) Now 10000 lottery tickets are to be issued: 1000 tickets win 2 yuan, 300 tickets win 10 yuan, 100 tickets win 50 yuan, 50 tickets win 100 yuan, and 5 tickets win 1000 yuan. What is the mean winning amount of 1 ticket, in yuan?
 
 ### Solution to Problem 2
 
-By **Definition 7.3.1** (Mean).
+By **Definition 7.3.1 (Mean)**.
 
 Let the winning amount of 1 ticket be $X$. Use the weighted average to find $\mathbb E\left(X\right)$.
 
@@ -214,13 +209,13 @@ $$
 
 Thus the mean winning amount of 1 ticket is 2 yuan. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 7.3, Review and Consolidation, Problem 3) The distribution of a random variable $X$ is $\mathbb P\left(X=0\right)=0.2$, $\mathbb P\left(X=1\right)=a$, $\mathbb P\left(X=2\right)=b$. If $\mathbb E\left(X\right)=1$, find $a$ and $b$.
 
 ### Solution to Problem 3
 
-By the normalization property of **Definition 7.2.3** (Probability Distribution) and **Definition 7.3.1** (Mean).
+By the normalization property of **Definition 7.2.3 (Probability Distribution)** and **Definition 7.3.1 (Mean)**.
 
 From the sum of the probabilities being 1, we get
 
@@ -236,13 +231,13 @@ $$
 
 Solving the two equations simultaneously and subtracting gives $b=0.2$, and substituting back gives $a=0.6$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 7.3, Review and Consolidation, Problem 4) In multiple-choice questions with a single answer, each question has four options, of which only one is correct. If one option is chosen at random from the four, the probability of choosing correctly is 0.25. Assign suitable scores to correct and wrong choices so that the mean score when choosing at random is 0.
 
 ### Solution to Problem 4
 
-By **Definition 7.3.1** (Mean).
+By **Definition 7.3.1 (Mean)**.
 
 Let a correct choice score $m$ points and a wrong choice score $n$ points. When choosing at random, the probability of a correct choice is 0.25 and of a wrong choice is 0.75. We require the mean to be 0, i.e.
 
@@ -258,15 +253,15 @@ $$
 
 Thus we may stipulate that a correct choice scores 3 points and a wrong choice loses 1 point. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 7.3, Review and Consolidation, Problem 5) Prove that $D\left(aX+b\right)=a^2 D\left(X\right)$.
 
 ### Solution to Problem 5
 
-By **Conclusion 7.3.2** (Properties of the Mean) and **Definition 7.3.3** (Variance and Standard Deviation).
+By **Conclusion 7.3.2** (Properties of the Mean) and **Definition 7.3.3 (Variance and Standard Deviation)**.
 
-By **Conclusion 7.3.2** (Properties of the Mean), $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$. By **Definition 7.3.3** (Variance and Standard Deviation),
+By **Conclusion 7.3.2** (Properties of the Mean), $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$. By **Definition 7.3.3 (Variance and Standard Deviation)**,
 
 $$
 D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-\mathbb E\left(aX+b\right)\right)^2 p_i.
@@ -280,13 +275,13 @@ $$
 
 Thus $D\left(aX+b\right)=a^2 D\left(X\right)$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 7.3, Comprehensive Application, Problem 6) There are two riddles $A$ and $B$. The probability that Zhang solves riddle $A$ correctly is 0.8, for which the prize is 10 yuan; the probability that he solves riddle $B$ correctly is 0.5, for which the prize is 20 yuan. The rule states: only if the first riddle is solved correctly is one eligible to guess the second. If the order of guessing is chosen by Zhang, which riddle should he choose to guess first?
 
 ### Solution to Problem 6
 
-By **Definition 7.3.1** (Mean), compute and compare the expected prize under the two orders.
+By **Definition 7.3.1 (Mean)**, compute and compare the expected prize under the two orders.
 
 If guessing $A$ first: guessing $A$ wrong (probability 0.2) gives 0 yuan; guessing $A$ correctly (probability 0.8) and then guessing $B$, guessing $B$ correctly (probability 0.5) gives $10+20=30$ yuan, and guessing $B$ wrong (probability 0.5) gives 10 yuan. The expectation of the prize $X_1$ is
 
@@ -302,7 +297,7 @@ $$
 
 Because $\mathbb E\left(X_1\right)=16> \mathbb E\left(X_2\right)=14$, Zhang should choose to guess riddle $A$ first. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 7.3, Comprehensive Application, Problem 7) For two watch brands A and B, their daily timing errors are $X$ and $Y$ (unit: $\mathrm{s}$), with distributions
 
@@ -318,7 +313,7 @@ Compare the performance of the two watch brands A and B.
 
 ### Solution to Problem 7
 
-By **Definition 7.3.1** (Mean) and **Definition 7.3.3** (Variance and Standard Deviation).
+By **Definition 7.3.1 (Mean)** and **Definition 7.3.3 (Variance and Standard Deviation)**.
 
 Both distributions are symmetric about 0, so $\mathbb E\left(X\right)=0$ and $\mathbb E\left(Y\right)=0$, i.e. both watches have no average timing bias.
 
@@ -332,13 +327,13 @@ $$
 
 Because $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ but $D\left(X\right)< D\left(Y\right)$, i.e. watch A has a smaller and more stable timing error, brand A watches perform better. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 7.3, Extension and Exploration, Problem 8) Let $\mathbb E\left(X\right)=\mu$, and let $a$ be a constant different from $\mu$. Investigate the relationship between the degree to which $X$ deviates from $\mu$ and the degree to which $X$ deviates from $a$, and explain the significance of the conclusion.
 
 ### Solution to Problem 8
 
-By **Definition 7.3.1** (Mean) and **Definition 7.3.3** (Variance and Standard Deviation).
+By **Definition 7.3.1 (Mean)** and **Definition 7.3.3 (Variance and Standard Deviation)**.
 
 Use the mean-square deviation to measure how much $X$ deviates from a constant. Expand the mean-square deviation of $X$ from $a$:
 

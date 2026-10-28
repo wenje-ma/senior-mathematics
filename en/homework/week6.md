@@ -1,26 +1,9 @@
-# Assignment 6
+# week6
+> **Basic Knowledge: 基本事实 2.1.1**<br>如果 $a-b$ 是正数, 那么 $a> b$; 如果 $a-b$ 等于 $0$, 那么 $a=b$; 如果 $a-b$ 是负数, 那么 $a< b$. 反过来也对, 即 $a> b\Leftrightarrow a-b> 0$, $a=b\Leftrightarrow a-b=0$, $a< b\Leftrightarrow a-b< 0$.
 
-> **Basic Fact 2.1.1** (Order Relations Among Real Numbers) <br>If $a-b$ is positive, then $a> b$; if $a-b$ equals $0$, then $a=b$; if $a-b$ is negative, then $a< b$. The converse also holds, namely $a> b\Leftrightarrow a-b> 0$, $a=b\Leftrightarrow a-b=0$, $a< b\Leftrightarrow a-b< 0$.
+---
 
-> **Standard Conclusion 2.1.2** (Important Inequality) <br>For $\forall a,b\in\mathbb R$, we have $a^2+b^2\ge 2ab$, with equality holding if and only if $a=b$.
-
-> **Basic Properties of Equality** <br>Property 1 If $a=b$, then $b=a$; Property 2 If $a=b$ and $b=c$, then $a=c$; Property 3 If $a=b$, then $a\pm c=b\pm c$; Property 4 If $a=b$, then $ac=bc$; Property 5 If $a=b$ and $c\neq0$, then $\frac{a}{c}=\frac{b}{c}$.
-
-> **Property 2.1.3** (Symmetry) <br>If $a> b$, then $b< a$; if $b< a$, then $a> b$. Namely, $a> b\Leftrightarrow b< a$.
-
-> **Property 2.1.4** (Transitivity) <br>If $a> b$ and $b> c$, then $a> c$. Namely, $a> b$, $b> c\Rightarrow a> c$.
-
-> **Property 2.1.5** (Additivity) <br>If $a> b$, then $a+c> b+c$. That is, adding the same real number to both sides of an inequality yields an inequality with the same direction.
-
-> **Property 2.1.6** (Multiplicativity) <br>If $a> b$ and $c> 0$, then $ac> bc$; if $a> b$ and $c< 0$, then $ac< bc$. That is, multiplying both sides of an inequality by a positive number yields an inequality with the same direction; multiplying both sides by a negative number reverses the direction.
-
-> **Property 2.1.7** (Adding Inequalities in the Same Direction) <br>If $a> b$ and $c> d$, then $a+c> b+d$.
-
-> **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) <br>If $a> b> 0$ and $c> d> 0$, then $ac> bd$.
-
-> **Property 2.1.9** (Powers) <br>If $a> b> 0$, then $a^n> b^n$ ($n\in\mathbb N$, $n\ge2$).
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 2.1, Problem 1) Express the following order relations using inequalities or systems of inequalities.
 
@@ -48,7 +31,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 2.1, Problem 2) Compare $\left(x+3\right)\left(x+7\right)$ and $\left(x+4\right)\left(x+6\right)$.
 
@@ -64,7 +47,7 @@ $$
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $\left(x+3\right)\left(x+7\right)< \left(x+4\right)\left(x+6\right)$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 2.1, Problem 3) Given $a> b$, prove that $a> \frac{a+b}{2}> b$.
 
@@ -92,7 +75,7 @@ so $\frac{a+b}{2}> b$.
 
 In summary, $a> \frac{a+b}{2}> b$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 2.1, Problem 4) Prove inequality Properties 1, 3, 4, and 6.
 
@@ -120,7 +103,7 @@ so $ac> bc$; when $c< 0$, $c\left(a-b\right)< 0$, i.e. $ac-bc< 0$, so $ac< bc$.
 
 Proof of **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms): If $a> b> 0$ and $c> 0$, then by **Property 2.1.6** (Multiplicativity) we get $ac> bc$; also $c> d> 0$ and $b> 0$, and again by **Property 2.1.6** (Multiplicativity) we get $bc> bd$. By **Property 2.1.4** (Transitivity), $ac> bc> bd$, so $ac> bd$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 2.1, Problem 5) Fill in the blanks with the inequality sign "$> $" or "$< $".
 
@@ -146,7 +129,7 @@ By **Property 2.1.6** (Multiplicativity), **Property 2.1.7** (Adding Inequalitie
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 2.1, Review and Consolidation, Problem 1) Give several examples of inequalities in real life.
 
@@ -164,7 +147,7 @@ For example:
 
 (4) the capacity $V$ of a certain container is not more than $5\ \mathrm L$, i.e. $V\le5$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 2.1, Review and Consolidation, Problem 2) To increase the green area of a city, the municipal ecology and environment bureau proposes two investment plans: Plan $A$ is a one-time investment of $500$ ten-thousand yuan; Plan $B$ is an investment of $100$ ten-thousand yuan in the first year and $10$ ten-thousand yuan in each subsequent year. Write an inequality expressing "after $n$ years, the investment under Plan $B$ is not less than the investment under Plan $A$".
 
@@ -184,7 +167,7 @@ $$
 
 $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 2.1, Review and Consolidation, Problem 3) Compare the sizes of the two algebraic expressions in each of the following groups.
 
@@ -214,7 +197,7 @@ $$
 
 so $x^2+y^2+1> 2\left(x+y-1\right)$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 2.1, Review and Consolidation, Problem 4) A two-digit number is greater than $50$ and less than $60$, and its units digit is $2$ greater than its tens digit. Express the above relation using inequalities, and find this two-digit number (let $a$ and $b$ denote the tens digit and the units digit respectively).
 
@@ -236,7 +219,7 @@ $$
 
 Since $a,b$ are both digits and $50< 10a+b< 60$, the tens digit $a$ must be $5$. Substituting into $b=a+2$, we get $b=7$. Thus the required two-digit number is $57$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 2.1, Review and Consolidation, Problem 5) Given $2< a< 3$ and $-2< b< -1$, find the range of $2a+b$.
 
@@ -254,7 +237,7 @@ $$
 
 i.e. $2< 2a+b< 5$. Thus the range of $2a+b$ is $\left\{x\mid2< x< 5\right\}$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 2.1, Review and Consolidation, Problem 6) Prove that $c< b$, $b< a\Rightarrow c< a$.
 
@@ -270,7 +253,7 @@ $$
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $c< a$. This is precisely **Property 2.1.4** (Transitivity). $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 2.1, Comprehensive Application, Problem 7) Given $a> b> 0$, $c< d< 0$, and $e< 0$, prove that $\frac{e}{a-c}> \frac{e}{b-d}$.
 
@@ -298,7 +281,7 @@ $$
 
 $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 2.1, Comprehensive Application, Problem 8) Which of the following propositions is true?
 
@@ -324,7 +307,7 @@ By **Property 2.1.6** (Multiplicativity) and **Property 2.1.9** (Powers), judge 
 
 Thus the true proposition is ($B$). $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 2.1, Comprehensive Application, Problem 9) Prove that the area of a circle is greater than the area of a square with the same perimeter. Based on this, explain why people usually make the cross-section of a water pipe circular rather than square.
 
@@ -346,7 +329,7 @@ Since $4\pi< 16$, we have $\frac{1}{4\pi}> \frac{1}{16}$, so the above expressio
 
 When the perimeters of the cross-sections are equal, the circular cross-section has the largest area. Therefore, water pipes are made circular, so that with the same material the water-passing cross-section is the largest and the flow capacity is the strongest. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 2.1, Comprehensive Application, Problem 10) Given that $b$ grams of sugar water contains $a$ grams of sugar ($b> a> 0$), and then $m$ grams of sugar ($m> 0$) are added (assuming all dissolves), the sugar water becomes sweeter. Express this fact as an inequality, and prove that this inequality holds.
 
@@ -364,7 +347,7 @@ $$
 
 Since $b> a> 0$ and $m> 0$, the numerator $m\left(b-a\right)> 0$ and the denominator $b\left(b+m\right)> 0$, so the difference is positive, i.e. $\frac{a+m}{b+m}> \frac{a}{b}$. Thus after adding $m$ grams of sugar the sugar water becomes sweeter. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 2.1, Extension and Exploration, Problem 11) Given $a> b> 0$, prove that $\sqrt a> \sqrt b$.
 
@@ -380,7 +363,7 @@ $$
 
 From $a> b$ we know $a-b> 0$, while $\sqrt a+\sqrt b> 0$, so $\sqrt a-\sqrt b> 0$, i.e. $\sqrt a> \sqrt b$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 2.1, Extension and Exploration, Problem 12) At a railway station, a company has $1530\ \mathrm t$ of type-A cargo and $1150\ \mathrm t$ of type-B cargo waiting to be shipped. It is planned to use a total of $50$ freight carriages of types $A$ and $B$ to transport this batch of cargo. It is known that $35\ \mathrm t$ of type-A cargo and $15\ \mathrm t$ of type-B cargo can fill one type-$A$ freight carriage, and $25\ \mathrm t$ of type-A cargo and $35\ \mathrm t$ of type-B cargo can fill one type-$B$ freight carriage. Based on this, arrange the numbers of type-$A$ and type-$B$ freight carriages. How many plans are there? If the freight cost per type-$A$ freight carriage is $0.5$ ten-thousand yuan and per type-$B$ freight carriage is $0.8$ ten-thousand yuan, which plan has the lower freight cost?
 

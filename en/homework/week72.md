@@ -1,14 +1,18 @@
-# Assignment 72
+# week72
+> **Basic Knowledge: 常用结论 4.2.4**<br>当 $d\ne 0$ 时, $a_n=dn+\left(a_1-d\right)$ 是一次函数 $f\left(x\right)=dx+\left(a_1-d\right)$ 当 $x=n$ 时的函数值.
+> **Definition 4.1.5 (General Term Formula)**<br>如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.1.6 (递推公式)**<br>如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **Definition 4.2.1 (Arithmetic Sequence)**<br>如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **Definition 4.2.2 (等差中项)**<br>由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**<br>等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.5 (等差数列性质)**<br>在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**<br>如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
 
-> **Definition 4.2.1** (Arithmetic Sequence) <br>If, starting from the $2$nd term, the difference between every term and the preceding term of a sequence equals the same constant, then the sequence is called an arithmetic sequence, and this constant is called the common difference of the arithmetic sequence, usually denoted by the letter $d$.
-> **Definition 4.2.2** (Arithmetic Mean) <br>For an arithmetic sequence formed by three numbers $a,A,b$, $A$ is called the arithmetic mean of $a$ and $b$. By the definition of an arithmetic sequence, $2A=a+b$.
-> **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence) <br>For an arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$, the general term formula is $a_n=a_1+\left(n-1\right)d$.
-> **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions) <br>When $d\ne 0$, $a_n=dn+\left(a_1-d\right)$ is the value of the linear function $f\left(x\right)=dx+\left(a_1-d\right)$ at $x=n$.
-> **Theorem 4.2.5** (Properties of Arithmetic Sequences) <br>In an arithmetic sequence $\left\{a_n\right\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
-> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
-> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+---
 
-### Exercise 1
+## Exercise 1
 
 (Exercise 4.2, Problem 1) Determine whether the following sequences are arithmetic sequences. If so, write down their common difference
 
@@ -22,19 +26,19 @@
 
 ### Solution to Exercise 1
 
-(1) By **Definition 4.2.1** (Arithmetic Sequence), $82-95=-13$, $69-82=-13$, the difference between consecutive terms is always $-13$, so it is an arithmetic sequence with common difference $d=-13$.
+(1) By **Definition 4.2.1 (Arithmetic Sequence)**, $82-95=-13$, $69-82=-13$, the difference between consecutive terms is always $-13$, so it is an arithmetic sequence with common difference $d=-13$.
 
 $\blacksquare$
 
-(2) By **Definition 4.2.1** (Arithmetic Sequence), $1.1-1=0.1$, $1.11-1.1=0.01$, the differences are not equal, so it is not an arithmetic sequence.
+(2) By **Definition 4.2.1 (Arithmetic Sequence)**, $1.1-1=0.1$, $1.11-1.1=0.01$, the differences are not equal, so it is not an arithmetic sequence.
 
 $\blacksquare$
 
-(3) By **Definition 4.2.1** (Arithmetic Sequence), $-2-1=-3$, $3-\left(-2\right)=5$, the differences are not equal, so it is not an arithmetic sequence.
+(3) By **Definition 4.2.1 (Arithmetic Sequence)**, $-2-1=-3$, $3-\left(-2\right)=5$, the differences are not equal, so it is not an arithmetic sequence.
 
 $\blacksquare$
 
-(4) By **Definition 4.2.1** (Arithmetic Sequence), $\frac{11}{12}-1=-\frac{1}{12}$, $\frac{5}{6}-\frac{11}{12}=-\frac{1}{12}$, the difference between consecutive terms is always $-\frac{1}{12}$, so it is an arithmetic sequence with common difference $d=-\frac{1}{12}$.
+(4) By **Definition 4.2.1 (Arithmetic Sequence)**, $\frac{11}{12}-1=-\frac{1}{12}$, $\frac{5}{6}-\frac{11}{12}=-\frac{1}{12}$, the difference between consecutive terms is always $-\frac{1}{12}$, so it is an arithmetic sequence with common difference $d=-\frac{1}{12}$.
 
 $\blacksquare$
 
@@ -46,7 +50,7 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-(1) By **Definition 4.2.2** (Arithmetic Mean),
+(1) By **Definition 4.2.2 (Arithmetic Mean)**,
 
 $$
 A=\frac{647+895}{2}=771.
@@ -54,7 +58,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Definition 4.2.2** (Arithmetic Mean),
+(2) By **Definition 4.2.2 (Arithmetic Mean)**,
 
 $$
 A=\frac{-12\frac{1}{3}+24\frac{3}{5}}{2}=\frac{-\frac{37}{3}+\frac{123}{5}}{2}=\frac{-185+369}{30}=\frac{184}{30}=\frac{92}{15}=6\frac{2}{15}.
@@ -70,13 +74,13 @@ Second row: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underl
 
 ### Solution to Exercise 1
 
-First row: By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_5=a_1+4d$, i.e. $8=-7+4d$, so $d=\frac{15}{4}=3.75$.
+First row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_5=a_1+4d$, i.e. $8=-7+4d$, so $d=\frac{15}{4}=3.75$.
 
 $$
 a_3=-7+2\times 3.75=0.5,\ a_7=-7+6\times 3.75=15.5.
 $$
 
-Second row: By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_3=a_1+2d$, i.e. $2=a_1+2\times\left(-6.5\right)$, so $a_1=15$.
+Second row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2d$, i.e. $2=a_1+2\times\left(-6.5\right)$, so $a_1=15$.
 
 $$
 a_5=15+4\times\left(-6.5\right)=-11,\ a_7=15+6\times\left(-6.5\right)=-24.
@@ -88,11 +92,11 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-By **Theorem 4.2.5** (Properties of Arithmetic Sequences), $a_4+a_8=a_5+a_7=20$.
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_4+a_8=a_5+a_7=20$.
 
 From $a_7=12$, we get $a_5=20-12=8$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $d=a_5-a_4$, and $a_7=a_5+2d$, i.e. $12=8+2d$, so $d=2$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $d=a_5-a_4$, and $a_7=a_5+2d$, i.e. $12=8+2d$, so $d=2$.
 
 Hence $a_4=a_5-d=8-2=6$.
 
@@ -102,7 +106,7 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), let the first term be $a_1=7$ and the $5$th term be $a_5=21$, then
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the first term be $a_1=7$ and the $5$th term be $a_5=21$, then
 
 $$
 a_5=a_1+4d,\ 21=7+4d,\ d=\frac{14}{4}=3.5.
@@ -116,15 +120,15 @@ $$
 
 $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 4.2, Problem 1) The seats in one corner of a stadium's stands are arranged as follows: the $1$st row has $15$ seats, and starting from the $2$nd row each row has $2$ more seats than the previous row. Can you express the number of seats in the $n$th row by $a_n$? How many seats are there in the $10$th row?
 
 ### Solution to Exercise 2
 
-By **Definition 4.2.1** (Arithmetic Sequence), the seat numbers form an arithmetic sequence with first term $a_1=15$ and common difference $d=2$.
+By **Definition 4.2.1 (Arithmetic Sequence)**, the seat numbers form an arithmetic sequence with first term $a_1=15$ and common difference $d=2$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence),
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
 a_n=15+\left(n-1\right)\times 2=2n+13.
@@ -144,7 +148,7 @@ The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-
 
 ### Solution to Exercise 2
 
-By **Definition 4.1.6** (Recurrence Formula), compute term by term.
+By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
 
 $$
 a_1=18,\ a_2=15,\ a_3=12,\ a_4=9,\ a_5=6,\ a_6=3.
@@ -158,7 +162,7 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence),
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
 a_n=a_1+\left(n-1\right)d=m,\ a_m=a_1+\left(m-1\right)d=n.
@@ -180,13 +184,13 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Definition 4.2.1** (Arithmetic Sequence), let the common difference of $\left\{a_n\right\}$ be $d_1$ and that of $\left\{b_n\right\}$ be $d_2$.
+By **Definition 4.2.1 (Arithmetic Sequence)**, let the common difference of $\left\{a_n\right\}$ be $d_1$ and that of $\left\{b_n\right\}$ be $d_2$.
 
 $$
 c_{n+1}-c_n=\left(a_{n+1}+b_{n+1}\right)-\left(a_n+b_n\right)=\left(a_{n+1}-a_n\right)+\left(b_{n+1}-b_n\right)=d_1+d_2.
 $$
 
-The difference is the constant $d_1+d_2$; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{c_n\right\}$ is an arithmetic sequence.
+The difference is the constant $d_1+d_2$; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{c_n\right\}$ is an arithmetic sequence.
 
 $\blacksquare$
 
@@ -198,15 +202,15 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-(1) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), after removing the first $m$ terms, the first term of the new sequence is $a_{m+1}=a_1+md$, and the difference between consecutive terms is still $d$, so it is an arithmetic sequence with first term $a_1+md$ and common difference $d$.
+(1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, after removing the first $m$ terms, the first term of the new sequence is $a_{m+1}=a_1+md$, and the difference between consecutive terms is still $d$, so it is an arithmetic sequence with first term $a_1+md$ and common difference $d$.
 
 $\blacksquare$
 
-(2) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), the odd-positioned terms are $a_1,a_3,a_5,\cdots$, and the difference between consecutive terms is $a_{2k+1}-a_{2k-1}=2d$, so it is an arithmetic sequence with first term $a_1$ and common difference $2d$.
+(2) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, the odd-positioned terms are $a_1,a_3,a_5,\cdots$, and the difference between consecutive terms is $a_{2k+1}-a_{2k-1}=2d$, so it is an arithmetic sequence with first term $a_1$ and common difference $2d$.
 
 $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 4.2, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding arithmetic sequence $\left\{a_n\right\}$
 
@@ -220,7 +224,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-(1) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+(1) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 S_8=\frac{8\times\left(5-23\right)}{2}=-72.
@@ -228,7 +232,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
+(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
 S_{10}=10\times\left(-4\right)+\frac{10\times 9}{2}\times 4=-40+180=140.
@@ -236,9 +240,9 @@ $$
 
 $\blacksquare$
 
-(3) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $32=14.5+\left(n-1\right)\times 0.7$, so $n-1=25$ and $n=26$.
+(3) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $32=14.5+\left(n-1\right)\times 0.7$, so $n-1=25$ and $n=26$.
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 S_{26}=\frac{26\times\left(14.5+32\right)}{2}=13\times 46.5=604.5.
@@ -246,11 +250,11 @@ $$
 
 $\blacksquare$
 
-(4) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_3=a_1+2\times 0.7=14.5$, so $a_1=13.1$.
+(4) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2\times 0.7=14.5$, so $a_1=13.1$.
 
 $32=13.1+\left(n-1\right)\times 0.7$, so $n-1=27$ and $n=28$.
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 S_{28}=\frac{28\times\left(13.1+32\right)}{2}=14\times 45.1=631.4.
@@ -262,9 +266,9 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Definition 4.2.1** (Arithmetic Sequence), $a_1=-1$ and $d=-2$.
+By **Definition 4.2.1 (Arithmetic Sequence)**, $a_1=-1$ and $d=-2$.
 
-By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
 S_n=-n+\frac{n\left(n-1\right)}{2}\times\left(-2\right)=-n-n\left(n-1\right)=-n^2.
@@ -278,7 +282,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
 S_4=4a_1+6d=6,\ S_8=8a_1+28d=20.
@@ -296,13 +300,13 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I), $S_{15}=\frac{15\left(a_1+a_{15}\right)}{2}$.
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, $S_{15}=\frac{15\left(a_1+a_{15}\right)}{2}$.
 
-By **Theorem 4.2.5** (Properties of Arithmetic Sequences), $a_1+a_{15}=2a_8$, hence $S_{15}=15a_8$.
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_1+a_{15}=2a_8$, hence $S_{15}=15a_8$.
 
 From $S_{15}=5\left(a_2+a_6+a_k\right)$, we get $3a_8=a_2+a_6+a_k$.
 
-By **Theorem 4.2.5** (Properties of Arithmetic Sequences), $a_2+a_6=2a_4$, hence $3a_8=2a_4+a_k$.
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_2+a_6=2a_4$, hence $3a_8=2a_4+a_k$.
 
 Also, $a_8=a_4+4d$, so $3a_4+12d=2a_4+a_k$, and $a_k=a_4+12d=a_{16}$.
 
@@ -314,7 +318,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-Let the number of terms be $2n+1$. By **Theorem 4.2.5** (Properties of Arithmetic Sequences), the sum of the odd-positioned terms is $\left(n+1\right)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
+Let the number of terms be $2n+1$. By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, the sum of the odd-positioned terms is $\left(n+1\right)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
 
 $$
 \left(n+1\right)a_{n+1}=44,\ na_{n+1}=33.
@@ -326,7 +330,7 @@ The middle term is $a_{n+1}=a_4=\frac{33}{3}=11$, and the number of terms is $2\
 
 $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 4.2, Problem 1) A department store's grand New Year promotional prize offers two winning options: the first option is "100 yuan awarded every day for 10 consecutive days"; the second option is "1 yuan on the 1st day, 2 yuan on the 2nd day, 4 yuan on the 3rd day, ..., each day being twice the previous one, for 20 consecutive days". If you were the winner, which option would you choose?
 
@@ -364,13 +368,13 @@ $\blacksquare$
 
 ### Solution to Exercise 4
 
-By **Definition 4.2.1** (Arithmetic Sequence), $a_1=-4.2$ and $d=0.5$.
+By **Definition 4.2.1 (Arithmetic Sequence)**, $a_1=-4.2$ and $d=0.5$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=-4.2+\left(n-1\right)\times 0.5=0.5n-4.7$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=-4.2+\left(n-1\right)\times 0.5=0.5n-4.7$.
 
 Setting $a_n\le 0$ gives $n\le 9.4$, i.e. the first $9$ terms are negative and the $10$th term is positive.
 
-By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
 S_9=9\times\left(-4.2\right)+\frac{9\times 8}{2}\times 0.5=-37.8+18=-19.8.
@@ -388,7 +392,7 @@ From $m=2n-1< 60$, we get $n< 30.5$, so $n=1,2,\cdots,30$, giving $30$ elements 
 
 These elements are $1,3,5,\cdots,59$, forming an arithmetic sequence with first term $1$, last term $59$, and common difference $2$.
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 S_{30}=\frac{30\times\left(1+59\right)}{2}=900.
@@ -408,7 +412,7 @@ The sum $S_n$ of the first $n$ terms attains its minimum when the terms change f
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 4.2, Review and Consolidation, Problem 1) In an arithmetic sequence $\left\{a_n\right\}$
 
@@ -422,7 +426,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence) and **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
+(1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)** and **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
 a_1+3\left(n-1\right)=21,\ na_1+\frac{3n\left(n-1\right)}{2}=60.
@@ -432,7 +436,7 @@ From the first equation, $a_1=24-3n$; substituting into the second gives $n\left
 
 $\blacksquare$
 
-(2) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II),
+(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
 6n-n\left(n-1\right)=-60,\ n^2-7n-60=0,\ n=12.
@@ -444,7 +448,7 @@ $$
 
 $\blacksquare$
 
-(3) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+(3) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 \frac{n\left(8-2\right)}{2}=-30,\ 3n=-30,\ n=-10.
@@ -454,13 +458,13 @@ This does not fit the problem; check: $\frac{n\left(8+\left(-2\right)\right)}{2}
 
 $\blacksquare$
 
-(4) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+(4) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 \frac{7\left(a_1-0.6\right)}{2}=-3.5,\ a_1-0.6=-1,\ a_1=-0.4.
 $$
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $-0.6=-0.4+6d$, so $d=-\frac{0.2}{6}=-\frac{1}{30}$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $-0.6=-0.4+6d$, so $d=-\frac{0.2}{6}=-\frac{1}{30}$.
 
 $\blacksquare$
 
@@ -468,13 +472,13 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Theorem 4.2.5** (Properties of Arithmetic Sequences), $a_1+a_3+a_5=3a_3=105$, so $a_3=35$.
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_1+a_3+a_5=3a_3=105$, so $a_3=35$.
 
 $a_2+a_4+a_6=3a_4=99$, so $a_4=33$.
 
 Hence $d=a_4-a_3=-2$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_{20}=a_3+17d=35-34=1$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_{20}=a_3+17d=35-34=1$.
 
 $\blacksquare$
 
@@ -490,7 +494,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I), the first term is $1$ and the last term is $2n-1$,
+(1) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, the first term is $1$ and the last term is $2n-1$,
 
 $$
 S_n=\frac{n\left(1+2n-1\right)}{2}=n^2.
@@ -526,9 +530,9 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.2.1** (Arithmetic Sequence), the first term is $1986$ and the common difference is $76$.
+By **Definition 4.2.1 (Arithmetic Sequence)**, the first term is $1986$ and the common difference is $76$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=1986+76\left(n-1\right)\le 3000$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=1986+76\left(n-1\right)\le 3000$.
 
 $$
 76\left(n-1\right)\le 1014,\ n-1\le 13.34,\ n\le 14.34.
@@ -542,9 +546,9 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), let the number of sides be $n$, the longest side be $a_n=44$, and $d=3$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the number of sides be $n$, the longest side be $a_n=44$, and $d=3$.
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 S_n=\frac{n\left(a_1+44\right)}{2}=158.
@@ -564,7 +568,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I), $a_5=\frac{a_1+a_9}{2}$ and $b_5=\frac{b_1+b_9}{2}$.
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, $a_5=\frac{a_1+a_9}{2}$ and $b_5=\frac{b_1+b_9}{2}$.
 
 $$
 \frac{a_5}{b_5}=\frac{\frac{9\left(a_1+a_9\right)}{2}}{\frac{9\left(b_1+b_9\right)}{2}}=\frac{S_9}{T_9}=\frac{2\times 9+3}{9-1}=\frac{21}{8}.
@@ -578,17 +582,17 @@ $\blacksquare$
 
 (1) By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=a+b$; when $n\ge 2$, $a_n=S_n-S_{n-1}=a\left(2n-1\right)+b=2an-a+b$.
 
-Checking that it also holds at $n=1$, $a_n=2an-a+b$, and $a_{n+1}-a_n=2a$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{a_n\right\}$ is an arithmetic sequence.
+Checking that it also holds at $n=1$, $a_n=2an-a+b$, and $a_{n+1}-a_n=2a$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{a_n\right\}$ is an arithmetic sequence.
 
 $\blacksquare$
 
-(2) By **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $S_n=na_1+\frac{n\left(n-1\right)}{2}d$, hence
+(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $S_n=na_1+\frac{n\left(n-1\right)}{2}d$, hence
 
 $$
 \frac{S_n}{n}=a_1+\frac{\left(n-1\right)d}{2}.
 $$
 
-$\frac{S_{n+1}}{n+1}-\frac{S_n}{n}=\frac{d}{2}$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{\frac{S_n}{n}\right\}$ is an arithmetic sequence.
+$\frac{S_{n+1}}{n+1}-\frac{S_n}{n}=\frac{d}{2}$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{\frac{S_n}{n}\right\}$ is an arithmetic sequence.
 
 $\blacksquare$
 
@@ -600,7 +604,7 @@ The first sequence has common difference $4$ and the second has common differenc
 
 The first term is $2$ and the last term does not exceed $190$; the general term is $2+12\left(n-1\right)\le 190$, so $n\le 16.67$ and $n=16$, giving the last term $2+12\times 15=182$.
 
-By **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I),
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
 S_{16}=\frac{16\left(2+182\right)}{2}=1472.
@@ -640,7 +644,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence),
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
 a_m=a_1+\left(m-1\right)d,\ a_n=a_1+\left(n-1\right)d.
@@ -660,15 +664,15 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.2.1** (Arithmetic Sequence), the egg counts are $100,95,90,\cdots$, with common difference $-5$.
+(1) By **Definition 4.2.1 (Arithmetic Sequence)**, the egg counts are $100,95,90,\cdots$, with common difference $-5$.
 
-By **Theorem 4.2.3** (General Term Formula of an Arithmetic Sequence), $a_n=100-5\left(n-1\right)> 0$, so $n-1< 20$ and $n< 21$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=100-5\left(n-1\right)> 0$, so $n-1< 20$ and $n< 21$.
 
 At most $20$ layings: the $20$th laying produces $5$ eggs, and the $21$th would produce $0$ eggs.
 
 $\blacksquare$
 
-(2) By **Definition 4.3.1** (Geometric Sequence), the egg counts are $100,50,25,\cdots$, with common ratio $\frac{1}{2}$.
+(2) By **Definition 4.3.1 (Geometric Sequence)**, the egg counts are $100,50,25,\cdots$, with common ratio $\frac{1}{2}$.
 
 The egg count is always positive and tends to $0$, so in theory eggs can be laid infinitely many times.
 
@@ -682,7 +686,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.1.5** (General Term Formula), the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n\left(n+1\right)}{2}$ balls.
+(1) By **Definition 4.1.5 (General Term Formula)**, the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n\left(n+1\right)}{2}$ balls.
 
 $$
 \text{第五层}=\frac{5\times 6}{2}=15,\ \text{第六层}=\frac{6\times 7}{2}=21.

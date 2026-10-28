@@ -1,30 +1,17 @@
-# Assignment 82
+# week82
+> **Definition 6.1.1 (分类加法计数原理)**<br>完成一件事有两类不同方案, 在第 1 类方案中有 m 种不同的方法, 在第 2 类方案中有 n 种不同的方法, 那么完成这件事共有 N = m + n 种不同的方法.
+> **Definition 6.1.2 (分步乘法计数原理)**<br>完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
+> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**<br>如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
 
-> **Definition 6.1.1** (Addition Counting Principle for Classification) <br>There are two different categories of ways to complete a task: the first category has $m$ different methods and the second category has $n$ different methods. Then there are $N=m+n$ different methods in total to complete the task.
+---
 
-> **Definition 6.1.2** (Multiplication Counting Principle for Step-by-Step Processes) <br>Completing a task requires two steps: the first step has $m$ different methods and the second step has $n$ different methods. Then there are $N=m\times n$ different methods in total to complete the task.
-
-> **Formula 6.2.7** (Combination Number Formula) <br>$\binom{n}{m}=\frac{n!}{m!\left(n-m\right)!}$, where $m,n\in\mathbb N^*$ and $m\le n$. It is stipulated that $\binom{n}{0}=1$.
-
-> **Theorem 6.3.1** (Binomial Theorem) <br>For any positive integer $n$,
-
-$$
-\left(a+b\right)^n=\binom{n}{0} a^n+\binom{n}{1} a^{n-1}b+\binom{n}{2} a^{n-2}b^2+\cdots+\binom{n}{k} a^{n-k}b^k+\cdots+\binom{n}{n} b^n.
-$$
-
-> **Formula 6.3.2** (General Term of the Binomial Expansion) <br>The $k+1$-th term of the binomial expansion is $T_{k+1}=\binom{n}{k} a^{n-k}b^k$, where $\binom{n}{k}$ ($k=0,1,2,\cdots,n$) is called a binomial coefficient.
-
-> **Formula 6.3.3** (Expansion of $\left(1+x\right)^n$) <br>Setting $a=1$ and $b=x$ in the binomial theorem gives $\left(1+x\right)^n=\binom{n}{0}+\binom{n}{1} x+\binom{n}{2} x^2+\cdots+\binom{n}{k} x^k+\cdots+\binom{n}{n} x^n$.
-
-> **Property 6.3.4** (Properties of Binomial Coefficients) <br>(1) Symmetry: $\binom{n}{k}=\binom{n}{n-k}$; (2) Monotonicity and maximum: when $k< \frac{n+1}{2}$, $\binom{n}{k}$ increases with $k$; when $n$ is even, the middle term $\binom{n}{n/2}$ is the largest, and when $n$ is odd, the two middle terms $\binom{n}{\left(n-1\right)/2}$ and $\binom{n}{\left(n+1\right)/2}$ are equal and largest; (3) Sum of all binomial coefficients: $\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n$; (4) The sum of the binomial coefficients of the odd terms equals that of the even terms: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots=\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\cdots=2^{n-1}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 6.3, Problem 1) Write out the expansion of $\left(p+q\right)^5$.
 
 ### Solution to Exercise 1
 
-By **Theorem 6.3.1** (Binomial Theorem).
+By **Theorem 6.3.1 (Binomial Theorem)**.
 
 $$
 \left(p+q\right)^5=\binom{5}{0} p^5+\binom{5}{1} p^4 q+\binom{5}{2} p^3 q^2+\binom{5}{3} p^2 q^3+\binom{5}{4} p q^4+\binom{5}{5} q^5.
@@ -38,7 +25,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 6.3, Problem 2) Find the $3$rd term of the expansion of $\left(2a+3b\right)^6$.
 
@@ -60,7 +47,7 @@ $$
 
 Thus the $3$rd term of the expansion is $2160a^4 b^2$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 6.3, Problem 3) Write out the $r+1$-th term of the expansion of $\left(\sqrt\left[3\right]{x}-\frac{1}{2\sqrt\left[3\right]{x}}\right)^n$.
 
@@ -82,7 +69,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 6.3, Problem 4) The coefficient of the $6$th term in the expansion of $\left(x-1\right)^{10}$ is ( ).
 
@@ -100,15 +87,15 @@ $$
 
 Thus the coefficient of the $6$th term is $-\binom{10}{5}$, so the answer is (D). $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 6.3, Problem 5) In the expansion of $\left(x-1\right)\left(x-2\right)\left(x-3\right)\left(x-4\right)\left(x-5\right)$, the coefficient of the term containing $x^4$ is $\;\_\_\;$.
 
 ### Solution to Exercise 5
 
-By **Theorem 6.3.1** (Binomial Theorem) and **Definition 6.1.1** (Addition Counting Principle for Classification).
+By **Theorem 6.3.1 (Binomial Theorem)** and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
 
-The product of $5$ linear factors; the term containing $x^4$ in the expansion is obtained by choosing $4$ of the $5$ factors to take $x$ and the remaining $1$ factor to take its constant term. The remaining constant terms are $-1,-2,-3,-4,-5$, and their sum is the coefficient of the $x^4$ term. By **Definition 6.1.1**,
+The product of $5$ linear factors; the term containing $x^4$ in the expansion is obtained by choosing $4$ of the $5$ factors to take $x$ and the remaining $1$ factor to take its constant term. The remaining constant terms are $-1,-2,-3,-4,-5$, and their sum is the coefficient of the $x^4$ term. By **Definition 6.1.1 (分类加法计数原理)**,
 
 $$
 \left(-1\right)+\left(-2\right)+\left(-3\right)+\left(-4\right)+\left(-5\right)=-15.
@@ -116,7 +103,7 @@ $$
 
 Thus the coefficient of the term containing $x^4$ is $-15$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 6.3, Problem 1) Fill in the blanks.
 
@@ -142,7 +129,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 6.3, Problem 2) Prove: $\binom{n}{0}+\binom{n}{2}+\binom{n}{4}+\cdots+\binom{n}{n}=2^{n-1}$ ($n$ is even).
 
@@ -176,13 +163,13 @@ $$
 
 $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 6.3, Problem 3) Write out the table of binomial coefficients for $n$ from $1$ to $10$.
 
 ### Solution to Exercise 8
 
-By **Theorem 6.3.1** (Binomial Theorem) and **Property 6.3.4** (Properties of Binomial Coefficients).
+By **Theorem 6.3.1 (Binomial Theorem)** and **Property 6.3.4** (Properties of Binomial Coefficients).
 
 Computing the binomial coefficients of the expansion of $\left(a+b\right)^n$ row by row, we get
 
@@ -206,7 +193,7 @@ $n=9$: $1,9,36,84,126,126,84,36,9,1$.
 
 $n=10$: $1,10,45,120,210,252,210,120,45,10,1$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 6.3, Problem 4) If a set contains $n$ elements, how many subsets does this set have in total?
 
@@ -214,7 +201,7 @@ $n=10$: $1,10,45,120,210,252,210,120,45,10,1$. $\blacksquare$
 
 By **Property 6.3.4** (Properties of Binomial Coefficients).
 
-Classify by the number of elements in a subset: the subsets formed by taking $k$ elements from the $n$ elements number $\binom{n}{k}$, where $k=0,1,2,\cdots,n$. By **Definition 6.1.1**, the total number of subsets is
+Classify by the number of elements in a subset: the subsets formed by taking $k$ elements from the $n$ elements number $\binom{n}{k}$, where $k=0,1,2,\cdots,n$. By **Definition 6.1.1 (分类加法计数原理)**, the total number of subsets is
 
 $$
 \binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}.
@@ -222,7 +209,7 @@ $$
 
 By **Property 6.3.4**, this sum equals $2^n$. Thus the set has $2^n$ subsets in total. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 6.3, Review and Consolidation, Problem 1) Multiple choice.
 
@@ -248,13 +235,13 @@ The answer is (D).
 
 (2) In the expansion of $\left(x+1\right)^n$, the coefficient of $x^2$ is $\binom{n}{2}$. From $\binom{n}{2}=\frac{n\left(n-1\right)}{2}=15$, we get $n\left(n-1\right)=30$, and solving gives $n=6$. The answer is (B). $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 6.3, Review and Consolidation, Problem 2) The coefficient of $x^3y^3$ in the expansion of $\left(x+y\right)\left(x-y\right)^5$ is $\;\_\_\;$.
 
 ### Solution to Problem 2
 
-By **Formula 6.3.2** (General Term of the Binomial Expansion) and **Definition 6.1.1** (Addition Counting Principle for Classification).
+By **Formula 6.3.2** (General Term of the Binomial Expansion) and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
 
 In the expansion of $\left(x-y\right)^5$, the general term is $\binom{5}{k} x^{5-k}\left(-y\right)^k=\left(-1\right)^k \binom{5}{k} x^{5-k} y^k$.
 
@@ -264,9 +251,9 @@ After multiplying by $x+y$, the $x^3 y^3$ term arises from two sources:
 
 (2) $y$ times the $x^3 y^2$ term in $\left(x-y\right)^5$, where $k=2$, with coefficient $\left(-1\right)^2 \binom{5}{2}=10$.
 
-By **Definition 6.1.1**, the coefficient of $x^3 y^3$ is $-10+10=0$. $\blacksquare$
+By **Definition 6.1.1 (分类加法计数原理)**, the coefficient of $x^3 y^3$ is $-10+10=0$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 6.3, Review and Consolidation, Problem 3) Expand using the binomial theorem:
 
@@ -276,15 +263,15 @@ By **Definition 6.1.1**, the coefficient of $x^3 y^3$ is $-10+10=0$. $\blacksqua
 
 ### Solution to Problem 3
 
-By **Theorem 6.3.1** (Binomial Theorem).
+By **Theorem 6.3.1 (Binomial Theorem)**.
 
-(1) By **Theorem 6.3.1**,
+(1) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
 \left(a+\sqrt\left[3\right]{b}\right)^9=\sum_{k=0}^{9} \binom{9}{k} a^{9-k}\left(\sqrt\left[3\right]{b}\right)^k.
 $$
 
-(2) By **Theorem 6.3.1**,
+(2) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
 \left(\frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}}\right)^7=\sum_{k=0}^{7} \binom{7}{k}\left(\frac{\sqrt{x}}{2}\right)^{7-k}\left(-\frac{2}{\sqrt{x}}\right)^k.
@@ -292,7 +279,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 6.3, Review and Consolidation, Problem 4) Simplify:
 
@@ -302,9 +289,9 @@ $\blacksquare$
 
 ### Solution to Problem 4
 
-By **Theorem 6.3.1** (Binomial Theorem).
+By **Theorem 6.3.1 (Binomial Theorem)**.
 
-(1) When the two expressions are added, the odd powers of $\sqrt{x}$ cancel and the even powers double. By **Theorem 6.3.1**,
+(1) When the two expressions are added, the odd powers of $\sqrt{x}$ cancel and the even powers double. By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
 \left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5=2\left[\binom{5}{0}+\binom{5}{2} x+\binom{5}{4} x^2\right].
@@ -316,7 +303,7 @@ $$
 2\left(1+10x+5x^2\right)=2+20x+10x^2.
 $$
 
-(2) When the two expressions are added, the odd powers of $x^{-\frac{1}{2}}$ cancel and the even powers double. By **Theorem 6.3.1**,
+(2) When the two expressions are added, the odd powers of $x^{-\frac{1}{2}}$ cancel and the even powers double. By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
 \text{原式}=2\left[\left(2x^{\frac{1}{2}}\right)^4+\binom{4}{2}\left(2x^{\frac{1}{2}}\right)^2\left(3x^{-\frac{1}{2}}\right)^2+\left(3x^{-\frac{1}{2}}\right)^4\right].
@@ -330,7 +317,7 @@ $$
 
 $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 6.3, Review and Consolidation, Problem 5)
 
@@ -388,7 +375,7 @@ $$
 
 $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 6.3, Comprehensive Application, Problem 6) Find the coefficient of the specified term in the binomial expansion of each of the following:
 
@@ -428,7 +415,7 @@ $$
 
 Thus the constant term is $-252$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 6.3, Comprehensive Application, Problem 7) Prove:
 
@@ -482,7 +469,7 @@ $$
 
 This proves the claim. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 6.3, Comprehensive Application, Problem 8) It is known that in the expansion of $\left(1+x\right)^n$, the binomial coefficient of the $4$th term equals that of the $8$th term. Find the binomial coefficients of these two terms.
 
@@ -500,7 +487,7 @@ $$
 
 $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 6.3, Comprehensive Application, Problem 9) Prove using the binomial theorem:
 
@@ -510,9 +497,9 @@ $\blacksquare$
 
 ### Solution to Problem 9
 
-By **Theorem 6.3.1** (Binomial Theorem).
+By **Theorem 6.3.1 (Binomial Theorem)**.
 
-(1) By **Theorem 6.3.1**,
+(1) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
 \left(n+1\right)^n=\binom{n}{0}+\binom{n}{1} n+\binom{n}{2} n^2+\cdots+\binom{n}{n} n^n.
@@ -526,7 +513,7 @@ $$
 
 The expression in parentheses is an integer, so $\left(n+1\right)^n-1$ is divisible by $n^2$.
 
-(2) By **Theorem 6.3.1**,
+(2) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
 99^{10}=\left(100-1\right)^{10}=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9+\left(-1\right)^{10}.
@@ -540,15 +527,15 @@ $$
 
 The last term $\binom{10}{9}\cdot 100\cdot\left(-1\right)^9=-1000$ is divisible by $1000$; every remaining term contains the factor $100^2=10000$, which is also divisible by $1000$. Thus $99^{10}-1$ is divisible by $1000$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 6.3, Extension and Exploration, Problem 10) Prove: $2^n-\binom{n}{1}\times 2^{n-1}+\binom{n}{2}\times 2^{n-2}+\cdots+\left(-1\right)^{n-1}\binom{n}{n-1}\times 2+\left(-1\right)^n=1$.
 
 ### Solution to Problem 10
 
-By **Theorem 6.3.1** (Binomial Theorem).
+By **Theorem 6.3.1 (Binomial Theorem)**.
 
-Taking $a=2$ and $b=-1$ in **Theorem 6.3.1**, we have
+Taking $a=2$ and $b=-1$ in **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, we have
 
 $$
 \left(2-1\right)^n=\binom{n}{0} 2^n+\binom{n}{1} 2^{n-1}\left(-1\right)+\binom{n}{2} 2^{n-2}\left(-1\right)^2+\cdots+\binom{n}{n}\left(-1\right)^n.
@@ -562,7 +549,7 @@ $$
 
 The left side is exactly the expression to be proved, and the right side $=1$. This proves the claim. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 6.3, Extension and Exploration, Problem 11) The figure below reflects the long journey through which the binomial theorem was generated, completed, and generalized. In this development, both generalization and proof proceed from the particular to the general. Nowadays, a trend in mathematical research is toward ever greater generality. Try to generalize from $\left(a+b\right)^n$ to $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb N^*$).
 
@@ -570,7 +557,7 @@ The figure is a timeline illustrating the long history of the emergence, complet
 
 ### Solution to Problem 11
 
-By **Theorem 6.3.1** (Binomial Theorem) and **Definition 6.1.2** (Multiplication Counting Principle for Step-by-Step Processes).
+By **Theorem 6.3.1 (Binomial Theorem)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
 $\left(a_1+a_2+\cdots+a_m\right)^n$ is the product of $n$ factors $\left(a_1+a_2+\cdots+a_m\right)$. Each term of the expansion is obtained by choosing one $a_i$ from each set of parentheses and multiplying them together. Suppose $a_1$ is chosen $n_1$ times, $a_2$ is chosen $n_2$ times, ..., $a_m$ is chosen $n_m$ times, where $n_1+n_2+\cdots+n_m=n$.
 

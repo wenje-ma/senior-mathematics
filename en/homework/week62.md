@@ -1,18 +1,11 @@
-# Assignment 62
+# week62
+> **Definition 2.2.1 (Point-slope Form)**<br>由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **Definition 2.2.2 (斜截式方程)**<br>由直线的斜率 k 及其在 y 轴上的截距 b 确定的方程 y = kx + b, 叫做直线的斜截式方程.
+> **Definition 2.2.6 (一般式方程)**<br>关于 $x,y$ 的二元一次方程 $Ax+By+C=0$ (其中 $A,B$ 不同时为 $0$) 叫做直线的一般式方程, 简称一般式.
 
-> **Definition 2.2.6** (General Form Equation) <br>A linear equation in two variables $Ax+By+C=0$ in $x,y$ (where $A,B$ are not both $0$) is called the general form equation of a line, or general form for short.
+---
 
-> **Common Conclusion 2.1.6** (Two Lines Are Perpendicular) <br>$l_1\perp l_2\Leftrightarrow k_1k_2=-1$.
-
-> **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines) <br>Let two lines $l_1:A_1x+B_1y+C_1=0$ and $l_2:A_2x+B_2y+C_2=0$ intersect. Then the coordinates of their intersection point are exactly the solution of the system $\begin{cases}A_1x+B_1y+C_1=0\\A_2x+B_2y+C_2=0\end{cases}$. If the system has a unique solution, the two lines intersect; if it has no solution, the two lines are parallel; if the two equations can be reduced to the same equation, the two lines coincide.
-
-> **Common Conclusion 2.3.2** (Distance Formula Between Two Points) <br>The distance between two points $P_1\left(x_1,y_1\right)$ and $P_2\left(x_2,y_2\right)$ in the plane is $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$. In particular, the distance between the origin $O\left(0,0\right)$ and any point $P\left(x,y\right)$ is $\left|OP\right|=\sqrt{x^2+y^2}$.
-
-> **Common Conclusion 2.3.3** (Distance from a Point to a Line) <br>The distance from the point $P\left(x_0,y_0\right)$ to the line $l:Ax+By+C=0$ is $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
-
-> **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines) <br>The distance between two parallel lines $Ax+By+C_1=0$ and $Ax+By+C_2=0$ is $d=\frac{\left|C_1-C_2\right|}{\sqrt{A^2+B^2}}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 2.3, Problem 1) Find the intersection coordinates of the following two lines, and draw the graph:
 
@@ -42,7 +35,7 @@ $$
 
 Substituting $x=2$ into the second equation gives $6+2y-12=0$, hence $y=3$. The intersection coordinates are $\left(2,3\right)$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 2.3, Problem 2) Determine the relative position of each pair of lines below. If they intersect, find the coordinates of the intersection point:
 
@@ -74,7 +67,7 @@ $$
 
 From the first equation, $y=3-\left(\sqrt 2-1\right)x$; substituting into the second gives $x+\left(\sqrt 2+1\right)\left[3-\left(\sqrt 2-1\right)x\right]=2$, i.e. $x+3\left(\sqrt 2+1\right)-\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)x=2$. Since $\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)=1$, this becomes $x+3\sqrt 2+3-x=2$, i.e. $3\sqrt 2+3=2$, a contradiction. The system has no solution, so $l_1\parallel l_2$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 2.3, Problem 3) The line $l$ passes through the origin and through the intersection point of the line $2x-2y-1=0$ and the line $6x-4y+1=0$. Find the equation of the line $l$.
 
@@ -90,9 +83,9 @@ $$
 
 Multiplying the first equation by $2$ and subtracting the second gives $-2x-3=0$, hence $x=-\frac{3}{2}$. Substituting into the first gives $-3-2y-1=0$, hence $y=-2$. The intersection point is $\left(-\frac{3}{2},-2\right)$.
 
-The line $l$ passes through the origin $\left(0,0\right)$ and the intersection point $\left(-\frac{3}{2},-2\right)$. By **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{-2-0}{-\frac{3}{2}-0}=\frac{4}{3}$. By **Definition 2.2.2** (Slope-Intercept Form), we get $y=\frac{4}{3}x$, i.e. $4x-3y=0$. $\blacksquare$
+The line $l$ passes through the origin $\left(0,0\right)$ and the intersection point $\left(-\frac{3}{2},-2\right)$. By **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{-2-0}{-\frac{3}{2}-0}=\frac{4}{3}$. By **Definition 2.2.2 (Slope-Intercept Form)**, we get $y=\frac{4}{3}x$, i.e. $4x-3y=0$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 2.3, Problem 4) Find the distance between each pair of points below:
 
@@ -116,7 +109,7 @@ By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left|P_1
 
 (4) $\left|MN\right|=\sqrt{\left(5-2\right)^2+\left(-1-1\right)^2}=\sqrt{9+4}=\sqrt{13}$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 2.3, Problem 5) Given that the distance between $A\left(a,-5\right)$ and $B\left(0,10\right)$ is $17$, find the value of $a$.
 
@@ -130,7 +123,7 @@ $$
 
 Squaring both sides gives $a^2+225=289$, i.e. $a^2=64$, hence $a=\pm8$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 2.3, Problem 6) Prove using the coordinate method: the midpoint of the hypotenuse of a right triangle is equidistant from the three vertices.
 
@@ -158,7 +151,7 @@ $$
 
 Hence $\left|MA\right|=\left|MB\right|=\left|MO\right|$, i.e. the midpoint of the hypotenuse is equidistant from the three vertices. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 2.3, Problem 7) Find the distance from the origin to each of the following lines:
 
@@ -174,7 +167,7 @@ By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the origin is 
 
 (2) The line $x=y$ is $x-y=0$, and $d=\frac{\left|0-0\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{0}{\sqrt 2}=0$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 2.3, Problem 8) Find the distance from each point to the given line:
 
@@ -194,7 +187,7 @@ By **Common Conclusion 2.3.3** (Distance from a Point to a Line).
 
 (3) $d=\frac{\left|4\cdot1+3\cdot\left(-2\right)\right|}{\sqrt{4^2+3^2}}=\frac{\left|4-6\right|}{5}=\frac{2}{5}$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 2.3, Problem 9) Given that the distance from the point $P\left(-1,2\right)$ to the line $l:4x-3y+C=0$ is $1$, find the value of $C$.
 
@@ -208,7 +201,7 @@ $$
 
 Hence $\left|C-10\right|=5$, i.e. $C-10=5$ or $C-10=-5$, so $C=15$ or $C=5$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 2.3, Problem 10) Find the distance between each pair of parallel lines below:
 
@@ -224,7 +217,7 @@ By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines).
 
 (2) $l_1:3x+4y-10=0$, $l_2:3x+4y=0$, and $d=\frac{\left|-10-0\right|}{\sqrt{3^2+4^2}}=\frac{10}{5}=2$. $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 2.3, Problem 11) Given that the distance between the two parallel lines $l_1:3x-4y+6=0$ and $l_2:3x-4y+C=0$ is $3$, find the value of $C$.
 
@@ -238,7 +231,7 @@ $$
 
 Hence $\left|6-C\right|=15$, i.e. $6-C=15$ or $6-C=-15$, so $C=-9$ or $C=21$. $\blacksquare$
 
-### Exercise 12
+## Exercise 12
 
 (Exercise 2.3, Problem 12) As shown in the figure, given the lines $l_1:x-2y+1=0$ and $l_2:x-2y+4=0$, take any point $A$ on $l_1$ and any point $B$ on $l_2$, join $AB$, and take the trisection point $C$ on $AB$ that is closer to $A$. Through $C$ draw the line $l_3$ parallel to $l_1$. Find the distance between $l_1$ and $l_3$.
 
@@ -260,7 +253,7 @@ $$
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 2.3, Review and Consolidation, Problem 1) Determine the relative position of each pair of lines below. If they intersect, find the coordinates of the intersection point:
 
@@ -286,7 +279,7 @@ Adding the two equations gives $3x+7=1$, i.e. $x=-2$. Substituting into the seco
 
 (3) $l_2:9x-15y+30=0$ is $3x-5y+10=0$, which is the same equation as $l_1$, so $l_1$ and $l_2$ coincide. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 2.3, Review and Consolidation, Problem 2) Find the equation of the line $l$ satisfying the following conditions:
 
@@ -304,7 +297,7 @@ $$
 
 Multiplying the first equation by $4$ and the second by $3$, then adding, gives $17x+34=0$, hence $x=-2$. Substituting into the first gives $-4-3y+10=0$, hence $y=2$. The intersection point is $\left(-2,2\right)$.
 
-The line $3x-2y+4=0$ is $y=\frac{3}{2}x+2$, with slope $\frac{3}{2}$. By **Common Conclusion 2.1.6** (Two Lines Are Perpendicular), the desired line has slope $-\frac{2}{3}$. By **Definition 2.2.1** (Point-Slope Form), substituting the point $\left(-2,2\right)$ gives $y-2=-\frac{2}{3}\left(x+2\right)$, i.e. $2x+3y-2=0$.
+The line $3x-2y+4=0$ is $y=\frac{3}{2}x+2$, with slope $\frac{3}{2}$. By **Common Conclusion 2.1.6** (Two Lines Are Perpendicular), the desired line has slope $-\frac{2}{3}$. By **Definition 2.2.1 (Point-Slope Form)**, substituting the point $\left(-2,2\right)$ gives $y-2=-\frac{2}{3}\left(x+2\right)$, i.e. $2x+3y-2=0$.
 
 (2) First find the intersection. Solve the system
 
@@ -314,9 +307,9 @@ $$
 
 From the first equation, $y=8-2x$; substituting into the second gives $x-2\left(8-2x\right)+1=0$, i.e. $5x-15=0$, hence $x=3$. Substituting back gives $y=2$. The intersection point is $\left(3,2\right)$.
 
-The line $4x-3y-7=0$ is $y=\frac{4}{3}x-\frac{7}{3}$, with slope $\frac{4}{3}$. By **Common Conclusion 2.1.5** (Two Lines Are Parallel), the desired line also has slope $\frac{4}{3}$. By **Definition 2.2.1**, substituting the point $\left(3,2\right)$ gives $y-2=\frac{4}{3}\left(x-3\right)$, i.e. $4x-3y-6=0$. $\blacksquare$
+The line $4x-3y-7=0$ is $y=\frac{4}{3}x-\frac{7}{3}$, with slope $\frac{4}{3}$. By **Common Conclusion 2.1.5** (Two Lines Are Parallel), the desired line also has slope $\frac{4}{3}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $\left(3,2\right)$ gives $y-2=\frac{4}{3}\left(x-3\right)$, i.e. $4x-3y-6=0$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 2.3, Review and Consolidation, Problem 3) Given the six points $A\left(1,2\right)$, $B\left(2,0\right)$, $M\left(1,0\right)$, $N\left(-4,0\right)$, $P\left(0,3\right)$, $Q\left(-1,1\right)$, can the segments $AB$, $MN$, and $PQ$ form a triangle? Why?
 
@@ -338,7 +331,7 @@ $$
 
 The condition for three segments to form a triangle is that the sum of any two sides is greater than the third. Since $\sqrt 5+\sqrt 5=2\sqrt 5< 5$, the triangle inequality is not satisfied, so the three segments cannot form a triangle. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 2.3, Review and Consolidation, Problem 4) Given three points $P\left(a,2\right)$, $Q\left(-2,-3\right)$, $M\left(1,1\right)$ with $\lvert PQ \rvert=\lvert PM \rvert$, find the value of $a$.
 
@@ -356,7 +349,7 @@ $$
 
 From $\lvert PQ \rvert=\lvert PM \rvert$, we get $\left(a+2\right)^2+25=\left(a-1\right)^2+1$, i.e. $a^2+4a+4+25=a^2-2a+1+1$, i.e. $6a=-27$, hence $a=-\frac{9}{2}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 2.3, Review and Consolidation, Problem 5) (1) Find the coordinates of the point on the $x$-axis whose distance from $A\left(5,12\right)$ is $13$;
 
@@ -382,7 +375,7 @@ $$
 
 Squaring both sides gives $64+\left(y-5\right)^2=100$, i.e. $\left(y-5\right)^2=36$, hence $y-5=\pm6$, i.e. $y=11$ or $y=-1$. The y-coordinate of $P$ is $11$ or $-1$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 2.3, Review and Consolidation, Problem 6) Find the distance from the point $P\left(-5,7\right)$ to the line $12x+5y-3=0$.
 
@@ -396,7 +389,7 @@ $$
 
 $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 2.3, Review and Consolidation, Problem 7) Find the distance between the two parallel lines $3x-2y-1=0$ and $3x-2y+1=0$.
 
@@ -410,7 +403,7 @@ $$
 
 $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 2.3, Review and Consolidation, Problem 8) The equations of the lines containing a pair of opposite sides $AB$ and $CD$ of the parallelogram $\square ABCD$ are $6x+8y-3=0$ and $6x+8y+5=0$ respectively. Through the intersection of the two diagonals of $\square ABCD$, draw the line $l$ parallel to the line containing $AB$. Find the distance between $l$ and the line containing $CD$.
 
@@ -430,7 +423,7 @@ $$
 
 $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 2.3, Comprehensive Application, Problem 9) The three lines $ax+2y+8=0$, $4x+3y=10$, and $2x-y=10$ intersect at a single point. Find the value of $a$.
 
@@ -448,7 +441,7 @@ From the second equation, $y=2x-10$; substituting into the first gives $4x+3\lef
 
 The three lines meet at one point, so $\left(4,-2\right)$ lies on the line $ax+2y+8=0$. Substituting gives $4a+2\left(-2\right)+8=0$, i.e. $4a+4=0$, hence $a=-1$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 2.3, Comprehensive Application, Problem 10) Given triangle $\triangle ABC$ with vertex $A\left(5,1\right)$, the median $CM$ on side $AB$ lies on the line $2x-y-5=0$, and the altitude $BH$ on side $AC$ lies on the line $x-2y-5=0$. Find: (1) the coordinates of vertex $C$; (2) the equation of line $BC$.
 
@@ -456,7 +449,7 @@ The three lines meet at one point, so $\left(4,-2\right)$ lies on the line $ax+2
 
 (1) The altitude $BH$ on side $AC$ lies on $x-2y-5=0$, i.e. $y=\frac{1}{2}x-\frac{5}{2}$, with slope $\frac{1}{2}$. By **Common Conclusion 2.1.6** (Two Lines Are Perpendicular), the slope of the line containing side $AC$ is $-2$.
 
-Side $AC$ passes through $A\left(5,1\right)$ with slope $-2$; by **Definition 2.2.1** (Point-Slope Form), we get $y-1=-2\left(x-5\right)$, i.e. $2x+y-11=0$.
+Side $AC$ passes through $A\left(5,1\right)$ with slope $-2$; by **Definition 2.2.1 (Point-Slope Form)**, we get $y-1=-2\left(x-5\right)$, i.e. $2x+y-11=0$.
 
 Point $C$ is the intersection of line $AC$ and the median $CM$. Solve the system
 
@@ -478,9 +471,9 @@ i.e. $5+x_B-\frac{1+y_B}{2}-5=0$, i.e. $2x_B-y_B-1=0$.
 
 Combining $\begin{cases}x_B-2y_B-5=0\\2x_B-y_B-1=0\end{cases}$, from the second equation $y_B=2x_B-1$; substituting into the first gives $x_B-2\left(2x_B-1\right)-5=0$, i.e. $-3x_B-3=0$, hence $x_B=-1$, $y_B=-3$. The coordinates of $B$ are $\left(-1,-3\right)$.
 
-By **Common Conclusion 2.1.3** (Slope Formula), $k_{BC}=\frac{3-\left(-3\right)}{4-\left(-1\right)}=\frac{6}{5}$. By **Definition 2.2.1**, substituting the point $C\left(4,3\right)$ gives $y-3=\frac{6}{5}\left(x-4\right)$, i.e. $6x-5y-9=0$. $\blacksquare$
+By **Common Conclusion 2.1.3** (Slope Formula), $k_{BC}=\frac{3-\left(-3\right)}{4-\left(-1\right)}=\frac{6}{5}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $C\left(4,3\right)$ gives $y-3=\frac{6}{5}\left(x-4\right)$, i.e. $6x-5y-9=0$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 2.3, Comprehensive Application, Problem 11) Find a point $P$ on the $x$-axis such that the triangle with vertices $A\left(1,2\right)$, $B\left(3,4\right)$, and $P$ has area $10$.
 
@@ -490,7 +483,7 @@ Let the coordinates of $P$ be $\left(x,0\right)$.
 
 By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left|AB\right|=\sqrt{\left(3-1\right)^2+\left(4-2\right)^2}=\sqrt{8}=2\sqrt 2$.
 
-Equation of line $AB$: by **Common Conclusion 2.1.3**, $k_{AB}=\frac{4-2}{3-1}=1$. By **Definition 2.2.1**, we get $y-2=1\cdot\left(x-1\right)$, i.e. $x-y+1=0$.
+Equation of line $AB$: by **Common Conclusion 2.1.3**, $k_{AB}=\frac{4-2}{3-1}=1$. By **Definition 2.2.1 (Point-slope Form)**, we get $y-2=1\cdot\left(x-1\right)$, i.e. $x-y+1=0$.
 
 The distance from $P\left(x,0\right)$ to the line $AB:x-y+1=0$ is
 
@@ -502,7 +495,7 @@ The area of the triangle is $\frac{1}{2}\left|AB\right|d=\frac{1}{2}\cdot 2\sqrt
 
 Setting $\left|x+1\right|=10$ gives $x+1=10$ or $x+1=-10$, i.e. $x=9$ or $x=-11$. The desired points are $P\left(9,0\right)$ or $P\left(-11,0\right)$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 2.3, Comprehensive Application, Problem 12) Given that $AO$ is the median to side $BC$ of $\triangle ABC$, prove using the coordinate method that $\lvert AB \rvert^2+\lvert AC \rvert^2=2\left(\lvert AO \rvert^2+\lvert OC \rvert^2\right)$.
 
@@ -536,7 +529,7 @@ Right-hand side: $2\left(\left|AO\right|^2+\left|OC\right|^2\right)=2\left(x^2+y
 
 The left-hand side equals the right-hand side, so $\left|AB\right|^2+\left|AC\right|^2=2\left(\left|AO\right|^2+\left|OC\right|^2\right)$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 2.3, Comprehensive Application, Problem 13) Given that the distance $d$ from the point $A\left(a,6\right)$ to the line $3x-4y=2$ takes the following values: (1) $d=4$; (2) $d> 4$, find the range of $a$.
 
@@ -552,7 +545,7 @@ $$
 
 (2) Setting $d> 4$, i.e. $\frac{\left|3a-26\right|}{5}> 4$, gives $\left|3a-26\right|> 20$, i.e. $3a-26> 20$ or $3a-26< -20$, i.e. $a> \frac{46}{3}$ or $a< 2$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 2.3, Comprehensive Application, Problem 14) Given that the distances from $A\left(-3,-4\right)$ and $B\left(6,3\right)$ to the line $l:ax+y+1=0$ are equal, find the value of $a$.
 
@@ -576,7 +569,7 @@ From $d_A=d_B$, we get $\left|-3a-3\right|=\left|6a+4\right|$, i.e. $\left|3a+3\
 
 Hence $a=-\frac{1}{3}$ or $a=-\frac{7}{9}$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 2.3, Comprehensive Application, Problem 15) The equations of the lines containing the four sides of the parallelogram $\square ABCD$ are $l_1:x-4y+5=0$, $l_2:2x+y-8=0$, $l_3:x-4y+14=0$, and $l_4:2x+y+1=0$. Find the area of $\square ABCD$.
 
@@ -610,7 +603,7 @@ $$
 
 The area of the parallelogram is base times height, i.e. $\sqrt{17}\times\frac{9}{\sqrt 5}=\frac{9\sqrt{85}}{5}$. $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Exercise 2.3, Extension and Exploration, Problem 16) Given that $\lambda$ is an arbitrary real number, as $\lambda$ varies, what figure does the equation $3x+4y-2+\lambda\left(2x+y+2\right)=0$ represent? What are the features of this figure?
 
@@ -628,7 +621,7 @@ From the second equation, $y=-2x-2$; substituting into the first gives $3x+4\lef
 
 As $\lambda$ varies, the equation represents all lines passing through the fixed point $\left(-2,2\right)$ (excluding the line $2x+y+2=0$ itself). The feature of the figure is that all the lines pass through the fixed point $\left(-2,2\right)$. $\blacksquare$
 
-### Problem 17
+## Problem 17
 
 (Exercise 2.3, Extension and Exploration, Problem 17) Given $0< x< 1$, $0< y< 1$.
 

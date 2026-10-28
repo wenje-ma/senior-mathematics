@@ -1,16 +1,13 @@
-# Assignment 76
+# week76
+> **Definition 5.1.2 (Derivative)**<br>函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**<br>函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **Definition 5.2.1 (Derivative Formulas)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (Differentiation Rules)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.3 (Chain Rule)**<br>复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
 
-> **Definition 5.1.2** (Derivative) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+---
 
-> **Definition 5.1.3** (Geometric Meaning of the Derivative) <br>The derivative $f'\left(x_{0}\right)$ of the function $y=f\left(x\right)$ at $x=x_{0}$ is exactly the slope of the tangent line to the curve at that point.
-
-> **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions) <br>(1) If $f\left(x\right)=c$ ($c$ a constant), then $f'\left(x\right)=0$; (2) if $f\left(x\right)=x^{\alpha}$ ($\alpha\in\mathbb R$, $\alpha\neq0$), then $f'\left(x\right)=\alpha x^{\alpha-1}$; (3) if $f\left(x\right)=\sin x$, then $f'\left(x\right)=\cos x$; (4) if $f\left(x\right)=\cos x$, then $f'\left(x\right)=-\sin x$; (5) if $f\left(x\right)=a^{x}$ ($a> 0$, $a\neq1$), then $f'\left(x\right)=a^{x}\ln a$; in particular, if $f\left(x\right)=\mathrm e^{x}$, then $f'\left(x\right)=\mathrm e^{x}$; (6) if $f\left(x\right)=\log_{a}x$ ($a> 0$, $a\neq1$), then $f'\left(x\right)=\frac{1}{x\ln a}$; in particular, if $f\left(x\right)=\ln x$, then $f'\left(x\right)=\frac{1}{x}$.
-
-> **Definition 5.2.2** (Rules for Arithmetic Operations on Derivatives) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$ ($g\left(x\right)\neq0$); $\left[cf\left(x\right)\right]'=cf'\left(x\right)$.
-
-> **Definition 5.2.3** (Chain Rule for Composite Functions) <br>For the function $y=f\left(g\left(x\right)\right)$ composed of $y=f\left(u\right)$ and $u=g\left(x\right)$, its derivative is $y'_{x}=y'_{u}\cdot u'_{x}$, i.e. the derivative of $y$ with respect to $x$ equals the product of the derivative of $y$ with respect to $u$ and the derivative of $u$ with respect to $x$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.2, Problem 1) Find the derivatives of the following functions: 
 
@@ -28,7 +25,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions).
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**.
 
 (1) $y=x^{-4}$, hence $y'=-4x^{-4-1}=-4x^{-5}$.
 
@@ -42,7 +39,7 @@ By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions).
 
 (6) $y=\log_{\frac{1}{2}}x$, hence $y'=\frac{1}{x\ln\frac{1}{2}}=-\frac{1}{x\ln2}$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.2, Problem 2) Find the derivatives of the following functions at the given points: 
 
@@ -56,7 +53,7 @@ By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions).
 
 ### Solution to Exercise 2
 
-By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions).
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**.
 
 (1) $y'=5x^{4}$, hence $y'\big|_{x=3}=5\times3^{4}=405$.
 
@@ -66,13 +63,13 @@ By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions).
 
 (4) $y'=\mathrm e^{x}$, hence $y'\big|_{x=0}=\mathrm e^{0}=1$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.2, Problem 3) Find the equation of the tangent line to the cosine curve $y=\cos x$ at the point $\left(\frac{\pi}{2},0\right)$.
 
 ### Solution to Exercise 3
 
-By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions), $y'=-\sin x$. By **Definition 5.1.3** (Geometric Meaning of the Derivative), the tangent slope is
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, $y'=-\sin x$. By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is
 
 $$
 k=y'\big|_{x=\frac{\pi}{2}}=-\sin\frac{\pi}{2}=-1.
@@ -80,13 +77,13 @@ $$
 
 The tangent line passes through the point $\left(\frac{\pi}{2},0\right)$, so its equation is $y-0=-1\left(x-\frac{\pi}{2}\right)$, i.e. $y=-x+\frac{\pi}{2}$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.2, Problem 4) Find the equation of the tangent line to the curve $y=x^{\frac{1}{2}}$ at the point $\left(4,2\right)$.
 
 ### Solution to Exercise 4
 
-By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions), $y'=\frac{1}{2}x^{-\frac{1}{2}}$. By **Definition 5.1.3** (Geometric Meaning of the Derivative), the tangent slope is
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, $y'=\frac{1}{2}x^{-\frac{1}{2}}$. By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is
 
 $$
 k=y'\big|_{x=4}=\frac{1}{2}\times4^{-\frac{1}{2}}=\frac{1}{4}.
@@ -94,13 +91,13 @@ $$
 
 The tangent line passes through the point $\left(4,2\right)$, so its equation is $y-2=\frac{1}{4}\left(x-4\right)$, i.e. $y=\frac{1}{4}x+1$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 5.2, Problem 5) Using the derivative formulas for basic elementary functions and the derivative rules, re-solve Example 2 in Section 5.1. Do you feel the convenience and speed that the rules bring to problem solving? 
 
 ### Solution to Exercise 5
 
-In Example 2 of Section 5.1, the crude oil temperature is $f\left(x\right)=x^{2}-7x+15$. By **Definition 5.2.2** (Rules for Arithmetic Operations on Derivatives) and **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions), 
+In Example 2 of Section 5.1, the crude oil temperature is $f\left(x\right)=x^{2}-7x+15$. By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)** and **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, 
 
 $$
 f'\left(x\right)=\left(x^{2}\right)'-\left(7x\right)'+\left(15\right)'=2x-7.
@@ -110,7 +107,7 @@ Hence $f'\left(2\right)=2\times2-7=-3$, and $f'\left(6\right)=2\times6-7=5$.
 
 Compared with computing point by point using the definition of the derivative in Section 5.1, directly differentiating using the formulas and rules and then substituting is far more efficient. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 5.2, Problem 6) Find the derivatives of the following functions: 
 
@@ -128,7 +125,7 @@ Compared with computing point by point using the definition of the derivative in
 
 ### Solution to Exercise 6
 
-By **Definition 5.2.1** and **Definition 5.2.2**.
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonometric Functions)**.
 
 (1) $y'=\left(2x^{3}\right)'-\left(3x^{2}\right)'-\left(4\right)'=6x^{2}-6x$.
 
@@ -146,16 +143,15 @@ $$
 y'=\frac{\cos x\cdot\cos x-\sin x\left(-\sin x\right)}{\cos^{2}x}=\frac{\cos^{2}x+\sin^{2}x}{\cos^{2}x}=\frac{1}{\cos^{2}x}.
 $$
 
-
 $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 5.2, Problem 7) Find the equation of the tangent line to the curve $y=x^{2}+3x$ at the point $\left(1,4\right)$.
 
 ### Solution to Exercise 7
 
-By **Definition 5.2.2**, $y'=2x+3$. By **Definition 5.1.3**, the tangent slope is
+By **Definition 5.2.2 (Trigonometric Functions)**, $y'=2x+3$. By **Definition 5.1.3 (One Radian)**, the tangent slope is
 
 $$
 k=y'\big|_{x=1}=2\times1+3=5.
@@ -163,7 +159,7 @@ $$
 
 The tangent line passes through the point $\left(1,4\right)$, so its equation is $y-4=5\left(x-1\right)$, i.e. $y=5x-1$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 5.2, Problem 8) Find the derivatives of the following functions: 
 
@@ -181,7 +177,7 @@ The tangent line passes through the point $\left(1,4\right)$, so its equation is
 
 ### Solution to Exercise 8
 
-By **Definition 5.2.3** (Chain Rule for Composite Functions).
+By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
 
 (1) Let $y=2u^{-\frac{1}{2}}$, $u=3x+1$; then $y'_{x}=2\cdot\left(-\frac{1}{2}\right)u^{-\frac{3}{2}}\cdot3=-\frac{3}{\left(3x+1\right)^{\frac{3}{2}}}$.
 
@@ -195,7 +191,7 @@ By **Definition 5.2.3** (Chain Rule for Composite Functions).
 
 (6) Let $y=2^{u}$, $u=2x+1$; then $y'_{x}=2^{u}\ln2\cdot2=2^{2x+2}\ln2$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 5.2, Problem 9) Find the derivatives of the following functions at the given points: 
 
@@ -205,25 +201,25 @@ By **Definition 5.2.3** (Chain Rule for Composite Functions).
 
 ### Solution to Exercise 9
 
-By **Definition 5.2.3** (Chain Rule for Composite Functions).
+By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
 
 (1) Let $y=\mathrm e^{u}$, $u=-2x+1$; then $y'_{x}=\mathrm e^{u}\cdot\left(-2\right)=-2\mathrm e^{-2x+1}$. Hence $y'\big|_{x=\frac{1}{2}}=-2\mathrm e^{-2\cdot\frac{1}{2}+1}=-2\mathrm e^{0}=-2$.
 
 (2) Let $y=\ln u$, $u=5x+2$; then $y'_{x}=\frac{1}{u}\cdot5=\frac{5}{5x+2}$. Hence $y'\big|_{x=1}=\frac{5}{5+2}=\frac{5}{7}$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 5.2, Problem 10) Find the equation of the tangent line to the curve $y=\sqrt\left[3\right]{3x-1}$ at the point $\left(\frac{2}{3},1\right)$.
 
 ### Solution to Exercise 10
 
-By **Definition 5.2.3**, let $y=u^{\frac{1}{3}}$, $u=3x-1$; then
+By **Definition 5.2.3 (Chain Rule)**, let $y=u^{\frac{1}{3}}$, $u=3x-1$; then
 
 $$
 y'_{x}=\frac{1}{3}u^{-\frac{2}{3}}\cdot3=u^{-\frac{2}{3}}=\left(3x-1\right)^{-\frac{2}{3}}.
 $$
 
-By **Definition 5.1.3**, the tangent slope is
+By **Definition 5.1.3 (One Radian)**, the tangent slope is
 
 $$
 k=y'\big|_{x=\frac{2}{3}}=\left(3\cdot\frac{2}{3}-1\right)^{-\frac{2}{3}}=1^{-\frac{2}{3}}=1.
@@ -231,7 +227,7 @@ $$
 
 The tangent line passes through the point $\left(\frac{2}{3},1\right)$, so its equation is $y-1=1\cdot\left(x-\frac{2}{3}\right)$, i.e. $y=x+\frac{1}{3}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.2, Review and Consolidation, Problem 1) Find the derivatives of the following functions: 
 
@@ -249,7 +245,7 @@ The tangent line passes through the point $\left(\frac{2}{3},1\right)$, so its e
 
 ### Solution to Problem 1
 
-By **Definition 5.2.1** and **Definition 5.2.2**.
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonometric Functions)**.
 
 (1) $y'=6x^{2}-6x$.
 
@@ -267,10 +263,9 @@ $$
 y'=\frac{\cos x\left(\sin x+\cos x\right)-\sin x\left(\cos x-\sin x\right)}{\left(\sin x+\cos x\right)^{2}}=\frac{\cos^{2}x+\sin^{2}x}{\left(\sin x+\cos x\right)^{2}}=\frac{1}{\left(\sin x+\cos x\right)^{2}}.
 $$
 
-
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.2, Review and Consolidation, Problem 2) Find the derivatives of the following functions: 
 
@@ -288,7 +283,7 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-By **Definition 5.2.1**, **Definition 5.2.2** and **Definition 5.2.3**.
+By **Definition 5.2.1 (Derivative Formulas)**, **Definition 5.2.2 (Trigonometric Functions)** and **Definition 5.2.3 (Chain Rule)**.
 
 (1) Let $y=u^{99}$, $u=x+1$; then $y'=99u^{98}\cdot1=99\left(x+1\right)^{98}$.
 
@@ -306,13 +301,13 @@ $$
 
 (6) By the product rule, $y'=3^{x}\ln3\cdot\mathrm e^{-3x}+3^{x}\cdot\left(-3\right)\mathrm e^{-3x}=3^{x}\mathrm e^{-3x}\left(\ln3-3\right)$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.2, Review and Consolidation, Problem 3) Given that $f\left(x\right)=13-8x+\sqrt{2}x^{2}$ and $f'\left(x_{0}\right)=4$, find $x_{0}$.
 
 ### Solution to Problem 3
 
-By **Definition 5.2.1** and **Definition 5.2.2**, 
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonometric Functions)**, 
 
 $$
 f'\left(x\right)=\left(13\right)'-\left(8x\right)'+\left(\sqrt{2}x^{2}\right)'=-8+2\sqrt{2}x.
@@ -326,7 +321,7 @@ $$
 
 Hence $x_{0}=3\sqrt{2}$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.2, Review and Consolidation, Problem 4) Given the function $y=x\ln x$.
 
@@ -336,25 +331,25 @@ Hence $x_{0}=3\sqrt{2}$. $\blacksquare$
 
 ### Solution to Problem 4
 
-By **Definition 5.2.2** (Rules for Arithmetic Operations on Derivatives).
+By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)**.
 
 (1) By the product rule, $y'=\left(x\right)'\ln x+x\left(\ln x\right)'=\ln x+1$.
 
-(2) By **Definition 5.1.3**, the tangent slope is $k=y'\big|_{x=1}=\ln1+1=1$. The tangent line passes through the point $\left(1,0\right)$, so its equation is $y-0=1\cdot\left(x-1\right)$, i.e. $y=x-1$. $\blacksquare$
+(2) By **Definition 5.1.3 (One Radian)**, the tangent slope is $k=y'\big|_{x=1}=\ln1+1=1$. The tangent line passes through the point $\left(1,0\right)$, so its equation is $y-0=1\cdot\left(x-1\right)$, i.e. $y=x-1$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.2, Review and Consolidation, Problem 5) Find the equation of the tangent line to the curve $y=\frac{\sin x}{x}$ at the point $M\left(\pi,0\right)$.
 
 ### Solution to Problem 5
 
-By **Definition 5.2.2** (Rules for Arithmetic Operations on Derivatives), 
+By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)**, 
 
 $$
 y'=\frac{\cos x\cdot x-\sin x\cdot1}{x^{2}}=\frac{x\cos x-\sin x}{x^{2}}.
 $$
 
-By **Definition 5.1.3**, the tangent slope is
+By **Definition 5.1.3 (One Radian)**, the tangent slope is
 
 $$
 k=y'\big|_{x=\pi}=\frac{\pi\cos\pi-\sin\pi}{\pi^{2}}=\frac{-\pi}{\pi^{2}}=-\frac{1}{\pi}.
@@ -362,13 +357,13 @@ $$
 
 The tangent line passes through the point $M\left(\pi,0\right)$, so its equation is $y-0=-\frac{1}{\pi}\left(x-\pi\right)$, i.e. $y=-\frac{x}{\pi}+1$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.2, Comprehensive Application, Problem 6) Given that the function $f\left(x\right)$ satisfies $f\left(x\right)=f'\left(\frac{\pi}{4}\right)\sin x-\cos x$, find the derivative of $f\left(x\right)$ at $x=\frac{\pi}{4}$.
 
 ### Solution to Problem 6
 
-By **Definition 5.2.2**, differentiating $f\left(x\right)$ and noting that $f'\left(\frac{\pi}{4}\right)$ is a constant, we get
+By **Definition 5.2.2 (Trigonometric Functions)**, differentiating $f\left(x\right)$ and noting that $f'\left(\frac{\pi}{4}\right)$ is a constant, we get
 
 $$
 f'\left(x\right)=f'\left(\frac{\pi}{4}\right)\cos x+\sin x.
@@ -388,7 +383,7 @@ $$
 
 Hence the derivative of $f\left(x\right)$ at $x=\frac{\pi}{4}$ is $\sqrt{2}+1$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.2, Comprehensive Application, Problem 7) Let the graph of $f\left(x\right)=1-\mathrm e^{x}$ intersect the $x$-axis at the point $P$. Find the equation of the tangent line to the curve at $P$.
 
@@ -396,7 +391,7 @@ Hence the derivative of $f\left(x\right)$ at $x=\frac{\pi}{4}$ is $\sqrt{2}+1$. 
 
 Setting $f\left(x\right)=0$, i.e. $1-\mathrm e^{x}=0$, we get $x=0$, so the intersection point is $P\left(0,0\right)$.
 
-By **Definition 5.2.1**, $f'\left(x\right)=-\mathrm e^{x}$. By **Definition 5.1.3**, the tangent slope is
+By **Definition 5.2.1 (Derivative Formulas)**, $f'\left(x\right)=-\mathrm e^{x}$. By **Definition 5.1.3 (One Radian)**, the tangent slope is
 
 $$
 k=f'\left(0\right)=-\mathrm e^{0}=-1.
@@ -404,13 +399,13 @@ $$
 
 The tangent line passes through the point $P\left(0,0\right)$, so its equation is $y=-x$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 5.2, Comprehensive Application, Problem 8) Given $f\left(x\right)=\frac{x^{2}}{2}+2x-3\ln x$, find the derivative of $f\left(x\right)$ and the solution set of $f'\left(x\right)> 0$.
 
 ### Solution to Problem 8
 
-By **Definition 5.2.1** and **Definition 5.2.2**, 
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonometric Functions)**, 
 
 $$
 f'\left(x\right)=x+2-\frac{3}{x}.
@@ -426,7 +421,7 @@ Solving the inequality $\left(x+3\right)\left(x-1\right)> 0$, we get $x< -3$ or 
 
 Hence the solution set of $f'\left(x\right)> 0$ is $\left\{x\mid x> 1\right\}$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 5.2, Extension and Exploration, Problem 9) Radon is a colorless, odorless radioactive gas that naturally emanates from the ground or from building materials. If $500\ \mathrm{g}$ of radon gas, after emanating for $t$ days, leaves an amount of $A\left(t\right)=500\times0.834^{\top}\ \mathrm{g}$.
 
@@ -436,7 +431,7 @@ Hence the solution set of $f'\left(x\right)> 0$ is $\left\{x\mid x> 1\right\}$. 
 
 ### Solution to Problem 9
 
-By **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions).
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**.
 
 (1) $A'\left(t\right)=500\times0.834^{\top}\ln0.834$. This is the emanation rate of the radon gas.
 
@@ -448,7 +443,7 @@ $$
 
 This means that after $7$ days, the radon gas emanates at a rate of about $24.9\ \mathrm{g}$ per day. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 5.2, Extension and Exploration, Problem 10) Let the distance $l$ (in $\mathrm{m}$) traveled by an alpine skier during a training run and the time $t$ (in $\mathrm{s}$) be related by $l\left(t\right)=2t^{2}+3\sqrt{2t}$.
 
@@ -460,7 +455,7 @@ This means that after $7$ days, the radon gas emanates at a rate of about $24.9\
 
 ### Solution to Problem 10
 
-By **Definition 5.2.1** and **Definition 5.2.3**.
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.3 (Chain Rule)**.
 
 (1) $l\left(t\right)=2t^{2}+3\left(2t\right)^{\frac{1}{2}}$, hence
 
@@ -480,13 +475,13 @@ $$
 
 Hence when the distance traveled is $38\ \mathrm{m}$, the skiing speed is approximately $15.9\ \mathrm{m/s}$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 5.2, Extension and Exploration, Problem 11) Let the tangent line to the curve $y=\mathrm e^{2ax}$ at the point $\left(0,1\right)$ be perpendicular to the line $2x-y+1=0$. Find the value of $a$.
 
 ### Solution to Problem 11
 
-By **Definition 5.2.3**, $y'=2a\mathrm e^{2ax}$. By **Definition 5.1.3**, the slope of the tangent line at the point $\left(0,1\right)$ is
+By **Definition 5.2.3 (Chain Rule)**, $y'=2a\mathrm e^{2ax}$. By **Definition 5.1.3 (One Radian)**, the slope of the tangent line at the point $\left(0,1\right)$ is
 
 $$
 k_{1}=y'\big|_{x=0}=2a\mathrm e^{0}=2a.
@@ -500,7 +495,7 @@ $$
 
 which gives $a=-\frac{1}{4}$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 5.2, Extension and Exploration, Problem 12) Please complete the following tasks step by step.
 
@@ -514,15 +509,15 @@ The figure shows four graphs of $y=\frac{\sin\left(x+h\right)-\sin x}{h}$ for $h
 
 ### Solution to Problem 12
 
-By **Definition 5.1.2** (Derivative), $\frac{\sin\left(x+h\right)-\sin x}{h}$ is the average rate of change of $\sin x$ at $x$ with increment $h$.
+By **Definition 5.1.2 (Derivative)**, $\frac{\sin\left(x+h\right)-\sin x}{h}$ is the average rate of change of $\sin x$ at $x$ with increment $h$.
 
 (1) For $h=1,0.5,0.1,0.05$, the graph of $y=\frac{\sin\left(x+h\right)-\sin x}{h}$ is a cosine-type curve in each case.
 
 (2) As $h$ becomes smaller and smaller, the graph of this average-rate-of-change function approaches the graph of $y=\cos x$.
 
-(3) From this, one may conjecture that the derivative of $y=\sin x$ is $y'=\cos x$, which agrees with the derivative formula for $\sin x$ in **Definition 5.2.1**. $\blacksquare$
+(3) From this, one may conjecture that the derivative of $y=\sin x$ is $y'=\cos x$, which agrees with the derivative formula for $\sin x$ in **Definition 5.2.1 (Derivative Formulas)**. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 5.2, Extension and Exploration, Problem 13) A certain bay has the largest tides in the world. Suppose that at a fixed point in the bay, the depth $d$ (in $\mathrm{m}$) of the sea water and the time $t$ (in $\mathrm{h}$) after midnight are related by $d\left(t\right)=10+4\cos\frac{\pi}{6}t$. Find the rate of change of the water level at this fixed point at the following times (rounded to $0.01\ \mathrm{m/h}$): 
 
@@ -536,7 +531,7 @@ By **Definition 5.1.2** (Derivative), $\frac{\sin\left(x+h\right)-\sin x}{h}$ is
 
 ### Solution to Problem 13
 
-By **Definition 5.2.3**, $d'\left(t\right)=-4\cdot\frac{\pi}{6}\sin\frac{\pi}{6}t=-\frac{2\pi}{3}\sin\frac{\pi}{6}t$.
+By **Definition 5.2.3 (Chain Rule)**, $d'\left(t\right)=-4\cdot\frac{\pi}{6}\sin\frac{\pi}{6}t=-\frac{2\pi}{3}\sin\frac{\pi}{6}t$.
 
 (1) $6:00$ AM corresponds to $t=6$, $d'\left(6\right)=-\frac{2\pi}{3}\sin\pi=0$.
 
@@ -554,7 +549,7 @@ By **Definition 5.2.3**, $d'\left(t\right)=-4\cdot\frac{\pi}{6}\sin\frac{\pi}{6}
 
 Newton's method successively approximates the root of the equation $f\left(x\right)=0$ via the iterative formula $x_{n}=x_{n-1}-\frac{f\left(x_{n-1}\right)}{f'\left(x_{n-1}\right)}$.
 
-By **Definition 5.1.3** (Geometric Meaning of the Derivative), each iteration step takes the intersection of the tangent line to the curve at the current point with the $x$-axis as the next approximation. The initial value $x_{0}$ determines from which point on the curve the tangent line is drawn.
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, each iteration step takes the intersection of the tangent line to the curve at the current point with the $x$-axis as the next approximation. The initial value $x_{0}$ determines from which point on the curve the tangent line is drawn.
 
 Different initial values do affect finding the approximate solution: if the initial value is close to a certain zero, the iteration will converge to that zero; if the initial value is poorly chosen, the iteration may converge to another nearby zero, may be unable to continue at $f'\left(x_{n}\right)=0$, or may not converge. Hence the initial value should be chosen as close as possible to the desired zero. $\blacksquare$
 

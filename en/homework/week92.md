@@ -1,12 +1,10 @@
-# Assignment 92
+# week92
+> **Definition 8.2.1 (一元线性回归模型)**<br>用 $x$ 表示自变量, $Y$ 表示因变量, $e$ 表示随机误差, 假定随机误差 $e$ 的均值为 0, 方差为与 $x$ 无关的定值 $\sigma^2$, 则它们之间的关系可以表示为 $Y=bx+a+e$, $\mathbb E\left(e\right)=0$, $D\left(e\right)=\sigma^2$. 其中 $a$ 称为截距参数, $b$ 称为斜率参数, $e$ 是 $Y$ 与 $bx+a$ 之间的随机误差.
+> **Definition 8.2.4 (Empirical Regression Equation)**<br>The regression line y = bx + a obtained by the least squares method.
 
-> **Definition 8.2.1** (Simple Linear Regression Model) <br>Let $x$ denote the independent variable, $Y$ the dependent variable, and $e$ the random error; assume the mean of the random error $e$ is 0 and its variance is a constant $\sigma^2$ independent of $x$; then the relationship among them can be written as $Y=bx+a+e$, $\mathbb E\left(e\right)=0$, $D\left(e\right)=\sigma^2$. Here $a$ is called the intercept parameter, $b$ is called the slope parameter, and $e$ is the random error between $Y$ and $bx+a$.
+---
 
-> **Definition 8.2.4** (Empirical Regression Equation) <br>Based on the sample data, the least squares method is used to estimate the model parameters $a$, $b$; the equation $\widehat y=\widehat b x+\widehat a$ obtained from the least squares estimates is called the empirical regression equation of $y$ on $x$.
-
-> **Common Conclusion 8.2.8** (Analysis of Regression Results) <br>The sign of the regression coefficient $\widehat b$ reflects the direction in which $Y$ changes with $x$; to test whether the regression coefficient $b$ is 0, a $t$ statistic is used, and to test whether the linear relationship between the two variables is significant, an $F$ statistic is used; given the significance level $\alpha=0.05$, when the $p$-value is less than $\alpha$, the linear relationship is considered significant; the coefficient of determination $R^2$ reflects the contribution of the independent variable to the regression, i.e. the percentage of the total variation of the dependent variable that can be explained by the regression.
-
-### Problem 1
+## Problem 1
 
 (Problem 1) When the concentration of the air pollutant $PM_{2.5}$ exceeds a certain limit, it affects people's health. To study whether the concentration of $PM_{2.5}$ is affected by factors such as traffic flow and weather conditions, researchers selected 24 cities with similar socio-economic development levels; in each city, a traffic point was chosen as a monitoring station, the number of vehicles passing through each monitoring point within $24\ \mathrm{h}$ (unit: thousand vehicles) was counted, and at the same time, at the same low altitude, the average temperature (unit: $^\circ\mathrm{C}$), wind speed (unit: $\mathrm{m/s}$), air humidity (absolute humidity, unit: $\mathrm{g/m^3}$), and the average concentration of $PM_{2.5}$ in the air (unit: $\mu\mathrm{g/m^3}$) were measured for each monitoring station over that period; the data are shown in Table 1. By building a statistical model, quantitatively explore the relationship between the $PM_{2.5}$ concentration and traffic flow, and carry out prediction and control.
 
@@ -29,17 +27,17 @@ Table 1 Monitoring data of the $PM_{2.5}$ concentration in the air at traffic po
 
 ### Solution to Problem 1
 
-By **Definition 8.2.1** (Simple Linear Regression Model), taking traffic flow as the independent variable $x$ and the $PM_{2.5}$ concentration as the dependent variable $Y$, the method of regression analysis is used for the study. The whole study proceeds in three aspects: statistical description, statistical modeling and inference, and statistical application.
+By **Definition 8.2.1 (Simple Linear Regression Model)**, taking traffic flow as the independent variable $x$ and the $PM_{2.5}$ concentration as the dependent variable $Y$, the method of regression analysis is used for the study. The whole study proceeds in three aspects: statistical description, statistical modeling and inference, and statistical application.
 
 (1) Statistical description. Taking traffic flow as the horizontal axis and the $PM_{2.5}$ concentration as the vertical axis, draw a scatter plot. From the scatter plot one finds that the $PM_{2.5}$ concentration shows a linear increasing trend as traffic flow increases; but when the traffic flow is similar, the $PM_{2.5}$ concentration sometimes differs greatly, indicating that besides traffic flow, the $PM_{2.5}$ concentration may also be affected by other factors such as wind speed, temperature, and air humidity. Hence the relationship between the $PM_{2.5}$ concentration and traffic flow is a correlation.
 
-(2) Build the linear regression equation. By **Definition 8.2.1** (Simple Linear Regression Model), set
+(2) Build the linear regression equation. By **Definition 8.2.1 (Simple Linear Regression Model)**, set
 
 $$
 Y=bx+a+e,\quad \mathbb E\left(e\right)=0,\quad D\left(e\right)=\sigma^2.
 $$
 
-By **Definition 8.2.4** (Empirical Regression Equation), using the least squares method to estimate the parameters $a$, $b$, we obtain the empirical regression equation
+By **Definition 8.2.4 (Empirical Regression Equation)**, using the least squares method to estimate the parameters $a$, $b$, we obtain the empirical regression equation
 
 $$
 \widehat y=\widehat b x+\widehat a.

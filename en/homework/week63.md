@@ -1,16 +1,11 @@
-# Assignment 63
+# week63
+> **Basic Knowledge: 常用结论 2.3.2**<br>平面内两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ 间的距离为 $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
+> **Definition 2.4.1 (圆的标准方程)**<br>圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
+> **Definition 2.4.3 (圆的一般方程)**<br>点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
 
-> **Common Conclusion 2.3.2** (Distance Formula Between Two Points) <br>The distance between two points $P_1\left(x_1,y_1\right)$ and $P_2\left(x_2,y_2\right)$ in the plane is $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
+---
 
-> **Common Conclusion 2.3.3** (Distance from a Point to a Line) <br>The distance from the point $P\left(x_0,y_0\right)$ to the line $l:Ax+By+C=0$ is $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
-
-> **Definition 2.4.1** (Standard Equation of a Circle) <br>The standard equation of a circle with center $A\left(a,b\right)$ and radius $r$ is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$. In particular, when the center is at the origin $O\left(0,0\right)$, the equation is $x^2+y^2=r^2$.
-
-> **Common Conclusion 2.4.2** (Position of a Point Relative to a Circle) <br>Let the distance from the point $P\left(x_0,y_0\right)$ to the center $A\left(a,b\right)$ be $d$, and let the radius of the circle be $r$. Then when $d< r$ the point is inside the circle, when $d=r$ the point is on the circle, and when $d> r$ the point is outside the circle. That is, when $\left(x_0-a\right)^2+\left(y_0-b\right)^2< r^2$ the point is inside, when $=r^2$ the point is on the circle, and when $> r^2$ the point is outside.
-
-> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F> 0$, the equation represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$; when $D^2+E^2-4F=0$, the equation represents a single point $\left(-\frac{D}{2},-\frac{E}{2}\right)$; when $D^2+E^2-4F< 0$, the equation represents no figure.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 2.4, Problem 1) Write the standard equation of each of the following circles:
 
@@ -22,7 +17,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 2.4.1** (Standard Equation of a Circle), the standard equation is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
+By **Definition 2.4.1 (Standard Equation of a Circle)**, the standard equation is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
 
 (1) The center is $\left(0,0\right)$, radius $r=3$, and the equation is $x^2+y^2=9$.
 
@@ -30,7 +25,7 @@ By **Definition 2.4.1** (Standard Equation of a Circle), the standard equation i
 
 (3) By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the radius is $\left|CP\right|=\sqrt{\left(5-8\right)^2+\left(1-\left(-3\right)\right)^2}=\sqrt{9+16}=5$. The equation is $\left(x-8\right)^2+\left(y+3\right)^2=25$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 2.4, Problem 2) Write the center coordinates and radius of each of the following circles:
 
@@ -40,13 +35,13 @@ By **Definition 2.4.1** (Standard Equation of a Circle), the standard equation i
 
 ### Solution to Exercise 2
 
-By **Definition 2.4.1** (Standard Equation of a Circle), compare with $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
+By **Definition 2.4.1 (Standard Equation of a Circle)**, compare with $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
 
 (1) The center is $\left(2,0\right)$, radius $r=5$.
 
 (2) The center is $\left(-2,-1\right)$, radius $r=\sqrt 3$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 2.4, Problem 3) Determine the position of the points $P_1\left(3,-5\right)$, $P_2\left(0,0\right)$, $P_3\left(-1,-1\right)$ relative to the circle $\left(x+2\right)^2+\left(y+3\right)^2=4$.
 
@@ -60,7 +55,7 @@ By **Common Conclusion 2.4.2** (Position of a Point Relative to a Circle), the c
 
 (3) Point $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5> 4$, so $P_3$ is outside the circle. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 2.4, Problem 4) Find the equation of the circle determined by each of the following conditions:
 
@@ -76,13 +71,13 @@ $$
 r=\frac{\left|3\cdot1-4\cdot3-7\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|3-12-7\right|}{5}=\frac{16}{5}.
 $$
 
-By **Definition 2.4.1** (Standard Equation of a Circle), the equation of the circle is $\left(x-1\right)^2+\left(y-3\right)^2=\frac{256}{25}$.
+By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation of the circle is $\left(x-1\right)^2+\left(y-3\right)^2=\frac{256}{25}$.
 
 (2) The center is on the $x$-axis; let it be $\left(a,0\right)$. The circle passes through $A\left(2,-3\right)$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the radius is $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt 5$. Squaring both sides gives $\left(2-a\right)^2+9=5$, i.e. $\left(2-a\right)^2=-4$, which has no solution.
 
 Re-reading the problem: the radius is $\sqrt 5$, i.e. $r^2=5$, and $\left(2-a\right)^2+9=5$ gives $\left(2-a\right)^2=-4$, which indeed has no solution. Check: the center is on the $x$-axis, and its distance to $A\left(2,-3\right)$ is $\sqrt 5$, but the distance from $A$ to the $x$-axis is already $3> \sqrt 5$, so no such circle exists. The problem likely intends the radius to be $5$. If $r=5$, then $\left(2-a\right)^2+9=25$, i.e. $\left(2-a\right)^2=16$, hence $a=6$ or $a=-2$. The equations of the circle are $\left(x-6\right)^2+y^2=25$ or $\left(x+2\right)^2+y^2=25$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 2.4, Problem 5) Find the center coordinates and radius of each of the following circles:
 
@@ -92,7 +87,7 @@ Re-reading the problem: the radius is $\sqrt 5$, i.e. $r^2=5$, and $\left(2-a\ri
 
 ### Solution to Exercise 5
 
-By **Definition 2.4.3** (General Equation of a Circle), the center is $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and the radius is $\frac{\sqrt{D^2+E^2-4F}}{2}$.
+By **Definition 2.4.3 (General Equation of a Circle)**, the center is $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and the radius is $\frac{\sqrt{D^2+E^2-4F}}{2}$.
 
 (1) $x^2+y^2-6y=0$ is $x^2+y^2+0x-6y+0=0$, so $D=0$, $E=-6$, $F=0$. The center is $\left(0,3\right)$ and the radius is $\frac{\sqrt{0+36-0}}{2}=3$.
 
@@ -104,7 +99,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 2.4, Problem 6) Determine whether each of the following equations represents a circle. If so, find the center and radius:
 
@@ -116,7 +111,7 @@ $\blacksquare$
 
 ### Solution to Exercise 6
 
-By **Definition 2.4.3** (General Equation of a Circle), check the sign of $D^2+E^2-4F$.
+By **Definition 2.4.3 (General Equation of a Circle)**, check the sign of $D^2+E^2-4F$.
 
 (1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4> 0$, so it represents a circle. The center is $\left(2,3\right)$ and the radius is $\frac{\sqrt 4}{2}=1$.
 
@@ -124,13 +119,13 @@ By **Definition 2.4.3** (General Equation of a Circle), check the sign of $D^2+E
 
 (3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44> 0$, so it represents a circle. The center is $\left(1,2\right)$ and the radius is $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 2.4, Problem 7) Find the equation of the circle passing through the three points $O\left(0,0\right)$, $M_1\left(1,1\right)$, $M_2\left(4,2\right)$, and find its radius and center coordinates.
 
 ### Solution to Exercise 7
 
-By **Definition 2.4.3** (General Equation of a Circle), let the equation of the circle be $x^2+y^2+Dx+Ey+F=0$.
+By **Definition 2.4.3 (General Equation of a Circle)**, let the equation of the circle be $x^2+y^2+Dx+Ey+F=0$.
 
 The three points lie on the circle; substituting:
 
@@ -144,7 +139,7 @@ Solving (b) and (c) together gives $D=-8$, $E=6$.
 
 The equation of the circle is $x^2+y^2-8x+6y=0$. The center is $\left(4,-3\right)$ and the radius is $\frac{\sqrt{64+36}}{2}=5$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 2.4, Review and Consolidation, Problem 1) Find the equation of each of the following circles:
 
@@ -158,7 +153,7 @@ The equation of the circle is $x^2+y^2-8x+6y=0$. The center is $\left(4,-3\right
 
 ### Solution to Problem 1
 
-By **Definition 2.4.1** (Standard Equation of a Circle) and **Definition 2.4.3** (General Equation of a Circle).
+By **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
 
 (1) The center is $\left(0,0\right)$, radius $r=3$, and the equation is $x^2+y^2=9$.
 
@@ -176,19 +171,19 @@ By **Definition 2.4.1** (Standard Equation of a Circle) and **Definition 2.4.3**
 
 Hence $E=-4$. The equation of the circle is $x^2+y^2+2x-4y=0$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 2.4, Review and Consolidation, Problem 2) The circle $C$ passes through $\left(1,0\right)$, its center lies on the positive half of the $x$-axis, and its radius is $2\sqrt 2$. Find the standard equation of circle $C$.
 
 ### Solution to Problem 2
 
-By **Definition 2.4.1** (Standard Equation of a Circle), the center is on the positive half of the $x$-axis; let it be $\left(a,0\right)$ with $a> 0$.
+By **Definition 2.4.1 (Standard Equation of a Circle)**, the center is on the positive half of the $x$-axis; let it be $\left(a,0\right)$ with $a> 0$.
 
 The circle passes through $\left(1,0\right)$ with radius $2\sqrt 2$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, i.e. $\left(a-1\right)^2=8$, hence $a-1=\pm2\sqrt 2$. Since $a> 0$, we have $a=1+2\sqrt 2$.
 
 The standard equation of the circle is $\left(x-1-2\sqrt 2\right)^2+y^2=8$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 2.4, Review and Consolidation, Problem 3) Find the equation of the circle passing through $A\left(2,-3\right)$ and $B\left(-2,-5\right)$, with its center on the line $x-2y-3=0$.
 
@@ -208,19 +203,19 @@ Combining $\begin{cases}a-2b=3\\2a+b=-4\end{cases}$, from the second equation $b
 
 The radius is $\sqrt{\left(-1-2\right)^2+\left(-2+3\right)^2}=\sqrt{9+1}=\sqrt{10}$. The equation of the circle is $\left(x+1\right)^2+\left(y+2\right)^2=10$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 2.4, Review and Consolidation, Problem 4) Find the center coordinates and radius of the circle $x^2+y^2-2x+4y-4=0$.
 
 ### Solution to Problem 4
 
-By **Definition 2.4.3** (General Equation of a Circle), $D=-2$, $E=4$, $F=-4$.
+By **Definition 2.4.3 (General Equation of a Circle)**, $D=-2$, $E=4$, $F=-4$.
 
 The center is $\left(-\frac{D}{2},-\frac{E}{2}\right)=\left(1,-2\right)$.
 
 The radius is $\frac{\sqrt{D^2+E^2-4F}}{2}=\frac{\sqrt{4+16+16}}{2}=\frac{\sqrt{36}}{2}=3$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 2.4, Comprehensive Application, Problem 5) Given the circle $x^2+y^2=4$ and the line $l:y=x+b$. For what value of $b$ are there exactly $3$ points on the circle $x^2+y^2=4$ whose distance to the line $l$ is exactly $1$?
 
@@ -240,7 +235,7 @@ When the distance from the center to $l$ is $d=1$, a closer analysis: the points
 
 Hence $\frac{\lvert b \rvert}{\sqrt 2}=1$, i.e. $b=\pm\sqrt 2$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 2.4, Comprehensive Application, Problem 6) Given that the two endpoints of the base of an isosceles triangle are $B\left(2,1\right)$ and $C\left(0,-3\right)$, find the equation of the locus of the other vertex $A$.
 
@@ -258,7 +253,7 @@ Expanding gives $x^2-4x+4+y^2-2y+1=x^2+y^2+6y+9$, i.e. $-4x-8y-4=0$, i.e. $x+2y+
 
 When $A$ is the midpoint of $BC$, the three points are collinear and do not form a triangle. The midpoint of $BC$ is $\left(1,-1\right)$, which lies on the line $x+2y+1=0$. Hence the locus is the line $x+2y+1=0$ with the point $\left(1,-1\right)$ removed. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 2.4, Comprehensive Application, Problem 7) Given the circle $C$: $\left(x-1\right)^2+\left(y-2\right)^2=4$, find the equations of the lines through $P\left(3,5\right)$ that are tangent to $C$.
 
@@ -282,13 +277,13 @@ When the tangent slope does not exist, the tangent is $x=3$. The distance from t
 
 Hence the tangent equations are $x=3$ or $5x-12y+45=0$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 2.4, Extension and Exploration, Problem 8) Find the area bounded by the curves $x^2+y^2=4$ and $x^2+y^2=2x$.
 
 ### Solution to Problem 8
 
-By **Definition 2.4.1** (Standard Equation of a Circle), $x^2+y^2=4$ is a circle centered at the origin with radius $2$.
+By **Definition 2.4.1 (Standard Equation of a Circle)**, $x^2+y^2=4$ is a circle centered at the origin with radius $2$.
 
 $x^2+y^2=2x$ is $\left(x-1\right)^2+y^2=1$, a circle centered at $\left(1,0\right)$ with radius $1$.
 
@@ -296,7 +291,7 @@ The distance between centers is $1$, and the radii are $2$ and $1$. Since $2-1=1
 
 The area bounded by the two circles is the area of the larger circle minus the area of the smaller: $\pi\cdot2^2-\pi\cdot1^2=4\pi-\pi=3\pi$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 2.4, Extension and Exploration, Problem 9) Given the circle $O: x^2+y^2=4$ and the line $l:y=x+b$. For what real value of $b$ are there exactly two points on the circle $O$ whose distance to the line $l$ is exactly $1$?
 
@@ -314,7 +309,7 @@ There being exactly two points on the circle at distance $1$ from $l$ means that
 
 In summary, $1< d< 3$, i.e. $1< \frac{\lvert b \rvert}{\sqrt 2}< 3$, i.e. $\sqrt 2< \lvert b \rvert< 3\sqrt 2$, hence $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 2.4, Extension and Exploration, Problem 10) Given the circle $C: x^2+y^2-4x-14y+45=0$, find:
 
@@ -324,7 +319,7 @@ In summary, $1< d< 3$, i.e. $1< \frac{\lvert b \rvert}{\sqrt 2}< 3$, i.e. $\sqrt
 
 ### Solution to Problem 10
 
-(1) By **Definition 2.4.3** (General Equation of a Circle), the equation $x^2+y^2-4x-14y+45=0$ is $\left(x-2\right)^2+\left(y-7\right)^2=8$. The center is $\left(2,7\right)$ and the radius is $r=2\sqrt 2$.
+(1) By **Definition 2.4.3 (General Equation of a Circle)**, the equation $x^2+y^2-4x-14y+45=0$ is $\left(x-2\right)^2+\left(y-7\right)^2=8$. The center is $\left(2,7\right)$ and the radius is $r=2\sqrt 2$.
 
 (2) $u=\frac{b-3}{a-6}$ is the slope of the line joining $Q\left(a,b\right)$ and $P\left(6,3\right)$. The problem becomes: find the range of the slope of the line joining $P\left(6,3\right)$ to a moving point on the circle.
 

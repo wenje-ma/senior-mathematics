@@ -1,22 +1,12 @@
-# Assignment 58
+# week58
+> **Theorem 1.2.1 (空间向量基本定理)**<br>如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
+> **Definition 1.3.1 (空间直角坐标系)**<br>在空间中取一定点 O 和三个两两垂直的单位向量 i, j, k, 以 O 为原点建立三条数轴 x 轴, y 轴, z 轴, 就建立了空间直角坐标系.
+> **Definition 1.3.2 (点的坐标)**<br>空间一点 M 的位置可用有序实数组 (x, y, z) 表示, 这个有序实数组叫做点 M 在此空间直角坐标系中的坐标.
+> **Definition 1.3.3 (向量的坐标)**<br>在空间直角坐标系中, 对任一向量 a, 存在唯一有序实数组 (a1, a2, a3), 使 a = a1*i + a2*j + a3*k, (a1, a2, a3) 叫做向量 a 的坐标.
 
-> **Theorem 1.2.1** (Fundamental Theorem of Spatial Vectors) <br>If the three vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are not coplanar, then for any spatial vector $\boldsymbol{p}$ there exists a unique ordered triple of real numbers $\left(x,y,z\right)$ such that $\boldsymbol{p}=x\boldsymbol{a}+y\boldsymbol{b}+z\boldsymbol{c}$.
+---
 
-> **Definition 1.2.3** (Orthonormal Basis) <br>If the three basis vectors of a basis of space are pairwise perpendicular and each has length $1$, then the basis is called an orthonormal basis, commonly denoted by $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$.
-
-> **Definition 1.3.1** (Rectangular Coordinate System in Space) <br>In space, choose a point $O$ and an orthonormal basis $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$. Taking the point $O$ as the origin, taking the directions of $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ as the positive directions, and taking their lengths as the unit lengths, set up three number lines: the $x$-axis, the $y$-axis, and the $z$-axis; these are called coordinate axes. In this way we have established a rectangular coordinate system $Oxyz$ in space; $O$ is called the origin, each of $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$ is called a coordinate vector, and the plane passing through any two coordinate axes is called a coordinate plane.
-
-> **Definition 1.3.2** (Coordinates of a Point) <br>The ordered triple of real numbers $\left(x,y,z\right)$ corresponding to the vector $\boldsymbol{OA}$ under the orthonormal basis $\left\{\boldsymbol{i}, \boldsymbol{j}, \boldsymbol{k}\right\}$ is called the coordinates of the point $A$ in the rectangular coordinate system in space, denoted by $A\left(x,y,z\right)$; here $x$ is called the abscissa of point $A$, $y$ the ordinate of point $A$, and $z$ the applicate of point $A$.
-
-> **Definition 1.3.3** (Coordinates of a Vector) <br>The ordered triple $\left(x,y,z\right)$ is called the coordinates of $\boldsymbol{a}$ in the rectangular coordinate system $Oxyz$, i.e. $\boldsymbol{a}=x\boldsymbol{i}+y\boldsymbol{j}+z\boldsymbol{k}$, which may be abbreviated as $\boldsymbol{a}=\left(x,y,z\right)$.
-
-> **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) <br>Let $\boldsymbol{a}=\left(a_1,a_2,a_3\right)$, $\boldsymbol{b}=\left(b_1,b_2,b_3\right)$; then $\boldsymbol{a}+\boldsymbol{b}=\left(a_1+b_1,a_2+b_2,a_3+b_3\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(a_1-b_1,a_2-b_2,a_3-b_3\right)$, $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\lambda a_3\right)$, $\lambda \in \mathbb R$, and $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+a_3b_3$. The coordinates of a spatial vector equal the coordinates of the endpoint of the directed segment representing it minus the coordinates of its starting point.
-
-> **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism, Perpendicularity, Modulus and Angle) <br>When $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \parallel \boldsymbol{b} \iff \boldsymbol{a}=\lambda\boldsymbol{b} \iff a_1=\lambda b_1$, $a_2=\lambda b_2$, $a_3=\lambda b_3$ ($\lambda \in \mathbb R$); when $\boldsymbol{a} \neq \boldsymbol{0}$ and $\boldsymbol{b} \neq \boldsymbol{0}$, $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0 \iff a_1b_1+a_2b_2+a_3b_3=0$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+a_3^2}$; and $\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}}$.
-
-> **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space) <br>Let $P_1\left(x_1,y_1,z_1\right)$, $P_2\left(x_2,y_2,z_2\right)$ be any two points in space; then $P_1P_2=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2+\left(z_2-z_1\right)^2}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 1.3, Problem 1) Plot the following points in the rectangular coordinate system in space:
 
@@ -24,7 +14,7 @@ $A\left(0,2,4\right)$, $B\left(1,0,5\right)$, $C\left(0,2,0\right)$, $D\left(1,3
 
 ### Solution to Exercise 1
 
-By **Definition 1.3.2** (Coordinates of a Point), in the rectangular coordinate system $Oxyz$, the abscissa corresponds to the $x$-axis, the ordinate to the $y$-axis, and the applicate to the $z$-axis.
+By **Definition 1.3.2 (Coordinates of a Point)**, in the rectangular coordinate system $Oxyz$, the abscissa corresponds to the $x$-axis, the ordinate to the $y$-axis, and the applicate to the $z$-axis.
 
 $A\left(0,2,4\right)$: in the $yOz$ plane, move $2$ along the $y$-axis direction, then move $4$ along the $z$-axis direction.
 
@@ -34,7 +24,7 @@ $C\left(0,2,0\right)$: on the $y$-axis, with coordinates $\left(0,2,0\right)$.
 
 $D\left(1,3,4\right)$: from the origin move $1$ along the $x$-axis, $3$ along the $y$-axis, and $4$ along the $z$-axis. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 1.3, Problem 2) In the rectangular coordinate system $Oxyz$ in space,
 
@@ -46,15 +36,15 @@ $D\left(1,3,4\right)$: from the origin move $1$ along the $x$-axis, $3$ along th
 
 ### Solution to Exercise 2
 
-By **Definition 1.3.1** (Rectangular Coordinate System in Space) and **Definition 1.3.2** (Coordinates of a Point).
+By **Definition 1.3.1 (Rectangular Coordinate System in Space)** and **Definition 1.3.2 (Coordinates of a Point)**.
 
-(1) By **Definition 1.3.1**, the $yOz$ plane is perpendicular to the $x$-axis, the $xOz$ plane to the $y$-axis, and the $xOy$ plane to the $z$-axis.
+(1) By **Definition 1.3.1 (Spatial Cartesian Coordinate System)**, the $yOz$ plane is perpendicular to the $x$-axis, the $xOz$ plane to the $y$-axis, and the $xOy$ plane to the $z$-axis.
 
 (2) The projection of $P\left(2,3,4\right)$ onto the $xOy$ plane is $\left(2,3,0\right)$; onto the $yOz$ plane is $\left(0,3,4\right)$; onto the $xOz$ plane is $\left(2,0,4\right)$.
 
 (3) For the point centrally symmetric to $P\left(1,3,5\right)$ with respect to the origin, all three coordinates are negated, giving $\left(-1,-3,-5\right)$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 1.3, Problem 3) In the cuboid $OABC-D'A'B'C'$, $OA=3$, $OC=4$, $OD'=3$, and $A'C'$ intersects $B'D'$ at point $P$; the rectangular coordinate system $Oxyz$ shown in the figure is set up.
 
@@ -66,7 +56,7 @@ The figure is an oblique projection of the cuboid $OABC-D'A'B'C'$: the lower fac
 
 ### Solution to Exercise 3
 
-By **Definition 1.3.2** (Coordinates of a Point) and **Definition 1.3.3** (Coordinates of a Vector).
+By **Definition 1.3.2 (Coordinates of a Point)** and **Definition 1.3.3 (Coordinates of a Vector)**.
 
 (1) By the setup, $O$ is the origin, $OA$ lies along the $x$-axis, $OC$ along the $y$-axis, and $OD'$ along the $z$-axis.
 
@@ -80,13 +70,13 @@ $P$ is the intersection of $A'C'$ and $B'D'$, i.e. the center of the upper face,
 
 $\boldsymbol{A'C'}=\boldsymbol{OC'}-\boldsymbol{OA'}=\left(0,4,3\right)-\left(3,0,3\right)=\left(-3,4,0\right)$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 1.3, Problem 4) Given that point $B$ is the projection of point $A\left(3,4,5\right)$ onto the coordinate plane $Oxy$, find $\lvert \boldsymbol{OB} \rvert$.
 
 ### Solution to Exercise 4
 
-By **Definition 1.3.2** (Coordinates of a Point) and **Common Conclusion 1.3.5** (Coordinate Representation of the Modulus).
+By **Definition 1.3.2 (Coordinates of a Point)** and **Common Conclusion 1.3.5** (Coordinate Representation of the Modulus).
 
 The projection of $A\left(3,4,5\right)$ onto the coordinate plane $Oxy$ is $B\left(3,4,0\right)$.
 
@@ -94,7 +84,7 @@ $\boldsymbol{OB}=\left(3,4,0\right)$.
 
 By **Common Conclusion 1.3.5**, $\lvert \boldsymbol{OB} \rvert=\sqrt{3^2+4^2+0^2}=\sqrt{9+16}=5$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 1.3, Problem 1) Given $\boldsymbol{a}=\left(-3,2,5\right)$ and $\boldsymbol{b}=\left(1,5,-1\right)$, find:
 
@@ -118,7 +108,7 @@ By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spati
 
 (4) $\boldsymbol{a} \cdot \boldsymbol{b}=\left(-3\right) \times 1+2 \times 5+5 \times \left(-1\right)=-3+10-5=2$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 1.3, Problem 2) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \perp \boldsymbol{b}$. Find the value of $x$.
 
@@ -130,7 +120,7 @@ $\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \t
 
 From $\boldsymbol{a} \perp \boldsymbol{b}$, we get $3x-10=0$, i.e. $x=\frac{10}{3}$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 1.3, Problem 3) Find a point $M$ on the $z$-axis such that the distances from point $M$ to $A\left(1,0,2\right)$ and $B\left(1,-3,1\right)$ are equal.
 
@@ -150,7 +140,7 @@ Expanding: $1+4-4z+z^2=10+1-2z+z^2$, i.e. $5-4z=11-2z$, which gives $z=-3$.
 
 Hence $M\left(0,0,-3\right)$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 1.3, Problem 4) As shown in the figure, the edge length of the cube $OABC-D'A'B'C'$ is $a$; the points $N$, $M$ lie on $AC$, $BC'$ respectively, with $AN=2CN$, $BM=2MC'$. Find the length of $MN$.
 
@@ -170,7 +160,7 @@ $\boldsymbol{MN}=M-N=\left(0, \frac{a}{3}, \frac{2a}{3}\right)$.
 
 $MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\frac{a^2}{9}+\frac{4a^2}{9}}=\frac{\sqrt{5}a}{3}$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 1.3, Problem 5) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $M$ is the midpoint of $AB$. Find the cosine of the angle between $DB_1$ and $CM$.
 
@@ -196,13 +186,13 @@ $\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{1}{4}}=\frac{\sqrt{5}}{2}$.
 
 $\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqrt{15}}=\frac{\sqrt{15}}{15}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 1.3, Review and Consolidation, Problem 1) In the rectangular coordinate system $Oxyz$ in space, three nonzero vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are parallel to the $x$-axis, $y$-axis, $z$-axis, respectively. What are the characteristics of their coordinates?
 
 ### Solution to Problem 1
 
-By **Definition 1.3.3** (Coordinates of a Vector).
+By **Definition 1.3.3 (Coordinates of a Vector)**.
 
 For a vector $\boldsymbol{a}$ parallel to the $x$-axis, its $y$- and $z$-coordinates are both $0$, i.e. $\boldsymbol{a}=\left(a_1,0,0\right)$, $a_1 \neq 0$.
 
@@ -210,7 +200,7 @@ For a vector $\boldsymbol{b}$ parallel to the $y$-axis, its $x$- and $z$-coordin
 
 For a vector $\boldsymbol{c}$ parallel to the $z$-axis, its $x$- and $y$-coordinates are both $0$, i.e. $\boldsymbol{c}=\left(0,0,c_3\right)$, $c_3 \neq 0$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 1.3, Review and Consolidation, Problem 2) $M\left(x,y,z\right)$ is a point in the rectangular coordinate system $Oxyz$ in space. Write out the coordinates of the points satisfying the following conditions:
 
@@ -224,7 +214,7 @@ For a vector $\boldsymbol{c}$ parallel to the $z$-axis, its $x$- and $y$-coordin
 
 ### Solution to Problem 2
 
-By **Definition 1.3.2** (Coordinates of a Point).
+By **Definition 1.3.2 (Coordinates of a Point)**.
 
 (1) Symmetric about the $x$-axis: the $x$-coordinate is unchanged, and the $y$-, $z$-coordinates are negated: $\left(x,-y,-z\right)$.
 
@@ -234,7 +224,7 @@ By **Definition 1.3.2** (Coordinates of a Point).
 
 (4) Symmetric about the origin: all three coordinates are negated: $\left(-x,-y,-z\right)$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 1.3, Review and Consolidation, Problem 3) As shown in the figure, the edge length of the cube $OABC-D'A'B'C'$ is $a$, and $E$, $F$, $G$, $H$, $I$, $J$ are the midpoints of edges $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$, respectively. Write out the coordinates of the vertices of the regular hexagon $EFGHIJ$.
 
@@ -242,7 +232,7 @@ The figure is an oblique projection of the cube $OABC-D'A'B'C'$ (edge length $a$
 
 ### Solution to Problem 3
 
-By **Definition 1.3.2** (Coordinates of a Point).
+By **Definition 1.3.2 (Coordinates of a Point)**.
 
 Take $O$ as the origin, with $OA$ as the $x$-axis, $OC$ as the $y$-axis, and $OD'$ as the $z$-axis; then $O\left(0,0,0\right)$, $A\left(a,0,0\right)$, $B\left(a,a,0\right)$, $C\left(0,a,0\right)$, $D'\left(0,0,a\right)$, $A'\left(a,0,a\right)$, $B'\left(a,a,a\right)$, $C'\left(0,a,a\right)$.
 
@@ -258,7 +248,7 @@ $I$ is the midpoint of $BC$: $I\left(\frac{a}{2}, a, 0\right)$.
 
 $J$ is the midpoint of $CC'$: $J\left(0, a, \frac{a}{2}\right)$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 1.3, Review and Consolidation, Problem 4) First plot the two points $A$, $B$ in the rectangular coordinate system in space, and then find the distance between them:
 
@@ -274,7 +264,7 @@ By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space).
 
 (2) $AB=\sqrt{\left(3-6\right)^2+\left(5-0\right)^2+\left(7-1\right)^2}=\sqrt{9+25+36}=\sqrt{70}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 1.3, Comprehensive Application, Problem 5) Given $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. Find:
 
@@ -290,7 +280,7 @@ By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spati
 
 (2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12-0, -3+0-0, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 1.3, Comprehensive Application, Problem 6) Prove that the triangle with vertices $A\left(4,1,9\right)$, $B\left(10,-1,6\right)$, $C\left(2,4,3\right)$ is an isosceles right triangle.
 
@@ -308,7 +298,7 @@ Hence $AB=AC=7$, and $AB^2+AC^2=49+49=98=BC^2$.
 
 By the converse of the Pythagorean theorem, $\angle BAC=90^\circ$, and since $AB=AC$, $\triangle ABC$ is an isosceles right triangle. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 1.3, Extension and Exploration, Problem 7) Given $A\left(3,5,-7\right)$ and $B\left(-2,4,3\right)$, find $\boldsymbol{AB}$, $\boldsymbol{BA}$, the coordinates of the midpoint of segment $AB$, and the length of segment $AB$.
 
@@ -324,7 +314,7 @@ The midpoint of segment $AB$ has coordinates $\left(\frac{3+\left(-2\right)}{2},
 
 $AB=\sqrt{\left(-5\right)^2+\left(-1\right)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3\sqrt{14}$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 1.3, Extension and Exploration, Problem 8) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $M$, $N$ are the midpoints of edges $A_1A$ and $B_1B$, respectively. Find the cosine of the angle between $CM$ and $D_1N$.
 
@@ -352,13 +342,13 @@ $\cos \theta=\frac{-\frac{1}{4}}{\frac{3}{2} \cdot \frac{3}{2}}=-\frac{1}{9}$.
 
 The angle between two lines is taken to be the acute or right angle, so the cosine is $\frac{1}{9}$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 1.3, Extension and Exploration, Problem 9) $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is an orthonormal basis of space, the vector $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, and $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$ is another basis of space. Express the vector $\boldsymbol{p}$ in terms of the basis $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$.
 
 ### Solution to Problem 9
 
-By **Theorem 1.2.1** (Fundamental Theorem of Spatial Vectors).
+By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
 
 Let $\boldsymbol{p}=x\left(\boldsymbol{a}+\boldsymbol{b}\right)+y\left(\boldsymbol{a}-\boldsymbol{b}\right)+z\boldsymbol{c}=\left(x+y\right)\boldsymbol{a}+\left(x-y\right)\boldsymbol{b}+z\boldsymbol{c}$.
 

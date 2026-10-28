@@ -1,28 +1,9 @@
-# Assignment 22
+# week22
+> **Basic Knowledge: 公式 5.5.1**<br>$\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
 
-> **Formula 5.5.1** (Cosine of a Difference) <br>$\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
+---
 
-> **Formula 5.5.2** (Cosine of a Sum) <br>$\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$.
-
-> **Formula 5.5.3** (Sine of a Sum) <br>$\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta$.
-
-> **Formula 5.5.4** (Sine of a Difference) <br>$\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta$.
-
-> **Formula 5.5.5** (Tangent of a Sum) <br>$\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$.
-
-> **Formula 5.5.6** (Tangent of a Difference) <br>$\tan\left(\alpha-\beta\right)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$.
-
-> **Formula 5.5.7** (Double-Angle Sine) <br>$\sin2\alpha=2\sin\alpha\cos\alpha$.
-
-> **Formula 5.5.8** (Double-Angle Cosine) <br>$\cos2\alpha=\cos^{2}\alpha-\sin^{2}\alpha=1-2\sin^{2}\alpha=2\cos^{2}\alpha-1$.
-
-> **Formula 5.5.9** (Double-Angle Tangent) <br>$\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}$.
-
-> **Formula 5.5.10** (Half-Angle Formulas) <br>$\sin^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$, $\cos^{2}\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$, $\tan^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}$.
-
-> **Formula 5.5.11** (Auxiliary Angle Formula) <br>$a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin\left(x+\varphi\right)$, where $\cos\varphi=\frac{a}{\sqrt{a^{2}+b^{2}}}$, $\sin\varphi=\frac{b}{\sqrt{a^{2}+b^{2}}}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.5, Problem 1) Using the sum (difference) angle formulas, find the value of each of the following expressions:
 
@@ -46,7 +27,7 @@ By **Formula 5.5.3** (Sine of a Sum), **Formula 5.5.2** (Cosine of a Sum), etc.
 
 (4) Since $\tan15^{\circ}=\tan\left(45^{\circ}-30^{\circ}\right)=\frac{\tan45^{\circ}-\tan30^{\circ}}{1+\tan45^{\circ}\tan30^{\circ}}=\frac{1-\frac{\sqrt{3}}{3}}{1+\frac{\sqrt{3}}{3}}=2-\sqrt{3}$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.5, Problem 2)
 
@@ -80,7 +61,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.5, Problem 3) Find the value of each of the following expressions:
 
@@ -112,7 +93,7 @@ Use **Formula 5.5.3** through **Formula 5.5.6** in reverse.
 
 (6) From $\cos110^{\circ}=-\cos70^{\circ}$ and $\cos160^{\circ}=-\cos20^{\circ}$, the original expression $=-\sin20^{\circ}\cos70^{\circ}-\cos20^{\circ}\sin70^{\circ}=-\sin\left(20^{\circ}+70^{\circ}\right)=-\sin90^{\circ}=-1$. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.5, Problem 4) Simplify:
 
@@ -136,7 +117,7 @@ By **Formula 5.5.11** (Auxiliary Angle Formula).
 
 (4) The original expression $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 5.5, Problem 5) Given $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$ and $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\sin2\beta$.
 
@@ -154,7 +135,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 5.5, Problem 6) Given $\cos\frac{\alpha}{8}=-\frac{4}{5}$ and $8\pi< \alpha< 12\pi$, find the values of $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$ and $\tan\frac{\alpha}{4}$.
 
@@ -170,7 +151,7 @@ And $\cos\frac{\alpha}{4}=2\cos^{2}\frac{\alpha}{8}-1=2\times\frac{16}{25}-1=\fr
 
 And $\tan\frac{\alpha}{4}=\frac{\sin\frac{\alpha}{4}}{\cos\frac{\alpha}{4}}=\frac{24}{7}$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 5.5, Problem 7) Given $\sin\left(\alpha-\pi\right)=\frac{3}{5}$, find the value of $\cos2\alpha$.
 
@@ -180,7 +161,7 @@ By **Formula 5.5.8** (Double-Angle Cosine).
 
 From $\sin\left(\alpha-\pi\right)=-\sin\alpha=\frac{3}{5}$, we get $\sin\alpha=-\frac{3}{5}$. Hence $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{9}{25}=\frac{7}{25}$. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 5.5, Problem 8) Given $\sin2\alpha=-\sin\alpha$ and $\alpha\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\tan\alpha$.
 
@@ -190,7 +171,7 @@ By **Formula 5.5.7** (Double-Angle Sine).
 
 From $\sin2\alpha=2\sin\alpha\cos\alpha=-\sin\alpha$, and since $\sin\alpha\neq0$ when $\alpha\in\left(\frac{\pi}{2},\pi\right)$, we get $2\cos\alpha=-1$, i.e. $\cos\alpha=-\frac{1}{2}$. Hence $\sin\alpha=\frac{\sqrt{3}}{2}$ and $\tan\alpha=-\sqrt{3}$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 5.5, Problem 9) Given $\tan2\alpha=\frac{1}{3}$, find the value of $\tan\alpha$.
 
@@ -200,7 +181,7 @@ By **Formula 5.5.9** (Double-Angle Tangent).
 
 From $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{1}{3}$, we get $6\tan\alpha=1-\tan^{2}\alpha$, i.e. $\tan^{2}\alpha+6\tan\alpha-1=0$. Solving gives $\tan\alpha=-3\pm\sqrt{10}$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 5.5, Problem 10) Find the value of each of the following expressions:
 
@@ -224,7 +205,7 @@ By **Formula 5.5.7** through **Formula 5.5.9**.
 
 (4) By **Formula 5.5.8**, we get $2\cos^{2}22.5^{\circ}-1=\cos45^{\circ}=\frac{\sqrt{2}}{2}$. $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 5.5, Problem 11) Prove: $\tan\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha}$.
 
@@ -234,7 +215,7 @@ By **Formula 5.5.10** (Half-Angle Formulas).
 
 Since $\tan\frac{\alpha}{2}=\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}=\frac{2\sin^{2}\frac{\alpha}{2}}{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}=\frac{1-\cos\alpha}{\sin\alpha}$. Similarly, $\tan\frac{\alpha}{2}=\frac{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}{2\cos^{2}\frac{\alpha}{2}}=\frac{\sin\alpha}{1+\cos\alpha}$. $\blacksquare$
 
-### Exercise 12
+## Exercise 12
 
 (Exercise 5.5, Problem 12) Given $\cos\theta=\frac{1}{7}$ and $270^{\circ}< \theta< 360^{\circ}$, find the values of $\sin\frac{\theta}{2}$ and $\cos\frac{\theta}{2}$.
 
@@ -248,7 +229,7 @@ And $\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}=\sqrt{\frac{1-\frac{1}{7
 
 And $\cos\frac{\theta}{2}=-\sqrt{\frac{1+\cos\theta}{2}}=-\sqrt{\frac{1+\frac{1}{7}}{2}}=-\sqrt{\frac{4}{7}}=-\frac{2\sqrt{7}}{7}$. $\blacksquare$
 
-### Exercise 13
+## Exercise 13
 
 (Exercise 5.5, Problem 13) Given that the cosine of the vertex angle of an isosceles triangle equals $\frac{7}{25}$, find the tangent of one base angle of the triangle.
 
@@ -264,7 +245,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 14
+## Exercise 14
 
 (Exercise 5.5, Problem 14) Prove:
 
@@ -284,7 +265,7 @@ By **Formula 5.5.3** and **Formula 5.5.4**, **Formula 5.5.1** and **Formula 5.5.
 
 (3) From $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, dividing both sides by $-2$ gives the result. $\blacksquare$
 
-### Exercise 15
+## Exercise 15
 
 (Exercise 5.5, Problem 15) Prove:
 
@@ -304,7 +285,7 @@ By substituting variables into the result of **Exercise 14**.
 
 (3) Substituting into $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$ gives $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$. $\blacksquare$
 
-### Exercise 16
+## Exercise 16
 
 (Exercise 5.5, Problem 16) Find the period, maximum and minimum values of the following functions:
 
@@ -320,7 +301,7 @@ By **Formula 5.5.11** (Auxiliary Angle Formula).
 
 (2) The original expression $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, where $\tan\varphi=\frac{1}{2}$. The period is $2\pi$, the maximum value is $\sqrt{5}$, and the minimum value is $-\sqrt{5}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.5, Review and Consolidation, Problem 1) Given $\sin\alpha=\frac{2}{3}$, $\cos\beta=-\frac{3}{4}$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$ and $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, find the value of $\cos\left(\alpha-\beta\right)$.
 
@@ -336,7 +317,7 @@ $$
 
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.5, Review and Consolidation, Problem 2) Given that $\alpha$ and $\beta$ are both acute angles, $\cos\alpha=\frac{1}{7}$ and $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, find the value of $\cos\beta$.
 
@@ -352,7 +333,7 @@ $$
 
 $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.5, Review and Consolidation, Problem 3) Given $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$ and $60^{\circ}< \alpha< 150^{\circ}$, find the value of $\cos\alpha$.
 
@@ -368,7 +349,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.5, Review and Consolidation, Problem 4) In $\triangle ABC$, given $\cos A=\frac{12}{13}$ and $\cos B=\frac{3}{5}$, find the value of $\cos C$.
 
@@ -384,7 +365,7 @@ $$
 
 $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.5, Review and Consolidation, Problem 5) Given $\tan\left(\alpha+\beta\right)=3$ and $\tan\left(\alpha-\beta\right)=5$, find the values of $\tan2\alpha$ and $\tan2\beta$.
 
@@ -396,7 +377,7 @@ By **Formula 5.5.5**, we get $\tan2\alpha=\frac{3+5}{1-3\times5}=\frac{8}{-14}=-
 
 By **Formula 5.5.6**, we get $\tan2\beta=\frac{3-5}{1+3\times5}=\frac{-2}{16}=-\frac{1}{8}$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.5, Review and Consolidation, Problem 6) Simplify:
 
@@ -428,7 +409,7 @@ By **Formula 5.5.1** through **Formula 5.5.6**.
 
 (6) From $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$ and $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$, the numerator $=2\sin\alpha\sin\beta+\cos\alpha\cos\beta-\sin\alpha\sin\beta=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos\left(\alpha-\beta\right)$. Hence the original expression $=1$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.5, Review and Consolidation, Problem 7) Given $\sin\alpha=0.8$ and $\alpha\in\left(0,\frac{\pi}{2}\right)$, find the values of $\sin2\alpha$ and $\cos2\alpha$.
 
@@ -438,7 +419,7 @@ By **Formula 5.5.7** and **Formula 5.5.8**.
 
 From $\sin\alpha=0.8=\frac{4}{5}$ and $\alpha\in\left(0,\frac{\pi}{2}\right)$, we get $\cos\alpha=\frac{3}{5}$. Hence $\sin2\alpha=2\sin\alpha\cos\alpha=2\times\frac{4}{5}\times\frac{3}{5}=\frac{24}{25}$, and $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{16}{25}=-\frac{7}{25}$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 5.5, Review and Consolidation, Problem 8) Prove:
 
@@ -470,7 +451,7 @@ By **Formula 5.5.7** through **Formula 5.5.9**.
 
 (6) The left side $=\frac{2\sin^{2}\theta+2\sin\theta\cos\theta}{2\cos^{2}\theta+2\sin\theta\cos\theta}=\frac{2\sin\theta\left(\sin\theta+\cos\theta\right)}{2\cos\theta\left(\cos\theta+\sin\theta\right)}=\tan\theta=$ the right side. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 5.5, Review and Consolidation, Problem 9) Given $\sin\left(\alpha+\beta\right)=\frac{1}{2}$ and $\sin\left(\alpha-\beta\right)=\frac{1}{3}$, prove:
 
@@ -486,7 +467,7 @@ By **Formula 5.5.3** and **Formula 5.5.4**.
 
 (2) Dividing both sides of (1) by $\cos\alpha\cos\beta$ gives $\tan\alpha=5\tan\beta$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 5.5, Review and Consolidation, Problem 10) Given $\frac{1-\tan\theta}{2+\tan\theta}=1$, prove that $\tan2\theta=-4\tan\left(\theta+\frac{\pi}{4}\right)$.
 
@@ -500,7 +481,7 @@ The right side $=-4\tan\left(\theta+\frac{\pi}{4}\right)=-4\cdot\frac{\tan\theta
 
 The left side $=$ the right side, which proves the result. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 5.5, Review and Consolidation, Problem 11) Given that the sine of the central angle subtended by an arc equals $\frac{3}{5}$, find the sine, cosine and tangent of the inscribed angle subtended by the same arc.
 
@@ -514,7 +495,7 @@ If $\cos2\theta=\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1-\cos2\theta}{2}}=\s
 
 If $\cos2\theta=-\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\frac{3\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1-\frac{4}{5}}{2}}=\frac{\sqrt{10}}{10}$, $\tan\theta=3$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 5.5, Review and Consolidation, Problem 12) Simplify:
 
@@ -538,7 +519,7 @@ By **Formula 5.5.11** (Auxiliary Angle Formula).
 
 (4) The original expression $=\frac{\sqrt{2}}{2}\left(\frac{1}{2}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{3}}{2}\cos\left(\frac{\pi}{4}-x\right)\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{\pi}{4}-x+\frac{\pi}{3}\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{7\pi}{12}-x\right)$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 5.5, Comprehensive Application, Problem 13) In $\triangle ABC$, given that $\tan A$ and $\tan B$ are the two real roots of the equation in $x$, $x^{2}+p\left(x+1\right)+1=0$, find $\angle C$.
 
@@ -548,7 +529,7 @@ By Vieta's formulas and **Formula 5.5.5**.
 
 From $\tan A+\tan B=-p$ and $\tan A\tan B=p+1$. Hence $\tan\left(A+B\right)=\frac{\tan A+\tan B}{1-\tan A\tan B}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. From $C=\pi-\left(A+B\right)$, we get $\tan C=-\tan\left(A+B\right)=-1$, hence $C=135^{\circ}$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 5.5, Comprehensive Application, Problem 14) In $\triangle ABC$, $B=\frac{\pi}{4}$, and the altitude to side $BC$ equals $\frac{1}{3}BC$, then $\cos A=$ ( ).
 

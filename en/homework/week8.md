@@ -1,12 +1,9 @@
-# Assignment 8
+# week8
+> **Definition 2.3.1 (一元二次不等式)**<br>一般地, 我们把只含有一个未知数, 并且未知数的最高次数是 $2$ 的不等式, 称为一元二次不等式. 其一般形式是 $ax^2+bx+c> 0$ 或 $ax^2+bx+c< 0$, 其中 $a,b,c$ 均为常数, $a\neq0$.
 
-> **Definition 2.3.1** (Quadratic Inequality in One Variable) <br>In general, an inequality containing only one unknown and in which the highest degree of the unknown is $2$ is called a quadratic inequality in one variable. Its general form is $ax^2+bx+c> 0$ or $ax^2+bx+c< 0$, where $a,b,c$ are all constants and $a\neq0$.
+---
 
-> **Definition 2.3.2** (Zeros of a Quadratic Function) <br>For the quadratic function $y=ax^2+bx+c$, the real number $x$ satisfying $ax^2+bx+c=0$ is called a zero of the quadratic function $y=ax^2+bx+c$.
-
-> **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality) <br>For $ax^2+bx+c> 0$ or $ax^2+bx+c< 0$ ($a> 0$), let $\Delta=b^2-4ac$, and let $x_1,x_2$ be the two real roots of the equation $ax^2+bx+c=0$ ($x_1< x_2$). When $\Delta> 0$, the solution set of $ax^2+bx+c> 0$ is $\left\{x\mid x< x_1$ or $x> x_2\right\}$, and the solution set of $ax^2+bx+c< 0$ is $\left\{x\mid x_1< x< x_2\right\}$; when $\Delta=0$, the solution set of $ax^2+bx+c> 0$ is $\left\{x\mid x\neq-\frac{b}{2a}\right\}$, and the solution set of $ax^2+bx+c< 0$ is $\varnothing$; when $\Delta< 0$, the solution set of $ax^2+bx+c> 0$ is $\mathbb R$, and the solution set of $ax^2+bx+c< 0$ is $\varnothing$. For an inequality whose quadratic coefficient is negative, first change the quadratic coefficient to a positive one and then solve it.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 2.3, Problem 1) Find the solution sets of the following inequalities.
 
@@ -38,7 +35,7 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first
 
 (6) $\Delta=9-16=-7< 0$, and the quadratic coefficient is positive; by **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $\mathbb R$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 2.3, Problem 2) For what range of the independent variable $x$ does the value of each of the following functions equal $0$? exceed $0$? be less than $0$?
 
@@ -62,7 +59,7 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first
 
 (4) $y=-3\left(x-2\right)^2$. Thus $y=0$ when $x=2$; $y< 0$ when $x\neq2$; $y> 0$ has no solution. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 2.3, Problem 3) For what real numbers $x$ is $\sqrt{x^2+x-12}$ meaningful?
 
@@ -72,7 +69,7 @@ By the condition for a quadratic radical to be meaningful, the radicand must be 
 
 By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the equation $x^2+x-12=0$, i.e. $\left(x+4\right)\left(x-3\right)=0$, has roots $x=-4,3$, and the parabola opens upward, so the solution set of $x^2+x-12\ge0$ is $\left\{x\mid x\le-4$ or $x\ge3\right\}$. That is, when $x\le-4$ or $x\ge3$, $\sqrt{x^2+x-12}$ is meaningful. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 2.3, Problem 4) As shown in the figure, flowers are planted around the perimeter of a rectangular ground of length $8\ \mathrm m$ and width $6\ \mathrm m$, and lawn is planted in the middle. If the flower border is required to have uniform width and the area of the lawn is not more than half of the total area, what should be the width of the flower border in meters?
 
@@ -90,7 +87,7 @@ $$
 
 Expanding and rearranging gives $4x^2-28x+24\le0$, i.e. $\left(x-1\right)\left(x-6\right)\le0$. By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $1\le x\le6$. Combined with $0< x< 3$, we get $1\le x< 3$. Thus the width of the flower border should be not less than $1\ \mathrm m$ and less than $3\ \mathrm m$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 2.3, Problem 5) An online shop sells a batch of new pencil sharpeners, and the lowest selling price of each sharpener is $15$ yuan. If sold at the lowest price, $30$ sharpeners can be sold per day; for every $1$ yuan increase in the selling price of one sharpener, the daily sales volume decreases by $2$ sharpeners. To make the daily sales revenue of this batch of sharpeners greater than $400$ yuan, how should the selling price be set?
 
@@ -106,7 +103,7 @@ $$
 
 Expanding gives $450-2x^2> 400$, i.e. $x^2< 25$, equivalently $-5< x< 5$. Combined with $x\ge0$, we get $0\le x< 5$. Thus the selling price $15+x$ should satisfy $15\le$ price $< 20$ yuan. That is, when the selling price is set not less than $15$ yuan and less than $20$ yuan, the daily sales revenue is above $400$ yuan. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 2.3, Review and Consolidation, Problem 1) Find the solution sets of the following inequalities.
 
@@ -130,7 +127,7 @@ By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), solve
 
 (4) Multiplying both sides by $-1$ gives $3x^2-5x+4< 0$. $\Delta=25-48=-23< 0$, the parabola opens upward, and $3x^2-5x+4$ is always positive, so it cannot be less than $0$; thus the solution set is $\varnothing$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 2.3, Review and Consolidation, Problem 2) For what real numbers $x$ are the following expressions meaningful?
 
@@ -146,7 +143,7 @@ By the condition for a quadratic radical to be meaningful, the radicand must be 
 
 (2) We require $-2x^2+12x-18\ge0$, i.e. $\left(x-3\right)^2\le0$. It holds only when $x=3$, so the expression is meaningful when $x=3$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 2.3, Comprehensive Application, Problem 3) Given $M=\left\{x\mid4x^2-4x-15> 0\right\}$ and $N=\left\{x\mid x^2-5x-6> 0\right\}$, find $M\cap N$ and $M\cup N$.
 
@@ -172,7 +169,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 2.3, Comprehensive Application, Problem 4) A student throws a volleyball vertically upward with initial velocity $v_0=12\ \mathrm{m/s}$. For how long at most can the volleyball stay at a position more than $2\ \mathrm m$ above the launch point (accurate to $0.01\ \mathrm s$)?
 
@@ -194,7 +191,7 @@ $$
 
 $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 2.3, Comprehensive Application, Problem 5) Given the sets $A=\left\{x\mid x^2-16< 0\right\}$ and $B=\left\{x\mid x^2-4x+3> 0\right\}$, find $A\cup B$.
 
@@ -208,7 +205,7 @@ The solution of $x^2-4x+3=\left(x-1\right)\left(x-3\right)> 0$ is $x< 1$ or $x> 
 
 Combining $A$ and $B$: $B$ already contains $x< 1$ and $x> 3$, and $A$ supplements the part $1\le x\le3$ within $-4< x< 4$; together they cover all real numbers, so $A\cup B=\mathbb R$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 2.3, Extension and Exploration, Problem 6) As shown in the figure, according to the forecast of the meteorological department, the center of a tropical storm is at a position $600\ \mathrm{km}$ from a certain harbor in the direction $45^\circ$ south of east, moving due north at a speed of $20\ \mathrm{km/h}$; regions within $450\ \mathrm{km}$ of the storm center will be affected. Based on the above forecast, estimate how long from now the harbor will be affected by the tropical storm, and approximately how long the impact will last (accurate to $0.1\ \mathrm h$)?
 

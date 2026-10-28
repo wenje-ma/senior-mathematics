@@ -1,24 +1,15 @@
-# 作业 77
+# week77
+> **定义 5.1.2 (导数)**<br>函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **定义 5.1.3 (1 弧度的角)**<br>函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **定义 5.2.2 (导数的四则运算法则)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.3.1 (函数的单调性与导数的正负)**<br>在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+> **定义 5.3.2 (函数的极值)**<br>如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+> **定义 5.3.3 (求函数极值的方法)**<br>解方程 f'(x) = 0. 当 f'(x0) = 0 时: 若 x < x0 时 f'(x) > 0, x > x0 时 f'(x) < 0, 则 f(x0) 是极大值; 反之是极小值.
+> **定义 5.3.4 (闭区间上的最大 (小)**<br>在闭区间 [a, b] 上连续的函数 f(x) 在 [a, b] 上必有最大值与最小值, 只需比较极值与端点值.
 
-> **定义 5.1.2** (导数) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+---
 
-> **定义 5.1.3** (导数的几何意义) <br>$f'\left(x_{0}\right)$ 是曲线 $y=f\left(x\right)$ 在点 $\left(x_{0},f\left(x_{0}\right)\right)$ 处切线的斜率.
-
-> **定义 5.2.1** (基本初等函数的导数公式) <br>$\left(c\right)'=0$; $\left(x^{\alpha}\right)'=\alpha x^{\alpha-1}$; $\left(\sin x\right)'=\cos x$; $\left(\cos x\right)'=-\sin x$; $\left(a^{x}\right)'=a^{x}\ln a$; $\left(\mathrm e^{x}\right)'=\mathrm e^{x}$; $\left(\log_{a}x\right)'=\frac{1}{x\ln a}$; $\left(\ln x\right)'=\frac{1}{x}$.
-
-> **定义 5.2.2** (导数的四则运算法则) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$.
-
-> **定义 5.2.3** (复合函数的求导法则) <br>$y'_{x}=y'_{u}\cdot u'_{x}$.
-
-> **定义 5.3.1** (函数的单调性与导数的正负) <br>在某个区间 $\left(a,b\right)$ 内, 如果 $f'\left(x\right)> 0$, 那么函数 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ 内单调递增; 如果 $f'\left(x\right)< 0$, 那么函数 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ 内单调递减.
-
-> **定义 5.3.2** (函数的极值) <br>设函数 $y=f\left(x\right)$ 在点 $x=a$ 附近有定义, 如果在 $x=a$ 附近的左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 则 $f\left(a\right)$ 是函数的极小值, $a$ 是极小值点; 如果在 $x=b$ 附近的左侧 $f'\left(x\right)> 0$, 右侧 $f'\left(x\right)< 0$, 则 $f\left(b\right)$ 是函数的极大值, $b$ 是极大值点. 极小值点, 极大值点统称为极值点, 极小值和极大值统称为极值.
-
-> **定义 5.3.3** (求函数极值的方法) <br>解方程 $f'\left(x\right)=0$, 当 $f'\left(x_{0}\right)=0$ 时: (1) 如果在 $x_{0}$ 附近的左侧 $f'\left(x\right)> 0$, 右侧 $f'\left(x\right)< 0$, 那么 $f\left(x_{0}\right)$ 是极大值; (2) 如果在 $x_{0}$ 附近的左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 那么 $f\left(x_{0}\right)$ 是极小值.
-
-> **定义 5.3.4** (闭区间上的最大 (小) 值) <br>如果在区间 $\left[a,b\right]$ 上函数 $y=f\left(x\right)$ 的图象是一条连续不断的曲线, 那么它必有最大值和最小值. 求法是: 先求 $f\left(x\right)$ 在区间 $\left(a,b\right)$ 内的极值, 再将各极值与端点处的函数值 $f\left(a\right),f\left(b\right)$ 比较, 其中最大的一个是最大值, 最小的一个是最小值.
-
-### 练习一
+## 练习一
 
 (练习 5.3 第 1 题) 判断下列函数的单调性: 
 
@@ -28,7 +19,7 @@
 
 ### 解答 练习一
 
-由**定义 5.3.1** (函数的单调性与导数的正负).
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
 (1) $f'\left(x\right)=2x-2=2\left(x-1\right)$. 当 $x> 1$ 时 $f'\left(x\right)> 0$, 当 $x< 1$ 时 $f'\left(x\right)< 0$.
 
@@ -38,13 +29,13 @@
 
 故 $f\left(x\right)$ 在 $\left(-\infty,0\right)$ 内单调递减, 在 $\left(0,+\infty\right)$ 内单调递增. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 5.3 第 2 题) 利用导数讨论二次函数 $f\left(x\right)=ax^{2}+bx+c$ 的单调区间.
 
 ### 解答 练习二
 
-由**定义 5.3.1**, $f'\left(x\right)=2ax+b$.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f'\left(x\right)=2ax+b$.
 
 令 $f'\left(x\right)=0$, 解得 $x=-\frac{b}{2a}$.
 
@@ -52,21 +43,21 @@
 
 当 $a< 0$ 时, 若 $x< -\frac{b}{2a}$, 则 $f'\left(x\right)> 0$; 若 $x> -\frac{b}{2a}$, 则 $f'\left(x\right)< 0$. 故 $f\left(x\right)$ 在 $\left(-\infty,-\frac{b}{2a}\right)$ 内单调递增, 在 $\left(-\frac{b}{2a},+\infty\right)$ 内单调递减. $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 5.3 第 3 题) 函数 $y=f\left(x\right)$ 的图象如图所示, 试画出函数 $y=f'\left(x\right)$ 在区间 $\left(0,b\right)$ 内图象的大致形状.
 
-该图为函数 $y=f\left(x\right)$ 在区间 $\left(0,b\right)$ 内的图象：从 $x=0$ 处上升，在 $\left(0,a\right)$ 内上升越来越平缓（切线斜率为正且逐渐减小），在 $x=a$ 处到达最高点（切线水平），随后在 $\left(a,b\right)$ 内下降。
+该图为函数 $y=f\left(x\right)$ 在区间 $\left(0,b\right)$ 内的图象:从 $x=0$ 处上升,在 $\left(0,a\right)$ 内上升越来越平缓(切线斜率为正且逐渐减小),在 $x=a$ 处到达最高点(切线水平),随后在 $\left(a,b\right)$ 内下降.
 
 ### 解答 练习三
 
-由**定义 5.1.3** (导数的几何意义), $f'\left(x\right)$ 等于原函数图象在各点处切线的斜率.
+由**定义 5.1.3 (1 弧度的角)**, $f'\left(x\right)$ 等于原函数图象在各点处切线的斜率.
 
 由原函数图象, 在 $\left(0,a\right)$ 内曲线上升且切线斜率为正并逐渐减小, 故 $f'\left(x\right)> 0$ 且逐渐下降; 在 $x=a$ 处切线水平, $f'\left(a\right)=0$; 在 $\left(a,b\right)$ 内曲线下降, 切线斜率为负.
 
 故 $y=f'\left(x\right)$ 在 $\left(0,b\right)$ 内从正值逐渐下降, 穿过 $x$ 轴于 $x=a$ 处, 再变为负值. $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 5.3 第 4 题) 判断下列函数的单调性, 并求出单调区间: 
 
@@ -76,7 +67,7 @@
 
 ### 解答 练习四
 
-由**定义 5.3.1** (函数的单调性与导数的正负).
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
 (1) $f'\left(x\right)=3-3x^{2}=3\left(1-x^{2}\right)=3\left(1-x\right)\left(1+x\right)$. 令 $f'\left(x\right)=0$, 得 $x=\pm1$.
 
@@ -90,13 +81,13 @@
 
 故 $f\left(x\right)$ 在 $\left(-\infty,-\frac{1}{3}\right)$ 与 $\left(1,+\infty\right)$ 内单调递增, 在 $\left(-\frac{1}{3},1\right)$ 内单调递减. $\blacksquare$
 
-### 练习五
+## 练习五
 
 (练习 5.3 第 5 题) 证明函数 $f\left(x\right)=2x^{3}-6x^{2}+7$ 在区间 $\left(0,2\right)$ 内单调递减.
 
 ### 解答 练习五
 
-由**定义 5.3.1**, 只需证明在 $\left(0,2\right)$ 内 $f'\left(x\right)< 0$.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, 只需证明在 $\left(0,2\right)$ 内 $f'\left(x\right)< 0$.
 
 $$
 f'\left(x\right)=6x^{2}-12x=6x\left(x-2\right).
@@ -104,31 +95,31 @@ $$
 
 当 $x\in\left(0,2\right)$ 时, $x> 0$ 且 $x-2< 0$, 故 $f'\left(x\right)=6x\left(x-2\right)< 0$.
 
-由**定义 5.3.1**, $f\left(x\right)$ 在 $\left(0,2\right)$ 内单调递减. $\blacksquare$
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f\left(x\right)$ 在 $\left(0,2\right)$ 内单调递减. $\blacksquare$
 
-### 练习六
+## 练习六
 
 (练习 5.3 第 6 题) 函数 $y=f'\left(x\right)$ 的图象如图所示, 试画出函数 $y=f\left(x\right)$ 图象的大致形状.
 
-该图为导函数 $y=f'\left(x\right)$ 的图象：在 $\left(0,a\right)$ 内位于 $x$ 轴上方（$f'\left(x\right)> 0$），在 $x=a$ 处穿过 $x$ 轴，在 $\left(a,b\right)$ 内位于 $x$ 轴下方（$f'\left(x\right)< 0$），在 $x=b$ 处再次穿过 $x$ 轴，在 $\left(b,c\right)$ 内又位于 $x$ 轴上方。
+该图为导函数 $y=f'\left(x\right)$ 的图象:在 $\left(0,a\right)$ 内位于 $x$ 轴上方($f'\left(x\right)> 0$),在 $x=a$ 处穿过 $x$ 轴,在 $\left(a,b\right)$ 内位于 $x$ 轴下方($f'\left(x\right)< 0$),在 $x=b$ 处再次穿过 $x$ 轴,在 $\left(b,c\right)$ 内又位于 $x$ 轴上方.
 
 ### 解答 练习六
 
-由**定义 5.3.1**, $f'\left(x\right)$ 的正负决定 $f\left(x\right)$ 的增减.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f'\left(x\right)$ 的正负决定 $f\left(x\right)$ 的增减.
 
 由导函数图象, 在 $\left(0,a\right)$ 内 $f'\left(x\right)> 0$, 故 $f\left(x\right)$ 单调递增; 在 $x=a$ 处 $f'\left(x\right)=0$; 在 $\left(a,b\right)$ 内 $f'\left(x\right)< 0$, 故 $f\left(x\right)$ 单调递减; 在 $x=b$ 处 $f'\left(x\right)=0$; 在 $\left(b,c\right)$ 内 $f'\left(x\right)> 0$, 故 $f\left(x\right)$ 单调递增.
 
 故 $y=f\left(x\right)$ 的图象先升, 再降, 再升, 在 $x=a$ 处取极大值, 在 $x=b$ 处取极小值. $\blacksquare$
 
-### 练习七
+## 练习七
 
 (练习 5.3 第 7 题) 函数 $f\left(x\right)$ 的导函数 $y=f'\left(x\right)$ 的图象如图所示, 试找出函数 $f\left(x\right)$ 的极值点, 并指出哪些是极大值点, 哪些是极小值点.
 
-该图为导函数 $y=f'\left(x\right)$ 的图象：一条连续曲线，与 $x$ 轴交于 $x_{2},x_{4},x_{6}$ 三处，图中还标出了 $x_{1},x_{3},x_{5}$ 三个点（位于曲线不穿过 $x$ 轴处）；曲线在 $x_{2}$ 处由负变正、在 $x_{4}$ 处由正变负、在 $x_{6}$ 处由负变正。
+该图为导函数 $y=f'\left(x\right)$ 的图象:一条连续曲线,与 $x$ 轴交于 $x_{2},x_{4},x_{6}$ 三处,图中还标出了 $x_{1},x_{3},x_{5}$ 三个点(位于曲线不穿过 $x$ 轴处);曲线在 $x_{2}$ 处由负变正,在 $x_{4}$ 处由正变负,在 $x_{6}$ 处由负变正.
 
 ### 解答 练习七
 
-由**定义 5.3.2** (函数的极值) 与**定义 5.3.3** (求函数极值的方法), 极值点是 $f'\left(x\right)=0$ 且两侧导数变号的点.
+由**定义 5.3.2 (函数的极值)** 与**定义 5.3.3 (求函数极值的方法)**, 极值点是 $f'\left(x\right)=0$ 且两侧导数变号的点.
 
 由导函数图象, $f'\left(x\right)$ 与 $x$ 轴交于 $x_{2},x_{4},x_{6}$ 等处.
 
@@ -140,7 +131,7 @@ $$
 
 $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
-### 练习八
+## 练习八
 
 (练习 5.3 第 8 题) 求下列函数的极值: 
 
@@ -154,7 +145,7 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 ### 解答 练习八
 
-由**定义 5.3.3** (求函数极值的方法).
+由**定义 5.3.3 (求函数极值的方法)**.
 
 (1) $f'\left(x\right)=12x-1$, 令 $f'\left(x\right)=0$, 得 $x=\frac{1}{12}$. 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 故极小值为 $f\left(\frac{1}{12}\right)=6\cdot\frac{1}{144}-\frac{1}{12}-2=-\frac{49}{24}$.
 
@@ -164,7 +155,7 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 (4) $f'\left(x\right)=3-3x^{2}=3\left(1-x^{2}\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm1$. 在 $x=-1$ 处左负右正, 极小值 $f\left(-1\right)=-2$; 在 $x=1$ 处左正右负, 极大值 $f\left(1\right)=2$. $\blacksquare$
 
-### 练习九
+## 练习九
 
 (练习 5.3 第 9 题) 参考求函数极值的练习, 求下列函数在给定区间上的最大值与最小值: 
 
@@ -178,7 +169,7 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 ### 解答 练习九
 
-由**定义 5.3.4** (闭区间上的最大 (小) 值).
+由**定义 5.3.4 (闭区间上的最大 (小)** 值).
 
 (1) $f'\left(x\right)=12x-1$, 在 $\left(0,2\right)$ 内零点为 $x=\frac{1}{12}$. 比较 $f\left(0\right)=-2$, $f\left(\frac{1}{12}\right)=-\frac{49}{24}$, $f\left(2\right)=20$. 故最大值为 $20$, 最小值为 $-\frac{49}{24}$.
 
@@ -188,7 +179,7 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 (4) $f'\left(x\right)=3-3x^{2}$, 在 $\left(2,3\right)$ 内无零点 ($f'\left(x\right)< 0$). 比较 $f\left(2\right)=-2$, $f\left(3\right)=-18$. 故最大值为 $-2$, 最小值为 $-18$. $\blacksquare$
 
-### 练习十
+## 练习十
 
 (练习 5.3 第 10 题) 证明不等式: $x-1\ge\ln x$, $x\in\left(0,+\infty\right)$.
 
@@ -198,29 +189,29 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 令 $s'\left(x\right)=0$, 解得 $x=1$.
 
-当 $0< x< 1$ 时 $s'\left(x\right)< 0$; 当 $x> 1$ 时 $s'\left(x\right)> 0$. 由**定义 5.3.1**, $s\left(x\right)$ 在 $\left(0,1\right)$ 内递减, 在 $\left(1,+\infty\right)$ 内递增, 故 $x=1$ 是最小值点.
+当 $0< x< 1$ 时 $s'\left(x\right)< 0$; 当 $x> 1$ 时 $s'\left(x\right)> 0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,1\right)$ 内递减, 在 $\left(1,+\infty\right)$ 内递增, 故 $x=1$ 是最小值点.
 
 最小值为 $s\left(1\right)=0$. 故 $s\left(x\right)\ge s\left(1\right)=0$, 即 $x-1-\ln x\ge0$, 亦即 $x-1\ge\ln x$. $\blacksquare$
 
-### 练习十一
+## 练习十一
 
 (练习 5.3 第 11 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: $\sin x< x$, $x\in\left(0,\pi\right)$.
 
-该图为在区间 $\left(0,\pi\right)$ 内的两条曲线：一条是直线 $y=x$，另一条是正弦曲线 $y=\sin x$；在 $\left(0,\pi\right)$ 内 $y=\sin x$ 始终位于 $y=x$ 下方（仅在原点处二者重合），直观显示 $\sin x< x$。
+该图为在区间 $\left(0,\pi\right)$ 内的两条曲线:一条是直线 $y=x$,另一条是正弦曲线 $y=\sin x$;在 $\left(0,\pi\right)$ 内 $y=\sin x$ 始终位于 $y=x$ 下方(仅在原点处二者重合),直观显示 $\sin x< x$.
 
 ### 解答 练习十一
 
 设 $s\left(x\right)=x-\sin x$, 则 $s'\left(x\right)=1-\cos x$.
 
-当 $x\in\left(0,\pi\right)$ 时, $\cos x< 1$, 故 $s'\left(x\right)=1-\cos x> 0$. 由**定义 5.3.1**, $s\left(x\right)$ 在 $\left(0,\pi\right)$ 内单调递增.
+当 $x\in\left(0,\pi\right)$ 时, $\cos x< 1$, 故 $s'\left(x\right)=1-\cos x> 0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,\pi\right)$ 内单调递增.
 
 又 $s\left(0\right)=0$, 故当 $x\in\left(0,\pi\right)$ 时 $s\left(x\right)> s\left(0\right)=0$, 即 $x-\sin x> 0$, 亦即 $\sin x< x$. $\blacksquare$
 
-### 练习十二
+## 练习十二
 
 (练习 5.3 第 12 题) 如图, 用铁丝围成一个上面是半圆, 下面是矩形的图形, 其面积为 $a\ \mathrm{m^{2}}$. 为使所用材料最省, 圆的直径应为多少? 
 
-该图为铁丝围成的图形：上方是一个半圆（直径水平、向上凸），下方接一个矩形（矩形的上边即半圆的直径，矩形向下延伸），整体由一条连续铁丝围成，总面积为 $a\ \mathrm{m^{2}}$。
+该图为铁丝围成的图形:上方是一个半圆(直径水平,向上凸),下方接一个矩形(矩形的上边即半圆的直径,矩形向下延伸),整体由一条连续铁丝围成,总面积为 $a\ \mathrm{m^{2}}$.
 
 ### 解答 练习十二
 
@@ -240,7 +231,7 @@ $$
 
 故当圆的直径为 $x=\sqrt{\frac{8a}{4+\pi}}\ \mathrm{m}$ 时, 所用材料最省. $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 5.3 复习巩固第 1 题) 判断下列函数的单调性, 并求出单调区间: 
 
@@ -254,7 +245,7 @@ $$
 
 ### 解答 习题一
 
-由**定义 5.3.1**.
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
 (1) $f'\left(x\right)=-2< 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递减.
 
@@ -264,7 +255,7 @@ $$
 
 (4) $f'\left(x\right)=6x^{2}+4> 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递增. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 5.3 复习巩固第 2 题) 判断下列函数的单调性, 并求出单调区间: 
 
@@ -278,7 +269,7 @@ $$
 
 ### 解答 习题二
 
-由**定义 5.3.1**.
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
 (1) $f'\left(x\right)=2x+2=2\left(x+1\right)$. 令 $f'\left(x\right)=0$, 得 $x=-1$. 故在 $\left(-\infty,-1\right)$ 内递减, 在 $\left(-1,+\infty\right)$ 内递增.
 
@@ -288,7 +279,7 @@ $$
 
 (4) $f'\left(x\right)=3x^{2}+2x-1=\left(3x-1\right)\left(x+1\right)$. 令 $f'\left(x\right)=0$, 得 $x=-1$ 或 $x=\frac{1}{3}$. 故在 $\left(-\infty,-1\right)$ 与 $\left(\frac{1}{3},+\infty\right)$ 内递增, 在 $\left(-1,\frac{1}{3}\right)$ 内递减. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 5.3 复习巩固第 3 题) 如图, 已知汽车在笔直的公路上行驶.
 
@@ -296,17 +287,17 @@ $$
 
 (2) 如果 $y=f\left(t\right)$ 表示时刻 $t$ 时汽车的速度, 那么 (1) 中标出点的意义是什么? 
 
-该图为函数 $y=f\left(t\right)$ 的图象（横轴时间 $t$、纵轴 $y$）：一条先上升、到达一个局部最高点后下降的连续曲线，在局部最高点处切线水平。
+该图为函数 $y=f\left(t\right)$ 的图象(横轴时间 $t$,纵轴 $y$):一条先上升,到达一个局部最高点后下降的连续曲线,在局部最高点处切线水平.
 
 ### 解答 习题三
 
-由**定义 5.1.3** (导数的几何意义) 与**定义 5.3.1**.
+由**定义 5.1.3 (1 弧度的角)** 与**定义 5.3.1 (函数的单调性与导数的正负)**.
 
 (1) 若 $y=f\left(t\right)$ 表示汽车与起点的距离, 则速度为 $f'\left(t\right)$, 速度等于 $0$ 即 $f'\left(t\right)=0$, 也就是图象上切线水平的点. 标出该点.
 
 (2) 若 $y=f\left(t\right)$ 表示汽车的速度, 则 $f'\left(t\right)=0$ 表示速度的导数即加速度为 $0$, 该点是汽车加速度为 $0$, 速度由增变减或由减变增的转折点. $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 5.3 复习巩固第 4 题) 导函数 $y=f'\left(x\right)$ 的图象如图所示. 在标记的点中, 在哪一点处
 
@@ -318,11 +309,11 @@ $$
 
 (4) 函数 $f\left(x\right)$ 有极小值? 
 
-该图为导函数 $y=f'\left(x\right)$ 的图象：一条连续曲线，图中标出 $x_{1},x_{2},x_{3},x_{4}$ 四个点——$x_{1}$ 处为 $f'\left(x\right)$ 的最低点，$x_{3}$ 处为 $f'\left(x\right)$ 的最高点，$x_{2}$ 与 $x_{4}$ 处为 $f'\left(x\right)$ 与 $x$ 轴的交点（$x_{2}$ 由负变正，$x_{4}$ 由正变负）。
+该图为导函数 $y=f'\left(x\right)$ 的图象:一条连续曲线,图中标出 $x_{1},x_{2},x_{3},x_{4}$ 四个点——$x_{1}$ 处为 $f'\left(x\right)$ 的最低点,$x_{3}$ 处为 $f'\left(x\right)$ 的最高点,$x_{2}$ 与 $x_{4}$ 处为 $f'\left(x\right)$ 与 $x$ 轴的交点($x_{2}$ 由负变正,$x_{4}$ 由正变负).
 
 ### 解答 习题四
 
-由**定义 5.3.2** 与**定义 5.3.3**.
+由**定义 5.3.2 (函数的极值)** 与**定义 5.3.3 (求函数极值的方法)**.
 
 (1) 导函数 $y=f'\left(x\right)$ 的极大值点即其导数 $f''\left(x\right)$ 由正变负的点, 在图中对应 $f'\left(x\right)$ 图象的最高点, 即 $x_{3}$ 处.
 
@@ -332,7 +323,7 @@ $$
 
 (4) 函数 $f\left(x\right)$ 的极小值点是 $f'\left(x\right)$ 由负变正的点, 即 $x_{2}$ 处. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 5.3 复习巩固第 5 题) 求下列函数的极值: 
 
@@ -346,7 +337,7 @@ $$
 
 ### 解答 习题五
 
-由**定义 5.3.3** (求函数极值的方法).
+由**定义 5.3.3 (求函数极值的方法)**.
 
 (1) $f'\left(x\right)=12x+1$, 令 $f'\left(x\right)=0$, 得 $x=-\frac{1}{12}$. 左负右正, 极小值 $f\left(-\frac{1}{12}\right)=\frac{47}{24}$.
 
@@ -356,7 +347,7 @@ $$
 
 (4) $f'\left(x\right)=48-3x^{2}=3\left(16-x^{2}\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm4$. $x=-4$ 处左负右正, 极小值 $f\left(-4\right)=-128$; $x=4$ 处左正右负, 极大值 $f\left(4\right)=128$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 5.3 复习巩固第 6 题) 参照第 5 题, 求下列函数在给定区间上的最大值与最小值: 
 
@@ -370,7 +361,7 @@ $$
 
 ### 解答 习题六
 
-由**定义 5.3.4** (闭区间上的最大 (小) 值).
+由**定义 5.3.4 (闭区间上的最大 (小)** 值).
 
 (1) 零点 $x=-\frac{1}{12}\in\left[-1,1\right]$. 比较 $f\left(-1\right)=7$, $f\left(-\frac{1}{12}\right)=\frac{47}{24}$, $f\left(1\right)=9$. 最大值 $9$, 最小值 $\frac{47}{24}$.
 
@@ -380,7 +371,7 @@ $$
 
 (4) 零点 $x=\pm4$, 在 $\left[-3,5\right]$ 内零点为 $x=4$. 比较 $f\left(-3\right)=-117$, $f\left(4\right)=128$, $f\left(5\right)=115$. 最大值 $128$, 最小值 $-117$. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 5.3 综合运用第 7 题) 将一条长为 $l$ 的铁丝截成两段, 分别弯成两个正方形. 要使两个正方形的面积和最小, 两段铁丝的长度分别是多少? 
 
@@ -398,7 +389,7 @@ $$
 
 故两段铁丝长度均为 $\frac{l}{2}$ 时, 两个正方形面积和最小. $\blacksquare$
 
-### 习题八
+## 习题八
 
 (习题 5.3 综合运用第 8 题) 将一个边长为 $a$ 的正方形铁片的四角截去四个边长均为 $x$ 的小正方形, 做成一个无盖方盒.
 
@@ -422,13 +413,13 @@ $$
 
 故当 $x=\frac{a}{6}$ 时, 方盒容积最大. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (习题 5.3 综合运用第 9 题) 用测量工具测量某物体的长度, 由于工具的精度以及测量技术的原因, 测量 $n$ 次得到的数据为 $a_{1},a_{2},a_{3},\cdots,a_{n}$. 记这 $n$ 个数据的平均值为 $\overline{x}$, 即 $\overline{x}=\frac{1}{n}\sum_{i=1}^{n}a_{i}$. 证明: 当 $x=\overline{x}$ 时, 函数 $f\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)^{2}$ 取得最小值.
 
 ### 解答 习题九
 
-对 $f\left(x\right)$ 求导, 由**定义 5.2.2**, 
+对 $f\left(x\right)$ 求导, 由**定义 5.2.2 (导数的四则运算法则)**, 
 
 $$
 f'\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}2\left(a_{i}-x\right)\left(-1\right)=-\frac{2}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)=-\frac{2}{n}\left(\sum_{i=1}^{n}a_{i}-nx\right).
@@ -440,7 +431,7 @@ $$
 
 故当 $x=\overline{x}$ 时, $f\left(x\right)$ 取得最小值. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (习题 5.3 拓广探索第 10 题) 已知某商品的生产成本 $C$ 与产量 $q$ 之间的关系为 $C=100+4q$, 单价 $p$ 与产量 $q$ 之间的关系为 $p=25-\frac{1}{8}q$. 产量 $q$ 为何值时, 利润最大? 
 
@@ -458,7 +449,7 @@ $$
 
 故产量 $q=84$ 时, 利润最大. $\blacksquare$
 
-### 习题十一
+## 习题十一
 
 (习题 5.3 拓广探索第 11 题) 已知某商品进价为 $a$ 元/件, 根据以往经验, 当售价是 $b$ ($b\ge\frac{4}{3}a$) 元/件时, 可卖出 $c$ 件. 市场调查表明, 当售价下降 $10\%$ 时, 销量可增加 $40\%$. 现决定一次性降价, 售价为多少时, 可获得最大利润? 
 
@@ -482,7 +473,7 @@ $$
 
 此点为最大值点. 故售价为 $x=\frac{5b+4a}{8}$ 元/件时, 可获得最大利润. $\blacksquare$
 
-### 习题十二
+## 习题十二
 
 (习题 5.3 拓广探索第 12 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: 
 
@@ -490,7 +481,7 @@ $$
 
 (2) $\ln x< x< \mathrm e^{x}$, $x> 0$.
 
-该图为在同一坐标系中画出的四条曲线：直线 $y=1+x$、指数曲线 $y=\mathrm e^{x}$（始终在 $y=1+x$ 上方，仅在 $x=0$ 处相切）、对数曲线 $y=\ln x$ 与直线 $y=x$（$y=\ln x$ 始终在 $y=x$ 下方），直观显示 $\mathrm e^{x}> 1+x$ 与 $\ln x< x< \mathrm e^{x}$。
+该图为在同一坐标系中画出的四条曲线:直线 $y=1+x$,指数曲线 $y=\mathrm e^{x}$(始终在 $y=1+x$ 上方,仅在 $x=0$ 处相切),对数曲线 $y=\ln x$ 与直线 $y=x$($y=\ln x$ 始终在 $y=x$ 下方),直观显示 $\mathrm e^{x}> 1+x$ 与 $\ln x< x< \mathrm e^{x}$.
 
 ### 解答 习题十二
 
@@ -502,7 +493,7 @@ $$
 
 综上, $\ln x< x< \mathrm e^{x}$, $x> 0$. $\blacksquare$
 
-### 习题十三
+## 习题十三
 
 (习题 5.3 拓广探索第 13 题) 利用信息技术工具, 根据给定的 $a,b,c,d$ 的值, 可以画出函数 $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ ($a\neq0$) 的图象, 当 $a=-4,b=1,c=5,d=-1$ 时, $f\left(x\right)$ 的图象如图所示. 改变 $a,b,c,d$ 的值, 观察图象的形状: 
 
@@ -510,7 +501,7 @@ $$
 
 (2) 运用导数研究它的单调性, 并求出相应的单调区间.
 
-该图为三次函数 $f\left(x\right)=-4x^{3}+x^{2}+5x-1$（$a=-4,b=1,c=5,d=-1$）的图象：一条左端向上、右端向下的“S”形曲线，有一个极大值点和一个极小值点，单调区间在两点之间交替。
+该图为三次函数 $f\left(x\right)=-4x^{3}+x^{2}+5x-1$($a=-4,b=1,c=5,d=-1$)的图象:一条左端向上,右端向下的S形曲线,有一个极大值点和一个极小值点,单调区间在两点之间交替.
 
 ### 解答 习题十三
 

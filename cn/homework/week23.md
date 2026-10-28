@@ -1,16 +1,11 @@
-# 作业 23
+# week23
+> **定义 5.6.1 (振幅)**<br>函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+> **定义 5.6.2 (周期)**<br>对于函数 f(x), 如果存在一个非零常数 T, 使得当 x 取定义域内的每一个值时, 都有 f(x+T) = f(x), 则 f(x) 叫做周期函数, T 叫做这个函数的周期.
+> **定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**<br>参见教材相应章节关于此概念的论述.
 
-> **定义 5.6.1** (振幅) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+---
 
-> **定义 5.6.2** (周期) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ 的周期 $T=\frac{2\pi}{\omega}$, 即往复运动一次所需的时间.
-
-> **定义 5.6.3** (频率) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ 的频率 $f=\frac{1}{T}=\frac{\omega}{2\pi}$, 即单位时间内往复运动的次数.
-
-> **定义 5.6.4** (相位与初相) <br>$\omega x+\varphi$ 称为相位; $x=0$ 时的相位 $\varphi$ 称为初相.
-
-> **性质 5.6.1** (图象变换) <br>由 $y=\sin x$ 的图象得到 $y=A\sin\left(\omega x+\varphi\right)$ 的图象: (1) 向左 (右) 平移 $\lvert\varphi\rvert$ 个单位得 $y=\sin\left(x+\varphi\right)$; (2) 横坐标缩 (伸) 到原来的 $\frac{1}{\omega}$ 倍得 $y=\sin\left(\omega x+\varphi\right)$; (3) 纵坐标伸 (缩) 到原来的 $A$ 倍得 $y=A\sin\left(\omega x+\varphi\right)$.
-
-### 练习一
+## 练习一
 
 (练习 5.6 第 1 题) 画出下列函数在长度为一个周期的闭区间上的简图:
 
@@ -22,7 +17,7 @@
 
 (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$.
 
-图：共四幅长度为一个周期的正弦简图。(1) $y=\frac{1}{2}\sin x$：周期 $2\pi$、振幅 $\frac{1}{2}$，在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动；(2) $y=\sin3x$：周期 $\frac{2\pi}{3}$、振幅 $1$，在 $y=-1$ 与 $y=1$ 之间波动且波形较密；(3) $y=\sin\left(x-\frac{\pi}{3}\right)$：周期 $2\pi$、振幅 $1$，相当于 $y=\sin x$ 向右平移 $\frac{\pi}{3}$；(4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$：周期 $\pi$、振幅 $2$，在 $y=-2$ 与 $y=2$ 之间波动。
+图:共四幅长度为一个周期的正弦简图.(1) $y=\frac{1}{2}\sin x$:周期 $2\pi$,振幅 $\frac{1}{2}$,在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动;(2) $y=\sin3x$:周期 $\frac{2\pi}{3}$,振幅 $1$,在 $y=-1$ 与 $y=1$ 之间波动且波形较密;(3) $y=\sin\left(x-\frac{\pi}{3}\right)$:周期 $2\pi$,振幅 $1$,相当于 $y=\sin x$ 向右平移 $\frac{\pi}{3}$;(4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$:周期 $\pi$,振幅 $2$,在 $y=-2$ 与 $y=2$ 之间波动.
 
 ### 解答 练习一
 
@@ -36,7 +31,7 @@
 
 (4) 将 $y=\sin x$ 图象向右平移 $\frac{\pi}{8}$, 横坐标缩短到原来的 $\frac{1}{2}$, 纵坐标伸长到原来的 $2$ 倍, 即得 $y=2\sin\left(2x-\frac{\pi}{4}\right)$ 的图象. 周期 $\pi$, 振幅 $2$. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 5.6 第 2 题) 已知函数 $y=3\sin\left(x+\frac{\pi}{5}\right)$ 的图象为 $C$.
 
@@ -80,7 +75,7 @@
 
 (3) 由 $3\to4$, 纵坐标伸长到原来的 $\frac{4}{3}$ 倍. 选 (C). $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 5.6 第 3 题) 函数 $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$ 的图象与正弦曲线有什么关系?
 
@@ -90,7 +85,7 @@
 
 由 $y=\sin x$ 的图象向右平移 $\frac{\pi}{4}$, 横坐标伸长到原来的 $2$ 倍, 纵坐标缩短到原来的 $\frac{2}{3}$, 即得 $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$ 的图象. $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 5.6 第 4 题) 函数 $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$ 的图象与正弦曲线有什么关系?
 
@@ -100,7 +95,7 @@
 
 由 $y=\sin x$ ($x\in\mathbb R$) 的图象向左平移 $\frac{\pi}{12}$ 个单位长度, 再取 $x\geq0$ 的部分, 即得 $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$ 的图象. $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 5.6 复习巩固第 1 题) 选择题.
 
@@ -144,7 +139,7 @@
 
 (3) 由 $1\to\frac{1}{4}$, 纵坐标缩短到原来的 $\frac{1}{4}$. 选 (D). $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 5.6 复习巩固第 2 题) 画出下列函数在长度为一个周期的闭区间上的简图:
 
@@ -156,7 +151,7 @@
 
 (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$.
 
-图：共四幅长度为一个周期的简图。(1) $y=4\sin\frac{x}{2}$：周期 $4\pi$、振幅 $4$，在 $y=-4$ 与 $y=4$ 之间波动且波形较疏；(2) $y=\frac{1}{2}\cos3x$：周期 $\frac{2\pi}{3}$、振幅 $\frac{1}{2}$，在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动；(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$：周期 $\pi$、振幅 $3$；(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$：周期 $4\pi$、振幅 $2$。
+图:共四幅长度为一个周期的简图.(1) $y=4\sin\frac{x}{2}$:周期 $4\pi$,振幅 $4$,在 $y=-4$ 与 $y=4$ 之间波动且波形较疏;(2) $y=\frac{1}{2}\cos3x$:周期 $\frac{2\pi}{3}$,振幅 $\frac{1}{2}$,在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动;(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$:周期 $\pi$,振幅 $3$;(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$:周期 $4\pi$,振幅 $2$.
 
 ### 解答 习题二
 
@@ -170,7 +165,7 @@
 
 (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: 由 $y=\cos x$ 向右平移 $\frac{\pi}{2}$, 横坐标伸长到原来的 $2$ 倍, 纵坐标伸长到原来的 $2$ 倍. 周期 $4\pi$, 振幅 $2$. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 5.6 复习巩固第 3 题) 说明下列函数的图象可由正弦曲线经过怎样的变换得到 (注意定义域):
 
@@ -186,19 +181,19 @@
 
 (2) 由 $y=\sin x$ 向左平移 $\frac{\pi}{21}$, 横坐标缩短到原来的 $\frac{1}{3}$, 纵坐标缩短到原来的 $\frac{1}{3}$, 再取 $x\geq0$ 的部分. $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 5.6 综合运用第 4 题) 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$, $0< \varphi< \pi$) 在一个周期内的图象如图所示, 此函数的解析式为 $y=$ $\;\_\_\;$ .
 
-图：函数 $y=A\sin\left(\omega x+\varphi\right)$ 在一个周期内的图象，振幅 $A=2$（最大值 $2$、最小值 $-2$），周期为 $\pi$，曲线过点 $\left(0,1\right)$ 且处于上升沿（即 $x=0$ 时函数值为 $1$、随后上升至峰值 $2$）。
+图:函数 $y=A\sin\left(\omega x+\varphi\right)$ 在一个周期内的图象,振幅 $A=2$(最大值 $2$,最小值 $-2$),周期为 $\pi$,曲线过点 $\left(0,1\right)$ 且处于上升沿(即 $x=0$ 时函数值为 $1$,随后上升至峰值 $2$).
 
 ### 解答 习题四
 
-由**定义 5.6.1** 至**定义 5.6.4**.
+由**定义 5.6.1 (振幅)** 至**定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**.
 
 由图象知振幅 $A=2$. 由图象过最高点和最低点的位置关系得周期 $T=\pi$, 故 $\omega=2$. 由图象过点 $\left(0,1\right)$ 且在上升沿, 得 $2\sin\varphi=1$, $\varphi=\frac{\pi}{6}$. 故 $y=2\sin\left(2x+\frac{\pi}{6}\right)$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 5.6 综合运用第 5 题) 将函数 $y=3\sin\left(2x+\frac{\pi}{4}\right)$ 的图象向左平移 $\frac{\pi}{3}$ 后得到函数 $y=g\left(x\right)$ 的图象, 求 $y=g\left(x\right)$ 的解析式.
 
@@ -208,17 +203,17 @@
 
 由向左平移 $\frac{\pi}{3}$, 得 $g\left(x\right)=3\sin\left[2\left(x+\frac{\pi}{3}\right)+\frac{\pi}{4}\right]=3\sin\left(2x+\frac{2\pi}{3}+\frac{\pi}{4}\right)=3\sin\left(2x+\frac{11\pi}{12}\right)$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 5.6 综合运用第 6 题) 某时钟的秒针端点 $A$ 到中心点 $O$ 的距离为 $5\text{ cm}$, 秒针绕点 $O$ 匀速旋转, 当时间 $t=0$ 时, 点 $A$ 与钟面上标 $12$ 的点 $B$ 重合. 将 $A$, $B$ 两点间的距离 $d$ (单位: $\text{cm}$) 表示成 $t$ (单位: $\text{s}$) 的函数, 则 $d=$ $\;\_\_\;$ , $t\in\left[0,60\right]$.
 
 ### 解答 习题六
 
-由**定义 5.6.2** (周期) 及余弦定理.
+由**定义 5.6.2 (周期)** 及余弦定理.
 
 由秒针 $60\text{ s}$ 转一圈, 角速度 $\omega=\frac{2\pi}{60}=\frac{\pi}{30}$. $t=0$ 时 $A$ 与 $B$ 重合, $t$ 秒后 $\angle AOB=\frac{\pi t}{30}$. 由余弦定理, $d^{2}=5^{2}+5^{2}-2\times5\times5\cos\frac{\pi t}{30}=50\left(1-\cos\frac{\pi t}{30}\right)=100\sin^{2}\frac{\pi t}{60}$. 故 $d=10\sin\frac{\pi t}{60}$. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 5.6 综合运用第 7 题) 一个半径为 $3\text{ m}$ 的筒车按逆时针方向每分转 $1.5$ 圈, 筒车的轴心 $O$ 距离水面的高度为 $2.2\text{ m}$. 设筒车上的某个盛水筒 $P$ 到水面的距离为 $d$ (单位: $\text{m}$) (在水面下则 $d$ 为负数), 若以盛水筒 $P$ 刚浮出水面时开始计算时间, 则 $d$ 与时间 $t$ (单位: $\text{s}$) 之间的关系为 $d=A\sin\left(\omega t+\varphi\right)+K$ ($A> 0$, $\omega> 0$, $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$).
 
@@ -228,7 +223,7 @@
 
 ### 解答 习题七
 
-由**定义 5.6.1** 至**定义 5.6.4**.
+由**定义 5.6.1 (振幅)** 至**定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**.
 
 (1) 由筒车半径 $3\text{ m}$, 得 $A=3$. 由轴心距水面 $2.2\text{ m}$, 得 $K=2.2$. 由每分转 $1.5$ 圈, 周期 $T=\frac{60}{1.5}=40\text{ s}$, 故 $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
 

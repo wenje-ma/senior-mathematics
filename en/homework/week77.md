@@ -1,24 +1,15 @@
-# Assignment 77
+# week77
+> **Definition 5.1.2 (Derivative)**<br>函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**<br>函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **Definition 5.2.2 (Differentiation Rules)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.3.1 (Monotonicity and Derivative Sign)**<br>在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+> **Definition 5.3.2 (Local Extrema)**<br>如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+> **Definition 5.3.3 (Method for Finding Extrema)**<br>解方程 f'(x) = 0. 当 f'(x0) = 0 时: 若 x < x0 时 f'(x) > 0, x > x0 时 f'(x) < 0, 则 f(x0) 是极大值; 反之是极小值.
+> **Definition 5.3.4 (闭区间上的最大 (小)**<br>在闭区间 [a, b] 上连续的函数 f(x) 在 [a, b] 上必有最大值与最小值, 只需比较极值与端点值.
 
-> **Definition 5.1.2** (Derivative) <br>$f'\left(x_{0}\right)=\lim_{\Delta x\to0}\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+---
 
-> **Definition 5.1.3** (Geometric Meaning of the Derivative) <br>$f'\left(x_{0}\right)$ is the slope of the tangent line to the curve $y=f\left(x\right)$ at the point $\left(x_{0},f\left(x_{0}\right)\right)$.
-
-> **Definition 5.2.1** (Derivative Formulas for Basic Elementary Functions) <br>$\left(c\right)'=0$; $\left(x^{\alpha}\right)'=\alpha x^{\alpha-1}$; $\left(\sin x\right)'=\cos x$; $\left(\cos x\right)'=-\sin x$; $\left(a^{x}\right)'=a^{x}\ln a$; $\left(\mathrm e^{x}\right)'=\mathrm e^{x}$; $\left(\log_{a}x\right)'=\frac{1}{x\ln a}$; $\left(\ln x\right)'=\frac{1}{x}$.
-
-> **Definition 5.2.2** (Rules for Arithmetic Operations on Derivatives) <br>$\left[f\left(x\right)\pm g\left(x\right)\right]'=f'\left(x\right)\pm g'\left(x\right)$; $\left[f\left(x\right)g\left(x\right)\right]'=f'\left(x\right)g\left(x\right)+f\left(x\right)g'\left(x\right)$; $\left[\frac{f\left(x\right)}{g\left(x\right)}\right]'=\frac{f'\left(x\right)g\left(x\right)-f\left(x\right)g'\left(x\right)}{\left[g\left(x\right)\right]^{2}}$.
-
-> **Definition 5.2.3** (Chain Rule for Composite Functions) <br>$y'_{x}=y'_{u}\cdot u'_{x}$.
-
-> **Definition 5.3.1** (Monotonicity of a Function and the Sign of the Derivative) <br>On an interval $\left(a,b\right)$, if $f'\left(x\right)> 0$, then the function $y=f\left(x\right)$ is monotonically increasing on $\left(a,b\right)$; if $f'\left(x\right)< 0$, then the function $y=f\left(x\right)$ is monotonically decreasing on $\left(a,b\right)$.
-
-> **Definition 5.3.2** (Extreme Values of a Function) <br>Let the function $y=f\left(x\right)$ be defined near $x=a$. If near $x=a$, on the left $f'\left(x\right)< 0$ and on the right $f'\left(x\right)> 0$, then $f\left(a\right)$ is a local minimum of the function, and $a$ is a local minimum point; if near $x=b$, on the left $f'\left(x\right)> 0$ and on the right $f'\left(x\right)< 0$, then $f\left(b\right)$ is a local maximum of the function, and $b$ is a local maximum point. Local minimum points and local maximum points are collectively called extreme points, and local minima and local maxima are collectively called extreme values.
-
-> **Definition 5.3.3** (Method for Finding Extreme Values of a Function) <br>Solve the equation $f'\left(x\right)=0$. When $f'\left(x_{0}\right)=0$: (1) if near $x_{0}$, on the left $f'\left(x\right)> 0$ and on the right $f'\left(x\right)< 0$, then $f\left(x_{0}\right)$ is a local maximum; (2) if near $x_{0}$, on the left $f'\left(x\right)< 0$ and on the right $f'\left(x\right)> 0$, then $f\left(x_{0}\right)$ is a local minimum.
-
-> **Definition 5.3.4** (Maximum (Minimum) Value on a Closed Interval) <br>If the graph of the function $y=f\left(x\right)$ is a continuous curve on the interval $\left[a,b\right]$, then it must have a maximum and a minimum value. The method is: first find the extreme values of $f\left(x\right)$ on the interval $\left(a,b\right)$, then compare each extreme value with the endpoint values $f\left(a\right),f\left(b\right)$; the largest of these is the maximum value, and the smallest is the minimum value.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.3, Problem 1) Determine the monotonicity of the following functions: 
 
@@ -28,7 +19,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 5.3.1** (Monotonicity of a Function and the Sign of the Derivative).
+By **Definition 5.3.1 (Monotonicity of a Function and the Sign of the Derivative)**.
 
 (1) $f'\left(x\right)=2x-2=2\left(x-1\right)$. When $x> 1$, $f'\left(x\right)> 0$; when $x< 1$, $f'\left(x\right)< 0$.
 
@@ -38,13 +29,13 @@ Hence $f\left(x\right)$ is monotonically decreasing on $\left(-\infty,1\right)$ 
 
 Hence $f\left(x\right)$ is monotonically decreasing on $\left(-\infty,0\right)$ and monotonically increasing on $\left(0,+\infty\right)$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.3, Problem 2) Using derivatives, discuss the monotonic intervals of the quadratic function $f\left(x\right)=ax^{2}+bx+c$.
 
 ### Solution to Exercise 2
 
-By **Definition 5.3.1**, $f'\left(x\right)=2ax+b$.
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $f'\left(x\right)=2ax+b$.
 
 Setting $f'\left(x\right)=0$, we get $x=-\frac{b}{2a}$.
 
@@ -52,7 +43,7 @@ When $a> 0$: if $x< -\frac{b}{2a}$, then $f'\left(x\right)< 0$; if $x> -\frac{b}
 
 When $a< 0$: if $x< -\frac{b}{2a}$, then $f'\left(x\right)> 0$; if $x> -\frac{b}{2a}$, then $f'\left(x\right)< 0$. Hence $f\left(x\right)$ is increasing on $\left(-\infty,-\frac{b}{2a}\right)$ and decreasing on $\left(-\frac{b}{2a},+\infty\right)$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.3, Problem 3) The graph of $y=f\left(x\right)$ is as shown. Sketch the approximate shape of the graph of $y=f'\left(x\right)$ on the interval $\left(0,b\right)$.
 
@@ -60,13 +51,13 @@ The figure is the graph of $y=f\left(x\right)$ on $\left(0,b\right)$: it rises f
 
 ### Solution to Exercise 3
 
-By **Definition 5.1.3** (Geometric Meaning of the Derivative), $f'\left(x\right)$ equals the slope of the tangent line to the original graph at each point.
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, $f'\left(x\right)$ equals the slope of the tangent line to the original graph at each point.
 
 From the original graph: on $\left(0,a\right)$ the curve is rising and the tangent slope is positive and gradually decreasing, so $f'\left(x\right)> 0$ and gradually decreases; at $x=a$ the tangent is horizontal, $f'\left(a\right)=0$; on $\left(a,b\right)$ the curve is falling, and the tangent slope is negative.
 
 Hence $y=f'\left(x\right)$ on $\left(0,b\right)$ starts positive and gradually decreases, crosses the $x$-axis at $x=a$, and then becomes negative. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.3, Problem 4) Determine the monotonicity of the following functions and find their monotonic intervals: 
 
@@ -76,7 +67,7 @@ Hence $y=f'\left(x\right)$ on $\left(0,b\right)$ starts positive and gradually d
 
 ### Solution to Exercise 4
 
-By **Definition 5.3.1** (Monotonicity of a Function and the Sign of the Derivative).
+By **Definition 5.3.1 (Monotonicity of a Function and the Sign of the Derivative)**.
 
 (1) $f'\left(x\right)=3-3x^{2}=3\left(1-x^{2}\right)=3\left(1-x\right)\left(1+x\right)$. Setting $f'\left(x\right)=0$, we get $x=\pm1$.
 
@@ -90,13 +81,13 @@ When $x< -\frac{1}{3}$, $f'\left(x\right)> 0$; when $-\frac{1}{3}< x< 1$, $f'\le
 
 Hence $f\left(x\right)$ is increasing on $\left(-\infty,-\frac{1}{3}\right)$ and $\left(1,+\infty\right)$, and decreasing on $\left(-\frac{1}{3},1\right)$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 5.3, Problem 5) Prove that the function $f\left(x\right)=2x^{3}-6x^{2}+7$ is monotonically decreasing on the interval $\left(0,2\right)$.
 
 ### Solution to Exercise 5
 
-By **Definition 5.3.1**, it suffices to show that $f'\left(x\right)< 0$ on $\left(0,2\right)$.
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, it suffices to show that $f'\left(x\right)< 0$ on $\left(0,2\right)$.
 
 $$
 f'\left(x\right)=6x^{2}-12x=6x\left(x-2\right).
@@ -104,9 +95,9 @@ $$
 
 When $x\in\left(0,2\right)$, $x> 0$ and $x-2< 0$, hence $f'\left(x\right)=6x\left(x-2\right)< 0$.
 
-By **Definition 5.3.1**, $f\left(x\right)$ is monotonically decreasing on $\left(0,2\right)$. $\blacksquare$
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $f\left(x\right)$ is monotonically decreasing on $\left(0,2\right)$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 5.3, Problem 6) The graph of $y=f'\left(x\right)$ is as shown. Sketch the approximate shape of the graph of $y=f\left(x\right)$.
 
@@ -114,13 +105,13 @@ The figure is the graph of the derivative $y=f'\left(x\right)$: it lies above th
 
 ### Solution to Exercise 6
 
-By **Definition 5.3.1**, the sign of $f'\left(x\right)$ determines whether $f\left(x\right)$ increases or decreases.
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, the sign of $f'\left(x\right)$ determines whether $f\left(x\right)$ increases or decreases.
 
 From the graph of the derivative: on $\left(0,a\right)$, $f'\left(x\right)> 0$, so $f\left(x\right)$ is increasing; at $x=a$, $f'\left(x\right)=0$; on $\left(a,b\right)$, $f'\left(x\right)< 0$, so $f\left(x\right)$ is decreasing; at $x=b$, $f'\left(x\right)=0$; on $\left(b,c\right)$, $f'\left(x\right)> 0$, so $f\left(x\right)$ is increasing.
 
 Hence the graph of $y=f\left(x\right)$ first rises, then falls, then rises again, reaching a local maximum at $x=a$ and a local minimum at $x=b$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 5.3, Problem 7) The graph of the derivative $y=f'\left(x\right)$ of $f\left(x\right)$ is as shown. Find the extreme points of $f\left(x\right)$, and indicate which are local maximum points and which are local minimum points.
 
@@ -128,7 +119,7 @@ The figure is the graph of the derivative $y=f'\left(x\right)$: a continuous cur
 
 ### Solution to Exercise 7
 
-By **Definition 5.3.2** (Extreme Values of a Function) and **Definition 5.3.3** (Method for Finding Extreme Values of a Function), an extreme point is a point where $f'\left(x\right)=0$ and the derivative changes sign on either side.
+By **Definition 5.3.2 (Extreme Values of a Function)** and **Definition 5.3.3 (Method for Finding Extreme Values of a Function)**, an extreme point is a point where $f'\left(x\right)=0$ and the derivative changes sign on either side.
 
 From the graph of the derivative, $f'\left(x\right)$ intersects the $x$-axis at $x_{2},x_{4},x_{6}$ and other places.
 
@@ -140,7 +131,7 @@ At $x_{6}$: on the left $f'\left(x\right)< 0$, on the right $f'\left(x\right)> 0
 
 At $x_{1},x_{3},x_{5}$, $f'\left(x\right)\neq0$, so they are not extreme points. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 5.3, Problem 8) Find the extreme values of the following functions: 
 
@@ -154,7 +145,7 @@ At $x_{1},x_{3},x_{5}$, $f'\left(x\right)\neq0$, so they are not extreme points.
 
 ### Solution to Exercise 8
 
-By **Definition 5.3.3** (Method for Finding Extreme Values of a Function).
+By **Definition 5.3.3 (Method for Finding Extreme Values of a Function)**.
 
 (1) $f'\left(x\right)=12x-1$. Setting $f'\left(x\right)=0$, we get $x=\frac{1}{12}$. On the left $f'\left(x\right)< 0$, on the right $f'\left(x\right)> 0$, so the local minimum is $f\left(\frac{1}{12}\right)=6\cdot\frac{1}{144}-\frac{1}{12}-2=-\frac{49}{24}$.
 
@@ -164,7 +155,7 @@ By **Definition 5.3.3** (Method for Finding Extreme Values of a Function).
 
 (4) $f'\left(x\right)=3-3x^{2}=3\left(1-x^{2}\right)$. Setting $f'\left(x\right)=0$, we get $x=\pm1$. At $x=-1$, left negative right positive: local minimum $f\left(-1\right)=-2$; at $x=1$, left positive right negative: local maximum $f\left(1\right)=2$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 5.3, Problem 9) Referring to the exercises on finding extreme values, find the maximum and minimum values of the following functions on the given intervals: 
 
@@ -178,7 +169,7 @@ By **Definition 5.3.3** (Method for Finding Extreme Values of a Function).
 
 ### Solution to Exercise 9
 
-By **Definition 5.3.4** (Maximum (Minimum) Value on a Closed Interval).
+By **Definition 5.3.4 (Maximum (Minimum)** Value on a Closed Interval).
 
 (1) $f'\left(x\right)=12x-1$; the zero in $\left(0,2\right)$ is $x=\frac{1}{12}$. Comparing $f\left(0\right)=-2$, $f\left(\frac{1}{12}\right)=-\frac{49}{24}$, $f\left(2\right)=20$. Hence the maximum is $20$ and the minimum is $-\frac{49}{24}$.
 
@@ -188,7 +179,7 @@ By **Definition 5.3.4** (Maximum (Minimum) Value on a Closed Interval).
 
 (4) $f'\left(x\right)=3-3x^{2}$; there is no zero in $\left(2,3\right)$ ($f'\left(x\right)< 0$). Comparing $f\left(2\right)=-2$, $f\left(3\right)=-18$. Hence the maximum is $-2$ and the minimum is $-18$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 5.3, Problem 10) Prove the inequality: $x-1\ge\ln x$, $x\in\left(0,+\infty\right)$.
 
@@ -198,11 +189,11 @@ Let $s\left(x\right)=x-1-\ln x$; then $s'\left(x\right)=1-\frac{1}{x}=\frac{x-1}
 
 Setting $s'\left(x\right)=0$, we get $x=1$.
 
-When $0< x< 1$, $s'\left(x\right)< 0$; when $x> 1$, $s'\left(x\right)> 0$. By **Definition 5.3.1**, $s\left(x\right)$ is decreasing on $\left(0,1\right)$ and increasing on $\left(1,+\infty\right)$, so $x=1$ is the minimum point.
+When $0< x< 1$, $s'\left(x\right)< 0$; when $x> 1$, $s'\left(x\right)> 0$. By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $s\left(x\right)$ is decreasing on $\left(0,1\right)$ and increasing on $\left(1,+\infty\right)$, so $x=1$ is the minimum point.
 
 The minimum value is $s\left(1\right)=0$. Hence $s\left(x\right)\ge s\left(1\right)=0$, i.e. $x-1-\ln x\ge0$, i.e. $x-1\ge\ln x$. $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 5.3, Problem 11) Using the monotonicity of a function, prove the following inequality and verify it visually with a graph: $\sin x< x$, $x\in\left(0,\pi\right)$.
 
@@ -212,11 +203,11 @@ The figure shows two curves on $\left(0,\pi\right)$: the line $y=x$ and the sine
 
 Let $s\left(x\right)=x-\sin x$; then $s'\left(x\right)=1-\cos x$.
 
-When $x\in\left(0,\pi\right)$, $\cos x< 1$, hence $s'\left(x\right)=1-\cos x> 0$. By **Definition 5.3.1**, $s\left(x\right)$ is monotonically increasing on $\left(0,\pi\right)$.
+When $x\in\left(0,\pi\right)$, $\cos x< 1$, hence $s'\left(x\right)=1-\cos x> 0$. By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $s\left(x\right)$ is monotonically increasing on $\left(0,\pi\right)$.
 
 Also $s\left(0\right)=0$, hence when $x\in\left(0,\pi\right)$, $s\left(x\right)> s\left(0\right)=0$, i.e. $x-\sin x> 0$, i.e. $\sin x< x$. $\blacksquare$
 
-### Exercise 12
+## Exercise 12
 
 (Exercise 5.3, Problem 12) As shown in the figure, wire is bent into a shape with a semicircle on top and a rectangle below; its area is $a\ \mathrm{m^{2}}$. To use the least material, what should the diameter of the semicircle be? 
 
@@ -240,7 +231,7 @@ When $x$ is smaller than this value, $L'\left(x\right)< 0$; when $x$ is larger, 
 
 Hence when the diameter is $x=\sqrt{\frac{8a}{4+\pi}}\ \mathrm{m}$, the material used is minimized. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.3, Review and Consolidation, Problem 1) Determine the monotonicity of the following functions and find their monotonic intervals: 
 
@@ -254,7 +245,7 @@ Hence when the diameter is $x=\sqrt{\frac{8a}{4+\pi}}\ \mathrm{m}$, the material
 
 ### Solution to Problem 1
 
-By **Definition 5.3.1**.
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**.
 
 (1) $f'\left(x\right)=-2< 0$, so $f\left(x\right)$ is monotonically decreasing on $\mathbb R$.
 
@@ -264,7 +255,7 @@ By **Definition 5.3.1**.
 
 (4) $f'\left(x\right)=6x^{2}+4> 0$, so $f\left(x\right)$ is monotonically increasing on $\mathbb R$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.3, Review and Consolidation, Problem 2) Determine the monotonicity of the following functions and find their monotonic intervals: 
 
@@ -278,7 +269,7 @@ By **Definition 5.3.1**.
 
 ### Solution to Problem 2
 
-By **Definition 5.3.1**.
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**.
 
 (1) $f'\left(x\right)=2x+2=2\left(x+1\right)$. Setting $f'\left(x\right)=0$, we get $x=-1$. Hence decreasing on $\left(-\infty,-1\right)$ and increasing on $\left(-1,+\infty\right)$.
 
@@ -288,7 +279,7 @@ By **Definition 5.3.1**.
 
 (4) $f'\left(x\right)=3x^{2}+2x-1=\left(3x-1\right)\left(x+1\right)$. Setting $f'\left(x\right)=0$, we get $x=-1$ or $x=\frac{1}{3}$. Hence increasing on $\left(-\infty,-1\right)$ and $\left(\frac{1}{3},+\infty\right)$, and decreasing on $\left(-1,\frac{1}{3}\right)$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.3, Review and Consolidation, Problem 3) As shown in the figure, a car is traveling on a straight road.
 
@@ -300,13 +291,13 @@ The figure is the graph of $y=f\left(t\right)$ (horizontal axis time $t$, vertic
 
 ### Solution to Problem 3
 
-By **Definition 5.1.3** (Geometric Meaning of the Derivative) and **Definition 5.3.1**.
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)** and **Definition 5.3.1 (Monotonicity and Derivative Sign)**.
 
 (1) If $y=f\left(t\right)$ represents the distance from the car to the starting point, then the velocity is $f'\left(t\right)$; velocity equal to $0$ means $f'\left(t\right)=0$, i.e. the point on the graph where the tangent is horizontal. Mark that point.
 
 (2) If $y=f\left(t\right)$ represents the car's velocity, then $f'\left(t\right)=0$ means the derivative of the velocity, i.e. the acceleration, is $0$; at such a point the car's acceleration is $0$, a turning point where the velocity changes from increasing to decreasing or from decreasing to increasing. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.3, Review and Consolidation, Problem 4) The graph of the derivative $y=f'\left(x\right)$ is as shown. Among the marked points, at which point
 
@@ -322,7 +313,7 @@ The figure is the graph of the derivative $y=f'\left(x\right)$: a continuous cur
 
 ### Solution to Problem 4
 
-By **Definition 5.3.2** and **Definition 5.3.3**.
+By **Definition 5.3.2 (Local Extrema)** and **Definition 5.3.3 (Method for Finding Extrema)**.
 
 (1) A local maximum point of the derivative $y=f'\left(x\right)$ is where its derivative $f''\left(x\right)$ changes from positive to negative; in the figure this corresponds to the highest point of the graph of $f'\left(x\right)$, i.e. at $x_{3}$.
 
@@ -332,7 +323,7 @@ By **Definition 5.3.2** and **Definition 5.3.3**.
 
 (4) A local minimum point of the function $f\left(x\right)$ is where $f'\left(x\right)$ changes from negative to positive, i.e. at $x_{2}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.3, Review and Consolidation, Problem 5) Find the extreme values of the following functions: 
 
@@ -346,7 +337,7 @@ By **Definition 5.3.2** and **Definition 5.3.3**.
 
 ### Solution to Problem 5
 
-By **Definition 5.3.3** (Method for Finding Extreme Values of a Function).
+By **Definition 5.3.3 (Method for Finding Extreme Values of a Function)**.
 
 (1) $f'\left(x\right)=12x+1$. Setting $f'\left(x\right)=0$, we get $x=-\frac{1}{12}$. Left negative right positive: local minimum $f\left(-\frac{1}{12}\right)=\frac{47}{24}$.
 
@@ -356,7 +347,7 @@ By **Definition 5.3.3** (Method for Finding Extreme Values of a Function).
 
 (4) $f'\left(x\right)=48-3x^{2}=3\left(16-x^{2}\right)$. Setting $f'\left(x\right)=0$, we get $x=\pm4$. At $x=-4$, left negative right positive: local minimum $f\left(-4\right)=-128$; at $x=4$, left positive right negative: local maximum $f\left(4\right)=128$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.3, Review and Consolidation, Problem 6) Referring to Problem 5, find the maximum and minimum values of the following functions on the given intervals: 
 
@@ -370,7 +361,7 @@ By **Definition 5.3.3** (Method for Finding Extreme Values of a Function).
 
 ### Solution to Problem 6
 
-By **Definition 5.3.4** (Maximum (Minimum) Value on a Closed Interval).
+By **Definition 5.3.4 (Maximum (Minimum)** Value on a Closed Interval).
 
 (1) The zero $x=-\frac{1}{12}\in\left[-1,1\right]$. Comparing $f\left(-1\right)=7$, $f\left(-\frac{1}{12}\right)=\frac{47}{24}$, $f\left(1\right)=9$. Maximum $9$, minimum $\frac{47}{24}$.
 
@@ -380,7 +371,7 @@ By **Definition 5.3.4** (Maximum (Minimum) Value on a Closed Interval).
 
 (4) The zeros are $x=\pm4$; in $\left[-3,5\right]$ the zero is $x=4$. Comparing $f\left(-3\right)=-117$, $f\left(4\right)=128$, $f\left(5\right)=115$. Maximum $128$, minimum $-117$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.3, Comprehensive Application, Problem 7) A wire of length $l$ is cut into two pieces and bent into two squares respectively. To minimize the sum of the areas of the two squares, what should the lengths of the two pieces be? 
 
@@ -398,7 +389,7 @@ When $x< \frac{l}{2}$, $S'< 0$; when $x> \frac{l}{2}$, $S'> 0$, so $x=\frac{l}{2
 
 Hence when both pieces have length $\frac{l}{2}$, the sum of the areas of the two squares is minimized. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 5.3, Comprehensive Application, Problem 8) A square iron sheet of side length $a$ has four small squares of side length $x$ cut from its four corners, and is folded into an open box.
 
@@ -422,13 +413,13 @@ When $0< x< \frac{a}{6}$, $V'\left(x\right)> 0$; when $\frac{a}{6}< x< \frac{a}{
 
 Hence when $x=\frac{a}{6}$, the volume of the box is maximized. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 5.3, Comprehensive Application, Problem 9) Using a measuring instrument to measure the length of an object, due to the precision of the instrument and the technique of measurement, $n$ measurements yield data $a_{1},a_{2},a_{3},\cdots,a_{n}$. Let the average of these $n$ data be $\overline{x}$, i.e. $\overline{x}=\frac{1}{n}\sum_{i=1}^{n}a_{i}$. Prove that when $x=\overline{x}$, the function $f\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)^{2}$ attains its minimum.
 
 ### Solution to Problem 9
 
-Differentiating $f\left(x\right)$ by **Definition 5.2.2**, 
+Differentiating $f\left(x\right)$ by **Definition 5.2.2 (Trigonometric Functions)**, 
 
 $$
 f'\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}2\left(a_{i}-x\right)\left(-1\right)=-\frac{2}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)=-\frac{2}{n}\left(\sum_{i=1}^{n}a_{i}-nx\right).
@@ -440,7 +431,7 @@ Also $f''\left(x\right)=\frac{2}{n}\cdot n=2> 0$, so $x=\overline{x}$ is a local
 
 Hence when $x=\overline{x}$, $f\left(x\right)$ attains its minimum. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 5.3, Extension and Exploration, Problem 10) Given that the production cost $C$ of a commodity is related to output $q$ by $C=100+4q$, and the unit price $p$ is related to output $q$ by $p=25-\frac{1}{8}q$. For what output $q$ is the profit maximized? 
 
@@ -458,7 +449,7 @@ When $q< 84$, $L'\left(q\right)> 0$; when $q> 84$, $L'\left(q\right)< 0$, so $q=
 
 Hence when output is $q=84$, profit is maximized. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 5.3, Extension and Exploration, Problem 11) Given that the wholesale cost of a commodity is $a$ yuan per item; from past experience, when the selling price is $b$ yuan per item ($b\ge\frac{4}{3}a$), $c$ items can be sold. Market research shows that when the selling price drops by $10\%$, sales volume can increase by $40\%$. Now a one-time price reduction is decided; at what selling price is the profit maximized? 
 
@@ -482,7 +473,7 @@ Setting $L'\left(x\right)=0$, we get $5-\frac{8x}{b}+\frac{4a}{b}=0$, which give
 
 This point is the maximum point. Hence when the selling price is $x=\frac{5b+4a}{8}$ yuan per item, profit is maximized. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 5.3, Extension and Exploration, Problem 12) Using the monotonicity of functions, prove the following inequalities and verify them visually with graphs: 
 
@@ -502,7 +493,7 @@ Next prove $x< \mathrm e^{x}$. From (1), when $x> 0$, $\mathrm e^{x}> 1+x> x$. H
 
 In summary, $\ln x< x< \mathrm e^{x}$, $x> 0$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 5.3, Extension and Exploration, Problem 13) Using an information technology tool, with given values of $a,b,c,d$, one can draw the graph of $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ ($a\neq0$). When $a=-4,b=1,c=5,d=-1$, the graph of $f\left(x\right)$ is as shown. Change the values of $a,b,c,d$ and observe the shape of the graph: 
 

@@ -1,26 +1,11 @@
-# 作业 30
+# week30
+> **基础知识: 公式 5.1.1**<br>长度等于半径长的弧所对的圆心角称为 $1$ 弧度的角. 弧长公式 $l=\lvert\alpha\rvert r$, 扇形面积 $S=\frac{1}{2}lr=\frac{1}{2}\lvert\alpha\rvert r^{2}$.
+> **定义 5.6.1 (周期函数)**<br>参见教材相应章节关于此概念的论述.
+> **定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**<br>参见教材相应章节关于此概念的论述.
 
-> **公式 5.1.1** (弧度制) <br>长度等于半径长的弧所对的圆心角称为 $1$ 弧度的角. 弧长公式 $l=\lvert\alpha\rvert r$, 扇形面积 $S=\frac{1}{2}lr=\frac{1}{2}\lvert\alpha\rvert r^{2}$.
+---
 
-> **公式 5.2.1** (三角函数定义) <br>设角 $\alpha$ 终边上任意一点 $P\left(x,y\right)$, $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
-
-> **公式 5.2.2** (同角三角函数关系) <br>$\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
-
-> **公式 5.3.1** (诱导公式) <br>$\sin\left(\alpha+2k\pi\right)=\sin\alpha$, $\cos\left(\alpha+2k\pi\right)=\cos\alpha$; $\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$; $\sin\left(-\alpha\right)=-\sin\alpha$, $\cos\left(-\alpha\right)=\cos\alpha$; $\sin\left(\pi-\alpha\right)=\sin\alpha$, $\cos\left(\pi-\alpha\right)=-\cos\alpha$; $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
-
-> **公式 5.5.1** (差角余弦公式) <br>$\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
-
-> **公式 5.5.3** (和角正弦公式) <br>$\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta$.
-
-> **公式 5.5.5** (和角正切公式) <br>$\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$.
-
-> **公式 5.5.7** (二倍角正弦公式) <br>$\sin2\alpha=2\sin\alpha\cos\alpha$.
-
-> **公式 5.5.8** (二倍角余弦公式) <br>$\cos2\alpha=\cos^{2}\alpha-\sin^{2}\alpha=1-2\sin^{2}\alpha=2\cos^{2}\alpha-1$.
-
-> **定义 5.6.2** (周期) <br>函数 $y=A\sin\left(\omega x+\varphi\right)$ 的周期 $T=\frac{2\pi}{\omega}$.
-
-### 习题一
+## 习题一
 
 (复习参考题5 复习巩固第 1 题) 写出与下列各角终边相同的角的集合 $S$, 并且把 $S$ 中适合不等式 $-2\pi\leq\beta< 4\pi$ 的元素 $\beta$ 写出来:
 
@@ -44,7 +29,7 @@
 
 (4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (复习参考题5 复习巩固第 2 题) 一个扇形的弧长与面积的数值都是 $5$, 求这个扇形中心角的度数 (精确到 $1^{\circ}$).
 
@@ -54,7 +39,7 @@
 
 由 $l=5$, $S=5$, 得 $S=\frac{1}{2}lr=\frac{5r}{2}=5$, $r=2$. 又 $l=\lvert\alpha\rvert r=2\lvert\alpha\rvert=5$, 故 $\lvert\alpha\rvert=\frac{5}{2}=2.5\text{ rad}\approx143^{\circ}$. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (复习参考题5 复习巩固第 3 题)
 
@@ -70,7 +55,7 @@
 
 (2) 由 $\sin x=2\cos x$, 得 $\tan x=2$. 又 $\sin^{2}x+\cos^{2}x=1$, 得 $\cos^{2}x=\frac{1}{5}$, $\cos x=\pm\frac{\sqrt{5}}{5}$, $\sin x=\pm\frac{2\sqrt{5}}{5}$. $\blacksquare$
 
-### 习题四
+## 习题四
 
 (复习参考题5 复习巩固第 4 题) 已知 $\tan\alpha=-\frac{1}{3}$, 计算:
 
@@ -96,7 +81,7 @@
 
 (4) $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha=1-\frac{3}{5}=\frac{2}{5}$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (复习参考题5 复习巩固第 5 题) 计算:
 
@@ -116,7 +101,7 @@
 
 (3) $\sin2\approx0.9093$, $\cos\left(0.9093\right)\approx0.6143$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (复习参考题5 复习巩固第 6 题) 设 $\pi< x< 2\pi$, 填表.
 
@@ -132,7 +117,7 @@
 
 $\blacksquare$
 
-### 习题七
+## 习题七
 
 (复习参考题5 复习巩固第 7 题) 求下列函数的最大值, 最小值, 并求使函数取得最大, 最小值的 $x$ 的集合:
 
@@ -148,7 +133,7 @@ $\blacksquare$
 
 (2) 由 $-1\leq\cos x\leq1$, 得 $y_{\max}=5$ ($x=\pi+2k\pi$), $y_{\min}=1$ ($x=2k\pi$). $\blacksquare$
 
-### 习题八
+## 习题八
 
 (复习参考题5 复习巩固第 8 题) 画出下列函数在长度为一个周期的闭区间上的简图, 并指出分别由函数 $y=\sin x$, $x\in\mathbb R$ 的图象经过怎样的变换得到:
 
@@ -160,7 +145,7 @@ $\blacksquare$
 
 (4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$.
 
-图：共四幅长度为一个周期的简图。(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$：振幅 $\frac{1}{2}$、周期 $\frac{2\pi}{3}$；(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$：振幅 $2$、周期 $2\pi$，与 $y=\sin x$ 的起伏方向相反；(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$：振幅 $1$、周期 $\pi$，在 $y=0$ 与 $y=2$ 之间波动；(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$：振幅 $3$、周期 $12\pi$。
+图:共四幅长度为一个周期的简图.(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$:振幅 $\frac{1}{2}$,周期 $\frac{2\pi}{3}$;(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$:振幅 $2$,周期 $2\pi$,与 $y=\sin x$ 的起伏方向相反;(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$:振幅 $1$,周期 $\pi$,在 $y=0$ 与 $y=2$ 之间波动;(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$:振幅 $3$,周期 $12\pi$.
 
 ### 解答 习题八
 
@@ -174,7 +159,7 @@ $\blacksquare$
 
 (4) $y=\sin x$ 向右平移 $2\pi$, 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $3$ 倍. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (复习参考题5 复习巩固第 9 题)
 
@@ -184,7 +169,7 @@ $\blacksquare$
 
 (3) 如何根据第 (2) 小题并通过平行移动坐标轴, 得到函数 $y=\sin\left(x+\varphi\right)+k$, $x\in\left[0,2\pi\right]$ ($\varphi$, $k$ 都是常数) 的图象?
 
-图：平面直角坐标系中，$y=\sin x$ 在 $\left[0,\frac{\pi}{2}\right]$ 上的一段四分之一波峰状正弦曲线，从原点 $\left(0,0\right)$ 上升至 $\left(\frac{\pi}{2},1\right)$，标出五个描点 $\left(0,0\right)$、$\left(\frac{\pi}{6},\frac{1}{2}\right)$、$\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$、$\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$、$\left(\frac{\pi}{2},1\right)$ 并用光滑曲线连接。
+图:平面直角坐标系中,$y=\sin x$ 在 $\left[0,\frac{\pi}{2}\right]$ 上的一段四分之一波峰状正弦曲线,从原点 $\left(0,0\right)$ 上升至 $\left(\frac{\pi}{2},1\right)$,标出五个描点 $\left(0,0\right)$,$\left(\frac{\pi}{6},\frac{1}{2}\right)$,$\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$,$\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$,$\left(\frac{\pi}{2},1\right)$ 并用光滑曲线连接.
 
 ### 解答 习题九
 
@@ -196,7 +181,7 @@ $\blacksquare$
 
 (3) 将 $y=\sin x$ 的图象向左 (右) 平移 $\lvert\varphi\rvert$, 再向上 (下) 平移 $\lvert k\rvert$. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (复习参考题5 复习巩固第 10 题) 不通过画图, 写出下列函数的振幅, 周期, 初相, 并说明如何由正弦曲线得到它们的图象:
 
@@ -206,13 +191,13 @@ $\blacksquare$
 
 ### 解答 习题十
 
-由**定义 5.6.1** 至**定义 5.6.4**.
+由**定义 5.6.1 (周期函数)** 至**定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**.
 
 (1) 振幅 $1$, 周期 $\frac{2\pi}{5}$, 初相 $\frac{\pi}{6}$. 由 $y=\sin x$ 向左平移 $\frac{\pi}{6}$, 横坐标缩短到原来的 $\frac{1}{5}$.
 
 (2) 振幅 $2$, 周期 $12\pi$, 初相 $0$. 由 $y=\sin x$ 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $2$ 倍. $\blacksquare$
 
-### 习题十一
+## 习题十一
 
 (复习参考题5 复习巩固第 11 题)
 
@@ -232,7 +217,7 @@ $\blacksquare$
 
 (3) 由 $\beta$ 锐角, $\sin\beta=\frac{\sqrt{10}}{10}$, 得 $\tan\beta=\frac{1}{3}$. 故 $\tan2\beta=\frac{2\times\frac{1}{3}}{1-\frac{1}{9}}=\frac{3}{4}$. $\tan\left(\alpha+2\beta\right)=\frac{\frac{1}{7}+\frac{3}{4}}{1-\frac{1}{7}\times\frac{3}{4}}=\frac{\frac{25}{28}}{\frac{25}{28}}=1$. $\blacksquare$
 
-### 习题十二
+## 习题十二
 
 (复习参考题5 复习巩固第 12 题)
 
@@ -256,7 +241,7 @@ $\blacksquare$
 
 (4) 由 $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)$, $\tan120^{\circ}=-\sqrt{3}$. 故原式 $=\frac{\sqrt{3}-\sqrt{3}\tan20^{\circ}\tan40^{\circ}-\sqrt{3}}{\tan20^{\circ}\tan40^{\circ}}=-\sqrt{3}$. $\blacksquare$
 
-### 习题十三
+## 习题十三
 
 (复习参考题5 复习巩固第 13 题) 化简:
 
@@ -280,7 +265,7 @@ $\blacksquare$
 
 (4) 原式 $=\sin50^{\circ}\cdot\frac{\cos10^{\circ}+\sqrt{3}\sin10^{\circ}}{\cos10^{\circ}}=\sin50^{\circ}\cdot\frac{2\cos\left(10^{\circ}-60^{\circ}\right)}{\cos10^{\circ}}=\frac{2\sin50^{\circ}\cos50^{\circ}}{\cos10^{\circ}}=\frac{\sin100^{\circ}}{\cos10^{\circ}}=1$. $\blacksquare$
 
-### 习题十四
+## 习题十四
 
 (复习参考题5 复习巩固第 14 题)
 
@@ -304,7 +289,7 @@ $\blacksquare$
 
 (4) 由 $\sin^{4}\theta+\cos^{4}\theta=1-\frac{1}{2}\sin^{2}2\theta=1-\frac{1}{2}\left(1-\cos^{2}2\theta\right)=1-\frac{1}{2}\left(1-\frac{9}{25}\right)=\frac{17}{25}$. $\blacksquare$
 
-### 习题十五
+## 习题十五
 
 (复习参考题5 复习巩固第 15 题)
 
@@ -320,7 +305,7 @@ $\blacksquare$
 
 (2) 由 $\left(\cos\alpha+\cos\beta\right)^{2}=\frac{1}{4}$, $\left(\sin\alpha+\sin\beta\right)^{2}=\frac{1}{9}$. 两式相加得 $2+2\cos\left(\alpha-\beta\right)=\frac{13}{36}$. 故 $\cos\left(\alpha-\beta\right)=-\frac{59}{72}$. $\blacksquare$
 
-### 习题十六
+## 习题十六
 
 (复习参考题5 综合运用第 16 题) 证明:
 
@@ -344,7 +329,7 @@ $\blacksquare$
 
 (4) 左边 $=\frac{3-4\cos2A+2\cos^{2}2A-1}{3+4\cos2A+2\cos^{2}2A-1}=\frac{2\left(\cos2A-1\right)^{2}}{2\left(\cos2A+1\right)^{2}}=\frac{\left(2\sin^{2}A\right)^{2}}{\left(2\cos^{2}A\right)^{2}}=\tan^{4}A=$ 右边. $\blacksquare$
 
-### 习题十七
+## 习题十七
 
 (复习参考题5 综合运用第 17 题) 已知 $\sin\alpha-\cos\alpha=\frac{1}{5}$, $0\leq\alpha\leq\pi$, 求 $\sin\left(2\alpha-\frac{\pi}{4}\right)$ 的值.
 
@@ -360,7 +345,7 @@ $$
 
 $\blacksquare$
 
-### 习题十八
+## 习题十八
 
 (复习参考题5 综合运用第 18 题) 已知 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 求 $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$ 的值.
 
@@ -370,7 +355,7 @@ $\blacksquare$
 
 由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 得 $\frac{5\pi}{3}< \frac{\pi}{4}+x< 2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
 
-### 习题十九
+## 习题十九
 
 (复习参考题5 综合运用第 19 题) 已知 $\sin\theta+\cos\theta=2\sin\alpha$, $\sin\theta\cos\theta=\sin^{2}\beta$, 求证 $4\cos^{2}2\alpha=\cos^{2}2\beta$.
 
@@ -382,7 +367,7 @@ $\blacksquare$
 
 左边 $=4\cos^{2}2\alpha=4\left(1-2\sin^{2}\alpha\right)^{2}$. 由 $4\sin^{2}\alpha=1+2\sin^{2}\beta$, 得 $\cos2\alpha=1-2\sin^{2}\alpha=1-\frac{1+2\sin^{2}\beta}{2}=\frac{1-2\sin^{2}\beta}{2}=\frac{\cos2\beta}{2}$. 故 $4\cos^{2}2\alpha=\cos^{2}2\beta$. $\blacksquare$
 
-### 习题二十
+## 习题二十
 
 (复习参考题5 综合运用第 20 题) 已知函数 $f\left(x\right)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
 
@@ -398,7 +383,7 @@ $\blacksquare$
 
 (2) 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{4}\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$. 当 $2x+\frac{\pi}{4}=\pi$, 即 $x=\frac{3\pi}{8}$ 时, $f\left(x\right)_{\min}=-\sqrt{2}$. $\blacksquare$
 
-### 习题二十一
+## 习题二十一
 
 (复习参考题5 综合运用第 21 题) 已知函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ 的最大值为 $1$.
 
@@ -418,7 +403,7 @@ $\blacksquare$
 
 (3) 由 $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, 得 $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. 故 $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
 
-### 习题二十二
+## 习题二十二
 
 (复习参考题5 综合运用第 22 题) 已知函数 $f\left(x\right)=\sqrt{3}\sin2x+2\cos^{2}x+m$ 在区间 $\left[0,\frac{\pi}{2}\right]$ 上的最大值为 $6$.
 
@@ -434,7 +419,7 @@ $\blacksquare$
 
 (2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. 最小值为 $-2+4=2$, 此时 $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
 
-### 习题二十三
+## 习题二十三
 
 (复习参考题5 综合运用第 23 题) 正方形 $ABCD$ 的边长为 $1$, $P$, $Q$ 分别为边 $AB$, $DA$ 上的点. 当 $\triangle APQ$ 的周长为 $2$ 时, 求 $\angle PCQ$ 的大小.
 
@@ -452,7 +437,7 @@ $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(
 
 由条件可证得 $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
 
-### 习题二十四
+## 习题二十四
 
 (复习参考题5 拓广探索第 24 题) 已知 $\sin\beta+\cos\beta=\frac{1}{5}$, $\beta\in\left(0,\pi\right)$.
 
@@ -468,7 +453,7 @@ $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(
 
 (2) 可构造求 $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$ 等问题. $\blacksquare$
 
-### 习题二十五
+## 习题二十五
 
 (复习参考题5 拓广探索第 25 题) 已知直线 $l_{1}\parallel l_{2}$, $A$ 是 $l_{1}$, $l_{2}$ 之间的一定点, 并且点 $A$ 到 $l_{1}$, $l_{2}$ 的距离分别为 $h_{1}$, $h_{2}$. $B$ 是直线 $l_{2}$ 上一动点, 作 $AC\perp AB$, 且使 $AC$ 与直线 $l_{1}$ 交于点 $C$. 设 $\angle ABD=\alpha$.
 
@@ -478,7 +463,7 @@ $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(
 
 (3) 由 (2) 中的图象求 $S\left(\alpha\right)$ 的最小值.
 
-图：两条平行直线 $l_1$（上方）与 $l_2$（下方），定点 $A$ 在两线之间，到 $l_1$ 的距离为 $h_1$、到 $l_2$ 的距离为 $h_2$；动点 $B$ 在 $l_2$ 上，从 $A$ 作 $AB$ 的垂线交 $l_1$ 于点 $C$，构成直角三角形 $ABC$（$\angle BAC=90^\circ$），$\angle ABD=\alpha$ 为 $AB$ 与 $l_2$ 的夹角（$D$ 在 $l_2$ 上 $B$ 的一侧）。
+图:两条平行直线 $l_1$(上方)与 $l_2$(下方),定点 $A$ 在两线之间,到 $l_1$ 的距离为 $h_1$,到 $l_2$ 的距离为 $h_2$;动点 $B$ 在 $l_2$ 上,从 $A$ 作 $AB$ 的垂线交 $l_1$ 于点 $C$,构成直角三角形 $ABC$($\angle BAC=90^\circ$),$\angle ABD=\alpha$ 为 $AB$ 与 $l_2$ 的夹角($D$ 在 $l_2$ 上 $B$ 的一侧).
 
 ### 解答 习题二十五
 
@@ -490,7 +475,7 @@ $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(
 
 (3) 由 $\sin2\alpha\leq1$, 得 $S\left(\alpha\right)\geq h_{1}h_{2}$, 当 $\alpha=\frac{\pi}{4}$ 时取最小值 $h_{1}h_{2}$. $\blacksquare$
 
-### 习题二十六
+## 习题二十六
 
 (复习参考题5 拓广探索第 26 题) 英国数学家泰勒给出如下公式:
 
@@ -506,7 +491,7 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 由 $\cos0.3\approx1-\frac{0.09}{2}+\frac{0.0081}{24}=1-0.045+0.0003375=0.9553375$. 精确值约为 $0.9553365$, 前三项近似值与精确值非常接近. $\blacksquare$
 
-### 习题二十七
+## 习题二十七
 
 (复习参考题5 拓广探索第 27 题) 在地球公转过程中, 太阳直射点的纬度随时间周而复始不断变化.
 

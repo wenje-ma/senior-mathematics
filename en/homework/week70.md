@@ -1,28 +1,12 @@
-# Assignment 70
+# week70
+> **Definition 3.1.1 (椭圆)**<br>平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> **Definition 3.1.3 (Standard Equation of Ellipse)**<br>平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
+> **Definition 3.1.7 (椭圆的离心率)**<br>椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
+> **Definition 3.2.1 (Hyperbola)**<br>平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
 
-> **Definition 3.1.1** (Ellipse) <br>The locus of points in the plane the sum of whose distances to two fixed points $F_1$, $F_2$ equals a constant (greater than $\lvert F_1F_2 \rvert$) is called an ellipse. These two fixed points are called the foci of the ellipse, and the distance between the two foci is called the focal distance.
+---
 
-> **Common Conclusion 3.1.2** (Sum of Distances from a Point on the Ellipse to the Two Foci) <br>For any point $M$ on the ellipse, the sum of its distances to the two foci equals $2a$, i.e. $\lvert MF_1 \rvert+\lvert MF_2 \rvert=2a$.
-
-> **Definition 3.1.3** (Standard Equation of an Ellipse) <br>When the foci lie on the $x$-axis the equation is $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$), $c^2=a^2-b^2$; when the foci lie on the $y$-axis it is $\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$.
-
-> **Definition 3.1.7** (Eccentricity of an Ellipse) <br>$e=\frac{c}{a}$, $0< e< 1$; the closer $e$ is to $1$, the flatter the ellipse.
-
-> **Definition 3.2.1** (Hyperbola) <br>The locus of points in the plane the absolute value of the difference of whose distances to two fixed points $F_1$, $F_2$ equals a nonzero constant (less than $\lvert F_1F_2 \rvert$) is called a hyperbola.
-
-> **Common Conclusion 3.2.2** (Difference of Distances from a Point on the Hyperbola to the Two Foci) <br>$\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a$.
-
-> **Definition 3.2.3** (Standard Equation of a Hyperbola) <br>When the foci lie on the $x$-axis the equation is $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$, $c^2=a^2+b^2$; when the foci lie on the $y$-axis it is $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$.
-
-> **Definition 3.2.8** (Eccentricity of a Hyperbola) <br>$e=\frac{c}{a}> 1$.
-
-> **Definition 3.3.1** (Parabola) <br>The locus of points in the plane equidistant from a fixed point $F$ and a fixed line $l$ (where $l$ does not pass through $F$) is called a parabola.
-
-> **Definition 3.3.2** (Standard Equation of a Parabola) <br>$y^2=2px$ ($p> 0$), focus $\left(\frac{p}{2},0\right)$, directrix $x=-\frac{p}{2}$.
-
-> **Common Conclusion 3.3.3** (Distances from a Point on the Parabola to the Focus and Directrix) <br>$\lvert MF \rvert=d$ (where $d$ is the distance from $M$ to the directrix).
-
-### Problem 1
+## Problem 1
 
 (Review Reference Problems 3, Review and Consolidation, Problem 1) As shown in the figure, the orbit of China's first artificial Earth satellite is an ellipse with the Earth's center $F_2$ as one focus. Its perigee $A$ is $439\,\mathrm{km}$ above the ground, its apogee $B$ is $2384\,\mathrm{km}$ above the ground, and $F_2$, $A$, $B$ are collinear; the Earth's radius is approximately $6371\,\mathrm{km}$. Find: (1) the equation of the satellite's orbit (accurate to $1\,\mathrm{km}$); (2) the eccentricity of the orbit.
 
@@ -30,7 +14,7 @@ The figure is a diagram of the satellite's orbit: an ellipse with the earth's ce
 
 ### Solution to Problem 1
 
-The distance from perigee $A$ to the Earth's center is $6371+439=6810\,\mathrm{km}$, and from apogee $B$ to the Earth's center is $6371+2384=8755\,\mathrm{km}$. By **Definition 3.1.3**, $a-c=6810$, $a+c=8755$. Solving gives $a=7782.5\approx7783\,\mathrm{km}$, $c=972.5\approx973\,\mathrm{km}$.
+The distance from perigee $A$ to the Earth's center is $6371+439=6810\,\mathrm{km}$, and from apogee $B$ to the Earth's center is $6371+2384=8755\,\mathrm{km}$. By **Definition 3.1.3 (Standard Equation of Ellipse)**, $a-c=6810$, $a+c=8755$. Solving gives $a=7782.5\approx7783\,\mathrm{km}$, $c=972.5\approx973\,\mathrm{km}$.
 
 (1) $b^2=a^2-c^2=\left(a-c\right)\left(a+c\right)=6810\times8755=59621550$. The orbit equation is
 
@@ -38,9 +22,9 @@ $$
 \frac{x^2}{7783^2}+\frac{y^2}{59621550}=1.
 $$
 
-(2) By **Definition 3.1.7** (Eccentricity), $e=\frac{c}{a}=\frac{973}{7783}\approx0.125$. $\blacksquare$
+(2) By **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}=\frac{973}{7783}\approx0.125$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Reference Problems 3, Review and Consolidation, Problem 2) Multiple choice.
 
@@ -60,9 +44,9 @@ $$
 
 (1) For $\frac{x^2}{25}+\frac{y^2}{9}=1$, $c^2=25-9=16$, $c=4$. For $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$, $c^2=\left(25-k\right)-\left(9-k\right)=16$, $c=4$. Both ellipses have focal distance $2c=8$, so the focal distances are equal. Choose (D).
 
-(2) The circle $x^2+y^2=1$ has center $O_1\left(0,0\right)$ and radius $r_1=1$. The circle $x^2+y^2-8x+12=0$ rewrites as $\left(x-4\right)^2+y^2=4$, with center $O_2\left(4,0\right)$ and radius $r_2=2$. Let the moving circle have radius $R$; since it is externally tangent to both, $\lvert MO_1 \rvert=R+1$, $\lvert MO_2 \rvert=R+2$, so $\lvert MO_2 \rvert-\lvert MO_1 \rvert=1$. By **Definition 3.2.1** (Hyperbola), the center lies on one branch of a hyperbola. Choose (B). $\blacksquare$
+(2) The circle $x^2+y^2=1$ has center $O_1\left(0,0\right)$ and radius $r_1=1$. The circle $x^2+y^2-8x+12=0$ rewrites as $\left(x-4\right)^2+y^2=4$, with center $O_2\left(4,0\right)$ and radius $r_2=2$. Let the moving circle have radius $R$; since it is externally tangent to both, $\lvert MO_1 \rvert=R+1$, $\lvert MO_2 \rvert=R+2$, so $\lvert MO_2 \rvert-\lvert MO_1 \rvert=1$. By **Definition 3.2.1 (Hyperbola)**, the center lies on one branch of a hyperbola. Choose (B). $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Reference Problems 3, Review and Consolidation, Problem 3) As $\alpha$ varies from $0^{\circ}$ to $180^{\circ}$, how does the shape of the curve given by $x^2+y^2\cos\alpha=1$ change?
 
@@ -78,7 +62,7 @@ Classify by the value of $\cos\alpha$.
 
 (4) When $90^{\circ}< \alpha\le180^{\circ}$, $-1\le\cos\alpha< 0$, the equation is $x^2-\frac{y^2}{-1/\cos\alpha}=1$, a hyperbola with foci on the $x$-axis (when $\alpha=180^{\circ}$ it is the equilateral hyperbola $x^2-y^2=1$). $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Reference Problems 3, Review and Consolidation, Problem 4) Given that the line $y=kx-1$ has no common point with the hyperbola $x^2-y^2=4$, find the range of $k$.
 
@@ -88,7 +72,7 @@ Substituting $y=kx-1$ into $x^2-y^2=4$ gives $x^2-\left(kx-1\right)^2=4$, i.e. $
 
 No common point requires no real root. When $1-k^2=0$, i.e. $k=\pm1$, the equation is linear and has one solution, which does not satisfy the condition. When $1-k^2\neq0$, the discriminant is $\Delta=4k^2+20\left(1-k^2\right)< 0$, i.e. $20-16k^2< 0$, $k^2> \frac{5}{4}$. Hence the range of $k$ is $k< -\frac{\sqrt{5}}{2}$ or $k> \frac{\sqrt{5}}{2}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Reference Problems 3, Review and Consolidation, Problem 5) Let the vertex of a parabola be $O$. The line through the focus perpendicular to the axis of symmetry meets the parabola at $B$, $C$. A line through a point $P$ on the parabola perpendicular to the axis of symmetry meets the axis at $Q$. Prove: $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$.
 
@@ -100,7 +84,7 @@ Let $P\left(x_0,y_0\right)$ lie on the parabola, so $y_0^2=2px_0$. $PQ$ is perpe
 
 $\lvert PQ \rvert^2=y_0^2=2px_0$, and $\lvert BC \rvert\cdot\lvert OQ \rvert=2p\cdot x_0=2px_0$. Hence $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Reference Problems 3, Review and Consolidation, Problem 6) One vertex of an equilateral triangle lies at the focus of the parabola $y^2=2px$ ($p> 0$), and the other two vertices lie on the parabola. Find the side length of this equilateral triangle.
 
@@ -110,7 +94,7 @@ The focus is $F\left(\frac{p}{2},0\right)$. Let two points $A$, $B$ on the parab
 
 $\lvert AB \rvert=2\lvert y_0 \rvert$, and $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. From $\lvert FA \rvert=\lvert AB \rvert$ and $y_0^2=2px_0$, we get $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, i.e. $x_0^2-px_0+\frac{p^2}{4}=8px_0$, i.e. $x_0^2-9px_0+\frac{p^2}{4}=0$. Solving gives $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. Taking the solution with $x_0> 0$, the side length is $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. Substituting gives the side length $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Reference Problems 3, Comprehensive Application, Problem 7) Given that $P$ is a point on the ellipse $16x^2+25y^2=1600$ above the $x$-axis, with $F_1$, $F_2$ the left and right foci respectively, and the slope of the line $PF_2$ is $-\frac{4\sqrt{3}}{3}$, find the area of $\triangle PF_1F_2$.
 
@@ -120,7 +104,7 @@ The ellipse $16x^2+25y^2=1600$ rewrites as $\frac{x^2}{100}+\frac{y^2}{64}=1$, w
 
 The line $PF_2$ passes through $F_2\left(6,0\right)$ with slope $-\frac{4\sqrt{3}}{3}$, so its equation is $y=-\frac{4\sqrt{3}}{3}\left(x-6\right)$. Substituting into the ellipse equation to find the ordinate of $P$ gives the ordinate of $P$ as $y_P=3\sqrt{3}$ (taking the upper side). The area is $S=\frac{1}{2}\cdot\lvert F_1F_2 \rvert\cdot\lvert y_P \rvert=\frac{1}{2}\cdot12\cdot3\sqrt{3}=18\sqrt{3}$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Reference Problems 3, Comprehensive Application, Problem 8) As shown in the figure, from a point $P$ on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) a perpendicular is dropped to the $x$-axis, whose foot is exactly the left focus $F_1$. Point $A$ is the intersection of the ellipse with the positive $x$-axis, and point $B$ is the intersection with the positive $y$-axis. Given $AB\parallel OP$ and $\lvert F_1A \rvert=\sqrt{10}+\sqrt{5}$, find the equation of the ellipse.
 
@@ -140,7 +124,7 @@ $$
 
 $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Reference Problems 3, Comprehensive Application, Problem 9) Given that the coordinates of points $A$, $B$ are $\left(-1,0\right)$ and $\left(1,0\right)$ respectively, the lines $AM$ and $BM$ meet at point $M$, and the sum of their slopes is $2$. Find the equation of the locus of point $M$.
 
@@ -154,7 +138,7 @@ $$
 
 Simplifying gives $xy=x^2-1$, i.e. $x^2-xy-1=0$. The locus equation is $x^2-xy=1$ ($x\neq\pm1$). $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Review Reference Problems 3, Extension and Exploration, Problem 10) As shown in the figure, a line intersects the parabola $y^2=2px$ ($p> 0$) at $A$, $B$, with $OA\perp OB$ and $OD\perp AB$ meeting $AB$ at $D$, and the coordinates of $D$ are $\left(2,1\right)$. Find the value of $p$.
 
@@ -170,7 +154,7 @@ $y_1y_2=\left(-2x_1+5\right)\left(-2x_2+5\right)=4x_1x_2-10\left(x_1+x_2\right)+
 
 From $x_1x_2+y_1y_2=0$, we get $\frac{25}{4}-5p=0$, so $p=\frac{5}{4}$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Review Reference Problems 3, Extension and Exploration, Problem 11) Given that two vertices $A$, $B$ of $\triangle ABC$ have coordinates $\left(-5,0\right)$ and $\left(5,0\right)$ respectively, and the product of the slopes of lines $AC$ and $BC$ equals $m$ ($m\neq0$), find the locus of vertex $C$.
 
@@ -184,7 +168,7 @@ $$
 
 When $m> 0$, the locus is a hyperbola with foci on the $x$-axis (excluding the two points $A$, $B$); when $m< 0$, the locus is an ellipse (excluding the two points $A$, $B$). $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Review Reference Problems 3, Extension and Exploration, Problem 12) Find a point $P$ on the parabola $y^2=4x$ such that the distance from $P$ to the line $y=x+3$ is minimized.
 
@@ -198,7 +182,7 @@ $$
 
 Since $\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2> 0$, we have $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. $d$ is minimized when $y_0=2$, giving $x_0=1$. The point $P$ is $\left(1,2\right)$. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Review Reference Problems 3, Extension and Exploration, Problem 13) As $m$ varies, describe the shape of the curve given by the equation $\left(m-1\right)x^2+\left(3-m\right)y^2=\left(m-1\right)\left(3-m\right)$.
 
@@ -220,7 +204,7 @@ $$
 
 (5) When $m> 3$, $3-m< 0$ and $m-1> 0$, so the curve is a hyperbola with foci on the $y$-axis. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Review Reference Problems 3, Extension and Exploration, Problem 14) As shown in the figure, a tunnel carries a two-lane road, and its cross-section consists of a rectangle and a parabola. For safety, the vertical clearance between the top of a vehicle (assumed flat-roofed) and the tunnel ceiling must be at least $0.5\,\mathrm{m}$. Given that the total roadway width is $AB=6\,\mathrm{m}$, what is the height limit for vehicles passing through the tunnel? (Accurate to $0.1\,\mathrm{m}$)
 
@@ -232,7 +216,7 @@ From the dimensions in the figure, the parabolic part is $8\,\mathrm{m}$ wide an
 
 The roadway is $6\,\mathrm{m}$ wide, i.e. $x=\pm3$. Substituting: $9=-\frac{16}{3}y$, so $y=-\frac{27}{16}\approx-1.69$. At $x=3$, the parabola is $1.69\,\mathrm{m}$ below the vertex. The rectangle is $2\,\mathrm{m}$ high, so the total tunnel height at the roadway edge is $2+1.69=3.69\,\mathrm{m}$. Requiring a clearance of at least $0.5\,\mathrm{m}$, the height limit is $3.69-0.5\approx3.2\,\mathrm{m}$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Review Reference Problems 3, Extension and Exploration, Problem 15) By combining the optical properties of the parabola and the hyperbola, one can design a reflecting astronomical telescope. Given that $F_1$, $F_2$ are the two foci of a hyperbola, and $F_2$ is also the focus of a parabola, find the equations of the parabola and the hyperbola based on the dimensions in the figure (unit: $\mathrm{mm}$).
 
@@ -250,7 +234,7 @@ $$
 
 $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Review Reference Problems 3, Extension and Exploration, Problem 16) Through the focus $F$ of the parabola $y^2=2px$ ($p> 0$) draw a line meeting the parabola at $A$, $B$. Draw a circle with $AB$ as diameter, and observe its relation to the directrix $l$ of the parabola. What conclusion can you draw? What about the corresponding cases for the ellipse and the hyperbola? Can you prove your conclusions?
 

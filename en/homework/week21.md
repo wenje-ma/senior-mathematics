@@ -1,16 +1,11 @@
-# Assignment 21
+# week21
+> **Definition 5.2.1 (Sine, Cosine, Tangent)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (终边上任意一点的三角函数比值)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.4.1 (周期函数)**<br>一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
-> **Definition 5.4.1** (Periodic Function) <br>In general, let the domain of the function $f\left(x\right)$ be $D$. If there exists a nonzero constant $T$ such that for every $x\in D$ we have $x+T\in D$ and $f\left(x+T\right)=f\left(x\right)$, then the function $f\left(x\right)$ is called a periodic function. The nonzero constant $T$ is called a period of this function. If, among all periods of the periodic function $f\left(x\right)$, there exists a smallest positive number, then this smallest positive number is called the least positive period of $f\left(x\right)$.
+---
 
-> **Common Conclusion** (Graphs and Properties of the Sine Function) <br>The graph of the sine function $y=\sin x$, $x\in\mathbb R$, is called the sine curve. The sine function is periodic, with least positive period $2\pi$. The sine function is an odd function, and its graph is symmetric about the origin. The sine function is monotonically increasing on every closed interval $\left[-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right]$ ($k\in\mathbb Z$), with its values increasing from $-1$ to $1$; it is monotonically decreasing on every closed interval $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$, with its values decreasing from $1$ to $-1$. The sine function attains its maximum value $1$ if and only if $x=\frac{\pi}{2}+2k\pi$, and attains its minimum value $-1$ if and only if $x=-\frac{\pi}{2}+2k\pi$.
-
-> **Common Conclusion** (Graphs and Properties of the Cosine Function) <br>The graph of the cosine function $y=\cos x$, $x\in\mathbb R$, is called the cosine curve. The cosine function is periodic, with least positive period $2\pi$. The cosine function is an even function, and its graph is symmetric about the $y$-axis. The cosine function is monotonically increasing on every closed interval $\left[-\pi+2k\pi,\ 2k\pi\right]$ ($k\in\mathbb Z$), with its values increasing from $-1$ to $1$; it is monotonically decreasing on every closed interval $\left[2k\pi,\ \pi+2k\pi\right]$, with its values decreasing from $1$ to $-1$. The cosine function attains its maximum value $1$ if and only if $x=2k\pi$, and attains its minimum value $-1$ if and only if $x=\left(2k+1\right)\pi$.
-
-> **Common Conclusion** (Graphs and Properties of the Tangent Function) <br>The graph of the tangent function $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$, is called the tangent curve. The tangent function is periodic, with least positive period $\pi$. The tangent function is an odd function. The tangent function is monotonically increasing on every interval $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ ($k\in\mathbb Z$). The range of the tangent function is the set of real numbers $\mathbb R$.
-
-> **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$) <br>The period of the function $y=A\sin\left(\omega x+\varphi\right)$, $x\in\mathbb R$, and the function $y=A\cos\left(\omega x+\varphi\right)$, $x\in\mathbb R$ (where $A$, $\omega$ and $\varphi$ are constants, with $A\neq0$, $\omega> 0$), is $T=\frac{2\pi}{\omega}$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 5.4, Problem 1) In the same rectangular coordinate system, sketch the graphs of the functions $y=\sin x$, $x\in\left[0,2\pi\right]$, and $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$. By observing the two curves, state their similarities and differences.
 
@@ -24,7 +19,7 @@ Similarities: both curves are continuous, smooth, "wavy" curves of the same shap
 
 Differences: the sine curve passes through the origin at $x=0$ and is odd; the cosine curve attains its maximum $1$ at $x=0$ and is even. The cosine curve is obtained by shifting the sine curve to the left by $\frac{\pi}{2}$ units, i.e. $\cos x=\sin\left(x+\frac{\pi}{2}\right)$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 5.4, Problem 2) Use the five-point method to sketch the graphs of the following functions on $\left[-\pi,\pi\right]$ respectively:
 
@@ -42,7 +37,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (2) $y=2-\cos x$: the five key points are $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, $\left(\pi,3\right)$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 5.4, Problem 3) Consider the graphs of $y=\lvert\sin x\rvert$ and $y=\sin x$ and their relationship, and sketch the graph with the help of information technology to check.
 
@@ -54,7 +49,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function).
 
 The graph of $y=\lvert\sin x\rvert$ is obtained by reflecting the part of the graph of $y=\sin x$ below the $x$-axis up over the $x$-axis. Hence $y=\lvert\sin x\rvert$ has range $\left[0,1\right]$, period $\pi$ (rather than $2\pi$), and is an even function. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 5.4, Problem 4) (Multiple-choice question) The graph of $y=1+\cos x$, $x\in\left[\frac{\pi}{3},2\pi\right]$, and the line $y=t$ ($t$ a constant) may intersect at ( ).
 
@@ -76,17 +71,17 @@ On the interval $\left[\frac{\pi}{3},2\pi\right]$, $\cos x$ first decreases from
 
 When $t\in\left(1.5,2\right]$, there is $1$ intersection; when $t\in\left[0,1.5\right)$, there are $2$ intersections; when $t< 0$ or $t> 2$, there are $0$ intersections. Hence there may be $0$, $1$ or $2$ intersections; choose (A)(B)(C). $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 5.4, Problem 5) Does the equality $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{6}$ hold? If this equality holds, can we say that $\frac{\pi}{3}$ is a period of the sine function $y=\sin x$, $x\in\mathbb R$? Why?
 
 ### Solution to Exercise 5
 
-By **Definition 5.4.1** (Periodic Function), a period $T$ must satisfy $f\left(x+T\right)=f\left(x\right)$ for every $x\in\mathbb R$.
+By **Definition 5.4.1 (Periodic Function)**, a period $T$ must satisfy $f\left(x+T\right)=f\left(x\right)$ for every $x\in\mathbb R$.
 
 Since $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{2}=1$ and $\sin\frac{\pi}{6}=\frac{1}{2}$, the equality does not hold. Even if $\sin\left(x+T\right)=\sin x$ holds for some particular $x$, we cannot say that $T$ is a period, because a periodic function requires the equality to hold for all $x$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 5.4, Problem 6) Find the period of the following functions:
 
@@ -110,7 +105,7 @@ By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$), $T=
 
 (4) From $\omega=\frac{1}{3}$, we get $T=\frac{2\pi}{1/3}=6\pi$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 5.4, Problem 7) Among the following functions, which are odd functions? Which are even functions?
 
@@ -134,19 +129,19 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (4) $f\left(-x\right)=-\sin\left(-x\right)\cos\left(-x\right)=\sin x\cos x=-f\left(x\right)$; odd function. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 5.4, Problem 8) Let $f\left(x\right)$ ($x\in\mathbb R$) be a periodic function with least positive period $2$, and when $x\in\left[0,2\right]$, $f\left(x\right)=\left(x-1\right)^{2}$. Find the values of $f\left(3\right)$ and $f\left(\frac{7}{2}\right)$.
 
 ### Solution to Exercise 8
 
-By **Definition 5.4.1** (Periodic Function), $f\left(x+2\right)=f\left(x\right)$.
+By **Definition 5.4.1 (Periodic Function)**, $f\left(x+2\right)=f\left(x\right)$.
 
 From $f\left(3\right)=f\left(1+2\right)=f\left(1\right)=\left(1-1\right)^{2}=0$.
 
 From $f\left(\frac{7}{2}\right)=f\left(\frac{3}{2}+2\right)=f\left(\frac{3}{2}\right)=\left(\frac{3}{2}-1\right)^{2}=\frac{1}{4}$. $\blacksquare$
 
-### Exercise 9
+## Exercise 9
 
 (Exercise 5.4, Problem 9) By observing the sine and cosine curves, write down the intervals of $x$ satisfying the following conditions:
 
@@ -170,7 +165,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (4) $\cos x< 0$: $x\in\left(\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
 
-### Exercise 10
+## Exercise 10
 
 (Exercise 5.4, Problem 10) Find the set of arguments at which the following functions attain their maximum and minimum values, and find the maximum and minimum values.
 
@@ -186,7 +181,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (2) When $\frac{x}{3}=2k\pi$, i.e. $x=6k\pi$, $\cos\frac{x}{3}=1$ and $y$ attains its minimum $1$; when $\frac{x}{3}=\pi+2k\pi$, i.e. $x=3\pi+6k\pi$, $\cos\frac{x}{3}=-1$ and $y$ attains its maximum $3$. $\blacksquare$
 
-### Exercise 11
+## Exercise 11
 
 (Exercise 5.4, Problem 11) Which of the following statements about the monotonicity of $y=4\sin x$, $x\in\left[0,2\pi\right]$, is correct? ( )
 
@@ -204,7 +199,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function), the sine 
 
 On $\left[0,2\pi\right]$, the increasing intervals are $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, and the decreasing interval is $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. Choose (C). $\blacksquare$
 
-### Exercise 12
+## Exercise 12
 
 (Exercise 5.4, Problem 12) Without computing the values, compare the sizes of the two trigonometric values in each of the following pairs:
 
@@ -220,7 +215,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (2) From $90^{\circ}< 250^{\circ}< 260^{\circ}< 270^{\circ}$, and the sine function is decreasing on $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$, i.e. $\left[90^{\circ},270^{\circ}\right]$, we get $\sin250^{\circ}> \sin260^{\circ}$. $\blacksquare$
 
-### Exercise 13
+## Exercise 13
 
 (Exercise 5.4, Problem 13) Find the decreasing interval of $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\left[0,\pi\right]$.
 
@@ -230,7 +225,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function), the decre
 
 Set $\frac{\pi}{2}+2k\pi\le 2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, which gives $\frac{\pi}{8}+k\pi\le x\le\frac{5\pi}{8}+k\pi$. Taking $k=0$, we get $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq\left[0,\pi\right]$. Hence the decreasing interval is $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
 
-### Exercise 14
+## Exercise 14
 
 (Exercise 5.4, Problem 14) Using the graph of $y=\tan x$, solve the inequality $\tan x\ge-1$, $x\in\left[0,\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\pi\right)$.
 
@@ -240,7 +235,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the ta
 
 Since $\tan\left(-\frac{\pi}{4}\right)=-1$, on $\left[0,\frac{\pi}{2}\right)$ we have $\tan x\ge0> -1$, which always holds. On $\left(\frac{\pi}{2},\pi\right)$, $\tan x\ge-1=\tan\left(-\frac{\pi}{4}\right)=\tan\frac{3\pi}{4}$, so by monotonicity $x\ge\frac{3\pi}{4}$. Hence the solution set is $\left[0,\frac{\pi}{2}\right)\cup\left[\frac{3\pi}{4},\pi\right)$. $\blacksquare$
 
-### Exercise 15
+## Exercise 15
 
 (Exercise 5.4, Problem 15) By observing the tangent curve, write down the range of $x$ satisfying the following conditions:
 
@@ -260,7 +255,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function).
 
 (3) $\tan x< 0$: $x\in\left(-\frac{\pi}{2}+k\pi,\ k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
 
-### Exercise 16
+## Exercise 16
 
 (Exercise 5.4, Problem 16) Find the domain of $y=\tan3x$.
 
@@ -270,7 +265,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the ar
 
 From $3x\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb Z$. Hence the domain is $\left\{x\mid x\neq\frac{\pi}{6}+\frac{k\pi}{2},\ k\in\mathbb Z\right\}$. $\blacksquare$
 
-### Exercise 17
+## Exercise 17
 
 (Exercise 5.4, Problem 17) Find the period of the following functions:
 
@@ -286,7 +281,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the pe
 
 (2) From $\omega=\frac{1}{2}$, we get $T=\frac{\pi}{1/2}=2\pi$. $\blacksquare$
 
-### Exercise 18
+## Exercise 18
 
 (Exercise 5.4, Problem 18) Without computing the values, compare the sizes of the two tangent values in each of the following pairs:
 
@@ -302,7 +297,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the ta
 
 (2) Since $\tan\frac{13\pi}{4}=\tan\left(3\pi+\frac{\pi}{4}\right)=\tan\frac{\pi}{4}$ and $\tan\frac{17\pi}{5}=\tan\left(3\pi+\frac{2\pi}{5}\right)=\tan\frac{2\pi}{5}$. From $0< \frac{\pi}{4}< \frac{2\pi}{5}< \frac{\pi}{2}$, we get $\tan\frac{\pi}{4}< \tan\frac{2\pi}{5}$, i.e. $\tan\frac{13\pi}{4}< \tan\frac{17\pi}{5}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 5.4, Review and Consolidation, Problem 1) Sketch simple graphs of the following functions:
 
@@ -320,7 +315,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (2) Five key points: $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, $\left(2\pi,4\right)$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 5.4, Review and Consolidation, Problem 2) Find the period of the following functions:
 
@@ -336,7 +331,7 @@ By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$), $T=
 
 (2) From $\omega=4$, we get $T=\frac{2\pi}{4}=\frac{\pi}{2}$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 5.4, Review and Consolidation, Problem 3) Among the following functions, which are odd functions? Which are even functions? Which are neither odd nor even?
 
@@ -360,7 +355,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (4) $f\left(-x\right)=1+2\tan\left(-x\right)=1-2\tan x$, which equals neither $f\left(x\right)$ nor $-f\left(x\right)$; neither odd nor even. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 5.4, Review and Consolidation, Problem 4) Find the set of arguments $x$ at which the following functions attain their maximum and minimum values, and find the maximum and minimum values:
 
@@ -384,7 +379,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (4) When $\frac{1}{2}x+\frac{\pi}{3}=\frac{\pi}{2}+2k\pi$, i.e. $x=\frac{\pi}{3}+4k\pi$, $y$ attains its maximum $\frac{1}{2}$; when $x=\frac{7\pi}{3}+4k\pi$, $y$ attains its minimum $-\frac{1}{2}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 5.4, Review and Consolidation, Problem 5) Using the monotonicity of the functions, compare the sizes of the two trigonometric values in each of the following pairs:
 
@@ -408,7 +403,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (4) Since $\cos\frac{47\pi}{10}=\cos\left(4\pi+\frac{7\pi}{10}\right)=\cos\frac{7\pi}{10}$ and $\cos\frac{44\pi}{9}=\cos\left(4\pi+\frac{8\pi}{9}\right)=\cos\frac{8\pi}{9}$. From $0< \frac{7\pi}{10}< \frac{8\pi}{9}< \pi$, we get $\cos\frac{7\pi}{10}> \cos\frac{8\pi}{9}$, i.e. $\cos\frac{47\pi}{10}> \cos\frac{44\pi}{9}$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 5.4, Review and Consolidation, Problem 6) Find the monotonic intervals of the following functions:
 
@@ -424,7 +419,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (2) $y=-\cos x$ has the opposite monotonicity to $y=\cos x$. The increasing interval is $\left[0,\pi\right]$, and the decreasing interval is $\left[\pi,2\pi\right]$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 5.4, Review and Consolidation, Problem 7) Find the domain of $y=-\tan\left(x+\frac{\pi}{6}\right)+2$.
 
@@ -434,7 +429,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the ar
 
 From $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb Z$. Hence the domain is $\left\{x\mid x\neq\frac{\pi}{3}+k\pi,\ k\in\mathbb Z\right\}$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 5.4, Review and Consolidation, Problem 8) Find the period of $y=\tan\left(2x-\frac{5\pi}{12}\right)$, $x\neq\frac{k\pi}{2}$ ($k\in\mathbb Z$).
 
@@ -444,7 +439,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the pe
 
 From $\omega=2$, we get $T=\frac{\pi}{2}$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 5.4, Review and Consolidation, Problem 9) Using the monotonicity of the tangent function, compare the sizes of the two function values in each of the following pairs:
 
@@ -468,7 +463,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the ta
 
 (4) Since $\frac{7\pi}{8}\in\left(\frac{\pi}{2},\pi\right)$, $\tan\frac{7\pi}{8}< 0$, while $\tan\frac{\pi}{6}> 0$, we get $\tan\frac{7\pi}{8}< \tan\frac{\pi}{6}$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 5.4, Comprehensive Application, Problem 10) Find the range of the following functions:
 
@@ -484,7 +479,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (2) From $x\in\left[0,\frac{\pi}{2}\right]$, we get $x+\frac{\pi}{3}\in\left[\frac{\pi}{3},\frac{5\pi}{6}\right]$. On this interval, $\cos$ decreases monotonically from $\frac{1}{2}$ to $-\frac{\sqrt{3}}{2}$. Hence the range is $\left[-\frac{\sqrt{3}}{2},\frac{1}{2}\right]$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 5.4, Comprehensive Application, Problem 11) Based on the graphs of the sine and cosine functions, write down the set of $x$ for which the following inequalities hold:
 
@@ -500,7 +495,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 (2) From $\sqrt{2}+2\cos x\ge0$, we get $\cos x\ge-\frac{\sqrt{2}}{2}$. From $\cos x\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, we get $x\in\left[-\frac{3\pi}{4}+2k\pi,\ \frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 5.4, Comprehensive Application, Problem 12) Among the following four functions, which one has least positive period $\pi$ and is monotonically decreasing on $\left(\frac{\pi}{2},\pi\right)$? ( )
 
@@ -526,7 +521,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 Choose (A). $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 5.4, Comprehensive Application, Problem 13) If $x$ is an interior angle of an oblique triangle, write down the set of $x$ for which the following inequalities hold:
 
@@ -542,7 +537,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), an int
 
 (2) From $\tan x-\sqrt{3}\ge0$, we get $\tan x\ge\sqrt{3}=\tan\frac{\pi}{3}$. On $\left(0,\frac{\pi}{2}\right)$, we get $x\in\left[\frac{\pi}{3},\frac{\pi}{2}\right)$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 5.4, Comprehensive Application, Problem 14) Find the monotonic intervals of $y=-\tan\left(2x-\frac{3\pi}{4}\right)$.
 
@@ -552,19 +547,19 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), the ta
 
 $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ has the opposite monotonicity to $y=\tan\left(2x-\frac{3\pi}{4}\right)$. Set $-\frac{\pi}{2}+k\pi< 2x-\frac{3\pi}{4}< \frac{\pi}{2}+k\pi$, which gives $\frac{\pi}{8}+\frac{k\pi}{2}< x< \frac{5\pi}{8}+\frac{k\pi}{2}$. Hence $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ is decreasing on $\left(\frac{\pi}{8}+\frac{k\pi}{2},\ \frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb Z$). $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 5.4, Comprehensive Application, Problem 15) Given that $y=f\left(x\right)$ is an odd function defined on $\mathbb R$ with period $2$, and $f\left(0.5\right)=1$, find the values of $f\left(1\right)$ and $f\left(3.5\right)$.
 
 ### Solution to Problem 15
 
-By **Definition 5.4.1** (Periodic Function) and the odd-function property $f\left(-x\right)=-f\left(x\right)$.
+By **Definition 5.4.1 (Periodic Function)** and the odd-function property $f\left(-x\right)=-f\left(x\right)$.
 
 Since $f\left(x\right)$ is odd, $f\left(0\right)=0$. With period $2$, $f\left(1\right)=f\left(-1+2\right)=f\left(-1\right)=-f\left(1\right)$, hence $f\left(1\right)=0$.
 
 From $f\left(3.5\right)=f\left(1.5+2\right)=f\left(1.5\right)=f\left(-0.5+2\right)=f\left(-0.5\right)=-f\left(0.5\right)=-1$. $\blacksquare$
 
-### Problem 16
+## Problem 16
 
 (Exercise 5.4, Comprehensive Application, Problem 16) Given $f\left(x\right)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$,
 
@@ -580,7 +575,7 @@ By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$) and 
 
 (2) From $x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$, we get $2x-\frac{\pi}{3}\in\left[-\frac{5\pi}{6},\frac{\pi}{6}\right]$. On this interval, the maximum of $\sin\left(2x-\frac{\pi}{3}\right)$ is $\sin\frac{\pi}{6}=\frac{1}{2}$ (at $x=\frac{\pi}{4}$), and the minimum is $\sin\left(-\frac{\pi}{2}\right)=-1$ (at $x=-\frac{\pi}{12}$). Hence the maximum of $f\left(x\right)$ is $\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, and the minimum is $\frac{1}{2}\times\left(-1\right)=-\frac{1}{2}$. $\blacksquare$
 
-### Problem 17
+## Problem 17
 
 (Exercise 5.4, Extension and Exploration, Problem 17) In the rectangular coordinate system, given that $\odot O$ is the circle centered at the origin $O$ with radius $2$, and the terminal side of the angle $x$ meets $\odot O$ at $B$, find the function expression relating the y-coordinate $y$ of the point $B$ to $x$, and sketch its graph with the help of information technology.
 
@@ -588,11 +583,11 @@ The graphs: on the left is a circle centered at the origin $O$ with radius $2$ i
 
 ### Solution to Problem 17
 
-By **Definition 5.2.1** (Sine, Cosine and Tangent Functions) and **Definition 5.2.2** (Trigonometric Ratios at Any Point on the Terminal Side).
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**.
 
 Since the circle has radius $2$, the intersection point $B$ of the terminal side of the angle $x$ with the circle has coordinates $\left(2\cos x,\ 2\sin x\right)$. Hence the y-coordinate of the point $B$ is $y=2\sin x$, $x\in\mathbb R$. Its graph is a sine curve with amplitude $2$ and period $2\pi$. $\blacksquare$
 
-### Problem 18
+## Problem 18
 
 (Exercise 5.4, Extension and Exploration, Problem 18) Given that $y=f\left(x\right)$ ($x\in\mathbb R$) is a periodic function with period $2$, a portion of whose graph is shown in the figure,
 
@@ -604,13 +599,13 @@ The graph: a portion of the periodic graph of $y=f\left(x\right)$ (period $2$); 
 
 ### Solution to Problem 18
 
-By **Definition 5.4.1** (Periodic Function) and the features of the graph.
+By **Definition 5.4.1 (Periodic Function)** and the features of the graph.
 
 (1) Since the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, one may try $f\left(x\right)=\sin\frac{\pi x}{2}$. Check: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, but the period $T=\frac{2\pi}{\pi/2}=4\neq2$. Again, with period $2$ and passing through $\left(0,0\right)$, $\left(1,1\right)$, one may try $f\left(x\right)=\sin\pi x$. Check: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. Since the graph passes through $\left(1,1\right)$ and has period $2$, try $f\left(x\right)=-\cos\pi x$. Check: $f\left(0\right)=-1\neq0$. Combining the facts that the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, we get $f\left(x\right)=\sin\pi x$.
 
 (2) The graph of $y=f\left(x+1\right)$ is obtained by shifting the graph of $y=f\left(x\right)$ to the left by $1$ unit. $\blacksquare$
 
-### Problem 19
+## Problem 19
 
 (Exercise 5.4, Extension and Exploration, Problem 19) It is easy to see that the sine function $y=\sin x$ is odd, and the sine curve is symmetric about the origin, i.e. the origin is a center of symmetry of the sine curve. Besides the origin, are there other centers of symmetry of the sine curve? If so, what are their coordinates? Also, is the sine curve an axisymmetric figure? If so, what is the equation of its axis of symmetry? Can you explain these phenomena using the properties of the sine function you have learned? Discuss the same questions for the cosine and tangent functions.
 
@@ -640,7 +635,7 @@ Let $z=\omega x+\varphi$. Then the period of $y=A\sin z$ is $2\pi$. Since $z+2\p
 
 ### Solution to Inquiry and Discovery 2
 
-By **Definition 5.2.1** (Sine, Cosine and Tangent Functions) and **Common Conclusion** (Graphs and Properties of the Sine Function).
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Common Conclusion** (Graphs and Properties of the Sine Function).
 
 (1) Periodicity: each time the terminal side of the angle $x$ makes one full turn around the origin ($2\pi$), the point $P\left(\cos x,\sin x\right)$ returns to its original position, so the period is $2\pi$.
 

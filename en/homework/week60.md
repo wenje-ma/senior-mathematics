@@ -1,18 +1,10 @@
-# Assignment 60
+# week60
+> **Definition 2.1.1 (倾斜角)**<br>当直线 l 与 x 轴相交时, 我们取 x 轴为基准, x 轴正向与直线 l 向上方向之间所成的角 alpha 叫做直线 l 的倾斜角.
+> **Definition 2.1.2 (Slope)**<br>一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
 
-> **Definition 2.1.1** (Inclination Angle) <br>When a line $l$ intersects the $x$-axis, we take the $x$-axis as the reference, and the angle $\alpha$ formed between the positive direction of the $x$-axis and the upward direction of line $l$ is called the inclination angle of line $l$. When line $l$ is parallel to or coincident with the $x$-axis, we stipulate that its inclination angle is $0^\circ$. Therefore, the range of the inclination angle $\alpha$ of a line is $0^\circ\le\alpha< 180^\circ$.
+---
 
-> **Definition 2.1.2** (Slope) <br>We call the tangent value of the inclination angle $\alpha$ of a line the slope of that line. The slope is commonly denoted by the lowercase letter $k$, i.e. $k=\tan\alpha$. A line whose inclination angle is $90^\circ$ has no slope, and every line whose inclination angle is not $90^\circ$ has a slope.
-
-> **Common Conclusion 2.1.3** (Slope Formula) <br>If a line passes through the two points $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ ($x_1\ne x_2$), then from Definition 2.1.1 and Definition 2.1.2 we obtain the slope formula $k=\frac{y_2-y_1}{x_2-x_1}$.
-
-> **Common Conclusion 2.1.4** (Direction Vector and Slope) <br>If the slope of line $l$ is $k$ and the coordinates of one of its direction vectors are $\left(x,y\right)$, then $k=\frac{y}{x}$.
-
-> **Common Conclusion 2.1.5** (Parallelism of Two Lines) <br>For two lines $l_1,l_2$ with slopes $k_1,k_2$, respectively, we have $l_1\parallel l_2\Leftrightarrow k_1=k_2$.
-
-> **Common Conclusion 2.1.6** (Perpendicularity of Two Lines) <br>If two lines both have slopes and are perpendicular to each other, then the product of their slopes equals $-1$; conversely, if the product of the slopes of two lines equals $-1$, then they are perpendicular to each other. That is, $l_1\perp l_2\Leftrightarrow k_1k_2=-1$.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 2.1, Problem 1) Given the inclination angles of the following lines, find the slope of each line:
 
@@ -26,7 +18,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 2.1.2** (Slope), the slope of a line is the tangent value of its inclination angle, i.e. $k=\tan\alpha$.
+By **Definition 2.1.2 (Slope)**, the slope of a line is the tangent value of its inclination angle, i.e. $k=\tan\alpha$.
 
 (1) $k=\tan 30^\circ=\frac{\sqrt 3}{3}$.
 
@@ -36,7 +28,7 @@ By **Definition 2.1.2** (Slope), the slope of a line is the tangent value of its
 
 (4) $k=\tan\frac{3\pi}{4}=\tan\left(\pi-\frac{\pi}{4}\right)=-\tan\frac{\pi}{4}=-1$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 2.1, Problem 2) Given the slopes of the following lines, find the inclination angle of each line:
 
@@ -50,7 +42,7 @@ By **Definition 2.1.2** (Slope), the slope of a line is the tangent value of its
 
 ### Solution to Exercise 2
 
-By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and the range of the inclination angle is $0^\circ\le\alpha< 180^\circ$.
+By **Definition 2.1.2 (Slope)**, $k=\tan\alpha$, and the range of the inclination angle is $0^\circ\le\alpha< 180^\circ$.
 
 (1) From $\tan\alpha=0$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=0^\circ$.
 
@@ -60,7 +52,7 @@ By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and the range of the inclinatio
 
 (4) From $\tan\alpha=-\frac{\sqrt 3}{3}$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=150^\circ$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 2.1, Problem 3) Find the slope of the line passing through each of the following pairs of points, and determine whether its inclination angle is acute or obtuse:
 
@@ -70,13 +62,13 @@ By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and the range of the inclinatio
 
 ### Solution to Exercise 3
 
-By **Common Conclusion 2.1.3** (Slope Formula), the slope of the line through two points is $k=\frac{y_2-y_1}{x_2-x_1}$; by **Definition 2.1.2** (Slope), when $k> 0$ the inclination angle is acute, and when $k< 0$ the inclination angle is obtuse.
+By **Common Conclusion 2.1.3** (Slope Formula), the slope of the line through two points is $k=\frac{y_2-y_1}{x_2-x_1}$; by **Definition 2.1.2 (Slope)**, when $k> 0$ the inclination angle is acute, and when $k< 0$ the inclination angle is obtuse.
 
 (1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. Since $k_{CD}> 0$, the inclination angle is acute.
 
 (2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. Since $k_{PQ}< 0$, the inclination angle is obtuse. $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 2.1, Problem 4) Given that $a,b,c$ are pairwise unequal real numbers, find the inclination angle of the line passing through each of the following pairs of points:
 
@@ -88,15 +80,15 @@ By **Common Conclusion 2.1.3** (Slope Formula), the slope of the line through tw
 
 ### Solution to Exercise 4
 
-By **Common Conclusion 2.1.3** (Slope Formula) and **Definition 2.1.2** (Slope).
+By **Common Conclusion 2.1.3** (Slope Formula) and **Definition 2.1.2 (Slope)**.
 
 (1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$; from $\tan\alpha=0$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=0^\circ$.
 
-(2) The two points $C,D$ have the same abscissa, i.e. $x_1=x_2=a$, in which case the denominator of the slope formula is zero and the line has no slope. By **Definition 2.1.1** (Inclination Angle), the line is perpendicular to the $x$-axis, so $\alpha=90^\circ$.
+(2) The two points $C,D$ have the same abscissa, i.e. $x_1=x_2=a$, in which case the denominator of the slope formula is zero and the line has no slope. By **Definition 2.1.1 (Inclination Angle)**, the line is perpendicular to the $x$-axis, so $\alpha=90^\circ$.
 
 (3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$; from $\tan\alpha=1$ and $0^\circ\le\alpha< 180^\circ$, we get $\alpha=45^\circ$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 2.1, Problem 5) A direction vector of the line through the two points $A\left(0,2\right)$, $B\left(-1,0\right)$ is $\left(1,k\right)$. Find the value of $k$.
 
@@ -112,7 +104,7 @@ $$
 
 A direction vector of line $AB$ is $\left(1,k\right)$; by **Common Conclusion 2.1.4**, we get $k=\frac{k}{1}=k_{AB}=2$. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 2.1, Problem 6) Determine whether each of the following pairs of lines is parallel or perpendicular:
 
@@ -128,7 +120,7 @@ By **Common Conclusion 2.1.5** (Parallelism of Two Lines) and **Common Conclusio
 
 (2) By **Common Conclusion 2.1.3** (Slope Formula), $k_{CD}=\frac{0-1}{-2-3}=\frac{-1}{-5}=\frac{1}{5}$, i.e. the slope of $l_3$ is $\frac{1}{5}$. The slope of $l_4$ is known to be $-5$. The product of the two slopes is $\frac{1}{5}\times\left(-5\right)=-1$. By **Common Conclusion 2.1.6**, $l_3\perp l_4$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 2.1, Problem 7) Determine the value of $m$ so that the line through the two points $A\left(m,1\right)$, $B\left(-1,m\right)$ and the line through the two points $P\left(1,2\right)$, $Q\left(-5,0\right)$ are:
 
@@ -168,17 +160,17 @@ $$
 
 Simplifying gives $\frac{m-1}{-m-1}=-3$, i.e. $m-1=3\left(m+1\right)$, i.e. $m-1=3m+3$, i.e. $-2m=4$, so $m=-2$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 2.1, Review and Consolidation, Problem 1) Given that the absolute value of the slope of a line equals $1$, find the inclination angle of the line.
 
 ### Solution to Problem 1
 
-By **Definition 2.1.2** (Slope), $k=\tan\alpha$, and $\lvert k \rvert=1$.
+By **Definition 2.1.2 (Slope)**, $k=\tan\alpha$, and $\lvert k \rvert=1$.
 
 From $\lvert \tan\alpha \rvert=1$, we get $\tan\alpha=1$ or $\tan\alpha=-1$. Also the range of the inclination angle is $0^\circ\le\alpha< 180^\circ$: when $\tan\alpha=1$, $\alpha=45^\circ$; when $\tan\alpha=-1$, $\alpha=135^\circ$. Hence the inclination angle of the line is $45^\circ$ or $135^\circ$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 2.1, Review and Consolidation, Problem 2) Given that the four vertices of quadrilateral $ABCD$ are $A\left(2,3\right)$, $B\left(1,-1\right)$, $C\left(-1,-2\right)$, $D\left(-2,2\right)$, find the slopes of the lines on which the four sides of quadrilateral $ABCD$ lie.
 
@@ -212,7 +204,7 @@ $$
 
 Hence the slopes of the lines on which the four sides lie are $k_{AB}=4$, $k_{BC}=\frac{1}{2}$, $k_{CD}=-4$, $k_{DA}=\frac{1}{4}$, respectively. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 2.1, Review and Consolidation, Problem 3) For what value of $m$:
 
@@ -222,7 +214,7 @@ Hence the slopes of the lines on which the four sides lie are $k_{AB}=4$, $k_{BC
 
 ### Solution to Problem 3
 
-By **Common Conclusion 2.1.3** (Slope Formula) and **Definition 2.1.2** (Slope).
+By **Common Conclusion 2.1.3** (Slope Formula) and **Definition 2.1.2 (Slope)**.
 
 (1) By the slope formula, $k_{AB}=\frac{3m-6}{1-\left(-m\right)}=\frac{3m-6}{1+m}$. Setting this equal to $12$ gives
 
@@ -232,7 +224,7 @@ $$
 
 Clearing denominators gives $3m-6=12\left(1+m\right)=12+12m$, i.e. $-9m=18$, so $m=-2$.
 
-(2) By **Definition 2.1.2**, when the inclination angle is $60^\circ$, the slope is $k=\tan 60^\circ=\sqrt 3$. By the slope formula,
+(2) By **Definition 2.1.2 (Slope)**, when the inclination angle is $60^\circ$, the slope is $k=\tan 60^\circ=\sqrt 3$. By the slope formula,
 
 $$
 k_{AB}=\frac{\left(-2m-1\right)-2}{-m-m}=\frac{-2m-3}{-2m}=\frac{2m+3}{2m}.
@@ -246,7 +238,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 2.1, Review and Consolidation, Problem 4) Given the three points $A\left(1,2\right)$, $B\left(-1,0\right)$, $C\left(3,4\right)$, do these three points lie on the same straight line? Why?
 
@@ -264,7 +256,7 @@ $$
 
 By **Common Conclusion 2.1.5** (Parallelism of Two Lines), $k_{AB}=k_{AC}=1$, and both lines pass through point $A$, so line $AB$ and line $AC$ coincide; i.e. the three points $A,B,C$ lie on the same straight line. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 2.1, Review and Consolidation, Problem 5) Determine whether the distinct lines $l_1$ and $l_2$ in each of the following are parallel:
 
@@ -294,7 +286,7 @@ $$
 
 The slopes of the two lines are equal, and $l_1$ passes through $M,N$ while $l_2$ passes through $R,S$; the points $R,S$ do not lie on the line $MN$, so the two lines do not coincide; hence $l_1\parallel l_2$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 2.1, Review and Consolidation, Problem 6) Determine whether the lines $l_1$ and $l_2$ in each of the following are perpendicular:
 
@@ -310,7 +302,7 @@ By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), i.e. $k_1k_2=-1$
 
 (1) By **Common Conclusion 2.1.3** (Slope Formula), $k_{AB}=\frac{-\frac{1}{2}-1}{0-1}=\frac{-\frac{3}{2}}{-1}=\frac{3}{2}$, i.e. the slope of $l_2$ is $\frac{3}{2}$. The slope of $l_1$ is $-\frac{2}{3}$. The product of the two slopes is $-\frac{2}{3}\times\frac{3}{2}=-1$, so $l_1\perp l_2$.
 
-(2) By **Definition 2.1.2** (Slope), the slope of $l_1$ is $k_1=\tan 45^\circ=1$. By the slope formula,
+(2) By **Definition 2.1.2 (Slope)**, the slope of $l_1$ is $k_1=\tan 45^\circ=1$. By the slope formula,
 
 $$
 k_{PQ}=\frac{-6-\left(-1\right)}{3-\left(-2\right)}=\frac{-5}{5}=-1,
@@ -330,13 +322,13 @@ $$
 
 The product of the two slopes is $-\frac{5}{3}\times\frac{3}{5}=-1$, so $l_1\perp l_2$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 2.1, Comprehensive Application, Problem 7) The inclination angle of line $l$ through the two points $A\left(m^2+2,m^2-3\right)$, $B\left(3-m-m^2,2m\right)$ is $45^\circ$. Find the value of $m$.
 
 ### Solution to Problem 7
 
-By **Definition 2.1.2** (Slope), when the inclination angle is $45^\circ$, the slope is $k=\tan 45^\circ=1$. By **Common Conclusion 2.1.3** (Slope Formula),
+By **Definition 2.1.2 (Slope)**, when the inclination angle is $45^\circ$, the slope is $k=\tan 45^\circ=1$. By **Common Conclusion 2.1.3** (Slope Formula),
 
 $$
 k_{AB}=\frac{2m-\left(m^2-3\right)}{\left(3-m-m^2\right)-\left(m^2+2\right)}=\frac{2m-m^2+3}{1-m-2m^2}.
@@ -356,7 +348,7 @@ When $m=-2$, $A\left(6,1\right)$, $B\left(3,-4\right)$, and the slope is $\frac{
 
 Hence $m=-2$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 2.1, Comprehensive Application, Problem 8) Draw a line $l$ through the point $P\left(0,-1\right)$. If line $l$ always has a common point with the segment joining the two points $A\left(1,-2\right)$, $B\left(2,1\right)$, find the range of the inclination angle $\alpha$ and the slope $k$ of line $l$, and explain the reason.
 
@@ -372,7 +364,7 @@ $$
 k_{PB}=\frac{1-\left(-1\right)}{2-0}=\frac{2}{2}=1.
 $$
 
-By **Definition 2.1.2** (Slope), $k_{PA}=-1$ corresponds to the inclination angle $135^\circ$, and $k_{PB}=1$ corresponds to the inclination angle $45^\circ$.
+By **Definition 2.1.2 (Slope)**, $k_{PA}=-1$ corresponds to the inclination angle $135^\circ$, and $k_{PB}=1$ corresponds to the inclination angle $45^\circ$.
 
 Line $l$ rotates about point $P$; for it to have a common point with segment $AB$, its inclination angle $\alpha$ must lie between $45^\circ$ and $135^\circ$, i.e. $45^\circ\le\alpha\le135^\circ$.
 
@@ -380,7 +372,7 @@ When $\alpha\in\left[45^\circ,90^\circ\right)$, the slope $k\ge1$; when $\alpha=
 
 Hence the range of the slope $k$ is $k\ge1$ or $k\le-1$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 2.1, Comprehensive Application, Problem 9) Given the points $M\left(2,2\right)$ and $N\left(5,-2\right)$, the point $P$ lies on the $x$-axis, and $\angle MPN$ is a right angle. Find the coordinates of point $P$.
 
@@ -408,7 +400,7 @@ Simplifying gives $\frac{-4}{\left(x-2\right)\left(x-5\right)}=-1$, i.e. $\left(
 
 Hence $x=1$ or $x=6$, and the coordinates of point $P$ are $\left(1,0\right)$ or $\left(6,0\right)$. $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 2.1, Extension and Exploration, Problem 10) Given that the four vertices of quadrilateral $ABCD$ are $A\left(2,2+2\sqrt 2\right)$, $B\left(-2,2\right)$, $C\left(0,2-2\sqrt 2\right)$, $D\left(4,2\right)$, prove that quadrilateral $ABCD$ is a rectangle.
 

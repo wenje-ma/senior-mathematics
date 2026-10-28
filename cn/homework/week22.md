@@ -1,28 +1,9 @@
-# 作业 22
+# week22
+> **基础知识: 公式 5.5.1**<br>$\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
 
-> **公式 5.5.1** (差角余弦公式) <br>$\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
+---
 
-> **公式 5.5.2** (和角余弦公式) <br>$\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$.
-
-> **公式 5.5.3** (和角正弦公式) <br>$\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta$.
-
-> **公式 5.5.4** (差角正弦公式) <br>$\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta$.
-
-> **公式 5.5.5** (和角正切公式) <br>$\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$.
-
-> **公式 5.5.6** (差角正切公式) <br>$\tan\left(\alpha-\beta\right)=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$.
-
-> **公式 5.5.7** (二倍角正弦公式) <br>$\sin2\alpha=2\sin\alpha\cos\alpha$.
-
-> **公式 5.5.8** (二倍角余弦公式) <br>$\cos2\alpha=\cos^{2}\alpha-\sin^{2}\alpha=1-2\sin^{2}\alpha=2\cos^{2}\alpha-1$.
-
-> **公式 5.5.9** (二倍角正切公式) <br>$\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}$.
-
-> **公式 5.5.10** (半角公式) <br>$\sin^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$, $\cos^{2}\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$, $\tan^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}$.
-
-> **公式 5.5.11** (辅助角公式) <br>$a\sin x+b\cos x=\sqrt{a^{2}+b^{2}}\sin\left(x+\varphi\right)$, 其中 $\cos\varphi=\frac{a}{\sqrt{a^{2}+b^{2}}}$, $\sin\varphi=\frac{b}{\sqrt{a^{2}+b^{2}}}$.
-
-### 练习一
+## 练习一
 
 (练习 5.5 第 1 题) 利用和 (差) 角公式, 求下列各式的值:
 
@@ -46,7 +27,7 @@
 
 (4) 由 $\tan15^{\circ}=\tan\left(45^{\circ}-30^{\circ}\right)=\frac{\tan45^{\circ}-\tan30^{\circ}}{1+\tan45^{\circ}\tan30^{\circ}}=\frac{1-\frac{\sqrt{3}}{3}}{1+\frac{\sqrt{3}}{3}}=2-\sqrt{3}$. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 5.5 第 2 题)
 
@@ -80,7 +61,7 @@ $$
 
 $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 5.5 第 3 题) 求下列各式的值:
 
@@ -112,7 +93,7 @@ $\blacksquare$
 
 (6) 由 $\cos110^{\circ}=-\cos70^{\circ}$, $\cos160^{\circ}=-\cos20^{\circ}$, 得原式 $=-\sin20^{\circ}\cos70^{\circ}-\cos20^{\circ}\sin70^{\circ}=-\sin\left(20^{\circ}+70^{\circ}\right)=-\sin90^{\circ}=-1$. $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 5.5 第 4 题) 化简:
 
@@ -136,7 +117,7 @@ $\blacksquare$
 
 (4) 原式 $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
 
-### 练习五
+## 练习五
 
 (练习 5.5 第 5 题) 已知 $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, 且 $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$, $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, 求 $\sin2\beta$ 的值.
 
@@ -154,7 +135,7 @@ $$
 
 $\blacksquare$
 
-### 练习六
+## 练习六
 
 (练习 5.5 第 6 题) 已知 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, $8\pi< \alpha< 12\pi$, 求 $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$, $\tan\frac{\alpha}{4}$ 的值.
 
@@ -170,7 +151,7 @@ $\blacksquare$
 
 由 $\tan\frac{\alpha}{4}=\frac{\sin\frac{\alpha}{4}}{\cos\frac{\alpha}{4}}=\frac{24}{7}$. $\blacksquare$
 
-### 练习七
+## 练习七
 
 (练习 5.5 第 7 题) 已知 $\sin\left(\alpha-\pi\right)=\frac{3}{5}$, 求 $\cos2\alpha$ 的值.
 
@@ -180,7 +161,7 @@ $\blacksquare$
 
 由 $\sin\left(\alpha-\pi\right)=-\sin\alpha=\frac{3}{5}$, 得 $\sin\alpha=-\frac{3}{5}$. 故 $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{9}{25}=\frac{7}{25}$. $\blacksquare$
 
-### 练习八
+## 练习八
 
 (练习 5.5 第 8 题) 已知 $\sin2\alpha=-\sin\alpha$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$, 求 $\tan\alpha$ 的值.
 
@@ -190,7 +171,7 @@ $\blacksquare$
 
 由 $\sin2\alpha=2\sin\alpha\cos\alpha=-\sin\alpha$, 且 $\alpha\in\left(\frac{\pi}{2},\pi\right)$ 时 $\sin\alpha\neq0$, 得 $2\cos\alpha=-1$, 即 $\cos\alpha=-\frac{1}{2}$. 故 $\sin\alpha=\frac{\sqrt{3}}{2}$, $\tan\alpha=-\sqrt{3}$. $\blacksquare$
 
-### 练习九
+## 练习九
 
 (练习 5.5 第 9 题) 已知 $\tan2\alpha=\frac{1}{3}$, 求 $\tan\alpha$ 的值.
 
@@ -200,7 +181,7 @@ $\blacksquare$
 
 由 $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{1}{3}$, 得 $6\tan\alpha=1-\tan^{2}\alpha$, 即 $\tan^{2}\alpha+6\tan\alpha-1=0$. 解得 $\tan\alpha=-3\pm\sqrt{10}$. $\blacksquare$
 
-### 练习十
+## 练习十
 
 (练习 5.5 第 10 题) 求下列各式的值:
 
@@ -224,7 +205,7 @@ $\blacksquare$
 
 (4) 由**公式 5.5.8**, 得 $2\cos^{2}22.5^{\circ}-1=\cos45^{\circ}=\frac{\sqrt{2}}{2}$. $\blacksquare$
 
-### 练习十一
+## 练习十一
 
 (练习 5.5 第 11 题) 求证: $\tan\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha}$.
 
@@ -234,7 +215,7 @@ $\blacksquare$
 
 由 $\tan\frac{\alpha}{2}=\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}=\frac{2\sin^{2}\frac{\alpha}{2}}{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}=\frac{1-\cos\alpha}{\sin\alpha}$. 同理, $\tan\frac{\alpha}{2}=\frac{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}{2\cos^{2}\frac{\alpha}{2}}=\frac{\sin\alpha}{1+\cos\alpha}$. $\blacksquare$
 
-### 练习十二
+## 练习十二
 
 (练习 5.5 第 12 题) 已知 $\cos\theta=\frac{1}{7}$, 且 $270^{\circ}< \theta< 360^{\circ}$, 试求 $\sin\frac{\theta}{2}$ 和 $\cos\frac{\theta}{2}$ 的值.
 
@@ -248,7 +229,7 @@ $\blacksquare$
 
 由 $\cos\frac{\theta}{2}=-\sqrt{\frac{1+\cos\theta}{2}}=-\sqrt{\frac{1+\frac{1}{7}}{2}}=-\sqrt{\frac{4}{7}}=-\frac{2\sqrt{7}}{7}$. $\blacksquare$
 
-### 练习十三
+## 练习十三
 
 (练习 5.5 第 13 题) 已知等腰三角形的顶角的余弦等于 $\frac{7}{25}$, 求这个三角形的一个底角的正切.
 
@@ -264,7 +245,7 @@ $$
 
 $\blacksquare$
 
-### 练习十四
+## 练习十四
 
 (练习 5.5 第 14 题) 求证:
 
@@ -284,7 +265,7 @@ $\blacksquare$
 
 (3) 由 $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, 两边除以 $-2$ 即得. $\blacksquare$
 
-### 练习十五
+## 练习十五
 
 (练习 5.5 第 15 题) 求证:
 
@@ -304,7 +285,7 @@ $\blacksquare$
 
 (3) 代入 $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, 得 $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$. $\blacksquare$
 
-### 练习十六
+## 练习十六
 
 (练习 5.5 第 16 题) 求下列函数的周期, 最大值和最小值:
 
@@ -320,7 +301,7 @@ $\blacksquare$
 
 (2) 原式 $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{1}{2}$. 周期为 $2\pi$, 最大值为 $\sqrt{5}$, 最小值为 $-\sqrt{5}$. $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 5.5 复习巩固第 1 题) 已知 $\sin\alpha=\frac{2}{3}$, $\cos\beta=-\frac{3}{4}$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$, $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, 求 $\cos\left(\alpha-\beta\right)$ 的值.
 
@@ -336,7 +317,7 @@ $$
 
 $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 5.5 复习巩固第 2 题) 已知 $\alpha$, $\beta$ 都是锐角, $\cos\alpha=\frac{1}{7}$, $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, 求 $\cos\beta$ 的值.
 
@@ -352,7 +333,7 @@ $$
 
 $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 5.5 复习巩固第 3 题) 已知 $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$, $60^{\circ}< \alpha< 150^{\circ}$, 求 $\cos\alpha$ 的值.
 
@@ -368,7 +349,7 @@ $$
 
 $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 5.5 复习巩固第 4 题) 在 $\triangle ABC$ 中, $\cos A=\frac{12}{13}$, $\cos B=\frac{3}{5}$, 求 $\cos C$ 的值.
 
@@ -384,7 +365,7 @@ $$
 
 $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 5.5 复习巩固第 5 题) 已知 $\tan\left(\alpha+\beta\right)=3$, $\tan\left(\alpha-\beta\right)=5$, 求 $\tan2\alpha$, $\tan2\beta$ 的值.
 
@@ -396,7 +377,7 @@ $\blacksquare$
 
 由**公式 5.5.6**, 得 $\tan2\beta=\frac{3-5}{1+3\times5}=\frac{-2}{16}=-\frac{1}{8}$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 5.5 复习巩固第 6 题) 化简:
 
@@ -428,7 +409,7 @@ $\blacksquare$
 
 (6) 由 $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$, $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$, 得分子 $=2\sin\alpha\sin\beta+\cos\alpha\cos\beta-\sin\alpha\sin\beta=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos\left(\alpha-\beta\right)$. 故原式 $=1$. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 5.5 复习巩固第 7 题) 已知 $\sin\alpha=0.8$, $\alpha\in\left(0,\frac{\pi}{2}\right)$, 求 $\sin2\alpha$, $\cos2\alpha$ 的值.
 
@@ -438,7 +419,7 @@ $\blacksquare$
 
 由 $\sin\alpha=0.8=\frac{4}{5}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$, 得 $\cos\alpha=\frac{3}{5}$. 故 $\sin2\alpha=2\sin\alpha\cos\alpha=2\times\frac{4}{5}\times\frac{3}{5}=\frac{24}{25}$, $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{16}{25}=-\frac{7}{25}$. $\blacksquare$
 
-### 习题八
+## 习题八
 
 (习题 5.5 复习巩固第 8 题) 求证:
 
@@ -470,7 +451,7 @@ $\blacksquare$
 
 (6) 左边 $=\frac{2\sin^{2}\theta+2\sin\theta\cos\theta}{2\cos^{2}\theta+2\sin\theta\cos\theta}=\frac{2\sin\theta\left(\sin\theta+\cos\theta\right)}{2\cos\theta\left(\cos\theta+\sin\theta\right)}=\tan\theta=$ 右边. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (习题 5.5 复习巩固第 9 题) 已知 $\sin\left(\alpha+\beta\right)=\frac{1}{2}$, $\sin\left(\alpha-\beta\right)=\frac{1}{3}$, 求证:
 
@@ -486,7 +467,7 @@ $\blacksquare$
 
 (2) 由 (1) 两边同除以 $\cos\alpha\cos\beta$, 得 $\tan\alpha=5\tan\beta$. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (习题 5.5 复习巩固第 10 题) 已知 $\frac{1-\tan\theta}{2+\tan\theta}=1$, 求证 $\tan2\theta=-4\tan\left(\theta+\frac{\pi}{4}\right)$.
 
@@ -500,7 +481,7 @@ $\blacksquare$
 
 左边 $=$ 右边, 得证. $\blacksquare$
 
-### 习题十一
+## 习题十一
 
 (习题 5.5 复习巩固第 11 题) 已知一段圆弧所对的圆心角的正弦值等于 $\frac{3}{5}$, 求这段圆弧所对的圆周角的正弦, 余弦和正切.
 
@@ -514,7 +495,7 @@ $\blacksquare$
 
 若 $\cos2\theta=-\frac{4}{5}$, 则 $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\frac{3\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1-\frac{4}{5}}{2}}=\frac{\sqrt{10}}{10}$, $\tan\theta=3$. $\blacksquare$
 
-### 习题十二
+## 习题十二
 
 (习题 5.5 复习巩固第 12 题) 化简:
 
@@ -538,7 +519,7 @@ $\blacksquare$
 
 (4) 原式 $=\frac{\sqrt{2}}{2}\left(\frac{1}{2}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{3}}{2}\cos\left(\frac{\pi}{4}-x\right)\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{\pi}{4}-x+\frac{\pi}{3}\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{7\pi}{12}-x\right)$. $\blacksquare$
 
-### 习题十三
+## 习题十三
 
 (习题 5.5 综合运用第 13 题) 在 $\triangle ABC$ 中, 已知 $\tan A$, $\tan B$ 是 $x$ 的方程 $x^{2}+p\left(x+1\right)+1=0$ 的两个实根, 求 $\angle C$.
 
@@ -548,7 +529,7 @@ $\blacksquare$
 
 由 $\tan A+\tan B=-p$, $\tan A\tan B=p+1$. 故 $\tan\left(A+B\right)=\frac{\tan A+\tan B}{1-\tan A\tan B}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. 由 $C=\pi-\left(A+B\right)$, 得 $\tan C=-\tan\left(A+B\right)=-1$, 故 $C=135^{\circ}$. $\blacksquare$
 
-### 习题十四
+## 习题十四
 
 (习题 5.5 综合运用第 14 题) 在 $\triangle ABC$ 中, $B=\frac{\pi}{4}$, $BC$ 边上的高等于 $\frac{1}{3}BC$, 则 $\cos A=$ ( ).
 

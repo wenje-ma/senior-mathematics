@@ -1,44 +1,15 @@
-# Assignment 95
+# week95
+> **Definition 8.1.1 (相关关系)**<br>两个变量有关系, 但又没有确切到可由其中的一个去精确地决定另一个的程度, 这种关系称为相关关系.
+> **Definition 8.1.5 (样本相关系数)**<br>样本相关系数 r 衡量两个变量线性相关程度, |r| <= 1, |r| 越接近 1 线性相关程度越强.
+> **Definition 8.2.1 (一元线性回归模型)**<br>析 ９２ ………………………… ８.１　成对数据的统计相关性 ９３ …………………………… ８.２　一元线性回归模型及其应用 １０５ ……………………… 阅读与思考　回归与相关 １２２ ………………………… ８.３　列联表与独立性检验 １２４ ……………………………… 小结 １３７ ……………………………………………………… 复习参考题８ １３８ …………………………………………… 数学建模　建立统计模型进行预测 １４１ ………………… 部分中英文词汇索引 １４７ …………………………………………… 目录 第六章 计数原理 6. 1 分类加法计数原理与分步乘法计数原理 探究与发现 子集的个数有多少 12 排列与组合 6. 2 14 组合数的两个性质 探究与发现 6. 3 二项式定理 小结 36 复习参考题6 37 数学探究 杨辉三角的性质与应用 39 第七章 随机变量及其分布 43 7.1 条件概率与全概率公式 44 阅读与思考贝叶斯公式与人工智能 7. 2 离散型随机变量及其分布列 7
+> **Definition 8.2.4 (经验回归方程)**<br>用最小二乘法求得的回归方程 y = bx + a 称为经验回归方程.
+> **Definition 8.2.5 (残差)**<br>残差 = 观测值 - 预测值, 即 e_i = y_i - y_hat_i.
+> **Definition 8.3.1 (分类变量)**<br>变量的不同取值表示个体所属的不同类别, 这类变量称为分类变量.
+> **Definition 8.3.4 ($\chi^2$ 统计量)**<br>选中分析工具库和 分析工具库ＶＢＡ,单击确定即可把数据分析加载到菜单栏中. (三)统计量的计算 在电子表格软件的函数库中,有一类统计函数提供了计算常用统计量的各种 函数,如ＡＶＥＲＡＧＥ()(平均数),ＭＥＤＩＡＮ()(中位数),ＭＯＤＥ()(众数), ＶＡＲ.Ｐ()(方差),ＳＴＤＥＶ.Ｐ()(标准差),ＰＥＲＣＥＮＴＩＬＥ.ＩＮＣ()(百分位 数),等.可以直接输入函数名称进行调用,也可以通过插入函数的方式选择 调用.例如,求单元格Ａ２到Ａ１０１所有数据的平均数,可以选一空白单元格,输 入＝ＡＶＥＲＡＧＥ(Ａ２:Ａ１０１),或者在菜单栏中依次选择公式— 函数 库— 插入函数,调出函数ＡＶＥＲＡＧＥ,再设置求平均数的单元格范围. 其他函数调用的操作过程类似,只是不同函数的参数设置有所不同,可以根 据函数的说明进行恰当设置. 二,Ｒ软件的简单统计功能 Ｒ软件是一款免费软件,可在其官方网站下载.它通过命令形式进行操作. (一)产生随机数 １.用ｒｕ
 
-> **Definition 8.1.1** (Correlation) <br>Two variables are related, but not to the extent that one can be precisely determined by the other; such a relationship is called a correlation.
+---
 
-> **Definition 8.1.5** (Sample Correlation Coefficient) <br>For the variables $x$ and $y$, the sample correlation coefficient of the paired sample data $\left(x_i,y_i\right)\left(i=1,2,\cdots,n\right)$ is
-
-$$
-r=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sqrt{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2}\sqrt{\sum_{i=1}^{n}\left(y_i-\overline y\right)^2}}.
-$$
-
-> **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) <br>When $r> 0$ the pairs are positively correlated, and when $r< 0$ the pairs are negatively correlated; $-1\leqslant r\leqslant 1$; the closer $\left|r\right|$ is to $1$, the stronger the linear correlation, and the closer $\left|r\right|$ is to $0$, the weaker the linear correlation.
-
-> **Definition 8.2.1** (Simple Linear Regression Model) <br>The simple linear regression model for $x$ and the random variable $Y$ is
-
-$$
-\begin{cases}Y=bx+a+e,\\ E\left(e\right)=0,\ D\left(e\right)=\sigma^2.\end{cases}
-$$
-
-> **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) <br>By the least squares method,
-
-$$
-\widehat b=\frac{\sum_{i=1}^{n}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{n}\left(x_i-\overline x\right)^2},\quad \widehat a=\overline y-\widehat b\overline x.
-$$
-
-> **Definition 8.2.4** (Empirical Regression Equation) <br>The equation $\widehat y=\widehat b x+\widehat a$ obtained from the least squares estimates is called the empirical regression equation of $y$ on $x$.
-
-> **Definition 8.2.5** (Residual) <br>The difference $e_i=y_i-\widehat y_i$ obtained by subtracting the predicted value $\widehat y_i$ from the observed value $y_i$ is called the residual corresponding to the point $\left(x_i,y_i\right)$.
-
-> **Definition 8.3.1** (Categorical Variable) <br>In general, the values of a discrete variable can be used to denote the different categories to which individuals belong; such a variable is called a categorical variable.
-
-> **Definition 8.3.3** (Null Hypothesis) <br>The hypothesis to be tested — that the two categorical variables are independent — is denoted the null hypothesis $H_0$, i.e. the categorical variables $X$ and $Y$ are mutually independent.
-
-> **Definition 8.3.4** ($\chi^2$ Statistic) <br>For a $2\times 2$ contingency table,
-
-$$
-\chi^2=\frac{n\left(ad-bc\right)^2}{\left(a+b\right)\left(c+d\right)\left(a+c\right)\left(b+d\right)}.
-$$
-
-> **Common Conclusion 8.3.5** (Rules of the Independence Test) <br>When $\chi^2\geqslant x_\alpha$, we infer that $H_0$ does not hold, i.e. consider $X$ and $Y$ not independent, and the probability that this inference is wrong does not exceed $\alpha$; when $\chi^2< x_\alpha$, there is insufficient evidence to infer that $H_0$ does not hold, and $X$ and $Y$ may be considered independent. Common critical value: when $\alpha=0.05$, $x_\alpha=3.841$.
-
-### Problem 1
+## Problem 1
 
 (Review Reference Exercise 8, Review and Consolidation, Problem 1) The scatter plot of the paired sample data of the variables $x$ and $y$ is shown in the following figure; from this one can infer that between the variables $x$ and $y$ ( ).
 
@@ -64,7 +35,7 @@ By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient
 
 Therefore choose ($\mathrm C$). $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Reference Exercise 8, Review and Consolidation, Problem 2) From the paired sample data of the variables $Y$ and $x$, the simple linear regression model
 
@@ -88,15 +59,15 @@ The figure is the residual plot corresponding to the fitted regression model $\w
 
 ### Solution to Problem 2
 
-By **Definition 8.2.5** (Residual) and **Definition 8.2.1** (Simple Linear Regression Model).
+By **Definition 8.2.5 (Residual)** and **Definition 8.2.1 (Simple Linear Regression Model)**.
 
-By **Definition 8.2.5** (Residual), the residual points are roughly uniformly distributed in a horizontal band centered at $0$, indicating that the mean of the residuals is $0$, i.e. the assumption $E\left(e\right)=0$ is basically satisfied.
+By **Definition 8.2.5 (Residual)**, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, indicating that the mean of the residuals is $0$, i.e. the assumption $E\left(e\right)=0$ is basically satisfied.
 
 But the width of the band clearly widens as $x$ increases, indicating that the variance of the residuals varies with $x$ rather than being a constant, i.e. the variance of the random error is not constant, so the assumption $D\left(e\right)=\sigma^2$ is not satisfied.
 
 Therefore choose ($\mathrm C$). $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Reference Exercise 8, Review and Consolidation, Problem 3) From the paired sample data of the categorical variables $x$ and $y$, the computed value is $\chi^2=2.974$. By the independence test at $\alpha=0.05$, the conclusion is ( ).
 
@@ -110,7 +81,7 @@ Therefore choose ($\mathrm C$). $\blacksquare$
 
 ### Solution to Problem 3
 
-By **Definition 8.3.4** ($\chi^2$ Statistic) and **Common Conclusion 8.3.5** (Rules of the Independence Test).
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules of the Independence Test).
 
 By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$.
 
@@ -126,21 +97,21 @@ By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\chi^2< x
 
 Therefore choose ($\mathrm C$). $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Reference Exercise 8, Review and Consolidation, Problem 4) In Example $4$ of Section $8.3$, it is inferred that smoking is associated with lung cancer; can a simple linear regression model be used to establish the relationship between them? Why?
 
 ### Solution to Problem 4
 
-By **Definition 8.2.1** (Simple Linear Regression Model) and **Definition 8.3.1** (Categorical Variable).
+By **Definition 8.2.1 (Simple Linear Regression Model)** and **Definition 8.3.1 (Categorical Variable)**.
 
 No.
 
-By **Definition 8.2.1** (Simple Linear Regression Model), the simple linear regression model applies to the case where both the explanatory variable and the response variable are numerical variables; it describes the linear dependence between two numerical variables.
+By **Definition 8.2.1 (Simple Linear Regression Model)**, the simple linear regression model applies to the case where both the explanatory variable and the response variable are numerical variables; it describes the linear dependence between two numerical variables.
 
-But by **Definition 8.3.1** (Categorical Variable), whether one smokes and whether one has lung cancer are both categorical variables; their values are categories such as "smokes, does not smoke" and "has lung cancer, does not have lung cancer", not numerical quantities on which addition, subtraction, multiplication, and division can be performed. By **Common Conclusion 8.3.5** (Rules of the Independence Test), the association between two categorical variables should be studied by an independence test, and a simple linear regression model cannot be used to establish the relationship between them. $\blacksquare$
+But by **Definition 8.3.1 (Categorical Variable)**, whether one smokes and whether one has lung cancer are both categorical variables; their values are categories such as "smokes, does not smoke" and "has lung cancer, does not have lung cancer", not numerical quantities on which addition, subtraction, multiplication, and division can be performed. By **Common Conclusion 8.3.5** (Rules of the Independence Test), the association between two categorical variables should be studied by an independence test, and a simple linear regression model cannot be used to establish the relationship between them. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Reference Exercise 8, Comprehensive Application, Problem 5) Based on the data in Example $3$ of Section $8.1.2$, build an empirical regression model of arm span on height, draw a residual plot, and describe the features of the residual plot.
 
@@ -148,7 +119,7 @@ The figure is the residual plot for the regression of arm span on height: horizo
 
 ### Solution to Problem 5
 
-By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition 8.2.4** (Empirical Regression Equation) and **Definition 8.2.5** (Residual).
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition 8.2.4 (Empirical Regression Equation)** and **Definition 8.2.5 (Residual)**.
 
 From the height and arm-span data of $25$ female college students in Example $3$, computing gives
 
@@ -166,17 +137,17 @@ $$
 \widehat a=\overline y-\widehat b\overline x\approx 0.84.
 $$
 
-Hence by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation of arm span on height is
+Hence by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of arm span on height is
 
 $$
 \widehat y=0.965x+0.84.
 $$
 
-By **Definition 8.2.5** (Residual), compute the residual $e_i=y_i-\widehat y_i$ for each point, and plot the residual plot with height as the horizontal axis and residual as the vertical axis. In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, the width of the band is basically constant, and there is no obvious curved trend.
+By **Definition 8.2.5 (Residual)**, compute the residual $e_i=y_i-\widehat y_i$ for each point, and plot the residual plot with height as the horizontal axis and residual as the vertical axis. In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, the width of the band is basically constant, and there is no obvious curved trend.
 
 This indicates that the chosen simple linear regression model fits the data well, and the error variance of the model is basically constant. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Reference Exercise 8, Comprehensive Application, Problem 6) The following table gives the men's triple-jump Olympic champion results from $1896$ to $2021$. Please analyze this data; can a simple linear regression model describe this data?
 
@@ -193,15 +164,15 @@ This indicates that the chosen simple linear regression model fits the data well
 
 ### Solution to Problem 6
 
-By **Definition 8.2.4** (Empirical Regression Equation) and **Definition 8.2.5** (Residual).
+By **Definition 8.2.4 (Empirical Regression Equation)** and **Definition 8.2.5 (Residual)**.
 
 Plot a scatter plot with year as the horizontal axis and champion result as the vertical axis. From the data, from $1896$ to about $1968$, the champion result improved steadily as the year increased, with the points roughly along an upward straight line; but after $1968$, the champion result fluctuated between $17.3\,\mathrm m$ and $18.2\,\mathrm m$, with no further obvious upward trend.
 
-By **Definition 8.2.4** (Empirical Regression Equation), if one forcibly fits all the data with a simple linear regression model, then by **Definition 8.2.5** (Residual) the residual plot would show an obvious curved trend — first positive, then negative, then fluctuating — rather than being uniformly distributed in a horizontal band centered at $0$.
+By **Definition 8.2.4 (Empirical Regression Equation)**, if one forcibly fits all the data with a simple linear regression model, then by **Definition 8.2.5 (Residual)** the residual plot would show an obvious curved trend — first positive, then negative, then fluctuating — rather than being uniformly distributed in a horizontal band centered at $0$.
 
 This indicates that the change of the result with the year is not a simple linear relationship: the result improved quickly in the early period and tends to saturate in the later period. Therefore, a single uniform simple linear regression model is not appropriate for describing this data; if a model is desired, piecewise regression or curve regression may be considered. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Reference Exercise 8, Comprehensive Application, Problem 7) The groove depth of a car tire is a factor affecting braking, and driving wears the tire tread. A laboratory experimentally measured the data on mileage and the groove depth of a certain brand of tire, as shown in the following table. Based on the data, establish the relationship between the tire groove depth and the car's mileage, and explain the meaning of the model.
 
@@ -211,7 +182,7 @@ This indicates that the change of the result with the year is not a simple linea
 
 ### Solution to Problem 7
 
-By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4** (Empirical Regression Equation).
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4 (Empirical Regression Equation)**.
 
 Plot a scatter plot with mileage as the horizontal axis and groove depth as the vertical axis; the points are distributed roughly along a straight line from the upper left to the lower right.
 
@@ -225,7 +196,7 @@ $$
 \widehat a=\overline y-\widehat b\overline x\approx 9.16.
 $$
 
-Hence by **Definition 8.2.4** (Empirical Regression Equation), the empirical regression equation of tire groove depth on mileage is
+Hence by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of tire groove depth on mileage is
 
 $$
 \widehat y=-1.149x+9.16.
@@ -233,7 +204,7 @@ $$
 
 Meaning of the model: the slope $\widehat b\approx -1.149$ means that for every additional $1$ thousand $\mathrm{km}$ of mileage, the tire groove depth decreases on average by about $1.149\,\mathrm{mm}$; the intercept $\widehat a\approx 9.16\,\mathrm{mm}$ is the estimated groove depth of a new tire. This shows that as the mileage increases, the tire groove depth decreases approximately linearly, and the tread wears continuously. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Reference Exercise 8, Comprehensive Application, Problem 8) To investigate the effectiveness of a certain drug in preventing a disease, an animal experiment was carried out, giving the following contingency table:
 
@@ -247,11 +218,11 @@ Can we conclude, at a wrong-decision probability not exceeding $0.05$, that the 
 
 ### Solution to Problem 8
 
-By **Definition 8.3.4** ($\chi^2$ Statistic) and **Common Conclusion 8.3.5** (Rules of the Independence Test).
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules of the Independence Test).
 
 The null hypothesis $H_0$ is that taking the drug is independent of whether one is ill, i.e. the drug is ineffective.
 
-By **Definition 8.3.4** ($\chi^2$ Statistic),
+By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
 \chi^2=\frac{300\times\left(75\times 47-66\times 112\right)^2}{141\times 159\times 187\times 113}\approx 9.47.
@@ -265,7 +236,7 @@ $$
 
 we infer that the null hypothesis does not hold, i.e. at a wrong-decision probability not exceeding $0.05$, the drug may be considered effective. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Reference Exercise 8, Extension and Exploration, Problem 9) From the daily maximum-temperature data, the meteorological department obtained the average high-temperature data in month $1$ and month $7$ of a certain year for $31$ cities in China, as shown in the following table.
 
@@ -296,7 +267,7 @@ The figure is a scatter plot of the average high temperature in January versus t
 
 ### Solution to Problem 9
 
-By **Definition 8.1.5** (Sample Correlation Coefficient) and **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
+By **Definition 8.1.5 (Sample Correlation Coefficient)** and **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
 
 (1) Plot a scatter plot with the month $1$ average high temperature as the horizontal axis and the month $7$ average high temperature as the vertical axis. In the scatter plot, northern cities (such as Harbin and Changchun) have very low temperatures in month $1$ but high temperatures in month $7$, while southern cities (such as Haikou and Guangzhou) have relatively high temperatures in month $1$ and also relatively high temperatures in month $7$; the points do not show an obvious straight-line trend from lower-left to upper-right or from upper-left to lower-right, but are roughly distributed in a region that is wide in the horizontal direction.
 

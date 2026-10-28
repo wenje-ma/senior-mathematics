@@ -1,24 +1,15 @@
-# 作业 83
+# week83
+> **定义 7.1.1 (条件概率)**<br>设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
 
-> **定义 7.1.1** (条件概率) <br>一般地, 设 $A$, $B$ 为两个随机事件, 且 $\mathbb P\left(A\right)> 0$, 我们称 $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$ 为在事件 $A$ 发生的条件下, 事件 $B$ 发生的条件概率, 简称条件概率.
+---
 
-> **结论 7.1.2** (概率的乘法公式) <br>由条件概率的定义, 对任意两个事件 $A$ 与 $B$, 若 $\mathbb P\left(A\right)> 0$, 则 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$.
-
-> **结论 7.1.3** (条件概率的性质) <br>设 $\mathbb P\left(A\right)> 0$, 则 (1) $\mathbb P\left(\Omega\mid A\right)=1$; (2) 如果 $B$ 和 $C$ 是两个互斥事件, 则 $\mathbb P\left(B\cup C\mid A\right)=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right)$; (3) 设 $\overline B$ 和 $B$ 互为对立事件, 则 $\mathbb P\left(\overline B\mid A\right)=1-\mathbb P\left(B\mid A\right)$.
-
-> **结论 7.1.4** (事件的相互独立) <br>当 $\mathbb P\left(A\right)> 0$ 时, 当且仅当事件 $A$ 与 $B$ 相互独立时, 有 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$.
-
-> **结论 7.1.5** (全概率公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, 有 $\mathbb P\left(B\right)=\sum_{i=1}^n \mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)$.
-
-> **结论 7.1.6** (贝叶斯公式) <br>设 $A_1$, $A_2$, $\cdots$, $A_n$ 是一组两两互斥的事件, $A_1\cup A_2\cup\cdots\cup A_n=\Omega$, 且 $\mathbb P\left(A_i\right)> 0$, $i=1,2,\cdots,n$, 则对任意的事件 $B\subseteq\Omega$, $\mathbb P\left(B\right)> 0$, 有 $\mathbb P\left(A_i\mid B\right)=\frac{\mathbb P\left(A_i\right)\mathbb P\left(B\mid A_i\right)}{\sum_{k=1}^n \mathbb P\left(A_k\right)\mathbb P\left(B\mid A_k\right)}$, $i=1,2,\cdots,n$.
-
-### 练习一
+## 练习一
 
 (练习 7.1 第 1 题) 设 $A\subseteq B$, 且 $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. 根据事件包含关系的意义及条件概率的意义, 直接写出 $\mathbb P\left(B\mid A\right)$ 和 $\mathbb P\left(A\mid B\right)$ 的值, 再由条件概率公式进行验证.
 
 ### 解答 练习一
 
-由**定义 7.1.1** (条件概率), $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
+由**定义 7.1.1 (条件概率)**, $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
 
 因为 $A\subseteq B$, 故事件 $A$ 发生时事件 $B$ 必然发生, 直接可得 $\mathbb P\left(B\mid A\right)=1$; 而在事件 $B$ 发生的条件下, 事件 $A$ 发生的概率应为 $A$ 在 $B$ 中所占的比例, 直接可得 $\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5$.
 
@@ -34,13 +25,13 @@ $$
 
 与直观判断一致. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 7.1 第 2 题) 从一副不含大小王的 52 张扑克牌中, 每次随机抽出 1 张扑克牌, 抽出的牌不再放回. 已知第 1 次抽到 $A$ 牌, 求第 2 次抽到 $A$ 牌的概率.
 
 ### 解答 练习二
 
-由**定义 7.1.1** (条件概率), 以第 1 次抽到 $A$ 牌后的情形为缩小的样本空间计算.
+由**定义 7.1.1 (条件概率)**, 以第 1 次抽到 $A$ 牌后的情形为缩小的样本空间计算.
 
 一副牌共 52 张, 其中 $A$ 牌 4 张. 已知第 1 次已抽到 1 张 $A$ 牌且不再放回, 此时剩余 51 张牌, 其中 $A$ 牌剩 3 张. 故事件 "第 2 次抽到 $A$ 牌" 的概率为
 
@@ -50,7 +41,7 @@ $$
 
 $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 7.1 第 3 题) 袋子中有 10 个除颜色外完全相同的小球, 其中 7 个白球, 3 个黑球. 每次从袋子中随机摸出 1 个球, 摸出的球不再放回. 求:
 
@@ -60,7 +51,7 @@ $\blacksquare$
 
 ### 解答 练习三
 
-由**定义 7.1.1** (条件概率) 及**结论 7.1.2** (概率的乘法公式).
+由**定义 7.1.1 (条件概率)** 及**结论 7.1.2** (概率的乘法公式).
 
 (1) 已知第 1 次摸到白球, 此时袋中剩 9 个球, 其中白球剩 6 个, 黑球仍为 3 个. 故
 
@@ -76,7 +67,7 @@ $$
 
 $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 7.1 第 1 题) 现有 12 道四选一的单选题, 学生张君对其中 9 道题有思路, 3 道题完全没有思路. 有思路的题做对的概率为 0.9, 没有思路的题只好任意猜一个答案, 猜对答案的概率为 0.25. 张君从这 12 道题中随机选择 1 题, 求他做对该题的概率.
 
@@ -104,7 +95,7 @@ $$
 
 故张君做对该题的概率为 0.7375. $\blacksquare$
 
-### 练习五
+## 练习五
 
 (练习 7.1 第 2 题) 两批同种规格的产品, 第一批占 $40\%$, 次品率为 $5\%$; 第二批占 $60\%$, 次品率为 $4\%$. 将两批产品混合, 从混合产品中任取 1 件.
 
@@ -138,7 +129,7 @@ $$
 
 $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 7.1 复习巩固第 1 题) 为了研究不同性别学生患色盲的比例, 调查了某学校 2000 名学生, 数据如右表所示. 从这 2000 人中随机选择 1 人.
 
@@ -156,7 +147,7 @@ $\blacksquare$
 
 ### 解答 习题一
 
-由**定义 7.1.1** (条件概率), 以已知条件所限定的群体为样本空间计算.
+由**定义 7.1.1 (条件概率)**, 以已知条件所限定的群体为样本空间计算.
 
 设 $A$ = "选到男生", $B$ = "选到的学生患色盲".
 
@@ -174,13 +165,13 @@ $$
 
 $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 7.1 复习巩固第 2 题) 从人群中随机选出 1 人, 设 $B=$ "选出的人患有心脏病", $C=$ "选出的人是年龄大于 50 岁的心脏病患者", 请你判断 $\mathbb P\left(B\right)$ 和 $\mathbb P\left(C\right)$ 的大小关系, 并说明理由.
 
 ### 解答 习题二
 
-由**定义 7.1.1** (条件概率) 及事件的包含关系.
+由**定义 7.1.1 (条件概率)** 及事件的包含关系.
 
 事件 $C$ 发生时, 该人既患有心脏病又年龄大于 50 岁, 故 $C$ 发生必有 $B$ 发生, 即 $C\subseteq B$. 由概率的性质, 子事件的概率不超过母事件的概率, 故
 
@@ -190,13 +181,13 @@ $$
 
 又因为患心脏病的人未必都年龄大于 50 岁, 即 $B$ 中存在不属于 $C$ 的情形, 故实际上 $\mathbb P\left(C\right)< \mathbb P\left(B\right)$. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 7.1 复习巩固第 3 题) 甲, 乙两人向同一目标各射击 1 次, 已知甲命中目标的概率为 0.6, 乙命中目标的概率为 0.5. 已知目标至少被命中 1 次, 求甲命中目标的概率.
 
 ### 解答 习题三
 
-由**定义 7.1.1** (条件概率), 并利用概率的加法公式与乘法公式.
+由**定义 7.1.1 (条件概率)**, 并利用概率的加法公式与乘法公式.
 
 设 $A$ = "甲命中目标", $B$ = "乙命中目标". 由题意, $\mathbb P\left(A\right)=0.6$, $\mathbb P\left(B\right)=0.5$, 且两人射击相互独立, 由**结论 7.1.4** (事件的相互独立), $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=0.6\times 0.5=0.3$.
 
@@ -206,7 +197,7 @@ $$
 \mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(AB\right)=0.6+0.5-0.3=0.8.
 $$
 
-所求为在 $A\cup B$ 发生的条件下 $A$ 发生的概率, 由**定义 7.1.1** (条件概率),
+所求为在 $A\cup B$ 发生的条件下 $A$ 发生的概率, 由**定义 7.1.1 (条件概率)**,
 
 $$
 \mathbb P\left(A\mid A\cup B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\cup B\right)}=\frac{0.6}{0.8}=\frac{3}{4}.
@@ -214,7 +205,7 @@ $$
 
 $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 7.1 复习巩固第 4 题) 甲和乙两个箱子中各装有 10 个球, 其中甲箱中有 5 个红球, 5 个白球, 乙箱中有 8 个红球, 2 个白球. 掷一枚质地均匀的骰子, 如果点数为 1 或 2, 从甲箱子中随机摸出 1 个球; 如果点数为 3, 4, 5, 6, 从乙箱子中随机摸出 1 个球. 求摸到红球的概率.
 
@@ -238,7 +229,7 @@ $$
 
 $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 7.1 复习巩固第 5 题) 在 $A$, $B$, $C$ 三个地区暴发了流感, 这三个地区分别有 $6\%$, $5\%$, $4\%$ 的人患了流感. 假设这三个地区的人口数的比为 $5:7:8$, 现从这三个地区中任意选取一个人.
 
@@ -272,21 +263,21 @@ $$
 
 $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 7.1 复习巩固第 6 题) 已知 $\mathbb P\left(A\right)> 0$, $\mathbb P\left(B\right)> 0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, 证明: $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
 
 ### 解答 习题六
 
-由**定义 7.1.1** (条件概率).
+由**定义 7.1.1 (条件概率)**.
 
-由 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ 及**定义 7.1.1** (条件概率),
+由 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ 及**定义 7.1.1 (条件概率)**,
 
 $$
 \frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\right).
 $$
 
-两边同乘 $\mathbb P\left(A\right)$, 得 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. 再由**定义 7.1.1** (条件概率),
+两边同乘 $\mathbb P\left(A\right)$, 得 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. 再由**定义 7.1.1 (条件概率)**,
 
 $$
 \mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{\mathbb P\left(A\right)\mathbb P\left(B\right)}{\mathbb P\left(B\right)}=\mathbb P\left(A\right).
@@ -294,7 +285,7 @@ $$
 
 故 $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 7.1 综合运用第 7 题) 一批产品共有 100 件, 其中 5 件为不合格品. 收货方从中不放回地随机抽取产品进行检验, 并按以下规则判断是否接受这批产品: 如果抽检的第 1 件产品不合格, 则拒绝整批产品; 如果抽检的第 1 件产品合格, 则再抽 1 件, 如果抽检的第 2 件产品合格, 则接受整批产品, 否则拒绝整批产品. 求这批产品被拒绝的概率.
 
@@ -324,7 +315,7 @@ $$
 
 $\blacksquare$
 
-### 习题八
+## 习题八
 
 (习题 7.1 综合运用第 8 题) 在孟德尔豌豆试验中, 子二代的基因型为 $DD$, $Dd$, $dd$, 其中 $D$ 为显性基因, $d$ 为隐性基因, 且这三种基因型的比为 $1:2:1$. 如果在子二代中任意选取 2 株豌豆进行随机交配, 那么子三代中基因型为 $dd$ 的概率是多大?
 
@@ -352,21 +343,21 @@ $$
 
 $\blacksquare$
 
-### 习题九
+## 习题九
 
 (习题 7.1 综合运用第 9 题) 证明条件概率的性质 (1) 和 (2).
 
 ### 解答 习题九
 
-由**定义 7.1.1** (条件概率).
+由**定义 7.1.1 (条件概率)**.
 
-(1) 对任意事件 $A$, $A\subseteq\Omega$, 故 $\Omega A=A$. 由**定义 7.1.1** (条件概率),
+(1) 对任意事件 $A$, $A\subseteq\Omega$, 故 $\Omega A=A$. 由**定义 7.1.1 (条件概率)**,
 
 $$
 \mathbb P\left(\Omega\mid A\right)=\frac{\mathbb P\left(\Omega A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\right)}=1.
 $$
 
-(2) 若 $B$ 和 $C$ 是两个互斥事件, 则 $BA$ 与 $CA$ 也互斥. 由概率的加法公式, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. 由**定义 7.1.1** (条件概率),
+(2) 若 $B$ 和 $C$ 是两个互斥事件, 则 $BA$ 与 $CA$ 也互斥. 由概率的加法公式, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. 由**定义 7.1.1 (条件概率)**,
 
 $$
 \mathbb P\left(B\cup C\mid A\right)=\frac{\mathbb P\left(\left(B\cup C\right)A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(BA\right)+\mathbb P\left(CA\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right).
@@ -374,13 +365,13 @@ $$
 
 $\blacksquare$
 
-### 习题十
+## 习题十
 
 (习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb P\left(AB\right)> 0$ 时, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. 据此你能发现计算 $\mathbb P\left(A_1A_2\cdots A_n\right)$ 的公式吗?
 
 ### 解答 习题十
 
-由**定义 7.1.1** (条件概率) 及**结论 7.1.2** (概率的乘法公式).
+由**定义 7.1.1 (条件概率)** 及**结论 7.1.2** (概率的乘法公式).
 
 由 $\mathbb P\left(AB\right)> 0$, 必有 $\mathbb P\left(A\right)> 0$ 且 $\mathbb P\left(AB\right)> 0$. 两次使用**结论 7.1.2** (概率的乘法公式):
 

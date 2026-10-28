@@ -1,18 +1,10 @@
-# 作业 20
+# week20
+> **基础知识: 公式一**<br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, 其中 $k\in\mathbb Z$.
+> **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
-> **公式一** (终边相同的角的三角函数值) <br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, 其中 $k\in\mathbb Z$.
+---
 
-> **公式二** <br>$\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$, $\tan\left(\pi+\alpha\right)=\tan\alpha$.
-
-> **公式三** <br>$\sin\left(-\alpha\right)=-\sin\alpha$, $\cos\left(-\alpha\right)=\cos\alpha$, $\tan\left(-\alpha\right)=-\tan\alpha$.
-
-> **公式四** <br>$\sin\left(\pi-\alpha\right)=\sin\alpha$, $\cos\left(\pi-\alpha\right)=-\cos\alpha$, $\tan\left(\pi-\alpha\right)=-\tan\alpha$.
-
-> **公式五** <br>$\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
-
-> **公式六** <br>$\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha$.
-
-### 练习一
+## 练习一
 
 (练习 5.3 第 1 题) 将下列三角函数转化为锐角三角函数, 并填在题中横线上:
 
@@ -44,7 +36,7 @@
 
 (6) 由 $1000^{\circ}21'=2\times360^{\circ}+280^{\circ}21'$, $280^{\circ}21'=360^{\circ}-79^{\circ}39'$, 得 $\tan1000^{\circ}21'=\tan\left(-79^{\circ}39'\right)=-\tan79^{\circ}39'$. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 5.3 第 2 题) 利用公式求下列三角函数值:
 
@@ -76,7 +68,7 @@
 
 (6) 由**公式三**及**公式一**, 得 $\sin\left(-\frac{11\pi}{4}\right)=-\sin\frac{11\pi}{4}=-\sin\left(2\pi+\frac{3\pi}{4}\right)=-\sin\frac{3\pi}{4}=-\frac{\sqrt{2}}{2}$. $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 5.3 第 3 题) 化简:
 
@@ -102,7 +94,7 @@ $$
 
 $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 5.3 第 4 题) 填表:
 
@@ -128,7 +120,7 @@ $\blacksquare$
 
 (6) $\alpha=-\frac{11\pi}{4}=-4\pi+\frac{5\pi}{4}$: $\sin\left(-\frac{11\pi}{4}\right)=\sin\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\cos\left(-\frac{11\pi}{4}\right)=\cos\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\tan\left(-\frac{11\pi}{4}\right)=1$. $\blacksquare$
 
-### 练习五
+## 练习五
 
 (练习 5.3 第 5 题) 用诱导公式求下列三角函数值 (可用计算工具, 第 (3) (4) (6) 题精确到 $0.0001$):
 
@@ -160,7 +152,7 @@ $\blacksquare$
 
 (6) 由 $580^{\circ}21'=360^{\circ}+220^{\circ}21'$, 得 $\tan580^{\circ}21'=\tan220^{\circ}21'\approx0.8541$. $\blacksquare$
 
-### 练习六
+## 练习六
 
 (练习 5.3 第 6 题) 证明:
 
@@ -184,7 +176,7 @@ $\blacksquare$
 
 (4) 由 $\frac{11\pi}{2}-\alpha=4\pi+\left(\frac{3\pi}{2}-\alpha\right)$, 得 $\sin\left(\frac{11\pi}{2}-\alpha\right)=\sin\left(\frac{3\pi}{2}-\alpha\right)=\sin\left(\pi+\left(\frac{\pi}{2}-\alpha\right)\right)=-\sin\left(\frac{\pi}{2}-\alpha\right)=-\cos\alpha$. $\blacksquare$
 
-### 练习七
+## 练习七
 
 (练习 5.3 第 7 题) 化简:
 
@@ -218,7 +210,7 @@ $$
 
 $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 5.3 复习巩固第 1 题) 用诱导公式求下列三角函数值 (可用计算工具, 第 (2) (3) (4) (5) 题精确到 $0.0001$):
 
@@ -250,7 +242,7 @@ $\blacksquare$
 
 (6) 由 $-\frac{26\pi}{3}=-10\pi+\frac{4\pi}{3}$, 得 $\sin\left(-\frac{26\pi}{3}\right)=\sin\frac{4\pi}{3}=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 5.3 复习巩固第 2 题) 求证:
 
@@ -270,7 +262,7 @@ $\blacksquare$
 
 (3) 由 $\tan\left(360^{\circ}-\alpha\right)=\tan\left(-\alpha+360^{\circ}\right)=\tan\left(-\alpha\right)=-\tan\alpha$, 得证. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 5.3 复习巩固第 3 题) 化简:
 
@@ -296,13 +288,13 @@ $$
 
 $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 5.3 复习巩固第 4 题) 在单位圆中, 已知角 $\alpha$ 的终边与单位圆的交点为 $P\left(-\frac{3}{5},\frac{4}{5}\right)$, 分别求角 $\pi+\alpha$, $-\alpha$, $\frac{\pi}{2}+\alpha$ 的正弦, 余弦函数值.
 
 ### 解答 习题四
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数), $\sin\alpha=\frac{4}{5}$, $\cos\alpha=-\frac{3}{5}$.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**, $\sin\alpha=\frac{4}{5}$, $\cos\alpha=-\frac{3}{5}$.
 
 (1) 由**公式二**, 得 $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{4}{5}$, $\cos\left(\pi+\alpha\right)=-\cos\alpha=\frac{3}{5}$.
 
@@ -310,7 +302,7 @@ $\blacksquare$
 
 (3) 由**公式六**, 得 $\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha=-\frac{3}{5}$, $\cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha=-\frac{4}{5}$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 5.3 综合运用第 5 题) 已知 $\sin\left(\frac{\pi}{2}+\alpha\right)=\frac{3}{5}$, 那么 $\cos\alpha=$ ( ).
 
@@ -328,7 +320,7 @@ $\blacksquare$
 
 由 $\sin\left(\frac{\pi}{2}+\alpha\right)=\frac{3}{5}$, 得 $\cos\alpha=\frac{3}{5}$, 选 (C). $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 5.3 综合运用第 6 题) 已知 $\sin\left(\pi+\alpha\right)=-\frac{1}{2}$, 计算:
 
@@ -352,7 +344,7 @@ $\blacksquare$
 
 (4) 由 $\tan\left(\frac{\pi}{2}-\alpha\right)=\frac{\sin\left(\frac{\pi}{2}-\alpha\right)}{\cos\left(\frac{\pi}{2}-\alpha\right)}=\frac{\cos\alpha}{\sin\alpha}=\frac{\cos\alpha}{1/2}=2\cos\alpha=\pm\sqrt{3}$. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 5.3 综合运用第 7 题) 在 $\triangle ABC$ 中, 试判断下列关系是否成立, 并说明理由.
 
@@ -376,7 +368,7 @@ $\blacksquare$
 
 (4) 由**公式五**, $\cos\frac{A+B}{2}=\cos\left(\frac{\pi}{2}-\frac{C}{2}\right)=\sin\frac{C}{2}\neq\cos\frac{C}{2}$, 故不成立. $\blacksquare$
 
-### 习题八
+## 习题八
 
 (习题 5.3 综合运用第 8 题) 已知 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 且 $0< x< \frac{\pi}{2}$, 求 $\sin\left(\frac{\pi}{6}+x\right)$ 和 $\cos\left(\frac{\pi}{3}+x\right)$ 的值.
 
@@ -388,7 +380,7 @@ $\blacksquare$
 
 (2) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 无法直接用诱导公式. 注意到 $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, 而 $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. 另注意到 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\pi-\alpha\right)=-\cos\alpha$, 得 $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (习题 5.3 拓广探索第 9 题) 化简下列各式, 其中 $n\in\mathbb Z$:
 
@@ -416,7 +408,7 @@ $\blacksquare$
 
 当 $n=4k+3$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (习题 5.3 拓广探索第 10 题) 借助单位圆, 还可以建立角的终边之间的哪些特殊位置关系? 由此还能得到三角函数值之间的哪些恒等关系?
 

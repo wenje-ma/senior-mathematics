@@ -1,38 +1,15 @@
-# Assignment 55
+# week55
+> **Definition 10.1.2 (Sample Point and Sample Space)**<br>随机试验中每一个可能出现的结果称为一个样本点, 所有样本点组成的集合称为样本空间.
+> **Definition 10.1.4 (随机事件)**<br>在随机试验中, 可能发生也可能不发生的事件叫做随机事件.
+> **Definition 10.1.12 (互斥)**<br>若 A 与 B 不能同时发生, 即 A 交 B 为不可能事件, 则称 A 与 B 互斥.
+> **Definition 10.1.13 (互为对立)**<br>若 A 与 B 不能同时发生且必有一个发生, 则称 A 与 B 互为对立事件.
+> **Definition 10.1.15 (概率的古典定义)**<br>在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
+> **Definition 10.2.1 (事件的相互独立性)**<br>设 A, B 为两个事件, 若 P(AB) = P(A)P(B), 则称事件 A 与事件 B 相互独立.
+> **Definition 10.3.1 (频率的稳定性)**<br>随着试验次数的增加, 事件发生的频率会逐渐稳定在某个常数附近, 这个常数就是该事件的概率.
 
-> **Definition 10.1.2** (Sample Points and Sample Space) <br>We call each possible elementary outcome of a random experiment $E$ a sample point, and the set of all sample points the sample space of the experiment $E$. In general, we use $\Omega$ to denote the sample space and $\omega$ to denote a sample point.
+---
 
-> **Definition 10.1.4** (Random Event) <br>We call a subset of the sample space $\Omega$ a random event, abbreviated as an event; random events are generally denoted by capital letters $A, B, C, \cdots$. In each trial, event $A$ is said to occur if and only if some sample point in $A$ appears.
-
-> **Definition 10.1.10** (Union Event) <br>In general, if at least one of event $A$ and event $B$ occurs, the sample points in such an event lie either in event $A$ or in event $B$; we call this event the union event (or sum event) of events $A$ and $B$, denoted by $A\cup B$ (or $A+B$).
-
-> **Definition 10.1.11** (Intersection Event) <br>In general, if event $A$ and event $B$ occur simultaneously, the sample points in such an event lie both in event $A$ and in event $B$; we call such an event the intersection event (or product event) of events $A$ and $B$, denoted by $A\cap B$ (or $AB$).
-
-> **Definition 10.1.12** (Mutually Exclusive) <br>In general, if event $A$ and event $B$ cannot occur simultaneously, i.e. $A\cap B$ is an impossible event, namely $A\cap B=\varnothing$, then events $A$ and $B$ are said to be mutually exclusive (or disjoint).
-
-> **Definition 10.1.13** (Complementary Events) <br>In general, if in any trial exactly one of event $A$ and event $B$ occurs, i.e. $A\cup B=\Omega$ and $A\cap B=\varnothing$, then events $A$ and $B$ are said to be complementary. The complementary event of event $A$ is denoted by $\overline A$.
-
-> **Definition 10.1.14** (Classical Probability Model) <br>We call an experiment having the following two features a classical-probability-model experiment, and its mathematical model is called the classical probability model, abbreviated as the classical probability model: (1) finiteness: there are only finitely many sample points in the sample space; (2) equal likelihood: each sample point occurs with equal probability.
-
-> **Definition 10.1.15** (Classical Definition of Probability) <br>In general, suppose experiment $E$ is a classical probability model, the sample space $\Omega$ contains $n$ sample points, and event $A$ contains $k$ of them; then the probability of event $A$ is defined as $P\left(A\right)=\frac{k}{n}=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
-
-> **Property 10.1.17** (Probability of the Certain Event and the Impossible Event) <br>The probability of the certain event is $1$, and the probability of the impossible event is $0$, i.e. $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
-
-> **Property 10.1.18** (Addition Formula for Mutually Exclusive Events) <br>If events $A$ and $B$ are mutually exclusive, then $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)$.
-
-> **Property 10.1.19** (Probability of Complementary Events) <br>If events $A$ and $B$ are complementary events, then $P\left(B\right)=1-P\left(A\right)$, $P\left(A\right)=1-P\left(B\right)$.
-
-> **Property 10.1.20** (Monotonicity of Probability) <br>If $A\subseteq B$, then $P\left(A\right)\le P\left(B\right)$. From Property 10.1.20 it follows that for any event $A$, since $\varnothing\subseteq A\subseteq\Omega$, we have $0\le P\left(A\right)\le 1$.
-
-> **Property 10.1.21** (General Addition Formula for Probability) <br>Let $A, B$ be two events in a random experiment; then we have $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$.
-
-> **Definition 10.2.1** (Mutual Independence of Events) <br>For any two events $A$ and $B$, if $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ holds, then events $A$ and $B$ are said to be mutually independent, abbreviated as independent.
-
-> **Property 10.2.2** (Independence of Complementary Events) <br>From the definition of mutual independence of two events, it is easy to verify that the certain event $\Omega$ and the impossible event $\varnothing$ are both mutually independent of any event. If events $A$ and $B$ are mutually independent, then $A$ and $\overline B$, $\overline A$ and $B$, and $\overline A$ and $\overline B$ are also mutually independent.
-
-> **Definition 10.3.1** (Stability of Frequency) <br>In general, as the number of trials $n$ increases, the extent to which the frequency deviates from the probability becomes smaller; that is, the frequency $f_n\left(A\right)$ of the occurrence of event $A$ gradually stabilizes at the probability $P\left(A\right)$ of the occurrence of event $A$. We call this property of frequency the stability of frequency. Hence we can use the frequency $f_n\left(A\right)$ to estimate the probability $P\left(A\right)$.
-
-### Problem 1
+## Problem 1
 
 (Review Exercises 10, Review and Consolidation, Problem 1) A box contains $3$ balls: a blue ball, a red ball and a green ball, $1$ of each. Draw $1$ ball at random, note its color and put it back, and then draw $1$ ball again at random.
 
@@ -44,7 +21,7 @@
 
 ### Solution to Problem 1
 
-By **Definition 10.1.2** (Sample Points and Sample Space), let $b$ denote the blue ball, $r$ the red ball, and $g$ the green ball, and use the pair $\left(x_1, x_2\right)$ to denote the result of the two draws.
+By **Definition 10.1.2 (Sample Points and Sample Space)**, let $b$ denote the blue ball, $r$ the red ball, and $g$ the green ball, and use the pair $\left(x_1, x_2\right)$ to denote the result of the two draws.
 
 (1) Since the drawing is with replacement, there are $3$ possibilities each time; the sample space is
 
@@ -52,7 +29,7 @@ $$
 \Omega=\left\{\left(b,b\right), \left(b,r\right), \left(b,g\right), \left(r,b\right), \left(r,r\right), \left(r,g\right), \left(g,b\right), \left(g,r\right), \left(g,g\right)\right\}.
 $$
 
-(2) By **Definition 10.1.4** (Random Event), "the first ball drawn is red" means $x_1=r$, which contains the sample points $\left(r,b\right), \left(r,r\right), \left(r,g\right)$; hence
+(2) By **Definition 10.1.4 (Random Event)**, "the first ball drawn is red" means $x_1=r$, which contains the sample points $\left(r,b\right), \left(r,r\right), \left(r,g\right)$; hence
 
 $$
 A=\left\{\left(r,b\right), \left(r,r\right), \left(r,g\right)\right\}.
@@ -66,7 +43,7 @@ $$
 
 $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Review Exercises 10, Review and Consolidation, Problem 2) The figure shows the sample space $\Omega$ and the events $A$ and $B$ of a classical probability model, where $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup B\right)=16$. Then
 
@@ -78,7 +55,7 @@ $\blacksquare$
 
 ### Solution to Problem 2
 
-By **Definition 10.1.15** (Classical Definition of Probability) and **Property 10.1.21** (General Addition Formula for Probability).
+By **Definition 10.1.15 (Classical Definition of Probability)** and **Property 10.1.21** (General Addition Formula for Probability).
 
 (1) In the sample-point form of **Property 10.1.21** (General Addition Formula for Probability), $n\left(A\cup B\right)=n\left(A\right)+n\left(B\right)-n\left(A\cap B\right)$; hence
 
@@ -96,17 +73,17 @@ $$
 P\left(A\cup B\right)=\frac{n\left(A\cup B\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
 $$
 
-By **Definition 10.1.13** (Complementary Events), $\overline A\cap\overline B=\overline{A\cup B}$. By **Property 10.1.19** (Probability of Complementary Events),
+By **Definition 10.1.13 (Complementary Events)**, $\overline A\cap\overline B=\overline{A\cup B}$. By **Property 10.1.19** (Probability of Complementary Events),
 
 $$
 P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
 $$
 
-(2) By **Definition 10.1.12** (Mutually Exclusive), $n\left(A\cap B\right)=4\neq 0$, so $A\cap B\neq\varnothing$, and $A$ and $B$ are not mutually exclusive.
+(2) By **Definition 10.1.12 (Mutually Exclusive)**, $n\left(A\cap B\right)=4\neq 0$, so $A\cap B\neq\varnothing$, and $A$ and $B$ are not mutually exclusive.
 
-By **Definition 10.2.1** (Mutual Independence of Events), $P\left(A\right)=\frac{12}{24}=\frac{1}{2}$, $P\left(B\right)=\frac{8}{24}=\frac{1}{3}$, and $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}=P\left(A\cap B\right)$, so $A$ and $B$ are mutually independent. $\blacksquare$
+By **Definition 10.2.1 (Mutual Independence of Events)**, $P\left(A\right)=\frac{12}{24}=\frac{1}{2}$, $P\left(B\right)=\frac{8}{24}=\frac{1}{3}$, and $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}=P\left(A\cap B\right)$, so $A$ and $B$ are mutually independent. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Review Exercises 10, Review and Consolidation, Problem 3) A pharmaceutical factory is testing the efficacy of a weight-loss drug; $500$ volunteers took the drug, with the following results:
 
@@ -124,7 +101,7 @@ If another person takes this drug, estimate the probability of the following eve
 
 ### Solution to Problem 3
 
-By **Definition 10.3.1** (Stability of Frequency), estimate the probability by the frequency. The total number of people is $500$.
+By **Definition 10.3.1 (Stability of Frequency)**, estimate the probability by the frequency. The total number of people is $500$.
 
 (1) The frequency of weight decreased is $\frac{276}{500}=0.552$, so the estimate is $P\left(A_1\right)=0.552$.
 
@@ -132,7 +109,7 @@ By **Definition 10.3.1** (Stability of Frequency), estimate the probability by t
 
 (3) The frequency of weight increased is $\frac{80}{500}=0.160$, so the estimate is $P\left(A_3\right)=0.160$. $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Review Exercises 10, Review and Consolidation, Problem 4) A middle school has $130$ staff members. A survey of their age and education level gave the following results:
 
@@ -152,7 +129,7 @@ One person is drawn at random from these $130$ staff members. Find the probabili
 
 ### Solution to Problem 4
 
-By **Definition 10.1.15** (Classical Definition of Probability), drawing one person at random from $130$ people gives $n\left(\Omega\right)=130$.
+By **Definition 10.1.15 (Classical Definition of Probability)**, drawing one person at random from $130$ people gives $n\left(\Omega\right)=130$.
 
 (1) The number with a Bachelor's degree is $50+20+10=80$, so $P\left(A_1\right)=\frac{80}{130}=\frac{8}{13}$.
 
@@ -160,7 +137,7 @@ By **Definition 10.1.15** (Classical Definition of Probability), drawing one per
 
 (3) The number under $35$ with a graduate degree is $35$, so $P\left(A_3\right)=\frac{35}{130}=\frac{7}{26}$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Review Exercises 10, Comprehensive Application, Problem 5) A bag contains $4$ red balls and $6$ green balls. Draw $2$ balls successively at random without replacement.
 
@@ -172,7 +149,7 @@ By **Definition 10.1.15** (Classical Definition of Probability), drawing one per
 
 ### Solution to Problem 5
 
-By **Definition 10.1.15** (Classical Definition of Probability).
+By **Definition 10.1.15 (Classical Definition of Probability)**.
 
 (1) Drawing $2$ balls successively without replacement from $10$ balls gives $10\times 9=90$ equally likely outcomes. Cases in which the second ball is red: the first draw is green ($6$ ways) and the second is red ($4$ ways), giving $6\times 4=24$ ways; the first draw is red ($4$ ways) and the second is red ($3$ ways), giving $4\times 3=12$ ways. In total $24+12=36$ ways, hence
 
@@ -194,7 +171,7 @@ $$
 
 Solving gives $\left(4+n\right)\left(3+n\right)=72$, i.e. $n^2+7n+12=72$, $n^2+7n-60=0$, which gives $n=5$ (discarding the negative root $n=-12$). Hence $n=5$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Review Exercises 10, Comprehensive Application, Problem 6) $2$ people enter an elevator on the ground floor of a $7$-story building. Suppose each person, starting from the second floor, is equally likely to leave the elevator at any floor.
 
@@ -204,7 +181,7 @@ Solving gives $\left(4+n\right)\left(3+n\right)=72$, i.e. $n^2+7n+12=72$, $n^2+7
 
 ### Solution to Problem 6
 
-By **Definition 10.1.15** (Classical Definition of Probability). Each person chooses one floor out of the $6$ floors from the $2$nd to the $7$th to leave; the two choose independently, giving $6\times 6=36$ equally likely outcomes.
+By **Definition 10.1.15 (Classical Definition of Probability)**. Each person chooses one floor out of the $6$ floors from the $2$nd to the $7$th to leave; the two choose independently, giving $6\times 6=36$ equally likely outcomes.
 
 (1) The two leave on different floors: the first person has $6$ choices and the second has $5$ choices (a floor different from the first), giving $6\times 5=30$ ways, hence
 
@@ -220,7 +197,7 @@ $$
 
 It can also be computed directly: the two leave on the same floor, giving $6$ ways (any one of the $6$ floors), so $P\left(A_2\right)=\frac{6}{36}=\frac{1}{6}$. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Review Exercises 10, Comprehensive Application, Problem 7) A closet contains $3$ pairs of different shoes; denote the $6$ shoes by $a_1, a_2, b_1, b_2, c_1, c_2$, and draw $2$ of them at random.
 
@@ -238,7 +215,7 @@ It can also be computed directly: the two leave on the same floor, giving $6$ wa
 
 ### Solution to Problem 7
 
-By **Definition 10.1.15** (Classical Definition of Probability). Drawing $2$ shoes from $6$ gives $\binom{6}{2}=15$ equally likely outcomes.
+By **Definition 10.1.15 (Classical Definition of Probability)**. Drawing $2$ shoes from $6$ gives $\binom{6}{2}=15$ equally likely outcomes.
 
 (1) The sample space is
 
@@ -258,7 +235,7 @@ Event $D=$ "one left and one right but not a pair", i.e. one left and one right 
 
 Relationships: $C\subseteq A$, because "for the same foot" necessarily implies "not a pair". $D\subseteq A$, because "one left and one right but not a pair" also belongs to "not a pair". $C$ and $D$ are mutually exclusive, because "for the same foot" and "one left and one right" cannot occur simultaneously. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Review Exercises 10, Extension and Exploration, Problem 8) In the entrance interview of a certain university there are $3$ questions of comparable difficulty, and the probability that Li Ming answers each question correctly is $0.6$. Each interviewee has three chances in total: once a question drawn is answered correctly, the interview is passed; otherwise one keeps drawing questions until the $3$rd attempt. Let $Y$ denote answering a question correctly and $N$ answering it incorrectly; assume that correctness on the different questions drawn is independent.
 
@@ -272,7 +249,7 @@ Relationships: $C\subseteq A$, because "for the same foot" necessarily implies "
 
 ### Solution to Problem 8
 
-By **Definition 10.2.1** (Mutual Independence of Events) and **Property 10.2.2** (Independence of Complementary Events), correctness on each attempt is mutually independent, with $P\left(Y\right)=0.6$ and $P\left(N\right)=0.4$.
+By **Definition 10.2.1 (Mutual Independence of Events)** and **Property 10.2.2** (Independence of Complementary Events), correctness on each attempt is mutually independent, with $P\left(Y\right)=0.6$ and $P\left(N\right)=0.4$.
 
 (1) The branches of the tree diagram are: first attempt $Y$ (passed, stop) or $N$; if the first is $N$, the second attempt is $Y$ (passed, stop) or $N$; if the first two are both $N$, the third attempt is $Y$ or $N$. The sample space is
 
@@ -280,7 +257,7 @@ $$
 \Omega=\left\{Y, NY, NNY, NNN\right\}.
 $$
 
-(2) Passing on the second attempt means the first answer is wrong and the second is correct, i.e. the event $NY$. By **Definition 10.2.1** (Mutual Independence of Events),
+(2) Passing on the second attempt means the first answer is wrong and the second is correct, i.e. the event $NY$. By **Definition 10.2.1 (Mutual Independence of Events)**,
 
 $$
 P\left(NY\right)=P\left(N\right)P\left(Y\right)=0.4\times 0.6=0.24.
@@ -292,7 +269,7 @@ $$
 P\left(\text{通过}\right)=P\left(Y\right)+P\left(NY\right)+P\left(NNY\right).
 $$
 
-By **Definition 10.2.1** (Mutual Independence of Events),
+By **Definition 10.2.1 (Mutual Independence of Events)**,
 
 $$
 P\left(Y\right)=0.6,\quad P\left(NY\right)=0.4\times 0.6=0.24,\quad P\left(NNY\right)=0.4\times 0.4\times 0.6=0.096.
@@ -306,16 +283,16 @@ $$
 
 It can also be computed via the complementary event: not passing means all three answers are wrong, $P\left(NNN\right)=0.4^3=0.064$, and by **Property 10.1.19** (Probability of Complementary Events), $P\left(\text{通过}\right)=1-0.064=0.936$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Review Exercises 10, Extension and Exploration, Problem 9) There are two boxes: box No. $1$ contains $95$ red balls and $5$ white balls; box No. $2$ contains $95$ white balls and $5$ red balls. Now choose one of the two boxes at random, and then draw a ball from it at random. If the ball drawn is red, which box do you think was chosen? Make your inference and explain your reasoning. Do you think a completely correct judgment can be made?
 
 ### Solution to Problem 9
 
-By **Definition 10.3.1** (Stability of Frequency) and the basic idea of probability.
+By **Definition 10.3.1 (Stability of Frequency)** and the basic idea of probability.
 
 The probability of choosing box No. $1$ is $\frac{1}{2}$, and the probability of choosing box No. $2$ is also $\frac{1}{2}$. The probability of drawing a red ball from box No. $1$ is $\frac{95}{100}=0.95$, and from box No. $2$ is $\frac{5}{100}=0.05$.
 
 Given that a red ball was drawn, the likelihood of drawing a red ball from box No. $1$ is far greater than from box No. $2$. Therefore, infer that box No. $1$ was chosen.
 
-But this inference is not completely correct: it is also possible to draw a red ball from box No. $2$ (with probability $0.05$), so there remains a possibility of a wrong judgment. Under the condition that only one ball is drawn, a completely correct judgment cannot be made. If the drawing is repeated many times and the frequency of red balls is recorded, then by **Definition 10.3.1** (Stability of Frequency), the chosen box can be judged with greater confidence, though absolute correctness still cannot be guaranteed. $\blacksquare$
+But this inference is not completely correct: it is also possible to draw a red ball from box No. $2$ (with probability $0.05$), so there remains a possibility of a wrong judgment. Under the condition that only one ball is drawn, a completely correct judgment cannot be made. If the drawing is repeated many times and the frequency of red balls is recorded, then by **Definition 10.3.1 (Stability of Frequency)**, the chosen box can be judged with greater confidence, though absolute correctness still cannot be guaranteed. $\blacksquare$

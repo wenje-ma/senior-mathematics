@@ -1,24 +1,16 @@
-# 作业 19
+# week19
+> **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.2.2 (终边上任意一点的三角函数比值)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
-> **定义 5.2.1** (正弦函数, 余弦函数, 正切函数) <br>设 $\alpha$ 是一个任意角, $\alpha\in\mathbb R$, 它的终边 $OP$ 与单位圆相交于点 $P\left(x,y\right)$. (1) 把点 $P$ 的纵坐标 $y$ 叫做 $\alpha$ 的正弦函数, 记作 $\sin\alpha$, 即 $y=\sin\alpha$; (2) 把点 $P$ 的横坐标 $x$ 叫做 $\alpha$ 的余弦函数, 记作 $\cos\alpha$, 即 $x=\cos\alpha$; (3) 把点 $P$ 的纵坐标与横坐标的比值 $\frac{y}{x}$ 叫做 $\alpha$ 的正切, 记作 $\tan\alpha$, 即 $\frac{y}{x}=\tan\alpha$ ($x\neq0$).
+---
 
-> **常用结论** (三角函数的定义域) <br>正弦函数 $y=\sin x$, $x\in\mathbb R$; 余弦函数 $y=\cos x$, $x\in\mathbb R$; 正切函数 $y=\tan x$, $x\in\left\{x\mid x\neq\frac{\pi}{2}+k\pi,\ k\in\mathbb Z\right\}$.
-
-> **定义 5.2.2** (终边上任意一点的三角函数比值) <br>设角 $\alpha$ 终边上任意一点 $P$ (不与原点 $O$ 重合) 的坐标为 $\left(x,y\right)$, 点 $P$ 与原点的距离为 $r=\sqrt{x^{2}+y^{2}}$, 则 $\sin\alpha=\frac{y}{r}$, $\cos\alpha=\frac{x}{r}$, $\tan\alpha=\frac{y}{x}$.
-
-> **公式一** (终边相同的角的三角函数值) <br>$\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, 其中 $k\in\mathbb Z$.
-
-> **常用结论** (三角函数在各象限的符号) <br>正弦函数值: 第一, 二象限为正, 第三, 四象限为负; 余弦函数值: 第一, 四象限为正, 第二, 三象限为负; 正切函数值: 第一, 三象限为正, 第二, 四象限为负.
-
-> **常用结论** (同角三角函数的基本关系) <br>同一个角 $\alpha$ 的正弦, 余弦的平方和等于 $1$, 商等于角 $\alpha$ 的正切, 即 $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\frac{\sin\alpha}{\cos\alpha}=\tan\alpha$ ($\alpha\neq k\pi+\frac{\pi}{2}$, $k\in\mathbb Z$).
-
-### 练习一
+## 练习一
 
 (练习 5.2 第 1 题) 利用三角函数定义, 求 $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$ 的三个三角函数值.
 
 ### 解答 练习一
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数), 角 $\alpha$ 的终边与单位圆交点为 $P\left(x,y\right)$, 则 $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**, 角 $\alpha$ 的终边与单位圆交点为 $P\left(x,y\right)$, 则 $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
 
 (1) $\alpha=0$ 时, 终边与单位圆交点为 $\left(1,0\right)$, 故 $\sin0=0$, $\cos0=1$, $\tan0=0$.
 
@@ -28,13 +20,13 @@
 
 (4) $\alpha=\frac{3\pi}{2}$ 时, 终边与单位圆交点为 $\left(0,-1\right)$, 故 $\sin\frac{3\pi}{2}=-1$, $\cos\frac{3\pi}{2}=0$, $\tan\frac{3\pi}{2}$ 无意义. $\blacksquare$
 
-### 练习二
+## 练习二
 
 (练习 5.2 第 2 题) 利用三角函数定义, 求 $-\frac{7\pi}{6}$ 的三个三角函数值.
 
 ### 解答 练习二
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数).
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**.
 
 由 $-\frac{7\pi}{6}=-2\pi+\frac{5\pi}{6}$, 角 $-\frac{7\pi}{6}$ 的终边与 $\frac{5\pi}{6}$ 的终边相同. $\frac{5\pi}{6}$ 终边与单位圆交点为 $\left(-\frac{\sqrt{3}}{2},\frac{1}{2}\right)$, 故
 
@@ -44,13 +36,13 @@ $$
 
 $\blacksquare$
 
-### 练习三
+## 练习三
 
 (练习 5.2 第 3 题) 已知角 $\theta$ 的终边过点 $P\left(-12,5\right)$, 求角 $\theta$ 的三角函数值.
 
 ### 解答 练习三
 
-由**定义 5.2.2** (终边上任意一点的三角函数比值), $r=\sqrt{x^{2}+y^{2}}$.
+由**定义 5.2.2 (终边上任意一点的三角函数比值)**, $r=\sqrt{x^{2}+y^{2}}$.
 
 由 $x=-12$, $y=5$, 得 $r=\sqrt{\left(-12\right)^{2}+5^{2}}=\sqrt{169}=13$. 故
 
@@ -60,15 +52,15 @@ $$
 
 $\blacksquare$
 
-### 练习四
+## 练习四
 
 (练习 5.2 第 4 题) 已知点 $P$ 在半径为 $2$ 的圆上按顺时针方向做匀速圆周运动, 角速度为 $1\ \mathrm{rad/s}$. 求 $2\ \mathrm{s}$ 时点 $P$ 所在的位置.
 
 ### 解答 练习四
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 及**常用结论** (弧度数公式).
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**常用结论** (弧度数公式).
 
-经过 $2\ \mathrm{s}$, 点 $P$ 转过的弧度数为 $1\times2=2\ \mathrm{rad}$, 因顺时针旋转, 故转过的角为 $-2\ \mathrm{rad}$. 圆半径为 $2$, 由**定义 5.2.2** (终边上任意一点的三角函数比值), 点 $P$ 的坐标为
+经过 $2\ \mathrm{s}$, 点 $P$ 转过的弧度数为 $1\times2=2\ \mathrm{rad}$, 因顺时针旋转, 故转过的角为 $-2\ \mathrm{rad}$. 圆半径为 $2$, 由**定义 5.2.2 (终边上任意一点的三角函数比值)**, 点 $P$ 的坐标为
 
 $$
 \left(2\cos\left(-2\right),\ 2\sin\left(-2\right)\right)=\left(2\cos2,\ -2\sin2\right).
@@ -76,7 +68,7 @@ $$
 
 故 $2\ \mathrm{s}$ 时点 $P$ 所在的位置为 $\left(2\cos2,\ -2\sin2\right)$. $\blacksquare$
 
-### 练习五
+## 练习五
 
 (练习 5.2 第 5 题) 填表:
 
@@ -88,7 +80,7 @@ $$
 
 ### 解答 练习五
 
-由**公式一** (终边相同的角的三角函数值), 将各角化为 $0\sim2\pi$ 范围内终边相同的角, 再由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 求值.
+由**公式一** (终边相同的角的三角函数值), 将各角化为 $0\sim2\pi$ 范围内终边相同的角, 再由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求值.
 
 (1) $\alpha=2\pi$: $\sin2\pi=0$, $\cos2\pi=1$, $\tan2\pi=0$.
 
@@ -100,7 +92,7 @@ $$
 
 (5) $\alpha=\frac{15\pi}{4}=4\pi-\frac{\pi}{4}$: $\sin\frac{15\pi}{4}=\sin\left(-\frac{\pi}{4}\right)=-\frac{\sqrt{3}}{2}$, $\cos\frac{15\pi}{4}=\cos\left(-\frac{\pi}{4}\right)=\frac{\sqrt{2}}{2}$, $\tan\frac{15\pi}{4}=\tan\left(-\frac{\pi}{4}\right)=-1$. $\blacksquare$
 
-### 练习六
+## 练习六
 
 (练习 5.2 第 6 题) (口答) 设 $\alpha$ 是三角形的一个内角, 在 $\sin\alpha$, $\cos\alpha$, $\tan\alpha$, $\tan\frac{\alpha}{2}$ 中, 哪些有可能取负值?
 
@@ -118,7 +110,7 @@ $$
 
 综上, $\cos\alpha$ 和 $\tan\alpha$ 有可能取负值. $\blacksquare$
 
-### 练习七
+## 练习七
 
 (练习 5.2 第 7 题) 确定下列三角函数值的符号:
 
@@ -150,7 +142,7 @@ $$
 
 (6) 由 $556^{\circ}=360^{\circ}+196^{\circ}$, $196^{\circ}$ 是第三象限角, 知 $\tan556^{\circ}> 0$. $\blacksquare$
 
-### 练习八
+## 练习八
 
 (练习 5.2 第 8 题) 对于 ①$\sin\theta> 0$, ②$\sin\theta< 0$, ③$\cos\theta> 0$, ④$\cos\theta< 0$, ⑤$\tan\theta> 0$ 与 ⑥$\tan\theta< 0$, 选择恰当的关系式序号填空:
 
@@ -174,7 +166,7 @@ $$
 
 (4) 第四象限角: $\sin\theta< 0$ 且 $\cos\theta> 0$, 且 $\tan\theta< 0$. 充要条件是 ②③⑥. $\blacksquare$
 
-### 练习九
+## 练习九
 
 (练习 5.2 第 9 题) 求下列三角函数值 (可用计算工具, 第 (1) 题精确到 $0.0001$):
 
@@ -198,7 +190,7 @@ $$
 
 (4) 由 $-\frac{31\pi}{4}=-8\pi+\frac{\pi}{4}$, 得 $\tan\left(-\frac{31\pi}{4}\right)=\tan\frac{\pi}{4}=1$. $\blacksquare$
 
-### 练习十
+## 练习十
 
 (练习 5.2 第 10 题) 已知 $\cos\alpha=-\frac{4}{5}$, 且 $\alpha$ 为第三象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值.
 
@@ -214,7 +206,7 @@ $$
 
 $\blacksquare$
 
-### 练习十一
+## 练习十一
 
 (练习 5.2 第 11 题) 已知 $\tan\varphi=-\sqrt{3}$, 求 $\sin\varphi$, $\cos\varphi$ 的值.
 
@@ -228,7 +220,7 @@ $\blacksquare$
 
 (2) 若 $\varphi$ 为第四象限角, 则 $\sin\varphi< 0$, $\cos\varphi> 0$, 同理得 $\cos\varphi=\frac{1}{2}$, $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
-### 练习十二
+## 练习十二
 
 (练习 5.2 第 12 题) 已知 $\sin\theta=0.35$, 求 $\cos\theta$, $\tan\theta$ 的值 (精确到 $0.01$).
 
@@ -242,7 +234,7 @@ $\blacksquare$
 
 (2) 若 $\theta$ 为第二象限角, 则 $\cos\theta\approx-0.94$, $\tan\theta=\frac{0.35}{-0.94}\approx-0.37$. $\blacksquare$
 
-### 练习十三
+## 练习十三
 
 (练习 5.2 第 13 题) 化简:
 
@@ -276,7 +268,7 @@ $$
 
 $\blacksquare$
 
-### 练习十四
+## 练习十四
 
 (练习 5.2 第 14 题) 求证: $\sin^{4}\alpha+\sin^{2}\alpha\cos^{2}\alpha+\cos^{2}\alpha=1$.
 
@@ -286,7 +278,7 @@ $\blacksquare$
 
 左边 $=\sin^{2}\alpha\left(\sin^{2}\alpha+\cos^{2}\alpha\right)+\cos^{2}\alpha=\sin^{2}\alpha\cdot1+\cos^{2}\alpha=\sin^{2}\alpha+\cos^{2}\alpha=1=$ 右边. 故原式成立. $\blacksquare$
 
-### 习题一
+## 习题一
 
 (习题 5.2 复习巩固第 1 题) 用定义法, 公式一求下列角的三个三角函数值 (可用计算工具):
 
@@ -300,7 +292,7 @@ $\blacksquare$
 
 ### 解答 习题一
 
-由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内, 再由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 求值.
+由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内, 再由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求值.
 
 (1) 由 $-\frac{17\pi}{3}=-6\pi+\frac{\pi}{3}$, 得 $\sin\left(-\frac{17\pi}{3}\right)=\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{17\pi}{3}\right)=\cos\frac{\pi}{3}=\frac{1}{2}$, $\tan\left(-\frac{17\pi}{3}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
 
@@ -310,13 +302,13 @@ $\blacksquare$
 
 (4) 由 $1500^{\circ}=4\times360^{\circ}+60^{\circ}$, 得 $\sin1500^{\circ}=\sin60^{\circ}=\frac{\sqrt{3}}{2}$, $\cos1500^{\circ}=\cos60^{\circ}=\frac{1}{2}$, $\tan1500^{\circ}=\tan60^{\circ}=\sqrt{3}$. $\blacksquare$
 
-### 习题二
+## 习题二
 
 (习题 5.2 复习巩固第 2 题) 已知角 $\alpha$ 的终边上有一点 $P$ 的坐标是 $\left(3a,4a\right)$, 其中 $a\neq0$, 求 $\sin\alpha$, $\cos\alpha$, $\tan\alpha$ 的值.
 
 ### 解答 习题二
 
-由**定义 5.2.2** (终边上任意一点的三角函数比值), $r=\sqrt{x^{2}+y^{2}}$.
+由**定义 5.2.2 (终边上任意一点的三角函数比值)**, $r=\sqrt{x^{2}+y^{2}}$.
 
 由 $x=3a$, $y=4a$, 得 $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
 
@@ -324,7 +316,7 @@ $\blacksquare$
 
 (2) 当 $a< 0$ 时, $r=-5a$, 得 $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
 
-### 习题三
+## 习题三
 
 (习题 5.2 复习巩固第 3 题) 计算:
 
@@ -338,7 +330,7 @@ $\blacksquare$
 
 ### 解答 习题三
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 求特殊角的三角函数值, 再代入计算.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求特殊角的三角函数值, 再代入计算.
 
 (1) 由 $\sin\left(-90^{\circ}\right)=-1$, $\sin0^{\circ}=0$, $\sin270^{\circ}=-1$, $\cos180^{\circ}=-1$, 得
 
@@ -366,7 +358,7 @@ $$
 
 $\blacksquare$
 
-### 习题四
+## 习题四
 
 (习题 5.2 复习巩固第 4 题) 化简:
 
@@ -380,7 +372,7 @@ $\blacksquare$
 
 ### 解答 习题四
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 求特殊角的三角函数值, 再代入化简.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求特殊角的三角函数值, 再代入化简.
 
 (1) 由 $\sin0^{\circ}=0$, $\cos90^{\circ}=0$, $\tan180^{\circ}=0$, 得原式 $=0$.
 
@@ -390,7 +382,7 @@ $\blacksquare$
 
 (4) 由 $\tan0=0$, $\cos\frac{\pi}{2}=0$, $\sin\pi=0$, $\sin2\pi=0$, 得原式 $=0$. $\blacksquare$
 
-### 习题五
+## 习题五
 
 (习题 5.2 复习巩固第 5 题) 确定下列三角函数值的符号:
 
@@ -422,7 +414,7 @@ $\blacksquare$
 
 (6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, $\frac{9\pi}{17}$ 是第二象限角, $\cos\left(-\frac{59\pi}{17}\right)< 0$. $\blacksquare$
 
-### 习题六
+## 习题六
 
 (习题 5.2 复习巩固第 6 题)
 
@@ -446,7 +438,7 @@ $\blacksquare$
 
 (4) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-0.68^{2}=0.5376$, 故 $\sin\alpha=\pm\sqrt{0.5376}\approx\pm0.73$. 若 $\alpha$ 为第一象限角, 则 $\sin\alpha\approx0.73$, $\tan\alpha=\frac{0.73}{0.68}\approx1.07$; 若 $\alpha$ 为第四象限角, 则 $\sin\alpha\approx-0.73$, $\tan\alpha\approx-1.07$. $\blacksquare$
 
-### 习题七
+## 习题七
 
 (习题 5.2 综合运用第 7 题) 根据下列条件求函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{4}\right)+2\sin\left(x-\frac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\frac{3\pi}{4}\right)$ 的值:
 
@@ -456,7 +448,7 @@ $\blacksquare$
 
 ### 解答 习题七
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 求特殊角的三角函数值, 再代入计算.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求特殊角的三角函数值, 再代入计算.
 
 (1) 当 $x=\frac{\pi}{4}$ 时,
 
@@ -480,7 +472,7 @@ $$
 
 $\blacksquare$
 
-### 习题八
+## 习题八
 
 (习题 5.2 综合运用第 8 题) 确定下列式子的符号:
 
@@ -504,7 +496,7 @@ $\blacksquare$
 
 (4) $\frac{5\pi}{6}$ 是第二象限角, $\cos\frac{5\pi}{6}< 0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}< 0$; $\frac{2\pi}{3}$ 是第二象限角, $\sin\frac{2\pi}{3}> 0$. 分子为正, 分母为正, 故原式 $> 0$. $\blacksquare$
 
-### 习题九
+## 习题九
 
 (习题 5.2 综合运用第 9 题) 求下列三角函数值 (可用计算工具, 第 (1) (3) (4) 题精确到 $0.0001$):
 
@@ -528,7 +520,7 @@ $\blacksquare$
 
 (4) 由 $766^{\circ}15'=2\times360^{\circ}+46^{\circ}15'$, 得 $\tan766^{\circ}15'=\tan46^{\circ}15'\approx1.0433$. $\blacksquare$
 
-### 习题十
+## 习题十
 
 (习题 5.2 综合运用第 10 题) 求证:
 
@@ -552,7 +544,7 @@ $\blacksquare$
 
 (4) $\sin\theta\cos\theta> 0$ 等价于 $\sin\theta$ 与 $\cos\theta$ 同号. 第一象限: 均正; 第三象限: 均负. 第二, 四象限异号. 故充要条件成立. $\blacksquare$
 
-### 习题十一
+## 习题十一
 
 (习题 5.2 综合运用第 11 题) 已知 $\sin x=-\frac{1}{3}$, 求 $\cos x$, $\tan x$ 的值.
 
@@ -566,7 +558,7 @@ $\blacksquare$
 
 (2) 若 $x$ 为第四象限角, 则 $\cos x> 0$, $\cos x=\frac{2\sqrt{2}}{3}$, $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
 
-### 习题十二
+## 习题十二
 
 (习题 5.2 综合运用第 12 题) 已知 $\tan\alpha=\sqrt{3}$, $\pi< \alpha< \frac{3\pi}{2}$, 求 $\cos\alpha-\sin\alpha$ 的值.
 
@@ -582,7 +574,7 @@ $$
 
 $\blacksquare$
 
-### 习题十三
+## 习题十三
 
 (习题 5.2 综合运用第 13 题) 已知角 $\alpha$ 的终边不在坐标轴上:
 
@@ -598,7 +590,7 @@ $\blacksquare$
 
 (2) 由 $\cos^{2}\alpha=1-\sin^{2}\alpha$, 得 $\cos\alpha=\pm\sqrt{1-\sin^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sin\alpha}{\sqrt{1-\sin^{2}\alpha}}$. $\blacksquare$
 
-### 习题十四
+## 习题十四
 
 (习题 5.2 综合运用第 14 题) 求证:
 
@@ -622,7 +614,7 @@ $\blacksquare$
 
 (4) 左边 $=\left(\sin^{2}x+\cos^{2}x\right)^{2}-2\sin^{2}x\cos^{2}x=1-2\sin^{2}x\cos^{2}x=$ 右边. $\blacksquare$
 
-### 习题十五
+## 习题十五
 
 (习题 5.2 综合运用第 15 题) 已知 $\tan\alpha=2$, 求 $\frac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ 的值.
 
@@ -638,7 +630,7 @@ $$
 
 $\blacksquare$
 
-### 习题十六
+## 习题十六
 
 (习题 5.2 拓广探索第 16 题) 化简 $\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}$, 其中 $\alpha$ 为第二象限角.
 
@@ -658,7 +650,7 @@ $$
 
 故原式 $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\alpha}{-\cos\alpha}=\frac{2\sin\alpha}{-\cos\alpha}=-2\tan\alpha$. $\blacksquare$
 
-### 习题十七
+## 习题十七
 
 (习题 5.2 拓广探索第 17 题) 从本节的例 7 可以看出, $\frac{\cos x}{1-\sin x}=\frac{1+\sin x}{\cos x}$ 就是 $\sin^{2}x+\cos^{2}x=1$ 的一个变形. 你能利用同角三角函数的基本关系推导出更多的关系式吗?
 
@@ -674,7 +666,7 @@ $$
 
 (4) 由 $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha$, 可得 $\sin\alpha\cos\alpha=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}-1}{2}$. $\blacksquare$
 
-### 习题十八
+## 习题十八
 
 (习题 5.2 拓广探索第 18 题)
 
@@ -710,6 +702,6 @@ $$
 
 ### 解答 阅读与思考一
 
-由**定义 5.2.1** (正弦函数, 余弦函数, 正切函数) 及**常用结论** (同角三角函数的基本关系), 三角学的核心是建立角与比值之间的对应关系.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**常用结论** (同角三角函数的基本关系), 三角学的核心是建立角与比值之间的对应关系.
 
 三角学的起源与发展与天文学密不可分. 在 $1450$ 年以前, 三角学主要是球面三角, 这是因为航海, 历法推算以及天文观测等人类实践活动的需要. 最早将三角学从天文学中独立出来的数学家是德国人雷格蒙塔努斯, 他的著作 " 论各种三角形 " 是欧洲第一部独立于天文学的三角学著作. 后来, 雷提库斯将传统的弧与弦的关系改进为角的三角函数关系, 制定了更为精确的三角函数表. 由于天文学研究的需要, 制定更加精确的三角函数表一直是数学家奋斗的目标, 这大大推动了三角学的发展. $16$ 世纪, 三角学从天文学中分离出来, 成为数学的一个独立分支. $\blacksquare$

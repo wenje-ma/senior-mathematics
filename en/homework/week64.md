@@ -1,20 +1,11 @@
-# Assignment 64
+# week64
+> **Definition 2.2.1 (Point-slope Form)**<br>由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **Definition 2.4.1 (圆的标准方程)**<br>圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
+> **Definition 2.4.3 (圆的一般方程)**<br>点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
 
-> **Definition 2.4.1** (Standard Equation of a Circle) <br>The standard equation of a circle with center $A\left(a,b\right)$ and radius $r$ is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
+---
 
-> **Definition 2.4.3** (General Equation of a Circle) <br>The equation $x^2+y^2+Dx+Ey+F=0$ is called the general equation of a circle. When $D^2+E^2-4F> 0$, the equation represents a circle with center $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and radius $\frac{\sqrt{D^2+E^2-4F}}{2}$.
-
-> **Common Conclusion 2.3.2** (Distance Formula Between Two Points) <br>The distance between two points $P_1\left(x_1,y_1\right)$ and $P_2\left(x_2,y_2\right)$ in the plane is $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
-
-> **Common Conclusion 2.3.3** (Distance from a Point to a Line) <br>The distance from the point $P\left(x_0,y_0\right)$ to the line $l:Ax+By+C=0$ is $d=\frac{\left|Ax_0+By_0+C\right|}{\sqrt{A^2+B^2}}$.
-
-> **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle) <br>Let the radius of the circle be $r$ and the distance from the center to the line be $d$. Then when $d< r$ the line intersects the circle (two common points), when $d=r$ the line is tangent to the circle (one common point), and when $d> r$ the line is disjoint from the circle (no common points).
-
-> **Common Conclusion 2.5.2** (Chord Length Formula) <br>When a line intersects a circle, the chord length is $\left|AB\right|=2\sqrt{r^2-d^2}$, where $d$ is the distance from the center to the line and $r$ is the radius of the circle.
-
-> **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other) <br>Let the radii of the two circles be $r_1,r_2$ ($r_1\ge r_2$) and the distance between centers be $d$. Then when $d> r_1+r_2$ the circles are externally separated, when $d=r_1+r_2$ they are externally tangent, when $r_1-r_2< d< r_1+r_2$ they intersect, when $d=r_1-r_2$ they are internally tangent, and when $d< r_1-r_2$ one is contained in the other.
-
-### Exercise 1
+## Exercise 1
 
 (Exercise 2.5, Problem 1) Determine the position of the line $l$ relative to the circle $C$ in each pair below:
 
@@ -52,7 +43,7 @@ $$
 
 Since $d=\sqrt 2> 1=r$, the line $l$ is disjoint from the circle $C$. $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 2.5, Problem 2) Given that the line $4x+3y-35=0$ is tangent to the circle $C$ centered at the origin, find the equation of circle $C$.
 
@@ -64,9 +55,9 @@ $$
 d=\frac{\left|-35\right|}{\sqrt{4^2+3^2}}=\frac{35}{5}=7.
 $$
 
-By **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle), tangency means $d=r$, so $r=7$. By **Definition 2.4.1** (Standard Equation of a Circle), the equation is $x^2+y^2=49$. $\blacksquare$
+By **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle), tangency means $d=r$, so $r=7$. By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $x^2+y^2=49$. $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 2.5, Problem 3) Determine the position of the line $2x-y+2=0$ relative to the circle $\left(x-1\right)^2+\left(y-2\right)^2=4$; if they intersect, find the chord length cut by the circle.
 
@@ -88,7 +79,7 @@ $$
 
 $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 2.5, Problem 4) The span of Zhaozhou Bridge is $37.4\,\mathrm{m}$ and the rise of its circular arch is approximately $7.2\,\mathrm{m}$. Find the equation of the circular arch of this bridge.
 
@@ -96,7 +87,7 @@ $\blacksquare$
 
 Set up a coordinate system with the line through the rise as the $y$-axis, the line through the span as the $x$-axis, and the origin at the midpoint of the span. The two endpoints of the arch are $\left(18.7,0\right)$ and $\left(-18.7,0\right)$, and the top of the arch is $\left(0,7.2\right)$.
 
-Let the center of the arch circle be on the $y$-axis at $\left(0,b\right)$ with radius $r$. By **Definition 2.4.1** (Standard Equation of a Circle), the equation is $x^2+\left(y-b\right)^2=r^2$.
+Let the center of the arch circle be on the $y$-axis at $\left(0,b\right)$ with radius $r$. By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $x^2+\left(y-b\right)^2=r^2$.
 
 Substituting the endpoint $\left(18.7,0\right)$: $18.7^2+b^2=r^2$. Substituting the top $\left(0,7.2\right)$: $\left(7.2-b\right)^2=r^2$.
 
@@ -106,7 +97,7 @@ $r^2=18.7^2+20.68^2\approx349.69+427.66=777.35$.
 
 The equation of the arch circle is $x^2+\left(y+20.68\right)^2=777.35$. $\blacksquare$
 
-### Exercise 5
+## Exercise 5
 
 (Exercise 2.5, Problem 5) A certain circular-arch bridge has a water span of $20\,\mathrm{m}$ and a rise of $4\,\mathrm{m}$. A boat is $10\,\mathrm{m}$ wide and $3\,\mathrm{m}$ above the water. Can this boat pass under the bridge?
 
@@ -126,7 +117,7 @@ The boat is $10\,\mathrm{m}$ wide, so we check the arch height at $x=\pm5$. Subs
 
 The boat is $3\,\mathrm{m}$ above the water, while the arch at the edge of the boat's width is approximately $3.11\,\mathrm{m}> 3\,\mathrm{m}$, so the boat can pass under the bridge. $\blacksquare$
 
-### Exercise 6
+## Exercise 6
 
 (Exercise 2.5, Problem 6) On a plane, a robot travels clockwise around the point $C\left(5,-3\right)$, starting at a point at distance $9$ from $C$ and keeping its distance from $C$ constant throughout. What are the closest and farthest distances from the robot to the line through $A\left(-10,0\right)$ and $B\left(0,12\right)$ during its motion?
 
@@ -134,7 +125,7 @@ The boat is $3\,\mathrm{m}$ above the water, while the arch at the edge of the b
 
 The robot's path is a circle centered at $C\left(5,-3\right)$ with radius $r=9$.
 
-Equation of line $AB$: by **Common Conclusion 2.1.3** (Slope Formula), $k_{AB}=\frac{12-0}{0-\left(-10\right)}=\frac{6}{5}$. By **Definition 2.2.1** (Point-Slope Form), substituting $A\left(-10,0\right)$ gives $y=\frac{6}{5}\left(x+10\right)$, i.e. $6x-5y+60=0$.
+Equation of line $AB$: by **Common Conclusion 2.1.3** (Slope Formula), $k_{AB}=\frac{12-0}{0-\left(-10\right)}=\frac{6}{5}$. By **Definition 2.2.1 (Point-Slope Form)**, substituting $A\left(-10,0\right)$ gives $y=\frac{6}{5}\left(x+10\right)$, i.e. $6x-5y+60=0$.
 
 By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $C\left(5,-3\right)$ to the line $AB$ is
 
@@ -146,13 +137,13 @@ Since $d\approx13.44> 9=r$, the line is disjoint from the circle.
 
 The robot's closest distance to the line is $d-r=13.44-9=4.44$, and its farthest distance is $d+r=13.44+9=22.44$. $\blacksquare$
 
-### Exercise 7
+## Exercise 7
 
 (Exercise 2.5, Problem 7) Given circle $C_1:x^2+y^2=4$ and circle $C_2:x^2+y^2-8x-6y+16=0$, determine the position of $C_1$ relative to $C_2$.
 
 ### Solution to Exercise 7
 
-By **Definition 2.4.1** (Standard Equation of a Circle) and **Definition 2.4.3** (General Equation of a Circle).
+By **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
 
 Circle $C_1$: center $O_1\left(0,0\right)$, radius $r_1=2$.
 
@@ -166,13 +157,13 @@ $$
 
 $r_1+r_2=2+3=5=d$. By **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other), since $d=r_1+r_2$, the circles are externally tangent. $\blacksquare$
 
-### Exercise 8
+## Exercise 8
 
 (Exercise 2.5, Problem 8) Given circle $C_1:x^2+y^2+2x+3y+1=0$ and circle $C_2:x^2+y^2+4x+3y+2=0$, prove that $C_1$ and $C_2$ intersect, and find the equation of the line containing the common chord of $C_1$ and $C_2$.
 
 ### Solution to Exercise 8
 
-By **Definition 2.4.3** (General Equation of a Circle), convert to standard form.
+By **Definition 2.4.3 (General Equation of a Circle)**, convert to standard form.
 
 Circle $C_1:\left(x+1\right)^2+\left(y+\frac{3}{2}\right)^2=\frac{9}{4}$, center $O_1\left(-1,-\frac{3}{2}\right)$, radius $r_1=\frac{3}{2}$.
 
@@ -184,7 +175,7 @@ $r_1=\frac{3}{2}$, $r_2=\frac{\sqrt{17}}{2}$. $\lvert r_1-r_2 \rvert=\frac{\sqrt
 
 Subtracting the two circle equations gives $\left(x^2+y^2+4x+3y+2\right)-\left(x^2+y^2+2x+3y+1\right)=0$, i.e. $2x+1=0$, i.e. $x=-\frac{1}{2}$. The equation of the line containing the common chord is $x=-\frac{1}{2}$. $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 2.5, Review and Consolidation, Problem 1) Determine the position of the line $4x-3y=50$ relative to the circle $x^2+y^2=100$. If they have common points, find their coordinates.
 
@@ -200,7 +191,7 @@ Since $d=r=10$, by **Common Conclusion 2.5.1** (Position of a Line Relative to a
 
 Tangency point coordinates: combine $\begin{cases}4x-3y=50\\x^2+y^2=100\end{cases}$. From the first equation $y=\frac{4x-50}{3}$; substituting into the second gives $x^2+\frac{\left(4x-50\right)^2}{9}=100$, i.e. $9x^2+16x^2-400x+2500=900$, i.e. $25x^2-400x+1600=0$, i.e. $x^2-16x+64=0$, i.e. $\left(x-8\right)^2=0$, hence $x=8$. Substituting back gives $y=\frac{32-50}{3}=-6$. The common point is $\left(8,-6\right)$. $\blacksquare$
 
-### Problem 2
+## Problem 2
 
 (Exercise 2.5, Review and Consolidation, Problem 2) Find the equations of the circles determined by the following conditions, and draw their figures:
 
@@ -222,7 +213,7 @@ $$
 r=\frac{\left|3-7\cdot\left(-5\right)+2\right|}{\sqrt{1+49}}=\frac{40}{\sqrt{50}}=4\sqrt 2.
 $$
 
-By **Definition 2.4.1** (Standard Equation of a Circle), the equation is $\left(x-3\right)^2+\left(y+5\right)^2=32$.
+By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $\left(x-3\right)^2+\left(y+5\right)^2=32$.
 
 (2) The center is on the line $y=x$; let it be $\left(a,a\right)$. The circle is tangent to $y=6$ with radius $2$, so the distance from the center to $y=6$ is $2$, i.e. $\lvert a-6 \rvert=2$, hence $a=4$ or $a=8$. The centers are $\left(4,4\right)$ or $\left(8,8\right)$. The equations are $\left(x-4\right)^2+\left(y-4\right)^2=4$ or $\left(x-8\right)^2+\left(y-8\right)^2=4$.
 
@@ -238,7 +229,7 @@ Simplifying gives $\left(a-3\right)^2+\left(\frac{9-3a}{2}\right)^2=13$, i.e. $\
 
 The centers are $\left(5,1\right)$ or $\left(1,7\right)$. The equations are $\left(x-5\right)^2+\left(y-1\right)^2=13$ or $\left(x-1\right)^2+\left(y-7\right)^2=13$. $\blacksquare$
 
-### Problem 3
+## Problem 3
 
 (Exercise 2.5, Review and Consolidation, Problem 3) Find the length of the chord $AB$ cut by the circle $C:x^2+y^2-2x-4y=0$ on the line $l:3x-y-6=0$.
 
@@ -258,7 +249,7 @@ $$
 
 $\blacksquare$
 
-### Problem 4
+## Problem 4
 
 (Exercise 2.5, Review and Consolidation, Problem 4) Find the equation of the circle whose center lies on the line $3x-y=0$, which is tangent to the $x$-axis, and for which the chord cut by the line $x-y=0$ has length $2\sqrt 7$.
 
@@ -276,7 +267,7 @@ By **Common Conclusion 2.5.2** (Chord Length Formula), the chord length is $2\sq
 
 Either the center is $\left(1,3\right)$ with radius $r=3$, and the equation is $\left(x-1\right)^2+\left(y-3\right)^2=9$; or the center is $\left(-1,-3\right)$ with radius $r=3$, and the equation is $\left(x+1\right)^2+\left(y+3\right)^2=9$. $\blacksquare$
 
-### Problem 5
+## Problem 5
 
 (Exercise 2.5, Review and Consolidation, Problem 5) Find the equation of the circle symmetric to the circle $C:x^2+y^2-x+2y=0$ with respect to the line $l:x-y+1=0$.
 
@@ -294,7 +285,7 @@ Substituting $b=-a-\frac{1}{2}$ gives $a+a+\frac{1}{2}+\frac{7}{2}=0$, i.e. $2a+
 
 The reflected circle has center $\left(-2,\frac{3}{2}\right)$ and the same radius $\frac{\sqrt 5}{2}$. Its equation is $\left(x+2\right)^2+\left(y-\frac{3}{2}\right)^2=\frac{5}{4}$. $\blacksquare$
 
-### Problem 6
+## Problem 6
 
 (Exercise 2.5, Review and Consolidation, Problem 6) The square $ABCD$ has side length $a$. On side $BC$ take the segment $BE=\frac{a}{3}$, and on the extension of side $DC$ take $CF=\frac{a}{2}$. Prove that the intersection $M$ of lines $AE$ and $BF$ lies on the circumcircle of the square $ABCD$.
 
@@ -318,7 +309,7 @@ $$
 
 The distance equals the radius, so $M$ lies on the circumcircle. $\blacksquare$
 
-### Problem 7
+## Problem 7
 
 (Exercise 2.5, Review and Consolidation, Problem 7) Find the equation of the circle passing through $M\left(2,-2\right)$ and through the intersection points of the circles $x^2+y^2-6x=0$ and $x^2+y^2=4$.
 
@@ -330,7 +321,7 @@ Since $M\left(2,-2\right)$ lies on the circle, substituting gives $\left(1+\lamb
 
 Substituting back gives $2x^2+2y^2-6x-4=0$, i.e. $x^2+y^2-3x-2=0$. $\blacksquare$
 
-### Problem 8
+## Problem 8
 
 (Exercise 2.5, Comprehensive Application, Problem 8) Find the equation of the circle whose center lies on the line $x-y-4=0$ and which passes through the intersection points of the circles $x^2+y^2+6x-4=0$ and $x^2+y^2+6y-28=0$.
 
@@ -348,7 +339,7 @@ Simplifying gives $\frac{3\lambda-3}{1+\lambda}=4$, i.e. $3\lambda-3=4+4\lambda$
 
 Substituting back gives $-6x^2-6y^2+6x-42y+192=0$, i.e. $x^2+y^2-x+7y-32=0$. $\blacksquare$
 
-### Problem 9
+## Problem 9
 
 (Exercise 2.5, Comprehensive Application, Problem 9) Find the length of the common chord of the circles $x^2+y^2-4=0$ and $x^2+y^2-4x+4y-12=0$.
 
@@ -370,7 +361,7 @@ $$
 
 $\blacksquare$
 
-### Problem 10
+## Problem 10
 
 (Exercise 2.5, Comprehensive Application, Problem 10) Find the equation of the circle passing through $M\left(3,-1\right)$ and tangent to the circle $C:x^2+y^2+2x-6y+5=0$ at the point $N\left(1,2\right)$.
 
@@ -392,7 +383,7 @@ The square of the radius is $\left(\frac{20}{7}-1\right)^2+\left(\frac{15}{14}-2
 
 The equation of the circle is $\left(x-\frac{20}{7}\right)^2+\left(y-\frac{15}{14}\right)^2=\frac{845}{196}$. $\blacksquare$
 
-### Problem 11
+## Problem 11
 
 (Exercise 2.5, Comprehensive Application, Problem 11) A machine has three gears: $A$ meshes with $B$, and $C$ also meshes with $B$. The diameters of gears $A$, $B$, and $C$ are $200\,\mathrm{cm}$, $120\,\mathrm{cm}$, and $250\,\mathrm{cm}$ respectively, and $\angle A=45^\circ$. Set up an appropriate coordinate system and use the coordinate method to find the center-to-center distance between gears $A,C$ (to the nearest $1\,\mathrm{cm}$).
 
@@ -428,7 +419,7 @@ Solving gives $d=\frac{160\sqrt 2+\sqrt{51200+34500}}{2}=\frac{160\sqrt 2+\sqrt{
 
 To the nearest $1\,\mathrm{cm}$, the center-to-center distance between gears $A,C$ is approximately $260\,\mathrm{cm}$. $\blacksquare$
 
-### Problem 12
+## Problem 12
 
 (Exercise 2.5, Comprehensive Application, Problem 12) Given the three points $A\left(-2,-2\right)$, $B\left(-2,6\right)$, $C\left(4,-2\right)$, and a point $P$ moving on the circle $x^2+y^2=4$, find the maximum and minimum of $\lvert PA \rvert^2+\lvert PB \rvert^2+\lvert PC \rvert^2$.
 
@@ -458,7 +449,7 @@ Since $P$ lies on the circle $x^2+y^2=4$, we have $y\in\left[-2,2\right]$.
 
 When $y=-2$, the maximum $80-4\left(-2\right)=88$ is attained; when $y=2$, the minimum $80-4\cdot2=72$ is attained. $\blacksquare$
 
-### Problem 13
+## Problem 13
 
 (Exercise 2.5, Extension and Exploration, Problem 13) Given the circle $x^2+y^2=4$ and the line $l:y=x+b$. For what value of $b$ are there exactly three points on the circle whose distance to the line $l$ is exactly $1$?
 
@@ -476,7 +467,7 @@ There being exactly three points on the circle at distance $1$ from $l$ means on
 
 Hence $d=\frac{\lvert b \rvert}{\sqrt 2}=1$, i.e. $b=\pm\sqrt 2$. $\blacksquare$
 
-### Problem 14
+## Problem 14
 
 (Exercise 2.5, Extension and Exploration, Problem 14) As shown in the figure, inside the circle $x^2+y^2=8$ there is a point $P_0\left(-1,2\right)$, and $AB$ is a chord through $P_0$ with inclination angle $\alpha$.
 
@@ -504,7 +495,7 @@ The line $AB$ passes through $P_0\left(-1,2\right)$; its equation is $y-2=\frac{
 
 The distance from the center to the line is $d=\frac{\lvert 5 \rvert}{\sqrt 5}=\sqrt 5< 2\sqrt 2=r$, so the line intersects the circle, and such a chord exists. The equation of line $AB$ is $x-2y+5=0$. $\blacksquare$
 
-### Problem 15
+## Problem 15
 
 (Exercise 2.5, Extension and Exploration, Problem 15) Given the point $P\left(-2,-3\right)$ and the circle centered at $Q$: $\left(x-4\right)^2+\left(y-2\right)^2=9$.
 

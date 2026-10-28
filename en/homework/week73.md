@@ -1,15 +1,19 @@
-# Assignment 73
+# week73
+> **Basic Knowledge: 常用结论 4.3.4**<br>在等比数列 $\left\{a_n\right\}$ 中, $a_n=a_m q^{n-m}$.
+> **Definition 4.1.4 (Increasing and Decreasing Sequences)**<br>如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
+> **Definition 4.1.5 (General Term Formula)**<br>如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.2.1 (Arithmetic Sequence)**<br>如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **Theorem 4.2.5 (等差数列性质)**<br>在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**<br>等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**<br>如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **Definition 4.3.2 (等比中项)**<br>如果在 $a$ 与 $b$ 中间插入一个数 $G$, 使 $a,G,b$ 成等比数列, 那么 $G$ 叫做 $a$ 与 $b$ 的等比中项. 此时 $G^2=ab$.
+> **Theorem 4.3.3 (等比数列通项公式)**<br>首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **Theorem 4.3.5 (前 $n$ 项和公式)**<br>当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
 
-> **Definition 4.3.1** (Geometric Sequence) <br>If, starting from the $2$nd term, the ratio between every term and the preceding term of a sequence equals the same constant, then the sequence is called a geometric sequence, and this constant is called the common ratio of the geometric sequence, usually denoted by the letter $q$ ($q\ne 0$).
-> **Definition 4.3.2** (Geometric Mean) <br>If a number $G$ is inserted between $a$ and $b$ so that $a,G,b$ form a geometric sequence, then $G$ is called the geometric mean of $a$ and $b$. In this case $G^2=ab$.
-> **Theorem 4.3.3** (General Term Formula of a Geometric Sequence) <br>For a geometric sequence $\left\{a_n\right\}$ with first term $a_1$ and common ratio $q$, the general term formula is $a_n=a_1 q^{n-1}$.
-> **Common Conclusion 4.3.4** (Relation between Any Two Terms of a Geometric Sequence) <br>In a geometric sequence $\left\{a_n\right\}$, $a_n=a_m q^{n-m}$.
-> **Theorem 4.3.5** (Sum of the First $n$ Terms) <br>When $q\ne 1$, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; when $q=1$, $S_n=na_1$.
-> **Theorem 4.2.5** (Properties of Arithmetic Sequences) <br>In an arithmetic sequence $\left\{a_n\right\}$, if $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), then $a_p+a_q=a_s+a_t$.
-> **Theorem 4.2.6** (Sum of the First $n$ Terms, Formula I) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
-> **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II) <br>The sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+---
 
-### Exercise 1
+## Exercise 1
 
 (Exercise 4.3, Problem 1) Determine whether the following sequences are geometric sequences. If so, write down their common ratio
 
@@ -23,19 +27,19 @@
 
 ### Solution to Exercise 1
 
-(1) By **Definition 4.3.1** (Geometric Sequence), $\frac{9}{3}=3$, $\frac{15}{9}=\frac{5}{3}$, the ratios are not equal, so it is not a geometric sequence.
+(1) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{9}{3}=3$, $\frac{15}{9}=\frac{5}{3}$, the ratios are not equal, so it is not a geometric sequence.
 
 $\blacksquare$
 
-(2) By **Definition 4.3.1** (Geometric Sequence), $\frac{1.1}{1}=1.1$, $\frac{1.21}{1.1}=1.1$, the ratio between consecutive terms is always $1.1$, so it is a geometric sequence with common ratio $q=1.1$.
+(2) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{1.1}{1}=1.1$, $\frac{1.21}{1.1}=1.1$, the ratio between consecutive terms is always $1.1$, so it is a geometric sequence with common ratio $q=1.1$.
 
 $\blacksquare$
 
-(3) By **Definition 4.3.1** (Geometric Sequence), $\frac{1/6}{1/3}=\frac{1}{2}$, $\frac{1/9}{1/6}=\frac{2}{3}$, the ratios are not equal, so it is not a geometric sequence.
+(3) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{1/6}{1/3}=\frac{1}{2}$, $\frac{1/9}{1/6}=\frac{2}{3}$, the ratios are not equal, so it is not a geometric sequence.
 
 $\blacksquare$
 
-(4) By **Definition 4.3.1** (Geometric Sequence), $\frac{-8}{4}=-2$, $\frac{16}{-8}=-2$, the ratio between consecutive terms is always $-2$, so it is a geometric sequence with common ratio $q=-2$.
+(4) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{-8}{4}=-2$, $\frac{16}{-8}=-2$, the ratio between consecutive terms is always $-2$, so it is a geometric sequence with common ratio $q=-2$.
 
 $\blacksquare$
 
@@ -47,13 +51,13 @@ Second row: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underl
 
 ### Solution to Exercise 1
 
-First row: By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_5=a_1 q^4$, i.e. $8=2q^4$, so $q^4=4$, $q^2=2$, $q=\pm\sqrt{2}$.
+First row: By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_5=a_1 q^4$, i.e. $8=2q^4$, so $q^4=4$, $q^2=2$, $q=\pm\sqrt{2}$.
 
 $$
 a_3=2q^2=4,\ a_7=a_5 q^2=8\times 2=16.
 $$
 
-Second row: By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_3=a_1 q^2$, i.e. $2=a_1\times 0.04$, so $a_1=50$.
+Second row: By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_3=a_1 q^2$, i.e. $2=a_1\times 0.04$, so $a_1=50$.
 
 $$
 a_5=a_3 q^2=2\times 0.04=0.08,\ a_7=a_5 q^2=0.08\times 0.04=0.0032.
@@ -65,7 +69,7 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-By **Definition 4.3.2** (Geometric Mean), $a_1 a_3=a_2^2=36$, hence $a_2=\pm 6$.
+By **Definition 4.3.2 (Geometric Mean)**, $a_1 a_3=a_2^2=36$, hence $a_2=\pm 6$.
 
 When $a_2=6$, $a_4=60-6=54$, $q^2=\frac{54}{6}=9$, $q=\pm 3$, and $a_1=\frac{6}{q}=\pm 2$.
 
@@ -79,13 +83,13 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-By **Definition 4.1.5** (General Term Formula), $a_n=cq^n$.
+By **Definition 4.1.5 (General Term Formula)**, $a_n=cq^n$.
 
 $$
 \frac{a_{n+1}}{a_n}=\frac{cq^{n+1}}{cq^n}=q.
 $$
 
-The ratio is the constant $q$; by **Definition 4.3.1** (Geometric Sequence), $\left\{a_n\right\}$ is a geometric sequence.
+The ratio is the constant $q$; by **Definition 4.3.1 (Geometric Sequence)**, $\left\{a_n\right\}$ is a geometric sequence.
 
 $\blacksquare$
 
@@ -97,23 +101,23 @@ $\blacksquare$
 
 ### Solution to Exercise 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_3 a_7=a_1 q^2\cdot a_1 q^6=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$.
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_3 a_7=a_1 q^2\cdot a_1 q^6=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$.
 
-By **Definition 4.3.2** (Geometric Mean), $a_3,a_5,a_7$ form a geometric sequence.
+By **Definition 4.3.2 (Geometric Mean)**, $a_3,a_5,a_7$ form a geometric sequence.
 
 Similarly, $a_1 a_9=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$, so $a_1,a_5,a_9$ form a geometric sequence.
 
 $\blacksquare$
 
-(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_{n-1} a_{n+1}=a_1 q^{n-2}\cdot a_1 q^n=a_1^2 q^{2n-2}=\left(a_1 q^{n-1}\right)^2=a_n^2$.
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_{n-1} a_{n+1}=a_1 q^{n-2}\cdot a_1 q^n=a_1^2 q^{2n-2}=\left(a_1 q^{n-1}\right)^2=a_n^2$.
 
-By **Definition 4.3.2** (Geometric Mean), $a_{n-1},a_n,a_{n+1}$ form a geometric sequence.
+By **Definition 4.3.2 (Geometric Mean)**, $a_{n-1},a_n,a_{n+1}$ form a geometric sequence.
 
 Similarly, $a_{n-k} a_{n+k}=a_1^2 q^{2n-2k}=\left(a_1 q^{n-1}\right)^2=a_n^2$, so $a_{n-k},a_n,a_{n+k}$ form a geometric sequence.
 
 $\blacksquare$
 
-### Exercise 2
+## Exercise 2
 
 (Exercise 4.3, Problem 1) Find the numbers satisfying the following conditions
 
@@ -123,13 +127,13 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1=9$, $a_4=243$, $a_4=a_1 q^3$, so $q^3=27$ and $q=3$.
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1=9$, $a_4=243$, $a_4=a_1 q^3$, so $q^3=27$ and $q=3$.
 
 The two inserted numbers are $a_2=9\times 3=27$ and $a_3=27\times 3=81$.
 
 $\blacksquare$
 
-(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1=160$, $a_6=-5$, $a_6=a_1 q^5$, so $q^5=-\frac{1}{32}$ and $q=-\frac{1}{2}$.
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1=160$, $a_6=-5$, $a_6=a_1 q^5$, so $q^5=-\frac{1}{32}$ and $q=-\frac{1}{2}$.
 
 The four inserted numbers are $a_2=160\times\left(-\frac{1}{2}\right)=-80$, $a_3=40$, $a_4=-20$, $a_5=10$.
 
@@ -143,13 +147,13 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-(1) By **Definition 4.3.1** (Geometric Sequence), let the common ratio of $\left\{a_n\right\}$ be $q_1$ and that of $\left\{b_n\right\}$ be $q_2$.
+(1) By **Definition 4.3.1 (Geometric Sequence)**, let the common ratio of $\left\{a_n\right\}$ be $q_1$ and that of $\left\{b_n\right\}$ be $q_2$.
 
 $$
 \frac{c_{n+1}}{c_n}=\frac{a_{n+1} b_{n+1}}{a_n b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_{n+1}}{b_n}=q_1 q_2.
 $$
 
-The ratio is the constant $q_1 q_2$; by **Definition 4.3.1** (Geometric Sequence), $\left\{c_n\right\}$ is a geometric sequence.
+The ratio is the constant $q_1 q_2$; by **Definition 4.3.1 (Geometric Sequence)**, $\left\{c_n\right\}$ is a geometric sequence.
 
 $\blacksquare$
 
@@ -159,7 +163,7 @@ $$
 \frac{d_{n+1}}{d_n}=\frac{a_{n+1}/b_{n+1}}{a_n/b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_n}{b_{n+1}}=\frac{q_1}{q_2}.
 $$
 
-The ratio is the constant $\frac{q_1}{q_2}$; by **Definition 4.3.1** (Geometric Sequence), $\left\{d_n\right\}$ is a geometric sequence.
+The ratio is the constant $\frac{q_1}{q_2}$; by **Definition 4.3.1 (Geometric Sequence)**, $\left\{d_n\right\}$ is a geometric sequence.
 
 $\blacksquare$
 
@@ -167,11 +171,11 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Definition 4.3.1** (Geometric Sequence), the output forms a geometric sequence with first term $a_1=5000$ and common ratio $q=1.5$.
+By **Definition 4.3.1 (Geometric Sequence)**, the output forms a geometric sequence with first term $a_1=5000$ and common ratio $q=1.5$.
 
 The year $2017$ is the $1$st term, and the year $2025$ is the $9$th term.
 
-By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence),
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**,
 
 $$
 a_9=5000\times 1.5^8=5000\times 25.62890625\approx 128145.
@@ -183,7 +187,7 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-Let the average annual growth rate be $r$. By **Definition 4.3.1** (Geometric Sequence),
+Let the average annual growth rate be $r$. By **Definition 4.3.1 (Geometric Sequence)**,
 
 $$
 105\left(1+r\right)^2=240,\ \left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},\ 1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
@@ -199,7 +203,7 @@ $\blacksquare$
 
 ### Solution to Exercise 2
 
-By **Definition 4.1.4** (Increasing and Decreasing Sequences), compare $a_{n+1}$ with $a_n$.
+By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, compare $a_{n+1}$ with $a_n$.
 
 $$
 \frac{a_{n+1}}{a_n}=\frac{\left(n+1\right)^3/3^{n+1}}{n^3/3^n}=\frac{\left(n+1\right)^3}{3n^3}.
@@ -213,7 +217,7 @@ Hence $a_3> a_2$ and $a_4< a_3$, so the maximum is attained at $n=3$.
 
 $\blacksquare$
 
-### Exercise 3
+## Exercise 3
 
 (Exercise 4.3, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding geometric sequence $\left\{a_n\right\}$
 
@@ -225,7 +229,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-(1) By **Theorem 4.3.5** (Sum of the First $n$ Terms),
+(1) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
 S_8=\frac{4\left[1-\left(-\frac{1}{2}\right)^8\right]}{1-\left(-\frac{1}{2}\right)}=\frac{4\left(1-\frac{1}{256}\right)}{\frac{3}{2}}=\frac{8}{3}\times\frac{255}{256}=\frac{85}{32}.
@@ -233,7 +237,7 @@ $$
 
 $\blacksquare$
 
-(2) By **Theorem 4.3.5** (Sum of the First $n$ Terms),
+(2) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
 S_n=\frac{a_1-a_n q}{1-q}=\frac{1-2048\times 2}{1-2}=\frac{-4095}{-1}=4095.
@@ -241,7 +245,7 @@ $$
 
 $\blacksquare$
 
-(3) By **Theorem 4.3.5** (Sum of the First $n$ Terms),
+(3) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
 1023=\frac{1-2^n}{1-2}=2^n-1,\ 2^n=1024,\ n=10.
@@ -253,9 +257,9 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Definition 4.3.1** (Geometric Sequence), the left-hand side is the sum of the geometric sequence $a^n,a^{n-1}b,\cdots,b^n$, with first term $a^n$, common ratio $\frac{b}{a}$, and $n+1$ terms in total.
+By **Definition 4.3.1 (Geometric Sequence)**, the left-hand side is the sum of the geometric sequence $a^n,a^{n-1}b,\cdots,b^n$, with first term $a^n$, common ratio $\frac{b}{a}$, and $n+1$ terms in total.
 
-By **Theorem 4.3.5** (Sum of the First $n$ Terms),
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
 S_{n+1}=\frac{a^n\left[1-\left(\frac{b}{a}\right)^{n+1}\right]}{1-\frac{b}{a}}=\frac{a^n\cdot\frac{a^{n+1}-b^{n+1}}{a^{n+1}}}{\frac{a-b}{a}}=\frac{a^{n+1}-b^{n+1}}{a-b}.
@@ -267,7 +271,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_2=a_1 q=6$ and $a_3=a_1 q^2$.
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_2=a_1 q=6$ and $a_3=a_1 q^2$.
 
 $$
 6a_1+a_3=6a_1+a_1 q^2=30,\ a_1\left(6+q^2\right)=30.
@@ -285,7 +289,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Definition 4.3.2** (Geometric Mean), let the three numbers be $\frac{a}{q},a,aq$.
+By **Definition 4.3.2 (Geometric Mean)**, let the three numbers be $\frac{a}{q},a,aq$.
 
 $$
 \frac{a}{q}+a+aq=14,\ \frac{a}{q}\cdot a\cdot aq=a^3=64.
@@ -301,7 +305,7 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-By **Theorem 4.3.5** (Sum of the First $n$ Terms),
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
 S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,\ S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
@@ -311,7 +315,7 @@ Dividing the two equations, $\frac{1-q^{10}}{1-q^5}=5$, so $1+q^5=5$, $q^5=4$, a
 
 $\blacksquare$
 
-### Exercise 4
+## Exercise 4
 
 (Exercise 4.3, Problem 1) A ball is dropped freely from $100\ \mathrm{m}$, and each time it hits the ground it bounces back to half the previous height before falling again
 
@@ -321,7 +325,7 @@ $\blacksquare$
 
 ### Solution to Exercise 4
 
-(1) By **Definition 4.3.1** (Geometric Sequence), the rebound heights are $50,25,12.5,\cdots$, and the distance traveled by the $5$th impact is
+(1) By **Definition 4.3.1 (Geometric Sequence)**, the rebound heights are $50,25,12.5,\cdots$, and the distance traveled by the $5$th impact is
 
 $$
 S=100+2\left(50+25+12.5+6.25\right)=100+2\times\frac{50\left(1-0.5^4\right)}{1-0.5}=100+2\times 93.75=287.5\ \mathrm{m}.
@@ -351,15 +355,15 @@ $\blacksquare$
 
 ### Solution to Exercise 4
 
-By **Definition 4.3.1** (Geometric Sequence), the first term is $a_1=100$ and the common ratio is $q=1.5$.
+By **Definition 4.3.1 (Geometric Sequence)**, the first term is $a_1=100$ and the common ratio is $q=1.5$.
 
-By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), the funds on the $10$th day are
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, the funds on the $10$th day are
 
 $$
 a_{10}=100\times 1.5^9\approx 3844.34\text{ 万元}.
 $$
 
-By **Theorem 4.3.5** (Sum of the First $n$ Terms), the total funds are
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, the total funds are
 
 $$
 S_{10}=\frac{100\left(1-1.5^{10}\right)}{1-1.5}=200\left(1.5^{10}-1\right)\approx 200\times 56.67=11334.67\text{ 万元}.
@@ -379,7 +383,7 @@ $$
 S_n-1=2\left(S_{n-1}-1\right).
 $$
 
-By **Definition 4.3.1** (Geometric Sequence), $\left\{S_n-1\right\}$ is a geometric sequence with first term $S_1-1=0$ and common ratio $2$.
+By **Definition 4.3.1 (Geometric Sequence)**, $\left\{S_n-1\right\}$ is a geometric sequence with first term $S_1-1=0$ and common ratio $2$.
 
 But the first term is $0$, so $S_n-1=0$ and $S_n=1$. Checking at $n=1$: $S_1=2a_1+1=3\ne 1$, a contradiction.
 
@@ -391,7 +395,7 @@ $S_1-1=2$, so $S_n-1=2\times 2^{n-1}=2^n$, and $S_n=2^n+1$.
 
 $\blacksquare$
 
-### Problem 1
+## Problem 1
 
 (Exercise 4.3, Review and Consolidation, Problem 1) In a geometric sequence $\left\{a_n\right\}$
 
@@ -401,11 +405,11 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_7=a_4 q^3=27\times\left(-3\right)^3=27\times\left(-27\right)=-729$.
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_7=a_4 q^3=27\times\left(-3\right)^3=27\times\left(-27\right)=-729$.
 
 $\blacksquare$
 
-(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $q^2=\frac{a_4}{a_2}=\frac{8}{18}=\frac{4}{9}$, so $q=\pm\frac{2}{3}$.
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $q^2=\frac{a_4}{a_2}=\frac{8}{18}=\frac{4}{9}$, so $q=\pm\frac{2}{3}$.
 
 When $q=\frac{2}{3}$, $a_1=\frac{18}{2/3}=27$; when $q=-\frac{2}{3}$, $a_1=\frac{18}{-2/3}=-27$.
 
@@ -419,7 +423,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1\left(q^4-1\right)=15$, $a_1 q\left(q^2-1\right)=6$.
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1\left(q^4-1\right)=15$, $a_1 q\left(q^2-1\right)=6$.
 
 Dividing the two equations, $\frac{q^4-1}{q\left(q^2-1\right)}=\frac{15}{6}=\frac{5}{2}$, so $\frac{q^2+1}{q}=\frac{5}{2}$, $2q^2-5q+2=0$, and $q=2$ or $q=\frac{1}{2}$.
 
@@ -427,7 +431,7 @@ When $q=2$, $a_1=1$, $a_3=4$; when $q=\frac{1}{2}$, $a_1=-16$, $a_3=-4$.
 
 $\blacksquare$
 
-(2) By **Theorem 4.3.3** (General Term Formula of a Geometric Sequence), $a_1\left(1+q^2\right)=10$, $a_1 q^3\left(1+q^2\right)=\frac{5}{4}$.
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1\left(1+q^2\right)=10$, $a_1 q^3\left(1+q^2\right)=\frac{5}{4}$.
 
 Dividing the two equations, $q^3=\frac{1}{8}$, so $q=\frac{1}{2}$.
 
@@ -443,7 +447,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Theorem 4.3.5** (Sum of the First $n$ Terms), the first term is $1$, the common ratio is $2$, and there are $n+1$ terms.
+(1) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, the first term is $1$, the common ratio is $2$, and there are $n+1$ terms.
 
 $$
 S_{n+1}=\frac{1-2^{n+1}}{1-2}=2^{n+1}-1.
@@ -467,7 +471,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.3.1** (Geometric Sequence), the amount remaining each second is $1-k$ times the previous second's amount,
+(1) By **Definition 4.3.1 (Geometric Sequence)**, the amount remaining each second is $1-k$ times the previous second's amount,
 
 $$
 N\left(t\right)=N_0\left(1-k\right)^\top.
@@ -487,7 +491,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Theorem 4.3.5** (Sum of the First $n$ Terms), $2S_9=S_3+S_6$.
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, $2S_9=S_3+S_6$.
 
 $$
 2\cdot\frac{a_1\left(1-q^9\right)}{1-q}=\frac{a_1\left(1-q^3\right)}{1-q}+\frac{a_1\left(1-q^6\right)}{1-q}.
@@ -511,13 +515,13 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.1.5** (General Term Formula),
+By **Definition 4.1.5 (General Term Formula)**,
 
 $$
 a_n=\frac{10^n-1}{9}.
 $$
 
-By **Theorem 4.3.5** (Sum of the First $n$ Terms),
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
 S_n=\sum_{k=1}^n\frac{10^k-1}{9}=\frac{1}{9}\left(\frac{10\left(10^n-1\right)}{9}-n\right)=\frac{10^{n+1}-9n-10}{81}.
@@ -585,7 +589,7 @@ $\blacksquare$
 
 (2) From $a_{n+1}=2a_n+1$, we get $a_{n+1}+1=2\left(a_n+1\right)$.
 
-By **Definition 4.3.1** (Geometric Sequence), $\left\{a_n+1\right\}$ is a geometric sequence with common ratio $2$.
+By **Definition 4.3.1 (Geometric Sequence)**, $\left\{a_n+1\right\}$ is a geometric sequence with common ratio $2$.
 
 $\blacksquare$
 
@@ -597,7 +601,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Definition 4.3.1** (Geometric Sequence), the number of infected people per round is $1,R_0,R_0^2,\cdots,R_0^n$.
+(1) By **Definition 4.3.1 (Geometric Sequence)**, the number of infected people per round is $1,R_0,R_0^2,\cdots,R_0^n$.
 
 After $n$ rounds, the total number infected is
 
@@ -615,7 +619,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-By **Definition 4.3.1** (Geometric Sequence), $a_{2016}a_{2017}=a_{2016}^2 q< 0$, hence $q< 0$.
+By **Definition 4.3.1 (Geometric Sequence)**, $a_{2016}a_{2017}=a_{2016}^2 q< 0$, hence $q< 0$.
 
 $a_1> 1$ and $a_{2016}a_{2017}< 0$ mean that $a_{2016}$ and $a_{2017}$ have opposite signs, i.e. the sequence changes from positive to negative around the $2016$th term.
 
@@ -645,7 +649,7 @@ $$
 \frac{1}{a_{n+1}}-\frac{1}{3}=\frac{1}{3}\left(\frac{1}{a_n}-\frac{1}{3}\right).
 $$
 
-By **Definition 4.3.1** (Geometric Sequence), $\left\{\frac{1}{a_n}-\frac{1}{3}\right\}$ is a geometric sequence with common ratio $\frac{1}{3}$.
+By **Definition 4.3.1 (Geometric Sequence)**, $\left\{\frac{1}{a_n}-\frac{1}{3}\right\}$ is a geometric sequence with common ratio $\frac{1}{3}$.
 
 $\frac{1}{a_n}-\frac{1}{3}=\left(1-\frac{1}{3}\right)\left(\frac{1}{3}\right)^{n-1}=\frac{2}{3^n}$.
 
@@ -685,12 +689,12 @@ But $q\ne 1$, a contradiction; hence $\left\{b_n\right\}$ is not a geometric seq
 
 $\blacksquare$
 
-(2) If $\left\{a_n\right\}$ is an arithmetic sequence, by **Theorem 4.2.7** (Sum of the First $n$ Terms, Formula II), $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+(2) If $\left\{a_n\right\}$ is an arithmetic sequence, by **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
 
 $$
 b_n=a_1+\frac{\left(n-1\right)d}{2}.
 $$
 
-$b_{n+1}-b_n=\frac{d}{2}$ is a constant; by **Definition 4.2.1** (Arithmetic Sequence), $\left\{b_n\right\}$ is an arithmetic sequence.
+$b_{n+1}-b_n=\frac{d}{2}$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{b_n\right\}$ is an arithmetic sequence.
 
 $\blacksquare$
