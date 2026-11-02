@@ -1,24 +1,24 @@
 # week35
 > **Definition 7.1.1 (虚数单位)**
->
+> 
 > 我们引入一个新数 $\mathrm{i}$, 使 $\mathrm{i}^2=-1$, $\mathrm{i}$ 叫做虚数单位.
 > **Definition 7.1.4 (Real and Imaginary Parts)**
->
+> 
 > 复数 z = a + bi (a, b 为实数) 中, a 叫做实部, b 叫做虚部.
 > **Definition 7.1.5 (Equality of Complex Numbers)**
->
+> 
 > 两个复数相等当且仅当它们的实部和虚部分别相等.
 > **Definition 7.1.6 (Real, Imaginary, Purely Imaginary)**
->
+> 
 > 当 b = 0 时, 复数 a + bi 为实数; 当 b != 0 时, 叫做虚数; 当 a = 0 且 b != 0 时, 叫做纯虚数.
 > **Definition 7.1.7 (Complex Plane)**
->
+> 
 > 建立直角坐标系表示复数的平面叫做复平面, x 轴叫做实轴, y 轴叫做虚轴.
 > **Definition 7.1.8 (Geometric Meaning of Complex Numbers)**
->
+> 
 > 复数 z = a + bi 与复平面内的点 Z(a, b) 一一对应, 也与向量 OZ = (a, b) 一一对应.
 > **Definition 7.1.9 (Modulus of a Complex Number)**
->
+> 
 > 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
 
 ---

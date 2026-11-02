@@ -1,12 +1,12 @@
 # week23
 > **Definition 5.6.1 (振幅)**
->
+> 
 > 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
 > **Definition 5.6.2 (Period)**
->
+> 
 > 对于函数 f(x), 如果存在一个非零常数 T, 使得当 x 取定义域内的每一个值时, 都有 f(x+T) = f(x), 则 f(x) 叫做周期函数, T 叫做这个函数的周期.
 > **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
->
+> 
 > 参见教材相应章节关于此概念的论述.
 
 ---

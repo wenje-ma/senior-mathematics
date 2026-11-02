@@ -1,9 +1,9 @@
 # week20
 > **Basic Knowledge: 公式一**
->
+> 
 > $\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, 其中 $k\in\mathbb Z$.
 > **Definition 5.2.1 (Sine, Cosine, Tangent)**
->
+> 
 > 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
 ---

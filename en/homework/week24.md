@@ -1,9 +1,9 @@
 # week24
 > **Definition 5.7.1 (简谐运动)**
->
+> 
 > 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
 > **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**
->
+> 
 > 函数 y = A sin(omega x + phi) 中, A 是振幅, T = 2pi/omega 是周期, f = 1/T 是频率, omega x + phi 是相位, phi 是初相.
 
 ---

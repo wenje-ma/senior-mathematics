@@ -1,9 +1,9 @@
 # week92
 > **Definition 8.2.1 (一元线性回归模型)**
->
+> 
 > 用 $x$ 表示自变量, $Y$ 表示因变量, $e$ 表示随机误差, 假定随机误差 $e$ 的均值为 0, 方差为与 $x$ 无关的定值 $\sigma^2$, 则它们之间的关系可以表示为 $Y=bx+a+e$, $\mathbb E\left(e\right)=0$, $D\left(e\right)=\sigma^2$. 其中 $a$ 称为截距参数, $b$ 称为斜率参数, $e$ 是 $Y$ 与 $bx+a$ 之间的随机误差.
 > **Definition 8.2.4 (Empirical Regression Equation)**
->
+> 
 > The regression line y = bx + a obtained by the least squares method.
 
 ---

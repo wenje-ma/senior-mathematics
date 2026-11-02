@@ -1,9 +1,9 @@
 # week25
 > **Definition 3.1.1 (Function)**
->
+> 
 > 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
 > **Definition 4.3.1 (Logarithm)**
->
+> 
 > If a^b = N (a > 0, a != 1), then b is called the logarithm of N base a.
 
 ---

@@ -1,33 +1,33 @@
 # week51
 > **Definition 6.1.1 (向量与数量)**
->
+> 
 > 既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
 > **Definition 6.1.7 (Equal Vectors)**
->
+> 
 > 长度相等且方向相同的向量叫做相等向量.
 > **Definition 6.2.4 (Permutation and Factorial)**
->
+> 
 > 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
 > **Definition 6.2.5 (Vector Subtraction)**
->
+> 
 > a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
 > **Definition 6.2.6 (Scalar Multiplication)**
->
+> 
 > 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
 > **Theorem 6.2.8 (Collinear Vectors Theorem)**
->
+> 
 > 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
 > **Definition 6.2.11 (向量的数量积)**
->
+> 
 > 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
 > **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
->
+> 
 > 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
 > **Theorem 6.4.2 (Law of Cosines)**
->
+> 
 > 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
 > **Theorem 6.4.3 (Law of Sines)**
->
+> 
 > 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
 
 ---

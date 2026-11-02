@@ -1,33 +1,33 @@
 # week72
 > **Basic Knowledge: 常用结论 4.2.4**
->
+> 
 > 当 $d\ne 0$ 时, $a_n=dn+\left(a_1-d\right)$ 是一次函数 $f\left(x\right)=dx+\left(a_1-d\right)$ 当 $x=n$ 时的函数值.
 > **Definition 4.1.5 (General Term Formula)**
->
+> 
 > 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
 > **Definition 4.1.6 (递推公式)**
->
+> 
 > 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
 > **Definition 4.2.1 (Arithmetic Sequence)**
->
+> 
 > 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
 > **Definition 4.2.2 (等差中项)**
->
+> 
 > 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
 > **Theorem 4.2.3 (Arithmetic Sequence Formula)**
->
+> 
 > 等差数列的通项公式为 an = a1 + (n-1)d.
 > **Theorem 4.2.5 (等差数列性质)**
->
+> 
 > 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
 > **Theorem 4.2.6 (前 $n$ 项和公式一)**
->
+> 
 > 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
 > **Theorem 4.2.7 (前 $n$ 项和公式二)**
->
+> 
 > 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
 > **Definition 4.3.1 (Geometric Sequence)**
->
+> 
 > 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
 
 ---

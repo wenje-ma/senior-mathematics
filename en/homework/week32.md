@@ -1,27 +1,27 @@
 # week32
 > **Definition 6.1.7 (Equal Vectors)**
->
+> 
 > 长度相等且方向相同的向量叫做相等向量.
 > **Definition 6.2.1 (向量加法的三角形法则)**
->
+> 
 > 已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
 > **Definition 6.2.2 (Parallelogram Rule)**
->
+> 
 > 已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
 > **Definition 6.2.4 (Permutation and Factorial)**
->
+> 
 > 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
 > **Definition 6.2.5 (Vector Subtraction)**
->
+> 
 > a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
 > **Definition 6.2.6 (Scalar Multiplication)**
->
+> 
 > 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
 > **Theorem 6.2.8 (Collinear Vectors Theorem)**
->
+> 
 > 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
 > **Definition 6.2.11 (向量的数量积)**
->
+> 
 > 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
 
 ---

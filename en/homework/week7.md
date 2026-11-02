@@ -1,9 +1,9 @@
 # week7
 > **Basic Knowledge: 常用结论 2.1.2**
->
+> 
 > $\forall a,b\in\mathbb R$, 有 $a^2+b^2\ge 2ab$, 当且仅当 $a=b$ 时, 等号成立.
 > **Theorem 2.2.1 (AM-GM Inequality)**
->
+> 
 > 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
 
 ---

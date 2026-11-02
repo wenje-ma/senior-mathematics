@@ -1,9 +1,9 @@
 # week33
 > **Definition 6.1.7 (Equal Vectors)**
->
+> 
 > 长度相等且方向相同的向量叫做相等向量.
 > **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
->
+> 
 > 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
 
 ---
