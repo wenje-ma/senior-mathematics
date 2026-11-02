@@ -1,11 +1,25 @@
 # week36
-> **Definition 7.1.5 (Equality of Complex Numbers)**<br>两个复数相等当且仅当它们的实部和虚部分别相等.
-> **Definition 7.1.9 (Modulus of a Complex Number)**<br>复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
-> **Definition 7.2.1 (Addition of Complex Numbers)**<br>(a + bi) + (c + di) = (a + c) + (b + d)i.
-> **Definition 7.2.2 (Subtraction of Complex Numbers)**<br>(a + bi) - (c + di) = (a - c) + (b - d)i.
-> **Definition 7.2.5 (Multiplication of Complex Numbers)**<br>(a + bi)(c + di) = (ac - bd) + (ad + bc)i.
-> **Definition 7.2.7 (Division of Complex Numbers)**<br>(a + bi)/(c + di) = [(ac + bd) + (bc - ad)i]/(c^2 + d^2) (c + di != 0).
-> **Definition 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**<br>实系数方程 ax^2 + bx + c = 0 在复数范围内的根为 x = [-b +/- sqrt(b^2 - 4ac)]/(2a), 当判别式小于 0 时根为共轭复数.
+> **Definition 7.1.5 (Equality of Complex Numbers)**
+>
+> 两个复数相等当且仅当它们的实部和虚部分别相等.
+> **Definition 7.1.9 (Modulus of a Complex Number)**
+>
+> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
+> **Definition 7.2.1 (Addition of Complex Numbers)**
+>
+> (a + bi) + (c + di) = (a + c) + (b + d)i.
+> **Definition 7.2.2 (Subtraction of Complex Numbers)**
+>
+> (a + bi) - (c + di) = (a - c) + (b - d)i.
+> **Definition 7.2.5 (Multiplication of Complex Numbers)**
+>
+> (a + bi)(c + di) = (ac - bd) + (ad + bc)i.
+> **Definition 7.2.7 (Division of Complex Numbers)**
+>
+> (a + bi)/(c + di) = [(ac + bd) + (bc - ad)i]/(c^2 + d^2) (c + di != 0).
+> **Definition 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**
+>
+> 实系数方程 ax^2 + bx + c = 0 在复数范围内的根为 x = [-b +/- sqrt(b^2 - 4ac)]/(2a), 当判别式小于 0 时根为共轭复数.
 
 ---
 

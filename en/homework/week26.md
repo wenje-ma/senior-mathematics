@@ -1,14 +1,34 @@
 # week26
-> **Basic Knowledge: Common Number Sets**<br>全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
-> **Definition 1.1.6 (Roster Method)**<br>把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
-> **Definition 1.2.1 (Subset)**<br>一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
-> **Definition 1.3.1 (Union)**<br>由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
-> **Definition 1.3.2 (Intersection)**<br>由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
-> **Definition 1.4.2 (Sufficient and Necessary Conditions)**<br>如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
-> **Definition 1.4.4 (Necessary and Sufficient Condition)**<br>如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
-> **Definition 1.5.1 (Universal Quantifier)**<br>短语"所有的""任意一个"在逻辑中通常叫做全称量词, 用符号"$\forall$"表示. 含有全称量词的命题, 叫做全称量词命题.
-> **Definition 1.5.2 (Existential Quantifier)**<br>短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
-> **Definition 1.5.3 (Negation of a Proposition)**<br>对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg p$. 若 $p$ 是真命题, 则 $\neg p$ 是假命题; 若 $p$ 是假命题, 则 $\neg p$ 是真命题.
+> **Basic Knowledge: Common Number Sets**
+>
+> 全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
+> **Definition 1.1.6 (Roster Method)**
+>
+> 把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
+> **Definition 1.2.1 (Subset)**
+>
+> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+> **Definition 1.3.1 (Union)**
+>
+> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
+> **Definition 1.3.2 (Intersection)**
+>
+> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
+> **Definition 1.4.2 (Sufficient and Necessary Conditions)**
+>
+> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
+> **Definition 1.4.4 (Necessary and Sufficient Condition)**
+>
+> 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
+> **Definition 1.5.1 (Universal Quantifier)**
+>
+> 短语"所有的""任意一个"在逻辑中通常叫做全称量词, 用符号"$\forall$"表示. 含有全称量词的命题, 叫做全称量词命题.
+> **Definition 1.5.2 (Existential Quantifier)**
+>
+> 短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
+> **Definition 1.5.3 (Negation of a Proposition)**
+>
+> 对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg p$. 若 $p$ 是真命题, 则 $\neg p$ 是假命题; 若 $p$ 是假命题, 则 $\neg p$ 是真命题.
 
 ---
 

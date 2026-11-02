@@ -1,10 +1,22 @@
 # week2
-> **Basic Knowledge: Common Number Sets**<br>全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
-> **Definition 1.1.5 (Membership)**<br>如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
-> **Definition 1.2.1 (Subset)**<br>一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
-> **Definition 1.2.2 (Equality of Sets)**<br>如果集合 $A$ 是集合 $B$ 的子集, 且集合 $B$ 是集合 $A$ 的子集, 此时集合 $A$ 与集合 $B$ 中的元素是一样的, 就称集合 $A$ 与集合 $B$ 相等, 记作 $A=B$.
-> **Definition 1.2.3 (Proper Subset)**<br>如果集合 $A\subseteq B$, 但存在元素 $x\in B$ 且 $x\notin A$, 就称集合 $A$ 是集合 $B$ 的真子集.
-> **Definition 1.2.4 (Empty Set)**<br>不含任何元素的集合叫做空集, 记作 $\varnothing$. 规定空集是任何集合的子集.
+> **Basic Knowledge: Common Number Sets**
+>
+> 全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
+> **Definition 1.1.5 (Membership)**
+>
+> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> **Definition 1.2.1 (Subset)**
+>
+> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+> **Definition 1.2.2 (Equality of Sets)**
+>
+> 如果集合 $A$ 是集合 $B$ 的子集, 且集合 $B$ 是集合 $A$ 的子集, 此时集合 $A$ 与集合 $B$ 中的元素是一样的, 就称集合 $A$ 与集合 $B$ 相等, 记作 $A=B$.
+> **Definition 1.2.3 (Proper Subset)**
+>
+> 如果集合 $A\subseteq B$, 但存在元素 $x\in B$ 且 $x\notin A$, 就称集合 $A$ 是集合 $B$ 的真子集.
+> **Definition 1.2.4 (Empty Set)**
+>
+> 不含任何元素的集合叫做空集, 记作 $\varnothing$. 规定空集是任何集合的子集.
 
 ---
 

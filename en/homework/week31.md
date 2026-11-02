@@ -1,10 +1,22 @@
 # week31
-> **Definition 6.1.1 (向量与数量)**<br>在数学中, 我们把既有大小又有方向的量叫做向量, 而把只有大小没有方向的量称为数量, 如年龄, 身高, 长度, 面积, 体积, 质量等都是数量.
-> **Definition 6.1.2 (分步乘法计数原理)**<br>具有方向的线段叫做有向线段, 包含起点,方向和长度三个要素.
-> **Definition 6.1.3 (Magnitude of a Vector)**<br>向量 AB 的大小, 也就是向量 AB 的长度 (或称模), 记作 |AB|.
-> **Definition 6.1.5 (Unit Vector)**<br>长度等于 1 个单位长度的向量叫做单位向量.
-> **Definition 6.1.6 (Parallel and Collinear Vectors)**<br>方向相同或相反的非零向量叫做平行向量, 也叫共线向量.
-> **Definition 6.1.7 (Equal Vectors)**<br>长度相等且方向相同的向量叫做相等向量.
+> **Definition 6.1.1 (向量与数量)**
+>
+> 在数学中, 我们把既有大小又有方向的量叫做向量, 而把只有大小没有方向的量称为数量, 如年龄, 身高, 长度, 面积, 体积, 质量等都是数量.
+> **Definition 6.1.2 (分步乘法计数原理)**
+>
+> 具有方向的线段叫做有向线段, 包含起点,方向和长度三个要素.
+> **Definition 6.1.3 (Magnitude of a Vector)**
+>
+> 向量 AB 的大小, 也就是向量 AB 的长度 (或称模), 记作 |AB|.
+> **Definition 6.1.5 (Unit Vector)**
+>
+> 长度等于 1 个单位长度的向量叫做单位向量.
+> **Definition 6.1.6 (Parallel and Collinear Vectors)**
+>
+> 方向相同或相反的非零向量叫做平行向量, 也叫共线向量.
+> **Definition 6.1.7 (Equal Vectors)**
+>
+> 长度相等且方向相同的向量叫做相等向量.
 
 ---
 

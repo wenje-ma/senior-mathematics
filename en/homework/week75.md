@@ -1,7 +1,13 @@
 # week75
-> **Definition 5.1.1 (平均变化率)**<br>对于函数 $y=f\left(x\right)$, 设自变量 $x$ 从 $x_{0}$ 变化到 $x_{0}+\Delta x$, 相应地函数值 $y$ 从 $f\left(x_{0}\right)$ 变化到 $f\left(x_{0}+\Delta x\right)$, 这时 $x$ 的变化量为 $\Delta x$, $y$ 的变化量为 $\Delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)$, 比值 $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$ 叫做函数 $y=f\left(x\right)$ 从 $x_{0}$ 到 $x_{0}+\Delta x$ 的平均变化率.
-> **Definition 5.1.2 (Derivative)**<br>函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
-> **Definition 5.1.3 (One Radian)**<br>函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **Definition 5.1.1 (平均变化率)**
+>
+> 对于函数 $y=f\left(x\right)$, 设自变量 $x$ 从 $x_{0}$ 变化到 $x_{0}+\Delta x$, 相应地函数值 $y$ 从 $f\left(x_{0}\right)$ 变化到 $f\left(x_{0}+\Delta x\right)$, 这时 $x$ 的变化量为 $\Delta x$, $y$ 的变化量为 $\Delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)$, 比值 $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$ 叫做函数 $y=f\left(x\right)$ 从 $x_{0}$ 到 $x_{0}+\Delta x$ 的平均变化率.
+> **Definition 5.1.2 (Derivative)**
+>
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**
+>
+> 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
 
 ---
 

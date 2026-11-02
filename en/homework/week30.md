@@ -1,7 +1,13 @@
 # week30
-> **Basic Knowledge: 公式 5.1.1**<br>长度等于半径长的弧所对的圆心角称为 $1$ 弧度的角. 弧长公式 $l=\lvert\alpha\rvert r$, 扇形面积 $S=\frac{1}{2}lr=\frac{1}{2}\lvert\alpha\rvert r^{2}$.
-> **Definition 5.6.1 (周期函数)**<br>参见教材相应章节关于此概念的论述.
-> **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**<br>参见教材相应章节关于此概念的论述.
+> **Basic Knowledge: 公式 5.1.1**
+>
+> 长度等于半径长的弧所对的圆心角称为 $1$ 弧度的角. 弧长公式 $l=\lvert\alpha\rvert r$, 扇形面积 $S=\frac{1}{2}lr=\frac{1}{2}\lvert\alpha\rvert r^{2}$.
+> **Definition 5.6.1 (周期函数)**
+>
+> 参见教材相应章节关于此概念的论述.
+> **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
+>
+> 参见教材相应章节关于此概念的论述.
 
 ---
 

@@ -1,9 +1,19 @@
 # week45
-> **Definition 9.1.4 (Population Mean and Sample Mean)**<br>总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
-> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**<br>将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
-> **Definition 9.2.2 (第 p 百分位数)**<br>将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
-> **Definition 9.2.3 (Mode, Median, and Mean)**<br>一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
-> **Definition 9.2.4 (Variance and Standard Deviation)**<br>方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
+> **Definition 9.1.4 (Population Mean and Sample Mean)**
+>
+> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**
+>
+> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
+> **Definition 9.2.2 (第 p 百分位数)**
+>
+> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
+> **Definition 9.2.3 (Mode, Median, and Mean)**
+>
+> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
+> **Definition 9.2.4 (Variance and Standard Deviation)**
+>
+> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
 ---
 

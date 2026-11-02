@@ -1,7 +1,13 @@
 # week85
-> **Definition 7.2.3 (分布列)**<br>设离散型随机变量 X 可能取的值为 x1, x2, ..., xn, X 取每一个值 xi 的概率 P(X=xi) = pi, 则表称为 X 的分布列.
-> **Definition 7.3.1 (均值)**<br>若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
-> **Definition 7.3.3 (Variance and Standard Deviation)**<br>D(X) = sum[(xi - E(X))^2 * pi] 称为随机变量 X 的方差, 其算术平方根 sqrt(D(X)) 称为标准差.
+> **Definition 7.2.3 (分布列)**
+>
+> 设离散型随机变量 X 可能取的值为 x1, x2, ..., xn, X 取每一个值 xi 的概率 P(X=xi) = pi, 则表称为 X 的分布列.
+> **Definition 7.3.1 (均值)**
+>
+> 若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
+> **Definition 7.3.3 (Variance and Standard Deviation)**
+>
+> D(X) = sum[(xi - E(X))^2 * pi] 称为随机变量 X 的方差, 其算术平方根 sqrt(D(X)) 称为标准差.
 
 ---
 

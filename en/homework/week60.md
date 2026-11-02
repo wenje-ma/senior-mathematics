@@ -1,6 +1,10 @@
 # week60
-> **Definition 2.1.1 (倾斜角)**<br>当直线 l 与 x 轴相交时, 我们取 x 轴为基准, x 轴正向与直线 l 向上方向之间所成的角 alpha 叫做直线 l 的倾斜角.
-> **Definition 2.1.2 (Slope)**<br>一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> **Definition 2.1.1 (倾斜角)**
+>
+> 当直线 l 与 x 轴相交时, 我们取 x 轴为基准, x 轴正向与直线 l 向上方向之间所成的角 alpha 叫做直线 l 的倾斜角.
+> **Definition 2.1.2 (Slope)**
+>
+> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
 
 ---
 

@@ -1,6 +1,10 @@
 # week19
-> **Definition 5.2.1 (Sine, Cosine, Tangent)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
-> **Definition 5.2.2 (终边上任意一点的三角函数比值)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.1 (Sine, Cosine, Tangent)**
+>
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (终边上任意一点的三角函数比值)**
+>
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
 ---
 

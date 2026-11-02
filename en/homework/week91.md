@@ -1,5 +1,7 @@
 # week91
-> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**<br>(a+b)^n = C(n,0)a^n + C(n,1)a^(n-1)b + ... + C(n,n)b^n.
+> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
+>
+> (a+b)^n = C(n,0)a^n + C(n,1)a^(n-1)b + ... + C(n,n)b^n.
 
 ---
 

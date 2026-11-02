@@ -1,12 +1,28 @@
 # week79
-> **Definition 5.1.1 (平均变化率)**<br>$\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
-> **Definition 5.1.2 (Derivative)**<br>函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
-> **Definition 5.1.3 (One Radian)**<br>长度等于半径长的圆弧所对的圆心角叫做 1 弧度的角.
-> **Definition 5.2.1 (Derivative Formulas)**<br>设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
-> **Definition 5.2.2 (Differentiation Rules)**<br>设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
-> **Definition 5.2.3 (Chain Rule)**<br>复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
-> **Definition 5.3.1 (Monotonicity and Derivative Sign)**<br>在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
-> **Definition 5.3.2 (Local Extrema)**<br>如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+> **Definition 5.1.1 (平均变化率)**
+>
+> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **Definition 5.1.2 (Derivative)**
+>
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x->0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**
+>
+> 长度等于半径长的圆弧所对的圆心角叫做 1 弧度的角.
+> **Definition 5.2.1 (Derivative Formulas)**
+>
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (Differentiation Rules)**
+>
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.3 (Chain Rule)**
+>
+> 复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
+> **Definition 5.3.1 (Monotonicity and Derivative Sign)**
+>
+> 在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+> **Definition 5.3.2 (Local Extrema)**
+>
+> 如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
 
 ---
 

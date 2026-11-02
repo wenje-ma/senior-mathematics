@@ -1,13 +1,31 @@
 # week54
-> **Definition 9.1.1 (普查与抽样调查)**<br>对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
-> **Definition 9.1.2 (Population, Individual, Sample, Sample Size)**<br>统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
-> **Definition 9.1.3 (简单随机抽样)**<br>设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
-> **Definition 9.1.4 (Population Mean and Sample Mean)**<br>总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
-> **Definition 9.1.5 (Stratified Random Sampling)**<br>将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
-> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**<br>将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
-> **Definition 9.2.2 (第 p 百分位数)**<br>将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
-> **Definition 9.2.3 (Mode, Median, and Mean)**<br>一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
-> **Definition 9.2.4 (Variance and Standard Deviation)**<br>方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
+> **Definition 9.1.1 (普查与抽样调查)**
+>
+> 对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
+> **Definition 9.1.2 (Population, Individual, Sample, Sample Size)**
+>
+> 统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
+> **Definition 9.1.3 (简单随机抽样)**
+>
+> 设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
+> **Definition 9.1.4 (Population Mean and Sample Mean)**
+>
+> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **Definition 9.1.5 (Stratified Random Sampling)**
+>
+> 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
+> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**
+>
+> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
+> **Definition 9.2.2 (第 p 百分位数)**
+>
+> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
+> **Definition 9.2.3 (Mode, Median, and Mean)**
+>
+> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
+> **Definition 9.2.4 (Variance and Standard Deviation)**
+>
+> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
 ---
 
