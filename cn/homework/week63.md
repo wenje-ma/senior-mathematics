@@ -1,7 +1,4 @@
 # week63
-> **基础知识: 常用结论 2.3.2**
-> 
-> 平面内两点 $P_1\left(x_1,y_1\right)$, $P_2\left(x_2,y_2\right)$ 间的距离为 $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
 > **定义 2.4.1 (圆的标准方程)**
 > 
 > 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.

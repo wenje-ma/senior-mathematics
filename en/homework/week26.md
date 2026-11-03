@@ -1,7 +1,4 @@
 # week26
-> **Basic Knowledge: Common Number Sets**
-> 
-> 全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
 > **Definition 1.1.6 (Roster Method)**
 > 
 > 把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
@@ -48,7 +45,7 @@ By **Definition 1.1.6 (Roster Method)**, list the elements of the set one by one
 
 (1) The roots of the equation $x^2=9$ are $x=\pm3$, hence $A=\left\{-3,3\right\}$.
 
-(2) By **Basic Knowledge: Common Number Sets**, $\mathbb N$ is the set of nonnegative integers; the nonnegative integers satisfying $1\le x\le2$ are $1,2$, hence $B=\left\{1,2\right\}$.
+(2) By Common Number Sets, $\mathbb N$ is the set of nonnegative integers; the nonnegative integers satisfying $1\le x\le2$ are $1,2$, hence $B=\left\{1,2\right\}$.
 
 (3) The equation $x^2-3x+2=0$ is $\left(x-1\right)\left(x-2\right)=0$, with roots $x=1$ or $x=2$, hence $C=\left\{1,2\right\}$. $\blacksquare$
 

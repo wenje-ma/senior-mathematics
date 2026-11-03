@@ -1,7 +1,4 @@
 # week3
-> **Basic Knowledge: Common Number Sets**
-> 
-> 全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
 > **Definition 1.1.5 (Membership)**
 > 
 > 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
@@ -127,7 +124,7 @@ By **Definition 1.3.2 (Intersection)**, $A\cap B$ consists of real numbers simul
 
 ### Solution to Problem 2
 
-By the **Basic Knowledge: Common Number Sets** and **Definition 1.1.5 (Belonging and Not Belonging)**, the positive integers less than $9$ are $1,2,3,4,5,6,7,8$, so $A=\left\{1,2,3,4,5,6,7,8\right\}$.
+By the Common Number Sets and **Definition 1.1.5 (Belonging and Not Belonging)**, the positive integers less than $9$ are $1,2,3,4,5,6,7,8$, so $A=\left\{1,2,3,4,5,6,7,8\right\}$.
 
 By **Definition 1.3.2 (Intersection)**, $A\cap B$ is the common elements of $A$ and $B$, i.e. $A\cap B=\left\{1,2,3\right\}$.
 
@@ -193,7 +190,7 @@ The roots of the equation $\left(x-3\right)\left(x-a\right)=0$ are $x=3$ and $x=
 
 ### Solution to Problem 6
 
-By the **Basic Knowledge: Common Number Sets**, $\mathbb N$ is the non-negative integer set, so $U=A\cup B=\left\{0,1,2,3,4,5,6,7,8,9,10\right\}$.
+By the Common Number Sets, $\mathbb N$ is the non-negative integer set, so $U=A\cup B=\left\{0,1,2,3,4,5,6,7,8,9,10\right\}$.
 
 By **Definition 1.3.4 (Complement)**, $\boldsymbol{U\setminus B}$ is the elements in $U$ that do not belong to $B$. Also by **Definition 1.3.1 (Union)**, $U=A\cup B$, i.e. every element in $U$ belongs to at least one of $A,B$. Thus the elements in $U$ that do not belong to $B$ must belong to $A$, i.e.
 

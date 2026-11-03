@@ -1,7 +1,4 @@
 # week22
-> **基础知识: 公式 5.5.1**
-> 
-> $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$.
 
 ---
 

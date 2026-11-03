@@ -1,7 +1,4 @@
 # week1
-> **Basic Knowledge: Common Number Sets**
-> 
-> 全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
 > **Definition 1.1.1 (Sets and Elements)**
 > 
 > 一般地, 我们把研究对象统称为元素, 把一些元素组成的总体叫做集合, 简称为集. 通常用大写拉丁字母 $A,B,C,\cdots$ 表示集合, 用小写拉丁字母 $a,b,c,\cdots$ 表示集合中的元素.
@@ -54,7 +51,7 @@ By **Definition 1.1.2 (Determinacy of Elements)**, once a set is given, whether 
 
 ### Solution to Exercise 2
 
-By the **Basic Knowledge: Common Number Sets** and **Definition 1.1.5 (Belonging and Not Belonging)**.
+By the Common Number Sets and **Definition 1.1.5 (Belonging and Not Belonging)**.
 
 (1) $0$ is a non-negative integer, so $0\in\mathbb N$.
 
@@ -108,7 +105,7 @@ From $x+3=-2x+6$, we get $3x=3$, i.e. $x=1$; substituting back gives $y=4$, so t
 
 ### Solution to Problem 1
 
-By **Definition 1.1.5 (Belonging and Not Belonging)** and the **Basic Knowledge: Common Number Sets**.
+By **Definition 1.1.5 (Belonging and Not Belonging)** and the Common Number Sets.
 
 (1) China is an Asian country, so China$\in A$; the United States is not an Asian country, so the United States$\notin A$; India is an Asian country, so India$\in A$; the United Kingdom is not an Asian country, so the United Kingdom$\notin A$.
 
@@ -116,7 +113,7 @@ By **Definition 1.1.5 (Belonging and Not Belonging)** and the **Basic Knowledge:
 
 (3) The equation $x^2+x-6=0$ is equivalent to $\left(x+3\right)\left(x-2\right)=0$, whose roots are $-3,2$, so $B=\left\{-3,2\right\}$. Since $3$ is not an element of $B$, we have $3\notin B$.
 
-(4) By the **Basic Knowledge: Common Number Sets**, $\mathbb N$ is the non-negative integer set, and the set $C=\left\{x\in\mathbb N\mid 1\le x\le10\right\}=\left\{1,2,3,4,5,6,7,8,9,10\right\}$. Since $8\in C$, and $9.1$ is not an integer, we have $9.1\notin C$. $\blacksquare$
+(4) By the Common Number Sets, $\mathbb N$ is the non-negative integer set, and the set $C=\left\{x\in\mathbb N\mid 1\le x\le10\right\}=\left\{1,2,3,4,5,6,7,8,9,10\right\}$. Since $8\in C$, and $9.1$ is not an integer, we have $9.1\notin C$. $\blacksquare$
 
 ## Problem 2
 
@@ -136,7 +133,7 @@ By **Definition 1.1.6 (Roster Method)**, list the elements of the set one by one
 
 (2) The roots of the equation $\left(x-1\right)\left(x+2\right)=0$ are $x=1$ or $x=-2$, so $A=\left\{1,-2\right\}$.
 
-(3) From $-3< 2x-1< 3$, adding $1$ to each part gives $-2< 2x< 4$, and dividing each part by $2$ gives $-1< x< 2$. Also by the **Basic Knowledge: Common Number Sets**, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\left\{0,1\right\}$. $\blacksquare$
+(3) From $-3< 2x-1< 3$, adding $1$ to each part gives $-2< 2x< 4$, and dividing each part by $2$ gives $-1< x< 2$. Also by the Common Number Sets, since $x\in\mathbb Z$, the integers satisfying this are $0,1$, and thus $B=\left\{0,1\right\}$. $\blacksquare$
 
 ## Problem 3
 

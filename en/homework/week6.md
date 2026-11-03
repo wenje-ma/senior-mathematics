@@ -1,7 +1,4 @@
 # week6
-> **Basic Knowledge: 基本事实 2.1.1**
-> 
-> 如果 $a-b$ 是正数, 那么 $a> b$; 如果 $a-b$ 等于 $0$, 那么 $a=b$; 如果 $a-b$ 是负数, 那么 $a< b$. 反过来也对, 即 $a> b\Leftrightarrow a-b> 0$, $a=b\Leftrightarrow a-b=0$, $a< b\Leftrightarrow a-b< 0$.
 
 ---
 

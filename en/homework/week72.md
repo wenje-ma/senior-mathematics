@@ -1,7 +1,4 @@
 # week72
-> **Basic Knowledge: 常用结论 4.2.4**
-> 
-> 当 $d\ne 0$ 时, $a_n=dn+\left(a_1-d\right)$ 是一次函数 $f\left(x\right)=dx+\left(a_1-d\right)$ 当 $x=n$ 时的函数值.
 > **Definition 4.1.5 (General Term Formula)**
 > 
 > 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.

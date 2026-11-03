@@ -1,7 +1,4 @@
 # week2
-> **基础知识: 常用数集**
-> 
-> 全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
 > **定义 1.1.5 (属于与不属于)**
 > 
 > 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
@@ -58,7 +55,7 @@
 
 ### 解答 练习二
 
-由**定义 1.1.5 (属于与不属于)**, **定义 1.2.1 (子集)**, **定义 1.2.2 (集合相等)**, **定义 1.2.3 (真子集)** 及**基础知识: 常用数集**.
+由**定义 1.1.5 (属于与不属于)**, **定义 1.2.1 (子集)**, **定义 1.2.2 (集合相等)**, **定义 1.2.3 (真子集)** 及常用数集.
 
 (1) $a$ 是集合 $\left\{a,b,c\right\}$ 的元素, 故 $a\in\left\{a,b,c\right\}$.
 
@@ -66,7 +63,7 @@
 
 (3) 方程 $x^2+1=0$ 无实数根, 故 $\left\{x\in\mathbb R\mid x^2+1=0\right\}=\varnothing$. 由**定义 1.2.4 (空集)**, 空集是任何集合的子集, 故 $\varnothing\subseteq\left\{x\in\mathbb R\mid x^2+1=0\right\}$.
 
-(4) 由**基础知识: 常用数集**, $\mathbb N$ 为非负整数集, $0,1$ 都是非负整数, 且 $\mathbb N$ 中还有其他元素 (如 $2$), 故 $\left\{0,1\right\}\subsetneq\mathbb N$.
+(4) 由常用数集, $\mathbb N$ 为非负整数集, $0,1$ 都是非负整数, 且 $\mathbb N$ 中还有其他元素 (如 $2$), 故 $\left\{0,1\right\}\subsetneq\mathbb N$.
 
 (5) 方程 $x^2=x$ 即 $x\left(x-1\right)=0$, 其根为 $0,1$, 故 $\left\{x\mid x^2=x\right\}=\left\{0,1\right\}$. $\left\{0\right\}$ 的元素都是 $\left\{0,1\right\}$ 的元素, 但 $1\in\left\{0,1\right\}$ 且 $1\notin\left\{0\right\}$, 故 $\left\{0\right\}\subsetneq\left\{x\mid x^2=x\right\}$.
 
@@ -84,7 +81,7 @@
 
 ### 解答 练习三
 
-由**定义 1.2.1 (子集)**, **定义 1.2.2 (集合相等)**, **定义 1.2.3 (真子集)** 及**基础知识: 常用数集**.
+由**定义 1.2.1 (子集)**, **定义 1.2.2 (集合相等)**, **定义 1.2.3 (真子集)** 及常用数集.
 
 (1) 任取 $x\in A$, 则 $x< 0$. 由 $x< 0$ 必有 $x< 1$, 故 $x\in B$, 从而 $A\subseteq B$. 又 $0.5\in B$ 但 $0.5\notin A$, 故 $A\subsetneq B$.
 
@@ -172,7 +169,7 @@ $$
 
 (3) 集合 $C=\left\{0\right\}$ 的子集有 $\varnothing$ 与 $\left\{0\right\}$, 故可取 $\varnothing\subseteq C$.
 
-(4) 由**基础知识: 常用数集**, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$, 取其中大于 $3$ 且小于 $10$ 的整数, 得 $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
+(4) 由常用数集, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$, 取其中大于 $3$ 且小于 $10$ 的整数, 得 $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
 
 ## 习题四
 

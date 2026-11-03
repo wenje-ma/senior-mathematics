@@ -1,7 +1,4 @@
 # week20
-> **基础知识: 公式一**
-> 
-> $\sin\left(\alpha+k\cdot2\pi\right)=\sin\alpha$, $\cos\left(\alpha+k\cdot2\pi\right)=\cos\alpha$, $\tan\left(\alpha+k\cdot2\pi\right)=\tan\alpha$, 其中 $k\in\mathbb Z$.
 > **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**
 > 
 > 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.

@@ -1,7 +1,4 @@
 # week59
-> **Basic Knowledge: 常用结论 1.3.4**
-> 
-> 设向量 a = (a1, a2, a3), b = (b1, b2, b3), 则 a 平行 b 的充要条件是 a1*b2 = a2*b1, a1*b3 = a3*b1, a2*b3 = a3*b2.
 > **Definition 1.4.1 (Direction Vector of a Line)**
 > 
 > 若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.

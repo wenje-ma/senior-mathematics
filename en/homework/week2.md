@@ -1,7 +1,4 @@
 # week2
-> **Basic Knowledge: Common Number Sets**
-> 
-> 全体非负整数组成的集合称为非负整数集 (或自然数集), 记作 $\mathbb N$; 全体正整数组成的集合称为正整数集, 记作 $\mathbb N^*$ 或 $\mathbb N_+$; 全体整数组成的集合称为整数集, 记作 $\mathbb Z$; 全体有理数组成的集合称为有理数集, 记作 $\mathbb Q$; 全体实数组成的集合称为实数集, 记作 $\mathbb R$.
 > **Definition 1.1.5 (Membership)**
 > 
 > 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
@@ -58,7 +55,7 @@ Therefore, all subsets of the set $\left\{a,b,c\right\}$ are $\varnothing$, $\le
 
 ### Solution to Exercise 2
 
-By **Definition 1.1.5 (Belonging and Not Belonging)**, **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Definition 1.2.3 (Proper Subset)**, and the **Basic Knowledge: Common Number Sets**.
+By **Definition 1.1.5 (Belonging and Not Belonging)**, **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Definition 1.2.3 (Proper Subset)**, and the Common Number Sets.
 
 (1) $a$ is an element of the set $\left\{a,b,c\right\}$, so $a\in\left\{a,b,c\right\}$.
 
@@ -66,7 +63,7 @@ By **Definition 1.1.5 (Belonging and Not Belonging)**, **Definition 1.2.1 (Subse
 
 (3) The equation $x^2+1=0$ has no real roots, so $\left\{x\in\mathbb R\mid x^2+1=0\right\}=\varnothing$. By **Definition 1.2.4 (Empty Set)**, the empty set is a subset of any set, so $\varnothing\subseteq\left\{x\in\mathbb R\mid x^2+1=0\right\}$.
 
-(4) By the **Basic Knowledge: Common Number Sets**, $\mathbb N$ is the non-negative integer set; both $0,1$ are non-negative integers, and $\mathbb N$ also contains other elements (such as $2$), so $\left\{0,1\right\}\subsetneq\mathbb N$.
+(4) By the Common Number Sets, $\mathbb N$ is the non-negative integer set; both $0,1$ are non-negative integers, and $\mathbb N$ also contains other elements (such as $2$), so $\left\{0,1\right\}\subsetneq\mathbb N$.
 
 (5) The equation $x^2=x$ is equivalent to $x\left(x-1\right)=0$, whose roots are $0,1$, so $\left\{x\mid x^2=x\right\}=\left\{0,1\right\}$. Every element of $\left\{0\right\}$ is an element of $\left\{0,1\right\}$, but $1\in\left\{0,1\right\}$ and $1\notin\left\{0\right\}$, so $\left\{0\right\}\subsetneq\left\{x\mid x^2=x\right\}$.
 
@@ -84,7 +81,7 @@ By **Definition 1.1.5 (Belonging and Not Belonging)**, **Definition 1.2.1 (Subse
 
 ### Solution to Exercise 3
 
-By **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Definition 1.2.3 (Proper Subset)**, and the **Basic Knowledge: Common Number Sets**.
+By **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Definition 1.2.3 (Proper Subset)**, and the Common Number Sets.
 
 (1) Take any $x\in A$, then $x< 0$. Since $x< 0$ necessarily implies $x< 1$, we have $x\in B$, and thus $A\subseteq B$. Also $0.5\in B$ but $0.5\notin A$, so $A\subsetneq B$.
 
@@ -172,7 +169,7 @@ By **Definition 1.2.1 (Subset)**, a set formed by taking some elements from a se
 
 (3) The subsets of the set $C=\left\{0\right\}$ are $\varnothing$ and $\left\{0\right\}$, so one may take $\varnothing\subseteq C$.
 
-(4) By the **Basic Knowledge: Common Number Sets**, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$; taking the integers among them that are greater than $3$ and less than $10$, we get $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
+(4) By the Common Number Sets, $D=\left\{x\in\mathbb Z\mid 3< x< 30\right\}=\left\{4,5,\cdots,29\right\}$; taking the integers among them that are greater than $3$ and less than $10$, we get $\left\{x\in\mathbb Z\mid 3< x< 10\right\}\subseteq D$. $\blacksquare$
 
 ## Problem 4
 
