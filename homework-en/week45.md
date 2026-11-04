@@ -15,8 +15,6 @@
 > 
 > 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
----
-
 ## Exercise 1
 
 (Exercise 9.2, Problem 1) A survey of monthly electricity use was conducted on 100 households drawn from a residential community; their electricity use was all found to lie between $50\sim350\,\mathrm{kW\cdot h}$. After suitable grouping (each group being a left-closed right-open interval), the frequency distribution histogram is drawn as shown.

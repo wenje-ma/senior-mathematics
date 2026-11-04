@@ -3,8 +3,6 @@
 > 
 > 设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
 
----
-
 ## Exercise 1
 
 (Exercise 7.1, Problem 1) Let $A\subseteq B$, with $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. Based on the meaning of event inclusion and the meaning of conditional probability, directly write down the values of $\mathbb P\left(B\mid A\right)$ and $\mathbb P\left(A\mid B\right)$, and then verify them using the conditional probability formula.

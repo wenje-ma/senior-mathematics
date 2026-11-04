@@ -12,8 +12,6 @@
 > 
 > 如果随机变量 X 的分布列为 P(X=1) = p, P(X=0) = 1-p, 则称 X 服从两点分布.
 
----
-
 ## Exercise 1
 
 (Exercise 7.2, Problem 1) Give two examples of discrete random variables.

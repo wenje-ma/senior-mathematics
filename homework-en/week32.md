@@ -24,8 +24,6 @@
 > 
 > 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
 
----
-
 ## Exercise 1
 
 (Exercise 6.2, Problem 1) As shown in the figure, in each of the following, given the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, construct the vector $\boldsymbol{a}+\boldsymbol{b}$ in two ways.

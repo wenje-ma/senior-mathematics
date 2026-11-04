@@ -6,8 +6,6 @@
 > 
 > 短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
 
----
-
 ## Exercise 1
 
 (Exercise 1.5, Problem 1) Determine whether the following universal quantifier propositions are true or false:

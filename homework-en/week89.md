@@ -15,8 +15,6 @@
 > 
 > 残差 = 观测值 - 预测值, 即 e_i = y_i - y_hat_i.
 
----
-
 ## Exercise 1
 
 (Exercise 8.2, Problem 1) Explain the difference between a function model and a regression model, and give one example of each.

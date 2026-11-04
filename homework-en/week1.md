@@ -15,8 +15,6 @@
 > 
 > 一般地, 设 $A$ 是一个集合, 我们把集合 $A$ 中所有具有共同特征 $P\left(x\right)$ 的元素 $x$ 所组成的集合表示为 $\left\{x\in A\mid P\left(x\right)\right\}$, 这种表示集合的方法称为描述法.
 
----
-
 ## Exercise 1
 
 (Exercise 1.1, Problem 1) Determine whether each of the following collections of elements forms a set, and explain your reasoning.

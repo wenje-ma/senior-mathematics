@@ -6,8 +6,6 @@
 > 
 > 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
 
----
-
 ## 练习一
 
 (练习 6.3 第 1 题) 如图, $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量, 试用基底 $\left\{\boldsymbol{e}_1,\boldsymbol{e}_2\right\}$ 表示图中的向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$.

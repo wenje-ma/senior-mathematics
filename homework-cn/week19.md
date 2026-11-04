@@ -6,8 +6,6 @@
 > 
 > 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
----
-
 ## 练习一
 
 (练习 5.2 第 1 题) 利用三角函数定义, 求 $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$ 的三个三角函数值.

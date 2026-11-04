@@ -3,8 +3,6 @@
 > 
 > 一般地, 我们把只含有一个未知数, 并且未知数的最高次数是 $2$ 的不等式, 称为一元二次不等式. 其一般形式是 $ax^2+bx+c> 0$ 或 $ax^2+bx+c< 0$, 其中 $a,b,c$ 均为常数, $a\neq0$.
 
----
-
 ## Exercise 1
 
 (Exercise 2.3, Problem 1) Find the solution sets of the following inequalities.

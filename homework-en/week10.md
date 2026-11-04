@@ -27,8 +27,6 @@
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
 
----
-
 ## Exercise 1
 
 (Exercise 3.2, Problem 1) Based on the following figure, describe the relation between the production efficiency of an assembly line and the number of workers on the line.

@@ -21,8 +21,6 @@
 > 
 > 在闭区间 [a, b] 上连续的函数 f(x) 在 [a, b] 上必有最大值与最小值, 只需比较极值与端点值.
 
----
-
 ## Exercise 1
 
 (Exercise 5.3, Problem 1) Determine the monotonicity of the following functions: 

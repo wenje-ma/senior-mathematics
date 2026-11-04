@@ -6,8 +6,6 @@
 > 
 > 平面内与一个定点 F 和一条定直线 l (l 不经过点 F) 距离相等的点的轨迹叫做抛物线.
 
----
-
 ## Exercise 1
 
 (Exercise 3.3, Problem 1) Write the standard equation of the parabola from the following conditions.

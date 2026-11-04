@@ -27,8 +27,6 @@
 > 
 > 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
 
----
-
 ## Exercise 1
 
 (Exercise 3.3, Problem 1) Given that the graph of the power function $y=f\left(x\right)$ passes through the point $\left(2,\sqrt2\right)$, find the analytic expression of this function.

@@ -15,8 +15,6 @@
 > 
 > 不含任何元素的集合叫做空集, 记作 $\varnothing$. 规定空集是任何集合的子集.
 
----
-
 ## Exercise 1
 
 (Exercise 1.2, Problem 1) List all subsets of the set $\left\{a,b,c\right\}$.

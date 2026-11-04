@@ -6,8 +6,6 @@
 > 
 > 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
----
-
 ## Exercise 1
 
 (Exercise 5.2, Problem 1) Using the definition of trigonometric functions, find the three trigonometric values of $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$.

@@ -33,8 +33,6 @@
 > 
 > 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
 
----
-
 ## Exercise 1
 
 (Exercise 10.1, Problem 1) Write out the sample space of each of the following random experiments.

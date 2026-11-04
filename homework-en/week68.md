@@ -12,8 +12,6 @@
 > 
 > 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
 
----
-
 ## Problem 1
 
 (Review Reference Problems 1, Review and Consolidation, Problem 1) Consider the following statements:

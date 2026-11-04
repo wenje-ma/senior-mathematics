@@ -18,8 +18,6 @@
 > 
 > 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
 
----
-
 ## Exercise 1
 
 (Exercise 1.1, Problem 1) Give some examples of three vectors that do not lie in the same plane.

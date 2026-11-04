@@ -24,8 +24,6 @@
 > 
 > 如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
 
----
-
 ## Problem 1
 
 (Review Reference Problem 5, Review and Consolidation, Problem 1) Given that points $P$ and $Q$ are on the curve $y=x^{2}-2x-3$, that the x-coordinate of $P$ is $1$, and that the x-coordinate of $Q$ is $4$. Find: 

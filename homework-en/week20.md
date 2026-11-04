@@ -3,8 +3,6 @@
 > 
 > 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
----
-
 ## Exercise 1
 
 (Exercise 5.3, Problem 1) Reduce the following trigonometric functions to acute-angle trigonometric functions, and fill in the blanks in the problem:

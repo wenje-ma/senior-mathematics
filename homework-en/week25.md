@@ -6,8 +6,6 @@
 > 
 > If a^b = N (a > 0, a != 1), then b is called the logarithm of N base a.
 
----
-
 ## Problem 1
 
 (Problem 1) Chinese tea culture is extensive and profound. The taste of tea depends on the type of tea leaves and the temperature of the water. Experience shows that for a certain green tea, brewing it with water at $85^\circ\text{C}$ and then waiting until the tea cools to $60^\circ\text{C}$ before drinking it gives the best taste. Then, at a room temperature of $25^\circ\text{C}$, approximately how long should freshly brewed tea stand to reach the optimal drinking taste?

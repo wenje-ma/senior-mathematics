@@ -9,8 +9,6 @@
 > 
 > 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
 
----
-
 ## Exercise 1
 
 (Exercise 5.1, Problem 1) Find the instantaneous velocity of the diver in Problem 1 at $t=1.5\ \mathrm{s}$.

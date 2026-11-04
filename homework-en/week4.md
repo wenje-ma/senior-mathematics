@@ -18,8 +18,6 @@
 > 
 > 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
 
----
-
 ## Exercise 1
 
 (Exercise 1.4, Problem 1) Among the following propositions in the form "if $p$, then $q$", in which propositions is $p$ a sufficient condition for $q$?

@@ -15,8 +15,6 @@
 > 
 > 正态分布的概率密度函数为 f(x) = (1/(sigma*sqrt(2pi))) * exp(-(x-mu)^2/(2*sigma^2)), 记作 N(mu, sigma^2).
 
----
-
 ## 习题一
 
 (复习参考题 7 复习巩固第 1 题) 举例说明 $\mathbb P\left(B\right)$ 与 $\mathbb P\left(B\mid A\right)$ 没有确定的大小关系.

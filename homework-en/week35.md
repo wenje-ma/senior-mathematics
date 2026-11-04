@@ -21,8 +21,6 @@
 > 
 > 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
 
----
-
 ## Exercise 1
 
 (Exercise 7.1, Problem 1) State the real and imaginary parts of the following complex numbers:

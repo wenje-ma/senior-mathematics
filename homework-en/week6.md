@@ -1,7 +1,5 @@
 # week6
 
----
-
 ## Exercise 1
 
 (Exercise 2.1, Problem 1) Express the following order relations using inequalities or systems of inequalities.

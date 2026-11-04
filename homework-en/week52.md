@@ -36,8 +36,6 @@
 > 
 > 辐角在 [0, 2pi) 内的值叫做辐角主值, 记作 arg(z).
 
----
-
 ## Problem 1
 
 (Review Reference Problem 7, Review and Consolidation, Problem 1) Multiple choice.

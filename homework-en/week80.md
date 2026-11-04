@@ -6,8 +6,6 @@
 > 
 > 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
 
----
-
 ## Exercise 1
 
 (Exercise 6.1, Problem 1) Fill in the blanks.

@@ -15,8 +15,6 @@
 > 
 > 设 A, B 为两个事件, 若 P(AB) = P(A)P(B), 则称事件 A 与事件 B 相互独立.
 
----
-
 ## Exercise 1
 
 (Exercise 10.2, Problem 1) Toss two fair coins separately. Let event $A=$ "the $1$st coin lands heads", event $B=$ "the $2$nd coin lands heads", event $C=$ "the two coins land the same side up". Which two of $A, B, C$ are mutually independent?

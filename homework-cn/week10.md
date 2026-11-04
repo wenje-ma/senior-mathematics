@@ -27,8 +27,6 @@
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
 
----
-
 ## 练习一
 
 (练习 3.2 第 1 题) 请根据下图描述某装配线的生产效率与生产线上工人数量间的关系.

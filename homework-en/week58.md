@@ -12,8 +12,6 @@
 > 
 > 在空间直角坐标系中, 对任一向量 a, 存在唯一有序实数组 (a1, a2, a3), 使 a = a1*i + a2*j + a3*k, (a1, a2, a3) 叫做向量 a 的坐标.
 
----
-
 ## Exercise 1
 
 (Exercise 1.3, Problem 1) Plot the following points in the rectangular coordinate system in space:

@@ -27,8 +27,6 @@
 > 
 > 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
 
----
-
 ## Problem 1
 
 (Review Reference Problem 3, Review and Consolidation, Problem 1) Find the domain of the following functions:

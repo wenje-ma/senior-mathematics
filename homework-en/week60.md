@@ -6,8 +6,6 @@
 > 
 > 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
 
----
-
 ## Exercise 1
 
 (Exercise 2.1, Problem 1) Given the inclination angles of the following lines, find the slope of each line:

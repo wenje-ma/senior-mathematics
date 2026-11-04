@@ -6,8 +6,6 @@
 > 
 > The regression line y = bx + a obtained by the least squares method.
 
----
-
 ## Problem 1
 
 (Problem 1) When the concentration of the air pollutant $PM_{2.5}$ exceeds a certain limit, it affects people's health. To study whether the concentration of $PM_{2.5}$ is affected by factors such as traffic flow and weather conditions, researchers selected 24 cities with similar socio-economic development levels; in each city, a traffic point was chosen as a monitoring station, the number of vehicles passing through each monitoring point within $24\ \mathrm{h}$ (unit: thousand vehicles) was counted, and at the same time, at the same low altitude, the average temperature (unit: $^\circ\mathrm{C}$), wind speed (unit: $\mathrm{m/s}$), air humidity (absolute humidity, unit: $\mathrm{g/m^3}$), and the average concentration of $PM_{2.5}$ in the air (unit: $\mu\mathrm{g/m^3}$) were measured for each monitoring station over that period; the data are shown in Table 1. By building a statistical model, quantitatively explore the relationship between the $PM_{2.5}$ concentration and traffic flow, and carry out prediction and control.

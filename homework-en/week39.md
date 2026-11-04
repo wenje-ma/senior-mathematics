@@ -9,8 +9,6 @@
 > 
 > 斜二测画法是画空间图形直观图的方法: x 轴水平, y 轴与 x 轴成 45 度, z 轴垂直, 平行于 x, z 轴的线段长度不变, 平行于 y 轴的线段长度减半.
 
----
-
 ## Exercise 1
 
 (Exercise 8.2, Problem 1) When using the oblique two-measurement method to draw the pictorial drawing of a horizontally placed plane figure, are the following statements correct? Mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.

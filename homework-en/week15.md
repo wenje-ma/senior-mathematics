@@ -3,8 +3,6 @@
 > 
 > 一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
 
----
-
 ## Exercise 1
 
 (Exercise 4.3, Problem 1) Write the following exponential expressions as logarithmic expressions, and the logarithmic expressions as exponential expressions.

@@ -15,8 +15,6 @@
 > 
 > 样本相关系数 r 衡量两个变量线性相关程度, |r| < = 1, |r| 越接近 1 线性相关程度越强.
 
----
-
 ## Exercise 1
 
 (Exercise 8.1, Problem 1) Give an example to explain what a correlation is. What is the difference between a correlation and a functional relation?

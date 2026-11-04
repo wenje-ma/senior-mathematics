@@ -21,8 +21,6 @@
 > 
 > [r(cos theta + i sin theta)]^n = r^n (cos n theta + i sin n theta).
 
----
-
 ## 练习一
 
 (练习 7.3 第 1 题) 画出下列复数对应的向量, 并把这些复数表示成三角形式:

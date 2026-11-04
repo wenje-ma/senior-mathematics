@@ -12,8 +12,6 @@
 > 
 > 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
 
----
-
 ## Exercise 1
 
 (Exercise 6.4, Problem 1) Prove that the two base angles of an isosceles triangle are equal.

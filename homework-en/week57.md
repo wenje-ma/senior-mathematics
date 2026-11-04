@@ -9,8 +9,6 @@
 > 
 > 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
 
----
-
 ## Exercise 1
 
 (Exercise 1.2, Problem 1) Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis of space, which of $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ can necessarily be chosen to form another basis of space together with the vectors $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$?

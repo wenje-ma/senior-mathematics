@@ -39,8 +39,6 @@
 > 
 > 两个平面垂直, 则一个平面内垂直于交线的直线与另一个平面垂直.
 
----
-
 ## Exercise 1
 
 (Exercise 8.6, Problem 1) Determine whether the following statements are correct; for a correct one, draw "$\sqrt{ }$" in the parentheses, and for a wrong one, draw "$\times$".

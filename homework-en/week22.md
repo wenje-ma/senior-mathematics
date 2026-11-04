@@ -1,7 +1,5 @@
 # week22
 
----
-
 ## Exercise 1
 
 (Exercise 5.5, Problem 1) Using the sum (difference) angle formulas, find the value of each of the following expressions:

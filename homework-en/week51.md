@@ -30,8 +30,6 @@
 > 
 > 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
 
----
-
 ## Problem 1
 
 (Review Reference Problem 6, Review and Consolidation, Problem 1) Determine whether the following propositions are correct (mark a "$\surd$" in the parentheses for correct ones and a "$\times$" for wrong ones).

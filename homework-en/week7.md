@@ -3,8 +3,6 @@
 > 
 > 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
 
----
-
 ## Exercise 1
 
 (Exercise 2.2, Problem 1) Given $a,b\in\mathbb R$, prove that $ab\le\left(\frac{a+b}{2}\right)^2$.

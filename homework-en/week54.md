@@ -27,8 +27,6 @@
 > 
 > 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
----
-
 ## Problem 1
 
 (Review Exercises 9, Review and Consolidation, Problem 1) To understand the scores of 5000 students taking a computer proficiency test in a certain region, 200 students were drawn from them for investigation and analysis. In this problem, the 200 students drawn are ($\;\_\_\;$).

@@ -21,8 +21,6 @@
 > 
 > 实系数方程 ax^2 + bx + c = 0 在复数范围内的根为 x = [-b +/- sqrt(b^2 - 4ac)]/(2a), 当判别式小于 0 时根为共轭复数.
 
----
-
 ## Exercise 1
 
 (Exercise 7.2, Problem 1) Compute:

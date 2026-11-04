@@ -15,8 +15,6 @@
 > 
 > 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
 
----
-
 ## Exercise 1
 
 (Exercise 9.1, Problem 1) In the following surveys, what are the population and the individual respectively? Which are suitable for a complete survey? Which are suitable for a sampling survey?

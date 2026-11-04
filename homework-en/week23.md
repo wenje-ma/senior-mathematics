@@ -9,8 +9,6 @@
 > 
 > 参见教材相应章节关于此概念的论述.
 
----
-
 ## Exercise 1
 
 (Exercise 5.6, Problem 1) Sketch simple graphs of the following functions on a closed interval of length one period:

@@ -27,8 +27,6 @@
 > 
 > 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
 
----
-
 ## Exercise 1
 
 (Exercise 4.2, Problem 1) Determine whether the following sequences are arithmetic sequences. If so, write down their common difference

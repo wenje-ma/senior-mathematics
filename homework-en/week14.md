@@ -3,8 +3,6 @@
 > 
 > 一般地, 函数 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 叫做指数函数, 其中指数 $x$ 是自变量, 定义域是 $\mathbb R$.
 
----
-
 ## Exercise 1
 
 (Exercise 4.2, Problem 1) Among the following graphs, which could possibly represent an exponential function? ( ).

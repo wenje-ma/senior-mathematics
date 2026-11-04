@@ -27,8 +27,6 @@
 > 
 > 对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg p$. 若 $p$ 是真命题, 则 $\neg p$ 是假命题; 若 $p$ 是假命题, 则 $\neg p$ 是真命题.
 
----
-
 ## Problem 1
 
 (Review Reference Problem 1, Review and Consolidation, Problem 1) Represent the following sets using the roster method:

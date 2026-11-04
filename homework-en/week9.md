@@ -12,8 +12,6 @@
 > 
 > 函数的常用表示方法有解析法,列表法和图象法.
 
----
-
 ## Exercise 1
 
 (Exercise 3.1, Problem 1) After a cannonball is fired, it falls to the ground and hits the target after $26\ \text{s}$. The maximum height of the cannonball is $845\ \text{m}$, and the relation between the height $h$ (unit: $\text{m}$) of the cannonball above the ground and the time $t$ (unit: $\text{s}$) is

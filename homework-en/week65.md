@@ -12,8 +12,6 @@
 > 
 > 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
 
----
-
 ## Exercise 1
 
 (Exercise 3.1, Problem 1) If a point $P$ on the ellipse $\frac{x^2}{100}+\frac{y^2}{36}=1$ is at distance $6$ from the focus $F_1$, then the distance from $P$ to the other focus $F_2$ is $\;\_\_\;$.

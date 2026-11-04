@@ -9,8 +9,6 @@
 > 
 > 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
 
----
-
 ## 练习一
 
 (练习 1.2 第 1 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个基底, 从 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 中选哪一个向量, 一定可以与向量 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 构成空间的另一个基底?

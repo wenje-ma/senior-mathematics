@@ -9,8 +9,6 @@
 > 
 > 长度等于半径长的圆弧所对的圆心角叫做 1 弧度的角.
 
----
-
 ## Exercise 1
 
 (Exercise 5.1, Problem 1) (Oral answer) Which quadrant angle is an acute angle? Is a first-quadrant angle necessarily an acute angle? Then answer these two questions separately for the right angle and the obtuse angle.

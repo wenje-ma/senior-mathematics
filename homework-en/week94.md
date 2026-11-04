@@ -15,8 +15,6 @@
 > 
 > 正态分布的概率密度函数为 f(x) = (1/(sigma*sqrt(2pi))) * exp(-(x-mu)^2/(2*sigma^2)), 记作 N(mu, sigma^2).
 
----
-
 ## Problem 1
 
 (Review Reference Exercise 7, Review and Consolidation, Problem 1) Give examples to show that $\mathbb P\left(B\right)$ and $\mathbb P\left(B\mid A\right)$ have no definite order relation.

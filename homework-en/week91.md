@@ -3,8 +3,6 @@
 > 
 > (a+b)^n = C(n,0)a^n + C(n,1)a^(n-1)b + ... + C(n,n)b^n.
 
----
-
 ## Problem 1
 
 (Problem 1) An ancient root-extraction problem (from Yang Hui's Detailed Analysis of the Nine Chapters on the Mathematical Art): The product is 1,336,336 chi; what is the cube-like root (third power of a square)? Before the mid-Qing dynasty in our country, a square was called self-multiplication, a cube was called self-multiplication once more, and a fourth power was called the third-power-of-a-square. Thus this problem is equivalent to solving the equation $x^4=1336336$. Find $x$.

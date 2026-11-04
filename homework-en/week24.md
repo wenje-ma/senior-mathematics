@@ -6,8 +6,6 @@
 > 
 > 函数 y = A sin(omega x + phi) 中, A 是振幅, T = 2pi/omega 是周期, f = 1/T 是频率, omega x + phi 是相位, phi 是初相.
 
----
-
 ## Exercise 1
 
 (Exercise 5.7, Problem 1) The graph of a certain simple harmonic motion is shown in the figure. Answer the following questions based on the graph:

@@ -15,8 +15,6 @@
 > 
 > 复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
 
----
-
 ## Exercise 1
 
 (Exercise 5.2, Problem 1) Find the derivatives of the following functions: 

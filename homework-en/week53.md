@@ -33,8 +33,6 @@
 > 
 > 两个平面垂直, 则一个平面内垂直于交线的直线与另一个平面垂直.
 
----
-
 ## Problem 1
 
 (Review Exercises 8, Review and Consolidation, Problem 1) Examining prisms, pyramids and frusta from the viewpoint of polyhedra, fill in the following table:

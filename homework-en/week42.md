@@ -24,8 +24,6 @@
 > 
 > 两个平行平面同时和第三个平面相交, 所得的交线平行.
 
----
-
 ## Exercise 1
 
 (Exercise 8.5, Problem 1) As shown in the figure, fold a rectangular sheet of paper several times and then unfold it. Are the resulting creases parallel to one another? Why?

@@ -3,8 +3,6 @@
 > 
 > 设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
 
----
-
 ## 练习一
 
 (练习 7.1 第 1 题) 设 $A\subseteq B$, 且 $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. 根据事件包含关系的意义及条件概率的意义, 直接写出 $\mathbb P\left(B\mid A\right)$ 和 $\mathbb P\left(A\mid B\right)$ 的值, 再由条件概率公式进行验证.

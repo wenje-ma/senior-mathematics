@@ -21,8 +21,6 @@
 > 
 > 数列 $\left\{a_n\right\}$ 从第 $1$ 项起到第 $n$ 项止的各项之和, 称为数列 $\left\{a_n\right\}$ 的前 $n$ 项和, 记作 $S_n$.
 
----
-
 ## Exercise 1
 
 (Exercise 4.1, Problem 1) Write out the first $10$ terms of the following sequences and sketch their graphs.

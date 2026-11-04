@@ -9,8 +9,6 @@
 > 
 > 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
----
-
 ## Exercise 1
 
 (Exercise 5.4, Problem 1) In the same rectangular coordinate system, sketch the graphs of the functions $y=\sin x$, $x\in\left[0,2\pi\right]$, and $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$. By observing the two curves, state their similarities and differences.

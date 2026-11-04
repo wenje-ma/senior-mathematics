@@ -3,8 +3,6 @@
 > 
 > 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
 
----
-
 ## Problem 1
 
 (Review Reference Problem 2, Review and Consolidation, Problem 1) A summer camp has $48$ people, and before departure it must choose between two types of tents, $A$ and $B$. There are $5$ fewer tents of type $A$ than of type $B$. If only type $A$ tents are chosen, at $4$ people per tent there are not enough tents, and at $5$ people per tent there is one tent that is not full. If only type $B$ tents are chosen, at $3$ people per tent there are not enough tents, and at $4$ people per tent there are spare tents. Let the number of type $A$ tents be $x$. Express the unequal relations in the problem using inequalities.

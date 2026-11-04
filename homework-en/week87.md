@@ -6,8 +6,6 @@
 > 
 > 正态分布的概率密度函数为 f(x) = (1/(sigma*sqrt(2pi))) * exp(-(x-mu)^2/(2*sigma^2)), 记作 N(mu, sigma^2).
 
----
-
 ## Exercise 1
 
 (Exercise 7.5, Problem 1) Given $X\sim N\left(0,1\right)$, the normal density function is $\;\_\_\;$, $\mathbb P\left(X\le 0\right)=\;\_\_\;$, $\mathbb P\left(\lvert X\rvert\le 1\right)=\;\_\_\;$, $\mathbb P\left(X\le 1\right)=\;\_\_\;$, $\mathbb P\left(X> 1\right)=\;\_\_\;$.

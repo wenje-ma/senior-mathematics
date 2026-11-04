@@ -9,8 +9,6 @@
 > 
 > 关于 $x,y$ 的二元一次方程 $Ax+By+C=0$ (其中 $A,B$ 不同时为 $0$) 叫做直线的一般式方程, 简称一般式.
 
----
-
 ## Exercise 1
 
 (Exercise 2.3, Problem 1) Find the intersection coordinates of the following two lines, and draw the graph:

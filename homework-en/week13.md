@@ -9,8 +9,6 @@
 > 
 > 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
 
----
-
 ## Exercise 1
 
 (Exercise 4.1, Problem 1) Express the following in radical form ($a> 0$).

@@ -12,8 +12,6 @@
 > 
 > 对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 记作 $\complement_U A$, 即 $\complement_U A=\left\{x\mid x\in U\text{ 且 }x\notin A\right\}$.
 
----
-
 ## 练习一
 
 (练习 1.3 第 1 题) 设 $A=\left\{3,5,6,8\right\}$, $B=\left\{4,5,7,8\right\}$, 求 $A\cap B$, $A\cup B$.

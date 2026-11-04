@@ -21,8 +21,6 @@
 > 
 > [r(cos theta + i sin theta)]^n = r^n (cos n theta + i sin n theta).
 
----
-
 ## Exercise 1
 
 (Exercise 7.3, Problem 1) Draw the vectors corresponding to the following complex numbers, and write these complex numbers in trigonometric form:

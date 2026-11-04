@@ -15,8 +15,6 @@
 > 
 > 从 n 个不同元素中取出 m (m < = n) 个元素合成一组, 叫做从 n 个不同元素中取出 m 个元素的一个组合.
 
----
-
 ## Exercise 1
 
 (Exercise 6.2, Problem 1) Write out:

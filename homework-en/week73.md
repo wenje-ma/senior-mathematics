@@ -30,8 +30,6 @@
 > 
 > 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
 
----
-
 ## Exercise 1
 
 (Exercise 4.3, Problem 1) Determine whether the following sequences are geometric sequences. If so, write down their common ratio

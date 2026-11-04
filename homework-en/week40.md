@@ -27,8 +27,6 @@
 > 
 > 球的体积 V = (4/3)*pi*R^3.
 
----
-
 ## Exercise 1
 
 (Exercise 8.3, Problem 1) The upper and lower base sides of a regular hexagonal frustum are $2\text{ cm}$ and $6\text{ cm}$ respectively, and its lateral edge is $5\text{ cm}$. Find its surface area.

@@ -24,8 +24,6 @@
 > 
 > 双曲线的焦距与实轴长的比 e = c/a 叫做双曲线的离心率 (e > 1).
 
----
-
 ## Exercise 1
 
 (Exercise 3.2, Problem 1) Find the standard equation of the hyperbola satisfying the following conditions.

@@ -9,8 +9,6 @@
 > 
 > D(X) = sum[(xi - E(X))^2 * pi] 称为随机变量 X 的方差, 其算术平方根 sqrt(D(X)) 称为标准差.
 
----
-
 ## Exercise 1
 
 (Exercise 7.3, Problem 1) The distribution of a random variable $X$ is

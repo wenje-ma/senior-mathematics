@@ -9,8 +9,6 @@
 > 
 > 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
 
----
-
 ## Problem 1
 
 (Review Reference Exercise 6, Review and Consolidation, Problem 1) Fill in the blanks.

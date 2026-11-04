@@ -15,8 +15,6 @@
 > 
 > 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
 
----
-
 ## Exercise 1
 
 (Exercise 3.4, Problem 1) If the model $y=ax^2$ is used to describe the relation between the sliding distance $y$ (unit: $\text{m}$) after a car brakes emergently and the speed $x$ (unit: $\text{km/h}$) at braking, and a certain model of car slides $20\ \text{m}$ after an emergency brake at a speed of $60\ \text{km/h}$. On a highway with a speed limit of $100\ \text{km/h}$, a car of this model slides $50\ \text{m}$ after an emergency brake. Is this car speeding?

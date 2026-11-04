@@ -12,8 +12,6 @@
 > 
 > 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
 
----
-
 ## Problem 1
 
 (Review Reference Problems 3, Review and Consolidation, Problem 1) As shown in the figure, the orbit of China's first artificial Earth satellite is an ellipse with the Earth's center $F_2$ as one focus. Its perigee $A$ is $439\,\mathrm{km}$ above the ground, its apogee $B$ is $2384\,\mathrm{km}$ above the ground, and $F_2$, $A$, $B$ are collinear; the Earth's radius is approximately $6371\,\mathrm{km}$. Find: (1) the equation of the satellite's orbit (accurate to $1\,\mathrm{km}$); (2) the eccentricity of the orbit.

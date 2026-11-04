@@ -9,8 +9,6 @@
 > 
 > 在含有 M 件次品的 N 件产品中, 任取 n 件, 其中恰有 X 件次品, 则 P(X=k) = C(M,k)*C(N-M,n-k)/C(N,n).
 
----
-
 ## Exercise 1
 
 (Exercise 7.4, Problem 1) A fair coin is tossed 4 times at random. Let $X$ be the number of heads.

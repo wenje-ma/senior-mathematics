@@ -6,8 +6,6 @@
 > 
 > 参见教材相应章节关于此概念的论述.
 
----
-
 ## Problem 1
 
 (Review Reference Problem 5, Review and Consolidation, Problem 1) Write the set $S$ of angles whose terminal side coincides with that of each of the following angles, and write out the elements $\beta$ in $S$ satisfying $-2\pi\leq\beta< 4\pi$:

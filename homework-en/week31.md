@@ -18,8 +18,6 @@
 > 
 > 长度相等且方向相同的向量叫做相等向量.
 
----
-
 ## Exercise 1
 
 (Exercise 6.1, Problem 1) Which of the following quantities are vectors?
