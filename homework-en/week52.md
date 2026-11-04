@@ -1,313 +1,605 @@
 # week52
-> **Definition 7.1.1 (虚数单位)**
+> **Definition 3.1.3 (Standard Equation of Ellipse)**
 > 
-> 我们引入一个新数 $\mathrm{i}$, 使 $\mathrm{i}^2=-1$, $\mathrm{i}$ 叫做虚数单位.
-> **Definition 7.1.5 (Equality of Complex Numbers)**
+> 平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
+> **Definition 3.1.7 (椭圆的离心率)**
 > 
-> 两个复数相等当且仅当它们的实部和虚部分别相等.
-> **Definition 7.1.6 (纯虚数)**
+> 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
+> **Definition 3.2.1 (Hyperbola)**
 > 
-> 它是实数０;当≠０时,它叫做虚数(ｉｍａｇｉｎａｒｙｎｕｍｂｅｒ);当＝０且≠０时,它叫做 纯虚数. 例如,３＋２ｉ,１２－槡３ｉ,－槡３－１２ｉ,－０.２ｉ都是虚数,它们的实部分别是３,１２, －槡３,０,虚部分别是２,－槡３,－１２,－０.２,并且其中只有－０.２ｉ是纯虚数. Ꮶ 复数集与实数集之间有什么关系? ᘿ ᬷ ܭ ᬷ ᬷ ጦᘿ ᬷ 　图７.１１ 显然,实数集是复数集的真子集,即. 这样,复数狕＝＋ｉ(,∈)可以分类如下: 复数实数＝０ ( ), 虚数≠０ ( )当＝０时为纯虚数 ( ). 复数集,实数集,虚数集,纯虚数集之间的关系, 可用图７.１１表示. 例１　当实数取什么值时,复数狕＝＋１＋(－１)ｉ是下列数? (１)实数;(２)虚数;(３)纯虚数. 分析:因为∈,所以＋１,－１都是实数.由复数狕＝＋ｉ(,∈)是实 数,虚数和纯虚数的条件可以确定的取值. 解:(１)当－１＝０,即＝１时
-> **Definition 7.1.8 (Geometric Meaning of Complex Numbers)**
+> 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
+> **Definition 3.2.3 (双曲线的标准方程)**
 > 
-> 复数 z = a + bi 与复平面内的点 Z(a, b) 一一对应, 也与向量 OZ = (a, b) 一一对应.
-> **Definition 7.1.9 (Modulus of a Complex Number)**
+> 双曲线的标准方程为 x^2/a^2 - y^2/b^2 = 1 (焦点在 x 轴上) 或 y^2/a^2 - x^2/b^2 = 1 (焦点在 y 轴上).
+> **Definition 3.2.5 (顶点, 实轴, 虚轴)**
 > 
-> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
-> **Definition 7.1.10 (Conjugate Complex Number)**
+> 双曲线与实轴的交点为顶点, 线段 A1A2 叫做双曲线的实轴, 线段 B1B2 叫做双曲线的虚轴.
+> **Definition 3.2.6 (渐近线)**
 > 
-> 当两个复数的实部相等, 虚部互为相反数时, 这两个复数叫做互为共轭复数.
-> **Definition 7.2.1 (Addition of Complex Numbers)**
+> 双曲线 x^2/a^2 - y^2/b^2 = 1 的渐近线方程为 y = ±(b/a)x.
+> **Definition 3.2.7 (等轴双曲线)**
 > 
-> (a + bi) + (c + di) = (a + c) + (b + d)i.
-> **Definition 7.2.2 (Subtraction of Complex Numbers)**
+> 实轴和虚轴等长的双曲线叫做等轴双曲线.
+> **Definition 3.2.8 (双曲线的离心率)**
 > 
-> (a + bi) - (c + di) = (a - c) + (b - d)i.
-> **Definition 7.2.5 (Multiplication of Complex Numbers)**
+> 双曲线的焦距与实轴长的比 e = c/a 叫做双曲线的离心率 (e > 1).
+> **Definition 3.3.1 (抛物线)**
 > 
-> (a + bi)(c + di) = (ac - bd) + (ad + bc)i.
-> **Definition 7.2.7 (Division of Complex Numbers)**
+> 平面内与一个定点 $F$ 和一条定直线 $l$ ($l$ 不经过点 $F$) 的距离相等的点的轨迹叫做抛物线. 点 $F$ 叫做抛物线的焦点, 直线 $l$ 叫做抛物线的准线.
+> **Definition 3.3.2 (Standard Equation of Parabola)**
 > 
-> (a + bi)/(c + di) = [(ac + bd) + (bc - ad)i]/(c^2 + d^2) (c + di != 0).
-> **Definition 7.2.8 (求根公式)**
-> 
-> (２－４ 槡 ) ２ ｉ. 在复数范围内,实系数一元二次方程２＋＋＝０(≠０)的求根公式为: (１)当Δ≥０时,＝－± ２－４ 槡  ２ ; (２)当Δ＜０时,＝－± －(２－４ 槡 )ｉ ２ . ９７ 例5 计算(1十2i)÷(3一4i). 1＋2i 解:(1十2i)÷(3一4i)= 3—4i (1+2i)(3+4i) 3—8+6i十4i (3—4i)(3+4i) 32+42 —5+10i 25 例 6 在复数范围内解下列方程: (1)α²十2=0; (2)aα²＋bx十c=0,其中a,b,cER,且a≠0,△=b²一4ac< 0. 分析:利用复数的乘法容易得到(1)中方程的根.对于(2),当△=62一4ac< 0 时, 一元二次方程aα²十bc十c=0无实数根.利用求解一元二次方程的根本大法———配方 法,类似于(1),就能在复数范围内求得(2)中方程的根. 解:(1)因为(/2i)²=(一2i)²=一2,所以方程α²十2=0 的根为=±/
-> **Definition 7.3.3 (辐角主值)**
-> 
-> 辐角在 [0, 2pi) 内的值叫做辐角主值, 记作 arg(z).
+> 平面内与一个定点 F 和一条定直线 l (l 不经过点 F) 距离相等的点的轨迹叫做抛物线.
+
+## Exercise 1
+
+(Exercise 3.2, Problem 4) The two foci of the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a> 0$) are $F_1$ and $F_2$, with focal distance $8$; $M$ is a point on the hyperbola with $\lvert MF_1 \rvert=5$. Find $\lvert MF_2 \rvert$.
+
+### Solution to Exercise 1
+
+By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, $c^2=a^2+b^2$. The focal distance is $2c=8$, so $c=4$, $c^2=16$. Also $b^2=12$, so $a^2=c^2-b^2=4$, $a=2$.
+
+By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a=4$. Substituting $\lvert MF_1 \rvert=5$ gives $\lvert 5-\lvert MF_2 \rvert \rvert=4$, so $\lvert MF_2 \rvert=9$ or $\lvert MF_2 \rvert=1$. Since the distance from a point on the hyperbola to the nearer focus is greater than $c-a=2$, the solution $\lvert MF_2 \rvert=1$ is rejected, leaving $\lvert MF_2 \rvert=9$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 3.2, Problem 1) Find the lengths of the transverse and conjugate axes, the coordinates of the vertices and foci, and the eccentricity of each hyperbola below.
+
+(1) $x^2-8y^2=32$;
+
+(2) $9x^2-y^2=81$;
+
+(3) $x^2-y^2=-4$;
+
+(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$.
+
+### Solution to Exercise 2
+
+Use **Definition 3.2.3 (Hyperbola)**, **Definition 3.2.5 (Vertices, Transverse and Conjugate Axes)**, and **Definition 3.2.8 (Eccentricity)**.
+
+(1) $x^2-8y^2=32$ becomes $\frac{x^2}{32}-\frac{y^2}{4}=1$, with $a=4\sqrt{2}$, $b=2$, $c=\sqrt{32+4}=6$. The transverse axis length is $8\sqrt{2}$, the conjugate axis length is $4$, the vertices are at $\left(\pm4\sqrt{2},0\right)$, the foci are at $\left(\pm6,0\right)$, and $e=\frac{6}{4\sqrt{2}}=\frac{3\sqrt{2}}{4}$.
+
+(2) $9x^2-y^2=81$ becomes $\frac{x^2}{9}-\frac{y^2}{81}=1$, with $a=3$, $b=9$, $c=\sqrt{9+81}=3\sqrt{10}$. The transverse axis length is $6$, the conjugate axis length is $18$, the vertices are at $\left(\pm3,0\right)$, the foci are at $\left(\pm3\sqrt{10},0\right)$, and $e=\sqrt{10}$.
+
+(3) $x^2-y^2=-4$ becomes $\frac{y^2}{4}-\frac{x^2}{4}=1$, with $a=2$, $b=2$, $c=2\sqrt{2}$. The transverse axis length is $4$, the conjugate axis length is $4$, the vertices are at $\left(0,\pm2\right)$, the foci are at $\left(0,\pm2\sqrt{2}\right)$, and $e=\sqrt{2}$.
+
+(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$ becomes $\frac{y^2}{25}-\frac{x^2}{49}=1$, with $a=5$, $b=7$, $c=\sqrt{25+49}=\sqrt{74}$. The transverse axis length is $10$, the conjugate axis length is $14$, the vertices are at $\left(0,\pm5\right)$, the foci are at $\left(0,\pm\sqrt{74}\right)$, and $e=\frac{\sqrt{74}}{5}$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 3.2, Problem 2) Find the standard equation of the hyperbola satisfying the following conditions.
+
+(1) vertices on the $x$-axis, distance between the two vertices is $8$, $e=\frac{5}{4}$;
+
+(2) foci on the $y$-axis, focal distance is $16$, $e=\frac{4}{3}$.
+
+### Solution to Exercise 3
+
+Use **Definition 3.2.5 (Vertices, Transverse Axis)** and **Definition 3.2.8 (Eccentricity)**.
+
+(1) Vertices on the $x$-axis, distance between vertices is $2a=8$, so $a=4$. $e=\frac{c}{a}=\frac{5}{4}$, so $c=5$, $b^2=c^2-a^2=25-16=9$. The standard equation is
+
+$$
+\frac{x^2}{16}-\frac{y^2}{9}=1.
+$$
+
+(2) Foci on the $y$-axis, focal distance is $2c=16$, so $c=8$. $e=\frac{c}{a}=\frac{4}{3}$, so $a=6$, $b^2=c^2-a^2=64-36=28$. The standard equation is
+
+$$
+\frac{y^2}{36}-\frac{x^2}{28}=1.
+$$
+
+$\blacksquare$
+
+## Exercise 4
+
+(Exercise 3.2, Problem 3) One focus of an equilateral hyperbola whose axes of symmetry lie on the coordinate axes is $F_1\left(-6,0\right)$. Find the standard equation and the asymptotes of the hyperbola.
+
+### Solution to Exercise 4
+
+By **Definition 3.2.7 (Equilateral Hyperbola)**, $a=b$ in an equilateral hyperbola. The focus $F_1\left(-6,0\right)$ is on the $x$-axis, so $c=6$. From $c^2=a^2+b^2=2a^2$, we get $a^2=18$. The standard equation is
+
+$$
+\frac{x^2}{18}-\frac{y^2}{18}=1.
+$$
+
+By **Definition 3.2.6 (Asymptotes)**, the asymptotes are $y=\pm\frac{b}{a}x=\pm x$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 3.2, Problem 4) The asymptotes of a hyperbola are $y=\pm2x$, and its conjugate axis length is $4$. Find the standard equation.
+
+### Solution to Exercise 5
+
+By **Definition 3.2.6 (Asymptotes)**, the asymptotes are $y=\pm\frac{b}{a}x=\pm2x$, so $\frac{b}{a}=2$. The conjugate axis length is $2b=4$, so $b=2$, $a=1$. Since the focus axis is not specified, the standard equation is
+
+$$
+x^2-\frac{y^2}{4}=1
+$$
+
+or
+
+$$
+\frac{y^2}{4}-x^2=1.
+$$
+
+$\blacksquare$
+
+## Exercise 6
+
+(Exercise 3.2, Problem 1) Given that the coordinates of $A$ and $B$ are $\left(-6,0\right)$ and $\left(6,0\right)$ respectively, the lines $AM$ and $BM$ intersect at $M$, and the product of their slopes is $\frac{2}{9}$. Find the locus equation of $M$ and describe its shape.
+
+### Solution to Exercise 6
+
+Let $M\left(x,y\right)$. Then $k_{AM}=\frac{y}{x+6}$ and $k_{BM}=\frac{y}{x-6}$. By the problem, $\frac{y}{x+6}\cdot\frac{y}{x-6}=\frac{2}{9}$, i.e.
+
+$$
+\frac{y^2}{x^2-36}=\frac{2}{9}.
+$$
+
+Simplifying gives $9y^2=2x^2-72$, i.e.
+
+$$
+\frac{x^2}{36}-\frac{y^2}{8}=1.
+$$
+
+By **Definition 3.2.1 (Hyperbola)**, the locus of $M$ is a hyperbola with foci on the $x$-axis. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 3.2, Problem 2) Find the intersection coordinates of each line and hyperbola below.
+
+(1) $2x-y-10=0$, $\frac{x^2}{20}-\frac{y^2}{5}=1$;
+
+(2) $4x-3y-16=0$, $\frac{x^2}{25}-\frac{y^2}{16}=1$.
+
+### Solution to Exercise 7
+
+Combine the line and hyperbola equations and solve.
+
+(1) From $2x-y-10=0$ we have $y=2x-10$; substituting into $\frac{x^2}{20}-\frac{y^2}{5}=1$ gives
+
+$$
+\frac{x^2}{20}-\frac{\left(2x-10\right)^2}{5}=1.
+$$
+
+Simplifying gives $x^2-4\left(2x-10\right)^2=20$, i.e. $15x^2-160x+420=0$, i.e. $3x^2-32x+84=0$, so $x=6$ or $x=\frac{14}{3}$. Substituting back gives $y=2$ or $y=-\frac{2}{3}$. The intersections are $\left(6,2\right)$ and $\left(\frac{14}{3},-\frac{2}{3}\right)$.
+
+(2) From $4x-3y-16=0$ we have $y=\frac{4x-16}{3}$; substituting into $\frac{x^2}{25}-\frac{y^2}{16}=1$ gives
+
+$$
+\frac{x^2}{25}-\frac{\left(4x-16\right)^2}{9\times16}=1.
+$$
+
+Simplifying gives $16x^2-\left(4x-16\right)^2=400$, i.e. $128x=656$, $x=\frac{41}{8}$, $y=\frac{5}{3}$. The intersection is $\left(\frac{41}{8},\frac{5}{3}\right)$ (tangent, one common point). $\blacksquare$
+
+## Exercise 8
+
+(Exercise 3.2, Problem 3) The line $y=\frac{2}{3}x$ intersects the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a> 0$) at $A$ and $B$, and the product of the abscissas of $A$ and $B$ is $-9$. Find the eccentricity $e$.
+
+### Solution to Exercise 8
+
+Substituting $y=\frac{2}{3}x$ into the hyperbola gives
+
+$$
+\frac{x^2}{a^2}-\frac{4x^2/9}{8}=1,
+$$
+
+i.e. $x^2\left(\frac{1}{a^2}-\frac{1}{18}\right)=1$. Let the abscissas of the two intersections be $x_1,x_2$; then $x_1x_2=\frac{1}{\frac{1}{a^2}-\frac{1}{18}}=-9$. Solving gives $\frac{1}{a^2}-\frac{1}{18}=-\frac{1}{9}$, i.e. $\frac{1}{a^2}=\frac{1}{18}-\frac{2}{18}=-\frac{1}{18}$, a contradiction. Rearranging: $x^2=\frac{1}{\frac{1}{a^2}-\frac{1}{18}}$, and the two intersections are symmetric with $x_1=-x_2$, so $x_1x_2=-x_1^2=-9$, i.e. $x_1^2=9$. Substituting gives $9\left(\frac{1}{a^2}-\frac{1}{18}\right)=1$, so $\frac{1}{a^2}=\frac{1}{9}+\frac{1}{18}=\frac{1}{6}$, $a^2=6$. $c^2=a^2+b^2=6+8=14$, and $e=\frac{\sqrt{14}}{\sqrt{6}}=\frac{\sqrt{21}}{3}$. $\blacksquare$
 
 ## Problem 1
 
-(Review Reference Problem 7, Review and Consolidation, Problem 1) Multiple choice.
-
-(1) The necessary and sufficient condition for the product of the complex numbers $a+b\mathrm{i}$ and $c+d\mathrm{i}$ to be a real number is ( ).
-
-(A) $ad+bc=0$
-
-(B) $ac+bd=0$
-
-(C) $ac=bd$
-
-(D) $ad=bc$
-
-(2) The conjugate complex number of the complex number $\frac{5}{\mathrm{i}-2}$ is ( ).
-
-(A) $\mathrm{i}+2$
-
-(B) $\mathrm{i}-2$
-
-(C) $-2-\mathrm{i}$
-
-(D) $2-\mathrm{i}$
-
-(3) When $\frac{2}{3}< m< 1$, the point corresponding to the complex number $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ in the complex plane lies in ( ).
-
-(A) the first quadrant
-
-(B) the second quadrant
-
-(C) the third quadrant
-
-(D) the fourth quadrant
-
-(4) The principal argument of the complex number $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$ is ( ).
-
-(A) $40^{\circ}$
-
-(B) $140^{\circ}$
-
-(C) $220^{\circ}$
-
-(D) $310^{\circ}$
+(Exercise 3.2, Review and Consolidation, Problem 1) A point $P$ on the hyperbola $4x^2-y^2+64=0$ is at distance $1$ from one of its foci. Then the distance from $P$ to the other focus is $\;\_\_\;$.
 
 ### Solution to Problem 1
 
-(1) By **Definition 7.2.5 (Multiplication Rule for Complex Numbers)**, $\left(a+b\mathrm{i}\right)\left(c+d\mathrm{i}\right)=\left(ac-bd\right)+\left(ad+bc\right)\mathrm{i}$. The product is a real number if and only if the imaginary part $ad+bc=0$. Therefore choose (A).
+Rewrite the hyperbola $4x^2-y^2+64=0$ as $\frac{y^2}{64}-\frac{x^2}{16}=1$, with $a=8$, $b=4$, $c=\sqrt{64+16}=4\sqrt{5}$.
 
-(2) By **Definition 7.2.7 (Division Rule for Complex Numbers)**, $\frac{5}{\mathrm{i}-2}=\frac{5\left(-2-\mathrm{i}\right)}{\left(\mathrm{i}-2\right)\left(-2-\mathrm{i}\right)}=\frac{-10-5\mathrm{i}}{5}=-2-\mathrm{i}$. By **Definition 7.1.10 (Conjugate Complex Number)**, its conjugate complex number is $-2+\mathrm{i}$, i.e. $\mathrm{i}-2$. Therefore choose (B).
-
-(3) By **Definition 7.2.1 (Complex Addition Rule)** and **Definition 7.2.2 (Complex Subtraction Rule)**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. When $\frac{2}{3}< m< 1$, $3m-2> 0$, $m-1< 0$. By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, a point with positive real part and negative imaginary part lies in the fourth quadrant. Therefore choose (D).
-
-(4) $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$. By trigonometric identities, $\sin 40^{\circ}=\cos 50^{\circ}$, $\cos 40^{\circ}=\sin 50^{\circ}$, so the original expression $=\cos 50^{\circ}-\mathrm{i}\sin 50^{\circ}=\cos\left(-50^{\circ}\right)+\mathrm{i}\sin\left(-50^{\circ}\right)=\cos 310^{\circ}+\mathrm{i}\sin 310^{\circ}$. By **Definition 7.3.3 (Principal Value of the Argument)**, the principal argument is $310^{\circ}$. Therefore choose (D). $\blacksquare$
+By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. Given that the distance to one focus is $1$, the distance to the other is $1+16=17$ (rejecting $\lvert 1-16 \rvert=15$, because the distance from a point on the hyperbola to the nearer focus is at least $c-a=4\sqrt{5}-8\approx0.94> 0$; the distance $1$ corresponds to the nearer focus, so the distance to the farther focus is $17$). $\blacksquare$
 
 ## Problem 2
 
-(Review Reference Problem 7, Review and Consolidation, Problem 2) Fill in the blanks.
+(Exercise 3.2, Review and Consolidation, Problem 2) Find the standard equation of the hyperbola satisfying the following conditions.
 
-(1) If the modulus of the complex number $z$ is $5$ and the imaginary part is $-4$, then the complex number $z=\;\_\_\;$.
+(1) foci on the $x$-axis, $a=2\sqrt{5}$, passing through $A\left(-5,2\right)$;
 
-(2) Given the complex number $z=1-2\mathrm{i}$, then $\frac{1}{\overline{z}}=\;\_\_\;$.
-
-(3) The vectors corresponding to the complex numbers $-1+\mathrm{i}$ and $3-4\mathrm{i}$ are $\boldsymbol{OA}$ and $\boldsymbol{OB}$ respectively; then the complex number corresponding to the vector $\boldsymbol{BA}$ is $\;\_\_\;$.
-
-(4) If the vector $\boldsymbol{OZ}$ corresponds to the complex number $4\mathrm{i}$, and $\boldsymbol{OZ}$ is rotated counterclockwise by $45^{\circ}$ about point $O$ and then its modulus is changed to $\sqrt{2}$ times the original to obtain the vector $\boldsymbol{OZ_1}$, then the complex number corresponding to $\boldsymbol{OZ_1}$ is $\;\_\_\;$ (expressed in algebraic form).
+(2) passing through $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$.
 
 ### Solution to Problem 2
 
-(1) Let $z=a-4\mathrm{i}$. By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert z \rvert=\sqrt{a^2+\left(-4\right)^2}=5$, so $a^2+16=25$, $a^2=9$, $a=\pm 3$. Hence $z=3-4\mathrm{i}$ or $z=-3-4\mathrm{i}$.
+By **Definition 3.2.3 (Standard Equation of a Hyperbola)**.
 
-(2) By **Definition 7.1.10 (Conjugate Complex Number)**, $\overline{z}=1+2\mathrm{i}$. By **Definition 7.2.7 (Division Rule for Complex Numbers)**, $\frac{1}{\overline{z}}=\frac{1}{1+2\mathrm{i}}=\frac{1-2\mathrm{i}}{\left(1+2\mathrm{i}\right)\left(1-2\mathrm{i}\right)}=\frac{1-2\mathrm{i}}{5}=\frac{1}{5}-\frac{2}{5}\mathrm{i}$.
+(1) Foci on the $x$-axis, $a=2\sqrt{5}$; let the equation be $\frac{x^2}{20}-\frac{y^2}{b^2}=1$. Substituting $A\left(-5,2\right)$ gives $\frac{25}{20}-\frac{4}{b^2}=1$, so $b^2=16$. The standard equation is
 
-(3) By **Definition 7.2.2 (Subtraction Rule for Complex Numbers)**, $\boldsymbol{BA}=\boldsymbol{OA}-\boldsymbol{OB}$. The corresponding complex number is $\left(-1+\mathrm{i}\right)-\left(3-4\mathrm{i}\right)=-4+5\mathrm{i}$.
+$$
+\frac{x^2}{20}-\frac{y^2}{16}=1.
+$$
 
-(4) The vector $\boldsymbol{OZ}$ corresponds to the complex number $4\mathrm{i}=4\left(\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}\right)$. By **Common Result 7.3.7** (Geometric Meaning of Multiplication), rotate counterclockwise by $45^{\circ}$ and change the modulus to $\sqrt{2}$ times the original: the modulus is $4\sqrt{2}$, and the argument is $90^{\circ}+45^{\circ}=135^{\circ}$. Converting to algebraic form: $4\sqrt{2}\left(\cos 135^{\circ}+\mathrm{i}\sin 135^{\circ}\right)=4\sqrt{2}\left(-\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}\right)=-4+4\mathrm{i}$. $\blacksquare$
+(2) Let the equation be $mx^2+ny^2=1$ ($mn< 0$). Substituting $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$:
+
+$$
+49m+72n=1,\quad 28m+9n=1.
+$$
+
+Solving gives $m=\frac{1}{25}$, $n=-\frac{1}{75}$. The standard equation is
+
+$$
+\frac{x^2}{25}-\frac{y^2}{75}=1.
+$$
+
+$\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problem 7, Review and Consolidation, Problem 3) Prove: $z\cdot\overline{z}=\lvert z \rvert^2=\lvert \overline{z} \rvert^2$.
+(Exercise 3.2, Review and Consolidation, Problem 3) Given the equations of the following hyperbolas, find their foci, eccentricities, and asymptotes.
+
+(1) $16x^2-9y^2=144$;
+
+(2) $16x^2-9y^2=-144$.
 
 ### Solution to Problem 3
 
-Let $z=a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$. By **Definition 7.1.10 (Conjugate Complex Number)**, $\overline{z}=a-b\mathrm{i}$.
+Use **Definition 3.2.3 (Hyperbola)**, **Definition 3.2.6 (Asymptotes)**, and **Definition 3.2.8 (Eccentricity)**.
 
-By **Definition 7.2.5 (Multiplication Rule for Complex Numbers)**,
+(1) $16x^2-9y^2=144$ becomes $\frac{x^2}{9}-\frac{y^2}{16}=1$, with $a=3$, $b=4$, $c=5$. The foci are at $\left(\pm5,0\right)$, $e=\frac{5}{3}$, and the asymptotes are $y=\pm\frac{4}{3}x$.
 
-$$
-z\cdot\overline{z}=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)=a^2-b^2\mathrm{i}^2=a^2+b^2.
-$$
-
-By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert z \rvert^2=a^2+b^2$, $\lvert \overline{z} \rvert^2=a^2+\left(-b\right)^2=a^2+b^2$.
-
-Hence $z\cdot\overline{z}=\lvert z \rvert^2=\lvert \overline{z} \rvert^2$. $\blacksquare$
+(2) $16x^2-9y^2=-144$ becomes $\frac{y^2}{16}-\frac{x^2}{9}=1$, with $a=4$, $b=3$, $c=5$. The foci are at $\left(0,\pm5\right)$, $e=\frac{5}{4}$, and the asymptotes are $y=\pm\frac{4}{3}x$. $\blacksquare$
 
 ## Problem 4
 
-(Review Reference Problem 7, Review and Consolidation, Problem 4) Given that both the complex number $z$ and $\left(z+2\right)^2-8\mathrm{i}$ are pure imaginary numbers, find $z$.
+(Exercise 3.2, Review and Consolidation, Problem 4) Find the standard equation of the hyperbola satisfying the following conditions.
+
+(1) foci on the $x$-axis, transverse axis length $10$, conjugate axis length $8$;
+
+(2) foci on the $y$-axis, focal distance $10$, conjugate axis length $8$;
+
+(3) eccentricity $e=\sqrt{2}$, passing through $M\left(-5,3\right)$.
 
 ### Solution to Problem 4
 
-By **Definition 7.1.6 (Pure Imaginary Number)**, let $z=b\mathrm{i}\ \left(b\in\mathbb R, b\neq 0\right)$.
+Use **Definition 3.2.5 (Transverse and Conjugate Axes)** and **Definition 3.2.8 (Eccentricity)**.
 
-Then $z+2=2+b\mathrm{i}$. By **Definition 7.2.5 (Multiplication Rule for Complex Numbers)**,
-
-$$
-\left(z+2\right)^2=\left(2+b\mathrm{i}\right)^2=4+4b\mathrm{i}+b^2\mathrm{i}^2=\left(4-b^2\right)+4b\mathrm{i}.
-$$
-
-Hence $\left(z+2\right)^2-8\mathrm{i}=\left(4-b^2\right)+\left(4b-8\right)\mathrm{i}$.
-
-Since $\left(z+2\right)^2-8\mathrm{i}$ is also a pure imaginary number, the real part must be $0$ and the imaginary part not equal to $0$:
+(1) $2a=10$, $a=5$; $2b=8$, $b=4$. Foci on the $x$-axis; the equation is
 
 $$
-4-b^2=0,
+\frac{x^2}{25}-\frac{y^2}{16}=1.
 $$
 
-giving $b=\pm 2$. Also requiring $4b-8\neq 0$, i.e. $b\neq 2$, hence $b=-2$.
+(2) $2c=10$, $c=5$; $2b=8$, $b=4$. $a^2=c^2-b^2=25-16=9$. Foci on the $y$-axis; the equation is
 
-Therefore $z=-2\mathrm{i}$. $\blacksquare$
+$$
+\frac{y^2}{9}-\frac{x^2}{16}=1.
+$$
+
+(3) $e=\sqrt{2}$, so $\frac{c}{a}=\sqrt{2}$, $c^2=2a^2$, $b^2=c^2-a^2=a^2$. Let the equation be $\frac{x^2}{a^2}-\frac{y^2}{a^2}=1$. Substituting $M\left(-5,3\right)$ gives $\frac{25-9}{a^2}=1$, $a^2=16$. The equation is
+
+$$
+\frac{x^2}{16}-\frac{y^2}{16}=1.
+$$
+
+$\blacksquare$
 
 ## Problem 5
 
-(Review Reference Problem 7, Review and Consolidation, Problem 5) Solve the following equations in the complex number set $\mathbb C$:
+(Exercise 3.2, Review and Consolidation, Problem 5) As shown in the figure, the circle $O$ has fixed radius $r$, $A$ is a fixed point outside the circle $O$, and $P$ is any point on the circle $O$. The perpendicular bisector $l$ of segment $AP$ intersects the line $OP$ at $Q$. As $P$ moves on the circle $O$, what is the locus of $Q$? Why?
 
-(1) $4x^2+9=0$;
-
-(2) $\left(x-3\right)\left(x-5\right)+2=0$.
+The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ outside the circle, and a point $P$ on the circle; the perpendicular bisector $l$ of segment $AP$ meets the line $OP$ (its extension beyond $P$) at point $Q$, and segments $AP$, $OQ$, $QP$ are drawn.
 
 ### Solution to Problem 5
 
-(1) From $4x^2+9=0$, we get $x^2=-\frac{9}{4}$. Since $\left(\frac{3}{2}\mathrm{i}\right)^2=\left(-\frac{3}{2}\mathrm{i}\right)^2=-\frac{9}{4}$, we have $x=\pm\frac{3}{2}\mathrm{i}$.
+By the property of the perpendicular bisector, $\lvert QA \rvert=\lvert QP \rvert$. Also, $Q$ lies on the line $OP$, and $\lvert OP \rvert=r$.
 
-(2) Expanding $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. Here $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4< 0$. By **Definition 7.2.8 (Root Formula)**,
+Since $A$ is outside the circle $O$, $\lvert OA \rvert> r$, and $Q$ lies on the extension of $OP$ (on the side beyond $P$), so $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, i.e.
 
 $$
-x=\frac{8\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{8\pm 2\mathrm{i}}{2}=4\pm\mathrm{i}.
+\lvert QO \rvert-\lvert QA \rvert=r.
 $$
 
-i.e. $x=4+\mathrm{i}$ or $x=4-\mathrm{i}$. $\blacksquare$
+By **Definition 3.2.1 (Hyperbola)**, the difference of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$, and $r< \lvert OA \rvert$, so the locus of $Q$ is one branch of a hyperbola with foci at $O$ and $A$. $\blacksquare$
 
 ## Problem 6
 
-(Review Reference Problem 7, Comprehensive Application, Problem 6) Given $z_1=5+10\mathrm{i}$, $z_2=3-4\mathrm{i}$, $\frac{1}{z}=\frac{1}{z_1}+\frac{1}{z_2}$, find $z$.
+(Exercise 3.2, Review and Consolidation, Problem 6) Find the standard equation of the equilateral hyperbola passing through $A\left(3,-1\right)$ with its axes of symmetry on the coordinate axes.
 
 ### Solution to Problem 6
 
-By **Definition 7.2.7 (Division Rule for Complex Numbers)**, first find $\frac{1}{z_1}$ and $\frac{1}{z_2}$.
+By **Definition 3.2.7 (Equilateral Hyperbola)**, let the equation be $x^2-y^2=\lambda$ ($\lambda\neq0$). Substituting $A\left(3,-1\right)$ gives $9-1=\lambda$, $\lambda=8$. The standard equation is
 
 $$
-\frac{1}{z_1}=\frac{1}{5+10\mathrm{i}}=\frac{5-10\mathrm{i}}{\left(5+10\mathrm{i}\right)\left(5-10\mathrm{i}\right)}=\frac{5-10\mathrm{i}}{25+100}=\frac{5-10\mathrm{i}}{125}=\frac{1}{25}-\frac{2}{25}\mathrm{i}.
-$$
-
-$$
-\frac{1}{z_2}=\frac{1}{3-4\mathrm{i}}=\frac{3+4\mathrm{i}}{\left(3-4\mathrm{i}\right)\left(3+4\mathrm{i}\right)}=\frac{3+4\mathrm{i}}{9+16}=\frac{3+4\mathrm{i}}{25}=\frac{3}{25}+\frac{4}{25}\mathrm{i}.
-$$
-
-$$
-\frac{1}{z}=\frac{1}{z_1}+\frac{1}{z_2}=\frac{1+3}{25}+\frac{-2+4}{25}\mathrm{i}=\frac{4}{25}+\frac{2}{25}\mathrm{i}.
-$$
-
-Hence
-
-$$
-z=\frac{1}{\frac{4+2\mathrm{i}}{25}}=\frac{25}{4+2\mathrm{i}}=\frac{25\left(4-2\mathrm{i}\right)}{\left(4+2\mathrm{i}\right)\left(4-2\mathrm{i}\right)}=\frac{100-50\mathrm{i}}{16+4}=\frac{100-50\mathrm{i}}{20}=5-\frac{5}{2}\mathrm{i}.
+\frac{x^2}{8}-\frac{y^2}{8}=1.
 $$
 
 $\blacksquare$
 
 ## Problem 7
 
-(Review Reference Problem 7, Comprehensive Application, Problem 7) Given $\left(1+2\mathrm{i}\right)\overline{z}=4+3\mathrm{i}$, find $z$ and $\frac{z}{\overline{z}}$.
+(Exercise 3.2, Comprehensive Application, Problem 7) For what values of $m$ and $n$ does the equation $\frac{x^2}{m}+\frac{y^2}{n}=1$ represent the following curves:
+
+(1) a circle;
+
+(2) an ellipse;
+
+(3) a hyperbola?
 
 ### Solution to Problem 7
 
-By **Definition 7.2.7 (Division Rule for Complex Numbers)**,
+(1) By **Definition 3.1.3 (Standard Equation of an Ellipse)**, a circle is the special case of an ellipse when $a=b$, so we need $m=n> 0$.
 
-$$
-\overline{z}=\frac{4+3\mathrm{i}}{1+2\mathrm{i}}=\frac{\left(4+3\mathrm{i}\right)\left(1-2\mathrm{i}\right)}{\left(1+2\mathrm{i}\right)\left(1-2\mathrm{i}\right)}=\frac{4-8\mathrm{i}+3\mathrm{i}-6\mathrm{i}^2}{1+4}=\frac{10-5\mathrm{i}}{5}=2-\mathrm{i}.
-$$
+(2) By **Definition 3.1.3 (Standard Equation of Ellipse)**, an ellipse requires both denominators positive and unequal, i.e. $m> 0$, $n> 0$, and $m\neq n$.
 
-By **Definition 7.1.10 (Conjugate Complex Number)**, $z=2+\mathrm{i}$.
-
-Then find $\frac{z}{\overline{z}}=\frac{2+\mathrm{i}}{2-\mathrm{i}}=\frac{\left(2+\mathrm{i}\right)\left(2+\mathrm{i}\right)}{\left(2-\mathrm{i}\right)\left(2+\mathrm{i}\right)}=\frac{4+4\mathrm{i}+\mathrm{i}^2}{4+1}=\frac{3+4\mathrm{i}}{5}=\frac{3}{5}+\frac{4}{5}\mathrm{i}$. $\blacksquare$
+(3) By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, a hyperbola requires the two denominators to have opposite signs, i.e. $m> 0$, $n< 0$ or $m< 0$, $n> 0$. $\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problem 7, Comprehensive Application, Problem 8) (1) Find the values of $\mathrm{i}^1$, $\mathrm{i}^2$, $\mathrm{i}^3$, $\mathrm{i}^4$, $\mathrm{i}^5$, $\mathrm{i}^6$, $\mathrm{i}^7$, $\mathrm{i}^8$;
-
-(2) From (1), conjecture what pattern the values of $\mathrm{i}^n\ \left(n\in\mathbb N^*\right)$ follow, and express this pattern as a formula.
+(Exercise 3.2, Comprehensive Application, Problem 8) Find the equation of the hyperbola that shares foci with the ellipse $\frac{x^2}{49}+\frac{y^2}{24}=1$ and has eccentricity $e=\frac{5}{4}$.
 
 ### Solution to Problem 8
 
-By **Definition 7.1.1 (Imaginary Unit)**, $\mathrm{i}^2=-1$.
+By **Definition 3.1.3 (Standard Equation of Ellipse)**, in the ellipse $\frac{x^2}{49}+\frac{y^2}{24}=1$ we have $c^2=49-24=25$, $c=5$, and foci at $\left(\pm5,0\right)$.
 
-(1) Compute one by one:
+The hyperbola shares the foci with the ellipse, so $c=5$. By **Definition 3.2.8 (Eccentricity)**, $e=\frac{c}{a}=\frac{5}{4}$, so $a=4$, $b^2=c^2-a^2=25-16=9$. The hyperbola equation is
 
-(a) $\mathrm{i}^1=\mathrm{i}$;
+$$
+\frac{x^2}{16}-\frac{y^2}{9}=1.
+$$
 
-(b) $\mathrm{i}^2=-1$;
-
-(c) $\mathrm{i}^3=\mathrm{i}^2\cdot\mathrm{i}=-\mathrm{i}$;
-
-(d) $\mathrm{i}^4=\mathrm{i}^3\cdot\mathrm{i}=\left(-\mathrm{i}\right)\cdot\mathrm{i}=1$;
-
-(e) $\mathrm{i}^5=\mathrm{i}^4\cdot\mathrm{i}=\mathrm{i}$;
-
-(f) $\mathrm{i}^6=\mathrm{i}^5\cdot\mathrm{i}=-1$;
-
-(g) $\mathrm{i}^7=\mathrm{i}^6\cdot\mathrm{i}=-\mathrm{i}$;
-
-(h) $\mathrm{i}^8=\mathrm{i}^7\cdot\mathrm{i}=1$.
-
-(2) From (1), the values of $\mathrm{i}^n$ repeat with period $4$: $\mathrm{i}$, $-1$, $-\mathrm{i}$, $1$. The pattern is: when $n=4k+1$, $\mathrm{i}^n=\mathrm{i}$; when $n=4k+2$, $\mathrm{i}^n=-1$; when $n=4k+3$, $\mathrm{i}^n=-\mathrm{i}$; when $n=4k+4$, $\mathrm{i}^n=1$ ($k\in\mathbb N$). $\blacksquare$
+$\blacksquare$
 
 ## Problem 9
 
-(Review Reference Problem 7, Extension and Exploration, Problem 9) Given the complex numbers $z_1=m+\left(4-m^2\right)\mathrm{i}\ \left(m\in\mathbb R\right)$, $z_2=2\cos\theta+\left(\lambda+3\sin\theta\right)\mathrm{i}\ \left(\lambda,\theta\in\mathbb R\right)$, and $z_1=z_2$, find the range of values of $\lambda$.
+(Exercise 3.2, Comprehensive Application, Problem 9) Two outposts $A$ and $B$ are $1400\,\mathrm{m}$ apart. The time difference between hearing an explosion is $3\,\mathrm{s}$, and the speed of sound is $340\,\mathrm{m/s}$. On what curve does the explosion point lie, and find its equation.
 
 ### Solution to Problem 9
 
-By **Definition 7.1.5 (Equality of Complex Numbers)**, $z_1=z_2$ if and only if the real parts are equal and the imaginary parts are equal.
+The difference of the distances from the explosion point to $A$ and $B$ is $340\times3=1020\,\mathrm{m}$. Take the midpoint of $AB$ as the origin and the line $AB$ as the $x$-axis; then $A\left(-700,0\right)$, $B\left(700,0\right)$, $2c=1400$, $c=700$.
 
-Real parts equal: $m=2\cos\theta$.
-
-Imaginary parts equal: $4-m^2=\lambda+3\sin\theta$.
-
-Substituting $m=2\cos\theta$ into the imaginary-part equation, we get
+By **Common Conclusion 3.2.2**, $\lvert \lvert PA \rvert-\lvert PB \rvert \rvert=1020=2a$, $a=510$. $b^2=c^2-a^2=700^2-510^2=229900$. The explosion point lies on a hyperbola with foci at $A$ and $B$, with equation
 
 $$
-4-4\cos^2\theta=\lambda+3\sin\theta.
+\frac{x^2}{260100}-\frac{y^2}{229900}=1.
 $$
 
-i.e.
-
-$$
-\lambda=4\sin^2\theta-3\sin\theta.
-$$
-
-Let $t=\sin\theta$; then $t\in\left[-1,1\right]$, $\lambda=4t^2-3t$.
-
-This is a quadratic function in $t$, opening upward, with axis of symmetry $t=\frac{3}{8}\in\left[-1,1\right]$. The minimum is at $t=\frac{3}{8}$: $\lambda_{\min}=4\cdot\frac{9}{64}-3\cdot\frac{3}{8}=\frac{9}{16}-\frac{9}{8}=-\frac{9}{16}$.
-
-The maximum is taken at an endpoint: when $t=-1$, $\lambda=4+3=7$; when $t=1$, $\lambda=4-3=1$. Hence $\lambda_{\max}=7$.
-
-Therefore the range of values of $\lambda$ is $\left[-\frac{9}{16},7\right]$. $\blacksquare$
+$\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problem 7, Extension and Exploration, Problem 10) In the upper half of the complex plane there is a rhombus $OABC$, $\angle AOC=120^{\circ}$, and the complex number corresponding to point $A$ is $2+\mathrm{i}$; find the complex numbers corresponding to the other two vertices $B$ and $C$.
+(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F\left(c,0\right)$ ($c> 0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a< c$). Find the locus equation of $M$ and describe its shape.
 
 ### Solution to Problem 10
 
-By **Common Result 7.3.7** (Geometric Meaning of Complex Multiplication), rotating the vector $\boldsymbol{OA}$ by the angle gives the vector $\boldsymbol{OC}$.
-
-In the rhombus $OABC$, $O$ is the origin, $\angle AOC=120^{\circ}$, and $\lvert \boldsymbol{OA} \rvert=\lvert \boldsymbol{OC} \rvert$ (the sides of a rhombus are equal). Point $A$ corresponds to the complex number $z_A=2+\mathrm{i}$.
-
-Rotate $\boldsymbol{OA}$ counterclockwise by $120^{\circ}$ about point $O$ to obtain $\boldsymbol{OC}$ (since it is in the upper half-plane):
+Let $M\left(x,y\right)$. The distance to $F\left(c,0\right)$ is $\sqrt{\left(x-c\right)^2+y^2}$, and the distance to $l:x=\frac{a^2}{c}$ is $\left|x-\frac{a^2}{c}\right|$. By the problem,
 
 $$
-z_C=\left(2+\mathrm{i}\right)\left(\cos 120^{\circ}+\mathrm{i}\sin 120^{\circ}\right)=\left(2+\mathrm{i}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right).
+\frac{\sqrt{\left(x-c\right)^2+y^2}}{\left|x-\frac{a^2}{c}\right|}=\frac{c}{a}.
 $$
 
-Expanding:
+Squaring both sides and simplifying gives
 
 $$
-z_C=2\cdot\left(-\frac{1}{2}\right)+2\cdot\frac{\sqrt{3}}{2}\mathrm{i}+\mathrm{i}\cdot\left(-\frac{1}{2}\right)+\mathrm{i}\cdot\frac{\sqrt{3}}{2}\mathrm{i}=-1+\sqrt{3}\mathrm{i}-\frac{1}{2}\mathrm{i}-\frac{\sqrt{3}}{2}=-\frac{2+\sqrt{3}}{2}+\frac{2\sqrt{3}-1}{2}\mathrm{i}.
+\left(a^2-c^2\right)x^2+a^2y^2=a^2\left(a^2-c^2\right).
 $$
 
-The diagonals of a rhombus bisect each other, $\boldsymbol{OB}=\boldsymbol{OA}+\boldsymbol{OC}$, so
+Since $a< c$, we have $a^2-c^2< 0$; dividing both sides by $a^2\left(a^2-c^2\right)$ gives
 
 $$
-z_B=z_A+z_C=\left(2+\mathrm{i}\right)+\left(-\frac{2+\sqrt{3}}{2}+\frac{2\sqrt{3}-1}{2}\mathrm{i}\right)=\frac{2-\sqrt{3}}{2}+\frac{1+2\sqrt{3}}{2}\mathrm{i}.
+\frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
 $$
 
-Therefore the complex number corresponding to point $B$ is $\frac{2-\sqrt{3}}{2}+\frac{1+2\sqrt{3}}{2}\mathrm{i}$, and the complex number corresponding to point $C$ is $-\frac{2+\sqrt{3}}{2}+\frac{2\sqrt{3}-1}{2}\mathrm{i}$. $\blacksquare$
+By **Definition 3.2.1 (Hyperbola)**, the locus is a hyperbola with foci on the $x$-axis. $\blacksquare$
+
+## Problem 11
+
+(Exercise 3.2, Extension and Exploration, Problem 11) $M$ is a moving point; $MA$ is perpendicular to the line $y=x$, with foot $A$ in the first quadrant, and $MB$ is perpendicular to the line $y=-x$, with foot $B$ in the fourth quadrant. If the area of quadrilateral $OAMB$ ($O$ is the origin) is $3$, find the locus equation of $M$.
+
+### Solution to Problem 11
+
+Let $M\left(x,y\right)$. $MA\perp y=x$, with foot $A$ on $y=x$; $MB\perp y=-x$, with foot $B$ on $y=-x$.
+
+By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. Since $A$ is in the first quadrant, $x+y> 0$; since $B$ is in the fourth quadrant, $x-y> 0$, so $x> \lvert y \rvert$.
+
+The quadrilateral $OAMB$ is split into $\triangle OMA$ and $\triangle OMB$. $\lvert OA \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$, $\lvert MA \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$; $\lvert OB \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$, $\lvert MB \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$. The area is
+
+$$
+S=\frac{1}{2}\lvert OA \rvert\lvert MA \rvert+\frac{1}{2}\lvert OB \rvert\lvert MB \rvert=\frac{1}{2}\cdot\frac{\lvert x^2-y^2 \rvert}{2}\cdot2=\frac{\lvert x^2-y^2 \rvert}{2}=3.
+$$
+
+Since $x> \lvert y \rvert$, we have $x^2-y^2> 0$, so $x^2-y^2=6$. The locus equation is
+
+$$
+\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x> \sqrt{6}\right).
+$$
+
+$\blacksquare$
+
+## Problem 12
+
+(Exercise 3.2, Extension and Exploration, Problem 12) Let the eccentricities of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) and the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ be $e_1$ and $e_2$, respectively, and suppose the slopes of the asymptotes of the hyperbola are less than $\frac{2\sqrt{5}}{5}$. Find the ranges of $e_1$ and $e_2$.
+
+### Solution to Problem 12
+
+By **Definition 3.1.7 (Eccentricity of an Ellipse)**, $e_1=\frac{c_1}{a}=\frac{\sqrt{a^2-b^2}}{a}$; by **Definition 3.2.8 (Eccentricity of a Hyperbola)**, $e_2=\frac{c_2}{a}=\frac{\sqrt{a^2+b^2}}{a}$.
+
+The slopes of the hyperbola's asymptotes are $\frac{b}{a}< \frac{2\sqrt{5}}{5}$, so $\frac{b^2}{a^2}< \frac{4}{5}$.
+
+Let $t=\frac{b^2}{a^2}$; then $0< t< \frac{4}{5}$. $e_1^2=1-t> \frac{1}{5}$, and since $e_1< 1$, we have $\frac{\sqrt{5}}{5}< e_1< 1$. $e_2^2=1+t< \frac{9}{5}$, and since $e_2> 1$, we have $1< e_2< \frac{3\sqrt{5}}{5}$. $\blacksquare$
+
+## Problem 13
+
+(Exercise 3.2, Extension and Exploration, Problem 13) Given the hyperbola $x^2-\frac{y^2}{2}=1$, a line $l$ through $P\left(1,1\right)$ intersects the hyperbola at $A$ and $B$. Can $P$ be the midpoint of segment $AB$? Why?
+
+### Solution to Problem 13
+
+Let the slope of $l$ be $k$, with equation $y-1=k\left(x-1\right)$. Substituting into the hyperbola $x^2-\frac{y^2}{2}=1$ gives
+
+$$
+x^2-\frac{\left[k\left(x-1\right)+1\right]^2}{2}=1.
+$$
+
+Simplifying gives $\left(2-k^2\right)x^2-2k\left(1-k\right)x-\left(1-k\right)^2-2=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. If $P\left(1,1\right)$ is the midpoint, then $x_1+x_2=2$. By Vieta's formulas, $x_1+x_2=\frac{2k\left(1-k\right)}{2-k^2}=2$, so $k=2$.
+
+When $k=2$, the equation becomes $-2x^2+4x-3=0$, with discriminant $\Delta=16-24=-8< 0$, so there are no real roots. Hence no such line exists, and $P$ cannot be the midpoint of $AB$. $\blacksquare$
+
+## Problem 14
+
+(Exercise 3.2, Extension and Exploration, Problem 14) Given the hyperbola $\frac{x^2}{4}-\frac{y^2}{16}=1$ and the line $l:y=kx+m$ ($k\neq\pm2$) with exactly one common point $M$, the line through $M$ perpendicular to $l$ intersects the $x$-axis and $y$-axis at $A\left(x,0\right)$ and $B\left(0,y\right)$, respectively. As $M$ moves, find the locus equation of $P\left(x,y\right)$ and describe the curve. Generalizing to a general hyperbola, what corresponding conclusion follows?
+
+### Solution to Problem 14
+
+Substituting $y=kx+m$ into $\frac{x^2}{4}-\frac{y^2}{16}=1$ gives $\left(4-k^2\right)x^2-2kmx-\left(m^2+16\right)=0$. Tangency means $\Delta=0$, i.e. $4k^2m^2+4\left(4-k^2\right)\left(m^2+16\right)=0$, which simplifies to $m^2=16\left(4-k^2\right)$.
+
+The abscissa of the tangent point $M$ is $x_M=\frac{km}{4-k^2}$, and $y_M=kx_M+m=\frac{4m}{4-k^2}$. The line through $M$ perpendicular to $l$ has slope $-\frac{1}{k}$, with equation $y-y_M=-\frac{1}{k}\left(x-x_M\right)$. Setting $y=0$ gives $x=x_M+ky_M=\frac{km+4km}{4-k^2}=\frac{5km}{4-k^2}$; setting $x=0$ gives $y=y_M+\frac{x_M}{k}=\frac{4m+km/k}{4-k^2}=\frac{4m+m}{4-k^2}=\frac{5m}{4-k^2}$.
+
+Eliminating the parameters $k,m$ gives $x=ky$, i.e. $y=\frac{x}{k}$. Since $m^2=16\left(4-k^2\right)$, substituting $y=\frac{5m}{4-k^2}$ gives $y^2=\frac{25\cdot16\left(4-k^2\right)}{\left(4-k^2\right)^2}=\frac{400}{4-k^2}$. From $x=ky$, $k=\frac{x}{y}$; substituting gives $4-\frac{x^2}{y^2}=\frac{400}{y^2}$, i.e. $4y^2-x^2=400$, i.e.
+
+$$
+\frac{y^2}{100}-\frac{x^2}{400}=1.
+$$
+
+The locus is a hyperbola. Generalizing to a general hyperbola, the locus of the points where the lines perpendicular to the tangent at the tangent point cut the coordinate axes is again a hyperbola. $\blacksquare$
+
+## Inquiry and Discovery 1
+
+(Think About It 1) Alternatively, we can directly compute $\lvert MQ \rvert$ and prove that as $x$ grows without bound, $\lvert MQ \rvert$ approaches $0$.
+
+### Solution to Inquiry and Discovery 1
+
+In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x> a$). The distance from $M\left(x,y\right)$ to the asymptote $bx-ay=0$ is
+
+$$
+\lvert MQ \rvert=\frac{\lvert bx-ay \rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.
+$$
+
+Rationalizing the numerator:
+
+$$
+bx-b\sqrt{x^2-a^2}=\frac{b\left(x^2-\left(x^2-a^2\right)\right)}{x+\sqrt{x^2-a^2}}=\frac{ba^2}{x+\sqrt{x^2-a^2}}.
+$$
+
+Hence
+
+$$
+\lvert MQ \rvert=\frac{ba^2}{\sqrt{a^2+b^2}\left(x+\sqrt{x^2-a^2}\right)}.
+$$
+
+As $x\to+\infty$, the denominator tends to infinity, so $\lvert MQ \rvert\to0$, i.e. the hyperbola approaches its asymptote without bound. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 3.3, Problem 1) Write the standard equation of the parabola from the following conditions.
+
+(1) focus at $F\left(3,0\right)$;
+
+(2) directrix equation $x=-\frac{1}{4}$;
+
+(3) distance from focus to directrix is $2$.
+
+### Solution to Exercise 9
+
+By **Definition 3.3.2 (Standard Equation of a Parabola)**, the focus is $\left(\frac{p}{2},0\right)$, the directrix is $x=-\frac{p}{2}$, and $p$ is the distance from focus to directrix.
+
+(1) $F\left(3,0\right)$, so $\frac{p}{2}=3$, $p=6$. The equation is $y^2=12x$.
+
+(2) Directrix $x=-\frac{1}{4}$, so $\frac{p}{2}=\frac{1}{4}$, $p=\frac{1}{2}$. The equation is $y^2=x$.
+
+(3) The distance from focus to directrix is $p=2$. Since the opening direction is not specified, the equations are $y^2=\pm4x$ or $x^2=\pm4y$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 3.3, Problem 2) Find the focus and directrix of each of the following parabolas.
+
+(1) $y^2=20x$;
+
+(2) $x^2=\frac{1}{2}y$;
+
+(3) $2y^2+5x=0$;
+
+(4) $x^2+8y=0$.
+
+### Solution to Exercise 10
+
+By **Definition 3.3.2 (Standard Equation of a Parabola)**, for $y^2=2px$ the focus is $\left(\frac{p}{2},0\right)$ and the directrix is $x=-\frac{p}{2}$; for $x^2=2py$ the focus is $\left(0,\frac{p}{2}\right)$ and the directrix is $y=-\frac{p}{2}$.
+
+(1) $y^2=20x$, $2p=20$, $p=10$. Focus $\left(5,0\right)$, directrix $x=-5$.
+
+(2) $x^2=\frac{1}{2}y$, $2p=\frac{1}{2}$, $p=\frac{1}{4}$. Focus $\left(0,\frac{1}{8}\right)$, directrix $y=-\frac{1}{8}$.
+
+(3) $2y^2+5x=0$ becomes $y^2=-\frac{5}{2}x$, $2p=\frac{5}{2}$, $p=\frac{5}{4}$. Focus $\left(-\frac{5}{8},0\right)$, directrix $x=\frac{5}{8}$.
+
+(4) $x^2+8y=0$ becomes $x^2=-8y$, $2p=8$, $p=4$. Focus $\left(0,-2\right)$, directrix $y=2$. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 3.3, Problem 3) Fill in the blanks.
+
+(1) A point $M$ on the parabola $y^2=2px$ ($p> 0$) is at distance $a$ ($a> \frac{p}{2}$) from the focus; then the distance from $M$ to the directrix is $\;\_\_\;$, and the abscissa of $M$ is $\;\_\_\;$;
+
+(2) The coordinates of the point on the parabola $y^2=12x$ whose distance to the focus equals $9$ are $\;\_\_\;$.
+
+### Solution to Exercise 11
+
+By **Common Conclusion 3.3.3** (Distance from a Point on a Parabola to Focus and Directrix), $\lvert MF \rvert=d$ ($d$ is the distance to the directrix).
+
+(1) $\lvert MF \rvert=a$, so the distance from $M$ to the directrix is $d=a$. The directrix is $x=-\frac{p}{2}$, so $x_M-\left(-\frac{p}{2}\right)=a$, i.e. $x_M=a-\frac{p}{2}$.
+
+(2) For $y^2=12x$, $p=6$, focus $\left(3,0\right)$, directrix $x=-3$. $\lvert MF \rvert=9$, so $x_M+3=9$, $x_M=6$, $y=\pm\sqrt{72}=\pm6\sqrt{2}$. The coordinates are $\left(6,\pm6\sqrt{2}\right)$. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 3.3, Problem 1) Find the standard equation of the parabola satisfying the following conditions.
+
+(1) symmetric about the $x$-axis, and passing through $M\left(5,-4\right)$;
+
+(2) symmetric about the $y$-axis, with the directrix passing through $E\left(5,-5\right)$;
+
+(3) directrix to the right of the $y$-axis, distance from vertex to directrix is $4$;
+
+(4) focus $F$ on the negative $y$-axis, passing through a point $P$ with abscissa $16$, and $FP$ parallel to the directrix.
+
+### Solution to Exercise 12
+
+By **Definition 3.3.2 (Standard Equation of a Parabola)**.
+
+(1) Symmetric about the $x$-axis; let $y^2=2px$. Substituting $M\left(5,-4\right)$ gives $16=10p$, $p=\frac{8}{5}$. The equation is $y^2=\frac{16}{5}x$.
+
+(2) Symmetric about the $y$-axis; the directrix is $y=-\frac{p}{2}$ or $y=\frac{p}{2}$. The directrix passes through $E\left(5,-5\right)$; since the directrix is horizontal, it is $y=-5$, so $\frac{p}{2}=5$, $p=10$. The equation is $x^2=-20y$.
+
+(3) The directrix is to the right of the $y$-axis, so the opening faces left, and the directrix is $x=\frac{p}{2}$. The distance from vertex to directrix is $\frac{p}{2}=4$, $p=8$. The equation is $y^2=-16x$.
+
+(4) Focus on the negative $y$-axis; let $x^2=-2py$. $FP$ is parallel to the directrix (the horizontal line $y=\frac{p}{2}$), so the ordinate of $P$ equals that of the focus $\left(0,-\frac{p}{2}\right)$, i.e. $y_P=-\frac{p}{2}$. Also $x_P=16$; substituting into $256=-2p\cdot\left(-\frac{p}{2}\right)=p^2$ gives $p=16$. The equation is $x^2=-32y$. $\blacksquare$
+
+## Exercise 13
+
+(Exercise 3.3, Problem 2) Draw the following parabolas in the same coordinate system, observe their openings, and describe how the opening size relates to the coefficient of $x$ in the equation:
+
+(1) $y^2=12x$;
+
+(2) $y^2=x$;
+
+(3) $y^2=2x$;
+
+(4) $y^2=4x$.
+
+The figure plots, in the same rectangular coordinate system, four parabolas opening to the right with vertex at the origin: $y^2=12x$, $y^2=x$, $y^2=2x$, $y^2=4x$ (the larger the coefficient of $x$, the wider the opening).
+
+### Solution to Exercise 13
+
+By **Definition 3.3.2 (Standard Equation of Parabola)**, in $y^2=2px$ the coefficient of $x$ is $2p$. The larger the coefficient, the larger $p$, the farther the focus is from the vertex, and the wider the opening.
+
+The values of $2p$ for the four equations are $12$, $1$, $2$, and $4$. The larger the coefficient, the wider the opening; so from narrowest to widest: $y^2=x$, $y^2=2x$, $y^2=4x$, $y^2=12x$. That is, in $y^2=2px$, the larger $p$, the wider the opening. $\blacksquare$
+
+## Exercise 14
+
+(Exercise 3.3, Problem 3) Through $M\left(2,0\right)$ draw the line $l$ with slope $1$, intersecting the parabola $y^2=4x$ at $A$ and $B$. Find $\lvert AB \rvert$.
+
+### Solution to Exercise 14
+
+The line $l$ passes through $M\left(2,0\right)$ with slope $1$, so its equation is $y=x-2$. Substituting into $y^2=4x$ gives $\left(x-2\right)^2=4x$, i.e. $x^2-8x+4=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$; then $x_1+x_2=8$, $x_1x_2=4$.
+
+By the chord-length formula, $\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}=\sqrt{2}\cdot\sqrt{64-16}=\sqrt{2}\cdot4\sqrt{3}=4\sqrt{6}$. $\blacksquare$
+
+## Exercise 15
+
+(Exercise 3.3, Problem 4) A line perpendicular to the $x$-axis intersects the parabola $y^2=4x$ at $A$ and $B$, with $\lvert AB \rvert=4\sqrt{3}$. Find the equation of line $AB$.
+
+### Solution to Exercise 15
+
+Let the line perpendicular to the $x$-axis be $x=x_0$, intersecting the parabola at $A\left(x_0,y_0\right)$ and $B\left(x_0,-y_0\right)$; then $\lvert AB \rvert=2\lvert y_0 \rvert=4\sqrt{3}$, so $\lvert y_0 \rvert=2\sqrt{3}$. Substituting into $y^2=4x$ gives $12=4x_0$, $x_0=3$. The line is $x=3$. $\blacksquare$

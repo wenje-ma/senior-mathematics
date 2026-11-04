@@ -1,648 +1,625 @@
 # week62
-> **Definition 2.2.1 (Point-slope Form)**
+> **Definition 4.1.1 (数列)**
 > 
-> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
-> **Definition 2.2.2 (斜截式方程)**
+> 按照确定的顺序排列的一列数称为数列, 数列中的每一个数叫做这个数列的项.
+> **Definition 4.1.5 (General Term Formula)**
 > 
-> 由直线的斜率 k 及其在 y 轴上的截距 b 确定的方程 y = kx + b, 叫做直线的斜截式方程.
-> **Definition 2.2.6 (一般式方程)**
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.1.6 (递推公式)**
 > 
-> 关于 $x,y$ 的二元一次方程 $Ax+By+C=0$ (其中 $A,B$ 不同时为 $0$) 叫做直线的一般式方程, 简称一般式.
-
-## Exercise 1
-
-(Exercise 2.3, Problem 1) Find the intersection coordinates of the following two lines, and draw the graph:
-
-(1) $l_1:2x+3y=12$, $l_2:x-2y=4$;
-
-(2) $l_1:x=2$, $l_2:3x+2y-12=0$.
-
-The figure plots two pairs of intersecting lines in the rectangular coordinate system: (1) the line $l_1:2x+3y=12$ and $l_2:x-2y=4$ intersect at $\left(\frac{36}{7},\frac{4}{7}\right)$; (2) the vertical line $l_1:x=2$ and the line $l_2:3x+2y-12=0$ intersect at $\left(2,3\right)$.
-
-### Solution to Exercise 1
-
-By **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines), the intersection coordinates are the solution of the system.
-
-(1) Solve the system
-
-$$
-\begin{cases}2x+3y=12,\\x-2y=4.\end{cases}
-$$
-
-From the second equation, $x=4+2y$; substituting into the first gives $2\left(4+2y\right)+3y=12$, i.e. $8+7y=12$, hence $y=\frac{4}{7}$. Substituting back gives $x=4+\frac{8}{7}=\frac{36}{7}$. The intersection coordinates are $\left(\frac{36}{7},\frac{4}{7}\right)$.
-
-(2) Solve the system
-
-$$
-\begin{cases}x=2,\\3x+2y-12=0.\end{cases}
-$$
-
-Substituting $x=2$ into the second equation gives $6+2y-12=0$, hence $y=3$. The intersection coordinates are $\left(2,3\right)$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 2.3, Problem 2) Determine the relative position of each pair of lines below. If they intersect, find the coordinates of the intersection point:
-
-(1) $l_1:2x-3y=7$, $l_2:4x+2y=1$;
-
-(2) $l_1:2x-6y+4=0$, $l_2:y=\frac{x}{3}+\frac{2}{3}$;
-
-(3) $l_1:\left(\sqrt 2-1\right)x+y=3$, $l_2:x+\left(\sqrt 2+1\right)y=2$.
-
-### Solution to Exercise 2
-
-By **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines).
-
-(1) Solve the system
-
-$$
-\begin{cases}2x-3y=7,\\4x+2y=1.\end{cases}
-$$
-
-Multiplying the first equation by $2$ and subtracting the second gives $-8y=13$, hence $y=-\frac{13}{8}$. Substituting into the first gives $2x+\frac{39}{8}=7$, i.e. $2x=\frac{17}{8}$, hence $x=\frac{17}{16}$. The system has a unique solution, so $l_1$ and $l_2$ intersect, at $\left(\frac{17}{16},-\frac{13}{8}\right)$.
-
-(2) $l_2:y=\frac{x}{3}+\frac{2}{3}$ is $x-3y+2=0$, i.e. $2x-6y+4=0$, which is the same equation as $l_1$, so $l_1$ and $l_2$ coincide.
-
-(3) Solve the system
-
-$$
-\begin{cases}\left(\sqrt 2-1\right)x+y=3,\\x+\left(\sqrt 2+1\right)y=2.\end{cases}
-$$
-
-From the first equation, $y=3-\left(\sqrt 2-1\right)x$; substituting into the second gives $x+\left(\sqrt 2+1\right)\left[3-\left(\sqrt 2-1\right)x\right]=2$, i.e. $x+3\left(\sqrt 2+1\right)-\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)x=2$. Since $\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)=1$, this becomes $x+3\sqrt 2+3-x=2$, i.e. $3\sqrt 2+3=2$, a contradiction. The system has no solution, so $l_1\parallel l_2$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 2.3, Problem 3) The line $l$ passes through the origin and through the intersection point of the line $2x-2y-1=0$ and the line $6x-4y+1=0$. Find the equation of the line $l$.
-
-### Solution to Exercise 3
-
-By **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines), first find the intersection point of the two lines.
-
-Solve the system
-
-$$
-\begin{cases}2x-2y-1=0,\\6x-4y+1=0.\end{cases}
-$$
-
-Multiplying the first equation by $2$ and subtracting the second gives $-2x-3=0$, hence $x=-\frac{3}{2}$. Substituting into the first gives $-3-2y-1=0$, hence $y=-2$. The intersection point is $\left(-\frac{3}{2},-2\right)$.
-
-The line $l$ passes through the origin $\left(0,0\right)$ and the intersection point $\left(-\frac{3}{2},-2\right)$. By **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{-2-0}{-\frac{3}{2}-0}=\frac{4}{3}$. By **Definition 2.2.2 (Slope-Intercept Form)**, we get $y=\frac{4}{3}x$, i.e. $4x-3y=0$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 2.3, Problem 4) Find the distance between each pair of points below:
-
-(1) $A\left(6,0\right)$, $B\left(-2,0\right)$;
-
-(2) $C\left(0,-4\right)$, $D\left(0,-1\right)$;
-
-(3) $P\left(6,0\right)$, $Q\left(0,-2\right)$;
-
-(4) $M\left(2,1\right)$, $N\left(5,-1\right)$.
-
-### Solution to Exercise 4
-
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
-
-(1) $\left|AB\right|=\sqrt{\left(-2-6\right)^2+\left(0-0\right)^2}=\sqrt{64}=8$.
-
-(2) $\left|CD\right|=\sqrt{\left(0-0\right)^2+\left(-1-\left(-4\right)\right)^2}=\sqrt{9}=3$.
-
-(3) $\left|PQ\right|=\sqrt{\left(0-6\right)^2+\left(-2-0\right)^2}=\sqrt{36+4}=\sqrt{40}=2\sqrt{10}$.
-
-(4) $\left|MN\right|=\sqrt{\left(5-2\right)^2+\left(-1-1\right)^2}=\sqrt{9+4}=\sqrt{13}$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 2.3, Problem 5) Given that the distance between $A\left(a,-5\right)$ and $B\left(0,10\right)$ is $17$, find the value of $a$.
-
-### Solution to Exercise 5
-
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points),
-
-$$
-\left|AB\right|=\sqrt{\left(0-a\right)^2+\left(10-\left(-5\right)\right)^2}=\sqrt{a^2+225}=17.
-$$
-
-Squaring both sides gives $a^2+225=289$, i.e. $a^2=64$, hence $a=\pm8$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 2.3, Problem 6) Prove using the coordinate method: the midpoint of the hypotenuse of a right triangle is equidistant from the three vertices.
-
-### Solution to Exercise 6
-
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), first set up a coordinate system.
-
-Let the right-angle vertex of the right triangle $ABC$ be at the origin $O$, with the two legs on the $x$-axis and $y$-axis respectively. Then $A\left(a,0\right)$, $B\left(0,b\right)$, $O\left(0,0\right)$.
-
-The midpoint of the hypotenuse $AB$ is $M\left(\frac{a}{2},\frac{b}{2}\right)$.
-
-By the distance formula,
-
-$$
-\left|MA\right|=\sqrt{\left(a-\frac{a}{2}\right)^2+\left(0-\frac{b}{2}\right)^2}=\sqrt{\frac{a^2}{4}+\frac{b^2}{4}}=\frac{1}{2}\sqrt{a^2+b^2},
-$$
-
-$$
-\left|MB\right|=\sqrt{\left(0-\frac{a}{2}\right)^2+\left(b-\frac{b}{2}\right)^2}=\sqrt{\frac{a^2}{4}+\frac{b^2}{4}}=\frac{1}{2}\sqrt{a^2+b^2},
-$$
-
-$$
-\left|MO\right|=\sqrt{\left(0-\frac{a}{2}\right)^2+\left(0-\frac{b}{2}\right)^2}=\sqrt{\frac{a^2}{4}+\frac{b^2}{4}}=\frac{1}{2}\sqrt{a^2+b^2}.
-$$
-
-Hence $\left|MA\right|=\left|MB\right|=\left|MO\right|$, i.e. the midpoint of the hypotenuse is equidistant from the three vertices. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 2.3, Problem 7) Find the distance from the origin to each of the following lines:
-
-(1) $l:3x+2y-26=0$;
-
-(2) $l:x=y$.
-
-### Solution to Exercise 7
-
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the origin is $\left(0,0\right)$.
-
-(1) $d=\frac{\left|3\cdot0+2\cdot0-26\right|}{\sqrt{3^2+2^2}}=\frac{26}{\sqrt{13}}=2\sqrt{13}$.
-
-(2) The line $x=y$ is $x-y=0$, and $d=\frac{\left|0-0\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{0}{\sqrt 2}=0$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 2.3, Problem 8) Find the distance from each point to the given line:
-
-(1) $A\left(-2,3\right)$, $l:3x+4y+3=0$;
-
-(2) $B\left(1,0\right)$, $l:\sqrt 3x+y-\sqrt 3=0$;
-
-(3) $C\left(1,-2\right)$, $l:4x+3y=0$.
-
-### Solution to Exercise 8
-
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line).
-
-(1) $d=\frac{\left|3\cdot\left(-2\right)+4\cdot3+3\right|}{\sqrt{3^2+4^2}}=\frac{\left|-6+12+3\right|}{5}=\frac{9}{5}$.
-
-(2) $d=\frac{\left|\sqrt 3\cdot1+1\cdot0-\sqrt 3\right|}{\sqrt{\left(\sqrt 3\right)^2+1^2}}=\frac{\left|\sqrt 3-\sqrt 3\right|}{\sqrt 4}=\frac{0}{2}=0$.
-
-(3) $d=\frac{\left|4\cdot1+3\cdot\left(-2\right)\right|}{\sqrt{4^2+3^2}}=\frac{\left|4-6\right|}{5}=\frac{2}{5}$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 2.3, Problem 9) Given that the distance from the point $P\left(-1,2\right)$ to the line $l:4x-3y+C=0$ is $1$, find the value of $C$.
-
-### Solution to Exercise 9
-
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
-
-$$
-d=\frac{\left|4\cdot\left(-1\right)-3\cdot2+C\right|}{\sqrt{4^2+\left(-3\right)^2}}=\frac{\left|C-10\right|}{5}=1.
-$$
-
-Hence $\left|C-10\right|=5$, i.e. $C-10=5$ or $C-10=-5$, so $C=15$ or $C=5$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 2.3, Problem 10) Find the distance between each pair of parallel lines below:
-
-(1) $l_1:2x+3y-8=0$, $l_2:2x+3y+18=0$;
-
-(2) $l_1:3x+4y=10$, $l_2:3x+4y=0$.
-
-### Solution to Exercise 10
-
-By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines).
-
-(1) $d=\frac{\left|-8-18\right|}{\sqrt{2^2+3^2}}=\frac{26}{\sqrt{13}}=2\sqrt{13}$.
-
-(2) $l_1:3x+4y-10=0$, $l_2:3x+4y=0$, and $d=\frac{\left|-10-0\right|}{\sqrt{3^2+4^2}}=\frac{10}{5}=2$. $\blacksquare$
-
-## Exercise 11
-
-(Exercise 2.3, Problem 11) Given that the distance between the two parallel lines $l_1:3x-4y+6=0$ and $l_2:3x-4y+C=0$ is $3$, find the value of $C$.
-
-### Solution to Exercise 11
-
-By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines),
-
-$$
-d=\frac{\left|6-C\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|6-C\right|}{5}=3.
-$$
-
-Hence $\left|6-C\right|=15$, i.e. $6-C=15$ or $6-C=-15$, so $C=-9$ or $C=21$. $\blacksquare$
-
-## Exercise 12
-
-(Exercise 2.3, Problem 12) As shown in the figure, given the lines $l_1:x-2y+1=0$ and $l_2:x-2y+4=0$, take any point $A$ on $l_1$ and any point $B$ on $l_2$, join $AB$, and take the trisection point $C$ on $AB$ that is closer to $A$. Through $C$ draw the line $l_3$ parallel to $l_1$. Find the distance between $l_1$ and $l_3$.
-
-The figure plots the two parallel lines $l_1:x-2y+1=0$ and $l_2:x-2y+4=0$ in the rectangular coordinate system: take point $A$ on $l_1$ and point $B$ on $l_2$, and join the segment $AB$; $C$ is the trisection point of $AB$ nearer to $A$ ($AC=\frac{1}{3}AB$), and through $C$ draw the line $l_3$ parallel to $l_1$.
-
-### Solution to Exercise 12
-
-By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), first find the distance between $l_1$ and $l_2$.
-
-$$
-d_{12}=\frac{\left|1-4\right|}{\sqrt{1^2+\left(-2\right)^2}}=\frac{3}{\sqrt 5}.
-$$
-
-The point $C$ is the trisection point of $AB$ closer to $A$, i.e. $AC=\frac{1}{3}AB$. The distance between $l_1$ and $l_3$ is $\frac{1}{3}$ of the distance between $l_1$ and $l_2$, i.e.
-
-$$
-d_{13}=\frac{1}{3}d_{12}=\frac{1}{\sqrt 5}=\frac{\sqrt 5}{5}.
-$$
-
-$\blacksquare$
+> 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **Definition 4.2.1 (Arithmetic Sequence)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **Definition 4.2.2 (等差中项)**
+> 
+> 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**
+> 
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.5 (等差数列性质)**
+> 
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **Definition 4.3.2 (等比中项)**
+> 
+> 如果在 $a$ 与 $b$ 中间插入一个数 $G$, 使 $a,G,b$ 成等比数列, 那么 $G$ 叫做 $a$ 与 $b$ 的等比中项. 此时 $G^2=ab$.
+> **Theorem 4.3.3 (等比数列通项公式)**
+> 
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **Theorem 4.3.5 (前 $n$ 项和公式)**
+> 
+> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> **Definition 4.4.1 (数学归纳法)**
+> 
+> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
+> **Definition 5.1.1 (平均变化率)**
+> 
+> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **Definition 5.1.2 (Derivative)**
+> 
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**
+> 
+> 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **Definition 5.2.1 (Derivative Formulas)**
+> 
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (Differentiation Rules)**
+> 
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.3 (Chain Rule)**
+> 
+> 复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
+> **Definition 5.3.1 (Monotonicity and Derivative Sign)**
+> 
+> 在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+> **Definition 5.3.2 (Local Extrema)**
+> 
+> 如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+> **Definition 6.1.1 (分类加法计数原理)**
+> 
+> 完成一件事有两类不同方案, 在第 1 类方案中有 m 种不同的方法, 在第 2 类方案中有 n 种不同的方法, 那么完成这件事共有 N = m + n 种不同的方法.
+> **Definition 6.1.2 (分步乘法计数原理)**
+> 
+> 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
 
 ## Problem 1
 
-(Exercise 2.3, Review and Consolidation, Problem 1) Determine the relative position of each pair of lines below. If they intersect, find the coordinates of the intersection point:
+(Review Reference Problem 4, Extension and Exploration, Problem 14) During the $2015$ Suzhou World Table Tennis Championships, a scenic site used table tennis balls to build several decorations in the shape of "regular triangular pyramids". The $1$st pile has only $1$ layer with just one ball; the bottom layer (first layer) of piles $2,3,4,\cdots$ is fixed as shown in the figure; starting from the second layer, each layer's balls rest naturally on the layer below; and the $n$-th layer of the $n$-th pile has exactly one table tennis ball. Let the total number of balls in the $n$-th pile be $f\left(n\right)$.
 
-(1) $l_1:2x-y+7=0$, $l_2:x+y=1$;
+(1) Find $f\left(3\right)$;
 
-(2) $l_1:x-3y-10=0$, $l_2:y=\frac{x+5}{3}$;
+(2) Infer a recurrence relation between $f\left(n+1\right)$ and $f\left(n\right)$, and using it find an expression for $f\left(n\right)$.
 
-(3) $l_1:3x-5y+10=0$, $l_2:9x-15y+30=0$.
+Reference formula: $1^2+2^2+\cdots+n^2=\frac{1}{6}n\left(n+1\right)\left(2n+1\right)$.
+
+The figure shows several "regular triangular pyramid" decorations made of ping-pong balls: the 1st pile has only a single ball; the bottom layers of the 2nd, 3rd, 4th, ... piles are arranged in triangular patterns (containing the triangular numbers $1,3,6,10,\cdots$ balls), and from the second layer up the balls rest naturally on the layer below, with the $n$-th pile's $n$-th layer containing just one ball.
 
 ### Solution to Problem 1
 
-By **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines).
-
-(1) Solve the system
+(1) The $3$rd pile has $3$ layers, with $1,3,6$ balls respectively.
 
 $$
-\begin{cases}2x-y+7=0,\\x+y=1.\end{cases}
+f\left(3\right)=1+3+6=10.
 $$
 
-Adding the two equations gives $3x+7=1$, i.e. $x=-2$. Substituting into the second gives $y=3$. There is a unique solution, so the lines intersect, at $\left(-2,3\right)$.
+$\blacksquare$
 
-(2) $l_2:y=\frac{x+5}{3}$ is $x-3y+5=0$. Compare with $l_1$, which is $x-3y-10=0$: from $l_2$ we get $x-3y=-5$, while $l_1$ gives $x-3y=10$; the two equations are contradictory and have no solution. Hence $l_1\parallel l_2$.
+(2) The $n+1$-th pile has one more layer (the bottom layer) than the $n$-th pile; the number of balls in this layer is the $n+1$-th triangular number, i.e. $\frac{\left(n+1\right)\left(n+2\right)}{2}$.
 
-(3) $l_2:9x-15y+30=0$ is $3x-5y+10=0$, which is the same equation as $l_1$, so $l_1$ and $l_2$ coincide. $\blacksquare$
+$$
+f\left(n+1\right)=f\left(n\right)+\frac{\left(n+1\right)\left(n+2\right)}{2}.
+$$
+
+$$
+f\left(n\right)=f\left(1\right)+\sum_{k=1}^{n-1}\frac{\left(k+1\right)\left(k+2\right)}{2}=1+\frac{1}{2}\sum_{k=1}^{n-1}\left(k+1\right)\left(k+2\right).
+$$
+
+$$
+=1+\frac{1}{2}\sum_{k=1}^{n-1}\left(k^2+3k+2\right)=1+\frac{1}{2}\left[\frac{\left(n-1\right)n\left(2n-1\right)}{6}+\frac{3\left(n-1\right)n}{2}+2\left(n-1\right)\right].
+$$
+
+$$
+=\frac{n\left(n+1\right)\left(n+2\right)}{6}.
+$$
+
+$\blacksquare$
+
+(Review Reference Problem 4, Extension and Exploration, Problem 15) Every rational number can be written as $\frac{m}{n}$ ($m,n\in\mathbb Z$, $n\ne 0$, $m$ and $n$ coprime). Any rational number $\frac{m}{n}$ can be converted into a terminating or repeating decimal. Conversely, any terminating decimal can be written as $\frac{m}{n}$ and is therefore rational. Is a repeating decimal rational? Consider the following questions.
+
+(1) Is $1.2\dot{3}$ rational? Explain why.
+
+(2) Is $1.2\dot{4}$ rational? Explain why.
+
+### Solution to Problem 1
+
+(1) Let $x=1.2\dot{3}=1.2333\cdots$.
+
+$10x=12.333\cdots$, $100x=123.333\cdots$.
+
+$90x=111$, $x=\frac{111}{90}=\frac{37}{30}$.
+
+Hence $1.2\dot{3}$ is rational.
+
+$\blacksquare$
+
+(2) Let $x=1.2\dot{4}=1.2444\cdots$.
+
+$10x=12.444\cdots$, $100x=124.444\cdots$.
+
+$90x=112$, $x=\frac{112}{90}=\frac{56}{45}$.
+
+Hence $1.2\dot{4}$ is rational.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Extension and Exploration, Problem 16) On a plane there are $n$ ($n\in\mathbb N$, $n\ge 3$) points, no three of which are collinear. Draw lines through every pair of these points. How many such lines are there in total? Prove your conclusion.
+
+### Solution to Problem 1
+
+Conjecture: there are $\frac{n\left(n-1\right)}{2}$ lines in total.
+
+(1) When $n=3$, $3$ points determine $3$ lines, and $\frac{3\times 2}{2}=3$; holds.
+
+(2) Assume that when $n=k$, $k$ points determine $\frac{k\left(k-1\right)}{2}$ lines.
+
+When the $k+1$-th point is added, it determines one new line with each of the previous $k$ points, adding $k$ lines.
+
+$$
+\frac{k\left(k-1\right)}{2}+k=\frac{k\left(k+1\right)}{2}.
+$$
+
+Thus it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, $n$ points determine $\frac{n\left(n-1\right)}{2}$ lines.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Extension and Exploration, Problem 17) Mathematical induction has other variants. For example, keep step (1) of mathematical induction unchanged, but change step (2) to "taking 'the proposition holds for $n_0\le n\le k$' ($k\in\mathbb N^*$, $k\ge n_0$) as the hypothesis, deduce that 'the proposition also holds when $n=k+1$'"; one may then also conclude that the proposition holds for all positive integers $n$ starting from $n_0$. This proof method is called the second principle of mathematical induction. Use the second principle of mathematical induction to prove the following proposition: if the sequence $\left\{F_n\right\}$ satisfies $F_1=1$, $F_2=1$, $F_n=F_{n-1}+F_{n-2}$ ($n\ge 3$, $n\in\mathbb N^*$), then its general term is $F_n=\frac{1}{\sqrt{5}}\left[\left(\frac{1+\sqrt{5}}{2}\right)^n-\left(\frac{1-\sqrt{5}}{2}\right)^n\right]$.
+
+### Solution to Problem 1
+
+Let $\alpha=\frac{1+\sqrt{5}}{2}$, $\beta=\frac{1-\sqrt{5}}{2}$; then $\alpha+\beta=1$, $\alpha\beta=-1$.
+
+(1) When $n=1$, $\frac{1}{\sqrt{5}}\left(\alpha-\beta\right)=\frac{1}{\sqrt{5}}\cdot\sqrt{5}=1=F_1$; holds.
+
+When $n=2$, $\frac{1}{\sqrt{5}}\left(\alpha^2-\beta^2\right)=\frac{1}{\sqrt{5}}\left(\alpha-\beta\right)\left(\alpha+\beta\right)=\frac{1}{\sqrt{5}}\cdot\sqrt{5}\cdot 1=1=F_2$; holds.
+
+(2) Assume that for $n\le k$ ($k\ge 2$), $F_n=\frac{1}{\sqrt{5}}\left(\alpha^n-\beta^n\right)$.
+
+When $n=k+1$,
+
+$$
+F_{k+1}=F_k+F_{k-1}=\frac{1}{\sqrt{5}}\left(\alpha^k-\beta^k\right)+\frac{1}{\sqrt{5}}\left(\alpha^{k-1}-\beta^{k-1}\right).
+$$
+
+$$
+=\frac{1}{\sqrt{5}}\left[\alpha^{k-1}\left(\alpha+1\right)-\beta^{k-1}\left(\beta+1\right)\right].
+$$
+
+Since $\alpha^2=\alpha+1$, $\beta^2=\beta+1$, hence
+
+$$
+F_{k+1}=\frac{1}{\sqrt{5}}\left(\alpha^{k+1}-\beta^{k+1}\right).
+$$
+
+Holds. By the second form of **Definition 4.4.1 (Mathematical Induction)**, the general term holds for all $n\in\mathbb N^*$.
+
+$\blacksquare$
 
 ## Problem 2
 
-(Exercise 2.3, Review and Consolidation, Problem 2) Find the equation of the line $l$ satisfying the following conditions:
+(Review Reference Problem 5, Review and Consolidation, Problem 1) Given that points $P$ and $Q$ are on the curve $y=x^{2}-2x-3$, that the x-coordinate of $P$ is $1$, and that the x-coordinate of $Q$ is $4$. Find: 
 
-(1) passing through the intersection of the two lines $2x-3y+10=0$ and $3x+4y-2=0$, and perpendicular to the line $3x-2y+4=0$;
+(1) the slope of the secant line $PQ$; 
 
-(2) passing through the intersection of the two lines $2x+y-8=0$ and $x-2y+1=0$, and parallel to the line $4x-3y-7=0$.
+(2) the equation of the tangent line at $P$.
 
 ### Solution to Problem 2
 
-(1) First find the intersection. Solve the system
+By **Definition 5.1.1 (平均变化率)** and **Definition 5.1.3 (One Radian)**.
+
+(1) $P\left(1,f\left(1\right)\right)=\left(1,-4\right)$, $Q\left(4,f\left(4\right)\right)=\left(4,5\right)$. The slope of the secant $PQ$ is
 
 $$
-\begin{cases}2x-3y+10=0,\\3x+4y-2=0.\end{cases}
+k=\frac{f\left(4\right)-f\left(1\right)}{4-1}=\frac{5-\left(-4\right)}{3}=3.
 $$
 
-Multiplying the first equation by $4$ and the second by $3$, then adding, gives $17x+34=0$, hence $x=-2$. Substituting into the first gives $-4-3y+10=0$, hence $y=2$. The intersection point is $\left(-2,2\right)$.
-
-The line $3x-2y+4=0$ is $y=\frac{3}{2}x+2$, with slope $\frac{3}{2}$. By **Common Conclusion 2.1.6** (Two Lines Are Perpendicular), the desired line has slope $-\frac{2}{3}$. By **Definition 2.2.1 (Point-Slope Form)**, substituting the point $\left(-2,2\right)$ gives $y-2=-\frac{2}{3}\left(x+2\right)$, i.e. $2x+3y-2=0$.
-
-(2) First find the intersection. Solve the system
-
-$$
-\begin{cases}2x+y-8=0,\\x-2y+1=0.\end{cases}
-$$
-
-From the first equation, $y=8-2x$; substituting into the second gives $x-2\left(8-2x\right)+1=0$, i.e. $5x-15=0$, hence $x=3$. Substituting back gives $y=2$. The intersection point is $\left(3,2\right)$.
-
-The line $4x-3y-7=0$ is $y=\frac{4}{3}x-\frac{7}{3}$, with slope $\frac{4}{3}$. By **Common Conclusion 2.1.5** (Two Lines Are Parallel), the desired line also has slope $\frac{4}{3}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $\left(3,2\right)$ gives $y-2=\frac{4}{3}\left(x-3\right)$, i.e. $4x-3y-6=0$. $\blacksquare$
+(2) $y'=2x-2$, hence the tangent slope at $P$ is $y'\big|_{x=1}=0$. The tangent passes through $\left(1,-4\right)$, so its equation is $y=-4$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 2.3, Review and Consolidation, Problem 3) Given the six points $A\left(1,2\right)$, $B\left(2,0\right)$, $M\left(1,0\right)$, $N\left(-4,0\right)$, $P\left(0,3\right)$, $Q\left(-1,1\right)$, can the segments $AB$, $MN$, and $PQ$ form a triangle? Why?
+(Review Reference Problem 5, Review and Consolidation, Problem 2) Find the derivatives of the following functions: 
+
+(1) $y=2^{x}\tan x$;
+
+(2) $y=2^{x}\ln x$;
+
+(3) $y=\left(x-2\right)^{3}\left(3x+1\right)^{2}$;
+
+(4) $y=\frac{x^{2}}{\left(2x+1\right)^{3}}$;
+
+(5) $y=\mathrm e^{-2x+1}\cos\left(-x^{2}+x\right)$;
+
+(6) $y=\frac{\sin2x}{\sqrt{x}}$.
 
 ### Solution to Problem 3
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), find the lengths of the three segments.
+By **Definition 5.2.1 (Derivative Formulas)**, **Definition 5.2.2 (Trigonometric Functions)** and **Definition 5.2.3 (Chain Rule)**.
+
+(1) $y'=2^{x}\ln2\cdot\tan x+2^{x}\cdot\frac{1}{\cos^{2}x}$.
+
+(2) $y'=2^{x}\ln2\cdot\ln x+\frac{2^{x}}{x}$.
+
+(3) By the product rule, 
 
 $$
-\left|AB\right|=\sqrt{\left(2-1\right)^2+\left(0-2\right)^2}=\sqrt{1+4}=\sqrt 5,
+y'=3\left(x-2\right)^{2}\left(3x+1\right)^{2}+\left(x-2\right)^{3}\cdot2\left(3x+1\right)\cdot3=3\left(x-2\right)^{2}\left(3x+1\right)\left(5x-3\right).
 $$
 
-$$
-\left|MN\right|=\sqrt{\left(-4-1\right)^2+\left(0-0\right)^2}=5,
-$$
+(4) By the quotient rule, 
 
 $$
-\left|PQ\right|=\sqrt{\left(-1-0\right)^2+\left(1-3\right)^2}=\sqrt{1+4}=\sqrt 5.
+y'=\frac{2x\left(2x+1\right)^{3}-x^{2}\cdot3\left(2x+1\right)^{2}\cdot2}{\left(2x+1\right)^{6}}=\frac{2x\left(2x+1\right)-6x^{2}}{\left(2x+1\right)^{4}}=\frac{2x-2x^{2}}{\left(2x+1\right)^{4}}.
 $$
 
-The condition for three segments to form a triangle is that the sum of any two sides is greater than the third. Since $\sqrt 5+\sqrt 5=2\sqrt 5< 5$, the triangle inequality is not satisfied, so the three segments cannot form a triangle. $\blacksquare$
+(5) By the product rule and the chain rule, 
+
+$$
+y'=-2\mathrm e^{-2x+1}\cos\left(-x^{2}+1\right)+\mathrm e^{-2x+1}\left[-\sin\left(-x^{2}+x\right)\right]\cdot\left(-2x+1\right).
+$$
+
+(6) By the quotient rule, 
+
+$$
+y'=\frac{2\cos2x\cdot\sqrt{x}-\sin2x\cdot\frac{1}{2\sqrt{x}}}{x}=\frac{4x\cos2x-\sin2x}{2x\sqrt{x}}.
+$$
+
+$\blacksquare$
 
 ## Problem 4
 
-(Exercise 2.3, Review and Consolidation, Problem 4) Given three points $P\left(a,2\right)$, $Q\left(-2,-3\right)$, $M\left(1,1\right)$ with $\lvert PQ \rvert=\lvert PM \rvert$, find the value of $a$.
+(Review Reference Problem 5, Review and Consolidation, Problem 3) The graph of $y=f\left(x\right)$ is one of the four graphs shown, and the graph of its derivative $y=f'\left(x\right)$ is as shown. Then the graph of the function is ( ).
+
+The upper part shows the graph of the derivative $y=f'\left(x\right)$ on $\left(-1,1\right)$: above the $x$-axis and rising on $\left(-1,0\right)$, above the $x$-axis but falling on $\left(0,1\right)$ (highest at $x=0$); the lower part shows four candidate graphs of $y=f\left(x\right)$ (A, B, C, D), from which the one corresponding to this derivative must be chosen.
 
 ### Solution to Problem 4
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points),
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, the sign of $f'\left(x\right)$ determines whether $f\left(x\right)$ increases or decreases.
 
-$$
-\left|PQ\right|=\sqrt{\left(-2-a\right)^2+\left(-3-2\right)^2}=\sqrt{\left(a+2\right)^2+25},
-$$
+From the graph of the derivative: on $\left(-1,0\right)$, $f'\left(x\right)> 0$ and is increasing, so $f\left(x\right)$ is increasing and becoming steeper; on $\left(0,1\right)$, $f'\left(x\right)> 0$ but is decreasing, so $f\left(x\right)$ is increasing but becoming flatter.
 
-$$
-\left|PM\right|=\sqrt{\left(1-a\right)^2+\left(1-2\right)^2}=\sqrt{\left(a-1\right)^2+1}.
-$$
-
-From $\lvert PQ \rvert=\lvert PM \rvert$, we get $\left(a+2\right)^2+25=\left(a-1\right)^2+1$, i.e. $a^2+4a+4+25=a^2-2a+1+1$, i.e. $6a=-27$, hence $a=-\frac{9}{2}$. $\blacksquare$
+Hence $f\left(x\right)$ is always increasing on $\left(-1,1\right)$, with slope first increasing then decreasing. The graph with this feature is option (B). $\blacksquare$
 
 ## Problem 5
 
-(Exercise 2.3, Review and Consolidation, Problem 5) (1) Find the coordinates of the point on the $x$-axis whose distance from $A\left(5,12\right)$ is $13$;
+(Review Reference Problem 5, Review and Consolidation, Problem 4) Find the equations of the tangent lines to the following curves at the given points: 
 
-(2) Given that the x-coordinate of point $P$ is $7$ and the distance between $P$ and $N\left(-1,5\right)$ is $10$, find the y-coordinate of $P$.
+(1) $y=x-\frac{1}{x}$, $\left(1,0\right)$;
+
+(2) $y=\frac{\mathrm e^{2x-1}}{x^{2}}$, $\left(\frac{1}{2},4\right)$.
 
 ### Solution to Problem 5
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points).
+By **Definition 5.1.3 (One Radian)** and **Definition 5.2.2 (Trigonometric Functions)**.
 
-(1) Let the point on the $x$-axis be $P\left(x,0\right)$. From $\left|PA\right|=13$, we have
+(1) $y'=1+\frac{1}{x^{2}}$, tangent slope $k=y'\big|_{x=1}=2$. The tangent passes through $\left(1,0\right)$, and its equation is $y=2\left(x-1\right)$, i.e. $y=2x-2$.
 
-$$
-\sqrt{\left(x-5\right)^2+\left(0-12\right)^2}=13.
-$$
-
-Squaring both sides gives $\left(x-5\right)^2+144=169$, i.e. $\left(x-5\right)^2=25$, hence $x-5=\pm5$, i.e. $x=10$ or $x=0$. The desired points are $\left(10,0\right)$ or $\left(0,0\right)$.
-
-(2) Let the coordinates of $P$ be $\left(7,y\right)$. From $\left|PN\right|=10$, we have
+(2) $y'=\frac{2\mathrm e^{2x-1}\cdot x^{2}-\mathrm e^{2x-1}\cdot2x}{x^{4}}=\frac{2\mathrm e^{2x-1}\left(x-1\right)}{x^{3}}$. At $x=\frac{1}{2}$, 
 
 $$
-\sqrt{\left(7-\left(-1\right)\right)^2+\left(y-5\right)^2}=10.
+k=\frac{2\mathrm e^{0}\left(\frac{1}{2}-1\right)}{\left(\frac{1}{2}\right)^{3}}=\frac{2\cdot\left(-\frac{1}{2}\right)}{\frac{1}{8}}=-8.
 $$
 
-Squaring both sides gives $64+\left(y-5\right)^2=100$, i.e. $\left(y-5\right)^2=36$, hence $y-5=\pm6$, i.e. $y=11$ or $y=-1$. The y-coordinate of $P$ is $11$ or $-1$. $\blacksquare$
+The tangent passes through $\left(\frac{1}{2},4\right)$, and its equation is $y-4=-8\left(x-\frac{1}{2}\right)$, i.e. $y=-8x+8$. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 2.3, Review and Consolidation, Problem 6) Find the distance from the point $P\left(-5,7\right)$ to the line $12x+5y-3=0$.
+(Review Reference Problem 5, Review and Consolidation, Problem 5) An artificial satellite at distance $r$ from the center of the earth, with mass $m$, experiences a universal gravitational force $F$ from the earth given by $F=\frac{GMm}{r^{2}}$, where $M$ is the mass of the earth and $G$ is the gravitational constant. Find the instantaneous rate of change of $F$ with respect to $r$.
 
 ### Solution to Problem 6
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+By **Definition 5.2.1 (Derivative Formulas)**, $F=GMm\cdot r^{-2}$, hence
 
 $$
-d=\frac{\left|12\cdot\left(-5\right)+5\cdot7-3\right|}{\sqrt{12^2+5^2}}=\frac{\left|-60+35-3\right|}{13}=\frac{28}{13}.
+F'\left(r\right)=GMm\cdot\left(-2\right)r^{-3}=-\frac{2GMm}{r^{3}}.
 $$
 
-$\blacksquare$
+Hence the instantaneous rate of change of $F$ with respect to $r$ is $-\frac{2GMm}{r^{3}}$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 2.3, Review and Consolidation, Problem 7) Find the distance between the two parallel lines $3x-2y-1=0$ and $3x-2y+1=0$.
+(Review Reference Problem 5, Review and Consolidation, Problem 6) A cup of hot black tea at $80\ {^\circ}\mathrm C$ is placed in a $20\ {^\circ}\mathrm C$ room; its temperature gradually drops. The temperature $T$ (in ${^\circ}\mathrm C$) and time $t$ (in $\mathrm{min}$) are related by the function $T=f\left(t\right)$.
+
+(1) Determine the sign of $f'\left(t\right)$ and explain why.
+
+(2) What is the practical meaning of $f'\left(3\right)=-4$? If $f\left(3\right)=65\ {^\circ}\mathrm C$, can you sketch the approximate shape of the graph of $T=f\left(t\right)$ at $t=3$? 
+
+The figure is the cooling curve $T=f\left(t\right)$ (horizontal axis time $t$ in $\mathrm{min}$, vertical axis temperature $T$ in ${^\circ}\mathrm C$): it drops from a high temperature and flattens out toward room temperature, with the point $\left(3,65\right)$ marked and a tangent of slope $-4$ drawn there.
 
 ### Solution to Problem 7
 
-By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines),
+(1) By **Definition 5.1.2 (Derivative)**, $f'\left(t\right)$ is the instantaneous rate of change of temperature with respect to time. The hot tea gradually cools, so the temperature decreases as time increases, and $f'\left(t\right)< 0$.
 
-$$
-d=\frac{\left|-1-1\right|}{\sqrt{3^2+\left(-2\right)^2}}=\frac{2}{\sqrt{13}}=\frac{2\sqrt{13}}{13}.
-$$
+(2) $f'\left(3\right)=-4$ means that around the $3\ \mathrm{min}$ mark, the tea temperature is decreasing at a rate of about $4\ {^\circ}\mathrm C$ per minute.
 
-$\blacksquare$
+Since $f\left(3\right)=65$ and $f'\left(3\right)=-4< 0$, the graph is decreasing at the point $\left(3,65\right)$ with tangent slope $-4$. Also, the cooling rate slows as the temperature difference decreases, so the graph decreases and becomes flatter. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 2.3, Review and Consolidation, Problem 8) The equations of the lines containing a pair of opposite sides $AB$ and $CD$ of the parallelogram $\square ABCD$ are $6x+8y-3=0$ and $6x+8y+5=0$ respectively. Through the intersection of the two diagonals of $\square ABCD$, draw the line $l$ parallel to the line containing $AB$. Find the distance between $l$ and the line containing $CD$.
+(Review Reference Problem 5, Review and Consolidation, Problem 7) Find the monotonic intervals of $f\left(x\right)=\sqrt\left[3\right]{x^{2}}$.
 
 ### Solution to Problem 8
 
-By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), first find the distance between $AB$ and $CD$.
+By **Definition 5.2.1 (Derivative Formulas)**, $f\left(x\right)=x^{\frac{2}{3}}$, hence $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
-$$
-d_{AB-CD}=\frac{\left|-3-5\right|}{\sqrt{6^2+8^2}}=\frac{8}{10}=\frac{4}{5}.
-$$
+When $x> 0$, $f'\left(x\right)> 0$; when $x< 0$, $f'\left(x\right)< 0$.
 
-The intersection of the diagonals of a parallelogram is its center of symmetry, so the line $l$ through the diagonal intersection and parallel to $AB$ lies exactly halfway between $AB$ and $CD$. The distance between $l$ and $CD$ is half the distance between $AB$ and $CD$, i.e.
-
-$$
-d=\frac{1}{2}\times\frac{4}{5}=\frac{2}{5}.
-$$
-
-$\blacksquare$
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $f\left(x\right)$ is decreasing on $\left(-\infty,0\right)$ and increasing on $\left(0,+\infty\right)$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 2.3, Comprehensive Application, Problem 9) The three lines $ax+2y+8=0$, $4x+3y=10$, and $2x-y=10$ intersect at a single point. Find the value of $a$.
+(Review Reference Problem 5, Comprehensive Application, Problem 8) Given $f\left(x\right)=x^{2}+px+q$, determine $p,q$ so that when $x=1$, $f\left(x\right)$ has a minimum value of $4$.
 
 ### Solution to Problem 9
 
-By **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines), first find the intersection of the latter two lines.
+By **Definition 5.3.2 (Local Extrema)**, $f'\left(x\right)=2x+p$. For an extreme value at $x=1$, we need $f'\left(1\right)=0$, i.e. $2+p=0$, hence $p=-2$.
 
-Solve the system
+Also $f\left(1\right)=4$, i.e. $1+p+q=4$. Substituting $p=-2$, we get $1-2+q=4$, hence $q=5$.
 
-$$
-\begin{cases}4x+3y=10,\\2x-y=10.\end{cases}
-$$
+Then $f\left(x\right)=x^{2}-2x+5=\left(x-1\right)^{2}+4$, which attains its minimum $4$ at $x=1$.
 
-From the second equation, $y=2x-10$; substituting into the first gives $4x+3\left(2x-10\right)=10$, i.e. $10x=40$, hence $x=4$. Substituting back gives $y=-2$. The intersection point is $\left(4,-2\right)$.
-
-The three lines meet at one point, so $\left(4,-2\right)$ lies on the line $ax+2y+8=0$. Substituting gives $4a+2\left(-2\right)+8=0$, i.e. $4a+4=0$, hence $a=-1$. $\blacksquare$
+Hence $p=-2$, $q=5$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 2.3, Comprehensive Application, Problem 10) Given triangle $\triangle ABC$ with vertex $A\left(5,1\right)$, the median $CM$ on side $AB$ lies on the line $2x-y-5=0$, and the altitude $BH$ on side $AC$ lies on the line $x-2y-5=0$. Find: (1) the coordinates of vertex $C$; (2) the equation of line $BC$.
+(Review Reference Problem 5, Comprehensive Application, Problem 9) Given that $f\left(x\right)=x\left(x-c\right)^{2}$ has a local maximum at $x=2$, find the value of $c$.
 
 ### Solution to Problem 10
 
-(1) The altitude $BH$ on side $AC$ lies on $x-2y-5=0$, i.e. $y=\frac{1}{2}x-\frac{5}{2}$, with slope $\frac{1}{2}$. By **Common Conclusion 2.1.6** (Two Lines Are Perpendicular), the slope of the line containing side $AC$ is $-2$.
+By **Definition 5.2.2 (Trigonometric Functions)**, $f'\left(x\right)=\left(x-c\right)^{2}+x\cdot2\left(x-c\right)=\left(x-c\right)\left(3x-c\right)$.
 
-Side $AC$ passes through $A\left(5,1\right)$ with slope $-2$; by **Definition 2.2.1 (Point-Slope Form)**, we get $y-1=-2\left(x-5\right)$, i.e. $2x+y-11=0$.
+For an extreme value at $x=2$, we need $f'\left(2\right)=0$, i.e. $\left(2-c\right)\left(6-c\right)=0$, hence $c=2$ or $c=6$.
 
-Point $C$ is the intersection of line $AC$ and the median $CM$. Solve the system
+When $c=2$, $f'\left(x\right)=\left(x-2\right)\left(3x-2\right)$; at $x=2$ the derivative changes from negative to positive, which is a local minimum, not the desired case.
 
-$$
-\begin{cases}2x+y-11=0,\\2x-y-5=0.\end{cases}
-$$
+When $c=6$, $f'\left(x\right)=\left(x-6\right)\left(3x-6\right)=3\left(x-6\right)\left(x-2\right)$; at $x=2$ the derivative changes from positive to negative, which is a local maximum, as required.
 
-Adding the two equations gives $4x=16$, hence $x=4$. Substituting gives $y=3$. The coordinates of vertex $C$ are $\left(4,3\right)$.
-
-(2) Let the coordinates of $B$ be $\left(x_B,y_B\right)$. Point $B$ lies on the altitude line $BH$, i.e. $x-2y-5=0$, so $x_B-2y_B-5=0$.
-
-The midpoint $M$ of $AB$ lies on the median line $CM$, i.e. $2x-y-5=0$. The coordinates of $M$ are $\left(\frac{5+x_B}{2},\frac{1+y_B}{2}\right)$; substituting into $2x-y-5=0$ gives
-
-$$
-2\cdot\frac{5+x_B}{2}-\frac{1+y_B}{2}-5=0,
-$$
-
-i.e. $5+x_B-\frac{1+y_B}{2}-5=0$, i.e. $2x_B-y_B-1=0$.
-
-Combining $\begin{cases}x_B-2y_B-5=0\\2x_B-y_B-1=0\end{cases}$, from the second equation $y_B=2x_B-1$; substituting into the first gives $x_B-2\left(2x_B-1\right)-5=0$, i.e. $-3x_B-3=0$, hence $x_B=-1$, $y_B=-3$. The coordinates of $B$ are $\left(-1,-3\right)$.
-
-By **Common Conclusion 2.1.3** (Slope Formula), $k_{BC}=\frac{3-\left(-3\right)}{4-\left(-1\right)}=\frac{6}{5}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $C\left(4,3\right)$ gives $y-3=\frac{6}{5}\left(x-4\right)$, i.e. $6x-5y-9=0$. $\blacksquare$
+Hence $c=6$. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 2.3, Comprehensive Application, Problem 11) Find a point $P$ on the $x$-axis such that the triangle with vertices $A\left(1,2\right)$, $B\left(3,4\right)$, and $P$ has area $10$.
+(Review Reference Problem 5, Comprehensive Application, Problem 10) As shown in the figure, draw a line $AB$ through $P\left(1,1\right)$, intersecting the positive $x$-axis and the positive $y$-axis at $A,B$ respectively. At what position of line $AB$ is the area of $\triangle AOB$ minimized? What is the minimum area? 
+
+The figure is a schematic in the coordinate plane: the point $P\left(1,1\right)$ lies in the first quadrant, a line $AB$ through $P$ meets the positive $x$-axis at $A$ and the positive $y$-axis at $B$, with $O$ the origin and $\triangle AOB$ shaded.
 
 ### Solution to Problem 11
 
-Let the coordinates of $P$ be $\left(x,0\right)$.
+Let the slope of line $AB$ be $k$; then its equation is $y-1=k\left(x-1\right)$. Setting $y=0$, we get $A\left(1-\frac{1}{k},0\right)$; setting $x=0$, we get $B\left(0,1-k\right)$. Since $A,B$ lie on the positive axes, $k< 0$.
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left|AB\right|=\sqrt{\left(3-1\right)^2+\left(4-2\right)^2}=\sqrt{8}=2\sqrt 2$.
-
-Equation of line $AB$: by **Common Conclusion 2.1.3**, $k_{AB}=\frac{4-2}{3-1}=1$. By **Definition 2.2.1 (Point-slope Form)**, we get $y-2=1\cdot\left(x-1\right)$, i.e. $x-y+1=0$.
-
-The distance from $P\left(x,0\right)$ to the line $AB:x-y+1=0$ is
+The area of $\triangle AOB$ is
 
 $$
-d=\frac{\left|x-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\left|x+1\right|}{\sqrt 2}.
+S=\frac{1}{2}\left(1-\frac{1}{k}\right)\left(1-k\right)=\frac{1}{2}\left(2-k-\frac{1}{k}\right).
 $$
 
-The area of the triangle is $\frac{1}{2}\left|AB\right|d=\frac{1}{2}\cdot 2\sqrt 2\cdot\frac{\left|x+1\right|}{\sqrt 2}=\left|x+1\right|$.
+Differentiating, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. Setting $S'=0$, we get $k^{2}=1$, and since $k< 0$, $k=-1$.
 
-Setting $\left|x+1\right|=10$ gives $x+1=10$ or $x+1=-10$, i.e. $x=9$ or $x=-11$. The desired points are $P\left(9,0\right)$ or $P\left(-11,0\right)$. $\blacksquare$
+When $k< -1$, $S'< 0$; when $-1< k< 0$, $S'> 0$, so $k=-1$ is the minimum point.
+
+Then $A\left(2,0\right)$, $B\left(0,2\right)$, and the minimum area is $S=\frac{1}{2}\times2\times2=2$.
+
+Hence when line $AB$ is $x+y=2$, the area of $\triangle AOB$ is minimized, with minimum area $2$. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 2.3, Comprehensive Application, Problem 12) Given that $AO$ is the median to side $BC$ of $\triangle ABC$, prove using the coordinate method that $\lvert AB \rvert^2+\lvert AC \rvert^2=2\left(\lvert AO \rvert^2+\lvert OC \rvert^2\right)$.
+(Review Reference Problem 5, Comprehensive Application, Problem 11) As shown in the figure, line $l$ and circle $P$: when $l$ rotates counterclockwise at constant angular speed about $O$ starting from $l_{0}$ (the angle rotated does not exceed $90^\circ$), the area $S$ of the shaded region swept inside the circle is a function of time $t$. The approximate graph of this function is ( ).
+
+The upper part is a geometric diagram: at point $O$ a line $l$, initially at $l_{0}$, rotates counterclockwise at constant speed through at most $90^\circ$, with the swept part inside circle $P$ shaded; the lower part shows four candidate graphs of the shaded area $S$ against time $t$ (A, B, C, D), from which the one matching "slow growth at first, faster in the middle, slower again at the end" must be chosen.
 
 ### Solution to Problem 12
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), first set up a coordinate system.
+By **Definition 5.1.3 (One Radian)**, $S'\left(t\right)$ represents how fast the area changes.
 
-Take $O$ as the origin and the line containing $BC$ as the $x$-axis. Let $C\left(c,0\right)$; then $B\left(-c,0\right)$ and $A\left(x,y\right)$.
+When the line rotates at constant angular speed, the swept area initially grows slowly, then faster in the middle, then slowly again. Hence $S'\left(t\right)$ first increases then decreases, and the graph of $S\left(t\right)$ is first concave up (becoming steeper), then concave down (becoming flatter).
 
-By the distance formula,
-
-$$
-\left|AB\right|^2=\left(x+c\right)^2+y^2,
-$$
-
-$$
-\left|AC\right|^2=\left(x-c\right)^2+y^2,
-$$
-
-$$
-\left|AO\right|^2=x^2+y^2,
-$$
-
-$$
-\left|OC\right|^2=c^2.
-$$
-
-Left-hand side: $\left|AB\right|^2+\left|AC\right|^2=\left(x+c\right)^2+y^2+\left(x-c\right)^2+y^2=2x^2+2c^2+2y^2$.
-
-Right-hand side: $2\left(\left|AO\right|^2+\left|OC\right|^2\right)=2\left(x^2+y^2+c^2\right)=2x^2+2y^2+2c^2$.
-
-The left-hand side equals the right-hand side, so $\left|AB\right|^2+\left|AC\right|^2=2\left(\left|AO\right|^2+\left|OC\right|^2\right)$. $\blacksquare$
+The graph with this feature is option (C). $\blacksquare$
 
 ## Problem 13
 
-(Exercise 2.3, Comprehensive Application, Problem 13) Given that the distance $d$ from the point $A\left(a,6\right)$ to the line $3x-4y=2$ takes the following values: (1) $d=4$; (2) $d> 4$, find the range of $a$.
+(Review Reference Problem 5, Comprehensive Application, Problem 12) When toxic bacteria indoors start to increase, a bactericide must be used. At first, the bacteria count continues to increase; as time passes, the rate of increase gradually diminishes, and after some time the bacteria count starts to decrease. Given that the bacteria count $t\ \mathrm{h}$ after using the bactericide is $b\left(t\right)=10^{5}+10^{4}t-10^{3}t^{2}$.
+
+(1) Find the instantaneous rate of change of the bacteria count at $t=5$ and at $t=10$.
+
+(2) During which time intervals does the bacteria count increase, and during which does it decrease? Why? 
 
 ### Solution to Problem 13
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**.
 
-$$
-d=\frac{\left|3a-4\cdot6-2\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|3a-26\right|}{5}.
-$$
+(1) $b'\left(t\right)=10^{4}-2\times10^{3}t=10^{4}-2000t$.
 
-(1) Setting $d=4$, i.e. $\frac{\left|3a-26\right|}{5}=4$, gives $\left|3a-26\right|=20$, i.e. $3a-26=20$ or $3a-26=-20$, so $a=\frac{46}{3}$ or $a=2$.
+$b'\left(5\right)=10000-10000=0$.
 
-(2) Setting $d> 4$, i.e. $\frac{\left|3a-26\right|}{5}> 4$, gives $\left|3a-26\right|> 20$, i.e. $3a-26> 20$ or $3a-26< -20$, i.e. $a> \frac{46}{3}$ or $a< 2$. $\blacksquare$
+$b'\left(10\right)=10000-20000=-10000$.
+
+(2) Setting $b'\left(t\right)=0$, we get $t=5$. When $0< t< 5$, $b'\left(t\right)> 0$ and the bacteria count increases; when $t> 5$, $b'\left(t\right)< 0$ and the bacteria count decreases. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 2.3, Comprehensive Application, Problem 14) Given that the distances from $A\left(-3,-4\right)$ and $B\left(6,3\right)$ to the line $l:ax+y+1=0$ are equal, find the value of $a$.
+(Review Reference Problem 5, Comprehensive Application, Problem 13) Given that the tangent line to $y=x+\ln x$ at $\left(1,1\right)$ has exactly one common point with the curve $y=ax^{2}+\left(2a+3\right)x+1$, find the value of $a$.
 
 ### Solution to Problem 14
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+For $y=x+\ln x$, $y'=1+\frac{1}{x}$, so at $x=1$ the tangent slope is $2$. The tangent equation is $y-1=2\left(x-1\right)$, i.e. $y=2x-1$.
+
+Setting $2x-1=ax^{2}+\left(2a+3\right)x+1$ and simplifying,
 
 $$
-d_A=\frac{\left|a\cdot\left(-3\right)+\left(-4\right)+1\right|}{\sqrt{a^2+1}}=\frac{\left|-3a-3\right|}{\sqrt{a^2+1}},
+ax^{2}+\left(2a+1\right)x+2=0.
 $$
 
-$$
-d_B=\frac{\left|a\cdot6+3+1\right|}{\sqrt{a^2+1}}=\frac{\left|6a+4\right|}{\sqrt{a^2+1}}.
-$$
+The two curves have exactly one common point, i.e. this equation has a unique solution. When $a\neq0$, the discriminant is $\Delta=\left(2a+1\right)^{2}-8a=4a^{2}-4a+1=\left(2a-1\right)^{2}=0$, giving $a=\frac{1}{2}$.
 
-From $d_A=d_B$, we get $\left|-3a-3\right|=\left|6a+4\right|$, i.e. $\left|3a+3\right|=\left|6a+4\right)$.
+When $a=0$, the equation is $x+2=0$, which has the unique solution $x=-2$; this also satisfies the condition.
 
-(a) When $3a+3=6a+4$, $-3a=1$, i.e. $a=-\frac{1}{3}$.
-
-(b) When $3a+3=-\left(6a+4\right)$, $9a=-7$, i.e. $a=-\frac{7}{9}$.
-
-Hence $a=-\frac{1}{3}$ or $a=-\frac{7}{9}$. $\blacksquare$
+Hence $a=0$ or $a=\frac{1}{2}$. $\blacksquare$
 
 ## Problem 15
 
-(Exercise 2.3, Comprehensive Application, Problem 15) The equations of the lines containing the four sides of the parallelogram $\square ABCD$ are $l_1:x-4y+5=0$, $l_2:2x+y-8=0$, $l_3:x-4y+14=0$, and $l_4:2x+y+1=0$. Find the area of $\square ABCD$.
+(Review Reference Problem 5, Comprehensive Application, Problem 14) A frame for a rectangular box is to be made from a steel bar of total length $14.8\ \mathrm{m}$. If one side of the base is $0.5\ \mathrm{m}$ longer than the other, what height maximizes the volume of the box? What is the maximum volume? 
 
 ### Solution to Problem 15
 
-By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), $l_1$ is parallel to $l_3$, and $l_2$ is parallel to $l_4$.
-
-The distance between $l_1$ and $l_3$ is
+Let the shorter base side be $x\ \mathrm{m}$; then the longer side is $x+0.5\ \mathrm{m}$ and the height is $h$. A rectangular box frame has $12$ edges (4 lengths, 4 widths, 4 heights), hence
 
 $$
-d_1=\frac{\left|5-14\right|}{\sqrt{1^2+\left(-4\right)^2}}=\frac{9}{\sqrt{17}}.
+4\left[x+\left(x+0.5\right)+h\right]=14.8,
 $$
 
-The distance between $l_2$ and $l_4$ is
+which gives $h=3.7-2x-0.5=3.2-2x$.
+
+The volume is
 
 $$
-d_2=\frac{\left|-8-1\right|}{\sqrt{2^2+1^2}}=\frac{9}{\sqrt 5}.
+V\left(x\right)=x\left(x+0.5\right)\left(3.2-2x\right).
 $$
 
-The area of a parallelogram can be expressed as the product of the distances between the two pairs of opposite sides divided by the sine of the included angle. More directly, first find the lengths of two adjacent sides.
+Differentiating and setting $V'\left(x\right)=0$: expanding, $V\left(x\right)=-2x^{3}+2.2x^{2}+1.6x$, so $V'\left(x\right)=-6x^{2}+4.4x+1.6=0$, i.e. $3x^{2}-2.2x-0.8=0$.
 
-Intersection of $l_1$ and $l_2$: solve the system $\begin{cases}x-4y+5=0\\2x+y-8=0\end{cases}$; from the second equation $y=8-2x$, substituting into the first gives $x-4\left(8-2x\right)+5=0$, i.e. $9x=27$, hence $x=3$, $y=2$. The intersection point is $\left(3,2\right)$.
+Solving, $x=1$ (discarding the negative root). Then $h=3.2-2=1.2\ \mathrm{m}$.
 
-Intersection of $l_1$ and $l_4$: solve the system $\begin{cases}x-4y+5=0\\2x+y+1=0\end{cases}$; from the second equation $y=-1-2x$, substituting into the first gives $x-4\left(-1-2x\right)+5=0$, i.e. $9x=-9$, hence $x=-1$, $y=1$. The intersection point is $\left(-1,1\right)$.
+The maximum volume is $V=1\times1.5\times1.2=1.8\ \mathrm{m^{3}}$.
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the length of an adjacent side is
-
-$$
-\sqrt{\left(3-\left(-1\right)\right)^2+\left(2-1\right)^2}=\sqrt{16+1}=\sqrt{17}.
-$$
-
-The area of the parallelogram is base times height, i.e. $\sqrt{17}\times\frac{9}{\sqrt 5}=\frac{9\sqrt{85}}{5}$. $\blacksquare$
+Hence when the height is $1.2\ \mathrm{m}$, the volume is maximized, with maximum volume $1.8\ \mathrm{m^{3}}$. $\blacksquare$
 
 ## Problem 16
 
-(Exercise 2.3, Extension and Exploration, Problem 16) Given that $\lambda$ is an arbitrary real number, as $\lambda$ varies, what figure does the equation $3x+4y-2+\lambda\left(2x+y+2\right)=0$ represent? What are the features of this figure?
+(Review Reference Problem 5, Comprehensive Application, Problem 15) From a circular iron sheet of radius $R$, cut out a sector with central angle $\alpha$ and form a conical container. For what central angle $\alpha$ is the volume of the container maximized? 
 
 ### Solution to Problem 16
 
-By **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines), the equation $3x+4y-2+\lambda\left(2x+y+2\right)=0$ represents a pencil of lines through the intersection of the lines $3x+4y-2=0$ and $2x+y+2=0$.
-
-First find the intersection of the two lines. Solve the system
+The arc length of the sector is $R\alpha$, which equals the circumference of the cone's base, so the base radius is $r=\frac{R\alpha}{2\pi}$. The slant height of the cone is $R$, so the height is
 
 $$
-\begin{cases}3x+4y-2=0,\\2x+y+2=0.\end{cases}
+h=\sqrt{R^{2}-r^{2}}=\sqrt{R^{2}-\frac{R^{2}\alpha^{2}}{4\pi^{2}}}=\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}.
 $$
 
-From the second equation, $y=-2x-2$; substituting into the first gives $3x+4\left(-2x-2\right)-2=0$, i.e. $-5x-10=0$, hence $x=-2$, $y=2$. The intersection point is $\left(-2,2\right)$.
+The volume of the cone is
 
-As $\lambda$ varies, the equation represents all lines passing through the fixed point $\left(-2,2\right)$ (excluding the line $2x+y+2=0$ itself). The feature of the figure is that all the lines pass through the fixed point $\left(-2,2\right)$. $\blacksquare$
+$$
+V=\frac{1}{3}\pi r^{2}h=\frac{1}{3}\pi\cdot\frac{R^{2}\alpha^{2}}{4\pi^{2}}\cdot\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}=\frac{R^{3}}{24\pi^{2}}\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}.
+$$
+
+It suffices to maximize $\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}$. Let $u=\alpha^{2}$; the objective is $u\sqrt{4\pi^{2}-u}$. Differentiating and setting to $0$, we get $2\left(4\pi^{2}-u\right)-u=0$, i.e. $u=\frac{8\pi^{2}}{3}$.
+
+Hence $\alpha^{2}=\frac{8\pi^{2}}{3}$, i.e. $\alpha=\frac{2\sqrt{6}\pi}{3}$.
+
+When the central angle is $\alpha=\frac{2\sqrt{6}\pi}{3}$, the volume of the conical container is maximized. $\blacksquare$
 
 ## Problem 17
 
-(Exercise 2.3, Extension and Exploration, Problem 17) Given $0< x< 1$, $0< y< 1$.
-
-(1) Prove that $\sqrt{x^2+y^2}+\sqrt{x^2+\left(1-y\right)^2}+\sqrt{\left(1-x\right)^2+y^2}+\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}\ge2\sqrt 2$, and find the condition under which equality holds.
-
-(2) Explain the geometric meaning of the above inequality.
+(Review Reference Problem 5, Extension and Exploration, Problem 16) The distance between cities $A,B$ is $130\ \mathrm{km}$. By traffic regulations, the speed on the highway between them should be limited to $50\sim100\ \mathrm{km/h}$. Assume gasoline costs $7$ yuan/$\mathrm L$; at speed $x\ \mathrm{km/h}$, the fuel consumption rate is $\left(3+\frac{x^{2}}{360}\right)\ \mathrm{L/h}$, and the driver's wage is $35$ yuan per hour. What is the most economical speed (rounded to $1\ \mathrm{km/h}$)? Ignoring other costs, what is the total cost of the trip (rounded to $1$ yuan)? 
 
 ### Solution to Problem 17
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), regard each term as a distance.
+The travel time is $\frac{130}{x}\ \mathrm{h}$. The total cost is the sum of fuel cost and wage: 
 
-(1) Let the points be $P\left(x,y\right)$, $O\left(0,0\right)$, $A\left(1,0\right)$, $B\left(0,1\right)$, $C\left(1,1\right)$.
+$$
+C\left(x\right)=\frac{130}{x}\left[7\left(3+\frac{x^{2}}{360}\right)+35\right]=\frac{130}{x}\left(56+\frac{7x^{2}}{360}\right)=130\left(\frac{56}{x}+\frac{7x}{360}\right).
+$$
 
-Then $\sqrt{x^2+y^2}=\left|PO\right|$, $\sqrt{x^2+\left(1-y\right)^2}=\left|PB\right|$, $\sqrt{\left(1-x\right)^2+y^2}=\left|PA\right|$, $\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}=\left|PC\right|$.
+Differentiating, $C'\left(x\right)=130\left(-\frac{56}{x^{2}}+\frac{7}{360}\right)$. Setting $C'\left(x\right)=0$, we get $\frac{56}{x^{2}}=\frac{7}{360}$, i.e. $x^{2}=2880$, hence $x\approx53.7\ \mathrm{km/h}$.
 
-By the triangle inequality, $\left|PO\right|+\left|PC\right|\ge\left|OC\right|=\sqrt 2$, and $\left|PA\right|+\left|PB\right|\ge\left|AB\right|=\sqrt 2$.
+This value is within the $50\sim100$ range and is the minimum point. Rounded to $1\ \mathrm{km/h}$, the most economical speed is about $54\ \mathrm{km/h}$.
 
-Hence the sum of the four terms is $\ge\sqrt 2+\sqrt 2=2\sqrt 2$. Equality holds if and only if $P$ lies on both the segment $OC$ and the segment $AB$, i.e. $P$ is the intersection of $OC$ and $AB$, namely $\left(\frac{1}{2},\frac{1}{2}\right)$.
+The total cost is
 
-(2) The geometric meaning of the inequality is: the sum of the distances from any point inside the unit square to its four vertices is no less than the sum of the lengths of the two diagonals. $\blacksquare$
+$$
+C\left(54\right)=130\left(\frac{56}{54}+\frac{7\times54}{360}\right)\approx130\times\left(1.037+1.05\right)\approx271\ \mathrm{元}.
+$$
+
+Hence the most economical speed is about $54\ \mathrm{km/h}$, and the total cost is about $271$ yuan. $\blacksquare$
+
+## Problem 18
+
+(Review Reference Problem 5, Extension and Exploration, Problem 17) Sketch the graph of $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$.
+
+The figure is a sketch of $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$: it has the vertical asymptote $x=1$ and the horizontal asymptote $y=0$ ($y\to0$ as $x\to-\infty$), crosses the $x$-axis at $\left(\frac{1}{2},0\right)$, and has extrema at $x=\frac{1\pm\sqrt{17}}{4}$.
+
+### Solution to Problem 18
+
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)** and **Definition 5.3.2 (Local Extrema)**.
+
+The domain is $x\neq1$. Setting $y=0$, we get $x=\frac{1}{2}$, so the graph passes through $\left(\frac{1}{2},0\right)$.
+
+Differentiating, 
+
+$$
+y'=\frac{\left[\mathrm e^{x}\left(2x-1\right)+2\mathrm e^{x}\right]\left(x-1\right)-\mathrm e^{x}\left(2x-1\right)}{\left(x-1\right)^{2}}=\frac{\mathrm e^{x}\left(2x^{2}-x-2\right)}{\left(x-1\right)^{2}}.
+$$
+
+Setting $y'=0$, we get $2x^{2}-x-2=0$, with solutions $x=\frac{1\pm\sqrt{17}}{4}$.
+
+When $x\to1$, $y\to\infty$; when $x\to-\infty$, $y\to0$; when $x\to+\infty$, $y\to+\infty$.
+
+Hence the graph has two asymptotes $x=1$ and $y=0$, and attains extreme values at $x=\frac{1\pm\sqrt{17}}{4}$. $\blacksquare$
+
+## Problem 19
+
+(Review Reference Problem 5, Extension and Exploration, Problem 18) Given $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. When $m\le2$, prove that $f\left(x\right)> 0$.
+
+### Solution to Problem 19
+
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. Setting $f'\left(x\right)=0$, i.e. $\mathrm e^{x}=\frac{1}{x+m}$.
+
+When $m\le2$, within the domain of $\ln\left(x+m\right)$ we have $x+m> 0$. Let the minimum point of $f\left(x\right)$ be $x_{0}$, satisfying $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, i.e. $x_{0}+m=\mathrm e^{-x_{0}}$.
+
+The minimum value is
+
+$$
+f\left(x_{0}\right)=\mathrm e^{x_{0}}-\ln\left(x_{0}+m\right)=\mathrm e^{x_{0}}-\ln\left(\mathrm e^{-x_{0}}\right)=\mathrm e^{x_{0}}+x_{0}.
+$$
+
+From $x_{0}+m=\mathrm e^{-x_{0}}$ and $m\le2$, we get $x_{0}\ge\mathrm e^{-x_{0}}-2$. Also $\mathrm e^{x_{0}}+x_{0}> 0$ for all $x_{0}$ (since $\mathrm e^{x_{0}}> 0$, and when $x_{0}\ge-2$, $\mathrm e^{x_{0}}+x_{0}> 0$).
+
+Hence the minimum of $f\left(x\right)$ is greater than $0$, i.e. $f\left(x\right)> 0$. $\blacksquare$
+
+## Problem 20
+
+(Review Reference Problem 5, Extension and Exploration, Problem 19) Given $f\left(x\right)=a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-x$.
+
+(1) Discuss the monotonicity of $f\left(x\right)$; 
+
+(2) If $f\left(x\right)$ has two zeros, find the range of $a$.
+
+### Solution to Problem 20
+
+By **Definition 5.2.3 (Chain Rule)**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. Letting $t=\mathrm e^{x}> 0$, we have
+
+$$
+f'\left(x\right)=\left(at-1\right)\left(2t+1\right).
+$$
+
+(1) Since $2t+1> 0$, the sign of $f'\left(x\right)$ is determined by $at-1$.
+
+When $a\le0$, $at-1< 0$, so $f'\left(x\right)< 0$, and $f\left(x\right)$ is monotonically decreasing on $\mathbb R$.
+
+When $a> 0$, setting $at-1=0$, we get $t=\frac{1}{a}$, i.e. $x=-\ln a$. When $x< -\ln a$, $f'\left(x\right)< 0$; when $x> -\ln a$, $f'\left(x\right)> 0$. Hence $f\left(x\right)$ is decreasing on $\left(-\infty,-\ln a\right)$ and increasing on $\left(-\ln a,+\infty\right)$.
+
+(2) When $a\le0$, $f\left(x\right)$ is decreasing and has at most one zero.
+
+When $a> 0$, $f\left(x\right)$ attains its minimum at $x=-\ln a$, namely $f\left(-\ln a\right)$. Substituting $t=\frac{1}{a}$, 
+
+$$
+f\left(-\ln a\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln a=\frac{1}{a}+1-\frac{2}{a}+\ln a=1-\frac{1}{a}+\ln a.
+$$
+
+For $f\left(x\right)$ to have two zeros, the minimum must be less than $0$, i.e. $1-\frac{1}{a}+\ln a< 0$. Let $g\left(a\right)=1-\frac{1}{a}+\ln a$; then $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}> 0$, so $g\left(a\right)$ is increasing, and $g\left(1\right)=0$. Hence when $0< a< 1$, $g\left(a\right)< 0$.
+
+Also, when $x\to-\infty$, $f\left(x\right)\to+\infty$, and when $x\to+\infty$, $f\left(x\right)\to+\infty$.
+
+Hence the range of $a$ is $\left(0,1\right)$. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 6.1, Problem 1) Fill in the blanks.
+
+(1) A job can be completed by $2$ methods. There are $5$ people who can only use the $1$st method and another $4$ people who can only use the $2$nd method. If $1$ person is chosen from them to do the job, the number of different choices is $\;\_\_\;$;
+
+(2) There are $3$ roads from Village $A$ to Village $B$ and $2$ roads from Village $B$ to Village $C$. Then going from Village $A$ through Village $B$ to Village $C$, the number of different routes is $\;\_\_\;$.
+
+### Solution to Exercise 1
+
+By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+(1) The task is to choose $1$ person for the job. The $5$ people who can use the $1$st method and the $4$ people who can use the $2$nd method form two mutually disjoint categories, and choosing any one of them completes the job. By **Definition 6.1.1 (分类加法计数原理)**, the number of different choices is $5+4=9$.
+
+(2) Going from Village $A$ through Village $B$ to Village $C$ requires first reaching Village $B$ and then Village $C$, which are two steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different routes is $3\times 2=6$. $\blacksquare$

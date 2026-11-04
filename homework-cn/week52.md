@@ -1,313 +1,559 @@
 # week52
-> **定义 7.1.1 (虚数单位)**
+> **定义 3.1.1 (椭圆)**
 > 
-> 我们引入一个新数 $\mathrm{i}$, 使 $\mathrm{i}^2=-1$, $\mathrm{i}$ 叫做虚数单位.
-> **定义 7.1.5 (复数相等)**
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> **定义 3.1.3 (椭圆的标准方程)**
 > 
-> 两个复数相等当且仅当它们的实部和虚部分别相等.
-> **定义 7.1.6 (纯虚数)**
+> 平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
+> **定义 3.1.6 (顶点, 长轴, 短轴)**
 > 
-> 它是实数０;当≠０时,它叫做虚数(ｉｍａｇｉｎａｒｙｎｕｍｂｅｒ);当＝０且≠０时,它叫做 纯虚数. 例如,３＋２ｉ,１２－槡３ｉ,－槡３－１２ｉ,－０.２ｉ都是虚数,它们的实部分别是３,１２, －槡３,０,虚部分别是２,－槡３,－１２,－０.２,并且其中只有－０.２ｉ是纯虚数. Ꮶ 复数集与实数集之间有什么关系? ᘿ ᬷ ܭ ᬷ ᬷ ጦᘿ ᬷ 　图７.１１ 显然,实数集是复数集的真子集,即. 这样,复数狕＝＋ｉ(,∈)可以分类如下: 复数实数＝０ ( ), 虚数≠０ ( )当＝０时为纯虚数 ( ). 复数集,实数集,虚数集,纯虚数集之间的关系, 可用图７.１１表示. 例１　当实数取什么值时,复数狕＝＋１＋(－１)ｉ是下列数? (１)实数;(２)虚数;(３)纯虚数. 分析:因为∈,所以＋１,－１都是实数.由复数狕＝＋ｉ(,∈)是实 数,虚数和纯虚数的条件可以确定的取值. 解:(１)当－１＝０,即＝１时
-> **定义 7.1.8 (复数的几何意义)**
+> 椭圆与对称轴的交点叫做椭圆的顶点. 连接椭圆两个顶点的线段中, 较长者为长轴 (长 2a), 较短者为短轴 (长 2b).
+> **定义 3.1.7 (椭圆的离心率)**
 > 
-> 复数 z = a + bi 与复平面内的点 Z(a, b) 一一对应, 也与向量 OZ = (a, b) 一一对应.
-> **定义 7.1.9 (复数的模)**
+> 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
+> **定义 3.2.1 (双曲线)**
 > 
-> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
-> **定义 7.1.10 (共轭复数)**
+> 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
+> **定义 3.2.3 (双曲线的标准方程)**
 > 
-> 当两个复数的实部相等, 虚部互为相反数时, 这两个复数叫做互为共轭复数.
-> **定义 7.2.1 (复数加法法则)**
+> 双曲线的标准方程为 x^2/a^2 - y^2/b^2 = 1 (焦点在 x 轴上) 或 y^2/a^2 - x^2/b^2 = 1 (焦点在 y 轴上).
+> **定义 3.2.5 (顶点, 实轴, 虚轴)**
 > 
-> (a + bi) + (c + di) = (a + c) + (b + d)i.
-> **定义 7.2.2 (复数减法法则)**
+> 双曲线与实轴的交点为顶点, 线段 A1A2 叫做双曲线的实轴, 线段 B1B2 叫做双曲线的虚轴.
+> **定义 3.2.6 (渐近线)**
 > 
-> (a + bi) - (c + di) = (a - c) + (b - d)i.
-> **定义 7.2.5 (复数乘法法则)**
+> 双曲线 x^2/a^2 - y^2/b^2 = 1 的渐近线方程为 y = ±(b/a)x.
+> **定义 3.2.7 (等轴双曲线)**
 > 
-> (a + bi)(c + di) = (ac - bd) + (ad + bc)i.
-> **定义 7.2.7 (复数除法法则)**
+> 实轴和虚轴等长的双曲线叫做等轴双曲线.
+> **定义 3.2.8 (双曲线的离心率)**
 > 
-> (a + bi)/(c + di) = [(ac + bd) + (bc - ad)i]/(c^2 + d^2) (c + di != 0).
-> **定义 7.2.8 (求根公式)**
-> 
-> (２－４ 槡 ) ２ ｉ. 在复数范围内,实系数一元二次方程２＋＋＝０(≠０)的求根公式为: (１)当Δ≥０时,＝－± ２－４ 槡  ２ ; (２)当Δ＜０时,＝－± －(２－４ 槡 )ｉ ２ . ９７ 例5 计算(1十2i)÷(3一4i). 1＋2i 解:(1十2i)÷(3一4i)= 3—4i (1+2i)(3+4i) 3—8+6i十4i (3—4i)(3+4i) 32+42 —5+10i 25 例 6 在复数范围内解下列方程: (1)α²十2=0; (2)aα²＋bx十c=0,其中a,b,cER,且a≠0,△=b²一4ac< 0. 分析:利用复数的乘法容易得到(1)中方程的根.对于(2),当△=62一4ac< 0 时, 一元二次方程aα²十bc十c=0无实数根.利用求解一元二次方程的根本大法———配方 法,类似于(1),就能在复数范围内求得(2)中方程的根. 解:(1)因为(/2i)²=(一2i)²=一2,所以方程α²十2=0 的根为=±/
-> **定义 7.3.3 (辐角主值)**
-> 
-> 辐角在 [0, 2pi) 内的值叫做辐角主值, 记作 arg(z).
+> 双曲线的焦距与实轴长的比 e = c/a 叫做双曲线的离心率 (e > 1).
 
-## 习题一
+## 练习一
 
-(复习参考题 7 复习巩固第 1 题) 选择题.
+(练习 3.1 第 5 题) 比较下列每组中椭圆的形状, 哪一个更接近于圆? 为什么?
 
-(1) 复数 $a+b\mathrm{i}$ 与 $c+d\mathrm{i}$ 的积是实数的充要条件是 ( ).
+(1) $9x^2+y^2=36$ 与 $\frac{x^2}{16}+\frac{y^2}{12}=1$;
 
-(A) $ad+bc=0$
+(2) $x^2+9y^2=36$ 与 $\frac{x^2}{6}+\frac{y^2}{10}=1$.
 
-(B) $ac+bd=0$
+### 解答 练习一
 
-(C) $ac=bd$
+由**定义 3.1.7 (椭圆的离心率)**, $e=\frac{c}{a}=\sqrt{1-\frac{b^2}{a^2}}$, $e$ 越接近 $0$, $a$ 与 $b$ 越接近, 椭圆越接近于圆.
 
-(D) $ad=bc$
+(1) 将 $9x^2+y^2=36$ 化为 $\frac{y^2}{36}+\frac{x^2}{4}=1$, $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. 对 $\frac{x^2}{16}+\frac{y^2}{12}=1$, $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. 因为 $e_2< e_1$, 故 $\frac{x^2}{16}+\frac{y^2}{12}=1$ 更接近于圆.
 
-(2) 复数 $\frac{5}{\mathrm{i}-2}$ 的共轭复数是 ( ).
+(2) 将 $x^2+9y^2=36$ 化为 $\frac{x^2}{36}+\frac{y^2}{4}=1$, $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. 对 $\frac{x^2}{6}+\frac{y^2}{10}=1$, $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. 因为 $e_2< e_1$, 故 $\frac{x^2}{6}+\frac{y^2}{10}=1$ 更接近于圆. $\blacksquare$
 
-(A) $\mathrm{i}+2$
+## 练习二
 
-(B) $\mathrm{i}-2$
+(练习 3.1 第 1 题) 求下列直线与椭圆的交点坐标.
 
-(C) $-2-\mathrm{i}$
+(1) $3x+10y-25=0$, $\frac{x^2}{25}+\frac{y^2}{4}=1$;
 
-(D) $2-\mathrm{i}$
+(2) $3x-y+2=0$, $\frac{x^2}{16}+\frac{y^2}{4}=1$.
 
-(3) 当 $\frac{2}{3}< m< 1$ 时, 复数 $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ 在复平面内对应的点位于 ( ).
+### 解答 练习二
 
-(A) 第一象限
+由**常用结论 3.1.8** (直线与椭圆的位置关系), 联立直线与椭圆方程求解.
 
-(B) 第二象限
-
-(C) 第三象限
-
-(D) 第四象限
-
-(4) 复数 $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$ 的辐角主值是 ( ).
-
-(A) $40^{\circ}$
-
-(B) $140^{\circ}$
-
-(C) $220^{\circ}$
-
-(D) $310^{\circ}$
-
-### 解答 习题一
-
-(1) 由**定义 7.2.5 (复数乘法法则)**, $\left(a+b\mathrm{i}\right)\left(c+d\mathrm{i}\right)=\left(ac-bd\right)+\left(ad+bc\right)\mathrm{i}$. 积为实数当且仅当虚部 $ad+bc=0$. 故选 (A).
-
-(2) 由**定义 7.2.7 (复数除法法则)**, $\frac{5}{\mathrm{i}-2}=\frac{5\left(-2-\mathrm{i}\right)}{\left(\mathrm{i}-2\right)\left(-2-\mathrm{i}\right)}=\frac{-10-5\mathrm{i}}{5}=-2-\mathrm{i}$. 由**定义 7.1.10 (共轭复数)**, 其共轭复数为 $-2+\mathrm{i}$, 即 $\mathrm{i}-2$. 故选 (B).
-
-(3) 由**定义 7.2.1 (复数加法法则)** 与**定义 7.2.2 (复数减法法则)**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. 当 $\frac{2}{3}< m< 1$ 时, $3m-2> 0$, $m-1< 0$. 由**定义 7.1.8 (复数的几何意义)**, 实部为正, 虚部为负的点位于第四象限. 故选 (D).
-
-(4) $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$. 由三角恒等式, $\sin 40^{\circ}=\cos 50^{\circ}$, $\cos 40^{\circ}=\sin 50^{\circ}$, 故原式 $=\cos 50^{\circ}-\mathrm{i}\sin 50^{\circ}=\cos\left(-50^{\circ}\right)+\mathrm{i}\sin\left(-50^{\circ}\right)=\cos 310^{\circ}+\mathrm{i}\sin 310^{\circ}$. 由**定义 7.3.3 (辐角主值)**, 辐角主值为 $310^{\circ}$. 故选 (D). $\blacksquare$
-
-## 习题二
-
-(复习参考题 7 复习巩固第 2 题) 填空题.
-
-(1) 若复数 $z$ 的模为 $5$, 虚部为 $-4$, 则复数 $z=\;\_\_\;$.
-
-(2) 已知复数 $z=1-2\mathrm{i}$, 那么 $\frac{1}{\overline{z}}=\;\_\_\;$.
-
-(3) 复数 $-1+\mathrm{i}$ 与 $3-4\mathrm{i}$ 对应的向量分别为 $\boldsymbol{OA}$ 与 $\boldsymbol{OB}$, 则向量 $\boldsymbol{BA}$ 对应的复数为 $\;\_\_\;$.
-
-(4) 如果向量 $\boldsymbol{OZ}$ 对应复数 $4\mathrm{i}$, $\boldsymbol{OZ}$ 绕点 $O$ 按逆时针方向旋转 $45^{\circ}$ 后再把模变为原来的 $\sqrt{2}$ 倍得到向量 $\boldsymbol{OZ_1}$, 那么与 $\boldsymbol{OZ_1}$ 对应的复数是 $\;\_\_\;$ (用代数形式表示).
-
-### 解答 习题二
-
-(1) 设 $z=a-4\mathrm{i}$. 由**定义 7.1.9 (复数的模)**, $\lvert z \rvert=\sqrt{a^2+\left(-4\right)^2}=5$, 故 $a^2+16=25$, $a^2=9$, $a=\pm 3$. 所以 $z=3-4\mathrm{i}$ 或 $z=-3-4\mathrm{i}$.
-
-(2) 由**定义 7.1.10 (共轭复数)**, $\overline{z}=1+2\mathrm{i}$. 由**定义 7.2.7 (复数除法法则)**, $\frac{1}{\overline{z}}=\frac{1}{1+2\mathrm{i}}=\frac{1-2\mathrm{i}}{\left(1+2\mathrm{i}\right)\left(1-2\mathrm{i}\right)}=\frac{1-2\mathrm{i}}{5}=\frac{1}{5}-\frac{2}{5}\mathrm{i}$.
-
-(3) 由**定义 7.2.2 (复数减法法则)**, $\boldsymbol{BA}=\boldsymbol{OA}-\boldsymbol{OB}$. 对应复数为 $\left(-1+\mathrm{i}\right)-\left(3-4\mathrm{i}\right)=-4+5\mathrm{i}$.
-
-(4) 向量 $\boldsymbol{OZ}$ 对应复数 $4\mathrm{i}=4\left(\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}\right)$. 由**常用结论 7.3.7** (乘法的几何意义), 逆时针旋转 $45^{\circ}$ 并将模变为原来的 $\sqrt{2}$ 倍: 模为 $4\sqrt{2}$, 辐角为 $90^{\circ}+45^{\circ}=135^{\circ}$. 化为代数形式: $4\sqrt{2}\left(\cos 135^{\circ}+\mathrm{i}\sin 135^{\circ}\right)=4\sqrt{2}\left(-\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}\right)=-4+4\mathrm{i}$. $\blacksquare$
-
-## 习题三
-
-(复习参考题 7 复习巩固第 3 题) 求证: $z\cdot\overline{z}=\lvert z \rvert^2=\lvert \overline{z} \rvert^2$.
-
-### 解答 习题三
-
-设 $z=a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$. 由**定义 7.1.10 (共轭复数)**, $\overline{z}=a-b\mathrm{i}$.
-
-由**定义 7.2.5 (复数乘法法则)**,
+(1) 由 $3x+10y-25=0$ 得 $y=\frac{25-3x}{10}$, 代入 $\frac{x^2}{25}+\frac{y^2}{4}=1$, 得
 
 $$
-z\cdot\overline{z}=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)=a^2-b^2\mathrm{i}^2=a^2+b^2.
+\frac{x^2}{25}+\frac{\left(25-3x\right)^2}{400}=1.
 $$
 
-由**定义 7.1.9 (复数的模)**, $\lvert z \rvert^2=a^2+b^2$, $\lvert \overline{z} \rvert^2=a^2+\left(-b\right)^2=a^2+b^2$.
+两边乘 $400$, 得 $16x^2+\left(25-3x\right)^2=400$, 即 $25x^2-150x+225=0$, 即 $\left(x-3\right)^2=0$, 故 $x=3$, 代回得 $y=\frac{8}{5}$. 交点为 $\left(3,\frac{8}{5}\right)$.
 
-故 $z\cdot\overline{z}=\lvert z \rvert^2=\lvert \overline{z} \rvert^2$. $\blacksquare$
-
-## 习题四
-
-(复习参考题 7 复习巩固第 4 题) 已知复数 $z$ 与 $\left(z+2\right)^2-8\mathrm{i}$ 都是纯虚数, 求 $z$.
-
-### 解答 习题四
-
-由**定义 7.1.6 (纯虚数)**, 设 $z=b\mathrm{i}\ \left(b\in\mathbb R, b\neq 0\right)$.
-
-则 $z+2=2+b\mathrm{i}$. 由**定义 7.2.5 (复数乘法法则)**,
+(2) 由 $3x-y+2=0$ 得 $y=3x+2$, 代入 $\frac{x^2}{16}+\frac{y^2}{4}=1$, 得
 
 $$
-\left(z+2\right)^2=\left(2+b\mathrm{i}\right)^2=4+4b\mathrm{i}+b^2\mathrm{i}^2=\left(4-b^2\right)+4b\mathrm{i}.
+\frac{x^2}{16}+\frac{\left(3x+2\right)^2}{4}=1.
 $$
 
-故 $\left(z+2\right)^2-8\mathrm{i}=\left(4-b^2\right)+\left(4b-8\right)\mathrm{i}$.
+两边乘 $16$, 得 $x^2+4\left(3x+2\right)^2=16$, 即 $37x^2+48x=0$, 解得 $x=0$ 或 $x=-\frac{48}{37}$. 代回 $y=3x+2$, 得 $y=2$ 或 $y=-\frac{70}{37}$. 交点为 $\left(0,2\right)$ 和 $\left(-\frac{48}{37},-\frac{70}{37}\right)$. $\blacksquare$
 
-由 $\left(z+2\right)^2-8\mathrm{i}$ 也是纯虚数, 须实部为 $0$ 且虚部不为 $0$:
+## 练习三
 
-$$
-4-b^2=0,
-$$
+(练习 3.1 第 2 题) 经过椭圆 $\frac{x^2}{2}+y^2=1$ 的左焦点 $F_1$ 作倾斜角为 $60^{\circ}$ 的直线 $l$, 直线 $l$ 与椭圆相交于 $A$, $B$ 两点, 求线段 $AB$ 的长.
 
-得 $b=\pm 2$. 又须 $4b-8\neq 0$, 即 $b\neq 2$, 故 $b=-2$.
+### 解答 练习三
 
-因此 $z=-2\mathrm{i}$. $\blacksquare$
+由**定义 3.1.3 (椭圆的标准方程)**, 椭圆 $\frac{x^2}{2}+y^2=1$ 中 $a^2=2$, $b^2=1$, $c=\sqrt{2-1}=1$, 左焦点 $F_1\left(-1,0\right)$.
 
-## 习题五
-
-(复习参考题 7 复习巩固第 5 题) 在复数集 $\mathbb C$ 中解下列方程:
-
-(1) $4x^2+9=0$;
-
-(2) $\left(x-3\right)\left(x-5\right)+2=0$.
-
-### 解答 习题五
-
-(1) 由 $4x^2+9=0$, 得 $x^2=-\frac{9}{4}$. 因为 $\left(\frac{3}{2}\mathrm{i}\right)^2=\left(-\frac{3}{2}\mathrm{i}\right)^2=-\frac{9}{4}$, 所以 $x=\pm\frac{3}{2}\mathrm{i}$.
-
-(2) 展开 $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. 这里 $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4< 0$. 由**定义 7.2.8 (求根公式)**,
+直线 $l$ 倾斜角为 $60^{\circ}$, 斜率 $k=\tan60^{\circ}=\sqrt{3}$, 又过 $F_1\left(-1,0\right)$, 故方程为 $y=\sqrt{3}\left(x+1\right)$. 代入椭圆方程, 得
 
 $$
-x=\frac{8\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{8\pm 2\mathrm{i}}{2}=4\pm\mathrm{i}.
+\frac{x^2}{2}+3\left(x+1\right)^2=1.
 $$
 
-即 $x=4+\mathrm{i}$ 或 $x=4-\mathrm{i}$. $\blacksquare$
-
-## 习题六
-
-(复习参考题 7 综合运用第 6 题) 已知 $z_1=5+10\mathrm{i}$, $z_2=3-4\mathrm{i}$, $\frac{1}{z}=\frac{1}{z_1}+\frac{1}{z_2}$, 求 $z$.
-
-### 解答 习题六
-
-由**定义 7.2.7 (复数除法法则)**, 先求 $\frac{1}{z_1}$ 与 $\frac{1}{z_2}$.
+化简, 得 $7x^2+12x+4=0$. 设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, 则 $x_1+x_2=-\frac{12}{7}$, $x_1x_2=\frac{4}{7}$. 由弦长公式
 
 $$
-\frac{1}{z_1}=\frac{1}{5+10\mathrm{i}}=\frac{5-10\mathrm{i}}{\left(5+10\mathrm{i}\right)\left(5-10\mathrm{i}\right)}=\frac{5-10\mathrm{i}}{25+100}=\frac{5-10\mathrm{i}}{125}=\frac{1}{25}-\frac{2}{25}\mathrm{i}.
+\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}.
 $$
 
-$$
-\frac{1}{z_2}=\frac{1}{3-4\mathrm{i}}=\frac{3+4\mathrm{i}}{\left(3-4\mathrm{i}\right)\left(3+4\mathrm{i}\right)}=\frac{3+4\mathrm{i}}{9+16}=\frac{3+4\mathrm{i}}{25}=\frac{3}{25}+\frac{4}{25}\mathrm{i}.
-$$
+代入, 得
 
 $$
-\frac{1}{z}=\frac{1}{z_1}+\frac{1}{z_2}=\frac{1+3}{25}+\frac{-2+4}{25}\mathrm{i}=\frac{4}{25}+\frac{2}{25}\mathrm{i}.
-$$
-
-故
-
-$$
-z=\frac{1}{\frac{4+2\mathrm{i}}{25}}=\frac{25}{4+2\mathrm{i}}=\frac{25\left(4-2\mathrm{i}\right)}{\left(4+2\mathrm{i}\right)\left(4-2\mathrm{i}\right)}=\frac{100-50\mathrm{i}}{16+4}=\frac{100-50\mathrm{i}}{20}=5-\frac{5}{2}\mathrm{i}.
+\lvert AB \rvert=\sqrt{1+3}\cdot\sqrt{\frac{144}{49}-\frac{16}{7}}=2\cdot\sqrt{\frac{32}{49}}=\frac{8\sqrt{2}}{7}.
 $$
 
 $\blacksquare$
 
+## 习题一
+
+(习题 3.1 复习巩固第 1 题) 如果点 $M\left(x,y\right)$ 在运动过程中, 总满足关系式
+
+$$
+\sqrt{x^2+\left(y-3\right)^2}+\sqrt{x^2+\left(y+3\right)^2}=10,
+$$
+
+那么点 $M$ 的轨迹是什么曲线? 为什么? 写出它的方程.
+
+### 解答 习题一
+
+由**定义 3.1.1 (椭圆)**, 平面内与两个定点距离之和等于常数 (大于两定点间距离) 的点的轨迹是椭圆.
+
+$\sqrt{x^2+\left(y-3\right)^2}$ 即点 $M\left(x,y\right)$ 到点 $\left(0,3\right)$ 的距离, $\sqrt{x^2+\left(y+3\right)^2}$ 即点 $M\left(x,y\right)$ 到点 $\left(0,-3\right)$ 的距离. 两定点为 $F_1\left(0,3\right)$, $F_2\left(0,-3\right)$, 距离 $\lvert F_1F_2 \rvert=6$. 点 $M$ 到两定点距离之和为常数 $10$, 且 $10> 6$, 故由**定义 3.1.1 (椭圆)**, 点 $M$ 的轨迹是以 $\left(0,\pm3\right)$ 为焦点的椭圆.
+
+由 $2a=10$ 得 $a=5$, 由 $2c=6$ 得 $c=3$, $b^2=a^2-c^2=25-9=16$. 焦点在 $y$ 轴上, 故方程为
+
+$$
+\frac{y^2}{25}+\frac{x^2}{16}=1.
+$$
+
+$\blacksquare$
+
+## 习题二
+
+(习题 3.1 复习巩固第 2 题) 写出适合下列条件的椭圆的标准方程.
+
+(1) 焦点坐标分别为 $\left(0,-4\right)$, $\left(0,4\right)$, $a=5$;
+
+(2) $a+c=10$, $a-c=4$.
+
+### 解答 习题二
+
+由**定义 3.1.3 (椭圆的标准方程)**, $b^2=a^2-c^2$.
+
+(1) 焦点 $\left(0,\pm4\right)$ 在 $y$ 轴上, 故 $c=4$, $a=5$, $b^2=25-16=9$. 标准方程为
+
+$$
+\frac{y^2}{25}+\frac{x^2}{9}=1.
+$$
+
+(2) 由 $a+c=10$, $a-c=4$, 解得 $a=7$, $c=3$, $b^2=49-9=40$. 由于未指定焦点轴, 标准方程为
+
+$$
+\frac{x^2}{49}+\frac{y^2}{40}=1
+$$
+
+或
+
+$$
+\frac{y^2}{49}+\frac{x^2}{40}=1.
+$$
+
+$\blacksquare$
+
+## 习题三
+
+(习题 3.1 复习巩固第 3 题) 求下列椭圆的长轴和短轴长, 离心率, 焦点坐标, 顶点坐标, 并画出图形.
+
+(1) $x^2+4y^2=16$;
+
+(2) $9x^2+y^2=81$.
+
+该图在平面直角坐标系中画出两个椭圆:(1) $\frac{x^2}{16}+\frac{y^2}{4}=1$,$a=4$, $b=2$,长轴在 $x$ 轴上,顶点为 $\left(\pm4,0\right)$, $\left(0,\pm2\right)$,焦点 $\left(\pm2\sqrt 3,0\right)$;(2) $\frac{y^2}{81}+\frac{x^2}{9}=1$,$a=9$, $b=3$,长轴在 $y$ 轴上,顶点为 $\left(\pm3,0\right)$, $\left(0,\pm9\right)$,焦点 $\left(0,\pm6\sqrt 2\right)$.
+
+### 解答 习题三
+
+由**定义 3.1.3 (椭圆的标准方程)** 将方程化为标准形式, 再由**定义 3.1.6 (顶点, 长轴, 短轴)** 与**定义 3.1.7 (椭圆的离心率)** 求解.
+
+(1) $x^2+4y^2=16$ 化为 $\frac{x^2}{16}+\frac{y^2}{4}=1$, $a=4$, $b=2$, $c=\sqrt{16-4}=2\sqrt{3}$. 长轴长 $2a=8$, 短轴长 $2b=4$, 离心率 $e=\frac{c}{a}=\frac{\sqrt{3}}{2}$, 焦点 $\left(-2\sqrt{3},0\right)$, $\left(2\sqrt{3},0\right)$, 顶点 $\left(\pm4,0\right)$, $\left(0,\pm2\right)$. 图形为焦点在 $x$ 轴上的椭圆.
+
+(2) $9x^2+y^2=81$ 化为 $\frac{y^2}{81}+\frac{x^2}{9}=1$, $a=9$, $b=3$, $c=\sqrt{81-9}=6\sqrt{2}$. 长轴长 $2a=18$, 短轴长 $2b=6$, 离心率 $e=\frac{c}{a}=\frac{2\sqrt{2}}{3}$, 焦点 $\left(0,\pm6\sqrt{2}\right)$, 顶点 $\left(\pm3,0\right)$, $\left(0,\pm9\right)$. 图形为焦点在 $y$ 轴上的椭圆. $\blacksquare$
+
+## 习题四
+
+(习题 3.1 复习巩固第 4 题) 求适合下列条件的椭圆的标准方程.
+
+(1) 经过 $P\left(-2\sqrt{2},0\right)$, $Q\left(0,\sqrt{5}\right)$ 两点;
+
+(2) 长轴长是短轴长的 $3$ 倍, 且经过点 $P\left(3,0\right)$;
+
+(3) 焦距是 $8$, 离心率等于 $0.8$.
+
+### 解答 习题四
+
+由**定义 3.1.6 (顶点, 长轴, 短轴)** 与**定义 3.1.7 (椭圆的离心率)** 求解.
+
+(1) $P\left(-2\sqrt{2},0\right)$ 在 $x$ 轴上, $Q\left(0,\sqrt{5}\right)$ 在 $y$ 轴上, 故 $a=2\sqrt{2}$, $b=\sqrt{5}$, $a> b$, 焦点在 $x$ 轴上. 标准方程为
+
+$$
+\frac{x^2}{8}+\frac{y^2}{5}=1.
+$$
+
+(2) 长轴长是短轴长的 $3$ 倍, 即 $2a=3\cdot2b$, 故 $a=3b$. 椭圆过 $P\left(3,0\right)$. 若焦点在 $x$ 轴上, 则 $\left(3,0\right)$ 为长轴顶点, $a=3$, $b=1$, 方程为 $\frac{x^2}{9}+y^2=1$; 若焦点在 $y$ 轴上, 则 $\left(3,0\right)$ 为短轴顶点, $b=3$, $a=9$, 方程为 $\frac{y^2}{81}+\frac{x^2}{9}=1$.
+
+(3) 焦距 $2c=8$, 故 $c=4$. $e=0.8=\frac{c}{a}$, 故 $a=\frac{4}{0.8}=5$, $b^2=a^2-c^2=25-16=9$. 未指定焦点轴, 方程为
+
+$$
+\frac{x^2}{25}+\frac{y^2}{9}=1
+$$
+
+或
+
+$$
+\frac{y^2}{25}+\frac{x^2}{9}=1.
+$$
+
+$\blacksquare$
+
+## 习题五
+
+(习题 3.1 复习巩固第 5 题) 已知 $P$ 是椭圆 $\frac{x^2}{5}+\frac{y^2}{4}=1$ 上的一点, 且以点 $P$ 及焦点 $F_1$, $F_2$ 为顶点的三角形的面积等于 $1$, 求点 $P$ 的坐标.
+
+### 解答 习题五
+
+由**定义 3.1.3 (椭圆的标准方程)**, 椭圆 $\frac{x^2}{5}+\frac{y^2}{4}=1$ 中 $a^2=5$, $b^2=4$, $c=\sqrt{5-4}=1$, 焦点 $F_1\left(-1,0\right)$, $F_2\left(1,0\right)$, $\lvert F_1F_2 \rvert=2$.
+
+设 $P\left(x,y\right)$, $\triangle PF_1F_2$ 的底为 $\lvert F_1F_2 \rvert=2$, 高为 $\lvert y \rvert$, 故面积 $S=\frac{1}{2}\cdot2\cdot\lvert y \rvert=\lvert y \rvert=1$, 得 $y=\pm1$. 代入椭圆方程, 得 $\frac{x^2}{5}+\frac{1}{4}=1$, 即 $x^2=\frac{15}{4}$, $x=\pm\frac{\sqrt{15}}{2}$. 故点 $P$ 的坐标为
+
+$$
+\left(\pm\frac{\sqrt{15}}{2},\pm1\right)
+$$
+
+四个点. $\blacksquare$
+
+## 习题六
+
+(习题 3.1 复习巩固第 6 题) 如图, 圆 $O$ 的半径为定长 $r$, $A$ 是圆 $O$ 内一个定点, $P$ 是圆 $O$ 上任意一点. 线段 $AP$ 的垂直平分线 $l$ 和半径 $OP$ 相交于点 $Q$, 当点 $P$ 在圆上运动时, 点 $Q$ 的轨迹是什么? 为什么?
+
+该图在平面中画出半径为定长 $r$ 的圆 $O$,圆内有一定点 $A$,$P$ 为圆上任一点;线段 $AP$ 的垂直平分线 $l$ 与半径 $OP$ 交于点 $Q$,并连有线段 $AP$,$OQ$,$QP$.
+
+### 解答 习题六
+
+由线段垂直平分线的性质, $Q$ 在 $AP$ 的垂直平分线上, 故 $\lvert QA \rvert=\lvert QP \rvert$.
+
+又 $Q$ 在半径 $OP$ 上, $\lvert OP \rvert=r$, 故 $\lvert QO \rvert+\lvert QP \rvert=\lvert OP \rvert=r$. 代入 $\lvert QP \rvert=\lvert QA \rvert$, 得
+
+$$
+\lvert QO \rvert+\lvert QA \rvert=r.
+$$
+
+由**定义 3.1.1 (椭圆)**, 点 $Q$ 到两个定点 $O$, $A$ 的距离之和为常数 $r$. 又 $A$ 是圆 $O$ 内定点, 故 $\lvert OA \rvert< r$, 满足常数大于两定点间距离. 因此点 $Q$ 的轨迹是以 $O$, $A$ 为焦点的椭圆. $\blacksquare$
+
 ## 习题七
 
-(复习参考题 7 综合运用第 7 题) 已知 $\left(1+2\mathrm{i}\right)\overline{z}=4+3\mathrm{i}$, 求 $z$ 及 $\frac{z}{\overline{z}}$.
+(习题 3.1 复习巩固第 7 题) 彗星 "紫金山一号" 的运行轨道是以太阳为一个焦点的椭圆. 测得轨道的近日点距太阳中心 $1.486$ 天文单位, 远日点距太阳中心 $5.563$ 天文单位, 且近日点, 远日点及太阳中心在同一条直线上, 求轨道的方程.
 
 ### 解答 习题七
 
-由**定义 7.2.7 (复数除法法则)**,
+由**定义 3.1.3 (椭圆的标准方程)**, 太阳位于椭圆的一个焦点上. 设椭圆中心为原点, 太阳 (焦点) 在 $x$ 轴上.
+
+近日点到焦点距离为 $a-c$, 远日点到焦点距离为 $a+c$. 故 $a-c=1.486$, $a+c=5.563$. 解得 $a=\frac{1.486+5.563}{2}=3.5245$, $c=\frac{5.563-1.486}{2}=2.0385$. $b^2=a^2-c^2=\left(a-c\right)\left(a+c\right)=1.486\times5.563\approx8.267$. 轨道方程为
 
 $$
-\overline{z}=\frac{4+3\mathrm{i}}{1+2\mathrm{i}}=\frac{\left(4+3\mathrm{i}\right)\left(1-2\mathrm{i}\right)}{\left(1+2\mathrm{i}\right)\left(1-2\mathrm{i}\right)}=\frac{4-8\mathrm{i}+3\mathrm{i}-6\mathrm{i}^2}{1+4}=\frac{10-5\mathrm{i}}{5}=2-\mathrm{i}.
+\frac{x^2}{3.5245^2}+\frac{y^2}{8.267}=1.
 $$
 
-由**定义 7.1.10 (共轭复数)**, $z=2+\mathrm{i}$.
-
-再求 $\frac{z}{\overline{z}}=\frac{2+\mathrm{i}}{2-\mathrm{i}}=\frac{\left(2+\mathrm{i}\right)\left(2+\mathrm{i}\right)}{\left(2-\mathrm{i}\right)\left(2+\mathrm{i}\right)}=\frac{4+4\mathrm{i}+\mathrm{i}^2}{4+1}=\frac{3+4\mathrm{i}}{5}=\frac{3}{5}+\frac{4}{5}\mathrm{i}$. $\blacksquare$
+$\blacksquare$
 
 ## 习题八
 
-(复习参考题 7 综合运用第 8 题) (1) 求 $\mathrm{i}^1$, $\mathrm{i}^2$, $\mathrm{i}^3$, $\mathrm{i}^4$, $\mathrm{i}^5$, $\mathrm{i}^6$, $\mathrm{i}^7$, $\mathrm{i}^8$ 的值;
-
-(2) 由 (1) 推测 $\mathrm{i}^n\ \left(n\in\mathbb N^*\right)$ 的值有什么变化规律, 并把这个规律用式子表示出来.
+(习题 3.1 复习巩固第 8 题) 点 $M$ 与定点 $F\left(2,0\right)$ 的距离和它到定直线 $x=8$ 的距离的比是 $1:2$, 求点 $M$ 的轨迹方程, 并说明轨迹是什么图形.
 
 ### 解答 习题八
 
-由**定义 7.1.1 (虚数单位)**, $\mathrm{i}^2=-1$.
+设 $M\left(x,y\right)$, $M$ 到 $F\left(2,0\right)$ 的距离为 $\sqrt{\left(x-2\right)^2+y^2}$, $M$ 到直线 $x=8$ 的距离为 $\lvert 8-x \rvert$. 由题意,
 
-(1) 逐个计算:
+$$
+\frac{\sqrt{\left(x-2\right)^2+y^2}}{\lvert 8-x \rvert}=\frac{1}{2}.
+$$
 
-(a) $\mathrm{i}^1=\mathrm{i}$;
+两边平方, 得 $4\left[\left(x-2\right)^2+y^2\right]=\left(8-x\right)^2$, 展开化简, 得
 
-(b) $\mathrm{i}^2=-1$;
+$$
+3x^2+4y^2-16x-48=0.
+$$
 
-(c) $\mathrm{i}^3=\mathrm{i}^2\cdot\mathrm{i}=-\mathrm{i}$;
+配方, 得 $3\left(x-\frac{8}{3}\right)^2+4y^2=\frac{208}{3}$, 即
 
-(d) $\mathrm{i}^4=\mathrm{i}^3\cdot\mathrm{i}=\left(-\mathrm{i}\right)\cdot\mathrm{i}=1$;
+$$
+\frac{\left(x-\frac{8}{3}\right)^2}{\frac{208}{9}}+\frac{y^2}{\frac{52}{3}}=1.
+$$
 
-(e) $\mathrm{i}^5=\mathrm{i}^4\cdot\mathrm{i}=\mathrm{i}$;
-
-(f) $\mathrm{i}^6=\mathrm{i}^5\cdot\mathrm{i}=-1$;
-
-(g) $\mathrm{i}^7=\mathrm{i}^6\cdot\mathrm{i}=-\mathrm{i}$;
-
-(h) $\mathrm{i}^8=\mathrm{i}^7\cdot\mathrm{i}=1$.
-
-(2) 由 (1), $\mathrm{i}^n$ 的值以 $4$ 为周期循环出现: $\mathrm{i}$, $-1$, $-\mathrm{i}$, $1$. 规律为: 当 $n=4k+1$ 时 $\mathrm{i}^n=\mathrm{i}$; 当 $n=4k+2$ 时 $\mathrm{i}^n=-1$; 当 $n=4k+3$ 时 $\mathrm{i}^n=-\mathrm{i}$; 当 $n=4k+4$ 时 $\mathrm{i}^n=1$ ($k\in\mathbb N$). $\blacksquare$
+由**定义 3.1.1 (椭圆)**, 该轨迹是中心在 $\left(\frac{8}{3},0\right)$ 的椭圆. $\blacksquare$
 
 ## 习题九
 
-(复习参考题 7 拓广探索第 9 题) 已知复数 $z_1=m+\left(4-m^2\right)\mathrm{i}\ \left(m\in\mathbb R\right)$, $z_2=2\cos\theta+\left(\lambda+3\sin\theta\right)\mathrm{i}\ \left(\lambda,\theta\in\mathbb R\right)$, 并且 $z_1=z_2$, 求 $\lambda$ 的取值范围.
+(习题 3.1 综合运用第 9 题) 如图, $DP\perp x$ 轴, 垂足为 $D$, 点 $M$ 在 $DP$ 的延长线上, 且 $\frac{DM}{DP}=\frac{3}{2}$. 当点 $P$ 在圆 $x^2+y^2=4$ 上运动时, 求点 $M$ 的轨迹方程, 并说明轨迹的形状.
+
+该图在平面直角坐标系中画出圆 $x^2+y^2=4$(圆心在原点,半径 $2$):点 $P$ 在圆上,$PD$ 垂直于 $x$ 轴,垂足为 $D$;点 $M$ 在 $DP$ 的延长线上,且 $DM:DP=3:2$.
 
 ### 解答 习题九
 
-由**定义 7.1.5 (复数相等)**, $z_1=z_2$ 当且仅当实部相等且虚部相等.
+设 $M\left(x,y\right)$, $P\left(x_0,y_0\right)$. 由 $DP\perp x$ 轴, 垂足 $D\left(x_0,0\right)$, 且 $M$ 在 $DP$ 延长线上, 故 $x=x_0$. 又 $\frac{DM}{DP}=\frac{3}{2}$, $DM=\lvert y \rvert$, $DP=\lvert y_0 \rvert$, 故 $y=\frac{3}{2}y_0$, 即 $y_0=\frac{2}{3}y$.
 
-实部相等: $m=2\cos\theta$.
-
-虚部相等: $4-m^2=\lambda+3\sin\theta$.
-
-将 $m=2\cos\theta$ 代入虚部等式, 得
+点 $P\left(x_0,y_0\right)$ 在圆 $x^2+y^2=4$ 上, 故 $x_0^2+y_0^2=4$. 代入 $x_0=x$, $y_0=\frac{2}{3}y$, 得
 
 $$
-4-4\cos^2\theta=\lambda+3\sin\theta.
+x^2+\frac{4}{9}y^2=4,
 $$
 
 即
 
 $$
-\lambda=4\sin^2\theta-3\sin\theta.
+\frac{x^2}{4}+\frac{y^2}{9}=1.
 $$
 
-令 $t=\sin\theta$, 则 $t\in\left[-1,1\right]$, $\lambda=4t^2-3t$.
-
-这是关于 $t$ 的二次函数, 开口向上, 对称轴 $t=\frac{3}{8}\in\left[-1,1\right]$. 最小值在 $t=\frac{3}{8}$ 处: $\lambda_{\min}=4\cdot\frac{9}{64}-3\cdot\frac{3}{8}=\frac{9}{16}-\frac{9}{8}=-\frac{9}{16}$.
-
-最大值在端点处取: 当 $t=-1$ 时, $\lambda=4+3=7$; 当 $t=1$ 时, $\lambda=4-3=1$. 故 $\lambda_{\max}=7$.
-
-因此 $\lambda$ 的取值范围为 $\left[-\frac{9}{16},7\right]$. $\blacksquare$
+由**定义 3.1.1 (椭圆)**, 点 $M$ 的轨迹是焦点在 $y$ 轴上的椭圆. $\blacksquare$
 
 ## 习题十
 
-(复习参考题 7 拓广探索第 10 题) 在复平面的上半平面内有一个菱形 $OABC$, $\angle AOC=120^{\circ}$, 点 $A$ 所对应的复数是 $2+\mathrm{i}$, 求另外两个顶点 $B$, $C$ 所对应的复数.
+(习题 3.1 综合运用第 10 题) 一动圆与圆 $x^2+y^2+6x+5=0$ 外切, 同时与圆 $x^2+y^2-6x-91=0$ 内切, 求动圆圆心的轨迹方程, 并说明它是什么曲线.
 
 ### 解答 习题十
 
-由**常用结论 7.3.7** (复数乘法的几何意义), 将向量 $\boldsymbol{OA}$ 旋转角即得向量 $\boldsymbol{OC}$.
+将两定圆方程配方. 圆 $x^2+y^2+6x+5=0$ 化为 $\left(x+3\right)^2+y^2=4$, 圆心 $C_1\left(-3,0\right)$, 半径 $r_1=2$. 圆 $x^2+y^2-6x-91=0$ 化为 $\left(x-3\right)^2+y^2=100$, 圆心 $C_2\left(3,0\right)$, 半径 $r_2=10$.
 
-菱形 $OABC$ 中, $O$ 为原点, $\angle AOC=120^{\circ}$, 且 $\lvert \boldsymbol{OA} \rvert=\lvert \boldsymbol{OC} \rvert$ (菱形边长相等). 点 $A$ 对应复数 $z_A=2+\mathrm{i}$.
-
-将 $\boldsymbol{OA}$ 绕点 $O$ 逆时针旋转 $120^{\circ}$ 得 $\boldsymbol{OC}$ (因在上半平面内):
+设动圆圆心 $M\left(x,y\right)$, 半径 $R$. 由外切条件 $\lvert MC_1 \rvert=R+r_1=R+2$, 由内切条件 $\lvert MC_2 \rvert=r_2-R=10-R$. 两式相加, 得
 
 $$
-z_C=\left(2+\mathrm{i}\right)\left(\cos 120^{\circ}+\mathrm{i}\sin 120^{\circ}\right)=\left(2+\mathrm{i}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right).
+\lvert MC_1 \rvert+\lvert MC_2 \rvert=12.
 $$
 
-展开:
+由**定义 3.1.1 (椭圆)**, $M$ 到两定点 $C_1\left(-3,0\right)$, $C_2\left(3,0\right)$ 距离之和为常数 $12$, 且 $12> \lvert C_1C_2 \rvert=6$, 故轨迹是以 $C_1,C_2$ 为焦点的椭圆. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. 轨迹方程为
 
 $$
-z_C=2\cdot\left(-\frac{1}{2}\right)+2\cdot\frac{\sqrt{3}}{2}\mathrm{i}+\mathrm{i}\cdot\left(-\frac{1}{2}\right)+\mathrm{i}\cdot\frac{\sqrt{3}}{2}\mathrm{i}=-1+\sqrt{3}\mathrm{i}-\frac{1}{2}\mathrm{i}-\frac{\sqrt{3}}{2}=-\frac{2+\sqrt{3}}{2}+\frac{2\sqrt{3}-1}{2}\mathrm{i}.
+\frac{x^2}{36}+\frac{y^2}{27}=1.
 $$
 
-菱形对角线互相平分, $\boldsymbol{OB}=\boldsymbol{OA}+\boldsymbol{OC}$, 故
+$\blacksquare$
+
+## 习题十一
+
+(习题 3.1 拓广探索第 11 题) 如图, 矩形 $ABCD$ 中, $AB=2a$, $BC=2b$ ($a> b> 0$). $E$, $F$, $G$, $H$ 分别是矩形四条边的中点, $R$, $S$, $T$ 是线段 $OF$ 的四等分点, $R'$, $S'$, $T'$ 是线段 $CF$ 的四等分点. 证明直线 $ER$ 与 $GR'$, $ES$ 与 $GS'$, $ET$ 与 $GT'$ 的交点 $L$, $M$, $N$ 都在椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) 上.
+
+该图在平面直角坐标系中画出矩形 $ABCD$(中心在 $O$,$AB=2a$ 沿水平方向,$BC=2b$ 沿竖直方向):$E$, $F$, $G$, $H$ 分别为四条边的中点($F$ 在右边中点,$G$ 在上边中点,$E$ 在下边中点);$R$, $S$, $T$ 为线段 $OF$ 的四等分点(在 $x$ 轴上),$R'$, $S'$, $T'$ 为线段 $CF$ 的四等分点(在右侧竖边上);连有直线 $ER$ 与 $GR'$,$ES$ 与 $GS'$,$ET$ 与 $GT'$,其交点 $L$, $M$, $N$ 落在椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ 上.
+
+### 解答 习题十一
+
+以 $O$ 为原点, $OF$ 为 $x$ 轴建立坐标系. 由 $AB=2a$, $BC=2b$, 各中点坐标为 $E\left(0,-b\right)$, $F\left(a,0\right)$, $G\left(0,b\right)$, $C\left(a,b\right)$.
+
+$R$, $S$, $T$ 是 $OF$ 的四等分点, $OF$ 从 $O\left(0,0\right)$ 到 $F\left(a,0\right)$, 故 $R\left(\frac{a}{4},0\right)$, $S\left(\frac{a}{2},0\right)$, $T\left(\frac{3a}{4},0\right)$. $R'$, $S'$, $T'$ 是 $CF$ 的四等分点, $CF$ 从 $C\left(a,b\right)$ 到 $F\left(a,0\right)$, 故 $R'\left(a,\frac{3b}{4}\right)$, $S'\left(a,\frac{b}{2}\right)$, $T'\left(a,\frac{b}{4}\right)$.
+
+直线 $ER$ 过 $E\left(0,-b\right)$, $R\left(\frac{a}{4},0\right)$, 斜率 $k_1=\frac{b}{a/4}=\frac{4b}{a}$, 方程为 $y=\frac{4b}{a}x-b$. 直线 $GR'$ 过 $G\left(0,b\right)$, $R'\left(a,\frac{3b}{4}\right)$, 斜率 $k_2=\frac{\frac{3b}{4}-b}{a}=-\frac{b}{4a}$, 方程为 $y=-\frac{b}{4a}x+b$. 联立求交点 $L$:
 
 $$
-z_B=z_A+z_C=\left(2+\mathrm{i}\right)+\left(-\frac{2+\sqrt{3}}{2}+\frac{2\sqrt{3}-1}{2}\mathrm{i}\right)=\frac{2-\sqrt{3}}{2}+\frac{1+2\sqrt{3}}{2}\mathrm{i}.
+\frac{4b}{a}x-b=-\frac{b}{4a}x+b.
 $$
 
-因此点 $B$ 对应的复数为 $\frac{2-\sqrt{3}}{2}+\frac{1+2\sqrt{3}}{2}\mathrm{i}$, 点 $C$ 对应的复数为 $-\frac{2+\sqrt{3}}{2}+\frac{2\sqrt{3}-1}{2}\mathrm{i}$. $\blacksquare$
+解得 $x=\frac{8a}{17}$, $y=\frac{15b}{17}$. 代入椭圆方程:
+
+$$
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=\frac{64}{289}+\frac{225}{289}=1.
+$$
+
+故 $L$ 在椭圆上. 同理, 直线 $ES$ 与 $GS'$ 联立, 得 $x=\frac{4a}{5}$, $y=\frac{3b}{5}$, 代入得 $\frac{16}{25}+\frac{9}{25}=1$, 故 $M$ 在椭圆上. 直线 $ET$ 与 $GT'$ 联立, 得 $x=\frac{24a}{25}$, $y=\frac{7b}{25}$, 代入得 $\frac{576}{625}+\frac{49}{625}=1$, 故 $N$ 在椭圆上. $\blacksquare$
+
+## 习题十二
+
+(习题 3.1 拓广探索第 12 题) 已知地球运行的轨道是长半轴长 $a=1.50\times10^8\,\mathrm{km}$, 离心率 $e=0.0192$ 的椭圆, 且太阳在这个椭圆的一个焦点上, 求地球到太阳的最大和最小距离.
+
+### 解答 习题十二
+
+由**定义 3.1.7 (椭圆的离心率)**, $e=\frac{c}{a}$, 故 $c=ae=1.50\times10^8\times0.0192=2.88\times10^6\,\mathrm{km}$.
+
+地球到太阳 (焦点) 的最大距离为 $a+c$, 最小距离为 $a-c$. 故最大距离为
+
+$$
+a+c=1.50\times10^8+2.88\times10^6=1.5288\times10^8\,\mathrm{km},
+$$
+
+最小距离为
+
+$$
+a-c=1.50\times10^8-2.88\times10^6=1.4712\times10^8\,\mathrm{km}.
+$$
+
+$\blacksquare$
+
+## 习题十三
+
+(习题 3.1 拓广探索第 13 题) 已知椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$, 直线 $l:4x-5y+40=0$. 椭圆上是否存在一点, 使得:
+
+(1) 它到直线 $l$ 的距离最小? 最小距离是多少?
+
+(2) 它到直线 $l$ 的距离最大? 最大距离是多少?
+
+### 解答 习题十三
+
+设与 $l:4x-5y+40=0$ 平行的直线为 $4x-5y+m=0$, 代入椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$. 由 $y=\frac{4x+m}{5}$, 代入得
+
+$$
+\frac{x^2}{25}+\frac{\left(4x+m\right)^2}{25\cdot9}=1.
+$$
+
+化简得 $25x^2+8mx+m^2-225=0$. 由**常用结论 3.1.8**, 相切时 $\Delta=0$, 即 $64m^2-100\left(m^2-225\right)=0$, 解得 $m^2=625$, $m=\pm25$.
+
+两条切线为 $4x-5y+25=0$ 和 $4x-5y-25=0$. 它们与 $l:4x-5y+40=0$ 的距离分别为
+
+$$
+d_1=\frac{\lvert 25-40 \rvert}{\sqrt{4^2+5^2}}=\frac{15}{\sqrt{41}}=\frac{15\sqrt{41}}{41},
+$$
+
+$$
+d_2=\frac{\lvert -25-40 \rvert}{\sqrt{41}}=\frac{65}{\sqrt{41}}=\frac{65\sqrt{41}}{41}.
+$$
+
+(1) 存在一点到 $l$ 距离最小, 最小距离为 $\frac{15\sqrt{41}}{41}$.
+
+(2) 存在一点到 $l$ 距离最大, 最大距离为 $\frac{65\sqrt{41}}{41}$. $\blacksquare$
+
+## 习题十四
+
+(习题 3.1 拓广探索第 14 题) 已知椭圆 $\frac{x^2}{4}+\frac{y^2}{9}=1$, 一组平行直线的斜率是 $\frac{3}{2}$.
+
+(1) 这组直线何时与椭圆有两个公共点?
+
+(2) 当它们与椭圆有两个公共点时, 证明这些直线被椭圆截得的线段的中点在同一条直线上.
+
+### 解答 习题十四
+
+设平行直线为 $y=\frac{3}{2}x+m$, 代入椭圆 $\frac{x^2}{4}+\frac{y^2}{9}=1$, 得
+
+$$
+\frac{x^2}{4}+\frac{\left(\frac{3}{2}x+m\right)^2}{9}=1.
+$$
+
+化简得 $18x^2+12mx+4m^2-36=0$, 即 $9x^2+6mx+2m^2-18=0$.
+
+(1) 由**常用结论 3.1.8**, 有两个公共点需 $\Delta> 0$, 即 $36m^2-36\left(2m^2-18\right)> 0$, 化简得 $m^2< 18$, 即 $-3\sqrt{2}< m< 3\sqrt{2}$.
+
+(2) 设交点横坐标为 $x_1,x_2$, 则中点横坐标 $x_0=\frac{x_1+x_2}{2}=-\frac{m}{3}$. 中点纵坐标 $y_0=\frac{3}{2}x_0+m=-\frac{m}{2}+m=\frac{m}{2}$. 消去 $m$, 得 $y_0=-\frac{3}{2}x_0$, 即中点在直线 $y=-\frac{3}{2}x$ 上. $\blacksquare$
+
+## 信息技术应用一
+
+(思考 1) 在推导椭圆标准方程时作怎样的变形就可以得到点 $M\left(x,y\right)$ 与定点 $F\left(-c,0\right)$ 的距离和动点 $M$ 到定直线 $l':x=-\frac{a^2}{c}$ 的距离的比是常数 $\frac{c}{a}$? 对上述过程你有什么体会?
+
+### 解答 信息技术应用一
+
+在推导椭圆标准方程时, 我们得到
+
+$$
+a^2-cx=a\sqrt{\left(x-c\right)^2+y^2}.
+$$
+
+若将该式中 $x$ 换为 $-x$, $y$ 不变 (即关于 $y$ 轴对称), 则变为
+
+$$
+a^2+cx=a\sqrt{\left(x+c\right)^2+y^2}.
+$$
+
+将其变形为
+
+$$
+\frac{\sqrt{\left(x+c\right)^2+y^2}}{\frac{a^2}{c}+x}=\frac{c}{a}.
+$$
+
+其中 $\sqrt{\left(x+c\right)^2+y^2}$ 即点 $M\left(x,y\right)$ 到 $F\left(-c,0\right)$ 的距离, $\frac{a^2}{c}+x=\frac{a^2}{c}-\left(-x\right)$ 即点 $M$ 到直线 $l':x=-\frac{a^2}{c}$ 的距离. 这表明椭圆上点到焦点距离与到对应准线距离之比恒为离心率 $\frac{c}{a}$. 这一过程体现了椭圆两种定义的统一性, 也揭示了准线作为椭圆几何要素的意义. $\blacksquare$
+
+## 练习四
+
+(练习 3.2 第 1 题) 求适合下列条件的双曲线的标准方程.
+
+(1) 焦点在 $x$ 轴上, $a=4$, $b=3$;
+
+(2) 焦点在 $x$ 轴上, 经过点 $\left(-\sqrt{2},-\sqrt{3}\right)$, $\left(\frac{\sqrt{15}}{3},\sqrt{2}\right)$;
+
+(3) 焦点为 $\left(0,-6\right)$, $\left(0,6\right)$, 且经过点 $\left(2,-5\right)$.
+
+### 解答 练习四
+
+由**定义 3.2.3 (双曲线的标准方程)**, $c^2=a^2+b^2$.
+
+(1) 焦点在 $x$ 轴上, $a=4$, $b=3$, 标准方程为
+
+$$
+\frac{x^2}{16}-\frac{y^2}{9}=1.
+$$
+
+(2) 焦点在 $x$ 轴上, 设方程为 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$. 代入两点:
+
+$$
+\frac{2}{a^2}-\frac{3}{b^2}=1,\quad \frac{15/9}{a^2}-\frac{2}{b^2}=1.
+$$
+
+解得 $a^2=1$, $b^2=3$. 标准方程为
+
+$$
+x^2-\frac{y^2}{3}=1.
+$$
+
+(3) 焦点 $\left(0,\pm6\right)$ 在 $y$ 轴上, $c=6$, 设方程为 $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$. 代入 $\left(2,-5\right)$, 得 $\frac{25}{a^2}-\frac{4}{b^2}=1$, 又 $a^2+b^2=36$. 解得 $a^2=20$, $b^2=16$. 标准方程为
+
+$$
+\frac{y^2}{20}-\frac{x^2}{16}=1.
+$$
+
+$\blacksquare$
+
+## 练习五
+
+(练习 3.2 第 2 题) 求证: 双曲线 $x^2-15y^2=15$ 与椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 的焦点相同.
+
+### 解答 练习五
+
+由**定义 3.2.3 (双曲线的标准方程)**, 将双曲线 $x^2-15y^2=15$ 化为 $\frac{x^2}{15}-\frac{y^2}{1}=1$, 故 $a^2=15$, $b^2=1$, $c^2=a^2+b^2=16$, $c=4$, 焦点为 $\left(-4,0\right)$, $\left(4,0\right)$.
+
+由**定义 3.1.3 (椭圆的标准方程)**, 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 中 $a^2=25$, $b^2=9$, $c^2=a^2-b^2=16$, $c=4$, 焦点为 $\left(-4,0\right)$, $\left(4,0\right)$.
+
+两者焦点完全相同, 故得证. $\blacksquare$
+
+## 练习六
+
+(练习 3.2 第 3 题) 已知方程 $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ 表示双曲线, 求 $m$ 的取值范围.
+
+### 解答 练习六
+
+由**定义 3.2.3 (双曲线的标准方程)**, 双曲线标准方程中 $x^2$ 与 $y^2$ 项的符号相反, 即两分母必须同号 (一正一负不成立; 标准形式中两项一正一负, 故两分母须同号).
+
+方程 $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ 表示双曲线, 需两分母同号. 即 $2+m> 0$ 且 $m+1> 0$, 解得 $m> -1$; 或 $2+m< 0$ 且 $m+1< 0$, 解得 $m< -2$. 故 $m$ 的取值范围是 $m< -2$ 或 $m> -1$. $\blacksquare$
+
+## 练习七
+
+(练习 3.2 第 4 题) 双曲线 $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a> 0$) 的两个焦点分别是 $F_1$ 与 $F_2$, 焦距为 $8$; $M$ 是双曲线上的一点, 且 $\lvert MF_1 \rvert=5$, 求 $\lvert MF_2 \rvert$ 的值.
+
+### 解答 练习七
+
+由**定义 3.2.3 (双曲线的标准方程)**, $c^2=a^2+b^2$. 焦距 $2c=8$, 故 $c=4$, $c^2=16$. 又 $b^2=12$, 故 $a^2=c^2-b^2=4$, $a=2$.
+
+由**常用结论 3.2.2** (双曲线上点到两焦点距离之差), $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a=4$. 代入 $\lvert MF_1 \rvert=5$, 得 $\lvert 5-\lvert MF_2 \rvert \rvert=4$, 故 $\lvert MF_2 \rvert=9$ 或 $\lvert MF_2 \rvert=1$. 又双曲线上点到较近焦点距离大于 $c-a=2$, 故 $\lvert MF_2 \rvert=1$ 舍去, 得 $\lvert MF_2 \rvert=9$. $\blacksquare$
+
+## 练习八
+
+(练习 3.2 第 1 题) 求下列双曲线的实轴和虚轴的长, 顶点和焦点的坐标以及离心率.
+
+(1) $x^2-8y^2=32$;
+
+(2) $9x^2-y^2=81$;
+
+(3) $x^2-y^2=-4$;
+
+(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$.
+
+### 解答 练习八
+
+由**定义 3.2.3 (双曲线的标准方程)**, **定义 3.2.5 (顶点, 实轴, 虚轴)**, **定义 3.2.8 (双曲线的离心率)** 求解.
+
+(1) $x^2-8y^2=32$ 化为 $\frac{x^2}{32}-\frac{y^2}{4}=1$, $a=4\sqrt{2}$, $b=2$, $c=\sqrt{32+4}=6$. 实轴长 $8\sqrt{2}$, 虚轴长 $4$, 顶点 $\left(\pm4\sqrt{2},0\right)$, 焦点 $\left(\pm6,0\right)$, $e=\frac{6}{4\sqrt{2}}=\frac{3\sqrt{2}}{4}$.
+
+(2) $9x^2-y^2=81$ 化为 $\frac{x^2}{9}-\frac{y^2}{81}=1$, $a=3$, $b=9$, $c=\sqrt{9+81}=3\sqrt{10}$. 实轴长 $6$, 虚轴长 $18$, 顶点 $\left(\pm3,0\right)$, 焦点 $\left(\pm3\sqrt{10},0\right)$, $e=\sqrt{10}$.
+
+(3) $x^2-y^2=-4$ 化为 $\frac{y^2}{4}-\frac{x^2}{4}=1$, $a=2$, $b=2$, $c=2\sqrt{2}$. 实轴长 $4$, 虚轴长 $4$, 顶点 $\left(0,\pm2\right)$, 焦点 $\left(0,\pm2\sqrt{2}\right)$, $e=\sqrt{2}$.
+
+(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$ 化为 $\frac{y^2}{25}-\frac{x^2}{49}=1$, $a=5$, $b=7$, $c=\sqrt{25+49}=\sqrt{74}$. 实轴长 $10$, 虚轴长 $14$, 顶点 $\left(0,\pm5\right)$, 焦点 $\left(0,\pm\sqrt{74}\right)$, $e=\frac{\sqrt{74}}{5}$. $\blacksquare$

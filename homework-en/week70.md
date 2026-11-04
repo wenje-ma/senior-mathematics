@@ -1,253 +1,477 @@
 # week70
-> **Definition 3.1.1 (椭圆)**
+> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
 > 
-> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
-> **Definition 3.1.3 (Standard Equation of Ellipse)**
+> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+> **Definition 8.2.1 (一元线性回归模型)**
 > 
-> 平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
-> **Definition 3.1.7 (椭圆的离心率)**
+> 关于 $x$ 和随机变量 $Y$ 的一元线性回归模型为
+> **Definition 8.2.4 (Empirical Regression Equation)**
 > 
-> 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
-> **Definition 3.2.1 (Hyperbola)**
+> The regression line y = bx + a obtained by the least squares method.
+> **Definition 8.3.1 (分类变量)**
 > 
-> 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
+> 变量的不同取值表示个体所属的不同类别, 这类变量称为分类变量.
+> **Definition 8.3.2 ($2\times 2$ 列联表)**
+> 
+> 过成对样本数据进行分析;通过构建一元线性回归 模型,可以研究变量之间的随机关系并进行预测;利用２×２列联表可以检验两个分类变 量的独立性等.在本章的学习过程中,同学们可以进一步体会统计思想在解决实际问题中 的作用. 祝愿同学们通过本册书的学习,不但学到更多的数学知识,而且在数学能力,数学核 心素养等方面都有较大的提高,并培养起更高的数学学习兴趣,形成对数学的更加全面的 认识. 本册导弓 本书根据《普通高中数学课程标准(2017年)》编写,包括计数原理随机变 量及其分布成对数据的统计分析三章内容. 计数问题在日常生活,生产实践中大量存在,也是数学研究的重要问题之一.在计 数原理一章中,同学们将学习分类加法计数原理和分步乘法计数原理,体会这两个原理 在解决计数问题中的基础性作用;运用两个基本计数原理探索排列,组合,二项式定理等 问题,推导相关的公式;在运用它们解决一些简单的计数问题和实际问题的过程中,理解 排列,组合,二项式定理与两个计数原理的关系,体会数学抽象,化繁为简等
+> **Definition 8.3.3 (零假设)**
+> 
+> 需要判断下面的假定关系 ０:＝１＝０ ( )＝＝１＝１ ( ) 是否成立,通常称０为零假设或原假设(ｎｕｌｌｈｙｐｏｔｈｅｓｉｓ).这里,＝１＝０ ( )表示从 ＝０ ｛ ｝中随机选取一个样本点,该样本点属于＝０,＝１ ｛ ｝的概率;而＝１＝１ ( )表 示从＝１ ｛ ｝中随机选取一个样本点,该样本点属于＝１,＝１ ｛ ｝的概率. 由条件概率的定义可知,零假设０等价于 ＝０,＝１ ( ) ＝０ ( )＝＝１,＝１ ( ) ＝１ ( ), 或 ＝０,＝１ ( )＝１ ( )＝＝１,＝１ ( )＝０ ( ). ① 注意到＝０ ｛ ｝和＝１ ｛ ｝为对立事件,于是＝０ ( )＝１－＝１ ( ).再由概率的性质, 我们有 ８２１ 2.例1中的随机抽样数据是否足够确定与X和Y有关的所有概率和条件概率?为什么? 3.根据有关规定,香烟盒上必须印上吸烟有害健康的警示语.那么 (1)吸烟是否对每位烟民一定会
+> **Definition 8.3.4 ($\chi^2$ 统计量)**
+> 
+> 选中分析工具库和 分析工具库ＶＢＡ,单击确定即可把数据分析加载到菜单栏中. (三)统计量的计算 在电子表格软件的函数库中,有一类统计函数提供了计算常用统计量的各种 函数,如ＡＶＥＲＡＧＥ()(平均数),ＭＥＤＩＡＮ()(中位数),ＭＯＤＥ()(众数), ＶＡＲ.Ｐ()(方差),ＳＴＤＥＶ.Ｐ()(标准差),ＰＥＲＣＥＮＴＩＬＥ.ＩＮＣ()(百分位 数),等.可以直接输入函数名称进行调用,也可以通过插入函数的方式选择 调用.例如,求单元格Ａ２到Ａ１０１所有数据的平均数,可以选一空白单元格,输 入＝ＡＶＥＲＡＧＥ(Ａ２:Ａ１０１),或者在菜单栏中依次选择公式— 函数 库— 插入函数,调出函数ＡＶＥＲＡＧＥ,再设置求平均数的单元格范围. 其他函数调用的操作过程类似,只是不同函数的参数设置有所不同,可以根 据函数的说明进行恰当设置. 二,Ｒ软件的简单统计功能 Ｒ软件是一款免费软件,可在其官方网站下载.它通过命令形式进行操作. (一)产生随机数 １.用ｒｕ
+
+## Exercise 1
+
+(Exercise 8.3, Problem 2) Based on the same sampling data to infer whether there is an association between two categorical variables, will using different small probability values lead to different conclusions? Why?
+
+### Solution to Exercise 1
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test).
+
+Different conclusions may be reached.
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), an independence test makes an inference by comparing the size of the $\chi^2$ statistic with the critical value $x_\alpha$. Different small probability values $\alpha$ correspond to different critical values $x_\alpha$: the smaller $\alpha$ is, the larger the critical value $x_\alpha$ is, and the harder it is to reject the null hypothesis.
+
+Therefore, when the $\chi^2$ computed from the data lies between the critical values corresponding to two different small probability values, for example $3.841< \chi^2< 6.635$, using $\alpha=0.05$ leads to the inference that the two variables are associated, whereas using $\alpha=0.01$ gives insufficient evidence to infer that they are associated. Hence applying different small probability values may lead to different conclusions. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 8.3, Problem 3) To investigate the effectiveness of a certain drug $A$ in preventing disease $B$, an animal experiment was conducted, and the data for $105$ samples drawn by simple random sampling with replacement were organized; the data are as follows.
+
+|  | Did not get disease $B$ | Got disease $B$ | Total |
+|---|---|---|---|
+| Did not take drug $A$ | $29$ | $15$ | $44$ |
+| Took drug $A$ | $47$ | $14$ | $61$ |
+| Total | $76$ | $29$ | $105$ |
+
+Based on the independence test with $\alpha=0.05$, can one infer that drug $A$ is effective in preventing disease $B$?
+
+### Solution to Exercise 2
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
+
+The null hypothesis $H_0$ is that taking drug $A$ and whether one gets disease $B$ are independent, i.e. drug $A$ has no effect in preventing disease $B$.
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)**,
+
+$$
+\chi^2=\frac{105\times\left(29\times 14-15\times 47\right)^2}{44\times 61\times 76\times 29}\approx 1.59.
+$$
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
+
+$$
+\chi^2\approx 1.59< 3.841,
+$$
+
+there is insufficient evidence to infer that the null hypothesis does not hold, i.e. one cannot infer that drug $A$ is effective in preventing disease $B$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 8.3, Problem 4) From a certain school, a simple random sample with replacement of size $400$ was obtained. The final math exam scores (on a 100-point scale) were divided by a passing line of $60$ points, and the final Chinese exam scores were divided by a passing line of $60$ points; the resulting contingency table is as follows:
+
+|  | Chinese score not excellent | Chinese score excellent | Total |
+|---|---|---|---|
+| Math score not excellent | $212$ | $61$ | $273$ |
+| Math score excellent | $54$ | $73$ | $127$ |
+| Total | $266$ | $134$ | $400$ |
+
+Based on the independence test with $\alpha=0.05$, can one consider excellent math scores to be associated with excellent Chinese scores?
+
+### Solution to Exercise 3
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
+
+The null hypothesis $H_0$ is that whether the math score is excellent and whether the Chinese score is excellent are independent.
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)**,
+
+$$
+\chi^2=\frac{400\times\left(212\times 73-61\times 54\right)^2}{273\times 127\times 266\times 134}\approx 48.03.
+$$
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
+
+$$
+\chi^2\approx 48.03> 3.841,
+$$
+
+we infer that the null hypothesis does not hold, i.e. we consider excellent math scores to be associated with excellent Chinese scores, and the probability that this inference is wrong is no more than $0.05$. $\blacksquare$
 
 ## Problem 1
 
-(Review Reference Problems 3, Review and Consolidation, Problem 1) As shown in the figure, the orbit of China's first artificial Earth satellite is an ellipse with the Earth's center $F_2$ as one focus. Its perigee $A$ is $439\,\mathrm{km}$ above the ground, its apogee $B$ is $2384\,\mathrm{km}$ above the ground, and $F_2$, $A$, $B$ are collinear; the Earth's radius is approximately $6371\,\mathrm{km}$. Find: (1) the equation of the satellite's orbit (accurate to $1\,\mathrm{km}$); (2) the eccentricity of the orbit.
-
-The figure is a diagram of the satellite's orbit: an ellipse with the earth's center $F_2$ as one focus, the perigee $A$ and apogee $B$ lying on the major axis, with $F_2$, $A$, $B$ collinear; the earth is represented by a small circle centered at $F_2$.
+(Exercise 8.3, Review and Consolidation, Problem 1) Why must the inference about whether there is an association between two categorical variables be based on paired sample data?
 
 ### Solution to Problem 1
 
-The distance from perigee $A$ to the Earth's center is $6371+439=6810\,\mathrm{km}$, and from apogee $B$ to the Earth's center is $6371+2384=8755\,\mathrm{km}$. By **Definition 3.1.3 (Standard Equation of Ellipse)**, $a-c=6810$, $a+c=8755$. Solving gives $a=7782.5\approx7783\,\mathrm{km}$, $c=972.5\approx973\,\mathrm{km}$.
+By **Definition 8.3.2 ($2\times 2$ Contingency Table)** and **Definition 8.3.3 (Null Hypothesis)**.
 
-(1) $b^2=a^2-c^2=\left(a-c\right)\left(a+c\right)=6810\times8755=59621550$. The orbit equation is
+By **Definition 8.3.2 ($2\times 2$ Contingency Table)**, to study whether there is an association between two categorical variables, one needs to know the frequencies of the paired sample data in each category combination, i.e. the number of individuals for whom both variables are observed simultaneously.
 
-$$
-\frac{x^2}{7783^2}+\frac{y^2}{59621550}=1.
-$$
+If one only knows the frequencies of the two categorical variables separately and not the frequencies with which they occur in pairs, then by **Definition 8.3.4 ($\chi^2$ Statistic)** one cannot compute the $\chi^2$ statistic, and by **Definition 8.3.3 (Null Hypothesis)** one cannot test whether the two variables are independent.
 
-(2) By **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}=\frac{973}{7783}\approx0.125$. $\blacksquare$
+Therefore, only on the basis of paired sample data can one infer whether there is an association between two categorical variables. $\blacksquare$
 
 ## Problem 2
 
-(Review Reference Problems 3, Review and Consolidation, Problem 2) Multiple choice.
-
-(1) The ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ and the ellipse $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k< 9$) have the same $\left(\quad\right)$.
-
-(A) major axis length    (B) minor axis length
-
-(C) eccentricity    (D) focal distance
-
-(2) The center of a circle externally tangent to both the circle $x^2+y^2=1$ and the circle $x^2+y^2-8x+12=0$ lies on $\left(\quad\right)$.
-
-(A) an ellipse    (B) one branch of a hyperbola
-
-(C) a parabola    (D) a circle
+(Exercise 8.3, Review and Consolidation, Problem 2) Why is the $\chi^2$ independence test method not applicable to census data?
 
 ### Solution to Problem 2
 
-(1) For $\frac{x^2}{25}+\frac{y^2}{9}=1$, $c^2=25-9=16$, $c=4$. For $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$, $c^2=\left(25-k\right)-\left(9-k\right)=16$, $c=4$. Both ellipses have focal distance $2c=8$, so the focal distances are equal. Choose (D).
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
 
-(2) The circle $x^2+y^2=1$ has center $O_1\left(0,0\right)$ and radius $r_1=1$. The circle $x^2+y^2-8x+12=0$ rewrites as $\left(x-4\right)^2+y^2=4$, with center $O_2\left(4,0\right)$ and radius $r_2=2$. Let the moving circle have radius $R$; since it is externally tangent to both, $\lvert MO_1 \rvert=R+1$, $\lvert MO_2 \rvert=R+2$, so $\lvert MO_2 \rvert-\lvert MO_1 \rvert=1$. By **Definition 3.2.1 (Hyperbola)**, the center lies on one branch of a hyperbola. Choose (B). $\blacksquare$
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), the $\chi^2$ independence test, based on sampled data, uses a certain small probability $\alpha$ to infer whether two categorical variables are independent; it is itself a method for handling sampling error.
+
+If the data are census data, then the census gives all the data of the population; the association between the two categorical variables in the population is then determined, there is no sampling error, and there is no need to conduct an independence test. Hence the $\chi^2$ independence test method is not applicable to census data. $\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problems 3, Review and Consolidation, Problem 3) As $\alpha$ varies from $0^{\circ}$ to $180^{\circ}$, how does the shape of the curve given by $x^2+y^2\cos\alpha=1$ change?
+(Exercise 8.3, Review and Consolidation, Problem 3) What role can a stacked bar chart of equal height play in studying the association between two categorical variables?
 
 ### Solution to Problem 3
 
-Classify by the value of $\cos\alpha$.
+By **Definition 8.3.3 (Null Hypothesis)**.
 
-(1) When $\alpha=0^{\circ}$, $\cos\alpha=1$, the equation is $x^2+y^2=1$, a unit circle.
+A stacked bar chart of equal height allows an intuitive comparison of the proportions of the categories of one categorical variable under the different categories of the other categorical variable.
 
-(2) When $0^{\circ}< \alpha< 90^{\circ}$, $0< \cos\alpha< 1$, the equation is $\frac{x^2}{1}+\frac{y^2}{1/\cos\alpha}=1$, an ellipse with foci on the $y$-axis.
+By **Definition 8.3.3 (Null Hypothesis)**, if the two categorical variables are independent, then in the categories $X=0$ and $X=1$ the proportion of $Y=1$ should be the same; reflected in the stacked bar chart of equal height, this means the heights of the corresponding parts in the two bars are the same. If the heights of the corresponding parts in the two bars differ noticeably, it intuitively indicates that there may be an association between the two categorical variables.
 
-(3) When $\alpha=90^{\circ}$, $\cos\alpha=0$, the equation is $x^2=1$, i.e. $x=\pm1$, two parallel lines.
-
-(4) When $90^{\circ}< \alpha\le180^{\circ}$, $-1\le\cos\alpha< 0$, the equation is $x^2-\frac{y^2}{-1/\cos\alpha}=1$, a hyperbola with foci on the $x$-axis (when $\alpha=180^{\circ}$ it is the equilateral hyperbola $x^2-y^2=1$). $\blacksquare$
+Thus a stacked bar chart of equal height can help us intuitively judge whether there may be an association between two categorical variables, and is an auxiliary tool for the independence test. $\blacksquare$
 
 ## Problem 4
 
-(Review Reference Problems 3, Review and Consolidation, Problem 4) Given that the line $y=kx-1$ has no common point with the hyperbola $x^2-y^2=4$, find the range of $k$.
+(Exercise 8.3, Review and Consolidation, Problem 4) For paired sample data already obtained, what is the practical meaning of the test conclusion "there is an association between the two variables"? Can it necessarily serve as an explanation of a causal relationship between the two variables?
 
 ### Solution to Problem 4
 
-Substituting $y=kx-1$ into $x^2-y^2=4$ gives $x^2-\left(kx-1\right)^2=4$, i.e. $\left(1-k^2\right)x^2+2kx-5=0$.
+By **Common Conclusion 8.3.5** (Rules for the Independence Test).
 
-No common point requires no real root. When $1-k^2=0$, i.e. $k=\pm1$, the equation is linear and has one solution, which does not satisfy the condition. When $1-k^2\neq0$, the discriminant is $\Delta=4k^2+20\left(1-k^2\right)< 0$, i.e. $20-16k^2< 0$, $k^2> \frac{5}{4}$. Hence the range of $k$ is $k< -\frac{\sqrt{5}}{2}$ or $k> \frac{\sqrt{5}}{2}$. $\blacksquare$
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), the practical meaning of the test conclusion "there is an association between the two variables" is: under the given small probability $\alpha$, there is sufficient evidence to consider the two categorical variables dependent, i.e. their values exhibit some common trend statistically, and the probability that this conclusion is wrong is no more than $\alpha$.
+
+It cannot necessarily serve as an explanation of a causal relationship between the two variables. Two variables being statistically associated may be due to one variable influencing the other, or may be due to both being influenced by a third variable. Therefore, based only on the conclusion of an independence test, one cannot assert that there is a causal relationship between the two variables. $\blacksquare$
 
 ## Problem 5
 
-(Review Reference Problems 3, Review and Consolidation, Problem 5) Let the vertex of a parabola be $O$. The line through the focus perpendicular to the axis of symmetry meets the parabola at $B$, $C$. A line through a point $P$ on the parabola perpendicular to the axis of symmetry meets the axis at $Q$. Prove: $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$.
+(Exercise 8.3, Comprehensive Application, Problem 5) To study the association between the gender of senior-year students and whether their height is greater than $170\,\mathrm{cm}$, all senior-year students at a certain high school were surveyed, and the following contingency table was obtained:
+
+| Gender | Height below $170\,\mathrm{cm}$ | Height not below $170\,\mathrm{cm}$ | Total |
+|---|---|---|---|
+| Female | $138$ | $110$ | $248$ |
+| Male | $92$ | $168$ | $260$ |
+| Total | $230$ | $278$ | $508$ |
+
+From the contingency table, the frequency of girls whose height is not below $170\,\mathrm{cm}$ is $0.44$, and the frequency of boys whose height is not below $170\,\mathrm{cm}$ is $0.65$. Draw a stacked bar chart of equal height and, based on this, infer whether there is an association between gender and height among the senior-year students at this school.
+
+The figure is an equal-height stacked bar chart: two bars of the same height represent girls and boys respectively; each bar is stacked proportionally into "height below $170\,\mathrm{cm}$" and "height at least $170\,\mathrm{cm}$" parts, with the "height at least $170\,\mathrm{cm}$" part taking up $0.44$ of the girls' bar and $0.65$ of the boys' bar, the latter being clearly higher than the corresponding part of the girls' bar.
 
 ### Solution to Problem 5
 
-Let the parabola be $y^2=2px$, focus $F\left(\frac{p}{2},0\right)$. The line through $F$ perpendicular to the axis (the $x$-axis) is $x=\frac{p}{2}$, which meets the parabola at $B\left(\frac{p}{2},p\right)$ and $C\left(\frac{p}{2},-p\right)$, so $\lvert BC \rvert=2p$.
+By **Definition 8.3.3 (Null Hypothesis)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
 
-Let $P\left(x_0,y_0\right)$ lie on the parabola, so $y_0^2=2px_0$. $PQ$ is perpendicular to the $x$-axis and meets the $x$-axis at $Q\left(x_0,0\right)$, so $\lvert PQ \rvert=\lvert y_0 \rvert$, $\lvert OQ \rvert=x_0$.
+This is census data for all senior-year students at the school; by the conclusion of **Problem 2**, the $\chi^2$ independence test method is neither needed nor applicable, and one should instead make a direct intuitive inference from the stacked bar chart of equal height.
 
-$\lvert PQ \rvert^2=y_0^2=2px_0$, and $\lvert BC \rvert\cdot\lvert OQ \rvert=2p\cdot x_0=2px_0$. Hence $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$. $\blacksquare$
+From the table, the frequency of girls whose height is not below $170\,\mathrm{cm}$ is $0.44$, and the frequency of boys whose height is not below $170\,\mathrm{cm}$ is $0.65$. In the stacked bar chart of equal height, the two bars representing girls and boys have the same height, but the height occupied by the "height not below $170\,\mathrm{cm}$" part in the two bars differs noticeably: this part in the boys' bar is clearly higher than the corresponding part in the girls' bar.
+
+By **Definition 8.3.3 (Null Hypothesis)**, if gender and height are independent, then the proportion of students whose height is not below $170\,\mathrm{cm}$ should be the same in the two categories. The two proportions $0.44$ and $0.65$ differ noticeably, so one can infer that there is an association between gender and height among the senior-year students at this school, i.e. the proportion of boys whose height is not below $170\,\mathrm{cm}$ is clearly higher than that of girls. $\blacksquare$
 
 ## Problem 6
 
-(Review Reference Problems 3, Review and Consolidation, Problem 6) One vertex of an equilateral triangle lies at the focus of the parabola $y^2=2px$ ($p> 0$), and the other two vertices lie on the parabola. Find the side length of this equilateral triangle.
+(Exercise 8.3, Comprehensive Application, Problem 6) Is the height variable in Problem $5$ a numerical variable or a categorical variable? Why?
 
 ### Solution to Problem 6
 
-The focus is $F\left(\frac{p}{2},0\right)$. Let two points $A$, $B$ on the parabola be symmetric about the $x$-axis, with $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$. Then $\lvert FA \rvert=\lvert FB \rvert=\lvert AB \rvert$.
+By **Definition 8.3.1 (Categorical Variable)**.
 
-$\lvert AB \rvert=2\lvert y_0 \rvert$, and $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. From $\lvert FA \rvert=\lvert AB \rvert$ and $y_0^2=2px_0$, we get $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, i.e. $x_0^2-px_0+\frac{p^2}{4}=8px_0$, i.e. $x_0^2-9px_0+\frac{p^2}{4}=0$. Solving gives $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. Taking the solution with $x_0> 0$, the side length is $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. Substituting gives the side length $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
+By **Definition 8.3.1 (Categorical Variable)**, a categorical variable is a variable used to distinguish different categories or properties. The height variable in Problem $5$ is divided into the two categories "height below $170\,\mathrm{cm}$" and "height not below $170\,\mathrm{cm}$"; here its role is to distinguish the two height situations of students, rather than using the specific numerical height directly in computation.
+
+Therefore, in this problem the height variable in Problem $5$ is a categorical variable. $\blacksquare$
 
 ## Problem 7
 
-(Review Reference Problems 3, Comprehensive Application, Problem 7) Given that $P$ is a point on the ellipse $16x^2+25y^2=1600$ above the $x$-axis, with $F_1$, $F_2$ the left and right foci respectively, and the slope of the line $PF_2$ is $-\frac{4\sqrt{3}}{3}$, find the area of $\triangle PF_1F_2$.
+(Exercise 8.3, Comprehensive Application, Problem 7) From the senior-year students of Problem $5$, a simple random sample with replacement of size $40$ was obtained, giving the following contingency table:
+
+| Gender | Height below $170\,\mathrm{cm}$ | Height not below $170\,\mathrm{cm}$ | Total |
+|---|---|---|---|
+| Female | $14$ | $7$ | $21$ |
+| Male | $8$ | $11$ | $19$ |
+| Total | $22$ | $18$ | $40$ |
+
+(1) Based on the independence test with $\alpha=0.05$, can one consider there to be an association between gender and height among the senior-year students at this school?
+
+(2) Compared with the conclusion in Problem $5$, what do you find? How do you explain the difference between the two conclusions?
 
 ### Solution to Problem 7
 
-The ellipse $16x^2+25y^2=1600$ rewrites as $\frac{x^2}{100}+\frac{y^2}{64}=1$, with $a=10$, $b=8$, $c=6$. Hence $F_1\left(-6,0\right)$, $F_2\left(6,0\right)$, $\lvert F_1F_2 \rvert=12$.
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
 
-The line $PF_2$ passes through $F_2\left(6,0\right)$ with slope $-\frac{4\sqrt{3}}{3}$, so its equation is $y=-\frac{4\sqrt{3}}{3}\left(x-6\right)$. Substituting into the ellipse equation to find the ordinate of $P$ gives the ordinate of $P$ as $y_P=3\sqrt{3}$ (taking the upper side). The area is $S=\frac{1}{2}\cdot\lvert F_1F_2 \rvert\cdot\lvert y_P \rvert=\frac{1}{2}\cdot12\cdot3\sqrt{3}=18\sqrt{3}$. $\blacksquare$
+(1) The null hypothesis $H_0$ is that gender and whether the height is not below $170\,\mathrm{cm}$ are independent.
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)**,
+
+$$
+\chi^2=\frac{40\times\left(14\times 11-7\times 8\right)^2}{21\times 19\times 22\times 18}\approx 2.43.
+$$
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
+
+$$
+\chi^2\approx 2.43< 3.841,
+$$
+
+there is insufficient evidence to infer that the null hypothesis does not hold, i.e. one cannot consider there to be an association between gender and height among the senior-year students at this school.
+
+(2) Problem $5$, using the stacked bar chart of equal height on census data, reached the conclusion that gender and height are associated, whereas this problem, using a sample of size $40$, reaches the conclusion that one cannot consider the two to be associated.
+
+The reason for the difference is: the sample size here is small, and the randomness of sampling makes the height proportions of the two categories in the sample deviate considerably from those in the population; by **Common Conclusion 8.3.5** (Rules for the Independence Test), with a small sample the $\chi^2$ statistic is small and is insufficient to reject the null hypothesis. This shows that when the sample size is small, the conclusion of the independence test may be inconsistent with the true state of the population, and increasing the sample size can improve the reliability of the test. $\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problems 3, Comprehensive Application, Problem 8) As shown in the figure, from a point $P$ on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) a perpendicular is dropped to the $x$-axis, whose foot is exactly the left focus $F_1$. Point $A$ is the intersection of the ellipse with the positive $x$-axis, and point $B$ is the intersection with the positive $y$-axis. Given $AB\parallel OP$ and $\lvert F_1A \rvert=\sqrt{10}+\sqrt{5}$, find the equation of the ellipse.
+(Exercise 8.3, Comprehensive Application, Problem 8) The association between the time of birth and the gender of babies at a certain hospital over a period of time was investigated, giving the following contingency table:
 
-The figure plots, in the rectangular coordinate system, the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) centered at the origin with foci on the $x$-axis: point $P$ lies on the ellipse, and the perpendicular from $P$ to the $x$-axis has its foot exactly at the left focus $F_1\left(-c,0\right)$; $A$ is the intersection of the ellipse with the positive $x$-axis $\left(a,0\right)$, $B$ is the intersection with the positive $y$-axis $\left(0,b\right)$, and $AB\parallel OP$.
+| Gender | Born at night | Born during the day | Total |
+|---|---|---|---|
+| Female | $24$ | $31$ | $55$ |
+| Male | $8$ | $26$ | $34$ |
+| Total | $32$ | $57$ | $89$ |
+
+Based on the independence test with small probability value $\alpha=0.1$, can one consider there to be an association between a baby's gender and its time of birth (daytime, night)?
 
 ### Solution to Problem 8
 
-The foot of the perpendicular from $P$ to the $x$-axis is $F_1\left(-c,0\right)$, so $P\left(-c,y_P\right)$. Substituting into the ellipse: $\frac{c^2}{a^2}+\frac{y_P^2}{b^2}=1$, so $y_P^2=b^2\left(1-\frac{c^2}{a^2}\right)=\frac{b^4}{a^2}$, and $y_P=\frac{b^2}{a}$ ($P$ is above).
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
 
-$A\left(a,0\right)$, $B\left(0,b\right)$, so $k_{AB}=-\frac{b}{a}$. Also $k_{OP}=\frac{y_P}{-c}=-\frac{b^2}{ac}$. From $AB\parallel OP$, $-\frac{b}{a}=-\frac{b^2}{ac}$, giving $b=c$. Moreover $a^2=b^2+c^2=2c^2$, so $a=\sqrt{2}c$.
+The null hypothesis $H_0$ is that the baby's gender and time of birth are independent.
 
-$\lvert F_1A \rvert=a+c=\sqrt{10}+\sqrt{5}$, i.e. $c\left(\sqrt{2}+1\right)=\sqrt{5}\left(\sqrt{2}+1\right)$, so $c=\sqrt{5}$. Hence $b=\sqrt{5}$, $a=\sqrt{10}$. The ellipse equation is
+By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\frac{x^2}{10}+\frac{y^2}{5}=1.
+\chi^2=\frac{89\times\left(24\times 26-31\times 8\right)^2}{55\times 34\times 32\times 57}\approx 3.69.
 $$
 
-$\blacksquare$
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because
+
+$$
+\chi^2\approx 3.69> 2.706,
+$$
+
+we infer that the null hypothesis does not hold, i.e. we consider there to be an association between a baby's gender and its time of birth, and the probability that this inference is wrong is no more than $0.1$. $\blacksquare$
 
 ## Problem 9
 
-(Review Reference Problems 3, Comprehensive Application, Problem 9) Given that the coordinates of points $A$, $B$ are $\left(-1,0\right)$ and $\left(1,0\right)$ respectively, the lines $AM$ and $BM$ meet at point $M$, and the sum of their slopes is $2$. Find the equation of the locus of point $M$.
+(Exercise 8.3, Extension and Exploration, Problem 9) For the data in contingency table $8.3-2$ of Example $1$, based on the independence test with $\alpha=0.1$, how confident can we be that there is a difference in the math excellence rate between the students of the two schools? If all the data in Table $8.3-2$ are enlarged to $10$ times the original, under the same testing standard, will the conclusion that the two schools differ in math excellence rate change? After the data are enlarged to $10$ times the original, what happens to the stacked bar chart of equal height? Explain the reason.
 
 ### Solution to Problem 9
 
-Let $M\left(x,y\right)$. Then $k_{AM}=\frac{y}{x+1}$, $k_{BM}=\frac{y}{x-1}$. By the condition, $\frac{y}{x+1}+\frac{y}{x-1}=2$, i.e.
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
+
+The contingency table for Example $1$ is: School A, not excellent $33$, excellent $10$, total $43$; School B, not excellent $38$, excellent $7$, total $45$; the total row, not excellent $71$, excellent $17$, grand total $88$.
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)**, for the original data
 
 $$
-y\cdot\frac{2x}{x^2-1}=2.
+\chi^2=\frac{88\times\left(33\times 7-10\times 38\right)^2}{43\times 45\times 71\times 17}\approx 0.58.
 $$
 
-Simplifying gives $xy=x^2-1$, i.e. $x^2-xy-1=0$. The locus equation is $x^2-xy=1$ ($x\neq\pm1$). $\blacksquare$
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 0.58< 2.706$, there is insufficient evidence to infer that the two schools differ in math excellence rate.
+
+When all the data in the table are enlarged to $10$ times the original: School A, not excellent $330$, excellent $100$, total $430$; School B, not excellent $380$, excellent $70$, total $450$; grand total $880$. By **Definition 8.3.4 ($\chi^2$ Statistic)**,
+
+$$
+\chi^2=\frac{880\times\left(330\times 70-100\times 380\right)^2}{430\times 450\times 710\times 170}\approx 5.81.
+$$
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 5.81> 2.706$, we infer that the two schools differ in math excellence rate, and the conclusion has changed.
+
+After the data are enlarged to $10$ times the original, the proportions of the excellence rates in the two schools are unchanged, so the shape of the stacked bar chart of equal height is essentially unchanged.
+
+The reason is: by the formula in **Definition 8.3.4 ($\chi^2$ Statistic)**, when all the data are enlarged by the same factor $k$, $\left(ad-bc\right)^2$ becomes $k^4$ times the original, the denominator becomes $k^4$ times the original, and the $n$ in the numerator becomes $k$ times the original; hence $\chi^2$ becomes $k$ times the original. The larger the sample size, the larger the $\chi^2$ statistic corresponding to the same proportional difference, and the easier it is to reject the null hypothesis. The stacked bar chart of equal height reflects only the proportions, so its shape is unchanged. $\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problems 3, Extension and Exploration, Problem 10) As shown in the figure, a line intersects the parabola $y^2=2px$ ($p> 0$) at $A$, $B$, with $OA\perp OB$ and $OD\perp AB$ meeting $AB$ at $D$, and the coordinates of $D$ are $\left(2,1\right)$. Find the value of $p$.
+(Problem 1) An ancient root-extraction problem (from Yang Hui's Detailed Analysis of the Nine Chapters on the Mathematical Art): The product is 1,336,336 chi; what is the cube-like root (third power of a square)? Before the mid-Qing dynasty in our country, a square was called self-multiplication, a cube was called self-multiplication once more, and a fourth power was called the third-power-of-a-square. Thus this problem is equivalent to solving the equation $x^4=1336336$. Find $x$.
 
-The figure plots, in the rectangular coordinate system, the parabola $y^2=2px$ opening to the right with vertex at the origin: a line meets the parabola at $A$ and $B$, and $OA\perp OB$ (with $O$ the origin); through $O$ draw $OD\perp AB$ with foot $D\left(2,1\right)$.
+The figure is an ancient computational diagram using Yang Hui's triangle (Figure 2) for root extraction: the entries in the rows of the triangle are the binomial coefficients, with the saying "the left edge gives the area/product, the right edge gives the corner term, and what lies in the middle are the coefficients (lian)" — illustrating how the row coefficients are used to test digits one by one when extracting a root.
 
 ### Solution to Problem 10
 
-$D\left(2,1\right)$ lies on $AB$. The slope of $OD$ is $\frac{1}{2}$, and $OD\perp AB$, so the slope of $AB$ is $-2$. The equation of $AB$ is $y-1=-2\left(x-2\right)$, i.e. $y=-2x+5$.
+By **Theorem 6.3.1 (Binomial Theorem)**, ancient Chinese mathematicians used the coefficients in the rows of Pascal's triangle to extract roots. This problem is to find the positive root of $x^4=1336336$.
 
-Let $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$. Since $OA\perp OB$, $x_1x_2+y_1y_2=0$. Substituting $y=-2x+5$ into $y^2=2px$ gives $\left(-2x+5\right)^2=2px$, i.e. $4x^2-\left(20+2p\right)x+25=0$. Hence $x_1x_2=\frac{25}{4}$, $x_1+x_2=\frac{20+2p}{4}$.
+(1) Estimate the number of digits and the range. Since $30^4=810000$, $40^4=2560000$, and $810000< 1336336< 2560000$, $x$ lies between 30 and 40; that is, the tens digit of $x$ is 3. Write $x=30+b$, where $b$ is the units digit.
 
-$y_1y_2=\left(-2x_1+5\right)\left(-2x_2+5\right)=4x_1x_2-10\left(x_1+x_2\right)+25=25-\frac{10\left(20+2p\right)}{4}+25=50-5\left(10+p\right)=-5p$.
+(2) Use the expansion of a complete fourth power. By **Theorem 6.3.1 (Binomial Theorem)**,
 
-From $x_1x_2+y_1y_2=0$, we get $\frac{25}{4}-5p=0$, so $p=\frac{5}{4}$. $\blacksquare$
+$$
+\left(30+b\right)^4=30^4+4\cdot 30^3b+6\cdot 30^2b^2+4\cdot 30b^3+b^4.
+$$
+
+Here $30^4=810000$. First try $b=4$:
+
+$$
+\left(30+4\right)^4=34^4.
+$$
+
+Computing $34^2=1156$, then
+
+$$
+34^4=1156^2=1336336.
+$$
+
+This equals the product given in the problem. Hence $x=34$, that is, when the product of the fourth power is 1,336,336 chi, the base is 34 chi.
+
+In Pascal's triangle (Figure 2), the phrases "the left flank is the product, the right flank is the corner coefficient, and those hidden in the middle are the lien" respectively explain the meaning of the numbers in the figure, and "multiply the lien by the quotient power, assign the dividend and divide" explains how to apply the row coefficients to extract the root; this is precisely the algorithm of trying digit by digit and using the binomial coefficients as the lien described above. $\blacksquare$
 
 ## Problem 11
 
-(Review Reference Problems 3, Extension and Exploration, Problem 11) Given that two vertices $A$, $B$ of $\triangle ABC$ have coordinates $\left(-5,0\right)$ and $\left(5,0\right)$ respectively, and the product of the slopes of lines $AC$ and $BC$ equals $m$ ($m\neq0$), find the locus of vertex $C$.
+(Problem 2) An ancient pile-number problem (from Yang Hui's Detailed Analysis of the Nine Chapters on the Mathematical Art): A triangular pile, with a base edge of 12 on each side and a pointed top; how many balls are there? Generalized, this is: the bottom layer is a triangle with $n$ balls on each side; going up, each layer has one fewer ball per edge, and the top layer has 1 ball; find the total number of balls. Find the total when $n=12$.
 
 ### Solution to Problem 11
 
-Let $C\left(x,y\right)$. Then $k_{AC}=\frac{y}{x+5}$, $k_{BC}=\frac{y}{x-5}$. By the condition, $\frac{y^2}{x^2-25}=m$, i.e.
+By **Common Conclusion 6.3.3** (Summing Formula for Binomial Coefficients), the numbers of balls in the layers of the triangular pile form the triangular-number sequence.
+
+(1) The number of balls in each layer. The bottom layer has 12 balls per edge, and the number of balls in that layer is the triangular number with edge 12, i.e.
 
 $$
-\frac{x^2}{25}-\frac{y^2}{25m}=1.
+1+2+\cdots+12=\frac{12\times 13}{2}=78.
 $$
 
-When $m> 0$, the locus is a hyperbola with foci on the $x$-axis (excluding the two points $A$, $B$); when $m< 0$, the locus is an ellipse (excluding the two points $A$, $B$). $\blacksquare$
+Going up, each layer has one fewer ball per edge, so from top to bottom the numbers of balls per edge are $1,2,3,\cdots,12$, and the numbers of balls in the layers are
+
+$$
+1,\ 3,\ 6,\ 10,\ \cdots,\ \frac{k\left(k+1\right)}{2},\ \cdots,\ 78.
+$$
+
+Here the number of balls in a layer with $k$ per edge is $\frac{k\left(k+1\right)}{2}=\binom{k+1}{2}$.
+
+(2) Find the total. Let the total be $S$; then
+
+$$
+S=\sum_{k=1}^{12}\frac{k\left(k+1\right)}{2}.
+$$
+
+By **Common Conclusion 6.3.3** (Summing Formula for Binomial Coefficients), taking $r=2$, we get
+
+$$
+S=\sum_{k=1}^{12}\binom{k+1}{2}=\binom{14}{3}.
+$$
+
+Computing,
+
+$$
+\binom{14}{3}=\frac{14\times 13\times 12}{6}=364.
+$$
+
+Thus when the base edge of the triangular pile has 12 balls per side, the total number of balls is 364.
+
+In general, when the base edge has $n$ balls per side, the total number of balls in the triangular pile is
+
+$$
+S=\binom{n+2}{3}=\frac{n\left(n+1\right)\left(n+2\right)}{6},
+$$
+
+which is the well-known summation formula for the triangular pile in the pile-stacking problem. $\blacksquare$
+
+## Activity Requirements
+
+Carry out the exploration activity through a combination of independent exploration and group cooperation. It is suggested to complete it in the following steps:
+
+(1) The group collectively discusses the exploration plan and determines the research approach;
+
+(2) Each member of the group conducts independent exploration and writes a research report in the form of a topic assignment;
+
+(3) The group exchanges and discusses, improves the research results, and forms a group research report;
+
+(4) The whole class exchanges and evaluates the results.
+
+## Reference Format for the Report
+
+The title of the research report is Properties and Applications of Pascal's Triangle, and the content includes the following items:
+
+(1) The members of the research group and their division of labor;
+
+(2) The mathematical conclusions discovered and an overview of the discovery process;
+
+(3) The proof ideas and a description of how they were formed;
+
+(4) The proof or disproof of the conclusions;
+
+(5) Examples of applications of Pascal's triangle;
+
+(6) Gains and reflections.
 
 ## Problem 12
 
-(Review Reference Problems 3, Extension and Exploration, Problem 12) Find a point $P$ on the parabola $y^2=4x$ such that the distance from $P$ to the line $y=x+3$ is minimized.
+(Problem 1) When the concentration of the air pollutant $PM_{2.5}$ exceeds a certain limit, it affects people's health. To study whether the concentration of $PM_{2.5}$ is affected by factors such as traffic flow and weather conditions, researchers selected 24 cities with similar socio-economic development levels; in each city, a traffic point was chosen as a monitoring station, the number of vehicles passing through each monitoring point within $24\ \mathrm{h}$ (unit: thousand vehicles) was counted, and at the same time, at the same low altitude, the average temperature (unit: $^\circ\mathrm{C}$), wind speed (unit: $\mathrm{m/s}$), air humidity (absolute humidity, unit: $\mathrm{g/m^3}$), and the average concentration of $PM_{2.5}$ in the air (unit: $\mu\mathrm{g/m^3}$) were measured for each monitoring station over that period; the data are shown in Table 1. By building a statistical model, quantitatively explore the relationship between the $PM_{2.5}$ concentration and traffic flow, and carry out prediction and control.
+
+Table 1 Monitoring data of the $PM_{2.5}$ concentration in the air at traffic points in 24 cities
+
+| City No. | Traffic flow | Avg. temperature | Air humidity | Wind speed | $PM_{2.5}$ concentration | City No. | Traffic flow | Avg. temperature | Air humidity | Wind speed | $PM_{2.5}$ concentration |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 1.300 | 20.0 | 80 | 0.45 | 66 | 13 | 0.948 | 22.5 | 69 | 2.00 | 35 |
+| 2 | 1.444 | 23.0 | 57 | 0.50 | 76 | 14 | 1.440 | 21.5 | 79 | 2.40 | 58 |
+| 3 | 0.786 | 26.5 | 64 | 1.50 | 21 | 15 | 1.084 | 28.5 | 59 | 3.00 | 29 |
+| 4 | 1.652 | 23.0 | 84 | 0.40 | 170 | 16 | 1.844 | 26.0 | 73 | 1.00 | 140 |
+| 5 | 1.756 | 29.5 | 72 | 0.90 | 156 | 17 | 1.116 | 35.0 | 92 | 2.80 | 43 |
+| 6 | 1.754 | 30.0 | 76 | 0.80 | 120 | 18 | 1.656 | 20.0 | 83 | 1.45 | 69 |
+| 7 | 1.200 | 22.5 | 69 | 1.80 | 72 | 19 | 1.536 | 23.0 | 57 | 1.50 | 87 |
+| 8 | 1.500 | 21.8 | 77 | 0.60 | 120 | 20 | 0.960 | 24.8 | 67 | 1.50 | 45 |
+| 9 | 1.200 | 27.0 | 58 | 1.70 | 100 | 21 | 1.784 | 23.3 | 83 | 0.90 | 222 |
+| 10 | 1.476 | 27.0 | 65 | 0.65 | 129 | 22 | 1.496 | 27.0 | 65 | 0.65 | 145 |
+| 11 | 1.820 | 22.0 | 83 | 0.40 | 135 | 23 | 1.060 | 26.0 | 58 | 1.83 | 34 |
+| 12 | 1.436 | 28.0 | 68 | 2.00 | 99 | 24 | 1.436 | 28.0 | 68 | 2.00 | 105 |
 
 ### Solution to Problem 12
 
-Let $P\left(x_0,y_0\right)$ lie on $y^2=4x$, so $x_0=\frac{y_0^2}{4}$. The distance from $P$ to the line $x-y+3=0$ is
+By **Definition 8.2.1 (Simple Linear Regression Model)**, taking traffic flow as the independent variable $x$ and the $PM_{2.5}$ concentration as the dependent variable $Y$, the method of regression analysis is used for the study. The whole study proceeds in three aspects: statistical description, statistical modeling and inference, and statistical application.
+
+(1) Statistical description. Taking traffic flow as the horizontal axis and the $PM_{2.5}$ concentration as the vertical axis, draw a scatter plot. From the scatter plot one finds that the $PM_{2.5}$ concentration shows a linear increasing trend as traffic flow increases; but when the traffic flow is similar, the $PM_{2.5}$ concentration sometimes differs greatly, indicating that besides traffic flow, the $PM_{2.5}$ concentration may also be affected by other factors such as wind speed, temperature, and air humidity. Hence the relationship between the $PM_{2.5}$ concentration and traffic flow is a correlation.
+
+(2) Build the linear regression equation. By **Definition 8.2.1 (Simple Linear Regression Model)**, set
 
 $$
-d=\frac{\left|x_0-y_0+3\right|}{\sqrt{2}}=\frac{\left|\frac{y_0^2}{4}-y_0+3\right|}{\sqrt{2}}.
+Y=bx+a+e,\quad \mathbb E\left(e\right)=0,\quad D\left(e\right)=\sigma^2.
 $$
 
-Since $\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2> 0$, we have $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. $d$ is minimized when $y_0=2$, giving $x_0=1$. The point $P$ is $\left(1,2\right)$. $\blacksquare$
-
-## Problem 13
-
-(Review Reference Problems 3, Extension and Exploration, Problem 13) As $m$ varies, describe the shape of the curve given by the equation $\left(m-1\right)x^2+\left(3-m\right)y^2=\left(m-1\right)\left(3-m\right)$.
-
-### Solution to Problem 13
-
-Dividing both sides by $\left(m-1\right)\left(3-m\right)$ (assuming $m\neq1$, $m\neq3$) gives
+By **Definition 8.2.4 (Empirical Regression Equation)**, using the least squares method to estimate the parameters $a$, $b$, we obtain the empirical regression equation
 
 $$
-\frac{x^2}{3-m}+\frac{y^2}{m-1}=1.
+\widehat y=\widehat b x+\widehat a.
 $$
 
-(1) When $m=1$, the equation is $2y^2=0$, i.e. $y=0$, a single line.
-
-(2) When $m=3$, the equation is $2x^2=0$, i.e. $x=0$, a single line.
-
-(3) When $1< m< 3$, both denominators are positive, so the curve is an ellipse (when $3-m=m-1$, i.e. $m=2$, it is a circle).
-
-(4) When $m< 1$, $3-m> 0$ and $m-1< 0$, so the curve is a hyperbola with foci on the $x$-axis.
-
-(5) When $m> 3$, $3-m< 0$ and $m-1> 0$, so the curve is a hyperbola with foci on the $y$-axis. $\blacksquare$
-
-## Problem 14
-
-(Review Reference Problems 3, Extension and Exploration, Problem 14) As shown in the figure, a tunnel carries a two-lane road, and its cross-section consists of a rectangle and a parabola. For safety, the vertical clearance between the top of a vehicle (assumed flat-roofed) and the tunnel ceiling must be at least $0.5\,\mathrm{m}$. Given that the total roadway width is $AB=6\,\mathrm{m}$, what is the height limit for vehicles passing through the tunnel? (Accurate to $0.1\,\mathrm{m}$)
-
-The figure is a diagram of the tunnel cross-section: a rectangle at the bottom, surmounted by a downward-opening parabolic arc; the roadway is $AB=6\,\mathrm{m}$ wide, the parabolic part is $8\,\mathrm{m}$ wide with its crown $3\,\mathrm{m}$ above the top of the rectangle, and the rectangle is $2\,\mathrm{m}$ high.
-
-### Solution to Problem 14
-
-From the dimensions in the figure, the parabolic part is $8\,\mathrm{m}$ wide and $3\,\mathrm{m}$ high (the rectangular part is $2\,\mathrm{m}$ high, and the parabola rises $3\,\mathrm{m}$ above the rectangle). Taking the parabola's vertex as the origin and opening downward, set $x^2=-2py$. The parabola passes through $\left(4,-3\right)$, so $16=6p$, giving $p=\frac{8}{3}$, and the equation is $x^2=-\frac{16}{3}y$.
-
-The roadway is $6\,\mathrm{m}$ wide, i.e. $x=\pm3$. Substituting: $9=-\frac{16}{3}y$, so $y=-\frac{27}{16}\approx-1.69$. At $x=3$, the parabola is $1.69\,\mathrm{m}$ below the vertex. The rectangle is $2\,\mathrm{m}$ high, so the total tunnel height at the roadway edge is $2+1.69=3.69\,\mathrm{m}$. Requiring a clearance of at least $0.5\,\mathrm{m}$, the height limit is $3.69-0.5\approx3.2\,\mathrm{m}$. $\blacksquare$
-
-## Problem 15
-
-(Review Reference Problems 3, Extension and Exploration, Problem 15) By combining the optical properties of the parabola and the hyperbola, one can design a reflecting astronomical telescope. Given that $F_1$, $F_2$ are the two foci of a hyperbola, and $F_2$ is also the focus of a parabola, find the equations of the parabola and the hyperbola based on the dimensions in the figure (unit: $\mathrm{mm}$).
-
-The figure is a diagram of a reflecting astronomical telescope: with the intersection of the two axes of symmetry as the origin, the parabola has its vertex at the origin and opens to the left, with $F_2$ as its focus (the focal-related dimension is $529\,\mathrm{mm}$); the hyperbola has $F_1$ and $F_2$ as its foci ($2c=2080\,\mathrm{mm}$), and the position of its real-axis vertices is determined by the dimension $1763\,\mathrm{mm}$.
-
-### Solution to Problem 15
-
-From the dimensions in the figure, take the intersection of the two axes of symmetry as the origin. The parabola has its vertex at the origin and opens to the left, with $F_2$ as its focus. The focal parameter $p$ is obtained from the $529\,\mathrm{mm}$ in the figure: $\frac{p}{2}=529$, so $p=1058$. The parabola equation is $y^2=-2116x$.
-
-The hyperbola has foci $F_1$, $F_2$, so $2c=2080$, $c=1040$. From the $1763\,\mathrm{mm}$ in the figure giving the position of the real-axis vertex, $a=1040-529=511$. Then $b^2=c^2-a^2=1040^2-511^2=828479$. The hyperbola equation is
+Computing from the sample data gives
 
 $$
-\frac{x^2}{261121}-\frac{y^2}{828479}=1.
+\widehat a=-99.69,\quad \widehat b=138.60,
 $$
 
-$\blacksquare$
+i.e. the regression equation of the $PM_{2.5}$ concentration on traffic flow is
 
-## Problem 16
+$$
+\widehat y=138.60x-99.69. \tag{1}
+$$
 
-(Review Reference Problems 3, Extension and Exploration, Problem 16) Through the focus $F$ of the parabola $y^2=2px$ ($p> 0$) draw a line meeting the parabola at $A$, $B$. Draw a circle with $AB$ as diameter, and observe its relation to the directrix $l$ of the parabola. What conclusion can you draw? What about the corresponding cases for the ellipse and the hyperbola? Can you prove your conclusions?
+(3) Analysis of the regression results. By **Common Conclusion 8.2.8** (Analysis of Regression Results), the model is tested from three aspects.
 
-### Solution to Problem 16
+(a) Estimate of the regression coefficient. $\widehat b=138.60> 0$, indicating that the $PM_{2.5}$ concentration increases as traffic flow increases: for every additional 100 vehicles (i.e. 0.1 thousand vehicles), the $PM_{2.5}$ concentration in the air increases on average by $13.86\ \mu\mathrm{g/m^3}$. The $t$ statistic corresponding to the regression coefficient $b$ is $6.721$, with degrees of freedom $n-2=22$; given the significance level $\alpha=0.05$, the critical value is $t_{0.025}\left(22\right)=2.074$. Since $t=6.721> t_{0.025}\left(22\right)$, or the corresponding $p$-value $9.37\times 10^{-7}< 0.05$, this shows that $b$ is significantly not 0, and traffic flow is a significant factor affecting the $PM_{2.5}$ concentration.
 
-Let $AB$ be the chord through the focus $F$, with midpoint $M$. By **Common Conclusion 3.3.3**, $\lvert AF \rvert=d_A$ (the distance from $A$ to the directrix), and $\lvert BF \rvert=d_B$. The circle has radius $r=\frac{\lvert AB \rvert}{2}=\frac{\lvert AF \rvert+\lvert BF \rvert}{2}=\frac{d_A+d_B}{2}$.
+(b) Test of significance of the linear relationship. The value of the $F$ statistic is $45.17$, with numerator degrees of freedom $1$ and denominator degrees of freedom $n-2=22$; the critical value is $F_{0.05}\left(1,22\right)=4.301$. Since $F=45.17> F_{0.05}\left(1,22\right)$, or the $p$-value $9.366\times 10^{-7}< 0.05$, this shows that the linear relationship between the $PM_{2.5}$ concentration and traffic flow is significant, and regression equation (1) can be considered to be statistically meaningful.
 
-The distance from the center $M$ to the directrix is $d_M=\frac{d_A+d_B}{2}=r$. Hence the circle with $AB$ as diameter is tangent to the directrix.
+(c) Coefficient of determination. The multiple coefficient of determination is $R^2=0.6725$, and the adjusted coefficient of determination is $R'=0.6576=65.76\%$, indicating that $65.76\%$ of the total variation in the $PM_{2.5}$ concentration is related to traffic flow, and the model fits well.
 
-Correspondingly, for an ellipse, the circle with a focal chord as diameter is disjoint from the corresponding directrix; for a hyperbola, the circle with a focal chord as diameter intersects the corresponding directrix. $\blacksquare$
+(4) Application of the model. One important application of a regression model is prediction: given a value of $x$, the predicted value $\widehat y$ of $Y$ is computed from the regression equation.
+
+China's safety standard for the $PM_{2.5}$ concentration in the air is an annual average concentration of $35\ \mu\mathrm{g/m^3}$ and a $24\ \mathrm{h}$ average concentration of $75\ \mu\mathrm{g/m^3}$. When the traffic flow is 1300 vehicles, i.e. $x=1.3$, by equation (1),
+
+$$
+\widehat y=138.60\times 1.3-99.69=80.49,
+$$
+
+indicating that the $PM_{2.5}$ concentration is near the safety standard; when the traffic flow is 2300 vehicles, i.e. $x=2.3$,
+
+$$
+\widehat y=138.60\times 2.3-99.69=219.09,
+$$
+
+indicating that the $PM_{2.5}$ concentration seriously exceeds the standard, and a warning and intervention measures are needed.
+
+Conversely, if the average $PM_{2.5}$ concentration is to be controlled within $60\sim 120$, solve for $x$ from equation (1): when $\widehat y_1=60$, $x_1=\frac{60+99.69}{138.60}\approx 1.152$; when $\widehat y_2=120$, $x_2=\frac{120+99.69}{138.60}\approx 1.585$. Hence, to keep the average $PM_{2.5}$ concentration of this city within $60\sim 120$, the $24\ \mathrm{h}$ traffic flow must be controlled within $1152\sim 1585$ vehicles. $\blacksquare$

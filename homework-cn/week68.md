@@ -1,357 +1,741 @@
 # week68
-> **定义 1.1.1 (空间向量)**
+> **定义 7.1.1 (条件概率)**
 > 
-> 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模.
-> **定义 1.1.4 (相等向量)**
+> 设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
+> **定义 7.2.1 (随机变量)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
-> **定理 1.2.1 (空间向量基本定理)**
+> 一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X\left(\omega\right)$ 与之对应, 我们称 $X$ 为随机变量. 通常用大写英文字母 $X$, $Y$, $Z$ 表示, 用小写英文字母 $x$, $y$, $z$ 表示其取值.
+> **定义 7.2.2 (离散型随机变量)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
-> **定义 1.2.2 (基底, 基向量)**
+> 所有可能取的值可以一一列出的随机变量叫做离散型随机变量.
+> **定义 7.2.3 (分布列)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
+> 设离散型随机变量 X 可能取的值为 x1, x2, ..., xn, X 取每一个值 xi 的概率 P(X=xi) = pi, 则表称为 X 的分布列.
+> **定义 7.2.4 (两点分布)**
+> 
+> 如果随机变量 X 的分布列为 P(X=1) = p, P(X=0) = 1-p, 则称 X 服从两点分布.
+> **定义 7.3.1 (均值)**
+> 
+> 若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
+> **定义 7.3.3 (方差与标准差)**
+> 
+> D(X) = sum[(xi - E(X))^2 * pi] 称为随机变量 X 的方差, 其算术平方根 sqrt(D(X)) 称为标准差.
+> **定义 7.4.1 (伯努利试验与 $n$ 重伯努利试验)**
+> 
+> 只包含两个可能结果的试验叫做伯努利试验. 将一个伯努利试验独立地重复进行 $n$ 次所组成的随机试验称为 $n$ 重伯努利试验.
+> **定义 7.4.2 (二项分布)**
+> 
+> 在 n 次独立重复试验中, 设事件 A 发生的次数为 X, 每次试验中 A 发生的概率为 p, 则 X ~ B(n, p).
+> **定义 7.4.4 (超几何分布)**
+> 
+> 在含有 M 件次品的 N 件产品中, 任取 n 件, 其中恰有 X 件次品, 则 P(X=k) = C(M,k)*C(N-M,n-k)/C(N,n).
 
 ## 习题一
 
-(复习参考题1 复习巩固第 1 题) 给出下列命题:
-
-(1) 两个空间向量相等, 则它们的起点相同, 终点也相同;
-
-(2) 若空间向量 $\boldsymbol{m}$, $\boldsymbol{n}$, $\boldsymbol{p}$ 满足 $\boldsymbol{m}=\boldsymbol{n}$, $\boldsymbol{n}=\boldsymbol{p}$, 则 $\boldsymbol{m}=\boldsymbol{p}$;
-
-(3) 在正方体 $ABCD-A_1B_1C_1D_1$ 中, 必有 $\boldsymbol{AC}=\boldsymbol{A_1C_1}$;
-
-(4) 若空间向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 满足 $\boldsymbol{a}=\boldsymbol{b}$, $\boldsymbol{b}=\boldsymbol{c}$, 则 $\boldsymbol{a}=\boldsymbol{c}$;
-
-(5) 空间向量的模可以比较大小.
-
-其中不正确命题的个数是( ).
-
-(A) 1 (B) 2 (C) 3 (D) 4
+(习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb P\left(AB\right)> 0$ 时, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. 据此你能发现计算 $\mathbb P\left(A_1A_2\cdots A_n\right)$ 的公式吗?
 
 ### 解答 习题一
 
-由**定义 1.1.1 (空间向量)** 及**定义 1.1.4 (相等向量)**.
+由**定义 7.1.1 (条件概率)** 及**结论 7.1.2** (概率的乘法公式).
 
-(1) 向量相等只要求方向相同且模相等, 与起点位置无关, 故不正确.
+由 $\mathbb P\left(AB\right)> 0$, 必有 $\mathbb P\left(A\right)> 0$ 且 $\mathbb P\left(AB\right)> 0$. 两次使用**结论 7.1.2** (概率的乘法公式):
 
-(2) 由相等向量的传递性, 正确.
+先把 $AB$ 看作一个事件, 有
 
-(3) 在正方体中, $\boldsymbol{AC}$ 与 $\boldsymbol{A_1C_1}$ 方向相同且模相等, 正确.
+$$
+\mathbb P\left(ABC\right)=\mathbb P\left(AB\right)\,\mathbb P\left(C\mid AB\right).
+$$
 
-(4) 由相等向量的传递性, 正确.
+再对 $\mathbb P\left(AB\right)$ 使用乘法公式, 有 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$. 代入得
 
-(5) 向量的模是实数, 可以比较大小, 正确.
+$$
+\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right).
+$$
 
-故不正确的命题有 1 个 (即 (1)). 选 (A). $\blacksquare$
+据此, 反复使用乘法公式, 可得 $n$ 个事件交的概率公式:
+
+$$
+\mathbb P\left(A_1A_2\cdots A_n\right)=\mathbb P\left(A_1\right)\mathbb P\left(A_2\mid A_1\right)\mathbb P\left(A_3\mid A_1A_2\right)\cdots \mathbb P\left(A_n\mid A_1A_2\cdots A_{n-1}\right).
+$$
+
+$\blacksquare$
+
+## 阅读与思考一
+
+(思考 1) 贝叶斯公式与人工智能. 在主持人打开 3 号空箱子的抽奖游戏中, 关于是否应改选 2 号箱, 有观点 (1) 认为三个箱子中有奖品的概率都是 $\frac{1}{3}$, 不必换号; 观点 (2) 认为既然 3 号是空箱, 奖品在 1 号箱, 2 号箱中的概率都是 $\frac{1}{2}$, 不必换号. 请分析这两种观点错在哪里.
+
+### 解答 阅读与思考一
+
+由**结论 7.1.5** (全概率公式) 与**结论 7.1.6** (贝叶斯公式).
+
+观点 (1) 的错误在于没有利用主持人开门所提供的新信息. 主持人只在你所选 1 号箱之外打开一个空箱子, 这一动作本身携带了关于奖品位置的信息, 它会修正原先 "三个箱子各 $\frac{1}{3}$" 的先验概率, 不能仍按先验概率决策.
+
+观点 (2) 的错误在于把主持人的开门误当作随机开门. 主持人是按游戏规则, 只打开你选择之外, 且确实为空的箱子, 这与 "从两个箱子中随机打开一个" 不同. 由贝叶斯公式, 在主持人打开 3 号箱后, 1 号箱有奖品的后验概率仍为 $\frac{1}{3}$, 而 2 号箱有奖品的后概率修正为 $\frac{2}{3}$, 并非把剩余概率简单地平分给两个箱子. 因此应改选 2 号箱. $\blacksquare$
+
+## 练习一
+
+(练习 7.2 第 1 题) 举出两个离散型随机变量的例子.
+
+### 解答 练习一
+
+由**定义 7.2.2 (离散型随机变量)**, 可能取值为有限个或可以一一列举的随机变量即为离散型随机变量.
+
+(1) 某射击运动员射击一次可能命中的环数 $X$, 其可能取值为 $0,1,2,\cdots,10$, 可以一一列举, 是离散型随机变量.
+
+(2) 某网页在一天内被浏览的次数 $Y$, 其可能取值为 $0,1,2,\cdots$, 虽然无限, 但可以一一列举, 是离散型随机变量. $\blacksquare$
+
+## 练习二
+
+(练习 7.2 第 2 题) 下列随机试验的结果能否用离散型随机变量表示? 若能, 请写出各随机变量可能的取值, 并说明这些值所表示的随机试验的结果.
+
+(1) 抛掷 2 枚骰子, 所得点数之和;
+
+(2) 某足球队在 5 次点球中射进的球数;
+
+(3) 任意抽取一瓶标有 $1500\,\mathrm{mL}$ 的饮料, 其实际含量与规定含量之差.
+
+### 解答 练习二
+
+由**定义 7.2.2 (离散型随机变量)** 判断能否一一列举.
+
+(1) 能. 设 $X$ 为所得点数之和, 其可能取值为 $2,3,4,\cdots,12$, 其中 $X=k$ 表示两枚骰子点数之和为 $k$.
+
+(2) 能. 设 $Y$ 为 5 次点球中射进的球数, 其可能取值为 $0,1,2,3,4,5$, 其中 $Y=k$ 表示 5 次点球中恰射进 $k$ 个球.
+
+(3) 不能. 实际含量与规定含量之差可取某一区间内的任意实数, 充满一个区间而不能一一列举, 故它不是离散型随机变量. $\blacksquare$
+
+## 练习三
+
+(练习 7.2 第 3 题) 篮球比赛中每次罚球命中得 1 分, 不中得 0 分. 已知某运动员罚球命中的概率为 0.7, 求他一次罚球得分的分布列.
+
+### 解答 练习三
+
+由**定义 7.2.4 (两点分布)**, 一次罚球只有命中与不中两种结果.
+
+设 $X$ 为一次罚球的得分, 则 $X$ 的可能取值为 $0,1$, 且 $\mathbb P\left(X=1\right)=0.7$, $\mathbb P\left(X=0\right)=1-0.7=0.3$. 故 $X$ 的分布列为
+
+| $X$ | 0 | 1 |
+|---|---|---|
+| $P$ | 0.3 | 0.7 |
+
+$\blacksquare$
+
+## 练习四
+
+(练习 7.2 第 4 题) 抛掷一枚质地均匀的硬币 2 次, 写出正面向上次数 $X$ 的分布列.
+
+### 解答 练习四
+
+由**定义 7.2.3 (分布列)**, 先确定 $X$ 的可能取值, 再用古典概型求各取值的概率.
+
+抛掷 2 次硬币, 正面向上次数 $X$ 的可能取值为 $0,1,2$. 样本空间为 $\left\{正正, 正反, 反正, 反反\right\}$, 共 4 个等可能样本点.
+
+$$
+\mathbb P\left(X=0\right)=\mathbb P\left(\text{反反}\right)=\frac{1}{4}.
+$$
+
+$$
+\mathbb P\left(X=1\right)=\frac{2}{4}=\frac{1}{2}.
+$$
+
+$$
+\mathbb P\left(X=2\right)=\mathbb P\left(\text{正正}\right)=\frac{1}{4}.
+$$
+
+故 $X$ 的分布列为
+
+| $X$ | 0 | 1 | 2 |
+|---|---|---|---|
+| $P$ | $\frac{1}{4}$ | $\frac{1}{2}$ | $\frac{1}{4}$ |
+
+$\blacksquare$
 
 ## 习题二
 
-(复习参考题1 复习巩固第 2 题) 已知 $\boldsymbol{a}=\left(3,1,2\right)$, $\boldsymbol{b}=\left(-1,3,0\right)$, 则 $\boldsymbol{a}-\boldsymbol{b}$ 与 $\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$ 分别为( ).
+(习题 7.2 复习巩固第 1 题) 张同学从学校回家要经过 4 个红绿灯路口, 每个路口可能遇到红灯或绿灯.
 
-(A) $\left(4,-2,2\right)$, $\left(\frac{5}{2},\frac{5}{2},2\right)$ (B) $\left(4,-2,2\right)$, $\left(\frac{5}{2},\frac{1}{2},2\right)$
+(1) 写出随机试验的样本空间;
 
-(C) $\left(-4,2,-2\right)$, $\left(\frac{5}{2},\frac{1}{2},2\right)$ (D) $\left(4,-2,2\right)$, $\left(\frac{5}{2},\frac{5}{2},1\right)$
+(2) 设他可能遇到红灯的次数为 $X$, 写出 $X$ 的可能取值, 并说明这些值所表示的随机事件.
 
 ### 解答 习题二
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示).
+由**定义 7.2.1 (随机变量)** 与**定义 7.2.2 (离散型随机变量)**.
 
-$\boldsymbol{a}-\boldsymbol{b}=\left(3-\left(-1\right), 1-3, 2-0\right)=\left(4,-2,2\right)$.
+(1) 每个路口遇红灯记为 $R$, 遇绿灯记为 $G$, 4 个路口共有 $2^4=16$ 个样本点, 样本空间为
 
-$\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2} \times \left(-1\right), 1+\frac{1}{2} \times 3, 2+\frac{1}{2} \times 0\right)=\left(\frac{5}{2}, \frac{5}{2}, 2\right)$.
+$$
+\Omega=\left\{RRRR, RRRG, RRGR, \cdots, GGGG\right\}.
+$$
 
-故选 (A). $\blacksquare$
+(2) $X$ 为遇到红灯的次数, 其可能取值为 $0,1,2,3,4$, 其中 $X=k$ ($k=0,1,2,3,4$) 表示经过 4 个路口时恰遇到 $k$ 次红灯. $\blacksquare$
 
 ## 习题三
 
-(复习参考题1 复习巩固第 3 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a} \perp \boldsymbol{b}$, 则 $x=\;\_\_\;$.
+(习题 7.2 复习巩固第 2 题) 某位同学求得一个离散型随机变量的分布列为
+
+| $X$ | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| $P$ | 0.2 | 0.3 | 0.15 | 0.45 |
+
+试说明该同学的计算结果是否正确.
 
 ### 解答 习题三
 
-由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$.
+由**定义 7.2.3 (分布列)** 的性质, 分布列中各概率之和应为 1.
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \times 2+3 \times x=-8-2+3x=3x-10=0$.
+计算各概率之和:
 
-故 $x=\frac{10}{3}$. $\blacksquare$
+$$
+0.2+0.3+0.15+0.45=1.1\neq 1.
+$$
+
+该结果不满足**定义 7.2.3 (分布列)** 的性质 (2), 故该同学的计算结果不正确. $\blacksquare$
 
 ## 习题四
 
-(复习参考题1 复习巩固第 4 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a} \parallel \boldsymbol{b}$, 则 $x=\;\_\_\;$.
+(习题 7.2 复习巩固第 3 题) 在某项体能测试中, 跑 $1\,\mathrm{km}$ 时间不超过 $4\,\mathrm{min}$ 为优秀. 某位同学跑 $1\,\mathrm{km}$ 所花费的时间 $X$ 是离散型随机变量吗? 如果只关心该同学是否能够取得优秀成绩, 应该如何定义随机变量?
 
 ### 解答 习题四
 
-由**常用结论 1.3.5** (平行的坐标表示), $\boldsymbol{a} \parallel \boldsymbol{b} \iff$ 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+由**定义 7.2.2 (离散型随机变量)** 与**定义 7.2.4 (两点分布)**.
 
-$-4=\lambda \times 2$, 故 $\lambda=-2$.
+跑 $1\,\mathrm{km}$ 所花费的时间可取某一区间内的任意实数, 充满一个区间而不能一一列举, 故 $X$ 不是离散型随机变量.
 
-$2=\lambda \times \left(-1\right)=-\left(-2\right)=2$, 符合.
+如果只关心该同学是否取得优秀成绩, 可定义随机变量
 
-$x=\lambda \times 3=-2 \times 3=-6$. $\blacksquare$
+$$
+Y=\begin{cases}1, & \text{成绩优秀 \left(时间不超过 }4\,\mathrm{min}\right),\\0, & \text{成绩不优秀}.\end{cases}
+$$
+
+此时 $Y$ 只有两个可能取值 $0,1$, 服从两点分布. $\blacksquare$
 
 ## 习题五
 
-(复习参考题1 复习巩固第 5 题) 已知点 $A\left(1,0,0\right)$, $B\left(2,1,2\right)$, 则向量 $\boldsymbol{AB}=\;\_\_\;$, $\lvert \boldsymbol{AB} \rvert=\;\_\_\;$.
+(习题 7.2 复习巩固第 4 题) 某位射箭运动员命中目标箭靶的环数 $X$ 的分布列为
+
+| $X$ | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|
+| $P$ | 0.05 | 0.15 | 0.25 | 0.35 | 0.20 |
+
+如果命中 9 环或 10 环为优秀, 那么他一次射击成绩为优秀的概率是多少?
 
 ### 解答 习题五
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.5** (模长的坐标表示).
+由**定义 7.2.3 (分布列)**, 事件 "成绩优秀" 即 $\left\{X=9\right\}\cup\left\{X=10\right\}$, 由概率的加法公式求其概率.
 
-$\boldsymbol{AB}=B-A=\left(2-1, 1-0, 2-0\right)=\left(1,1,2\right)$.
+$$
+\mathbb P\left(\text{优秀}\right)=\mathbb P\left(X=9\right)+\mathbb P\left(X=10\right)=0.35+0.20=0.55.
+$$
 
-$\lvert \boldsymbol{AB} \rvert=\sqrt{1^2+1^2+2^2}=\sqrt{6}$. $\blacksquare$
+故他一次射击成绩为优秀的概率是 0.55. $\blacksquare$
 
 ## 习题六
 
-(复习参考题1 复习巩固第 6 题) 已知 $\boldsymbol{a}=\left(1,0,1\right)$, $\boldsymbol{b}=\left(1,1,0\right)$, 则 $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\;\_\_\;$.
+(习题 7.2 综合运用第 5 题) 老师要从 10 篇课文中随机抽 3 篇不同的课文让同学背诵, 规定至少要背出其中 2 篇才能及格. 某位同学只能背诵其中的 6 篇, 求:
+
+(1) 抽到他能背诵的课文的数量的分布列;
+
+(2) 他能及格的概率.
 
 ### 解答 习题六
 
-由**常用结论 1.3.5** (夹角的坐标表示).
+由**定义 7.2.3 (分布列)**, 用古典概型计算各取值的概率.
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=1 \times 1+0 \times 1+1 \times 0=1$.
+设 $X$ 为抽到他能背诵的课文的数量. 从 10 篇中任取 3 篇, 样本空间含 $\binom{10}{3}$ 个等可能样本点. 10 篇中他会背 6 篇, 不会背 4 篇. $X$ 的可能取值为 $0,1,2,3$.
 
-$\lvert \boldsymbol{a} \rvert=\sqrt{1+0+1}=\sqrt{2}$.
+$$
+\mathbb P\left(X=0\right)=\frac{\binom{6}{0} \binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
+$$
 
-$\lvert \boldsymbol{b} \rvert=\sqrt{1+1+0}=\sqrt{2}$.
+$$
+\mathbb P\left(X=1\right)=\frac{\binom{6}{1} \binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
+$$
 
-$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{1}{\sqrt{2} \times \sqrt{2}}=\frac{1}{2}$.
+$$
+\mathbb P\left(X=2\right)=\frac{\binom{6}{2} \binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
+$$
 
-$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
+$$
+\mathbb P\left(X=3\right)=\frac{\binom{6}{3} \binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
+$$
+
+(1) $X$ 的分布列为
+
+| $X$ | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| $P$ | $\frac{1}{30}$ | $\frac{3}{10}$ | $\frac{1}{2}$ | $\frac{1}{6}$ |
+
+(2) 至少背出 2 篇才能及格, 即事件 $\left\{X\ge 2\right\}$, 故
+
+$$
+\mathbb P\left(\text{及格}\right)=\mathbb P\left(X=2\right)+\mathbb P\left(X=3\right)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
+$$
+
+$\blacksquare$
 
 ## 习题七
 
-(复习参考题1 复习巩固第 7 题) 已知 $A\left(3,5,-7\right)$, $B\left(-2,4,3\right)$, 则线段 $AB$ 的中点坐标为 $\;\_\_\;$, $\boldsymbol{AB}=\;\_\_\;$.
+(习题 7.2 综合运用第 6 题) 某种资格证考试, 每位考生一年内最多有 3 次考试机会. 一旦某次考试通过, 便可领取资格证书, 不再参加以后的考试, 否则就继续参加考试, 直到用完 3 次机会. 李明决定参加考试, 如果他每次参加考试通过的概率依次为 0.6, 0.7, 0.8, 且每次考试是否通过相互独立, 试求:
+
+(1) 李明在一年内参加考试次数 $X$ 的分布列;
+
+(2) 李明在一年内领到资格证书的概率.
 
 ### 解答 习题七
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示).
+由**定义 7.2.3 (分布列)** 与概率的乘法公式.
 
-中点坐标为 $\left(\frac{3+\left(-2\right)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
+设 $X$ 为李明一年内参加考试的次数. 一旦通过即停止, 故: $X=1$ 表示第 1 次即通过; $X=2$ 表示第 1 次未通过而第 2 次通过; $X=3$ 表示前 2 次都未通过 (无论第 3 次是否通过).
 
-$\boldsymbol{AB}=B-A=\left(-2-3, 4-5, 3-\left(-7\right)\right)=\left(-5,-1,10\right)$. $\blacksquare$
+$$
+\mathbb P\left(X=1\right)=0.6.
+$$
+
+$$
+\mathbb P\left(X=2\right)=\left(1-0.6\right)\times 0.7=0.4\times 0.7=0.28.
+$$
+
+$$
+\mathbb P\left(X=3\right)=\left(1-0.6\right)\times\left(1-0.7\right)=0.4\times 0.3=0.12.
+$$
+
+(1) $X$ 的分布列为
+
+| $X$ | 1 | 2 | 3 |
+|---|---|---|---|
+| $P$ | 0.6 | 0.28 | 0.12 |
+
+(2) 领到资格证书即至少有一次通过, 其对立事件为三次都未通过. 三次都未通过的概率为 $0.4\times 0.3\times 0.2=0.024$, 故
+
+$$
+\mathbb P\left(\text{领到证书}\right)=1-0.024=0.976.
+$$
+
+$\blacksquare$
+
+## 练习五
+
+(练习 7.3 第 1 题) 已知随机变量 $X$ 的分布列为
+
+| $X$ | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| $P$ | 0.1 | 0.3 | 0.4 | 0.1 | 0.1 |
+
+(1) 求 $\mathbb E\left(X\right)$;
+
+(2) 求 $\mathbb E\left(3X+2\right)$.
+
+### 解答 练习五
+
+由**定义 7.3.1 (均值)** 与**结论 7.3.2** (均值的性质).
+
+(1)
+
+$$
+\mathbb E\left(X\right)=1\times 0.1+2\times 0.3+3\times 0.4+4\times 0.1+5\times 0.1=2.8.
+$$
+
+(2) 由**结论 7.3.2** (均值的性质),
+
+$$
+\mathbb E\left(3X+2\right)=3\mathbb E\left(X\right)+2=3\times 2.8+2=10.4.
+$$
+
+$\blacksquare$
+
+## 练习六
+
+(练习 7.3 第 2 题) 抛掷一枚硬币, 规定正面向上得 1 分, 反面向上得 $-1$ 分, 求得分 $X$ 的均值.
+
+### 解答 练习六
+
+由**定义 7.3.1 (均值)**.
+
+设 $X$ 为得分, 抛掷均匀硬币, $\mathbb P\left(X=1\right)=\mathbb P\left(X=-1\right)=0.5$. 故
+
+$$
+\mathbb E\left(X\right)=1\times 0.5+\left(-1\right)\times 0.5=0.
+$$
+
+$\blacksquare$
+
+## 练习七
+
+(练习 7.3 第 3 题) 甲, 乙两台机床生产同一种零件, 它们生产的产量相同, 在 $1\,\mathrm{h}$ 内生产出的次品数分别为 $X_1$, $X_2$, 其分布列分别为
+
+| $X_1$ | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| $P$ | 0.4 | 0.3 | 0.2 | 0.1 |
+
+| $X_2$ | 0 | 1 | 2 |
+|---|---|---|---|
+| $P$ | 0.3 | 0.5 | 0.2 |
+
+哪台机床更好? 请解释你所得出结论的实际含义.
+
+### 解答 练习七
+
+由**定义 7.3.1 (均值)**, 比较两台机床生产次品数的期望.
+
+$$
+\mathbb E\left(X_1\right)=0\times 0.4+1\times 0.3+2\times 0.2+3\times 0.1=1.0.
+$$
+
+$$
+\mathbb E\left(X_2\right)=0\times 0.3+1\times 0.5+2\times 0.2=0.9.
+$$
+
+因为 $\mathbb E\left(X_2\right)< \mathbb E\left(X_1\right)$, 即乙机床平均每小时生产的次品数较少, 故乙机床更好. 其实际含义是: 在产量相同的情况下, 乙机床出次品的平均水平更低, 质量更稳定可靠. $\blacksquare$
+
+## 练习八
+
+(练习 7.3 第 1 题) 已知随机变量 $X$ 的分布列为
+
+| $X$ | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| $P$ | 0.2 | 0.3 | 0.4 | 0.1 |
+
+求 $D\left(X\right)$ 和 $\sigma\left(2X+7\right)$.
+
+### 解答 练习八
+
+由**定义 7.3.1 (均值)**, **结论 7.3.4** (方差的简化公式) 及**结论 7.3.5** (方差的性质).
+
+$$
+\mathbb E\left(X\right)=1\times 0.2+2\times 0.3+3\times 0.4+4\times 0.1=2.4.
+$$
+
+$$
+\mathbb E\left(X^2\right)=1^2\times 0.2+2^2\times 0.3+3^2\times 0.4+4^2\times 0.1=6.6.
+$$
+
+由**结论 7.3.4** (方差的简化公式),
+
+$$
+D\left(X\right)=\mathbb E\left(X^2\right)-\left(\mathbb E\left(X\right)\right)^2=6.6-2.4^2=6.6-5.76=0.84.
+$$
+
+由**结论 7.3.5** (方差的性质), $D\left(2X+7\right)=4D\left(X\right)=4\times 0.84=3.36$, 故
+
+$$
+\sigma\left(2X+7\right)=\sqrt{3.36}\approx 1.83.
+$$
+
+$\blacksquare$
+
+## 练习九
+
+(练习 7.3 第 2 题) 若随机变量 $X$ 满足 $\mathbb P\left(X=c\right)=1$, 其中 $c$ 为常数, 求 $D\left(X\right)$.
+
+### 解答 练习九
+
+由**定义 7.3.1 (均值)** 与**定义 7.3.3 (方差与标准差)**.
+
+因为 $\mathbb P\left(X=c\right)=1$, 故 $\mathbb E\left(X\right)=c\times 1=c$. 由**定义 7.3.3 (方差与标准差)**,
+
+$$
+D\left(X\right)=\left(c-\mathbb E\left(X\right)\right)^2\times 1=\left(c-c\right)^2=0.
+$$
+
+$\blacksquare$
+
+## 练习十
+
+(练习 7.3 第 3 题) 甲, 乙两个班级同学分别目测数学教科书的长度, 其误差 $X$ 和 $Y$ (单位: $\mathrm{cm}$) 的分布列如下:
+
+| $X$ | $-2$ | $-1$ | 0 | 1 | 2 |
+|---|---|---|---|---|---|
+| $P$ | 0.1 | 0.2 | 0.4 | 0.2 | 0.1 |
+
+| $Y$ | $-2$ | $-1$ | 0 | 1 | 2 |
+|---|---|---|---|---|---|
+| $P$ | 0.05 | 0.15 | 0.6 | 0.15 | 0.05 |
+
+先直观判断 $X$ 和 $Y$ 的分布哪一个离散程度大, 再分别计算 $X$ 和 $Y$ 的方差, 验证你的判断.
+
+### 解答 练习十
+
+由**定义 7.3.3 (方差与标准差)**.
+
+两个分布都关于 0 对称, 直观上乙班的误差更集中在 0 附近 (概率 0.6), 故 $X$ 的离散程度较大.
+
+因为两分布对称, $\mathbb E\left(X\right)=0$, $\mathbb E\left(Y\right)=0$. 计算方差:
+
+$$
+D\left(X\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
+$$
+
+$$
+D\left(Y\right)=\left(-2\right)^2\times 0.05+\left(-1\right)^2\times 0.15+0^2\times 0.6+1^2\times 0.15+2^2\times 0.05=0.7.
+$$
+
+由 $D\left(X\right)=1.2> D\left(Y\right)=0.7$, 知 $X$ 的离散程度较大, 与直观判断一致. $\blacksquare$
 
 ## 习题八
 
-(复习参考题1 复习巩固第 8 题) 已知四面体 $OABC$, $D$, $E$, $F$ 分别是棱 $OA$, $OB$, $OC$ 的中点, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, 求向量 $\boldsymbol{EF}$, $\boldsymbol{DE}$, $\boldsymbol{DF}$, 并判断它们之间的关系.
+(习题 7.3 复习巩固第 1 题) 某品牌手机投放市场, 每部手机可能发生按定价售出, 打折后售出, 没有售出而收回三种情况. 按定价售出每部利润 100 元, 打折后售出每部利润 0 元, 没有售出而收回每部利润 $-300$ 元. 据市场分析, 发生这三种情况的概率分别为 0.6, 0.3, 0.1. 求每部手机利润的均值和方差.
 
 ### 解答 习题八
 
-由**定理 1.2.1 (空间向量基本定理)**.
+由**定义 7.3.1 (均值)** 与**结论 7.3.4** (方差的简化公式).
 
-$\boldsymbol{EF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OB}\right)=\frac{1}{2}\left(\boldsymbol{c}-\boldsymbol{b}\right)$.
+设每部手机利润为 $X$, 其可能取值为 $100$, $0$, $-300$, 对应概率 $0.6$, $0.3$, $0.1$.
 
-$\boldsymbol{DE}=\frac{1}{2}\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\frac{1}{2}\left(\boldsymbol{b}-\boldsymbol{a}\right)$.
+$$
+\mathbb E\left(X\right)=100\times 0.6+0\times 0.3+\left(-300\right)\times 0.1=30.
+$$
 
-$\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OA}\right)=\frac{1}{2}\left(\boldsymbol{c}-\boldsymbol{a}\right)=\boldsymbol{DE}+\boldsymbol{EF}$.
+$$
+\mathbb E\left(X^2\right)=100^2\times 0.6+0^2\times 0.3+\left(-300\right)^2\times 0.1=15000.
+$$
 
-故 $\boldsymbol{DF}=\boldsymbol{DE}+\boldsymbol{EF}$, 三向量首尾相接构成三角形的三边. $\blacksquare$
+由**结论 7.3.4** (方差的简化公式),
+
+$$
+D\left(X\right)=\mathbb E\left(X^2\right)-\left(\mathbb E\left(X\right)\right)^2=15000-30^2=14100.
+$$
+
+故每部手机利润的均值为 30 元, 方差为 14100. $\blacksquare$
 
 ## 习题九
 
-(复习参考题1 复习巩固第 9 题) 已知 $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. 求:
-
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
-
-(2) $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}$.
+(习题 7.3 复习巩固第 2 题) 现要发行 10000 张彩票, 其中中奖金额为 2 元的彩票 1000 张, 10 元的彩票 300 张, 50 元的彩票 100 张, 100 元的彩票 50 张, 1000 元的彩票 5 张. 1 张彩票中奖金额的均值是多少元?
 
 ### 解答 习题九
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示).
+由**定义 7.3.1 (均值)**.
 
-(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=2 \times 2+\left(-3\right) \times 0+1 \times 5=9$.
+设 1 张彩票中奖金额为 $X$, 用加权平均求 $\mathbb E\left(X\right)$.
 
-(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12, -3, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
+$$
+\mathbb E\left(X\right)=\frac{2\times 1000+10\times 300+50\times 100+100\times 50+1000\times 5}{10000}.
+$$
+
+$$
+\mathbb E\left(X\right)=\frac{2000+3000+5000+5000+5000}{10000}=\frac{20000}{10000}=2.
+$$
+
+故 1 张彩票中奖金额的均值是 2 元. $\blacksquare$
 
 ## 习题十
 
-(复习参考题1 综合运用第 10 题) 已知空间向量 $\boldsymbol{a}=\left(1,1,0\right)$, $\boldsymbol{b}=\left(-1,0,2\right)$, 则 $\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\;\_\_\;$, 以 $\boldsymbol{a}$, $\boldsymbol{b}$ 为邻边的平行四边形的面积是 $\;\_\_\;$.
+(习题 7.3 复习巩固第 3 题) 随机变量 $X$ 的分布列为 $\mathbb P\left(X=0\right)=0.2$, $\mathbb P\left(X=1\right)=a$, $\mathbb P\left(X=2\right)=b$. 若 $\mathbb E\left(X\right)=1$, 求 $a$ 和 $b$.
 
 ### 解答 习题十
 
-由**常用结论 1.3.5** (模长与夹角的坐标表示).
+由**定义 7.2.3 (分布列)** 的归一性与**定义 7.3.1 (均值)**.
 
-$\boldsymbol{a}+\boldsymbol{b}=\left(0,1,2\right)$.
+由分布列各概率之和为 1, 得
 
-$\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+$$
+0.2+a+b=1,\quad \text{即 } a+b=0.8.
+$$
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=-1+0+0=-1$.
+由 $\mathbb E\left(X\right)=1$, 得
 
-$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{-1}{\sqrt{2} \cdot \sqrt{5}}=-\frac{1}{\sqrt{10}}$.
+$$
+\mathbb E\left(X\right)=0\times 0.2+1\times a+2\times b=a+2b=1.
+$$
 
-$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{10}}=\frac{3}{\sqrt{10}}$.
-
-平行四边形面积 $=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \sin \theta=\sqrt{2} \cdot \sqrt{5} \cdot \frac{3}{\sqrt{10}}=3$. $\blacksquare$
+联立两式, 相减得 $b=0.2$, 代回得 $a=0.6$. $\blacksquare$
 
 ## 习题十一
 
-(复习参考题1 综合运用第 11 题) 已知 $A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $C\left(0,0,2\right)$, 求满足下列条件的点 $D$ 的坐标:
-
-(1) $\boldsymbol{AB}=\boldsymbol{CD}$;
-
-(2) $\boldsymbol{AB}+\boldsymbol{AC}=\boldsymbol{AD}$.
+(习题 7.3 复习巩固第 4 题) 在单项选择题中, 每道题有四个选项, 其中仅有一个选项正确. 如果从四个选项中随机选一个, 选对的概率为 0.25. 请给选对和选错分别赋予合适的分值, 使得随机选择时得分的均值为 0.
 
 ### 解答 习题十一
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示).
+由**定义 7.3.1 (均值)**.
 
-$\boldsymbol{AB}=\left(-1,1,0\right)$, $\boldsymbol{AC}=\left(-1,0,2\right)$.
+设选对得 $m$ 分, 选错得 $n$ 分. 随机选择时选对概率为 0.25, 选错概率为 0.75. 要求均值为 0, 即
 
-(1) $\boldsymbol{AB}=\boldsymbol{CD}$, 即 $\left(-1,1,0\right)=D-C=D-\left(0,0,2\right)$. 故 $D=\left(-1,1,2\right)$.
+$$
+0.25\,m+0.75\,n=0.
+$$
 
-(2) $\boldsymbol{AB}+\boldsymbol{AC}=\left(-2,1,2\right)=\boldsymbol{AD}=D-A$. 故 $D=\left(-1,1,2\right)$. $\blacksquare$
+取一组满足该式的分值即可. 例如取 $m=3$, $n=-1$, 则
+
+$$
+0.25\times 3+0.75\times\left(-1\right)=0.75-0.75=0.
+$$
+
+故可规定选对得 3 分, 选错扣 1 分. $\blacksquare$
 
 ## 习题十二
 
-(复习参考题1 综合运用第 12 题) 已知 $\boldsymbol{a}=\left(1-t,1-t,t\right)$, $\boldsymbol{b}=\left(2,t,t\right)$, 求 $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert$ 的最小值.
+(习题 7.3 复习巩固第 5 题) 证明: $D\left(aX+b\right)=a^2 D\left(X\right)$.
 
 ### 解答 习题十二
 
-由**常用结论 1.3.5** (模长的坐标表示).
+由**结论 7.3.2** (均值的性质) 与**定义 7.3.3 (方差与标准差)**.
 
-$\boldsymbol{b}-\boldsymbol{a}=\left(2-\left(1-t\right), t-\left(1-t\right), t-t\right)=\left(1+t, 2t-1, 0\right)$.
+由**结论 7.3.2** (均值的性质), $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$. 由**定义 7.3.3 (方差与标准差)**,
 
-$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert^2=\left(1+t\right)^2+\left(2t-1\right)^2=1+2t+t^2+4t^2-4t+1=5t^2-2t+2$.
+$$
+D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-\mathbb E\left(aX+b\right)\right)^2 p_i.
+$$
 
-当 $t=\frac{2}{10}=\frac{1}{5}$ 时, 取最小值 $5 \times \frac{1}{25}-2 \times \frac{1}{5}+2=\frac{1}{5}-\frac{2}{5}+2=\frac{9}{5}$.
+代入 $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$, 得
 
-$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert_{\min}=\sqrt{\frac{9}{5}}=\frac{3\sqrt{5}}{5}$. $\blacksquare$
+$$
+D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-a\mathbb E\left(X\right)-b\right)^2 p_i=\sum_{i=1}^n a^2\left(x_i-\mathbb E\left(X\right)\right)^2 p_i=a^2 D\left(X\right).
+$$
+
+故 $D\left(aX+b\right)=a^2 D\left(X\right)$. $\blacksquare$
 
 ## 习题十三
 
-(复习参考题1 综合运用第 13 题) 求证: 三点 $A\left(1,0,-1\right)$, $B\left(3,4,5\right)$, $C\left(0,-2,-4\right)$ 共线.
+(习题 7.3 综合运用第 6 题) 有 $A$ 和 $B$ 两道谜语, 张某猜对 $A$ 谜语的概率为 0.8, 猜对得奖金 10 元; 猜对 $B$ 谜语的概率为 0.5, 猜对得奖金 20 元. 规则规定: 只有在猜对第一道谜语的情况下, 才有资格猜第二道. 如果猜谜顺序由张某选择, 他应该选择先猜哪一道谜语?
 
 ### 解答 习题十三
 
-由**常用结论 1.3.5** (平行的坐标表示).
+由**定义 7.3.1 (均值)**, 分别计算两种顺序下所得奖金的期望并比较.
 
-$\boldsymbol{AB}=\left(2,4,6\right)$.
+若先猜 $A$: 猜错 $A$ (概率 0.2) 得 0 元; 猜对 $A$ (概率 0.8) 后再猜 $B$, 猜对 $B$ (概率 0.5) 得 $10+20=30$ 元, 猜错 $B$ (概率 0.5) 得 10 元. 所得奖金 $X_1$ 的期望为
 
-$\boldsymbol{AC}=\left(-1,-2,-3\right)$.
+$$
+\mathbb E\left(X_1\right)=0\times 0.2+10\times\left(0.8\times 0.5\right)+30\times\left(0.8\times 0.5\right)=4+12=16.
+$$
 
-$\boldsymbol{AB}=-2 \cdot \boldsymbol{AC}$, 即 $\boldsymbol{AB} \parallel \boldsymbol{AC}$.
+若先猜 $B$: 猜错 $B$ (概率 0.5) 得 0 元; 猜对 $B$ (概率 0.5) 后再猜 $A$, 猜对 $A$ (概率 0.8) 得 $20+10=30$ 元, 猜错 $A$ (概率 0.2) 得 20 元. 所得奖金 $X_2$ 的期望为
 
-又 $\boldsymbol{AB}$ 与 $\boldsymbol{AC}$ 有公共起点 $A$, 故 $A$, $B$, $C$ 三点共线. $\blacksquare$
+$$
+\mathbb E\left(X_2\right)=0\times 0.5+20\times\left(0.5\times 0.2\right)+30\times\left(0.5\times 0.8\right)=2+12=14.
+$$
+
+因为 $\mathbb E\left(X_1\right)=16> \mathbb E\left(X_2\right)=14$, 故张某应选择先猜 $A$ 谜语. $\blacksquare$
 
 ## 习题十四
 
-(复习参考题1 综合运用第 14 题) 已知 $A\left(1,2,-1\right)$, $B\left(2,0,2\right)$, 点 $P$ 在 $xOz$ 平面上, 且 $PA=PB$, 求点 $P$ 的轨迹.
+(习题 7.3 综合运用第 7 题) 甲, 乙两种品牌的手表, 它们的日走时误差分别为 $X$ 和 $Y$ (单位: $\mathrm{s}$), 其分布列为
+
+| $X$ | $-1$ | 0 | 1 |
+|---|---|---|---|
+| $P$ | 0.1 | 0.8 | 0.1 |
+
+| $Y$ | $-2$ | $-1$ | 0 | 1 | 2 |
+|---|---|---|---|---|---|
+| $P$ | 0.1 | 0.2 | 0.4 | 0.2 | 0.1 |
+
+试比较甲, 乙两种品牌手表的性能.
 
 ### 解答 习题十四
 
-由**常用结论 1.3.6** (空间两点间的距离公式).
+由**定义 7.3.1 (均值)** 与**定义 7.3.3 (方差与标准差)**.
 
-设 $P\left(x,0,z\right)$ (在 $xOz$ 平面上, $y=0$).
+两分布都关于 0 对称, 故 $\mathbb E\left(X\right)=0$, $\mathbb E\left(Y\right)=0$, 即两种手表平均走时都无偏差.
 
-$PA^2=\left(x-1\right)^2+\left(0-2\right)^2+\left(z+1\right)^2=\left(x-1\right)^2+4+\left(z+1\right)^2$.
+$$
+D\left(X\right)=\left(-1\right)^2\times 0.1+0^2\times 0.8+1^2\times 0.1=0.2.
+$$
 
-$PB^2=\left(x-2\right)^2+\left(0-0\right)^2+\left(z-2\right)^2=\left(x-2\right)^2+\left(z-2\right)^2$.
+$$
+D\left(Y\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
+$$
 
-由 $PA=PB$, 得 $PA^2=PB^2$:
-
-$\left(x-1\right)^2+4+\left(z+1\right)^2=\left(x-2\right)^2+\left(z-2\right)^2$.
-
-展开: $x^2-2x+1+4+z^2+2z+1=x^2-4x+4+z^2-4z+4$.
-
-化简: $-2x+6+2z=-4x+8-4z$, 即 $2x+6z-2=0$, 即 $x+3z-1=0$.
-
-故点 $P$ 的轨迹是 $xOz$ 平面上的直线 $x+3z=1$. $\blacksquare$
+因为 $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ 而 $D\left(X\right)< D\left(Y\right)$, 即甲手表走时误差更小, 更稳定, 故甲品牌手表性能更好. $\blacksquare$
 
 ## 习题十五
 
-(复习参考题1 综合运用第 15 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个单位正交基底, 向量 $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 与基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 有什么关系? 向量 $\boldsymbol{a}+\boldsymbol{b}$ 与基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 有什么关系?
+(习题 7.3 拓广探索第 8 题) 设 $\mathbb E\left(X\right)=\mu$, $a$ 是不等于 $\mu$ 的常数, 探究 $X$ 相对于 $\mu$ 的偏离程度与 $X$ 相对于 $a$ 的偏离程度的大小关系, 并说明结论的意义.
 
 ### 解答 习题十五
 
-由**定义 1.2.2 (基底, 基向量)** 及**定理 1.2.1 (空间向量基本定理)**.
+由**定义 7.3.1 (均值)** 与**定义 7.3.3 (方差与标准差)**.
 
-$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 是由基向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 线性组合而成的向量, 即它在基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,-1\right)$.
+用均方偏离度量 $X$ 相对于一个常数的偏离程度. 展开 $X$ 相对于 $a$ 的均方偏离:
 
-$\boldsymbol{a}+\boldsymbol{b}$ 只由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性组合而成, 不含 $\boldsymbol{c}$, 故它平行于由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面 (即 $xOy$ 平面). $\boldsymbol{a}+\boldsymbol{b}$ 在基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,0\right)$. $\blacksquare$
+$$
+\mathbb E\left(\left(X-a\right)^2\right)=\mathbb E\left(\left(X-\mu+\mu-a\right)^2\right).
+$$
 
-## 习题十六
+$$
+=\mathbb E\left(\left(X-\mu\right)^2\right)+2\left(\mu-a\right)\mathbb E\left(X-\mu\right)+\left(\mu-a\right)^2.
+$$
 
-(复习参考题1 拓广探索第 16 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, 求证:
+因为 $\mathbb E\left(X-\mu\right)=\mathbb E\left(X\right)-\mu=0$, 故
 
-(1) $DB_1 \perp AC$;
+$$
+\mathbb E\left(\left(X-a\right)^2\right)=D\left(X\right)+\left(\mu-a\right)^2.
+$$
 
-(2) $DB_1 \perp$ 平面 $ACB_1$.
+由于 $a\neq\mu$, $\left(\mu-a\right)^2> 0$, 故 $\mathbb E\left(\left(X-a\right)^2\right)> D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. 即 $X$ 相对于 $\mu$ 的偏离程度最小. 其意义是: 均值 $\mu$ 是使随机变量与其均方偏离达到最小的常数, 这正是均值能代表随机变量平均水平的原因. $\blacksquare$
 
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面 $ABCD$,上底面 $A_1B_1C_1D_1$;连有体对角线 $DB_1$ 与面对角线 $AC$.
+## 练习十一
 
-### 解答 习题十六
+(练习 7.4 第 1 题) 任意抛掷一枚质地均匀的硬币 4 次, 设正面向上的次数为 $X$.
 
-由**常用结论 1.4.4** (用向量刻画垂直关系).
+(1) 求 $X$ 的分布列;
 
-设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
+(2) 求 $\mathbb E\left(X\right)=\;\_\_\;$, $D\left(X\right)=\;\_\_\;$.
 
-$D\left(0,0,0\right)$, $B_1\left(1,1,1\right)$, $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $B\left(1,1,0\right)$.
+### 解答 练习十一
 
-$\boldsymbol{DB_1}=\left(1,1,1\right)$.
+由**定义 7.4.2 (二项分布)** 与**结论 7.4.3** (二项分布的均值与方差).
 
-(1) $\boldsymbol{AC}=\left(-1,1,0\right)$.
+抛掷硬币 4 次, 每次正面向上的概率为 $0.5$, 各次独立, 故 $X\sim B\left(4,0.5\right)$.
 
-$\boldsymbol{DB_1} \cdot \boldsymbol{AC}=-1+1+0=0$. 故 $DB_1 \perp AC$.
+(1) 由**定义 7.4.2 (二项分布)**, $\mathbb P\left(X=k\right)=\binom{4}{k} \left(0.5\right)^4$, 故分布列为
 
-(2) $\boldsymbol{AB_1}=\left(0,1,1\right)$.
+| $X$ | 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|---|
+| $P$ | $\frac{1}{16}$ | $\frac{1}{4}$ | $\frac{3}{8}$ | $\frac{1}{4}$ | $\frac{1}{16}$ |
 
-$\boldsymbol{DB_1} \cdot \boldsymbol{AB_1}=0+1+1=2 \neq 0$. 这里需要注意: $DB_1$ 与平面 $ACB_1$ 的关系.
+(2) 由**结论 7.4.3** (二项分布的均值与方差), $\mathbb E\left(X\right)=np=4\times 0.5=2$, $D\left(X\right)=np\left(1-p\right)=4\times 0.5\times 0.5=1$. 故填空处依次为 $2$, $1$. $\blacksquare$
 
-实际上, 平面 $ACB_1$ 的法向量为 $\boldsymbol{AC} \times \boldsymbol{AB_1}=\left(1,1,-1\right)$.
+## 练习十二
 
-$\boldsymbol{DB_1}=\left(1,1,1\right)$ 与法向量 $\left(1,1,-1\right)$ 不平行.
+(练习 7.4 第 2 题) 接种某种疫苗后, 一只鸡感染某种疾病的概率为 $0.2$. 若接种该疫苗的 5 只鸡都没有感染这种疾病, 求:
 
-但 $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{CB_1}=\left(1,1,1\right) \cdot \left(1,0,1\right)=2 \neq 0$.
+(1) 它们都没有感染的概率;
 
-故 $DB_1 \perp AC$, 但 $DB_1$ 不垂直于平面 $ACB_1$ 内的所有直线. 题目可能指的是 $DB_1 \perp$ 平面 $ACD_1$.
+(2) 其中恰有 1 只感染的概率.
 
-验证: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{AD_1}=-1+0+1=0$.
+### 解答 练习十二
 
-故 $DB_1 \perp$ 平面 $ACD_1$. $\blacksquare$
+由**定义 7.4.2 (二项分布)**.
 
-## 习题十七
+设 $X$ 为 5 只鸡中没有感染疾病的只数, 则每只鸡不感染的概率为 $0.8$, 各只相互独立, 故 $X\sim B\left(5,0.8\right)$.
 
-(复习参考题1 拓广探索第 17 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $CA=CB=1$, $\angle BCA=90^\circ$, 棱 $AA_1=2$, $M$ 是 $A_1B_1$ 的中点. 建立如图所示空间直角坐标系.
+(1)
 
-(1) 求 $\boldsymbol{BN}$ 的坐标 (其中 $N$ 是 $A_1A$ 的中点);
+$$
+\mathbb P\left(X=5\right)=0.8^5\approx 0.3277.
+$$
 
-(2) 求 $\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle$ 的值;
+(2) 恰有 1 只感染即恰有 4 只不感染,
 
-(3) 求证: $A_1B \perp C_1M$.
+$$
+\mathbb P\left(X=4\right)=\binom{5}{4} \left(0.8\right)^4\times 0.2=5\times 0.8^4\times 0.2\approx 0.4096.
+$$
 
-该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图:下底面 $\triangle ABC$ 中 $\angle BCA=90^\circ$,$CA=CB=1$,侧棱 $AA_1=2$ 且垂直于底面;$M$ 是 $A_1B_1$ 的中点,$N$ 是 $A_1A$ 的中点;以 $C$ 为原点,$CA$ 为 $x$ 轴,$CB$ 为 $y$ 轴,$CC_1$ 为 $z$ 轴建立空间直角坐标系.
+$\blacksquare$
 
-### 解答 习题十七
+## 练习十三
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.4.4** (用向量刻画垂直关系).
+(练习 7.4 第 3 题) 判断下列每一随机变量是否服从二项分布? 如果服从, 请写出参数 $n$, $p$ 的值.
 
-以 $C$ 为原点, $CA$ 为 $x$ 轴, $CB$ 为 $y$ 轴, $CC_1$ 为 $z$ 轴.
+(1) 某射手每次射击击中目标的概率为 $0.8$, 连续射击 12 次, 击中目标的次数 $X$;
 
-$C\left(0,0,0\right)$, $A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,2\right)$, $B_1\left(0,1,2\right)$, $C_1\left(0,0,2\right)$.
+(2) 现有 100 件产品, 其中有 10 件次品, 其余为正品. 现从中逐件不放回地抽取 6 件, 抽取出的次品件数 $Y$.
 
-(1) $N$ 是 $A_1A$ 的中点: $N\left(1,0,1\right)$.
+### 解答 练习十三
 
-$\boldsymbol{BN}=N-B=\left(1,-1,1\right)$.
+由**定义 7.4.2 (二项分布)** 与**定义 7.4.4 (超几何分布)**.
 
-(2) $\boldsymbol{BA_1}=A_1-B=\left(1,-1,2\right)$.
+(1) 每次射击独立, 每次只有击中与未击中两种结果, 击中概率恒为 $0.8$, 故 $X$ 服从二项分布, $X\sim B\left(12,0.8\right)$, 参数 $n=12$, $p=0.8$.
 
-$\boldsymbol{CB_1}=B_1-C=\left(0,1,2\right)$.
+(2) 抽取是不放回的, 各次抽取并不相互独立, 次品件数 $Y$ 服从**定义 7.4.4 (超几何分布)**, 而不服从二项分布. $\blacksquare$
 
-$\boldsymbol{BA_1} \cdot \boldsymbol{CB_1}=0-1+4=3$.
+## 练习十四
 
-$\lvert \boldsymbol{BA_1} \rvert=\sqrt{1+1+4}=\sqrt{6}$.
+(练习 7.4 第 4 题) 举出两个服从二项分布的随机变量的例子.
 
-$\lvert \boldsymbol{CB_1} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+### 解答 练习十四
 
-$\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+由**定义 7.4.2 (二项分布)**, 二项分布描述 $n$ 次独立重复试验中事件发生的次数.
 
-(3) $M$ 是 $A_1B_1$ 的中点: $M\left(\frac{1}{2}, \frac{1}{2}, 2\right)$.
+(1) 某射手每次射击命中目标的概率为 $0.7$, 他连续射击 10 次, 命中目标的次数 $X$ 服从二项分布 $X\sim B\left(10,0.7\right)$.
 
-$\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2}, \frac{1}{2}, 0\right)$.
-
-$\boldsymbol{A_1B}=B-A_1=\left(-1,1,-2\right)$.
-
-$\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
-
-由**常用结论 1.4.4**, $A_1B \perp C_1M$. $\blacksquare$
+(2) 某工厂生产的产品次品率为 $0.05$, 从中有放回地抽查 20 件, 其中次品的件数 $Y$ 服从二项分布 $Y\sim B\left(20,0.05\right)$. $\blacksquare$

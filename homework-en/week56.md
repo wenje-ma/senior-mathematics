@@ -1,477 +1,718 @@
 # week56
-> **Definition 1.1.1 (空间向量)**
+> **Definition 4.1.5 (General Term Formula)**
 > 
-> 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模. 空间向量也用有向线段表示, 有向线段的长度表示空间向量的模. 向量 $\boldsymbol{a}$ 的起点是 $A$, 终点是 $B$, 则向量 $\boldsymbol{a}$ 也可以记作 $\boldsymbol{AB}$, 其模记为 $\lvert \boldsymbol{a} \rvert$ 或 $\lvert \boldsymbol{AB} \rvert$.
-> **Definition 1.1.2 (Opposite Vector)**
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.1.6 (递推公式)**
 > 
-> 与向量 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
-> **Definition 1.1.3 (Collinear or Parallel Vectors)**
+> 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **Definition 4.2.1 (Arithmetic Sequence)**
 > 
-> 方向相同或相反的非零向量叫做平行向量 (或共线向量). 规定零向量与任一向量平行.
-> **Definition 1.1.4 (Equal Vectors)**
+> 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **Definition 4.2.2 (等差中项)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
-> **Definition 1.1.5 (Membership)**
+> 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**
 > 
-> 空间向量的加法,减法和数乘运算与平面向量相同, 满足交换律,结合律和分配律.
-> **Definition 1.1.12 (向量的数量积)**
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.5 (等差数列性质)**
 > 
-> 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
 
 ## Exercise 1
 
-(Exercise 1.1, Problem 1) Give some examples of three vectors that do not lie in the same plane.
+(Exercise 4.2, Problem 1) Determine whether the following sequences are arithmetic sequences. If so, write down their common difference
+
+(1) $95,82,69,56,43,30$;
+
+(2) $1,1.1,1.11,1.111,1.1111,1.11111$;
+
+(3) $1,-2,3,-4,5,-6$;
+
+(4) $1,\frac{11}{12},\frac{5}{6},\frac{3}{4},\frac{2}{3},\frac{7}{12},\frac{1}{2}$.
 
 ### Solution to Exercise 1
 
-By **Definition 1.1.1 (Spatial Vector)**, a spatial vector is a quantity having both magnitude and direction; three vectors that do not lie in the same plane are three non-coplanar vectors.
+(1) By **Definition 4.2.1 (Arithmetic Sequence)**, $82-95=-13$, $69-82=-13$, the difference between consecutive terms is always $-13$, so it is an arithmetic sequence with common difference $d=-13$.
 
-Examples: in a cube, the vectors $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ along the three edges emanating from the same vertex are non-coplanar; in a triangular pyramid, the vectors along the three lateral edges from the apex are also non-coplanar; in physics, three forces acting on the same particle but not lying in the same plane are also non-coplanar. $\blacksquare$
+$\blacksquare$
+
+(2) By **Definition 4.2.1 (Arithmetic Sequence)**, $1.1-1=0.1$, $1.11-1.1=0.01$, the differences are not equal, so it is not an arithmetic sequence.
+
+$\blacksquare$
+
+(3) By **Definition 4.2.1 (Arithmetic Sequence)**, $-2-1=-3$, $3-\left(-2\right)=5$, the differences are not equal, so it is not an arithmetic sequence.
+
+$\blacksquare$
+
+(4) By **Definition 4.2.1 (Arithmetic Sequence)**, $\frac{11}{12}-1=-\frac{1}{12}$, $\frac{5}{6}-\frac{11}{12}=-\frac{1}{12}$, the difference between consecutive terms is always $-\frac{1}{12}$, so it is an arithmetic sequence with common difference $d=-\frac{1}{12}$.
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 2) Find the arithmetic mean of each of the following pairs of numbers
+
+(1) $647$ and $895$;
+
+(2) $-12\frac{1}{3}$ and $24\frac{3}{5}$.
+
+### Solution to Exercise 1
+
+(1) By **Definition 4.2.2 (Arithmetic Mean)**,
+
+$$
+A=\frac{647+895}{2}=771.
+$$
+
+$\blacksquare$
+
+(2) By **Definition 4.2.2 (Arithmetic Mean)**,
+
+$$
+A=\frac{-12\frac{1}{3}+24\frac{3}{5}}{2}=\frac{-\frac{37}{3}+\frac{123}{5}}{2}=\frac{-185+369}{30}=\frac{184}{30}=\frac{92}{15}=6\frac{2}{15}.
+$$
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 3) Given that $\left\{a_n\right\}$ is an arithmetic sequence, fill in the blanks in the following table with appropriate numbers
+
+First row: $a_1=-7,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ d=\underline{\quad}$;
+
+Second row: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underline{\quad},\ d=-6.5$.
+
+### Solution to Exercise 1
+
+First row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_5=a_1+4d$, i.e. $8=-7+4d$, so $d=\frac{15}{4}=3.75$.
+
+$$
+a_3=-7+2\times 3.75=0.5,\ a_7=-7+6\times 3.75=15.5.
+$$
+
+Second row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2d$, i.e. $2=a_1+2\times\left(-6.5\right)$, so $a_1=15$.
+
+$$
+a_5=15+4\times\left(-6.5\right)=-11,\ a_7=15+6\times\left(-6.5\right)=-24.
+$$
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 4) In an arithmetic sequence $\left\{a_n\right\}$, given $a_4+a_8=20$ and $a_7=12$, find $a_4$
+
+### Solution to Exercise 1
+
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_4+a_8=a_5+a_7=20$.
+
+From $a_7=12$, we get $a_5=20-12=8$.
+
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $d=a_5-a_4$, and $a_7=a_5+2d$, i.e. $12=8+2d$, so $d=2$.
+
+Hence $a_4=a_5-d=8-2=6$.
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 5) Insert $3$ numbers between $7$ and $21$ so that these $5$ numbers form an arithmetic sequence. Find these $3$ numbers
+
+### Solution to Exercise 1
+
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the first term be $a_1=7$ and the $5$th term be $a_5=21$, then
+
+$$
+a_5=a_1+4d,\ 21=7+4d,\ d=\frac{14}{4}=3.5.
+$$
+
+The $3$ inserted numbers are
+
+$$
+a_2=7+3.5=10.5,\ a_3=10.5+3.5=14,\ a_4=14+3.5=17.5.
+$$
+
+$\blacksquare$
 
 ## Exercise 2
 
-(Exercise 1.1, Problem 2) As shown in the figure, $E$, $F$ are the midpoints of edges $AB$, $CD$ of the cuboid $ABCD-A'B'C'D'$, respectively. Simplify the following expressions and mark the simplified results in the figure:
-
-(1) $\boldsymbol{AA'}-\boldsymbol{CB}$;
-
-(2) $\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{B'C'}$;
-
-(3) $\boldsymbol{AB}-\boldsymbol{AD}+\boldsymbol{B'D'}$;
-
-(4) $\boldsymbol{AB}+\boldsymbol{CF}$.
-
-(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AB$ and $F$ the midpoint of $CD$.)
+(Exercise 4.2, Problem 1) The seats in one corner of a stadium's stands are arranged as follows: the $1$st row has $15$ seats, and starting from the $2$nd row each row has $2$ more seats than the previous row. Can you express the number of seats in the $n$th row by $a_n$? How many seats are there in the $10$th row?
 
 ### Solution to Exercise 2
 
-By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, simplify using the triangle rule and the parallelepiped rule for vector addition.
+By **Definition 4.2.1 (Arithmetic Sequence)**, the seat numbers form an arithmetic sequence with first term $a_1=15$ and common difference $d=2$.
 
-(1) $\boldsymbol{AA'}-\boldsymbol{CB}=\boldsymbol{AA'}+\boldsymbol{BC}$. By **Common Conclusion 1.1.6** (Operational Laws), $\boldsymbol{AA'}+\boldsymbol{BC}=\boldsymbol{AA'}+\boldsymbol{AD}$ (since $\boldsymbol{BC}=\boldsymbol{AD}$). In the cuboid, $\boldsymbol{AA'}+\boldsymbol{AD}=\boldsymbol{AD'}$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
-(2) $\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{B'C'}$. By **Definition 1.1.4 (Equal Vectors)**, $\boldsymbol{B'C'}=\boldsymbol{BC}=\boldsymbol{AD}$. Hence $\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{B'C'}=\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{AD}$. By the parallelepiped rule, this gives $\boldsymbol{AC'}$.
+$$
+a_n=15+\left(n-1\right)\times 2=2n+13.
+$$
 
-(3) $\boldsymbol{AB}-\boldsymbol{AD}+\boldsymbol{B'D'}$. By **Definition 1.1.5 (Membership)**, $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$. Also $\boldsymbol{B'D'}=\boldsymbol{BD}$ (equal vectors). Hence $\boldsymbol{DB}+\boldsymbol{BD}=\boldsymbol{0}$.
+The number of seats in the $10$th row is
 
-(4) $\boldsymbol{AB}+\boldsymbol{CF}$. Since $F$ is the midpoint of $CD$, $\boldsymbol{CF}=\frac{1}{2}\boldsymbol{CD}=\frac{1}{2}\left(-\boldsymbol{AB}\right)=-\frac{1}{2}\boldsymbol{AB}$. Hence $\boldsymbol{AB}+\boldsymbol{CF}=\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AB}=\frac{1}{2}\boldsymbol{AB}$. $\blacksquare$
+$$
+a_{10}=2\times 10+13=33.
+$$
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 2) Draw the graph of the sequence $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1< n\le 6\end{cases}$, and find the slope of the line passing through all the points on the graph
+
+The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1< n\le6\end{cases}$ (horizontal axis $n$, vertical axis $a_n$): the six points are $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$, lying exactly on the line $y=21-3x$.
+
+### Solution to Exercise 2
+
+By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
+
+$$
+a_1=18,\ a_2=15,\ a_3=12,\ a_4=9,\ a_5=6,\ a_6=3.
+$$
+
+By **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions), all points lie on the line $y=21-3x$, whose slope is $-3$.
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 3) In an arithmetic sequence $\left\{a_n\right\}$, given $a_n=m$ and $a_m=n$, find $a_{m+n}$
+
+### Solution to Exercise 2
+
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
+
+$$
+a_n=a_1+\left(n-1\right)d=m,\ a_m=a_1+\left(m-1\right)d=n.
+$$
+
+Subtracting the two equations gives $\left(n-m\right)d=m-n$, hence $d=-1$.
+
+Substituting back into $a_1+\left(n-1\right)\left(-1\right)=m$, we get $a_1=m+n-1$.
+
+Hence
+
+$$
+a_{m+n}=a_1+\left(m+n-1\right)d=m+n-1-\left(m+n-1\right)=0.
+$$
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 4) Given that both sequences $\left\{a_n\right\},\left\{b_n\right\}$ are arithmetic sequences and $c_n=a_n+b_n$, prove that $\left\{c_n\right\}$ is also an arithmetic sequence
+
+### Solution to Exercise 2
+
+By **Definition 4.2.1 (Arithmetic Sequence)**, let the common difference of $\left\{a_n\right\}$ be $d_1$ and that of $\left\{b_n\right\}$ be $d_2$.
+
+$$
+c_{n+1}-c_n=\left(a_{n+1}+b_{n+1}\right)-\left(a_n+b_n\right)=\left(a_{n+1}-a_n\right)+\left(b_{n+1}-b_n\right)=d_1+d_2.
+$$
+
+The difference is the constant $d_1+d_2$; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{c_n\right\}$ is an arithmetic sequence.
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 5) Given an infinite arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$
+
+(1) Remove the first $m$ terms of the sequence; the remaining terms form a new sequence. Is this new sequence an arithmetic sequence? If so, what are its first term and common difference?
+
+(2) Take all the odd-positioned terms of the sequence to form a new sequence. Is this new sequence an arithmetic sequence? If so, what are its first term and common difference?
+
+### Solution to Exercise 2
+
+(1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, after removing the first $m$ terms, the first term of the new sequence is $a_{m+1}=a_1+md$, and the difference between consecutive terms is still $d$, so it is an arithmetic sequence with first term $a_1+md$ and common difference $d$.
+
+$\blacksquare$
+
+(2) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, the odd-positioned terms are $a_1,a_3,a_5,\cdots$, and the difference between consecutive terms is $a_{2k+1}-a_{2k-1}=2d$, so it is an arithmetic sequence with first term $a_1$ and common difference $2d$.
+
+$\blacksquare$
 
 ## Exercise 3
 
-(Exercise 1.1, Problem 3) In Figure 1.1-6, express $\boldsymbol{AC'}$, $\boldsymbol{BD'}$ and $\boldsymbol{DB'}$ in terms of $\boldsymbol{AB}$, $\boldsymbol{AD}$, $\boldsymbol{AA'}$.
+(Exercise 4.2, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding arithmetic sequence $\left\{a_n\right\}$
 
-(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$.)
+(1) $a_1=5,\ a_n=-23,\ n=8$;
+
+(2) $a_1=-4,\ d=4,\ n=10$;
+
+(3) $a_1=14.5,\ d=0.7,\ a_n=32$;
+
+(4) $a_3=14.5,\ d=0.7,\ a_n=32$.
 
 ### Solution to Exercise 3
 
-By **Definition 1.1.5 (Linear Operations on Spatial Vectors)** and the parallelepiped rule.
-
-In the parallelepiped $ABCD-A'B'C'D'$:
+(1) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
-\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}.
+S_8=\frac{8\times\left(5-23\right)}{2}=-72.
 $$
 
-$$
-\boldsymbol{BD'}=\boldsymbol{BA}+\boldsymbol{AA'}+\boldsymbol{A'D'}=-\boldsymbol{AB}+\boldsymbol{AA'}+\boldsymbol{AD}.
-$$
+$\blacksquare$
+
+(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-\boldsymbol{DB'}=\boldsymbol{DA}+\boldsymbol{AA'}+\boldsymbol{A'B'}=-\boldsymbol{AD}+\boldsymbol{AA'}+\boldsymbol{AB}.
+S_{10}=10\times\left(-4\right)+\frac{10\times 9}{2}\times 4=-40+180=140.
 $$
+
+$\blacksquare$
+
+(3) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $32=14.5+\left(n-1\right)\times 0.7$, so $n-1=25$ and $n=26$.
+
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+
+$$
+S_{26}=\frac{26\times\left(14.5+32\right)}{2}=13\times 46.5=604.5.
+$$
+
+$\blacksquare$
+
+(4) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2\times 0.7=14.5$, so $a_1=13.1$.
+
+$32=13.1+\left(n-1\right)\times 0.7$, so $n-1=27$ and $n=28$.
+
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+
+$$
+S_{28}=\frac{28\times\left(13.1+32\right)}{2}=14\times 45.1=631.4.
+$$
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 2) For the arithmetic sequence $-1,-3,-5,\cdots$, how many terms must be summed to give $-100$?
+
+### Solution to Exercise 3
+
+By **Definition 4.2.1 (Arithmetic Sequence)**, $a_1=-1$ and $d=-2$.
+
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+
+$$
+S_n=-n+\frac{n\left(n-1\right)}{2}\times\left(-2\right)=-n-n\left(n-1\right)=-n^2.
+$$
+
+Setting $-n^2=-100$ gives $n=10$. The sum of the first $10$ terms is $-100$.
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 3) In an arithmetic sequence $\left\{a_n\right\}$, let $S_n$ be the sum of its first $n$ terms. Given $S_4=6$ and $S_8=20$, find $S_{16}$
+
+### Solution to Exercise 3
+
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+
+$$
+S_4=4a_1+6d=6,\ S_8=8a_1+28d=20.
+$$
+
+Solving gives $a_1=\frac{3}{4}$ and $d=\frac{1}{2}$.
+
+$$
+S_{16}=16\times\frac{3}{4}+\frac{16\times 15}{2}\times\frac{1}{2}=12+60=72.
+$$
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 4) In an arithmetic sequence $\left\{a_n\right\}$, if $S_{15}=5\left(a_2+a_6+a_k\right)$, find $k$
+
+### Solution to Exercise 3
+
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, $S_{15}=\frac{15\left(a_1+a_{15}\right)}{2}$.
+
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_1+a_{15}=2a_8$, hence $S_{15}=15a_8$.
+
+From $S_{15}=5\left(a_2+a_6+a_k\right)$, we get $3a_8=a_2+a_6+a_k$.
+
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_2+a_6=2a_4$, hence $3a_8=2a_4+a_k$.
+
+Also, $a_8=a_4+4d$, so $3a_4+12d=2a_4+a_k$, and $a_k=a_4+12d=a_{16}$.
+
+Hence $k=16$.
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 5) Given that an arithmetic sequence has an odd number of terms, the sum of its odd-positioned terms is $44$ and the sum of its even-positioned terms is $33$. Find the middle term and the number of terms
+
+### Solution to Exercise 3
+
+Let the number of terms be $2n+1$. By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, the sum of the odd-positioned terms is $\left(n+1\right)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
+
+$$
+\left(n+1\right)a_{n+1}=44,\ na_{n+1}=33.
+$$
+
+Dividing the two equations, $\frac{n+1}{n}=\frac{44}{33}=\frac{4}{3}$, gives $n=3$.
+
+The middle term is $a_{n+1}=a_4=\frac{33}{3}=11$, and the number of terms is $2\times 3+1=7$.
 
 $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 1.1, Problem 4) As shown in the figure, given a tetrahedron $ABCD$, $E$, $F$ are the midpoints of $BC$, $CD$, respectively. Simplify the following expressions and mark the simplified results in the figure:
-
-(1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}$;
-
-(2) $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)$;
-
-(3) $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)$.
-
-(Figure: a tetrahedron $ABCD$ with $E$ the midpoint of $BC$ and $F$ the midpoint of $CD$.)
+(Exercise 4.2, Problem 1) A department store's grand New Year promotional prize offers two winning options: the first option is "100 yuan awarded every day for 10 consecutive days"; the second option is "1 yuan on the 1st day, 2 yuan on the 2nd day, 4 yuan on the 3rd day, ..., each day being twice the previous one, for 20 consecutive days". If you were the winner, which option would you choose?
 
 ### Solution to Exercise 4
 
-By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, simplify using the triangle rule for vector addition.
+The total amount for the first option is $100\times 10=1000$ yuan.
 
-(1) By **Definition 1.1.5 (Membership)**, $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, hence $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\boldsymbol{AC}+\boldsymbol{CD}=\boldsymbol{AD}$.
+The second option is a geometric series sum with first term $1$ and common ratio $2$; the total amount over $20$ days is $2^{20}-1=1048575$ yuan.
 
-(2) Since $E$ is the midpoint of $BC$, by **Definition 1.1.5 (Membership)**, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BE}+\boldsymbol{EC}=\boldsymbol{BE}+\boldsymbol{ED}$ (since $E$ is the midpoint of $BC$, $\boldsymbol{BE}=\frac{1}{2}\boldsymbol{BC}$; $F$ is the midpoint of $CD$, $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$). In fact, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BF}$ (since in $\triangle BCD$, $F$ is the midpoint of $CD$, $\boldsymbol{BF}=\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)$). Hence $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{AB}+\boldsymbol{BF}=\boldsymbol{AF}$.
+Since $1048575> 1000$, choose the second option.
 
-(3) Since $E$ is the midpoint of $BC$, $\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AE}$. Hence $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AF}-\boldsymbol{AE}=\boldsymbol{EF}$. $\blacksquare$
+$\blacksquare$
 
-## Exercise 5
+(Exercise 4.2, Problem 2) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n=\frac{1}{4}n^2+\frac{2}{3}n+3$, find the general term formula of $\left\{a_n\right\}$
 
-(Exercise 1.1, Problem 5) As shown in the figure, given a cube $ABCD-A'B'C'D'$, $E$, $F$ are the centers of the upper face $A'C'$ and the lateral face $CD'$, respectively. Find the values of $x$, $y$ in the following:
+### Solution to Exercise 4
 
-(1) $\boldsymbol{AC'}=x\left(\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}\right)$;
+By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=S_1=\frac{1}{4}+\frac{2}{3}+3=\frac{47}{12}$.
 
-(2) $\boldsymbol{AE}=\boldsymbol{AA'}+x\boldsymbol{AB}+y\boldsymbol{AD}$;
-
-(3) $\boldsymbol{AF}=\boldsymbol{AD}+x\boldsymbol{AB}+y\boldsymbol{AA'}$.
-
-(Figure: a cube $ABCD\text{-}A'B'C'D'$ with $E$ the center of the upper face $A'C'$ and $F$ the center of side face $CD'$.)
-
-### Solution to Exercise 5
-
-By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, express the vectors in terms of the basis $\left\{\boldsymbol{AB}, \boldsymbol{AD}, \boldsymbol{AA'}\right\}$.
-
-(1) By **Definition 1.1.5 (Membership)**, $\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}$. Comparing, we get $x=1$.
-
-(2) $E$ is the center of the upper face $A'C'$, i.e. the center of the square $A'B'C'D'$. Hence $\boldsymbol{AE}=\boldsymbol{AA'}+\boldsymbol{A'E}$, where $\boldsymbol{A'E}=\frac{1}{2}\left(\boldsymbol{A'B'}+\boldsymbol{A'D'}\right)=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AD}\right)$. Therefore $\boldsymbol{AE}=\boldsymbol{AA'}+\frac{1}{2}\boldsymbol{AB}+\frac{1}{2}\boldsymbol{AD}$, and comparing gives $x=\frac{1}{2}$, $y=\frac{1}{2}$.
-
-(3) $F$ is the center of the lateral face $CD'$, i.e. the center of the square $CDD'C'$. Hence $\boldsymbol{AF}=\boldsymbol{AD}+\boldsymbol{DF}$, where $\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{DC}+\boldsymbol{DD'}\right)=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AA'}\right)$. Therefore $\boldsymbol{AF}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AB}+\frac{1}{2}\boldsymbol{AA'}$, and comparing gives $x=\frac{1}{2}$, $y=\frac{1}{2}$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 1.1, Problem 1) As shown in the figure, in a regular triangular prism $ABC-A_1B_1C_1$, if $AB=\sqrt{2}BB_1$, then the size of the angle between $AB_1$ and $BC_1$ is ( ).
-
-(A) $60^\circ$ (B) $90^\circ$ (C) $105^\circ$ (D) $75^\circ$
-
-(Figure: a regular triangular prism $ABC\text{-}A_1B_1C_1$.)
-
-### Solution to Exercise 6
-
-By **Definition 1.1.12 (Dot Product)**, the cosine of the angle between two vectors equals their dot product divided by the product of their moduli.
-
-Let $BB_1=1$, then $AB=\sqrt{2}$. Take $\left\{\boldsymbol{BA}, \boldsymbol{BC}, \boldsymbol{BB_1}\right\}$ as a basis, and set $\boldsymbol{BA}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{BB_1}=\boldsymbol{c}$. Then $\lvert \boldsymbol{a} \rvert=\sqrt{2}$, $\lvert \boldsymbol{b} \rvert=\sqrt{2}$, $\lvert \boldsymbol{c} \rvert=1$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=60^\circ$, $\boldsymbol{a} \perp \boldsymbol{c}$, $\boldsymbol{b} \perp \boldsymbol{c}$.
-
-$\boldsymbol{AB_1}=\boldsymbol{AB}+\boldsymbol{BB_1}=-\boldsymbol{a}+\boldsymbol{c}$.
-
-$\boldsymbol{BC_1}=\boldsymbol{BC}+\boldsymbol{CC_1}=\boldsymbol{b}+\boldsymbol{c}$.
-
-By **Common Conclusion 1.1.14** (Operational Laws of the Dot Product):
+When $n\ge 2$,
 
 $$
-\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=\left(-\boldsymbol{a}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c} \cdot \boldsymbol{c}.
+a_n=S_n-S_{n-1}=\left(\frac{1}{4}n^2+\frac{2}{3}n+3\right)-\left[\frac{1}{4}\left(n-1\right)^2+\frac{2}{3}\left(n-1\right)+3\right]=\frac{1}{4}\left(2n-1\right)+\frac{2}{3}=\frac{n}{2}+\frac{5}{12}.
 $$
 
-Because $\boldsymbol{a} \cdot \boldsymbol{c}=0$, $\boldsymbol{b} \cdot \boldsymbol{c}=0$, $\boldsymbol{c} \cdot \boldsymbol{c}=1$, and $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos 60^\circ=\sqrt{2} \cdot \sqrt{2} \cdot \frac{1}{2}=1$.
-
-Hence $\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=-1+0+0+1=0$.
-
-By **Common Conclusion 1.1.13** (Properties of the Dot Product), $\boldsymbol{AB_1} \perp \boldsymbol{BC_1}$, i.e. the angle between $AB_1$ and $BC_1$ is $90^\circ$. Hence the answer is (B). $\blacksquare$
-
-## Exercise 7
-
-(Exercise 1.1, Problem 2) As shown in the figure, the edge length of the cube $ABCD-A'B'C'D'$ is $1$; set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$. Find:
-
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
-
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$;
-
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$.
-
-(Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$.)
-
-### Solution to Exercise 7
-
-By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.14** (Operational Laws of the Dot Product).
-
-In the cube, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular and each has modulus $1$, so $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{c} \cdot \boldsymbol{a}=0$, and $\boldsymbol{a} \cdot \boldsymbol{a}=\boldsymbol{b} \cdot \boldsymbol{b}=\boldsymbol{c} \cdot \boldsymbol{c}=1$.
-
-(1) By the distributive law, $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
-
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{a}+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=1+0+0=1$.
-
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{b} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=0+0+1+0=1$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 1.1, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A'B'C'D'$, $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$. Find:
-
-(1) $\boldsymbol{AA'} \cdot \boldsymbol{AB}$;
-
-(2) the length of $AB'$;
-
-(3) the length of $AC'$.
-
-(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$ with $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$.)
-
-### Solution to Exercise 8
-
-By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
-
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=4$, $\lvert \boldsymbol{b} \rvert=3$, $\lvert \boldsymbol{c} \rvert=5$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=90^\circ$, $\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=60^\circ$, $\left\langle \boldsymbol{b}, \boldsymbol{c} \right\rangle=60^\circ$.
-
-(1) By **Definition 1.1.12 (向量的数量积)**, $\boldsymbol{AA'} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \boldsymbol{a}=\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{a} \rvert \cos 60^\circ=5 \times 4 \times \frac{1}{2}=10$.
-
-(2) $\boldsymbol{AB'}=\boldsymbol{AB}+\boldsymbol{BB'}=\boldsymbol{a}+\boldsymbol{c}$. By **Common Conclusion 1.1.13**, $\lvert \boldsymbol{AB'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2=16+2 \times 10+25=61$. Hence $AB'=\sqrt{61}$.
-
-(3) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$. $\lvert \boldsymbol{AC'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2+2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$. Here $\boldsymbol{a} \cdot \boldsymbol{b}=0$, $\boldsymbol{a} \cdot \boldsymbol{c}=10$, and $\boldsymbol{b} \cdot \boldsymbol{c}=\lvert \boldsymbol{b} \rvert \lvert \boldsymbol{c} \rvert \cos 60^\circ=3 \times 5 \times \frac{1}{2}=7.5$. Hence $\lvert \boldsymbol{AC'} \rvert^2=16+9+25+0+20+15=85$. So $AC'=\sqrt{85}$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 1.1, Problem 4) As shown in the figure, the segments $AB$, $BD$ lie in the plane $\alpha$, $BD \perp AB$, $AC \perp \alpha$, and $AB=a$, $BD=b$, $AC=c$. Find the distance between the two points $C$ and $D$.
-
-(Figure: in plane $\alpha$, segments $AB$ and $BD$ with $BD\perp AB$; $AC\perp\alpha$ at $A$; $AB=a$, $BD=b$, $AC=c$.)
-
-### Solution to Exercise 9
-
-By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
-
-$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}=-\boldsymbol{AC}+\boldsymbol{AB}+\boldsymbol{BD}$.
-
-Set $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$; then $\boldsymbol{a} \perp \boldsymbol{b}$ (since $BD \perp AB$), $\boldsymbol{c} \perp \boldsymbol{a}$ (since $AC \perp \alpha$ and $AB \subset \alpha$), and $\boldsymbol{c} \perp \boldsymbol{b}$ (since $AC \perp \alpha$ and $BD \subset \alpha$). Hence $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}=0$.
+Checking at $n=1$, $\frac{1}{2}+\frac{5}{12}=\frac{11}{12}\ne\frac{47}{12}$, so the general term formula is
 
 $$
-\lvert \boldsymbol{CD} \rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{c} \cdot \boldsymbol{b}=c^2+a^2+b^2.
+a_n=\begin{cases}\frac{47}{12}, & n=1,\\ \frac{n}{2}+\frac{5}{12}, & n\ge 2.\end{cases}
 $$
 
-Hence $CD=\sqrt{a^2+b^2+c^2}$. $\blacksquare$
+$\blacksquare$
+
+(Exercise 4.2, Problem 3) Given that the sum of the first $n$ terms of the arithmetic sequence $-4.2,-3.7,-3.2,\cdots$ is $S_n$, find the minimum value of $S_n$ and the corresponding value of $n$
+
+### Solution to Exercise 4
+
+By **Definition 4.2.1 (Arithmetic Sequence)**, $a_1=-4.2$ and $d=0.5$.
+
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=-4.2+\left(n-1\right)\times 0.5=0.5n-4.7$.
+
+Setting $a_n\le 0$ gives $n\le 9.4$, i.e. the first $9$ terms are negative and the $10$th term is positive.
+
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+
+$$
+S_9=9\times\left(-4.2\right)+\frac{9\times 8}{2}\times 0.5=-37.8+18=-19.8.
+$$
+
+The minimum value of $S_n$ is $-19.8$, corresponding to $n=9$.
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m< 60\right\}$, and find the sum of these elements
+
+### Solution to Exercise 4
+
+From $m=2n-1< 60$, we get $n< 30.5$, so $n=1,2,\cdots,30$, giving $30$ elements in total.
+
+These elements are $1,3,5,\cdots,59$, forming an arithmetic sequence with first term $1$, last term $59$, and common difference $2$.
+
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+
+$$
+S_{30}=\frac{30\times\left(1+59\right)}{2}=900.
+$$
+
+$\blacksquare$
+
+(Exercise 4.2, Problem 5) Given that the general term of a sequence $\left\{a_n\right\}$ is $a_n=\frac{n-2}{2n-15}$, find the value of $n$ at which $S_n$ attains its minimum
+
+### Solution to Exercise 4
+
+From $a_n=\frac{n-2}{2n-15}$, setting $a_n=0$ gives $n=2$.
+
+When $n< 2$, $a_1=\frac{-1}{-13}> 0$; when $n=2$, $a_2=0$; when $7.5> n> 2$, $a_n< 0$; when $n> 8$, $a_n> 0$.
+
+The sum $S_n$ of the first $n$ terms attains its minimum when the terms change from negative to positive, i.e. $S_8$ is minimal at $n=8$.
+
+$\blacksquare$
 
 ## Problem 1
 
-(Exercise 1.1, Review and Consolidation, Problem 1) As shown in the figure, in the cuboid $ABCD-A'B'C'D'$, $E$, $F$ are the midpoints of edges $AA'$, $AB$, respectively.
+(Exercise 4.2, Review and Consolidation, Problem 1) In an arithmetic sequence $\left\{a_n\right\}$
 
-(1) Write out the vectors equal to $\boldsymbol{BC}$;
+(1) Given $d=3$, $a_n=21$, $S_n=60$, find $a_1$ and $n$;
 
-(2) Write out the vectors opposite to $\boldsymbol{BC}$;
+(2) Given $a_1=6$, $d=-2$, $S_n=-60$, find $n$ and $a_n$;
 
-(3) Write out the vectors parallel to $\boldsymbol{EF}$.
+(3) Given $a_1=8$, $a_n=-2$, $S_n=-30$, find $n$ and $d$;
 
-(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AA'$ and $F$ the midpoint of $AB$.)
+(4) Given $a_n=-0.6$, $n=7$, $S_n=-3.5$, find $a_1$ and $d$.
 
 ### Solution to Problem 1
 
-By **Definition 1.1.4 (Equal Vectors)**, **Definition 1.1.2 (Opposite Vector)** and **Definition 1.1.3 (Collinear or Parallel Vectors)**.
+(1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)** and **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
-(1) By **Definition 1.1.4 (Equal Vectors)**, vectors with the same direction and equal modulus are equal. In the cuboid, $\boldsymbol{BC}=\boldsymbol{AD}=\boldsymbol{A'D'}=\boldsymbol{B'C'}$.
+$$
+a_1+3\left(n-1\right)=21,\ na_1+\frac{3n\left(n-1\right)}{2}=60.
+$$
 
-(2) By **Definition 1.1.2 (Opposite Vector)**, the vectors opposite to $\boldsymbol{BC}$ are those with the opposite direction and equal modulus: $\boldsymbol{CB}$, $\boldsymbol{DA}$, $\boldsymbol{D'A'}$, $\boldsymbol{C'B'}$.
+From the first equation, $a_1=24-3n$; substituting into the second gives $n\left(24-3n\right)+\frac{3n\left(n-1\right)}{2}=60$, and solving yields $n=5$, $a_1=9$.
 
-(3) $E$, $F$ are the midpoints of $AA'$, $AB$, respectively, so $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{A'B}=\frac{1}{2}\left(\boldsymbol{AB}-\boldsymbol{AA'}\right)$. By **Definition 1.1.3 (Collinear Vectors)**, the vectors parallel to $\boldsymbol{EF}$ are all vectors collinear with $\boldsymbol{EF}$, such as $\boldsymbol{A'B}$, $\boldsymbol{D'C}$, and so on. $\blacksquare$
+$\blacksquare$
 
-## Problem 2
+(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
-(Exercise 1.1, Review and Consolidation, Problem 2) As shown in the figure, given the parallelepiped $ABCD-A'B'C'D'$, simplify the following expressions and mark the simplified results in the figure:
+$$
+6n-n\left(n-1\right)=-60,\ n^2-7n-60=0,\ n=12.
+$$
 
-(1) $\boldsymbol{AB}+\boldsymbol{BC}$;
+$$
+a_{12}=6+11\times\left(-2\right)=-16.
+$$
 
-(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}$;
+$\blacksquare$
 
-(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}$;
+(3) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
-(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)$.
+$$
+\frac{n\left(8-2\right)}{2}=-30,\ 3n=-30,\ n=-10.
+$$
 
-(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$.)
+This does not fit the problem; check: $\frac{n\left(8+\left(-2\right)\right)}{2}=-30$, $3n=-30$, $n=-10$, which is unreasonable. Recalculating: $S_n=\frac{n\left(a_1+a_n\right)}{2}=\frac{n\left(8-2\right)}{2}=3n=-30$, giving $n=-10$, with no positive integer solution.
 
-### Solution to Problem 2
+$\blacksquare$
 
-By **Definition 1.1.5 (Linear Operations on Spatial Vectors)** and **Common Conclusion 1.1.6** (Operational Laws).
+(4) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
-(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
+$$
+\frac{7\left(a_1-0.6\right)}{2}=-3.5,\ a_1-0.6=-1,\ a_1=-0.4.
+$$
 
-(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}=\boldsymbol{AC}+\boldsymbol{CC'}=\boldsymbol{AC'}$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $-0.6=-0.4+6d$, so $d=-\frac{0.2}{6}=-\frac{1}{30}$.
 
-(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}=\boldsymbol{AC}+\frac{1}{2}\boldsymbol{AA'}$. Let $M$ be the midpoint of $CC'$; then this vector equals $\boldsymbol{AM}$.
+$\blacksquare$
 
-(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)=\frac{1}{3}\boldsymbol{AC'}$. Let $P$ be the trisection point on the diagonal $AC'$ closer to $A$; then this vector equals $\boldsymbol{AP}$. $\blacksquare$
+(Exercise 4.2, Review and Consolidation, Problem 2) In an arithmetic sequence $\left\{a_n\right\}$, given $a_1+a_3+a_5=105$ and $a_2+a_4+a_6=99$, find $a_{20}$
 
-## Problem 3
+### Solution to Problem 1
 
-(Exercise 1.1, Review and Consolidation, Problem 3) Prove that if vectors $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear, then the vector $2\boldsymbol{a}+\boldsymbol{b}$ is collinear with $\boldsymbol{a}$.
+By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_1+a_3+a_5=3a_3=105$, so $a_3=35$.
 
-### Solution to Problem 3
+$a_2+a_4+a_6=3a_4=99$, so $a_4=33$.
 
-By **Common Conclusion 1.1.7** (Necessary and Sufficient Condition for Vectors to be Collinear), $\boldsymbol{a} \parallel \boldsymbol{b}$ if and only if there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+Hence $d=a_4-a_3=-2$.
 
-Since $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear, by **Common Conclusion 1.1.7** there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_{20}=a_3+17d=35-34=1$.
 
-Then $2\boldsymbol{a}+\boldsymbol{b}=2\boldsymbol{a}+\lambda\boldsymbol{a}=\left(2+\lambda\right)\boldsymbol{a}$.
+$\blacksquare$
 
-By **Common Conclusion 1.1.7**, $2\boldsymbol{a}+\boldsymbol{b}$ is collinear with $\boldsymbol{a}$. $\blacksquare$
+(Exercise 4.2, Review and Consolidation, Problem 3) Find the sum of each of the following
 
-## Problem 4
+(1) $1+3+5+\cdots+\left(2n-1\right)$;
 
-(Exercise 1.1, Review and Consolidation, Problem 4) As shown in the figure, given a tetrahedron $ABCD$ whose edges all have length $a$, $E$, $F$, $G$ are the midpoints of edges $AB$, $AD$, $DC$, respectively. Find:
+(2) $2+4+6+\cdots+2n$;
 
-(1) $\boldsymbol{AB} \cdot \boldsymbol{AC}$;
+(3) $1+4+7+\cdots+\left(3n-2\right)$;
 
-(2) $\boldsymbol{AD} \cdot \boldsymbol{DB}$;
+(4) $\frac{1}{n}+\frac{2}{n}+\cdots+\frac{n}{n}$.
 
-(3) $\boldsymbol{GF} \cdot \boldsymbol{AC}$;
+### Solution to Problem 1
 
-(4) $\boldsymbol{EF} \cdot \boldsymbol{BC}$;
+(1) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, the first term is $1$ and the last term is $2n-1$,
 
-(5) $\boldsymbol{FG} \cdot \boldsymbol{BA}$;
+$$
+S_n=\frac{n\left(1+2n-1\right)}{2}=n^2.
+$$
 
-(6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
+$\blacksquare$
 
-(Figure: a tetrahedron $ABCD$ with all edges equal to $a$, $E$ the midpoint of $AB$, $F$ the midpoint of $AD$, and $G$ the midpoint of $DC$.)
+(2) The first term is $2$ and the last term is $2n$,
 
-### Solution to Problem 4
+$$
+S_n=\frac{n\left(2+2n\right)}{2}=n\left(n+1\right).
+$$
 
-By **Definition 1.1.12 (Dot Product)**, the angle between any two edges in a regular tetrahedron is $60^\circ$.
+$\blacksquare$
 
-(1) $\left\langle \boldsymbol{AB}, \boldsymbol{AC} \right\rangle=60^\circ$, hence $\boldsymbol{AB} \cdot \boldsymbol{AC}=\lvert \boldsymbol{AB} \rvert \lvert \boldsymbol{AC} \rvert \cos 60^\circ=a \cdot a \cdot \frac{1}{2}=\frac{a^2}{2}$.
+(3) The first term is $1$ and the last term is $3n-2$,
 
-(2) $\left\langle \boldsymbol{AD}, \boldsymbol{DB} \right\rangle$: the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$. In the equilateral triangle $ABD$, $\angle ADB=60^\circ$, but the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$ is $180^\circ-60^\circ=120^\circ$. Hence $\boldsymbol{AD} \cdot \boldsymbol{DB}=a \cdot a \cdot \cos 120^\circ=-\frac{a^2}{2}$.
+$$
+S_n=\frac{n\left(1+3n-2\right)}{2}=\frac{n\left(3n-1\right)}{2}.
+$$
 
-(3) $G$, $F$ are the midpoints of $DC$, $AD$, respectively, so $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{GF} \cdot \boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{AC}=-\frac{1}{2}a^2$.
+$\blacksquare$
 
-(4) $E$, $F$ are the midpoints of $AB$, $AD$, respectively, so $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. Hence $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD} \cdot \boldsymbol{BC}$. Since $\left\langle \boldsymbol{BD}, \boldsymbol{BC} \right\rangle=60^\circ$, $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2} \cdot a \cdot a \cdot \frac{1}{2}=\frac{a^2}{4}$.
+(4) The first term is $\frac{1}{n}$ and the last term is $1$,
 
-(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{FG} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \left(-\boldsymbol{AB}\right)=-\frac{1}{2} \cdot \frac{a^2}{2}=-\frac{a^2}{4}$.
+$$
+S_n=\frac{n\left(\frac{1}{n}+1\right)}{2}=\frac{n+1}{2}.
+$$
 
-(6) $\boldsymbol{GE}=\boldsymbol{GC}+\boldsymbol{CE}$, or use the midpoint property. $\boldsymbol{GE}=\boldsymbol{AE}-\boldsymbol{AG}$. Here $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AB}$, and $\boldsymbol{AG}=\frac{1}{2}\left(\boldsymbol{AD}+\boldsymbol{AC}\right)$ (since $G$ is the midpoint of $DC$, $\boldsymbol{AG}=\boldsymbol{AD}+\boldsymbol{DG}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{DC}=\boldsymbol{AD}+\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AD}\right)=\frac{1}{2}\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AC}$).
+$\blacksquare$
 
-Hence $\boldsymbol{GE}=\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}$.
+(Exercise 4.2, Review and Consolidation, Problem 4) The earliest recorded sighting of Halley's Comet was in $613$ BC, and it reappears every $76$ years. Given that $1986$ was a year when Halley's Comet appeared, the years in which it appears from $1986$ onward form an arithmetic sequence. How many times does Halley's Comet appear from $1986$ to the year $3000$?
 
-$\boldsymbol{GF}=-\frac{1}{2}\boldsymbol{AC}$.
+### Solution to Problem 1
 
-$\boldsymbol{GE} \cdot \boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right) \cdot \left(-\frac{1}{2}\boldsymbol{AC}\right)$
+By **Definition 4.2.1 (Arithmetic Sequence)**, the first term is $1986$ and the common difference is $76$.
 
-$=-\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC} \cdot \boldsymbol{AC}$
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=1986+76\left(n-1\right)\le 3000$.
 
-$=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
+$$
+76\left(n-1\right)\le 1014,\ n-1\le 13.34,\ n\le 14.34.
+$$
 
-## Problem 5
+Hence it appears $14$ times in total.
 
-(Exercise 1.1, Comprehensive Application, Problem 5) As shown in the figure, in the parallelepiped $ABCD-A_1B_1C_1D_1$, $M$ is the intersection of $AC$ and $BD$. Set $\boldsymbol{A_1B_1}=\boldsymbol{a}$, $\boldsymbol{A_1D_1}=\boldsymbol{b}$, $\boldsymbol{A_1A}=\boldsymbol{c}$. Then among the following vectors, the one equal to $\boldsymbol{B_1M}$ is ( ).
+$\blacksquare$
 
-(A) $-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (B) $\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (C) $\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (D) $-\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$
+(Exercise 4.2, Comprehensive Application, Problem 5) The perimeter of a polygon is $158\ \mathrm{cm}$, the lengths of its sides form an arithmetic sequence, the longest side is $44\ \mathrm{cm}$, and the common difference is $3\ \mathrm{cm}$. Find the number of sides of the polygon
 
-(Figure: a parallelepiped $ABCD\text{-}A_1B_1C_1D_1$ with $M$ the intersection of diagonals $AC$ and $BD$.)
+### Solution to Problem 1
 
-### Solution to Problem 5
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the number of sides be $n$, the longest side be $a_n=44$, and $d=3$.
 
-By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**.
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
-$\boldsymbol{B_1M}=\boldsymbol{B_1B}+\boldsymbol{BM}=\boldsymbol{c}+\frac{1}{2}\boldsymbol{BD}$.
+$$
+S_n=\frac{n\left(a_1+44\right)}{2}=158.
+$$
 
-$\boldsymbol{BD}=\boldsymbol{BA}+\boldsymbol{AD}=-\boldsymbol{A_1B_1}+\boldsymbol{A_1D_1}=-\boldsymbol{a}+\boldsymbol{b}$.
+Also, $a_1=44-3\left(n-1\right)$; substituting,
 
-Hence $\boldsymbol{B_1M}=\boldsymbol{c}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$.
+$$
+\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\ n\left(91-3n\right)=316,\ 3n^2-91n+316=0.
+$$
 
-Hence the answer is (A). $\blacksquare$
+Solving gives $n=4$ or $n=\frac{79}{3}$ (discarded), so the number of sides is $4$.
 
-## Problem 6
+$\blacksquare$
 
-(Exercise 1.1, Comprehensive Application, Problem 6) As shown in the figure, given that $E$, $F$, $G$, $H$ are the midpoints of edges $AB$, $BC$, $CD$, $DA$ of the tetrahedron $ABCD$, respectively, prove that the four points $E$, $F$, $G$, $H$ are coplanar.
+(Exercise 4.2, Comprehensive Application, Problem 6) The sums of the first $n$ terms of two arithmetic sequences $\left\{a_n\right\},\left\{b_n\right\}$ are $S_n,T_n$ respectively, and $\frac{S_n}{T_n}=\frac{2n+3}{n-1}$. Find $\frac{a_5}{b_5}$
 
-(Figure: a tetrahedron $ABCD$ with $E$, $F$, $G$, $H$ the midpoints of $AB$, $BC$, $CD$, $DA$, respectively.)
+### Solution to Problem 1
 
-### Solution to Problem 6
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, $a_5=\frac{a_1+a_9}{2}$ and $b_5=\frac{b_1+b_9}{2}$.
 
-By **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Vectors to be Coplanar), to prove that the four points $E$, $F$, $G$, $H$ are coplanar it suffices to prove that $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ are coplanar.
+$$
+\frac{a_5}{b_5}=\frac{\frac{9\left(a_1+a_9\right)}{2}}{\frac{9\left(b_1+b_9\right)}{2}}=\frac{S_9}{T_9}=\frac{2\times 9+3}{9-1}=\frac{21}{8}.
+$$
 
-Since $E$, $F$, $G$, $H$ are the midpoints of $AB$, $BC$, $CD$, $DA$, respectively, by **Definition 1.1.5 (Membership)**:
+$\blacksquare$
 
-$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{BD}$.
+(Exercise 4.2, Comprehensive Application, Problem 7) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n$, prove: (1) if $S_n=an^2+bn$, then $\left\{a_n\right\}$ is an arithmetic sequence; (2) if $\left\{a_n\right\}$ is an arithmetic sequence, then $\frac{S_n}{n}$ is an arithmetic sequence
 
-$\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}+\frac{1}{2}\boldsymbol{BD}$.
+### Solution to Problem 1
 
-Hence $\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{EH}$.
+(1) By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=a+b$; when $n\ge 2$, $a_n=S_n-S_{n-1}=a\left(2n-1\right)+b=2an-a+b$.
 
-By **Common Conclusion 1.1.9**, $\boldsymbol{EG}$ is coplanar with $\boldsymbol{EF}$, $\boldsymbol{EH}$, i.e. $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ are coplanar; moreover they pass through the same point $E$, so the four points $E$, $F$, $G$, $H$ are coplanar. $\blacksquare$
+Checking that it also holds at $n=1$, $a_n=2an-a+b$, and $a_{n+1}-a_n=2a$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{a_n\right\}$ is an arithmetic sequence.
 
-## Problem 7
+$\blacksquare$
 
-(Exercise 1.1, Comprehensive Application, Problem 7) As shown in the figure, the edge length of the cube $ABCD-A'B'C'D'$ is $a$.
+(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $S_n=na_1+\frac{n\left(n-1\right)}{2}d$, hence
 
-(1) Find the angle between $A'B$ and $B'C$;
+$$
+\frac{S_n}{n}=a_1+\frac{\left(n-1\right)d}{2}.
+$$
 
-(2) Prove that $A'B \perp AC'$.
+$\frac{S_{n+1}}{n+1}-\frac{S_n}{n}=\frac{d}{2}$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{\frac{S_n}{n}\right\}$ is an arithmetic sequence.
 
-(Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $a$.)
+$\blacksquare$
 
-### Solution to Problem 7
+(Exercise 4.2, Comprehensive Application, Problem 8) Given two arithmetic sequences $2,6,10,\cdots,190$ and $2,8,14,\cdots,200$, arrange the common terms of these two arithmetic sequences in increasing order to form a new sequence. Find the sum of all terms of this new sequence
 
-By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
+### Solution to Problem 1
 
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert=a$, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular.
+The first sequence has common difference $4$ and the second has common difference $6$; the common terms form an arithmetic sequence with common difference $\mathrm{lcm}\left(4,6\right)=12$.
 
-(1) $\boldsymbol{A'B}=\boldsymbol{AB}-\boldsymbol{AA'}=\boldsymbol{a}-\boldsymbol{c}$.
+The first term is $2$ and the last term does not exceed $190$; the general term is $2+12\left(n-1\right)\le 190$, so $n\le 16.67$ and $n=16$, giving the last term $2+12\times 15=182$.
 
-$\boldsymbol{B'C}=\boldsymbol{B'B}+\boldsymbol{BC}=-\boldsymbol{c}+\boldsymbol{b}=\boldsymbol{b}-\boldsymbol{c}$.
+By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
-$\boldsymbol{A'B} \cdot \boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
+$$
+S_{16}=\frac{16\left(2+182\right)}{2}=1472.
+$$
 
-$\lvert \boldsymbol{A'B} \rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
+$\blacksquare$
 
-$\lvert \boldsymbol{B'C} \rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
+(Exercise 4.2, Comprehensive Application, Problem 9) A fleet has $6$ vehicles, and $4$ of them are now to be dispatched in a certain order to carry out a task
 
-$\cos \left\langle \boldsymbol{A'B}, \boldsymbol{B'C} \right\rangle=\frac{a^2}{\sqrt{2}a \cdot \sqrt{2}a}=\frac{1}{2}$.
+(1) If at least one of vehicles A and B must be dispatched, and when vehicle A is dispatched it cannot be ranked first, how many different dispatch schemes are there?
 
-Hence the angle is $60^\circ$.
+(2) If vehicles A and B cannot both be dispatched, how many different dispatch schemes are there?
 
-(2) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
+### Solution to Problem 1
 
-$\boldsymbol{A'B} \cdot \boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{a}-\boldsymbol{c} \cdot \boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
+(1) Choosing and arranging $4$ out of $6$ vehicles gives a total of $A_6^4=360$ schemes.
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{A'B} \perp \boldsymbol{AC'}$, i.e. $A'B \perp AC'$. $\blacksquare$
+The number of schemes in which neither A nor B is dispatched is $A_4^4=24$.
 
-## Problem 8
+The number of schemes in which A is dispatched and ranked first is $A_5^3=60$.
 
-(Exercise 1.1, Extension and Exploration, Problem 8) Prove by the vector method: a line lying in a plane, if it is perpendicular to the projection on the plane of an oblique line of that plane, is also perpendicular to the oblique line (the theorem of three perpendiculars).
+Hence the number of schemes satisfying the conditions is $360-24-60=276$.
 
-### Solution to Problem 8
+$\blacksquare$
 
-By **Common Conclusion 1.1.13** (Properties of the Dot Product), to prove two lines are perpendicular it suffices to prove that the dot product of their direction vectors is zero.
+(2) A dispatched but B not: $A_4^3=24$, with arrangements $A_4^4=24$ (choose first then arrange: select vehicle A and $3$ others from the remaining $4$ vehicles, then arrange them), i.e. $C_4^3 A_4^4=96$.
 
-Let the direction vector of the line $l$ in the plane $\alpha$ be $\boldsymbol{a}$, and let the oblique line be $AB$ ($A \in \alpha$, $B \notin \alpha$); the projection of $B$ on $\alpha$ is $B'$, so the projection is $AB'$. Set $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, where $\boldsymbol{c} \perp \alpha$, hence $\boldsymbol{c} \perp \boldsymbol{a}$.
+B dispatched but A not: by the same reasoning, $96$.
 
-Given $l \perp AB'$, i.e. $\boldsymbol{a} \perp \boldsymbol{b}$, hence $\boldsymbol{a} \cdot \boldsymbol{b}=0$.
+Neither A nor B dispatched: $A_4^4=24$.
 
-$\boldsymbol{AB}=\boldsymbol{AB'}+\boldsymbol{B'B}=\boldsymbol{b}+\boldsymbol{c}$.
+In total, $96+96+24=216$ schemes.
 
-$\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+$\blacksquare$
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{a} \perp \boldsymbol{AB}$, i.e. $l \perp AB$. $\blacksquare$
+(Exercise 4.2, Extension and Exploration, Problem 10) Prove that in an arithmetic sequence $\left\{a_n\right\}$, $\frac{a_m-a_n}{m-n}=d$ ($m\ne n$)
 
-## Problem 9
+### Solution to Problem 1
 
-(Exercise 1.1, Extension and Exploration, Problem 9) As shown in the figure, in the tetrahedron $OABC$, $OA \perp BC$, $OB \perp AC$. Prove that $OC \perp AB$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
-(Figure: a tetrahedron $OABC$.)
+$$
+a_m=a_1+\left(m-1\right)d,\ a_n=a_1+\left(n-1\right)d.
+$$
 
-### Solution to Problem 9
+$$
+a_m-a_n=\left(m-n\right)d,\ \frac{a_m-a_n}{m-n}=d.
+$$
 
-By **Common Conclusion 1.1.13** (Properties of the Dot Product).
+$\blacksquare$
 
-Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
+(Exercise 4.2, Extension and Exploration, Problem 11) A type of dwarf tiger beetle lays its eggs on the carcass of a dead beetle
 
-From $OA \perp BC$, i.e. $\boldsymbol{a} \perp \boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. Hence $\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, i.e. $\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}=0$. (1)
+(1) If $100$ eggs are laid on the carcass the first time, and each subsequent laying produces $5$ fewer eggs than the previous one, at most how many times can eggs be laid?
 
-From $OB \perp AC$, i.e. $\boldsymbol{b} \perp \boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. Hence $\boldsymbol{b} \cdot \left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, i.e. $\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{a}=0$. (2)
+(2) If $100$ eggs are laid on the carcass the first time, and each subsequent laying produces $\frac{1}{2}$ of the previous number of eggs, at most how many times can eggs be laid?
 
-From (1), $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$. From (2), $\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$.
+### Solution to Problem 1
 
-Hence $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}$, i.e. $\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+(1) By **Definition 4.2.1 (Arithmetic Sequence)**, the egg counts are $100,95,90,\cdots$, with common difference $-5$.
 
-$\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=100-5\left(n-1\right)> 0$, so $n-1< 20$ and $n< 21$.
 
-Hence $\boldsymbol{c} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+At most $20$ layings: the $20$th laying produces $5$ eggs, and the $21$th would produce $0$ eggs.
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{OC} \perp \boldsymbol{AB}$, i.e. $OC \perp AB$. $\blacksquare$
+$\blacksquare$
 
-## Problem 10
+(2) By **Definition 4.3.1 (Geometric Sequence)**, the egg counts are $100,50,25,\cdots$, with common ratio $\frac{1}{2}$.
 
-(Exercise 1.1, Extension and Exploration, Problem 10) As shown in the figure, in the tetrahedron $OABC$, $OA=OB$, $CA=CB$, and $E$, $F$, $G$, $H$ are the midpoints of $OA$, $OB$, $BC$, $CA$, respectively. Prove that the quadrilateral $EFGH$ is a rectangle.
+The egg count is always positive and tends to $0$, so in theory eggs can be laid infinitely many times.
 
-(Figure: a tetrahedron $OABC$ with $E$, $F$, $G$, $H$ the midpoints of $OA$, $OB$, $BC$, $CA$, respectively.)
+$\blacksquare$
 
-### Solution to Problem 10
+(Exercise 4.2, Extension and Exploration, Problem 12) Balls stacked in a triangular pile: the top layer has $1$ ball, and the layers below have $3,6,10,\cdots$ balls respectively
 
-By **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Vectors to be Coplanar) and **Common Conclusion 1.1.13** (Properties of the Dot Product).
+(1) How many balls are there in the fifth layer and the sixth layer?
 
-$E$, $F$, $G$, $H$ are the midpoints of $OA$, $OB$, $BC$, $CA$, respectively.
+(2) How many balls are there in total in the first $n$ layers?
 
-$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, hence $\boldsymbol{EF}=\boldsymbol{HG}$, i.e. $EF \parallel HG$ and $EF=HG$.
+### Solution to Problem 1
 
-$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, hence $\boldsymbol{FG}=\boldsymbol{EH}$, i.e. $FG \parallel EH$ and $FG=EH$.
+(1) By **Definition 4.1.5 (General Term Formula)**, the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n\left(n+1\right)}{2}$ balls.
 
-Hence the quadrilateral $EFGH$ is a parallelogram.
+$$
+\text{第五层}=\frac{5\times 6}{2}=15,\ \text{第六层}=\frac{6\times 7}{2}=21.
+$$
 
-It remains to prove that one interior angle is a right angle. $\boldsymbol{EF} \cdot \boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB} \cdot \frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{OC}$.
+$\blacksquare$
 
-Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. From $OA=OB$, $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert$. From $CA=CB$, $\lvert \boldsymbol{c}-\boldsymbol{a} \rvert=\lvert \boldsymbol{c}-\boldsymbol{b} \rvert$; squaring gives $\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{b}^2$. Since $\boldsymbol{a}^2=\boldsymbol{b}^2$, we get $\boldsymbol{c} \cdot \boldsymbol{a}=\boldsymbol{c} \cdot \boldsymbol{b}$.
+(2) The total number of balls in the first $n$ layers is
 
-$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB} \cdot \boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}=0$.
+$$
+S_n=\sum_{k=1}^n\frac{k\left(k+1\right)}{2}=\frac{1}{2}\left(\sum_{k=1}^n k^2+\sum_{k=1}^n k\right)=\frac{1}{2}\left[\frac{n\left(n+1\right)\left(2n+1\right)}{6}+\frac{n\left(n+1\right)}{2}\right]=\frac{n\left(n+1\right)\left(n+2\right)}{6}.
+$$
 
-Hence $\boldsymbol{EF} \cdot \boldsymbol{FG}=0$, i.e. $EF \perp FG$.
-
-The parallelogram $EFGH$ has one right angle, so it is a rectangle. $\blacksquare$
+$\blacksquare$

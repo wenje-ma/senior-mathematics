@@ -1,561 +1,439 @@
 # week22
+> **定义 6.1.7 (相等向量)**
+> 
+> 长度相等且方向相同的向量叫做相等向量.
+> **定义 6.2.1 (向量加法的三角形法则)**
+> 
+> 已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+> **定义 6.2.2 (平行四边形法则)**
+> 
+> 已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
+> **定义 6.2.4 (全排列与阶乘)**
+> 
+> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **定义 6.2.5 (向量的减法)**
+> 
+> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+> **定义 6.2.6 (向量的数乘)**
+> 
+> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+> **定理 6.2.8 (共线向量定理)**
+> 
+> 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+> **定义 6.2.11 (向量的数量积)**
+> 
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
 
 ## 练习一
 
-(练习 5.5 第 1 题) 利用和 (差) 角公式, 求下列各式的值:
+(练习 6.2 第 3 题) 根据图示填空.
 
-(1) $\sin15^{\circ}$;
+(1) $\boldsymbol{a}+\boldsymbol{b}=\;\_\_\;$;
 
-(2) $\cos75^{\circ}$;
+(2) $\boldsymbol{c}+\boldsymbol{d}=\;\_\_\;$;
 
-(3) $\sin75^{\circ}$;
+(3) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{d}=\;\_\_\;$;
 
-(4) $\tan15^{\circ}$.
+(4) $\boldsymbol{c}+\boldsymbol{d}+\boldsymbol{e}=\;\_\_\;$.
+
+图:若干个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$, $\boldsymbol{e}$ 首尾相接画在同一张图上,各向量依次相接,要求根据首尾相接关系填空求若干向量之和.
 
 ### 解答 练习一
 
-由**公式 5.5.3** (和角正弦公式) 及**公式 5.5.2** (和角余弦公式) 等.
-
-(1) 由 $\sin15^{\circ}=\sin\left(45^{\circ}-30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}-\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
-
-(2) 由 $\cos75^{\circ}=\cos\left(45^{\circ}+30^{\circ}\right)=\cos45^{\circ}\cos30^{\circ}-\sin45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
-
-(3) 由 $\sin75^{\circ}=\sin\left(45^{\circ}+30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}+\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{6}+\sqrt{2}}{4}$.
-
-(4) 由 $\tan15^{\circ}=\tan\left(45^{\circ}-30^{\circ}\right)=\frac{\tan45^{\circ}-\tan30^{\circ}}{1+\tan45^{\circ}\tan30^{\circ}}=\frac{1-\frac{\sqrt{3}}{3}}{1+\frac{\sqrt{3}}{3}}=2-\sqrt{3}$. $\blacksquare$
+由**定义 6.2.1 (向量加法的三角形法则)**, 首尾相接的向量和等于从第一个起点指向最后一个终点的向量. 按图中各向量的首尾关系逐一写出. $\blacksquare$
 
 ## 练习二
 
-(练习 5.5 第 2 题)
+(练习 6.2 第 4 题) 如图, 四边形 $ABCD$ 是平行四边形, 点 $P$ 在 $CD$ 上, 判断下列各式是否正确.
 
-(1) 已知 $\cos\theta=-\frac{3}{5}$, $\theta\in\left(\frac{\pi}{2},\pi\right)$, 求 $\sin\left(\theta+\frac{\pi}{3}\right)$ 的值;
+(1) $\boldsymbol{DA}+\boldsymbol{DP}=\boldsymbol{PA}$;
 
-(2) 已知 $\sin\theta=-\frac{12}{13}$, $\theta$ 是第三象限角, 求 $\cos\left(\frac{\pi}{6}+\theta\right)$ 的值;
+(2) $\boldsymbol{DA}+\boldsymbol{AB}+\boldsymbol{BP}=\boldsymbol{DP}$;
 
-(3) 已知 $\tan\alpha=3$, 求 $\tan\left(\alpha+\frac{\pi}{4}\right)$ 的值.
+(3) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CP}=\boldsymbol{PA}$.
+
+图:平行四边形 $ABCD$,点 $P$ 在边 $CD$ 上,标出有向线段 $\boldsymbol{DA}$, $\boldsymbol{DP}$, $\boldsymbol{AB}$, $\boldsymbol{BP}$, $\boldsymbol{BC}$, $\boldsymbol{CP}$ 等,用于判断各向量和等式是否成立.
 
 ### 解答 练习二
 
-由**公式 5.5.3** (和角正弦公式) 及**公式 5.5.2** (和角余弦公式), **公式 5.5.5** (和角正切公式).
+由**定义 6.2.1 (向量加法的三角形法则)**.
 
-(1) 由 $\theta\in\left(\frac{\pi}{2},\pi\right)$, $\cos\theta=-\frac{3}{5}$, 得 $\sin\theta=\frac{4}{5}$. 故
+(1) $\boldsymbol{DA}+\boldsymbol{DP}$ 以 $D$ 为起点, 首尾相接得从 $D$ 出发的合成向量, 不等于从 $P$ 指向 $A$ 的 $\boldsymbol{PA}$, 故错误.
 
-$$
-\sin\left(\theta+\frac{\pi}{3}\right)=\sin\theta\cos\frac{\pi}{3}+\cos\theta\sin\frac{\pi}{3}=\frac{4}{5}\cdot\frac{1}{2}+\left(-\frac{3}{5}\right)\cdot\frac{\sqrt{3}}{2}=\frac{4-3\sqrt{3}}{10}.
-$$
+(2) $\boldsymbol{DA}+\boldsymbol{AB}=\boldsymbol{DB}$, 再加 $\boldsymbol{BP}$ 得 $\boldsymbol{DP}$, 故正确.
 
-(2) 由 $\theta$ 是第三象限角, $\sin\theta=-\frac{12}{13}$, 得 $\cos\theta=-\frac{5}{13}$. 故
-
-$$
-\cos\left(\frac{\pi}{6}+\theta\right)=\cos\frac{\pi}{6}\cos\theta-\sin\frac{\pi}{6}\sin\theta=\frac{\sqrt{3}}{2}\cdot\left(-\frac{5}{13}\right)-\frac{1}{2}\cdot\left(-\frac{12}{13}\right)=\frac{12-5\sqrt{3}}{26}.
-$$
-
-(3) 由**公式 5.5.5**, 得
-
-$$
-\tan\left(\alpha+\frac{\pi}{4}\right)=\frac{\tan\alpha+\tan\frac{\pi}{4}}{1-\tan\alpha\tan\frac{\pi}{4}}=\frac{3+1}{1-3\times1}=-2.
-$$
-
-$\blacksquare$
+(3) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 再加 $\boldsymbol{CP}$ 得 $\boldsymbol{AP}$, 不是 $\boldsymbol{PA}$, 故错误. $\blacksquare$
 
 ## 练习三
 
-(练习 5.5 第 3 题) 求下列各式的值:
-
-(1) $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}$;
-
-(2) $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}$;
-
-(3) $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}$;
-
-(4) $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}$;
-
-(5) $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}$;
-
-(6) $\sin20^{\circ}\cos110^{\circ}+\cos160^{\circ}\sin70^{\circ}$.
+(练习 6.2 第 5 题) 有一条东西向的小河, 一艘小船从河南岸的渡口出发渡河. 小船航行速度的大小为 $15\text{ km/h}$, 方向为北偏西 $30^{\circ}$, 水流的速度为向东 $7.5\text{ km/h}$, 求小船实际航行速度的大小与方向.
 
 ### 解答 练习三
 
-由**公式 5.5.3** 至**公式 5.5.6** 反用.
+由**定义 6.2.2 (平行四边形法则)**, 船的实际速度为船速与水速的向量和.
 
-(1) 由**公式 5.5.3**, 得 $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}=\sin\left(72^{\circ}+18^{\circ}\right)=\sin90^{\circ}=1$.
+设船速为 $\boldsymbol{v}_1$, $\lvert\boldsymbol{v}_1\rvert=15$, 方向北偏西 $30^{\circ}$; 水速为 $\boldsymbol{v}_2$, $\lvert\boldsymbol{v}_2\rvert=7.5$, 方向向东.
 
-(2) 由**公式 5.5.1**, 得 $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}=\cos\left(72^{\circ}-12^{\circ}\right)=\cos60^{\circ}=\frac{1}{2}$.
+将两速度分解为东向 $\left(x\right)$ 和北向 $\left(y\right)$ 分量:
 
-(3) 由**公式 5.5.5**, 得 $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}=\tan\left(12^{\circ}+33^{\circ}\right)=\tan45^{\circ}=1$.
+$$
+v_{1x}=-15\sin30^{\circ}=-7.5,\quad v_{1y}=15\cos30^{\circ}=\frac{15\sqrt 3}{2}.
+$$
 
-(4) 由**公式 5.5.4**, 得 $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}=\sin\left(14^{\circ}-74^{\circ}\right)=\sin\left(-60^{\circ}\right)=-\frac{\sqrt{3}}{2}$.
+$$
+v_{2x}=7.5,\quad v_{2y}=0.
+$$
 
-(5) 由**公式 5.5.2**, 得 $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}=-\left(\cos34^{\circ}\cos26^{\circ}-\sin34^{\circ}\sin26^{\circ}\right)=-\cos\left(34^{\circ}+26^{\circ}\right)=-\cos60^{\circ}=-\frac{1}{2}$.
+合速度分量: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt 3}{2}$.
 
-(6) 由 $\cos110^{\circ}=-\cos70^{\circ}$, $\cos160^{\circ}=-\cos20^{\circ}$, 得原式 $=-\sin20^{\circ}\cos70^{\circ}-\cos20^{\circ}\sin70^{\circ}=-\sin\left(20^{\circ}+70^{\circ}\right)=-\sin90^{\circ}=-1$. $\blacksquare$
+故合速度大小为 $\frac{15\sqrt 3}{2}\approx13.0\text{ km/h}$, 方向为正北. $\blacksquare$
 
 ## 练习四
 
-(练习 5.5 第 4 题) 化简:
-
-(1) $\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x$;
-
-(2) $\sqrt{3}\sin x+\cos x$;
-
-(3) $\sqrt{2}\left(\sin x-\cos x\right)$;
-
-(4) $\sqrt{2}\cos x-\sqrt{6}\sin x$.
+(练习 6.2 第 6 题) 如下页图, 在各小题中, 已知 $\boldsymbol{a}$, $\boldsymbol{b}$, 分别求作 $\boldsymbol{a}-\boldsymbol{b}$.
 
 ### 解答 练习四
 
-由**公式 5.5.11** (辅助角公式).
-
-(1) 原式 $=\cos\frac{\pi}{3}\cos x-\sin\frac{\pi}{3}\sin x=\cos\left(x+\frac{\pi}{3}\right)$.
-
-(2) 原式 $=2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=2\left(\sin x\cos\frac{\pi}{6}+\cos x\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
-
-(3) 原式 $=2\left(\frac{\sqrt{2}}{2}\sin x-\frac{\sqrt{2}}{2}\cos x\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
-
-(4) 原式 $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
+由**定义 6.2.5 (向量的减法)**, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$. 将 $\boldsymbol{b}$ 反向后与 $\boldsymbol{a}$ 用三角形法则相加, 或从同一起点作 $\boldsymbol{a}$, $\boldsymbol{b}$, 则从 $\boldsymbol{b}$ 的终点指向 $\boldsymbol{a}$ 的终点的向量即为 $\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
 ## 练习五
 
-(练习 5.5 第 5 题) 已知 $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, 且 $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$, $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, 求 $\sin2\beta$ 的值.
+(练习 6.2 第 7 题) 填空.
+
+$\boldsymbol{AB}-\boldsymbol{AD}=\;\_\_\;$; $\boldsymbol{BA}-\boldsymbol{BC}=\;\_\_\;$; $\boldsymbol{BC}-\boldsymbol{BA}=\;\_\_\;$; $\boldsymbol{OD}-\boldsymbol{OA}=\;\_\_\;$; $\boldsymbol{OA}-\boldsymbol{OB}=\;\_\_\;$.
 
 ### 解答 练习五
 
-由**公式 5.5.3** 及**公式 5.5.4**.
+由**定义 6.2.5 (向量的减法)**, 同一起点的两向量之差等于从减向量终点指向被减向量终点的向量.
 
-由 $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$, 得 $\cos\left(\alpha-\beta\right)=-\frac{4}{5}$. 由 $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, 得 $\cos\left(\alpha+\beta\right)=-\frac{4}{5}$.
-
-由 $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$, 得
-
-$$
-\sin2\beta=\sin\left[\left(\alpha+\beta\right)-\left(\alpha-\beta\right)\right]=\sin\left(\alpha+\beta\right)\cos\left(\alpha-\beta\right)-\cos\left(\alpha+\beta\right)\sin\left(\alpha-\beta\right)=\left(-\frac{3}{5}\right)\left(-\frac{4}{5}\right)-\left(-\frac{4}{5}\right)\left(\frac{3}{5}\right)=\frac{12+12}{25}=\frac{24}{25}.
-$$
-
-$\blacksquare$
+$\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{BC}=\boldsymbol{CA}$; $\boldsymbol{BC}-\boldsymbol{BA}=\boldsymbol{AC}$; $\boldsymbol{OD}-\boldsymbol{OA}=\boldsymbol{AD}$; $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{BA}$. $\blacksquare$
 
 ## 练习六
 
-(练习 5.5 第 6 题) 已知 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, $8\pi< \alpha< 12\pi$, 求 $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$, $\tan\frac{\alpha}{4}$ 的值.
+(练习 6.2 第 8 题) 作图验证: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
+
+图:先以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 及其和 $\boldsymbol{a}+\boldsymbol{b}$,再画出相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$;另画 $-\boldsymbol{a}$ 与 $-\boldsymbol{b}$ 并用三角形法则相加,两作图结果重合,验证 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
 
 ### 解答 练习六
 
-由**公式 5.5.8** (二倍角余弦公式) 的降幂形式.
+由**定义 6.2.4 (全排列与阶乘)** 与**定义 6.2.5 (向量的减法)**.
 
-由 $8\pi< \alpha< 12\pi$, 得 $4\pi< \frac{\alpha}{2}< 6\pi$, $2\pi< \frac{\alpha}{4}< 3\pi$, $\pi< \frac{\alpha}{8}< \frac{3\pi}{2}$. 故 $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, 即 $\frac{\alpha}{4}$ 与 $\left(0,\pi\right)$ 终边相同.
-
-由 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, 得 $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. 由 $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$, $\sin\frac{\alpha}{8}< 0$, 得 $\sin\frac{\alpha}{8}=-\frac{3}{5}$. 故 $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
-
-由 $\cos\frac{\alpha}{4}=2\cos^{2}\frac{\alpha}{8}-1=2\times\frac{16}{25}-1=\frac{7}{25}$.
-
-由 $\tan\frac{\alpha}{4}=\frac{\sin\frac{\alpha}{4}}{\cos\frac{\alpha}{4}}=\frac{24}{7}$. $\blacksquare$
+先作 $\boldsymbol{a}+\boldsymbol{b}$, 再作其相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$. 另一方面, 分别作 $-\boldsymbol{a}$ 和 $-\boldsymbol{b}$, 再用三角形法则相加. 由作图可见两结果重合, 故 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
 ## 练习七
 
-(练习 5.5 第 7 题) 已知 $\sin\left(\alpha-\pi\right)=\frac{3}{5}$, 求 $\cos2\alpha$ 的值.
+(练习 6.2 第 9 题) 任画一向量 $\boldsymbol{e}$, 分别求作向量 $\boldsymbol{a}=4\boldsymbol{e}$, $\boldsymbol{b}=-4\boldsymbol{e}$.
 
 ### 解答 练习七
 
-由**公式 5.5.8** (二倍角余弦公式).
-
-由 $\sin\left(\alpha-\pi\right)=-\sin\alpha=\frac{3}{5}$, 得 $\sin\alpha=-\frac{3}{5}$. 故 $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{9}{25}=\frac{7}{25}$. $\blacksquare$
+由**定义 6.2.6 (向量的数乘)**, $4\boldsymbol{e}$ 方向与 $\boldsymbol{e}$ 相同, 长度为 $\boldsymbol{e}$ 的 $4$ 倍; $-4\boldsymbol{e}$ 方向与 $\boldsymbol{e}$ 相反, 长度为 $\boldsymbol{e}$ 的 $4$ 倍. $\blacksquare$
 
 ## 练习八
 
-(练习 5.5 第 8 题) 已知 $\sin2\alpha=-\sin\alpha$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$, 求 $\tan\alpha$ 的值.
+(练习 6.2 第 10 题) 点 $C$ 在线段 $AB$ 上, 且 $\frac{AC}{CB}=\frac{5}{2}$, 则 $\boldsymbol{AC}=\;\_\_\;\boldsymbol{AB}$, $\boldsymbol{BC}=\;\_\_\;\boldsymbol{AB}$.
 
 ### 解答 练习八
 
-由**公式 5.5.7** (二倍角正弦公式).
+由**定义 6.2.6 (向量的数乘)** 与**定理 6.2.8 (共线向量定理)**.
 
-由 $\sin2\alpha=2\sin\alpha\cos\alpha=-\sin\alpha$, 且 $\alpha\in\left(\frac{\pi}{2},\pi\right)$ 时 $\sin\alpha\neq0$, 得 $2\cos\alpha=-1$, 即 $\cos\alpha=-\frac{1}{2}$. 故 $\sin\alpha=\frac{\sqrt{3}}{2}$, $\tan\alpha=-\sqrt{3}$. $\blacksquare$
+$AC:CB=5:2$, 故 $AC=\frac{5}{7}AB$, $CB=\frac{2}{7}AB$, 方向与 $\boldsymbol{AB}$ 相同. 故 $\boldsymbol{AC}=\frac{5}{7}\boldsymbol{AB}$. $\boldsymbol{BC}$ 与 $\boldsymbol{AB}$ 方向相反, 故 $\boldsymbol{BC}=-\frac{2}{7}\boldsymbol{AB}$. $\blacksquare$
 
 ## 练习九
 
-(练习 5.5 第 9 题) 已知 $\tan2\alpha=\frac{1}{3}$, 求 $\tan\alpha$ 的值.
+(练习 6.2 第 11 题) 把下列各小题中的向量 $\boldsymbol{b}$ 表示为实数与向量 $\boldsymbol{a}$ 的积.
+
+(1) $\boldsymbol{a}=3\boldsymbol{e}$, $\boldsymbol{b}=6\boldsymbol{e}$;
+
+(2) $\boldsymbol{a}=8\boldsymbol{e}$, $\boldsymbol{b}=-14\boldsymbol{e}$;
+
+(3) $\boldsymbol{a}=-\frac{2}{3}\boldsymbol{e}$, $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}$;
+
+(4) $\boldsymbol{a}=-\frac{3}{4}\boldsymbol{e}$, $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}$.
 
 ### 解答 练习九
 
-由**公式 5.5.9** (二倍角正切公式).
+由**定义 6.2.6 (向量的数乘)**.
 
-由 $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{1}{3}$, 得 $6\tan\alpha=1-\tan^{2}\alpha$, 即 $\tan^{2}\alpha+6\tan\alpha-1=0$. 解得 $\tan\alpha=-3\pm\sqrt{10}$. $\blacksquare$
+(1) $\boldsymbol{b}=6\boldsymbol{e}=2\cdot\left(3\boldsymbol{e}\right)=2\boldsymbol{a}$.
+
+(2) $\boldsymbol{b}=-14\boldsymbol{e}=-\frac{14}{8}\cdot\left(8\boldsymbol{e}\right)=-\frac{7}{4}\boldsymbol{a}$.
+
+(3) $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}=-\frac{1}{2}\cdot\left(-\frac{2}{3}\boldsymbol{e}\right)=-\frac{1}{2}\boldsymbol{a}$.
+
+(4) $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}=\frac{8}{9}\cdot\left(-\frac{3}{4}\boldsymbol{e}\right)=\frac{8}{9}\boldsymbol{a}$. $\blacksquare$
 
 ## 练习十
 
-(练习 5.5 第 10 题) 求下列各式的值:
+(练习 6.2 第 12 题) 判断下列各小题中的向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 是否共线.
 
-(1) $\sin15^{\circ}\cos15^{\circ}$;
+(1) $\boldsymbol{a}=-2\boldsymbol{e}$, $\boldsymbol{b}=2\boldsymbol{e}$;
 
-(2) $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}$;
-
-(3) $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}$;
-
-(4) $2\cos^{2}22.5^{\circ}-1$.
+(2) $\boldsymbol{a}=\boldsymbol{e}_1-\boldsymbol{e}_2$, $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2$.
 
 ### 解答 练习十
 
-由**公式 5.5.7** 至**公式 5.5.9**.
+由**定理 6.2.8 (共线向量定理)**, 存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$ 则共线.
 
-(1) 由**公式 5.5.7**, 得 $\sin15^{\circ}\cos15^{\circ}=\frac{1}{2}\sin30^{\circ}=\frac{1}{4}$.
+(1) $\boldsymbol{b}=2\boldsymbol{e}=-\left(-2\boldsymbol{e}\right)=-\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线.
 
-(2) 由**公式 5.5.8**, 得 $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
-
-(3) 由**公式 5.5.9**, 得 $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}=\frac{1}{2}\tan45^{\circ}=\frac{1}{2}$.
-
-(4) 由**公式 5.5.8**, 得 $2\cos^{2}22.5^{\circ}-1=\cos45^{\circ}=\frac{\sqrt{2}}{2}$. $\blacksquare$
+(2) $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2=-2\left(\boldsymbol{e}_1-\boldsymbol{e}_2\right)=-2\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线. $\blacksquare$
 
 ## 练习十一
 
-(练习 5.5 第 11 题) 求证: $\tan\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha}$.
+(练习 6.2 第 13 题) 化简.
+
+(1) $5\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
+
+(2) $\frac{1}{3}\left(\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{4}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
+
+(3) $\left(x+y\right)\boldsymbol{a}-\left(x-y\right)\boldsymbol{a}$.
 
 ### 解答 练习十一
 
-由**公式 5.5.10** (半角公式).
+由**常用结论 6.2.7** (数乘的运算律).
 
-由 $\tan\frac{\alpha}{2}=\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}=\frac{2\sin^{2}\frac{\alpha}{2}}{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}=\frac{1-\cos\alpha}{\sin\alpha}$. 同理, $\tan\frac{\alpha}{2}=\frac{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}{2\cos^{2}\frac{\alpha}{2}}=\frac{\sin\alpha}{1+\cos\alpha}$. $\blacksquare$
+(1) 原式 $=15\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=3\boldsymbol{a}-2\boldsymbol{b}$.
+
+(2) 原式 $=\frac{1}{3}\boldsymbol{a}-\frac{2}{3}\boldsymbol{b}-\frac{3}{4}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(\frac{1}{3}-\frac{3}{4}-\frac{1}{2}\right)\boldsymbol{a}+\left(-\frac{2}{3}+\frac{1}{2}+\frac{1}{2}\right)\boldsymbol{b}=-\frac{11}{12}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
+
+(3) 原式 $=\left(x+y-x+y\right)\boldsymbol{a}=2y\boldsymbol{a}$. $\blacksquare$
 
 ## 练习十二
 
-(练习 5.5 第 12 题) 已知 $\cos\theta=\frac{1}{7}$, 且 $270^{\circ}< \theta< 360^{\circ}$, 试求 $\sin\frac{\theta}{2}$ 和 $\cos\frac{\theta}{2}$ 的值.
+(练习 6.2 第 14 题) 已知 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量, $\boldsymbol{a}=\boldsymbol{e}_1-2\boldsymbol{e}_2$, $\boldsymbol{b}=2\boldsymbol{e}_1+k\boldsymbol{e}_2$. 若 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 是共线向量, 求实数 $k$ 的值.
 
 ### 解答 练习十二
 
-由**公式 5.5.10** (半角公式).
+由**定理 6.2.8 (共线向量定理)**, 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-由 $270^{\circ}< \theta< 360^{\circ}$, 得 $135^{\circ}< \frac{\theta}{2}< 180^{\circ}$, 故 $\sin\frac{\theta}{2}> 0$, $\cos\frac{\theta}{2}< 0$.
+$2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{e}_2\right)=\lambda\boldsymbol{e}_1-2\lambda\boldsymbol{e}_2$.
 
-由 $\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}=\sqrt{\frac{1-\frac{1}{7}}{2}}=\sqrt{\frac{3}{7}}=\frac{\sqrt{21}}{7}$.
-
-由 $\cos\frac{\theta}{2}=-\sqrt{\frac{1+\cos\theta}{2}}=-\sqrt{\frac{1+\frac{1}{7}}{2}}=-\sqrt{\frac{4}{7}}=-\frac{2\sqrt{7}}{7}$. $\blacksquare$
+比较系数: $2=\lambda$, $k=-2\lambda=-4$. 故 $k=-4$. $\blacksquare$
 
 ## 练习十三
 
-(练习 5.5 第 13 题) 已知等腰三角形的顶角的余弦等于 $\frac{7}{25}$, 求这个三角形的一个底角的正切.
+(练习 6.2 第 15 题) 已知 $\lvert\boldsymbol{p}\rvert=8$, $\lvert\boldsymbol{q}\rvert=6$, $\boldsymbol{p}$ 和 $\boldsymbol{q}$ 的夹角是 $60^{\circ}$, 求 $\boldsymbol{p}\cdot\boldsymbol{q}$.
 
 ### 解答 练习十三
 
-由**公式 5.5.10** (半角公式).
-
-设顶角为 $\theta$, 则底角为 $\frac{\pi-\theta}{2}$. 由 $\cos\theta=\frac{7}{25}$, 得
-
-$$
-\tan\frac{\pi-\theta}{2}=\cot\frac{\theta}{2}=\frac{1}{\tan\frac{\theta}{2}}=\sqrt{\frac{1+\cos\theta}{1-\cos\theta}}=\sqrt{\frac{1+\frac{7}{25}}{1-\frac{7}{25}}}=\sqrt{\frac{32}{18}}=\frac{4}{3}.
-$$
-
-$\blacksquare$
+由**定义 6.2.11 (向量的数量积)**, $\boldsymbol{p}\cdot\boldsymbol{q}=\lvert\boldsymbol{p}\rvert\lvert\boldsymbol{q}\rvert\cos\theta=8\times6\times\cos60^{\circ}=48\times\frac{1}{2}=24$. $\blacksquare$
 
 ## 练习十四
 
-(练习 5.5 第 14 题) 求证:
-
-(1) $\cos\alpha\sin\beta=\frac{1}{2}\left[\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)\right]$;
-
-(2) $\cos\alpha\cos\beta=\frac{1}{2}\left[\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)\right]$;
-
-(3) $\sin\alpha\sin\beta=-\frac{1}{2}\left[\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)\right]$.
+(练习 6.2 第 16 题) 已知 $\triangle ABC$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 当 $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ 或 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, 试判断 $\triangle ABC$ 的形状.
 
 ### 解答 练习十四
 
-由**公式 5.5.3** 及**公式 5.5.4**, **公式 5.5.1** 及**公式 5.5.2**.
+由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时 $\boldsymbol{a}\perp\boldsymbol{b}$.
 
-(1) 由 $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$, 两边除以 $2$ 即得.
+当 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, $\boldsymbol{AB}\perp\boldsymbol{AC}$, $\angle A=90^{\circ}$, $\triangle ABC$ 为直角三角形.
 
-(2) 由 $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$, 两边除以 $2$ 即得.
-
-(3) 由 $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, 两边除以 $-2$ 即得. $\blacksquare$
+当 $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ 时, $\cos A< 0$, $A> 90^{\circ}$, $\triangle ABC$ 为钝角三角形. $\blacksquare$
 
 ## 练习十五
 
-(练习 5.5 第 15 题) 求证:
-
-(1) $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$;
-
-(2) $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$;
-
-(3) $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+(练习 6.2 第 17 题) 已知 $\lvert\boldsymbol{a}\rvert=6$, $\boldsymbol{e}$ 为单位向量, 当向量 $\boldsymbol{a}$, $\boldsymbol{e}$ 的夹角 $\theta$ 分别等于 $45^{\circ}$, $90^{\circ}$, $135^{\circ}$ 时, 求向量 $\boldsymbol{a}$ 在向量 $\boldsymbol{e}$ 上的投影向量.
 
 ### 解答 练习十五
 
-由**练习十四** 的结果换元.
+由**常用结论 6.2.12** (投影向量), 投影向量为 $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
 
-(1) 令 $\alpha+\beta=\theta$, $\alpha-\beta=\varphi$, 则 $\alpha=\frac{\theta+\varphi}{2}$, $\beta=\frac{\theta-\varphi}{2}$. 代入 $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$, 得 $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt 2\,\boldsymbol{e}$.
 
-(2) 同理, 代入 $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$, 得 $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$.
+$\theta=90^{\circ}$: $6\cos90^{\circ}\,\boldsymbol{e}=\boldsymbol{0}$.
 
-(3) 代入 $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, 得 $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$. $\blacksquare$
+$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e}$. $\blacksquare$
 
 ## 练习十六
 
-(练习 5.5 第 16 题) 求下列函数的周期, 最大值和最小值:
+(练习 6.2 第 18 题) 已知 $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=2$, $\lvert\boldsymbol{c}\rvert=3$, 向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $\frac{\pi}{6}$, 向量 $\boldsymbol{b}$ 与 $\boldsymbol{c}$ 的夹角为 $\frac{\pi}{4}$, 计算:
 
-(1) $y=5\cos x-12\sin x$;
+(1) $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}$;
 
-(2) $y=\cos x+2\sin x$.
+(2) $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)$.
 
 ### 解答 练习十六
 
-由**公式 5.5.11** (辅助角公式).
+由**定义 6.2.11 (向量的数量积)**.
 
-(1) 原式 $=13\left(\frac{5}{13}\cos x-\frac{12}{13}\sin x\right)=13\cos\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{12}{5}$. 周期为 $2\pi$, 最大值为 $13$, 最小值为 $-13$.
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. 故 $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
 
-(2) 原式 $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{1}{2}$. 周期为 $2\pi$, 最大值为 $\sqrt{5}$, 最小值为 $-\sqrt{5}$. $\blacksquare$
+(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. 故 $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
+
+## 练习十七
+
+(练习 6.2 第 19 题) 已知 $\lvert\boldsymbol{a}\rvert=\sqrt 2$, $\lvert\boldsymbol{b}\rvert=1$, 且 $\boldsymbol{a}-\boldsymbol{b}$ 与 $\boldsymbol{a}+2\boldsymbol{b}$ 互相垂直, 求证 $\boldsymbol{a}\perp\boldsymbol{b}$.
+
+### 解答 练习十七
+
+由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+2\boldsymbol{b}\right)=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=0$.
+
+代入 $\lvert\boldsymbol{a}\rvert^2=2$, $\lvert\boldsymbol{b}\rvert^2=1$, 得 $2+\boldsymbol{a}\cdot\boldsymbol{b}-2=0$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=0$. 故 $\boldsymbol{a}\perp\boldsymbol{b}$. $\blacksquare$
+
+## 练习十八
+
+(练习 6.2 第 20 题) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
+
+### 解答 练习十八
+
+由**常用结论 6.2.14** (数量积的运算律).
+
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+两式相减得 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$. $\blacksquare$
 
 ## 习题一
 
-(习题 5.5 复习巩固第 1 题) 已知 $\sin\alpha=\frac{2}{3}$, $\cos\beta=-\frac{3}{4}$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$, $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, 求 $\cos\left(\alpha-\beta\right)$ 的值.
+(习题 6.2 复习巩固第 1 题) 如果 $\boldsymbol{a}$ 表示 "向东走 $10\text{ km}$", $\boldsymbol{b}$ 表示 "向西走 $5\text{ km}$", $\boldsymbol{c}$ 表示 "向北走 $10\text{ km}$", $\boldsymbol{d}$ 表示 "向南走 $5\text{ km}$", 那么下列向量具有什么意义?
+
+(1) $\boldsymbol{a}+\boldsymbol{a}$; (2) $\boldsymbol{a}+\boldsymbol{b}$; (3) $\boldsymbol{a}+\boldsymbol{c}$; (4) $\boldsymbol{b}+\boldsymbol{d}$; (5) $\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{b}$; (6) $\boldsymbol{d}+\boldsymbol{a}+\boldsymbol{d}$.
 
 ### 解答 习题一
 
-由**公式 5.5.1** (差角余弦公式).
+由**定义 6.2.1 (向量加法的三角形法则)** 与**常用结论 6.2.3** (运算律).
 
-由 $\alpha\in\left(\frac{\pi}{2},\pi\right)$, $\sin\alpha=\frac{2}{3}$, 得 $\cos\alpha=-\frac{\sqrt{5}}{3}$. 由 $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, $\cos\beta=-\frac{3}{4}$, 得 $\sin\beta=-\frac{\sqrt{7}}{4}$. 故
+(1) 向东走 $20\text{ km}$.
 
-$$
-\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\left(-\frac{\sqrt{5}}{3}\right)\left(-\frac{3}{4}\right)+\frac{2}{3}\left(-\frac{\sqrt{7}}{4}\right)=\frac{3\sqrt{5}-2\sqrt{7}}{12}.
-$$
+(2) 向东走 $5\text{ km}$.
 
-$\blacksquare$
+(3) 向东北方向走, 东 $10\text{ km}$, 北 $10\text{ km}$.
+
+(4) 向西南方向走, 西 $5\text{ km}$, 南 $5\text{ km}$.
+
+(5) 向西走 $10\text{ km}$ 再向北走 $10\text{ km}$, 即西北方向.
+
+(6) 向南走 $10\text{ km}$ 再向东走 $10\text{ km}$, 即东南方向. $\blacksquare$
 
 ## 习题二
 
-(习题 5.5 复习巩固第 2 题) 已知 $\alpha$, $\beta$ 都是锐角, $\cos\alpha=\frac{1}{7}$, $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, 求 $\cos\beta$ 的值.
+(习题 6.2 复习巩固第 2 题) 一架飞机向北飞行 $300\text{ km}$, 然后改变方向向西飞行 $400\text{ km}$, 求飞机飞行的路程及两次位移的合成.
 
 ### 解答 习题二
 
-由**公式 5.5.1** (差角余弦公式), $\beta=\left(\alpha+\beta\right)-\alpha$.
+由**定义 6.2.1 (向量加法的三角形法则)**.
 
-由 $\alpha$ 是锐角, $\cos\alpha=\frac{1}{7}$, 得 $\sin\alpha=\frac{4\sqrt{3}}{7}$. 由 $\alpha+\beta\in\left(0,\pi\right)$, $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, 得 $\sin\left(\alpha+\beta\right)=\frac{5\sqrt{3}}{14}$. 故
-
-$$
-\cos\beta=\cos\left[\left(\alpha+\beta\right)-\alpha\right]=\cos\left(\alpha+\beta\right)\cos\alpha+\sin\left(\alpha+\beta\right)\sin\alpha=\left(-\frac{11}{14}\right)\frac{1}{7}+\frac{5\sqrt{3}}{14}\cdot\frac{4\sqrt{3}}{7}=\frac{-11+60}{98}=\frac{7}{14}=\frac{1}{2}.
-$$
-
-$\blacksquare$
+路程为 $300+400=700\text{ km}$. 两次位移合成的大小为 $\sqrt{300^2+400^2}=500\text{ km}$, 方向为北偏西 $\arctan\frac{400}{300}\approx53.1^{\circ}$. $\blacksquare$
 
 ## 习题三
 
-(习题 5.5 复习巩固第 3 题) 已知 $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$, $60^{\circ}< \alpha< 150^{\circ}$, 求 $\cos\alpha$ 的值.
+(习题 6.2 复习巩固第 3 题) 一艘船垂直于对岸航行, 航行速度的大小为 $16\text{ km/h}$, 同时河水流速的大小为 $4\text{ km/h}$. 求船实际航行的速度的大小与方向 (精确到 $1^{\circ}$).
 
 ### 解答 习题三
 
-由**公式 5.5.2** (和角余弦公式), $\alpha=\left(30^{\circ}+\alpha\right)-30^{\circ}$.
+由**定义 6.2.2 (平行四边形法则)**.
 
-由 $60^{\circ}< \alpha< 150^{\circ}$, 得 $90^{\circ}< 30^{\circ}+\alpha< 180^{\circ}$, 故 $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. 故
-
-$$
-\cos\alpha=\cos\left[\left(30^{\circ}+\alpha\right)-30^{\circ}\right]=\cos\left(30^{\circ}+\alpha\right)\cos30^{\circ}+\sin\left(30^{\circ}+\alpha\right)\sin30^{\circ}=\left(-\frac{4}{5}\right)\frac{\sqrt{3}}{2}+\frac{3}{5}\cdot\frac{1}{2}=\frac{3-4\sqrt{3}}{10}.
-$$
-
-$\blacksquare$
+船速垂直河岸 $16\text{ km/h}$, 水速沿岸 $4\text{ km/h}$. 合速度大小为 $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{ km/h}$. 方向与河岸垂线的夹角 $\theta$ 满足 $\tan\theta=\frac{4}{16}=\frac{1}{4}$, $\theta\approx14^{\circ}$. $\blacksquare$
 
 ## 习题四
 
-(习题 5.5 复习巩固第 4 题) 在 $\triangle ABC$ 中, $\cos A=\frac{12}{13}$, $\cos B=\frac{3}{5}$, 求 $\cos C$ 的值.
+(习题 6.2 复习巩固第 4 题) 化简.
+
+(1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
+
+(2) $\left(\boldsymbol{AB}+\boldsymbol{MB}\right)+\boldsymbol{BO}+\boldsymbol{OM}$;
+
+(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}$;
+
+(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}$;
+
+(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}$;
+
+(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}$;
+
+(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}$.
 
 ### 解答 习题四
 
-由 $C=\pi-\left(A+B\right)$, 得 $\cos C=-\cos\left(A+B\right)$.
+由**定义 6.2.1 (向量加法的三角形法则)** 与**定义 6.2.5 (向量的减法)**.
 
-由 $\cos A=\frac{12}{13}$, 得 $\sin A=\frac{5}{13}$. 由 $\cos B=\frac{3}{5}$, 得 $\sin B=\frac{4}{5}$. 故
+(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 再加 $\boldsymbol{CA}$ 得 $\boldsymbol{0}$.
 
-$$
-\cos C=-\cos\left(A+B\right)=-\left(\cos A\cos B-\sin A\sin B\right)=-\left(\frac{12}{13}\cdot\frac{3}{5}-\frac{5}{13}\cdot\frac{4}{5}\right)=-\frac{36-20}{65}=-\frac{16}{65}.
-$$
+(2) $\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}=\boldsymbol{AB}+\left(\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}\right)=\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BM}=\boldsymbol{AB}$.
 
-$\blacksquare$
+(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}=\left(\boldsymbol{OA}+\boldsymbol{BO}\right)+\left(\boldsymbol{OC}+\boldsymbol{CO}\right)=\boldsymbol{OA}+\boldsymbol{BO}=\boldsymbol{BA}$.
+
+(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}=\boldsymbol{CB}+\boldsymbol{BD}+\boldsymbol{DC}=\boldsymbol{CB}+\boldsymbol{BC}=\boldsymbol{0}$.
+
+(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}=\boldsymbol{DA}+\boldsymbol{AD}=\boldsymbol{0}$.
+
+(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}=\boldsymbol{DB}-\boldsymbol{DC}=\boldsymbol{CB}$.
+
+(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}=\boldsymbol{NP}+\boldsymbol{MN}+\boldsymbol{PM}=\boldsymbol{MN}+\boldsymbol{NP}+\boldsymbol{PM}=\boldsymbol{0}$. $\blacksquare$
 
 ## 习题五
 
-(习题 5.5 复习巩固第 5 题) 已知 $\tan\left(\alpha+\beta\right)=3$, $\tan\left(\alpha-\beta\right)=5$, 求 $\tan2\alpha$, $\tan2\beta$ 的值.
+(习题 6.2 复习巩固第 5 题) 作图验证:
+
+(1) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)+\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}$;
+
+(2) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{b}$.
+
+图:以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$,先作 $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$ 与 $\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$ 再相加得 $\boldsymbol{a}$;另一组作图将二者相减得 $\boldsymbol{b}$,验证两个恒等式.
 
 ### 解答 习题五
 
-由 $2\alpha=\left(\alpha+\beta\right)+\left(\alpha-\beta\right)$, $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$.
+由**常用结论 6.2.7** (数乘的运算律).
 
-由**公式 5.5.5**, 得 $\tan2\alpha=\frac{3+5}{1-3\times5}=\frac{8}{-14}=-\frac{4}{7}$.
+(1) 左边 $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}=\boldsymbol{a}=$ 右边.
 
-由**公式 5.5.6**, 得 $\tan2\beta=\frac{3-5}{1+3\times5}=\frac{-2}{16}=-\frac{1}{8}$. $\blacksquare$
+(2) 左边 $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\boldsymbol{b}=$ 右边. $\blacksquare$
 
 ## 习题六
 
-(习题 5.5 复习巩固第 6 题) 化简:
+(习题 6.2 复习巩固第 6 题)
 
-(1) $\sin347^{\circ}\cos148^{\circ}+\sin77^{\circ}\cos58^{\circ}$;
+(1) 已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 求作向量 $\boldsymbol{c}$, 使 $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
 
-(2) $\sin164^{\circ}\sin224^{\circ}+\sin254^{\circ}\sin314^{\circ}$;
-
-(3) $\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)-\cos\left(\beta+\alpha\right)\sin\left(\beta-\gamma\right)$;
-
-(4) $\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\gamma-\beta\right)$;
-
-(5) $\frac{\tan\frac{5\pi}{12}+\tan\frac{\pi}{12}}{1-\tan\frac{5\pi}{12}\tan\frac{\pi}{12}}$;
-
-(6) $\frac{2\sin\alpha\sin\beta+\cos\left(\alpha+\beta\right)}{\cos\left(\alpha-\beta\right)}$.
+(2) (1) 中表示 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 的有向线段能构成三角形吗?
 
 ### 解答 习题六
 
-由**公式 5.5.1** 至**公式 5.5.6**.
+由**定义 6.2.1 (向量加法的三角形法则)**.
 
-(1) 由 $\sin347^{\circ}=\sin\left(-13^{\circ}\right)=-\sin13^{\circ}$, $\cos148^{\circ}=-\cos32^{\circ}$, 得原式 $=\sin13^{\circ}\cos32^{\circ}+\cos13^{\circ}\sin32^{\circ}=\sin45^{\circ}=\frac{\sqrt{2}}{2}$.
+(1) 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则 $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$. 取 $\boldsymbol{c}=-\boldsymbol{AC}$, 即从 $C$ 指向 $A$ 的向量, 则 $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
 
-(2) 由诱导公式, 得原式 $=-\sin16^{\circ}\sin36^{\circ}+\cos16^{\circ}\cos36^{\circ}=\cos\left(16^{\circ}+36^{\circ}\right)=\cos52^{\circ}$.
-
-(3) 由 $\sin\left(\beta-\gamma\right)=-\sin\left(\gamma-\beta\right)$, 得原式 $=\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)+\cos\left(\alpha+\beta\right)\sin\left(\gamma-\beta\right)=\sin\left(\alpha+\beta+\gamma-\beta\right)=\sin\left(\alpha+\gamma\right)$.
-
-(4) 由 $\cos\left(\gamma-\beta\right)=\cos\left(\beta-\gamma\right)$, 得原式 $=\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\beta-\gamma\right)=-\cos\left[\left(\alpha-\beta\right)+\left(\beta-\gamma\right)\right]=-\cos\left(\alpha-\gamma\right)$.
-
-(5) 由**公式 5.5.5**, 得原式 $=\tan\left(\frac{5\pi}{12}+\frac{\pi}{12}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
-
-(6) 由 $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$, $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$, 得分子 $=2\sin\alpha\sin\beta+\cos\alpha\cos\beta-\sin\alpha\sin\beta=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos\left(\alpha-\beta\right)$. 故原式 $=1$. $\blacksquare$
+(2) 三条有向线段首尾相接构成三角形. $\blacksquare$
 
 ## 习题七
 
-(习题 5.5 复习巩固第 7 题) 已知 $\sin\alpha=0.8$, $\alpha\in\left(0,\frac{\pi}{2}\right)$, 求 $\sin2\alpha$, $\cos2\alpha$ 的值.
+(习题 6.2 复习巩固第 7 题) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$ 为两个非零向量.
+
+(1) 求作向量 $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$;
+
+(2) 当向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 成什么位置关系时, 满足 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$? (不要求证明)
 
 ### 解答 习题七
 
-由**公式 5.5.7** 及**公式 5.5.8**.
+由**定义 6.2.1 (向量加法的三角形法则)** 与**定义 6.2.5 (向量的减法)**.
 
-由 $\sin\alpha=0.8=\frac{4}{5}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$, 得 $\cos\alpha=\frac{3}{5}$. 故 $\sin2\alpha=2\sin\alpha\cos\alpha=2\times\frac{4}{5}\times\frac{3}{5}=\frac{24}{25}$, $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{16}{25}=-\frac{7}{25}$. $\blacksquare$
+(1) 略.
+
+(2) 由 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}\right)^2$ 展开得 $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$. 故当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 垂直时满足. $\blacksquare$
 
 ## 习题八
 
-(习题 5.5 复习巩固第 8 题) 求证:
+(习题 6.2 复习巩固第 8 题) 化简.
 
-(1) $\left(\sin2\alpha-\cos2\alpha\right)^{2}=1-\sin4\alpha$;
+(1) $5\left(2\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
 
-(2) $\tan\left(\frac{x}{2}+\frac{\pi}{4}\right)+\tan\left(\frac{x}{2}-\frac{\pi}{4}\right)=2\tan x$;
+(2) $6\left(\boldsymbol{a}-3\boldsymbol{b}+\boldsymbol{c}\right)-4\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$;
 
-(3) $\frac{1+\sin2\varphi}{\cos\varphi+\sin\varphi}=\cos\varphi+\sin\varphi$;
+(3) $\frac{1}{2}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+5\boldsymbol{a}-\frac{1}{3}\left(6\boldsymbol{a}-9\boldsymbol{b}\right)$;
 
-(4) $\frac{2\sin\alpha\cos\alpha}{\cos^{2}\alpha-\sin^{2}\alpha}=\frac{2\tan\alpha}{\left(1-\tan\alpha\right)\left(1+\tan\alpha\right)}$;
-
-(5) $\frac{1-\cos2\theta}{1+\cos2\theta}=\tan^{2}\theta$;
-
-(6) $\frac{1+\sin2\theta-\cos2\theta}{1+\sin2\theta+\cos2\theta}=\tan\theta$.
+(4) $\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(x-y\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
 
 ### 解答 习题八
 
-由**公式 5.5.7** 至**公式 5.5.9**.
+由**常用结论 6.2.7** (数乘的运算律).
 
-(1) 左边 $=\sin^{2}2\alpha-2\sin2\alpha\cos2\alpha+\cos^{2}2\alpha=1-\sin4\alpha=$ 右边.
+(1) 原式 $=10\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=-2\boldsymbol{a}-2\boldsymbol{b}$.
 
-(2) 令 $u=\tan\frac{x}{2}$, 由**公式 5.5.5** 及**公式 5.5.6**, 左边 $=\frac{u+1}{1-u}+\frac{u-1}{1+u}=\frac{\left(u+1\right)^{2}-\left(1-u\right)^{2}}{1-u^{2}}=\frac{4u}{1-u^{2}}=2\cdot\frac{2u}{1-u^{2}}=2\tan x=$ 右边.
+(2) 原式 $=6\boldsymbol{a}-18\boldsymbol{b}+6\boldsymbol{c}+4\boldsymbol{a}-4\boldsymbol{b}+4\boldsymbol{c}=10\boldsymbol{a}-22\boldsymbol{b}+10\boldsymbol{c}$.
 
-(3) 左边 $=\frac{\left(\sin\varphi+\cos\varphi\right)^{2}}{\cos\varphi+\sin\varphi}=\sin\varphi+\cos\varphi=$ 右边.
+(3) 原式 $=\frac{3}{2}\boldsymbol{a}-\boldsymbol{b}+5\boldsymbol{a}-2\boldsymbol{a}+3\boldsymbol{b}=\frac{9}{2}\boldsymbol{a}+2\boldsymbol{b}$.
 
-(4) 左边 $=\frac{\sin2\alpha}{\cos2\alpha}=\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=$ 右边.
-
-(5) 左边 $=\frac{2\sin^{2}\theta}{2\cos^{2}\theta}=\tan^{2}\theta=$ 右边.
-
-(6) 左边 $=\frac{2\sin^{2}\theta+2\sin\theta\cos\theta}{2\cos^{2}\theta+2\sin\theta\cos\theta}=\frac{2\sin\theta\left(\sin\theta+\cos\theta\right)}{2\cos\theta\left(\cos\theta+\sin\theta\right)}=\tan\theta=$ 右边. $\blacksquare$
-
-## 习题九
-
-(习题 5.5 复习巩固第 9 题) 已知 $\sin\left(\alpha+\beta\right)=\frac{1}{2}$, $\sin\left(\alpha-\beta\right)=\frac{1}{3}$, 求证:
-
-(1) $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$;
-
-(2) $\tan\alpha=5\tan\beta$.
-
-### 解答 习题九
-
-由**公式 5.5.3** 及**公式 5.5.4**.
-
-(1) 由 $\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\frac{1}{2}$, $\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\frac{1}{3}$. 两式相加得 $2\sin\alpha\cos\beta=\frac{5}{6}$, 相减得 $2\cos\alpha\sin\beta=\frac{1}{6}$. 故 $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$.
-
-(2) 由 (1) 两边同除以 $\cos\alpha\cos\beta$, 得 $\tan\alpha=5\tan\beta$. $\blacksquare$
-
-## 习题十
-
-(习题 5.5 复习巩固第 10 题) 已知 $\frac{1-\tan\theta}{2+\tan\theta}=1$, 求证 $\tan2\theta=-4\tan\left(\theta+\frac{\pi}{4}\right)$.
-
-### 解答 习题十
-
-由已知得 $1-\tan\theta=2+\tan\theta$, 即 $\tan\theta=-\frac{1}{2}$.
-
-左边 $=\tan2\theta=\frac{2\tan\theta}{1-\tan^{2}\theta}=\frac{-1}{1-\frac{1}{4}}=-\frac{4}{3}$.
-
-右边 $=-4\tan\left(\theta+\frac{\pi}{4}\right)=-4\cdot\frac{\tan\theta+1}{1-\tan\theta}=-4\cdot\frac{-\frac{1}{2}+1}{1+\frac{1}{2}}=-4\cdot\frac{1}{3}=-\frac{4}{3}$.
-
-左边 $=$ 右边, 得证. $\blacksquare$
-
-## 习题十一
-
-(习题 5.5 复习巩固第 11 题) 已知一段圆弧所对的圆心角的正弦值等于 $\frac{3}{5}$, 求这段圆弧所对的圆周角的正弦, 余弦和正切.
-
-### 解答 习题十一
-
-由**公式 5.5.10** (半角公式).
-
-设圆心角为 $2\theta$, 则圆周角为 $\theta$. 由 $\sin2\theta=\frac{3}{5}$, 得 $\cos2\theta=\pm\frac{4}{5}$.
-
-若 $\cos2\theta=\frac{4}{5}$, 则 $\sin\theta=\sqrt{\frac{1-\cos2\theta}{2}}=\sqrt{\frac{1}{10}}=\frac{\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1+\cos2\theta}{2}}=\frac{3\sqrt{10}}{10}$, $\tan\theta=\frac{1}{3}$.
-
-若 $\cos2\theta=-\frac{4}{5}$, 则 $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\frac{3\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1-\frac{4}{5}}{2}}=\frac{\sqrt{10}}{10}$, $\tan\theta=3$. $\blacksquare$
-
-## 习题十二
-
-(习题 5.5 复习巩固第 12 题) 化简:
-
-(1) $3\sqrt{15}\sin x+3\sqrt{5}\cos x$;
-
-(2) $\frac{\sqrt{3}}{2}\cos x-\frac{1}{2}\sin x$;
-
-(3) $\sqrt{3}\sin\frac{x}{2}+\cos\frac{x}{2}$;
-
-(4) $\frac{\sqrt{2}}{4}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{6}}{4}\cos\left(\frac{\pi}{4}-x\right)$.
-
-### 解答 习题十二
-
-由**公式 5.5.11** (辅助角公式).
-
-(1) 原式 $=6\sqrt{5}\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=6\sqrt{5}\sin\left(x+\frac{\pi}{6}\right)$.
-
-(2) 原式 $=\cos\frac{\pi}{6}\cos x-\sin\frac{\pi}{6}\sin x=\cos\left(x+\frac{\pi}{6}\right)$.
-
-(3) 原式 $=2\left(\frac{\sqrt{3}}{2}\sin\frac{x}{2}+\frac{1}{2}\cos\frac{x}{2}\right)=2\sin\left(\frac{x}{2}+\frac{\pi}{6}\right)$.
-
-(4) 原式 $=\frac{\sqrt{2}}{2}\left(\frac{1}{2}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{3}}{2}\cos\left(\frac{\pi}{4}-x\right)\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{\pi}{4}-x+\frac{\pi}{3}\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{7\pi}{12}-x\right)$. $\blacksquare$
-
-## 习题十三
-
-(习题 5.5 综合运用第 13 题) 在 $\triangle ABC$ 中, 已知 $\tan A$, $\tan B$ 是 $x$ 的方程 $x^{2}+p\left(x+1\right)+1=0$ 的两个实根, 求 $\angle C$.
-
-### 解答 习题十三
-
-由韦达定理及**公式 5.5.5**.
-
-由 $\tan A+\tan B=-p$, $\tan A\tan B=p+1$. 故 $\tan\left(A+B\right)=\frac{\tan A+\tan B}{1-\tan A\tan B}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. 由 $C=\pi-\left(A+B\right)$, 得 $\tan C=-\tan\left(A+B\right)=-1$, 故 $C=135^{\circ}$. $\blacksquare$
-
-## 习题十四
-
-(习题 5.5 综合运用第 14 题) 在 $\triangle ABC$ 中, $B=\frac{\pi}{4}$, $BC$ 边上的高等于 $\frac{1}{3}BC$, 则 $\cos A=$ ( ).
-
-(A) $\frac{3\sqrt{10}}{10}$
-
-(B) $\frac{\sqrt{10}}{10}$
-
-(C) $-\frac{\sqrt{10}}{10}$
-
-(D) $-\frac{3\sqrt{10}}{10}$
-
-### 解答 习题十四
-
-由已知条件设 $BC=3$, 则高 $AD=1$. 在 $\text{Rt}\triangle ABD$ 中, $B=45^{\circ}$, $AD=1$, 故 $BD=1$, $AB=\sqrt{2}$. $DC=BC-BD=2$. 在 $\text{Rt}\triangle ADC$ 中, $AD=1$, $DC=2$, 故 $AC=\sqrt{5}$.
-
-由**公式 5.5.2**, $\cos A=\cos\left(\angle BAD+\angle DAC\right)$. $\angle BAD=45^{\circ}$, $\tan\angle DAC=\frac{DC}{AD}=2$. 故 $\sin\angle DAC=\frac{2}{\sqrt{5}}$, $\cos\angle DAC=\frac{1}{\sqrt{5}}$.
-
-$$
-\cos A=\cos45^{\circ}\cos\angle DAC-\sin45^{\circ}\sin\angle DAC=\frac{\sqrt{2}}{2}\cdot\frac{1}{\sqrt{5}}-\frac{\sqrt{2}}{2}\cdot\frac{2}{\sqrt{5}}=-\frac{\sqrt{10}}{10}.
-$$
-
-选 (C). $\blacksquare$
-
-### 信息技术应用一
-
-(思考 1) 阅读 "利用信息技术制作三角函数表" 一文, 说明如何利用和角公式递推计算三角函数值.
-
-### 解答 信息技术应用一
-
-由**公式 5.5.3** (和角正弦公式).
-
-取初始值 $\sin1'\approx0.000290888$, $\cos1'=\sqrt{1-\sin^{2}1'}$. 令 $\alpha_{0}=1'$, $\alpha_{n}=\alpha_{n-1}+1'$. 由 $\sin\alpha_{n}=\sin1'\cos\alpha_{n-1}+\cos1'\sin\alpha_{n-1}$, $\cos\alpha_{n}=\sqrt{1-\sin^{2}\alpha_{n}}$, 即可递推计算出 $0^{\circ}\sim90^{\circ}$ 每隔 $1'$ 的三角函数值. $\blacksquare$
+(4) 原式 $=\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{a}+\boldsymbol{b}\right)=2\left(x-y\right)\boldsymbol{b}$. $\blacksquare$

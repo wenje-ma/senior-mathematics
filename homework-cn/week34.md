@@ -1,699 +1,576 @@
 # week34
-> **定义 6.2.11 (向量的数量积)**
+> **定义 9.1.1 (普查与抽样调查)**
 > 
-> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
-> **定理 6.3.1 (平面向量基本定理)**
+> 对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
+> **定义 9.1.2 (总体, 个体, 样本与样本量)**
 > 
-> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
-> **定理 6.4.2 (余弦定理)**
+> 统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
+> **定义 9.1.3 (简单随机抽样)**
 > 
-> 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
-> **定理 6.4.3 (正弦定理)**
+> 设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
+> **定义 9.1.4 (总体均值与样本均值)**
 > 
-> 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
-
-## 练习一
-
-(练习 6.4 第 1 题) 证明: 等腰三角形的两个底角相等.
-
-### 解答 练习一
-
-由**常用结论 6.4.1** (向量法三步曲).
-
-设 $\triangle ABC$ 中 $AB=AC$. 取 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$, 则 $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
-
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
-
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-\boldsymbol{b}\right)\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
-
-由 $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ 及 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, 得 $\cos B=\cos C$. 又 $B$, $C\in\left(0,\pi\right)$, 故 $B=C$. $\blacksquare$
-
-## 练习二
-
-(练习 6.4 第 2 题) 如图, 正方形 $ABCD$ 的边长为 $a$, $E$ 是 $AB$ 的中点, $F$ 是 $BC$ 边上靠近点 $B$ 的三等分点, $AF$ 与 $DE$ 交于点 $M$, 求 $\angle EMF$ 的余弦值.
-
-图:正方形 $ABCD$,$E$ 为边 $AB$ 的中点,$F$ 为边 $BC$ 上靠近点 $B$ 的三等分点(即 $BF=\frac{1}{3}BC$),连接 $AF$ 与 $DE$,两线段交于点 $M$.
-
-### 解答 练习二
-
-由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.4.2 (余弦定理)**.
-
-以 $A$ 为原点, $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴建系. $A\left(0,0\right)$, $B\left(a,0\right)$, $C\left(a,a\right)$, $D\left(0,a\right)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
-
-$\boldsymbol{DE}=\left(\frac{a}{2},-a\right)$, $\boldsymbol{AF}=\left(a,\frac{a}{3}\right)$.
-
-$\angle EMF$ 即 $\boldsymbol{MD}$ 与 $\boldsymbol{MF}$ 的夹角. $\boldsymbol{MD}$ 与 $\boldsymbol{DE}$ 共线, $\boldsymbol{MF}$ 与 $\boldsymbol{AF}$ 共线.
-
-$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+\left(-a\right)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
-
-## 练习三
-
-(练习 6.4 第 3 题) 如图, 在 $\triangle ABC$ 中, 点 $O$ 是 $BC$ 的中点, 过点 $O$ 的直线分别交直线 $AB$, $AC$ 于不同的两点 $M$, $N$. 设 $\boldsymbol{AB}=m\boldsymbol{AM}$, $\boldsymbol{AC}=n\boldsymbol{AN}$, 求 $m+n$ 的值.
-
-图:三角形 $ABC$,$O$ 为边 $BC$ 的中点,过点 $O$ 的一条直线分别交直线 $AB$ 于 $M$,交直线 $AC$ 于 $N$($M$, $N$ 为不同的两点).
-
-### 解答 练习三
-
-由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.3.1 (平面向量基本定理)**.
-
-$\boldsymbol{AO}=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\frac{1}{2}\left(m\boldsymbol{AM}+n\boldsymbol{AN}\right)$.
-
-又 $O$ 在直线 $MN$ 上, 由三点共线条件, 存在 $\lambda$ 使 $\boldsymbol{AO}=\lambda\boldsymbol{AM}+\left(1-\lambda\right)\boldsymbol{AN}$.
-
-比较系数: $\frac{m}{2}=\lambda$, $\frac{n}{2}=1-\lambda$.
-
-$m+n=2\lambda+2\left(1-\lambda\right)=2$. $\blacksquare$
-
-## 练习四
-
-(练习 6.4 第 4 题) 一物体在力 $\boldsymbol{F}$ 的作用下, 由点 $A\left(20,15\right)$ 移动到点 $B\left(7,0\right)$. 已知 $\boldsymbol{F}=\left(4,-5\right)$, 求 $\boldsymbol{F}$ 对该物体所做的功.
-
-### 解答 练习四
-
-由**定义 6.2.11 (向量的数量积)**, 功等于力与位移的数量积.
-
-位移 $\boldsymbol{s}=\boldsymbol{AB}=\left(7-20,0-15\right)=\left(-13,-15\right)$.
-
-功 $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times\left(-13\right)+\left(-5\right)\times\left(-15\right)=-52+75=23$. $\blacksquare$
-
-## 练习五
-
-(练习 6.4 第 5 题) 如图, 一滑轮组中有两个定滑轮 $A$, $B$, 在从连接点 $O$ 出发的三根绳的端点处, 挂着 $3$ 个重物, 它们所受的重力分别为 $4\text{ N}$, $4\text{ N}$ 和 $4\sqrt 3\text{ N}$. 此时整个系统恰处于平衡状态, 求 $\angle AOB$ 的大小.
-
-图:滑轮组示意图,上方有两个定滑轮 $A$, $B$,下方连接点 $O$ 处引出三根绳:两根绳分别绕过定滑轮 $A$, $B$ 各挂一个重 $4\text{ N}$ 的重物,第三根绳竖直向下挂一个重 $4\sqrt 3\text{ N}$ 的重物,整个系统平衡.
-
-### 解答 练习五
-
-由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
-
-设 $\boldsymbol{OA}$, $\boldsymbol{OB}$ 的大小均为 $4$, 第三根绳向下, 大小为 $4\sqrt 3$. 平衡时 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
-
-$\boldsymbol{OC}=-\left(\boldsymbol{OA}+\boldsymbol{OB}\right)$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
-
-$\left(4\sqrt 3\right)^2=16+16+2\times16\cos\angle AOB$.
-
-$48=32+32\cos\angle AOB$.
-
-$\cos\angle AOB=\frac{1}{2}$, $\angle AOB=60^{\circ}$. $\blacksquare$
-
-## 练习六
-
-(练习 6.4 第 6 题) 若平面上的三个力 $\boldsymbol{F}_1$, $\boldsymbol{F}_2$, $\boldsymbol{F}_3$ 作用于一点, 且处于平衡状态. 已知 $\lvert\boldsymbol{F}_1\rvert=1\text{ N}$, $\lvert\boldsymbol{F}_2\rvert=\frac{\sqrt 6+\sqrt 2}{2}\text{ N}$, $\boldsymbol{F}_1$ 与 $\boldsymbol{F}_2$ 的夹角为 $45^{\circ}$, 求:
-
-(1) $\boldsymbol{F}_3$ 的大小;
-
-(2) $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 夹角的大小.
-
-### 解答 练习六
-
-由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
-
-平衡时 $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$.
-
-(1) $\lvert\boldsymbol{F}_1+\boldsymbol{F}_2\rvert^2=\lvert\boldsymbol{F}_1\rvert^2+\lvert\boldsymbol{F}_2\rvert^2+2\boldsymbol{F}_1\cdot\boldsymbol{F}_2$.
-
-$=1+\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2+2\times1\times\frac{\sqrt 6+\sqrt 2}{2}\times\cos45^{\circ}$.
-
-$\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2=\frac{8+4\sqrt 3}{4}=2+\sqrt 3$.
-
-$2\times\frac{\sqrt 6+\sqrt 2}{2}\times\frac{\sqrt 2}{2}=\frac{\sqrt 6+\sqrt 2}{\sqrt 2}=\sqrt 3+1$.
-
-$\lvert\boldsymbol{F}_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=\left(\sqrt 3+1\right)^2$.
-
-$\lvert\boldsymbol{F}_3\rvert=\sqrt 3+1\text{ N}$.
-
-(2) 设 $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 夹角为 $\theta$. $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$, 
-
-$\boldsymbol{F}_3\cdot\boldsymbol{F}_1=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-\left(1+\sqrt 3\right)$.
-
-$\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\left(\sqrt 3+1\right)\times1}=-1$. $\theta=180^{\circ}$? 需考虑夹角方向.
-
-修正: $\boldsymbol{F}_3$ 与 $\boldsymbol{F}_1$ 的夹角 (取 $0$ 到 $180^{\circ}$) 满足 $\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\sqrt 3+1}=-1$, 即方向相反. $\blacksquare$
-
-## 练习七
-
-(练习 6.4 第 7 题) 在 $\triangle ABC$ 中, 已知 $b=12.9\text{ cm}$, $c=15.4\text{ cm}$, $A=42.3^{\circ}$, 解这个三角形 (角度精确到 $0.1^{\circ}$, 边长精确到 $0.1\text{ cm}$).
-
-### 解答 练习七
-
-由**定理 6.4.2 (余弦定理)**.
-
-$a^2=b^2+c^2-2bc\cos A=12.9^2+15.4^2-2\times12.9\times15.4\times\cos42.3^{\circ}$.
-
-$=166.41+237.16-397.32\times0.740\approx403.57-294.0\approx109.6$.
-
-$a\approx10.5\text{ cm}$.
-
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{109.6+237.16-166.41}{2\times10.5\times15.4}=\frac{180.35}{323.4}\approx0.558$.
-
-$B\approx56.1^{\circ}$.
-
-$C=180^{\circ}-42.3^{\circ}-56.1^{\circ}=81.6^{\circ}$. $\blacksquare$
-
-## 练习八
-
-(练习 6.4 第 8 题) 在 $\triangle ABC$ 中, 已知 $a=2$, $b=\sqrt 2$, $c=\sqrt 3+1$, 解这个三角形.
-
-### 解答 练习八
-
-由**定理 6.4.2 (余弦定理)**.
-
-$\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{2+\left(\sqrt 3+1\right)^2-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+4+2\sqrt 3-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+2\sqrt 3}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{\sqrt 2}{2}$.
-
-$A=45^{\circ}$.
-
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{4+4+2\sqrt 3-2}{2\times2\times\left(\sqrt 3+1\right)}=\frac{6+2\sqrt 3}{4\left(\sqrt 3+1\right)}=\frac{\sqrt 3}{2}$.
-
-$B=30^{\circ}$.
-
-$C=180^{\circ}-45^{\circ}-30^{\circ}=105^{\circ}$. $\blacksquare$
-
-## 练习九
-
-(练习 6.4 第 9 题) 在 $\triangle ABC$ 中, 已知 $b=5$, $c=2$, 锐角 $A$ 满足 $\sin A=\frac{\sqrt{21}}{5}$, 求 $C$ (精确到 $1^{\circ}$).
-
-### 解答 练习九
-
-由**定理 6.4.2 (余弦定理)**.
-
-$\cos A=\sqrt{1-\frac{21}{25}}=\frac{2}{5}$.
-
-$a^2=b^2+c^2-2bc\cos A=25+4-2\times5\times2\times\frac{2}{5}=29-8=21$.
-
-$a=\sqrt{21}$.
-
-由**定理 6.4.3 (正弦定理)**: $\sin C=\frac{c\sin A}{a}=\frac{2\cdot\frac{\sqrt{21}}{5}}{\sqrt{21}}=\frac{2}{5}$.
-
-$C=\arcsin\frac{2}{5}\approx24^{\circ}$. $\blacksquare$
-
-## 练习十
-
-(练习 6.4 第 10 题) 完成下列解三角形问题 (角度精确到 $1^{\circ}$, 边长精确到 $1\text{ cm}$):
-
-(1) 在 $\triangle ABC$ 中, 已知 $A=60^{\circ}$, $B=45^{\circ}$, $c=20\text{ cm}$;
-
-(2) 在 $\triangle ABC$ 中, 已知 $a=20\text{ cm}$, $b=11\text{ cm}$, $B=30^{\circ}$.
-
-### 解答 练习十
-
-由**定理 6.4.3 (正弦定理)**.
-
-(1) $C=180^{\circ}-60^{\circ}-45^{\circ}=75^{\circ}$.
-
-$a=\frac{c\sin A}{\sin C}=\frac{20\sin60^{\circ}}{\sin75^{\circ}}=\frac{20\cdot\frac{\sqrt 3}{2}}{\frac{\sqrt 6+\sqrt 2}{4}}\approx\frac{17.32}{0.966}\approx18\text{ cm}$.
-
-$b=\frac{c\sin B}{\sin C}=\frac{20\sin45^{\circ}}{\sin75^{\circ}}\approx\frac{14.14}{0.966}\approx15\text{ cm}$.
-
-(2) $\sin A=\frac{a\sin B}{b}=\frac{20\times0.5}{11}=\frac{10}{11}\approx0.909$.
-
-$A\approx65^{\circ}$ 或 $A\approx115^{\circ}$.
-
-(a) $A\approx65^{\circ}$: $C=180^{\circ}-65^{\circ}-30^{\circ}=85^{\circ}$. $c=\frac{b\sin C}{\sin B}=\frac{11\times\sin85^{\circ}}{0.5}\approx22\text{ cm}$.
-
-(b) $A\approx115^{\circ}$: $C=180^{\circ}-115^{\circ}-30^{\circ}=35^{\circ}$. $c=\frac{11\times\sin35^{\circ}}{0.5}\approx13\text{ cm}$. $\blacksquare$
-
-## 练习十一
-
-(练习 6.4 第 11 题) 在 $\triangle ABC$ 中, 已知 $b=2$, $A=45^{\circ}$, $C=75^{\circ}$, 求 $c$.
-
-### 解答 练习十一
-
-由**定理 6.4.3 (正弦定理)**.
-
-$B=180^{\circ}-45^{\circ}-75^{\circ}=60^{\circ}$.
-
-$c=\frac{b\sin C}{\sin B}=\frac{2\sin75^{\circ}}{\sin60^{\circ}}=\frac{2\cdot\frac{\sqrt 6+\sqrt 2}{4}}{\frac{\sqrt 3}{2}}=\frac{\sqrt 6+\sqrt 2}{\sqrt 3}=\frac{3\sqrt 2+\sqrt 6}{3}$. $\blacksquare$
-
-## 练习十二
-
-(练习 6.4 第 12 题) 在 $\triangle ABC$ 中, 已知 $\cos A=\frac{4}{5}$, $B=\frac{\pi}{3}$, $b=\sqrt 3$, 求 $a$, $c$.
-
-### 解答 练习十二
-
-由**定理 6.4.3 (正弦定理)**.
-
-$\sin A=\sqrt{1-\frac{16}{25}}=\frac{3}{5}$.
-
-$a=\frac{b\sin A}{\sin B}=\frac{\sqrt 3\cdot\frac{3}{5}}{\frac{\sqrt 3}{2}}=\frac{6}{5}$.
-
-$C=180^{\circ}-A-B$. $\sin C=\sin\left(A+B\right)=\sin A\cos B+\cos A\sin B=\frac{3}{5}\cdot\frac{1}{2}+\frac{4}{5}\cdot\frac{\sqrt 3}{2}=\frac{3+4\sqrt 3}{10}$.
-
-$c=\frac{b\sin C}{\sin B}=\frac{\sqrt 3\cdot\frac{3+4\sqrt 3}{10}}{\frac{\sqrt 3}{2}}=\frac{3+4\sqrt 3}{5}$. $\blacksquare$
-
-## 练习十三
-
-(练习 6.4 第 13 题) 如图, 在某点 $B$ 处测得建筑物 $AE$ 的顶端 $A$ 的仰角为 $\alpha$, 沿 $BE$ 方向前进, 至点 $C$ 处测得顶端 $A$ 的仰角为 $2\alpha$, 再继续前进 $10\sqrt{3}\text{ m}$ 至 $D$ 点, 测得顶端 $A$ 的仰角为 $4\alpha$, 求建筑物 $AE$ 的高.
-
-图:竖直建筑物 $AE$($E$ 在地面,$A$ 为顶端),观测者在地面 $B$ 处测得 $A$ 的仰角为 $\alpha$,沿 $BE$ 方向前进到 $C$ 处测得仰角为 $2\alpha$,再前进 $10\sqrt 3\text{ m}$ 到 $D$ 处测得仰角为 $4\alpha$;$B$, $C$, $D$, $E$ 在同一条水平直线上.
-
-### 解答 练习十三
-
-由**定理 6.4.3 (正弦定理)**.
-
-设 $AE=h$. 在 $\triangle ACE$ 中, $\angle ACE=2\alpha$, $CE=\frac{h}{\tan 2\alpha}$. 在 $\triangle ADE$ 中, $\angle ADE=4\alpha$, $DE=\frac{h}{\tan 4\alpha}$.
-
-$CD=CE-DE=10\sqrt 3$.
-
-在 $\triangle ACD$ 中, $\angle CAD=4\alpha-2\alpha=2\alpha$, $\angle ACD=180^{\circ}-2\alpha$, $\angle ADC=180^{\circ}-4\alpha$.
-
-由正弦定理: $\frac{CD}{\sin 2\alpha}=\frac{AC}{\sin\left(180^{\circ}-4\alpha\right)}$.
-
-$AC=\frac{10\sqrt 3\sin4\alpha}{\sin2\alpha}=20\sqrt 3\cos2\alpha$.
-
-又 $h=AC\sin2\alpha=20\sqrt 3\sin2\alpha\cos2\alpha=10\sqrt 3\sin4\alpha$.
-
-当 $4\alpha=90^{\circ}$ 时 (即 $\alpha=22.5^{\circ}$), $h=10\sqrt 3\text{ m}$. $\blacksquare$
+> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **定义 9.1.5 (分层随机抽样, 层与比例分配)**
+> 
+> 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
+> **定义 9.2.1 (频率分布表与频率分布直方图)**
+> 
+> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
+> **定义 9.2.2 (第 p 百分位数)**
+> 
+> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
+> **定义 9.2.3 (众数, 中位数与平均数)**
+> 
+> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
+> **定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**
+> 
+> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
 ## 习题一
 
-(习题 6.4 复习巩固第 1 题) 若非零向量 $\boldsymbol{AB}$ 与 $\boldsymbol{AC}$ 满足 $\left(\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}+\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}\right)\cdot\boldsymbol{BC}=0$, 且 $\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}\cdot\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}=\frac{1}{2}$, 则 $\triangle ABC$ 为 ().
-
-(A) 三边均不相等的三角形 (B) 直角三角形
-
-(C) 底边和腰不相等的等腰三角形 (D) 等边三角形
+(习题 9.1 复习巩固第 5 题) 一支田径队有男运动员 56 人, 女运动员 42 人, 按性别进行分层, 用分层随机抽样的方法从全体运动员中抽出一个容量为 28 的样本. 如果样本按比例分配, 那么男, 女运动员应各抽取多少名?
 
 ### 解答 习题一
 
-由**定义 6.2.11 (向量的数量积)** 与**常用结论 6.3.8** (夹角).
+由**定义 9.1.5 (分层随机抽样, 层与比例分配)**, 比例分配时每层样本量与该层大小成比例.
 
-$\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}$ 与 $\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}$ 分别为 $\boldsymbol{AB}$, $\boldsymbol{AC}$ 方向的单位向量. 它们的和沿 $\angle A$ 的角平分线方向. 该和与 $\boldsymbol{BC}$ 垂直, 说明角平分线垂直于 $BC$, 故 $AB=AC$.
+运动员总人数为 $56+42=98$. 男生应抽取
 
-$\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}\cdot\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}=\cos A=\frac{1}{2}$, $A=60^{\circ}$.
+$$
+\frac{56}{98}\times28=16
+$$
 
-等腰且一角为 $60^{\circ}$, 故为等边三角形. 选 (D). $\blacksquare$
+名, 女生应抽取
+
+$$
+\frac{42}{98}\times28=12
+$$
+
+名. 且 $16+12=28$, 恰为样本容量. 故男运动员抽取 16 名, 女运动员抽取 12 名. $\blacksquare$
 
 ## 习题二
 
-(习题 6.4 复习巩固第 2 题) 已知 $O$, $N$, $P$ 在 $\triangle ABC$ 所在平面内, 满足 $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\rvert$, $\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$, 且 $\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}=\boldsymbol{PC}\cdot\boldsymbol{PA}$, 则点 $O$, $N$, $P$ 依次是 $\triangle ABC$ 的 ().
-
-(A) 重心, 外心, 垂心 (B) 重心, 外心, 内心
-
-(C) 外心, 重心, 垂心 (D) 外心, 重心, 内心
+(习题 9.1 综合运用第 6 题) 数据 $x_1,x_2,\cdots,x_n$ 的平均数为 $\overline x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline y$, $a,b$ 为常数. 如果满足 $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, 证明 $\overline y=a\overline x+b$.
 
 ### 解答 习题二
 
-由**定义 6.2.11 (向量的数量积)**.
+由**常用结论 9.1.7** (数据变换对平均数的影响).
 
-$\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\rvert$ 说明 $O$ 到三顶点等距, $O$ 为外心.
+因为 $y_i=ax_i+b$ ($i=1,2,\cdots,n$), 所以
 
-$\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$ 说明 $N$ 为重心 (重心性质).
+$$
+\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\overline x+b.
+$$
 
-$\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ 得 $\boldsymbol{PB}\cdot\left(\boldsymbol{PA}-\boldsymbol{PC}\right)=\boldsymbol{PB}\cdot\boldsymbol{CA}=0$, 即 $PB\perp CA$. 同理 $P$ 为垂心.
-
-选 (C). $\blacksquare$
+原式得证. $\blacksquare$
 
 ## 习题三
 
-(习题 6.4 复习巩固第 3 题) 用向量法证明: 直径所对的圆周角是直角.
+(习题 9.1 综合运用第 7 题) 已知总体划分为 3 层, 通过分层随机抽样, 得到各层的样本平均数分别为 $\overline x,\overline y,\overline z$.
+
+(1) 根据以上信息可以估计总体平均数吗? 如果不能, 还需要什么条件? 写出估计式.
+
+(2) 如果样本量是按比例分配, 第 1, 2, 3 层的个体数分别为 $L,M,N$, 样本量分别为 $l,m,n$, 证明:
+
+$$
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+$$
 
 ### 解答 习题三
 
-由**常用结论 6.4.1** (向量法三步曲) 与**常用结论 6.3.8** (垂直).
+由**定义 9.1.5 (分层随机抽样, 层与比例分配)** 与**常用结论 9.1.6** (分层随机抽样的总体平均数估计).
 
-设圆心为 $O$, 直径为 $AB$, $C$ 为圆上任意一点. $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OA}=-\boldsymbol{c}$, $\boldsymbol{OB}=\boldsymbol{c}$.
+(1) 仅凭各层的样本平均数 $\overline x,\overline y,\overline z$ 不能估计总体平均数, 还需要知道各层在总体中所占的比重 (即各层的个体数或样本量), 才能对各层样本平均数加权. 估计式为
 
-$\boldsymbol{AC}=\boldsymbol{c}-\left(-\boldsymbol{c}\right)=2\boldsymbol{c}$? 修正: 设 $\boldsymbol{OA}=\boldsymbol{a}$, 则 $\boldsymbol{OB}=-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{c}\rvert=R$.
+$$
+\overline W=\frac{L\overline x+M\overline y+N\overline z}{L+M+N},
+$$
 
-$\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{c}-\left(-\boldsymbol{a}\right)=\boldsymbol{c}+\boldsymbol{a}$.
+其中 $L,M,N$ 分别为第 1, 2, 3 层的个体数.
 
-$\boldsymbol{AC}\cdot\boldsymbol{BC}=\left(\boldsymbol{c}-\boldsymbol{a}\right)\cdot\left(\boldsymbol{c}+\boldsymbol{a}\right)=\boldsymbol{c}^2-\boldsymbol{a}^2=R^2-R^2=0$.
+(2) 在比例分配下, 各层样本量与层大小成比例, 即
 
-故 $\boldsymbol{AC}\perp\boldsymbol{BC}$, $\angle ACB=90^{\circ}$. $\blacksquare$
+$$
+\frac{l}{L}=\frac{m}{M}=\frac{n}{N}=\frac{l+m+n}{L+M+N}.
+$$
+
+由 $\frac{l}{L}=\frac{l+m+n}{L+M+N}$, 得 $\frac{L}{L+M+N}=\frac{l}{l+m+n}$; 同理 $\frac{M}{L+M+N}=\frac{m}{l+m+n}$, $\frac{N}{L+M+N}=\frac{n}{l+m+n}$.
+
+代入即得
+
+$$
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+$$
+
+原式得证. $\blacksquare$
 
 ## 习题四
 
-(习题 6.4 复习巩固第 4 题) 两个粒子 $A$, $B$ 从同一发射源发射出来, 在某一时刻, 它们的位移分别为 $\boldsymbol{s}_A=\left(4,3\right)$, $\boldsymbol{s}_B=\left(2,10\right)$.
+(习题 9.1 综合运用第 8 题) 校学生会希望调查学生对本学期学生活动计划的意见. 你自愿担任调查员, 并打算在学校里抽取 $10\%$ 的同学作为样本.
 
-(1) 写出此时粒子 $B$ 相对粒子 $A$ 的位移 $\boldsymbol{s}$;
+(1) 怎样安排抽样, 可以提高样本的代表性?
 
-(2) 计算 $\boldsymbol{s}$ 在 $\boldsymbol{s}_A$ 上的投影向量.
+(2) 在调查抽样中你可能遇到哪些问题?
+
+(3) 这些问题可能会影响什么?
+
+(4) 你打算怎样解决这些问题?
 
 ### 解答 习题四
 
-由**定义 6.2.11 (向量的数量积)** 与**常用结论 6.2.12** (投影向量).
+由**定义 9.1.5 (分层随机抽样, 层与比例分配)** 与**定义 9.1.3 (简单随机抽样)**.
 
-(1) $\boldsymbol{s}=\boldsymbol{s}_B-\boldsymbol{s}_A=\left(2-4,10-3\right)=\left(-2,7\right)$.
+(1) 为提高样本的代表性, 可按年级或班级对全校学生进行分层, 使各年级, 各班在样本中的比例与它们在全校学生中的比例一致, 再在各层内进行简单随机抽样, 即采用比例分配的分层随机抽样.
 
-(2) $\boldsymbol{s}\cdot\boldsymbol{s}_A=\left(-2\right)\times4+7\times3=13$.
+(2) 可能遇到的问题: 被抽到的同学不愿意填问卷, 问卷回收率低; 样本分散在各个班级, 组织调查费时; 样本量小, 个别同学的意见对结果影响大.
 
-$\lvert\boldsymbol{s}_A\rvert=5$.
+(3) 这些问题会降低样本的回收率和代表性, 使调查结果偏离全体同学的真实意见.
 
-投影向量为 $\frac{\boldsymbol{s}\cdot\boldsymbol{s}_A}{\lvert\boldsymbol{s}_A\rvert^2}\boldsymbol{s}_A=\frac{13}{25}\left(4,3\right)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
+(4) 解决办法: 采用匿名问卷以消除顾虑; 利用课间或自习时间当面发放和回收问卷; 在各班级按比例分配样本量, 并请班干部协助发放, 以提高回收率. $\blacksquare$
 
 ## 习题五
 
-(习题 6.4 复习巩固第 5 题) 一个人在静水中游泳时, 速度的大小为 $\frac{2}{3}\text{ km/h}$. 当他在水流速度的大小为 $2\text{ km/h}$ 的河中游泳时, 
-
-(1) 如果他垂直游向河对岸, 那么他实际沿什么方向前进 (角度精确到 $1^{\circ}$)? 实际前进速度的大小为多少?
-
-(2) 他必须朝哪个方向游, 才能沿与水流垂直的方向前进 (角度精确到 $1^{\circ}$)? 实际前进速度的大小为多少?
+(习题 9.1 综合运用第 9 题) 一般来说, 影响农作物收成的因素有气候, 土质, 田间管理水平等. 如果你是一个农村调查队成员, 要在麦收季节对你所在地区的小麦进行估产调查, 你将如何设计调查方案?
 
 ### 解答 习题五
 
-由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**.
+由**定义 9.1.5 (分层随机抽样, 层与比例分配)**.
 
-(1) 人速垂直河岸 $\frac{2}{3}$, 水速沿岸 $2$. 合速度大小 $\sqrt{4+\frac{4}{9}}=\frac{2\sqrt{10}}{3}$. 方向与河岸夹角 $\theta$ 满足 $\tan\theta=\frac{2/3}{2}=\frac{1}{3}$, $\theta\approx18^{\circ}$.
+影响小麦收成的因素有气候, 土质, 田间管理水平等, 应按这些因素把本地区麦田分成若干层: 例如按土质好, 中, 差或按不同村, 不同地块类型分层.
 
-(2) 要沿垂直河岸方向前进, 人速需抵消水速. 设人速与垂直方向夹角 $\alpha$, $\frac{2}{3}\sin\alpha=2$, $\sin\alpha=3$? 不可能. 修正: 人速 $\frac{2}{3}$ 小于水速 $2$, 无法抵消. 故无法沿垂直方向前进. $\blacksquare$
+在每一层中随机抽取若干面积相等的样方, 实收实测样方内小麦的产量, 得到该层单位面积产量的样本平均数. 再按各层麦田的面积加权, 估计本地区小麦的平均亩产量和总产量.
+
+这样按影响收成的因素分层, 使层内条件相近, 层间差异明显, 可以避免抽到 "极端" 样方, 提高估产的准确性. $\blacksquare$
 
 ## 习题六
 
-(习题 6.4 复习巩固第 6 题) 在 $\triangle ABC$ 中, 分别根据下列条件解三角形 (角度精确到 $1^{\circ}$, 边长精确到 $1\text{ cm}$):
-
-(1) $a=49\text{ cm}$, $b=26\text{ cm}$, $C=107^{\circ}$;
-
-(2) $a=9\text{ cm}$, $b=10\text{ cm}$, $c=15\text{ cm}$.
+(习题 9.1 拓广探索第 10 题) 如果调查目的是要确定被调查者的收入水平, 请设计一种提问方法.
 
 ### 解答 习题六
 
-由**定理 6.4.2 (余弦定理)**.
+由**定义 9.1.1 (普查与抽样调查)**, 收入属于敏感性问题, 直接提问容易使被调查者产生顾虑而不提供真实情况.
 
-(1) $c^2=49^2+26^2-2\times49\times26\times\cos107^{\circ}=2401+676-2548\times\left(-0.292\right)\approx3077+744=3821$.
-
-$c\approx62\text{ cm}$.
-
-$\sin A=\frac{a\sin C}{c}=\frac{49\times\sin107^{\circ}}{62}\approx\frac{49\times0.956}{62}\approx0.755$.
-
-$A\approx49^{\circ}$. $B=180^{\circ}-107^{\circ}-49^{\circ}=24^{\circ}$.
-
-(2) $\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{100+225-81}{300}=\frac{244}{300}\approx0.813$. $A\approx36^{\circ}$.
-
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{81+225-100}{270}=\frac{206}{270}\approx0.763$. $B\approx40^{\circ}$.
-
-$C=180^{\circ}-36^{\circ}-40^{\circ}=104^{\circ}$. $\blacksquare$
+可采用不记名的问卷方式, 使被调查者无需署名; 进一步可采用随机化回答技术: 让被调查者先随机从袋中摸球, 摸到白球者如实回答一个无关紧要的问题 (如公历生日日期是否为奇数), 摸到红球者再回答收入问题, 且回答 "是" 的人只往盒中放一颗小石子, 旁人不知道回答的是哪个问题. 这样既消除了被调查者的顾虑, 又能通过两个问题的概率关系估计出收入水平的真实比例. $\blacksquare$
 
 ## 习题七
 
-(习题 6.4 复习巩固第 7 题) 在 $\triangle ABC$ 中, 分别根据下列条件解三角形 (角度精确到 $1^{\circ}$, 边长精确到 $1\text{ cm}$):
-
-(1) $A=70^{\circ}$, $C=30^{\circ}$, $c=20\text{ cm}$;
-
-(2) $b=26\text{ cm}$, $c=15\text{ cm}$, $C=23^{\circ}$.
+(习题 9.1 拓广探索第 11 题) 你可能想了解全校同学生活, 学习中的一些情况, 例如, 全校同学比较喜欢哪门课程, 每月的零花钱平均是多少, 喜欢看新闻联播的同学的比例是多少, 每天大约什么时间起床, 每天睡眠的平均时间是多少, 等. 选一些自己关心的问题, 设计一份调查问卷, 利用简单随机抽样方法调查你们学校同学的情况, 并解释你得到的结论.
 
 ### 解答 习题七
 
-由**定理 6.4.3 (正弦定理)**.
+由**定义 9.1.3 (简单随机抽样)** 与**定义 9.1.4 (总体均值与样本均值)**.
 
-(1) $B=180^{\circ}-70^{\circ}-30^{\circ}=80^{\circ}$.
+设计问卷时, 把要了解的问题 (最喜欢哪门课程, 每月零花钱, 是否喜欢看新闻联播, 每天起床时间, 每天睡眠时间等) 用清楚, 不带倾向性的语言写成选择题或填空题.
 
-$a=\frac{c\sin A}{\sin C}=\frac{20\sin70^{\circ}}{0.5}\approx38\text{ cm}$.
+先给全校学生编号, 用随机数法抽取一个容量合适的简单随机样本, 向样本中的同学发放并回收问卷. 对回收的数据: 用喜欢各门课程的人数的频率估计全校同学喜欢各门课程的比例; 用零花钱的样本平均数估计全校同学每月零花钱的平均数; 用睡眠时间的样本平均数估计全校同学每天睡眠的平均时间.
 
-$b=\frac{c\sin B}{\sin C}=\frac{20\sin80^{\circ}}{0.5}\approx39\text{ cm}$.
-
-(2) $\sin B=\frac{b\sin C}{c}=\frac{26\times\sin23^{\circ}}{15}\approx\frac{26\times0.391}{15}\approx0.677$.
-
-$B\approx43^{\circ}$ 或 $B\approx137^{\circ}$.
-
-(a) $B\approx43^{\circ}$: $A=180^{\circ}-43^{\circ}-23^{\circ}=114^{\circ}$. $a=\frac{c\sin A}{\sin C}=\frac{15\times\sin114^{\circ}}{0.391}\approx35\text{ cm}$.
-
-(b) $B\approx137^{\circ}$: $A=180^{\circ}-137^{\circ}-23^{\circ}=20^{\circ}$. $a=\frac{15\times\sin20^{\circ}}{0.391}\approx13\text{ cm}$. $\blacksquare$
+由于样本是随机抽取的, 样本结果是对总体的估计, 会存在一定的抽样误差; 样本量越大, 估计一般越可靠. $\blacksquare$
 
 ## 习题八
 
-(习题 6.4 复习巩固第 8 题) 如图, 测量河对岸的塔高 $AB$ 时, 可以选取与塔底 $B$ 在同一水平面内的两个测量基点 $C$ 与 $D$. 现测得 $\angle BCD=\alpha$, $\angle BDC=\beta$, $CD=s$, 在点 $C$ 测得塔顶 $A$ 的仰角为 $\theta$, 求塔高 $AB$.
-
-图:竖直塔 $AB$($B$ 在地面,$A$ 为塔顶),地面上与塔底 $B$ 同一水平面内有两个测量点 $C$, $D$,构成水平三角形 $BCD$,其中 $\angle BCD=\alpha$,$\angle BDC=\beta$,$CD=s$;在点 $C$ 测得塔顶 $A$ 的仰角为 $\theta$.
+(习题 9.1 拓广探索第 12 题) 查询中央电视台最近五年春节联欢晚会的收视率, 从中你能发现一些什么信息? 查阅一些收视率调查所用的方法, 在分析这些方法的合理性和不足的基础上, 请你自行设计一个调查收视率的方案.
 
 ### 解答 习题八
 
-由**定理 6.4.3 (正弦定理)**.
+由**定义 9.1.3 (简单随机抽样)** 与**定义 9.1.5 (分层随机抽样, 层与比例分配)**.
 
-在 $\triangle BCD$ 中, $\angle CBD=180^{\circ}-\alpha-\beta$.
+查阅近年春节联欢晚会收视率数据, 可以发现收视率总体保持在较高水平, 但随年份呈缓慢下降趋势, 这与新媒体分流观众, 观众选择增多有关.
 
-由正弦定理: $\frac{BC}{\sin\beta}=\frac{s}{\sin\left(180^{\circ}-\alpha-\beta\right)}=\frac{s}{\sin\left(\alpha+\beta\right)}$.
+收视率调查通常采用电话随机拨号或测量仪等方法. 其合理性在于随机抽取样本, 使样本对观众总体有一定代表性; 不足在于抽样框难以覆盖所有观众 (如不看电视的人, 未登记号码的人), 且样本量有限时估计有误差.
 
-$BC=\frac{s\sin\beta}{\sin\left(\alpha+\beta\right)}$.
+自行设计方案时: 先明确调查总体为该地区所有家庭电视观众; 按城乡, 年龄段分层, 在各层内随机抽取家庭户; 在样本户中装测量仪或随机电话访问, 记录除夕当晚是否收看; 最后用各层的收看比例按层的户数加权, 估计该地区的收视率. $\blacksquare$
 
-在直角三角形 $ABC$ 中, $\angle ACB=\theta$, $AB=BC\tan\theta=\frac{s\sin\beta\tan\theta}{\sin\left(\alpha+\beta\right)}$. $\blacksquare$
+## 阅读与思考一
+
+(思考 1) 某地区的公共卫生部门为了调查本地区中学生的吸烟情况, 对随机抽出的 200 名学生进行了调查. 调查中使用了两个问题. 问题 1: 你父亲的公历生日日期是不是奇数? 问题 2: 你是否经常吸烟? 调查者设计了一个随机化装置, 这是一个装有大小, 形状和质量完全一样的 50 个白球和 50 个红球的袋子. 每个被调查者随机从袋中摸取 1 个球 (摸出的球再放回袋中), 摸到白球的学生如实回答第一个问题, 摸到红球的学生如实回答第二个问题, 回答 "是" 的人往一个盒子中放一个小石子, 回答 "否" 的人什么都不要做. 如果在 200 人中, 共有 58 人回答 "是", 你能估计出这个地区吸烟的中学生所占的百分比吗?
+
+### 解答 阅读与思考一
+
+由**定义 9.1.4 (总体均值与样本均值)**, 用样本中回答 "是" 的频率估计总体中相应的比例.
+
+每个学生从袋中摸出白球或红球的概率都是 $0.5$, 故在 200 人中, 期望大约有 100 人回答第一个问题, 另 100 人回答第二个问题.
+
+在摸出白球的情况下, 回答父亲公历生日日期是奇数的概率为 $\frac{186}{365}\approx0.51$. 因而在回答第一个问题的约 100 人中, 大约有 $100\times0.51=51$ 人回答了 "是".
+
+总共 58 人回答 "是", 故在回答第二个问题的约 100 人中, 回答 "是" 的人数约为 $58-51=7$.
+
+由此估计这个地区中学生吸烟的比例约为 $\frac{7}{100}=0.07$, 即大约有 $7\%$ 的中学生吸烟. $\blacksquare$
+
+## 练习一
+
+(练习 9.2 第 1 题) 从某小区抽取 100 户居民用户进行月用电量调查, 发现他们的用电量都在 $50\sim350\,\mathrm{kW\cdot h}$ 之间, 进行适当分组后 (每组为左闭右开的区间), 画出频率分布直方图如图.
+
+(1) 直方图中 $x$ 的值为 $\;\_\_\;$;
+
+(2) 在被调查的用户中, 用电量落在区间 $\left[100,250\right)$ 内的户数为 $\;\_\_\;$.
+
+(题图: 频率分布直方图, 横轴为月用电量 ($\mathrm{kW\cdot h}$), 从 $50$ 到 $350$ 共分 $6$ 组, 组距 $50$, 各组依次为 $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; 纵轴为 $\frac{\text{频率}}{\text{组距}}$, 六组对应高度分别为 $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
+
+### 解答 练习一
+
+由**定义 9.2.1 (频率分布表与频率分布直方图)**, 所有小长方形的面积之和等于 1.
+
+(1) 各组的组距为 50, 各组 $\left[$ 频率/组距 $\right]$ 分别为 $0.0024,0.0036,0.0060,x,0.0024,0.0012$. 由各组长方形面积之和为 1, 得
+
+$$
+50\times\left(0.0024+0.0036+0.0060+x+0.0024+0.0012\right)=1.
+$$
+
+即 $0.0156+x=\frac{1}{50}=0.02$, 解得 $x=0.02-0.0156=0.0044$.
+
+(2) 用电量落在区间 $\left[100,250\right)$ 内的频率为
+
+$$
+50\times\left(0.0036+0.0060+0.0044\right)=50\times0.014=0.70.
+$$
+
+故户数为 $100\times0.70=70$. $\blacksquare$
+
+## 练习二
+
+(练习 9.2 第 2 题) 如图, 胡晓统计了他爸爸 9 月的手机通话明细清单, 发现他爸爸该月共通话 60 次. 胡晓按每次通话时间长短进行分组 (每组为左闭右开的区间), 画出了频率分布直方图.
+
+(1) 通话时长在区间 $\left[15,20\right)$, $\left[20,30\right)$ 内的次数分别为多少?
+
+(2) 区间 $\left[20,30\right)$ 上的小长方形高度低于 $\left[15,20\right)$ 上的小长方形高度, 说明什么? 结合实际意义, 谈谈你的看法.
+
+(题图: 频率分布直方图, 横轴为通话时长 (分钟), 纵轴为 $\frac{\text{频率}}{\text{组距}}$; 其中 $\left[15,20\right)$ 组高度为 $0.030$, $\left[20,30\right)$ 组高度为 $0.020$.)
+
+### 解答 练习二
+
+由**定义 9.2.1 (频率分布表与频率分布直方图)**, 小长方形面积等于频率, 频数 $=$ 样本容量 $\times$ 频率.
+
+(1) 区间 $\left[15,20\right)$ 的组距为 5, $\frac{\text{频率}}{\text{组距}}=0.030$, 频率为 $5\times0.030=0.15$, 故次数为
+
+$$
+60\times0.15=9.
+$$
+
+区间 $\left[20,30\right)$ 的组距为 10, $\frac{\text{频率}}{\text{组距}}=0.020$, 频率为 $10\times0.020=0.20$, 故次数为
+
+$$
+60\times0.20=12.
+$$
+
+(2) 区间 $\left[20,30\right)$ 上小长方形的高度 (即 $\frac{\text{频率}}{\text{组距}}$) 低于 $\left[15,20\right)$ 上的高度, 虽然 $\left[20,30\right)$ 这个区间更宽, 包含的通话次数更多 (12 次多于 9 次), 但平均到每单位通话时间上, 其通话频率反而更低. 这说明该爸爸的手机通话大多是短时间的, 长时间通话并不常见. $\blacksquare$
+
+## 练习三
+
+(练习 9.2 第 3 题) 有一个容量为 30 的样本, 数据的分组及各组的频数如下:
+
+$\left[0,10\right)$ 3; $\left[10,20\right)$ 5; $\left[20,30\right)$ 9; $\left[30,40\right)$ 7; $\left[40,50\right)$ 5; $\left[50,60\right]$ 1.
+
+(1) 列出样本的频率分布表;
+
+(2) 画出频率分布直方图;
+
+(3) 估计数据落在 $\left[10,50\right)$ 的频率约是多少.
+
+(题图: 频率分布直方图, 横轴为数据, 组距 $10$, 依次为 $\left[0,10\right),\left[10,20\right),\left[20,30\right),\left[30,40\right),\left[40,50\right),\left[50,60\right]$; 纵轴为 $\frac{\text{频率}}{\text{组距}}$, 六组对应高度分别为 $0.010,0.017,0.030,0.023,0.017,0.003$.)
+
+### 解答 练习三
+
+由**定义 9.2.1 (频率分布表与频率分布直方图)**, 频率 $=$ 频数 $\div$ 样本容量, 纵轴取 $\frac{\text{频率}}{\text{组距}}$.
+
+(1) 样本容量为 30, 频率分布表为: $\left[0,10\right)$ 频率 $0.1$; $\left[10,20\right)$ 频率 $\frac{5}{30}\approx0.17$; $\left[20,30\right)$ 频率 $\frac{9}{30}=0.3$; $\left[30,40\right)$ 频率 $\frac{7}{30}\approx0.23$; $\left[40,50\right)$ 频率 $\frac{5}{30}\approx0.17$; $\left[50,60\right]$ 频率 $\frac{1}{30}\approx0.03$.
+
+(2) 各组组距均为 10, 在纵轴上依次取 $\frac{\text{频率}}{\text{组距}}$ 为 $0.010,0.017,0.030,0.023,0.017,0.003$, 画出以各组为底, 相应高度为高的小长方形, 即得频率分布直方图.
+
+(3) 数据落在 $\left[10,50\right)$ 的频数为 $5+9+7+5=26$, 频率约为 $\frac{26}{30}\approx0.87$. $\blacksquare$
+
+## 练习四
+
+(练习 9.2 第 4 题) 某市某月 30 天的空气质量指数如下:
+
+$35,54,80,86,72,85,58,125,111,53,10,66,46,36,18,25,23,40,60,89,88,54,79,14,16,40,59,67,111,62$.
+
+你觉得这个月的空气质量如何? 请设计适当的频率分布直方图展示这组数据, 并结合空气质量等级标准分析数据.
+
+(题图: 频率分布直方图, 横轴为空气质量指数, 按等级分组: 优 (不超过 $50$), 良 ($51\sim100$), 轻度污染 ($101\sim150$), 中度污染 ($151\sim200$), 重度污染 ($201\sim300$); 纵轴为 $\frac{\text{频率}}{\text{组距}}$.)
+
+### 解答 练习四
+
+由**定义 9.2.1 (频率分布表与频率分布直方图)**, 按空气质量指数把 30 个数据分组, 列出频率分布表并画频率分布直方图.
+
+空气质量等级标准为: 优不超过 50, 良为 $51\sim100$, 轻度污染为 $101\sim150$, 中度污染为 $151\sim200$, 重度污染为 $201\sim300$, 严重污染超过 300.
+
+按标准统计: 优 (不超过 50) 有 11 天, 良 ($51\sim100$) 有 16 天, 轻度污染 ($101\sim150$) 有 3 天, 没有中度及以上污染.
+
+由此可见, 这个月空气质量为优或良的天数合计 27 天, 约占 $90\%$, 只有 3 天为轻度污染, 没有中度及以上污染的天气. 总体上这个月的空气质量较好. $\blacksquare$
+
+## 练习五
+
+(练习 9.2 第 5 题) 统计你们班所有同学的鞋号, 选择合适的统计图进行描述, 并分析鞋号的分布有什么特点. 能用你们班同学鞋号的分布估计你所在学校全体高中学生鞋号的分布吗? 估计全国高中学生的鞋号分布呢?
+
+### 解答 练习五
+
+由**定义 9.2.1 (频率分布表与频率分布直方图)** 与**定义 9.1.4 (总体均值与样本均值)**.
+
+统计本班所有同学的鞋号, 按鞋号列出频数, 画条形图或频率分布直方图, 可以看出本班同学鞋号集中在哪个范围, 哪个鞋号人数最多 (即众数), 分布是否大致对称.
+
+由于本班同学的年龄, 性别结构与本校全体高中学生相近, 用本班鞋号的分布可以大致估计本校全体高中学生鞋号的分布, 但样本量小, 估计比较粗糙.
+
+而全国高中学生在地域, 气候, 生活习惯等方面差异很大, 本班同学不能代表全国高中学生, 故不能用本班鞋号的分布去估计全国高中学生鞋号的分布, 否则会有较大偏差. $\blacksquare$
+
+## 练习六
+
+(练习 9.2 第 6 题) 某市为了让居民节约用水, 计划试行居民月用水量定额管理办法, 确定一个月用水量标准 $a$, 用水量不超过 $a$ 的按平价收费, 超出 $a$ 的部分按议价收费. 如果希望全市 $60\%$ 的居民的月用水量不超过标准, 那么标准 $a$ 应定为多少? 你是根据本章哪部分知识做判断的?
+
+### 解答 练习六
+
+由**定义 9.2.2 (第 p 百分位数)**, 第 60 百分位数把数据分成两部分: 约 $60\%$ 的数据不超过它, 约 $40\%$ 的数据不小于它.
+
+要使全市 $60\%$ 的居民月用水量不超过标准 $a$, 应把 $a$ 定为全市居民月用水量的第 60 百分位数.
+
+若通过抽样调查获得样本月用水量数据, 先把数据从小到大排列, 计算 $i=n\times60\%$, 再按**定义 9.2.2 (第 p 百分位数)** 的步骤求出样本的第 60 百分位数, 用它估计全市居民月用水量的第 60 百分位数, 即为月用水量标准 $a$. 这是根据总体百分位数的估计这部分知识做出的判断. $\blacksquare$
+
+## 练习七
+
+(练习 9.2 第 7 题) 某学校年龄在 $16\sim17$ 岁的男运动员中, 选出 23 人, 测得身高如下 (单位: $\mathrm{cm}$):
+
+$173.0,174.0,166.0,172.0,170.0,165.0,165.0,168.0,164.0,173.0,172.0,173.0,175.0,168.0,170.0,172.0,176.0,175.0,168.0,173.0,167.0,170.0,175.0$.
+
+分别计算男生身高数据的第 25, 50, 75 百分位数.
+
+### 解答 练习七
+
+由**定义 9.2.2 (第 p 百分位数)**, 先把数据从小到大排列, 再按步骤计算.
+
+将 23 个数据从小到大排列为
+
+$$
+164.0,165.0,165.0,166.0,167.0,168.0,168.0,168.0,170.0,170.0,170.0,172.0,172.0,172.0,173.0,173.0,173.0,173.0,174.0,175.0,175.0,175.0,176.0.
+$$
+
+第 25 百分位数: $i=23\times25\%=5.75$, 不是整数, 向上取整得第 6 个数, 即 $168.0$.
+
+第 50 百分位数: $i=23\times50\%=11.5$, 不是整数, 向上取整得第 12 个数, 即 $172.0$.
+
+第 75 百分位数: $i=23\times75\%=17.25$, 不是整数, 向上取整得第 18 个数, 即 $173.0$.
+
+故男生身高数据的第 25, 50, 75 百分位数分别为 $168.0\,\mathrm{cm}$, $172.0\,\mathrm{cm}$, $173.0\,\mathrm{cm}$. $\blacksquare$
+
+## 练习八
+
+(练习 9.2 第 8 题) 利用你绘制的居民用户月均用水量的频率分布直方图 (教材图 9.2-2), 估计该市全体居民月均用水量数据的第 80, 95 百分位数. 直接用原始数据求出的相应百分位数, 与直方图中的估计值进行比较, 它们能够很好地估计总体的百分位数吗?
+
+(题图: 教材图 9.2-2 居民用户月均用水量频率分布直方图, 横轴为月均用水量 ($\mathrm{t}$), 纵轴为 $\frac{\text{频率}}{\text{组距}}$.)
+
+### 解答 练习八
+
+由**定义 9.2.2 (第 p 百分位数)** 与**定义 9.2.1 (频率分布表与频率分布直方图)**.
+
+在频率分布直方图中, 从左侧起依次累加各小长方形的面积 (频率), 找到累计频率首次达到 $80\%$ 和 $95\%$ 的那一组, 再按组内比例插值, 即可估计出第 80, 95 百分位数.
+
+用直方图估计的百分位数, 与直接用原始数据求出的百分位数会有一定差异, 因为直方图把每组内部的数据分布信息丢失了. 但只要分组合理, 直方图的估计值与原始数据算出的值相差不大, 能够较好地估计总体的百分位数. $\blacksquare$
+
+## 练习九
+
+(练习 9.2 第 9 题) 在本节例 1 中, 一组 30 天的空气质量指数 (表 9.2-2) 为
+
+$87,90,90,102,126,138,158,163,170,172,71,76,88,93,94,104,160,180,200,220,75,80,80,90,105,125,165,178,188,190$.
+
+分别求这组数据的平均数, 中位数, 第 80 百分位数, 并解释它们的意义.
+
+### 解答 练习九
+
+由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.2 (第 p 百分位数)**.
+
+平均数: 数据之和为 $87+90+\cdots+190=3858$, 故
+
+$$
+\overline x=\frac{3858}{30}=128.6.
+$$
+
+把 30 个数据从小到大排列, 第 80 百分位数: $i=30\times80\%=24$, 是整数, 故第 80 百分位数为第 24 个数与第 25 个数的平均数, 即
+
+$$
+\frac{172+178}{2}=175.
+$$
+
+中位数为第 15 个数与第 16 个数的平均数, 即
+
+$$
+\frac{105+125}{2}=115.
+$$
+
+平均数 $128.6$ 反映这 30 天空气质量指数的平均水平; 中位数 $115$ 表示有一半天数的空气质量指数不超过 $115$; 第 80 百分位数 $175$ 表示约 $80\%$ 的天数空气质量指数不超过 $175$. 平均数大于中位数, 说明数据中有少数较大的值把平均数拉高了. $\blacksquare$
+
+## 练习十
+
+(练习 9.2 第 10 题) 下面是一个报告中的一段话:
+
+"据统计, 某市 2015 年的居民年人均可支配收入为 27348 元, 而某行业从业人员的年人均工资收入为 125620 元. 有人认为, 该市居民年人均可支配收入被低估了."
+
+你认为这个说法有道理吗? 为什么?
+
+### 解答 练习十
+
+由**定义 9.2.3 (众数, 中位数与平均数)**.
+
+这个说法没有道理. 某市居民年人均可支配收入是对全市所有居民计算的平均数, 而某行业从业人员的年人均工资收入只涉及该行业的从业人员, 两者的总体范围完全不同.
+
+某行业 (如金融, 互联网等) 从业人员的工资水平本来就可能远高于全市居民的平均水平, 用这部分人的高收入去和全市全体居民的平均收入比较, 并不能说明全市居民年人均可支配收入被低估. 平均数容易受极端值影响, 不同群体之间的平均数不能直接拿来比较. $\blacksquare$
+
+## 练习十一
+
+(练习 9.2 第 11 题) 一次演讲比赛中, 评委将从演讲内容, 演讲能力, 演讲效果三个方面为选手打分, 各项成绩均按百分制计, 然后再按演讲内容占 $50\%$, 演讲能力占 $40\%$, 演讲效果占 $10\%$ 的比例, 计算选手的综合成绩 (百分制). 进入决赛的前两名选手的单项成绩如下表所示:
+
+选手 甲: 演讲内容 95, 演讲能力 85, 演讲效果 95; 选手 乙: 演讲内容 85, 演讲能力 95, 演讲效果 95.
+
+请确定两人的名次. 这个问题中平均数的大小与各项权重有什么关系?
+
+### 解答 练习十一
+
+由**定义 9.2.3 (众数, 中位数与平均数)**, 加权平均数为各数据乘以相应权重之和.
+
+选手甲的综合成绩为
+
+$$
+95\times50\%+85\times40\%+95\times10\%=47.5+34+9.5=91.
+$$
+
+选手乙的综合成绩为
+
+$$
+85\times50\%+95\times40\%+95\times10\%=42.5+38+9.5=90.
+$$
+
+因为 $91> 90$, 所以选手甲为第一名, 选手乙为第二名.
+
+在加权平均数中, 平均数的大小不仅取决于各项数据本身的大小, 还取决于各项的权重. 权重越大的项, 对平均数的影响越大. 这里演讲内容权重最大, 故甲在演讲内容上的高分使其综合成绩超过了演讲能力更强的乙. $\blacksquare$
 
 ## 习题九
 
-(习题 6.4 复习巩固第 9 题) 在气象台 $A$ 的正西方向 $300\text{ km}$ 处有一台风中心, 它正向东北方向移动, 移动速度的大小为 $40\text{ km/h}$, 距台风中心 $250\text{ km}$ 以内的地区都将受到影响. 若台风中心的这种移动趋势不变, 气象台所在地是否会受到台风的影响? 如果会, 大约多长时间后受到影响? 持续时间有多长 (精确到 $1\text{ min}$)?
+(习题 9.2 复习巩固第 1 题) 棉花的纤维长度是棉花质量的重要指标. 在一批棉花中随机抽测了 60 根棉花的纤维长度 (单位: $\mathrm{mm}$), 按从小到大排序.
+
+(1) 请你选择合适的组距, 作出这个样本的频率分布直方图, 分析这批棉花纤维长度分布的特征;
+
+(2) 请你估计这批棉花的第 5, 95 百分位数.
+
+(题图: 棉花纤维长度频率分布直方图, 横轴为纤维长度 ($\mathrm{mm}$), 数据范围 $25\sim385$, 组距 $60$, 纵轴为 $\frac{\text{频率}}{\text{组距}}$; 分布呈单峰但右侧拖长尾.)
 
 ### 解答 习题九
 
-由**定理 6.4.2 (余弦定理)**.
+由**定义 9.2.1 (频率分布表与频率分布直方图)** 与**定义 9.2.2 (第 p 百分位数)**.
 
-设台风中心初始位置为 $B$, $AB=300\text{ km}$, 方向东北 (北偏东 $45^{\circ}$). 设 $t$ 后台风中心到达 $C$, $BC=40t$.
+(1) 数据最小值为 25, 最大值为 385, 极差为 360. 取组距为 60, 把数据分成若干组, 列出频率分布表, 画出频率分布直方图. 可以看出这批棉花纤维长度呈单峰分布, 但右侧拖出一条长尾, 即有少数纤维很长.
 
-气象台 $A$ 到台风路径的垂直距离: $d=300\times\sin45^{\circ}=150\sqrt 2\approx212.1\text{ km}< 250\text{ km}$. 故会受影响.
+(2) 数据已从小到大排列, 共 60 个. 第 5 百分位数: $i=60\times5\%=3$, 是整数, 为第 3 个数与第 4 个数的平均数, 即 $\frac{33+50}{2}=41.5$. 第 95 百分位数: $i=60\times95\%=57$, 是整数, 为第 57 个数与第 58 个数的平均数, 即 $\frac{370+380}{2}=375$.
 
-以 $A$ 为圆心, $250\text{ km}$ 为半径作圆, 与台风路径交于 $P$, $Q$.
-
-$AP=250$. 在 $\triangle ABP$ 中, $AB=300$, $AP=250$, $\angle ABP=45^{\circ}$.
-
-由余弦定理: $AP^2=AB^2+BP^2-2\cdot AB\cdot BP\cos45^{\circ}$.
-
-$62500=90000+BP^2-600\cdot\frac{\sqrt 2}{2}\cdot BP$.
-
-$BP^2-300\sqrt 2\cdot BP+27500=0$.
-
-$BP=\frac{300\sqrt 2\pm\sqrt{180000-110000}}{2}=\frac{300\sqrt 2\pm\sqrt{70000}}{2}\approx\frac{424.3\pm264.6}{2}$.
-
-$BP_1\approx79.8\text{ km}$, $BP_2\approx344.5\text{ km}$.
-
-时间: $t_1=\frac{79.8}{40}\approx2\text{ h}$, $t_2=\frac{344.5}{40}\approx8.6\text{ h}$.
-
-约 $2$ 小时后受影响, 持续约 $6.6$ 小时 $\approx 395\text{ min}$. $\blacksquare$
+故估计第 5 百分位数为 $41.5\,\mathrm{mm}$, 第 95 百分位数为 $375\,\mathrm{mm}$. $\blacksquare$
 
 ## 习题十
 
-(习题 6.4 综合运用第 10 题) 你能用三角形的边和角的正弦表示三角形的面积吗?
+(习题 9.2 复习巩固第 2 题) 甲, 乙两台机床同时生产一种零件, 在 10 天中, 两台机床每天生产的次品数分别为:
+
+甲: $0,1,0,2,2,0,3,1,2,4$; 乙: $2,3,1,1,0,2,1,1,0,1$.
+
+分别计算这两组数据的平均数和标准差, 从计算结果看, 哪台机床的性能更好?
 
 ### 解答 习题十
 
-由**定理 6.4.3 (正弦定理)** 与**定义 6.2.11 (向量的数量积)**.
+由**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
 
-$S=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$. $\blacksquare$
+甲的平均数为
+
+$$
+\overline x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
+$$
+
+方差为 $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, 标准差 $s_{\text{甲}}\approx1.28$.
+
+乙的平均数为
+
+$$
+\overline x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
+$$
+
+方差为 $s_{\text{乙}}^2=\frac{7.6}{10}=0.76$, 标准差 $s_{\text{乙}}\approx0.87$.
+
+乙机床平均每天生产的次品数较少, 且标准差较小, 性能更稳定, 故乙机床的性能更好. $\blacksquare$
 
 ## 习题十一
 
-(习题 6.4 综合运用第 11 题) 已知对任意平面向量 $\boldsymbol{AB}=\left(x,y\right)$, 把 $\boldsymbol{AB}$ 绕其起点沿逆时针方向旋转 $\theta$ 角得到向量 $\boldsymbol{AP}=\left(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta\right)$. 已知平面内点 $A\left(1,2\right)$, 点 $B\left(1+\sqrt 2,2-2\sqrt 2\right)$, 把点 $B$ 绕点 $A$ 沿顺时针方向旋转 $\frac{\pi}{4}$ 后得到点 $P$, 求点 $P$ 的坐标.
+(习题 9.2 复习巩固第 3 题) 在去年的足球联赛上, 一队每场比赛平均失球数是 1.5, 全年比赛失球个数的标准差为 1.1; 二队每场比赛平均失球数是 2.1, 全年失球个数的标准差为 0.4. 你认为下列说法中哪一种是正确的, 为什么?
+
+(1) 平均说来一队比二队防守技术好;
+
+(2) 二队比一队技术水平更稳定;
+
+(3) 一队在防守中有时表现较差, 有时表现又非常好;
+
+(4) 二队很少不失球.
 
 ### 解答 习题十一
 
-由**常用结论 6.3.4** (坐标运算).
+由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
 
-$\boldsymbol{AB}=\left(\sqrt 2,-2\sqrt 2\right)$. 顺时针旋转 $\frac{\pi}{4}$ 即逆时针旋转 $-\frac{\pi}{4}$.
+(1) 正确. 一队平均失球 1.5 少于二队平均失球 2.1, 平均说来一队失球少, 防守技术好.
 
-$x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-\left(-2\sqrt 2\right)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+\left(-2\sqrt 2\right)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
+(2) 正确. 二队失球标准差 0.4 小于一队 1.1, 说明二队每场失球数比较一致, 发挥更稳定.
 
-$y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+\left(-2\sqrt 2\right)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
+(3) 正确. 一队标准差 1.1 很大, 说明失球数波动大, 即有时失球很少 (表现好), 有时失球很多 (表现差).
 
-$\boldsymbol{AP}=\left(-1,-3\right)$. $P=A+\boldsymbol{AP}=\left(1-1,2-3\right)=\left(0,-1\right)$. $\blacksquare$
+(4) 正确. 二队平均每场失球 2.1, 且标准差仅 0.4, 说明每场大约都失 2 个左右球, 很少出现不失球的情况.
+
+四种说法都正确, 它们分别从平均数和标准差两个角度描述了两队的防守情况. $\blacksquare$
 
 ## 习题十二
 
-(习题 6.4 综合运用第 12 题) 如图, 在 $\triangle ABC$ 中, 已知 $AB=2$, $AC=5$, $\angle BAC=60^{\circ}$, $BC$, $AC$ 边上的两条中线 $AM$, $BN$ 相交于点 $P$, 求 $\angle MPN$ 的余弦值.
-
-图:三角形 $ABC$,$AB=2$,$AC=5$,$\angle BAC=60^\circ$;$M$ 为边 $BC$ 的中点,$N$ 为边 $AC$ 的中点,中线 $AM$ 与 $BN$ 交于点 $P$.
+(习题 9.2 复习巩固第 4 题) 数据 $x_1,x_2,\cdots,x_n$ 的方差和标准差分别为 $s_x^2,s_x$, 数据 $y_1,y_2,\cdots,y_n$ 的方差和标准差分别为 $s_y^2,s_y$. 若 $y_i=ax_i+b$ 成立, $a,b$ 为常数, 证明: $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
 
 ### 解答 习题十二
 
-由**定理 6.4.2 (余弦定理)** 与**常用结论 6.4.1** (向量法).
+由**常用结论 9.2.6** (数据变换对平均数与方差的影响).
 
-以 $A$ 为原点, $\boldsymbol{AB}=\left(2,0\right)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
+因为 $y_i=ax_i+b$, 由**常用结论 9.2.6**, $\overline y=a\overline x+b$, 故 $y_i-\overline y=a\left(x_i-\overline x\right)$. 于是
 
-$M$ 为 $BC$ 中点: $M=\left(\frac{2+\frac{5}{2}}{2},\frac{0+\frac{5\sqrt 3}{2}}{2}\right)=\left(\frac{9}{4},\frac{5\sqrt 3}{4}\right)$.
+$$
+s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline x\right)^2=a^2s_x^2,
+$$
 
-$N$ 为 $AC$ 中点: $N=\left(\frac{5}{4},\frac{5\sqrt 3}{4}\right)$.
-
-$P$ 为重心: $P=\frac{A+B+C}{3}=\left(\frac{2+\frac{5}{2}}{3},\frac{\frac{5\sqrt 3}{2}}{3}\right)=\left(\frac{3}{2},\frac{5\sqrt 3}{6}\right)$.
-
-$\boldsymbol{PM}=M-P=\left(\frac{9}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(\frac{3}{4},\frac{5\sqrt 3}{12}\right)$.
-
-$\boldsymbol{PN}=N-P=\left(\frac{5}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(-\frac{1}{4},\frac{5\sqrt 3}{12}\right)$.
-
-$\cos\angle MPN=\frac{\boldsymbol{PM}\cdot\boldsymbol{PN}}{\lvert\boldsymbol{PM}\rvert\lvert\boldsymbol{PN}\rvert}=\frac{-\frac{3}{16}+\frac{75}{144}}{\sqrt{\frac{9}{16}+\frac{75}{144}}\cdot\sqrt{\frac{1}{16}+\frac{75}{144}}}=\frac{\frac{-27+75}{144}}{\sqrt{\frac{81+75}{144}}\cdot\sqrt{\frac{9+75}{144}}}=\frac{\frac{48}{144}}{\frac{\sqrt{156}}{12}\cdot\frac{\sqrt{84}}{12}}=\frac{\frac{1}{3}}{\frac{\sqrt{13104}}{144}}=\frac{48}{\sqrt{13104}}=\frac{2}{\sqrt{91}}$. $\blacksquare$
+从而 $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. 原式得证. $\blacksquare$
 
 ## 习题十三
 
-(习题 6.4 综合运用第 13 题) 一条河的两岸平行, 河的宽度 $d=500\text{ m}$, 一艘船从河岸边的 $A$ 处出发到河对岸. 已知船在静水中的速度 $\boldsymbol{v}_1$ 的大小为 $\lvert\boldsymbol{v}_1\rvert=10\text{ km/h}$, 水流速度 $\boldsymbol{v}_2$ 的大小为 $\lvert\boldsymbol{v}_2\rvert=2\text{ km/h}$. 请计算船行驶时间最短的三种情况.
+(习题 9.2 复习巩固第 5 题) 数据 $x_1,x_2,\cdots,x_n$ 的方差 $s^2=0$, 证明: 所有的 $x_i$ ($i=1,2,\cdots,n$) 都相同.
 
 ### 解答 习题十三
 
-由**定理 6.4.2 (余弦定理)**.
+由**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
 
-船速 $10\text{ km/h}$, 水速 $2\text{ km/h}$, 河宽 $0.5\text{ km}$.
+由 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0$, 得
 
-(1) 逆流钝角: 合速垂直分量小, 时间长.
+$$
+\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0.
+$$
 
-(2) 顺流锐角: 合速垂直分量中等.
-
-(3) 垂直对岸: 合速垂直分量 $=\sqrt{100-4}=\sqrt{96}$.
-
-时间 $t=\frac{d}{v_\perp}$. 垂直对岸时 $v_\perp$ 最大, 时间最短. $\blacksquare$
+每一项 $\left(x_i-\overline x\right)^2\ge0$, 它们的和为 0, 故每一项都为 0, 即 $x_i-\overline x=0$, $x_i=\overline x$ 对所有 $i$ 成立. 所以所有的 $x_i$ 都相同. $\blacksquare$
 
 ## 习题十四
 
-(习题 6.4 综合运用第 14 题) 一条东西方向的河流两岸平行, 河宽 $250\text{ m}$, 水流的速度为向东 $\frac{2\sqrt 3}{3}\text{ km/h}$. 一艘小货船准备从河的南岸码头 $A$ 处出发, 航行到位于河对岸 $B$ ($AB$ 与河的方向垂直) 的正西方向并且与 $B$ 相距 $\frac{250\sqrt 3}{3}\text{ m}$ 的码头 $C$ 处卸货. 若水流的速度与小货船航行的速度的合速度的大小为 $6\text{ km/h}$, 则当小货船的航程最短时, 求合速度的方向, 并求此时小货船航行速度的大小.
+(习题 9.2 综合运用第 6 题) 以往的招生统计数据显示, 某所大学录取的新生高考总分的中位数基本上稳定在 550 分. 你的一位高中校友在今年的高考中得了 520 分, 你是立即劝阻他报考这所大学, 还是先进一步查阅一下这所大学以往招生的其他统计信息? 解释一下你的选择.
 
 ### 解答 习题十四
 
-由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**.
+由**定义 9.2.2 (第 p 百分位数)** 与**定义 9.2.3 (众数, 中位数与平均数)**.
 
-$AB=0.25\text{ km}$, $BC=\frac{0.25\sqrt 3}{3}\text{ km}$. $AC=\sqrt{0.25^2+\left(\frac{0.25\sqrt 3}{3}\right)^2}=\sqrt{0.0625+0.0208}=\frac{0.5}{\sqrt 3}\text{ km}$.
+应先进一步查阅这所大学以往招生的其他统计信息, 而不立即劝阻.
 
-$\angle BAC$ 满足 $\tan\angle BAC=\frac{BC}{AB}=\frac{\sqrt 3}{3}$, $\angle BAC=30^{\circ}$.
-
-合速度方向沿 $AC$, 即西偏北 $30^{\circ}$.
-
-合速度大小 $6\text{ km/h}$. 水速向东 $\frac{2\sqrt 3}{3}\text{ km/h}$.
-
-船速 $=\sqrt{6^2+\left(\frac{2\sqrt 3}{3}\right)^2-2\times6\times\frac{2\sqrt 3}{3}\cos60^{\circ}}=\sqrt{36+\frac{4}{3}-4\sqrt 3}\approx\sqrt{36.1-6.93}\approx\sqrt{29.2}\approx5.4\text{ km/h}$. $\blacksquare$
+录取新生高考总分的中位数稳定在 550 分, 说明被录取新生中有一半成绩在 550 分以上, 一半在 550 分以下. 校友考了 520 分, 低于中位数, 但中位数只是一个分位数, 仅凭它不能判断能否被录取. 还应查阅该大学历年录取最低分, 录取平均分, 当年招生计划数等信息, 综合判断后再给校友建议. $\blacksquare$
 
 ## 习题十五
 
-(习题 6.4 综合运用第 15 题) $\triangle ABC$ 的三边分别为 $a$, $b$, $c$, 边 $BC$, $CA$, $AB$ 上的中线分别记为 $m_a$, $m_b$, $m_c$, 利用余弦定理证明:
-
-$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(a^2+c^2\right)-b^2}$, $m_c=\frac{1}{2}\sqrt{2\left(a^2+b^2\right)-c^2}$.
+(习题 9.2 综合运用第 7 题) 甲, 乙两个班级, 一次数学考试的分数排序如下. 请你就这次考试成绩, 对两个班级的数学学习情况进行评价.
 
 ### 解答 习题十五
 
-由**定理 6.4.2 (余弦定理)**.
+由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
 
-设 $M$ 为 $BC$ 中点, $BM=\frac{a}{2}$. 在 $\triangle ABM$ 中, $m_a^2=c^2+\left(\frac{a}{2}\right)^2-2c\cdot\frac{a}{2}\cos B$.
+甲班 40 名学生成绩最低 51, 最高 100, 中位数约为 81 分; 乙班 40 名学生成绩最低 61, 最高 98, 中位数约为 82.5 分.
 
-由余弦定理 $\cos B=\frac{a^2+c^2-b^2}{2ac}$:
+从集中趋势看, 乙班的中位数略高于甲班. 从离散程度看, 甲班成绩从 51 到 100 跨度很大, 说明甲班学生成绩两极分化比较明显; 乙班成绩集中在 61 到 98 之间, 高分段和低分段都比较少, 成绩比较整齐.
 
-$m_a^2=c^2+\frac{a^2}{4}-ac\cdot\frac{a^2+c^2-b^2}{2ac}=c^2+\frac{a^2}{4}-\frac{a^2+c^2-b^2}{2}=\frac{2c^2+a^2-2a^2-2c^2+2b^2}{4}=\frac{2b^2+2c^2-a^2}{4}$.
-
-$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. 同理可得其余两式. $\blacksquare$
-
-## 习题十六
-
-(习题 6.4 综合运用第 16 题) 在 $\triangle ABC$ 中, 求证: $c\left(a\cos B-b\cos A\right)=a^2-b^2$.
-
-### 解答 习题十六
-
-由**定理 6.4.2 (余弦定理)**.
-
-左边 $=c\left(a\cdot\frac{a^2+c^2-b^2}{2ac}-b\cdot\frac{b^2+c^2-a^2}{2bc}\right)=c\cdot\frac{a^2+c^2-b^2-b^2-c^2+a^2}{2c}=\frac{2a^2-2b^2}{2}=a^2-b^2=$ 右边. $\blacksquare$
-
-## 习题十七
-
-(习题 6.4 综合运用第 17 题) 证明: 设三角形的外接圆的半径是 $R$, 则 $a=2R\sin A$, $b=2R\sin B$, $c=2R\sin C$.
-
-### 解答 习题十七
-
-由**定理 6.4.3 (正弦定理)**.
-
-设外接圆圆心为 $O$. 过 $O$ 作直径 $BD$, 则 $\angle BAD=90^{\circ}$ (直径所对圆周角为直角). $\angle BDA=\angle BCA=C$ (同弧所对圆周角相等).
-
-在直角三角形 $ABD$ 中, $AB=BD\sin\angle BDA=2R\sin C$. 即 $c=2R\sin C$.
-
-同理 $a=2R\sin A$, $b=2R\sin B$. $\blacksquare$
-
-## 习题十八
-
-(习题 6.4 综合运用第 18 题) 利用第 10 题的结论, 证明三角形的面积公式 $S=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$.
-
-### 解答 习题十八
-
-由**定理 6.4.3 (正弦定理)** 与第 10 题结论 $S=\frac{1}{2}ab\sin C$.
-
-由正弦定理 $b=\frac{a\sin B}{\sin A}$.
-
-$S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$. $\blacksquare$
-
-## 习题十九
-
-(习题 6.4 拓广探索第 19 题) 如图, 在 $\square ABCD$ 中, 点 $E$, $F$ 分别是 $AD$, $DC$ 边的中点, $BE$, $BF$ 分别与 $AC$ 交于 $R$, $T$ 两点, 你能发现 $AR$, $RT$, $TC$ 之间的关系吗? 用向量方法证明你的结论.
-
-图:平行四边形 $ABCD$,$E$ 为边 $AD$ 的中点,$F$ 为边 $DC$ 的中点;线段 $BE$ 与对角线 $AC$ 交于点 $R$,线段 $BF$ 与对角线 $AC$ 交于点 $T$.
-
-### 解答 习题十九
-
-由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.3.1 (平面向量基本定理)**.
-
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$. $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$.
-
-$R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. 又 $R$ 在 $AC$ 上: $\boldsymbol{AR}=t\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
-
-比较: $t=\lambda$, $t=\frac{\mu}{2}$. $E$ 在 $AD$ 上, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{b}$. 由 $B$, $R$, $E$ 共线: $\lambda+\frac{\mu}{2}=1$, 即 $t+t=1$, $t=\frac{1}{3}$. 故 $AR=\frac{1}{3}AC$.
-
-同理 $T$ 在 $BF$ 上, $F$ 为 $DC$ 中点, $\boldsymbol{AF}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}$. 由 $A$, $T$, $C$ 共线及 $B$, $T$, $F$ 共线, 得 $AT=\frac{2}{3}AC$.
-
-故 $AR=RT=TC=\frac{1}{3}AC$. $\blacksquare$
-
-## 习题二十
-
-(习题 6.4 拓广探索第 20 题) 已知 $\triangle ABC$ 的三个角 $A$, $B$, $C$ 的对边分别为 $a$, $b$, $c$, 设 $p=\frac{1}{2}\left(a+b+c\right)$, 求证:
-
-(1) 三角形的面积 $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$;
-
-(2) 若 $r$ 为三角形的内切圆半径, 则 $r=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$;
-
-(3) 把边 $BC$, $AC$, $AB$ 上的高分别记为 $h_a$, $h_b$, $h_c$, 则 $h_a=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_b=\frac{2}{b}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_c=\frac{2}{c}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
-
-### 解答 习题二十
-
-由**定理 6.4.2 (余弦定理)** 与面积公式.
-
-(1) $S=\frac{1}{2}ab\sin C$. $\sin C=\sqrt{1-\cos^2 C}$. $\cos C=\frac{a^2+b^2-c^2}{2ab}$.
-
-$S^2=\frac{a^2b^2}{4}\left(1-\cos^2 C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
-
-$=\frac{\left(2ab-a^2-b^2+c^2\right)\left(2ab+a^2+b^2-c^2\right)}{16}=\frac{\left(c^2-\left(a-b\right)^2\right)\left(\left(a+b\right)^2-c^2\right)}{16}$.
-
-$=\frac{\left(c-a+b\right)\left(c+a-b\right)\left(a+b-c\right)\left(a+b+c\right)}{16}$.
-
-$=p\left(p-a\right)\left(p-b\right)\left(p-c\right)$. $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
-
-(2) $S=rp$. $r=\frac{S}{p}=\frac{\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}}{p}=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$.
-
-(3) $S=\frac{1}{2}ah_a$. $h_a=\frac{2S}{a}=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$. 同理 $h_b$, $h_c$. $\blacksquare$
-
-## 习题二十一
-
-(习题 6.4 拓广探索第 21 题) 如图, 为了测量两山顶 $M$, $N$ 间的距离, 飞机沿水平方向在 $A$, $B$ 两点进行测量, $A$, $B$, $M$, $N$ 在同一个铅垂平面内. 请设计一个测量方案.
-
-图:铅垂面内的测量示意图,上方水平线上有飞机位置 $A$, $B$ 两点,下方地面上有两个山顶 $M$, $N$;从 $A$, $B$ 分别观测 $M$, $N$ 的仰角,$AB$ 为水平基线.
-
-### 解答 习题二十一
-
-由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**.
-
-(1) 测量 $AB$ 的距离 $d$, 在 $A$ 点测得 $M$ 的仰角 $\alpha_1$, $N$ 的仰角 $\beta_1$; 在 $B$ 点测得 $M$ 的仰角 $\alpha_2$, $N$ 的仰角 $\beta_2$.
-
-(2) 在 $\triangle ABM$ 中, 由正弦定理求 $AM$, $BM$; 在 $\triangle ABN$ 中求 $AN$, $BN$; 在 $\triangle AMN$ 或 $\triangle BMN$ 中由余弦定理求 $MN$. $\blacksquare$
-
-## 习题二十二
-
-(习题 6.4 拓广探索第 22 题) 已知 $a$, $b$, $c$ 分别为 $\triangle ABC$ 三个内角 $A$, $B$, $C$ 的对边, 且 $a\cos C+\sqrt 3a\sin C-b-c=0$.
-
-(1) 求 $A$;
-
-(2) 若 $a=2$, 且 $\triangle ABC$ 的面积为 $\sqrt 3$, 求 $b$, $c$.
-
-### 解答 习题二十二
-
-由**定理 6.4.3 (正弦定理)**.
-
-(1) 由正弦定理: $\sin A\cos C+\sqrt 3\sin A\sin C-\sin B-\sin C=0$.
-
-$B=\pi-A-C$. $\sin B=\sin\left(A+C\right)=\sin A\cos C+\cos A\sin C$.
-
-$\sin A\cos C+\sqrt 3\sin A\sin C-\sin A\cos C-\cos A\sin C-\sin C=0$.
-
-$\left(\sqrt 3\sin A-\cos A-1\right)\sin C=0$.
-
-$\sqrt 3\sin A-\cos A=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
-
-$A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
-
-(2) $S=\frac{1}{2}bc\sin A=\sqrt 3$. $\frac{1}{2}bc\cdot\frac{\sqrt 3}{2}=\sqrt 3$. $bc=4$.
-
-$a^2=b^2+c^2-2bc\cos A$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
-
-$b^2+c^2=8$. $\left(b+c\right)^2=b^2+c^2+2bc=16$. $b+c=4$.
-
-$bc=4$, $b+c=4$. $b=c=2$. $\blacksquare$
-
-## 习题二十三
-
-(习题 6.4 拓广探索第 23 题) 根据实际需要, 利用本节所学的知识完成一次有关测量的实习作业, 并写出实习报告.
-
-### 解答 习题二十三
-
-由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**, 设计测量方案: 选择不可直接到达的两点 (如河两岸), 测量基线长度及各角度, 用正弦定理和余弦定理计算距离. 实习报告包括测量问题, 测量工具, 测得数据和计算过程及结论. $\blacksquare$
+综合来看, 乙班整体水平略高且成绩整齐, 甲班虽然有高分, 但低分也多, 两极分化明显. $\blacksquare$

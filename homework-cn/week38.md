@@ -1,321 +1,367 @@
 # week38
-> **定义 8.1.1 (空间几何体)**
+> **定义 6.1.1 (向量与数量)**
 > 
-> 如果只考虑物体的形和大小, 而不考虑其他因素, 那么由这些物体抽象出来的空间图形就叫做空间几何体.
-> **定义 8.1.2 (多面体)**
+> 既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
+> **定义 6.1.7 (相等向量)**
 > 
-> 由若干个平面多边形围成的几何体叫做多面体.
-> **定义 8.1.3 (旋转体)**
+> 长度相等且方向相同的向量叫做相等向量.
+> **定义 6.2.4 (全排列与阶乘)**
 > 
-> 由一个平面图形绕它所在平面内的一条定直线旋转所形成的封闭几何体叫做旋转体.
-> **定义 8.1.4 (棱柱)**
+> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **定义 6.2.5 (向量的减法)**
 > 
-> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
-> **定义 8.1.5 (直棱柱与斜棱柱)**
+> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+> **定义 6.2.6 (向量的数乘)**
 > 
-> 侧棱与底面垂直的棱柱叫做直棱柱, 侧棱与底面不垂直的棱柱叫做斜棱柱.
-> **定义 8.1.7 (平行六面体)**
+> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+> **定理 6.2.8 (共线向量定理)**
 > 
-> 底面是平行四边形的四棱柱叫做平行六面体.
-> **定义 8.1.8 (棱锥)**
+> 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+> **定义 6.2.11 (向量的数量积)**
 > 
-> 有一个面是多边形, 其余各面都是有一个公共顶点的三角形, 由这些面围成的多面体叫做棱锥.
-> **定义 8.1.9 (正棱锥)**
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+> **定理 6.3.1 (平面向量基本定理)**
 > 
-> 底面是正多边形, 且顶点在底面的投影是底面中心的棱锥叫做正棱锥.
-> **定义 8.1.10 (棱台)**
+> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+> **定理 6.4.2 (余弦定理)**
 > 
-> 用一个平行于棱锥底面的平面去截棱锥, 底面和截面之间的部分叫做棱台.
-> **定义 8.1.11 (圆柱)**
+> 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
+> **定理 6.4.3 (正弦定理)**
 > 
-> 以矩形的一边所在直线为旋转轴, 其余三边旋转形成的面所围成的旋转体叫做圆柱.
-> **定义 8.1.12 (圆锥)**
-> 
-> 以直角三角形的一条直角边所在直线为旋转轴, 其余两边旋转形成的面所围成的旋转体叫做圆锥.
-> **定义 8.1.13 (圆台)**
-> 
-> 用平行于圆锥底面的平面去截圆锥, 底面与截面之间的部分叫做圆台.
-> **定义 8.1.14 (球)**
-> 
-> 以半圆的直径所在直线为旋转轴, 半圆面旋转一周形成的旋转体叫做球体.
-> **定义 8.1.16 (简单组合体)**
-> 
-> ,它们在结构上有哪些相同点和不同点?当底面发 生变化时,它们能否互相转化?圆柱,圆锥与圆台呢? ８简单组合体 现实世界中的物体表示的几何体,除柱体,锥体,台体和球等简单几何体外,还有大 量的几何体是由简单几何体组合而成的,这些几何体称作简单组合体. (１)　　　　　(２)　　　　　　　(３)　　　　　　　　　(４) 图８.１１４ 　　请你说一说图８.１１４ 中各几何体是由哪些简单 几何体组合而成的. 简单组合体的构成有两种基本形式:一种是由简单几何 体拼接而成,如图８.１１４(１)(２)中物体表示的几何体; 一种是由简单几何体截去或挖去一部分而成,如图８.１１４ (３)(４)中的几何体.现实世界中的物体大多是由具有柱体, 锥体,台体,球等结构特征的物体组合而成. 例２　如图８.１１５(１),以直角梯形的下底 所在直线为轴,其余三边旋转一周形成的面围成一个几何 体.说出这个几何体的结构特征. ３０１ 径.球常用表示球心的字母来表示,如图8.1-13中的球记作球O.
-
-## 练习一
-
-(练习 8.1 第 1 题) 观察图中的物体, 说出它们的主要结构特征.
-
-(1) 帐篷; (2) 字典; (3) 玻璃金字塔; (4) 垃圾桶.
-
-> 原图见教材 必修第二册 印刷页 101 ($PDF$ 页 107). 该图为实物照片, 无法用 R 重绘.
-
-### 解答 练习一
-
-由**定义 8.1.4 (棱柱)** 及**定义 8.1.8 (棱锥)**, 按围成物体的面是否为平面多边形, 是否有两个互相平行的面来判断.
-
-(1) 帐篷可抽象为棱柱, 其两个底面为三角形, 侧面为矩形, 是一个三棱柱.
-
-(2) 字典可抽象为长方体, 它是底面为矩形的直四棱柱, 即正四棱柱的一种.
-
-(3) 玻璃金字塔可抽象为棱锥, 其底面是四边形, 侧面是有公共顶点的三角形, 是一个四棱锥.
-
-(4) 垃圾桶可抽象为棱柱, 其整体接近一个棱柱, 口大底小处近似台体, 主要结构特征为一个棱柱加一个开口盖. $\blacksquare$
-
-## 练习二
-
-(练习 8.1 第 2 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
-
-(1) 长方体是四棱柱, 直四棱柱是长方体.
-
-(2) 四棱柱, 四棱台, 五棱锥都是六面体.
-
-### 解答 练习二
-
-由**定义 8.1.4 (棱柱)**, **定义 8.1.5 (直棱柱与斜棱柱)**, **定义 8.1.10 (棱台)** 及**定义 8.1.8 (棱锥)** 判断.
-
-(1) 长方体符合棱柱的特征, 且底面为四边形, 故是四棱柱. 但直四棱柱只要求侧棱垂直于底面, 底面不一定是矩形, 而长方体的底面必须是矩形, 故直四棱柱不一定是长方体. 命题错误.
-
-(2) 四棱柱有两个底面和四个侧面, 共 $6$ 个面; 四棱台有两个底面和四个侧面, 共 $6$ 个面; 五棱锥有一个底面和五个侧面, 共 $6$ 个面. 三者都由 $6$ 个面围成, 都是六面体. 命题正确. $\blacksquare$
-
-## 练习三
-
-(练习 8.1 第 3 题) 填空题.
-
-(1) 一个几何体由 $7$ 个面围成, 其中两个面是互相平行且全等的五边形, 其他各面都是全等的矩形, 则这个几何体是 $\;\_\_\;$.
-
-(2) 一个多面体最少有 $\;\_\_\;$ 个面, 此时这个多面体是 $\;\_\_\;$.
-
-### 解答 练习三
-
-由**定义 8.1.4 (棱柱)**, 棱柱的两个底面互相平行且全等, 侧面都是平行四边形.
-
-(1) 两个互相平行且全等的五边形为底面, 其余五个矩形为侧面, 侧棱垂直于底面, 故这个几何体是正五棱柱.
-
-(2) 由**定义 8.1.8 (棱锥)**, 三棱锥有一个三角形底面和三个三角形侧面, 共 $4$ 个面. 任何多面体至少需要 $4$ 个面才能围成封闭的空间图形, 故最少有 $4$ 个面, 此时这个多面体是三棱锥 (即四面体). $\blacksquare$
-
-## 练习四
-
-(练习 8.1 第 4 题) 设计一个平面图形, 使它能折成一个直三棱柱.
-
-图:直三棱柱的平面展开图——三个全等的矩形并排相连作为侧面,中间矩形的上下两边各接一个全等的三角形作为上下底面.
-
-### 解答 练习四
-
-由**定义 8.1.4 (棱柱)** 及**定义 8.1.5 (直棱柱与斜棱柱)**, 直三棱柱有两个全等的三角形底面和三个矩形侧面, 且侧棱垂直于底面.
-
-设计如下平面展开图: 取三个全等的矩形并排相连, 作为三个侧面; 在中间那个矩形的上, 下两边上分别各接一个全等的三角形, 作为上, 下底面. 沿相邻矩形的公共边折起, 使三个矩形围成三个侧面, 两个三角形分别作为上下底面, 即折成一个直三棱柱. $\blacksquare$
-
-## 练习五
-
-(练习 8.1 第 1 题) 观察图中的物体, 说出它们的主要结构特征.
-
-(1) 纸杯; (2) 奶粉罐; (3) 排球; (4) 交通锥.
-
-> 原图见教材 必修第二册 印刷页 104 ($PDF$ 页 110). 该图为实物照片, 无法用 R 重绘.
-
-### 解答 练习五
-
-由**定义 8.1.13 (圆台)**, **定义 8.1.11 (圆柱)**, **定义 8.1.14 (球)** 及**定义 8.1.12 (圆锥)** 判断.
-
-(1) 纸杯口大底小, 上下两个底面是半径不同的圆面, 侧面是曲面, 是一个圆台.
-
-(2) 奶粉罐的上下底面是全等的圆面, 侧面是垂直于底面的曲面, 是一个圆柱.
-
-(3) 排球表面是球面, 整体是一个球.
-
-(4) 交通锥的底面是圆面, 侧面是曲面并收拢于一点, 是一个圆锥. $\blacksquare$
-
-## 练习六
-
-(练习 8.1 第 2 题) 说出图中物体的主要结构特征.
-
-(1) 粮仓; (2) 螺母.
-
-> 原图见教材 必修第二册 印刷页 104 ($PDF$ 页 110). 该图为实物照片, 无法用 R 重绘.
-
-### 解答 练习六
-
-由**定义 8.1.16 (简单组合体)**, 现实物体可由简单几何体拼接或挖去一部分而成.
-
-(1) 粮仓下部是一个圆柱, 顶部是一个圆锥, 二者底面重合拼接而成, 是一个圆柱与圆锥的组合体.
-
-(2) 螺母的外形是一个正六棱柱, 中间沿圆柱方向挖去一个圆柱孔, 是一个正六棱柱挖去一个圆柱得到的组合体. $\blacksquare$
-
-## 练习七
-
-(练习 8.1 第 3 题) 如图, 以三角形 $ABC$ 的一边 $AB$ 所在直线为轴, 其余两边旋转一周形成的面围成一个几何体. 说出这个几何体的结构特征.
-
-图:直角三角形 $ABC$,直角边 $AB$ 水平(作为旋转轴),直角边 $BC$ 垂直于 $AB$,斜边 $AC$ 连接 $A$ 与 $C$.
-
-### 解答 练习七
-
-由**定义 8.1.3 (旋转体)** 及**定义 8.1.12 (圆锥)**, 平面图形绕轴旋转一周围成旋转体.
-
-三角形 $ABC$ 中, $AB$ 为旋转轴, $BC$ 垂直于 $AB$, $AC$ 为斜边. 以 $AB$ 所在直线为轴旋转一周时, 垂直于轴的边 $BC$ 旋转成一个圆面, 斜边 $AC$ 旋转成一个曲面. 故围成的几何体是一个圆锥, 它由直角三角形 $ABC$ 绕直角边 $AB$ 旋转而成, $AB$ 为轴, $BC$ 旋转而成的圆面为底面, $AC$ 旋转而成的曲面为侧面. $\blacksquare$
-
-## 练习八
-
-(练习 8.1 第 4 题) 观察我们周围的物体, 说出这些物体所表示的几何体的主要结构特征.
-
-### 解答 练习八
-
-由**定义 8.1.16 (简单组合体)**, 周围物体多为简单几何体的组合.
-
-例如: 书本近似长方体, 是一个直四棱柱; 易拉罐近似圆柱; 篮球是球; 金字塔近似四棱锥; 帐篷近似三棱柱; 玻璃杯若口大底小则近似圆台. 它们各自或为单一的柱体, 锥体, 台体, 球体, 或由这些简单几何体拼接, 挖去一部分组合而成. $\blacksquare$
+> 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
 
 ## 习题一
 
-(习题 8.1 复习巩固第 1 题) 如图, 在长方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 指出经过顶点 $D$ 的棱和面.
+(复习参考题 6 复习巩固第 1 题) 判断下列命题是否正确 (正确的在括号内打 "$\surd$", 错误的打 "$\times$").
 
-图:长方体 $ABCD\text{-}A_1B_1C_1D_1$ 的直观图,下底面为矩形 $ABCD$,上底面为矩形 $A_1B_1C_1D_1$,侧棱 $AA_1,BB_1,CC_1,DD_1$ 垂直于底面.
+(1) $\boldsymbol{AB}+\boldsymbol{BA}=\boldsymbol{0}$. ()
+
+(2) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$. ()
+
+(3) $\boldsymbol{AB}-\boldsymbol{AC}=\boldsymbol{BC}$. ()
+
+(4) $0\boldsymbol{AB}=\boldsymbol{0}$. ()
 
 ### 解答 习题一
 
-由**定义 8.1.2 (多面体)**, 棱是两个面的公共边, 顶点是棱与棱的公共点.
+由**定义 6.2.4 (全排列与阶乘)** 与**定义 6.2.5 (向量的减法)**.
 
-在长方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 经过顶点 $D$ 的棱有三条: $DA$, $DC$, $DD_{1}$. 经过顶点 $D$ 的面有三个: 底面 $ABCD$, 侧面 $ADD_{1}A_{1}$, 侧面 $CDD_{1}C_{1}$. $\blacksquare$
+(1) 正确. $\boldsymbol{BA}=-\boldsymbol{AB}$, $\boldsymbol{AB}+\boldsymbol{BA}=\boldsymbol{0}$.
+
+(2) 正确. 三角形法则.
+
+(3) 错误. $\boldsymbol{AB}-\boldsymbol{AC}=\boldsymbol{CB}$.
+
+(4) 正确. 数乘 $0\boldsymbol{AB}=\boldsymbol{0}$. $\blacksquare$
 
 ## 习题二
 
-(习题 8.1 复习巩固第 2 题) 如图, 下列几何体中为棱柱的是 $\;\_\_\;$ (填写序号).
+(复习参考题 6 复习巩固第 2 题) 选择题.
 
-(1) 斜放的平行六面体; (2) 三棱柱; (3) 竖放的长方体; (4) 圆柱; (5) 下方长方体上方接三棱柱的组合体; (6) 棱台加棱锥的组合体; (7) 三棱锥.
+(1) 如果 $\boldsymbol{a}$, $\boldsymbol{b}$ 是两个单位向量, 那么下列四个结论中正确的是 ().
 
-图:七个几何体并排排列:(1) 斜放的平行六面体;(2) 三棱柱;(3) 竖放的长方体;(4) 圆柱;(5) 下方长方体上方接三棱柱的组合体;(6) 棱台加棱锥的组合体;(7) 三棱锥.
+(A) $\boldsymbol{a}=\boldsymbol{b}$ (B) $\boldsymbol{a}\cdot\boldsymbol{b}=1$
+
+(C) $\boldsymbol{a}^2\neq\boldsymbol{b}^2$ (D) $\boldsymbol{a}^2=\boldsymbol{b}^2$
+
+(2) 对于任意两个向量 $\boldsymbol{a}$ 和 $\boldsymbol{b}$, 下列命题中正确的是 ().
+
+(A) 若 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert\boldsymbol{a}\rvert> \lvert\boldsymbol{b}\rvert$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 同向, 则 $\boldsymbol{a}> \boldsymbol{b}$
+
+(B) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$
+
+(C) $\boldsymbol{a}\cdot\boldsymbol{b}\ge\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$
+
+(D) $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert$
+
+(3) 在四边形 $ABCD$ 中, 若 $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$, 则 ().
+
+(A) $ABCD$ 是矩形 (B) $ABCD$ 是菱形
+
+(C) $ABCD$ 是正方形 (D) $ABCD$ 是平行四边形
+
+(4) 设 $\boldsymbol{a}$ 是非零向量, $\lambda$ 是非零实数, 下列结论中正确的是 ().
+
+(A) $\boldsymbol{a}$ 与 $-\lambda\boldsymbol{a}$ 的方向相反 (B) $\lvert-\lambda\boldsymbol{a}\rvert\ge\lvert\boldsymbol{a}\rvert$
+
+(C) $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 的方向相同 (D) $\lvert-\lambda\boldsymbol{a}\rvert=\lambda\lvert\boldsymbol{a}\rvert$
+
+(5) 设 $M$ 是 $\square ABCD$ 的对角线的交点, $O$ 为任意一点, 则 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}+\boldsymbol{OD}=$ ().
+
+(A) $\boldsymbol{OM}$ (B) $2\boldsymbol{OM}$ (C) $3\boldsymbol{OM}$ (D) $4\boldsymbol{OM}$
+
+(6) 在下列各组向量中, 可以作为基底的是 ().
+
+(A) $\boldsymbol{e}_1=\left(0,0\right)$, $\boldsymbol{e}_2=\left(1,-2\right)$ (B) $\boldsymbol{e}_1=\left(-1,2\right)$, $\boldsymbol{e}_2=\left(5,7\right)$
+
+(C) $\boldsymbol{e}_1=\left(3,5\right)$, $\boldsymbol{e}_2=\left(6,10\right)$ (D) $\boldsymbol{e}_1=\left(2,-3\right)$, $\boldsymbol{e}_2=\left(\frac{1}{2},-\frac{3}{4}\right)$
 
 ### 解答 习题二
 
-由**定义 8.1.4 (棱柱)**, 棱柱须有两个面互相平行, 其余各面都是四边形, 且相邻四边形的公共边互相平行.
+(1) 由**常用结论 6.2.13**, $\boldsymbol{a}^2=\lvert\boldsymbol{a}\rvert^2=1=\boldsymbol{b}^2$. 选 (D).
 
-(1) 有两个平行的三角形面, 其余各面为平行四边形, 是棱柱; (2) 有两个平行的三角形底面, 侧面为矩形, 是棱柱; (3) 长方体是四棱柱; (5) 下方的长方体部分本身是棱柱. (4) 圆柱是旋转体, 不是多面体, 故不是棱柱; (6) (7) 不具备棱柱的结构特征. 故为棱柱的是 (1) (2) (3) (5). $\blacksquare$
+(2) 由**常用结论 6.2.3**, 三角不等式 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. 选 (B).
+
+(3) 由**定义 6.1.7 (相等向量)**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ 说明 $ABCD$ 为平行四边形. 选 (D).
+
+(4) 由**定义 6.2.6 (向量的数乘)**, $\lambda^2> 0$, $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 方向相同. 选 (C).
+
+(5) $M$ 为对角线中点, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, 和为 $4\boldsymbol{OM}$. 选 (D).
+
+(6) 由**定理 6.3.1 (平面向量基本定理)**, 基底要求不共线. (B) 中 $\left(-1\right)\times7-2\times5=-17\neq0$, 不共线. 选 (B). $\blacksquare$
 
 ## 习题三
 
-(习题 8.1 复习巩固第 3 题) 如图, 汽车内胎可以由下面某个图形绕轴旋转而成, 这个图形是 ( ).
-
-(A) 同心圆组绕轴; (B) 两个等圆绕轴; (C) 小圆绕轴; (D) 圆绕轴.
-
-> 原图见教材 必修第二册 印刷页 105 ($PDF$ 页 111). 该图为实物照片, 无法用 R 重绘.
-
-图:四个选项的平面图形,每个图形绕竖直轴旋转:(A) 同心圆组;(B) 两个等圆;(C) 小圆;(D) 圆.
+(复习参考题 6 复习巩固第 3 题) 已知六边形 $ABCDEF$ 为正六边形, 且 $\boldsymbol{AC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, 分别用 $\boldsymbol{a}$, $\boldsymbol{b}$ 表示 $\boldsymbol{DE}$, $\boldsymbol{AD}$, $\boldsymbol{BC}$, $\boldsymbol{EF}$, $\boldsymbol{FA}$, $\boldsymbol{AB}$, $\boldsymbol{CE}$.
 
 ### 解答 习题三
 
-由**定义 8.1.3 (旋转体)**, 内胎是一个圆环体, 它由一个圆绕与其共面但不相交的轴旋转一周而成.
+由**定理 6.3.1 (平面向量基本定理)** 与**定义 6.1.7 (相等向量)**.
 
-(A) 含圆心在轴上, 旋转后不能形成空心环; (B) 两个圆旋转后形成两个同心柱面; (C) 小圆的圆心不在轴上, 旋转不成环面; (D) 圆的圆心不在轴上, 绕轴旋转一周, 该圆扫出一个圆环面, 恰为内胎. 故选 (D). $\blacksquare$
+设正六边形中心为 $O$. 由几何关系:
+
+$\boldsymbol{AC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$.
+
+$\boldsymbol{AD}=\boldsymbol{AC}+\boldsymbol{CD}$. 由正六边形对称性, 逐步推导得:
+
+$\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{AD}=\boldsymbol{a}-\boldsymbol{b}$; $\boldsymbol{BC}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{EF}=-\boldsymbol{BC}$; $\boldsymbol{FA}=-\boldsymbol{DE}$; $\boldsymbol{AB}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{CE}=\boldsymbol{CD}+\boldsymbol{DE}$. $\blacksquare$
 
 ## 习题四
 
-(习题 8.1 复习巩固第 4 题) 如图, 判断下列几何体是不是台体, 并说明为什么.
+(复习参考题 6 复习巩固第 4 题) 已知平面直角坐标系中, 点 $O$ 为原点, $A\left(-3,-4\right)$, $B\left(5,-12\right)$.
 
-(1) 棱台, 上下底面平行; (2) 棱锥被不平行于底面的平面截取; (3) 圆锥被不平行于底面的平面截取.
+(1) 求 $\boldsymbol{AB}$ 的坐标及 $\lvert\boldsymbol{AB}\rvert$ 的值;
 
-图:三个几何体并排:(1) 棱台(上下底面平行);(2) 棱锥被不平行于底面的平面截取;(3) 圆锥被不平行于底面的平面截取.
+(2) 若 $\boldsymbol{OC}=\boldsymbol{OA}+\boldsymbol{OB}$, $\boldsymbol{OD}=\boldsymbol{OA}-\boldsymbol{OB}$, 求 $\boldsymbol{OC}$ 与 $\boldsymbol{OD}$ 的坐标;
+
+(3) 求 $\boldsymbol{OA}\cdot\boldsymbol{OB}$ 的值.
 
 ### 解答 习题四
 
-由**定义 8.1.10 (棱台)** 及**定义 8.1.13 (圆台)**, 台体必须由平行于底面的平面截取锥体而成, 即上下底面互相平行.
+由**常用结论 6.3.4** 与**常用结论 6.3.7**.
 
-(1) 上下底面互相平行, 侧棱延长后交于一点, 符合台体特征, 是台体.
+(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
 
-(2) 截面与底面不平行, 截得的上下两个面不平行, 不符合台体定义, 不是台体.
+(2) $\boldsymbol{OC}=\left(-3+5,-4-12\right)=\left(2,-16\right)$. $\boldsymbol{OD}=\left(-3-5,-4-\left(-12\right)\right)=\left(-8,8\right)$.
 
-(3) 截面与底面不平行, 截得的上下两个面不平行, 不符合圆台定义, 不是台体. $\blacksquare$
+(3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=\left(-3\right)\times5+\left(-4\right)\times\left(-12\right)=-15+48=33$. $\blacksquare$
 
 ## 习题五
 
-(习题 8.1 复习巩固第 5 题) 如图, 说出图中两个几何体的结构特征.
-
-(1) 圆锥接在圆台之上; (2) 四棱锥接在长方体之上.
-
-图:两个组合体并排:(1) 上方圆锥接在下方圆台之上;(2) 上方四棱锥接在下方长方体之上.
+(复习参考题 6 复习巩固第 5 题) 已知点 $A\left(1,1\right)$, $B\left(-1,0\right)$, $C\left(0,1\right)$. 若 $\boldsymbol{AB}=\boldsymbol{CD}$, 则点 $D$ 的坐标是什么?
 
 ### 解答 习题五
 
-由**定义 8.1.16 (简单组合体)**, 组合体由简单几何体拼接而成.
+由**常用结论 6.3.4** 与**定义 6.1.7 (相等向量)**.
 
-(1) 上方是一个圆锥, 下方是一个圆台, 圆锥的底面与圆台的上底面重合, 拼接而成.
+$\boldsymbol{AB}=\left(-1-1,0-1\right)=\left(-2,-1\right)$.
 
-(2) 下方是一个长方体 (四棱柱), 上方是一个四棱锥, 四棱锥的底面与长方体的上底面重合, 拼接而成. $\blacksquare$
+设 $D\left(x,y\right)$, $\boldsymbol{CD}=\left(x-0,y-1\right)=\left(x,y-1\right)$.
+
+$x=-2$, $y-1=-1$, $y=0$. $D\left(-2,0\right)$. $\blacksquare$
 
 ## 习题六
 
-(习题 8.1 综合运用第 6 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
-
-(1) 一个棱柱至少有 $5$ 个面.
-
-(2) 平行六面体中相对的两个面是全等的平行四边形.
-
-(3) 有一个面是平行四边形的棱锥一定是四棱锥.
-
-(4) 正棱锥的侧面是全等的等腰三角形.
+(复习参考题 6 复习巩固第 6 题) 已知向量 $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$, $\boldsymbol{c}=\left(-1,0\right)$, 求满足 $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$ 的 $\lambda$ 和 $\mu$ 的值.
 
 ### 解答 习题六
 
-由**定义 8.1.4 (棱柱)**, **定义 8.1.7 (平行六面体)**, **定义 8.1.8 (棱锥)** 及**定义 8.1.9 (正棱锥)** 判断.
+由**常用结论 6.3.4** (坐标运算).
 
-(1) 最简单的棱柱是三棱柱, 有两个三角形底面和三个侧面, 共 $5$ 个面, 故一个棱柱至少有 $5$ 个面. 正确.
+$\left(-1,0\right)=\lambda\left(1,0\right)+\mu\left(1,1\right)=\left(\lambda+\mu,\mu\right)$.
 
-(2) 平行六面体的底面是平行四边形, 由棱柱的性质, 相对的两个面互相平行且全等, 都是平行四边形. 正确.
-
-(3) 棱锥按底面多边形的边数命名, 若底面是平行四边形 (四边形), 则为四棱锥. 但棱锥只有一个面是底面, 其余各面都是三角形, 故有一个面是平行四边形即指底面为四边形, 一定是四棱锥. 正确.
-
-(4) 由**定义 8.1.9 (正棱锥)**, 底面是正多边形, 顶点在底面的投影为底面中心, 故各侧棱相等, 各侧面都是全等的等腰三角形. 正确. $\blacksquare$
+$\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
 
 ## 习题七
 
-(习题 8.1 综合运用第 7 题) 如图, 右边长方体中由左边的平面图形围成的是 ( ).
-
-(展开图中中间矩形上下各接一个矩形, 左右各接一个小正方形, 涂色面为中间矩形, 下方矩形和左右两个小正方形.)
-
-图:长方体的平面展开图——中间矩形为侧面,其上方和下方各接一个矩形(下方矩形涂色),左右两侧各接一个小正方形(均涂色).
+(复习参考题 6 复习巩固第 7 题) 已知 $\triangle ABC$ 的顶点坐标分别为 $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, 求 $\cos A$, $\cos B$, $\cos C$ 的值.
 
 ### 解答 习题七
 
-由**定义 8.1.4 (棱柱)**, 展开图折叠后, 相邻的涂色面在长方体中应两两相邻.
+由**常用结论 6.3.8** (夹角).
 
-展开图中, 中间长矩形为侧面, 其上方的矩形是其对面, 下方的矩形涂色且与中间矩形相邻, 左右两个涂色小正方形分别位于中间矩形两侧. 折成长方体后, 涂色的上下面与一个侧面相邻, 而相对的面不涂色. 符合这一相邻关系的是 (B), 即涂色面为顶面及与顶面相邻的一个侧面. $\blacksquare$
+$\boldsymbol{AB}=\left(3,0\right)$, $\boldsymbol{AC}=\left(3,4\right)$, $\boldsymbol{BC}=\left(0,4\right)$.
+
+$\cos A=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
+
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
+
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
 
 ## 习题八
 
-(习题 8.1 综合运用第 8 题) 如图, 长方体 $ABCD\text{-}A'B'C'D'$ 被一个平面截成两个几何体, 其中 $EH\parallel B'C'\parallel FG$. 请说出这两个几何体的名称.
-
-图:长方体 $ABCD\text{-}A'B'C'D'$ 被一个平面截取,截面 $EFGH$ 平行于侧面 $BCC'B'$,其中 $EH\parallel B'C'\parallel FG$,将长方体分为两部分.
+(复习参考题 6 复习巩固第 8 题) 已知向量 $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$. 当 $\lambda$ 为何值时, $\boldsymbol{a}+\lambda\boldsymbol{b}$ 与 $\boldsymbol{a}$ 垂直?
 
 ### 解答 习题八
 
-由**定义 8.1.4 (棱柱)**, 有两个面互相平行, 其余各面都是四边形, 且相邻四边形公共边互相平行的多面体是棱柱.
+由**常用结论 6.3.8** (垂直).
 
-因为 $EH\parallel B'C'\parallel FG$, 截面 $EFGH$ 平行于长方体的侧面 $BCC'B'$. 截面将长方体截为两部分, 每一部分都有两个互相平行的面 (分别为截面和长方体相对的一个侧面), 其余各面都是四边形, 且相邻四边形的公共边互相平行. 故截得的两个几何体都是棱柱: 含顶点 $A$ 的一侧为一个四棱柱, 含顶点 $B'$ 的一侧也为一个四棱柱. $\blacksquare$
+$\boldsymbol{a}+\lambda\boldsymbol{b}=\left(1+\lambda,\lambda\right)$.
+
+与 $\boldsymbol{a}=\left(1,0\right)$ 垂直: $\left(1+\lambda\right)\times1+\lambda\times0=0$.
+
+$1+\lambda=0$. $\lambda=-1$. $\blacksquare$
 
 ## 习题九
 
-(习题 8.1 综合运用第 9 题) 如图, 以 $\square ABCD$ 的一边 $AB$ 所在直线为轴, 其他三边旋转一周形成的面围成一个几何体. 画出这个几何体的图形, 并说出其中的简单几何体及有关的结构特征.
-
-图:平行四边形 $ABCD$,边 $AB$ 水平(作为旋转轴),$CD\parallel AB$,$AD$ 与 $BC$ 为两条侧边;过 $D,C$ 分别作 $AB$ 的垂线,垂足为 $E,F$.
+(复习参考题 6 复习巩固第 9 题) 已知向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt 3$, $\lvert\boldsymbol{b}\rvert=2$, 求 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$, $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$ 的值.
 
 ### 解答 习题九
 
-由**定义 8.1.3 (旋转体)** 及**定义 8.1.16 (简单组合体)**, 平行四边形绕一边旋转一周形成旋转体.
+由**定义 6.2.11 (向量的数量积)** 与**常用结论 6.2.13**.
 
-设平行四边形 $ABCD$ 中, $AB$ 为旋转轴, $CD\parallel AB$, $AD$ 与 $BC$ 为两条侧边. 过 $D$, $C$ 分别作 $AB$ 的垂线, 垂足为 $E$, $F$. 旋转一周后, $DE$ 与 $CF$ 旋转成圆面, $AE$ 所在边 $AD$ 与 $BC$ 旋转成曲面.
+$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt 3\times2\times\cos30^{\circ}=2\sqrt 3\times\frac{\sqrt 3}{2}=3$.
 
-围成的几何体是一个圆柱 (由矩形 $DEFC$ 绕 $EF$ 旋转而成) 挖去或加上两个全等的圆锥 (由直角三角形 $ADE$ 与 $BCF$ 旋转而成). 由于 $AD$ 与 $BC$ 是从轴 $AB$ 出发向外倾斜的边, 该几何体为一个圆柱两端各拼接一个 (或挖去一个) 圆锥的组合体, 即一个圆柱与两个圆锥的组合体. $\blacksquare$
+$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3+6+4=13$. $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{13}$.
+
+$\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3-6+4=1$. $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert=1$. $\blacksquare$
 
 ## 习题十
 
-(习题 8.1 拓广探索第 10 题) 下列命题是否正确? 若正确, 请说明理由; 若错误, 请举出反例.
+(复习参考题 6 复习巩固第 10 题) 如图, 支座 $A$ 受 $\boldsymbol{F}_1$, $\boldsymbol{F}_2$ 两个力的作用, 已知 $\boldsymbol{F}_1$ 与水平线成 $\theta$ 角, $\lvert\boldsymbol{F}_1\rvert=40\text{ N}$, $\boldsymbol{F}_2$ 沿水平方向, $\lvert\boldsymbol{F}_2\rvert=70\text{ N}$, $\boldsymbol{F}_1$ 与 $\boldsymbol{F}_2$ 的合力 $\boldsymbol{F}$ 的大小为 $100\text{ N}$, 求 $\cos\theta$ 以及 $\boldsymbol{F}$ 与 $\boldsymbol{F}_2$ 的夹角 $\beta$ 的余弦值.
 
-(1) 有两个面平行, 其他各个面都是平行四边形的多面体是棱柱;
-
-(2) 有两个面平行且相似, 其他各个面都是梯形的多面体是棱台.
+(题图: 支座 $A$ 受两个力 $\boldsymbol{F}_1,\boldsymbol{F}_2$ 作用, $\boldsymbol{F}_1$ 斜向上与水平线成 $\theta$ 角, $\boldsymbol{F}_2$ 沿水平方向向右, 二者合力 $\boldsymbol{F}$ 斜向上, 与 $\boldsymbol{F}_2$ 夹角为 $\beta$.)
 
 ### 解答 习题十
 
-由**定义 8.1.4 (棱柱)** 及**定义 8.1.10 (棱台)** 判断.
+由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
 
-(1) 命题错误. 反例: 取两个底面全等的斜棱柱对齐叠放, 使侧面交错, 可得一个多面体, 它有两个面平行, 其余各面都是平行四边形, 但相邻两个四边形的公共边并不都互相平行, 故不是棱柱. 关键在于棱柱还要求相邻侧面的公共边互相平行.
+$\boldsymbol{F}=\boldsymbol{F}_1+\boldsymbol{F}_2$.
 
-(2) 命题错误. 反例: 取两个相似的平行四边形面平行放置, 其余各面为梯形, 但各侧棱延长后不交于同一点, 这样的多面体不是由平行于底面的平面截取棱锥得到的, 故不是棱台. 关键在于棱台要求各侧棱延长后交于一点. $\blacksquare$
+$\lvert\boldsymbol{F}\rvert^2=\lvert\boldsymbol{F}_1\rvert^2+\lvert\boldsymbol{F}_2\rvert^2+2\boldsymbol{F}_1\cdot\boldsymbol{F}_2$.
+
+$10000=1600+4900+2\times40\times70\times\cos\theta$.
+
+$3500=5600\cos\theta$. $\cos\theta=\frac{3500}{5600}=\frac{5}{8}$.
+
+$\boldsymbol{F}\cdot\boldsymbol{F}_2=\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_2=\boldsymbol{F}_1\cdot\boldsymbol{F}_2+\boldsymbol{F}_2^2=40\times70\times\frac{5}{8}+4900=1750+4900=6650$.
+
+$\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert\lvert\boldsymbol{F}_2\rvert}=\frac{6650}{100\times70}=\frac{19}{20}$. $\blacksquare$
+
+## 习题十一
+
+(复习参考题 6 复习巩固第 11 题) 在 $\triangle ABC$ 中, 分别根据下列条件解三角形 (角度精确到 $1'$, 边长精确到 $0.01\text{ cm}$):
+
+(1) $a=12\text{ cm}$, $b=5\text{ cm}$, $A=120^{\circ}$;
+
+(2) $a=6\text{ cm}$, $b=8\text{ cm}$, $A=30^{\circ}$;
+
+(3) $a=7\text{ cm}$, $b=23\text{ cm}$, $C=130^{\circ}$;
+
+(4) $a=2\text{ cm}$, $b=3\text{ cm}$, $c=4\text{ cm}$.
+
+### 解答 习题十一
+
+由**定理 6.4.3 (正弦定理)** 与**定理 6.4.2 (余弦定理)**.
+
+(1) $\sin B=\frac{b\sin A}{a}=\frac{5\times\sin120^{\circ}}{12}=\frac{5\sqrt 3}{24}\approx0.361$. $B\approx21^{\circ}10'$. $C=180^{\circ}-120^{\circ}-21^{\circ}10'=38^{\circ}50'$. $c=\frac{a\sin C}{\sin A}\approx7.51\text{ cm}$.
+
+(2) $\sin B=\frac{8\times0.5}{6}=\frac{2}{3}$. $B\approx41^{\circ}49'$ 或 $138^{\circ}11'$.
+
+(a) $B\approx41^{\circ}49'$: $C\approx108^{\circ}11'$. $c=\frac{6\sin C}{\sin30^{\circ}}\approx11.40\text{ cm}$.
+
+(b) $B\approx138^{\circ}11'$: $C\approx11^{\circ}49'$. $c\approx2.70\text{ cm}$.
+
+(3) $c^2=49+529-2\times7\times23\times\cos130^{\circ}\approx578+207.3=785.3$. $c\approx28.02\text{ cm}$. $\sin A=\frac{7\sin130^{\circ}}{28.02}\approx0.191$. $A\approx11^{\circ}1'\text{. }B\approx38^{\circ}59'$.
+
+(4) $\cos A=\frac{9+16-4}{24}=\frac{21}{24}=0.875$. $A\approx28^{\circ}57'$. $\cos B=\frac{4+16-9}{16}=\frac{11}{16}=0.6875$. $B\approx46^{\circ}34'$. $C\approx104^{\circ}29'$. $\blacksquare$
+
+## 习题十二
+
+(复习参考题 6 复习巩固第 12 题) 海中有一座小岛, 周围 $3\text{ n mile}$ 内有暗礁. 一艘海轮由西向东航行, 望见该岛在北偏东 $75^{\circ}$; 海轮航行 $8\text{ n mile}$ 以后, 望见该岛在北偏东 $55^{\circ}$. 如果这艘海轮不改变航向继续前进, 有没有触礁的危险?
+
+### 解答 习题十二
+
+由**定理 6.4.3 (正弦定理)**.
+
+设岛为 $P$, 初始位置为 $A$, 航行后为 $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-\left(90^{\circ}-55^{\circ}\right)=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
+
+由正弦定理: $\frac{AP}{\sin145^{\circ}}=\frac{8}{\sin20^{\circ}}$.
+
+$AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ}}$.
+
+岛到航线 (东西方向) 的垂直距离: $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47> 3$.
+
+故没有触礁危险. $\blacksquare$
+
+## 习题十三
+
+(复习参考题 6 综合运用第 13 题) 选择题.
+
+(1) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$ 是不共线的向量, 且 $\boldsymbol{AB}=\boldsymbol{a}+5\boldsymbol{b}$, $\boldsymbol{BC}=-2\boldsymbol{a}+8\boldsymbol{b}$, $\boldsymbol{CD}=3\left(\boldsymbol{a}-\boldsymbol{b}\right)$, 则 ().
+
+(A) $A$, $B$, $D$ 三点共线 (B) $A$, $B$, $C$ 三点共线
+
+(C) $B$, $C$, $D$ 三点共线 (D) $A$, $C$, $D$ 三点共线
+
+(2) 已知正方形 $ABCD$ 的边长为 $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, 则 $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=$ ().
+
+(A) $0$ (B) $3$ (C) $\sqrt 2$ (D) $2\sqrt 2$
+
+(3) 已知 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OD}=\boldsymbol{d}$, 且四边形 $ABCD$ 为平行四边形, 则 ().
+
+(A) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{d}=\boldsymbol{0}$ (B) $\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$
+
+(C) $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$ (D) $\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}+\boldsymbol{d}=\boldsymbol{0}$
+
+(4) 若 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是夹角为 $60^{\circ}$ 的两个单位向量, 则 $\boldsymbol{a}=2\boldsymbol{e}_1+\boldsymbol{e}_2$ 与 $\boldsymbol{b}=-3\boldsymbol{e}_1+2\boldsymbol{e}_2$ 的夹角为 ().
+
+(A) $30^{\circ}$ (B) $60^{\circ}$ (C) $120^{\circ}$ (D) $150^{\circ}$
+
+(5) 已知等边三角形 $ABC$ 的边长为 $1$, $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{CA}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$, 那么 $\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}\cdot\boldsymbol{c}+\boldsymbol{c}\cdot\boldsymbol{a}=$ ().
+
+(A) $3$ (B) $-3$ (C) $\frac{3}{2}$ (D) $-\frac{3}{2}$
+
+(6) 若向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两的夹角相等, 且 $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=1$, $\lvert\boldsymbol{c}\rvert=3$, 则 $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=$ ().
+
+(A) $2$ (B) $5$ (C) $2$ 或 $5$ (D) $\sqrt 2$ 或 $\sqrt 5$
+
+### 解答 习题十三
+
+(1) 由**定理 6.2.8 (共线向量定理)**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=\left(-2\boldsymbol{a}+8\boldsymbol{b}\right)+\left(3\boldsymbol{a}-3\boldsymbol{b}\right)=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. 故 $A$, $B$, $D$ 共线. 选 (A).
+
+(2) 由**常用结论 6.3.4**, $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{AC}=\boldsymbol{c}$. $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=2\boldsymbol{c}$. $\lvert\boldsymbol{c}\rvert=\sqrt 2$. 选 (D).
+
+(3) 由**定义 6.1.7 (相等向量)**, 平行四边形中 $\boldsymbol{AB}=\boldsymbol{DC}$, 即 $\boldsymbol{b}-\boldsymbol{a}=\boldsymbol{c}-\boldsymbol{d}$. $\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$. 选 (B).
+
+(4) 由**定义 6.2.11 (向量的数量积)**, $\boldsymbol{e}_1\cdot\boldsymbol{e}_2=\cos60^{\circ}=\frac{1}{2}$.
+
+$\boldsymbol{a}\cdot\boldsymbol{b}=\left(2\boldsymbol{e}_1+\boldsymbol{e}_2\right)\cdot\left(-3\boldsymbol{e}_1+2\boldsymbol{e}_2\right)=-6+4\cdot\frac{1}{2}+3\cdot\frac{1}{2}+2=-6+2+1.5+2=-0.5$.
+
+$\lvert\boldsymbol{a}\rvert^2=4+4\cdot\frac{1}{2}+1=7$. $\lvert\boldsymbol{b}\rvert^2=9-12\cdot\frac{1}{2}+4=7$.
+
+$\cos\theta=\frac{-0.5}{7}=-\frac{1}{14}$? 修正: $\boldsymbol{a}\cdot\boldsymbol{b}=-6\boldsymbol{e}_1^2+4\boldsymbol{e}_1\cdot\boldsymbol{e}_2-3\boldsymbol{e}_1\cdot\boldsymbol{e}_2+2\boldsymbol{e}_2^2=-6+\frac{1}{2}+2=-\frac{7}{2}$.
+
+$\cos\theta=\frac{-7/2}{\sqrt 7\cdot\sqrt 7}=-\frac{1}{2}$. $\theta=120^{\circ}$. 选 (C).
+
+(5) 由**定义 6.2.11 (向量的数量积)**, 每对夹角为 $120^{\circ}$.
+
+$\boldsymbol{a}\cdot\boldsymbol{b}=1\times1\times\cos120^{\circ}=-\frac{1}{2}$. 三对之和 $=-\frac{3}{2}$. 选 (D).
+
+(6) 两两夹角相等, 分两种: 夹角 $0^{\circ}$ 或 $120^{\circ}$.
+
+(a) 夹角 $0^{\circ}$: $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=1+1+3=5$.
+
+(b) 夹角 $120^{\circ}$: $\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=1+1+9+2\left(1\cdot1\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)\right)=11-7=4$. 模为 $2$. 选 (C). $\blacksquare$
+
+## 习题十四
+
+(复习参考题 6 综合运用第 14 题) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$ 为非零向量, 证明下列结论, 并解释其几何意义.
+
+(1) $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$;
+
+(2) 若 $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{c}$, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{d}$, 则 $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert\Longleftrightarrow\boldsymbol{c}\perp\boldsymbol{d}$.
+
+### 解答 习题十四
+
+由**常用结论 6.2.13** (数量积的性质).
+
+(1) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+$\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+两式相等等价于 $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$. 几何意义: 矩形的对角线相等.
+
+(2) $\boldsymbol{c}\cdot\boldsymbol{d}=\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2$.
+
+$\boldsymbol{c}\perp\boldsymbol{d}\Longleftrightarrow\boldsymbol{c}\cdot\boldsymbol{d}=0\Longleftrightarrow\boldsymbol{a}^2=\boldsymbol{b}^2\Longleftrightarrow\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$. 几何意义: 菱形的对角线互相垂直. $\blacksquare$

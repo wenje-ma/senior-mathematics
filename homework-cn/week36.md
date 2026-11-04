@@ -1,474 +1,563 @@
 # week36
-> **定义 7.1.5 (复数相等)**
+> **定义 10.1.1 (随机试验)**
 > 
-> 两个复数相等当且仅当它们的实部和虚部分别相等.
-> **定义 7.1.9 (复数的模)**
+> 对随机现象的实现和观察称为随机试验, 它具有可重复性,结果明确性和不确定性.
+> **定义 10.1.2 (样本点与样本空间)**
 > 
-> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
-> **定义 7.2.1 (复数加法法则)**
+> 随机试验中每一个可能出现的结果称为一个样本点, 所有样本点组成的集合称为样本空间.
+> **定义 10.1.4 (随机事件)**
 > 
-> (a + bi) + (c + di) = (a + c) + (b + d)i.
-> **定义 7.2.2 (复数减法法则)**
+> 在随机试验中, 可能发生也可能不发生的事件叫做随机事件.
+> **定义 10.1.8 (包含关系)**
 > 
-> (a + bi) - (c + di) = (a - c) + (b - d)i.
-> **定义 7.2.5 (复数乘法法则)**
+> 若事件 A 发生一定导致事件 B 发生, 则称事件 B 包含事件 A.
+> **定义 10.1.9 (事件相等)**
 > 
-> (a + bi)(c + di) = (ac - bd) + (ad + bc)i.
-> **定义 7.2.7 (复数除法法则)**
+> 若事件 A 包含事件 B, 且事件 B 包含事件 A, 则称事件 A 与事件 B 相等.
+> **定义 10.1.10 (并事件)**
 > 
-> (a + bi)/(c + di) = [(ac + bd) + (bc - ad)i]/(c^2 + d^2) (c + di != 0).
-> **定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**
+> 事件 A 与事件 B 至少有一个发生的事件称为 A 与 B 的并事件 (或和事件).
+> **定义 10.1.11 (交事件)**
 > 
-> 实系数方程 ax^2 + bx + c = 0 在复数范围内的根为 x = [-b +/- sqrt(b^2 - 4ac)]/(2a), 当判别式小于 0 时根为共轭复数.
-
-## 练习一
-
-(练习 7.2 第 1 题) 计算:
-
-(1) $\left(2+4\mathrm{i}\right)+\left(3-4\mathrm{i}\right)$;
-
-(2) $5-\left(3+2\mathrm{i}\right)$;
-
-(3) $\left(-3-4\mathrm{i}\right)+\left(2+\mathrm{i}\right)-\left(1-5\mathrm{i}\right)$;
-
-(4) $\left(2-\mathrm{i}\right)-\left(2+3\mathrm{i}\right)+4\mathrm{i}$.
-
-### 解答 练习一
-
-由**定义 7.2.1 (复数加法法则)** 与**定义 7.2.2 (复数减法法则)**, 实部与实部相加减, 虚部与虚部相加减.
-
-(1) $\left(2+4\mathrm{i}\right)+\left(3-4\mathrm{i}\right)=\left(2+3\right)+\left(4-4\right)\mathrm{i}=5$.
-
-(2) $5-\left(3+2\mathrm{i}\right)=\left(5-3\right)+\left(0-2\right)\mathrm{i}=2-2\mathrm{i}$.
-
-(3) $\left(-3-4\mathrm{i}\right)+\left(2+\mathrm{i}\right)-\left(1-5\mathrm{i}\right)=\left(-3+2-1\right)+\left(-4+1+5\right)\mathrm{i}=-2+2\mathrm{i}$.
-
-(4) $\left(2-\mathrm{i}\right)-\left(2+3\mathrm{i}\right)+4\mathrm{i}=\left(2-2\right)+\left(-1-3+4\right)\mathrm{i}=0$. $\blacksquare$
-
-## 练习二
-
-(练习 7.2 第 2 题) 如图, 向量 $\boldsymbol{OZ}$ 对应的复数是 $z$, 分别作出下列运算的结果对应的向量:
-
-(1) $z+1$;
-
-(2) $z-\mathrm{i}$;
-
-(3) $z+\left(-2+\mathrm{i}\right)$.
-
-图:复平面直角坐标系中,从原点 $O$ 画出向量 $\boldsymbol{OZ}$ 表示复数 $z=a+b\mathrm{i}$(点 $Z\left(a,b\right)$);另画出三条平移后的向量:$z+1$ 对应 $\left(a+1,b\right)$(即 $\boldsymbol{OZ}$ 向右平移 $1$ 个单位),$z-\mathrm{i}$ 对应 $\left(a,b-1\right)$(即向下平移 $1$ 个单位),$z+\left(-2+\mathrm{i}\right)$ 对应 $\left(a-2,b+1\right)$(即向左平移 $2$ 个单位,向上平移 $1$ 个单位).
-
-### 解答 练习二
-
-由**常用结论 7.2.4** (复数加, 减法的几何意义), 复数加法对应向量加法. 设 $Z\left(a,b\right)$, 则 $z=a+b\mathrm{i}$.
-
-(1) $z+1=\left(a+1\right)+b\mathrm{i}$, 对应点为 $\left(a+1,b\right)$, 即将向量 $\boldsymbol{OZ}$ 向右平移 $1$ 个单位.
-
-(2) $z-\mathrm{i}=a+\left(b-1\right)\mathrm{i}$, 对应点为 $\left(a,b-1\right)$, 即将向量 $\boldsymbol{OZ}$ 向下平移 $1$ 个单位.
-
-(3) $z+\left(-2+\mathrm{i}\right)=\left(a-2\right)+\left(b+1\right)\mathrm{i}$, 对应点为 $\left(a-2,b+1\right)$, 即将向量 $\boldsymbol{OZ}$ 向左平移 $2$ 个单位, 向上平移 $1$ 个单位.
-
-在复平面内分别作出上述向量即可. $\blacksquare$
-
-## 练习三
-
-(练习 7.2 第 3 题) 证明复数的加法满足交换律, 结合律.
-
-### 解答 练习三
-
-设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}$, $z_3=e+f\mathrm{i}\ \left(a,b,c,d,e,f\in\mathbb R\right)$.
-
-由**定义 7.2.1 (复数加法法则)**,
-
-$$
-z_1+z_2=\left(a+c\right)+\left(b+d\right)\mathrm{i},
-$$
-
-$$
-z_2+z_1=\left(c+a\right)+\left(d+b\right)\mathrm{i}.
-$$
-
-由实数加法交换律, $a+c=c+a$, $b+d=d+b$, 故 $z_1+z_2=z_2+z_1$, 交换律成立.
-
-同理, 由**定义 7.2.1 (复数加法法则)**,
-
-$$
-\left(z_1+z_2\right)+z_3=\left[\left(a+c\right)+e\right]+\left[\left(b+d\right)+f\right]\mathrm{i},
-$$
-
-$$
-z_1+\left(z_2+z_3\right)=\left[a+\left(c+e\right)\right]+\left[b+\left(d+f\right)\right]\mathrm{i}.
-$$
-
-由实数加法结合律, $\left(a+c\right)+e=a+\left(c+e\right)$, $\left(b+d\right)+f=b+\left(d+f\right)$, 故 $\left(z_1+z_2\right)+z_3=z_1+\left(z_2+z_3\right)$, 结合律成立. $\blacksquare$
-
-## 练习四
-
-(练习 7.2 第 4 题) 求复平面内下列两个复数对应的两点之间的距离:
-
-(1) $z_1=2+\mathrm{i}$, $z_2=3-\mathrm{i}$;
-
-(2) $z_3=8+5\mathrm{i}$, $z_4=4+2\mathrm{i}$.
-
-### 解答 练习四
-
-由**常用结论 7.2.4** (复数加, 减法的几何意义), 两点之间的距离为 $\lvert z_2-z_1\rvert$.
-
-(1) $z_2-z_1=\left(3-\mathrm{i}\right)-\left(2+\mathrm{i}\right)=1-2\mathrm{i}$. 由**定义 7.1.9 (复数的模)**,
-
-$$
-\lvert z_2-z_1\rvert=\lvert1-2\mathrm{i}\rvert=\sqrt{1^2+\left(-2\right)^2}=\sqrt{5}.
-$$
-
-(2) $z_4-z_3=\left(4+2\mathrm{i}\right)-\left(8+5\mathrm{i}\right)=-4-3\mathrm{i}$. 由**定义 7.1.9 (复数的模)**,
-
-$$
-\lvert z_4-z_3\rvert=\lvert-4-3\mathrm{i}\rvert=\sqrt{\left(-4\right)^2+\left(-3\right)^2}=5.
-$$
-
-故两点间距离分别为 $\sqrt{5}$ 与 $5$. $\blacksquare$
-
-## 练习五
-
-(练习 7.2 第 1 题) 计算:
-
-(1) $\left(7-6\mathrm{i}\right)\left(-3\mathrm{i}\right)$;
-
-(2) $\left(3+4\mathrm{i}\right)\left(-2-3\mathrm{i}\right)$;
-
-(3) $\left(1+2\mathrm{i}\right)\left(3-4\mathrm{i}\right)\left(-2-\mathrm{i}\right)$.
-
-### 解答 练习五
-
-由**定义 7.2.5 (复数乘法法则)**, 类似多项式相乘, 将 $\mathrm{i}^2$ 换成 $-1$ 后合并实部与虚部.
-
-(1) $\left(7-6\mathrm{i}\right)\left(-3\mathrm{i}\right)=-21\mathrm{i}+18\mathrm{i}^2=-18-21\mathrm{i}$.
-
-(2) $\left(3+4\mathrm{i}\right)\left(-2-3\mathrm{i}\right)=-6-9\mathrm{i}-8\mathrm{i}-12\mathrm{i}^2=-6-17\mathrm{i}+12=6-17\mathrm{i}$.
-
-(3) 先算 $\left(1+2\mathrm{i}\right)\left(3-4\mathrm{i}\right)=3-4\mathrm{i}+6\mathrm{i}-8\mathrm{i}^2=11+2\mathrm{i}$. 再算 $\left(11+2\mathrm{i}\right)\left(-2-\mathrm{i}\right)=-22-11\mathrm{i}-4\mathrm{i}-2\mathrm{i}^2=-20-15\mathrm{i}$. $\blacksquare$
-
-## 练习六
-
-(练习 7.2 第 2 题) 计算:
-
-(1) $\left(\sqrt{3}+\sqrt{2}\mathrm{i}\right)\left(-\sqrt{3}+\sqrt{2}\mathrm{i}\right)$;
-
-(2) $\left(1-\mathrm{i}\right)^2$;
-
-(3) $\mathrm{i}\left(2-\mathrm{i}\right)\left(1-2\mathrm{i}\right)$.
-
-### 解答 练习六
-
-由**定义 7.2.5 (复数乘法法则)**.
-
-(1) $\left(\sqrt{3}+\sqrt{2}\mathrm{i}\right)\left(-\sqrt{3}+\sqrt{2}\mathrm{i}\right)=-3+\sqrt{6}\mathrm{i}-\sqrt{6}\mathrm{i}+2\mathrm{i}^2=-3-2=-5$.
-
-(2) $\left(1-\mathrm{i}\right)^2=1-2\mathrm{i}+\mathrm{i}^2=1-2\mathrm{i}-1=-2\mathrm{i}$.
-
-(3) 先算 $\left(2-\mathrm{i}\right)\left(1-2\mathrm{i}\right)=2-4\mathrm{i}-\mathrm{i}+2\mathrm{i}^2=-5\mathrm{i}$. 再算 $\mathrm{i}\cdot\left(-5\mathrm{i}\right)=-5\mathrm{i}^2=5$. $\blacksquare$
-
-## 练习七
-
-(练习 7.2 第 3 题) 计算:
-
-(1) $\frac{1+\mathrm{i}}{1-\mathrm{i}}$;
-
-(2) $\frac{1}{\mathrm{i}}$;
-
-(3) $\frac{7+\mathrm{i}}{3+4\mathrm{i}}$;
-
-(4) $\frac{\left(-1+\mathrm{i}\right)\left(2+\mathrm{i}\right)}{-\mathrm{i}}$.
-
-### 解答 练习七
-
-由**定义 7.2.7 (复数除法法则)**, 分子分母同乘分母的共轭复数使分母实数化.
-
-(1) $\frac{1+\mathrm{i}}{1-\mathrm{i}}=\frac{\left(1+\mathrm{i}\right)^2}{\left(1-\mathrm{i}\right)\left(1+\mathrm{i}\right)}=\frac{1+2\mathrm{i}+\mathrm{i}^2}{1-\mathrm{i}^2}=\frac{2\mathrm{i}}{2}=\mathrm{i}$.
-
-(2) $\frac{1}{\mathrm{i}}=\frac{1\cdot\left(-\mathrm{i}\right)}{\mathrm{i}\cdot\left(-\mathrm{i}\right)}=\frac{-\mathrm{i}}{1}=-\mathrm{i}$.
-
-(3) $\frac{7+\mathrm{i}}{3+4\mathrm{i}}=\frac{\left(7+\mathrm{i}\right)\left(3-4\mathrm{i}\right)}{\left(3+4\mathrm{i}\right)\left(3-4\mathrm{i}\right)}=\frac{21-28\mathrm{i}+3\mathrm{i}-4\mathrm{i}^2}{9+16}=\frac{25-25\mathrm{i}}{25}=1-\mathrm{i}$.
-
-(4) 先算分子 $\left(-1+\mathrm{i}\right)\left(2+\mathrm{i}\right)=-2-\mathrm{i}+2\mathrm{i}+\mathrm{i}^2=-3+\mathrm{i}$. 再算 $\frac{-3+\mathrm{i}}{-\mathrm{i}}=\frac{\left(-3+\mathrm{i}\right)\cdot\mathrm{i}}{\left(-\mathrm{i}\right)\cdot\mathrm{i}}=\frac{-3\mathrm{i}+\mathrm{i}^2}{1}=\frac{-1-3\mathrm{i}}{1}=-1-3\mathrm{i}$. $\blacksquare$
-
-## 练习八
-
-(练习 7.2 第 4 题) 在复数范围内解下列方程:
-
-(1) $9x^2+16=0$;
-
-(2) $x^2+x+1=0$.
-
-### 解答 练习八
-
-由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**.
-
-(1) 由 $9x^2+16=0$, 得 $x^2=-\frac{16}{9}$. 因为 $\left(\frac{4}{3}\mathrm{i}\right)^2=\left(-\frac{4}{3}\mathrm{i}\right)^2=-\frac{16}{9}$, 所以 $x=\pm\frac{4}{3}\mathrm{i}$.
-
-(2) 方程 $x^2+x+1=0$ 中 $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3< 0$. 由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**,
-
-$$
-x=\frac{-1\pm\sqrt{3}\,\mathrm{i}}{2}.
-$$
-
-即 $x=-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$ 或 $x=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$. $\blacksquare$
+> 事件 A 与事件 B 同时发生的事件称为 A 与 B 的交事件 (或积事件).
+> **定义 10.1.12 (互斥)**
+> 
+> 若 A 与 B 不能同时发生, 即 A 交 B 为不可能事件, 则称 A 与 B 互斥.
+> **定义 10.1.13 (互为对立)**
+> 
+> 若 A 与 B 不能同时发生且必有一个发生, 则称 A 与 B 互为对立事件.
+> **定义 10.1.14 (古典概型)**
+> 
+> 试验中所有可能出现的基本事件只有有限个, 且每个基本事件出现的可能性相等, 具有这两个特点的概率模型称为古典概型.
+> **定义 10.1.15 (概率的古典定义)**
+> 
+> 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
+> **定义 10.2.1 (事件的相互独立性)**
+> 
+> 设 A, B 为两个事件, 若 P(AB) = P(A)P(B), 则称事件 A 与事件 B 相互独立.
 
 ## 习题一
 
-(习题 7.2 复习巩固第 1 题) 计算:
+(习题 10.1 复习巩固第 2 题) 在某届世界杯足球赛上, $a, b, c, d$ 四支球队进入了最后的比赛. 在第一轮的两场比赛中, $a$ 对 $b$, $c$ 对 $d$, 然后这两场比赛的胜者将进入冠亚军决赛, 这两场比赛的负者比赛, 决出第三名和第四名. 比赛的一种最终可能结果记为 $acbd$ (表示 $a$ 胜 $b$, $c$ 胜 $d$, 然后 $a$ 胜 $c$, $b$ 胜 $d$).
 
-(1) $\left(6-5\mathrm{i}\right)+\left(3+2\mathrm{i}\right)$;
+(1) 写出比赛所有可能结果构成的样本空间;
 
-(2) $5\mathrm{i}-\left(2+2\mathrm{i}\right)$;
+(2) 设事件 $A$ 表示 $a$ 队获得冠军, 写出 $A$ 包含的所有可能结果;
 
-(3) $\left(\frac{2}{3}+\mathrm{i}\right)+\left(1-\frac{2}{3}\mathrm{i}\right)-\left(\frac{1}{2}+\frac{3}{4}\mathrm{i}\right)$;
-
-(4) $\left(0.5+1.3\mathrm{i}\right)-\left(1.2+0.7\mathrm{i}\right)+\left(1-0.4\mathrm{i}\right)$.
+(3) 设事件 $B$ 表示 $a$ 队进入冠亚军决赛, 写出 $B$ 包含的所有可能结果.
 
 ### 解答 习题一
 
-由**定义 7.2.1 (复数加法法则)** 与**定义 7.2.2 (复数减法法则)**.
+由**定义 10.1.2 (样本点与样本空间)**, 每个可能的比赛结果为一个样本点.
 
-(1) $\left(6-5\mathrm{i}\right)+\left(3+2\mathrm{i}\right)=9-3\mathrm{i}$.
+(1) 第一轮有两场比赛: $a$ 对 $b$ ($a$ 胜或 $b$ 胜), $c$ 对 $d$ ($c$ 胜或 $d$ 胜), 胜者进入决赛, 负者争夺第三四名. 第一轮共有 $2\times 2=4$ 种胜负组合, 每种组合下决赛和季军赛各有 $2$ 种胜负, 共 $4\times 2\times 2=16$ 种结果. 样本空间为:
 
-(2) $5\mathrm{i}-\left(2+2\mathrm{i}\right)=-2+3\mathrm{i}$.
+$$
+\Omega=\left\{acbd, acdb, adbc, adcb, \; cabd, cadb, dabc, dacb, \; bcad, bcda, cbad, cbda, \; bdac, bdca, dbac, dbca\right\}.
+$$
 
-(3) 实部: $\frac{2}{3}+1-\frac{1}{2}=\frac{4}{6}+\frac{6}{6}-\frac{3}{6}=\frac{7}{6}$; 虚部: $1-\frac{2}{3}-\frac{3}{4}=\frac{12}{12}-\frac{8}{12}-\frac{9}{12}=-\frac{5}{12}$. 结果为 $\frac{7}{6}-\frac{5}{12}\mathrm{i}$.
+(2) 由**定义 10.1.4 (随机事件)**, $A$ 是 $\Omega$ 中 $a$ 队获得冠军的样本点的集合. $a$ 队获得冠军意味着 $a$ 在第一轮获胜且在决赛中获胜, 故
 
-(4) 实部: $0.5-1.2+1=0.3$; 虚部: $1.3-0.7-0.4=0.2$. 结果为 $0.3+0.2\mathrm{i}$. $\blacksquare$
+$$
+A=\left\{acbd, acdb, adbc, adcb\right\}.
+$$
+
+(3) $a$ 队进入冠亚军决赛意味着 $a$ 在第一轮获胜 (即 $a$ 胜 $b$), 决赛对手为 $c$ 或 $d$, 无论决赛胜负如何, 故
+
+$$
+B=\left\{acbd, acdb, cabd, cadb, \; adbc, adcb, dabc, dacb\right\}.
+$$
+
+$\blacksquare$
 
 ## 习题二
 
-(习题 7.2 复习巩固第 2 题) 在复平面内, 复数 $6+5\mathrm{i}$, $-3+4\mathrm{i}$ 对应的向量分别是 $\boldsymbol{OA}$, $\boldsymbol{OB}$, 其中 $O$ 是原点, 求向量 $\boldsymbol{AB}$, $\boldsymbol{BA}$ 对应的复数.
+(习题 10.1 复习巩固第 3 题) 抛掷两枚质地均匀的硬币, 设事件 $A=$ "第一枚硬币正面朝上", 事件 $B=$ "第二枚硬币反面朝上".
+
+(1) 写出样本空间, 并列举 $A$ 和 $B$ 包含的样本点;
+
+(2) 下列结论中正确的是 ( ).
+
+(A) $A$ 与 $B$ 互为对立事件
+
+(B) $A$ 与 $B$ 互斥
+
+(C) $A$ 与 $B$ 相等
+
+(D) $P\left(A\right)=P\left(B\right)$
 
 ### 解答 习题二
 
-由**常用结论 7.2.4** (复数加, 减法的几何意义), $\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}$, $\boldsymbol{BA}=\boldsymbol{OA}-\boldsymbol{OB}$.
+由**定义 10.1.2 (样本点与样本空间)**, 用 $1$ 表示正面朝上, 用 $0$ 表示反面朝上.
 
-点 $A$ 对应复数 $6+5\mathrm{i}$, 点 $B$ 对应复数 $-3+4\mathrm{i}$.
-
-$$
-\boldsymbol{AB}\text{ 对应复数}=\left(-3+4\mathrm{i}\right)-\left(6+5\mathrm{i}\right)=-9-\mathrm{i}.
-$$
+(1) 两枚硬币抛掷的所有可能结果为
 
 $$
-\boldsymbol{BA}\text{ 对应复数}=\left(6+5\mathrm{i}\right)-\left(-3+4\mathrm{i}\right)=9+\mathrm{i}.
+\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
 $$
 
-$\blacksquare$
+由**定义 10.1.4 (随机事件)**, 事件 $A=$ "第一枚硬币正面朝上" 即第一枚为 $1$, 故 $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$. 事件 $B=$ "第二枚硬币反面朝上" 即第二枚为 $0$, 故 $B=\left\{\left(1,0\right), \left(0,0\right)\right\}$.
+
+(2) 由**定义 10.1.12 (互斥)**, $A\cap B=\left\{\left(1,0\right)\right\}\neq\varnothing$, 故 $A, B$ 不互斥, (A)(B) 错误. 由**定义 10.1.9 (事件相等)**, $A\neq B$, 故 (C) 错误. 由**定义 10.1.15 (概率的古典定义)**, $P\left(A\right)=\frac{2}{4}=\frac{1}{2}$, $P\left(B\right)=\frac{2}{4}=\frac{1}{2}$, 故 $P\left(A\right)=P\left(B\right)$, (D) 正确. $\blacksquare$
 
 ## 习题三
 
-(习题 7.2 复习巩固第 3 题) 计算:
+(习题 10.1 复习巩固第 4 题) 判断下列说法是否正确. 若错误, 请举出反例.
 
-(1) $\left(-8-7\mathrm{i}\right)\left(-3\mathrm{i}\right)$;
+(1) 互斥的事件一定是对立事件, 对立事件不一定是互斥事件;
 
-(2) $\left(4-3\mathrm{i}\right)\left(-5-4\mathrm{i}\right)$;
+(2) 互斥的事件不一定是对立事件, 对立事件一定是互斥事件;
 
-(3) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(1+\mathrm{i}\right)$;
+(3) 事件 $A$ 与事件 $B$ 中至少有一个发生的概率一定比 $A$ 与 $B$ 中恰有一个发生的概率大;
 
-(4) $\left(\frac{\sqrt{3}}{2}\mathrm{i}-\frac{1}{2}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)$;
-
-(5) $\left(1+\mathrm{i}\right)\left(1-\mathrm{i}\right)+\left(-1+\mathrm{i}\right)$.
+(4) 事件 $A$ 与事件 $B$ 同时发生的概率一定比 $A$ 与 $B$ 中恰有一个发生的概率小.
 
 ### 解答 习题三
 
-由**定义 7.2.5 (复数乘法法则)**.
+由**定义 10.1.12 (互斥)** 与**定义 10.1.13 (互为对立)**.
 
-(1) $\left(-8-7\mathrm{i}\right)\left(-3\mathrm{i}\right)=24\mathrm{i}+21\mathrm{i}^2=-21+24\mathrm{i}$.
+(1) 互斥事件只要求 $A\cap B=\varnothing$, 并不要求 $A\cup B=\Omega$, 故互斥事件不一定是对立事件. 对立事件要求 $A\cap B=\varnothing$ 且 $A\cup B=\Omega$, 故对立事件一定互斥. 该说法错误. 反例: 掷骰子试验中, "点数为 $1$" 与 "点数为 $2$" 互斥但不对立.
 
-(2) $\left(4-3\mathrm{i}\right)\left(-5-4\mathrm{i}\right)=-20-16\mathrm{i}+15\mathrm{i}+12\mathrm{i}^2=-32-\mathrm{i}$.
+(2) 由上述分析, 互斥事件不一定是对立事件, 对立事件一定是互斥事件. 该说法正确.
 
-(3) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(1+\mathrm{i}\right)=-\frac{1}{2}-\frac{1}{2}\mathrm{i}+\frac{\sqrt{3}}{2}\mathrm{i}+\frac{\sqrt{3}}{2}\mathrm{i}^2=\frac{-1-\sqrt{3}}{2}+\frac{\sqrt{3}-1}{2}\mathrm{i}$.
+(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. "$A, B$ 中恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 二者之差为 $P\left(A\cup B\right)-\left[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\right]=P\left(A\cap B\right)\ge 0$, 故 "至少有一个发生" 的概率不一定比 "恰有一个发生" 的概率大. 当 $P\left(A\cap B\right)=0$ 时, 二者相等. 该说法错误. 反例: 互斥事件 $A, B$ 中, 二者概率相等.
 
-(4) 先写成 $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)$, 即 $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)^2=\frac{1}{4}-\frac{\sqrt{3}}{2}\mathrm{i}+\frac{3}{4}\mathrm{i}^2=\frac{1}{4}-\frac{3}{4}-\frac{\sqrt{3}}{2}\mathrm{i}=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
-
-(5) $\left(1+\mathrm{i}\right)\left(1-\mathrm{i}\right)=1-\mathrm{i}^2=2$, 再加 $\left(-1+\mathrm{i}\right)$, 得 $2+\left(-1+\mathrm{i}\right)=1+\mathrm{i}$. $\blacksquare$
+(4) 由**性质 10.1.16** (概率的非负性), $P\left(A\cap B\right)\ge 0$, 而 "恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 当 $P\left(A\right)=P\left(B\right)=0.9$ 时, $P\left(A\cap B\right)=0.81$, 恰有一个发生的概率为 $0.9+0.9-2\times 0.81=0.18$, 此时 $P\left(A\cap B\right)> $ 恰有一个发生的概率. 该说法错误. $\blacksquare$
 
 ## 习题四
 
-(习题 7.2 复习巩固第 4 题) 计算:
+(习题 10.1 复习巩固第 5 题) 生产某种产品需要两道工序, 设事件 $A=$ "第一道工序加工合格", 事件 $B=$ "第二道工序加工合格", 用 $A, B, \overline A, \overline B$ 表示下列事件:
 
-(1) $\frac{2\mathrm{i}}{2-\mathrm{i}}$;
-
-(2) $\frac{2+\mathrm{i}}{7+4\mathrm{i}}$;
-
-(3) $\frac{1}{\left(2-\mathrm{i}\right)^2}$;
-
-(4) $\frac{5\left(4+\mathrm{i}\right)^2}{\mathrm{i}\left(2+\mathrm{i}\right)}$.
+$C=$ "产品合格", $D=$ "产品不合格".
 
 ### 解答 习题四
 
-由**定义 7.2.7 (复数除法法则)**.
+由**定义 10.1.11 (交事件)**, 产品合格需要两道工序都加工合格, 即 $A$ 与 $B$ 同时发生, 故
 
-(1) $\frac{2\mathrm{i}}{2-\mathrm{i}}=\frac{2\mathrm{i}\left(2+\mathrm{i}\right)}{\left(2-\mathrm{i}\right)\left(2+\mathrm{i}\right)}=\frac{4\mathrm{i}+2\mathrm{i}^2}{4+1}=\frac{-2+4\mathrm{i}}{5}=-\frac{2}{5}+\frac{4}{5}\mathrm{i}$.
+$$
+C=A\cap B.
+$$
 
-(2) $\frac{2+\mathrm{i}}{7+4\mathrm{i}}=\frac{\left(2+\mathrm{i}\right)\left(7-4\mathrm{i}\right)}{\left(7+4\mathrm{i}\right)\left(7-4\mathrm{i}\right)}=\frac{14-8\mathrm{i}+7\mathrm{i}-4\mathrm{i}^2}{49+16}=\frac{18-\mathrm{i}}{65}=\frac{18}{65}-\frac{1}{65}\mathrm{i}$.
+由**定义 10.1.13 (互为对立)**, 产品不合格是产品合格的对立事件, 故 $D=\overline C$. 也可以表示为: 产品不合格即至少有一道工序不合格, 即第一道工序不合格 ($\overline A$) 或第二道工序不合格 ($\overline B$), 故
 
-(3) 先算 $\left(2-\mathrm{i}\right)^2=4-4\mathrm{i}+\mathrm{i}^2=3-4\mathrm{i}$. 再算 $\frac{1}{3-4\mathrm{i}}=\frac{3+4\mathrm{i}}{\left(3-4\mathrm{i}\right)\left(3+4\mathrm{i}\right)}=\frac{3+4\mathrm{i}}{25}=\frac{3}{25}+\frac{4}{25}\mathrm{i}$.
+$$
+D=\overline A\cup\overline B.
+$$
 
-(4) 先算 $\left(4+\mathrm{i}\right)^2=16+8\mathrm{i}+\mathrm{i}^2=15+8\mathrm{i}$, 分子为 $5\left(15+8\mathrm{i}\right)=75+40\mathrm{i}$. 再算 $\mathrm{i}\left(2+\mathrm{i}\right)=2\mathrm{i}+\mathrm{i}^2=-1+2\mathrm{i}$. 最后 $\frac{75+40\mathrm{i}}{-1+2\mathrm{i}}=\frac{\left(75+40\mathrm{i}\right)\left(-1-2\mathrm{i}\right)}{\left(-1+2\mathrm{i}\right)\left(-1-2\mathrm{i}\right)}=\frac{-75-150\mathrm{i}-40\mathrm{i}-80\mathrm{i}^2}{1+4}=\frac{5-190\mathrm{i}}{5}=1-38\mathrm{i}$. $\blacksquare$
+$\blacksquare$
 
 ## 习题五
 
-(习题 7.2 综合运用第 5 题) 四边形 $ABCD$ 是复平面内的平行四边形, $A$, $B$, $C$ 三点对应的复数分别是 $1+3\mathrm{i}$, $-\mathrm{i}$, $2+\mathrm{i}$, 求点 $D$ 对应的复数.
+(习题 10.1 复习巩固第 6 题) 下面的三个游戏都是在袋子中装球, 然后从袋子中不放回地取球. 分别计算三个游戏中甲获胜的概率. 你认为哪个游戏是公平的?
+
+| 项目 | 游戏 1 | 游戏 2 | 游戏 3 |
+|---|---|---|---|
+| 袋子中球的数量和颜色 | $1$ 个红球和 $1$ 个白球 | $2$ 个红球和 $2$ 个白球 | $3$ 个红球和 $1$ 个白球 |
+| 取球规则 | 取 $1$ 个球 | 依次取出 $2$ 个球 | 依次取出 $2$ 个球 |
+| 获胜规则 | 取到红球甲胜, 取到白球乙胜 | 两个球同色甲胜, 不同色乙胜 | 两个球同色甲胜, 不同色乙胜 |
 
 ### 解答 习题五
 
-由**常用结论 7.2.4** (复数加, 减法的几何意义), 在平行四边形 $ABCD$ 中, 对角线互相平分, 即 $AC$ 的中点与 $BD$ 的中点重合.
+由**定义 10.1.15 (概率的古典定义)**, 各游戏均为古典概型.
 
-点 $A$ 对应复数 $z_A=1+3\mathrm{i}$, 点 $C$ 对应复数 $z_C=2+\mathrm{i}$. 对角线 $AC$ 中点对应的复数为 $\frac{z_A+z_C}{2}=\frac{\left(1+3\mathrm{i}\right)+\left(2+\mathrm{i}\right)}{2}=\frac{3+4\mathrm{i}}{2}=\frac{3}{2}+2\mathrm{i}$.
+游戏 1: 袋子中有 $2$ 个球, 取 $1$ 个球, 共 $2$ 个等可能结果. 红球有 $1$ 个, 故甲胜的概率为 $\frac{1}{2}$.
 
-设点 $D$ 对应的复数为 $z_D$, 点 $B$ 对应 $z_B=-\mathrm{i}$. 由 $BD$ 的中点与 $AC$ 的中点重合, 得 $\frac{z_B+z_D}{2}=\frac{3}{2}+2\mathrm{i}$, 故 $z_D=3+4\mathrm{i}-z_B=3+4\mathrm{i}-\left(-\mathrm{i}\right)=3+5\mathrm{i}$. $\blacksquare$
+游戏 2: 袋子中有 $4$ 个球 ($2$ 红 $2$ 白), 不放回依次取 $2$ 个球, 共 $4\times 3=12$ 个等可能结果. 两个球同色的情况: 两个都是红球有 $2\times 1=2$ 种, 两个都是白球有 $2\times 1=2$ 种, 共 $4$ 种. 故甲胜的概率为 $\frac{4}{12}=\frac{1}{3}$.
+
+游戏 3: 袋子中有 $4$ 个球 ($3$ 红 $1$ 白), 不放回依次取 $2$ 个球, 共 $4\times 3=12$ 个等可能结果. 两个球同色的情况: 两个都是红球有 $3\times 2=6$ 种, 两个都是白球有 $0$ 种, 共 $6$ 种. 故甲胜的概率为 $\frac{6}{12}=\frac{1}{2}$.
+
+游戏 1 和游戏 3 中甲胜的概率为 $\frac{1}{2}$, 乙胜的概率也为 $\frac{1}{2}$, 游戏是公平的; 游戏 2 中甲胜的概率为 $\frac{1}{3}$, 乙胜的概率为 $\frac{2}{3}$, 游戏不公平. $\blacksquare$
 
 ## 习题六
 
-(习题 7.2 综合运用第 6 题) 在复数范围内解下列方程:
+(习题 10.1 复习巩固第 7 题) 一个盒子中装有标号为 $1, 2, 3, 4, 5$ 的 $5$ 张标签, 随机地选取两张标签, 根据下列条件求两张标签上的数字为相等整数的概率:
 
-(1) $x^2+4x+5=0$;
+(1) 标签的选取是不放回的;
 
-(2) $2x^2-3x+4=0$.
+(2) 标签的选取是有放回的.
 
 ### 解答 习题六
 
-由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**.
+由**定义 10.1.15 (概率的古典定义)**.
 
-(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4< 0$. 故
+(1) 不放回选取两张标签, 第一次有 $5$ 种取法, 第二次有 $4$ 种取法, 共 $5\times 4=20$ 个等可能结果. 两张标签数字相等的情况为 $0$ (因为不放回且每张标签标号不同), 故 $P\left(A_1\right)=\frac{0}{20}=0$.
 
-$$
-x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm 2\mathrm{i}}{2}=-2\pm\mathrm{i}.
-$$
-
-(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23< 0$. 故
-
-$$
-x=\frac{3\pm\sqrt{23}\,\mathrm{i}}{4}.
-$$
-
-即 $x=\frac{3}{4}+\frac{\sqrt{23}}{4}\mathrm{i}$ 或 $x=\frac{3}{4}-\frac{\sqrt{23}}{4}\mathrm{i}$. $\blacksquare$
+(2) 有放回选取两张标签, 第一次有 $5$ 种取法, 第二次也有 $5$ 种取法, 共 $5\times 5=25$ 个等可能结果. 两张标签数字相等的情况有 $5$ 种 (两次取到同号), 故 $P\left(A_2\right)=\frac{5}{25}=\frac{1}{5}$. $\blacksquare$
 
 ## 习题七
 
-(习题 7.2 综合运用第 7 题) 已知 $2\mathrm{i}-3$ 是关于 $x$ 的方程 $2x^2+px+q=0$ 的一个根, 求实数 $p,q$ 的值.
+(习题 10.1 复习巩固第 8 题) 从长度为 $1, 3, 5, 7, 9$ 的 $5$ 条线段中任取 $3$ 条, 求这三条线段能构成一个三角形的概率.
 
 ### 解答 习题七
 
-由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)** 及共轭虚数的性质, 实系数一元二次方程的虚根成对出现. 已知 $x_1=-3+2\mathrm{i}$ 是根, 则另一根为其共轭复数 $x_2=-3-2\mathrm{i}$.
+由**定义 10.1.15 (概率的古典定义)**, 从 $5$ 条线段中任取 $3$ 条, 共有 $\binom{5}{3}=10$ 种等可能结果.
 
-由韦达定理, $x_1+x_2=-\frac{p}{2}$, $x_1x_2=\frac{q}{2}$.
+三角形的三边关系要求任意两边之和大于第三边. 枚举所有取法:
 
-$$
-x_1+x_2=\left(-3+2\mathrm{i}\right)+\left(-3-2\mathrm{i}\right)=-6=-\frac{p}{2},
-$$
+$\left(1, 3, 5\right)$: $1+3=4< 5$, 不能构成三角形.
 
-故 $p=12$.
+$\left(1, 3, 7\right)$: $1+3=4< 7$, 不能构成.
 
-$$
-x_1x_2=\left(-3+2\mathrm{i}\right)\left(-3-2\mathrm{i}\right)=9-4\mathrm{i}^2=9+4=13=\frac{q}{2},
-$$
+$\left(1, 3, 9\right)$: $1+3=4< 9$, 不能构成.
 
-故 $q=26$. $\blacksquare$
+$\left(1, 5, 7\right)$: $1+5=6< 7$, 不能构成.
+
+$\left(1, 5, 9\right)$: $1+5=6< 9$, 不能构成.
+
+$\left(1, 7, 9\right)$: $1+7=8< 9$, 不能构成.
+
+$\left(3, 5, 7\right)$: $3+5=8> 7$, 能构成三角形.
+
+$\left(3, 5, 9\right)$: $3+5=8< 9$, 不能构成.
+
+$\left(3, 7, 9\right)$: $3+7=10> 9$, 能构成三角形.
+
+$\left(5, 7, 9\right)$: $5+7=12> 9$, 能构成三角形.
+
+能构成三角形的取法有 $3$ 种, 故 $P\left(A\right)=\frac{3}{10}$. $\blacksquare$
 
 ## 习题八
 
-(习题 7.2 拓广探索第 8 题) 利用公式 $a^2+b^2=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)$, 把下列各式分解成一次因式的积:
+(习题 10.1 综合运用第 9 题) 一个盒子中装有 $6$ 支圆珠笔, 其中 $3$ 支一等品, $2$ 支二等品和 $1$ 支三等品. 若从中任取 $2$ 支, 那么下列事件的概率各是多少?
 
-(1) $x^2+4$;
+(1) $A=$ "恰有 $1$ 支一等品";
 
-(2) $a^4-b^4$.
+(2) $B=$ "两支都是一等品";
+
+(3) $C=$ "没有三等品".
 
 ### 解答 习题八
 
-由**定义 7.2.5 (复数乘法法则)** 及 $a^2+b^2=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)$.
+由**定义 10.1.15 (概率的古典定义)**, 从 $6$ 支笔中任取 $2$ 支, 共有 $\binom{6}{2}=15$ 种等可能结果.
 
-(1) $x^2+4=x^2+2^2=\left(x+2\mathrm{i}\right)\left(x-2\mathrm{i}\right)$.
+(1) 恰有 $1$ 支一等品, 即从 $3$ 支一等品中取 $1$ 支, 从 $3$ 支非一等品中取 $1$ 支, 共 $\binom{3}{1}\binom{3}{1}=9$ 种, 故 $P\left(A\right)=\frac{9}{15}=\frac{3}{5}$.
 
-(2) $a^4-b^4=\left(a^2+b^2\right)\left(a^2-b^2\right)=\left(a^2+b^2\right)\left(a+b\right)\left(a-b\right)$. 再由 $a^2+b^2=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)$, 得
+(2) 两支都是一等品, 即从 $3$ 支一等品中取 $2$ 支, 共 $\binom{3}{2}=3$ 种, 故 $P\left(B\right)=\frac{3}{15}=\frac{1}{5}$.
 
-$$
-a^4-b^4=\left(a+\mathrm{i}b\right)\left(a-\mathrm{i}b\right)\left(a+b\right)\left(a-b\right).
-$$
-
-$\blacksquare$
+(3) 没有三等品, 即从 $5$ 支非三等品中取 $2$ 支, 共 $\binom{5}{2}=10$ 种, 故 $P\left(C\right)=\frac{10}{15}=\frac{2}{3}$. $\blacksquare$
 
 ## 习题九
 
-(习题 7.2 拓广探索第 9 题) 若 $z=x+y\mathrm{i}\ \left(x,y\in\mathbb R\right)$, 则复平面内满足 $\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ 的点 $Z$ 的集合是什么图形?
+(习题 10.1 综合运用第 10 题) 抛掷一红一绿两颗质地均匀的六面体骰子, 记下骰子朝上面的点数. 若用 $x$ 表示红色骰子的点数, 用 $y$ 表示绿色骰子的点数, 用 $\left(x, y\right)$ 表示一次试验的结果. 设 $A=$ "两个点数之和等于 $8$", $B=$ "至少有一颗骰子的点数为 $5$", $C=$ "红色骰子上的点数大于 $4$".
+
+(1) 求事件 $A, B, C$ 的概率;
+
+(2) 求事件 $A\cup B$, $A\cap B$ 的概率.
 
 ### 解答 习题九
 
-由**定义 7.1.9 (复数的模)** 与**常用结论 7.2.4** (复数减法的几何意义), $\lvert z-\left(2+\mathrm{i}\right)\rvert$ 表示点 $Z\left(x,y\right)$ 与点 $\left(2,1\right)$ 之间的距离.
+由**定义 10.1.15 (概率的古典定义)**, 两颗骰子共有 $6\times 6=36$ 个等可能样本点.
 
-$\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ 即点 $Z$ 到定点 $\left(2,1\right)$ 的距离恒为 $3$. 故点 $Z$ 的集合是以点 $\left(2,1\right)$ 为圆心, 以 $3$ 为半径的圆. $\blacksquare$
+(1) 事件 $A=$ "两个点数之和等于 $8$" 包含的样本点为 $\left(2,6\right), \left(3,5\right), \left(4,4\right), \left(5,3\right), \left(6,2\right)$, 共 $5$ 个, 故 $P\left(A\right)=\frac{5}{36}$.
 
-## 习题十
+事件 $B=$ "至少有一颗骰子的点数为 $5$" 包含的样本点为红色为 $5$ 的 $6$ 个, 绿色为 $5$ 的 $6$ 个, 去掉重复的 $\left(5,5\right)$, 共 $6+6-1=11$ 个, 故 $P\left(B\right)=\frac{11}{36}$.
 
-(习题 7.2 拓广探索第 10 题) 使用信息技术手段进行试验: 尝试在复数集中对实系数多项式进行因式分解, 观察并记录所发现的规律.
+事件 $C=$ "红色骰子点数大于 $4$" 即红色点数为 $5$ 或 $6$, 共 $2\times 6=12$ 个, 故 $P\left(C\right)=\frac{12}{36}=\frac{1}{3}$.
 
-### 解答 习题十
+(2) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. 事件 $A\cap B$ 即点数之和为 $8$ 且至少有一颗为 $5$, 包含的样本点为 $\left(3,5\right), \left(5,3\right)$, 共 $2$ 个, 故 $P\left(A\cap B\right)=\frac{2}{36}=\frac{1}{18}$.
 
-在复数集中对实系数多项式进行因式分解, 可观察到以下规律.
-
-由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)** 及**定义 7.2.5 (复数乘法法则)**, 任何实系数多项式在复数集中都可以分解为若干一次因式的乘积, 其中虚根以共轭成对的形式出现. 即若 $a+b\mathrm{i}\ \left(b\neq 0\right)$ 是实系数多项式的根, 则 $a-b\mathrm{i}$ 也是它的根, 对应的一次因式为 $\left(x-a-b\mathrm{i}\right)\left(x-a+b\mathrm{i}\right)=\left(x-a\right)^2+b^2$.
-
-例如, $x^2+1=\left(x+\mathrm{i}\right)\left(x-\mathrm{i}\right)$, $x^4-1=\left(x-1\right)\left(x+1\right)\left(x-\mathrm{i}\right)\left(x+\mathrm{i}\right)$. 这表明在复数集中, 每个实系数多项式都能完全分解为一次因式的乘积, 且虚根成对出现. $\blacksquare$
-
-### 阅读与思考一
-
-(思考 1) 由代数基本定理可以得到: 任何一元 $n\ \left(n\in\mathbb N^*\right)$ 次复系数多项式 $f\left(x\right)$ 在复数集中可以分解为 $n$ 个一次因式的乘积. 进而, 一元 $n$ 次多项式方程有 $n$ 个复数根 (重根按重数计). 你能给出证明吗?
-
-### 解答 阅读与思考一
-
-由代数基本定理, $f\left(x\right)=0$ 至少有一个复数根, 设为 $x_1$. 由多项式除法, $f\left(x\right)$ 可分解为 $\left(x-x_1\right)f_1\left(x\right)$, 其中 $f_1\left(x\right)$ 是 $n-1$ 次多项式.
-
-对 $f_1\left(x\right)$ 再次应用代数基本定理, $f_1\left(x\right)=0$ 至少有一个复数根 $x_2$, 于是 $f\left(x\right)=\left(x-x_1\right)\left(x-x_2\right)f_2\left(x\right)$, 其中 $f_2\left(x\right)$ 是 $n-2$ 次多项式.
-
-如此继续, 经过 $n$ 次后, $f\left(x\right)$ 被分解为 $n$ 个一次因式的乘积:
+因此
 
 $$
-f\left(x\right)=a_n\left(x-x_1\right)\left(x-x_2\right)\cdots\left(x-x_n\right).
-$$
-
-因此方程 $f\left(x\right)=0$ 有 $n$ 个复数根 $x_1,x_2,\cdots,x_n$ (重根按重数计). $\blacksquare$
-
-### 阅读与思考二
-
-(思考 2) 如果实系数一元四次方程 $a_4x^4+a_3x^3+a_2x^2+a_1x+a_0=0\ \left(a_4\neq 0\right)$ 在复数集 $\mathbb C$ 内的根为 $x_1,x_2,x_3,x_4$, 那么它们与方程的系数之间有什么关系呢?
-
-### 解答 阅读与思考二
-
-由**定义 7.2.5 (复数乘法法则)** 及因式分解, 方程可写为
-
-$$
-a_4\left(x-x_1\right)\left(x-x_2\right)\left(x-x_3\right)\left(x-x_4\right)=0.
-$$
-
-展开并比较系数, 得
-
-$$
-x_1+x_2+x_3+x_4=-\frac{a_3}{a_4},
-$$
-
-$$
-x_1x_2+x_1x_3+x_1x_4+x_2x_3+x_2x_4+x_3x_4=\frac{a_2}{a_4},
-$$
-
-$$
-x_1x_2x_3+x_1x_2x_4+x_1x_3x_4+x_2x_3x_4=-\frac{a_1}{a_4},
-$$
-
-$$
-x_1x_2x_3x_4=\frac{a_0}{a_4}.
+P\left(A\cup B\right)=\frac{5}{36}+\frac{11}{36}-\frac{2}{36}=\frac{14}{36}=\frac{7}{18}.
 $$
 
 $\blacksquare$
 
-### 阅读与思考三
+## 习题十
 
-(思考 3) 对于上述方程, 如果系数是复数, 那么根与系数的这些关系仍然成立吗?
+(习题 10.1 综合运用第 11 题) 某人有 $4$ 把钥匙, 其中 $2$ 把能打开门. 如果随机地取一把钥匙试着开门, 把不能开门的钥匙扔掉, 那么第二次才能打开门的概率有多大? 如果试过的钥匙又混进去, 第二次才能打开门的概率又有多大?
 
-### 解答 阅读与思考三
+### 解答 习题十
 
-上述根与系数的关系仍然成立.
+由**定义 10.1.15 (概率的古典定义)**.
 
-由**定义 7.2.5 (复数乘法法则)**, 复数集中的加法与乘法满足交换律, 结合律和分配律, 因此多项式的展开与系数比较过程与实系数情形完全相同. 无论系数是实数还是复数, 只要方程能在复数集中分解为 $a_n\left(x-x_1\right)\cdots\left(x-x_n\right)=0$, 比较展开式两边的系数即可得到同样的根与系数关系. $\blacksquare$
+不放回情形: 第一次取钥匙有 $4$ 种等可能结果, 第二次有 $3$ 种, 共 $4\times 3=12$ 个等可能结果. "第二次才能打开门" 即第一次取到不能开门的钥匙 ($2$ 把中的一把), 第二次取到能开门的钥匙 ($2$ 把中的一把), 共 $2\times 2=4$ 种, 故 $P_1=\frac{4}{12}=\frac{1}{3}$.
+
+有放回情形: 第一次取钥匙有 $4$ 种等可能结果, 第二次也有 $4$ 种, 共 $4\times 4=16$ 个等可能结果. "第二次才能打开门" 即第一次取到不能开门的钥匙 ($2$ 把中的一把), 第二次取到能开门的钥匙 ($2$ 把中的一把), 共 $2\times 2=4$ 种, 故 $P_2=\frac{4}{16}=\frac{1}{4}$. $\blacksquare$
+
+## 习题十一
+
+(习题 10.1 综合运用第 12 题) 假设有 $5$ 个条件类似的女孩 (把她们分别记为 $A, B, C, D, E$) 应聘秘书工作, 但只有 $2$ 个秘书职位, 因此 $5$ 个人中只有 $2$ 人能被录用. 如果 $5$ 个人被录用的机会相等, 分别计算下列事件的概率:
+
+(1) 女孩 $A$ 得到一个职位;
+
+(2) 女孩 $A$ 和 $B$ 各得到一个职位;
+
+(3) 女孩 $A$ 或 $B$ 得到一个职位.
+
+### 解答 习题十一
+
+由**定义 10.1.15 (概率的古典定义)**, 从 $5$ 人中录用 $2$ 人, 共有 $\binom{5}{2}=10$ 种等可能结果.
+
+(1) 女孩 $A$ 得到一个职位, 即另一个职位从其余 $4$ 人中选 $1$ 人, 共 $\binom{4}{1}=4$ 种, 故 $P\left(A_1\right)=\frac{4}{10}=\frac{2}{5}$.
+
+(2) 女孩 $A$ 和 $B$ 各得到一个职位, 只有 $1$ 种结果, 故 $P\left(A_2\right)=\frac{1}{10}$.
+
+(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\text{ 或 }B\right)=P\left(A\right)+P\left(B\right)-P\left(A\text{ 且 }B\right)$. 由对称性, $P\left(A\right)=P\left(B\right)=\frac{2}{5}$, $P\left(A\text{ 且 }B\right)=\frac{1}{10}$, 故
+
+$$
+P\left(A\text{ 或 }B\right)=\frac{2}{5}+\frac{2}{5}-\frac{1}{10}=\frac{7}{10}.
+$$
+
+$\blacksquare$
+
+## 习题十二
+
+(习题 10.1 综合运用第 13 题) 某射击运动员平时训练成绩的统计结果如下:
+
+| 命中环数 | $6$ | $7$ | $8$ | $9$ | $10$ |
+|---|---|---|---|---|---|
+| 频率 | $0.1$ | $0.15$ | $0.25$ | $0.3$ | $0.2$ |
+
+如果这名运动员只射击一次, 求下列事件的概率:
+
+(1) 命中 $10$ 环;
+
+(2) 命中的环数大于 $8$ 环;
+
+(3) 命中的环数小于 $9$ 环;
+
+(4) 命中的环数不超过 $5$ 环.
+
+### 解答 习题十二
+
+由**性质 10.1.18** (互斥事件的概率加法公式), 各命中环数对应的事件两两互斥, 概率可由频率近似.
+
+(1) 命中 $10$ 环的概率为频率值, 即 $P\left(A_1\right)=0.2$.
+
+(2) 命中环数大于 $8$ 环即命中 $9$ 环或 $10$ 环, 二者互斥, 故 $P\left(A_2\right)=0.3+0.2=0.5$.
+
+(3) 命中环数小于 $9$ 环即命中 $6, 7, 8$ 环, 三者互斥, 故 $P\left(A_3\right)=0.1+0.15+0.25=0.5$.
+
+(4) 命中环数不超过 $5$ 环, 即没有命中 $6$ 环及以上. 由于各环数频率之和为 $0.1+0.15+0.25+0.3+0.2=1$, 即命中环数不低于 $6$ 环的概率为 $1$, 故不超过 $5$ 环的概率为 $0$. $\blacksquare$
+
+## 习题十三
+
+(习题 10.1 综合运用第 14 题) 将一枚质地均匀的骰子连续抛掷 $3$ 次, 求下列事件的概率:
+
+(1) 没有出现 $6$ 点;
+
+(2) 至少出现一次 $6$ 点;
+
+(3) 三个点数之和为 $9$.
+
+### 解答 习题十三
+
+由**定义 10.1.15 (概率的古典定义)**, 抛掷 $3$ 次骰子共有 $6^3=216$ 个等可能结果.
+
+(1) 没有出现 $6$ 点, 即每次点数都在 $1$ 至 $5$ 中, 共 $5^3=125$ 个结果, 故 $P\left(A_1\right)=\frac{125}{216}$.
+
+(2) 由**性质 10.1.19** (对立事件的概率), "至少出现一次 $6$ 点" 是 "没有出现 $6$ 点" 的对立事件, 故
+
+$$
+P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{125}{216}=\frac{91}{216}.
+$$
+
+(3) 三个点数之和为 $9$, 即求 $x_1+x_2+x_3=9$ 的正整数解 ($1\le x_i\le 6$) 的个数. 令 $y_i=x_i-1$, 则 $y_1+y_2+y_3=6$, $0\le y_i\le 5$. 正整数解总数为 $\binom{6+3-1}{3-1}=\binom{8}{2}=28$, 其中 $y_i\ge 6$ 的解: 若 $y_1=6$, 则 $y_2+y_3=0$, 共 $1$ 组, 三个变量共 $3$ 组. 故满足条件的解数为 $28-3=25$. 因此 $P\left(A_3\right)=\frac{25}{216}$. $\blacksquare$
+
+## 习题十四
+
+(习题 10.1 拓广探索第 15 题) 如图是某班级 $50$ 名学生订阅数学, 语文, 英语学习资料的情况, 其中 $A$ 表示订阅数学学习资料的学生, $B$ 表示订阅语文学习资料的学生, $C$ 表示订阅英语学习资料的学生.
+
+(1) 从这个班任意选择一名学生, 用自然语言描述 $1, 4, 5, 8$ 各区域所代表的事件;
+
+(2) 用 $A, B, C$ 表示下列事件:
+
+(1) 至少订阅一种学习资料;
+
+(2) 恰好订阅一种学习资料;
+
+(3) 没有订阅任何学习资料.
+
+(题图: 韦恩图, 矩形表示全班 $50$ 名学生, 内部有三个两两相交的圆 $A,B,C$ 分别表示订阅数学,语文,英语的学生, 被分成 $1\sim8$ 共八个区域.)
+
+### 解答 习题十四
+
+由**定义 10.1.10 (并事件)**, **定义 10.1.11 (交事件)** 与**定义 10.1.13 (互为对立)**.
+
+(1) 区域 1 表示只订阅数学的学生; 区域 4 表示同时订阅数学和语文但不订阅英语的学生; 区域 5 表示同时订阅数学和英语但不订阅语文的学生; 区域 8 表示不订阅任何学习资料的学生.
+
+(2) (1) 至少订阅一种学习资料, 即订阅数学或语文或英语, 由**定义 10.1.10 (并事件)**, 表示为 $A\cup B\cup C$.
+
+(2) 恰好订阅一种学习资料, 即只订阅数学, 或只订阅语文, 或只订阅英语, 表示为 $\left(A\cap\overline B\cap\overline C\right)\cup\left(\overline A\cap B\cap\overline C\right)\cup\left(\overline A\cap\overline B\cap C\right)$.
+
+(3) 没有订阅任何学习资料, 是 "至少订阅一种" 的对立事件, 由**定义 10.1.13 (互为对立)**, 表示为 $\overline{A\cup B\cup C}=\overline A\cap\overline B\cap\overline C$. $\blacksquare$
+
+## 习题十五
+
+(习题 10.1 拓广探索第 16 题) 从 $1$ 至 $20$ 这 $20$ 个整数中随机选择一个数, 设事件 $A$ 表示选到的数能被 $2$ 整除, 事件 $B$ 表示选到的数能被 $3$ 整除. 求下列事件的概率:
+
+(1) 这个数既能被 $2$ 整除也能被 $3$ 整除;
+
+(2) 这个数能被 $2$ 整除或能被 $3$ 整除;
+
+(3) 这个数既不能被 $2$ 整除也不能被 $3$ 整除.
+
+### 解答 习题十五
+
+由**定义 10.1.15 (概率的古典定义)**, 从 $1$ 至 $20$ 随机选一个数, $n\left(\Omega\right)=20$.
+
+能被 $2$ 整除的数有 $10$ 个 ($2, 4, \cdots, 20$), 故 $n\left(A\right)=10$, $P\left(A\right)=\frac{10}{20}=\frac{1}{2}$.
+
+能被 $3$ 整除的数有 $6$ 个 ($3, 6, 9, 12, 15, 18$), 故 $n\left(B\right)=6$, $P\left(B\right)=\frac{6}{20}=\frac{3}{10}$.
+
+(1) 既能被 $2$ 也能被 $3$ 整除, 即能被 $6$ 整除, 数为 $6, 12, 18$, 共 $3$ 个, 故 $P\left(A\cap B\right)=\frac{3}{20}$.
+
+(2) 由**性质 10.1.21** (一般概率加法公式),
+
+$$
+P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
+$$
+
+(3) 由**性质 10.1.19** (对立事件的概率), "既不能被 $2$ 也不能被 $3$ 整除" 是 "能被 $2$ 或能被 $3$ 整除" 的对立事件, 故
+
+$$
+P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
+$$
+
+$\blacksquare$
+
+## 习题十六
+
+(习题 10.1 拓广探索第 17 题) 某品牌计算机售后保修期为 $1$ 年, 根据大量的维修记录资料, 这种品牌的计算机在使用一年内维修次数最多的是 $3$ 次, 其中维修 $1$ 次的占 $15\%$, 维修 $2$ 次的占 $6\%$, 维修 $3$ 次的占 $4\%$.
+
+(1) 某人购买了一台这个品牌的计算机, 设 $A_k=$ "保修期内需要维修 $k$ 次", $k=0, 1, 2, 3$, 请填写下表:
+
+| 事件 | $A_0$ | $A_1$ | $A_2$ | $A_3$ |
+|---|---|---|---|---|
+| 概率 | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+
+事件 $A_0, A_1, A_2, A_3$ 是否满足两两互斥? 是否满足等可能性?
+
+(2) 求下列事件的概率:
+
+(1) $A=$ "在保修期内需要维修";
+
+(2) $B=$ "在保修期内不需要维修";
+
+(3) $C=$ "在保修期内维修不超过 $1$ 次".
+
+### 解答 习题十六
+
+由**性质 10.1.18** (互斥事件的概率加法公式) 与**性质 10.1.19** (对立事件的概率).
+
+(1) 由已知, $P\left(A_1\right)=0.15$, $P\left(A_2\right)=0.06$, $P\left(A_3\right)=0.04$. 由于维修次数最多为 $3$ 次, $A_0\cup A_1\cup A_2\cup A_3=\Omega$, 且各 $A_k$ 两两互斥, 故
+
+$$
+P\left(A_0\right)=1-P\left(A_1\right)-P\left(A_2\right)-P\left(A_3\right)=1-0.15-0.06-0.04=0.75.
+$$
+
+各事件两两互斥 (一台计算机在保修期内维修次数只能是 $0, 1, 2, 3$ 中的一个); 各事件概率不相等 ($0.75, 0.15, 0.06, 0.04$), 故不满足等可能性.
+
+(2) (1) $A=$ "需要维修" 即维修 $1, 2, 3$ 次, 由**性质 10.1.18** (互斥事件的概率加法公式), $P\left(A\right)=P\left(A_1\right)+P\left(A_2\right)+P\left(A_3\right)=0.15+0.06+0.04=0.25$.
+
+(2) $B=$ "不需要维修" 即 $A_0$, 故 $P\left(B\right)=P\left(A_0\right)=0.75$. 也可由**性质 10.1.19** (对立事件的概率) 得 $P\left(B\right)=1-P\left(A\right)=1-0.25=0.75$.
+
+(3) $C=$ "维修不超过 $1$ 次" 即维修 $0$ 次或 $1$ 次, 二者互斥, 故 $P\left(C\right)=P\left(A_0\right)+P\left(A_1\right)=0.75+0.15=0.90$. $\blacksquare$
+
+## 练习一
+
+(练习 10.2 第 1 题) 分别抛掷两枚质地均匀的硬币, 设事件 $A=$ "第 $1$ 枚正面朝上", 事件 $B=$ "第 $2$ 枚正面朝上", 事件 $C=$ "两枚硬币朝上的面相同", $A, B, C$ 中哪两个相互独立?
+
+### 解答 练习一
+
+由**定义 10.1.15 (概率的古典定义)**, 抛掷两枚硬币, 样本空间 $\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}$, 共 $4$ 个等可能样本点. 各事件为 $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$, $B=\left\{\left(1,1\right), \left(0,1\right)\right\}$, $C=\left\{\left(1,1\right), \left(0,0\right)\right\}$, 故 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
+
+由**定义 10.2.1 (事件的相互独立性)**, 验证 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ 是否成立.
+
+$A\cap B=\left\{\left(1,1\right)\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 相互独立.
+
+$A\cap C=\left\{\left(1,1\right)\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 相互独立.
+
+$B\cap C=\left\{\left(1,1\right)\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 相互独立.
+
+因此 $A, B, C$ 中任意两个都相互独立. $\blacksquare$
+
+## 练习二
+
+(练习 10.2 第 2 题) 设样本空间 $\Omega=\left\{a, b, c, d\right\}$ 含有等可能的样本点, 且
+
+$$
+A=\left\{a, b\right\},\quad B=\left\{a, c\right\},\quad C=\left\{a, d\right\}.
+$$
+
+请验证 $A, B, C$ 三个事件两两独立, 但 $P\left(A\cap B\cap C\right)\neq P\left(A\right)P\left(B\right)P\left(C\right)$.
+
+### 解答 练习二
+
+由**定义 10.1.15 (概率的古典定义)**, 每个样本点概率为 $\frac{1}{4}$, 故 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
+
+由**定义 10.2.1 (事件的相互独立性)**, 验证两两独立性.
+
+$A\cap B=\left\{a\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
+
+$A\cap C=\left\{a\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
+
+$B\cap C=\left\{a\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
+
+因此 $A, B, C$ 两两独立.
+
+又 $A\cap B\cap C=\left\{a\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8}$, 故
+
+$$
+P\left(A\cap B\cap C\right)=\frac{1}{4}\neq\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right).
+$$
+
+$\blacksquare$
+
+## 练习三
+
+(练习 10.2 第 3 题) 天气预报报道: 元旦假期甲地的降雨概率是 $0.2$, 乙地的降雨概率是 $0.3$. 假定在这段时间内两地是否降雨相互之间没有影响, 计算在这段时间内:
+
+(1) 甲, 乙两地都降雨的概率;
+
+(2) 甲, 乙两地都不降雨的概率;
+
+(3) 至少一个地方降雨的概率.
+
+### 解答 练习三
+
+设事件 $A=$ "甲地降雨", $B=$ "乙地降雨", 则 $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. 由题意, $A$ 与 $B$ 相互独立. 由**性质 10.2.2** (对立事件的独立性), $\overline A, \overline B$ 也相互独立.
+
+(1) 由**定义 10.2.1 (事件的相互独立性)**, 两地都降雨即 $A\cap B$ 发生, 故
+
+$$
+P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.2\times 0.3=0.06.
+$$
+
+(2) 两地都不降雨即 $\overline A\cap\overline B$ 发生. 由**性质 10.1.19** (对立事件的概率), $P\left(\overline A\right)=1-0.2=0.8$, $P\left(\overline B\right)=1-0.3=0.7$. 再由**定义 10.2.1 (事件的相互独立性)**,
+
+$$
+P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0.8\times 0.7=0.56.
+$$
+
+(3) "至少一个地方降雨" 是 "两地都不降雨" 的对立事件. 由**性质 10.1.19** (对立事件的概率),
+
+$$
+P\left(\text{至少一个降雨}\right)=1-P\left(\overline A\cap\overline B\right)=1-0.56=0.44.
+$$
+
+$\blacksquare$
+
+## 练习四
+
+(练习 10.2 第 4 题) 证明必然事件 $\Omega$ 和不可能事件 $\varnothing$ 与任意事件相互独立.
+
+### 解答 练习四
+
+由**定义 10.2.1 (事件的相互独立性)**, 需验证对任意事件 $A$, 有 $P\left(\Omega\cap A\right)=P\left(\Omega\right)P\left(A\right)$ 且 $P\left(\varnothing\cap A\right)=P\left(\varnothing\right)P\left(A\right)$.
+
+由集合运算, $\Omega\cap A=A$, $\varnothing\cap A=\varnothing$. 由**性质 10.1.17** (必然事件与不可能事件的概率), $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
+
+因此
+
+$$
+P\left(\Omega\cap A\right)=P\left(A\right)=1\cdot P\left(A\right)=P\left(\Omega\right)P\left(A\right),
+$$
+
+$$
+P\left(\varnothing\cap A\right)=P\left(\varnothing\right)=0=0\cdot P\left(A\right)=P\left(\varnothing\right)P\left(A\right).
+$$
+
+由**定义 10.2.1 (事件的相互独立性)**, 必然事件 $\Omega$ 和不可能事件 $\varnothing$ 与任意事件相互独立. $\blacksquare$

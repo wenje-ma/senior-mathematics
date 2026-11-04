@@ -1,325 +1,611 @@
 # week4
-> **Definition 1.2.1 (Subset)**
+> **Theorem 2.2.1 (AM-GM Inequality)**
 > 
-> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
-> **Definition 1.2.4 (Empty Set)**
+> 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+> **Definition 2.3.1 (一元二次不等式)**
 > 
-> 不含任何元素的集合叫做空集, 记作 $\varnothing$. 规定空集是任何集合的子集.
-> **Definition 1.3.1 (Union)**
-> 
-> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
-> **Definition 1.3.2 (Intersection)**
-> 
-> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
-> **Definition 1.4.2 (Sufficient and Necessary Conditions)**
-> 
-> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
-> **Definition 1.4.4 (Necessary and Sufficient Condition)**
-> 
-> 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
-
-## Exercise 1
-
-(Exercise 1.4, Problem 1) Among the following propositions in the form "if $p$, then $q$", in which propositions is $p$ a sufficient condition for $q$?
-
-(1) If a point $P$ in the plane lies on the perpendicular bisector of the segment $AB$, then $PA=PB$;
-
-(2) If two triangles have two sides and the angle opposite one side respectively equal, then the two triangles are congruent;
-
-(3) If two triangles are similar, then the ratio of their areas equals the square of the ratio of their perimeters.
-
-### Solution to Exercise 1
-
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)**, $p$ is a sufficient condition for $q$ if and only if "if $p$, then $q$" is a true proposition, i.e. $p\Rightarrow q$.
-
-(1) By the property of the perpendicular bisector of a segment, any point on the perpendicular bisector is equidistant from the two endpoints of the segment, so if $P$ lies on the perpendicular bisector of $AB$, then necessarily $PA=PB$, i.e. $p\Rightarrow q$. Therefore, in proposition (1), $p$ is a sufficient condition for $q$.
-
-(2) Two sides and the angle opposite one side respectively equal (i.e. "side-side-angle") cannot guarantee that two triangles are congruent. For example, taking two sides as $2,3$ and the angle opposite the side $2$ as $30^\circ$, one can construct two non-congruent triangles, i.e. $p\nRightarrow q$. Therefore, in proposition (2), $p$ is not a sufficient condition for $q$.
-
-(3) Let the similarity ratio of the two triangles be $k$; by the property of similar triangles, the perimeter ratio equals the similarity ratio $k$, and the area ratio equals the square of the similarity ratio $k^2$, so the area ratio equals the square of the perimeter ratio, i.e. $p\Rightarrow q$. Therefore, in proposition (3), $p$ is a sufficient condition for $q$.
-
-In summary, in propositions (1) and (3), $p$ is a sufficient condition for $q$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 1.4, Problem 2) Among the following propositions in the form "if $p$, then $q$", in which propositions is $q$ a necessary condition for $p$?
-
-(1) If the line $l$ has exactly one intersection point with $\odot O$, then $l$ is a tangent line of $\odot O$;
-
-(2) If $x$ is an irrational number, then $x^2$ is also an irrational number.
-
-### Solution to Exercise 2
-
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)**, $q$ is a necessary condition for $p$ if and only if "if $p$, then $q$" is a true proposition, i.e. $p\Rightarrow q$.
-
-(1) By the definition of a tangent line, when a line has exactly one common point with a circle, this line is called a tangent line of the circle; therefore, if $l$ has exactly one intersection point with $\odot O$, then necessarily $l$ is a tangent line of $\odot O$, i.e. $p\Rightarrow q$. Therefore, in proposition (1), $q$ is a necessary condition for $p$.
-
-(2) Taking $x=\sqrt 2$, $x$ is an irrational number, but $x^2=2$ is a rational number, so $p\nRightarrow q$. Therefore, in proposition (2), $q$ is not a necessary condition for $p$.
-
-In summary, in proposition (1), $q$ is a necessary condition for $p$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 1.4, Problem 3) As shown in the figure, the lines $a$ and $b$ are cut by the line $l$, obtaining $\angle 1$, $\angle 2$, $\angle 3$ and $\angle 4$. Based on this information, write several sufficient conditions and necessary conditions for "$a\parallel b$".
-
-(Figure: two horizontal lines $a$ and $b$, cut by a slanting transversal $l$ intersecting $a$ at an upper point and $b$ at a lower point; at the $a$-intersection, the angle below-right of the transversal is labeled $\angle 1$, and its adjacent supplementary angle above-left is labeled $\angle 2$; at the $b$-intersection, the corresponding angle below-right is labeled $\angle 3$, and the vertical angle corresponding to $\angle 2$ is labeled $\angle 4$.)
-
-### Solution to Exercise 3
-
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Definition 1.4.4 (Necessary and Sufficient Condition)**, answer using the determination and property theorems of parallel lines.
-
-In the figure, $\angle 3$ and $\angle 1$ are corresponding angles. By "if corresponding angles are equal, the two lines are parallel", $\angle 1=\angle 3\Rightarrow a\parallel b$; by "if two lines are parallel, corresponding angles are equal", $a\parallel b\Rightarrow \angle 1=\angle 3$. Therefore, $\angle 1=\angle 3$ is both a sufficient condition for $a\parallel b$ and a necessary condition for $a\parallel b$, i.e. a necessary and sufficient condition.
-
-Also, at the intersection above line $a$, $\angle 2$ and $\angle 3$ are adjacent supplementary angles, so always $\angle 2+\angle 3=180^\circ$; therefore $\angle 1=\angle 3$ is equivalent to $\angle 1+\angle 2=180^\circ$. Similarly, $\angle 4$ and $\angle 2$ are vertical angles, so always $\angle 4=\angle 2$; therefore $\angle 1+\angle 2=180^\circ$ is equivalent to $\angle 1+\angle 4=180^\circ$.
-
-Therefore, several sufficient conditions for "$a\parallel b$" (which are also necessary conditions) are: $\angle 1=\angle 3$; $\angle 1+\angle 2=180^\circ$; $\angle 1+\angle 4=180^\circ$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 1.4, Problem 1) In the following problems, in which is $p$ a necessary and sufficient condition for $q$?
-
-(1) $p$: a triangle is isosceles, $q$: a triangle has two equal angles;
-
-(2) $p$: two chords inside $\odot O$ are equal, $q$: the inscribed angles subtended by the two chords inside $\odot O$ are equal;
-
-(3) $p$: $A\cap B$ is empty, $q$: one of $A$ and $B$ is empty.
-
-### Solution to Exercise 4
-
-By **Definition 1.4.4 (Necessary and Sufficient Condition)**, $p$ is a necessary and sufficient condition for $q$ if and only if both $p\Rightarrow q$ and $q\Rightarrow p$ hold, i.e. $p\Leftrightarrow q$.
-
-(1) By the definition of an isosceles triangle, an isosceles triangle is a triangle with two equal angles (i.e. two equal sides). Therefore, a triangle is isosceles if and only if it has two equal angles, i.e. $p\Leftrightarrow q$. Therefore, $p$ is a necessary and sufficient condition for $q$.
-
-(2) In the same circle, equal chords subtend equal central angles, and consequently equal inscribed angles; conversely, if the inscribed angles subtended by two chords are equal, then the central angles they subtend are equal, and thus the chord lengths are equal. Therefore $p\Leftrightarrow q$, i.e. $p$ is a necessary and sufficient condition for $q$.
-
-(3) Taking $A=\left\{1\right\}$, $B=\left\{2\right\}$, by **Definition 1.3.2 (Intersection)**, $A\cap B=\varnothing$, but $A,B$ are both not the empty set, so $p\nRightarrow q$. Conversely, if one of $A$ and $B$ is the empty set, by **Definition 1.2.4 (Empty Set)** and the meaning of intersection, $A\cap B=\varnothing$, i.e. $q\Rightarrow p$. Since $p\nRightarrow q$, $p$ is not a necessary and sufficient condition for $q$.
-
-In summary, in propositions (1) and (2), $p$ is a necessary and sufficient condition for $q$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 1.4, Problem 2) Write several necessary and sufficient conditions for "two triangles are congruent" and for "two triangles are similar".
-
-### Solution to Exercise 5
-
-By **Definition 1.4.4 (Necessary and Sufficient Condition)**, a necessary and sufficient condition should be the converse of the original proposition and both should be true propositions.
-
-Several necessary and sufficient conditions for two triangles to be congruent are:
-
-(a) three sides respectively equal (side-side-side);
-
-(b) two sides and the included angle respectively equal (side-angle-side);
-
-(c) two angles and the included side respectively equal (angle-side-angle);
-
-(d) two angles and the side opposite one of the angles respectively equal (angle-angle-side).
-
-Several necessary and sufficient conditions for two triangles to be similar are:
-
-(a) three angles respectively equal and three sides proportional (definition);
-
-(b) three sides proportional;
-
-(c) two sides proportional and the included angle equal;
-
-(d) two angles respectively equal. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 1.4, Problem 3) Prove: as shown in the figure, $AC=BD$ is a necessary and sufficient condition for the trapezoid $ABCD$ to be an isosceles trapezoid.
-
-(Figure: a trapezoid $ABCD$ with shorter upper base $AB$ and longer lower base $CD$, $AB\parallel CD$, the legs $AD$ and $BC$ connecting $A$ to $D$ and $B$ to $C$, and the two diagonals $AC$ and $BD$ drawn.)
-
-### Solution to Exercise 6
-
-By **Definition 1.4.4 (Necessary and Sufficient Condition)**, we need to prove sufficiency ($AC=BD\Rightarrow$ trapezoid $ABCD$ is an isosceles trapezoid) and necessity (trapezoid $ABCD$ is an isosceles trapezoid $\Rightarrow AC=BD$).
-
-Without loss of generality, let $AB\parallel CD$ in the trapezoid $ABCD$, with $AD,BC$ as the two legs.
-
-First prove necessity. If the trapezoid $ABCD$ is an isosceles trapezoid, by the property of an isosceles trapezoid, the two diagonals of an isosceles trapezoid are equal, so $AC=BD$.
-
-Then prove sufficiency. If $AC=BD$, draw perpendiculars from $D,C$ to $AB$, with feet $E,F$. Since $AB\parallel CD$, we have $DE=CF$ (i.e. the heights of the trapezoid are equal). In $\mathrm{Rt}\triangle ACF$ and $\mathrm{Rt}\triangle BDE$, the hypotenuses $AC=BD$ and the legs $CF=DE$, so the two right triangles are congruent, and thus $AF=BE$. Also $AE=AF-EF$, $BF=BE-EF$, so $AE=BF$. Then from $DE=CF$, $AE=BF$, $\angle DEA=\angle CFB=90^\circ$, we get $\triangle ADE\cong\triangle BCF$, and thus $AD=BC$, i.e. the two legs are equal, so the trapezoid $ABCD$ is an isosceles trapezoid.
-
-From the above two steps, $AC=BD$ is a necessary and sufficient condition for the trapezoid $ABCD$ to be an isosceles trapezoid. $\blacksquare$
+> 一般地, 我们把只含有一个未知数, 并且未知数的最高次数是 $2$ 的不等式, 称为一元二次不等式. 其一般形式是 $ax^2+bx+c> 0$ 或 $ax^2+bx+c< 0$, 其中 $a,b,c$ 均为常数, $a\neq0$.
 
 ## Problem 1
 
-(Problem 1.4, Review and Consolidation, Problem 1) Give examples to illustrate:
-
-(1) $p$ is a sufficient but not necessary condition for $q$;
-
-(2) $p$ is a necessary but not sufficient condition for $q$;
-
-(3) $p$ is a necessary and sufficient condition for $q$.
+(Exercise 2.1, Review and Consolidation, Problem 2) To increase the green area of a city, the municipal ecology and environment bureau proposes two investment plans: Plan $A$ is a one-time investment of $500$ ten-thousand yuan; Plan $B$ is an investment of $100$ ten-thousand yuan in the first year and $10$ ten-thousand yuan in each subsequent year. Write an inequality expressing "after $n$ years, the investment under Plan $B$ is not less than the investment under Plan $A$".
 
 ### Solution to Problem 1
 
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Definition 1.4.4 (Necessary and Sufficient Condition)**, examples are as follows.
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), first write down the cumulative investment of each plan after $n$ years, and then write the inequality according to "not less than".
 
-(1) Take $p$: $x> 1$, $q$: $x> 0$. From $x> 1$ necessarily $x> 0$, so $p\Rightarrow q$; but $x> 0$ does not imply $x> 1$ (e.g. $x=\frac12$), so $q\nRightarrow p$. Thus $p$ is a sufficient but not necessary condition for $q$.
+Plan $A$ is a one-time investment of $500$ ten-thousand yuan, so after $n$ years the investment is $500$ ten-thousand yuan.
 
-(2) Take $p$: $x> 0$, $q$: $x> 1$. From $x> 1$ necessarily $x> 0$, i.e. $q\Rightarrow p$, but $x> 0$ does not imply $x> 1$, i.e. $p\nRightarrow q$. Thus $p$ is a necessary but not sufficient condition for $q$.
+Plan $B$ invests $100$ ten-thousand yuan in the first year and $10$ ten-thousand yuan in each subsequent year, so after $n$ years the cumulative investment is $100+10\left(n-1\right)$ ten-thousand yuan.
 
-(3) Take $p$: corresponding angles are equal, $q$: two lines are parallel. By the determination theorem of parallel lines, $p\Rightarrow q$; by the property theorem of parallel lines, $q\Rightarrow p$. Thus $p\Leftrightarrow q$, i.e. $p$ is a necessary and sufficient condition for $q$. $\blacksquare$
+"The investment under Plan $B$ is not less than the investment under Plan $A$", i.e. the cumulative investment under Plan $B$ is greater than or equal to the investment under Plan $A$, so the required inequality is
+
+$$
+100+10\left(n-1\right)\ge500.
+$$
+
+$\blacksquare$
 
 ## Problem 2
 
-(Problem 1.4, Review and Consolidation, Problem 2) In the following problems, determine what kind of condition $p$ is for $q$ (please answer using "sufficient but not necessary condition", "necessary but not sufficient condition", "necessary and sufficient condition", "neither sufficient nor necessary condition"):
+(Exercise 2.1, Review and Consolidation, Problem 3) Compare the sizes of the two algebraic expressions in each of the following groups.
 
-(1) $p$: a triangle is isosceles, $q$: a triangle is equilateral;
+(1) $x^2+5x+6$ and $2x^2+5x+9$;
 
-(2) $p$: the quadratic equation $ax^2+bx+c=0$ has real roots, $q$: $b^2-4ac\ge 0$ ($a\neq 0$);
+(2) $\left(x-3\right)^2$ and $\left(x-2\right)\left(x-4\right)$;
 
-(3) $p$: $a\in P\cap Q$, $q$: $a\in P$;
+(3) when $x> 1$, $x^2$ and $x^2-x+1$;
 
-(4) $p$: $a\in P\cup Q$, $q$: $a\in P$;
-
-(5) $p$: $x> y$, $q$: $x^2> y^2$.
+(4) $x^2+y^2+1$ and $2\left(x+y-1\right)$.
 
 ### Solution to Problem 2
 
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Definition 1.4.4 (Necessary and Sufficient Condition)**, determine whether $p\Rightarrow q$ and $q\Rightarrow p$ hold respectively.
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), take the difference of the two expressions in each group and determine whether the difference is greater than or less than $0$.
 
-(1) An equilateral triangle is necessarily an isosceles triangle, so $q\Rightarrow p$; but an isosceles triangle is not necessarily an equilateral triangle, so $p\nRightarrow q$. Therefore, $p$ is a necessary but not sufficient condition for $q$.
+(1) $\left(x^2+5x+6\right)-\left(2x^2+5x+9\right)=-x^2-3=-\left(x^2+3\right)< 0$, so $x^2+5x+6< 2x^2+5x+9$.
 
-(2) By the discriminant of a quadratic equation, the equation $ax^2+bx+c=0$ ($a\neq 0$) has real roots if and only if $b^2-4ac\ge 0$, so $p\Leftrightarrow q$. Therefore, $p$ is a necessary and sufficient condition for $q$.
+(2) $\left(x-3\right)^2-\left(x-2\right)\left(x-4\right)=\left(x^2-6x+9\right)-\left(x^2-6x+8\right)=1> 0$, so $\left(x-3\right)^2> \left(x-2\right)\left(x-4\right)$.
 
-(3) By **Definition 1.3.2 (Intersection)**, if $a\in P\cap Q$, then $a$ must belong to $P$, so $p\Rightarrow q$; but $a\in P$ does not necessarily belong to $Q$, so $q\nRightarrow p$. Therefore, $p$ is a sufficient but not necessary condition for $q$.
+(3) When $x> 1$, $x^2-\left(x^2-x+1\right)=x-1> 0$, so $x^2> x^2-x+1$.
 
-(4) By **Definition 1.3.1 (Union)**, if $a\in P$, then $a$ must belong to $P\cup Q$, so $q\Rightarrow p$; but $a\in P\cup Q$ may belong only to $Q$ and not to $P$, so $p\nRightarrow q$. Therefore, $p$ is a necessary but not sufficient condition for $q$.
+(4)
 
-(5) Taking $x=1$, $y=-2$, then $x> y$, but $x^2=1< 4=y^2$, so $p\nRightarrow q$; taking $x=-2$, $y=1$, then $x^2=4> 1=y^2$, but $x< y$, so $q\nRightarrow p$. Therefore, $p$ is a neither sufficient nor necessary condition for $q$. $\blacksquare$
+$$
+\left(x^2+y^2+1\right)-2\left(x+y-1\right)=x^2+y^2-2x-2y+3=\left(x-1\right)^2+\left(y-1\right)^2+1> 0,
+$$
+
+so $x^2+y^2+1> 2\left(x+y-1\right)$. $\blacksquare$
 
 ## Problem 3
 
-(Problem 1.4, Review and Consolidation, Problem 3) Determine whether the following propositions are true or false:
-
-(1) The distance from a point $P$ to the center $O$ of a circle being greater than the radius is a necessary and sufficient condition for the point $P$ to be outside $\odot O$;
-
-(2) Two triangles having equal areas is a sufficient but not necessary condition for the two triangles to be congruent;
-
-(3) $A\cup B=A$ is a necessary but not sufficient condition for $B\subseteq A$;
-
-(4) $x$ or $y$ being rational is a neither sufficient nor necessary condition for $xy$ to be rational.
+(Exercise 2.1, Review and Consolidation, Problem 4) A two-digit number is greater than $50$ and less than $60$, and its units digit is $2$ greater than its tens digit. Express the above relation using inequalities, and find this two-digit number (let $a$ and $b$ denote the tens digit and the units digit respectively).
 
 ### Solution to Problem 3
 
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Definition 1.4.4 (Necessary and Sufficient Condition)**, determine one by one.
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), write the inequalities according to the problem, and then determine $a,b$ from the possible values of the digits.
 
-(1) A point $P$ is outside the circle if and only if its distance to the center is greater than the radius; the two are mutually necessary and sufficient conditions, so this proposition is true.
+This two-digit number is $10a+b$. Since it is greater than $50$ and less than $60$, we have
 
-(2) Two congruent triangles necessarily have equal areas, so equal areas is a necessary condition for congruence; but two triangles with equal areas are not necessarily congruent, so equal areas is not a sufficient condition for congruence. The proposition calls it a "sufficient but not necessary condition", which contradicts the facts, so this proposition is false.
+$$
+50< 10a+b< 60.
+$$
 
-(3) By **Definition 1.3.1 (Union)** and **Definition 1.2.1 (Subset)**, $A\cup B=A$ if and only if $B\subseteq A$; the two are mutually necessary and sufficient conditions. The proposition calls it a "necessary but not sufficient condition", so this proposition is false.
+Since the units digit is $2$ greater than the tens digit, we have
 
-(4) Taking $x=1$ as rational and $y=\sqrt 2$ as irrational, then $xy=\sqrt 2$ is irrational, so "$x$ or $y$ being rational" does not imply "$xy$ is rational"; also taking $x=y=\sqrt 2$, then $xy=2$ is rational, but $x,y$ are both not rational, so "$xy$ being rational" does not imply "$x$ or $y$ being rational". Therefore, the two are neither sufficient nor necessary, and this proposition is true. $\blacksquare$
+$$
+b=a+2.
+$$
+
+Since $a,b$ are both digits and $50< 10a+b< 60$, the tens digit $a$ must be $5$. Substituting into $b=a+2$, we get $b=7$. Thus the required two-digit number is $57$. $\blacksquare$
 
 ## Problem 4
 
-(Problem 1.4, Comprehensive Application, Problem 4) Given $A=\left\{x\mid x\text{ 满足条件 }p\right\}$, $B=\left\{x\mid x\text{ 满足条件 }q\right\}$,
-
-(1) If $A\subseteq B$, then what kind of condition is $p$ for $q$?
-
-(2) If $B\subseteq A$, then what kind of condition is $p$ for $q$?
-
-(3) If $A=B$, then what kind of condition is $p$ for $q$?
+(Exercise 2.1, Review and Consolidation, Problem 5) Given $2< a< 3$ and $-2< b< -1$, find the range of $2a+b$.
 
 ### Solution to Problem 4
 
-By **Definition 1.2.1 (Subset)**, $A\subseteq B$ means that every $x$ satisfying $p$ also satisfies $q$; by **Definition 1.4.2 (Sufficient Condition and Necessary Condition)**, this corresponds precisely to whether $p\Rightarrow q$ holds.
+By **Property 2.1.6** (Multiplicativity), first multiply the range of $a$ by a factor, and then by **Property 2.1.7** (Adding Inequalities in the Same Direction) add the range of $b$.
 
-(1) If $A\subseteq B$, then every $x$ satisfying condition $p$ also satisfies condition $q$, i.e. $p\Rightarrow q$, so $p$ is a sufficient condition for $q$.
+From $2< a< 3$, multiplying both sides by $2$, we get $4< 2a< 6$.
 
-(2) If $B\subseteq A$, then every $x$ satisfying condition $q$ also satisfies condition $p$, i.e. $q\Rightarrow p$, so $p$ is a necessary condition for $q$.
+Also $-2< b< -1$. Adding the two inequalities in the same direction, we get
 
-(3) If $A=B$, then $A\subseteq B$ and $B\subseteq A$, i.e. $p\Rightarrow q$ and $q\Rightarrow p$, so $p\Leftrightarrow q$, and thus $p$ is a necessary and sufficient condition for $q$. $\blacksquare$
+$$
+4+\left(-2\right)< 2a+b< 6+\left(-1\right),
+$$
+
+i.e. $2< 2a+b< 5$. Thus the range of $2a+b$ is $\left\{x\mid2< x< 5\right\}$. $\blacksquare$
 
 ## Problem 5
 
-(Problem 1.4, Comprehensive Application, Problem 5) Let $a,b,c\in\mathbb R$. Prove: $a=b=c$ is a necessary and sufficient condition for $a^2+b^2+c^2=ab+ac+bc$.
+(Exercise 2.1, Review and Consolidation, Problem 6) Prove that $c< b$, $b< a\Rightarrow c< a$.
 
 ### Solution to Problem 5
 
-By **Definition 1.4.4 (Necessary and Sufficient Condition)**, we need to prove $a=b=c\Leftrightarrow a^2+b^2+c^2=ab+ac+bc$.
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate $c< a$ into $c-a< 0$ and prove it.
 
-Transposing the equation $a^2+b^2+c^2=ab+ac+bc$, we get
-
-$$
-a^2+b^2+c^2-ab-ac-bc=0.
-$$
-
-Multiplying both sides by $2$ and completing the square, we get
+Since $c< b$, we have $c-b< 0$; since $b< a$, we have $b-a< 0$. Adding the two inequalities, we get
 
 $$
-\left(a-b\right)^2+\left(b-c\right)^2+\left(c-a\right)^2=0.
+c-a=\left(c-b\right)+\left(b-a\right)< 0.
 $$
 
-Since $a,b,c\in\mathbb R$, the squares of three real numbers are all non-negative, and their sum is $0$ if and only if each term is $0$, i.e. $a-b=0$, $b-c=0$, $c-a=0$, i.e. $a=b=c$.
-
-The above steps are all reversible, so $a=b=c$ if and only if $a^2+b^2+c^2=ab+ac+bc$, i.e. $a=b=c$ is a necessary and sufficient condition for this equation. $\blacksquare$
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $c< a$. This is precisely **Property 2.1.4** (Transitivity). $\blacksquare$
 
 ## Problem 6
 
-(Problem 1.4, Extension and Exploration, Problem 6) Let $a,b,c$ be the three sides of $\triangle ABC$ respectively, with $a\le b\le c$. We know that if $\triangle ABC$ is a right triangle, then $a^2+b^2=c^2$ (the Pythagorean theorem). Conversely, if $a^2+b^2=c^2$, then $\triangle ABC$ is a right triangle (the converse of the Pythagorean theorem). Thus, $a^2+b^2=c^2$ is a necessary and sufficient condition for $\triangle ABC$ to be a right triangle. Using the side lengths $a,b,c$, give a necessary and sufficient condition for $\triangle ABC$ to be an acute triangle and one for it to be an obtuse triangle, and prove them.
+(Exercise 2.1, Comprehensive Application, Problem 7) Given $a> b> 0$, $c< d< 0$, and $e< 0$, prove that $\frac{e}{a-c}> \frac{e}{b-d}$.
 
 ### Solution to Problem 6
 
-By **Definition 1.4.4 (Necessary and Sufficient Condition)**, give conditions using the law of cosines.
+By **Property 2.1.7** (Adding Inequalities in the Same Direction), first compare $a-c$ and $b-d$, and then by **Basic Fact 2.1.1** (Order Relations Among Real Numbers) take reciprocals and multiply by the negative number $e$.
 
-Since $a\le b\le c$, $c$ is the longest side, and the angle $C$ opposite to it is the largest angle of the triangle. A triangle is an acute triangle if and only if the largest angle $C$ is acute; a triangle is an obtuse triangle if and only if the largest angle $C$ is obtuse.
-
-By the law of cosines,
+Multiplying both sides of $c< d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d$. Also $a> b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)> b+\left(-d\right)$, i.e.
 
 $$
-\cos C=\frac{a^2+b^2-c^2}{2ab}.
+a-c> b-d.
 $$
 
-Since $a,b> 0$, we have $2ab> 0$, so the sign of $\cos C$ is completely determined by $a^2+b^2-c^2$.
+Also $a> 0$ and $-c> 0$, so $a-c=a+\left(-c\right)> 0$; similarly $b-d> 0$, and hence
 
-(1) A triangle is an acute triangle if and only if the largest angle $C$ is acute, i.e. $\cos C> 0$, i.e. $a^2+b^2-c^2> 0$, i.e. $a^2+b^2> c^2$. Therefore, a necessary and sufficient condition for $\triangle ABC$ to be an acute triangle is $a^2+b^2> c^2$.
+$$
+0< b-d< a-c.
+$$
 
-(2) A triangle is an obtuse triangle if and only if the largest angle $C$ is obtuse, i.e. $\cos C< 0$, i.e. $a^2+b^2-c^2< 0$, i.e. $a^2+b^2< c^2$. Therefore, a necessary and sufficient condition for $\triangle ABC$ to be an obtuse triangle is $a^2+b^2< c^2$.
+Taking reciprocals of positive numbers reverses the inequality sign, giving $\frac{1}{a-c}< \frac{1}{b-d}$. Multiplying both sides by the negative number $e< 0$, by **Property 2.1.6** (Multiplicativity), the inequality sign reverses again, giving
 
-The above derivations are all reversible, so the two conditions are respectively the necessary and sufficient conditions for an acute triangle and an obtuse triangle. $\blacksquare$
+$$
+\frac{e}{a-c}> \frac{e}{b-d}.
+$$
 
-### Reading and Thinking 1
+$\blacksquare$
 
-(Thinking 1) In the article "Geometric Propositions and Sufficient and Necessary Conditions", let $q$: two triangles are similar. Think about it: (1) Can you give other sufficient conditions for similar triangles? (2) Can determination theorems be used to determine that two triangles are not similar? Why?
+## Problem 7
 
-### Solution to Reading and Thinking 1
+(Exercise 2.1, Comprehensive Application, Problem 8) Which of the following propositions is true?
 
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Definition 1.4.4 (Necessary and Sufficient Condition)**, answer as follows.
+($A$) If $a> b> 0$, then $ac^2> bc^2$;
 
-(1) The determination theorems for similar triangles themselves give sufficient conditions for $q$. Besides proportional three sides, two proportional sides with equal included angle, and two pairs of equal angles, one can also cite: two triangles similar to the same triangle are mutually similar (i.e. the transitivity of "similar"), which is also a sufficient condition for two triangles to be similar.
+($B$) If $a> b> 0$, then $a^2> b^2$;
 
-(2) Determination theorems cannot be used to determine that two triangles are not similar. Determination theorems give sufficient conditions in the form $p\Rightarrow q$, i.e. when the condition is satisfied, they are certainly similar. But two triangles not satisfying a particular determination theorem does not mean they are not similar, because the sufficient conditions for $q$ to hold are not unique, and it is entirely possible that they are similar through another path. To determine that two triangles are not similar, one needs to use the property theorems of similar triangles (i.e. necessary conditions): as long as one points out that a necessary property does not hold, one can conclude that they are not similar. $\blacksquare$
+($C$) If $a< b< 0$, then $a^2< ab< b^2$;
 
-### Reading and Thinking 2
+($D$) If $a< b< 0$, then $\frac{1}{a}< \frac{1}{b}$.
 
-(Thinking 2) In the article "Geometric Propositions and Sufficient and Necessary Conditions", think about it: can property theorems be used to determine that two triangles are similar? Why? Can you give other necessary conditions for similar triangles?
+### Solution to Problem 7
 
-### Solution to Reading and Thinking 2
+By **Property 2.1.6** (Multiplicativity) and **Property 2.1.9** (Powers), judge each one.
 
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)**, property theorems give necessary conditions in the form $q\Rightarrow r$.
+($A$) When $c=0$, $ac^2=bc^2=0$, so $ac^2> bc^2$ does not always hold; false.
 
-Property theorems cannot be used to determine that two triangles are similar. Property theorems show that if two triangles are similar, then their corresponding angles are necessarily equal, their perimeter ratios equal the similarity ratio, their area ratios equal the square of the similarity ratio, and so on. These are "properties that necessarily follow" after similarity, i.e. $q\Rightarrow r$. Conversely, even if these properties hold, one cannot infer that they are similar, because $q\Rightarrow r$ does not imply $r\Rightarrow q$. To determine similarity, one still needs to use determination theorems (sufficient conditions).
+($B$) From $a> b> 0$, by **Property 2.1.9** (Powers) we get $a^2> b^2$; true.
 
-Other necessary conditions for similar triangles can also be cited: the ratio of corresponding altitudes, the ratio of corresponding medians, and the ratio of corresponding angle bisectors of similar triangles all equal the similarity ratio; the ratio of circumradii and the ratio of inradii of similar triangles both equal the similarity ratio; and so on. When these properties do not hold, the two triangles are certainly not similar, so they are all necessary conditions for $q$. $\blacksquare$
+($C$) Multiplying both sides of $a< b$ by the negative number $a< 0$, by **Property 2.1.6** (Multiplicativity) we get $a^2> ab$, which contradicts $a^2< ab$; false.
 
-### Reading and Thinking 3
+($D$) From $a< b< 0$, taking reciprocals gives $\frac{1}{a}> \frac{1}{b}$ (for example, when $a=-3$ and $b=-1$, $\frac{1}{a}=-\frac{1}{3}> -1=\frac{1}{b}$), which contradicts $\frac{1}{a}< \frac{1}{b}$; false.
 
-(Thinking 3) In the article "Geometric Propositions and Sufficient and Necessary Conditions", starting from any equivalent definition of similar triangles, one can also derive other properties of similar triangles; can you try? Following the above approach, organize the knowledge about isosceles triangles, right triangles, parallelograms (rectangles, rhombi, squares), and other figures.
+Thus the true proposition is ($B$). $\blacksquare$
 
-### Solution to Reading and Thinking 3
+## Problem 8
 
-By **Definition 1.4.4 (Necessary and Sufficient Condition)**, equivalent definitions can be derived from each other; based on this, organize the determination theorems and property theorems of figures.
+(Exercise 2.1, Comprehensive Application, Problem 9) Prove that the area of a circle is greater than the area of a square with the same perimeter. Based on this, explain why people usually make the cross-section of a water pipe circular rather than square.
 
-Take parallelograms as an example. Its definition "a quadrilateral with two pairs of opposite sides respectively parallel" and "a quadrilateral with two pairs of opposite sides respectively equal", "a quadrilateral with one pair of opposite sides parallel and equal", "a quadrilateral whose diagonals bisect each other" are mutually necessary and sufficient conditions; taking any one as the definition, the others can serve both as determination theorems and as derived property theorems. For example, taking "two pairs of opposite sides respectively parallel" as the definition, one can derive that two pairs of opposite sides are respectively equal, two pairs of opposite angles are respectively equal, and the diagonals bisect each other, and other properties.
+### Solution to Problem 8
 
-Similarly, the organization is as follows.
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), let the common perimeter be $l$, write the areas of the circle and the square respectively, and then compare them.
 
-(a) Isosceles triangle: the necessary and sufficient conditions are "two equal sides" or "two equal angles"; from the definition one can derive the "three lines in one" (the angle bisector of the vertex angle, the median on the base, and the altitude on the base coincide) and other property theorems, and these properties are all necessary conditions for an isosceles triangle.
+Let the perimeter of both be $l$. The side length of the square is $\frac{l}{4}$, and its area is $\left(\frac{l}{4}\right)^2=\frac{l^2}{16}$.
 
-(b) Right triangle: the necessary and sufficient conditions are "one interior angle is a right angle" or "the sum of the squares of two sides equals the square of the third side (the Pythagorean theorem and its converse)"; from this one can derive that the median on the hypotenuse equals half the hypotenuse, and the two acute angles are complementary, and other properties.
+Let the radius of the circle be $r$, then $2\pi r=l$, i.e. $r=\frac{l}{2\pi}$, and its area is $\pi r^2=\frac{l^2}{4\pi}$.
 
-(c) Rectangles, rhombi, squares: the necessary and sufficient conditions for a rectangle are "a parallelogram with one right angle" or "a parallelogram with equal diagonals"; the necessary and sufficient conditions for a rhombus are "a parallelogram with one pair of adjacent sides equal" or "a parallelogram with perpendicular diagonals"; the necessary and sufficient conditions for a square are "a rectangle with one pair of adjacent sides equal" or "a rhombus with one right angle". Their respective determination theorems correspond to sufficient conditions, and property theorems correspond to necessary conditions. $\blacksquare$
+Comparing the two areas:
+
+$$
+\frac{l^2}{4\pi}-\frac{l^2}{16}=l^2\left(\frac{1}{4\pi}-\frac{1}{16}\right).
+$$
+
+Since $4\pi< 16$, we have $\frac{1}{4\pi}> \frac{1}{16}$, so the above expression is positive, and the area of the circle is greater than the area of a square with the same perimeter.
+
+When the perimeters of the cross-sections are equal, the circular cross-section has the largest area. Therefore, water pipes are made circular, so that with the same material the water-passing cross-section is the largest and the flow capacity is the strongest. $\blacksquare$
+
+## Problem 9
+
+(Exercise 2.1, Comprehensive Application, Problem 10) Given that $b$ grams of sugar water contains $a$ grams of sugar ($b> a> 0$), and then $m$ grams of sugar ($m> 0$) are added (assuming all dissolves), the sugar water becomes sweeter. Express this fact as an inequality, and prove that this inequality holds.
+
+### Solution to Problem 9
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the sugar water becoming sweeter means the concentration becomes larger; take the difference to compare the concentrations before and after adding sugar.
+
+Before adding sugar, the concentration of the sugar water is $\frac{a}{b}$; after adding sugar, the concentration is $\frac{a+m}{b+m}$. Becoming sweeter means $\frac{a+m}{b+m}> \frac{a}{b}$.
+
+Taking the difference:
+
+$$
+\frac{a+m}{b+m}-\frac{a}{b}=\frac{b\left(a+m\right)-a\left(b+m\right)}{b\left(b+m\right)}=\frac{m\left(b-a\right)}{b\left(b+m\right)}.
+$$
+
+Since $b> a> 0$ and $m> 0$, the numerator $m\left(b-a\right)> 0$ and the denominator $b\left(b+m\right)> 0$, so the difference is positive, i.e. $\frac{a+m}{b+m}> \frac{a}{b}$. Thus after adding $m$ grams of sugar the sugar water becomes sweeter. $\blacksquare$
+
+## Problem 10
+
+(Exercise 2.1, Extension and Exploration, Problem 11) Given $a> b> 0$, prove that $\sqrt a> \sqrt b$.
+
+### Solution to Problem 10
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), compare the difference between $\sqrt a$ and $\sqrt b$.
+
+Since $a> b> 0$, we have $\sqrt a> 0$, $\sqrt b> 0$, and $\sqrt a+\sqrt b> 0$. Also,
+
+$$
+a-b=\left(\sqrt a\right)^2-\left(\sqrt b\right)^2=\left(\sqrt a-\sqrt b\right)\left(\sqrt a+\sqrt b\right).
+$$
+
+From $a> b$ we know $a-b> 0$, while $\sqrt a+\sqrt b> 0$, so $\sqrt a-\sqrt b> 0$, i.e. $\sqrt a> \sqrt b$. $\blacksquare$
+
+## Problem 11
+
+(Exercise 2.1, Extension and Exploration, Problem 12) At a railway station, a company has $1530\ \mathrm t$ of type-A cargo and $1150\ \mathrm t$ of type-B cargo waiting to be shipped. It is planned to use a total of $50$ freight carriages of types $A$ and $B$ to transport this batch of cargo. It is known that $35\ \mathrm t$ of type-A cargo and $15\ \mathrm t$ of type-B cargo can fill one type-$A$ freight carriage, and $25\ \mathrm t$ of type-A cargo and $35\ \mathrm t$ of type-B cargo can fill one type-$B$ freight carriage. Based on this, arrange the numbers of type-$A$ and type-$B$ freight carriages. How many plans are there? If the freight cost per type-$A$ freight carriage is $0.5$ ten-thousand yuan and per type-$B$ freight carriage is $0.8$ ten-thousand yuan, which plan has the lower freight cost?
+
+### Solution to Problem 11
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), let there be $x$ type-$A$ freight carriages, then there are $\left(50-x\right)$ type-$B$ freight carriages; write the system of inequalities according to the loading amounts of the two kinds of cargo.
+
+According to the problem, the type-A cargo satisfies
+
+$$
+35x+25\left(50-x\right)\ge1530,
+$$
+
+and the type-B cargo satisfies
+
+$$
+15x+35\left(50-x\right)\ge1150.
+$$
+
+Simplifying the first inequality: $10x+1250\ge1530$, i.e. $x\ge28$.
+
+Simplifying the second inequality: $1750-20x\ge1150$, i.e. $x\le30$.
+
+Thus $28\le x\le30$. Also $x$ is a nonnegative integer, so $x=28,29,30$, giving $3$ plans in total.
+
+The total freight cost is
+
+$$
+0.5x+0.8\left(50-x\right)=40-0.3x.
+$$
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the larger $x$ is, the lower the freight cost. Thus take $x=30$, then $50-x=20$, and the freight cost is $40-0.3\times30=31$ ten-thousand yuan, which is the minimum. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 2.2, Problem 1) Given $a,b\in\mathbb R$, prove that $ab\le\left(\frac{a+b}{2}\right)^2$.
+
+### Solution to Exercise 1
+
+By **Standard Conclusion 2.1.2** (Important Inequality), for any real numbers $a,b$ we have $\left(a-b\right)^2\ge0$.
+
+Expanding gives $a^2-2ab+b^2\ge0$, and rearranging gives $a^2+2ab+b^2\ge4ab$, i.e. $\left(a+b\right)^2\ge4ab$. Dividing both sides by $4$, we get
+
+$$
+ab\le\left(\frac{a+b}{2}\right)^2,
+$$
+
+with equality holding if and only if $a=b$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 2.2, Problem 2) Given that $x,y$ are both positive and $x\neq y$, prove that.
+
+(1) $\frac{x}{y}+\frac{y}{x}> 2$;
+
+(2) $\frac{2xy}{x+y}< \sqrt{xy}$.
+
+### Solution to Exercise 2
+
+By **Theorem 2.2.1 (Basic Inequality)**, for positive numbers $x,y$ we have $\frac{x+y}{2}\ge\sqrt{xy}$, with equality holding if and only if $x=y$. Now $x\neq y$, so equality does not hold and each inequality is strict.
+
+(1) By **Theorem 2.2.1 (Basic Inequality)**, $\frac{x}{y}$ and $\frac{y}{x}$ are both positive, so
+
+$$
+\frac{x}{y}+\frac{y}{x}\ge2\sqrt{\frac{x}{y}\cdot\frac{y}{x}}=2.
+$$
+
+Since $x\neq y$, equality does not hold, so $\frac{x}{y}+\frac{y}{x}> 2$.
+
+(2) Since $x\neq y$, **Theorem 2.2.1 (Basic Inequality)** gives $x+y> 2\sqrt{xy}$. Both sides are positive, so taking reciprocals gives $\frac{2}{x+y}< \frac{1}{\sqrt{xy}}$; multiplying both sides by the positive number $xy$, we get
+
+$$
+\frac{2xy}{x+y}< \frac{xy}{\sqrt{xy}}=\sqrt{xy}.
+$$
+
+$\blacksquare$
+
+## Exercise 3
+
+(Exercise 2.2, Problem 3) For what values of $x$ does $x^2+\frac{1}{x^2}$ attain its minimum? What is the minimum value?
+
+### Solution to Exercise 3
+
+By **Theorem 2.2.1 (Basic Inequality)**, $x^2> 0$ and $\frac{1}{x^2}> 0$, so
+
+$$
+x^2+\frac{1}{x^2}\ge2\sqrt{x^2\cdot\frac{1}{x^2}}=2.
+$$
+
+Equality holds if and only if $x^2=\frac{1}{x^2}$, i.e. $x^4=1$, $x=\pm1$. Thus when $x=\pm1$, $x^2+\frac{1}{x^2}$ attains its minimum value $2$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 2.2, Problem 4) Given $-1\le x\le1$, find the maximum value of $1-x^2$.
+
+### Solution to Exercise 4
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the square $x^2\ge0$, so $1-x^2\le1$.
+
+When $x=0$, $x^2=0$ reaches its minimum, and then $1-x^2=1$ reaches its maximum. Thus the maximum value of $1-x^2$ is $1$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 2.2, Problem 5) Given that the area of a right triangle is $50\ \mathrm{cm}^2$, when the two legs have what lengths is the sum of the two legs minimized? What is the minimum value?
+
+### Solution to Exercise 5
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), let the two legs have lengths $a,b$, then $\frac{1}{2}ab=50$, i.e. $ab=100$ is a fixed value.
+
+By **Theorem 2.2.1 (Basic Inequality)**,
+
+$$
+a+b\ge2\sqrt{ab}=2\sqrt{100}=20,
+$$
+
+with equality holding if and only if $a=b=10$. Thus when both legs are $10\ \mathrm{cm}$, the sum of the two legs is minimized, and the minimum value is $20\ \mathrm{cm}$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 2.2, Problem 6) Using a wire $20\ \mathrm{cm}$ long to form a rectangle of maximum area, how should it be bent?
+
+### Solution to Exercise 6
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), let the two adjacent sides of the rectangle have lengths $a,b$. The perimeter is $20\ \mathrm{cm}$, i.e. $a+b=10$ is a fixed value.
+
+By **Exercise 1**, it has been proved that $ab\le\left(\frac{a+b}{2}\right)^2=25$, with equality holding if and only if $a=b=5$. Thus it should be bent into a square of side $5\ \mathrm{cm}$, and then the area is maximized at $25\ \mathrm{cm}^2$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 2.2, Problem 7) Using a fence $30\ \mathrm m$ long to enclose a rectangular vegetable garden with one side against a wall of length $18\ \mathrm m$. When the rectangle has what side lengths is the area of the garden maximized? What is the maximum area?
+
+### Solution to Exercise 7
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), let the side perpendicular to the wall have length $x$ and the side parallel to the wall have length $y$, then $2x+y=30$.
+
+Let $u=2x$, then $u+y=30$ is a fixed value. The area of the garden is
+
+$$
+S=xy=\frac{1}{2}\left(2x\right)y=\frac{1}{2}uy.
+$$
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), $uy\le\left(\frac{u+y}{2}\right)^2=225$, with equality holding if and only if $u=y=15$. Then $2x=15$, $x=7.5$, $y=15$, and $y=15< 18$ does not exceed the wall length, so it is feasible.
+
+Thus when the side perpendicular to the wall is $7.5\ \mathrm m$ and the side parallel to the wall is $15\ \mathrm m$, the area of the garden is maximized, and the maximum area is $\frac{225}{2}=112.5\ \mathrm m^2$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 2.2, Problem 8) Making a cuboid box with volume $32\ \mathrm m^3$ and height $2\ \mathrm m$, when the bottom has what side lengths is the amount of paper used minimized?
+
+### Solution to Exercise 8
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), let the two adjacent sides of the bottom have lengths $x,y$. The volume is $32\ \mathrm m^3$ and the height is $2\ \mathrm m$, so the bottom area $xy=16$ is a fixed value.
+
+The surface area of the box is
+
+$$
+S=2\left(xy+2x+2y\right)=32+4\left(x+y\right).
+$$
+
+By **Theorem 2.2.1 (Basic Inequality)**, $x+y\ge2\sqrt{xy}=8$, with equality holding if and only if $x=y=4$. Then $S$ is minimized, with minimum value $32+4\times8=64\ \mathrm m^2$. Thus when the bottom is a square of side $4\ \mathrm m$, the amount of paper used is minimized. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 2.2, Problem 9) Given that a rectangle has perimeter $36\ \mathrm{cm}$, the rectangle is rotated about one of its sides to form a cylinder. When the rectangle has what side lengths is the lateral area of the cylinder formed by rotation maximized?
+
+### Solution to Exercise 9
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), let the two adjacent sides of the rectangle have lengths $a,b$. The perimeter is $36\ \mathrm{cm}$, i.e. $a+b=18$ is a fixed value.
+
+When rotated about the side of length $b$, the resulting cylinder has base radius $a$ and height $b$, and its lateral area is
+
+$$
+S=2\pi ab.
+$$
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), $ab\le\left(\frac{a+b}{2}\right)^2=81$, with equality holding if and only if $a=b=9$. Thus when the rectangle is a square of side $9\ \mathrm{cm}$, the lateral area of the cylinder is maximized, with maximum value $162\pi\ \mathrm{cm}^2$. $\blacksquare$
+
+## Problem 12
+
+(Exercise 2.2, Review and Consolidation, Problem 1)
+
+(1) Given $x> 1$, find the minimum value of $x+\frac{1}{x-1}$;
+
+(2) find the maximum value of $\sqrt{x\left(10-x\right)}$.
+
+### Solution to Problem 12
+
+By **Theorem 2.2.1 (Basic Inequality)**, rewrite the expression as the sum or product of two positive numbers.
+
+(1) Since $x> 1$, we have $x-1> 0$. Rewrite
+
+$$
+x+\frac{1}{x-1}=\left(x-1\right)+\frac{1}{x-1}+1\ge2\sqrt{\left(x-1\right)\cdot\frac{1}{x-1}}+1=3,
+$$
+
+with equality holding if and only if $x-1=\frac{1}{x-1}$, i.e. $\left(x-1\right)^2=1$, $x=2$. Thus the minimum value of $x+\frac{1}{x-1}$ is $3$.
+
+(2) By **Exercise 1**, it has been proved that $x\left(10-x\right)\le\left(\frac{x+\left(10-x\right)}{2}\right)^2=25$, with equality holding if and only if $x=5$. Thus
+
+$$
+\sqrt{x\left(10-x\right)}\le\sqrt{25}=5,
+$$
+
+and its maximum value is $5$. $\blacksquare$
+
+## Problem 13
+
+(Exercise 2.2, Review and Consolidation, Problem 2)
+
+(1) Write $36$ as the product of two positive numbers; for what values of these two positive numbers is their sum minimized?
+
+(2) Write $18$ as the sum of two positive numbers; for what values of these two positive numbers is their product maximized?
+
+### Solution to Problem 13
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product).
+
+(1) Let the two positive numbers be $x,y$, then $xy=36$ is a fixed value. By **Theorem 2.2.1 (Basic Inequality)**, $x+y\ge2\sqrt{xy}=12$, with equality holding if and only if $x=y=6$. Thus when both positive numbers are $6$, their sum is minimized.
+
+(2) Let the two positive numbers be $x,y$, then $x+y=18$ is a fixed value. By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), $xy\le\left(\frac{x+y}{2}\right)^2=81$, with equality holding if and only if $x=y=9$. Thus when both positive numbers are $9$, their product is maximized. $\blacksquare$
+
+## Problem 14
+
+(Exercise 2.2, Review and Consolidation, Problem 3) A company builds a room with a rectangular floor and the back side against a wall. The floor area is $48\ \mathrm m^2$, the cost per square meter of the front wall is $1200$ yuan, the cost per square meter of the side walls is $800$ yuan, and the cost of the roof is $5800$ yuan. If the wall height is $3\ \mathrm m$ and the costs of the back side and the floor are not counted, how should the room be designed to minimize the total cost? What is the minimum total cost?
+
+### Solution to Problem 14
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), let the front width be $x$ and the depth be $y$, then $xy=48$.
+
+The front wall area is $3x$, costing $1200\cdot3x=3600x$; the two side walls together have area $2\cdot3y=6y$, costing $800\cdot6y=4800y$; the roof costs $5800$ yuan. The total cost is
+
+$$
+z=3600x+4800y+5800.
+$$
+
+By **Theorem 2.2.1 (Basic Inequality)**,
+
+$$
+3600x+4800y\ge2\sqrt{3600x\cdot4800y}=2\sqrt{3600\times4800\times48}.
+$$
+
+Equality holds if and only if $3600x=4800y$, i.e. $3x=4y$. Together with $xy=48$, this gives $x=8$, $y=6$.
+
+Then $z=3600\times8+4800\times6+5800=63400$ yuan. Thus when the front width is $8\ \mathrm m$ and the depth is $6\ \mathrm m$, the total cost is minimized, with minimum value $63400$ yuan. $\blacksquare$
+
+## Problem 15
+
+(Exercise 2.2, Comprehensive Application, Problem 4) Given that $x,y,z$ are all positive, prove that $\left(x+y\right)\left(y+z\right)\left(z+x\right)\ge8xyz$.
+
+### Solution to Problem 15
+
+By **Theorem 2.2.1 (Basic Inequality)**, apply the basic inequality to the three pairs of positive numbers respectively.
+
+From $x,y> 0$, $y,z> 0$, $z,x> 0$, we get
+
+$$
+x+y\ge2\sqrt{xy},\quad y+z\ge2\sqrt{yz},\quad z+x\ge2\sqrt{zx}.
+$$
+
+Multiplying the three inequalities, we get
+
+$$
+\left(x+y\right)\left(y+z\right)\left(z+x\right)\ge8\sqrt{xy\cdot yz\cdot zx}=8\sqrt{x^2y^2z^2}=8xyz.
+$$
+
+Equality holds if and only if $x=y=z$. $\blacksquare$
+
+## Problem 16
+
+(Exercise 2.2, Comprehensive Application, Problem 5) Given $x> 0$, prove that the maximum value of $2-3x-\frac{4}{x}$ is $2-4\sqrt3$.
+
+### Solution to Problem 16
+
+By **Theorem 2.2.1 (Basic Inequality)**, $3x> 0$ and $\frac{4}{x}> 0$, so
+
+$$
+3x+\frac{4}{x}\ge2\sqrt{3x\cdot\frac{4}{x}}=4\sqrt3.
+$$
+
+Multiplying both sides by $-1$ reverses the inequality sign, giving $-3x-\frac{4}{x}\le-4\sqrt3$, and hence
+
+$$
+2-3x-\frac{4}{x}\le2-4\sqrt3.
+$$
+
+Equality holds if and only if $3x=\frac{4}{x}$, i.e. $x=\frac{2\sqrt3}{3}$. Thus the maximum value of $2-3x-\frac{4}{x}$ is $2-4\sqrt3$. $\blacksquare$
+
+## Problem 17
+
+(Exercise 2.2, Comprehensive Application, Problem 6) A freight company plans to rent land and build a warehouse to store goods. A market survey finds the following information: the monthly land occupation fee $y_1$ (unit: ten-thousand yuan) is inversely proportional to the distance $x$ (unit: $\mathrm{km}$) from the warehouse to the station; the monthly inventory fee $y_2$ (unit: ten-thousand yuan) is directly proportional to $x$; if the warehouse is built at a distance of $10\ \mathrm{km}$ from the station, then $y_1$ and $y_2$ are $2$ ten-thousand yuan and $8$ ten-thousand yuan respectively. At how many kilometers from the station should the company build the warehouse to minimize the sum of the two fees?
+
+### Solution to Problem 17
+
+According to the problem, let $y_1=\frac{k_1}{x}$ and $y_2=k_2x$. From $y_1=2$ and $y_2=8$ when $x=10$, we get $k_1=20$, $k_2=0.8$, so $y_1=\frac{20}{x}$, $y_2=0.8x$.
+
+The sum of the two fees is
+
+$$
+y_1+y_2=\frac{20}{x}+0.8x.
+$$
+
+By **Theorem 2.2.1 (Basic Inequality)**,
+
+$$
+\frac{20}{x}+0.8x\ge2\sqrt{\frac{20}{x}\cdot0.8x}=8,
+$$
+
+with equality holding if and only if $\frac{20}{x}=0.8x$, i.e. $x=5$. Thus when the warehouse is built at a distance of $5\ \mathrm{km}$ from the station, the sum of the two fees is minimized. $\blacksquare$
+
+## Problem 18
+
+(Exercise 2.2, Extension and Exploration, Problem 7) A shop uses a balance with unequal arms to weigh gold. A customer comes to the shop to buy $10\ \mathrm g$ of gold. The salesperson first places a $5\ \mathrm g$ weight on the left pan, takes out some gold and places it on the right pan to balance the scale; then places the $5\ \mathrm g$ weight on the right pan, takes out some more gold and places it on the left pan to balance the scale; finally hands the gold from the two weighings to the customer. Do you think the gold the customer receives is less than $10\ \mathrm g$, equal to $10\ \mathrm g$, or greater than $10\ \mathrm g$? Why?
+
+### Solution to Problem 18
+
+By **Theorem 2.2.1 (Basic Inequality)**, let the two arms of the balance have lengths $l_1$, $l_2$.
+
+First weighing: the $5\ \mathrm g$ weight is on the left pan and gold $x$ is on the right pan in balance: $5l_1=xl_2$, so $x=\frac{5l_1}{l_2}$.
+
+Second weighing: the $5\ \mathrm g$ weight is on the right pan and gold $y$ is on the left pan in balance: $yl_1=5l_2$, so $y=\frac{5l_2}{l_1}$.
+
+The total gold obtained in the two weighings is
+
+$$
+x+y=5\left(\frac{l_1}{l_2}+\frac{l_2}{l_1}\right)\ge5\cdot2\sqrt{\frac{l_1}{l_2}\cdot\frac{l_2}{l_1}}=10.
+$$
+
+Since the two arms are unequal $l_1\neq l_2$, equality does not hold, so $x+y> 10$. The gold the customer receives is greater than $10\ \mathrm g$. $\blacksquare$
+
+## Problem 19
+
+(Exercise 2.2, Extension and Exploration, Problem 8) Let the rectangle $ABCD$ ($AB> AD$) have perimeter $24\ \mathrm{cm}$. Fold $\triangle ABC$ along $AC$ toward $\triangle ADC$; after $AB$ is folded over, it intersects $DC$ at the point $P$. Let $AB=x\ \mathrm{cm}$. Find the maximum area of $\triangle ADP$ and the corresponding value of $x$.
+
+### Solution to Problem 19
+
+By **Standard Conclusion 2.2.2** (Fixed Product Gives Minimum Sum, Fixed Sum Gives Maximum Product), first express the area of $\triangle ADP$ as a function of $x$, and then find its maximum.
+
+From the perimeter $2\left(x+AD\right)=24$, we get $AD=12-x$. After folding, the ray along $AB$ intersects $DC$ at $P$. From $AB\parallel DC$ and the fact that angles are unchanged before and after folding, we get $\angle PAC=\angle PCA$, so $PA=PC$.
+
+Let $DP=t$, then $PC=x-t=PA$. In the right triangle $ADP$, by the Pythagorean theorem, $t^2+AD^2=PA^2$, i.e.
+
+$$
+t^2+\left(12-x\right)^2=\left(x-t\right)^2.
+$$
+
+Expanding and solving gives $t=\frac{x^2-\left(12-x\right)^2}{2x}=\frac{12x-72}{x}$. Thus the area of $\triangle ADP$ is
+
+$$
+S=\frac{1}{2}\cdot AD\cdot t=\frac{1}{2}\left(12-x\right)\cdot\frac{12x-72}{x}=\frac{6\left(12-x\right)\left(x-6\right)}{x}=6\left(18-x-\frac{72}{x}\right).
+$$
+
+By **Theorem 2.2.1 (Basic Inequality)**, $x+\frac{72}{x}\ge2\sqrt{72}=12\sqrt2$, with equality holding if and only if $x=\frac{72}{x}$, i.e. $x=6\sqrt2$. Then $AD=12-6\sqrt2> 0$ and $AB> AD$, which is consistent with the problem.
+
+Thus when $x=6\sqrt2\ \mathrm{cm}$, the area of $\triangle ADP$ is maximized, with maximum value $6\left(18-12\sqrt2\right)=108-72\sqrt2\ \mathrm{cm}^2$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 2.3, Problem 1) Find the solution sets of the following inequalities.
+
+(1) $\left(x+2\right)\left(x-3\right)> 0$;
+
+(2) $3x^2-7x\le10$;
+
+(3) $-x^2+4x-4< 0$;
+
+(4) $x^2-x+\frac{1}{4}< 0$;
+
+(5) $-2x^2+x\le-3$;
+
+(6) $x^2-3x+4> 0$.
+
+### Solution to Exercise 10
+
+By **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), first find the roots of the corresponding equation, and then write the solution set according to the position of the graph.
+
+(1) The roots of the equation $\left(x+2\right)\left(x-3\right)=0$ are $x=-2,3$, and the quadratic coefficient is positive, so the solution set is $\left\{x\mid x< -2$ or $x> 3\right\}$.
+
+(2) Rearranging gives $3x^2-7x-10\le0$. The roots of the equation $3x^2-7x-10=0$ are $x=-1,\frac{10}{3}$, so the solution set is $\left\{x\mid-1\le x\le\frac{10}{3}\right\}$.
+
+(3) Multiplying both sides by $-1$ gives $x^2-4x+4> 0$, i.e. $\left(x-2\right)^2> 0$, so the solution set is $\left\{x\mid x\neq2\right\}$.
+
+(4) $x^2-x+\frac{1}{4}=\left(x-\frac{1}{2}\right)^2\ge0$ always holds, and $\left(x-\frac{1}{2}\right)^2< 0$ has no solution, so the solution set is $\varnothing$.
+
+(5) Rearranging gives $2x^2-x-3\ge0$. The roots of the equation $2x^2-x-3=0$ are $x=-1,\frac{3}{2}$, so the solution set is $\left\{x\mid x\le-1$ or $x\ge\frac{3}{2}\right\}$.
+
+(6) $\Delta=9-16=-7< 0$, and the quadratic coefficient is positive; by **Standard Conclusion 2.3.3** (Solution Set of a Quadratic Inequality), the solution set is $\mathbb R$. $\blacksquare$

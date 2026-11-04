@@ -1,395 +1,403 @@
 # week6
-
-## Exercise 1
-
-(Exercise 2.1, Problem 1) Express the following order relations using inequalities or systems of inequalities.
-
-(1) A certain highway stipulates that the total height $h$ (unit: $\mathrm m$) of a vehicle and its cargo, measured from the ground, must not exceed $4\ \mathrm m$;
-
-(2) the sum of $a$ and $b$ is a nonnegative real number;
-
-(3) as shown in the figure, a warehouse is built at the center of a rectangular site with area less than $350\ \mathrm m^2$, and green space is built around the warehouse. The length $L$ (unit: $\mathrm m$) of the warehouse is greater than $4$ times its width $W$ (unit: $\mathrm m$).
-
-(Figure: a large rectangle representing the site, with a small rectangle in the center representing the warehouse; a uniform strip of green space surrounds the warehouse; the small rectangle is labeled length $L$ horizontally and width $W$ vertically, and the green strip is labeled $5\,\mathrm m$ wide.)
-
-### Solution to Exercise 1
-
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), write down the restrictions in the problem directly as inequalities.
-
-(1) The total height $h$ must not exceed $4\ \mathrm m$, i.e. $h$ is not greater than $4$, so $h\le4$.
-
-(2) The sum of $a$ and $b$ is a nonnegative real number, i.e. $a+b$ is greater than or equal to $0$, so $a+b\ge0$.
-
-(3) The green space is $5\ \mathrm m$ wide around the warehouse, so the site has length $L+10$ and width $W+10$. The site area is less than $350\ \mathrm m^2$, i.e. $\left(L+10\right)\left(W+10\right)< 350$; the length $L$ of the warehouse is greater than $4$ times its width $W$, i.e. $L> 4W$. Thus the required system of inequalities is
-
-$$
-\left\{\begin{array}{l}\left(L+10\right)\left(W+10\right)< 350,\\L> 4W.\end{array}\right.
-$$
-
-$\blacksquare$
-
-## Exercise 2
-
-(Exercise 2.1, Problem 2) Compare $\left(x+3\right)\left(x+7\right)$ and $\left(x+4\right)\left(x+6\right)$.
-
-### Solution to Exercise 2
-
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), to compare two algebraic expressions it suffices to examine whether their difference is greater than or less than $0$.
-
-Taking the difference, we get
-
-$$
-\left(x+3\right)\left(x+7\right)-\left(x+4\right)\left(x+6\right)=\left(x^2+10x+21\right)-\left(x^2+10x+24\right)=-3< 0.
-$$
-
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $\left(x+3\right)\left(x+7\right)< \left(x+4\right)\left(x+6\right)$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 2.1, Problem 3) Given $a> b$, prove that $a> \frac{a+b}{2}> b$.
-
-### Solution to Exercise 3
-
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), prove both inequalities simultaneously by taking differences.
-
-Since $a> b$, we have $a-b> 0$.
-
-First compare $a$ and $\frac{a+b}{2}$:
-
-$$
-a-\frac{a+b}{2}=\frac{a-b}{2}> 0,
-$$
-
-so $a> \frac{a+b}{2}$.
-
-Then compare $\frac{a+b}{2}$ and $b$:
-
-$$
-\frac{a+b}{2}-b=\frac{a-b}{2}> 0,
-$$
-
-so $\frac{a+b}{2}> b$.
-
-In summary, $a> \frac{a+b}{2}> b$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 2.1, Problem 4) Prove inequality Properties 1, 3, 4, and 6.
-
-### Solution to Exercise 4
-
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate the inequality relations into the sign of a difference from $0$ and prove them.
-
-Proof of **Property 2.1.3** (Symmetry): If $a> b$, then $a-b> 0$, and hence $-\left(a-b\right)=b-a< 0$, so $b< a$. Similarly, if $b< a$, then $b-a< 0$, and hence $a-b> 0$, so $a> b$. Namely, $a> b\Leftrightarrow b< a$.
-
-Proof of **Property 2.1.5** (Additivity): If $a> b$, then
-
-$$
-\left(a+c\right)-\left(b+c\right)=a-b> 0,
-$$
-
-so $a+c> b+c$.
-
-Proof of **Property 2.1.6** (Multiplicativity): If $a> b$, then $a-b> 0$. When $c> 0$,
-
-$$
-ac-bc=c\left(a-b\right)> 0,
-$$
-
-so $ac> bc$; when $c< 0$, $c\left(a-b\right)< 0$, i.e. $ac-bc< 0$, so $ac< bc$.
-
-Proof of **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms): If $a> b> 0$ and $c> 0$, then by **Property 2.1.6** (Multiplicativity) we get $ac> bc$; also $c> d> 0$ and $b> 0$, and again by **Property 2.1.6** (Multiplicativity) we get $bc> bd$. By **Property 2.1.4** (Transitivity), $ac> bc> bd$, so $ac> bd$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 2.1, Problem 5) Fill in the blanks with the inequality sign "$> $" or "$< $".
-
-(1) If $a> b$ and $c< d$, then $a-c\;\_\_\;b-d$;
-
-(2) if $a> b> 0$ and $c< d< 0$, then $ac\;\_\_\;bd$;
-
-(3) if $a> b> 0$, then $\frac{1}{a^2}\;\_\_\;\frac{1}{b^2}$;
-
-(4) if $a> b> c> 0$, then $\frac{c}{a}\;\_\_\;\frac{c}{b}$.
-
-### Solution to Exercise 5
-
-By **Property 2.1.6** (Multiplicativity), **Property 2.1.7** (Adding Inequalities in the Same Direction), **Property 2.1.9** (Powers), and **Basic Fact 2.1.1** (Order Relations Among Real Numbers), judge each item.
-
-(1) Multiplying both sides of $c< d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d$. Also $a> b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)> b+\left(-d\right)$, i.e. $a-c> b-d$. So fill in $> $.
-
-(2) Multiplying both sides of $c< d< 0$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d> 0$. Also $a> b> 0$, and by **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) we get $a\left(-c\right)> b\left(-d\right)$, i.e. $-ac> -bd$; multiplying both sides by $-1$ gives $ac< bd$. So fill in $< $.
-
-(3) From $a> b> 0$, by **Property 2.1.9** (Powers) we get $a^2> b^2> 0$. Taking reciprocals of positive numbers reverses the inequality sign (i.e. from $a^2> b^2> 0$ we get $\frac{1}{a^2}< \frac{1}{b^2}$), so fill in $< $.
-
-(4) From $a> b> 0$ we get $ab> 0$, so $\frac{1}{ab}> 0$. Multiplying both sides of $a> b$ by $\frac{1}{ab}$, by **Property 2.1.6** (Multiplicativity) we get $\frac{a}{ab}> \frac{b}{ab}$, i.e. $\frac{1}{b}> \frac{1}{a}$, equivalently $\frac{1}{a}< \frac{1}{b}$. Also $c> 0$, and multiplying both sides by the positive number $c$ does not change the direction, giving $\frac{c}{a}< \frac{c}{b}$, so fill in $< $.
-
-$\blacksquare$
+> **Definition 3.1.1 (Function)**
+> 
+> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> **Definition 3.1.2 (Domain and Range)**
+> 
+> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+> **Definition 3.1.5 (Piecewise Function)**
+> 
+> 在函数的定义域内, 对于自变量 $x$ 的不同取值范围, 有着不同的对应关系, 这样的函数通常叫做分段函数.
+> **Definition 3.1.6 (Representation of Functions)**
+> 
+> 函数的常用表示方法有解析法,列表法和图象法.
+> **Definition 3.2.1 (Monotonically Increasing)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+> **Definition 3.2.2 (Monotonically Decreasing)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+> **Definition 3.2.3 (Maximum Value)**
+> 
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+> **Definition 3.2.4 (Minimum Value)**
+> 
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
+> **Definition 3.2.5 (Even Function)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+> **Definition 3.2.6 (Odd Function)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
 
 ## Problem 1
 
-(Exercise 2.1, Review and Consolidation, Problem 1) Give several examples of inequalities in real life.
+(Exercise 3.1, Review and Consolidation, Problem 6) If $f\left(x\right)=x^2+bx+c$, and $f\left(1\right)=0$, $f\left(3\right)=0$, find the value of $f\left(-1\right)$.
 
 ### Solution to Problem 1
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), in real life every comparison involving more and less, larger and smaller, taller and shorter, not exceeding, or not less than corresponds to an inequality.
+By **Definition 3.1.2 (Domain and Range)**, substitute the known conditions into the analytic expression to set up equations.
 
-For example:
-
-(1) A speed limit of $40\ \mathrm{km/h}$ on a certain road, i.e. the car speed $v$ satisfies $0< v\le40$;
-
-(2) a student's height $h$ is not less than $1.60\ \mathrm m$, i.e. $h\ge1.60$;
-
-(3) a class has $m$ boys and $n$ girls, and there are more boys than girls, i.e. $m> n$;
-
-(4) the capacity $V$ of a certain container is not more than $5\ \mathrm L$, i.e. $V\le5$. $\blacksquare$
+From $f\left(1\right)=1+b+c=0$ and $f\left(3\right)=9+3b+c=0$, subtracting the two equations gives $8+2b=0$, i.e. $b=-4$; substituting back gives $c=3$. Thus $f\left(x\right)=x^2-4x+3$, and hence $f\left(-1\right)=1+4+3=8$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 2.1, Review and Consolidation, Problem 2) To increase the green area of a city, the municipal ecology and environment bureau proposes two investment plans: Plan $A$ is a one-time investment of $500$ ten-thousand yuan; Plan $B$ is an investment of $100$ ten-thousand yuan in the first year and $10$ ten-thousand yuan in each subsequent year. Write an inequality expressing "after $n$ years, the investment under Plan $B$ is not less than the investment under Plan $A$".
+(Exercise 3.1, Review and Consolidation, Problem 7) Draw the graphs of the following functions:
+
+(1) $f\left(x\right)=\begin{cases}0, & x\le0,\\1, & x> 0;\end{cases}$
+
+(2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
+
+(Figure: the left graph shows the piecewise function $f\left(x\right)=0$ for $x\le0$ and $f\left(x\right)=1$ for $x> 0$, i.e. a ray on the $x$-axis for $x\le0$ and a ray on the line $y=1$ for $x> 0$; the right graph shows three isolated points $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$.)
 
 ### Solution to Problem 2
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), first write down the cumulative investment of each plan after $n$ years, and then write the inequality according to "not less than".
+By **Definition 3.1.5 (Piecewise Function)** and **Definition 3.1.6 (Ways of Representing a Function)**.
 
-Plan $A$ is a one-time investment of $500$ ten-thousand yuan, so after $n$ years the investment is $500$ ten-thousand yuan.
+(1) When $x\le0$ the function value is always $0$, and when $x> 0$ the function value is always $1$; the graph consists of two horizontal rays: on the $x$-axis when $x\le0$, and on the line $y=1$ when $x> 0$.
 
-Plan $B$ invests $100$ ten-thousand yuan in the first year and $10$ ten-thousand yuan in each subsequent year, so after $n$ years the cumulative investment is $100+10\left(n-1\right)$ ten-thousand yuan.
-
-"The investment under Plan $B$ is not less than the investment under Plan $A$", i.e. the cumulative investment under Plan $B$ is greater than or equal to the investment under Plan $A$, so the required inequality is
-
-$$
-100+10\left(n-1\right)\ge500.
-$$
-
-$\blacksquare$
+(2) The domain is the finite set $\left\{1,2,3\right\}$, $G\left(1\right)=4$, $G\left(2\right)=7$, $G\left(3\right)=10$, and the graph consists of three isolated points $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 2.1, Review and Consolidation, Problem 3) Compare the sizes of the two algebraic expressions in each of the following groups.
+(Exercise 3.1, Comprehensive Application, Problem 8) As shown in the figure, the area of a rectangle is $10$. If the length of the rectangle is $x$, the width is $y$, the diagonal is $d$, and the perimeter is $l$, what functions about these quantities can you obtain?
 
-(1) $x^2+5x+6$ and $2x^2+5x+9$;
-
-(2) $\left(x-3\right)^2$ and $\left(x-2\right)\left(x-4\right)$;
-
-(3) when $x> 1$, $x^2$ and $x^2-x+1$;
-
-(4) $x^2+y^2+1$ and $2\left(x+y-1\right)$.
+(Figure: a rectangle with horizontal side labeled length $x$, vertical side labeled width $y$, one diagonal labeled $d$, and perimeter labeled $l$.)
 
 ### Solution to Problem 3
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), take the difference of the two expressions in each group and determine whether the difference is greater than or less than $0$.
+By **Definition 3.1.1 (Function)** and the geometric properties of a rectangle, there are determined correspondences among the quantities.
 
-(1) $\left(x^2+5x+6\right)-\left(2x^2+5x+9\right)=-x^2-3=-\left(x^2+3\right)< 0$, so $x^2+5x+6< 2x^2+5x+9$.
+From the area $xy=10$, we get $y=\frac{10}{x}$ $\left(x> 0\right)$.
 
-(2) $\left(x-3\right)^2-\left(x-2\right)\left(x-4\right)=\left(x^2-6x+9\right)-\left(x^2-6x+8\right)=1> 0$, so $\left(x-3\right)^2> \left(x-2\right)\left(x-4\right)$.
+By the Pythagorean theorem, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x> 0\right)$.
 
-(3) When $x> 1$, $x^2-\left(x^2-x+1\right)=x-1> 0$, so $x^2> x^2-x+1$.
-
-(4)
-
-$$
-\left(x^2+y^2+1\right)-2\left(x+y-1\right)=x^2+y^2-2x-2y+3=\left(x-1\right)^2+\left(y-1\right)^2+1> 0,
-$$
-
-so $x^2+y^2+1> 2\left(x+y-1\right)$. $\blacksquare$
+From the perimeter formula, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x> 0\right)$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 2.1, Review and Consolidation, Problem 4) A two-digit number is greater than $50$ and less than $60$, and its units digit is $2$ greater than its tens digit. Express the above relation using inequalities, and find this two-digit number (let $a$ and $b$ denote the tens digit and the units digit respectively).
+(Exercise 3.1, Comprehensive Application, Problem 9) The bottom diameter of a cylindrical container is $d\ \text{cm}$ and the height is $h\ \text{cm}$. Now a certain solution is poured into the container at a rate of $v\ \text{cm}^3$ per second. Find the analytic expression of the function relating the height $x$ (unit: $\text{cm}$) of the solution in the container to the time $t$ (unit: $\text{s}$) of pouring, and write the domain and range of the function.
 
 ### Solution to Problem 4
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), write the inequalities according to the problem, and then determine $a,b$ from the possible values of the digits.
+By **Definition 3.1.1 (Function)**, the volume of the solution increases linearly with time, and the height is obtained by dividing the volume by the base area.
 
-This two-digit number is $10a+b$. Since it is greater than $50$ and less than $60$, we have
+The base area of the cylinder is $\pi\left(\frac{d}{2}\right)^2=\frac{\pi d^2}{4}$. After $t$ seconds the volume of poured solution is $vt$, so the height $x=\frac{vt}{\pi d^2/4}=\frac{4vt}{\pi d^2}$.
 
-$$
-50< 10a+b< 60.
-$$
-
-Since the units digit is $2$ greater than the tens digit, we have
-
-$$
-b=a+2.
-$$
-
-Since $a,b$ are both digits and $50< 10a+b< 60$, the tens digit $a$ must be $5$. Substituting into $b=a+2$, we get $b=7$. Thus the required two-digit number is $57$. $\blacksquare$
+The height of the solution does not exceed the container height $h$, i.e. $0\le x\le h$, corresponding to $0\le t\le\frac{\pi d^2 h}{4v}$. The domain is $\left[0,\frac{\pi d^2 h}{4v}\right]$ and the range is $\left[0,h\right]$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 2.1, Review and Consolidation, Problem 5) Given $2< a< 3$ and $-2< b< -1$, find the range of $2a+b$.
+(Exercise 3.1, Comprehensive Application, Problem 10) A teacher grades math homework on a $5$-point scale. In one assignment, the students in the first group, in the order of their seat numbers $1,2,3,4,5,6$, scored $5,3,4,2,4,5$ in turn. How would you represent the scores of this assignment? Let $x,y$ denote the seat number and the corresponding score respectively. Is $y$ a function of $x$? If so, what are its domain, range, and correspondence?
 
 ### Solution to Problem 5
 
-By **Property 2.1.6** (Multiplicativity), first multiply the range of $a$ by a factor, and then by **Property 2.1.7** (Adding Inequalities in the Same Direction) add the range of $b$.
+By **Definition 3.1.1 (Function)** and **Definition 3.1.6 (Ways of Representing a Function)**, the tabular method can represent discrete functions.
 
-From $2< a< 3$, multiplying both sides by $2$, we get $4< 2a< 6$.
+Represent it by the tabular method: the seat numbers $x$ are $1,2,3,4,5,6$, and the corresponding scores $y$ are $5,3,4,2,4,5$.
 
-Also $-2< b< -1$. Adding the two inequalities in the same direction, we get
-
-$$
-4+\left(-2\right)< 2a+b< 6+\left(-1\right),
-$$
-
-i.e. $2< 2a+b< 5$. Thus the range of $2a+b$ is $\left\{x\mid2< x< 5\right\}$. $\blacksquare$
+For each $x\in\left\{1,2,3,4,5,6\right\}$, there is a unique determined $y$ corresponding to it, so $y$ is a function of $x$. The domain is $\left\{1,2,3,4,5,6\right\}$, the range is $\left\{2,3,4,5\right\}$, and the correspondence is $1\mapsto5$, $2\mapsto3$, $3\mapsto4$, $4\mapsto2$, $5\mapsto4$, $6\mapsto5$. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 2.1, Review and Consolidation, Problem 6) Prove that $c< b$, $b< a\Rightarrow c< a$.
+(Exercise 3.1, Comprehensive Application, Problem 11) The graph of the function $r=f\left(p\right)$ is shown in the figure.
+
+(1) What are the domain and range of the function $r=f\left(p\right)$?
+
+(2) For what values of $r$ is there only a unique value of $p$ corresponding to it?
+
+(Figure: a $p$-$r$ coordinate system; the left segment $p\in\left[-5,0\right]$ shows a curve rising from $\left(-5,2\right)$ to $\left(0,5\right)$; the right segment $p\in\left[2,6\right)$ shows a curve rising from $\left(2,0\right)$ and gradually approaching a horizontal dashed line $m$.)
 
 ### Solution to Problem 6
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate $c< a$ into $c-a< 0$ and prove it.
+By **Definition 3.1.2 (Domain and Range)**, read the ranges of the independent variable and the function values from the graph.
 
-Since $c< b$, we have $c-b< 0$; since $b< a$, we have $b-a< 0$. Adding the two inequalities, we get
+(1) The graph consists of two parts: the left part $p\in\left[-5,0\right]$, where the curve rises from $r=2$ to $r=5$; the right part $p\in\left[2,6\right]$, where the curve rises from $r=0$ and is asymptotic to the line $m$ (dashed). Thus the domain is $\left[-5,0\right]\cup\left[2,6\right)$. The left part has $r\in\left[2,5\right]$ and the right part has $r\in\left[0,+\infty\right)$, so the range is $\left[0,+\infty\right)$.
 
-$$
-c-a=\left(c-b\right)+\left(b-a\right)< 0.
-$$
-
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $c< a$. This is precisely **Property 2.1.4** (Transitivity). $\blacksquare$
+(2) When $r\in\left[0,2\right)$, only the right part of the curve corresponds to it, so there is only a unique value of $p$; when $r\in\left[2,5\right]$, each of the left and right parts has a value of $p$; when $r> 5$, only the right part of the curve. Thus when $r\in\left[0,2\right)$ or $r> 5$, there is only a unique value of $p$ corresponding to it. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 2.1, Comprehensive Application, Problem 7) Given $a> b> 0$, $c< d< 0$, and $e< 0$, prove that $\frac{e}{a-c}> \frac{e}{b-d}$.
+(Exercise 3.1, Comprehensive Application, Problem 12) Draw the graph of a function with domain $\left\{x\mid-3\le x\le8,\text{ 且 }x\ne5\right\}$ and range $\left\{y\mid-1\le y\le2,\ y\ne0\right\}$.
+
+(1) Compare your graph with those of other students; is there any difference?
+
+(2) If the coordinates of a point $P\left(x,y\right)$ in the rectangular coordinate system satisfy $-3\le x\le8$, $-1\le y\le2$, which of these points cannot be on the graph?
+
+(Figure: a sample function graph in the coordinate system: a horizontal segment $y=1$ for $-3\le x< 5$, and a horizontal segment $y=-1$ for $5< x\le8$, disconnected at $x=5$.)
 
 ### Solution to Problem 7
 
-By **Property 2.1.7** (Adding Inequalities in the Same Direction), first compare $a-c$ and $b-d$, and then by **Basic Fact 2.1.1** (Order Relations Among Real Numbers) take reciprocals and multiply by the negative number $e$.
+By **Definition 3.1.1 (Function)** and **Definition 3.1.2 (Domain and Range)**, each $x$ on the graph can correspond to only a unique $y$.
 
-Multiplying both sides of $c< d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d$. Also $a> b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)> b+\left(-d\right)$, i.e.
+One can construct a function: when $-3\le x< 5$ take $y=1$, and when $5< x\le8$ take $y=-1$; the graph consists of two horizontal segments, broken at $x=5$.
 
-$$
-a-c> b-d.
-$$
+(1) Different students construct different functions, so the graphs are naturally different.
 
-Also $a> 0$ and $-c> 0$, so $a-c=a+\left(-c\right)> 0$; similarly $b-d> 0$, and hence
-
-$$
-0< b-d< a-c.
-$$
-
-Taking reciprocals of positive numbers reverses the inequality sign, giving $\frac{1}{a-c}< \frac{1}{b-d}$. Multiplying both sides by the negative number $e< 0$, by **Property 2.1.6** (Multiplicativity), the inequality sign reverses again, giving
-
-$$
-\frac{e}{a-c}> \frac{e}{b-d}.
-$$
-
-$\blacksquare$
+(2) From the domain, the point corresponding to $x=5$ cannot be on the graph; from the range, the point corresponding to $y=0$ cannot be on the graph. Thus the points that cannot be on the graph are $\left(5,y\right)$ ($-1\le y\le2$) and $\left(x,0\right)$ ($-3\le x\le8$). $\blacksquare$
 
 ## Problem 8
 
-(Exercise 2.1, Comprehensive Application, Problem 8) Which of the following propositions is true?
+(Exercise 3.1, Extension and Exploration, Problem 13) The function value of the function $f\left(x\right)=\left[x\right]$ denotes the greatest integer not exceeding $x$, for example $\left[-3.5\right]=-4$, $\left[2.1\right]=2$. When $x\in\left(-2.5,3\right]$, write the analytic expression of the function $f\left(x\right)$ and draw its graph.
 
-($A$) If $a> b> 0$, then $ac^2> bc^2$;
-
-($B$) If $a> b> 0$, then $a^2> b^2$;
-
-($C$) If $a< b< 0$, then $a^2< ab< b^2$;
-
-($D$) If $a< b< 0$, then $\frac{1}{a}< \frac{1}{b}$.
+(Figure: a step graph of the floor function, with the horizontal axis from $-2.5$ to $3$ and the vertical axis showing integers; each horizontal segment is left-closed right-open, with $y=-3,-2,-1,0,1,2,3$ in order, jumping vertically to the next level at the right endpoint.)
 
 ### Solution to Problem 8
 
-By **Property 2.1.6** (Multiplicativity) and **Property 2.1.9** (Powers), judge each one.
+By **Definition 3.1.5 (Piecewise Function)**, represent it in segments according to the integer-intervals.
 
-($A$) When $c=0$, $ac^2=bc^2=0$, so $ac^2> bc^2$ does not always hold; false.
+When $x\in\left(-2.5,-2\right)$, $f\left(x\right)=-3$; when $x\in\left[-2,-1\right)$, $f\left(x\right)=-2$; when $x\in\left[-1,0\right)$, $f\left(x\right)=-1$; when $x\in\left[0,1\right)$, $f\left(x\right)=0$; when $x\in\left[1,2\right)$, $f\left(x\right)=1$; when $x\in\left[2,3\right)$, $f\left(x\right)=2$; when $x=3$, $f\left(3\right)=3$. That is,
 
-($B$) From $a> b> 0$, by **Property 2.1.9** (Powers) we get $a^2> b^2$; true.
+$$
+f\left(x\right)=\begin{cases}-3, & -2.5< x< -2,\\-2, & -2\le x< -1,\\-1, & -1\le x< 0,\\0, & 0\le x< 1,\\1, & 1\le x< 2,\\2, & 2\le x< 3,\\3, & x=3.\end{cases}
+$$
 
-($C$) Multiplying both sides of $a< b$ by the negative number $a< 0$, by **Property 2.1.6** (Multiplicativity) we get $a^2> ab$, which contradicts $a^2< ab$; false.
-
-($D$) From $a< b< 0$, taking reciprocals gives $\frac{1}{a}> \frac{1}{b}$ (for example, when $a=-3$ and $b=-1$, $\frac{1}{a}=-\frac{1}{3}> -1=\frac{1}{b}$), which contradicts $\frac{1}{a}< \frac{1}{b}$; false.
-
-Thus the true proposition is ($B$). $\blacksquare$
+The graph is step-shaped: each horizontal segment is closed on the left and open on the right, jumping to the next level at the right endpoint. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 2.1, Comprehensive Application, Problem 9) Prove that the area of a circle is greater than the area of a square with the same perimeter. Based on this, explain why people usually make the cross-section of a water pipe circular rather than square.
+(Exercise 3.1, Extension and Exploration, Problem 14) Construct a problem situation in which the variable relation can be described by the analytic expression $y=\frac{1}{2}ax^2$ ($a> 0$).
 
 ### Solution to Problem 9
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), let the common perimeter be $l$, write the areas of the circle and the square respectively, and then compare them.
+By **Definition 3.1.6 (Ways of Representing a Function)**, the analytic method corresponds to the variable relation in a practical situation.
 
-Let the perimeter of both be $l$. The side length of the square is $\frac{l}{4}$, and its area is $\left(\frac{l}{4}\right)^2=\frac{l^2}{16}$.
-
-Let the radius of the circle be $r$, then $2\pi r=l$, i.e. $r=\frac{l}{2\pi}$, and its area is $\pi r^2=\frac{l^2}{4\pi}$.
-
-Comparing the two areas:
-
-$$
-\frac{l^2}{4\pi}-\frac{l^2}{16}=l^2\left(\frac{1}{4\pi}-\frac{1}{16}\right).
-$$
-
-Since $4\pi< 16$, we have $\frac{1}{4\pi}> \frac{1}{16}$, so the above expression is positive, and the area of the circle is greater than the area of a square with the same perimeter.
-
-When the perimeters of the cross-sections are equal, the circular cross-section has the largest area. Therefore, water pipes are made circular, so that with the same material the water-passing cross-section is the largest and the flow capacity is the strongest. $\blacksquare$
+Take free-fall motion: an object falls freely from rest, and the relation between the falling distance $y$ and the time $x$ is $y=\frac{1}{2}gx^2$, where $g> 0$ is the acceleration due to gravity. In this situation, $a=g$ ($a> 0$), and the variable relation can be described by $y=\frac{1}{2}ax^2$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 2.1, Comprehensive Application, Problem 10) Given that $b$ grams of sugar water contains $a$ grams of sugar ($b> a> 0$), and then $m$ grams of sugar ($m> 0$) are added (assuming all dissolves), the sugar water becomes sweeter. Express this fact as an inequality, and prove that this inequality holds.
+(Exercise 3.1, Extension and Exploration, Problem 15) As shown in the figure, the shortest distance from a small island to a point $P$ on the coastline is $2\ \text{km}$, and $12\ \text{km}$ due east along the coastline from the point $P$ there is a town.
+
+(1) Suppose the average speed of a small boat driven by a person is $3\ \text{km/h}$ and the walking speed is $5\ \text{km/h}$; let $t$ (unit: $\text{h}$) denote the time from the island to the town, and $x$ (unit: $\text{km}$) denote the distance from point $P$ to where this person docks the boat on the shore. Express $t$ as a function of $x$.
+
+(2) If the boat is docked at a point $4\ \text{km}$ from point $P$, how long does it take from the island to the town (accurate to $0.1\ \text{h}$)?
+
+(Figure: a horizontal line representing the coastline; point $P$ is on the coastline, the island is $2\,\mathrm{km}$ due north of $P$, and the town is $12\,\mathrm{km}$ due east of $P$ on the coastline; a slanted line runs from the island to a docking point on the coastline at distance $x$ from $P$, then continues along the shore to the town.)
 
 ### Solution to Problem 10
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the sugar water becoming sweeter means the concentration becomes larger; take the difference to compare the concentrations before and after adding sugar.
+By **Definition 3.1.1 (Function)**, the total time is the sum of the time by boat and the walking time.
 
-Before adding sugar, the concentration of the sugar water is $\frac{a}{b}$; after adding sugar, the concentration is $\frac{a+m}{b+m}$. Becoming sweeter means $\frac{a+m}{b+m}> \frac{a}{b}$.
-
-Taking the difference:
+(1) The water distance from the island to the docking point is $\sqrt{2^2+x^2}=\sqrt{4+x^2}$, and the time by boat is $\frac{\sqrt{4+x^2}}{3}$; the walking distance from the docking point to the town is $12-x$, and the walking time is $\frac{12-x}{5}$. Thus
 
 $$
-\frac{a+m}{b+m}-\frac{a}{b}=\frac{b\left(a+m\right)-a\left(b+m\right)}{b\left(b+m\right)}=\frac{m\left(b-a\right)}{b\left(b+m\right)}.
+t=\frac{\sqrt{4+x^2}}{3}+\frac{12-x}{5},\quad x\in\left[0,12\right].
 $$
 
-Since $b> a> 0$ and $m> 0$, the numerator $m\left(b-a\right)> 0$ and the denominator $b\left(b+m\right)> 0$, so the difference is positive, i.e. $\frac{a+m}{b+m}> \frac{a}{b}$. Thus after adding $m$ grams of sugar the sugar water becomes sweeter. $\blacksquare$
+(2) When $x=4$, $t=\frac{\sqrt{4+16}}{3}+\frac{12-4}{5}=\frac{\sqrt{20}}{3}+\frac{8}{5}=\frac{2\sqrt5}{3}+1.6\approx1.49+1.6=3.1\ \text{h}$. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 2.1, Extension and Exploration, Problem 11) Given $a> b> 0$, prove that $\sqrt a> \sqrt b$.
+(Exercise 3.1, Extension and Exploration, Problem 16) Given the number sets $A=\mathbb R$, $B=\left(-\infty,0\right]$, the equation
+
+$$
+u^2+2v=0,
+$$
+
+(1) for any $u\in A$, the correspondence $f$ makes the solution $v$ of the equation correspond to $u$; determine whether $v=f\left(u\right)$ is a function;
+
+(2) for any $v\in B$, the correspondence $g$ makes the solution $u$ of the equation correspond to $v$; determine whether $u=g\left(v\right)$ is a function.
 
 ### Solution to Problem 11
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), compare the difference between $\sqrt a$ and $\sqrt b$.
+By **Definition 3.1.1 (Function)**, for each element in the domain there must be a unique determined element in the range corresponding to it.
 
-Since $a> b> 0$, we have $\sqrt a> 0$, $\sqrt b> 0$, and $\sqrt a+\sqrt b> 0$. Also,
+(1) For any $u\in\mathbb R$, from $u^2+2v=0$ we get $v=-\frac{u^2}{2}$; $v$ is uniquely determined and $v\le0\in B$, so $v=f\left(u\right)$ is a function.
 
-$$
-a-b=\left(\sqrt a\right)^2-\left(\sqrt b\right)^2=\left(\sqrt a-\sqrt b\right)\left(\sqrt a+\sqrt b\right).
-$$
-
-From $a> b$ we know $a-b> 0$, while $\sqrt a+\sqrt b> 0$, so $\sqrt a-\sqrt b> 0$, i.e. $\sqrt a> \sqrt b$. $\blacksquare$
+(2) For any $v\in\left(-\infty,0\right]$, from $u^2=-2v$, when $v< 0$, $u=\pm\sqrt{-2v}$ has two values, not unique; when $v=0$, $u=0$ is unique. Since there exists a $v$ corresponding to two values of $u$, $u=g\left(v\right)$ is not a function. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 2.1, Extension and Exploration, Problem 12) At a railway station, a company has $1530\ \mathrm t$ of type-A cargo and $1150\ \mathrm t$ of type-B cargo waiting to be shipped. It is planned to use a total of $50$ freight carriages of types $A$ and $B$ to transport this batch of cargo. It is known that $35\ \mathrm t$ of type-A cargo and $15\ \mathrm t$ of type-B cargo can fill one type-$A$ freight carriage, and $25\ \mathrm t$ of type-A cargo and $35\ \mathrm t$ of type-B cargo can fill one type-$B$ freight carriage. Based on this, arrange the numbers of type-$A$ and type-$B$ freight carriages. How many plans are there? If the freight cost per type-$A$ freight carriage is $0.5$ ten-thousand yuan and per type-$B$ freight carriage is $0.8$ ten-thousand yuan, which plan has the lower freight cost?
+(Exercise 3.1, Extension and Exploration, Problem 17) Investigate whether there exist functions $f\left(x\right)$ and $g\left(x\right)$ satisfying the conditions:
+
+(1) the same domain and the same range, but different correspondences;
+
+(2) the same range and the same correspondence, but different domains.
 
 ### Solution to Problem 12
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), let there be $x$ type-$A$ freight carriages, then there are $\left(50-x\right)$ type-$B$ freight carriages; write the system of inequalities according to the loading amounts of the two kinds of cargo.
+By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), construct counterexamples separately.
 
-According to the problem, the type-A cargo satisfies
+(1) Take $f\left(x\right)=x$, $x\in\left[0,1\right]$, with range $\left[0,1\right]$; take $g\left(x\right)=x^2$, $x\in\left[0,1\right]$, with range $\left[0,1\right]$. The two both have domain $\left[0,1\right]$ and range $\left[0,1\right]$, but different correspondences, so such functions exist.
+
+(2) Take $f\left(x\right)=x$, $x\in\left[0,1\right]$, with range $\left[0,1\right]$; take $g\left(x\right)=x$, $x\in\left[0,2\right]$, with range $\left[0,2\right]$. This example has different ranges. Instead take $f\left(x\right)=x^2$, $x\in\left[0,1\right]$, with range $\left[0,1\right]$; take $g\left(x\right)=x^2$, $x\in\left[-1,1\right]$, with range $\left[0,1\right]$. The two have the same correspondence ($x\mapsto x^2$) and both have range $\left[0,1\right]$, but different domains ($\left[0,1\right]$ and $\left[-1,1\right]$), so such functions exist. $\blacksquare$
+
+## Problem 13
+
+(Exercise 3.1, Extension and Exploration, Problem 18) In a variety show showcasing human intelligence, a participating teenager can accurately memorize the value of pi $\pi$ to $200$ decimal places; more amazingly, when the host says a decimal place, the teenager can accurately state the digit at that position. If the digit at the $n$-th decimal place of pi $\pi$ is denoted by $y$, do you think $y$ is a function of $n$? If so, write its domain, range, and correspondence; if not, explain why.
+
+### Solution to Problem 13
+
+By **Definition 3.1.1 (Function)**, each $n$ corresponds to a unique $y$.
+
+For each $n\in\left\{1,2,\cdots,200\right\}$, the digit $y$ at the $n$-th decimal place of pi $\pi$ is uniquely determined, so $y$ is a function of $n$. The domain is $\left\{1,2,\cdots,200\right\}$, the range is $\left\{0,1,2,\cdots,9\right\}$, the correspondence is $n\mapsto\pi$, i.e. the digit at the $n$-th decimal place. $\blacksquare$
+
+## Reading and Thinking 1
+
+(Reading and Thinking: The Development of the Concept of Function) Can you, against the background of the development of the concept of function, talk about your experience in learning the concept of function from junior high school to senior high school?
+
+### Solution to Reading and Thinking 1
+
+By **Definition 3.1.1 (Function)**, the senior high school concept of function is characterized in set language and correspondence, which is more precise than the junior high school definition based on variable relations.
+
+When learning functions in junior high school, we started from the "dependency relation between two variables" and understood a function as one variable changing as the other changes. This understanding is intuitive and easy to grasp, but the statement of "change" is rather vague and makes it difficult to handle functions that are discontinuous or cannot be represented by an analytic expression.
+
+In the senior high school stage, we define a function by the correspondence $f$ between nonempty sets of real numbers $A,B$, clarifying the three constituent elements: the domain, the correspondence, and the range. This definition does not rely on the intuition of "change"; it suffices that for each $x$ in $A$ there is a unique determined $y$ in $B$ corresponding to it, regardless of whether the correspondence is an analytic expression, a graph, or a table. The Dirichlet function (taking $1$ for rational numbers and $0$ for irrational numbers) is a typical example.
+
+From Leibniz to Euler and then to Dirichlet, the concept of function underwent a development from geometric quantities, to analytic expressions, to arbitrary correspondences. Our learning process from junior high school to senior high school is precisely a microcosm of this historical development: from intuition to abstraction, from vagueness to precision. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 3.2, Problem 1) Based on the following figure, describe the relation between the production efficiency of an assembly line and the number of workers on the line.
+
+(Figure: a coordinate system with number of workers on the horizontal axis and production efficiency on the vertical axis; a single-peaked curve first rises to a peak then falls, forming an inverted U shape.)
+
+### Solution to Exercise 1
+
+By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**, judge the trend of change from the slope of the graph.
+
+The production efficiency first rises as the number of workers increases, reaches a peak, and then declines. That is, when the number of workers is small, the production efficiency increases monotonically as the number of workers increases; when the number of workers exceeds a certain value, the production efficiency decreases monotonically as the number of workers increases. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 3.2, Problem 2) According to the definition, prove that the function $f\left(x\right)=3x+2$ is an increasing function.
+
+### Solution to Exercise 2
+
+By **Definition 3.2.1 (Monotone Increasing and Increasing Function)**, take any $x_1< x_2$ and prove $f\left(x_1\right)< f\left(x_2\right)$.
+
+For $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have
 
 $$
-35x+25\left(50-x\right)\ge1530,
+f\left(x_1\right)-f\left(x_2\right)=\left(3x_1+2\right)-\left(3x_2+2\right)=3\left(x_1-x_2\right).
 $$
 
-and the type-B cargo satisfies
+From $x_1< x_2$, we get $x_1-x_2< 0$, and since $3> 0$, we have $3\left(x_1-x_2\right)< 0$, i.e. $f\left(x_1\right)-f\left(x_2\right)< 0$, equivalently $f\left(x_1\right)< f\left(x_2\right)$. Thus $f\left(x\right)=3x+2$ is an increasing function. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 3.2, Problem 3) Prove that the function $f\left(x\right)=-\frac{2}{x}$ is monotonically increasing on the interval $\left(-\infty,0\right)$.
+
+### Solution to Exercise 3
+
+By **Definition 3.2.1 (Monotone Increasing and Increasing Function)**, take any $x_1< x_2< 0$ and prove $f\left(x_1\right)< f\left(x_2\right)$.
+
+For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2$, we have
 
 $$
-15x+35\left(50-x\right)\ge1150.
+f\left(x_1\right)-f\left(x_2\right)=-\frac{2}{x_1}-\left(-\frac{2}{x_2}\right)=\frac{2}{x_2}-\frac{2}{x_1}=\frac{2\left(x_1-x_2\right)}{x_1x_2}.
 $$
 
-Simplifying the first inequality: $10x+1250\ge1530$, i.e. $x\ge28$.
+From $x_1< x_2< 0$, we get $x_1-x_2< 0$ and $x_1x_2> 0$, and since $2> 0$, we have $\frac{2\left(x_1-x_2\right)}{x_1x_2}< 0$, i.e. $f\left(x_1\right)-f\left(x_2\right)< 0$, equivalently $f\left(x_1\right)< f\left(x_2\right)$. Thus $f\left(x\right)=-\frac{2}{x}$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
 
-Simplifying the second inequality: $1750-20x\ge1150$, i.e. $x\le30$.
+## Exercise 4
 
-Thus $28\le x\le30$. Also $x$ is a nonnegative integer, so $x=28,29,30$, giving $3$ plans in total.
+(Exercise 3.2, Problem 4) Draw the graph of the inverse proportional function $y=\frac{k}{x}$.
 
-The total freight cost is
+(1) What is the domain $D$ of this function?
 
-$$
-0.5x+0.8\left(50-x\right)=40-0.3x.
-$$
+(2) What is its monotonicity on the domain $D$? Prove your conclusion.
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the larger $x$ is, the lower the freight cost. Thus take $x=30$, then $50-x=20$, and the freight cost is $40-0.3\times30=31$ ten-thousand yuan, which is the minimum. $\blacksquare$
+(Figure: a coordinate system showing the hyperbola $y=k/x$, with two branches in quadrants I and III, asymptotic to both axes.)
+
+### Solution to Exercise 4
+
+By **Definition 3.1.2 (Domain and Range)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**.
+
+(1) The fraction $\frac{k}{x}$ requires $x\ne0$, so the domain is $D=\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
+
+(2) When $k> 0$, the graph lies in the first and third quadrants: it is monotonically decreasing on $\left(-\infty,0\right)$ and also monotonically decreasing on $\left(0,+\infty\right)$. Proof: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{k}{x_1}-\frac{k}{x_2}=\frac{k\left(x_2-x_1\right)}{x_1x_2}> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically decreasing. Similarly it is monotonically decreasing on $\left(-\infty,0\right)$. When $k< 0$, the graph lies in the second and fourth quadrants, and it is monotonically increasing on both intervals. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 3.2, Problem 5) Throughout the morning ($8{:}00\sim12{:}00$) the weather became warmer and warmer, and at noon ($12{:}00\sim13{:}00$) a storm suddenly made the weather much cooler. After the storm, the weather warmed up again, and it did not start to cool down again until sunset ($18{:}00$). Draw a possible graph (schematic) of the temperature as a function of time during $8{:}00\sim20{:}00$ on this day, and state the monotonic intervals of the drawn function.
+
+(Figure: a temperature-time coordinate system, horizontal axis from $8{:}00$ to $20{:}00$, vertical axis for temperature; the curve first rises, drops sharply around $12{:}00$, then rises again until $18{:}00$, and finally falls.)
+
+### Solution to Exercise 5
+
+By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**, divide the trends of change according to the problem.
+
+From $8{:}00\sim12{:}00$ the temperature rises, monotonically increasing; from $12{:}00\sim13{:}00$ the temperature drops sharply, monotonically decreasing; from $13{:}00\sim18{:}00$ the temperature recovers, monotonically increasing; from $18{:}00\sim20{:}00$ the temperature cools down, monotonically decreasing. Thus the monotonically increasing intervals are $\left[8,12\right]$ and $\left[13,18\right]$, and the monotonically decreasing intervals are $\left[12,13\right]$ and $\left[18,20\right]$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 3.2, Problem 6) Let the domain of the function $f\left(x\right)$ be $\left[-6,11\right]$. If $f\left(x\right)$ is monotonically decreasing on the interval $\left[-6,-2\right]$ and monotonically increasing on the interval $\left[-2,11\right]$, draw a rough graph of $f\left(x\right)$. From the graph one can find that $f\left(-2\right)$ is a $\;\_\_\;$ of the function $f\left(x\right)$.
+
+(Figure: a curve in the coordinate system with its lowest point at $x=-2$, decreasing on the left and increasing on the right, forming an upward-opening V or parabola shape.)
+
+### Solution to Exercise 6
+
+By **Definition 3.2.4 (Minimum Value)**, the function decreases on the left and increases on the right at $x=-2$, so $f\left(-2\right)$ is the minimum value of the function.
+
+The graph is V-shaped or parabolic opening upward, attaining the lowest point at $x=-2$. Thus $f\left(-2\right)$ is a $\;\_\_\;$ (minimum value) of the function $f\left(x\right)$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 3.2, Problem 7) Given the function $f\left(x\right)=\frac{1}{x}$, find the maximum and minimum values of the function on the interval $\left[2,6\right]$.
+
+### Solution to Exercise 7
+
+By **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)** and **Definition 3.2.3 (Maximum Value)**, first determine the monotonicity and then evaluate at the endpoints.
+
+By Exercise 4, $f\left(x\right)=\frac{1}{x}$ is monotonically decreasing on $\left(0,+\infty\right)$, so it is also monotonically decreasing on $\left[2,6\right]$. Therefore it attains the maximum value $f\left(2\right)=\frac{1}{2}$ at $x=2$, and the minimum value $f\left(6\right)=\frac{1}{6}$ at $x=6$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 3.2, Problem 8) Given that $f\left(x\right)$ is an even function and $g\left(x\right)$ is an odd function, please complete the following figure.
+
+(Figure: two coordinate systems side by side, each showing only the right half of a curve with the left half to be completed; the left one labeled $f\left(x\right)$ to be symmetric about the $y$-axis, the right one labeled $g\left(x\right)$ to be symmetric about the origin.)
+
+### Solution to Exercise 8
+
+By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**, use symmetry to complete the graph.
+
+The graph of the even function $f\left(x\right)$ is symmetric about the $y$-axis; given the right part, the left part is obtained by taking the mirror image of the right part about the $y$-axis.
+
+The graph of the odd function $g\left(x\right)$ is symmetric about the origin; given the right part, the left part is obtained by taking the centrally symmetric figure of the right part about the origin. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 3.2, Problem 9) Determine the parity of the following functions:
+
+(1) $f\left(x\right)=2x^4+3x^2$;
+
+(2) $f\left(x\right)=x^3-2x$.
+
+### Solution to Exercise 9
+
+By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**, compute $f\left(-x\right)$ and compare it with $f\left(x\right)$.
+
+(1) The domain is $\mathbb R$. $f\left(-x\right)=2\left(-x\right)^4+3\left(-x\right)^2=2x^4+3x^2=f\left(x\right)$, so $f\left(x\right)$ is an even function.
+
+(2) The domain is $\mathbb R$. $f\left(-x\right)=\left(-x\right)^3-2\left(-x\right)=-x^3+2x=-\left(x^3-2x\right)=-f\left(x\right)$, so $f\left(x\right)$ is an odd function. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 3.2, Problem 10) (1) Starting from the definition of an even function, prove that the necessary and sufficient condition for a function $y=f\left(x\right)$ to be an even function is that its graph is symmetric about the $y$-axis;
+
+(2) starting from the definition of an odd function, prove that the necessary and sufficient condition for a function $y=f\left(x\right)$ to be an odd function is that its graph is symmetric about the origin.
+
+### Solution to Exercise 10
+
+By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**, prove the necessary and sufficient condition starting from the definitions.
+
+(1) Necessity: If $f\left(x\right)$ is an even function, then for $\forall x\in D$, $f\left(-x\right)=f\left(x\right)$. The point $\left(x,f\left(x\right)\right)$ on the graph has its mirror image about the $y$-axis at $\left(-x,f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, which is also on the graph, so the graph is symmetric about the $y$-axis.
+
+Sufficiency: If the graph is symmetric about the $y$-axis, then the mirror image $\left(-x,f\left(x\right)\right)$ of the point $\left(x,f\left(x\right)\right)$ is also on the graph, i.e. $f\left(-x\right)=f\left(x\right)$, so $f\left(x\right)$ is an even function.
+
+(2) Necessity: If $f\left(x\right)$ is an odd function, then for $\forall x\in D$, $f\left(-x\right)=-f\left(x\right)$. The point $\left(x,f\left(x\right)\right)$ on the graph has its mirror image about the origin at $\left(-x,-f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, which is also on the graph, so the graph is symmetric about the origin.
+
+Sufficiency: If the graph is symmetric about the origin, then the mirror image $\left(-x,-f\left(x\right)\right)$ of the point $\left(x,f\left(x\right)\right)$ is also on the graph, i.e. $f\left(-x\right)=-f\left(x\right)$, so $f\left(x\right)$ is an odd function. $\blacksquare$
+
+## Problem 14
+
+(Exercise 3.2, Review and Consolidation, Problem 1) Based on the following figure, state the monotonic intervals of the function and the monotonicity on each monotonic interval.
+
+(Figure: a continuous curve in the coordinate system passing through transition points at $x=-1,0,2,3,5$, alternating between rising and falling.)
+
+### Solution to Problem 14
+
+By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**, judge from the rising and falling of the graph.
+
+From left to right, the graph first falls, then rises, then falls, then rises. Thus the monotonically decreasing intervals are $\left[-1,0\right]$ and $\left[2,3\right]$, and the monotonically increasing intervals are $\left[0,2\right]$ and $\left[3,5\right]$. $\blacksquare$

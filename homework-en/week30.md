@@ -1,509 +1,595 @@
 # week30
-> **Definition 5.6.1 (周期函数)**
+> **Definition 8.1.4 (棱柱)**
 > 
-> 参见教材相应章节关于此概念的论述.
-> **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
+> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
+> **Definition 8.3.1 (多面体的表面积)**
 > 
-> 参见教材相应章节关于此概念的论述.
+> 多面体的表面积是围成它的各个面的面积之和. 棱台的表面积等于它的侧面积 (各个侧面面积之和) 与两个底面面积之和.
+> **Definition 8.3.2 (Volume of a Cylinder)**
+> 
+> 柱体的体积 V = S*h, 其中 S 为底面积, h 为高.
+> **Definition 8.3.3 (Volume of a Cone)**
+> 
+> 锥体的体积 V = (1/3)*S*h, 其中 S 为底面积, h 为高.
+> **Definition 8.3.4 (Volume of a Frustum)**
+> 
+> 台体的体积 V = (1/3)*h*(S上 + S下 + sqrt(S上*S下)).
+> **Definition 8.3.6 (Surface Area of a Cone)**
+> 
+> 圆锥的表面积 S = pi*r^2 + pi*r*l, 其中 r 为底面半径, l 为母线长.
+> **Definition 8.3.8 (Volume of a Circular Cylinder)**
+> 
+> 圆柱的体积 V = pi*r^2*h.
+> **Definition 8.3.9 (Volume of a Circular Cone)**
+> 
+> 圆锥的体积 V = (1/3)*pi*r^2*h.
+> **Definition 8.3.11 (球的表面积)**
+> 
+> 球的表面积 S = 4*pi*R^2.
+> **Definition 8.3.12 (球的体积)**
+> 
+> 球的体积 V = (4/3)*pi*R^3.
+> **Definition 8.4.1 (平面)**
+> 
+> 平面是向四周无限延展的. 通常用平行四边形表示平面, 用希腊字母 $\alpha$, $\beta$, $\gamma$ 表示, 或用平行四边形顶点字母表示.
+> **Corollary 8.4.5 (推论 1)**
+> 
+> 经过一条直线和直线外一点, 有且只有一个平面.
+> **Corollary 8.4.6 (推论 2)**
+> 
+> 经过两条相交直线, 有且只有一个平面.
+> **Corollary 8.4.7 (推论 3)**
+> 
+> 经过两条平行直线, 有且只有一个平面.
+> **Definition 8.4.8 (异面直线)**
+> 
+> ,它们是相 交直线;直线与′不同在任何一个平面内. 我们把不同在任何一个平面内的两条直线叫做异面直线.于是,空间两条直线的位置 关系有三种: 共面直线相交直线:在同一平面内,有且只有一个公共点; 平行直线:在同一平面内,没有公共点; 异面直线:不同在任何一个平面内,没有公共点. 这样,空间中两条直线平行和我们学过的平面上两条直线平行的意义是一致的,即首 先这两条直线在同一平面内,其次是它们不相交.如果直线,为异面直线,为了表示 它们不共面的特点,作图时,通常用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应
+> **Definition 8.4.9 (直线与平面的位置关系)**
+> 
+> 用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应把直线画在 表示平面α的平行四边形 内;直线在平面α外, 应把直线或它的一部分 画在表示平面α的平行四 边形外. (２)直线与平面相交———有且只有一个公共点; (３)直线与平面平行———没有公共点. 当直线与平面相交或平行时,直线不在平面内,也称为 直线在平面外. 图８.４１３表示了直线与平面的三种位置关系. α a α a A α a 图８.４１３ 直线与平面α相交于点,记作∩α＝;直线与平面α平行,记作∥α. ９２１ 下面我们研究空间中直线,平面之间的位置关系,
+> **Definition 8.4.10 (平面与平面的位置关系)**
+> 
+> 第八章　立体几何初步 ３空间中平面与平面的位置关系 α β 图８.４１４ 在图８.４１１中,平面与平面′′′′没有公共点;平 面与平面′′有一条公共直线.再结合生活实例,我 们可以看出,两个平面之间的位置关系有且只有以下两种: (１)两个平面平行———没有公共点; (２)两个平面相交———有一条公共直线. 画两个互相平行的平面时,要注意使表示平面的两个平行四边 形的对应边平行(图８.４１４). 平面α与平面β平行,记作α∥β. ቃ A B C AĂ BĂ C D D Ă Ă 图８.４１５ 如图８.４１５,在长方体′′′′中,连接′, ′,请你再举出一些图中表示空间直线,平面之间位置关 系的例子,并用符号表示这些位置关系. 与其他同学交流一下你的结果. 例１　如图８.４１６,用符号表示下列图形中直线,平面之间的位置关系. α β l b a P
+> **Theorem 8.5.2 (Equal Angles Theorem)**
+> 
+> 如果一个角的两边和另一个角的两边分别平行, 那么这两个角相等或互补.
+> **Theorem 8.5.3 (直线与平面平行的判定定理)**
+> 
+> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
+> **Theorem 8.5.4 (直线与平面平行的性质定理)**
+> 
+> 一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
+> **Theorem 8.5.5 (平面与平面平行的判定定理)**
+> 
+> 一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
+> **Theorem 8.5.6 (Property Theorem of Parallel Planes)**
+> 
+> 两个平行平面同时和第三个平面相交, 所得的交线平行.
 
 ## Problem 1
 
-(Review Reference Problem 5, Review and Consolidation, Problem 1) Write the set $S$ of angles whose terminal side coincides with that of each of the following angles, and write out the elements $\beta$ in $S$ satisfying $-2\pi\leq\beta< 4\pi$:
+(Exercise 8.3, Comprehensive Application, Problem 7) A pile of identical iron hex nuts (iron density $7.9\times 10^{3}\text{ kg/m}^{3}$) has mass $5.8\text{ kg}$. As shown in the figure, each nut has a regular hexagonal base of side $12\text{ mm}$, an inner hole of diameter $10\text{ mm}$, and height $10\text{ mm}$. Approximately how many nuts are in the pile? (A calculator may be used; take $\pi$ as $3.14$.)
 
-(1) $\frac{\pi}{4}$;
-
-(2) $-\frac{2}{3}\pi$;
-
-(3) $\frac{12}{5}\pi$;
-
-(4) $0$.
+The figure: a hexagonal nut—the base is a regular hexagon (side $12\text{ mm}$), with a cylindrical hole (diameter $10\text{ mm}$) bored through vertically, and a height of $10\text{ mm}$.
 
 ### Solution to Problem 1
 
-By **Formula 5.1.1** (Radian Measure).
+By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the volume of one nut equals the volume of the regular hexagonal prism minus the volume of the cylindrical inner hole.
 
-(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb Z\right\}$. Suitable elements: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
+The regular hexagon area is $\frac{3\sqrt{3}}{2}\times 12^{2}=216\sqrt{3}\approx 374.1\text{ mm}^{2}$. The hexagonal-prism volume is $374.1\times 10=3741\text{ mm}^{3}$.
 
-(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb Z\right\}$. Suitable elements: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
+The inner-hole cylinder has radius $5\text{ mm}$ and volume $\pi\times 5^{2}\times 10=250\pi\approx 785\text{ mm}^{3}$.
 
-(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb Z\right\}$. Suitable elements: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
+One nut has volume $3741-785=2956\text{ mm}^{3}=2.956\text{ cm}^{3}$.
 
-(4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb Z\right\}$. Suitable elements: $0$, $2\pi$, $-2\pi$. $\blacksquare$
+One nut has mass $7.9\text{ g/cm}^{3}\times 2.956\text{ cm}^{3}\approx 23.35\text{ g}$.
+
+The number of nuts is approximately $\frac{5800}{23.35}\approx 248$. $\blacksquare$
 
 ## Problem 2
 
-(Review Reference Problem 5, Review and Consolidation, Problem 2) For a certain sector, both the arc length and the area are numerically equal to $5$. Find the degree measure of the central angle of this sector (accurate to $1^{\circ}$).
+(Exercise 8.3, Comprehensive Application, Problem 8) Taking the hypotenuse and the two legs of a right triangle as axes in turn, the surfaces swept by the remaining sides rotating through one full turn bound $3$ solids. What is the relation among the volumes of these $3$ solids?
 
 ### Solution to Problem 2
 
-By **Formula 5.1.1** (Radian Measure).
+By **Definition 8.3.9 (Volume of a Cone)**, let the two legs be $a$, $b$ and the hypotenuse be $c=\sqrt{a^{2}+b^{2}}$.
 
-From $l=5$, $S=5$, we get $S=\frac{1}{2}lr=\frac{5r}{2}=5$, $r=2$. Also $l=\lvert\alpha\rvert r=2\lvert\alpha\rvert=5$, hence $\lvert\alpha\rvert=\frac{5}{2}=2.5\text{ rad}\approx143^{\circ}$. $\blacksquare$
+Rotating about the leg $a$ gives a cone with base radius $b$ and height $a$, of volume $V_{1}=\frac{1}{3}\pi b^{2}a$.
+
+Rotating about the leg $b$ gives a cone with base radius $a$ and height $b$, of volume $V_{2}=\frac{1}{3}\pi a^{2}b$.
+
+Rotating about the hypotenuse $c$ gives a composite of two cones on the same base, with base radius equal to the altitude to the hypotenuse $h=\frac{ab}{c}$, and total volume
+
+$$
+V_{3}=\frac{1}{3}\pi h^{2}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c^{2}}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c}.
+$$
+
+A calculation gives
+
+$$
+\frac{1}{V_{1}^{2}}+\frac{1}{V_{2}^{2}}=\frac{9}{\pi^{2}}\left(\frac{1}{a^{2}b^{4}}+\frac{1}{a^{4}b^{2}}\right)=\frac{9}{\pi^{2}}\cdot\frac{a^{2}+b^{2}}{a^{4}b^{4}}=\frac{9c^{2}}{\pi^{2}a^{4}b^{4}}=\frac{1}{V_{3}^{2}}.
+$$
+
+Hence the three volumes satisfy $\frac{1}{V_{3}^{2}}=\frac{1}{V_{1}^{2}}+\frac{1}{V_{2}^{2}}$. $\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problem 5, Review and Consolidation, Problem 3)
+(Exercise 8.3, Extension and Exploration, Problem 9) The three-view drawing of a trophy is shown on the next page. Based on the three-view drawing, calculate its surface area and volume. (A calculator may be used; dimensions are as shown, in $\text{cm}$; take $\pi$ as $3.14$; round the results to integers.)
 
-(1) Given $\cos\varphi=\frac{1}{4}$, find $\sin\varphi$ and $\tan\varphi$.
+(From bottom to top, the trophy consists of: a square frustum with lower base $20\times 16$, upper base $10\times 8$, height $2$; a square prism $8\times 4$, height $20$; and a sphere of diameter $4$.)
 
-(2) Given $\sin x=2\cos x$, find the three trigonometric values of the angle $x$.
+The figure: three views of a trophy—from bottom to top: a square frustum (lower base $20\times 16\text{ cm}$, upper base $10\times 8\text{ cm}$, height $2\text{ cm}$), a square prism ($8\times 4\text{ cm}$, height $20\text{ cm}$), and a sphere (diameter $4\text{ cm}$).
 
 ### Solution to Problem 3
 
-By **Formula 5.2.2** (Relations among Trigonometric Functions of the Same Angle).
+By **Definition 8.3.4 (Volume of a Frustum)**, **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, and **Definition 8.3.12 (Volume of a Sphere)**, the trophy consists of three parts: a square frustum, a square prism, and a sphere.
 
-(1) From $\sin^{2}\varphi=1-\cos^{2}\varphi=1-\frac{1}{16}=\frac{15}{16}$, we get $\sin\varphi=\pm\frac{\sqrt{15}}{4}$, $\tan\varphi=\pm\sqrt{15}$.
+Volume: the frustum has lower base area $S=20\times 16=320$, upper base area $S'=10\times 8=80$, and height $2$; its volume is
 
-(2) From $\sin x=2\cos x$, we get $\tan x=2$. Also $\sin^{2}x+\cos^{2}x=1$, giving $\cos^{2}x=\frac{1}{5}$, $\cos x=\pm\frac{\sqrt{5}}{5}$, $\sin x=\pm\frac{2\sqrt{5}}{5}$. $\blacksquare$
+$$
+V_{\text{台}}=\frac{1}{3}\times 2\times\left(80+\sqrt{80\times 320}+320\right)=\frac{2}{3}\times 560=\frac{1120}{3}\approx 373.3.
+$$
+
+The prism volume is $8\times 4\times 20=640$. The sphere has radius $2$ and volume $\frac{4}{3}\pi\times 2^{3}=\frac{32\pi}{3}\approx 33.5$.
+
+The total volume is $373.3+640+33.5\approx 1047\text{ cm}^{3}$.
+
+Surface area: for the front and back lateral faces of the frustum (bases $20$, $10$), the slant height is $\sqrt{2^{2}+4^{2}}=2\sqrt{5}$, and their combined area is $2\times\frac{20+10}{2}\times 2\sqrt{5}=60\sqrt{5}$; for the left and right faces (bases $16$, $8$), the slant height is $\sqrt{2^{2}+5^{2}}=\sqrt{29}$, and their combined area is $2\times\frac{16+8}{2}\times\sqrt{29}=24\sqrt{29}$. The frustum's lower base area is $320$, and its exposed upper base area is $80-8\times 4=48$.
+
+The prism's lateral area is $2\left(8\times 20+4\times 20\right)=480$, and its upper base area is $8\times 4=32$.
+
+The sphere's surface area is $4\pi\times 2^{2}=16\pi$.
+
+The total surface area is $60\sqrt{5}+24\sqrt{29}+320+48+480+32+16\pi\approx 134.2+129.3+880+50.2\approx 1194\text{ cm}^{2}$. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 8.4, Problem 1) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+
+(1) The surface of a desk is a plane.
+
+(2) If plane $\alpha$ and plane $\beta$ intersect, they have only finitely many common points.
+
+(3) If two planes have three non-collinear common points, then the two planes coincide.
+
+### Solution to Exercise 1
+
+By **Definition 8.4.1 (Plane)**, a plane extends infinitely; judge by **Basic Fact 8.4.2** (Basic Fact 1) and **Basic Fact 8.4.4** (Basic Fact 3).
+
+(1) False. The desk surface is a bounded rectangular region, whereas a plane extends infinitely, so one cannot say the desk surface is a plane.
+
+(2) False. By **Basic Fact 8.4.4** (Basic Fact 3), two intersecting planes have one common line, which contains infinitely many common points.
+
+(3) True. Three non-collinear points determine a plane, so if both planes pass through these three points, they must coincide. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 8.4, Problem 2) Which of the following statements is correct? ( )
+
+(A) Three points determine a plane; (B) a line and a point determine a plane; (C) the center of a circle and two points on the circle determine a plane; (D) a trapezoid determines a plane.
+
+### Solution to Exercise 2
+
+Judge by **Basic Fact 8.4.2** (Basic Fact 1), **Corollary 8.4.5 (Corollary 1)**, and **Corollary 8.4.7 (Corollary 3)**.
+
+(A) False. When the three points are collinear, they do not determine a plane.
+
+(B) False. When the point lies on the line, they do not determine a plane.
+
+(C) False. The center and two points on the circle may be collinear (when the two points are the endpoints of a diameter).
+
+(D) True. A trapezoid has two parallel bases; by **Corollary 8.4.7 (Corollary 3)**, two parallel lines determine a plane.
+
+Choose (D). $\blacksquare$
+
+## Exercise 3
+
+(Exercise 8.4, Problem 3) How many planes can be determined by four non-coplanar points? Draw a figure to illustrate your conclusion.
+
+(Figure: a tetrahedron with vertices labeled $A,B,C,D$, all four faces triangular, representing the four planes determined by four non-coplanar points.)
+
+### Solution to Exercise 3
+
+By **Basic Fact 8.4.2** (Basic Fact 1), three non-collinear points determine a plane.
+
+Among four non-coplanar points, any three are non-collinear (otherwise all four would be coplanar). Any three of the four points determine a plane, giving $\mathrm{C}_{4}^{3}=4$ planes. These four planes are exactly the four faces of a tetrahedron.
+
+Hence four non-coplanar points determine $4$ planes. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 8.4, Problem 4) Express the following statements in symbols, and draw the corresponding figures:
+
+(1) Point $A$ lies in plane $\alpha$, point $B$ lies outside plane $\alpha$;
+
+(2) Line $a$ lies both in plane $\alpha$ and in plane $\beta$.
+
+(Figure: two diagrams side by side; the left shows a parallelogram plane $\alpha$ with a point $A$ inside and a point $B$ outside; the right shows two intersecting planes $\alpha$ and $\beta$ with their intersection line labeled $a$.)
+
+### Solution to Exercise 4
+
+By **Definition 8.4.1 (Plane)** and the symbolic notation for relations among points, lines, and planes.
+
+(1) Written as $A\in\alpha$, $B\notin\alpha$. Figure: draw a parallelogram to represent plane $\alpha$, mark a point $A$ inside it and a point $B$ outside it.
+
+(2) Written as $a\subset\alpha$ and $a\subset\beta$, i.e. $\alpha\cap\beta=a$. Figure: draw two intersecting planes, marking their line of intersection as line $a$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 8.4, Problem 1) Multiple choice.
+
+(1) If two lines $a$ and $b$ have no common points, then $a$ and $b$ ( ).
+
+(A) are coplanar; (B) are parallel; (C) are skew lines; (D) may be parallel or may be skew.
+
+(2) Let lines $a$ and $b$ be the lines containing the diagonals of two adjacent faces of a rectangular box; then $a$ and $b$ ( ).
+
+(A) are parallel; (B) intersect; (C) are skew lines; (D) may intersect or may be skew.
+
+### Solution to Exercise 5
+
+By **Definition 8.4.8 (Skew Lines)**, when two lines in space are distinct, having no common points means they are either parallel or skew.
+
+(1) Two lines with no common points may be parallel (coplanar) or skew. Choose (D).
+
+(2) For the lines containing the diagonals of two adjacent faces of the box, if the two diagonals share a vertex they intersect, and if they share no vertex they are skew. So they may intersect or may be skew. Choose (D). $\blacksquare$
+
+## Exercise 6
+
+(Exercise 8.4, Problem 2) As shown in the figure, in the rectangular box $ABCD\text{-}A'B'C'D'$, determine the positional relationship between lines $AB$ and $AC$, between $AC$ and $A'C'$, between $A'B$ and $AC$, and between $A'B$ and $C'D$.
+
+(Figure: a rectangular box $ABCD\text{-}A'B'C'D'$ with bottom face $ABCD$ and top face $A'B'C'D'$, showing the space diagonals $AC$ and $A'C'$ and face diagonals $A'B$ and $C'D$.)
+
+### Solution to Exercise 6
+
+Judge by **Definition 8.4.8 (Skew Lines)** and the definitions of line relationships.
+
+$AB$ and $AC$ share the point $A$, so they intersect.
+
+$AC$ and $A'C'$ are the diagonals of the upper and lower bases; they have the same direction and no common points, so they are parallel.
+
+$A'B$ and $AC$ do not lie in any one plane, and neither intersect nor are parallel, so they are skew.
+
+$A'B$ and $C'D$ have the same direction and no common points, so they are parallel. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 8.4, Problem 3) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+
+(1) If infinitely many points on line $l$ are not in plane $\alpha$, then $l\parallel\alpha$.
+
+(2) If line $l$ is parallel to plane $\alpha$, then $l$ is parallel to every line in plane $\alpha$.
+
+(3) If one of two parallel lines is parallel to a plane, then the other is also parallel to that plane.
+
+(4) If line $l$ is parallel to plane $\alpha$, then $l$ has no common point with any line in plane $\alpha$.
+
+### Solution to Exercise 7
+
+Judge by **Definition 8.4.9 (Positional Relationships Between a Line and a Plane)**.
+
+(1) False. When $l$ intersects $\alpha$, all points except the intersection point lie outside $\alpha$, but $l$ is not parallel to $\alpha$.
+
+(2) False. When $l\parallel\alpha$, $l$ is either parallel to or skew with lines in $\alpha$.
+
+(3) False. The other line may lie in the plane.
+
+(4) True. When $l\parallel\alpha$, $l$ has no common point with $\alpha$, so it has no common point with any line in $\alpha$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 8.4, Problem 4) Given lines $a$, $b$ and planes $\alpha$, $\beta$, with $a\subset\alpha$, $b\subset\beta$, $\alpha\parallel\beta$. Determine the positional relationship between $a$ and $b$, and explain why.
+
+### Solution to Exercise 8
+
+By **Definition 8.4.10 (Positional Relationships Between Two Planes)**, $\alpha\parallel\beta$ means the two planes have no common points.
+
+Since $a\subset\alpha$ and $b\subset\beta$, and $\alpha$ and $\beta$ have no common points, $a$ and $b$ have no common points. Two lines with no common points may be parallel or may be skew.
+
+Hence $a$ and $b$ may be parallel or may be skew. $\blacksquare$
 
 ## Problem 4
 
-(Review Reference Problem 5, Review and Consolidation, Problem 4) Given $\tan\alpha=-\frac{1}{3}$, compute:
+(Exercise 8.4, Review and Consolidation, Problem 1) Draw figures satisfying the following conditions:
 
-(1) $\frac{\sin\alpha+2\cos\alpha}{5\cos\alpha-\sin\alpha}$;
+(1) $a\subset\alpha$, $b\subset\alpha$, $a\cap b=A$, $c\cap\alpha=A$;
 
-(2) $\frac{1}{2\sin\alpha\cos\alpha+\cos^{2}\alpha}$;
+(2) $\alpha\cap\beta=l$, $AB\subset\alpha$, $CD\subset\beta$, $AB\parallel l$, $CD\parallel l$.
 
-(3) $\sin\alpha\cos\alpha$;
-
-(4) $\left(\sin\alpha+\cos\alpha\right)^{2}$.
+(Figure: two diagrams side by side; the left shows plane $\alpha$ with two intersecting lines $a,b$ meeting at $A$, and a line $c$ through $A$ piercing the plane; the right shows two intersecting planes $\alpha,\beta$ with intersection line $l$, and lines $AB\parallel l$ in $\alpha$ and $CD\parallel l$ in $\beta$.)
 
 ### Solution to Problem 4
 
-By **Formula 5.2.2** (Relations among Trigonometric Functions of the Same Angle).
+Draw by **Definition 8.4.1 (Plane)** and the symbolic notation for point-line-plane relationships.
 
-From $\tan\alpha=-\frac{1}{3}$, we get $\sin\alpha=-\frac{1}{3}\cos\alpha$, $\sin^{2}\alpha+\cos^{2}\alpha=\frac{10}{9}\cos^{2}\alpha=1$, $\cos^{2}\alpha=\frac{9}{10}$, $\sin\alpha\cos\alpha=-\frac{3}{10}$.
+(1) Draw a parallelogram for plane $\alpha$; inside $\alpha$ draw two intersecting lines $a$, $b$ with intersection $A$; through $A$ draw a line $c$ passing out of plane $\alpha$, so that $c$ meets $\alpha$ only at $A$.
 
-(1) Dividing numerator and denominator by $\cos\alpha$: $\frac{\tan\alpha+2}{5-\tan\alpha}=\frac{-\frac{1}{3}+2}{5+\frac{1}{3}}=\frac{\frac{5}{3}}{\frac{16}{3}}=\frac{5}{16}$.
-
-(2) $\frac{1}{2\sin\alpha\cos\alpha+\cos^{2}\alpha}=\frac{1}{2\times\left(-\frac{3}{10}\right)+\frac{9}{10}}=\frac{1}{\frac{3}{10}}=\frac{10}{3}$.
-
-(3) $\sin\alpha\cos\alpha=-\frac{3}{10}$.
-
-(4) $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha=1-\frac{3}{5}=\frac{2}{5}$. $\blacksquare$
+(2) Draw two intersecting planes $\alpha$, $\beta$ with line of intersection $l$; in $\alpha$ draw line $AB\parallel l$, and in $\beta$ draw line $CD\parallel l$. $\blacksquare$
 
 ## Problem 5
 
-(Review Reference Problem 5, Review and Consolidation, Problem 5) Compute:
+(Exercise 8.4, Review and Consolidation, Problem 2) Multiple choice.
 
-(1) $\sin\frac{25\pi}{6}+\cos\frac{25\pi}{3}+\tan\left(-\frac{25\pi}{4}\right)$;
+(1) Planes through the $3$ points on a given line ( ).
 
-(2) $\sin2+\cos3+\tan4$;
+(A) there is exactly $1$; (B) there are exactly $3$; (C) there are infinitely many; (D) there are none.
 
-(3) $\cos\left(\sin2\right)$.
+(2) If line $a$ is not parallel to plane $\alpha$ and $a\not\subset\alpha$, then which of the following holds? ( )
+
+(A) every line in $\alpha$ is skew to $a$; (B) there is no line in $\alpha$ parallel to $a$; (C) there is exactly one line in $\alpha$ parallel to $a$; (D) every line in $\alpha$ intersects $a$.
 
 ### Solution to Problem 5
 
-By **Formula 5.3.1** (Reduction Formulas).
+Judge by **Corollary 8.4.5 (Corollary 1)** and **Definition 8.4.9 (Positional Relationships Between a Line and a Plane)**.
 
-(1) From $\sin\frac{25\pi}{6}=\sin\left(4\pi+\frac{\pi}{6}\right)=\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{25\pi}{3}=\cos\left(8\pi+\frac{\pi}{3}\right)=\cos\frac{\pi}{3}=\frac{1}{2}$, $\tan\left(-\frac{25\pi}{4}\right)=\tan\left(-6\pi-\frac{\pi}{4}\right)=\tan\left(-\frac{\pi}{4}\right)=-1$. Hence the original expression $=\frac{1}{2}+\frac{1}{2}-1=0$.
+(1) The three points on a line are collinear, and there are infinitely many planes through this line; choose (C).
 
-(2) $\sin2\approx0.9093$, $\cos3\approx-0.98999$, $\tan4\approx1.1578$, the original expression $\approx1.0771$.
-
-(3) $\sin2\approx0.9093$, $\cos\left(0.9093\right)\approx0.6143$. $\blacksquare$
+(2) $a$ is not parallel to $\alpha$ and $a\not\subset\alpha$, so $a$ intersects $\alpha$. If there were a line in $\alpha$ parallel to $a$, then $a$ would be parallel to $\alpha$, a contradiction. Hence there is no line in $\alpha$ parallel to $a$; choose (B). $\blacksquare$
 
 ## Problem 6
 
-(Review Reference Problem 5, Review and Consolidation, Problem 6) Let $\pi< x< 2\pi$. Fill in the table.
+(Exercise 8.4, Review and Consolidation, Problem 3) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+
+(1) Three lines that are pairwise intersecting and not all through one point determine a plane.
+
+(2) A quadrilateral determines a plane.
+
+(3) If $a$, $b$ are two lines, $\alpha$, $\beta$ are two planes, and $a\subset\alpha$, $b\subset\beta$, then $a$, $b$ are skew.
 
 ### Solution to Problem 6
 
-By **Formula 5.2.1** (Definition of Trigonometric Functions) and the values for special angles.
+Judge by **Corollary 8.4.6 (Corollary 2)** and **Definition 8.4.8 (Skew Lines)**.
 
-| $x$ | $\frac{7\pi}{6}$ | $\frac{7\pi}{4}$ |
-|---|---|---|
-| $\sin x$ | $-\frac{1}{2}$ | $-\frac{\sqrt{2}}{2}$ |
-| $\cos x$ | $-\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ |
-| $\tan x$ | $\frac{\sqrt{3}}{3}$ | $-1$ |
+(1) True. Among three pairwise intersecting lines not all through one point, two intersecting lines determine a plane; the intersections of the third with the first two both lie in that plane, so the third line also lies in that plane, and the three lines are coplanar.
 
-$\blacksquare$
+(2) False. The four vertices of a spatial quadrilateral are not coplanar, so it does not determine a plane.
+
+(3) False. When $a\subset\alpha$ and $b\subset\beta$, $a$ and $b$ may be parallel, intersecting, or skew. $\blacksquare$
 
 ## Problem 7
 
-(Review Reference Problem 5, Review and Consolidation, Problem 7) Find the maximum and minimum values of the following functions, and find the sets of $x$ at which the functions attain their maximum and minimum values:
+(Exercise 8.4, Review and Consolidation, Problem 4) Fill in the blanks.
 
-(1) $y=\sqrt{2}+\frac{\sin x}{\pi}$;
+(1) If $a$, $b$ are skew and line $c$ intersects both $a$ and $b$, then the planes determined by pairs among these three lines total $\;\_\_\;$;
 
-(2) $y=3-2\cos x$.
+(2) If a line is parallel to one of two parallel planes, then its positional relationship to the other plane is $\;\_\_\;$;
+
+(3) Given two intersecting lines $a$, $b$ with $a\parallel$ plane $\alpha$, the positional relationship of $b$ to $\alpha$ is $\;\_\_\;$.
 
 ### Solution to Problem 7
 
-By the ranges of the sine and cosine functions.
+Judge by **Corollary 8.4.6 (Corollary 2)** and **Definition 8.4.9 (Positional Relationships Between a Line and a Plane)**.
 
-(1) From $-1\leq\sin x\leq1$, we get $y_{\max}=\sqrt{2}+\frac{1}{\pi}$ ($x=\frac{\pi}{2}+2k\pi$), $y_{\min}=\sqrt{2}-\frac{1}{\pi}$ ($x=\frac{3\pi}{2}+2k\pi$).
+(1) $a$, $b$ are skew and determine no plane. $a$ and $c$ intersect, determining one plane; $b$ and $c$ intersect, determining one plane. Total $2$.
 
-(2) From $-1\leq\cos x\leq1$, we get $y_{\max}=5$ ($x=\pi+2k\pi$), $y_{\min}=1$ ($x=2k\pi$). $\blacksquare$
+(2) Let $\alpha\parallel\beta$ and $l\parallel\alpha$; then $l$ is either parallel to $\beta$ or $l\subset\beta$.
+
+(3) $a$, $b$ intersect and $a\parallel\alpha$, so $b$ is either parallel to or intersects $\alpha$. $\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problem 5, Review and Consolidation, Problem 8) Sketch simple graphs of the following functions on a closed interval of length one period, and state respectively what transformations of the graph of $y=\sin x$, $x\in\mathbb R$, produce them:
-
-(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$;
-
-(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$;
-
-(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$;
-
-(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$.
-
-The graphs: four sketches each over one period. (1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$: amplitude $\frac{1}{2}$, period $\frac{2\pi}{3}$; (2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$: amplitude $2$, period $2\pi$, with the oscillation direction opposite to $y=\sin x$; (3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$: amplitude $1$, period $\pi$, oscillating between $y=0$ and $y=2$; (4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$: amplitude $3$, period $12\pi$.
+(Exercise 8.4, Review and Consolidation, Problem 5) Into how many regions do the planes of the faces of a cube divide space?
 
 ### Solution to Problem 8
 
-By **Property 5.6.1** (Graph Transformations).
+By **Definition 8.4.10 (Positional Relationships Between Two Planes)**, a cube has three pairs of mutually parallel faces.
 
-(1) Shift $y=\sin x$ to the right by $\frac{\pi}{9}$, compress the x-coordinates to $\frac{1}{3}$ of the original, and compress the y-coordinates to $\frac{1}{2}$ of the original.
+The cube has upper and lower parallel faces, left and right parallel faces, and front and back parallel faces. Each pair of parallel planes divides space into $3$ parts, so the three mutually perpendicular pairs of parallel planes divide space into $3\times 3\times 3=27$ parts.
 
-(2) Shift $y=\sin x$ to the left by $\frac{\pi}{4}$, stretch the y-coordinates to $2$ times the original, and reflect about the $x$-axis.
-
-(3) Shift $y=\sin x$ to the right by $\frac{\pi}{10}$, compress the x-coordinates to $\frac{1}{2}$ of the original, reflect about the $x$-axis, and shift up by $1$.
-
-(4) Shift $y=\sin x$ to the right by $2\pi$, stretch the x-coordinates to $6$ times the original, and stretch the y-coordinates to $3$ times the original. $\blacksquare$
+Hence the face planes of the cube divide space into $27$ parts. $\blacksquare$
 
 ## Problem 9
 
-(Review Reference Problem 5, Review and Consolidation, Problem 9)
-
-(1) Use the point-plotting method to sketch the graph of the function $y=\sin x$, $x\in\left[0,\frac{\pi}{2}\right]$.
-
-(2) Based on part (1) and using the properties of the sine function, how does one obtain the graph of the function $y=\sin x$, $x\in\left[0,2\pi\right]$?
-
-(3) Based on part (2) and by translating the coordinate axes, how does one obtain the graph of the function $y=\sin\left(x+\varphi\right)+k$, $x\in\left[0,2\pi\right]$ ($\varphi$ and $k$ are both constants)?
-
-The graph: in the rectangular coordinate plane, a quarter-wave-peak portion of $y=\sin x$ on $\left[0,\frac{\pi}{2}\right]$, rising from the origin $\left(0,0\right)$ to $\left(\frac{\pi}{2},1\right)$; five plotted points $\left(0,0\right)$, $\left(\frac{\pi}{6},\frac{1}{2}\right)$, $\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$, $\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$, and $\left(\frac{\pi}{2},1\right)$ are marked and joined by a smooth curve.
+(Exercise 8.4, Comprehensive Application, Problem 6) If a line intersects both of two parallel lines, are these three lines coplanar? Give your reason.
 
 ### Solution to Problem 9
 
-By the properties of the sine function.
+By **Corollary 8.4.7 (Corollary 3)** and **Basic Fact 8.4.3** (Basic Fact 2).
 
-(1) Take $x=0$, $\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$, $\frac{\pi}{2}$ and plot the points, joining them.
+Let $a\parallel b$, and let $l$ meet $a$ at $A$ and $b$ at $B$.
 
-(2) By the symmetry of the sine function about $x=\frac{\pi}{2}$, obtain the graph on $\left[\frac{\pi}{2},\pi\right]$; by $\sin\left(\pi+x\right)=-\sin x$, obtain the graph on $\left[\pi,2\pi\right]$.
+By **Corollary 8.4.7 (Corollary 3)**, the parallel lines $a$, $b$ determine a plane, call it $\alpha$. Since $A\in a\subset\alpha$ and $B\in b\subset\alpha$, we have $A\in\alpha$ and $B\in\alpha$.
 
-(3) Shift the graph of $y=\sin x$ to the left (right) by $\lvert\varphi\rvert$, and then up (down) by $\lvert k\rvert$. $\blacksquare$
+By **Basic Fact 8.4.3** (Basic Fact 2), since two points $A$, $B$ on line $l$ lie in plane $\alpha$, we have $l\subset\alpha$.
+
+Thus all three lines $a$, $b$, $l$ lie in plane $\alpha$, and they are coplanar. $\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problem 5, Review and Consolidation, Problem 10) Without plotting, write down the amplitude, period and initial phase of the following functions, and explain how their graphs are obtained from the sine curve:
+(Exercise 8.4, Comprehensive Application, Problem 7) As shown in the figure, three lines are pairwise parallel and not coplanar, and each pair determines a plane; how many planes in total can be determined? If the three lines intersect at one point, at most how many planes can they determine?
 
-(1) $y=\sin\left(5x+\frac{\pi}{6}\right)$;
-
-(2) $y=2\sin\frac{1}{6}x$.
+(Figure: the left shows three pairwise parallel lines $a,b,c$ with different directions (not coplanar); the right shows three lines $a,b,c$ intersecting at a common point $P$.)
 
 ### Solution to Problem 10
 
-By **Definition 5.6.1 (Periodic Function)** through **Definition 5.6.4 (Period of y=Asin(omega x+phi))**.
+By **Corollary 8.4.7 (Corollary 3)** and **Corollary 8.4.6 (Corollary 2)**.
 
-(1) Amplitude $1$, period $\frac{2\pi}{5}$, initial phase $\frac{\pi}{6}$. From $y=\sin x$, shift to the left by $\frac{\pi}{6}$ and compress the x-coordinates to $\frac{1}{5}$ of the original.
+For three pairwise parallel non-coplanar lines, each pair of parallel lines determines a plane, giving $\mathrm{C}_{3}^{2}=3$ planes.
 
-(2) Amplitude $2$, period $12\pi$, initial phase $0$. From $y=\sin x$, stretch the x-coordinates to $6$ times the original and the y-coordinates to $2$ times the original. $\blacksquare$
+When three lines meet at one point, each pair of intersecting lines determines a plane, giving $\mathrm{C}_{3}^{2}=3$ planes. When the three lines are not coplanar, these $3$ planes are distinct, so at most $3$ planes can be determined. $\blacksquare$
 
 ## Problem 11
 
-(Review Reference Problem 5, Review and Consolidation, Problem 11)
+(Exercise 8.4, Comprehensive Application, Problem 8) As shown in the figure, $\triangle ABC$ lies outside plane $\alpha$, with $AB\cap\alpha=P$, $BC\cap\alpha=Q$, $AC\cap\alpha=R$. Prove that $P$, $Q$, $R$ are collinear.
 
-(1) Given that $\alpha$ and $\beta$ are both acute angles, $\sin\alpha=\frac{3}{5}$, $\cos\left(\alpha+\beta\right)=\frac{5}{13}$, find the value of $\sin\beta$;
-
-(2) Given $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$, $\sin\left(\frac{5\pi}{4}+\beta\right)=-\frac{12}{13}$, $\alpha\in\left(\frac{\pi}{4},\frac{3\pi}{4}\right)$, $\beta\in\left(0,\frac{\pi}{4}\right)$, find the value of $\sin\left(\alpha+\beta\right)$;
-
-(3) Given that $\alpha$ and $\beta$ are both acute angles, $\tan\alpha=\frac{1}{7}$, $\sin\beta=\frac{\sqrt{10}}{10}$, find the value of $\tan\left(\alpha+2\beta\right)$.
+(Figure: a parallelogram representing plane $\alpha$, with triangle $ABC$ above the plane; the sides $AB,BC,AC$ pierce the plane at $P,Q,R$ respectively.)
 
 ### Solution to Problem 11
 
-By **Formula 5.5.1** through **Formula 5.5.8**.
+By **Basic Fact 8.4.4** (Basic Fact 3), the common points of two planes lie on their line of intersection.
 
-(1) Since $\alpha$ is acute and $\sin\alpha=\frac{3}{5}$, we get $\cos\alpha=\frac{4}{5}$. Since $\alpha+\beta\in\left(0,\pi\right)$ and $\cos\left(\alpha+\beta\right)=\frac{5}{13}$, we get $\sin\left(\alpha+\beta\right)=\frac{12}{13}$. Hence $\sin\beta=\sin\left[\left(\alpha+\beta\right)-\alpha\right]=\sin\left(\alpha+\beta\right)\cos\alpha-\cos\left(\alpha+\beta\right)\sin\alpha=\frac{12}{13}\cdot\frac{4}{5}-\frac{5}{13}\cdot\frac{3}{5}=\frac{33}{65}$.
+Since $P\in AB$ and $AB\subset$ plane $ABC$, we have $P\in$ plane $ABC$. Also $P\in\alpha$, so $P$ is a common point of plane $ABC$ and plane $\alpha$.
 
-(2) From $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$ and $\frac{\pi}{4}-\alpha\in\left(-\frac{\pi}{2},0\right)$, we get $\sin\left(\frac{\pi}{4}-\alpha\right)=-\frac{4}{5}$. From $\sin\left(\frac{5\pi}{4}+\beta\right)=-\sin\left(\frac{\pi}{4}+\beta\right)=-\frac{12}{13}$, we get $\sin\left(\frac{\pi}{4}+\beta\right)=\frac{12}{13}$, $\cos\left(\frac{\pi}{4}+\beta\right)=-\frac{5}{13}$. Hence $\sin\left(\alpha+\beta\right)=-\sin\left[\left(\frac{\pi}{4}+\beta\right)-\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\sin\left(\frac{\pi}{4}+\beta\right)\cos\left(\frac{\pi}{4}-\alpha\right)-\cos\left(\frac{\pi}{4}+\beta\right)\sin\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\frac{12}{13}\cdot\frac{3}{5}-\left(-\frac{5}{13}\right)\left(-\frac{4}{5}\right)\right]=-\frac{16}{65}$.
+Similarly, $Q\in BC\subset$ plane $ABC$ and $Q\in\alpha$, so $Q$ is also a common point of plane $ABC$ and plane $\alpha$; $R\in AC\subset$ plane $ABC$ and $R\in\alpha$, so $R$ is also a common point of plane $ABC$ and plane $\alpha$.
 
-(3) Since $\beta$ is acute and $\sin\beta=\frac{\sqrt{10}}{10}$, we get $\tan\beta=\frac{1}{3}$. Hence $\tan2\beta=\frac{2\times\frac{1}{3}}{1-\frac{1}{9}}=\frac{3}{4}$. $\tan\left(\alpha+2\beta\right)=\frac{\frac{1}{7}+\frac{3}{4}}{1-\frac{1}{7}\times\frac{3}{4}}=\frac{\frac{25}{28}}{\frac{25}{28}}=1$. $\blacksquare$
+By **Basic Fact 8.4.4** (Basic Fact 3), plane $ABC$ and plane $\alpha$ have exactly one line of intersection $l$ through their common points. Hence $P$, $Q$, $R$ all lie on $l$, and the three points are collinear. $\blacksquare$
 
 ## Problem 12
 
-(Review Reference Problem 5, Review and Consolidation, Problem 12)
+(Exercise 8.4, Extension and Exploration, Problem 9) The figure is the net of a cube. If it is folded back into a cube, among the four segments $AB$, $CD$, $EF$, $GH$, which pairs of containing lines are skew?
 
-(1) Prove $\tan\alpha+\tan\beta=\tan\left(\alpha+\beta\right)-\tan\alpha\tan\beta\tan\left(\alpha+\beta\right)$;
-
-(2) Find the value of $\tan20^{\circ}+\tan40^{\circ}+\sqrt{3}\tan20^{\circ}\tan40^{\circ}$;
-
-(3) If $\alpha+\beta=\frac{3\pi}{4}$, find the value of $\left(1-\tan\alpha\right)\left(1-\tan\beta\right)$;
-
-(4) Find the value of $\frac{\tan20^{\circ}+\tan40^{\circ}+\tan120^{\circ}}{\tan20^{\circ}\tan40^{\circ}}$.
+(Figure: a cross-shaped net of a cube with six connected square faces, on which the segments $AB,CD,EF,GH$ are marked.)
 
 ### Solution to Problem 12
 
-By **Formula 5.5.5** (Tangent of a Sum).
+By **Definition 8.4.8 (Skew Lines)**, two lines that after folding neither intersect nor are parallel are skew.
 
-(1) From $\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$, we get $\tan\alpha+\tan\beta=\tan\left(\alpha+\beta\right)\left(1-\tan\alpha\tan\beta\right)=\tan\left(\alpha+\beta\right)-\tan\alpha\tan\beta\tan\left(\alpha+\beta\right)$.
+After folding the net back into a cube, check pair by pair: $AB$ and $CD$ do not lie in any one plane and are skew; $AB$ and $GH$ do not lie in any one plane and are skew; $CD$ and $EF$ do not lie in any one plane and are skew. All other pairs either intersect or are parallel.
 
-(2) From $20^{\circ}+40^{\circ}=60^{\circ}$ and $\tan60^{\circ}=\sqrt{3}$, we get $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)$. Hence the original expression $=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)+\sqrt{3}\tan20^{\circ}\tan40^{\circ}=\sqrt{3}$.
-
-(3) From $\alpha+\beta=\frac{3\pi}{4}$ and $\tan\left(\alpha+\beta\right)=-1$, we get $\tan\alpha+\tan\beta=-\left(1-\tan\alpha\tan\beta\right)$, i.e. $\tan\alpha+\tan\beta+\tan\alpha\tan\beta=-1$. Hence $\left(1-\tan\alpha\right)\left(1-\tan\beta\right)=1-\left(\tan\alpha+\tan\beta\right)+\tan\alpha\tan\beta=2$.
-
-(4) From $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)$ and $\tan120^{\circ}=-\sqrt{3}$. Hence the original expression $=\frac{\sqrt{3}-\sqrt{3}\tan20^{\circ}\tan40^{\circ}-\sqrt{3}}{\tan20^{\circ}\tan40^{\circ}}=-\sqrt{3}$. $\blacksquare$
+Hence the containing lines of $AB$ and $CD$, $AB$ and $GH$, and $CD$ and $EF$ are skew. $\blacksquare$
 
 ## Problem 13
 
-(Review Reference Problem 5, Review and Consolidation, Problem 13) Simplify:
-
-(1) $\frac{1}{\sin10^{\circ}}-\frac{\sqrt{3}}{\cos10^{\circ}}$;
-
-(2) $\sin40^{\circ}\left(\tan10^{\circ}-\sqrt{3}\right)$;
-
-(3) $\tan70^{\circ}\cos10^{\circ}\left(\sqrt{3}\tan20^{\circ}-1\right)$;
-
-(4) $\sin50^{\circ}\left(1+\sqrt{3}\tan10^{\circ}\right)$.
+(Exercise 8.4, Extension and Exploration, Problem 10) In this section we have studied the plane, its basic features, and some ways of describing these features using basic elements such as points, lines, and planes that make up solid figures. By analogy, what are the basic features of a line? How can these basic features of a line be described?
 
 ### Solution to Problem 13
 
-By **Formula 5.5.1** through **Formula 5.5.8**.
+By analogy with **Definition 8.4.1 (Plane)**, the basic features of a line are that it extends infinitely in both directions and has no thickness.
 
-(1) The original expression $=\frac{\cos10^{\circ}-\sqrt{3}\sin10^{\circ}}{\sin10^{\circ}\cos10^{\circ}}=\frac{2\cos\left(10^{\circ}+60^{\circ}\right)}{\frac{1}{2}\sin20^{\circ}}=\frac{4\cos70^{\circ}}{\sin20^{\circ}}=\frac{4\sin20^{\circ}}{\sin20^{\circ}}=4$.
+Describing the basic features of a line: (1) a point lies on the line or outside it; (2) two points determine a line; (3) two distinct lines, if they intersect, have exactly one common point; (4) a line is uniquely determined by two of its points and extends infinitely in both directions. $\blacksquare$
 
-(2) The original expression $=\sin40^{\circ}\cdot\frac{\sin10^{\circ}-\sqrt{3}\cos10^{\circ}}{\cos10^{\circ}}=\sin40^{\circ}\cdot\frac{2\sin\left(10^{\circ}-60^{\circ}\right)}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\sin50^{\circ}}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\cos40^{\circ}}{\cos10^{\circ}}=\frac{-\sin80^{\circ}}{\cos10^{\circ}}=-1$.
+## Exercise 9
 
-(3) The original expression $=\frac{\sin70^{\circ}}{\cos70^{\circ}}\cos10^{\circ}\cdot\frac{\sqrt{3}\sin20^{\circ}-\cos20^{\circ}}{\cos20^{\circ}}=\frac{\cos20^{\circ}\cos10^{\circ}}{\sin20^{\circ}}\cdot\frac{-2\sin\left(20^{\circ}-60^{\circ}\right)}{\cos20^{\circ}}=\frac{-2\cos10^{\circ}\sin40^{\circ}}{\sin20^{\circ}}=\frac{-\sin80^{\circ}}{\sin20^{\circ}}=-1$.
+(Exercise 8.5, Problem 1) As shown in the figure, fold a rectangular sheet of paper several times and then unfold it. Are the resulting creases parallel to one another? Why?
 
-(4) The original expression $=\sin50^{\circ}\cdot\frac{\cos10^{\circ}+\sqrt{3}\sin10^{\circ}}{\cos10^{\circ}}=\sin50^{\circ}\cdot\frac{2\cos\left(10^{\circ}-60^{\circ}\right)}{\cos10^{\circ}}=\frac{2\sin50^{\circ}\cos50^{\circ}}{\cos10^{\circ}}=\frac{\sin100^{\circ}}{\cos10^{\circ}}=1$. $\blacksquare$
+(Figure: a rectangular sheet folded twice and unfolded, showing three parallel creases.)
 
-## Problem 14
+### Solution to Exercise 9
 
-(Review Reference Problem 5, Review and Consolidation, Problem 14)
+By **Basic Fact 8.5.1** (Basic Fact 4), two lines parallel to the same line are parallel to each other.
 
-(1) Given $\cos\theta=-\frac{3}{5}$, $\pi< \theta< \frac{3\pi}{2}$, find the value of $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}$;
+Each crease is parallel to the same side of the original rectangle, so all the creases are parallel to the same line. By **Basic Fact 8.5.1** (Basic Fact 4), these creases are parallel to one another. $\blacksquare$
 
-(2) Given $\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}=\frac{1}{5}$, find the value of $\sin\alpha$;
+## Exercise 10
 
-(3) Given $\sin^{4}\theta+\cos^{4}\theta=\frac{5}{9}$, find the value of $\sin2\theta$;
+(Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, how many edges are parallel to the edge $AA'$? Which edges are they?
 
-(4) Given $\cos2\theta=\frac{3}{5}$, find the value of $\sin^{4}\theta+\cos^{4}\theta$.
+(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
 
-### Solution to Problem 14
+### Solution to Exercise 10
 
-By **Formula 5.5.7** and **Formula 5.5.8**.
+By **Basic Fact 8.5.1** (Basic Fact 4) and the properties of the edges of a cuboid.
 
-(1) From $\pi< \theta< \frac{3\pi}{2}$, we get $\frac{\pi}{2}< \frac{\theta}{2}< \frac{3\pi}{4}$, $\sin\frac{\theta}{2}> \cos\frac{\theta}{2}$. $\left(\sin\frac{\theta}{2}-\cos\frac{\theta}{2}\right)^{2}=1-\sin\theta=1-\left(-\frac{4}{5}\right)=\frac{9}{5}$. Hence $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}=\frac{3\sqrt{5}}{5}$.
+The cuboid has $12$ edges, among which the $4$ mutually parallel lateral edges are $AA'$, $BB'$, $CC'$, $DD'$. Besides $AA'$ itself, there are $3$ edges parallel to $AA'$, namely $BB'$, $CC'$, $DD'$. $\blacksquare$
 
-(2) From $\left(\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}\right)^{2}=\frac{1}{25}=1-\sin\alpha$, we get $\sin\alpha=\frac{24}{25}$.
+## Exercise 11
 
-(3) From $\sin^{4}\theta+\cos^{4}\theta=1-2\sin^{2}\theta\cos^{2}\theta=1-\frac{1}{2}\sin^{2}2\theta=\frac{5}{9}$, we get $\sin^{2}2\theta=\frac{8}{9}$, $\sin2\theta=\pm\frac{2\sqrt{2}}{3}$.
+(Exercise 8.5, Problem 3) As shown in the figure, $AA'$, $BB'$, $CC'$ are not coplanar, and $AA'=\ BB'$, $BB'=\ CC'$. Prove that $\triangle ABC\cong\triangle A'B'C'$.
 
-(4) $\sin^{4}\theta+\cos^{4}\theta=1-\frac{1}{2}\sin^{2}2\theta=1-\frac{1}{2}\left(1-\cos^{2}2\theta\right)=1-\frac{1}{2}\left(1-\frac{9}{25}\right)=\frac{17}{25}$. $\blacksquare$
+(Figure: two triangles $ABC$ and $A'B'C'$ with corresponding vertices joined by parallel equal segments $AA',BB',CC'$.)
 
-## Problem 15
+### Solution to Exercise 11
 
-(Review Reference Problem 5, Review and Consolidation, Problem 15)
+By **Basic Fact 8.5.1** (Basic Fact 4) and **Theorem 8.5.2 (Equal-Angle Theorem)**.
 
-(1) Given $\cos\left(\alpha+\beta\right)=\frac{1}{5}$, $\cos\left(\alpha-\beta\right)=\frac{3}{5}$, find the value of $\tan\alpha\tan\beta$;
+Since $AA'=\ BB'$, the quadrilateral $ABB'A'$ is a parallelogram, so $AB\parallel A'B'$ and $AB=A'B'$. Similarly, since $BB'=\ CC'$, $BC\parallel B'C'$ and $BC=B'C'$.
 
-(2) Given $\cos\alpha+\cos\beta=\frac{1}{2}$, $\sin\alpha+\sin\beta=\frac{1}{3}$, find the value of $\cos\left(\alpha-\beta\right)$.
+By **Theorem 8.5.2 (Equal-Angle Theorem)**, the two sides of $\angle ABC$ and those of $\angle A'B'C'$ are respectively parallel and in the same direction, so $\angle ABC=\angle A'B'C'$.
 
-### Solution to Problem 15
+In $\triangle ABC$ and $\triangle A'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\angle A'B'C'$, hence $\triangle ABC\cong\triangle A'B'C'$. $\blacksquare$
 
-By **Formula 5.5.1** and **Formula 5.5.2**.
+## Exercise 12
 
-(1) From $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\frac{1}{5}$ and $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\frac{3}{5}$. Adding the two equations gives $\cos\alpha\cos\beta=\frac{2}{5}$, and subtracting gives $\sin\alpha\sin\beta=\frac{1}{5}$. Hence $\tan\alpha\tan\beta=\frac{1}{2}$.
+(Exercise 8.5, Problem 4) As shown in the figure, in the tetrahedron $A\text{-}BCD$, $E$, $F$, $G$ are points on $AB$, $AC$, $AD$ respectively. If $EF\parallel BC$ and $FG\parallel CD$, what is the relationship between $\triangle EFG$ and $\triangle BCD$? Why?
 
-(2) From $\left(\cos\alpha+\cos\beta\right)^{2}=\frac{1}{4}$ and $\left(\sin\alpha+\sin\beta\right)^{2}=\frac{1}{9}$. Adding the two gives $2+2\cos\left(\alpha-\beta\right)=\frac{13}{36}$. Hence $\cos\left(\alpha-\beta\right)=-\frac{59}{72}$. $\blacksquare$
+(Figure: a tetrahedron $A\text{-}BCD$ with $E$ on $AB$, $F$ on $AC$, $G$ on $AD$, and $EF,FG,EG$ joined.)
 
-## Problem 16
+### Solution to Exercise 12
 
-(Review Reference Problem 5, Comprehensive Application, Problem 16) Prove:
+By **Theorem 8.5.2 (Equal-Angle Theorem)** and the proportional division of a segment by parallel lines.
 
-(1) $\cos4\alpha+4\cos2\alpha+3=8\cos^{4}\alpha$;
+Since $EF\parallel BC$ and $FG\parallel CD$, the corresponding sides are parallel and in the same direction, so $\angle EFG=\angle BCD$.
 
-(2) $\frac{1+\sin2\alpha}{2\cos^{2}\alpha+\sin2\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}$;
+Also, from $EF\parallel BC$, $\frac{EF}{BC}=\frac{AF}{AC}$; from $FG\parallel CD$, $\frac{FG}{CD}=\frac{AF}{AC}$. Hence $\frac{EF}{BC}=\frac{FG}{CD}$.
 
-(3) $\frac{\sin\left(2\alpha+\beta\right)}{\sin\alpha}-2\cos\left(\alpha+\beta\right)=\frac{\sin\beta}{\sin\alpha}$;
+Since the corresponding sides are proportional and the included angle is equal, $\triangle EFG\sim\triangle BCD$. $\blacksquare$
 
-(4) $\frac{3-4\cos2A+\cos4A}{3+4\cos2A+\cos4A}=\tan^{4}A$.
+## Exercise 13
 
-### Solution to Problem 16
+(Exercise 8.5, Problem 1) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$,
 
-By **Formula 5.5.7** and **Formula 5.5.8**.
+(1) the plane parallel to $AB$ is $\;\_\_\;$;
 
-(1) Left side $=\left(2\cos^{2}2\alpha-1\right)+4\cos2\alpha+3=2\cos^{2}2\alpha+4\cos2\alpha+2=2\left(\cos2\alpha+1\right)^{2}=2\left(2\cos^{2}\alpha\right)^{2}=8\cos^{4}\alpha=$ right side.
+(2) the plane parallel to $AA'$ is $\;\_\_\;$;
 
-(2) Left side $=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}}{2\cos\alpha\left(\cos\alpha+\sin\alpha\right)}=\frac{\sin\alpha+\cos\alpha}{2\cos\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}=$ right side.
+(3) the plane parallel to $AD$ is $\;\_\_\;$.
 
-(3) Left side $=\frac{\sin\left[\left(\alpha+\beta\right)+\alpha\right]-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha+\cos\left(\alpha+\beta\right)\sin\alpha-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha-\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\beta}{\sin\alpha}=$ right side.
+(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
 
-(4) Left side $=\frac{3-4\cos2A+2\cos^{2}2A-1}{3+4\cos2A+2\cos^{2}2A-1}=\frac{2\left(\cos2A-1\right)^{2}}{2\left(\cos2A+1\right)^{2}}=\frac{\left(2\sin^{2}A\right)^{2}}{\left(2\cos^{2}A\right)^{2}}=\tan^{4}A=$ right side. $\blacksquare$
+### Solution to Exercise 13
 
-## Problem 17
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-(Review Reference Problem 5, Comprehensive Application, Problem 17) Given $\sin\alpha-\cos\alpha=\frac{1}{5}$, $0\leq\alpha\leq\pi$, find the value of $\sin\left(2\alpha-\frac{\pi}{4}\right)$.
+(1) $AB\parallel A'B'\subset$ plane $A'B'C'D'$, and $AB\parallel DC\subset$ plane $D'DC'C$, so the planes parallel to $AB$ are plane $A'B'C'D'$ and plane $D'DC'C$.
 
-### Solution to Problem 17
+(2) $AA'\parallel BB'\subset$ plane $B'BCC'$, $AA'\parallel DD'\subset$ plane $D'DC'C$, so the planes parallel to $AA'$ are plane $B'BCC'$ and plane $D'DC'C$.
 
-By **Formula 5.5.7** and **Formula 5.5.3**.
+(3) $AD\parallel A'D'\subset$ plane $A'B'C'D'$, $AD\parallel BC\subset$ plane $B'BCC'$, so the planes parallel to $AD$ are plane $A'B'C'D'$ and plane $B'BCC'$. $\blacksquare$
 
-From $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, we get $\sin2\alpha=\frac{24}{25}$. Also $0\leq\alpha\leq\pi$ and $\sin\alpha-\cos\alpha=\frac{1}{5}> 0$, giving $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. From $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. If $\cos2\alpha=\frac{7}{25}$, then $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ does not hold; hence $\cos2\alpha=-\frac{7}{25}$.
+## Exercise 14
 
-$$
-\sin\left(2\alpha-\frac{\pi}{4}\right)=\sin2\alpha\cos\frac{\pi}{4}-\cos2\alpha\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}\left(\frac{24}{25}+\frac{7}{25}\right)=\frac{31\sqrt{2}}{50}.
-$$
+(Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E'$ is a point on $A'A$. Prove that $AB\parallel$ plane $DCC'D'$.
 
-$\blacksquare$
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E'$ a point on the lateral edge $A'A$.)
 
-## Problem 18
+### Solution to Exercise 14
 
-(Review Reference Problem 5, Comprehensive Application, Problem 18) Given $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, find the value of $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$.
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-### Solution to Problem 18
+In the cuboid, $AB\parallel DC$. Moreover, $DC\subset$ plane $DCC'D'$, and $AB\not\subset$ plane $DCC'D'$.
 
-By **Formula 5.5.7** and **Formula 5.5.1**.
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, the line $AB$ outside the plane is parallel to the line $DC$ lying in the plane, so $AB\parallel$ plane $DCC'D'$. $\blacksquare$
 
-From $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$ and $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, we get $\frac{5\pi}{3}< \frac{\pi}{4}+x< 2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. Hence $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. Multiplying the two gives $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. Also $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, giving $\sin2x=\frac{7}{25}$. The original expression $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
+## Exercise 15
 
-## Problem 19
+(Exercise 8.5, Problem 1) Determine whether the following statements are correct. If correct, explain why; if wrong, give a counterexample.
 
-(Review Reference Problem 5, Comprehensive Application, Problem 19) Given $\sin\theta+\cos\theta=2\sin\alpha$, $\sin\theta\cos\theta=\sin^{2}\beta$. Prove that $4\cos^{2}2\alpha=\cos^{2}2\beta$.
+(1) Given planes $\alpha$, $\beta$ and lines $m$, $n$, if $m\subset\alpha$, $n\subset\alpha$, $m\parallel\beta$, $n\parallel\beta$, then $\alpha\parallel\beta$.
 
-### Solution to Problem 19
+(2) If two non-parallel lines in a plane $\alpha$ are both parallel to another plane $\beta$, then $\alpha\parallel\beta$.
 
-By **Formula 5.5.8** (Double-Angle Cosine).
+(3) Two planes parallel to the same line are parallel.
 
-From $\left(\sin\theta+\cos\theta\right)^{2}=4\sin^{2}\alpha$, i.e. $1+2\sin\theta\cos\theta=4\sin^{2}\alpha$, $1+2\sin^{2}\beta=4\sin^{2}\alpha$.
+(4) Two planes parallel to the same plane are parallel.
 
-Left side $=4\cos^{2}2\alpha=4\left(1-2\sin^{2}\alpha\right)^{2}$. From $4\sin^{2}\alpha=1+2\sin^{2}\beta$, we get $\cos2\alpha=1-2\sin^{2}\alpha=1-\frac{1+2\sin^{2}\beta}{2}=\frac{1-2\sin^{2}\beta}{2}=\frac{\cos2\beta}{2}$. Hence $4\cos^{2}2\alpha=\cos^{2}2\beta$. $\blacksquare$
+(5) If a line intersects one of two parallel planes, then it must intersect the other.
 
-## Problem 20
+### Solution to Exercise 15
 
-(Review Reference Problem 5, Comprehensive Application, Problem 20) Given the function $f\left(x\right)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
+Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
-(1) Find the least positive period of $f\left(x\right)$;
+(1) Wrong. $m$ and $n$ must intersect; if $m\parallel n$, the two planes may intersect.
 
-(2) When $x\in\left[0,\frac{\pi}{2}\right]$, find the minimum value of $f\left(x\right)$ and the set of $x$ at which the minimum is attained.
+(2) Correct. Two non-parallel lines in $\alpha$ are intersecting lines, and they are both parallel to $\beta$; by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$.
 
-### Solution to Problem 20
+(3) Wrong. Counterexample: two intersecting planes both parallel to a line parallel to their line of intersection.
 
-By **Formula 5.5.7** and **Formula 5.5.8**.
+(4) Correct. By the transitivity of parallelism, two planes parallel to the same plane are parallel to each other.
 
-(1) $f\left(x\right)=\left(\cos^{2}x+\sin^{2}x\right)\left(\cos^{2}x-\sin^{2}x\right)-\sin2x=\cos2x-\sin2x=\sqrt{2}\cos\left(2x+\frac{\pi}{4}\right)$. The period is $T=\pi$.
+(5) Correct. If the line were parallel to the other plane or lay in it, then by the property of parallel planes it would also have no intersection point with the first plane, a contradiction. $\blacksquare$
 
-(2) From $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{4}\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$. When $2x+\frac{\pi}{4}=\pi$, i.e. $x=\frac{3\pi}{8}$, $f\left(x\right)_{\min}=-\sqrt{2}$. $\blacksquare$
+## Exercise 16
 
-## Problem 21
+(Exercise 8.5, Problem 2) A sufficient condition for plane $\alpha$ to be parallel to plane $\beta$ can be ( ).
 
-(Review Reference Problem 5, Comprehensive Application, Problem 21) Given that the function $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ has maximum value $1$.
+(A) there are infinitely many lines in $\alpha$ all parallel to $\beta$;
 
-(1) Find the value of the constant $a$;
+(B) the line $a\parallel\alpha$, $a\parallel\beta$, and the line $a$ lies neither in $\alpha$ nor in $\beta$;
 
-(2) Find the monotonically decreasing intervals of the function $f\left(x\right)$;
+(C) the line $a\subset\alpha$, the line $b\subset\beta$, and $a\parallel\beta$, $b\parallel\alpha$;
 
-(3) Find the set of $x$ for which $f\left(x\right)\geq0$ holds.
+(D) every line in $\alpha$ is parallel to $\beta$.
 
-### Solution to Problem 21
+### Solution to Exercise 16
 
-By **Formula 5.5.3** and **Formula 5.5.4**.
+Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
-(1) $f\left(x\right)=2\sin x\cos\frac{\pi}{6}+\cos x+a=\sqrt{3}\sin x+\cos x+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. The maximum value is $2+a=1$, hence $a=-1$.
+(A) Wrong. Infinitely many lines in $\alpha$ are parallel to $\beta$, but they may all be parallel to the line of intersection of the two planes.
 
-(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. The monotonically decreasing intervals are $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+(B) Wrong. A single line cannot determine that two planes are parallel.
 
-(3) From $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, we get $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. Hence $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
+(C) Wrong. $a$ and $b$ each lying in one plane cannot determine it.
 
-## Problem 22
+(D) Correct. Every line in $\alpha$ is parallel to $\beta$; in particular, one can take two intersecting lines both parallel to $\beta$, and by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$.
 
-(Review Reference Problem 5, Comprehensive Application, Problem 22) Given that the function $f\left(x\right)=\sqrt{3}\sin2x+2\cos^{2}x+m$ has maximum value $6$ on the interval $\left[0,\frac{\pi}{2}\right]$.
-
-(1) Find the value of the constant $m$;
-
-(2) When $x\in\mathbb R$, find the minimum value of the function $f\left(x\right)$ and the set of corresponding $x$.
-
-### Solution to Problem 22
-
-By **Formula 5.5.8** and the auxiliary angle formula.
-
-(1) $f\left(x\right)=\sqrt{3}\sin2x+\cos2x+1+m=2\sin\left(2x+\frac{\pi}{6}\right)+1+m$. From $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{6}\in\left[\frac{\pi}{6},\frac{7\pi}{6}\right]$, the maximum is $2+1+m=6$, hence $m=3$.
-
-(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. The minimum value is $-2+4=2$, at which point $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
-
-## Problem 23
-
-(Review Reference Problem 5, Comprehensive Application, Problem 23) The square $ABCD$ has side length $1$, and $P$, $Q$ are points on sides $AB$, $DA$ respectively. When the perimeter of $\triangle APQ$ is $2$, find the size of $\angle PCQ$.
-
-### Solution to Problem 23
-
-By **Formula 5.5.5** (Tangent of a Sum).
-
-Let $AP=x$, $AQ=y$, then $x+y+\sqrt{x^{2}+y^{2}}=2$. Let $\angle BCP=\alpha$, $\angle DCQ=\beta$, then $\tan\alpha=1-x$, $\tan\beta=1-y$.
-
-From $x+y+\sqrt{x^{2}+y^{2}}=2$, we get $\sqrt{x^{2}+y^{2}}=2-x-y$. Squaring gives $2xy=4-4x-4y+2xy$, i.e. $x+y=1$. Hence $y=1-x$.
-
-$\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(1-x\right)\left(1-y\right)}=\frac{2-\left(x+y\right)}{1-\left(1-x-y+xy\right)}=\frac{1}{x+y-xy}=\frac{1}{1-xy}$. Also $xy=x\left(1-x\right)$.
-
-From $\angle PCQ=\frac{\pi}{2}-\alpha-\beta$, we get $\tan\angle PCQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. Also from $x+y=1$, $xy\leq\frac{1}{4}$.
-
-From the conditions one can prove $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
-
-## Problem 24
-
-(Review Reference Problem 5, Extension and Exploration, Problem 24) Given $\sin\beta+\cos\beta=\frac{1}{5}$, $\beta\in\left(0,\pi\right)$.
-
-(1) Find the value of $\tan\beta$;
-
-(2) Based on the given conditions, can you construct some value-finding problems yourself?
-
-### Solution to Problem 24
-
-By **Formula 5.2.2** (Relations among Trigonometric Functions of the Same Angle).
-
-(1) From $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, we get $\sin2\beta=-\frac{24}{25}$. From $\beta\in\left(0,\pi\right)$ and $\sin\beta+\cos\beta=\frac{1}{5}> 0$, we get $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. Hence $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
-
-(2) One may construct problems finding $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$, etc. $\blacksquare$
-
-## Problem 25
-
-(Review Reference Problem 5, Extension and Exploration, Problem 25) Given two parallel lines $l_{1}\parallel l_{2}$, let $A$ be a fixed point between $l_{1}$ and $l_{2}$, and the distances from $A$ to $l_{1}$ and $l_{2}$ are $h_{1}$ and $h_{2}$ respectively. Let $B$ be a moving point on the line $l_{2}$; draw $AC\perp AB$, with $AC$ meeting the line $l_{1}$ at point $C$. Let $\angle ABD=\alpha$.
-
-(1) Write the analytic expression $S\left(\alpha\right)$ for the area $S$ of $\triangle ABC$ as a function of the angle $\alpha$;
-
-(2) Sketch the graph of the above function;
-
-(3) From the graph in (2), find the minimum value of $S\left(\alpha\right)$.
-
-The figure: two parallel lines $l_1$ (upper) and $l_2$ (lower); the fixed point $A$ lies between them, at distance $h_1$ from $l_1$ and $h_2$ from $l_2$; the moving point $B$ lies on $l_2$, and the perpendicular from $A$ to $AB$ meets $l_1$ at point $C$, forming the right triangle $ABC$ ($\angle BAC=90^\circ$); $\angle ABD=\alpha$ is the angle between $AB$ and $l_2$ (with $D$ on $l_2$ on one side of $B$).
-
-### Solution to Problem 25
-
-By the definition of trigonometric functions.
-
-(1) From $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. Hence $S\left(\alpha\right)=\frac{1}{2}AB\cdot AC=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
-
-(2) The function is $S\left(\alpha\right)=\frac{h_{1}h_{2}}{\sin2\alpha}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$.
-
-(3) From $\sin2\alpha\leq1$, we get $S\left(\alpha\right)\geq h_{1}h_{2}$, attaining the minimum $h_{1}h_{2}$ when $\alpha=\frac{\pi}{4}$. $\blacksquare$
-
-## Problem 26
-
-(Review Reference Problem 5, Extension and Exploration, Problem 26) The British mathematician Taylor gave the following formulas:
-
-$\sin x=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots$,
-
-$\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
-
-Use a computing tool to calculate $\cos0.3$, and compare it with the three-term approximation $0.9553375$.
-
-### Solution to Problem 26
-
-By the Taylor expansion.
-
-From $\cos0.3\approx1-\frac{0.09}{2}+\frac{0.0081}{24}=1-0.045+0.0003375=0.9553375$. The exact value is about $0.9553365$; the three-term approximation is very close to the exact value. $\blacksquare$
-
-## Problem 27
-
-(Review Reference Problem 5, Extension and Exploration, Problem 27) During the Earth's revolution around the Sun, the latitude of the subsolar point changes repeatedly with time.
-
-(1) Let the noon solar altitude angle at a point on the Earth's surface be $\theta$, let $\delta$ be the latitude of the subsolar point at that time, and let $\varphi$ be the local latitude; then these three quantities satisfy $\theta=90^{\circ}-\lvert\varphi-\delta\rvert$. A science group took the vernal equinox of a certain year as the initial time and recorded the average latitude of the subsolar point over the following $400$ consecutive days.
-
-(2) Try to build a function model for the latitude $\delta$ of the subsolar point as a function of time $t$.
-
-### Solution to Problem 27
-
-By **Property 5.7.1** (Steps in Applying Trigonometric Models).
-
-(1) The latitude of the subsolar point changes periodically with time, with a period of one year (about $365$ days); at the vernal equinox ($t=0$), $\delta=0$; at the summer solstice, $\delta$ is maximum (about $23.5^{\circ}$); at the winter solstice, $\delta$ is minimum (about $-23.5^{\circ}$).
-
-(2) One may build the model $\delta=23.5^{\circ}\sin\left(\frac{2\pi t}{365}\right)$, where $t$ is the number of days after the vernal equinox. $\blacksquare$
+Hence choose (D). $\blacksquare$

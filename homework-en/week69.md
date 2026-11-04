@@ -1,434 +1,537 @@
 # week69
-> **Definition 2.1.2 (Slope)**
+> **Definition 8.1.5 (样本相关系数)**
 > 
-> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
-> **Definition 2.2.1 (Point-slope Form)**
+> 样本相关系数 r 衡量两个变量线性相关程度, |r| < = 1, |r| 越接近 1 线性相关程度越强.
+> **Definition 8.2.1 (一元线性回归模型)**
 > 
-> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
-> **Definition 2.2.6 (一般式方程)**
+> 关于 $x$ 和随机变量 $Y$ 的一元线性回归模型为
+> **Definition 8.2.2 (最小二乘法)**
 > 
-> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
-> **Definition 2.4.1 (圆的标准方程)**
+> 使样本数据点到回归直线的距离的平方和最小的方法叫做最小二乘法.
+> **Definition 8.2.4 (经验回归方程)**
 > 
-> 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
-> **Definition 2.4.3 (圆的一般方程)**
+> 用最小二乘法求得的回归方程 y = bx + a 称为经验回归方程.
+> **Definition 8.2.4 (Empirical Regression Equation)**
 > 
-> 点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
+> The regression line y = bx + a obtained by the least squares method.
+> **Definition 8.2.5 (残差)**
+> 
+> 残差 = 观测值 - 预测值, 即 e_i = y_i - y_hat_i.
+> **Definition 8.3.1 (分类变量)**
+> 
+> 变量的不同取值表示个体所属的不同类别, 这类变量称为分类变量.
+> **Definition 8.3.2 ($2\times 2$ 列联表)**
+> 
+> 过成对样本数据进行分析;通过构建一元线性回归 模型,可以研究变量之间的随机关系并进行预测;利用２×２列联表可以检验两个分类变 量的独立性等.在本章的学习过程中,同学们可以进一步体会统计思想在解决实际问题中 的作用. 祝愿同学们通过本册书的学习,不但学到更多的数学知识,而且在数学能力,数学核 心素养等方面都有较大的提高,并培养起更高的数学学习兴趣,形成对数学的更加全面的 认识. 本册导弓 本书根据《普通高中数学课程标准(2017年)》编写,包括计数原理随机变 量及其分布成对数据的统计分析三章内容. 计数问题在日常生活,生产实践中大量存在,也是数学研究的重要问题之一.在计 数原理一章中,同学们将学习分类加法计数原理和分步乘法计数原理,体会这两个原理 在解决计数问题中的基础性作用;运用两个基本计数原理探索排列,组合,二项式定理等 问题,推导相关的公式;在运用它们解决一些简单的计数问题和实际问题的过程中,理解 排列,组合,二项式定理与两个计数原理的关系,体会数学抽象,化繁为简等
+> **Definition 8.3.3 (零假设)**
+> 
+> 需要判断下面的假定关系 ０:＝１＝０ ( )＝＝１＝１ ( ) 是否成立,通常称０为零假设或原假设(ｎｕｌｌｈｙｐｏｔｈｅｓｉｓ).这里,＝１＝０ ( )表示从 ＝０ ｛ ｝中随机选取一个样本点,该样本点属于＝０,＝１ ｛ ｝的概率;而＝１＝１ ( )表 示从＝１ ｛ ｝中随机选取一个样本点,该样本点属于＝１,＝１ ｛ ｝的概率. 由条件概率的定义可知,零假设０等价于 ＝０,＝１ ( ) ＝０ ( )＝＝１,＝１ ( ) ＝１ ( ), 或 ＝０,＝１ ( )＝１ ( )＝＝１,＝１ ( )＝０ ( ). ① 注意到＝０ ｛ ｝和＝１ ｛ ｝为对立事件,于是＝０ ( )＝１－＝１ ( ).再由概率的性质, 我们有 ８２１ 2.例1中的随机抽样数据是否足够确定与X和Y有关的所有概率和条件概率?为什么? 3.根据有关规定,香烟盒上必须印上吸烟有害健康的警示语.那么 (1)吸烟是否对每位烟民一定会
+> **Definition 8.3.4 ($\chi^2$ 统计量)**
+> 
+> 选中分析工具库和 分析工具库ＶＢＡ,单击确定即可把数据分析加载到菜单栏中. (三)统计量的计算 在电子表格软件的函数库中,有一类统计函数提供了计算常用统计量的各种 函数,如ＡＶＥＲＡＧＥ()(平均数),ＭＥＤＩＡＮ()(中位数),ＭＯＤＥ()(众数), ＶＡＲ.Ｐ()(方差),ＳＴＤＥＶ.Ｐ()(标准差),ＰＥＲＣＥＮＴＩＬＥ.ＩＮＣ()(百分位 数),等.可以直接输入函数名称进行调用,也可以通过插入函数的方式选择 调用.例如,求单元格Ａ２到Ａ１０１所有数据的平均数,可以选一空白单元格,输 入＝ＡＶＥＲＡＧＥ(Ａ２:Ａ１０１),或者在菜单栏中依次选择公式— 函数 库— 插入函数,调出函数ＡＶＥＲＡＧＥ,再设置求平均数的单元格范围. 其他函数调用的操作过程类似,只是不同函数的参数设置有所不同,可以根 据函数的说明进行恰当设置. 二,Ｒ软件的简单统计功能 Ｒ软件是一款免费软件,可在其官方网站下载.它通过命令形式进行操作. (一)产生随机数 １.用ｒｕ
 
-## Problem 1
+## Exercise 1
 
-(Review Reference Problems 2, Review and Consolidation, Problem 1) Multiple choice.
+(Exercise 8.2, Problem 2) In the simple linear regression model $\left(1\right)$, what is the meaning of the parameter $b$?
 
-(1) A direction vector of the line $3x+2y-1=0$ is ( ).
+### Solution to Exercise 1
 
-(A) $\left(2,-3\right)$ (B) $\left(2,3\right)$ (C) $\left(-3,2\right)$ (D) $\left(3,2\right)$
+By **Definition 8.2.1 (Simple Linear Regression Model)**.
 
-(2) Let the line $l$ have equation $x-y\sin\theta+2=0$. Then the range of the inclination angle $\alpha$ of $l$ is ( ).
+In the simple linear regression model $Y=bx+a+e$, the parameter $b$ is the slope of the line: it represents the average number of units by which the mean of the response variable $Y$ increases for each additional $1$ unit of the explanatory variable $x$, i.e. it characterizes the direction and magnitude of the linear influence of $x$ on $Y$. $\blacksquare$
 
-(A) $\left[0,\pi\right]$ (B) $\left[\frac{\pi}{4},\frac{\pi}{2}\right]$ (C) $\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$ (D) $\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$
+## Exercise 2
 
-(3) The line symmetric to $3x-4y+5=0$ about the $x$-axis has equation ( ).
+(Exercise 8.2, Problem 3) Connect the points in Figure $8.2-1$ with line segments in increasing order of the father's height. What pattern can you observe in the line graph? Compared with the scatter plot, which one more intuitively shows the relationship between the two variables?
 
-(A) $3x+4y-5=0$ (B) $3x+4y+5=0$ (C) $3x-4y+5=0$ (D) $3x-4y-5=0$
+The figure is a scatter plot of father's height versus daughter's height (Figure 8.2-1): horizontal axis father's height, vertical axis daughter's height, with the points generally rising from lower left to upper right.
 
-### Solution to Problem 1
+### Solution to Exercise 2
 
-(1) The line $3x+2y-1=0$ is $y=-\frac{3}{2}x+\frac{1}{2}$, with slope $-\frac{3}{2}$. By **Common Conclusion 2.1.4** (Direction Vector and Slope), a direction vector $\left(x,y\right)$ satisfies $\frac{y}{x}=-\frac{3}{2}$. Option (A) $\left(2,-3\right)$ satisfies $\frac{-3}{2}=-\frac{3}{2}$. Choose (A).
+By **Definition 8.2.1 (Simple Linear Regression Model)**.
 
-(2) The equation $x-y\sin\theta+2=0$ is $y=\frac{1}{\sin\theta}x+\frac{2}{\sin\theta}$ (when $\sin\theta\ne0$). The slope is $k=\frac{1}{\sin\theta}$. Since $\sin\theta\in\left[-1,1\right]$ and $\sin\theta\ne0$, we have $\lvert k \rvert\ge1$, i.e. $\lvert \tan\alpha \rvert\ge1$. Also $\alpha\in\left[0,\pi\right)$, so $\alpha\in\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$. When $\sin\theta=0$, the equation is $x+2=0$, i.e. $\alpha=\frac{\pi}{2}$. Combining, $\alpha\in\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$. Choose (C).
+After connecting the points in increasing order of the father's height, the line as a whole shows an upward trend from lower left to upper right, i.e. as the father's height increases, the daughter's height generally increases as well.
 
-(3) Reflecting about the $x$-axis replaces $y$ by $-y$. The original $3x-4y+5=0$ becomes $3x+4y+5=0$. Choose (B). $\blacksquare$
+The line graph shows the general trend of how the daughter's height varies with the father's height, but the connections between points are somewhat arbitrary; the scatter plot, by directly showing each pair of data as a point, reveals the distribution of the data and the type of correlation between the two variables more intuitively, so the scatter plot shows the relationship between the two variables more intuitively. $\blacksquare$
 
-## Problem 2
+## Exercise 3
 
-(Review Reference Problems 2, Review and Consolidation, Problem 2) Given that the two equations in each pair below represent parallel lines, find $a$:
+(Exercise 8.2, Problem 1) In estimating the parameters $a$ and $b$ of the simple linear regression model, someone argues that, since $\overline y=\widehat b\overline x+\widehat a$, the point $\left(\overline x,\overline y\right)$ must lie on the regression line. Do you think this is correct?
 
-(1) $2x+3y=a$, $4x+6y-3=0$;
+### Solution to Exercise 3
 
-(2) $x+2ay-1=0$, $\left(3a-1\right)x-ay-1=0$;
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas).
 
-(3) $x+\left(1+a\right)y=2-a$, $2ax+4y=-16$.
+This statement is correct.
 
-### Solution to Problem 2
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat a=\overline y-\widehat b\overline x$, i.e. $\overline y=\widehat b\overline x+\widehat a$.
 
-By **Common Conclusion 2.1.5** (Two Parallel Lines), parallel means equal slopes (or both perpendicular to the $x$-axis).
-
-(1) $2x+3y=a$ is $y=-\frac{2}{3}x+\frac{a}{3}$, and $4x+6y-3=0$ is $y=-\frac{2}{3}x+\frac{1}{2}$. Slopes are equal. Parallel but not coincident means $\frac{a}{3}\ne\frac{1}{2}$, i.e. $a\ne\frac{3}{2}$. The equations are proportional: $\frac{2}{4}=\frac{3}{6}=\frac{a}{3}$, so when $a=\frac{3}{2}$ they coincide. Hence $a\ne\frac{3}{2}$.
-
-(2) $x+2ay-1=0$ is $y=-\frac{1}{2a}x+\frac{1}{2a}$ ($a\ne0$), and $\left(3a-1\right)x-ay-1=0$ is $y=\frac{3a-1}{a}x-\frac{1}{a}$. Equal slopes: $-\frac{1}{2a}=\frac{3a-1}{a}$, i.e. $-1=2\left(3a-1\right)=6a-2$, so $a=\frac{1}{6}$. When $a=0$, the lines are $x=1$ and $x=-1$, also parallel. Hence $a=0$ or $a=\frac{1}{6}$.
-
-(3) $x+\left(1+a\right)y=2-a$, $2ax+4y=-16$. Parallel means $\frac{1}{2a}=\frac{1+a}{4}$, i.e. $4=2a\left(1+a\right)$, i.e. $a^2+a-2=0$, i.e. $\left(a+2\right)\left(a-1\right)=0$. Hence $a=-2$ or $a=1$. When $a=-2$, the lines are $x-y=4$ and $-4x+4y=-16$ (i.e. $x-y=4$), coincident, rejected. When $a=1$, the lines are $x+2y=1$ and $2x+4y=-16$, parallel but not coincident. Hence $a=1$. $\blacksquare$
-
-## Problem 3
-
-(Review Reference Problems 2, Review and Consolidation, Problem 3) Given that the two equations in each pair below represent perpendicular lines, find $a$:
-
-(1) $4ax+y=1$, $\left(1-a\right)x+y=-1$;
-
-(2) $2x+ay=2$, $ax+2y=1$;
-
-(3) $\left(3a+2\right)x+\left(1-4a\right)y+8=0$, $\left(5a-2\right)x+\left(a+4\right)y-7=0$.
-
-### Solution to Problem 3
-
-By **Common Conclusion 2.1.6** (Two Perpendicular Lines), the product of slopes is $-1$.
-
-(1) $4ax+y=1$ is $y=-4ax+1$, slope $k_1=-4a$. $\left(1-a\right)x+y=-1$ is $y=-\left(1-a\right)x-1$, slope $k_2=a-1$. From $k_1k_2=-1$, we get $-4a\left(a-1\right)=-1$, i.e. $4a^2-4a-1=0$, so $a=\frac{1\pm\sqrt 2}{2}$.
-
-(2) $2x+ay=2$ is $y=-\frac{2}{a}x+\frac{2}{a}$ ($a\ne0$), slope $k_1=-\frac{2}{a}$. $ax+2y=1$ is $y=-\frac{a}{2}x+\frac{1}{2}$, slope $k_2=-\frac{a}{2}$. From $k_1k_2=-1$, we get $\left(-\frac{2}{a}\right)\left(-\frac{a}{2}\right)=1=-1$, a contradiction. When $a=0$, the lines are $x=1$ and $y=\frac{1}{2}$, one perpendicular to the $x$-axis and the other parallel to the $x$-axis, hence perpendicular. Hence $a=0$.
-
-(3) By **Definition 2.2.6 (General Form)**, two lines are perpendicular iff $A_1A_2+B_1B_2=0$. Substituting:
+Substituting $x=\overline x$ into the empirical regression equation $\widehat y=\widehat b x+\widehat a$ (**Definition 8.2.4 (Empirical Regression Equation)**) gives
 
 $$
-\left(3a+2\right)\left(5a-2\right)+\left(1-4a\right)\left(a+4\right)=0.
+\widehat y=\widehat b\overline x+\widehat a=\overline y.
 $$
 
-Expanding gives $15a^2+10a-6a-4+a+4-4a^2-16a=0$, i.e. $11a^2-11a=0$, i.e. $11a\left(a-1\right)=0$. Hence $a=0$ or $a=1$. $\blacksquare$
+Thus the coordinates of the point $\left(\overline x,\overline y\right)$ satisfy the empirical regression equation, so it must lie on the regression line. $\blacksquare$
 
-## Problem 4
+## Exercise 4
 
-(Review Reference Problems 2, Review and Consolidation, Problem 4) Find the equation of the line parallel to $x-y-2=0$ at distance $2\sqrt 2$.
+(Exercise 8.2, Problem 2) Suppose the empirical regression equation of a daughter's height $y$ on her father's height $x$ is $\widehat y=0.81x+25.82$, and the father's height is $175\,\mathrm{cm}$; predict his daughter's height.
 
-### Solution to Problem 4
+### Solution to Exercise 4
 
-By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), let the desired line be $x-y+c=0$.
+By **Definition 8.2.4 (Empirical Regression Equation)**.
 
-The distance between the parallel lines is $\frac{\lvert c-\left(-2\right) \rvert}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\lvert c+2 \rvert}{\sqrt 2}=2\sqrt 2$.
-
-Hence $\lvert c+2 \rvert=4$, i.e. $c+2=4$ or $c+2=-4$, i.e. $c=2$ or $c=-6$.
-
-The desired lines are $x-y+2=0$ or $x-y-6=0$. $\blacksquare$
-
-## Problem 5
-
-(Review Reference Problems 2, Review and Consolidation, Problem 5) Two sides of a parallelogram lie on the lines $x+y-1=0$ and $3x-y+4=0$, and their diagonal intersection is $M\left(3,3\right)$. Find the equations of the other two sides.
-
-### Solution to Problem 5
-
-The intersection of the two given sides: solving $\begin{cases}x+y-1=0\\3x-y+4=0\end{cases}$, adding gives $4x+3=0$, i.e. $x=-\frac{3}{4}$, $y=\frac{7}{4}$. One vertex is $\left(-\frac{3}{4},\frac{7}{4}\right)$.
-
-The diagonal intersection $M\left(3,3\right)$ is the center of the parallelogram, so the opposite vertex is $2M-\left(-\frac{3}{4},\frac{7}{4}\right)=\left(\frac{27}{4},\frac{17}{4}\right)$.
-
-The other two sides are parallel to the given sides.
-
-(a) The side parallel to $x+y-1=0$ passes through $\left(\frac{27}{4},\frac{17}{4}\right)$, with equation $x+y-\frac{27}{4}-\frac{17}{4}=0$, i.e. $x+y-11=0$.
-
-(b) The side parallel to $3x-y+4=0$ passes through $\left(\frac{27}{4},\frac{17}{4}\right)$; translating $3x-y+4=0$: $3\cdot\frac{27}{4}-\frac{17}{4}+c=0$, i.e. $\frac{81-17}{4}+c=0$, i.e. $c=-16$. The equation is $3x-y-16=0$. $\blacksquare$
-
-## Problem 6
-
-(Review Reference Problems 2, Review and Consolidation, Problem 6) Find the equations of the following circles:
-
-(1) center $M\left(-5,3\right)$, passing through $A\left(-8,-1\right)$;
-
-(2) passing through $A\left(-2,4\right)$, $B\left(1,3\right)$, $C\left(2,6\right)$;
-
-(3) center on the line $3x+y-5=0$, passing through the origin and $\left(3,-1\right)$.
-
-### Solution to Problem 6
-
-Use **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
-
-(1) The radius is $\sqrt{\left(-8+5\right)^2+\left(-1-3\right)^2}=\sqrt{9+16}=5$. The circle is $\left(x+5\right)^2+\left(y-3\right)^2=25$.
-
-(2) Let the general equation be $x^2+y^2+Dx+Ey+F=0$. Substituting the three points:
+Substituting $x=175$ into the empirical regression equation $\widehat y=0.81x+25.82$ gives
 
 $$
-\begin{cases}4+16-2D+4E+F=0,\\1+9+D+3E+F=0,\\4+36+2D+6E+F=0.\end{cases}
+\widehat y=0.81\times 175+25.82=167.57.
 $$
 
-i.e. $\begin{cases}-2D+4E+F=-20\\D+3E+F=-10\\2D+6E+F=-40\end{cases}$. Subtracting the first from the second: $3D-E=10$. Subtracting the second from the third: $D+3E=-30$. Solving gives $D=0$, $E=-10$, $F=20$. The circle is $x^2+y^2-10y+20=0$.
+Thus the predicted height of his daughter is $167.57\,\mathrm{cm}$. $\blacksquare$
 
-(3) The center is on $3x+y-5=0$; let it be $\left(a,5-3a\right)$. The circle passes through the origin $\left(0,0\right)$ and $\left(3,-1\right)$, so
+## Exercise 5
 
-$$
-a^2+\left(5-3a\right)^2=\left(3-a\right)^2+\left(-1-5+3a\right)^2.
-$$
+(Exercise 8.2, Problem 3) Based on the data in Table $8.1-1$ of Section $8.1.1$, build the empirical regression equation of a person's body fat content on age, and describe how well the resulting regression line fits the scatter plot.
 
-Expanding gives $a^2+25-30a+9a^2=9-6a+a^2+36-36a+9a^2$, i.e. $0=20-12a$, so $a=\frac{5}{3}$. The center is $\left(\frac{5}{3},0\right)$. The squared radius is $\left(\frac{5}{3}\right)^2+0=\frac{25}{9}$. The circle is $\left(x-\frac{5}{3}\right)^2+y^2=\frac{25}{9}$. $\blacksquare$
+### Solution to Exercise 5
 
-## Problem 7
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4 (Empirical Regression Equation)**.
 
-(Review Reference Problems 2, Review and Consolidation, Problem 7) For what value of $m$ does the equation $x^2+y^2-4x+2my+2m^2-2m+1=0$ represent a circle? Find the equation when the radius is maximized.
-
-### Solution to Problem 7
-
-By **Definition 2.4.3 (General Equation of a Circle)**, $D=-4$, $E=2m$, $F=2m^2-2m+1$.
-
-The equation represents a circle iff $D^2+E^2-4F> 0$, i.e. $16+4m^2-4\left(2m^2-2m+1\right)> 0$, i.e. $16+4m^2-8m^2+8m-4> 0$, i.e. $-4m^2+8m+12> 0$, i.e. $m^2-2m-3< 0$, i.e. $\left(m-3\right)\left(m+1\right)< 0$. Hence $-1< m< 3$.
-
-The squared radius is $\frac{D^2+E^2-4F}{4}=\frac{-4m^2+8m+12}{4}=-m^2+2m+3=-\left(m-1\right)^2+4$.
-
-When $m=1$ the radius is maximized, with squared radius $4$. The center is $\left(1,-m\right)=\left(1,-1\right)$. The circle is $\left(x-1\right)^2+\left(y+1\right)^2=4$. $\blacksquare$
-
-## Problem 8
-
-(Review Reference Problems 2, Review and Consolidation, Problem 8) Determine whether the circle $x^2+y^2-6x+4y+12=0$ is tangent to the circle $x^2+y^2-14x-2y+14=0$.
-
-### Solution to Problem 8
-
-By **Definition 2.4.3 (General Equation of a Circle)**, rewrite in standard form.
-
-Circle $C_1:\left(x-3\right)^2+\left(y+2\right)^2=1$, center $O_1\left(3,-2\right)$, radius $r_1=1$.
-
-Circle $C_2:\left(x-7\right)^2+\left(y-1\right)^2=36$, center $O_2\left(7,1\right)$, radius $r_2=6$.
-
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the center distance is
+From the $14$ pairs of data in Table $8.1-1$, we compute
 
 $$
-d=\sqrt{\left(7-3\right)^2+\left(1+2\right)^2}=\sqrt{16+9}=5.
+\overline x\approx 48.07,\quad \overline y\approx 27.26.
 $$
 
-$r_1+r_2=1+6=7$, $r_2-r_1=6-1=5=d$. By **Common Conclusion 2.5.3** (Position of Two Circles), since $d=r_2-r_1$, the circles are internally tangent, i.e. tangent. $\blacksquare$
-
-## Problem 9
-
-(Review Reference Problems 2, Comprehensive Application, Problem 9) If the graph of a function $y=f\left(x\right)$ between $x=a$ and $x=b$ can be approximated as a line segment, with $a\le c\le b$, prove:
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+\widehat b=\frac{\sum_{i=1}^{14}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{14}\left(x_i-\overline x\right)^2}\approx 0.576,
 $$
 
-### Solution to Problem 9
-
-By **Common Conclusion 2.1.3** (Slope Formula), the endpoints are $\left(a,f\left(a\right)\right)$ and $\left(b,f\left(b\right)\right)$, with slope
-
 $$
-k=\frac{f\left(b\right)-f\left(a\right)}{b-a}.
+\widehat a=\overline y-\widehat b\overline x\approx -0.448.
 $$
 
-By **Definition 2.2.1 (Point-Slope Form)**, the line through the segment is
+Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of body fat content on age is
 
 $$
-y-f\left(a\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}\left(x-a\right).
+\widehat y=0.576x-0.448.
 $$
 
-Substituting $x=c$ gives
+The slope of the regression line is positive, consistent with the upward trend of the scatter plot from lower left to upper right; the points are roughly distributed near this line, so the line fits the scatter plot well. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 8.2, Problem 4) Compute the sum of all residuals in Table $8.2-2$. What pattern can you find?
+
+### Solution to Exercise 6
+
+By **Definition 8.2.5 (Residual)** and **Common Conclusion 8.2.3** (Least Squares Estimation Formulas).
+
+The residuals in Table $8.2-2$ are $1.057$, $4.413$, $-4.104$, $-0.748$, $3.345$, $2.735$, $-1.977$, $0.735$, $0.091$, $-0.231$, $-3.655$, $-2.104$, $-1.553$, $2.023$.
+
+By **Definition 8.2.5 (Residual)**, their sum is
 
 $$
-f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+\sum_{i=1}^{14}e_i\approx 0.
 $$
 
-Hence the claim follows. $\blacksquare$
-
-## Problem 10
-
-(Review Reference Problems 2, Comprehensive Application, Problem 10) Find the maximum distance from $P\left(-2,-1\right)$ to the line $l:\left(1+3\lambda\right)x+\left(1+\lambda\right)y-2-4\lambda=0$ (where $\lambda$ is any real number).
-
-### Solution to Problem 10
-
-By **Common Conclusion 2.3.1** (Intersection of Two Lines), the equation of $l$ can be rewritten as $\left(x+y-2\right)+\lambda\left(3x+y-4\right)=0$, which represents the pencil of lines through the intersection of $x+y-2=0$ and $3x+y-4=0$.
-
-Solving $\begin{cases}x+y-2=0\\3x+y-4=0\end{cases}$, subtracting gives $2x=2$, i.e. $x=1$, $y=1$. The fixed point is $\left(1,1\right)$.
-
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the distance from $P\left(-2,-1\right)$ to the fixed point $\left(1,1\right)$ is
+Pattern: by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat a=\overline y-\widehat b\overline x$, so
 
 $$
-d_{\max}=\sqrt{\left(1+2\right)^2+\left(1+1\right)^2}=\sqrt{9+4}=\sqrt{13}.
+\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)=\sum_{i=1}^{n}\left[y_i-\left(\widehat b x_i+\widehat a\right)\right]=\sum_{i=1}^{n}y_i-n\widehat b\overline x-n\widehat a=n\overline y-n\widehat b\overline x-n\widehat a=0.
 $$
 
-The maximum occurs when $l$ is perpendicular to $PQ$. The maximum distance is $\sqrt{13}$. $\blacksquare$
+That is, for the empirical regression equation obtained by the least squares method, the sum of all residuals is exactly $0$. $\blacksquare$
 
-## Problem 11
+## Exercise 7
 
-(Review Reference Problems 2, Comprehensive Application, Problem 11) Through $P\left(3,0\right)$ draw a line $l$ such that the segment cut off between the lines $l_1:2x-y-2=0$ and $l_2:x+y+3=0$ is bisected by $P$. Find the equation of $l$.
+(Exercise 8.2, Problem 5) Suppose the $n$ pairs of observations $\left(x_i,y_i\right)$ of the variables $x$ and $Y$ satisfy the simple linear regression model $Y=bx+e$, i.e. the intercept of the regression line is $0$, with $E\left(e\right)=0$ and $D\left(e\right)=\sigma^2$. Write down the least squares estimate of the parameter $b$.
 
-### Solution to Problem 11
+### Solution to Exercise 7
 
-Let the intersection of $l$ with $l_1$ be $A\left(x_1,y_1\right)$ and with $l_2$ be $B\left(x_2,y_2\right)$. Since $P\left(3,0\right)$ is the midpoint of $AB$,
+By **Definition 8.2.2 (Least Squares Method)**.
 
-$$
-\frac{x_1+x_2}{2}=3,\quad\frac{y_1+y_2}{2}=0.
-$$
-
-i.e. $x_1+x_2=6$, $y_1+y_2=0$.
-
-Point $A$ lies on $l_1$: $2x_1-y_1-2=0$. Point $B$ lies on $l_2$: $x_2+y_2+3=0$.
-
-With $y_2=-y_1$ and $x_2=6-x_1$, substituting into $l_2$ gives $\left(6-x_1\right)-y_1+3=0$, i.e. $x_1+y_1=9$.
-
-Solving $\begin{cases}2x_1-y_1=2\\x_1+y_1=9\end{cases}$, adding gives $3x_1=11$, i.e. $x_1=\frac{11}{3}$, $y_1=\frac{16}{3}$. Point $A$ is $\left(\frac{11}{3},\frac{16}{3}\right)$.
-
-The line $l$ passes through $P\left(3,0\right)$ and $A\left(\frac{11}{3},\frac{16}{3}\right)$. By **Common Conclusion 2.1.3** (Slope Formula),
+In this case the sum of squared residuals is
 
 $$
-k=\frac{\frac{16}{3}-0}{\frac{11}{3}-3}=\frac{\frac{16}{3}}{\frac{2}{3}}=8.
+Q\left(b\right)=\sum_{i=1}^{n}\left(y_i-bx_i\right)^2.
 $$
 
-By **Definition 2.2.1 (Point-Slope Form)**, $y=8\left(x-3\right)$, i.e. $8x-y-24=0$. $\blacksquare$
-
-## Problem 12
-
-(Review Reference Problems 2, Comprehensive Application, Problem 12) Given the line $l:x-2y-8=0$ and points $A\left(-2,0\right)$ and $B\left(2,4\right)$, suppose there is a point $P$ on $l$ that minimizes $\lvert PA \rvert+\lvert PB \rvert$. Find the coordinates of $P$.
-
-### Solution to Problem 12
-
-Take the reflection $A'\left(a,b\right)$ of $A$ across $l:x-2y-8=0$.
-
-The midpoint $\left(\frac{a-2}{2},\frac{b}{2}\right)$ of $AA'$ lies on $l$: $\frac{a-2}{2}-2\cdot\frac{b}{2}-8=0$, i.e. $a-2b=18$.
-
-$AA'$ is perpendicular to $l$. Since $l$ has slope $\frac{1}{2}$, $AA'$ has slope $-2$, i.e. $\frac{b-0}{a+2}=-2$, i.e. $b=-2a-4$.
-
-Solving gives $a-2\left(-2a-4\right)=18$, i.e. $5a=10$, so $a=2$, $b=-8$. Hence $A'\left(2,-8\right)$.
-
-$\lvert PA \rvert+\lvert PB \rvert=\lvert PA' \rvert+\lvert PB \rvert\ge\lvert A'B \rvert$, with equality when $P$ is the intersection of $A'B$ with $l$.
-
-The line $A'B$ passes through $A'\left(2,-8\right)$ and $B\left(2,4\right)$, i.e. $x=2$. Substituting into $l:x-2y-8=0$ gives $2-2y-8=0$, i.e. $y=-3$. The coordinates of $P$ are $\left(2,-3\right)$. $\blacksquare$
-
-## Problem 13
-
-(Review Reference Problems 2, Comprehensive Application, Problem 13) Find the length of the common chord of the circles $x^2+y^2-10x-10y=0$ and $x^2+y^2-6x+2y-40=0$.
-
-### Solution to Problem 13
-
-Subtracting the circle equations gives $\left(x^2+y^2-6x+2y-40\right)-\left(x^2+y^2-10x-10y\right)=0$, i.e. $4x+12y-40=0$, i.e. $x+3y-10=0$. The line containing the common chord is $x+3y-10=0$.
-
-Circle $C_1:\left(x-5\right)^2+\left(y-5\right)^2=50$, center $\left(5,5\right)$, radius $r=\sqrt{50}=5\sqrt 2$.
-
-By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from the center to the common chord is
+By **Definition 8.2.2 (Least Squares Method)**, take the $b$ that minimizes $Q\left(b\right)$. Expanding $Q\left(b\right)$, differentiating with respect to $b$, and setting it equal to $0$ gives
 
 $$
-d=\frac{\lvert 5+15-10 \rvert}{\sqrt{1+9}}=\frac{10}{\sqrt{10}}=\sqrt{10}.
+-2\sum_{i=1}^{n}\left(y_i-bx_i\right)x_i=0,
 $$
 
-By **Common Conclusion 2.5.2** (Chord Length Formula), the common chord length is
+i.e.
 
 $$
-2\sqrt{r^2-d^2}=2\sqrt{50-10}=2\sqrt{40}=4\sqrt{10}.
+\sum_{i=1}^{n}x_i y_i-b\sum_{i=1}^{n}x_i^2=0.
+$$
+
+Thus the least squares estimate of the parameter $b$ is
+
+$$
+\widehat b=\frac{\sum_{i=1}^{n}x_i y_i}{\sum_{i=1}^{n}x_i^2}.
 $$
 
 $\blacksquare$
 
-## Problem 14
+## Exercise 8
 
-(Review Reference Problems 2, Comprehensive Application, Problem 14) The circles $x^2+y^2=4$ and $x^2+y^2+4x-4y+4=0$ are symmetric about a line $l$. Find the equation of $l$.
+(Exercise 8.2, Problem 1) In regression analysis, what problems can analyzing residuals help us solve?
 
-### Solution to Problem 14
+### Solution to Exercise 8
 
-Circle $C_1$: center $O_1\left(0,0\right)$, radius $r_1=2$.
+By **Definition 8.2.5 (Residual)**.
 
-Circle $C_2:\left(x+2\right)^2+\left(y-2\right)^2=4$, center $O_2\left(-2,2\right)$, radius $r_2=2$.
+By **Definition 8.2.5 (Residual)**, the residual is the difference obtained by subtracting the predicted value from the observed value. Analyzing residuals can help us:
 
-The radii are equal, and the circles are symmetric about $l$, so $l$ is the perpendicular bisector of segment $O_1O_2$.
+(1) judge whether the chosen model is appropriate: if the residual points in the residual plot are fairly evenly distributed in a horizontal band centered at $0$, the chosen linear model is appropriate; if the residual points show some obvious curvilinear trend, the linear model is not appropriate;
 
-The midpoint of $O_1O_2$ is $\left(-1,1\right)$, and the slope of $O_1O_2$ is $\frac{2-0}{-2-0}=-1$. The perpendicular bisector has slope $1$.
+(2) detect outliers in the data: a point with a noticeably large residual may be anomalous data;
 
-By **Definition 2.2.1 (Point-Slope Form)**, $y-1=1\cdot\left(x+1\right)$, i.e. $x-y+2=0$. $\blacksquare$
+(3) judge whether the error variance is constant: if the width of the residual band in the residual plot varies with $x$, the variance of the random error is not constant and the model's variance assumption may not hold;
 
-## Problem 15
+(4) compare the goodness of fit of different models: the smaller the sum of squared residuals, the better the fit. $\blacksquare$
 
-(Review Reference Problems 2, Comprehensive Application, Problem 15) Find the circle symmetric to $C:\left(x+2\right)^2+\left(y-6\right)^2=1$ about the line $3x-4y+5=0$.
+## Exercise 9
 
-### Solution to Problem 15
+(Exercise 8.2, Problem 2) The gross domestic product ($\mathrm{GDP}$) of our country from $2003$ to $2012$ is given in the table below.
 
-Let the reflection of center $C\left(-2,6\right)$ across $3x-4y+5=0$ be $\left(a,b\right)$.
+| Year | $2003$ | $2004$ | $2005$ | $2006$ | $2007$ | $2008$ | $2009$ | $2010$ | $2011$ | $2012$ |
+|---|---|---|---|---|---|---|---|---|---|---|
+| $\mathrm{GDP}$ / 100 million yuan | $137422.0$ | $161840.2$ | $187318.9$ | $219438.5$ | $270092.3$ | $319244.6$ | $348517.7$ | $412119.3$ | $487940.2$ | $538580.0$ |
 
-The connecting line is perpendicular to the given line, which has slope $\frac{3}{4}$, so the connecting line has slope $-\frac{4}{3}$, i.e. $\frac{b-6}{a+2}=-\frac{4}{3}$.
+(1) Draw a scatter plot of $\mathrm{GDP}$ against year;
 
-The midpoint $\left(\frac{a-2}{2},\frac{b+6}{2}\right)$ lies on the line: $3\cdot\frac{a-2}{2}-4\cdot\frac{b+6}{2}+5=0$, i.e. $3a-6-4b-24+10=0$, i.e. $3a-4b-20=0$.
+(2) Build the empirical regression equation of $\mathrm{GDP}$ on year;
 
-Solving $3\left(b-6\right)=-4\left(a+2\right)$ gives $3b-18=-4a-8$, i.e. $4a+3b=10$. Together with $3a-4b=20$, solving gives $a=4$, $b=-2$.
+(3) Describe how well the regression line fits the data in the scatter plot;
 
-The reflected circle has center $\left(4,-2\right)$ and the same radius $1$. Its equation is $\left(x-4\right)^2+\left(y+2\right)^2=1$. $\blacksquare$
+(4) Predict our country's $\mathrm{GDP}$ in $2023$;
 
-## Problem 16
+(5) Does your predicted $\mathrm{GDP}$ for $2023$ agree with the actual value? Please explain why.
 
-(Review Reference Problems 2, Comprehensive Application, Problem 16) Find the circle with center on the line $y=-2x$, passing through $A\left(2,-1\right)$, and tangent to the line $x+y=1$.
+The figure is a scatter plot of China's $\mathrm{GDP}$ against year for 2003 to 2012: horizontal axis the year, vertical axis $\mathrm{GDP}$ (in hundred million yuan), with the points rising roughly along a straight line from lower left to upper right.
 
-### Solution to Problem 16
+### Solution to Exercise 9
 
-The center lies on $y=-2x$; let it be $\left(a,-2a\right)$.
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition 8.2.4 (Empirical Regression Equation)**, and **Common Conclusion 8.2.7** (Cautions on Regression Prediction).
 
-The circle passes through $A\left(2,-1\right)$, so the squared radius is $\left(a-2\right)^2+\left(-2a+1\right)^2$.
+(1) Taking year as the horizontal axis and $\mathrm{GDP}$ as the vertical axis, draw a scatter plot; the points rise approximately along a straight line from lower left to upper right.
 
-The circle is tangent to $x+y=1$. By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from center to line equals the radius:
-
-$$
-\frac{\lvert a-2a-1 \rvert}{\sqrt 2}=\sqrt{\left(a-2\right)^2+\left(-2a+1\right)^2}.
-$$
-
-Squaring both sides gives $\frac{\left(-a-1\right)^2}{2}=\left(a-2\right)^2+\left(1-2a\right)^2$, i.e. $\frac{a^2+2a+1}{2}=a^2-4a+4+4a^2-4a+1$, i.e. $a^2+2a+1=10a^2-16a+10$, i.e. $9a^2-18a+9=0$, i.e. $\left(a-1\right)^2=0$, so $a=1$.
-
-The center is $\left(1,-2\right)$, and the squared radius is $\left(1-2\right)^2+\left(-2+1\right)^2=2$. The circle is $\left(x-1\right)^2+\left(y+2\right)^2=2$. $\blacksquare$
-
-## Problem 17
-
-(Review Reference Problems 2, Extension and Exploration, Problem 17) If the sum of squares of one pair of opposite sides of a quadrilateral equals the sum of squares of the other pair, what is the relation between its diagonals? Why?
-
-### Solution to Problem 17
-
-Take one vertex as the origin and place the two diagonals on the $x$-axis and $y$-axis. Let the four vertices be $A\left(a,0\right)$, $B\left(0,b\right)$, $C\left(c,0\right)$, $D\left(0,d\right)$.
-
-The sum of squares of one pair of opposite sides is $\left|AB\right|^2+\left|CD\right|^2=a^2+b^2+c^2+d^2$, and the other pair is $\left|BC\right|^2+\left|DA\right|^2=b^2+c^2+d^2+a^2$. They are identically equal.
-
-More generally, let the vertices be $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, $C\left(x_3,y_3\right)$, $D\left(x_4,y_4\right)$. One pair has squared sum $\lvert AB \rvert^2+\lvert CD \rvert^2$, the other $\lvert BC \rvert^2+\lvert DA \rvert^2$.
-
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), expanding $\lvert AB \rvert^2+\lvert CD \rvert^2=\lvert BC \rvert^2+\lvert DA \rvert^2$ and simplifying gives $AC\perp BD$.
-
-Hence the diagonals are perpendicular. $\blacksquare$
-
-## Problem 18
-
-(Review Reference Problems 2, Extension and Exploration, Problem 18) Find the area enclosed by the curve $x^2+y^2=\lvert x \rvert+\lvert y \rvert$.
-
-### Solution to Problem 18
-
-By **Definition 2.4.1 (Standard Equation of a Circle)**, consider cases.
-
-(a) When $x\ge0$ and $y\ge0$, the equation is $x^2+y^2=x+y$, i.e. $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. This is the portion in the first quadrant of the circle centered at $\left(\frac{1}{2},\frac{1}{2}\right)$ with radius $\frac{\sqrt 2}{2}$.
-
-By symmetry, the curve has a semicircle in each quadrant, each with area $\frac{1}{2}\pi\cdot\frac{1}{2}=\frac{\pi}{4}$. All four quadrants total $4\times\frac{\pi}{4}=\pi$.
-
-In addition, the four semicircles enclose a square of side $\sqrt 2$ (diagonal $2$), with area $\frac{1}{2}\times2\times2=2$.
-
-The total area is $\pi+2$. $\blacksquare$
-
-## Problem 19
-
-(Review Reference Problems 2, Extension and Exploration, Problem 19) A light ray is emitted from $A\left(-2,3\right)$ and reflected by the $x$-axis; the reflected ray is tangent to the circle $C:\left(x-3\right)^2+\left(y-2\right)^2=1$. Find the equation of the reflected ray.
-
-### Solution to Problem 19
-
-The reflection of $A\left(-2,3\right)$ across the $x$-axis is $A'\left(-2,-3\right)$. The reflected ray passes through $A'$ and is tangent to $C$.
-
-The center is $C\left(3,2\right)$ and radius $r=1$. Let the reflected ray be $y+3=k\left(x+2\right)$, i.e. $kx-y+2k-3=0$.
-
-By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from the center to the tangent equals the radius:
+(2) From the data, the mean year is $\overline x=2007.5$ and the mean $\mathrm{GDP}$ is $\overline y=308251.4$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\frac{\lvert 3k-2+2k-3 \rvert}{\sqrt{k^2+1}}=1.
+\widehat b\approx 45172.8,\quad \widehat a\approx -90376168.
 $$
 
-Simplifying gives $\lvert 5k-5 \rvert=\sqrt{k^2+1}$, i.e. $25\left(k-1\right)^2=k^2+1$, i.e. $24k^2-50k+24=0$, i.e. $12k^2-25k+12=0$.
-
-Solving gives $k=\frac{25\pm\sqrt{625-576}}{24}=\frac{25\pm7}{24}$, i.e. $k=\frac{4}{3}$ or $k=\frac{3}{4}$.
-
-The reflected rays are $y+3=\frac{4}{3}\left(x+2\right)$, i.e. $4x-3y-1=0$, or $y+3=\frac{3}{4}\left(x+2\right)$, i.e. $3x-4y-6=0$. $\blacksquare$
-
-## Problem 20
-
-(Review Reference Problems 2, Extension and Exploration, Problem 20) Given the circle $C:\left(x-1\right)^2+\left(y-2\right)^2=25$ and the line $l:\left(2m+1\right)x+\left(m+1\right)y-7m-4=0$.
-
-(1) Prove that $l$ always passes through a fixed point.
-
-(2) When is the chord cut by $l$ on $C$ longest, and when shortest? Find $m$ and the shortest chord length.
-
-### Solution to Problem 20
-
-(1) The equation of $l$ can be rewritten as $\left(x+y-4\right)+m\left(2x+y-7\right)=0$. By **Common Conclusion 2.3.1** (Intersection of Two Lines), $l$ passes through the intersection of $x+y-4=0$ and $2x+y-7=0$.
-
-Solving $\begin{cases}x+y-4=0\\2x+y-7=0\end{cases}$, subtracting gives $x=3$, $y=1$. The fixed point is $\left(3,1\right)$. Hence $l$ always passes through $\left(3,1\right)$.
-
-(2) The center is $C\left(1,2\right)$ and radius $r=5$. The distance from the fixed point $P\left(3,1\right)$ to the center is
+Thus the empirical regression equation of $\mathrm{GDP}$ on year is
 
 $$
-\lvert CP \rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt 5< 5.
+\widehat y=45172.8x-90376168.
 $$
 
-Point $P$ is inside the circle. When $l$ passes through the center $C$, the chord is longest (a diameter), with length $10$.
+(3) The slope of the regression line is positive, consistent with the upward trend of the scatter plot; the points are roughly distributed near the line, so the fit is good.
 
-When $l$ is perpendicular to $CP$, the chord is shortest. $k_{CP}=\frac{1-2}{3-1}=-\frac{1}{2}$, so the shortest chord has slope $2$.
+(4) Substituting $x=2023$ into the empirical regression equation gives
 
-The slope of $l$ is $-\frac{2m+1}{m+1}$. Setting $-\frac{2m+1}{m+1}=2$, i.e. $-2m-1=2m+2$, i.e. $4m=-3$, gives $m=-\frac{3}{4}$.
+$$
+\widehat y=45172.8\times 2023-90376168\approx 1008430.
+$$
 
-The shortest chord length is $2\sqrt{r^2-\lvert CP \rvert^2}=2\sqrt{25-5}=2\sqrt{20}=4\sqrt 5$. $\blacksquare$
+That is, the predicted $\mathrm{GDP}$ of our country in $2023$ is about $1008430$ (100 million yuan).
+
+(5) By **Common Conclusion 8.2.7** (Cautions on Regression Prediction), the regression equation only applies to the population from which the sample was drawn, and the range of the sample values affects the range over which the equation is applicable. The regression equation was built from data from $2003$ to $2012$, and $2023$ is far outside the sample range; economic development is affected by many factors such as policy and the external environment, so the predicted value generally will not agree with the actual value. $\blacksquare$
+
+## Problem 1
+
+(Exercise 8.2, Review and Consolidation, Problem 1) If all the points in a scatter plot lie on a straight line with slope not equal to $0$, answer the following questions:
+
+(1) Is the relationship between the two variables a functional relation or a correlation?
+
+(2) What is the linear correlation coefficient between the explanatory variable and the response variable?
+
+### Solution to Problem 1
+
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) and **Definition 8.2.1 (Simple Linear Regression Model)**.
+
+(1) By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), when $\left|r\right|=1$, the paired sample data lie exactly on a straight line. In this case, from the distribution of the points, once the value of one variable is fixed, the value of the other is uniquely determined, so the relationship between the two variables is a functional relation.
+
+(2) By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), when the points lie on a line with slope not equal to $0$, the absolute value of the sample correlation coefficient is $1$; when the slope is positive, $r=1$, and when the slope is negative, $r=-1$. Hence the sample correlation coefficient between the explanatory variable and the response variable is $1$ or $-1$. $\blacksquare$
+
+## Problem 2
+
+(Exercise 8.2, Review and Consolidation, Problem 2) To set a work-time quota, a workshop needs to determine the time spent machining parts; to this end, $10$ trials were conducted. The measured data are as follows:
+
+| Number of parts $x$ | $10$ | $20$ | $30$ | $40$ | $50$ | $60$ | $70$ | $80$ | $90$ | $100$ |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Machining time $y$ / $\min$ | $62$ | $68$ | $75$ | $81$ | $89$ | $95$ | $102$ | $108$ | $115$ | $122$ |
+
+(1) Is there a linear correlation between $y$ and $x$?
+
+(2) If there is a linear correlation between $y$ and $x$, find the empirical regression equation.
+
+(3) Using the empirical regression equation found, predict how long it takes to machine $200$ parts.
+
+### Solution to Problem 2
+
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), and **Definition 8.2.4 (Empirical Regression Equation)**.
+
+(1) Taking the number of parts as the horizontal axis and the machining time as the vertical axis, draw a scatter plot; the points lie approximately along a straight line from lower left to upper right. From the data, the sample correlation coefficient is $r\approx 0.9998$; by **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r$ is very close to $1$, so $y$ and $x$ have a very strong positive linear correlation.
+
+(2) From the data, $\overline x=55$, $\overline y=91.7$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+
+$$
+\widehat b\approx 0.668,\quad \widehat a\approx 54.93.
+$$
+
+Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation is
+
+$$
+\widehat y=0.668x+54.93.
+$$
+
+(3) Substituting $x=200$ into the empirical regression equation gives
+
+$$
+\widehat y=0.668\times 200+54.93\approx 188.5.
+$$
+
+Thus the predicted time to machine $200$ parts is about $188.5\,\min$. $\blacksquare$
+
+## Problem 3
+
+(Exercise 8.2, Review and Consolidation, Problem 3) Based on the data on residents' annual income and the sales of product $A$ in a certain city from Example $2$ of Section $8.1.2$, answer the following questions:
+
+(1) Build the empirical regression equation of the sales of product $A$ on residents' annual income;
+
+(2) If a resident's annual income is $40$ (in 10-thousand yuan), predict that household's sales of product $A$.
+
+### Solution to Problem 3
+
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4 (Empirical Regression Equation)**.
+
+(1) From the $10$ pairs of data in Example $2$, the mean resident annual income is $\overline x=38.96$ and the mean sales of product $A$ is $\overline y=39.1$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+
+$$
+\widehat b\approx 1.447,\quad \widehat a\approx -15.84.
+$$
+
+Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of the sales of product $A$ on residents' annual income is
+
+$$
+\widehat y=1.447x-15.84.
+$$
+
+(2) Substituting $x=40$ into the empirical regression equation gives
+
+$$
+\widehat y=1.447\times 40-15.84\approx 42.04.
+$$
+
+Thus the predicted sales of product $A$ for that household is about $42.04$ (in 10-thousand yuan). $\blacksquare$
+
+## Problem 4
+
+(Exercise 8.2, Comprehensive Application, Problem 4) The population issue is one of the key factors constraining our country's development. The table below shows the change in the total population of our country from $1949$ to $2022$.
+
+(The table lists the total population (in 10-thousands of people) for each year from $1949$ to $2022$.)
+
+(1) Draw a scatter plot of the total population against year;
+
+(2) Build the empirical regression equation $\widehat y=\widehat b x+\widehat a$ of the total population (in 10-thousands) on year;
+
+(3) Predict our country's total population in $2023$ and compare it with the officially published figure for $2023$.
+
+The figure is a scatter plot of China's total population against year for 1949 to 2022: horizontal axis the year, vertical axis total population (in ten thousand persons), with the points generally rising roughly along a straight line from lower left to upper right.
+
+### Solution to Problem 4
+
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition 8.2.4 (Empirical Regression Equation)**, and **Common Conclusion 8.2.7** (Cautions on Regression Prediction).
+
+(1) Taking year as the horizontal axis and the total population as the vertical axis, draw a scatter plot; overall the points lie approximately along a straight line from lower left to upper right.
+
+(2) From the table, the mean year is $\overline x\approx 1985.6$ and the mean total population is $\overline y\approx 103511$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+
+$$
+\widehat b\approx 1249.2,\quad \widehat a\approx -2375604.
+$$
+
+Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of the total population on year is
+
+$$
+\widehat y=1249.2x-2375604.
+$$
+
+(3) Substituting $x=2023$ into the empirical regression equation gives
+
+$$
+\widehat y=1249.2\times 2023-2375604\approx 151453.
+$$
+
+That is, the predicted total population of our country in $2023$ is about $151453$ (10-thousands). By **Common Conclusion 8.2.7** (Cautions on Regression Prediction), the total population is affected by factors such as the national birth policy and the laws of population development; in recent years the population growth trend has changed, and a linear regression equation built from earlier years' data, when used to predict a far-off year, gives a predicted value noticeably larger than the officially published total population for $2023$. $\blacksquare$
+
+## Problem 5
+
+(Exercise 8.2, Comprehensive Application, Problem 5) Over a period of time in a certain region, the number $N$ of earthquakes with magnitude at least $x$ was observed; the data are as follows:
+
+| $x$ | $3.0$ | $3.2$ | $3.4$ | $3.6$ | $3.8$ | $4.0$ | $4.2$ | $4.4$ | $4.6$ | $4.8$ | $5.0$ |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| $N$ | $28381$ | $20380$ | $14795$ | $10695$ | $7641$ | $5502$ | $3842$ | $2698$ | $1919$ | $1356$ | $973$ |
+| $x$ | $5.2$ | $5.4$ | $5.6$ | $5.8$ | $6.0$ | $6.2$ | $6.4$ | $6.6$ | $6.8$ | $7.0$ | |
+| $N$ | $746$ | $604$ | $435$ | $274$ | $206$ | $148$ | $98$ | $57$ | $41$ | $25$ | |
+
+From experiments, scientists found that the relationship between earthquake magnitude and the number of earthquakes is $\lg N=a+bx$. Based on the table above, use the simple linear regression model to find the values of $a$ and $b$.
+
+### Solution to Problem 5
+
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4 (Empirical Regression Equation)**.
+
+Let $Y=\lg N$; then the relation $\lg N=a+bx$ is exactly the simple linear regression model $Y=bx+a$.
+
+Taking the common logarithm of each entry gives $Y_i=\lg N_i$. From the data, $\overline x=5.0$, $\overline Y\approx 2.95$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+
+$$
+\widehat b\approx -0.74,\quad \widehat a\approx 6.70.
+$$
+
+Thus, by **Definition 8.2.4 (Empirical Regression Equation)**,
+
+$$
+\lg N=6.70-0.74x.
+$$
+
+That is, $a\approx 6.70$, $b\approx -0.74$. $\blacksquare$
+
+## Problem 6
+
+(Exercise 8.2, Extension and Exploration, Problem 6) There are many relationships between variables in life worth studying. For example, is there some correlation between our own height and weight? Please collect the height and weight data of at least $20$ people (yourself, classmates, friends, family, etc.), use the knowledge of correlation and regression analysis learned in this lesson to draw a scatter plot of the collected data, build the empirical regression equation of weight on height, and analyze the fit of the regression model.
+
+### Solution to Problem 6
+
+By **Definition 8.1.5 (Sample Correlation Coefficient)**, **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), and **Definition 8.2.4 (Empirical Regression Equation)**.
+
+This is an open-ended practical problem; the general steps of the solution are:
+
+(1) Collect the paired data of height $x$ (in $\mathrm{cm}$) and weight $y$ (in $\mathrm{kg}$) of at least $20$ people;
+
+(2) Taking height as the horizontal axis and weight as the vertical axis, draw a scatter plot and observe whether the points show a trend from lower left to upper right;
+
+(3) By **Definition 8.1.5 (Sample Correlation Coefficient)**, compute the sample correlation coefficient $r$ to judge whether there is a linear correlation between weight and height and its strength;
+
+(4) By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), compute $\widehat b$ and $\widehat a$, and by **Definition 8.2.4 (Empirical Regression Equation)**, write the empirical regression equation of weight on height $\widehat y=\widehat b x+\widehat a$;
+
+(5) Draw a residual plot; by **Definition 8.2.5 (Residual)**, observe whether the residual points are evenly distributed in a horizontal band centered at $0$, and analyze the fit of the regression model. $\blacksquare$
+
+## Reading and Thinking 1
+
+(Thinking 1) Please further look up references to learn about the development and applications of regression and correlation.
+
+### Solution to Reading and Thinking 1
+
+By **Definition 8.2.1 (Simple Linear Regression Model)** and **Definition 8.1.5 (Sample Correlation Coefficient)**.
+
+The ideas of regression and correlation were first proposed by the British biologist Galton while studying the heredity of father-son heights; he found that when a father was very tall, his son's height tended to regress toward the average height, from which he proposed the concept of "regression". Later, Pearson and others developed the theory of the correlation coefficient, making correlation and regression analysis important methods of statistics.
+
+By **Definition 8.1.5 (Sample Correlation Coefficient)** and **Definition 8.2.1 (Simple Linear Regression Model)**, correlation analysis measures the direction and strength of the linear correlation between two variables, while regression analysis establishes a mathematical expression of one variable on another, which can then be used for prediction and control. Today the methods of regression and correlation are widely applied in economics, medicine, agriculture, industry, and other fields. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 8.3, Problem 1) The idiom "a famous teacher produces outstanding students" can be interpreted as: students taught by a renowned teacher also reach a high level. Can you give more idioms that describe the association between two attributes or phenomena in life?
+
+### Solution to Exercise 10
+
+By **Definition 8.3.1 (Categorical Variable)**.
+
+By **Definition 8.3.1 (Categorical Variable)**, the idiom "a famous teacher produces outstanding students" describes the association between the two categorical attributes of a teacher's level and a student's level.
+
+Similar idioms include: "a tiger father begets no dog son" (the association between the ability of a father and that of his child), "timely snow promises a good harvest" (the association between winter snow and the coming year's harvest), "near vermilion one stains red, near ink one stains black" (the association between one's environment and one's conduct), "a boxer never lays down his fists, a singer never lays down his voice" (the association between diligence in practice and the level of skill), and so on. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 8.3, Problem 2) Are the random sampling data in Example $1$ sufficient to determine all the probabilities and conditional probabilities related to $X$ and $Y$? Why?
+
+### Solution to Exercise 11
+
+By **Definition 8.3.3 (Null Hypothesis)**.
+
+Not sufficient.
+
+By **Definition 8.3.3 (Null Hypothesis)**, to determine all the probabilities and conditional probabilities related to $X$ and $Y$, one needs to know the true proportions of each category combination in the population. In Example $1$, only a random sample was drawn from the population, and the frequencies in the sample are only estimates of the population probabilities; because of the randomness of sampling, the sample proportions do not equal the true population probabilities.
+
+Therefore, random sampling data can only be used to estimate the probabilities and conditional probabilities related to $X$ and $Y$, and cannot determine them exactly. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 8.3, Problem 3) According to relevant regulations, cigarette packs must bear the warning "smoking is harmful to health". Then
+
+(1) Does smoking necessarily cause health problems for every smoker?
+
+(2) Someone says that smoking does not necessarily cause health problems, so one may smoke. Is this statement correct?
+
+### Solution to Exercise 12
+
+By **Definition 8.3.3 (Null Hypothesis)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
+
+(1) Not necessarily. By **Common Conclusion 8.3.5** (Rules for the Independence Test), an independence test infers, in the statistical sense, whether there is an association between smoking and lung cancer; it shows that smokers have a higher overall probability of lung cancer, but it does not mean that every smoker will necessarily develop health problems.
+
+(2) This statement is not correct. Although smoking does not necessarily cause health problems, the statistical test in **Common Conclusion 8.3.5** (Rules for the Independence Test) shows that there is an association between smoking and lung cancer, and smoking significantly increases the risk of lung cancer. Defending smoking on the grounds that "it does not necessarily cause [health problems]" ignores the risk revealed by the statistical law and is incorrect. $\blacksquare$
+
+## Exercise 13
+
+(Exercise 8.3, Problem 4) Suppose that in the "Problem" of this section, only $44$ students were randomly sampled, of whom $24$ were boys and $20$ were girls, and they were surveyed about whether they exercise regularly; the data are as follows:
+
+| Gender | Do not exercise regularly | Exercise regularly | Total |
+|---|---|---|---|
+| Female | $5$ | $15$ | $20$ |
+| Male | $6$ | $18$ | $24$ |
+| Total | $11$ | $33$ | $44$ |
+
+(1) Based on this, can one infer that the proportion of female students who exercise regularly differs from the proportion of male students who exercise regularly at this school?
+
+(2) Draw a stacked bar chart of equal height and explain the inference.
+
+The figure is an equal-height stacked bar chart: two bars of the same height represent girls and boys respectively; each bar is stacked proportionally into "does not exercise regularly" and "exercises regularly" parts, with the "exercises regularly" part taking up $0.75$ of the girls' bar and also $0.75$ of the boys' bar, the corresponding parts of the two bars being the same height.
+
+### Solution to Exercise 13
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
+
+(1) From the table, the proportion of girls who exercise regularly is $\frac{15}{20}=0.75$, and the proportion of boys who exercise regularly is $\frac{18}{24}=0.75$, so the two are equal.
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)**,
+
+$$
+\chi^2=\frac{44\times\left(5\times 18-15\times 6\right)^2}{20\times 24\times 11\times 33}=\frac{44\times 0}{20\times 24\times 11\times 33}=0.
+$$
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), $\chi^2=0< 2.706$, so there is insufficient evidence to infer that the proportion of female students who exercise regularly differs from the proportion of male students who exercise regularly at this school.
+
+(2) In the stacked bar chart of equal height, the two bars representing girls and boys have the same height, and the proportion occupied by the "exercise regularly" part within each bar is also the same (both $0.75$), which intuitively shows that there is no obvious association between gender and whether one exercises regularly. $\blacksquare$
+
+## Exercise 14
+
+(Exercise 8.3, Problem 1) For the sampling data in Example $3$, conduct an independence test with small probability value $\alpha=0.05$ to infer whether there is a difference between the efficacy of drug $A$ and that of drug $B$? Using the method of the independence test, write down the basis for the inference.
+
+### Solution to Exercise 14
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
+
+In Example $3$, among the $67$ patients taking drug $A$, $15$ were not cured and $52$ were cured; among the $69$ patients taking drug $B$, $6$ were not cured and $63$ were cured. By **Definition 8.3.4 ($\chi^2$ Statistic)**,
+
+$$
+\chi^2=\frac{136\times\left(15\times 63-52\times 6\right)^2}{67\times 69\times 21\times 115}\approx 4.88.
+$$
+
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
+
+$$
+\chi^2\approx 4.88> 3.841,
+$$
+
+we infer that the null hypothesis does not hold, i.e. we consider there to be a difference between the efficacy of drug $A$ and that of drug $B$, and the probability that this inference is wrong is no more than $0.05$. $\blacksquare$

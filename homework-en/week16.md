@@ -1,367 +1,534 @@
 # week16
-> **Definition 4.4.1 (对数函数)**
+> **Definition 5.2.1 (Sine, Cosine, Tangent)**
 > 
-> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
-> **Definition 4.4.2 (反函数)**
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (终边上任意一点的三角函数比值)**
 > 
-> ………………………… ４.４　对数函数 １３０ …………………………………………… 探究与发现　互为反函数的两个函数图象间的关系 １３５ … ４.５　函数的应用(二) １４２ ………………………………… 阅读与思考　中外历史上的方程求解 １４７ …………… 文献阅读与数学写作　对数概念的形成与发展 １５７ …… 小结 １５８ ……………………………………………………… 复习参考题４ １５９ …………………………………………… 数学建模　建立函数模型解决实际问题 １６２ ………… 第五章　三角函数 １６７ ………………………………………… ５.１　任意角和弧度制 １６８ …………………………………… ５.２　三角函数的概念 １７７ …………………………………… 阅读与思考　三角学与天文学 １８６ …………………… ５.３　诱导公式 １８８ …………………………………………… ５.４　三角函数的图象与性质 １９６ …………………………… 探究与发现　函数狔＝ｓｉｎ(ω＋φ)及 函数狔＝
-
-## Exercise 1
-
-(Exercise 4.4, Problem 1) Find the domains of the following functions.
-
-(1) $y=\ln\left(1-x\right)$;
-
-(2) $y=\frac{1}{\lg x}$;
-
-(3) $y=\log_7\frac{1}{1-3x}$;
-
-(4) $y=\log_a\left|x\right|$ ($a> 0$, and $a\neq 1$).
-
-### Solution to Exercise 1
-
-By **Definition 4.4.1 (Logarithmic Function)**, the antilogarithm must be greater than $0$.
-
-(1) $1-x> 0$, i.e. $x< 1$, so the domain is $\left(-\infty,1\right)$.
-
-(2) $x> 0$ and $\lg x\neq 0$, i.e. $x> 0$ and $x\neq 1$, so the domain is $\left(0,1\right)\cup\left(1,+\infty\right)$.
-
-(3) $\frac{1}{1-3x}> 0$, i.e. $1-3x> 0$, $x< \frac{1}{3}$, so the domain is $\left(-\infty,\frac{1}{3}\right)$.
-
-(4) $\left|x\right|> 0$, i.e. $x\neq 0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 4.4, Problem 2) Draw the graphs of the following functions.
-
-(1) $y=\lg 10^x$;
-
-(2) $y=10^{\lg x}$.
-
-The graphs: on the left, the graph of $y=\lg 10^x=x$ is the whole straight line of slope $1$ passing through the origin in the rectangular coordinate plane (crossing the first and third quadrants); on the right, the graph of $y=10^{\lg x}=x$ ($x> 0$) is the ray on the same line $y=x$ restricted to $x> 0$ (lying only in the first quadrant, extending from the origin to the upper right).
-
-### Solution to Exercise 2
-
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), $a^{\log_a N}=N$, $\log_a a^x=x$.
-
-(1) By the relationship between logarithms and exponents, $\lg 10^x=x$, so $y=\lg 10^x$ is exactly the line $y=x$.
-
-(2) By the relationship between logarithms and exponents, $10^{\lg x}=x$ ($x> 0$), so $y=10^{\lg x}$ is exactly the ray $y=x$ ($x> 0$). $\blacksquare$
-
-## Exercise 3
-
-(Exercise 4.4, Problem 3) Given the set $A=\left\{1,2,3,4,\cdots\right\}$ and the set $B=\left\{2,4,6,8,10,\cdots\right\}$, which of the following expressions can establish a function relationship from set $A$ to set $B$? $\;\_\_\;$
-
-(1) $y=2^x$; (2) $y=x^2$; (3) $y=\log_2 x$; (4) $y=2x$.
-
-### Solution to Exercise 3
-
-By the definition of a function, for any element in $A$, the function value obtained according to the correspondence must be in $B$.
-
-(1) $y=2^x$: when $x=1$, $y=2\in B$; when $x=2$, $y=4\in B$, but $6$ in $B$ cannot be expressed as $2^x$ ($x\in A$), and the function value corresponding to each element in $A$ is in $B$, but elements in $B$ do not necessarily have a preimage, so a surjective relationship from $A$ to $B$ cannot be established. In fact, for any $x$ in $A$, the function value of $y=2^x$ is in $B$, but the problem requires "establishing a function relationship from set $A$ to set $B$", i.e. the function value of each element in $A$ is in $B$. $2^x$ is an even number and is in $B$, but for $y=x^2$, when $x=1$, $y=1\notin B$; for $y=\log_2 x$, when $x=1$, $y=0\notin B$; for $y=2x$, for any $x\in A$, $2x$ is a positive even number and is in $B$. Therefore only (4) $y=2x$ satisfies. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 4.4, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=\log_3 x$ and $y=\log_{\frac{1}{3}} x$, and explain their relationship.
-
-The graphs: in the same rectangular coordinate system, the two logarithmic curves both have domain $\left(0,+\infty\right)$, lie to the right of the $y$-axis, and pass through the point $\left(1,0\right)$; $y=\log_3 x$ is a monotonically increasing curve (below the $x$-axis for $0< x< 1$ and above it for $x> 1$), while $y=\log_{\frac{1}{3}} x$ is a monotonically decreasing curve (above the $x$-axis for $0< x< 1$ and below it for $x> 1$), and the two are symmetric about the $x$-axis.
-
-### Solution to Exercise 4
-
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), the graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis.
-
-By the change-of-base formula, $\log_{\frac{1}{3}} x=-\log_3 x$. If the point $\left(x,y\right)$ lies on the graph of $y=\log_3 x$, then the point $\left(x,-y\right)$ lies on the graph of $y=\log_{\frac{1}{3}} x$, and conversely. Therefore the two graphs are symmetric about the $x$-axis. $y=\log_3 x$ is an increasing curve passing through $\left(1,0\right)$; $y=\log_{\frac{1}{3}} x$ is a decreasing curve passing through $\left(1,0\right)$, and the two are mirror images of each other about the $x$-axis. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 4.4, Problem 5) Compare the sizes of the two values in each of the following.
-
-(1) $\lg 0.6$, $\lg 0.8$;
-
-(2) $\log_{0.5} 6$, $\log_{0.5} 4$;
-
-(3) $\log_m 5$, $\log_m 7$.
-
-### Solution to Exercise 5
-
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), use the monotonicity of logarithmic functions to compare.
-
-(1) The base $10> 1$, $\lg x$ is an increasing function, $0.6< 0.8$, so $\lg 0.6< \lg 0.8$.
-
-(2) The base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function, $6> 4$, so $\log_{0.5} 6< \log_{0.5} 4$.
-
-(3) When $m> 1$, $y=\log_m x$ is an increasing function, $5< 7$, so $\log_m 5< \log_m 7$; when $0< m< 1$, $y=\log_m x$ is a decreasing function, $5< 7$, so $\log_m 5> \log_m 7$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 4.4, Problem 6) The gross domestic product of a certain place last year was $3000$ hundred million yuan, and the average growth rate for the next $5$ years is expected to be $6.8\%$.
-
-(1) Let $y$ be the annual gross domestic product (in hundred million yuan) reached after $x$ years; write the function analytic expression for $y$ with respect to $x$ within the next $5$ years;
-
-(2) After how many years will the gross domestic product of this place reach $3900$ hundred million yuan?
-
-### Solution to Exercise 6
-
-By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
-
-(1) The annual growth rate is $6.8\%$, i.e. each year is $1.068$ times the previous year, so $y=3000\times 1.068^x$, $x\in\left\{0,1,2,3,4,5\right\}$.
-
-(2) Let $3000\times 1.068^x=3900$, i.e. $1.068^x=1.3$. By the definition of logarithms, $x=\log_{1.068} 1.3=\frac{\lg 1.3}{\lg 1.068}\approx\frac{0.1139}{0.0286}\approx 4.0$. Therefore after about $4$ years the gross domestic product of this place will reach $3900$ hundred million yuan. $\blacksquare$
-
-### Inquiry and Discovery 1
-
-(Inquiry and Discovery: Relationship between the Graphs of Two Functions that are Inverses of Each Other) In the same rectangular coordinate system, draw the graphs of the exponential function $y=2^x$ and its inverse function $y=\log_2 x$. Can you discover what symmetric relationship the graphs of these two functions have?
-
-The graphs: in the same rectangular coordinate system, the exponential function $y=2^x$ is an increasing curve lying above the $x$-axis and passing through $\left(0,1\right)$, and its inverse $y=\log_2 x$ is an increasing curve lying to the right of the $y$-axis and passing through $\left(1,0\right)$; the line $y=x$ is drawn as the axis of symmetry, and the two curves are mirror images of each other about the line $y=x$.
-
-### Solution to Inquiry and Discovery 1
-
-By **Definition 4.4.2 (Inverse Function)**, the exponential function and the logarithmic function are inverses of each other.
-
-If the point $P_0\left(x_0,y_0\right)$ lies on the graph of $y=2^x$, then $y_0=2^{x_0}$, i.e. $x_0=\log_2 y_0$, so the point $\left(y_0,x_0\right)$ lies on the graph of $y=\log_2 x$. And the point $\left(x_0,y_0\right)$ and the point $\left(y_0,x_0\right)$ are symmetric about the line $y=x$. Therefore, the graphs of two functions that are inverses of each other are symmetric about the line $y=x$. This conclusion holds for any $y=a^x$ ($a> 0$, and $a\neq 1$) and its inverse function $y=\log_a x$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 4.4, Problem 7) The data for how three variables $y_1$, $y_2$, $y_3$ change with the variable $x$ are as follows: when $x=0,5,10,15,20,25,30$, $y_1=5,130,505,1130,2005,3130,4505$; $y_2=5,90,1620,29160,524880,9447840,170061120$; $y_3=5,30,55,80,105,130,155$. Among them, the variable that grows exponentially with respect to $x$ is $\;\_\_\;$.
-
-### Solution to Exercise 7
-
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions), an exponentially growing variable has an increasingly fast growth rate.
-
-$y_3$ increases by $25$ for every increase of $5$, showing linear growth; $y_1$ increases by about $125,375,625,875,1125,1375$ for every increase of $5$, with a uniform growth rate, approximately a quadratic function; $y_2$ grows by about $18$ times for every increase of $5$, with an increasingly fast growth rate, showing exponential growth. Therefore the variable that grows exponentially is $y_2$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 4.4, Problem 8) With the help of a calculating tool, estimate the range of values of $x$ for which $3^x> 5x$ (accurate to $0.01$).
-
-### Solution to Exercise 8
-
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions), the exponential function will eventually exceed the linear function, but in the intermediate interval it may be smaller than the linear function.
-
-The equation $3^x=5x$ has two intersection points. Estimate: near $x\approx 0.26$, $3^{0.26}\approx 1.32$, $5\times 0.26=1.30$, the two are close; near $x\approx 2.25$, $3^{2.25}\approx 11.84$, $5\times 2.25=11.25$, the two are close. Therefore the range of values for which $3^x> 5x$ is approximately $x< 0.26$ or $x> 2.25$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 4.4, Problem 9) The graph of the logarithmic function $y=\lg x$ and the graph of the linear function $y=f\left(x\right)$ have two common points $A$ and $B$, where $A$ lies on the $x$-axis and the abscissa of $B$ is $2$. Find the analytic expression of the linear function $y=f\left(x\right)$.
-
-### Solution to Exercise 9
-
-By **Definition 4.4.1 (Logarithmic Function)** and **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), $y=\lg x$ passes through the fixed point $\left(1,0\right)$.
-
-$A$ lies on the $x$-axis and on $y=\lg x$, so $A=\left(1,0\right)$. The abscissa of $B$ is $2$, so $B=\left(2,\lg 2\right)$. The linear function passes through $A\left(1,0\right)$ and $B\left(2,\lg 2\right)$, and the slope is $k=\frac{\lg 2-0}{2-1}=\lg 2$, so $f\left(x\right)=\left(\lg 2\right)\left(x-1\right)$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 4.4, Problem 10) The graph of the function $y=f\left(x\right)$ passes through $\left(1,0\right)$, is increasing on $\left(0,+\infty\right)$, and has $y=1$ as a horizontal asymptote; then $y=f\left(x\right)$ could be ( ).
-
-(A) $y=1-x^{-1}$, $x\in\left(0,+\infty\right)$ (B) $y=\frac{3}{2}-\left(\frac{1}{2}\right)^x$, $x\in\left(0,+\infty\right)$ (C) $y=\ln x$ (D) $y=x-1$, $x\in\left(0,+\infty\right)$
-
-### Solution to Exercise 10
-
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) and **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
-
-(A) $y=1-\frac{1}{x}$: when $x=1$, $y=0$, it is increasing, and when $x\to+\infty$, $y\to 1$, which matches the graph features. (B) when $x=1$, $y=\frac{3}{2}-\frac{1}{2}=1\neq 0$, which does not match. (C) $y=\ln x$, when $x\to+\infty$, $y\to+\infty$, it does not have $y=1$ as an asymptote, which does not match. (D) $y=x-1$ is a straight line, which does not match the graph. Therefore choose (A). $\blacksquare$
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.4.1 (周期函数)**
+> 
+> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 ## Problem 1
 
-(Exercise 4.4, Review and Consolidation, Problem 1) Find the domains of the following functions.
+(Exercise 5.4, Comprehensive Application, Problem 12) Among the following four functions, which one has least positive period $\pi$ and is monotonically decreasing on $\left(\frac{\pi}{2},\pi\right)$? ( )
 
-(1) $y=\sqrt\left[3\right]{\log_2 x}$;
+(A) $y=\lvert\sin x\rvert$
 
-(2) $y=\sqrt{\log_{0.5}\left(4x-3\right)}$.
+(B) $y=\cos x$
+
+(C) $y=\tan x$
+
+(D) $y=\cos\frac{x}{2}$
 
 ### Solution to Problem 1
 
-By **Definition 4.4.1 (Logarithmic Function)**, the antilogarithm must be greater than $0$.
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) $\log_2 x$ requires $x> 0$, and the cube root has no restriction on the radicand, so the domain is $\left(0,+\infty\right)$.
+(A) $y=\lvert\sin x\rvert$ has period $\pi$, and on $\left(\frac{\pi}{2},\pi\right)$, $\sin x> 0$ and is decreasing, so $\lvert\sin x\rvert$ is decreasing; it satisfies the condition.
 
-(2) We require $\log_{0.5}\left(4x-3\right)\ge 0$ and $4x-3> 0$. Since the base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function; $\log_{0.5}\left(4x-3\right)\ge 0=\log_{0.5} 1$ is equivalent to $0< 4x-3\le 1$, i.e. $\frac{3}{4}< x\le 1$. So the domain is $\left(\frac{3}{4},1\right]$. $\blacksquare$
+(B) $y=\cos x$ has period $2\pi$; it does not satisfy.
+
+(C) $y=\tan x$ is increasing on $\left(\frac{\pi}{2},\pi\right)$; it does not satisfy.
+
+(D) $y=\cos\frac{x}{2}$ has period $4\pi$; it does not satisfy.
+
+Choose (A). $\blacksquare$
 
 ## Problem 2
 
-(Exercise 4.4, Review and Consolidation, Problem 2) Compare the sizes of the two positive numbers $m$, $n$ satisfying the following conditions.
+(Exercise 5.4, Comprehensive Application, Problem 13) If $x$ is an interior angle of an oblique triangle, write down the set of $x$ for which the following inequalities hold:
 
-(1) $\log_3 m< \log_3 n$;
+(1) $1+\tan x\le0$;
 
-(2) $\log_{0.3} m< \log_{0.3} n$;
-
-(3) $\log_a m< \log_a n$ ($0< a< 1$);
-
-(4) $\log_a m> \log_a n$ ($a> 1$).
+(2) $\tan x-\sqrt{3}\ge0$.
 
 ### Solution to Problem 2
 
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $a> 1$, $y=\log_a x$ is increasing, and when $0< a< 1$, it is decreasing.
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), an interior angle $x$ of an oblique triangle satisfies $x\in\left(0,\pi\right)$ and $x\neq\frac{\pi}{2}$.
 
-(1) The base $3> 1$, increasing; from $\log_3 m< \log_3 n$ we get $m< n$.
+(1) From $1+\tan x\le0$, we get $\tan x\le-1$. On $\left(\frac{\pi}{2},\pi\right)$, $\tan x\le-1=\tan\frac{3\pi}{4}$, so $x\in\left[\frac{3\pi}{4},\pi\right)$.
 
-(2) The base $0.3\in\left(0,1\right)$, decreasing; from $\log_{0.3} m< \log_{0.3} n$ we get $m> n$.
-
-(3) $0< a< 1$, decreasing; from $\log_a m< \log_a n$ we get $m> n$.
-
-(4) $a> 1$, increasing; from $\log_a m> \log_a n$ we get $m> n$. $\blacksquare$
+(2) From $\tan x-\sqrt{3}\ge0$, we get $\tan x\ge\sqrt{3}=\tan\frac{\pi}{3}$. On $\left(0,\frac{\pi}{2}\right)$, we get $x\in\left[\frac{\pi}{3},\frac{\pi}{2}\right)$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 4.4, Review and Consolidation, Problem 3) Assuming that air resistance is not considered, the functional relationship between the maximum speed of the rocket $v$ (unit: $\mathrm{m/s}$), the mass of the fuel $M$ (unit: $\mathrm{kg}$), and the mass of the rocket (excluding fuel) $m$ (unit: $\mathrm{kg}$) is $v=2000\ln\left(1+\frac{M}{m}\right)$. When the fuel mass is how many times the rocket mass, can the maximum speed of the rocket reach $12\;\mathrm{km/s}$?
+(Exercise 5.4, Comprehensive Application, Problem 14) Find the monotonic intervals of $y=-\tan\left(2x-\frac{3\pi}{4}\right)$.
 
 ### Solution to Problem 3
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$.
 
-$12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. Let $2000\ln\left(1+\frac{M}{m}\right)=12000$, we get $\ln\left(1+\frac{M}{m}\right)=6$, so $1+\frac{M}{m}=\mathrm e^6$, $\frac{M}{m}=\mathrm e^6-1\approx 402$. That is, when the fuel mass is about $402$ times the rocket mass, the maximum speed of the rocket can reach $12\;\mathrm{km/s}$. $\blacksquare$
+$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ has the opposite monotonicity to $y=\tan\left(2x-\frac{3\pi}{4}\right)$. Set $-\frac{\pi}{2}+k\pi< 2x-\frac{3\pi}{4}< \frac{\pi}{2}+k\pi$, which gives $\frac{\pi}{8}+\frac{k\pi}{2}< x< \frac{5\pi}{8}+\frac{k\pi}{2}$. Hence $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ is decreasing on $\left(\frac{\pi}{8}+\frac{k\pi}{2},\ \frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb Z$). $\blacksquare$
 
 ## Problem 4
 
-(Exercise 4.4, Review and Consolidation, Problem 4) The graphs of the functions $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ are as shown in the figure.
-
-(1) Explain which function corresponds to which graph, and explain why;
-
-(2) based on the existing graphs, draw in the same rectangular coordinate system the graphs of $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$;
-
-(3) what do you discover from the graph in (2)?
-
-The graphs: in the same rectangular coordinate system, the three increasing logarithmic curves $y=\log_2 x$, $y=\log_3 x$, and $y=\lg x$ all have domain $\left(0,+\infty\right)$ and pass through the point $\left(1,0\right)$; in the region $x> 1$, from top to bottom the graphs are $y=\log_2 x$ (topmost and steepest), $y=\log_3 x$ (middle), and $y=\lg x$ (bottommost and most gentle), while in the region $0< x< 1$ the vertical order is reversed.
+(Exercise 5.4, Comprehensive Application, Problem 15) Given that $y=f\left(x\right)$ is an odd function defined on $\mathbb R$ with period $2$, and $f\left(0.5\right)=1$, find the values of $f\left(1\right)$ and $f\left(3.5\right)$.
 
 ### Solution to Problem 4
 
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $x> 1$, the smaller the base, the higher the logarithmic function graph.
+By **Definition 5.4.1 (Periodic Function)** and the odd-function property $f\left(-x\right)=-f\left(x\right)$.
 
-(1) When $x> 1$, the smaller the base, the larger the value of $\log_a x$, and the higher the graph. The bases satisfy $2< 3< 10$, so when $x> 1$, the highest graph is $y=\log_2 x$, the middle one is $y=\log_3 x$, and the lowest is $y=\lg x$. That is, the steepest curve corresponds to $y=\log_2 x$, the middle one to $y=\log_3 x$, and the flattest one to $y=\lg x$.
+Since $f\left(x\right)$ is odd, $f\left(0\right)=0$. With period $2$, $f\left(1\right)=f\left(-1+2\right)=f\left(-1\right)=-f\left(1\right)$, hence $f\left(1\right)=0$.
 
-(2) By **Standard Conclusion 4.4.3**, the graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis. Therefore $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ are respectively symmetric to $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ about the $x$-axis.
-
-(3) The graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis. $\blacksquare$
+From $f\left(3.5\right)=f\left(1.5+2\right)=f\left(1.5\right)=f\left(-0.5+2\right)=f\left(-0.5\right)=-f\left(0.5\right)=-1$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 4.4, Review and Consolidation, Problem 5) Atlantic salmon swim upstream every year back to their spawning grounds to lay eggs. Scientists studying salmon have found that the swimming speed $v$ (unit: $\mathrm{m/s}$) of salmon can be expressed as $v=\frac{1}{2}\log_3\frac{O}{100}$, where $O$ represents the number of units of oxygen consumed by the fish.
+(Exercise 5.4, Comprehensive Application, Problem 16) Given $f\left(x\right)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$,
 
-(1) When the oxygen consumption of a fish is $2700$ units, what is its swimming speed?
+(1) Find the least positive period of $f\left(x\right)$;
 
-(2) Calculate the number of units of oxygen consumed by a fish when it is stationary.
+(2) Find the maximum and minimum values of $f\left(x\right)$ on the interval $\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$.
 
 ### Solution to Problem 5
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
+By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$) and **Common Conclusion** (Graphs and Properties of the Sine Function).
 
-(1) Substituting $O=2700$, we get $v=\frac{1}{2}\log_3\frac{2700}{100}=\frac{1}{2}\log_3 27=\frac{1}{2}\times 3=\frac{3}{2}\;\mathrm{m/s}$.
+(1) From $\omega=2$, we get $T=\frac{2\pi}{2}=\pi$.
 
-(2) When stationary, $v=0$, i.e. $\frac{1}{2}\log_3\frac{O}{100}=0$, we get $\log_3\frac{O}{100}=0$, so $\frac{O}{100}=1$, $O=100$. $\blacksquare$
+(2) From $x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$, we get $2x-\frac{\pi}{3}\in\left[-\frac{5\pi}{6},\frac{\pi}{6}\right]$. On this interval, the maximum of $\sin\left(2x-\frac{\pi}{3}\right)$ is $\sin\frac{\pi}{6}=\frac{1}{2}$ (at $x=\frac{\pi}{4}$), and the minimum is $\sin\left(-\frac{\pi}{2}\right)=-1$ (at $x=-\frac{\pi}{12}$). Hence the maximum of $f\left(x\right)$ is $\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, and the minimum is $\frac{1}{2}\times\left(-1\right)=-\frac{1}{2}$. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 4.4, Review and Consolidation, Problem 6) A certain drug is injected into a patient's blood within $2\;\mathrm{h}$. During the injection, the drug content in the blood increases linearly; after the injection stops, the drug content in the blood decays exponentially. The graph that can reflect how the drug content $Q$ in the blood changes with time $t$ is ( ).
+(Exercise 5.4, Extension and Exploration, Problem 17) In the rectangular coordinate system, given that $\odot O$ is the circle centered at the origin $O$ with radius $2$, and the terminal side of the angle $x$ meets $\odot O$ at $B$, find the function expression relating the y-coordinate $y$ of the point $B$ to $x$, and sketch its graph with the help of information technology.
 
-(A) the peak is at $1\;\mathrm{h}$; (B) the peak is at $2\;\mathrm{h}$, then decays exponentially toward $0$; (C) the peak is at $2\;\mathrm{h}$, then decays linearly; (D) the peak is at $2\;\mathrm{h}$, then decays to a negative value.
+The graphs: on the left is a circle centered at the origin $O$ with radius $2$ in the rectangular coordinate plane, and the terminal side of angle $x$ meets the circle at point $B$; on the right is the graph of the ordinate $y$ of point $B$ as a function of the angle $x$, namely $y=2\sin x$, a sine curve with amplitude $2$ and period $2\pi$, oscillating between $y=-2$ and $y=2$.
 
 ### Solution to Problem 6
 
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions), after the injection stops the drug content decays exponentially, i.e. gradually approaches $0$ but does not become negative.
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**.
 
-The injection lasts $2\;\mathrm{h}$, and the content increases linearly to the peak at $2\;\mathrm{h}$; after it stops, it decays exponentially, approaching $0$ but not becoming negative. Therefore choose (B). $\blacksquare$
+Since the circle has radius $2$, the intersection point $B$ of the terminal side of the angle $x$ with the circle has coordinates $\left(2\cos x,\ 2\sin x\right)$. Hence the y-coordinate of the point $B$ is $y=2\sin x$, $x\in\mathbb R$. Its graph is a sine curve with amplitude $2$ and period $2\pi$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 4.4, Comprehensive Application, Problem 7) Determine whether each of the following pairs of functions are inverses of each other. If so, find their domains and ranges.
+(Exercise 5.4, Extension and Exploration, Problem 18) Given that $y=f\left(x\right)$ ($x\in\mathbb R$) is a periodic function with period $2$, a portion of whose graph is shown in the figure,
 
-(1) $y=\ln x$, $y=\mathrm e^x$;
+(1) Write down the expression for $y=f\left(x\right)$;
 
-(2) $y=-\log_a x$, $y=\left(\frac{1}{a}\right)^x$.
+(2) Sketch the graph of $y=f\left(x+1\right)$.
+
+The graph: a portion of the periodic graph of $y=f\left(x\right)$ (period $2$); the curve passes through the origin, oscillates between $y=-1$ and $y=1$, crosses the $x$-axis at integer points $x$, and has the shape of the sine wave $y=\sin\pi x$; several consecutive periods are drawn.
 
 ### Solution to Problem 7
 
-By **Definition 4.4.2 (Inverse Function)**.
+By **Definition 5.4.1 (Periodic Function)** and the features of the graph.
 
-(1) $y=\ln x$ and $y=\mathrm e^x$ are inverses of each other. The domain of $y=\ln x$ is $\left(0,+\infty\right)$, and its range is $\mathbb R$; the domain of $y=\mathrm e^x$ is $\mathbb R$, and its range is $\left(0,+\infty\right)$.
+(1) Since the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, one may try $f\left(x\right)=\sin\frac{\pi x}{2}$. Check: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, but the period $T=\frac{2\pi}{\pi/2}=4\neq2$. Again, with period $2$ and passing through $\left(0,0\right)$, $\left(1,1\right)$, one may try $f\left(x\right)=\sin\pi x$. Check: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. Since the graph passes through $\left(1,1\right)$ and has period $2$, try $f\left(x\right)=-\cos\pi x$. Check: $f\left(0\right)=-1\neq0$. Combining the facts that the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, we get $f\left(x\right)=\sin\pi x$.
 
-(2) $y=-\log_a x=\log_{\frac{1}{a}} x$, and it is the inverse of $y=\left(\frac{1}{a}\right)^x$. The domain of $y=\log_{\frac{1}{a}} x$ is $\left(0,+\infty\right)$, and its range is $\mathbb R$; the domain of $y=\left(\frac{1}{a}\right)^x$ is $\mathbb R$, and its range is $\left(0,+\infty\right)$. $\blacksquare$
+(2) The graph of $y=f\left(x+1\right)$ is obtained by shifting the graph of $y=f\left(x\right)$ to the left by $1$ unit. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 4.4, Comprehensive Application, Problem 8) Let $y=f\left(x\right)$ represent that when the Celsius temperature is $x$, the Fahrenheit temperature is $y$.
-
-(1) If the inverse function of the function $y=f\left(x\right)$ is $y=g\left(x\right)$, then what does $y=g\left(x\right)$ represent?
-
-(2) If $f\left(30\right)=86$, then find $g\left(86\right)$ and explain its practical meaning.
+(Exercise 5.4, Extension and Exploration, Problem 19) It is easy to see that the sine function $y=\sin x$ is odd, and the sine curve is symmetric about the origin, i.e. the origin is a center of symmetry of the sine curve. Besides the origin, are there other centers of symmetry of the sine curve? If so, what are their coordinates? Also, is the sine curve an axisymmetric figure? If so, what is the equation of its axis of symmetry? Can you explain these phenomena using the properties of the sine function you have learned? Discuss the same questions for the cosine and tangent functions.
 
 ### Solution to Problem 8
 
-By **Definition 4.4.2 (Inverse Function)**.
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) $y=f\left(x\right)$ represents "Celsius temperature $x$ corresponds to Fahrenheit temperature $y$", and its inverse function $y=g\left(x\right)$ represents "Fahrenheit temperature $x$ corresponds to Celsius temperature $y$".
+(1) Centers of symmetry of the sine curve: every intersection of the sine curve with the $x$-axis is a center of symmetry, i.e. $\left(k\pi,0\right)$ ($k\in\mathbb Z$). The sine curve is axisymmetric, with axes of symmetry $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb Z$).
 
-(2) From $f\left(30\right)=86$, i.e. $30$ degrees Celsius corresponds to $86$ degrees Fahrenheit, by the definition of inverse functions, $g\left(86\right)=30$, which means $86$ degrees Fahrenheit corresponds to $30$ degrees Celsius. $\blacksquare$
+(2) Centers of symmetry of the cosine curve: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb Z$). The cosine curve is axisymmetric, with axes of symmetry $x=k\pi$ ($k\in\mathbb Z$).
+
+(3) Centers of symmetry of the tangent curve: $\left(\frac{k\pi}{2},0\right)$ ($k\in\mathbb Z$). The tangent curve is not axisymmetric. $\blacksquare$
+
+## Inquiry and Discovery 1
+
+(Thinking 1) Read the article "The Period of the Functions $y=A\sin\left(\omega x+\varphi\right)$ and $y=A\cos\left(\omega x+\varphi\right)$", and explain the derivation of the period formula $T=\frac{2\pi}{\omega}$.
+
+### Solution to Inquiry and Discovery 1
+
+By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$).
+
+Let $z=\omega x+\varphi$. Then the period of $y=A\sin z$ is $2\pi$. Since $z+2\pi=\omega x+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, we see that when the argument $x$ increases by $\frac{2\pi}{\omega}$, the function value repeats; and when the increase is less than $\frac{2\pi}{\omega}$, the function values do not always repeat. Hence the least positive period is $T=\frac{2\pi}{\omega}$. $\blacksquare$
+
+## Inquiry and Discovery 2
+
+(Thinking 1) Read the article "Studying the Properties of the Sine and Cosine Functions Using the Properties of the Unit Circle", and explain how the periodicity, odd-even property, monotonicity and extrema of the trigonometric functions can be obtained with the help of the unit circle.
+
+### Solution to Inquiry and Discovery 2
+
+By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Common Conclusion** (Graphs and Properties of the Sine Function).
+
+(1) Periodicity: each time the terminal side of the angle $x$ makes one full turn around the origin ($2\pi$), the point $P\left(\cos x,\sin x\right)$ returns to its original position, so the period is $2\pi$.
+
+(2) Odd-even property: the terminal sides of the angles $x$ and $-x$ are symmetric about the $x$-axis, so $\cos\left(-x\right)=\cos x$ and $\sin\left(-x\right)=-\sin x$; i.e. cosine is even and sine is odd.
+
+(3) Monotonicity: when the angle $x$ increases from $-\frac{\pi}{2}$ to $\frac{\pi}{2}$, the y-coordinate of the point $P$ increases from $-1$ to $1$, so $\sin x$ increases; when $x$ increases from $\frac{\pi}{2}$ to $\frac{3\pi}{2}$, the y-coordinate decreases from $1$ to $-1$, so $\sin x$ decreases.
+
+(4) Extrema: when $x=\frac{\pi}{2}+2k\pi$, the y-coordinate attains its maximum $1$; when $x=-\frac{\pi}{2}+2k\pi$, the y-coordinate attains its minimum $-1$. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 5.5, Problem 1) Using the sum (difference) angle formulas, find the value of each of the following expressions:
+
+(1) $\sin15^{\circ}$;
+
+(2) $\cos75^{\circ}$;
+
+(3) $\sin75^{\circ}$;
+
+(4) $\tan15^{\circ}$.
+
+### Solution to Exercise 1
+
+By **Formula 5.5.3** (Sine of a Sum), **Formula 5.5.2** (Cosine of a Sum), etc.
+
+(1) Since $\sin15^{\circ}=\sin\left(45^{\circ}-30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}-\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
+
+(2) Since $\cos75^{\circ}=\cos\left(45^{\circ}+30^{\circ}\right)=\cos45^{\circ}\cos30^{\circ}-\sin45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
+
+(3) Since $\sin75^{\circ}=\sin\left(45^{\circ}+30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}+\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{6}+\sqrt{2}}{4}$.
+
+(4) Since $\tan15^{\circ}=\tan\left(45^{\circ}-30^{\circ}\right)=\frac{\tan45^{\circ}-\tan30^{\circ}}{1+\tan45^{\circ}\tan30^{\circ}}=\frac{1-\frac{\sqrt{3}}{3}}{1+\frac{\sqrt{3}}{3}}=2-\sqrt{3}$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 5.5, Problem 2)
+
+(1) Given $\cos\theta=-\frac{3}{5}$, $\theta\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\sin\left(\theta+\frac{\pi}{3}\right)$;
+
+(2) Given $\sin\theta=-\frac{12}{13}$ and $\theta$ a third-quadrant angle, find the value of $\cos\left(\frac{\pi}{6}+\theta\right)$;
+
+(3) Given $\tan\alpha=3$, find the value of $\tan\left(\alpha+\frac{\pi}{4}\right)$.
+
+### Solution to Exercise 2
+
+By **Formula 5.5.3** (Sine of a Sum), **Formula 5.5.2** (Cosine of a Sum) and **Formula 5.5.5** (Tangent of a Sum).
+
+(1) From $\theta\in\left(\frac{\pi}{2},\pi\right)$ and $\cos\theta=-\frac{3}{5}$, we get $\sin\theta=\frac{4}{5}$. Hence
+
+$$
+\sin\left(\theta+\frac{\pi}{3}\right)=\sin\theta\cos\frac{\pi}{3}+\cos\theta\sin\frac{\pi}{3}=\frac{4}{5}\cdot\frac{1}{2}+\left(-\frac{3}{5}\right)\cdot\frac{\sqrt{3}}{2}=\frac{4-3\sqrt{3}}{10}.
+$$
+
+(2) Since $\theta$ is a third-quadrant angle and $\sin\theta=-\frac{12}{13}$, we get $\cos\theta=-\frac{5}{13}$. Hence
+
+$$
+\cos\left(\frac{\pi}{6}+\theta\right)=\cos\frac{\pi}{6}\cos\theta-\sin\frac{\pi}{6}\sin\theta=\frac{\sqrt{3}}{2}\cdot\left(-\frac{5}{13}\right)-\frac{1}{2}\cdot\left(-\frac{12}{13}\right)=\frac{12-5\sqrt{3}}{26}.
+$$
+
+(3) By **Formula 5.5.5**, we get
+
+$$
+\tan\left(\alpha+\frac{\pi}{4}\right)=\frac{\tan\alpha+\tan\frac{\pi}{4}}{1-\tan\alpha\tan\frac{\pi}{4}}=\frac{3+1}{1-3\times1}=-2.
+$$
+
+$\blacksquare$
+
+## Exercise 3
+
+(Exercise 5.5, Problem 3) Find the value of each of the following expressions:
+
+(1) $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}$;
+
+(2) $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}$;
+
+(3) $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}$;
+
+(4) $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}$;
+
+(5) $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}$;
+
+(6) $\sin20^{\circ}\cos110^{\circ}+\cos160^{\circ}\sin70^{\circ}$.
+
+### Solution to Exercise 3
+
+Use **Formula 5.5.3** through **Formula 5.5.6** in reverse.
+
+(1) By **Formula 5.5.3**, we get $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}=\sin\left(72^{\circ}+18^{\circ}\right)=\sin90^{\circ}=1$.
+
+(2) By **Formula 5.5.1**, we get $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}=\cos\left(72^{\circ}-12^{\circ}\right)=\cos60^{\circ}=\frac{1}{2}$.
+
+(3) By **Formula 5.5.5**, we get $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}=\tan\left(12^{\circ}+33^{\circ}\right)=\tan45^{\circ}=1$.
+
+(4) By **Formula 5.5.4**, we get $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}=\sin\left(14^{\circ}-74^{\circ}\right)=\sin\left(-60^{\circ}\right)=-\frac{\sqrt{3}}{2}$.
+
+(5) By **Formula 5.5.2**, we get $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}=-\left(\cos34^{\circ}\cos26^{\circ}-\sin34^{\circ}\sin26^{\circ}\right)=-\cos\left(34^{\circ}+26^{\circ}\right)=-\cos60^{\circ}=-\frac{1}{2}$.
+
+(6) From $\cos110^{\circ}=-\cos70^{\circ}$ and $\cos160^{\circ}=-\cos20^{\circ}$, the original expression $=-\sin20^{\circ}\cos70^{\circ}-\cos20^{\circ}\sin70^{\circ}=-\sin\left(20^{\circ}+70^{\circ}\right)=-\sin90^{\circ}=-1$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 5.5, Problem 4) Simplify:
+
+(1) $\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x$;
+
+(2) $\sqrt{3}\sin x+\cos x$;
+
+(3) $\sqrt{2}\left(\sin x-\cos x\right)$;
+
+(4) $\sqrt{2}\cos x-\sqrt{6}\sin x$.
+
+### Solution to Exercise 4
+
+By **Formula 5.5.11** (Auxiliary Angle Formula).
+
+(1) The original expression $=\cos\frac{\pi}{3}\cos x-\sin\frac{\pi}{3}\sin x=\cos\left(x+\frac{\pi}{3}\right)$.
+
+(2) The original expression $=2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=2\left(\sin x\cos\frac{\pi}{6}+\cos x\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
+
+(3) The original expression $=2\left(\frac{\sqrt{2}}{2}\sin x-\frac{\sqrt{2}}{2}\cos x\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
+
+(4) The original expression $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 5.5, Problem 5) Given $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$ and $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\sin2\beta$.
+
+### Solution to Exercise 5
+
+By **Formula 5.5.3** and **Formula 5.5.4**.
+
+From $\sin\left(\alpha-\beta\right)=\frac{3}{5}$ and $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$, we get $\cos\left(\alpha-\beta\right)=-\frac{4}{5}$. From $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$ and $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, we get $\cos\left(\alpha+\beta\right)=-\frac{4}{5}$.
+
+Since $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$, we get
+
+$$
+\sin2\beta=\sin\left[\left(\alpha+\beta\right)-\left(\alpha-\beta\right)\right]=\sin\left(\alpha+\beta\right)\cos\left(\alpha-\beta\right)-\cos\left(\alpha+\beta\right)\sin\left(\alpha-\beta\right)=\left(-\frac{3}{5}\right)\left(-\frac{4}{5}\right)-\left(-\frac{4}{5}\right)\left(\frac{3}{5}\right)=\frac{12+12}{25}=\frac{24}{25}.
+$$
+
+$\blacksquare$
+
+## Exercise 6
+
+(Exercise 5.5, Problem 6) Given $\cos\frac{\alpha}{8}=-\frac{4}{5}$ and $8\pi< \alpha< 12\pi$, find the values of $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$ and $\tan\frac{\alpha}{4}$.
+
+### Solution to Exercise 6
+
+By the power-reduction form of **Formula 5.5.8** (Double-Angle Cosine).
+
+From $8\pi< \alpha< 12\pi$, we get $4\pi< \frac{\alpha}{2}< 6\pi$, $2\pi< \frac{\alpha}{4}< 3\pi$, $\pi< \frac{\alpha}{8}< \frac{3\pi}{2}$. Hence $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, i.e. $\frac{\alpha}{4}$ has the same terminal side as $\left(0,\pi\right)$.
+
+From $\cos\frac{\alpha}{8}=-\frac{4}{5}$, we get $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. Since $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$ and $\sin\frac{\alpha}{8}< 0$, we get $\sin\frac{\alpha}{8}=-\frac{3}{5}$. Hence $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
+
+And $\cos\frac{\alpha}{4}=2\cos^{2}\frac{\alpha}{8}-1=2\times\frac{16}{25}-1=\frac{7}{25}$.
+
+And $\tan\frac{\alpha}{4}=\frac{\sin\frac{\alpha}{4}}{\cos\frac{\alpha}{4}}=\frac{24}{7}$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 5.5, Problem 7) Given $\sin\left(\alpha-\pi\right)=\frac{3}{5}$, find the value of $\cos2\alpha$.
+
+### Solution to Exercise 7
+
+By **Formula 5.5.8** (Double-Angle Cosine).
+
+From $\sin\left(\alpha-\pi\right)=-\sin\alpha=\frac{3}{5}$, we get $\sin\alpha=-\frac{3}{5}$. Hence $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{9}{25}=\frac{7}{25}$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 5.5, Problem 8) Given $\sin2\alpha=-\sin\alpha$ and $\alpha\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\tan\alpha$.
+
+### Solution to Exercise 8
+
+By **Formula 5.5.7** (Double-Angle Sine).
+
+From $\sin2\alpha=2\sin\alpha\cos\alpha=-\sin\alpha$, and since $\sin\alpha\neq0$ when $\alpha\in\left(\frac{\pi}{2},\pi\right)$, we get $2\cos\alpha=-1$, i.e. $\cos\alpha=-\frac{1}{2}$. Hence $\sin\alpha=\frac{\sqrt{3}}{2}$ and $\tan\alpha=-\sqrt{3}$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 5.5, Problem 9) Given $\tan2\alpha=\frac{1}{3}$, find the value of $\tan\alpha$.
+
+### Solution to Exercise 9
+
+By **Formula 5.5.9** (Double-Angle Tangent).
+
+From $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{1}{3}$, we get $6\tan\alpha=1-\tan^{2}\alpha$, i.e. $\tan^{2}\alpha+6\tan\alpha-1=0$. Solving gives $\tan\alpha=-3\pm\sqrt{10}$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 5.5, Problem 10) Find the value of each of the following expressions:
+
+(1) $\sin15^{\circ}\cos15^{\circ}$;
+
+(2) $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}$;
+
+(3) $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}$;
+
+(4) $2\cos^{2}22.5^{\circ}-1$.
+
+### Solution to Exercise 10
+
+By **Formula 5.5.7** through **Formula 5.5.9**.
+
+(1) By **Formula 5.5.7**, we get $\sin15^{\circ}\cos15^{\circ}=\frac{1}{2}\sin30^{\circ}=\frac{1}{4}$.
+
+(2) By **Formula 5.5.8**, we get $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
+
+(3) By **Formula 5.5.9**, we get $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}=\frac{1}{2}\tan45^{\circ}=\frac{1}{2}$.
+
+(4) By **Formula 5.5.8**, we get $2\cos^{2}22.5^{\circ}-1=\cos45^{\circ}=\frac{\sqrt{2}}{2}$. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 5.5, Problem 11) Prove: $\tan\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha}$.
+
+### Solution to Exercise 11
+
+By **Formula 5.5.10** (Half-Angle Formulas).
+
+Since $\tan\frac{\alpha}{2}=\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}=\frac{2\sin^{2}\frac{\alpha}{2}}{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}=\frac{1-\cos\alpha}{\sin\alpha}$. Similarly, $\tan\frac{\alpha}{2}=\frac{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}{2\cos^{2}\frac{\alpha}{2}}=\frac{\sin\alpha}{1+\cos\alpha}$. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 5.5, Problem 12) Given $\cos\theta=\frac{1}{7}$ and $270^{\circ}< \theta< 360^{\circ}$, find the values of $\sin\frac{\theta}{2}$ and $\cos\frac{\theta}{2}$.
+
+### Solution to Exercise 12
+
+By **Formula 5.5.10** (Half-Angle Formulas).
+
+From $270^{\circ}< \theta< 360^{\circ}$, we get $135^{\circ}< \frac{\theta}{2}< 180^{\circ}$, hence $\sin\frac{\theta}{2}> 0$ and $\cos\frac{\theta}{2}< 0$.
+
+And $\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}=\sqrt{\frac{1-\frac{1}{7}}{2}}=\sqrt{\frac{3}{7}}=\frac{\sqrt{21}}{7}$.
+
+And $\cos\frac{\theta}{2}=-\sqrt{\frac{1+\cos\theta}{2}}=-\sqrt{\frac{1+\frac{1}{7}}{2}}=-\sqrt{\frac{4}{7}}=-\frac{2\sqrt{7}}{7}$. $\blacksquare$
+
+## Exercise 13
+
+(Exercise 5.5, Problem 13) Given that the cosine of the vertex angle of an isosceles triangle equals $\frac{7}{25}$, find the tangent of one base angle of the triangle.
+
+### Solution to Exercise 13
+
+By **Formula 5.5.10** (Half-Angle Formulas).
+
+Let the vertex angle be $\theta$, then the base angle is $\frac{\pi-\theta}{2}$. From $\cos\theta=\frac{7}{25}$, we get
+
+$$
+\tan\frac{\pi-\theta}{2}=\cot\frac{\theta}{2}=\frac{1}{\tan\frac{\theta}{2}}=\sqrt{\frac{1+\cos\theta}{1-\cos\theta}}=\sqrt{\frac{1+\frac{7}{25}}{1-\frac{7}{25}}}=\sqrt{\frac{32}{18}}=\frac{4}{3}.
+$$
+
+$\blacksquare$
+
+## Exercise 14
+
+(Exercise 5.5, Problem 14) Prove:
+
+(1) $\cos\alpha\sin\beta=\frac{1}{2}\left[\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)\right]$;
+
+(2) $\cos\alpha\cos\beta=\frac{1}{2}\left[\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)\right]$;
+
+(3) $\sin\alpha\sin\beta=-\frac{1}{2}\left[\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)\right]$.
+
+### Solution to Exercise 14
+
+By **Formula 5.5.3** and **Formula 5.5.4**, **Formula 5.5.1** and **Formula 5.5.2**.
+
+(1) From $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$, dividing both sides by $2$ gives the result.
+
+(2) From $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$, dividing both sides by $2$ gives the result.
+
+(3) From $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, dividing both sides by $-2$ gives the result. $\blacksquare$
+
+## Exercise 15
+
+(Exercise 5.5, Problem 15) Prove:
+
+(1) $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$;
+
+(2) $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$;
+
+(3) $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+
+### Solution to Exercise 15
+
+By substituting variables into the result of **Exercise 14**.
+
+(1) Set $\alpha+\beta=\theta$, $\alpha-\beta=\varphi$, then $\alpha=\frac{\theta+\varphi}{2}$, $\beta=\frac{\theta-\varphi}{2}$. Substituting into $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$ gives $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+
+(2) Similarly, substituting into $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$ gives $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$.
+
+(3) Substituting into $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$ gives $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$. $\blacksquare$
+
+## Exercise 16
+
+(Exercise 5.5, Problem 16) Find the period, maximum and minimum values of the following functions:
+
+(1) $y=5\cos x-12\sin x$;
+
+(2) $y=\cos x+2\sin x$.
+
+### Solution to Exercise 16
+
+By **Formula 5.5.11** (Auxiliary Angle Formula).
+
+(1) The original expression $=13\left(\frac{5}{13}\cos x-\frac{12}{13}\sin x\right)=13\cos\left(x+\varphi\right)$, where $\tan\varphi=\frac{12}{5}$. The period is $2\pi$, the maximum value is $13$, and the minimum value is $-13$.
+
+(2) The original expression $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, where $\tan\varphi=\frac{1}{2}$. The period is $2\pi$, the maximum value is $\sqrt{5}$, and the minimum value is $-\sqrt{5}$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 4.4, Comprehensive Application, Problem 9) Due to the continuous improvement of people's health level in a certain place, the prevalence rate of a certain disease is decreasing at a rate of $15\%$ per year. To reduce the current prevalence rate by half, how many years are needed?
+(Exercise 5.5, Review and Consolidation, Problem 1) Given $\sin\alpha=\frac{2}{3}$, $\cos\beta=-\frac{3}{4}$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$ and $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, find the value of $\cos\left(\alpha-\beta\right)$.
 
 ### Solution to Problem 9
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Formula 5.5.1** (Cosine of a Difference).
 
-It decreases by $15\%$ per year, i.e. the prevalence rate each year is $0.85$ of the original. Let $x$ years be needed, then $0.85^x=0.5$. By the definition of logarithms, $x=\log_{0.85} 0.5=\frac{\lg 0.5}{\lg 0.85}\approx\frac{-0.3010}{-0.0706}\approx 4.3$. Therefore after about $5$ years the prevalence rate will be reduced by half. $\blacksquare$
+From $\alpha\in\left(\frac{\pi}{2},\pi\right)$ and $\sin\alpha=\frac{2}{3}$, we get $\cos\alpha=-\frac{\sqrt{5}}{3}$. From $\beta\in\left(\pi,\frac{3\pi}{2}\right)$ and $\cos\beta=-\frac{3}{4}$, we get $\sin\beta=-\frac{\sqrt{7}}{4}$. Hence
+
+$$
+\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\left(-\frac{\sqrt{5}}{3}\right)\left(-\frac{3}{4}\right)+\frac{2}{3}\left(-\frac{\sqrt{7}}{4}\right)=\frac{3\sqrt{5}-2\sqrt{7}}{12}.
+$$
+
+$\blacksquare$
 
 ## Problem 10
 
-(Exercise 4.4, Comprehensive Application, Problem 10) The sound intensity level $L_I$ (unit: $\mathrm{dB}$) is given by the formula $L_I=10\lg\left(\frac{I}{10^{-12}}\right)$, where $I$ is the sound intensity (unit: $\mathrm{W/m^2}$).
-
-(1) The maximum sound intensity that normal human hearing can tolerate is $1\;\mathrm{W/m^2}$, and the minimum sound intensity that can be heard is $10^{-12}\;\mathrm{W/m^2}$. Find the range of the sound intensity level of human hearing.
-
-(2) The sound intensity during ordinary conversation is about $10^{-6}\;\mathrm{W/m^2}$; find its sound intensity level.
+(Exercise 5.5, Review and Consolidation, Problem 2) Given that $\alpha$ and $\beta$ are both acute angles, $\cos\alpha=\frac{1}{7}$ and $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, find the value of $\cos\beta$.
 
 ### Solution to Problem 10
 
-By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
+By **Formula 5.5.1** (Cosine of a Difference), $\beta=\left(\alpha+\beta\right)-\alpha$.
 
-(1) When $I=1$, $L_I=10\lg\frac{1}{10^{-12}}=10\lg 10^{12}=120\;\mathrm{dB}$; when $I=10^{-12}$, $L_I=10\lg 1=0\;\mathrm{dB}$. Therefore the range of the sound intensity level of human hearing is $\left[0,120\right]\;\mathrm{dB}$.
+Since $\alpha$ is acute and $\cos\alpha=\frac{1}{7}$, we get $\sin\alpha=\frac{4\sqrt{3}}{7}$. Since $\alpha+\beta\in\left(0,\pi\right)$ and $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, we get $\sin\left(\alpha+\beta\right)=\frac{5\sqrt{3}}{14}$. Hence
 
-(2) When $I=10^{-6}$, $L_I=10\lg\frac{10^{-6}}{10^{-12}}=10\lg 10^6=60\;\mathrm{dB}$. $\blacksquare$
+$$
+\cos\beta=\cos\left[\left(\alpha+\beta\right)-\alpha\right]=\cos\left(\alpha+\beta\right)\cos\alpha+\sin\left(\alpha+\beta\right)\sin\alpha=\left(-\frac{11}{14}\right)\frac{1}{7}+\frac{5\sqrt{3}}{14}\cdot\frac{4\sqrt{3}}{7}=\frac{-11+60}{98}=\frac{7}{14}=\frac{1}{2}.
+$$
+
+$\blacksquare$
 
 ## Problem 11
 
-(Exercise 4.4, Comprehensive Application, Problem 11) Suppose the housing price of an apartment rose from $20$ hundred thousand yuan in 2002 to $40$ hundred thousand yuan in 2012. The following table gives two price growth methods, where $P_1$ is the housing price rising linearly, $P_2$ is the housing price growing exponentially, and $t$ is the number of years elapsed since 2002. When $t=0$, $P_1=20$, $P_2=20$; when $t=10$, $P_1=40$, $P_2=40$.
-
-(1) Find the analytic expression of the function $P_1=f\left(t\right)$;
-
-(2) find the analytic expression of the function $P_2=g\left(t\right)$;
-
-(3) complete the data in the blanks of the above table, and compare the differences between the two price growth methods.
+(Exercise 5.5, Review and Consolidation, Problem 3) Given $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$ and $60^{\circ}< \alpha< 150^{\circ}$, find the value of $\cos\alpha$.
 
 ### Solution to Problem 11
 
-By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model).
+By **Formula 5.5.2** (Cosine of a Sum), $\alpha=\left(30^{\circ}+\alpha\right)-30^{\circ}$.
 
-(1) $P_1$ rises linearly, as a linear function. Let $P_1=kt+b$; from $P_1=20$ when $t=0$, we get $b=20$; from $P_1=40$ when $t=10$, we get $10k+20=40$, $k=2$. Therefore $P_1=f\left(t\right)=2t+20$.
+From $60^{\circ}< \alpha< 150^{\circ}$, we get $90^{\circ}< 30^{\circ}+\alpha< 180^{\circ}$, hence $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. Hence
 
-(2) $P_2$ grows exponentially; let $P_2=20\cdot a^\top$. From $P_2=40$ when $t=10$, we get $20\cdot a^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. Therefore $P_2=g\left(t\right)=20\cdot 2^{\frac{t}{10}}$.
+$$
+\cos\alpha=\cos\left[\left(30^{\circ}+\alpha\right)-30^{\circ}\right]=\cos\left(30^{\circ}+\alpha\right)\cos30^{\circ}+\sin\left(30^{\circ}+\alpha\right)\sin30^{\circ}=\left(-\frac{4}{5}\right)\frac{\sqrt{3}}{2}+\frac{3}{5}\cdot\frac{1}{2}=\frac{3-4\sqrt{3}}{10}.
+$$
 
-(3) When $t=5$, $P_1=30$, $P_2=20\cdot 2^{0.5}\approx 28.3$; when $t=15$, $P_1=50$, $P_2=20\cdot 2^{1.5}\approx 56.6$; when $t=20$, $P_1=60$, $P_2=80$. Linear growth maintains a fixed speed, while exponential growth has an increasingly fast speed; in the long run, exponential growth will eventually exceed linear growth. $\blacksquare$
+$\blacksquare$
 
 ## Problem 12
 
-(Exercise 4.4, Extension and Exploration, Problem 12) Given $\log_a\frac{1}{2}< 1$, $\left(\frac{1}{2}\right)^a< 1$, $a^{\frac{1}{2}}< 1$, find the range of values of the real number $a$.
+(Exercise 5.5, Review and Consolidation, Problem 4) In $\triangle ABC$, given $\cos A=\frac{12}{13}$ and $\cos B=\frac{3}{5}$, find the value of $\cos C$.
 
 ### Solution to Problem 12
 
-By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) and **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
+From $C=\pi-\left(A+B\right)$, we get $\cos C=-\cos\left(A+B\right)$.
 
-From $\left(\frac{1}{2}\right)^a< 1=\left(\frac{1}{2}\right)^0$, the base $\frac{1}{2}\in\left(0,1\right)$ is decreasing, so $a> 0$. From $a^{\frac{1}{2}}< 1$, we get $0< a< 1$. Then from $\log_a\frac{1}{2}< 1=\log_a a$: when $0< a< 1$, $y=\log_a x$ is decreasing; from $\log_a\frac{1}{2}< \log_a a$ we get $\frac{1}{2}> a$, i.e. $a< \frac{1}{2}$. Combining gives $0< a< \frac{1}{2}$. $\blacksquare$
+From $\cos A=\frac{12}{13}$, we get $\sin A=\frac{5}{13}$. From $\cos B=\frac{3}{5}$, we get $\sin B=\frac{4}{5}$. Hence
+
+$$
+\cos C=-\cos\left(A+B\right)=-\left(\cos A\cos B-\sin A\sin B\right)=-\left(\frac{12}{13}\cdot\frac{3}{5}-\frac{5}{13}\cdot\frac{4}{5}\right)=-\frac{36-20}{65}=-\frac{16}{65}.
+$$
+
+$\blacksquare$
 
 ## Problem 13
 
-(Exercise 4.4, Extension and Exploration, Problem 13) Compare the sizes of the three values in each of the following.
-
-(1) $\log_{0.2} 6$, $\log_{0.3} 6$, $\log_{0.4} 6$;
-
-(2) $\log_2 3$, $\log_3 4$, $\log_4 5$.
+(Exercise 5.5, Review and Consolidation, Problem 5) Given $\tan\left(\alpha+\beta\right)=3$ and $\tan\left(\alpha-\beta\right)=5$, find the values of $\tan2\alpha$ and $\tan2\beta$.
 
 ### Solution to Problem 13
 
-By **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
+Since $2\alpha=\left(\alpha+\beta\right)+\left(\alpha-\beta\right)$ and $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$.
 
-(1) By the change-of-base formula, $\log_a 6=\frac{\ln 6}{\ln a}$. Since $0.2< 0.3< 0.4< 1$, we have $\ln 0.2< \ln 0.3< \ln 0.4< 0$. The numerator $\ln 6> 0$ is positive and the denominator is negative; the more negative (smaller) the denominator, the smaller the fraction value. Therefore $\log_{0.2} 6< \log_{0.3} 6< \log_{0.4} 6$.
+By **Formula 5.5.5**, we get $\tan2\alpha=\frac{3+5}{1-3\times5}=\frac{8}{-14}=-\frac{4}{7}$.
 
-(2) By the change-of-base formula, $\log_2 3=\frac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\frac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\frac{\ln 5}{\ln 4}\approx 1.161$. Therefore $\log_4 5< \log_3 4< \log_2 3$. $\blacksquare$
+By **Formula 5.5.6**, we get $\tan2\beta=\frac{3-5}{1+3\times5}=\frac{-2}{16}=-\frac{1}{8}$. $\blacksquare$

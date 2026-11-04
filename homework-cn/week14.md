@@ -1,300 +1,404 @@
 # week14
-> **定义 4.2.1 (指数函数)**
+> **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**
 > 
-> 一般地, 函数 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 叫做指数函数, 其中指数 $x$ 是自变量, 定义域是 $\mathbb R$.
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.2.2 (终边上任意一点的三角函数比值)**
+> 
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.4.1 (周期函数)**
+> 
+> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 ## 练习一
 
-(练习 4.2 第 1 题) 下列图象中, 有可能表示指数函数的是 ( ).
+(练习 5.3 第 6 题) 证明:
 
-(A) 一条从左上到右下的直线; (B) 开口向上的抛物线; (C) 位于 $x$ 轴上方, 过 $\left(0,1\right)$, 单调递增的曲线; (D) 过原点, 在第一, 第三象限的曲线.
+(1) $\cos\left(\frac{5\pi}{2}-\alpha\right)=\sin\alpha$;
+
+(2) $\cos\left(\frac{7\pi}{2}+\alpha\right)=\sin\alpha$;
+
+(3) $\sin\left(\frac{9\pi}{2}-\alpha\right)=\cos\alpha$;
+
+(4) $\sin\left(\frac{11\pi}{2}-\alpha\right)=-\cos\alpha$.
 
 ### 解答 练习一
 
-由**定义 4.2.1 (指数函数)** 与**常用结论 4.2.2** (指数函数的图象和性质), 指数函数 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 的定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$, 图象恒在 $x$ 轴上方, 过定点 $\left(0,1\right)$, 且单调.
+由**公式五**, **公式六**及**公式二**, **公式三**证明.
 
-(A) 是直线, 为一次函数; (B) 是抛物线, 为二次函数; (D) 过原点且分布在第一, 第三象限, 值域含负数, 不符合值域 $\left(0,+\infty\right)$. 只有 (C) 的图象位于 $x$ 轴上方, 过 $\left(0,1\right)$, 单调递增, 与 $y=a^x$ ($a> 1$) 的特征一致. 故选 (C). $\blacksquare$
+(1) 由 $\frac{5\pi}{2}-\alpha=2\pi+\left(\frac{\pi}{2}-\alpha\right)$, 得 $\cos\left(\frac{5\pi}{2}-\alpha\right)=\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
+
+(2) 由 $\frac{7\pi}{2}+\alpha=3\pi+\left(\frac{\pi}{2}+\alpha\right)=\pi+\left(\frac{\pi}{2}+\alpha\right)+2\pi$, 得 $\cos\left(\frac{7\pi}{2}+\alpha\right)=\cos\left(\pi+\left(\frac{\pi}{2}+\alpha\right)\right)=-\cos\left(\frac{\pi}{2}+\alpha\right)=-\left(-\sin\alpha\right)=\sin\alpha$.
+
+(3) 由 $\frac{9\pi}{2}-\alpha=4\pi+\left(\frac{\pi}{2}-\alpha\right)$, 得 $\sin\left(\frac{9\pi}{2}-\alpha\right)=\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$.
+
+(4) 由 $\frac{11\pi}{2}-\alpha=4\pi+\left(\frac{3\pi}{2}-\alpha\right)$, 得 $\sin\left(\frac{11\pi}{2}-\alpha\right)=\sin\left(\frac{3\pi}{2}-\alpha\right)=\sin\left(\pi+\left(\frac{\pi}{2}-\alpha\right)\right)=-\sin\left(\frac{\pi}{2}-\alpha\right)=-\cos\alpha$. $\blacksquare$
 
 ## 练习二
 
-(练习 4.2 第 2 题) 已知函数 $y=f\left(x\right)$, $x\in\mathbb R$, 且 $f\left(0\right)=3$, $\frac{f\left(0.5\right)}{f\left(0\right)}=2$, $\frac{f\left(1\right)}{f\left(0.5\right)}=2$, $\cdots$, $\frac{f\left(0.5n\right)}{f\left(0.5\left(n-1\right)\right)}=2$, $n\in\mathbb N^*$, 求函数 $y=f\left(x\right)$ 的一个解析式.
+(练习 5.3 第 7 题) 化简:
+
+(1) $\cos\left(\alpha-\frac{5\pi}{2}\right)\sin\left(\alpha-2\pi\right)\cos\left(2\pi-\alpha\right)$;
+
+(2) $\frac{\tan\left(2\pi+\alpha\right)}{\cos^{2}\left(-\alpha\right)+\cos\left(\pi+\alpha\right)-\cos^{2}\alpha}$;
+
+(3) $\frac{\cos\left(\alpha-\frac{3\pi}{2}\right)\cos\left(\frac{3\pi}{2}-\alpha\right)}{\sin^{2}\left(\alpha-\frac{\pi}{2}\right)}$.
 
 ### 解答 练习二
 
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 函数值每经过固定间隔翻一倍, 为指数增长模式.
+由**公式一**至**公式六**化简.
 
-由已知, $f\left(0\right)=3$, 且自变量每增加 $0.5$, 函数值乘以 $2$. 故对 $n\in\mathbb N^*$,
+(1) 由 $\cos\left(\alpha-\frac{5\pi}{2}\right)=\cos\left(\frac{5\pi}{2}-\alpha\right)=\sin\alpha$, $\sin\left(\alpha-2\pi\right)=\sin\alpha$, $\cos\left(2\pi-\alpha\right)=\cos\alpha$, 得
 
 $$
-f\left(0.5n\right)=f\left(0\right)\cdot 2^n=3\cdot 2^n.
+\text{原式}=\sin\alpha\cdot\sin\alpha\cdot\cos\alpha=\sin^{2}\alpha\cos\alpha.
 $$
 
-令 $x=0.5n$, 则 $n=2x$, 代入得 $f\left(x\right)=3\cdot 2^{2x}=3\cdot 4^x$. 故 $f\left(x\right)=3\cdot 4^x$ ($x\in\mathbb R$) 为所求的一个解析式. $\blacksquare$
+(2) 由 $\tan\left(2\pi+\alpha\right)=\tan\alpha$, $\cos^{2}\left(-\alpha\right)=\cos^{2}\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$, 得
 
-## 练习三
+$$
+\text{原式}=\frac{\tan\alpha}{\cos^{2}\alpha-\cos\alpha-\cos^{2}\alpha}=\frac{\tan\alpha}{-\cos\alpha}=-\frac{\sin\alpha}{\cos^{2}\alpha}.
+$$
 
-(练习 4.2 第 3 题) 在某个时期, 某湖泊中的蓝细菌每天以 $6.25\%$ 的增长率呈指数增长, 那么经过 $30$ 天, 该湖泊的蓝细菌会变为原来的多少倍? (可以使用计算工具)
+(3) 由 $\cos\left(\alpha-\frac{3\pi}{2}\right)=\cos\left(\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$, $\sin^{2}\left(\alpha-\frac{\pi}{2}\right)=\sin^{2}\left(\frac{\pi}{2}-\alpha\right)=\cos^{2}\alpha$, 得
 
-### 解答 练习三
+$$
+\text{原式}=\frac{\left(-\sin\alpha\right)\left(-\sin\alpha\right)}{\cos^{2}\alpha}=\frac{\sin^{2}\alpha}{\cos^{2}\alpha}=\tan^{2}\alpha.
+$$
 
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 每天的增长率为 $6.25\%$, 即每天的数量为前一天的 $1+6.25\%=1.0625$ 倍.
-
-设原有数量为 $N$, 经过 $30$ 天后数量为 $y$, 则 $y=N\cdot 1.0625^{30}$. 用计算工具算得 $1.0625^{30}\approx 6.13$, 故经过 $30$ 天, 蓝细菌约变为原来的 $6.13$ 倍. $\blacksquare$
-
-### 阅读与思考一
-
-(阅读与思考 放射性物质的衰减) 一般地, 如果某物质的半衰期为 $h$, 那么经过时间 $t$ 后, 该物质所剩的质量 $Q\left(t\right)=Q_0\left(\frac{1}{2}\right)^{\frac{t}{h}}$, 其中 $Q_0$ 是该物质的初始质量. 你能说明理由吗?
-
-### 解答 阅读与思考一
-
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 半衰期为 $h$ 意味着每经过时间 $h$, 剩余质量减半.
-
-经过 $1$ 个半衰期即 $t=h$ 时, 剩余质量为 $\frac{1}{2}Q_0$; 经过 $2$ 个半衰期即 $t=2h$ 时, 剩余质量为 $\frac{1}{2}\cdot\frac{1}{2}Q_0=\left(\frac{1}{2}\right)^2 Q_0$; 经过 $n$ 个半衰期即 $t=nh$ 时, 剩余质量为 $\left(\frac{1}{2}\right)^n Q_0$. 推广到任意时间 $t$, 经过的半衰期个数为 $\frac{t}{h}$, 故 $Q\left(t\right)=Q_0\left(\frac{1}{2}\right)^{\frac{t}{h}}$. $\blacksquare$
-
-### 阅读与思考二
-
-(阅读与思考 放射性物质的衰减) 如果某函数呈指数增长, 那么称函数值增长为原来两倍所用的时间为 "倍增期". 你能通过上网查询, 给出一个倍增的指数函数模型实例吗?
-
-### 解答 阅读与思考二
-
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 倍增期即函数值翻一倍所需的时间.
-
-实例: 某种细菌在理想条件下每 $20\;\mathrm{min}$ 分裂一次 ($1$ 个分裂成 $2$ 个), 则其数量的倍增期为 $20\;\mathrm{min}$. 设初始数量为 $N_0$, 经过 $t$ 分钟后数量为 $N\left(t\right)$, 则 $N\left(t\right)=N_0\cdot 2^{\frac{t}{20}}$. 当 $t=20$ 时, $N\left(20\right)=2N_0$; 当 $t=40$ 时, $N\left(40\right)=4N_0$, 即每过 $20\;\mathrm{min}$ 数量翻倍. $\blacksquare$
-
-## 练习四
-
-(练习 4.2 第 4 题) 在同一直角坐标系中画出函数 $y=3^x$ 和 $y=\left(\frac{1}{3}\right)^x$ 的图象, 并说明它们的关系.
-
-图:同一直角坐标系中,两条指数曲线均过点 $\left(0,1\right)$ 且位于 $x$ 轴上方;$y=3^x$ 为单调递增曲线($x> 0$ 时上升,$x< 0$ 时趋近于 $x$ 轴),$y=\left(\frac{1}{3}\right)^x$ 为单调递减曲线($x< 0$ 时上升,$x> 0$ 时趋近于 $x$ 轴),二者关于 $y$ 轴对称.
-
-### 解答 练习四
-
-由**常用结论 4.2.2** (指数函数的图象和性质), 底数互为倒数的两个指数函数的图象关于 $y$ 轴对称.
-
-因为 $\left(\frac{1}{3}\right)^x=3^{-x}$, 所以若点 $\left(x,y\right)$ 在 $y=3^x$ 的图象上, 则 $y=3^x$, 而点 $\left(-x,y\right)$ 满足 $y=3^{-\left(-x\right)}=\left(\frac{1}{3}\right)^{-\left(-x\right)}$, 即点 $\left(-x,y\right)$ 在 $y=\left(\frac{1}{3}\right)^x$ 的图象上. 反之亦然. 故两个图象关于 $y$ 轴对称. $y=3^x$ 是递增曲线, 过 $\left(0,1\right)$; $y=\left(\frac{1}{3}\right)^x$ 是递减曲线, 过 $\left(0,1\right)$, 二者关于 $y$ 轴镜像对称. $\blacksquare$
-
-## 练习五
-
-(练习 4.2 第 5 题) 比较下列各题中两个值的大小.
-
-(1) $6^{\sqrt{2}}$, $7^{\sqrt{2}}$;
-
-(2) $0.3^{-3.5}$, $0.3^{-2.3}$;
-
-(3) $1.2^{0.5}$, $0.5^{1.2}$.
-
-### 解答 练习五
-
-由**常用结论 4.2.2** (指数函数的图象和性质), 利用指数函数的单调性比较大小.
-
-(1) $\sqrt{2}> 0$, 对幂 $x^{\sqrt{2}}$ 而言, 当底数增大时幂值增大, 故 $6^{\sqrt{2}}< 7^{\sqrt{2}}$.
-
-(2) 底数 $0.3\in\left(0,1\right)$, 函数 $y=0.3^x$ 为减函数. 因 $-3.5< -2.3$, 减函数中自变量越小函数值越大, 故 $0.3^{-3.5}> 0.3^{-2.3}$.
-
-(3) $1.2^{0.5}> 1.2^0=1$, 而 $0.5^{1.2}< 0.5^0=1$, 故 $1.2^{0.5}> 0.5^{1.2}$. $\blacksquare$
-
-## 练习六
-
-(练习 4.2 第 6 题) 体内癌细胞初期增加得很缓慢, 但到了晚期就急剧增加, 画一幅能反映体内癌细胞数量随时间变化的示意图.
-
-示意图:横轴为时间,纵轴为体内癌细胞数量;曲线从原点附近出发,初期斜率很小,上升平缓,随时间推移斜率逐渐增大,后期急剧上升,呈下凸(凹向上)的指数增长形态,与 $y=a^x$ ($a> 1$) 在 $x\ge0$ 时的图象一致.
-
-### 解答 练习六
-
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 癌细胞数量随时间呈指数增长.
-
-示意图: 横轴为时间, 纵轴为癌细胞数量. 曲线从原点附近出发, 初期斜率很小, 上升平缓; 随时间推移斜率逐渐增大, 后期急剧上升, 呈下凸的指数增长形态, 与 $y=a^x$ ($a> 1$) 在 $x\ge 0$ 时的图象一致. $\blacksquare$
+$\blacksquare$
 
 ## 习题一
 
-(习题 4.2 复习巩固第 1 题) 求下列函数的定义域.
+(习题 5.3 复习巩固第 1 题) 用诱导公式求下列三角函数值 (可用计算工具, 第 (2) (3) (4) (5) 题精确到 $0.0001$):
 
-(1) $y=2^{3-x}$;
+(1) $\cos\left(-\frac{17\pi}{4}\right)$;
 
-(2) $y=3^{2x+1}$;
+(2) $\sin\left(-1574^{\circ}\right)$;
 
-(3) $y=\left(\frac{1}{2}\right)^{5x}$;
+(3) $\sin\left(-2160^{\circ}52'\right)$;
 
-(4) $y=0.7^{\frac{1}{x}}$.
+(4) $\cos\left(-1751^{\circ}36'\right)$;
+
+(5) $\cos1615^{\circ}8'$;
+
+(6) $\sin\left(-\frac{26\pi}{3}\right)$.
 
 ### 解答 习题一
 
-由**定义 4.2.1 (指数函数)**, 指数位置的式子必须有意义.
+由**公式一**至**公式四**化简后求值.
 
-(1) $3-x$ 对任意 $x\in\mathbb R$ 都有意义, 故定义域为 $\mathbb R$.
+(1) 由 $-\frac{17\pi}{4}=-4\pi-\frac{\pi}{4}$, 得 $\cos\left(-\frac{17\pi}{4}\right)=\cos\left(-\frac{\pi}{4}\right)=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
 
-(2) $2x+1$ 对任意 $x\in\mathbb R$ 都有意义, 故定义域为 $\mathbb R$.
+(2) 由 $-1574^{\circ}=-5\times360^{\circ}+226^{\circ}$, 得 $\sin\left(-1574^{\circ}\right)=\sin226^{\circ}\approx-0.7193$.
 
-(3) $5x$ 对任意 $x\in\mathbb R$ 都有意义, 故定义域为 $\mathbb R$.
+(3) 由 $-2160^{\circ}52'=-6\times360^{\circ}-0^{\circ}52'$, 得 $\sin\left(-2160^{\circ}52'\right)=\sin\left(-0^{\circ}52'\right)\approx-0.0151$.
 
-(4) $\frac{1}{x}$ 要求 $x\neq 0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
+(4) 由 $-1751^{\circ}36'=-5\times360^{\circ}+48^{\circ}24'$, 得 $\cos\left(-1751^{\circ}36'\right)=\cos48^{\circ}24'\approx0.6639$.
+
+(5) 由 $1615^{\circ}8'=4\times360^{\circ}+175^{\circ}8'$, 得 $\cos1615^{\circ}8'=\cos175^{\circ}8'\approx-0.9962$.
+
+(6) 由 $-\frac{26\pi}{3}=-10\pi+\frac{4\pi}{3}$, 得 $\sin\left(-\frac{26\pi}{3}\right)=\sin\frac{4\pi}{3}=-\frac{\sqrt{3}}{2}$. $\blacksquare$
 
 ## 习题二
 
-(习题 4.2 复习巩固第 2 题) 一种产品原来的年产量是 $a$ 件, 今后 $m$ 年内, 计划使产量平均每年比上一年增加 $p\%$, 写出年产量 $y$ (单位: 件) 关于经过的年数 $x$ 的函数解析式.
+(习题 5.3 复习巩固第 2 题) 求证:
+
+(1) $\sin\left(360^{\circ}-\alpha\right)=-\sin\alpha$;
+
+(2) $\cos\left(360^{\circ}-\alpha\right)=\cos\alpha$;
+
+(3) $\tan\left(360^{\circ}-\alpha\right)=-\tan\alpha$.
 
 ### 解答 习题二
 
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 每年比上一年增加 $p\%$, 即每年产量为上一年的 $\left(1+\frac{p}{100}\right)$ 倍.
+由**公式一**及**公式三**, **公式四**证明.
 
-经过 $x$ 年后, 年产量为 $y=a\left(1+\frac{p}{100}\right)^x$, 其中 $x\in\left\{0,1,2,\cdots,m\right\}$. $\blacksquare$
+(1) 由 $\sin\left(360^{\circ}-\alpha\right)=\sin\left(-\alpha+360^{\circ}\right)=\sin\left(-\alpha\right)=-\sin\alpha$, 得证.
+
+(2) 由 $\cos\left(360^{\circ}-\alpha\right)=\cos\left(-\alpha+360^{\circ}\right)=\cos\left(-\alpha\right)=\cos\alpha$, 得证.
+
+(3) 由 $\tan\left(360^{\circ}-\alpha\right)=\tan\left(-\alpha+360^{\circ}\right)=\tan\left(-\alpha\right)=-\tan\alpha$, 得证. $\blacksquare$
 
 ## 习题三
 
-(习题 4.2 复习巩固第 3 题) 比较满足下列条件的 $m$, $n$ 的大小.
+(习题 5.3 复习巩固第 3 题) 化简:
 
-(1) $2^m< 2^n$;
+(1) $1+\sin\left(\alpha-2\pi\right)\sin\left(\pi+\alpha\right)-2\cos^{2}\left(-\alpha\right)$;
 
-(2) $0.2^m< 0.2^n$;
-
-(3) $a^m< a^n$ ($0< a< 1$);
-
-(4) $a^m> a^n$ ($a> 1$).
+(2) $\sin\left(-1071^{\circ}\right)\sin99^{\circ}+\sin\left(-171^{\circ}\right)\sin\left(-261^{\circ}\right)$.
 
 ### 解答 习题三
 
-由**常用结论 4.2.2** (指数函数的图象和性质), $a> 1$ 时 $y=a^x$ 递增, $0< a< 1$ 时 $y=a^x$ 递减.
+由**公式一**至**公式四**化简.
 
-(1) 底数 $2> 1$, $y=2^x$ 递增, 由 $2^m< 2^n$ 得 $m< n$.
+(1) 由 $\sin\left(\alpha-2\pi\right)=\sin\alpha$, $\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos^{2}\left(-\alpha\right)=\cos^{2}\alpha$, 得
 
-(2) 底数 $0.2\in\left(0,1\right)$, $y=0.2^x$ 递减, 由 $0.2^m< 0.2^n$ 得 $m> n$.
+$$
+\text{原式}=1+\sin\alpha\cdot\left(-\sin\alpha\right)-2\cos^{2}\alpha=1-\sin^{2}\alpha-2\cos^{2}\alpha=\cos^{2}\alpha-2\cos^{2}\alpha=-\cos^{2}\alpha.
+$$
 
-(3) $0< a< 1$, $y=a^x$ 递减, 由 $a^m< a^n$ 得 $m> n$.
+(2) 由 $\sin\left(-1071^{\circ}\right)=\sin\left(-3\times360^{\circ}+9^{\circ}\right)=\sin9^{\circ}$, $\sin\left(-171^{\circ}\right)=\sin\left(-180^{\circ}+9^{\circ}\right)=-\sin\left(-9^{\circ}\right)=\sin9^{\circ}$, $\sin\left(-261^{\circ}\right)=\sin\left(-360^{\circ}+99^{\circ}\right)=\sin99^{\circ}$, 得
 
-(4) $a> 1$, $y=a^x$ 递增, 由 $a^m> a^n$ 得 $m> n$. $\blacksquare$
+$$
+\text{原式}=\sin9^{\circ}\sin99^{\circ}+\sin9^{\circ}\sin99^{\circ}=2\sin9^{\circ}\sin99^{\circ}.
+$$
+
+$\blacksquare$
 
 ## 习题四
 
-(习题 4.2 复习巩固第 4 题) 设函数 $f\left(x\right)=Q_0\left(1+r\right)^x$, 且 $f\left(10\right)=20.23$, $f\left(11\right)=23.26$.
-
-(1) 求函数 $f\left(x\right)$ 的增长率 $r$;
-
-(2) 求 $f\left(12\right)$ 的值.
+(习题 5.3 复习巩固第 4 题) 在单位圆中, 已知角 $\alpha$ 的终边与单位圆的交点为 $P\left(-\frac{3}{5},\frac{4}{5}\right)$, 分别求角 $\pi+\alpha$, $-\alpha$, $\frac{\pi}{2}+\alpha$ 的正弦, 余弦函数值.
 
 ### 解答 习题四
 
-由**常用结论 4.2.3** (指数增长与指数衰减模型), $f\left(x\right)=Q_0\left(1+r\right)^x$.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**, $\sin\alpha=\frac{4}{5}$, $\cos\alpha=-\frac{3}{5}$.
 
-(1) 由 $f\left(11\right)=Q_0\left(1+r\right)^{11}$, $f\left(10\right)=Q_0\left(1+r\right)^{10}$, 两式相除得 $\frac{f\left(11\right)}{f\left(10\right)}=1+r=\frac{23.26}{20.23}\approx 1.15$, 故 $r\approx 0.15$, 即增长率约为 $15\%$.
+(1) 由**公式二**, 得 $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{4}{5}$, $\cos\left(\pi+\alpha\right)=-\cos\alpha=\frac{3}{5}$.
 
-(2) $f\left(12\right)=f\left(11\right)\left(1+r\right)\approx 23.26\times 1.15\approx 26.75$. $\blacksquare$
+(2) 由**公式三**, 得 $\sin\left(-\alpha\right)=-\sin\alpha=-\frac{4}{5}$, $\cos\left(-\alpha\right)=\cos\alpha=-\frac{3}{5}$.
+
+(3) 由**公式六**, 得 $\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha=-\frac{3}{5}$, $\cos\left(\frac{\pi}{2}+\alpha\right)=-\sin\alpha=-\frac{4}{5}$. $\blacksquare$
 
 ## 习题五
 
-(习题 4.2 综合运用第 5 题) 求下列函数可能的一个解析式.
+(习题 5.3 综合运用第 5 题) 已知 $\sin\left(\frac{\pi}{2}+\alpha\right)=\frac{3}{5}$, 那么 $\cos\alpha=$ ( ).
 
-(1) 函数 $f\left(x\right)$ 的数据如下表: $x=0,1,2$ 时, $f\left(x\right)=3.50,4.20,5.04$;
+(A) $-\frac{4}{5}$
 
-(2) 函数 $g\left(x\right)$ 的图象过点 $\left(-1,8\right)$ 和 $\left(1,2\right)$, 且单调递减.
+(B) $-\frac{3}{5}$
+
+(C) $\frac{3}{5}$
+
+(D) $\frac{4}{5}$
 
 ### 解答 习题五
 
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 设函数为指数型 $y=ka^x$.
+由**公式六**, $\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$.
 
-(1) 由数据: $\frac{f\left(1\right)}{f\left(0\right)}=\frac{4.20}{3.50}=1.2$, $\frac{f\left(2\right)}{f\left(1\right)}=\frac{5.04}{4.20}=1.2$, 公比为 $1.2$, 首项 $f\left(0\right)=3.50$. 故 $f\left(x\right)=3.50\times 1.2^x$.
-
-(2) 设 $g\left(x\right)=ka^x$ ($0< a< 1$). 由 $g\left(1\right)=ka=2$, $g\left(-1\right)=ka^{-1}=8$, 两式相除得 $a^2=\frac{2}{8}=\frac{1}{4}$, 故 $a=\frac{1}{2}$, 代入 $ka=2$ 得 $k=4$. 故 $g\left(x\right)=4\cdot\left(\frac{1}{2}\right)^x=2^{2-x}$. $\blacksquare$
+由 $\sin\left(\frac{\pi}{2}+\alpha\right)=\frac{3}{5}$, 得 $\cos\alpha=\frac{3}{5}$, 选 (C). $\blacksquare$
 
 ## 习题六
 
-(习题 4.2 综合运用第 6 题) 比较下列各题中两个值的大小.
+(习题 5.3 综合运用第 6 题) 已知 $\sin\left(\pi+\alpha\right)=-\frac{1}{2}$, 计算:
 
-(1) $3^{0.8}$, $3^{0.7}$;
+(1) $\sin\left(5\pi-\alpha\right)$;
 
-(2) $0.75^{-0.1}$, $0.75^{0.1}$;
+(2) $\sin\left(\frac{3\pi}{2}+\alpha\right)$;
 
-(3) $1.01^{2.7}$, $1.01^{3.5}$;
+(3) $\cos\left(\alpha-\frac{3\pi}{2}\right)$;
 
-(4) $0.99^{3.3}$, $0.99^{4.5}$.
+(4) $\tan\left(\frac{\pi}{2}-\alpha\right)$.
 
 ### 解答 习题六
 
-由**常用结论 4.2.2** (指数函数的图象和性质), 利用单调性比较.
+由**公式二**, $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{1}{2}$, 得 $\sin\alpha=\frac{1}{2}$.
 
-(1) 底数 $3> 1$, $y=3^x$ 递增, $0.8> 0.7$, 故 $3^{0.8}> 3^{0.7}$.
+(1) 由**公式四**, $\sin\left(5\pi-\alpha\right)=\sin\left(\pi-\alpha\right)=\sin\alpha=\frac{1}{2}$.
 
-(2) 底数 $0.75\in\left(0,1\right)$, $y=0.75^x$ 递减, $-0.1< 0.1$, 故 $0.75^{-0.1}> 0.75^{0.1}$.
+(2) 由**公式六**及**公式二**, $\sin\left(\frac{3\pi}{2}+\alpha\right)=\sin\left(\pi+\left(\frac{\pi}{2}+\alpha\right)\right)=-\sin\left(\frac{\pi}{2}+\alpha\right)=-\cos\alpha$. 由 $\sin\alpha=\frac{1}{2}$, 得 $\cos\alpha=\pm\frac{\sqrt{3}}{2}$, 故 $\sin\left(\frac{3\pi}{2}+\alpha\right)=\mp\frac{\sqrt{3}}{2}$.
 
-(3) 底数 $1.01> 1$, $y=1.01^x$ 递增, $2.7< 3.5$, 故 $1.01^{2.7}< 1.01^{3.5}$.
+(3) 由**公式五**及**公式二**, $\cos\left(\alpha-\frac{3\pi}{2}\right)=\cos\left(\frac{3\pi}{2}-\alpha\right)=\cos\left(\pi+\left(\frac{\pi}{2}-\alpha\right)\right)=-\cos\left(\frac{\pi}{2}-\alpha\right)=-\sin\alpha=-\frac{1}{2}$.
 
-(4) 底数 $0.99\in\left(0,1\right)$, $y=0.99^x$ 递减, $3.3< 4.5$, 故 $0.99^{3.3}> 0.99^{4.5}$. $\blacksquare$
+(4) 由 $\tan\left(\frac{\pi}{2}-\alpha\right)=\frac{\sin\left(\frac{\pi}{2}-\alpha\right)}{\cos\left(\frac{\pi}{2}-\alpha\right)}=\frac{\cos\alpha}{\sin\alpha}=\frac{\cos\alpha}{1/2}=2\cos\alpha=\pm\sqrt{3}$. $\blacksquare$
 
 ## 习题七
 
-(习题 4.2 综合运用第 7 题) 当死亡生物组织内碳 $14$ 的含量不足死亡前的千分之一时, 用一般的放射性探测器就测不到碳 $14$ 了. 如果死亡生物组织内的碳 $14$ 经过九个 "半衰期" 后, 那么用一般的放射性探测器能测到碳 $14$ 吗?
+(习题 5.3 综合运用第 7 题) 在 $\triangle ABC$ 中, 试判断下列关系是否成立, 并说明理由.
+
+(1) $\cos\left(A+B\right)=\cos C$;
+
+(2) $\sin\left(A+B\right)=\sin C$;
+
+(3) $\sin\frac{A+B}{2}=\sin\frac{C}{2}$;
+
+(4) $\cos\frac{A+B}{2}=\cos\frac{C}{2}$.
 
 ### 解答 习题七
 
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 每经过一个半衰期, 剩余质量减半.
+由三角形内角和 $A+B+C=\pi$, 得 $A+B=\pi-C$.
 
-经过九个半衰期后, 剩余碳 $14$ 为原来的 $\left(\frac{1}{2}\right)^9=\frac{1}{512}\approx 0.001953=0.1953\%$. 千分之一为 $0.1\%$. 因 $0.1953\%> 0.1\%$, 即剩余含量超过千分之一, 故用一般的放射性探测器能测到碳 $14$. $\blacksquare$
+(1) 由**公式二**, $\cos\left(A+B\right)=\cos\left(\pi-C\right)=-\cos C\neq\cos C$, 故不成立.
+
+(2) 由**公式四**, $\sin\left(A+B\right)=\sin\left(\pi-C\right)=\sin C$, 故成立.
+
+(3) 由 $\frac{A+B}{2}=\frac{\pi-C}{2}=\frac{\pi}{2}-\frac{C}{2}$, 由**公式五**, $\sin\frac{A+B}{2}=\sin\left(\frac{\pi}{2}-\frac{C}{2}\right)=\cos\frac{C}{2}\neq\sin\frac{C}{2}$, 故不成立.
+
+(4) 由**公式五**, $\cos\frac{A+B}{2}=\cos\left(\frac{\pi}{2}-\frac{C}{2}\right)=\sin\frac{C}{2}\neq\cos\frac{C}{2}$, 故不成立. $\blacksquare$
 
 ## 习题八
 
-(习题 4.2 综合运用第 8 题) 按复利计算利息的一种储蓄, 本金为 $a$ (单位: 元), 每期利率为 $r$, 本利和为 $y$ (单位: 元), 存期数为 $x$.
-
-(1) 写出本利和 $y$ 关于存期数 $x$ 的函数解析式;
-
-(2) 如果存入本金 $1000$ 元, 每期利率为 $2.25\%$, 试计算 $5$ 期后的本利和.
+(习题 5.3 综合运用第 8 题) 已知 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 且 $0< x< \frac{\pi}{2}$, 求 $\sin\left(\frac{\pi}{6}+x\right)$ 和 $\cos\left(\frac{\pi}{3}+x\right)$ 的值.
 
 ### 解答 习题八
 
-由**常用结论 4.2.3** (指数增长与指数衰减模型), 复利即每期利息并入本金下期再生利息.
+由**公式五**, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-(1) 存 $1$ 期后本利和为 $a\left(1+r\right)$, 存 $2$ 期后为 $a\left(1+r\right)^2$, 依此类推, 存 $x$ 期后为 $y=a\left(1+r\right)^x$, 其中 $x\in\mathbb N$.
+(1) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, 得 $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. 由 $0< x< \frac{\pi}{2}$, 得 $-\frac{\pi}{6}< \frac{\pi}{3}-x< \frac{\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}-x\right)> 0$. 由 $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, 得 $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. 故 $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
 
-(2) 代入 $a=1000$, $r=2.25\%=0.0225$, $x=5$, 得 $y=1000\times 1.0225^5\approx 1000\times 1.1177\approx 1117.7$ 元. $\blacksquare$
+(2) 由 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 无法直接用诱导公式. 注意到 $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, 而 $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. 另注意到 $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\pi-\alpha\right)=-\cos\alpha$, 得 $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. 由 $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, 故 $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$
 
 ## 习题九
 
-(习题 4.2 拓广探索第 9 题) 已知函数 $y=a\left(\frac{1}{2}\right)^{\left|x\right|}+b$ 的图象过原点, 且无限接近直线 $y=2$ 但又不与该直线相交.
+(习题 5.3 拓广探索第 9 题) 化简下列各式, 其中 $n\in\mathbb Z$:
 
-(1) 求该函数的解析式, 并画出图象;
+(1) $\sin\left(\frac{n\pi}{2}+\alpha\right)$;
 
-(2) 判断该函数的奇偶性和单调性.
-
-图:函数 $y=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$ 的图象过原点 $\left(0,0\right)$,关于 $y$ 轴对称;在 $x=0$ 处取最小值 $0$,向左右两侧逐渐上升,并以水平直线 $y=2$ 为渐近线(无限接近但不相交).
+(2) $\cos\left(\frac{n\pi}{2}-\alpha\right)$.
 
 ### 解答 习题九
 
-由**定义 4.2.1 (指数函数)** 与**常用结论 4.2.2** (指数函数的图象和性质).
+由**公式一**至**公式六**, 按 $n$ 除以 $4$ 的余数分类讨论.
 
-(1) 图象过原点, 即 $x=0$ 时 $y=0$, 故 $a\left(\frac{1}{2}\right)^0+b=a+b=0$, 得 $b=-a$. 当 $\left|x\right|\to+\infty$ 时, $\left(\frac{1}{2}\right)^{\left|x\right|}\to 0$, 故 $y\to b$. 又图象无限接近 $y=2$ 但不相交, 故 $b=2$, 从而 $a=-2$. 解析式为 $y=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$. 图象: 过原点, 关于 $y$ 轴对称, 在 $x=0$ 处取最小值 $0$, 向两侧逐渐上升并无限接近直线 $y=2$.
+(1) 当 $n=4k$ ($k\in\mathbb Z$) 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\alpha\right)=\sin\alpha$.
 
-(2) 设 $f\left(x\right)=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$. 由 $\left|-x\right|=\left|x\right|$, 得 $f\left(-x\right)=2-2\left(\frac{1}{2}\right)^{\left|-x\right|}=2-2\left(\frac{1}{2}\right)^{\left|x\right|}=f\left(x\right)$, 故 $f\left(x\right)$ 为偶函数. 当 $x\ge 0$ 时, $\left(\frac{1}{2}\right)^x$ 递减, $-2\left(\frac{1}{2}\right)^x$ 递增, 故 $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上递增; 由偶函数对称性, $f\left(x\right)$ 在 $\left(-\infty,0\right]$ 上递减. $\blacksquare$
+当 $n=4k+1$ 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\frac{\pi}{2}+\alpha\right)=\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$.
+
+当 $n=4k+2$ 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\pi+\alpha\right)=-\sin\alpha$.
+
+当 $n=4k+3$ 时, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\frac{3\pi}{2}+\alpha\right)=-\cos\alpha$.
+
+(2) 当 $n=4k$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi-\alpha\right)=\cos\alpha$.
+
+当 $n=4k+1$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
+
+当 $n=4k+2$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\pi-\alpha\right)=-\cos\alpha$.
+
+当 $n=4k+3$ 时, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$. $\blacksquare$
 
 ## 习题十
 
-(习题 4.2 拓广探索第 10 题) 已知 $f\left(x\right)=a^x$, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ ($a> 0$, 且 $a\neq 1$).
-
-(1) 讨论函数 $f\left(x\right)$ 和 $g\left(x\right)$ 的单调性;
-
-(2) 如果 $f\left(x\right)< g\left(x\right)$, 那么 $x$ 的取值范围是多少?
+(习题 5.3 拓广探索第 10 题) 借助单位圆, 还可以建立角的终边之间的哪些特殊位置关系? 由此还能得到三角函数值之间的哪些恒等关系?
 
 ### 解答 习题十
 
-由**常用结论 4.2.2** (指数函数的图象和性质).
+由**公式一**至**公式六**的推导思路, 借助单位圆的对称性, 还可建立以下终边位置关系:
 
-(1) 当 $a> 1$ 时, $f\left(x\right)=a^x$ 是增函数, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ 的底数 $\frac{1}{a}\in\left(0,1\right)$, 故 $g\left(x\right)$ 是减函数; 当 $0< a< 1$ 时, $f\left(x\right)=a^x$ 是减函数, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ 的底数 $\frac{1}{a}> 1$, 故 $g\left(x\right)$ 是增函数.
+(1) 终边关于直线 $y=-x$ 对称: 若角 $\alpha$ 与角 $\beta$ 的终边关于直线 $y=-x$ 对称, 则 $\beta=\frac{3\pi}{2}-\alpha+2k\pi$. 由此可得 $\sin\left(\frac{3\pi}{2}-\alpha\right)=-\cos\alpha$, $\cos\left(\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$.
 
-(2) $f\left(x\right)< g\left(x\right)$ 即 $a^x< \left(\frac{1}{a}\right)^x=a^{-x}$, 亦即 $a^{2x}< 1=a^0$. 当 $a> 1$ 时, $y=a^x$ 递增, 由 $a^{2x}< a^0$ 得 $2x< 0$, 即 $x< 0$; 当 $0< a< 1$ 时, $y=a^x$ 递减, 由 $a^{2x}< a^0$ 得 $2x> 0$, 即 $x> 0$. $\blacksquare$
+(2) 终边关于直线 $y=x$ 对称: 已由**公式五**给出, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-### 信息技术应用一
+(3) 终边互为反向延长线: 已由**公式二**给出, $\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$. $\blacksquare$
 
-(思考 1) 继续观察指数函数族的图象, 当自变量 $x$ 取同一个数时, 对应的函数值 $y$ 的大小关系是什么? 你从中发现了什么规律?
+## 练习三
 
-### 解答 信息技术应用一
+(练习 5.4 第 1 题) 在同一直角坐标系中, 画出函数 $y=\sin x$, $x\in\left[0,2\pi\right]$, $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$ 的图象. 通过观察两条曲线, 说出它们的异同.
 
-由**常用结论 4.2.2** (指数函数的图象和性质), 在同一坐标系中比较不同底数的指数函数.
+图:同一直角坐标系中,两条形状相同,周期均为 $2\pi$,值域均为 $\left[-1,1\right]$ 的波浪曲线:$y=\sin x$ ($x\in\left[0,2\pi\right]$) 从原点出发,先上升至 $\left(\frac{\pi}{2},1\right)$,下降穿过 $\left(\pi,0\right)$ 至 $\left(\frac{3\pi}{2},-1\right)$,再回到 $\left(2\pi,0\right)$;$y=\cos x$ ($x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$) 从 $\left(-\frac{\pi}{2},0\right)$ 上升至 $\left(0,1\right)$,下降穿过 $\left(\frac{\pi}{2},0\right)$ 至 $\left(\pi,-1\right)$,再上升穿过 $\left(\frac{3\pi}{2},0\right)$;余弦曲线相当于正弦曲线向左平移 $\frac{\pi}{2}$.
 
-当 $x> 0$ 时, 底数越大的指数函数 $y=a^x$ 的函数值越大, 即图象在上方; 当 $x< 0$ 时, 底数越大的指数函数的函数值反而越小, 即图象在下方; 所有图象都过 $\left(0,1\right)$. 规律: 在 $y$ 轴右侧, 图象从下到上底数递增; 在 $y$ 轴左侧, 图象从下到上底数递减. $\blacksquare$
+### 解答 练习三
 
-### 信息技术应用二
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(思考 2) 类似地, 你可以利用信息技术绘制幂函数 $y=x^\alpha$ 的图象, 通过改变 $\alpha$ 的大小, 认识幂函数的变化规律.
+相同点: 两条曲线都是 "波浪起伏" 的连续光滑曲线, 形状相同, 周期都是 $2\pi$, 值域都是 $\left[-1,1\right]$.
 
-### 解答 信息技术应用二
+不同点: 正弦曲线在 $x=0$ 处过原点, 为奇函数; 余弦曲线在 $x=0$ 处取最大值 $1$, 为偶函数. 余弦曲线可由正弦曲线向左平移 $\frac{\pi}{2}$ 个单位长度得到, 即 $\cos x=\sin\left(x+\frac{\pi}{2}\right)$. $\blacksquare$
 
-由幂函数的图象和性质, 改变指数 $\alpha$ 可观察幂函数在第一象限的变化.
+## 练习四
 
-当 $\alpha> 0$ 时, 图象过原点 $\left(0,0\right)$ 和 $\left(1,1\right)$, 在第一象限内递增; $\alpha$ 越大, 当 $x> 1$ 时图象越陡. 当 $\alpha< 0$ 时, 图象不过原点, 在第一象限内递减, 以坐标轴为渐近线. 所有幂函数图象都过点 $\left(1,1\right)$. $\blacksquare$
+(练习 5.4 第 2 题) 用五点法分别画下列函数在 $\left[-\pi,\pi\right]$ 上的图象:
+
+(1) $y=-\sin x$;
+
+(2) $y=2-\cos x$.
+
+图:共两幅.左为 $y=-\sin x$ 在 $\left[-\pi,\pi\right]$ 上的五点作图,关键点为 $\left(-\pi,0\right)$,$\left(-\frac{\pi}{2},1\right)$,$\left(0,0\right)$,$\left(\frac{\pi}{2},-1\right)$,$\left(\pi,0\right)$,即正弦曲线关于 $x$ 轴翻折;右为 $y=2-\cos x$ 在 $\left[-\pi,\pi\right]$ 上的五点作图,关键点为 $\left(-\pi,3\right)$,$\left(-\frac{\pi}{2},2\right)$,$\left(0,1\right)$,$\left(\frac{\pi}{2},2\right)$,$\left(\pi,3\right)$,是一条在 $y=1$ 与 $y=3$ 之间波动,与余弦曲线上下颠倒的波浪曲线.
+
+### 解答 练习四
+
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质), 用五点法取五个关键点.
+
+(1) $y=-\sin x$: 五个关键点为 $\left(-\pi,0\right)$, $\left(-\frac{\pi}{2},1\right)$, $\left(0,0\right)$, $\left(\frac{\pi}{2},-1\right)$, $\left(\pi,0\right)$.
+
+(2) $y=2-\cos x$: 五个关键点为 $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, $\left(\pi,3\right)$. $\blacksquare$
+
+## 练习五
+
+(练习 5.4 第 3 题) 想一想函数 $y=\lvert\sin x\rvert$ 与 $y=\sin x$ 的图象及其关系, 并借助信息技术画出函数的图象进行检验.
+
+图:函数 $y=\left|\sin x\right|$ 的图象,是将 $y=\sin x$ 位于 $x$ 轴下方的部分沿 $x$ 轴翻折到上方而得到的;曲线全部位于 $x$ 轴上方(含 $x$ 轴),值域为 $\left[0,1\right]$,周期为 $\pi$,关于 $y$ 轴对称,在 $x=k\pi$ 处接触 $x$ 轴,在 $x=\frac{\pi}{2}+k\pi$ 处取到峰值 $1$.
+
+### 解答 练习五
+
+由**常用结论** (正弦函数的图象与性质).
+
+函数 $y=\lvert\sin x\rvert$ 的图象是将 $y=\sin x$ 的图象中 $x$ 轴下方的部分沿 $x$ 轴翻折到 $x$ 轴上方而得到的. 因此 $y=\lvert\sin x\rvert$ 的值域为 $\left[0,1\right]$, 周期为 $\pi$ (而非 $2\pi$), 且是偶函数. $\blacksquare$
+
+## 练习六
+
+(练习 5.4 第 4 题) (多项选择题) 函数 $y=1+\cos x$, $x\in\left[\frac{\pi}{3},2\pi\right]$ 的图象与直线 $y=t$ ($t$ 为常数) 的交点可能有 ( ).
+
+(A) $0$ 个
+
+(B) $1$ 个
+
+(C) $2$ 个
+
+(D) $3$ 个
+
+(E) $4$ 个
+
+### 解答 练习六
+
+由**常用结论** (余弦函数的图象与性质), $y=1+\cos x$ 的值域为 $\left[0,2\right]$.
+
+在区间 $\left[\frac{\pi}{3},2\pi\right]$ 上, $\cos x$ 从 $\frac{1}{2}$ 先降到 $-1$ (在 $x=\pi$), 再升到 $1$ (在 $x=2\pi$). 故 $y=1+\cos x$ 从 $1.5$ 先降到 $0$ (在 $x=\pi$), 再升到 $2$ (在 $x=2\pi$).
+
+当 $t\in\left(1.5,2\right]$ 时, 有 $1$ 个交点; 当 $t\in\left[0,1.5\right)$ 时, 有 $2$ 个交点; 当 $t< 0$ 或 $t> 2$ 时, 有 $0$ 个交点. 故可能有 $0$ 个, $1$ 个或 $2$ 个交点, 选 (A)(B)(C). $\blacksquare$
+
+## 练习七
+
+(练习 5.4 第 5 题) 等式 $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{6}$ 是否成立? 如果这个等式成立, 能否说 $\frac{\pi}{3}$ 是正弦函数 $y=\sin x$, $x\in\mathbb R$ 的一个周期? 为什么?
+
+### 解答 练习七
+
+由**定义 5.4.1 (周期函数)**, 周期 $T$ 须满足对每一个 $x\in\mathbb R$ 都有 $f\left(x+T\right)=f\left(x\right)$.
+
+由 $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{2}=1$, $\sin\frac{\pi}{6}=\frac{1}{2}$, 等式不成立. 即使对某个特定的 $x$ 有 $\sin\left(x+T\right)=\sin x$, 也不能说 $T$ 是周期, 因为周期函数要求对所有 $x$ 都成立. $\blacksquare$
+
+## 练习八
+
+(练习 5.4 第 6 题) 求下列函数的周期:
+
+(1) $y=\sin\frac{3}{4}x$, $x\in\mathbb R$;
+
+(2) $y=\cos4x$, $x\in\mathbb R$;
+
+(3) $y=\frac{1}{2}\cos\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$;
+
+(4) $y=\sin\left(\frac{1}{3}x+\frac{\pi}{4}\right)$, $x\in\mathbb R$.
+
+### 解答 练习八
+
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期), $T=\frac{2\pi}{\omega}$.
+
+(1) 由 $\omega=\frac{3}{4}$, 得 $T=\frac{2\pi}{3/4}=\frac{8\pi}{3}$.
+
+(2) 由 $\omega=4$, 得 $T=\frac{2\pi}{4}=\frac{\pi}{2}$.
+
+(3) 由 $\omega=2$, 得 $T=\frac{2\pi}{2}=\pi$.
+
+(4) 由 $\omega=\frac{1}{3}$, 得 $T=\frac{2\pi}{1/3}=6\pi$. $\blacksquare$
+
+## 练习九
+
+(练习 5.4 第 7 题) 下列函数中, 哪些是奇函数? 哪些是偶函数?
+
+(1) $y=2\sin x$;
+
+(2) $y=1-\cos x$;
+
+(3) $y=x+\sin x$;
+
+(4) $y=-\sin x\cos x$.
+
+### 解答 练习九
+
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质), $\sin x$ 为奇函数, $\cos x$ 为偶函数.
+
+(1) $f\left(-x\right)=2\sin\left(-x\right)=-2\sin x=-f\left(x\right)$, 奇函数.
+
+(2) $f\left(-x\right)=1-\cos\left(-x\right)=1-\cos x=f\left(x\right)$, 偶函数.
+
+(3) $f\left(-x\right)=-x+\sin\left(-x\right)=-x-\sin x=-\left(x+\sin x\right)=-f\left(x\right)$, 奇函数.
+
+(4) $f\left(-x\right)=-\sin\left(-x\right)\cos\left(-x\right)=\sin x\cos x=-f\left(x\right)$, 奇函数. $\blacksquare$

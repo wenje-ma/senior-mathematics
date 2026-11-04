@@ -1,362 +1,542 @@
 # week15
-> **Definition 4.3.1 (对数)**
+> **Definition 5.2.1 (Sine, Cosine, Tangent)**
 > 
-> 一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
-
-## Exercise 1
-
-(Exercise 4.3, Problem 1) Write the following exponential expressions as logarithmic expressions, and the logarithmic expressions as exponential expressions.
-
-(1) $2^3=8$;
-
-(2) $\mathrm e^{\sqrt{3}}=m$;
-
-(3) $27^{-\frac{1}{3}}=\frac{1}{3}$;
-
-(4) $\log_3 9=2$;
-
-(5) $\lg n=2.3$;
-
-(6) $\log_3\frac{1}{81}=-4$.
-
-### Solution to Exercise 1
-
-By **Definition 4.3.1 (Logarithm)** and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), $a^x=N\Leftrightarrow x=\log_a N$.
-
-(1) $2^3=8$ becomes the logarithmic expression: $\log_2 8=3$.
-
-(2) $\mathrm e^{\sqrt{3}}=m$ becomes the natural logarithmic expression: $\ln m=\sqrt{3}$.
-
-(3) $27^{-\frac{1}{3}}=\frac{1}{3}$ becomes the logarithmic expression: $\log_{27}\frac{1}{3}=-\frac{1}{3}$.
-
-(4) $\log_3 9=2$ becomes the exponential expression: $3^2=9$.
-
-(5) $\lg n=2.3$ becomes the exponential expression: $10^{2.3}=n$.
-
-(6) $\log_3\frac{1}{81}=-4$ becomes the exponential expression: $3^{-4}=\frac{1}{81}$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 4.3, Problem 2) Find the values of the following.
-
-(1) $\log_5 25$;
-
-(2) $\log_{0.4} 1$;
-
-(3) $\ln\frac{1}{\mathrm e}$;
-
-(4) $\lg 0.001$.
-
-### Solution to Exercise 2
-
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
-
-(1) $\log_5 25=\log_5 5^2=2$.
-
-(2) By **Standard Conclusion 4.3.3**, $\log_{0.4} 1=0$.
-
-(3) $\ln\frac{1}{\mathrm e}=\ln\mathrm e^{-1}=-1$.
-
-(4) $\lg 0.001=\lg 10^{-3}=-3$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 4.3, Problem 3) Find the value of $x$ in each of the following.
-
-(1) $\log_{\frac{1}{3}} x=-3$;
-
-(2) $\log_x 49=4$;
-
-(3) $\lg 0.00001=x$;
-
-(4) $\ln\sqrt{\mathrm e}=-x$.
-
-### Solution to Exercise 3
-
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), convert the logarithmic expressions to exponential expressions to solve.
-
-(1) $\log_{\frac{1}{3}} x=-3$ becomes $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
-
-(2) $\log_x 49=4$ becomes $x^4=49$, and since $x> 0$ and $x\neq 1$, $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
-
-(3) $\lg 0.00001=x$ becomes $10^x=0.00001=10^{-5}$, so $x=-5$.
-
-(4) $\ln\sqrt{\mathrm e}=-x$ becomes $\mathrm e^{-x}=\sqrt{\mathrm e}=\mathrm e^{\frac{1}{2}}$, so $-x=\frac{1}{2}$, i.e. $x=-\frac{1}{2}$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 4.3, Problem 4) Find the values of the following.
-
-(1) $\log_3\left(27\times 9^2\right)$;
-
-(2) $\lg 5+\lg 2$;
-
-(3) $\ln 3+\ln\frac{1}{3}$;
-
-(4) $\log_3 5-\log_3 15$.
-
-### Solution to Exercise 4
-
-By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
-
-(1) By (1) (3), $\log_3\left(27\times 9^2\right)=\log_3 27+2\log_3 9=3+2\times 2=7$.
-
-(2) By (1), $\lg 5+\lg 2=\lg 10=1$.
-
-(3) By (1), $\ln 3+\ln\frac{1}{3}=\ln 1=0$.
-
-(4) By (2), $\log_3 5-\log_3 15=\log_3\frac{5}{15}=\log_3\frac{1}{3}=-1$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 4.3, Problem 5) Express the following in terms of $\lg x$, $\lg y$, $\lg z$.
-
-(1) $\lg\left(xyz\right)$;
-
-(2) $\lg\frac{xy^2}{z}$;
-
-(3) $\lg\frac{xy^3}{\sqrt{z}}$;
-
-(4) $\lg\frac{\sqrt{x}}{y^2 z}$.
-
-### Solution to Exercise 5
-
-By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
-
-(1) By (1), $\lg\left(xyz\right)=\lg x+\lg y+\lg z$.
-
-(2) By (1) (2), $\lg\frac{xy^2}{z}=\lg x+2\lg y-\lg z$.
-
-(3) By (1) (2) (3), $\lg\frac{xy^3}{\sqrt{z}}=\lg x+3\lg y-\frac{1}{2}\lg z$.
-
-(4) By (1) (2) (3), $\lg\frac{\sqrt{x}}{y^2 z}=\frac{1}{2}\lg x-2\lg y-\lg z$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 4.3, Problem 6) Simplify the following.
-
-(1) $\log_2 3\times\log_3 4\times\log_4 5\times\log_5 2$;
-
-(2) $2\left(\log_4 3+\log_8 3\right)\left(\log_3 2+\log_9 2\right)$.
-
-### Solution to Exercise 6
-
-By **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
-
-(1) By the change-of-base formula, $\log_a b=\frac{\ln b}{\ln a}$, so the original expression $=\frac{\ln 3}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 5}{\ln 4}\cdot\frac{\ln 2}{\ln 5}=1$.
-
-(2) By the change-of-base formula, $\log_4 3=\frac{\ln 3}{2\ln 2}$, $\log_8 3=\frac{\ln 3}{3\ln 2}$, $\log_3 2=\frac{\ln 2}{\ln 3}$, $\log_9 2=\frac{\ln 2}{2\ln 3}$. Substituting gives
-
-$$
-2\cdot\frac{\ln 3}{\ln 2}\left(\frac{1}{2}+\frac{1}{3}\right)\cdot\frac{\ln 2}{\ln 3}\left(1+\frac{1}{2}\right)=2\cdot\frac{5}{6}\cdot\frac{3}{2}=\frac{5}{2}.
-$$
-
-$\blacksquare$
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (终边上任意一点的三角函数比值)**
+> 
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.4.1 (周期函数)**
+> 
+> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 ## Problem 1
 
-(Exercise 4.3, Review and Consolidation, Problem 1) Write the following exponential expressions as logarithmic expressions, and the logarithmic expressions as exponential expressions.
+(Exercise 5.3, Extension and Exploration, Problem 9) Simplify the following expressions, where $n\in\mathbb Z$:
 
-(1) $3^x=1$;
+(1) $\sin\left(\frac{n\pi}{2}+\alpha\right)$;
 
-(2) $4^x=\frac{1}{6}$;
-
-(3) $10^x=6$;
-
-(4) $\mathrm e^x=25$;
-
-(5) $x=\log_5 27$;
-
-(6) $x=\log_7\frac{1}{3}$;
-
-(7) $x=\lg 0.3$;
-
-(8) $x=\ln\sqrt{3}$.
+(2) $\cos\left(\frac{n\pi}{2}-\alpha\right)$.
 
 ### Solution to Problem 1
 
-By **Definition 4.3.1 (Logarithm)** and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Formula 1** through **Formula 6**, we classify and discuss according to the remainder of $n$ upon division by $4$.
 
-(1) $3^x=1$ becomes $\log_3 1=x$.
+(1) When $n=4k$ ($k\in\mathbb Z$), $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\alpha\right)=\sin\alpha$.
 
-(2) $4^x=\frac{1}{6}$ becomes $\log_4\frac{1}{6}=x$.
+When $n=4k+1$, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\frac{\pi}{2}+\alpha\right)=\sin\left(\frac{\pi}{2}+\alpha\right)=\cos\alpha$.
 
-(3) $10^x=6$ becomes $\lg 6=x$.
+When $n=4k+2$, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\pi+\alpha\right)=-\sin\alpha$.
 
-(4) $\mathrm e^x=25$ becomes $\ln 25=x$.
+When $n=4k+3$, $\sin\left(\frac{n\pi}{2}+\alpha\right)=\sin\left(2k\pi+\frac{3\pi}{2}+\alpha\right)=-\cos\alpha$.
 
-(5) $x=\log_5 27$ becomes $5^x=27$.
+(2) When $n=4k$, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi-\alpha\right)=\cos\alpha$.
 
-(6) $x=\log_7\frac{1}{3}$ becomes $7^x=\frac{1}{3}$.
+When $n=4k+1$, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-(7) $x=\lg 0.3$ becomes $10^x=0.3$.
+When $n=4k+2$, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\pi-\alpha\right)=-\cos\alpha$.
 
-(8) $x=\ln\sqrt{3}$ becomes $\mathrm e^x=\sqrt{3}$. $\blacksquare$
+When $n=4k+3$, $\cos\left(\frac{n\pi}{2}-\alpha\right)=\cos\left(2k\pi+\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 4.3, Review and Consolidation, Problem 2) Multiple choice.
-
-(1) The range of values of $x$ for which the expression $\log_{\left(2x-1\right)}\left(2-x\right)$ is meaningful is ( ).
-
-(A) $x> 2$ (B) $x< 2$ (C) $\frac{1}{2}< x< 2$ (D) $\frac{1}{2}< x< 2$, and $x\neq 1$
-
-(2) If $\lg a$ ($a> 0$) and $\lg b$ ($b> 0$) are opposites of each other, then ( ).
-
-(A) $a+b=0$ (B) $a-b=0$ (C) $ab=1$ (D) $\frac{a}{b}=1$
+(Exercise 5.3, Extension and Exploration, Problem 10) With the help of the unit circle, what other special positional relationships between the terminal sides of angles can be established? What further identities among trigonometric values can be obtained from them?
 
 ### Solution to Problem 2
 
-By **Definition 4.3.1 (Logarithm)** and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
+Following the derivation of **Formula 1** through **Formula 6** and using the symmetry of the unit circle, the following terminal-side positional relationships can also be established:
 
-(1) For the logarithm $\log_{\left(2x-1\right)}\left(2-x\right)$ to be meaningful, the base $2x-1> 0$ and $2x-1\neq 1$, and the antilogarithm $2-x> 0$. That is, $x> \frac{1}{2}$, $x\neq 1$, $x< 2$. Combining gives $\frac{1}{2}< x< 2$ and $x\neq 1$, so choose (D).
+(1) Terminal sides symmetric about the line $y=-x$: if the terminal sides of angles $\alpha$ and $\beta$ are symmetric about the line $y=-x$, then $\beta=\frac{3\pi}{2}-\alpha+2k\pi$. From this we obtain $\sin\left(\frac{3\pi}{2}-\alpha\right)=-\cos\alpha$, $\cos\left(\frac{3\pi}{2}-\alpha\right)=-\sin\alpha$.
 
-(2) $\lg a$ and $\lg b$ are opposites of each other, i.e. $\lg a+\lg b=0$. By **Standard Conclusion 4.3.4** (1), $\lg\left(ab\right)=0$, so $ab=1$; choose (C). $\blacksquare$
+(2) Terminal sides symmetric about the line $y=x$: already given by **Formula 5**, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
+
+(3) Terminal sides that are opposite extensions of each other: already given by **Formula 2**, $\sin\left(\pi+\alpha\right)=-\sin\alpha$, $\cos\left(\pi+\alpha\right)=-\cos\alpha$. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 5.4, Problem 1) In the same rectangular coordinate system, sketch the graphs of the functions $y=\sin x$, $x\in\left[0,2\pi\right]$, and $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$. By observing the two curves, state their similarities and differences.
+
+The graphs: in the same rectangular coordinate system, two wave curves of the same shape, both with period $2\pi$ and range $\left[-1,1\right]$: $y=\sin x$ ($x\in\left[0,2\pi\right]$) starts at the origin, rises to $\left(\frac{\pi}{2},1\right)$, descends through $\left(\pi,0\right)$ to $\left(\frac{3\pi}{2},-1\right)$, and returns to $\left(2\pi,0\right)$; $y=\cos x$ ($x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$) rises from $\left(-\frac{\pi}{2},0\right)$ to $\left(0,1\right)$, descends through $\left(\frac{\pi}{2},0\right)$ to $\left(\pi,-1\right)$, and rises again through $\left(\frac{3\pi}{2},0\right)$; the cosine curve is the sine curve shifted left by $\frac{\pi}{2}$.
+
+### Solution to Exercise 1
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+
+Similarities: both curves are continuous, smooth, "wavy" curves of the same shape, both have period $2\pi$, and both have range $\left[-1,1\right]$.
+
+Differences: the sine curve passes through the origin at $x=0$ and is odd; the cosine curve attains its maximum $1$ at $x=0$ and is even. The cosine curve is obtained by shifting the sine curve to the left by $\frac{\pi}{2}$ units, i.e. $\cos x=\sin\left(x+\frac{\pi}{2}\right)$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 5.4, Problem 2) Use the five-point method to sketch the graphs of the following functions on $\left[-\pi,\pi\right]$ respectively:
+
+(1) $y=-\sin x$;
+
+(2) $y=2-\cos x$.
+
+The graphs: two figures. On the left is the five-point plot of $y=-\sin x$ on $\left[-\pi,\pi\right]$, with key points $\left(-\pi,0\right)$, $\left(-\frac{\pi}{2},1\right)$, $\left(0,0\right)$, $\left(\frac{\pi}{2},-1\right)$, and $\left(\pi,0\right)$, i.e. the sine curve reflected about the $x$-axis; on the right is the five-point plot of $y=2-\cos x$ on $\left[-\pi,\pi\right]$, with key points $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, and $\left(\pi,3\right)$, a wave oscillating between $y=1$ and $y=3$ and inverted vertically relative to the cosine curve.
+
+### Solution to Exercise 2
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function), take the five key points using the five-point method.
+
+(1) $y=-\sin x$: the five key points are $\left(-\pi,0\right)$, $\left(-\frac{\pi}{2},1\right)$, $\left(0,0\right)$, $\left(\frac{\pi}{2},-1\right)$, $\left(\pi,0\right)$.
+
+(2) $y=2-\cos x$: the five key points are $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, $\left(\pi,3\right)$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 5.4, Problem 3) Consider the graphs of $y=\lvert\sin x\rvert$ and $y=\sin x$ and their relationship, and sketch the graph with the help of information technology to check.
+
+The graph: the graph of $y=\left|\sin x\right|$ is obtained by reflecting the part of $y=\sin x$ that lies below the $x$-axis up across the $x$-axis; the curve lies entirely above (or on) the $x$-axis, has range $\left[0,1\right]$, period $\pi$, and is symmetric about the $y$-axis, touching the $x$-axis at $x=k\pi$ and reaching the peak value $1$ at $x=\frac{\pi}{2}+k\pi$.
+
+### Solution to Exercise 3
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function).
+
+The graph of $y=\lvert\sin x\rvert$ is obtained by reflecting the part of the graph of $y=\sin x$ below the $x$-axis up over the $x$-axis. Hence $y=\lvert\sin x\rvert$ has range $\left[0,1\right]$, period $\pi$ (rather than $2\pi$), and is an even function. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 5.4, Problem 4) (Multiple-choice question) The graph of $y=1+\cos x$, $x\in\left[\frac{\pi}{3},2\pi\right]$, and the line $y=t$ ($t$ a constant) may intersect at ( ).
+
+(A) $0$ points
+
+(B) $1$ point
+
+(C) $2$ points
+
+(D) $3$ points
+
+(E) $4$ points
+
+### Solution to Exercise 4
+
+By **Common Conclusion** (Graphs and Properties of the Cosine Function), $y=1+\cos x$ has range $\left[0,2\right]$.
+
+On the interval $\left[\frac{\pi}{3},2\pi\right]$, $\cos x$ first decreases from $\frac{1}{2}$ to $-1$ (at $x=\pi$), then increases to $1$ (at $x=2\pi$). Hence $y=1+\cos x$ first decreases from $1.5$ to $0$ (at $x=\pi$), then increases to $2$ (at $x=2\pi$).
+
+When $t\in\left(1.5,2\right]$, there is $1$ intersection; when $t\in\left[0,1.5\right)$, there are $2$ intersections; when $t< 0$ or $t> 2$, there are $0$ intersections. Hence there may be $0$, $1$ or $2$ intersections; choose (A)(B)(C). $\blacksquare$
+
+## Exercise 5
+
+(Exercise 5.4, Problem 5) Does the equality $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{6}$ hold? If this equality holds, can we say that $\frac{\pi}{3}$ is a period of the sine function $y=\sin x$, $x\in\mathbb R$? Why?
+
+### Solution to Exercise 5
+
+By **Definition 5.4.1 (Periodic Function)**, a period $T$ must satisfy $f\left(x+T\right)=f\left(x\right)$ for every $x\in\mathbb R$.
+
+Since $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{2}=1$ and $\sin\frac{\pi}{6}=\frac{1}{2}$, the equality does not hold. Even if $\sin\left(x+T\right)=\sin x$ holds for some particular $x$, we cannot say that $T$ is a period, because a periodic function requires the equality to hold for all $x$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 5.4, Problem 6) Find the period of the following functions:
+
+(1) $y=\sin\frac{3}{4}x$, $x\in\mathbb R$;
+
+(2) $y=\cos4x$, $x\in\mathbb R$;
+
+(3) $y=\frac{1}{2}\cos\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$;
+
+(4) $y=\sin\left(\frac{1}{3}x+\frac{\pi}{4}\right)$, $x\in\mathbb R$.
+
+### Solution to Exercise 6
+
+By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$), $T=\frac{2\pi}{\omega}$.
+
+(1) From $\omega=\frac{3}{4}$, we get $T=\frac{2\pi}{3/4}=\frac{8\pi}{3}$.
+
+(2) From $\omega=4$, we get $T=\frac{2\pi}{4}=\frac{\pi}{2}$.
+
+(3) From $\omega=2$, we get $T=\frac{2\pi}{2}=\pi$.
+
+(4) From $\omega=\frac{1}{3}$, we get $T=\frac{2\pi}{1/3}=6\pi$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 5.4, Problem 7) Among the following functions, which are odd functions? Which are even functions?
+
+(1) $y=2\sin x$;
+
+(2) $y=1-\cos x$;
+
+(3) $y=x+\sin x$;
+
+(4) $y=-\sin x\cos x$.
+
+### Solution to Exercise 7
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function), $\sin x$ is odd and $\cos x$ is even.
+
+(1) $f\left(-x\right)=2\sin\left(-x\right)=-2\sin x=-f\left(x\right)$; odd function.
+
+(2) $f\left(-x\right)=1-\cos\left(-x\right)=1-\cos x=f\left(x\right)$; even function.
+
+(3) $f\left(-x\right)=-x+\sin\left(-x\right)=-x-\sin x=-\left(x+\sin x\right)=-f\left(x\right)$; odd function.
+
+(4) $f\left(-x\right)=-\sin\left(-x\right)\cos\left(-x\right)=\sin x\cos x=-f\left(x\right)$; odd function. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 5.4, Problem 8) Let $f\left(x\right)$ ($x\in\mathbb R$) be a periodic function with least positive period $2$, and when $x\in\left[0,2\right]$, $f\left(x\right)=\left(x-1\right)^{2}$. Find the values of $f\left(3\right)$ and $f\left(\frac{7}{2}\right)$.
+
+### Solution to Exercise 8
+
+By **Definition 5.4.1 (Periodic Function)**, $f\left(x+2\right)=f\left(x\right)$.
+
+From $f\left(3\right)=f\left(1+2\right)=f\left(1\right)=\left(1-1\right)^{2}=0$.
+
+From $f\left(\frac{7}{2}\right)=f\left(\frac{3}{2}+2\right)=f\left(\frac{3}{2}\right)=\left(\frac{3}{2}-1\right)^{2}=\frac{1}{4}$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 5.4, Problem 9) By observing the sine and cosine curves, write down the intervals of $x$ satisfying the following conditions:
+
+(1) $\sin x> 0$;
+
+(2) $\sin x< 0$;
+
+(3) $\cos x> 0$;
+
+(4) $\cos x< 0$.
+
+### Solution to Exercise 9
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+
+(1) $\sin x> 0$: $x\in\left(2k\pi,\ \pi+2k\pi\right)$, $k\in\mathbb Z$.
+
+(2) $\sin x< 0$: $x\in\left(\pi+2k\pi,\ 2\pi+2k\pi\right)$, $k\in\mathbb Z$.
+
+(3) $\cos x> 0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$.
+
+(4) $\cos x< 0$: $x\in\left(\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 5.4, Problem 10) Find the set of arguments at which the following functions attain their maximum and minimum values, and find the maximum and minimum values.
+
+(1) $y=2\sin x$, $x\in\mathbb R$;
+
+(2) $y=2-\cos\frac{x}{3}$, $x\in\mathbb R$.
+
+### Solution to Exercise 10
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+
+(1) When $x=\frac{\pi}{2}+2k\pi$ ($k\in\mathbb Z$), $\sin x=1$ and $y$ attains its maximum $2$; when $x=-\frac{\pi}{2}+2k\pi$, $\sin x=-1$ and $y$ attains its minimum $-2$.
+
+(2) When $\frac{x}{3}=2k\pi$, i.e. $x=6k\pi$, $\cos\frac{x}{3}=1$ and $y$ attains its minimum $1$; when $\frac{x}{3}=\pi+2k\pi$, i.e. $x=3\pi+6k\pi$, $\cos\frac{x}{3}=-1$ and $y$ attains its maximum $3$. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 5.4, Problem 11) Which of the following statements about the monotonicity of $y=4\sin x$, $x\in\left[0,2\pi\right]$, is correct? ( )
+
+(A) Monotonically increasing on $\left[0,\pi\right]$, monotonically decreasing on $\left[\pi,2\pi\right]$
+
+(B) Monotonically increasing on $\left[0,\frac{\pi}{2}\right]$, monotonically decreasing on $\left[\frac{\pi}{2},2\pi\right]$
+
+(C) Monotonically increasing on $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, monotonically decreasing on $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$
+
+(D) Monotonically increasing on $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$, monotonically decreasing on $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$
+
+### Solution to Exercise 11
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function), the sine function is increasing on $\left[-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right]$ and decreasing on $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$.
+
+On $\left[0,2\pi\right]$, the increasing intervals are $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, and the decreasing interval is $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. Choose (C). $\blacksquare$
+
+## Exercise 12
+
+(Exercise 5.4, Problem 12) Without computing the values, compare the sizes of the two trigonometric values in each of the following pairs:
+
+(1) $\cos\frac{3\pi}{7}$ and $\cos\left(-\frac{4\pi}{9}\right)$;
+
+(2) $\sin250^{\circ}$ and $\sin260^{\circ}$.
+
+### Solution to Exercise 12
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+
+(1) Since $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. From $0< \frac{3\pi}{7}< \frac{4\pi}{9}< \pi$, and the cosine function is decreasing on $\left[0,\pi\right]$, we get $\cos\frac{3\pi}{7}> \cos\frac{4\pi}{9}$, i.e. $\cos\frac{3\pi}{7}> \cos\left(-\frac{4\pi}{9}\right)$.
+
+(2) From $90^{\circ}< 250^{\circ}< 260^{\circ}< 270^{\circ}$, and the sine function is decreasing on $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$, i.e. $\left[90^{\circ},270^{\circ}\right]$, we get $\sin250^{\circ}> \sin260^{\circ}$. $\blacksquare$
+
+## Exercise 13
+
+(Exercise 5.4, Problem 13) Find the decreasing interval of $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\left[0,\pi\right]$.
+
+### Solution to Exercise 13
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function), the decreasing interval of the sine function is $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$.
+
+Set $\frac{\pi}{2}+2k\pi\le 2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, which gives $\frac{\pi}{8}+k\pi\le x\le\frac{5\pi}{8}+k\pi$. Taking $k=0$, we get $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq\left[0,\pi\right]$. Hence the decreasing interval is $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
+
+## Exercise 14
+
+(Exercise 5.4, Problem 14) Using the graph of $y=\tan x$, solve the inequality $\tan x\ge-1$, $x\in\left[0,\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\pi\right)$.
+
+### Solution to Exercise 14
+
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ and $\left(\frac{\pi}{2},\frac{3\pi}{2}\right)$.
+
+Since $\tan\left(-\frac{\pi}{4}\right)=-1$, on $\left[0,\frac{\pi}{2}\right)$ we have $\tan x\ge0> -1$, which always holds. On $\left(\frac{\pi}{2},\pi\right)$, $\tan x\ge-1=\tan\left(-\frac{\pi}{4}\right)=\tan\frac{3\pi}{4}$, so by monotonicity $x\ge\frac{3\pi}{4}$. Hence the solution set is $\left[0,\frac{\pi}{2}\right)\cup\left[\frac{3\pi}{4},\pi\right)$. $\blacksquare$
+
+## Exercise 15
+
+(Exercise 5.4, Problem 15) By observing the tangent curve, write down the range of $x$ satisfying the following conditions:
+
+(1) $\tan x> 0$;
+
+(2) $\tan x=0$;
+
+(3) $\tan x< 0$.
+
+### Solution to Exercise 15
+
+By **Common Conclusion** (Graphs and Properties of the Tangent Function).
+
+(1) $\tan x> 0$: $x\in\left(k\pi,\ \frac{\pi}{2}+k\pi\right)$, $k\in\mathbb Z$.
+
+(2) $\tan x=0$: $x=k\pi$, $k\in\mathbb Z$.
+
+(3) $\tan x< 0$: $x\in\left(-\frac{\pi}{2}+k\pi,\ k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
+
+## Exercise 16
+
+(Exercise 5.4, Problem 16) Find the domain of $y=\tan3x$.
+
+### Solution to Exercise 16
+
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the argument of the tangent function must satisfy $x\neq\frac{\pi}{2}+k\pi$.
+
+From $3x\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb Z$. Hence the domain is $\left\{x\mid x\neq\frac{\pi}{6}+\frac{k\pi}{2},\ k\in\mathbb Z\right\}$. $\blacksquare$
+
+## Exercise 17
+
+(Exercise 5.4, Problem 17) Find the period of the following functions:
+
+(1) $y=\tan2x$, $x\neq\frac{\pi}{4}+\frac{k\pi}{2}$ ($k\in\mathbb Z$);
+
+(2) $y=5\tan\frac{x}{2}$, $x\neq\left(2k+1\right)\pi$ ($k\in\mathbb Z$).
+
+### Solution to Exercise 17
+
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the period of $y=\tan\left(\omega x+\varphi\right)$ is $\frac{\pi}{\omega}$.
+
+(1) From $\omega=2$, we get $T=\frac{\pi}{2}$.
+
+(2) From $\omega=\frac{1}{2}$, we get $T=\frac{\pi}{1/2}=2\pi$. $\blacksquare$
+
+## Exercise 18
+
+(Exercise 5.4, Problem 18) Without computing the values, compare the sizes of the two tangent values in each of the following pairs:
+
+(1) $\tan\left(-52^{\circ}\right)$ and $\tan\left(-47^{\circ}\right)$;
+
+(2) $\tan\frac{13\pi}{4}$ and $\tan\frac{17\pi}{5}$.
+
+### Solution to Exercise 18
+
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$.
+
+(1) From $-90^{\circ}< -52^{\circ}< -47^{\circ}< 0^{\circ}$, we get $\tan\left(-52^{\circ}\right)< \tan\left(-47^{\circ}\right)$.
+
+(2) Since $\tan\frac{13\pi}{4}=\tan\left(3\pi+\frac{\pi}{4}\right)=\tan\frac{\pi}{4}$ and $\tan\frac{17\pi}{5}=\tan\left(3\pi+\frac{2\pi}{5}\right)=\tan\frac{2\pi}{5}$. From $0< \frac{\pi}{4}< \frac{2\pi}{5}< \frac{\pi}{2}$, we get $\tan\frac{\pi}{4}< \tan\frac{2\pi}{5}$, i.e. $\tan\frac{13\pi}{4}< \tan\frac{17\pi}{5}$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 4.3, Review and Consolidation, Problem 3) Find the values of the following.
+(Exercise 5.4, Review and Consolidation, Problem 1) Sketch simple graphs of the following functions:
 
-(1) $\log_a 2+\log_a\frac{1}{2}$;
+(1) $y=1-\sin x$, $x\in\left[0,2\pi\right]$;
 
-(2) $\log_3 18-\log_3 2$;
+(2) $y=3\cos x+1$, $x\in\left[0,2\pi\right]$.
 
-(3) $\lg\frac{1}{4}-\lg 25$;
-
-(4) $2\log_5 25-3\log_2 64$;
-
-(5) $\log_2\left(\log_2 16\right)$;
-
-(6) $\log_2 25\times\log_3 4\times\log_5 9$.
+The graphs: two figures. On the left is the five-point plot of $y=1-\sin x$ on $\left[0,2\pi\right]$, with key points $\left(0,1\right)$, $\left(\frac{\pi}{2},0\right)$, $\left(\pi,1\right)$, $\left(\frac{3\pi}{2},2\right)$, and $\left(2\pi,1\right)$; on the right is the five-point plot of $y=3\cos x+1$ on $\left[0,2\pi\right]$, with key points $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, and $\left(2\pi,4\right)$, with amplitude $3$ and a vertical shift of $1$.
 
 ### Solution to Problem 3
 
-By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function), use the five-point method.
 
-(1) By (1), $\log_a 2+\log_a\frac{1}{2}=\log_a 1=0$.
+(1) Five key points: $\left(0,1\right)$, $\left(\frac{\pi}{2},0\right)$, $\left(\pi,1\right)$, $\left(\frac{3\pi}{2},2\right)$, $\left(2\pi,1\right)$.
 
-(2) By (2), $\log_3 18-\log_3 2=\log_3 9=2$.
-
-(3) By (2), $\lg\frac{1}{4}-\lg 25=\lg\frac{1}{100}=-2$.
-
-(4) $2\log_5 25-3\log_2 64=2\times 2-3\times 6=-14$.
-
-(5) $\log_2\left(\log_2 16\right)=\log_2 4=2$.
-
-(6) By the change-of-base formula, the original expression $=\frac{\ln 25}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 9}{\ln 5}=\frac{2\ln 5}{\ln 2}\cdot\frac{2\ln 2}{\ln 3}\cdot\frac{2\ln 3}{\ln 5}=8$. $\blacksquare$
+(2) Five key points: $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, $\left(2\pi,4\right)$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 4.3, Review and Consolidation, Problem 4) Find the value of $x$ satisfying the following conditions.
+(Exercise 5.4, Review and Consolidation, Problem 2) Find the period of the following functions:
 
-(1) $\ln x=\ln a+\ln b$;
+(1) $y=\sin\frac{2}{3}x$, $x\in\mathbb R$;
 
-(2) $\lg x=3\lg n-\lg m$;
-
-(3) $\log_a x=\frac{1}{2}\log_a b-\log_a c$;
-
-(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$.
+(2) $y=\frac{1}{2}\cos4x$, $x\in\mathbb R$.
 
 ### Solution to Problem 4
 
-By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$), $T=\frac{2\pi}{\omega}$.
 
-(1) By (1), $\ln x=\ln\left(ab\right)$, so $x=ab$.
+(1) From $\omega=\frac{2}{3}$, we get $T=\frac{2\pi}{2/3}=3\pi$.
 
-(2) By (1) (2), $\lg x=\lg\frac{n^3}{m}$, so $x=\frac{n^3}{m}$.
-
-(3) By (2) (3), $\log_a x=\log_a\frac{\sqrt{b}}{c}$, so $x=\frac{\sqrt{b}}{c}$.
-
-(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$; from $\log_a 1=0$, we get $\log_3\left(\log_4 x\right)=1$; from $a^1=a$, we get $\log_4 x=3$; so $x=4^3=64$. $\blacksquare$
+(2) From $\omega=4$, we get $T=\frac{2\pi}{4}=\frac{\pi}{2}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 4.3, Comprehensive Application, Problem 5) Given $\lg 2=a$, $\lg 3=b$, find the values of the following.
+(Exercise 5.4, Review and Consolidation, Problem 3) Among the following functions, which are odd functions? Which are even functions? Which are neither odd nor even?
 
-(1) $\lg 6$;
+(1) $y=\lvert\sin x\rvert$;
 
-(2) $\log_3 4$;
+(2) $y=1-\cos2x$;
 
-(3) $\log_2 12$;
+(3) $y=-3\sin2x$;
 
-(4) $\lg\frac{3}{2}$.
+(4) $y=1+2\tan x$.
 
 ### Solution to Problem 5
 
-By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) $\lg 6=\lg\left(2\times 3\right)=\lg 2+\lg 3=a+b$.
+(1) $f\left(-x\right)=\lvert\sin\left(-x\right)\rvert=\lvert-\sin x\rvert=\lvert\sin x\rvert=f\left(x\right)$; even function.
 
-(2) By the change-of-base formula, $\log_3 4=\frac{\lg 4}{\lg 3}=\frac{2\lg 2}{\lg 3}=\frac{2a}{b}$.
+(2) $f\left(-x\right)=1-\cos\left(-2x\right)=1-\cos2x=f\left(x\right)$; even function.
 
-(3) By the change-of-base formula, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg\left(3\times 4\right)}{\lg 2}=\frac{b+2a}{a}$.
+(3) $f\left(-x\right)=-3\sin\left(-2x\right)=3\sin2x=-f\left(x\right)$; odd function.
 
-(4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
+(4) $f\left(-x\right)=1+2\tan\left(-x\right)=1-2\tan x$, which equals neither $f\left(x\right)$ nor $-f\left(x\right)$; neither odd nor even. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 4.3, Comprehensive Application, Problem 6) Find the values under the following conditions.
+(Exercise 5.4, Review and Consolidation, Problem 4) Find the set of arguments $x$ at which the following functions attain their maximum and minimum values, and find the maximum and minimum values:
 
-(1) If $x\log_3 4=1$, find the value of $4^x+4^{-x}$;
+(1) $y=1-\frac{1}{2}\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)$, $x\in\mathbb R$;
 
-(2) if $f\left(x\right)=3^x$, find the value of $f\left(\log_3 2\right)$.
+(2) $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\mathbb R$;
+
+(3) $y=-\frac{3}{2}\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)$, $x\in\mathbb R$;
+
+(4) $y=\frac{1}{2}\sin\left(\frac{1}{2}x+\frac{\pi}{3}\right)$, $x\in\mathbb R$.
 
 ### Solution to Problem 6
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) From $x\log_3 4=1$, we get $x=\log_4 3$. Thus $4^x=3$, $4^{-x}=\frac{1}{3}$, and therefore $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
+(1) When $\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)=-1$, $y$ attains its maximum $\frac{3}{2}$, at which point $\frac{2}{3}x+\frac{\pi}{3}=\pi+2k\pi$, i.e. $x=\pi+3k\pi$. When $\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)=1$, $y$ attains its minimum $\frac{1}{2}$, at which point $x=3k\pi$.
 
-(2) $f\left(\log_3 2\right)=3^{\log_3 2}=2$. $\blacksquare$
+(2) When $2x+\frac{\pi}{4}=\frac{\pi}{2}+2k\pi$, i.e. $x=\frac{\pi}{8}+k\pi$, $y$ attains its maximum $3$; when $x=\frac{5\pi}{8}+k\pi$, $y$ attains its minimum $-3$.
+
+(3) When $\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)=-1$, $y$ attains its maximum $\frac{3}{2}$, at which point $\frac{1}{2}x-\frac{\pi}{6}=\pi+2k\pi$, i.e. $x=\frac{7\pi}{3}+4k\pi$. When $\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)=1$, $y$ attains its minimum $-\frac{3}{2}$, at which point $x=\frac{\pi}{3}+4k\pi$.
+
+(4) When $\frac{1}{2}x+\frac{\pi}{3}=\frac{\pi}{2}+2k\pi$, i.e. $x=\frac{\pi}{3}+4k\pi$, $y$ attains its maximum $\frac{1}{2}$; when $x=\frac{7\pi}{3}+4k\pi$, $y$ attains its minimum $-\frac{1}{2}$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 4.3, Comprehensive Application, Problem 7) Prove.
+(Exercise 5.4, Review and Consolidation, Problem 5) Using the monotonicity of the functions, compare the sizes of the two trigonometric values in each of the following pairs:
 
-(1) $\log_a b\cdot\log_b c\cdot\log_c a=1$;
+(1) $\sin103^{\circ}15'$ and $\sin164^{\circ}30'$;
 
-(2) $\log_{a^m} b^n=\frac{n}{m}\log_a b$.
+(2) $\cos\left(-\frac{3\pi}{10}\right)$ and $\cos\left(-\frac{4\pi}{9}\right)$;
+
+(3) $\sin508^{\circ}$ and $\sin144^{\circ}$;
+
+(4) $\cos\frac{47\pi}{10}$ and $\cos\frac{44\pi}{9}$.
 
 ### Solution to Problem 7
 
-By **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) By the change-of-base formula, $\log_a b=\frac{\ln b}{\ln a}$, $\log_b c=\frac{\ln c}{\ln b}$, $\log_c a=\frac{\ln a}{\ln c}$. Multiplying the three equations gives $\log_a b\cdot\log_b c\cdot\log_c a=\frac{\ln b}{\ln a}\cdot\frac{\ln c}{\ln b}\cdot\frac{\ln a}{\ln c}=1$.
+(1) From $90^{\circ}< 103^{\circ}15'< 164^{\circ}30'< 180^{\circ}$, and the sine function is decreasing on $\left[90^{\circ},180^{\circ}\right]$, we get $\sin103^{\circ}15'> \sin164^{\circ}30'$.
 
-(2) By the change-of-base formula, $\log_{a^m} b^n=\frac{\ln b^n}{\ln a^m}=\frac{n\ln b}{m\ln a}=\frac{n}{m}\log_a b$. $\blacksquare$
+(2) Since $\cos\left(-\frac{3\pi}{10}\right)=\cos\frac{3\pi}{10}$ and $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. From $0< \frac{3\pi}{10}< \frac{4\pi}{9}< \pi$, and the cosine function is decreasing on $\left[0,\pi\right]$, we get $\cos\frac{3\pi}{10}> \cos\frac{4\pi}{9}$.
+
+(3) Since $\sin508^{\circ}=\sin\left(360^{\circ}+148^{\circ}\right)=\sin148^{\circ}$. From $90^{\circ}< 144^{\circ}< 148^{\circ}< 180^{\circ}$, we get $\sin144^{\circ}> \sin148^{\circ}$, i.e. $\sin144^{\circ}> \sin508^{\circ}$.
+
+(4) Since $\cos\frac{47\pi}{10}=\cos\left(4\pi+\frac{7\pi}{10}\right)=\cos\frac{7\pi}{10}$ and $\cos\frac{44\pi}{9}=\cos\left(4\pi+\frac{8\pi}{9}\right)=\cos\frac{8\pi}{9}$. From $0< \frac{7\pi}{10}< \frac{8\pi}{9}< \pi$, we get $\cos\frac{7\pi}{10}> \cos\frac{8\pi}{9}$, i.e. $\cos\frac{47\pi}{10}> \cos\frac{44\pi}{9}$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 4.3, Comprehensive Application, Problem 8) The average annual growth rate of the gross domestic product of a certain place is $6.5\%$. At this growth rate, after how many years will the gross domestic product of this place quadruple?
+(Exercise 5.4, Review and Consolidation, Problem 6) Find the monotonic intervals of the following functions:
+
+(1) $y=1+\sin x$, $x\in\left[0,2\pi\right]$;
+
+(2) $y=-\cos x$, $x\in\left[0,2\pi\right]$.
 
 ### Solution to Problem 8
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), quadrupling means growing to $4$ times the original.
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-Let $x$ years be needed for the gross domestic product to quadruple, then $1.065^x=4$. By the definition of logarithms, $x=\log_{1.065} 4$. By the change-of-base formula, $x=\frac{\lg 4}{\lg 1.065}\approx\frac{0.602}{0.0273}\approx 22$. Therefore after about $22$ years the gross domestic product of this place will quadruple. $\blacksquare$
+(1) $y=1+\sin x$ has the same monotonicity as $y=\sin x$. The increasing intervals are $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, and the decreasing interval is $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$.
+
+(2) $y=-\cos x$ has the opposite monotonicity to $y=\cos x$. The increasing interval is $\left[0,\pi\right]$, and the decreasing interval is $\left[\pi,2\pi\right]$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 4.3, Extension and Exploration, Problem 9) We can regard $\left(1+1\%\right)^{365}$ as the daily "progress" rate being $1\%$, and after one year it is $1.01^{365}$; while regarding $\left(1-1\%\right)^{365}$ as the daily "falling behind" rate being $1\%$, and after one year it is $0.99^{365}$. Use a calculating tool to compute and answer the following questions.
-
-(1) After one year, by how many times is "progress" greater than "falling behind"?
-
-(2) After approximately how many days will "progress" be $10$ times, $100$ times, and $1000$ times "falling behind" respectively?
+(Exercise 5.4, Review and Consolidation, Problem 7) Find the domain of $y=-\tan\left(x+\frac{\pi}{6}\right)+2$.
 
 ### Solution to Problem 9
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the argument of the tangent function must satisfy $x\neq\frac{\pi}{2}+k\pi$.
 
-(1) After one year, the ratio of progress to falling behind is $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
-
-(2) Let $x$ days be needed for progress to be $k$ times falling behind, then $\left(\frac{1.01}{0.99}\right)^x=k$, so $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg\left(1.01/0.99\right)}$. When $k=10$, $x\approx\frac{1}{0.0087}\approx 115$ days; when $k=100$, $x\approx 230$ days; when $k=1000$, $x\approx 345$ days. $\blacksquare$
+From $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb Z$. Hence the domain is $\left\{x\mid x\neq\frac{\pi}{3}+k\pi,\ k\in\mathbb Z\right\}$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 4.3, Extension and Exploration, Problem 10) Drunk driving is an illegal act that seriously endangers traffic safety. To ensure traffic safety, according to relevant national regulations: a driver whose alcohol content in $100\;\mathrm{mL}$ of blood reaches $20\sim 79\;\mathrm{mg}$ is considered to be driving after drinking, and $80\;\mathrm{mg}$ or above is determined to be drunk driving. Suppose a driver has drunk a certain amount of alcohol, and the alcohol content in his blood has risen to $1\;\mathrm{mg/mL}$. If after he stops drinking, the alcohol content in his blood decreases at a rate of $30\%$ per hour, then at least how many hours must pass before he can drive?
+(Exercise 5.4, Review and Consolidation, Problem 8) Find the period of $y=\tan\left(2x-\frac{5\pi}{12}\right)$, $x\neq\frac{k\pi}{2}$ ($k\in\mathbb Z$).
 
 ### Solution to Problem 10
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the period of $y=\tan\left(\omega x+\varphi\right)$ is $\frac{\pi}{\omega}$.
 
-It decreases by $30\%$ per hour, i.e. the alcohol content each hour is $0.7$ of the original. The initial content is $1\;\mathrm{mg/mL}$, and after $t$ hours the content is $0.7^\top\;\mathrm{mg/mL}$. The standard for driving after drinking is $20\;\mathrm{mg}$ in $100\;\mathrm{mL}$, i.e. $0.2\;\mathrm{mg/mL}$; to be able to drive we need $0.7^\top< 0.2$. By the definition of logarithms, $t> \log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. Therefore he must wait at least $5$ hours before he can drive. $\blacksquare$
+From $\omega=2$, we get $T=\frac{\pi}{2}$. $\blacksquare$
+
+## Problem 11
+
+(Exercise 5.4, Review and Consolidation, Problem 9) Using the monotonicity of the tangent function, compare the sizes of the two function values in each of the following pairs:
+
+(1) $\tan\left(-\frac{\pi}{5}\right)$ and $\tan\left(-\frac{3\pi}{7}\right)$;
+
+(2) $\tan1519^{\circ}$ and $\tan1493^{\circ}$;
+
+(3) $\tan\frac{6\pi}{11}$ and $\tan\left(-\frac{5\pi}{11}\right)$;
+
+(4) $\tan\frac{7\pi}{8}$ and $\tan\frac{\pi}{6}$.
+
+### Solution to Problem 11
+
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$.
+
+(1) From $-\frac{\pi}{2}< -\frac{3\pi}{7}< -\frac{\pi}{5}< \frac{\pi}{2}$, we get $\tan\left(-\frac{3\pi}{7}\right)< \tan\left(-\frac{\pi}{5}\right)$.
+
+(2) Since $\tan1519^{\circ}=\tan\left(4\times360^{\circ}+79^{\circ}\right)=\tan79^{\circ}$ and $\tan1493^{\circ}=\tan\left(4\times360^{\circ}+53^{\circ}\right)=\tan53^{\circ}$. From $0^{\circ}< 53^{\circ}< 79^{\circ}< 90^{\circ}$, we get $\tan53^{\circ}< \tan79^{\circ}$, i.e. $\tan1493^{\circ}< \tan1519^{\circ}$.
+
+(3) Since $\tan\frac{6\pi}{11}=\tan\left(-\frac{5\pi}{11}+\pi\right)=\tan\left(-\frac{5\pi}{11}\right)$. Hence the two are equal.
+
+(4) Since $\frac{7\pi}{8}\in\left(\frac{\pi}{2},\pi\right)$, $\tan\frac{7\pi}{8}< 0$, while $\tan\frac{\pi}{6}> 0$, we get $\tan\frac{7\pi}{8}< \tan\frac{\pi}{6}$. $\blacksquare$
+
+## Problem 12
+
+(Exercise 5.4, Comprehensive Application, Problem 10) Find the range of the following functions:
+
+(1) $y=\sin x$, $x\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$;
+
+(2) $y=\cos\left(x+\frac{\pi}{3}\right)$, $x\in\left[0,\frac{\pi}{2}\right]$.
+
+### Solution to Problem 12
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+
+(1) On $\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$, $\sin x$ attains its maximum $1$ at $x=\frac{\pi}{2}$ and its minimum $-\frac{\sqrt{2}}{2}$ at $x=\frac{5\pi}{4}$. Hence the range is $\left[-\frac{\sqrt{2}}{2},1\right]$.
+
+(2) From $x\in\left[0,\frac{\pi}{2}\right]$, we get $x+\frac{\pi}{3}\in\left[\frac{\pi}{3},\frac{5\pi}{6}\right]$. On this interval, $\cos$ decreases monotonically from $\frac{1}{2}$ to $-\frac{\sqrt{3}}{2}$. Hence the range is $\left[-\frac{\sqrt{3}}{2},\frac{1}{2}\right]$. $\blacksquare$
+
+## Problem 13
+
+(Exercise 5.4, Comprehensive Application, Problem 11) Based on the graphs of the sine and cosine functions, write down the set of $x$ for which the following inequalities hold:
+
+(1) $\sin x\ge\frac{\sqrt{3}}{2}$ ($x\in\mathbb R$);
+
+(2) $\sqrt{2}+2\cos x\ge0$ ($x\in\mathbb R$).
+
+### Solution to Problem 13
+
+By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+
+(1) From $\sin x\ge\frac{\sqrt{3}}{2}=\sin\frac{\pi}{3}$, we get $x\in\left[\frac{\pi}{3}+2k\pi,\ \frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+
+(2) From $\sqrt{2}+2\cos x\ge0$, we get $\cos x\ge-\frac{\sqrt{2}}{2}$. From $\cos x\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, we get $x\in\left[-\frac{3\pi}{4}+2k\pi,\ \frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$

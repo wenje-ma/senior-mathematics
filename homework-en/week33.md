@@ -1,419 +1,382 @@
 # week33
-> **Definition 6.1.7 (Equal Vectors)**
+> **Definition 9.1.1 (普查与抽样调查)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
-> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
+> 对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
+> **Definition 9.1.2 (Population, Individual, Sample, Sample Size)**
 > 
-> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+> 统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
+> **Definition 9.1.3 (简单随机抽样)**
+> 
+> 设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
+> **Definition 9.1.4 (Population Mean and Sample Mean)**
+> 
+> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **Definition 9.1.5 (Stratified Random Sampling)**
+> 
+> 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
 
 ## Exercise 1
 
-(Exercise 6.3, Problem 1) As shown in the figure, $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors. Express the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$ in the figure in terms of the basis $\left\{\boldsymbol{e}_1,\boldsymbol{e}_2\right\}$.
+(Exercise 9.1, Problem 1) In the following surveys, what are the population and the individual respectively? Which are suitable for a complete survey? Which are suitable for a sampling survey?
 
-The figure: using the two non-collinear vectors $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ as a basis, the vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, and $\boldsymbol{d}$ are drawn from a common tail; each can be decomposed into components in the directions of $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ by completing a parallelogram.
+(1) Surveying the weekly physical exercise time of the students in a class;
+
+(2) Surveying the incidence rate of tuberculosis in a region;
+
+(3) Surveying the kill radius of a batch of artillery shells;
+
+(4) Surveying the proportion of grass carp among all the fish in a reservoir.
+
+Give some more examples for which a complete survey is not appropriate, and explain why.
 
 ### Solution to Exercise 1
 
-By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, any vector has a unique decomposition $\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. Write out the decomposition of each vector from its components in the $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ directions. $\blacksquare$
+By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)**, the population is the whole collection of objects of study, and the individual is each object of study making up the population; by **Definition 9.1.1 (Census and Sampling Survey)**, a census investigates every object, while a sampling survey draws only a part of the individuals.
+
+(1) The population is the weekly physical exercise time of all the students in the class, and the individual is the weekly physical exercise time of each student. A class has very few students, and investigating every student costs little, so a complete survey is suitable.
+
+(2) The population is the tuberculosis status of the entire population of the region, and the individual is the tuberculosis status of each person in the region. A region has a large population, and investigating everyone one by one is a heavy workload, so a sampling survey is suitable.
+
+(3) The population is the kill radius of this batch of artillery shells, and the individual is the kill radius of each shell. Measuring a shell's kill radius destroys the shell, and the test is destructive, so only a sampling survey can be used.
+
+(4) The population is the proportion of grass carp among all the fish in the reservoir, and the individual is whether each fish in the reservoir is a grass carp. The fish in a reservoir cannot all be caught and investigated one by one, so a sampling survey is suitable.
+
+Examples for which a complete survey is not appropriate: testing the service life of a batch of light bulbs, since the test burns out the bulbs and is destructive; surveying the annual income of all residents nationwide, since the population is too large and investigating everyone one by one is too costly. In both cases only a sampling survey can be used. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 6.3, Problem 2) When $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors, construct the vector $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
+(Exercise 9.1, Problem 2) As shown in the figure, a regular icosahedron (each face an equilateral triangle) made of uniform material, its 20 faces are divided evenly into 10 groups: the 1st group is marked 0, the 2nd group is marked 1, $\cdots$, the 10th group is marked 9.
 
-The figure: first draw the basis vectors $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$, then construct $2\boldsymbol{e}_1$ (same direction as $\boldsymbol{e}_1$, twice its length) and $-\boldsymbol{e}_2$ (opposite direction to $\boldsymbol{e}_2$), and add them by the triangle rule to obtain $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
+(1) Toss the regular icosahedron; if the number on the face facing up is taken as the result, are $0,1,2,\cdots,9$ equally likely to appear?
+
+(2) Three regular icosahedra are painted red, yellow, and blue respectively, representing the hundreds, tens, and units digits; tossing them together can produce a three-digit number (one whose hundreds digit is 0 is also regarded as a three-digit number). Is it a random number in the range $000\sim999$?
+
+(Figure: a regular icosahedron with all triangular faces, the 20 faces labeled with digits $0\sim9$.)
 
 ### Solution to Exercise 2
 
-By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, first construct $2\boldsymbol{e}_1$, then $-\boldsymbol{e}_2$, and add them by the triangle rule to obtain $2\boldsymbol{e}_1-\boldsymbol{e}_2$. $\blacksquare$
+By **Definition 9.1.3 (Simple Random Sampling)**, a random number requires that each possible result has equal probability of being drawn.
+
+(1) The regular icosahedron is made of uniform material, so its 20 faces are equally likely to face up, each with probability $\frac{1}{20}$. The 20 faces are divided evenly into 10 groups, each group having exactly 2 faces, so each of the digits $0,1,\cdots,9$ has probability $\frac{2}{20}=\frac{1}{10}$ of facing up, all equal to one another; that is, $0,1,2,\cdots,9$ are equally likely to appear.
+
+(2) When three regular icosahedra are tossed together, the hundreds, tens, and units digits independently and equally likely take a digit from $0\sim9$, so each three-digit number $abc$ ($a,b,c\in\left\{0,1,\cdots,9\right\}$) appears with probability $\frac{1}{10}\cdot\frac{1}{10}\cdot\frac{1}{10}=\frac{1}{1000}$. And $000\sim999$ has exactly 1000 three-digit numbers, each drawn with equal probability, so it is a random number in the range $000\sim999$. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 6.3, Problem 3) Given that the coordinates of the points $A$, $B$, $C$ are $\left(2,-1\right)$, $\left(3,2\right)$, $\left(-3,4\right)$, respectively, find the coordinates of $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$.
+(Exercise 9.1, Problem 3) There are 100 white mice in a laboratory cage, and 10 are now to be drawn for an experiment. Are the following two cases simple random sampling? Explain why.
+
+(1) Each time, grab one mouse without any selection, until 10 mice have been grabbed;
+
+(2) Number the 100 mice in the cage from $1\sim100$, arbitrarily choose 10 distinct numbers within the number range, and take the mice with the corresponding numbers as the experimental mice.
 
 ### Solution to Exercise 3
 
-By **Common Conclusion 6.3.4** (Coordinate Operations).
+By **Definition 9.1.3 (Simple Random Sampling)**, simple random sampling without replacement requires that, at each draw, every individual in the population not yet in the sample has equal probability of being selected.
 
-$\boldsymbol{AB}=\left(3-2,2-\left(-1\right)\right)=\left(1,3\right)$.
+(1) Not simple random sampling. "Grabbing one mouse without any selection" is affected by human factors such as the grabber's motion and position, and cannot guarantee that every mouse in the cage has equal probability of being grabbed each time, so it does not satisfy **Definition 9.1.3 (Simple Random Sampling)**.
 
-$\boldsymbol{BC}=\left(-3-3,4-2\right)=\left(-6,2\right)$.
-
-$\boldsymbol{CA}=\left(2-\left(-3\right),-1-4\right)=\left(5,-5\right)$.
-
-$\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}=\left(1-6+5,3+2-5\right)=\left(0,0\right)$. $\blacksquare$
+(2) It is simple random sampling. First number the 100 mice $1\sim100$, then arbitrarily take 10 distinct numbers from them; each number is drawn with equal probability, i.e. each mouse has equal probability of being selected, and the drawing is without replacement, which satisfies the requirement for simple random sampling without replacement in **Definition 9.1.3 (Simple Random Sampling)**. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 6.3, Problem 4) Given $\boldsymbol{a}=\left(3,2\right)$ and $\boldsymbol{b}=\left(0,-1\right)$, find the coordinates of $-2\boldsymbol{a}+4\boldsymbol{b}$ and $4\boldsymbol{a}+3\boldsymbol{b}$.
+(Exercise 9.1, Problem 4) If a calculator can only generate random numbers in $\left[0,1\right)$, do you have a way to convert them into integer random numbers in the range $1\sim100$? Into integer random numbers in the range $1\sim712$?
 
 ### Solution to Exercise 4
 
-By **Common Conclusion 6.3.4** (Coordinate Operations).
+By **Definition 9.1.3 (Simple Random Sampling)**, the converted integer random numbers should make each integer in $1\sim100$ (or $1\sim712$) drawn with equal probability.
 
-$-2\boldsymbol{a}+4\boldsymbol{b}=-2\left(3,2\right)+4\left(0,-1\right)=\left(-6,-4\right)+\left(0,-4\right)=\left(-6,-8\right)$.
+Let the random number generated by the calculator be $U$, uniformly distributed on $\left[0,1\right)$.
 
-$4\boldsymbol{a}+3\boldsymbol{b}=4\left(3,2\right)+3\left(0,-1\right)=\left(12,8\right)+\left(0,-3\right)=\left(12,5\right)$. $\blacksquare$
+To convert into integer random numbers in the range $1\sim100$, simply take
+
+$$
+\left\lfloor 100U\right\rfloor+1.
+$$
+
+Because $0\le U< 1$, we have $0\le 100U< 100$, so $\lfloor 100U\rfloor$ takes all values $0,1,\cdots,99$; after adding 1 it is exactly $1,2,\cdots,100$, and each integer appears with probability $\frac{1}{100}$.
+
+Similarly, to convert into integer random numbers in the range $1\sim712$, simply take
+
+$$
+\left\lfloor 712U\right\rfloor+1.
+$$
+
+Because $0\le 712U< 712$, $\lfloor 712U\rfloor$ takes all values $0,1,\cdots,711$; after adding 1 it is exactly $1,2,\cdots,712$, and each integer appears with probability $\frac{1}{712}$. $\blacksquare$
 
 ## Exercise 5
 
-(Exercise 6.3, Problem 5) Given $A\left(-2,-3\right)$, $B\left(2,1\right)$, $C\left(1,4\right)$, $D\left(-7,-4\right)$, determine whether $\boldsymbol{AB}$ and $\boldsymbol{CD}$ are collinear.
+(Exercise 9.1, Problem 5) In a sampling survey, please state the advantages and disadvantages of choosing the sample "randomly".
 
 ### Solution to Exercise 5
 
-By **Common Conclusion 6.3.5** (Coordinate Condition for Collinearity).
+By **Definition 9.1.3 (Simple Random Sampling)**, random sampling makes every individual in the population have equal probability of being selected, avoiding the subjective preference of manually choosing the sample.
 
-$\boldsymbol{AB}=\left(2-\left(-2\right),1-\left(-3\right)\right)=\left(4,4\right)$.
+Advantages: random selection excludes the subjective bias of human choice, giving the sample good representativeness of the population, so that the sample can be used to objectively estimate and infer the population.
 
-$\boldsymbol{CD}=\left(-7-1,-4-4\right)=\left(-8,-8\right)$.
-
-$4\times\left(-8\right)-\left(-8\right)\times4=-32+32=0$, so $\boldsymbol{AB}\parallel\boldsymbol{CD}$, and the two vectors are collinear. $\blacksquare$
+Disadvantages: the sample is chosen randomly, and statistics such as the sample average computed from it are also random; results from different samples often differ, and sampling error is unavoidable; when the population is very large, preparatory work such as numbering all individuals is troublesome, the selected individuals are often scattered, and conducting the survey is also difficult. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 6.3, Problem 6) Find the coordinates of the midpoint $M$ of the segment $AB$.
+(Exercise 9.1, Problem 6) To rationally allocate power resources, a city wants to understand the daily electricity consumption of its 50000 households. If 300 households are drawn by simple random sampling and surveyed, and the average daily electricity consumption is found to be $5.5\,\mathrm{kW\cdot h}$, then one may infer that the average daily electricity consumption of all households in the city is ($\;\_\_\;$).
 
-(1) $A\left(2,3\right)$, $B\left(4,6\right)$;
+(A) definitely $5.5\,\mathrm{kW\cdot h}$
 
-(2) $A\left(-1,3\right)$, $B\left(-2,-5\right)$.
+(B) higher than $5.5\,\mathrm{kW\cdot h}$
+
+(C) lower than $5.5\,\mathrm{kW\cdot h}$
+
+(D) approximately $5.5\,\mathrm{kW\cdot h}$
 
 ### Solution to Exercise 6
 
-By **Common Conclusion 6.3.6** (Midpoint Coordinate Formula).
+By **Definition 9.1.4 (Population Mean and Sample Mean)**, in simple random sampling the sample average is used to estimate the population average.
 
-(1) $M=\left(\frac{2+4}{2},\frac{3+6}{2}\right)=\left(3,\frac{9}{2}\right)$.
-
-(2) $M=\left(\frac{-1+\left(-2\right)}{2},\frac{3+\left(-5\right)}{2}\right)=\left(-\frac{3}{2},-1\right)$. $\blacksquare$
+The sample average $5.5\,\mathrm{kW\cdot h}$ is an estimate of the population average. Because the sample is chosen randomly, the sample average is random; it generally will not equal the population average exactly. One can only say that the population average is approximately $5.5\,\mathrm{kW\cdot h}$, not that it is definitely, higher than, or lower than this value. Hence choose (D). $\blacksquare$
 
 ## Exercise 7
 
-(Exercise 6.3, Problem 7) Given $\boldsymbol{a}=\left(2,3\right)$, $\boldsymbol{b}=\left(-2,4\right)$, $\boldsymbol{c}=\left(1,-2\right)$, find $\boldsymbol{a}\cdot\boldsymbol{b}$, $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)$, $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)$, and $\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
+(Exercise 9.1, Problem 7) In a survey of students' heights, Xiaoming and Xiaohua independently conducted simple random sampling surveys. Xiaoming's sample average height was $166.4$ with sample size 100; Xiaohua's sample average height was $164.7$ with sample size 200. Which value would you prefer to use as the estimate of the population mean? Is the value you choose necessarily closer to the population mean than the other? Explain your reasons.
 
 ### Solution to Exercise 7
 
-By **Common Conclusion 6.3.7** (Dot Product in Coordinates).
+By **Definition 9.1.4 (Population Mean and Sample Mean)**, the sample average is an estimate of the population average; the larger the sample size, the smaller the fluctuation of the sample average around the population average.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-2\right)+3\times4=-4+12=8$.
+One would prefer to use Xiaohua's sample average $164.7$ as the estimate of the population mean. Because a sample size of 200 is larger than 100, the fluctuation of the sample average is smaller and, generally speaking, it is closer to the population average.
 
-$\boldsymbol{a}+\boldsymbol{b}=\left(0,7\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(4,-1\right)$.
-
-$\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=0\times4+7\times\left(-1\right)=-7$.
-
-$\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)=2\times0+3\times7=21$.
-
-$\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)=4\times0+\left(-1\right)\times7=-7$. $\blacksquare$
+But the chosen value is not necessarily closer to the population mean than the other. Because the sample is chosen randomly, the sample average is also random; a small sample might happen to draw a sample very close to the population mean, while a large sample might happen to deviate farther. One can only say that a large-sample average is "more likely" to be close to the population mean, not "definitely" closer. $\blacksquare$
 
 ## Exercise 8
 
-(Exercise 6.3, Problem 8) Given $\boldsymbol{a}=\left(3,4\right)$ and $\boldsymbol{b}=\left(2,-1\right)$, find the value of $x$ for which $\boldsymbol{a}+x\boldsymbol{b}$ is perpendicular to $\boldsymbol{a}-\boldsymbol{b}$.
+(Exercise 9.1, Problem 8) Take a set of data as the population, set a sample size yourself, and carry out simple random sampling many times. Observe the effect of sample size on estimating the population mean, and try to explain the reason.
 
 ### Solution to Exercise 8
 
-By **Common Conclusion 6.3.8** (Coordinate Condition for Perpendicularity).
+By **Definition 9.1.4 (Population Mean and Sample Mean)**, the sample average is used to estimate the population average, and the sample average is random.
 
-$\boldsymbol{a}+x\boldsymbol{b}=\left(3+2x,4-x\right)$.
+Take a set of data as the population and first compute its population average. Fix a sample size, carry out simple random sampling many times from the population, compute the average of each sample, and observe their fluctuation around the population average; then repeat with a larger sample size.
 
-$\boldsymbol{a}-\boldsymbol{b}=\left(1,5\right)$.
+One can observe that the larger the sample size, the more the sample averages cluster around the population average and the smaller the fluctuation; the smaller the sample size, the greater the fluctuation.
 
-The two vectors are perpendicular: $\left(3+2x\right)\times1+\left(4-x\right)\times5=0$.
-
-$3+2x+20-5x=0$, $23-3x=0$, $x=\frac{23}{3}$. $\blacksquare$
+The reason is: the larger the sample size, the closer the proportions of the various values in the sample to their proportions in the population, and the closer the sample average to the population average; but increasing the sample size also increases costs in manpower, expense, and time, so the sample size should be chosen according to the needs of the actual problem—not bigger is always better. $\blacksquare$
 
 ## Exercise 9
 
-(Exercise 6.3, Problem 9) Given $\boldsymbol{a}=\left(2,3\right)$ and $\boldsymbol{b}=\left(-2,4\right)$, find the cosine of the angle $\theta$ between $\boldsymbol{a}$ and $\boldsymbol{b}$.
+(Exercise 9.1, Problem 9) The average of the data $x_1,x_2,\cdots,x_m$ is $\overline x$, and the average of the data $y_1,y_2,\cdots,y_n$ is $\overline y$. Prove that
+
+$$
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
+$$
 
 ### Solution to Exercise 9
 
-By **Common Conclusion 6.3.8** (Coordinate Formula for the Angle).
+By **Definition 9.1.4 (Population Mean and Sample Mean)**, the average equals the sum of the data divided by the number of data.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-2\right)+3\times4=8$.
+From $\overline x=\frac{1}{m}\sum_{i=1}^{m}x_i$, we get $\sum_{i=1}^{m}x_i=m\overline x$; from $\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i$, we get $\sum_{i=1}^{n}y_i=n\overline y$.
 
-$\lvert\boldsymbol{a}\rvert=\sqrt{4+9}=\sqrt{13}$.
+Combining the two sets of data, their sum is $\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i$ and their count is $m+n$, so the average of the combined data is
 
-$\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt 5$.
+$$
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\overline x+n\overline y}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
+$$
 
-$\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
+This proves the original identity. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 9.1, Problem 10) Someone says: "If the sampling method is well designed, surveying vision with a sample gives roughly the same result as a census of 24300 students' vision. Moreover, for the education department that wants to grasp students' vision status, it saves manpower, material and financial resources, so a sampling survey is preferable." Do you think this statement makes sense? Why?
+
+### Solution to Exercise 10
+
+By **Definition 9.1.1 (Census and Sampling Survey)** and **Definition 9.1.4 (Population Mean and Sample Mean)**.
+
+This statement has some truth but is not complete. When the sampling method is well designed and the sample has good representativeness of the population, the sample estimate indeed differs little from the census result, and a sampling survey investigates only a part of the individuals, costing little, being efficient, and saving manpower, material and financial resources—these are the advantages of a sampling survey.
+
+But a sampling survey estimates the population from the sample; because of the randomness of the sample, there is always some sampling error between the estimate and the true census result, and it cannot obtain the exact value of the population as a census can. Therefore, for occasions where one needs to precisely grasp each student's vision, a census still has an irreplaceable role; while for an education department that only needs to broadly grasp the overall vision status of students, a well-designed sampling survey is the more economical and reasonable choice. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 9.1, Problem 11) The 11th grade has 490 boys and 510 girls. Zhang Hua stratified by boys and girls and, by stratified random sampling, obtained average heights of boys and girls as $170.2\,\mathrm{cm}$ and $160.8\,\mathrm{cm}$ respectively.
+
+(1) If Zhang Hua allocates the sample proportionally within each stratum and the total sample size is 100, then how many boys and girls are drawn respectively? In this case, estimate the average height of all 11th grade students.
+
+(2) If Zhang Hua draws sample sizes of 30 and 70 from the boys and girls respectively, then in this case, how is it more reasonable to estimate the average height of all 11th grade students?
+
+### Solution to Exercise 11
+
+By **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)** and **Common Result 9.1.6** (Estimating the Population Mean by Stratified Random Sampling).
+
+(1) With proportional allocation, the number of boys to draw is
+
+$$
+\frac{490}{490+510}\times100=\frac{490}{1000}\times100=49
+$$
+
+and the number of girls to draw is
+
+$$
+\frac{510}{490+510}\times100=\frac{510}{1000}\times100=51
+$$
+
+.
+
+Under proportional allocation, by **Common Result 9.1.6**, the sample average may be used directly to estimate the population average, i.e. weighting by the number of people in each stratum:
+
+$$
+\frac{490\times170.2+510\times160.8}{1000}=\frac{83398+82008}{1000}=165.406\approx165.4.
+$$
+
+Hence the estimated average height of all 11th grade students is approximately $165.4\,\mathrm{cm}$.
+
+(2) When the sample sizes from boys and girls are 30 and 70 respectively, the sample sizes are not proportionally allocated (the boys' stratum is larger but fewer are drawn). In this case one cannot directly use $\frac{30\times170.2+70\times160.8}{100}$ to estimate the population average; instead one should weight by the population size of each stratum, i.e.
+
+$$
+\frac{490\times170.2+510\times160.8}{1000}\approx165.4\,\mathrm{cm}.
+$$
+
+Only this estimate is reasonable. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 9.1, Problem 12) To survey the proportion of color-blind students among 11th grade students in all ordinary high schools in the city, Xiaoming stratified the population by gender and used stratified random sampling. Please look up relevant materials and discuss whether this stratification is reasonable. What should be noted when choosing the stratification variable?
+
+### Solution to Exercise 12
+
+By **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)**, the purpose of stratification is to divide the population into several strata with clear between-stratum differences and small within-stratum differences, thereby avoiding "extreme" samples and improving estimation.
+
+Color blindness is closely related to gender; the proportion of color-blind males is clearly higher than that of females, while the proportion of color-blind people within the same gender differs little. Therefore, after stratifying by gender, the color-blind proportion differs clearly between the male and female strata, and within each stratum the difference is small; such stratification is reasonable and can effectively improve the precision of estimating the color-blind proportion among 11th grade students in the city.
+
+When choosing the stratification variable, note: the stratification variable should be closely related to the indicator under study (here, whether one is color-blind), so that the between-stratum differences are clear while the within-stratum differences are as small as possible; also, each stratum must have enough individuals for random sampling within the stratum. $\blacksquare$
+
+## Exercise 13
+
+(Exercise 9.1, Problem 13) Please look up some data on China's water resources and their use on the National Bureau of Statistics website, and discuss based on the data the importance of protecting water resources at present.
+
+### Solution to Exercise 13
+
+By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)**, one learns about China's water resources by consulting secondary data published by authoritative departments such as the National Bureau of Statistics.
+
+From the water-resources data published by the National Bureau of Statistics one can see: China's per-capita water-resource availability is far below the world average, and it is a water-scarce country; at the same time, with economic development and population growth, the demand for production and domestic water keeps rising, the contradiction between water supply and demand is prominent, and water pollution further aggravates the shortage.
+
+From these data one can see that water resources are limited and precious, and that at present protecting water resources, saving water, and preventing water pollution are very important. Only by rationally using and protecting water resources can we ensure a sustainable supply of water for production and daily life. $\blacksquare$
+
+## Exercise 14
+
+(Exercise 9.1, Problem 14) Myopia is a common problem among adolescents. Can you look up relevant data and use it to describe the results China has achieved in preventing and controlling adolescent myopia in recent years?
+
+### Solution to Exercise 14
+
+By consulting the monitoring data on the myopia rate of children and adolescents published by national health authorities, one can learn about the change in the overall myopia rate of children and adolescents in China in recent years.
+
+From the published data one can see that, as myopia prevention and control work has advanced, the overall myopia rate of children and adolescents has been brought under some control, and positive results have been achieved. But at the same time it must be noted that the myopia rate is still relatively high and the task of prevention remains arduous, requiring the joint efforts of schools, families and society to continue strengthening publicity and guidance on outdoor activities and eye-care hygiene. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 6.3, Review and Consolidation, Problem 1) As shown in the figure, in $\triangle ABC$, $AD=\frac{1}{3}AB$, $E$ is a point on $AC$ with $EC=\frac{1}{3}AC$, and $BE$ and $CD$ meet at $P$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express $\boldsymbol{AP}$ in terms of the basis $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$.
+(Exercise 9.1, Review and Consolidation, Problem 1) Which of the following cases are suitable for a complete survey and which for a sampling survey? Explain why.
 
-The figure: triangle $ABC$, with point $D$ on side $AB$ such that $AD=\frac{1}{3}AB$, and point $E$ on side $AC$ such that $EC=\frac{1}{3}AC$ (i.e. $AE=\frac{2}{3}AC$); the segments $BE$ and $CD$ intersect at point $P$.
+(1) Understanding the food consumption structure of urban residents;
+
+(2) Surveying the grain sown area of each village in a county;
+
+(3) Understanding the number of elementary-school students with trachoma in a region;
+
+(4) Understanding the germination rate of a batch of corn seeds;
+
+(5) Surveying the water quality of a river;
+
+(6) An enterprise wants to understand its product's market share.
 
 ### Solution to Problem 1
 
-By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**.
+By **Definition 9.1.1 (Census and Sampling Survey)**, use a complete survey when the population is small, the survey is non-destructive, and an exact result is needed; use a sampling survey when the population is large or the survey is destructive.
 
-Let $\boldsymbol{AP}=x\boldsymbol{a}+y\boldsymbol{b}$. Since $P$ lies on $CD$, $\boldsymbol{AP}=\boldsymbol{AD}+\boldsymbol{DP}=\frac{1}{3}\boldsymbol{a}+\lambda\left(\boldsymbol{b}-\frac{1}{3}\boldsymbol{a}\right)=\left(\frac{1}{3}-\frac{\lambda}{3}\right)\boldsymbol{a}+\lambda\boldsymbol{b}$.
+(1) Urban residents are numerous, and investigating everyone one by one is costly, so a sampling survey is suitable.
 
-Since $P$ lies on $BE$, $\boldsymbol{AE}=\frac{2}{3}\boldsymbol{b}$ and $\boldsymbol{AP}=\boldsymbol{AB}+\boldsymbol{BP}=\boldsymbol{a}+\mu\left(\frac{2}{3}\boldsymbol{b}-\boldsymbol{a}\right)=\left(1-\mu\right)\boldsymbol{a}+\frac{2\mu}{3}\boldsymbol{b}$.
+(2) The number of villages in a county is limited, and the grain sown area of each village can be counted one by one, so a complete survey is suitable.
 
-Comparing coefficients: $\frac{1}{3}-\frac{\lambda}{3}=1-\mu$, $\lambda=\frac{2\mu}{3}$.
+(3) The number of elementary-school students in a region is limited, and the number with trachoma can be census-recorded one by one through physical examinations, so a complete survey is suitable.
 
-Solving gives $\mu=\frac{2}{9}$, $\lambda=\frac{4}{27}$.
+(4) Testing the germination rate consumes seeds and is destructive, so only a sampling survey can be used.
 
-$\boldsymbol{AP}=\frac{7}{27}\boldsymbol{a}+\frac{4}{27}\boldsymbol{b}$. $\blacksquare$
+(5) A river is very long, and a complete census of its water is impossible; one can only take samples at several cross-sections, using a sampling survey.
+
+(6) A product's market share involves a large number of consumers and cannot be investigated one by one, so a sampling survey is suitable. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 6.3, Review and Consolidation, Problem 2) Given three forces $\boldsymbol{f}_1=\left(3,4\right)$, $\boldsymbol{f}_2=\left(2,-5\right)$, $\boldsymbol{f}_3=\left(x,y\right)$ whose resultant $\boldsymbol{f}_1+\boldsymbol{f}_2+\boldsymbol{f}_3=\boldsymbol{0}$, find $\boldsymbol{f}_3$.
+(Exercise 9.1, Review and Consolidation, Problem 2) A periodical conducted a satisfaction survey of its readers; the questionnaire was delivered to readers along with the periodical, and the returned questionnaires were analyzed. Is this a sampling survey? Does the sample selection constitute simple random sampling? Why?
 
 ### Solution to Problem 2
 
-By **Common Conclusion 6.3.4** (Coordinate Operations).
+By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)** and **Definition 9.1.3 (Simple Random Sampling)**.
 
-$\boldsymbol{f}_3=-\boldsymbol{f}_1-\boldsymbol{f}_2=-\left(3,4\right)-\left(2,-5\right)=\left(-5,1\right)$. $\blacksquare$
+This is a sampling survey, because the periodical analyzes only the readers who returned the questionnaire rather than surveying all readers; the readers who returned the questionnaire form a sample drawn from all readers.
+
+But the sample selection is not simple random sampling. Because whether a reader returns the questionnaire is voluntary, readers who are satisfied or dissatisfied with the periodical are more inclined to return it, while the silent majority will not; this makes the probability of each reader being selected unequal, and the sample has an obvious self-selection bias, which does not satisfy the requirement in **Definition 9.1.3 (Simple Random Sampling)** that every individual be selected with equal probability. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 6.3, Review and Consolidation, Problem 3) Given the points $A\left(-2,5\right)$, $B\left(3,-4\right)$, $C\left(-1,1\right)$, find the coordinates of $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{AC}$, and verify that $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
+(Exercise 9.1, Review and Consolidation, Problem 3) China Central Television wants to obtain the ratings of the Spring Festival Gala within one week after it airs. Below are three survey plans designed by three students for the TV station.
+
+Student A: I will put this Spring Festival Gala rating questionnaire on the Internet; anyone who logs onto the website can see it, and the information they fill in can be quickly fed back to my computer. Then I can quickly compute the ratings.
+
+Student B: I will send to every household in our residential community a questionnaire on whether they watched the CCTV Spring Festival Gala on New Year's Eve; within a day or two I can compute the ratings.
+
+Student C: I will randomly choose a certain number of mobile phone numbers from a telephone directory and call them one by one to ask whether the mobile user watched the CCTV Spring Festival Gala; without leaving home I can compute the ratings of the CCTV Spring Festival Gala.
+
+Question: Are the three students' plans likely to obtain relatively accurate ratings? Why?
 
 ### Solution to Problem 3
 
-By **Common Conclusion 6.3.4** (Coordinate Operations).
+By **Definition 9.1.3 (Simple Random Sampling)**, for a sample to accurately estimate the population, the sampling frame must cover every individual in the population.
 
-$\boldsymbol{AB}=\left(3-\left(-2\right),-4-5\right)=\left(5,-9\right)$.
+The three students' plans are all unlikely to obtain relatively accurate ratings, for the following reasons.
 
-$\boldsymbol{BC}=\left(-1-3,1-\left(-4\right)\right)=\left(-4,5\right)$.
+(1) Student A's plan surveys only people who go online and log onto the website; people who do not go online or do not visit the site are excluded from the sample, so the sample cannot represent all TV viewers and there is a serious coverage bias.
 
-$\boldsymbol{AC}=\left(-1-\left(-2\right),1-5\right)=\left(1,-4\right)$.
+(2) Student B's plan surveys only the households of one residential community; the household structure of one community differs greatly from that of the national TV audience, so the sample range is too narrow to represent the population.
 
-$\boldsymbol{AB}+\boldsymbol{BC}=\left(5-4,-9+5\right)=\left(1,-4\right)=\boldsymbol{AC}$. $\blacksquare$
+(3) Student C's plan randomly chooses numbers from a telephone directory, which is close in form to simple random sampling; but a telephone directory cannot cover all viewers—people who do not use a phone or whose numbers are unregistered are missed, so there is still coverage bias.
+
+The sampling frames of all three cannot cover the population of "national TV viewers", so none is likely to obtain accurate ratings. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 6.3, Review and Consolidation, Problem 4) Given $\boldsymbol{a}=\left(1,2\right)$ and $\boldsymbol{b}=\left(-3,2\right)$, for what value of the real number $k$ are $k\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{a}-3\boldsymbol{b}$ parallel? When they are parallel, are they in the same or opposite directions?
+(Exercise 9.1, Review and Consolidation, Problem 4) Are the following samples drawn from the population simple random samples?
+
+(1) The population is numbered $1\sim75$; generate a random integer $r$ in $0\sim99$. If $r=0$ or $r> 75$, discard it and draw again.
+
+(2) The population is numbered $1\sim75$; generate a random integer $r$ in $0\sim99$, and take the remainder of $r$ divided by 75 as the selected number. If the remainder is 0, then select 75.
+
+(3) The population is numbered $6001\sim6876$; generate a random integer $r$ in the range $1\sim876$, and take $r+6000$ as the selected number.
 
 ### Solution to Problem 4
 
-By **Common Conclusion 6.3.5** (Coordinate Condition for Collinearity).
+By **Definition 9.1.3 (Simple Random Sampling)**, a simple random sample requires every individual in the population to be selected with equal probability.
 
-$k\boldsymbol{a}+\boldsymbol{b}=k\left(1,2\right)+\left(-3,2\right)=\left(k-3,2k+2\right)$.
+(1) It is a simple random sample. After generating random numbers in $0\sim99$, whenever $r=0$ or $r> 75$ the draw is discarded and repeated; among the valid numbers $1\sim75$ finally retained, each number is selected with equal probability, so the result is a simple random sample.
 
-$\boldsymbol{a}-3\boldsymbol{b}=\left(1,2\right)-3\left(-3,2\right)=\left(10,-4\right)$.
+(2) It is not a simple random sample. $r$ takes 100 values from $0\sim99$. Number 1 corresponds to $r=1,76$, number 2 to $r=2,77$, ..., number 24 to $r=24,99$, and number 75 to $r=0,75$; that is, numbers $1\sim24$ and 75 each correspond to 2 random numbers and are selected with probability $\frac{2}{100}$, while numbers $25\sim74$ each correspond to only 1 random number and are selected with probability $\frac{1}{100}$. The numbers are selected with unequal probabilities, so it is not a simple random sample.
 
-Parallel condition: $\left(k-3\right)\times\left(-4\right)-10\times\left(2k+2\right)=0$.
-
-$-4k+12-20k-20=0$, $-24k-8=0$, $k=-\frac{1}{3}$.
-
-In this case $k\boldsymbol{a}+\boldsymbol{b}=\left(-\frac{10}{3},\frac{4}{3}\right)=-\frac{1}{3}\left(10,-4\right)=-\frac{1}{3}\left(\boldsymbol{a}-3\boldsymbol{b}\right)$, so the two vectors are in opposite directions. $\blacksquare$
+(3) It is a simple random sample. Generating a random integer $r$ in $1\sim876$, each $r$ corresponds one-to-one with a number $6001\sim6876$, and each $r$ is drawn with equal probability, so each number is selected with equal probability; the result is a simple random sample. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 6.3, Review and Consolidation, Problem 5) Find the unit vector in the same direction as $\boldsymbol{a}=\left(12,5\right)$.
+(Exercise 9.1, Review and Consolidation, Problem 5) A track-and-field team has 56 male athletes and 42 female athletes. Stratifying by gender and using stratified random sampling, a sample of size 28 is drawn from all the athletes. If the sample is proportionally allocated, how many male and female athletes should be drawn respectively?
 
 ### Solution to Problem 5
 
-By **Common Conclusion 6.3.8** (Coordinate Formula for Magnitude).
+By **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)**, under proportional allocation the sample size of each stratum is proportional to the size of that stratum.
 
-$\lvert\boldsymbol{a}\rvert=\sqrt{144+25}=13$. The required unit vector is $\frac{\boldsymbol{a}}{\lvert\boldsymbol{a}\rvert}=\left(\frac{12}{13},\frac{5}{13}\right)$. $\blacksquare$
+The total number of athletes is $56+42=98$. The number of males to draw is
 
-## Problem 6
+$$
+\frac{56}{98}\times28=16
+$$
 
-(Exercise 6.3, Review and Consolidation, Problem 6) Given $\boldsymbol{a}=\left(3,-1\right)$ and $\boldsymbol{b}=\left(1,-2\right)$, find $\boldsymbol{a}\cdot\boldsymbol{b}$, $\lvert\boldsymbol{a}\rvert$, $\lvert\boldsymbol{b}\rvert$, and $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle$.
+and the number of females to draw is
 
-### Solution to Problem 6
+$$
+\frac{42}{98}\times28=12
+$$
 
-By **Common Conclusion 6.3.7** and **Common Conclusion 6.3.8**.
-
-$\boldsymbol{a}\cdot\boldsymbol{b}=3\times1+\left(-1\right)\times\left(-2\right)=5$.
-
-$\lvert\boldsymbol{a}\rvert=\sqrt{9+1}=\sqrt{10}$.
-
-$\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt 5$.
-
-$\cos\theta=\frac{5}{\sqrt{10}\sqrt 5}=\frac{5}{\sqrt{50}}=\frac{\sqrt 2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
-
-## Problem 7
-
-(Exercise 6.3, Review and Consolidation, Problem 7) Given $\boldsymbol{a}=\left(-3,2\right)$ and $\boldsymbol{b}=\left(-1,0\right)$, find the real number $\lambda$ such that $\left(\lambda\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-2\boldsymbol{b}\right)$.
-
-### Solution to Problem 7
-
-By **Common Conclusion 6.3.8** (Coordinate Condition for Perpendicularity).
-
-$\lambda\boldsymbol{a}+\boldsymbol{b}=\lambda\left(-3,2\right)+\left(-1,0\right)=\left(-3\lambda-1,2\lambda\right)$.
-
-$\boldsymbol{a}-2\boldsymbol{b}=\left(-3,2\right)-2\left(-1,0\right)=\left(-1,2\right)$.
-
-Perpendicular: $\left(-3\lambda-1\right)\times\left(-1\right)+2\lambda\times2=0$.
-
-$3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
-
-## Problem 8
-
-(Exercise 6.3, Review and Consolidation, Problem 8) Given the points $A\left(1,0\right)$, $B\left(0,1\right)$, $C\left(2,5\right)$, find:
-
-(1) the coordinates of $\boldsymbol{AB}+\boldsymbol{AC}$;
-
-(2) $\boldsymbol{AB}\cdot\boldsymbol{AC}$;
-
-(3) $\cos\angle BAC$.
-
-### Solution to Problem 8
-
-By **Common Conclusion 6.3.7** and **Common Conclusion 6.3.8**.
-
-(1) $\boldsymbol{AB}=\left(-1,1\right)$, $\boldsymbol{AC}=\left(1,5\right)$. $\boldsymbol{AB}+\boldsymbol{AC}=\left(0,6\right)$.
-
-(2) $\boldsymbol{AB}\cdot\boldsymbol{AC}=\left(-1\right)\times1+1\times5=4$.
-
-(3) $\lvert\boldsymbol{AB}\rvert=\sqrt 2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle BAC=\frac{4}{\sqrt 2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
-
-## Problem 9
-
-(Exercise 6.3, Review and Consolidation, Problem 9) Given $\boldsymbol{a}=\left(4,2\right)$, find the unit vector perpendicular to $\boldsymbol{a}$.
-
-### Solution to Problem 9
-
-By **Common Conclusion 6.3.8** (Coordinate Condition for Perpendicularity).
-
-Let the required vector be $\left(x,y\right)$; then $4x+2y=0$ and $x^2+y^2=1$.
-
-$y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt 5}{5}$, $y=\mp\frac{2\sqrt 5}{5}$.
-
-The required vectors are $\left(\frac{\sqrt 5}{5},-\frac{2\sqrt 5}{5}\right)$ or $\left(-\frac{\sqrt 5}{5},\frac{2\sqrt 5}{5}\right)$. $\blacksquare$
-
-## Problem 10
-
-(Exercise 6.3, Review and Consolidation, Problem 10) Given the points $A\left(1,-2\right)$, $B\left(3,4\right)$, $C\left(-1,2\right)$, find the coordinates of $\boldsymbol{AB}+\boldsymbol{AC}$ and $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert$.
-
-### Solution to Problem 10
-
-By **Common Conclusion 6.3.4** and **Common Conclusion 6.3.8**.
-
-$\boldsymbol{AB}=\left(2,6\right)$, $\boldsymbol{AC}=\left(-2,4\right)$.
-
-$\boldsymbol{AB}+\boldsymbol{AC}=\left(0,10\right)$.
-
-$\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
-
-## Problem 11
-
-(Exercise 6.3, Comprehensive Application, Problem 11) As shown in the figure, in $\square ABCD$, $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AD}=\boldsymbol{b}$; $E$ and $F$ are the midpoints of $AB$ and $CD$, and $M$, $N$ are two points on the diagonal $AC$ with $AM=MN=NC$. Prove that $\boldsymbol{EM}=\boldsymbol{FN}$.
-
-The figure: the parallelogram $ABCD$, with $E$ the midpoint of side $AB$ and $F$ the midpoint of side $CD$; on the diagonal $AC$ lie two points $M$ and $N$ satisfying $AM=MN=NC$ (i.e. $M$ and $N$ trisect $AC$), and $EM$ and $FN$ are joined.
-
-### Solution to Problem 11
-
-By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)** and **Definition 6.1.7 (Equal Vectors)**.
-
-$\boldsymbol{EM}=\boldsymbol{AM}-\boldsymbol{AE}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\boldsymbol{a}=-\frac{1}{6}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
-
-$\boldsymbol{FN}=\boldsymbol{AN}-\boldsymbol{AF}=\frac{2}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}\right)=-\frac{1}{3}\boldsymbol{a}+\frac{7}{6}\boldsymbol{b}$?
-
-Correction: $F$ is the midpoint of $CD$, $\boldsymbol{AF}=\boldsymbol{AD}+\boldsymbol{DF}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}$. $\boldsymbol{FN}=\boldsymbol{AN}-\boldsymbol{AF}=\frac{2}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}\right)=\frac{1}{6}\boldsymbol{a}-\frac{1}{3}\boldsymbol{b}$.
-
-$\boldsymbol{EM}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\boldsymbol{a}=-\frac{1}{6}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}=-\boldsymbol{FN}$.
-
-Since $M$ and $N$ occupy different positions on $AC$, $\boldsymbol{EM}$ and $\boldsymbol{FN}$ are in opposite directions, which should be confirmed from the figure. $\blacksquare$
-
-## Problem 12
-
-(Exercise 6.3, Comprehensive Application, Problem 12) Given $O\left(0,0\right)$, $A\left(1,2\right)$, $B\left(4,5\right)$, and $\boldsymbol{OP}=\boldsymbol{OA}+t\boldsymbol{AB}$.
-
-(1) For what values of $t$ does $P$ lie on the $x$-axis? Does $P$ lie on the $y$-axis? Does $P$ lie in the second quadrant?
-
-(2) Can the quadrilateral $OABP$ be a parallelogram? If so, find the corresponding value of $t$; if not, explain why.
-
-### Solution to Problem 12
-
-By **Common Conclusion 6.3.4** (Coordinate Operations).
-
-$\boldsymbol{AB}=\left(3,3\right)$. $\boldsymbol{OP}=\left(1,2\right)+t\left(3,3\right)=\left(1+3t,2+3t\right)$.
-
-(1) $P$ on the $x$-axis: $2+3t=0$, $t=-\frac{2}{3}$.
-
-$P$ on the $y$-axis: $1+3t=0$, $t=-\frac{1}{3}$.
-
-$P$ in the second quadrant: $1+3t< 0$ and $2+3t> 0$, i.e. $-\frac{2}{3}< t< -\frac{1}{3}$.
-
-(2) If $OABP$ were a parallelogram, then $\boldsymbol{OP}=\boldsymbol{AB}=\left(3,3\right)$, i.e. $1+3t=3$ and $2+3t=3$, a contradiction. It cannot be a parallelogram. $\blacksquare$
-
-## Problem 13
-
-(Exercise 6.3, Comprehensive Application, Problem 13) Given $A\left(2,3\right)$, $B\left(4,-3\right)$, and the point $P$ lies on the line $AB$ with $\lvert\boldsymbol{AP}\rvert=\frac{3}{2}\lvert\boldsymbol{PB}\rvert$, find the coordinates of $P$.
-
-### Solution to Problem 13
-
-By **Common Conclusion 6.3.5** (Coordinate Condition for Collinearity).
-
-$\boldsymbol{AB}=\left(2,-6\right)$. Let $P\left(x,y\right)$, $\boldsymbol{AP}=\left(x-2,y-3\right)$.
-
-$\lvert\boldsymbol{AP}\rvert=\frac{3}{2}\lvert\boldsymbol{PB}\rvert$, giving two cases:
-
-(a) $P$ lies on the extension of $AB$: $\boldsymbol{AP}=\frac{3}{2}\boldsymbol{PB}$, $\boldsymbol{PB}=\left(4-x,-3-y\right)$.
-
-$x-2=\frac{3}{2}\left(4-x\right)$, $y-3=\frac{3}{2}\left(-3-y\right)$.
-
-$2x-4=12-3x$, $x=\frac{16}{5}$. $2y-6=-9-3y$, $y=-\frac{3}{5}$.
-
-(b) $P$ lies on the extension of $BA$: $\boldsymbol{AP}=-\frac{3}{2}\boldsymbol{PB}$, which gives $x=8$, $y=-15$.
-
-Hence $P\left(\frac{16}{5},-\frac{3}{5}\right)$ or $\left(8,-15\right)$. $\blacksquare$
-
-## Problem 14
-
-(Exercise 6.3, Comprehensive Application, Problem 14) Given $A\left(1,0\right)$, $B\left(5,-2\right)$, $\boldsymbol{a}=\left(x+1,x-3y-2\right)$, and $\boldsymbol{a}=2\boldsymbol{AB}$, find $x$ and $y$.
-
-### Solution to Problem 14
-
-By **Common Conclusion 6.3.4** (Coordinate Operations).
-
-$\boldsymbol{AB}=\left(4,-2\right)$. $2\boldsymbol{AB}=\left(8,-4\right)$.
-
-$x+1=8$, $x=7$.
-
-$x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
-
-## Problem 15
-
-(Exercise 6.3, Extension and Exploration, Problem 15) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, and that $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k> 0$).
-
-(1) Prove that $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
-
-(2) Express $\boldsymbol{a}\cdot\boldsymbol{b}$ in terms of $k$;
-
-(3) Find the minimum value of $\boldsymbol{a}\cdot\boldsymbol{b}$, and the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$ at that time.
-
-### Solution to Problem 15
-
-By **Common Conclusion 6.3.8** (Perpendicularity and the Dot Product).
-
-(1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. Hence $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
-
-(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2\boldsymbol{a}^2+2k\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}$.
-
-$3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=3\left(\boldsymbol{a}^2-2k\boldsymbol{a}\cdot\boldsymbol{b}+k^2\boldsymbol{b}^2\right)=3\left(1+k^2-2k\boldsymbol{a}\cdot\boldsymbol{b}\right)$.
-
-Equating: $k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}=3+3k^2-6k\boldsymbol{a}\cdot\boldsymbol{b}$.
-
-$8k\boldsymbol{a}\cdot\boldsymbol{b}=2+2k^2$, $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k^2+1}{4k}$.
-
-(3) $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k}{4}+\frac{1}{4k}\ge 2\sqrt{\frac{k}{4}\cdot\frac{1}{4k}}=\frac{1}{2}$, with the minimum $\frac{1}{2}$ attained when $k=1$.
-
-At this time $\cos\theta=\frac{1}{2}$, so $\theta=60^{\circ}$. $\blacksquare$
-
-## Problem 16
-
-(Exercise 6.3, Extension and Exploration, Problem 16) Given $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$ and $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, where $0< \alpha< \beta< \pi$.
-
-(1) Prove that $\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{a}-\boldsymbol{b}$ are perpendicular to each other;
-
-(2) If $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$, find the value of $\beta-\alpha$.
-
-### Solution to Problem 16
-
-By **Common Conclusion 6.3.8**.
-
-(1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. Hence they are perpendicular.
-
-(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2+1+2k\cos\left(\beta-\alpha\right)$.
-
-$\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=1+k^2-2k\cos\left(\beta-\alpha\right)$.
-
-Equating: $2k\cos\left(\beta-\alpha\right)=-2k\cos\left(\beta-\alpha\right)$.
-
-$4k\cos\left(\beta-\alpha\right)=0$. $\cos\left(\beta-\alpha\right)=0$.
-
-Since $0< \beta-\alpha< \pi$, we have $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
+And $16+12=28$, exactly the sample size. Hence 16 male athletes and 12 female athletes are drawn. $\blacksquare$

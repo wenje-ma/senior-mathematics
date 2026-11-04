@@ -1,300 +1,447 @@
 # week13
-> **定义 4.1.1 (n 次方根)**
+> **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**
 > 
-> 一般地, 如果 x^n = a, 那么 x 叫做 a 的 n 次方根, 其中 n > 1, 且 n 是正整数.
-> **定义 4.1.4 (递增数列与递减数列)**
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.2.2 (终边上任意一点的三角函数比值)**
 > 
-> 如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
-> **定义 4.1.5 (数列的通项公式)**
-> 
-> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
-
-## 练习一
-
-(练习 4.1 第 1 题) 用根式的形式表示下列各式 ($a> 0$).
-
-(1) $a^{\frac{1}{2}}$;
-
-(2) $a^{\frac{3}{4}}$;
-
-(3) $a^{-\frac{3}{5}}$;
-
-(4) $a^{-\frac{2}{3}}$.
-
-### 解答 练习一
-
-由**定义 4.1.4 (递增数列与递减数列)** 与**定义 4.1.5 (数列的通项公式)**, 分数指数幂与根式可以互化.
-
-(1) $a^{\frac{1}{2}}=\sqrt{a}$.
-
-(2) $a^{\frac{3}{4}}=\sqrt\left[4\right]{a^3}$.
-
-(3) $a^{-\frac{3}{5}}=\frac{1}{\sqrt\left[5\right]{a^3}}$.
-
-(4) $a^{-\frac{2}{3}}=\frac{1}{\sqrt\left[3\right]{a^2}}$. $\blacksquare$
-
-## 练习二
-
-(练习 4.1 第 2 题) 用分数指数幂的形式表示并计算下列各式.
-
-(1) $\sqrt\left[3\right]{x^2}$ ($x> 0$);
-
-(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m> n$);
-
-(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p> 0$);
-
-(4) $\frac{a^3}{\sqrt{a}}$ ($a> 0$).
-
-### 解答 练习二
-
-由**定义 4.1.4 (递增数列与递减数列)** 与**常用结论 4.1.6** (有理数指数幂的运算性质).
-
-(1) 由**定义 4.1.4 (递增数列与递减数列)**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x> 0$).
-
-(2) 由**定义 4.1.4 (递增数列与递减数列)**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m> n$).
-
-(3) 由**定义 4.1.4 (递增数列与递减数列)**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. 再由**常用结论 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p> 0$).
-
-(4) 由**定义 4.1.4 (递增数列与递减数列)**, $\sqrt{a}=a^{\frac{1}{2}}$. 再由**常用结论 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a> 0$). $\blacksquare$
-
-## 练习三
-
-(练习 4.1 第 3 题) 计算下列各式.
-
-(1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}$;
-
-(2) $2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}$;
-
-(3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a> 0$);
-
-(4) $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)$.
-
-### 解答 练习三
-
-由**常用结论 4.1.6** (有理数指数幂的运算性质), 运用幂的乘方, 同底数幂乘除等法则.
-
-(1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}=\left[\left(\frac{6}{7}\right)^2\right]^{\frac{3}{2}}=\left(\frac{6}{7}\right)^3=\frac{216}{343}$.
-
-(2) 化为分数指数幂: $\sqrt{3}=3^{\frac{1}{2}}$, $\sqrt\left[3\right]{1.5}=\left(\frac{3}{2}\right)^{\frac{1}{3}}=3^{\frac{1}{3}}2^{-\frac{1}{3}}$, $\sqrt\left[6\right]{12}=\left(2^2\cdot 3\right)^{\frac{1}{6}}=2^{\frac{1}{3}}3^{\frac{1}{6}}$. 由**常用结论 4.1.6** (1) (3),
-
-$$
-2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
-$$
-
-(3) 由**常用结论 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a> 0$).
-
-(4) 由**常用结论 4.1.6** (1), $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)=x^{-\frac{1}{3}+\frac{1}{3}}-4x^{-\frac{1}{3}-\frac{2}{3}}=1-4x^{-1}$. $\blacksquare$
-
-## 练习四
-
-(练习 4.1 第 4 题) 计算下列各式.
-
-(1) $\left(2^{\sqrt{3}}\sqrt{m^{\sqrt{3}}}\right)^{2\sqrt{3}}$;
-
-(2) $a^{\frac{\pi}{3}}a^{\frac{2\pi}{3}}a^{-\pi}$.
-
-### 解答 练习四
-
-由**常用结论 4.1.7** (无理数指数幂) 与**常用结论 4.1.8** (实数指数幂的运算性质).
-
-(1) $\sqrt{m^{\sqrt{3}}}=m^{\frac{\sqrt{3}}{2}}$. 由**常用结论 4.1.8** (2) (3),
-
-$$
-\left(2^{\sqrt{3}}\sqrt{m^{\sqrt{3}}}\right)^{2\sqrt{3}}=\left(2^{\sqrt{3}}\cdot m^{\frac{\sqrt{3}}{2}}\right)^{2\sqrt{3}}=\left(2^{\sqrt{3}}\right)^{2\sqrt{3}}\cdot\left(m^{\frac{\sqrt{3}}{2}}\right)^{2\sqrt{3}}=2^6\cdot m^3=64m^3.
-$$
-
-(2) 由**常用结论 4.1.8** (1), $a^{\frac{\pi}{3}}a^{\frac{2\pi}{3}}a^{-\pi}=a^{\frac{\pi}{3}+\frac{2\pi}{3}-\pi}=a^0=1$. $\blacksquare$
-
-## 练习五
-
-(练习 4.1 第 5 题) 利用计算工具, 探究下列实数指数幂的变化规律.
-
-(1) $x$ 取负实数, 使得 $\left|x\right|$ 的值逐渐增大并趋向于无穷大, 计算相应的 $2^x$ ($x\in\mathbb R$) 的值, 观察变化趋势;
-
-(2) $x$ 取正实数, 使得 $x$ 的值逐渐增大并趋向于无穷大, 计算相应的 $\left(\frac{1}{2}\right)^x$ ($x\in\mathbb R$) 的值, 观察变化趋势.
-
-### 解答 练习五
-
-由**常用结论 4.1.7** (无理数指数幂), 实数指数幂 $a^x$ ($a> 0$) 是确定的实数, 可借助计算工具考察其变化趋势.
-
-(1) 当 $x$ 取负实数且 $\left|x\right|\to+\infty$ 时, 令 $x=-t$, $t> 0$, $t\to+\infty$, 则 $2^x=2^{-t}=\frac{1}{2^\top}$. 由于 $2^\top$ 随 $t$ 增大而增大, 故 $\frac{1}{2^\top}$ 随 $t$ 增大而减小并趋向于 $0$, 即 $2^x$ 随 $\left|x\right|$ 增大而逐渐减小并趋向于 $0$.
-
-(2) 当 $x$ 取正实数且 $x\to+\infty$ 时, $\left(\frac{1}{2}\right)^x=\frac{1}{2^x}$. 由于 $2^x$ 随 $x$ 增大而增大, 故 $\frac{1}{2^x}$ 随 $x$ 增大而减小并趋向于 $0$, 即 $\left(\frac{1}{2}\right)^x$ 随 $x$ 增大而逐渐减小并趋向于 $0$. $\blacksquare$
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
 
 ## 习题一
 
-(习题 4.1 复习巩固第 1 题) 求下列各式的值.
+(习题 5.2 复习巩固第 6 题)
 
-(1) $\sqrt\left[4\right]{100^4}$;
+(1) 已知 $\sin\alpha=-\frac{\sqrt{3}}{2}$, 且 $\alpha$ 为第四象限角, 求 $\cos\alpha$, $\tan\alpha$ 的值;
 
-(2) $\sqrt\left[5\right]{\left(-0.1\right)^5}$;
+(2) 已知 $\cos\alpha=-\frac{5}{13}$, 且 $\alpha$ 为第二象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值;
 
-(3) $\sqrt{\left(\pi-4\right)^2}$;
+(3) 已知 $\tan\alpha=-\frac{3}{4}$, 求 $\sin\alpha$, $\cos\alpha$ 的值;
 
-(4) $\sqrt\left[6\right]{\left(x-y\right)^6}$.
+(4) 已知 $\cos\alpha=0.68$, 求 $\sin\alpha$, $\tan\alpha$ 的值 (精确到 $0.01$).
 
 ### 解答 习题一
 
-由**常用结论 4.1.3** (n 次方根的性质), 偶数次开方取绝对值, 奇数次开方直接脱去根号.
+由**常用结论** (同角三角函数的基本关系) 及**常用结论** (三角函数在各象限的符号).
 
-(1) $\sqrt\left[4\right]{100^4}=\left|100\right|=100$.
+(1) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\cos^{2}\alpha=1-\frac{3}{4}=\frac{1}{4}$. 因为 $\alpha$ 为第四象限角, $\cos\alpha> 0$, 故 $\cos\alpha=\frac{1}{2}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
 
-(2) $\sqrt\left[5\right]{\left(-0.1\right)^5}=-0.1$.
+(2) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-\frac{25}{169}=\frac{144}{169}$. 因为 $\alpha$ 为第二象限角, $\sin\alpha> 0$, 故 $\sin\alpha=\frac{12}{13}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\frac{12}{5}$.
 
-(3) $\sqrt{\left(\pi-4\right)^2}=\left|\pi-4\right|=4-\pi$.
+(3) 由 $\tan\alpha=-\frac{3}{4}$, 知 $\alpha$ 为第二或第四象限角. 由 $\sin\alpha=-\frac{3}{4}\cos\alpha$ 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\frac{9}{16}\cos^{2}\alpha+\cos^{2}\alpha=1$, 即 $\cos^{2}\alpha=\frac{16}{25}$. 若 $\alpha$ 为第二象限角, 则 $\cos\alpha=-\frac{4}{5}$, $\sin\alpha=\frac{3}{5}$; 若 $\alpha$ 为第四象限角, 则 $\cos\alpha=\frac{4}{5}$, $\sin\alpha=-\frac{3}{5}$.
 
-(4) $\sqrt\left[6\right]{\left(x-y\right)^6}=\left|x-y\right|$. $\blacksquare$
+(4) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-0.68^{2}=0.5376$, 故 $\sin\alpha=\pm\sqrt{0.5376}\approx\pm0.73$. 若 $\alpha$ 为第一象限角, 则 $\sin\alpha\approx0.73$, $\tan\alpha=\frac{0.73}{0.68}\approx1.07$; 若 $\alpha$ 为第四象限角, 则 $\sin\alpha\approx-0.73$, $\tan\alpha\approx-1.07$. $\blacksquare$
 
 ## 习题二
 
-(习题 4.1 复习巩固第 2 题) 选择题.
+(习题 5.2 综合运用第 7 题) 根据下列条件求函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{4}\right)+2\sin\left(x-\frac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\frac{3\pi}{4}\right)$ 的值:
 
-(1) 设 $a> 0$, 则下列运算中正确的是 ( ).
+(1) $x=\frac{\pi}{4}$;
 
-(A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a$ (B) $a\div a^{\frac{2}{3}}=a^{\frac{3}{2}}$ (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=0$ (D) $\left(a^{\frac{1}{4}}\right)^4=a$
-
-(2) 设 $a> 0$, $m$, $n$ 是正整数, 且 $n> 1$, 则下列各式 $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$, 正确的个数是 ( ).
-
-(A) $3$ (B) $2$ (C) $1$ (D) $0$
+(2) $x=\frac{3\pi}{4}$.
 
 ### 解答 习题二
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质) 与**定义 4.1.4 (递增数列与递减数列)**, **定义 4.1.5 (数列的通项公式)**.
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求特殊角的三角函数值, 再代入计算.
 
-(1) 逐项检验: (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a^{\frac{4}{3}+\frac{3}{4}}=a^{\frac{25}{12}}\neq a$, 错误; (B) $a\div a^{\frac{2}{3}}=a^{1-\frac{2}{3}}=a^{\frac{1}{3}}\neq a^{\frac{3}{2}}$, 错误; (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=a^0=1\neq 0$, 错误; (D) $\left(a^{\frac{1}{4}}\right)^4=a^{\frac{1}{4}\times 4}=a$, 正确. 故选 (D).
+(1) 当 $x=\frac{\pi}{4}$ 时,
 
-(2) $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ 即**定义 4.1.4 (递增数列与递减数列)**, 正确; $a^0=1$ 是零指数幂的规定, 正确; $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ 即**定义 4.1.5 (数列的通项公式)**, 正确. 三个式子都正确, 故选 (A). $\blacksquare$
+$$
+f\left(\frac{\pi}{4}\right)=\sin\frac{\pi}{2}+2\sin0-4\cos\frac{\pi}{2}+3\cos\pi.
+$$
+
+$$
+=1+0-0+3\times\left(-1\right)=-2.
+$$
+
+(2) 当 $x=\frac{3\pi}{4}$ 时,
+
+$$
+f\left(\frac{3\pi}{4}\right)=\sin\pi+2\sin\frac{\pi}{2}-4\cos\frac{3\pi}{2}+3\cos\frac{3\pi}{2}.
+$$
+
+$$
+=0+2\times1-0+0=2.
+$$
+
+$\blacksquare$
 
 ## 习题三
 
-(习题 4.1 复习巩固第 3 题) 填空题.
+(习题 5.2 综合运用第 8 题) 确定下列式子的符号:
 
-(1) 在 $\left(-\frac{1}{2}\right)^{-1}$, $2^{-\frac{1}{2}}$, $\left(\frac{1}{2}\right)^{-1}$, $2^{-1}$ 中, 最大的数是 $\;\_\_\;$;
+(1) $\tan125^{\circ}\sin273^{\circ}$;
 
-(2) 按从小到大的顺序, 可将 $2^{\sqrt{3}}$, $3^{\sqrt{2}}$, $\pi^{\sqrt{5}}$, $2^\pi$ 重新排列为 $\;\_\_\;$ (可用计算工具).
+(2) $\frac{\tan108^{\circ}}{\cos305^{\circ}}$;
+
+(3) $\sin\frac{5\pi}{4}\cos\frac{4\pi}{5}\tan\frac{11\pi}{6}$;
+
+(4) $\frac{\cos\frac{5\pi}{6}\tan\frac{11\pi}{6}}{\sin\frac{2\pi}{3}}$.
 
 ### 解答 习题三
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质) 与**常用结论 4.1.7** (无理数指数幂).
+由**常用结论** (三角函数在各象限的符号).
 
-(1) 分别计算: $\left(-\frac{1}{2}\right)^{-1}=-2$; $2^{-\frac{1}{2}}=\frac{1}{\sqrt{2}}\approx 0.707$; $\left(\frac{1}{2}\right)^{-1}=2$; $2^{-1}=\frac{1}{2}=0.5$. 比较得最大的数是 $\left(\frac{1}{2}\right)^{-1}$.
+(1) $125^{\circ}$ 是第二象限角, $\tan125^{\circ}< 0$; $273^{\circ}$ 是第四象限角, $\sin273^{\circ}< 0$. 故 $\tan125^{\circ}\sin273^{\circ}> 0$.
 
-(2) 用计算工具近似: $2^{\sqrt{3}}\approx 2^{1.732}\approx 3.32$; $3^{\sqrt{2}}\approx 3^{1.414}\approx 4.73$; $\pi^{\sqrt{5}}\approx \pi^{2.236}\approx 11.2$; $2^\pi\approx 2^{3.142}\approx 8.83$. 故从小到大排列为 $2^{\sqrt{3}}< 3^{\sqrt{2}}< 2^\pi< \pi^{\sqrt{5}}$. $\blacksquare$
+(2) $108^{\circ}$ 是第二象限角, $\tan108^{\circ}< 0$; $305^{\circ}$ 是第四象限角, $\cos305^{\circ}> 0$. 故 $\frac{\tan108^{\circ}}{\cos305^{\circ}}< 0$.
+
+(3) $\frac{5\pi}{4}$ 是第三象限角, $\sin\frac{5\pi}{4}< 0$; $\frac{4\pi}{5}$ 是第二象限角, $\cos\frac{4\pi}{5}< 0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}< 0$. 三个负数相乘, 故原式 $< 0$.
+
+(4) $\frac{5\pi}{6}$ 是第二象限角, $\cos\frac{5\pi}{6}< 0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}< 0$; $\frac{2\pi}{3}$ 是第二象限角, $\sin\frac{2\pi}{3}> 0$. 分子为正, 分母为正, 故原式 $> 0$. $\blacksquare$
 
 ## 习题四
 
-(习题 4.1 复习巩固第 4 题) 用分数指数幂表示并计算下列各式 (式中字母均为正数).
+(习题 5.2 综合运用第 9 题) 求下列三角函数值 (可用计算工具, 第 (1) (3) (4) 题精确到 $0.0001$):
 
-(1) $\sqrt{\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}}$;
+(1) $\sin\left(-\frac{67\pi}{12}\right)$;
 
-(2) $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}$;
+(2) $\tan\left(-\frac{15\pi}{4}\right)$;
 
-(3) $\frac{\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}}{\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}}$.
+(3) $\cos398^{\circ}13'$;
+
+(4) $\tan766^{\circ}15'$.
 
 ### 解答 习题四
 
-由**定义 4.1.4 (递增数列与递减数列)** 与**常用结论 4.1.6** (有理数指数幂的运算性质).
+由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内.
 
-(1) 由内向外逐层化: $\sqrt\left[4\right]{\frac{a^2}{b^6}}=\left(a^2 b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, 于是 $\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}=b^3 a^{-1}\cdot a^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, 再开平方得 $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
+(1) 由 $-\frac{67\pi}{12}=-6\pi+\frac{5\pi}{12}$, 得 $\sin\left(-\frac{67\pi}{12}\right)=\sin\frac{5\pi}{12}\approx0.9659$.
 
-(2) 由内向外逐层化: $\sqrt{a}=a^{\frac{1}{2}}$; $a^{\frac{1}{2}}\sqrt{a}=a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a}}=\sqrt{a}=a^{\frac{1}{2}}$; 再外一层 $a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}=\sqrt{a}=a^{\frac{1}{2}}$.
+(2) 由 $-\frac{15\pi}{4}=-4\pi+\frac{\pi}{4}$, 得 $\tan\left(-\frac{15\pi}{4}\right)=\tan\frac{\pi}{4}=1$.
 
-(3) 分子: $\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. 分母: $\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. 由**常用结论 4.1.6** (1), 原式 $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
+(3) 由 $398^{\circ}13'=360^{\circ}+38^{\circ}13'$, 得 $\cos398^{\circ}13'=\cos38^{\circ}13'\approx0.7854$.
+
+(4) 由 $766^{\circ}15'=2\times360^{\circ}+46^{\circ}15'$, 得 $\tan766^{\circ}15'=\tan46^{\circ}15'\approx1.0433$. $\blacksquare$
 
 ## 习题五
 
-(习题 4.1 复习巩固第 5 题) 计算下列各式 (式中字母均为正数).
+(习题 5.2 综合运用第 10 题) 求证:
 
-(1) $a^{\frac{1}{3}}a^{\frac{3}{4}}a^{\frac{7}{12}}$;
+(1) 角 $\theta$ 为第二或第三象限角的充要条件是 $\sin\theta\tan\theta< 0$;
 
-(2) $a^{\frac{2}{3}}a^{\frac{3}{4}}\div a^{\frac{5}{6}}$;
+(2) 角 $\theta$ 为第三或第四象限角的充要条件是 $\cos\theta\tan\theta< 0$;
 
-(3) $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}$;
+(3) 角 $\theta$ 为第一或第四象限角的充要条件是 $\frac{\sin\theta}{\tan\theta}> 0$;
 
-(4) $4a^{\frac{2}{3}}b^{-\frac{1}{3}}\div\left(-\frac{2}{3}a^{-\frac{1}{3}}b^{-\frac{1}{3}}\right)$.
+(4) 角 $\theta$ 为第一或第三象限角的充要条件是 $\sin\theta\cos\theta> 0$.
 
 ### 解答 习题五
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质).
+由**常用结论** (三角函数在各象限的符号).
 
-(1) 由 (1), $a^{\frac{1}{3}}a^{\frac{3}{4}}a^{\frac{7}{12}}=a^{\frac{1}{3}+\frac{3}{4}+\frac{7}{12}}=a^{\frac{4}{12}+\frac{9}{12}+\frac{7}{12}}=a^{\frac{20}{12}}=a^{\frac{5}{3}}$.
+(1) $\sin\theta\tan\theta< 0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 异号. 第二象限: $\sin\theta> 0$, $\tan\theta< 0$, 异号; 第三象限: $\sin\theta< 0$, $\tan\theta> 0$, 异号. 其他象限同号. 故充要条件成立.
 
-(2) 由 (1), $a^{\frac{2}{3}}a^{\frac{3}{4}}\div a^{\frac{5}{6}}=a^{\frac{2}{3}+\frac{3}{4}-\frac{5}{6}}=a^{\frac{8}{12}+\frac{9}{12}-\frac{10}{12}}=a^{\frac{7}{12}}$.
+(2) $\cos\theta\tan\theta< 0$ 等价于 $\cos\theta$ 与 $\tan\theta$ 异号. 第三象限: $\cos\theta< 0$, $\tan\theta> 0$, 异号; 第四象限: $\cos\theta> 0$, $\tan\theta< 0$, 异号. 其他象限同号. 故充要条件成立.
 
-(3) 由 (2) (3), $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}=x^{\frac{1}{3}\times 12}y^{-\frac{3}{4}\times 12}=x^4 y^{-9}$.
+(3) $\frac{\sin\theta}{\tan\theta}> 0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 同号. 第一象限: $\sin\theta> 0$, $\tan\theta> 0$, 同号; 第四象限: $\sin\theta< 0$, $\tan\theta< 0$, 同号. 其他象限异号. 故充要条件成立.
 
-(4) 由 (1) (3), $4a^{\frac{2}{3}}b^{-\frac{1}{3}}\div\left(-\frac{2}{3}a^{-\frac{1}{3}}b^{-\frac{1}{3}}\right)=\frac{4}{-\frac{2}{3}}\cdot a^{\frac{2}{3}+\frac{1}{3}}\cdot b^{-\frac{1}{3}+\frac{1}{3}}=-6a$. $\blacksquare$
+(4) $\sin\theta\cos\theta> 0$ 等价于 $\sin\theta$ 与 $\cos\theta$ 同号. 第一象限: 均正; 第三象限: 均负. 第二, 四象限异号. 故充要条件成立. $\blacksquare$
 
 ## 习题六
 
-(习题 4.1 综合运用第 6 题) 如果在某种细菌培养过程中, 细菌每 $10\;\mathrm{min}$ 分裂 $1$ 次 ($1$ 个分裂成 $2$ 个), 那么经过 $1\;\mathrm{h}$, $1$ 个这种细菌可以分裂成 $\;\_\_\;$ 个.
+(习题 5.2 综合运用第 11 题) 已知 $\sin x=-\frac{1}{3}$, 求 $\cos x$, $\tan x$ 的值.
 
 ### 解答 习题六
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质), 每次分裂细菌数翻倍.
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}x+\cos^{2}x=1$.
 
-$1\;\mathrm{h}=60\;\mathrm{min}$, 每 $10\;\mathrm{min}$ 分裂 $1$ 次, 共分裂 $6$ 次. 第 $1$ 次后为 $2$ 个, 第 $2$ 次后为 $2^2$ 个, 依此类推, 第 $6$ 次后为 $2^6=64$ 个. $\blacksquare$
+由 $\sin x=-\frac{1}{3}< 0$, 知 $x$ 为第三或第四象限角. 由 $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, 得 $\cos x=\pm\frac{2\sqrt{2}}{3}$.
+
+(1) 若 $x$ 为第三象限角, 则 $\cos x< 0$, $\cos x=-\frac{2\sqrt{2}}{3}$, $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
+
+(2) 若 $x$ 为第四象限角, 则 $\cos x> 0$, $\cos x=\frac{2\sqrt{2}}{3}$, $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
 
 ## 习题七
 
-(习题 4.1 综合运用第 7 题)
-
-(1) 已知 $10^m=2$, $10^n=3$, 求 $10^{\frac{3m-2n}{2}}$ 的值;
-
-(2) 已知 $a^{2x}=3$, 求 $\frac{a^{3x}+a^{-3x}}{a^x+a^{-x}}$ 的值.
+(习题 5.2 综合运用第 12 题) 已知 $\tan\alpha=\sqrt{3}$, $\pi< \alpha< \frac{3\pi}{2}$, 求 $\cos\alpha-\sin\alpha$ 的值.
 
 ### 解答 习题七
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质), 对已知条件整体代入.
+由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-(1) 由 (2), $10^{3m}=\left(10^m\right)^3=2^3=8$, $10^{2n}=\left(10^n\right)^2=3^2=9$. 由 (1), $10^{\frac{3m-2n}{2}}=\frac{10^{\frac{3m}{2}}}{10^n}=\frac{\left(10^{3m}\right)^{\frac{1}{2}}}{10^n}=\frac{8^{\frac{1}{2}}}{3}=\frac{2\sqrt{2}}{3}$.
+由 $\pi< \alpha< \frac{3\pi}{2}$, 知 $\alpha$ 为第三象限角, $\sin\alpha< 0$, $\cos\alpha< 0$. 由 $\tan\alpha=\sqrt{3}$, 得 $\sin\alpha=\sqrt{3}\cos\alpha$, 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $4\cos^{2}\alpha=1$, $\cos^{2}\alpha=\frac{1}{4}$, 故 $\cos\alpha=-\frac{1}{2}$, $\sin\alpha=-\frac{\sqrt{3}}{2}$. 因此
 
-(2) 设 $t=a^x$, 则 $t^2=a^{2x}=3$, 且 $t^{-2}=\frac{1}{3}$. 由立方和公式 $t^3+t^{-3}=\left(t+t^{-1}\right)\left(t^2-1+t^{-2}\right)$, 代入 $t^2=3$, $t^{-2}=\frac{1}{3}$, 得 $t^2-1+t^{-2}=3-1+\frac{1}{3}=\frac{7}{3}$. 故 $\frac{a^{3x}+a^{-3x}}{a^x+a^{-x}}=\frac{t^3+t^{-3}}{t+t^{-1}}=\frac{7}{3}$. $\blacksquare$
+$$
+\cos\alpha-\sin\alpha=-\frac{1}{2}-\left(-\frac{\sqrt{3}}{2}\right)=\frac{\sqrt{3}-1}{2}.
+$$
+
+$\blacksquare$
 
 ## 习题八
 
-(习题 4.1 综合运用第 8 题) 已知 $a^{\frac{1}{2}}+a^{-\frac{1}{2}}=3$, 求下列各式的值.
+(习题 5.2 综合运用第 13 题) 已知角 $\alpha$ 的终边不在坐标轴上:
 
-(1) $a+a^{-1}$;
+(1) 用 $\cos\alpha$ 表示 $\sin\alpha$, $\tan\alpha$;
 
-(2) $a^2+a^{-2}$.
+(2) 用 $\sin\alpha$ 表示 $\cos\alpha$, $\tan\alpha$.
 
 ### 解答 习题八
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质), 对已知等式两边平方.
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) 将 $a^{\frac{1}{2}}+a^{-\frac{1}{2}}=3$ 两边平方, 得 $a+2\cdot a^{\frac{1}{2}}\cdot a^{-\frac{1}{2}}+a^{-1}=9$, 即 $a+2+a^{-1}=9$, 故 $a+a^{-1}=7$.
+(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha$, 得 $\sin\alpha=\pm\sqrt{1-\cos^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sqrt{1-\cos^{2}\alpha}}{\cos\alpha}$.
 
-(2) 将 $a+a^{-1}=7$ 两边平方, 得 $a^2+2\cdot a\cdot a^{-1}+a^{-2}=49$, 即 $a^2+2+a^{-2}=49$, 故 $a^2+a^{-2}=47$. $\blacksquare$
+(2) 由 $\cos^{2}\alpha=1-\sin^{2}\alpha$, 得 $\cos\alpha=\pm\sqrt{1-\sin^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sin\alpha}{\sqrt{1-\sin^{2}\alpha}}$. $\blacksquare$
 
 ## 习题九
 
-(习题 4.1 拓广探索第 9 题) 从盛有 $1\;\mathrm{L}$ 纯酒精的容器中倒出 $\frac{1}{3}\;\mathrm{L}$, 然后用水填满; 再倒出 $\frac{1}{3}\;\mathrm{L}$, 又用水填满.
+(习题 5.2 综合运用第 14 题) 求证:
 
-(1) 连续进行 $5$ 次, 容器中的纯酒精还剩下多少?
+(1) $\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=\frac{1-\tan x}{1+\tan x}$;
 
-(2) 连续进行 $n$ 次, 容器中的纯酒精还剩下多少?
+(2) $\frac{\tan^{2}\alpha-\sin^{2}\alpha}{\tan^{2}\alpha}=\sin^{2}\alpha$;
+
+(3) $\left(\cos\beta-1\right)^{2}+\sin^{2}\beta=2-2\cos\beta$;
+
+(4) $\sin^{4}x+\cos^{4}x=1-2\sin^{2}x\cos^{2}x$.
 
 ### 解答 习题九
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质), 每次操作后剩余纯酒精为上次的 $\frac{2}{3}$.
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) 每次倒出 $\frac{1}{3}\;\mathrm{L}$, 倒出的纯酒精占容器内原有纯酒精的 $\frac{1}{3}$, 故剩余纯酒精为上次的 $\frac{2}{3}$. 第 $1$ 次后剩余 $\frac{2}{3}\;\mathrm{L}$, 第 $2$ 次后剩余 $\left(\frac{2}{3}\right)^2\;\mathrm{L}$, 依此类推, 连续进行 $5$ 次后剩余 $\left(\frac{2}{3}\right)^5=\frac{32}{243}\;\mathrm{L}$.
+(1) 右边 $=\frac{1-\frac{\sin x}{\cos x}}{1+\frac{\sin x}{\cos x}}=\frac{\cos x-\sin x}{\cos x+\sin x}=\frac{\left(\cos x-\sin x\right)^{2}}{\left(\cos x+\sin x\right)\left(\cos x-\sin x\right)}=\frac{\cos^{2}x-2\sin x\cos x+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=$ 左边.
 
-(2) 同理, 连续进行 $n$ 次后, 容器中的纯酒精还剩下 $\left(\frac{2}{3}\right)^n\;\mathrm{L}$. $\blacksquare$
+(2) 左边 $=1-\frac{\sin^{2}\alpha}{\tan^{2}\alpha}=1-\frac{\sin^{2}\alpha}{\sin^{2}\alpha/\cos^{2}\alpha}=1-\cos^{2}\alpha=\sin^{2}\alpha=$ 右边.
+
+(3) 左边 $=\cos^{2}\beta-2\cos\beta+1+\sin^{2}\beta=\left(\cos^{2}\beta+\sin^{2}\beta\right)+1-2\cos\beta=1+1-2\cos\beta=2-2\cos\beta=$ 右边.
+
+(4) 左边 $=\left(\sin^{2}x+\cos^{2}x\right)^{2}-2\sin^{2}x\cos^{2}x=1-2\sin^{2}x\cos^{2}x=$ 右边. $\blacksquare$
 
 ## 习题十
 
-(习题 4.1 拓广探索第 10 题)
-
-(1) 当 $n=1,2,3,10,100,1000,10000,100000,\cdots$ 时, 用计算工具计算 $\left(1+\frac{1}{n}\right)^n$ ($n\in\mathbb N^*$) 的值;
-
-(2) 当 $n$ 越来越大时, $\left(1+\frac{1}{n}\right)^n$ 的底数越来越小, 而指数越来越大, 那么 $\left(1+\frac{1}{n}\right)^n$ 是否也会越来越大? 有没有最大值?
+(习题 5.2 综合运用第 15 题) 已知 $\tan\alpha=2$, 求 $\frac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ 的值.
 
 ### 解答 习题十
 
-由**常用结论 4.1.6** (有理数指数幂的运算性质), 借助计算工具考察数列 $\left\{\left(1+\frac{1}{n}\right)^n\right\}$ 的变化趋势.
+由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) 用计算工具计算: $\left(1+\frac{1}{1}\right)^1=2$; $\left(1+\frac{1}{2}\right)^2=2.25$; $\left(1+\frac{1}{3}\right)^3\approx 2.370$; $\left(1+\frac{1}{10}\right)^{10}\approx 2.594$; $\left(1+\frac{1}{100}\right)^{100}\approx 2.705$; $\left(1+\frac{1}{1000}\right)^{1000}\approx 2.717$; $\left(1+\frac{1}{10000}\right)^{10000}\approx 2.718$; $\left(1+\frac{1}{100000}\right)^{100000}\approx 2.718$.
+分子分母同除以 $\cos\alpha$, 得
 
-(2) 由上述计算结果可见, 当 $n$ 越来越大时, $\left(1+\frac{1}{n}\right)^n$ 逐渐增大并趋向于一个确定的常数, 这个常数约为 $2.718$, 即自然对数的底 $\mathrm e$. 因此它是越来越大的, 但始终不超过 $\mathrm e$, 没有最大值, 只是无限接近 $\mathrm e$. $\blacksquare$
+$$
+\frac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}=\frac{\tan\alpha+1}{\tan\alpha-1}=\frac{2+1}{2-1}=3.
+$$
+
+$\blacksquare$
+
+## 习题十一
+
+(习题 5.2 拓广探索第 16 题) 化简 $\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}$, 其中 $\alpha$ 为第二象限角.
+
+### 解答 习题十一
+
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
+
+因为 $\alpha$ 为第二象限角, $\cos\alpha< 0$. 对两式分别有理化:
+
+$$
+\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{\left(1+\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},
+$$
+
+$$
+\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}=\sqrt{\frac{\left(1-\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1-\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1-\sin\alpha}{-\cos\alpha}.
+$$
+
+故原式 $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\alpha}{-\cos\alpha}=\frac{2\sin\alpha}{-\cos\alpha}=-2\tan\alpha$. $\blacksquare$
+
+## 习题十二
+
+(习题 5.2 拓广探索第 17 题) 从本节的例 7 可以看出, $\frac{\cos x}{1-\sin x}=\frac{1+\sin x}{\cos x}$ 就是 $\sin^{2}x+\cos^{2}x=1$ 的一个变形. 你能利用同角三角函数的基本关系推导出更多的关系式吗?
+
+### 解答 习题十二
+
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
+
+(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha=\left(1-\cos\alpha\right)\left(1+\cos\alpha\right)$, 可得 $\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}$.
+
+(2) 由 $1=\sin^{2}\alpha+\cos^{2}\alpha$, 两边除以 $\cos^{2}\alpha$, 得 $\frac{1}{\cos^{2}\alpha}=\tan^{2}\alpha+1$, 即 $\sec^{2}\alpha=1+\tan^{2}\alpha$.
+
+(3) 由 $\sin^{4}\alpha-\cos^{4}\alpha=\left(\sin^{2}\alpha+\cos^{2}\alpha\right)\left(\sin^{2}\alpha-\cos^{2}\alpha\right)=\sin^{2}\alpha-\cos^{2}\alpha$, 可得 $\sin^{4}\alpha-\cos^{4}\alpha=\sin^{2}\alpha-\cos^{2}\alpha$.
+
+(4) 由 $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha$, 可得 $\sin\alpha\cos\alpha=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}-1}{2}$. $\blacksquare$
+
+## 习题十三
+
+(习题 5.2 拓广探索第 18 题)
+
+(1) 分别计算 $\sin^{4}\frac{\pi}{3}-\cos^{4}\frac{\pi}{3}$ 和 $\sin^{2}\frac{\pi}{3}-\cos^{2}\frac{\pi}{3}$ 的值, 你有什么发现?
+
+(2) 任取一个 $\alpha$ 的值, 分别计算 $\sin^{4}\alpha-\cos^{4}\alpha$, $\sin^{2}\alpha-\cos^{2}\alpha$, 你又有什么发现?
+
+(3) 证明: $\forall x\in\mathbb R$, $\sin^{2}x-\cos^{2}x=\sin^{4}x-\cos^{4}x$.
+
+### 解答 习题十三
+
+由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
+
+(1) 由 $\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\frac{\pi}{3}=\frac{1}{2}$, 得
+
+$$
+\sin^{4}\frac{\pi}{3}-\cos^{4}\frac{\pi}{3}=\frac{9}{16}-\frac{1}{16}=\frac{1}{2},
+$$
+
+$$
+\sin^{2}\frac{\pi}{3}-\cos^{2}\frac{\pi}{3}=\frac{3}{4}-\frac{1}{4}=\frac{1}{2}.
+$$
+
+两者相等.
+
+(2) 任取 $\alpha=\frac{\pi}{4}$, $\sin\frac{\pi}{4}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$, 得 $\sin^{4}\frac{\pi}{4}-\cos^{4}\frac{\pi}{4}=0$, $\sin^{2}\frac{\pi}{4}-\cos^{2}\frac{\pi}{4}=0$. 两者仍相等.
+
+(3) 左边 $=\sin^{2}x-\cos^{2}x$. 右边 $=\left(\sin^{2}x+\cos^{2}x\right)\left(\sin^{2}x-\cos^{2}x\right)=1\cdot\left(\sin^{2}x-\cos^{2}x\right)=\sin^{2}x-\cos^{2}x=$ 左边. 故 $\forall x\in\mathbb R$, 等式成立. $\blacksquare$
+
+## 阅读与思考一
+
+(思考 1) 阅读 "三角学与天文学" 一文, 谈谈三角学的发展与天文学的关系.
+
+### 解答 阅读与思考一
+
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**常用结论** (同角三角函数的基本关系), 三角学的核心是建立角与比值之间的对应关系.
+
+三角学的起源与发展与天文学密不可分. 在 $1450$ 年以前, 三角学主要是球面三角, 这是因为航海, 历法推算以及天文观测等人类实践活动的需要. 最早将三角学从天文学中独立出来的数学家是德国人雷格蒙塔努斯, 他的著作 " 论各种三角形 " 是欧洲第一部独立于天文学的三角学著作. 后来, 雷提库斯将传统的弧与弦的关系改进为角的三角函数关系, 制定了更为精确的三角函数表. 由于天文学研究的需要, 制定更加精确的三角函数表一直是数学家奋斗的目标, 这大大推动了三角学的发展. $16$ 世纪, 三角学从天文学中分离出来, 成为数学的一个独立分支. $\blacksquare$
+
+## 练习一
+
+(练习 5.3 第 1 题) 将下列三角函数转化为锐角三角函数, 并填在题中横线上:
+
+(1) $\cos\frac{13\pi}{9}=\;\_\_\;$;
+
+(2) $\sin\left(1+\pi\right)=\;\_\_\;$;
+
+(3) $\sin\left(-\frac{\pi}{5}\right)=\;\_\_\;$;
+
+(4) $\tan\left(-70^{\circ}6'\right)=\;\_\_\;$;
+
+(5) $\cos\frac{6\pi}{7}=\;\_\_\;$;
+
+(6) $\tan1000^{\circ}21'=\;\_\_\;$.
+
+### 解答 练习一
+
+由**公式一**至**公式四**将各角的三角函数转化为锐角三角函数.
+
+(1) 由 $\frac{13\pi}{9}=\pi+\frac{4\pi}{9}$, 得 $\cos\frac{13\pi}{9}=\cos\left(\pi+\frac{4\pi}{9}\right)=-\cos\frac{4\pi}{9}$.
+
+(2) 由**公式二**, 得 $\sin\left(1+\pi\right)=-\sin1$.
+
+(3) 由**公式三**, 得 $\sin\left(-\frac{\pi}{5}\right)=-\sin\frac{\pi}{5}$.
+
+(4) 由**公式三**, 得 $\tan\left(-70^{\circ}6'\right)=-\tan70^{\circ}6'$.
+
+(5) 由 $\frac{6\pi}{7}=\pi-\frac{\pi}{7}$, 得 $\cos\frac{6\pi}{7}=\cos\left(\pi-\frac{\pi}{7}\right)=-\cos\frac{\pi}{7}$.
+
+(6) 由 $1000^{\circ}21'=2\times360^{\circ}+280^{\circ}21'$, $280^{\circ}21'=360^{\circ}-79^{\circ}39'$, 得 $\tan1000^{\circ}21'=\tan\left(-79^{\circ}39'\right)=-\tan79^{\circ}39'$. $\blacksquare$
+
+## 练习二
+
+(练习 5.3 第 2 题) 利用公式求下列三角函数值:
+
+(1) $\cos\left(-420^{\circ}\right)$;
+
+(2) $\sin\left(-\frac{7\pi}{6}\right)$;
+
+(3) $\tan\left(-1140^{\circ}\right)$;
+
+(4) $\cos\left(-\frac{7\pi}{6}\right)$;
+
+(5) $\tan315^{\circ}$;
+
+(6) $\sin\left(-\frac{11\pi}{4}\right)$.
+
+### 解答 练习二
+
+由**公式一**至**公式四**化简, 再求特殊角的三角函数值.
+
+(1) 由**公式三**及**公式一**, 得 $\cos\left(-420^{\circ}\right)=\cos420^{\circ}=\cos\left(360^{\circ}+60^{\circ}\right)=\cos60^{\circ}=\frac{1}{2}$.
+
+(2) 由**公式三**及**公式四**, 得 $\sin\left(-\frac{7\pi}{6}\right)=-\sin\frac{7\pi}{6}=-\sin\left(\pi+\frac{\pi}{6}\right)=\sin\frac{\pi}{6}=\frac{1}{2}$.
+
+(3) 由**公式三**及**公式一**, 得 $\tan\left(-1140^{\circ}\right)=-\tan1140^{\circ}=-\tan\left(3\times360^{\circ}+60^{\circ}\right)=-\tan60^{\circ}=-\sqrt{3}$.
+
+(4) 由**公式三**及**公式二**, 得 $\cos\left(-\frac{7\pi}{6}\right)=\cos\frac{7\pi}{6}=\cos\left(\pi+\frac{\pi}{6}\right)=-\cos\frac{\pi}{6}=-\frac{\sqrt{3}}{2}$.
+
+(5) 由**公式四**, 得 $\tan315^{\circ}=\tan\left(360^{\circ}-45^{\circ}\right)=-\tan45^{\circ}=-1$.
+
+(6) 由**公式三**及**公式一**, 得 $\sin\left(-\frac{11\pi}{4}\right)=-\sin\frac{11\pi}{4}=-\sin\left(2\pi+\frac{3\pi}{4}\right)=-\sin\frac{3\pi}{4}=-\frac{\sqrt{2}}{2}$. $\blacksquare$
+
+## 练习三
+
+(练习 5.3 第 3 题) 化简:
+
+(1) $\sin\left(-\alpha-180^{\circ}\right)\cos\left(-\alpha\right)\sin\left(-\alpha+180^{\circ}\right)$;
+
+(2) $\cos^{3}\left(-\alpha\right)\sin\left(2\pi+\alpha\right)\tan^{3}\left(-\alpha-\pi\right)$.
+
+### 解答 练习三
+
+由**公式二**, **公式三**, **公式四**及**公式一**化简.
+
+(1) 由 $\sin\left(-\alpha-180^{\circ}\right)=-\sin\left(\alpha+180^{\circ}\right)=\sin\alpha$, $\cos\left(-\alpha\right)=\cos\alpha$, $\sin\left(-\alpha+180^{\circ}\right)=\sin\left(180^{\circ}-\alpha\right)=\sin\alpha$, 得
+
+$$
+\text{原式}=\sin\alpha\cdot\cos\alpha\cdot\sin\alpha=\sin^{2}\alpha\cos\alpha.
+$$
+
+(2) 由 $\cos^{3}\left(-\alpha\right)=\cos^{3}\alpha$, $\sin\left(2\pi+\alpha\right)=\sin\alpha$, $\tan^{3}\left(-\alpha-\pi\right)=\left[-\tan\left(\alpha+\pi\right)\right]^{3}=\left(-\tan\alpha\right)^{3}=-\tan^{3}\alpha$, 得
+
+$$
+\text{原式}=\cos^{3}\alpha\cdot\sin\alpha\cdot\left(-\tan^{3}\alpha\right)=-\cos^{3}\alpha\sin\alpha\cdot\frac{\sin^{3}\alpha}{\cos^{3}\alpha}=-\sin^{4}\alpha.
+$$
+
+$\blacksquare$
+
+## 练习四
+
+(练习 5.3 第 4 题) 填表:
+
+| $\alpha$ | $-\frac{4\pi}{3}$ | $-\frac{5\pi}{4}$ | $-\frac{5\pi}{3}$ | $-\frac{7\pi}{4}$ | $-\frac{8\pi}{3}$ | $-\frac{11\pi}{4}$ |
+|---|---|---|---|---|---|---|
+| $\sin\alpha$ |  |  |  |  |  |  |
+| $\cos\alpha$ |  |  |  |  |  |  |
+| $\tan\alpha$ |  |  |  |  |  |  |
+
+### 解答 练习四
+
+由**公式一**, **公式三**, **公式四**化简后求特殊角的三角函数值.
+
+(1) $\alpha=-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$: $\sin\left(-\frac{4\pi}{3}\right)=\sin\frac{2\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{4\pi}{3}\right)=\cos\frac{2\pi}{3}=-\frac{1}{2}$, $\tan\left(-\frac{4\pi}{3}\right)=-\sqrt{3}$.
+
+(2) $\alpha=-\frac{5\pi}{4}=-2\pi+\frac{3\pi}{4}$: $\sin\left(-\frac{5\pi}{4}\right)=\sin\frac{3\pi}{4}=\frac{\sqrt{2}}{2}$, $\cos\left(-\frac{5\pi}{4}\right)=\cos\frac{3\pi}{4}=-\frac{\sqrt{2}}{2}$, $\tan\left(-\frac{5\pi}{4}\right)=-1$.
+
+(3) $\alpha=-\frac{5\pi}{3}=-2\pi+\frac{\pi}{3}$: $\sin\left(-\frac{5\pi}{3}\right)=\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{5\pi}{3}\right)=\cos\frac{\pi}{3}=\frac{1}{2}$, $\tan\left(-\frac{5\pi}{3}\right)=\sqrt{3}$.
+
+(4) $\alpha=-\frac{7\pi}{4}=-2\pi+\frac{\pi}{4}$: $\sin\left(-\frac{7\pi}{4}\right)=\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}$, $\cos\left(-\frac{7\pi}{4}\right)=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$, $\tan\left(-\frac{7\pi}{4}\right)=1$.
+
+(5) $\alpha=-\frac{8\pi}{3}=-4\pi+\frac{4\pi}{3}$: $\sin\left(-\frac{8\pi}{3}\right)=\sin\frac{4\pi}{3}=-\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{8\pi}{3}\right)=\cos\frac{4\pi}{3}=-\frac{1}{2}$, $\tan\left(-\frac{8\pi}{3}\right)=\sqrt{3}$.
+
+(6) $\alpha=-\frac{11\pi}{4}=-4\pi+\frac{5\pi}{4}$: $\sin\left(-\frac{11\pi}{4}\right)=\sin\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\cos\left(-\frac{11\pi}{4}\right)=\cos\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\tan\left(-\frac{11\pi}{4}\right)=1$. $\blacksquare$
+
+## 练习五
+
+(练习 5.3 第 5 题) 用诱导公式求下列三角函数值 (可用计算工具, 第 (3) (4) (6) 题精确到 $0.0001$):
+
+(1) $\cos\frac{65\pi}{6}$;
+
+(2) $\sin\left(-\frac{31\pi}{4}\right)$;
+
+(3) $\cos\left(-1182^{\circ}13'\right)$;
+
+(4) $\sin670^{\circ}39'$;
+
+(5) $\tan\left(-\frac{26\pi}{3}\right)$;
+
+(6) $\tan580^{\circ}21'$.
+
+### 解答 练习五
+
+由**公式一**至**公式六**化简后求值.
+
+(1) 由 $\frac{65\pi}{6}=10\pi+\frac{5\pi}{6}$, 得 $\cos\frac{65\pi}{6}=\cos\frac{5\pi}{6}=-\frac{\sqrt{3}}{2}$.
+
+(2) 由 $-\frac{31\pi}{4}=-8\pi+\frac{\pi}{4}$, 得 $\sin\left(-\frac{31\pi}{4}\right)=\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
+
+(3) 由 $-1182^{\circ}13'=-4\times360^{\circ}+257^{\circ}47'$, 得 $\cos\left(-1182^{\circ}13'\right)=\cos257^{\circ}47'\approx-0.2133$.
+
+(4) 由 $670^{\circ}39'=360^{\circ}+310^{\circ}39'$, 得 $\sin670^{\circ}39'=\sin310^{\circ}39'\approx-0.7587$.
+
+(5) 由 $-\frac{26\pi}{3}=-10\pi+\frac{4\pi}{3}$, 得 $\tan\left(-\frac{26\pi}{3}\right)=\tan\frac{4\pi}{3}=\sqrt{3}$.
+
+(6) 由 $580^{\circ}21'=360^{\circ}+220^{\circ}21'$, 得 $\tan580^{\circ}21'=\tan220^{\circ}21'\approx0.8541$. $\blacksquare$

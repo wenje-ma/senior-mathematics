@@ -1,545 +1,672 @@
 # week61
-> **Definition 2.1.2 (Slope)**
+> **Definition 4.1.1 (数列)**
 > 
-> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
-> **Definition 2.2.1 (Point-slope Form)**
+> 按照确定的顺序排列的一列数称为数列, 数列中的每一个数叫做这个数列的项.
+> **Definition 4.1.5 (General Term Formula)**
 > 
-> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
-> **Definition 2.2.2 (斜截式方程)**
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.1.6 (递推公式)**
 > 
-> 由直线的斜率 k 及其在 y 轴上的截距 b 确定的方程 y = kx + b, 叫做直线的斜截式方程.
-> **Definition 2.2.4 (两点式方程)**
+> 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **Definition 4.2.1 (Arithmetic Sequence)**
 > 
-> ２中的一点,例如,取点１(１,狔１),由直线的点斜式方程,得 　　不利用点斜式方程, 你能求出两点式方程吗? 狔－狔１＝狔２－狔１ ２－１(－１), 当狔２≠狔１时,上式可写为 狔－狔１ 狔２－狔１＝－１ ２－１.　　　　　　　　　 这就是经过两点１(１,狔１),２(２,狔２)(其中１≠２,狔１≠狔２)的直线的方程, 我们把它叫做直线的两点式方程,简称两点式(ｔｗｏｐｏｉｎｔｆｏｒｍ). 在１(１,狔１),２(２,狔２)中,如果１＝２或狔１＝狔２,则直线１２没有两点 式方程.当１＝２时,直线１２垂直于轴,直线方程为－１＝０,即＝１;当 狔１＝狔２时,直线１２垂直于狔轴,直线方程为狔－狔１＝０,即狔＝狔１. ２６ 2元 (4)经过点D(一4,一2),倾斜角是3 ° 2.填空题. (1)已知直线的点斜式方程是y一2=一1,那么此直线的斜率是 ,倾斜角是 (2)已知直线的点斜式方程是十2=/3(α十1),那么此直线的斜率
-> **Definition 2.2.5 (Intercept Form)**
+> 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **Definition 4.2.2 (等差中项)**
 > 
-> 由直线在 x 轴上的截距 a 和在 y 轴上的截距 b 确定的方程 x/a + y/b = 1, 叫做直线的截距式方程.
-> **Definition 2.2.6 (一般式方程)**
+> 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**
 > 
-> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
-
-## Exercise 1
-
-(Exercise 2.2, Problem 1) Write the point-slope equation of each of the following lines:
-
-(1) Passing through the point $A\left(3,-1\right)$ with slope $\sqrt 2$;
-
-(2) Passing through the point $B\left(-\sqrt 2,2\right)$ with inclination angle $30^\circ$;
-
-(3) Passing through the point $C\left(0,3\right)$ with inclination angle $0^\circ$;
-
-(4) Passing through the point $D\left(-4,-2\right)$ with inclination angle $\frac{2\pi}{3}$.
-
-### Solution to Exercise 1
-
-By **Definition 2.2.1 (Point-slope Equation)**, the point-slope equation is $y-y_0=k\left(x-x_0\right)$, where $k=\tan\alpha$.
-
-(1) Substituting the point $A\left(3,-1\right)$ and the slope $k=\sqrt 2$ gives $y-\left(-1\right)=\sqrt 2\left(x-3\right)$, i.e. $y+1=\sqrt 2\left(x-3\right)$.
-
-(2) By **Definition 2.1.2 (Slope)**, $k=\tan 30^\circ=\frac{\sqrt 3}{3}$. Substituting the point $B\left(-\sqrt 2,2\right)$ gives $y-2=\frac{\sqrt 3}{3}\left(x+\sqrt 2\right)$.
-
-(3) Since the inclination angle is $0^\circ$, $k=\tan 0^\circ=0$. Substituting the point $C\left(0,3\right)$ gives $y-3=0\cdot\left(x-0\right)$, i.e. $y-3=0$.
-
-(4) By **Definition 2.1.2 (Slope)**, $k=\tan\frac{2\pi}{3}=-\sqrt 3$. Substituting the point $D\left(-4,-2\right)$ gives $y-\left(-2\right)=-\sqrt 3\left(x+4\right)$, i.e. $y+2=-\sqrt 3\left(x+4\right)$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 2.2, Problem 2) Fill in the blanks.
-
-(1) Given that the point-slope equation of a line is $y-2=x-1$, then the slope of this line is $\;\_\_\;$, and the inclination angle is $\;\_\_\;$;
-
-(2) Given that the point-slope equation of a line is $y+2=\sqrt 3\left(x+1\right)$, then the slope of this line is $\;\_\_\;$, and the inclination angle is $\;\_\_\;$.
-
-### Solution to Exercise 2
-
-By **Definition 2.2.1 (Point-slope Equation)**, in the point-slope form $y-y_0=k\left(x-x_0\right)$, $k$ is the slope; by **Definition 2.1.2 (Slope)**, $k=\tan\alpha$.
-
-(1) The equation $y-2=x-1$ is $y-2=1\cdot\left(x-1\right)$; comparing with the point-slope form, the slope is $k=1$. From $\tan\alpha=1$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=45^\circ$.
-
-(2) The equation $y+2=\sqrt 3\left(x+1\right)$ is $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$; comparing with the point-slope form, the slope is $k=\sqrt 3$. From $\tan\alpha=\sqrt 3$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=60^\circ$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 2.2, Problem 3) Write the slope-intercept equation of each of the following lines:
-
-(1) Slope $\frac{\sqrt 3}{2}$, and intercept on the $y$-axis $-2$;
-
-(2) Slope $-2$, and intercept on the $y$-axis $4$.
-
-### Solution to Exercise 3
-
-By **Definition 2.2.2 (Slope-intercept Equation)**, the slope-intercept form is $y=kx+b$, where $k$ is the slope and $b$ is the intercept on the $y$-axis.
-
-(1) Substituting $k=\frac{\sqrt 3}{2}$, $b=-2$ gives $y=\frac{\sqrt 3}{2}x-2$.
-
-(2) Substituting $k=-2$, $b=4$ gives $y=-2x+4$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 2.2, Problem 4) Determine whether each of the following pairs of lines is parallel or perpendicular:
-
-(1) $l_1:y=\frac{1}{2}x+3$, $l_2:y=\frac{1}{2}x-2$;
-
-(2) $l_1:y=\frac{5}{3}x$, $l_2:y=-\frac{3}{5}x$.
-
-### Solution to Exercise 4
-
-By **Common Conclusion 2.2.3** (Parallelism and Perpendicularity in Slope-intercept Form).
-
-(1) The slope of $l_1$ is $k_1=\frac{1}{2}$, the slope of $l_2$ is $k_2=\frac{1}{2}$, and $k_1=k_2$. Also the intercept of $l_1$ is $b_1=3$, the intercept of $l_2$ is $b_2=-2$, and $b_1\ne b_2$, so $l_1\parallel l_2$.
-
-(2) The slope of $l_1$ is $k_1=\frac{5}{3}$, the slope of $l_2$ is $k_2=-\frac{3}{5}$. The product of the two slopes is $\frac{5}{3}\times\left(-\frac{3}{5}\right)=-1$, so $l_1\perp l_2$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 2.2, Problem 5) Find the two-point equation of the line through each of the following pairs of points:
-
-(1) $P_1\left(2,1\right)$, $P_2\left(0,-3\right)$;
-
-(2) $A\left(0,5\right)$, $B\left(5,0\right)$.
-
-### Solution to Exercise 5
-
-By **Definition 2.2.4 (Two-point Equation)**, the two-point form is $\frac{y-y_1}{y_2-y_1}=\frac{x-x_1}{x_2-x_1}$.
-
-(1) Substituting $P_1\left(2,1\right)$, $P_2\left(0,-3\right)$ gives
-
-$$
-\frac{y-1}{-3-1}=\frac{x-2}{0-2},
-$$
-
-i.e. $\frac{y-1}{-4}=\frac{x-2}{-2}$.
-
-(2) Substituting $A\left(0,5\right)$, $B\left(5,0\right)$ gives
-
-$$
-\frac{y-5}{0-5}=\frac{x-0}{5-0},
-$$
-
-i.e. $\frac{y-5}{-5}=\frac{x}{5}$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 2.2, Problem 6) Find the intercept equation of the line under each of the following conditions, and draw the figure:
-
-(1) The intercepts on the $x$-axis and $y$-axis are $2,3$, respectively;
-
-(2) The intercepts on the $x$-axis and $y$-axis are $-5,6$, respectively.
-
-The figure plots two intercept-form lines in the rectangular coordinate system: one has $x$-intercept $2$ and $y$-intercept $3$, i.e. passes through $\left(2,0\right)$ and $\left(0,3\right)$; the other has $x$-intercept $-5$ and $y$-intercept $6$, i.e. passes through $\left(-5,0\right)$ and $\left(0,6\right)$.
-
-### Solution to Exercise 6
-
-By **Definition 2.2.5 (Intercept Equation)**, the intercept form is $\frac{x}{a}+\frac{y}{b}=1$, where $a$ is the intercept on the $x$-axis and $b$ is the intercept on the $y$-axis.
-
-(1) Substituting $a=2$, $b=3$ gives $\frac{x}{2}+\frac{y}{3}=1$.
-
-(2) Substituting $a=-5$, $b=6$ gives $\frac{x}{-5}+\frac{y}{6}=1$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 2.2, Problem 7) Find the equation of the line under each of the following conditions:
-
-(1) Passing through the point $\left(0,5\right)$, with the sum of its intercepts on the two coordinate axes equal to $2$;
-
-(2) Passing through the point $\left(5,0\right)$, with the difference of its intercepts on the two coordinate axes equal to $2$.
-
-### Solution to Exercise 7
-
-By **Definition 2.2.5 (Intercept Equation)**, let the intercepts of the line on the $x$-axis and $y$-axis be $a,b$, respectively; then the intercept form is $\frac{x}{a}+\frac{y}{b}=1$.
-
-(1) The line passes through the point $\left(0,5\right)$, i.e. its intercept on the $y$-axis is $b=5$. Also the sum of the intercepts is $a+b=2$, so $a=2-5=-3$. Substituting into the intercept form gives $\frac{x}{-3}+\frac{y}{5}=1$.
-
-(2) The line passes through the point $\left(5,0\right)$, i.e. its intercept on the $x$-axis is $a=5$. Also the difference of the intercepts is $\lvert a-b \rvert=2$, i.e. $\lvert 5-b \rvert=2$, so $b=3$ or $b=7$.
-
-When $b=3$, the equation is $\frac{x}{5}+\frac{y}{3}=1$; when $b=7$, the equation is $\frac{x}{5}+\frac{y}{7}=1$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 2.2, Problem 8) Under each of the following conditions, write the equation of the line and reduce it to the general form:
-
-(1) Passing through the point $A\left(8,-2\right)$ with slope $-\frac{1}{2}$;
-
-(2) Passing through the point $B\left(4,2\right)$ and parallel to the $x$-axis;
-
-(3) Passing through the points $P_1\left(3,-2\right)$, $P_2\left(5,-4\right)$;
-
-(4) The intercepts on the $x$-axis and $y$-axis are $\frac{3}{2},-3$, respectively.
-
-### Solution to Exercise 8
-
-By **Definition 2.2.6 (General Equation)**, the general form is $Ax+By+C=0$.
-
-(1) By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(8,-2\right)$ and the slope $k=-\frac{1}{2}$ gives $y+2=-\frac{1}{2}\left(x-8\right)$. Rearranging gives $x+2y-4=0$.
-
-(2) The line is parallel to the $x$-axis, i.e. its inclination angle is $0^\circ$ and its slope is $0$. Passing through the point $B\left(4,2\right)$, by **Definition 2.2.1 (Point-slope Form)** we get $y=2$, i.e. $y-2=0$.
-
-(3) By **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{-4-\left(-2\right)}{5-3}=\frac{-2}{2}=-1$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $P_1\left(3,-2\right)$ gives $y+2=-1\left(x-3\right)$, i.e. $x+y-1=0$.
-
-(4) By **Definition 2.2.5 (Intercept Equation)**, substituting $a=\frac{3}{2}$, $b=-3$ gives $\frac{x}{\frac{3}{2}}+\frac{y}{-3}=1$, i.e. $\frac{2x}{3}-\frac{y}{3}=1$. Rearranging gives $2x-y-3=0$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 2.2, Problem 9) Find the slope and the intercept on the $y$-axis of each of the following lines, and draw the figure:
-
-(1) $3x+y-5=0$;
-
-(2) $\frac{x}{4}-\frac{y}{5}=1$;
-
-(3) $x+2y=0$;
-
-(4) $7x-6y+4=0$.
-
-The figure plots four lines in the rectangular coordinate system: (1) $3x+y-5=0$, i.e. $y=-3x+5$, slope $-3$, passing through $\left(0,5\right)$; (2) $\frac{x}{4}-\frac{y}{5}=1$, i.e. $y=\frac{5}{4}x-5$, slope $\frac{5}{4}$, passing through $\left(0,-5\right)$; (3) $x+2y=0$, i.e. $y=-\frac{1}{2}x$, slope $-\frac{1}{2}$, passing through the origin; (4) $7x-6y+4=0$, i.e. $y=\frac{7}{6}x+\frac{2}{3}$, slope $\frac{7}{6}$, $y$-intercept $\frac{2}{3}$.
-
-### Solution to Exercise 9
-
-By **Definition 2.2.6 (General Equation)**, when $B\ne0$, reduce the general form to the slope-intercept form $y=-\frac{A}{B}x-\frac{C}{B}$; the slope is $-\frac{A}{B}$, and the intercept on the $y$-axis is $-\frac{C}{B}$.
-
-(1) $3x+y-5=0$ is $y=-3x+5$; the slope is $k=-3$, and the intercept on the $y$-axis is $5$.
-
-(2) $\frac{x}{4}-\frac{y}{5}=1$ is $y=\frac{5}{4}x-5$; the slope is $k=\frac{5}{4}$, and the intercept on the $y$-axis is $-5$.
-
-(3) $x+2y=0$ is $y=-\frac{1}{2}x$; the slope is $k=-\frac{1}{2}$, and the intercept on the $y$-axis is $0$.
-
-(4) $7x-6y+4=0$ is $y=\frac{7}{6}x+\frac{2}{3}$; the slope is $k=\frac{7}{6}$, and the intercept on the $y$-axis is $\frac{2}{3}$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 2.2, Problem 10) Given that the equation of line $l$ is $Ax+By+C=0$.
-
-(1) When $B\ne0$, what is the slope of line $l$? And when $B=0$?
-
-(2) For what values of the coefficients $A,B,C$ does the equation $Ax+By+C=0$ represent a line passing through the origin?
-
-### Solution to Exercise 10
-
-By **Definition 2.2.6 (General Equation)**.
-
-(1) When $B\ne0$, the equation $Ax+By+C=0$ can be rewritten as $y=-\frac{A}{B}x-\frac{C}{B}$, so the slope of line $l$ is $-\frac{A}{B}$. When $B=0$, then $A\ne0$, the equation can be rewritten as $x=-\frac{C}{A}$; the line is perpendicular to the $x$-axis and has no slope.
-
-(2) The line passes through the origin $\left(0,0\right)$, i.e. $x=0$, $y=0$ satisfies the equation; substituting gives $A\cdot0+B\cdot0+C=0$, i.e. $C=0$. Also $A,B$ are not both $0$. Hence when $C=0$ and $A,B$ are not both $0$, the equation $Ax+By+C=0$ represents a line passing through the origin. $\blacksquare$
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.5 (等差数列性质)**
+> 
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **Definition 4.3.2 (等比中项)**
+> 
+> 如果在 $a$ 与 $b$ 中间插入一个数 $G$, 使 $a,G,b$ 成等比数列, 那么 $G$ 叫做 $a$ 与 $b$ 的等比中项. 此时 $G^2=ab$.
+> **Theorem 4.3.3 (等比数列通项公式)**
+> 
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **Theorem 4.3.5 (前 $n$ 项和公式)**
+> 
+> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> **Definition 4.4.1 (数学归纳法)**
+> 
+> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
+> **Definition 5.1.2 (Derivative)**
+> 
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**
+> 
+> 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **Definition 5.2.2 (Differentiation Rules)**
+> 
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.3.1 (Monotonicity and Derivative Sign)**
+> 
+> 在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+> **Definition 5.3.2 (Local Extrema)**
+> 
+> 如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+> **Definition 5.3.3 (Method for Finding Extrema)**
+> 
+> 解方程 f'(x) = 0. 当 f'(x0) = 0 时: 若 x < x0 时 f'(x) > 0, x > x0 时 f'(x) < 0, 则 f(x0) 是极大值; 反之是极小值.
+> **Definition 5.3.4 (闭区间上的最大 (小)**
+> 
+> 在闭区间 [a, b] 上连续的函数 f(x) 在 [a, b] 上必有最大值与最小值, 只需比较极值与端点值.
 
 ## Problem 1
 
-(Exercise 2.2, Review and Consolidation, Problem 1) Write the equation of the line satisfying each of the following conditions:
+(Exercise 5.3, Review and Consolidation, Problem 6) Referring to Problem 5, find the maximum and minimum values of the following functions on the given intervals: 
 
-(1) Passing through the point $A\left(8,-2\right)$ with slope $\frac{\sqrt 3}{3}$;
+(1) $f\left(x\right)=6x^{2}+x+2$, $x\in\left[-1,1\right]$;
 
-(2) Passing through the point $B\left(-2,0\right)$ and perpendicular to the $x$-axis;
+(2) $f\left(x\right)=x^{3}-12x$, $x\in\left[-3,3\right]$;
 
-(3) Slope $-4$, and intercept on the $y$-axis $7$;
+(3) $f\left(x\right)=6-12x+x^{3}$, $x\in\left[-\frac{1}{3},1\right]$;
 
-(4) Passing through the two points $A\left(-1,8\right)$, $B\left(4,-2\right)$;
-
-(5) Intercept on the $y$-axis $2$, and parallel to the $x$-axis;
-
-(6) The intercepts on the $x$-axis and $y$-axis are $4,-3$, respectively.
+(4) $f\left(x\right)=48x-x^{3}$, $x\in\left[-3,5\right]$.
 
 ### Solution to Problem 1
 
-(1) By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(8,-2\right)$ and the slope $k=\frac{\sqrt 3}{3}$ gives $y+2=\frac{\sqrt 3}{3}\left(x-8\right)$.
+By **Definition 5.3.4 (Maximum (Minimum)** Value on a Closed Interval).
 
-(2) The line is perpendicular to the $x$-axis, i.e. its inclination angle is $90^\circ$ and it has no slope. By **Definition 2.2.1 (Point-slope Form)**, the line equation is $x=-2$.
+(1) The zero $x=-\frac{1}{12}\in\left[-1,1\right]$. Comparing $f\left(-1\right)=7$, $f\left(-\frac{1}{12}\right)=\frac{47}{24}$, $f\left(1\right)=9$. Maximum $9$, minimum $\frac{47}{24}$.
 
-(3) By **Definition 2.2.2 (Slope-intercept Equation)**, substituting $k=-4$, $b=7$ gives $y=-4x+7$.
+(2) The zeros $x=\pm2\in\left[-3,3\right]$. Comparing $f\left(-3\right)=9$, $f\left(-2\right)=16$, $f\left(2\right)=-16$, $f\left(3\right)=-9$. Maximum $16$, minimum $-16$.
 
-(4) By **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{-2-8}{4-\left(-1\right)}=\frac{-10}{5}=-2$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $A\left(-1,8\right)$ gives $y-8=-2\left(x+1\right)$.
+(3) The zeros are $x=\pm2$, and there is no zero in $\left[-\frac{1}{3},1\right]$ ($f'\left(x\right)< 0$). Comparing $f\left(-\frac{1}{3}\right)=\frac{115}{27}$, $f\left(1\right)=-5$. Maximum $\frac{115}{27}$, minimum $-5$.
 
-(5) The line is parallel to the $x$-axis, i.e. its slope is $0$. The intercept on the $y$-axis is $2$; by **Definition 2.2.2 (Slope-intercept Equation)**, we get $y=2$.
-
-(6) By **Definition 2.2.5 (Intercept Equation)**, substituting $a=4$, $b=-3$ gives $\frac{x}{4}+\frac{y}{-3}=1$. $\blacksquare$
+(4) The zeros are $x=\pm4$; in $\left[-3,5\right]$ the zero is $x=4$. Comparing $f\left(-3\right)=-117$, $f\left(4\right)=128$, $f\left(5\right)=115$. Maximum $128$, minimum $-117$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 2.2, Review and Consolidation, Problem 2) Determine whether the three points $A\left(1,3\right)$, $B\left(5,7\right)$, $C\left(10,12\right)$ are collinear, and explain the reason.
+(Exercise 5.3, Comprehensive Application, Problem 7) A wire of length $l$ is cut into two pieces and bent into two squares respectively. To minimize the sum of the areas of the two squares, what should the lengths of the two pieces be? 
 
 ### Solution to Problem 2
 
-By **Common Conclusion 2.1.3** (Slope Formula), find the slopes of $AB$ and $AC$, respectively.
+Let one piece have length $x$; then the other has length $l-x$. The side lengths of the two squares are $\frac{x}{4}$ and $\frac{l-x}{4}$, and the sum of areas is
 
 $$
-k_{AB}=\frac{7-3}{5-1}=\frac{4}{4}=1,
+S=\left(\frac{x}{4}\right)^{2}+\left(\frac{l-x}{4}\right)^{2}=\frac{x^{2}+\left(l-x\right)^{2}}{16}.
 $$
 
-$$
-k_{AC}=\frac{12-3}{10-1}=\frac{9}{9}=1.
-$$
+Differentiating, $S'=\frac{2x-2\left(l-x\right)}{16}=\frac{2x-l}{8}$. Setting $S'=0$, we get $x=\frac{l}{2}$.
 
-By **Common Conclusion 2.1.5** (Parallelism of Two Lines), $k_{AB}=k_{AC}=1$, and both lines pass through the point $A$, so line $AB$ and line $AC$ coincide; i.e. the three points $A,B,C$ are collinear. $\blacksquare$
+When $x< \frac{l}{2}$, $S'< 0$; when $x> \frac{l}{2}$, $S'> 0$, so $x=\frac{l}{2}$ is the minimum point.
+
+Hence when both pieces have length $\frac{l}{2}$, the sum of the areas of the two squares is minimized. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 2.2, Review and Consolidation, Problem 3) Given the two points $A\left(7,-4\right)$, $B\left(-5,6\right)$, find the equation of the perpendicular bisector of segment $AB$.
+(Exercise 5.3, Comprehensive Application, Problem 8) A square iron sheet of side length $a$ has four small squares of side length $x$ cut from its four corners, and is folded into an open box.
+
+(1) Express the volume $V$ of the box as a function of $x$; 
+
+(2) For what $x$ is the volume $V$ of the box maximized? 
 
 ### Solution to Problem 3
 
-By **Common Conclusion 2.1.3** (Slope Formula), first find the slope and the midpoint of $AB$.
+(1) After cutting off the four corners, the base of the box is a square of side $a-2x$ and the height is $x$, hence
 
 $$
-k_{AB}=\frac{6-\left(-4\right)}{-5-7}=\frac{10}{-12}=-\frac{5}{6}.
+V\left(x\right)=x\left(a-2x\right)^{2},\quad 0< x< \frac{a}{2}.
 $$
 
-By the midpoint coordinate formula, the midpoint of $AB$ is $\left(\frac{7+\left(-5\right)}{2},\frac{-4+6}{2}\right)=\left(1,1\right)$.
+(2) Differentiating, $V'\left(x\right)=\left(a-2x\right)^{2}+x\cdot2\left(a-2x\right)\left(-2\right)=\left(a-2x\right)\left(a-6x\right)$.
 
-The perpendicular bisector is perpendicular to $AB$; by **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), its slope is $k=\frac{6}{5}$.
+Setting $V'\left(x\right)=0$, within $\left(0,\frac{a}{2}\right)$ we get $x=\frac{a}{6}$.
 
-By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $\left(1,1\right)$ and the slope $k=\frac{6}{5}$ gives $y-1=\frac{6}{5}\left(x-1\right)$. Rearranging gives $6x-5y-1=0$. $\blacksquare$
+When $0< x< \frac{a}{6}$, $V'\left(x\right)> 0$; when $\frac{a}{6}< x< \frac{a}{2}$, $V'\left(x\right)< 0$, so $x=\frac{a}{6}$ is the maximum point.
+
+Hence when $x=\frac{a}{6}$, the volume of the box is maximized. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 2.2, Review and Consolidation, Problem 4) Given the three vertices $A\left(8,5\right)$, $B\left(4,-2\right)$, $C\left(-6,3\right)$ of $\triangle ABC$, find the equation of the line through the midpoints of the two sides $AB$ and $AC$.
+(Exercise 5.3, Comprehensive Application, Problem 9) Using a measuring instrument to measure the length of an object, due to the precision of the instrument and the technique of measurement, $n$ measurements yield data $a_{1},a_{2},a_{3},\cdots,a_{n}$. Let the average of these $n$ data be $\overline{x}$, i.e. $\overline{x}=\frac{1}{n}\sum_{i=1}^{n}a_{i}$. Prove that when $x=\overline{x}$, the function $f\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)^{2}$ attains its minimum.
 
 ### Solution to Problem 4
 
-By the midpoint coordinate formula, the midpoint of $AB$ is
+Differentiating $f\left(x\right)$ by **Definition 5.2.2 (Trigonometric Functions)**, 
 
 $$
-M\left(\frac{8+4}{2},\frac{5+\left(-2\right)}{2}\right)=M\left(6,\frac{3}{2}\right),
+f'\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}2\left(a_{i}-x\right)\left(-1\right)=-\frac{2}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)=-\frac{2}{n}\left(\sum_{i=1}^{n}a_{i}-nx\right).
 $$
 
-and the midpoint of $AC$ is
+Setting $f'\left(x\right)=0$, we get $\sum_{i=1}^{n}a_{i}-nx=0$, i.e. $x=\frac{1}{n}\sum_{i=1}^{n}a_{i}=\overline{x}$.
 
-$$
-N\left(\frac{8+\left(-6\right)}{2},\frac{5+3}{2}\right)=N\left(1,4\right).
-$$
+Also $f''\left(x\right)=\frac{2}{n}\cdot n=2> 0$, so $x=\overline{x}$ is a local minimum point, i.e. the global minimum point.
 
-By **Common Conclusion 2.1.3** (Slope Formula), the slope of line $MN$ is
-
-$$
-k_{MN}=\frac{4-\frac{3}{2}}{1-6}=\frac{\frac{5}{2}}{-5}=-\frac{1}{2}.
-$$
-
-By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $N\left(1,4\right)$ and the slope $k=-\frac{1}{2}$ gives $y-4=-\frac{1}{2}\left(x-1\right)$. Rearranging gives $x+2y-9=0$. $\blacksquare$
+Hence when $x=\overline{x}$, $f\left(x\right)$ attains its minimum. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 2.2, Review and Consolidation, Problem 5) A spring, when carrying a $4\,\mathrm{N}$ object, has length $20\,\mathrm{cm}$. Within the elastic limit, for every $1\,\mathrm{N}$ increase in the weight of the hanging object, the spring elongates by $1.5\,\mathrm{cm}$. Write the equation relating the length $l$ of the spring (unit: $\mathrm{cm}$) to the weight $G$ of the hanging object (unit: $\mathrm{N}$).
+(Exercise 5.3, Extension and Exploration, Problem 10) Given that the production cost $C$ of a commodity is related to output $q$ by $C=100+4q$, and the unit price $p$ is related to output $q$ by $p=25-\frac{1}{8}q$. For what output $q$ is the profit maximized? 
 
 ### Solution to Problem 5
 
-By **Definition 2.2.2 (Slope-intercept Equation)**, let $l=kG+b$.
+Profit is revenue minus cost, i.e.
 
-When $G=4$, $l=20$, i.e. $20=4k+b$. For every $1\,\mathrm{N}$ increase in the hanging weight the spring elongates by $1.5\,\mathrm{cm}$, i.e. the slope is $k=1.5=\frac{3}{2}$.
+$$
+L\left(q\right)=pq-C=\left(25-\frac{1}{8}q\right)q-\left(100+4q\right)=-\frac{1}{8}q^{2}+21q-100.
+$$
 
-Substituting $k=\frac{3}{2}$ gives $20=\frac{3}{2}\times4+b=6+b$, so $b=14$.
+Differentiating, $L'\left(q\right)=-\frac{1}{4}q+21$. Setting $L'\left(q\right)=0$, we get $q=84$.
 
-Hence the equation relating the spring length to the object weight is $l=\frac{3}{2}G+14$. $\blacksquare$
+When $q< 84$, $L'\left(q\right)> 0$; when $q> 84$, $L'\left(q\right)< 0$, so $q=84$ is the maximum point.
+
+Hence when output is $q=84$, profit is maximized. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 2.2, Review and Consolidation, Problem 6) The two diagonals of a rhombus lie on the $x$-axis and the $y$-axis, respectively, and their lengths are $8$ and $6$, respectively. Find the equations of the lines on which the sides of the rhombus lie.
+(Exercise 5.3, Extension and Exploration, Problem 11) Given that the wholesale cost of a commodity is $a$ yuan per item; from past experience, when the selling price is $b$ yuan per item ($b\ge\frac{4}{3}a$), $c$ items can be sold. Market research shows that when the selling price drops by $10\%$, sales volume can increase by $40\%$. Now a one-time price reduction is decided; at what selling price is the profit maximized? 
 
 ### Solution to Problem 6
 
-By **Definition 2.2.5 (Intercept Equation)**, the four vertices of the rhombus are $\left(4,0\right)$, $\left(-4,0\right)$, $\left(0,3\right)$, $\left(0,-3\right)$, respectively.
+Let the selling price be $x$ yuan per item. The price drops from $b$ to $x$, a decrease ratio of $\frac{b-x}{b}$. By the problem, for every $10\%$ drop in price, sales increase by $40\%$, so the sales volume is
 
-The four sides connect adjacent vertices, respectively:
+$$
+Q=c\left(1+\frac{0.4}{0.1}\cdot\frac{b-x}{b}\right)=c\left(1+4\cdot\frac{b-x}{b}\right)=c\left(5-\frac{4x}{b}\right).
+$$
 
-(1) The side connecting $\left(4,0\right)$ and $\left(0,3\right)$: by **Definition 2.2.5 (Intercept Form)**, the intercepts are $4$ and $3$, and the equation is $\frac{x}{4}+\frac{y}{3}=1$.
+Profit is profit per item times sales volume, i.e.
 
-(2) The side connecting $\left(-4,0\right)$ and $\left(0,3\right)$: the intercepts are $-4$ and $3$, and the equation is $\frac{x}{-4}+\frac{y}{3}=1$.
+$$
+L\left(x\right)=\left(x-a\right)Q=\left(x-a\right)c\left(5-\frac{4x}{b}\right).
+$$
 
-(3) The side connecting $\left(-4,0\right)$ and $\left(0,-3\right)$: the intercepts are $-4$ and $-3$, and the equation is $\frac{x}{-4}+\frac{y}{-3}=1$.
+Differentiating, $L'\left(x\right)=c\left(5-\frac{4x}{b}\right)+\left(x-a\right)c\left(-\frac{4}{b}\right)=c\left(5-\frac{8x}{b}+\frac{4a}{b}\right)$.
 
-(4) The side connecting $\left(4,0\right)$ and $\left(0,-3\right)$: the intercepts are $4$ and $-3$, and the equation is $\frac{x}{4}+\frac{y}{-3}=1$. $\blacksquare$
+Setting $L'\left(x\right)=0$, we get $5-\frac{8x}{b}+\frac{4a}{b}=0$, which gives $x=\frac{5b+4a}{8}$.
+
+This point is the maximum point. Hence when the selling price is $x=\frac{5b+4a}{8}$ yuan per item, profit is maximized. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 2.2, Review and Consolidation, Problem 7) Find the equation of the line through the point $P\left(2,3\right)$ whose intercepts on the two coordinate axes are equal.
+(Exercise 5.3, Extension and Exploration, Problem 12) Using the monotonicity of functions, prove the following inequalities and verify them visually with graphs: 
+
+(1) $\mathrm e^{x}> 1+x$, $x\neq0$;
+
+(2) $\ln x< x< \mathrm e^{x}$, $x> 0$.
+
+The figure shows four curves in one coordinate system: the line $y=1+x$, the exponential curve $y=\mathrm e^{x}$ (always above $y=1+x$, tangent to it only at $x=0$), the logarithmic curve $y=\ln x$, and the line $y=x$ (with $y=\ln x$ always below $y=x$), visually illustrating $\mathrm e^{x}> 1+x$ and $\ln x< x< \mathrm e^{x}$.
 
 ### Solution to Problem 7
 
-By **Definition 2.2.5 (Intercept Equation)**, let the intercepts of the line on the $x$-axis and $y$-axis be $a,b$, respectively, with $a=b$.
+(1) Let $s\left(x\right)=\mathrm e^{x}-1-x$; then $s'\left(x\right)=\mathrm e^{x}-1$. When $x> 0$, $s'\left(x\right)> 0$; when $x< 0$, $s'\left(x\right)< 0$. Hence $x=0$ is the minimum point, with minimum $s\left(0\right)=0$. Therefore when $x\neq0$, $s\left(x\right)> 0$, i.e. $\mathrm e^{x}> 1+x$.
 
-(a) When $a=b\ne0$, the intercept form is $\frac{x}{a}+\frac{y}{a}=1$, i.e. $x+y=a$. The line passes through the point $P\left(2,3\right)$; substituting gives $2+3=a$, so $a=5$. The equation is $x+y=5$, i.e. $x+y-5=0$.
+(2) First prove $\ln x< x$. Let $s\left(x\right)=x-\ln x$; then $s'\left(x\right)=1-\frac{1}{x}$. Setting $s'\left(x\right)=0$, we get $x=1$, with minimum $s\left(1\right)=1> 0$. Hence $\ln x< x$.
 
-(b) When $a=b=0$, the line passes through the origin, and the intercept form does not apply. By **Definition 2.2.1 (Point-slope Equation)**, let the line pass through the origin $\left(0,0\right)$ and $P\left(2,3\right)$; by **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{3-0}{2-0}=\frac{3}{2}$. The equation is $y=\frac{3}{2}x$, i.e. $3x-2y=0$.
+Next prove $x< \mathrm e^{x}$. From (1), when $x> 0$, $\mathrm e^{x}> 1+x> x$. Hence $x< \mathrm e^{x}$.
 
-Hence the equations of the desired lines are $x+y-5=0$ or $3x-2y=0$. $\blacksquare$
+In summary, $\ln x< x< \mathrm e^{x}$, $x> 0$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 2.2, Review and Consolidation, Problem 8) Find the equation of the line satisfying each of the following conditions:
+(Exercise 5.3, Extension and Exploration, Problem 13) Using an information technology tool, with given values of $a,b,c,d$, one can draw the graph of $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ ($a\neq0$). When $a=-4,b=1,c=5,d=-1$, the graph of $f\left(x\right)$ is as shown. Change the values of $a,b,c,d$ and observe the shape of the graph: 
 
-(1) Passing through the point $A\left(3,2\right)$ and parallel to the line $4x+y-2=0$;
+(1) Can you summarize the approximate shape of the graph of $f\left(x\right)$? What are its features? Can you roughly estimate its monotonic intervals from the graph? 
 
-(2) Passing through the point $C\left(2,-3\right)$ and parallel to the line through the two points $M\left(1,2\right)$ and $N\left(-1,-5\right)$;
+(2) Use derivatives to study its monotonicity and find the corresponding monotonic intervals.
 
-(3) Passing through the point $B\left(3,0\right)$ and perpendicular to the line $2x+y-5=0$.
+The figure is the graph of the cubic $f\left(x\right)=-4x^{3}+x^{2}+5x-1$ ($a=-4,b=1,c=5,d=-1$): an "S"-shaped curve with left end rising and right end falling, having one local maximum and one local minimum, with monotonic intervals alternating between the two.
 
 ### Solution to Problem 8
 
-(1) The line $4x+y-2=0$ is $y=-4x+2$, with slope $-4$. By **Common Conclusion 2.1.5** (Parallelism of Two Lines), the desired line also has slope $-4$. By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(3,2\right)$ gives $y-2=-4\left(x-3\right)$, i.e. $4x+y-14=0$.
+(1) The graph of the cubic function $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ is an " $\mathrm S$ "-shaped curve. When $a> 0$, the left end goes down and the right end goes up; when $a< 0$, the left end goes up and the right end goes down. The graph generally has one local maximum point and one local minimum point, with monotonic intervals alternating between the two points.
 
-(2) By **Common Conclusion 2.1.3** (Slope Formula), $k_{MN}=\frac{-5-2}{-1-1}=\frac{-7}{-2}=\frac{7}{2}$. By **Common Conclusion 2.1.5**, the desired line also has slope $\frac{7}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $C\left(2,-3\right)$ gives $y+3=\frac{7}{2}\left(x-2\right)$, i.e. $7x-2y-20=0$.
+(2) Differentiating $f\left(x\right)=ax^{3}+bx^{2}+cx+d$, we get
 
-(3) The line $2x+y-5=0$ is $y=-2x+5$, with slope $-2$. By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), the desired line has slope $\frac{1}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $B\left(3,0\right)$ gives $y=\frac{1}{2}\left(x-3\right)$, i.e. $x-2y-3=0$. $\blacksquare$
+$$
+f'\left(x\right)=3ax^{2}+2bx+c.
+$$
+
+When $a=-4,b=1,c=5$, $f'\left(x\right)=-12x^{2}+2x+5$. Setting $f'\left(x\right)=0$, i.e. $12x^{2}-2x-5=0$, we get $x=\frac{2\pm\sqrt{4+240}}{24}=\frac{2\pm\sqrt{244}}{24}=\frac{1\pm\sqrt{61}}{12}$.
+
+When $f'\left(x\right)> 0$ the function is increasing; when $f'\left(x\right)< 0$ it is decreasing. Since $a=-12< 0$, $f'\left(x\right)> 0$ between the two roots and $f'\left(x\right)< 0$ outside them.
+
+Hence $f\left(x\right)$ is decreasing on $\left(-\infty,\frac{1-\sqrt{61}}{12}\right)$ and $\left(\frac{1+\sqrt{61}}{12},+\infty\right)$, and increasing on $\left(\frac{1-\sqrt{61}}{12},\frac{1+\sqrt{61}}{12}\right)$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 2.2, Comprehensive Application, Problem 9) The three vertices of $\triangle ABC$ are $A\left(4,0\right)$, $B\left(6,7\right)$, $C\left(0,3\right)$. Find:
+(Review Reference Problem 4, Review and Consolidation, Problem 1) Based on the general term formulas of the following sequences, sketch their graphs respectively
 
-(1) The equation of the line on which the median to side $BC$ lies;
+(1) $a_n=-\frac{n}{4}$;
 
-(2) The equation of the line on which the altitude to side $BC$ lies;
+(2) $b_n=\frac{2n}{3}$;
 
-(3) The equation of the perpendicular bisector of side $BC$.
+(3) $c_n=\frac{2n+1}{n}$;
+
+(4) $d_n=\frac{\left(-1\right)^n}{n}$.
+
+The figure shows four scatter plots of sequences (horizontal axis the index $n$, vertical axis the corresponding term): (1) $a_n=-\frac{n}{4}$, points on the line $y=-\frac{x}{4}$, decreasing; (2) $b_n=\frac{2n}{3}$, points on the line $y=\frac{2x}{3}$, increasing; (3) $c_n=2+\frac{1}{n}$, points decreasing from $3$ toward $2$; (4) $d_n=\frac{\left(-1\right)^n}{n}$, points alternating in sign with absolute values decreasing toward $0$.
 
 ### Solution to Problem 9
 
-By **Common Conclusion 2.1.3** (Slope Formula), first find the slope and the midpoint of $BC$.
+By **Definition 4.1.5 (General Term Formula)**, the first few terms of each sequence are:
+
+(1) $a_n=-\frac{n}{4}$: $-\frac{1}{4},-\frac{1}{2},-\frac{3}{4},-1,\cdots$; the graph consists of points on the line $y=-\frac{x}{4}$, decreasing.
+
+(2) $b_n=\frac{2n}{3}$: $\frac{2}{3},\frac{4}{3},2,\frac{8}{3},\cdots$; the graph consists of points on the line $y=\frac{2x}{3}$, increasing.
+
+(3) $c_n=\frac{2n+1}{n}=2+\frac{1}{n}$: $3,\frac{5}{2},\frac{7}{3},\frac{9}{4},\cdots$; the graph decreases from $3$ and approaches $2$.
+
+(4) $d_n=\frac{\left(-1\right)^n}{n}$: $-1,\frac{1}{2},-\frac{1}{3},\frac{1}{4},\cdots$; the graph alternates in sign, with absolute values decreasing toward $0$.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Review and Consolidation, Problem 2) Based on the first $4$ terms of each sequence below, write a general term formula
+
+(1) $\frac{1}{2},\frac{3}{4},\frac{5}{8},\frac{7}{16},\cdots$;
+
+(2) $1+\frac{1}{2^2},1-\frac{3}{4^2},1+\frac{5}{6^2},1-\frac{7}{8^2},\cdots$;
+
+(3) $0,\sqrt{2},0,\sqrt{2},\cdots$.
+
+### Solution to Problem 9
+
+(1) By **Definition 4.1.5 (General Term Formula)**, the numerators are $1,3,5,7$ and the denominators are $2,4,8,16$, hence
 
 $$
-k_{BC}=\frac{3-7}{0-6}=\frac{-4}{-6}=\frac{2}{3}.
+a_n=\frac{2n-1}{2^n}.
 $$
 
-The midpoint of $BC$ is $D\left(\frac{6+0}{2},\frac{7+3}{2}\right)=D\left(3,5\right)$.
+$\blacksquare$
 
-(1) The median to side $BC$ is the line $AD$. By **Common Conclusion 2.1.3**, $k_{AD}=\frac{5-0}{3-4}=\frac{5}{-1}=-5$. By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(4,0\right)$ gives $y=-5\left(x-4\right)$, i.e. $5x+y-20=0$.
+(2) By **Definition 4.1.5 (General Term Formula)**, the signs alternate, the numerators are $1,3,5,7$, and the denominators are $2^2,4^2,6^2,8^2$, hence
 
-(2) The altitude to side $BC$ passes through the point $A$ and is perpendicular to $BC$. By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), the slope of the line on which the altitude lies is $-\frac{3}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $A\left(4,0\right)$ gives $y=-\frac{3}{2}\left(x-4\right)$, i.e. $3x+2y-12=0$.
+$$
+a_n=1+\left(-1\right)^{n+1}\frac{2n-1}{\left(2n\right)^2}.
+$$
 
-(3) The perpendicular bisector of side $BC$ passes through the midpoint $D\left(3,5\right)$ and is perpendicular to $BC$. By **Common Conclusion 2.1.6**, its slope is $-\frac{3}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $D\left(3,5\right)$ gives $y-5=-\frac{3}{2}\left(x-3\right)$, i.e. $3x+2y-19=0$. $\blacksquare$
+$\blacksquare$
+
+(3) By **Definition 4.1.5 (General Term Formula)**, $0,\sqrt{2},0,\sqrt{2}$ alternate, hence
+
+$$
+a_n=\frac{\sqrt{2}}{2}\left[1-\left(-1\right)^n\right].
+$$
+
+$\blacksquare$
+
+(Review Reference Problem 4, Review and Consolidation, Problem 3) Multiple choice
+
+(1) There are many ways to predict population trends. The formula used by the "direct projection method" is $P_n=P_0\left(1+k\right)^n$ ($k> -1$), where $P_n$ is the projected population, $P_0$ the initial population, $k$ the annual population growth rate during the projection period, and $n$ the number of years. If during a certain period $k\in\left(-1,0\right)$, then during this period the population ( ).
+
+(A) shows an upward trend
+
+(B) shows a downward trend
+
+(C) oscillates
+
+(D) remains unchanged
+
+(2) The Rhind papyrus is one of the oldest mathematical works in the world. It contains the following problem: divide $100$ loaves of bread among $5$ people so that the number of loaves each person receives forms an arithmetic sequence, and so that $\frac{1}{7}$ of the sum of the three larger shares equals the sum of the two smaller shares. Then the smallest share is ( ).
+
+(A) $\frac{5}{3}$
+
+(B) $\frac{10}{3}$
+
+(C) $\frac{5}{6}$
+
+(D) $\frac{11}{6}$
+
+(3) The figure shows a pattern constructed by the Swedish mathematician Koch in $1904$ that describes the shape of a snowflake. Let the side length of the original equilateral triangle be $1$, and let the perimeters of the figures in the diagram be denoted in order by $C_1,C_2,C_3,C_4$. Then $C_4=$ ( ).
+
+(A) $\frac{128}{9}$
+
+(B) $\frac{64}{9}$
+
+(C) $\frac{64}{27}$
+
+(D) $\frac{128}{27}$
+
+The figure shows the first four iterations of the Koch snowflake curve: $C_1$ is an equilateral triangle of side $1$; $C_2,C_3,C_4$ are obtained successively by raising a small equilateral triangle outward on the middle third of each side, giving a snowflake-like shape whose number of sides multiplies by $\frac{4}{3}$ at each step.
+
+### Solution to Problem 9
+
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $P_n=P_0\left(1+k\right)^n$. When $k\in\left(-1,0\right)$, $0< 1+k< 1$, so $P_n$ decreases. Choose (B).
+
+$\blacksquare$
+
+(2) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the five people receive $a-2d,a-d,a,a+d,a+2d$.
+
+$$
+5a=100,\ a=20.
+$$
+
+The sum of the three larger shares $=\left(a\right)+\left(a+d\right)+\left(a+2d\right)=3a+3d$; the sum of the two smaller shares $=\left(a-2d\right)+\left(a-d\right)=2a-3d$.
+
+$$
+\frac{1}{7}\left(3a+3d\right)=2a-3d,\ 3a+3d=14a-21d,\ 24d=11a=220,\ d=\frac{55}{6}.
+$$
+
+The smallest share $a-2d=20-\frac{110}{6}=\frac{10}{6}=\frac{5}{3}$. Choose (A).
+
+$\blacksquare$
+
+(3) By **Definition 4.3.1 (Geometric Sequence)**, after each operation the number of sides is multiplied by $\frac{4}{3}$, and the perimeter is also multiplied by $\frac{4}{3}$.
+
+$C_1=3$, $C_4=3\times\left(\frac{4}{3}\right)^3=\frac{64}{9}$. Choose (B).
+
+$\blacksquare$
+
+(Review Reference Problem 4, Review and Consolidation, Problem 4) Fill in the blanks
+
+(1) Given $a=5+2\sqrt{6}$, $c=5-2\sqrt{6}$. If $a,b,c$ form an arithmetic sequence, then $b=$ $\;\_\_\;$; if $a,b,c$ form a geometric sequence, then $b=$ $\;\_\_\;$.
+
+(2) The ancient Chinese mathematical work Suan Tong Zong contains the following problem: "From afar stands a towering seven-story pagoda; each point of red light doubles in number; in total there are three hundred eighty-one lamps; tell me, how many lamps are on the top spire?" The meaning is: a $7$-story pagoda has $381$ lamps hanging in total, and the number of lamps on each lower story is $2$ times the number on the story above. Then the top story has $\;\_\_\;$ lamps.
+
+### Solution to Problem 9
+
+(1) By **Definition 4.2.2 (Arithmetic Mean)**, $b=\frac{a+c}{2}=\frac{10}{2}=5$.
+
+By **Definition 4.3.2 (Geometric Mean)**, $b^2=ac=\left(5+2\sqrt{6}\right)\left(5-2\sqrt{6}\right)=25-24=1$, so $b=\pm 1$.
+
+$\blacksquare$
+
+(2) By **Definition 4.3.1 (Geometric Sequence)**, the number of lamps on each story forms a geometric sequence with first term $a_1$ (top story), common ratio $2$, and $7$ terms.
+
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
+
+$$
+S_7=\frac{a_1\left(1-2^7\right)}{1-2}=127a_1=381,\ a_1=3.
+$$
+
+The top story has $3$ lamps.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Review and Consolidation, Problem 5) An educational website has $2000$ users this month. After the site is redesigned, the average monthly number of users is expected to increase by $30\%$ over the previous month. Starting from this month, approximately how many months will it take for the number of users to reach $1$ ten thousand (rounded to $1$)?
+
+### Solution to Problem 9
+
+By **Definition 4.3.1 (Geometric Sequence)**, the number of users forms a geometric sequence with first term $2000$ and common ratio $1.3$.
+
+$$
+2000\times 1.3^n\ge 10000,\ 1.3^n\ge 5,\ n\ge\log_{1.3}5\approx 6.8.
+$$
+
+Approximately $7$ months.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Review and Consolidation, Problem 6) A fundraising group from a middle school went onto the streets during summer vacation and raised a total of $1200$ yuan. On the $1$st day they received only $10$ yuan; afterwards they took active measures, and starting from the $2$nd day, the amount raised each day was $10$ yuan more than the previous day. How many days did this fundraising drive last?
+
+### Solution to Problem 9
+
+By **Definition 4.2.1 (Arithmetic Sequence)**, the daily donations form an arithmetic sequence with first term $10$ and common difference $10$.
+
+By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+
+$$
+S_n=10n+\frac{n\left(n-1\right)}{2}\times 10=5n^2+5n=1200.
+$$
+
+$$
+n^2+n-240=0,\ n=15.
+$$
+
+It lasted $15$ days.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Review and Consolidation, Problem 7) A student worked part-time at a department store for a period during summer vacation (no more than $20$ days). The store offered three payment plans: the first, $85$ yuan per day; the second, $65$ yuan on the $1$st day, and starting from the $2$nd day, $2$ yuan more each day than the previous day; the third, $40$ yuan on the $1$st day, and starting from the $2$nd day, the amount each day is $1.1$ times the previous day. Which plan do you think is more advantageous for him?
+
+### Solution to Problem 9
+
+Let him work $n$ days ($n\le 20$).
+
+Plan 1: $85n$ yuan.
+
+Plan 2: by **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $65n+\frac{n\left(n-1\right)}{2}\times 2=n^2+64n$ yuan.
+
+Plan 3: by **Theorem 4.3.5 (Sum of the First $n$ Terms)**, $\frac{40\left(1.1^n-1\right)}{1.1-1}=400\left(1.1^n-1\right)$ yuan.
+
+Comparing: Plan 2 $-$ Plan 1 $=n^2+64n-85n=n\left(n-21\right)< 0$ ($n< 21$); Plan 1 is always better than Plan 2.
+
+Comparing Plan 3 with Plan 1: $400\left(1.1^n-1\right)$ versus $85n$.
+
+$n=10$: Plan 3 $=400\left(2.594-1\right)=637.6$, Plan 1 $=850$; Plan 1 better.
+
+$n=15$: Plan 3 $=400\left(4.177-1\right)=1270.8$, Plan 1 $=1275$; close.
+
+$n=16$: Plan 3 $=400\left(4.595-1\right)=1438$, Plan 1 $=1360$; Plan 3 better.
+
+Hence for $n\le 15$ choose Plan 1, and for $n\ge 16$ choose Plan 3.
+
+$\blacksquare$
 
 ## Problem 10
 
-(Exercise 2.2, Comprehensive Application, Problem 10) Find the relations that the coefficients $A,B,C$ of the line $Ax+By+C=0$ ($A,B$ not both $0$) must satisfy for this line to have each of the following properties:
+(Review Reference Problem 4, Comprehensive Application, Problem 8) The nonzero real numbers $a,b,c$ are not all equal.
 
-(1) Intersecting both coordinate axes;
+(1) If $a,b,c$ form an arithmetic sequence, can $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ form an arithmetic sequence? Can you explain this with a graph?
 
-(2) Intersecting only the $x$-axis;
-
-(3) Intersecting only the $y$-axis;
-
-(4) Being the line on which the $x$-axis lies;
-
-(5) Being the line on which the $y$-axis lies.
+(2) If $a,b,c$ form a geometric sequence, can $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ form a geometric sequence? Why?
 
 ### Solution to Problem 10
 
-By **Definition 2.2.6 (General Equation)**, when $B\ne0$ the line has slope $-\frac{A}{B}$; when $B=0$ the line is perpendicular to the $x$-axis.
+(1) By **Definition 4.2.1 (Arithmetic Sequence)**, $2b=a+c$.
 
-(1) Intersecting both coordinate axes means the line is neither parallel to the $x$-axis nor parallel to the $y$-axis, i.e. the slope exists and is not $0$. Hence $A\ne0$ and $B\ne0$.
+If $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ formed an arithmetic sequence, then $\frac{2}{b}=\frac{1}{a}+\frac{1}{c}=\frac{a+c}{ac}=\frac{2b}{ac}$.
 
-(2) Intersecting only the $x$-axis means the line is parallel to the $y$-axis, i.e. $B=0$ and $A\ne0$.
+Then $b^2=ac$. Also $2b=a+c$, so $\left(\frac{a+c}{2}\right)^2=ac$, i.e. $\left(a-c\right)^2=0$, hence $a=c$, and thus $a=b=c$, contradicting that they are not all equal.
 
-(3) Intersecting only the $y$-axis means the line is parallel to the $x$-axis, i.e. $A=0$ and $B\ne0$.
+Hence $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ cannot form an arithmetic sequence.
 
-(4) Being the line on which the $x$-axis lies means $y=0$, hence $A=0$, $B\ne0$, $C=0$.
+$\blacksquare$
 
-(5) Being the line on which the $y$-axis lies means $x=0$, hence $B=0$, $A\ne0$, $C=0$. $\blacksquare$
-
-## Problem 11
-
-(Exercise 2.2, Comprehensive Application, Problem 11) Let the point $P_0\left(x_0,y_0\right)$ lie on the line $Ax+By+C=0$. Prove that the equation of this line can also be written as $A\left(x-x_0\right)+B\left(y-y_0\right)=0$.
-
-### Solution to Problem 11
-
-By **Definition 2.2.6 (General Equation)**, the line equation is $Ax+By+C=0$.
-
-Because the point $P_0\left(x_0,y_0\right)$ lies on the line, we have $Ax_0+By_0+C=0$, i.e. $C=-Ax_0-By_0$.
-
-Substituting $C=-Ax_0-By_0$ into the original equation gives $Ax+By-Ax_0-By_0=0$, i.e. $A\left(x-x_0\right)+B\left(y-y_0\right)=0$. Hence the proposition is proved. $\blacksquare$
-
-## Problem 12
-
-(Exercise 2.2, Extension and Exploration, Problem 12) If the line $l$ is translated $3$ units to the left along the $x$-axis and then $1$ unit up along the $y$-axis, it returns to its original position. Find the slope of line $l$.
-
-### Solution to Problem 12
-
-By **Definition 2.2.2 (Slope-intercept Equation)**, let the equation of line $l$ be $y=kx+b$.
-
-Translating the line $3$ units to the left along the $x$-axis, i.e. replacing $x$ by $x+3$, gives $y=k\left(x+3\right)+b$. Then translating it $1$ unit up along the $y$-axis, i.e. replacing $y$ by $y-1$, gives $y-1=k\left(x+3\right)+b$, i.e. $y=kx+3k+b+1$.
-
-After translation it coincides with the original line, so $3k+b+1=b$, i.e. $3k+1=0$, hence $k=-\frac{1}{3}$. $\blacksquare$
-
-## Problem 13
-
-(Exercise 2.2, Extension and Exploration, Problem 13) A ray of light is emitted from the point $P\left(6,4\right)$, intersects the $x$-axis at the point $Q\left(2,0\right)$, and reflects off the $x$-axis. Find the equations of the lines on which the incident ray and the reflected ray lie.
-
-### Solution to Problem 13
-
-The incident ray passes through the points $P\left(6,4\right)$ and $Q\left(2,0\right)$. By **Common Conclusion 2.1.3** (Slope Formula),
+(2) By **Definition 4.3.1 (Geometric Sequence)**, $b^2=ac$.
 
 $$
-k_{PQ}=\frac{0-4}{2-6}=\frac{-4}{-4}=1.
+\frac{1}{b^2}=\frac{1}{ac}=\frac{1}{a}\cdot\frac{1}{c}.
 $$
 
-By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $Q\left(2,0\right)$ gives the incident ray equation $y=x-2$, i.e. $x-y-2=0$.
+By **Definition 4.3.2 (Geometric Mean)**, $\frac{1}{b}$ is the geometric mean of $\frac{1}{a}$ and $\frac{1}{c}$, so $\frac{1}{a},\frac{1}{b},\frac{1}{c}$ form a geometric sequence.
 
-By the law of reflection, the reflected ray and the incident ray are symmetric about the $x$-axis. The point symmetric to $P\left(6,4\right)$ about the $x$-axis is $P'\left(6,-4\right)$. The reflected ray passes through the points $P'\left(6,-4\right)$ and $Q\left(2,0\right)$. By **Common Conclusion 2.1.3**,
+$\blacksquare$
 
-$$
-k_{P'Q}=\frac{0-\left(-4\right)}{2-6}=\frac{4}{-4}=-1.
-$$
+(Review Reference Problem 4, Comprehensive Application, Problem 9) To prepare for Xiao Ming's future college tuition, his parents deposited $10000$ yuan in a bank on New Year's Day $2017$, and on each subsequent New Year's Day deposited another $1200$ yuan in the same bank, until the last deposit was made in $2022$. If the bank's annual interest rate is $2.75\%$ with compound interest, then when Xiao Ming's parents withdraw all deposits with interest on New Year's Day $2023$, how much money will they receive?
 
-By **Definition 2.2.1 (Point-slope Form)**, substituting the point $Q\left(2,0\right)$ gives the reflected ray equation $y=-\left(x-2\right)$, i.e. $x+y-2=0$. $\blacksquare$
+### Solution to Problem 10
 
-## Problem 14
+By **Definition 4.3.1 (Geometric Sequence)**, the accumulated principal and interest of each deposit by $2023$ forms a geometric sequence.
 
-(Exercise 2.2, Extension and Exploration, Problem 14) Given that the equations of the lines $l_1,l_2$ are $l_1:A_1x+B_1y+C_1=0$ ($A_1,B_1$ not both $0$) and $l_2:A_2x+B_2y+C_2=0$ ($A_2,B_2$ not both $0$), respectively, and that $A_1A_2+B_1B_2=0$, prove that $l_1\perp l_2$.
+The $10000$ yuan deposited in $2017$ becomes, by $2023$: $10000\times 1.0275^6$.
 
-### Solution to Problem 14
+The $1200$ yuan deposited each year from $2018$ to $2022$ becomes, by $2023$: $1200\times 1.0275^5,1200\times 1.0275^4,\cdots,1200\times 1.0275^0$.
 
-By **Definition 2.2.6 (General Equation)**, when $B_1\ne0$, the slope of $l_1$ is $k_1=-\frac{A_1}{B_1}$; when $B_2\ne0$, the slope of $l_2$ is $k_2=-\frac{A_2}{B_2}$.
-
-(a) When $B_1\ne0$ and $B_2\ne0$, the product of the two slopes is
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, the accumulated principal and interest of the subsequent deposits is
 
 $$
-k_1k_2=\left(-\frac{A_1}{B_1}\right)\left(-\frac{A_2}{B_2}\right)=\frac{A_1A_2}{B_1B_2}.
+1200\times\frac{1.0275^6-1}{1.0275-1}=1200\times\frac{1.0275^6-1}{0.0275}.
 $$
 
-From $A_1A_2+B_1B_2=0$, we get $A_1A_2=-B_1B_2$, so $k_1k_2=\frac{-B_1B_2}{B_1B_2}=-1$. By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $l_1\perp l_2$.
+Total amount $=10000\times 1.0275^6+1200\times\frac{1.0275^6-1}{0.0275}$.
 
-(b) When $B_1=0$, then $A_1\ne0$; from $A_1A_2+B_1B_2=0$ we get $A_1A_2=0$, hence $A_2=0$. Also $A_2,B_2$ are not both $0$, so $B_2\ne0$. In this case the equation of $l_1$ is $A_1x+C_1=0$, i.e. $x=-\frac{C_1}{A_1}$, perpendicular to the $x$-axis; the equation of $l_2$ is $B_2y+C_2=0$, i.e. $y=-\frac{C_2}{B_2}$, parallel to the $x$-axis. Hence $l_1\perp l_2$.
+$1.0275^6\approx 1.1769$, total amount $\approx 11769+1200\times\frac{0.1769}{0.0275}\approx 11769+7721=19490$ yuan.
 
-(c) When $B_2=0$, by the same reasoning we get $A_1=0$; $l_1$ is parallel to the $x$-axis while $l_2$ is perpendicular to the $x$-axis, so $l_1\perp l_2$.
+$\blacksquare$
 
-In summary, $l_1\perp l_2$. $\blacksquare$
+(Review Reference Problem 4, Comprehensive Application, Problem 10) Take any positive integer; if it is odd, multiply it by $3$ and add $1$; if it is even, divide it by $2$. Repeating these two operations, after finitely many steps one must enter the cycle $1\to 4\to 2\to 1$. This is the famous "hailstone conjecture" in the history of mathematics. The recurrence relation of the hailstone conjecture is given as follows: the sequence $\left\{a_n\right\}$ satisfies $a_1=m$ ($m$ a positive integer), $a_{n+1}=\begin{cases}\frac{a_n}{2}, & a_n\text{ 为偶数},\\ 3a_n+1, & a_n\text{ 为奇数}.\end{cases}$
 
-## Problem 15
+(1) When $m=17$, determine how many steps are needed to make $a_n=1$;
 
-(Exercise 2.2, Extension and Exploration, Problem 15) Draw the line $l:2x-y+3=0$, take several points outside the line $l$, substitute the coordinates of these points into $2x-y+3$, and compute its value; observe what pattern appears and express it.
+(2) If $a_8=1$, find the set $M$ of all possible values of $m$.
 
-The figure plots the line $l:2x-y+3=0$ (i.e. $y=2x+3$, slope $2$, $y$-intercept $3$) in the rectangular coordinate system, and takes points $P_1\left(0,0\right)$ and $P_2\left(-3,0\right)$ on the two sides of the line, respectively.
+### Solution to Problem 10
 
-### Solution to Problem 15
+(1) By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
 
-By **Definition 2.2.6 (General Equation)**, the equation of line $l$ is $2x-y+3=0$.
+$17\to 52\to 26\to 13\to 40\to 20\to 10\to 5\to 16\to 8\to 4\to 2\to 1$.
 
-For points on line $l$, the value obtained by substituting their coordinates into $2x-y+3$ is $0$. For points outside line $l$, the value obtained by substituting into $2x-y+3$ is not $0$.
+A total of $12$ steps.
 
-Take the point $P_1\left(0,0\right)$; substituting gives $2\cdot0-0+3=3> 0$. Take the point $P_2\left(-3,0\right)$; substituting gives $2\cdot\left(-3\right)-0+3=-3< 0$.
+$\blacksquare$
 
-Observed pattern: for points on the same side of line $l$, the value obtained by substituting into $2x-y+3$ has the same sign; for points on the two sides of line $l$, the values obtained have opposite signs. That is, the sign of the value of the linear expression $2x-y+3$ characterizes which side of the line a point lies on. $\blacksquare$
+(2) Work backwards: $a_8=1$.
 
-### Inquiry and Discovery 1
+$a_7=2$ (since $1\times 2=2$, and odd $1$ does not satisfy $3a_7+1=1$).
 
-(Inquiry and Discovery: Direction Vectors and Parametric Equations of a Line) As shown in Figure 1, let line $l$ pass through the point $P_0\left(x_0,y_0\right)$, let $\boldsymbol{v}=\left(m,n\right)$ be one of its direction vectors, and let $P\left(x,y\right)$ be any point on line $l$; then $\boldsymbol{P_0P}$ and $\boldsymbol{v}$ are collinear. By the necessary and sufficient condition for collinear vectors, there exists a unique real number $t$ such that $\boldsymbol{P_0P}=t\boldsymbol{v}$, i.e. $\left(x-x_0,y-y_0\right)=t\left(m,n\right)$, so
+$a_6=4$ (or $a_6=0$, discarded).
+
+$a_5=8$ (or $a_5=1$, but $1$ does not satisfy the odd operation).
+
+$a_4=16$ (or $a_4=\frac{1-1}{3}=0$, discarded).
+
+$a_3=32$ (or $a_3=\frac{16-1}{3}=5$).
+
+$a_2$: working backwards from $32$: $64$ or $\frac{31}{3}$ (discarded); from $5$: $10$ or $\frac{4}{3}$ (discarded). Hence $a_2=64$ or $10$.
+
+$a_1$: working backwards from $64$: $128$ or $21$; from $10$: $20$ or $3$.
+
+Hence $M=\left\{3,20,21,128\right\}$.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Comprehensive Application, Problem 11) Given that the sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n$, and $S_4=4S_2$, $a_{2n}=2a_n+1$ ($n\in\mathbb N^*$).
+
+(1) Find the general term formula of $\left\{a_n\right\}$;
+
+(2) If $b_n=3^{n-1}$, let $c_n=a_n b_n$. Find the sum $T_n$ of the first $n$ terms of $\left\{c_n\right\}$.
+
+### Solution to Problem 10
+
+(1) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $S_4=4a_1+6d$, $S_2=2a_1+d$.
+
+$4a_1+6d=4\left(2a_1+d\right)$, so $2a_1=d$.
+
+From $a_{2n}=2a_n+1$, $a_1+\left(2n-1\right)d=2\left[a_1+\left(n-1\right)d\right]+1$.
+
+$a_1+\left(2n-1\right)d=2a_1+2\left(n-1\right)d+1$, so $d-a_1=1$.
+
+Substituting $d=2a_1$, we get $a_1=1$, $d=2$.
 
 $$
-\begin{cases}x=x_0+mt,\\y=y_0+nt.\end{cases}
+a_n=1+2\left(n-1\right)=2n-1.
 $$
 
-From the kinematic point of view, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t> 0$) can be regarded as the displacement of a particle $P$ starting from the point $P_0$, moving in uniform linear motion with velocity $\boldsymbol{v}=\left(m,n\right)$, after time $t$. Can you describe the ray $P_0N$? From the above discussion, can you state the kinematic meaning of equation ①?
+$\blacksquare$
 
-The figure plots, in the rectangular coordinate system, the line $l$ through the point $P_0\left(x_0,y_0\right)$ and marks the direction vector $\boldsymbol{v}=\left(m,n\right)$: the point $P\left(x,y\right)$ lies on the line, and the vector $\boldsymbol{P_0P}$ is collinear with $\boldsymbol{v}$ in the same direction; extending from $P_0$ in the opposite direction $-\boldsymbol{v}$ gives the ray $P_0N$.
+(2) $c_n=\left(2n-1\right)3^{n-1}$.
 
-### Solution to Inquiry and Discovery 1
+$$
+T_n=1+3\times 3+5\times 3^2+\cdots+\left(2n-1\right)3^{n-1}.
+$$
 
-By **Common Conclusion 2.1.4** (Direction Vector and Slope), when the direction vector of a line is $\boldsymbol{v}=\left(m,n\right)$, the slope of the line is $k=\frac{n}{m}$.
+$$
+3T_n=1\times 3+3\times 3^2+\cdots+\left(2n-3\right)3^{n-1}+\left(2n-1\right)3^n.
+$$
 
-The ray $P_0N$ extends from the point $P_0$ along the direction $-\boldsymbol{v}$, i.e. in the parametric equation one sets $t\le0$ to obtain the ray $P_0N$.
+Subtracting the two equations,
 
-The kinematic meaning of the equation $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ is: a particle $P$ starts from the point $P_0\left(x_0,y_0\right)$, moves in uniform linear motion with velocity vector $\boldsymbol{v}=\left(m,n\right)$, and after time $t$ reaches the point $\left(x,y\right)$. When $t> 0$, the particle moves in the $\boldsymbol{v}$ direction; when $t< 0$, the particle moves in the $-\boldsymbol{v}$ direction; the absolute value of $t$ represents the time of motion. $\blacksquare$
+$$
+-2T_n=1+2\left(3+3^2+\cdots+3^{n-1}\right)-\left(2n-1\right)3^n=1+2\cdot\frac{3\left(3^{n-1}-1\right)}{3-1}-\left(2n-1\right)3^n.
+$$
 
-### Inquiry and Discovery 2
+$$
+=1+3^n-3-\left(2n-1\right)3^n=-2-\left(2n-2\right)3^n.
+$$
 
-(Inquiry and Discovery: Direction Vectors and Parametric Equations of a Line) Think about it: in the parametric equation of a line $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$, what is the geometric meaning of $\left(m,n\right)$?
+$$
+T_n=\left(n-1\right)3^n+1.
+$$
 
-### Solution to Inquiry and Discovery 2
+$\blacksquare$
 
-By **Common Conclusion 2.1.4** (Direction Vector and Slope), when the coordinates of the direction vector of line $l$ are $\left(x,y\right)$, the slope is $k=\frac{y}{x}$.
+(Review Reference Problem 4, Comprehensive Application, Problem 12) Given that the sum of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $S_n$, and $a_{n+1}=2S_n+2$ ($n\in\mathbb N^*$).
 
-In the parametric equation $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$, $\left(m,n\right)$ is one direction vector of line $l$. When $t=1$, the point $\left(x_0+m,y_0+n\right)$ lies on line $l$, i.e. starting from the point $P_0\left(x_0,y_0\right)$ and moving one parameter unit along the $\left(m,n\right)$ direction reaches this point. The direction of $\left(m,n\right)$ is exactly the direction of line $l$, and the length of $\left(m,n\right)$ is exactly the distance the particle moves along the line when the parameter is $t=1$. $\blacksquare$
+(1) Find the general term formula of $\left\{a_n\right\}$.
+
+(2) Insert $n$ numbers between $a_n$ and $a_{n+1}$ so that these $n+2$ numbers form an arithmetic sequence with common difference $d_n$. Does there exist $3$ terms $d_m,d_k,d_p$ in the sequence $\left\{d_n\right\}$ (where $m,k,p$ form an arithmetic sequence) that form a geometric sequence? If so, find such $3$ terms; if not, explain why.
+
+### Solution to Problem 10
+
+(1) From $a_{n+1}=2S_n+2$, when $n\ge 2$, $a_n=2S_{n-1}+2$.
+
+Subtracting, $a_{n+1}-a_n=2a_n$, so $a_{n+1}=3a_n$.
+
+When $n=1$, $a_2=2a_1+2$, and also $a_2=3a_1$, hence $a_1=2$.
+
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_n=2\times 3^{n-1}$.
+
+$\blacksquare$
+
+(2) Inserting $n$ numbers between $a_n$ and $a_{n+1}$, there are $n+2$ terms in total, and the common difference is
+
+$$
+d_n=\frac{a_{n+1}-a_n}{n+1}=\frac{2\times 3^n-2\times 3^{n-1}}{n+1}=\frac{4\times 3^{n-1}}{n+1}.
+$$
+
+Suppose there exist $d_m,d_k,d_p$ forming a geometric sequence, with $m,k,p$ forming an arithmetic sequence, i.e. $2k=m+p$.
+
+$$
+d_k^2=d_m d_p.
+$$
+
+$$
+\left(\frac{4\times 3^{k-1}}{k+1}\right)^2=\frac{4\times 3^{m-1}}{m+1}\cdot\frac{4\times 3^{p-1}}{p+1}.
+$$
+
+$$
+\frac{3^{2k-2}}{\left(k+1\right)^2}=\frac{3^{m+p-2}}{\left(m+1\right)\left(p+1\right)}.
+$$
+
+Since $2k=m+p$, $3^{2k-2}=3^{m+p-2}$, hence $\left(k+1\right)^2=\left(m+1\right)\left(p+1\right)$.
+
+Since $k=\frac{m+p}{2}$, $\left(\frac{m+p}{2}+1\right)^2=\left(m+1\right)\left(p+1\right)$.
+
+$$
+\frac{\left(m+p+2\right)^2}{4}=mp+m+p+1,\ \left(m+p\right)^2+4\left(m+p\right)+4=4mp+4\left(m+p\right)+4.
+$$
+
+$$
+\left(m-p\right)^2=0,\ m=p.
+$$
+
+Hence $m=k=p$, i.e. the three terms are identical; there do not exist $3$ distinct terms forming a geometric sequence.
+
+$\blacksquare$
+
+(Review Reference Problem 4, Comprehensive Application, Problem 13) By analogy with the definitions, general term formulas, and common properties of arithmetic and geometric sequences, one discovers the following dual relationship: whenever one changes the operation "$+$" in a relation of an arithmetic sequence to "$\times$", "$-$" to "$\div$", and a positive-integer multiple to a positive-integer power, one correspondingly obtains a relation of the same form in a geometric sequence, and vice versa.
+
+(1) Based on the above statement, infer the corresponding dual relations from the information given in the table;
+
+(2) In an arithmetic sequence $\left\{a_n\right\}$, if $a_{2018}=0$, then $a_1+a_2+\cdots+a_n=a_1+a_2+\cdots+a_{4035-n}$ ($n\in\mathbb N^*$, $n< 4035$). Correspondingly, in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, infer by analogy the dual equality and prove it.
+
+### Solution to Problem 10
+
+(1) By the dual relationship, the arithmetic sequence relation $a_{n+1}-a_n=d$ corresponds to the geometric sequence relation $\frac{b_{n+1}}{b_n}=q$.
+
+The arithmetic general term $a_n=a_1+\left(n-1\right)d$ corresponds to $b_n=b_1 q^{n-1}$.
+
+Common properties of arithmetic sequences: $a_1+a_n=a_2+a_{n-1}$ corresponds to $b_1 b_n=b_2 b_{n-1}$; $a_{n-k}+a_{n+k}=2a_n$ corresponds to $b_{n-k}b_{n+k}=b_n^2$; if $m+n=k+l$ then $a_m+a_n=a_k+a_l$ corresponds to $b_m b_n=b_k b_l$.
+
+$\blacksquare$
+
+(2) Dual conjecture: in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, then
+
+$$
+b_1 b_2\cdots b_n=b_1 b_2\cdots b_{4037-n}\ \left(n< 4037\right).
+$$
+
+Proof: by **Definition 4.3.2 (Geometric Mean)**, $b_i b_{4037-i}=b_{2019}^2=1$.
+
+The left side $=b_1 b_2\cdots b_n$, and the right side $=b_1 b_2\cdots b_n\cdot b_{n+1}\cdots b_{4037-n}$.
+
+It suffices to prove that $b_{n+1}\cdots b_{4037-n}=1$.
+
+Since $b_i b_{4037-i}=1$, there are $\left(4037-n\right)-\left(n+1\right)+1=4036-2n$ terms, which can be paired into $2018-n$ pairs, each with product $1$.
+
+Hence the product is $1$, and the equality holds.
+
+$\blacksquare$

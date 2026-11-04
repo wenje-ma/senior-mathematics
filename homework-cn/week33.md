@@ -1,419 +1,613 @@
 # week33
-> **定义 6.1.7 (相等向量)**
+> **定理 8.5.3 (直线与平面平行的判定定理)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
-> **定理 6.3.1 (平面向量基本定理)**
+> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
+> **定理 8.5.4 (直线与平面平行的性质定理)**
 > 
-> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
-
-## 练习一
-
-(练习 6.3 第 1 题) 如图, $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量, 试用基底 $\left\{\boldsymbol{e}_1,\boldsymbol{e}_2\right\}$ 表示图中的向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$.
-
-图:以两个不共线的向量 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 为基底,画出从同一起点出发的向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$,各向量均可按 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 的方向作平行四边形分解.
-
-### 解答 练习一
-
-由**定理 6.3.1 (平面向量基本定理)**, 任一向量可唯一分解为 $\lambda_1\boldsymbol{e}_1+\lambda_2\boldsymbol{e}_2$. 按图中各向量在 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 方向上的分量逐一写出分解式. $\blacksquare$
-
-## 练习二
-
-(练习 6.3 第 2 题) 当 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量时, 求作向量 $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
-
-图:先画基底向量 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$,再作 $2\boldsymbol{e}_1$(与 $\boldsymbol{e}_1$ 同向,长度为其 $2$ 倍)和 $-\boldsymbol{e}_2$(与 $\boldsymbol{e}_2$ 反向),用三角形法则相加得到 $2\boldsymbol{e}_1-\boldsymbol{e}_2$.
-
-### 解答 练习二
-
-由**定理 6.3.1 (平面向量基本定理)**, 先作 $2\boldsymbol{e}_1$, 再作 $-\boldsymbol{e}_2$, 由三角形法则相加即得 $2\boldsymbol{e}_1-\boldsymbol{e}_2$. $\blacksquare$
-
-## 练习三
-
-(练习 6.3 第 3 题) 已知点 $A$, $B$, $C$ 的坐标分别为 $\left(2,-1\right)$, $\left(3,2\right)$, $\left(-3,4\right)$, 求 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$ 的坐标.
-
-### 解答 练习三
-
-由**常用结论 6.3.4** (坐标运算).
-
-$\boldsymbol{AB}=\left(3-2,2-\left(-1\right)\right)=\left(1,3\right)$.
-
-$\boldsymbol{BC}=\left(-3-3,4-2\right)=\left(-6,2\right)$.
-
-$\boldsymbol{CA}=\left(2-\left(-3\right),-1-4\right)=\left(5,-5\right)$.
-
-$\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}=\left(1-6+5,3+2-5\right)=\left(0,0\right)$. $\blacksquare$
-
-## 练习四
-
-(练习 6.3 第 4 题) 已知 $\boldsymbol{a}=\left(3,2\right)$, $\boldsymbol{b}=\left(0,-1\right)$, 求 $-2\boldsymbol{a}+4\boldsymbol{b}$, $4\boldsymbol{a}+3\boldsymbol{b}$ 的坐标.
-
-### 解答 练习四
-
-由**常用结论 6.3.4** (坐标运算).
-
-$-2\boldsymbol{a}+4\boldsymbol{b}=-2\left(3,2\right)+4\left(0,-1\right)=\left(-6,-4\right)+\left(0,-4\right)=\left(-6,-8\right)$.
-
-$4\boldsymbol{a}+3\boldsymbol{b}=4\left(3,2\right)+3\left(0,-1\right)=\left(12,8\right)+\left(0,-3\right)=\left(12,5\right)$. $\blacksquare$
-
-## 练习五
-
-(练习 6.3 第 5 题) 已知 $A\left(-2,-3\right)$, $B\left(2,1\right)$, $C\left(1,4\right)$, $D\left(-7,-4\right)$, 判断 $\boldsymbol{AB}$ 与 $\boldsymbol{CD}$ 是否共线?
-
-### 解答 练习五
-
-由**常用结论 6.3.5** (共线的坐标表示).
-
-$\boldsymbol{AB}=\left(2-\left(-2\right),1-\left(-3\right)\right)=\left(4,4\right)$.
-
-$\boldsymbol{CD}=\left(-7-1,-4-4\right)=\left(-8,-8\right)$.
-
-$4\times\left(-8\right)-\left(-8\right)\times4=-32+32=0$, 故 $\boldsymbol{AB}\parallel\boldsymbol{CD}$, 两向量共线. $\blacksquare$
-
-## 练习六
-
-(练习 6.3 第 6 题) 求线段 $AB$ 的中点 $M$ 的坐标.
-
-(1) $A\left(2,3\right)$, $B\left(4,6\right)$;
-
-(2) $A\left(-1,3\right)$, $B\left(-2,-5\right)$.
-
-### 解答 练习六
-
-由**常用结论 6.3.6** (中点坐标公式).
-
-(1) $M=\left(\frac{2+4}{2},\frac{3+6}{2}\right)=\left(3,\frac{9}{2}\right)$.
-
-(2) $M=\left(\frac{-1+\left(-2\right)}{2},\frac{3+\left(-5\right)}{2}\right)=\left(-\frac{3}{2},-1\right)$. $\blacksquare$
-
-## 练习七
-
-(练习 6.3 第 7 题) 已知 $\boldsymbol{a}=\left(2,3\right)$, $\boldsymbol{b}=\left(-2,4\right)$, $\boldsymbol{c}=\left(1,-2\right)$, 求 $\boldsymbol{a}\cdot\boldsymbol{b}$, $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)$, $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)$, $\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
-
-### 解答 练习七
-
-由**常用结论 6.3.7** (数量积的坐标表示).
-
-$\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-2\right)+3\times4=-4+12=8$.
-
-$\boldsymbol{a}+\boldsymbol{b}=\left(0,7\right)$, $\boldsymbol{a}-\boldsymbol{b}=\left(4,-1\right)$.
-
-$\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=0\times4+7\times\left(-1\right)=-7$.
-
-$\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)=2\times0+3\times7=21$.
-
-$\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}\right)=4\times0+\left(-1\right)\times7=-7$. $\blacksquare$
-
-## 练习八
-
-(练习 6.3 第 8 题) 已知 $\boldsymbol{a}=\left(3,4\right)$, $\boldsymbol{b}=\left(2,-1\right)$, 当 $\boldsymbol{a}+x\boldsymbol{b}$ 与 $\boldsymbol{a}-\boldsymbol{b}$ 垂直时, 求 $x$ 的值.
-
-### 解答 练习八
-
-由**常用结论 6.3.8** (垂直的坐标表示).
-
-$\boldsymbol{a}+x\boldsymbol{b}=\left(3+2x,4-x\right)$.
-
-$\boldsymbol{a}-\boldsymbol{b}=\left(1,5\right)$.
-
-两向量垂直: $\left(3+2x\right)\times1+\left(4-x\right)\times5=0$.
-
-$3+2x+20-5x=0$, $23-3x=0$, $x=\frac{23}{3}$. $\blacksquare$
-
-## 练习九
-
-(练习 6.3 第 9 题) 已知 $\boldsymbol{a}=\left(2,3\right)$, $\boldsymbol{b}=\left(-2,4\right)$, 求 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 夹角 $\theta$ 的余弦值.
-
-### 解答 练习九
-
-由**常用结论 6.3.8** (夹角的坐标表示).
-
-$\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-2\right)+3\times4=8$.
-
-$\lvert\boldsymbol{a}\rvert=\sqrt{4+9}=\sqrt{13}$.
-
-$\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt 5$.
-
-$\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
+> 一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
+> **定理 8.5.5 (平面与平面平行的判定定理)**
+> 
+> 一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
+> **定理 8.5.6 (平面与平面平行的性质定理)**
+> 
+> 两个平行平面同时和第三个平面相交, 所得的交线平行.
+> **定义 8.6.1 (异面直线所成的角)**
+> 
+> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel a$, $b'\parallel b$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
+> **定义 8.6.2 (异面直线垂直)**
+> 
+> 线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平面α内的任意一条直线都垂直,我 们就说直线与平面α互相垂直,记作⊥α.直线叫做平面α 的垂线,平面α叫做直线的垂面.直线与平面垂直时,它们唯 一的公共点叫做垂足. 画直线与平面垂直时,通常把直线画成与表示平面的平行四 边形的一边垂直,如图８.６９所示. Ꮶ 在同一平面内,过一点有且只有一条直线与已知直线垂直.将这一结论推广到空 间,过一点垂直于已知平面的直线有几条?为什么? ９４１ 8. 6. 2 直线与平面垂直 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 8.6-7),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. 图 8.6-7 观察 如图
+> **定义 8.6.3 (直线与平面垂直)**
+> 
+> 第八章　立体几何初步 　图８.６７ ８６２! 3)< = 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 ８.６７),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. ᜺ A B C CĂ BĂ 　图８.６８ 如图８.６８,在阳光下观察直立于地面的旗杆及 它在地面的影子.随着时间的变化,影子的位置 在不断地变化,旗杆所在直线与其影子所在直 线是否保持垂直? 事实上,随着时间的变化,尽管影子的位置在不断地变 化,但是旗杆所在直线始终与影子所在直线垂直.也就 是说,旗杆所在直线与地面上任意一条过点的直线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平
+> **定理 8.6.4 (直线与平面垂直的判定定理)**
+> 
+> 一条直线与一个平面内的两条相交直线都垂直, 则该直线与此平面垂直.
+> **定理 8.6.5 (直线与平面垂直的性质定理)**
+> 
+> 垂直于同一个平面的两条直线平行.
+> **定义 8.6.6 (直线与平面所成的角)**
+> 
+> 垂直于平面,我们说它们所成的角是９０°;一条直线和平面平行,或在平面 内,我们说它们所成的角是０°.直线与平面所成的角θ的取值范围是０°≤θ≤９０°. A1 B1 C1 D1 A B C D O 　图８.６１５ 例４　如图８.６１５,在正方体１１１１中,求直线 １和平面１１所成的角. 分析:关键是找出直线１在平面１１上的射影. 解:连接１,１与１相交于点,连接１.设正方 体的棱长为. ∵　１１⊥１１,１１⊥１,１１∩１＝１, ∴　１１⊥平面１１. ∴　１１⊥１. 又　１⊥１, ∴　１⊥平面１１. ∴　１为斜线１在平面１１上的射影,∠１为１和平面１１ 所成的角. 在Ｒｔ△１中,１＝槡２,＝槡２２, ∴　＝１２１. ∴　∠１＝３０°. ∴　直线１和平面１１所成的角为３０°. ጷ˸ １.
+> **定义 8.6.7 (二面角)**
+> 
+> ,利用角刻画两条相交直线的位置关系,进而 研究直线与直线互相垂直这种特殊情况.类似地,我们需要先引进二面角的概念,用以刻 ５５１ 设截得棱台的棱锥的体积为 V,去掉的棱锥的体积为 V',高为 h',则 PO'h'. 于是 S(h'+h). 所以棱台的体积 V棱台=V-V' Sh+(S-S')h']. h'2 (h'+h)2* ①请你自己证明这个 Vs'h 所以 h" 结论. VS-S" 代人①,得 V棱台= -h[S+(S-S') VS-VS h(s'+vs's+S). 练习 l.已知直线α,b 和平面α,且ab,alα,则b与α的位置关系是 2.已知A,B两点在平面α的同侧,且它们与α的距离相等,求证: 直线AB//α. 3.如图,EA 和DC都垂直于平面ABC,且 EA=2DC,F是EB 的 中点,求证:DF/平面ABC. 4.求证:垂直于同一条直线的两个平面互相平行.(提示:过这条直 (第3题) 线作平面与这两个平面相交,则它们的交线平行.) 8.6.3 平面与平面垂直 像研究直线
+> **定理 8.6.8 (平面与平面垂直的判定定理)**
+> 
+> 一个平面过另一个平面的垂线, 则这两个平面垂直.
+> **定理 8.6.9 (平面与平面垂直的性质定理)**
+> 
+> 两个平面垂直, 则一个平面内垂直于交线的直线与另一个平面垂直.
+> **定义 9.1.1 (普查与抽样调查)**
+> 
+> 对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
+> **定义 9.1.2 (总体, 个体, 样本与样本量)**
+> 
+> 统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
+> **定义 9.1.3 (简单随机抽样)**
+> 
+> 设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
+> **定义 9.1.4 (总体均值与样本均值)**
+> 
+> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **定义 9.1.5 (分层随机抽样, 层与比例分配)**
+> 
+> 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
 
 ## 习题一
 
-(习题 6.3 复习巩固第 1 题) 如图, 在 $\triangle ABC$ 中, $AD=\frac{1}{3}AB$, $E$ 是 $AC$ 上一点, $EC=\frac{1}{3}AC$, $BE$ 与 $CD$ 交于点 $P$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 试用基底 $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$ 表示 $\boldsymbol{AP}$.
-
-图:三角形 $ABC$,点 $D$ 在边 $AB$ 上且 $AD=\frac{1}{3}AB$,点 $E$ 在边 $AC$ 上且 $EC=\frac{1}{3}AC$(即 $AE=\frac{2}{3}AC$),线段 $BE$ 与 $CD$ 交于点 $P$.
+(习题 8.6 复习巩固第 10 题) 已知平面 $\alpha$, $\beta$, $\gamma$, 且 $\alpha\perp\gamma$, $\beta\perp\gamma$, $\alpha\cap\beta=l$, 求证 $l\perp\gamma$.
 
 ### 解答 习题一
 
-由**定理 6.3.1 (平面向量基本定理)**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-设 $\boldsymbol{AP}=x\boldsymbol{a}+y\boldsymbol{b}$. 由 $P$ 在 $CD$ 上, $\boldsymbol{AP}=\boldsymbol{AD}+\boldsymbol{DP}=\frac{1}{3}\boldsymbol{a}+\lambda\left(\boldsymbol{b}-\frac{1}{3}\boldsymbol{a}\right)=\left(\frac{1}{3}-\frac{\lambda}{3}\right)\boldsymbol{a}+\lambda\boldsymbol{b}$.
+设 $\alpha\cap\gamma=a$, $\beta\cap\gamma=b$. 在 $\gamma$ 内作直线 $m\perp a$, 由面面垂直性质, $m\perp\alpha$, 故 $m\perp l$.
 
-由 $P$ 在 $BE$ 上, $\boldsymbol{AE}=\frac{2}{3}\boldsymbol{b}$, $\boldsymbol{AP}=\boldsymbol{AB}+\boldsymbol{BP}=\boldsymbol{a}+\mu\left(\frac{2}{3}\boldsymbol{b}-\boldsymbol{a}\right)=\left(1-\mu\right)\boldsymbol{a}+\frac{2\mu}{3}\boldsymbol{b}$.
+同理, 在 $\gamma$ 内作直线 $n\perp b$, 则 $n\perp\beta$, 故 $n\perp l$.
 
-比较系数: $\frac{1}{3}-\frac{\lambda}{3}=1-\mu$, $\lambda=\frac{2\mu}{3}$.
-
-解得 $\mu=\frac{2}{9}$, $\lambda=\frac{4}{27}$.
-
-$\boldsymbol{AP}=\frac{7}{27}\boldsymbol{a}+\frac{4}{27}\boldsymbol{b}$. $\blacksquare$
+$m$, $n$ 是 $\gamma$ 内两条相交直线, $l$ 垂直于 $\gamma$ 内两条相交直线. 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $l\perp\gamma$. $\blacksquare$
 
 ## 习题二
 
-(习题 6.3 复习巩固第 2 题) 已知三个力 $\boldsymbol{f}_1=\left(3,4\right)$, $\boldsymbol{f}_2=\left(2,-5\right)$, $\boldsymbol{f}_3=\left(x,y\right)$ 的合力 $\boldsymbol{f}_1+\boldsymbol{f}_2+\boldsymbol{f}_3=\boldsymbol{0}$, 求 $\boldsymbol{f}_3$.
+(习题 8.6 综合运用第 11 题) 如下页图, 在正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 点 $P$, $Q$ 分别为棱 $AD$, $CC_{1}$ 的中点. 求证 $A_{1}P\perp BQ$.
 
 ### 解答 习题二
 
-由**常用结论 6.3.4** (坐标运算).
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-$\boldsymbol{f}_3=-\boldsymbol{f}_1-\boldsymbol{f}_2=-\left(3,4\right)-\left(2,-5\right)=\left(-5,1\right)$. $\blacksquare$
+取 $DD_{1}$ 的中点 $R$, 连接 $A_{1}R$, $PR$. 在正方形 $ADD_{1}A_{1}$ 中, $P$, $R$ 分别为 $AD$, $DD_{1}$ 的中点, 可证 $A_{1}P\perp A_{1}R$ (由三角形全等, 对应角互余).
+
+又 $BQ\parallel A_{1}R$ (由正方体对称性及中位线性质, $BQ$ 与 $A_{1}R$ 方向对应平行).
+
+故 $A_{1}P\perp BQ$. $\blacksquare$
 
 ## 习题三
 
-(习题 6.3 复习巩固第 3 题) 已知点 $A\left(-2,5\right)$, $B\left(3,-4\right)$, $C\left(-1,1\right)$, 求 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{AC}$ 的坐标, 并验证 $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
+(习题 8.6 综合运用第 12 题) 如图, $m$, $n$ 是两条相交直线, $l_{1}$, $l_{2}$ 是与 $m$, $n$ 都垂直的两条直线, 且直线 $l$ 与 $l_{1}$, $l_{2}$ 都相交, 求证 $\angle 1=\angle 2$.
+
+(题图: 两条相交直线 $m,n$, 两条直线 $l_{1},l_{2}$ 都垂直于 $m,n$ 所在平面, 直线 $l$ 截 $l_{1},l_{2}$ 形成角 $\angle 1,\angle 2$.)
 
 ### 解答 习题三
 
-由**常用结论 6.3.4** (坐标运算).
+由**定理 8.6.5 (直线与平面垂直的性质定理)**.
 
-$\boldsymbol{AB}=\left(3-\left(-2\right),-4-5\right)=\left(5,-9\right)$.
+因为 $l_{1}\perp m$, $l_{1}\perp n$, $m\cap n=O$, 故 $l_{1}\perp$ 平面 $\left(m,n\right)$. 同理 $l_{2}\perp$ 平面 $\left(m,n\right)$.
 
-$\boldsymbol{BC}=\left(-1-3,1-\left(-4\right)\right)=\left(-4,5\right)$.
+由**定理 8.6.5 (直线与平面垂直的性质定理)**, $l_{1}\parallel l_{2}$.
 
-$\boldsymbol{AC}=\left(-1-\left(-2\right),1-5\right)=\left(1,-4\right)$.
-
-$\boldsymbol{AB}+\boldsymbol{BC}=\left(5-4,-9+5\right)=\left(1,-4\right)=\boldsymbol{AC}$. $\blacksquare$
+直线 $l$ 与两平行线 $l_{1}$, $l_{2}$ 相交, $\angle 1$ 与 $\angle 2$ 是两平行线被 $l$ 所截的同位角, 故 $\angle 1=\angle 2$. $\blacksquare$
 
 ## 习题四
 
-(习题 6.3 复习巩固第 4 题) 已知 $\boldsymbol{a}=\left(1,2\right)$, $\boldsymbol{b}=\left(-3,2\right)$, 当实数 $k$ 为何值时, $k\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}-3\boldsymbol{b}$ 平行? 平行时它们是同向还是反向?
+(习题 8.6 综合运用第 13 题) 求证: 两条平行直线与同一个平面所成的角相等.
 
 ### 解答 习题四
 
-由**常用结论 6.3.5** (共线的坐标表示).
+由**定义 8.6.6 (直线与平面所成的角)**.
 
-$k\boldsymbol{a}+\boldsymbol{b}=k\left(1,2\right)+\left(-3,2\right)=\left(k-3,2k+2\right)$.
+设直线 $a\parallel b$, 它们与平面 $\alpha$ 所成的角分别为 $\theta_{1}$, $\theta_{2}$.
 
-$\boldsymbol{a}-3\boldsymbol{b}=\left(1,2\right)-3\left(-3,2\right)=\left(10,-4\right)$.
+在 $a$, $b$ 上分别取点 $A$, $B$, 作 $AA'\perp\alpha$, $BB'\perp\alpha$, 垂足为 $A'$, $B'$. 连接斜足与垂足.
 
-平行条件: $\left(k-3\right)\times\left(-4\right)-10\times\left(2k+2\right)=0$.
-
-$-4k+12-20k-20=0$, $-24k-8=0$, $k=-\frac{1}{3}$.
-
-此时 $k\boldsymbol{a}+\boldsymbol{b}=\left(-\frac{10}{3},\frac{4}{3}\right)=-\frac{1}{3}\left(10,-4\right)=-\frac{1}{3}\left(\boldsymbol{a}-3\boldsymbol{b}\right)$, 两向量反向. $\blacksquare$
+由 $a\parallel b$, 可得两直角三角形相似, 斜线与射影所成的角对应相等. 故 $\theta_{1}=\theta_{2}$. $\blacksquare$
 
 ## 习题五
 
-(习题 6.3 复习巩固第 5 题) 求与向量 $\boldsymbol{a}=\left(12,5\right)$ 方向相同的单位向量.
+(习题 8.6 综合运用第 14 题) 如图, 在棱锥 $V\text{-}ABC$ 中, $VO\perp$ 平面 $ABC$, $O\in CD$, $VA=VB$, $AD=BD$, 你能判定 $CD\perp AB$, 以及 $AC=BC$ 吗?
+
+(题图: 棱锥 $V\text{-}ABC$, $VO\perp$ 底面 $ABC$, $O$ 在 $CD$ 上, $D$ 为 $AB$ 中点.)
 
 ### 解答 习题五
 
-由**常用结论 6.3.8** (模的坐标表示).
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-$\lvert\boldsymbol{a}\rvert=\sqrt{144+25}=13$. 所求单位向量为 $\frac{\boldsymbol{a}}{\lvert\boldsymbol{a}\rvert}=\left(\frac{12}{13},\frac{5}{13}\right)$. $\blacksquare$
+因为 $VO\perp$ 平面 $ABC$, 故 $VO\perp OA$, $VO\perp OB$. 由 $VA=VB$, $VO$ 公共, 得 $\text{Rt}\triangle VOA\cong\text{Rt}\triangle VOB$, 故 $OA=OB$.
+
+又 $AD=BD$, 即 $D$ 为 $AB$ 中点. 在 $\triangle ABC$ 所在平面内, $O$ 在 $CD$ 上, $OA=OB$, $AD=BD$, 故 $OD\perp AB$. 即 $CD\perp AB$.
+
+$CD\perp AB$, $D$ 为 $AB$ 中点, 故 $CD$ 是 $AB$ 的垂直平分线, $A$, $B$ 关于 $CD$ 对称, 从而 $AC=BC$. $\blacksquare$
 
 ## 习题六
 
-(习题 6.3 复习巩固第 6 题) 已知 $\boldsymbol{a}=\left(3,-1\right)$, $\boldsymbol{b}=\left(1,-2\right)$, 求 $\boldsymbol{a}\cdot\boldsymbol{b}$, $\lvert\boldsymbol{a}\rvert$, $\lvert\boldsymbol{b}\rvert$, $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle$.
+(习题 8.6 综合运用第 15 题) 如图, 在正方形 $SG_{1}G_{2}G_{3}$ 中, $E$, $F$ 分别是 $G_{1}G_{2}$, $G_{2}G_{3}$ 的中点, $D$ 是 $EF$ 的中点. 若沿 $SE$, $SF$ 及 $EF$ 把这个正方形折成一个四面体, 使 $G_{1}$, $G_{2}$, $G_{3}$ 三点重合, 重合后的点记为 $G$, 则在四面体 $S\text{-}EFG$ 中, 哪些棱与面互相垂直?
+
+(题图: 正方形 $SG_{1}G_{2}G_{3}$, $E$ 为 $G_{1}G_{2}$ 中点, $F$ 为 $G_{2}G_{3}$ 中点, $D$ 为 $EF$ 中点.)
 
 ### 解答 习题六
 
-由**常用结论 6.3.7** 与**常用结论 6.3.8**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=3\times1+\left(-1\right)\times\left(-2\right)=5$.
+折叠后, 原正方形中的直角保持: $\angle SGE=\angle SG_{1}E=90^{\circ}$, $\angle SGF=\angle SG_{3}F=90^{\circ}$, $\angle EGF=\angle G_{1}G_{2}G_{3}=90^{\circ}$.
 
-$\lvert\boldsymbol{a}\rvert=\sqrt{9+1}=\sqrt{10}$.
+因为 $SG\perp GE$, $SG\perp GF$, $GE\cap GF=G$, 故 $SG\perp$ 平面 $EFG$.
 
-$\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt 5$.
+因为 $GE\perp GF$, $GE\perp SG$, $SG\cap GF=G$, 故 $GE\perp$ 平面 $SGF$.
 
-$\cos\theta=\frac{5}{\sqrt{10}\sqrt 5}=\frac{5}{\sqrt{50}}=\frac{\sqrt 2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
+因为 $GF\perp GE$, $GF\perp SG$, $SG\cap GE=G$, 故 $GF\perp$ 平面 $SEG$.
+
+故棱 $SG\perp$ 平面 $EFG$, 棱 $GE\perp$ 平面 $SGF$, 棱 $GF\perp$ 平面 $SEG$. $\blacksquare$
 
 ## 习题七
 
-(习题 6.3 复习巩固第 7 题) 已知 $\boldsymbol{a}=\left(-3,2\right)$, $\boldsymbol{b}=\left(-1,0\right)$, 求实数 $\lambda$ 使 $\left(\lambda\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-2\boldsymbol{b}\right)$.
+(习题 8.6 综合运用第 16 题) 求证: 垂直于两个平行平面中的一个平面的直线也垂直于另一个平面.
 
 ### 解答 习题七
 
-由**常用结论 6.3.8** (垂直的坐标表示).
+由**定理 8.6.4 (直线与平面垂直的判定定理)** 及**定理 8.5.6 (平面与平面平行的性质定理)**.
 
-$\lambda\boldsymbol{a}+\boldsymbol{b}=\lambda\left(-3,2\right)+\left(-1,0\right)=\left(-3\lambda-1,2\lambda\right)$.
+设 $\alpha\parallel\beta$, 直线 $l\perp\alpha$. 过 $l$ 作两个相交平面, 分别与 $\alpha$, $\beta$ 交于 $a$, $a'$ 和 $b$, $b'$.
 
-$\boldsymbol{a}-2\boldsymbol{b}=\left(-3,2\right)-2\left(-1,0\right)=\left(-1,2\right)$.
+因为 $l\perp\alpha$, 故 $l\perp a$, $l\perp b$.
 
-垂直: $\left(-3\lambda-1\right)\times\left(-1\right)+2\lambda\times2=0$.
+由**定理 8.5.6 (平面与平面平行的性质定理)**, $a\parallel a'$, $b\parallel b'$. 故 $l\perp a'$, $l\perp b'$.
 
-$3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
+$a'$, $b'$ 是 $\beta$ 内两条相交直线, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $l\perp\beta$. $\blacksquare$
 
 ## 习题八
 
-(习题 6.3 复习巩固第 8 题) 已知点 $A\left(1,0\right)$, $B\left(0,1\right)$, $C\left(2,5\right)$, 求:
-
-(1) $\boldsymbol{AB}+\boldsymbol{AC}$ 的坐标;
-
-(2) $\boldsymbol{AB}\cdot\boldsymbol{AC}$;
-
-(3) $\cos\angle BAC$.
+(习题 8.6 综合运用第 17 题) 求证: 三个两两垂直的平面的交线也两两垂直.
 
 ### 解答 习题八
 
-由**常用结论 6.3.7** 与**常用结论 6.3.8**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-(1) $\boldsymbol{AB}=\left(-1,1\right)$, $\boldsymbol{AC}=\left(1,5\right)$. $\boldsymbol{AB}+\boldsymbol{AC}=\left(0,6\right)$.
+设平面 $\alpha\perp\beta$, $\beta\perp\gamma$, $\gamma\perp\alpha$, 交线 $l=\alpha\cap\beta$, $m=\beta\cap\gamma$, $n=\gamma\cap\alpha$.
 
-(2) $\boldsymbol{AB}\cdot\boldsymbol{AC}=\left(-1\right)\times1+1\times5=4$.
+因为 $\alpha\perp\gamma$, $\beta\perp\gamma$, $\alpha\cap\beta=l$, 由**习题 8.6 复习巩固第 10 题**的结论, $l\perp\gamma$.
 
-(3) $\lvert\boldsymbol{AB}\rvert=\sqrt 2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle BAC=\frac{4}{\sqrt 2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
+$m$, $n\subset\gamma$, 故 $l\perp m$, $l\perp n$.
+
+同理, $m\perp\alpha$, 故 $m\perp n$.
+
+故 $l$, $m$, $n$ 两两垂直. $\blacksquare$
 
 ## 习题九
 
-(习题 6.3 复习巩固第 9 题) 已知 $\boldsymbol{a}=\left(4,2\right)$, 求与 $\boldsymbol{a}$ 垂直的单位向量.
+(习题 8.6 综合运用第 18 题) 如图, 在三棱锥 $V\text{-}ABC$ 中, $VA=VB=AB=AC=BC=2$, $VC=1$, 作出二面角 $V\text{-}AB\text{-}C$ 的平面角, 并求出它的余弦值.
+
+(题图: 三棱锥 $V\text{-}ABC$, $VA=VB=AB=AC=BC=2$, $VC=1$.)
 
 ### 解答 习题九
 
-由**常用结论 6.3.8** (垂直的坐标表示).
+由**定义 8.6.7 (二面角)**.
 
-设所求向量为 $\left(x,y\right)$, 则 $4x+2y=0$, $x^2+y^2=1$.
+取 $AB$ 的中点 $D$, 连接 $VD$, $CD$.
 
-$y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt 5}{5}$, $y=\mp\frac{2\sqrt 5}{5}$.
+因为 $VA=VB=2$, $D$ 为 $AB$ 中点, 故 $VD\perp AB$, $VD=\sqrt{VA^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
 
-所求为 $\left(\frac{\sqrt 5}{5},-\frac{2\sqrt 5}{5}\right)$ 或 $\left(-\frac{\sqrt 5}{5},\frac{2\sqrt 5}{5}\right)$. $\blacksquare$
+因为 $AC=BC=2$, $D$ 为 $AB$ 中点, 故 $CD\perp AB$, $CD=\sqrt{AC^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
+
+$\angle VDC$ 即二面角 $V\text{-}AB\text{-}C$ 的平面角.
+
+在 $\triangle VDC$ 中, $VD=CD=\sqrt{3}$, $VC=1$. 由余弦定理:
+
+$$
+\cos\angle VDC=\frac{VD^{2}+CD^{2}-VC^{2}}{2\cdot VD\cdot CD}=\frac{3+3-1}{2\times 3}=\frac{5}{6}.
+$$
+
+故二面角 $V\text{-}AB\text{-}C$ 的余弦值为 $\frac{5}{6}$. $\blacksquare$
 
 ## 习题十
 
-(习题 6.3 复习巩固第 10 题) 已知点 $A\left(1,-2\right)$, $B\left(3,4\right)$, $C\left(-1,2\right)$, 求 $\boldsymbol{AB}+\boldsymbol{AC}$ 的坐标及 $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert$.
+(习题 8.6 拓广探索第 19 题) 如图, 在直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$ 中, $\angle ABC=90^{\circ}$, $AA_{1}=AB$, 求证 $A_{1}C\perp AB_{1}$.
+
+(题图: 直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$, $\angle ABC=90^{\circ}$.)
 
 ### 解答 习题十
 
-由**常用结论 6.3.4** 与**常用结论 6.3.8**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-$\boldsymbol{AB}=\left(2,6\right)$, $\boldsymbol{AC}=\left(-2,4\right)$.
+因为 $\angle ABC=90^{\circ}$, 故 $AB\perp BC$. 直三棱柱中 $BB_{1}\perp$ 底面 $ABC$, 故 $BB_{1}\perp AB$. $BC\cap BB_{1}=B$, 故 $AB\perp$ 平面 $BCC_{1}B_{1}$.
 
-$\boldsymbol{AB}+\boldsymbol{AC}=\left(0,10\right)$.
+又 $BC_{1}\subset$ 平面 $BCC_{1}B_{1}$, 故 $AB\perp BC_{1}$.
 
-$\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
+因为 $AA_{1}=AB=BB_{1}$, 侧面 $ABB_{1}A_{1}$ 是正方形, 故 $AB_{1}\perp A_{1}B$.
+
+$AB_{1}\perp A_{1}B$, $AB_{1}\perp BC_{1}$, $A_{1}B\cap BC_{1}=B$, 故 $AB_{1}\perp$ 平面 $A_{1}BC$.
+
+因为 $A_{1}C\subset$ 平面 $A_{1}BC$, 故 $AB_{1}\perp A_{1}C$. $\blacksquare$
 
 ## 习题十一
 
-(习题 6.3 综合运用第 11 题) 如图, 在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $E$, $F$ 分别为 $AB$, $CD$ 的中点, $M$, $N$ 为对角线 $AC$ 上的两点, 且 $AM=MN=NC$, 求证: $\boldsymbol{EM}=\boldsymbol{FN}$.
-
-图:平行四边形 $ABCD$,$E$ 为边 $AB$ 的中点,$F$ 为边 $CD$ 的中点;对角线 $AC$ 上有两点 $M$, $N$,满足 $AM=MN=NC$(即 $M$, $N$ 将 $AC$ 三等分),连接 $EM$, $FN$.
+(习题 8.6 拓广探索第 20 题) 如上页图, $AB$ 是 $\odot O$ 的直径, 点 $C$ 是 $\odot O$ 上的动点, 过动点 $C$ 的直线 $VC$ 垂直于 $\odot O$ 所在平面, $D$, $E$ 分别是 $VA$, $VC$ 的中点. 判断直线 $DE$ 与平面 $VBC$ 的位置关系, 并说明理由.
 
 ### 解答 习题十一
 
-由**定理 6.3.1 (平面向量基本定理)** 与**定义 6.1.7 (相等向量)**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-$\boldsymbol{EM}=\boldsymbol{AM}-\boldsymbol{AE}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\boldsymbol{a}=-\frac{1}{6}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
+因为 $D$, $E$ 分别是 $VA$, $VC$ 的中点, 在 $\triangle VAC$ 中, $DE$ 是中位线, 故 $DE\parallel AC$.
 
-$\boldsymbol{FN}=\boldsymbol{AN}-\boldsymbol{AF}=\frac{2}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}\right)=-\frac{1}{3}\boldsymbol{a}+\frac{7}{6}\boldsymbol{b}$?
+因为 $AB$ 是 $\odot O$ 的直径, $C$ 是圆上一点, 故 $\angle ACB=90^{\circ}$, 即 $AC\perp BC$.
 
-修正: $F$ 为 $CD$ 中点, $\boldsymbol{AF}=\boldsymbol{AD}+\boldsymbol{DF}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}$. $\boldsymbol{FN}=\boldsymbol{AN}-\boldsymbol{AF}=\frac{2}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}\right)=\frac{1}{6}\boldsymbol{a}-\frac{1}{3}\boldsymbol{b}$.
+又 $VC\perp\odot O$ 所在平面, $AC\subset$ 该平面, 故 $VC\perp AC$.
 
-$\boldsymbol{EM}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\boldsymbol{a}=-\frac{1}{6}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}=-\boldsymbol{FN}$.
+$BC\cap VC=C$, 故 $AC\perp$ 平面 $VBC$.
 
-由 $M$, $N$ 在 $AC$ 上位置不同, $\boldsymbol{EM}$ 与 $\boldsymbol{FN}$ 方向相反, 需根据图形确认. $\blacksquare$
+因为 $DE\parallel AC$, 故 $DE\perp$ 平面 $VBC$. $\blacksquare$
 
 ## 习题十二
 
-(习题 6.3 综合运用第 12 题) 已知 $O\left(0,0\right)$, $A\left(1,2\right)$, $B\left(4,5\right)$, 且 $\boldsymbol{OP}=\boldsymbol{OA}+t\boldsymbol{AB}$.
+(习题 8.6 拓广探索第 21 题) 如图, 在四棱锥 $P\text{-}ABCD$ 中, 底面 $ABCD$ 为正方形, $PA\perp$ 底面 $ABCD$, $PA=AB$, $E$ 为线段 $PB$ 的中点, $F$ 为线段 $BC$ 上的动点. 平面 $AEF$ 与平面 $PBC$ 是否互相垂直? 如果垂直, 请证明; 如果不垂直, 请说明理由.
 
-(1) $t$ 为何值时, 点 $P$ 在 $x$ 轴上? 点 $P$ 在 $y$ 轴上? 点 $P$ 在第二象限?
-
-(2) 四边形 $OABP$ 能否成为平行四边形? 若能, 求出相应的 $t$ 值; 若不能, 请说明理由.
+(题图: 四棱锥 $P\text{-}ABCD$, 底面 $ABCD$ 为正方形, $PA\perp$ 底面, $E$ 为 $PB$ 中点, $F$ 在 $BC$ 上.)
 
 ### 解答 习题十二
 
-由**常用结论 6.3.4** (坐标运算).
+由**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-$\boldsymbol{AB}=\left(3,3\right)$. $\boldsymbol{OP}=\left(1,2\right)+t\left(3,3\right)=\left(1+3t,2+3t\right)$.
+因为 $PA=AB$, $E$ 为 $PB$ 中点, 故在等腰直角三角形 $PAB$ 中, $AE\perp PB$.
 
-(1) $P$ 在 $x$ 轴上: $2+3t=0$, $t=-\frac{2}{3}$.
+因为 $PA\perp$ 底面 $ABCD$, $BC\subset$ 底面, 故 $PA\perp BC$. 底面 $ABCD$ 为正方形, 故 $AB\perp BC$. $PA\cap AB=A$, 故 $BC\perp$ 平面 $PAB$.
 
-$P$ 在 $y$ 轴上: $1+3t=0$, $t=-\frac{1}{3}$.
+又 $AE\subset$ 平面 $PAB$, 故 $BC\perp AE$.
 
-$P$ 在第二象限: $1+3t< 0$ 且 $2+3t> 0$, 即 $-\frac{2}{3}< t< -\frac{1}{3}$.
+$AE\perp PB$, $AE\perp BC$, $PB\cap BC=B$, 故 $AE\perp$ 平面 $PBC$.
 
-(2) 若 $OABP$ 为平行四边形, 则 $\boldsymbol{OP}=\boldsymbol{AB}=\left(3,3\right)$, 即 $1+3t=3$ 且 $2+3t=3$, 矛盾. 不能成为平行四边形. $\blacksquare$
+又 $AE\subset$ 平面 $AEF$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, 平面 $AEF\perp$ 平面 $PBC$.
+
+故无论 $F$ 在 $BC$ 上如何运动, 平面 $AEF$ 与平面 $PBC$ 始终互相垂直. $\blacksquare$
+
+## 练习一
+
+(练习 9.1 第 1 题) 在以下调查中, 总体, 个体各是什么? 哪些适合用全面调查? 哪些适合用抽样调查?
+
+(1) 调查一个班级学生每周的体育锻炼时间;
+
+(2) 调查一个地区结核病的发病率;
+
+(3) 调查一批炮弹的杀伤半径;
+
+(4) 调查一个水库所有鱼中草鱼所占的比例.
+
+请你再举一些不宜用全面调查的例子, 并说明理由.
+
+### 解答 练习一
+
+由**定义 9.1.2 (总体, 个体, 样本与样本量)**, 总体是调查对象的全体, 个体是组成总体的每一个调查对象; 由**定义 9.1.1 (普查与抽样调查)**, 普查对每个对象都调查, 抽样调查只抽取一部分个体.
+
+(1) 总体是该班全体学生每周的体育锻炼时间, 个体是每一名学生每周的体育锻炼时间. 一个班级人数很少, 对每名学生都进行调查花费不大, 故适合用全面调查.
+
+(2) 总体是该地区全部人口的结核病患病情况, 个体是该地区每一个人的结核病患病情况. 一个地区人口很多, 逐一调查工作量大, 故适合用抽样调查.
+
+(3) 总体是这批炮弹的杀伤半径, 个体是每一发炮弹的杀伤半径. 测量炮弹杀伤半径会销毁炮弹, 检测具有毁损性, 故只能用抽样调查.
+
+(4) 总体是该水库所有鱼中草鱼所占的比例, 个体是水库中每一条鱼是否为草鱼. 水库中的鱼无法逐一全部捕获调查, 故适合用抽样调查.
+
+不宜用全面调查的例子: 检测一批灯泡的使用寿命, 测试即烧毁灯泡, 具有毁损性; 调查全国居民的年收入, 总体规模过大, 逐一调查成本过高. 二者都只能用抽样调查. $\blacksquare$
+
+## 练习二
+
+(练习 9.1 第 2 题) 如图, 由均匀材质制成的一个正二十面体 (每个面都是正三角形), 将 20 个面平分成 10 组, 第 1 组标上 0, 第 2 组标上 1, $\cdots$, 第 10 组标上 9.
+
+(1) 投掷正二十面体, 若把朝上一面的数字作为投掷结果, 则出现 $0,1,2,\cdots,9$ 是等可能的吗?
+
+(2) 三个正二十面体分别涂上红, 黄, 蓝三种颜色, 分别代表百位, 十位, 个位, 同时投掷可以产生一个三位数 (百位为 0 的也看作三位数), 它是 $000\sim999$ 范围内的随机数吗?
+
+(题图: 一个正二十面体, 每个面都是正三角形, 20 个面上分别标有数字 $0\sim9$.)
+
+### 解答 练习二
+
+由**定义 9.1.3 (简单随机抽样)**, 随机数要求每个可能结果被取到的概率相等.
+
+(1) 正二十面体由均匀材质制成, 其 20 个面朝上是等可能的, 每个面朝上的概率为 $\frac{1}{20}$. 20 个面平分成 10 组, 每组恰有 2 个面, 故数字 $0,1,\cdots,9$ 中每个数字朝上的概率都是 $\frac{2}{20}=\frac{1}{10}$, 彼此相等, 即出现 $0,1,2,\cdots,9$ 是等可能的.
+
+(2) 三个正二十面体同时投掷, 百位, 十位, 个位各自独立地等可能地取 $0\sim9$ 中的数字, 故每一个三位数 $abc$ ($a,b,c\in\left\{0,1,\cdots,9\right\}$) 出现的概率都是 $\frac{1}{10}\cdot\frac{1}{10}\cdot\frac{1}{10}=\frac{1}{1000}$. 而 $000\sim999$ 恰有 1000 个三位数, 每个被取到的概率相等, 故它是 $000\sim999$ 范围内的随机数. $\blacksquare$
+
+## 练习三
+
+(练习 9.1 第 3 题) 实验室的笼子里共有 100 只小白鼠, 现要从中抽取 10 只作试验用. 下列两种情况是否属于简单随机抽样? 请说明理由.
+
+(1) 每次不经任何挑选地抓一只, 抓满 10 只为止;
+
+(2) 将笼中的 100 只小白鼠按 $1\sim100$ 编号, 任意选出编号范围内的 10 个不重复数字, 把相应编号的小白鼠作为试验用的小白鼠.
+
+### 解答 练习三
+
+由**定义 9.1.3 (简单随机抽样)**, 不放回简单随机抽样要求每次抽取时总体内未进入样本的各个个体被抽到的概率都相等.
+
+(1) 不属于简单随机抽样. "不经任何挑选地抓一只" 受抓取者的动作, 位置等人为因素影响, 不能保证笼中每只小白鼠在每次被抓时被抽到的概率都相等, 故不符合**定义 9.1.3 (简单随机抽样)**.
+
+(2) 属于简单随机抽样. 先将 100 只小白鼠编号 $1\sim100$, 再从中任取 10 个不重复的编号, 每个编号被取到的概率相等, 即每只小白鼠被抽中的概率相等, 且抽取是不放回的, 符合**定义 9.1.3 (简单随机抽样)** 中不放回简单随机抽样的要求. $\blacksquare$
+
+## 练习四
+
+(练习 9.1 第 4 题) 如果计算器只能生成 $\left[0,1\right)$ 内的随机数, 你有办法把它转化为 $1\sim100$ 范围内的整数随机数吗? 转化为 $1\sim712$ 范围内的整数随机数呢?
+
+### 解答 练习四
+
+由**定义 9.1.3 (简单随机抽样)**, 转化后的整数随机数应使 $1\sim100$ (或 $1\sim712$) 中每个整数被取到的概率相等.
+
+设计算器生成的随机数为 $U$, 它在 $\left[0,1\right)$ 上均匀分布.
+
+要转化为 $1\sim100$ 范围内的整数随机数, 只需取
+
+$$
+\left\lfloor 100U\right\rfloor+1.
+$$
+
+因为 $0\le U< 1$, 所以 $0\le 100U< 100$, 从而 $\lfloor 100U\rfloor$ 取遍 $0,1,\cdots,99$, 加 1 后恰为 $1,2,\cdots,100$, 且每个整数出现的概率都是 $\frac{1}{100}$.
+
+同理, 要转化为 $1\sim712$ 范围内的整数随机数, 只需取
+
+$$
+\left\lfloor 712U\right\rfloor+1.
+$$
+
+因为 $0\le 712U< 712$, 所以 $\lfloor 712U\rfloor$ 取遍 $0,1,\cdots,711$, 加 1 后恰为 $1,2,\cdots,712$, 且每个整数出现的概率都是 $\frac{1}{712}$. $\blacksquare$
+
+## 练习五
+
+(练习 9.1 第 5 题) 在抽样调查中, 请你说说通过 "随机" 选择样本的优, 缺点.
+
+### 解答 练习五
+
+由**定义 9.1.3 (简单随机抽样)**, 随机抽样使总体中每个个体被抽到的概率相等, 避免了人为挑选样本时的主观偏好.
+
+优点: 随机抽取排除了人为选择的主观偏差, 使样本对总体具有较好的代表性, 从而可以用样本客观地估计和推断总体.
+
+缺点: 样本的选取是随机的, 由此算出的样本平均数等统计量也具有随机性, 不同样本得到的结果往往不同, 抽样误差不可避免; 当总体很大时, 对所有个体编号等准备工作费事, 抽中的个体往往分散, 实施调查也有困难. $\blacksquare$
+
+## 练习六
+
+(练习 9.1 第 6 题) 为了合理调配电力资源, 某市欲了解全市 50000 户居民的日用电量. 若通过简单随机抽样从中抽取了 300 户进行调查, 得到其日用电量的平均数为 $5.5\,\mathrm{kW\cdot h}$, 则可以推测全市居民用户日用电量的平均数 ($\;\_\_\;$).
+
+(A) 一定为 $5.5\,\mathrm{kW\cdot h}$
+
+(B) 高于 $5.5\,\mathrm{kW\cdot h}$
+
+(C) 低于 $5.5\,\mathrm{kW\cdot h}$
+
+(D) 约为 $5.5\,\mathrm{kW\cdot h}$
+
+### 解答 练习六
+
+由**定义 9.1.4 (总体均值与样本均值)**, 在简单随机抽样中, 用样本平均数估计总体平均数.
+
+样本平均数 $5.5\,\mathrm{kW\cdot h}$ 是对总体平均数的一个估计值. 由于样本的选取是随机的, 样本平均数具有随机性, 它一般不会恰好等于总体平均数, 只能说总体平均数约为 $5.5\,\mathrm{kW\cdot h}$, 而不能说一定为, 高于或低于该值. 故选 (D). $\blacksquare$
+
+## 练习七
+
+(练习 9.1 第 7 题) 在学生身高的调查中, 小明和小华分别独立进行了简单随机抽样调查. 小明调查的样本平均数为 $166.4$, 样本量为 100; 小华调查的样本平均数为 $164.7$, 样本量为 200. 你更愿意把哪个值作为总体平均数的估计? 是不是你选的值一定比另一个更接近总体平均数? 说说你的理由.
+
+### 解答 练习七
+
+由**定义 9.1.4 (总体均值与样本均值)**, 样本平均数是总体平均数的估计, 样本量越大, 样本平均数在总体平均数附近波动的幅度越小.
+
+更愿意把小华调查的样本平均数 $164.7$ 作为总体平均数的估计. 因为样本量为 200 比样本量为 100 大, 样本平均数的波动幅度更小, 一般说来更接近总体平均数.
+
+但所选的值不一定比另一个更接近总体平均数. 因为样本的选取是随机的, 样本平均数也具有随机性, 样本量小的样本也可能恰好抽到一个离总体平均数很近的样本, 而样本量大的样本也可能恰好偏离较远. 只能说样本量大的样本平均数 "更可能" 接近总体平均数, 而不是 "一定" 更接近. $\blacksquare$
+
+## 练习八
+
+(练习 9.1 第 8 题) 找一组数据作为总体, 自行设定样本量, 进行多次简单随机抽样. 观察样本量对估计总体平均数的影响, 并试着解释其中的原因.
+
+### 解答 练习八
+
+由**定义 9.1.4 (总体均值与样本均值)**, 样本平均数用于估计总体平均数, 且样本平均数具有随机性.
+
+取一组数据作为总体, 先算出其总体平均数. 固定一个样本量, 从总体中进行多次简单随机抽样, 分别算出各次样本的平均数, 观察它们在总体平均数附近的波动情况; 再换一个更大的样本量重复上述试验.
+
+可以观察到: 样本量越大, 各次样本平均数越集中在总体平均数附近, 波动幅度越小; 样本量越小, 样本平均数的波动幅度越大.
+
+原因在于: 样本量越大, 样本中不同取值的比例越接近总体中相应取值的比例, 样本平均数越接近总体平均数; 但样本量的增大也会带来人力, 费用, 时间等成本的增加, 故样本量应根据实际问题的需要来选择, 并非越大越好. $\blacksquare$
+
+## 练习九
+
+(练习 9.1 第 9 题) 数据 $x_1,x_2,\cdots,x_m$ 的平均数为 $\overline x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline y$, 证明:
+
+$$
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
+$$
+
+### 解答 练习九
+
+由**定义 9.1.4 (总体均值与样本均值)**, 平均数等于数据之和除以数据个数.
+
+由 $\overline x=\frac{1}{m}\sum_{i=1}^{m}x_i$, 得 $\sum_{i=1}^{m}x_i=m\overline x$; 由 $\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i$, 得 $\sum_{i=1}^{n}y_i=n\overline y$.
+
+把两组数据合并, 其数据之和为 $\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i$, 数据个数为 $m+n$, 故合并后数据的平均数为
+
+$$
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\overline x+n\overline y}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
+$$
+
+原式得证. $\blacksquare$
+
+## 练习十
+
+(练习 9.1 第 10 题) 有人说: "如果抽样方法设计得好, 用样本进行视力调查与对 24300 名学生进行视力普查的结果差不多. 而且对于想要掌握学生视力状况的教育部门来说, 节省了人力, 物力和财力, 抽样调查更可取." 你认为这种说法有道理吗? 为什么?
+
+### 解答 练习十
+
+由**定义 9.1.1 (普查与抽样调查)** 与**定义 9.1.4 (总体均值与样本均值)**.
+
+这种说法有一定道理, 但不完全. 当抽样方法设计得好, 样本对总体具有较好的代表性时, 样本估计值与普查结果确实相差不大, 而且抽样调查只调查一部分个体, 花费少, 效率高, 节省人力, 物力和财力, 这是抽样调查的优点.
+
+但抽样调查是用样本估计总体, 由于样本的随机性, 估计结果与真实的普查结果之间总存在一定的抽样误差, 它不能像普查那样得到总体的精确值. 因此, 对需要精确掌握每名学生视力状况的场合, 普查仍有其不可替代的作用; 而对只需大致掌握学生视力整体状况的教育部门, 设计良好的抽样调查是更经济合理的选择. $\blacksquare$
+
+## 练习十一
+
+(练习 9.1 第 11 题) 高二年级有男生 490 人, 女生 510 人, 张华按男生, 女生进行分层, 通过分层随机抽样的方法, 得到男生, 女生的平均身高分别为 $170.2\,\mathrm{cm}$ 和 $160.8\,\mathrm{cm}$.
+
+(1) 如果张华在各层中按比例分配样本, 总样本量为 100, 那么在男生, 女生中分别抽取了多少名? 在这种情况下, 请估计高二年级全体学生的平均身高.
+
+(2) 如果张华从男生, 女生中抽取的样本量分别为 30 和 70, 那么在这种情况下, 如何估计高二年级全体学生的平均身高更合理?
+
+### 解答 练习十一
+
+由**定义 9.1.5 (分层随机抽样, 层与比例分配)** 与**常用结论 9.1.6** (分层随机抽样的总体平均数估计).
+
+(1) 按比例分配时, 男生应抽取
+
+$$
+\frac{490}{490+510}\times100=\frac{490}{1000}\times100=49
+$$
+
+名, 女生应抽取
+
+$$
+\frac{510}{490+510}\times100=\frac{510}{1000}\times100=51
+$$
+
+名.
+
+在比例分配下, 由**常用结论 9.1.6**, 可直接用样本平均数估计总体平均数. 也即按各层人数加权:
+
+$$
+\frac{490\times170.2+510\times160.8}{1000}=\frac{83398+82008}{1000}=165.406\approx165.4.
+$$
+
+故估计高二年级全体学生的平均身高约为 $165.4\,\mathrm{cm}$.
+
+(2) 当男生, 女生样本量分别为 30 和 70 时, 样本量不是按比例分配的 (男生层大却抽得少). 此时不能直接用 $\frac{30\times170.2+70\times160.8}{100}$ 估计总体平均数, 而应按各层的总体人数加权, 即
+
+$$
+\frac{490\times170.2+510\times160.8}{1000}\approx165.4\,\mathrm{cm}.
+$$
+
+这样估计才合理. $\blacksquare$
+
+## 练习十二
+
+(练习 9.1 第 12 题) 要调查全市普通高中高一年级学生中患色盲的比例, 小明根据性别对总体进行分层, 用分层随机抽样的方法进行调查. 请你查阅有关资料, 说说这样的分层是否合理. 你觉得在选择分层变量时应注意什么?
+
+### 解答 练习十二
+
+由**定义 9.1.5 (分层随机抽样, 层与比例分配)**, 分层的目的是把总体分成层间差异明显, 层内差异不大的若干层, 从而避免 "极端" 样本, 提高估计效果.
+
+色盲的发病与性别密切相关, 男性患色盲的比例明显高于女性, 而同一性别内部患色盲的比例差异较小. 因此按性别分层后, 男, 女两层之间色盲比例差异明显, 每层内部差异不大, 这样的分层是合理的, 能有效提高估计全市高一年级学生色盲比例的精度.
+
+选择分层变量时应注意: 分层变量要与所考察的指标 (这里是是否患色盲) 密切相关, 使各层之间差异明显, 而每一层内部的差异尽量小; 同时各层都要有足够多的个体, 以便在层内进行随机抽样. $\blacksquare$
+
+## 练习十三
+
+(练习 9.1 第 13 题) 请从国家统计局网站上查找我国水资源及其使用情况的一些数据, 根据数据谈谈当前保护水资源的重要性.
+
+### 解答 练习十三
+
+由**定义 9.1.2 (总体, 个体, 样本与样本量)**, 通过查询国家统计局等权威部门公布的二手数据来了解我国水资源状况.
+
+从国家统计局公布的水资源数据可以看到: 我国人均水资源占有量远低于世界平均水平, 属于缺水国家; 同时随着经济发展和人口增加, 生产用水, 生活用水的需求量不断上升, 水资源供需矛盾突出, 水污染进一步加剧了水资源的紧张.
+
+由这些数据可知, 水资源是有限而宝贵的, 当前保护水资源, 节约用水, 防治水污染十分重要. 只有合理利用和保护水资源, 才能保障生产生活用水的可持续供应. $\blacksquare$
+
+## 练习十四
+
+(练习 9.1 第 14 题) 近视是青少年存在的普遍问题, 你能查找相关数据, 并利用数据说说近几年我国在防治青少年近视上取得的成效吗?
+
+### 解答 练习十四
+
+通过查阅国家卫生健康部门公布的青少年近视率监测数据, 可以了解近几年我国儿童青少年总体近视率的变化情况.
+
+由公布的数据可知, 随着近视防控工作的推进, 儿童青少年总体近视率得到一定控制, 防控工作取得了积极成效. 但同时也要看到, 近视率仍然较高, 防控任务依然艰巨, 需要学校, 家庭和社会共同努力, 继续加强户外活动和用眼卫生的宣传引导. $\blacksquare$
 
 ## 习题十三
 
-(习题 6.3 综合运用第 13 题) 已知 $A\left(2,3\right)$, $B\left(4,-3\right)$, 点 $P$ 在直线 $AB$ 上, 且 $\lvert\boldsymbol{AP}\rvert=\frac{3}{2}\lvert\boldsymbol{PB}\rvert$, 求点 $P$ 的坐标.
+(习题 9.1 复习巩固第 1 题) 下列情况中哪些适合用全面调查, 哪些适合用抽样调查? 说明理由.
+
+(1) 了解某城市居民的食品消费结构;
+
+(2) 调查一个县各村的粮食播种面积;
+
+(3) 了解某地区小学生中患沙眼的人数;
+
+(4) 了解一批玉米种子的发芽率;
+
+(5) 调查一条河流的水质;
+
+(6) 某企业想了解其产品在市场的占有率.
 
 ### 解答 习题十三
 
-由**常用结论 6.3.5** (共线的坐标表示).
+由**定义 9.1.1 (普查与抽样调查)**, 当总体规模小, 调查无毁损且需要精确结果时用全面调查; 当总体规模大或调查具有毁损性时用抽样调查.
 
-$\boldsymbol{AB}=\left(2,-6\right)$. 设 $P\left(x,y\right)$, $\boldsymbol{AP}=\left(x-2,y-3\right)$.
+(1) 城市居民户数众多, 逐一调查成本高, 适合用抽样调查.
 
-$\lvert\boldsymbol{AP}\rvert=\frac{3}{2}\lvert\boldsymbol{PB}\rvert$, 分两种情况:
+(2) 一个县的村数有限, 各村的粮食播种面积可以逐一统计, 适合用全面调查.
 
-(a) $P$ 在 $AB$ 延长线上: $\boldsymbol{AP}=\frac{3}{2}\boldsymbol{PB}$, $\boldsymbol{PB}=\left(4-x,-3-y\right)$.
+(3) 某地区小学生人数有限, 可通过体检逐一普查患沙眼的人数, 适合用全面调查.
 
-$x-2=\frac{3}{2}\left(4-x\right)$, $y-3=\frac{3}{2}\left(-3-y\right)$.
+(4) 测试种子发芽率会消耗种子, 具有毁损性, 只能用抽样调查.
 
-$2x-4=12-3x$, $x=\frac{16}{5}$. $2y-6=-9-3y$, $y=-\frac{3}{5}$.
+(5) 河流绵延很长, 无法对河水做全面普查, 只能抽取若干断面采样, 用抽样调查.
 
-(b) $P$ 在 $BA$ 延长线上: $\boldsymbol{AP}=-\frac{3}{2}\boldsymbol{PB}$, 解得 $x=8$, $y=-15$.
-
-故 $P\left(\frac{16}{5},-\frac{3}{5}\right)$ 或 $\left(8,-15\right)$. $\blacksquare$
+(6) 产品的市场占有率涉及大量消费者, 无法逐一调查, 适合用抽样调查. $\blacksquare$
 
 ## 习题十四
 
-(习题 6.3 综合运用第 14 题) 已知 $A\left(1,0\right)$, $B\left(5,-2\right)$, $\boldsymbol{a}=\left(x+1,x-3y-2\right)$, 且 $\boldsymbol{a}=2\boldsymbol{AB}$, 求 $x$, $y$.
+(习题 9.1 复习巩固第 2 题) 某刊物对其读者进行满意度调查, 调查表随刊物送到读者手中, 对寄回的调查表进行分析. 这是不是一项抽样调查? 样本抽取是不是属于简单随机抽样? 为什么?
 
 ### 解答 习题十四
 
-由**常用结论 6.3.4** (坐标运算).
+由**定义 9.1.2 (总体, 个体, 样本与样本量)** 与**定义 9.1.3 (简单随机抽样)**.
 
-$\boldsymbol{AB}=\left(4,-2\right)$. $2\boldsymbol{AB}=\left(8,-4\right)$.
+这是一项抽样调查, 因为刊物只对寄回调查表的那部分读者进行分析, 而非对全体读者都进行调查, 寄回调查表的读者构成了从全体读者中抽出的一个样本.
 
-$x+1=8$, $x=7$.
-
-$x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
+但样本抽取不属于简单随机抽样. 因为读者是否寄回调查表是自愿的, 对刊物满意或不满意的读者更倾向于寄回, 沉默的大多数不会寄回, 这使得每个读者被抽中的概率不相等, 样本带有明显的自我选择偏差, 不符合**定义 9.1.3 (简单随机抽样)** 中每个个体被抽到概率相等的要求. $\blacksquare$
 
 ## 习题十五
 
-(习题 6.3 拓广探索第 15 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k> 0$).
+(习题 9.1 复习巩固第 3 题) 中央电视台希望在春节联欢晚会播出后一周内获得该节目的收视率. 下面是三名同学为电视台设计的调查方案.
 
-(1) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
+同学 A: 我把这张春节联欢晚会收视率调查表放在互联网上, 只要上网登录该网址的人就可以看到这张表, 他们填写的信息可以很快地反馈到我的电脑中. 这样, 我就可以很快统计出收视率了.
 
-(2) 用 $k$ 表示 $\boldsymbol{a}\cdot\boldsymbol{b}$;
+同学 B: 我给我们居民小区的每一个住户发一份是否在除夕晚上看过中央电视台春节联欢晚会的调查表, 只要一两天就可以统计出收视率.
 
-(3) 求 $\boldsymbol{a}\cdot\boldsymbol{b}$ 的最小值, 并求此时 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角.
+同学 C: 我在一个电话号码本上随机地选出一定数量的手机号码, 然后逐个给他们打电话, 问一下手机用户是否收看了中央电视台春节联欢晚会, 我不出家门就可以统计出中央电视台春节联欢晚会的收视率.
+
+请问: 上述三名同学设计的调查方案获得比较准确的收视率的可能性大吗? 为什么?
 
 ### 解答 习题十五
 
-由**常用结论 6.3.8** (垂直与数量积).
+由**定义 9.1.3 (简单随机抽样)**, 样本要准确估计总体, 抽样框必须覆盖总体中的每一个个体.
 
-(1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. 故 $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+三名同学的方案获得比较准确收视率的可能性都不大, 原因如下.
 
-(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2\boldsymbol{a}^2+2k\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}$.
+(1) 同学 A 的方案只调查上网并登录该网址的人, 不上网的人, 不上该网址的人都被排除在样本之外, 样本不能代表全体电视观众, 存在严重的覆盖偏差.
 
-$3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=3\left(\boldsymbol{a}^2-2k\boldsymbol{a}\cdot\boldsymbol{b}+k^2\boldsymbol{b}^2\right)=3\left(1+k^2-2k\boldsymbol{a}\cdot\boldsymbol{b}\right)$.
+(2) 同学 B 的方案只调查一个居民小区的住户, 一个小区的住户结构与全国电视观众的结构相差很大, 样本范围过窄, 不能代表总体.
 
-等式: $k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}=3+3k^2-6k\boldsymbol{a}\cdot\boldsymbol{b}$.
+(3) 同学 C 的方案从电话号码本上随机选号, 方式上接近简单随机抽样, 但电话号码本不能覆盖所有观众, 不用手机或号码未登记的人被漏掉, 仍有覆盖偏差.
 
-$8k\boldsymbol{a}\cdot\boldsymbol{b}=2+2k^2$, $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k^2+1}{4k}$.
-
-(3) $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k}{4}+\frac{1}{4k}\ge 2\sqrt{\frac{k}{4}\cdot\frac{1}{4k}}=\frac{1}{2}$, 当 $k=1$ 时取最小值 $\frac{1}{2}$.
-
-此时 $\cos\theta=\frac{1}{2}$, $\theta=60^{\circ}$. $\blacksquare$
+三者的抽样框都不能覆盖 "全国电视观众" 这一总体, 故获得准确收视率的可能性都不大. $\blacksquare$
 
 ## 习题十六
 
-(习题 6.3 拓广探索第 16 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 其中 $0< \alpha< \beta< \pi$.
+(习题 9.1 复习巩固第 4 题) 下列从总体中抽得的样本是否为简单随机样本?
 
-(1) 求证: $\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}-\boldsymbol{b}$ 互相垂直;
+(1) 总体编号为 $1\sim75$, 在 $0\sim99$ 中产生随机整数 $r$. 若 $r=0$ 或 $r> 75$, 则舍弃, 重新抽取.
 
-(2) 若 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$, 求 $\beta-\alpha$ 的值.
+(2) 总体编号为 $1\sim75$, 在 $0\sim99$ 中产生随机整数 $r$, $r$ 除以 75 的余数作为抽中的编号. 若余数为 0, 则抽中 75.
+
+(3) 总体编号为 $6001\sim6876$, 在 $1\sim876$ 范围内产生一个随机整数 $r$, 把 $r+6000$ 作为抽中的编号.
 
 ### 解答 习题十六
 
-由**常用结论 6.3.8**.
+由**定义 9.1.3 (简单随机抽样)**, 简单随机样本要求总体中每个个体被抽中的概率相等.
 
-(1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. 故垂直.
+(1) 是简单随机样本. 在 $0\sim99$ 产生随机数后, 凡 $r=0$ 或 $r> 75$ 都舍弃重抽, 最终留下来的有效编号 $1\sim75$ 中, 每个编号被抽中的概率相等, 故得到的是简单随机样本.
 
-(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2+1+2k\cos\left(\beta-\alpha\right)$.
+(2) 不是简单随机样本. $r$ 取 $0\sim99$ 共 100 个值. 编号 1 对应 $r=1,76$, 编号 2 对应 $r=2,77$,..., 编号 24 对应 $r=24,99$, 编号 75 对应 $r=0,75$, 即编号 $1\sim24$ 和 75 各对应 2 个随机数, 被抽中的概率为 $\frac{2}{100}$; 而编号 $25\sim74$ 各只对应 1 个随机数, 被抽中的概率为 $\frac{1}{100}$. 各编号被抽中的概率不相等, 故不是简单随机样本.
 
-$\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=1+k^2-2k\cos\left(\beta-\alpha\right)$.
-
-等式: $2k\cos\left(\beta-\alpha\right)=-2k\cos\left(\beta-\alpha\right)$.
-
-$4k\cos\left(\beta-\alpha\right)=0$. $\cos\left(\beta-\alpha\right)=0$.
-
-$0< \beta-\alpha< \pi$, 故 $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
+(3) 是简单随机样本. 在 $1\sim876$ 产生随机整数 $r$, 每个 $r$ 与编号 $6001\sim6876$ 一一对应, 且每个 $r$ 被取到的概率相等, 故每个编号被抽中的概率相等, 得到的是简单随机样本. $\blacksquare$

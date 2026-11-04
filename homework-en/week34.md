@@ -1,699 +1,420 @@
 # week34
-> **Definition 6.2.11 (向量的数量积)**
+> **Definition 9.1.1 (普查与抽样调查)**
 > 
-> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
-> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
+> 对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
+> **Definition 9.1.2 (Population, Individual, Sample, Sample Size)**
 > 
-> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
-> **Theorem 6.4.2 (Law of Cosines)**
+> 统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
+> **Definition 9.1.3 (简单随机抽样)**
 > 
-> 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
-> **Theorem 6.4.3 (Law of Sines)**
+> 设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
+> **Definition 9.1.4 (Population Mean and Sample Mean)**
 > 
-> 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
-
-## Exercise 1
-
-(Exercise 6.4, Problem 1) Prove that the two base angles of an isosceles triangle are equal.
-
-### Solution to Exercise 1
-
-By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method).
-
-Let $AB=AC$ in $\triangle ABC$. Take $\boldsymbol{AB}=\boldsymbol{c}$ and $\boldsymbol{AC}=\boldsymbol{b}$; then $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
-
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
-
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-\boldsymbol{b}\right)\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
-
-Since $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ and $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, we get $\cos B=\cos C$. Moreover $B$, $C\in\left(0,\pi\right)$, so $B=C$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 6.4, Problem 2) As shown in the figure, the square $ABCD$ has side length $a$, $E$ is the midpoint of $AB$, $F$ is the trisection point on side $BC$ closer to $B$, and $AF$ and $DE$ meet at $M$. Find the cosine of $\angle EMF$.
-
-The figure: square $ABCD$, with $E$ the midpoint of side $AB$ and $F$ the trisection point on side $BC$ nearer to $B$ (i.e. $BF=\frac{1}{3}BC$); the segments $AF$ and $DE$ are drawn and intersect at point $M$.
-
-### Solution to Exercise 2
-
-By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Theorem 6.4.2 (Law of Cosines)**.
-
-Set up coordinates with $A$ as the origin, $AB$ as the $x$-axis, and $AD$ as the $y$-axis. $A\left(0,0\right)$, $B\left(a,0\right)$, $C\left(a,a\right)$, $D\left(0,a\right)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
-
-$\boldsymbol{DE}=\left(\frac{a}{2},-a\right)$, $\boldsymbol{AF}=\left(a,\frac{a}{3}\right)$.
-
-$\angle EMF$ is the angle between $\boldsymbol{MD}$ and $\boldsymbol{MF}$. $\boldsymbol{MD}$ is collinear with $\boldsymbol{DE}$, and $\boldsymbol{MF}$ is collinear with $\boldsymbol{AF}$.
-
-$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+\left(-a\right)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 6.4, Problem 3) As shown in the figure, in $\triangle ABC$, $O$ is the midpoint of $BC$, and a line through $O$ meets the lines $AB$ and $AC$ at two distinct points $M$ and $N$. Let $\boldsymbol{AB}=m\boldsymbol{AM}$ and $\boldsymbol{AC}=n\boldsymbol{AN}$. Find the value of $m+n$.
-
-The figure: triangle $ABC$, with $O$ the midpoint of side $BC$; a line through $O$ meets the line $AB$ at point $M$ and the line $AC$ at point $N$ (with $M$ and $N$ distinct).
-
-### Solution to Exercise 3
-
-By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**.
-
-$\boldsymbol{AO}=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\frac{1}{2}\left(m\boldsymbol{AM}+n\boldsymbol{AN}\right)$.
-
-Since $O$ lies on the line $MN$, by the collinearity condition for three points, there exists $\lambda$ such that $\boldsymbol{AO}=\lambda\boldsymbol{AM}+\left(1-\lambda\right)\boldsymbol{AN}$.
-
-Comparing coefficients: $\frac{m}{2}=\lambda$, $\frac{n}{2}=1-\lambda$.
-
-$m+n=2\lambda+2\left(1-\lambda\right)=2$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 6.4, Problem 4) Under the action of a force $\boldsymbol{F}$, an object moves from $A\left(20,15\right)$ to $B\left(7,0\right)$. Given $\boldsymbol{F}=\left(4,-5\right)$, find the work done by $\boldsymbol{F}$ on the object.
-
-### Solution to Exercise 4
-
-By **Definition 6.2.11 (Dot Product)**, work equals the dot product of force and displacement.
-
-The displacement $\boldsymbol{s}=\boldsymbol{AB}=\left(7-20,0-15\right)=\left(-13,-15\right)$.
-
-The work $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times\left(-13\right)+\left(-5\right)\times\left(-15\right)=-52+75=23$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 6.4, Problem 5) As shown in the figure, a pulley system has two fixed pulleys $A$ and $B$; at the ends of three ropes leaving the connecting point $O$, $3$ weights are hung, subject to gravitational forces of $4\text{ N}$, $4\text{ N}$, and $4\sqrt 3\text{ N}$, respectively. The system is exactly in equilibrium. Find the size of $\angle AOB$.
-
-The figure: a pulley-system diagram with two fixed pulleys $A$ and $B$ above; from the junction point $O$ below three ropes extend: two ropes pass over the fixed pulleys $A$ and $B$ and each hangs a weight of $4\text{ N}$, while the third rope hangs vertically downward a weight of $4\sqrt 3\text{ N}$, and the whole system is in equilibrium.
-
-### Solution to Exercise 5
-
-By **Definition 6.2.11 (Dot Product)** and **Theorem 6.4.2 (Law of Cosines)**.
-
-Let $\boldsymbol{OA}$ and $\boldsymbol{OB}$ each have magnitude $4$, and the third rope points downward with magnitude $4\sqrt 3$. In equilibrium, $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
-
-$\boldsymbol{OC}=-\left(\boldsymbol{OA}+\boldsymbol{OB}\right)$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
-
-$\left(4\sqrt 3\right)^2=16+16+2\times16\cos\angle AOB$.
-
-$48=32+32\cos\angle AOB$.
-
-$\cos\angle AOB=\frac{1}{2}$, $\angle AOB=60^{\circ}$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 6.4, Problem 6) Three coplanar forces $\boldsymbol{F}_1$, $\boldsymbol{F}_2$, $\boldsymbol{F}_3$ act at a point and are in equilibrium. Given $\lvert\boldsymbol{F}_1\rvert=1\text{ N}$, $\lvert\boldsymbol{F}_2\rvert=\frac{\sqrt 6+\sqrt 2}{2}\text{ N}$, and the angle between $\boldsymbol{F}_1$ and $\boldsymbol{F}_2$ is $45^{\circ}$, find:
-
-(1) the magnitude of $\boldsymbol{F}_3$;
-
-(2) the size of the angle between $\boldsymbol{F}_3$ and $\boldsymbol{F}_1$.
-
-### Solution to Exercise 6
-
-By **Definition 6.2.11 (Dot Product)** and **Theorem 6.4.2 (Law of Cosines)**.
-
-In equilibrium, $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$.
-
-(1) $\lvert\boldsymbol{F}_1+\boldsymbol{F}_2\rvert^2=\lvert\boldsymbol{F}_1\rvert^2+\lvert\boldsymbol{F}_2\rvert^2+2\boldsymbol{F}_1\cdot\boldsymbol{F}_2$.
-
-$=1+\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2+2\times1\times\frac{\sqrt 6+\sqrt 2}{2}\times\cos45^{\circ}$.
-
-$\left(\frac{\sqrt 6+\sqrt 2}{2}\right)^2=\frac{8+4\sqrt 3}{4}=2+\sqrt 3$.
-
-$2\times\frac{\sqrt 6+\sqrt 2}{2}\times\frac{\sqrt 2}{2}=\frac{\sqrt 6+\sqrt 2}{\sqrt 2}=\sqrt 3+1$.
-
-$\lvert\boldsymbol{F}_3\rvert^2=1+2+\sqrt 3+\sqrt 3+1=4+2\sqrt 3=\left(\sqrt 3+1\right)^2$.
-
-$\lvert\boldsymbol{F}_3\rvert=\sqrt 3+1\text{ N}$.
-
-(2) Let the angle between $\boldsymbol{F}_3$ and $\boldsymbol{F}_1$ be $\theta$. $\boldsymbol{F}_3=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)$, 
-
-$\boldsymbol{F}_3\cdot\boldsymbol{F}_1=-\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_1=-\left(1+\frac{\sqrt 6+\sqrt 2}{2}\cos45^{\circ}\right)=-\left(1+\sqrt 3\right)$.
-
-$\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\left(\sqrt 3+1\right)\times1}=-1$. $\theta=180^{\circ}$? The direction of the angle must be considered.
-
-Correction: the angle between $\boldsymbol{F}_3$ and $\boldsymbol{F}_1$ (taken from $0$ to $180^{\circ}$) satisfies $\cos\theta=\frac{-\left(1+\sqrt 3\right)}{\sqrt 3+1}=-1$, i.e. they point in opposite directions. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 6.4, Problem 7) In $\triangle ABC$, given $b=12.9\text{ cm}$, $c=15.4\text{ cm}$, $A=42.3^{\circ}$, solve the triangle (angles to the nearest $0.1^{\circ}$, sides to the nearest $0.1\text{ cm}$).
-
-### Solution to Exercise 7
-
-By **Theorem 6.4.2 (Law of Cosines)**.
-
-$a^2=b^2+c^2-2bc\cos A=12.9^2+15.4^2-2\times12.9\times15.4\times\cos42.3^{\circ}$.
-
-$=166.41+237.16-397.32\times0.740\approx403.57-294.0\approx109.6$.
-
-$a\approx10.5\text{ cm}$.
-
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{109.6+237.16-166.41}{2\times10.5\times15.4}=\frac{180.35}{323.4}\approx0.558$.
-
-$B\approx56.1^{\circ}$.
-
-$C=180^{\circ}-42.3^{\circ}-56.1^{\circ}=81.6^{\circ}$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 6.4, Problem 8) In $\triangle ABC$, given $a=2$, $b=\sqrt 2$, $c=\sqrt 3+1$, solve the triangle.
-
-### Solution to Exercise 8
-
-By **Theorem 6.4.2 (Law of Cosines)**.
-
-$\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{2+\left(\sqrt 3+1\right)^2-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+4+2\sqrt 3-4}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{2+2\sqrt 3}{2\sqrt 2\left(\sqrt 3+1\right)}=\frac{\sqrt 2}{2}$.
-
-$A=45^{\circ}$.
-
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{4+4+2\sqrt 3-2}{2\times2\times\left(\sqrt 3+1\right)}=\frac{6+2\sqrt 3}{4\left(\sqrt 3+1\right)}=\frac{\sqrt 3}{2}$.
-
-$B=30^{\circ}$.
-
-$C=180^{\circ}-45^{\circ}-30^{\circ}=105^{\circ}$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 6.4, Problem 9) In $\triangle ABC$, given $b=5$, $c=2$, and the acute angle $A$ satisfies $\sin A=\frac{\sqrt{21}}{5}$, find $C$ (to the nearest $1^{\circ}$).
-
-### Solution to Exercise 9
-
-By **Theorem 6.4.2 (Law of Cosines)**.
-
-$\cos A=\sqrt{1-\frac{21}{25}}=\frac{2}{5}$.
-
-$a^2=b^2+c^2-2bc\cos A=25+4-2\times5\times2\times\frac{2}{5}=29-8=21$.
-
-$a=\sqrt{21}$.
-
-By **Theorem 6.4.3 (Law of Sines)**: $\sin C=\frac{c\sin A}{a}=\frac{2\cdot\frac{\sqrt{21}}{5}}{\sqrt{21}}=\frac{2}{5}$.
-
-$C=\arcsin\frac{2}{5}\approx24^{\circ}$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 6.4, Problem 10) Complete the following triangle-solving problems (angles to the nearest $1^{\circ}$, sides to the nearest $1\text{ cm}$):
-
-(1) In $\triangle ABC$, given $A=60^{\circ}$, $B=45^{\circ}$, $c=20\text{ cm}$;
-
-(2) In $\triangle ABC$, given $a=20\text{ cm}$, $b=11\text{ cm}$, $B=30^{\circ}$.
-
-### Solution to Exercise 10
-
-By **Theorem 6.4.3 (Law of Sines)**.
-
-(1) $C=180^{\circ}-60^{\circ}-45^{\circ}=75^{\circ}$.
-
-$a=\frac{c\sin A}{\sin C}=\frac{20\sin60^{\circ}}{\sin75^{\circ}}=\frac{20\cdot\frac{\sqrt 3}{2}}{\frac{\sqrt 6+\sqrt 2}{4}}\approx\frac{17.32}{0.966}\approx18\text{ cm}$.
-
-$b=\frac{c\sin B}{\sin C}=\frac{20\sin45^{\circ}}{\sin75^{\circ}}\approx\frac{14.14}{0.966}\approx15\text{ cm}$.
-
-(2) $\sin A=\frac{a\sin B}{b}=\frac{20\times0.5}{11}=\frac{10}{11}\approx0.909$.
-
-$A\approx65^{\circ}$ or $A\approx115^{\circ}$.
-
-(a) $A\approx65^{\circ}$: $C=180^{\circ}-65^{\circ}-30^{\circ}=85^{\circ}$. $c=\frac{b\sin C}{\sin B}=\frac{11\times\sin85^{\circ}}{0.5}\approx22\text{ cm}$.
-
-(b) $A\approx115^{\circ}$: $C=180^{\circ}-115^{\circ}-30^{\circ}=35^{\circ}$. $c=\frac{11\times\sin35^{\circ}}{0.5}\approx13\text{ cm}$. $\blacksquare$
-
-## Exercise 11
-
-(Exercise 6.4, Problem 11) In $\triangle ABC$, given $b=2$, $A=45^{\circ}$, $C=75^{\circ}$, find $c$.
-
-### Solution to Exercise 11
-
-By **Theorem 6.4.3 (Law of Sines)**.
-
-$B=180^{\circ}-45^{\circ}-75^{\circ}=60^{\circ}$.
-
-$c=\frac{b\sin C}{\sin B}=\frac{2\sin75^{\circ}}{\sin60^{\circ}}=\frac{2\cdot\frac{\sqrt 6+\sqrt 2}{4}}{\frac{\sqrt 3}{2}}=\frac{\sqrt 6+\sqrt 2}{\sqrt 3}=\frac{3\sqrt 2+\sqrt 6}{3}$. $\blacksquare$
-
-## Exercise 12
-
-(Exercise 6.4, Problem 12) In $\triangle ABC$, given $\cos A=\frac{4}{5}$, $B=\frac{\pi}{3}$, $b=\sqrt 3$, find $a$ and $c$.
-
-### Solution to Exercise 12
-
-By **Theorem 6.4.3 (Law of Sines)**.
-
-$\sin A=\sqrt{1-\frac{16}{25}}=\frac{3}{5}$.
-
-$a=\frac{b\sin A}{\sin B}=\frac{\sqrt 3\cdot\frac{3}{5}}{\frac{\sqrt 3}{2}}=\frac{6}{5}$.
-
-$C=180^{\circ}-A-B$. $\sin C=\sin\left(A+B\right)=\sin A\cos B+\cos A\sin B=\frac{3}{5}\cdot\frac{1}{2}+\frac{4}{5}\cdot\frac{\sqrt 3}{2}=\frac{3+4\sqrt 3}{10}$.
-
-$c=\frac{b\sin C}{\sin B}=\frac{\sqrt 3\cdot\frac{3+4\sqrt 3}{10}}{\frac{\sqrt 3}{2}}=\frac{3+4\sqrt 3}{5}$. $\blacksquare$
-
-## Exercise 13
-
-(Exercise 6.4, Problem 13) As shown in the figure, from a point $B$ the angle of elevation to the top $A$ of a building $AE$ is measured as $\alpha$; moving forward along $BE$, from a point $C$ the angle of elevation to $A$ is $2\alpha$; continuing forward $10\sqrt{3}\text{ m}$ to a point $D$, the angle of elevation to $A$ is $4\alpha$. Find the height of the building $AE$.
-
-The figure: the vertical building $AE$ ($E$ on the ground, $A$ its top); an observer at point $B$ on the ground measures the angle of elevation to $A$ as $\alpha$, walks forward along $BE$ to point $C$ where the elevation angle is $2\alpha$, then walks another $10\sqrt 3\text{ m}$ to point $D$ where the elevation angle is $4\alpha$; $B$, $C$, $D$, and $E$ lie on the same horizontal line.
-
-### Solution to Exercise 13
-
-By **Theorem 6.4.3 (Law of Sines)**.
-
-Let $AE=h$. In $\triangle ACE$, $\angle ACE=2\alpha$, $CE=\frac{h}{\tan 2\alpha}$. In $\triangle ADE$, $\angle ADE=4\alpha$, $DE=\frac{h}{\tan 4\alpha}$.
-
-$CD=CE-DE=10\sqrt 3$.
-
-In $\triangle ACD$, $\angle CAD=4\alpha-2\alpha=2\alpha$, $\angle ACD=180^{\circ}-2\alpha$, $\angle ADC=180^{\circ}-4\alpha$.
-
-By the law of sines: $\frac{CD}{\sin 2\alpha}=\frac{AC}{\sin\left(180^{\circ}-4\alpha\right)}$.
-
-$AC=\frac{10\sqrt 3\sin4\alpha}{\sin2\alpha}=20\sqrt 3\cos2\alpha$.
-
-Also $h=AC\sin2\alpha=20\sqrt 3\sin2\alpha\cos2\alpha=10\sqrt 3\sin4\alpha$.
-
-When $4\alpha=90^{\circ}$ (i.e. $\alpha=22.5^{\circ}$), $h=10\sqrt 3\text{ m}$. $\blacksquare$
+> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **Definition 9.1.5 (Stratified Random Sampling)**
+> 
+> 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
+> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**
+> 
+> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
+> **Definition 9.2.2 (第 p 百分位数)**
+> 
+> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
+> **Definition 9.2.3 (Mode, Median, and Mean)**
+> 
+> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
+> **Definition 9.2.4 (Variance and Standard Deviation)**
+> 
+> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
 ## Problem 1
 
-(Exercise 6.4, Review and Consolidation, Problem 1) If the nonzero vectors $\boldsymbol{AB}$ and $\boldsymbol{AC}$ satisfy $\left(\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}+\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}\right)\cdot\boldsymbol{BC}=0$, and $\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}\cdot\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}=\frac{1}{2}$, then $\triangle ABC$ is ( ).
-
-(A) a scalene triangle (B) a right triangle
-
-(C) an isosceles triangle whose base and legs are unequal (D) an equilateral triangle
+(Exercise 9.1, Comprehensive Application, Problem 6) The average of the data $x_1,x_2,\cdots,x_n$ is $\overline x$, the average of the data $y_1,y_2,\cdots,y_n$ is $\overline y$, and $a,b$ are constants. If $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, prove that $\overline y=a\overline x+b$.
 
 ### Solution to Problem 1
 
-By **Definition 6.2.11 (Dot Product)** and **Common Conclusion 6.3.8** (Angle).
+By **Common Result 9.1.7** (Effect of Data Transformation on the Mean).
 
-$\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}$ and $\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}$ are the unit vectors in the directions of $\boldsymbol{AB}$ and $\boldsymbol{AC}$. Their sum points along the angle bisector of $\angle A$. This sum is perpendicular to $\boldsymbol{BC}$, which means the angle bisector is perpendicular to $BC$, so $AB=AC$.
+Because $y_i=ax_i+b$ ($i=1,2,\cdots,n$), we have
 
-$\frac{\boldsymbol{AB}}{\lvert\boldsymbol{AB}\rvert}\cdot\frac{\boldsymbol{AC}}{\lvert\boldsymbol{AC}\rvert}=\cos A=\frac{1}{2}$, $A=60^{\circ}$.
+$$
+\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\overline x+b.
+$$
 
-Isosceles with one angle $60^{\circ}$, hence equilateral. Choose (D). $\blacksquare$
+This proves the original identity. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 6.4, Review and Consolidation, Problem 2) Given that $O$, $N$, $P$ lie in the plane of $\triangle ABC$, satisfy $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\rvert$, $\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$, and $\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}=\boldsymbol{PC}\cdot\boldsymbol{PA}$, then the points $O$, $N$, $P$ are, in order, the ( ) of $\triangle ABC$.
+(Exercise 9.1, Comprehensive Application, Problem 7) Given that the population is divided into 3 strata, and through stratified random sampling the stratum sample averages are obtained as $\overline x,\overline y,\overline z$.
 
-(A) centroid, circumcenter, orthocenter (B) centroid, circumcenter, incenter
+(1) Based on the above information, can the population average be estimated? If not, what additional condition is needed? Write the estimation formula.
 
-(C) circumcenter, centroid, orthocenter (D) circumcenter, centroid, incenter
+(2) If the sample size is proportionally allocated and the individual counts of the 1st, 2nd, 3rd strata are $L,M,N$ with sample sizes $l,m,n$, prove that
+
+$$
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+$$
 
 ### Solution to Problem 2
 
-By **Definition 6.2.11 (Dot Product)**.
+By **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)** and **Common Result 9.1.6** (Estimating the Population Mean by Stratified Random Sampling).
 
-$\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OB}\rvert=\lvert\boldsymbol{OC}\rvert$ means $O$ is equidistant from the three vertices, so $O$ is the circumcenter.
+(1) From the stratum sample averages $\overline x,\overline y,\overline z$ alone one cannot estimate the population average; one also needs to know the proportion each stratum occupies in the population (i.e. the individual count or sample size of each stratum) in order to weight the stratum sample averages. The estimation formula is
 
-$\boldsymbol{NA}+\boldsymbol{NB}+\boldsymbol{NC}=\boldsymbol{0}$ means $N$ is the centroid (centroid property).
+$$
+\overline W=\frac{L\overline x+M\overline y+N\overline z}{L+M+N},
+$$
 
-$\boldsymbol{PA}\cdot\boldsymbol{PB}=\boldsymbol{PB}\cdot\boldsymbol{PC}$ gives $\boldsymbol{PB}\cdot\left(\boldsymbol{PA}-\boldsymbol{PC}\right)=\boldsymbol{PB}\cdot\boldsymbol{CA}=0$, i.e. $PB\perp CA$. Similarly, $P$ is the orthocenter.
+where $L,M,N$ are the individual counts of the 1st, 2nd, 3rd strata respectively.
 
-Choose (C). $\blacksquare$
+(2) Under proportional allocation, each stratum's sample size is proportional to the stratum size, i.e.
+
+$$
+\frac{l}{L}=\frac{m}{M}=\frac{n}{N}=\frac{l+m+n}{L+M+N}.
+$$
+
+From $\frac{l}{L}=\frac{l+m+n}{L+M+N}$, we get $\frac{L}{L+M+N}=\frac{l}{l+m+n}$; similarly $\frac{M}{L+M+N}=\frac{m}{l+m+n}$, $\frac{N}{L+M+N}=\frac{n}{l+m+n}$.
+
+Substituting gives
+
+$$
+\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+$$
+
+This proves the original identity. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 6.4, Review and Consolidation, Problem 3) Prove by the vector method: the angle inscribed in a semicircle is a right angle.
+(Exercise 9.1, Comprehensive Application, Problem 8) The student union wants to survey students' opinions on this semester's student-activity plan. You volunteer to be an interviewer and plan to draw $10\%$ of the students in the school as a sample.
+
+(1) How should the sampling be arranged to improve the representativeness of the sample?
+
+(2) What problems might you encounter in the survey?
+
+(3) What might these problems affect?
+
+(4) How do you plan to solve these problems?
 
 ### Solution to Problem 3
 
-By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Common Conclusion 6.3.8** (Perpendicularity).
+By **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)** and **Definition 9.1.3 (Simple Random Sampling)**.
 
-Let the center be $O$, the diameter be $AB$, and $C$ be any point on the circle. $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OA}=-\boldsymbol{c}$, $\boldsymbol{OB}=\boldsymbol{c}$.
+(1) To improve the representativeness of the sample, one may stratify the whole school's students by grade or class, so that the proportion of each grade and class in the sample matches their proportion among all students, and then carry out simple random sampling within each stratum—i.e. adopt proportionally allocated stratified random sampling.
 
-$\boldsymbol{AC}=\boldsymbol{c}-\left(-\boldsymbol{c}\right)=2\boldsymbol{c}$? Correction: let $\boldsymbol{OA}=\boldsymbol{a}$; then $\boldsymbol{OB}=-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{c}\rvert=R$.
+(2) Possible problems: selected students are unwilling to fill in the questionnaire, so the response rate is low; the sample is scattered across many classes, making the survey time-consuming; the sample size is small, so individual students' opinions greatly affect the result.
 
-$\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{c}-\left(-\boldsymbol{a}\right)=\boldsymbol{c}+\boldsymbol{a}$.
+(3) These problems lower the response rate and representativeness of the sample, making the survey result deviate from the true opinions of all students.
 
-$\boldsymbol{AC}\cdot\boldsymbol{BC}=\left(\boldsymbol{c}-\boldsymbol{a}\right)\cdot\left(\boldsymbol{c}+\boldsymbol{a}\right)=\boldsymbol{c}^2-\boldsymbol{a}^2=R^2-R^2=0$.
-
-Hence $\boldsymbol{AC}\perp\boldsymbol{BC}$, and $\angle ACB=90^{\circ}$. $\blacksquare$
+(4) Solutions: use anonymous questionnaires to remove concerns; distribute and collect questionnaires in person during breaks or self-study time; allocate the sample size proportionally across classes and ask class cadres to help distribute them, so as to raise the response rate. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 6.4, Review and Consolidation, Problem 4) Two particles $A$ and $B$ are emitted from the same source. At a certain instant, their displacements are $\boldsymbol{s}_A=\left(4,3\right)$ and $\boldsymbol{s}_B=\left(2,10\right)$.
-
-(1) Write the displacement $\boldsymbol{s}$ of particle $B$ relative to particle $A$ at that instant;
-
-(2) Compute the projection vector of $\boldsymbol{s}$ onto $\boldsymbol{s}_A$.
+(Exercise 9.1, Comprehensive Application, Problem 9) Generally speaking, the factors affecting crop yield include climate, soil quality, field-management level, and so on. If you are a member of a rural survey team and want to estimate the yield of wheat in your region during the wheat-harvest season, how would you design the survey plan?
 
 ### Solution to Problem 4
 
-By **Definition 6.2.11 (Dot Product)** and **Common Conclusion 6.2.12** (Projection Vector).
+By **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)**.
 
-(1) $\boldsymbol{s}=\boldsymbol{s}_B-\boldsymbol{s}_A=\left(2-4,10-3\right)=\left(-2,7\right)$.
+The factors affecting wheat yield include climate, soil quality, and field-management level, so the wheat fields in the region should be divided into several strata according to these factors: for example, by good/average/poor soil or by different villages and different types of plots.
 
-(2) $\boldsymbol{s}\cdot\boldsymbol{s}_A=\left(-2\right)\times4+7\times3=13$.
+In each stratum, randomly draw several equal-sized sample plots, actually harvest and measure the wheat yield in the sample plots, and obtain the sample average yield per unit area for that stratum. Then weight by the area of the wheat fields in each stratum to estimate the average per-mu yield and total yield of wheat in the region.
 
-$\lvert\boldsymbol{s}_A\rvert=5$.
-
-The projection vector is $\frac{\boldsymbol{s}\cdot\boldsymbol{s}_A}{\lvert\boldsymbol{s}_A\rvert^2}\boldsymbol{s}_A=\frac{13}{25}\left(4,3\right)=\left(\frac{52}{25},\frac{39}{25}\right)$. $\blacksquare$
+By stratifying according to the factors affecting yield, the within-stratum conditions are similar and the between-stratum differences are clear, which avoids drawing "extreme" sample plots and improves the accuracy of the yield estimate. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 6.4, Review and Consolidation, Problem 5) When a person swims in still water, the speed has magnitude $\frac{2}{3}\text{ km/h}$. When he swims in a river whose current has magnitude $2\text{ km/h}$, 
-
-(1) If he swims straight toward the opposite bank, in what direction does he actually advance (angle to the nearest $1^{\circ}$)? What is the magnitude of his actual forward speed?
-
-(2) In what direction must he swim in order to advance perpendicular to the current (angle to the nearest $1^{\circ}$)? What is the magnitude of his actual forward speed?
+(Exercise 9.1, Extension and Exploration, Problem 10) If the purpose of the survey is to determine respondents' income level, please design a questioning method.
 
 ### Solution to Problem 5
 
-By **Theorem 6.4.2 (Law of Cosines)** and **Theorem 6.4.3 (Law of Sines)**.
+By **Definition 9.1.1 (Census and Sampling Survey)**, income is a sensitive question, and asking it directly easily makes respondents reluctant to give the truth.
 
-(1) The swimmer's speed perpendicular to the bank is $\frac{2}{3}$, and the current along the bank is $2$. The resultant speed is $\sqrt{4+\frac{4}{9}}=\frac{2\sqrt{10}}{3}$. The angle $\theta$ between the direction and the bank satisfies $\tan\theta=\frac{2/3}{2}=\frac{1}{3}$, so $\theta\approx18^{\circ}$.
-
-(2) To advance perpendicular to the bank, the swimmer's speed must cancel the current. Let the angle between the swimmer's velocity and the perpendicular direction be $\alpha$; $\frac{2}{3}\sin\alpha=2$, $\sin\alpha=3$? Impossible. Correction: the swimmer's speed $\frac{2}{3}$ is less than the current $2$, so it cannot be canceled. Hence he cannot advance perpendicular to the bank. $\blacksquare$
+One may use an anonymous questionnaire so that respondents need not sign their names; further, one may use randomized-response technique: let the respondent first draw a ball at random from a bag; those who draw a white ball truthfully answer a harmless question (such as whether the date of their Gregorian birthday is odd), and those who draw a red ball then answer the income question; those who answer "yes" only put a small stone into a box, and others do not know which question was answered. This removes the respondent's concerns while allowing the true proportion of the income level to be estimated through the probabilistic relationship between the two questions. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 6.4, Review and Consolidation, Problem 6) In $\triangle ABC$, solve the triangle under each of the following conditions (angles to the nearest $1^{\circ}$, sides to the nearest $1\text{ cm}$):
-
-(1) $a=49\text{ cm}$, $b=26\text{ cm}$, $C=107^{\circ}$;
-
-(2) $a=9\text{ cm}$, $b=10\text{ cm}$, $c=15\text{ cm}$.
+(Exercise 9.1, Extension and Exploration, Problem 11) You may want to learn about some aspects of the life and study of students in your school—for example, which subject students like most, what the average monthly pocket money is, the proportion of students who like to watch the Xinwen Lianbo news, approximately what time everyone gets up, and the average daily sleep time, and so on. Choose some questions you care about, design a questionnaire, survey students in your school using simple random sampling, and explain the conclusions you obtain.
 
 ### Solution to Problem 6
 
-By **Theorem 6.4.2 (Law of Cosines)**.
+By **Definition 9.1.3 (Simple Random Sampling)** and **Definition 9.1.4 (Population Mean and Sample Mean)**.
 
-(1) $c^2=49^2+26^2-2\times49\times26\times\cos107^{\circ}=2401+676-2548\times\left(-0.292\right)\approx3077+744=3821$.
+When designing the questionnaire, write the questions to be studied (favorite subject, monthly pocket money, whether one likes watching Xinwen Lianbo, daily wake-up time, daily sleep time, etc.) in clear, non-leading language as multiple-choice or fill-in-the-blank items.
 
-$c\approx62\text{ cm}$.
+First number all students in the school, use the random-number method to draw a simple random sample of appropriate size, and distribute and collect the questionnaire among the sampled students. For the collected data: use the frequency of the number of people who like each subject to estimate the proportion of all students who like each subject; use the sample average pocket money to estimate the average monthly pocket money of all students; use the sample average sleep time to estimate the average daily sleep time of all students.
 
-$\sin A=\frac{a\sin C}{c}=\frac{49\times\sin107^{\circ}}{62}\approx\frac{49\times0.956}{62}\approx0.755$.
-
-$A\approx49^{\circ}$. $B=180^{\circ}-107^{\circ}-49^{\circ}=24^{\circ}$.
-
-(2) $\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{100+225-81}{300}=\frac{244}{300}\approx0.813$. $A\approx36^{\circ}$.
-
-$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{81+225-100}{270}=\frac{206}{270}\approx0.763$. $B\approx40^{\circ}$.
-
-$C=180^{\circ}-36^{\circ}-40^{\circ}=104^{\circ}$. $\blacksquare$
+Because the sample is drawn randomly, the sample results are estimates of the population and will have some sampling error; the larger the sample size, the more reliable the estimate generally is. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 6.4, Review and Consolidation, Problem 7) In $\triangle ABC$, solve the triangle under each of the following conditions (angles to the nearest $1^{\circ}$, sides to the nearest $1\text{ cm}$):
-
-(1) $A=70^{\circ}$, $C=30^{\circ}$, $c=20\text{ cm}$;
-
-(2) $b=26\text{ cm}$, $c=15\text{ cm}$, $C=23^{\circ}$.
+(Exercise 9.1, Extension and Exploration, Problem 12) Look up the ratings of the CCTV Spring Festival Gala for the last five years. What information can you find in them? Review the methods used for rating surveys, and, based on an analysis of their merits and shortcomings, design your own plan for surveying ratings.
 
 ### Solution to Problem 7
 
-By **Theorem 6.4.3 (Law of Sines)**.
+By **Definition 9.1.3 (Simple Random Sampling)** and **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)**.
 
-(1) $B=180^{\circ}-70^{\circ}-30^{\circ}=80^{\circ}$.
+Looking up recent Spring Festival Gala rating data, one finds that ratings have generally stayed at a relatively high level but show a slowly declining trend over the years, which is related to new media diverting viewers and to increased viewer choice.
 
-$a=\frac{c\sin A}{\sin C}=\frac{20\sin70^{\circ}}{0.5}\approx38\text{ cm}$.
+Rating surveys usually use methods such as random telephone dialing or people-meters. Their merit lies in randomly drawing a sample so that it is somewhat representative of the viewing population; their shortcoming is that the sampling frame is hard to cover all viewers (e.g. people who do not watch TV or whose numbers are unregistered), and estimates have error when the sample size is limited.
 
-$b=\frac{c\sin B}{\sin C}=\frac{20\sin80^{\circ}}{0.5}\approx39\text{ cm}$.
+When designing one's own plan: first define the survey population as all household TV viewers in the region; stratify by urban/rural area and age group, and randomly draw households within each stratum; install people-meters or conduct random telephone interviews in the sampled households to record whether they watched on New Year's Eve; finally, weight the viewing proportion of each stratum by the number of households in that stratum to estimate the rating in the region. $\blacksquare$
 
-(2) $\sin B=\frac{b\sin C}{c}=\frac{26\times\sin23^{\circ}}{15}\approx\frac{26\times0.391}{15}\approx0.677$.
+## Reading and Thinking 1
 
-$B\approx43^{\circ}$ or $B\approx137^{\circ}$.
+(Thinking 1) The public health department of a region, in order to survey the smoking status of middle-school students in the region, surveyed 200 randomly drawn students. Two questions were used. Question 1: Is the date of your father's Gregorian birthday odd? Question 2: Do you smoke regularly? The investigators designed a randomization device: a bag containing 50 white balls and 50 red balls that are identical in size, shape and mass. Each respondent randomly draws 1 ball from the bag (the drawn ball is returned to the bag); students who draw a white ball truthfully answer the first question, and students who draw a red ball truthfully answer the second question; those who answer "yes" put a small stone into a box, and those who answer "no" do nothing. If, among the 200 people, a total of 58 answered "yes", can you estimate the percentage of smoking middle-school students in this region?
 
-(a) $B\approx43^{\circ}$: $A=180^{\circ}-43^{\circ}-23^{\circ}=114^{\circ}$. $a=\frac{c\sin A}{\sin C}=\frac{15\times\sin114^{\circ}}{0.391}\approx35\text{ cm}$.
+### Solution to Reading and Thinking 1
 
-(b) $B\approx137^{\circ}$: $A=180^{\circ}-137^{\circ}-23^{\circ}=20^{\circ}$. $a=\frac{15\times\sin20^{\circ}}{0.391}\approx13\text{ cm}$. $\blacksquare$
+By **Definition 9.1.4 (Population Mean and Sample Mean)**, use the frequency of "yes" answers in the sample to estimate the corresponding proportion in the population.
 
-## Problem 8
+Each student has probability $0.5$ of drawing a white or red ball, so among the 200 people, about 100 are expected to answer the first question and the other 100 the second question.
 
-(Exercise 6.4, Review and Consolidation, Problem 8) As shown in the figure, to measure the height $AB$ of a tower on the opposite bank of a river, choose two survey points $C$ and $D$ in the same horizontal plane as the tower base $B$. It is measured that $\angle BCD=\alpha$, $\angle BDC=\beta$, $CD=s$, and from point $C$ the angle of elevation to the tower top $A$ is $\theta$. Find the tower height $AB$.
+In the case of drawing a white ball, the probability that the father's Gregorian birthday date is odd is $\frac{186}{365}\approx0.51$. Thus, among the about 100 people answering the first question, about $100\times0.51=51$ answered "yes".
 
-The figure: the vertical tower $AB$ ($B$ on the ground, $A$ the top); on the ground, in the same horizontal plane as the tower base $B$, lie two survey points $C$ and $D$ forming the horizontal triangle $BCD$, with $\angle BCD=\alpha$, $\angle BDC=\beta$, and $CD=s$; at point $C$ the angle of elevation to the tower top $A$ is measured as $\theta$.
+In total 58 people answered "yes", so among the about 100 people answering the second question, the number answering "yes" is about $58-51=7$.
 
-### Solution to Problem 8
+From this, the proportion of smoking middle-school students in this region is estimated to be about $\frac{7}{100}=0.07$, i.e. about $7\%$ of middle-school students smoke. $\blacksquare$
 
-By **Theorem 6.4.3 (Law of Sines)**.
+## Exercise 1
 
-In $\triangle BCD$, $\angle CBD=180^{\circ}-\alpha-\beta$.
+(Exercise 9.2, Problem 1) A survey of monthly electricity use was conducted on 100 households drawn from a residential community; their electricity use was all found to lie between $50\sim350\,\mathrm{kW\cdot h}$. After suitable grouping (each group being a left-closed right-open interval), the frequency distribution histogram is drawn as shown.
 
-By the law of sines: $\frac{BC}{\sin\beta}=\frac{s}{\sin\left(180^{\circ}-\alpha-\beta\right)}=\frac{s}{\sin\left(\alpha+\beta\right)}$.
+(1) The value of $x$ in the histogram is $\;\_\_\;$;
 
-$BC=\frac{s\sin\beta}{\sin\left(\alpha+\beta\right)}$.
+(2) Among the surveyed users, the number of households whose electricity use falls in the interval $\left[100,250\right)$ is $\;\_\_\;$.
 
-In the right triangle $ABC$, $\angle ACB=\theta$, $AB=BC\tan\theta=\frac{s\sin\beta\tan\theta}{\sin\left(\alpha+\beta\right)}$. $\blacksquare$
+(Figure: a frequency distribution histogram; horizontal axis = monthly electricity use ($\mathrm{kW\cdot h}$) from $50$ to $350$ in $6$ groups of width $50$: $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; vertical axis = frequency/class-width, with the six heights $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
 
-## Problem 9
+### Solution to Exercise 1
 
-(Exercise 6.4, Review and Consolidation, Problem 9) A typhoon center lies $300\text{ km}$ due west of the weather station $A$, and is moving northeast at $40\text{ km/h}$; all regions within $250\text{ km}$ of the typhoon center will be affected. If this trend of the typhoon center continues, will the weather station be affected? If so, after about how long will the effect begin? How long will it last (to the nearest $1\text{ min}$)?
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, the sum of the areas of all small rectangles equals 1.
 
-### Solution to Problem 9
+(1) The class width of each group is 50, and the $\left[$ frequency/class width $\right]$ of each group is $0.0024,0.0036,0.0060,x,0.0024,0.0012$. Since the sum of the areas of the rectangles of all groups is 1,
 
-By **Theorem 6.4.2 (Law of Cosines)**.
+$$
+50\times\left(0.0024+0.0036+0.0060+x+0.0024+0.0012\right)=1.
+$$
 
-Let the initial position of the typhoon center be $B$, $AB=300\text{ km}$, direction northeast ($45^{\circ}$ east of north). Let $t$ hours later the center reaches $C$, $BC=40t$.
+That is, $0.0156+x=\frac{1}{50}=0.02$, solving gives $x=0.02-0.0156=0.0044$.
 
-The perpendicular distance from the weather station $A$ to the typhoon path: $d=300\times\sin45^{\circ}=150\sqrt 2\approx212.1\text{ km}< 250\text{ km}$. Hence it will be affected.
+(2) The relative frequency of electricity use falling in the interval $\left[100,250\right)$ is
 
-Draw a circle centered at $A$ with radius $250\text{ km}$; it meets the typhoon path at $P$ and $Q$.
+$$
+50\times\left(0.0036+0.0060+0.0044\right)=50\times0.014=0.70.
+$$
 
-$AP=250$. In $\triangle ABP$, $AB=300$, $AP=250$, $\angle ABP=45^{\circ}$.
+Hence the number of households is $100\times0.70=70$. $\blacksquare$
 
-By the law of cosines: $AP^2=AB^2+BP^2-2\cdot AB\cdot BP\cos45^{\circ}$.
+## Exercise 2
 
-$62500=90000+BP^2-600\cdot\frac{\sqrt 2}{2}\cdot BP$.
+(Exercise 9.2, Problem 2) As shown in the figure, Hu Xiao compiled his father's mobile-call detail bill for September and found that his father made 60 calls in total that month. Hu Xiao grouped the calls by duration (each group a left-closed right-open interval) and drew a frequency distribution histogram.
 
-$BP^2-300\sqrt 2\cdot BP+27500=0$.
+(1) What are the numbers of calls whose duration lies in the intervals $\left[15,20\right)$ and $\left[20,30\right)$ respectively?
 
-$BP=\frac{300\sqrt 2\pm\sqrt{180000-110000}}{2}=\frac{300\sqrt 2\pm\sqrt{70000}}{2}\approx\frac{424.3\pm264.6}{2}$.
+(2) The height of the small rectangle over $\left[20,30\right)$ is lower than that over $\left[15,20\right)$. What does this indicate? In terms of practical meaning, discuss your view.
 
-$BP_1\approx79.8\text{ km}$, $BP_2\approx344.5\text{ km}$.
+(Figure: a frequency distribution histogram; horizontal axis = call duration (minutes), vertical axis = frequency/class-width; the bar over $\left[15,20\right)$ has height $0.030$, and the bar over $\left[20,30\right)$ has height $0.020$.)
 
-Times: $t_1=\frac{79.8}{40}\approx2\text{ h}$, $t_2=\frac{344.5}{40}\approx8.6\text{ h}$.
+### Solution to Exercise 2
 
-The effect begins after about $2$ hours and lasts about $6.6$ hours $\approx 395\text{ min}$. $\blacksquare$
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, the area of a small rectangle equals the relative frequency, and the frequency count $=$ sample size $\times$ relative frequency.
 
-## Problem 10
+(1) The class width of the interval $\left[15,20\right)$ is 5, $\frac{\text{频率}}{\text{组距}}=0.030$, the relative frequency is $5\times0.030=0.15$, so the number of calls is
 
-(Exercise 6.4, Comprehensive Application, Problem 10) Can you express the area of a triangle in terms of its sides and the sines of its angles?
+$$
+60\times0.15=9.
+$$
 
-### Solution to Problem 10
+The class width of the interval $\left[20,30\right)$ is 10, $\frac{\text{频率}}{\text{组距}}=0.020$, the relative frequency is $10\times0.020=0.20$, so the number of calls is
 
-By **Theorem 6.4.3 (Law of Sines)** and **Definition 6.2.11 (Dot Product)**.
+$$
+60\times0.20=12.
+$$
 
-$S=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$. $\blacksquare$
+(2) The height of the small rectangle over $\left[20,30\right)$ (i.e. $\frac{\text{频率}}{\text{组距}}$) is lower than that over $\left[15,20\right)$; although the interval $\left[20,30\right)$ is wider and contains more calls (12 versus 9), per unit of call time its call frequency is actually lower. This shows that this father's mobile calls are mostly short, and long calls are uncommon. $\blacksquare$
 
-## Problem 11
+## Exercise 3
 
-(Exercise 6.4, Comprehensive Application, Problem 11) Given that for any plane vector $\boldsymbol{AB}=\left(x,y\right)$, rotating $\boldsymbol{AB}$ counterclockwise through an angle $\theta$ about its initial point gives the vector $\boldsymbol{AP}=\left(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta\right)$. Given points $A\left(1,2\right)$ and $B\left(1+\sqrt 2,2-2\sqrt 2\right)$ in the plane, rotate point $B$ clockwise through $\frac{\pi}{4}$ about point $A$ to obtain point $P$. Find the coordinates of $P$.
+(Exercise 9.2, Problem 3) There is a sample of size 30; the grouping of the data and the frequency count of each group are as follows:
 
-### Solution to Problem 11
+$\left[0,10\right)$ 3; $\left[10,20\right)$ 5; $\left[20,30\right)$ 9; $\left[30,40\right)$ 7; $\left[40,50\right)$ 5; $\left[50,60\right]$ 1.
 
-By **Common Conclusion 6.3.4** (Coordinate Operations).
+(1) List the frequency distribution table of the sample;
 
-$\boldsymbol{AB}=\left(\sqrt 2,-2\sqrt 2\right)$. A clockwise rotation by $\frac{\pi}{4}$ is a counterclockwise rotation by $-\frac{\pi}{4}$.
+(2) Draw the frequency distribution histogram;
 
-$x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-\left(-2\sqrt 2\right)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+\left(-2\sqrt 2\right)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
+(3) Estimate approximately the relative frequency of data falling in $\left[10,50\right)$.
 
-$y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+\left(-2\sqrt 2\right)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
+(Figure: a frequency distribution histogram; horizontal axis = data with class width $10$, groups $\left[0,10\right),\left[10,20\right),\left[20,30\right),\left[30,40\right),\left[40,50\right),\left[50,60\right]$; vertical axis = frequency/class-width, with the six heights $0.010,0.017,0.030,0.023,0.017,0.003$.)
 
-$\boldsymbol{AP}=\left(-1,-3\right)$. $P=A+\boldsymbol{AP}=\left(1-1,2-3\right)=\left(0,-1\right)$. $\blacksquare$
+### Solution to Exercise 3
 
-## Problem 12
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, relative frequency $=$ frequency count $\div$ sample size, and the vertical axis takes $\frac{\text{频率}}{\text{组距}}$.
 
-(Exercise 6.4, Comprehensive Application, Problem 12) As shown in the figure, in $\triangle ABC$, given $AB=2$, $AC=5$, $\angle BAC=60^{\circ}$, the two medians $AM$ on side $BC$ and $BN$ on side $AC$ intersect at $P$. Find the cosine of $\angle MPN$.
+(1) The sample size is 30; the frequency distribution table is: $\left[0,10\right)$ relative frequency $0.1$; $\left[10,20\right)$ relative frequency $\frac{5}{30}\approx0.17$; $\left[20,30\right)$ relative frequency $\frac{9}{30}=0.3$; $\left[30,40\right)$ relative frequency $\frac{7}{30}\approx0.23$; $\left[40,50\right)$ relative frequency $\frac{5}{30}\approx0.17$; $\left[50,60\right]$ relative frequency $\frac{1}{30}\approx0.03$.
 
-The figure: triangle $ABC$ with $AB=2$, $AC=5$, and $\angle BAC=60^\circ$; $M$ is the midpoint of side $BC$ and $N$ is the midpoint of side $AC$, and the medians $AM$ and $BN$ intersect at point $P$.
+(2) Each group has class width 10; on the vertical axis take successively $\frac{\text{频率}}{\text{组距}}$ as $0.010,0.017,0.030,0.023,0.017,0.003$, and draw small rectangles with each group as base and the corresponding height, obtaining the frequency distribution histogram.
 
-### Solution to Problem 12
+(3) The frequency count of data falling in $\left[10,50\right)$ is $5+9+7+5=26$, and the relative frequency is approximately $\frac{26}{30}\approx0.87$. $\blacksquare$
 
-By **Theorem 6.4.2 (Law of Cosines)** and **Common Conclusion 6.4.1** (Vector Method).
+## Exercise 4
 
-Take $A$ as the origin; $\boldsymbol{AB}=\left(2,0\right)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
+(Exercise 9.2, Problem 4) The air quality index for 30 days in a certain city in a certain month is as follows:
 
-$M$ is the midpoint of $BC$: $M=\left(\frac{2+\frac{5}{2}}{2},\frac{0+\frac{5\sqrt 3}{2}}{2}\right)=\left(\frac{9}{4},\frac{5\sqrt 3}{4}\right)$.
+$35,54,80,86,72,85,58,125,111,53,10,66,46,36,18,25,23,40,60,89,88,54,79,14,16,40,59,67,111,62$.
 
-$N$ is the midpoint of $AC$: $N=\left(\frac{5}{4},\frac{5\sqrt 3}{4}\right)$.
+What do you think of the air quality this month? Please design an appropriate frequency distribution histogram to display these data, and analyze the data in conjunction with the air-quality grade standards.
 
-$P$ is the centroid: $P=\frac{A+B+C}{3}=\left(\frac{2+\frac{5}{2}}{3},\frac{\frac{5\sqrt 3}{2}}{3}\right)=\left(\frac{3}{2},\frac{5\sqrt 3}{6}\right)$.
+(Figure: a frequency distribution histogram; horizontal axis = air quality index grouped by grade: excellent ($\le50$), good ($51\sim100$), light pollution ($101\sim150$), moderate pollution ($151\sim200$), heavy pollution ($201\sim300$); vertical axis = frequency/class-width.)
 
-$\boldsymbol{PM}=M-P=\left(\frac{9}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(\frac{3}{4},\frac{5\sqrt 3}{12}\right)$.
+### Solution to Exercise 4
 
-$\boldsymbol{PN}=N-P=\left(\frac{5}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(-\frac{1}{4},\frac{5\sqrt 3}{12}\right)$.
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, group the 30 data by air quality index, list the frequency distribution table, and draw the frequency distribution histogram.
 
-$\cos\angle MPN=\frac{\boldsymbol{PM}\cdot\boldsymbol{PN}}{\lvert\boldsymbol{PM}\rvert\lvert\boldsymbol{PN}\rvert}=\frac{-\frac{3}{16}+\frac{75}{144}}{\sqrt{\frac{9}{16}+\frac{75}{144}}\cdot\sqrt{\frac{1}{16}+\frac{75}{144}}}=\frac{\frac{-27+75}{144}}{\sqrt{\frac{81+75}{144}}\cdot\sqrt{\frac{9+75}{144}}}=\frac{\frac{48}{144}}{\frac{\sqrt{156}}{12}\cdot\frac{\sqrt{84}}{12}}=\frac{\frac{1}{3}}{\frac{\sqrt{13104}}{144}}=\frac{48}{\sqrt{13104}}=\frac{2}{\sqrt{91}}$. $\blacksquare$
+The air-quality grade standards are: excellent at most 50, good at $51\sim100$, light pollution at $101\sim150$, moderate pollution at $151\sim200$, heavy pollution at $201\sim300$, and severe pollution above 300.
 
-## Problem 13
+Counting by the standards: excellent (at most 50) for 11 days, good ($51\sim100$) for 16 days, light pollution ($101\sim150$) for 3 days, and no moderate-or-above pollution.
 
-(Exercise 6.4, Comprehensive Application, Problem 13) The two banks of a river are parallel, and the river width is $d=500\text{ m}$. A boat sets out from a point $A$ on one bank to reach the opposite bank. Given that the boat's speed in still water $\boldsymbol{v}_1$ has magnitude $\lvert\boldsymbol{v}_1\rvert=10\text{ km/h}$, and the current speed $\boldsymbol{v}_2$ has magnitude $\lvert\boldsymbol{v}_2\rvert=2\text{ km/h}$. Analyze the three cases for which the boat's travel time is shortest.
+Thus, the days with excellent or good air quality total 27, about $90\%$; only 3 days are light pollution, and there is no moderate-or-above pollution. Overall, the air quality this month is fairly good. $\blacksquare$
 
-### Solution to Problem 13
+## Exercise 5
 
-By **Theorem 6.4.2 (Law of Cosines)**.
+(Exercise 9.2, Problem 5) Compile the shoe sizes of all students in your class, choose an appropriate statistical graph to describe them, and analyze the characteristics of the shoe-size distribution. Can the shoe-size distribution of your class be used to estimate the shoe-size distribution of all high-school students in your school? What about the shoe-size distribution of high-school students nationwide?
 
-Boat speed $10\text{ km/h}$, current speed $2\text{ km/h}$, river width $0.5\text{ km}$.
+### Solution to Exercise 5
 
-(1) Upstream with obtuse angle: the perpendicular component of the resultant is small, and the time is long.
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.1.4 (Population Mean and Sample Mean)**.
 
-(2) Downstream with acute angle: the perpendicular component of the resultant is moderate.
+Compile the shoe sizes of all students in the class, list the frequency by shoe size, and draw a bar chart or frequency distribution histogram; one can see which range the class's shoe sizes cluster in, which shoe size has the most people (i.e. the mode), and whether the distribution is roughly symmetric.
 
-(3) Perpendicular to the opposite bank: the perpendicular component of the resultant $=\sqrt{100-4}=\sqrt{96}$.
+Because the age and gender structure of the class is close to that of all high-school students in the school, the class's shoe-size distribution can roughly estimate the school's overall high-school shoe-size distribution, but the sample is small and the estimate is rough.
 
-The time is $t=\frac{d}{v_\perp}$. $v_\perp$ is maximal when heading perpendicular to the opposite bank, giving the shortest time. $\blacksquare$
+However, high-school students nationwide differ greatly in region, climate and living habits, and the class cannot represent national high-school students; so the class's shoe-size distribution cannot be used to estimate the national distribution, otherwise there would be a large bias. $\blacksquare$
 
-## Problem 14
+## Exercise 6
 
-(Exercise 6.4, Comprehensive Application, Problem 14) An east-west river has parallel banks and width $250\text{ m}$, with the current flowing east at $\frac{2\sqrt 3}{3}\text{ km/h}$. A small cargo boat is to set out from dock $A$ on the south bank and sail to dock $C$, which lies due west of the point $B$ on the opposite bank (where $AB$ is perpendicular to the river's direction) and is $\frac{250\sqrt 3}{3}\text{ m}$ from $B$, to unload. If the magnitude of the resultant of the current velocity and the boat's sailing velocity is $6\text{ km/h}$, find the direction of the resultant when the boat's course is shortest, and find the magnitude of the boat's sailing speed at that time.
+(Exercise 9.2, Problem 6) To encourage residents to save water, a city plans to pilot a fixed monthly water-quota management system: set a monthly water-use standard $a$, charge water use not exceeding $a$ at the normal rate, and charge the part exceeding $a$ at a negotiated rate. If it is desired that $60\%$ of the city's residents have monthly water use not exceeding the standard, what should the standard $a$ be? Based on which part of this chapter did you make the judgment?
 
-### Solution to Problem 14
+### Solution to Exercise 6
 
-By **Theorem 6.4.2 (Law of Cosines)** and **Theorem 6.4.3 (Law of Sines)**.
+By **Definition 9.2.2 (The $p$-th Percentile)**, the 60th percentile divides the data into two parts: about $60\%$ of the data do not exceed it, and about $40\%$ are not less than it.
 
-$AB=0.25\text{ km}$, $BC=\frac{0.25\sqrt 3}{3}\text{ km}$. $AC=\sqrt{0.25^2+\left(\frac{0.25\sqrt 3}{3}\right)^2}=\sqrt{0.0625+0.0208}=\frac{0.5}{\sqrt 3}\text{ km}$.
+To make $60\%$ of the city's residents have monthly water use not exceeding the standard $a$, $a$ should be set as the 60th percentile of the city residents' monthly water use.
 
-$\angle BAC$ satisfies $\tan\angle BAC=\frac{BC}{AB}=\frac{\sqrt 3}{3}$, so $\angle BAC=30^{\circ}$.
+If the sample monthly water-use data are obtained by a sampling survey, first arrange the data in ascending order, compute $i=n\times60\%$, then follow the steps in **Definition 9.2.2 (p-th Percentile)** to find the sample's 60th percentile, and use it to estimate the 60th percentile of the city residents' monthly water use; this is the monthly water-use standard $a$. This judgment is based on the part on estimating population percentiles. $\blacksquare$
 
-The resultant velocity is directed along $AC$, i.e. $30^{\circ}$ north of west.
+## Exercise 7
 
-The resultant speed is $6\text{ km/h}$. The current flows east at $\frac{2\sqrt 3}{3}\text{ km/h}$.
+(Exercise 9.2, Problem 7) Among male athletes aged $16\sim17$ in a school, 23 are selected and their heights measured (unit: $\mathrm{cm}$):
 
-The boat speed $=\sqrt{6^2+\left(\frac{2\sqrt 3}{3}\right)^2-2\times6\times\frac{2\sqrt 3}{3}\cos60^{\circ}}=\sqrt{36+\frac{4}{3}-4\sqrt 3}\approx\sqrt{36.1-6.93}\approx\sqrt{29.2}\approx5.4\text{ km/h}$. $\blacksquare$
+$173.0,174.0,166.0,172.0,170.0,165.0,165.0,168.0,164.0,173.0,172.0,173.0,175.0,168.0,170.0,172.0,176.0,175.0,168.0,173.0,167.0,170.0,175.0$.
 
-## Problem 15
+Compute the 25th, 50th and 75th percentiles of the boys' height data respectively.
 
-(Exercise 6.4, Comprehensive Application, Problem 15) The three sides of $\triangle ABC$ are $a$, $b$, $c$, and the medians to sides $BC$, $CA$, $AB$ are denoted $m_a$, $m_b$, $m_c$. Using the law of cosines, prove:
+### Solution to Exercise 7
 
-$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(a^2+c^2\right)-b^2}$, $m_c=\frac{1}{2}\sqrt{2\left(a^2+b^2\right)-c^2}$.
+By **Definition 9.2.2 (The $p$-th Percentile)**, first arrange the data in ascending order, then compute by the steps.
 
-### Solution to Problem 15
+Arrange the 23 data in ascending order as
 
-By **Theorem 6.4.2 (Law of Cosines)**.
+$$
+164.0,165.0,165.0,166.0,167.0,168.0,168.0,168.0,170.0,170.0,170.0,172.0,172.0,172.0,173.0,173.0,173.0,173.0,174.0,175.0,175.0,175.0,176.0.
+$$
 
-Let $M$ be the midpoint of $BC$, $BM=\frac{a}{2}$. In $\triangle ABM$, $m_a^2=c^2+\left(\frac{a}{2}\right)^2-2c\cdot\frac{a}{2}\cos B$.
+25th percentile: $i=23\times25\%=5.75$, not an integer; rounding up gives the 6th number, namely $168.0$.
 
-By the law of cosines, $\cos B=\frac{a^2+c^2-b^2}{2ac}$:
+50th percentile: $i=23\times50\%=11.5$, not an integer; rounding up gives the 12th number, namely $172.0$.
 
-$m_a^2=c^2+\frac{a^2}{4}-ac\cdot\frac{a^2+c^2-b^2}{2ac}=c^2+\frac{a^2}{4}-\frac{a^2+c^2-b^2}{2}=\frac{2c^2+a^2-2a^2-2c^2+2b^2}{4}=\frac{2b^2+2c^2-a^2}{4}$.
+75th percentile: $i=23\times75\%=17.25$, not an integer; rounding up gives the 18th number, namely $173.0$.
 
-$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. The other two formulas follow similarly. $\blacksquare$
+Hence the 25th, 50th and 75th percentiles of the boys' height data are $168.0\,\mathrm{cm}$, $172.0\,\mathrm{cm}$, $173.0\,\mathrm{cm}$ respectively. $\blacksquare$
 
-## Problem 16
+## Exercise 8
 
-(Exercise 6.4, Comprehensive Application, Problem 16) In $\triangle ABC$, prove that $c\left(a\cos B-b\cos A\right)=a^2-b^2$.
+(Exercise 9.2, Problem 8) Using the frequency distribution histogram of residents' average monthly water use that you drew (textbook Figure 9.2-2), estimate the 80th and 95th percentiles of the data on all residents' average monthly water use in the city. Compare these histogram estimates with the corresponding percentiles computed directly from the raw data; can they estimate the population percentiles well?
 
-### Solution to Problem 16
+(Figure: textbook Figure 9.2-2, a frequency distribution histogram of residents' average monthly water use; horizontal axis = average monthly water use ($\mathrm{t}$), vertical axis = frequency/class-width.)
 
-By **Theorem 6.4.2 (Law of Cosines)**.
+### Solution to Exercise 8
 
-The left-hand side $=c\left(a\cdot\frac{a^2+c^2-b^2}{2ac}-b\cdot\frac{b^2+c^2-a^2}{2bc}\right)=c\cdot\frac{a^2+c^2-b^2-b^2-c^2+a^2}{2c}=\frac{2a^2-2b^2}{2}=a^2-b^2=$ the right-hand side. $\blacksquare$
+By **Definition 9.2.2 (The $p$-th Percentile)** and **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**.
 
-## Problem 17
+In the frequency distribution histogram, accumulate the areas (relative frequencies) of the small rectangles from the left, find the group where the cumulative relative frequency first reaches $80\%$ and $95\%$, then interpolate proportionally within the group to estimate the 80th and 95th percentiles.
 
-(Exercise 6.4, Comprehensive Application, Problem 17) Prove: if the circumradius of a triangle is $R$, then $a=2R\sin A$, $b=2R\sin B$, $c=2R\sin C$.
+The percentile estimated from the histogram will differ somewhat from the percentile computed directly from the raw data, because the histogram loses information about the distribution within each group. But as long as the grouping is reasonable, the histogram estimate and the value computed from the raw data differ little, and it can estimate the population percentiles fairly well. $\blacksquare$
 
-### Solution to Problem 17
+## Exercise 9
 
-By **Theorem 6.4.3 (Law of Sines)**.
+(Exercise 9.2, Problem 9) In Example 1 of this section, a set of 30 days of air quality index (Table 9.2-2) is
 
-Let the circumcenter be $O$. Draw the diameter $BD$ through $O$; then $\angle BAD=90^{\circ}$ (the angle subtended by a diameter is a right angle). $\angle BDA=\angle BCA=C$ (angles subtending the same arc are equal).
+$87,90,90,102,126,138,158,163,170,172,71,76,88,93,94,104,160,180,200,220,75,80,80,90,105,125,165,178,188,190$.
 
-In the right triangle $ABD$, $AB=BD\sin\angle BDA=2R\sin C$, i.e. $c=2R\sin C$.
+Find the mean, median and 80th percentile of this data set respectively, and explain their meaning.
 
-Similarly, $a=2R\sin A$, $b=2R\sin B$. $\blacksquare$
+### Solution to Exercise 9
 
-## Problem 18
+By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.2 (The $p$-th Percentile)**.
 
-(Exercise 6.4, Comprehensive Application, Problem 18) Using the result of Problem 10, prove the triangle area formula $S=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$.
+Mean: the sum of the data is $87+90+\cdots+190=3858$, so
 
-### Solution to Problem 18
+$$
+\overline x=\frac{3858}{30}=128.6.
+$$
 
-By **Theorem 6.4.3 (Law of Sines)** and the result of Problem 10, $S=\frac{1}{2}ab\sin C$.
+Arrange the 30 data in ascending order. 80th percentile: $i=30\times80\%=24$, an integer, so the 80th percentile is the average of the 24th and 25th numbers, namely
 
-By the law of sines, $b=\frac{a\sin B}{\sin A}$.
+$$
+\frac{172+178}{2}=175.
+$$
 
-$S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$. $\blacksquare$
+The median is the average of the 15th and 16th numbers, namely
 
-## Problem 19
+$$
+\frac{105+125}{2}=115.
+$$
 
-(Exercise 6.4, Extension and Exploration, Problem 19) As shown in the figure, in $\square ABCD$, $E$ and $F$ are the midpoints of sides $AD$ and $DC$, and $BE$, $BF$ meet $AC$ at $R$ and $T$, respectively. What relation do you find among $AR$, $RT$, $TC$? Prove your conclusion by a vector method.
+The mean $128.6$ reflects the average level of the air quality index over these 30 days; the median $115$ means that half of the days have an air quality index no greater than $115$; the 80th percentile $175$ means that about $80\%$ of the days have an air quality index no greater than $175$. The mean is greater than the median, which shows that a few large values in the data pull the mean up. $\blacksquare$
 
-The figure: the parallelogram $ABCD$, with $E$ the midpoint of side $AD$ and $F$ the midpoint of side $DC$; the segment $BE$ meets the diagonal $AC$ at point $R$, and the segment $BF$ meets the diagonal $AC$ at point $T$.
+## Exercise 10
 
-### Solution to Problem 19
+(Exercise 9.2, Problem 10) Below is a passage from a report:
 
-By **Common Conclusion 6.4.1** (The Three Steps of the Vector Method) and **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**.
+"According to statistics, the per-capita annual disposable income of residents in a certain city in 2015 was 27348 yuan, while the per-capita annual wage income of employees in a certain industry was 125620 yuan. Someone thinks that the city residents' per-capita annual disposable income has been underestimated."
 
-Let $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$. $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$.
+Do you think this statement makes sense? Why?
 
-$R$ lies on $BE$: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. Also $R$ lies on $AC$: $\boldsymbol{AR}=t\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
+### Solution to Exercise 10
 
-Comparing: $t=\lambda$, $t=\frac{\mu}{2}$. $E$ lies on $AD$, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{b}$. Since $B$, $R$, $E$ are collinear: $\lambda+\frac{\mu}{2}=1$, i.e. $t+t=1$, $t=\frac{1}{3}$. Hence $AR=\frac{1}{3}AC$.
+By **Definition 9.2.3 (Mode, Median and Mean)**.
 
-Similarly, $T$ lies on $BF$, $F$ is the midpoint of $DC$, $\boldsymbol{AF}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}$. From the collinearity of $A$, $T$, $C$ and of $B$, $T$, $F$, we get $AT=\frac{2}{3}AC$.
+This statement does not make sense. The city residents' per-capita annual disposable income is a mean computed over all residents, while the per-capita annual wage income of employees in a certain industry involves only that industry's employees; the population scopes of the two are completely different.
 
-Hence $AR=RT=TC=\frac{1}{3}AC$. $\blacksquare$
+The wage level of employees in a certain industry (such as finance or the Internet) may well be far above the city residents' average; comparing this group's high income with the average income of all residents does not show that the residents' per-capita disposable income is underestimated. The mean is easily affected by extreme values, and means from different groups cannot be directly compared. $\blacksquare$
 
-## Problem 20
+## Exercise 11
 
-(Exercise 6.4, Extension and Exploration, Problem 20) Given that $a$, $b$, $c$ are the sides opposite angles $A$, $B$, $C$ of $\triangle ABC$, let $p=\frac{1}{2}\left(a+b+c\right)$. Prove:
+(Exercise 9.2, Problem 11) In a speech contest, the judges score each contestant from three aspects: speech content, speaking ability, and presentation effect; each score is on a 100-point scale. Then the contestant's overall score (100-point scale) is computed with weights: speech content $50\%$, speaking ability $40\%$, presentation effect $10\%$. The individual scores of the top two finalists are shown in the table below.
 
-(1) the area of the triangle is $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$;
+Contestant A: speech content 95, speaking ability 85, presentation effect 95; Contestant B: speech content 85, speaking ability 95, presentation effect 95.
 
-(2) if $r$ is the inradius of the triangle, then $r=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$;
+Please determine the rankings of the two. In this problem, what is the relationship between the size of the mean and the weights of the items?
 
-(3) if the altitudes to sides $BC$, $AC$, $AB$ are denoted $h_a$, $h_b$, $h_c$, then $h_a=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_b=\frac{2}{b}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_c=\frac{2}{c}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
+### Solution to Exercise 11
 
-### Solution to Problem 20
+By **Definition 9.2.3 (Mode, Median and Mean)**, the weighted mean is the sum of each data value multiplied by its corresponding weight.
 
-By **Theorem 6.4.2 (Law of Cosines)** and the area formula.
+Contestant A's overall score is
 
-(1) $S=\frac{1}{2}ab\sin C$. $\sin C=\sqrt{1-\cos^2 C}$. $\cos C=\frac{a^2+b^2-c^2}{2ab}$.
+$$
+95\times50\%+85\times40\%+95\times10\%=47.5+34+9.5=91.
+$$
 
-$S^2=\frac{a^2b^2}{4}\left(1-\cos^2 C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
+Contestant B's overall score is
 
-$=\frac{\left(2ab-a^2-b^2+c^2\right)\left(2ab+a^2+b^2-c^2\right)}{16}=\frac{\left(c^2-\left(a-b\right)^2\right)\left(\left(a+b\right)^2-c^2\right)}{16}$.
+$$
+85\times50\%+95\times40\%+95\times10\%=42.5+38+9.5=90.
+$$
 
-$=\frac{\left(c-a+b\right)\left(c+a-b\right)\left(a+b-c\right)\left(a+b+c\right)}{16}$.
+Because $91> 90$, Contestant A is first and Contestant B is second.
 
-$=p\left(p-a\right)\left(p-b\right)\left(p-c\right)$. $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
-
-(2) $S=rp$. $r=\frac{S}{p}=\frac{\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}}{p}=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$.
-
-(3) $S=\frac{1}{2}ah_a$. $h_a=\frac{2S}{a}=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$. Similarly for $h_b$, $h_c$. $\blacksquare$
-
-## Problem 21
-
-(Exercise 6.4, Extension and Exploration, Problem 21) As shown in the figure, to measure the distance between two mountain tops $M$ and $N$, an aircraft makes horizontal measurements at two points $A$ and $B$, with $A$, $B$, $M$, $N$ in the same vertical plane. Design a measurement scheme.
-
-The figure: a survey diagram in a vertical plane, with two aircraft positions $A$ and $B$ on an upper horizontal line and two mountain peaks $M$ and $N$ on the ground below; the angles of elevation to $M$ and $N$ are measured from both $A$ and $B$, and $AB$ is the horizontal baseline.
-
-### Solution to Problem 21
-
-By **Theorem 6.4.2 (Law of Cosines)** and **Theorem 6.4.3 (Law of Sines)**.
-
-(1) Measure the distance $d$ of $AB$; from point $A$, measure the elevation angle $\alpha_1$ to $M$ and $\beta_1$ to $N$; from point $B$, measure the elevation angle $\alpha_2$ to $M$ and $\beta_2$ to $N$.
-
-(2) In $\triangle ABM$, use the law of sines to find $AM$ and $BM$; in $\triangle ABN$ find $AN$ and $BN$; in $\triangle AMN$ or $\triangle BMN$, use the law of cosines to find $MN$. $\blacksquare$
-
-## Problem 22
-
-(Exercise 6.4, Extension and Exploration, Problem 22) Given that $a$, $b$, $c$ are the sides opposite the interior angles $A$, $B$, $C$ of $\triangle ABC$, and $a\cos C+\sqrt 3a\sin C-b-c=0$.
-
-(1) Find $A$;
-
-(2) If $a=2$ and the area of $\triangle ABC$ is $\sqrt 3$, find $b$ and $c$.
-
-### Solution to Problem 22
-
-By **Theorem 6.4.3 (Law of Sines)**.
-
-(1) By the law of sines: $\sin A\cos C+\sqrt 3\sin A\sin C-\sin B-\sin C=0$.
-
-$B=\pi-A-C$. $\sin B=\sin\left(A+C\right)=\sin A\cos C+\cos A\sin C$.
-
-$\sin A\cos C+\sqrt 3\sin A\sin C-\sin A\cos C-\cos A\sin C-\sin C=0$.
-
-$\left(\sqrt 3\sin A-\cos A-1\right)\sin C=0$.
-
-$\sqrt 3\sin A-\cos A=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
-
-$A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
-
-(2) $S=\frac{1}{2}bc\sin A=\sqrt 3$. $\frac{1}{2}bc\cdot\frac{\sqrt 3}{2}=\sqrt 3$. $bc=4$.
-
-$a^2=b^2+c^2-2bc\cos A$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
-
-$b^2+c^2=8$. $\left(b+c\right)^2=b^2+c^2+2bc=16$. $b+c=4$.
-
-$bc=4$, $b+c=4$. $b=c=2$. $\blacksquare$
-
-## Problem 23
-
-(Exercise 6.4, Extension and Exploration, Problem 23) According to actual needs, use the knowledge from this section to complete a practical measurement project and write an internship report.
-
-### Solution to Problem 23
-
-Using **Theorem 6.4.2 (Law of Cosines)** and **Theorem 6.4.3 (Law of Sines)**, design a measurement scheme: choose two points that cannot be reached directly (e.g. on opposite banks of a river), measure the baseline length and the various angles, and compute the distance by the laws of sines and cosines. The internship report includes the measurement problem, the measuring instruments, the measured data, the calculation process, and the conclusion. $\blacksquare$
+In a weighted mean, the size of the mean depends not only on the data values themselves but also on their weights; the larger the weight of an item, the greater its influence on the mean. Here speech content has the largest weight, so A's high score in speech content makes A's overall score surpass B, who has stronger speaking ability. $\blacksquare$

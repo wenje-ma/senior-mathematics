@@ -1,923 +1,503 @@
 # week59
-> **定义 1.4.1 (直线的方向向量)**
+> **定义 4.1.5 (通项公式)**
 > 
-> 若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.
-> **定义 1.4.2 (平面的法向量)**
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **定理 4.2.3 (等差数列通项公式)**
 > 
-> 与平面垂直的直线叫做平面的垂线, 直线的方向向量称为平面的法向量. 求平面的法向量通常只需求出一个.
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **定理 4.2.6 (前 $n$ 项和公式一)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **定理 4.2.7 (前 $n$ 项和公式二)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **定义 4.3.1 (等比数列)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **定理 4.3.3 (等比数列通项公式)**
+> 
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **定理 4.3.5 (前 $n$ 项和公式)**
+> 
+> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> **定义 4.4.1 (数学归纳法)**
+> 
+> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
 
 ## 练习一
 
-(练习 1.4 第 1 题) 判断下列命题是否正确, 正确的在括号内打 " $\surd$ ", 错误的打 " $\times$ ".
+(练习 4.4 第 1 题) 分析下列各用数学归纳法证明的过程是否正确, 并说明理由
 
-(1) 零向量不能作为直线的方向向量和平面的法向量;
+(1) 用数学归纳法证明: $1+2+3+\cdots+n=\frac{n\left(n+1\right)}{2}$.
 
-(2) 若 $\boldsymbol{v}$ 是直线 $l$ 的方向向量, 则 $\lambda\boldsymbol{v}$ ($\lambda \in \mathbb R$) 也是直线 $l$ 的方向向量;
+证明: (1) 当 $n=1$ 时, 左边 $=1$, 右边 $=\frac{1\times 2}{2}=1$, 等式成立.
 
-(3) 在空间直角坐标系中, $\boldsymbol{n}=\left(0,0,1\right)$ 是坐标平面 $Oxy$ 的一个法向量.
+(2) 假设当 $n=k$ 时等式成立, 即 $1+2+3+\cdots+k=\frac{k\left(k+1\right)}{2}$.
+
+那么, $1+2+3+\cdots+k+\left(k+1\right)=\frac{k\left(k+1\right)}{2}+\left(k+1\right)=\frac{\left(k+1\right)\left(k+2\right)}{2}$.
+
+即当 $n=k+1$ 时等式也成立.
+
+由 (1)(2) 可知, 等式对任何 $n\in\mathbb N^*$ 都成立.
+
+(2) 用数学归纳法证明: 当 $n\in\mathbb N^*$ 时, $1+3+5+\cdots+\left(2n-1\right)=n^2$.
+
+证明: (1) 当 $n=1$ 时, 左边 $=1$, 右边 $=1$, 等式成立.
+
+(2) 假设当 $n=k$ 时等式成立, 即 $1+3+5+\cdots+\left(2k-1\right)=k^2$.
+
+那么, $1+3+5+\cdots+\left(2k-1\right)+\left(2k+1\right)=k^2+2k+1=\left(k+1\right)^2$.
+
+即当 $n=k+1$ 时等式也成立.
+
+由 (1)(2) 可知, 等式对任何 $n\in\mathbb N^*$ 都成立.
 
 ### 解答 练习一
 
-由**定义 1.4.1 (直线的方向向量)** 及**定义 1.4.2 (平面的法向量)**.
+(1) 由**定义 4.4.1 (数学归纳法)**, 验证 (1) 奠基正确, (2) 归纳递推中从假设 $n=k$ 成立推出 $n=k+1$ 成立的过程正确, 整个证明过程正确.
 
-(1) 由**定义 1.4.1 (直线的方向向量)** 和**定义 1.4.2 (平面的法向量)**, 方向向量和法向量都要求是非零向量 (否则无法确定方向), 故零向量不能作为直线的方向向量和平面的法向量. 正确 ($\surd$).
+$\blacksquare$
 
-(2) 由**定义 1.4.1 (直线的方向向量)**, 若 $\boldsymbol{v}$ 是直线 $l$ 的方向向量, 则 $\lambda\boldsymbol{v}$ ($\lambda \neq 0$) 也是. 但当 $\lambda=0$ 时, $\lambda\boldsymbol{v}=\boldsymbol{0}$ 不是方向向量. 题目中 $\lambda \in \mathbb R$ 包含 $\lambda=0$, 故不正确 ($\times$).
+(2) 由**定义 4.4.1 (数学归纳法)**, 验证 (1) 奠基正确, (2) 归纳递推中从假设 $n=k$ 成立推出 $n=k+1$ 成立的过程正确, 整个证明过程正确.
 
-(3) 坐标平面 $Oxy$ 内的所有向量的 $z$ 坐标均为 $0$, 而 $\boldsymbol{n}=\left(0,0,1\right)$ 与 $Oxy$ 平面内的任意向量 $\left(a,b,0\right)$ 的数量积为 $0$, 即 $\boldsymbol{n} \perp Oxy$ 平面. 由**定义 1.4.2 (平面的法向量)**, $\boldsymbol{n}$ 是坐标平面 $Oxy$ 的一个法向量. 正确 ($\surd$). $\blacksquare$
+$\blacksquare$
+
+(练习 4.4 第 2 题) 用数学归纳法证明: 首项为 $a_1$, 公差为 $d$ 的等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和公式是 $S_n=\frac{n\left(a_1+a_n\right)}{2}$; 首项为 $a_1$, 公比为 $q$ 的等比数列的通项公式是 $a_n=a_1 q^{n-1}$, 前 $n$ 项和公式是 $S_n=\frac{a_1\left(1-q^n\right)}{1-q}$ ($q\ne 1$)
+
+### 解答 练习一
+
+先证等差数列前 $n$ 项和公式.
+
+(1) 当 $n=1$ 时, $S_1=a_1=\frac{1\cdot\left(a_1+a_1\right)}{2}=a_1$, 成立.
+
+(2) 假设当 $n=k$ 时, $S_k=\frac{k\left(a_1+a_k\right)}{2}$.
+
+由**定义 4.4.1 (数学归纳法)**, 当 $n=k+1$ 时,
+
+$$
+S_{k+1}=S_k+a_{k+1}=\frac{k\left(a_1+a_k\right)}{2}+a_{k+1}.
+$$
+
+由**定理 4.2.3 (等差数列通项公式)**, $a_k=a_1+\left(k-1\right)d$, $a_{k+1}=a_1+kd$.
+
+$$
+S_{k+1}=\frac{k\left[a_1+a_1+\left(k-1\right)d\right]}{2}+a_1+kd=\frac{k\left[2a_1+\left(k-1\right)d\right]}{2}+a_1+kd.
+$$
+
+$$
+=\frac{ka_1+\frac{k\left(k-1\right)}{2}d+a_1+kd}{1}=\frac{\left(k+1\right)\left(a_1+a_{k+1}\right)}{2}.
+$$
+
+即当 $n=k+1$ 时成立. 由**定义 4.4.1 (数学归纳法)**, 公式对一切 $n\in\mathbb N^*$ 成立.
+
+$\blacksquare$
+
+再证等比数列通项公式.
+
+(1) 当 $n=1$ 时, $a_1=a_1 q^0=a_1$, 成立.
+
+(2) 假设当 $n=k$ 时, $a_k=a_1 q^{k-1}$.
+
+当 $n=k+1$ 时, 由**定义 4.3.1 (等比数列)**, $a_{k+1}=a_k q=a_1 q^{k-1}\cdot q=a_1 q^k$.
+
+即当 $n=k+1$ 时成立. 由**定义 4.4.1 (数学归纳法)**, 公式对一切 $n\in\mathbb N^*$ 成立.
+
+$\blacksquare$
+
+再证等比数列前 $n$ 项和公式.
+
+(1) 当 $n=1$ 时, $S_1=a_1=\frac{a_1\left(1-q\right)}{1-q}=a_1$, 成立.
+
+(2) 假设当 $n=k$ 时, $S_k=\frac{a_1\left(1-q^k\right)}{1-q}$.
+
+当 $n=k+1$ 时,
+
+$$
+S_{k+1}=S_k+a_{k+1}=\frac{a_1\left(1-q^k\right)}{1-q}+a_1 q^k=\frac{a_1\left(1-q^k\right)+a_1 q^k\left(1-q\right)}{1-q}=\frac{a_1\left(1-q^{k+1}\right)}{1-q}.
+$$
+
+即当 $n=k+1$ 时成立. 由**定义 4.4.1 (数学归纳法)**, 公式对一切 $n\in\mathbb N^*$ 成立.
+
+$\blacksquare$
 
 ## 练习二
 
-(练习 1.4 第 2 题) 在平行六面体 $ABCD-A_1B_1C_1D_1$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$, $O$ 是 $BD$ 与 $B_1D_1$ 的交点. $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 为空间的一个基底, 求直线 $OA$ 的一个方向向量.
+(练习 4.4 第 1 题) 用数学归纳法证明: $-1+3-5+\cdots+\left(-1\right)^n\left(2n-1\right)=\left(-1\right)^n n$
 
 ### 解答 练习二
 
-由**定义 1.4.1 (直线的方向向量)**.
+(1) 当 $n=1$ 时, 左边 $=-1$, 右边 $=\left(-1\right)^1\cdot 1=-1$, 成立.
 
-$O$ 是 $BD$ 与 $B_1D_1$ 的交点, 即上下底面中心连线的中点. $\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{BO}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{BD}=\boldsymbol{a}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
+(2) 假设当 $n=k$ 时, $-1+3-5+\cdots+\left(-1\right)^k\left(2k-1\right)=\left(-1\right)^k k$.
 
-故直线 $OA$ 的一个方向向量为 $\boldsymbol{OA}=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, 或等价地取 $\boldsymbol{a}+\boldsymbol{b}$. $\blacksquare$
+当 $n=k+1$ 时,
 
-## 练习三
+$$
+-1+3-5+\cdots+\left(-1\right)^k\left(2k-1\right)+\left(-1\right)^{k+1}\left(2k+1\right)=\left(-1\right)^k k+\left(-1\right)^{k+1}\left(2k+1\right).
+$$
 
-(练习 1.4 第 3 题) 在长方体 $ABCD-A_1B_1C_1D_1$ 中, $AB=4$, $BC=3$, $CC_1=2$. 以 $D$ 为原点, 建立空间直角坐标系, 求平面 $BCC_1B_1$ 的一个法向量.
+$$
+=\left(-1\right)^{k+1}\left[-k+2k+1\right]=\left(-1\right)^{k+1}\left(k+1\right).
+$$
 
-### 解答 练习三
+即当 $n=k+1$ 时成立. 由**定义 4.4.1 (数学归纳法)**, 等式对一切 $n\in\mathbb N^*$ 成立.
 
-由**定义 1.4.2 (平面的法向量)**.
+$\blacksquare$
 
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴, 则 $D\left(0,0,0\right)$, $A\left(3,0,0\right)$, $B\left(3,4,0\right)$, $C\left(0,4,0\right)$, $C_1\left(0,4,2\right)$.
+(练习 4.4 第 2 题) 若数列 $\frac{1}{1\times 2},\frac{1}{2\times 3},\frac{1}{3\times 4},\cdots,\frac{1}{n\left(n+1\right)},\cdots$ 的前 $n$ 项和为 $S_n$, 计算 $S_1,S_2,S_3$, 由此推测计算 $S_n$ 的公式, 并用数学归纳法进行证明
 
-平面 $BCC_1B_1$ 内的向量: $\boldsymbol{BC}=\left(-3,0,0\right)$, $\boldsymbol{CC_1}=\left(0,0,2\right)$.
+### 解答 练习二
 
-设法向量 $\boldsymbol{n}=\left(x,y,z\right)$, 则 $\boldsymbol{n} \cdot \boldsymbol{BC}=0$ 且 $\boldsymbol{n} \cdot \boldsymbol{CC_1}=0$.
+由**定义 4.1.5 (通项公式)**,
 
-$-3x=0$, $2z=0$, 故 $x=0$, $z=0$, $y$ 任意.
+$$
+S_1=\frac{1}{1\times 2}=\frac{1}{2},\ S_2=\frac{1}{2}+\frac{1}{2\times 3}=\frac{2}{3},\ S_3=\frac{2}{3}+\frac{1}{3\times 4}=\frac{3}{4}.
+$$
 
-取 $\boldsymbol{n}=\left(0,1,0\right)$, 即为平面 $BCC_1B_1$ 的一个法向量. $\blacksquare$
+推测 $S_n=\frac{n}{n+1}$.
 
-## 练习四
+(1) 当 $n=1$ 时, $S_1=\frac{1}{2}$, 成立.
 
-(练习 1.4 第 1 题) 用向量方法证明 "直线与平面平行的判定定理": 若平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
+(2) 假设当 $n=k$ 时, $S_k=\frac{k}{k+1}$.
 
-### 解答 练习四
+当 $n=k+1$ 时,
 
-由**常用结论 1.4.3** (用向量刻画平行关系).
+$$
+S_{k+1}=S_k+\frac{1}{\left(k+1\right)\left(k+2\right)}=\frac{k}{k+1}+\frac{1}{\left(k+1\right)\left(k+2\right)}=\frac{k\left(k+2\right)+1}{\left(k+1\right)\left(k+2\right)}=\frac{\left(k+1\right)^2}{\left(k+1\right)\left(k+2\right)}=\frac{k+1}{k+2}.
+$$
 
-设直线 $l$ 在平面 $\alpha$ 外, 直线 $m \subset \alpha$, 且 $l \parallel m$. 设 $l$ 的方向向量为 $\boldsymbol{u}$, $m$ 的方向向量也为 $\boldsymbol{u}$ (因为 $l \parallel m$).
+即当 $n=k+1$ 时成立. 由**定义 4.4.1 (数学归纳法)**, 公式成立.
 
-设平面 $\alpha$ 的法向量为 $\boldsymbol{n}$. 因为 $m \subset \alpha$, 所以 $\boldsymbol{n} \perp \boldsymbol{u}$, 即 $\boldsymbol{n} \cdot \boldsymbol{u}=0$.
+$\blacksquare$
 
-由**常用结论 1.4.3**, $l \parallel \alpha \iff \boldsymbol{u} \perp \boldsymbol{n} \iff \boldsymbol{u} \cdot \boldsymbol{n}=0$.
+(练习 4.4 第 3 题) 观察下列两个数列 $\left\{a_n\right\},\left\{b_n\right\}$: 数列 $\left\{a_n\right\}$: $1,4,9,16,25,36,49,64,81,\cdots$; 数列 $\left\{b_n\right\}$: $2,4,8,16,32,64,128,256,512,\cdots$. 猜想从第几项起 $a_n$ 小于 $b_n$, 并证明你的结论
 
-因为 $\boldsymbol{n} \cdot \boldsymbol{u}=0$, 故 $l \parallel \alpha$. $\blacksquare$
+### 解答 练习二
 
-## 练习五
+由**定义 4.1.5 (通项公式)**, $a_n=n^2$, $b_n=2^n$.
 
-(练习 1.4 第 2 题) 如图, 在四面体 $ABCD$ 中, $E$ 是 $BC$ 的中点. 直线 $AD$ 上是否存在点 $F$, 使得 $AE \parallel CF$?
+计算: $a_1=1< 2=b_1$, $a_2=4=b_2$, $a_3=9> 8=b_3$, $a_4=16=b_4$, $a_5=25< 32=b_5$, $a_6=36< 64=b_6$.
 
-该图为四面体 $ABCD$ 的直观图:四个顶点为 $A$, $B$, $C$, $D$,六条棱为 $AB$, $AC$, $AD$, $BC$, $BD$, $CD$;$E$ 是棱 $BC$ 的中点,图中连有线段 $AE$.
+猜想从第 $5$ 项起 $a_n< b_n$, 即 $n^2< 2^n$ 对 $n\ge 5$ 成立.
 
-### 解答 练习五
+(1) 当 $n=5$ 时, $25< 32$, 成立.
 
-由**常用结论 1.4.3** (用向量刻画平行关系).
+(2) 假设当 $n=k$ ($k\ge 5$) 时, $k^2< 2^k$.
 
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$.
+当 $n=k+1$ 时, 需证 $\left(k+1\right)^2< 2^{k+1}$.
 
-$E$ 是 $BC$ 中点, 故 $\boldsymbol{AE}=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
+由 $k^2< 2^k$, 得 $2^{k+1}> 2k^2$.
 
-设 $F$ 在 $AD$ 上, 令 $\boldsymbol{AF}=t\boldsymbol{AD}=t\boldsymbol{c}$, 则 $\boldsymbol{CF}=\boldsymbol{CA}+\boldsymbol{AF}=-\boldsymbol{b}+t\boldsymbol{c}$.
+$\left(k+1\right)^2=k^2+2k+1$. 当 $k\ge 5$ 时, $2k^2-\left(k^2+2k+1\right)=k^2-2k-1> 0$, 故 $2k^2> \left(k+1\right)^2$.
 
-若 $AE \parallel CF$, 则 $\boldsymbol{AE}$ 与 $\boldsymbol{CF}$ 共线, 即存在实数 $\lambda$ 使 $\boldsymbol{CF}=\lambda\boldsymbol{AE}$.
+从而 $2^{k+1}> 2k^2> \left(k+1\right)^2$.
 
-$-\boldsymbol{b}+t\boldsymbol{c}=\lambda \cdot \frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)=\frac{\lambda}{2}\boldsymbol{a}+\frac{\lambda}{2}\boldsymbol{b}$.
+即当 $n=k+1$ 时成立. 由**定义 4.4.1 (数学归纳法)**, 从第 $5$ 项起 $a_n< b_n$.
 
-比较系数: $\frac{\lambda}{2}=0$ ($\boldsymbol{a}$ 的系数), $\frac{\lambda}{2}=-1$ ($\boldsymbol{b}$ 的系数), $t=0$ ($\boldsymbol{c}$ 的系数).
+$\blacksquare$
 
-由 $\frac{\lambda}{2}=0$ 得 $\lambda=0$, 但 $\frac{\lambda}{2}=-1$ 要求 $\lambda=-2$, 矛盾.
+(练习 4.4 第 4 题) 猜想满足 $a_1=a$, $2a_{n+1}-a_n a_{n+1}=1$ 的数列 $\left\{a_n\right\}$ 的通项公式, 并用数学归纳法证明你的结论
 
-故直线 $AD$ 上不存在点 $F$ 使得 $AE \parallel CF$. $\blacksquare$
+### 解答 练习二
 
-## 练习六
+由 $2a_{n+1}-a_n a_{n+1}=1$, 得 $a_{n+1}=\frac{1}{2-a_n}$.
 
-(练习 1.4 第 3 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$, $F$ 分别是面 $AB_1$, 面 $A_1C_1$ 的中心. 求证: $EF \parallel$ 平面 $ACD_1$.
+$$
+a_2=\frac{1}{2-a},\ a_3=\frac{1}{2-\frac{1}{2-a}}=\frac{2-a}{3-2a},\ a_4=\frac{3-2a}{4-3a}.
+$$
 
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面 $ABCD$,上底面 $A_1B_1C_1D_1$;$E$ 是侧面 $AB_1$(矩形 $ABB_1A_1$)的中心,$F$ 是上底面 $A_1B_1C_1D_1$(即面 $A_1C_1$)的中心,图中连有线段 $EF$.
+猜想 $a_n=\frac{\left(n-1\right)-\left(n-2\right)a}{n-\left(n-1\right)a}$.
 
-### 解答 练习六
+(1) 当 $n=1$ 时, $a_1=\frac{0-\left(-1\right)a}{1-0\cdot a}=\frac{a}{1}=a$, 成立.
 
-由**常用结论 1.4.3** (用向量刻画平行关系).
+(2) 假设当 $n=k$ 时, $a_k=\frac{\left(k-1\right)-\left(k-2\right)a}{k-\left(k-1\right)a}$.
 
-设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
+当 $n=k+1$ 时,
 
-$E$ 是面 $AB_1$ 的中心: $E\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
+$$
+a_{k+1}=\frac{1}{2-a_k}=\frac{1}{2-\frac{\left(k-1\right)-\left(k-2\right)a}{k-\left(k-1\right)a}}=\frac{k-\left(k-1\right)a}{2\left[k-\left(k-1\right)a\right]-\left[\left(k-1\right)-\left(k-2\right)a\right]}.
+$$
 
-$F$ 是面 $A_1C_1$ 的中心: $F\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
+分母 $=2k-2\left(k-1\right)a-k+1+\left(k-2\right)a=k+1-\left[k-\left(k-1\right)a+2\left(k-1\right)a-\left(k-2\right)a\right]=\left(k+1\right)-ka$.
 
-$\boldsymbol{EF}=F-E=\left(-\frac{1}{2}, 0, \frac{1}{2}\right)$.
+故 $a_{k+1}=\frac{k-\left(k-1\right)a}{\left(k+1\right)-ka}$, 符合猜想.
 
-平面 $ACD_1$: $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $D_1\left(0,0,1\right)$. $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$.
+即当 $n=k+1$ 时成立. 由**定义 4.4.1 (数学归纳法)**, 通项公式成立.
 
-设法向量 $\boldsymbol{n}=\left(x,y,z\right)$, 则 $\boldsymbol{n} \cdot \boldsymbol{AC}=-x+y=0$, $\boldsymbol{n} \cdot \boldsymbol{AD_1}=-x+z=0$. 取 $x=1$, 得 $\boldsymbol{n}=\left(1,1,1\right)$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{n}=\left(-\frac{1}{2}\right) \times 1+0 \times 1+\frac{1}{2} \times 1=-\frac{1}{2}+\frac{1}{2}=0$.
-
-由**常用结论 1.4.3**, $\boldsymbol{EF} \perp \boldsymbol{n}$, 且 $EF \not\subset$ 平面 $ACD_1$, 故 $EF \parallel$ 平面 $ACD_1$. $\blacksquare$
-
-## 练习七
-
-(练习 1.4 第 1 题) 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, 点 $A$ 到平面 $A_1BD$ 的距离等于 $\;\_\_\;$; 直线 $DC$ 到平面 $AB_1$ 的距离等于 $\;\_\_\;$; 平面 $DA_1C_1$ 到平面 $CB_1D$ 的距离等于 $\;\_\_\;$.
-
-### 解答 练习七
-
-由**常用结论 1.4.6** (点到平面的距离).
-
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴, 棱长为 $1$.
-
-(1) 平面 $A_1BD$: $A_1\left(1,0,1\right)$, $B\left(1,1,0\right)$, $D\left(0,0,0\right)$. $\boldsymbol{DA_1}=\left(1,0,1\right)$, $\boldsymbol{DB}=\left(1,1,0\right)$. 法向量 $\boldsymbol{n}=\boldsymbol{DA_1} \times \boldsymbol{DB}=\left(-1,1,1\right)$.
-
-点 $A\left(1,0,0\right)$ 到平面 $A_1BD$ 的距离: $\boldsymbol{DA}=\left(1,0,0\right)$.
-
-$d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -1 \rvert}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
-
-(2) 直线 $DC$ 到平面 $AB_1$ 的距离. $DC \parallel$ 平面 $AB_1$ (因为 $DC \parallel AB$, $AB \subset$ 平面 $AB_1$). 取 $D\left(0,0,0\right)$ 到平面 $AB_1$ 的距离.
-
-平面 $AB_1$: $A\left(1,0,0\right)$, $B_1\left(1,1,1\right)$. 该平面过 $A$ 且方向为 $\boldsymbol{AB_1}=\left(0,1,1\right)$. 又 $\boldsymbol{AA_1}=\left(0,0,1\right)$ 在平面内. 法向量 $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AA_1}=\left(1,0,0\right)$.
-
-$d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1 \rvert}{1}=1$. 但实际上 $DC$ 到平面 $AB_1$ 的距离等于 $A$ 到直线 $DC$ 的距离在垂直方向上的值. 因为 $DC \parallel AB_1$ 所在平面, 距离为 $1$.
-
-(3) 平面 $DA_1C_1$ 到平面 $CB_1D$ 的距离. 两平面平行, 距离为 $\frac{\sqrt{3}}{3}$. $\blacksquare$
-
-## 练习八
-
-(练习 1.4 第 2 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$ 为线段 $DD_1$ 的中点, $F$ 为线段 $BB_1$ 的中点.
-
-(1) 求点 $A'$ 到直线 $B_1E$ 的距离;
-
-(2) 求直线 $FC_1$ 到直线 $AE$ 的距离;
-
-(3) 求点 $A'$ 到平面 $AB_1E$ 的距离;
-
-(4) 求直线 $FC_1$ 到平面 $AB_1E$ 的距离.
-
-该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$E$ 是侧棱 $DD_1$ 的中点,$F$ 是侧棱 $BB_1$ 的中点.
-
-### 解答 练习八
-
-由**常用结论 1.4.5** (点到直线的距离) 及**常用结论 1.4.6** (点到平面的距离).
-
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴. $A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(1,1,1\right)$, $C_1\left(0,1,1\right)$, $E\left(0,0,\frac{1}{2}\right)$, $F\left(1,1,\frac{1}{2}\right)$.
-
-(1) 直线 $B_1E$: 方向向量 $\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-\frac{1}{2}\right)$. 点 $A_1$ 到直线 $B_1E$: $\boldsymbol{B_1A_1}=A_1-B_1=\left(0,-1,0\right)$.
-
-$d=\sqrt{\lvert \boldsymbol{B_1A_1} \rvert^2-\left(\frac{\boldsymbol{B_1A_1} \cdot \boldsymbol{B_1E}}{\lvert \boldsymbol{B_1E} \rvert}\right)^2}=\sqrt{1-\left(\frac{1}{\sqrt{1+1+\frac{1}{4}}}\right)^2}=\sqrt{1-\frac{1}{\frac{9}{4}}}=\sqrt{1-\frac{4}{9}}=\frac{\sqrt{5}}{3}$.
-
-(2) 直线 $FC_1$ 到直线 $AE$ 的距离. 两直线不平行, 距离通过公垂线计算. 此处直接给结果: 由两异面直线上两点连线在公垂线方向上的投影长度, 得距离为 $\frac{\sqrt{2}}{2}$.
-
-(3) 平面 $AB_1E$: $\boldsymbol{AB_1}=\left(0,1,1\right)$, $\boldsymbol{AE}=\left(-1,0,\frac{1}{2}\right)$. 法向量 $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AE}=\left(\frac{1}{2},-1,1\right)$.
-
-点 $A_1$ 到平面: $\boldsymbol{AA_1}=\left(0,0,1\right)$.
-
-$d=\frac{\lvert \boldsymbol{AA_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{1}{\sqrt{\frac{1}{4}+1+1}}=\frac{1}{\frac{3}{2}}=\frac{2}{3}$.
-
-(4) 直线 $FC_1$ 到平面 $AB_1E$ 的距离. 因为 $FC_1 \parallel$ 平面 $AB_1E$ (验证: $\boldsymbol{FC_1}=\left(-1,0,\frac{1}{2}\right)$, $\boldsymbol{FC_1} \cdot \boldsymbol{n}=-\frac{1}{2}+0+\frac{1}{2}=0$), 距离等于点 $F$ 到平面的距离.
-
-$\boldsymbol{AF}=\left(0,1,\frac{1}{2}\right)$.
-
-$d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert \frac{1}{2}-1+\frac{1}{2} \rvert}{\frac{3}{2}}=0$. 即 $F$ 在平面内, 距离为 $0$. $\blacksquare$
-
-## 练习九
-
-(练习 1.4 第 3 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, 求平面 $A_1DB$ 与平面 $D_1CB_1$ 的距离.
-
-该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:画出两个互相平行的正三角形截面 $A_1BD$ 与 $D_1CB_1$(分别连接 $A_1$, $B$, $D$ 与 $D_1$, $C$, $B_1$).
-
-### 解答 练习九
-
-由**常用结论 1.4.6** (点到平面的距离).
-
-两平面 $A_1DB$ 与 $D_1CB_1$ 平行. 取点 $A\left(1,0,0\right)$ 到平面 $D_1CB_1$ 的距离.
-
-平面 $D_1CB_1$: $D_1\left(0,0,1\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$. $\boldsymbol{D_1C}=\left(0,1,-1\right)$, $\boldsymbol{D_1B_1}=\left(1,1,0\right)$.
-
-法向量 $\boldsymbol{n}=\boldsymbol{D_1C} \times \boldsymbol{D_1B_1}=\left(1,-1,-1\right)$.
-
-$\boldsymbol{D_1A}=\left(1,0,-1\right)$.
-
-$d=\frac{\lvert \boldsymbol{D_1A} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1+0+1 \rvert}{\sqrt{3}}=\frac{2}{\sqrt{3}}=\frac{2\sqrt{3}}{3}$.
-
-但因为两平面在正中间穿过正方体, 实际距离为 $\frac{\sqrt{3}}{3}$ (从 $A_1DB$ 平面到 $D_1CB_1$ 平面的距离). $\blacksquare$
-
-## 练习十
-
-(练习 1.4 第 1 题) 在直三棱柱 $ABC-A_1B_1C_1$ 中, $\angle BCA=90^\circ$, $D_1$, $F_1$ 分别是 $A_1B_1$, $A_1C_1$ 的中点, $BC=CA=CC_1$, 则 $BD_1$ 与 $AF_1$ 所成角的余弦值是( ).
-
-(A) $\frac{\sqrt{30}}{10}$ (B) $\frac{1}{2}$ (C) $\frac{\sqrt{30}}{15}$ (D) $\frac{\sqrt{15}}{10}$
-
-### 解答 练习十
-
-由**常用结论 1.4.7** (异面直线所成角).
-
-设 $BC=CA=CC_1=1$. 以 $C$ 为原点, $CA$ 为 $x$ 轴, $CB$ 为 $y$ 轴, $CC_1$ 为 $z$ 轴.
-
-$A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(0,1,1\right)$, $C_1\left(0,0,1\right)$.
-
-$D_1$ 是 $A_1B_1$ 中点: $D_1\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
-
-$F_1$ 是 $A_1C_1$ 中点: $F_1\left(\frac{1}{2}, 0, 1\right)$.
-
-$\boldsymbol{BD_1}=D_1-B=\left(\frac{1}{2}, -\frac{1}{2}, 1\right)$.
-
-$\boldsymbol{AF_1}=F_1-A=\left(-\frac{1}{2}, 0, 1\right)$.
-
-$\boldsymbol{BD_1} \cdot \boldsymbol{AF_1}=-\frac{1}{4}+0+1=\frac{3}{4}$.
-
-$\lvert \boldsymbol{BD_1} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+1}=\sqrt{\frac{3}{2}}=\frac{\sqrt{6}}{2}$.
-
-$\lvert \boldsymbol{AF_1} \rvert=\sqrt{\frac{1}{4}+1}=\frac{\sqrt{5}}{2}$.
-
-$\cos\theta=\frac{\frac{3}{4}}{\frac{\sqrt{6}}{2} \cdot \frac{\sqrt{5}}{2}}=\frac{\frac{3}{4}}{\frac{\sqrt{30}}{4}}=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
-
-故选 (A). $\blacksquare$
-
-## 练习十一
-
-(练习 1.4 第 2 题) $PA$, $PB$, $PC$ 是从点 $P$ 出发的三条射线, 每两条射线的夹角均为 $60^\circ$, 那么直线 $PC$ 与平面 $PAB$ 所成角的余弦值是( ).
-
-(A) $\frac{1}{2}$ (B) $\frac{\sqrt{2}}{2}$ (C) $\frac{\sqrt{3}}{3}$ (D) $\frac{\sqrt{6}}{3}$
-
-### 解答 练习十一
-
-由**常用结论 1.4.8** (直线与平面所成角).
-
-设 $\boldsymbol{PA}=\boldsymbol{a}$, $\boldsymbol{PB}=\boldsymbol{b}$, $\boldsymbol{PC}=\boldsymbol{c}$, 两两夹角 $60^\circ$, 模长均为 $1$.
-
-平面 $PAB$ 的法向量 $\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{c} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{n} \rvert}$.
-
-$\boldsymbol{c} \cdot \boldsymbol{n}=\boldsymbol{c} \cdot \left(\boldsymbol{a} \times \boldsymbol{b}\right)$ (混合积).
-
-设 $\boldsymbol{a}=\left(1,0,0\right)$, $\boldsymbol{b}=\left(\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$, $\boldsymbol{c}=\left(\frac{1}{2}, \frac{1}{2\sqrt{3}}, \sqrt{\frac{2}{3}}\right)$ (因为与 $\boldsymbol{a}$, $\boldsymbol{b}$ 均成 $60^\circ$).
-
-$\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}=\left(0,0,\frac{\sqrt{3}}{2}\right)$.
-
-$\boldsymbol{c} \cdot \boldsymbol{n}=\frac{\sqrt{3}}{2} \cdot \sqrt{\frac{2}{3}}=\frac{\sqrt{2}}{2}$.
-
-$\lvert \boldsymbol{n} \rvert=\frac{\sqrt{3}}{2}$.
-
-$\sin\theta=\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{3}}{2}}=\sqrt{\frac{2}{3}}$.
-
-$\cos\theta=\sqrt{1-\frac{2}{3}}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
-
-故选 (C). $\blacksquare$
-
-## 练习十二
-
-(练习 1.4 第 3 题) 如图, 正三棱柱 $ABC-A_1B_1C_1$ 的所有棱长都为 $2$, 求平面 $AA_1B$ 与平面 $A_1BC_1$ 夹角的余弦值.
-
-该图为正三棱柱 $ABC-A_1B_1C_1$ 的直观图:下底面为正三角形 $ABC$,上底面为全等的正三角形 $A_1B_1C_1$,三条侧棱 $AA_1$, $BB_1$, $CC_1$ 互相平行且垂直于底面,所有棱长均为 $2$.
-
-### 解答 练习十二
-
-由**常用结论 1.4.9** (平面与平面的夹角).
-
-设棱长为 $2$. 以 $A$ 为原点, $AB$ 沿 $x$ 轴, 建立坐标系.
-
-$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(1,\sqrt{3},0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(2,0,2\right)$, $C_1\left(1,\sqrt{3},2\right)$.
-
-平面 $AA_1B$: $z=0$ 平面 (即 $xOy$ 平面), 法向量 $\boldsymbol{n}_1=\left(0,0,1\right)$.
-
-平面 $A_1BC_1$: $\boldsymbol{A_1B}=\left(2,0,-2\right)$, $\boldsymbol{A_1C_1}=\left(1,\sqrt{3},0\right)$.
-
-法向量 $\boldsymbol{n}_2=\boldsymbol{A_1B} \times \boldsymbol{A_1C_1}=\left(2\sqrt{3},-2,2\sqrt{3}\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{2\sqrt{3}}{\sqrt{12+4+12} \cdot 1}=\frac{2\sqrt{3}}{\sqrt{28}}=\frac{2\sqrt{3}}{2\sqrt{7}}=\frac{\sqrt{21}}{7}$. $\blacksquare$
-
-## 练习十三
-
-(练习 1.4 第 4 题) 如图, $\triangle ABC$ 和 $\triangle DBC$ 所在平面垂直, 且 $AB=BC=BD$, $\angle CBA=\angle DBC=120^\circ$. 求:
-
-(1) 直线 $AD$ 与直线 $BC$ 所成角的大小;
-
-(2) 直线 $AD$ 与平面 $BCD$ 所成角的大小;
-
-(3) 平面 $ABD$ 和平面 $BDC$ 的夹角的余弦值.
-
-该图为两个共边三角形的直观图:$\triangle ABC$ 与 $\triangle DBC$ 以公共边 $BC$ 相连,且它们所在的平面互相垂直;$AB=BC=BD$,$\angle CBA=\angle DBC=120^\circ$.
-
-### 解答 练习十三
-
-由**常用结论 1.4.7**, **1.4.8**, **1.4.9**.
-
-设 $AB=BC=BD=1$. 以 $B$ 为原点, $BC$ 为 $x$ 轴, $BD$ 所在平面为 $xOy$ 平面, 两平面垂直.
-
-$B\left(0,0,0\right)$, $C\left(1,0,0\right)$, $D\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$ (因为 $\angle DBC=120^\circ$).
-
-$A$ 在垂直于平面 $BCD$ 的平面内, $\angle CBA=120^\circ$, $A\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$.
-
-(1) $\boldsymbol{AD}=D-A=\left(0, \frac{\sqrt{3}}{2}, -\frac{\sqrt{3}}{2}\right)$. $\boldsymbol{BC}=\left(1,0,0\right)$.
-
-$\boldsymbol{AD} \cdot \boldsymbol{BC}=0$. 故 $AD \perp BC$, 所成角为 $90^\circ$.
-
-(2) 平面 $BCD$ 即 $z=0$ 平面, 法向量 $\boldsymbol{n}=\left(0,0,1\right)$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{AD} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{AD} \rvert}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{0+\frac{3}{4}+\frac{3}{4}}}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{\frac{3}{2}}}=\frac{1}{\sqrt{2}}$.
-
-故 $\theta=45^\circ$.
-
-(3) 平面 $ABD$: $\boldsymbol{BA}=\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$, $\boldsymbol{BD}=\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$.
-
-法向量 $\boldsymbol{n}_1=\boldsymbol{BA} \times \boldsymbol{BD}=\left(-\frac{3}{4}, -\frac{\sqrt{3}}{4}, -\frac{\sqrt{3}}{4}\right)$.
-
-平面 $BDC$ 的法向量 $\boldsymbol{n}_2=\left(0,0,1\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{\sqrt{3}}{4}}{\sqrt{\frac{9}{16}+\frac{3}{16}+\frac{3}{16}}}=\frac{\frac{\sqrt{3}}{4}}{\frac{\sqrt{15}}{4}}=\frac{\sqrt{5}}{5}$. $\blacksquare$
-
-## 练习十四
-
-(练习 1.4 第 1 题) 如图, 二面角 $\alpha-l-\beta$ 的棱上有两个点 $A$, $B$, 线段 $BD$ 与 $AC$ 分别在这个二面角的两个面内, 并且都垂直于棱 $l$. 若 $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, 求平面 $\alpha$ 与平面 $\beta$ 的夹角.
-
-该图为二面角 $\alpha-l-\beta$ 的直观图:棱 $l$ 上有两点 $A$, $B$;线段 $AC$ 在面 $\alpha$ 内,线段 $BD$ 在面 $\beta$ 内,且 $AC \perp l$,$BD \perp l$;$AB=4$, $AC=6$, $BD=8$,$C$, $D$ 两点间距离 $CD=2\sqrt{17}$.
-
-### 解答 练习十四
-
-由**常用结论 1.4.9** (平面与平面的夹角).
-
-$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}$.
-
-因为 $AC \perp l$ 且 $BD \perp l$, $\boldsymbol{CA} \cdot \boldsymbol{AB}=0$, $\boldsymbol{AB} \cdot \boldsymbol{BD}=0$.
-
-$\lvert \boldsymbol{CD} \rvert^2=\boldsymbol{CA}^2+\boldsymbol{AB}^2+\boldsymbol{BD}^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
-
-$\left(2\sqrt{17}\right)^2=6^2+4^2+8^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
-
-$68=36+16+64+2\boldsymbol{CA} \cdot \boldsymbol{BD}=116+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
-
-$2\boldsymbol{CA} \cdot \boldsymbol{BD}=-48$, 即 $\boldsymbol{CA} \cdot \boldsymbol{BD}=-24$.
-
-设两平面夹角为 $\theta$, 则 $\cos\theta=\frac{\lvert \boldsymbol{AC} \cdot \boldsymbol{BD} \rvert}{\lvert \boldsymbol{AC} \rvert \lvert \boldsymbol{BD} \rvert}=\frac{24}{6 \times 8}=\frac{1}{2}$.
-
-故 $\theta=60^\circ$. $\blacksquare$
-
-## 练习十五
-
-(练习 1.4 第 2 题) 如图, 在三棱锥 $A-BCD$ 中, $AB=AC=BD=CD=3$, $AD=BC=2$, $M$, $N$ 分别是 $AD$, $BC$ 的中点. 求异面直线 $AN$, $CM$ 所成角的余弦值.
-
-该图为三棱锥 $A-BCD$ 的直观图:$AB=AC=BD=CD=3$,$AD=BC=2$;$M$ 是棱 $AD$ 的中点,$N$ 是棱 $BC$ 的中点,图中连有线段 $AN$ 与 $CM$.
-
-### 解答 练习十五
-
-由**常用结论 1.4.7** (异面直线所成角).
-
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$. 由对称性, 建立坐标系: 取 $BC$ 中点 $N$ 为原点, $BC$ 沿 $x$ 轴, $AN$ 在 $yOz$ 平面内.
-
-$B\left(-1,0,0\right)$, $C\left(1,0,0\right)$, $N\left(0,0,0\right)$. $AB=AC=3$, $BC=2$, 故 $AN=\sqrt{9-1}=2\sqrt{2}$. 设 $A\left(0,2\sqrt{2},0\right)$.
-
-$AD=2$, $BD=CD=3$, 同理 $D$ 在垂直于 $BC$ 的平面内, $D\left(0,y,z\right)$. 由 $BD=3$, $1+y^2+z^2=9$, 即 $y^2+z^2=8$. 由 $AD=2$, $\left(2\sqrt{2}-y\right)^2+z^2=4$. 展开: $8-4\sqrt{2}y+y^2+z^2=4$, 即 $8-4\sqrt{2}y+8=4$, $y=\frac{12}{4\sqrt{2}}=\frac{3\sqrt{2}}{2}$. $z^2=8-\frac{9 \times 2}{4}=8-\frac{9}{2}=\frac{7}{2}$.
-
-$M$ 是 $AD$ 中点: $M\left(0, \frac{2\sqrt{2}+\frac{3\sqrt{2}}{2}}{2}, \frac{z}{2}\right)=\left(0, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
-
-$\boldsymbol{AN}=N-A=\left(0,-2\sqrt{2},0\right)$.
-
-$\boldsymbol{CM}=M-C=\left(-1, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
-
-$\boldsymbol{AN} \cdot \boldsymbol{CM}=0+\left(-2\sqrt{2}\right) \times \frac{7\sqrt{2}}{4}+0=-\frac{28}{4}=-7$.
-
-$\lvert \boldsymbol{AN} \rvert=2\sqrt{2}$.
-
-$\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{49 \times 2}{16}+\frac{7}{8}}=\sqrt{1+\frac{49}{8}+\frac{7}{8}}=\sqrt{\frac{64}{8}}=\sqrt{8}=2\sqrt{2}$.
-
-$\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
-
-## 练习十六
-
-(练习 1.4 第 3 题) 如图, 在三棱锥 $O-ABC$ 中, $OA$, $OB$, $OC$ 两两垂直, $OA=OC=3$, $OB=2$. 求直线 $OB$ 与平面 $ABC$ 所成角的正弦值.
-
-该图为三棱锥 $O-ABC$ 的直观图:三条侧棱 $OA$, $OB$, $OC$ 两两垂直,且 $OA=OC=3$, $OB=2$,底面为 $\triangle ABC$.
-
-### 解答 练习十六
-
-由**常用结论 1.4.8** (直线与平面所成角).
-
-以 $O$ 为原点, $OA$ 为 $x$ 轴, $OB$ 为 $y$ 轴, $OC$ 为 $z$ 轴.
-
-$A\left(3,0,0\right)$, $B\left(0,2,0\right)$, $C\left(0,0,3\right)$.
-
-平面 $ABC$: $\boldsymbol{AB}=\left(-3,2,0\right)$, $\boldsymbol{AC}=\left(-3,0,3\right)$.
-
-法向量 $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(6,9,6\right)=3\left(2,3,2\right)$.
-
-$\boldsymbol{OB}=\left(0,2,0\right)$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{OB} \rvert \lvert \boldsymbol{n} \rvert}=\frac{18}{2 \times \sqrt{4+9+4}}=\frac{18}{2 \times \sqrt{17}}=\frac{9}{\sqrt{17}}=\frac{9\sqrt{17}}{17}$. $\blacksquare$
+$\blacksquare$
 
 ## 习题一
 
-(习题 1.4 复习巩固第 1 题) 如图, 在三棱锥 $A-BCD$ 中, $E$ 是 $CD$ 的中点, 点 $F$ 在 $AE$ 上, 且 $EF=2FA$. 设 $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$, 求直线 $AE$, $BF$ 的方向向量.
+(习题 4.4 复习巩固第 1 题) 选择题: 用数学归纳法证明下列等式: $-1+3-5+7+\cdots+\left(-1\right)^n\left(2n-1\right)+\left(-1\right)^{n+1}\left(2n+1\right)+\left(-1\right)^{n+2}\left(2n+3\right)=\left(-1\right)^{n+2}\left(n+2\right)$. 要验证当 $n=1$ 时等式成立, 其左边的式子应为 ( )
 
-该图为三棱锥 $A-BCD$ 的直观图:$E$ 是棱 $CD$ 的中点,点 $F$ 在中线 $AE$ 上且 $EF=2FA$(即 $AF:FE=1:2$),图中连有线段 $BF$.
+(A) $-1$
+
+(B) $-1+3$
+
+(C) $-1+3-5$
+
+(D) $-1+3-5+7$
 
 ### 解答 习题一
 
-由**定义 1.4.1 (直线的方向向量)**.
+由**定义 4.4.1 (数学归纳法)**, 当 $n=1$ 时, 左边为 $-1+3-5=-3$.
 
-$\boldsymbol{AE}=\boldsymbol{AB}+\boldsymbol{BE}=-\boldsymbol{c}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
+对照选项, 选 (C).
 
-$EF=2FA$, 故 $AF:FE=1:2$, $F$ 在 $AE$ 上且 $\boldsymbol{AF}=\frac{1}{3}\boldsymbol{AE}$.
+$\blacksquare$
 
-$\boldsymbol{BF}=\boldsymbol{BA}+\boldsymbol{AF}=\boldsymbol{c}+\frac{1}{3}\boldsymbol{AE}=\boldsymbol{c}+\frac{1}{3}\left(-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}\right)=\frac{2}{3}\boldsymbol{c}+\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}$.
+(习题 4.4 复习巩固第 2 题) 用数学归纳法证明
 
-故直线 $AE$ 的方向向量为 $-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, 直线 $BF$ 的方向向量为 $\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}+\frac{2}{3}\boldsymbol{c}$. $\blacksquare$
+(1) $1+3+5+\cdots+\left(2n-1\right)=n^2$;
 
-## 习题二
+(2) $1+2+2^2+\cdots+2^{n-1}=2^n-1$;
 
-(习题 1.4 复习巩固第 2 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $AB \perp AC$, $AB=AC=1$, $AA_1=2$. 以 $A$ 为原点, 建立如图所示空间直角坐标系.
+(3) $1^3+2^3+3^3+\cdots+n^3=\left[\frac{n\left(n+1\right)}{2}\right]^2$.
 
-(1) 求平面 $BCC_1B_1$ 的法向量;
+### 解答 习题一
 
-(2) 求平面 $A_1BC$ 的法向量.
+(1) (1) 当 $n=1$ 时, 左边 $=1$, 右边 $=1$, 成立.
 
-该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图:下底面 $\triangle ABC$ 中 $\angle BAC=90^\circ$,$AB=AC=1$,侧棱 $AA_1=2$ 且垂直于底面;以 $A$ 为原点,$AB$ 为 $x$ 轴,$AC$ 为 $y$ 轴,$AA_1$ 为 $z$ 轴建立空间直角坐标系.
+(2) 假设当 $n=k$ 时, $1+3+5+\cdots+\left(2k-1\right)=k^2$.
 
-### 解答 习题二
+当 $n=k+1$ 时, 左边 $=k^2+\left(2k+1\right)=\left(k+1\right)^2$. 成立.
 
-由**定义 1.4.2 (平面的法向量)**.
+由**定义 4.4.1 (数学归纳法)**, 等式成立.
 
-$A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(0,1,0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(1,0,2\right)$, $C_1\left(0,1,2\right)$.
+$\blacksquare$
 
-(1) 平面 $BCC_1B_1$: $\boldsymbol{BC}=\left(-1,1,0\right)$, $\boldsymbol{CC_1}=\left(0,0,2\right)$.
+(2) (1) 当 $n=1$ 时, 左边 $=1$, 右边 $=2-1=1$, 成立.
 
-设 $\boldsymbol{n}_1=\left(x,y,z\right)$, $\boldsymbol{n}_1 \cdot \boldsymbol{BC}=-x+y=0$, $\boldsymbol{n}_1 \cdot \boldsymbol{CC_1}=2z=0$. 取 $x=1$, 得 $\boldsymbol{n}_1=\left(1,1,0\right)$.
+(2) 假设当 $n=k$ 时, $1+2+\cdots+2^{k-1}=2^k-1$.
 
-(2) 平面 $A_1BC$: $\boldsymbol{A_1B}=\left(1,0,-2\right)$, $\boldsymbol{A_1C}=\left(0,1,-2\right)$.
+当 $n=k+1$ 时, 左边 $=2^k-1+2^k=2^{k+1}-1$. 成立.
 
-设 $\boldsymbol{n}_2=\left(x,y,z\right)$, $\boldsymbol{n}_2 \cdot \boldsymbol{A_1B}=x-2z=0$, $\boldsymbol{n}_2 \cdot \boldsymbol{A_1C}=y-2z=0$. 取 $z=1$, 得 $\boldsymbol{n}_2=\left(2,2,1\right)$. $\blacksquare$
+由**定义 4.4.1 (数学归纳法)**, 等式成立.
 
-## 习题三
+$\blacksquare$
 
-(习题 1.4 复习巩固第 3 题) 如图, 在平行六面体 $ABCD-A_1B_1C_1D_1$ 中, $E$ 是 $AB$ 的中点, $F$ 是 $C_1D_1$ 的中点. 求证: $A_1E \parallel CF$.
+(3) (1) 当 $n=1$ 时, 左边 $=1$, 右边 $=\left(\frac{1\times 2}{2}\right)^2=1$, 成立.
 
-该图为平行六面体 $ABCD-A_1B_1C_1D_1$ 的直观图:$E$ 是棱 $AB$ 的中点,$F$ 是棱 $C_1D_1$ 的中点,图中连有线段 $A_1E$ 与 $CF$.
+(2) 假设当 $n=k$ 时, $1^3+2^3+\cdots+k^3=\left[\frac{k\left(k+1\right)}{2}\right]^2$.
 
-### 解答 习题三
+当 $n=k+1$ 时,
 
-由**常用结论 1.4.3** (用向量刻画平行关系).
+$$
+\left[\frac{k\left(k+1\right)}{2}\right]^2+\left(k+1\right)^3=\frac{k^2\left(k+1\right)^2}{4}+\left(k+1\right)^3=\left(k+1\right)^2\cdot\frac{k^2+4k+4}{4}=\left[\frac{\left(k+1\right)\left(k+2\right)}{2}\right]^2.
+$$
 
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$.
+成立. 由**定义 4.4.1 (数学归纳法)**, 等式成立.
 
-$\boldsymbol{A_1E}=\boldsymbol{A_1A}+\boldsymbol{AE}=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
+$\blacksquare$
 
-$\boldsymbol{CF}=\boldsymbol{CD}+\boldsymbol{DD_1}+\boldsymbol{D_1F}=-\boldsymbol{a}+\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{c}=-\left(\frac{1}{2}\boldsymbol{a}-\boldsymbol{c}\right)=-\boldsymbol{A_1E}$.
+(习题 4.4 复习巩固第 3 题) 已知数列 $\left\{a_n\right\}$ 满足 $a_1=1$, $4a_{n+1}-a_n a_{n+1}+2a_n=9$ ($n\in\mathbb N^*$). 计算 $a_2,a_3,a_4$, 由此猜想数列 $\left\{a_n\right\}$ 的通项公式, 并用数学归纳法证明
 
-故 $\boldsymbol{A_1E}=-\boldsymbol{CF}$, 即 $\boldsymbol{A_1E} \parallel \boldsymbol{CF}$.
+### 解答 习题一
 
-由**常用结论 1.4.3**, $A_1E \parallel CF$. $\blacksquare$
+由 $4a_{n+1}-a_n a_{n+1}+2a_n=9$, 得 $a_{n+1}=\frac{9-2a_n}{4-a_n}$.
 
-## 习题四
+$$
+a_2=\frac{9-2}{4-1}=\frac{7}{3},\ a_3=\frac{9-\frac{14}{3}}{4-\frac{7}{3}}=\frac{13}{5},\ a_4=\frac{9-\frac{26}{5}}{4-\frac{13}{5}}=\frac{19}{7}.
+$$
 
-(习题 1.4 复习巩固第 4 题) 如图, 在四面体 $ABCD$ 中, $AD \perp$ 平面 $BCD$, $M$ 是 $AD$ 的中点, $P$ 是 $BM$ 的中点. 点 $Q$ 在线段 $AC$ 上, 且 $AQ=3QC$. 求证: $PQ \parallel$ 平面 $BCD$.
+观察 $1=\frac{1}{1},\frac{7}{3},\frac{13}{5},\frac{19}{7}$, 分子为 $1,7,13,19$, 公差 $6$; 分母为 $1,3,5,7$, 公差 $2$.
 
-该图为四面体 $ABCD$ 的直观图:$AD \perp$ 平面 $BCD$($AD$ 竖直,底面 $BCD$ 水平);$M$ 是棱 $AD$ 的中点,$P$ 是线段 $BM$ 的中点,点 $Q$ 在棱 $AC$ 上且 $AQ:QC=3:1$,图中连有线段 $PQ$.
+猜想 $a_n=\frac{6n-5}{2n-1}$.
 
-### 解答 习题四
+(1) 当 $n=1$ 时, $a_1=\frac{1}{1}=1$, 成立.
 
-由**常用结论 1.4.3** (用向量刻画平行关系).
+(2) 假设当 $n=k$ 时, $a_k=\frac{6k-5}{2k-1}$.
 
-以 $D$ 为原点, 平面 $BCD$ 内两垂直方向为 $x$, $y$ 轴, $DA$ 为 $z$ 轴.
+当 $n=k+1$ 时,
 
-设 $A\left(0,0,a\right)$, $B\left(b,0,0\right)$, $C\left(0,c,0\right)$, $D\left(0,0,0\right)$.
+$$
+a_{k+1}=\frac{9-2a_k}{4-a_k}=\frac{9-\frac{2\left(6k-5\right)}{2k-1}}{4-\frac{6k-5}{2k-1}}=\frac{9\left(2k-1\right)-2\left(6k-5\right)}{4\left(2k-1\right)-\left(6k-5\right)}=\frac{18k-9-12k+10}{8k-4-6k+5}=\frac{6k+1}{2k+1}.
+$$
 
-$M$ 是 $AD$ 中点: $M\left(0,0,\frac{a}{2}\right)$.
+符合 $\frac{6\left(k+1\right)-5}{2\left(k+1\right)-1}=\frac{6k+1}{2k+1}$. 成立.
 
-$P$ 是 $BM$ 中点: $P\left(\frac{b}{2}, 0, \frac{a}{4}\right)$.
+由**定义 4.4.1 (数学归纳法)**, 通项公式成立.
 
-$AQ=3QC$, 故 $Q=\frac{1 \cdot A+3 \cdot C}{4}=\left(0, \frac{3c}{4}, \frac{a}{4}\right)$.
+$\blacksquare$
 
-$\boldsymbol{PQ}=Q-P=\left(-\frac{b}{2}, \frac{3c}{4}, 0\right)$.
+(习题 4.4 复习巩固第 4 题) 已知数列 $\frac{1}{1\times 4},\frac{1}{4\times 7},\frac{1}{7\times 10},\cdots,\frac{1}{\left(3n-2\right)\left(3n+1\right)},\cdots$ 的前 $n$ 项和为 $S_n$. 计算 $S_1,S_2,S_3,S_4$, 由此猜想 $S_n$ 的表达式, 并用数学归纳法证明
 
-平面 $BCD$ 即 $z=0$ 平面, 其法向量为 $\left(0,0,1\right)$.
+### 解答 习题一
 
-$\boldsymbol{PQ} \cdot \left(0,0,1\right)=0$, 即 $\boldsymbol{PQ} \perp$ 法向量.
+$$
+S_1=\frac{1}{1\times 4}=\frac{1}{4},\ S_2=\frac{1}{4}+\frac{1}{4\times 7}=\frac{2}{7},\ S_3=\frac{2}{7}+\frac{1}{7\times 10}=\frac{3}{10},\ S_4=\frac{3}{10}+\frac{1}{10\times 13}=\frac{4}{13}.
+$$
 
-又 $PQ \not\subset$ 平面 $BCD$ (因为 $P$, $Q$ 的 $z$ 坐标不为零, 但 $\boldsymbol{PQ}$ 的 $z$ 分量为零), 故 $PQ \parallel$ 平面 $BCD$. $\blacksquare$
+猜想 $S_n=\frac{n}{3n+1}$.
 
-## 习题五
+(1) 当 $n=1$ 时, $S_1=\frac{1}{4}$, 成立.
 
-(习题 1.4 复习巩固第 5 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, 点 $E$ 在 $BD$ 上, 且 $BE=\frac{1}{3}BD$; 点 $F$ 在 $CB_1$ 上, 且 $CF=\frac{1}{3}CB_1$. 求证:
+(2) 假设当 $n=k$ 时, $S_k=\frac{k}{3k+1}$.
 
-(1) $EF \perp BD$;
+当 $n=k+1$ 时,
 
-(2) $EF \perp CB_1$.
+$$
+S_{k+1}=\frac{k}{3k+1}+\frac{1}{\left(3k+1\right)\left(3k+4\right)}=\frac{k\left(3k+4\right)+1}{\left(3k+1\right)\left(3k+4\right)}=\frac{3k^2+4k+1}{\left(3k+1\right)\left(3k+4\right)}=\frac{\left(3k+1\right)\left(k+1\right)}{\left(3k+1\right)\left(3k+4\right)}=\frac{k+1}{3k+4}.
+$$
 
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:点 $E$ 在面对角线 $BD$ 上且 $BE=\frac{1}{3}BD$,点 $F$ 在面对角线 $CB_1$ 上且 $CF=\frac{1}{3}CB_1$,图中连有线段 $EF$.
+符合 $\frac{k+1}{3\left(k+1\right)+1}=\frac{k+1}{3k+4}$. 成立.
 
-### 解答 习题五
+由**定义 4.4.1 (数学归纳法)**, 表达式成立.
 
-由**常用结论 1.4.4** (用向量刻画垂直关系).
+$\blacksquare$
 
-设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
+(习题 4.4 综合运用第 5 题) 用数学归纳法证明: $\frac{1^2}{1\times 3}+\frac{2^2}{3\times 5}+\cdots+\frac{n^2}{\left(2n-1\right)\left(2n+1\right)}=\frac{n\left(n+1\right)}{2\left(2n+1\right)}$
 
-$B\left(1,1,0\right)$, $D\left(0,0,0\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$.
+### 解答 习题一
 
-$BE=\frac{1}{3}BD$, 故 $E=B+\frac{1}{3}\left(D-B\right)=\left(\frac{2}{3}, \frac{2}{3}, 0\right)$.
+(1) 当 $n=1$ 时, 左边 $=\frac{1}{3}$, 右边 $=\frac{1\times 2}{2\times 3}=\frac{1}{3}$, 成立.
 
-$CF=\frac{1}{3}CB_1$, 故 $F=C+\frac{1}{3}\left(B_1-C\right)=\left(\frac{1}{3}, 1, \frac{1}{3}\right)$.
+(2) 假设当 $n=k$ 时, $\displaystyle\sum_{i=1}^k\frac{i^2}{\left(2i-1\right)\left(2i+1\right)}=\frac{k\left(k+1\right)}{2\left(2k+1\right)}$.
 
-$\boldsymbol{EF}=F-E=\left(-\frac{1}{3}, \frac{1}{3}, \frac{1}{3}\right)$.
+当 $n=k+1$ 时,
 
-(1) $\boldsymbol{BD}=D-B=\left(-1,-1,0\right)$.
+$$
+\frac{k\left(k+1\right)}{2\left(2k+1\right)}+\frac{\left(k+1\right)^2}{\left(2k+1\right)\left(2k+3\right)}=\frac{k\left(k+1\right)\left(2k+3\right)+2\left(k+1\right)^2}{2\left(2k+1\right)\left(2k+3\right)}.
+$$
 
-$\boldsymbol{EF} \cdot \boldsymbol{BD}=\frac{1}{3}-\frac{1}{3}+0=0$. 故 $EF \perp BD$.
+分子 $=\left(k+1\right)\left[k\left(2k+3\right)+2\left(k+1\right)\right]=\left(k+1\right)\left(2k^2+5k+2\right)=\left(k+1\right)\left(2k+1\right)\left(k+2\right)$.
 
-(2) $\boldsymbol{CB_1}=B_1-C=\left(1,0,1\right)$.
+$$
+=\frac{\left(k+1\right)\left(2k+1\right)\left(k+2\right)}{2\left(2k+1\right)\left(2k+3\right)}=\frac{\left(k+1\right)\left(k+2\right)}{2\left(2k+3\right)}.
+$$
 
-$\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. 故 $EF \perp CB_1$. $\blacksquare$
+成立. 由**定义 4.4.1 (数学归纳法)**, 等式成立.
 
-## 习题六
+$\blacksquare$
 
-(习题 1.4 复习巩固第 6 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, $O$ 为正方形 $A_1ABB_1$ 的中心, $E$ 为 $BC$ 的中点, 求点 $O$ 到直线 $A_1E$ 的距离.
+(习题 4.4 综合运用第 6 题) 已知数列 $\left\{a_n\right\},\left\{b_n\right\}$ 的通项公式分别为 $a_n=2^n$, $b_n=n^4$, 其中 $n\in\mathbb N^*$. 试推断 $a_n> b_n$ 对哪些正整数 $n$ 成立, 证明你的结论
 
-该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$O$ 是侧面正方形 $A_1ABB_1$ 的中心,$E$ 是棱 $BC$ 的中点,图中连有线段 $A_1E$.
+### 解答 习题一
 
-### 解答 习题六
+计算: $a_1=2< 1=b_1$; $a_2=4< 16=b_2$; $a_3=8< 81=b_3$; $a_4=16< 256=b_4$; $a_5=32< 625=b_5$; $a_6=64< 1296=b_6$; $a_7=128< 2401=b_7$; $a_8=256< 4096=b_8$; $a_9=512< 6561=b_9$; $a_{10}=1024< 10000=b_{10}$; $a_{11}=2048< 14641=b_{11}$; $a_{12}=4096< 20736=b_{12}$; $a_{13}=8192< 28561=b_{13}$; $a_{14}=16384> 38416=b_{14}$? $14^4=38416> 16384$, 不成立.
 
-由**常用结论 1.4.5** (点到直线的距离).
+继续: $n=15$: $2^{15}=32768$, $15^4=50625$, 不成立. $n=16$: $65536< 65536$? $16^4=65536$, 相等. $n=17$: $131072> 83521$, 成立.
 
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
+猜想 $n\ge 17$ 时 $2^n> n^4$.
 
-$A_1\left(1,0,1\right)$, $E\left(\frac{1}{2}, 1, 0\right)$, $O$ 是正方形 $A_1ABB_1$ 的中心: $O\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
+(1) 当 $n=17$ 时, $2^{17}=131072> 83521=17^4$, 成立.
 
-$\boldsymbol{A_1E}=E-A_1=\left(-\frac{1}{2}, 1, -1\right)$.
+(2) 假设当 $n=k$ ($k\ge 17$) 时, $2^k> k^4$.
 
-$\boldsymbol{A_1O}=O-A_1=\left(0, \frac{1}{2}, -\frac{1}{2}\right)$.
+当 $n=k+1$ 时, 需证 $2^{k+1}> \left(k+1\right)^4$.
 
-$d=\sqrt{\lvert \boldsymbol{A_1O} \rvert^2-\left(\frac{\boldsymbol{A_1O} \cdot \boldsymbol{A_1E}}{\lvert \boldsymbol{A_1E} \rvert}\right)^2}$.
+由 $2^{k+1}> 2k^4$, 需证 $2k^4> \left(k+1\right)^4$, 即 $2> \left(1+\frac{1}{k}\right)^4$.
 
-$\lvert \boldsymbol{A_1O} \rvert^2=0+\frac{1}{4}+\frac{1}{4}=\frac{1}{2}$.
+当 $k\ge 17$ 时, $\left(1+\frac{1}{17}\right)^4< 2$, 成立.
 
-$\boldsymbol{A_1O} \cdot \boldsymbol{A_1E}=0+\frac{1}{2}+\frac{1}{2}=1$.
+故 $2^{k+1}> \left(k+1\right)^4$. 由**定义 4.4.1 (数学归纳法)**, $n\ge 17$ 时 $a_n> b_n$.
 
-$\lvert \boldsymbol{A_1E} \rvert=\sqrt{\frac{1}{4}+1+1}=\frac{3}{2}$.
+$\blacksquare$
 
-$d=\sqrt{\frac{1}{2}-\left(\frac{1}{\frac{3}{2}}\right)^2}=\sqrt{\frac{1}{2}-\frac{4}{9}}=\sqrt{\frac{1}{18}}=\frac{\sqrt{2}}{6}$. $\blacksquare$
+(习题 4.4 综合运用第 7 题) 已知数列 $\left\{x_n\right\}$ 满足 $x_1=1$, $x_n=x_{n+1}+\ln\left(1+x_{n+1}\right)$ ($n\in\mathbb N^*$). 试用数学归纳法证明 $x_n> 0$, 并比较 $x_n$ 与 $x_{n+1}$ 的大小关系
 
-## 习题七
+### 解答 习题一
 
-(习题 1.4 复习巩固第 7 题) 如图, 四面体 $OABC$ 的所有棱长都是 $1$, $D$, $E$ 分别是 $OA$, $BC$ 的中点, 连接 $DE$.
+(1) 当 $n=1$ 时, $x_1=1> 0$, 成立.
 
-(1) 计算 $DE$ 的长;
+(2) 假设当 $n=k$ 时, $x_k> 0$.
 
-(2) 求点 $O$ 到平面 $ABC$ 的距离.
+由 $x_k=x_{k+1}+\ln\left(1+x_{k+1}\right)$, 若 $x_{k+1}\le 0$, 则 $\ln\left(1+x_{k+1}\right)\le 0$, 故 $x_k\le 0$, 矛盾.
 
-该图为正四面体 $OABC$ 的直观图:六条棱均为 $1$;$D$ 是棱 $OA$ 的中点,$E$ 是棱 $BC$ 的中点,图中连有线段 $DE$.
+故 $x_{k+1}> 0$. 由**定义 4.4.1 (数学归纳法)**, $x_n> 0$ 对一切 $n\in\mathbb N^*$ 成立.
 
-### 解答 习题七
+又 $x_n-x_{n+1}=\ln\left(1+x_{n+1}\right)> 0$, 故 $x_n> x_{n+1}$, 数列递减.
 
-由**常用结论 1.3.6** (空间两点间的距离公式) 及**常用结论 1.4.6** (点到平面的距离).
+$\blacksquare$
 
-正四面体棱长为 $1$.
+(习题 4.4 拓广探索第 8 题) 证明: $n^3+5n$ ($n\in\mathbb N^*$) 能够被 $6$ 整除
 
-(1) 设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, 两两夹角 $60^\circ$, 模为 $1$.
+### 解答 习题一
 
-$\boldsymbol{DE}=\boldsymbol{OE}-\boldsymbol{OD}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
+(1) 当 $n=1$ 时, $1+5=6$, 能被 $6$ 整除, 成立.
 
-$\lvert \boldsymbol{DE} \rvert^2=\frac{1}{4}\left(\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{c}\right)=\frac{1}{4}\left(1+1+1-1+1-1\right)=\frac{1}{4} \times 2=\frac{1}{2}$.
+(2) 假设当 $n=k$ 时, $k^3+5k$ 能被 $6$ 整除.
 
-故 $DE=\frac{\sqrt{2}}{2}$.
+当 $n=k+1$ 时,
 
-(2) 平面 $ABC$ 的法向量 $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \times \left(\boldsymbol{c}-\boldsymbol{a}\right)=\boldsymbol{b} \times \boldsymbol{c}-\boldsymbol{b} \times \boldsymbol{a}-\boldsymbol{a} \times \boldsymbol{c}$.
+$$
+\left(k+1\right)^3+5\left(k+1\right)=k^3+3k^2+3k+1+5k+5=\left(k^3+5k\right)+3k\left(k+1\right)+6.
+$$
 
-取坐标计算: $A\left(1,0,0\right)$, $B\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)$, $C\left(-\frac{1}{2},\frac{\sqrt{3}}{6},\frac{\sqrt{6}}{3}\right)$, $O\left(0,0,0\right)$.
+$3k\left(k+1\right)$ 中 $k$ 与 $k+1$ 必有一个偶数, 故 $3k\left(k+1\right)$ 能被 $6$ 整除.
 
-法向量 $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(-\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{6}}{3}, -\frac{1}{2} \cdot \frac{\sqrt{6}}{3}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right), \frac{1}{2} \cdot \frac{\sqrt{3}}{6}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right)\right)$.
+$k^3+5k$ 由假设能被 $6$ 整除, $6$ 也能被 $6$ 整除.
 
-$d=\frac{\sqrt{6}}{3}$. $\blacksquare$
+故 $\left(k+1\right)^3+5\left(k+1\right)$ 能被 $6$ 整除. 由**定义 4.4.1 (数学归纳法)**, 命题成立.
 
-## 习题八
+$\blacksquare$
 
-(习题 1.4 综合运用第 8 题) 如图, 四面体 $ABCD$ 的每条棱长都等于 $a$, $M$, $N$ 分别是 $AB$, $CD$ 的中点. 求证: $MN \perp AB$, $MN \perp CD$.
+(习题 4.4 拓广探索第 9 题) 一本旧教材上有一个关于正整数 $n$ 的恒等式 $1\times 2^2+2\times 3^2+\cdots+n\left(n+1\right)^2=\frac{1}{12}n\left(n+1\right)?$, 其中问号处由于年代久远, 只能看出它是关于 $n$ 的二次三项式, 具体的系数已经看不清楚了. 请你猜想这个恒等式的形式, 并用数学归纳法证明
 
-该图为正四面体 $ABCD$ 的直观图:六条棱长均为 $a$;$M$ 是棱 $AB$ 的中点,$N$ 是棱 $CD$ 的中点,图中连有线段 $MN$.
+### 解答 习题一
 
-### 解答 习题八
+设右边为 $\frac{1}{12}n\left(n+1\right)\left(an^2+bn+c\right)$.
 
-由**常用结论 1.4.4** (用向量刻画垂直关系).
+代入 $n=1$: 左边 $=4$, $\frac{1}{12}\times 2\times\left(a+b+c\right)=4$, $a+b+c=24$.
 
-正四面体棱长为 $a$. 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$.
+代入 $n=2$: 左边 $=4+18=22$, $\frac{1}{12}\times 6\times\left(4a+2b+c\right)=22$, $4a+2b+c=44$.
 
-$M$ 是 $AB$ 中点, $N$ 是 $CD$ 中点.
+代入 $n=3$: 左边 $=22+48=70$, $\frac{1}{12}\times 12\times\left(9a+3b+c\right)=70$, $9a+3b+c=70$.
 
-$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}$.
+解得 $a=3$, $b=11$, $c=10$.
 
-$\boldsymbol{MN} \cdot \boldsymbol{AB}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \boldsymbol{a}=\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a}^2$.
+猜想右边为 $\frac{1}{12}n\left(n+1\right)\left(3n^2+11n+10\right)=\frac{1}{12}n\left(n+1\right)\left(n+2\right)\left(3n+5\right)$.
 
-在正四面体中, $\boldsymbol{a} \cdot \boldsymbol{b}=\frac{a^2}{2}$, $\boldsymbol{a} \cdot \boldsymbol{c}=\frac{a^2}{2}$, $\boldsymbol{a}^2=a^2$.
+(1) 当 $n=1$ 时, 右边 $=\frac{1}{12}\times 1\times 2\times 3\times 8=4$, 成立.
 
-故 $\boldsymbol{MN} \cdot \boldsymbol{AB}=\frac{1}{2} \cdot \frac{a^2}{2}+\frac{1}{2} \cdot \frac{a^2}{2}-\frac{1}{2}a^2=\frac{a^2}{4}+\frac{a^2}{4}-\frac{a^2}{2}=0$.
+(2) 假设当 $n=k$ 时, $\displaystyle\sum_{i=1}^k i\left(i+1\right)^2=\frac{1}{12}k\left(k+1\right)\left(k+2\right)\left(3k+5\right)$.
 
-故 $MN \perp AB$.
+当 $n=k+1$ 时,
 
-同理, $\boldsymbol{MN} \cdot \boldsymbol{CD}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{b}^2+\frac{1}{2}\boldsymbol{c}^2-\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}=-\frac{a^2}{2}+\frac{a^2}{2}-\frac{a^2}{4}+\frac{a^2}{4}=0$.
+$$
+\frac{1}{12}k\left(k+1\right)\left(k+2\right)\left(3k+5\right)+\left(k+1\right)\left(k+2\right)^2=\left(k+1\right)\left(k+2\right)\left[\frac{k\left(3k+5\right)}{12}+\left(k+2\right)\right].
+$$
 
-故 $MN \perp CD$. $\blacksquare$
+$$
+=\left(k+1\right)\left(k+2\right)\cdot\frac{3k^2+5k+12k+24}{12}=\frac{\left(k+1\right)\left(k+2\right)\left(3k^2+17k+24\right)}{12}.
+$$
 
-## 习题九
+$$
+=\frac{\left(k+1\right)\left(k+2\right)\left(k+3\right)\left(3k+8\right)}{12}.
+$$
 
-(习题 1.4 综合运用第 9 题) 如图, $M$, $N$ 分别是正方体 $ABCD-A'B'C'D'$ 的棱 $BB'$ 和 $B'C'$ 的中点, 求:
+与 $\frac{1}{12}\left(k+1\right)\left(k+2\right)\left(k+3\right)\left[3\left(k+1\right)+5\right]$ 一致. 成立.
 
-(1) $MN$ 和 $CD'$ 所成角的大小;
+由**定义 4.4.1 (数学归纳法)**, 恒等式成立.
 
-(2) $MN$ 和 $AD$ 所成角的大小.
+$\blacksquare$
 
-该图为正方体 $ABCD-A'B'C'D'$ 的斜二测直观图:$M$ 是棱 $BB'$ 的中点,$N$ 是棱 $B'C'$ 的中点,图中连有线段 $MN$.
+(习题 4.4 拓广探索第 10 题) 已知命题: 设 $a_1,a_2$ 为非负实数, $b_1,b_2$ 为正实数, 若 $b_1+b_2=1$, 则 $a_1^{b_1}a_2^{b_2}\le a_1 b_1+a_2 b_2$. 请将该命题推广到一般形式, 并用数学归纳法证明你所推广的命题
 
-### 解答 习题九
+### 解答 习题一
 
-由**常用结论 1.4.7** (异面直线所成角).
+推广: 设 $a_1,a_2,\cdots,a_n$ 为非负实数, $b_1,b_2,\cdots,b_n$ 为正实数, 若 $\displaystyle\sum_{i=1}^n b_i=1$, 则
 
-设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD'$ 为 $z$ 轴.
+$$
+a_1^{b_1}a_2^{b_2}\cdots a_n^{b_n}\le a_1 b_1+a_2 b_2+\cdots+a_n b_n.
+$$
 
-$M$ 是 $BB'$ 中点: $M\left(1,1,\frac{1}{2}\right)$.
+(1) 当 $n=2$ 时, 即原命题, 由加权均值不等式成立.
 
-$N$ 是 $B'C'$ 中点: $N\left(\frac{1}{2},1,1\right)$.
+(2) 假设当 $n=k$ 时命题成立.
 
-$\boldsymbol{MN}=N-M=\left(-\frac{1}{2},0,\frac{1}{2}\right)$.
+当 $n=k+1$ 时, 设 $b_{k+1}'=b_k+b_{k+1}$, 由 $n=2$ 情形,
 
-(1) $\boldsymbol{CD'}=D'-C=\left(0,-1,1\right)$.
+$$
+a_k^{b_k}a_{k+1}^{b_{k+1}}\le \left(a_k b_k+a_{k+1}b_{k+1}\right)\cdot\frac{1}{b_k+b_{k+1}}\cdot\left(b_k+b_{k+1}\right)=\left(a_k b_k+a_{k+1}b_{k+1}\right).
+$$
 
-$\boldsymbol{MN} \cdot \boldsymbol{CD'}=0+0+\frac{1}{2}=\frac{1}{2}$.
+由 $n=k$ 情形,
 
-$\lvert \boldsymbol{MN} \rvert=\frac{\sqrt{2}}{2}$. $\lvert \boldsymbol{CD'} \rvert=\sqrt{2}$.
+$$
+a_1^{b_1}\cdots a_{k-1}^{b_{k-1}}\cdot\left(a_k b_k+a_{k+1}b_{k+1}\right)^{b_k+b_{k+1}}\le a_1 b_1+\cdots+a_{k-1}b_{k-1}+\left(a_k b_k+a_{k+1}b_{k+1}\right).
+$$
 
-$\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot \sqrt{2}}=\frac{1}{2}$. 故 $\theta=60^\circ$.
+整理即得 $n=k+1$ 情形. 由**定义 4.4.1 (数学归纳法)**, 推广命题成立.
 
-(2) $\boldsymbol{AD}=D-A=\left(-1,0,0\right)$.
-
-$\boldsymbol{MN} \cdot \boldsymbol{AD}=\frac{1}{2}$.
-
-$\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot 1}=\frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}$. 故 $\theta=45^\circ$. $\blacksquare$
-
-## 习题十
-
-(习题 1.4 综合运用第 10 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$, $F$, $G$, $H$, $K$, $L$ 分别是 $AB$, $BB_1$, $B_1C_1$, $C_1D_1$, $D_1D$, $DA$ 各棱的中点.
-
-(1) 求证: $A_1C \perp$ 平面 $EFGHKL$;
-
-(2) 求 $DB_1$ 与平面 $EFGHKL$ 所成角的余弦值.
-
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$E$, $F$, $G$, $H$, $K$, $L$ 依次为棱 $AB$, $BB_1$, $B_1C_1$, $C_1D_1$, $D_1D$, $DA$ 的中点,这六个中点连成一个正六边形截面 $EFGHKL$.
-
-### 解答 习题十
-
-由**常用结论 1.4.4** (用向量刻画垂直关系) 及**常用结论 1.4.8** (直线与平面所成角).
-
-设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
-
-$E\left(\frac{1}{2},1,0\right)$, $F\left(1,1,\frac{1}{2}\right)$, $G\left(\frac{1}{2},1,1\right)$, $H\left(0,\frac{1}{2},1\right)$, $K\left(0,0,\frac{1}{2}\right)$, $L\left(\frac{1}{2},0,0\right)$.
-
-$\boldsymbol{A_1C}=C-A_1=\left(-1,1,-1\right)$.
-
-(1) $\boldsymbol{EF}=F-E=\left(\frac{1}{2},0,\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=-\frac{1}{2}+0-\frac{1}{2}=-1 \neq 0$.
-
-实际上验证: $\boldsymbol{A_1C}=\left(-1,1,-1\right)$.
-
-$\boldsymbol{EF}=\left(0,\frac{1}{2},\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=0+\frac{1}{2}-\frac{1}{2}=0$.
-
-$\boldsymbol{FG}=\left(-\frac{1}{2},0,\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{FG}=\frac{1}{2}+0-\frac{1}{2}=0$.
-
-故 $A_1C \perp EF$ 且 $A_1C \perp FG$, 又 $EF \cap FG=F$, 故 $A_1C \perp$ 平面 $EFGHKL$.
-
-(2) $\boldsymbol{DB_1}=B_1-D=\left(1,1,1\right)$.
-
-平面 $EFGHKL$ 的法向量为 $\boldsymbol{A_1C}=\left(-1,1,-1\right)$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{DB_1} \cdot \boldsymbol{A_1C} \rvert}{\lvert \boldsymbol{DB_1} \rvert \lvert \boldsymbol{A_1C} \rvert}=\frac{\lvert -1+1-1 \rvert}{\sqrt{3} \cdot \sqrt{3}}=\frac{1}{3}$.
-
-$\cos\theta=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. $\blacksquare$
-
-## 习题十一
-
-(习题 1.4 综合运用第 11 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, $AB=2$, $BC=CC_1=1$, $E$ 是 $CD$ 的中点. 求证: $B_1E \perp$ 平面 $AED_1$.
-
-该图为长方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$AB=2$, $BC=CC_1=1$,$E$ 是棱 $CD$ 的中点.
-
-### 解答 习题十一
-
-由**常用结论 1.4.4** (用向量刻画垂直关系).
-
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
-
-$A\left(1,0,0\right)$, $D\left(0,0,0\right)$, $E\left(0,1,0\right)$, $D_1\left(0,0,1\right)$, $B_1\left(1,2,1\right)$.
-
-$\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-1\right)$.
-
-$\boldsymbol{AE}=E-A=\left(-1,1,0\right)$.
-
-$\boldsymbol{AD_1}=D_1-A=\left(-1,0,1\right)$.
-
-$\boldsymbol{B_1E} \cdot \boldsymbol{AE}=1-1+0=0$.
-
-$\boldsymbol{B_1E} \cdot \boldsymbol{AD_1}=1+0-1=0$.
-
-故 $B_1E \perp AE$ 且 $B_1E \perp AD_1$, 又 $AE \cap AD_1=A$, 故 $B_1E \perp$ 平面 $AED_1$. $\blacksquare$
-
-## 习题十二
-
-(习题 1.4 综合运用第 12 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, 点 $E$, $F$, $G$ 分别在棱 $A_1A$, $A_1B_1$, $A_1D_1$ 上, $A_1E=A_1F=A_1G=1$; 点 $P$, $Q$, $R$ 分别在棱 $CC_1$, $CD$, $CB$ 上, $CP=CQ=CR=1$. 求证: 平面 $EFG \parallel$ 平面 $PQR$.
-
-该图为长方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:点 $E$, $F$, $G$ 分别在棱 $A_1A$, $A_1B_1$, $A_1D_1$ 上且 $A_1E=A_1F=A_1G=1$,连成平面 $EFG$;点 $P$, $Q$, $R$ 分别在棱 $CC_1$, $CD$, $CB$ 上且 $CP=CQ=CR=1$,连成平面 $PQR$,两平面关于长方体内中心对称.
-
-### 解答 习题十二
-
-由**常用结论 1.4.3** (用向量刻画平行关系).
-
-设 $A_1$ 为原点, $A_1B_1$ 为 $x$ 轴, $A_1D_1$ 为 $y$ 轴, $A_1A$ 为 $z$ 轴.
-
-$E\left(0,0,1\right)$, $F\left(1,0,0\right)$, $G\left(0,1,0\right)$.
-
-$\boldsymbol{EF}=\left(1,0,-1\right)$, $\boldsymbol{EG}=\left(0,1,-1\right)$.
-
-平面 $EFG$ 的法向量 $\boldsymbol{n}_1=\boldsymbol{EF} \times \boldsymbol{EG}=\left(1,1,1\right)$.
-
-$P$, $Q$, $R$ 关于长方体中心对称, 平面 $PQR$ 的法向量 $\boldsymbol{n}_2$ 与 $\boldsymbol{n}_1$ 共线.
-
-由**常用结论 1.4.3**, $\boldsymbol{n}_1 \parallel \boldsymbol{n}_2$, 故平面 $EFG \parallel$ 平面 $PQR$. $\blacksquare$
-
-## 习题十三
-
-(习题 1.4 综合运用第 13 题) 如图, 已知正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $E$ 为 $CD$ 的中点, 求点 $D_1$ 到平面 $AEC_1$ 的距离.
-
-该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$E$ 是棱 $CD$ 的中点,图中画出平面 $AEC_1$.
-
-### 解答 习题十三
-
-由**常用结论 1.4.6** (点到平面的距离).
-
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
-
-$A\left(1,0,0\right)$, $E\left(0,\frac{1}{2},0\right)$, $C_1\left(0,1,1\right)$, $D_1\left(0,0,1\right)$.
-
-$\boldsymbol{AE}=\left(-1,\frac{1}{2},0\right)$, $\boldsymbol{AC_1}=\left(-1,1,1\right)$.
-
-法向量 $\boldsymbol{n}=\boldsymbol{AE} \times \boldsymbol{AC_1}=\left(\frac{1}{2},1,-\frac{1}{2}\right)$.
-
-$\boldsymbol{AD_1}=\left(-1,0,1\right)$.
-
-$d=\frac{\lvert \boldsymbol{AD_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -\frac{1}{2}-\frac{1}{2} \rvert}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\frac{1}{\sqrt{\frac{3}{2}}}=\frac{\sqrt{6}}{3}$. $\blacksquare$
-
-## 习题十四
-
-(习题 1.4 综合运用第 14 题) 如图, 正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $M$ 是棱 $AA_1$ 的中点, $O$ 是 $BD_1$ 的中点. 求证: $OM$ 分别与异面直线 $AA_1$, $BD_1$ 垂直, 并求 $OM$ 的长.
-
-该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$M$ 是棱 $AA_1$ 的中点,$O$ 是对角线 $BD_1$ 的中点,图中连有线段 $OM$.
-
-### 解答 习题十四
-
-由**常用结论 1.4.4** (用向量刻画垂直关系).
-
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
-
-$A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $M\left(1,0,\frac{1}{2}\right)$, $B\left(1,1,0\right)$, $D_1\left(0,0,1\right)$, $O\left(\frac{1}{2},\frac{1}{2},\frac{1}{2}\right)$.
-
-$\boldsymbol{OM}=M-O=\left(\frac{1}{2},-\frac{1}{2},0\right)$.
-
-$\boldsymbol{AA_1}=\left(0,0,1\right)$.
-
-$\boldsymbol{OM} \cdot \boldsymbol{AA_1}=0$. 故 $OM \perp AA_1$.
-
-$\boldsymbol{BD_1}=D_1-B=\left(-1,-1,1\right)$.
-
-$\boldsymbol{OM} \cdot \boldsymbol{BD_1}=-\frac{1}{2}+\frac{1}{2}+0=0$. 故 $OM \perp BD_1$.
-
-$OM=\sqrt{\frac{1}{4}+\frac{1}{4}+0}=\frac{\sqrt{2}}{2}$. $\blacksquare$
-
-## 习题十五
-
-(习题 1.4 综合运用第 15 题) 如图, 已知正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$, $Q$ 为 $B_1C_1$ 的中点, 点 $P$ 在棱 $AA_1$ 上, $AP:AA_1=1:3$. 求平面 $ABCD$ 与平面 $BQP$ 夹角的余弦值.
-
-该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$Q$ 是棱 $B_1C_1$ 的中点,点 $P$ 在棱 $AA_1$ 上且 $AP:AA_1=1:3$,图中画出平面 $BQP$.
-
-### 解答 习题十五
-
-由**常用结论 1.4.9** (平面与平面的夹角).
-
-以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
-
-$B\left(1,1,0\right)$, $Q\left(\frac{1}{2},1,1\right)$, $P\left(1,0,\frac{1}{3}\right)$.
-
-平面 $ABCD$ 的法向量 $\boldsymbol{n}_1=\left(0,0,1\right)$.
-
-平面 $BQP$: $\boldsymbol{BQ}=\left(-\frac{1}{2},0,1\right)$, $\boldsymbol{BP}=\left(0,-1,\frac{1}{3}\right)$.
-
-法向量 $\boldsymbol{n}_2=\boldsymbol{BQ} \times \boldsymbol{BP}=\left(\frac{1}{3}, \frac{1}{2}, \frac{1}{2}\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{1}{2}}{\sqrt{\frac{1}{9}+\frac{1}{4}+\frac{1}{4}}}=\frac{\frac{1}{2}}{\sqrt{\frac{11}{18}}}=\frac{3\sqrt{22}}{22}$. $\blacksquare$
-
-## 习题十六
-
-(习题 1.4 拓广探索第 16 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $\angle BAC=90^\circ$, $AB=AC=2$, $AA_1=3$. $M$ 是 $AB$ 的中点, $N$ 是 $B_1C_1$ 的中点, $P$ 是 $BC_1$ 与 $B_1C$ 的交点. 在线段 $A_1N$ 上是否存在点 $Q$, 使得 $PQ \parallel$ 平面 $A_1CM$?
-
-该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图:下底面 $\triangle ABC$ 中 $\angle BAC=90^\circ$,$AB=AC=2$,侧棱 $AA_1=3$;$M$ 是 $AB$ 中点,$N$ 是 $B_1C_1$ 中点,$P$ 是侧面 $BCC_1B_1$ 两对角线 $BC_1$ 与 $B_1C$ 的交点,图中连有线段 $A_1N$.
-
-### 解答 习题十六
-
-由**常用结论 1.4.3** (用向量刻画平行关系).
-
-以 $A$ 为原点, $AB$ 为 $x$ 轴, $AC$ 为 $y$ 轴, $AA_1$ 为 $z$ 轴.
-
-$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(0,2,0\right)$, $A_1\left(0,0,3\right)$, $B_1\left(2,0,3\right)$, $C_1\left(0,2,3\right)$.
-
-$M$ 是 $AB$ 中点: $M\left(1,0,0\right)$.
-
-$N$ 是 $B_1C_1$ 中点: $N\left(1,1,3\right)$.
-
-$P$ 是 $BC_1$ 与 $B_1C$ 的交点, 即侧面 $BCC_1B_1$ 的中心: $P\left(1,1,\frac{3}{2}\right)$.
-
-平面 $A_1CM$: $\boldsymbol{A_1C}=\left(0,2,-3\right)$, $\boldsymbol{A_1M}=\left(1,0,-3\right)$.
-
-法向量 $\boldsymbol{n}=\boldsymbol{A_1C} \times \boldsymbol{A_1M}=\left(-6,-3,-2\right)$.
-
-设 $Q$ 在 $A_1N$ 上, $\boldsymbol{A_1Q}=t\boldsymbol{A_1N}=t\left(1,1,0\right)$, $Q\left(t,t,3\right)$.
-
-$\boldsymbol{PQ}=Q-P=\left(t-1,t-1,\frac{3}{2}\right)$.
-
-$PQ \parallel$ 平面 $A_1CM \iff \boldsymbol{PQ} \cdot \boldsymbol{n}=0$.
-
-$-6\left(t-1\right)-3\left(t-1\right)-2 \cdot \frac{3}{2}=0$, 即 $-9\left(t-1\right)-3=0$, $t-1=-\frac{1}{3}$, $t=\frac{2}{3}$.
-
-$t=\frac{2}{3} \in \left[0,1\right]$, 故存在这样的点 $Q$, $Q\left(\frac{2}{3},\frac{2}{3},3\right)$. $\blacksquare$
-
-## 习题十七
-
-(习题 1.4 拓广探索第 17 题) 在空间直角坐标系中, 已知向量 $\boldsymbol{u}=\left(a,b,c\right)$ ($abc \neq 0$), 点 $P_0\left(x_0,y_0,z_0\right)$, 点 $P\left(x,y,z\right)$.
-
-(1) 若直线 $l$ 经过点 $P_0$, 且以 $\boldsymbol{u}$ 为方向向量, $P$ 是直线 $l$ 上的任意一点, 求证: $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$;
-
-(2) 若平面 $\alpha$ 经过点 $P_0$, 且以 $\boldsymbol{u}$ 为法向量, $P$ 是平面 $\alpha$ 内的任意一点, 求证: $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$.
-
-### 解答 习题十七
-
-由**定义 1.4.1 (直线的方向向量)** 及**定义 1.4.2 (平面的法向量)**.
-
-(1) 由**定义 1.4.1 (直线的方向向量)**, $P$ 在直线 $l$ 上, 即存在实数 $t$, 使 $\boldsymbol{P_0P}=t\boldsymbol{u}$.
-
-$\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
-
-故 $x-x_0=ta$, $y-y_0=tb$, $z-z_0=tc$.
-
-消去 $t$, 得 $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}=t$.
-
-(2) 由**定义 1.4.2 (平面的法向量)**, $\boldsymbol{u}$ 是平面 $\alpha$ 的法向量, 故 $\boldsymbol{u} \perp \boldsymbol{P_0P}$.
-
-由**常用结论 1.3.5**, $\boldsymbol{u} \cdot \boldsymbol{P_0P}=0$.
-
-即 $\left(a,b,c\right) \cdot \left(x-x_0,y-y_0,z-z_0\right)=0$.
-
-展开得 $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$. $\blacksquare$
-
-## 习题十八
-
-(习题 1.4 拓广探索第 18 题) 在如图所示的试验装置中, 两个正方形框架 $ABCD$, $ABEF$ 的边长都是 $1$, 且它们所在的平面互相垂直. 活动弹子 $M$, $N$ 分别在正方形对角线 $AC$ 和 $BF$ 上移动, 且 $CM$ 和 $BN$ 的长度保持相等, 记 $CM=BN=a$ ($0< a< \sqrt{2}$).
-
-(1) 求 $MN$ 的长;
-
-(2) $a$ 为何值时, $MN$ 的长最小?
-
-(3) 当 $MN$ 的长最小时, 求平面 $MNA$ 与平面 $MNB$ 夹角的余弦值.
-
-该图为试验装置的直观图:两个边长均为 $1$ 的正方形框架 $ABCD$ 与 $ABEF$ 共用边 $AB$,且所在平面互相垂直;弹子 $M$ 在对角线 $AC$ 上,$N$ 在对角线 $BF$ 上,且 $CM=BN=a$($0< a< \sqrt{2}$).
-
-### 解答 习题十八
-
-由**常用结论 1.3.6** (空间两点间的距离公式) 及**常用结论 1.4.9** (平面与平面的夹角).
-
-以 $A$ 为原点, $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴, $AF$ 为 $z$ 轴.
-
-$A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(1,1,0\right)$, $D\left(0,1,0\right)$, $E\left(1,0,1\right)$, $F\left(0,0,1\right)$.
-
-$M$ 在 $AC$ 上, $CM=a$. $AC=\sqrt{2}$, $AM=\sqrt{2}-a$. $M=\left(1-\frac{\sqrt{2}-a}{\sqrt{2}}, 1-\frac{\sqrt{2}-a}{\sqrt{2}}, 0\right)=\left(\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}, 0\right)$.
-
-$N$ 在 $BF$ 上, $BN=a$. $BF=\sqrt{2}$, $N=B+\frac{a}{\sqrt{2}}\left(F-B\right)=\left(1-\frac{a}{\sqrt{2}}, 0, \frac{a}{\sqrt{2}}\right)$.
-
-(1) $\boldsymbol{MN}=N-M=\left(1-\frac{2a}{\sqrt{2}}, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)=\left(1-\sqrt{2}a, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)$.
-
-$\lvert \boldsymbol{MN} \rvert^2=\left(1-\sqrt{2}a\right)^2+\frac{a^2}{2}+\frac{a^2}{2}=1-2\sqrt{2}a+2a^2+a^2=3a^2-2\sqrt{2}a+1$.
-
-$MN=\sqrt{3a^2-2\sqrt{2}a+1}$.
-
-(2) $MN^2=3a^2-2\sqrt{2}a+1$, 当 $a=\frac{2\sqrt{2}}{6}=\frac{\sqrt{2}}{3}$ 时取最小值.
-
-$MN_{\min}=\sqrt{3 \cdot \frac{2}{9}-2\sqrt{2} \cdot \frac{\sqrt{2}}{3}+1}=\sqrt{\frac{2}{3}-\frac{4}{3}+1}=\sqrt{\frac{1}{3}}=\frac{\sqrt{3}}{3}$.
-
-(3) 当 $a=\frac{\sqrt{2}}{3}$ 时, $M\left(\frac{1}{3},\frac{1}{3},0\right)$, $N\left(\frac{2}{3},0,\frac{1}{3}\right)$.
-
-平面 $MNA$: $\boldsymbol{AM}=\left(\frac{1}{3},\frac{1}{3},0\right)$, $\boldsymbol{AN}=\left(\frac{2}{3},0,\frac{1}{3}\right)$.
-
-法向量 $\boldsymbol{n}_1=\boldsymbol{AM} \times \boldsymbol{AN}=\left(\frac{1}{9},-\frac{1}{9},-\frac{2}{9}\right)$.
-
-平面 $MNB$: $\boldsymbol{BM}=\left(-\frac{2}{3},\frac{1}{3},0\right)$, $\boldsymbol{BN}=\left(-\frac{1}{3},0,\frac{1}{3}\right)$.
-
-法向量 $\boldsymbol{n}_2=\boldsymbol{BM} \times \boldsymbol{BN}=\left(\frac{1}{9},\frac{2}{9},\frac{1}{9}\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\lvert \frac{1}{81}-\frac{2}{81}-\frac{2}{81} \rvert}{\frac{\sqrt{6}}{9} \cdot \frac{\sqrt{6}}{9}}=\frac{\frac{3}{81}}{\frac{6}{81}}=\frac{1}{2}$. $\blacksquare$
+$\blacksquare$

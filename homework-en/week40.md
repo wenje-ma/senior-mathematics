@@ -1,360 +1,519 @@
 # week40
-> **Definition 8.3.1 (多面体的表面积)**
+> **Definition 8.1.4 (棱柱)**
 > 
-> 多面体的表面积是围成它的各个面的面积之和. 棱台的表面积等于它的侧面积 (各个侧面面积之和) 与两个底面面积之和.
-> **Definition 8.3.2 (Volume of a Cylinder)**
+> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
+> **Definition 8.1.8 (棱锥)**
 > 
-> 柱体的体积 V = S*h, 其中 S 为底面积, h 为高.
-> **Definition 8.3.3 (Volume of a Cone)**
+> 有一个面是多边形, 其余各面都是有一个公共顶点的三角形, 由这些面围成的多面体叫做棱锥.
+> **Definition 8.1.10 (棱台)**
 > 
-> 锥体的体积 V = (1/3)*S*h, 其中 S 为底面积, h 为高.
-> **Definition 8.3.4 (Volume of a Frustum)**
-> 
-> 台体的体积 V = (1/3)*h*(S上 + S下 + sqrt(S上*S下)).
-> **Definition 8.3.6 (Surface Area of a Cone)**
-> 
-> 圆锥的表面积 S = pi*r^2 + pi*r*l, 其中 r 为底面半径, l 为母线长.
-> **Definition 8.3.8 (Volume of a Circular Cylinder)**
-> 
-> 圆柱的体积 V = pi*r^2*h.
-> **Definition 8.3.9 (Volume of a Circular Cone)**
-> 
-> 圆锥的体积 V = (1/3)*pi*r^2*h.
+> 用一个平行于棱锥底面的平面去截棱锥, 底面和截面之间的部分叫做棱台.
 > **Definition 8.3.11 (球的表面积)**
 > 
 > 球的表面积 S = 4*pi*R^2.
 > **Definition 8.3.12 (球的体积)**
 > 
 > 球的体积 V = (4/3)*pi*R^3.
-
-## Exercise 1
-
-(Exercise 8.3, Problem 1) The upper and lower base sides of a regular hexagonal frustum are $2\text{ cm}$ and $6\text{ cm}$ respectively, and its lateral edge is $5\text{ cm}$. Find its surface area.
-
-### Solution to Exercise 1
-
-By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the surface area equals the sum of the areas of the two bases and the lateral area.
-
-The area formula for a regular hexagon is $\frac{3\sqrt{3}}{2}a^{2}$. The upper base side is $a'=2$, so the upper base area is $S'=\frac{3\sqrt{3}}{2}\cdot 2^{2}=6\sqrt{3}$. The lower base side is $a=6$, so the lower base area is $S=\frac{3\sqrt{3}}{2}\cdot 6^{2}=54\sqrt{3}$.
-
-The lateral faces are $6$ congruent isosceles trapezoids, with upper base $2$, lower base $6$, and leg (lateral edge) $5$. The height of each trapezoid is
-
-$$
-h_{\text{梯}}=\sqrt{5^{2}-\left(\frac{6-2}{2}\right)^{2}}=\sqrt{25-4}=\sqrt{21}.
-$$
-
-The area of each trapezoid is $\frac{2+6}{2}\cdot\sqrt{21}=4\sqrt{21}$, and the lateral area is $6\times 4\sqrt{21}=24\sqrt{21}$.
-
-Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ \left(\text{cm}^{2}\right)$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 8.3, Problem 2) As shown in the figure, a cube of edge $4\text{ cm}$ has its surfaces painted red; it is suitably divided into small cubes of edge $1\text{ cm}$.
-
-(1) How many small cubes of edge $1\text{ cm}$ are obtained in total?
-
-(2) How many small cubes have three faces red? What is the sum of their surface areas?
-
-(3) How many small cubes have two faces red? What is the sum of their surface areas?
-
-(4) How many small cubes have one face red? What is the sum of their surface areas?
-
-(5) How many small cubes have no face colored? What is the sum of their surface areas? How many cubic centimeters of space do they occupy?
-
-The figure: a cube of edge length $4\text{ cm}$ with its surface painted red, divided into $4\times 4\times 4=64$ small cubes of edge length $1\text{ cm}$; one can see the distribution: corner cubes have three painted faces, edge cubes have two, face cubes have one, and interior cubes have none.
-
-### Solution to Exercise 2
-
-By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the cube is divided into $4\times 4\times 4$ small cubes.
-
-(1) The total number of small cubes is $4^{3}=64$.
-
-(2) Small cubes with three red faces lie at the vertices of the large cube, totaling $8$. Each small cube has surface area $6\text{ cm}^{2}$, so the sum of their surface areas is $8\times 6=48\text{ cm}^{2}$.
-
-(3) Small cubes with two red faces lie on the edges but not at the vertices. On each edge there are $4-2=2$, and there are $12$ edges, so there are $12\times 2=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
-
-(4) Small cubes with one red face lie on the faces but not on the edges. On each face there are $\left(4-2\right)^{2}=4$, and there are $6$ faces, so there are $6\times 4=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
-
-(5) Uncolored small cubes lie inside the large cube, and there are $\left(4-2\right)^{3}=8$ of them. The sum of their surface areas is $8\times 6=48\text{ cm}^{2}$. The space they occupy is $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 8.3, Problem 3) Some stone benches are placed on a plaza for people to rest; these benches are obtained by cutting off eight identical tetrahedra from a cube. If the edge of the original cube is $50\text{ cm}$, what is the volume of each bench?
-
-### Solution to Exercise 3
-
-By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and **Definition 8.3.3 (Volume of a Pyramid-like or Cone-like Solid)**, the volume of the bench equals the volume of the cube minus the volumes of the eight tetrahedra cut off.
-
-The cube has edge $50\text{ cm}$ and volume $50^{3}=125000\text{ cm}^{3}$.
-
-Eight identical tetrahedra are cut off; each has three pairwise perpendicular edges of length $25\text{ cm}$ (i.e. cut by planes through the midpoints of the three edges at each vertex). The volume of each tetrahedron is
-
-$$
-V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ \left(\text{cm}^{3}\right).
-$$
-
-The eight tetrahedra cut off a total of $8\times\frac{15625}{6}=\frac{62500}{3}\text{ cm}^{3}$.
-
-Hence the volume of the bench is $125000-\frac{62500}{3}=\frac{312500}{3}\approx 104167\text{ cm}^{3}$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 8.3, Problem 4) Prove that the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third lateral face.
-
-### Solution to Exercise 4
-
-By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and the fact that the lateral faces of a right triangular prism are rectangles, the areas of the three lateral faces equal the products of the three sides of the base triangle with the lateral-edge length.
-
-Let the three sides of the base triangle be $a$, $b$, $c$, and the lateral edge be $l$. The three lateral-face areas are $al$, $bl$, $cl$, respectively.
-
-By the fact that the sum of two sides of a triangle is greater than the third, $a+b> c$. Multiplying both sides by the positive number $l$ gives $al+bl> cl$, i.e. the sum of any two lateral-face areas is greater than the third. The other two pairs follow similarly. Hence the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 8.3, Problem 1) Given that the surface area of a cone is $a\text{ m}^{2}$ and its lateral development is a semicircle, find the diameter of the base of this cone.
-
-### Solution to Exercise 5
-
-By **Definition 8.3.6 (Surface Area of a Cone)**, let the base radius be $r$ and the generatrix length be $l$.
-
-The lateral development is a semicircle whose radius is the generatrix $l$ and whose arc length is $\pi l$. This arc length equals the base circumference $2\pi r$, so $\pi l=2\pi r$, i.e. $l=2r$.
-
-The surface area is $S=\pi r\left(r+l\right)=\pi r\left(r+2r\right)=3\pi r^{2}=a$, giving $r=\sqrt{\frac{a}{3\pi}}$.
-
-Hence the base diameter is $2r=2\sqrt{\frac{a}{3\pi}}\ \left(\text{m}\right)$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 8.3, Problem 2) For what value of the radius of a sphere do the numerical values of its volume and its surface area coincide?
-
-### Solution to Exercise 6
-
-By **Definition 8.3.11 (Surface Area of a Sphere)** and **Definition 8.3.12 (Volume of a Sphere)**, let the radius be $R$.
-
-The volume is $V=\frac{4}{3}\pi R^{3}$ and the surface area is $S=4\pi R^{2}$. Set them equal numerically:
-
-$$
-\frac{4}{3}\pi R^{3}=4\pi R^{2}.
-$$
-
-Dividing both sides by $4\pi R^{2}$ ($R> 0$) gives $\frac{R}{3}=1$, i.e. $R=3$.
-
-Hence when the radius of the sphere is $3$, the numerical values of its volume and surface area coincide. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 8.3, Problem 3) An iron cube of edge $6\text{ cm}$ is ground into a spherical part. Find the volume of the largest possible part.
-
-### Solution to Exercise 7
-
-By **Definition 8.3.12 (Volume of a Sphere)**, the largest sphere that fits inside the cube is its inscribed sphere, whose diameter equals the edge of the cube.
-
-The cube has edge $6\text{ cm}$, so the inscribed sphere has diameter $6\text{ cm}$ and radius $R=3\text{ cm}$.
-
-The volume of the largest sphere is $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 3^{3}=36\pi\approx 113.1\text{ cm}^{3}$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 8.3, Problem 4) A rectangular water tank of length $80\text{ cm}$, width $60\text{ cm}$, and height $55\text{ cm}$ contains $200000\text{ cm}^{3}$ of water. A wooden sphere of diameter $50\text{ cm}$ is now placed in it. If two-thirds of the sphere is underwater and one-third above, will the water overflow the tank?
-
-### Solution to Exercise 8
-
-By **Definition 8.3.12 (Volume of a Sphere)**, compare the volume of the submerged part of the sphere with the remaining capacity of the tank.
-
-The tank capacity is $80\times 60\times 55=264000\text{ cm}^{3}$. It already holds $200000\text{ cm}^{3}$ of water, leaving $264000-200000=64000\text{ cm}^{3}$ of space.
-
-The sphere has radius $R=25\text{ cm}$ and volume $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 25^{3}\approx 65450\text{ cm}^{3}$. The submerged volume is $\frac{2}{3}V\approx 43633\text{ cm}^{3}$.
-
-Since $43633< 64000$, the submerged volume is less than the remaining space, so the water will not overflow. $\blacksquare$
+> **Theorem 8.5.3 (直线与平面平行的判定定理)**
+> 
+> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
+> **Theorem 8.5.6 (Property Theorem of Parallel Planes)**
+> 
+> 两个平行平面同时和第三个平面相交, 所得的交线平行.
+> **Theorem 8.6.4 (直线与平面垂直的判定定理)**
+> 
+> 一条直线与一个平面内的两条相交直线都垂直, 则该直线与此平面垂直.
+> **Theorem 8.6.5 (直线与平面垂直的性质定理)**
+> 
+> 垂直于同一个平面的两条直线平行.
+> **Theorem 8.6.8 (平面与平面垂直的判定定理)**
+> 
+> 一个平面过另一个平面的垂线, 则这两个平面垂直.
+> **Theorem 8.6.9 (平面与平面垂直的性质定理)**
+> 
+> 两个平面垂直, 则一个平面内垂直于交线的直线与另一个平面垂直.
+> **Definition 9.1.1 (普查与抽样调查)**
+> 
+> 对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
+> **Definition 9.1.2 (Population, Individual, Sample, Sample Size)**
+> 
+> 统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
+> **Definition 9.1.3 (简单随机抽样)**
+> 
+> 设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
+> **Definition 9.1.4 (Population Mean and Sample Mean)**
+> 
+> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
+> **Definition 9.1.5 (Stratified Random Sampling)**
+> 
+> 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
+> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**
+> 
+> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
+> **Definition 9.2.2 (第 p 百分位数)**
+> 
+> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
+> **Definition 9.2.3 (Mode, Median, and Mean)**
+> 
+> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
+> **Definition 9.2.4 (Variance and Standard Deviation)**
+> 
+> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
 
 ## Problem 1
 
-(Exercise 8.3, Review and Consolidation, Problem 1) As shown in the figure, every face of an octahedron is an equilateral triangle, and the $4$ vertices $A$, $B$, $C$, $D$ lie in the same plane. If the quadrilateral $ABCD$ is a square of side $30\text{ cm}$, what is the surface area of this octahedron?
+(Review Exercises 8, Review and Consolidation, Problem 1) Examining prisms, pyramids and frusta from the viewpoint of polyhedra, fill in the following table:
 
-The figure: an octahedron whose four vertices $A,B,C,D$ lie in one plane forming a square $ABCD$ of side $30\text{ cm}$, with one vertex above and one below the square; all $8$ faces are equilateral triangles.
+| Polyhedron | No. of vertices $V$ | No. of edges $E$ | No. of faces $F$ | $V+F-E$ |
+|---|---|---|---|---|
+| $n$-prism | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $n$-pyramid | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $n$-frustum | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
 ### Solution to Problem 1
 
-By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the octahedron has $8$ faces, each an equilateral triangle of side $30\text{ cm}$.
+Count by **Definition 8.1.4 (Prism)**, **Definition 8.1.8 (Pyramid)** and **Definition 8.1.10 (Frustum of a Pyramid)**.
 
-The area of each equilateral triangle is $\frac{\sqrt{3}}{4}\times 30^{2}=225\sqrt{3}\text{ cm}^{2}$.
+$n$-prism: the two bases each have $n$ vertices, so $V=2n$; there are $n$ lateral edges and $n$ edges on each of the upper and lower bases, so $E=3n$; two bases $+$ $n$ lateral faces, so $F=n+2$; $V+F-E=2n+\left(n+2\right)-3n=2$.
 
-The surface area is $8\times 225\sqrt{3}=1800\sqrt{3}\text{ cm}^{2}$. $\blacksquare$
+$n$-pyramid: the base has $n$ vertices $+$ the apex $1$, so $V=n+1$; there are $n$ lateral edges and $n$ base edges, so $E=2n$; the base $1$ $+$ $n$ lateral faces, so $F=n+1$; $V+F-E=\left(n+1\right)+\left(n+1\right)-2n=2$.
+
+$n$-frustum: the upper and lower bases each have $n$ vertices, so $V=2n$; there are $n$ lateral edges and $n$ edges on each of the upper and lower bases, so $E=3n$; two bases $+$ $n$ lateral faces, so $F=n+2$; $V+F-E=2n+\left(n+2\right)-3n=2$.
+
+Hence the table is filled in order as follows: $n$-prism ($2n$, $3n$, $n+2$, $2$); $n$-pyramid ($n+1$, $2n$, $n+1$, $2$); $n$-frustum ($2n$, $3n$, $n+2$, $2$). $\blacksquare$
 
 ## Problem 2
 
-(Exercise 8.3, Review and Consolidation, Problem 2) As shown in the figure, a rectangular box is cut along the diagonals of three adjacent faces to remove a pyramid. Find the ratio of the volume of the pyramid to the volume of the remaining solid.
+(Review Exercises 8, Review and Consolidation, Problem 2) In a right quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, $AA_{1}=4$.
 
-The figure: a rectangular prism from which a triangular pyramid is cut out along the diagonals of three adjacent faces (the pyramid has one vertex of the prism as its apex and three mutually perpendicular edges as its lateral edges).
+(1) Draw the pictorial view of the quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$;
+
+(2) Complete the quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ into a cuboid, and state the name of the solid added.
+
+(Figure: a right quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ whose base $ABCD$ is a right trapezoid, with $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, and lateral edge $AA_{1}=4$ perpendicular to the base.)
 
 ### Solution to Problem 2
 
-By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and **Definition 8.3.3 (Volume of a Pyramid-like or Cone-like Solid)**, let the length, width, and height of the box be $a$, $b$, $c$.
+By **Definition 8.1.4 (Prism)** and the cavalier oblique projection method.
 
-The volume of the box is $V=abc$.
+(1) By the cavalier oblique projection method: take $AB$ as the $x$-axis, $AD$ as the $y$-axis, and $AA_{1}$ as the $z$-axis. On the $x'$-axis take $AB=2$ and $DC=1$ (since $AB\parallel CD$), and on the $y'$-axis take $AD=1.5$ (taking half), joining them to form the right trapezoid $ABCD$; along the $z$-axis take $AA_{1}=4$, draw the upper base $A_{1}B_{1}C_{1}D_{1}$, and connect the lateral edges.
 
-The removed pyramid has one vertex of the box as its vertex, with three pairwise perpendicular edges of lengths $a$, $b$, $c$; its volume is
-
-$$
-V_{\text{锥}}=\frac{1}{3}\times\frac{1}{2}ab\cdot c=\frac{1}{6}abc.
-$$
-
-The volume of the remaining solid is $V_{\text{剩}}=abc-\frac{1}{6}abc=\frac{5}{6}abc$.
-
-Hence the ratio of the pyramid volume to the remaining volume is $\frac{1}{6}:\frac{5}{6}=1:5$. $\blacksquare$
+(2) The base $ABCD$ is a right trapezoid ($AB=2$, $CD=1$, $AD=3$, $\angle DAB=90^{\circ}$). Adding a right triangular prism of the same height as the original right quadrangular prism (its base being a right triangle with legs $1$ and $3$) completes it into a cuboid (length $2$, width $3$, height $4$). $\blacksquare$
 
 ## Problem 3
 
-(Exercise 8.3, Review and Consolidation, Problem 3) As shown in the figure, a right triangular-prism-shaped container holds water, with lateral edge $AA_{1}=8$. When the lateral face $AA_{1}B_{1}B$ is placed horizontally, the water surface passes exactly through the midpoints of $AC$, $BC$, $A_{1}C_{1}$, $B_{1}C_{1}$. When the base $ABC$ is placed horizontally, what is the height of the water surface?
+(Review Exercises 8, Review and Consolidation, Problem 3) Fill in the blanks.
 
-The figure: a right triangular prism container $ABC\text{-}A_1B_1C_1$ with lateral edge $AA_1=8$; when the side face $AA_1B_1B$ is placed horizontally, the water surface passes exactly through the midpoints of $AC$, $BC$, $A_1C_1$, and $B_1C_1$.
+(1) If the edge length of a cube is enlarged to $n$ times the original, then its surface area is enlarged to $\;\_\_\;$ times the original and its volume to $\;\_\_\;$ times the original;
+
+(2) If the radius of a sphere is enlarged to $n$ times the original, then its surface area is enlarged to $\;\_\_\;$ times the original and its volume to $\;\_\_\;$ times the original.
 
 ### Solution to Problem 3
 
-By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the volume of water is unchanged.
+By **Definition 8.3.11 (Surface Area of a Sphere)** and **Definition 8.3.12 (Volume of a Sphere)**.
 
-Let the area of the base triangle $ABC$ be $S$, and the lateral edge be $AA_{1}=8$. When the lateral face $AA_{1}B_{1}B$ is horizontal, the water surface passes through the midpoints of $AC$ and $BC$, i.e. in the cross-section triangle $ABC$, the water line is parallel to $AB$ and lies on the segment joining the midpoints of $AC$ and $BC$.
+(1) A cube has surface area $S=6a^{2}$ and volume $V=a^{3}$. After the edge length is enlarged $n$ times, $S'=6\left(na\right)^{2}=n^{2}S$, $V'=\left(na\right)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times.
 
-The small triangle above the water is similar to $\triangle ABC$ with similarity ratio $\frac{1}{2}$, so its area is $\frac{1}{4}S$. Hence the cross-sectional area under water is $S-\frac{1}{4}S=\frac{3}{4}S$.
-
-The volume of water is $V_{\text{水}}=\frac{3}{4}S\times 8=6S$.
-
-When the base $ABC$ is horizontal, let the water height be $h$; then $V_{\text{水}}=S\cdot h$. From $S\cdot h=6S$ we get $h=6$. $\blacksquare$
+(2) A sphere has surface area $S=4\pi R^{2}$ and volume $V=\frac{4}{3}\pi R^{3}$. After the radius is enlarged $n$ times, $S'=4\pi\left(nR\right)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi\left(nR\right)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 8.3, Review and Consolidation, Problem 4) As shown in the figure, the cone $PO$ has base diameter and height both equal to $a$. Through the midpoint $O'$ of $PO$ draw a cross-section parallel to the base, and hollow out a cylinder with this cross-section as its base. Find the surface area and volume of the remaining solid.
+(Review Exercises 8, Review and Consolidation, Problem 4) As shown in the figure, a square iron sheet of side length $10\text{ cm}$ has four shaded parts. Cut off these shaded parts, and then use the remaining four congruent isosceles triangles to make a regular square-pyramid-shaped container. Express the volume $V$ of the container (in $\text{cm}^{3}$) as a function of $x$ (in $\text{cm}$).
 
-The figure: a cone $PO$ whose base diameter and height are both $a$; a cross-section parallel to the base is drawn through the midpoint $O'$ of $PO$, and a cylinder is removed with this cross-section as its base, leaving the cone with a coaxial cylindrical cavity.
+(Figure: the square has side length $10$, the middle square has side length $x$, and the four isosceles triangles have base $x$ and height $5$.)
 
 ### Solution to Problem 4
 
-By **Definition 8.3.6 (Surface Area of a Cone)**, **Definition 8.3.3 (Volume of a Pyramid-like or Cone-like Solid)**, and **Definition 8.3.8 (Volume of a Cylinder)**.
+By the pyramid volume formula $V=\frac{1}{3}Sh$.
 
-The cone has base radius $\frac{a}{2}$ and height $a$, and generatrix length $l=\sqrt{a^{2}+\left(\frac{a}{2}\right)^{2}}=\frac{\sqrt{5}}{2}a$.
+The base of the regular square pyramid is a square of side length $x$, so the base area is $S=x^{2}$.
 
-$O'$ is the midpoint of $PO$, at height $\frac{a}{2}$ above the base. By similarity, the cross-section radius is $r'=\frac{1}{2}\times\frac{a}{2}=\frac{a}{4}$. The hollowed cylinder has height $\frac{a}{2}$ and base radius $\frac{a}{4}$.
-
-Surface area: the lateral area of the cone is $\pi\cdot\frac{a}{2}\cdot\frac{\sqrt{5}}{2}a=\frac{\sqrt{5}}{4}\pi a^{2}$; after removing a circle of radius $\frac{a}{4}$ from the cone's base, the remaining annulus area is $\pi\left(\frac{a}{2}\right)^{2}-\pi\left(\frac{a}{4}\right)^{2}=\frac{3}{16}\pi a^{2}$; the new lateral area of the cylinder is $2\pi\cdot\frac{a}{4}\cdot\frac{a}{2}=\frac{1}{4}\pi a^{2}$; the top face of the cylinder (i.e. the cross-section circle) has area $\pi\left(\frac{a}{4}\right)^{2}=\frac{1}{16}\pi a^{2}$.
-
-Hence the surface area of the remaining solid is
+The height of the isosceles triangle is $5$, i.e. the slant height $l=5$ of the lateral isosceles triangle. The height $h$ of the pyramid, the distance $\frac{x}{2}$ from the center of the base to an edge, and the slant height $5$ form a right triangle:
 
 $$
-S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{\left(\sqrt{5}+2\right)\pi a^{2}}{4}.
+h=\sqrt{5^{2}-\left(\frac{x}{2}\right)^{2}}=\sqrt{25-\frac{x^{2}}{4}}.
 $$
 
-Volume: the cone volume is $\frac{1}{3}\pi\left(\frac{a}{2}\right)^{2}\cdot a=\frac{\pi a^{3}}{12}$, and the hollowed cylinder volume is $\pi\left(\frac{a}{4}\right)^{2}\cdot\frac{a}{2}=\frac{\pi a^{3}}{32}$.
+Hence the volume
 
-Hence the volume of the remaining solid is $V=\frac{\pi a^{3}}{12}-\frac{\pi a^{3}}{32}=\frac{5\pi a^{3}}{96}$. $\blacksquare$
+$$
+V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad \left(0< x< 10\right).
+$$
+
+$\blacksquare$
 
 ## Problem 5
 
-(Exercise 8.3, Review and Consolidation, Problem 5) The vertices of a cube all lie on a sphere, and its edge is $a\text{ cm}$. Find the volume of the sphere.
+(Review Exercises 8, Review and Consolidation, Problem 5) Into how many parts can three planes divide space? Explain by cases.
 
 ### Solution to Problem 5
 
-By **Definition 8.3.12 (Volume of a Sphere)**, the diameter of the circumsphere of the cube equals the space diagonal of the cube.
+Classify by the relative positions of the planes.
 
-The cube has edge $a$ and space diagonal $\sqrt{3}a$, so the circumsphere radius is $R=\frac{\sqrt{3}}{2}a$.
+(1) The three planes are mutually parallel: space is divided into $4$ parts.
 
-The volume of the sphere is $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\left(\frac{\sqrt{3}}{2}a\right)^{3}=\frac{\sqrt{3}}{2}\pi a^{3}\text{ cm}^{3}$. $\blacksquare$
+(2) Two planes are parallel and the third plane intersects them: space is divided into $6$ parts.
+
+(3) The three planes intersect pairwise and the lines of intersection are parallel: space is divided into $7$ parts.
+
+(4) The three planes intersect pairwise and the three lines of intersection coincide (i.e. the three planes share one common line): space is divided into $6$ parts.
+
+(5) The three planes intersect pairwise and the three lines of intersection meet at one point (mutually perpendicular, like a corner of a room): space is divided into $8$ parts.
+
+Hence the three planes can divide space into $4$, $6$, $7$ or $8$ parts. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 8.3, Comprehensive Application, Problem 6) As shown in the figure is a pictorial drawing of a chimney (the units in the figure are centimeters); its lower part is a regular square frustum and its upper part is a regular square prism (whose base coincides with the upper base of the frustum). To prevent rain erosion and make the chimney more attractive, tiles are to be glued on its exterior. Calculate how many square centimeters of tiles are needed. (Round to $1\text{ cm}^{2}$; a calculator may be used.)
+(Review Exercises 8, Review and Consolidation, Problem 6) Given that $\alpha$, $\beta$, $\gamma$ are three planes, with $\alpha\cap\beta=a$, $\alpha\cap\gamma=b$, $\beta\cap\gamma=c$.
 
-(The lower frustum has lower base side $50$, upper base side $40$, and height $10$; the upper prism has base side $40$ and height $70$.)
+(1) If $a\cap b=O$, prove that the three lines $a$, $b$, $c$ are concurrent.
 
-The figure: a pictorial drawing of a chimney—the lower part is a regular square frustum (lower base side $50\text{ cm}$, upper base side $40\text{ cm}$, height $10\text{ cm}$), and the upper part is a regular square prism (base side $40\text{ cm}$, height $70\text{ cm}$), joined at their bases.
+(2) If $a\parallel b$, what is the relationship between $a$ and $c$, and between $b$ and $c$? Why?
 
 ### Solution to Problem 6
 
-By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the tiled area is the sum of all exposed exterior faces; the bottom face, which touches the ground, is not counted.
+By **Basic Fact 8.4.4** (Basic Fact 3).
 
-Prism part: the four lateral faces total $4\times 40\times 70=11200\text{ cm}^{2}$, and the upper base is $40\times 40=1600\text{ cm}^{2}$.
+(1) Since $a\cap b=O$, $a=\alpha\cap\beta$, $b=\alpha\cap\gamma$, we have $O\in\beta$ and $O\in\gamma$. Moreover $\beta\cap\gamma=c$, so by **Basic Fact 8.4.4** (Basic Fact 3), $O\in c$. Hence the three lines $a$, $b$, $c$ are concurrent at $O$.
 
-Frustum part: the upper and lower base sides are $40$ and $50$, and the height is $10$. The height (slant height) of each isosceles trapezoidal lateral face is
+(2) Since $a\parallel b$, $b\subset\gamma$, $a\not\subset\gamma$, we have $a\parallel\gamma$. Moreover $a\subset\beta$, $\beta\cap\gamma=c$, so by the property of a line parallel to a plane, $a\parallel c$. Also $a\parallel b$, hence $b\parallel c$.
 
-$$
-h_{\text{斜}}=\sqrt{10^{2}+\left(\frac{50-40}{2}\right)^{2}}=\sqrt{125}=5\sqrt{5}.
-$$
-
-The four lateral faces total $4\times\frac{40+50}{2}\times 5\sqrt{5}=900\sqrt{5}\text{ cm}^{2}$. The upper base of the frustum is covered by the prism and the lower base touches the ground; neither is counted.
-
-Hence the total area is $11200+1600+900\sqrt{5}=12800+900\sqrt{5}\approx 12800+2012=14812\text{ cm}^{2}$. $\blacksquare$
+Therefore $a\parallel c$, $b\parallel c$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 8.3, Comprehensive Application, Problem 7) A pile of identical iron hex nuts (iron density $7.9\times 10^{3}\text{ kg/m}^{3}$) has mass $5.8\text{ kg}$. As shown in the figure, each nut has a regular hexagonal base of side $12\text{ mm}$, an inner hole of diameter $10\text{ mm}$, and height $10\text{ mm}$. Approximately how many nuts are in the pile? (A calculator may be used; take $\pi$ as $3.14$.)
+(Review Exercises 8, Review and Consolidation, Problem 7) As shown in the figure, the quadrilateral $A'B'C'D'$ is the projection of $\square ABCD$ onto the plane $\alpha$ ($AA'\parallel BB'\parallel CC'\parallel DD'$). Prove that the quadrilateral $A'B'C'D'$ is a parallelogram.
 
-The figure: a hexagonal nut—the base is a regular hexagon (side $12\text{ mm}$), with a cylindrical hole (diameter $10\text{ mm}$) bored through vertically, and a height of $10\text{ mm}$.
+(Figure: parallelogram $ABCD$ lies above plane $\alpha$; the four vertices project in parallel onto $\alpha$ at $A',B',C',D'$.)
 
 ### Solution to Problem 7
 
-By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the volume of one nut equals the volume of the regular hexagonal prism minus the volume of the cylindrical inner hole.
+By **Theorem 8.5.6 (Property Theorem for Two Parallel Planes)**.
 
-The regular hexagon area is $\frac{3\sqrt{3}}{2}\times 12^{2}=216\sqrt{3}\approx 374.1\text{ mm}^{2}$. The hexagonal-prism volume is $374.1\times 10=3741\text{ mm}^{3}$.
+Since $AA'\parallel BB'\parallel CC'\parallel DD'$, these four lines are mutually parallel. And $AB\parallel CD$ (parallelogram). By **Theorem 8.5.6 (Property Theorem for Two Parallel Planes)**, the two planes through the parallel pairs $AA'$, $BB'$ and $CC'$, $DD'$ respectively intersect the plane $\alpha$ in the parallel lines $A'B'$ and $C'D'$.
 
-The inner-hole cylinder has radius $5\text{ mm}$ and volume $\pi\times 5^{2}\times 10=250\pi\approx 785\text{ mm}^{3}$.
+Similarly, from $AD\parallel BC$ we obtain $A'D'\parallel B'C'$.
 
-One nut has volume $3741-785=2956\text{ mm}^{3}=2.956\text{ cm}^{3}$.
-
-One nut has mass $7.9\text{ g/cm}^{3}\times 2.956\text{ cm}^{3}\approx 23.35\text{ g}$.
-
-The number of nuts is approximately $\frac{5800}{23.35}\approx 248$. $\blacksquare$
+Both pairs of opposite sides of the quadrilateral $A'B'C'D'$ are parallel, so it is a parallelogram. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 8.3, Comprehensive Application, Problem 8) Taking the hypotenuse and the two legs of a right triangle as axes in turn, the surfaces swept by the remaining sides rotating through one full turn bound $3$ solids. What is the relation among the volumes of these $3$ solids?
+(Review Exercises 8, Review and Consolidation, Problem 8) As shown in the figure, on the upper face of a cube-shaped block of wood there is a point $E$. If through the point $E$ one wishes to draw a line on the upper face perpendicular to $CE$, how should it be drawn?
+
+(Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with point $E$ on the top face $A_{1}B_{1}C_{1}D_{1}$ and $C$ a vertex on the bottom face.)
 
 ### Solution to Problem 8
 
-By **Definition 8.3.9 (Volume of a Cone)**, let the two legs be $a$, $b$ and the hypotenuse be $c=\sqrt{a^{2}+b^{2}}$.
+By **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
 
-Rotating about the leg $a$ gives a cone with base radius $b$ and height $a$, of volume $V_{1}=\frac{1}{3}\pi b^{2}a$.
+Let the upper face of the cube be $A_{1}B_{1}C_{1}D_{1}$, and $C$ a vertex of the lower face. Join $C_{1}E$. In the upper face $A_{1}B_{1}C_{1}D_{1}$, draw a line $l\perp C_{1}E$ through the point $E$.
 
-Rotating about the leg $b$ gives a cone with base radius $a$ and height $b$, of volume $V_{2}=\frac{1}{3}\pi a^{2}b$.
+Since $CC_{1}\perp$ the upper face, $CC_{1}\perp l$. Also $l\perp C_{1}E$ and $CC_{1}\cap C_{1}E=C_{1}$, hence $l\perp$ the plane $CC_{1}E$. As $CE\subset$ the plane $CC_{1}E$, we get $l\perp CE$.
 
-Rotating about the hypotenuse $c$ gives a composite of two cones on the same base, with base radius equal to the altitude to the hypotenuse $h=\frac{ab}{c}$, and total volume
-
-$$
-V_{3}=\frac{1}{3}\pi h^{2}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c^{2}}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c}.
-$$
-
-A calculation gives
-
-$$
-\frac{1}{V_{1}^{2}}+\frac{1}{V_{2}^{2}}=\frac{9}{\pi^{2}}\left(\frac{1}{a^{2}b^{4}}+\frac{1}{a^{4}b^{2}}\right)=\frac{9}{\pi^{2}}\cdot\frac{a^{2}+b^{2}}{a^{4}b^{4}}=\frac{9c^{2}}{\pi^{2}a^{4}b^{4}}=\frac{1}{V_{3}^{2}}.
-$$
-
-Hence the three volumes satisfy $\frac{1}{V_{3}^{2}}=\frac{1}{V_{1}^{2}}+\frac{1}{V_{2}^{2}}$. $\blacksquare$
+Therefore the perpendicular to $C_{1}E$ drawn through $E$ is exactly what is required. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 8.3, Extension and Exploration, Problem 9) The three-view drawing of a trophy is shown on the next page. Based on the three-view drawing, calculate its surface area and volume. (A calculator may be used; dimensions are as shown, in $\text{cm}$; take $\pi$ as $3.14$; round the results to integers.)
+(Review Exercises 8, Review and Consolidation, Problem 9) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $PC\perp$ the base $ABC$, $AB\perp BC$, and $D$, $E$ are the midpoints of $AB$, $PB$ respectively. Prove that:
 
-(From bottom to top, the trophy consists of: a square frustum with lower base $20\times 16$, upper base $10\times 8$, height $2$; a square prism $8\times 4$, height $20$; and a sphere of diameter $4$.)
+(1) $DE\parallel$ the plane $PAC$;
 
-The figure: three views of a trophy—from bottom to top: a square frustum (lower base $20\times 16\text{ cm}$, upper base $10\times 8\text{ cm}$, height $2\text{ cm}$), a square prism ($8\times 4\text{ cm}$, height $20\text{ cm}$), and a sphere (diameter $4\text{ cm}$).
+(2) $AB\perp PB$.
+
+(Figure: a tetrahedron $P\text{-}ABC$ with $PC\perp$ base $ABC$ and $\angle ABC=90^{\circ}$ in the base triangle; $D$ is the midpoint of $AB$ and $E$ is the midpoint of $PB$.)
 
 ### Solution to Problem 9
 
-By **Definition 8.3.4 (Volume of a Frustum)**, **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, and **Definition 8.3.12 (Volume of a Sphere)**, the trophy consists of three parts: a square frustum, a square prism, and a sphere.
+By **Theorem 8.5.3 (Criterion for a Line to be Parallel to a Plane)** and **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
 
-Volume: the frustum has lower base area $S=20\times 16=320$, upper base area $S'=10\times 8=80$, and height $2$; its volume is
+In $\triangle PAB$, $D$, $E$ are the midpoints of $AB$, $PB$ respectively, so $DE$ is the midline and $DE\parallel PA$.
+
+Moreover $PA\subset$ the plane $PAC$ and $DE\not\subset$ the plane $PAC$, so by **Theorem 8.5.3 (Criterion for a Line to be Parallel to a Plane)**, $DE\parallel$ the plane $PAC$.
+
+Since $PC\perp$ the base $ABC$ and $AB\subset$ the base $ABC$, $PC\perp AB$. Also it is given that $AB\perp BC$, and $PC\cap BC=C$, so by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $AB\perp$ the plane $PBC$.
+
+As $PB\subset$ the plane $PBC$, we get $AB\perp PB$. $\blacksquare$
+
+## Problem 10
+
+(Review Exercises 8, Comprehensive Application, Problem 10) As shown in the figure, in the square $ABCD$ of side length $2$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $BC$. Fold $\triangle AED$, $\triangle BEF$, $\triangle DCF$ along $DE$, $EF$, $DF$ respectively, so that the three points $A$, $B$, $C$ coincide at the point $A'$.
+
+(1) Prove that $A'D\perp EF$;
+
+(2) Find the volume of the triangular pyramid $A'\text{-}EFD$.
+
+(Figure: a square $ABCD$ of side $2$, with $E$ the midpoint of $AB$ and $F$ the midpoint of $BC$; folded along $DE,EF,DF$ so that $A,B,C$ coincide at $A'$.)
+
+### Solution to Problem 10
+
+By **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)** and the pyramid volume formula.
+
+Before folding: $EA\perp AD$, $EB\perp BF$, $FC\perp CD$. After folding, $A$, $B$, $C$ coincide at $A'$, so $A'E\perp A'D$, $A'E\perp A'F$, $A'F\perp A'D$.
+
+(1) Since $A'E\perp A'D$, $A'F\perp A'D$ and $A'E\cap A'F=A'$, we have $A'D\perp$ the plane $A'EF$. As $EF\subset$ the plane $A'EF$, it follows that $A'D\perp EF$.
+
+(2) From the above, $A'E$, $A'F$, $A'D$ are pairwise perpendicular. $A'E=A'F=1$ ($E$, $F$ are midpoints), and $A'D=AD=2$.
+
+The triangular pyramid $A'\text{-}EFD$ is the same as the triangular pyramid $D\text{-}A'EF$ (taking $A'$ as the apex and $\triangle A'EF$ as the base). $\triangle A'EF$ is a right triangle with area $S=\frac{1}{2}\times 1\times 1=\frac{1}{2}$.
+
+The height is $DA'=2$. Hence the volume
 
 $$
-V_{\text{台}}=\frac{1}{3}\times 2\times\left(80+\sqrt{80\times 320}+320\right)=\frac{2}{3}\times 560=\frac{1120}{3}\approx 373.3.
+V=\frac{1}{3}\times\frac{1}{2}\times 2=\frac{1}{3}.
 $$
 
-The prism volume is $8\times 4\times 20=640$. The sphere has radius $2$ and volume $\frac{4}{3}\pi\times 2^{3}=\frac{32\pi}{3}\approx 33.5$.
+$\blacksquare$
 
-The total volume is $373.3+640+33.5\approx 1047\text{ cm}^{3}$.
+## Problem 11
 
-Surface area: for the front and back lateral faces of the frustum (bases $20$, $10$), the slant height is $\sqrt{2^{2}+4^{2}}=2\sqrt{5}$, and their combined area is $2\times\frac{20+10}{2}\times 2\sqrt{5}=60\sqrt{5}$; for the left and right faces (bases $16$, $8$), the slant height is $\sqrt{2^{2}+5^{2}}=\sqrt{29}$, and their combined area is $2\times\frac{16+8}{2}\times\sqrt{29}=24\sqrt{29}$. The frustum's lower base area is $320$, and its exposed upper base area is $80-8\times 4=48$.
+(Review Exercises 8, Comprehensive Application, Problem 11) As shown in the figure on the next page, in the tetrahedron $A\text{-}BCD$, $M$ is the midpoint of $AD$, $P$ is the midpoint of $BM$, and the point $Q$ lies on the segment $AC$ with $AQ=3QC$. Prove that $PQ\parallel$ the plane $BCD$.
 
-The prism's lateral area is $2\left(8\times 20+4\times 20\right)=480$, and its upper base area is $8\times 4=32$.
+### Solution to Problem 11
 
-The sphere's surface area is $4\pi\times 2^{2}=16\pi$.
+By **Theorem 8.5.3 (Criterion for a Line to be Parallel to a Plane)**.
 
-The total surface area is $60\sqrt{5}+24\sqrt{29}+320+48+480+32+16\pi\approx 134.2+129.3+880+50.2\approx 1194\text{ cm}^{2}$. $\blacksquare$
+Take the midpoint $N$ of $MD$, and join $PN$, $QN$.
+
+In $\triangle BMD$, $P$ is the midpoint of $BM$ and $N$ is the midpoint of $MD$, hence $PN\parallel BD$.
+
+In $\triangle ADC$, $M$ is the midpoint of $AD$ and $N$ is the midpoint of $MD$, so $AN=\frac{3}{4}AD$, i.e. $AN:ND=3:1$. Also $AQ:QC=3:1$, hence in $\triangle ADC$ we have $QN\parallel DC$.
+
+Since $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$ and $BD\cap DC=D$, by the criterion for two planes to be parallel, the plane $PQN\parallel$ the plane $BCD$.
+
+As $PQ\subset$ the plane $PQN$, it follows that $PQ\parallel$ the plane $BCD$. $\blacksquare$
+
+## Problem 12
+
+(Review Exercises 8, Comprehensive Application, Problem 12) As shown in the figure, in the cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, prove that:
+
+(1) $B_{1}D\perp$ the plane $A_{1}BC_{1}$;
+
+(2) The intersection $H$ of $B_{1}D$ with the plane $A_{1}BC_{1}$ is the centroid of $\triangle A_{1}C_{1}B$.
+
+(Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, showing the diagonal $B_{1}D$ and the plane $A_{1}BC_{1}$.)
+
+### Solution to Problem 12
+
+By **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
+
+(1) Since $DD_{1}\perp$ the plane $A_{1}B_{1}C_{1}D_{1}$, we have $DD_{1}\perp A_{1}C_{1}$. Also $A_{1}C_{1}\perp B_{1}D_{1}$ (the diagonals of a square are perpendicular), and $DD_{1}\cap B_{1}D_{1}=D_{1}$, hence $A_{1}C_{1}\perp$ the plane $BDD_{1}B_{1}$. As $B_{1}D\subset$ the plane $BDD_{1}B_{1}$, it follows that $A_{1}C_{1}\perp B_{1}D$.
+
+Similarly, $A_{1}B\perp B_{1}C$ (the diagonals of the square $ABB_{1}A_{1}$ are perpendicular, and $BC\perp$ the plane $ABB_{1}A_{1}$), so one can prove $B_{1}D\perp A_{1}B$.
+
+Since $A_{1}C_{1}\cap A_{1}B=A_{1}$, by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $B_{1}D\perp$ the plane $A_{1}BC_{1}$.
+
+(2) Let the edge length of the cube be $1$, and let $B_{1}D$ meet the plane $A_{1}BC_{1}$ at $H$. By symmetry, $H$ is equidistant from the three points $A_{1}$, $B$, $C_{1}$. Since $\triangle A_{1}BC_{1}$ is an equilateral triangle, its circumcenter, centroid and orthocenter coincide. Hence $H$ is the centroid of $\triangle A_{1}C_{1}B$. $\blacksquare$
+
+## Problem 13
+
+(Review Exercises 8, Comprehensive Application, Problem 13) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $\angle ACB=90^{\circ}$ and $PA\perp$ the base $ABC$.
+
+(1) Prove that the plane $PAC\perp$ the plane $PBC$;
+
+(2) If $AC=BC=PA$ and $M$ is the midpoint of $PB$, find the tangent of the angle between $AM$ and the plane $PBC$.
+
+(Figure: a tetrahedron $P\text{-}ABC$ with $PA\perp$ base $ABC$ and $\angle ACB=90^{\circ}$ in the base triangle.)
+
+### Solution to Problem 13
+
+By **Theorem 8.6.8 (Criterion for Two Planes to be Perpendicular)**.
+
+(1) Since $PA\perp$ the base $ABC$ and $BC\subset$ the base $ABC$, we have $PA\perp BC$. Also $\angle ACB=90^{\circ}$, i.e. $AC\perp BC$. Since $PA\cap AC=A$, it follows that $BC\perp$ the plane $PAC$.
+
+As $BC\subset$ the plane $PBC$, by **Theorem 8.6.8 (Criterion for Two Planes to be Perpendicular)**, the plane $PAC\perp$ the plane $PBC$.
+
+(2) Let $AC=BC=PA=a$. Take the midpoint $N$ of $PC$, and join $AN$, $MN$.
+
+Since $PA=AC=a$, $\triangle PAC$ is an isosceles right triangle, and $N$ is the midpoint of $PC$, hence $AN\perp PC$.
+
+By (1), the plane $PAC\perp$ the plane $PBC$ with line of intersection $PC$. Since $AN\subset$ the plane $PAC$ and $AN\perp PC$, it follows that $AN\perp$ the plane $PBC$.
+
+$MN$ is the midline of $\triangle PBC$, so $MN\parallel BC$ and $MN=\frac{1}{2}BC=\frac{a}{2}$.
+
+The projection of $AM$ onto the plane $PBC$ is $NM$, so $\angle AMN$ is the angle between $AM$ and the plane $PBC$.
+
+$AN=\frac{\sqrt{2}}{2}a$, $MN=\frac{a}{2}$. Hence
+
+$$
+\tan\angle AMN=\frac{AN}{MN}=\frac{\frac{\sqrt{2}}{2}a}{\frac{a}{2}}=\sqrt{2}.
+$$
+
+$\blacksquare$
+
+## Problem 14
+
+(Review Exercises 8, Comprehensive Application, Problem 14) As shown in the figure, in the quadrangular pyramid $P\text{-}ABCD$, the base $ABCD$ is a square, the lateral face $PAD$ is an equilateral triangle, the lateral face $PAD\perp$ the base $ABCD$, and $M$ is the midpoint of $PD$.
+
+(1) Prove that $AM\perp$ the plane $PCD$;
+
+(2) Find the cosine of the dihedral angle formed by the lateral face $PBC$ and the base $ABCD$.
+
+(Figure: a quadrangular pyramid $P\text{-}ABCD$ with square base $ABCD$, lateral face $PAD$ an equilateral triangle and $PAD\perp$ base $ABCD$, and $M$ the midpoint of $PD$.)
+
+### Solution to Problem 14
+
+By **Theorem 8.6.9 (Property Theorem for Two Perpendicular Planes)** and **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
+
+(1) Since the lateral face $PAD\perp$ the base $ABCD$ with line of intersection $AD$, and the base $ABCD$ is a square, we have $CD\perp AD$. By the property of two perpendicular planes, $CD\perp$ the plane $PAD$.
+
+As $AM\subset$ the plane $PAD$, it follows that $CD\perp AM$.
+
+Also $\triangle PAD$ is an equilateral triangle and $M$ is the midpoint of $PD$, hence $AM\perp PD$.
+
+Since $CD\cap PD=D$, by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $AM\perp$ the plane $PCD$.
+
+(2) Take the midpoint $O$ of $AD$ and the midpoint $E$ of $BC$, and join $PO$, $OE$, $PE$.
+
+$\triangle PAD$ is an equilateral triangle and $O$ is the midpoint of $AD$, hence $PO\perp AD$. Also the plane $PAD\perp$ the base $ABCD$, so $PO\perp$ the base $ABCD$.
+
+Since $OE\parallel AB\parallel CD$, we have $OE\perp BC$. By the theorem of three perpendiculars, $PE\perp BC$. Hence $\angle PEO$ is the plane angle of the dihedral angle formed by the lateral face $PBC$ and the base $ABCD$.
+
+Let the side length of the square be $a$. Then $PO=\frac{\sqrt{3}}{2}a$, $OE=a$, and $PE=\sqrt{PO^{2}+OE^{2}}=\sqrt{\frac{3}{4}a^{2}+a^{2}}=\frac{\sqrt{7}}{2}a$.
+
+Hence $\cos\angle PEO=\frac{OE}{PE}=\frac{a}{\frac{\sqrt{7}}{2}a}=\frac{2}{\sqrt{7}}=\frac{2\sqrt{7}}{7}$. $\blacksquare$
+
+## Problem 15
+
+(Review Exercises 8, Extension and Exploration, Problem 15) Choose any two of the three spatial elements, the lines $a$, $b$ and the plane $\omega$. If it is known that these two have a parallel or perpendicular relationship with the third element, do the two chosen elements also have a parallel or perpendicular relationship? What conclusions can you draw? Write down some that you think are important. If the three elements are instead the line $m$ and the planes $\alpha$ and $\beta$, what conclusions can you draw?
+
+### Solution to Problem 15
+
+By **Theorem 8.6.5 (Property Theorem for a Line Perpendicular to a Plane)** and the properties of parallel and perpendicular planes.
+
+(1) If $a\parallel\omega$ and $b\parallel\omega$, then $a$ and $b$ may be parallel, intersecting or skew; they need not be parallel.
+
+(2) If $a\perp\omega$ and $b\perp\omega$, then $a\parallel b$ (**Theorem 8.6.5 (Property of Perpendicular Lines and Planes)**).
+
+(3) If $a\parallel\omega$ and $b\perp\omega$, then $a\perp b$.
+
+For the line $m$ and the planes $\alpha$, $\beta$:
+
+(4) If $m\perp\alpha$ and $m\perp\beta$, then $\alpha\parallel\beta$.
+
+(5) If $m\parallel\alpha$ and $m\parallel\beta$, then $\alpha$ and $\beta$ may be parallel or intersecting; they need not be parallel.
+
+(6) If $m\perp\alpha$ and $\alpha\parallel\beta$, then $m\perp\beta$.
+
+(7) If $m\parallel\alpha$ and $\alpha\perp\beta$, then the relationship between $m$ and $\beta$ is undetermined. $\blacksquare$
+
+## Problem 16
+
+(Review Exercises 8, Extension and Exploration, Problem 16) Given that $m$, $n$ are skew lines, $m\perp$ the plane $\alpha$ and $n\perp$ the plane $\beta$. If the line $l$ satisfies $l\perp m$, $l\perp n$, $l\not\subset\alpha$, $l\not\subset\beta$, then ( ).
+
+(A) $\alpha\parallel\beta$, $l\parallel\alpha$; (B) $\alpha$ and $\beta$ intersect, and the line of intersection is parallel to $l$; (C) $\alpha\perp\beta$, $l\perp\beta$; (D) $\alpha$ and $\beta$ intersect, and the line of intersection is perpendicular to $l$.
+
+### Solution to Problem 16
+
+By **Theorem 8.6.5 (Property Theorem for a Line Perpendicular to a Plane)**.
+
+Since $m\perp\alpha$, $n\perp\beta$ and $m$, $n$ are skew lines, $\alpha$ and $\beta$ are not parallel (if $\alpha\parallel\beta$, then by an analogous conclusion of **Theorem 8.6.5 (Property of Perpendicular Lines and Planes)**, $m\parallel n$, contradicting that $m$, $n$ are skew). Hence $\alpha$ and $\beta$ intersect.
+
+We have $l\perp m$, $l\perp n$. Through $l$ draw a plane; from $m\perp\alpha$ and $n\perp\beta$ one deduces that $l$ is parallel to the line of intersection of $\alpha$ and $\beta$.
+
+Hence the answer is (B). $\blacksquare$
+
+## Problem 17
+
+(Review Exercises 9, Review and Consolidation, Problem 1) To understand the scores of 5000 students taking a computer proficiency test in a certain region, 200 students were drawn from them for investigation and analysis. In this problem, the 200 students drawn are ($\;\_\_\;$).
+
+(A) population  (B) individual  (C) sample  (D) sample size
+
+### Solution to Problem 17
+
+By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)**, the whole set of subjects under investigation is the population, each subject making up the population is an individual, and the part of the individuals drawn from the population is the sample.
+
+In this problem, the scores of the 5000 students form the population, the score of each student is an individual, and the 200 students drawn are a part of the individuals taken from the population, i.e. the sample; it is 200 that is the sample size. Hence the answer is (C). $\blacksquare$
+
+## Problem 18
+
+(Review Exercises 9, Review and Consolidation, Problem 2) Four students each roll a die 5 times, recording the number shown on each roll. Based on each student's statistical results, one can determine that the number 6 definitely did not appear for ($\;\_\_\;$).
+
+(A) the mean is 3 and the median is 2
+
+(B) the median is 3 and the mode is 2
+
+(C) the mean is 2 and the variance is 2.4
+
+(D) the median is 3 and the variance is 2.8
+
+### Solution to Problem 18
+
+By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+
+(1) For (A): if the mean is 3, then the sum of the 5 rolls is 15. For example, $1,2,2,4,6$ has sum 15, median 2 and mean 3, in which 6 appears. Hence (A) cannot determine that 6 definitely did not appear.
+
+(2) For (B): for example, $2,2,3,4,6$ has median 3 and mode 2, in which 6 appears. Hence (B) cannot determine that 6 definitely did not appear.
+
+(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum\left(x_i-\overline x\right)^2=5\times2.4=12$, i.e.
+
+$$
+\sum x_i^2=\sum\left(x_i-\overline x\right)^2+n\overline x^2=12+5\times4=32.
+$$
+
+If 6 appeared once, then the sum of the other 4 rolls would be $10-6=4$, i.e. the other 4 rolls are all 1; in this case the sum of squares would be $6^2+4\times1^2=40> 32$, a contradiction. Hence 6 definitely did not appear.
+
+(4) For (D): for example, $1,2,3,3,6$ has median 3 and mean 3, and its variance is $\frac{\left(1-3\right)^2+\left(2-3\right)^2+0+0+\left(6-3\right)^2}{5}=\frac{14}{5}=2.8$, in which 6 appears. Hence (D) cannot determine that 6 definitely did not appear.
+
+In summary, the answer is (C). $\blacksquare$
+
+## Problem 19
+
+(Review Exercises 9, Review and Consolidation, Problem 3) If the median of a set of data is much smaller than the mean, which of the following statements must be false? Why?
+
+(1) there may be outliers in the data;
+
+(2) the data are approximately symmetric;
+
+(3) there may be extremely large values in the data;
+
+(4) the mode of the data may coincide with the median.
+
+### Solution to Problem 19
+
+By **Definition 9.2.3 (Mode, Median and Mean)**, the mean uses all the data and is easily affected by extreme values, whereas the median depends only on the position in the ordering.
+
+(1) There may be outliers in the data: possible. A few exceptionally large values pull the mean upward.
+
+(2) The data are approximately symmetric: definitely false. If the data were approximately symmetric, the mean and median would be roughly equal, and the median would not be much smaller than the mean.
+
+(3) There may be extremely large values in the data: possible. Extremely large values pull the mean upward while the median is unaffected.
+
+(4) The mode may coincide with the median: possible. Whether the mode equals the median has no necessary connection with the relative size of the mean and median.
+
+Hence the statement that must be false is (2). $\blacksquare$
+
+## Problem 20
+
+(Review Exercises 9, Review and Consolidation, Problem 4) (1) In a set of data already grouped, the frequency count of each group refers to $\;\_\_\;$, and the relative frequency of each group refers to $\;\_\_\;$.
+
+(2) A company has a total of $N$ employees and several departments under it. It is desired to use stratified random sampling with proportional allocation of the sample size to draw a sample of size $n$ from all employees. If a certain department has $m$ employees, then the number of employees drawn from this department is $\;\_\_\;$.
+
+### Solution to Problem 20
+
+By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)**.
+
+(1) The frequency count of a group refers to the number of data values falling into that group; the relative frequency of a group refers to the ratio of that group's frequency count to the total number of data values.
+
+(2) Under proportional allocation, the number drawn from each department is proportional to the number of employees in that department. This department accounts for $\frac{m}{N}$ of all employees, so the number of employees drawn from this department is
+
+$$
+\frac{m}{N}\cdot n=\frac{mn}{N}.
+$$
+
+$\blacksquare$
+
+## Problem 21
+
+(Review Exercises 9, Review and Consolidation, Problem 5) A famous national clothing chain conducted an opinion survey about the popular colors of autumn clothing of that year. The surveyors distributed drinks to customers and let customers "vote" for their favorite clothing color by choosing the color printed on the drink cup. According to the results of this survey, in a certain large city A, the mode of clothing colors was red, whereas the result released by the national apparel association of that year was coffee brown.
+
+(1) Does this result represent the views of the people of city A?
+
+(2) What do you think caused the difference between these two surveys?
+
+### Solution to Problem 21
+
+By **Definition 9.1.3 (Simple Random Sampling)** and **Definition 9.2.3 (Mode, Median and Mean)**.
+
+(1) This result cannot represent the views of all people in city A. Because those who voted were only customers shopping at this clothing store, they form a special group that differs from all residents of city A in age, gender and consumption preferences.
+
+(2) The difference between the two survey results is caused by sampling bias. The chain store's survey was conducted only on in-store customers, and the sampling frame did not cover all residents of city A; the national apparel association's survey had a wider coverage. Using the voting results of a special group to infer the preferences of all residents naturally produces bias. This shows that whether the sampling frame covers the population in a sampling survey directly affects the representativeness of the result. $\blacksquare$

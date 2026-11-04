@@ -1,255 +1,445 @@
 # week29
-> **Definition 4.1.1 (n 次方根)**
+> **Definition 8.1.12 (圆锥)**
 > 
-> 一般地, 如果 x^n = a, 那么 x 叫做 a 的 n 次方根, 其中 n > 1, 且 n 是正整数.
-> **Definition 4.4.1 (对数函数)**
+> 以直角三角形的一条直角边所在直线为旋转轴, 其余两边旋转形成的面所围成的旋转体叫做圆锥.
+> **Definition 8.2.1 (直观图)**
 > 
-> )》编写,包括集合与常用逻辑用 语一元二次函数,方程和不等式函数的概念与性质指数函数与对数函数三角 函数五章内容和数学建模　建立函数模型解决实际问题. 集合是刻画一类事物的语言和工具,是现代数学的基础;常用逻辑用语是数学语言的 重要组成部分,是数学表达和交流的工具.在集合与常用逻辑用语的学习中,同学们 将学习集合的概念,基本关系和运算,学习用集合语言刻画一类事物的方法;并学习用逻 辑用语表达数学对象,进行数学推理,为高中数学学习做准备. 相等关系和不等式关系是数学中最基本的数量关系.在一元二次函数,方程和不等 式的学习中,同学们将类比等式学习不等式.通过梳理初中数学的相关内容,理解一元 二次函数,一元二次方程和一元二次不等式之间的联系,从函数观点认识方程与不等式, 感悟数学知识之间的关联,完成初高中数学学习的过渡. 函数是描述客观世界变化规律的重要数学模型,它的思想方法贯穿了高中数学课程的 始终.在函数的概念与性质中,同学们将在初中的基础上,进一步学习
-> **Definition 4.5.1 (函数的零点)**
+> 直观图是观察者站在某一点观察一个空间几何体获得的图形. 在立体几何中, 立体图形的直观图通常是在平行投影下得到的平面图形.
+> **Definition 8.2.2 (斜二测画法)**
 > 
-> ＋＋＞０(＞０)和２＋＋ ＜０(＞０)的解集.因为一元二次方程的根是相应一元二次函数的零点,所以先求出一元 二次方程的根,再根据二次函数图象与轴的相关位置确定一元二次不等式的解集. 我们知道,对于一元二次方程２＋＋＝０(＞０),设Δ＝２－４,它的根按照 Δ＞０,Δ＝０,Δ＜０可分为三种情况.相应地,二次函数狔＝２＋＋(＞０)的图象与 轴的位置关系也分为三种情况.因此,我们分三种情况来讨论对应的一元二次不等式 ２＋＋＞０(＞０)和２＋＋＜０(＞０)的解集(表２.３１). 表２３１　二次函数与一元二次方程,不等式的解的对应关系 项目 Δ＞０ Δ＝０ Δ＜０ 狔＝２＋＋(＞０) 的图象 O y x x1 x2 O y x x1=x2 O y x ２＋＋＝０(＞０) 的根 有两个不相等的实数 根１,２(１＜２) 有两个相等的实数根 １＝２＝－２ 没有实数根 ２＋＋
-> **Definition 4.5.3 (二分法)**
+> 斜二测画法是画空间图形直观图的方法: x 轴水平, y 轴与 x 轴成 45 度, z 轴垂直, 平行于 x, z 轴的线段长度不变, 平行于 y 轴的线段长度减半.
+> **Definition 8.3.1 (多面体的表面积)**
 > 
-> 的过程,学习了用函数描 述客观事物变化规律的方法.本节将先学习运用函数性质求 方程近似解的基本方法(二分法),再结合实例,更深入地 理解用函数构建数学模型的基本过程,学习运用模型思想发 现和提出问题,分析和解决问题的方法. ４５１! "#$Z\left[-D\$] Ꮶ 我们已经学习了用二次函数的观点认识一元二次方程,知道一元二次方程的实数 根就是相应二次函数的零点.像ｌｎ＋２－６＝０这样不能用公式求解的方程,是否 也能采用类似的方法,用相应的函数研究它的解的情况呢? 与二次函数的零点一样,对于一般函数狔＝(),我们把使()＝０的实数叫做 函数狔＝()的零点(ｚｅｒｏ). 这样,函数狔＝()的零点就是方程()＝０的实数解,也就是函数狔＝()的图 象与轴的公共点的横坐标.所以 方程()＝０有实数解 　"函数狔＝()有零点 　"函数狔＝()的图象与轴有公共点. 由此可知,求方程()＝０的实数解,就是确定函数狔＝()的零点.一般地,对 于不能用公
+> 多面体的表面积是围成它的各个面的面积之和. 棱台的表面积等于它的侧面积 (各个侧面面积之和) 与两个底面面积之和.
+> **Definition 8.3.2 (Volume of a Cylinder)**
+> 
+> 柱体的体积 V = S*h, 其中 S 为底面积, h 为高.
+> **Definition 8.3.3 (Volume of a Cone)**
+> 
+> 锥体的体积 V = (1/3)*S*h, 其中 S 为底面积, h 为高.
+> **Definition 8.3.4 (Volume of a Frustum)**
+> 
+> 台体的体积 V = (1/3)*h*(S上 + S下 + sqrt(S上*S下)).
+> **Definition 8.3.6 (Surface Area of a Cone)**
+> 
+> 圆锥的表面积 S = pi*r^2 + pi*r*l, 其中 r 为底面半径, l 为母线长.
+> **Definition 8.3.8 (Volume of a Circular Cylinder)**
+> 
+> 圆柱的体积 V = pi*r^2*h.
+> **Definition 8.3.9 (Volume of a Circular Cone)**
+> 
+> 圆锥的体积 V = (1/3)*pi*r^2*h.
+> **Definition 8.3.11 (球的表面积)**
+> 
+> 球的表面积 S = 4*pi*R^2.
+> **Definition 8.3.12 (球的体积)**
+> 
+> 球的体积 V = (4/3)*pi*R^3.
+
+## Exercise 1
+
+(Exercise 8.2, Problem 3) A simple composite solid consists of two parts: the lower part is a cylinder and the upper part is a hemisphere, and the center of the hemisphere is exactly the center of the upper base of the cylinder. Draw the pictorial drawing of this composite solid.
+
+The figure: an oblique drawing of a composite solid consisting of a cylinder below a hemisphere—the lower part is a cylinder (upper and lower bases are ellipses, the side surface is two parallel tangent lines), and the upper part is a hemisphere (a half-ellipse outline centered at the center of the upper base).
+
+### Solution to Exercise 1
+
+By **Definition 8.2.1 (Pictorial Drawings)**, first analyze the structure of the composite solid, then draw the pictorial drawings of each simple solid separately.
+
+Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle xOz=90^{\circ}$.
+
+(2) Draw the lower base of the cylinder. Using a point on the axis as the center, draw an ellipse with an ellipse template as the lower base.
+
+(3) Move up along the axis by a certain distance to get the center of the upper base, draw an ellipse as the upper base in the same way, and draw two parallel tangent lines to the two ellipses to obtain the pictorial drawing of the cylinder.
+
+(4) Taking the center of the upper base as the center of the sphere, draw half an ellipse above the upper base (the outline of the hemisphere); this gives the pictorial drawing of the composite of a cylinder with a hemisphere on top. $\blacksquare$
 
 ## Problem 1
 
-(Review Reference Problem 4, Review and Consolidation, Problem 1) Multiple-choice questions.
+(Exercise 8.2, Review and Consolidation, Problem 1) When using the oblique two-measurement method to draw the pictorial drawing of a horizontally placed plane figure, are the following statements correct? Mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
-(1) The graphs of the functions $y=-2^{-x}$ and $y=2^x$ ( ).
+(1) The pictorial drawing of a triangle is a triangle.
 
-(A) are symmetric about the $x$-axis (B) are symmetric about the $y$-axis (C) are symmetric about the origin (D) are symmetric about the line $y=x$
+(2) The pictorial drawing of a parallelogram is a parallelogram.
 
-(2) In figure (1), among ①②③④, the one that does not belong to the functions $y=2^x$, $y=6^x$, $y=\left(\frac{1}{2}\right)^x$ is ( ).
+(3) The pictorial drawing of a square is a square.
 
-(A) ① (B) ② (C) ③ (D) ④
-
-(3) In figure (2), among ①②③④, the one that does not belong to the functions $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{3}} x$, $y=\log_2 x$ is ( ).
-
-(A) ① (B) ② (C) ③ (D) ④
+(4) The pictorial drawing of a rhombus is a rhombus.
 
 ### Solution to Problem 1
 
-By **Common Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) and **Common Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions).
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, parallelism is preserved, but segments parallel to the $y$-axis are halved and the angle becomes $45^{\circ}$.
 
-(1) If the point $\left(x,y\right)$ lies on $y=-2^{-x}$, then $y=-2^{-x}$, i.e. $-y=2^{-x}$, hence the point $\left(-x,-y\right)$ lies on $y=2^x$. Therefore the two graphs are symmetric about the origin. Choose (C).
+(1) True. The three sides of the triangle remain three segments and the three vertices remain three vertices in the pictorial drawing, so it is still a triangle.
 
-(2) $y=2^x$ and $y=6^x$ are increasing curves, and $y=\left(\frac{1}{2}\right)^x$ is a decreasing curve. In the figure, ①② are decreasing and ③④ are increasing. Among the increasing curves, when $x> 1$ the smaller the base the higher the graph, hence ③ is $y=2^x$ and ④ is $y=6^x$. Among the decreasing curves, ① is $y=\left(\frac{1}{2}\right)^x$, and ② does not belong to the above three functions. Choose (B).
+(2) True. The two pairs of opposite sides of a parallelogram are respectively parallel, and by the oblique two-measurement method parallelism is preserved, so the pictorial drawing is still a parallelogram.
 
-(3) $y=\log_2 x$ is an increasing curve, and $y=\log_{\frac{1}{2}} x$ and $y=\log_{\frac{1}{3}} x$ are decreasing curves. In the figure, ①② are decreasing and ③④ are increasing. Among the increasing curves, when $x> 1$ the smaller the base the higher the graph, hence ③ is $y=\log_2 x$, and ④ does not belong to the above three functions. Choose (D). $\blacksquare$
+(3) False. The right angles of a square become $45^{\circ}$ or $135^{\circ}$ in the pictorial drawing, and the lengths of adjacent sides are no longer equal, so the pictorial drawing is a parallelogram, not a square.
+
+(4) False. If one adjacent side of a rhombus is parallel to the $x$-axis and the other to the $y$-axis, then in the pictorial drawing the adjacent sides are no longer equal in length, so it is not a rhombus. $\blacksquare$
 
 ## Problem 2
 
-(Review Reference Problem 4, Review and Consolidation, Problem 2) Fill in the blanks with "< ", "> " or "=".
+(Exercise 8.2, Review and Consolidation, Problem 2) Use the oblique two-measurement method to draw the pictorial drawings of the following horizontally placed isosceles right triangles:
 
-(1) $\mathrm e^{0.8}$ ___ $0.8^{\mathrm e}$;
+(1) the legs horizontal;
 
-(2) $2^{a+1}$ ___ $3^a$ ($a> 2$);
+(2) the hypotenuse horizontal.
 
-(3) $a^{0.2}$ ___ $a^{0.3}$ ($0< a< 1$);
-
-(4) $\lg\mathrm e$ ___ $\ln 0.8$;
-
-(5) $\log_2 3$ ___ $\log_3 2$;
-
-(6) $\log_a 0.2$ ___ $\log_a 0.3$ ($a> 1$).
+The figure: oblique drawings of two isosceles right triangles—(1) legs horizontal: the horizontal leg keeps its length, the vertical leg is halved, and the angle becomes $45^{\circ}$; (2) hypotenuse horizontal: the hypotenuse keeps its length, and the altitude to the hypotenuse is halved.
 
 ### Solution to Problem 2
 
-By **Common Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) and **Common Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions).
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, segments parallel to the $x$-axis keep their length, while segments parallel to the $y$-axis are halved.
 
-(1) $\mathrm e^{0.8}\approx 2.23$, $0.8^{\mathrm e}\approx 0.48$, hence $\mathrm e^{0.8}> 0.8^{\mathrm e}$.
+(1) Legs horizontal: take the horizontal leg as the $x$-axis and the other perpendicular leg as the $y$-axis. Draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle; on the $x'$-axis take a segment equal to the horizontal leg, and on the $y'$-axis take half the vertical leg; join the outer ends of the two segments to obtain the pictorial drawing of the isosceles right triangle.
 
-(2) Take $a=3$, $2^{4}=16< 27=3^3$, hence $2^{a+1}< 3^a$.
-
-(3) When $0< a< 1$, $y=a^x$ is decreasing, and $0.2< 0.3$, hence $a^{0.2}> a^{0.3}$.
-
-(4) $\lg\mathrm e\approx 0.434> 0$, $\ln 0.8< 0$, hence $\lg\mathrm e> \ln 0.8$.
-
-(5) $\log_2 3> 1$, $\log_3 2< 1$, hence $\log_2 3> \log_3 2$.
-
-(6) When $a> 1$, $y=\log_a x$ is increasing, and $0.2< 0.3$, hence $\log_a 0.2< \log_a 0.3$. $\blacksquare$
+(2) Hypotenuse horizontal: take the line on which the hypotenuse lies as the $x$-axis, and the line on which the altitude to the hypotenuse lies as the $y$-axis. Draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle; on the $x'$-axis take a segment equal to the hypotenuse, and on the $y'$-axis take half the altitude; join the vertex to the two endpoints of the hypotenuse to obtain the pictorial drawing. $\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problem 4, Review and Consolidation, Problem 3) With the help of information technology, use the bisection method to find:
+(Exercise 8.2, Review and Consolidation, Problem 3) Use the oblique two-measurement method to draw the pictorial drawing of a regular triangular prism with base side $2\text{ cm}$ and lateral edge $3\text{ cm}$.
 
-(1) The largest root of the equation $2x^3-4x^2-3x+1=0$ (accuracy $0.01$);
-
-(2) The x-coordinate of the intersection point of the functions $f\left(x\right)=\lg x$ and $g\left(x\right)=\frac{1}{x}$ (accuracy $0.1$).
+The figure: an oblique drawing of a regular triangular prism with base edge $2\text{ cm}$ and lateral edge $3\text{ cm}$—the lower base is an oblique projection of an equilateral triangle (base $2\text{ cm}$, altitude halved), the lateral edges are vertical and $3\text{ cm}$ long, and hidden parts are dashed.
 
 ### Solution to Problem 3
 
-By **Definition 4.5.3 (Bisection Method)**.
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids).
 
-(1) Let $h\left(x\right)=2x^3-4x^2-3x+1$. $h\left(2\right)=16-16-6+1=-5< 0$, $h\left(3\right)=54-36-9+1=10> 0$. Bisect within $\left(2,3\right)$, gradually approaching; the largest root is approximately $2.60$.
+Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes with $\angle xOy=45^{\circ}$ and $\angle xOz=90^{\circ}$.
 
-(2) Let $h\left(x\right)=x\lg x-1$. $h\left(2\right)=2\lg 2-1\approx -0.398< 0$, $h\left(3\right)=3\lg 3-1\approx 0.431> 0$. Bisect within $\left(2,3\right)$; the x-coordinate of the intersection is approximately $2.5$. $\blacksquare$
+(2) Draw the lower base. Use the oblique two-measurement method to draw the horizontally placed pictorial drawing of an equilateral triangle of side $2\text{ cm}$: take one side as the $x$-axis and the altitude to it as the $y$-axis; keep the side length unchanged on the $x'$-axis and halve the altitude on the $y'$-axis.
+
+(3) Draw the lateral edges. Through each vertex of the lower base draw a line parallel to the $z$-axis, and cut off lateral edges of length $3\text{ cm}$ to obtain the corresponding vertices of the upper base.
+
+(4) Complete the drawing. Join the vertices of the upper base in order, tidy up by removing the auxiliary lines, and draw the hidden parts as dashed lines; this gives the pictorial drawing of the regular triangular prism. $\blacksquare$
 
 ## Problem 4
 
-(Review Reference Problem 4, Review and Consolidation, Problem 4) Given the function $f\left(x\right)=\begin{cases}x^2+2x-3, & x\le 0,\\ -2+\ln x, & x> 0,\end{cases}$ find the corresponding range of $k$ for which the equation $f\left(x\right)=k$ has $1$, $2$, and $3$ real solutions respectively.
+(Exercise 8.2, Review and Consolidation, Problem 4) Draw the pictorial drawing of a cylinder with base radius $1\text{ cm}$ and generatrix length $3\text{ cm}$.
+
+The figure: an oblique drawing of a cylinder with base radius $1\text{ cm}$ and generatrix length $3\text{ cm}$—the upper and lower bases are ellipses ($2\text{ cm}$ wide horizontally), the centers of the two ellipses are $3\text{ cm}$ apart, and the side surface is two parallel tangent lines.
 
 ### Solution to Problem 4
 
-By **Definition 4.5.1 (Zeros of a Function)** and **Common Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions).
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids), the pictorial drawing of a horizontally placed circle is drawn as an ellipse.
 
-When $x\le 0$, $y=\left(x+1\right)^2-4$, with minimum $-4$ (at $x=-1$), and at $x=0$, $y=-3$. When $x> 0$, $y=-2+\ln x$ is an increasing function, with exactly one solution $x=\mathrm e^{k+2}$ for any $k$.
+Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle xOz=90^{\circ}$.
 
-When $k< -4$, the $x\le 0$ part has no solution, for a total of $1$ solution; when $k=-4$, the $x\le 0$ part has $1$ solution $x=-1$, for a total of $2$ solutions; when $-4< k\le -3$, the $x\le 0$ part has $2$ solutions, for a total of $3$ solutions; when $k> -3$, the $x\le 0$ part has $1$ solution, for a total of $2$ solutions.
+(2) Draw the lower base. With $O$ as the midpoint, take $OA=OB=1\text{ cm}$ on the $x$-axis, and use an ellipse template to draw the ellipse through $A$ and $B$ as the lower base.
 
-Hence for $1$ solution, $k< -4$; for $2$ solutions, $k=-4$ or $k> -3$; for $3$ solutions, $-4< k\le -3$. $\blacksquare$
+(3) Draw the upper base. On $Oz$ take $OO'=3\text{ cm}$; through $O'$ draw an axis parallel to $Ox$, and draw the ellipse of the upper base in the same way.
+
+(4) Complete the drawing. Draw two parallel tangent lines to the two ellipses and tidy up to obtain the pictorial drawing of the cylinder. $\blacksquare$
 
 ## Problem 5
 
-(Review Reference Problem 4, Comprehensive Application, Problem 5) Multiple-choice questions.
+(Exercise 8.2, Comprehensive Application, Problem 5) A rhombus has side length $4\text{ cm}$ and one interior angle $60^{\circ}$. Place the rhombus horizontally with its longer diagonal horizontal, and use the oblique two-measurement method to draw the pictorial drawing of this rhombus.
 
-(1) Given the sets $A=\left\{y\,|\,y=\log_2 x,\,x> 1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},\,x> 1\right\}$, then $A\cap B=$ ( ).
-
-(A) $\left\{y\,|\,0< y< \frac{1}{2}\right\}$ (B) $\left\{y\,|\,0< y< 1\right\}$ (C) $\left\{y\,|\,\frac{1}{2}< y< 1\right\}$ (D) $\varnothing$
-
-(2) Given $f\left(x\right)=\left|\lg x\right|$, and if $a=f\left(\frac{1}{4}\right)$, $b=f\left(\frac{1}{3}\right)$, $c=f\left(2\right)$, then ( ).
-
-(A) $a< b< c$ (B) $b< c< a$ (C) $c< a< b$ (D) $c< b< a$
-
-(3) Given that the zeros of the functions $f\left(x\right)=2^x+x$, $g\left(x\right)=\log_2 x+x$, $h\left(x\right)=x^3+x$ are $a$, $b$, $c$ respectively, then the size order of $a$, $b$, $c$ is ( ).
-
-(A) $a> b> c$ (B) $b> c> a$ (C) $c> a> b$ (D) $b> a> c$
+The figure: an oblique drawing of a rhombus with side $4\text{ cm}$ and one interior angle $60^{\circ}$—the longer diagonal ($4\sqrt{3}\text{ cm}$) is horizontal (parallel to the $x'$-axis), the shorter diagonal ($4\text{ cm}$) lies along the $y'$-axis and is halved to $2\text{ cm}$, and the four vertices are connected in order.
 
 ### Solution to Problem 5
 
-By **Common Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) and **Common Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions).
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, the longer diagonal being horizontal means it is parallel to the $x$-axis, and the shorter diagonal is parallel to the $y$-axis.
 
-(1) When $x> 1$, $\log_2 x> 0$, hence $A=\left\{y\,|\,y> 0\right\}$; when $x> 1$, $0< \frac{1}{2^x}< \frac{1}{2}$, hence $B=\left\{y\,|\,0< y< \frac{1}{2}\right\}$. $A\cap B=\left\{y\,|\,0< y< \frac{1}{2}\right\}$. Choose (A).
+The rhombus has side $4\text{ cm}$ and one interior angle $60^{\circ}$, so the shorter diagonal is $4\text{ cm}$ and the longer diagonal is $4\sqrt{3}\text{ cm}$.
 
-(2) $a=\left|\lg\frac{1}{4}\right|=\lg 4$, $b=\left|\lg\frac{1}{3}\right|=\lg 3$, $c=\left|\lg 2\right|=\lg 2$. Since $\lg 2< \lg 3< \lg 4$, we get $c< b< a$. Choose (D).
-
-(3) $f\left(x\right)=2^x+x=0$, i.e. $2^x=-x$, has solution $a< 0$; $g\left(x\right)=\log_2 x+x=0$, i.e. $\log_2 x=-x$, has solution $0< b< 1$; $h\left(x\right)=x^3+x=x\left(x^2+1\right)=0$ has solution $c=0$. Hence $b> c> a$. Choose (B). $\blacksquare$
+Take the longer diagonal as the $x$-axis and the shorter diagonal as the $y$-axis, with intersection $O$. Draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle; on the $x'$-axis take the longer diagonal of length $4\sqrt{3}\text{ cm}$, and on the $y'$-axis take half the shorter diagonal, i.e. $1\text{ cm}$; join the four vertices in order to obtain the pictorial drawing of the rhombus. $\blacksquare$
 
 ## Problem 6
 
-(Review Reference Problem 4, Comprehensive Application, Problem 6) Let $f\left(x\right)=\frac{\mathrm e^x-\mathrm e^{-x}}{2}$, $g\left(x\right)=\frac{\mathrm e^x+\mathrm e^{-x}}{2}$. Prove:
+(Exercise 8.2, Comprehensive Application, Problem 6) Given that a cone is formed by rotating an isosceles right triangle, draw the pictorial drawing of this cone.
 
-(1) $\left[g\left(x\right)\right]^2-\left[f\left(x\right)\right]^2=1$;
-
-(2) $f\left(2x\right)=2f\left(x\right)g\left(x\right)$;
-
-(3) $g\left(2x\right)=\left[g\left(x\right)\right]^2+\left[f\left(x\right)\right]^2$.
+The figure: an oblique drawing of a cone formed by rotating an isosceles right triangle—the base is an ellipse, the apex $S$ is directly above the center of the base, the height $OS$ equals the base radius $r$, and two tangent lines from $S$ to the ellipse are the generatrices.
 
 ### Solution to Problem 6
 
-By **Common Conclusion 4.1.6** (Operational Properties of Real Exponents).
+By **Definition 8.2.1 (Pictorial Drawings)** and **Definition 8.1.12 (Cone)**, the cone is formed by rotating an isosceles right triangle about a leg, so the height of the cone equals the radius of its base.
 
-(1) $\left[g\left(x\right)\right]^2-\left[f\left(x\right)\right]^2=\frac{\left(\mathrm e^x+\mathrm e^{-x}\right)^2-\left(\mathrm e^x-\mathrm e^{-x}\right)^2}{4}=\frac{4\mathrm e^x\mathrm e^{-x}}{4}=1$.
+Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle xOz=90^{\circ}$.
 
-(2) $2f\left(x\right)g\left(x\right)=2\cdot\frac{\mathrm e^x-\mathrm e^{-x}}{2}\cdot\frac{\mathrm e^x+\mathrm e^{-x}}{2}=\frac{\mathrm e^{2x}-\mathrm e^{-2x}}{2}=f\left(2x\right)$.
+(2) Draw the base. With $O$ as the center, use an ellipse template to draw the horizontally placed base ellipse, and let the base radius be $r$.
 
-(3) $\left[g\left(x\right)\right]^2+\left[f\left(x\right)\right]^2=\frac{\left(\mathrm e^x+\mathrm e^{-x}\right)^2+\left(\mathrm e^x-\mathrm e^{-x}\right)^2}{4}=\frac{2\left(\mathrm e^{2x}+\mathrm e^{-2x}\right)}{4}=\frac{\mathrm e^{2x}+\mathrm e^{-2x}}{2}=g\left(2x\right)$. $\blacksquare$
+(3) Determine the vertex. On the $z$-axis take the height $OS=r$ (since the cone comes from rotating an isosceles right triangle, the height equals the base radius), obtaining the vertex $S$.
+
+(4) Complete the drawing. From $S$ draw two tangent lines to the ellipse as generatrices, and tidy up to obtain the pictorial drawing of the cone. $\blacksquare$
 
 ## Problem 7
 
-(Review Reference Problem 4, Comprehensive Application, Problem 7) The graph of the exponential function $y=\left(\frac{b}{a}\right)^x$ is as shown in the figure (a decreasing curve). Find the range of the x-coordinate of the vertex of the parabola $y=ax^2+bx$.
+(Exercise 8.2, Comprehensive Application, Problem 7) The three-view drawing of a solid is shown in the figure. Draw the pictorial drawing of this solid.
 
-The graph: in the rectangular coordinate plane, the graph of the exponential function $y=\left(\frac{b}{a}\right)^x$ is a monotonically decreasing curve lying above the $x$-axis and passing through the point $\left(0,1\right)$ (descending toward the $x$-axis for $x> 0$ and rising for $x< 0$).
+The figure: three views of a solid—the front view is a rectangle, the side view is a rectangle, and the top view is a circle; the solid is a cylinder.
 
 ### Solution to Problem 7
 
-By **Common Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
+By **Definition 8.2.1 (Pictorial Drawings)**, first determine the structure of the solid from the three-view drawing, then draw the pictorial drawing.
 
-$y=\left(\frac{b}{a}\right)^x$ is decreasing, hence $0< \frac{b}{a}< 1$. The x-coordinate of the vertex of the parabola $y=ax^2+bx$ is $x=-\frac{b}{2a}$. From $0< \frac{b}{a}< 1$ we get $0< \frac{b}{2a}< \frac{1}{2}$, hence $-\frac{1}{2}< -\frac{b}{2a}< 0$. i.e. the range of the vertex's x-coordinate is $\left(-\frac{1}{2},0\right)$. $\blacksquare$
+Since the front view and side view are both rectangles while the top view is a circle, the solid is a cylinder.
+
+Following the drawing method for a cylinder: draw the $x$- and $z$-axes, draw the upper and lower elliptical bases, and draw two parallel generatrices; this gives the pictorial drawing of the cylinder. $\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problem 4, Comprehensive Application, Problem 8) In 1986 the Chernobyl nuclear power plant exploded; strontium-90, the main nuclear pollutant, decays at an annual rate of $2.47\%$. To completely eliminate the impact of this nuclear accident on the natural environment requires at least $800$ years; by then, what percentage of the original strontium-90 remains?
+(Exercise 8.2, Extension and Exploration, Problem 8) Draw pictorial drawings of some buildings at your school (choose the dimensions yourself).
 
 ### Solution to Problem 8
 
-By **Common Conclusion 4.2.3** (Exponential Growth and Decay Models).
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids), buildings are mostly composites of prisms, frustums, and so on.
 
-The annual decay rate is $2.47\%$, i.e. $97.53\%$ remains each year. After $800$ years the remaining fraction is $0.9753^{800}=\mathrm e^{800\ln 0.9753}\approx\mathrm e^{800\times\left(-0.0250\right)}\approx\mathrm e^{-20}\approx 2\times 10^{-7}\%$. i.e. by then about $2\times 10^{-7}\%$ of the original strontium-90 remains. $\blacksquare$
+First observe the buildings and abstract them into simple solids such as prisms and frustums, or combinations thereof; choose suitable axes, use the oblique two-measurement method to draw the horizontally placed bases, then draw the vertical edges along the $z$-axis direction, keeping their lengths unchanged; draw the hidden parts as dashed lines. The dimensions may be chosen freely as long as the structural features of the building are expressed. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 8.3, Problem 1) The upper and lower base sides of a regular hexagonal frustum are $2\text{ cm}$ and $6\text{ cm}$ respectively, and its lateral edge is $5\text{ cm}$. Find its surface area.
+
+### Solution to Exercise 2
+
+By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the surface area equals the sum of the areas of the two bases and the lateral area.
+
+The area formula for a regular hexagon is $\frac{3\sqrt{3}}{2}a^{2}$. The upper base side is $a'=2$, so the upper base area is $S'=\frac{3\sqrt{3}}{2}\cdot 2^{2}=6\sqrt{3}$. The lower base side is $a=6$, so the lower base area is $S=\frac{3\sqrt{3}}{2}\cdot 6^{2}=54\sqrt{3}$.
+
+The lateral faces are $6$ congruent isosceles trapezoids, with upper base $2$, lower base $6$, and leg (lateral edge) $5$. The height of each trapezoid is
+
+$$
+h_{\text{梯}}=\sqrt{5^{2}-\left(\frac{6-2}{2}\right)^{2}}=\sqrt{25-4}=\sqrt{21}.
+$$
+
+The area of each trapezoid is $\frac{2+6}{2}\cdot\sqrt{21}=4\sqrt{21}$, and the lateral area is $6\times 4\sqrt{21}=24\sqrt{21}$.
+
+Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ \left(\text{cm}^{2}\right)$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 8.3, Problem 2) As shown in the figure, a cube of edge $4\text{ cm}$ has its surfaces painted red; it is suitably divided into small cubes of edge $1\text{ cm}$.
+
+(1) How many small cubes of edge $1\text{ cm}$ are obtained in total?
+
+(2) How many small cubes have three faces red? What is the sum of their surface areas?
+
+(3) How many small cubes have two faces red? What is the sum of their surface areas?
+
+(4) How many small cubes have one face red? What is the sum of their surface areas?
+
+(5) How many small cubes have no face colored? What is the sum of their surface areas? How many cubic centimeters of space do they occupy?
+
+The figure: a cube of edge length $4\text{ cm}$ with its surface painted red, divided into $4\times 4\times 4=64$ small cubes of edge length $1\text{ cm}$; one can see the distribution: corner cubes have three painted faces, edge cubes have two, face cubes have one, and interior cubes have none.
+
+### Solution to Exercise 3
+
+By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the cube is divided into $4\times 4\times 4$ small cubes.
+
+(1) The total number of small cubes is $4^{3}=64$.
+
+(2) Small cubes with three red faces lie at the vertices of the large cube, totaling $8$. Each small cube has surface area $6\text{ cm}^{2}$, so the sum of their surface areas is $8\times 6=48\text{ cm}^{2}$.
+
+(3) Small cubes with two red faces lie on the edges but not at the vertices. On each edge there are $4-2=2$, and there are $12$ edges, so there are $12\times 2=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
+
+(4) Small cubes with one red face lie on the faces but not on the edges. On each face there are $\left(4-2\right)^{2}=4$, and there are $6$ faces, so there are $6\times 4=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
+
+(5) Uncolored small cubes lie inside the large cube, and there are $\left(4-2\right)^{3}=8$ of them. The sum of their surface areas is $8\times 6=48\text{ cm}^{2}$. The space they occupy is $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 8.3, Problem 3) Some stone benches are placed on a plaza for people to rest; these benches are obtained by cutting off eight identical tetrahedra from a cube. If the edge of the original cube is $50\text{ cm}$, what is the volume of each bench?
+
+### Solution to Exercise 4
+
+By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and **Definition 8.3.3 (Volume of a Pyramid-like or Cone-like Solid)**, the volume of the bench equals the volume of the cube minus the volumes of the eight tetrahedra cut off.
+
+The cube has edge $50\text{ cm}$ and volume $50^{3}=125000\text{ cm}^{3}$.
+
+Eight identical tetrahedra are cut off; each has three pairwise perpendicular edges of length $25\text{ cm}$ (i.e. cut by planes through the midpoints of the three edges at each vertex). The volume of each tetrahedron is
+
+$$
+V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ \left(\text{cm}^{3}\right).
+$$
+
+The eight tetrahedra cut off a total of $8\times\frac{15625}{6}=\frac{62500}{3}\text{ cm}^{3}$.
+
+Hence the volume of the bench is $125000-\frac{62500}{3}=\frac{312500}{3}\approx 104167\text{ cm}^{3}$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 8.3, Problem 4) Prove that the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third lateral face.
+
+### Solution to Exercise 5
+
+By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and the fact that the lateral faces of a right triangular prism are rectangles, the areas of the three lateral faces equal the products of the three sides of the base triangle with the lateral-edge length.
+
+Let the three sides of the base triangle be $a$, $b$, $c$, and the lateral edge be $l$. The three lateral-face areas are $al$, $bl$, $cl$, respectively.
+
+By the fact that the sum of two sides of a triangle is greater than the third, $a+b> c$. Multiplying both sides by the positive number $l$ gives $al+bl> cl$, i.e. the sum of any two lateral-face areas is greater than the third. The other two pairs follow similarly. Hence the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 8.3, Problem 1) Given that the surface area of a cone is $a\text{ m}^{2}$ and its lateral development is a semicircle, find the diameter of the base of this cone.
+
+### Solution to Exercise 6
+
+By **Definition 8.3.6 (Surface Area of a Cone)**, let the base radius be $r$ and the generatrix length be $l$.
+
+The lateral development is a semicircle whose radius is the generatrix $l$ and whose arc length is $\pi l$. This arc length equals the base circumference $2\pi r$, so $\pi l=2\pi r$, i.e. $l=2r$.
+
+The surface area is $S=\pi r\left(r+l\right)=\pi r\left(r+2r\right)=3\pi r^{2}=a$, giving $r=\sqrt{\frac{a}{3\pi}}$.
+
+Hence the base diameter is $2r=2\sqrt{\frac{a}{3\pi}}\ \left(\text{m}\right)$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 8.3, Problem 2) For what value of the radius of a sphere do the numerical values of its volume and its surface area coincide?
+
+### Solution to Exercise 7
+
+By **Definition 8.3.11 (Surface Area of a Sphere)** and **Definition 8.3.12 (Volume of a Sphere)**, let the radius be $R$.
+
+The volume is $V=\frac{4}{3}\pi R^{3}$ and the surface area is $S=4\pi R^{2}$. Set them equal numerically:
+
+$$
+\frac{4}{3}\pi R^{3}=4\pi R^{2}.
+$$
+
+Dividing both sides by $4\pi R^{2}$ ($R> 0$) gives $\frac{R}{3}=1$, i.e. $R=3$.
+
+Hence when the radius of the sphere is $3$, the numerical values of its volume and surface area coincide. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 8.3, Problem 3) An iron cube of edge $6\text{ cm}$ is ground into a spherical part. Find the volume of the largest possible part.
+
+### Solution to Exercise 8
+
+By **Definition 8.3.12 (Volume of a Sphere)**, the largest sphere that fits inside the cube is its inscribed sphere, whose diameter equals the edge of the cube.
+
+The cube has edge $6\text{ cm}$, so the inscribed sphere has diameter $6\text{ cm}$ and radius $R=3\text{ cm}$.
+
+The volume of the largest sphere is $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 3^{3}=36\pi\approx 113.1\text{ cm}^{3}$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 8.3, Problem 4) A rectangular water tank of length $80\text{ cm}$, width $60\text{ cm}$, and height $55\text{ cm}$ contains $200000\text{ cm}^{3}$ of water. A wooden sphere of diameter $50\text{ cm}$ is now placed in it. If two-thirds of the sphere is underwater and one-third above, will the water overflow the tank?
+
+### Solution to Exercise 9
+
+By **Definition 8.3.12 (Volume of a Sphere)**, compare the volume of the submerged part of the sphere with the remaining capacity of the tank.
+
+The tank capacity is $80\times 60\times 55=264000\text{ cm}^{3}$. It already holds $200000\text{ cm}^{3}$ of water, leaving $264000-200000=64000\text{ cm}^{3}$ of space.
+
+The sphere has radius $R=25\text{ cm}$ and volume $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 25^{3}\approx 65450\text{ cm}^{3}$. The submerged volume is $\frac{2}{3}V\approx 43633\text{ cm}^{3}$.
+
+Since $43633< 64000$, the submerged volume is less than the remaining space, so the water will not overflow. $\blacksquare$
 
 ## Problem 9
 
-(Review Reference Problem 4, Comprehensive Application, Problem 9) For a factory's waste gas, the pollutant content $P$ (unit: $\mathrm{mg/L}$) as a function of time $t$ (unit: $\mathrm h$) is $P=P_0\mathrm e^{-kt}$, where $P_0$ and $k$ are positive constants. In the first $5\;\mathrm h$, $10\%$ of the pollutant is removed.
+(Exercise 8.3, Review and Consolidation, Problem 1) As shown in the figure, every face of an octahedron is an equilateral triangle, and the $4$ vertices $A$, $B$, $C$, $D$ lie in the same plane. If the quadrilateral $ABCD$ is a square of side $30\text{ cm}$, what is the surface area of this octahedron?
 
-(1) After $10\;\mathrm h$, what percentage of the pollutant remains?
-
-(2) How long does it take for the pollutant to decrease by $50\%$ (accurate to $1\;\mathrm h$)?
-
-(3) Sketch the graph of $P$ as a function of $t$.
-
-The graph: horizontal axis is time $t$ (unit: h), vertical axis is the pollutant content $P$ (unit: mg/L); the exponential decay curve $P=P_0\mathrm e^{-kt}$ starts at $P_0$ on the vertical axis, decreases monotonically as $t$ increases, and gradually approaches $0$.
+The figure: an octahedron whose four vertices $A,B,C,D$ lie in one plane forming a square $ABCD$ of side $30\text{ cm}$, with one vertex above and one below the square; all $8$ faces are equilateral triangles.
 
 ### Solution to Problem 9
 
-By **Common Conclusion 4.2.3** (Exponential Growth and Decay Models) and **Common Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the octahedron has $8$ faces, each an equilateral triangle of side $30\text{ cm}$.
 
-(1) $P\left(5\right)=P_0\mathrm e^{-5k}=0.9P_0$, i.e. $\mathrm e^{-5k}=0.9$. $P\left(10\right)=P_0\mathrm e^{-10k}=P_0\left(\mathrm e^{-5k}\right)^2=0.81P_0$. Hence after $10\;\mathrm h$, $81\%$ of the pollutant remains.
+The area of each equilateral triangle is $\frac{\sqrt{3}}{4}\times 30^{2}=225\sqrt{3}\text{ cm}^{2}$.
 
-(2) Set $P_0\mathrm e^{-kt}=0.5P_0$, i.e. $\mathrm e^{-kt}=0.5$, $t=-\frac{\ln 0.5}{k}$. From $\mathrm e^{-5k}=0.9$ we get $k=-\frac{\ln 0.9}{5}\approx 0.021$. Hence $t=\frac{\ln 2}{0.021}\approx 33\;\mathrm h$.
-
-(3) $P=P_0\mathrm e^{-kt}$ is a decreasing exponential decay curve, gradually approaching $0$ from $P_0$. $\blacksquare$
+The surface area is $8\times 225\sqrt{3}=1800\sqrt{3}\text{ cm}^{2}$. $\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problem 4, Comprehensive Application, Problem 10) The cooling formula for an object is $\theta=\theta_0+\left(\theta_1-\theta_0\right)\mathrm e^{-kt}$. Now an object at $62{}^\circ\mathrm C$ is placed in air at $15{}^\circ\mathrm C$ to cool; after $1\;\mathrm{min}$ the object's temperature is $52{}^\circ\mathrm C$.
+(Exercise 8.3, Review and Consolidation, Problem 2) As shown in the figure, a rectangular box is cut along the diagonals of three adjacent faces to remove a pyramid. Find the ratio of the volume of the pyramid to the volume of the remaining solid.
 
-(1) Find the value of $k$ (accurate to $0.01$);
-
-(2) To lower the object's temperature to $42{}^\circ\mathrm C$ and $32{}^\circ\mathrm C$, find the required cooling times respectively (accurate to $0.1\;\mathrm{min}$).
+The figure: a rectangular prism from which a triangular pyramid is cut out along the diagonals of three adjacent faces (the pyramid has one vertex of the prism as its apex and three mutually perpendicular edges as its lateral edges).
 
 ### Solution to Problem 10
 
-By **Common Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and **Definition 8.3.3 (Volume of a Pyramid-like or Cone-like Solid)**, let the length, width, and height of the box be $a$, $b$, $c$.
 
-(1) Substituting $\theta=52$, $\theta_0=15$, $\theta_1=62$, $t=1$: $52=15+47\mathrm e^{-k}$, $\mathrm e^{-k}=\frac{37}{47}$, $k=-\ln\frac{37}{47}\approx 0.24$.
+The volume of the box is $V=abc$.
 
-(2) Set $\theta=42$: $42=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\frac{27}{47}$, $t=\frac{-\ln\left(27/47\right)}{0.24}\approx 2.3\;\mathrm{min}$. Set $\theta=32$: $32=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\frac{17}{47}$, $t=\frac{-\ln\left(17/47\right)}{0.24}\approx 4.5\;\mathrm{min}$. $\blacksquare$
+The removed pyramid has one vertex of the box as its vertex, with three pairwise perpendicular edges of lengths $a$, $b$, $c$; its volume is
+
+$$
+V_{\text{锥}}=\frac{1}{3}\times\frac{1}{2}ab\cdot c=\frac{1}{6}abc.
+$$
+
+The volume of the remaining solid is $V_{\text{剩}}=abc-\frac{1}{6}abc=\frac{5}{6}abc$.
+
+Hence the ratio of the pyramid volume to the remaining volume is $\frac{1}{6}:\frac{5}{6}=1:5$. $\blacksquare$
 
 ## Problem 11
 
-(Review Reference Problem 4, Extension and Exploration, Problem 11) Given the functions $f\left(x\right)=\log_a\left(x+1\right)$, $g\left(x\right)=\log_a\left(1-x\right)$ ($a> 0$, and $a\neq 1$).
+(Exercise 8.3, Review and Consolidation, Problem 3) As shown in the figure, a right triangular-prism-shaped container holds water, with lateral edge $AA_{1}=8$. When the lateral face $AA_{1}B_{1}B$ is placed horizontally, the water surface passes exactly through the midpoints of $AC$, $BC$, $A_{1}C_{1}$, $B_{1}C_{1}$. When the base $ABC$ is placed horizontally, what is the height of the water surface?
 
-(1) Find the domain of the function $f\left(x\right)+g\left(x\right)$;
-
-(2) Determine the odd-even property of the function $f\left(x\right)+g\left(x\right)$, and explain why.
+The figure: a right triangular prism container $ABC\text{-}A_1B_1C_1$ with lateral edge $AA_1=8$; when the side face $AA_1B_1B$ is placed horizontally, the water surface passes exactly through the midpoints of $AC$, $BC$, $A_1C_1$, and $B_1C_1$.
 
 ### Solution to Problem 11
 
-By **Definition 4.4.1 (Logarithmic Function)**.
+By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the volume of water is unchanged.
 
-(1) We require $x+1> 0$ and $1-x> 0$, i.e. $-1< x< 1$. Hence the domain is $\left(-1,1\right)$.
+Let the area of the base triangle $ABC$ be $S$, and the lateral edge be $AA_{1}=8$. When the lateral face $AA_{1}B_{1}B$ is horizontal, the water surface passes through the midpoints of $AC$ and $BC$, i.e. in the cross-section triangle $ABC$, the water line is parallel to $AB$ and lies on the segment joining the midpoints of $AC$ and $BC$.
 
-(2) $F\left(x\right)=f\left(x\right)+g\left(x\right)=\log_a\left(x+1\right)+\log_a\left(1-x\right)=\log_a\left(1-x^2\right)$. $F\left(-x\right)=\log_a\left(1-\left(-x\right)^2\right)=\log_a\left(1-x^2\right)=F\left(x\right)$. Hence $F\left(x\right)$ is an even function. $\blacksquare$
+The small triangle above the water is similar to $\triangle ABC$ with similarity ratio $\frac{1}{2}$, so its area is $\frac{1}{4}S$. Hence the cross-sectional area under water is $S-\frac{1}{4}S=\frac{3}{4}S$.
+
+The volume of water is $V_{\text{水}}=\frac{3}{4}S\times 8=6S$.
+
+When the base $ABC$ is horizontal, let the water height be $h$; then $V_{\text{水}}=S\cdot h$. From $S\cdot h=6S$ we get $h=6$. $\blacksquare$
 
 ## Problem 12
 
-(Review Reference Problem 4, Extension and Exploration, Problem 12) For the function $f\left(x\right)=a-\frac{2}{2^x+1}$ ($a\in\mathbb R$).
+(Exercise 8.3, Review and Consolidation, Problem 4) As shown in the figure, the cone $PO$ has base diameter and height both equal to $a$. Through the midpoint $O'$ of $PO$ draw a cross-section parallel to the base, and hollow out a cylinder with this cross-section as its base. Find the surface area and volume of the remaining solid.
 
-(1) Explore the monotonicity of the function $f\left(x\right)$;
-
-(2) Does there exist a real number $a$ such that the function $f\left(x\right)$ is an odd function?
+The figure: a cone $PO$ whose base diameter and height are both $a$; a cross-section parallel to the base is drawn through the midpoint $O'$ of $PO$, and a cylinder is removed with this cross-section as its base, leaving the cone with a coaxial cylindrical cavity.
 
 ### Solution to Problem 12
 
-By **Common Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
+By **Definition 8.3.6 (Surface Area of a Cone)**, **Definition 8.3.3 (Volume of a Pyramid-like or Cone-like Solid)**, and **Definition 8.3.8 (Volume of a Cylinder)**.
 
-(1) $2^x$ is an increasing function, hence $\frac{2}{2^x+1}$ is a decreasing function and $-\frac{2}{2^x+1}$ is an increasing function; therefore $f\left(x\right)=a-\frac{2}{2^x+1}$ is an increasing function.
+The cone has base radius $\frac{a}{2}$ and height $a$, and generatrix length $l=\sqrt{a^{2}+\left(\frac{a}{2}\right)^{2}}=\frac{\sqrt{5}}{2}a$.
 
-(2) If $f\left(x\right)$ is an odd function, then $f\left(0\right)=0$, i.e. $a-\frac{2}{2}=0$, $a=1$. Verify: $f\left(x\right)=1-\frac{2}{2^x+1}=\frac{2^x-1}{2^x+1}$. $f\left(-x\right)=\frac{2^{-x}-1}{2^{-x}+1}=\frac{1-2^x}{1+2^x}=-f\left(x\right)$. Hence there exists $a=1$ making $f\left(x\right)$ an odd function. $\blacksquare$
+$O'$ is the midpoint of $PO$, at height $\frac{a}{2}$ above the base. By similarity, the cross-section radius is $r'=\frac{1}{2}\times\frac{a}{2}=\frac{a}{4}$. The hollowed cylinder has height $\frac{a}{2}$ and base radius $\frac{a}{4}$.
+
+Surface area: the lateral area of the cone is $\pi\cdot\frac{a}{2}\cdot\frac{\sqrt{5}}{2}a=\frac{\sqrt{5}}{4}\pi a^{2}$; after removing a circle of radius $\frac{a}{4}$ from the cone's base, the remaining annulus area is $\pi\left(\frac{a}{2}\right)^{2}-\pi\left(\frac{a}{4}\right)^{2}=\frac{3}{16}\pi a^{2}$; the new lateral area of the cylinder is $2\pi\cdot\frac{a}{4}\cdot\frac{a}{2}=\frac{1}{4}\pi a^{2}$; the top face of the cylinder (i.e. the cross-section circle) has area $\pi\left(\frac{a}{4}\right)^{2}=\frac{1}{16}\pi a^{2}$.
+
+Hence the surface area of the remaining solid is
+
+$$
+S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{\left(\sqrt{5}+2\right)\pi a^{2}}{4}.
+$$
+
+Volume: the cone volume is $\frac{1}{3}\pi\left(\frac{a}{2}\right)^{2}\cdot a=\frac{\pi a^{3}}{12}$, and the hollowed cylinder volume is $\pi\left(\frac{a}{4}\right)^{2}\cdot\frac{a}{2}=\frac{\pi a^{3}}{32}$.
+
+Hence the volume of the remaining solid is $V=\frac{\pi a^{3}}{12}-\frac{\pi a^{3}}{32}=\frac{5\pi a^{3}}{96}$. $\blacksquare$
 
 ## Problem 13
 
-(Review Reference Problem 4, Extension and Exploration, Problem 13) The graph of the function $y=f\left(x\right)$ consists of the curve segment $OA$ and the line segment $AB$, where $O\left(0,0\right)$, $A\left(2,3\right)$, $B\left(5,0\right)$.
-
-(1) Write an analytic expression for the function $y=f\left(x\right)$;
-
-(2) Pose a practical problem that satisfies the variation pattern of the graph of the function $y=f\left(x\right)$.
+(Exercise 8.3, Review and Consolidation, Problem 5) The vertices of a cube all lie on a sphere, and its edge is $a\text{ cm}$. Find the volume of the sphere.
 
 ### Solution to Problem 13
 
-By **Common Conclusion 4.4.4** (Differences in Growth of Different Functions).
+By **Definition 8.3.12 (Volume of a Sphere)**, the diameter of the circumsphere of the cube equals the space diagonal of the cube.
 
-(1) The curve segment $OA$ may be set as the quadratic function $y=\frac{3}{4}x^2$ ($0\le x\le 2$); the line segment $AB$ passes through $\left(2,3\right)$ and $\left(5,0\right)$, with slope $-1$, and its equation is $y=-x+5$ ($2< x\le 5$). Hence $f\left(x\right)=\begin{cases}\frac{3}{4}x^2, & 0\le x\le 2,\\ -x+5, & 2< x\le 5.\end{cases}$
+The cube has edge $a$ and space diagonal $\sqrt{3}a$, so the circumsphere radius is $R=\frac{\sqrt{3}}{2}a$.
 
-(2) A practical problem: for example, an object first undergoes accelerated motion to reach its highest point, then undergoes uniform decelerated motion to return to its initial position. $\blacksquare$
+The volume of the sphere is $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\left(\frac{\sqrt{3}}{2}a\right)^{3}=\frac{\sqrt{3}}{2}\pi a^{3}\text{ cm}^{3}$. $\blacksquare$
+
+## Problem 14
+
+(Exercise 8.3, Comprehensive Application, Problem 6) As shown in the figure is a pictorial drawing of a chimney (the units in the figure are centimeters); its lower part is a regular square frustum and its upper part is a regular square prism (whose base coincides with the upper base of the frustum). To prevent rain erosion and make the chimney more attractive, tiles are to be glued on its exterior. Calculate how many square centimeters of tiles are needed. (Round to $1\text{ cm}^{2}$; a calculator may be used.)
+
+(The lower frustum has lower base side $50$, upper base side $40$, and height $10$; the upper prism has base side $40$ and height $70$.)
+
+The figure: a pictorial drawing of a chimney—the lower part is a regular square frustum (lower base side $50\text{ cm}$, upper base side $40\text{ cm}$, height $10\text{ cm}$), and the upper part is a regular square prism (base side $40\text{ cm}$, height $70\text{ cm}$), joined at their bases.
+
+### Solution to Problem 14
+
+By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the tiled area is the sum of all exposed exterior faces; the bottom face, which touches the ground, is not counted.
+
+Prism part: the four lateral faces total $4\times 40\times 70=11200\text{ cm}^{2}$, and the upper base is $40\times 40=1600\text{ cm}^{2}$.
+
+Frustum part: the upper and lower base sides are $40$ and $50$, and the height is $10$. The height (slant height) of each isosceles trapezoidal lateral face is
+
+$$
+h_{\text{斜}}=\sqrt{10^{2}+\left(\frac{50-40}{2}\right)^{2}}=\sqrt{125}=5\sqrt{5}.
+$$
+
+The four lateral faces total $4\times\frac{40+50}{2}\times 5\sqrt{5}=900\sqrt{5}\text{ cm}^{2}$. The upper base of the frustum is covered by the prism and the lower base touches the ground; neither is counted.
+
+Hence the total area is $11200+1600+900\sqrt{5}=12800+900\sqrt{5}\approx 12800+2012=14812\text{ cm}^{2}$. $\blacksquare$

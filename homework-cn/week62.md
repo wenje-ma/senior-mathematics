@@ -1,648 +1,498 @@
 # week62
-> **定义 2.2.1 (点斜式方程)**
+> **定义 5.1.2 (导数)**
 > 
-> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
-> **定义 2.2.2 (斜截式方程)**
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **定义 5.1.3 (1 弧度的角)**
 > 
-> 由直线的斜率 k 及其在 y 轴上的截距 b 确定的方程 y = kx + b, 叫做直线的斜截式方程.
-> **定义 2.2.6 (一般式方程)**
+> 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **定义 5.2.2 (导数的四则运算法则)**
 > 
-> 关于 $x,y$ 的二元一次方程 $Ax+By+C=0$ (其中 $A,B$ 不同时为 $0$) 叫做直线的一般式方程, 简称一般式.
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.3.1 (函数的单调性与导数的正负)**
+> 
+> 在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+> **定义 5.3.2 (函数的极值)**
+> 
+> 如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+> **定义 5.3.3 (求函数极值的方法)**
+> 
+> 解方程 f'(x) = 0. 当 f'(x0) = 0 时: 若 x < x0 时 f'(x) > 0, x > x0 时 f'(x) < 0, 则 f(x0) 是极大值; 反之是极小值.
+> **定义 5.3.4 (闭区间上的最大 (小)**
+> 
+> 在闭区间 [a, b] 上连续的函数 f(x) 在 [a, b] 上必有最大值与最小值, 只需比较极值与端点值.
 
 ## 练习一
 
-(练习 2.3 第 1 题) 求下列两条直线的交点坐标, 并画出图形:
+(练习 5.3 第 3 题) 函数 $y=f\left(x\right)$ 的图象如图所示, 试画出函数 $y=f'\left(x\right)$ 在区间 $\left(0,b\right)$ 内图象的大致形状.
 
-(1) $l_1:2x+3y=12$, $l_2:x-2y=4$;
-
-(2) $l_1:x=2$, $l_2:3x+2y-12=0$.
-
-该图在平面直角坐标系中画出两组相交直线:(1) 直线 $l_1:2x+3y=12$ 与 $l_2:x-2y=4$ 交于点 $\left(\frac{36}{7},\frac{4}{7}\right)$;(2) 竖直线 $l_1:x=2$ 与直线 $l_2:3x+2y-12=0$ 交于点 $\left(2,3\right)$.
+该图为函数 $y=f\left(x\right)$ 在区间 $\left(0,b\right)$ 内的图象:从 $x=0$ 处上升,在 $\left(0,a\right)$ 内上升越来越平缓(切线斜率为正且逐渐减小),在 $x=a$ 处到达最高点(切线水平),随后在 $\left(a,b\right)$ 内下降.
 
 ### 解答 练习一
 
-由**常用结论 2.3.1** (两条直线的交点坐标), 交点坐标即方程组的解.
+由**定义 5.1.3 (1 弧度的角)**, $f'\left(x\right)$ 等于原函数图象在各点处切线的斜率.
 
-(1) 解方程组
+由原函数图象, 在 $\left(0,a\right)$ 内曲线上升且切线斜率为正并逐渐减小, 故 $f'\left(x\right)> 0$ 且逐渐下降; 在 $x=a$ 处切线水平, $f'\left(a\right)=0$; 在 $\left(a,b\right)$ 内曲线下降, 切线斜率为负.
 
-$$
-\begin{cases}2x+3y=12,\\x-2y=4.\end{cases}
-$$
-
-由第二式得 $x=4+2y$, 代入第一式, 得 $2\left(4+2y\right)+3y=12$, 即 $8+7y=12$, 故 $y=\frac{4}{7}$. 代回得 $x=4+\frac{8}{7}=\frac{36}{7}$. 交点坐标为 $\left(\frac{36}{7},\frac{4}{7}\right)$.
-
-(2) 解方程组
-
-$$
-\begin{cases}x=2,\\3x+2y-12=0.\end{cases}
-$$
-
-将 $x=2$ 代入第二式, 得 $6+2y-12=0$, 故 $y=3$. 交点坐标为 $\left(2,3\right)$. $\blacksquare$
+故 $y=f'\left(x\right)$ 在 $\left(0,b\right)$ 内从正值逐渐下降, 穿过 $x$ 轴于 $x=a$ 处, 再变为负值. $\blacksquare$
 
 ## 练习二
 
-(练习 2.3 第 2 题) 判断下列各对直线的位置关系. 如果相交, 求出交点的坐标:
+(练习 5.3 第 4 题) 判断下列函数的单调性, 并求出单调区间: 
 
-(1) $l_1:2x-3y=7$, $l_2:4x+2y=1$;
+(1) $f\left(x\right)=3x-x^{3}$;
 
-(2) $l_1:2x-6y+4=0$, $l_2:y=\frac{x}{3}+\frac{2}{3}$;
-
-(3) $l_1:\left(\sqrt 2-1\right)x+y=3$, $l_2:x+\left(\sqrt 2+1\right)y=2$.
+(2) $f\left(x\right)=x^{3}-x^{2}-x$.
 
 ### 解答 练习二
 
-由**常用结论 2.3.1** (两条直线的交点坐标).
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
-(1) 解方程组
+(1) $f'\left(x\right)=3-3x^{2}=3\left(1-x^{2}\right)=3\left(1-x\right)\left(1+x\right)$. 令 $f'\left(x\right)=0$, 得 $x=\pm1$.
 
-$$
-\begin{cases}2x-3y=7,\\4x+2y=1.\end{cases}
-$$
+当 $x< -1$ 时 $f'\left(x\right)< 0$; 当 $-1< x< 1$ 时 $f'\left(x\right)> 0$; 当 $x> 1$ 时 $f'\left(x\right)< 0$.
 
-第一式乘 $2$ 减第二式, 得 $-8y=13$, 故 $y=-\frac{13}{8}$. 代入第一式, 得 $2x+\frac{39}{8}=7$, 即 $2x=\frac{17}{8}$, 故 $x=\frac{17}{16}$. 方程组有唯一解, 故 $l_1$ 与 $l_2$ 相交, 交点为 $\left(\frac{17}{16},-\frac{13}{8}\right)$.
+故 $f\left(x\right)$ 在 $\left(-\infty,-1\right)$ 与 $\left(1,+\infty\right)$ 内单调递减, 在 $\left(-1,1\right)$ 内单调递增.
 
-(2) $l_2:y=\frac{x}{3}+\frac{2}{3}$ 即 $x-3y+2=0$, 即 $2x-6y+4=0$, 与 $l_1$ 为同一方程, 故 $l_1$ 与 $l_2$ 重合.
+(2) $f'\left(x\right)=3x^{2}-2x-1=\left(3x+1\right)\left(x-1\right)$. 令 $f'\left(x\right)=0$, 得 $x=-\frac{1}{3}$ 或 $x=1$.
 
-(3) 解方程组
+当 $x< -\frac{1}{3}$ 时 $f'\left(x\right)> 0$; 当 $-\frac{1}{3}< x< 1$ 时 $f'\left(x\right)< 0$; 当 $x> 1$ 时 $f'\left(x\right)> 0$.
 
-$$
-\begin{cases}\left(\sqrt 2-1\right)x+y=3,\\x+\left(\sqrt 2+1\right)y=2.\end{cases}
-$$
-
-由第一式得 $y=3-\left(\sqrt 2-1\right)x$, 代入第二式, 得 $x+\left(\sqrt 2+1\right)\left[3-\left(\sqrt 2-1\right)x\right]=2$, 即 $x+3\left(\sqrt 2+1\right)-\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)x=2$. 因为 $\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)=1$, 故 $x+3\sqrt 2+3-x=2$, 即 $3\sqrt 2+3=2$, 矛盾. 方程组无解, 故 $l_1\parallel l_2$. $\blacksquare$
+故 $f\left(x\right)$ 在 $\left(-\infty,-\frac{1}{3}\right)$ 与 $\left(1,+\infty\right)$ 内单调递增, 在 $\left(-\frac{1}{3},1\right)$ 内单调递减. $\blacksquare$
 
 ## 练习三
 
-(练习 2.3 第 3 题) 直线 $l$ 经过原点, 且经过直线 $2x-2y-1=0$ 与直线 $6x-4y+1=0$ 的交点, 求直线 $l$ 的方程.
+(练习 5.3 第 5 题) 证明函数 $f\left(x\right)=2x^{3}-6x^{2}+7$ 在区间 $\left(0,2\right)$ 内单调递减.
 
 ### 解答 练习三
 
-由**常用结论 2.3.1** (两条直线的交点坐标), 先求两直线的交点.
-
-解方程组
+由**定义 5.3.1 (函数的单调性与导数的正负)**, 只需证明在 $\left(0,2\right)$ 内 $f'\left(x\right)< 0$.
 
 $$
-\begin{cases}2x-2y-1=0,\\6x-4y+1=0.\end{cases}
+f'\left(x\right)=6x^{2}-12x=6x\left(x-2\right).
 $$
 
-第一式乘 $2$ 减第二式, 得 $-2x-3=0$, 故 $x=-\frac{3}{2}$. 代入第一式, 得 $-3-2y-1=0$, 故 $y=-2$. 交点为 $\left(-\frac{3}{2},-2\right)$.
+当 $x\in\left(0,2\right)$ 时, $x> 0$ 且 $x-2< 0$, 故 $f'\left(x\right)=6x\left(x-2\right)< 0$.
 
-直线 $l$ 经过原点 $\left(0,0\right)$ 和交点 $\left(-\frac{3}{2},-2\right)$. 由**常用结论 2.1.3** (斜率公式), $k=\frac{-2-0}{-\frac{3}{2}-0}=\frac{4}{3}$. 由**定义 2.2.2 (斜截式方程)**, 得 $y=\frac{4}{3}x$, 即 $4x-3y=0$. $\blacksquare$
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f\left(x\right)$ 在 $\left(0,2\right)$ 内单调递减. $\blacksquare$
 
 ## 练习四
 
-(练习 2.3 第 4 题) 求下列两点间的距离:
+(练习 5.3 第 6 题) 函数 $y=f'\left(x\right)$ 的图象如图所示, 试画出函数 $y=f\left(x\right)$ 图象的大致形状.
 
-(1) $A\left(6,0\right)$, $B\left(-2,0\right)$;
-
-(2) $C\left(0,-4\right)$, $D\left(0,-1\right)$;
-
-(3) $P\left(6,0\right)$, $Q\left(0,-2\right)$;
-
-(4) $M\left(2,1\right)$, $N\left(5,-1\right)$.
+该图为导函数 $y=f'\left(x\right)$ 的图象:在 $\left(0,a\right)$ 内位于 $x$ 轴上方($f'\left(x\right)> 0$),在 $x=a$ 处穿过 $x$ 轴,在 $\left(a,b\right)$ 内位于 $x$ 轴下方($f'\left(x\right)< 0$),在 $x=b$ 处再次穿过 $x$ 轴,在 $\left(b,c\right)$ 内又位于 $x$ 轴上方.
 
 ### 解答 练习四
 
-由**常用结论 2.3.2** (两点间距离公式), $\left|P_1P_2\right|=\sqrt{\left(x_2-x_1\right)^2+\left(y_2-y_1\right)^2}$.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f'\left(x\right)$ 的正负决定 $f\left(x\right)$ 的增减.
 
-(1) $\left|AB\right|=\sqrt{\left(-2-6\right)^2+\left(0-0\right)^2}=\sqrt{64}=8$.
+由导函数图象, 在 $\left(0,a\right)$ 内 $f'\left(x\right)> 0$, 故 $f\left(x\right)$ 单调递增; 在 $x=a$ 处 $f'\left(x\right)=0$; 在 $\left(a,b\right)$ 内 $f'\left(x\right)< 0$, 故 $f\left(x\right)$ 单调递减; 在 $x=b$ 处 $f'\left(x\right)=0$; 在 $\left(b,c\right)$ 内 $f'\left(x\right)> 0$, 故 $f\left(x\right)$ 单调递增.
 
-(2) $\left|CD\right|=\sqrt{\left(0-0\right)^2+\left(-1-\left(-4\right)\right)^2}=\sqrt{9}=3$.
-
-(3) $\left|PQ\right|=\sqrt{\left(0-6\right)^2+\left(-2-0\right)^2}=\sqrt{36+4}=\sqrt{40}=2\sqrt{10}$.
-
-(4) $\left|MN\right|=\sqrt{\left(5-2\right)^2+\left(-1-1\right)^2}=\sqrt{9+4}=\sqrt{13}$. $\blacksquare$
+故 $y=f\left(x\right)$ 的图象先升, 再降, 再升, 在 $x=a$ 处取极大值, 在 $x=b$ 处取极小值. $\blacksquare$
 
 ## 练习五
 
-(练习 2.3 第 5 题) 已知 $A\left(a,-5\right)$ 与 $B\left(0,10\right)$ 两点间的距离是 $17$, 求 $a$ 的值.
+(练习 5.3 第 7 题) 函数 $f\left(x\right)$ 的导函数 $y=f'\left(x\right)$ 的图象如图所示, 试找出函数 $f\left(x\right)$ 的极值点, 并指出哪些是极大值点, 哪些是极小值点.
+
+该图为导函数 $y=f'\left(x\right)$ 的图象:一条连续曲线,与 $x$ 轴交于 $x_{2},x_{4},x_{6}$ 三处,图中还标出了 $x_{1},x_{3},x_{5}$ 三个点(位于曲线不穿过 $x$ 轴处);曲线在 $x_{2}$ 处由负变正,在 $x_{4}$ 处由正变负,在 $x_{6}$ 处由负变正.
 
 ### 解答 练习五
 
-由**常用结论 2.3.2** (两点间距离公式),
+由**定义 5.3.2 (函数的极值)** 与**定义 5.3.3 (求函数极值的方法)**, 极值点是 $f'\left(x\right)=0$ 且两侧导数变号的点.
 
-$$
-\left|AB\right|=\sqrt{\left(0-a\right)^2+\left(10-\left(-5\right)\right)^2}=\sqrt{a^2+225}=17.
-$$
+由导函数图象, $f'\left(x\right)$ 与 $x$ 轴交于 $x_{2},x_{4},x_{6}$ 等处.
 
-两边平方, 得 $a^2+225=289$, 即 $a^2=64$, 故 $a=\pm8$. $\blacksquare$
+在 $x_{2}$ 处, 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 故 $x_{2}$ 是极小值点.
+
+在 $x_{4}$ 处, 左侧 $f'\left(x\right)> 0$, 右侧 $f'\left(x\right)< 0$, 故 $x_{4}$ 是极大值点.
+
+在 $x_{6}$ 处, 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 故 $x_{6}$ 是极小值点.
+
+$x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 ## 练习六
 
-(练习 2.3 第 6 题) 用坐标法证明: 直角三角形斜边的中点到三个顶点的距离相等.
+(练习 5.3 第 8 题) 求下列函数的极值: 
+
+(1) $f\left(x\right)=6x^{2}-x-2$;
+
+(2) $f\left(x\right)=x^{3}-27x$;
+
+(3) $f\left(x\right)=6+12x-x^{3}$;
+
+(4) $f\left(x\right)=3x-x^{3}$.
 
 ### 解答 练习六
 
-由**常用结论 2.3.2** (两点间距离公式), 先建立坐标系.
+由**定义 5.3.3 (求函数极值的方法)**.
 
-设直角三角形 $ABC$ 的直角顶点在原点 $O$, 两直角边分别在 $x$ 轴和 $y$ 轴上, 则 $A\left(a,0\right)$, $B\left(0,b\right)$, $O\left(0,0\right)$.
+(1) $f'\left(x\right)=12x-1$, 令 $f'\left(x\right)=0$, 得 $x=\frac{1}{12}$. 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 故极小值为 $f\left(\frac{1}{12}\right)=6\cdot\frac{1}{144}-\frac{1}{12}-2=-\frac{49}{24}$.
 
-斜边 $AB$ 的中点为 $M\left(\frac{a}{2},\frac{b}{2}\right)$.
+(2) $f'\left(x\right)=3x^{2}-27=3\left(x^{2}-9\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm3$. 在 $x=-3$ 处左正右负, 极大值 $f\left(-3\right)=54$; 在 $x=3$ 处左负右正, 极小值 $f\left(3\right)=-54$.
 
-由距离公式,
+(3) $f'\left(x\right)=12-3x^{2}=3\left(4-x^{2}\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm2$. 在 $x=-2$ 处左负右正, 极小值 $f\left(-2\right)=6-24+8=-10$; 在 $x=2$ 处左正右负, 极大值 $f\left(2\right)=6+24-8=22$.
 
-$$
-\left|MA\right|=\sqrt{\left(a-\frac{a}{2}\right)^2+\left(0-\frac{b}{2}\right)^2}=\sqrt{\frac{a^2}{4}+\frac{b^2}{4}}=\frac{1}{2}\sqrt{a^2+b^2},
-$$
-
-$$
-\left|MB\right|=\sqrt{\left(0-\frac{a}{2}\right)^2+\left(b-\frac{b}{2}\right)^2}=\sqrt{\frac{a^2}{4}+\frac{b^2}{4}}=\frac{1}{2}\sqrt{a^2+b^2},
-$$
-
-$$
-\left|MO\right|=\sqrt{\left(0-\frac{a}{2}\right)^2+\left(0-\frac{b}{2}\right)^2}=\sqrt{\frac{a^2}{4}+\frac{b^2}{4}}=\frac{1}{2}\sqrt{a^2+b^2}.
-$$
-
-故 $\left|MA\right|=\left|MB\right|=\left|MO\right|$, 即斜边中点到三个顶点的距离相等. $\blacksquare$
+(4) $f'\left(x\right)=3-3x^{2}=3\left(1-x^{2}\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm1$. 在 $x=-1$ 处左负右正, 极小值 $f\left(-1\right)=-2$; 在 $x=1$ 处左正右负, 极大值 $f\left(1\right)=2$. $\blacksquare$
 
 ## 练习七
 
-(练习 2.3 第 7 题) 求原点到下列直线的距离:
+(练习 5.3 第 9 题) 参考求函数极值的练习, 求下列函数在给定区间上的最大值与最小值: 
 
-(1) $l:3x+2y-26=0$;
+(1) $f\left(x\right)=6x^{2}-x-2$, $x\in\left[0,2\right]$;
 
-(2) $l:x=y$.
+(2) $f\left(x\right)=x^{3}-27x$, $x\in\left[-4,4\right]$;
+
+(3) $f\left(x\right)=6+12x-x^{3}$, $x\in\left[-\frac{1}{3},3\right]$;
+
+(4) $f\left(x\right)=3x-x^{3}$, $x\in\left[2,3\right]$.
 
 ### 解答 练习七
 
-由**常用结论 2.3.3** (点到直线的距离公式), 原点为 $\left(0,0\right)$.
+由**定义 5.3.4 (闭区间上的最大 (小)** 值).
 
-(1) $d=\frac{\left|3\cdot0+2\cdot0-26\right|}{\sqrt{3^2+2^2}}=\frac{26}{\sqrt{13}}=2\sqrt{13}$.
+(1) $f'\left(x\right)=12x-1$, 在 $\left(0,2\right)$ 内零点为 $x=\frac{1}{12}$. 比较 $f\left(0\right)=-2$, $f\left(\frac{1}{12}\right)=-\frac{49}{24}$, $f\left(2\right)=20$. 故最大值为 $20$, 最小值为 $-\frac{49}{24}$.
 
-(2) 直线 $x=y$ 即 $x-y=0$, $d=\frac{\left|0-0\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{0}{\sqrt 2}=0$. $\blacksquare$
+(2) $f'\left(x\right)=3x^{2}-27$, 在 $\left(-4,4\right)$ 内零点为 $x=\pm3$. 比较 $f\left(-4\right)=76$, $f\left(-3\right)=54$, $f\left(3\right)=-54$, $f\left(4\right)=76$. 故最大值为 $76$, 最小值为 $-54$.
+
+(3) $f'\left(x\right)=12-3x^{2}$, 在 $\left(-\frac{1}{3},3\right)$ 内零点为 $x=2$. 比较 $f\left(-\frac{1}{3}\right)=6-4+\frac{1}{27}=\frac{55}{27}$, $f\left(2\right)=22$, $f\left(3\right)=6+36-27=15$. 故最大值为 $22$, 最小值为 $\frac{55}{27}$.
+
+(4) $f'\left(x\right)=3-3x^{2}$, 在 $\left(2,3\right)$ 内无零点 ($f'\left(x\right)< 0$). 比较 $f\left(2\right)=-2$, $f\left(3\right)=-18$. 故最大值为 $-2$, 最小值为 $-18$. $\blacksquare$
 
 ## 练习八
 
-(练习 2.3 第 8 题) 求下列点到直线的距离:
-
-(1) $A\left(-2,3\right)$, $l:3x+4y+3=0$;
-
-(2) $B\left(1,0\right)$, $l:\sqrt 3x+y-\sqrt 3=0$;
-
-(3) $C\left(1,-2\right)$, $l:4x+3y=0$.
+(练习 5.3 第 10 题) 证明不等式: $x-1\ge\ln x$, $x\in\left(0,+\infty\right)$.
 
 ### 解答 练习八
 
-由**常用结论 2.3.3** (点到直线的距离公式).
+设 $s\left(x\right)=x-1-\ln x$, 则 $s'\left(x\right)=1-\frac{1}{x}=\frac{x-1}{x}$.
 
-(1) $d=\frac{\left|3\cdot\left(-2\right)+4\cdot3+3\right|}{\sqrt{3^2+4^2}}=\frac{\left|-6+12+3\right|}{5}=\frac{9}{5}$.
+令 $s'\left(x\right)=0$, 解得 $x=1$.
 
-(2) $d=\frac{\left|\sqrt 3\cdot1+1\cdot0-\sqrt 3\right|}{\sqrt{\left(\sqrt 3\right)^2+1^2}}=\frac{\left|\sqrt 3-\sqrt 3\right|}{\sqrt 4}=\frac{0}{2}=0$.
+当 $0< x< 1$ 时 $s'\left(x\right)< 0$; 当 $x> 1$ 时 $s'\left(x\right)> 0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,1\right)$ 内递减, 在 $\left(1,+\infty\right)$ 内递增, 故 $x=1$ 是最小值点.
 
-(3) $d=\frac{\left|4\cdot1+3\cdot\left(-2\right)\right|}{\sqrt{4^2+3^2}}=\frac{\left|4-6\right|}{5}=\frac{2}{5}$. $\blacksquare$
+最小值为 $s\left(1\right)=0$. 故 $s\left(x\right)\ge s\left(1\right)=0$, 即 $x-1-\ln x\ge0$, 亦即 $x-1\ge\ln x$. $\blacksquare$
 
 ## 练习九
 
-(练习 2.3 第 9 题) 已知点 $P\left(-1,2\right)$ 到直线 $l:4x-3y+C=0$ 的距离为 $1$, 求 $C$ 的值.
+(练习 5.3 第 11 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: $\sin x< x$, $x\in\left(0,\pi\right)$.
+
+该图为在区间 $\left(0,\pi\right)$ 内的两条曲线:一条是直线 $y=x$,另一条是正弦曲线 $y=\sin x$;在 $\left(0,\pi\right)$ 内 $y=\sin x$ 始终位于 $y=x$ 下方(仅在原点处二者重合),直观显示 $\sin x< x$.
 
 ### 解答 练习九
 
-由**常用结论 2.3.3** (点到直线的距离公式),
+设 $s\left(x\right)=x-\sin x$, 则 $s'\left(x\right)=1-\cos x$.
 
-$$
-d=\frac{\left|4\cdot\left(-1\right)-3\cdot2+C\right|}{\sqrt{4^2+\left(-3\right)^2}}=\frac{\left|C-10\right|}{5}=1.
-$$
+当 $x\in\left(0,\pi\right)$ 时, $\cos x< 1$, 故 $s'\left(x\right)=1-\cos x> 0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,\pi\right)$ 内单调递增.
 
-故 $\left|C-10\right|=5$, 即 $C-10=5$ 或 $C-10=-5$, 故 $C=15$ 或 $C=5$. $\blacksquare$
+又 $s\left(0\right)=0$, 故当 $x\in\left(0,\pi\right)$ 时 $s\left(x\right)> s\left(0\right)=0$, 即 $x-\sin x> 0$, 亦即 $\sin x< x$. $\blacksquare$
 
 ## 练习十
 
-(练习 2.3 第 10 题) 求下列两条平行直线间的距离:
+(练习 5.3 第 12 题) 如图, 用铁丝围成一个上面是半圆, 下面是矩形的图形, 其面积为 $a\ \mathrm{m^{2}}$. 为使所用材料最省, 圆的直径应为多少? 
 
-(1) $l_1:2x+3y-8=0$, $l_2:2x+3y+18=0$;
-
-(2) $l_1:3x+4y=10$, $l_2:3x+4y=0$.
+该图为铁丝围成的图形:上方是一个半圆(直径水平,向上凸),下方接一个矩形(矩形的上边即半圆的直径,矩形向下延伸),整体由一条连续铁丝围成,总面积为 $a\ \mathrm{m^{2}}$.
 
 ### 解答 练习十
 
-由**常用结论 2.3.4** (两条平行直线间的距离).
+设圆的直径为 $x$, 则半圆半径为 $\frac{x}{2}$. 设矩形的高为 $h$.
 
-(1) $d=\frac{\left|-8-18\right|}{\sqrt{2^2+3^2}}=\frac{26}{\sqrt{13}}=2\sqrt{13}$.
+面积为 $a=\frac{1}{2}\pi\left(\frac{x}{2}\right)^{2}+xh=\frac{\pi x^{2}}{8}+xh$, 故 $h=\frac{a}{x}-\frac{\pi x}{8}$.
 
-(2) $l_1:3x+4y-10=0$, $l_2:3x+4y=0$, $d=\frac{\left|-10-0\right|}{\sqrt{3^2+4^2}}=\frac{10}{5}=2$. $\blacksquare$
-
-## 练习十一
-
-(练习 2.3 第 11 题) 已知两条平行直线 $l_1:3x-4y+6=0$ 与 $l_2:3x-4y+C=0$ 间的距离为 $3$, 求 $C$ 的值.
-
-### 解答 练习十一
-
-由**常用结论 2.3.4** (两条平行直线间的距离),
+所用材料总长 (铁丝长) 为
 
 $$
-d=\frac{\left|6-C\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|6-C\right|}{5}=3.
+L=\frac{\pi x}{2}+x+2h=\frac{\pi x}{2}+x+2\left(\frac{a}{x}-\frac{\pi x}{8}\right)=\frac{\pi x}{4}+x+\frac{2a}{x}.
 $$
 
-故 $\left|6-C\right|=15$, 即 $6-C=15$ 或 $6-C=-15$, 故 $C=-9$ 或 $C=21$. $\blacksquare$
+求导, $L'\left(x\right)=\frac{\pi}{4}+1-\frac{2a}{x^{2}}$. 令 $L'\left(x\right)=0$, 得 $x^{2}=\frac{2a}{1+\frac{\pi}{4}}=\frac{8a}{4+\pi}$.
 
-## 练习十二
+当 $x$ 小于此值时 $L'\left(x\right)< 0$, 当 $x$ 大于此值时 $L'\left(x\right)> 0$, 故此点为最小值点.
 
-(练习 2.3 第 12 题) 如图, 已知直线 $l_1:x-2y+1=0$ 与直线 $l_2:x-2y+4=0$, 在 $l_1$ 上任取一点 $A$, 在 $l_2$ 上任取一点 $B$, 连接 $AB$, 取 $AB$ 的靠近点 $A$ 的三等分点 $C$, 过点 $C$ 作 $l_1$ 的平行线 $l_3$. 求 $l_1$ 与 $l_3$ 间的距离.
-
-该图在平面直角坐标系中画出两条平行直线 $l_1:x-2y+1=0$ 与 $l_2:x-2y+4=0$:在 $l_1$ 上取点 $A$,在 $l_2$ 上取点 $B$,连接线段 $AB$;$C$ 为 $AB$ 上靠近 $A$ 的三等分点($AC=\frac{1}{3}AB$),过 $C$ 作与 $l_1$ 平行的直线 $l_3$.
-
-### 解答 练习十二
-
-由**常用结论 2.3.4** (两条平行直线间的距离), 先求 $l_1$ 与 $l_2$ 间的距离.
-
-$$
-d_{12}=\frac{\left|1-4\right|}{\sqrt{1^2+\left(-2\right)^2}}=\frac{3}{\sqrt 5}.
-$$
-
-点 $C$ 是 $AB$ 的靠近点 $A$ 的三等分点, 即 $AC=\frac{1}{3}AB$. $l_1$ 与 $l_3$ 间的距离为 $l_1$ 与 $l_2$ 间距离的 $\frac{1}{3}$, 即
-
-$$
-d_{13}=\frac{1}{3}d_{12}=\frac{1}{\sqrt 5}=\frac{\sqrt 5}{5}.
-$$
-
-$\blacksquare$
+故当圆的直径为 $x=\sqrt{\frac{8a}{4+\pi}}\ \mathrm{m}$ 时, 所用材料最省. $\blacksquare$
 
 ## 习题一
 
-(习题 2.3 复习巩固第 1 题) 判断下列各对直线的位置关系. 如果相交, 求出交点的坐标:
+(习题 5.3 复习巩固第 1 题) 判断下列函数的单调性, 并求出单调区间: 
 
-(1) $l_1:2x-y+7=0$, $l_2:x+y=1$;
+(1) $f\left(x\right)=-2x+1$;
 
-(2) $l_1:x-3y-10=0$, $l_2:y=\frac{x+5}{3}$;
+(2) $f\left(x\right)=x+\cos x$, $x\in\left(0,\frac{\pi}{2}\right)$;
 
-(3) $l_1:3x-5y+10=0$, $l_2:9x-15y+30=0$.
+(3) $f\left(x\right)=2x-4$;
+
+(4) $f\left(x\right)=2x^{3}+4x$.
 
 ### 解答 习题一
 
-由**常用结论 2.3.1** (两条直线的交点坐标).
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
-(1) 解方程组
+(1) $f'\left(x\right)=-2< 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递减.
 
-$$
-\begin{cases}2x-y+7=0,\\x+y=1.\end{cases}
-$$
+(2) $f'\left(x\right)=1-\sin x$. 当 $x\in\left(0,\frac{\pi}{2}\right)$ 时 $0< \sin x< 1$, 故 $f'\left(x\right)> 0$. 故 $f\left(x\right)$ 在 $\left(0,\frac{\pi}{2}\right)$ 内单调递增.
 
-两式相加, 得 $3x+7=1$, 即 $x=-2$. 代入第二式, 得 $y=3$. 有唯一解, 故相交, 交点为 $\left(-2,3\right)$.
+(3) $f'\left(x\right)=2> 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递增.
 
-(2) $l_2:y=\frac{x+5}{3}$ 即 $x-3y+5=0$, 即 $x-3y-10=0$ 与 $l_1$ 比较: 由 $l_2$ 得 $x-3y=-5$, 而 $l_1$ 为 $x-3y=10$, 两方程矛盾, 无解. 故 $l_1\parallel l_2$.
-
-(3) $l_2:9x-15y+30=0$ 即 $3x-5y+10=0$, 与 $l_1$ 为同一方程, 故 $l_1$ 与 $l_2$ 重合. $\blacksquare$
+(4) $f'\left(x\right)=6x^{2}+4> 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递增. $\blacksquare$
 
 ## 习题二
 
-(习题 2.3 复习巩固第 2 题) 求满足下列条件的直线 $l$ 的方程:
+(习题 5.3 复习巩固第 2 题) 判断下列函数的单调性, 并求出单调区间: 
 
-(1) 经过两条直线 $2x-3y+10=0$ 和 $3x+4y-2=0$ 的交点, 且垂直于直线 $3x-2y+4=0$;
+(1) $f\left(x\right)=x^{2}+2x-4$;
 
-(2) 经过两条直线 $2x+y-8=0$ 和 $x-2y+1=0$ 的交点, 且平行于直线 $4x-3y-7=0$.
+(2) $f\left(x\right)=2x^{2}-3x+3$;
+
+(3) $f\left(x\right)=3x+x^{3}$;
+
+(4) $f\left(x\right)=x^{3}+x^{2}-x$.
 
 ### 解答 习题二
 
-(1) 先求交点. 解方程组
+由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
-$$
-\begin{cases}2x-3y+10=0,\\3x+4y-2=0.\end{cases}
-$$
+(1) $f'\left(x\right)=2x+2=2\left(x+1\right)$. 令 $f'\left(x\right)=0$, 得 $x=-1$. 故在 $\left(-\infty,-1\right)$ 内递减, 在 $\left(-1,+\infty\right)$ 内递增.
 
-第一式乘 $4$ 加第二式乘 $3$, 得 $17x+34=0$, 故 $x=-2$. 代入第一式, 得 $-4-3y+10=0$, 故 $y=2$. 交点为 $\left(-2,2\right)$.
+(2) $f'\left(x\right)=4x-3$. 令 $f'\left(x\right)=0$, 得 $x=\frac{3}{4}$. 故在 $\left(-\infty,\frac{3}{4}\right)$ 内递减, 在 $\left(\frac{3}{4},+\infty\right)$ 内递增.
 
-直线 $3x-2y+4=0$ 即 $y=\frac{3}{2}x+2$, 斜率为 $\frac{3}{2}$. 由**常用结论 2.1.6** (两条直线垂直), 所求直线斜率为 $-\frac{2}{3}$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $\left(-2,2\right)$, 得 $y-2=-\frac{2}{3}\left(x+2\right)$, 即 $2x+3y-2=0$.
+(3) $f'\left(x\right)=3+3x^{2}> 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递增.
 
-(2) 先求交点. 解方程组
-
-$$
-\begin{cases}2x+y-8=0,\\x-2y+1=0.\end{cases}
-$$
-
-由第一式得 $y=8-2x$, 代入第二式, 得 $x-2\left(8-2x\right)+1=0$, 即 $5x-15=0$, 故 $x=3$. 代回得 $y=2$. 交点为 $\left(3,2\right)$.
-
-直线 $4x-3y-7=0$ 即 $y=\frac{4}{3}x-\frac{7}{3}$, 斜率为 $\frac{4}{3}$. 由**常用结论 2.1.5** (两条直线平行), 所求直线斜率也为 $\frac{4}{3}$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $\left(3,2\right)$, 得 $y-2=\frac{4}{3}\left(x-3\right)$, 即 $4x-3y-6=0$. $\blacksquare$
+(4) $f'\left(x\right)=3x^{2}+2x-1=\left(3x-1\right)\left(x+1\right)$. 令 $f'\left(x\right)=0$, 得 $x=-1$ 或 $x=\frac{1}{3}$. 故在 $\left(-\infty,-1\right)$ 与 $\left(\frac{1}{3},+\infty\right)$ 内递增, 在 $\left(-1,\frac{1}{3}\right)$ 内递减. $\blacksquare$
 
 ## 习题三
 
-(习题 2.3 复习巩固第 3 题) 已知 $A\left(1,2\right)$, $B\left(2,0\right)$, $M\left(1,0\right)$, $N\left(-4,0\right)$, $P\left(0,3\right)$, $Q\left(-1,1\right)$ 六个点, 线段 $AB$, $MN$, $PQ$ 能围成一个三角形吗? 为什么?
+(习题 5.3 复习巩固第 3 题) 如图, 已知汽车在笔直的公路上行驶.
+
+(1) 如果 $y=f\left(t\right)$ 表示时刻 $t$ 时汽车与起点的距离, 请标出汽车速度等于 $0$ 的点; 
+
+(2) 如果 $y=f\left(t\right)$ 表示时刻 $t$ 时汽车的速度, 那么 (1) 中标出点的意义是什么? 
+
+该图为函数 $y=f\left(t\right)$ 的图象(横轴时间 $t$,纵轴 $y$):一条先上升,到达一个局部最高点后下降的连续曲线,在局部最高点处切线水平.
 
 ### 解答 习题三
 
-由**常用结论 2.3.2** (两点间距离公式), 分别求三条线段的长度.
+由**定义 5.1.3 (1 弧度的角)** 与**定义 5.3.1 (函数的单调性与导数的正负)**.
 
-$$
-\left|AB\right|=\sqrt{\left(2-1\right)^2+\left(0-2\right)^2}=\sqrt{1+4}=\sqrt 5,
-$$
+(1) 若 $y=f\left(t\right)$ 表示汽车与起点的距离, 则速度为 $f'\left(t\right)$, 速度等于 $0$ 即 $f'\left(t\right)=0$, 也就是图象上切线水平的点. 标出该点.
 
-$$
-\left|MN\right|=\sqrt{\left(-4-1\right)^2+\left(0-0\right)^2}=5,
-$$
-
-$$
-\left|PQ\right|=\sqrt{\left(-1-0\right)^2+\left(1-3\right)^2}=\sqrt{1+4}=\sqrt 5.
-$$
-
-三条线段能围成三角形的条件是任意两边之和大于第三边. 因为 $\sqrt 5+\sqrt 5=2\sqrt 5< 5$, 不满足三角形不等式, 故三条线段不能围成一个三角形. $\blacksquare$
+(2) 若 $y=f\left(t\right)$ 表示汽车的速度, 则 $f'\left(t\right)=0$ 表示速度的导数即加速度为 $0$, 该点是汽车加速度为 $0$, 速度由增变减或由减变增的转折点. $\blacksquare$
 
 ## 习题四
 
-(习题 2.3 复习巩固第 4 题) 已知 $P\left(a,2\right)$, $Q\left(-2,-3\right)$, $M\left(1,1\right)$ 三点, 且 $\lvert PQ \rvert=\lvert PM \rvert$, 求 $a$ 的值.
+(习题 5.3 复习巩固第 4 题) 导函数 $y=f'\left(x\right)$ 的图象如图所示. 在标记的点中, 在哪一点处
+
+(1) 导函数 $y=f'\left(x\right)$ 有极大值? 
+
+(2) 导函数 $y=f'\left(x\right)$ 有极小值? 
+
+(3) 函数 $f\left(x\right)$ 有极大值? 
+
+(4) 函数 $f\left(x\right)$ 有极小值? 
+
+该图为导函数 $y=f'\left(x\right)$ 的图象:一条连续曲线,图中标出 $x_{1},x_{2},x_{3},x_{4}$ 四个点——$x_{1}$ 处为 $f'\left(x\right)$ 的最低点,$x_{3}$ 处为 $f'\left(x\right)$ 的最高点,$x_{2}$ 与 $x_{4}$ 处为 $f'\left(x\right)$ 与 $x$ 轴的交点($x_{2}$ 由负变正,$x_{4}$ 由正变负).
 
 ### 解答 习题四
 
-由**常用结论 2.3.2** (两点间距离公式),
+由**定义 5.3.2 (函数的极值)** 与**定义 5.3.3 (求函数极值的方法)**.
 
-$$
-\left|PQ\right|=\sqrt{\left(-2-a\right)^2+\left(-3-2\right)^2}=\sqrt{\left(a+2\right)^2+25},
-$$
+(1) 导函数 $y=f'\left(x\right)$ 的极大值点即其导数 $f''\left(x\right)$ 由正变负的点, 在图中对应 $f'\left(x\right)$ 图象的最高点, 即 $x_{3}$ 处.
 
-$$
-\left|PM\right|=\sqrt{\left(1-a\right)^2+\left(1-2\right)^2}=\sqrt{\left(a-1\right)^2+1}.
-$$
+(2) 导函数 $y=f'\left(x\right)$ 的极小值点对应 $f'\left(x\right)$ 图象的最低点, 即 $x_{1}$ 处.
 
-由 $\lvert PQ \rvert=\lvert PM \rvert$, 得 $\left(a+2\right)^2+25=\left(a-1\right)^2+1$, 即 $a^2+4a+4+25=a^2-2a+1+1$, 即 $6a=-27$, 故 $a=-\frac{9}{2}$. $\blacksquare$
+(3) 函数 $f\left(x\right)$ 的极大值点是 $f'\left(x\right)$ 由正变负的点, 即 $x_{4}$ 处.
+
+(4) 函数 $f\left(x\right)$ 的极小值点是 $f'\left(x\right)$ 由负变正的点, 即 $x_{2}$ 处. $\blacksquare$
 
 ## 习题五
 
-(习题 2.3 复习巩固第 5 题) (1) 求在 $x$ 轴上与点 $A\left(5,12\right)$ 的距离为 $13$ 的点的坐标;
+(习题 5.3 复习巩固第 5 题) 求下列函数的极值: 
 
-(2) 已知点 $P$ 的横坐标是 $7$, 点 $P$ 与点 $N\left(-1,5\right)$ 间的距离等于 $10$, 求点 $P$ 的纵坐标.
+(1) $f\left(x\right)=6x^{2}+x+2$;
+
+(2) $f\left(x\right)=x^{3}-12x$;
+
+(3) $f\left(x\right)=6-12x+x^{3}$;
+
+(4) $f\left(x\right)=48x-x^{3}$.
 
 ### 解答 习题五
 
-由**常用结论 2.3.2** (两点间距离公式).
+由**定义 5.3.3 (求函数极值的方法)**.
 
-(1) 设在 $x$ 轴上的点为 $P\left(x,0\right)$. 由 $\left|PA\right|=13$, 得
+(1) $f'\left(x\right)=12x+1$, 令 $f'\left(x\right)=0$, 得 $x=-\frac{1}{12}$. 左负右正, 极小值 $f\left(-\frac{1}{12}\right)=\frac{47}{24}$.
 
-$$
-\sqrt{\left(x-5\right)^2+\left(0-12\right)^2}=13.
-$$
+(2) $f'\left(x\right)=3x^{2}-12=3\left(x^{2}-4\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm2$. $x=-2$ 处左正右负, 极大值 $f\left(-2\right)=16$; $x=2$ 处左负右正, 极小值 $f\left(2\right)=-16$.
 
-两边平方, 得 $\left(x-5\right)^2+144=169$, 即 $\left(x-5\right)^2=25$, 故 $x-5=\pm5$, 即 $x=10$ 或 $x=0$. 所求点为 $\left(10,0\right)$ 或 $\left(0,0\right)$.
+(3) $f'\left(x\right)=-12+3x^{2}=3\left(x^{2}-4\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm2$. $x=-2$ 处左负右正, 极小值 $f\left(-2\right) =-10$; $x=2$ 处左正右负, 极大值 $f\left(2\right)=-10$.
 
-(2) 设点 $P$ 的坐标为 $\left(7,y\right)$. 由 $\left|PN\right|=10$, 得
-
-$$
-\sqrt{\left(7-\left(-1\right)\right)^2+\left(y-5\right)^2}=10.
-$$
-
-两边平方, 得 $64+\left(y-5\right)^2=100$, 即 $\left(y-5\right)^2=36$, 故 $y-5=\pm6$, 即 $y=11$ 或 $y=-1$. 点 $P$ 的纵坐标为 $11$ 或 $-1$. $\blacksquare$
+(4) $f'\left(x\right)=48-3x^{2}=3\left(16-x^{2}\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm4$. $x=-4$ 处左负右正, 极小值 $f\left(-4\right)=-128$; $x=4$ 处左正右负, 极大值 $f\left(4\right)=128$. $\blacksquare$
 
 ## 习题六
 
-(习题 2.3 复习巩固第 6 题) 求点 $P\left(-5,7\right)$ 到直线 $12x+5y-3=0$ 的距离.
+(习题 5.3 复习巩固第 6 题) 参照第 5 题, 求下列函数在给定区间上的最大值与最小值: 
+
+(1) $f\left(x\right)=6x^{2}+x+2$, $x\in\left[-1,1\right]$;
+
+(2) $f\left(x\right)=x^{3}-12x$, $x\in\left[-3,3\right]$;
+
+(3) $f\left(x\right)=6-12x+x^{3}$, $x\in\left[-\frac{1}{3},1\right]$;
+
+(4) $f\left(x\right)=48x-x^{3}$, $x\in\left[-3,5\right]$.
 
 ### 解答 习题六
 
-由**常用结论 2.3.3** (点到直线的距离公式),
+由**定义 5.3.4 (闭区间上的最大 (小)** 值).
 
-$$
-d=\frac{\left|12\cdot\left(-5\right)+5\cdot7-3\right|}{\sqrt{12^2+5^2}}=\frac{\left|-60+35-3\right|}{13}=\frac{28}{13}.
-$$
+(1) 零点 $x=-\frac{1}{12}\in\left[-1,1\right]$. 比较 $f\left(-1\right)=7$, $f\left(-\frac{1}{12}\right)=\frac{47}{24}$, $f\left(1\right)=9$. 最大值 $9$, 最小值 $\frac{47}{24}$.
 
-$\blacksquare$
+(2) 零点 $x=\pm2\in\left[-3,3\right]$. 比较 $f\left(-3\right)=9$, $f\left(-2\right)=16$, $f\left(2\right)=-16$, $f\left(3\right)=-9$. 最大值 $16$, 最小值 $-16$.
+
+(3) 零点 $x=\pm2$, 在 $\left[-\frac{1}{3},1\right]$ 内无零点 ($f'\left(x\right)< 0$). 比较 $f\left(-\frac{1}{3}\right)=\frac{115}{27}$, $f\left(1\right)=-5$. 最大值 $\frac{115}{27}$, 最小值 $-5$.
+
+(4) 零点 $x=\pm4$, 在 $\left[-3,5\right]$ 内零点为 $x=4$. 比较 $f\left(-3\right)=-117$, $f\left(4\right)=128$, $f\left(5\right)=115$. 最大值 $128$, 最小值 $-117$. $\blacksquare$
 
 ## 习题七
 
-(习题 2.3 复习巩固第 7 题) 求两条平行直线 $3x-2y-1=0$ 与 $3x-2y+1=0$ 间的距离.
+(习题 5.3 综合运用第 7 题) 将一条长为 $l$ 的铁丝截成两段, 分别弯成两个正方形. 要使两个正方形的面积和最小, 两段铁丝的长度分别是多少? 
 
 ### 解答 习题七
 
-由**常用结论 2.3.4** (两条平行直线间的距离),
+设一段长为 $x$, 则另一段长为 $l-x$. 两个正方形边长分别为 $\frac{x}{4}$ 与 $\frac{l-x}{4}$, 面积和为
 
 $$
-d=\frac{\left|-1-1\right|}{\sqrt{3^2+\left(-2\right)^2}}=\frac{2}{\sqrt{13}}=\frac{2\sqrt{13}}{13}.
+S=\left(\frac{x}{4}\right)^{2}+\left(\frac{l-x}{4}\right)^{2}=\frac{x^{2}+\left(l-x\right)^{2}}{16}.
 $$
 
-$\blacksquare$
+求导, $S'=\frac{2x-2\left(l-x\right)}{16}=\frac{2x-l}{8}$. 令 $S'=0$, 得 $x=\frac{l}{2}$.
+
+当 $x< \frac{l}{2}$ 时 $S'< 0$, 当 $x> \frac{l}{2}$ 时 $S'> 0$, 故 $x=\frac{l}{2}$ 为最小值点.
+
+故两段铁丝长度均为 $\frac{l}{2}$ 时, 两个正方形面积和最小. $\blacksquare$
 
 ## 习题八
 
-(习题 2.3 复习巩固第 8 题) $\square ABCD$ 的一组对边 $AB$ 和 $CD$ 所在直线的方程分别是 $6x+8y-3=0$ 与 $6x+8y+5=0$, 过 $\square ABCD$ 的两条对角线的交点作与 $AB$ 所在直线的平行线 $l$, 求 $l$ 与 $CD$ 所在直线的距离.
+(习题 5.3 综合运用第 8 题) 将一个边长为 $a$ 的正方形铁片的四角截去四个边长均为 $x$ 的小正方形, 做成一个无盖方盒.
+
+(1) 试把方盒的容积 $V$ 表示为 $x$ 的函数; 
+
+(2) $x$ 多大时, 方盒的容积 $V$ 最大? 
 
 ### 解答 习题八
 
-由**常用结论 2.3.4** (两条平行直线间的距离), 先求 $AB$ 与 $CD$ 间的距离.
+(1) 截去四角后, 方盒底面为边长 $a-2x$ 的正方形, 高为 $x$, 故
 
 $$
-d_{AB-CD}=\frac{\left|-3-5\right|}{\sqrt{6^2+8^2}}=\frac{8}{10}=\frac{4}{5}.
+V\left(x\right)=x\left(a-2x\right)^{2},\quad 0< x< \frac{a}{2}.
 $$
 
-平行四边形的对角线交点是其对称中心, 故过对角线交点且平行于 $AB$ 的直线 $l$ 位于 $AB$ 与 $CD$ 的正中间. $l$ 与 $CD$ 间的距离为 $AB$ 与 $CD$ 间距离的一半, 即
+(2) 求导, $V'\left(x\right)=\left(a-2x\right)^{2}+x\cdot2\left(a-2x\right)\left(-2\right)=\left(a-2x\right)\left(a-6x\right)$.
 
-$$
-d=\frac{1}{2}\times\frac{4}{5}=\frac{2}{5}.
-$$
+令 $V'\left(x\right)=0$, 在 $\left(0,\frac{a}{2}\right)$ 内得 $x=\frac{a}{6}$.
 
-$\blacksquare$
+当 $0< x< \frac{a}{6}$ 时 $V'\left(x\right)> 0$, 当 $\frac{a}{6}< x< \frac{a}{2}$ 时 $V'\left(x\right)< 0$, 故 $x=\frac{a}{6}$ 为最大值点.
+
+故当 $x=\frac{a}{6}$ 时, 方盒容积最大. $\blacksquare$
 
 ## 习题九
 
-(习题 2.3 综合运用第 9 题) 三条直线 $ax+2y+8=0$, $4x+3y=10$ 与 $2x-y=10$ 相交于一点, 求 $a$ 的值.
+(习题 5.3 综合运用第 9 题) 用测量工具测量某物体的长度, 由于工具的精度以及测量技术的原因, 测量 $n$ 次得到的数据为 $a_{1},a_{2},a_{3},\cdots,a_{n}$. 记这 $n$ 个数据的平均值为 $\overline{x}$, 即 $\overline{x}=\frac{1}{n}\sum_{i=1}^{n}a_{i}$. 证明: 当 $x=\overline{x}$ 时, 函数 $f\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)^{2}$ 取得最小值.
 
 ### 解答 习题九
 
-由**常用结论 2.3.1** (两条直线的交点坐标), 先求后两条直线的交点.
-
-解方程组
+对 $f\left(x\right)$ 求导, 由**定义 5.2.2 (导数的四则运算法则)**, 
 
 $$
-\begin{cases}4x+3y=10,\\2x-y=10.\end{cases}
+f'\left(x\right)=\frac{1}{n}\sum_{i=1}^{n}2\left(a_{i}-x\right)\left(-1\right)=-\frac{2}{n}\sum_{i=1}^{n}\left(a_{i}-x\right)=-\frac{2}{n}\left(\sum_{i=1}^{n}a_{i}-nx\right).
 $$
 
-由第二式得 $y=2x-10$, 代入第一式, 得 $4x+3\left(2x-10\right)=10$, 即 $10x=40$, 故 $x=4$. 代回得 $y=-2$. 交点为 $\left(4,-2\right)$.
+令 $f'\left(x\right)=0$, 得 $\sum_{i=1}^{n}a_{i}-nx=0$, 即 $x=\frac{1}{n}\sum_{i=1}^{n}a_{i}=\overline{x}$.
 
-三条直线交于一点, 故点 $\left(4,-2\right)$ 在直线 $ax+2y+8=0$ 上. 代入得 $4a+2\left(-2\right)+8=0$, 即 $4a+4=0$, 故 $a=-1$. $\blacksquare$
+又 $f''\left(x\right)=\frac{2}{n}\cdot n=2> 0$, 故 $x=\overline{x}$ 为极小值点, 亦即最小值点.
+
+故当 $x=\overline{x}$ 时, $f\left(x\right)$ 取得最小值. $\blacksquare$
 
 ## 习题十
 
-(习题 2.3 综合运用第 10 题) 已知 $\triangle ABC$ 的顶点 $A\left(5,1\right)$, 边 $AB$ 上的中线 $CM$ 所在直线方程为 $2x-y-5=0$, 边 $AC$ 上的高 $BH$ 所在直线方程为 $x-2y-5=0$. 求: (1) 顶点 $C$ 的坐标; (2) 直线 $BC$ 的方程.
+(习题 5.3 拓广探索第 10 题) 已知某商品的生产成本 $C$ 与产量 $q$ 之间的关系为 $C=100+4q$, 单价 $p$ 与产量 $q$ 之间的关系为 $p=25-\frac{1}{8}q$. 产量 $q$ 为何值时, 利润最大? 
 
 ### 解答 习题十
 
-(1) 边 $AC$ 上的高 $BH$ 所在直线方程为 $x-2y-5=0$, 即 $y=\frac{1}{2}x-\frac{5}{2}$, 斜率为 $\frac{1}{2}$. 由**常用结论 2.1.6** (两条直线垂直), 边 $AC$ 所在直线的斜率为 $-2$.
-
-边 $AC$ 过点 $A\left(5,1\right)$ 且斜率为 $-2$, 由**定义 2.2.1 (点斜式方程)**, 得 $y-1=-2\left(x-5\right)$, 即 $2x+y-11=0$.
-
-点 $C$ 是直线 $AC$ 与中线 $CM$ 的交点. 解方程组
+利润为收入减去成本, 即
 
 $$
-\begin{cases}2x+y-11=0,\\2x-y-5=0.\end{cases}
+L\left(q\right)=pq-C=\left(25-\frac{1}{8}q\right)q-\left(100+4q\right)=-\frac{1}{8}q^{2}+21q-100.
 $$
 
-两式相加, 得 $4x=16$, 故 $x=4$. 代入得 $y=3$. 顶点 $C$ 的坐标为 $\left(4,3\right)$.
+求导, $L'\left(q\right)=-\frac{1}{4}q+21$. 令 $L'\left(q\right)=0$, 得 $q=84$.
 
-(2) 设点 $B$ 的坐标为 $\left(x_B,y_B\right)$. 点 $B$ 在高 $BH$ 所在直线 $x-2y-5=0$ 上, 故 $x_B-2y_B-5=0$.
+当 $q< 84$ 时 $L'\left(q\right)> 0$, 当 $q> 84$ 时 $L'\left(q\right)< 0$, 故 $q=84$ 为最大值点.
 
-$AB$ 的中点 $M$ 在中线 $CM$ 所在直线 $2x-y-5=0$ 上. $M$ 的坐标为 $\left(\frac{5+x_B}{2},\frac{1+y_B}{2}\right)$, 代入 $2x-y-5=0$, 得
-
-$$
-2\cdot\frac{5+x_B}{2}-\frac{1+y_B}{2}-5=0,
-$$
-
-即 $5+x_B-\frac{1+y_B}{2}-5=0$, 即 $2x_B-y_B-1=0$.
-
-联立 $\begin{cases}x_B-2y_B-5=0\\2x_B-y_B-1=0\end{cases}$, 由第二式得 $y_B=2x_B-1$, 代入第一式, 得 $x_B-2\left(2x_B-1\right)-5=0$, 即 $-3x_B-3=0$, 故 $x_B=-1$, $y_B=-3$. 点 $B$ 的坐标为 $\left(-1,-3\right)$.
-
-由**常用结论 2.1.3** (斜率公式), $k_{BC}=\frac{3-\left(-3\right)}{4-\left(-1\right)}=\frac{6}{5}$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $C\left(4,3\right)$, 得 $y-3=\frac{6}{5}\left(x-4\right)$, 即 $6x-5y-9=0$. $\blacksquare$
+故产量 $q=84$ 时, 利润最大. $\blacksquare$
 
 ## 习题十一
 
-(习题 2.3 综合运用第 11 题) 在 $x$ 轴上求一点 $P$, 使以 $A\left(1,2\right)$, $B\left(3,4\right)$ 和 $P$ 为顶点的三角形的面积为 $10$.
+(习题 5.3 拓广探索第 11 题) 已知某商品进价为 $a$ 元/件, 根据以往经验, 当售价是 $b$ ($b\ge\frac{4}{3}a$) 元/件时, 可卖出 $c$ 件. 市场调查表明, 当售价下降 $10\%$ 时, 销量可增加 $40\%$. 现决定一次性降价, 售价为多少时, 可获得最大利润? 
 
 ### 解答 习题十一
 
-设点 $P$ 的坐标为 $\left(x,0\right)$.
-
-由**常用结论 2.3.2** (两点间距离公式), $\left|AB\right|=\sqrt{\left(3-1\right)^2+\left(4-2\right)^2}=\sqrt{8}=2\sqrt 2$.
-
-直线 $AB$ 的方程: 由**常用结论 2.1.3**, $k_{AB}=\frac{4-2}{3-1}=1$. 由**定义 2.2.1 (点斜式方程)**, 得 $y-2=1\cdot\left(x-1\right)$, 即 $x-y+1=0$.
-
-点 $P\left(x,0\right)$ 到直线 $AB:x-y+1=0$ 的距离为
+设售价为 $x$ 元/件. 售价由 $b$ 下降到 $x$, 下降比例为 $\frac{b-x}{b}$. 由题意, 售价每下降 $10\%$, 销量增加 $40\%$, 故销量为
 
 $$
-d=\frac{\left|x-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\left|x+1\right|}{\sqrt 2}.
+Q=c\left(1+\frac{0.4}{0.1}\cdot\frac{b-x}{b}\right)=c\left(1+4\cdot\frac{b-x}{b}\right)=c\left(5-\frac{4x}{b}\right).
 $$
 
-三角形面积为 $\frac{1}{2}\left|AB\right|d=\frac{1}{2}\cdot 2\sqrt 2\cdot\frac{\left|x+1\right|}{\sqrt 2}=\left|x+1\right|$.
+利润为每件利润乘以销量, 即
 
-令 $\left|x+1\right|=10$, 得 $x+1=10$ 或 $x+1=-10$, 即 $x=9$ 或 $x=-11$. 所求点为 $P\left(9,0\right)$ 或 $P\left(-11,0\right)$. $\blacksquare$
+$$
+L\left(x\right)=\left(x-a\right)Q=\left(x-a\right)c\left(5-\frac{4x}{b}\right).
+$$
+
+求导, $L'\left(x\right)=c\left(5-\frac{4x}{b}\right)+\left(x-a\right)c\left(-\frac{4}{b}\right)=c\left(5-\frac{8x}{b}+\frac{4a}{b}\right)$.
+
+令 $L'\left(x\right)=0$, 得 $5-\frac{8x}{b}+\frac{4a}{b}=0$, 解得 $x=\frac{5b+4a}{8}$.
+
+此点为最大值点. 故售价为 $x=\frac{5b+4a}{8}$ 元/件时, 可获得最大利润. $\blacksquare$
 
 ## 习题十二
 
-(习题 2.3 综合运用第 12 题) 已知 $AO$ 是 $\triangle ABC$ 边 $BC$ 的中线, 用坐标法证明 $\lvert AB \rvert^2+\lvert AC \rvert^2=2\left(\lvert AO \rvert^2+\lvert OC \rvert^2\right)$.
+(习题 5.3 拓广探索第 12 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: 
+
+(1) $\mathrm e^{x}> 1+x$, $x\neq0$;
+
+(2) $\ln x< x< \mathrm e^{x}$, $x> 0$.
+
+该图为在同一坐标系中画出的四条曲线:直线 $y=1+x$,指数曲线 $y=\mathrm e^{x}$(始终在 $y=1+x$ 上方,仅在 $x=0$ 处相切),对数曲线 $y=\ln x$ 与直线 $y=x$($y=\ln x$ 始终在 $y=x$ 下方),直观显示 $\mathrm e^{x}> 1+x$ 与 $\ln x< x< \mathrm e^{x}$.
 
 ### 解答 习题十二
 
-由**常用结论 2.3.2** (两点间距离公式), 先建立坐标系.
+(1) 设 $s\left(x\right)=\mathrm e^{x}-1-x$, 则 $s'\left(x\right)=\mathrm e^{x}-1$. 当 $x> 0$ 时 $s'\left(x\right)> 0$, 当 $x< 0$ 时 $s'\left(x\right)< 0$. 故 $x=0$ 是最小值点, 最小值 $s\left(0\right)=0$. 故当 $x\neq0$ 时 $s\left(x\right)> 0$, 即 $\mathrm e^{x}> 1+x$.
 
-以 $O$ 为原点, $BC$ 所在直线为 $x$ 轴. 设 $C\left(c,0\right)$, 则 $B\left(-c,0\right)$, $A\left(x,y\right)$.
+(2) 先证 $\ln x< x$. 设 $s\left(x\right)=x-\ln x$, 则 $s'\left(x\right)=1-\frac{1}{x}$. 令 $s'\left(x\right)=0$, 得 $x=1$, 最小值 $s\left(1\right)=1> 0$. 故 $\ln x< x$.
 
-由距离公式,
+再证 $x< \mathrm e^{x}$. 由 (1), 当 $x> 0$ 时 $\mathrm e^{x}> 1+x> x$. 故 $x< \mathrm e^{x}$.
 
-$$
-\left|AB\right|^2=\left(x+c\right)^2+y^2,
-$$
-
-$$
-\left|AC\right|^2=\left(x-c\right)^2+y^2,
-$$
-
-$$
-\left|AO\right|^2=x^2+y^2,
-$$
-
-$$
-\left|OC\right|^2=c^2.
-$$
-
-左边: $\left|AB\right|^2+\left|AC\right|^2=\left(x+c\right)^2+y^2+\left(x-c\right)^2+y^2=2x^2+2c^2+2y^2$.
-
-右边: $2\left(\left|AO\right|^2+\left|OC\right|^2\right)=2\left(x^2+y^2+c^2\right)=2x^2+2y^2+2c^2$.
-
-左边等于右边, 故 $\left|AB\right|^2+\left|AC\right|^2=2\left(\left|AO\right|^2+\left|OC\right|^2\right)$. $\blacksquare$
+综上, $\ln x< x< \mathrm e^{x}$, $x> 0$. $\blacksquare$
 
 ## 习题十三
 
-(习题 2.3 综合运用第 13 题) 已知点 $A\left(a,6\right)$ 到直线 $3x-4y=2$ 的距离 $d$ 分别为下列各值: (1) $d=4$; (2) $d> 4$, 求 $a$ 的取值范围.
+(习题 5.3 拓广探索第 13 题) 利用信息技术工具, 根据给定的 $a,b,c,d$ 的值, 可以画出函数 $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ ($a\neq0$) 的图象, 当 $a=-4,b=1,c=5,d=-1$ 时, $f\left(x\right)$ 的图象如图所示. 改变 $a,b,c,d$ 的值, 观察图象的形状: 
+
+(1) 你能归纳函数 $f\left(x\right)$ 图象的大致形状吗? 它的图象有什么特点? 你能从图象上大致估计它的单调区间吗? 
+
+(2) 运用导数研究它的单调性, 并求出相应的单调区间.
+
+该图为三次函数 $f\left(x\right)=-4x^{3}+x^{2}+5x-1$($a=-4,b=1,c=5,d=-1$)的图象:一条左端向上,右端向下的S形曲线,有一个极大值点和一个极小值点,单调区间在两点之间交替.
 
 ### 解答 习题十三
 
-由**常用结论 2.3.3** (点到直线的距离公式),
+(1) 三次函数 $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ 的图象是一条" $\mathrm S$ "形曲线. 当 $a> 0$ 时, 左端向下, 右端向上; 当 $a< 0$ 时, 左端向上, 右端向下. 图象一般有一个极大值点和一个极小值点, 单调区间在两点之间交替.
+
+(2) 对 $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ 求导, 得
 
 $$
-d=\frac{\left|3a-4\cdot6-2\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|3a-26\right|}{5}.
+f'\left(x\right)=3ax^{2}+2bx+c.
 $$
 
-(1) 令 $d=4$, 即 $\frac{\left|3a-26\right|}{5}=4$, 故 $\left|3a-26\right|=20$, 即 $3a-26=20$ 或 $3a-26=-20$, 故 $a=\frac{46}{3}$ 或 $a=2$.
+当 $a=-4,b=1,c=5$ 时, $f'\left(x\right)=-12x^{2}+2x+5$. 令 $f'\left(x\right)=0$, 即 $12x^{2}-2x-5=0$, 解得 $x=\frac{2\pm\sqrt{4+240}}{24}=\frac{2\pm\sqrt{244}}{24}=\frac{1\pm\sqrt{61}}{12}$.
 
-(2) 令 $d> 4$, 即 $\frac{\left|3a-26\right|}{5}> 4$, 故 $\left|3a-26\right|> 20$, 即 $3a-26> 20$ 或 $3a-26< -20$, 即 $a> \frac{46}{3}$ 或 $a< 2$. $\blacksquare$
+当 $f'\left(x\right)> 0$ 时函数递增, 当 $f'\left(x\right)< 0$ 时函数递减. 由 $a=-12< 0$, 故在两根之间 $f'\left(x\right)> 0$, 两根之外 $f'\left(x\right)< 0$.
 
-## 习题十四
-
-(习题 2.3 综合运用第 14 题) 已知 $A\left(-3,-4\right)$, $B\left(6,3\right)$ 两点到直线 $l:ax+y+1=0$ 的距离相等, 求 $a$ 的值.
-
-### 解答 习题十四
-
-由**常用结论 2.3.3** (点到直线的距离公式),
-
-$$
-d_A=\frac{\left|a\cdot\left(-3\right)+\left(-4\right)+1\right|}{\sqrt{a^2+1}}=\frac{\left|-3a-3\right|}{\sqrt{a^2+1}},
-$$
-
-$$
-d_B=\frac{\left|a\cdot6+3+1\right|}{\sqrt{a^2+1}}=\frac{\left|6a+4\right|}{\sqrt{a^2+1}}.
-$$
-
-由 $d_A=d_B$, 得 $\left|-3a-3\right|=\left|6a+4\right|$, 即 $\left|3a+3\right|=\left|6a+4\right)$.
-
-(a) 当 $3a+3=6a+4$ 时, $-3a=1$, 即 $a=-\frac{1}{3}$.
-
-(b) 当 $3a+3=-\left(6a+4\right)$ 时, $9a=-7$, 即 $a=-\frac{7}{9}$.
-
-故 $a=-\frac{1}{3}$ 或 $a=-\frac{7}{9}$. $\blacksquare$
-
-## 习题十五
-
-(习题 2.3 综合运用第 15 题) $\square ABCD$ 的四条边所在直线的方程分别是 $l_1:x-4y+5=0$, $l_2:2x+y-8=0$, $l_3:x-4y+14=0$, $l_4:2x+y+1=0$, 求 $\square ABCD$ 的面积.
-
-### 解答 习题十五
-
-由**常用结论 2.3.4** (两条平行直线间的距离), $l_1$ 与 $l_3$ 平行, $l_2$ 与 $l_4$ 平行.
-
-$l_1$ 与 $l_3$ 间的距离为
-
-$$
-d_1=\frac{\left|5-14\right|}{\sqrt{1^2+\left(-4\right)^2}}=\frac{9}{\sqrt{17}}.
-$$
-
-$l_2$ 与 $l_4$ 间的距离为
-
-$$
-d_2=\frac{\left|-8-1\right|}{\sqrt{2^2+1^2}}=\frac{9}{\sqrt 5}.
-$$
-
-平行四边形的面积等于两组对边间距离的乘积除以夹角正弦的形式. 更直接地, 先求相邻两边的长度.
-
-$l_1$ 与 $l_2$ 的交点: 解方程组 $\begin{cases}x-4y+5=0\\2x+y-8=0\end{cases}$, 由第二式得 $y=8-2x$, 代入第一式, 得 $x-4\left(8-2x\right)+5=0$, 即 $9x=27$, 故 $x=3$, $y=2$. 交点为 $\left(3,2\right)$.
-
-$l_1$ 与 $l_4$ 的交点: 解方程组 $\begin{cases}x-4y+5=0\\2x+y+1=0\end{cases}$, 由第二式得 $y=-1-2x$, 代入第一式, 得 $x-4\left(-1-2x\right)+5=0$, 即 $9x=-9$, 故 $x=-1$, $y=1$. 交点为 $\left(-1,1\right)$.
-
-由**常用结论 2.3.2** (两点间距离公式), 相邻边长为
-
-$$
-\sqrt{\left(3-\left(-1\right)\right)^2+\left(2-1\right)^2}=\sqrt{16+1}=\sqrt{17}.
-$$
-
-平行四边形面积为底乘高, 即 $\sqrt{17}\times\frac{9}{\sqrt 5}=\frac{9\sqrt{85}}{5}$. $\blacksquare$
-
-## 习题十六
-
-(习题 2.3 拓广探索第 16 题) 已知 $\lambda$ 为任意实数, 当 $\lambda$ 变化时, 方程 $3x+4y-2+\lambda\left(2x+y+2\right)=0$ 表示什么图形? 图形有何特点?
-
-### 解答 习题十六
-
-由**常用结论 2.3.1** (两条直线的交点坐标), 方程 $3x+4y-2+\lambda\left(2x+y+2\right)=0$ 表示经过直线 $3x+4y-2=0$ 与直线 $2x+y+2=0$ 交点的直线束.
-
-先求两直线交点. 解方程组
-
-$$
-\begin{cases}3x+4y-2=0,\\2x+y+2=0.\end{cases}
-$$
-
-由第二式得 $y=-2x-2$, 代入第一式, 得 $3x+4\left(-2x-2\right)-2=0$, 即 $-5x-10=0$, 故 $x=-2$, $y=2$. 交点为 $\left(-2,2\right)$.
-
-当 $\lambda$ 变化时, 方程表示经过定点 $\left(-2,2\right)$ 的所有直线 (不包括直线 $2x+y+2=0$ 本身). 图形的特点是: 所有直线都经过定点 $\left(-2,2\right)$. $\blacksquare$
-
-## 习题十七
-
-(习题 2.3 拓广探索第 17 题) 已知 $0< x< 1$, $0< y< 1$.
-
-(1) 求证: $\sqrt{x^2+y^2}+\sqrt{x^2+\left(1-y\right)^2}+\sqrt{\left(1-x\right)^2+y^2}+\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}\ge2\sqrt 2$, 并求使等式成立的条件.
-
-(2) 说明上述不等式的几何意义.
-
-### 解答 习题十七
-
-由**常用结论 2.3.2** (两点间距离公式), 将各项视为距离.
-
-(1) 设点 $P\left(x,y\right)$, $O\left(0,0\right)$, $A\left(1,0\right)$, $B\left(0,1\right)$, $C\left(1,1\right)$.
-
-则 $\sqrt{x^2+y^2}=\left|PO\right|$, $\sqrt{x^2+\left(1-y\right)^2}=\left|PB\right|$, $\sqrt{\left(1-x\right)^2+y^2}=\left|PA\right|$, $\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}=\left|PC\right|$.
-
-由三角形不等式, $\left|PO\right|+\left|PC\right|\ge\left|OC\right|=\sqrt 2$, $\left|PA\right|+\left|PB\right|\ge\left|AB\right|=\sqrt 2$.
-
-故四项之和 $\ge\sqrt 2+\sqrt 2=2\sqrt 2$. 等式成立当且仅当 $P$ 在线段 $OC$ 上且在线段 $AB$ 上, 即 $P$ 为 $OC$ 与 $AB$ 的交点 $\left(\frac{1}{2},\frac{1}{2}\right)$.
-
-(2) 该不等式的几何意义为: 单位正方形内任一点到四个顶点的距离之和不小于两条对角线长度之和. $\blacksquare$
+故 $f\left(x\right)$ 在 $\left(-\infty,\frac{1-\sqrt{61}}{12}\right)$ 与 $\left(\frac{1+\sqrt{61}}{12},+\infty\right)$ 内单调递减, 在 $\left(\frac{1-\sqrt{61}}{12},\frac{1+\sqrt{61}}{12}\right)$ 内单调递增. $\blacksquare$

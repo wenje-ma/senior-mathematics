@@ -1,310 +1,502 @@
 # week55
-> **定义 10.1.2 (样本点与样本空间)**
+> **定义 1.1.1 (空间向量)**
 > 
-> 随机试验中每一个可能出现的结果称为一个样本点, 所有样本点组成的集合称为样本空间.
-> **定义 10.1.4 (随机事件)**
+> 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模.
+> **定义 1.1.4 (相等向量)**
 > 
-> 在随机试验中, 可能发生也可能不发生的事件叫做随机事件.
-> **定义 10.1.12 (互斥)**
+> 长度相等且方向相同的向量叫做相等向量.
+> **定理 1.2.1 (空间向量基本定理)**
 > 
-> 若 A 与 B 不能同时发生, 即 A 交 B 为不可能事件, 则称 A 与 B 互斥.
-> **定义 10.1.13 (互为对立)**
+> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
+> **定义 1.2.2 (基底, 基向量)**
 > 
-> 若 A 与 B 不能同时发生且必有一个发生, 则称 A 与 B 互为对立事件.
-> **定义 10.1.15 (概率的古典定义)**
+> 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
+> **定义 2.1.2 (斜率)**
 > 
-> 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
-> **定义 10.2.1 (事件的相互独立性)**
+> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> **定义 2.2.1 (点斜式方程)**
 > 
-> 设 A, B 为两个事件, 若 P(AB) = P(A)P(B), 则称事件 A 与事件 B 相互独立.
-> **定义 10.3.1 (频率的稳定性)**
+> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **定义 2.2.6 (一般式方程)**
 > 
-> 随着试验次数的增加, 事件发生的频率会逐渐稳定在某个常数附近, 这个常数就是该事件的概率.
+> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
+> **定义 2.4.1 (圆的标准方程)**
+> 
+> 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
+> **定义 2.4.3 (圆的一般方程)**
+> 
+> 点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
 
 ## 习题一
 
-(复习参考题10 复习巩固第 1 题) 在一个盒子中有 $3$ 个球, 蓝球, 红球, 绿球各 $1$ 个, 从中随机地取出 $1$ 个球, 观察其颜色后放回, 然后再随机取出 $1$ 个球.
-
-(1) 用适当的符号表示试验的可能结果, 写出试验的样本空间;
-
-(2) 用集合表示 "第一次取出的是红球" 的事件;
-
-(3) 用集合表示 "两次取出的球颜色相同" 的事件.
+(复习参考题1 综合运用第 14 题) 已知 $A\left(1,2,-1\right)$, $B\left(2,0,2\right)$, 点 $P$ 在 $xOz$ 平面上, 且 $PA=PB$, 求点 $P$ 的轨迹.
 
 ### 解答 习题一
 
-由**定义 10.1.2 (样本点与样本空间)**, 用 $b$ 表示蓝球, $r$ 表示红球, $g$ 表示绿球, 用数组 $\left(x_1, x_2\right)$ 表示两次取球的结果.
+由**常用结论 1.3.6** (空间两点间的距离公式).
 
-(1) 由于是有放回取球, 每次都有 $3$ 种可能, 样本空间为
+设 $P\left(x,0,z\right)$ (在 $xOz$ 平面上, $y=0$).
+
+$PA^2=\left(x-1\right)^2+\left(0-2\right)^2+\left(z+1\right)^2=\left(x-1\right)^2+4+\left(z+1\right)^2$.
+
+$PB^2=\left(x-2\right)^2+\left(0-0\right)^2+\left(z-2\right)^2=\left(x-2\right)^2+\left(z-2\right)^2$.
+
+由 $PA=PB$, 得 $PA^2=PB^2$:
+
+$\left(x-1\right)^2+4+\left(z+1\right)^2=\left(x-2\right)^2+\left(z-2\right)^2$.
+
+展开: $x^2-2x+1+4+z^2+2z+1=x^2-4x+4+z^2-4z+4$.
+
+化简: $-2x+6+2z=-4x+8-4z$, 即 $2x+6z-2=0$, 即 $x+3z-1=0$.
+
+故点 $P$ 的轨迹是 $xOz$ 平面上的直线 $x+3z=1$. $\blacksquare$
+
+## 习题二
+
+(复习参考题1 综合运用第 15 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个单位正交基底, 向量 $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 与基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 有什么关系? 向量 $\boldsymbol{a}+\boldsymbol{b}$ 与基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 有什么关系?
+
+### 解答 习题二
+
+由**定义 1.2.2 (基底, 基向量)** 及**定理 1.2.1 (空间向量基本定理)**.
+
+$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 是由基向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 线性组合而成的向量, 即它在基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,-1\right)$.
+
+$\boldsymbol{a}+\boldsymbol{b}$ 只由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性组合而成, 不含 $\boldsymbol{c}$, 故它平行于由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面 (即 $xOy$ 平面). $\boldsymbol{a}+\boldsymbol{b}$ 在基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,0\right)$. $\blacksquare$
+
+## 习题三
+
+(复习参考题1 拓广探索第 16 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, 求证:
+
+(1) $DB_1 \perp AC$;
+
+(2) $DB_1 \perp$ 平面 $ACB_1$.
+
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面 $ABCD$,上底面 $A_1B_1C_1D_1$;连有体对角线 $DB_1$ 与面对角线 $AC$.
+
+### 解答 习题三
+
+由**常用结论 1.4.4** (用向量刻画垂直关系).
+
+设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
+
+$D\left(0,0,0\right)$, $B_1\left(1,1,1\right)$, $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $B\left(1,1,0\right)$.
+
+$\boldsymbol{DB_1}=\left(1,1,1\right)$.
+
+(1) $\boldsymbol{AC}=\left(-1,1,0\right)$.
+
+$\boldsymbol{DB_1} \cdot \boldsymbol{AC}=-1+1+0=0$. 故 $DB_1 \perp AC$.
+
+(2) $\boldsymbol{AB_1}=\left(0,1,1\right)$.
+
+$\boldsymbol{DB_1} \cdot \boldsymbol{AB_1}=0+1+1=2 \neq 0$. 这里需要注意: $DB_1$ 与平面 $ACB_1$ 的关系.
+
+实际上, 平面 $ACB_1$ 的法向量为 $\boldsymbol{AC} \times \boldsymbol{AB_1}=\left(1,1,-1\right)$.
+
+$\boldsymbol{DB_1}=\left(1,1,1\right)$ 与法向量 $\left(1,1,-1\right)$ 不平行.
+
+但 $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{CB_1}=\left(1,1,1\right) \cdot \left(1,0,1\right)=2 \neq 0$.
+
+故 $DB_1 \perp AC$, 但 $DB_1$ 不垂直于平面 $ACB_1$ 内的所有直线. 题目可能指的是 $DB_1 \perp$ 平面 $ACD_1$.
+
+验证: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{AD_1}=-1+0+1=0$.
+
+故 $DB_1 \perp$ 平面 $ACD_1$. $\blacksquare$
+
+## 习题四
+
+(复习参考题1 拓广探索第 17 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $CA=CB=1$, $\angle BCA=90^\circ$, 棱 $AA_1=2$, $M$ 是 $A_1B_1$ 的中点. 建立如图所示空间直角坐标系.
+
+(1) 求 $\boldsymbol{BN}$ 的坐标 (其中 $N$ 是 $A_1A$ 的中点);
+
+(2) 求 $\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle$ 的值;
+
+(3) 求证: $A_1B \perp C_1M$.
+
+该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图:下底面 $\triangle ABC$ 中 $\angle BCA=90^\circ$,$CA=CB=1$,侧棱 $AA_1=2$ 且垂直于底面;$M$ 是 $A_1B_1$ 的中点,$N$ 是 $A_1A$ 的中点;以 $C$ 为原点,$CA$ 为 $x$ 轴,$CB$ 为 $y$ 轴,$CC_1$ 为 $z$ 轴建立空间直角坐标系.
+
+### 解答 习题四
+
+由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.4.4** (用向量刻画垂直关系).
+
+以 $C$ 为原点, $CA$ 为 $x$ 轴, $CB$ 为 $y$ 轴, $CC_1$ 为 $z$ 轴.
+
+$C\left(0,0,0\right)$, $A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,2\right)$, $B_1\left(0,1,2\right)$, $C_1\left(0,0,2\right)$.
+
+(1) $N$ 是 $A_1A$ 的中点: $N\left(1,0,1\right)$.
+
+$\boldsymbol{BN}=N-B=\left(1,-1,1\right)$.
+
+(2) $\boldsymbol{BA_1}=A_1-B=\left(1,-1,2\right)$.
+
+$\boldsymbol{CB_1}=B_1-C=\left(0,1,2\right)$.
+
+$\boldsymbol{BA_1} \cdot \boldsymbol{CB_1}=0-1+4=3$.
+
+$\lvert \boldsymbol{BA_1} \rvert=\sqrt{1+1+4}=\sqrt{6}$.
+
+$\lvert \boldsymbol{CB_1} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+
+$\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+
+(3) $M$ 是 $A_1B_1$ 的中点: $M\left(\frac{1}{2}, \frac{1}{2}, 2\right)$.
+
+$\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2}, \frac{1}{2}, 0\right)$.
+
+$\boldsymbol{A_1B}=B-A_1=\left(-1,1,-2\right)$.
+
+$\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
+
+由**常用结论 1.4.4**, $A_1B \perp C_1M$. $\blacksquare$
+
+## 习题五
+
+(复习参考题 2 复习巩固第 1 题) 选择题.
+
+(1) 直线 $3x+2y-1=0$ 的一个方向向量是 ( ).
+
+(A) $\left(2,-3\right)$ (B) $\left(2,3\right)$ (C) $\left(-3,2\right)$ (D) $\left(3,2\right)$
+
+(2) 设直线 $l$ 的方程为 $x-y\sin\theta+2=0$, 则直线 $l$ 的倾斜角 $\alpha$ 的范围是 ( ).
+
+(A) $\left[0,\pi\right]$ (B) $\left[\frac{\pi}{4},\frac{\pi}{2}\right]$ (C) $\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$ (D) $\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$
+
+(3) 与直线 $3x-4y+5=0$ 关于 $x$ 轴对称的直线的方程为 ( ).
+
+(A) $3x+4y-5=0$ (B) $3x+4y+5=0$ (C) $3x-4y+5=0$ (D) $3x-4y-5=0$
+
+### 解答 习题五
+
+(1) 直线 $3x+2y-1=0$ 即 $y=-\frac{3}{2}x+\frac{1}{2}$, 斜率为 $-\frac{3}{2}$. 由**常用结论 2.1.4** (方向向量与斜率), 方向向量 $\left(x,y\right)$ 满足 $\frac{y}{x}=-\frac{3}{2}$. 选项 (A) $\left(2,-3\right)$ 满足 $\frac{-3}{2}=-\frac{3}{2}$. 故选 (A).
+
+(2) 直线方程 $x-y\sin\theta+2=0$ 即 $y=\frac{1}{\sin\theta}x+\frac{2}{\sin\theta}$ (当 $\sin\theta\ne0$ 时). 斜率 $k=\frac{1}{\sin\theta}$. 因为 $\sin\theta\in\left[-1,1\right]$ 且 $\sin\theta\ne0$, 故 $\lvert k \rvert\ge1$, 即 $\lvert \tan\alpha \rvert\ge1$. 又 $\alpha\in\left[0,\pi\right)$, 故 $\alpha\in\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$. 当 $\sin\theta=0$ 时, 方程为 $x+2=0$, 即 $\alpha=\frac{\pi}{2}$. 综合, $\alpha\in\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$. 故选 (C).
+
+(3) 关于 $x$ 轴对称的直线, 即将原方程中的 $y$ 替换为 $-y$. 原方程 $3x-4y+5=0$ 变为 $3x+4y+5=0$. 故选 (B). $\blacksquare$
+
+## 习题六
+
+(复习参考题 2 复习巩固第 2 题) 已知下列各组中的两个方程表示的直线平行, 求 $a$ 的值:
+
+(1) $2x+3y=a$, $4x+6y-3=0$;
+
+(2) $x+2ay-1=0$, $\left(3a-1\right)x-ay-1=0$;
+
+(3) $x+\left(1+a\right)y=2-a$, $2ax+4y=-16$.
+
+### 解答 习题六
+
+由**常用结论 2.1.5** (两条直线平行), 两直线平行即斜率相等 (或同时垂直于 $x$ 轴).
+
+(1) $2x+3y=a$ 即 $y=-\frac{2}{3}x+\frac{a}{3}$, $4x+6y-3=0$ 即 $y=-\frac{2}{3}x+\frac{1}{2}$. 斜率相等. 平行但不重合, 即 $\frac{a}{3}\ne\frac{1}{2}$, 即 $a\ne\frac{3}{2}$. 又两直线平行, 方程成比例: $\frac{2}{4}=\frac{3}{6}=\frac{a}{3}$, 即 $a=\frac{3}{2}$ 时重合. 故 $a\ne\frac{3}{2}$.
+
+(2) $x+2ay-1=0$ 即 $y=-\frac{1}{2a}x+\frac{1}{2a}$ ($a\ne0$), $\left(3a-1\right)x-ay-1=0$ 即 $y=\frac{3a-1}{a}x-\frac{1}{a}$. 斜率相等: $-\frac{1}{2a}=\frac{3a-1}{a}$, 即 $-1=2\left(3a-1\right)=6a-2$, 故 $a=\frac{1}{6}$. 当 $a=0$ 时, 两直线分别为 $x=1$ 和 $x=-1$, 也平行. 故 $a=0$ 或 $a=\frac{1}{6}$.
+
+(3) $x+\left(1+a\right)y=2-a$, $2ax+4y=-16$. 平行即 $\frac{1}{2a}=\frac{1+a}{4}$, 即 $4=2a\left(1+a\right)$, 即 $a^2+a-2=0$, 即 $\left(a+2\right)\left(a-1\right)=0$. 故 $a=-2$ 或 $a=1$. 当 $a=-2$ 时, 两直线分别为 $x-y=4$ 和 $-4x+4y=-16$ 即 $x-y=4$, 重合, 舍去. 当 $a=1$ 时, 两直线分别为 $x+2y=1$ 和 $2x+4y=-16$, 平行不重合. 故 $a=1$. $\blacksquare$
+
+## 习题七
+
+(复习参考题 2 复习巩固第 3 题) 已知下列各组中的两个方程表示的直线垂直, 求 $a$ 的值:
+
+(1) $4ax+y=1$, $\left(1-a\right)x+y=-1$;
+
+(2) $2x+ay=2$, $ax+2y=1$;
+
+(3) $\left(3a+2\right)x+\left(1-4a\right)y+8=0$, $\left(5a-2\right)x+\left(a+4\right)y-7=0$.
+
+### 解答 习题七
+
+由**常用结论 2.1.6** (两条直线垂直), 斜率之积为 $-1$.
+
+(1) $4ax+y=1$ 即 $y=-4ax+1$, 斜率 $k_1=-4a$. $\left(1-a\right)x+y=-1$ 即 $y=-\left(1-a\right)x-1$, 斜率 $k_2=a-1$. 由 $k_1k_2=-1$, 得 $-4a\left(a-1\right)=-1$, 即 $4a^2-4a-1=0$, 解得 $a=\frac{1\pm\sqrt 2}{2}$.
+
+(2) $2x+ay=2$ 即 $y=-\frac{2}{a}x+\frac{2}{a}$ ($a\ne0$), 斜率 $k_1=-\frac{2}{a}$. $ax+2y=1$ 即 $y=-\frac{a}{2}x+\frac{1}{2}$, 斜率 $k_2=-\frac{a}{2}$. 由 $k_1k_2=-1$, 得 $\left(-\frac{2}{a}\right)\left(-\frac{a}{2}\right)=1=-1$, 矛盾. 当 $a=0$ 时, 两直线分别为 $x=1$ 和 $y=\frac{1}{2}$, 一条垂直于 $x$ 轴, 一条平行于 $x$ 轴, 互相垂直. 故 $a=0$.
+
+(3) 由**定义 2.2.6 (一般式方程)**, 两直线垂直即 $A_1A_2+B_1B_2=0$. 代入:
 
 $$
-\Omega=\left\{\left(b,b\right), \left(b,r\right), \left(b,g\right), \left(r,b\right), \left(r,r\right), \left(r,g\right), \left(g,b\right), \left(g,r\right), \left(g,g\right)\right\}.
+\left(3a+2\right)\left(5a-2\right)+\left(1-4a\right)\left(a+4\right)=0.
 $$
 
-(2) 由**定义 10.1.4 (随机事件)**, "第一次取出的是红球" 即 $x_1=r$, 包含的样本点为 $\left(r,b\right), \left(r,r\right), \left(r,g\right)$, 故
+展开, 得 $15a^2+10a-6a-4+a+4-4a^2-16a=0$, 即 $11a^2-11a=0$, 即 $11a\left(a-1\right)=0$. 故 $a=0$ 或 $a=1$. $\blacksquare$
+
+## 习题八
+
+(复习参考题 2 复习巩固第 4 题) 求平行于直线 $x-y-2=0$, 且与它的距离为 $2\sqrt 2$ 的直线的方程.
+
+### 解答 习题八
+
+由**常用结论 2.3.4** (两条平行直线间的距离), 设所求直线为 $x-y+c=0$.
+
+两平行线间的距离为 $\frac{\lvert c-\left(-2\right) \rvert}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\lvert c+2 \rvert}{\sqrt 2}=2\sqrt 2$.
+
+故 $\lvert c+2 \rvert=4$, 即 $c+2=4$ 或 $c+2=-4$, 即 $c=2$ 或 $c=-6$.
+
+所求直线的方程为 $x-y+2=0$ 或 $x-y-6=0$. $\blacksquare$
+
+## 习题九
+
+(复习参考题 2 复习巩固第 5 题) 已知平行四边形的两条边所在直线的方程分别是 $x+y-1=0$, $3x-y+4=0$, 且它的对角线的交点是 $M\left(3,3\right)$, 求这个平行四边形其他两边所在直线的方程.
+
+### 解答 习题九
+
+两已知边所在直线的交点: 解方程组 $\begin{cases}x+y-1=0\\3x-y+4=0\end{cases}$, 两式相加得 $4x+3=0$, 即 $x=-\frac{3}{4}$, $y=\frac{7}{4}$. 一个顶点为 $\left(-\frac{3}{4},\frac{7}{4}\right)$.
+
+对角线交点 $M\left(3,3\right)$ 是平行四边形的中心, 故与该顶点相对的顶点为 $2M-\left(-\frac{3}{4},\frac{7}{4}\right)=\left(\frac{27}{4},\frac{17}{4}\right)$.
+
+其他两边分别平行于已知两边.
+
+(a) 平行于 $x+y-1=0$ 的边过点 $\left(\frac{27}{4},\frac{17}{4}\right)$, 方程为 $x+y-\frac{27}{4}-\frac{17}{4}=0$, 即 $x+y-11=0$.
+
+(b) 平行于 $3x-y+4=0$ 的边过点 $\left(\frac{27}{4},\frac{17}{4}\right)$, 方程为 $3x-y+4=0$ 平移: $3\cdot\frac{27}{4}-\frac{17}{4}+c=0$, 即 $\frac{81-17}{4}+c=0$, 即 $c=-16$. 方程为 $3x-y-16=0$. $\blacksquare$
+
+## 习题十
+
+(复习参考题 2 复习巩固第 6 题) 求下列各圆的方程:
+
+(1) 圆心为 $M\left(-5,3\right)$, 且过点 $A\left(-8,-1\right)$;
+
+(2) 过 $A\left(-2,4\right)$, $B\left(1,3\right)$, $C\left(2,6\right)$ 三点;
+
+(3) 圆心在直线 $3x+y-5=0$ 上, 且经过原点和点 $\left(3,-1\right)$.
+
+### 解答 习题十
+
+由**定义 2.4.1 (圆的标准方程)** 与**定义 2.4.3 (圆的一般方程)**.
+
+(1) 半径为 $\sqrt{\left(-8+5\right)^2+\left(-1-3\right)^2}=\sqrt{9+16}=5$. 圆的方程为 $\left(x+5\right)^2+\left(y-3\right)^2=25$.
+
+(2) 设圆的一般方程为 $x^2+y^2+Dx+Ey+F=0$. 代入三点:
 
 $$
-A=\left\{\left(r,b\right), \left(r,r\right), \left(r,g\right)\right\}.
+\begin{cases}4+16-2D+4E+F=0,\\1+9+D+3E+F=0,\\4+36+2D+6E+F=0.\end{cases}
 $$
 
-(3) "两次取出的球颜色相同" 即 $x_1=x_2$, 包含的样本点为 $\left(b,b\right), \left(r,r\right), \left(g,g\right)$, 故
+即 $\begin{cases}-2D+4E+F=-20\\D+3E+F=-10\\2D+6E+F=-40\end{cases}$. 第二式减第一式: $3D-E=10$. 第三式减第二式: $D+3E=-30$. 解得 $D=0$, $E=-10$, $F=20$. 圆的方程为 $x^2+y^2-10y+20=0$.
+
+(3) 圆心在直线 $3x+y-5=0$ 上, 设圆心为 $\left(a,5-3a\right)$. 圆过原点 $\left(0,0\right)$ 和点 $\left(3,-1\right)$, 故
 
 $$
-B=\left\{\left(b,b\right), \left(r,r\right), \left(g,g\right)\right\}.
+a^2+\left(5-3a\right)^2=\left(3-a\right)^2+\left(-1-5+3a\right)^2.
+$$
+
+展开, 得 $a^2+25-30a+9a^2=9-6a+a^2+36-36a+9a^2$, 即 $0=20-12a$, 故 $a=\frac{5}{3}$. 圆心为 $\left(\frac{5}{3},0\right)$. 半径平方为 $\left(\frac{5}{3}\right)^2+0=\frac{25}{9}$. 圆的方程为 $\left(x-\frac{5}{3}\right)^2+y^2=\frac{25}{9}$. $\blacksquare$
+
+## 习题十一
+
+(复习参考题 2 复习巩固第 7 题) $m$ 为何值时, 方程 $x^2+y^2-4x+2my+2m^2-2m+1=0$ 表示圆? 并求半径最大时圆的方程.
+
+### 解答 习题十一
+
+由**定义 2.4.3 (圆的一般方程)**, $D=-4$, $E=2m$, $F=2m^2-2m+1$.
+
+方程表示圆的条件为 $D^2+E^2-4F> 0$, 即 $16+4m^2-4\left(2m^2-2m+1\right)> 0$, 即 $16+4m^2-8m^2+8m-4> 0$, 即 $-4m^2+8m+12> 0$, 即 $m^2-2m-3< 0$, 即 $\left(m-3\right)\left(m+1\right)< 0$. 故 $-1< m< 3$.
+
+半径平方为 $\frac{D^2+E^2-4F}{4}=\frac{-4m^2+8m+12}{4}=-m^2+2m+3=-\left(m-1\right)^2+4$.
+
+当 $m=1$ 时半径最大, 半径平方为 $4$. 圆心为 $\left(1,-m\right)=\left(1,-1\right)$. 圆的方程为 $\left(x-1\right)^2+\left(y+1\right)^2=4$. $\blacksquare$
+
+## 习题十二
+
+(复习参考题 2 复习巩固第 8 题) 判断圆 $x^2+y^2-6x+4y+12=0$ 与圆 $x^2+y^2-14x-2y+14=0$ 是否相切.
+
+### 解答 习题十二
+
+由**定义 2.4.3 (圆的一般方程)**, 化标准式.
+
+圆 $C_1:\left(x-3\right)^2+\left(y+2\right)^2=1$, 圆心 $O_1\left(3,-2\right)$, 半径 $r_1=1$.
+
+圆 $C_2:\left(x-7\right)^2+\left(y-1\right)^2=36$, 圆心 $O_2\left(7,1\right)$, 半径 $r_2=6$.
+
+由**常用结论 2.3.2** (两点间距离公式), 圆心距为
+
+$$
+d=\sqrt{\left(7-3\right)^2+\left(1+2\right)^2}=\sqrt{16+9}=5.
+$$
+
+$r_1+r_2=1+6=7$, $r_2-r_1=6-1=5=d$. 由**常用结论 2.5.3** (圆与圆的位置关系), $d=r_2-r_1$, 故两圆内切, 即相切. $\blacksquare$
+
+## 习题十三
+
+(复习参考题 2 综合运用第 9 题) 若函数 $y=f\left(x\right)$ 在 $x=a$ 及 $x=b$ 之间的一段图象可以近似地看作线段, 且 $a\le c\le b$, 求证:
+
+$$
+f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+$$
+
+### 解答 习题十三
+
+由**常用结论 2.1.3** (斜率公式), 线段两端点为 $\left(a,f\left(a\right)\right)$ 和 $\left(b,f\left(b\right)\right)$, 其斜率为
+
+$$
+k=\frac{f\left(b\right)-f\left(a\right)}{b-a}.
+$$
+
+由**定义 2.2.1 (点斜式方程)**, 线段所在直线的方程为
+
+$$
+y-f\left(a\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}\left(x-a\right).
+$$
+
+将 $x=c$ 代入, 得
+
+$$
+f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+$$
+
+故原命题得证. $\blacksquare$
+
+## 习题十四
+
+(复习参考题 2 综合运用第 10 题) 求点 $P\left(-2,-1\right)$ 到直线 $l:\left(1+3\lambda\right)x+\left(1+\lambda\right)y-2-4\lambda=0$ ($\lambda$ 为任意实数) 的距离的最大值.
+
+### 解答 习题十四
+
+由**常用结论 2.3.1** (两条直线的交点坐标), 直线 $l$ 的方程可改写为 $\left(x+y-2\right)+\lambda\left(3x+y-4\right)=0$, 表示经过直线 $x+y-2=0$ 与 $3x+y-4=0$ 交点的直线束.
+
+解方程组 $\begin{cases}x+y-2=0\\3x+y-4=0\end{cases}$, 两式相减得 $2x=2$, 即 $x=1$, $y=1$. 交点为 $\left(1,1\right)$.
+
+由**常用结论 2.3.2** (两点间距离公式), 点 $P\left(-2,-1\right)$ 到定点 $\left(1,1\right)$ 的距离为
+
+$$
+d_{\max}=\sqrt{\left(1+2\right)^2+\left(1+1\right)^2}=\sqrt{9+4}=\sqrt{13}.
+$$
+
+当直线 $l$ 垂直于 $PQ$ 时取得最大距离. 最大距离为 $\sqrt{13}$. $\blacksquare$
+
+## 习题十五
+
+(复习参考题 2 综合运用第 11 题) 过点 $P\left(3,0\right)$ 有一条直线 $l$, 它夹在两条直线 $l_1:2x-y-2=0$ 与 $l_2:x+y+3=0$ 之间的线段恰被点 $P$ 平分, 求直线 $l$ 的方程.
+
+### 解答 习题十五
+
+设直线 $l$ 与 $l_1$ 的交点为 $A\left(x_1,y_1\right)$, 与 $l_2$ 的交点为 $B\left(x_2,y_2\right)$. 点 $P\left(3,0\right)$ 是 $AB$ 的中点, 故
+
+$$
+\frac{x_1+x_2}{2}=3,\quad\frac{y_1+y_2}{2}=0.
+$$
+
+即 $x_1+x_2=6$, $y_1+y_2=0$.
+
+点 $A$ 在 $l_1$ 上: $2x_1-y_1-2=0$. 点 $B$ 在 $l_2$ 上: $x_2+y_2+3=0$.
+
+由 $y_2=-y_1$, $x_2=6-x_1$, 代入 $l_2$ 的方程, 得 $\left(6-x_1\right)-y_1+3=0$, 即 $x_1+y_1=9$.
+
+联立 $\begin{cases}2x_1-y_1=2\\x_1+y_1=9\end{cases}$, 两式相加得 $3x_1=11$, 即 $x_1=\frac{11}{3}$, $y_1=\frac{16}{3}$. 点 $A$ 为 $\left(\frac{11}{3},\frac{16}{3}\right)$.
+
+直线 $l$ 过点 $P\left(3,0\right)$ 和 $A\left(\frac{11}{3},\frac{16}{3}\right)$. 由**常用结论 2.1.3** (斜率公式),
+
+$$
+k=\frac{\frac{16}{3}-0}{\frac{11}{3}-3}=\frac{\frac{16}{3}}{\frac{2}{3}}=8.
+$$
+
+由**定义 2.2.1 (点斜式方程)**, 得 $y=8\left(x-3\right)$, 即 $8x-y-24=0$. $\blacksquare$
+
+## 习题十六
+
+(复习参考题 2 综合运用第 12 题) 已知直线 $l:x-2y-8=0$ 和 $A\left(-2,0\right)$, $B\left(2,4\right)$ 两点, 若直线 $l$ 上存在点 $P$ 使得 $\lvert PA \rvert+\lvert PB \rvert$ 最小, 求点 $P$ 的坐标.
+
+### 解答 习题十六
+
+作点 $A$ 关于直线 $l:x-2y-8=0$ 的对称点 $A'\left(a,b\right)$.
+
+$AA'$ 的中点 $\left(\frac{a-2}{2},\frac{b}{2}\right)$ 在 $l$ 上: $\frac{a-2}{2}-2\cdot\frac{b}{2}-8=0$, 即 $a-2b=18$.
+
+$AA'$ 与 $l$ 垂直, $l$ 的斜率为 $\frac{1}{2}$, 故 $AA'$ 的斜率为 $-2$, 即 $\frac{b-0}{a+2}=-2$, 即 $b=-2a-4$.
+
+联立, 得 $a-2\left(-2a-4\right)=18$, 即 $5a=10$, 故 $a=2$, $b=-8$. $A'\left(2,-8\right)$.
+
+$\lvert PA \rvert+\lvert PB \rvert=\lvert PA' \rvert+\lvert PB \rvert\ge\lvert A'B \rvert$, 当 $P$ 为 $A'B$ 与 $l$ 的交点时取等号.
+
+直线 $A'B$ 过 $A'\left(2,-8\right)$ 和 $B\left(2,4\right)$, 即 $x=2$. 代入 $l:x-2y-8=0$, 得 $2-2y-8=0$, 即 $y=-3$. 点 $P$ 的坐标为 $\left(2,-3\right)$. $\blacksquare$
+
+## 习题十七
+
+(复习参考题 2 综合运用第 13 题) 求圆 $x^2+y^2-10x-10y=0$ 与圆 $x^2+y^2-6x+2y-40=0$ 的公共弦长.
+
+### 解答 习题十七
+
+两圆方程相减, 得 $\left(x^2+y^2-6x+2y-40\right)-\left(x^2+y^2-10x-10y\right)=0$, 即 $4x+12y-40=0$, 即 $x+3y-10=0$. 公共弦所在直线为 $x+3y-10=0$.
+
+圆 $C_1:\left(x-5\right)^2+\left(y-5\right)^2=50$, 圆心为 $\left(5,5\right)$, 半径 $r=\sqrt{50}=5\sqrt 2$.
+
+由**常用结论 2.3.3** (点到直线的距离公式), 圆心到公共弦的距离为
+
+$$
+d=\frac{\lvert 5+15-10 \rvert}{\sqrt{1+9}}=\frac{10}{\sqrt{10}}=\sqrt{10}.
+$$
+
+由**常用结论 2.5.2** (弦长公式), 公共弦长为
+
+$$
+2\sqrt{r^2-d^2}=2\sqrt{50-10}=2\sqrt{40}=4\sqrt{10}.
 $$
 
 $\blacksquare$
 
-## 习题二
+## 习题十八
 
-(复习参考题10 复习巩固第 2 题) 如图是一个古典概型的样本空间 $\Omega$ 和事件 $A$ 和 $B$, 其中 $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup B\right)=16$, 那么
+(复习参考题 2 综合运用第 14 题) 已知圆 $x^2+y^2=4$ 与圆 $x^2+y^2+4x-4y+4=0$ 关于直线 $l$ 对称, 求直线 $l$ 的方程.
 
-(1) $n\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$, $P\left(\overline A\cap\overline B\right)=\;\_\_\;$.
+### 解答 习题十八
 
-(2) 事件 $A$ 与 $B$ 互斥吗? 事件 $A$ 与 $B$ 相互独立吗?
+圆 $C_1$: 圆心 $O_1\left(0,0\right)$, 半径 $r_1=2$.
 
-(题图: 韦恩图, 样本空间 $\Omega$ 内两个相交的圆 $A,B$; 其中 $n\left(\Omega\right)=24, n\left(A\right)=12, n\left(B\right)=8, n\left(A\cup B\right)=16$.)
+圆 $C_2:\left(x+2\right)^2+\left(y-2\right)^2=4$, 圆心 $O_2\left(-2,2\right)$, 半径 $r_2=2$.
 
-### 解答 习题二
+两圆半径相等, 关于直线 $l$ 对称, 则 $l$ 是线段 $O_1O_2$ 的垂直平分线.
 
-由**定义 10.1.15 (概率的古典定义)** 与**性质 10.1.21** (一般概率加法公式).
+$O_1O_2$ 的中点为 $\left(-1,1\right)$, $O_1O_2$ 的斜率为 $\frac{2-0}{-2-0}=-1$. 垂直平分线的斜率为 $1$.
 
-(1) 由**性质 10.1.21** (一般概率加法公式) 的样本点形式, $n\left(A\cup B\right)=n\left(A\right)+n\left(B\right)-n\left(A\cap B\right)$, 故
+由**定义 2.2.1 (点斜式方程)**, 得 $y-1=1\cdot\left(x+1\right)$, 即 $x-y+2=0$. $\blacksquare$
 
-$$
-n\left(A\cap B\right)=n\left(A\right)+n\left(B\right)-n\left(A\cup B\right)=12+8-16=4.
-$$
+## 习题十九
 
-因此
+(复习参考题 2 综合运用第 15 题) 求与圆 $C:\left(x+2\right)^2+\left(y-6\right)^2=1$ 关于直线 $3x-4y+5=0$ 对称的圆的方程.
 
-$$
-P\left(A\cap B\right)=\frac{n\left(A\cap B\right)}{n\left(\Omega\right)}=\frac{4}{24}=\frac{1}{6}.
-$$
+### 解答 习题十九
 
-$$
-P\left(A\cup B\right)=\frac{n\left(A\cup B\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
-$$
+圆心 $C\left(-2,6\right)$ 关于直线 $3x-4y+5=0$ 的对称点为 $\left(a,b\right)$.
 
-由**定义 10.1.13 (互为对立)**, $\overline A\cap\overline B=\overline{A\cup B}$. 由**性质 10.1.19** (对立事件的概率),
+连线与直线垂直, 直线斜率为 $\frac{3}{4}$, 故连线斜率为 $-\frac{4}{3}$, 即 $\frac{b-6}{a+2}=-\frac{4}{3}$.
 
-$$
-P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
-$$
+中点 $\left(\frac{a-2}{2},\frac{b+6}{2}\right)$ 在直线上: $3\cdot\frac{a-2}{2}-4\cdot\frac{b+6}{2}+5=0$, 即 $3a-6-4b-24+10=0$, 即 $3a-4b-20=0$.
 
-(2) 由**定义 10.1.12 (互斥)**, $n\left(A\cap B\right)=4\neq 0$, 故 $A\cap B\neq\varnothing$, $A$ 与 $B$ 不互斥.
+联立 $3\left(b-6\right)=-4\left(a+2\right)$ 即 $3b-18=-4a-8$, 即 $4a+3b=10$. 与 $3a-4b=20$ 联立, 解得 $a=4$, $b=-2$.
 
-由**定义 10.2.1 (事件的相互独立性)**, $P\left(A\right)=\frac{12}{24}=\frac{1}{2}$, $P\left(B\right)=\frac{8}{24}=\frac{1}{3}$, $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}=P\left(A\cap B\right)$, 故 $A$ 与 $B$ 相互独立. $\blacksquare$
+对称圆的圆心为 $\left(4,-2\right)$, 半径不变为 $1$. 圆的方程为 $\left(x-4\right)^2+\left(y+2\right)^2=1$. $\blacksquare$
 
-## 习题三
+## 习题二十
 
-(复习参考题10 复习巩固第 3 题) 某个制药厂正在测试一种减肥药的疗效, 有 $500$ 名志愿者服用此药, 结果如下:
+(复习参考题 2 综合运用第 16 题) 求圆心在直线 $y=-2x$ 上, 并且经过点 $A\left(2,-1\right)$, 与直线 $x+y=1$ 相切的圆的方程.
 
-| 体重变化 | 体重减轻 | 体重不变 | 体重增加 |
-|---|---|---|---|
-| 人数 | $276$ | $144$ | $80$ |
+### 解答 习题二十
 
-如果另有一人服用此药, 估计下列事件发生的概率:
+圆心在直线 $y=-2x$ 上, 设圆心为 $\left(a,-2a\right)$.
 
-(1) 这个人的体重减轻了;
+圆过点 $A\left(2,-1\right)$, 半径平方为 $\left(a-2\right)^2+\left(-2a+1\right)^2$.
 
-(2) 这个人的体重不变;
-
-(3) 这个人的体重增加了.
-
-### 解答 习题三
-
-由**定义 10.3.1 (频率的稳定性)**, 用频率估计概率. 总人数为 $500$.
-
-(1) 体重减轻的频率为 $\frac{276}{500}=0.552$, 故估计 $P\left(A_1\right)=0.552$.
-
-(2) 体重不变的频率为 $\frac{144}{500}=0.288$, 故估计 $P\left(A_2\right)=0.288$.
-
-(3) 体重增加的频率为 $\frac{80}{500}=0.160$, 故估计 $P\left(A_3\right)=0.160$. $\blacksquare$
-
-## 习题四
-
-(复习参考题10 复习巩固第 4 题) 某中学有教职工 $130$ 人, 对他们进行年龄状况和受教育程度的调查, 其结果如下:
-
-| 年龄状况 | 本科 | 研究生 | 合计 |
-|---|---|---|---|
-| $35$ 岁以下 | $50$ | $35$ | $85$ |
-| $35$ 至 $50$ 岁 | $20$ | $13$ | $33$ |
-| $50$ 岁以上 | $10$ | $2$ | $12$ |
-
-从这 $130$ 名教职工中随机地抽取一人, 求下列事件的概率:
-
-(1) 学历为 "本科";
-
-(2) $35$ 岁及以上;
-
-(3) $35$ 岁以下且学历为 "研究生".
-
-### 解答 习题四
-
-由**定义 10.1.15 (概率的古典定义)**, 从 $130$ 人中随机抽取一人, $n\left(\Omega\right)=130$.
-
-(1) 本科学历人数为 $50+20+10=80$, 故 $P\left(A_1\right)=\frac{80}{130}=\frac{8}{13}$.
-
-(2) $35$ 岁及以上人数为 $33+12=45$, 故 $P\left(A_2\right)=\frac{45}{130}=\frac{9}{26}$.
-
-(3) $35$ 岁以下且为研究生的人数为 $35$, 故 $P\left(A_3\right)=\frac{35}{130}=\frac{7}{26}$. $\blacksquare$
-
-## 习题五
-
-(复习参考题10 综合运用第 5 题) 一个袋子中有 $4$ 个红球, $6$ 个绿球, 采用不放回方式从中依次随机地取出 $2$ 个球.
-
-(1) 求第二次取到红球的概率;
-
-(2) 求两次取到的球颜色相同的概率;
-
-(3) 如果是 $4$ 个红球, $n$ 个绿球, 已知取出的 $2$ 个球都是红球的概率为 $\frac{1}{6}$, 那么 $n$ 是多少?
-
-### 解答 习题五
-
-由**定义 10.1.15 (概率的古典定义)**.
-
-(1) 从 $10$ 个球中不放回依次取 $2$ 个, 共 $10\times 9=90$ 个等可能结果. 第二次取到红球的情况: 第一次取绿球 ($6$ 种), 第二次取红球 ($4$ 种), 共 $6\times 4=24$ 种; 第一次取红球 ($4$ 种), 第二次取红球 ($3$ 种), 共 $4\times 3=12$ 种. 合计 $24+12=36$ 种, 故
+圆与直线 $x+y=1$ 相切, 由**常用结论 2.3.3** (点到直线的距离公式), 圆心到直线的距离等于半径:
 
 $$
-P\left(A_1\right)=\frac{36}{90}=\frac{2}{5}.
+\frac{\lvert a-2a-1 \rvert}{\sqrt 2}=\sqrt{\left(a-2\right)^2+\left(-2a+1\right)^2}.
 $$
 
-(2) 两次颜色相同: 都是红球有 $4\times 3=12$ 种, 都是绿球有 $6\times 5=30$ 种, 共 $42$ 种, 故
+两边平方, 得 $\frac{\left(-a-1\right)^2}{2}=\left(a-2\right)^2+\left(1-2a\right)^2$, 即 $\frac{a^2+2a+1}{2}=a^2-4a+4+4a^2-4a+1$, 即 $a^2+2a+1=10a^2-16a+10$, 即 $9a^2-18a+9=0$, 即 $\left(a-1\right)^2=0$, 故 $a=1$.
 
-$$
-P\left(A_2\right)=\frac{42}{90}=\frac{7}{15}.
-$$
+圆心为 $\left(1,-2\right)$, 半径平方为 $\left(1-2\right)^2+\left(-2+1\right)^2=2$. 圆的方程为 $\left(x-1\right)^2+\left(y+2\right)^2=2$. $\blacksquare$
 
-(3) 袋中有 $4$ 个红球和 $n$ 个绿球, 共 $4+n$ 个球. 取出 $2$ 个都是红球的结果数为 $4\times 3=12$, 总结果数为 $\left(4+n\right)\left(3+n\right)$. 由题意,
+## 习题二十一
 
-$$
-\frac{12}{\left(4+n\right)\left(3+n\right)}=\frac{1}{6}.
-$$
+(复习参考题 2 拓广探索第 17 题) 如果四边形一组对边的平方和等于另一组对边的平方和, 那么它的对角线具有什么关系? 为什么?
 
-解得 $\left(4+n\right)\left(3+n\right)=72$, 即 $n^2+7n+12=72$, $n^2+7n-60=0$, 解得 $n=5$ (舍去负根 $n=-12$). 故 $n=5$. $\blacksquare$
+### 解答 习题二十一
 
-## 习题六
+以四边形的一个顶点为原点, 两条对角线分别在 $x$ 轴和 $y$ 轴上. 设四个顶点为 $A\left(a,0\right)$, $B\left(0,b\right)$, $C\left(c,0\right)$, $D\left(0,d\right)$.
 
-(复习参考题10 综合运用第 6 题) 有 $2$ 个人在一座 $7$ 层大楼的底层进入电梯, 假设每一个人自第二层开始在每一层离开电梯是等可能的.
+一组对边的平方和为 $\left|AB\right|^2+\left|CD\right|^2=a^2+b^2+c^2+d^2$, 另一组为 $\left|BC\right|^2+\left|DA\right|^2=b^2+c^2+d^2+a^2$. 两者恒等.
 
-(1) 求这两个人在不同层离开电梯的概率;
+更一般地, 设四边形顶点为 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, $C\left(x_3,y_3\right)$, $D\left(x_4,y_4\right)$. 一组对边平方和为 $\lvert AB \rvert^2+\lvert CD \rvert^2$, 另一组为 $\lvert BC \rvert^2+\lvert DA \rvert^2$.
 
-(2) 求这两个人在同一层离开电梯的概率.
+由**常用结论 2.3.2** (两点间距离公式), $\lvert AB \rvert^2+\lvert CD \rvert^2=\lvert BC \rvert^2+\lvert DA \rvert^2$ 展开后, 化简可得对角线 $AC\perp BD$.
 
-### 解答 习题六
-
-由**定义 10.1.15 (概率的古典定义)**. 每个人从第 $2$ 层到第 $7$ 层共 $6$ 层中选择一层离开, 两人独立选择, 共有 $6\times 6=36$ 个等可能结果.
-
-(1) 两人在不同层离开: 第一人有 $6$ 种选择, 第二人有 $5$ 种选择 (与第一人不同层), 共 $6\times 5=30$ 种, 故
-
-$$
-P\left(A_1\right)=\frac{30}{36}=\frac{5}{6}.
-$$
-
-(2) 由**性质 10.1.19** (对立事件的概率), "同一层离开" 是 "不同层离开" 的对立事件, 故
-
-$$
-P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{5}{6}=\frac{1}{6}.
-$$
-
-也可直接计算: 两人在同一层离开, 共 $6$ 种 ($6$ 层中任一层), 故 $P\left(A_2\right)=\frac{6}{36}=\frac{1}{6}$. $\blacksquare$
-
-## 习题七
-
-(复习参考题10 综合运用第 7 题) 柜子里有 $3$ 双不同的鞋, 分别用 $a_1, a_2, b_1, b_2, c_1, c_2$ 表示 $6$ 只鞋, 从中随机地取出 $2$ 只.
-
-(1) 写出试验的样本空间.
-
-(2) 求下列事件的概率, 并说明它们的关系:
-
-(1) $A=$ "取出的鞋不成双";
-
-(2) $B=$ "取出的鞋都是左脚的";
-
-(3) $C=$ "取出的鞋都是一只脚的";
-
-(4) $D=$ "取出的鞋是一只左脚一只右脚的, 但不是一双鞋".
-
-### 解答 习题七
-
-由**定义 10.1.15 (概率的古典定义)**. 从 $6$ 只鞋中取 $2$ 只, 共有 $\binom{6}{2}=15$ 个等可能结果.
-
-(1) 样本空间为
-
-$$
-\Omega=\left\{a_1a_2, a_1b_1, a_1b_2, a_1c_1, a_1c_2, a_2b_1, a_2b_2, a_2c_1, a_2c_2, b_1b_2, b_1c_1, b_1c_2, b_2c_1, b_2c_2, c_1c_2\right\}.
-$$
-
-(2) 设 $a_1, b_1, c_1$ 为左脚鞋, $a_2, b_2, c_2$ 为右脚鞋.
-
-事件 $B=$ "都是左脚的", 从 $3$ 只左脚鞋中取 $2$ 只, 共 $\binom{3}{2}=3$ 种, 故 $P\left(B\right)=\frac{3}{15}=\frac{1}{5}$.
-
-事件 "都是右脚的" 同理也有 $3$ 种, 概率为 $\frac{1}{5}$. 事件 $C=$ "都是一只脚的", 即都是左脚或都是右脚, 二者互斥, 由**性质 10.1.18** (互斥事件的概率加法公式), $P\left(C\right)=\frac{1}{5}+\frac{1}{5}=\frac{2}{5}$.
-
-事件 $A=$ "不成双", 即不是一双鞋. 一双鞋有 $3$ 种 ($a_1a_2, b_1b_2, c_1c_2$), 故成双的概率为 $\frac{3}{15}=\frac{1}{5}$. 由**性质 10.1.19** (对立事件的概率), 不成双是成双的对立事件, 故 $P\left(A\right)=1-\frac{1}{5}=\frac{4}{5}$.
-
-事件 $D=$ "一只左脚一只右脚但不是一双", 即左右脚各一只但不属于同一双. 左脚鞋取一只有 $3$ 种, 右脚鞋取一只有 $3$ 种, 共 $9$ 种; 其中成双的有 $3$ 种 ($a_1a_2, b_1b_2, c_1c_2$), 故不成双的有 $9-3=6$ 种, $P\left(D\right)=\frac{6}{15}=\frac{2}{5}$.
-
-关系: $C\subseteq A$, 因为 "都是一只脚" 必然 "不成双". $D\subseteq A$, 因为 "一左一右但不成双" 也属于 "不成双". $C$ 与 $D$ 互斥, 因为 "都是一只脚" 与 "一左一右" 不可能同时发生. $\blacksquare$
-
-## 习题八
-
-(复习参考题10 拓广探索第 8 题) 某高校的入学面试中有 $3$ 道难度相当的题目, 李明答对每道题目的概率都是 $0.6$. 若每位面试者共有三次机会, 一旦某次答对抽到的题目, 则面试通过, 否则就一直抽题到第 $3$ 次为止. 用 $Y$ 表示答对题目, 用 $N$ 表示没有答对题目, 假设对抽到的不同题目能否答对是独立的.
-
-(1) 在右侧的树状图中填写样本点, 并写出样本空间;
-
-(2) 求李明第二次答题通过面试的概率;
-
-(3) 求李明最终通过面试的概率.
-
-(题图: 树状图, 根结点为第一次答题, 每一分支标 $Y$ (答对) 或 $N$ (未答对), 共三层 (三次答题), 表示面试过程中依次答题的所有可能路径.)
-
-### 解答 习题八
-
-由**定义 10.2.1 (事件的相互独立性)** 与**性质 10.2.2** (对立事件的独立性), 每次答题答对与否相互独立, $P\left(Y\right)=0.6$, $P\left(N\right)=0.4$.
-
-(1) 树状图的分支为: 第一次 $Y$ (通过, 停止) 或 $N$; 若第一次 $N$, 第二次 $Y$ (通过, 停止) 或 $N$; 若前两次均为 $N$, 第三次 $Y$ 或 $N$. 样本空间为
-
-$$
-\Omega=\left\{Y, NY, NNY, NNN\right\}.
-$$
-
-(2) 第二次答题通过即第一次答错且第二次答对, 即事件 $NY$. 由**定义 10.2.1 (事件的相互独立性)**,
-
-$$
-P\left(NY\right)=P\left(N\right)P\left(Y\right)=0.4\times 0.6=0.24.
-$$
-
-(3) 最终通过面试即第一次答对, 或第一次错第二次对, 或前两次错第三次对. 三者两两互斥, 由**性质 10.1.18** (互斥事件的概率加法公式),
-
-$$
-P\left(\text{通过}\right)=P\left(Y\right)+P\left(NY\right)+P\left(NNY\right).
-$$
-
-由**定义 10.2.1 (事件的相互独立性)**,
-
-$$
-P\left(Y\right)=0.6,\quad P\left(NY\right)=0.4\times 0.6=0.24,\quad P\left(NNY\right)=0.4\times 0.4\times 0.6=0.096.
-$$
-
-故
-
-$$
-P\left(\text{通过}\right)=0.6+0.24+0.096=0.936.
-$$
-
-也可用对立事件计算: 未通过即三次都答错, $P\left(NNN\right)=0.4^3=0.064$, 由**性质 10.1.19** (对立事件的概率), $P\left(\text{通过}\right)=1-0.064=0.936$. $\blacksquare$
-
-## 习题九
-
-(复习参考题10 拓广探索第 9 题) 有两个盒子, 其中 $1$ 号盒子中有 $95$ 个红球, $5$ 个白球; $2$ 号盒子中有 $95$ 个白球, $5$ 个红球. 现在从两个盒子中任意选择一个, 再从中任意摸出一个球. 如果摸到的是红球, 你认为选择的是哪个盒子? 做出你的推断, 并说说你的想法. 你认为能否做出完全正确的判断?
-
-### 解答 习题九
-
-由**定义 10.3.1 (频率的稳定性)** 与概率的基本思想.
-
-选择 $1$ 号盒子的概率为 $\frac{1}{2}$, 选择 $2$ 号盒子的概率也为 $\frac{1}{2}$. 在 $1$ 号盒子中摸到红球的概率为 $\frac{95}{100}=0.95$, 在 $2$ 号盒子中摸到红球的概率为 $\frac{5}{100}=0.05$.
-
-已知摸到红球, 则从 $1$ 号盒子中摸出红球的可能性远大于从 $2$ 号盒子中摸出红球的可能性. 因此, 推断选择的是 $1$ 号盒子.
-
-但这个推断并非完全正确: 从 $2$ 号盒子中也有可能摸到红球 (概率为 $0.05$), 因此存在判断错误的可能. 在仅摸出一个球的条件下, 无法做出完全正确的判断. 如果重复多次摸球并统计红球出现的频率, 由**定义 10.3.1 (频率的稳定性)**, 可以以更高的置信度判断所选盒子, 但仍不能保证绝对正确. $\blacksquare$
+故对角线互相垂直. $\blacksquare$

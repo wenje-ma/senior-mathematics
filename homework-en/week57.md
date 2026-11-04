@@ -1,334 +1,819 @@
 # week57
-> **Definition 1.1.12 (向量的数量积)**
+> **Definition 4.1.4 (Increasing and Decreasing Sequences)**
 > 
-> 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
-> **Theorem 1.2.1 (空间向量基本定理)**
+> 如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
+> **Definition 4.1.5 (General Term Formula)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
-> **Definition 1.2.2 (Basis, Basis Vectors)**
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Definition 4.2.1 (Arithmetic Sequence)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
+> 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**
+> 
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.5 (等差数列性质)**
+> 
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **Definition 4.3.2 (等比中项)**
+> 
+> 如果在 $a$ 与 $b$ 中间插入一个数 $G$, 使 $a,G,b$ 成等比数列, 那么 $G$ 叫做 $a$ 与 $b$ 的等比中项. 此时 $G^2=ab$.
+> **Theorem 4.3.3 (等比数列通项公式)**
+> 
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **Theorem 4.3.5 (前 $n$ 项和公式)**
+> 
+> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> **Definition 4.4.1 (数学归纳法)**
+> 
+> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
 
 ## Exercise 1
 
-(Exercise 1.2, Problem 1) Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis of space, which of $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ can necessarily be chosen to form another basis of space together with the vectors $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$?
+(Exercise 4.3, Problem 1) Determine whether the following sequences are geometric sequences. If so, write down their common ratio
+
+(1) $3,9,15,21,27,33$;
+
+(2) $1,1.1,1.21,1.331,1.4641$;
+
+(3) $\frac{1}{3},\frac{1}{6},\frac{1}{9},\frac{1}{12},\frac{1}{15},\frac{1}{18}$;
+
+(4) $4,-8,16,-32,64,-128$.
 
 ### Solution to Exercise 1
 
-By **Definition 1.2.2 (Basis, Basis Vectors)**, the necessary and sufficient condition for three vectors to form a basis of space is that they are not coplanar.
+(1) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{9}{3}=3$, $\frac{15}{9}=\frac{5}{3}$, the ratios are not equal, so it is not a geometric sequence.
 
-Both $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ lie in the plane spanned by $\boldsymbol{a}$, $\boldsymbol{b}$; that is, $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{a}$ are coplanar, and $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{b}$ are also coplanar. Hence $\boldsymbol{a}$ or $\boldsymbol{b}$ is coplanar with $\boldsymbol{p}$, $\boldsymbol{q}$ and cannot form a new basis.
+$\blacksquare$
 
-But $\boldsymbol{c}$ does not lie in the plane spanned by $\boldsymbol{a}$, $\boldsymbol{b}$. Suppose $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ were coplanar; then there would exist real numbers $\lambda$, $\mu$ such that $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, contradicting the fact that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis ($\boldsymbol{c}$ is not linearly expressible in terms of $\boldsymbol{a}$, $\boldsymbol{b}$).
+(2) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{1.1}{1}=1.1$, $\frac{1.21}{1.1}=1.1$, the ratio between consecutive terms is always $1.1$, so it is a geometric sequence with common ratio $q=1.1$.
 
-Hence choose $\boldsymbol{c}$; $\left\{\boldsymbol{p}, \boldsymbol{q}, \boldsymbol{c}\right\}$ necessarily forms another basis of space. $\blacksquare$
+$\blacksquare$
+
+(3) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{1/6}{1/3}=\frac{1}{2}$, $\frac{1/9}{1/6}=\frac{2}{3}$, the ratios are not equal, so it is not a geometric sequence.
+
+$\blacksquare$
+
+(4) By **Definition 4.3.1 (Geometric Sequence)**, $\frac{-8}{4}=-2$, $\frac{16}{-8}=-2$, the ratio between consecutive terms is always $-2$, so it is a geometric sequence with common ratio $q=-2$.
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 2) Given that $\left\{a_n\right\}$ is a geometric sequence with common ratio $q$, fill in the following table with appropriate numbers
+
+First row: $a_1=2,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ q=\underline{\quad}$;
+
+Second row: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underline{\quad},\ q=0.2$.
+
+### Solution to Exercise 1
+
+First row: By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_5=a_1 q^4$, i.e. $8=2q^4$, so $q^4=4$, $q^2=2$, $q=\pm\sqrt{2}$.
+
+$$
+a_3=2q^2=4,\ a_7=a_5 q^2=8\times 2=16.
+$$
+
+Second row: By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_3=a_1 q^2$, i.e. $2=a_1\times 0.04$, so $a_1=50$.
+
+$$
+a_5=a_3 q^2=2\times 0.04=0.08,\ a_7=a_5 q^2=0.08\times 0.04=0.0032.
+$$
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 3) In a geometric sequence $\left\{a_n\right\}$, $a_1 a_3=36$, $a_2+a_4=60$. Find $a_1$ and the common ratio $q$
+
+### Solution to Exercise 1
+
+By **Definition 4.3.2 (Geometric Mean)**, $a_1 a_3=a_2^2=36$, hence $a_2=\pm 6$.
+
+When $a_2=6$, $a_4=60-6=54$, $q^2=\frac{54}{6}=9$, $q=\pm 3$, and $a_1=\frac{6}{q}=\pm 2$.
+
+When $a_2=-6$, $a_4=60-\left(-6\right)=66$, $q^2=\frac{66}{-6}=-11$, which has no real solution.
+
+Hence $a_1=2,q=3$ or $a_1=-2,q=-3$.
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 4) For a sequence $\left\{a_n\right\}$, if the points $\left(n,a_n\right)$ ($n\in\mathbb N^*$) all lie on the graph of the function $y=cq^x$, where $c,q$ are constants with $c\ne 0$, $q\ne 0$, $q\ne 1$, determine whether the sequence $\left\{a_n\right\}$ is a geometric sequence, and prove your conclusion
+
+### Solution to Exercise 1
+
+By **Definition 4.1.5 (General Term Formula)**, $a_n=cq^n$.
+
+$$
+\frac{a_{n+1}}{a_n}=\frac{cq^{n+1}}{cq^n}=q.
+$$
+
+The ratio is the constant $q$; by **Definition 4.3.1 (Geometric Sequence)**, $\left\{a_n\right\}$ is a geometric sequence.
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 5) Given that the sequence $\left\{a_n\right\}$ is a geometric sequence
+
+(1) Do $a_3,a_5,a_7$ form a geometric sequence? Why? What about $a_1,a_5,a_9$?
+
+(2) When $n> 1$, do $a_{n-1},a_n,a_{n+1}$ form a geometric sequence? Why? When $n> k> 0$, do $a_{n-k},a_n,a_{n+k}$ form a geometric sequence?
+
+### Solution to Exercise 1
+
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_3 a_7=a_1 q^2\cdot a_1 q^6=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$.
+
+By **Definition 4.3.2 (Geometric Mean)**, $a_3,a_5,a_7$ form a geometric sequence.
+
+Similarly, $a_1 a_9=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$, so $a_1,a_5,a_9$ form a geometric sequence.
+
+$\blacksquare$
+
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_{n-1} a_{n+1}=a_1 q^{n-2}\cdot a_1 q^n=a_1^2 q^{2n-2}=\left(a_1 q^{n-1}\right)^2=a_n^2$.
+
+By **Definition 4.3.2 (Geometric Mean)**, $a_{n-1},a_n,a_{n+1}$ form a geometric sequence.
+
+Similarly, $a_{n-k} a_{n+k}=a_1^2 q^{2n-2k}=\left(a_1 q^{n-1}\right)^2=a_n^2$, so $a_{n-k},a_n,a_{n+k}$ form a geometric sequence.
+
+$\blacksquare$
 
 ## Exercise 2
 
-(Exercise 1.2, Problem 2) Given that $O$, $A$, $B$, $C$ are four points in space and that the vectors $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ do not form a basis of space, are the points $O$, $A$, $B$, $C$ coplanar?
+(Exercise 4.3, Problem 1) Find the numbers satisfying the following conditions
+
+(1) Insert $2$ numbers between $9$ and $243$ so that these $4$ numbers form a geometric sequence;
+
+(2) Insert $4$ numbers between $160$ and $-5$ so that these $6$ numbers form a geometric sequence.
 
 ### Solution to Exercise 2
 
-By **Definition 1.2.2 (Basis, Basis Vectors)**, the necessary and sufficient condition for three vectors to form a basis of space is that they are not coplanar.
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1=9$, $a_4=243$, $a_4=a_1 q^3$, so $q^3=27$ and $q=3$.
 
-Since $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ do not form a basis of space, by **Definition 1.2.2 (Basis, Basis Vectors)** they must be coplanar; that is, there exist real numbers $x$, $y$, $z$, not all zero, such that $x\boldsymbol{OA}+y\boldsymbol{OB}+z\boldsymbol{OC}=\boldsymbol{0}$.
+The two inserted numbers are $a_2=9\times 3=27$ and $a_3=27\times 3=81$.
 
-By the contrapositive of **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**, $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ being coplanar means they are parallel to the same plane. Moreover, since they share the common starting point $O$, the four points $O$, $A$, $B$, $C$ are coplanar. $\blacksquare$
+$\blacksquare$
+
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1=160$, $a_6=-5$, $a_6=a_1 q^5$, so $q^5=-\frac{1}{32}$ and $q=-\frac{1}{2}$.
+
+The four inserted numbers are $a_2=160\times\left(-\frac{1}{2}\right)=-80$, $a_3=40$, $a_4=-20$, $a_5=10$.
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 2) Let the sequences $\left\{a_n\right\},\left\{b_n\right\}$ both be geometric sequences. Investigate separately whether the following sequences are geometric sequences. If so, prove the conclusion; if not, explain why
+
+(1) the sequence $\left\{c_n\right\}$, where $c_n=a_n b_n$;
+
+(2) the sequence $\left\{d_n\right\}$, where $d_n=\frac{a_n}{b_n}$.
+
+### Solution to Exercise 2
+
+(1) By **Definition 4.3.1 (Geometric Sequence)**, let the common ratio of $\left\{a_n\right\}$ be $q_1$ and that of $\left\{b_n\right\}$ be $q_2$.
+
+$$
+\frac{c_{n+1}}{c_n}=\frac{a_{n+1} b_{n+1}}{a_n b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_{n+1}}{b_n}=q_1 q_2.
+$$
+
+The ratio is the constant $q_1 q_2$; by **Definition 4.3.1 (Geometric Sequence)**, $\left\{c_n\right\}$ is a geometric sequence.
+
+$\blacksquare$
+
+(2) Similarly,
+
+$$
+\frac{d_{n+1}}{d_n}=\frac{a_{n+1}/b_{n+1}}{a_n/b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_n}{b_{n+1}}=\frac{q_1}{q_2}.
+$$
+
+The ratio is the constant $\frac{q_1}{q_2}$; by **Definition 4.3.1 (Geometric Sequence)**, $\left\{d_n\right\}$ is a geometric sequence.
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 3) An automobile group plans to vigorously develop new-energy vehicles, producing $5000$ new-energy vehicles in the whole year of $2017$. If in each subsequent year the output of new-energy vehicles is $150\%$ of the previous year, approximately how many new-energy vehicles will be produced in the whole year of $2025$ (rounded to the nearest $1$)?
+
+### Solution to Exercise 2
+
+By **Definition 4.3.1 (Geometric Sequence)**, the output forms a geometric sequence with first term $a_1=5000$ and common ratio $q=1.5$.
+
+The year $2017$ is the $1$st term, and the year $2025$ is the $9$th term.
+
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**,
+
+$$
+a_9=5000\times 1.5^8=5000\times 25.62890625\approx 128145.
+$$
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 4) In a certain city, the number of days with air quality rated "excellent" or "good" this year is $105$, and the goal is to reach $240$ days in $2$ years. What should the average annual growth rate of the number of "excellent" or "good" air-quality days be (rounded to $0.01$)?
+
+### Solution to Exercise 2
+
+Let the average annual growth rate be $r$. By **Definition 4.3.1 (Geometric Sequence)**,
+
+$$
+105\left(1+r\right)^2=240,\ \left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},\ 1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
+$$
+
+$$
+r=\frac{4}{\sqrt{7}}-1\approx 0.51.
+$$
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 5) Given that the general term of a sequence $\left\{a_n\right\}$ is $a_n=\frac{n^3}{3^n}$, find the value of $n$ at which $a_n$ attains its maximum
+
+### Solution to Exercise 2
+
+By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, compare $a_{n+1}$ with $a_n$.
+
+$$
+\frac{a_{n+1}}{a_n}=\frac{\left(n+1\right)^3/3^{n+1}}{n^3/3^n}=\frac{\left(n+1\right)^3}{3n^3}.
+$$
+
+Setting $\frac{\left(n+1\right)^3}{3n^3}\le 1$, i.e. $\left(n+1\right)^3\le 3n^3$, gives $n+1\le \sqrt\left[3\right]{3}n$.
+
+When $n=2$: $\frac{27}{24}> 1$; when $n=3$: $\frac{64}{81}< 1$.
+
+Hence $a_3> a_2$ and $a_4< a_3$, so the maximum is attained at $n=3$.
+
+$\blacksquare$
 
 ## Exercise 3
 
-(Exercise 1.2, Problem 3) As shown in the figure, given the parallelepiped $OABC-O'A'B'C'$, the point $G$ is the center of the lateral face $BB'C'C$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.
+(Exercise 4.3, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding geometric sequence $\left\{a_n\right\}$
 
-(1) Does $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ form a basis of space?
+(1) $a_1=4,\ q=-\frac{1}{2},\ n=8$;
 
-(2) If $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis of space, express the following vectors in terms of it: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
+(2) $a_1=1,\ a_n=2048,\ q=2$;
 
-(Figure: a parallelepiped $OABC-O'A'B'C'$ with $G$ the center of face $BB'C'C$; $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.)
+(3) $a_1=1,\ q=2,\ S_n=1023$.
 
 ### Solution to Exercise 3
 
-By **Definition 1.2.2 (Basis, Basis Vectors)** and **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
+(1) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
-(1) In the parallelepiped, $\boldsymbol{OA}$, $\boldsymbol{OC}$, $\boldsymbol{OO'}$ run along the directions of three non-coplanar edges, so they are not coplanar. By **Definition 1.2.2 (Basis, Basis Vectors)**, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis of space.
+$$
+S_8=\frac{4\left[1-\left(-\frac{1}{2}\right)^8\right]}{1-\left(-\frac{1}{2}\right)}=\frac{4\left(1-\frac{1}{256}\right)}{\frac{3}{2}}=\frac{8}{3}\times\frac{255}{256}=\frac{85}{32}.
+$$
 
-(2) By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**:
+$\blacksquare$
 
-$\boldsymbol{OB'}=\boldsymbol{OB}+\boldsymbol{BB'}=\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{OO'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
+(2) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
-$\boldsymbol{BA'}=\boldsymbol{BA}+\boldsymbol{AA'}=-\boldsymbol{OA}+\boldsymbol{OO'}=-\boldsymbol{a}+\boldsymbol{c}$.
+$$
+S_n=\frac{a_1-a_n q}{1-q}=\frac{1-2048\times 2}{1-2}=\frac{-4095}{-1}=4095.
+$$
 
-$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{OC}+\boldsymbol{OO'}=-\boldsymbol{b}+\boldsymbol{c}$.
+$\blacksquare$
 
-$G$ is the center of the lateral face $BB'C'C$, so $\boldsymbol{OG}=\boldsymbol{OC}+\boldsymbol{CG}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{CB}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{c}\right)=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
+(3) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
+
+$$
+1023=\frac{1-2^n}{1-2}=2^n-1,\ 2^n=1024,\ n=10.
+$$
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 2) Prove that $a^n+a^{n-1}b+\cdots+ab^{n-1}+b^n=\frac{a^{n+1}-b^{n+1}}{a-b}$ ($a\ne b$)
+
+### Solution to Exercise 3
+
+By **Definition 4.3.1 (Geometric Sequence)**, the left-hand side is the sum of the geometric sequence $a^n,a^{n-1}b,\cdots,b^n$, with first term $a^n$, common ratio $\frac{b}{a}$, and $n+1$ terms in total.
+
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
+
+$$
+S_{n+1}=\frac{a^n\left[1-\left(\frac{b}{a}\right)^{n+1}\right]}{1-\frac{b}{a}}=\frac{a^n\cdot\frac{a^{n+1}-b^{n+1}}{a^{n+1}}}{\frac{a-b}{a}}=\frac{a^{n+1}-b^{n+1}}{a-b}.
+$$
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 3) In a geometric sequence $\left\{a_n\right\}$, $a_2=6$, $6a_1+a_3=30$. Find $a_n$ and $S_n$
+
+### Solution to Exercise 3
+
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_2=a_1 q=6$ and $a_3=a_1 q^2$.
+
+$$
+6a_1+a_3=6a_1+a_1 q^2=30,\ a_1\left(6+q^2\right)=30.
+$$
+
+From $a_1=\frac{6}{q}$, we get $\frac{6}{q}\left(6+q^2\right)=30$, $6+q^2=5q$, $q^2-5q+6=0$, so $q=2$ or $q=3$.
+
+When $q=2$, $a_1=3$, $a_n=3\times 2^{n-1}$, $S_n=3\left(2^n-1\right)$.
+
+When $q=3$, $a_1=2$, $a_n=2\times 3^{n-1}$, $S_n=3^n-1$.
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 4) Three numbers form a geometric sequence; their sum is $14$ and their product is $64$. Find these three numbers
+
+### Solution to Exercise 3
+
+By **Definition 4.3.2 (Geometric Mean)**, let the three numbers be $\frac{a}{q},a,aq$.
+
+$$
+\frac{a}{q}+a+aq=14,\ \frac{a}{q}\cdot a\cdot aq=a^3=64.
+$$
+
+From $a^3=64$, we get $a=4$. Substituting into the sum: $\frac{4}{q}+4+4q=14$, $4q^2-10q+4=0$, so $q=2$ or $q=\frac{1}{2}$.
+
+The three numbers are $2,4,8$.
+
+$\blacksquare$
+
+(Exercise 4.3, Problem 5) Given that the sum of the first $5$ terms of a geometric sequence is $10$ and the sum of the first $10$ terms is $50$, find the common ratio $q$
+
+### Solution to Exercise 3
+
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
+
+$$
+S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,\ S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
+$$
+
+Dividing the two equations, $\frac{1-q^{10}}{1-q^5}=5$, so $1+q^5=5$, $q^5=4$, and $q=\sqrt\left[5\right]{4}$.
+
+$\blacksquare$
 
 ## Exercise 4
 
-(Exercise 1.2, Problem 1) Given a tetrahedron $OABC$ with $OB=OC$ and $\angle AOB=\angle AOC=\theta$. Prove that $OA \perp BC$.
+(Exercise 4.3, Problem 1) A ball is dropped freely from $100\ \mathrm{m}$, and each time it hits the ground it bounces back to half the previous height before falling again
+
+(1) When it hits the ground for the $5$th time, what total distance has it traveled?
+
+(2) After which impact does the total distance traveled first exceed $300\ \mathrm{m}$?
 
 ### Solution to Exercise 4
 
-By **Common Conclusion 1.1.13** (Properties of the Dot Product), to prove $OA \perp BC$ it suffices to prove $\boldsymbol{OA} \cdot \boldsymbol{BC}=0$.
-
-Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$; then $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$.
-
-$\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}$.
-
-By the given $OB=OC$, i.e. $\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$. Also $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=\theta$.
-
-Hence $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$, and $\boldsymbol{a} \cdot \boldsymbol{c}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{c} \rvert \cos\theta=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$.
-
-Therefore $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$, i.e. $\boldsymbol{a} \cdot \boldsymbol{BC}=0$.
-
-By **Common Conclusion 1.1.13**, $\boldsymbol{OA} \perp \boldsymbol{BC}$, i.e. $OA \perp BC$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 1.2, Problem 2) As shown in the figure, in the parallelepiped $ABCD-A'B'C'D'$, $AB=2$, $AD=2$, $AA'=3$, and $\angle BAD=\angle BAA'=\angle DAA'=60^\circ$. Find the cosine of the angle between $BC'$ and $CA'$.
-
-(Figure: a parallelepiped $ABCD-A'B'C'D'$, with the three edges from $A$ ($AB,AD,AA'$) making pairwise $60^\circ$ angles.)
-
-### Solution to Exercise 5
-
-By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
-
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=2$, $\lvert \boldsymbol{b} \rvert=2$, $\lvert \boldsymbol{c} \rvert=3$, and the pairwise angles are all $60^\circ$.
-
-$\boldsymbol{BC'}=\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{b}+\boldsymbol{c}$.
-
-$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{AC}+\boldsymbol{c}=-\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}$.
-
-First compute the dot product:
+(1) By **Definition 4.3.1 (Geometric Sequence)**, the rebound heights are $50,25,12.5,\cdots$, and the distance traveled by the $5$th impact is
 
 $$
-\boldsymbol{BC'} \cdot \boldsymbol{CA'}=\left(\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}+\boldsymbol{c}^2.
+S=100+2\left(50+25+12.5+6.25\right)=100+2\times\frac{50\left(1-0.5^4\right)}{1-0.5}=100+2\times 93.75=287.5\ \mathrm{m}.
 $$
 
-Simplifying: $=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2$.
+$\blacksquare$
 
-Here $\boldsymbol{a} \cdot \boldsymbol{b}=2 \times 2 \times \frac{1}{2}=2$, $\boldsymbol{a} \cdot \boldsymbol{c}=2 \times 3 \times \frac{1}{2}=3$, $\boldsymbol{b}^2=4$, and $\boldsymbol{c}^2=9$.
+(2) At the $n$th impact, the distance is
 
-Hence $\boldsymbol{BC'} \cdot \boldsymbol{CA'}=-2-4-3+9=0$.
+$$
+S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{1-0.5}=100+200\left(1-0.5^{n-1}\right).
+$$
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{BC'} \perp \boldsymbol{CA'}$, i.e. the cosine of the angle between $BC'$ and $CA'$ is $0$. $\blacksquare$
+Setting $S_n> 300$: $100+200\left(1-0.5^{n-1}\right)> 300$, so $1-0.5^{n-1}> 1$, which has no solution.
 
-## Exercise 6
+Actually, in $S_n=100+100\left(1-0.5^{n-1}\right)/\left(1-0.5\right)\times 2$, by the $n$th impact the ball has risen and fallen $n-1$ times:
 
-(Exercise 1.2, Problem 3) As shown in the figure, given a cube $ABCD-A'B'C'D'$, $CD'$ and $DC'$ intersect at point $O$; join $AO$. Prove that $AO \perp CD'$.
+$$
+S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{0.5}=100+200\left(1-0.5^{n-1}\right).
+$$
 
-(Figure: a cube $ABCD-A'B'C'D'$; $CD'$ and $DC'$ meet at the center $O$ of side face $CC'D'D$, and $AO$ is joined.)
+$S_n< 300$ always holds, and its limit is $300$, so it never exceeds $300\ \mathrm{m}$.
 
-### Solution to Exercise 6
+$\blacksquare$
 
-By **Common Conclusion 1.1.13** (Properties of the Dot Product).
+(Exercise 4.3, Problem 2) A dairy factory produces a batch of products. The funds on the first day are $100$ ten-thousand yuan, and each day's funds are $1.5$ times the previous day's. What are the funds on the $10$th day? What are the total funds over these $10$ days?
 
-Let the edge length of the cube be $1$, and take $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD'}\right\}$ as an orthonormal basis. Set $\boldsymbol{DA}=\boldsymbol{i}$, $\boldsymbol{DC}=\boldsymbol{j}$, $\boldsymbol{DD'}=\boldsymbol{k}$; then they are pairwise perpendicular and have modulus $1$.
+### Solution to Exercise 4
 
-$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\left(\boldsymbol{DC'}+\boldsymbol{DD}\right)$ in direction. In fact, $O$ is the intersection of $CD'$ and $DC'$, i.e. the center of the face $CC'D'D$.
+By **Definition 4.3.1 (Geometric Sequence)**, the first term is $a_1=100$ and the common ratio is $q=1.5$.
 
-$\boldsymbol{DO}=\frac{1}{2}\left(\boldsymbol{DC}+\boldsymbol{DD'}\right)=\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, the funds on the $10$th day are
 
-$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
+$$
+a_{10}=100\times 1.5^9\approx 3844.34\text{ 万元}.
+$$
 
-$\boldsymbol{CD'}=\boldsymbol{CD}+\boldsymbol{DD'}=-\boldsymbol{j}+\boldsymbol{k}$.
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, the total funds are
 
-$\boldsymbol{AO} \cdot \boldsymbol{CD'}=\left(-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\left(-\boldsymbol{j} \cdot \boldsymbol{j}\right)+\frac{1}{2}\boldsymbol{k} \cdot \boldsymbol{k}=-\frac{1}{2}+\frac{1}{2}=0$.
+$$
+S_{10}=\frac{100\left(1-1.5^{10}\right)}{1-1.5}=200\left(1.5^{10}-1\right)\approx 200\times 56.67=11334.67\text{ 万元}.
+$$
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{AO} \perp \boldsymbol{CD'}$, i.e. $AO \perp CD'$. $\blacksquare$
+$\blacksquare$
+
+(Exercise 4.3, Problem 3) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n$, with $a_1=1$, $S_n=2a_n+1$ ($n\in\mathbb N^*$), find $S_n$
+
+### Solution to Exercise 4
+
+By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n\ge 2$, $a_n=S_n-S_{n-1}$.
+
+From $S_n=2a_n+1$, we get $S_n=2\left(S_n-S_{n-1}\right)+1$, so $S_n=2S_{n-1}-1$.
+
+$$
+S_n-1=2\left(S_{n-1}-1\right).
+$$
+
+By **Definition 4.3.1 (Geometric Sequence)**, $\left\{S_n-1\right\}$ is a geometric sequence with first term $S_1-1=0$ and common ratio $2$.
+
+But the first term is $0$, so $S_n-1=0$ and $S_n=1$. Checking at $n=1$: $S_1=2a_1+1=3\ne 1$, a contradiction.
+
+Recalculating: $S_n=2a_n+1$, $a_1=1$, $S_1=3$.
+
+For $n\ge 2$, $S_n=2\left(S_n-S_{n-1}\right)+1$, $S_n=2S_{n-1}-1$, so $S_n-1=2\left(S_{n-1}-1\right)$.
+
+$S_1-1=2$, so $S_n-1=2\times 2^{n-1}=2^n$, and $S_n=2^n+1$.
+
+$\blacksquare$
 
 ## Problem 1
 
-(Exercise 1.2, Review and Consolidation, Problem 1) If the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ cannot form a basis of space with any other vector, what relationship must exist between $\boldsymbol{a}$ and $\boldsymbol{b}$?
+(Exercise 4.3, Review and Consolidation, Problem 1) In a geometric sequence $\left\{a_n\right\}$
+
+(1) $a_4=27$, $q=-3$, find $a_7$;
+
+(2) $a_2=18$, $a_4=8$, find $a_1$ and $q$.
 
 ### Solution to Problem 1
 
-By **Definition 1.2.2 (Basis, Basis Vectors)**, the necessary and sufficient condition for three vectors to form a basis of space is that they are not coplanar.
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_7=a_4 q^3=27\times\left(-3\right)^3=27\times\left(-27\right)=-729$.
 
-The fact that $\boldsymbol{a}$, $\boldsymbol{b}$ cannot form a basis of space with any vector means that for any vector $\boldsymbol{c}$, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ never forms a basis, i.e. $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are always coplanar.
+$\blacksquare$
 
-This is possible only when $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear (parallel): if $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear, they determine a line, and any third vector $\boldsymbol{c}$ may be coplanar with them (because collinear vectors are coplanar with any vector).
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $q^2=\frac{a_4}{a_2}=\frac{8}{18}=\frac{4}{9}$, so $q=\pm\frac{2}{3}$.
 
-Conversely, if $\boldsymbol{a}$, $\boldsymbol{b}$ are not collinear, then there exists a vector $\boldsymbol{c}$ lying outside the plane they span, so that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis.
+When $q=\frac{2}{3}$, $a_1=\frac{18}{2/3}=27$; when $q=-\frac{2}{3}$, $a_1=\frac{18}{-2/3}=-27$.
 
-Hence $\boldsymbol{a}$, $\boldsymbol{b}$ must be collinear (parallel). $\blacksquare$
+$\blacksquare$
 
-## Problem 2
+(Exercise 4.3, Review and Consolidation, Problem 2) In a geometric sequence $\left\{a_n\right\}$
 
-(Exercise 1.2, Review and Consolidation, Problem 2) If $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis of space, then among the following vectors, the non-coplanar one is ( ).
+(1) $a_5-a_1=15$, $a_4-a_2=6$, find $a_3$;
 
-(A) $\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{b}$, $\boldsymbol{b}-\boldsymbol{c}$ (B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ (C) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$, $\boldsymbol{c}$ (D) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{c}$
+(2) $a_1+a_3=10$, $a_4+a_6=\frac{5}{4}$, find $a_4$.
 
-### Solution to Problem 2
+### Solution to Problem 1
 
-By **Definition 1.2.2 (Basis, Basis Vectors)**, determine whether three vectors are coplanar.
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1\left(q^4-1\right)=15$, $a_1 q\left(q^2-1\right)=6$.
 
-(A) $\boldsymbol{b}$, $\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{b}-\boldsymbol{c}$ all lie in the plane spanned by $\boldsymbol{b}$, $\boldsymbol{c}$; coplanar.
+Dividing the two equations, $\frac{q^4-1}{q\left(q^2-1\right)}=\frac{15}{6}=\frac{5}{2}$, so $\frac{q^2+1}{q}=\frac{5}{2}$, $2q^2-5q+2=0$, and $q=2$ or $q=\frac{1}{2}$.
 
-(B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ all lie in the plane spanned by $\boldsymbol{a}$, $\boldsymbol{b}$; coplanar.
+When $q=2$, $a_1=1$, $a_3=4$; when $q=\frac{1}{2}$, $a_1=-16$, $a_3=-4$.
 
-(C) Suppose $\boldsymbol{c}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$; this contradicts $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ being a basis. Hence not coplanar.
+$\blacksquare$
 
-(D) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}$; the three vectors are coplanar.
+(2) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_1\left(1+q^2\right)=10$, $a_1 q^3\left(1+q^2\right)=\frac{5}{4}$.
 
-Hence the answer is (C). $\blacksquare$
+Dividing the two equations, $q^3=\frac{1}{8}$, so $q=\frac{1}{2}$.
 
-## Problem 3
+$a_1\left(1+\frac{1}{4}\right)=10$, so $a_1=8$. Then $a_4=8\times\left(\frac{1}{2}\right)^3=1$.
 
-(Exercise 1.2, Review and Consolidation, Problem 3) Given a tetrahedron $OABC$, $M$, $N$ are the midpoints of edges $OA$, $BC$, respectively, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. Express the vector $\boldsymbol{MN}$ in terms of $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
+$\blacksquare$
 
-### Solution to Problem 3
+(Exercise 4.3, Review and Consolidation, Problem 3) Find the sum of each of the following
 
-By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
+(1) $1+2+4+\cdots+2^n$;
 
-$\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\frac{1}{2}\left(\boldsymbol{OB}+\boldsymbol{OC}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
+(2) $\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\cdots+\frac{1}{2^n}$.
 
-## Problem 4
+### Solution to Problem 1
 
-(Exercise 1.2, Review and Consolidation, Problem 4) As shown in the figure, translate $\triangle ABC$ in space to $\triangle A'B'C'$, and join the corresponding vertices. Set $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$; $M$ is the midpoint of $BC'$ and $N$ is the midpoint of $B'C'$. Express the vectors $\boldsymbol{AM}$, $\boldsymbol{AN}$ in terms of the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$.
-
-(Figure: $\triangle ABC$ translated to $\triangle A'B'C'$, with $M$ the midpoint of $BC'$ and $N$ the midpoint of $B'C'$.)
-
-### Solution to Problem 4
-
-By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
-
-$\boldsymbol{AM}=\boldsymbol{AB}+\boldsymbol{BM}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{BC'}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
-
-$\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{A'C'}+\frac{1}{2}\boldsymbol{A'B'}$ in direction. In fact, $N$ is the midpoint of $B'C'$, and $\boldsymbol{A'N}=\frac{1}{2}\left(\boldsymbol{A'B'}+\boldsymbol{A'C'}\right)=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)$.
-
-Hence $\boldsymbol{AN}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
-
-## Problem 5
-
-(Exercise 1.2, Comprehensive Application, Problem 5) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, $M$ is the intersection of $AC$ and $BD$. If $D_1A_1=2$, $D_1C_1=2$, $D_1D=3$, find the length of $B_1M$.
-
-(Figure: a cuboid $ABCD-A_1B_1C_1D_1$, with $M$ the intersection of the base diagonals $AC$ and $BD$.)
-
-### Solution to Problem 5
-
-By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
-
-Take $D_1$ as the origin, with $\boldsymbol{D_1A_1}=\boldsymbol{i}$, $\boldsymbol{D_1C_1}=\boldsymbol{j}$, $\boldsymbol{D_1D}=\boldsymbol{k}$; they are pairwise perpendicular, and $\lvert \boldsymbol{i} \rvert=2$, $\lvert \boldsymbol{j} \rvert=2$, $\lvert \boldsymbol{k} \rvert=3$.
-
-$M$ is the intersection of $AC$ and $BD$, i.e. the center of the base $ABCD$.
-
-$\boldsymbol{D_1M}=\frac{1}{2}\left(\boldsymbol{D_1A}+\boldsymbol{D_1C}\right)=\frac{1}{2}\left(\boldsymbol{i}+\boldsymbol{k}+\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
-
-$\boldsymbol{D_1B_1}=\boldsymbol{i}+\boldsymbol{j}$.
-
-$\boldsymbol{B_1M}=\boldsymbol{D_1M}-\boldsymbol{D_1B_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}-\boldsymbol{i}-\boldsymbol{j}=-\frac{1}{2}\boldsymbol{i}-\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
+(1) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, the first term is $1$, the common ratio is $2$, and there are $n+1$ terms.
 
 $$
-\lvert \boldsymbol{B_1M} \rvert^2=\frac{1}{4}\lvert \boldsymbol{i} \rvert^2+\frac{1}{4}\lvert \boldsymbol{j} \rvert^2+\lvert \boldsymbol{k} \rvert^2=\frac{1}{4} \times 4+\frac{1}{4} \times 4+9=1+1+9=11.
+S_{n+1}=\frac{1-2^{n+1}}{1-2}=2^{n+1}-1.
 $$
 
-Hence $B_1M=\sqrt{11}$. $\blacksquare$
+$\blacksquare$
 
-## Problem 6
-
-(Exercise 1.2, Comprehensive Application, Problem 6) As shown in the figure, the base $ABCD$ of the parallelepiped $ABCD-A_1B_1C_1D_1$ is a rhombus, and $\angle C_1CB=\angle C_1CD=\angle BCD=60^\circ$, $CD=CC_1$. Prove that $CA_1 \perp$ the plane $C_1BD$.
-
-(Figure: a parallelepiped $ABCD-A_1B_1C_1D_1$ with rhombus base $ABCD$, $CD=CC_1$, and the three angles at vertex $C$ all equal to $60^\circ$.)
-
-### Solution to Problem 6
-
-By **Common Conclusion 1.1.13** (Properties of the Dot Product).
-
-Set $\boldsymbol{CD}=\boldsymbol{a}$, $\boldsymbol{CB}=\boldsymbol{b}$, $\boldsymbol{CC_1}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$ (because the base is a rhombus and $CD=CC_1$), and the pairwise angles are all $60^\circ$.
-
-$\boldsymbol{CA_1}=\boldsymbol{CA}+\boldsymbol{AA_1}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
-
-$\boldsymbol{C_1D}=\boldsymbol{CD}-\boldsymbol{CC_1}=\boldsymbol{a}-\boldsymbol{c}$.
-
-$\boldsymbol{C_1B}=\boldsymbol{CB}-\boldsymbol{CC_1}=\boldsymbol{b}-\boldsymbol{c}$.
-
-$\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}-\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2$.
-
-Because $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$ and the pairwise angles are $60^\circ$, $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}$, so the above $=\boldsymbol{a}^2-\boldsymbol{c}^2=0$.
-
-Similarly $\boldsymbol{CA_1} \cdot \boldsymbol{C_1B}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c}^2=0$.
-
-By **Common Conclusion 1.1.13**, $\boldsymbol{CA_1} \perp \boldsymbol{C_1D}$ and $\boldsymbol{CA_1} \perp \boldsymbol{C_1B}$. Moreover $C_1D \cap C_1B=C_1$, so $CA_1 \perp$ the plane $C_1BD$. $\blacksquare$
-
-## Problem 7
-
-(Exercise 1.2, Extension and Exploration, Problem 7) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $E$, $F$ are the midpoints of $DD_1$, $BD$, respectively, and the point $G$ lies on $CD$ with $CG=\frac{1}{4}CD$.
-
-(1) Prove that $EF \perp B_1C$;
-
-(2) Find the cosine of the angle between $EF$ and $C_1G$.
-
-(Figure: a cube $ABCD-A_1B_1C_1D_1$ of side $1$, with $E$ the midpoint of $DD_1$, $F$ the midpoint of $BD$, and $G$ on $CD$ with $CG=\frac{1}{4}CD$.)
-
-### Solution to Problem 7
-
-By **Common Conclusion 1.1.13** (Properties of the Dot Product) and **Definition 1.1.12 (Dot Product)**.
-
-Take $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD_1}\right\}$ as the orthonormal basis, denoted by $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$.
-
-(1) $E$ is the midpoint of $DD_1$, and $F$ is the midpoint of $BD$.
-
-$\boldsymbol{EF}=\boldsymbol{DF}-\boldsymbol{DE}=\frac{1}{2}\boldsymbol{DB}-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\left(\boldsymbol{DA}+\boldsymbol{DC}\right)-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}$.
-
-$\boldsymbol{B_1C}=\boldsymbol{B_1B}+\boldsymbol{BC}=-\boldsymbol{k}-\boldsymbol{i}=-\boldsymbol{i}-\boldsymbol{k}$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{B_1C}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{i}-\boldsymbol{k}\right)=-\frac{1}{2}+\frac{1}{2}=0$.
-
-By **Common Conclusion 1.1.13**, $EF \perp B_1C$.
-
-(2) $G$ lies on $CD$ with $CG=\frac{1}{4}CD$, so $\boldsymbol{C_1G}=\boldsymbol{C_1C}+\boldsymbol{CG}=-\boldsymbol{k}+\frac{1}{4}\left(-\boldsymbol{j}\right)=-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{C_1G}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}\right)=-\frac{1}{8}+\frac{1}{2}=\frac{3}{8}$.
-
-$\lvert \boldsymbol{EF} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+\frac{1}{4}}=\frac{\sqrt{3}}{2}$.
-
-$\lvert \boldsymbol{C_1G} \rvert=\sqrt{\frac{1}{16}+1}=\frac{\sqrt{17}}{4}$.
-
-$\cos \theta=\frac{\frac{3}{8}}{\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{17}}{4}}=\frac{\frac{3}{8}}{\frac{\sqrt{51}}{8}}=\frac{3}{\sqrt{51}}=\frac{\sqrt{51}}{17}$. $\blacksquare$
-
-## Problem 8
-
-(Exercise 1.2, Extension and Exploration, Problem 8) Given that in a tetrahedron the distances between the midpoints of the three pairs of opposite edges are all equal, prove that the opposite edges of this tetrahedron are pairwise perpendicular.
-
-### Solution to Problem 8
-
-By **Common Conclusion 1.1.13** (Properties of the Dot Product).
-
-Consider the tetrahedron $OABC$; the midpoint connections of the three pairs of opposite edges are: the segment joining the midpoints of $AB$ and $OC$, the segment joining the midpoints of $BC$ and $OA$, and the segment joining the midpoints of $CA$ and $OB$.
-
-Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
-
-$M_1$ is the midpoint of $AB$ and $N_1$ the midpoint of $OC$: $\boldsymbol{M_1N_1}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
-
-$M_2$ is the midpoint of $BC$ and $N_2$ the midpoint of $OA$: $\boldsymbol{M_2N_2}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)=\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)$.
-
-$M_3$ is the midpoint of $CA$ and $N_3$ the midpoint of $OB$: $\boldsymbol{M_3N_3}=\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\left(\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$.
-
-The distances between the three pairs of midpoints are equal, i.e. $\lvert \boldsymbol{M_1N_1} \rvert=\lvert \boldsymbol{M_2N_2} \rvert=\lvert \boldsymbol{M_3N_3} \rvert$.
-
-From $\lvert \boldsymbol{M_1N_1} \rvert^2=\lvert \boldsymbol{M_2N_2} \rvert^2$:
+(2) The first term is $\frac{1}{2}$, the common ratio is $\frac{1}{2}$, and there are $n$ terms.
 
 $$
-\frac{1}{4}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\frac{1}{4}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)^2.
+S_n=\frac{\frac{1}{2}\left(1-\frac{1}{2^n}\right)}{1-\frac{1}{2}}=1-\frac{1}{2^n}.
 $$
 
-Expanding: $\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$ (identical), which is an identity, showing that one must compare different pairs.
+$\blacksquare$
 
-In fact, the three midpoint-connecting segments being equal in length means:
+(Exercise 4.3, Comprehensive Application, Problem 4) The radioactive element uranium emits radiation and, after a certain time, decays into other elements; this phenomenon is called decay. Experiments show that the amount of uranium decaying per second is proportional to the amount present at that time, with proportionality constant $k> 0$. Let the initial amount of uranium be $N_0$
 
-$\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c} \rvert^2$.
+(1) Write an expression for the amount $N\left(t\right)$ of uranium after $t$ seconds;
 
-Equating the first two: expanding $\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)^2$ gives $-4\boldsymbol{a} \cdot \boldsymbol{b}+4\boldsymbol{b} \cdot \boldsymbol{c}=4\boldsymbol{a} \cdot \boldsymbol{b}-4\boldsymbol{a} \cdot \boldsymbol{c}$, i.e. $-\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}$, i.e. $2\boldsymbol{b} \cdot \boldsymbol{c}+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}=0$.
+(2) Given that the half-life of uranium is $45$ hundred-million years, find the value of $k$.
 
-But more directly, take $\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2$:
+### Solution to Problem 1
 
-$\left(\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{a}\right)^2=\left(\boldsymbol{a}+\boldsymbol{c}-\boldsymbol{b}\right)^2$.
+(1) By **Definition 4.3.1 (Geometric Sequence)**, the amount remaining each second is $1-k$ times the previous second's amount,
 
-Expanding: $\boldsymbol{b}^2+\boldsymbol{c}^2+\boldsymbol{a}^2+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{c}^2+\boldsymbol{b}^2+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{b} \cdot \boldsymbol{c}$.
+$$
+N\left(t\right)=N_0\left(1-k\right)^\top.
+$$
 
-Simplifying gives $4\boldsymbol{b} \cdot \boldsymbol{c}-4\boldsymbol{a} \cdot \boldsymbol{c}=0$, i.e. $\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=0$.
+$\blacksquare$
 
-Since $\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$ and $\boldsymbol{OC}=\boldsymbol{c}$, we have $\boldsymbol{AB} \cdot \boldsymbol{OC}=0$, i.e. $AB \perp OC$.
+(2) The half-life is when $N\left(t\right)=\frac{N_0}{2}$, i.e. $t=45\times 10^8$ years.
 
-Similarly, comparing the other two pairs gives $BC \perp OA$, $CA \perp OB$.
+$$
+\left(1-k\right)^{45\times 10^8}=\frac{1}{2},\ 1-k=2^{-1/\left(45\times 10^8\right)},\ k=1-2^{-1/\left(45\times 10^8\right)}.
+$$
 
-Hence the opposite edges of the tetrahedron are pairwise perpendicular. $\blacksquare$
+$\blacksquare$
+
+(Exercise 4.3, Comprehensive Application, Problem 5) Given that the sum of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $S_n$, and that $S_3,S_9,S_6$ form an arithmetic sequence. Prove that $a_2,a_8,a_5$ form an arithmetic sequence
+
+### Solution to Problem 1
+
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, $2S_9=S_3+S_6$.
+
+$$
+2\cdot\frac{a_1\left(1-q^9\right)}{1-q}=\frac{a_1\left(1-q^3\right)}{1-q}+\frac{a_1\left(1-q^6\right)}{1-q}.
+$$
+
+$$
+2\left(1-q^9\right)=1-q^3+1-q^6,\ 2q^9=q^3+q^6,\ 2q^6=1+q^3.
+$$
+
+To prove that $a_2,a_8,a_5$ form an arithmetic sequence, it suffices to show $2a_8=a_2+a_5$.
+
+$$
+2a_1 q^7=a_1 q+a_1 q^4,\ 2q^6=1+q^3.
+$$
+
+Since the latter equation holds, $a_2,a_8,a_5$ form an arithmetic sequence.
+
+$\blacksquare$
+
+(Exercise 4.3, Comprehensive Application, Problem 6) Write a general term formula for the sequence $1,11,111,1111,\cdots$, and find the sum of the first $n$ terms
+
+### Solution to Problem 1
+
+By **Definition 4.1.5 (General Term Formula)**,
+
+$$
+a_n=\frac{10^n-1}{9}.
+$$
+
+By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
+
+$$
+S_n=\sum_{k=1}^n\frac{10^k-1}{9}=\frac{1}{9}\left(\frac{10\left(10^n-1\right)}{9}-n\right)=\frac{10^{n+1}-9n-10}{81}.
+$$
+
+$\blacksquare$
+
+(Exercise 4.3, Comprehensive Application, Problem 7) Given that a sequence $\left\{a_n\right\}$ satisfies $a_{n+1}+a_n=3\times 2^n$ ($n\in\mathbb N^*$)
+
+(1) Prove that the sequence $\left\{a_{n+1}-2^n\right\}$ is a geometric sequence;
+
+(2) Find the value of $a_1$ that makes $\left\{a_n\right\}$ a geometric sequence.
+
+### Solution to Problem 1
+
+(1) From $a_{n+1}+a_n=3\times 2^n$, we get $a_{n+2}+a_{n+1}=3\times 2^{n+1}$.
+
+Subtracting the two equations, $a_{n+2}-a_n=3\times 2^n$.
+
+$$
+a_{n+2}-2^{n+1}=a_n+3\times 2^n-2\times 2^n=a_n+2^n.
+$$
+
+$$
+\frac{a_{n+2}-2^{n+1}}{a_{n+1}-2^n}=\frac{a_n+2^n}{a_{n+1}-2^n}.
+$$
+
+From $a_{n+1}=3\times 2^n-a_n$, we have $a_{n+1}-2^n=2\times 2^n-a_n=2^{n+1}-a_n$,
+
+$$
+a_{n+2}-2^{n+1}=a_n+2^n=-\left(a_{n+1}-2^n\right)+2^{n+1}+2^n=-\left(a_{n+1}-2^n\right)+3\times 2^n.
+$$
+
+Continuing: $a_{n+1}-2^n=2\left(2^n-a_n\right)=-2\left(a_n-2^n\right)$,
+
+hence $\frac{a_{n+2}-2^{n+1}}{a_{n+1}-2^n}=-2$, so it is a geometric sequence.
+
+$\blacksquare$
+
+(2) If $\left\{a_n\right\}$ is a geometric sequence, let its common ratio be $q$.
+
+$a_2+a_1=6$, $a_3+a_2=12$. And $a_2=a_1 q$, $a_3=a_1 q^2$.
+
+$$
+a_1\left(q+1\right)=6,\ a_1 q\left(q+1\right)=12.
+$$
+
+Dividing the two equations, $q=2$ and $a_1=2$.
+
+$\blacksquare$
+
+(Exercise 4.3, Comprehensive Application, Problem 8) Given that a sequence $\left\{a_n\right\}$ satisfies $a_{n+1}=2a_n+1$ ($n\in\mathbb N^*$)
+
+(1) If $a_1=1$, find $a_2,a_3$ and conjecture the general term formula;
+
+(2) Prove that $\left\{a_n+1\right\}$ is a geometric sequence.
+
+### Solution to Problem 1
+
+(1) $a_2=2\times 1+1=3$, $a_3=2\times 3+1=7$.
+
+Conjecture: $a_n=2^n-1$.
+
+$\blacksquare$
+
+(2) From $a_{n+1}=2a_n+1$, we get $a_{n+1}+1=2\left(a_n+1\right)$.
+
+By **Definition 4.3.1 (Geometric Sequence)**, $\left\{a_n+1\right\}$ is a geometric sequence with common ratio $2$.
+
+$\blacksquare$
+
+(Exercise 4.3, Extension and Exploration, Problem 9) In epidemiology, the basic reproduction number $R_0$ is the average number of people an infected person can transmit to in a population with no immunity. If $R_0=3.8$, then one infected person infects an average of $3.8$ people during their infectious period
+
+(1) If no measures are taken, after $n$ rounds of transmission from one infected person, how many people are infected in total?
+
+(2) To control the epidemic, the basic reproduction number $R_0$ must be reduced below $1$. Find the maximum allowable value of $R_0$.
+
+### Solution to Problem 1
+
+(1) By **Definition 4.3.1 (Geometric Sequence)**, the number of infected people per round is $1,R_0,R_0^2,\cdots,R_0^n$.
+
+After $n$ rounds, the total number infected is
+
+$$
+S_n=\frac{R_0^{n+1}-1}{R_0-1}=\frac{3.8^{n+1}-1}{2.8}.
+$$
+
+$\blacksquare$
+
+(2) To prevent the epidemic from spreading, we need $R_0\le 1$, so the maximum allowable value is $1$.
+
+$\blacksquare$
+
+(Exercise 4.3, Extension and Exploration, Problem 10) Given that the product of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $T_n$, with $a_1> 1$ and $a_{2016}a_{2017}< 0$. Find the value of $n$ at which $T_n$ attains its maximum
+
+### Solution to Problem 1
+
+By **Definition 4.3.1 (Geometric Sequence)**, $a_{2016}a_{2017}=a_{2016}^2 q< 0$, hence $q< 0$.
+
+$a_1> 1$ and $a_{2016}a_{2017}< 0$ mean that $a_{2016}$ and $a_{2017}$ have opposite signs, i.e. the sequence changes from positive to negative around the $2016$th term.
+
+The product of the first $n$ terms is $T_n=a_1^n q^{n\left(n-1\right)/2}$; $T_n$ is maximal when the terms have the largest absolute values and positive sign.
+
+$T_{2016}=a_1^{2016} q^{2016\times 2015/2}$; since $a_{2016}> 0,a_{2017}< 0$, we have $T_{2016}> 0$ and $T_{2017}< 0$.
+
+Moreover, when $\lvert a_{2016}\rvert> 1$ and $\lvert a_{2017}\rvert< 1$, $T_{2016}$ is maximal, so $n=2016$.
+
+$\blacksquare$
+
+(Exercise 4.3, Extension and Exploration, Problem 11) Given that a sequence $\left\{a_n\right\}$ satisfies $a_{n+1}=\frac{3a_n}{2a_n+1}$ ($n\in\mathbb N^*$), with $a_1=1$
+
+(1) Prove that $\left\{\frac{1}{a_n}\right\}$ is an arithmetic sequence;
+
+(2) Find the general term formula of $\left\{a_n\right\}$.
+
+### Solution to Problem 1
+
+(1) From $a_{n+1}=\frac{3a_n}{2a_n+1}$, take reciprocals.
+
+$$
+\frac{1}{a_{n+1}}=\frac{2a_n+1}{3a_n}=\frac{2}{3}+\frac{1}{3a_n}.
+$$
+
+$$
+\frac{1}{a_{n+1}}-\frac{1}{3}=\frac{1}{3}\left(\frac{1}{a_n}-\frac{1}{3}\right).
+$$
+
+By **Definition 4.3.1 (Geometric Sequence)**, $\left\{\frac{1}{a_n}-\frac{1}{3}\right\}$ is a geometric sequence with common ratio $\frac{1}{3}$.
+
+$\frac{1}{a_n}-\frac{1}{3}=\left(1-\frac{1}{3}\right)\left(\frac{1}{3}\right)^{n-1}=\frac{2}{3^n}$.
+
+$$
+\frac{1}{a_n}=\frac{1}{3}+\frac{2}{3^n}.
+$$
+
+$\blacksquare$
+
+(2) From the above,
+
+$$
+a_n=\frac{1}{\frac{1}{3}+\frac{2}{3^n}}=\frac{3^{n-1}}{1+2\times 3^{n-2}}\text{ \left(化简后\right)}.
+$$
+
+$\blacksquare$
+
+(Exercise 4.3, Extension and Exploration, Problem 12) Given that a sequence $\left\{a_n\right\}$ is a geometric sequence, with sum of the first $n$ terms $S_n$, and $b_n=\frac{S_n}{n}$
+
+(1) Prove that $\left\{b_n\right\}$ is not a geometric sequence;
+
+(2) If $\left\{a_n\right\}$ is an arithmetic sequence, prove that $\left\{b_n\right\}$ is an arithmetic sequence.
+
+### Solution to Problem 1
+
+(1) Let the common ratio of $\left\{a_n\right\}$ be $q\ne 1$. Then $b_1=a_1$, $b_2=\frac{a_1\left(1+q\right)}{2}$, $b_3=\frac{a_1\left(1+q+q^2\right)}{3}$.
+
+$$
+\frac{b_2}{b_1}=\frac{1+q}{2},\ \frac{b_3}{b_2}=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}.
+$$
+
+If $\left\{b_n\right\}$ were a geometric sequence, $\left(\frac{1+q}{2}\right)^2=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}\cdot\frac{1+q}{2}$.
+
+Simplifying gives $3\left(1+q\right)^2=4\left(1+q+q^2\right)$, $3+6q+3q^2=4+4q+4q^2$, $q^2-2q+1=0$, so $q=1$.
+
+But $q\ne 1$, a contradiction; hence $\left\{b_n\right\}$ is not a geometric sequence.
+
+$\blacksquare$
+
+(2) If $\left\{a_n\right\}$ is an arithmetic sequence, by **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+
+$$
+b_n=a_1+\frac{\left(n-1\right)d}{2}.
+$$
+
+$b_{n+1}-b_n=\frac{d}{2}$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{b_n\right\}$ is an arithmetic sequence.
+
+$\blacksquare$
+
+## Exercise 5
+
+(Exercise 4.4, Problem 1) Analyze whether the following proofs by mathematical induction are correct, and explain why
+
+(1) Prove by mathematical induction: $1+2+3+\cdots+n=\frac{n\left(n+1\right)}{2}$.
+
+Proof: (1) When $n=1$, the left-hand side $=1$, and the right-hand side $=\frac{1\times 2}{2}=1$, so the equality holds.
+
+(2) Assume the equality holds when $n=k$, i.e. $1+2+3+\cdots+k=\frac{k\left(k+1\right)}{2}$.
+
+Then $1+2+3+\cdots+k+\left(k+1\right)=\frac{k\left(k+1\right)}{2}+\left(k+1\right)=\frac{\left(k+1\right)\left(k+2\right)}{2}$.
+
+That is, the equality also holds when $n=k+1$.
+
+From (1) and (2), the equality holds for any $n\in\mathbb N^*$.
+
+(2) Prove by mathematical induction: when $n\in\mathbb N^*$, $1+3+5+\cdots+\left(2n-1\right)=n^2$.
+
+Proof: (1) When $n=1$, the left-hand side $=1$, and the right-hand side $=1$, so the equality holds.
+
+(2) Assume the equality holds when $n=k$, i.e. $1+3+5+\cdots+\left(2k-1\right)=k^2$.
+
+Then $1+3+5+\cdots+\left(2k-1\right)+\left(2k+1\right)=k^2+2k+1=\left(k+1\right)^2$.
+
+That is, the equality also holds when $n=k+1$.
+
+From (1) and (2), the equality holds for any $n\in\mathbb N^*$.
+
+### Solution to Exercise 5
+
+(1) By **Definition 4.4.1 (Mathematical Induction)**, the basis step (1) is correct, and in the inductive step (2) the deduction from the hypothesis at $n=k$ to the conclusion at $n=k+1$ is correct; the whole proof is correct.
+
+$\blacksquare$
+
+(2) By **Definition 4.4.1 (Mathematical Induction)**, the basis step (1) is correct, and in the inductive step (2) the deduction from the hypothesis at $n=k$ to the conclusion at $n=k+1$ is correct; the whole proof is correct.
+
+$\blacksquare$
+
+(Exercise 4.4, Problem 2) Prove by mathematical induction: the sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$ is $S_n=\frac{n\left(a_1+a_n\right)}{2}$; the general term formula of a geometric sequence with first term $a_1$ and common ratio $q$ is $a_n=a_1 q^{n-1}$, and the sum of its first $n$ terms is $S_n=\frac{a_1\left(1-q^n\right)}{1-q}$ ($q\ne 1$)
+
+### Solution to Exercise 5
+
+First prove the sum formula for the first $n$ terms of an arithmetic sequence.
+
+(1) When $n=1$, $S_1=a_1=\frac{1\cdot\left(a_1+a_1\right)}{2}=a_1$, which holds.
+
+(2) Assume when $n=k$, $S_k=\frac{k\left(a_1+a_k\right)}{2}$.
+
+By **Definition 4.4.1 (Mathematical Induction)**, when $n=k+1$,
+
+$$
+S_{k+1}=S_k+a_{k+1}=\frac{k\left(a_1+a_k\right)}{2}+a_{k+1}.
+$$
+
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_k=a_1+\left(k-1\right)d$ and $a_{k+1}=a_1+kd$.
+
+$$
+S_{k+1}=\frac{k\left[a_1+a_1+\left(k-1\right)d\right]}{2}+a_1+kd=\frac{k\left[2a_1+\left(k-1\right)d\right]}{2}+a_1+kd.
+$$
+
+$$
+=\frac{ka_1+\frac{k\left(k-1\right)}{2}d+a_1+kd}{1}=\frac{\left(k+1\right)\left(a_1+a_{k+1}\right)}{2}.
+$$
+
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds for all $n\in\mathbb N^*$.
+
+$\blacksquare$
+
+Next prove the general term formula of a geometric sequence.
+
+(1) When $n=1$, $a_1=a_1 q^0=a_1$, which holds.
+
+(2) Assume when $n=k$, $a_k=a_1 q^{k-1}$.
+
+When $n=k+1$, by **Definition 4.3.1 (Geometric Sequence)**, $a_{k+1}=a_k q=a_1 q^{k-1}\cdot q=a_1 q^k$.
+
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds for all $n\in\mathbb N^*$.
+
+$\blacksquare$
+
+Next prove the sum formula for the first $n$ terms of a geometric sequence.
+
+(1) When $n=1$, $S_1=a_1=\frac{a_1\left(1-q\right)}{1-q}=a_1$, which holds.
+
+(2) Assume when $n=k$, $S_k=\frac{a_1\left(1-q^k\right)}{1-q}$.
+
+When $n=k+1$,
+
+$$
+S_{k+1}=S_k+a_{k+1}=\frac{a_1\left(1-q^k\right)}{1-q}+a_1 q^k=\frac{a_1\left(1-q^k\right)+a_1 q^k\left(1-q\right)}{1-q}=\frac{a_1\left(1-q^{k+1}\right)}{1-q}.
+$$
+
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds for all $n\in\mathbb N^*$.
+
+$\blacksquare$

@@ -1,477 +1,561 @@
 # week56
-> **定义 1.1.1 (空间向量)**
+> **定义 2.1.2 (斜率)**
 > 
-> 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模. 空间向量也用有向线段表示, 有向线段的长度表示空间向量的模. 向量 $\boldsymbol{a}$ 的起点是 $A$, 终点是 $B$, 则向量 $\boldsymbol{a}$ 也可以记作 $\boldsymbol{AB}$, 其模记为 $\lvert \boldsymbol{a} \rvert$ 或 $\lvert \boldsymbol{AB} \rvert$.
-> **定义 1.1.2 (相反向量)**
+> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> **定义 2.2.1 (点斜式方程)**
 > 
-> 与向量 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
-> **定义 1.1.3 (共线向量或平行向量)**
+> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **定义 2.2.6 (一般式方程)**
 > 
-> 方向相同或相反的非零向量叫做平行向量 (或共线向量). 规定零向量与任一向量平行.
-> **定义 1.1.4 (相等向量)**
+> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
+> **定义 2.4.1 (圆的标准方程)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
-> **定义 1.1.5 (属于与不属于)**
+> 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
+> **定义 2.4.3 (圆的一般方程)**
 > 
-> 空间向量的加法,减法和数乘运算与平面向量相同, 满足交换律,结合律和分配律.
-> **定义 1.1.12 (向量的数量积)**
+> 点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
+> **定义 3.1.1 (椭圆)**
 > 
-> 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> **定义 3.1.3 (椭圆的标准方程)**
+> 
+> 平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
+> **定义 3.1.7 (椭圆的离心率)**
+> 
+> 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
+> **定义 3.2.1 (双曲线)**
+> 
+> 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
+> **定义 4.1.1 (数列)**
+> 
+> 按照确定的顺序排列的一列数称为数列, 数列中的每一个数叫做这个数列的项.
+> **定义 4.1.2 (有穷数列与无穷数列)**
+> 
+> 项数有限的数列叫做有穷数列, 项数无限的数列叫做无穷数列.
+> **定义 4.1.3 (数列是特殊函数)**
+> 
+> 数列 $\left\{a_n\right\}$ 是从正整数集 $\mathbb N^*$ (或它的有限子集 $\left\{1,2,\cdots,n\right\}$ ) 到实数集 $\mathbb R$ 的函数, 其自变量是序号 $n$, 对应的函数值是数列的第 $n$ 项 $a_n$, 记为 $a_n=f\left(n\right)$.
+> **定义 4.1.4 (递增数列与递减数列)**
+> 
+> 如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
+> **定义 4.1.5 (通项公式)**
+> 
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **定义 4.1.6 (递推公式)**
+> 
+> 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **定义 4.1.7 (前 $n$ 项和)**
+> 
+> 数列 $\left\{a_n\right\}$ 从第 $1$ 项起到第 $n$ 项止的各项之和, 称为数列 $\left\{a_n\right\}$ 的前 $n$ 项和, 记作 $S_n$.
 
-## 练习一
+## 习题一
 
-(练习 1.1 第 1 题) 举出一些表示三个不同在一个平面内的向量的实例.
+(复习参考题 2 拓广探索第 18 题) 求由曲线 $x^2+y^2=\lvert x \rvert+\lvert y \rvert$ 围成的图形的面积.
 
-### 解答 练习一
+### 解答 习题一
 
-由**定义 1.1.1 (空间向量)**, 空间向量是具有大小和方向的量, 不同在一个平面内的三个向量即不共面的三个向量.
+由**定义 2.4.1 (圆的标准方程)**, 分情况讨论.
 
-实例: 在正方体中, 从同一个顶点出发的三条棱上的向量 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 不共面; 在三棱锥中, 从顶点出发的三条侧棱上的向量也不共面; 物理中作用于同一质点且不在同一平面内的三个力也不共面. $\blacksquare$
+(a) 当 $x\ge0$, $y\ge0$ 时, 方程为 $x^2+y^2=x+y$, 即 $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. 这是圆心在 $\left(\frac{1}{2},\frac{1}{2}\right)$, 半径为 $\frac{\sqrt 2}{2}$ 的圆在第一象限的部分.
 
-## 练习二
+由对称性, 曲线在四个象限各对应一个半圆, 每个半圆的面积为 $\frac{1}{2}\pi\cdot\frac{1}{2}=\frac{\pi}{4}$. 四个象限共 $4\times\frac{\pi}{4}=\pi$.
 
-(练习 1.1 第 2 题) 如图, $E$, $F$ 分别是长方体 $ABCD-A'B'C'D'$ 的棱 $AB$, $CD$ 的中点. 化简下列表达式, 并在图中标出化简结果:
+此外, 四个半圆还围成一个边长为 $\sqrt 2$ 的正方形 (对角线长为 $2$), 面积为 $\frac{1}{2}\times2\times2=2$.
 
-(1) $\boldsymbol{AA'}-\boldsymbol{CB}$;
+总面积为 $\pi+2$. $\blacksquare$
 
-(2) $\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{B'C'}$;
+## 习题二
 
-(3) $\boldsymbol{AB}-\boldsymbol{AD}+\boldsymbol{B'D'}$;
+(复习参考题 2 拓广探索第 19 题) 一条光线从点 $A\left(-2,3\right)$ 射出, 经 $x$ 轴反射后, 与圆 $C:\left(x-3\right)^2+\left(y-2\right)^2=1$ 相切, 求反射后光线所在直线的方程.
 
-(4) $\boldsymbol{AB}+\boldsymbol{CF}$.
+### 解答 习题二
 
-(题图: 长方体 $ABCD-A'B'C'D'$, $E$ 为 $AB$ 中点, $F$ 为 $CD$ 中点.)
+点 $A\left(-2,3\right)$ 关于 $x$ 轴的对称点为 $A'\left(-2,-3\right)$. 反射光线经过点 $A'$ 且与圆 $C$ 相切.
 
-### 解答 练习二
+圆心 $C\left(3,2\right)$, 半径 $r=1$. 设反射光线方程为 $y+3=k\left(x+2\right)$, 即 $kx-y+2k-3=0$.
 
-由**定义 1.1.5 (属于与不属于)**, 利用向量加法的三角形法则和平行六面体法则化简.
-
-(1) $\boldsymbol{AA'}-\boldsymbol{CB}=\boldsymbol{AA'}+\boldsymbol{BC}$. 由**常用结论 1.1.6** (运算律), $\boldsymbol{AA'}+\boldsymbol{BC}=\boldsymbol{AA'}+\boldsymbol{AD}$ (因为 $\boldsymbol{BC}=\boldsymbol{AD}$). 在长方体中, $\boldsymbol{AA'}+\boldsymbol{AD}=\boldsymbol{AD'}$.
-
-(2) $\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{B'C'}$. 由**定义 1.1.4 (相等向量)**, $\boldsymbol{B'C'}=\boldsymbol{BC}=\boldsymbol{AD}$. 故 $\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{B'C'}=\boldsymbol{AA'}+\boldsymbol{AB}+\boldsymbol{AD}$. 由平行六面体法则, 得 $\boldsymbol{AC'}$.
-
-(3) $\boldsymbol{AB}-\boldsymbol{AD}+\boldsymbol{B'D'}$. 由**定义 1.1.5 (属于与不属于)**, $\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$. 又 $\boldsymbol{B'D'}=\boldsymbol{BD}$ (相等向量). 故 $\boldsymbol{DB}+\boldsymbol{BD}=\boldsymbol{0}$.
-
-(4) $\boldsymbol{AB}+\boldsymbol{CF}$. 因为 $F$ 是 $CD$ 的中点, $\boldsymbol{CF}=\frac{1}{2}\boldsymbol{CD}=\frac{1}{2}\left(-\boldsymbol{AB}\right)=-\frac{1}{2}\boldsymbol{AB}$. 故 $\boldsymbol{AB}+\boldsymbol{CF}=\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AB}=\frac{1}{2}\boldsymbol{AB}$. $\blacksquare$
-
-## 练习三
-
-(练习 1.1 第 3 题) 在图 1.1-6 中, 用 $\boldsymbol{AB}$, $\boldsymbol{AD}$, $\boldsymbol{AA'}$ 表示 $\boldsymbol{AC'}$, $\boldsymbol{BD'}$ 及 $\boldsymbol{DB'}$.
-
-(题图: 平行六面体 $ABCD-A'B'C'D'$.)
-
-### 解答 练习三
-
-由**定义 1.1.5 (属于与不属于)** 及平行六面体法则.
-
-在平行六面体 $ABCD-A'B'C'D'$ 中:
+由**常用结论 2.3.3** (点到直线的距离公式), 圆心到切线的距离等于半径:
 
 $$
-\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}.
+\frac{\lvert 3k-2+2k-3 \rvert}{\sqrt{k^2+1}}=1.
 $$
 
-$$
-\boldsymbol{BD'}=\boldsymbol{BA}+\boldsymbol{AA'}+\boldsymbol{A'D'}=-\boldsymbol{AB}+\boldsymbol{AA'}+\boldsymbol{AD}.
-$$
+化简, 得 $\lvert 5k-5 \rvert=\sqrt{k^2+1}$, 即 $25\left(k-1\right)^2=k^2+1$, 即 $24k^2-50k+24=0$, 即 $12k^2-25k+12=0$.
+
+解得 $k=\frac{25\pm\sqrt{625-576}}{24}=\frac{25\pm7}{24}$, 即 $k=\frac{4}{3}$ 或 $k=\frac{3}{4}$.
+
+反射光线的方程为 $y+3=\frac{4}{3}\left(x+2\right)$ 即 $4x-3y-1=0$, 或 $y+3=\frac{3}{4}\left(x+2\right)$ 即 $3x-4y-6=0$. $\blacksquare$
+
+## 习题三
+
+(复习参考题 2 拓广探索第 20 题) 已知圆 $C:\left(x-1\right)^2+\left(y-2\right)^2=25$, 直线 $l:\left(2m+1\right)x+\left(m+1\right)y-7m-4=0$.
+
+(1) 求证: 直线 $l$ 恒过定点.
+
+(2) 直线 $l$ 被圆 $C$ 截得的弦何时最长, 何时最短? 并求截得的弦长最短时 $m$ 的值以及最短弦长.
+
+### 解答 习题三
+
+(1) 直线 $l$ 的方程可改写为 $\left(x+y-4\right)+m\left(2x+y-7\right)=0$. 由**常用结论 2.3.1** (两条直线的交点坐标), 直线 $l$ 经过直线 $x+y-4=0$ 与 $2x+y-7=0$ 的交点.
+
+解方程组 $\begin{cases}x+y-4=0\\2x+y-7=0\end{cases}$, 两式相减得 $x=3$, $y=1$. 定点为 $\left(3,1\right)$. 故直线 $l$ 恒过定点 $\left(3,1\right)$.
+
+(2) 圆心为 $C\left(1,2\right)$, 半径 $r=5$. 定点 $P\left(3,1\right)$ 到圆心的距离为
 
 $$
-\boldsymbol{DB'}=\boldsymbol{DA}+\boldsymbol{AA'}+\boldsymbol{A'B'}=-\boldsymbol{AD}+\boldsymbol{AA'}+\boldsymbol{AB}.
+\lvert CP \rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt 5< 5.
+$$
+
+点 $P$ 在圆内. 当直线 $l$ 经过圆心 $C$ 时, 弦最长, 即弦为直径, 长为 $10$.
+
+当直线 $l$ 垂直于 $CP$ 时, 弦最短. $k_{CP}=\frac{1-2}{3-1}=-\frac{1}{2}$, 故最短弦所在直线的斜率为 $2$.
+
+直线 $l$ 的斜率为 $-\frac{2m+1}{m+1}$. 令 $-\frac{2m+1}{m+1}=2$, 即 $-2m-1=2m+2$, 即 $4m=-3$, 故 $m=-\frac{3}{4}$.
+
+最短弦长为 $2\sqrt{r^2-\lvert CP \rvert^2}=2\sqrt{25-5}=2\sqrt{20}=4\sqrt 5$. $\blacksquare$
+
+## 习题四
+
+(复习参考题 3 复习巩固第 1 题) 如图, 我国发射的第一颗人造地球卫星的运行轨道, 是以地心 $F_2$ 为一个焦点的椭圆. 已知它的近地点 $A$ 距地面 $439\,\mathrm{km}$, 远地点 $B$ 距地面 $2384\,\mathrm{km}$, 并且 $F_2$, $A$, $B$ 在同一直线上, 地球半径约为 $6371\,\mathrm{km}$. 求: (1) 卫星运行的轨道方程 (精确到 $1\,\mathrm{km}$); (2) 卫星轨道的离心率.
+
+该图为人造卫星轨道的示意图:以地心 $F_2$ 为一个焦点的椭圆,近地点 $A$ 与远地点 $B$ 在长轴上,$F_2$, $A$, $B$ 三点共线;地球以圆心在 $F_2$ 的小圆表示.
+
+### 解答 习题四
+
+近地点 $A$ 到地心距离为 $6371+439=6810\,\mathrm{km}$, 远地点 $B$ 到地心距离为 $6371+2384=8755\,\mathrm{km}$. 由**定义 3.1.3 (椭圆的标准方程)**, $a-c=6810$, $a+c=8755$. 解得 $a=7782.5\approx7783\,\mathrm{km}$, $c=972.5\approx973\,\mathrm{km}$.
+
+(1) $b^2=a^2-c^2=\left(a-c\right)\left(a+c\right)=6810\times8755=59621550$. 轨道方程为
+
+$$
+\frac{x^2}{7783^2}+\frac{y^2}{59621550}=1.
+$$
+
+(2) 由**定义 3.1.7 (椭圆的离心率)**, $e=\frac{c}{a}=\frac{973}{7783}\approx0.125$. $\blacksquare$
+
+## 习题五
+
+(复习参考题 3 复习巩固第 2 题) 选择题.
+
+(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 与椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k< 9$) 的 $\left(\quad\right)$.
+
+(A) 长轴长相等    (B) 短轴长相等
+
+(C) 离心率相等    (D) 焦距相等
+
+(2) 与圆 $x^2+y^2=1$ 及圆 $x^2+y^2-8x+12=0$ 都外切的圆的圆心在 $\left(\quad\right)$.
+
+(A) 椭圆上    (B) 双曲线的一支上
+
+(C) 抛物线上    (D) 圆上
+
+### 解答 习题五
+
+(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 中 $c^2=25-9=16$, $c=4$. 椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ 中 $c^2=\left(25-k\right)-\left(9-k\right)=16$, $c=4$. 两椭圆焦距均为 $2c=8$, 故焦距相等. 选 (D).
+
+(2) 圆 $x^2+y^2=1$ 圆心 $O_1\left(0,0\right)$, 半径 $r_1=1$. 圆 $x^2+y^2-8x+12=0$ 化为 $\left(x-4\right)^2+y^2=4$, 圆心 $O_2\left(4,0\right)$, 半径 $r_2=2$. 动圆与两圆都外切, 设半径 $R$, 则 $\lvert MO_1 \rvert=R+1$, $\lvert MO_2 \rvert=R+2$, 故 $\lvert MO_2 \rvert-\lvert MO_1 \rvert=1$. 由**定义 3.2.1 (双曲线)**, 圆心在双曲线的一支上. 选 (B). $\blacksquare$
+
+## 习题六
+
+(复习参考题 3 复习巩固第 3 题) 当 $\alpha$ 从 $0^{\circ}$ 到 $180^{\circ}$ 变化时, 方程 $x^2+y^2\cos\alpha=1$ 表示的曲线的形状怎样变化?
+
+### 解答 习题六
+
+按 $\cos\alpha$ 的取值分类.
+
+(1) $\alpha=0^{\circ}$ 时, $\cos\alpha=1$, 方程为 $x^2+y^2=1$, 表示单位圆.
+
+(2) $0^{\circ}< \alpha< 90^{\circ}$ 时, $0< \cos\alpha< 1$, 方程为 $\frac{x^2}{1}+\frac{y^2}{1/\cos\alpha}=1$, 焦点在 $y$ 轴上的椭圆.
+
+(3) $\alpha=90^{\circ}$ 时, $\cos\alpha=0$, 方程为 $x^2=1$, 即 $x=\pm1$, 两条平行直线.
+
+(4) $90^{\circ}< \alpha\le180^{\circ}$ 时, $-1\le\cos\alpha< 0$, 方程为 $x^2-\frac{y^2}{-1/\cos\alpha}=1$, 焦点在 $x$ 轴上的双曲线 ($\alpha=180^{\circ}$ 时为等轴双曲线 $x^2-y^2=1$). $\blacksquare$
+
+## 习题七
+
+(复习参考题 3 复习巩固第 4 题) 已知直线 $y=kx-1$ 与双曲线 $x^2-y^2=4$ 没有公共点, 求 $k$ 的取值范围.
+
+### 解答 习题七
+
+将 $y=kx-1$ 代入 $x^2-y^2=4$, 得 $x^2-\left(kx-1\right)^2=4$, 即 $\left(1-k^2\right)x^2+2kx-5=0$.
+
+无公共点需无实根. 当 $1-k^2=0$ 即 $k=\pm1$ 时, 方程为一次方程, 有一个解, 不合题意. 当 $1-k^2\neq0$ 时, 判别式 $\Delta=4k^2+20\left(1-k^2\right)< 0$, 即 $20-16k^2< 0$, $k^2> \frac{5}{4}$. 故 $k$ 的取值范围是 $k< -\frac{\sqrt{5}}{2}$ 或 $k> \frac{\sqrt{5}}{2}$. $\blacksquare$
+
+## 习题八
+
+(复习参考题 3 复习巩固第 5 题) 设抛物线的顶点为 $O$, 经过焦点且垂直于对称轴的直线交抛物线于 $B$, $C$ 两点, 经过抛物线上一点 $P$ 且垂直于对称轴的直线与对称轴交于点 $Q$. 求证: $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$.
+
+### 解答 习题八
+
+设抛物线 $y^2=2px$, 焦点 $F\left(\frac{p}{2},0\right)$. 过 $F$ 垂直对称轴 ($x$ 轴) 的直线 $x=\frac{p}{2}$ 交抛物线于 $B\left(\frac{p}{2},p\right)$, $C\left(\frac{p}{2},-p\right)$, 故 $\lvert BC \rvert=2p$.
+
+设 $P\left(x_0,y_0\right)$ 在抛物线上, $y_0^2=2px_0$. $PQ$ 垂直 $x$ 轴交 $x$ 轴于 $Q\left(x_0,0\right)$, 故 $\lvert PQ \rvert=\lvert y_0 \rvert$, $\lvert OQ \rvert=x_0$.
+
+$\lvert PQ \rvert^2=y_0^2=2px_0$, $\lvert BC \rvert\cdot\lvert OQ \rvert=2p\cdot x_0=2px_0$. 故 $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$. $\blacksquare$
+
+## 习题九
+
+(复习参考题 3 复习巩固第 6 题) 已知等边三角形的一个顶点位于抛物线 $y^2=2px$ ($p> 0$) 的焦点, 另外两个顶点在抛物线上, 求这个等边三角形的边长.
+
+### 解答 习题九
+
+焦点 $F\left(\frac{p}{2},0\right)$. 设抛物线上两点 $A$, $B$ 关于 $x$ 轴对称, $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$. $\lvert FA \rvert=\lvert FB \rvert=\lvert AB \rvert$.
+
+$\lvert AB \rvert=2\lvert y_0 \rvert$, $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. 由 $\lvert FA \rvert=\lvert AB \rvert$ 及 $y_0^2=2px_0$, 得 $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, 即 $x_0^2-px_0+\frac{p^2}{4}=8px_0$, $x_0^2-9px_0+\frac{p^2}{4}=0$. 解得 $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. 取 $x_0> 0$ 的解, 边长 $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. 代入得边长为 $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
+
+## 习题十
+
+(复习参考题 3 综合运用第 7 题) 已知 $P$ 是椭圆 $16x^2+25y^2=1600$ 上的一点, 且在 $x$ 轴上方, $F_1$, $F_2$ 分别是椭圆的左, 右焦点, 直线 $PF_2$ 的斜率为 $-\frac{4\sqrt{3}}{3}$, 求 $\triangle PF_1F_2$ 的面积.
+
+### 解答 习题十
+
+椭圆 $16x^2+25y^2=1600$ 化为 $\frac{x^2}{100}+\frac{y^2}{64}=1$, $a=10$, $b=8$, $c=6$. $F_1\left(-6,0\right)$, $F_2\left(6,0\right)$, $\lvert F_1F_2 \rvert=12$.
+
+直线 $PF_2$ 过 $F_2\left(6,0\right)$, 斜率 $-\frac{4\sqrt{3}}{3}$, 方程为 $y=-\frac{4\sqrt{3}}{3}\left(x-6\right)$. 代入椭圆方程求 $P$ 的纵坐标. 解得 $P$ 的纵坐标 $y_P=3\sqrt{3}$ (取上方). 面积 $S=\frac{1}{2}\cdot\lvert F_1F_2 \rvert\cdot\lvert y_P \rvert=\frac{1}{2}\cdot12\cdot3\sqrt{3}=18\sqrt{3}$. $\blacksquare$
+
+## 习题十一
+
+(复习参考题 3 综合运用第 8 题) 如图, 从椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) 上一点 $P$ 向 $x$ 轴作垂线, 垂足恰为左焦点 $F_1$. 又点 $A$ 是椭圆与 $x$ 轴正半轴的交点, 点 $B$ 是椭圆与 $y$ 轴正半轴的交点, 且 $AB\parallel OP$, $\lvert F_1A \rvert=\sqrt{10}+\sqrt{5}$, 求椭圆的方程.
+
+该图在平面直角坐标系中画出中心在原点,焦点在 $x$ 轴上的椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$($a> b> 0$):点 $P$ 在椭圆上,$P$ 向 $x$ 轴作垂线,垂足恰为左焦点 $F_1\left(-c,0\right)$;$A$ 是椭圆与 $x$ 轴正半轴交点 $\left(a,0\right)$,$B$ 是椭圆与 $y$ 轴正半轴交点 $\left(0,b\right)$,且 $AB\parallel OP$.
+
+### 解答 习题十一
+
+$P$ 向 $x$ 轴垂足为 $F_1\left(-c,0\right)$, 故 $P\left(-c,y_P\right)$. 代入椭圆: $\frac{c^2}{a^2}+\frac{y_P^2}{b^2}=1$, $y_P^2=b^2\left(1-\frac{c^2}{a^2}\right)=\frac{b^4}{a^2}$, $y_P=\frac{b^2}{a}$ ($P$ 在上方).
+
+$A\left(a,0\right)$, $B\left(0,b\right)$, $k_{AB}=-\frac{b}{a}$. $k_{OP}=\frac{y_P}{-c}=-\frac{b^2}{ac}$. 由 $AB\parallel OP$, $-\frac{b}{a}=-\frac{b^2}{ac}$, 得 $b=c$. 又 $a^2=b^2+c^2=2c^2$, $a=\sqrt{2}c$.
+
+$\lvert F_1A \rvert=a+c=\sqrt{10}+\sqrt{5}$, 即 $c\left(\sqrt{2}+1\right)=\sqrt{5}\left(\sqrt{2}+1\right)$, $c=\sqrt{5}$. $b=\sqrt{5}$, $a=\sqrt{10}$. 椭圆方程为
+
+$$
+\frac{x^2}{10}+\frac{y^2}{5}=1.
 $$
 
 $\blacksquare$
 
-## 练习四
+## 习题十二
 
-(练习 1.1 第 4 题) 如图, 已知四面体 $ABCD$, $E$, $F$ 分别是 $BC$, $CD$ 的中点. 化简下列表达式, 并在图中标出化简结果:
+(复习参考题 3 综合运用第 9 题) 已知 $A$, $B$ 两点的坐标分别是 $\left(-1,0\right)$, $\left(1,0\right)$. 直线 $AM$, $BM$ 相交于点 $M$, 且它们的斜率之和是 $2$, 求点 $M$ 的轨迹方程.
 
-(1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}$;
+### 解答 习题十二
 
-(2) $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)$;
-
-(3) $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)$.
-
-(题图: 四面体 $ABCD$, $E$ 为 $BC$ 中点, $F$ 为 $CD$ 中点.)
-
-### 解答 练习四
-
-由**定义 1.1.5 (属于与不属于)**, 利用向量加法的三角形法则化简.
-
-(1) 由**定义 1.1.5 (属于与不属于)**, $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 故 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\boldsymbol{AC}+\boldsymbol{CD}=\boldsymbol{AD}$.
-
-(2) 因为 $E$ 是 $BC$ 的中点, 由**定义 1.1.5 (属于与不属于)**, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BE}+\boldsymbol{EC}=\boldsymbol{BE}+\boldsymbol{ED}$ (因为 $E$ 是 $BC$ 中点, $\boldsymbol{BE}=\frac{1}{2}\boldsymbol{BC}$; $F$ 是 $CD$ 中点, $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$). 实际上 $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BF}$ (因为在 $\triangle BCD$ 中, $F$ 是 $CD$ 中点, $\boldsymbol{BF}=\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)$). 故 $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{AB}+\boldsymbol{BF}=\boldsymbol{AF}$.
-
-(3) 因为 $E$ 是 $BC$ 的中点, $\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AE}$. 故 $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AF}-\boldsymbol{AE}=\boldsymbol{EF}$. $\blacksquare$
-
-## 练习五
-
-(练习 1.1 第 5 题) 如图, 已知正方体 $ABCD-A'B'C'D'$, $E$, $F$ 分别是上底面 $A'C'$ 和侧面 $CD'$ 的中心. 求下列各式中 $x$, $y$ 的值:
-
-(1) $\boldsymbol{AC'}=x\left(\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}\right)$;
-
-(2) $\boldsymbol{AE}=\boldsymbol{AA'}+x\boldsymbol{AB}+y\boldsymbol{AD}$;
-
-(3) $\boldsymbol{AF}=\boldsymbol{AD}+x\boldsymbol{AB}+y\boldsymbol{AA'}$.
-
-(题图: 正方体 $ABCD-A'B'C'D'$, $E$ 为上底面 $A'C'$ 中心, $F$ 为侧面 $CD'$ 中心.)
-
-### 解答 练习五
-
-由**定义 1.1.5 (属于与不属于)**, 用基底 $\left\{\boldsymbol{AB}, \boldsymbol{AD}, \boldsymbol{AA'}\right\}$ 表示各向量.
-
-(1) 由**定义 1.1.5 (属于与不属于)**, $\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}$. 故对比得 $x=1$.
-
-(2) $E$ 是上底面 $A'C'$ 的中心, 即正方形 $A'B'C'D'$ 的中心. 故 $\boldsymbol{AE}=\boldsymbol{AA'}+\boldsymbol{A'E}$, 其中 $\boldsymbol{A'E}=\frac{1}{2}\left(\boldsymbol{A'B'}+\boldsymbol{A'D'}\right)=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AD}\right)$. 因此 $\boldsymbol{AE}=\boldsymbol{AA'}+\frac{1}{2}\boldsymbol{AB}+\frac{1}{2}\boldsymbol{AD}$, 对比得 $x=\frac{1}{2}$, $y=\frac{1}{2}$.
-
-(3) $F$ 是侧面 $CD'$ 的中心, 即正方形 $CDD'C'$ 的中心. 故 $\boldsymbol{AF}=\boldsymbol{AD}+\boldsymbol{DF}$, 其中 $\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{DC}+\boldsymbol{DD'}\right)=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AA'}\right)$. 因此 $\boldsymbol{AF}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AB}+\frac{1}{2}\boldsymbol{AA'}$, 对比得 $x=\frac{1}{2}$, $y=\frac{1}{2}$. $\blacksquare$
-
-## 练习六
-
-(练习 1.1 第 1 题) 如图, 在正三棱柱 $ABC-A_1B_1C_1$ 中, 若 $AB=\sqrt{2}BB_1$, 则 $AB_1$ 与 $BC_1$ 所成角的大小为( ).
-
-(A) $60^\circ$ (B) $90^\circ$ (C) $105^\circ$ (D) $75^\circ$
-
-(题图: 正三棱柱 $ABC-A_1B_1C_1$.)
-
-### 解答 练习六
-
-由**定义 1.1.12 (向量的数量积)**, 两向量所成角的余弦值等于它们数量积除以模长乘积.
-
-设 $BB_1=1$, 则 $AB=\sqrt{2}$. 以 $\left\{\boldsymbol{BA}, \boldsymbol{BC}, \boldsymbol{BB_1}\right\}$ 为基底, 设 $\boldsymbol{BA}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{BB_1}=\boldsymbol{c}$. 则 $\lvert \boldsymbol{a} \rvert=\sqrt{2}$, $\lvert \boldsymbol{b} \rvert=\sqrt{2}$, $\lvert \boldsymbol{c} \rvert=1$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=60^\circ$, $\boldsymbol{a} \perp \boldsymbol{c}$, $\boldsymbol{b} \perp \boldsymbol{c}$.
-
-$\boldsymbol{AB_1}=\boldsymbol{AB}+\boldsymbol{BB_1}=-\boldsymbol{a}+\boldsymbol{c}$.
-
-$\boldsymbol{BC_1}=\boldsymbol{BC}+\boldsymbol{CC_1}=\boldsymbol{b}+\boldsymbol{c}$.
-
-由**常用结论 1.1.14** (数量积的运算律):
+设 $M\left(x,y\right)$, $k_{AM}=\frac{y}{x+1}$, $k_{BM}=\frac{y}{x-1}$. 由题意, $\frac{y}{x+1}+\frac{y}{x-1}=2$, 即
 
 $$
-\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=\left(-\boldsymbol{a}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c} \cdot \boldsymbol{c}.
+y\cdot\frac{2x}{x^2-1}=2.
 $$
 
-因为 $\boldsymbol{a} \cdot \boldsymbol{c}=0$, $\boldsymbol{b} \cdot \boldsymbol{c}=0$, $\boldsymbol{c} \cdot \boldsymbol{c}=1$, $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos 60^\circ=\sqrt{2} \cdot \sqrt{2} \cdot \frac{1}{2}=1$.
+化简得 $xy=x^2-1$, 即 $x^2-xy-1=0$. 轨迹方程为 $x^2-xy=1$ ($x\neq\pm1$). $\blacksquare$
 
-故 $\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=-1+0+0+1=0$.
+## 习题十三
 
-由**常用结论 1.1.13** (数量积的性质), $\boldsymbol{AB_1} \perp \boldsymbol{BC_1}$, 即 $AB_1$ 与 $BC_1$ 所成角为 $90^\circ$. 故选 (B). $\blacksquare$
+(复习参考题 3 拓广探索第 10 题) 如图, 已知直线与抛物线 $y^2=2px$ ($p> 0$) 交于 $A$, $B$ 两点, 且 $OA\perp OB$, $OD\perp AB$ 交 $AB$ 于点 $D$, 点 $D$ 的坐标为 $\left(2,1\right)$, 求 $p$ 的值.
 
-## 练习七
+该图在平面直角坐标系中画出开口向右,顶点在原点的抛物线 $y^2=2px$:一条直线交抛物线于 $A$, $B$ 两点,$OA\perp OB$($O$ 为原点);过 $O$ 作 $OD\perp AB$,垂足为 $D\left(2,1\right)$.
 
-(练习 1.1 第 2 题) 如图, 正方体 $ABCD-A'B'C'D'$ 的棱长为 $1$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 求:
+### 解答 习题十三
 
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
+$D\left(2,1\right)$ 在 $AB$ 上, $OD$ 斜率 $\frac{1}{2}$, $OD\perp AB$, 故 $AB$ 斜率 $-2$. $AB$ 方程为 $y-1=-2\left(x-2\right)$, 即 $y=-2x+5$.
 
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$;
+设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$. $OA\perp OB$, $x_1x_2+y_1y_2=0$. 将 $y=-2x+5$ 代入 $y^2=2px$, 得 $\left(-2x+5\right)^2=2px$, $4x^2-\left(20+2p\right)x+25=0$. $x_1x_2=\frac{25}{4}$, $x_1+x_2=\frac{20+2p}{4}$.
 
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$.
+$y_1y_2=\left(-2x_1+5\right)\left(-2x_2+5\right)=4x_1x_2-10\left(x_1+x_2\right)+25=25-\frac{10\left(20+2p\right)}{4}+25=50-5\left(10+p\right)=-5p$.
 
-(题图: 正方体 $ABCD-A'B'C'D'$, 棱长为 $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$.)
+由 $x_1x_2+y_1y_2=0$, $\frac{25}{4}-5p=0$, $p=\frac{5}{4}$. $\blacksquare$
 
-### 解答 练习七
+## 习题十四
 
-由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.14** (数量积的运算律).
+(复习参考题 3 拓广探索第 11 题) 已知 $\triangle ABC$ 的两个顶点 $A$, $B$ 的坐标分别是 $\left(-5,0\right)$, $\left(5,0\right)$, 且 $AC$, $BC$ 所在直线的斜率之积等于 $m$ ($m\neq0$), 求顶点 $C$ 的轨迹.
 
-在正方体中, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两垂直且模均为 $1$, 故 $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{c} \cdot \boldsymbol{a}=0$, $\boldsymbol{a} \cdot \boldsymbol{a}=\boldsymbol{b} \cdot \boldsymbol{b}=\boldsymbol{c} \cdot \boldsymbol{c}=1$.
+### 解答 习题十四
 
-(1) 由分配律, $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
-
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{a}+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=1+0+0=1$.
-
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{b} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=0+0+1+0=1$. $\blacksquare$
-
-## 练习八
-
-(练习 1.1 第 3 题) 如图, 在平行六面体 $ABCD-A'B'C'D'$ 中, $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$. 求:
-
-(1) $\boldsymbol{AA'} \cdot \boldsymbol{AB}$;
-
-(2) $AB'$ 的长;
-
-(3) $AC'$ 的长.
-
-(题图: 平行六面体 $ABCD-A'B'C'D'$, $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$.)
-
-### 解答 练习八
-
-由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
-
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert \boldsymbol{a} \rvert=4$, $\lvert \boldsymbol{b} \rvert=3$, $\lvert \boldsymbol{c} \rvert=5$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=90^\circ$, $\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=60^\circ$, $\left\langle \boldsymbol{b}, \boldsymbol{c} \right\rangle=60^\circ$.
-
-(1) 由**定义 1.1.12 (向量的数量积)**, $\boldsymbol{AA'} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \boldsymbol{a}=\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{a} \rvert \cos 60^\circ=5 \times 4 \times \frac{1}{2}=10$.
-
-(2) $\boldsymbol{AB'}=\boldsymbol{AB}+\boldsymbol{BB'}=\boldsymbol{a}+\boldsymbol{c}$. 由**常用结论 1.1.13**, $\lvert \boldsymbol{AB'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2=16+2 \times 10+25=61$. 故 $AB'=\sqrt{61}$.
-
-(3) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$. $\lvert \boldsymbol{AC'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2+2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$. 其中 $\boldsymbol{a} \cdot \boldsymbol{b}=0$, $\boldsymbol{a} \cdot \boldsymbol{c}=10$, $\boldsymbol{b} \cdot \boldsymbol{c}=\lvert \boldsymbol{b} \rvert \lvert \boldsymbol{c} \rvert \cos 60^\circ=3 \times 5 \times \frac{1}{2}=7.5$. 故 $\lvert \boldsymbol{AC'} \rvert^2=16+9+25+0+20+15=85$. 故 $AC'=\sqrt{85}$. $\blacksquare$
-
-## 练习九
-
-(练习 1.1 第 4 题) 如图, 线段 $AB$, $BD$ 在平面 $\alpha$ 内, $BD \perp AB$, $AC \perp \alpha$, 且 $AB=a$, $BD=b$, $AC=c$. 求 $C$, $D$ 两点间的距离.
-
-(题图: 平面 $\alpha$ 内有线段 $AB$, $BD$, $BD\perp AB$, $AC\perp\alpha$ 于 $A$, $AB=a$, $BD=b$, $AC=c$.)
-
-### 解答 练习九
-
-由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
-
-$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}=-\boldsymbol{AC}+\boldsymbol{AB}+\boldsymbol{BD}$.
-
-设 $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, 则 $\boldsymbol{a} \perp \boldsymbol{b}$ (因为 $BD \perp AB$), $\boldsymbol{c} \perp \boldsymbol{a}$ (因为 $AC \perp \alpha$ 且 $AB \subset \alpha$), $\boldsymbol{c} \perp \boldsymbol{b}$ (因为 $AC \perp \alpha$ 且 $BD \subset \alpha$). 故 $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}=0$.
+设 $C\left(x,y\right)$, $k_{AC}=\frac{y}{x+5}$, $k_{BC}=\frac{y}{x-5}$. 由题意, $\frac{y^2}{x^2-25}=m$, 即
 
 $$
-\lvert \boldsymbol{CD} \rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{c} \cdot \boldsymbol{b}=c^2+a^2+b^2.
+\frac{x^2}{25}-\frac{y^2}{25m}=1.
 $$
 
-故 $CD=\sqrt{a^2+b^2+c^2}$. $\blacksquare$
+当 $m> 0$ 时, 轨迹是焦点在 $x$ 轴上的双曲线 (去掉 $A$, $B$ 两点); 当 $m< 0$ 时, 轨迹是椭圆 (去掉 $A$, $B$ 两点). $\blacksquare$
 
-## 习题一
+## 习题十五
 
-(习题 1.1 复习巩固第 1 题) 如图, 在长方体 $ABCD-A'B'C'D'$ 中, $E$, $F$ 分别为棱 $AA'$, $AB$ 的中点.
+(复习参考题 3 拓广探索第 12 题) 在抛物线 $y^2=4x$ 上求一点 $P$, 使得点 $P$ 到直线 $y=x+3$ 的距离最短.
 
-(1) 写出与向量 $\boldsymbol{BC}$ 相等的向量;
+### 解答 习题十五
 
-(2) 写出与向量 $\boldsymbol{BC}$ 相反的向量;
+设 $P\left(x_0,y_0\right)$ 在 $y^2=4x$ 上, $x_0=\frac{y_0^2}{4}$. $P$ 到直线 $x-y+3=0$ 的距离
 
-(3) 写出与向量 $\boldsymbol{EF}$ 平行的向量.
+$$
+d=\frac{\left|x_0-y_0+3\right|}{\sqrt{2}}=\frac{\left|\frac{y_0^2}{4}-y_0+3\right|}{\sqrt{2}}.
+$$
 
-(题图: 长方体 $ABCD-A'B'C'D'$, $E$ 为 $AA'$ 中点, $F$ 为 $AB$ 中点.)
+$\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2> 0$, 故 $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. 当 $y_0=2$ 时 $d$ 最小, $x_0=1$. 点 $P$ 为 $\left(1,2\right)$. $\blacksquare$
 
-### 解答 习题一
+## 习题十六
 
-由**定义 1.1.4 (相等向量)**, **定义 1.1.2 (相反向量)** 及**定义 1.1.3 (共线向量或平行向量)**.
+(复习参考题 3 拓广探索第 13 题) 当 $m$ 变化时, 指出方程 $\left(m-1\right)x^2+\left(3-m\right)y^2=\left(m-1\right)\left(3-m\right)$ 表示的曲线的形状.
 
-(1) 由**定义 1.1.4 (相等向量)**, 方向相同且模相等的向量相等. 在长方体中, $\boldsymbol{BC}=\boldsymbol{AD}=\boldsymbol{A'D'}=\boldsymbol{B'C'}$.
+### 解答 习题十六
 
-(2) 由**定义 1.1.2 (相反向量)**, 与 $\boldsymbol{BC}$ 相反的向量即方向相反且模相等的向量: $\boldsymbol{CB}$, $\boldsymbol{DA}$, $\boldsymbol{D'A'}$, $\boldsymbol{C'B'}$.
+两边除以 $\left(m-1\right)\left(3-m\right)$ (假设 $m\neq1$, $m\neq3$), 得
 
-(3) $E$, $F$ 分别为 $AA'$, $AB$ 的中点, 故 $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{A'B}=\frac{1}{2}\left(\boldsymbol{AB}-\boldsymbol{AA'}\right)$. 由**定义 1.1.3 (共线向量或平行向量)**, 与 $\boldsymbol{EF}$ 平行的向量为所有与 $\boldsymbol{EF}$ 共线的向量, 如 $\boldsymbol{A'B}$, $\boldsymbol{D'C}$ 等. $\blacksquare$
+$$
+\frac{x^2}{3-m}+\frac{y^2}{m-1}=1.
+$$
 
-## 习题二
+(1) $m=1$ 时, 方程为 $2y^2=0$, 即 $y=0$, 一条直线.
 
-(习题 1.1 复习巩固第 2 题) 如图, 已知平行六面体 $ABCD-A'B'C'D'$, 化简下列表达式, 并在图中标出化简结果:
+(2) $m=3$ 时, 方程为 $2x^2=0$, 即 $x=0$, 一条直线.
 
-(1) $\boldsymbol{AB}+\boldsymbol{BC}$;
+(3) $1< m< 3$ 时, 两分母均为正, 表示椭圆 (当 $3-m=m-1$ 即 $m=2$ 时为圆).
 
-(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}$;
+(4) $m< 1$ 时, $3-m> 0$, $m-1< 0$, 表示焦点在 $x$ 轴上的双曲线.
 
-(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}$;
+(5) $m> 3$ 时, $3-m< 0$, $m-1> 0$, 表示焦点在 $y$ 轴上的双曲线. $\blacksquare$
 
-(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)$.
+## 习题十七
 
-(题图: 平行六面体 $ABCD-A'B'C'D'$.)
+(复习参考题 3 拓广探索第 14 题) 如图, 一隧道内设双行线公路, 其截面由一个长方形和抛物线构成. 为保证安全, 要求行驶车辆顶部 (设为平顶) 与隧道顶部在竖直方向上高度之差至少要有 $0.5\,\mathrm{m}$. 已知行车道总宽度 $AB=6\,\mathrm{m}$, 那么车辆通过隧道的限制高度是多少米? (精确到 $0.1\,\mathrm{m}$)
 
-### 解答 习题二
+该图为隧道截面示意图:下部为长方形,上部接一段开口向下的抛物线;行车道总宽 $AB=6\,\mathrm{m}$,抛物线部分宽 $8\,\mathrm{m}$,拱顶高出长方形顶部 $3\,\mathrm{m}$,长方形高 $2\,\mathrm{m}$.
 
-由**定义 1.1.5 (属于与不属于)** 及**常用结论 1.1.6** (运算律).
+### 解答 习题十七
 
-(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
+由图中尺寸, 抛物线部分宽 $8\,\mathrm{m}$, 高 $3\,\mathrm{m}$ (长方形部分高 $2\,\mathrm{m}$, 抛物线顶高出长方形 $3\,\mathrm{m}$). 以抛物线顶点为原点, 开口向下, 设 $x^2=-2py$. 抛物线过 $\left(4,-3\right)$, $16=6p$, $p=\frac{8}{3}$, 方程 $x^2=-\frac{16}{3}y$.
 
-(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}=\boldsymbol{AC}+\boldsymbol{CC'}=\boldsymbol{AC'}$.
+行车道宽 $6\,\mathrm{m}$, 即 $x=\pm3$. 代入: $9=-\frac{16}{3}y$, $y=-\frac{27}{16}\approx-1.69$. 抛物线在 $x=3$ 处距顶点 $1.69\,\mathrm{m}$. 长方形高 $2\,\mathrm{m}$, 故隧道在车道边缘处总高为 $2+1.69=3.69\,\mathrm{m}$. 要求高度差至少 $0.5\,\mathrm{m}$, 限制高度为 $3.69-0.5\approx3.2\,\mathrm{m}$. $\blacksquare$
 
-(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}=\boldsymbol{AC}+\frac{1}{2}\boldsymbol{AA'}$. 设 $M$ 是 $CC'$ 的中点, 则该向量等于 $\boldsymbol{AM}$.
+## 习题十八
 
-(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)=\frac{1}{3}\boldsymbol{AC'}$. 设 $P$ 是对角线 $AC'$ 上靠近 $A$ 的三等分点, 则该向量等于 $\boldsymbol{AP}$. $\blacksquare$
+(复习参考题 3 拓广探索第 15 题) 综合应用抛物线和双曲线的光学性质, 可以设计制造反射式天文望远镜. 已知 $F_1$, $F_2$ 是双曲线的两个焦点, 其中 $F_2$ 同时又是抛物线的焦点, 试根据图示尺寸 (单位: $\mathrm{mm}$), 分别求抛物线和双曲线的方程.
 
-## 习题三
+该图为反射式天文望远镜示意图:以两对称轴交点为原点,抛物线顶点在原点,开口向左,其焦点为 $F_2$(焦准距相关尺寸 $529\,\mathrm{mm}$);双曲线以 $F_1$, $F_2$ 为焦点($2c=2080\,\mathrm{mm}$),实轴顶点位置由尺寸 $1763\,\mathrm{mm}$ 确定.
 
-(习题 1.1 复习巩固第 3 题) 证明: 如果向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线, 那么向量 $2\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}$ 共线.
+### 解答 习题十八
 
-### 解答 习题三
+由图中尺寸, 以两对称轴交点为原点. 抛物线顶点在原点, 开口向左, $F_2$ 为焦点, 焦准距 $p$ 由图中 $529\,\mathrm{mm}$ 得 $\frac{p}{2}=529$, $p=1058$. 抛物线方程为 $y^2=-2116x$.
 
-由**常用结论 1.1.7** (向量共线的充要条件), $\boldsymbol{a} \parallel \boldsymbol{b}$ 当且仅当存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+双曲线以 $F_1$, $F_2$ 为焦点, $2c=2080$, $c=1040$. 由图中 $1763\,\mathrm{mm}$ 得实轴顶点位置, $a=1040-529=511$. $b^2=c^2-a^2=1040^2-511^2=828479$. 双曲线方程为
 
-因为 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线, 由**常用结论 1.1.7**, 存在实数 $\lambda$, 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+$$
+\frac{x^2}{261121}-\frac{y^2}{828479}=1.
+$$
 
-于是 $2\boldsymbol{a}+\boldsymbol{b}=2\boldsymbol{a}+\lambda\boldsymbol{a}=\left(2+\lambda\right)\boldsymbol{a}$.
+$\blacksquare$
 
-由**常用结论 1.1.7**, $2\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}$ 共线. $\blacksquare$
+## 习题十九
 
-## 习题四
+(复习参考题 3 拓广探索第 16 题) 过抛物线 $y^2=2px$ ($p> 0$) 的焦点 $F$ 作直线与抛物线交于 $A$, $B$ 两点, 以 $AB$ 为直径画圆, 观察它与抛物线的准线 $l$ 的关系, 你能得到什么结论? 相应于椭圆, 双曲线如何? 你能证明你的结论吗?
 
-(习题 1.1 复习巩固第 4 题) 如图, 已知四面体 $ABCD$ 的所有棱长都等于 $a$, $E$, $F$, $G$ 分别是棱 $AB$, $AD$, $DC$ 的中点. 求:
+### 解答 习题十九
 
-(1) $\boldsymbol{AB} \cdot \boldsymbol{AC}$;
+设 $AB$ 为过焦点 $F$ 的弦, 中点为 $M$. 由**常用结论 3.3.3**, $\lvert AF \rvert=d_A$ ($A$ 到准线距离), $\lvert BF \rvert=d_B$. 圆半径 $r=\frac{\lvert AB \rvert}{2}=\frac{\lvert AF \rvert+\lvert BF \rvert}{2}=\frac{d_A+d_B}{2}$.
 
-(2) $\boldsymbol{AD} \cdot \boldsymbol{DB}$;
+圆心 $M$ 到准线距离为 $d_M=\frac{d_A+d_B}{2}=r$. 故以 $AB$ 为直径的圆与准线相切.
 
-(3) $\boldsymbol{GF} \cdot \boldsymbol{AC}$;
+相应地, 椭圆中过焦点弦为直径的圆与对应准线相离; 双曲线中过焦点弦为直径的圆与对应准线相交. $\blacksquare$
 
-(4) $\boldsymbol{EF} \cdot \boldsymbol{BC}$;
+## 练习一
 
-(5) $\boldsymbol{FG} \cdot \boldsymbol{BA}$;
+(练习 4.1 第 1 题) 写出下列数列的前 $10$ 项, 并作出它们的图象
 
-(6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
+(1) 所有正整数的倒数按从大到小的顺序排列成的数列;
 
-(题图: 所有棱长都等于 $a$ 的四面体 $ABCD$, $E$ 为 $AB$ 中点, $F$ 为 $AD$ 中点, $G$ 为 $DC$ 中点.)
+(2) 当自变量 $x$ 依次取 $1,2,3,\cdots$ 时, 函数 $f\left(x\right)=2x+1$ 的值构成的数列;
 
-### 解答 习题四
+(3) 数列的通项公式为 $a_n=\begin{cases}2, & n\text{ 为奇数},\\ n+1, & n\text{ 为偶数}.\end{cases}$
 
-由**定义 1.1.12 (向量的数量积)**, 正四面体中任意两条棱的夹角均为 $60^\circ$.
+该图为三幅数列散点图(横坐标为序号 $n$,纵坐标为对应项 $a_n$):(1) $a_n=\frac{1}{n}$,散点随 $n$ 增大递减趋近于 $0$;(2) $a_n=2n+1$,散点在直线 $y=2x+1$ 上,随 $n$ 递增;(3) $a_n=\begin{cases}2,&n\text{ 为奇数}\\n+1,&n\text{ 为偶数}\end{cases}$,奇数项散点均在 $y=2$ 上,偶数项散点随 $n$ 递增.
 
-(1) $\left\langle \boldsymbol{AB}, \boldsymbol{AC} \right\rangle=60^\circ$, 故 $\boldsymbol{AB} \cdot \boldsymbol{AC}=\lvert \boldsymbol{AB} \rvert \lvert \boldsymbol{AC} \rvert \cos 60^\circ=a \cdot a \cdot \frac{1}{2}=\frac{a^2}{2}$.
+### 解答 练习一
 
-(2) $\left\langle \boldsymbol{AD}, \boldsymbol{DB} \right\rangle$: $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角. 在正三角形 $ABD$ 中, $\angle ADB=60^\circ$, 但 $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角为 $180^\circ-60^\circ=120^\circ$. 故 $\boldsymbol{AD} \cdot \boldsymbol{DB}=a \cdot a \cdot \cos 120^\circ=-\frac{a^2}{2}$.
+(1) 由**定义 4.1.5 (通项公式)**, 所有正整数的倒数按从大到小排列, 第 $n$ 项为 $a_n=\frac{1}{n}$.
 
-(3) $G$, $F$ 分别是 $DC$, $AD$ 的中点, 故 $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{GF} \cdot \boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{AC}=-\frac{1}{2}a^2$.
+$$
+a_1=1,\ a_2=\frac{1}{2},\ a_3=\frac{1}{3},\ \cdots,\ a_{10}=\frac{1}{10}.
+$$
 
-(4) $E$, $F$ 分别是 $AB$, $AD$ 的中点, 故 $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. 故 $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD} \cdot \boldsymbol{BC}$. $\left\langle \boldsymbol{BD}, \boldsymbol{BC} \right\rangle=60^\circ$, 故 $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2} \cdot a \cdot a \cdot \frac{1}{2}=\frac{a^2}{4}$.
+图象为散点, 横坐标为 $n$, 纵坐标为 $\frac{1}{n}$, 各点随 $n$ 增大而递减趋近于 $0$.
 
-(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{FG} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \left(-\boldsymbol{AB}\right)=-\frac{1}{2} \cdot \frac{a^2}{2}=-\frac{a^2}{4}$.
+$\blacksquare$
 
-(6) $\boldsymbol{GE}=\boldsymbol{GC}+\boldsymbol{CE}$ 或用中点性质. $\boldsymbol{GE}=\boldsymbol{AE}-\boldsymbol{AG}$. 其中 $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{AG}=\frac{1}{2}\left(\boldsymbol{AD}+\boldsymbol{AC}\right)$ (因为 $G$ 是 $DC$ 中点, $\boldsymbol{AG}=\boldsymbol{AD}+\boldsymbol{DG}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{DC}=\boldsymbol{AD}+\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AD}\right)=\frac{1}{2}\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AC}$).
+(2) 由**定义 4.1.3 (数列是特殊函数)**, $x$ 依次取 $1,2,3,\cdots$, 对应函数值构成的数列为 $a_n=f\left(n\right)=2n+1$.
 
-故 $\boldsymbol{GE}=\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}$.
+$$
+a_1=3,\ a_2=5,\ a_3=7,\ a_4=9,\ a_5=11,\ a_6=13,\ a_7=15,\ a_8=17,\ a_9=19,\ a_{10}=21.
+$$
 
-$\boldsymbol{GF}=-\frac{1}{2}\boldsymbol{AC}$.
+图象为散点, 各点在直线 $y=2x+1$ 上, 呈递增排列.
 
-$\boldsymbol{GE} \cdot \boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right) \cdot \left(-\frac{1}{2}\boldsymbol{AC}\right)$
+$\blacksquare$
 
-$=-\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC} \cdot \boldsymbol{AC}$
+(3) 由**定义 4.1.5 (通项公式)**, 当 $n$ 为奇数时 $a_n=2$, 当 $n$ 为偶数时 $a_n=n+1$.
 
-$=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
+$$
+a_1=2,\ a_2=3,\ a_3=2,\ a_4=5,\ a_5=2,\ a_6=7,\ a_7=2,\ a_8=9,\ a_9=2,\ a_{10}=11.
+$$
 
-## 习题五
+图象为散点, 奇数项均在 $y=2$ 上, 偶数项随 $n$ 增大而递增.
 
-(习题 1.1 综合运用第 5 题) 如图, 在平行六面体 $ABCD-A_1B_1C_1D_1$ 中, $AC$ 与 $BD$ 的交点为 $M$. 设 $\boldsymbol{A_1B_1}=\boldsymbol{a}$, $\boldsymbol{A_1D_1}=\boldsymbol{b}$, $\boldsymbol{A_1A}=\boldsymbol{c}$, 则下列向量中与 $\boldsymbol{B_1M}$ 相等的向量是( ).
+$\blacksquare$
 
-(A) $-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (B) $\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (C) $\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (D) $-\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$
+(练习 4.1 第 2 题) 根据数列 $\left\{a_n\right\}$ 的通项公式填表
 
-(题图: 平行六面体 $ABCD-A_1B_1C_1D_1$, $M$ 为对角线 $AC$ 与 $BD$ 的交点.)
+通项公式为 $a_n=3\left(3+4n\right)$, 表中已知 $a_n=153$ 和 $a_n=273$ 对应的序号留空.
 
-### 解答 习题五
+### 解答 练习一
 
-由**定义 1.1.5 (属于与不属于)**.
+由**定义 4.1.5 (通项公式)**, $a_n=3\left(3+4n\right)=9+12n$.
 
-$\boldsymbol{B_1M}=\boldsymbol{B_1B}+\boldsymbol{BM}=\boldsymbol{c}+\frac{1}{2}\boldsymbol{BD}$.
+当 $n=1$ 时, $a_1=9+12=21$; 当 $n=2$ 时, $a_2=9+24=33$; 当 $n=5$ 时, $a_5=9+60=69$.
 
-$\boldsymbol{BD}=\boldsymbol{BA}+\boldsymbol{AD}=-\boldsymbol{A_1B_1}+\boldsymbol{A_1D_1}=-\boldsymbol{a}+\boldsymbol{b}$.
+令 $3\left(3+4n\right)=153$, 得 $3+4n=51$, $4n=48$, $n=12$.
 
-故 $\boldsymbol{B_1M}=\boldsymbol{c}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$.
+令 $3\left(3+4n\right)=273$, 得 $3+4n=91$, $4n=88$, $n=22$.
 
-故选 (A). $\blacksquare$
+填表: $n$ 依次为 $1,2,\cdots,5,\cdots,12,\cdots,22,\cdots,n$; $a_n$ 依次为 $21,33,\cdots,69,\cdots,153,\cdots,273,\cdots,3\left(3+4n\right)$.
 
-## 习题六
+$\blacksquare$
 
-(习题 1.1 综合运用第 6 题) 如图, 已知 $E$, $F$, $G$, $H$ 分别为四面体 $ABCD$ 的棱 $AB$, $BC$, $CD$, $DA$ 的中点, 求证: $E$, $F$, $G$, $H$ 四点共面.
+(练习 4.1 第 3 题) 除数函数 $y=d\left(n\right)$ ($n\in\mathbb N^*$) 的函数值等于 $n$ 的正因数的个数, 例如 $d\left(1\right)=1$, $d\left(4\right)=3$. 写出数列 $d\left(1\right),d\left(2\right),\cdots,d\left(n\right),\cdots$ 的前 $10$ 项
 
-(题图: 四面体 $ABCD$, $E$, $F$, $G$, $H$ 分别为 $AB$, $BC$, $CD$, $DA$ 的中点.)
+### 解答 练习一
 
-### 解答 习题六
+由**定义 4.1.5 (通项公式)**, 逐项计算正因数个数.
 
-由**常用结论 1.1.9** (向量共面的充要条件), 要证 $E$, $F$, $G$, $H$ 四点共面, 只需证明 $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ 共面.
+$$
+d\left(1\right)=1,\ d\left(2\right)=2,\ d\left(3\right)=2,\ d\left(4\right)=3,\ d\left(5\right)=2,\ d\left(6\right)=4,\ d\left(7\right)=2,\ d\left(8\right)=4,\ d\left(9\right)=3,\ d\left(10\right)=4.
+$$
 
-因为 $E$, $F$, $G$, $H$ 分别是 $AB$, $BC$, $CD$, $DA$ 的中点, 由**定义 1.1.5 (属于与不属于)**:
+前 $10$ 项为 $1,2,2,3,2,4,2,4,3,4$.
 
-$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{BD}$.
+$\blacksquare$
 
-$\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}+\frac{1}{2}\boldsymbol{BD}$.
+(练习 4.1 第 4 题) 根据下列数列的前 $5$ 项, 写出数列的一个通项公式
 
-故 $\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{EH}$.
+(1) $1,\frac{1}{3},\frac{1}{5},\frac{1}{7},\frac{1}{9},\cdots$;
 
-由**常用结论 1.1.9**, $\boldsymbol{EG}$ 与 $\boldsymbol{EF}$, $\boldsymbol{EH}$ 共面, 即 $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ 共面, 又它们过同一点 $E$, 故 $E$, $F$, $G$, $H$ 四点共面. $\blacksquare$
+(2) $1,\frac{\sqrt{2}}{2},\frac{1}{2},\frac{\sqrt{2}}{4},\frac{1}{4},\cdots$.
 
-## 习题七
+### 解答 练习一
 
-(习题 1.1 综合运用第 7 题) 如图, 正方体 $ABCD-A'B'C'D'$ 的棱长为 $a$.
+(1) 由**定义 4.1.5 (通项公式)**, 各项分母为连续奇数 $1,3,5,7,9,\cdots$, 第 $n$ 项分母为 $2n-1$, 故
 
-(1) 求 $A'B$ 和 $B'C$ 的夹角;
+$$
+a_n=\frac{1}{2n-1}.
+$$
 
-(2) 求证: $A'B \perp AC'$.
+$\blacksquare$
 
-(题图: 正方体 $ABCD-A'B'C'D'$, 棱长为 $a$.)
+(2) 由**定义 4.1.5 (通项公式)**, 各项可写为 $1,\frac{1}{\sqrt{2}},\frac{1}{2},\frac{1}{2\sqrt{2}},\frac{1}{4}$, 即分母为 $\left(\sqrt{2}\right)^{n-1}$, 故
 
-### 解答 习题七
+$$
+a_n=\frac{1}{\left(\sqrt{2}\right)^{n-1}}=\left(\frac{\sqrt{2}}{2}\right)^{n-1}.
+$$
 
-由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
+$\blacksquare$
 
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert=a$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两垂直.
+## 练习二
 
-(1) $\boldsymbol{A'B}=\boldsymbol{AB}-\boldsymbol{AA'}=\boldsymbol{a}-\boldsymbol{c}$.
+(练习 4.1 第 1 题) 根据下面的图形及相应的点数, 写出点数构成的数列的一个通项公式, 并在横线上和括号中分别填上第 $5$ 项的图形和点数
 
-$\boldsymbol{B'C}=\boldsymbol{B'B}+\boldsymbol{BC}=-\boldsymbol{c}+\boldsymbol{b}=\boldsymbol{b}-\boldsymbol{c}$.
+(1) 点数依次为 $1,6,11,16,\left(\quad\right)$;
 
-$\boldsymbol{A'B} \cdot \boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
+(2) 点数依次为 $1,4,7,10,\left(\quad\right)$;
 
-$\lvert \boldsymbol{A'B} \rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
+(3) 点数依次为 $3,8,15,24,\left(\quad\right)$.
 
-$\lvert \boldsymbol{B'C} \rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
+该图为三列点阵图,依次展示三组由点排列成的图形:第一列点数 $1,6,11,16$(相邻两图点数差 $5$);第二列点数 $1,4,7,10$(相邻差 $3$);第三列点数 $3,8,15,24$(相邻差 $5,7,9$).
 
-$\cos \left\langle \boldsymbol{A'B}, \boldsymbol{B'C} \right\rangle=\frac{a^2}{\sqrt{2}a \cdot \sqrt{2}a}=\frac{1}{2}$.
+### 解答 练习二
 
-故夹角为 $60^\circ$.
+(1) 由**定义 4.1.5 (通项公式)**, 点数 $1,6,11,16$ 构成公差为 $5$ 的等差数列, 故
 
-(2) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
+$$
+a_n=1+5\left(n-1\right)=5n-4.
+$$
 
-$\boldsymbol{A'B} \cdot \boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{a}-\boldsymbol{c} \cdot \boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
+第 $5$ 项为 $a_5=5\times 5-4=21$.
 
-由**常用结论 1.1.13**, $\boldsymbol{A'B} \perp \boldsymbol{AC'}$, 即 $A'B \perp AC'$. $\blacksquare$
+$\blacksquare$
 
-## 习题八
+(2) 由**定义 4.1.5 (通项公式)**, 点数 $1,4,7,10$ 构成公差为 $3$ 的等差数列, 故
 
-(习题 1.1 拓广探索第 8 题) 用向量方法证明: 在平面内的一条直线, 如果与这个平面的一条斜线在这个平面上的射影垂直, 那么它也与这条斜线垂直 (三垂线定理).
+$$
+a_n=1+3\left(n-1\right)=3n-2.
+$$
 
-### 解答 习题八
+第 $5$ 项为 $a_5=3\times 5-2=13$.
 
-由**常用结论 1.1.13** (数量积的性质), 要证两直线垂直, 只需证它们的方向向量数量积为零.
+$\blacksquare$
 
-设平面 $\alpha$ 内的直线 $l$ 的方向向量为 $\boldsymbol{a}$, 斜线为 $AB$ ($A \in \alpha$, $B \notin \alpha$), $B$ 在 $\alpha$ 上的射影为 $B'$, 则射影为 $AB'$. 设 $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, 其中 $\boldsymbol{c} \perp \alpha$, 故 $\boldsymbol{c} \perp \boldsymbol{a}$.
+(3) 由**定义 4.1.5 (通项公式)**, 点数 $3,8,15,24$ 可写为 $2^2-1,3^2-1,4^2-1,5^2-1$, 故
 
-已知 $l \perp AB'$, 即 $\boldsymbol{a} \perp \boldsymbol{b}$, 故 $\boldsymbol{a} \cdot \boldsymbol{b}=0$.
+$$
+a_n=\left(n+1\right)^2-1=n^2+2n.
+$$
 
-$\boldsymbol{AB}=\boldsymbol{AB'}+\boldsymbol{B'B}=\boldsymbol{b}+\boldsymbol{c}$.
+第 $5$ 项为 $a_5=6^2-1=35$.
 
-$\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+$\blacksquare$
 
-由**常用结论 1.1.13**, $\boldsymbol{a} \perp \boldsymbol{AB}$, 即 $l \perp AB$. $\blacksquare$
+(练习 4.1 第 2 题) 根据下列条件, 写出数列 $\left\{a_n\right\}$ 的前 $5$ 项
 
-## 习题九
+(1) $a_1=1,\ a_n=a_{n-1}+2^{n-1}$ ($n\ge 2$);
 
-(习题 1.1 拓广探索第 9 题) 如图, 在四面体 $OABC$ 中, $OA \perp BC$, $OB \perp AC$. 求证: $OC \perp AB$.
+(2) $a_1=3,\ a_n=\frac{2}{3}a_{n-1}+1$ ($n\ge 2$).
 
-(题图: 四面体 $OABC$.)
+### 解答 练习二
 
-### 解答 习题九
+(1) 由**定义 4.1.6 (递推公式)**, 逐项递推.
 
-由**常用结论 1.1.13** (数量积的性质).
+$$
+a_1=1,\ a_2=1+2=3,\ a_3=3+4=7,\ a_4=7+8=15,\ a_5=15+16=31.
+$$
 
-设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
+$\blacksquare$
 
-由 $OA \perp BC$, 即 $\boldsymbol{a} \perp \boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. 故 $\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, 即 $\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}=0$. (1)
+(2) 由**定义 4.1.6 (递推公式)**, 逐项递推.
 
-由 $OB \perp AC$, 即 $\boldsymbol{b} \perp \boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. 故 $\boldsymbol{b} \cdot \left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, 即 $\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{a}=0$. (2)
+$$
+a_1=3,\ a_2=\frac{2}{3}\times 3+1=3,\ a_3=\frac{2}{3}\times 3+1=3,\ a_4=3,\ a_5=3.
+$$
 
-由 (1) 得 $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$. 由 (2) 得 $\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$.
+$\blacksquare$
 
-故 $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}$, 即 $\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+(练习 4.1 第 3 题) 已知数列 $\left\{a_n\right\}$ 满足 $a_1=2,\ a_n=2-\frac{1}{a_{n-1}}$ ($n\ge 2$), 写出它的前 $5$ 项, 并猜想它的通项公式
 
-$\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+### 解答 练习二
 
-故 $\boldsymbol{c} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+由**定义 4.1.6 (递推公式)**, 逐项递推.
 
-由**常用结论 1.1.13**, $\boldsymbol{OC} \perp \boldsymbol{AB}$, 即 $OC \perp AB$. $\blacksquare$
+$$
+a_1=2,\ a_2=2-\frac{1}{2}=\frac{3}{2},\ a_3=2-\frac{2}{3}=\frac{4}{3},\ a_4=2-\frac{3}{4}=\frac{5}{4},\ a_5=2-\frac{4}{5}=\frac{6}{5}.
+$$
 
-## 习题十
+由**定义 4.1.5 (通项公式)**, 观察前 $5$ 项 $\frac{2}{1},\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5}$, 猜想通项公式为
 
-(习题 1.1 拓广探索第 10 题) 如图, 在四面体 $OABC$ 中, $OA=OB$, $CA=CB$, $E$, $F$, $G$, $H$ 分别是 $OA$, $OB$, $BC$, $CA$ 的中点. 求证: 四边形 $EFGH$ 是矩形.
+$$
+a_n=\frac{n+1}{n}.
+$$
 
-(题图: 四面体 $OABC$, $E$, $F$, $G$, $H$ 分别为 $OA$, $OB$, $BC$, $CA$ 的中点.)
+$\blacksquare$
 
-### 解答 习题十
+(练习 4.1 第 4 题) 已知数列 $\left\{a_n\right\}$ 的前 $n$ 项和公式为 $S_n=-2n^2$, 求 $\left\{a_n\right\}$ 的通项公式
 
-由**常用结论 1.1.9** (向量共面的充要条件) 及**常用结论 1.1.13** (数量积的性质).
+### 解答 练习二
 
-$E$, $F$, $G$, $H$ 分别是 $OA$, $OB$, $BC$, $CA$ 的中点.
+由**常用结论 4.1.8** ($a_n$ 与 $S_n$ 的关系), 当 $n=1$ 时, $a_1=S_1=-2$.
 
-$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, 故 $\boldsymbol{EF}=\boldsymbol{HG}$, 即 $EF \parallel HG$ 且 $EF=HG$.
+当 $n\ge 2$ 时,
 
-$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, 故 $\boldsymbol{FG}=\boldsymbol{EH}$, 即 $FG \parallel EH$ 且 $FG=EH$.
+$$
+a_n=S_n-S_{n-1}=-2n^2-\left[-2\left(n-1\right)^2\right]=-2n^2+2\left(n-1\right)^2=-4n+2.
+$$
 
-故四边形 $EFGH$ 是平行四边形.
+验证 $n=1$ 时, $-4\times 1+2=-2=a_1$, 故通项公式为
 
-再证一个内角为直角. $\boldsymbol{EF} \cdot \boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB} \cdot \frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{OC}$.
+$$
+a_n=-4n+2.
+$$
 
-设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. 由 $OA=OB$, $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert$. 由 $CA=CB$, $\lvert \boldsymbol{c}-\boldsymbol{a} \rvert=\lvert \boldsymbol{c}-\boldsymbol{b} \rvert$, 平方得 $\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{b}^2$. 由 $\boldsymbol{a}^2=\boldsymbol{b}^2$, 得 $\boldsymbol{c} \cdot \boldsymbol{a}=\boldsymbol{c} \cdot \boldsymbol{b}$.
-
-$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB} \cdot \boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}=0$.
-
-故 $\boldsymbol{EF} \cdot \boldsymbol{FG}=0$, 即 $EF \perp FG$.
-
-平行四边形 $EFGH$ 有一个内角为直角, 故为矩形. $\blacksquare$
+$\blacksquare$

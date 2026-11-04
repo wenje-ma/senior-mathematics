@@ -1,539 +1,624 @@
 # week66
-> **Definition 3.1.3 (Standard Equation of Ellipse)**
+> **Definition 7.1.1 (条件概率)**
 > 
-> 平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
-> **Definition 3.1.7 (椭圆的离心率)**
+> 设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
+> **Definition 7.2.1 (随机变量)**
 > 
-> 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
-> **Definition 3.2.1 (Hyperbola)**
+> 一般地, 对于随机试验样本空间 $\Omega$ 中的每个样本点 $\omega$, 都有唯一的实数 $X\left(\omega\right)$ 与之对应, 我们称 $X$ 为随机变量. 通常用大写英文字母 $X$, $Y$, $Z$ 表示, 用小写英文字母 $x$, $y$, $z$ 表示其取值.
+> **Definition 7.2.2 (离散型随机变量)**
 > 
-> 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
-> **Definition 3.2.3 (双曲线的标准方程)**
+> 所有可能取的值可以一一列出的随机变量叫做离散型随机变量.
+> **Definition 7.2.3 (分布列)**
 > 
-> 双曲线的标准方程为 x^2/a^2 - y^2/b^2 = 1 (焦点在 x 轴上) 或 y^2/a^2 - x^2/b^2 = 1 (焦点在 y 轴上).
-> **Definition 3.2.5 (顶点, 实轴, 虚轴)**
+> 设离散型随机变量 X 可能取的值为 x1, x2, ..., xn, X 取每一个值 xi 的概率 P(X=xi) = pi, 则表称为 X 的分布列.
+> **Definition 7.2.4 (两点分布)**
 > 
-> 双曲线与实轴的交点为顶点, 线段 A1A2 叫做双曲线的实轴, 线段 B1B2 叫做双曲线的虚轴.
-> **Definition 3.2.6 (渐近线)**
-> 
-> 双曲线 x^2/a^2 - y^2/b^2 = 1 的渐近线方程为 y = ±(b/a)x.
-> **Definition 3.2.7 (等轴双曲线)**
-> 
-> 实轴和虚轴等长的双曲线叫做等轴双曲线.
-> **Definition 3.2.8 (双曲线的离心率)**
-> 
-> 双曲线的焦距与实轴长的比 e = c/a 叫做双曲线的离心率 (e > 1).
+> 如果随机变量 X 的分布列为 P(X=1) = p, P(X=0) = 1-p, 则称 X 服从两点分布.
 
 ## Exercise 1
 
-(Exercise 3.2, Problem 1) Find the standard equation of the hyperbola satisfying the following conditions.
+(Exercise 7.1, Problem 3) A bag contains 10 balls identical except in color, of which 7 are white and 3 are black. Each time one ball is drawn at random from the bag, and the drawn ball is not replaced. Find:
 
-(1) foci on the $x$-axis, $a=4$, $b=3$;
+(1) under the condition that the 1st drawn ball is white, the probability that the 2nd drawn ball is white;
 
-(2) foci on the $x$-axis, passing through $\left(-\sqrt{2},-\sqrt{3}\right)$ and $\left(\frac{\sqrt{15}}{3},\sqrt{2}\right)$;
-
-(3) foci at $\left(0,-6\right)$ and $\left(0,6\right)$, passing through $\left(2,-5\right)$.
+(2) the probability that both draws are white.
 
 ### Solution to Exercise 1
 
-By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, $c^2=a^2+b^2$.
+By **Definition 7.1.1 (Conditional Probability)** and **Conclusion 7.1.2** (Multiplication Formula for Probability).
 
-(1) Foci on the $x$-axis, $a=4$, $b=3$; the standard equation is
-
-$$
-\frac{x^2}{16}-\frac{y^2}{9}=1.
-$$
-
-(2) Foci on the $x$-axis; let the equation be $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$. Substituting the two points:
+(1) It is known that the 1st drawn ball is white; at this point 9 balls remain in the bag, of which 6 are white and 3 are black. Thus
 
 $$
-\frac{2}{a^2}-\frac{3}{b^2}=1,\quad \frac{15/9}{a^2}-\frac{2}{b^2}=1.
+P=\frac{6}{9}=\frac{2}{3}.
 $$
 
-Solving gives $a^2=1$, $b^2=3$. The standard equation is
+(2) The probability that the 1st drawn ball is white is $\frac{7}{10}$. Then by (1), using **Conclusion 7.1.2** (Multiplication Formula for Probability), the probability that both draws are white is
 
 $$
-x^2-\frac{y^2}{3}=1.
-$$
-
-(3) The foci $\left(0,\pm6\right)$ are on the $y$-axis, so $c=6$; let the equation be $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$. Substituting $\left(2,-5\right)$ gives $\frac{25}{a^2}-\frac{4}{b^2}=1$, and $a^2+b^2=36$. Solving gives $a^2=20$, $b^2=16$. The standard equation is
-
-$$
-\frac{y^2}{20}-\frac{x^2}{16}=1.
+P=\frac{7}{10}\times\frac{6}{9}=\frac{7}{15}.
 $$
 
 $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 3.2, Problem 2) Prove that the hyperbola $x^2-15y^2=15$ and the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ have the same foci.
+(Exercise 7.1, Problem 1) There are 12 multiple-choice questions with four options each; among them, the student Zhang Jun has an idea for 9 questions and no idea at all for 3 questions. The probability of answering a question with an idea correctly is 0.9; for a question with no idea, he can only guess an answer at random, and the probability of guessing correctly is 0.25. Zhang Jun chooses 1 of these 12 questions at random. Find the probability that he answers this question correctly.
 
 ### Solution to Exercise 2
 
-By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, rewrite the hyperbola $x^2-15y^2=15$ as $\frac{x^2}{15}-\frac{y^2}{1}=1$, so $a^2=15$, $b^2=1$, $c^2=a^2+b^2=16$, $c=4$, and the foci are at $\left(-4,0\right)$ and $\left(4,0\right)$.
+By **Conclusion 7.1.5** (Total Probability Formula), divide the sample space into two mutually exclusive events according to whether the chosen question has an idea.
 
-By **Definition 3.1.3 (Standard Equation of an Ellipse)**, in the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ we have $a^2=25$, $b^2=9$, $c^2=a^2-b^2=16$, $c=4$, and the foci are at $\left(-4,0\right)$ and $\left(4,0\right)$.
+Let $A$ = "choosing a question with an idea", $\overline A$ = "choosing a question with no idea", $B$ = "answering the question correctly". By the hypothesis,
 
-The foci are exactly the same, and the claim follows. $\blacksquare$
+$$
+\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\overline A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\overline A\right)=0.25.
+$$
+
+By **Conclusion 7.1.5** (Total Probability Formula),
+
+$$
+\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\overline A\right)\mathbb P\left(B\mid\overline A\right).
+$$
+
+Substituting the data, we get
+
+$$
+\mathbb P\left(B\right)=\frac{3}{4}\times 0.9+\frac{1}{4}\times 0.25=0.675+0.0625=0.7375.
+$$
+
+Thus the probability that Zhang Jun answers the question correctly is 0.7375. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 3.2, Problem 3) Given that the equation $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ represents a hyperbola, find the range of $m$.
+(Exercise 7.1, Problem 2) Two batches of products of the same specification: the first batch makes up $40\%$ with a defective rate of $5\%$, and the second batch makes up $60\%$ with a defective rate of $4\%$. The two batches are mixed, and 1 item is drawn at random from the mixed products.
+
+(1) Find the probability that this item is qualified;
+
+(2) Given that the drawn item is qualified, find the probability that it comes from the first batch.
 
 ### Solution to Exercise 3
 
-By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, in the standard hyperbola equation the signs of the $x^2$ and $y^2$ terms are opposite, i.e. the two denominators must have the same sign (one positive and one negative is impossible; in the standard form the two terms have opposite signs, so the two denominators must have the same sign).
+By **Conclusion 7.1.5** (Total Probability Formula) and **Conclusion 7.1.6** (Bayes' Formula).
 
-For $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ to represent a hyperbola, the two denominators must have the same sign. Either $2+m> 0$ and $m+1> 0$, giving $m> -1$; or $2+m< 0$ and $m+1< 0$, giving $m< -2$. Hence the range of $m$ is $m< -2$ or $m> -1$. $\blacksquare$
+Let $A_1$ = "the product comes from the first batch", $A_2$ = "the product comes from the second batch", $B$ = "the product is qualified". By the hypothesis, $\mathbb P\left(A_1\right)=0.4$, $\mathbb P\left(A_2\right)=0.6$, $\mathbb P\left(B\mid A_1\right)=1-0.05=0.95$, $\mathbb P\left(B\mid A_2\right)=1-0.04=0.96$.
 
-## Exercise 4
-
-(Exercise 3.2, Problem 4) The two foci of the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a> 0$) are $F_1$ and $F_2$, with focal distance $8$; $M$ is a point on the hyperbola with $\lvert MF_1 \rvert=5$. Find $\lvert MF_2 \rvert$.
-
-### Solution to Exercise 4
-
-By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, $c^2=a^2+b^2$. The focal distance is $2c=8$, so $c=4$, $c^2=16$. Also $b^2=12$, so $a^2=c^2-b^2=4$, $a=2$.
-
-By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a=4$. Substituting $\lvert MF_1 \rvert=5$ gives $\lvert 5-\lvert MF_2 \rvert \rvert=4$, so $\lvert MF_2 \rvert=9$ or $\lvert MF_2 \rvert=1$. Since the distance from a point on the hyperbola to the nearer focus is greater than $c-a=2$, the solution $\lvert MF_2 \rvert=1$ is rejected, leaving $\lvert MF_2 \rvert=9$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 3.2, Problem 1) Find the lengths of the transverse and conjugate axes, the coordinates of the vertices and foci, and the eccentricity of each hyperbola below.
-
-(1) $x^2-8y^2=32$;
-
-(2) $9x^2-y^2=81$;
-
-(3) $x^2-y^2=-4$;
-
-(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$.
-
-### Solution to Exercise 5
-
-Use **Definition 3.2.3 (Hyperbola)**, **Definition 3.2.5 (Vertices, Transverse and Conjugate Axes)**, and **Definition 3.2.8 (Eccentricity)**.
-
-(1) $x^2-8y^2=32$ becomes $\frac{x^2}{32}-\frac{y^2}{4}=1$, with $a=4\sqrt{2}$, $b=2$, $c=\sqrt{32+4}=6$. The transverse axis length is $8\sqrt{2}$, the conjugate axis length is $4$, the vertices are at $\left(\pm4\sqrt{2},0\right)$, the foci are at $\left(\pm6,0\right)$, and $e=\frac{6}{4\sqrt{2}}=\frac{3\sqrt{2}}{4}$.
-
-(2) $9x^2-y^2=81$ becomes $\frac{x^2}{9}-\frac{y^2}{81}=1$, with $a=3$, $b=9$, $c=\sqrt{9+81}=3\sqrt{10}$. The transverse axis length is $6$, the conjugate axis length is $18$, the vertices are at $\left(\pm3,0\right)$, the foci are at $\left(\pm3\sqrt{10},0\right)$, and $e=\sqrt{10}$.
-
-(3) $x^2-y^2=-4$ becomes $\frac{y^2}{4}-\frac{x^2}{4}=1$, with $a=2$, $b=2$, $c=2\sqrt{2}$. The transverse axis length is $4$, the conjugate axis length is $4$, the vertices are at $\left(0,\pm2\right)$, the foci are at $\left(0,\pm2\sqrt{2}\right)$, and $e=\sqrt{2}$.
-
-(4) $\frac{x^2}{49}-\frac{y^2}{25}=-1$ becomes $\frac{y^2}{25}-\frac{x^2}{49}=1$, with $a=5$, $b=7$, $c=\sqrt{25+49}=\sqrt{74}$. The transverse axis length is $10$, the conjugate axis length is $14$, the vertices are at $\left(0,\pm5\right)$, the foci are at $\left(0,\pm\sqrt{74}\right)$, and $e=\frac{\sqrt{74}}{5}$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 3.2, Problem 2) Find the standard equation of the hyperbola satisfying the following conditions.
-
-(1) vertices on the $x$-axis, distance between the two vertices is $8$, $e=\frac{5}{4}$;
-
-(2) foci on the $y$-axis, focal distance is $16$, $e=\frac{4}{3}$.
-
-### Solution to Exercise 6
-
-Use **Definition 3.2.5 (Vertices, Transverse Axis)** and **Definition 3.2.8 (Eccentricity)**.
-
-(1) Vertices on the $x$-axis, distance between vertices is $2a=8$, so $a=4$. $e=\frac{c}{a}=\frac{5}{4}$, so $c=5$, $b^2=c^2-a^2=25-16=9$. The standard equation is
+(1) By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\frac{x^2}{16}-\frac{y^2}{9}=1.
+\mathbb P\left(B\right)=\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)+\mathbb P\left(A_2\right)\mathbb P\left(B\mid A_2\right).
 $$
 
-(2) Foci on the $y$-axis, focal distance is $2c=16$, so $c=8$. $e=\frac{c}{a}=\frac{4}{3}$, so $a=6$, $b^2=c^2-a^2=64-36=28$. The standard equation is
+Substituting the data, we get
 
 $$
-\frac{y^2}{36}-\frac{x^2}{28}=1.
+\mathbb P\left(B\right)=0.4\times 0.95+0.6\times 0.96=0.38+0.576=0.956.
+$$
+
+(2) By **Conclusion 7.1.6** (Bayes' Formula),
+
+$$
+\mathbb P\left(A_1\mid B\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)}{\mathbb P\left(B\right)}=\frac{0.4\times 0.95}{0.956}=\frac{0.38}{0.956}=\frac{95}{239}.
 $$
 
 $\blacksquare$
-
-## Exercise 7
-
-(Exercise 3.2, Problem 3) One focus of an equilateral hyperbola whose axes of symmetry lie on the coordinate axes is $F_1\left(-6,0\right)$. Find the standard equation and the asymptotes of the hyperbola.
-
-### Solution to Exercise 7
-
-By **Definition 3.2.7 (Equilateral Hyperbola)**, $a=b$ in an equilateral hyperbola. The focus $F_1\left(-6,0\right)$ is on the $x$-axis, so $c=6$. From $c^2=a^2+b^2=2a^2$, we get $a^2=18$. The standard equation is
-
-$$
-\frac{x^2}{18}-\frac{y^2}{18}=1.
-$$
-
-By **Definition 3.2.6 (Asymptotes)**, the asymptotes are $y=\pm\frac{b}{a}x=\pm x$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 3.2, Problem 4) The asymptotes of a hyperbola are $y=\pm2x$, and its conjugate axis length is $4$. Find the standard equation.
-
-### Solution to Exercise 8
-
-By **Definition 3.2.6 (Asymptotes)**, the asymptotes are $y=\pm\frac{b}{a}x=\pm2x$, so $\frac{b}{a}=2$. The conjugate axis length is $2b=4$, so $b=2$, $a=1$. Since the focus axis is not specified, the standard equation is
-
-$$
-x^2-\frac{y^2}{4}=1
-$$
-
-or
-
-$$
-\frac{y^2}{4}-x^2=1.
-$$
-
-$\blacksquare$
-
-## Exercise 9
-
-(Exercise 3.2, Problem 1) Given that the coordinates of $A$ and $B$ are $\left(-6,0\right)$ and $\left(6,0\right)$ respectively, the lines $AM$ and $BM$ intersect at $M$, and the product of their slopes is $\frac{2}{9}$. Find the locus equation of $M$ and describe its shape.
-
-### Solution to Exercise 9
-
-Let $M\left(x,y\right)$. Then $k_{AM}=\frac{y}{x+6}$ and $k_{BM}=\frac{y}{x-6}$. By the problem, $\frac{y}{x+6}\cdot\frac{y}{x-6}=\frac{2}{9}$, i.e.
-
-$$
-\frac{y^2}{x^2-36}=\frac{2}{9}.
-$$
-
-Simplifying gives $9y^2=2x^2-72$, i.e.
-
-$$
-\frac{x^2}{36}-\frac{y^2}{8}=1.
-$$
-
-By **Definition 3.2.1 (Hyperbola)**, the locus of $M$ is a hyperbola with foci on the $x$-axis. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 3.2, Problem 2) Find the intersection coordinates of each line and hyperbola below.
-
-(1) $2x-y-10=0$, $\frac{x^2}{20}-\frac{y^2}{5}=1$;
-
-(2) $4x-3y-16=0$, $\frac{x^2}{25}-\frac{y^2}{16}=1$.
-
-### Solution to Exercise 10
-
-Combine the line and hyperbola equations and solve.
-
-(1) From $2x-y-10=0$ we have $y=2x-10$; substituting into $\frac{x^2}{20}-\frac{y^2}{5}=1$ gives
-
-$$
-\frac{x^2}{20}-\frac{\left(2x-10\right)^2}{5}=1.
-$$
-
-Simplifying gives $x^2-4\left(2x-10\right)^2=20$, i.e. $15x^2-160x+420=0$, i.e. $3x^2-32x+84=0$, so $x=6$ or $x=\frac{14}{3}$. Substituting back gives $y=2$ or $y=-\frac{2}{3}$. The intersections are $\left(6,2\right)$ and $\left(\frac{14}{3},-\frac{2}{3}\right)$.
-
-(2) From $4x-3y-16=0$ we have $y=\frac{4x-16}{3}$; substituting into $\frac{x^2}{25}-\frac{y^2}{16}=1$ gives
-
-$$
-\frac{x^2}{25}-\frac{\left(4x-16\right)^2}{9\times16}=1.
-$$
-
-Simplifying gives $16x^2-\left(4x-16\right)^2=400$, i.e. $128x=656$, $x=\frac{41}{8}$, $y=\frac{5}{3}$. The intersection is $\left(\frac{41}{8},\frac{5}{3}\right)$ (tangent, one common point). $\blacksquare$
-
-## Exercise 11
-
-(Exercise 3.2, Problem 3) The line $y=\frac{2}{3}x$ intersects the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a> 0$) at $A$ and $B$, and the product of the abscissas of $A$ and $B$ is $-9$. Find the eccentricity $e$.
-
-### Solution to Exercise 11
-
-Substituting $y=\frac{2}{3}x$ into the hyperbola gives
-
-$$
-\frac{x^2}{a^2}-\frac{4x^2/9}{8}=1,
-$$
-
-i.e. $x^2\left(\frac{1}{a^2}-\frac{1}{18}\right)=1$. Let the abscissas of the two intersections be $x_1,x_2$; then $x_1x_2=\frac{1}{\frac{1}{a^2}-\frac{1}{18}}=-9$. Solving gives $\frac{1}{a^2}-\frac{1}{18}=-\frac{1}{9}$, i.e. $\frac{1}{a^2}=\frac{1}{18}-\frac{2}{18}=-\frac{1}{18}$, a contradiction. Rearranging: $x^2=\frac{1}{\frac{1}{a^2}-\frac{1}{18}}$, and the two intersections are symmetric with $x_1=-x_2$, so $x_1x_2=-x_1^2=-9$, i.e. $x_1^2=9$. Substituting gives $9\left(\frac{1}{a^2}-\frac{1}{18}\right)=1$, so $\frac{1}{a^2}=\frac{1}{9}+\frac{1}{18}=\frac{1}{6}$, $a^2=6$. $c^2=a^2+b^2=6+8=14$, and $e=\frac{\sqrt{14}}{\sqrt{6}}=\frac{\sqrt{21}}{3}$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 3.2, Review and Consolidation, Problem 1) A point $P$ on the hyperbola $4x^2-y^2+64=0$ is at distance $1$ from one of its foci. Then the distance from $P$ to the other focus is $\;\_\_\;$.
+(Exercise 7.1, Review and Consolidation, Problem 1) To study the proportion of color blindness among students of different genders, a survey was conducted of 2000 students in a certain school, with the data shown in the table on the right. One person is chosen at random from these 2000 people.
+
+(1) Given that the chosen person is a male, find the probability that he is color-blind;
+
+(2) Given that the chosen student is color-blind, find the probability that the student is male.
+
+Table (unit: people)
+
+| Gender | Color-blind | Not color-blind | Total |
+|---|---|---|---|
+| Male | 60 | 1140 | 1200 |
+| Female | 2 | 798 | 800 |
+| Total | 62 | 1938 | 2000 |
 
 ### Solution to Problem 1
 
-Rewrite the hyperbola $4x^2-y^2+64=0$ as $\frac{y^2}{64}-\frac{x^2}{16}=1$, with $a=8$, $b=4$, $c=\sqrt{64+16}=4\sqrt{5}$.
+By **Definition 7.1.1 (Conditional Probability)**, compute using the group defined by the given condition as the sample space.
 
-By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. Given that the distance to one focus is $1$, the distance to the other is $1+16=17$ (rejecting $\lvert 1-16 \rvert=15$, because the distance from a point on the hyperbola to the nearer focus is at least $c-a=4\sqrt{5}-8\approx0.94> 0$; the distance $1$ corresponds to the nearer focus, so the distance to the farther focus is $17$). $\blacksquare$
+Let $A$ = "a male is chosen", $B$ = "the chosen student is color-blind".
 
-## Problem 2
-
-(Exercise 3.2, Review and Consolidation, Problem 2) Find the standard equation of the hyperbola satisfying the following conditions.
-
-(1) foci on the $x$-axis, $a=2\sqrt{5}$, passing through $A\left(-5,2\right)$;
-
-(2) passing through $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$.
-
-### Solution to Problem 2
-
-By **Definition 3.2.3 (Standard Equation of a Hyperbola)**.
-
-(1) Foci on the $x$-axis, $a=2\sqrt{5}$; let the equation be $\frac{x^2}{20}-\frac{y^2}{b^2}=1$. Substituting $A\left(-5,2\right)$ gives $\frac{25}{20}-\frac{4}{b^2}=1$, so $b^2=16$. The standard equation is
+(1) Given that the chosen person is a male, i.e. the sample space is all 1200 males, of whom 60 are color-blind. Thus
 
 $$
-\frac{x^2}{20}-\frac{y^2}{16}=1.
+\mathbb P\left(B\mid A\right)=\frac{60}{1200}=\frac{1}{20}=0.05.
 $$
 
-(2) Let the equation be $mx^2+ny^2=1$ ($mn< 0$). Substituting $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$:
+(2) Given that the chosen student is color-blind, i.e. the sample space is all 62 color-blind students, of whom 60 are male. Thus
 
 $$
-49m+72n=1,\quad 28m+9n=1.
-$$
-
-Solving gives $m=\frac{1}{25}$, $n=-\frac{1}{75}$. The standard equation is
-
-$$
-\frac{x^2}{25}-\frac{y^2}{75}=1.
+\mathbb P\left(A\mid B\right)=\frac{60}{62}=\frac{30}{31}.
 $$
 
 $\blacksquare$
 
+## Problem 2
+
+(Exercise 7.1, Review and Consolidation, Problem 2) One person is chosen at random from a population. Let $B=$ "the chosen person has heart disease", $C=$ "the chosen person is a heart-disease patient older than 50 years". Determine the relationship between $\mathbb P\left(B\right)$ and $\mathbb P\left(C\right)$, and explain your reasoning.
+
+### Solution to Problem 2
+
+By **Definition 7.1.1 (Conditional Probability)** and the inclusion relation between events.
+
+When event $C$ occurs, the person both has heart disease and is older than 50 years, so the occurrence of $C$ necessarily entails the occurrence of $B$, i.e. $C\subseteq B$. By the property of probability, the probability of a sub-event does not exceed that of the parent event, so
+
+$$
+\mathbb P\left(C\right)\le \mathbb P\left(B\right).
+$$
+
+Moreover, not everyone with heart disease is older than 50 years, i.e. $B$ contains cases not in $C$, so in fact $\mathbb P\left(C\right)< \mathbb P\left(B\right)$. $\blacksquare$
+
 ## Problem 3
 
-(Exercise 3.2, Review and Consolidation, Problem 3) Given the equations of the following hyperbolas, find their foci, eccentricities, and asymptotes.
-
-(1) $16x^2-9y^2=144$;
-
-(2) $16x^2-9y^2=-144$.
+(Exercise 7.1, Review and Consolidation, Problem 3) A and B each shoot once at the same target. It is known that the probability of A hitting the target is 0.6, and the probability of B hitting the target is 0.5. Given that the target is hit at least once, find the probability that A hit the target.
 
 ### Solution to Problem 3
 
-Use **Definition 3.2.3 (Hyperbola)**, **Definition 3.2.6 (Asymptotes)**, and **Definition 3.2.8 (Eccentricity)**.
+By **Definition 7.1.1 (Conditional Probability)**, using the addition and multiplication formulas for probability.
 
-(1) $16x^2-9y^2=144$ becomes $\frac{x^2}{9}-\frac{y^2}{16}=1$, with $a=3$, $b=4$, $c=5$. The foci are at $\left(\pm5,0\right)$, $e=\frac{5}{3}$, and the asymptotes are $y=\pm\frac{4}{3}x$.
+Let $A$ = "A hits the target", $B$ = "B hits the target". By the hypothesis, $\mathbb P\left(A\right)=0.6$, $\mathbb P\left(B\right)=0.5$, and the two shots are independent. By **Conclusion 7.1.4** (Mutual Independence of Events), $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=0.6\times 0.5=0.3$.
 
-(2) $16x^2-9y^2=-144$ becomes $\frac{y^2}{16}-\frac{x^2}{9}=1$, with $a=4$, $b=3$, $c=5$. The foci are at $\left(0,\pm5\right)$, $e=\frac{5}{4}$, and the asymptotes are $y=\pm\frac{4}{3}x$. $\blacksquare$
+"The target is hit at least once" is the event $A\cup B$, whose probability is
+
+$$
+\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(AB\right)=0.6+0.5-0.3=0.8.
+$$
+
+What is sought is the probability that $A$ occurs under the condition that $A\cup B$ occurs. By **Definition 7.1.1 (Conditional Probability)**,
+
+$$
+\mathbb P\left(A\mid A\cup B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\cup B\right)}=\frac{0.6}{0.8}=\frac{3}{4}.
+$$
+
+$\blacksquare$
 
 ## Problem 4
 
-(Exercise 3.2, Review and Consolidation, Problem 4) Find the standard equation of the hyperbola satisfying the following conditions.
-
-(1) foci on the $x$-axis, transverse axis length $10$, conjugate axis length $8$;
-
-(2) foci on the $y$-axis, focal distance $10$, conjugate axis length $8$;
-
-(3) eccentricity $e=\sqrt{2}$, passing through $M\left(-5,3\right)$.
+(Exercise 7.1, Review and Consolidation, Problem 4) Box A and box B each contain 10 balls: box A has 5 red and 5 white balls, and box B has 8 red and 2 white balls. A fair die is rolled: if the roll is 1 or 2, one ball is drawn at random from box A; if the roll is 3, 4, 5, or 6, one ball is drawn at random from box B. Find the probability of drawing a red ball.
 
 ### Solution to Problem 4
 
-Use **Definition 3.2.5 (Transverse and Conjugate Axes)** and **Definition 3.2.8 (Eccentricity)**.
+By **Conclusion 7.1.5** (Total Probability Formula), divide the sample space into two mutually exclusive events according to which box the ball is drawn from.
 
-(1) $2a=10$, $a=5$; $2b=8$, $b=4$. Foci on the $x$-axis; the equation is
+Let $C_1$ = "drawing from box A", $C_2$ = "drawing from box B", $R$ = "drawing a red ball". The probability that the die shows 1 or 2 is $\frac{2}{6}=\frac{1}{3}$, and the probability that it shows 3, 4, 5, or 6 is $\frac{4}{6}=\frac{2}{3}$, so $\mathbb P\left(C_1\right)=\frac{1}{3}$, $\mathbb P\left(C_2\right)=\frac{2}{3}$. Box A has 5 red balls and box B has 8 red balls, so $\mathbb P\left(R\mid C_1\right)=\frac{5}{10}=0.5$, $\mathbb P\left(R\mid C_2\right)=\frac{8}{10}=0.8$.
 
-$$
-\frac{x^2}{25}-\frac{y^2}{16}=1.
-$$
-
-(2) $2c=10$, $c=5$; $2b=8$, $b=4$. $a^2=c^2-b^2=25-16=9$. Foci on the $y$-axis; the equation is
+By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\frac{y^2}{9}-\frac{x^2}{16}=1.
+\mathbb P\left(R\right)=\mathbb P\left(C_1\right)\mathbb P\left(R\mid C_1\right)+\mathbb P\left(C_2\right)\mathbb P\left(R\mid C_2\right).
 $$
 
-(3) $e=\sqrt{2}$, so $\frac{c}{a}=\sqrt{2}$, $c^2=2a^2$, $b^2=c^2-a^2=a^2$. Let the equation be $\frac{x^2}{a^2}-\frac{y^2}{a^2}=1$. Substituting $M\left(-5,3\right)$ gives $\frac{25-9}{a^2}=1$, $a^2=16$. The equation is
+Substituting the data, we get
 
 $$
-\frac{x^2}{16}-\frac{y^2}{16}=1.
+\mathbb P\left(R\right)=\frac{1}{3}\times 0.5+\frac{2}{3}\times 0.8=\frac{0.5+1.6}{3}=0.7.
 $$
 
 $\blacksquare$
 
 ## Problem 5
 
-(Exercise 3.2, Review and Consolidation, Problem 5) As shown in the figure, the circle $O$ has fixed radius $r$, $A$ is a fixed point outside the circle $O$, and $P$ is any point on the circle $O$. The perpendicular bisector $l$ of segment $AP$ intersects the line $OP$ at $Q$. As $P$ moves on the circle $O$, what is the locus of $Q$? Why?
+(Exercise 7.1, Review and Consolidation, Problem 5) A flu outbreak has occurred in three regions $A$, $B$, $C$. The proportions of people infected with flu in these three regions are $6\%$, $5\%$, and $4\%$, respectively. The ratio of the populations of the three regions is $5:7:8$. Now one person is chosen at random from these three regions.
 
-The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ outside the circle, and a point $P$ on the circle; the perpendicular bisector $l$ of segment $AP$ meets the line $OP$ (its extension beyond $P$) at point $Q$, and segments $AP$, $OQ$, $QP$ are drawn.
+(1) Find the probability that this person has the flu;
+
+(2) If this person has the flu, find the probability that the person is from region $A$.
 
 ### Solution to Problem 5
 
-By the property of the perpendicular bisector, $\lvert QA \rvert=\lvert QP \rvert$. Also, $Q$ lies on the line $OP$, and $\lvert OP \rvert=r$.
+By **Conclusion 7.1.5** (Total Probability Formula) and **Conclusion 7.1.6** (Bayes' Formula).
 
-Since $A$ is outside the circle $O$, $\lvert OA \rvert> r$, and $Q$ lies on the extension of $OP$ (on the side beyond $P$), so $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, i.e.
+Let $A_1$, $A_2$, $A_3$ denote "from region $A$, $B$, $C$" respectively, and $F$ = "this person has the flu". The population ratio is $5:7:8$, with 20 parts in total, so $\mathbb P\left(A_1\right)=\frac{5}{20}$, $\mathbb P\left(A_2\right)=\frac{7}{20}$, $\mathbb P\left(A_3\right)=\frac{8}{20}$. Also $\mathbb P\left(F\mid A_1\right)=0.06$, $\mathbb P\left(F\mid A_2\right)=0.05$, $\mathbb P\left(F\mid A_3\right)=0.04$.
 
-$$
-\lvert QO \rvert-\lvert QA \rvert=r.
-$$
-
-By **Definition 3.2.1 (Hyperbola)**, the difference of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$, and $r< \lvert OA \rvert$, so the locus of $Q$ is one branch of a hyperbola with foci at $O$ and $A$. $\blacksquare$
-
-## Problem 6
-
-(Exercise 3.2, Review and Consolidation, Problem 6) Find the standard equation of the equilateral hyperbola passing through $A\left(3,-1\right)$ with its axes of symmetry on the coordinate axes.
-
-### Solution to Problem 6
-
-By **Definition 3.2.7 (Equilateral Hyperbola)**, let the equation be $x^2-y^2=\lambda$ ($\lambda\neq0$). Substituting $A\left(3,-1\right)$ gives $9-1=\lambda$, $\lambda=8$. The standard equation is
+(1) By **Conclusion 7.1.5** (Total Probability Formula),
 
 $$
-\frac{x^2}{8}-\frac{y^2}{8}=1.
+\mathbb P\left(F\right)=\sum_{i=1}^3 \mathbb P\left(A_i\right)\mathbb P\left(F\mid A_i\right).
+$$
+
+Substituting the data, we get
+
+$$
+\mathbb P\left(F\right)=\frac{5}{20}\times 0.06+\frac{7}{20}\times 0.05+\frac{8}{20}\times 0.04=\frac{0.3+0.35+0.32}{20}=0.0485.
+$$
+
+(2) By **Conclusion 7.1.6** (Bayes' Formula),
+
+$$
+\mathbb P\left(A_1\mid F\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(F\mid A_1\right)}{\mathbb P\left(F\right)}=\frac{5\times 0.06}{0.97}=\frac{0.3}{0.97}=\frac{30}{97}.
 $$
 
 $\blacksquare$
 
+## Problem 6
+
+(Exercise 7.1, Review and Consolidation, Problem 6) Given $\mathbb P\left(A\right)> 0$, $\mathbb P\left(B\right)> 0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, prove that $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
+
+### Solution to Problem 6
+
+By **Definition 7.1.1 (Conditional Probability)**.
+
+From $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ and **Definition 7.1.1 (Conditional Probability)**,
+
+$$
+\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\right).
+$$
+
+Multiplying both sides by $\mathbb P\left(A\right)$, we get $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. Then by **Definition 7.1.1 (Conditional Probability)**,
+
+$$
+\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{\mathbb P\left(A\right)\mathbb P\left(B\right)}{\mathbb P\left(B\right)}=\mathbb P\left(A\right).
+$$
+
+Thus $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$. $\blacksquare$
+
 ## Problem 7
 
-(Exercise 3.2, Comprehensive Application, Problem 7) For what values of $m$ and $n$ does the equation $\frac{x^2}{m}+\frac{y^2}{n}=1$ represent the following curves:
-
-(1) a circle;
-
-(2) an ellipse;
-
-(3) a hyperbola?
+(Exercise 7.1, Comprehensive Application, Problem 7) A batch of products has 100 items in total, of which 5 are unqualified. The receiving party draws products at random without replacement for inspection, and decides whether to accept the batch according to the following rule: if the 1st inspected product is unqualified, the whole batch is rejected; if the 1st inspected product is qualified, then 1 more is drawn; if the 2nd inspected product is qualified, the whole batch is accepted, otherwise the whole batch is rejected. Find the probability that this batch is rejected.
 
 ### Solution to Problem 7
 
-(1) By **Definition 3.1.3 (Standard Equation of an Ellipse)**, a circle is the special case of an ellipse when $a=b$, so we need $m=n> 0$.
+By **Conclusion 7.1.2** (Multiplication Formula for Probability) and the addition formula for probability.
 
-(2) By **Definition 3.1.3 (Standard Equation of Ellipse)**, an ellipse requires both denominators positive and unequal, i.e. $m> 0$, $n> 0$, and $m\neq n$.
+Let $G_i$ = "the $i$th drawn item is qualified". The batch is rejected in two mutually exclusive cases: the 1st item is unqualified; or the 1st is qualified and the 2nd is unqualified.
 
-(3) By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, a hyperbola requires the two denominators to have opposite signs, i.e. $m> 0$, $n< 0$ or $m< 0$, $n> 0$. $\blacksquare$
+The probability that the 1st item is unqualified is
+
+$$
+\mathbb P\left(\overline G_1\right)=\frac{5}{100}=\frac{1}{20}.
+$$
+
+The probability that the 1st item is qualified and the 2nd is unqualified, by **Conclusion 7.1.2** (Multiplication Formula for Probability), is
+
+$$
+\mathbb P\left(G_1\overline G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\overline G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
+$$
+
+The two cases are mutually exclusive, so by the addition formula for probability, the probability that the batch is rejected is
+
+$$
+P=\frac{1}{20}+\frac{95}{100}\times\frac{5}{99}=\frac{1}{20}+\frac{19}{396}=\frac{99+95}{1980}=\frac{97}{990}.
+$$
+
+$\blacksquare$
 
 ## Problem 8
 
-(Exercise 3.2, Comprehensive Application, Problem 8) Find the equation of the hyperbola that shares foci with the ellipse $\frac{x^2}{49}+\frac{y^2}{24}=1$ and has eccentricity $e=\frac{5}{4}$.
+(Exercise 7.1, Comprehensive Application, Problem 8) In Mendel's pea experiments, the genotypes of the second filial generation are $DD$, $Dd$, $dd$, where $D$ is the dominant gene and $d$ is the recessive gene, and the ratio of these three genotypes is $1:2:1$. If 2 pea plants are chosen at random from the second filial generation and are crossed at random, what is the probability that the genotype in the third filial generation is $dd$?
 
 ### Solution to Problem 8
 
-By **Definition 3.1.3 (Standard Equation of Ellipse)**, in the ellipse $\frac{x^2}{49}+\frac{y^2}{24}=1$ we have $c^2=49-24=25$, $c=5$, and foci at $\left(\pm5,0\right)$.
+By **Conclusion 7.1.5** (Total Probability Formula), classify by the genotype combination of the two chosen plants.
 
-The hyperbola shares the foci with the ellipse, so $c=5$. By **Definition 3.2.8 (Eccentricity)**, $e=\frac{c}{a}=\frac{5}{4}$, so $a=4$, $b^2=c^2-a^2=25-16=9$. The hyperbola equation is
+The proportions of the genotypes $DD$, $Dd$, $dd$ in the second filial generation are $\frac{1}{4}$, $\frac{1}{2}$, $\frac{1}{4}$, respectively. For a child to have genotype $dd$, both parents must contribute the gene $d$. Among them, $DD$ cannot contribute $d$, $dd$ necessarily contributes $d$, and $Dd$ contributes $d$ with probability $\frac{1}{2}$.
+
+The genotype combinations of the two parent plants and the probability of producing a $dd$ child are as follows:
+
+When $DD$ is paired with any parent, the probability of $dd$ appearing in the third filial generation is $0$;
+
+$Dd$ crossed with $Dd$, with probability $\left(\frac{1}{2}\right)^2=\frac{1}{4}$, produces $dd$ with probability $\frac{1}{4}$;
+
+$Dd$ crossed with $dd$, with probability $2\times\frac{1}{2}\times\frac{1}{4}=\frac{1}{4}$, produces $dd$ with probability $\frac{1}{2}$;
+
+$dd$ crossed with $dd$, with probability $\left(\frac{1}{4}\right)^2=\frac{1}{16}$, produces $dd$ with probability $1$.
+
+By **Conclusion 7.1.5** (Total Probability Formula), the probability that the genotype in the third filial generation is $dd$ is
 
 $$
-\frac{x^2}{16}-\frac{y^2}{9}=1.
+P=\frac{1}{4}\times\frac{1}{4}+\frac{1}{4}\times\frac{1}{2}+\frac{1}{16}\times 1=\frac{1}{16}+\frac{1}{8}+\frac{1}{16}=\frac{1}{4}.
 $$
 
 $\blacksquare$
 
 ## Problem 9
 
-(Exercise 3.2, Comprehensive Application, Problem 9) Two outposts $A$ and $B$ are $1400\,\mathrm{m}$ apart. The time difference between hearing an explosion is $3\,\mathrm{s}$, and the speed of sound is $340\,\mathrm{m/s}$. On what curve does the explosion point lie, and find its equation.
+(Exercise 7.1, Comprehensive Application, Problem 9) Prove properties (1) and (2) of conditional probability.
 
 ### Solution to Problem 9
 
-The difference of the distances from the explosion point to $A$ and $B$ is $340\times3=1020\,\mathrm{m}$. Take the midpoint of $AB$ as the origin and the line $AB$ as the $x$-axis; then $A\left(-700,0\right)$, $B\left(700,0\right)$, $2c=1400$, $c=700$.
+By **Definition 7.1.1 (Conditional Probability)**.
 
-By **Common Conclusion 3.2.2**, $\lvert \lvert PA \rvert-\lvert PB \rvert \rvert=1020=2a$, $a=510$. $b^2=c^2-a^2=700^2-510^2=229900$. The explosion point lies on a hyperbola with foci at $A$ and $B$, with equation
+(1) For any event $A$, $A\subseteq\Omega$, so $\Omega A=A$. By **Definition 7.1.1 (Conditional Probability)**,
 
 $$
-\frac{x^2}{260100}-\frac{y^2}{229900}=1.
+\mathbb P\left(\Omega\mid A\right)=\frac{\mathbb P\left(\Omega A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\right)}=1.
+$$
+
+(2) If $B$ and $C$ are two mutually exclusive events, then $BA$ and $CA$ are also mutually exclusive. By the addition formula for probability, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. By **Definition 7.1.1 (Conditional Probability)**,
+
+$$
+\mathbb P\left(B\cup C\mid A\right)=\frac{\mathbb P\left(\left(B\cup C\right)A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(BA\right)+\mathbb P\left(CA\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right).
 $$
 
 $\blacksquare$
 
 ## Problem 10
 
-(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F\left(c,0\right)$ ($c> 0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a< c$). Find the locus equation of $M$ and describe its shape.
+(Exercise 7.1, Extension and Exploration, Problem 10) Prove that when $\mathbb P\left(AB\right)> 0$, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. From this, can you find a formula for computing $\mathbb P\left(A_1A_2\cdots A_n\right)$?
 
 ### Solution to Problem 10
 
-Let $M\left(x,y\right)$. The distance to $F\left(c,0\right)$ is $\sqrt{\left(x-c\right)^2+y^2}$, and the distance to $l:x=\frac{a^2}{c}$ is $\left|x-\frac{a^2}{c}\right|$. By the problem,
+By **Definition 7.1.1 (Conditional Probability)** and **Conclusion 7.1.2** (Multiplication Formula for Probability).
+
+From $\mathbb P\left(AB\right)> 0$, it necessarily follows that $\mathbb P\left(A\right)> 0$ and $\mathbb P\left(AB\right)> 0$. Use **Conclusion 7.1.2** (Multiplication Formula for Probability) twice:
+
+First treat $AB$ as a single event, giving
 
 $$
-\frac{\sqrt{\left(x-c\right)^2+y^2}}{\left|x-\frac{a^2}{c}\right|}=\frac{c}{a}.
+\mathbb P\left(ABC\right)=\mathbb P\left(AB\right)\,\mathbb P\left(C\mid AB\right).
 $$
 
-Squaring both sides and simplifying gives
+Then apply the multiplication formula to $\mathbb P\left(AB\right)$, giving $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$. Substituting, we get
 
 $$
-\left(a^2-c^2\right)x^2+a^2y^2=a^2\left(a^2-c^2\right).
+\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right).
 $$
 
-Since $a< c$, we have $a^2-c^2< 0$; dividing both sides by $a^2\left(a^2-c^2\right)$ gives
+From this, repeatedly applying the multiplication formula, we obtain the formula for the probability of the intersection of $n$ events:
 
 $$
-\frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
-$$
-
-By **Definition 3.2.1 (Hyperbola)**, the locus is a hyperbola with foci on the $x$-axis. $\blacksquare$
-
-## Problem 11
-
-(Exercise 3.2, Extension and Exploration, Problem 11) $M$ is a moving point; $MA$ is perpendicular to the line $y=x$, with foot $A$ in the first quadrant, and $MB$ is perpendicular to the line $y=-x$, with foot $B$ in the fourth quadrant. If the area of quadrilateral $OAMB$ ($O$ is the origin) is $3$, find the locus equation of $M$.
-
-### Solution to Problem 11
-
-Let $M\left(x,y\right)$. $MA\perp y=x$, with foot $A$ on $y=x$; $MB\perp y=-x$, with foot $B$ on $y=-x$.
-
-By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. Since $A$ is in the first quadrant, $x+y> 0$; since $B$ is in the fourth quadrant, $x-y> 0$, so $x> \lvert y \rvert$.
-
-The quadrilateral $OAMB$ is split into $\triangle OMA$ and $\triangle OMB$. $\lvert OA \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$, $\lvert MA \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$; $\lvert OB \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$, $\lvert MB \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$. The area is
-
-$$
-S=\frac{1}{2}\lvert OA \rvert\lvert MA \rvert+\frac{1}{2}\lvert OB \rvert\lvert MB \rvert=\frac{1}{2}\cdot\frac{\lvert x^2-y^2 \rvert}{2}\cdot2=\frac{\lvert x^2-y^2 \rvert}{2}=3.
-$$
-
-Since $x> \lvert y \rvert$, we have $x^2-y^2> 0$, so $x^2-y^2=6$. The locus equation is
-
-$$
-\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x> \sqrt{6}\right).
+\mathbb P\left(A_1A_2\cdots A_n\right)=\mathbb P\left(A_1\right)\mathbb P\left(A_2\mid A_1\right)\mathbb P\left(A_3\mid A_1A_2\right)\cdots \mathbb P\left(A_n\mid A_1A_2\cdots A_{n-1}\right).
 $$
 
 $\blacksquare$
 
+## Reading and Thinking 1
+
+(Think About 1) Bayes' formula and artificial intelligence. In a game show where the host opens an empty box numbered 3, regarding whether one should switch to box numbered 2, viewpoint (1) holds that the probability of a prize in each of the three boxes is $\frac{1}{3}$, so there is no need to switch; viewpoint (2) holds that since box 3 is empty, the probability of a prize in box 1 and box 2 is each $\frac{1}{2}$, so there is no need to switch. Analyze where these two viewpoints are wrong.
+
+### Solution to Reading and Thinking 1
+
+By **Conclusion 7.1.5** (Total Probability Formula) and **Conclusion 7.1.6** (Bayes' Formula).
+
+The error in viewpoint (1) is that it fails to use the new information provided by the host opening the door. The host only opens an empty box other than the box you chose (box 1); this action itself carries information about the location of the prize, which revises the prior probability of "each of the three boxes has $\frac{1}{3}$". One cannot still decide based on the prior probability.
+
+The error in viewpoint (2) is that it mistakes the host's opening of the door for a random opening. By the rules of the game, the host opens only a box that is outside your choice and is indeed empty, which differs from "opening one of the two boxes at random". By Bayes' formula, after the host opens box 3, the posterior probability of a prize in box 1 is still $\frac{1}{3}$, while the posterior probability of a prize in box 2 is revised to $\frac{2}{3}$; the remaining probability is not simply split equally between the two boxes. Therefore one should switch to box 2. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 7.2, Problem 1) Give two examples of discrete random variables.
+
+### Solution to Exercise 4
+
+By **Definition 7.2.2 (Discrete Random Variable)**, a random variable whose possible values are finite in number or can be listed one by one is a discrete random variable.
+
+(1) The score $X$ (in rings) that a certain shooter may hit in one shot; its possible values are $0,1,2,\cdots,10$, which can be listed one by one, so it is a discrete random variable.
+
+(2) The number of times $Y$ a certain webpage is viewed in one day; its possible values are $0,1,2,\cdots$, which, though infinite, can be listed one by one, so it is a discrete random variable. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 7.2, Problem 2) Can the outcomes of the following random experiments be represented by discrete random variables? If so, write down the possible values of each random variable and explain what experimental outcomes these values represent.
+
+(1) The sum of the two dice when 2 dice are rolled;
+
+(2) The number of goals scored by a certain football team in 5 penalty kicks;
+
+(3) A bottle of a drink labeled $1500\,\mathrm{mL}$ is chosen at random; the difference between its actual content and the specified content.
+
+### Solution to Exercise 5
+
+By **Definition 7.2.2 (Discrete Random Variable)**, judge whether the values can be listed one by one.
+
+(1) Yes. Let $X$ be the sum of the two dice; its possible values are $2,3,4,\cdots,12$, where $X=k$ means the sum of the two dice is $k$.
+
+(2) Yes. Let $Y$ be the number of goals scored in 5 penalty kicks; its possible values are $0,1,2,3,4,5$, where $Y=k$ means exactly $k$ goals are scored in the 5 penalty kicks.
+
+(3) No. The difference between the actual and specified contents can take any real number in some interval, filling an interval and cannot be listed one by one, so it is not a discrete random variable. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 7.2, Problem 3) In a basketball game, a free throw hit scores 1 point and a miss scores 0 points. It is known that the probability of a certain athlete hitting a free throw is 0.7. Find the distribution of his score in one free throw.
+
+### Solution to Exercise 6
+
+By **Definition 7.2.4 (Two-point Distribution)**, one free throw has only two outcomes: hit or miss.
+
+Let $X$ be the score of one free throw. Then the possible values of $X$ are $0,1$, and $\mathbb P\left(X=1\right)=0.7$, $\mathbb P\left(X=0\right)=1-0.7=0.3$. Thus the distribution of $X$ is
+
+| $X$ | 0 | 1 |
+|---|---|---|
+| $P$ | 0.3 | 0.7 |
+
+$\blacksquare$
+
+## Exercise 7
+
+(Exercise 7.2, Problem 4) A fair coin is tossed 2 times. Write down the distribution of the number of heads $X$.
+
+### Solution to Exercise 7
+
+By **Definition 7.2.3 (Probability Distribution)**, first determine the possible values of $X$, then use the classical model to find the probability of each value.
+
+Tossing the coin 2 times, the possible values of the number of heads $X$ are $0,1,2$. The sample space is $\left\{正正, 正反, 反正, 反反\right\}$, with 4 equally likely sample points.
+
+$$
+\mathbb P\left(X=0\right)=\mathbb P\left(\text{反反}\right)=\frac{1}{4}.
+$$
+
+$$
+\mathbb P\left(X=1\right)=\frac{2}{4}=\frac{1}{2}.
+$$
+
+$$
+\mathbb P\left(X=2\right)=\mathbb P\left(\text{正正}\right)=\frac{1}{4}.
+$$
+
+Thus the distribution of $X$ is
+
+| $X$ | 0 | 1 | 2 |
+|---|---|---|---|
+| $P$ | $\frac{1}{4}$ | $\frac{1}{2}$ | $\frac{1}{4}$ |
+
+$\blacksquare$
+
+## Problem 11
+
+(Exercise 7.2, Review and Consolidation, Problem 1) Student Zhang must pass 4 traffic-light intersections on the way home from school; at each intersection he may encounter a red light or a green light.
+
+(1) Write down the sample space of this random experiment;
+
+(2) Let $X$ be the number of red lights he may encounter. Write down the possible values of $X$ and explain what random events these values represent.
+
+### Solution to Problem 11
+
+By **Definition 7.2.1 (Random Variable)** and **Definition 7.2.2 (Discrete Random Variable)**.
+
+(1) Let encountering a red light at an intersection be denoted by $R$ and a green light by $G$. The 4 intersections give $2^4=16$ sample points, and the sample space is
+
+$$
+\Omega=\left\{RRRR, RRRG, RRGR, \cdots, GGGG\right\}.
+$$
+
+(2) $X$ is the number of red lights encountered; its possible values are $0,1,2,3,4$, where $X=k$ ($k=0,1,2,3,4$) means exactly $k$ red lights are encountered when passing through the 4 intersections. $\blacksquare$
+
 ## Problem 12
 
-(Exercise 3.2, Extension and Exploration, Problem 12) Let the eccentricities of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) and the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ be $e_1$ and $e_2$, respectively, and suppose the slopes of the asymptotes of the hyperbola are less than $\frac{2\sqrt{5}}{5}$. Find the ranges of $e_1$ and $e_2$.
+(Exercise 7.2, Review and Consolidation, Problem 2) A certain student obtained the following distribution for a discrete random variable:
+
+| $X$ | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| $P$ | 0.2 | 0.3 | 0.15 | 0.45 |
+
+Explain whether this student's calculation is correct.
 
 ### Solution to Problem 12
 
-By **Definition 3.1.7 (Eccentricity of an Ellipse)**, $e_1=\frac{c_1}{a}=\frac{\sqrt{a^2-b^2}}{a}$; by **Definition 3.2.8 (Eccentricity of a Hyperbola)**, $e_2=\frac{c_2}{a}=\frac{\sqrt{a^2+b^2}}{a}$.
+By the properties of **Definition 7.2.3 (Probability Distribution)**, the sum of the probabilities in a distribution should be 1.
 
-The slopes of the hyperbola's asymptotes are $\frac{b}{a}< \frac{2\sqrt{5}}{5}$, so $\frac{b^2}{a^2}< \frac{4}{5}$.
+Compute the sum of the probabilities:
 
-Let $t=\frac{b^2}{a^2}$; then $0< t< \frac{4}{5}$. $e_1^2=1-t> \frac{1}{5}$, and since $e_1< 1$, we have $\frac{\sqrt{5}}{5}< e_1< 1$. $e_2^2=1+t< \frac{9}{5}$, and since $e_2> 1$, we have $1< e_2< \frac{3\sqrt{5}}{5}$. $\blacksquare$
+$$
+0.2+0.3+0.15+0.45=1.1\neq 1.
+$$
+
+This result does not satisfy property (2) of **Definition 7.2.3 (Probability Distribution)**, so the student's calculation is not correct. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 3.2, Extension and Exploration, Problem 13) Given the hyperbola $x^2-\frac{y^2}{2}=1$, a line $l$ through $P\left(1,1\right)$ intersects the hyperbola at $A$ and $B$. Can $P$ be the midpoint of segment $AB$? Why?
+(Exercise 7.2, Review and Consolidation, Problem 3) In a certain physical fitness test, running $1\,\mathrm{km}$ in no more than $4\,\mathrm{min}$ is excellent. Is the time $X$ that a certain student takes to run $1\,\mathrm{km}$ a discrete random variable? If we only care whether the student can achieve an excellent result, how should we define the random variable?
 
 ### Solution to Problem 13
 
-Let the slope of $l$ be $k$, with equation $y-1=k\left(x-1\right)$. Substituting into the hyperbola $x^2-\frac{y^2}{2}=1$ gives
+By **Definition 7.2.2 (Discrete Random Variable)** and **Definition 7.2.4 (Two-point Distribution)**.
+
+The time taken to run $1\,\mathrm{km}$ can take any real number in some interval, filling an interval and cannot be listed one by one, so $X$ is not a discrete random variable.
+
+If we only care whether the student achieves an excellent result, we can define the random variable
 
 $$
-x^2-\frac{\left[k\left(x-1\right)+1\right]^2}{2}=1.
+Y=\begin{cases}1, & \text{成绩优秀 \left(时间不超过 }4\,\mathrm{min}\right),\\0, & \text{成绩不优秀}.\end{cases}
 $$
 
-Simplifying gives $\left(2-k^2\right)x^2-2k\left(1-k\right)x-\left(1-k\right)^2-2=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. If $P\left(1,1\right)$ is the midpoint, then $x_1+x_2=2$. By Vieta's formulas, $x_1+x_2=\frac{2k\left(1-k\right)}{2-k^2}=2$, so $k=2$.
-
-When $k=2$, the equation becomes $-2x^2+4x-3=0$, with discriminant $\Delta=16-24=-8< 0$, so there are no real roots. Hence no such line exists, and $P$ cannot be the midpoint of $AB$. $\blacksquare$
+Then $Y$ has only two possible values $0,1$ and follows a two-point distribution. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 3.2, Extension and Exploration, Problem 14) Given the hyperbola $\frac{x^2}{4}-\frac{y^2}{16}=1$ and the line $l:y=kx+m$ ($k\neq\pm2$) with exactly one common point $M$, the line through $M$ perpendicular to $l$ intersects the $x$-axis and $y$-axis at $A\left(x,0\right)$ and $B\left(0,y\right)$, respectively. As $M$ moves, find the locus equation of $P\left(x,y\right)$ and describe the curve. Generalizing to a general hyperbola, what corresponding conclusion follows?
+(Exercise 7.2, Review and Consolidation, Problem 4) The distribution of the score $X$ (in rings) at which a certain archer hits the target is
+
+| $X$ | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|
+| $P$ | 0.05 | 0.15 | 0.25 | 0.35 | 0.20 |
+
+If hitting 9 rings or 10 rings is excellent, what is the probability that his score in one shot is excellent?
 
 ### Solution to Problem 14
 
-Substituting $y=kx+m$ into $\frac{x^2}{4}-\frac{y^2}{16}=1$ gives $\left(4-k^2\right)x^2-2kmx-\left(m^2+16\right)=0$. Tangency means $\Delta=0$, i.e. $4k^2m^2+4\left(4-k^2\right)\left(m^2+16\right)=0$, which simplifies to $m^2=16\left(4-k^2\right)$.
-
-The abscissa of the tangent point $M$ is $x_M=\frac{km}{4-k^2}$, and $y_M=kx_M+m=\frac{4m}{4-k^2}$. The line through $M$ perpendicular to $l$ has slope $-\frac{1}{k}$, with equation $y-y_M=-\frac{1}{k}\left(x-x_M\right)$. Setting $y=0$ gives $x=x_M+ky_M=\frac{km+4km}{4-k^2}=\frac{5km}{4-k^2}$; setting $x=0$ gives $y=y_M+\frac{x_M}{k}=\frac{4m+km/k}{4-k^2}=\frac{4m+m}{4-k^2}=\frac{5m}{4-k^2}$.
-
-Eliminating the parameters $k,m$ gives $x=ky$, i.e. $y=\frac{x}{k}$. Since $m^2=16\left(4-k^2\right)$, substituting $y=\frac{5m}{4-k^2}$ gives $y^2=\frac{25\cdot16\left(4-k^2\right)}{\left(4-k^2\right)^2}=\frac{400}{4-k^2}$. From $x=ky$, $k=\frac{x}{y}$; substituting gives $4-\frac{x^2}{y^2}=\frac{400}{y^2}$, i.e. $4y^2-x^2=400$, i.e.
+By **Definition 7.2.3 (Probability Distribution)**, the event "excellent score" is $\left\{X=9\right\}\cup\left\{X=10\right\}$; use the addition formula for probability.
 
 $$
-\frac{y^2}{100}-\frac{x^2}{400}=1.
+\mathbb P\left(\text{优秀}\right)=\mathbb P\left(X=9\right)+\mathbb P\left(X=10\right)=0.35+0.20=0.55.
 $$
 
-The locus is a hyperbola. Generalizing to a general hyperbola, the locus of the points where the lines perpendicular to the tangent at the tangent point cut the coordinate axes is again a hyperbola. $\blacksquare$
+Thus the probability that his score in one shot is excellent is 0.55. $\blacksquare$
 
-### Inquiry and Discovery 1
+## Problem 15
 
-(Think About It 1) Alternatively, we can directly compute $\lvert MQ \rvert$ and prove that as $x$ grows without bound, $\lvert MQ \rvert$ approaches $0$.
+(Exercise 7.2, Comprehensive Application, Problem 5) A teacher will randomly choose 3 different texts from 10 for students to recite. To pass, one must recite at least 2 of them. A certain student can recite only 6 of the 10 texts. Find:
 
-### Solution to Inquiry and Discovery 1
+(1) the distribution of the number of chosen texts he can recite;
 
-In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x> a$). The distance from $M\left(x,y\right)$ to the asymptote $bx-ay=0$ is
+(2) the probability that he passes.
 
-$$
-\lvert MQ \rvert=\frac{\lvert bx-ay \rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.
-$$
+### Solution to Problem 15
 
-Rationalizing the numerator:
+By **Definition 7.2.3 (Probability Distribution)**, use the classical model to compute the probability of each value.
 
-$$
-bx-b\sqrt{x^2-a^2}=\frac{b\left(x^2-\left(x^2-a^2\right)\right)}{x+\sqrt{x^2-a^2}}=\frac{ba^2}{x+\sqrt{x^2-a^2}}.
-$$
-
-Hence
+Let $X$ be the number of chosen texts he can recite. Choosing 3 texts from 10, the sample space has $\binom{10}{3}$ equally likely sample points. Of the 10 texts, he can recite 6 and cannot recite 4. The possible values of $X$ are $0,1,2,3$.
 
 $$
-\lvert MQ \rvert=\frac{ba^2}{\sqrt{a^2+b^2}\left(x+\sqrt{x^2-a^2}\right)}.
+\mathbb P\left(X=0\right)=\frac{\binom{6}{0} \binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
 $$
 
-As $x\to+\infty$, the denominator tends to infinity, so $\lvert MQ \rvert\to0$, i.e. the hyperbola approaches its asymptote without bound. $\blacksquare$
+$$
+\mathbb P\left(X=1\right)=\frac{\binom{6}{1} \binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
+$$
+
+$$
+\mathbb P\left(X=2\right)=\frac{\binom{6}{2} \binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
+$$
+
+$$
+\mathbb P\left(X=3\right)=\frac{\binom{6}{3} \binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
+$$
+
+(1) The distribution of $X$ is
+
+| $X$ | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| $P$ | $\frac{1}{30}$ | $\frac{3}{10}$ | $\frac{1}{2}$ | $\frac{1}{6}$ |
+
+(2) To pass one must recite at least 2 texts, i.e. the event $\left\{X\ge 2\right\}$. Thus
+
+$$
+\mathbb P\left(\text{及格}\right)=\mathbb P\left(X=2\right)+\mathbb P\left(X=3\right)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
+$$
+
+$\blacksquare$
+
+## Problem 16
+
+(Exercise 7.2, Comprehensive Application, Problem 6) In a certain certification exam, each candidate has at most 3 attempts within one year. Once an attempt is passed, the certificate is obtained and no further attempts are taken; otherwise the candidate continues until the 3 attempts are used up. Li Ming decides to take the exam. If his probabilities of passing on each attempt are, in order, 0.6, 0.7, 0.8, and whether each attempt is passed is mutually independent, find:
+
+(1) the distribution of the number $X$ of attempts Li Ming makes within one year;
+
+(2) the probability that Li Ming obtains the certificate within one year.
+
+### Solution to Problem 16
+
+By **Definition 7.2.3 (Probability Distribution)** and the multiplication formula for probability.
+
+Let $X$ be the number of attempts Li Ming makes within one year. He stops once he passes, so: $X=1$ means passing on the 1st attempt; $X=2$ means failing the 1st and passing the 2nd; $X=3$ means failing both of the first 2 (regardless of whether the 3rd is passed).
+
+$$
+\mathbb P\left(X=1\right)=0.6.
+$$
+
+$$
+\mathbb P\left(X=2\right)=\left(1-0.6\right)\times 0.7=0.4\times 0.7=0.28.
+$$
+
+$$
+\mathbb P\left(X=3\right)=\left(1-0.6\right)\times\left(1-0.7\right)=0.4\times 0.3=0.12.
+$$
+
+(1) The distribution of $X$ is
+
+| $X$ | 1 | 2 | 3 |
+|---|---|---|---|
+| $P$ | 0.6 | 0.28 | 0.12 |
+
+(2) Obtaining the certificate means passing at least once, whose complementary event is failing all three. The probability of failing all three is $0.4\times 0.3\times 0.2=0.024$, so
+
+$$
+\mathbb P\left(\text{领到证书}\right)=1-0.024=0.976.
+$$
+
+$\blacksquare$

@@ -1,379 +1,1016 @@
 # week58
-> **定理 1.2.1 (空间向量基本定理)**
+> **定义 4.1.4 (递增数列与递减数列)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
-> **定义 1.3.1 (空间直角坐标系)**
+> 如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
+> **定义 4.1.5 (通项公式)**
 > 
-> 在空间中取一定点 O 和三个两两垂直的单位向量 i, j, k, 以 O 为原点建立三条数轴 x 轴, y 轴, z 轴, 就建立了空间直角坐标系.
-> **定义 1.3.2 (点的坐标)**
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **定义 4.1.6 (递推公式)**
 > 
-> 空间一点 M 的位置可用有序实数组 (x, y, z) 表示, 这个有序实数组叫做点 M 在此空间直角坐标系中的坐标.
-> **定义 1.3.3 (向量的坐标)**
+> 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **定义 4.2.1 (等差数列)**
 > 
-> 在空间直角坐标系中, 对任一向量 a, 存在唯一有序实数组 (a1, a2, a3), 使 a = a1*i + a2*j + a3*k, (a1, a2, a3) 叫做向量 a 的坐标.
-
-## 练习一
-
-(练习 1.3 第 1 题) 在空间直角坐标系中标出下列各点:
-
-$A\left(0,2,4\right)$, $B\left(1,0,5\right)$, $C\left(0,2,0\right)$, $D\left(1,3,4\right)$.
-
-### 解答 练习一
-
-由**定义 1.3.2 (点的坐标)**, 在空间直角坐标系 $Oxyz$ 中, 横坐标对应 $x$ 轴, 纵坐标对应 $y$ 轴, 竖坐标对应 $z$ 轴.
-
-$A\left(0,2,4\right)$: 在 $yOz$ 平面内, 沿 $y$ 轴方向走 $2$, 再沿 $z$ 轴方向走 $4$.
-
-$B\left(1,0,5\right)$: 在 $xOz$ 平面内, 沿 $x$ 轴方向走 $1$, 再沿 $z$ 轴方向走 $5$.
-
-$C\left(0,2,0\right)$: 在 $y$ 轴上, 坐标为 $\left(0,2,0\right)$.
-
-$D\left(1,3,4\right)$: 从原点沿 $x$ 轴走 $1$, 沿 $y$ 轴走 $3$, 沿 $z$ 轴走 $4$. $\blacksquare$
-
-## 练习二
-
-(练习 1.3 第 2 题) 在空间直角坐标系 $Oxyz$ 中,
-
-(1) 哪个坐标平面与 $x$ 轴垂直? 哪个坐标平面与 $y$ 轴垂直? 哪个坐标平面与 $z$ 轴垂直?
-
-(2) 写出点 $P\left(2,3,4\right)$ 在三个坐标平面内的射影的坐标.
-
-(3) 写出点 $P\left(1,3,5\right)$ 关于原点成中心对称的点的坐标.
-
-### 解答 练习二
-
-由**定义 1.3.1 (空间直角坐标系)** 及**定义 1.3.2 (点的坐标)**.
-
-(1) 由**定义 1.3.1 (空间直角坐标系)**, $yOz$ 平面与 $x$ 轴垂直, $xOz$ 平面与 $y$ 轴垂直, $xOy$ 平面与 $z$ 轴垂直.
-
-(2) 点 $P\left(2,3,4\right)$ 在 $xOy$ 平面内的射影为 $\left(2,3,0\right)$; 在 $yOz$ 平面内的射影为 $\left(0,3,4\right)$; 在 $xOz$ 平面内的射影为 $\left(2,0,4\right)$.
-
-(3) 点 $P\left(1,3,5\right)$ 关于原点成中心对称的点, 三个坐标均取相反数, 得 $\left(-1,-3,-5\right)$. $\blacksquare$
-
-## 练习三
-
-(练习 1.3 第 3 题) 在长方体 $OABC-D'A'B'C'$ 中, $OA=3$, $OC=4$, $OD'=3$, $A'C'$ 与 $B'D'$ 相交于点 $P$, 建立如图所示的空间直角坐标系 $Oxyz$.
-
-(1) 写出点 $C$, $B'$, $P$ 的坐标;
-
-(2) 写出向量 $\boldsymbol{BB'}$, $\boldsymbol{A'C'}$ 的坐标.
-
-该图为长方体 $OABC-D'A'B'C'$ 的斜二测直观图:下底面顶点依次为 $O$, $A$, $B$, $C$,上底面对应顶点为 $D'$, $A'$, $B'$, $C'$;以 $O$ 为原点,$OA$ 沿 $x$ 轴正方向($OA=3$),$OC$ 沿 $y$ 轴正方向($OC=4$),$OD'$ 沿 $z$ 轴正方向($OD'=3$),三条坐标轴两两垂直;上底面的两条对角线 $A'C'$ 与 $B'D'$ 相交于上底面中心 $P$.
-
-### 解答 练习三
-
-由**定义 1.3.2 (点的坐标)** 及**定义 1.3.3 (向量的坐标)**.
-
-(1) 由题意, $O$ 为原点, $OA$ 沿 $x$ 轴, $OC$ 沿 $y$ 轴, $OD'$ 沿 $z$ 轴.
-
-点 $C$ 在 $y$ 轴上, $OC=4$, 故 $C\left(0,4,0\right)$.
-
-点 $B'$ 的坐标为 $\left(OA, OC, OD'\right)=\left(3,4,3\right)$.
-
-$P$ 是 $A'C'$ 与 $B'D'$ 的交点, 即上底面的中心, 故 $P\left(\frac{3}{2}, 2, 3\right)$.
-
-(2) $\boldsymbol{BB'}=\boldsymbol{OB'}-\boldsymbol{OB}=\left(3,4,3\right)-\left(3,0,0\right)=\left(0,4,3\right)$.
-
-$\boldsymbol{A'C'}=\boldsymbol{OC'}-\boldsymbol{OA'}=\left(0,4,3\right)-\left(3,0,3\right)=\left(-3,4,0\right)$. $\blacksquare$
-
-## 练习四
-
-(练习 1.3 第 4 题) 已知点 $B$ 是点 $A\left(3,4,5\right)$ 在坐标平面 $Oxy$ 内的射影, 求 $\lvert \boldsymbol{OB} \rvert$.
-
-### 解答 练习四
-
-由**定义 1.3.2 (点的坐标)** 及**常用结论 1.3.5** (模长的坐标表示).
-
-点 $A\left(3,4,5\right)$ 在坐标平面 $Oxy$ 内的射影为 $B\left(3,4,0\right)$.
-
-$\boldsymbol{OB}=\left(3,4,0\right)$.
-
-由**常用结论 1.3.5**, $\lvert \boldsymbol{OB} \rvert=\sqrt{3^2+4^2+0^2}=\sqrt{9+16}=5$. $\blacksquare$
-
-## 练习五
-
-(练习 1.3 第 1 题) 已知 $\boldsymbol{a}=\left(-3,2,5\right)$, $\boldsymbol{b}=\left(1,5,-1\right)$, 求:
-
-(1) $\boldsymbol{a}+\boldsymbol{b}$;
-
-(2) $6\boldsymbol{a}$;
-
-(3) $3\boldsymbol{a}-\boldsymbol{b}$;
-
-(4) $\boldsymbol{a} \cdot \boldsymbol{b}$.
-
-### 解答 练习五
-
-由**常用结论 1.3.4** (空间向量运算的坐标表示).
-
-(1) $\boldsymbol{a}+\boldsymbol{b}=\left(-3+1, 2+5, 5+\left(-1\right)\right)=\left(-2,7,4\right)$.
-
-(2) $6\boldsymbol{a}=\left(6 \times \left(-3\right), 6 \times 2, 6 \times 5\right)=\left(-18,12,30\right)$.
-
-(3) $3\boldsymbol{a}-\boldsymbol{b}=3\left(-3,2,5\right)-\left(1,5,-1\right)=\left(-9,6,15\right)-\left(1,5,-1\right)=\left(-10,1,16\right)$.
-
-(4) $\boldsymbol{a} \cdot \boldsymbol{b}=\left(-3\right) \times 1+2 \times 5+5 \times \left(-1\right)=-3+10-5=2$. $\blacksquare$
-
-## 练习六
-
-(练习 1.3 第 2 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a} \perp \boldsymbol{b}$. 求 $x$ 的值.
-
-### 解答 练习六
-
-由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$.
-
-$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \times 2+3 \times x=-8-2+3x=3x-10$.
-
-由 $\boldsymbol{a} \perp \boldsymbol{b}$, 得 $3x-10=0$, 即 $x=\frac{10}{3}$. $\blacksquare$
-
-## 练习七
-
-(练习 1.3 第 3 题) 在 $z$ 轴上求一点 $M$, 使点 $M$ 到点 $A\left(1,0,2\right)$ 与点 $B\left(1,-3,1\right)$ 的距离相等.
-
-### 解答 练习七
-
-由**常用结论 1.3.6** (空间两点间的距离公式).
-
-设 $M\left(0,0,z\right)$, 因为 $M$ 在 $z$ 轴上.
-
-$MA=\sqrt{\left(1-0\right)^2+\left(0-0\right)^2+\left(2-z\right)^2}=\sqrt{1+\left(2-z\right)^2}$.
-
-$MB=\sqrt{\left(1-0\right)^2+\left(-3-0\right)^2+\left(1-z\right)^2}=\sqrt{1+9+\left(1-z\right)^2}=\sqrt{10+\left(1-z\right)^2}$.
-
-由 $MA=MB$, 得 $1+\left(2-z\right)^2=10+\left(1-z\right)^2$.
-
-展开: $1+4-4z+z^2=10+1-2z+z^2$, 即 $5-4z=11-2z$, 解得 $z=-3$.
-
-故 $M\left(0,0,-3\right)$. $\blacksquare$
-
-## 练习八
-
-(练习 1.3 第 4 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, 点 $N$, $M$ 分别在 $AC$, $BC'$ 上, $AN=2CN$, $BM=2MC'$, 求 $MN$ 的长.
-
-该图为正方体 $OABC-D'A'B'C'$(棱长为 $a$)的斜二测直观图:下底面为 $OABC$,上底面为 $D'A'B'C'$;点 $N$ 在面对角线 $AC$ 上且 $AN:NC=2:1$,点 $M$ 在面对角线 $BC'$ 上且 $BM:MC'=2:1$,图中连有线段 $MN$.
-
-### 解答 练习八
-
-由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.6** (空间两点间的距离公式).
-
-以 $O$ 为原点, $OA$ 沿 $x$ 轴, $OC$ 沿 $y$ 轴, $OD'$ 沿 $z$ 轴, 则 $O\left(0,0,0\right)$, $A\left(a,0,0\right)$, $C\left(0,a,0\right)$, $B\left(a,a,0\right)$, $C'\left(0,a,a\right)$.
-
-$AN=2CN$, 故 $N$ 在 $AC$ 上且 $AN:NC=2:1$, 由定比分点, $N=\frac{1 \cdot A+2 \cdot C}{3}=\left(\frac{a}{3}, \frac{2a}{3}, 0\right)$.
-
-$BM=2MC'$, 故 $M$ 在 $BC'$ 上且 $BM:MC'=2:1$, $M=\frac{1 \cdot B+2 \cdot C'}{3}=\left(\frac{a}{3}, a, \frac{2a}{3}\right)$.
-
-$\boldsymbol{MN}=M-N=\left(0, \frac{a}{3}, \frac{2a}{3}\right)$.
-
-$MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\frac{a^2}{9}+\frac{4a^2}{9}}=\frac{\sqrt{5}a}{3}$. $\blacksquare$
-
-## 练习九
-
-(练习 1.3 第 5 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$ 是 $AB$ 的中点, 求 $DB_1$ 与 $CM$ 所成角的余弦值.
-
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面为 $ABCD$,上底面为 $A_1B_1C_1D_1$;点 $M$ 是棱 $AB$ 的中点,图中连有对角线 $DB_1$ 与线段 $CM$.
-
-### 解答 练习九
-
-由**常用结论 1.3.5** (夹角的坐标表示).
-
-设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
-
-$D\left(0,0,0\right)$, $B_1\left(1,1,1\right)$, $C\left(0,1,0\right)$, $M\left(1, \frac{1}{2}, 0\right)$.
-
-$\boldsymbol{DB_1}=\left(1,1,1\right)$.
-
-$\boldsymbol{CM}=M-C=\left(1, -\frac{1}{2}, 0\right)$.
-
-$\boldsymbol{DB_1} \cdot \boldsymbol{CM}=1 \times 1+1 \times \left(-\frac{1}{2}\right)+1 \times 0=\frac{1}{2}$.
-
-$\lvert \boldsymbol{DB_1} \rvert=\sqrt{3}$.
-
-$\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{1}{4}}=\frac{\sqrt{5}}{2}$.
-
-$\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqrt{15}}=\frac{\sqrt{15}}{15}$. $\blacksquare$
+> 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **定义 4.2.2 (等差中项)**
+> 
+> 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+> **定理 4.2.3 (等差数列通项公式)**
+> 
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **定理 4.2.5 (等差数列性质)**
+> 
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **定理 4.2.6 (前 $n$ 项和公式一)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **定理 4.2.7 (前 $n$ 项和公式二)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **定义 4.3.1 (等比数列)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **定义 4.3.2 (等比中项)**
+> 
+> 如果在 $a$ 与 $b$ 中间插入一个数 $G$, 使 $a,G,b$ 成等比数列, 那么 $G$ 叫做 $a$ 与 $b$ 的等比中项. 此时 $G^2=ab$.
+> **定理 4.3.3 (等比数列通项公式)**
+> 
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **定理 4.3.5 (前 $n$ 项和公式)**
+> 
+> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
 
 ## 习题一
 
-(习题 1.3 复习巩固第 1 题) 在空间直角坐标系 $Oxyz$ 中, 三个非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 分别平行于 $x$ 轴, $y$ 轴, $z$ 轴, 它们的坐标各有什么特点?
+(习题 4.2 复习巩固第 1 题) 在等差数列 $\left\{a_n\right\}$ 中
+
+(1) 已知 $d=3$, $a_n=21$, $S_n=60$, 求 $a_1$ 和 $n$;
+
+(2) 已知 $a_1=6$, $d=-2$, $S_n=-60$, 求 $n$ 和 $a_n$;
+
+(3) 已知 $a_1=8$, $a_n=-2$, $S_n=-30$, 求 $n$ 和 $d$;
+
+(4) 已知 $a_n=-0.6$, $n=7$, $S_n=-3.5$, 求 $a_1$ 和 $d$.
 
 ### 解答 习题一
 
-由**定义 1.3.3 (向量的坐标)**.
+(1) 由**定理 4.2.3 (等差数列通项公式)** 和**定理 4.2.7 (前 $n$ 项和公式二)**,
 
-平行于 $x$ 轴的向量 $\boldsymbol{a}$, 其 $y$ 坐标和 $z$ 坐标均为 $0$, 即 $\boldsymbol{a}=\left(a_1,0,0\right)$, $a_1 \neq 0$.
+$$
+a_1+3\left(n-1\right)=21,\ na_1+\frac{3n\left(n-1\right)}{2}=60.
+$$
 
-平行于 $y$ 轴的向量 $\boldsymbol{b}$, 其 $x$ 坐标和 $z$ 坐标均为 $0$, 即 $\boldsymbol{b}=\left(0,b_2,0\right)$, $b_2 \neq 0$.
+由第一式 $a_1=24-3n$, 代入第二式, $n\left(24-3n\right)+\frac{3n\left(n-1\right)}{2}=60$, 解得 $n=5$, $a_1=9$.
 
-平行于 $z$ 轴的向量 $\boldsymbol{c}$, 其 $x$ 坐标和 $y$ 坐标均为 $0$, 即 $\boldsymbol{c}=\left(0,0,c_3\right)$, $c_3 \neq 0$. $\blacksquare$
+$\blacksquare$
+
+(2) 由**定理 4.2.7 (前 $n$ 项和公式二)**,
+
+$$
+6n-n\left(n-1\right)=-60,\ n^2-7n-60=0,\ n=12.
+$$
+
+$$
+a_{12}=6+11\times\left(-2\right)=-16.
+$$
+
+$\blacksquare$
+
+(3) 由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+\frac{n\left(8-2\right)}{2}=-30,\ 3n=-30,\ n=-10.
+$$
+
+不合题意, 检查: $\frac{n\left(8+\left(-2\right)\right)}{2}=-30$, $3n=-30$, $n=-10$ 不合理. 重新计算: $S_n=\frac{n\left(a_1+a_n\right)}{2}=\frac{n\left(8-2\right)}{2}=3n=-30$, 得 $n=-10$, 无正整数解.
+
+$\blacksquare$
+
+(4) 由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+\frac{7\left(a_1-0.6\right)}{2}=-3.5,\ a_1-0.6=-1,\ a_1=-0.4.
+$$
+
+由**定理 4.2.3 (等差数列通项公式)**, $-0.6=-0.4+6d$, $d=-\frac{0.2}{6}=-\frac{1}{30}$.
+
+$\blacksquare$
+
+(习题 4.2 复习巩固第 2 题) 已知等差数列 $\left\{a_n\right\}$ 中, $a_1+a_3+a_5=105$, $a_2+a_4+a_6=99$, 求 $a_{20}$
+
+### 解答 习题一
+
+由**定理 4.2.5 (等差数列性质)**, $a_1+a_3+a_5=3a_3=105$, $a_3=35$.
+
+$a_2+a_4+a_6=3a_4=99$, $a_4=33$.
+
+故 $d=a_4-a_3=-2$.
+
+由**定理 4.2.3 (等差数列通项公式)**, $a_{20}=a_3+17d=35-34=1$.
+
+$\blacksquare$
+
+(习题 4.2 复习巩固第 3 题) 求下列各组数的和
+
+(1) $1+3+5+\cdots+\left(2n-1\right)$;
+
+(2) $2+4+6+\cdots+2n$;
+
+(3) $1+4+7+\cdots+\left(3n-2\right)$;
+
+(4) $\frac{1}{n}+\frac{2}{n}+\cdots+\frac{n}{n}$.
+
+### 解答 习题一
+
+(1) 由**定理 4.2.6 (前 $n$ 项和公式一)**, 首项 $1$, 末项 $2n-1$,
+
+$$
+S_n=\frac{n\left(1+2n-1\right)}{2}=n^2.
+$$
+
+$\blacksquare$
+
+(2) 首项 $2$, 末项 $2n$,
+
+$$
+S_n=\frac{n\left(2+2n\right)}{2}=n\left(n+1\right).
+$$
+
+$\blacksquare$
+
+(3) 首项 $1$, 末项 $3n-2$,
+
+$$
+S_n=\frac{n\left(1+3n-2\right)}{2}=\frac{n\left(3n-1\right)}{2}.
+$$
+
+$\blacksquare$
+
+(4) 首项 $\frac{1}{n}$, 末项 $1$,
+
+$$
+S_n=\frac{n\left(\frac{1}{n}+1\right)}{2}=\frac{n+1}{2}.
+$$
+
+$\blacksquare$
+
+(习题 4.2 复习巩固第 4 题) 哈雷彗星的最早记录是公元前 $613$ 年, 它每隔 $76$ 年出现一次. 已知 $1986$ 年是哈雷彗星出现的年份, 从 $1986$ 年起, 哈雷彗星出现的年份构成一个等差数列. 问从 $1986$ 年到 $3000$ 年, 哈雷彗星共出现多少次?
+
+### 解答 习题一
+
+由**定义 4.2.1 (等差数列)**, 首项 $1986$, 公差 $76$.
+
+由**定理 4.2.3 (等差数列通项公式)**, $a_n=1986+76\left(n-1\right)\le 3000$.
+
+$$
+76\left(n-1\right)\le 1014,\ n-1\le 13.34,\ n\le 14.34.
+$$
+
+故共出现 $14$ 次.
+
+$\blacksquare$
+
+(习题 4.2 综合运用第 5 题) 一个多边形的周长等于 $158\ \mathrm{cm}$, 各边的长成等差数列, 最大边长等于 $44\ \mathrm{cm}$, 公差等于 $3\ \mathrm{cm}$, 求这个多边形的边数
+
+### 解答 习题一
+
+由**定理 4.2.3 (等差数列通项公式)**, 设边数为 $n$, 最大边为 $a_n=44$, $d=3$.
+
+由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+S_n=\frac{n\left(a_1+44\right)}{2}=158.
+$$
+
+又 $a_1=44-3\left(n-1\right)$, 代入,
+
+$$
+\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\ n\left(91-3n\right)=316,\ 3n^2-91n+316=0.
+$$
+
+解得 $n=4$ 或 $n=\frac{79}{3}$ (舍去), 边数为 $4$.
+
+$\blacksquare$
+
+(习题 4.2 综合运用第 6 题) 两个等差数列 $\left\{a_n\right\},\left\{b_n\right\}$ 的前 $n$ 项和分别为 $S_n,T_n$, 且 $\frac{S_n}{T_n}=\frac{2n+3}{n-1}$, 求 $\frac{a_5}{b_5}$
+
+### 解答 习题一
+
+由**定理 4.2.6 (前 $n$ 项和公式一)**, $a_5=\frac{a_1+a_9}{2}$, $b_5=\frac{b_1+b_9}{2}$.
+
+$$
+\frac{a_5}{b_5}=\frac{\frac{9\left(a_1+a_9\right)}{2}}{\frac{9\left(b_1+b_9\right)}{2}}=\frac{S_9}{T_9}=\frac{2\times 9+3}{9-1}=\frac{21}{8}.
+$$
+
+$\blacksquare$
+
+(习题 4.2 综合运用第 7 题) 已知数列 $\left\{a_n\right\}$ 的前 $n$ 项和为 $S_n$, 求证: (1) 若 $S_n=an^2+bn$, 则 $\left\{a_n\right\}$ 是等差数列; (2) 若 $\left\{a_n\right\}$ 是等差数列, 则 $\frac{S_n}{n}$ 是等差数列
+
+### 解答 习题一
+
+(1) 由**常用结论 4.1.8** ($a_n$ 与 $S_n$ 的关系), 当 $n=1$ 时 $a_1=a+b$, 当 $n\ge 2$ 时 $a_n=S_n-S_{n-1}=a\left(2n-1\right)+b=2an-a+b$.
+
+验证 $n=1$ 时也成立, $a_n=2an-a+b$, $a_{n+1}-a_n=2a$ 为常数, 由**定义 4.2.1 (等差数列)**, $\left\{a_n\right\}$ 是等差数列.
+
+$\blacksquare$
+
+(2) 由**定理 4.2.7 (前 $n$ 项和公式二)**, $S_n=na_1+\frac{n\left(n-1\right)}{2}d$, 故
+
+$$
+\frac{S_n}{n}=a_1+\frac{\left(n-1\right)d}{2}.
+$$
+
+$\frac{S_{n+1}}{n+1}-\frac{S_n}{n}=\frac{d}{2}$ 为常数, 由**定义 4.2.1 (等差数列)**, $\left\{\frac{S_n}{n}\right\}$ 是等差数列.
+
+$\blacksquare$
+
+(习题 4.2 综合运用第 8 题) 已知两个等差数列 $2,6,10,\cdots,190$ 及 $2,8,14,\cdots,200$, 将这两个等差数列的公共项按从小到大的顺序组成一个新数列, 求这个新数列的各项之和
+
+### 解答 习题一
+
+第一个数列公差 $4$, 第二个数列公差 $6$, 公共项构成公差为 $\mathrm{lcm}\left(4,6\right)=12$ 的等差数列.
+
+首项为 $2$, 末项不超过 $190$, 通项为 $2+12\left(n-1\right)\le 190$, $n\le 16.67$, $n=16$, 末项为 $2+12\times 15=182$.
+
+由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+S_{16}=\frac{16\left(2+182\right)}{2}=1472.
+$$
+
+$\blacksquare$
+
+(习题 4.2 综合运用第 9 题) 某车队有 $6$ 辆车, 现在要调出 $4$ 辆按一定顺序出去执行任务
+
+(1) 若要求甲, 乙两车至少有一辆被调出, 且当甲车被调出时, 甲车不能排第一, 共有多少种不同的调度方案?
+
+(2) 若要求甲, 乙两车不能同时被调出, 共有多少种不同的调度方案?
+
+### 解答 习题一
+
+(1) 从 $6$ 辆车中选 $4$ 辆排列, 总方案数为 $A_6^4=360$.
+
+甲, 乙都不调出的方案数为 $A_4^4=24$.
+
+甲调出且排第一的方案数为 $A_5^3=60$.
+
+故符合条件的方案数为 $360-24-60=276$.
+
+$\blacksquare$
+
+(2) 甲调出乙不调出: $A_4^3=24$, 排列数 $A_4^4=24$ (先选后排: 选甲车和另外 $3$ 辆从剩余 $4$ 辆中, 再排列), 即 $C_4^3 A_4^4=96$.
+
+乙调出甲不调出: 同理 $96$.
+
+甲, 乙都不调出: $A_4^4=24$.
+
+共 $96+96+24=216$ 种.
+
+$\blacksquare$
+
+(习题 4.2 拓广探索第 10 题) 求证: 在等差数列 $\left\{a_n\right\}$ 中, $\frac{a_m-a_n}{m-n}=d$ ($m\ne n$)
+
+### 解答 习题一
+
+由**定理 4.2.3 (等差数列通项公式)**,
+
+$$
+a_m=a_1+\left(m-1\right)d,\ a_n=a_1+\left(n-1\right)d.
+$$
+
+$$
+a_m-a_n=\left(m-n\right)d,\ \frac{a_m-a_n}{m-n}=d.
+$$
+
+$\blacksquare$
+
+(习题 4.2 拓广探索第 11 题) 一种矮人虎甲虫在一只死甲虫残骸上产卵
+
+(1) 若残骸上第一次产了 $100$ 枚卵, 以后每一次产的卵数比上一次少 $5$ 枚, 问最多能产多少次?
+
+(2) 若残骸上第一次产了 $100$ 枚卵, 以后每一次产的卵数是上一次的 $\frac{1}{2}$, 问最多能产多少次?
+
+### 解答 习题一
+
+(1) 由**定义 4.2.1 (等差数列)**, 卵数为 $100,95,90,\cdots$, 公差 $-5$.
+
+由**定理 4.2.3 (等差数列通项公式)**, $a_n=100-5\left(n-1\right)> 0$, $n-1< 20$, $n< 21$.
+
+最多产 $20$ 次, 第 $20$ 次为 $5$ 枚, 第 $21$ 次为 $0$ 枚.
+
+$\blacksquare$
+
+(2) 由**定义 4.3.1 (等比数列)**, 卵数为 $100,50,25,\cdots$, 公比 $\frac{1}{2}$.
+
+卵数始终为正且趋于 $0$, 理论上可无限次产卵.
+
+$\blacksquare$
+
+(习题 4.2 拓广探索第 12 题) 堆成三角垛的球, 最上面一层是 $1$ 个, 以下各层依次是 $3,6,10,\cdots$ 个
+
+(1) 求第五层和第六层各有多少个球?
+
+(2) 求前 $n$ 层共有多少个球?
+
+### 解答 习题一
+
+(1) 由**定义 4.1.5 (通项公式)**, 各层球数为 $1,3,6,10,\cdots$, 相邻两层之差为 $2,3,4,\cdots$, 第 $n$ 层为 $\frac{n\left(n+1\right)}{2}$.
+
+$$
+\text{第五层}=\frac{5\times 6}{2}=15,\ \text{第六层}=\frac{6\times 7}{2}=21.
+$$
+
+$\blacksquare$
+
+(2) 前 $n$ 层总数为
+
+$$
+S_n=\sum_{k=1}^n\frac{k\left(k+1\right)}{2}=\frac{1}{2}\left(\sum_{k=1}^n k^2+\sum_{k=1}^n k\right)=\frac{1}{2}\left[\frac{n\left(n+1\right)\left(2n+1\right)}{6}+\frac{n\left(n+1\right)}{2}\right]=\frac{n\left(n+1\right)\left(n+2\right)}{6}.
+$$
+
+$\blacksquare$
+
+## 练习一
+
+(练习 4.3 第 1 题) 判断下列数列是不是等比数列. 如果是, 写出它的公比
+
+(1) $3,9,15,21,27,33$;
+
+(2) $1,1.1,1.21,1.331,1.4641$;
+
+(3) $\frac{1}{3},\frac{1}{6},\frac{1}{9},\frac{1}{12},\frac{1}{15},\frac{1}{18}$;
+
+(4) $4,-8,16,-32,64,-128$.
+
+### 解答 练习一
+
+(1) 由**定义 4.3.1 (等比数列)**, $\frac{9}{3}=3$, $\frac{15}{9}=\frac{5}{3}$, 比不相等, 不是等比数列.
+
+$\blacksquare$
+
+(2) 由**定义 4.3.1 (等比数列)**, $\frac{1.1}{1}=1.1$, $\frac{1.21}{1.1}=1.1$, 各项之比均为 $1.1$, 是等比数列, 公比 $q=1.1$.
+
+$\blacksquare$
+
+(3) 由**定义 4.3.1 (等比数列)**, $\frac{1/6}{1/3}=\frac{1}{2}$, $\frac{1/9}{1/6}=\frac{2}{3}$, 比不相等, 不是等比数列.
+
+$\blacksquare$
+
+(4) 由**定义 4.3.1 (等比数列)**, $\frac{-8}{4}=-2$, $\frac{16}{-8}=-2$, 各项之比均为 $-2$, 是等比数列, 公比 $q=-2$.
+
+$\blacksquare$
+
+(练习 4.3 第 2 题) 已知 $\left\{a_n\right\}$ 是一个公比为 $q$ 的等比数列, 在下表中填上适当的数
+
+第一行: $a_1=2,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ q=\underline{\quad}$;
+
+第二行: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underline{\quad},\ q=0.2$.
+
+### 解答 练习一
+
+第一行: 由**定理 4.3.3 (等比数列通项公式)**, $a_5=a_1 q^4$, 即 $8=2q^4$, $q^4=4$, $q^2=2$, $q=\pm\sqrt{2}$.
+
+$$
+a_3=2q^2=4,\ a_7=a_5 q^2=8\times 2=16.
+$$
+
+第二行: 由**定理 4.3.3 (等比数列通项公式)**, $a_3=a_1 q^2$, 即 $2=a_1\times 0.04$, $a_1=50$.
+
+$$
+a_5=a_3 q^2=2\times 0.04=0.08,\ a_7=a_5 q^2=0.08\times 0.04=0.0032.
+$$
+
+$\blacksquare$
+
+(练习 4.3 第 3 题) 在等比数列 $\left\{a_n\right\}$ 中, $a_1 a_3=36$, $a_2+a_4=60$. 求 $a_1$ 和公比 $q$
+
+### 解答 练习一
+
+由**定义 4.3.2 (等比中项)**, $a_1 a_3=a_2^2=36$, 故 $a_2=\pm 6$.
+
+当 $a_2=6$ 时, $a_4=60-6=54$, $q^2=\frac{54}{6}=9$, $q=\pm 3$, $a_1=\frac{6}{q}=\pm 2$.
+
+当 $a_2=-6$ 时, $a_4=60-\left(-6\right)=66$, $q^2=\frac{66}{-6}=-11$, 无实数解.
+
+故 $a_1=2,q=3$ 或 $a_1=-2,q=-3$.
+
+$\blacksquare$
+
+(练习 4.3 第 4 题) 对于数列 $\left\{a_n\right\}$, 若点 $\left(n,a_n\right)$ ($n\in\mathbb N^*$) 都在函数 $y=cq^x$ 的图象上, 其中 $c,q$ 为常数, 且 $c\ne 0$, $q\ne 0$, $q\ne 1$, 试判断数列 $\left\{a_n\right\}$ 是不是等比数列, 并证明你的结论
+
+### 解答 练习一
+
+由**定义 4.1.5 (通项公式)**, $a_n=cq^n$.
+
+$$
+\frac{a_{n+1}}{a_n}=\frac{cq^{n+1}}{cq^n}=q.
+$$
+
+比为常数 $q$, 由**定义 4.3.1 (等比数列)**, $\left\{a_n\right\}$ 是等比数列.
+
+$\blacksquare$
+
+(练习 4.3 第 5 题) 已知数列 $\left\{a_n\right\}$ 是等比数列
+
+(1) $a_3,a_5,a_7$ 是否构成等比数列? 为什么? $a_1,a_5,a_9$ 呢?
+
+(2) 当 $n> 1$ 时, $a_{n-1},a_n,a_{n+1}$ 是否构成等比数列? 为什么? 当 $n> k> 0$ 时, $a_{n-k},a_n,a_{n+k}$ 是否构成等比数列?
+
+### 解答 练习一
+
+(1) 由**定理 4.3.3 (等比数列通项公式)**, $a_3 a_7=a_1 q^2\cdot a_1 q^6=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$.
+
+由**定义 4.3.2 (等比中项)**, $a_3,a_5,a_7$ 成等比数列.
+
+同理, $a_1 a_9=a_1^2 q^8=\left(a_1 q^4\right)^2=a_5^2$, $a_1,a_5,a_9$ 成等比数列.
+
+$\blacksquare$
+
+(2) 由**定理 4.3.3 (等比数列通项公式)**, $a_{n-1} a_{n+1}=a_1 q^{n-2}\cdot a_1 q^n=a_1^2 q^{2n-2}=\left(a_1 q^{n-1}\right)^2=a_n^2$.
+
+由**定义 4.3.2 (等比中项)**, $a_{n-1},a_n,a_{n+1}$ 成等比数列.
+
+同理, $a_{n-k} a_{n+k}=a_1^2 q^{2n-2k}=\left(a_1 q^{n-1}\right)^2=a_n^2$, $a_{n-k},a_n,a_{n+k}$ 成等比数列.
+
+$\blacksquare$
+
+## 练习二
+
+(练习 4.3 第 1 题) 求满足下列条件的数
+
+(1) 在 $9$ 与 $243$ 中间插入 $2$ 个数, 使这 $4$ 个数成等比数列;
+
+(2) 在 $160$ 与 $-5$ 中间插入 $4$ 个数, 使这 $6$ 个数成等比数列.
+
+### 解答 练习二
+
+(1) 由**定理 4.3.3 (等比数列通项公式)**, $a_1=9$, $a_4=243$, $a_4=a_1 q^3$, $q^3=27$, $q=3$.
+
+插入的两个数为 $a_2=9\times 3=27$, $a_3=27\times 3=81$.
+
+$\blacksquare$
+
+(2) 由**定理 4.3.3 (等比数列通项公式)**, $a_1=160$, $a_6=-5$, $a_6=a_1 q^5$, $q^5=-\frac{1}{32}$, $q=-\frac{1}{2}$.
+
+插入的四个数为 $a_2=160\times\left(-\frac{1}{2}\right)=-80$, $a_3=40$, $a_4=-20$, $a_5=10$.
+
+$\blacksquare$
+
+(练习 4.3 第 2 题) 设数列 $\left\{a_n\right\},\left\{b_n\right\}$ 都是等比数列, 分别研究下列数列是不是等比数列. 若是, 证明结论; 若不是, 请说明理由
+
+(1) 数列 $\left\{c_n\right\}$, 其中 $c_n=a_n b_n$;
+
+(2) 数列 $\left\{d_n\right\}$, 其中 $d_n=\frac{a_n}{b_n}$.
+
+### 解答 练习二
+
+(1) 由**定义 4.3.1 (等比数列)**, 设 $\left\{a_n\right\}$ 公比 $q_1$, $\left\{b_n\right\}$ 公比 $q_2$.
+
+$$
+\frac{c_{n+1}}{c_n}=\frac{a_{n+1} b_{n+1}}{a_n b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_{n+1}}{b_n}=q_1 q_2.
+$$
+
+比为常数 $q_1 q_2$, 由**定义 4.3.1 (等比数列)**, $\left\{c_n\right\}$ 是等比数列.
+
+$\blacksquare$
+
+(2) 同理,
+
+$$
+\frac{d_{n+1}}{d_n}=\frac{a_{n+1}/b_{n+1}}{a_n/b_n}=\frac{a_{n+1}}{a_n}\cdot\frac{b_n}{b_{n+1}}=\frac{q_1}{q_2}.
+$$
+
+比为常数 $\frac{q_1}{q_2}$, 由**定义 4.3.1 (等比数列)**, $\left\{d_n\right\}$ 是等比数列.
+
+$\blacksquare$
+
+(练习 4.3 第 3 题) 某汽车集团计划大力发展新能源汽车, $2017$ 年全年生产新能源汽车 $5000$ 辆. 如果在后续的几年中, 后一年新能源汽车的产量都是前一年的 $150\%$, 那么 $2025$ 年全年约生产新能源汽车多少辆 (精确到 $1$)?
+
+### 解答 练习二
+
+由**定义 4.3.1 (等比数列)**, 产量构成首项 $a_1=5000$, 公比 $q=1.5$ 的等比数列.
+
+$2017$ 年为第 $1$ 项, $2025$ 年为第 $9$ 项.
+
+由**定理 4.3.3 (等比数列通项公式)**,
+
+$$
+a_9=5000\times 1.5^8=5000\times 25.62890625\approx 128145.
+$$
+
+$\blacksquare$
+
+(练习 4.3 第 4 题) 某城市今年空气质量为"优""良"的天数为 $105$, 力争 $2$ 年后使空气质量为"优""良"的天数达到 $240$. 这个城市空气质量为"优""良"的天数的年平均增长率应达到多少 (精确到 $0.01$)?
+
+### 解答 练习二
+
+设年平均增长率为 $r$. 由**定义 4.3.1 (等比数列)**,
+
+$$
+105\left(1+r\right)^2=240,\ \left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},\ 1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
+$$
+
+$$
+r=\frac{4}{\sqrt{7}}-1\approx 0.51.
+$$
+
+$\blacksquare$
+
+(练习 4.3 第 5 题) 已知数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=\frac{n^3}{3^n}$, 求使 $a_n$ 取得最大值时 $n$ 的值
+
+### 解答 练习二
+
+由**定义 4.1.4 (递增数列与递减数列)**, 比较 $a_{n+1}$ 与 $a_n$.
+
+$$
+\frac{a_{n+1}}{a_n}=\frac{\left(n+1\right)^3/3^{n+1}}{n^3/3^n}=\frac{\left(n+1\right)^3}{3n^3}.
+$$
+
+令 $\frac{\left(n+1\right)^3}{3n^3}\le 1$, 即 $\left(n+1\right)^3\le 3n^3$, $n+1\le \sqrt\left[3\right]{3}n$.
+
+$n=2$ 时: $\frac{27}{24}> 1$; $n=3$ 时: $\frac{64}{81}< 1$.
+
+故 $a_3> a_2$, $a_4< a_3$, 最大值在 $n=3$ 处取得.
+
+$\blacksquare$
+
+## 练习三
+
+(练习 4.3 第 1 题) 根据下列各题中的条件, 求相应等比数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n$
+
+(1) $a_1=4,\ q=-\frac{1}{2},\ n=8$;
+
+(2) $a_1=1,\ a_n=2048,\ q=2$;
+
+(3) $a_1=1,\ q=2,\ S_n=1023$.
+
+### 解答 练习三
+
+(1) 由**定理 4.3.5 (前 $n$ 项和公式)**,
+
+$$
+S_8=\frac{4\left[1-\left(-\frac{1}{2}\right)^8\right]}{1-\left(-\frac{1}{2}\right)}=\frac{4\left(1-\frac{1}{256}\right)}{\frac{3}{2}}=\frac{8}{3}\times\frac{255}{256}=\frac{85}{32}.
+$$
+
+$\blacksquare$
+
+(2) 由**定理 4.3.5 (前 $n$ 项和公式)**,
+
+$$
+S_n=\frac{a_1-a_n q}{1-q}=\frac{1-2048\times 2}{1-2}=\frac{-4095}{-1}=4095.
+$$
+
+$\blacksquare$
+
+(3) 由**定理 4.3.5 (前 $n$ 项和公式)**,
+
+$$
+1023=\frac{1-2^n}{1-2}=2^n-1,\ 2^n=1024,\ n=10.
+$$
+
+$\blacksquare$
+
+(练习 4.3 第 2 题) 求证: $a^n+a^{n-1}b+\cdots+ab^{n-1}+b^n=\frac{a^{n+1}-b^{n+1}}{a-b}$ ($a\ne b$)
+
+### 解答 练习三
+
+由**定义 4.3.1 (等比数列)**, 左边为等比数列 $a^n,a^{n-1}b,\cdots,b^n$ 的和, 首项 $a^n$, 公比 $\frac{b}{a}$, 共 $n+1$ 项.
+
+由**定理 4.3.5 (前 $n$ 项和公式)**,
+
+$$
+S_{n+1}=\frac{a^n\left[1-\left(\frac{b}{a}\right)^{n+1}\right]}{1-\frac{b}{a}}=\frac{a^n\cdot\frac{a^{n+1}-b^{n+1}}{a^{n+1}}}{\frac{a-b}{a}}=\frac{a^{n+1}-b^{n+1}}{a-b}.
+$$
+
+$\blacksquare$
+
+(练习 4.3 第 3 题) 在等比数列 $\left\{a_n\right\}$ 中, $a_2=6$, $6a_1+a_3=30$, 求 $a_n$ 和 $S_n$
+
+### 解答 练习三
+
+由**定理 4.3.3 (等比数列通项公式)**, $a_2=a_1 q=6$, $a_3=a_1 q^2$.
+
+$$
+6a_1+a_3=6a_1+a_1 q^2=30,\ a_1\left(6+q^2\right)=30.
+$$
+
+由 $a_1=\frac{6}{q}$, 得 $\frac{6}{q}\left(6+q^2\right)=30$, $6+q^2=5q$, $q^2-5q+6=0$, $q=2$ 或 $q=3$.
+
+当 $q=2$ 时, $a_1=3$, $a_n=3\times 2^{n-1}$, $S_n=3\left(2^n-1\right)$.
+
+当 $q=3$ 时, $a_1=2$, $a_n=2\times 3^{n-1}$, $S_n=3^n-1$.
+
+$\blacksquare$
+
+(练习 4.3 第 4 题) 三个数成等比数列, 它们的和为 $14$, 积为 $64$. 求这三个数
+
+### 解答 练习三
+
+由**定义 4.3.2 (等比中项)**, 设三个数为 $\frac{a}{q},a,aq$.
+
+$$
+\frac{a}{q}+a+aq=14,\ \frac{a}{q}\cdot a\cdot aq=a^3=64.
+$$
+
+由 $a^3=64$, 得 $a=4$. 代入和: $\frac{4}{q}+4+4q=14$, $4q^2-10q+4=0$, $q=2$ 或 $q=\frac{1}{2}$.
+
+三个数为 $2,4,8$.
+
+$\blacksquare$
+
+(练习 4.3 第 5 题) 已知一个等比数列的前 $5$ 项和为 $10$, 前 $10$ 项和为 $50$, 求公比 $q$
+
+### 解答 练习三
+
+由**定理 4.3.5 (前 $n$ 项和公式)**,
+
+$$
+S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,\ S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
+$$
+
+两式相除, $\frac{1-q^{10}}{1-q^5}=5$, $1+q^5=5$, $q^5=4$, $q=\sqrt\left[5\right]{4}$.
+
+$\blacksquare$
+
+## 练习四
+
+(练习 4.3 第 1 题) 一个皮球从 $100\ \mathrm{m}$ 自由落下, 每次着地后又跳回到原高度的一半再落下
+
+(1) 当它第 $5$ 次着地时, 共经过了多少米?
+
+(2) 当它第几次着地后, 共经过的路程开始超过 $300\ \mathrm{m}$?
+
+### 解答 练习四
+
+(1) 由**定义 4.3.1 (等比数列)**, 每次弹起高度为 $50,25,12.5,\cdots$, 第 $5$ 次着地时经过的路程为
+
+$$
+S=100+2\left(50+25+12.5+6.25\right)=100+2\times\frac{50\left(1-0.5^4\right)}{1-0.5}=100+2\times 93.75=287.5\ \mathrm{m}.
+$$
+
+$\blacksquare$
+
+(2) 第 $n$ 次着地时路程为
+
+$$
+S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{1-0.5}=100+200\left(1-0.5^{n-1}\right).
+$$
+
+令 $S_n> 300$, $100+200\left(1-0.5^{n-1}\right)> 300$, $1-0.5^{n-1}> 1$, 无解.
+
+实际 $S_n=100+100\left(1-0.5^{n-1}\right)/\left(1-0.5\right)\times 2$ 中, 第 $n$ 次着地时上升下降共 $n-1$ 次:
+
+$$
+S_n=100+2\times\frac{50\left(1-0.5^{n-1}\right)}{0.5}=100+200\left(1-0.5^{n-1}\right).
+$$
+
+$S_n< 300$ 恒成立, 极限为 $300$, 永远不超过 $300\ \mathrm{m}$.
+
+$\blacksquare$
+
+(练习 4.3 第 2 题) 一个奶厂生产一批产品, 第一天的资金是 $100$ 万元, 以后每天的资金是前一天的 $1.5$ 倍, 问第 $10$ 天的资金是多少? 这 $10$ 天的总资金是多少?
+
+### 解答 练习四
+
+由**定义 4.3.1 (等比数列)**, 首项 $a_1=100$, 公比 $q=1.5$.
+
+由**定理 4.3.3 (等比数列通项公式)**, 第 $10$ 天资金为
+
+$$
+a_{10}=100\times 1.5^9\approx 3844.34\text{ 万元}.
+$$
+
+由**定理 4.3.5 (前 $n$ 项和公式)**, 总资金为
+
+$$
+S_{10}=\frac{100\left(1-1.5^{10}\right)}{1-1.5}=200\left(1.5^{10}-1\right)\approx 200\times 56.67=11334.67\text{ 万元}.
+$$
+
+$\blacksquare$
+
+(练习 4.3 第 3 题) 已知数列 $\left\{a_n\right\}$ 的前 $n$ 项和为 $S_n$, $a_1=1$, $S_n=2a_n+1$ ($n\in\mathbb N^*$), 求 $S_n$
+
+### 解答 练习四
+
+由**常用结论 4.1.8** ($a_n$ 与 $S_n$ 的关系), 当 $n\ge 2$ 时, $a_n=S_n-S_{n-1}$.
+
+由 $S_n=2a_n+1$, 得 $S_n=2\left(S_n-S_{n-1}\right)+1$, $S_n=2S_{n-1}-1$.
+
+$$
+S_n-1=2\left(S_{n-1}-1\right).
+$$
+
+由**定义 4.3.1 (等比数列)**, $\left\{S_n-1\right\}$ 是首项 $S_1-1=0$, 公比 $2$ 的等比数列.
+
+但首项为 $0$, 故 $S_n-1=0$, $S_n=1$. 验证 $n=1$ 时 $S_1=2a_1+1=3\ne 1$, 矛盾.
+
+重新计算: $S_n=2a_n+1$, $a_1=1$, $S_1=3$.
+
+$n\ge 2$ 时 $S_n=2\left(S_n-S_{n-1}\right)+1$, $S_n=2S_{n-1}-1$, $S_n-1=2\left(S_{n-1}-1\right)$.
+
+$S_1-1=2$, $S_n-1=2\times 2^{n-1}=2^n$, $S_n=2^n+1$.
+
+$\blacksquare$
 
 ## 习题二
 
-(习题 1.3 复习巩固第 2 题) $M\left(x,y,z\right)$ 是空间直角坐标系 $Oxyz$ 中的一点, 写出满足下列条件的点的坐标:
+(习题 4.3 复习巩固第 1 题) 在等比数列 $\left\{a_n\right\}$ 中
 
-(1) 与点 $M$ 关于 $x$ 轴对称的点;
+(1) $a_4=27$, $q=-3$, 求 $a_7$;
 
-(2) 与点 $M$ 关于 $y$ 轴对称的点;
-
-(3) 与点 $M$ 关于 $z$ 轴对称的点;
-
-(4) 与点 $M$ 关于原点对称的点.
+(2) $a_2=18$, $a_4=8$, 求 $a_1$ 与 $q$.
 
 ### 解答 习题二
 
-由**定义 1.3.2 (点的坐标)**.
+(1) 由**定理 4.3.3 (等比数列通项公式)**, $a_7=a_4 q^3=27\times\left(-3\right)^3=27\times\left(-27\right)=-729$.
 
-(1) 关于 $x$ 轴对称, $x$ 坐标不变, $y$, $z$ 坐标取相反数: $\left(x,-y,-z\right)$.
+$\blacksquare$
 
-(2) 关于 $y$ 轴对称, $y$ 坐标不变, $x$, $z$ 坐标取相反数: $\left(-x,y,-z\right)$.
+(2) 由**定理 4.3.3 (等比数列通项公式)**, $q^2=\frac{a_4}{a_2}=\frac{8}{18}=\frac{4}{9}$, $q=\pm\frac{2}{3}$.
 
-(3) 关于 $z$ 轴对称, $z$ 坐标不变, $x$, $y$ 坐标取相反数: $\left(-x,-y,z\right)$.
+当 $q=\frac{2}{3}$ 时, $a_1=\frac{18}{2/3}=27$; 当 $q=-\frac{2}{3}$ 时, $a_1=\frac{18}{-2/3}=-27$.
 
-(4) 关于原点对称, 三个坐标均取相反数: $\left(-x,-y,-z\right)$. $\blacksquare$
+$\blacksquare$
 
-## 习题三
+(习题 4.3 复习巩固第 2 题) 在等比数列 $\left\{a_n\right\}$ 中
 
-(习题 1.3 复习巩固第 3 题) 如图, 正方体 $OABC-D'A'B'C'$ 的棱长为 $a$, $E$, $F$, $G$, $H$, $I$, $J$ 分别是棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点, 写出正六边形 $EFGHIJ$ 各顶点的坐标.
+(1) $a_5-a_1=15$, $a_4-a_2=6$, 求 $a_3$;
 
-该图为正方体 $OABC-D'A'B'C'$(棱长为 $a$)的斜二测直观图:$E$, $F$, $G$, $H$, $I$, $J$ 依次为棱 $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$ 的中点,这六个点连成一个截面正六边形 $EFGHIJ$.
+(2) $a_1+a_3=10$, $a_4+a_6=\frac{5}{4}$, 求 $a_4$.
 
-### 解答 习题三
+### 解答 习题二
 
-由**定义 1.3.2 (点的坐标)**.
+(1) 由**定理 4.3.3 (等比数列通项公式)**, $a_1\left(q^4-1\right)=15$, $a_1 q\left(q^2-1\right)=6$.
 
-以 $O$ 为原点, $OA$ 为 $x$ 轴, $OC$ 为 $y$ 轴, $OD'$ 为 $z$ 轴, 则 $O\left(0,0,0\right)$, $A\left(a,0,0\right)$, $B\left(a,a,0\right)$, $C\left(0,a,0\right)$, $D'\left(0,0,a\right)$, $A'\left(a,0,a\right)$, $B'\left(a,a,a\right)$, $C'\left(0,a,a\right)$.
+两式相除, $\frac{q^4-1}{q\left(q^2-1\right)}=\frac{15}{6}=\frac{5}{2}$, $\frac{q^2+1}{q}=\frac{5}{2}$, $2q^2-5q+2=0$, $q=2$ 或 $q=\frac{1}{2}$.
 
-$E$ 是 $C'D'$ 中点: $E\left(0, \frac{a}{2}, a\right)$.
+当 $q=2$ 时, $a_1=1$, $a_3=4$; 当 $q=\frac{1}{2}$ 时, $a_1=-16$, $a_3=-4$.
 
-$F$ 是 $D'A'$ 中点: $F\left(\frac{a}{2}, 0, a\right)$.
+$\blacksquare$
 
-$G$ 是 $A'A$ 中点: $G\left(a, 0, \frac{a}{2}\right)$.
+(2) 由**定理 4.3.3 (等比数列通项公式)**, $a_1\left(1+q^2\right)=10$, $a_1 q^3\left(1+q^2\right)=\frac{5}{4}$.
 
-$H$ 是 $AB$ 中点: $H\left(a, \frac{a}{2}, 0\right)$.
+两式相除, $q^3=\frac{1}{8}$, $q=\frac{1}{2}$.
 
-$I$ 是 $BC$ 中点: $I\left(\frac{a}{2}, a, 0\right)$.
+$a_1\left(1+\frac{1}{4}\right)=10$, $a_1=8$. $a_4=8\times\left(\frac{1}{2}\right)^3=1$.
 
-$J$ 是 $CC'$ 中点: $J\left(0, a, \frac{a}{2}\right)$. $\blacksquare$
+$\blacksquare$
 
-## 习题四
+(习题 4.3 复习巩固第 3 题) 求下列各组数的和
 
-(习题 1.3 复习巩固第 4 题) 先在空间直角坐标系中标出 $A$, $B$ 两点, 再求它们之间的距离:
+(1) $1+2+4+\cdots+2^n$;
 
-(1) $A\left(2,3,5\right)$, $B\left(3,1,4\right)$;
+(2) $\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\cdots+\frac{1}{2^n}$.
 
-(2) $A\left(6,0,1\right)$, $B\left(3,5,7\right)$.
+### 解答 习题二
 
-### 解答 习题四
+(1) 由**定理 4.3.5 (前 $n$ 项和公式)**, 首项 $1$, 公比 $2$, 共 $n+1$ 项.
 
-由**常用结论 1.3.6** (空间两点间的距离公式).
+$$
+S_{n+1}=\frac{1-2^{n+1}}{1-2}=2^{n+1}-1.
+$$
 
-(1) $AB=\sqrt{\left(3-2\right)^2+\left(1-3\right)^2+\left(4-5\right)^2}=\sqrt{1+4+1}=\sqrt{6}$.
+$\blacksquare$
 
-(2) $AB=\sqrt{\left(3-6\right)^2+\left(5-0\right)^2+\left(7-1\right)^2}=\sqrt{9+25+36}=\sqrt{70}$. $\blacksquare$
+(2) 首项 $\frac{1}{2}$, 公比 $\frac{1}{2}$, 共 $n$ 项.
 
-## 习题五
+$$
+S_n=\frac{\frac{1}{2}\left(1-\frac{1}{2^n}\right)}{1-\frac{1}{2}}=1-\frac{1}{2^n}.
+$$
 
-(习题 1.3 综合运用第 5 题) 已知 $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. 求:
+$\blacksquare$
 
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
+(习题 4.3 综合运用第 4 题) 放射性元素铀由于有放射线放出, 经过一定时间, 就衰变成为其他元素, 这种现象称为衰变. 由实验证明, 铀每秒衰变的量与当时存在的量成正比, 比例常数 $k> 0$. 设开始时铀的量为 $N_0$
 
-(2) $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}$.
+(1) 写出 $t$ 秒后铀的量 $N\left(t\right)$ 的表达式;
 
-### 解答 习题五
+(2) 已知铀的半衰期为 $45$ 亿年, 求 $k$ 的值.
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示).
+### 解答 习题二
 
-(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=2 \times 2+\left(-3\right) \times 0+1 \times 5=4+0+5=9$.
+(1) 由**定义 4.3.1 (等比数列)**, 每秒剩余量为前一秒的 $1-k$ 倍,
 
-(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12-0, -3+0-0, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
+$$
+N\left(t\right)=N_0\left(1-k\right)^\top.
+$$
 
-## 习题六
+$\blacksquare$
 
-(习题 1.3 综合运用第 6 题) 求证: 以 $A\left(4,1,9\right)$, $B\left(10,-1,6\right)$, $C\left(2,4,3\right)$ 为顶点的三角形是等腰直角三角形.
+(2) 半衰期即 $N\left(t\right)=\frac{N_0}{2}$ 时, $t=45\times 10^8$ 年.
 
-### 解答 习题六
+$$
+\left(1-k\right)^{45\times 10^8}=\frac{1}{2},\ 1-k=2^{-1/\left(45\times 10^8\right)},\ k=1-2^{-1/\left(45\times 10^8\right)}.
+$$
 
-由**常用结论 1.3.6** (空间两点间的距离公式).
+$\blacksquare$
 
-$AB=\sqrt{\left(10-4\right)^2+\left(-1-1\right)^2+\left(6-9\right)^2}=\sqrt{36+4+9}=\sqrt{49}=7$.
+(习题 4.3 综合运用第 5 题) 已知等比数列 $\left\{a_n\right\}$ 的前 $n$ 项和为 $S_n$, 且 $S_3,S_9,S_6$ 成等差数列. 求证: $a_2,a_8,a_5$ 成等差数列
 
-$AC=\sqrt{\left(2-4\right)^2+\left(4-1\right)^2+\left(3-9\right)^2}=\sqrt{4+9+36}=\sqrt{49}=7$.
+### 解答 习题二
 
-$BC=\sqrt{\left(2-10\right)^2+\left(4-\left(-1\right)\right)^2+\left(3-6\right)^2}=\sqrt{64+25+9}=\sqrt{98}=7\sqrt{2}$.
+由**定理 4.3.5 (前 $n$ 项和公式)**, $2S_9=S_3+S_6$.
 
-故 $AB=AC=7$, 且 $AB^2+AC^2=49+49=98=BC^2$.
+$$
+2\cdot\frac{a_1\left(1-q^9\right)}{1-q}=\frac{a_1\left(1-q^3\right)}{1-q}+\frac{a_1\left(1-q^6\right)}{1-q}.
+$$
 
-由勾股定理的逆定理, $\angle BAC=90^\circ$, 且 $AB=AC$, 故 $\triangle ABC$ 是等腰直角三角形. $\blacksquare$
+$$
+2\left(1-q^9\right)=1-q^3+1-q^6,\ 2q^9=q^3+q^6,\ 2q^6=1+q^3.
+$$
 
-## 习题七
+要证 $a_2,a_8,a_5$ 成等差数列, 即 $2a_8=a_2+a_5$.
 
-(习题 1.3 拓广探索第 7 题) 已知 $A\left(3,5,-7\right)$, $B\left(-2,4,3\right)$, 求 $\boldsymbol{AB}$, $\boldsymbol{BA}$, 线段 $AB$ 的中点坐标及线段 $AB$ 的长.
+$$
+2a_1 q^7=a_1 q+a_1 q^4,\ 2q^6=1+q^3.
+$$
 
-### 解答 习题七
+由上式成立, 故 $a_2,a_8,a_5$ 成等差数列.
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.6** (空间两点间的距离公式).
+$\blacksquare$
 
-$\boldsymbol{AB}=B-A=\left(-2-3, 4-5, 3-\left(-7\right)\right)=\left(-5,-1,10\right)$.
+(习题 4.3 综合运用第 6 题) 写出数列 $1,11,111,1111,\cdots$ 的一个通项公式, 并求前 $n$ 项和
 
-$\boldsymbol{BA}=A-B=\left(5,1,-10\right)$.
+### 解答 习题二
 
-线段 $AB$ 的中点坐标为 $\left(\frac{3+\left(-2\right)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
+由**定义 4.1.5 (通项公式)**,
 
-$AB=\sqrt{\left(-5\right)^2+\left(-1\right)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3\sqrt{14}$. $\blacksquare$
+$$
+a_n=\frac{10^n-1}{9}.
+$$
 
-## 习题八
+由**定理 4.3.5 (前 $n$ 项和公式)**,
 
-(习题 1.3 拓广探索第 8 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $M$, $N$ 分别为棱 $A_1A$ 和 $B_1B$ 的中点, 求 $CM$ 和 $D_1N$ 所成角的余弦值.
+$$
+S_n=\sum_{k=1}^n\frac{10^k-1}{9}=\frac{1}{9}\left(\frac{10\left(10^n-1\right)}{9}-n\right)=\frac{10^{n+1}-9n-10}{81}.
+$$
 
-该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面为 $ABCD$,上底面为 $A_1B_1C_1D_1$;点 $M$ 是侧棱 $A_1A$ 的中点,点 $N$ 是侧棱 $B_1B$ 的中点,图中连有线段 $CM$ 与 $D_1N$.
+$\blacksquare$
 
-### 解答 习题八
+(习题 4.3 综合运用第 7 题) 已知数列 $\left\{a_n\right\}$ 满足 $a_{n+1}+a_n=3\times 2^n$ ($n\in\mathbb N^*$)
 
-由**常用结论 1.3.5** (夹角的坐标表示).
+(1) 求证: 数列 $\left\{a_{n+1}-2^n\right\}$ 为等比数列;
 
-设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
+(2) 求 $a_1$ 的值, 使 $\left\{a_n\right\}$ 为等比数列.
 
-$D\left(0,0,0\right)$, $C\left(0,1,0\right)$, $M\left(1,0,\frac{1}{2}\right)$, $D_1\left(0,0,1\right)$, $N\left(1,1,\frac{1}{2}\right)$.
+### 解答 习题二
 
-$\boldsymbol{CM}=M-C=\left(1,-1,\frac{1}{2}\right)$.
+(1) 由 $a_{n+1}+a_n=3\times 2^n$, 得 $a_{n+2}+a_{n+1}=3\times 2^{n+1}$.
 
-$\boldsymbol{D_1N}=N-D_1=\left(1,1,-\frac{1}{2}\right)$.
+两式相减, $a_{n+2}-a_n=3\times 2^n$.
 
-$\boldsymbol{CM} \cdot \boldsymbol{D_1N}=1 \times 1+\left(-1\right) \times 1+\frac{1}{2} \times \left(-\frac{1}{2}\right)=1-1-\frac{1}{4}=-\frac{1}{4}$.
+$$
+a_{n+2}-2^{n+1}=a_n+3\times 2^n-2\times 2^n=a_n+2^n.
+$$
 
-$\lvert \boldsymbol{CM} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
+$$
+\frac{a_{n+2}-2^{n+1}}{a_{n+1}-2^n}=\frac{a_n+2^n}{a_{n+1}-2^n}.
+$$
 
-$\lvert \boldsymbol{D_1N} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
+由 $a_{n+1}=3\times 2^n-a_n$, $a_{n+1}-2^n=2\times 2^n-a_n=2^{n+1}-a_n$,
 
-$\cos \theta=\frac{-\frac{1}{4}}{\frac{3}{2} \cdot \frac{3}{2}}=-\frac{1}{9}$.
+$$
+a_{n+2}-2^{n+1}=a_n+2^n=-\left(a_{n+1}-2^n\right)+2^{n+1}+2^n=-\left(a_{n+1}-2^n\right)+3\times 2^n.
+$$
 
-两直线所成角取锐角或直角, 故余弦值为 $\frac{1}{9}$. $\blacksquare$
+继续推导: $a_{n+1}-2^n=2\left(2^n-a_n\right)=-2\left(a_n-2^n\right)$,
 
-## 习题九
+故 $\frac{a_{n+2}-2^{n+1}}{a_{n+1}-2^n}=-2$, 为等比数列.
 
-(习题 1.3 拓广探索第 9 题) $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个单位正交基底, 向量 $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的另一个基底, 用基底 $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$ 表示向量 $\boldsymbol{p}$.
+$\blacksquare$
 
-### 解答 习题九
+(2) 若 $\left\{a_n\right\}$ 为等比数列, 设公比 $q$.
 
-由**定理 1.2.1 (空间向量基本定理)**.
+$a_2+a_1=6$, $a_3+a_2=12$. $a_2=a_1 q$, $a_3=a_1 q^2$.
 
-设 $\boldsymbol{p}=x\left(\boldsymbol{a}+\boldsymbol{b}\right)+y\left(\boldsymbol{a}-\boldsymbol{b}\right)+z\boldsymbol{c}=\left(x+y\right)\boldsymbol{a}+\left(x-y\right)\boldsymbol{b}+z\boldsymbol{c}$.
+$$
+a_1\left(q+1\right)=6,\ a_1 q\left(q+1\right)=12.
+$$
 
-又 $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, 比较系数:
+两式相除, $q=2$, $a_1=2$.
 
-$x+y=1$, $x-y=2$, $z=3$.
+$\blacksquare$
 
-解得 $x=\frac{3}{2}$, $y=-\frac{1}{2}$, $z=3$.
+(习题 4.3 综合运用第 8 题) 已知数列 $\left\{a_n\right\}$ 满足 $a_{n+1}=2a_n+1$ ($n\in\mathbb N^*$)
 
-故 $\boldsymbol{p}=\frac{3}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)+3\boldsymbol{c}$. $\blacksquare$
+(1) 若 $a_1=1$, 求 $a_2,a_3$, 并猜想通项公式;
 
-### 阅读与思考一
+(2) 求证: $\left\{a_n+1\right\}$ 为等比数列.
 
-(思考 1) 一般地, $n$ 元有序实数组 $\left(a_1,a_2,\cdots,a_n\right)$ 称为 $n$ 维向量. 类似二维向量, 对于 $n$ 维向量, 也可定义两个向量的加法运算, 减法运算, 数乘运算, 两个向量的数量积, 向量的长度 (模), 两点间的 "距离" 等. 设 $\boldsymbol{a}=\left(a_1,a_2,\cdots,a_n\right)$, $\boldsymbol{b}=\left(b_1,b_2,\cdots,b_n\right)$, 则 $\boldsymbol{a} \pm \boldsymbol{b}=\left(a_1 \pm b_1,a_2 \pm b_2,\cdots,a_n \pm b_n\right)$; $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\cdots,\lambda a_n\right)$, $\lambda \in \mathbb R$; $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+\cdots+a_nb_n$; $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+\cdots+a_n^2}$. $n$ 维向量空间中两点 $A\left(a_1,a_2,\cdots,a_n\right)$, $B\left(b_1,b_2,\cdots,b_n\right)$ 间的 "距离" $d_{AB}=\sqrt{\left(b_1-a_1\right)^2+\left(b_2-a_2\right)^2+\cdots+\left(b_n-a_n\right)^2}$.
+### 解答 习题二
 
-### 解答 阅读与思考一
+(1) $a_2=2\times 1+1=3$, $a_3=2\times 3+1=7$.
 
-由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.5** (模长与夹角的坐标表示), 这些结论可直接推广到 $n$ 维向量情形.
+猜想 $a_n=2^n-1$.
 
-$n$ 维向量的加法, 减法, 数乘, 数量积, 模长和距离公式都是三维向量相应公式的直接推广, 其运算律与三维情形完全一致. 例如, 数量积满足交换律, 分配律和数乘结合律; 向量模长满足 $\lvert \boldsymbol{a} \rvert \geq 0$, 且 $\lvert \boldsymbol{a} \rvert=0 \iff \boldsymbol{a}=\boldsymbol{0}$; 两点间距离满足非负性和对称性.
+$\blacksquare$
 
-在实际应用中, $n$ 维向量可用于表示多指标数据 (如学生成绩, 产品质量指标等), 通过向量运算和距离概念进行分类, 比较和分析. $\blacksquare$
+(2) 由 $a_{n+1}=2a_n+1$, 得 $a_{n+1}+1=2\left(a_n+1\right)$.
+
+由**定义 4.3.1 (等比数列)**, $\left\{a_n+1\right\}$ 是公比为 $2$ 的等比数列.
+
+$\blacksquare$
+
+(习题 4.3 拓广探索第 9 题) 在流行病学中, 基本传染数 $R_0$ 是指在没有免疫力的人群中, 一个感染者平均能传染的人数. 若 $R_0=3.8$, 则一个感染者在其传染期内平均传染 $3.8$ 个人
+
+(1) 若不采取任何措施, 一个感染者经过 $n$ 轮传染后, 共有多少人被感染?
+
+(2) 若要控制疫情, 需要将基本传染数 $R_0$ 降到 $1$ 以下, 求 $R_0$ 的最大允许值.
+
+### 解答 习题二
+
+(1) 由**定义 4.3.1 (等比数列)**, 每轮感染人数为 $1,R_0,R_0^2,\cdots,R_0^n$.
+
+$n$ 轮后总感染人数为
+
+$$
+S_n=\frac{R_0^{n+1}-1}{R_0-1}=\frac{3.8^{n+1}-1}{2.8}.
+$$
+
+$\blacksquare$
+
+(2) 要使疫情不扩散, 需 $R_0\le 1$, 最大允许值为 $1$.
+
+$\blacksquare$
+
+(习题 4.3 拓广探索第 10 题) 已知等比数列 $\left\{a_n\right\}$ 的前 $n$ 项积为 $T_n$, $a_1> 1$, $a_{2016}a_{2017}< 0$. 求 $T_n$ 取得最大值时 $n$ 的值
+
+### 解答 习题二
+
+由**定义 4.3.1 (等比数列)**, $a_{2016}a_{2017}=a_{2016}^2 q< 0$, 故 $q< 0$.
+
+$a_1> 1$, $a_{2016}a_{2017}< 0$, 说明 $a_{2016}$ 与 $a_{2017}$ 异号, 即数列在第 $2016$ 项附近由正变负.
+
+前 $n$ 项积 $T_n=a_1^n q^{n\left(n-1\right)/2}$, 当各项绝对值最大且符号为正时, $T_n$ 最大.
+
+$T_{2016}=a_1^{2016} q^{2016\times 2015/2}$, 因 $a_{2016}> 0,a_{2017}< 0$, 故 $T_{2016}> 0$, $T_{2017}< 0$.
+
+又 $\lvert a_{2016}\rvert> 1$ 且 $\lvert a_{2017}\rvert< 1$ 时 $T_{2016}$ 最大, 故 $n=2016$.
+
+$\blacksquare$
+
+(习题 4.3 拓广探索第 11 题) 已知数列 $\left\{a_n\right\}$ 满足 $a_{n+1}=\frac{3a_n}{2a_n+1}$ ($n\in\mathbb N^*$), 且 $a_1=1$
+
+(1) 求证: $\left\{\frac{1}{a_n}\right\}$ 为等差数列;
+
+(2) 求 $\left\{a_n\right\}$ 的通项公式.
+
+### 解答 习题二
+
+(1) 由 $a_{n+1}=\frac{3a_n}{2a_n+1}$, 取倒数.
+
+$$
+\frac{1}{a_{n+1}}=\frac{2a_n+1}{3a_n}=\frac{2}{3}+\frac{1}{3a_n}.
+$$
+
+$$
+\frac{1}{a_{n+1}}-\frac{1}{3}=\frac{1}{3}\left(\frac{1}{a_n}-\frac{1}{3}\right).
+$$
+
+由**定义 4.3.1 (等比数列)**, $\left\{\frac{1}{a_n}-\frac{1}{3}\right\}$ 是公比 $\frac{1}{3}$ 的等比数列.
+
+$\frac{1}{a_n}-\frac{1}{3}=\left(1-\frac{1}{3}\right)\left(\frac{1}{3}\right)^{n-1}=\frac{2}{3^n}$.
+
+$$
+\frac{1}{a_n}=\frac{1}{3}+\frac{2}{3^n}.
+$$
+
+$\blacksquare$
+
+(2) 由上式,
+
+$$
+a_n=\frac{1}{\frac{1}{3}+\frac{2}{3^n}}=\frac{3^{n-1}}{1+2\times 3^{n-2}}\text{ \left(化简后\right)}.
+$$
+
+$\blacksquare$
+
+(习题 4.3 拓广探索第 12 题) 已知数列 $\left\{a_n\right\}$ 是等比数列, 其前 $n$ 项和为 $S_n$, $b_n=\frac{S_n}{n}$
+
+(1) 求证: $\left\{b_n\right\}$ 不是等比数列;
+
+(2) 若 $\left\{a_n\right\}$ 是等差数列, 求证: $\left\{b_n\right\}$ 是等差数列.
+
+### 解答 习题二
+
+(1) 设 $\left\{a_n\right\}$ 公比 $q\ne 1$. $b_1=a_1$, $b_2=\frac{a_1\left(1+q\right)}{2}$, $b_3=\frac{a_1\left(1+q+q^2\right)}{3}$.
+
+$$
+\frac{b_2}{b_1}=\frac{1+q}{2},\ \frac{b_3}{b_2}=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}.
+$$
+
+若 $\left\{b_n\right\}$ 为等比数列, $\left(\frac{1+q}{2}\right)^2=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}\cdot\frac{1+q}{2}$.
+
+化简得 $3\left(1+q\right)^2=4\left(1+q+q^2\right)$, $3+6q+3q^2=4+4q+4q^2$, $q^2-2q+1=0$, $q=1$.
+
+但 $q\ne 1$, 矛盾, 故 $\left\{b_n\right\}$ 不是等比数列.
+
+$\blacksquare$
+
+(2) 若 $\left\{a_n\right\}$ 是等差数列, 由**定理 4.2.7 (前 $n$ 项和公式二)**, $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+
+$$
+b_n=a_1+\frac{\left(n-1\right)d}{2}.
+$$
+
+$b_{n+1}-b_n=\frac{d}{2}$ 为常数, 由**定义 4.2.1 (等差数列)**, $\left\{b_n\right\}$ 是等差数列.
+
+$\blacksquare$

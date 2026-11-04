@@ -1,509 +1,610 @@
 # week30
-> **定义 5.6.1 (周期函数)**
+> **定义 8.1.12 (圆锥)**
 > 
-> 参见教材相应章节关于此概念的论述.
-> **定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
+> 以直角三角形的一条直角边所在直线为旋转轴, 其余两边旋转形成的面所围成的旋转体叫做圆锥.
+> **定义 8.2.1 (直观图)**
 > 
-> 参见教材相应章节关于此概念的论述.
+> 直观图是观察者站在某一点观察一个空间几何体获得的图形. 在立体几何中, 立体图形的直观图通常是在平行投影下得到的平面图形.
+> **定义 8.2.2 (斜二测画法)**
+> 
+> 斜二测画法是画空间图形直观图的方法: x 轴水平, y 轴与 x 轴成 45 度, z 轴垂直, 平行于 x, z 轴的线段长度不变, 平行于 y 轴的线段长度减半.
+> **定义 8.3.1 (多面体的表面积)**
+> 
+> 多面体的表面积是围成它的各个面的面积之和. 棱台的表面积等于它的侧面积 (各个侧面面积之和) 与两个底面面积之和.
+> **定义 8.3.2 (柱体体积)**
+> 
+> 柱体的体积 V = S*h, 其中 S 为底面积, h 为高.
+> **定义 8.3.3 (锥体体积)**
+> 
+> 锥体的体积 V = (1/3)*S*h, 其中 S 为底面积, h 为高.
+> **定义 8.3.4 (台体体积)**
+> 
+> 台体的体积 V = (1/3)*h*(S上 + S下 + sqrt(S上*S下)).
+> **定义 8.3.6 (圆锥表面积)**
+> 
+> 圆锥的表面积 S = pi*r^2 + pi*r*l, 其中 r 为底面半径, l 为母线长.
+> **定义 8.3.8 (圆柱体积)**
+> 
+> 圆柱的体积 V = pi*r^2*h.
+> **定义 8.3.9 (圆锥体积)**
+> 
+> 圆锥的体积 V = (1/3)*pi*r^2*h.
+> **定义 8.3.11 (球的表面积)**
+> 
+> 球的表面积 S = 4*pi*R^2.
+> **定义 8.3.12 (球的体积)**
+> 
+> 球的体积 V = (4/3)*pi*R^3.
+> **定义 8.4.1 (平面)**
+> 
+> 平面是向四周无限延展的. 通常用平行四边形表示平面, 用希腊字母 $\alpha$, $\beta$, $\gamma$ 表示, 或用平行四边形顶点字母表示.
+> **推论 8.4.5 (推论 1)**
+> 
+> 经过一条直线和直线外一点, 有且只有一个平面.
+> **推论 8.4.6 (推论 2)**
+> 
+> 经过两条相交直线, 有且只有一个平面.
+> **推论 8.4.7 (推论 3)**
+> 
+> 经过两条平行直线, 有且只有一个平面.
+> **定义 8.4.8 (异面直线)**
+> 
+> ,它们是相 交直线;直线与′不同在任何一个平面内. 我们把不同在任何一个平面内的两条直线叫做异面直线.于是,空间两条直线的位置 关系有三种: 共面直线相交直线:在同一平面内,有且只有一个公共点; 平行直线:在同一平面内,没有公共点; 异面直线:不同在任何一个平面内,没有公共点. 这样,空间中两条直线平行和我们学过的平面上两条直线平行的意义是一致的,即首 先这两条直线在同一平面内,其次是它们不相交.如果直线,为异面直线,为了表示 它们不共面的特点,作图时,通常用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应
+> **定义 8.4.9 (直线与平面的位置关系)**
+> 
+> 用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应把直线画在 表示平面α的平行四边形 内;直线在平面α外, 应把直线或它的一部分 画在表示平面α的平行四 边形外. (２)直线与平面相交———有且只有一个公共点; (３)直线与平面平行———没有公共点. 当直线与平面相交或平行时,直线不在平面内,也称为 直线在平面外. 图８.４１３表示了直线与平面的三种位置关系. α a α a A α a 图８.４１３ 直线与平面α相交于点,记作∩α＝;直线与平面α平行,记作∥α. ９２１ 下面我们研究空间中直线,平面之间的位置关系,
+> **定义 8.4.10 (平面与平面的位置关系)**
+> 
+> 第八章　立体几何初步 ３空间中平面与平面的位置关系 α β 图８.４１４ 在图８.４１１中,平面与平面′′′′没有公共点;平 面与平面′′有一条公共直线.再结合生活实例,我 们可以看出,两个平面之间的位置关系有且只有以下两种: (１)两个平面平行———没有公共点; (２)两个平面相交———有一条公共直线. 画两个互相平行的平面时,要注意使表示平面的两个平行四边 形的对应边平行(图８.４１４). 平面α与平面β平行,记作α∥β. ቃ A B C AĂ BĂ C D D Ă Ă 图８.４１５ 如图８.４１５,在长方体′′′′中,连接′, ′,请你再举出一些图中表示空间直线,平面之间位置关 系的例子,并用符号表示这些位置关系. 与其他同学交流一下你的结果. 例１　如图８.４１６,用符号表示下列图形中直线,平面之间的位置关系. α β l b a P
 
 ## 习题一
 
-(复习参考题5 复习巩固第 1 题) 写出与下列各角终边相同的角的集合 $S$, 并且把 $S$ 中适合不等式 $-2\pi\leq\beta< 4\pi$ 的元素 $\beta$ 写出来:
+(习题 8.2 复习巩固第 4 题) 画底面半径为 $1\text{ cm}$, 母线长为 $3\text{ cm}$ 的圆柱的直观图.
 
-(1) $\frac{\pi}{4}$;
-
-(2) $-\frac{2}{3}\pi$;
-
-(3) $\frac{12}{5}\pi$;
-
-(4) $0$.
+图:底面半径 $1\text{ cm}$,母线长 $3\text{ cm}$ 的圆柱的斜二测直观图——上下底面为椭圆(水平方向长 $2\text{ cm}$),两椭圆中心距离 $3\text{ cm}$,侧面为两条平行切线.
 
 ### 解答 习题一
 
-由**公式 5.1.1** (弧度制).
+由**定义 8.2.2 (斜二测画法)** 及**常用结论 8.2.3** (画几何体直观图的 $z$ 轴), 水平放置的圆的直观图画为椭圆.
 
-(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
+画法: (1) 画轴. 画 $x$ 轴, $z$ 轴, 使 $\angle xOz=90^{\circ}$.
 
-(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
+(2) 画下底面. 以 $O$ 为中点, 在 $x$ 轴上取 $OA=OB=1\text{ cm}$, 用椭圆模板画过 $A$, $B$ 的椭圆, 即为下底面.
 
-(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
+(3) 画上底面. 在 $Oz$ 上取 $OO'=3\text{ cm}$, 过 $O'$ 作平行于 $Ox$ 的轴, 同样画出上底面椭圆.
 
-(4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
+(4) 成图. 作两椭圆的两条平行切线, 整理得圆柱的直观图. $\blacksquare$
 
 ## 习题二
 
-(复习参考题5 复习巩固第 2 题) 一个扇形的弧长与面积的数值都是 $5$, 求这个扇形中心角的度数 (精确到 $1^{\circ}$).
+(习题 8.2 综合运用第 5 题) 一个菱形的边长为 $4\text{ cm}$, 一内角为 $60^{\circ}$, 将菱形水平放置并且使较长的对角线成横向, 试用斜二测画法画出这个菱形的直观图.
+
+图:边长 $4\text{ cm}$,一内角 $60^{\circ}$ 的菱形的斜二测直观图——较长对角线(长 $4\sqrt{3}\text{ cm}$)横向即平行于 $x'$ 轴,较短对角线(长 $4\text{ cm}$)沿 $y'$ 轴方向且长度减半为 $2\text{ cm}$,四顶点依次连接.
 
 ### 解答 习题二
 
-由**公式 5.1.1** (弧度制).
+由**定义 8.2.2 (斜二测画法)**, 较长对角线横向即平行于 $x$ 轴, 较短对角线平行于 $y$ 轴.
 
-由 $l=5$, $S=5$, 得 $S=\frac{1}{2}lr=\frac{5r}{2}=5$, $r=2$. 又 $l=\lvert\alpha\rvert r=2\lvert\alpha\rvert=5$, 故 $\lvert\alpha\rvert=\frac{5}{2}=2.5\text{ rad}\approx143^{\circ}$. $\blacksquare$
+菱形边长为 $4\text{ cm}$, 一内角为 $60^{\circ}$, 则较短对角线长为 $4\text{ cm}$, 较长对角线长为 $4\sqrt{3}\text{ cm}$.
+
+取较长对角线为 $x$ 轴, 较短对角线为 $y$ 轴, 交点为 $O$. 画 $x'$, $y'$ 轴夹角 $45^{\circ}$; 在 $x'$ 轴上取较长对角线等长 $4\sqrt{3}\text{ cm}$, 在 $y'$ 轴上取较短对角线的一半即 $1\text{ cm}$; 依次连接四个顶点, 即得菱形的直观图. $\blacksquare$
 
 ## 习题三
 
-(复习参考题5 复习巩固第 3 题)
+(习题 8.2 综合运用第 6 题) 已知一个圆锥由等腰直角三角形旋转形成, 画出这个圆锥的直观图.
 
-(1) 已知 $\cos\varphi=\frac{1}{4}$, 求 $\sin\varphi$, $\tan\varphi$.
-
-(2) 已知 $\sin x=2\cos x$, 求角 $x$ 的三个三角函数值.
+图:等腰直角三角形旋转形成的圆锥的斜二测直观图——底面为椭圆,顶点 $S$ 在底面圆心正上方,高 $OS$ 等于底面半径 $r$,从 $S$ 向椭圆作两条切线为母线.
 
 ### 解答 习题三
 
-由**公式 5.2.2** (同角三角函数关系).
+由**定义 8.2.1 (直观图)** 及**定义 8.1.12 (圆锥)**, 圆锥由等腰直角三角形绕直角边旋转而成, 故圆锥的高与底面半径相等.
 
-(1) 由 $\sin^{2}\varphi=1-\cos^{2}\varphi=1-\frac{1}{16}=\frac{15}{16}$, 得 $\sin\varphi=\pm\frac{\sqrt{15}}{4}$, $\tan\varphi=\pm\sqrt{15}$.
+画法: (1) 画轴. 画 $x$ 轴, $z$ 轴, 使 $\angle xOz=90^{\circ}$.
 
-(2) 由 $\sin x=2\cos x$, 得 $\tan x=2$. 又 $\sin^{2}x+\cos^{2}x=1$, 得 $\cos^{2}x=\frac{1}{5}$, $\cos x=\pm\frac{\sqrt{5}}{5}$, $\sin x=\pm\frac{2\sqrt{5}}{5}$. $\blacksquare$
+(2) 画底面. 以 $O$ 为中心, 用椭圆模板画水平放置的底面椭圆, 设底面半径为 $r$.
+
+(3) 定顶点. 在 $z$ 轴上取高 $OS=r$ (因等腰直角三角形旋转, 高等于底面半径), 得顶点 $S$.
+
+(4) 成图. 从 $S$ 向椭圆作两条切线作为母线, 整理得圆锥直观图. $\blacksquare$
 
 ## 习题四
 
-(复习参考题5 复习巩固第 4 题) 已知 $\tan\alpha=-\frac{1}{3}$, 计算:
+(习题 8.2 综合运用第 7 题) 一个几何体的三视图如图所示, 画出这个几何体的直观图.
 
-(1) $\frac{\sin\alpha+2\cos\alpha}{5\cos\alpha-\sin\alpha}$;
-
-(2) $\frac{1}{2\sin\alpha\cos\alpha+\cos^{2}\alpha}$;
-
-(3) $\sin\alpha\cos\alpha$;
-
-(4) $\left(\sin\alpha+\cos\alpha\right)^{2}$.
+图:一个几何体的三视图——正视图为矩形,侧视图为矩形,俯视图为圆,该几何体为圆柱.
 
 ### 解答 习题四
 
-由**公式 5.2.2** (同角三角函数关系).
+由**定义 8.2.1 (直观图)**, 先由三视图判断几何体的结构, 再画直观图.
 
-由 $\tan\alpha=-\frac{1}{3}$, 得 $\sin\alpha=-\frac{1}{3}\cos\alpha$, $\sin^{2}\alpha+\cos^{2}\alpha=\frac{10}{9}\cos^{2}\alpha=1$, $\cos^{2}\alpha=\frac{9}{10}$, $\sin\alpha\cos\alpha=-\frac{3}{10}$.
+由正视图, 侧视图均为矩形而俯视图为圆, 可知该几何体是一个圆柱.
 
-(1) 分子分母同除以 $\cos\alpha$: $\frac{\tan\alpha+2}{5-\tan\alpha}=\frac{-\frac{1}{3}+2}{5+\frac{1}{3}}=\frac{\frac{5}{3}}{\frac{16}{3}}=\frac{5}{16}$.
-
-(2) $\frac{1}{2\sin\alpha\cos\alpha+\cos^{2}\alpha}=\frac{1}{2\times\left(-\frac{3}{10}\right)+\frac{9}{10}}=\frac{1}{\frac{3}{10}}=\frac{10}{3}$.
-
-(3) $\sin\alpha\cos\alpha=-\frac{3}{10}$.
-
-(4) $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha=1-\frac{3}{5}=\frac{2}{5}$. $\blacksquare$
+按圆柱直观图的画法: 画 $x$, $z$ 轴, 画上下两个椭圆底面, 作两条平行母线, 即得该圆柱的直观图. $\blacksquare$
 
 ## 习题五
 
-(复习参考题5 复习巩固第 5 题) 计算:
-
-(1) $\sin\frac{25\pi}{6}+\cos\frac{25\pi}{3}+\tan\left(-\frac{25\pi}{4}\right)$;
-
-(2) $\sin2+\cos3+\tan4$;
-
-(3) $\cos\left(\sin2\right)$.
+(习题 8.2 拓广探索第 8 题) 画出你所在学校的一些建筑物的直观图 (尺寸自定).
 
 ### 解答 习题五
 
-由**公式 5.3.1** (诱导公式).
+由**定义 8.2.2 (斜二测画法)** 及**常用结论 8.2.3** (画几何体直观图的 $z$ 轴), 建筑物多为棱柱, 棱台等组合体.
 
-(1) 由 $\sin\frac{25\pi}{6}=\sin\left(4\pi+\frac{\pi}{6}\right)=\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{25\pi}{3}=\cos\left(8\pi+\frac{\pi}{3}\right)=\cos\frac{\pi}{3}=\frac{1}{2}$, $\tan\left(-\frac{25\pi}{4}\right)=\tan\left(-6\pi-\frac{\pi}{4}\right)=\tan\left(-\frac{\pi}{4}\right)=-1$. 故原式 $=\frac{1}{2}+\frac{1}{2}-1=0$.
+先观察建筑物, 将其抽象为棱柱, 棱台等简单几何体或其组合; 取适当的轴, 用斜二测画法画水平放置的底面, 再沿 $z$ 轴方向画出竖直方向的棱, 长度保持不变; 被遮挡部分画虚线. 尺寸可自定, 只要能表达出建筑物的结构特征即可. $\blacksquare$
 
-(2) $\sin2\approx0.9093$, $\cos3\approx-0.98999$, $\tan4\approx1.1578$, 原式 $\approx1.0771$.
+## 练习一
 
-(3) $\sin2\approx0.9093$, $\cos\left(0.9093\right)\approx0.6143$. $\blacksquare$
+(练习 8.3 第 1 题) 正六棱台的上, 下底面边长分别是 $2\text{ cm}$ 和 $6\text{ cm}$, 侧棱长是 $5\text{ cm}$, 求它的表面积.
+
+### 解答 练习一
+
+由**定义 8.3.1 (多面体的表面积)**, 表面积等于两个底面面积与侧面积之和.
+
+正六边形面积公式为 $\frac{3\sqrt{3}}{2}a^{2}$. 上底面边长 $a'=2$, 上底面积 $S'=\frac{3\sqrt{3}}{2}\cdot 2^{2}=6\sqrt{3}$. 下底面边长 $a=6$, 下底面积 $S=\frac{3\sqrt{3}}{2}\cdot 6^{2}=54\sqrt{3}$.
+
+侧面是 $6$ 个全等的等腰梯形, 上底 $2$, 下底 $6$, 腰 (侧棱) $5$. 梯形的高为
+
+$$
+h_{\text{梯}}=\sqrt{5^{2}-\left(\frac{6-2}{2}\right)^{2}}=\sqrt{25-4}=\sqrt{21}.
+$$
+
+每个梯形面积为 $\frac{2+6}{2}\cdot\sqrt{21}=4\sqrt{21}$, 侧面积为 $6\times 4\sqrt{21}=24\sqrt{21}$.
+
+故表面积为 $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ \left(\text{cm}^{2}\right)$. $\blacksquare$
+
+## 练习二
+
+(练习 8.3 第 2 题) 如图是一个表面被涂上红色的棱长是 $4\text{ cm}$ 的立方体, 将其适当分割成棱长为 $1\text{ cm}$ 的小立方体.
+
+(1) 共得到多少个棱长是 $1\text{ cm}$ 的小立方体?
+
+(2) 三面是红色的小立方体有多少个? 它们的表面积之和是多少?
+
+(3) 两面是红色的小立方体有多少个? 它们的表面积之和是多少?
+
+(4) 一面是红色的小立方体有多少个? 它们的表面积之和是多少?
+
+(5) 六个面均没有颜色的小立方体有多少个? 它们的表面积之和是多少? 它们占有多少立方厘米的空间?
+
+图:棱长为 $4\text{ cm}$ 的立方体,表面涂满红色,被分割为 $4\times 4\times 4=64$ 个棱长 $1\text{ cm}$ 的小立方体,可看到顶点处三面红色,棱上两面红色,面上一面红色,内部无色的分布.
+
+### 解答 练习二
+
+由**定义 8.3.2 (柱体体积)**, 立方体被分成 $4\times 4\times 4$ 个小立方体.
+
+(1) 小立方体总数为 $4^{3}=64$ 个.
+
+(2) 三面红色的小立方体位于大立方体的顶点处, 共 $8$ 个. 每个小立方体表面积为 $6\text{ cm}^{2}$, 表面积之和为 $8\times 6=48\text{ cm}^{2}$.
+
+(3) 两面红色的小立方体位于棱上但不在顶点处. 每条棱上有 $4-2=2$ 个, 共 $12$ 条棱, 故有 $12\times 2=24$ 个. 表面积之和为 $24\times 6=144\text{ cm}^{2}$.
+
+(4) 一面红色的小立方体位于面上但不在棱上. 每个面上有 $\left(4-2\right)^{2}=4$ 个, 共 $6$ 个面, 故有 $6\times 4=24$ 个. 表面积之和为 $24\times 6=144\text{ cm}^{2}$.
+
+(5) 无色的小立方体位于大立方体内部, 有 $\left(4-2\right)^{3}=8$ 个. 表面积之和为 $8\times 6=48\text{ cm}^{2}$. 所占空间为 $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
+
+## 练习三
+
+(练习 8.3 第 3 题) 某广场设置了一些石凳供大家休息, 这些石凳是由正方体截去八个一样的四面体得到的. 如果被截正方体的棱长是 $50\text{ cm}$, 那么石凳的体积是多少?
+
+### 解答 练习三
+
+由**定义 8.3.2 (柱体体积)** 及**定义 8.3.3 (锥体体积)**, 石凳体积等于正方体体积减去八个被截去的四面体体积.
+
+正方体棱长为 $50\text{ cm}$, 体积为 $50^{3}=125000\text{ cm}^{3}$.
+
+截去八个一样的四面体, 每个四面体的三条棱两两垂直且长均为 $25\text{ cm}$ (即过各顶点三条棱的中点的平面截取). 每个四面体的体积为
+
+$$
+V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ \left(\text{cm}^{3}\right).
+$$
+
+八个四面体共截去 $8\times\frac{15625}{6}=\frac{62500}{3}\text{ cm}^{3}$.
+
+故石凳体积为 $125000-\frac{62500}{3}=\frac{312500}{3}\approx 104167\text{ cm}^{3}$. $\blacksquare$
+
+## 练习四
+
+(练习 8.3 第 4 题) 求证: 直三棱柱的任意两个侧面的面积和大于第三个侧面的面积.
+
+### 解答 练习四
+
+由**定义 8.3.2 (柱体体积)** 及直三棱柱侧面为矩形的性质, 三个侧面的面积分别等于底面三角形三边与侧棱长的乘积.
+
+设直三棱柱底面三角形的三边长分别为 $a$, $b$, $c$, 侧棱长为 $l$. 三个侧面面积分别为 $al$, $bl$, $cl$.
+
+由三角形两边之和大于第三边, $a+b> c$. 两边同乘正数 $l$, 得 $al+bl> cl$, 即任意两个侧面面积之和大于第三个侧面面积. 同理可证其余两组. 故直三棱柱任意两个侧面的面积和大于第三个侧面的面积. $\blacksquare$
+
+## 练习五
+
+(练习 8.3 第 1 题) 已知圆锥的表面积为 $a\text{ m}^{2}$, 且它的侧面展开图是一个半圆, 求这个圆锥的底面直径.
+
+### 解答 练习五
+
+由**定义 8.3.6 (圆锥表面积)**, 设圆锥底面半径为 $r$, 母线长为 $l$.
+
+侧面展开图是半圆, 半圆的半径为母线 $l$, 弧长为 $\pi l$. 该弧长等于底面周长 $2\pi r$, 故 $\pi l=2\pi r$, 即 $l=2r$.
+
+表面积为 $S=\pi r\left(r+l\right)=\pi r\left(r+2r\right)=3\pi r^{2}=a$, 解得 $r=\sqrt{\frac{a}{3\pi}}$.
+
+故底面直径为 $2r=2\sqrt{\frac{a}{3\pi}}\ \left(\text{m}\right)$. $\blacksquare$
+
+## 练习六
+
+(练习 8.3 第 2 题) 当一个球的半径满足什么条件时, 其体积和表面积的数值相等?
+
+### 解答 练习六
+
+由**定义 8.3.11 (球的表面积)** 及**定义 8.3.12 (球的体积)**, 设球的半径为 $R$.
+
+体积为 $V=\frac{4}{3}\pi R^{3}$, 表面积为 $S=4\pi R^{2}$. 令二者数值相等:
+
+$$
+\frac{4}{3}\pi R^{3}=4\pi R^{2}.
+$$
+
+两边同除以 $4\pi R^{2}$ ($R> 0$), 得 $\frac{R}{3}=1$, 即 $R=3$.
+
+故当球的半径为 $3$ 时, 其体积和表面积的数值相等. $\blacksquare$
+
+## 练习七
+
+(练习 8.3 第 3 题) 将一个棱长为 $6\text{ cm}$ 的正方体铁块磨制成一个球体零件, 求可能制作的最大零件的体积.
+
+### 解答 练习七
+
+由**定义 8.3.12 (球的体积)**, 正方体内所能容纳的最大球是它的内切球, 其直径等于正方体的棱长.
+
+正方体棱长为 $6\text{ cm}$, 内切球直径为 $6\text{ cm}$, 半径 $R=3\text{ cm}$.
+
+最大球的体积为 $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 3^{3}=36\pi\approx 113.1\text{ cm}^{3}$. $\blacksquare$
+
+## 练习八
+
+(练习 8.3 第 4 题) 一个长, 宽, 高分别是 $80\text{ cm}$, $60\text{ cm}$, $55\text{ cm}$ 的长方体水槽中装有 $200000\text{ cm}^{3}$ 的水, 现放入一个直径为 $50\text{ cm}$ 的木球. 如果木球的三分之二在水中, 三分之一在水上, 那么水是否会从水槽中溢出?
+
+### 解答 练习八
+
+由**定义 8.3.12 (球的体积)**, 比较木球浸入水中部分的体积与水槽剩余容积.
+
+水槽容积为 $80\times 60\times 55=264000\text{ cm}^{3}$. 已有水 $200000\text{ cm}^{3}$, 剩余空间为 $264000-200000=64000\text{ cm}^{3}$.
+
+木球半径 $R=25\text{ cm}$, 球的体积为 $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 25^{3}\approx 65450\text{ cm}^{3}$. 浸入水中的体积为 $\frac{2}{3}V\approx 43633\text{ cm}^{3}$.
+
+因为 $43633< 64000$, 浸入水中部分的体积小于水槽剩余空间, 故水不会溢出. $\blacksquare$
 
 ## 习题六
 
-(复习参考题5 复习巩固第 6 题) 设 $\pi< x< 2\pi$, 填表.
+(习题 8.3 复习巩固第 1 题) 如图, 八面体的每一个面都是正三角形, 并且 $4$ 个顶点 $A$, $B$, $C$, $D$ 在同一个平面内. 如果四边形 $ABCD$ 是边长为 $30\text{ cm}$ 的正方形, 那么这个八面体的表面积是多少?
+
+图:一个八面体,其 $4$ 个顶点 $A,B,C,D$ 在同一平面内构成边长为 $30\text{ cm}$ 的正方形 $ABCD$,上下各有一个顶点,共 $8$ 个面均为正三角形.
 
 ### 解答 习题六
 
-由**公式 5.2.1** (三角函数定义) 及特殊角函数值.
+由**定义 8.3.1 (多面体的表面积)**, 八面体有 $8$ 个面, 每个面都是边长为 $30\text{ cm}$ 的正三角形.
 
-| $x$ | $\frac{7\pi}{6}$ | $\frac{7\pi}{4}$ |
-|---|---|---|
-| $\sin x$ | $-\frac{1}{2}$ | $-\frac{\sqrt{2}}{2}$ |
-| $\cos x$ | $-\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ |
-| $\tan x$ | $\frac{\sqrt{3}}{3}$ | $-1$ |
+每个正三角形面积为 $\frac{\sqrt{3}}{4}\times 30^{2}=225\sqrt{3}\text{ cm}^{2}$.
 
-$\blacksquare$
+表面积为 $8\times 225\sqrt{3}=1800\sqrt{3}\text{ cm}^{2}$. $\blacksquare$
 
 ## 习题七
 
-(复习参考题5 复习巩固第 7 题) 求下列函数的最大值, 最小值, 并求使函数取得最大, 最小值的 $x$ 的集合:
+(习题 8.3 复习巩固第 2 题) 如图, 将一个长方体沿相邻三个面的对角线截出一个棱锥, 求棱锥的体积与剩下的几何体体积的比.
 
-(1) $y=\sqrt{2}+\frac{\sin x}{\pi}$;
-
-(2) $y=3-2\cos x$.
+图:一个长方体,沿相邻三个面的对角线截出一个三棱锥(以长方体的一个顶点为锥顶,三条两两垂直的棱为锥体的三条棱).
 
 ### 解答 习题七
 
-由正弦函数和余弦函数的值域.
+由**定义 8.3.2 (柱体体积)** 及**定义 8.3.3 (锥体体积)**, 设长方体的长, 宽, 高分别为 $a$, $b$, $c$.
 
-(1) 由 $-1\leq\sin x\leq1$, 得 $y_{\max}=\sqrt{2}+\frac{1}{\pi}$ ($x=\frac{\pi}{2}+2k\pi$), $y_{\min}=\sqrt{2}-\frac{1}{\pi}$ ($x=\frac{3\pi}{2}+2k\pi$).
+长方体体积为 $V=abc$.
 
-(2) 由 $-1\leq\cos x\leq1$, 得 $y_{\max}=5$ ($x=\pi+2k\pi$), $y_{\min}=1$ ($x=2k\pi$). $\blacksquare$
+截出的棱锥以长方体的一个顶点为顶点, 三条两两垂直的棱长分别为 $a$, $b$, $c$, 其体积为
+
+$$
+V_{\text{锥}}=\frac{1}{3}\times\frac{1}{2}ab\cdot c=\frac{1}{6}abc.
+$$
+
+剩下的几何体体积为 $V_{\text{剩}}=abc-\frac{1}{6}abc=\frac{5}{6}abc$.
+
+故棱锥体积与剩下体积之比为 $\frac{1}{6}:\frac{5}{6}=1:5$. $\blacksquare$
 
 ## 习题八
 
-(复习参考题5 复习巩固第 8 题) 画出下列函数在长度为一个周期的闭区间上的简图, 并指出分别由函数 $y=\sin x$, $x\in\mathbb R$ 的图象经过怎样的变换得到:
+(习题 8.3 复习巩固第 3 题) 如图, 一个直三棱柱形容器中盛有水, 侧棱 $AA_{1}=8$. 若侧面 $AA_{1}B_{1}B$ 水平放置时, 水面恰好过 $AC$, $BC$, $A_{1}C_{1}$, $B_{1}C_{1}$ 的中点. 那么当底面 $ABC$ 水平放置时, 水面高为多少?
 
-(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$;
-
-(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$;
-
-(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$;
-
-(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$.
-
-图:共四幅长度为一个周期的简图.(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$:振幅 $\frac{1}{2}$,周期 $\frac{2\pi}{3}$;(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$:振幅 $2$,周期 $2\pi$,与 $y=\sin x$ 的起伏方向相反;(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$:振幅 $1$,周期 $\pi$,在 $y=0$ 与 $y=2$ 之间波动;(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$:振幅 $3$,周期 $12\pi$.
+图:直三棱柱形容器 $ABC\text{-}A_1B_1C_1$,侧棱 $AA_1=8$,当侧面 $AA_1B_1B$ 水平放置时,水面恰好过 $AC$, $BC$, $A_1C_1$, $B_1C_1$ 的中点.
 
 ### 解答 习题八
 
-由**性质 5.6.1** (图象变换).
+由**定义 8.3.2 (柱体体积)**, 水的体积不变.
 
-(1) $y=\sin x$ 向右平移 $\frac{\pi}{9}$, 横坐标缩短到原来的 $\frac{1}{3}$, 纵坐标缩短到原来的 $\frac{1}{2}$.
+设直三棱柱底面三角形 $ABC$ 的面积为 $S$, 侧棱长 $AA_{1}=8$. 当侧面 $AA_{1}B_{1}B$ 水平放置时, 水面过 $AC$, $BC$ 的中点, 即在截面三角形 $ABC$ 中, 水面线平行于 $AB$ 且位于 $AC$, $BC$ 中点连线上.
 
-(2) $y=\sin x$ 向左平移 $\frac{\pi}{4}$, 纵坐标伸长到原来的 $2$ 倍后关于 $x$ 轴对称.
+水面上方的小三角形与 $\triangle ABC$ 相似, 相似比为 $\frac{1}{2}$, 面积为 $\frac{1}{4}S$. 故水中部分的截面面积为 $S-\frac{1}{4}S=\frac{3}{4}S$.
 
-(3) $y=\sin x$ 向右平移 $\frac{\pi}{10}$, 横坐标缩短到原来的 $\frac{1}{2}$, 关于 $x$ 轴对称后向上平移 $1$.
+水的体积为 $V_{\text{水}}=\frac{3}{4}S\times 8=6S$.
 
-(4) $y=\sin x$ 向右平移 $2\pi$, 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $3$ 倍. $\blacksquare$
+当底面 $ABC$ 水平放置时, 设水面高为 $h$, 则 $V_{\text{水}}=S\cdot h$. 由 $S\cdot h=6S$, 得 $h=6$. $\blacksquare$
 
 ## 习题九
 
-(复习参考题5 复习巩固第 9 题)
+(习题 8.3 复习巩固第 4 题) 如图, 圆锥 $PO$ 的底面直径和高均是 $a$, 过 $PO$ 的中点 $O'$ 作平行于底面的截面, 以该截面为底面挖去一个圆柱, 求剩下几何体的表面积和体积.
 
-(1) 用描点法画出函数 $y=\sin x$, $x\in\left[0,\frac{\pi}{2}\right]$ 的图象.
-
-(2) 如何根据第 (1) 小题并运用正弦函数的性质, 得到函数 $y=\sin x$, $x\in\left[0,2\pi\right]$ 的图象?
-
-(3) 如何根据第 (2) 小题并通过平行移动坐标轴, 得到函数 $y=\sin\left(x+\varphi\right)+k$, $x\in\left[0,2\pi\right]$ ($\varphi$, $k$ 都是常数) 的图象?
-
-图:平面直角坐标系中,$y=\sin x$ 在 $\left[0,\frac{\pi}{2}\right]$ 上的一段四分之一波峰状正弦曲线,从原点 $\left(0,0\right)$ 上升至 $\left(\frac{\pi}{2},1\right)$,标出五个描点 $\left(0,0\right)$,$\left(\frac{\pi}{6},\frac{1}{2}\right)$,$\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$,$\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$,$\left(\frac{\pi}{2},1\right)$ 并用光滑曲线连接.
+图:圆锥 $PO$ 的底面直径和高均为 $a$,过 $PO$ 的中点 $O'$ 作平行于底面的截面,以该截面为底面挖去一个圆柱,剩余部分为圆锥内部挖去一个同轴圆柱.
 
 ### 解答 习题九
 
-由正弦函数的性质.
+由**定义 8.3.6 (圆锥表面积)**, **定义 8.3.3 (锥体体积)** 及**定义 8.3.8 (圆柱体积)**.
 
-(1) 取 $x=0$, $\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$, $\frac{\pi}{2}$ 描点连线.
+圆锥底面半径为 $\frac{a}{2}$, 高为 $a$, 母线长 $l=\sqrt{a^{2}+\left(\frac{a}{2}\right)^{2}}=\frac{\sqrt{5}}{2}a$.
 
-(2) 由正弦函数关于 $x=\frac{\pi}{2}$ 对称, 得 $\left[\frac{\pi}{2},\pi\right]$ 的图象; 由 $\sin\left(\pi+x\right)=-\sin x$, 得 $\left[\pi,2\pi\right]$ 的图象.
+$O'$ 为 $PO$ 中点, 距底面高为 $\frac{a}{2}$. 由相似, 截面半径 $r'=\frac{1}{2}\times\frac{a}{2}=\frac{a}{4}$. 挖去的圆柱高为 $\frac{a}{2}$, 底面半径为 $\frac{a}{4}$.
 
-(3) 将 $y=\sin x$ 的图象向左 (右) 平移 $\lvert\varphi\rvert$, 再向上 (下) 平移 $\lvert k\rvert$. $\blacksquare$
+表面积: 圆锥侧面积为 $\pi\cdot\frac{a}{2}\cdot\frac{\sqrt{5}}{2}a=\frac{\sqrt{5}}{4}\pi a^{2}$; 圆锥底面挖去半径 $\frac{a}{4}$ 的圆后剩余圆环面积为 $\pi\left(\frac{a}{2}\right)^{2}-\pi\left(\frac{a}{4}\right)^{2}=\frac{3}{16}\pi a^{2}$; 新增圆柱侧面积为 $2\pi\cdot\frac{a}{4}\cdot\frac{a}{2}=\frac{1}{4}\pi a^{2}$; 圆柱顶面 (即截面圆) 面积为 $\pi\left(\frac{a}{4}\right)^{2}=\frac{1}{16}\pi a^{2}$.
+
+故剩下几何体的表面积为
+
+$$
+S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{\left(\sqrt{5}+2\right)\pi a^{2}}{4}.
+$$
+
+体积: 圆锥体积为 $\frac{1}{3}\pi\left(\frac{a}{2}\right)^{2}\cdot a=\frac{\pi a^{3}}{12}$, 挖去的圆柱体积为 $\pi\left(\frac{a}{4}\right)^{2}\cdot\frac{a}{2}=\frac{\pi a^{3}}{32}$.
+
+故剩下几何体的体积为 $V=\frac{\pi a^{3}}{12}-\frac{\pi a^{3}}{32}=\frac{5\pi a^{3}}{96}$. $\blacksquare$
 
 ## 习题十
 
-(复习参考题5 复习巩固第 10 题) 不通过画图, 写出下列函数的振幅, 周期, 初相, 并说明如何由正弦曲线得到它们的图象:
-
-(1) $y=\sin\left(5x+\frac{\pi}{6}\right)$;
-
-(2) $y=2\sin\frac{1}{6}x$.
+(习题 8.3 复习巩固第 5 题) 一个正方体的顶点都在球面上, 它的棱长是 $a\text{ cm}$, 求球的体积.
 
 ### 解答 习题十
 
-由**定义 5.6.1 (周期函数)** 至**定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**.
+由**定义 8.3.12 (球的体积)**, 正方体的外接球直径等于正方体的体对角线.
 
-(1) 振幅 $1$, 周期 $\frac{2\pi}{5}$, 初相 $\frac{\pi}{6}$. 由 $y=\sin x$ 向左平移 $\frac{\pi}{6}$, 横坐标缩短到原来的 $\frac{1}{5}$.
+正方体棱长为 $a$, 体对角线长为 $\sqrt{3}a$, 故外接球半径 $R=\frac{\sqrt{3}}{2}a$.
 
-(2) 振幅 $2$, 周期 $12\pi$, 初相 $0$. 由 $y=\sin x$ 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $2$ 倍. $\blacksquare$
+球的体积为 $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\left(\frac{\sqrt{3}}{2}a\right)^{3}=\frac{\sqrt{3}}{2}\pi a^{3}\text{ cm}^{3}$. $\blacksquare$
 
 ## 习题十一
 
-(复习参考题5 复习巩固第 11 题)
+(习题 8.3 综合运用第 6 题) 如图是一个烟筒的直观图 (图中数据的单位为厘米), 它的下部是一个正四棱台形物体, 上部是一个正四棱柱形物体 (底面与四棱台形物体的上底面重合). 为防止雨水的侵蚀, 同时使烟筒更美观, 现要在烟筒外部粘贴瓷砖, 请你计算需要多少平方厘米的瓷砖? (结果精确到 $1\text{ cm}^{2}$, 可用计算工具)
 
-(1) 已知 $\alpha$, $\beta$ 都是锐角, $\sin\alpha=\frac{3}{5}$, $\cos\left(\alpha+\beta\right)=\frac{5}{13}$, 求 $\sin\beta$ 的值;
+(下部四棱台下底边长 $50$, 上底边长 $40$, 高 $10$; 上部四棱柱底面边长 $40$, 高 $70$.)
 
-(2) 已知 $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$, $\sin\left(\frac{5\pi}{4}+\beta\right)=-\frac{12}{13}$, $\alpha\in\left(\frac{\pi}{4},\frac{3\pi}{4}\right)$, $\beta\in\left(0,\frac{\pi}{4}\right)$, 求 $\sin\left(\alpha+\beta\right)$ 的值;
-
-(3) 已知 $\alpha$, $\beta$ 都是锐角, $\tan\alpha=\frac{1}{7}$, $\sin\beta=\frac{\sqrt{10}}{10}$, 求 $\tan\left(\alpha+2\beta\right)$ 的值.
+图:一个烟筒的直观图——下部为正四棱台(下底边长 $50\text{ cm}$,上底边长 $40\text{ cm}$,高 $10\text{ cm}$),上部为正四棱柱(底面边长 $40\text{ cm}$,高 $70\text{ cm}$),二者底面重合.
 
 ### 解答 习题十一
 
-由**公式 5.5.1** 至**公式 5.5.8**.
+由**定义 8.3.1 (多面体的表面积)**, 贴瓷砖的面积为烟筒外部所有暴露面的面积之和, 底面贴地不计.
 
-(1) 由 $\alpha$ 锐角, $\sin\alpha=\frac{3}{5}$, 得 $\cos\alpha=\frac{4}{5}$. 由 $\alpha+\beta\in\left(0,\pi\right)$, $\cos\left(\alpha+\beta\right)=\frac{5}{13}$, 得 $\sin\left(\alpha+\beta\right)=\frac{12}{13}$. 故 $\sin\beta=\sin\left[\left(\alpha+\beta\right)-\alpha\right]=\sin\left(\alpha+\beta\right)\cos\alpha-\cos\left(\alpha+\beta\right)\sin\alpha=\frac{12}{13}\cdot\frac{4}{5}-\frac{5}{13}\cdot\frac{3}{5}=\frac{33}{65}$.
+四棱柱部分: 四个侧面面积为 $4\times 40\times 70=11200\text{ cm}^{2}$, 上底面面积为 $40\times 40=1600\text{ cm}^{2}$.
 
-(2) 由 $\cos\left(\frac{\pi}{4}-\alpha\right)=\frac{3}{5}$, $\frac{\pi}{4}-\alpha\in\left(-\frac{\pi}{2},0\right)$, 得 $\sin\left(\frac{\pi}{4}-\alpha\right)=-\frac{4}{5}$. 由 $\sin\left(\frac{5\pi}{4}+\beta\right)=-\sin\left(\frac{\pi}{4}+\beta\right)=-\frac{12}{13}$, 得 $\sin\left(\frac{\pi}{4}+\beta\right)=\frac{12}{13}$, $\cos\left(\frac{\pi}{4}+\beta\right)=-\frac{5}{13}$. 故 $\sin\left(\alpha+\beta\right)=-\sin\left[\left(\frac{\pi}{4}+\beta\right)-\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\sin\left(\frac{\pi}{4}+\beta\right)\cos\left(\frac{\pi}{4}-\alpha\right)-\cos\left(\frac{\pi}{4}+\beta\right)\sin\left(\frac{\pi}{4}-\alpha\right)\right]=-\left[\frac{12}{13}\cdot\frac{3}{5}-\left(-\frac{5}{13}\right)\left(-\frac{4}{5}\right)\right]=-\frac{16}{65}$.
+四棱台部分: 上下底边长分别为 $40$ 和 $50$, 高为 $10$. 侧面等腰梯形的高 (斜高) 为
 
-(3) 由 $\beta$ 锐角, $\sin\beta=\frac{\sqrt{10}}{10}$, 得 $\tan\beta=\frac{1}{3}$. 故 $\tan2\beta=\frac{2\times\frac{1}{3}}{1-\frac{1}{9}}=\frac{3}{4}$. $\tan\left(\alpha+2\beta\right)=\frac{\frac{1}{7}+\frac{3}{4}}{1-\frac{1}{7}\times\frac{3}{4}}=\frac{\frac{25}{28}}{\frac{25}{28}}=1$. $\blacksquare$
+$$
+h_{\text{斜}}=\sqrt{10^{2}+\left(\frac{50-40}{2}\right)^{2}}=\sqrt{125}=5\sqrt{5}.
+$$
+
+四个侧面面积为 $4\times\frac{40+50}{2}\times 5\sqrt{5}=900\sqrt{5}\text{ cm}^{2}$. 棱台上底面被四棱柱盖住, 下底面贴地, 均不计.
+
+故总面积为 $11200+1600+900\sqrt{5}=12800+900\sqrt{5}\approx 12800+2012=14812\text{ cm}^{2}$. $\blacksquare$
 
 ## 习题十二
 
-(复习参考题5 复习巩固第 12 题)
+(习题 8.3 综合运用第 7 题) 一堆规格相同的铁制 (铁的密度是 $7.9\times 10^{3}\text{ kg/m}^{3}$) 六角螺母的质量为 $5.8\text{ kg}$. 如图, 每一个螺母的底面是正六边形, 边长为 $12\text{ mm}$, 内孔直径为 $10\text{ mm}$, 高为 $10\text{ mm}$, 这堆螺母大约有多少个? (可用计算工具, $\pi$ 取 $3.14$)
 
-(1) 证明 $\tan\alpha+\tan\beta=\tan\left(\alpha+\beta\right)-\tan\alpha\tan\beta\tan\left(\alpha+\beta\right)$;
-
-(2) 求 $\tan20^{\circ}+\tan40^{\circ}+\sqrt{3}\tan20^{\circ}\tan40^{\circ}$ 的值;
-
-(3) 若 $\alpha+\beta=\frac{3\pi}{4}$, 求 $\left(1-\tan\alpha\right)\left(1-\tan\beta\right)$ 的值;
-
-(4) 求 $\frac{\tan20^{\circ}+\tan40^{\circ}+\tan120^{\circ}}{\tan20^{\circ}\tan40^{\circ}}$ 的值.
+图:一个六角螺母——底面为正六边形(边长 $12\text{ mm}$),中间沿竖直方向挖去一个圆柱形内孔(直径 $10\text{ mm}$),高为 $10\text{ mm}$.
 
 ### 解答 习题十二
 
-由**公式 5.5.5** (和角正切公式).
+由**定义 8.3.2 (柱体体积)**, 一个螺母的体积等于正六棱柱体积减去内孔圆柱体积.
 
-(1) 由 $\tan\left(\alpha+\beta\right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}$, 得 $\tan\alpha+\tan\beta=\tan\left(\alpha+\beta\right)\left(1-\tan\alpha\tan\beta\right)=\tan\left(\alpha+\beta\right)-\tan\alpha\tan\beta\tan\left(\alpha+\beta\right)$.
+正六边形面积为 $\frac{3\sqrt{3}}{2}\times 12^{2}=216\sqrt{3}\approx 374.1\text{ mm}^{2}$. 正六棱柱体积为 $374.1\times 10=3741\text{ mm}^{3}$.
 
-(2) 由 $20^{\circ}+40^{\circ}=60^{\circ}$, $\tan60^{\circ}=\sqrt{3}$, 得 $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)$. 故原式 $=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)+\sqrt{3}\tan20^{\circ}\tan40^{\circ}=\sqrt{3}$.
+内孔圆柱半径为 $5\text{ mm}$, 体积为 $\pi\times 5^{2}\times 10=250\pi\approx 785\text{ mm}^{3}$.
 
-(3) 由 $\alpha+\beta=\frac{3\pi}{4}$, $\tan\left(\alpha+\beta\right)=-1$, 得 $\tan\alpha+\tan\beta=-\left(1-\tan\alpha\tan\beta\right)$, 即 $\tan\alpha+\tan\beta+\tan\alpha\tan\beta=-1$. 故 $\left(1-\tan\alpha\right)\left(1-\tan\beta\right)=1-\left(\tan\alpha+\tan\beta\right)+\tan\alpha\tan\beta=2$.
+一个螺母体积为 $3741-785=2956\text{ mm}^{3}=2.956\text{ cm}^{3}$.
 
-(4) 由 $\tan20^{\circ}+\tan40^{\circ}=\sqrt{3}\left(1-\tan20^{\circ}\tan40^{\circ}\right)$, $\tan120^{\circ}=-\sqrt{3}$. 故原式 $=\frac{\sqrt{3}-\sqrt{3}\tan20^{\circ}\tan40^{\circ}-\sqrt{3}}{\tan20^{\circ}\tan40^{\circ}}=-\sqrt{3}$. $\blacksquare$
+一个螺母质量为 $7.9\text{ g/cm}^{3}\times 2.956\text{ cm}^{3}\approx 23.35\text{ g}$.
+
+螺母个数约为 $\frac{5800}{23.35}\approx 248$ 个. $\blacksquare$
 
 ## 习题十三
 
-(复习参考题5 复习巩固第 13 题) 化简:
-
-(1) $\frac{1}{\sin10^{\circ}}-\frac{\sqrt{3}}{\cos10^{\circ}}$;
-
-(2) $\sin40^{\circ}\left(\tan10^{\circ}-\sqrt{3}\right)$;
-
-(3) $\tan70^{\circ}\cos10^{\circ}\left(\sqrt{3}\tan20^{\circ}-1\right)$;
-
-(4) $\sin50^{\circ}\left(1+\sqrt{3}\tan10^{\circ}\right)$.
+(习题 8.3 综合运用第 8 题) 分别以一个直角三角形的斜边, 两条直角边所在直线为轴, 其余各边旋转一周形成的曲面围成 $3$ 个几何体. 这 $3$ 个几何体的体积之间有什么关系?
 
 ### 解答 习题十三
 
-由**公式 5.5.1** 至**公式 5.5.8**.
+由**定义 8.3.9 (圆锥体积)**, 设直角三角形两条直角边长为 $a$, $b$, 斜边长为 $c=\sqrt{a^{2}+b^{2}}$.
 
-(1) 原式 $=\frac{\cos10^{\circ}-\sqrt{3}\sin10^{\circ}}{\sin10^{\circ}\cos10^{\circ}}=\frac{2\cos\left(10^{\circ}+60^{\circ}\right)}{\frac{1}{2}\sin20^{\circ}}=\frac{4\cos70^{\circ}}{\sin20^{\circ}}=\frac{4\sin20^{\circ}}{\sin20^{\circ}}=4$.
+以直角边 $a$ 为轴旋转, 得底面半径 $b$, 高 $a$ 的圆锥, 体积 $V_{1}=\frac{1}{3}\pi b^{2}a$.
 
-(2) 原式 $=\sin40^{\circ}\cdot\frac{\sin10^{\circ}-\sqrt{3}\cos10^{\circ}}{\cos10^{\circ}}=\sin40^{\circ}\cdot\frac{2\sin\left(10^{\circ}-60^{\circ}\right)}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\sin50^{\circ}}{\cos10^{\circ}}=\frac{-2\sin40^{\circ}\cos40^{\circ}}{\cos10^{\circ}}=\frac{-\sin80^{\circ}}{\cos10^{\circ}}=-1$.
+以直角边 $b$ 为轴旋转, 得底面半径 $a$, 高 $b$ 的圆锥, 体积 $V_{2}=\frac{1}{3}\pi a^{2}b$.
 
-(3) 原式 $=\frac{\sin70^{\circ}}{\cos70^{\circ}}\cos10^{\circ}\cdot\frac{\sqrt{3}\sin20^{\circ}-\cos20^{\circ}}{\cos20^{\circ}}=\frac{\cos20^{\circ}\cos10^{\circ}}{\sin20^{\circ}}\cdot\frac{-2\sin\left(20^{\circ}-60^{\circ}\right)}{\cos20^{\circ}}=\frac{-2\cos10^{\circ}\sin40^{\circ}}{\sin20^{\circ}}=\frac{-\sin80^{\circ}}{\sin20^{\circ}}=-1$.
+以斜边 $c$ 为轴旋转, 得两个同底圆锥的组合体, 底面半径为斜边上的高 $h=\frac{ab}{c}$, 总体积
 
-(4) 原式 $=\sin50^{\circ}\cdot\frac{\cos10^{\circ}+\sqrt{3}\sin10^{\circ}}{\cos10^{\circ}}=\sin50^{\circ}\cdot\frac{2\cos\left(10^{\circ}-60^{\circ}\right)}{\cos10^{\circ}}=\frac{2\sin50^{\circ}\cos50^{\circ}}{\cos10^{\circ}}=\frac{\sin100^{\circ}}{\cos10^{\circ}}=1$. $\blacksquare$
+$$
+V_{3}=\frac{1}{3}\pi h^{2}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c^{2}}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c}.
+$$
+
+计算得
+
+$$
+\frac{1}{V_{1}^{2}}+\frac{1}{V_{2}^{2}}=\frac{9}{\pi^{2}}\left(\frac{1}{a^{2}b^{4}}+\frac{1}{a^{4}b^{2}}\right)=\frac{9}{\pi^{2}}\cdot\frac{a^{2}+b^{2}}{a^{4}b^{4}}=\frac{9c^{2}}{\pi^{2}a^{4}b^{4}}=\frac{1}{V_{3}^{2}}.
+$$
+
+故三个体积之间满足 $\frac{1}{V_{3}^{2}}=\frac{1}{V_{1}^{2}}+\frac{1}{V_{2}^{2}}$. $\blacksquare$
 
 ## 习题十四
 
-(复习参考题5 复习巩固第 14 题)
+(习题 8.3 拓广探索第 9 题) 如下页图是一个奖杯的三视图, 试根据奖杯的三视图计算它的表面积和体积. (可用计算工具, 尺寸如图, 单位: $\text{cm}$, $\pi$ 取 $3.14$, 结果取整数.)
 
-(1) 已知 $\cos\theta=-\frac{3}{5}$, $\pi< \theta< \frac{3\pi}{2}$, 求 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}$ 的值;
+(奖杯由下至上为: 四棱台, 下底 $20\times 16$, 上底 $10\times 8$, 高 $2$; 四棱柱 $8\times 4$, 高 $20$; 球, 直径 $4$.)
 
-(2) 已知 $\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}=\frac{1}{5}$, 求 $\sin\alpha$ 的值;
-
-(3) 已知 $\sin^{4}\theta+\cos^{4}\theta=\frac{5}{9}$, 求 $\sin2\theta$ 的值;
-
-(4) 已知 $\cos2\theta=\frac{3}{5}$, 求 $\sin^{4}\theta+\cos^{4}\theta$ 的值.
+图:一个奖杯的三视图——由下至上依次为:四棱台(下底 $20\times 16\text{ cm}$,上底 $10\times 8\text{ cm}$,高 $2\text{ cm}$),四棱柱($8\times 4\text{ cm}$,高 $20\text{ cm}$),球(直径 $4\text{ cm}$).
 
 ### 解答 习题十四
 
-由**公式 5.5.7** 及**公式 5.5.8**.
+由**定义 8.3.4 (台体体积)**, **定义 8.3.2 (柱体体积)** 及**定义 8.3.12 (球的体积)**, 奖杯由四棱台, 四棱柱和球三部分组成.
 
-(1) 由 $\pi< \theta< \frac{3\pi}{2}$, 得 $\frac{\pi}{2}< \frac{\theta}{2}< \frac{3\pi}{4}$, $\sin\frac{\theta}{2}> \cos\frac{\theta}{2}$. $\left(\sin\frac{\theta}{2}-\cos\frac{\theta}{2}\right)^{2}=1-\sin\theta=1-\left(-\frac{4}{5}\right)=\frac{9}{5}$. 故 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}=\frac{3\sqrt{5}}{5}$.
-
-(2) 由 $\left(\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}\right)^{2}=\frac{1}{25}=1-\sin\alpha$, 得 $\sin\alpha=\frac{24}{25}$.
-
-(3) 由 $\sin^{4}\theta+\cos^{4}\theta=1-2\sin^{2}\theta\cos^{2}\theta=1-\frac{1}{2}\sin^{2}2\theta=\frac{5}{9}$, 得 $\sin^{2}2\theta=\frac{8}{9}$, $\sin2\theta=\pm\frac{2\sqrt{2}}{3}$.
-
-(4) 由 $\sin^{4}\theta+\cos^{4}\theta=1-\frac{1}{2}\sin^{2}2\theta=1-\frac{1}{2}\left(1-\cos^{2}2\theta\right)=1-\frac{1}{2}\left(1-\frac{9}{25}\right)=\frac{17}{25}$. $\blacksquare$
-
-## 习题十五
-
-(复习参考题5 复习巩固第 15 题)
-
-(1) 已知 $\cos\left(\alpha+\beta\right)=\frac{1}{5}$, $\cos\left(\alpha-\beta\right)=\frac{3}{5}$, 求 $\tan\alpha\tan\beta$ 的值;
-
-(2) 已知 $\cos\alpha+\cos\beta=\frac{1}{2}$, $\sin\alpha+\sin\beta=\frac{1}{3}$, 求 $\cos\left(\alpha-\beta\right)$ 的值.
-
-### 解答 习题十五
-
-由**公式 5.5.1** 及**公式 5.5.2**.
-
-(1) 由 $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta=\frac{1}{5}$, $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\frac{3}{5}$. 两式相加得 $\cos\alpha\cos\beta=\frac{2}{5}$, 相减得 $\sin\alpha\sin\beta=\frac{1}{5}$. 故 $\tan\alpha\tan\beta=\frac{1}{2}$.
-
-(2) 由 $\left(\cos\alpha+\cos\beta\right)^{2}=\frac{1}{4}$, $\left(\sin\alpha+\sin\beta\right)^{2}=\frac{1}{9}$. 两式相加得 $2+2\cos\left(\alpha-\beta\right)=\frac{13}{36}$. 故 $\cos\left(\alpha-\beta\right)=-\frac{59}{72}$. $\blacksquare$
-
-## 习题十六
-
-(复习参考题5 综合运用第 16 题) 证明:
-
-(1) $\cos4\alpha+4\cos2\alpha+3=8\cos^{4}\alpha$;
-
-(2) $\frac{1+\sin2\alpha}{2\cos^{2}\alpha+\sin2\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}$;
-
-(3) $\frac{\sin\left(2\alpha+\beta\right)}{\sin\alpha}-2\cos\left(\alpha+\beta\right)=\frac{\sin\beta}{\sin\alpha}$;
-
-(4) $\frac{3-4\cos2A+\cos4A}{3+4\cos2A+\cos4A}=\tan^{4}A$.
-
-### 解答 习题十六
-
-由**公式 5.5.7** 及**公式 5.5.8**.
-
-(1) 左边 $=\left(2\cos^{2}2\alpha-1\right)+4\cos2\alpha+3=2\cos^{2}2\alpha+4\cos2\alpha+2=2\left(\cos2\alpha+1\right)^{2}=2\left(2\cos^{2}\alpha\right)^{2}=8\cos^{4}\alpha=$ 右边.
-
-(2) 左边 $=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}}{2\cos\alpha\left(\cos\alpha+\sin\alpha\right)}=\frac{\sin\alpha+\cos\alpha}{2\cos\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}=$ 右边.
-
-(3) 左边 $=\frac{\sin\left[\left(\alpha+\beta\right)+\alpha\right]-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha+\cos\left(\alpha+\beta\right)\sin\alpha-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha-\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\beta}{\sin\alpha}=$ 右边.
-
-(4) 左边 $=\frac{3-4\cos2A+2\cos^{2}2A-1}{3+4\cos2A+2\cos^{2}2A-1}=\frac{2\left(\cos2A-1\right)^{2}}{2\left(\cos2A+1\right)^{2}}=\frac{\left(2\sin^{2}A\right)^{2}}{\left(2\cos^{2}A\right)^{2}}=\tan^{4}A=$ 右边. $\blacksquare$
-
-## 习题十七
-
-(复习参考题5 综合运用第 17 题) 已知 $\sin\alpha-\cos\alpha=\frac{1}{5}$, $0\leq\alpha\leq\pi$, 求 $\sin\left(2\alpha-\frac{\pi}{4}\right)$ 的值.
-
-### 解答 习题十七
-
-由**公式 5.5.7** 及**公式 5.5.3**.
-
-由 $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, 得 $\sin2\alpha=\frac{24}{25}$. 又 $0\leq\alpha\leq\pi$, $\sin\alpha-\cos\alpha=\frac{1}{5}> 0$, 得 $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. 由 $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. 若 $\cos2\alpha=\frac{7}{25}$, 则 $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ 不成立; 故 $\cos2\alpha=-\frac{7}{25}$.
+体积: 四棱台下底面积 $S=20\times 16=320$, 上底面积 $S'=10\times 8=80$, 高 $2$, 体积为
 
 $$
-\sin\left(2\alpha-\frac{\pi}{4}\right)=\sin2\alpha\cos\frac{\pi}{4}-\cos2\alpha\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}\left(\frac{24}{25}+\frac{7}{25}\right)=\frac{31\sqrt{2}}{50}.
+V_{\text{台}}=\frac{1}{3}\times 2\times\left(80+\sqrt{80\times 320}+320\right)=\frac{2}{3}\times 560=\frac{1120}{3}\approx 373.3.
 $$
 
-$\blacksquare$
+四棱柱体积为 $8\times 4\times 20=640$. 球半径为 $2$, 体积为 $\frac{4}{3}\pi\times 2^{3}=\frac{32\pi}{3}\approx 33.5$.
 
-## 习题十八
+总体积为 $373.3+640+33.5\approx 1047\text{ cm}^{3}$.
 
-(复习参考题5 综合运用第 18 题) 已知 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 求 $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$ 的值.
+表面积: 四棱台侧面, 前后两面 (底 $20$, $10$) 斜高为 $\sqrt{2^{2}+4^{2}}=2\sqrt{5}$, 面积共 $2\times\frac{20+10}{2}\times 2\sqrt{5}=60\sqrt{5}$; 左右两面 (底 $16$, $8$) 斜高为 $\sqrt{2^{2}+5^{2}}=\sqrt{29}$, 面积共 $2\times\frac{16+8}{2}\times\sqrt{29}=24\sqrt{29}$. 四棱台下底面积 $320$, 上底暴露部分面积 $80-8\times 4=48$.
 
-### 解答 习题十八
+四棱柱侧面积为 $2\left(8\times 20+4\times 20\right)=480$, 上底面积 $8\times 4=32$.
 
-由**公式 5.5.7** 及**公式 5.5.1**.
+球的表面积为 $4\pi\times 2^{2}=16\pi$.
 
-由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 得 $\frac{5\pi}{3}< \frac{\pi}{4}+x< 2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
+总表面积为 $60\sqrt{5}+24\sqrt{29}+320+48+480+32+16\pi\approx 134.2+129.3+880+50.2\approx 1194\text{ cm}^{2}$. $\blacksquare$
 
-## 习题十九
+## 练习九
 
-(复习参考题5 综合运用第 19 题) 已知 $\sin\theta+\cos\theta=2\sin\alpha$, $\sin\theta\cos\theta=\sin^{2}\beta$, 求证 $4\cos^{2}2\alpha=\cos^{2}2\beta$.
+(练习 8.4 第 1 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
 
-### 解答 习题十九
+(1) 书桌面是平面.
 
-由**公式 5.5.8** (二倍角余弦公式).
+(2) 平面 $\alpha$ 与平面 $\beta$ 相交, 它们只有有限个公共点.
 
-由 $\left(\sin\theta+\cos\theta\right)^{2}=4\sin^{2}\alpha$, 即 $1+2\sin\theta\cos\theta=4\sin^{2}\alpha$, $1+2\sin^{2}\beta=4\sin^{2}\alpha$.
+(3) 如果两个平面有三个不共线的公共点, 那么这两个平面重合.
 
-左边 $=4\cos^{2}2\alpha=4\left(1-2\sin^{2}\alpha\right)^{2}$. 由 $4\sin^{2}\alpha=1+2\sin^{2}\beta$, 得 $\cos2\alpha=1-2\sin^{2}\alpha=1-\frac{1+2\sin^{2}\beta}{2}=\frac{1-2\sin^{2}\beta}{2}=\frac{\cos2\beta}{2}$. 故 $4\cos^{2}2\alpha=\cos^{2}2\beta$. $\blacksquare$
+### 解答 练习九
 
-## 习题二十
+由**定义 8.4.1 (平面)**, 平面是无限延展的; 由**基本事实 8.4.2** (基本事实 1) 及**基本事实 8.4.4** (基本事实 3) 判断.
 
-(复习参考题5 综合运用第 20 题) 已知函数 $f\left(x\right)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
+(1) 错误. 书桌面是有边界的矩形面, 而平面无限延展, 不能说书桌面是平面.
 
-(1) 求 $f\left(x\right)$ 的最小正周期;
+(2) 错误. 由**基本事实 8.4.4** (基本事实 3), 两平面相交有一条公共直线, 其上有无限个公共点.
 
-(2) 当 $x\in\left[0,\frac{\pi}{2}\right]$ 时, 求 $f\left(x\right)$ 的最小值以及取得最小值时 $x$ 的集合.
+(3) 正确. 三个不共线的点确定一个平面, 故两平面若都经过这三个点, 则必重合. $\blacksquare$
 
-### 解答 习题二十
+## 练习十
 
-由**公式 5.5.7** 及**公式 5.5.8**.
+(练习 8.4 第 2 题) 下列命题正确的是 ( ).
 
-(1) $f\left(x\right)=\left(\cos^{2}x+\sin^{2}x\right)\left(\cos^{2}x-\sin^{2}x\right)-\sin2x=\cos2x-\sin2x=\sqrt{2}\cos\left(2x+\frac{\pi}{4}\right)$. 周期 $T=\pi$.
+(A) 三点确定一个平面; (B) 一条直线和一个点确定一个平面; (C) 圆心和圆上两点可确定一个平面; (D) 梯形可确定一个平面.
 
-(2) 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{4}\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$. 当 $2x+\frac{\pi}{4}=\pi$, 即 $x=\frac{3\pi}{8}$ 时, $f\left(x\right)_{\min}=-\sqrt{2}$. $\blacksquare$
+### 解答 练习十
 
-## 习题二十一
+由**基本事实 8.4.2** (基本事实 1), **推论 8.4.5 (推论 1)** 及**推论 8.4.7 (推论 3)** 判断.
 
-(复习参考题5 综合运用第 21 题) 已知函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ 的最大值为 $1$.
+(A) 错误. 三点共线时不能确定一个平面.
 
-(1) 求常数 $a$ 的值;
+(B) 错误. 点在直线上时不能确定一个平面.
 
-(2) 求函数 $f\left(x\right)$ 的单调递减区间;
+(C) 错误. 圆心和圆上两点可能共线 (当圆上两点为直径端点时).
 
-(3) 求使 $f\left(x\right)\geq0$ 成立的 $x$ 的取值集合.
+(D) 正确. 梯形有两条底边互相平行, 由**推论 8.4.7 (推论 3)**, 两条平行直线确定一个平面.
 
-### 解答 习题二十一
+故选 (D). $\blacksquare$
 
-由**公式 5.5.3** 及**公式 5.5.4**.
+## 练习十一
 
-(1) $f\left(x\right)=2\sin x\cos\frac{\pi}{6}+\cos x+a=\sqrt{3}\sin x+\cos x+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. 最大值为 $2+a=1$, 故 $a=-1$.
+(练习 8.4 第 3 题) 不共面的四点可以确定几个平面? 请画出图形说明你的结论.
 
-(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. 单调递减区间为 $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+(题图: 一个四面体, 四个顶点标为 $A,B,C,D$, 四个面均为三角形, 表示不共面四点所确定的四个平面.)
 
-(3) 由 $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, 得 $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. 故 $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
+### 解答 练习十一
 
-## 习题二十二
+由**基本事实 8.4.2** (基本事实 1), 不共线的三个点确定一个平面.
 
-(复习参考题5 综合运用第 22 题) 已知函数 $f\left(x\right)=\sqrt{3}\sin2x+2\cos^{2}x+m$ 在区间 $\left[0,\frac{\pi}{2}\right]$ 上的最大值为 $6$.
+不共面的四点中任取三点都不共线 (否则四点共面). 四点中任取三点确定一个平面, 共 $\mathrm{C}_{4}^{3}=4$ 个. 这四个平面恰围成一个四面体的四个面.
 
-(1) 求常数 $m$ 的值;
+故不共面的四点可以确定 $4$ 个平面. $\blacksquare$
 
-(2) 当 $x\in\mathbb R$ 时, 求函数 $f\left(x\right)$ 的最小值, 以及相应 $x$ 的集合.
+## 练习十二
 
-### 解答 习题二十二
+(练习 8.4 第 4 题) 用符号表示下列语句, 并画出相应的图形:
 
-由**公式 5.5.8** 及辅助角公式.
+(1) 点 $A$ 在平面 $\alpha$ 内, 点 $B$ 在平面 $\alpha$ 外;
 
-(1) $f\left(x\right)=\sqrt{3}\sin2x+\cos2x+1+m=2\sin\left(2x+\frac{\pi}{6}\right)+1+m$. 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{6}\in\left[\frac{\pi}{6},\frac{7\pi}{6}\right]$, 最大值 $2+1+m=6$, 故 $m=3$.
+(2) 直线 $a$ 既在平面 $\alpha$ 内, 又在平面 $\beta$ 内.
 
-(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. 最小值为 $-2+4=2$, 此时 $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
+(题图: 左右两幅图, 左图画平行四边形平面 $\alpha$, 内部标一点 $A$, 外部标一点 $B$; 右图画两个相交平面 $\alpha$ 与 $\beta$, 其交线标为直线 $a$.)
 
-## 习题二十三
+### 解答 练习十二
 
-(复习参考题5 综合运用第 23 题) 正方形 $ABCD$ 的边长为 $1$, $P$, $Q$ 分别为边 $AB$, $DA$ 上的点. 当 $\triangle APQ$ 的周长为 $2$ 时, 求 $\angle PCQ$ 的大小.
+由**定义 8.4.1 (平面)** 及点, 线, 面关系的符号表示.
 
-### 解答 习题二十三
+(1) 记作 $A\in\alpha$, $B\notin\alpha$. 图形: 画平行四边形表示平面 $\alpha$, 在其内部标一点 $A$, 在外部标一点 $B$.
 
-由**公式 5.5.5** (和角正切公式).
+(2) 记作 $a\subset\alpha$ 且 $a\subset\beta$, 即 $\alpha\cap\beta=a$. 图形: 画两个相交平面, 其交线标为直线 $a$. $\blacksquare$
 
-设 $AP=x$, $AQ=y$, 则 $x+y+\sqrt{x^{2}+y^{2}}=2$. 设 $\angle BCP=\alpha$, $\angle DCQ=\beta$, 则 $\tan\alpha=1-x$, $\tan\beta=1-y$.
+## 练习十三
 
-由 $x+y+\sqrt{x^{2}+y^{2}}=2$, 得 $\sqrt{x^{2}+y^{2}}=2-x-y$. 平方得 $2xy=4-4x-4y+2xy$, 即 $x+y=1$. 故 $y=1-x$.
+(练习 8.4 第 1 题) 选择题.
 
-$\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(1-x\right)\left(1-y\right)}=\frac{2-\left(x+y\right)}{1-\left(1-x-y+xy\right)}=\frac{1}{x+y-xy}=\frac{1}{1-xy}$. 又 $xy=x\left(1-x\right)$.
+(1) 如果两条直线 $a$ 与 $b$ 没有公共点, 那么 $a$ 与 $b$ ( ).
 
-由 $\angle PCQ=\frac{\pi}{2}-\alpha-\beta$, 得 $\tan\angle PCQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. 又由 $x+y=1$, $xy\leq\frac{1}{4}$.
+(A) 共面; (B) 平行; (C) 是异面直线; (D) 可能平行, 也可能是异面直线.
 
-由条件可证得 $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
+(2) 设直线 $a$, $b$ 分别是长方体的相邻两个面的对角线所在的直线, 则 $a$ 与 $b$ ( ).
 
-## 习题二十四
+(A) 平行; (B) 相交; (C) 是异面直线; (D) 可能相交, 也可能是异面直线.
 
-(复习参考题5 拓广探索第 24 题) 已知 $\sin\beta+\cos\beta=\frac{1}{5}$, $\beta\in\left(0,\pi\right)$.
+### 解答 练习十三
 
-(1) 求 $\tan\beta$ 的值;
+由**定义 8.4.8 (异面直线)**, 空间两条直线不重合时, 无公共点则平行或异面.
 
-(2) 你能根据所给的条件, 自己构造出一些求值问题吗?
+(1) 两条直线没有公共点, 它们可能平行 (共面), 也可能异面. 故选 (D).
 
-### 解答 习题二十四
+(2) 长方体相邻两个面的对角线所在直线, 若两条对角线有公共顶点则相交, 若无公共顶点则异面. 故可能相交, 也可能是异面直线. 故选 (D). $\blacksquare$
 
-由**公式 5.2.2** (同角三角函数关系).
+## 练习十四
 
-(1) 由 $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, 得 $\sin2\beta=-\frac{24}{25}$. 由 $\beta\in\left(0,\pi\right)$, $\sin\beta+\cos\beta=\frac{1}{5}> 0$, 得 $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. 故 $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
+(练习 8.4 第 2 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, 判定直线 $AB$ 与 $AC$, 直线 $AC$ 与 $A'C'$, 直线 $A'B$ 与 $AC$, 直线 $A'B$ 与 $C'D$ 的位置关系.
 
-(2) 可构造求 $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$ 等问题. $\blacksquare$
+(题图: 一个长方体 $ABCD\text{-}A'B'C'D'$, 下底面为 $ABCD$, 上底面为 $A'B'C'D'$, 标出体对角线 $AC$ 与 $A'C'$,面对角线 $A'B$ 与 $C'D$.)
 
-## 习题二十五
+### 解答 练习十四
 
-(复习参考题5 拓广探索第 25 题) 已知直线 $l_{1}\parallel l_{2}$, $A$ 是 $l_{1}$, $l_{2}$ 之间的一定点, 并且点 $A$ 到 $l_{1}$, $l_{2}$ 的距离分别为 $h_{1}$, $h_{2}$. $B$ 是直线 $l_{2}$ 上一动点, 作 $AC\perp AB$, 且使 $AC$ 与直线 $l_{1}$ 交于点 $C$. 设 $\angle ABD=\alpha$.
+由**定义 8.4.8 (异面直线)** 及直线位置关系的定义判断.
 
-(1) 写出 $\triangle ABC$ 的面积 $S$ 关于角 $\alpha$ 的函数解析式 $S\left(\alpha\right)$;
+$AB$ 与 $AC$ 有公共点 $A$, 故相交.
 
-(2) 画出上述函数的图象;
+$AC$ 与 $A'C'$ 分别是上下底面的对角线, 方向相同且无公共点, 故平行.
 
-(3) 由 (2) 中的图象求 $S\left(\alpha\right)$ 的最小值.
+$A'B$ 与 $AC$ 不同在任何一个平面内, 既不相交也不平行, 故是异面直线.
 
-图:两条平行直线 $l_1$(上方)与 $l_2$(下方),定点 $A$ 在两线之间,到 $l_1$ 的距离为 $h_1$,到 $l_2$ 的距离为 $h_2$;动点 $B$ 在 $l_2$ 上,从 $A$ 作 $AB$ 的垂线交 $l_1$ 于点 $C$,构成直角三角形 $ABC$($\angle BAC=90^\circ$),$\angle ABD=\alpha$ 为 $AB$ 与 $l_2$ 的夹角($D$ 在 $l_2$ 上 $B$ 的一侧).
+$A'B$ 与 $C'D$ 方向相同且无公共点, 故平行. $\blacksquare$
 
-### 解答 习题二十五
+## 练习十五
 
-由三角函数定义.
+(练习 8.4 第 3 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
 
-(1) 由 $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. 故 $S\left(\alpha\right)=\frac{1}{2}AB\cdot AC=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
+(1) 若直线 $l$ 上有无数个点不在平面 $\alpha$ 内, 则 $l\parallel\alpha$.
 
-(2) 函数 $S\left(\alpha\right)=\frac{h_{1}h_{2}}{\sin2\alpha}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$.
+(2) 若直线 $l$ 与平面 $\alpha$ 平行, 则 $l$ 与平面 $\alpha$ 内的任意一条直线都平行.
 
-(3) 由 $\sin2\alpha\leq1$, 得 $S\left(\alpha\right)\geq h_{1}h_{2}$, 当 $\alpha=\frac{\pi}{4}$ 时取最小值 $h_{1}h_{2}$. $\blacksquare$
+(3) 如果两条平行直线中的一条与一个平面平行, 那么另一条也与这个平面平行.
 
-## 习题二十六
+(4) 若直线 $l$ 与平面 $\alpha$ 平行, 则 $l$ 与平面 $\alpha$ 内的任意一条直线都没有公共点.
 
-(复习参考题5 拓广探索第 26 题) 英国数学家泰勒给出如下公式:
+### 解答 练习十五
 
-$\sin x=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots$,
+由**定义 8.4.9 (直线与平面的位置关系)** 判断.
 
-$\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
+(1) 错误. 直线 $l$ 与平面 $\alpha$ 相交时, 除交点外所有点都不在 $\alpha$ 内, 但 $l$ 不平行于 $\alpha$.
 
-试用计算工具计算 $\cos0.3$, 并与前三项近似结果 $0.9553375$ 比较.
+(2) 错误. $l\parallel\alpha$ 时, $l$ 与 $\alpha$ 内的直线平行或异面.
 
-### 解答 习题二十六
+(3) 错误. 另一条直线可能在这个平面内.
 
-由泰勒展开式.
+(4) 正确. $l\parallel\alpha$ 时 $l$ 与 $\alpha$ 无公共点, 故与 $\alpha$ 内任意直线都无公共点. $\blacksquare$
 
-由 $\cos0.3\approx1-\frac{0.09}{2}+\frac{0.0081}{24}=1-0.045+0.0003375=0.9553375$. 精确值约为 $0.9553365$, 前三项近似值与精确值非常接近. $\blacksquare$
+## 练习十六
 
-## 习题二十七
+(练习 8.4 第 4 题) 已知直线 $a$, $b$, 平面 $\alpha$, $\beta$, 且 $a\subset\alpha$, $b\subset\beta$, $\alpha\parallel\beta$. 判断直线 $a$, $b$ 的位置关系, 并说明理由.
 
-(复习参考题5 拓广探索第 27 题) 在地球公转过程中, 太阳直射点的纬度随时间周而复始不断变化.
+### 解答 练习十六
 
-(1) 设地球表面某地正午太阳高度角为 $\theta$, $\delta$ 为此时太阳直射点的纬度, $\varphi$ 为当地的纬度值, 那么这三个量满足 $\theta=90^{\circ}-\lvert\varphi-\delta\rvert$. 某科技小组以某年春分为初始时间, 统计了连续 $400$ 天太阳直射点的纬度平均值.
+由**定义 8.4.10 (平面与平面的位置关系)**, $\alpha\parallel\beta$ 即两平面无公共点.
 
-(2) 试建立太阳直射点纬度 $\delta$ 关于时间 $t$ 的函数模型.
+因为 $a\subset\alpha$, $b\subset\beta$, 而 $\alpha$ 与 $\beta$ 无公共点, 故 $a$ 与 $b$ 无公共点. 无公共点的两条直线可能平行, 也可能异面.
 
-### 解答 习题二十七
-
-由**性质 5.7.1** (三角函数模型应用步骤).
-
-(1) 太阳直射点的纬度随时间呈周期性变化, 周期为一年 (约 $365$ 天), 春分日 ($t=0$) 时 $\delta=0$, 夏至日 $\delta$ 最大 (约 $23.5^{\circ}$), 冬至日 $\delta$ 最小 (约 $-23.5^{\circ}$).
-
-(2) 可建立模型 $\delta=23.5^{\circ}\sin\left(\frac{2\pi t}{365}\right)$, 其中 $t$ 为春分后的天数. $\blacksquare$
+故直线 $a$ 与 $b$ 可能平行, 也可能是异面直线. $\blacksquare$

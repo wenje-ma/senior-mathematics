@@ -1,718 +1,542 @@
 # week72
-> **Definition 4.1.5 (General Term Formula)**
+> **Definition 7.1.1 (条件概率)**
 > 
-> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
-> **Definition 4.1.6 (递推公式)**
+> 设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
+> **Definition 7.2.3 (分布列)**
 > 
-> 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
-> **Definition 4.2.1 (Arithmetic Sequence)**
+> 设离散型随机变量 X 可能取的值为 x1, x2, ..., xn, X 取每一个值 xi 的概率 P(X=xi) = pi, 则表称为 X 的分布列.
+> **Definition 7.3.1 (Mean or Mathematical Expectation)**
 > 
-> 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
-> **Definition 4.2.2 (等差中项)**
+> 离散型随机变量 X 的分布列为 P(X=xi) = pi, 则 E(X) = sum(xi*pi) 称为 X 的均值或数学期望.
+> **Definition 7.4.2 (二项分布)**
 > 
-> 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
-> **Theorem 4.2.3 (Arithmetic Sequence Formula)**
+> 在 n 次独立重复试验中, 设事件 A 发生的次数为 X, 每次试验中 A 发生的概率为 p, 则 X ~ B(n, p).
+> **Definition 7.5.2 (正态分布)**
 > 
-> 等差数列的通项公式为 an = a1 + (n-1)d.
-> **Theorem 4.2.5 (等差数列性质)**
+> 正态分布的概率密度函数为 f(x) = (1/(sigma*sqrt(2pi))) * exp(-(x-mu)^2/(2*sigma^2)), 记作 N(mu, sigma^2).
+> **Definition 8.1.1 (相关关系)**
 > 
-> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
-> **Theorem 4.2.6 (前 $n$ 项和公式一)**
+> 两个变量有关系, 但又没有确切到可由其中的一个去精确地决定另一个的程度, 这种关系称为相关关系.
+> **Definition 8.1.5 (样本相关系数)**
 > 
-> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
-> **Theorem 4.2.7 (前 $n$ 项和公式二)**
+> 样本相关系数 r 衡量两个变量线性相关程度, |r| < = 1, |r| 越接近 1 线性相关程度越强.
+> **Definition 8.2.1 (一元线性回归模型)**
 > 
-> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
-> **Definition 4.3.1 (Geometric Sequence)**
+> 关于 $x$ 和随机变量 $Y$ 的一元线性回归模型为
+> **Definition 8.2.4 (经验回归方程)**
 > 
-> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> 用最小二乘法求得的回归方程 y = bx + a 称为经验回归方程.
+> **Definition 8.2.4 (Empirical Regression Equation)**
+> 
+> The regression line y = bx + a obtained by the least squares method.
+> **Definition 8.2.5 (残差)**
+> 
+> 残差 = 观测值 - 预测值, 即 e_i = y_i - y_hat_i.
+> **Definition 8.3.1 (分类变量)**
+> 
+> 变量的不同取值表示个体所属的不同类别, 这类变量称为分类变量.
+> **Definition 8.3.4 ($\chi^2$ 统计量)**
+> 
+> 选中分析工具库和 分析工具库ＶＢＡ,单击确定即可把数据分析加载到菜单栏中. (三)统计量的计算 在电子表格软件的函数库中,有一类统计函数提供了计算常用统计量的各种 函数,如ＡＶＥＲＡＧＥ()(平均数),ＭＥＤＩＡＮ()(中位数),ＭＯＤＥ()(众数), ＶＡＲ.Ｐ()(方差),ＳＴＤＥＶ.Ｐ()(标准差),ＰＥＲＣＥＮＴＩＬＥ.ＩＮＣ()(百分位 数),等.可以直接输入函数名称进行调用,也可以通过插入函数的方式选择 调用.例如,求单元格Ａ２到Ａ１０１所有数据的平均数,可以选一空白单元格,输 入＝ＡＶＥＲＡＧＥ(Ａ２:Ａ１０１),或者在菜单栏中依次选择公式— 函数 库— 插入函数,调出函数ＡＶＥＲＡＧＥ,再设置求平均数的单元格范围. 其他函数调用的操作过程类似,只是不同函数的参数设置有所不同,可以根 据函数的说明进行恰当设置. 二,Ｒ软件的简单统计功能 Ｒ软件是一款免费软件,可在其官方网站下载.它通过命令形式进行操作. (一)产生随机数 １.用ｒｕ
 
-## Exercise 1
+## Problem 1
 
-(Exercise 4.2, Problem 1) Determine whether the following sequences are arithmetic sequences. If so, write down their common difference
+(Review Reference Exercise 7, Review and Consolidation, Problem 6) The probability that each cannon hits the target is 0.3; now $n$ cannons each fire once at a certain target simultaneously.
 
-(1) $95,82,69,56,43,30$;
+(1) When $n=10$, find the probability of hitting the target exactly 3 times (accurate to 0.001);
 
-(2) $1,1.1,1.11,1.111,1.1111,1.11111$;
+(2) If the probability of hitting the target at least once is to exceed $95\%$, at least how many cannons are needed?
 
-(3) $1,-2,3,-4,5,-6$;
+### Solution to Problem 1
 
-(4) $1,\frac{11}{12},\frac{5}{6},\frac{3}{4},\frac{2}{3},\frac{7}{12},\frac{1}{2}$.
+By **Definition 7.4.2 (Binomial Distribution)**, let $X$ be the number of times the target is hit; then $X\sim B\left(n,0.3\right)$.
 
-### Solution to Exercise 1
-
-(1) By **Definition 4.2.1 (Arithmetic Sequence)**, $82-95=-13$, $69-82=-13$, the difference between consecutive terms is always $-13$, so it is an arithmetic sequence with common difference $d=-13$.
-
-$\blacksquare$
-
-(2) By **Definition 4.2.1 (Arithmetic Sequence)**, $1.1-1=0.1$, $1.11-1.1=0.01$, the differences are not equal, so it is not an arithmetic sequence.
-
-$\blacksquare$
-
-(3) By **Definition 4.2.1 (Arithmetic Sequence)**, $-2-1=-3$, $3-\left(-2\right)=5$, the differences are not equal, so it is not an arithmetic sequence.
-
-$\blacksquare$
-
-(4) By **Definition 4.2.1 (Arithmetic Sequence)**, $\frac{11}{12}-1=-\frac{1}{12}$, $\frac{5}{6}-\frac{11}{12}=-\frac{1}{12}$, the difference between consecutive terms is always $-\frac{1}{12}$, so it is an arithmetic sequence with common difference $d=-\frac{1}{12}$.
-
-$\blacksquare$
-
-(Exercise 4.2, Problem 2) Find the arithmetic mean of each of the following pairs of numbers
-
-(1) $647$ and $895$;
-
-(2) $-12\frac{1}{3}$ and $24\frac{3}{5}$.
-
-### Solution to Exercise 1
-
-(1) By **Definition 4.2.2 (Arithmetic Mean)**,
+(1) When $n=10$, by **Definition 7.4.2 (Binomial Distribution)**,
 
 $$
-A=\frac{647+895}{2}=771.
+\mathbb P\left(X=3\right)=\binom{10}{3}\times 0.3^3\times 0.7^7.
 $$
 
-$\blacksquare$
-
-(2) By **Definition 4.2.2 (Arithmetic Mean)**,
+Since $\binom{10}{3}=120$, computing gives
 
 $$
-A=\frac{-12\frac{1}{3}+24\frac{3}{5}}{2}=\frac{-\frac{37}{3}+\frac{123}{5}}{2}=\frac{-185+369}{30}=\frac{184}{30}=\frac{92}{15}=6\frac{2}{15}.
+\mathbb P\left(X=3\right)=120\times 0.027\times 0.0823543\approx 0.267.
 $$
 
-$\blacksquare$
-
-(Exercise 4.2, Problem 3) Given that $\left\{a_n\right\}$ is an arithmetic sequence, fill in the blanks in the following table with appropriate numbers
-
-First row: $a_1=-7,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ d=\underline{\quad}$;
-
-Second row: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underline{\quad},\ d=-6.5$.
-
-### Solution to Exercise 1
-
-First row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_5=a_1+4d$, i.e. $8=-7+4d$, so $d=\frac{15}{4}=3.75$.
+(2) The probability of hitting the target at least once is
 
 $$
-a_3=-7+2\times 3.75=0.5,\ a_7=-7+6\times 3.75=15.5.
+\mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-0.7^n.
 $$
 
-Second row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2d$, i.e. $2=a_1+2\times\left(-6.5\right)$, so $a_1=15$.
+By the problem, $\mathbb P\left(X\ge 1\right)> 0.95$, i.e.
 
 $$
-a_5=15+4\times\left(-6.5\right)=-11,\ a_7=15+6\times\left(-6.5\right)=-24.
+1-0.7^n> 0.95,
 $$
 
-$\blacksquare$
-
-(Exercise 4.2, Problem 4) In an arithmetic sequence $\left\{a_n\right\}$, given $a_4+a_8=20$ and $a_7=12$, find $a_4$
-
-### Solution to Exercise 1
-
-By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_4+a_8=a_5+a_7=20$.
-
-From $a_7=12$, we get $a_5=20-12=8$.
-
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $d=a_5-a_4$, and $a_7=a_5+2d$, i.e. $12=8+2d$, so $d=2$.
-
-Hence $a_4=a_5-d=8-2=6$.
-
-$\blacksquare$
-
-(Exercise 4.2, Problem 5) Insert $3$ numbers between $7$ and $21$ so that these $5$ numbers form an arithmetic sequence. Find these $3$ numbers
-
-### Solution to Exercise 1
-
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the first term be $a_1=7$ and the $5$th term be $a_5=21$, then
+which is $0.7^n< 0.05$. Taking logarithms of both sides gives $n\ln 0.7< \ln 0.05$; since $\ln 0.7< 0$, the inequality sign reverses, giving
 
 $$
-a_5=a_1+4d,\ 21=7+4d,\ d=\frac{14}{4}=3.5.
+n> \frac{\ln 0.05}{\ln 0.7}\approx 8.4.
 $$
 
-The $3$ inserted numbers are
+Hence $n$ takes the smallest integer not less than 8.4, i.e. at least 9 cannons are needed. $\blacksquare$
+
+## Problem 2
+
+(Review Reference Exercise 7, Comprehensive Application, Problem 7) Spending long time on a mobile phone may affect eyesight. According to a survey, about $40\%$ of the students in a school are myopic, while about $20\%$ of the students in this school spend more than $1\ \mathrm{h}$ a day on their mobile phones, and among these people the myopia rate is about $50\%$. Now randomly survey one student from those who spend at most $1\ \mathrm{h}$ a day on their mobile phones; find the probability that he or she is myopic.
+
+### Solution to Problem 2
+
+By **Definition 7.1.1 (Conditional Probability)**.
+
+Let $A$ = "this student is myopic", $B$ = "this student spends more than $1\ \mathrm{h}$ a day on a mobile phone". By the problem, $\mathbb P\left(A\right)=0.4$, $\mathbb P\left(B\right)=0.2$, $\mathbb P\left(A\mid B\right)=0.5$.
+
+By **Conclusion 7.1.2** (Multiplication Formula for Probability), the proportion of students who spend more than $1\ \mathrm{h}$ a day on a mobile phone and are myopic is
 
 $$
-a_2=7+3.5=10.5,\ a_3=10.5+3.5=14,\ a_4=14+3.5=17.5.
+\mathbb P\left(AB\right)=\mathbb P\left(B\right)\mathbb P\left(A\mid B\right)=0.2\times 0.5=0.1.
+$$
+
+Hence the proportion of myopic students among those who spend at most $1\ \mathrm{h}$ a day on a mobile phone is
+
+$$
+\mathbb P\left(A\overline B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
+$$
+
+Also, the proportion of students who spend at most $1\ \mathrm{h}$ a day on a mobile phone is $\mathbb P\left(\overline B\right)=1-\mathbb P\left(B\right)=0.8$. By **Definition 7.1.1 (Conditional Probability)**, when one student is surveyed at random from this group, the probability that he or she is myopic is
+
+$$
+\mathbb P\left(A\mid\overline B\right)=\frac{\mathbb P\left(A\overline B\right)}{\mathbb P\left(\overline B\right)}=\frac{0.3}{0.8}=0.375.
 $$
 
 $\blacksquare$
 
-## Exercise 2
+## Problem 3
 
-(Exercise 4.2, Problem 1) The seats in one corner of a stadium's stands are arranged as follows: the $1$st row has $15$ seats, and starting from the $2$nd row each row has $2$ more seats than the previous row. Can you express the number of seats in the $n$th row by $a_n$? How many seats are there in the $10$th row?
+(Review Reference Exercise 7, Comprehensive Application, Problem 8) A shopping mall wants to run a promotion on National Day; the promotion can be held inside the mall or outside it. Statistics show that each year the in-mall promotion on National Day yields a profit of 20 thousand yuan; an out-of-mall promotion yields a profit of 80 thousand yuan if it does not rain, but brings a loss of 30 thousand yuan if it rains. On September 30, the weather forecast predicts a $40\%$ probability of local precipitation on National Day. Which promotion method should the mall choose?
 
-### Solution to Exercise 2
+### Solution to Problem 3
 
-By **Definition 4.2.1 (Arithmetic Sequence)**, the seat numbers form an arithmetic sequence with first term $a_1=15$ and common difference $d=2$.
+By **Definition 7.3.1 (Mean or Mathematical Expectation)**, use the maximum expected profit as the decision criterion.
 
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
+Choosing the in-mall promotion, the profit is a fixed 20 thousand yuan.
 
-$$
-a_n=15+\left(n-1\right)\times 2=2n+13.
-$$
-
-The number of seats in the $10$th row is
+Choosing the out-of-mall promotion: if it rains (probability $0.4$), there is a loss of 30 thousand yuan; if it does not rain (probability $0.6$), there is a profit of 80 thousand yuan. By **Definition 7.3.1 (Mean or Mathematical Expectation)**, its expected profit is
 
 $$
-a_{10}=2\times 10+13=33.
+E=0.6\times 8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{ \left(万元\right)}.
 $$
 
-$\blacksquare$
+Comparing the expected profits of the two methods, $3.6> 2$, so from the standpoint of maximum expected profit, the mall should choose to hold the promotion outside the mall. $\blacksquare$
 
-(Exercise 4.2, Problem 2) Draw the graph of the sequence $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1< n\le 6\end{cases}$, and find the slope of the line passing through all the points on the graph
+## Problem 4
 
-The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1< n\le6\end{cases}$ (horizontal axis $n$, vertical axis $a_n$): the six points are $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$, lying exactly on the line $y=21-3x$.
+(Review Reference Exercise 7, Comprehensive Application, Problem 9) Suppose an accidental-injury insurance policy costs 20 yuan, and each payout is 500 thousand yuan. An insurance company can sell 100 thousand policies a year, and each policy has a payout probability of $10^{-5}$. Using a computing tool, find (accurate to 0.0001):
 
-### Solution to Exercise 2
+(1) the probability that this insurance company loses money on this type of policy;
 
-By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
+(2) the probability that this insurance company earns at least 1 million yuan on this type of policy within a year.
 
-$$
-a_1=18,\ a_2=15,\ a_3=12,\ a_4=9,\ a_5=6,\ a_6=3.
-$$
+### Solution to Problem 4
 
-By **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions), all points lie on the line $y=21-3x$, whose slope is $-3$.
+By **Definition 7.4.2 (Binomial Distribution)**, let $X$ be the number of policies requiring payout within a year; then $X\sim B\left(10^5,10^{-5}\right)$, with parameter $\lambda=np=10^5\times 10^{-5}=1$, which can be approximated by a Poisson distribution, i.e. $\mathbb P\left(X=k\right)\approx\frac{e^{-1}}{k!}$.
 
-$\blacksquare$
+The insurance company's total premium income is $10^5\times 20=2\times 10^6$ yuan, i.e. 2 million yuan; the total payout is 500 thousand yuan per policy, i.e. $50X$ (in 10-thousand yuan).
 
-(Exercise 4.2, Problem 3) In an arithmetic sequence $\left\{a_n\right\}$, given $a_n=m$ and $a_m=n$, find $a_{m+n}$
-
-### Solution to Exercise 2
-
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
+(1) Losing money means the total payout exceeds the total premium income, i.e. $50X> 200$, i.e. $X> 4$. Hence the probability of losing money is
 
 $$
-a_n=a_1+\left(n-1\right)d=m,\ a_m=a_1+\left(m-1\right)d=n.
+\mathbb P\left(X\ge 5\right)=1-\mathbb P\left(X\le 4\right).
 $$
 
-Subtracting the two equations gives $\left(n-m\right)d=m-n$, hence $d=-1$.
+By the Poisson approximation,
 
-Substituting back into $a_1+\left(n-1\right)\left(-1\right)=m$, we get $a_1=m+n-1$.
+$$
+\mathbb P\left(X\le 4\right)\approx e^{-1}\left(1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}\right)=e^{-1}\times\frac{65}{24}\approx 0.9963.
+$$
 
 Hence
 
 $$
-a_{m+n}=a_1+\left(m+n-1\right)d=m+n-1-\left(m+n-1\right)=0.
+\mathbb P\left(X\ge 5\right)\approx 1-0.9963=0.0037.
+$$
+
+(2) Earning at least 1 million yuan within a year means the total premium income minus the total payout is at least 1 million yuan, i.e. $200-50X\ge 100$, i.e. $X\le 2$. Hence the required probability is
+
+$$
+\mathbb P\left(X\le 2\right)\approx e^{-1}\left(1+1+\frac{1}{2!}\right)=e^{-1}\times 2.5\approx 0.9197.
 $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) Given that both sequences $\left\{a_n\right\},\left\{b_n\right\}$ are arithmetic sequences and $c_n=a_n+b_n$, prove that $\left\{c_n\right\}$ is also an arithmetic sequence
+## Problem 5
 
-### Solution to Exercise 2
+(Review Reference Exercise 7, Extension and Exploration, Problem 10) Three people, A, B, and C, pass a ball among themselves in a passing-drill; the first pass is made by A. On each pass, the passer passes the ball with equal probability to either of the other two people. Find the probability that the ball is in A's hands after $n$ passes.
 
-By **Definition 4.2.1 (Arithmetic Sequence)**, let the common difference of $\left\{a_n\right\}$ be $d_1$ and that of $\left\{b_n\right\}$ be $d_2$.
+### Solution to Problem 5
 
-$$
-c_{n+1}-c_n=\left(a_{n+1}+b_{n+1}\right)-\left(a_n+b_n\right)=\left(a_{n+1}-a_n\right)+\left(b_{n+1}-b_n\right)=d_1+d_2.
-$$
+Let $a_n$ denote the probability that the ball is in A's hands after $n$ passes; initially the ball is in A's hands, so $a_0=1$.
 
-The difference is the constant $d_1+d_2$; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{c_n\right\}$ is an arithmetic sequence.
-
-$\blacksquare$
-
-(Exercise 4.2, Problem 5) Given an infinite arithmetic sequence $\left\{a_n\right\}$ with first term $a_1$ and common difference $d$
-
-(1) Remove the first $m$ terms of the sequence; the remaining terms form a new sequence. Is this new sequence an arithmetic sequence? If so, what are its first term and common difference?
-
-(2) Take all the odd-positioned terms of the sequence to form a new sequence. Is this new sequence an arithmetic sequence? If so, what are its first term and common difference?
-
-### Solution to Exercise 2
-
-(1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, after removing the first $m$ terms, the first term of the new sequence is $a_{m+1}=a_1+md$, and the difference between consecutive terms is still $d$, so it is an arithmetic sequence with first term $a_1+md$ and common difference $d$.
-
-$\blacksquare$
-
-(2) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, the odd-positioned terms are $a_1,a_3,a_5,\cdots$, and the difference between consecutive terms is $a_{2k+1}-a_{2k-1}=2d$, so it is an arithmetic sequence with first term $a_1$ and common difference $2d$.
-
-$\blacksquare$
-
-## Exercise 3
-
-(Exercise 4.2, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding arithmetic sequence $\left\{a_n\right\}$
-
-(1) $a_1=5,\ a_n=-23,\ n=8$;
-
-(2) $a_1=-4,\ d=4,\ n=10$;
-
-(3) $a_1=14.5,\ d=0.7,\ a_n=32$;
-
-(4) $a_3=14.5,\ d=0.7,\ a_n=32$.
-
-### Solution to Exercise 3
-
-(1) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+After the $n$-th pass, the ball is in A's hands if and only if after the $n-1$-th pass the ball is not in A's hands, and the holder passes it to A. By **Definition 7.1.1 (Conditional Probability)**, the probability that after the $n-1$-th pass the ball is not in A's hands is $1-a_{n-1}$; in that case the holder is B or C, and passes the ball with equal probability to the other two, one of whom is A, so the probability of passing to A is $\frac{1}{2}$. Hence
 
 $$
-S_8=\frac{8\times\left(5-23\right)}{2}=-72.
+a_n=\frac{1}{2}\left(1-a_{n-1}\right).
+$$
+
+The fixed point of this recurrence satisfies $a=\frac{1}{2}\left(1-a\right)$, solving gives $a=\frac{1}{3}$. Rewrite the recurrence as
+
+$$
+a_n-\frac{1}{3}=-\frac{1}{2}\left(a_{n-1}-\frac{1}{3}\right).
+$$
+
+From $a_0=1$,
+
+$$
+a_n-\frac{1}{3}=\left(-\frac{1}{2}\right)^n\left(a_0-\frac{1}{3}\right)=\frac{2}{3}\left(-\frac{1}{2}\right)^n.
+$$
+
+Hence the probability that the ball is in A's hands after $n$ passes is
+
+$$
+a_n=\frac{1}{3}+\frac{2}{3}\left(-\frac{1}{2}\right)^n.
 $$
 
 $\blacksquare$
 
-(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+## Problem 6
+
+(Review Reference Exercise 7, Extension and Exploration, Problem 11) An organization has 10000 employees and wants to screen hepatitis-B virus carriers by blood testing. Suppose the probability that a given person carries the hepatitis-B virus is $5\%$; if each person's blood sample is tested one by one, 10000 tests would be needed. A statistics expert proposes a testing method: randomly divide the people into groups of 5, then mix the blood samples of the 5 people in each group and test the mixture. If the mixed sample tests negative, all 5 are negative; if the mixed sample tests positive, at least one of them is positive, and then each of the 5 must be tested separately once more.
+
+(1) Does this testing method reduce the number of tests?
+
+(2) If the probability that a person carries the virus is $2\%$, and the people are grouped $k$ at a time, what value of $k$ minimizes the number of tests?
+
+### Solution to Problem 6
+
+By **Definition 7.3.1 (Mean or Mathematical Expectation)**, use the average number of tests as the basis for comparison.
+
+(1) Let the probability that a person carries the virus be $p=0.05$, with a group of $m=5$ people. The mixed sample tests negative, meaning all 5 are negative, with probability $\left(1-p\right)^5=0.95^5\approx 0.7738$, in which case the group needs only 1 test; the probability that the mixed sample tests positive is $1-0.7738=0.2262$, in which case the group first tests the mixture once and then tests the 5 people separately, for $1+5=6$ tests in all. By **Definition 7.3.1 (Mean or Mathematical Expectation)**, the average number of tests per group is
 
 $$
-S_{10}=10\times\left(-4\right)+\frac{10\times 9}{2}\times 4=-40+180=140.
+E=1\times 0.7738+6\times 0.2262\approx 2.131.
 $$
 
-$\blacksquare$
-
-(3) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $32=14.5+\left(n-1\right)\times 0.7$, so $n-1=25$ and $n=26$.
-
-By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+The 10000 people form $10000\div 5=2000$ groups of 5, so the total average number of tests is
 
 $$
-S_{26}=\frac{26\times\left(14.5+32\right)}{2}=13\times 46.5=604.5.
+2000\times 2.131=4262< 10000.
 $$
 
-$\blacksquare$
+Hence this testing method reduces the number of tests.
 
-(4) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2\times 0.7=14.5$, so $a_1=13.1$.
-
-$32=13.1+\left(n-1\right)\times 0.7$, so $n-1=27$ and $n=28$.
-
-By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+(2) Let the probability that a person carries the virus be $p=0.02$, with a group of $k$ people. The probability that the mixed sample tests negative is $\left(1-p\right)^k=0.98^k$, in which case the group is tested once; if positive, the group is tested $1+k$ times. By **Definition 7.3.1 (Mean or Mathematical Expectation)**, the average number of tests per group is
 
 $$
-S_{28}=\frac{28\times\left(13.1+32\right)}{2}=14\times 45.1=631.4.
+E_k=1\times 0.98^k+\left(1+k\right)\times\left(1-0.98^k\right)=1+k\left(1-0.98^k\right).
 $$
 
-$\blacksquare$
-
-(Exercise 4.2, Problem 2) For the arithmetic sequence $-1,-3,-5,\cdots$, how many terms must be summed to give $-100$?
-
-### Solution to Exercise 3
-
-By **Definition 4.2.1 (Arithmetic Sequence)**, $a_1=-1$ and $d=-2$.
-
-By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+The average number of tests per person is
 
 $$
-S_n=-n+\frac{n\left(n-1\right)}{2}\times\left(-2\right)=-n-n\left(n-1\right)=-n^2.
+\frac{E_k}{k}=\frac{1}{k}+1-0.98^k.
 $$
 
-Setting $-n^2=-100$ gives $n=10$. The sum of the first $10$ terms is $-100$.
+Compute the value of this expression for $k=1,2,\cdots,10$: at $k=7$ it is about 0.2748, at $k=8$ about 0.2743, at $k=9$ about 0.2774, and the per-person number of tests for the other $k$ is larger. Hence the average number of tests is minimized when $k=8$. $\blacksquare$
 
-$\blacksquare$
+## Problem 7
 
-(Exercise 4.2, Problem 3) In an arithmetic sequence $\left\{a_n\right\}$, let $S_n$ be the sum of its first $n$ terms. Given $S_4=6$ and $S_8=20$, find $S_{16}$
+(Review Reference Exercise 7, Extension and Exploration, Problem 12) In a city-wide unified high-school mathematics exam, suppose the scores follow a normal distribution $N\left(75,8^2\right)$. If the scores are divided into four grades $A$, $B$, $C$, $D$ in the proportions $16\%$, $34\%$, $34\%$, $16\%$, determine the cutoff score for each grade (accurate to 1).
 
-### Solution to Exercise 3
+### Solution to Problem 7
 
-By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+By **Definition 7.5.2 (Normal Distribution)**, let the score be $X$; then $X\sim N\left(75,8^2\right)$, i.e. $\mu=75$, $\sigma=8$.
 
-$$
-S_4=4a_1+6d=6,\ S_8=8a_1+28d=20.
-$$
+By **Conclusion 7.5.4** ($3\sigma$ Rule), $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$, i.e. the proportion of scores falling in the interval $\left[75-8,75+8\right]=\left[67,83\right]$ is about $68.27\%$, close to the $34\%+34\%=68\%$ given in the problem; the proportion of scores below $\mu-\sigma=67$ is about $15.87\%$, and above $\mu+\sigma=83$ is about $15.87\%$, both close to the $16\%$ given in the problem.
 
-Solving gives $a_1=\frac{3}{4}$ and $d=\frac{1}{2}$.
+Accordingly, set the four grades:
 
-$$
-S_{16}=16\times\frac{3}{4}+\frac{16\times 15}{2}\times\frac{1}{2}=12+60=72.
-$$
+(1) Grade $D$ is the lowest $16\%$, i.e. $X< 67$;
 
-$\blacksquare$
+(2) Grade $C$ is the next $34\%$, i.e. $67\le X< 75$;
 
-(Exercise 4.2, Problem 4) In an arithmetic sequence $\left\{a_n\right\}$, if $S_{15}=5\left(a_2+a_6+a_k\right)$, find $k$
+(3) Grade $B$ is the next $34\%$, i.e. $75\le X< 83$;
 
-### Solution to Exercise 3
+(4) Grade $A$ is the highest $16\%$, i.e. $X\ge 83$.
 
-By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, $S_{15}=\frac{15\left(a_1+a_{15}\right)}{2}$.
+Hence the cutoff scores for each grade (accurate to 1) are: Grade $A$ 83 points, Grade $B$ 75 points, Grade $C$ 67 points. $\blacksquare$
 
-By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_1+a_{15}=2a_8$, hence $S_{15}=15a_8$.
+## Problem 8
 
-From $S_{15}=5\left(a_2+a_6+a_k\right)$, we get $3a_8=a_2+a_6+a_k$.
+(Review Reference Exercise 8, Review and Consolidation, Problem 1) The scatter plot of the paired sample data of the variables $x$ and $y$ is shown in the following figure; from this one can infer that between the variables $x$ and $y$ ( ).
 
-By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_2+a_6=2a_4$, hence $3a_8=2a_4+a_k$.
+(The scatter plot has $5$ points distributed roughly along a straight line from the lower left to the upper right.)
 
-Also, $a_8=a_4+4d$, so $3a_4+12d=2a_4+a_k$, and $a_k=a_4+12d=a_{16}$.
+($\mathrm A$) there is very likely a negative correlation
 
-Hence $k=16$.
+($\mathrm B$) there must be a positive correlation
 
-$\blacksquare$
+($\mathrm C$) there is very likely a positive correlation
 
-(Exercise 4.2, Problem 5) Given that an arithmetic sequence has an odd number of terms, the sum of its odd-positioned terms is $44$ and the sum of its even-positioned terms is $33$. Find the middle term and the number of terms
+($\mathrm D$) there is definitely no negative correlation
 
-### Solution to Exercise 3
+The figure is a scatter plot of paired sample data for variables $x$ and $y$: there are $5$ points, distributed roughly along a line from lower left to upper right.
 
-Let the number of terms be $2n+1$. By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, the sum of the odd-positioned terms is $\left(n+1\right)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
+### Solution to Problem 8
 
-$$
-\left(n+1\right)a_{n+1}=44,\ na_{n+1}=33.
-$$
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
 
-Dividing the two equations, $\frac{n+1}{n}=\frac{44}{33}=\frac{4}{3}$, gives $n=3$.
+From the scatter plot, the $5$ points are distributed roughly along a straight line from the lower left to the upper right, and as $x$ increases, $y$ shows an increasing trend.
 
-The middle term is $a_{n+1}=a_4=\frac{33}{3}=11$, and the number of terms is $2\times 3+1=7$.
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), the distribution of the points from lower left to upper right indicates that there is very likely a positive correlation between the variables $x$ and $y$. But because the sample size is very small and a sample is only part of the population, one cannot conclude that a positive correlation "definitely" exists.
 
-$\blacksquare$
+Therefore choose ($\mathrm C$). $\blacksquare$
 
-## Exercise 4
+## Problem 9
 
-(Exercise 4.2, Problem 1) A department store's grand New Year promotional prize offers two winning options: the first option is "100 yuan awarded every day for 10 consecutive days"; the second option is "1 yuan on the 1st day, 2 yuan on the 2nd day, 4 yuan on the 3rd day, ..., each day being twice the previous one, for 20 consecutive days". If you were the winner, which option would you choose?
-
-### Solution to Exercise 4
-
-The total amount for the first option is $100\times 10=1000$ yuan.
-
-The second option is a geometric series sum with first term $1$ and common ratio $2$; the total amount over $20$ days is $2^{20}-1=1048575$ yuan.
-
-Since $1048575> 1000$, choose the second option.
-
-$\blacksquare$
-
-(Exercise 4.2, Problem 2) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n=\frac{1}{4}n^2+\frac{2}{3}n+3$, find the general term formula of $\left\{a_n\right\}$
-
-### Solution to Exercise 4
-
-By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=S_1=\frac{1}{4}+\frac{2}{3}+3=\frac{47}{12}$.
-
-When $n\ge 2$,
+(Review Reference Exercise 8, Review and Consolidation, Problem 2) From the paired sample data of the variables $Y$ and $x$, the simple linear regression model
 
 $$
-a_n=S_n-S_{n-1}=\left(\frac{1}{4}n^2+\frac{2}{3}n+3\right)-\left[\frac{1}{4}\left(n-1\right)^2+\frac{2}{3}\left(n-1\right)+3\right]=\frac{1}{4}\left(2n-1\right)+\frac{2}{3}=\frac{n}{2}+\frac{5}{12}.
+\begin{cases}Y=bx+a+e,\\ E\left(e\right)=0,\ D\left(e\right)=\sigma^2\end{cases}
 $$
 
-Checking at $n=1$, $\frac{1}{2}+\frac{5}{12}=\frac{11}{12}\ne\frac{47}{12}$, so the general term formula is
+gives the empirical regression model $\widehat y=\widehat b x+\widehat a$, with the corresponding residuals shown in the figure. The model error ( ).
+
+(In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, but the width of the band clearly widens as $x$ increases.)
+
+($\mathrm A$) satisfies all the assumptions of the simple linear regression model
+
+($\mathrm B$) does not satisfy the assumption $E\left(e\right)=0$ of the simple linear regression model
+
+($\mathrm C$) does not satisfy the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
+
+($\mathrm D$) satisfies neither the assumption $E\left(e\right)=0$ nor the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
+
+The figure is the residual plot corresponding to the fitted regression model $\widehat y=\widehat b x+\widehat a$: horizontal axis $x$, vertical axis the residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$, but the band widens noticeably as $x$ increases.
+
+### Solution to Problem 9
+
+By **Definition 8.2.5 (Residual)** and **Definition 8.2.1 (Simple Linear Regression Model)**.
+
+By **Definition 8.2.5 (Residual)**, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, indicating that the mean of the residuals is $0$, i.e. the assumption $E\left(e\right)=0$ is basically satisfied.
+
+But the width of the band clearly widens as $x$ increases, indicating that the variance of the residuals varies with $x$ rather than being a constant, i.e. the variance of the random error is not constant, so the assumption $D\left(e\right)=\sigma^2$ is not satisfied.
+
+Therefore choose ($\mathrm C$). $\blacksquare$
+
+## Problem 10
+
+(Review Reference Exercise 8, Review and Consolidation, Problem 3) From the paired sample data of the categorical variables $x$ and $y$, the computed value is $\chi^2=2.974$. By the independence test at $\alpha=0.05$, the conclusion is ( ).
+
+($\mathrm A$) the variables $x$ and $y$ are not independent
+
+($\mathrm B$) the variables $x$ and $y$ are not independent, and the probability that this conclusion is wrong does not exceed $0.05$
+
+($\mathrm C$) the variables $x$ and $y$ are independent
+
+($\mathrm D$) the variables $x$ and $y$ are independent, and the probability that this conclusion is wrong does not exceed $0.05$
+
+### Solution to Problem 10
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules of the Independence Test).
+
+By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$.
+
+Because
 
 $$
-a_n=\begin{cases}\frac{47}{12}, & n=1,\\ \frac{n}{2}+\frac{5}{12}, & n\ge 2.\end{cases}
+\chi^2=2.974< 3.841,
 $$
 
-$\blacksquare$
+there is insufficient evidence to infer that the null hypothesis $H_0$ does not hold, i.e. the variables $x$ and $y$ may be considered independent.
 
-(Exercise 4.2, Problem 3) Given that the sum of the first $n$ terms of the arithmetic sequence $-4.2,-3.7,-3.2,\cdots$ is $S_n$, find the minimum value of $S_n$ and the corresponding value of $n$
+By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\chi^2< x_\alpha$, there is only insufficient evidence to reject $H_0$, which does not mean there is sufficient certainty that $H_0$ holds; hence one cannot say "the probability that this conclusion is wrong does not exceed $0.05$".
 
-### Solution to Exercise 4
+Therefore choose ($\mathrm C$). $\blacksquare$
 
-By **Definition 4.2.1 (Arithmetic Sequence)**, $a_1=-4.2$ and $d=0.5$.
+## Problem 11
 
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=-4.2+\left(n-1\right)\times 0.5=0.5n-4.7$.
+(Review Reference Exercise 8, Review and Consolidation, Problem 4) In Example $4$ of Section $8.3$, it is inferred that smoking is associated with lung cancer; can a simple linear regression model be used to establish the relationship between them? Why?
 
-Setting $a_n\le 0$ gives $n\le 9.4$, i.e. the first $9$ terms are negative and the $10$th term is positive.
+### Solution to Problem 11
 
-By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+By **Definition 8.2.1 (Simple Linear Regression Model)** and **Definition 8.3.1 (Categorical Variable)**.
 
-$$
-S_9=9\times\left(-4.2\right)+\frac{9\times 8}{2}\times 0.5=-37.8+18=-19.8.
-$$
+No.
 
-The minimum value of $S_n$ is $-19.8$, corresponding to $n=9$.
+By **Definition 8.2.1 (Simple Linear Regression Model)**, the simple linear regression model applies to the case where both the explanatory variable and the response variable are numerical variables; it describes the linear dependence between two numerical variables.
 
-$\blacksquare$
+But by **Definition 8.3.1 (Categorical Variable)**, whether one smokes and whether one has lung cancer are both categorical variables; their values are categories such as "smokes, does not smoke" and "has lung cancer, does not have lung cancer", not numerical quantities on which addition, subtraction, multiplication, and division can be performed. By **Common Conclusion 8.3.5** (Rules of the Independence Test), the association between two categorical variables should be studied by an independence test, and a simple linear regression model cannot be used to establish the relationship between them. $\blacksquare$
 
-(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m< 60\right\}$, and find the sum of these elements
+## Problem 12
 
-### Solution to Exercise 4
+(Review Reference Exercise 8, Comprehensive Application, Problem 5) Based on the data in Example $3$ of Section $8.1.2$, build an empirical regression model of arm span on height, draw a residual plot, and describe the features of the residual plot.
 
-From $m=2n-1< 60$, we get $n< 30.5$, so $n=1,2,\cdots,30$, giving $30$ elements in total.
+The figure is the residual plot for the regression of arm span on height: horizontal axis height, vertical axis residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$ of nearly constant width, with no obvious curved trend.
 
-These elements are $1,3,5,\cdots,59$, forming an arithmetic sequence with first term $1$, last term $59$, and common difference $2$.
+### Solution to Problem 12
 
-By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition 8.2.4 (Empirical Regression Equation)** and **Definition 8.2.5 (Residual)**.
 
-$$
-S_{30}=\frac{30\times\left(1+59\right)}{2}=900.
-$$
-
-$\blacksquare$
-
-(Exercise 4.2, Problem 5) Given that the general term of a sequence $\left\{a_n\right\}$ is $a_n=\frac{n-2}{2n-15}$, find the value of $n$ at which $S_n$ attains its minimum
-
-### Solution to Exercise 4
-
-From $a_n=\frac{n-2}{2n-15}$, setting $a_n=0$ gives $n=2$.
-
-When $n< 2$, $a_1=\frac{-1}{-13}> 0$; when $n=2$, $a_2=0$; when $7.5> n> 2$, $a_n< 0$; when $n> 8$, $a_n> 0$.
-
-The sum $S_n$ of the first $n$ terms attains its minimum when the terms change from negative to positive, i.e. $S_8$ is minimal at $n=8$.
-
-$\blacksquare$
-
-## Problem 1
-
-(Exercise 4.2, Review and Consolidation, Problem 1) In an arithmetic sequence $\left\{a_n\right\}$
-
-(1) Given $d=3$, $a_n=21$, $S_n=60$, find $a_1$ and $n$;
-
-(2) Given $a_1=6$, $d=-2$, $S_n=-60$, find $n$ and $a_n$;
-
-(3) Given $a_1=8$, $a_n=-2$, $S_n=-30$, find $n$ and $d$;
-
-(4) Given $a_n=-0.6$, $n=7$, $S_n=-3.5$, find $a_1$ and $d$.
-
-### Solution to Problem 1
-
-(1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)** and **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+From the height and arm-span data of $25$ female college students in Example $3$, computing gives
 
 $$
-a_1+3\left(n-1\right)=21,\ na_1+\frac{3n\left(n-1\right)}{2}=60.
+\overline x\approx 174.32,\quad \overline y\approx 170.68.
 $$
 
-From the first equation, $a_1=24-3n$; substituting into the second gives $n\left(24-3n\right)+\frac{3n\left(n-1\right)}{2}=60$, and solving yields $n=5$, $a_1=9$.
-
-$\blacksquare$
-
-(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-6n-n\left(n-1\right)=-60,\ n^2-7n-60=0,\ n=12.
+\widehat b=\frac{\sum_{i=1}^{25}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{25}\left(x_i-\overline x\right)^2}\approx 0.965,
 $$
 
 $$
-a_{12}=6+11\times\left(-2\right)=-16.
+\widehat a=\overline y-\widehat b\overline x\approx 0.84.
 $$
 
-$\blacksquare$
-
-(3) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+Hence by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of arm span on height is
 
 $$
-\frac{n\left(8-2\right)}{2}=-30,\ 3n=-30,\ n=-10.
+\widehat y=0.965x+0.84.
 $$
 
-This does not fit the problem; check: $\frac{n\left(8+\left(-2\right)\right)}{2}=-30$, $3n=-30$, $n=-10$, which is unreasonable. Recalculating: $S_n=\frac{n\left(a_1+a_n\right)}{2}=\frac{n\left(8-2\right)}{2}=3n=-30$, giving $n=-10$, with no positive integer solution.
+By **Definition 8.2.5 (Residual)**, compute the residual $e_i=y_i-\widehat y_i$ for each point, and plot the residual plot with height as the horizontal axis and residual as the vertical axis. In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, the width of the band is basically constant, and there is no obvious curved trend.
 
-$\blacksquare$
+This indicates that the chosen simple linear regression model fits the data well, and the error variance of the model is basically constant. $\blacksquare$
 
-(4) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
+## Problem 13
 
-$$
-\frac{7\left(a_1-0.6\right)}{2}=-3.5,\ a_1-0.6=-1,\ a_1=-0.4.
-$$
+(Review Reference Exercise 8, Comprehensive Application, Problem 6) The following table gives the men's triple-jump Olympic champion results from $1896$ to $2021$. Please analyze this data; can a simple linear regression model describe this data?
 
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $-0.6=-0.4+6d$, so $d=-\frac{0.2}{6}=-\frac{1}{30}$.
+| Year | Result/$\mathrm m$ | Year | Result/$\mathrm m$ | Year | Result/$\mathrm m$ | Year | Result/$\mathrm m$ |
+|---|---|---|---|---|---|---|---|
+| $1896$ | $13.71$ | $1932$ | $15.72$ | $1972$ | $17.35$ | $2004$ | $17.79$ |
+| $1900$ | $14.47$ | $1936$ | $16.00$ | $1976$ | $17.29$ | $2008$ | $17.67$ |
+| $1904$ | $14.35$ | $1948$ | $15.40$ | $1980$ | $17.35$ | $2012$ | $17.81$ |
+| $1908$ | $14.92$ | $1952$ | $16.22$ | $1984$ | $17.25$ | $2016$ | $17.86$ |
+| $1912$ | $14.64$ | $1956$ | $16.35$ | $1988$ | $17.61$ | $2021$ | $17.98$ |
+| $1920$ | $14.50$ | $1960$ | $16.81$ | $1992$ | $18.17$ | | |
+| $1924$ | $15.53$ | $1964$ | $16.85$ | $1996$ | $18.09$ | | |
+| $1928$ | $15.21$ | $1968$ | $17.39$ | $2000$ | $17.71$ | | |
 
-$\blacksquare$
+### Solution to Problem 13
 
-(Exercise 4.2, Review and Consolidation, Problem 2) In an arithmetic sequence $\left\{a_n\right\}$, given $a_1+a_3+a_5=105$ and $a_2+a_4+a_6=99$, find $a_{20}$
+By **Definition 8.2.4 (Empirical Regression Equation)** and **Definition 8.2.5 (Residual)**.
 
-### Solution to Problem 1
+Plot a scatter plot with year as the horizontal axis and champion result as the vertical axis. From the data, from $1896$ to about $1968$, the champion result improved steadily as the year increased, with the points roughly along an upward straight line; but after $1968$, the champion result fluctuated between $17.3\,\mathrm m$ and $18.2\,\mathrm m$, with no further obvious upward trend.
 
-By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, $a_1+a_3+a_5=3a_3=105$, so $a_3=35$.
+By **Definition 8.2.4 (Empirical Regression Equation)**, if one forcibly fits all the data with a simple linear regression model, then by **Definition 8.2.5 (Residual)** the residual plot would show an obvious curved trend — first positive, then negative, then fluctuating — rather than being uniformly distributed in a horizontal band centered at $0$.
 
-$a_2+a_4+a_6=3a_4=99$, so $a_4=33$.
+This indicates that the change of the result with the year is not a simple linear relationship: the result improved quickly in the early period and tends to saturate in the later period. Therefore, a single uniform simple linear regression model is not appropriate for describing this data; if a model is desired, piecewise regression or curve regression may be considered. $\blacksquare$
 
-Hence $d=a_4-a_3=-2$.
+## Problem 14
 
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_{20}=a_3+17d=35-34=1$.
+(Review Reference Exercise 8, Comprehensive Application, Problem 7) The groove depth of a car tire is a factor affecting braking, and driving wears the tire tread. A laboratory experimentally measured the data on mileage and the groove depth of a certain brand of tire, as shown in the following table. Based on the data, establish the relationship between the tire groove depth and the car's mileage, and explain the meaning of the model.
 
-$\blacksquare$
+| Mileage / 1000 $\mathrm{km}$ | $0.00$ | $0.64$ | $1.29$ | $1.93$ | $2.57$ | $3.22$ | $3.86$ | $4.51$ | $5.15$ |
+|---|---|---|---|---|---|---|---|---|---|
+| Groove depth / $\mathrm{mm}$ | $10.02$ | $8.37$ | $7.39$ | $6.48$ | $5.82$ | $5.20$ | $4.55$ | $4.16$ | $3.82$ |
 
-(Exercise 4.2, Review and Consolidation, Problem 3) Find the sum of each of the following
+### Solution to Problem 14
 
-(1) $1+3+5+\cdots+\left(2n-1\right)$;
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4 (Empirical Regression Equation)**.
 
-(2) $2+4+6+\cdots+2n$;
+Plot a scatter plot with mileage as the horizontal axis and groove depth as the vertical axis; the points are distributed roughly along a straight line from the upper left to the lower right.
 
-(3) $1+4+7+\cdots+\left(3n-2\right)$;
-
-(4) $\frac{1}{n}+\frac{2}{n}+\cdots+\frac{n}{n}$.
-
-### Solution to Problem 1
-
-(1) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, the first term is $1$ and the last term is $2n-1$,
-
-$$
-S_n=\frac{n\left(1+2n-1\right)}{2}=n^2.
-$$
-
-$\blacksquare$
-
-(2) The first term is $2$ and the last term is $2n$,
+From the data, $\overline x\approx 2.574$, $\overline y\approx 6.19$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-S_n=\frac{n\left(2+2n\right)}{2}=n\left(n+1\right).
-$$
-
-$\blacksquare$
-
-(3) The first term is $1$ and the last term is $3n-2$,
-
-$$
-S_n=\frac{n\left(1+3n-2\right)}{2}=\frac{n\left(3n-1\right)}{2}.
-$$
-
-$\blacksquare$
-
-(4) The first term is $\frac{1}{n}$ and the last term is $1$,
-
-$$
-S_n=\frac{n\left(\frac{1}{n}+1\right)}{2}=\frac{n+1}{2}.
-$$
-
-$\blacksquare$
-
-(Exercise 4.2, Review and Consolidation, Problem 4) The earliest recorded sighting of Halley's Comet was in $613$ BC, and it reappears every $76$ years. Given that $1986$ was a year when Halley's Comet appeared, the years in which it appears from $1986$ onward form an arithmetic sequence. How many times does Halley's Comet appear from $1986$ to the year $3000$?
-
-### Solution to Problem 1
-
-By **Definition 4.2.1 (Arithmetic Sequence)**, the first term is $1986$ and the common difference is $76$.
-
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=1986+76\left(n-1\right)\le 3000$.
-
-$$
-76\left(n-1\right)\le 1014,\ n-1\le 13.34,\ n\le 14.34.
-$$
-
-Hence it appears $14$ times in total.
-
-$\blacksquare$
-
-(Exercise 4.2, Comprehensive Application, Problem 5) The perimeter of a polygon is $158\ \mathrm{cm}$, the lengths of its sides form an arithmetic sequence, the longest side is $44\ \mathrm{cm}$, and the common difference is $3\ \mathrm{cm}$. Find the number of sides of the polygon
-
-### Solution to Problem 1
-
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the number of sides be $n$, the longest side be $a_n=44$, and $d=3$.
-
-By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
-
-$$
-S_n=\frac{n\left(a_1+44\right)}{2}=158.
-$$
-
-Also, $a_1=44-3\left(n-1\right)$; substituting,
-
-$$
-\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\ n\left(91-3n\right)=316,\ 3n^2-91n+316=0.
-$$
-
-Solving gives $n=4$ or $n=\frac{79}{3}$ (discarded), so the number of sides is $4$.
-
-$\blacksquare$
-
-(Exercise 4.2, Comprehensive Application, Problem 6) The sums of the first $n$ terms of two arithmetic sequences $\left\{a_n\right\},\left\{b_n\right\}$ are $S_n,T_n$ respectively, and $\frac{S_n}{T_n}=\frac{2n+3}{n-1}$. Find $\frac{a_5}{b_5}$
-
-### Solution to Problem 1
-
-By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, $a_5=\frac{a_1+a_9}{2}$ and $b_5=\frac{b_1+b_9}{2}$.
-
-$$
-\frac{a_5}{b_5}=\frac{\frac{9\left(a_1+a_9\right)}{2}}{\frac{9\left(b_1+b_9\right)}{2}}=\frac{S_9}{T_9}=\frac{2\times 9+3}{9-1}=\frac{21}{8}.
-$$
-
-$\blacksquare$
-
-(Exercise 4.2, Comprehensive Application, Problem 7) Given that the sum of the first $n$ terms of a sequence $\left\{a_n\right\}$ is $S_n$, prove: (1) if $S_n=an^2+bn$, then $\left\{a_n\right\}$ is an arithmetic sequence; (2) if $\left\{a_n\right\}$ is an arithmetic sequence, then $\frac{S_n}{n}$ is an arithmetic sequence
-
-### Solution to Problem 1
-
-(1) By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=a+b$; when $n\ge 2$, $a_n=S_n-S_{n-1}=a\left(2n-1\right)+b=2an-a+b$.
-
-Checking that it also holds at $n=1$, $a_n=2an-a+b$, and $a_{n+1}-a_n=2a$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{a_n\right\}$ is an arithmetic sequence.
-
-$\blacksquare$
-
-(2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $S_n=na_1+\frac{n\left(n-1\right)}{2}d$, hence
-
-$$
-\frac{S_n}{n}=a_1+\frac{\left(n-1\right)d}{2}.
-$$
-
-$\frac{S_{n+1}}{n+1}-\frac{S_n}{n}=\frac{d}{2}$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{\frac{S_n}{n}\right\}$ is an arithmetic sequence.
-
-$\blacksquare$
-
-(Exercise 4.2, Comprehensive Application, Problem 8) Given two arithmetic sequences $2,6,10,\cdots,190$ and $2,8,14,\cdots,200$, arrange the common terms of these two arithmetic sequences in increasing order to form a new sequence. Find the sum of all terms of this new sequence
-
-### Solution to Problem 1
-
-The first sequence has common difference $4$ and the second has common difference $6$; the common terms form an arithmetic sequence with common difference $\mathrm{lcm}\left(4,6\right)=12$.
-
-The first term is $2$ and the last term does not exceed $190$; the general term is $2+12\left(n-1\right)\le 190$, so $n\le 16.67$ and $n=16$, giving the last term $2+12\times 15=182$.
-
-By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
-
-$$
-S_{16}=\frac{16\left(2+182\right)}{2}=1472.
-$$
-
-$\blacksquare$
-
-(Exercise 4.2, Comprehensive Application, Problem 9) A fleet has $6$ vehicles, and $4$ of them are now to be dispatched in a certain order to carry out a task
-
-(1) If at least one of vehicles A and B must be dispatched, and when vehicle A is dispatched it cannot be ranked first, how many different dispatch schemes are there?
-
-(2) If vehicles A and B cannot both be dispatched, how many different dispatch schemes are there?
-
-### Solution to Problem 1
-
-(1) Choosing and arranging $4$ out of $6$ vehicles gives a total of $A_6^4=360$ schemes.
-
-The number of schemes in which neither A nor B is dispatched is $A_4^4=24$.
-
-The number of schemes in which A is dispatched and ranked first is $A_5^3=60$.
-
-Hence the number of schemes satisfying the conditions is $360-24-60=276$.
-
-$\blacksquare$
-
-(2) A dispatched but B not: $A_4^3=24$, with arrangements $A_4^4=24$ (choose first then arrange: select vehicle A and $3$ others from the remaining $4$ vehicles, then arrange them), i.e. $C_4^3 A_4^4=96$.
-
-B dispatched but A not: by the same reasoning, $96$.
-
-Neither A nor B dispatched: $A_4^4=24$.
-
-In total, $96+96+24=216$ schemes.
-
-$\blacksquare$
-
-(Exercise 4.2, Extension and Exploration, Problem 10) Prove that in an arithmetic sequence $\left\{a_n\right\}$, $\frac{a_m-a_n}{m-n}=d$ ($m\ne n$)
-
-### Solution to Problem 1
-
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
-
-$$
-a_m=a_1+\left(m-1\right)d,\ a_n=a_1+\left(n-1\right)d.
+\widehat b=\frac{\sum_{i=1}^{9}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{9}\left(x_i-\overline x\right)^2}\approx -1.149,
 $$
 
 $$
-a_m-a_n=\left(m-n\right)d,\ \frac{a_m-a_n}{m-n}=d.
+\widehat a=\overline y-\widehat b\overline x\approx 9.16.
 $$
 
-$\blacksquare$
-
-(Exercise 4.2, Extension and Exploration, Problem 11) A type of dwarf tiger beetle lays its eggs on the carcass of a dead beetle
-
-(1) If $100$ eggs are laid on the carcass the first time, and each subsequent laying produces $5$ fewer eggs than the previous one, at most how many times can eggs be laid?
-
-(2) If $100$ eggs are laid on the carcass the first time, and each subsequent laying produces $\frac{1}{2}$ of the previous number of eggs, at most how many times can eggs be laid?
-
-### Solution to Problem 1
-
-(1) By **Definition 4.2.1 (Arithmetic Sequence)**, the egg counts are $100,95,90,\cdots$, with common difference $-5$.
-
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=100-5\left(n-1\right)> 0$, so $n-1< 20$ and $n< 21$.
-
-At most $20$ layings: the $20$th laying produces $5$ eggs, and the $21$th would produce $0$ eggs.
-
-$\blacksquare$
-
-(2) By **Definition 4.3.1 (Geometric Sequence)**, the egg counts are $100,50,25,\cdots$, with common ratio $\frac{1}{2}$.
-
-The egg count is always positive and tends to $0$, so in theory eggs can be laid infinitely many times.
-
-$\blacksquare$
-
-(Exercise 4.2, Extension and Exploration, Problem 12) Balls stacked in a triangular pile: the top layer has $1$ ball, and the layers below have $3,6,10,\cdots$ balls respectively
-
-(1) How many balls are there in the fifth layer and the sixth layer?
-
-(2) How many balls are there in total in the first $n$ layers?
-
-### Solution to Problem 1
-
-(1) By **Definition 4.1.5 (General Term Formula)**, the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n\left(n+1\right)}{2}$ balls.
+Hence by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of tire groove depth on mileage is
 
 $$
-\text{第五层}=\frac{5\times 6}{2}=15,\ \text{第六层}=\frac{6\times 7}{2}=21.
+\widehat y=-1.149x+9.16.
 $$
 
-$\blacksquare$
+Meaning of the model: the slope $\widehat b\approx -1.149$ means that for every additional $1$ thousand $\mathrm{km}$ of mileage, the tire groove depth decreases on average by about $1.149\,\mathrm{mm}$; the intercept $\widehat a\approx 9.16\,\mathrm{mm}$ is the estimated groove depth of a new tire. This shows that as the mileage increases, the tire groove depth decreases approximately linearly, and the tread wears continuously. $\blacksquare$
 
-(2) The total number of balls in the first $n$ layers is
+## Problem 15
+
+(Review Reference Exercise 8, Comprehensive Application, Problem 8) To investigate the effectiveness of a certain drug in preventing a disease, an animal experiment was carried out, giving the following contingency table:
+
+|  | Not ill | Ill | Total |
+|---|---|---|---|
+| Did not take the drug | $75$ | $66$ | $141$ |
+| Took the drug | $112$ | $47$ | $159$ |
+| Total | $187$ | $113$ | $300$ |
+
+Can we conclude, at a wrong-decision probability not exceeding $0.05$, that the drug is effective?
+
+### Solution to Problem 15
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Rules of the Independence Test).
+
+The null hypothesis $H_0$ is that taking the drug is independent of whether one is ill, i.e. the drug is ineffective.
+
+By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-S_n=\sum_{k=1}^n\frac{k\left(k+1\right)}{2}=\frac{1}{2}\left(\sum_{k=1}^n k^2+\sum_{k=1}^n k\right)=\frac{1}{2}\left[\frac{n\left(n+1\right)\left(2n+1\right)}{6}+\frac{n\left(n+1\right)}{2}\right]=\frac{n\left(n+1\right)\left(n+2\right)}{6}.
+\chi^2=\frac{300\times\left(75\times 47-66\times 112\right)^2}{141\times 159\times 187\times 113}\approx 9.47.
 $$
 
-$\blacksquare$
+By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
+
+$$
+\chi^2\approx 9.47> 3.841,
+$$
+
+we infer that the null hypothesis does not hold, i.e. at a wrong-decision probability not exceeding $0.05$, the drug may be considered effective. $\blacksquare$
+
+## Problem 16
+
+(Review Reference Exercise 8, Extension and Exploration, Problem 9) From the daily maximum-temperature data, the meteorological department obtained the average high-temperature data in month $1$ and month $7$ of a certain year for $31$ cities in China, as shown in the following table.
+
+| City | month $1$/$\mathrm{^\circ C}$ | month $7$/$\mathrm{^\circ C}$ | City | month $1$/$\mathrm{^\circ C}$ | month $7$/$\mathrm{^\circ C}$ |
+|---|---|---|---|---|---|
+| Beijing | $3$ | $32$ | Hangzhou | $11$ | $36$ |
+| Chengdu | $12$ | $32$ | Hefei | $9$ | $35$ |
+| Chongqing | $12$ | $36$ | Hohhot | $-3$ | $30$ |
+| Fuzhou | $17$ | $36$ | Jinan | $6$ | $33$ |
+| Guangzhou | $21$ | $33$ | Kunming | $17$ | $24$ |
+| Guiyang | $9$ | $28$ | Lhasa | $8$ | $23$ |
+| Harbin | $-11$ | $30$ | Lanzhou | $5$ | $33$ |
+| Haikou | $22$ | $32$ | Nanchang | $13$ | $35$ |
+| Nanjing | $9$ | $35$ | Nanning | $20$ | $33$ |
+| Shanghai | $10$ | $36$ | Shenyang | $-3$ | $31$ |
+| Shijiazhuang | $3$ | $33$ | Taiyuan | $3$ | $32$ |
+| Tianjin | $3$ | $33$ | Urumqi | $-3$ | $32$ |
+| Wuhan | $10$ | $34$ | Xi'an | $8$ | $36$ |
+| Xining | $4$ | $27$ | Yinchuan | $2$ | $32$ |
+| Changchun | $-8$ | $29$ | Changsha | $11$ | $35$ |
+| Zhengzhou | $7$ | $34$ | | | |
+
+(1) Draw a scatter plot; do you think there is a linear trend between the average high temperatures in month $1$ and month $7$? Describe the features of the scatter plot.
+
+(2) Compute the sample correlation coefficient and explain its meaning.
+
+The figure is a scatter plot of the average high temperature in January versus that in July for 31 cities: horizontal axis January average high (in ${^\circ}\mathrm C$), vertical axis July average high (in ${^\circ}\mathrm C$); the points lie roughly in a wide horizontal band with no obvious linear trend.
+
+### Solution to Problem 16
+
+By **Definition 8.1.5 (Sample Correlation Coefficient)** and **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
+
+(1) Plot a scatter plot with the month $1$ average high temperature as the horizontal axis and the month $7$ average high temperature as the vertical axis. In the scatter plot, northern cities (such as Harbin and Changchun) have very low temperatures in month $1$ but high temperatures in month $7$, while southern cities (such as Haikou and Guangzhou) have relatively high temperatures in month $1$ and also relatively high temperatures in month $7$; the points do not show an obvious straight-line trend from lower-left to upper-right or from upper-left to lower-right, but are roughly distributed in a region that is wide in the horizontal direction.
+
+Hence there is no obvious linear trend between the average high temperatures in month $1$ and month $7$.
+
+(2) From the data, the computed sample correlation coefficient is
+
+$$
+r\approx 0.23.
+$$
+
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r\approx 0.23$ is positive but has a very small absolute value, indicating that the linear correlation between the average high temperatures in month $1$ and month $7$ is very weak.
+
+This is because northern cities in China are severely cold in winter and hot in summer, while southern cities are mild in winter and not extremely hot in summer; the temperature in month $1$ mainly reflects a city's north-south latitude position, while the temperature in month $7$ is generally high throughout the country, and there is no simple linear correspondence between the two. $\blacksquare$

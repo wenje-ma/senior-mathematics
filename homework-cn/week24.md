@@ -1,127 +1,416 @@
 # week24
-> **定义 5.7.1 (简谐运动)**
+> **定义 6.1.7 (相等向量)**
 > 
-> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
-> **定义 5.7.2 (振幅, 周期, 频率, 相位)**
+> 长度相等且方向相同的向量叫做相等向量.
+> **定义 6.2.11 (向量的数量积)**
 > 
-> 函数 y = A sin(omega x + phi) 中, A 是振幅, T = 2pi/omega 是周期, f = 1/T 是频率, omega x + phi 是相位, phi 是初相.
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+> **定理 6.3.1 (平面向量基本定理)**
+> 
+> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+> **定理 6.4.2 (余弦定理)**
+> 
+> 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
+> **定理 6.4.3 (正弦定理)**
+> 
+> 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
 
 ## 练习一
 
-(练习 5.7 第 1 题) 某简谐运动的图象如图所示, 试根据图象回答下列问题:
-
-(1) 这个简谐运动的振幅, 周期与频率各是多少?
-
-(2) 写出这个简谐运动的函数解析式.
-
-图:横轴为时间 $t$(单位:s),纵轴为位移 $y$(单位:cm),一条正弦曲线从原点 $\left(0,0\right)$ 出发沿上升方向,振幅为 $3$(最大值 $3$,最小值 $-3$),周期为 $2$ s(相邻两个上升零点分别约在 $t=1.2$ 与 $t=3.2$ 处).
+(练习 6.3 第 8 题) 已知 $\boldsymbol{a}=\left(3,4\right)$, $\boldsymbol{b}=\left(2,-1\right)$, 当 $\boldsymbol{a}+x\boldsymbol{b}$ 与 $\boldsymbol{a}-\boldsymbol{b}$ 垂直时, 求 $x$ 的值.
 
 ### 解答 练习一
 
-由**定义 5.7.1 (简谐运动)** 及**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
+由**常用结论 6.3.8** (垂直的坐标表示).
 
-(1) 由图象知最大值为 $3\text{ cm}$, 最小值为 $-3\text{ cm}$, 故振幅 $A=3$. 由图象知周期 $T=3.2-1.2=2\text{ s}$, 频率 $f=\frac{1}{2}=0.5\text{ Hz}$.
+$\boldsymbol{a}+x\boldsymbol{b}=\left(3+2x,4-x\right)$.
 
-(2) 由 $A=3$, $\omega=\frac{2\pi}{T}=\pi$, 且 $t=0$ 时 $y=0$ 且在上升沿, 得 $\varphi=0$. 故 $y=3\sin\left(\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
+$\boldsymbol{a}-\boldsymbol{b}=\left(1,5\right)$.
+
+两向量垂直: $\left(3+2x\right)\times1+\left(4-x\right)\times5=0$.
+
+$3+2x+20-5x=0$, $23-3x=0$, $x=\frac{23}{3}$. $\blacksquare$
 
 ## 练习二
 
-(练习 5.7 第 2 题) 一根绝对刚性且长度不变, 质量可忽略不计的线, 一端固定, 另一端悬挂一个沙漏. 沙漏摆动时离开平衡位置的位移 $s$ (单位: $\text{cm}$) 与时间 $t$ (单位: $\text{s}$) 的函数关系是 $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in\left[0,+\infty\right)$.
-
-(1) 当 $l=25$ 时, 求该沙漏的最大偏角 (精确到 $0.0001\text{ rad}$);
-
-(2) 已知 $g=9.8\text{ m/s}^{2}$, 要使沙漏摆动的周期是 $1\text{ s}$, 线的长度应当是多少 (精确到 $0.1\text{ cm}$)?
+(练习 6.3 第 9 题) 已知 $\boldsymbol{a}=\left(2,3\right)$, $\boldsymbol{b}=\left(-2,4\right)$, 求 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 夹角 $\theta$ 的余弦值.
 
 ### 解答 练习二
 
-由**定义 5.7.1 (简谐运动)**.
+由**常用结论 6.3.8** (夹角的坐标表示).
 
-(1) 由 $s_{\max}=3\text{ cm}$, 线长 $l=25\text{ cm}$, 得最大偏角 $\theta$ 满足 $l\sin\theta=s_{\max}$, 即 $\sin\theta=\frac{3}{25}=0.12$. 故 $\theta=\arcsin0.12\approx0.1203\text{ rad}$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-2\right)+3\times4=8$.
 
-(2) 由周期 $T=\frac{2\pi}{\sqrt{g/l}}=2\pi\sqrt{\frac{l}{g}}=1$, 得 $l=\frac{g}{4\pi^{2}}=\frac{980}{4\pi^{2}}\approx24.8\text{ cm}$. $\blacksquare$
+$\lvert\boldsymbol{a}\rvert=\sqrt{4+9}=\sqrt{13}$.
 
-## 练习三
+$\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt 5$.
 
-(练习 5.7 第 3 题) 一台发电机产生的电流是正弦式电流, 电压和时间之间的关系如图所示. 由图象说出它的周期, 频率和电压的最大值, 并求出电压 $U$ (单位: $\text{V}$) 关于时间 $t$ (单位: $\text{s}$) 的函数解析式.
-
-图:横轴为时间 $t$(单位:s),纵轴为电压 $U$(单位:V),一条正弦曲线从原点出发沿上升方向,最大值为 $311$ V,最小值为 $-311$ V,周期为 $0.02$ s.
-
-### 解答 练习三
-
-由**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
-
-由图象知电压最大值 $311\text{ V}$, 周期 $0.02\text{ s}$, 频率 $50\text{ Hz}$. 由 $\omega=\frac{2\pi}{0.02}=100\pi$, 初相 $\varphi=0$. 故 $U=311\sin\left(100\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
+$\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
 
 ## 习题一
 
-(习题 5.7 综合运用第 1 题) 天上有些恒星的亮度是会变化的, 其中一种称为造父 (型) 变星. 下图是一造父变星的亮度随时间的周期变化图. 此变星的亮度变化的周期为多少天? 最亮时是几等星? 最暗时是几等星?
+(习题 6.3 复习巩固第 1 题) 如图, 在 $\triangle ABC$ 中, $AD=\frac{1}{3}AB$, $E$ 是 $AC$ 上一点, $EC=\frac{1}{3}AC$, $BE$ 与 $CD$ 交于点 $P$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 试用基底 $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$ 表示 $\boldsymbol{AP}$.
 
-图:横轴为时间(单位:天),纵轴为恒星亮度(星等),一条周期性起伏的曲线在约 $3.5$ 等星(最亮)与约 $4.5$ 等星(最暗)之间波动,周期约为 $5.5$ 天.
+图:三角形 $ABC$,点 $D$ 在边 $AB$ 上且 $AD=\frac{1}{3}AB$,点 $E$ 在边 $AC$ 上且 $EC=\frac{1}{3}AC$(即 $AE=\frac{2}{3}AC$),线段 $BE$ 与 $CD$ 交于点 $P$.
 
 ### 解答 习题一
 
-由**性质 5.7.1** (三角函数模型应用步骤).
+由**定理 6.3.1 (平面向量基本定理)**.
 
-由图象知亮度变化的周期约为 $5.5$ 天. 最亮时约为 $3.5$ 等星, 最暗时约为 $4.5$ 等星. $\blacksquare$
+设 $\boldsymbol{AP}=x\boldsymbol{a}+y\boldsymbol{b}$. 由 $P$ 在 $CD$ 上, $\boldsymbol{AP}=\boldsymbol{AD}+\boldsymbol{DP}=\frac{1}{3}\boldsymbol{a}+\lambda\left(\boldsymbol{b}-\frac{1}{3}\boldsymbol{a}\right)=\left(\frac{1}{3}-\frac{\lambda}{3}\right)\boldsymbol{a}+\lambda\boldsymbol{b}$.
+
+由 $P$ 在 $BE$ 上, $\boldsymbol{AE}=\frac{2}{3}\boldsymbol{b}$, $\boldsymbol{AP}=\boldsymbol{AB}+\boldsymbol{BP}=\boldsymbol{a}+\mu\left(\frac{2}{3}\boldsymbol{b}-\boldsymbol{a}\right)=\left(1-\mu\right)\boldsymbol{a}+\frac{2\mu}{3}\boldsymbol{b}$.
+
+比较系数: $\frac{1}{3}-\frac{\lambda}{3}=1-\mu$, $\lambda=\frac{2\mu}{3}$.
+
+解得 $\mu=\frac{2}{9}$, $\lambda=\frac{4}{27}$.
+
+$\boldsymbol{AP}=\frac{7}{27}\boldsymbol{a}+\frac{4}{27}\boldsymbol{b}$. $\blacksquare$
 
 ## 习题二
 
-(习题 5.7 综合运用第 2 题) 弹簧挂着的小球做上下运动, 它在 $t\text{ s}$ 时相对于平衡位置的高度 $h$ (单位: $\text{cm}$) 由关系式 $h=2\sin\left(t+\frac{\pi}{4}\right)$ 确定.
-
-(1) 小球在开始振动 (即 $t=0$) 时的位置在哪里?
-
-(2) 小球的最高点和最低点与平衡位置的距离分别是多少?
-
-(3) 经过多少时间小球往复运动一次?
-
-(4) 每秒钟小球能往复振动多少次?
+(习题 6.3 复习巩固第 2 题) 已知三个力 $\boldsymbol{f}_1=\left(3,4\right)$, $\boldsymbol{f}_2=\left(2,-5\right)$, $\boldsymbol{f}_3=\left(x,y\right)$ 的合力 $\boldsymbol{f}_1+\boldsymbol{f}_2+\boldsymbol{f}_3=\boldsymbol{0}$, 求 $\boldsymbol{f}_3$.
 
 ### 解答 习题二
 
-由**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
+由**常用结论 6.3.4** (坐标运算).
 
-(1) 由 $t=0$, $h=2\sin\frac{\pi}{4}=\sqrt{2}\text{ cm}$, 即小球在平衡位置上方 $\sqrt{2}\text{ cm}$ 处.
-
-(2) 由振幅 $A=2$, 最高点和最低点与平衡位置的距离均为 $2\text{ cm}$.
-
-(3) 由 $\omega=1$, 周期 $T=2\pi\text{ s}$, 即经过 $2\pi\text{ s}$ 往复运动一次.
-
-(4) 由频率 $f=\frac{1}{2\pi}\approx0.159$, 每秒钟往复振动 $\frac{1}{2\pi}$ 次. $\blacksquare$
+$\boldsymbol{f}_3=-\boldsymbol{f}_1-\boldsymbol{f}_2=-\left(3,4\right)-\left(2,-5\right)=\left(-5,1\right)$. $\blacksquare$
 
 ## 习题三
 
-(习题 5.7 拓广探索第 3 题) 北京天安门广场的国旗每天是在日出时随太阳升起, 在日落时降旗. 请根据年鉴或其他参考资料, 统计过去一年不同日期的日出和日落时间.
-
-(1) 在同一直角坐标系中, 以日期为横轴, 画出散点图, 并用曲线去拟合这些数据, 同时找到函数模型;
-
-(2) 某同学准备在五一长假时去看升旗, 他应当在几点前到达天安门广场?
-
-图:横轴为日期(一年中不同日期),纵轴为时间,画出日出时间与日落时间两组散点,并用近似正弦曲线拟合;两条曲线均呈一年(约 $365$ 天)的周期性变化,日出时间与日落时间之间为白昼时长.
+(习题 6.3 复习巩固第 3 题) 已知点 $A\left(-2,5\right)$, $B\left(3,-4\right)$, $C\left(-1,1\right)$, 求 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{AC}$ 的坐标, 并验证 $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
 
 ### 解答 习题三
 
-由**性质 5.7.1** (三角函数模型应用步骤).
+由**常用结论 6.3.4** (坐标运算).
 
-(1) 日出时间和日落时间随日期呈周期性变化, 可近似用 $y=A\sin\left(\omega t+\varphi\right)+b$ 拟合, 周期为一年 (约 $365$ 天).
+$\boldsymbol{AB}=\left(3-\left(-2\right),-4-5\right)=\left(5,-9\right)$.
 
-(2) 五一 (5月1日) 北京日出时间约为 $5$ 时 $15$ 分左右, 故应在 $5$ 时前到达天安门广场. $\blacksquare$
+$\boldsymbol{BC}=\left(-1-3,1-\left(-4\right)\right)=\left(-4,5\right)$.
+
+$\boldsymbol{AC}=\left(-1-\left(-2\right),1-5\right)=\left(1,-4\right)$.
+
+$\boldsymbol{AB}+\boldsymbol{BC}=\left(5-4,-9+5\right)=\left(1,-4\right)=\boldsymbol{AC}$. $\blacksquare$
 
 ## 习题四
 
-(习题 5.7 拓广探索第 4 题) 夏天是用电的高峰时期, 每天的用电也出现周期性的变化. 请调查你们地区每天的用电情况, 制定一项 "削峰平谷" 的电价方案.
+(习题 6.3 复习巩固第 4 题) 已知 $\boldsymbol{a}=\left(1,2\right)$, $\boldsymbol{b}=\left(-3,2\right)$, 当实数 $k$ 为何值时, $k\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}-3\boldsymbol{b}$ 平行? 平行时它们是同向还是反向?
 
 ### 解答 习题四
 
-由**性质 5.7.1** (三角函数模型应用步骤).
+由**常用结论 6.3.5** (共线的坐标表示).
 
-由调查用电曲线呈周期性变化, 晚高峰 ($18:00$-$22:00$) 电价上浮, 后半夜 ($0:00$-$6:00$) 电价下浮, 以引导用户在低峰时段用电. $\blacksquare$
+$k\boldsymbol{a}+\boldsymbol{b}=k\left(1,2\right)+\left(-3,2\right)=\left(k-3,2k+2\right)$.
 
-### 阅读与思考一
+$\boldsymbol{a}-3\boldsymbol{b}=\left(1,2\right)-3\left(-3,2\right)=\left(10,-4\right)$.
 
-(思考 1) 阅读 "振幅, 周期, 频率, 相位" 一文, 说明声音的数学模型.
+平行条件: $\left(k-3\right)\times\left(-4\right)-10\times\left(2k+2\right)=0$.
 
-### 解答 阅读与思考一
+$-4k+12-20k-20=0$, $-24k-8=0$, $k=-\frac{1}{3}$.
 
-由**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
+此时 $k\boldsymbol{a}+\boldsymbol{b}=\left(-\frac{10}{3},\frac{4}{3}\right)=-\frac{1}{3}\left(10,-4\right)=-\frac{1}{3}\left(\boldsymbol{a}-3\boldsymbol{b}\right)$, 两向量反向. $\blacksquare$
 
-纯音的数学模型是 $y=A\sin\omega t$. 响度与振幅 $A$ 有关, 音调与频率 $\frac{\omega}{2\pi}$ 有关. 复合音由基音和谐音组成, 声音的函数为 $y=\sin x+\frac{1}{2}\sin2x+\frac{1}{3}\sin3x+\frac{1}{4}\sin4x+\cdots$. 音色由基音和谐音的综合作用决定. $\blacksquare$
+## 习题五
+
+(习题 6.3 复习巩固第 5 题) 求与向量 $\boldsymbol{a}=\left(12,5\right)$ 方向相同的单位向量.
+
+### 解答 习题五
+
+由**常用结论 6.3.8** (模的坐标表示).
+
+$\lvert\boldsymbol{a}\rvert=\sqrt{144+25}=13$. 所求单位向量为 $\frac{\boldsymbol{a}}{\lvert\boldsymbol{a}\rvert}=\left(\frac{12}{13},\frac{5}{13}\right)$. $\blacksquare$
+
+## 习题六
+
+(习题 6.3 复习巩固第 6 题) 已知 $\boldsymbol{a}=\left(3,-1\right)$, $\boldsymbol{b}=\left(1,-2\right)$, 求 $\boldsymbol{a}\cdot\boldsymbol{b}$, $\lvert\boldsymbol{a}\rvert$, $\lvert\boldsymbol{b}\rvert$, $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle$.
+
+### 解答 习题六
+
+由**常用结论 6.3.7** 与**常用结论 6.3.8**.
+
+$\boldsymbol{a}\cdot\boldsymbol{b}=3\times1+\left(-1\right)\times\left(-2\right)=5$.
+
+$\lvert\boldsymbol{a}\rvert=\sqrt{9+1}=\sqrt{10}$.
+
+$\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt 5$.
+
+$\cos\theta=\frac{5}{\sqrt{10}\sqrt 5}=\frac{5}{\sqrt{50}}=\frac{\sqrt 2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
+
+## 习题七
+
+(习题 6.3 复习巩固第 7 题) 已知 $\boldsymbol{a}=\left(-3,2\right)$, $\boldsymbol{b}=\left(-1,0\right)$, 求实数 $\lambda$ 使 $\left(\lambda\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-2\boldsymbol{b}\right)$.
+
+### 解答 习题七
+
+由**常用结论 6.3.8** (垂直的坐标表示).
+
+$\lambda\boldsymbol{a}+\boldsymbol{b}=\lambda\left(-3,2\right)+\left(-1,0\right)=\left(-3\lambda-1,2\lambda\right)$.
+
+$\boldsymbol{a}-2\boldsymbol{b}=\left(-3,2\right)-2\left(-1,0\right)=\left(-1,2\right)$.
+
+垂直: $\left(-3\lambda-1\right)\times\left(-1\right)+2\lambda\times2=0$.
+
+$3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
+
+## 习题八
+
+(习题 6.3 复习巩固第 8 题) 已知点 $A\left(1,0\right)$, $B\left(0,1\right)$, $C\left(2,5\right)$, 求:
+
+(1) $\boldsymbol{AB}+\boldsymbol{AC}$ 的坐标;
+
+(2) $\boldsymbol{AB}\cdot\boldsymbol{AC}$;
+
+(3) $\cos\angle BAC$.
+
+### 解答 习题八
+
+由**常用结论 6.3.7** 与**常用结论 6.3.8**.
+
+(1) $\boldsymbol{AB}=\left(-1,1\right)$, $\boldsymbol{AC}=\left(1,5\right)$. $\boldsymbol{AB}+\boldsymbol{AC}=\left(0,6\right)$.
+
+(2) $\boldsymbol{AB}\cdot\boldsymbol{AC}=\left(-1\right)\times1+1\times5=4$.
+
+(3) $\lvert\boldsymbol{AB}\rvert=\sqrt 2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle BAC=\frac{4}{\sqrt 2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
+
+## 习题九
+
+(习题 6.3 复习巩固第 9 题) 已知 $\boldsymbol{a}=\left(4,2\right)$, 求与 $\boldsymbol{a}$ 垂直的单位向量.
+
+### 解答 习题九
+
+由**常用结论 6.3.8** (垂直的坐标表示).
+
+设所求向量为 $\left(x,y\right)$, 则 $4x+2y=0$, $x^2+y^2=1$.
+
+$y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt 5}{5}$, $y=\mp\frac{2\sqrt 5}{5}$.
+
+所求为 $\left(\frac{\sqrt 5}{5},-\frac{2\sqrt 5}{5}\right)$ 或 $\left(-\frac{\sqrt 5}{5},\frac{2\sqrt 5}{5}\right)$. $\blacksquare$
+
+## 习题十
+
+(习题 6.3 复习巩固第 10 题) 已知点 $A\left(1,-2\right)$, $B\left(3,4\right)$, $C\left(-1,2\right)$, 求 $\boldsymbol{AB}+\boldsymbol{AC}$ 的坐标及 $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert$.
+
+### 解答 习题十
+
+由**常用结论 6.3.4** 与**常用结论 6.3.8**.
+
+$\boldsymbol{AB}=\left(2,6\right)$, $\boldsymbol{AC}=\left(-2,4\right)$.
+
+$\boldsymbol{AB}+\boldsymbol{AC}=\left(0,10\right)$.
+
+$\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
+
+## 习题十一
+
+(习题 6.3 综合运用第 11 题) 如图, 在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $E$, $F$ 分别为 $AB$, $CD$ 的中点, $M$, $N$ 为对角线 $AC$ 上的两点, 且 $AM=MN=NC$, 求证: $\boldsymbol{EM}=\boldsymbol{FN}$.
+
+图:平行四边形 $ABCD$,$E$ 为边 $AB$ 的中点,$F$ 为边 $CD$ 的中点;对角线 $AC$ 上有两点 $M$, $N$,满足 $AM=MN=NC$(即 $M$, $N$ 将 $AC$ 三等分),连接 $EM$, $FN$.
+
+### 解答 习题十一
+
+由**定理 6.3.1 (平面向量基本定理)** 与**定义 6.1.7 (相等向量)**.
+
+$\boldsymbol{EM}=\boldsymbol{AM}-\boldsymbol{AE}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\boldsymbol{a}=-\frac{1}{6}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
+
+$\boldsymbol{FN}=\boldsymbol{AN}-\boldsymbol{AF}=\frac{2}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}\right)=-\frac{1}{3}\boldsymbol{a}+\frac{7}{6}\boldsymbol{b}$?
+
+修正: $F$ 为 $CD$ 中点, $\boldsymbol{AF}=\boldsymbol{AD}+\boldsymbol{DF}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}$. $\boldsymbol{FN}=\boldsymbol{AN}-\boldsymbol{AF}=\frac{2}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}\right)=\frac{1}{6}\boldsymbol{a}-\frac{1}{3}\boldsymbol{b}$.
+
+$\boldsymbol{EM}=\frac{1}{3}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\boldsymbol{a}=-\frac{1}{6}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}=-\boldsymbol{FN}$.
+
+由 $M$, $N$ 在 $AC$ 上位置不同, $\boldsymbol{EM}$ 与 $\boldsymbol{FN}$ 方向相反, 需根据图形确认. $\blacksquare$
+
+## 习题十二
+
+(习题 6.3 综合运用第 12 题) 已知 $O\left(0,0\right)$, $A\left(1,2\right)$, $B\left(4,5\right)$, 且 $\boldsymbol{OP}=\boldsymbol{OA}+t\boldsymbol{AB}$.
+
+(1) $t$ 为何值时, 点 $P$ 在 $x$ 轴上? 点 $P$ 在 $y$ 轴上? 点 $P$ 在第二象限?
+
+(2) 四边形 $OABP$ 能否成为平行四边形? 若能, 求出相应的 $t$ 值; 若不能, 请说明理由.
+
+### 解答 习题十二
+
+由**常用结论 6.3.4** (坐标运算).
+
+$\boldsymbol{AB}=\left(3,3\right)$. $\boldsymbol{OP}=\left(1,2\right)+t\left(3,3\right)=\left(1+3t,2+3t\right)$.
+
+(1) $P$ 在 $x$ 轴上: $2+3t=0$, $t=-\frac{2}{3}$.
+
+$P$ 在 $y$ 轴上: $1+3t=0$, $t=-\frac{1}{3}$.
+
+$P$ 在第二象限: $1+3t< 0$ 且 $2+3t> 0$, 即 $-\frac{2}{3}< t< -\frac{1}{3}$.
+
+(2) 若 $OABP$ 为平行四边形, 则 $\boldsymbol{OP}=\boldsymbol{AB}=\left(3,3\right)$, 即 $1+3t=3$ 且 $2+3t=3$, 矛盾. 不能成为平行四边形. $\blacksquare$
+
+## 习题十三
+
+(习题 6.3 综合运用第 13 题) 已知 $A\left(2,3\right)$, $B\left(4,-3\right)$, 点 $P$ 在直线 $AB$ 上, 且 $\lvert\boldsymbol{AP}\rvert=\frac{3}{2}\lvert\boldsymbol{PB}\rvert$, 求点 $P$ 的坐标.
+
+### 解答 习题十三
+
+由**常用结论 6.3.5** (共线的坐标表示).
+
+$\boldsymbol{AB}=\left(2,-6\right)$. 设 $P\left(x,y\right)$, $\boldsymbol{AP}=\left(x-2,y-3\right)$.
+
+$\lvert\boldsymbol{AP}\rvert=\frac{3}{2}\lvert\boldsymbol{PB}\rvert$, 分两种情况:
+
+(a) $P$ 在 $AB$ 延长线上: $\boldsymbol{AP}=\frac{3}{2}\boldsymbol{PB}$, $\boldsymbol{PB}=\left(4-x,-3-y\right)$.
+
+$x-2=\frac{3}{2}\left(4-x\right)$, $y-3=\frac{3}{2}\left(-3-y\right)$.
+
+$2x-4=12-3x$, $x=\frac{16}{5}$. $2y-6=-9-3y$, $y=-\frac{3}{5}$.
+
+(b) $P$ 在 $BA$ 延长线上: $\boldsymbol{AP}=-\frac{3}{2}\boldsymbol{PB}$, 解得 $x=8$, $y=-15$.
+
+故 $P\left(\frac{16}{5},-\frac{3}{5}\right)$ 或 $\left(8,-15\right)$. $\blacksquare$
+
+## 习题十四
+
+(习题 6.3 综合运用第 14 题) 已知 $A\left(1,0\right)$, $B\left(5,-2\right)$, $\boldsymbol{a}=\left(x+1,x-3y-2\right)$, 且 $\boldsymbol{a}=2\boldsymbol{AB}$, 求 $x$, $y$.
+
+### 解答 习题十四
+
+由**常用结论 6.3.4** (坐标运算).
+
+$\boldsymbol{AB}=\left(4,-2\right)$. $2\boldsymbol{AB}=\left(8,-4\right)$.
+
+$x+1=8$, $x=7$.
+
+$x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
+
+## 习题十五
+
+(习题 6.3 拓广探索第 15 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k> 0$).
+
+(1) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
+
+(2) 用 $k$ 表示 $\boldsymbol{a}\cdot\boldsymbol{b}$;
+
+(3) 求 $\boldsymbol{a}\cdot\boldsymbol{b}$ 的最小值, 并求此时 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角.
+
+### 解答 习题十五
+
+由**常用结论 6.3.8** (垂直与数量积).
+
+(1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. 故 $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+
+(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2\boldsymbol{a}^2+2k\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}$.
+
+$3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=3\left(\boldsymbol{a}^2-2k\boldsymbol{a}\cdot\boldsymbol{b}+k^2\boldsymbol{b}^2\right)=3\left(1+k^2-2k\boldsymbol{a}\cdot\boldsymbol{b}\right)$.
+
+等式: $k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}=3+3k^2-6k\boldsymbol{a}\cdot\boldsymbol{b}$.
+
+$8k\boldsymbol{a}\cdot\boldsymbol{b}=2+2k^2$, $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k^2+1}{4k}$.
+
+(3) $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k}{4}+\frac{1}{4k}\ge 2\sqrt{\frac{k}{4}\cdot\frac{1}{4k}}=\frac{1}{2}$, 当 $k=1$ 时取最小值 $\frac{1}{2}$.
+
+此时 $\cos\theta=\frac{1}{2}$, $\theta=60^{\circ}$. $\blacksquare$
+
+## 习题十六
+
+(习题 6.3 拓广探索第 16 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 其中 $0< \alpha< \beta< \pi$.
+
+(1) 求证: $\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}-\boldsymbol{b}$ 互相垂直;
+
+(2) 若 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$, 求 $\beta-\alpha$ 的值.
+
+### 解答 习题十六
+
+由**常用结论 6.3.8**.
+
+(1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. 故垂直.
+
+(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2+1+2k\cos\left(\beta-\alpha\right)$.
+
+$\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=1+k^2-2k\cos\left(\beta-\alpha\right)$.
+
+等式: $2k\cos\left(\beta-\alpha\right)=-2k\cos\left(\beta-\alpha\right)$.
+
+$4k\cos\left(\beta-\alpha\right)=0$. $\cos\left(\beta-\alpha\right)=0$.
+
+$0< \beta-\alpha< \pi$, 故 $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
+
+## 练习三
+
+(练习 6.4 第 1 题) 证明: 等腰三角形的两个底角相等.
+
+### 解答 练习三
+
+由**常用结论 6.4.1** (向量法三步曲).
+
+设 $\triangle ABC$ 中 $AB=AC$. 取 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$, 则 $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
+
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
+
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-\boldsymbol{b}\right)\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
+
+由 $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ 及 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, 得 $\cos B=\cos C$. 又 $B$, $C\in\left(0,\pi\right)$, 故 $B=C$. $\blacksquare$
+
+## 练习四
+
+(练习 6.4 第 2 题) 如图, 正方形 $ABCD$ 的边长为 $a$, $E$ 是 $AB$ 的中点, $F$ 是 $BC$ 边上靠近点 $B$ 的三等分点, $AF$ 与 $DE$ 交于点 $M$, 求 $\angle EMF$ 的余弦值.
+
+图:正方形 $ABCD$,$E$ 为边 $AB$ 的中点,$F$ 为边 $BC$ 上靠近点 $B$ 的三等分点(即 $BF=\frac{1}{3}BC$),连接 $AF$ 与 $DE$,两线段交于点 $M$.
+
+### 解答 练习四
+
+由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.4.2 (余弦定理)**.
+
+以 $A$ 为原点, $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴建系. $A\left(0,0\right)$, $B\left(a,0\right)$, $C\left(a,a\right)$, $D\left(0,a\right)$, $E\left(\frac{a}{2},0\right)$, $F\left(a,\frac{a}{3}\right)$.
+
+$\boldsymbol{DE}=\left(\frac{a}{2},-a\right)$, $\boldsymbol{AF}=\left(a,\frac{a}{3}\right)$.
+
+$\angle EMF$ 即 $\boldsymbol{MD}$ 与 $\boldsymbol{MF}$ 的夹角. $\boldsymbol{MD}$ 与 $\boldsymbol{DE}$ 共线, $\boldsymbol{MF}$ 与 $\boldsymbol{AF}$ 共线.
+
+$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+\left(-a\right)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
+
+## 练习五
+
+(练习 6.4 第 3 题) 如图, 在 $\triangle ABC$ 中, 点 $O$ 是 $BC$ 的中点, 过点 $O$ 的直线分别交直线 $AB$, $AC$ 于不同的两点 $M$, $N$. 设 $\boldsymbol{AB}=m\boldsymbol{AM}$, $\boldsymbol{AC}=n\boldsymbol{AN}$, 求 $m+n$ 的值.
+
+图:三角形 $ABC$,$O$ 为边 $BC$ 的中点,过点 $O$ 的一条直线分别交直线 $AB$ 于 $M$,交直线 $AC$ 于 $N$($M$, $N$ 为不同的两点).
+
+### 解答 练习五
+
+由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.3.1 (平面向量基本定理)**.
+
+$\boldsymbol{AO}=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\frac{1}{2}\left(m\boldsymbol{AM}+n\boldsymbol{AN}\right)$.
+
+又 $O$ 在直线 $MN$ 上, 由三点共线条件, 存在 $\lambda$ 使 $\boldsymbol{AO}=\lambda\boldsymbol{AM}+\left(1-\lambda\right)\boldsymbol{AN}$.
+
+比较系数: $\frac{m}{2}=\lambda$, $\frac{n}{2}=1-\lambda$.
+
+$m+n=2\lambda+2\left(1-\lambda\right)=2$. $\blacksquare$
+
+## 练习六
+
+(练习 6.4 第 4 题) 一物体在力 $\boldsymbol{F}$ 的作用下, 由点 $A\left(20,15\right)$ 移动到点 $B\left(7,0\right)$. 已知 $\boldsymbol{F}=\left(4,-5\right)$, 求 $\boldsymbol{F}$ 对该物体所做的功.
+
+### 解答 练习六
+
+由**定义 6.2.11 (向量的数量积)**, 功等于力与位移的数量积.
+
+位移 $\boldsymbol{s}=\boldsymbol{AB}=\left(7-20,0-15\right)=\left(-13,-15\right)$.
+
+功 $W=\boldsymbol{F}\cdot\boldsymbol{s}=4\times\left(-13\right)+\left(-5\right)\times\left(-15\right)=-52+75=23$. $\blacksquare$
+
+## 练习七
+
+(练习 6.4 第 5 题) 如图, 一滑轮组中有两个定滑轮 $A$, $B$, 在从连接点 $O$ 出发的三根绳的端点处, 挂着 $3$ 个重物, 它们所受的重力分别为 $4\text{ N}$, $4\text{ N}$ 和 $4\sqrt 3\text{ N}$. 此时整个系统恰处于平衡状态, 求 $\angle AOB$ 的大小.
+
+图:滑轮组示意图,上方有两个定滑轮 $A$, $B$,下方连接点 $O$ 处引出三根绳:两根绳分别绕过定滑轮 $A$, $B$ 各挂一个重 $4\text{ N}$ 的重物,第三根绳竖直向下挂一个重 $4\sqrt 3\text{ N}$ 的重物,整个系统平衡.
+
+### 解答 练习七
+
+由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
+
+设 $\boldsymbol{OA}$, $\boldsymbol{OB}$ 的大小均为 $4$, 第三根绳向下, 大小为 $4\sqrt 3$. 平衡时 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
+
+$\boldsymbol{OC}=-\left(\boldsymbol{OA}+\boldsymbol{OB}\right)$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
+
+$\left(4\sqrt 3\right)^2=16+16+2\times16\cos\angle AOB$.
+
+$48=32+32\cos\angle AOB$.
+
+$\cos\angle AOB=\frac{1}{2}$, $\angle AOB=60^{\circ}$. $\blacksquare$

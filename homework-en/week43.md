@@ -1,774 +1,381 @@
 # week43
-> **Theorem 8.5.3 (直线与平面平行的判定定理)**
+> **Definition 1.1.12 (向量的数量积)**
 > 
-> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
-> **Theorem 8.5.4 (直线与平面平行的性质定理)**
+> 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
+> **Theorem 1.2.1 (空间向量基本定理)**
 > 
-> 一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
-> **Theorem 8.5.5 (平面与平面平行的判定定理)**
+> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
+> **Definition 1.2.2 (Basis, Basis Vectors)**
 > 
-> 一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
-> **Theorem 8.5.6 (Property Theorem of Parallel Planes)**
+> 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
+> **Definition 1.3.1 (空间直角坐标系)**
 > 
-> 两个平行平面同时和第三个平面相交, 所得的交线平行.
-> **Definition 8.6.1 (异面直线所成的角)**
+> 在空间中取一定点 O 和三个两两垂直的单位向量 i, j, k, 以 O 为原点建立三条数轴 x 轴, y 轴, z 轴, 就建立了空间直角坐标系.
+> **Definition 1.3.2 (点的坐标)**
 > 
-> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel a$, $b'\parallel b$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
-> **Definition 8.6.2 (异面直线垂直)**
+> 空间一点 M 的位置可用有序实数组 (x, y, z) 表示, 这个有序实数组叫做点 M 在此空间直角坐标系中的坐标.
+> **Definition 1.3.3 (向量的坐标)**
 > 
-> 线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平面α内的任意一条直线都垂直,我 们就说直线与平面α互相垂直,记作⊥α.直线叫做平面α 的垂线,平面α叫做直线的垂面.直线与平面垂直时,它们唯 一的公共点叫做垂足. 画直线与平面垂直时,通常把直线画成与表示平面的平行四 边形的一边垂直,如图８.６９所示. Ꮶ 在同一平面内,过一点有且只有一条直线与已知直线垂直.将这一结论推广到空 间,过一点垂直于已知平面的直线有几条?为什么? ９４１ 8. 6. 2 直线与平面垂直 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 8.6-7),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. 图 8.6-7 观察 如图
-> **Definition 8.6.3 (直线与平面垂直)**
-> 
-> 第八章　立体几何初步 　图８.６７ ８６２! 3)< = 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 ８.６７),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. ᜺ A B C CĂ BĂ 　图８.６８ 如图８.６８,在阳光下观察直立于地面的旗杆及 它在地面的影子.随着时间的变化,影子的位置 在不断地变化,旗杆所在直线与其影子所在直 线是否保持垂直? 事实上,随着时间的变化,尽管影子的位置在不断地变 化,但是旗杆所在直线始终与影子所在直线垂直.也就 是说,旗杆所在直线与地面上任意一条过点的直线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平
-> **Theorem 8.6.4 (直线与平面垂直的判定定理)**
-> 
-> 一条直线与一个平面内的两条相交直线都垂直, 则该直线与此平面垂直.
-> **Theorem 8.6.5 (直线与平面垂直的性质定理)**
-> 
-> 垂直于同一个平面的两条直线平行.
-> **Definition 8.6.6 (直线与平面所成的角)**
-> 
-> 垂直于平面,我们说它们所成的角是９０°;一条直线和平面平行,或在平面 内,我们说它们所成的角是０°.直线与平面所成的角θ的取值范围是０°≤θ≤９０°. A1 B1 C1 D1 A B C D O 　图８.６１５ 例４　如图８.６１５,在正方体１１１１中,求直线 １和平面１１所成的角. 分析:关键是找出直线１在平面１１上的射影. 解:连接１,１与１相交于点,连接１.设正方 体的棱长为. ∵　１１⊥１１,１１⊥１,１１∩１＝１, ∴　１１⊥平面１１. ∴　１１⊥１. 又　１⊥１, ∴　１⊥平面１１. ∴　１为斜线１在平面１１上的射影,∠１为１和平面１１ 所成的角. 在Ｒｔ△１中,１＝槡２,＝槡２２, ∴　＝１２１. ∴　∠１＝３０°. ∴　直线１和平面１１所成的角为３０°. ጷ˸ １.
-> **Definition 8.6.7 (二面角)**
-> 
-> ,利用角刻画两条相交直线的位置关系,进而 研究直线与直线互相垂直这种特殊情况.类似地,我们需要先引进二面角的概念,用以刻 ５５１ 设截得棱台的棱锥的体积为 V,去掉的棱锥的体积为 V',高为 h',则 PO'h'. 于是 S(h'+h). 所以棱台的体积 V棱台=V-V' Sh+(S-S')h']. h'2 (h'+h)2* ①请你自己证明这个 Vs'h 所以 h" 结论. VS-S" 代人①,得 V棱台= -h[S+(S-S') VS-VS h(s'+vs's+S). 练习 l.已知直线α,b 和平面α,且ab,alα,则b与α的位置关系是 2.已知A,B两点在平面α的同侧,且它们与α的距离相等,求证: 直线AB//α. 3.如图,EA 和DC都垂直于平面ABC,且 EA=2DC,F是EB 的 中点,求证:DF/平面ABC. 4.求证:垂直于同一条直线的两个平面互相平行.(提示:过这条直 (第3题) 线作平面与这两个平面相交,则它们的交线平行.) 8.6.3 平面与平面垂直 像研究直线
-> **Theorem 8.6.8 (平面与平面垂直的判定定理)**
-> 
-> 一个平面过另一个平面的垂线, 则这两个平面垂直.
-> **Theorem 8.6.9 (平面与平面垂直的性质定理)**
-> 
-> 两个平面垂直, 则一个平面内垂直于交线的直线与另一个平面垂直.
+> 在空间直角坐标系中, 对任一向量 a, 存在唯一有序实数组 (a1, a2, a3), 使 a = a1*i + a2*j + a3*k, (a1, a2, a3) 叫做向量 a 的坐标.
 
 ## Exercise 1
 
-(Exercise 8.6, Problem 1) Determine whether the following statements are correct; for a correct one, draw "$\sqrt{ }$" in the parentheses, and for a wrong one, draw "$\times$".
-
-(1) If one of two parallel lines is perpendicular to a given line, then the other is also perpendicular to the given line.
-
-(2) Two lines perpendicular to the same line are parallel.
+(Exercise 1.2, Problem 1) Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis of space, which of $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ can necessarily be chosen to form another basis of space together with the vectors $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$?
 
 ### Solution to Exercise 1
 
-Judge by **Definition 8.6.2 (Perpendicular Skew Lines)**.
+By **Definition 1.2.2 (Basis, Basis Vectors)**, the necessary and sufficient condition for three vectors to form a basis of space is that they are not coplanar.
 
-(1) Correct. The two lines are parallel; the angle between one of them and the given line is $90^{\circ}$, so the angle between the other and the given line is also $90^{\circ}$.
+Both $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ lie in the plane spanned by $\boldsymbol{a}$, $\boldsymbol{b}$; that is, $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{a}$ are coplanar, and $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{b}$ are also coplanar. Hence $\boldsymbol{a}$ or $\boldsymbol{b}$ is coplanar with $\boldsymbol{p}$, $\boldsymbol{q}$ and cannot form a new basis.
 
-(2) Wrong. Two lines perpendicular to the same line may be parallel, intersecting, or skew. $\blacksquare$
+But $\boldsymbol{c}$ does not lie in the plane spanned by $\boldsymbol{a}$, $\boldsymbol{b}$. Suppose $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ were coplanar; then there would exist real numbers $\lambda$, $\mu$ such that $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, contradicting the fact that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis ($\boldsymbol{c}$ is not linearly expressible in terms of $\boldsymbol{a}$, $\boldsymbol{b}$).
+
+Hence choose $\boldsymbol{c}$; $\left\{\boldsymbol{p}, \boldsymbol{q}, \boldsymbol{c}\right\}$ necessarily forms another basis of space. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 8.6, Problem 2) As shown in the figure, among the lines on the edges of the cuboid $ABCD\text{-}A'B'C'D'$,
-
-(1) the number of lines perpendicular to line $AB$ is $\;\_\_\;$;
-
-(2) the number of lines skew to and perpendicular to line $AB$ is $\;\_\_\;$;
-
-(3) the number of lines perpendicular to both line $AB$ and $A'D'$ is $\;\_\_\;$;
-
-(4) the line perpendicular to and intersecting both line $AB$ and $A'D'$ is line $\;\_\_\;$.
-
-(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
+(Exercise 1.2, Problem 2) Given that $O$, $A$, $B$, $C$ are four points in space and that the vectors $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ do not form a basis of space, are the points $O$, $A$, $B$, $C$ coplanar?
 
 ### Solution to Exercise 2
 
-Judge by **Definition 8.6.2 (Perpendicular Skew Lines)** and the directions of the edges of a cuboid.
+By **Definition 1.2.2 (Basis, Basis Vectors)**, the necessary and sufficient condition for three vectors to form a basis of space is that they are not coplanar.
 
-(1) There are $4$ edges in the direction of $AB$; the edges perpendicular to $AB$ include $4$ vertical edges and $4$ width-direction edges, totaling $8$.
+Since $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ do not form a basis of space, by **Definition 1.2.2 (Basis, Basis Vectors)** they must be coplanar; that is, there exist real numbers $x$, $y$, $z$, not all zero, such that $x\boldsymbol{OA}+y\boldsymbol{OB}+z\boldsymbol{OC}=\boldsymbol{0}$.
 
-(2) The edges skew to and perpendicular to $AB$ are $CC'$, $DD'$, $A'D'$, $B'C'$, totaling $4$.
-
-(3) The lines perpendicular to both $AB$ and $A'D'$ are the $4$ vertical edges $AA'$, $BB'$, $CC'$, $DD'$, totaling $4$.
-
-(4) The line perpendicular to and intersecting both $AB$ and $A'D'$ is $AA'$. $\blacksquare$
+By the contrapositive of **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**, $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ being coplanar means they are parallel to the same plane. Moreover, since they share the common starting point $O$, the four points $O$, $A$, $B$, $C$ are coplanar. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 8.6, Problem 3) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $AB=AD=2\sqrt{3}$, $AA'=2$. Find:
+(Exercise 1.2, Problem 3) As shown in the figure, given the parallelepiped $OABC-O'A'B'C'$, the point $G$ is the center of the lateral face $BB'C'C$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.
 
-(1) the size of the angle formed by lines $BC$ and $A'C'$;
+(1) Does $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ form a basis of space?
 
-(2) the size of the angle formed by lines $AA'$ and $BC$.
+(2) If $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis of space, express the following vectors in terms of it: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
 
-(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $AB=AD=2\sqrt{3}$, $AA'=2$.)
+(Figure: a parallelepiped $OABC-O'A'B'C'$ with $G$ the center of face $BB'C'C$; $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.)
 
 ### Solution to Exercise 3
 
-By **Definition 8.6.1 (Angle Between Skew Lines)**.
+By **Definition 1.2.2 (Basis, Basis Vectors)** and **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
 
-(1) $BC\parallel B'C'$, so the angle formed by $BC$ and $A'C'$ is $\angle B'C'A'$. The base $A'B'C'D'$ is a square with side length $2\sqrt{3}$, $A'C'$ is a diagonal, $\triangle A'B'C'$ is an isosceles right triangle, and $\angle B'C'A'=45^{\circ}$.
+(1) In the parallelepiped, $\boldsymbol{OA}$, $\boldsymbol{OC}$, $\boldsymbol{OO'}$ run along the directions of three non-coplanar edges, so they are not coplanar. By **Definition 1.2.2 (Basis, Basis Vectors)**, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis of space.
 
-(2) $AA'$ is perpendicular to the base $ABCD$, and $BC\subset$ the base, so $AA'\perp BC$, and the angle formed is $90^{\circ}$. $\blacksquare$
+(2) By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**:
+
+$\boldsymbol{OB'}=\boldsymbol{OB}+\boldsymbol{BB'}=\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{OO'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
+
+$\boldsymbol{BA'}=\boldsymbol{BA}+\boldsymbol{AA'}=-\boldsymbol{OA}+\boldsymbol{OO'}=-\boldsymbol{a}+\boldsymbol{c}$.
+
+$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{OC}+\boldsymbol{OO'}=-\boldsymbol{b}+\boldsymbol{c}$.
+
+$G$ is the center of the lateral face $BB'C'C$, so $\boldsymbol{OG}=\boldsymbol{OC}+\boldsymbol{CG}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{CB}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{c}\right)=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 8.6, Problem 4) As shown in the figure, in the regular triangular prism $ABC\text{-}A'B'C'$, $D$ is the midpoint of edge $AC$, $AB=BB'=2$. Prove that $BD\perp AC'$.
-
-(Figure: a regular triangular prism $ABC\text{-}A'B'C'$ with $D$ the midpoint of $AC$.)
+(Exercise 1.2, Problem 1) Given a tetrahedron $OABC$ with $OB=OC$ and $\angle AOB=\angle AOC=\theta$. Prove that $OA \perp BC$.
 
 ### Solution to Exercise 4
 
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)** and **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
+By **Common Conclusion 1.1.13** (Properties of the Dot Product), to prove $OA \perp BC$ it suffices to prove $\boldsymbol{OA} \cdot \boldsymbol{BC}=0$.
 
-The base $ABC$ is an equilateral triangle, and $D$ is the midpoint of $AC$, so $BD\perp AC$.
+Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$; then $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$.
 
-In the regular triangular prism, the side face $ACC'A'\perp$ the base $ABC$, with line of intersection $AC$. Since $BD\subset$ the base $ABC$ and $BD\perp AC$, by the property of perpendicular planes, $BD\perp$ plane $ACC'A'$.
+$\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}$.
 
-Moreover, $AC'\subset$ plane $ACC'A'$, so $BD\perp AC'$. $\blacksquare$
+By the given $OB=OC$, i.e. $\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$. Also $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=\theta$.
+
+Hence $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$, and $\boldsymbol{a} \cdot \boldsymbol{c}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{c} \rvert \cos\theta=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$.
+
+Therefore $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$, i.e. $\boldsymbol{a} \cdot \boldsymbol{BC}=0$.
+
+By **Common Conclusion 1.1.13**, $\boldsymbol{OA} \perp \boldsymbol{BC}$, i.e. $OA \perp BC$. $\blacksquare$
 
 ## Exercise 5
 
-(Exercise 8.6, Problem 1) If the angles formed by two lines and a plane are equal, must the two lines be parallel?
+(Exercise 1.2, Problem 2) As shown in the figure, in the parallelepiped $ABCD-A'B'C'D'$, $AB=2$, $AD=2$, $AA'=3$, and $\angle BAD=\angle BAA'=\angle DAA'=60^\circ$. Find the cosine of the angle between $BC'$ and $CA'$.
+
+(Figure: a parallelepiped $ABCD-A'B'C'D'$, with the three edges from $A$ ($AB,AD,AA'$) making pairwise $60^\circ$ angles.)
 
 ### Solution to Exercise 5
 
-Judge by **Definition 8.6.6 (Angle Between a Line and a Plane)**.
+By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Not necessarily. When two lines form equal angles with the same plane, they may be parallel, or they may be intersecting or skew. For example, lines drawn through a point outside a plane making equal angles with the plane form a conical surface, intersecting one another at that point. $\blacksquare$
+Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=2$, $\lvert \boldsymbol{b} \rvert=2$, $\lvert \boldsymbol{c} \rvert=3$, and the pairwise angles are all $60^\circ$.
+
+$\boldsymbol{BC'}=\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{b}+\boldsymbol{c}$.
+
+$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{AC}+\boldsymbol{c}=-\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}$.
+
+First compute the dot product:
+
+$$
+\boldsymbol{BC'} \cdot \boldsymbol{CA'}=\left(\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}+\boldsymbol{c}^2.
+$$
+
+Simplifying: $=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2$.
+
+Here $\boldsymbol{a} \cdot \boldsymbol{b}=2 \times 2 \times \frac{1}{2}=2$, $\boldsymbol{a} \cdot \boldsymbol{c}=2 \times 3 \times \frac{1}{2}=3$, $\boldsymbol{b}^2=4$, and $\boldsymbol{c}^2=9$.
+
+Hence $\boldsymbol{BC'} \cdot \boldsymbol{CA'}=-2-4-3+9=0$.
+
+By **Common Conclusion 1.1.13**, $\boldsymbol{BC'} \perp \boldsymbol{CA'}$, i.e. the cosine of the angle between $BC'$ and $CA'$ is $0$. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 8.6, Problem 2) As shown in the figure, the base of the quadrangular pyramid $S\text{-}ABCD$ is a square, and $SD\perp$ plane $ABCD$. Prove that $AC\perp$ plane $SDB$.
+(Exercise 1.2, Problem 3) As shown in the figure, given a cube $ABCD-A'B'C'D'$, $CD'$ and $DC'$ intersect at point $O$; join $AO$. Prove that $AO \perp CD'$.
 
-(Figure: a quadrangular pyramid $S\text{-}ABCD$ with square base $ABCD$ and $SD\perp$ the base.)
+(Figure: a cube $ABCD-A'B'C'D'$; $CD'$ and $DC'$ meet at the center $O$ of side face $CC'D'D$, and $AO$ is joined.)
 
 ### Solution to Exercise 6
 
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+By **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Since $SD\perp$ plane $ABCD$ and $AC\subset$ plane $ABCD$, we have $SD\perp AC$.
+Let the edge length of the cube be $1$, and take $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD'}\right\}$ as an orthonormal basis. Set $\boldsymbol{DA}=\boldsymbol{i}$, $\boldsymbol{DC}=\boldsymbol{j}$, $\boldsymbol{DD'}=\boldsymbol{k}$; then they are pairwise perpendicular and have modulus $1$.
 
-The base $ABCD$ is a square, so $AC\perp BD$.
+$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\left(\boldsymbol{DC'}+\boldsymbol{DD}\right)$ in direction. In fact, $O$ is the intersection of $CD'$ and $DC'$, i.e. the center of the face $CC'D'D$.
 
-Moreover, $SD\cap BD=D$; by **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**, $AC\perp$ plane $SDB$. $\blacksquare$
+$\boldsymbol{DO}=\frac{1}{2}\left(\boldsymbol{DC}+\boldsymbol{DD'}\right)=\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
 
-## Exercise 7
+$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
 
-(Exercise 8.6, Problem 3) As shown in the figure, in the right quadrangular prism $A'B'C'D'\text{-}ABCD$, what condition must the base quadrilateral $ABCD$ satisfy so that $A'C\perp B'D'$?
+$\boldsymbol{CD'}=\boldsymbol{CD}+\boldsymbol{DD'}=-\boldsymbol{j}+\boldsymbol{k}$.
 
-(Figure: a right quadrangular prism $A'B'C'D'\text{-}ABCD$.)
+$\boldsymbol{AO} \cdot \boldsymbol{CD'}=\left(-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\left(-\boldsymbol{j} \cdot \boldsymbol{j}\right)+\frac{1}{2}\boldsymbol{k} \cdot \boldsymbol{k}=-\frac{1}{2}+\frac{1}{2}=0$.
 
-### Solution to Exercise 7
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
-
-$B'D'\parallel BD$. In the right quadrangular prism, $A'A\perp$ the base $ABCD$, so the projection of $A'C$ onto the base is $AC$.
-
-For $A'C\perp B'D'$, by the theorem of three perpendiculars, it suffices that $AC\perp BD$.
-
-Hence, when the diagonals of the base quadrilateral $ABCD$ are perpendicular to each other (i.e. $ABCD$ is a rhombus), $A'C\perp B'D'$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 8.6, Problem 4) Through a point $P$ outside the plane $\alpha$ of $\triangle ABC$, draw $PO\perp\alpha$, with foot $O$, and connect $PA$, $PB$, $PC$.
-
-(1) If $PA=PB=PC$, then the point $O$ is the $\;\_\_\;$ center of $\triangle ABC$.
-
-(2) If $PA=PB=PC$ and $\angle ACB=90^{\circ}$, then the point $O$ is the $\;\_\_\;$ point of side $AB$.
-
-### Solution to Exercise 8
-
-By **Definition 8.6.3 (Line Perpendicular to a Plane)** and the Pythagorean theorem.
-
-Since $PO\perp\alpha$, we have $PO\perp OA$, $PO\perp OB$, $PO\perp OC$.
-
-(1) From $PA=PB=PC$ and the common side $PO$, $\text{Rt}\triangle POA\cong\text{Rt}\triangle POB\cong\text{Rt}\triangle POC$, so $OA=OB=OC$. The point $O$ is the circumcenter of $\triangle ABC$.
-
-(2) $\angle ACB=90^{\circ}$, $\triangle ABC$ is a right triangle, and its circumcenter lies at the midpoint of the hypotenuse $AB$. Also $OA=OB=OC$, so $O$ is the midpoint of side $AB$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 8.6, Problem 1) Given lines $a$, $b$ and plane $\alpha$, with $a\perp b$, $a\perp\alpha$, the positional relationship between $b$ and $\alpha$ is $\;\_\_\;$.
-
-### Solution to Exercise 9
-
-Judge by **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**.
-
-$a\perp\alpha$; if $b\subset\alpha$, then $a\perp b$ holds. If $b\not\subset\alpha$, pass a plane through $a$ intersecting $\alpha$ in a line $c$, then $a\perp c$. From $a\perp b$ and $a\perp c$, $b\parallel c$. Since $c\subset\alpha$ and $b\not\subset\alpha$, we have $b\parallel\alpha$.
-
-Hence the positional relationship between $b$ and $\alpha$ is $b\parallel\alpha$ or $b\subset\alpha$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 8.6, Problem 2) Given that two points $A$, $B$ lie on the same side of the plane $\alpha$ and are at equal distances from $\alpha$, prove that line $AB\parallel\alpha$.
-
-### Solution to Exercise 10
-
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
-
-Draw $AA'\perp\alpha$, $BB'\perp\alpha$ respectively, with feet $A'$, $B'$. By **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**, $AA'\parallel BB'$.
-
-By the hypothesis $AA'=BB'$, the quadrilateral $ABB'A'$ is a parallelogram, and $AB\parallel A'B'$.
-
-Moreover, $A'B'\subset\alpha$, $AB\not\subset\alpha$; by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $AB\parallel\alpha$. $\blacksquare$
-
-## Exercise 11
-
-(Exercise 8.6, Problem 3) As shown in the figure, $EA$ and $DC$ are both perpendicular to the plane $ABC$, and $EA=2DC$. $F$ is the midpoint of $EB$. Prove that $DF\parallel$ plane $ABC$.
-
-(Figure: $EA\perp$ plane $ABC$, $DC\perp$ plane $ABC$, $EA=2DC$, and $F$ the midpoint of $EB$.)
-
-### Solution to Exercise 11
-
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**.
-
-Take the midpoint $G$ of $AB$, and connect $FG$, $CG$.
-
-In $\triangle EAB$, $F$, $G$ are the midpoints of $EB$, $AB$ respectively, so $FG\parallel EA$ and $FG=\frac{1}{2}EA$.
-
-By the hypothesis $EA=2DC$, we have $FG=DC$. Moreover, $EA\perp$ plane $ABC$, $DC\perp$ plane $ABC$; by **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**, $EA\parallel DC$. Hence $FG\parallel DC$.
-
-Thus $FG=\ DC$, the quadrilateral $DFGC$ is a parallelogram, and $DF\parallel CG$.
-
-Moreover, $CG\subset$ plane $ABC$, $DF\not\subset$ plane $ABC$, so $DF\parallel$ plane $ABC$. $\blacksquare$
-
-## Exercise 12
-
-(Exercise 8.6, Problem 4) Prove that two planes perpendicular to the same line are parallel to each other.
-
-### Solution to Exercise 12
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
-
-Let the line be $l\perp\alpha$, $l\perp\beta$. Pass two intersecting planes through $l$, intersecting $\alpha$, $\beta$ in $a$, $a'$ and $b$, $b'$ respectively.
-
-Since $l\perp\alpha$, we have $l\perp a$, $l\perp b$. Since $l\perp\beta$, we have $l\perp a'$, $l\perp b'$.
-
-In the same plane, two lines perpendicular to the same line are parallel, so $a\parallel a'$, $b\parallel b'$.
-
-$a$, $b$ are two intersecting lines in $\alpha$, and $a'$, $b'$ are two intersecting lines in $\beta$. By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$. $\blacksquare$
-
-## Exercise 13
-
-(Exercise 8.6, Problem 1) As shown in the figure, when checking whether two adjacent (flat) faces of a workpiece are perpendicular, one simply presses one arm of a try square against one face of the workpiece and rotates the other arm on the other face of the workpiece, observing whether the arm fits snugly against this face. Why is this so?
-
-(Figure: a workpiece with two adjacent faces, and a try square (right-angle ruler) with one arm on one face and the other arm on the other face.)
-
-### Solution to Exercise 13
-
-By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
-
-The two arms of the try square are perpendicular to each other. If one arm is pressed against the first face and the other arm always fits snugly against the second face as it rotates about the line of intersection within the second face, then there exists in the second face a line perpendicular to the square's arm lying in the first face; that is, there is a line in the second face perpendicular to the first face.
-
-By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, the second face passes through a perpendicular to the first face, so the two planes are perpendicular. $\blacksquare$
-
-## Exercise 14
-
-(Exercise 8.6, Problem 2) Given lines $a$, $b$ and planes $\alpha$, $\beta$, $\gamma$, a sufficient condition for $\alpha\perp\beta$ is ( ).
-
-(A) $a\perp\gamma$, $\beta\perp\gamma$; (B) $\alpha\cap\beta=a$, $b\perp\alpha$, $b\subset\beta$; (C) $a\parallel\beta$, $a\parallel\alpha$; (D) $a\parallel\alpha$, $a\perp\beta$.
-
-### Solution to Exercise 14
-
-Judge by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
-
-(A) Wrong. The two planes $\alpha$, $\beta$ both perpendicular to $\gamma$ may be parallel.
-
-(B) Correct. $b\perp\alpha$, $b\subset\beta$, i.e. $\beta$ passes through a perpendicular to $\alpha$; by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, $\alpha\perp\beta$.
-
-(C) Wrong. $a\parallel\alpha$, $a\parallel\beta$ does not imply $\alpha\perp\beta$.
-
-(D) Wrong. $a\parallel\alpha$, $a\perp\beta$ does not imply $\alpha\perp\beta$.
-
-Hence choose (B). $\blacksquare$
-
-## Exercise 15
-
-(Exercise 8.6, Problem 3) As shown in the figure, $AB\perp$ plane $BCD$, $BC\perp CD$. Which planes can you find that are perpendicular to each other? Why?
-
-(Figure: $AB\perp$ plane $BCD$, with $BC\perp CD$ in $\triangle BCD$.)
-
-### Solution to Exercise 15
-
-By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
-
-Since $AB\perp$ plane $BCD$, $AB\subset$ plane $ABC$, $AB\subset$ plane $ABD$, we have plane $ABC\perp$ plane $BCD$, plane $ABD\perp$ plane $BCD$.
-
-Moreover, $BC\perp CD$, and $AB\perp$ plane $BCD$, so $AB\perp CD$. Since $AB\cap BC=B$, we have $CD\perp$ plane $ABC$. And $CD\subset$ plane $ACD$, so plane $ACD\perp$ plane $ABC$.
-
-In summary, the pairs of mutually perpendicular planes are: plane $ABC\perp$ plane $BCD$, plane $ABD\perp$ plane $BCD$, plane $ACD\perp$ plane $ABC$. $\blacksquare$
-
-## Exercise 16
-
-(Exercise 8.6, Problem 4) As shown in the figure, in the regular triangular prism $ABC\text{-}A'B'C'$, $D$ is the midpoint of edge $AC$. Prove that plane $BDC'\perp$ plane $ACC'A'$.
-
-(Figure: a regular triangular prism $ABC\text{-}A'B'C'$ with $D$ the midpoint of $AC$.)
-
-### Solution to Exercise 16
-
-By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
-
-The base $ABC$ is an equilateral triangle, and $D$ is the midpoint of $AC$, so $BD\perp AC$.
-
-In the regular triangular prism, plane $ABC\perp$ plane $ACC'A'$, with line of intersection $AC$. Since $BD\subset$ plane $ABC$ and $BD\perp AC$, by the property of perpendicular planes, $BD\perp$ plane $ACC'A'$.
-
-Moreover, $BD\subset$ plane $BDC'$; by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, plane $BDC'\perp$ plane $ACC'A'$. $\blacksquare$
-
-## Exercise 17
-
-(Exercise 8.6, Problem 1) Determine whether the following statements are correct; for a correct one, draw "$\sqrt{ }$" in the parentheses, and for a wrong one, draw "$\times$".
-
-(1) If plane $\alpha\perp$ plane $\beta$, then every line in plane $\alpha$ is perpendicular to plane $\beta$.
-
-(2) If plane $\alpha\perp$ plane $\beta$, then there must exist in plane $\alpha$ a line parallel to plane $\beta$.
-
-(3) If plane $\alpha$ is not perpendicular to plane $\beta$, then there must exist no line in plane $\alpha$ perpendicular to plane $\beta$.
-
-### Solution to Exercise 17
-
-Judge by **Theorem 8.6.9 (Property of Two Perpendicular Planes)**.
-
-(1) Wrong. When $\alpha\perp\beta$, lines in $\alpha$ parallel to the line of intersection are parallel to $\beta$, not perpendicular.
-
-(2) Correct. A line in $\alpha$ parallel to the line of intersection of the two planes is parallel to $\beta$.
-
-(3) Correct. If there existed a line in $\alpha$ perpendicular to $\beta$, then by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, $\alpha\perp\beta$, a contradiction. $\blacksquare$
-
-## Exercise 18
-
-(Exercise 8.6, Problem 2) If plane $\alpha\perp$ plane $\beta$ and $\alpha\cap\beta=l$, then the number of correct statements among the following is ( ).
-
-(1) A line in plane $\alpha$ must be perpendicular to any line in plane $\beta$.
-
-(2) A given line in plane $\alpha$ must be perpendicular to infinitely many lines in plane $\beta$.
-
-(3) Any line in plane $\alpha$ must be perpendicular to plane $\beta$.
-
-(4) Through any point in plane $\alpha$, draw a perpendicular to the line of intersection $l$; then this perpendicular must be perpendicular to plane $\beta$.
-
-(A) $3$; (B) $2$; (C) $1$; (D) $0$.
-
-### Solution to Exercise 18
-
-Judge by **Theorem 8.6.9 (Property of Two Perpendicular Planes)**.
-
-(1) Wrong. A line in $\alpha$ parallel to $l$ is not perpendicular to every line in $\beta$.
-
-(2) Correct. For any line in $\alpha$, all lines in $\beta$ perpendicular to $l$ are perpendicular to it; there are infinitely many.
-
-(3) Wrong. A line in $\alpha$ parallel to $l$ is not perpendicular to $\beta$.
-
-(4) Correct. By **Theorem 8.6.9 (Property of Two Perpendicular Planes)**, through a point in $\alpha$ draw a perpendicular to $l$; this perpendicular is perpendicular to $\beta$.
-
-There are $2$ correct statements in total; choose (B). $\blacksquare$
-
-## Exercise 19
-
-(Exercise 8.6, Problem 3) Given that $\alpha$, $\beta$ are two distinct planes and $m$ is a line lying in plane $\alpha$, then "$\alpha\perp\beta$" is a ( ) condition for "$m\perp\beta$".
-
-(A) sufficient but not necessary; (B) necessary but not sufficient; (C) necessary and sufficient; (D) neither sufficient nor necessary.
-
-### Solution to Exercise 19
-
-Judge by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
-
-If $m\perp\beta$ and $m\subset\alpha$, then $\alpha\perp\beta$, so the necessity holds.
-
-However, when $\alpha\perp\beta$, a line $m$ in $\alpha$ is not necessarily perpendicular to $\beta$, so the sufficiency does not hold.
-
-Hence "$\alpha\perp\beta$" is a necessary but not sufficient condition for "$m\perp\beta$"; choose (B). $\blacksquare$
-
-## Exercise 20
-
-(Exercise 8.6, Problem 4) Given plane $\alpha$, $\beta$, line $a$, with $\alpha\perp\beta$, $\alpha\cap\beta=AB$, $a\parallel\alpha$, $a\perp AB$, determine the positional relationship between line $a$ and plane $\beta$, and explain why.
-
-### Solution to Exercise 20
-
-By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Theorem 8.6.9 (Property of Two Perpendicular Planes)**.
-
-Since $a\parallel\alpha$, pass a plane through $a$ intersecting $\alpha$ in a line $b$; by the property of line-plane parallelism, $a\parallel b$.
-
-Since $a\perp AB$, we have $b\perp AB$. Moreover, $\alpha\perp\beta$, $b\subset\alpha$, $b\perp AB$ (the line of intersection); by **Theorem 8.6.9 (Property of Two Perpendicular Planes)**, $b\perp\beta$.
-
-Moreover, $a\parallel b$, so $a\perp\beta$. $\blacksquare$
+By **Common Conclusion 1.1.13**, $\boldsymbol{AO} \perp \boldsymbol{CD'}$, i.e. $AO \perp CD'$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 8.6, Review and Consolidation, Problem 1) Multiple choice.
-
-(1) If four distinct lines $l_{1}$, $l_{2}$, $l_{3}$, $l_{4}$ in space satisfy $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$, $l_{3}\perp l_{4}$, which of the following conclusions is correct ( ).
-
-(A) $l_{1}\perp l_{4}$; (B) $l_{1}\parallel l_{4}$; (C) $l_{1}$ and $l_{4}$ are neither perpendicular nor parallel; (D) the positional relationship between $l_{1}$ and $l_{4}$ is undetermined.
-
-(2) Let $l$, $m$, $n$ all be lines, where $m$, $n$ lie in plane $\alpha$. Then "$l\perp\alpha$" is a ( ) condition for "$l\perp m$ and $l\perp n$".
-
-(A) sufficient but not necessary; (B) necessary but not sufficient; (C) necessary and sufficient; (D) neither sufficient nor necessary.
-
-(3) A sufficient condition for lines $l_{1}$, $l_{2}$ to be parallel to each other is ( ).
-
-(A) $l_{1}$, $l_{2}$ are both parallel to the same plane; (B) $l_{1}$, $l_{2}$ form equal angles with the same plane; (C) $l_{1}$, $l_{2}$ are both perpendicular to the same plane; (D) $l_{1}$ is parallel to the plane in which $l_{2}$ lies.
+(Exercise 1.2, Review and Consolidation, Problem 1) If the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ cannot form a basis of space with any other vector, what relationship must exist between $\boldsymbol{a}$ and $\boldsymbol{b}$?
 
 ### Solution to Problem 1
 
-Judge by **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)** and **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**.
+By **Definition 1.2.2 (Basis, Basis Vectors)**, the necessary and sufficient condition for three vectors to form a basis of space is that they are not coplanar.
 
-(1) $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$ only implies that $l_{1}$ and $l_{3}$ are parallel or skew; after $l_{3}\perp l_{4}$, the positional relationship between $l_{1}$ and $l_{4}$ remains undetermined. Hence choose (D).
+The fact that $\boldsymbol{a}$, $\boldsymbol{b}$ cannot form a basis of space with any vector means that for any vector $\boldsymbol{c}$, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ never forms a basis, i.e. $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are always coplanar.
 
-(2) $l\perp\alpha$ necessarily gives $l\perp m$ and $l\perp n$, but when $l\perp m$ and $l\perp n$, if $m\parallel n$ then one cannot deduce $l\perp\alpha$. Hence it is a sufficient but not necessary condition; choose (A).
+This is possible only when $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear (parallel): if $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear, they determine a line, and any third vector $\boldsymbol{c}$ may be coplanar with them (because collinear vectors are coplanar with any vector).
 
-(3) By **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**, two lines perpendicular to the same plane are parallel. Hence choose (C). $\blacksquare$
+Conversely, if $\boldsymbol{a}$, $\boldsymbol{b}$ are not collinear, then there exists a vector $\boldsymbol{c}$ lying outside the plane they span, so that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis.
+
+Hence $\boldsymbol{a}$, $\boldsymbol{b}$ must be collinear (parallel). $\blacksquare$
 
 ## Problem 2
 
-(Exercise 8.6, Review and Consolidation, Problem 2) Determine whether the following statements are correct; for a correct one, draw "$\sqrt{ }$" in the parentheses, and for a wrong one, draw "$\times$".
+(Exercise 1.2, Review and Consolidation, Problem 2) If $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ forms a basis of space, then among the following vectors, the non-coplanar one is ( ).
 
-(1) Through a point outside a plane, there is exactly one line perpendicular to this plane.
-
-(2) Through a point outside a plane, there is exactly one line parallel to this plane.
-
-(3) Through a point outside a line, there is exactly one plane perpendicular to this line.
-
-(4) Through a point outside a line, there is exactly one plane parallel to this line.
-
-(5) Through a point outside a line, there is exactly one line parallel to this line.
+(A) $\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{b}$, $\boldsymbol{b}-\boldsymbol{c}$ (B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ (C) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$, $\boldsymbol{c}$ (D) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{c}$
 
 ### Solution to Problem 2
 
-Judge by the basic properties of line-plane parallelism and perpendicularity.
+By **Definition 1.2.2 (Basis, Basis Vectors)**, determine whether three vectors are coplanar.
 
-(1) Correct. The line through a point outside a plane perpendicular to that plane is unique.
+(A) $\boldsymbol{b}$, $\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{b}-\boldsymbol{c}$ all lie in the plane spanned by $\boldsymbol{b}$, $\boldsymbol{c}$; coplanar.
 
-(2) Wrong. Through a point outside a plane there are infinitely many lines parallel to that plane, all lying in the plane passing through the point and parallel to the given plane.
+(B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ all lie in the plane spanned by $\boldsymbol{a}$, $\boldsymbol{b}$; coplanar.
 
-(3) Correct. The plane through a point outside a line perpendicular to that line is unique.
+(C) Suppose $\boldsymbol{c}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$; this contradicts $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ being a basis. Hence not coplanar.
 
-(4) Wrong. Through a point outside a line there are infinitely many planes parallel to that line.
+(D) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}$; the three vectors are coplanar.
 
-(5) Correct. By the parallel postulate, through a point outside a line there is exactly one line parallel to the given line. $\blacksquare$
+Hence the answer is (C). $\blacksquare$
 
 ## Problem 3
 
-(Exercise 8.6, Review and Consolidation, Problem 3) Determine whether the following statements are correct; for a correct one, explain why, and for a wrong one, give an example.
-
-(1) One line is parallel to a plane, and another line is perpendicular to this plane; then the two lines are perpendicular to each other;
-
-(2) If plane $\alpha\parallel$ plane $\alpha_{1}$ and plane $\beta\parallel$ plane $\beta_{1}$, then the dihedral angle formed by plane $\alpha$ and plane $\beta$ and the dihedral angle formed by plane $\alpha_{1}$ and plane $\beta_{1}$ are equal or supplementary;
-
-(3) If plane $\alpha\perp$ plane $\beta$ and plane $\beta\perp$ plane $\gamma$, then plane $\alpha\perp$ plane $\gamma$.
+(Exercise 1.2, Review and Consolidation, Problem 3) Given a tetrahedron $OABC$, $M$, $N$ are the midpoints of edges $OA$, $BC$, respectively, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. Express the vector $\boldsymbol{MN}$ in terms of $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
 
 ### Solution to Problem 3
 
-Judge by **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
 
-(1) Correct. Line $l\parallel$ plane $\alpha$, line $m\perp\alpha$. Pass a plane through $l$ intersecting $\alpha$ in $l'$, then $l\parallel l'$. Since $m\perp\alpha$, we have $m\perp l'$, and hence $m\perp l$.
-
-(2) Correct. Two parallel planes respectively intersecting another two parallel planes yield plane angles of the resulting dihedral angles that are correspondingly equal or supplementary.
-
-(3) Wrong. Counterexample: a wall is perpendicular to the floor, and another wall is also perpendicular to the floor, but these two walls are parallel or intersecting, not necessarily perpendicular. $\blacksquare$
+$\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\frac{1}{2}\left(\boldsymbol{OB}+\boldsymbol{OC}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 8.6, Review and Consolidation, Problem 4) As shown in the figure, in the right triangular prism $ABC\text{-}A_{1}B_{1}C_{1}$, $CA=CB$, $P$ is the midpoint of $A_{1}B$, and $Q$ is the midpoint of edge $C_{1}C$. Prove that:
+(Exercise 1.2, Review and Consolidation, Problem 4) As shown in the figure, translate $\triangle ABC$ in space to $\triangle A'B'C'$, and join the corresponding vertices. Set $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$; $M$ is the midpoint of $BC'$ and $N$ is the midpoint of $B'C'$. Express the vectors $\boldsymbol{AM}$, $\boldsymbol{AN}$ in terms of the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$.
 
-(1) $PQ\parallel AB$;
-
-(2) $PQ\perp C_{1}C$;
-
-(3) $PQ\perp A_{1}B$.
-
-(Figure: a right triangular prism $ABC\text{-}A_{1}B_{1}C_{1}$ with $CA=CB$, $P$ the midpoint of $A_{1}B$, and $Q$ the midpoint of $C_{1}C$.)
+(Figure: $\triangle ABC$ translated to $\triangle A'B'C'$, with $M$ the midpoint of $BC'$ and $N$ the midpoint of $B'C'$.)
 
 ### Solution to Problem 4
 
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
 
-Take the midpoint $M$ of $AB$, and connect $PM$, $CM$.
+$\boldsymbol{AM}=\boldsymbol{AB}+\boldsymbol{BM}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{BC'}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
 
-(1) In $\triangle A_{1}AB$, $P$, $M$ are the midpoints of $A_{1}B$, $AB$ respectively, so $PM\parallel A_{1}A$ and $PM=\frac{1}{2}A_{1}A$. Moreover, $Q$ is the midpoint of $C_{1}C$, $CQ=\frac{1}{2}C_{1}C=\frac{1}{2}A_{1}A$, and $CQ\parallel A_{1}A$. Hence $PM=\ CQ$, the quadrilateral $PMCQ$ is a parallelogram, and $PQ\parallel CM$. Moreover, $CM\subset$ the base $ABC$, $AB\subset$ the base, so $PQ\parallel AB$.
+$\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{A'C'}+\frac{1}{2}\boldsymbol{A'B'}$ in direction. In fact, $N$ is the midpoint of $B'C'$, and $\boldsymbol{A'N}=\frac{1}{2}\left(\boldsymbol{A'B'}+\boldsymbol{A'C'}\right)=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)$.
 
-(2) $CA=CB$, $M$ is the midpoint of $AB$, so $CM\perp AB$. In the right triangular prism, $CC_{1}\perp$ the base $ABC$, so $CC_{1}\perp CM$. Since $PQ\parallel CM$, we have $PQ\perp C_{1}C$.
-
-(3) $CM\perp AB$, $CM\perp BB_{1}$ (right triangular prism), so $CM\perp$ plane $ABB_{1}A_{1}$. Since $A_{1}B\subset$ plane $ABB_{1}A_{1}$, we have $CM\perp A_{1}B$. Since $PQ\parallel CM$, we have $PQ\perp A_{1}B$. $\blacksquare$
+Hence $\boldsymbol{AN}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 8.6, Review and Consolidation, Problem 5) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $CD\perp AB$ with foot $D$, $PO\perp$ the base $ABC$ with foot $O$, and $O$ lies on $CD$. Prove that $AB\perp PC$.
+(Exercise 1.2, Comprehensive Application, Problem 5) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, $M$ is the intersection of $AC$ and $BD$. If $D_1A_1=2$, $D_1C_1=2$, $D_1D=3$, find the length of $B_1M$.
 
-(Figure: a triangular pyramid $P\text{-}ABC$ with $PO\perp$ base $ABC$, $O$ on $CD$, and $CD\perp AB$.)
+(Figure: a cuboid $ABCD-A_1B_1C_1D_1$, with $M$ the intersection of the base diagonals $AC$ and $BD$.)
 
 ### Solution to Problem 5
 
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Since $PO\perp$ the base $ABC$ and $AB\subset$ the base $ABC$, we have $PO\perp AB$.
+Take $D_1$ as the origin, with $\boldsymbol{D_1A_1}=\boldsymbol{i}$, $\boldsymbol{D_1C_1}=\boldsymbol{j}$, $\boldsymbol{D_1D}=\boldsymbol{k}$; they are pairwise perpendicular, and $\lvert \boldsymbol{i} \rvert=2$, $\lvert \boldsymbol{j} \rvert=2$, $\lvert \boldsymbol{k} \rvert=3$.
 
-Moreover, it is given that $CD\perp AB$, and $PO\cap CD=O$; by **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**, $AB\perp$ plane $PCD$.
+$M$ is the intersection of $AC$ and $BD$, i.e. the center of the base $ABCD$.
 
-Since $PC\subset$ plane $PCD$, we have $AB\perp PC$. $\blacksquare$
+$\boldsymbol{D_1M}=\frac{1}{2}\left(\boldsymbol{D_1A}+\boldsymbol{D_1C}\right)=\frac{1}{2}\left(\boldsymbol{i}+\boldsymbol{k}+\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
+
+$\boldsymbol{D_1B_1}=\boldsymbol{i}+\boldsymbol{j}$.
+
+$\boldsymbol{B_1M}=\boldsymbol{D_1M}-\boldsymbol{D_1B_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}-\boldsymbol{i}-\boldsymbol{j}=-\frac{1}{2}\boldsymbol{i}-\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
+
+$$
+\lvert \boldsymbol{B_1M} \rvert^2=\frac{1}{4}\lvert \boldsymbol{i} \rvert^2+\frac{1}{4}\lvert \boldsymbol{j} \rvert^2+\lvert \boldsymbol{k} \rvert^2=\frac{1}{4} \times 4+\frac{1}{4} \times 4+9=1+1+9=11.
+$$
+
+Hence $B_1M=\sqrt{11}$. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 8.6, Review and Consolidation, Problem 6) As shown in the figure, in the cube $ABCD\text{-}A'B'C'D'$, what are the sizes of the dihedral angles formed by the plane $ABC'D'$ and the planes of the various faces of the cube respectively?
+(Exercise 1.2, Comprehensive Application, Problem 6) As shown in the figure, the base $ABCD$ of the parallelepiped $ABCD-A_1B_1C_1D_1$ is a rhombus, and $\angle C_1CB=\angle C_1CD=\angle BCD=60^\circ$, $CD=CC_1$. Prove that $CA_1 \perp$ the plane $C_1BD$.
 
-(Figure: a cube $ABCD\text{-}A'B'C'D'$ with the plane $ABC'D'$ marked.)
+(Figure: a parallelepiped $ABCD-A_1B_1C_1D_1$ with rhombus base $ABCD$, $CD=CC_1$, and the three angles at vertex $C$ all equal to $60^\circ$.)
 
 ### Solution to Problem 6
 
-Compute by **Definition 8.6.7 (Dihedral Angle)**.
+By **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-The lines of intersection of the plane $ABC'D'$ with the six faces of the cube are $AB$, $C'D'$, $AD'$, $BC'$ respectively.
+Set $\boldsymbol{CD}=\boldsymbol{a}$, $\boldsymbol{CB}=\boldsymbol{b}$, $\boldsymbol{CC_1}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$ (because the base is a rhombus and $CD=CC_1$), and the pairwise angles are all $60^\circ$.
 
-The dihedral angles formed with the bottom face $ABCD$, the top face $A'B'C'D'$, the front face $ABB'A'$, and the back face $CDD'C'$ are all $45^{\circ}$ (because in the direction of the lines of intersection of this plane with these four faces, the inclination angle of the plane is $45^{\circ}$).
+$\boldsymbol{CA_1}=\boldsymbol{CA}+\boldsymbol{AA_1}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
 
-The dihedral angles formed with the left face $ADD'A'$ and the right face $BCC'B'$ are both $90^{\circ}$ (because the plane $ABC'D'$ is perpendicular to these two faces).
+$\boldsymbol{C_1D}=\boldsymbol{CD}-\boldsymbol{CC_1}=\boldsymbol{a}-\boldsymbol{c}$.
 
-Hence the plane $ABC'D'$ forms $45^{\circ}$ with the four front/back/top/bottom faces and $90^{\circ}$ with the two left/right faces. $\blacksquare$
+$\boldsymbol{C_1B}=\boldsymbol{CB}-\boldsymbol{CC_1}=\boldsymbol{b}-\boldsymbol{c}$.
+
+$\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}-\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2$.
+
+Because $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$ and the pairwise angles are $60^\circ$, $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}$, so the above $=\boldsymbol{a}^2-\boldsymbol{c}^2=0$.
+
+Similarly $\boldsymbol{CA_1} \cdot \boldsymbol{C_1B}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c}^2=0$.
+
+By **Common Conclusion 1.1.13**, $\boldsymbol{CA_1} \perp \boldsymbol{C_1D}$ and $\boldsymbol{CA_1} \perp \boldsymbol{C_1B}$. Moreover $C_1D \cap C_1B=C_1$, so $CA_1 \perp$ the plane $C_1BD$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 8.6, Review and Consolidation, Problem 7) As shown in the figure, in the triangular pyramid $V\text{-}ABC$, given $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$, determine the positional relationship between plane $VAB$ and plane $VBC$, and explain why.
+(Exercise 1.2, Extension and Exploration, Problem 7) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $E$, $F$ are the midpoints of $DD_1$, $BD$, respectively, and the point $G$ lies on $CD$ with $CG=\frac{1}{4}CD$.
 
-(Figure: a triangular pyramid $V\text{-}ABC$ with $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$.)
+(1) Prove that $EF \perp B_1C$;
+
+(2) Find the cosine of the angle between $EF$ and $C_1G$.
+
+(Figure: a cube $ABCD-A_1B_1C_1D_1$ of side $1$, with $E$ the midpoint of $DD_1$, $F$ the midpoint of $BD$, and $G$ on $CD$ with $CG=\frac{1}{4}CD$.)
 
 ### Solution to Problem 7
 
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)** and **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
+By **Common Conclusion 1.1.13** (Properties of the Dot Product) and **Definition 1.1.12 (Dot Product)**.
 
-Since $\angle VAB=\angle VAC=90^{\circ}$, we have $VA\perp AB$, $VA\perp AC$. Since $AB\cap AC=A$, we have $VA\perp$ plane $ABC$.
+Take $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD_1}\right\}$ as the orthonormal basis, denoted by $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$.
 
-Since $BC\subset$ plane $ABC$, we have $VA\perp BC$. Moreover, $\angle ABC=90^{\circ}$, i.e. $AB\perp BC$. Since $VA\cap AB=A$, we have $BC\perp$ plane $VAB$.
+(1) $E$ is the midpoint of $DD_1$, and $F$ is the midpoint of $BD$.
 
-Moreover, $BC\subset$ plane $VBC$; by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, plane $VBC\perp$ plane $VAB$. $\blacksquare$
+$\boldsymbol{EF}=\boldsymbol{DF}-\boldsymbol{DE}=\frac{1}{2}\boldsymbol{DB}-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\left(\boldsymbol{DA}+\boldsymbol{DC}\right)-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}$.
+
+$\boldsymbol{B_1C}=\boldsymbol{B_1B}+\boldsymbol{BC}=-\boldsymbol{k}-\boldsymbol{i}=-\boldsymbol{i}-\boldsymbol{k}$.
+
+$\boldsymbol{EF} \cdot \boldsymbol{B_1C}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{i}-\boldsymbol{k}\right)=-\frac{1}{2}+\frac{1}{2}=0$.
+
+By **Common Conclusion 1.1.13**, $EF \perp B_1C$.
+
+(2) $G$ lies on $CD$ with $CG=\frac{1}{4}CD$, so $\boldsymbol{C_1G}=\boldsymbol{C_1C}+\boldsymbol{CG}=-\boldsymbol{k}+\frac{1}{4}\left(-\boldsymbol{j}\right)=-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}$.
+
+$\boldsymbol{EF} \cdot \boldsymbol{C_1G}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}\right)=-\frac{1}{8}+\frac{1}{2}=\frac{3}{8}$.
+
+$\lvert \boldsymbol{EF} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+\frac{1}{4}}=\frac{\sqrt{3}}{2}$.
+
+$\lvert \boldsymbol{C_1G} \rvert=\sqrt{\frac{1}{16}+1}=\frac{\sqrt{17}}{4}$.
+
+$\cos \theta=\frac{\frac{3}{8}}{\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{17}}{4}}=\frac{\frac{3}{8}}{\frac{\sqrt{51}}{8}}=\frac{3}{\sqrt{51}}=\frac{\sqrt{51}}{17}$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 8.6, Review and Consolidation, Problem 8) Prove that if three concurrent lines are pairwise perpendicular, then the planes determined by each pair of them are also pairwise perpendicular.
+(Exercise 1.2, Extension and Exploration, Problem 8) Given that in a tetrahedron the distances between the midpoints of the three pairs of opposite edges are all equal, prove that the opposite edges of this tetrahedron are pairwise perpendicular.
 
 ### Solution to Problem 8
 
-By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
+By **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Let the three lines concurrent at $O$ be $l_{1}$, $l_{2}$, $l_{3}$, pairwise perpendicular, i.e. $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$, $l_{3}\perp l_{1}$.
+Consider the tetrahedron $OABC$; the midpoint connections of the three pairs of opposite edges are: the segment joining the midpoints of $AB$ and $OC$, the segment joining the midpoints of $BC$ and $OA$, and the segment joining the midpoints of $CA$ and $OB$.
 
-$l_{1}\perp l_{2}$ and $l_{1}\perp l_{3}$, with $l_{2}\cap l_{3}=O$; by **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**, $l_{1}\perp$ plane $\left(l_{2},l_{3}\right)$.
+Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
 
-The plane $\left(l_{1},l_{2}\right)$ passes through $l_{1}$, while $l_{1}\perp$ plane $\left(l_{2},l_{3}\right)$, so plane $\left(l_{1},l_{2}\right)\perp$ plane $\left(l_{2},l_{3}\right)$.
+$M_1$ is the midpoint of $AB$ and $N_1$ the midpoint of $OC$: $\boldsymbol{M_1N_1}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
 
-Similarly one proves plane $\left(l_{2},l_{3}\right)\perp$ plane $\left(l_{3},l_{1}\right)$ and plane $\left(l_{3},l_{1}\right)\perp$ plane $\left(l_{1},l_{2}\right)$. Hence the three planes are pairwise perpendicular. $\blacksquare$
+$M_2$ is the midpoint of $BC$ and $N_2$ the midpoint of $OA$: $\boldsymbol{M_2N_2}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)=\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)$.
 
-## Problem 9
+$M_3$ is the midpoint of $CA$ and $N_3$ the midpoint of $OB$: $\boldsymbol{M_3N_3}=\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\left(\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$.
 
-(Exercise 8.6, Review and Consolidation, Problem 9) Given planes $\alpha$, $\beta$, $\gamma$, with $\alpha\perp\gamma$, $\beta\parallel\alpha$, prove that $\beta\perp\gamma$.
+The distances between the three pairs of midpoints are equal, i.e. $\lvert \boldsymbol{M_1N_1} \rvert=\lvert \boldsymbol{M_2N_2} \rvert=\lvert \boldsymbol{M_3N_3} \rvert$.
 
-### Solution to Problem 9
-
-By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)** and **Theorem 8.5.6 (Property of Two Parallel Planes)**.
-
-Let $\alpha\cap\gamma=a$. Within $\alpha$ draw a line $l\perp a$; by **Theorem 8.6.9 (Property of Two Perpendicular Planes)**, $l\perp\gamma$.
-
-Since $\alpha\parallel\beta$, pass a plane through $l$ intersecting $\beta$ in $l'$; by the property of parallel planes, $l'\parallel l$.
-
-Since $l\perp\gamma$, we have $l'\perp\gamma$. Moreover, $l'\subset\beta$; by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, $\beta\perp\gamma$. $\blacksquare$
-
-## Problem 10
-
-(Exercise 8.6, Review and Consolidation, Problem 10) Given planes $\alpha$, $\beta$, $\gamma$, with $\alpha\perp\gamma$, $\beta\perp\gamma$, $\alpha\cap\beta=l$, prove that $l\perp\gamma$.
-
-### Solution to Problem 10
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
-
-Let $\alpha\cap\gamma=a$, $\beta\cap\gamma=b$. Within $\gamma$ draw a line $m\perp a$; by the property of perpendicular planes, $m\perp\alpha$, so $m\perp l$.
-
-Similarly, within $\gamma$ draw a line $n\perp b$; then $n\perp\beta$, so $n\perp l$.
-
-$m$, $n$ are two intersecting lines in $\gamma$, and $l$ is perpendicular to two intersecting lines in $\gamma$. By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**, $l\perp\gamma$. $\blacksquare$
-
-## Problem 11
-
-(Exercise 8.6, Comprehensive Application, Problem 11) As shown in the figure on the next page, in the cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, the points $P$, $Q$ are the midpoints of the edges $AD$, $CC_{1}$ respectively. Prove that $A_{1}P\perp BQ$.
-
-### Solution to Problem 11
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
-
-Take the midpoint $R$ of $DD_{1}$, and connect $A_{1}R$, $PR$. In the square $ADD_{1}A_{1}$, $P$, $R$ are the midpoints of $AD$, $DD_{1}$ respectively; one can prove $A_{1}P\perp A_{1}R$ (by triangle congruence, the corresponding angles are complementary).
-
-Moreover, $BQ\parallel A_{1}R$ (by the symmetry of the cube and the property of the mid-segment, the directions of $BQ$ and $A_{1}R$ are correspondingly parallel).
-
-Hence $A_{1}P\perp BQ$. $\blacksquare$
-
-## Problem 12
-
-(Exercise 8.6, Comprehensive Application, Problem 12) As shown in the figure, $m$, $n$ are two intersecting lines, $l_{1}$, $l_{2}$ are two lines both perpendicular to $m$, $n$, and the line $l$ intersects both $l_{1}$, $l_{2}$. Prove that $\angle 1=\angle 2$.
-
-(Figure: two intersecting lines $m,n$, two lines $l_{1},l_{2}$ both perpendicular to the plane of $m,n$, and a line $l$ cutting $l_{1},l_{2}$ to form angles $\angle 1,\angle 2$.)
-
-### Solution to Problem 12
-
-By **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**.
-
-Since $l_{1}\perp m$, $l_{1}\perp n$, $m\cap n=O$, we have $l_{1}\perp$ plane $\left(m,n\right)$. Similarly, $l_{2}\perp$ plane $\left(m,n\right)$.
-
-By **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**, $l_{1}\parallel l_{2}$.
-
-The line $l$ intersects the two parallel lines $l_{1}$, $l_{2}$; $\angle 1$ and $\angle 2$ are corresponding angles formed when the two parallel lines are cut by $l$, so $\angle 1=\angle 2$. $\blacksquare$
-
-## Problem 13
-
-(Exercise 8.6, Comprehensive Application, Problem 13) Prove that the angles formed by two parallel lines with the same plane are equal.
-
-### Solution to Problem 13
-
-By **Definition 8.6.6 (Angle Between a Line and a Plane)**.
-
-Let the lines be $a\parallel b$, and let the angles they form with plane $\alpha$ be $\theta_{1}$, $\theta_{2}$ respectively.
-
-Take points $A$, $B$ on $a$, $b$ respectively, and draw $AA'\perp\alpha$, $BB'\perp\alpha$, with feet $A'$, $B'$. Connect the oblique feet and the feet of the perpendiculars.
-
-From $a\parallel b$, the two right triangles are similar, and the angles formed by the oblique lines and their projections are correspondingly equal. Hence $\theta_{1}=\theta_{2}$. $\blacksquare$
-
-## Problem 14
-
-(Exercise 8.6, Comprehensive Application, Problem 14) As shown in the figure, in the pyramid $V\text{-}ABC$, $VO\perp$ plane $ABC$, $O\in CD$, $VA=VB$, $AD=BD$. Can you conclude that $CD\perp AB$ and that $AC=BC$?
-
-(Figure: a pyramid $V\text{-}ABC$ with $VO\perp$ base $ABC$, $O$ on $CD$, and $D$ the midpoint of $AB$.)
-
-### Solution to Problem 14
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
-
-Since $VO\perp$ plane $ABC$, we have $VO\perp OA$, $VO\perp OB$. From $VA=VB$ and the common side $VO$, we get $\text{Rt}\triangle VOA\cong\text{Rt}\triangle VOB$, so $OA=OB$.
-
-Moreover, $AD=BD$, i.e. $D$ is the midpoint of $AB$. Within the plane of $\triangle ABC$, $O$ lies on $CD$, $OA=OB$, $AD=BD$, so $OD\perp AB$. That is, $CD\perp AB$.
-
-$CD\perp AB$, $D$ is the midpoint of $AB$, so $CD$ is the perpendicular bisector of $AB$; $A$, $B$ are symmetric about $CD$, and hence $AC=BC$. $\blacksquare$
-
-## Problem 15
-
-(Exercise 8.6, Comprehensive Application, Problem 15) As shown in the figure, in the square $SG_{1}G_{2}G_{3}$, $E$, $F$ are the midpoints of $G_{1}G_{2}$, $G_{2}G_{3}$ respectively, and $D$ is the midpoint of $EF$. If along $SE$, $SF$ and $EF$ this square is folded into a tetrahedron so that the three points $G_{1}$, $G_{2}$, $G_{3}$ coincide, and the coincident point is denoted $G$, then in the tetrahedron $S\text{-}EFG$, which edges are perpendicular to which faces?
-
-(Figure: a square $SG_{1}G_{2}G_{3}$ with $E$ the midpoint of $G_{1}G_{2}$, $F$ the midpoint of $G_{2}G_{3}$, and $D$ the midpoint of $EF$.)
-
-### Solution to Problem 15
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
-
-After folding, the right angles in the original square are preserved: $\angle SGE=\angle SG_{1}E=90^{\circ}$, $\angle SGF=\angle SG_{3}F=90^{\circ}$, $\angle EGF=\angle G_{1}G_{2}G_{3}=90^{\circ}$.
-
-Since $SG\perp GE$, $SG\perp GF$, $GE\cap GF=G$, we have $SG\perp$ plane $EFG$.
-
-Since $GE\perp GF$, $GE\perp SG$, $SG\cap GF=G$, we have $GE\perp$ plane $SGF$.
-
-Since $GF\perp GE$, $GF\perp SG$, $SG\cap GE=G$, we have $GF\perp$ plane $SEG$.
-
-Hence edge $SG\perp$ plane $EFG$, edge $GE\perp$ plane $SGF$, edge $GF\perp$ plane $SEG$. $\blacksquare$
-
-## Problem 16
-
-(Exercise 8.6, Comprehensive Application, Problem 16) Prove that a line perpendicular to one of two parallel planes is also perpendicular to the other plane.
-
-### Solution to Problem 16
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)** and **Theorem 8.5.6 (Property of Two Parallel Planes)**.
-
-Let $\alpha\parallel\beta$, and let the line be $l\perp\alpha$. Pass two intersecting planes through $l$, intersecting $\alpha$, $\beta$ in $a$, $a'$ and $b$, $b'$ respectively.
-
-Since $l\perp\alpha$, we have $l\perp a$, $l\perp b$.
-
-By **Theorem 8.5.6 (Property of Two Parallel Planes)**, $a\parallel a'$, $b\parallel b'$. Hence $l\perp a'$, $l\perp b'$.
-
-$a'$, $b'$ are two intersecting lines in $\beta$; by **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**, $l\perp\beta$. $\blacksquare$
-
-## Problem 17
-
-(Exercise 8.6, Comprehensive Application, Problem 17) Prove that the lines of intersection of three pairwise perpendicular planes are also pairwise perpendicular.
-
-### Solution to Problem 17
-
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
-
-Let the planes be $\alpha\perp\beta$, $\beta\perp\gamma$, $\gamma\perp\alpha$, with lines of intersection $l=\alpha\cap\beta$, $m=\beta\cap\gamma$, $n=\gamma\cap\alpha$.
-
-Since $\alpha\perp\gamma$, $\beta\perp\gamma$, $\alpha\cap\beta=l$, by the conclusion of **(Exercise 8.6, Review and Consolidation, Problem 10)**, $l\perp\gamma$.
-
-$m$, $n\subset\gamma$, so $l\perp m$, $l\perp n$.
-
-Similarly, $m\perp\alpha$, so $m\perp n$.
-
-Hence $l$, $m$, $n$ are pairwise perpendicular. $\blacksquare$
-
-## Problem 18
-
-(Exercise 8.6, Comprehensive Application, Problem 18) As shown in the figure, in the triangular pyramid $V\text{-}ABC$, $VA=VB=AB=AC=BC=2$, $VC=1$. Construct the plane angle of the dihedral angle $V\text{-}AB\text{-}C$ and find its cosine value.
-
-(Figure: a triangular pyramid $V\text{-}ABC$ with $VA=VB=AB=AC=BC=2$, $VC=1$.)
-
-### Solution to Problem 18
-
-By **Definition 8.6.7 (Dihedral Angle)**.
-
-Take the midpoint $D$ of $AB$, and connect $VD$, $CD$.
-
-Since $VA=VB=2$ and $D$ is the midpoint of $AB$, we have $VD\perp AB$ and $VD=\sqrt{VA^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
-
-Since $AC=BC=2$ and $D$ is the midpoint of $AB$, we have $CD\perp AB$ and $CD=\sqrt{AC^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
-
-$\angle VDC$ is the plane angle of the dihedral angle $V\text{-}AB\text{-}C$.
-
-In $\triangle VDC$, $VD=CD=\sqrt{3}$, $VC=1$. By the law of cosines:
+From $\lvert \boldsymbol{M_1N_1} \rvert^2=\lvert \boldsymbol{M_2N_2} \rvert^2$:
 
 $$
-\cos\angle VDC=\frac{VD^{2}+CD^{2}-VC^{2}}{2\cdot VD\cdot CD}=\frac{3+3-1}{2\times 3}=\frac{5}{6}.
+\frac{1}{4}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\frac{1}{4}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)^2.
 $$
 
-Hence the cosine value of the dihedral angle $V\text{-}AB\text{-}C$ is $\frac{5}{6}$. $\blacksquare$
+Expanding: $\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$ (identical), which is an identity, showing that one must compare different pairs.
 
-## Problem 19
+In fact, the three midpoint-connecting segments being equal in length means:
 
-(Exercise 8.6, Extension and Exploration, Problem 19) As shown in the figure, in the right triangular prism $ABC\text{-}A_{1}B_{1}C_{1}$, $\angle ABC=90^{\circ}$, $AA_{1}=AB$. Prove that $A_{1}C\perp AB_{1}$.
+$\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c} \rvert^2$.
 
-(Figure: a right triangular prism $ABC\text{-}A_{1}B_{1}C_{1}$ with $\angle ABC=90^{\circ}$.)
+Equating the first two: expanding $\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)^2$ gives $-4\boldsymbol{a} \cdot \boldsymbol{b}+4\boldsymbol{b} \cdot \boldsymbol{c}=4\boldsymbol{a} \cdot \boldsymbol{b}-4\boldsymbol{a} \cdot \boldsymbol{c}$, i.e. $-\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}$, i.e. $2\boldsymbol{b} \cdot \boldsymbol{c}+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}=0$.
 
-### Solution to Problem 19
+But more directly, take $\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2$:
 
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+$\left(\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{a}\right)^2=\left(\boldsymbol{a}+\boldsymbol{c}-\boldsymbol{b}\right)^2$.
 
-Since $\angle ABC=90^{\circ}$, we have $AB\perp BC$. In the right triangular prism, $BB_{1}\perp$ the base $ABC$, so $BB_{1}\perp AB$. Since $BC\cap BB_{1}=B$, we have $AB\perp$ plane $BCC_{1}B_{1}$.
+Expanding: $\boldsymbol{b}^2+\boldsymbol{c}^2+\boldsymbol{a}^2+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{c}^2+\boldsymbol{b}^2+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{b} \cdot \boldsymbol{c}$.
 
-Moreover, $BC_{1}\subset$ plane $BCC_{1}B_{1}$, so $AB\perp BC_{1}$.
+Simplifying gives $4\boldsymbol{b} \cdot \boldsymbol{c}-4\boldsymbol{a} \cdot \boldsymbol{c}=0$, i.e. $\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=0$.
 
-Since $AA_{1}=AB=BB_{1}$, the side face $ABB_{1}A_{1}$ is a square, so $AB_{1}\perp A_{1}B$.
+Since $\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$ and $\boldsymbol{OC}=\boldsymbol{c}$, we have $\boldsymbol{AB} \cdot \boldsymbol{OC}=0$, i.e. $AB \perp OC$.
 
-$AB_{1}\perp A_{1}B$, $AB_{1}\perp BC_{1}$, $A_{1}B\cap BC_{1}=B$, so $AB_{1}\perp$ plane $A_{1}BC$.
+Similarly, comparing the other two pairs gives $BC \perp OA$, $CA \perp OB$.
 
-Since $A_{1}C\subset$ plane $A_{1}BC$, we have $AB_{1}\perp A_{1}C$. $\blacksquare$
+Hence the opposite edges of the tetrahedron are pairwise perpendicular. $\blacksquare$
 
-## Problem 20
+## Exercise 7
 
-(Exercise 8.6, Extension and Exploration, Problem 20) As shown in the figure on the previous page, $AB$ is a diameter of $\odot O$, point $C$ is a moving point on $\odot O$, and the line $VC$ through the moving point $C$ is perpendicular to the plane of $\odot O$. $D$, $E$ are the midpoints of $VA$, $VC$ respectively. Determine the positional relationship between line $DE$ and plane $VBC$, and explain why.
+(Exercise 1.3, Problem 1) Plot the following points in the rectangular coordinate system in space:
 
-### Solution to Problem 20
+$A\left(0,2,4\right)$, $B\left(1,0,5\right)$, $C\left(0,2,0\right)$, $D\left(1,3,4\right)$.
 
-By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+### Solution to Exercise 7
 
-Since $D$, $E$ are the midpoints of $VA$, $VC$ respectively, in $\triangle VAC$, $DE$ is a mid-segment, so $DE\parallel AC$.
+By **Definition 1.3.2 (Coordinates of a Point)**, in the rectangular coordinate system $Oxyz$, the abscissa corresponds to the $x$-axis, the ordinate to the $y$-axis, and the applicate to the $z$-axis.
 
-Since $AB$ is a diameter of $\odot O$ and $C$ is a point on the circle, we have $\angle ACB=90^{\circ}$, i.e. $AC\perp BC$.
+$A\left(0,2,4\right)$: in the $yOz$ plane, move $2$ along the $y$-axis direction, then move $4$ along the $z$-axis direction.
 
-Moreover, $VC\perp\odot O$ (the plane it lies in), and $AC\subset$ that plane, so $VC\perp AC$.
+$B\left(1,0,5\right)$: in the $xOz$ plane, move $1$ along the $x$-axis direction, then move $5$ along the $z$-axis direction.
 
-$BC\cap VC=C$, so $AC\perp$ plane $VBC$.
+$C\left(0,2,0\right)$: on the $y$-axis, with coordinates $\left(0,2,0\right)$.
 
-Since $DE\parallel AC$, we have $DE\perp$ plane $VBC$. $\blacksquare$
+$D\left(1,3,4\right)$: from the origin move $1$ along the $x$-axis, $3$ along the $y$-axis, and $4$ along the $z$-axis. $\blacksquare$
 
-## Problem 21
+## Exercise 8
 
-(Exercise 8.6, Extension and Exploration, Problem 21) As shown in the figure, in the quadrangular pyramid $P\text{-}ABCD$, the base $ABCD$ is a square, $PA\perp$ the base $ABCD$, $PA=AB$, $E$ is the midpoint of segment $PB$, and $F$ is a moving point on segment $BC$. Are the plane $AEF$ and the plane $PBC$ perpendicular to each other? If they are perpendicular, prove it; if not, explain why.
+(Exercise 1.3, Problem 2) In the rectangular coordinate system $Oxyz$ in space,
 
-(Figure: a quadrangular pyramid $P\text{-}ABCD$ with square base $ABCD$, $PA\perp$ base, $E$ the midpoint of $PB$, and $F$ on $BC$.)
+(1) Which coordinate plane is perpendicular to the $x$-axis? Which to the $y$-axis? Which to the $z$-axis?
 
-### Solution to Problem 21
+(2) Write out the coordinates of the projections of point $P\left(2,3,4\right)$ onto the three coordinate planes.
 
-By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
+(3) Write out the coordinates of the point centrally symmetric to $P\left(1,3,5\right)$ with respect to the origin.
 
-Since $PA=AB$ and $E$ is the midpoint of $PB$, in the isosceles right triangle $PAB$ we have $AE\perp PB$.
+### Solution to Exercise 8
 
-Since $PA\perp$ the base $ABCD$ and $BC\subset$ the base, we have $PA\perp BC$. The base $ABCD$ is a square, so $AB\perp BC$. Since $PA\cap AB=A$, we have $BC\perp$ plane $PAB$.
+By **Definition 1.3.1 (Rectangular Coordinate System in Space)** and **Definition 1.3.2 (Coordinates of a Point)**.
 
-Moreover, $AE\subset$ plane $PAB$, so $BC\perp AE$.
+(1) By **Definition 1.3.1 (Spatial Cartesian Coordinate System)**, the $yOz$ plane is perpendicular to the $x$-axis, the $xOz$ plane to the $y$-axis, and the $xOy$ plane to the $z$-axis.
 
-$AE\perp PB$, $AE\perp BC$, $PB\cap BC=B$, so $AE\perp$ plane $PBC$.
+(2) The projection of $P\left(2,3,4\right)$ onto the $xOy$ plane is $\left(2,3,0\right)$; onto the $yOz$ plane is $\left(0,3,4\right)$; onto the $xOz$ plane is $\left(2,0,4\right)$.
 
-Moreover, $AE\subset$ plane $AEF$; by **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, plane $AEF\perp$ plane $PBC$.
-
-Hence no matter how $F$ moves on $BC$, the plane $AEF$ and the plane $PBC$ are always perpendicular to each other. $\blacksquare$
+(3) For the point centrally symmetric to $P\left(1,3,5\right)$ with respect to the origin, all three coordinates are negated, giving $\left(-1,-3,-5\right)$. $\blacksquare$

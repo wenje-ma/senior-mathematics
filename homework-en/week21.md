@@ -1,650 +1,430 @@
 # week21
-> **Definition 5.2.1 (Sine, Cosine, Tangent)**
+> **Definition 5.6.1 (周期函数)**
 > 
-> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
-> **Definition 5.2.2 (终边上任意一点的三角函数比值)**
+> 参见教材相应章节关于此概念的论述.
+> **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
 > 
-> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
-> **Definition 5.4.1 (周期函数)**
+> 参见教材相应章节关于此概念的论述.
+> **Definition 6.1.1 (向量与数量)**
 > 
-> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
-
-## Exercise 1
-
-(Exercise 5.4, Problem 1) In the same rectangular coordinate system, sketch the graphs of the functions $y=\sin x$, $x\in\left[0,2\pi\right]$, and $y=\cos x$, $x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$. By observing the two curves, state their similarities and differences.
-
-The graphs: in the same rectangular coordinate system, two wave curves of the same shape, both with period $2\pi$ and range $\left[-1,1\right]$: $y=\sin x$ ($x\in\left[0,2\pi\right]$) starts at the origin, rises to $\left(\frac{\pi}{2},1\right)$, descends through $\left(\pi,0\right)$ to $\left(\frac{3\pi}{2},-1\right)$, and returns to $\left(2\pi,0\right)$; $y=\cos x$ ($x\in\left[-\frac{\pi}{2},\frac{3\pi}{2}\right]$) rises from $\left(-\frac{\pi}{2},0\right)$ to $\left(0,1\right)$, descends through $\left(\frac{\pi}{2},0\right)$ to $\left(\pi,-1\right)$, and rises again through $\left(\frac{3\pi}{2},0\right)$; the cosine curve is the sine curve shifted left by $\frac{\pi}{2}$.
-
-### Solution to Exercise 1
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-Similarities: both curves are continuous, smooth, "wavy" curves of the same shape, both have period $2\pi$, and both have range $\left[-1,1\right]$.
-
-Differences: the sine curve passes through the origin at $x=0$ and is odd; the cosine curve attains its maximum $1$ at $x=0$ and is even. The cosine curve is obtained by shifting the sine curve to the left by $\frac{\pi}{2}$ units, i.e. $\cos x=\sin\left(x+\frac{\pi}{2}\right)$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 5.4, Problem 2) Use the five-point method to sketch the graphs of the following functions on $\left[-\pi,\pi\right]$ respectively:
-
-(1) $y=-\sin x$;
-
-(2) $y=2-\cos x$.
-
-The graphs: two figures. On the left is the five-point plot of $y=-\sin x$ on $\left[-\pi,\pi\right]$, with key points $\left(-\pi,0\right)$, $\left(-\frac{\pi}{2},1\right)$, $\left(0,0\right)$, $\left(\frac{\pi}{2},-1\right)$, and $\left(\pi,0\right)$, i.e. the sine curve reflected about the $x$-axis; on the right is the five-point plot of $y=2-\cos x$ on $\left[-\pi,\pi\right]$, with key points $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, and $\left(\pi,3\right)$, a wave oscillating between $y=1$ and $y=3$ and inverted vertically relative to the cosine curve.
-
-### Solution to Exercise 2
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function), take the five key points using the five-point method.
-
-(1) $y=-\sin x$: the five key points are $\left(-\pi,0\right)$, $\left(-\frac{\pi}{2},1\right)$, $\left(0,0\right)$, $\left(\frac{\pi}{2},-1\right)$, $\left(\pi,0\right)$.
-
-(2) $y=2-\cos x$: the five key points are $\left(-\pi,3\right)$, $\left(-\frac{\pi}{2},2\right)$, $\left(0,1\right)$, $\left(\frac{\pi}{2},2\right)$, $\left(\pi,3\right)$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 5.4, Problem 3) Consider the graphs of $y=\lvert\sin x\rvert$ and $y=\sin x$ and their relationship, and sketch the graph with the help of information technology to check.
-
-The graph: the graph of $y=\left|\sin x\right|$ is obtained by reflecting the part of $y=\sin x$ that lies below the $x$-axis up across the $x$-axis; the curve lies entirely above (or on) the $x$-axis, has range $\left[0,1\right]$, period $\pi$, and is symmetric about the $y$-axis, touching the $x$-axis at $x=k\pi$ and reaching the peak value $1$ at $x=\frac{\pi}{2}+k\pi$.
-
-### Solution to Exercise 3
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function).
-
-The graph of $y=\lvert\sin x\rvert$ is obtained by reflecting the part of the graph of $y=\sin x$ below the $x$-axis up over the $x$-axis. Hence $y=\lvert\sin x\rvert$ has range $\left[0,1\right]$, period $\pi$ (rather than $2\pi$), and is an even function. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 5.4, Problem 4) (Multiple-choice question) The graph of $y=1+\cos x$, $x\in\left[\frac{\pi}{3},2\pi\right]$, and the line $y=t$ ($t$ a constant) may intersect at ( ).
-
-(A) $0$ points
-
-(B) $1$ point
-
-(C) $2$ points
-
-(D) $3$ points
-
-(E) $4$ points
-
-### Solution to Exercise 4
-
-By **Common Conclusion** (Graphs and Properties of the Cosine Function), $y=1+\cos x$ has range $\left[0,2\right]$.
-
-On the interval $\left[\frac{\pi}{3},2\pi\right]$, $\cos x$ first decreases from $\frac{1}{2}$ to $-1$ (at $x=\pi$), then increases to $1$ (at $x=2\pi$). Hence $y=1+\cos x$ first decreases from $1.5$ to $0$ (at $x=\pi$), then increases to $2$ (at $x=2\pi$).
-
-When $t\in\left(1.5,2\right]$, there is $1$ intersection; when $t\in\left[0,1.5\right)$, there are $2$ intersections; when $t< 0$ or $t> 2$, there are $0$ intersections. Hence there may be $0$, $1$ or $2$ intersections; choose (A)(B)(C). $\blacksquare$
-
-## Exercise 5
-
-(Exercise 5.4, Problem 5) Does the equality $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{6}$ hold? If this equality holds, can we say that $\frac{\pi}{3}$ is a period of the sine function $y=\sin x$, $x\in\mathbb R$? Why?
-
-### Solution to Exercise 5
-
-By **Definition 5.4.1 (Periodic Function)**, a period $T$ must satisfy $f\left(x+T\right)=f\left(x\right)$ for every $x\in\mathbb R$.
-
-Since $\sin\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=\sin\frac{\pi}{2}=1$ and $\sin\frac{\pi}{6}=\frac{1}{2}$, the equality does not hold. Even if $\sin\left(x+T\right)=\sin x$ holds for some particular $x$, we cannot say that $T$ is a period, because a periodic function requires the equality to hold for all $x$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 5.4, Problem 6) Find the period of the following functions:
-
-(1) $y=\sin\frac{3}{4}x$, $x\in\mathbb R$;
-
-(2) $y=\cos4x$, $x\in\mathbb R$;
-
-(3) $y=\frac{1}{2}\cos\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$;
-
-(4) $y=\sin\left(\frac{1}{3}x+\frac{\pi}{4}\right)$, $x\in\mathbb R$.
-
-### Solution to Exercise 6
-
-By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$), $T=\frac{2\pi}{\omega}$.
-
-(1) From $\omega=\frac{3}{4}$, we get $T=\frac{2\pi}{3/4}=\frac{8\pi}{3}$.
-
-(2) From $\omega=4$, we get $T=\frac{2\pi}{4}=\frac{\pi}{2}$.
-
-(3) From $\omega=2$, we get $T=\frac{2\pi}{2}=\pi$.
-
-(4) From $\omega=\frac{1}{3}$, we get $T=\frac{2\pi}{1/3}=6\pi$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 5.4, Problem 7) Among the following functions, which are odd functions? Which are even functions?
-
-(1) $y=2\sin x$;
-
-(2) $y=1-\cos x$;
-
-(3) $y=x+\sin x$;
-
-(4) $y=-\sin x\cos x$.
-
-### Solution to Exercise 7
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function), $\sin x$ is odd and $\cos x$ is even.
-
-(1) $f\left(-x\right)=2\sin\left(-x\right)=-2\sin x=-f\left(x\right)$; odd function.
-
-(2) $f\left(-x\right)=1-\cos\left(-x\right)=1-\cos x=f\left(x\right)$; even function.
-
-(3) $f\left(-x\right)=-x+\sin\left(-x\right)=-x-\sin x=-\left(x+\sin x\right)=-f\left(x\right)$; odd function.
-
-(4) $f\left(-x\right)=-\sin\left(-x\right)\cos\left(-x\right)=\sin x\cos x=-f\left(x\right)$; odd function. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 5.4, Problem 8) Let $f\left(x\right)$ ($x\in\mathbb R$) be a periodic function with least positive period $2$, and when $x\in\left[0,2\right]$, $f\left(x\right)=\left(x-1\right)^{2}$. Find the values of $f\left(3\right)$ and $f\left(\frac{7}{2}\right)$.
-
-### Solution to Exercise 8
-
-By **Definition 5.4.1 (Periodic Function)**, $f\left(x+2\right)=f\left(x\right)$.
-
-From $f\left(3\right)=f\left(1+2\right)=f\left(1\right)=\left(1-1\right)^{2}=0$.
-
-From $f\left(\frac{7}{2}\right)=f\left(\frac{3}{2}+2\right)=f\left(\frac{3}{2}\right)=\left(\frac{3}{2}-1\right)^{2}=\frac{1}{4}$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 5.4, Problem 9) By observing the sine and cosine curves, write down the intervals of $x$ satisfying the following conditions:
-
-(1) $\sin x> 0$;
-
-(2) $\sin x< 0$;
-
-(3) $\cos x> 0$;
-
-(4) $\cos x< 0$.
-
-### Solution to Exercise 9
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) $\sin x> 0$: $x\in\left(2k\pi,\ \pi+2k\pi\right)$, $k\in\mathbb Z$.
-
-(2) $\sin x< 0$: $x\in\left(\pi+2k\pi,\ 2\pi+2k\pi\right)$, $k\in\mathbb Z$.
-
-(3) $\cos x> 0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$.
-
-(4) $\cos x< 0$: $x\in\left(\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 5.4, Problem 10) Find the set of arguments at which the following functions attain their maximum and minimum values, and find the maximum and minimum values.
-
-(1) $y=2\sin x$, $x\in\mathbb R$;
-
-(2) $y=2-\cos\frac{x}{3}$, $x\in\mathbb R$.
-
-### Solution to Exercise 10
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) When $x=\frac{\pi}{2}+2k\pi$ ($k\in\mathbb Z$), $\sin x=1$ and $y$ attains its maximum $2$; when $x=-\frac{\pi}{2}+2k\pi$, $\sin x=-1$ and $y$ attains its minimum $-2$.
-
-(2) When $\frac{x}{3}=2k\pi$, i.e. $x=6k\pi$, $\cos\frac{x}{3}=1$ and $y$ attains its minimum $1$; when $\frac{x}{3}=\pi+2k\pi$, i.e. $x=3\pi+6k\pi$, $\cos\frac{x}{3}=-1$ and $y$ attains its maximum $3$. $\blacksquare$
-
-## Exercise 11
-
-(Exercise 5.4, Problem 11) Which of the following statements about the monotonicity of $y=4\sin x$, $x\in\left[0,2\pi\right]$, is correct? ( )
-
-(A) Monotonically increasing on $\left[0,\pi\right]$, monotonically decreasing on $\left[\pi,2\pi\right]$
-
-(B) Monotonically increasing on $\left[0,\frac{\pi}{2}\right]$, monotonically decreasing on $\left[\frac{\pi}{2},2\pi\right]$
-
-(C) Monotonically increasing on $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, monotonically decreasing on $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$
-
-(D) Monotonically increasing on $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$, monotonically decreasing on $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$
-
-### Solution to Exercise 11
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function), the sine function is increasing on $\left[-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right]$ and decreasing on $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$.
-
-On $\left[0,2\pi\right]$, the increasing intervals are $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, and the decreasing interval is $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. Choose (C). $\blacksquare$
-
-## Exercise 12
-
-(Exercise 5.4, Problem 12) Without computing the values, compare the sizes of the two trigonometric values in each of the following pairs:
-
-(1) $\cos\frac{3\pi}{7}$ and $\cos\left(-\frac{4\pi}{9}\right)$;
-
-(2) $\sin250^{\circ}$ and $\sin260^{\circ}$.
-
-### Solution to Exercise 12
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) Since $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. From $0< \frac{3\pi}{7}< \frac{4\pi}{9}< \pi$, and the cosine function is decreasing on $\left[0,\pi\right]$, we get $\cos\frac{3\pi}{7}> \cos\frac{4\pi}{9}$, i.e. $\cos\frac{3\pi}{7}> \cos\left(-\frac{4\pi}{9}\right)$.
-
-(2) From $90^{\circ}< 250^{\circ}< 260^{\circ}< 270^{\circ}$, and the sine function is decreasing on $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$, i.e. $\left[90^{\circ},270^{\circ}\right]$, we get $\sin250^{\circ}> \sin260^{\circ}$. $\blacksquare$
-
-## Exercise 13
-
-(Exercise 5.4, Problem 13) Find the decreasing interval of $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\left[0,\pi\right]$.
-
-### Solution to Exercise 13
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function), the decreasing interval of the sine function is $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$.
-
-Set $\frac{\pi}{2}+2k\pi\le 2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, which gives $\frac{\pi}{8}+k\pi\le x\le\frac{5\pi}{8}+k\pi$. Taking $k=0$, we get $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq\left[0,\pi\right]$. Hence the decreasing interval is $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
-
-## Exercise 14
-
-(Exercise 5.4, Problem 14) Using the graph of $y=\tan x$, solve the inequality $\tan x\ge-1$, $x\in\left[0,\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\pi\right)$.
-
-### Solution to Exercise 14
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ and $\left(\frac{\pi}{2},\frac{3\pi}{2}\right)$.
-
-Since $\tan\left(-\frac{\pi}{4}\right)=-1$, on $\left[0,\frac{\pi}{2}\right)$ we have $\tan x\ge0> -1$, which always holds. On $\left(\frac{\pi}{2},\pi\right)$, $\tan x\ge-1=\tan\left(-\frac{\pi}{4}\right)=\tan\frac{3\pi}{4}$, so by monotonicity $x\ge\frac{3\pi}{4}$. Hence the solution set is $\left[0,\frac{\pi}{2}\right)\cup\left[\frac{3\pi}{4},\pi\right)$. $\blacksquare$
-
-## Exercise 15
-
-(Exercise 5.4, Problem 15) By observing the tangent curve, write down the range of $x$ satisfying the following conditions:
-
-(1) $\tan x> 0$;
-
-(2) $\tan x=0$;
-
-(3) $\tan x< 0$.
-
-### Solution to Exercise 15
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function).
-
-(1) $\tan x> 0$: $x\in\left(k\pi,\ \frac{\pi}{2}+k\pi\right)$, $k\in\mathbb Z$.
-
-(2) $\tan x=0$: $x=k\pi$, $k\in\mathbb Z$.
-
-(3) $\tan x< 0$: $x\in\left(-\frac{\pi}{2}+k\pi,\ k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
-
-## Exercise 16
-
-(Exercise 5.4, Problem 16) Find the domain of $y=\tan3x$.
-
-### Solution to Exercise 16
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the argument of the tangent function must satisfy $x\neq\frac{\pi}{2}+k\pi$.
-
-From $3x\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb Z$. Hence the domain is $\left\{x\mid x\neq\frac{\pi}{6}+\frac{k\pi}{2},\ k\in\mathbb Z\right\}$. $\blacksquare$
-
-## Exercise 17
-
-(Exercise 5.4, Problem 17) Find the period of the following functions:
-
-(1) $y=\tan2x$, $x\neq\frac{\pi}{4}+\frac{k\pi}{2}$ ($k\in\mathbb Z$);
-
-(2) $y=5\tan\frac{x}{2}$, $x\neq\left(2k+1\right)\pi$ ($k\in\mathbb Z$).
-
-### Solution to Exercise 17
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the period of $y=\tan\left(\omega x+\varphi\right)$ is $\frac{\pi}{\omega}$.
-
-(1) From $\omega=2$, we get $T=\frac{\pi}{2}$.
-
-(2) From $\omega=\frac{1}{2}$, we get $T=\frac{\pi}{1/2}=2\pi$. $\blacksquare$
-
-## Exercise 18
-
-(Exercise 5.4, Problem 18) Without computing the values, compare the sizes of the two tangent values in each of the following pairs:
-
-(1) $\tan\left(-52^{\circ}\right)$ and $\tan\left(-47^{\circ}\right)$;
-
-(2) $\tan\frac{13\pi}{4}$ and $\tan\frac{17\pi}{5}$.
-
-### Solution to Exercise 18
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$.
-
-(1) From $-90^{\circ}< -52^{\circ}< -47^{\circ}< 0^{\circ}$, we get $\tan\left(-52^{\circ}\right)< \tan\left(-47^{\circ}\right)$.
-
-(2) Since $\tan\frac{13\pi}{4}=\tan\left(3\pi+\frac{\pi}{4}\right)=\tan\frac{\pi}{4}$ and $\tan\frac{17\pi}{5}=\tan\left(3\pi+\frac{2\pi}{5}\right)=\tan\frac{2\pi}{5}$. From $0< \frac{\pi}{4}< \frac{2\pi}{5}< \frac{\pi}{2}$, we get $\tan\frac{\pi}{4}< \tan\frac{2\pi}{5}$, i.e. $\tan\frac{13\pi}{4}< \tan\frac{17\pi}{5}$. $\blacksquare$
+> 既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
+> **Definition 6.1.2 (分步乘法计数原理)**
+> 
+> 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
+> **Definition 6.1.3 (Magnitude of a Vector)**
+> 
+> 向量 AB 的大小, 也就是向量 AB 的长度 (或称模), 记作 |AB|.
+> **Definition 6.1.5 (Unit Vector)**
+> 
+> 长度等于 1 个单位长度的向量叫做单位向量.
+> **Definition 6.1.6 (Parallel and Collinear Vectors)**
+> 
+> 方向相同或相反的非零向量叫做平行向量, 也叫共线向量.
+> **Definition 6.1.7 (Equal Vectors)**
+> 
+> 长度相等且方向相同的向量叫做相等向量.
+> **Definition 6.2.1 (向量加法的三角形法则)**
+> 
+> 已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+> **Definition 6.2.2 (Parallelogram Rule)**
+> 
+> 已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
+> **Definition 6.2.4 (Permutation and Factorial)**
+> 
+> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **Definition 6.2.5 (Vector Subtraction)**
+> 
+> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+> **Definition 6.2.6 (Scalar Multiplication)**
+> 
+> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+> **Theorem 6.2.8 (Collinear Vectors Theorem)**
+> 
+> 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+> **Definition 6.2.11 (向量的数量积)**
+> 
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
 
 ## Problem 1
 
-(Exercise 5.4, Review and Consolidation, Problem 1) Sketch simple graphs of the following functions:
+(Review Reference Problem 5, Comprehensive Application, Problem 16) Prove:
 
-(1) $y=1-\sin x$, $x\in\left[0,2\pi\right]$;
+(1) $\cos4\alpha+4\cos2\alpha+3=8\cos^{4}\alpha$;
 
-(2) $y=3\cos x+1$, $x\in\left[0,2\pi\right]$.
+(2) $\frac{1+\sin2\alpha}{2\cos^{2}\alpha+\sin2\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}$;
 
-The graphs: two figures. On the left is the five-point plot of $y=1-\sin x$ on $\left[0,2\pi\right]$, with key points $\left(0,1\right)$, $\left(\frac{\pi}{2},0\right)$, $\left(\pi,1\right)$, $\left(\frac{3\pi}{2},2\right)$, and $\left(2\pi,1\right)$; on the right is the five-point plot of $y=3\cos x+1$ on $\left[0,2\pi\right]$, with key points $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, and $\left(2\pi,4\right)$, with amplitude $3$ and a vertical shift of $1$.
+(3) $\frac{\sin\left(2\alpha+\beta\right)}{\sin\alpha}-2\cos\left(\alpha+\beta\right)=\frac{\sin\beta}{\sin\alpha}$;
+
+(4) $\frac{3-4\cos2A+\cos4A}{3+4\cos2A+\cos4A}=\tan^{4}A$.
 
 ### Solution to Problem 1
 
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function), use the five-point method.
+By **Formula 5.5.7** and **Formula 5.5.8**.
 
-(1) Five key points: $\left(0,1\right)$, $\left(\frac{\pi}{2},0\right)$, $\left(\pi,1\right)$, $\left(\frac{3\pi}{2},2\right)$, $\left(2\pi,1\right)$.
+(1) Left side $=\left(2\cos^{2}2\alpha-1\right)+4\cos2\alpha+3=2\cos^{2}2\alpha+4\cos2\alpha+2=2\left(\cos2\alpha+1\right)^{2}=2\left(2\cos^{2}\alpha\right)^{2}=8\cos^{4}\alpha=$ right side.
 
-(2) Five key points: $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, $\left(2\pi,4\right)$. $\blacksquare$
+(2) Left side $=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}}{2\cos\alpha\left(\cos\alpha+\sin\alpha\right)}=\frac{\sin\alpha+\cos\alpha}{2\cos\alpha}=\frac{1}{2}\tan\alpha+\frac{1}{2}=$ right side.
+
+(3) Left side $=\frac{\sin\left[\left(\alpha+\beta\right)+\alpha\right]-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha+\cos\left(\alpha+\beta\right)\sin\alpha-2\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\left(\alpha+\beta\right)\cos\alpha-\cos\left(\alpha+\beta\right)\sin\alpha}{\sin\alpha}=\frac{\sin\beta}{\sin\alpha}=$ right side.
+
+(4) Left side $=\frac{3-4\cos2A+2\cos^{2}2A-1}{3+4\cos2A+2\cos^{2}2A-1}=\frac{2\left(\cos2A-1\right)^{2}}{2\left(\cos2A+1\right)^{2}}=\frac{\left(2\sin^{2}A\right)^{2}}{\left(2\cos^{2}A\right)^{2}}=\tan^{4}A=$ right side. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 5.4, Review and Consolidation, Problem 2) Find the period of the following functions:
-
-(1) $y=\sin\frac{2}{3}x$, $x\in\mathbb R$;
-
-(2) $y=\frac{1}{2}\cos4x$, $x\in\mathbb R$.
+(Review Reference Problem 5, Comprehensive Application, Problem 17) Given $\sin\alpha-\cos\alpha=\frac{1}{5}$, $0\leq\alpha\leq\pi$, find the value of $\sin\left(2\alpha-\frac{\pi}{4}\right)$.
 
 ### Solution to Problem 2
 
-By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$), $T=\frac{2\pi}{\omega}$.
+By **Formula 5.5.7** and **Formula 5.5.3**.
 
-(1) From $\omega=\frac{2}{3}$, we get $T=\frac{2\pi}{2/3}=3\pi$.
+From $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, we get $\sin2\alpha=\frac{24}{25}$. Also $0\leq\alpha\leq\pi$ and $\sin\alpha-\cos\alpha=\frac{1}{5}> 0$, giving $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. From $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. If $\cos2\alpha=\frac{7}{25}$, then $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ does not hold; hence $\cos2\alpha=-\frac{7}{25}$.
 
-(2) From $\omega=4$, we get $T=\frac{2\pi}{4}=\frac{\pi}{2}$. $\blacksquare$
+$$
+\sin\left(2\alpha-\frac{\pi}{4}\right)=\sin2\alpha\cos\frac{\pi}{4}-\cos2\alpha\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}\left(\frac{24}{25}+\frac{7}{25}\right)=\frac{31\sqrt{2}}{50}.
+$$
+
+$\blacksquare$
 
 ## Problem 3
 
-(Exercise 5.4, Review and Consolidation, Problem 3) Among the following functions, which are odd functions? Which are even functions? Which are neither odd nor even?
-
-(1) $y=\lvert\sin x\rvert$;
-
-(2) $y=1-\cos2x$;
-
-(3) $y=-3\sin2x$;
-
-(4) $y=1+2\tan x$.
+(Review Reference Problem 5, Comprehensive Application, Problem 18) Given $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, find the value of $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$.
 
 ### Solution to Problem 3
 
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+By **Formula 5.5.7** and **Formula 5.5.1**.
 
-(1) $f\left(-x\right)=\lvert\sin\left(-x\right)\rvert=\lvert-\sin x\rvert=\lvert\sin x\rvert=f\left(x\right)$; even function.
-
-(2) $f\left(-x\right)=1-\cos\left(-2x\right)=1-\cos2x=f\left(x\right)$; even function.
-
-(3) $f\left(-x\right)=-3\sin\left(-2x\right)=3\sin2x=-f\left(x\right)$; odd function.
-
-(4) $f\left(-x\right)=1+2\tan\left(-x\right)=1-2\tan x$, which equals neither $f\left(x\right)$ nor $-f\left(x\right)$; neither odd nor even. $\blacksquare$
+From $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$ and $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, we get $\frac{5\pi}{3}< \frac{\pi}{4}+x< 2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. Hence $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. Multiplying the two gives $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. Also $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, giving $\sin2x=\frac{7}{25}$. The original expression $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 5.4, Review and Consolidation, Problem 4) Find the set of arguments $x$ at which the following functions attain their maximum and minimum values, and find the maximum and minimum values:
-
-(1) $y=1-\frac{1}{2}\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)$, $x\in\mathbb R$;
-
-(2) $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\mathbb R$;
-
-(3) $y=-\frac{3}{2}\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)$, $x\in\mathbb R$;
-
-(4) $y=\frac{1}{2}\sin\left(\frac{1}{2}x+\frac{\pi}{3}\right)$, $x\in\mathbb R$.
+(Review Reference Problem 5, Comprehensive Application, Problem 19) Given $\sin\theta+\cos\theta=2\sin\alpha$, $\sin\theta\cos\theta=\sin^{2}\beta$. Prove that $4\cos^{2}2\alpha=\cos^{2}2\beta$.
 
 ### Solution to Problem 4
 
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
+By **Formula 5.5.8** (Double-Angle Cosine).
 
-(1) When $\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)=-1$, $y$ attains its maximum $\frac{3}{2}$, at which point $\frac{2}{3}x+\frac{\pi}{3}=\pi+2k\pi$, i.e. $x=\pi+3k\pi$. When $\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)=1$, $y$ attains its minimum $\frac{1}{2}$, at which point $x=3k\pi$.
+From $\left(\sin\theta+\cos\theta\right)^{2}=4\sin^{2}\alpha$, i.e. $1+2\sin\theta\cos\theta=4\sin^{2}\alpha$, $1+2\sin^{2}\beta=4\sin^{2}\alpha$.
 
-(2) When $2x+\frac{\pi}{4}=\frac{\pi}{2}+2k\pi$, i.e. $x=\frac{\pi}{8}+k\pi$, $y$ attains its maximum $3$; when $x=\frac{5\pi}{8}+k\pi$, $y$ attains its minimum $-3$.
-
-(3) When $\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)=-1$, $y$ attains its maximum $\frac{3}{2}$, at which point $\frac{1}{2}x-\frac{\pi}{6}=\pi+2k\pi$, i.e. $x=\frac{7\pi}{3}+4k\pi$. When $\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)=1$, $y$ attains its minimum $-\frac{3}{2}$, at which point $x=\frac{\pi}{3}+4k\pi$.
-
-(4) When $\frac{1}{2}x+\frac{\pi}{3}=\frac{\pi}{2}+2k\pi$, i.e. $x=\frac{\pi}{3}+4k\pi$, $y$ attains its maximum $\frac{1}{2}$; when $x=\frac{7\pi}{3}+4k\pi$, $y$ attains its minimum $-\frac{1}{2}$. $\blacksquare$
+Left side $=4\cos^{2}2\alpha=4\left(1-2\sin^{2}\alpha\right)^{2}$. From $4\sin^{2}\alpha=1+2\sin^{2}\beta$, we get $\cos2\alpha=1-2\sin^{2}\alpha=1-\frac{1+2\sin^{2}\beta}{2}=\frac{1-2\sin^{2}\beta}{2}=\frac{\cos2\beta}{2}$. Hence $4\cos^{2}2\alpha=\cos^{2}2\beta$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 5.4, Review and Consolidation, Problem 5) Using the monotonicity of the functions, compare the sizes of the two trigonometric values in each of the following pairs:
-
-(1) $\sin103^{\circ}15'$ and $\sin164^{\circ}30'$;
-
-(2) $\cos\left(-\frac{3\pi}{10}\right)$ and $\cos\left(-\frac{4\pi}{9}\right)$;
-
-(3) $\sin508^{\circ}$ and $\sin144^{\circ}$;
-
-(4) $\cos\frac{47\pi}{10}$ and $\cos\frac{44\pi}{9}$.
-
-### Solution to Problem 5
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) From $90^{\circ}< 103^{\circ}15'< 164^{\circ}30'< 180^{\circ}$, and the sine function is decreasing on $\left[90^{\circ},180^{\circ}\right]$, we get $\sin103^{\circ}15'> \sin164^{\circ}30'$.
-
-(2) Since $\cos\left(-\frac{3\pi}{10}\right)=\cos\frac{3\pi}{10}$ and $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. From $0< \frac{3\pi}{10}< \frac{4\pi}{9}< \pi$, and the cosine function is decreasing on $\left[0,\pi\right]$, we get $\cos\frac{3\pi}{10}> \cos\frac{4\pi}{9}$.
-
-(3) Since $\sin508^{\circ}=\sin\left(360^{\circ}+148^{\circ}\right)=\sin148^{\circ}$. From $90^{\circ}< 144^{\circ}< 148^{\circ}< 180^{\circ}$, we get $\sin144^{\circ}> \sin148^{\circ}$, i.e. $\sin144^{\circ}> \sin508^{\circ}$.
-
-(4) Since $\cos\frac{47\pi}{10}=\cos\left(4\pi+\frac{7\pi}{10}\right)=\cos\frac{7\pi}{10}$ and $\cos\frac{44\pi}{9}=\cos\left(4\pi+\frac{8\pi}{9}\right)=\cos\frac{8\pi}{9}$. From $0< \frac{7\pi}{10}< \frac{8\pi}{9}< \pi$, we get $\cos\frac{7\pi}{10}> \cos\frac{8\pi}{9}$, i.e. $\cos\frac{47\pi}{10}> \cos\frac{44\pi}{9}$. $\blacksquare$
-
-## Problem 6
-
-(Exercise 5.4, Review and Consolidation, Problem 6) Find the monotonic intervals of the following functions:
-
-(1) $y=1+\sin x$, $x\in\left[0,2\pi\right]$;
-
-(2) $y=-\cos x$, $x\in\left[0,2\pi\right]$.
-
-### Solution to Problem 6
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) $y=1+\sin x$ has the same monotonicity as $y=\sin x$. The increasing intervals are $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, and the decreasing interval is $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$.
-
-(2) $y=-\cos x$ has the opposite monotonicity to $y=\cos x$. The increasing interval is $\left[0,\pi\right]$, and the decreasing interval is $\left[\pi,2\pi\right]$. $\blacksquare$
-
-## Problem 7
-
-(Exercise 5.4, Review and Consolidation, Problem 7) Find the domain of $y=-\tan\left(x+\frac{\pi}{6}\right)+2$.
-
-### Solution to Problem 7
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the argument of the tangent function must satisfy $x\neq\frac{\pi}{2}+k\pi$.
-
-From $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb Z$. Hence the domain is $\left\{x\mid x\neq\frac{\pi}{3}+k\pi,\ k\in\mathbb Z\right\}$. $\blacksquare$
-
-## Problem 8
-
-(Exercise 5.4, Review and Consolidation, Problem 8) Find the period of $y=\tan\left(2x-\frac{5\pi}{12}\right)$, $x\neq\frac{k\pi}{2}$ ($k\in\mathbb Z$).
-
-### Solution to Problem 8
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the period of $y=\tan\left(\omega x+\varphi\right)$ is $\frac{\pi}{\omega}$.
-
-From $\omega=2$, we get $T=\frac{\pi}{2}$. $\blacksquare$
-
-## Problem 9
-
-(Exercise 5.4, Review and Consolidation, Problem 9) Using the monotonicity of the tangent function, compare the sizes of the two function values in each of the following pairs:
-
-(1) $\tan\left(-\frac{\pi}{5}\right)$ and $\tan\left(-\frac{3\pi}{7}\right)$;
-
-(2) $\tan1519^{\circ}$ and $\tan1493^{\circ}$;
-
-(3) $\tan\frac{6\pi}{11}$ and $\tan\left(-\frac{5\pi}{11}\right)$;
-
-(4) $\tan\frac{7\pi}{8}$ and $\tan\frac{\pi}{6}$.
-
-### Solution to Problem 9
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$.
-
-(1) From $-\frac{\pi}{2}< -\frac{3\pi}{7}< -\frac{\pi}{5}< \frac{\pi}{2}$, we get $\tan\left(-\frac{3\pi}{7}\right)< \tan\left(-\frac{\pi}{5}\right)$.
-
-(2) Since $\tan1519^{\circ}=\tan\left(4\times360^{\circ}+79^{\circ}\right)=\tan79^{\circ}$ and $\tan1493^{\circ}=\tan\left(4\times360^{\circ}+53^{\circ}\right)=\tan53^{\circ}$. From $0^{\circ}< 53^{\circ}< 79^{\circ}< 90^{\circ}$, we get $\tan53^{\circ}< \tan79^{\circ}$, i.e. $\tan1493^{\circ}< \tan1519^{\circ}$.
-
-(3) Since $\tan\frac{6\pi}{11}=\tan\left(-\frac{5\pi}{11}+\pi\right)=\tan\left(-\frac{5\pi}{11}\right)$. Hence the two are equal.
-
-(4) Since $\frac{7\pi}{8}\in\left(\frac{\pi}{2},\pi\right)$, $\tan\frac{7\pi}{8}< 0$, while $\tan\frac{\pi}{6}> 0$, we get $\tan\frac{7\pi}{8}< \tan\frac{\pi}{6}$. $\blacksquare$
-
-## Problem 10
-
-(Exercise 5.4, Comprehensive Application, Problem 10) Find the range of the following functions:
-
-(1) $y=\sin x$, $x\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$;
-
-(2) $y=\cos\left(x+\frac{\pi}{3}\right)$, $x\in\left[0,\frac{\pi}{2}\right]$.
-
-### Solution to Problem 10
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) On $\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$, $\sin x$ attains its maximum $1$ at $x=\frac{\pi}{2}$ and its minimum $-\frac{\sqrt{2}}{2}$ at $x=\frac{5\pi}{4}$. Hence the range is $\left[-\frac{\sqrt{2}}{2},1\right]$.
-
-(2) From $x\in\left[0,\frac{\pi}{2}\right]$, we get $x+\frac{\pi}{3}\in\left[\frac{\pi}{3},\frac{5\pi}{6}\right]$. On this interval, $\cos$ decreases monotonically from $\frac{1}{2}$ to $-\frac{\sqrt{3}}{2}$. Hence the range is $\left[-\frac{\sqrt{3}}{2},\frac{1}{2}\right]$. $\blacksquare$
-
-## Problem 11
-
-(Exercise 5.4, Comprehensive Application, Problem 11) Based on the graphs of the sine and cosine functions, write down the set of $x$ for which the following inequalities hold:
-
-(1) $\sin x\ge\frac{\sqrt{3}}{2}$ ($x\in\mathbb R$);
-
-(2) $\sqrt{2}+2\cos x\ge0$ ($x\in\mathbb R$).
-
-### Solution to Problem 11
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) From $\sin x\ge\frac{\sqrt{3}}{2}=\sin\frac{\pi}{3}$, we get $x\in\left[\frac{\pi}{3}+2k\pi,\ \frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
-
-(2) From $\sqrt{2}+2\cos x\ge0$, we get $\cos x\ge-\frac{\sqrt{2}}{2}$. From $\cos x\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, we get $x\in\left[-\frac{3\pi}{4}+2k\pi,\ \frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
-
-## Problem 12
-
-(Exercise 5.4, Comprehensive Application, Problem 12) Among the following four functions, which one has least positive period $\pi$ and is monotonically decreasing on $\left(\frac{\pi}{2},\pi\right)$? ( )
-
-(A) $y=\lvert\sin x\rvert$
-
-(B) $y=\cos x$
-
-(C) $y=\tan x$
-
-(D) $y=\cos\frac{x}{2}$
-
-### Solution to Problem 12
-
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(A) $y=\lvert\sin x\rvert$ has period $\pi$, and on $\left(\frac{\pi}{2},\pi\right)$, $\sin x> 0$ and is decreasing, so $\lvert\sin x\rvert$ is decreasing; it satisfies the condition.
-
-(B) $y=\cos x$ has period $2\pi$; it does not satisfy.
-
-(C) $y=\tan x$ is increasing on $\left(\frac{\pi}{2},\pi\right)$; it does not satisfy.
-
-(D) $y=\cos\frac{x}{2}$ has period $4\pi$; it does not satisfy.
-
-Choose (A). $\blacksquare$
-
-## Problem 13
-
-(Exercise 5.4, Comprehensive Application, Problem 13) If $x$ is an interior angle of an oblique triangle, write down the set of $x$ for which the following inequalities hold:
-
-(1) $1+\tan x\le0$;
-
-(2) $\tan x-\sqrt{3}\ge0$.
-
-### Solution to Problem 13
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), an interior angle $x$ of an oblique triangle satisfies $x\in\left(0,\pi\right)$ and $x\neq\frac{\pi}{2}$.
-
-(1) From $1+\tan x\le0$, we get $\tan x\le-1$. On $\left(\frac{\pi}{2},\pi\right)$, $\tan x\le-1=\tan\frac{3\pi}{4}$, so $x\in\left[\frac{3\pi}{4},\pi\right)$.
-
-(2) From $\tan x-\sqrt{3}\ge0$, we get $\tan x\ge\sqrt{3}=\tan\frac{\pi}{3}$. On $\left(0,\frac{\pi}{2}\right)$, we get $x\in\left[\frac{\pi}{3},\frac{\pi}{2}\right)$. $\blacksquare$
-
-## Problem 14
-
-(Exercise 5.4, Comprehensive Application, Problem 14) Find the monotonic intervals of $y=-\tan\left(2x-\frac{3\pi}{4}\right)$.
-
-### Solution to Problem 14
-
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$.
-
-$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ has the opposite monotonicity to $y=\tan\left(2x-\frac{3\pi}{4}\right)$. Set $-\frac{\pi}{2}+k\pi< 2x-\frac{3\pi}{4}< \frac{\pi}{2}+k\pi$, which gives $\frac{\pi}{8}+\frac{k\pi}{2}< x< \frac{5\pi}{8}+\frac{k\pi}{2}$. Hence $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ is decreasing on $\left(\frac{\pi}{8}+\frac{k\pi}{2},\ \frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb Z$). $\blacksquare$
-
-## Problem 15
-
-(Exercise 5.4, Comprehensive Application, Problem 15) Given that $y=f\left(x\right)$ is an odd function defined on $\mathbb R$ with period $2$, and $f\left(0.5\right)=1$, find the values of $f\left(1\right)$ and $f\left(3.5\right)$.
-
-### Solution to Problem 15
-
-By **Definition 5.4.1 (Periodic Function)** and the odd-function property $f\left(-x\right)=-f\left(x\right)$.
-
-Since $f\left(x\right)$ is odd, $f\left(0\right)=0$. With period $2$, $f\left(1\right)=f\left(-1+2\right)=f\left(-1\right)=-f\left(1\right)$, hence $f\left(1\right)=0$.
-
-From $f\left(3.5\right)=f\left(1.5+2\right)=f\left(1.5\right)=f\left(-0.5+2\right)=f\left(-0.5\right)=-f\left(0.5\right)=-1$. $\blacksquare$
-
-## Problem 16
-
-(Exercise 5.4, Comprehensive Application, Problem 16) Given $f\left(x\right)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$,
+(Review Reference Problem 5, Comprehensive Application, Problem 20) Given the function $f\left(x\right)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
 
 (1) Find the least positive period of $f\left(x\right)$;
 
-(2) Find the maximum and minimum values of $f\left(x\right)$ on the interval $\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$.
+(2) When $x\in\left[0,\frac{\pi}{2}\right]$, find the minimum value of $f\left(x\right)$ and the set of $x$ at which the minimum is attained.
+
+### Solution to Problem 5
+
+By **Formula 5.5.7** and **Formula 5.5.8**.
+
+(1) $f\left(x\right)=\left(\cos^{2}x+\sin^{2}x\right)\left(\cos^{2}x-\sin^{2}x\right)-\sin2x=\cos2x-\sin2x=\sqrt{2}\cos\left(2x+\frac{\pi}{4}\right)$. The period is $T=\pi$.
+
+(2) From $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{4}\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$. When $2x+\frac{\pi}{4}=\pi$, i.e. $x=\frac{3\pi}{8}$, $f\left(x\right)_{\min}=-\sqrt{2}$. $\blacksquare$
+
+## Problem 6
+
+(Review Reference Problem 5, Comprehensive Application, Problem 21) Given that the function $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ has maximum value $1$.
+
+(1) Find the value of the constant $a$;
+
+(2) Find the monotonically decreasing intervals of the function $f\left(x\right)$;
+
+(3) Find the set of $x$ for which $f\left(x\right)\geq0$ holds.
+
+### Solution to Problem 6
+
+By **Formula 5.5.3** and **Formula 5.5.4**.
+
+(1) $f\left(x\right)=2\sin x\cos\frac{\pi}{6}+\cos x+a=\sqrt{3}\sin x+\cos x+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. The maximum value is $2+a=1$, hence $a=-1$.
+
+(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. The monotonically decreasing intervals are $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+
+(3) From $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, we get $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. Hence $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
+
+## Problem 7
+
+(Review Reference Problem 5, Comprehensive Application, Problem 22) Given that the function $f\left(x\right)=\sqrt{3}\sin2x+2\cos^{2}x+m$ has maximum value $6$ on the interval $\left[0,\frac{\pi}{2}\right]$.
+
+(1) Find the value of the constant $m$;
+
+(2) When $x\in\mathbb R$, find the minimum value of the function $f\left(x\right)$ and the set of corresponding $x$.
+
+### Solution to Problem 7
+
+By **Formula 5.5.8** and the auxiliary angle formula.
+
+(1) $f\left(x\right)=\sqrt{3}\sin2x+\cos2x+1+m=2\sin\left(2x+\frac{\pi}{6}\right)+1+m$. From $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{6}\in\left[\frac{\pi}{6},\frac{7\pi}{6}\right]$, the maximum is $2+1+m=6$, hence $m=3$.
+
+(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. The minimum value is $-2+4=2$, at which point $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
+
+## Problem 8
+
+(Review Reference Problem 5, Comprehensive Application, Problem 23) The square $ABCD$ has side length $1$, and $P$, $Q$ are points on sides $AB$, $DA$ respectively. When the perimeter of $\triangle APQ$ is $2$, find the size of $\angle PCQ$.
+
+### Solution to Problem 8
+
+By **Formula 5.5.5** (Tangent of a Sum).
+
+Let $AP=x$, $AQ=y$, then $x+y+\sqrt{x^{2}+y^{2}}=2$. Let $\angle BCP=\alpha$, $\angle DCQ=\beta$, then $\tan\alpha=1-x$, $\tan\beta=1-y$.
+
+From $x+y+\sqrt{x^{2}+y^{2}}=2$, we get $\sqrt{x^{2}+y^{2}}=2-x-y$. Squaring gives $2xy=4-4x-4y+2xy$, i.e. $x+y=1$. Hence $y=1-x$.
+
+$\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(1-x\right)\left(1-y\right)}=\frac{2-\left(x+y\right)}{1-\left(1-x-y+xy\right)}=\frac{1}{x+y-xy}=\frac{1}{1-xy}$. Also $xy=x\left(1-x\right)$.
+
+From $\angle PCQ=\frac{\pi}{2}-\alpha-\beta$, we get $\tan\angle PCQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. Also from $x+y=1$, $xy\leq\frac{1}{4}$.
+
+From the conditions one can prove $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
+
+## Problem 9
+
+(Review Reference Problem 5, Extension and Exploration, Problem 24) Given $\sin\beta+\cos\beta=\frac{1}{5}$, $\beta\in\left(0,\pi\right)$.
+
+(1) Find the value of $\tan\beta$;
+
+(2) Based on the given conditions, can you construct some value-finding problems yourself?
+
+### Solution to Problem 9
+
+By **Formula 5.2.2** (Relations among Trigonometric Functions of the Same Angle).
+
+(1) From $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, we get $\sin2\beta=-\frac{24}{25}$. From $\beta\in\left(0,\pi\right)$ and $\sin\beta+\cos\beta=\frac{1}{5}> 0$, we get $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. Hence $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
+
+(2) One may construct problems finding $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$, etc. $\blacksquare$
+
+## Problem 10
+
+(Review Reference Problem 5, Extension and Exploration, Problem 25) Given two parallel lines $l_{1}\parallel l_{2}$, let $A$ be a fixed point between $l_{1}$ and $l_{2}$, and the distances from $A$ to $l_{1}$ and $l_{2}$ are $h_{1}$ and $h_{2}$ respectively. Let $B$ be a moving point on the line $l_{2}$; draw $AC\perp AB$, with $AC$ meeting the line $l_{1}$ at point $C$. Let $\angle ABD=\alpha$.
+
+(1) Write the analytic expression $S\left(\alpha\right)$ for the area $S$ of $\triangle ABC$ as a function of the angle $\alpha$;
+
+(2) Sketch the graph of the above function;
+
+(3) From the graph in (2), find the minimum value of $S\left(\alpha\right)$.
+
+The figure: two parallel lines $l_1$ (upper) and $l_2$ (lower); the fixed point $A$ lies between them, at distance $h_1$ from $l_1$ and $h_2$ from $l_2$; the moving point $B$ lies on $l_2$, and the perpendicular from $A$ to $AB$ meets $l_1$ at point $C$, forming the right triangle $ABC$ ($\angle BAC=90^\circ$); $\angle ABD=\alpha$ is the angle between $AB$ and $l_2$ (with $D$ on $l_2$ on one side of $B$).
+
+### Solution to Problem 10
+
+By the definition of trigonometric functions.
+
+(1) From $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. Hence $S\left(\alpha\right)=\frac{1}{2}AB\cdot AC=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
+
+(2) The function is $S\left(\alpha\right)=\frac{h_{1}h_{2}}{\sin2\alpha}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$.
+
+(3) From $\sin2\alpha\leq1$, we get $S\left(\alpha\right)\geq h_{1}h_{2}$, attaining the minimum $h_{1}h_{2}$ when $\alpha=\frac{\pi}{4}$. $\blacksquare$
+
+## Problem 11
+
+(Review Reference Problem 5, Extension and Exploration, Problem 26) The British mathematician Taylor gave the following formulas:
+
+$\sin x=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots$,
+
+$\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
+
+Use a computing tool to calculate $\cos0.3$, and compare it with the three-term approximation $0.9553375$.
+
+### Solution to Problem 11
+
+By the Taylor expansion.
+
+From $\cos0.3\approx1-\frac{0.09}{2}+\frac{0.0081}{24}=1-0.045+0.0003375=0.9553375$. The exact value is about $0.9553365$; the three-term approximation is very close to the exact value. $\blacksquare$
+
+## Problem 12
+
+(Review Reference Problem 5, Extension and Exploration, Problem 27) During the Earth's revolution around the Sun, the latitude of the subsolar point changes repeatedly with time.
+
+(1) Let the noon solar altitude angle at a point on the Earth's surface be $\theta$, let $\delta$ be the latitude of the subsolar point at that time, and let $\varphi$ be the local latitude; then these three quantities satisfy $\theta=90^{\circ}-\lvert\varphi-\delta\rvert$. A science group took the vernal equinox of a certain year as the initial time and recorded the average latitude of the subsolar point over the following $400$ consecutive days.
+
+(2) Try to build a function model for the latitude $\delta$ of the subsolar point as a function of time $t$.
+
+### Solution to Problem 12
+
+By **Property 5.7.1** (Steps in Applying Trigonometric Models).
+
+(1) The latitude of the subsolar point changes periodically with time, with a period of one year (about $365$ days); at the vernal equinox ($t=0$), $\delta=0$; at the summer solstice, $\delta$ is maximum (about $23.5^{\circ}$); at the winter solstice, $\delta$ is minimum (about $-23.5^{\circ}$).
+
+(2) One may build the model $\delta=23.5^{\circ}\sin\left(\frac{2\pi t}{365}\right)$, where $t$ is the number of days after the vernal equinox. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 6.1, Problem 1) Which of the following quantities are vectors?
+
+The pulling force on a suspended object, pressure, friction, frequency, acceleration.
+
+### Solution to Exercise 1
+
+By **Definition 6.1.1 (Vectors and Scalars)**, a vector is a quantity with both magnitude and direction, and a scalar is a quantity with only magnitude and no direction.
+
+Pulling force, friction and acceleration all have both magnitude and direction, so they are vectors. Pressure and frequency have only magnitude and no direction, so they are scalars. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 6.1, Problem 2) Draw two directed line segments to represent respectively a force of $18\text{ N}$ acting vertically downward and a force of $28\text{ N}$ acting horizontally to the left. (Use a length of $1\text{ cm}$ to represent $10\text{ N}$.)
+
+The figure: using the scale $1\text{ cm}$ to represent $10\text{ N}$, draw a directed segment $1.8\text{ cm}$ long pointing vertically downward to represent a force of magnitude $18\text{ N}$, and alongside it a directed segment $2.8\text{ cm}$ long pointing horizontally leftward to represent a force of magnitude $28\text{ N}$.
+
+### Solution to Exercise 2
+
+By **Definition 6.1.2 (Directed Line Segments)**, the direction of the directed line segment represents the direction of the force, and the length of the directed line segment represents the magnitude of the force to scale.
+
+Taking $1\text{ cm}$ to represent $10\text{ N}$, the force of $18\text{ N}$ corresponds to a directed line segment of length $1.8\text{ cm}$, and the force of $28\text{ N}$ corresponds to a directed line segment of length $2.8\text{ cm}$. Draw a vertical downward directed line segment of length $1.8\text{ cm}$ to represent the $18\text{ N}$ force, and draw a horizontal leftward directed line segment of length $2.8\text{ cm}$ to represent the $28\text{ N}$ force. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 6.1, Problem 3) Indicate the lengths of the vectors in the figure. (The side length of each small square is stipulated to be $0.5$.)
+
+The figure: a sheet of grid paper, with the side of each small square set to $0.5$, on which several directed segments of various directions are drawn (some horizontal or vertical along the grid lines, some along the grid diagonals); the task is to compute the length of each vector from the number of squares it spans.
+
+### Solution to Exercise 3
+
+By **Definition 6.1.3 (Magnitude of a Vector)**, the length of a vector is its magnitude. With the side length of each small square stipulated to be $0.5$, the length of a vector running along the edge direction of the squares is the number of squares it occupies multiplied by $0.5$; the length of a vector running along the diagonal direction is $\sqrt 2$ multiplied by the corresponding number of squares and then by $0.5$. By calculating one by one according to the number of squares each vector occupies in the figure, the lengths of the vectors are obtained. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 6.1, Problem 4) Represent the vectors by directed line segments with the same starting point $O$.
+
+(1) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ are equal vectors, determine the positional relationship between the terminal points $M$ and $N$;
+
+(2) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ are parallel vectors and $\lvert\boldsymbol{OM}\rvert=2\lvert\boldsymbol{ON}\rvert=1$, find the length of the vector $\boldsymbol{MN}$, and determine the relationship between the direction of $\boldsymbol{MN}$ and the direction of $\boldsymbol{ON}$.
+
+### Solution to Exercise 4
+
+By **Definition 6.1.7 (Equal Vectors)**, equal vectors have equal length and the same direction.
+
+(1) From $\boldsymbol{OM}=\boldsymbol{ON}$, the two vectors share the same starting point $O$, have equal length and the same direction, so the terminal points $M$ and $N$ coincide.
+
+By **Definition 6.1.6 (Parallel Vectors and Collinear Vectors)**, parallel vectors have the same or opposite direction.
+
+(2) From $\lvert\boldsymbol{OM}\rvert=2\lvert\boldsymbol{ON}\rvert=1$, we get $\lvert\boldsymbol{OM}\rvert=1$, $\lvert\boldsymbol{ON}\rvert=\frac{1}{2}$. Also $\boldsymbol{OM}$ and $\boldsymbol{ON}$ are parallel, so there are two cases.
+
+(a) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ have the same direction, $M$ lies on the ray $ON$ with $OM=1$, $ON=\frac{1}{2}$, so $MN=OM-ON=1-\frac{1}{2}=\frac{1}{2}$, and $\boldsymbol{MN}$ has the same direction as $\boldsymbol{ON}$.
+
+(b) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ have opposite directions, $M$ lies on the line through $O$ and $N$ on the other side of $O$, $MN=OM+ON=1+\frac{1}{2}=\frac{3}{2}$, and $\boldsymbol{MN}$ has the same direction as $\boldsymbol{ON}$ (pointing from $M$ through $O$ to $N$). $\blacksquare$
+
+## Problem 13
+
+(Exercise 6.1, Review and Consolidation, Problem 1) On the coordinate paper shown in the figure (the side length of each small square is stipulated to be $1$), use a ruler and compass to draw the following vectors:
+
+(1) $\lvert\boldsymbol{OA}\rvert=4$, with point $A$ due south of point $O$;
+
+(2) $\lvert\boldsymbol{OB}\rvert=2\sqrt 2$, with point $B$ in the direction $45^{\circ}$ north of west of point $O$;
+
+(3) $\lvert\boldsymbol{OC}\rvert=2$, with point $C$ in the direction $30^{\circ}$ south of west of point $O$.
+
+The figure: a sheet of coordinate grid paper, with the side of each small square set to $1$; starting from the point $O$, three directed segments are drawn: $\boldsymbol{OA}$ due south of length $4$ (spanning $4$ squares); $\boldsymbol{OB}$ in the direction north by west $45^\circ$ of length $2\sqrt2$ (i.e. $2$ squares west and $2$ squares north); and $\boldsymbol{OC}$ in the direction south by west $30^\circ$ of length $2$.
+
+### Solution to Problem 13
+
+By **Definition 6.1.2 (Directed Line Segments)** and **Definition 6.1.3 (Magnitude of a Vector)**, draw directed line segments according to the given direction and length.
+
+(1) From point $O$, draw a directed line segment $\boldsymbol{OA}$ of length $4$ in the due south direction, and it is obtained.
+
+(2) In the direction $45^{\circ}$ north of west, the horizontal component (westward) and the vertical component (northward) of a directed line segment of length $2\sqrt 2$ are both $2\sqrt 2\cdot\cos45^{\circ}=2$, so from $O$ take point $B$ $2$ squares west and $2$ squares north, and join $\boldsymbol{OB}$ to obtain it.
+
+(3) In the direction $30^{\circ}$ south of west, a directed line segment of length $2$ is obtained by starting from $O$ and drawing a directed line segment $\boldsymbol{OC}$ of length $2$ in this direction. $\blacksquare$
+
+## Problem 14
+
+(Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, point $O$ is the intersection of the diagonals of $\square ABCD$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$. Write out respectively, in $\square ABCD$ and in the broken line $MPQRST$, the vectors equal to $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
+
+The figure: on the left is the parallelogram $ABCD$, whose diagonals $AC$ and $BD$ intersect at point $O$, with $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, and $\boldsymbol{AB}=\boldsymbol{c}$ marked; on the right is a broken line formed by connecting the points $M,P,Q,R,S,T$ in order, each segment being a directed segment with an arrow.
+
+### Solution to Problem 14
+
+By **Definition 6.1.7 (Equal Vectors)**, vectors with equal length and the same direction are equal.
+
+In $\square ABCD$, the diagonals bisect each other, so $O$ is the midpoint of $AC$ and $BD$. Hence $\boldsymbol{OC}$ is opposite in direction to $\boldsymbol{OA}$, and $\boldsymbol{OD}$ is opposite in direction to $\boldsymbol{OB}$. The vector equal to $\boldsymbol{a}=\boldsymbol{OA}$ is $\boldsymbol{CO}$; the vector equal to $\boldsymbol{b}=\boldsymbol{OB}$ is $\boldsymbol{DO}$; the vector equal to $\boldsymbol{c}=\boldsymbol{AB}$ is $\boldsymbol{DC}$.
+
+In the broken line $MPQRST$, according to the direction and length of each directed line segment in the figure, find the directed line segments with the same direction and equal length as $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$; these are the corresponding equal vectors. $\blacksquare$
+
+## Problem 15
+
+(Exercise 6.1, Comprehensive Application, Problem 3) Determine whether the following conclusions are correct (mark "$\surd$" in the parentheses for correct ones and "$\times$" for incorrect ones), and explain the reasons.
+
+(1) If $\boldsymbol{a}$ and $\boldsymbol{b}$ are both unit vectors, then $\boldsymbol{a}=\boldsymbol{b}$. ()
+
+(2) A vector in the direction $60^{\circ}$ south of west and a vector in the direction $60^{\circ}$ north of east are collinear vectors. ()
+
+(3) Both the $x$-axis and the $y$-axis in the rectangular coordinate plane are vectors. ()
+
+(4) If $\boldsymbol{a}$ and $\boldsymbol{b}$ are parallel vectors, then $\boldsymbol{a}=\boldsymbol{b}$. ()
+
+(5) If the vectors $\boldsymbol{AM}$ and $\boldsymbol{AN}$, represented by directed line segments, are not equal, then points $M$ and $N$ do not coincide. ()
+
+(6) Altitude, temperature and angle are not vectors. ()
+
+### Solution to Problem 15
+
+By **Definition 6.1.5 (Unit Vector)**, unit vectors all have length $1$, but their directions are not necessarily the same.
+
+(1) Incorrect. A unit vector only guarantees length $1$, but the direction need not be the same, so two unit vectors are not necessarily equal.
+
+By **Definition 6.1.6 (Parallel Vectors and Collinear Vectors)**, nonzero vectors with the same or opposite direction are collinear vectors.
+
+(2) Correct. The directions $60^{\circ}$ south of west and $60^{\circ}$ north of east are exactly opposite, so the two vectors are collinear.
+
+By **Definition 6.1.1 (Vectors and Scalars)**, a vector has both magnitude and direction.
+
+(3) Incorrect. The $x$-axis and $y$-axis are straight lines, having direction but no definite magnitude, so they are not vectors.
+
+(4) Incorrect. Parallel vectors only require the same or opposite direction, and the lengths are not necessarily equal, so parallel vectors are not necessarily equal.
+
+By **Definition 6.1.7 (Equal Vectors)**, if two vectors with the same starting point are equal, their terminal points coincide.
+
+(5) Correct. If two vectors $\boldsymbol{AM}$ and $\boldsymbol{AN}$ with the same starting point $A$ are not equal, then their length or direction differ, and the terminal points $M$ and $N$ do not coincide.
+
+(6) Correct. Altitude, temperature and angle all have only magnitude and no direction, so none of them is a vector. $\blacksquare$
+
+## Problem 16
+
+(Exercise 6.1, Extension and Exploration, Problem 4) As shown in the figure, in the rectangle $ABCD$, $AB=2BC=2$, and $M$, $N$ are the midpoints of sides $AB$, $CD$ respectively. Among all the vectors represented by directed line segments with $A$, $B$, $C$, $D$, $M$, $N$ as starting and terminal points, how many pairs of equal vectors are there in total?
+
+The figure: the rectangle $ABCD$ placed horizontally, with $AB$ as the top side and $CD$ as the bottom side, $AB=2$ and $BC=1$; $M$ is the midpoint of side $AB$ and $N$ is the midpoint of side $CD$, and the segment $MN$ joins $M$ to $N$ vertically.
 
 ### Solution to Problem 16
 
-By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$) and **Common Conclusion** (Graphs and Properties of the Sine Function).
+By **Definition 6.1.7 (Equal Vectors)**, vectors with equal length and the same direction form a pair of equal vectors.
 
-(1) From $\omega=2$, we get $T=\frac{2\pi}{2}=\pi$.
+From $AB=2BC=2$, we get $AB=2$, $BC=1$. $M$, $N$ are the midpoints of $AB$, $CD$ respectively, so $AM=MB=DN=NC=1$.
 
-(2) From $x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$, we get $2x-\frac{\pi}{3}\in\left[-\frac{5\pi}{6},\frac{\pi}{6}\right]$. On this interval, the maximum of $\sin\left(2x-\frac{\pi}{3}\right)$ is $\sin\frac{\pi}{6}=\frac{1}{2}$ (at $x=\frac{\pi}{4}$), and the minimum is $\sin\left(-\frac{\pi}{2}\right)=-1$ (at $x=-\frac{\pi}{12}$). Hence the maximum of $f\left(x\right)$ is $\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, and the minimum is $\frac{1}{2}\times\left(-1\right)=-\frac{1}{2}$. $\blacksquare$
+Taking the six points $A$, $B$, $C$, $D$, $M$, $N$ as endpoints, there are $\mathrm{A}_6^2=30$ directed line segments in all. Classified by direction and length:
 
-## Problem 17
+(a) Horizontally rightward vectors of length $2$: $\boldsymbol{AB}$, $\boldsymbol{DC}$. There are $2$ in all, forming $\mathrm{C}_2^2=1$ pair.
 
-(Exercise 5.4, Extension and Exploration, Problem 17) In the rectangular coordinate system, given that $\odot O$ is the circle centered at the origin $O$ with radius $2$, and the terminal side of the angle $x$ meets $\odot O$ at $B$, find the function expression relating the y-coordinate $y$ of the point $B$ to $x$, and sketch its graph with the help of information technology.
+(b) Horizontally leftward vectors of length $2$: $\boldsymbol{BA}$, $\boldsymbol{CD}$. There are $2$ in all, forming $1$ pair.
 
-The graphs: on the left is a circle centered at the origin $O$ with radius $2$ in the rectangular coordinate plane, and the terminal side of angle $x$ meets the circle at point $B$; on the right is the graph of the ordinate $y$ of point $B$ as a function of the angle $x$, namely $y=2\sin x$, a sine curve with amplitude $2$ and period $2\pi$, oscillating between $y=-2$ and $y=2$.
+(c) Horizontally rightward vectors of length $1$: $\boldsymbol{AM}$, $\boldsymbol{MB}$, $\boldsymbol{DN}$, $\boldsymbol{NC}$. There are $4$ in all, forming $\mathrm{C}_4^2=6$ pairs.
 
-### Solution to Problem 17
+(d) Horizontally leftward vectors of length $1$: $\boldsymbol{MA}$, $\boldsymbol{BM}$, $\boldsymbol{ND}$, $\boldsymbol{CN}$. There are $4$ in all, forming $6$ pairs.
 
-By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**.
+(e) Vertically upward vectors of length $1$: $\boldsymbol{AD}$, $\boldsymbol{BC}$, $\boldsymbol{MN}$. There are $3$ in all, forming $\mathrm{C}_3^2=3$ pairs.
 
-Since the circle has radius $2$, the intersection point $B$ of the terminal side of the angle $x$ with the circle has coordinates $\left(2\cos x,\ 2\sin x\right)$. Hence the y-coordinate of the point $B$ is $y=2\sin x$, $x\in\mathbb R$. Its graph is a sine curve with amplitude $2$ and period $2\pi$. $\blacksquare$
+(f) Vertically downward vectors of length $1$: $\boldsymbol{DA}$, $\boldsymbol{CB}$, $\boldsymbol{NM}$. There are $3$ in all, forming $3$ pairs.
 
-## Problem 18
+(g) Diagonal-direction vectors of length $\sqrt 2$: $\boldsymbol{AN}$, $\boldsymbol{MD}$, $\boldsymbol{BN}$, $\boldsymbol{MC}$, $\boldsymbol{NA}$, $\boldsymbol{DM}$, $\boldsymbol{NB}$, $\boldsymbol{CM}$. Among them, those with the same direction and equal length: $\boldsymbol{AN}$ and $\boldsymbol{MD}$ (length $\sqrt 2$, direction down-right), $\boldsymbol{BN}$ and $\boldsymbol{MC}$ (length $\sqrt 2$, direction down-left), $\boldsymbol{NA}$ and $\boldsymbol{DM}$ (direction up-left), $\boldsymbol{NB}$ and $\boldsymbol{CM}$ (direction up-right). There are $4$ pairs in all.
 
-(Exercise 5.4, Extension and Exploration, Problem 18) Given that $y=f\left(x\right)$ ($x\in\mathbb R$) is a periodic function with period $2$, a portion of whose graph is shown in the figure,
+(h) Diagonal-direction vectors of length $\sqrt 5$: $\boldsymbol{AC}$, $\boldsymbol{BD}$, $\boldsymbol{CA}$, $\boldsymbol{DB}$. Their directions are pairwise different, so they do not form equal-vector pairs.
 
-(1) Write down the expression for $y=f\left(x\right)$;
+(i) The remaining diagonals (such as $\boldsymbol{AN}$, whose length $\sqrt 2$ has already been counted) are not repeated.
 
-(2) Sketch the graph of $y=f\left(x+1\right)$.
+Total: $1+1+6+6+3+3+4=24$ pairs. $\blacksquare$
 
-The graph: a portion of the periodic graph of $y=f\left(x\right)$ (period $2$); the curve passes through the origin, oscillates between $y=-1$ and $y=1$, crosses the $x$-axis at integer points $x$, and has the shape of the sine wave $y=\sin\pi x$; several consecutive periods are drawn.
+## Reading and Thinking 1
 
-### Solution to Problem 18
+(Thinking 1) Can you describe the important role played by representing vectors with symbols?
 
-By **Definition 5.4.1 (Periodic Function)** and the features of the graph.
+### Solution to Reading and Thinking 1
 
-(1) Since the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, one may try $f\left(x\right)=\sin\frac{\pi x}{2}$. Check: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, but the period $T=\frac{2\pi}{\pi/2}=4\neq2$. Again, with period $2$ and passing through $\left(0,0\right)$, $\left(1,1\right)$, one may try $f\left(x\right)=\sin\pi x$. Check: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. Since the graph passes through $\left(1,1\right)$ and has period $2$, try $f\left(x\right)=-\cos\pi x$. Check: $f\left(0\right)=-1\neq0$. Combining the facts that the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, we get $f\left(x\right)=\sin\pi x$.
+Representing vectors with symbols gives the object of a vector, which has both magnitude and direction, a concise and precise mathematical expression. Its important role lies in: first, symbols (such as $\boldsymbol{a}$, $\boldsymbol{AB}$) transform the geometric intuition of a vector into a computable mathematical object, so that vector operations such as addition, subtraction, scalar multiplication and dot product can be carried out as symbolic operations just like operations on numbers; second, a unified symbolic system eliminates the ambiguity and verbosity of describing vectors in natural language, enabling precise communication between different researchers; third, symbolization promoted the formalization and axiomatization of vector theory, making vectors a bridge connecting geometry and algebra, and laying the foundation for later establishing the fundamental theorem of plane vectors and coordinate representation. $\blacksquare$
 
-(2) The graph of $y=f\left(x+1\right)$ is obtained by shifting the graph of $y=f\left(x\right)$ to the left by $1$ unit. $\blacksquare$
+## Exercise 5
 
-## Problem 19
+(Exercise 6.2, Problem 1) As shown in the figure, in each of the following, given the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, construct the vector $\boldsymbol{a}+\boldsymbol{b}$ in two ways.
 
-(Exercise 5.4, Extension and Exploration, Problem 19) It is easy to see that the sine function $y=\sin x$ is odd, and the sine curve is symmetric about the origin, i.e. the origin is a center of symmetry of the sine curve. Besides the origin, are there other centers of symmetry of the sine curve? If so, what are their coordinates? Also, is the sine curve an axisymmetric figure? If so, what is the equation of its axis of symmetry? Can you explain these phenomena using the properties of the sine function you have learned? Discuss the same questions for the cosine and tangent functions.
+The figure: several pairs of given vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ (with different directions and angles), asking to construct the sum $\boldsymbol{a}+\boldsymbol{b}$ by both the triangle rule (moving the tail of $\boldsymbol{b}$ to the head of $\boldsymbol{a}$) and the parallelogram rule (placing the two vectors tail-to-tail and completing the parallelogram).
 
-### Solution to Problem 19
+### Solution to Exercise 5
 
-By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
-
-(1) Centers of symmetry of the sine curve: every intersection of the sine curve with the $x$-axis is a center of symmetry, i.e. $\left(k\pi,0\right)$ ($k\in\mathbb Z$). The sine curve is axisymmetric, with axes of symmetry $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb Z$).
-
-(2) Centers of symmetry of the cosine curve: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb Z$). The cosine curve is axisymmetric, with axes of symmetry $x=k\pi$ ($k\in\mathbb Z$).
-
-(3) Centers of symmetry of the tangent curve: $\left(\frac{k\pi}{2},0\right)$ ($k\in\mathbb Z$). The tangent curve is not axisymmetric. $\blacksquare$
-
-### Inquiry and Discovery 1
-
-(Thinking 1) Read the article "The Period of the Functions $y=A\sin\left(\omega x+\varphi\right)$ and $y=A\cos\left(\omega x+\varphi\right)$", and explain the derivation of the period formula $T=\frac{2\pi}{\omega}$.
-
-### Solution to Inquiry and Discovery 1
-
-By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$).
-
-Let $z=\omega x+\varphi$. Then the period of $y=A\sin z$ is $2\pi$. Since $z+2\pi=\omega x+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, we see that when the argument $x$ increases by $\frac{2\pi}{\omega}$, the function value repeats; and when the increase is less than $\frac{2\pi}{\omega}$, the function values do not always repeat. Hence the least positive period is $T=\frac{2\pi}{\omega}$. $\blacksquare$
-
-### Inquiry and Discovery 2
-
-(Thinking 1) Read the article "Studying the Properties of the Sine and Cosine Functions Using the Properties of the Unit Circle", and explain how the periodicity, odd-even property, monotonicity and extrema of the trigonometric functions can be obtained with the help of the unit circle.
-
-### Solution to Inquiry and Discovery 2
-
-By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Common Conclusion** (Graphs and Properties of the Sine Function).
-
-(1) Periodicity: each time the terminal side of the angle $x$ makes one full turn around the origin ($2\pi$), the point $P\left(\cos x,\sin x\right)$ returns to its original position, so the period is $2\pi$.
-
-(2) Odd-even property: the terminal sides of the angles $x$ and $-x$ are symmetric about the $x$-axis, so $\cos\left(-x\right)=\cos x$ and $\sin\left(-x\right)=-\sin x$; i.e. cosine is even and sine is odd.
-
-(3) Monotonicity: when the angle $x$ increases from $-\frac{\pi}{2}$ to $\frac{\pi}{2}$, the y-coordinate of the point $P$ increases from $-1$ to $1$, so $\sin x$ increases; when $x$ increases from $\frac{\pi}{2}$ to $\frac{3\pi}{2}$, the y-coordinate decreases from $1$ to $-1$, so $\sin x$ decreases.
-
-(4) Extrema: when $x=\frac{\pi}{2}+2k\pi$, the y-coordinate attains its maximum $1$; when $x=-\frac{\pi}{2}+2k\pi$, the y-coordinate attains its minimum $-1$. $\blacksquare$
+By **Definition 6.2.1 (Triangle Rule)**, move the initial point of $\boldsymbol{b}$ to the terminal point of $\boldsymbol{a}$; the vector from the initial point of $\boldsymbol{a}$ to the terminal point of $\boldsymbol{b}$ is $\boldsymbol{a}+\boldsymbol{b}$. By **Definition 6.2.2 (Parallelogram Rule)**, place the two vectors with the same initial point and construct a parallelogram with the two vectors as adjacent sides; the diagonal is $\boldsymbol{a}+\boldsymbol{b}$. The two methods give the same result. $\blacksquare$

@@ -1,404 +1,440 @@
 # week10
-> **Definition 3.1.1 (Function)**
+> **Definition 4.3.1 (对数)**
 > 
-> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
-> **Definition 3.1.2 (Domain and Range)**
+> 一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
+> **Definition 4.4.1 (对数函数)**
 > 
-> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
-> **Definition 3.1.6 (Representation of Functions)**
+> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+> **Definition 4.4.2 (反函数)**
 > 
-> 函数的常用表示方法有解析法,列表法和图象法.
-> **Definition 3.2.1 (Monotonically Increasing)**
-> 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
-> **Definition 3.2.2 (Monotonically Decreasing)**
-> 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
-> **Definition 3.2.3 (Maximum Value)**
-> 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
-> **Definition 3.2.4 (Minimum Value)**
-> 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
-> **Definition 3.2.5 (Even Function)**
-> 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
-> **Definition 3.2.6 (Odd Function)**
-> 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
-
-## Exercise 1
-
-(Exercise 3.2, Problem 1) Based on the following figure, describe the relation between the production efficiency of an assembly line and the number of workers on the line.
-
-(Figure: a coordinate system with number of workers on the horizontal axis and production efficiency on the vertical axis; a single-peaked curve first rises to a peak then falls, forming an inverted U shape.)
-
-### Solution to Exercise 1
-
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**, judge the trend of change from the slope of the graph.
-
-The production efficiency first rises as the number of workers increases, reaches a peak, and then declines. That is, when the number of workers is small, the production efficiency increases monotonically as the number of workers increases; when the number of workers exceeds a certain value, the production efficiency decreases monotonically as the number of workers increases. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 3.2, Problem 2) According to the definition, prove that the function $f\left(x\right)=3x+2$ is an increasing function.
-
-### Solution to Exercise 2
-
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)**, take any $x_1< x_2$ and prove $f\left(x_1\right)< f\left(x_2\right)$.
-
-For $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have
-
-$$
-f\left(x_1\right)-f\left(x_2\right)=\left(3x_1+2\right)-\left(3x_2+2\right)=3\left(x_1-x_2\right).
-$$
-
-From $x_1< x_2$, we get $x_1-x_2< 0$, and since $3> 0$, we have $3\left(x_1-x_2\right)< 0$, i.e. $f\left(x_1\right)-f\left(x_2\right)< 0$, equivalently $f\left(x_1\right)< f\left(x_2\right)$. Thus $f\left(x\right)=3x+2$ is an increasing function. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 3.2, Problem 3) Prove that the function $f\left(x\right)=-\frac{2}{x}$ is monotonically increasing on the interval $\left(-\infty,0\right)$.
-
-### Solution to Exercise 3
-
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)**, take any $x_1< x_2< 0$ and prove $f\left(x_1\right)< f\left(x_2\right)$.
-
-For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2$, we have
-
-$$
-f\left(x_1\right)-f\left(x_2\right)=-\frac{2}{x_1}-\left(-\frac{2}{x_2}\right)=\frac{2}{x_2}-\frac{2}{x_1}=\frac{2\left(x_1-x_2\right)}{x_1x_2}.
-$$
-
-From $x_1< x_2< 0$, we get $x_1-x_2< 0$ and $x_1x_2> 0$, and since $2> 0$, we have $\frac{2\left(x_1-x_2\right)}{x_1x_2}< 0$, i.e. $f\left(x_1\right)-f\left(x_2\right)< 0$, equivalently $f\left(x_1\right)< f\left(x_2\right)$. Thus $f\left(x\right)=-\frac{2}{x}$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 3.2, Problem 4) Draw the graph of the inverse proportional function $y=\frac{k}{x}$.
-
-(1) What is the domain $D$ of this function?
-
-(2) What is its monotonicity on the domain $D$? Prove your conclusion.
-
-(Figure: a coordinate system showing the hyperbola $y=k/x$, with two branches in quadrants I and III, asymptotic to both axes.)
-
-### Solution to Exercise 4
-
-By **Definition 3.1.2 (Domain and Range)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**.
-
-(1) The fraction $\frac{k}{x}$ requires $x\ne0$, so the domain is $D=\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
-
-(2) When $k> 0$, the graph lies in the first and third quadrants: it is monotonically decreasing on $\left(-\infty,0\right)$ and also monotonically decreasing on $\left(0,+\infty\right)$. Proof: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{k}{x_1}-\frac{k}{x_2}=\frac{k\left(x_2-x_1\right)}{x_1x_2}> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically decreasing. Similarly it is monotonically decreasing on $\left(-\infty,0\right)$. When $k< 0$, the graph lies in the second and fourth quadrants, and it is monotonically increasing on both intervals. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 3.2, Problem 5) Throughout the morning ($8{:}00\sim12{:}00$) the weather became warmer and warmer, and at noon ($12{:}00\sim13{:}00$) a storm suddenly made the weather much cooler. After the storm, the weather warmed up again, and it did not start to cool down again until sunset ($18{:}00$). Draw a possible graph (schematic) of the temperature as a function of time during $8{:}00\sim20{:}00$ on this day, and state the monotonic intervals of the drawn function.
-
-(Figure: a temperature-time coordinate system, horizontal axis from $8{:}00$ to $20{:}00$, vertical axis for temperature; the curve first rises, drops sharply around $12{:}00$, then rises again until $18{:}00$, and finally falls.)
-
-### Solution to Exercise 5
-
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**, divide the trends of change according to the problem.
-
-From $8{:}00\sim12{:}00$ the temperature rises, monotonically increasing; from $12{:}00\sim13{:}00$ the temperature drops sharply, monotonically decreasing; from $13{:}00\sim18{:}00$ the temperature recovers, monotonically increasing; from $18{:}00\sim20{:}00$ the temperature cools down, monotonically decreasing. Thus the monotonically increasing intervals are $\left[8,12\right]$ and $\left[13,18\right]$, and the monotonically decreasing intervals are $\left[12,13\right]$ and $\left[18,20\right]$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 3.2, Problem 6) Let the domain of the function $f\left(x\right)$ be $\left[-6,11\right]$. If $f\left(x\right)$ is monotonically decreasing on the interval $\left[-6,-2\right]$ and monotonically increasing on the interval $\left[-2,11\right]$, draw a rough graph of $f\left(x\right)$. From the graph one can find that $f\left(-2\right)$ is a $\;\_\_\;$ of the function $f\left(x\right)$.
-
-(Figure: a curve in the coordinate system with its lowest point at $x=-2$, decreasing on the left and increasing on the right, forming an upward-opening V or parabola shape.)
-
-### Solution to Exercise 6
-
-By **Definition 3.2.4 (Minimum Value)**, the function decreases on the left and increases on the right at $x=-2$, so $f\left(-2\right)$ is the minimum value of the function.
-
-The graph is V-shaped or parabolic opening upward, attaining the lowest point at $x=-2$. Thus $f\left(-2\right)$ is a $\;\_\_\;$ (minimum value) of the function $f\left(x\right)$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 3.2, Problem 7) Given the function $f\left(x\right)=\frac{1}{x}$, find the maximum and minimum values of the function on the interval $\left[2,6\right]$.
-
-### Solution to Exercise 7
-
-By **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)** and **Definition 3.2.3 (Maximum Value)**, first determine the monotonicity and then evaluate at the endpoints.
-
-By Exercise 4, $f\left(x\right)=\frac{1}{x}$ is monotonically decreasing on $\left(0,+\infty\right)$, so it is also monotonically decreasing on $\left[2,6\right]$. Therefore it attains the maximum value $f\left(2\right)=\frac{1}{2}$ at $x=2$, and the minimum value $f\left(6\right)=\frac{1}{6}$ at $x=6$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 3.2, Problem 8) Given that $f\left(x\right)$ is an even function and $g\left(x\right)$ is an odd function, please complete the following figure.
-
-(Figure: two coordinate systems side by side, each showing only the right half of a curve with the left half to be completed; the left one labeled $f\left(x\right)$ to be symmetric about the $y$-axis, the right one labeled $g\left(x\right)$ to be symmetric about the origin.)
-
-### Solution to Exercise 8
-
-By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**, use symmetry to complete the graph.
-
-The graph of the even function $f\left(x\right)$ is symmetric about the $y$-axis; given the right part, the left part is obtained by taking the mirror image of the right part about the $y$-axis.
-
-The graph of the odd function $g\left(x\right)$ is symmetric about the origin; given the right part, the left part is obtained by taking the centrally symmetric figure of the right part about the origin. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 3.2, Problem 9) Determine the parity of the following functions:
-
-(1) $f\left(x\right)=2x^4+3x^2$;
-
-(2) $f\left(x\right)=x^3-2x$.
-
-### Solution to Exercise 9
-
-By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**, compute $f\left(-x\right)$ and compare it with $f\left(x\right)$.
-
-(1) The domain is $\mathbb R$. $f\left(-x\right)=2\left(-x\right)^4+3\left(-x\right)^2=2x^4+3x^2=f\left(x\right)$, so $f\left(x\right)$ is an even function.
-
-(2) The domain is $\mathbb R$. $f\left(-x\right)=\left(-x\right)^3-2\left(-x\right)=-x^3+2x=-\left(x^3-2x\right)=-f\left(x\right)$, so $f\left(x\right)$ is an odd function. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 3.2, Problem 10) (1) Starting from the definition of an even function, prove that the necessary and sufficient condition for a function $y=f\left(x\right)$ to be an even function is that its graph is symmetric about the $y$-axis;
-
-(2) starting from the definition of an odd function, prove that the necessary and sufficient condition for a function $y=f\left(x\right)$ to be an odd function is that its graph is symmetric about the origin.
-
-### Solution to Exercise 10
-
-By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**, prove the necessary and sufficient condition starting from the definitions.
-
-(1) Necessity: If $f\left(x\right)$ is an even function, then for $\forall x\in D$, $f\left(-x\right)=f\left(x\right)$. The point $\left(x,f\left(x\right)\right)$ on the graph has its mirror image about the $y$-axis at $\left(-x,f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, which is also on the graph, so the graph is symmetric about the $y$-axis.
-
-Sufficiency: If the graph is symmetric about the $y$-axis, then the mirror image $\left(-x,f\left(x\right)\right)$ of the point $\left(x,f\left(x\right)\right)$ is also on the graph, i.e. $f\left(-x\right)=f\left(x\right)$, so $f\left(x\right)$ is an even function.
-
-(2) Necessity: If $f\left(x\right)$ is an odd function, then for $\forall x\in D$, $f\left(-x\right)=-f\left(x\right)$. The point $\left(x,f\left(x\right)\right)$ on the graph has its mirror image about the origin at $\left(-x,-f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, which is also on the graph, so the graph is symmetric about the origin.
-
-Sufficiency: If the graph is symmetric about the origin, then the mirror image $\left(-x,-f\left(x\right)\right)$ of the point $\left(x,f\left(x\right)\right)$ is also on the graph, i.e. $f\left(-x\right)=-f\left(x\right)$, so $f\left(x\right)$ is an odd function. $\blacksquare$
+> ………………………… ４.４　对数函数 １３０ …………………………………………… 探究与发现　互为反函数的两个函数图象间的关系 １３５ … ４.５　函数的应用(二) １４２ ………………………………… 阅读与思考　中外历史上的方程求解 １４７ …………… 文献阅读与数学写作　对数概念的形成与发展 １５７ …… 小结 １５８ ……………………………………………………… 复习参考题４ １５９ …………………………………………… 数学建模　建立函数模型解决实际问题 １６２ ………… 第五章　三角函数 １６７ ………………………………………… ５.１　任意角和弧度制 １６８ …………………………………… ５.２　三角函数的概念 １７７ …………………………………… 阅读与思考　三角学与天文学 １８６ …………………… ５.３　诱导公式 １８８ …………………………………………… ５.４　三角函数的图象与性质 １９６ …………………………… 探究与发现　函数狔＝ｓｉｎ(ω＋φ)及 函数狔＝
 
 ## Problem 1
 
-(Exercise 3.2, Review and Consolidation, Problem 1) Based on the following figure, state the monotonic intervals of the function and the monotonicity on each monotonic interval.
+(Exercise 4.3, Review and Consolidation, Problem 4) Find the value of $x$ satisfying the following conditions.
 
-(Figure: a continuous curve in the coordinate system passing through transition points at $x=-1,0,2,3,5$, alternating between rising and falling.)
+(1) $\ln x=\ln a+\ln b$;
+
+(2) $\lg x=3\lg n-\lg m$;
+
+(3) $\log_a x=\frac{1}{2}\log_a b-\log_a c$;
+
+(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$.
 
 ### Solution to Problem 1
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**, judge from the rising and falling of the graph.
+By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-From left to right, the graph first falls, then rises, then falls, then rises. Thus the monotonically decreasing intervals are $\left[-1,0\right]$ and $\left[2,3\right]$, and the monotonically increasing intervals are $\left[0,2\right]$ and $\left[3,5\right]$. $\blacksquare$
+(1) By (1), $\ln x=\ln\left(ab\right)$, so $x=ab$.
+
+(2) By (1) (2), $\lg x=\lg\frac{n^3}{m}$, so $x=\frac{n^3}{m}$.
+
+(3) By (2) (3), $\log_a x=\log_a\frac{\sqrt{b}}{c}$, so $x=\frac{\sqrt{b}}{c}$.
+
+(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$; from $\log_a 1=0$, we get $\log_3\left(\log_4 x\right)=1$; from $a^1=a$, we get $\log_4 x=3$; so $x=4^3=64$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 3.2, Review and Consolidation, Problem 2) Draw the graphs of the following functions, and based on the graphs state the monotonic intervals of the function $y=f\left(x\right)$ and the monotonicity on each monotonic interval.
+(Exercise 4.3, Comprehensive Application, Problem 5) Given $\lg 2=a$, $\lg 3=b$, find the values of the following.
 
-(1) $y=x^2-5x-6$;
+(1) $\lg 6$;
 
-(2) $y=9-x^2$.
+(2) $\log_3 4$;
 
-(Figure: two coordinate systems side by side, the left showing the upward-opening parabola $y=x^2-5x-6$ with vertex $\left(5/2,-49/4\right)$, the right showing the downward-opening parabola $y=9-x^2$ with vertex $\left(0,9\right)$.)
+(3) $\log_2 12$;
+
+(4) $\lg\frac{3}{2}$.
 
 ### Solution to Problem 2
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
+By **Standard Conclusion 4.3.4** (Logarithm Operation Properties) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-(1) $y=x^2-5x-6=\left(x-\frac{5}{2}\right)^2-\frac{49}{4}$, with vertex $\left(\frac{5}{2},-\frac{49}{4}\right)$ opening upward. The monotonically decreasing interval is $\left(-\infty,\frac{5}{2}\right]$, and the monotonically increasing interval is $\left[\frac{5}{2},+\infty\right)$.
+(1) $\lg 6=\lg\left(2\times 3\right)=\lg 2+\lg 3=a+b$.
 
-(2) $y=9-x^2$, with vertex $\left(0,9\right)$ opening downward. The monotonically increasing interval is $\left(-\infty,0\right]$, and the monotonically decreasing interval is $\left[0,+\infty\right)$. $\blacksquare$
+(2) By the change-of-base formula, $\log_3 4=\frac{\lg 4}{\lg 3}=\frac{2\lg 2}{\lg 3}=\frac{2a}{b}$.
+
+(3) By the change-of-base formula, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg\left(3\times 4\right)}{\lg 2}=\frac{b+2a}{a}$.
+
+(4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 3.2, Review and Consolidation, Problem 3) Prove that:
+(Exercise 4.3, Comprehensive Application, Problem 6) Find the values under the following conditions.
 
-(1) the function $f\left(x\right)=-2x+1$ is a decreasing function;
+(1) If $x\log_3 4=1$, find the value of $4^x+4^{-x}$;
 
-(2) the function $f\left(x\right)=x^2+1$ is monotonically increasing on $\left(0,+\infty\right)$;
-
-(3) the function $f\left(x\right)=1-\frac{1}{x}$ is monotonically increasing on $\left(-\infty,0\right)$.
+(2) if $f\left(x\right)=3^x$, find the value of $f\left(\log_3 2\right)$.
 
 ### Solution to Problem 3
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-(1) For $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(-2x_1+1\right)-\left(-2x_2+1\right)=-2\left(x_1-x_2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$, so $-2\left(x_1-x_2\right)> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so $f\left(x\right)=-2x+1$ is a decreasing function.
+(1) From $x\log_3 4=1$, we get $x=\log_4 3$. Thus $4^x=3$, $4^{-x}=\frac{1}{3}$, and therefore $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
 
-(2) For $\forall x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(x_1^2+1\right)-\left(x_2^2+1\right)=x_1^2-x_2^2=\left(x_1-x_2\right)\left(x_1+x_2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$, and from $x_1,x_2> 0$ we get $x_1+x_2> 0$, so $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically increasing.
-
-(3) For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(1-\frac{1}{x_1}\right)-\left(1-\frac{1}{x_2}\right)=\frac{1}{x_2}-\frac{1}{x_1}=\frac{x_1-x_2}{x_1x_2}$. From $x_1< x_2< 0$ we get $x_1-x_2< 0$ and $x_1x_2> 0$, so $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically increasing. $\blacksquare$
+(2) $f\left(\log_3 2\right)=3^{\log_3 2}=2$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 3.2, Review and Consolidation, Problem 4) The monthly profit $y$ (unit: yuan) of a car rental company and the monthly rent $x$ (unit: yuan) per car satisfy $y=-\frac{x^2}{50}+162x-21000$. Then, at what monthly rent per car is the monthly profit of the rental company maximized? What is the maximum monthly profit?
+(Exercise 4.3, Comprehensive Application, Problem 7) Prove.
+
+(1) $\log_a b\cdot\log_b c\cdot\log_c a=1$;
+
+(2) $\log_{a^m} b^n=\frac{n}{m}\log_a b$.
 
 ### Solution to Problem 4
 
-By **Definition 3.2.3 (Maximum Value)**, a quadratic function attains its maximum at the vertex.
+By **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-$$
-y=-\frac{x^2}{50}+162x-21000=-\frac{1}{50}\left(x-4050\right)^2+307050.
-$$
+(1) By the change-of-base formula, $\log_a b=\frac{\ln b}{\ln a}$, $\log_b c=\frac{\ln c}{\ln b}$, $\log_c a=\frac{\ln a}{\ln c}$. Multiplying the three equations gives $\log_a b\cdot\log_b c\cdot\log_c a=\frac{\ln b}{\ln a}\cdot\frac{\ln c}{\ln b}\cdot\frac{\ln a}{\ln c}=1$.
 
-When $x=4050$, $y$ attains its maximum value $307050$. Thus when the monthly rent per car is $4050$ yuan, the monthly profit is maximized, with maximum monthly profit $307050$ yuan. $\blacksquare$
+(2) By the change-of-base formula, $\log_{a^m} b^n=\frac{\ln b^n}{\ln a^m}=\frac{n\ln b}{m\ln a}=\frac{n}{m}\log_a b$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 3.2, Review and Consolidation, Problem 5) Determine the parity of the following functions:
-
-(1) $f\left(x\right)=x^2+1$;
-
-(2) $f\left(x\right)=\frac{x}{x^2+1}$.
+(Exercise 4.3, Comprehensive Application, Problem 8) The average annual growth rate of the gross domestic product of a certain place is $6.5\%$. At this growth rate, after how many years will the gross domestic product of this place quadruple?
 
 ### Solution to Problem 5
 
-By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**.
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), quadrupling means growing to $4$ times the original.
 
-(1) The domain is $\mathbb R$. $f\left(-x\right)=\left(-x\right)^2+1=x^2+1=f\left(x\right)$, so it is an even function.
-
-(2) The domain is $\mathbb R$. $f\left(-x\right)=\frac{-x}{\left(-x\right)^2+1}=\frac{-x}{x^2+1}=-f\left(x\right)$, so it is an odd function. $\blacksquare$
+Let $x$ years be needed for the gross domestic product to quadruple, then $1.065^x=4$. By the definition of logarithms, $x=\log_{1.065} 4$. By the change-of-base formula, $x=\frac{\lg 4}{\lg 1.065}\approx\frac{0.602}{0.0273}\approx 22$. Therefore after about $22$ years the gross domestic product of this place will quadruple. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 3.2, Comprehensive Application, Problem 6) After a patient with tachycardia takes a certain drug, the heart rate immediately drops significantly, and then as the drug effect wears off, the heart rate slowly rises again. Draw a possible graph (schematic) of the heart rate as a function of time from the moment the drug is taken.
+(Exercise 4.3, Extension and Exploration, Problem 9) We can regard $\left(1+1\%\right)^{365}$ as the daily "progress" rate being $1\%$, and after one year it is $1.01^{365}$; while regarding $\left(1-1\%\right)^{365}$ as the daily "falling behind" rate being $1\%$, and after one year it is $0.99^{365}$. Use a calculating tool to compute and answer the following questions.
 
-(Figure: a heart-rate-time coordinate system, the curve starting at a high value on the vertical axis, dropping rapidly to a trough, then slowly rising and approaching a horizontal asymptote.)
+(1) After one year, by how many times is "progress" greater than "falling behind"?
+
+(2) After approximately how many days will "progress" be $10$ times, $100$ times, and $1000$ times "falling behind" respectively?
 
 ### Solution to Problem 6
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**, divide according to the problem.
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-From the moment the drug is taken, the heart rate first drops rapidly (monotonically decreasing), reaches the lowest point and then slowly recovers (monotonically increasing), finally approaching the normal heart rate level. The graph starts from some positive value on the vertical axis, drops rapidly to a valley, and then slowly rises and tends toward a horizontal asymptote. $\blacksquare$
+(1) After one year, the ratio of progress to falling behind is $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
+
+(2) Let $x$ days be needed for progress to be $k$ times falling behind, then $\left(\frac{1.01}{0.99}\right)^x=k$, so $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg\left(1.01/0.99\right)}$. When $k=10$, $x\approx\frac{1}{0.0087}\approx 115$ days; when $k=100$, $x\approx 230$ days; when $k=1000$, $x\approx 345$ days. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 3.2, Comprehensive Application, Problem 7) Given the functions $f\left(x\right)=x^2-2x$ and $g\left(x\right)=x^2-2x$ ($x\in\left[2,4\right]$),
-
-(1) find the monotonic intervals of $f\left(x\right)$ and $g\left(x\right)$;
-
-(2) find the minimum values of $f\left(x\right)$ and $g\left(x\right)$.
+(Exercise 4.3, Extension and Exploration, Problem 10) Drunk driving is an illegal act that seriously endangers traffic safety. To ensure traffic safety, according to relevant national regulations: a driver whose alcohol content in $100\;\mathrm{mL}$ of blood reaches $20\sim 79\;\mathrm{mg}$ is considered to be driving after drinking, and $80\;\mathrm{mg}$ or above is determined to be drunk driving. Suppose a driver has drunk a certain amount of alcohol, and the alcohol content in his blood has risen to $1\;\mathrm{mg/mL}$. If after he stops drinking, the alcohol content in his blood decreases at a rate of $30\%$ per hour, then at least how many hours must pass before he can drive?
 
 ### Solution to Problem 7
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.4 (Minimum Value)**.
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-$f\left(x\right)=x^2-2x=\left(x-1\right)^2-1$, with vertex $\left(1,-1\right)$.
+It decreases by $30\%$ per hour, i.e. the alcohol content each hour is $0.7$ of the original. The initial content is $1\;\mathrm{mg/mL}$, and after $t$ hours the content is $0.7^\top\;\mathrm{mg/mL}$. The standard for driving after drinking is $20\;\mathrm{mg}$ in $100\;\mathrm{mL}$, i.e. $0.2\;\mathrm{mg/mL}$; to be able to drive we need $0.7^\top< 0.2$. By the definition of logarithms, $t> \log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. Therefore he must wait at least $5$ hours before he can drive. $\blacksquare$
 
-(1) The monotonically decreasing interval of $f\left(x\right)$ is $\left(-\infty,1\right]$, and the monotonically increasing interval is $\left[1,+\infty\right)$. The domain of $g\left(x\right)$ is $\left[2,4\right]$, which lies to the right of the vertex, so $g\left(x\right)$ is monotonically increasing on $\left[2,4\right]$.
+## Exercise 1
 
-(2) $f\left(x\right)$ attains the minimum value $-1$ at $x=1$. $g\left(x\right)$ attains the minimum value $g\left(2\right)=4-4=0$ at $x=2$. $\blacksquare$
+(Exercise 4.4, Problem 1) Find the domains of the following functions.
+
+(1) $y=\ln\left(1-x\right)$;
+
+(2) $y=\frac{1}{\lg x}$;
+
+(3) $y=\log_7\frac{1}{1-3x}$;
+
+(4) $y=\log_a\left|x\right|$ ($a> 0$, and $a\neq 1$).
+
+### Solution to Exercise 1
+
+By **Definition 4.4.1 (Logarithmic Function)**, the antilogarithm must be greater than $0$.
+
+(1) $1-x> 0$, i.e. $x< 1$, so the domain is $\left(-\infty,1\right)$.
+
+(2) $x> 0$ and $\lg x\neq 0$, i.e. $x> 0$ and $x\neq 1$, so the domain is $\left(0,1\right)\cup\left(1,+\infty\right)$.
+
+(3) $\frac{1}{1-3x}> 0$, i.e. $1-3x> 0$, $x< \frac{1}{3}$, so the domain is $\left(-\infty,\frac{1}{3}\right)$.
+
+(4) $\left|x\right|> 0$, i.e. $x\neq 0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 4.4, Problem 2) Draw the graphs of the following functions.
+
+(1) $y=\lg 10^x$;
+
+(2) $y=10^{\lg x}$.
+
+The graphs: on the left, the graph of $y=\lg 10^x=x$ is the whole straight line of slope $1$ passing through the origin in the rectangular coordinate plane (crossing the first and third quadrants); on the right, the graph of $y=10^{\lg x}=x$ ($x> 0$) is the ray on the same line $y=x$ restricted to $x> 0$ (lying only in the first quadrant, extending from the origin to the upper right).
+
+### Solution to Exercise 2
+
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents), $a^{\log_a N}=N$, $\log_a a^x=x$.
+
+(1) By the relationship between logarithms and exponents, $\lg 10^x=x$, so $y=\lg 10^x$ is exactly the line $y=x$.
+
+(2) By the relationship between logarithms and exponents, $10^{\lg x}=x$ ($x> 0$), so $y=10^{\lg x}$ is exactly the ray $y=x$ ($x> 0$). $\blacksquare$
+
+## Exercise 3
+
+(Exercise 4.4, Problem 3) Given the set $A=\left\{1,2,3,4,\cdots\right\}$ and the set $B=\left\{2,4,6,8,10,\cdots\right\}$, which of the following expressions can establish a function relationship from set $A$ to set $B$? $\;\_\_\;$
+
+(1) $y=2^x$; (2) $y=x^2$; (3) $y=\log_2 x$; (4) $y=2x$.
+
+### Solution to Exercise 3
+
+By the definition of a function, for any element in $A$, the function value obtained according to the correspondence must be in $B$.
+
+(1) $y=2^x$: when $x=1$, $y=2\in B$; when $x=2$, $y=4\in B$, but $6$ in $B$ cannot be expressed as $2^x$ ($x\in A$), and the function value corresponding to each element in $A$ is in $B$, but elements in $B$ do not necessarily have a preimage, so a surjective relationship from $A$ to $B$ cannot be established. In fact, for any $x$ in $A$, the function value of $y=2^x$ is in $B$, but the problem requires "establishing a function relationship from set $A$ to set $B$", i.e. the function value of each element in $A$ is in $B$. $2^x$ is an even number and is in $B$, but for $y=x^2$, when $x=1$, $y=1\notin B$; for $y=\log_2 x$, when $x=1$, $y=0\notin B$; for $y=2x$, for any $x\in A$, $2x$ is a positive even number and is in $B$. Therefore only (4) $y=2x$ satisfies. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 4.4, Problem 4) In the same rectangular coordinate system, draw the graphs of the functions $y=\log_3 x$ and $y=\log_{\frac{1}{3}} x$, and explain their relationship.
+
+The graphs: in the same rectangular coordinate system, the two logarithmic curves both have domain $\left(0,+\infty\right)$, lie to the right of the $y$-axis, and pass through the point $\left(1,0\right)$; $y=\log_3 x$ is a monotonically increasing curve (below the $x$-axis for $0< x< 1$ and above it for $x> 1$), while $y=\log_{\frac{1}{3}} x$ is a monotonically decreasing curve (above the $x$-axis for $0< x< 1$ and below it for $x> 1$), and the two are symmetric about the $x$-axis.
+
+### Solution to Exercise 4
+
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), the graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis.
+
+By the change-of-base formula, $\log_{\frac{1}{3}} x=-\log_3 x$. If the point $\left(x,y\right)$ lies on the graph of $y=\log_3 x$, then the point $\left(x,-y\right)$ lies on the graph of $y=\log_{\frac{1}{3}} x$, and conversely. Therefore the two graphs are symmetric about the $x$-axis. $y=\log_3 x$ is an increasing curve passing through $\left(1,0\right)$; $y=\log_{\frac{1}{3}} x$ is a decreasing curve passing through $\left(1,0\right)$, and the two are mirror images of each other about the $x$-axis. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 4.4, Problem 5) Compare the sizes of the two values in each of the following.
+
+(1) $\lg 0.6$, $\lg 0.8$;
+
+(2) $\log_{0.5} 6$, $\log_{0.5} 4$;
+
+(3) $\log_m 5$, $\log_m 7$.
+
+### Solution to Exercise 5
+
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), use the monotonicity of logarithmic functions to compare.
+
+(1) The base $10> 1$, $\lg x$ is an increasing function, $0.6< 0.8$, so $\lg 0.6< \lg 0.8$.
+
+(2) The base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function, $6> 4$, so $\log_{0.5} 6< \log_{0.5} 4$.
+
+(3) When $m> 1$, $y=\log_m x$ is an increasing function, $5< 7$, so $\log_m 5< \log_m 7$; when $0< m< 1$, $y=\log_m x$ is a decreasing function, $5< 7$, so $\log_m 5> \log_m 7$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 4.4, Problem 6) The gross domestic product of a certain place last year was $3000$ hundred million yuan, and the average growth rate for the next $5$ years is expected to be $6.8\%$.
+
+(1) Let $y$ be the annual gross domestic product (in hundred million yuan) reached after $x$ years; write the function analytic expression for $y$ with respect to $x$ within the next $5$ years;
+
+(2) After how many years will the gross domestic product of this place reach $3900$ hundred million yuan?
+
+### Solution to Exercise 6
+
+By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+
+(1) The annual growth rate is $6.8\%$, i.e. each year is $1.068$ times the previous year, so $y=3000\times 1.068^x$, $x\in\left\{0,1,2,3,4,5\right\}$.
+
+(2) Let $3000\times 1.068^x=3900$, i.e. $1.068^x=1.3$. By the definition of logarithms, $x=\log_{1.068} 1.3=\frac{\lg 1.3}{\lg 1.068}\approx\frac{0.1139}{0.0286}\approx 4.0$. Therefore after about $4$ years the gross domestic product of this place will reach $3900$ hundred million yuan. $\blacksquare$
+
+## Inquiry and Discovery 1
+
+(Inquiry and Discovery: Relationship between the Graphs of Two Functions that are Inverses of Each Other) In the same rectangular coordinate system, draw the graphs of the exponential function $y=2^x$ and its inverse function $y=\log_2 x$. Can you discover what symmetric relationship the graphs of these two functions have?
+
+The graphs: in the same rectangular coordinate system, the exponential function $y=2^x$ is an increasing curve lying above the $x$-axis and passing through $\left(0,1\right)$, and its inverse $y=\log_2 x$ is an increasing curve lying to the right of the $y$-axis and passing through $\left(1,0\right)$; the line $y=x$ is drawn as the axis of symmetry, and the two curves are mirror images of each other about the line $y=x$.
+
+### Solution to Inquiry and Discovery 1
+
+By **Definition 4.4.2 (Inverse Function)**, the exponential function and the logarithmic function are inverses of each other.
+
+If the point $P_0\left(x_0,y_0\right)$ lies on the graph of $y=2^x$, then $y_0=2^{x_0}$, i.e. $x_0=\log_2 y_0$, so the point $\left(y_0,x_0\right)$ lies on the graph of $y=\log_2 x$. And the point $\left(x_0,y_0\right)$ and the point $\left(y_0,x_0\right)$ are symmetric about the line $y=x$. Therefore, the graphs of two functions that are inverses of each other are symmetric about the line $y=x$. This conclusion holds for any $y=a^x$ ($a> 0$, and $a\neq 1$) and its inverse function $y=\log_a x$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 4.4, Problem 7) The data for how three variables $y_1$, $y_2$, $y_3$ change with the variable $x$ are as follows: when $x=0,5,10,15,20,25,30$, $y_1=5,130,505,1130,2005,3130,4505$; $y_2=5,90,1620,29160,524880,9447840,170061120$; $y_3=5,30,55,80,105,130,155$. Among them, the variable that grows exponentially with respect to $x$ is $\;\_\_\;$.
+
+### Solution to Exercise 7
+
+By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions), an exponentially growing variable has an increasingly fast growth rate.
+
+$y_3$ increases by $25$ for every increase of $5$, showing linear growth; $y_1$ increases by about $125,375,625,875,1125,1375$ for every increase of $5$, with a uniform growth rate, approximately a quadratic function; $y_2$ grows by about $18$ times for every increase of $5$, with an increasingly fast growth rate, showing exponential growth. Therefore the variable that grows exponentially is $y_2$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 4.4, Problem 8) With the help of a calculating tool, estimate the range of values of $x$ for which $3^x> 5x$ (accurate to $0.01$).
+
+### Solution to Exercise 8
+
+By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions), the exponential function will eventually exceed the linear function, but in the intermediate interval it may be smaller than the linear function.
+
+The equation $3^x=5x$ has two intersection points. Estimate: near $x\approx 0.26$, $3^{0.26}\approx 1.32$, $5\times 0.26=1.30$, the two are close; near $x\approx 2.25$, $3^{2.25}\approx 11.84$, $5\times 2.25=11.25$, the two are close. Therefore the range of values for which $3^x> 5x$ is approximately $x< 0.26$ or $x> 2.25$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 4.4, Problem 9) The graph of the logarithmic function $y=\lg x$ and the graph of the linear function $y=f\left(x\right)$ have two common points $A$ and $B$, where $A$ lies on the $x$-axis and the abscissa of $B$ is $2$. Find the analytic expression of the linear function $y=f\left(x\right)$.
+
+### Solution to Exercise 9
+
+By **Definition 4.4.1 (Logarithmic Function)** and **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), $y=\lg x$ passes through the fixed point $\left(1,0\right)$.
+
+$A$ lies on the $x$-axis and on $y=\lg x$, so $A=\left(1,0\right)$. The abscissa of $B$ is $2$, so $B=\left(2,\lg 2\right)$. The linear function passes through $A\left(1,0\right)$ and $B\left(2,\lg 2\right)$, and the slope is $k=\frac{\lg 2-0}{2-1}=\lg 2$, so $f\left(x\right)=\left(\lg 2\right)\left(x-1\right)$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 4.4, Problem 10) The graph of the function $y=f\left(x\right)$ passes through $\left(1,0\right)$, is increasing on $\left(0,+\infty\right)$, and has $y=1$ as a horizontal asymptote; then $y=f\left(x\right)$ could be ( ).
+
+(A) $y=1-x^{-1}$, $x\in\left(0,+\infty\right)$ (B) $y=\frac{3}{2}-\left(\frac{1}{2}\right)^x$, $x\in\left(0,+\infty\right)$ (C) $y=\ln x$ (D) $y=x-1$, $x\in\left(0,+\infty\right)$
+
+### Solution to Exercise 10
+
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) and **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
+
+(A) $y=1-\frac{1}{x}$: when $x=1$, $y=0$, it is increasing, and when $x\to+\infty$, $y\to 1$, which matches the graph features. (B) when $x=1$, $y=\frac{3}{2}-\frac{1}{2}=1\neq 0$, which does not match. (C) $y=\ln x$, when $x\to+\infty$, $y\to+\infty$, it does not have $y=1$ as an asymptote, which does not match. (D) $y=x-1$ is a straight line, which does not match the graph. Therefore choose (A). $\blacksquare$
 
 ## Problem 8
 
-(Exercise 3.2, Comprehensive Application, Problem 8) (1) According to the definition of monotonicity, prove that the function $y=x+\frac{9}{x}$ is monotonically increasing on the interval $\left[3,+\infty\right)$.
+(Exercise 4.4, Review and Consolidation, Problem 1) Find the domains of the following functions.
 
-(2) Discuss the monotonicity of the function $y=x+\frac{9}{x}$ on the interval $\left(0,+\infty\right)$.
+(1) $y=\sqrt\left[3\right]{\log_2 x}$;
 
-(3) Discuss the monotonicity of the function $y=x+\frac{k}{x}$ ($k> 0$) on the interval $\left(0,+\infty\right)$.
+(2) $y=\sqrt{\log_{0.5}\left(4x-3\right)}$.
 
 ### Solution to Problem 8
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
+By **Definition 4.4.1 (Logarithmic Function)**, the antilogarithm must be greater than $0$.
 
-(1) For $\forall x_1,x_2\in\left[3,+\infty\right)$ with $x_1< x_2$, we have
+(1) $\log_2 x$ requires $x> 0$, and the cube root has no restriction on the radicand, so the domain is $\left(0,+\infty\right)$.
 
-$$
-y_1-y_2=\left(x_1+\frac{9}{x_1}\right)-\left(x_2+\frac{9}{x_2}\right)=\left(x_1-x_2\right)+9\left(\frac{1}{x_1}-\frac{1}{x_2}\right)=\left(x_1-x_2\right)\left(1-\frac{9}{x_1x_2}\right).
-$$
-
-From $x_1,x_2\ge3$ we get $x_1x_2\ge9$, so $1-\frac{9}{x_1x_2}\ge0$; from $x_1< x_2$ we get $x_1-x_2< 0$. When $x_1,x_2> 3$, $x_1x_2> 9$, so $1-\frac{9}{x_1x_2}> 0$, and hence $y_1-y_2< 0$, i.e. $y_1< y_2$, so it is monotonically increasing.
-
-(2) By the same reasoning as (1), when $x_1,x_2\in\left(0,3\right)$ with $x_1< x_2$, $x_1x_2< 9$, so $1-\frac{9}{x_1x_2}< 0$, and hence $y_1-y_2> 0$, i.e. $y_1> y_2$, so it is monotonically decreasing. Thus $y=x+\frac{9}{x}$ is monotonically decreasing on $\left(0,3\right]$ and monotonically increasing on $\left[3,+\infty\right)$.
-
-(3) For $y=x+\frac{k}{x}$ ($k> 0$), by the same reasoning we get $y_1-y_2=\left(x_1-x_2\right)\left(1-\frac{k}{x_1x_2}\right)$. It is decreasing when $x_1x_2< k$ and increasing when $x_1x_2> k$. The dividing point is $x=\sqrt k$, so it is monotonically decreasing on $\left(0,\sqrt k\right]$ and monotonically increasing on $\left[\sqrt k,+\infty\right)$. $\blacksquare$
+(2) We require $\log_{0.5}\left(4x-3\right)\ge 0$ and $4x-3> 0$. Since the base $0.5\in\left(0,1\right)$, $\log_{0.5} x$ is a decreasing function; $\log_{0.5}\left(4x-3\right)\ge 0=\log_{0.5} 1$ is equivalent to $0< 4x-3\le 1$, i.e. $\frac{3}{4}< x\le 1$. So the domain is $\left(\frac{3}{4},1\right]$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 3.2, Comprehensive Application, Problem 9) Let the domain of the function $y=f\left(x\right)$ be $D$, let $I\subseteq D$ be an interval, and write $\Delta x=x_1-x_2$, $\Delta y=f\left(x_1\right)-f\left(x_2\right)$. Prove that:
+(Exercise 4.4, Review and Consolidation, Problem 2) Compare the sizes of the two positive numbers $m$, $n$ satisfying the following conditions.
 
-(1) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically increasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}> 0$;
+(1) $\log_3 m< \log_3 n$;
 
-(2) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically decreasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}< 0$.
+(2) $\log_{0.3} m< \log_{0.3} n$;
+
+(3) $\log_a m< \log_a n$ ($0< a< 1$);
+
+(4) $\log_a m> \log_a n$ ($a> 1$).
 
 ### Solution to Problem 9
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $a> 1$, $y=\log_a x$ is increasing, and when $0< a< 1$, it is decreasing.
 
-(1) Necessity: If $f$ is monotonically increasing on $I$, then for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, without loss of generality let $x_1> x_2$, then $\Delta x=x_1-x_2> 0$, and $f\left(x_1\right)> f\left(x_2\right)$, i.e. $\Delta y> 0$, so $\frac{\Delta y}{\Delta x}> 0$.
+(1) The base $3> 1$, increasing; from $\log_3 m< \log_3 n$ we get $m< n$.
 
-Sufficiency: If $\frac{\Delta y}{\Delta x}> 0$, then $\Delta y$ and $\Delta x$ have the same sign. When $x_1> x_2$, $\Delta x> 0$, so $\Delta y> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically increasing.
+(2) The base $0.3\in\left(0,1\right)$, decreasing; from $\log_{0.3} m< \log_{0.3} n$ we get $m> n$.
 
-(2) Necessity: If $f$ is monotonically decreasing on $I$, then when $x_1> x_2$, $\Delta x> 0$, and $f\left(x_1\right)< f\left(x_2\right)$, i.e. $\Delta y< 0$, so $\frac{\Delta y}{\Delta x}< 0$.
+(3) $0< a< 1$, decreasing; from $\log_a m< \log_a n$ we get $m> n$.
 
-Sufficiency: If $\frac{\Delta y}{\Delta x}< 0$, then $\Delta y$ and $\Delta x$ have opposite signs. When $x_1> x_2$, $\Delta x> 0$, so $\Delta y< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically decreasing. $\blacksquare$
+(4) $a> 1$, increasing; from $\log_a m> \log_a n$ we get $m> n$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 3.2, Comprehensive Application, Problem 10) As shown in the figure, a zoo wants to build two adjacent rectangular panda enclosures of equal area against a wall. If the total length of materials available for building the walls is $30\ \text{m}$, then for what width $x$ (unit: $\text{m}$) is the area of each panda enclosure maximized? What is the maximum area of each panda enclosure?
-
-(Figure: a horizontal wall at the top, with two identical rectangular enclosures side by side below it; the width (perpendicular to the wall) is labeled $x$, a shared vertical wall separates the two enclosures, and the bottom and sides have walls.)
+(Exercise 4.4, Review and Consolidation, Problem 3) Assuming that air resistance is not considered, the functional relationship between the maximum speed of the rocket $v$ (unit: $\mathrm{m/s}$), the mass of the fuel $M$ (unit: $\mathrm{kg}$), and the mass of the rocket (excluding fuel) $m$ (unit: $\mathrm{kg}$) is $v=2000\ln\left(1+\frac{M}{m}\right)$. When the fuel mass is how many times the rocket mass, can the maximum speed of the rocket reach $12\;\mathrm{km/s}$?
 
 ### Solution to Problem 10
 
-By **Definition 3.2.3 (Maximum Value)**, set up the area as a function of $x$ and then find its maximum.
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-The two enclosures together require $3$ width segments (each of length $x$) and $2$ length segments (each denoted $y$), and the total wall length is $3x+2y=30$, so $y=15-\frac{3x}{2}$. The area of each enclosure is $S=x\cdot\frac{y}{2}=x\left(\frac{15}{2}-\frac{3x}{4}\right)=-\frac{3}{4}x^2+\frac{15}{2}x$.
-
-When $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$, $S$ attains its maximum $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\ \text{m}^2$. Thus when the width is $5\ \text{m}$, the area of each enclosure is maximized, with maximum area $18.75\ \text{m}^2$. $\blacksquare$
+$12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. Let $2000\ln\left(1+\frac{M}{m}\right)=12000$, we get $\ln\left(1+\frac{M}{m}\right)=6$, so $1+\frac{M}{m}=\mathrm e^6$, $\frac{M}{m}=\mathrm e^6-1\approx 402$. That is, when the fuel mass is about $402$ times the rocket mass, the maximum speed of the rocket can reach $12\;\mathrm{km/s}$. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 3.2, Comprehensive Application, Problem 11) Given that the function $f\left(x\right)$ is an odd function with domain $\mathbb R$, and when $x\ge0$, $f\left(x\right)=x\left(1+x\right)$. Draw the graph of the function $f\left(x\right)$ and find its analytic expression.
+(Exercise 4.4, Review and Consolidation, Problem 4) The graphs of the functions $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ are as shown in the figure.
 
-(Figure: in the coordinate system, the $x\ge0$ part is the right half of an upward-opening parabola, and the $x< 0$ part is its central-symmetric counterpart about the origin.)
+(1) Explain which function corresponds to which graph, and explain why;
+
+(2) based on the existing graphs, draw in the same rectangular coordinate system the graphs of $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$;
+
+(3) what do you discover from the graph in (2)?
+
+The graphs: in the same rectangular coordinate system, the three increasing logarithmic curves $y=\log_2 x$, $y=\log_3 x$, and $y=\lg x$ all have domain $\left(0,+\infty\right)$ and pass through the point $\left(1,0\right)$; in the region $x> 1$, from top to bottom the graphs are $y=\log_2 x$ (topmost and steepest), $y=\log_3 x$ (middle), and $y=\lg x$ (bottommost and most gentle), while in the region $0< x< 1$ the vertical order is reversed.
 
 ### Solution to Problem 11
 
-By **Definition 3.2.6 (Odd Function)**, use $f\left(x\right)=-f\left(-x\right)$ to find the analytic expression when $x< 0$.
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions), when $x> 1$, the smaller the base, the higher the logarithmic function graph.
 
-When $x< 0$, $-x> 0$, so $f\left(-x\right)=\left(-x\right)\left(1-x\right)=-x\left(1-x\right)$. By the property of odd functions, $f\left(x\right)=-f\left(-x\right)=x\left(1-x\right)$. Thus
+(1) When $x> 1$, the smaller the base, the larger the value of $\log_a x$, and the higher the graph. The bases satisfy $2< 3< 10$, so when $x> 1$, the highest graph is $y=\log_2 x$, the middle one is $y=\log_3 x$, and the lowest is $y=\lg x$. That is, the steepest curve corresponds to $y=\log_2 x$, the middle one to $y=\log_3 x$, and the flattest one to $y=\lg x$.
 
-$$
-f\left(x\right)=\begin{cases}x\left(1+x\right), & x\ge0,\\x\left(1-x\right), & x< 0.\end{cases}
-$$
+(2) By **Standard Conclusion 4.4.3**, the graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis. Therefore $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ are respectively symmetric to $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ about the $x$-axis.
 
-The graph is the right half of a parabola opening upward when $x\ge0$, and its centrally symmetric figure about the origin when $x< 0$. $\blacksquare$
+(3) The graphs of two logarithmic functions whose bases are reciprocals of each other are symmetric about the $x$-axis. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 3.2, Extension and Exploration, Problem 12) Given that the function $f\left(x\right)$ is an even function and is monotonically decreasing on $\left(0,+\infty\right)$, determine whether $f\left(x\right)$ is monotonically increasing or monotonically decreasing on $\left(-\infty,0\right)$, and prove your judgment.
+(Exercise 4.4, Review and Consolidation, Problem 5) Atlantic salmon swim upstream every year back to their spawning grounds to lay eggs. Scientists studying salmon have found that the swimming speed $v$ (unit: $\mathrm{m/s}$) of salmon can be expressed as $v=\frac{1}{2}\log_3\frac{O}{100}$, where $O$ represents the number of units of oxygen consumed by the fish.
+
+(1) When the oxygen consumption of a fish is $2700$ units, what is its swimming speed?
+
+(2) Calculate the number of units of oxygen consumed by a fish when it is stationary.
 
 ### Solution to Problem 12
 
-By **Definition 3.2.5 (Even Function)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**, use the property of even functions to transform.
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
-$f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. Proof: take any $x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2< 0$, then $-x_1> -x_2> 0$. Since $f\left(x\right)$ is monotonically decreasing on $\left(0,+\infty\right)$, we get $f\left(-x_1\right)< f\left(-x_2\right)$. Also since $f\left(x\right)$ is an even function, $f\left(-x_1\right)=f\left(x_1\right)$ and $f\left(-x_2\right)=f\left(x_2\right)$, so $f\left(x_1\right)< f\left(x_2\right)$. Therefore $f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
+(1) Substituting $O=2700$, we get $v=\frac{1}{2}\log_3\frac{2700}{100}=\frac{1}{2}\log_3 27=\frac{1}{2}\times 3=\frac{3}{2}\;\mathrm{m/s}$.
+
+(2) When stationary, $v=0$, i.e. $\frac{1}{2}\log_3\frac{O}{100}=0$, we get $\log_3\frac{O}{100}=0$, so $\frac{O}{100}=1$, $O=100$. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 3.2, Extension and Exploration, Problem 13) We know that the necessary and sufficient condition for the graph of the function $y=f\left(x\right)$ to be centrally symmetric about the origin is that the function $y=f\left(x\right)$ is an odd function. A student has found that this can be generalized: the necessary and sufficient condition for the graph of the function $y=f\left(x\right)$ to be centrally symmetric about the point $P\left(a,b\right)$ is that the function $y=f\left(x+a\right)-b$ is an odd function.
+(Exercise 4.4, Review and Consolidation, Problem 6) A certain drug is injected into a patient's blood within $2\;\mathrm{h}$. During the injection, the drug content in the blood increases linearly; after the injection stops, the drug content in the blood decays exponentially. The graph that can reflect how the drug content $Q$ in the blood changes with time $t$ is ( ).
 
-(1) Find the center of symmetry of the graph of the function $f\left(x\right)=x^3-3x^2$;
-
-(2) By analogy with the above generalized conclusion, write a generalized conclusion for "the necessary and sufficient condition for the graph of the function $y=f\left(x\right)$ to be axis-symmetric about the $y$-axis is that the function $y=f\left(x\right)$ is an even function".
+(A) the peak is at $1\;\mathrm{h}$; (B) the peak is at $2\;\mathrm{h}$, then decays exponentially toward $0$; (C) the peak is at $2\;\mathrm{h}$, then decays linearly; (D) the peak is at $2\;\mathrm{h}$, then decays to a negative value.
 
 ### Solution to Problem 13
 
-By **Definition 3.2.6 (Odd Function)** and **Definition 3.2.5 (Even Function)**, use the generalized conclusion.
+By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions), after the injection stops the drug content decays exponentially, i.e. gradually approaches $0$ but does not become negative.
 
-(1) Let the center of symmetry be $\left(a,b\right)$, then $g\left(x\right)=f\left(x+a\right)-b$ is an odd function, i.e. $g\left(-x\right)=-g\left(x\right)$.
+The injection lasts $2\;\mathrm{h}$, and the content increases linearly to the peak at $2\;\mathrm{h}$; after it stops, it decays exponentially, approaching $0$ but not becoming negative. Therefore choose (B). $\blacksquare$
 
-$$
-g\left(x\right)=\left(x+a\right)^3-3\left(x+a\right)^2-b=x^3+3ax^2+3a^2x+a^3-3x^2-6ax-3a^2-b.
-$$
+## Problem 14
 
-For an odd function, $g\left(x\right)$ must contain no even-powered terms and no constant term. The coefficient of the $x^2$ term is $3a-3=0$, giving $a=1$. The constant term is $a^3-3a^2-b=1-3-b=0$, giving $b=-2$. Thus the center of symmetry is $\left(1,-2\right)$.
+(Exercise 4.4, Comprehensive Application, Problem 7) Determine whether each of the following pairs of functions are inverses of each other. If so, find their domains and ranges.
 
-(2) By analogy we get: the necessary and sufficient condition for the graph of the function $y=f\left(x\right)$ to be axis-symmetric about the line $x=a$ is that the function $y=f\left(x+a\right)$ is an even function. $\blacksquare$
+(1) $y=\ln x$, $y=\mathrm e^x$;
 
-### Information Technology Application 1
+(2) $y=-\log_a x$, $y=\left(\frac{1}{a}\right)^x$.
 
-(Information Technology Application: Drawing Function Graphs with a Computer) If you have the conditions, please draw the graph of the function $y=ax^2+bx+c$ ($a\ne0$), and investigate the influence of the coefficients $a,b,c$ on the graph of the function.
+### Solution to Problem 14
 
-### Solution to Information Technology Application 1
+By **Definition 4.4.2 (Inverse Function)**.
 
-By **Definition 3.1.6 (Ways of Representing a Function)**, observe from the graphs the influence of the coefficients on the shape and position of the parabola.
+(1) $y=\ln x$ and $y=\mathrm e^x$ are inverses of each other. The domain of $y=\ln x$ is $\left(0,+\infty\right)$, and its range is $\mathbb R$; the domain of $y=\mathrm e^x$ is $\mathbb R$, and its range is $\left(0,+\infty\right)$.
 
-(1) The coefficient $a$ determines the opening direction and width: when $a> 0$ it opens upward, and when $a< 0$ it opens downward; the larger $\left|a\right|$ is, the narrower the opening, and the smaller $\left|a\right|$ is, the wider the opening.
+(2) $y=-\log_a x=\log_{\frac{1}{a}} x$, and it is the inverse of $y=\left(\frac{1}{a}\right)^x$. The domain of $y=\log_{\frac{1}{a}} x$ is $\left(0,+\infty\right)$, and its range is $\mathbb R$; the domain of $y=\left(\frac{1}{a}\right)^x$ is $\mathbb R$, and its range is $\left(0,+\infty\right)$. $\blacksquare$
 
-(2) The coefficient $c$ determines the position of the intersection of the graph with the $y$-axis: when $x=0$, $y=c$, so the graph intersects the $y$-axis at the point $\left(0,c\right)$.
+## Problem 15
 
-(3) The coefficients $b$ and $a$ together determine the position of the axis of symmetry: the axis of symmetry is $x=-\frac{b}{2a}$, and changes in $b$ shift the parabola in the horizontal direction. $\blacksquare$
+(Exercise 4.4, Comprehensive Application, Problem 8) Let $y=f\left(x\right)$ represent that when the Celsius temperature is $x$, the Fahrenheit temperature is $y$.
+
+(1) If the inverse function of the function $y=f\left(x\right)$ is $y=g\left(x\right)$, then what does $y=g\left(x\right)$ represent?
+
+(2) If $f\left(30\right)=86$, then find $g\left(86\right)$ and explain its practical meaning.
+
+### Solution to Problem 15
+
+By **Definition 4.4.2 (Inverse Function)**.
+
+(1) $y=f\left(x\right)$ represents "Celsius temperature $x$ corresponds to Fahrenheit temperature $y$", and its inverse function $y=g\left(x\right)$ represents "Fahrenheit temperature $x$ corresponds to Celsius temperature $y$".
+
+(2) From $f\left(30\right)=86$, i.e. $30$ degrees Celsius corresponds to $86$ degrees Fahrenheit, by the definition of inverse functions, $g\left(86\right)=30$, which means $86$ degrees Fahrenheit corresponds to $30$ degrees Celsius. $\blacksquare$
+
+## Problem 16
+
+(Exercise 4.4, Comprehensive Application, Problem 9) Due to the continuous improvement of people's health level in a certain place, the prevalence rate of a certain disease is decreasing at a rate of $15\%$ per year. To reduce the current prevalence rate by half, how many years are needed?
+
+### Solution to Problem 16
+
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+
+It decreases by $15\%$ per year, i.e. the prevalence rate each year is $0.85$ of the original. Let $x$ years be needed, then $0.85^x=0.5$. By the definition of logarithms, $x=\log_{0.85} 0.5=\frac{\lg 0.5}{\lg 0.85}\approx\frac{-0.3010}{-0.0706}\approx 4.3$. Therefore after about $5$ years the prevalence rate will be reduced by half. $\blacksquare$
+
+## Problem 17
+
+(Exercise 4.4, Comprehensive Application, Problem 10) The sound intensity level $L_I$ (unit: $\mathrm{dB}$) is given by the formula $L_I=10\lg\left(\frac{I}{10^{-12}}\right)$, where $I$ is the sound intensity (unit: $\mathrm{W/m^2}$).
+
+(1) The maximum sound intensity that normal human hearing can tolerate is $1\;\mathrm{W/m^2}$, and the minimum sound intensity that can be heard is $10^{-12}\;\mathrm{W/m^2}$. Find the range of the sound intensity level of human hearing.
+
+(2) The sound intensity during ordinary conversation is about $10^{-6}\;\mathrm{W/m^2}$; find its sound intensity level.
+
+### Solution to Problem 17
+
+By **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
+
+(1) When $I=1$, $L_I=10\lg\frac{1}{10^{-12}}=10\lg 10^{12}=120\;\mathrm{dB}$; when $I=10^{-12}$, $L_I=10\lg 1=0\;\mathrm{dB}$. Therefore the range of the sound intensity level of human hearing is $\left[0,120\right]\;\mathrm{dB}$.
+
+(2) When $I=10^{-6}$, $L_I=10\lg\frac{10^{-6}}{10^{-12}}=10\lg 10^6=60\;\mathrm{dB}$. $\blacksquare$

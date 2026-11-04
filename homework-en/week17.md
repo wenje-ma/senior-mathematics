@@ -1,315 +1,510 @@
 # week17
-> **Definition 4.5.1 (函数的零点)**
+> **Definition 5.6.1 (振幅)**
 > 
-> 对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
-> **Definition 4.5.3 (二分法)**
+> 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+> **Definition 5.6.2 (Period)**
 > 
-> 的过程,学习了用函数描 述客观事物变化规律的方法.本节将先学习运用函数性质求 方程近似解的基本方法(二分法),再结合实例,更深入地 理解用函数构建数学模型的基本过程,学习运用模型思想发 现和提出问题,分析和解决问题的方法. ４５１! "#$Z\left[-D\$] Ꮶ 我们已经学习了用二次函数的观点认识一元二次方程,知道一元二次方程的实数 根就是相应二次函数的零点.像ｌｎ＋２－６＝０这样不能用公式求解的方程,是否 也能采用类似的方法,用相应的函数研究它的解的情况呢? 与二次函数的零点一样,对于一般函数狔＝(),我们把使()＝０的实数叫做 函数狔＝()的零点(ｚｅｒｏ). 这样,函数狔＝()的零点就是方程()＝０的实数解,也就是函数狔＝()的图 象与轴的公共点的横坐标.所以 方程()＝０有实数解 　"函数狔＝()有零点 　"函数狔＝()的图象与轴有公共点. 由此可知,求方程()＝０的实数解,就是确定函数狔＝()的零点.一般地,对 于不能用公
-
-## Exercise 1
-
-(Exercise 4.5, Problem 1) Figures (1)(2)(3) are respectively the graphs of the function $y=f\left(x\right)$ in three different ranges. Can one conclude, based on only one of the graphs, that the function $y=f\left(x\right)$ has exactly one zero in a certain interval? Why?
-
-The figures: three rectangular coordinate diagrams, labeled Figure (1), Figure (2), and Figure (3), each showing a continuous unbroken curve $y=f\left(x\right)$ over some finite interval; within the displayed interval the curve appears to meet the $x$-axis only once (crossing or tangent), but the trend of the curve outside the interval is not shown.
-
-### Solution to Exercise 1
-
-By **Standard Conclusion 4.5.2** (Zero Existence Theorem), a continuous graph with $f\left(a\right)f\left(b\right)< 0$ can only guarantee at least one zero in the interval, not exactly one.
-
-Based on a graph in only one range, one cannot conclude that the function has exactly one zero in a certain interval. Because the graph may cross the $x$-axis multiple times within that interval, may be tangent to the $x$-axis, or may have other zeros not shown. To determine the number of zeros, one must also consider the monotonicity of the function or a graph over a wider range. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 4.5, Problem 2) Use a calculating tool to draw the graphs of the functions, and indicate the approximate interval where the zero of each of the following functions lies.
-
-(1) $f\left(x\right)=-x^3-3x+5$;
-
-(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$;
-
-(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$;
-
-(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
-
-The graphs: four small coordinate plots. (1) $f\left(x\right)=-x^3-3x+5$ is a cubic curve, above the $x$-axis near $x=1$ and below it near $x=2$, with its zero in $\left(1,2\right)$; (2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ has domain $x> 2$, below the $x$-axis near $x=3$ and above it near $x=4$, with its zero in $\left(3,4\right)$; (3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ is a monotonically rising curve, below the axis near $x=0$ and above it near $x=1$, with its zero in $\left(0,1\right)$; (4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ is a curve crossing the $x$-axis multiple times, with zeros in $\left(-4,-3\right)$, $\left(-3,-2\right)$, and $\left(2,3\right)$.
-
-### Solution to Exercise 2
-
-By **Standard Conclusion 4.5.2** (Zero Existence Theorem), it suffices to find an interval where the function values at the endpoints have opposite signs.
-
-(1) $f\left(1\right)=1> 0$, $f\left(2\right)=-8-6+5=-9< 0$, so the zero is in $\left(1,2\right)$.
-
-(2) The domain is $x> 2$. $f\left(3\right)=6\ln 1-3=-3< 0$, $f\left(4\right)=8\ln 2-3\approx 2.54> 0$, so the zero is in $\left(3,4\right)$.
-
-(3) $f\left(0\right)=\mathrm e^{-1}-4< 0$, $f\left(1\right)=1+4-4=1> 0$, so the zero is in $\left(0,1\right)$.
-
-(4) $f\left(-4\right)=-4< 0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15> 0$, the zero is in $\left(-4,-3\right)$; $f\left(-2\right)=-2< 0$, the zero is in $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70< 0$, $f\left(3\right)=3> 0$, the zero is in $\left(2,3\right)$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 4.5, Problem 3) With the help of information technology, use the bisection method to find the approximate value of the zero of the function $f\left(x\right)=x^3+1.1x^2+0.9x-1.4$ in the interval $\left(0,1\right)$ (accuracy $0.1$).
-
-### Solution to Exercise 3
-
-By **Definition 4.5.3 (Bisection Method)**.
-
-$f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. Take the midpoint $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55< 0$, the zero is in $\left(0.5,1\right)$. Take the midpoint $0.75$, $f\left(0.75\right)\approx 0.316> 0$, the zero is in $\left(0.5,0.75\right)$. Take the midpoint $0.625$, $f\left(0.625\right)\approx -0.163< 0$, the zero is in $\left(0.625,0.75\right)$. At this point $\lvert 0.75-0.625\rvert=0.125> 0.1$. Take the midpoint $0.6875$, $f\left(0.6875\right)\approx 0.064> 0$, the zero is in $\left(0.625,0.6875\right)$. At this point $\lvert 0.6875-0.625\rvert=0.0625< 0.1$. Therefore the approximate value of the zero can be taken as $0.625$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 4.5, Problem 4) With the help of information technology, use the bisection method to find the approximate solution of the equation $x=3-\lg x$ in the interval $\left(2,3\right)$ (accuracy $0.1$).
-
-### Solution to Exercise 4
-
-By **Definition 4.5.3 (Bisection Method)**.
-
-The original equation is $x+\lg x-3=0$. Let $f\left(x\right)=x+\lg x-3$. $f\left(2\right)=2+\lg 2-3\approx -0.699< 0$, $f\left(3\right)=\lg 3\approx 0.477> 0$. Take the midpoint $2.5$, $f\left(2.5\right)\approx -0.102< 0$, the zero is in $\left(2.5,3\right)$. Take the midpoint $2.75$, $f\left(2.75\right)\approx 0.189> 0$, the zero is in $\left(2.5,2.75\right)$. Take the midpoint $2.625$, $f\left(2.625\right)\approx 0.045> 0$, the zero is in $\left(2.5,2.625\right)$. At this point $\lvert 2.625-2.5\rvert=0.125> 0.1$. Take the midpoint $2.5625$, $f\left(2.5625\right)\approx -0.029< 0$, the zero is in $\left(2.5625,2.625\right)$. At this point $\lvert 2.625-2.5625\rvert=0.0625< 0.1$. Therefore the approximate solution of the equation can be taken as $2.5625$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 4.5, Problem 5) Given that the world population in 1650 was $5$ hundred million, and the annual population growth rate at that time was $0.3\%$; in 1970 the world population was $36$ hundred million, and the annual population growth rate at that time was $2.1\%$.
-
-(1) Using the Malthusian population model to calculate, when will the world population be $2$ times that of 1650? When will the world population be $2$ times that of 1970?
-
-(2) In reality, the world population exceeded $10$ hundred million before 1850; yet by 2004 the world population had not reached $72$ hundred million. What is your view on the two results obtained from the same model?
-
-### Solution to Exercise 5
-
-By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
-
-(1) The 1650 model is $y=5\mathrm e^{0.003t}$. Let $5\mathrm e^{0.003t}=10$, i.e. $\mathrm e^{0.003t}=2$, $t=\frac{\ln 2}{0.003}\approx 231$. That is, about the year 1881. The 1970 model is $y=36\mathrm e^{0.021t}$. Let $36\mathrm e^{0.021t}=72$, i.e. $\mathrm e^{0.021t}=2$, $t=\frac{\ln 2}{0.021}\approx 33$. That is, about the year 2003.
-
-(2) The Malthusian population model is relatively accurate in the short term, but over the long term, influenced by various factors such as resources, policy, and war, the actual population growth will deviate from the model's prediction. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 4.5, Problem 6) Over a period of time, the rabbits in a certain place breed rapidly, and the doubling period of the total number of rabbits is $21$ months. Then approximately how many years are needed for $1$ ten thousand rabbits to grow to $1$ hundred million rabbits?
-
-### Solution to Exercise 6
-
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
-
-Let $n$ doublings occur, then $10^4\times 2^n=10^8$, i.e. $2^n=10^4$, $n=\log_2 10^4=4\log_2 10\approx 13.29$. The doubling period is $21$ months $=1.75$ years, so the number of years is approximately $13.29\times 1.75\approx 23.3$ years. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 4.5, Problem 7) In 1959, archaeologists excavated a group of ancient building ruins at the Erlitou village in Yanshi, Luoyang, Henan. From a certain sample among them, the residual amount of carbon $14$ was detected to be approximately $62.76\%$ of the initial amount. Can this be used to infer approximately what era the Erlitou site dates from?
-
-### Solution to Exercise 7
-
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
-
-The half-life of carbon $14$ is $5730$ years, and the residual amount model is $y=k\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x$. Let $\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x=0.6276$, then $x=\log_{\sqrt\left[5730\right]{1/2}} 0.6276=\frac{\ln 0.6276}{\ln\sqrt\left[5730\right]{1/2}}=\frac{5730\ln 0.6276}{\ln\left(1/2\right)}\approx\frac{5730\times\left(-0.466\right)}{-0.693}\approx 3850$. Therefore this sample is approximately $3850$ years old, i.e. approximately $1950$ BC, and the Erlitou site was probably built around $2000$ BC. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 4.5, Problem 8) The numbers of people suffering from a certain infectious disease in the $1$-st, $2$-nd, and $3$-rd months of this year in a certain place are $52$, $61$, $68$ respectively. To predict the number of patients in subsequent months, A chose the model $y=ax^2+bx+c$, and B chose the model $y=pq^x+r$, where $y$ is the number of patients, $x$ is the month number, and $a,b,c,p,q,r$ are all constants. The resulting numbers of patients in the $4$-th, $5$-th, and $6$-th months were $74$, $78$, $83$ respectively. Whose model do you think better matches reality?
-
-### Solution to Exercise 8
-
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
-
-A's quadratic model: substituting $\left(1,52\right)$, $\left(2,61\right)$, $\left(3,68\right)$ and solving gives $a=-1$, $b=12$, $c=41$, i.e. $y=-x^2+12x+41$. It predicts $y=73$ when $x=4$, $y=76$ when $x=5$, $y=77$ when $x=6$, which has a large error compared with the actual $74$, $78$, $83$. B's exponential model: substituting the three points and solving gives $q\approx\frac{7}{9}$, predicting that the growth in later stages gradually slows down, which is closer to the growth trend of the actual number of patients. Therefore B's chosen model better matches reality. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 4.5, Problem 9) Due to improved breeding technology and expanded breeding scale, the output of broiler chickens in a certain place is continuously increasing. Over the $11$ years from 2008 to 2018, the number of broiler chickens brought to market increased from $7690$ tons to $9230$ tons; during the same period, the population of this place increased from $100.0$ ten thousand to $112.7$ ten thousand.
-
-(1) Find separately the functions that can approximately reflect the change patterns of the above two sets of data;
-
-(2) If in 2017 the broiler chickens brought to market in this place basically met local demand, then in 2018 could they meet market demand?
-
-(3) Based on the change trends of the above two tables, what suggestions do you have for the development of the broiler chicken market in this place after 2018?
-
-### Solution to Exercise 9
-
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
-
-(1) The increase in the number of broiler chickens is relatively uniform, approximately a linear function; the increase in population is also relatively uniform, approximately a linear function. The broiler chickens can be approximated by $y=156.8x+7533$ ($x$ being the number of years since 2008); the population can be approximated by $y=1.27x+99.3$.
-
-(2) In 2017, the per capita broiler chicken was $9080/111.3\approx 81.6\;\mathrm{kg/人}$; in 2018, the per capita broiler chicken was $9230/112.7\approx 81.9\;\mathrm{kg/人}$, slightly higher than in 2017, basically able to meet market demand.
-
-(3) The population growth rate is slightly faster than the broiler chicken growth rate, and the growth in per capita broiler chicken availability is limited. It is recommended to continue expanding the broiler chicken breeding scale to meet the demand brought by population growth. $\blacksquare$
+> 对于函数 f(x), 如果存在一个非零常数 T, 使得当 x 取定义域内的每一个值时, 都有 f(x+T) = f(x), 则 f(x) 叫做周期函数, T 叫做这个函数的周期.
+> **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
+> 
+> 参见教材相应章节关于此概念的论述.
+> **Definition 5.7.1 (简谐运动)**
+> 
+> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
+> **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**
+> 
+> 函数 y = A sin(omega x + phi) 中, A 是振幅, T = 2pi/omega 是周期, f = 1/T 是频率, omega x + phi 是相位, phi 是初相.
 
 ## Problem 1
 
-(Exercise 4.5, Review and Consolidation, Problem 1) The following function graphs all have intersections with the $x$-axis. Among them, those whose zeros cannot be found by the bisection method are $\;\_\_\;$. (Fill in all the figure numbers that satisfy the condition.)
+(Exercise 5.5, Review and Consolidation, Problem 6) Simplify:
+
+(1) $\sin347^{\circ}\cos148^{\circ}+\sin77^{\circ}\cos58^{\circ}$;
+
+(2) $\sin164^{\circ}\sin224^{\circ}+\sin254^{\circ}\sin314^{\circ}$;
+
+(3) $\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)-\cos\left(\beta+\alpha\right)\sin\left(\beta-\gamma\right)$;
+
+(4) $\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\gamma-\beta\right)$;
+
+(5) $\frac{\tan\frac{5\pi}{12}+\tan\frac{\pi}{12}}{1-\tan\frac{5\pi}{12}\tan\frac{\pi}{12}}$;
+
+(6) $\frac{2\sin\alpha\sin\beta+\cos\left(\alpha+\beta\right)}{\cos\left(\alpha-\beta\right)}$.
 
 ### Solution to Problem 1
 
-By **Definition 4.5.3 (Bisection Method)**, the bisection method requires $f\left(a\right)f\left(b\right)< 0$, i.e. the graph crosses the $x$-axis.
+By **Formula 5.5.1** through **Formula 5.5.6**.
 
-In figure ① the graph is tangent to the $x$-axis (does not cross it), and in figure ③ the graph is tangent to the $x$-axis multiple times (touches but does not cross), neither satisfying $f\left(a\right)f\left(b\right)< 0$, so the bisection method cannot be used. In figures ② and ④ the graph crosses the $x$-axis, so the bisection method can be used. Therefore those whose zeros cannot be found by the bisection method are ①③. $\blacksquare$
+(1) From $\sin347^{\circ}=\sin\left(-13^{\circ}\right)=-\sin13^{\circ}$ and $\cos148^{\circ}=-\cos32^{\circ}$, the original expression $=\sin13^{\circ}\cos32^{\circ}+\cos13^{\circ}\sin32^{\circ}=\sin45^{\circ}=\frac{\sqrt{2}}{2}$.
+
+(2) By the reduction formulas, the original expression $=-\sin16^{\circ}\sin36^{\circ}+\cos16^{\circ}\cos36^{\circ}=\cos\left(16^{\circ}+36^{\circ}\right)=\cos52^{\circ}$.
+
+(3) From $\sin\left(\beta-\gamma\right)=-\sin\left(\gamma-\beta\right)$, the original expression $=\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)+\cos\left(\alpha+\beta\right)\sin\left(\gamma-\beta\right)=\sin\left(\alpha+\beta+\gamma-\beta\right)=\sin\left(\alpha+\gamma\right)$.
+
+(4) From $\cos\left(\gamma-\beta\right)=\cos\left(\beta-\gamma\right)$, the original expression $=\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\beta-\gamma\right)=-\cos\left[\left(\alpha-\beta\right)+\left(\beta-\gamma\right)\right]=-\cos\left(\alpha-\gamma\right)$.
+
+(5) By **Formula 5.5.5**, the original expression $=\tan\left(\frac{5\pi}{12}+\frac{\pi}{12}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
+
+(6) From $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$ and $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$, the numerator $=2\sin\alpha\sin\beta+\cos\alpha\cos\beta-\sin\alpha\sin\beta=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos\left(\alpha-\beta\right)$. Hence the original expression $=1$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 4.5, Review and Consolidation, Problem 2) Given that the graph of the function $y=f\left(x\right)$ is a continuous unbroken curve, and there is the following correspondence table: when $x=1,2,3,4,5,6$, $y=136.136,15.552,-3.92,10.88,-52.488,-232.064$. In which intervals must the function $y=f\left(x\right)$ have zeros? Why?
+(Exercise 5.5, Review and Consolidation, Problem 7) Given $\sin\alpha=0.8$ and $\alpha\in\left(0,\frac{\pi}{2}\right)$, find the values of $\sin2\alpha$ and $\cos2\alpha$.
 
 ### Solution to Problem 2
 
-By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
+By **Formula 5.5.7** and **Formula 5.5.8**.
 
-$f\left(2\right)=15.552> 0$, $f\left(3\right)=-3.92< 0$, $f\left(2\right)f\left(3\right)< 0$, so there must be a zero in $\left(2,3\right)$; $f\left(3\right)< 0$, $f\left(4\right)=10.88> 0$, $f\left(3\right)f\left(4\right)< 0$, so there must be a zero in $\left(3,4\right)$; $f\left(4\right)> 0$, $f\left(5\right)=-52.488< 0$, $f\left(4\right)f\left(5\right)< 0$, so there must be a zero in $\left(4,5\right)$. $\blacksquare$
+From $\sin\alpha=0.8=\frac{4}{5}$ and $\alpha\in\left(0,\frac{\pi}{2}\right)$, we get $\cos\alpha=\frac{3}{5}$. Hence $\sin2\alpha=2\sin\alpha\cos\alpha=2\times\frac{4}{5}\times\frac{3}{5}=\frac{24}{25}$, and $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{16}{25}=-\frac{7}{25}$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 4.5, Review and Consolidation, Problem 3) Given the function $f\left(x\right)=x^3-2x+1$, prove that the equation $f\left(x\right)=x$ has at least two real solutions in $\left(-1,2\right)$.
+(Exercise 5.5, Review and Consolidation, Problem 8) Prove:
+
+(1) $\left(\sin2\alpha-\cos2\alpha\right)^{2}=1-\sin4\alpha$;
+
+(2) $\tan\left(\frac{x}{2}+\frac{\pi}{4}\right)+\tan\left(\frac{x}{2}-\frac{\pi}{4}\right)=2\tan x$;
+
+(3) $\frac{1+\sin2\varphi}{\cos\varphi+\sin\varphi}=\cos\varphi+\sin\varphi$;
+
+(4) $\frac{2\sin\alpha\cos\alpha}{\cos^{2}\alpha-\sin^{2}\alpha}=\frac{2\tan\alpha}{\left(1-\tan\alpha\right)\left(1+\tan\alpha\right)}$;
+
+(5) $\frac{1-\cos2\theta}{1+\cos2\theta}=\tan^{2}\theta$;
+
+(6) $\frac{1+\sin2\theta-\cos2\theta}{1+\sin2\theta+\cos2\theta}=\tan\theta$.
 
 ### Solution to Problem 3
 
-By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
+By **Formula 5.5.7** through **Formula 5.5.9**.
 
-Let $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1> 0$, $g\left(1\right)=1-3+1=-1< 0$, $g\left(0\right)g\left(1\right)< 0$, so $g\left(x\right)$ has at least one zero in $\left(0,1\right)$; $g\left(1\right)< 0$, $g\left(2\right)=8-6+1=3> 0$, $g\left(1\right)g\left(2\right)< 0$, so $g\left(x\right)$ has at least one zero in $\left(1,2\right)$. Therefore the equation $f\left(x\right)=x$ has at least two real solutions in $\left(-1,2\right)$. $\blacksquare$
+(1) The left side $=\sin^{2}2\alpha-2\sin2\alpha\cos2\alpha+\cos^{2}2\alpha=1-\sin4\alpha=$ the right side.
+
+(2) Let $u=\tan\frac{x}{2}$. By **Formula 5.5.5** and **Formula 5.5.6**, the left side $=\frac{u+1}{1-u}+\frac{u-1}{1+u}=\frac{\left(u+1\right)^{2}-\left(1-u\right)^{2}}{1-u^{2}}=\frac{4u}{1-u^{2}}=2\cdot\frac{2u}{1-u^{2}}=2\tan x=$ the right side.
+
+(3) The left side $=\frac{\left(\sin\varphi+\cos\varphi\right)^{2}}{\cos\varphi+\sin\varphi}=\sin\varphi+\cos\varphi=$ the right side.
+
+(4) The left side $=\frac{\sin2\alpha}{\cos2\alpha}=\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=$ the right side.
+
+(5) The left side $=\frac{2\sin^{2}\theta}{2\cos^{2}\theta}=\tan^{2}\theta=$ the right side.
+
+(6) The left side $=\frac{2\sin^{2}\theta+2\sin\theta\cos\theta}{2\cos^{2}\theta+2\sin\theta\cos\theta}=\frac{2\sin\theta\left(\sin\theta+\cos\theta\right)}{2\cos\theta\left(\cos\theta+\sin\theta\right)}=\tan\theta=$ the right side. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 4.5, Review and Consolidation, Problem 4) Using information technology, use the bisection method to find the zero of the function $f\left(x\right)=\ln x-\frac{2}{x}$ (accuracy $0.1$).
+(Exercise 5.5, Review and Consolidation, Problem 9) Given $\sin\left(\alpha+\beta\right)=\frac{1}{2}$ and $\sin\left(\alpha-\beta\right)=\frac{1}{3}$, prove:
+
+(1) $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$;
+
+(2) $\tan\alpha=5\tan\beta$.
 
 ### Solution to Problem 4
 
-By **Definition 4.5.3 (Bisection Method)**.
+By **Formula 5.5.3** and **Formula 5.5.4**.
 
-$f\left(2\right)=\ln 2-1\approx -0.307< 0$, $f\left(3\right)=\ln 3-\frac{2}{3}\approx 0.432> 0$. Take the midpoint $2.5$, $f\left(2.5\right)\approx 0.116> 0$, the zero is in $\left(2,2.5\right)$. Take the midpoint $2.25$, $f\left(2.25\right)\approx -0.078< 0$, the zero is in $\left(2.25,2.5\right)$. Take the midpoint $2.375$, $f\left(2.375\right)\approx 0.023> 0$, the zero is in $\left(2.25,2.375\right)$. At this point $\lvert 2.375-2.25\rvert=0.125> 0.1$. Take the midpoint $2.3125$, $f\left(2.3125\right)\approx -0.027< 0$, the zero is in $\left(2.3125,2.375\right)$. At this point $\lvert 2.375-2.3125\rvert=0.0625< 0.1$. Therefore the approximate value of the zero can be taken as $2.3125$. $\blacksquare$
+(1) Since $\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\frac{1}{2}$ and $\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\frac{1}{3}$. Adding the two equations gives $2\sin\alpha\cos\beta=\frac{5}{6}$, and subtracting gives $2\cos\alpha\sin\beta=\frac{1}{6}$. Hence $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$.
+
+(2) Dividing both sides of (1) by $\cos\alpha\cos\beta$ gives $\tan\alpha=5\tan\beta$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 4.5, Review and Consolidation, Problem 5) Using information technology, use the bisection method to find the approximate solution of the equation $0.8^x-1=\ln x$ (accuracy $0.1$).
+(Exercise 5.5, Review and Consolidation, Problem 10) Given $\frac{1-\tan\theta}{2+\tan\theta}=1$, prove that $\tan2\theta=-4\tan\left(\theta+\frac{\pi}{4}\right)$.
 
 ### Solution to Problem 5
 
-By **Definition 4.5.3 (Bisection Method)**.
+From the given condition, $1-\tan\theta=2+\tan\theta$, i.e. $\tan\theta=-\frac{1}{2}$.
 
-Let $f\left(x\right)=0.8^x-1-\ln x$. $f\left(0.5\right)=0.8^{0.5}-1-\ln 0.5\approx 0.587> 0$, $f\left(1\right)=0.8-1-0=-0.2< 0$. Take the midpoint $0.75$, $f\left(0.75\right)\approx 0.134> 0$, the zero is in $\left(0.75,1\right)$. Take the midpoint $0.875$, $f\left(0.875\right)\approx -0.045< 0$, the zero is in $\left(0.75,0.875\right)$. Take the midpoint $0.8125$, $f\left(0.8125\right)\approx 0.042> 0$, the zero is in $\left(0.8125,0.875\right)$. At this point $\lvert 0.875-0.8125\rvert=0.0625< 0.1$. Therefore the approximate solution of the equation can be taken as $0.8125$. $\blacksquare$
+The left side $=\tan2\theta=\frac{2\tan\theta}{1-\tan^{2}\theta}=\frac{-1}{1-\frac{1}{4}}=-\frac{4}{3}$.
+
+The right side $=-4\tan\left(\theta+\frac{\pi}{4}\right)=-4\cdot\frac{\tan\theta+1}{1-\tan\theta}=-4\cdot\frac{-\frac{1}{2}+1}{1+\frac{1}{2}}=-4\cdot\frac{1}{3}=-\frac{4}{3}$.
+
+The left side $=$ the right side, which proves the result. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 4.5, Review and Consolidation, Problem 6) A computer virus specifically occupies memory. At boot it occupies $2\;\mathrm{KB}$, and then every $3$ minutes it copies itself, and after copying the memory occupied is $2$ times the original. Then how many minutes after boot will the virus occupy $64\;\mathrm{MB}$ of memory ($1\;\mathrm{MB}=1024\;\mathrm{KB}$)?
+(Exercise 5.5, Review and Consolidation, Problem 11) Given that the sine of the central angle subtended by an arc equals $\frac{3}{5}$, find the sine, cosine and tangent of the inscribed angle subtended by the same arc.
 
 ### Solution to Problem 6
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Formula 5.5.10** (Half-Angle Formulas).
 
-$64\;\mathrm{MB}=64\times 1024=65536\;\mathrm{KB}$. Let $n$ copies be made to reach $65536\;\mathrm{KB}$, then $2\times 2^n=65536$, i.e. $2^{n+1}=2^{15}$, $n=14$. Each interval is $3$ minutes, so the time is $14\times 3=42$ minutes. $\blacksquare$
+Let the central angle be $2\theta$, then the inscribed angle is $\theta$. From $\sin2\theta=\frac{3}{5}$, we get $\cos2\theta=\pm\frac{4}{5}$.
+
+If $\cos2\theta=\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1-\cos2\theta}{2}}=\sqrt{\frac{1}{10}}=\frac{\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1+\cos2\theta}{2}}=\frac{3\sqrt{10}}{10}$, $\tan\theta=\frac{1}{3}$.
+
+If $\cos2\theta=-\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\frac{3\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1-\frac{4}{5}}{2}}=\frac{\sqrt{10}}{10}$, $\tan\theta=3$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 4.5, Comprehensive Application, Problem 7) Let the function $f\left(x\right)=ax^2+bx+c$ ($a> 0$, $b,c\in\mathbb R$), and $f\left(1\right)=-\frac{a}{2}$. Prove that the function $f\left(x\right)$ has at least one zero in $\left(0,2\right)$.
+(Exercise 5.5, Review and Consolidation, Problem 12) Simplify:
+
+(1) $3\sqrt{15}\sin x+3\sqrt{5}\cos x$;
+
+(2) $\frac{\sqrt{3}}{2}\cos x-\frac{1}{2}\sin x$;
+
+(3) $\sqrt{3}\sin\frac{x}{2}+\cos\frac{x}{2}$;
+
+(4) $\frac{\sqrt{2}}{4}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{6}}{4}\cos\left(\frac{\pi}{4}-x\right)$.
 
 ### Solution to Problem 7
 
-By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
+By **Formula 5.5.11** (Auxiliary Angle Formula).
 
-$f\left(1\right)=a+b+c=-\frac{a}{2}$, i.e. $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a> 0$. If $f\left(0\right)$ and $f\left(2\right)$ have opposite signs, then by the zero existence theorem there is a zero in $\left(0,2\right)$. If $f\left(0\right)$ and $f\left(2\right)$ have the same sign, since $f\left(0\right)+f\left(2\right)> 0$, both are positive. Moreover, $f\left(1\right)=-\frac{a}{2}< 0$, so $f\left(0\right)f\left(1\right)< 0$ or $f\left(1\right)f\left(2\right)< 0$, i.e. the zero is in $\left(0,1\right)$ or $\left(1,2\right)$. Therefore $f\left(x\right)$ has at least one zero in $\left(0,2\right)$. $\blacksquare$
+(1) The original expression $=6\sqrt{5}\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=6\sqrt{5}\sin\left(x+\frac{\pi}{6}\right)$.
+
+(2) The original expression $=\cos\frac{\pi}{6}\cos x-\sin\frac{\pi}{6}\sin x=\cos\left(x+\frac{\pi}{6}\right)$.
+
+(3) The original expression $=2\left(\frac{\sqrt{3}}{2}\sin\frac{x}{2}+\frac{1}{2}\cos\frac{x}{2}\right)=2\sin\left(\frac{x}{2}+\frac{\pi}{6}\right)$.
+
+(4) The original expression $=\frac{\sqrt{2}}{2}\left(\frac{1}{2}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{3}}{2}\cos\left(\frac{\pi}{4}-x\right)\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{\pi}{4}-x+\frac{\pi}{3}\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{7\pi}{12}-x\right)$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 4.5, Comprehensive Application, Problem 8) Given the functions $f\left(x\right)=-x^2-3x-2$, $g\left(x\right)=2-\left[f\left(x\right)\right]^2$.
-
-(1) Find the analytic expression of the function $y=g\left(x\right)$;
-
-(2) using information technology, draw the graph of the function $y=g\left(x\right)$;
-
-(3) find the zeros of the function $y=g\left(x\right)$ (accuracy $0.1$).
-
-The graph: the graph of $y=g\left(x\right)=2-\left(x^2+3x+2\right)^2$ is a downward-opening double-hump (wavy) curve, with two peaks of height $2$ near $x=-2$ and $x=-1$, a shallow valley of height about $1.94$ between them at $x=-1.5$, and both ends extending downward toward $-\infty$; it meets the $x$-axis at about $x\approx-2.71$ and $x\approx-0.29$.
+(Exercise 5.5, Comprehensive Application, Problem 13) In $\triangle ABC$, given that $\tan A$ and $\tan B$ are the two real roots of the equation in $x$, $x^{2}+p\left(x+1\right)+1=0$, find $\angle C$.
 
 ### Solution to Problem 8
 
-By **Definition 4.5.1 (Zero of a Function)**.
+By Vieta's formulas and **Formula 5.5.5**.
 
-(1) $g\left(x\right)=2-\left(-x^2-3x-2\right)^2=2-\left(x^2+3x+2\right)^2$.
-
-(2) The graph is a "wavy" curve opening downward, with four intersection points with the $x$-axis.
-
-(3) Let $g\left(x\right)=0$, i.e. $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. From $x^2+3x+2=\sqrt{2}$ we get $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ or $-2.71$. From $x^2+3x+2=-\sqrt{2}$ we get $\Delta=1-4\sqrt{2}< 0$, no real roots. Therefore the zeros are approximately $-0.3$ and $-2.7$. $\blacksquare$
+From $\tan A+\tan B=-p$ and $\tan A\tan B=p+1$. Hence $\tan\left(A+B\right)=\frac{\tan A+\tan B}{1-\tan A\tan B}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. From $C=\pi-\left(A+B\right)$, we get $\tan C=-\tan\left(A+B\right)=-1$, hence $C=135^{\circ}$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 4.5, Comprehensive Application, Problem 9) In a certain pond, the relationship between the area $y$ (unit: $\mathrm{m^2}$) of duckweed and time $t$ (unit: months) is $y=a^\top$. From the graph, when $t=0$, $y=1$, and when $t=1$, $y=2$. Consider the following statements:
+(Exercise 5.5, Comprehensive Application, Problem 14) In $\triangle ABC$, $B=\frac{\pi}{4}$, and the altitude to side $BC$ equals $\frac{1}{3}BC$, then $\cos A=$ ( ).
 
-(1) the monthly growth rate of the duckweed is $1$;
+(A) $\frac{3\sqrt{10}}{10}$
 
-(2) by the $5$-th month, the duckweed area will exceed $30\;\mathrm{m^2}$;
+(B) $\frac{\sqrt{10}}{10}$
 
-(3) the area added by the duckweed each month is equal;
+(C) $-\frac{\sqrt{10}}{10}$
 
-(4) if the times elapsed for the duckweed to spread to $2\;\mathrm{m^2}$, $3\;\mathrm{m^2}$, $6\;\mathrm{m^2}$ are $t_1$, $t_2$, $t_3$ respectively, then $t_1+t_2=t_3$.
-
-The correct statements among them are ( ).
-
-(A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
-
-The graph: horizontal axis is time $t$ (unit: month), vertical axis is the duckweed area $y$ (unit: $\mathrm{m^2}$); the exponential growth curve $y=2^\top$ passes through the points $\left(0,1\right)$ and $\left(1,2\right)$, is monotonically increasing, and rises more and more steeply.
+(D) $-\frac{3\sqrt{10}}{10}$
 
 ### Solution to Problem 9
 
-By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
+From the given conditions, set $BC=3$, then the altitude $AD=1$. In $\text{Rt}\triangle ABD$, $B=45^{\circ}$, $AD=1$, hence $BD=1$, $AB=\sqrt{2}$. $DC=BC-BD=2$. In $\text{Rt}\triangle ADC$, $AD=1$, $DC=2$, hence $AC=\sqrt{5}$.
 
-From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^\top$. (1) The monthly growth is $2^{t+1}/2^\top=2$, i.e. the growth rate is $1$, correct. (2) When $t=5$, $y=2^5=32> 30$, correct. (3) The area added each month is $2^{t+1}-2^\top=2^\top$, which increases with $t$, incorrect. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, correct. Therefore choose (C). $\blacksquare$
+By **Formula 5.5.2**, $\cos A=\cos\left(\angle BAD+\angle DAC\right)$. $\angle BAD=45^{\circ}$, and $\tan\angle DAC=\frac{DC}{AD}=2$. Hence $\sin\angle DAC=\frac{2}{\sqrt{5}}$, $\cos\angle DAC=\frac{1}{\sqrt{5}}$.
+
+$$
+\cos A=\cos45^{\circ}\cos\angle DAC-\sin45^{\circ}\sin\angle DAC=\frac{\sqrt{2}}{2}\cdot\frac{1}{\sqrt{5}}-\frac{\sqrt{2}}{2}\cdot\frac{2}{\sqrt{5}}=-\frac{\sqrt{10}}{10}.
+$$
+
+Choose (C). $\blacksquare$
+
+## Application of Information Technology 1
+
+(Thinking 1) Read the article "Using Information Technology to Make Trigonometric Tables", and explain how to recursively compute trigonometric values using the sum-angle formulas.
+
+### Solution to Application of Information Technology 1
+
+By **Formula 5.5.3** (Sine of a Sum).
+
+Take the initial values $\sin1'\approx0.000290888$, $\cos1'=\sqrt{1-\sin^{2}1'}$. Set $\alpha_{0}=1'$, $\alpha_{n}=\alpha_{n-1}+1'$. From $\sin\alpha_{n}=\sin1'\cos\alpha_{n-1}+\cos1'\sin\alpha_{n-1}$ and $\cos\alpha_{n}=\sqrt{1-\sin^{2}\alpha_{n}}$, one can recursively compute the trigonometric values at intervals of $1'$ within $0^{\circ}\sim90^{\circ}$. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 5.6, Problem 1) Sketch simple graphs of the following functions on a closed interval of length one period:
+
+(1) $y=\frac{1}{2}\sin x$;
+
+(2) $y=\sin3x$;
+
+(3) $y=\sin\left(x-\frac{\pi}{3}\right)$;
+
+(4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$.
+
+The graphs: four sine sketches each over one period. (1) $y=\frac{1}{2}\sin x$: period $2\pi$, amplitude $\frac{1}{2}$, oscillating between $y=-\frac{1}{2}$ and $y=\frac{1}{2}$; (2) $y=\sin3x$: period $\frac{2\pi}{3}$, amplitude $1$, oscillating between $y=-1$ and $y=1$ with a denser wave; (3) $y=\sin\left(x-\frac{\pi}{3}\right)$: period $2\pi$, amplitude $1$, i.e. $y=\sin x$ shifted right by $\frac{\pi}{3}$; (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$: period $\pi$, amplitude $2$, oscillating between $y=-2$ and $y=2$.
+
+### Solution to Exercise 1
+
+By **Property 5.6.1** (Graph Transformations).
+
+(1) Compress the y-coordinates of all points on the graph of $y=\sin x$ to $\frac{1}{2}$ of the original (keeping the x-coordinates unchanged) to obtain the graph of $y=\frac{1}{2}\sin x$. Period $2\pi$, amplitude $\frac{1}{2}$.
+
+(2) Compress the x-coordinates of all points on the graph of $y=\sin x$ to $\frac{1}{3}$ of the original (keeping the y-coordinates unchanged) to obtain the graph of $y=\sin3x$. Period $\frac{2\pi}{3}$, amplitude $1$.
+
+(3) Shift all points on the graph of $y=\sin x$ to the right by $\frac{\pi}{3}$ units to obtain the graph of $y=\sin\left(x-\frac{\pi}{3}\right)$. Period $2\pi$, initial phase $-\frac{\pi}{3}$.
+
+(4) Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{8}$, compress the x-coordinates to $\frac{1}{2}$ of the original, and stretch the y-coordinates to $2$ times the original, to obtain the graph of $y=2\sin\left(2x-\frac{\pi}{4}\right)$. Period $\pi$, amplitude $2$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 5.6, Problem 2) Given that the graph of the function $y=3\sin\left(x+\frac{\pi}{5}\right)$ is $C$.
+
+(1) To obtain the graph of the function $y=3\sin\left(x-\frac{\pi}{5}\right)$, it suffices to take all points on $C$ ( ).
+
+(A) Translate parallel to the right by $\frac{\pi}{5}$ units
+
+(B) Translate parallel to the left by $\frac{\pi}{5}$ units
+
+(C) Translate parallel to the right by $\frac{2\pi}{5}$ units
+
+(D) Translate parallel to the left by $\frac{2\pi}{5}$ units
+
+(2) To obtain the graph of the function $y=3\sin\left(2x+\frac{\pi}{5}\right)$, it suffices to take all points on $C$ ( ).
+
+(A) Stretch the x-coordinates to $2$ times the original, y-coordinates unchanged
+
+(B) Compress the x-coordinates to $\frac{1}{2}$ of the original, y-coordinates unchanged
+
+(C) Stretch the y-coordinates to $2$ times the original, x-coordinates unchanged
+
+(D) Compress the y-coordinates to $\frac{1}{2}$ of the original, x-coordinates unchanged
+
+(3) To obtain the graph of the function $y=4\sin\left(x+\frac{\pi}{5}\right)$, it suffices to take all points on $C$ ( ).
+
+(A) Stretch the x-coordinates to $\frac{4}{3}$ times the original, y-coordinates unchanged
+
+(B) Compress the x-coordinates to $\frac{3}{4}$ of the original, y-coordinates unchanged
+
+(C) Stretch the y-coordinates to $\frac{4}{3}$ times the original, x-coordinates unchanged
+
+(D) Compress the y-coordinates to $\frac{3}{4}$ of the original, x-coordinates unchanged
+
+### Solution to Exercise 2
+
+By **Property 5.6.1** (Graph Transformations).
+
+(1) From $x+\frac{\pi}{5}\to x-\frac{\pi}{5}$, i.e. $x\to x-\frac{2\pi}{5}$, shift to the right by $\frac{2\pi}{5}$ units. Choose (C).
+
+(2) From $x\to2x$, compress the x-coordinates to $\frac{1}{2}$ of the original. Choose (B).
+
+(3) From $3\to4$, stretch the y-coordinates to $\frac{4}{3}$ times the original. Choose (C). $\blacksquare$
+
+## Exercise 3
+
+(Exercise 5.6, Problem 3) What is the relationship between the graph of the function $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$ and the sine curve?
+
+### Solution to Exercise 3
+
+By **Property 5.6.1** (Graph Transformations).
+
+Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{4}$, stretch the x-coordinates to $2$ times the original, and compress the y-coordinates to $\frac{2}{3}$ of the original, to obtain the graph of $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 5.6, Problem 4) What is the relationship between the graph of the function $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$, and the sine curve?
+
+### Solution to Exercise 4
+
+By **Property 5.6.1** (Graph Transformations).
+
+Shift the graph of $y=\sin x$ ($x\in\mathbb R$) to the left by $\frac{\pi}{12}$ units, then take the part with $x\geq0$, to obtain the graph of $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 4.5, Comprehensive Application, Problem 10) A drug is effective only when its amount in the patient's blood is maintained above $1500\;\mathrm{mg}$. Now this drug has been injected intravenously into a certain patient at $2500\;\mathrm{mg}$. If the drug decays in the blood at a rate of $20\%$ per hour, to ensure effectiveness, by what time at the latest should the drug be replenished into the patient's blood (accurate to $0.1\;\mathrm{h}$)?
+(Exercise 5.6, Review and Consolidation, Problem 1) Multiple-choice questions.
+
+(1) To obtain the graph of the function $y=\cos\left(x+\frac{1}{3}\right)$, it suffices to take all points on the cosine curve ( ).
+
+(A) Translate parallel to the left by $\frac{\pi}{3}$ units
+
+(B) Translate parallel to the right by $\frac{\pi}{3}$ units
+
+(C) Translate parallel to the left by $\frac{1}{3}$ units
+
+(D) Translate parallel to the right by $\frac{1}{3}$ units
+
+(2) To obtain the graph of the function $y=\cos\frac{x}{5}$, it suffices to take all points on the cosine curve ( ).
+
+(A) Stretch the x-coordinates to $5$ times the original, y-coordinates unchanged
+
+(B) Compress the x-coordinates to $\frac{1}{5}$ of the original, y-coordinates unchanged
+
+(C) Stretch the y-coordinates to $5$ times the original, x-coordinates unchanged
+
+(D) Compress the y-coordinates to $\frac{1}{5}$ of the original, x-coordinates unchanged
+
+(3) To obtain the graph of the function $y=\frac{1}{4}\cos x$, it suffices to take all points on the cosine curve ( ).
+
+(A) Stretch the x-coordinates to $4$ times the original, y-coordinates unchanged
+
+(B) Compress the x-coordinates to $\frac{1}{4}$ of the original, y-coordinates unchanged
+
+(C) Stretch the y-coordinates to $4$ times the original, x-coordinates unchanged
+
+(D) Compress the y-coordinates to $\frac{1}{4}$ of the original, x-coordinates unchanged
 
 ### Solution to Problem 10
 
-By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+By **Property 5.6.1** (Graph Transformations).
 
-Let after $t$ hours the drug amount be $2500\times 0.8^\top\;\mathrm{mg}$. Let $2500\times 0.8^\top=1500$, i.e. $0.8^\top=0.6$, $t=\log_{0.8} 0.6=\frac{\lg 0.6}{\lg 0.8}\approx\frac{-0.222}{-0.097}\approx 2.3$. Therefore the drug should be replenished at the latest after $2.3\;\mathrm{h}$. $\blacksquare$
+(1) From $x\to x+\frac{1}{3}$, shift to the left by $\frac{1}{3}$ units. Choose (C).
+
+(2) From $x\to\frac{x}{5}$, stretch the x-coordinates to $5$ times the original. Choose (A).
+
+(3) From $1\to\frac{1}{4}$, compress the y-coordinates to $\frac{1}{4}$ of the original. Choose (D). $\blacksquare$
 
 ## Problem 11
 
-(Exercise 4.5, Comprehensive Application, Problem 11) The global data volume generated in 2008 was $0.49\;\mathrm{ZB}$, in 2009 it was $0.8\;\mathrm{ZB}$, in 2010 it was $1.2\;\mathrm{ZB}$, and in 2011 it was $1.82\;\mathrm{ZB}$.
+(Exercise 5.6, Review and Consolidation, Problem 2) Sketch simple graphs of the following functions on a closed interval of length one period:
 
-(1) To better describe the relationship between the global data volume generated since 2008 and time $x$ (unit: years), choose one from the functions $f\left(x\right)=kx+b$ and $g\left(x\right)=ab^x$, and find its analytic expression.
+(1) $y=4\sin\frac{x}{2}$;
 
-(2) Based on the function model found in (1), estimate the global data volume generated in 2018, and compare it with the published data; what is your view?
+(2) $y=\frac{1}{2}\cos3x$;
+
+(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$;
+
+(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$.
+
+The graphs: four sketches each over one period. (1) $y=4\sin\frac{x}{2}$: period $4\pi$, amplitude $4$, oscillating between $y=-4$ and $y=4$ with a sparser wave; (2) $y=\frac{1}{2}\cos3x$: period $\frac{2\pi}{3}$, amplitude $\frac{1}{2}$, oscillating between $y=-\frac{1}{2}$ and $y=\frac{1}{2}$; (3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$: period $\pi$, amplitude $3$; (4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: period $4\pi$, amplitude $2$.
 
 ### Solution to Problem 11
 
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
+By **Property 5.6.1** (Graph Transformations).
 
-(1) The data increments are successively $0.31$, $0.4$, $0.62$, with an increasingly fast growth rate, consistent with the characteristics of exponential growth, so choose $g\left(x\right)=ab^x$. Let 2008 be $x=0$, then $a=0.49$. From $0.49b=0.8$ we get $b\approx 1.633$. Therefore $g\left(x\right)=0.49\times 1.633^x$.
+(1) $y=4\sin\frac{x}{2}$: from $y=\sin x$, stretch the x-coordinates to $2$ times the original and the y-coordinates to $4$ times the original. Period $4\pi$, amplitude $4$.
 
-(2) 2018 corresponds to $x=10$, $g\left(10\right)=0.49\times 1.633^{10}\approx 65\;\mathrm{ZB}$. The actual data may deviate from the model's prediction due to factors such as technological development and policy adjustment. $\blacksquare$
+(2) $y=\frac{1}{2}\cos3x$: from $y=\cos x$, compress the x-coordinates to $\frac{1}{3}$ of the original and the y-coordinates to $\frac{1}{2}$ of the original. Period $\frac{2\pi}{3}$, amplitude $\frac{1}{2}$.
+
+(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$: from $y=\sin x$, shift to the left by $\frac{\pi}{12}$, compress the x-coordinates to $\frac{1}{2}$ of the original, and stretch the y-coordinates to $3$ times the original. Period $\pi$, amplitude $3$.
+
+(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: from $y=\cos x$, shift to the right by $\frac{\pi}{2}$, stretch the x-coordinates to $2$ times the original and the y-coordinates to $2$ times the original. Period $4\pi$, amplitude $2$. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 4.5, Comprehensive Application, Problem 12) The average body weight of underage males of different heights in a certain place is as follows: when the height is $60\sim 170\;\mathrm{cm}$, the average weight increases from $6.13\;\mathrm{kg}$ to $55.05\;\mathrm{kg}$.
+(Exercise 5.6, Review and Consolidation, Problem 3) Explain what transformations applied to the sine curve produce the graphs of the following functions (note the domain):
 
-(1) Based on the data provided in the table, establish an appropriate function model that can approximately reflect the functional relationship between the average weight $y$ (unit: $\mathrm{kg}$) of underage males in this area and height $x$ (unit: $\mathrm{cm}$), and write the analytic expression of this function.
+(1) $y=8\sin\left(\frac{x}{4}-\frac{\pi}{8}\right)$, $x\in\left[0,+\infty\right)$;
 
-(2) If a weight exceeding $1.2$ times the average weight of males of the same height is considered overweight, and below $0.8$ times is considered underweight, then is the weight of a male student in this place who is $175\;\mathrm{cm}$ tall and weighs $78\;\mathrm{kg}$ normal?
+(2) $y=\frac{1}{3}\sin\left(3x+\frac{\pi}{7}\right)$, $x\in\left[0,+\infty\right)$.
 
 ### Solution to Problem 12
 
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
+By **Property 5.6.1** (Graph Transformations).
 
-(1) Weight accelerates as height increases, approximately a power function $y=ax^b$. Taking $\left(60,6.13\right)$ and $\left(170,55.05\right)$ and dividing gives $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, solving gives $b\approx 2.0$, $a\approx 0.0017$. Therefore $y\approx 0.0017x^2$.
+(1) From $y=\sin x$, shift to the right by $\frac{\pi}{2}$, stretch the x-coordinates to $4$ times the original and the y-coordinates to $8$ times the original, then take the part with $x\geq0$.
 
-(2) When $x=175$, $y\approx 0.0017\times 175^2\approx 52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx 1.49> 1.2$, so this male student is overweight. $\blacksquare$
+(2) From $y=\sin x$, shift to the left by $\frac{\pi}{21}$, compress the x-coordinates to $\frac{1}{3}$ of the original and the y-coordinates to $\frac{1}{3}$ of the original, then take the part with $x\geq0$. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 4.5, Extension and Exploration, Problem 13) There is a problem: "If the function $f\left(x\right)=24ax^2+4x-1$ has exactly one zero in the interval $\left(-1,1\right)$, find the range of values of the real number $a$." A student gave the following solution: from $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)< 0$, solving gives $-\frac{1}{8}< a< \frac{5}{24}$. Is the above solution correct? If not, please explain the reason and give the correct solution.
+(Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$, $0< \varphi< \pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
+
+The graph: the graph of $y=A\sin\left(\omega x+\varphi\right)$ over one period, with amplitude $A=2$ (maximum $2$, minimum $-2$) and period $\pi$; the curve passes through the point $\left(0,1\right)$ on a rising edge (i.e. at $x=0$ the function value is $1$ and then rises to the peak $2$).
 
 ### Solution to Problem 13
 
-By **Standard Conclusion 4.5.2** (Zero Existence Theorem) and **Definition 4.5.1 (Zero of a Function)**.
+By **Definition 5.6.1 (振幅)** through **Definition 5.6.4 (Period of y=Asin(omega x+phi))**.
 
-The above solution is incorrect. When $a=0$, $f\left(x\right)=4x-1$, the zero $x=\frac{1}{4}\in\left(-1,1\right)$, with exactly one zero, already included in $-\frac{1}{8}< a< \frac{5}{24}$. But one must also consider the case where the discriminant is zero: when $\Delta=16+96a=0$, $a=-\frac{1}{6}$, at this time the zero $x=\frac{1}{2}\in\left(-1,1\right)$, which is a double root and also has exactly one zero, but $a=-\frac{1}{6}< -\frac{1}{8}$, not in the original range. In addition, when $a=-\frac{1}{8}$, $f\left(1\right)=0$, the zero $x=1$ is not in the open interval $\left(-1,1\right)$; when $a=\frac{5}{24}$, $f\left(-1\right)=0$, the zero $x=-1$ is not in the open interval $\left(-1,1\right)$. Therefore the correct range is $a=-\frac{1}{6}$ or $-\frac{1}{8}< a< \frac{5}{24}$. $\blacksquare$
+From the graph, the amplitude is $A=2$. From the relative positions of the highest and lowest points, the period is $T=\pi$, hence $\omega=2$. From the graph passing through the point $\left(0,1\right)$ on a rising part, we get $2\sin\varphi=1$, $\varphi=\frac{\pi}{6}$. Hence $y=2\sin\left(2x+\frac{\pi}{6}\right)$. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 4.5, Extension and Exploration, Problem 14) The distance from place A to place B is approximately $240\;\mathrm{km}$. Through multiple experiments, the following data were obtained for a car's fuel consumption per hour $Q$ (unit: $\mathrm{L}$) and speed $v$ (unit: $\mathrm{km/h}$) ($0\le v\le 120$): when $v=0,40,60,80,120$, $Q=0,6.667,8.125,10,20$. To describe the relationship between the car's fuel consumption per hour and speed, the following three models are available for selection: $Q=av^3+bv^2+cv$, $Q=0.5^v+a$, $Q=k\log_a v+b$.
-
-(1) Choose the function model that you think best matches reality, and write the corresponding function analytic expression;
-
-(2) from place A to place B, at what speed should this car travel to minimize the total fuel consumption?
+(Exercise 5.6, Comprehensive Application, Problem 5) After shifting the graph of the function $y=3\sin\left(2x+\frac{\pi}{4}\right)$ to the left by $\frac{\pi}{3}$, the graph of the function $y=g\left(x\right)$ is obtained. Find the analytic expression of $y=g\left(x\right)$.
 
 ### Solution to Problem 14
 
-By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
+By **Property 5.6.1** (Graph Transformations).
 
-(1) When $v=0$, $Q=0$, which excludes $Q=0.5^v+a$ (at this time $Q\neq 0$) and $Q=k\log_a v+b$ (undefined when $v=0$). Choose $Q=av^3+bv^2+cv$. Substituting $\left(40,6.667\right)$, $\left(60,8.125\right)$, $\left(80,10\right)$ and solving gives $a=\frac{1}{360000}$, $b=-\frac{1}{3600}$, $c=\frac{7}{24}$. Therefore $Q=\frac{v^3}{360000}-\frac{v^2}{3600}+\frac{7v}{24}$.
+From the shift to the left by $\frac{\pi}{3}$, we get $g\left(x\right)=3\sin\left[2\left(x+\frac{\pi}{3}\right)+\frac{\pi}{4}\right]=3\sin\left(2x+\frac{2\pi}{3}+\frac{\pi}{4}\right)=3\sin\left(2x+\frac{11\pi}{12}\right)$. $\blacksquare$
 
-(2) The total time is $\frac{240}{v}$ hours, and the total fuel consumption $=Q\times\frac{240}{v}=240\left(\frac{v^2}{360000}-\frac{v}{3600}+\frac{7}{24}\right)$. Setting the derivative to zero: $240\left(\frac{v}{180000}-\frac{1}{3600}\right)=0$, we get $v=50\;\mathrm{km/h}$. Therefore traveling at $50\;\mathrm{km/h}$ minimizes the total fuel consumption. $\blacksquare$
+## Problem 15
+
+(Exercise 5.6, Comprehensive Application, Problem 6) For the second hand of a certain clock, the distance from its endpoint $A$ to the center $O$ is $5\text{ cm}$, and the second hand rotates uniformly about point $O$. At time $t=0$, point $A$ coincides with the point $B$ marked $12$ on the clock face. Express the distance $d$ (unit: $\text{cm}$) between points $A$ and $B$ as a function of $t$ (unit: $\text{s}$). Then $d=$ $\;\_\_\;$ , $t\in\left[0,60\right]$.
+
+### Solution to Problem 15
+
+By **Definition 5.6.2 (Period)** and the Law of Cosines.
+
+Since the second hand makes one revolution in $60\text{ s}$, the angular velocity is $\omega=\frac{2\pi}{60}=\frac{\pi}{30}$. At $t=0$, $A$ coincides with $B$; after $t$ seconds, $\angle AOB=\frac{\pi t}{30}$. By the Law of Cosines, $d^{2}=5^{2}+5^{2}-2\times5\times5\cos\frac{\pi t}{30}=50\left(1-\cos\frac{\pi t}{30}\right)=100\sin^{2}\frac{\pi t}{60}$. Hence $d=10\sin\frac{\pi t}{60}$. $\blacksquare$
+
+## Problem 16
+
+(Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{ m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{ m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin\left(\omega t+\varphi\right)+K$ ($A> 0$, $\omega> 0$, $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$).
+
+(1) Find the values of $A$, $\omega$, $\varphi$, $K$ ($\varphi$ accurate to $0.0001$);
+
+(2) After the bucket emerges from the water, at least how long does it take to reach the highest point (accurate to $0.01\text{ s}$)?
+
+### Solution to Problem 16
+
+By **Definition 5.6.1 (振幅)** through **Definition 5.6.4 (Period of y=Asin(omega x+phi))**.
+
+(1) From the waterwheel radius $3\text{ m}$, we get $A=3$. From the axle center being $2.2\text{ m}$ above the water, we get $K=2.2$. From $1.5$ revolutions per minute, the period is $T=\frac{60}{1.5}=40\text{ s}$, hence $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
+
+Since at $t=0$ the bucket just emerges from the water, i.e. $d=0$, we get $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. Also $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$, hence $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
+
+(2) At the highest point, $\sin\left(\omega t+\varphi\right)=1$, i.e. $\omega t+\varphi=\frac{\pi}{2}$, so $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{ s}$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 5.7, Problem 1) The graph of a certain simple harmonic motion is shown in the figure. Answer the following questions based on the graph:
+
+(1) What are the amplitude, period and frequency of this simple harmonic motion?
+
+(2) Write down the analytic expression of this simple harmonic motion.
+
+The graph: horizontal axis is time $t$ (unit: s), vertical axis is displacement $y$ (unit: cm); a sine curve starts at the origin $\left(0,0\right)$ on a rising edge, with amplitude $3$ (maximum $3$, minimum $-3$) and period $2$ s (two consecutive rising zero-crossings at about $t=1.2$ and $t=3.2$).
+
+### Solution to Exercise 5
+
+By **Definition 5.7.1 (简谐运动)** and **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**.
+
+(1) From the graph, the maximum value is $3\text{ cm}$ and the minimum value is $-3\text{ cm}$, hence the amplitude is $A=3$. From the graph, the period is $T=3.2-1.2=2\text{ s}$, and the frequency is $f=\frac{1}{2}=0.5\text{ Hz}$.
+
+(2) From $A=3$, $\omega=\frac{2\pi}{T}=\pi$, and the fact that at $t=0$, $y=0$ on a rising part, we get $\varphi=0$. Hence $y=3\sin\left(\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 5.7, Problem 2) A string that is absolutely rigid, of fixed length and with negligible mass, is fixed at one end, and an hourglass is suspended at the other end. When the hourglass swings, the functional relationship between its displacement $s$ (unit: $\text{cm}$) from the equilibrium position and time $t$ (unit: $\text{s}$) is $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in\left[0,+\infty\right)$.
+
+(1) When $l=25$, find the maximum deflection angle of the hourglass (accurate to $0.0001\text{ rad}$);
+
+(2) Given $g=9.8\text{ m/s}^{2}$, to make the period of the hourglass's swing equal to $1\text{ s}$, what should the length of the string be (accurate to $0.1\text{ cm}$)?
+
+### Solution to Exercise 6
+
+By **Definition 5.7.1 (Simple Harmonic Motion)**.
+
+(1) From $s_{\max}=3\text{ cm}$ and the string length $l=25\text{ cm}$, the maximum deflection angle $\theta$ satisfies $l\sin\theta=s_{\max}$, i.e. $\sin\theta=\frac{3}{25}=0.12$. Hence $\theta=\arcsin0.12\approx0.1203\text{ rad}$.
+
+(2) From the period $T=\frac{2\pi}{\sqrt{g/l}}=2\pi\sqrt{\frac{l}{g}}=1$, we get $l=\frac{g}{4\pi^{2}}=\frac{980}{4\pi^{2}}\approx24.8\text{ cm}$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 5.7, Problem 3) The current produced by a generator is a sinusoidal current, and the relationship between voltage and time is shown in the figure. From the graph, state its period, frequency and maximum voltage, and find the analytic expression of the voltage $U$ (unit: $\text{V}$) with respect to time $t$ (unit: $\text{s}$).
+
+The graph: horizontal axis is time $t$ (unit: s), vertical axis is voltage $U$ (unit: V); a sine curve starts at the origin on a rising edge, with maximum $311$ V, minimum $-311$ V, and period $0.02$ s.
+
+### Solution to Exercise 7
+
+By **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**.
+
+From the graph, the maximum voltage is $311\text{ V}$, the period is $0.02\text{ s}$, and the frequency is $50\text{ Hz}$. From $\omega=\frac{2\pi}{0.02}=100\pi$ and the initial phase $\varphi=0$. Hence $U=311\sin\left(100\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
+
+## Problem 17
+
+(Exercise 5.7, Comprehensive Application, Problem 1) Some stars in the sky have changing brightness; one type is called a Cepheid variable star. The figure below shows the periodic change of the brightness of a Cepheid variable star over time. What is the period of the brightness change of this variable star in days? What is its magnitude at its brightest? What is its magnitude at its dimmest?
+
+The graph: horizontal axis is time (unit: day), vertical axis is the star's brightness (magnitude); a periodically oscillating curve fluctuates between about magnitude $3.5$ (brightest) and about magnitude $4.5$ (dimmest), with a period of about $5.5$ days.
+
+### Solution to Problem 17
+
+By **Property 5.7.1** (Steps in Applying Trigonometric Models).
+
+From the graph, the period of the brightness change is about $5.5$ days. At its brightest it is about $3.5$ magnitude, and at its dimmest about $4.5$ magnitude. $\blacksquare$
+
+## Problem 18
+
+(Exercise 5.7, Comprehensive Application, Problem 2) A ball hanging from a spring moves up and down, and its height $h$ (unit: $\text{cm}$) relative to the equilibrium position at $t\text{ s}$ is given by the relation $h=2\sin\left(t+\frac{\pi}{4}\right)$.
+
+(1) Where is the ball located when it starts vibrating (i.e. $t=0$)?
+
+(2) What are the distances from the equilibrium position to the highest point and the lowest point of the ball respectively?
+
+(3) After how much time does the ball complete one back-and-forth motion?
+
+(4) How many back-and-forth vibrations does the ball complete per second?
+
+### Solution to Problem 18
+
+By **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**.
+
+(1) From $t=0$, $h=2\sin\frac{\pi}{4}=\sqrt{2}\text{ cm}$, i.e. the ball is $\sqrt{2}\text{ cm}$ above the equilibrium position.
+
+(2) From the amplitude $A=2$, the distances from the equilibrium position to the highest and lowest points are both $2\text{ cm}$.
+
+(3) From $\omega=1$, the period is $T=2\pi\text{ s}$, i.e. it takes $2\pi\text{ s}$ to complete one back-and-forth motion.
+
+(4) From the frequency $f=\frac{1}{2\pi}\approx0.159$, it vibrates back and forth $\frac{1}{2\pi}$ times per second. $\blacksquare$

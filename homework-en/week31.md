@@ -1,191 +1,558 @@
 # week31
-> **Definition 6.1.1 (向量与数量)**
+> **Definition 8.1.4 (棱柱)**
 > 
-> 在数学中, 我们把既有大小又有方向的量叫做向量, 而把只有大小没有方向的量称为数量, 如年龄, 身高, 长度, 面积, 体积, 质量等都是数量.
-> **Definition 6.1.2 (分步乘法计数原理)**
+> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
+> **Corollary 8.4.6 (推论 2)**
 > 
-> 具有方向的线段叫做有向线段, 包含起点,方向和长度三个要素.
-> **Definition 6.1.3 (Magnitude of a Vector)**
+> 经过两条相交直线, 有且只有一个平面.
+> **Definition 8.4.9 (直线与平面的位置关系)**
 > 
-> 向量 AB 的大小, 也就是向量 AB 的长度 (或称模), 记作 |AB|.
-> **Definition 6.1.5 (Unit Vector)**
+> 用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应把直线画在 表示平面α的平行四边形 内;直线在平面α外, 应把直线或它的一部分 画在表示平面α的平行四 边形外. (２)直线与平面相交———有且只有一个公共点; (３)直线与平面平行———没有公共点. 当直线与平面相交或平行时,直线不在平面内,也称为 直线在平面外. 图８.４１３表示了直线与平面的三种位置关系. α a α a A α a 图８.４１３ 直线与平面α相交于点,记作∩α＝;直线与平面α平行,记作∥α. ９２１ 下面我们研究空间中直线,平面之间的位置关系,
+> **Theorem 8.5.2 (Equal Angles Theorem)**
 > 
-> 长度等于 1 个单位长度的向量叫做单位向量.
-> **Definition 6.1.6 (Parallel and Collinear Vectors)**
+> 如果一个角的两边和另一个角的两边分别平行, 那么这两个角相等或互补.
+> **Theorem 8.5.3 (直线与平面平行的判定定理)**
 > 
-> 方向相同或相反的非零向量叫做平行向量, 也叫共线向量.
-> **Definition 6.1.7 (Equal Vectors)**
+> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
+> **Theorem 8.5.4 (直线与平面平行的性质定理)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
+> 一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
+> **Theorem 8.5.5 (平面与平面平行的判定定理)**
+> 
+> 一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
+> **Theorem 8.5.6 (Property Theorem of Parallel Planes)**
+> 
+> 两个平行平面同时和第三个平面相交, 所得的交线平行.
+> **Definition 8.6.1 (异面直线所成的角)**
+> 
+> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel a$, $b'\parallel b$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
+> **Definition 8.6.2 (异面直线垂直)**
+> 
+> 线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平面α内的任意一条直线都垂直,我 们就说直线与平面α互相垂直,记作⊥α.直线叫做平面α 的垂线,平面α叫做直线的垂面.直线与平面垂直时,它们唯 一的公共点叫做垂足. 画直线与平面垂直时,通常把直线画成与表示平面的平行四 边形的一边垂直,如图８.６９所示. Ꮶ 在同一平面内,过一点有且只有一条直线与已知直线垂直.将这一结论推广到空 间,过一点垂直于已知平面的直线有几条?为什么? ９４１ 8. 6. 2 直线与平面垂直 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 8.6-7),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. 图 8.6-7 观察 如图
+> **Definition 8.6.3 (直线与平面垂直)**
+> 
+> 第八章　立体几何初步 　图８.６７ ８６２! 3)< = 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 ８.６７),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. ᜺ A B C CĂ BĂ 　图８.６８ 如图８.６８,在阳光下观察直立于地面的旗杆及 它在地面的影子.随着时间的变化,影子的位置 在不断地变化,旗杆所在直线与其影子所在直 线是否保持垂直? 事实上,随着时间的变化,尽管影子的位置在不断地变 化,但是旗杆所在直线始终与影子所在直线垂直.也就 是说,旗杆所在直线与地面上任意一条过点的直线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平
+> **Theorem 8.6.4 (直线与平面垂直的判定定理)**
+> 
+> 一条直线与一个平面内的两条相交直线都垂直, 则该直线与此平面垂直.
+> **Theorem 8.6.5 (直线与平面垂直的性质定理)**
+> 
+> 垂直于同一个平面的两条直线平行.
+> **Definition 8.6.6 (直线与平面所成的角)**
+> 
+> 垂直于平面,我们说它们所成的角是９０°;一条直线和平面平行,或在平面 内,我们说它们所成的角是０°.直线与平面所成的角θ的取值范围是０°≤θ≤９０°. A1 B1 C1 D1 A B C D O 　图８.６１５ 例４　如图８.６１５,在正方体１１１１中,求直线 １和平面１１所成的角. 分析:关键是找出直线１在平面１１上的射影. 解:连接１,１与１相交于点,连接１.设正方 体的棱长为. ∵　１１⊥１１,１１⊥１,１１∩１＝１, ∴　１１⊥平面１１. ∴　１１⊥１. 又　１⊥１, ∴　１⊥平面１１. ∴　１为斜线１在平面１１上的射影,∠１为１和平面１１ 所成的角. 在Ｒｔ△１中,１＝槡２,＝槡２２, ∴　＝１２１. ∴　∠１＝３０°. ∴　直线１和平面１１所成的角为３０°. ጷ˸ １.
+> **Definition 8.6.7 (二面角)**
+> 
+> ,利用角刻画两条相交直线的位置关系,进而 研究直线与直线互相垂直这种特殊情况.类似地,我们需要先引进二面角的概念,用以刻 ５５１ 设截得棱台的棱锥的体积为 V,去掉的棱锥的体积为 V',高为 h',则 PO'h'. 于是 S(h'+h). 所以棱台的体积 V棱台=V-V' Sh+(S-S')h']. h'2 (h'+h)2* ①请你自己证明这个 Vs'h 所以 h" 结论. VS-S" 代人①,得 V棱台= -h[S+(S-S') VS-VS h(s'+vs's+S). 练习 l.已知直线α,b 和平面α,且ab,alα,则b与α的位置关系是 2.已知A,B两点在平面α的同侧,且它们与α的距离相等,求证: 直线AB//α. 3.如图,EA 和DC都垂直于平面ABC,且 EA=2DC,F是EB 的 中点,求证:DF/平面ABC. 4.求证:垂直于同一条直线的两个平面互相平行.(提示:过这条直 (第3题) 线作平面与这两个平面相交,则它们的交线平行.) 8.6.3 平面与平面垂直 像研究直线
+> **Theorem 8.6.8 (平面与平面垂直的判定定理)**
+> 
+> 一个平面过另一个平面的垂线, 则这两个平面垂直.
+> **Theorem 8.6.9 (平面与平面垂直的性质定理)**
+> 
+> 两个平面垂直, 则一个平面内垂直于交线的直线与另一个平面垂直.
 
 ## Exercise 1
 
-(Exercise 6.1, Problem 1) Which of the following quantities are vectors?
+(Exercise 8.5, Problem 3) As shown in the figure, in the cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $M$, $N$, $E$, $F$ are the midpoints of the edges $A_{1}B_{1}$, $A_{1}D_{1}$, $B_{1}C_{1}$, $C_{1}D_{1}$ respectively. Prove that plane $AMN\parallel$ plane $DBEF$.
 
-The pulling force on a suspended object, pressure, friction, frequency, acceleration.
+(Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with $M,N,E,F$ the midpoints of the four edges of the top face.)
 
 ### Solution to Exercise 1
 
-By **Definition 6.1.1 (Vectors and Scalars)**, a vector is a quantity with both magnitude and direction, and a scalar is a quantity with only magnitude and no direction.
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
-Pulling force, friction and acceleration all have both magnitude and direction, so they are vectors. Pressure and frequency have only magnitude and no direction, so they are scalars. $\blacksquare$
+Since $M$, $N$ are the midpoints of $A_{1}B_{1}$, $A_{1}D_{1}$ respectively, $MN\parallel B_{1}D_{1}$. Also $B_{1}D_{1}\parallel BD$, so $MN\parallel BD$. Since $BD\subset$ plane $DBEF$ and $MN\not\subset$ plane $DBEF$, we have $MN\parallel$ plane $DBEF$.
+
+Similarly, $AM\parallel DF$ (by the mid-segment and the symmetry of the cube), $DF\subset$ plane $DBEF$, $AM\not\subset$ plane $DBEF$, so $AM\parallel$ plane $DBEF$.
+
+Moreover, $MN\cap AM=M$; the two intersecting lines $MN$, $AM$ both lie in plane $AMN$ and are both parallel to plane $DBEF$. By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, plane $AMN\parallel$ plane $DBEF$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 6.1, Problem 2) Draw two directed line segments to represent respectively a force of $18\text{ N}$ acting vertically downward and a force of $28\text{ N}$ acting horizontally to the left. (Use a length of $1\text{ cm}$ to represent $10\text{ N}$.)
+(Exercise 8.5, Problem 4) As shown in the figure, planes $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel b$. Determine the positional relationship of $c$ with $a$ and of $c$ with $\alpha$, and explain why.
 
-The figure: using the scale $1\text{ cm}$ to represent $10\text{ N}$, draw a directed segment $1.8\text{ cm}$ long pointing vertically downward to represent a force of magnitude $18\text{ N}$, and alongside it a directed segment $2.8\text{ cm}$ long pointing horizontally leftward to represent a force of magnitude $28\text{ N}$.
+(Figure: two parallel planes $\alpha,\beta$ cut by a third plane $\gamma$, giving intersection lines $a,b$; $c$ lies in $\beta$ and is parallel to $b$.)
 
 ### Solution to Exercise 2
 
-By **Definition 6.1.2 (Directed Line Segments)**, the direction of the directed line segment represents the direction of the force, and the length of the directed line segment represents the magnitude of the force to scale.
+By **Theorem 8.5.6 (Property of Two Parallel Planes)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-Taking $1\text{ cm}$ to represent $10\text{ N}$, the force of $18\text{ N}$ corresponds to a directed line segment of length $1.8\text{ cm}$, and the force of $28\text{ N}$ corresponds to a directed line segment of length $2.8\text{ cm}$. Draw a vertical downward directed line segment of length $1.8\text{ cm}$ to represent the $18\text{ N}$ force, and draw a horizontal leftward directed line segment of length $2.8\text{ cm}$ to represent the $28\text{ N}$ force. $\blacksquare$
+Since $\alpha\parallel\beta$ and $\gamma$ intersects them at $a$, $b$ respectively, by **Theorem 8.5.6 (Property of Two Parallel Planes)**, $a\parallel b$.
 
-## Exercise 3
+Also $c\parallel b$, and by the transitivity of parallelism, $c\parallel a$.
 
-(Exercise 6.1, Problem 3) Indicate the lengths of the vectors in the figure. (The side length of each small square is stipulated to be $0.5$.)
+Since $c\parallel a$, $a\subset\alpha$, $c\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $c\parallel\alpha$.
 
-The figure: a sheet of grid paper, with the side of each small square set to $0.5$, on which several directed segments of various directions are drawn (some horizontal or vertical along the grid lines, some along the grid diagonals); the task is to compute the length of each vector from the number of squares it spans.
-
-### Solution to Exercise 3
-
-By **Definition 6.1.3 (Magnitude of a Vector)**, the length of a vector is its magnitude. With the side length of each small square stipulated to be $0.5$, the length of a vector running along the edge direction of the squares is the number of squares it occupies multiplied by $0.5$; the length of a vector running along the diagonal direction is $\sqrt 2$ multiplied by the corresponding number of squares and then by $0.5$. By calculating one by one according to the number of squares each vector occupies in the figure, the lengths of the vectors are obtained. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 6.1, Problem 4) Represent the vectors by directed line segments with the same starting point $O$.
-
-(1) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ are equal vectors, determine the positional relationship between the terminal points $M$ and $N$;
-
-(2) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ are parallel vectors and $\lvert\boldsymbol{OM}\rvert=2\lvert\boldsymbol{ON}\rvert=1$, find the length of the vector $\boldsymbol{MN}$, and determine the relationship between the direction of $\boldsymbol{MN}$ and the direction of $\boldsymbol{ON}$.
-
-### Solution to Exercise 4
-
-By **Definition 6.1.7 (Equal Vectors)**, equal vectors have equal length and the same direction.
-
-(1) From $\boldsymbol{OM}=\boldsymbol{ON}$, the two vectors share the same starting point $O$, have equal length and the same direction, so the terminal points $M$ and $N$ coincide.
-
-By **Definition 6.1.6 (Parallel Vectors and Collinear Vectors)**, parallel vectors have the same or opposite direction.
-
-(2) From $\lvert\boldsymbol{OM}\rvert=2\lvert\boldsymbol{ON}\rvert=1$, we get $\lvert\boldsymbol{OM}\rvert=1$, $\lvert\boldsymbol{ON}\rvert=\frac{1}{2}$. Also $\boldsymbol{OM}$ and $\boldsymbol{ON}$ are parallel, so there are two cases.
-
-(a) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ have the same direction, $M$ lies on the ray $ON$ with $OM=1$, $ON=\frac{1}{2}$, so $MN=OM-ON=1-\frac{1}{2}=\frac{1}{2}$, and $\boldsymbol{MN}$ has the same direction as $\boldsymbol{ON}$.
-
-(b) When $\boldsymbol{OM}$ and $\boldsymbol{ON}$ have opposite directions, $M$ lies on the line through $O$ and $N$ on the other side of $O$, $MN=OM+ON=1+\frac{1}{2}=\frac{3}{2}$, and $\boldsymbol{MN}$ has the same direction as $\boldsymbol{ON}$ (pointing from $M$ through $O$ to $N$). $\blacksquare$
+Hence $c\parallel a$, and $c\parallel\alpha$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 6.1, Review and Consolidation, Problem 1) On the coordinate paper shown in the figure (the side length of each small square is stipulated to be $1$), use a ruler and compass to draw the following vectors:
+(Exercise 8.5, Review and Consolidation, Problem 1) Multiple choice.
 
-(1) $\lvert\boldsymbol{OA}\rvert=4$, with point $A$ due south of point $O$;
+(1) If a line $a$ is not parallel to a plane $\alpha$, which of the following conclusions holds ( ).
 
-(2) $\lvert\boldsymbol{OB}\rvert=2\sqrt 2$, with point $B$ in the direction $45^{\circ}$ north of west of point $O$;
+(A) all lines in $\alpha$ are skew to $a$; (B) there is no line in $\alpha$ parallel to $a$; (C) every line in $\alpha$ intersects $a$; (D) the line $a$ has a common point with the plane $\alpha$.
 
-(3) $\lvert\boldsymbol{OC}\rvert=2$, with point $C$ in the direction $30^{\circ}$ south of west of point $O$.
+(2) If the line $a\parallel$ plane $\alpha$ and $P\in\alpha$, then the line passing through point $P$ and parallel to line $a$ ( ).
 
-The figure: a sheet of coordinate grid paper, with the side of each small square set to $1$; starting from the point $O$, three directed segments are drawn: $\boldsymbol{OA}$ due south of length $4$ (spanning $4$ squares); $\boldsymbol{OB}$ in the direction north by west $45^\circ$ of length $2\sqrt2$ (i.e. $2$ squares west and $2$ squares north); and $\boldsymbol{OC}$ in the direction south by west $30^\circ$ of length $2$.
+(A) there is exactly one, not lying in plane $\alpha$; (B) there are infinitely many, not necessarily lying in $\alpha$; (C) there is exactly one, and it lies in plane $\alpha$; (D) there are infinitely many, necessarily lying in $\alpha$.
 
 ### Solution to Problem 1
 
-By **Definition 6.1.2 (Directed Line Segments)** and **Definition 6.1.3 (Magnitude of a Vector)**, draw directed line segments according to the given direction and length.
+Judge by **Definition 8.4.9 (Positional Relationship Between a Line and a Plane)**.
 
-(1) From point $O$, draw a directed line segment $\boldsymbol{OA}$ of length $4$ in the due south direction, and it is obtained.
+(1) If line $a$ is not parallel to plane $\alpha$, then $a$ lies in $\alpha$ or intersects $\alpha$; in both cases there is a common point. Hence choose (D).
 
-(2) In the direction $45^{\circ}$ north of west, the horizontal component (westward) and the vertical component (northward) of a directed line segment of length $2\sqrt 2$ are both $2\sqrt 2\cdot\cos45^{\circ}=2$, so from $O$ take point $B$ $2$ squares west and $2$ squares north, and join $\boldsymbol{OB}$ to obtain it.
-
-(3) In the direction $30^{\circ}$ south of west, a directed line segment of length $2$ is obtained by starting from $O$ and drawing a directed line segment $\boldsymbol{OC}$ of length $2$ in this direction. $\blacksquare$
+(2) $a\parallel\alpha$, $P\in\alpha$. Pass a plane through $a$ and $P$; this plane intersects $\alpha$ in exactly one line $b$, and by the property of line-plane parallelism, $b\parallel a$. This line is unique and lies in $\alpha$. Hence choose (C). $\blacksquare$
 
 ## Problem 2
 
-(Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, point $O$ is the intersection of the diagonals of $\square ABCD$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$. Write out respectively, in $\square ABCD$ and in the broken line $MPQRST$, the vectors equal to $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
-
-The figure: on the left is the parallelogram $ABCD$, whose diagonals $AC$ and $BD$ intersect at point $O$, with $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, and $\boldsymbol{AB}=\boldsymbol{c}$ marked; on the right is a broken line formed by connecting the points $M,P,Q,R,S,T$ in order, each segment being a directed segment with an arrow.
+(Exercise 8.5, Review and Consolidation, Problem 2) Given planes $\alpha$, $\beta$ and lines $a$, $b$, $c$, with $a\parallel b\parallel c$, $a\subset\alpha$, $b\subset\beta$, $c\subset\beta$, the positional relationship between $\alpha$ and $\beta$ is $\;\_\_\;$.
 
 ### Solution to Problem 2
 
-By **Definition 6.1.7 (Equal Vectors)**, vectors with equal length and the same direction are equal.
+Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
-In $\square ABCD$, the diagonals bisect each other, so $O$ is the midpoint of $AC$ and $BD$. Hence $\boldsymbol{OC}$ is opposite in direction to $\boldsymbol{OA}$, and $\boldsymbol{OD}$ is opposite in direction to $\boldsymbol{OB}$. The vector equal to $\boldsymbol{a}=\boldsymbol{OA}$ is $\boldsymbol{CO}$; the vector equal to $\boldsymbol{b}=\boldsymbol{OB}$ is $\boldsymbol{DO}$; the vector equal to $\boldsymbol{c}=\boldsymbol{AB}$ is $\boldsymbol{DC}$.
+$b$, $c$ are two parallel lines in $\beta$, and $a$ lies in $\alpha$ and is parallel to $b$, $c$. But $b$, $c$ are parallel and do not intersect, so this cannot determine $\alpha\parallel\beta$. The two planes may be parallel or may intersect (the line of intersection is parallel to these three lines).
 
-In the broken line $MPQRST$, according to the direction and length of each directed line segment in the figure, find the directed line segments with the same direction and equal length as $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$; these are the corresponding equal vectors. $\blacksquare$
+Hence the positional relationship between $\alpha$ and $\beta$ is parallel or intersecting. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 6.1, Comprehensive Application, Problem 3) Determine whether the following conclusions are correct (mark "$\surd$" in the parentheses for correct ones and "$\times$" for incorrect ones), and explain the reasons.
+(Exercise 8.5, Review and Consolidation, Problem 3) As shown in the figure, in a cuboid block $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, there is a point $P$ on the face $A_{1}C_{1}$. How can one draw a line through point $P$ parallel to the edge $CD$?
 
-(1) If $\boldsymbol{a}$ and $\boldsymbol{b}$ are both unit vectors, then $\boldsymbol{a}=\boldsymbol{b}$. ()
-
-(2) A vector in the direction $60^{\circ}$ south of west and a vector in the direction $60^{\circ}$ north of east are collinear vectors. ()
-
-(3) Both the $x$-axis and the $y$-axis in the rectangular coordinate plane are vectors. ()
-
-(4) If $\boldsymbol{a}$ and $\boldsymbol{b}$ are parallel vectors, then $\boldsymbol{a}=\boldsymbol{b}$. ()
-
-(5) If the vectors $\boldsymbol{AM}$ and $\boldsymbol{AN}$, represented by directed line segments, are not equal, then points $M$ and $N$ do not coincide. ()
-
-(6) Altitude, temperature and angle are not vectors. ()
+(Figure: a cuboid $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with point $P$ on the top face $A_{1}B_{1}C_{1}D_{1}$.)
 
 ### Solution to Problem 3
 
-By **Definition 6.1.5 (Unit Vector)**, unit vectors all have length $1$, but their directions are not necessarily the same.
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and the construction of parallel lines.
 
-(1) Incorrect. A unit vector only guarantees length $1$, but the direction need not be the same, so two unit vectors are not necessarily equal.
+In the plane $A_{1}B_{1}C_{1}D_{1}$, draw a line $EF$ through point $P$ such that $EF\parallel C_{1}D_{1}$, intersecting $A_{1}D_{1}$ and $B_{1}C_{1}$ at $E$ and $F$ respectively.
 
-By **Definition 6.1.6 (Parallel Vectors and Collinear Vectors)**, nonzero vectors with the same or opposite direction are collinear vectors.
-
-(2) Correct. The directions $60^{\circ}$ south of west and $60^{\circ}$ north of east are exactly opposite, so the two vectors are collinear.
-
-By **Definition 6.1.1 (Vectors and Scalars)**, a vector has both magnitude and direction.
-
-(3) Incorrect. The $x$-axis and $y$-axis are straight lines, having direction but no definite magnitude, so they are not vectors.
-
-(4) Incorrect. Parallel vectors only require the same or opposite direction, and the lengths are not necessarily equal, so parallel vectors are not necessarily equal.
-
-By **Definition 6.1.7 (Equal Vectors)**, if two vectors with the same starting point are equal, their terminal points coincide.
-
-(5) Correct. If two vectors $\boldsymbol{AM}$ and $\boldsymbol{AN}$ with the same starting point $A$ are not equal, then their length or direction differ, and the terminal points $M$ and $N$ do not coincide.
-
-(6) Correct. Altitude, temperature and angle all have only magnitude and no direction, so none of them is a vector. $\blacksquare$
+Since $CD\parallel C_{1}D_{1}$ and the constructed $EF\parallel C_{1}D_{1}$, we have $EF\parallel CD$. The line $EF$ is the required one. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 6.1, Extension and Exploration, Problem 4) As shown in the figure, in the rectangle $ABCD$, $AB=2BC=2$, and $M$, $N$ are the midpoints of sides $AB$, $CD$ respectively. Among all the vectors represented by directed line segments with $A$, $B$, $C$, $D$, $M$, $N$ as starting and terminal points, how many pairs of equal vectors are there in total?
+(Exercise 8.5, Review and Consolidation, Problem 4) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E$, $F$ are the midpoints of $AB$, $BC$ respectively. Prove that $EF\parallel A'C'$.
 
-The figure: the rectangle $ABCD$ placed horizontally, with $AB$ as the top side and $CD$ as the bottom side, $AB=2$ and $BC=1$; $M$ is the midpoint of side $AB$ and $N$ is the midpoint of side $CD$, and the segment $MN$ joins $M$ to $N$ vertically.
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AB$ and $F$ the midpoint of $BC$.)
 
 ### Solution to Problem 4
 
-By **Definition 6.1.7 (Equal Vectors)**, vectors with equal length and the same direction form a pair of equal vectors.
+By **Basic Fact 8.5.1** (Basic Fact 4).
 
-From $AB=2BC=2$, we get $AB=2$, $BC=1$. $M$, $N$ are the midpoints of $AB$, $CD$ respectively, so $AM=MB=DN=NC=1$.
+In $\triangle ABC$, $E$, $F$ are the midpoints of $AB$, $BC$ respectively, so $EF$ is a mid-segment and $EF\parallel AC$.
 
-Taking the six points $A$, $B$, $C$, $D$, $M$, $N$ as endpoints, there are $\mathrm{A}_6^2=30$ directed line segments in all. Classified by direction and length:
+In the cuboid, $AC\parallel A'C'$. By **Basic Fact 8.5.1** (Basic Fact 4), $EF\parallel A'C'$. $\blacksquare$
 
-(a) Horizontally rightward vectors of length $2$: $\boldsymbol{AB}$, $\boldsymbol{DC}$. There are $2$ in all, forming $\mathrm{C}_2^2=1$ pair.
+## Problem 5
 
-(b) Horizontally leftward vectors of length $2$: $\boldsymbol{BA}$, $\boldsymbol{CD}$. There are $2$ in all, forming $1$ pair.
+(Exercise 8.5, Review and Consolidation, Problem 5) As shown in the figure on the next page, in the tetrahedron $D\text{-}ABC$, $E$, $F$, $G$ are the midpoints of $AB$, $BC$, $CD$ respectively. Prove that:
 
-(c) Horizontally rightward vectors of length $1$: $\boldsymbol{AM}$, $\boldsymbol{MB}$, $\boldsymbol{DN}$, $\boldsymbol{NC}$. There are $4$ in all, forming $\mathrm{C}_4^2=6$ pairs.
+(1) $BD\parallel$ plane $EFG$;
 
-(d) Horizontally leftward vectors of length $1$: $\boldsymbol{MA}$, $\boldsymbol{BM}$, $\boldsymbol{ND}$, $\boldsymbol{CN}$. There are $4$ in all, forming $6$ pairs.
+(2) $AC\parallel$ plane $EFG$.
 
-(e) Vertically upward vectors of length $1$: $\boldsymbol{AD}$, $\boldsymbol{BC}$, $\boldsymbol{MN}$. There are $3$ in all, forming $\mathrm{C}_3^2=3$ pairs.
+### Solution to Problem 5
 
-(f) Vertically downward vectors of length $1$: $\boldsymbol{DA}$, $\boldsymbol{CB}$, $\boldsymbol{NM}$. There are $3$ in all, forming $3$ pairs.
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-(g) Diagonal-direction vectors of length $\sqrt 2$: $\boldsymbol{AN}$, $\boldsymbol{MD}$, $\boldsymbol{BN}$, $\boldsymbol{MC}$, $\boldsymbol{NA}$, $\boldsymbol{DM}$, $\boldsymbol{NB}$, $\boldsymbol{CM}$. Among them, those with the same direction and equal length: $\boldsymbol{AN}$ and $\boldsymbol{MD}$ (length $\sqrt 2$, direction down-right), $\boldsymbol{BN}$ and $\boldsymbol{MC}$ (length $\sqrt 2$, direction down-left), $\boldsymbol{NA}$ and $\boldsymbol{DM}$ (direction up-left), $\boldsymbol{NB}$ and $\boldsymbol{CM}$ (direction up-right). There are $4$ pairs in all.
+(1) $F$, $G$ are the midpoints of $BC$, $CD$ respectively; in $\triangle BCD$, $FG\parallel BD$. Also $FG\subset$ plane $EFG$ and $BD\not\subset$ plane $EFG$. By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $BD\parallel$ plane $EFG$.
 
-(h) Diagonal-direction vectors of length $\sqrt 5$: $\boldsymbol{AC}$, $\boldsymbol{BD}$, $\boldsymbol{CA}$, $\boldsymbol{DB}$. Their directions are pairwise different, so they do not form equal-vector pairs.
+(2) $E$, $F$ are the midpoints of $AB$, $BC$ respectively; in $\triangle ABC$, $EF\parallel AC$. Also $EF\subset$ plane $EFG$ and $AC\not\subset$ plane $EFG$. By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $AC\parallel$ plane $EFG$. $\blacksquare$
 
-(i) The remaining diagonals (such as $\boldsymbol{AN}$, whose length $\sqrt 2$ has already been counted) are not repeated.
+## Problem 6
 
-Total: $1+1+6+6+3+3+4=24$ pairs. $\blacksquare$
+(Exercise 8.5, Review and Consolidation, Problem 6) As shown in the figure, $a$, $b$ are skew lines. Draw a plane $\alpha$ such that $a\subset\alpha$ and $b\parallel\alpha$, and explain why.
 
-### Reading and Thinking 1
+(Figure: two skew lines $a,b$.)
 
-(Thinking 1) Can you describe the important role played by representing vectors with symbols?
+### Solution to Problem 6
 
-### Solution to Reading and Thinking 1
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-Representing vectors with symbols gives the object of a vector, which has both magnitude and direction, a concise and precise mathematical expression. Its important role lies in: first, symbols (such as $\boldsymbol{a}$, $\boldsymbol{AB}$) transform the geometric intuition of a vector into a computable mathematical object, so that vector operations such as addition, subtraction, scalar multiplication and dot product can be carried out as symbolic operations just like operations on numbers; second, a unified symbolic system eliminates the ambiguity and verbosity of describing vectors in natural language, enabling precise communication between different researchers; third, symbolization promoted the formalization and axiomatization of vector theory, making vectors a bridge connecting geometry and algebra, and laying the foundation for later establishing the fundamental theorem of plane vectors and coordinate representation. $\blacksquare$
+Take any point $A$ on the line $a$, and through $A$ draw a line $b'\parallel b$. By **Corollary 8.4.6 (Corollary 2)**, the two intersecting lines $a$ and $b'$ determine a plane, denoted $\alpha$, so that $a\subset\alpha$.
+
+Since $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $b\parallel\alpha$. Thus the plane $\alpha$ is the required one. $\blacksquare$
+
+## Problem 7
+
+(Exercise 8.5, Review and Consolidation, Problem 7) As shown in the figure, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$. Prove that $CD\parallel EF$.
+
+(Figure: three planes $\alpha,\beta,\gamma$ pairwise intersecting in lines $CD,EF,AB$.)
+
+### Solution to Problem 7
+
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Basic Fact 8.5.1** (Basic Fact 4).
+
+Since $AB\parallel\alpha$, $AB\subset\beta$, $\beta\cap\alpha=CD$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $AB\parallel CD$.
+
+Also $AB\subset\gamma$, $\gamma\cap\alpha=EF$, and by the same reasoning, $AB\parallel EF$.
+
+By **Basic Fact 8.5.1** (Basic Fact 4), $CD\parallel EF$. $\blacksquare$
+
+## Problem 8
+
+(Exercise 8.5, Review and Consolidation, Problem 8) As shown in the figure, the lines $AA'$, $BB'$, $CC'$ intersect at point $O$, $AO=A'O$, $BO=B'O$, $CO=C'O$. Prove that plane $ABC\parallel$ plane $A'B'C'$.
+
+(Figure: three lines $AA',BB',CC'$ meeting at $O$, with $A,B,C$ and $A',B',C'$ on opposite sides of $O$.)
+
+### Solution to Problem 8
+
+By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
+
+In $\triangle AOB$ and $\triangle A'OB'$, $AO=A'O$, $BO=B'O$, $\angle AOB=\angle A'OB'$ (vertical angles), so $\triangle AOB\cong\triangle A'OB'$. Hence $\angle OAB=\angle OA'B'$, and so $AB\parallel A'B'$.
+
+Similarly, $AO=A'O$, $CO=C'O$, $\angle AOC=\angle A'OC'$, which gives $AC\parallel A'C'$.
+
+Since $AB\parallel A'B'$, $A'B'\subset$ plane $A'B'C'$, $AB\not\subset$ plane $A'B'C'$, we have $AB\parallel$ plane $A'B'C'$. Similarly, $AC\parallel$ plane $A'B'C'$.
+
+Moreover, $AB\cap AC=A$; by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, plane $ABC\parallel$ plane $A'B'C'$. $\blacksquare$
+
+## Problem 9
+
+(Exercise 8.5, Comprehensive Application, Problem 9) As shown in the figure, $E$, $E'$ are the midpoints of the edges $AD$, $A'D'$ of the cuboid $ABCD\text{-}A'B'C'D'$ respectively. Prove that $\angle BEC=\angle B'E'C'$.
+
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AD$ and $E'$ the midpoint of $A'D'$.)
+
+### Solution to Problem 9
+
+By **Theorem 8.5.2 (Equal-Angle Theorem)**.
+
+In the cuboid, $EE'\parallel AA'\parallel BB'\parallel CC'$, and the directions of $BE$ and $B'E'$ are correspondingly parallel, as are those of $CE$ and $C'E'$.
+
+The two sides $EB$, $EC$ of $\angle BEC$ and the two sides $E'B'$, $E'C'$ of $\angle B'E'C'$ are respectively parallel and in the same direction.
+
+By **Theorem 8.5.2 (Equal-Angle Theorem)**, $\angle BEC=\angle B'E'C'$. $\blacksquare$
+
+## Problem 10
+
+(Exercise 8.5, Comprehensive Application, Problem 10) As shown in the figure, $AB\parallel\alpha$, $AC\parallel BD$, $C\in\alpha$, $D\in\alpha$. Prove that $AC=BD$.
+
+(Figure: plane $\alpha$ with $C,D\in\alpha$ and $A,B$ outside $\alpha$, where $AB\parallel\alpha$ and $AC\parallel BD$.)
+
+### Solution to Problem 10
+
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**.
+
+Since $C$, $D\in\alpha$, the line $CD\subset\alpha$. Also $AB\parallel\alpha$; the plane passing through $AB$ and $CD$ intersects $\alpha$ in $CD$, and by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $AB\parallel CD$.
+
+Moreover, it is given that $AC\parallel BD$, so the two pairs of opposite sides of the quadrilateral $ABDC$ are respectively parallel, and it is a parallelogram.
+
+Therefore $AC=BD$. $\blacksquare$
+
+## Problem 11
+
+(Exercise 8.5, Comprehensive Application, Problem 11) Given two parallel lines outside a plane, if one of them is parallel to this plane, prove that the other is also parallel to this plane.
+
+### Solution to Problem 11
+
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+
+Let the lines be $a\parallel b$, $a\parallel$ plane $\alpha$, and both $a$, $b$ lie outside $\alpha$.
+
+Pass a plane $\beta$ through $a$ such that $\beta\cap\alpha=c$. Since $a\parallel\alpha$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $a\parallel c$.
+
+Also $a\parallel b$, so by the transitivity of parallelism, $b\parallel c$. Since $c\subset\alpha$ and $b\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $b\parallel\alpha$.
+
+Hence the other line $b$ is also parallel to the plane $\alpha$. $\blacksquare$
+
+## Problem 12
+
+(Exercise 8.5, Comprehensive Application, Problem 12) A wooden block is shown in the figure on the next page. Point $P$ lies in the plane $VAC$. Saw the block through point $P$ so that the cross-section is parallel to the lines $VB$ and $AC$. How should one draw the lines on the surface of the block?
+
+(Figure: a tetrahedron $V\text{-}ABC$ with point $P$ on face $VAC$.)
+
+### Solution to Problem 12
+
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**.
+
+In the plane $VAC$, through $P$ draw a line $EF\parallel AC$, intersecting $VA$ and $VC$ at $E$ and $F$ respectively.
+
+In the plane $VAB$, through $E$ draw a line $EG\parallel VB$, intersecting $AB$ at $G$. In the plane $VBC$, through $F$ draw a line $FH\parallel VB$, intersecting $BC$ at $H$. Connect $GH$.
+
+Then the cross-section $EFGH$ is the required one: $EF\parallel AC$, $EG\parallel FH\parallel VB$. Simply draw the lines along $EF$, $EG$, $GH$, $FH$ and saw along them. $\blacksquare$
+
+## Problem 13
+
+(Exercise 8.5, Extension and Exploration, Problem 13) As shown in the figure, $\alpha\parallel\beta\parallel\gamma$. The lines $a$ and $b$ intersect $\alpha$, $\beta$, $\gamma$ at points $A$, $B$, $C$ and points $D$, $E$, $F$ respectively. Prove that $\frac{AB}{BC}=\frac{DE}{EF}$.
+
+(Figure: three parallel planes $\alpha,\beta,\gamma$ with two lines $a,b$ cutting them at $A,B,C$ and $D,E,F$.)
+
+### Solution to Problem 13
+
+By **Theorem 8.5.6 (Property of Two Parallel Planes)** and the proportional division of a segment by parallel lines.
+
+Connect $AF$, intersecting the plane $\beta$ at point $G$. The plane $ACF$ intersects $\beta$ in $BG$ and $\gamma$ in $CF$.
+
+Since $\beta\parallel\gamma$, by **Theorem 8.5.6 (Property of Two Parallel Planes)**, $BG\parallel CF$. In $\triangle ACF$, $\frac{AB}{BC}=\frac{AG}{GF}$.
+
+Similarly, the plane $ADF$ intersects $\beta$ in $GE$ and $\alpha$ in $AD$. Since $\alpha\parallel\beta$, $AD\parallel GE$. In $\triangle ADF$, $\frac{DE}{EF}=\frac{AG}{GF}$.
+
+Hence $\frac{AB}{BC}=\frac{DE}{EF}$. $\blacksquare$
+
+## Problem 14
+
+(Exercise 8.5, Extension and Exploration, Problem 14) As shown in the figure, $a$, $b$ are skew lines, $a\subset\alpha$, $a\parallel\beta$, $b\subset\beta$, $b\parallel\alpha$. Prove that $\alpha\parallel\beta$.
+
+(Figure: two planes $\alpha,\beta$ with $a\subset\alpha$ parallel to $\beta$, $b\subset\beta$ parallel to $\alpha$, and $a,b$ skew.)
+
+### Solution to Problem 14
+
+By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
+
+Pass a plane through $a$ intersecting $\beta$ in a line $a'$. Since $a\parallel\beta$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $a\parallel a'$.
+
+Since $a$, $b$ are skew and $a\parallel a'$, the line $a'$ must intersect $b$; let the intersection point be $P$.
+
+Within $\beta$, $a'$ and $b$ are two intersecting lines. From $a\parallel a'$, $a\subset\alpha$, $a'\not\subset\alpha$, we get $a'\parallel\alpha$. It is also given that $b\parallel\alpha$.
+
+By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, the two intersecting lines $a'$, $b$ in $\beta$ are both parallel to $\alpha$, so $\alpha\parallel\beta$. $\blacksquare$
+
+## Problem 15
+
+(Exercise 8.5, Extension and Exploration, Problem 15) As shown in the figure, a transparent plastic cuboid container $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ is filled with some water. One edge $BC$ of the bottom of the container is fixed on the ground, and then the container is tilted. As the angle of tilt changes, consider the following five statements:
+
+(1) the part containing water always has the shape of a prism;
+
+(2) the part without water always has the shape of a prism;
+
+(3) the area of the quadrilateral formed by the water surface $EFGH$ is constant;
+
+(4) the edge $A_{1}D_{1}$ is always parallel to the plane of the water surface;
+
+(5) when the container is tilted as shown in figure (3), $BE\cdot BF$ is constant.
+
+Among them, the numbers of all the correct statements are $\;\_\_\;$. Why?
+
+(Figure: three diagrams of a transparent cuboid container $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ tilted about its base edge $BC$ at different angles, with the water surface $EFGH$ shown.)
+
+### Solution to Problem 15
+
+By **Definition 8.1.4 (Prism)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+
+With the edge $BC$ fixed, the water surface is always a plane parallel to the ground, and its line of intersection with the side faces of the cuboid is always parallel to $BC$.
+
+(1) The water-filled part has a cross-section perpendicular to $BC$ as its base and extends along the direction of $BC$, so it always has the shape of a prism. Correct.
+
+(2) Similarly, the part without water also always has the shape of a prism. Correct.
+
+(3) In the water-surface quadrilateral $EFGH$, one side length is always equal to $BC$, but the other side length varies with the tilt angle, so the area is not constant. Wrong.
+
+(4) $A_{1}D_{1}\parallel BC$, while the line of intersection of the water surface is parallel to $BC$, so $A_{1}D_{1}$ is parallel to a line lying in the water surface, and $A_{1}D_{1}$ is always parallel to the plane of the water surface. Correct.
+
+(5) The volume of water is unchanged, and the water-filled part is a prism; the cross-section perpendicular to $BC$ is a right triangle, whose area $\frac{1}{2}BE\cdot BF$ times $BC$ equals the volume of water. Since both the volume of water and $BC$ are constant, $BE\cdot BF$ is constant. Correct.
+
+Hence the numbers of the correct statements are (1) (2) (4) (5). $\blacksquare$
+
+## Exercise 3
+
+(Exercise 8.6, Problem 1) Determine whether the following statements are correct; for a correct one, draw "$\sqrt{ }$" in the parentheses, and for a wrong one, draw "$\times$".
+
+(1) If one of two parallel lines is perpendicular to a given line, then the other is also perpendicular to the given line.
+
+(2) Two lines perpendicular to the same line are parallel.
+
+### Solution to Exercise 3
+
+Judge by **Definition 8.6.2 (Perpendicular Skew Lines)**.
+
+(1) Correct. The two lines are parallel; the angle between one of them and the given line is $90^{\circ}$, so the angle between the other and the given line is also $90^{\circ}$.
+
+(2) Wrong. Two lines perpendicular to the same line may be parallel, intersecting, or skew. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 8.6, Problem 2) As shown in the figure, among the lines on the edges of the cuboid $ABCD\text{-}A'B'C'D'$,
+
+(1) the number of lines perpendicular to line $AB$ is $\;\_\_\;$;
+
+(2) the number of lines skew to and perpendicular to line $AB$ is $\;\_\_\;$;
+
+(3) the number of lines perpendicular to both line $AB$ and $A'D'$ is $\;\_\_\;$;
+
+(4) the line perpendicular to and intersecting both line $AB$ and $A'D'$ is line $\;\_\_\;$.
+
+(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
+
+### Solution to Exercise 4
+
+Judge by **Definition 8.6.2 (Perpendicular Skew Lines)** and the directions of the edges of a cuboid.
+
+(1) There are $4$ edges in the direction of $AB$; the edges perpendicular to $AB$ include $4$ vertical edges and $4$ width-direction edges, totaling $8$.
+
+(2) The edges skew to and perpendicular to $AB$ are $CC'$, $DD'$, $A'D'$, $B'C'$, totaling $4$.
+
+(3) The lines perpendicular to both $AB$ and $A'D'$ are the $4$ vertical edges $AA'$, $BB'$, $CC'$, $DD'$, totaling $4$.
+
+(4) The line perpendicular to and intersecting both $AB$ and $A'D'$ is $AA'$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 8.6, Problem 3) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $AB=AD=2\sqrt{3}$, $AA'=2$. Find:
+
+(1) the size of the angle formed by lines $BC$ and $A'C'$;
+
+(2) the size of the angle formed by lines $AA'$ and $BC$.
+
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $AB=AD=2\sqrt{3}$, $AA'=2$.)
+
+### Solution to Exercise 5
+
+By **Definition 8.6.1 (Angle Between Skew Lines)**.
+
+(1) $BC\parallel B'C'$, so the angle formed by $BC$ and $A'C'$ is $\angle B'C'A'$. The base $A'B'C'D'$ is a square with side length $2\sqrt{3}$, $A'C'$ is a diagonal, $\triangle A'B'C'$ is an isosceles right triangle, and $\angle B'C'A'=45^{\circ}$.
+
+(2) $AA'$ is perpendicular to the base $ABCD$, and $BC\subset$ the base, so $AA'\perp BC$, and the angle formed is $90^{\circ}$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 8.6, Problem 4) As shown in the figure, in the regular triangular prism $ABC\text{-}A'B'C'$, $D$ is the midpoint of edge $AC$, $AB=BB'=2$. Prove that $BD\perp AC'$.
+
+(Figure: a regular triangular prism $ABC\text{-}A'B'C'$ with $D$ the midpoint of $AC$.)
+
+### Solution to Exercise 6
+
+By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)** and **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
+
+The base $ABC$ is an equilateral triangle, and $D$ is the midpoint of $AC$, so $BD\perp AC$.
+
+In the regular triangular prism, the side face $ACC'A'\perp$ the base $ABC$, with line of intersection $AC$. Since $BD\subset$ the base $ABC$ and $BD\perp AC$, by the property of perpendicular planes, $BD\perp$ plane $ACC'A'$.
+
+Moreover, $AC'\subset$ plane $ACC'A'$, so $BD\perp AC'$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 8.6, Problem 1) If the angles formed by two lines and a plane are equal, must the two lines be parallel?
+
+### Solution to Exercise 7
+
+Judge by **Definition 8.6.6 (Angle Between a Line and a Plane)**.
+
+Not necessarily. When two lines form equal angles with the same plane, they may be parallel, or they may be intersecting or skew. For example, lines drawn through a point outside a plane making equal angles with the plane form a conical surface, intersecting one another at that point. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 8.6, Problem 2) As shown in the figure, the base of the quadrangular pyramid $S\text{-}ABCD$ is a square, and $SD\perp$ plane $ABCD$. Prove that $AC\perp$ plane $SDB$.
+
+(Figure: a quadrangular pyramid $S\text{-}ABCD$ with square base $ABCD$ and $SD\perp$ the base.)
+
+### Solution to Exercise 8
+
+By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+
+Since $SD\perp$ plane $ABCD$ and $AC\subset$ plane $ABCD$, we have $SD\perp AC$.
+
+The base $ABCD$ is a square, so $AC\perp BD$.
+
+Moreover, $SD\cap BD=D$; by **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**, $AC\perp$ plane $SDB$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 8.6, Problem 3) As shown in the figure, in the right quadrangular prism $A'B'C'D'\text{-}ABCD$, what condition must the base quadrilateral $ABCD$ satisfy so that $A'C\perp B'D'$?
+
+(Figure: a right quadrangular prism $A'B'C'D'\text{-}ABCD$.)
+
+### Solution to Exercise 9
+
+By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+
+$B'D'\parallel BD$. In the right quadrangular prism, $A'A\perp$ the base $ABCD$, so the projection of $A'C$ onto the base is $AC$.
+
+For $A'C\perp B'D'$, by the theorem of three perpendiculars, it suffices that $AC\perp BD$.
+
+Hence, when the diagonals of the base quadrilateral $ABCD$ are perpendicular to each other (i.e. $ABCD$ is a rhombus), $A'C\perp B'D'$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 8.6, Problem 4) Through a point $P$ outside the plane $\alpha$ of $\triangle ABC$, draw $PO\perp\alpha$, with foot $O$, and connect $PA$, $PB$, $PC$.
+
+(1) If $PA=PB=PC$, then the point $O$ is the $\;\_\_\;$ center of $\triangle ABC$.
+
+(2) If $PA=PB=PC$ and $\angle ACB=90^{\circ}$, then the point $O$ is the $\;\_\_\;$ point of side $AB$.
+
+### Solution to Exercise 10
+
+By **Definition 8.6.3 (Line Perpendicular to a Plane)** and the Pythagorean theorem.
+
+Since $PO\perp\alpha$, we have $PO\perp OA$, $PO\perp OB$, $PO\perp OC$.
+
+(1) From $PA=PB=PC$ and the common side $PO$, $\text{Rt}\triangle POA\cong\text{Rt}\triangle POB\cong\text{Rt}\triangle POC$, so $OA=OB=OC$. The point $O$ is the circumcenter of $\triangle ABC$.
+
+(2) $\angle ACB=90^{\circ}$, $\triangle ABC$ is a right triangle, and its circumcenter lies at the midpoint of the hypotenuse $AB$. Also $OA=OB=OC$, so $O$ is the midpoint of side $AB$. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 8.6, Problem 1) Given lines $a$, $b$ and plane $\alpha$, with $a\perp b$, $a\perp\alpha$, the positional relationship between $b$ and $\alpha$ is $\;\_\_\;$.
+
+### Solution to Exercise 11
+
+Judge by **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**.
+
+$a\perp\alpha$; if $b\subset\alpha$, then $a\perp b$ holds. If $b\not\subset\alpha$, pass a plane through $a$ intersecting $\alpha$ in a line $c$, then $a\perp c$. From $a\perp b$ and $a\perp c$, $b\parallel c$. Since $c\subset\alpha$ and $b\not\subset\alpha$, we have $b\parallel\alpha$.
+
+Hence the positional relationship between $b$ and $\alpha$ is $b\parallel\alpha$ or $b\subset\alpha$. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 8.6, Problem 2) Given that two points $A$, $B$ lie on the same side of the plane $\alpha$ and are at equal distances from $\alpha$, prove that line $AB\parallel\alpha$.
+
+### Solution to Exercise 12
+
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+
+Draw $AA'\perp\alpha$, $BB'\perp\alpha$ respectively, with feet $A'$, $B'$. By **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**, $AA'\parallel BB'$.
+
+By the hypothesis $AA'=BB'$, the quadrilateral $ABB'A'$ is a parallelogram, and $AB\parallel A'B'$.
+
+Moreover, $A'B'\subset\alpha$, $AB\not\subset\alpha$; by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $AB\parallel\alpha$. $\blacksquare$
+
+## Exercise 13
+
+(Exercise 8.6, Problem 3) As shown in the figure, $EA$ and $DC$ are both perpendicular to the plane $ABC$, and $EA=2DC$. $F$ is the midpoint of $EB$. Prove that $DF\parallel$ plane $ABC$.
+
+(Figure: $EA\perp$ plane $ABC$, $DC\perp$ plane $ABC$, $EA=2DC$, and $F$ the midpoint of $EB$.)
+
+### Solution to Exercise 13
+
+By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**.
+
+Take the midpoint $G$ of $AB$, and connect $FG$, $CG$.
+
+In $\triangle EAB$, $F$, $G$ are the midpoints of $EB$, $AB$ respectively, so $FG\parallel EA$ and $FG=\frac{1}{2}EA$.
+
+By the hypothesis $EA=2DC$, we have $FG=DC$. Moreover, $EA\perp$ plane $ABC$, $DC\perp$ plane $ABC$; by **Theorem 8.6.5 (Property of a Line Perpendicular to a Plane)**, $EA\parallel DC$. Hence $FG\parallel DC$.
+
+Thus $FG=\ DC$, the quadrilateral $DFGC$ is a parallelogram, and $DF\parallel CG$.
+
+Moreover, $CG\subset$ plane $ABC$, $DF\not\subset$ plane $ABC$, so $DF\parallel$ plane $ABC$. $\blacksquare$
+
+## Exercise 14
+
+(Exercise 8.6, Problem 4) Prove that two planes perpendicular to the same line are parallel to each other.
+
+### Solution to Exercise 14
+
+By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
+
+Let the line be $l\perp\alpha$, $l\perp\beta$. Pass two intersecting planes through $l$, intersecting $\alpha$, $\beta$ in $a$, $a'$ and $b$, $b'$ respectively.
+
+Since $l\perp\alpha$, we have $l\perp a$, $l\perp b$. Since $l\perp\beta$, we have $l\perp a'$, $l\perp b'$.
+
+In the same plane, two lines perpendicular to the same line are parallel, so $a\parallel a'$, $b\parallel b'$.
+
+$a$, $b$ are two intersecting lines in $\alpha$, and $a'$, $b'$ are two intersecting lines in $\beta$. By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$. $\blacksquare$
+
+## Exercise 15
+
+(Exercise 8.6, Problem 1) As shown in the figure, when checking whether two adjacent (flat) faces of a workpiece are perpendicular, one simply presses one arm of a try square against one face of the workpiece and rotates the other arm on the other face of the workpiece, observing whether the arm fits snugly against this face. Why is this so?
+
+(Figure: a workpiece with two adjacent faces, and a try square (right-angle ruler) with one arm on one face and the other arm on the other face.)
+
+### Solution to Exercise 15
+
+By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**.
+
+The two arms of the try square are perpendicular to each other. If one arm is pressed against the first face and the other arm always fits snugly against the second face as it rotates about the line of intersection within the second face, then there exists in the second face a line perpendicular to the square's arm lying in the first face; that is, there is a line in the second face perpendicular to the first face.
+
+By **Theorem 8.6.8 (Criterion for Two Perpendicular Planes)**, the second face passes through a perpendicular to the first face, so the two planes are perpendicular. $\blacksquare$

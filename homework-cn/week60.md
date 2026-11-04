@@ -1,431 +1,534 @@
 # week60
-> **定义 2.1.1 (倾斜角)**
+> **定义 5.1.1 (平均变化率)**
 > 
-> 当直线 l 与 x 轴相交时, 我们取 x 轴为基准, x 轴正向与直线 l 向上方向之间所成的角 alpha 叫做直线 l 的倾斜角.
-> **定义 2.1.2 (斜率)**
+> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **定义 5.1.2 (导数)**
 > 
-> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **定义 5.1.3 (1 弧度的角)**
+> 
+> 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
 
 ## 练习一
 
-(练习 2.1 第 1 题) 已知下列直线的倾斜角, 求直线的斜率:
-
-(1) $\alpha=30^\circ$;
-
-(2) $\alpha=45^\circ$;
-
-(3) $\alpha=\frac{2\pi}{3}$;
-
-(4) $\alpha=\frac{3\pi}{4}$.
+(练习 5.1 第 1 题) 求问题 1 中跳水运动员在 $t=1.5\ \mathrm{s}$ 时的瞬时速度.
 
 ### 解答 练习一
 
-由**定义 2.1.2 (斜率)**, 直线的斜率为倾斜角的正切值, 即 $k=\tan\alpha$.
+由**定义 5.1.2 (导数)**, 运动员在 $t=1.5$ 时的瞬时速度就是函数 $h\left(t\right)=-4.9t^{2}+2.8t+11$ 在 $t=1.5$ 处的导数 $h'\left(1.5\right)$.
 
-(1) $k=\tan 30^\circ=\frac{\sqrt 3}{3}$.
+由**定义 5.1.1 (平均变化率)**, 在 $t=1.5$ 附近取时间改变量 $\Delta t$, 则
 
-(2) $k=\tan 45^\circ=1$.
+$$
+\frac{\Delta h}{\Delta t}=\frac{h\left(1.5+\Delta t\right)-h\left(1.5\right)}{\Delta t}.
+$$
 
-(3) $k=\tan\frac{2\pi}{3}=\tan\left(\pi-\frac{\pi}{3}\right)=-\tan\frac{\pi}{3}=-\sqrt 3$.
+代入 $h\left(t\right)=-4.9t^{2}+2.8t+11$, 展开分子, 得
 
-(4) $k=\tan\frac{3\pi}{4}=\tan\left(\pi-\frac{\pi}{4}\right)=-\tan\frac{\pi}{4}=-1$. $\blacksquare$
+$$
+h\left(1.5+\Delta t\right)-h\left(1.5\right)=-4.9\left[\left(1.5+\Delta t\right)^{2}-1.5^{2}\right]+2.8\Delta t.
+$$
+
+展开并整理, 得
+
+$$
+\frac{\Delta h}{\Delta t}=-4.9\left(3+\Delta t\right)+2.8=-11.9-4.9\Delta t.
+$$
+
+由**定义 5.1.2 (导数)**, 令 $\Delta t\to0$, 得
+
+$$
+h'\left(1.5\right)=\lim_{\Delta t\to0}\frac{\Delta h}{\Delta t}=\lim_{\Delta t\to0}\left(-11.9-4.9\Delta t\right)=-11.9.
+$$
+
+故运动员在 $t=1.5\ \mathrm{s}$ 时的瞬时速度为 $-11.9\ \mathrm{m/s}$. $\blacksquare$
 
 ## 练习二
 
-(练习 2.1 第 2 题) 已知下列直线的斜率, 求直线的倾斜角:
+(练习 5.1 第 2 题) 火箭发射 $t\ \mathrm{s}$ 后, 其高度 (单位: $\mathrm{m}$) 为 $h\left(t\right)=0.9t^{2}$. 求: 
 
-(1) $k=0$;
+(1) 在 $1\le t\le2$ 这段时间里, 火箭爬高的平均速度; 
 
-(2) $k=\sqrt 3$;
-
-(3) $k=-\sqrt 3$;
-
-(4) $k=-\frac{\sqrt 3}{3}$.
+(2) 发射后第 $10\ \mathrm{s}$ 时, 火箭爬高的瞬时速度.
 
 ### 解答 练习二
 
-由**定义 2.1.2 (斜率)**, $k=\tan\alpha$, 且倾斜角范围为 $0^\circ\le\alpha< 180^\circ$.
+由**定义 5.1.1 (平均变化率)**, 平均速度为高度改变量与时间改变量之比.
 
-(1) 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=0^\circ$.
+(1) 当 $t$ 从 $1$ 变到 $2$ 时, 
 
-(2) 由 $\tan\alpha=\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=60^\circ$.
+$$
+\overline{v}=\frac{h\left(2\right)-h\left(1\right)}{2-1}=\frac{0.9\times2^{2}-0.9\times1^{2}}{1}=0.9\times3=2.7.
+$$
 
-(3) 由 $\tan\alpha=-\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=120^\circ$.
+故在 $1\le t\le2$ 这段时间里, 火箭爬高的平均速度为 $2.7\ \mathrm{m/s}$.
 
-(4) 由 $\tan\alpha=-\frac{\sqrt 3}{3}$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=150^\circ$. $\blacksquare$
+(2) 由**定义 5.1.2 (导数)**, 第 $10\ \mathrm{s}$ 时的瞬时速度为 $h'\left(10\right)$. 在 $t=10$ 附近取改变量 $\Delta t$, 则
+
+$$
+\frac{\Delta h}{\Delta t}=\frac{h\left(10+\Delta t\right)-h\left(10\right)}{\Delta t}=\frac{0.9\left[\left(10+\Delta t\right)^{2}-10^{2}\right]}{\Delta t}=0.9\left(20+\Delta t\right)=18+0.9\Delta t.
+$$
+
+令 $\Delta t\to0$, 得
+
+$$
+h'\left(10\right)=\lim_{\Delta t\to0}\left(18+0.9\Delta t\right)=18.
+$$
+
+故发射后第 $10\ \mathrm{s}$ 时, 火箭爬高的瞬时速度为 $18\ \mathrm{m/s}$. $\blacksquare$
 
 ## 练习三
 
-(练习 2.1 第 3 题) 求经过下列两点的直线的斜率, 并判断其倾斜角是锐角还是钝角:
-
-(1) $C\left(18,8\right)$, $D\left(4,-4\right)$;
-
-(2) $P\left(0,0\right)$, $Q\left(-1,3\right)$.
+(练习 5.1 第 3 题) 一个小球从 $5\ \mathrm{m}$ 的高处自由下落, 其位移 $y$ (单位: $\mathrm{m}$) 与时间 $t$ (单位: $\mathrm{s}$) 之间的关系为 $y\left(t\right)=-4.9t^{2}$. 求 $t=1\ \mathrm{s}$ 时小球的瞬时速度.
 
 ### 解答 练习三
 
-由**常用结论 2.1.3** (斜率公式), 经过两点的直线斜率为 $k=\frac{y_2-y_1}{x_2-x_1}$; 由**定义 2.1.2 (斜率)**, $k> 0$ 时倾斜角为锐角, $k< 0$ 时倾斜角为钝角.
+由**定义 5.1.2 (导数)**, $t=1\ \mathrm{s}$ 时小球的瞬时速度为 $y'\left(1\right)$. 在 $t=1$ 附近取改变量 $\Delta t$, 由**定义 5.1.1 (平均变化率)**, 得
 
-(1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. 因为 $k_{CD}> 0$, 所以倾斜角为锐角.
+$$
+\frac{\Delta y}{\Delta t}=\frac{y\left(1+\Delta t\right)-y\left(1\right)}{\Delta t}=\frac{-4.9\left[\left(1+\Delta t\right)^{2}-1^{2}\right]}{\Delta t}=-4.9\left(2+\Delta t\right)=-9.8-4.9\Delta t.
+$$
 
-(2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. 因为 $k_{PQ}< 0$, 所以倾斜角为钝角. $\blacksquare$
+令 $\Delta t\to0$, 得
+
+$$
+y'\left(1\right)=\lim_{\Delta t\to0}\frac{\Delta y}{\Delta t}=\lim_{\Delta t\to0}\left(-9.8-4.9\Delta t\right)=-9.8.
+$$
+
+故 $t=1\ \mathrm{s}$ 时小球的瞬时速度为 $-9.8\ \mathrm{m/s}$. $\blacksquare$
 
 ## 练习四
 
-(练习 2.1 第 4 题) 已知 $a,b,c$ 是两两不等的实数, 求经过下列两点的直线的倾斜角:
-
-(1) $A\left(a,c\right)$, $B\left(b,c\right)$;
-
-(2) $C\left(a,b\right)$, $D\left(a,c\right)$;
-
-(3) $P\left(b,b+c\right)$, $Q\left(a,c+a\right)$.
+(练习 5.1 第 4 题) 你认为应该怎样定义抛物线 $f\left(x\right)=x^{2}$ 在点 $\left(x_{0},x_{0}^{2}\right)$ 处的切线? 试求抛物线 $f\left(x\right)=x^{2}$ 在点 $\left(-1,1\right)$ 处切线的斜率.
 
 ### 解答 练习四
 
-由**常用结论 2.1.3** (斜率公式) 及**定义 2.1.2 (斜率)**.
+由**定义 5.1.3 (1 弧度的角)**, 在曲线 $y=f\left(x\right)$ 上任取一点 $P\left(x,f\left(x\right)\right)$, 当点 $P$ 沿曲线无限趋近于点 $P_{0}\left(x_{0},f\left(x_{0}\right)\right)$ 时, 割线 $P_{0}P$ 无限趋近于一个确定的位置, 这个确定位置的直线 $P_{0}T$ 称为曲线 $y=f\left(x\right)$ 在点 $P_{0}$ 处的切线.
 
-(1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$, 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=0^\circ$.
+由**定义 5.1.2 (导数)**, 抛物线 $f\left(x\right)=x^{2}$ 在点 $\left(-1,1\right)$ 处切线的斜率为 $f'\left(-1\right)$. 在 $x=-1$ 附近取改变量 $\Delta x$, 则
 
-(2) $C,D$ 两点的横坐标相同, 即 $x_1=x_2=a$, 此时斜率公式中分母为零, 直线没有斜率. 由**定义 2.1.1 (倾斜角)**, 直线与 $x$ 轴垂直, 故 $\alpha=90^\circ$.
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(-1+\Delta x\right)-f\left(-1\right)}{\Delta x}=\frac{\left(-1+\Delta x\right)^{2}-1}{\Delta x}=\frac{-2\Delta x+\left(\Delta x\right)^{2}}{\Delta x}=-2+\Delta x.
+$$
 
-(3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$, 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=45^\circ$. $\blacksquare$
+令 $\Delta x\to0$, 得
+
+$$
+f'\left(-1\right)=\lim_{\Delta x\to0}\left(-2+\Delta x\right)=-2.
+$$
+
+故抛物线 $f\left(x\right)=x^{2}$ 在点 $\left(-1,1\right)$ 处切线的斜率为 $-2$. $\blacksquare$
 
 ## 练习五
 
-(练习 2.1 第 5 题) 经过 $A\left(0,2\right)$, $B\left(-1,0\right)$ 两点的直线的方向向量为 $\left(1,k\right)$, 求 $k$ 的值.
+(练习 5.1 第 5 题) 求抛物线 $f\left(x\right)=x^{2}+1$ 在点 $\left(0,1\right)$ 处的切线方程.
 
 ### 解答 练习五
 
-由**常用结论 2.1.4** (方向向量与斜率), 若直线的斜率为 $k$, 它的一个方向向量的坐标为 $\left(x,y\right)$, 则 $k=\frac{y}{x}$.
-
-先由**常用结论 2.1.3** (斜率公式) 求直线 $AB$ 的斜率:
+由**定义 5.1.3 (1 弧度的角)**, 切线斜率为 $f'\left(0\right)$. 在 $x=0$ 附近取改变量 $\Delta x$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-k_{AB}=\frac{0-2}{-1-0}=\frac{-2}{-1}=2.
+\frac{\Delta y}{\Delta x}=\frac{f\left(0+\Delta x\right)-f\left(0\right)}{\Delta x}=\frac{\left(\Delta x\right)^{2}+1-1}{\Delta x}=\Delta x.
 $$
 
-直线 $AB$ 的方向向量为 $\left(1,k\right)$, 由**常用结论 2.1.4**, 得 $k=\frac{k}{1}=k_{AB}=2$. $\blacksquare$
+令 $\Delta x\to0$, 得 $f'\left(0\right)=0$.
+
+故切线过点 $\left(0,1\right)$, 斜率为 $0$, 切线方程为 $y=1$. $\blacksquare$
 
 ## 练习六
 
-(练习 2.1 第 6 题) 判断下列各对直线是否平行或垂直:
-
-(1) 经过 $A\left(2,3\right)$, $B\left(-1,0\right)$ 两点的直线 $l_1$, 与经过点 $P\left(1,0\right)$ 且斜率为 $1$ 的直线 $l_2$;
-
-(2) 经过 $C\left(3,1\right)$, $D\left(-2,0\right)$ 两点的直线 $l_3$, 与经过点 $M\left(1,-4\right)$ 且斜率为 $-5$ 的直线 $l_4$.
+(练习 5.1 第 6 题) 在例 2 中, 计算第 $3\ \mathrm{h}$ 与第 $5\ \mathrm{h}$ 时, 原油温度的瞬时变化率, 并说明它们的意义.
 
 ### 解答 练习六
 
-由**常用结论 2.1.5** (两条直线平行) 与**常用结论 2.1.6** (两条直线垂直).
+例 2 中原油温度为 $y=f\left(x\right)=x^{2}-7x+15$. 由**定义 5.1.2 (导数)**, 第 $3\ \mathrm{h}$ 与第 $5\ \mathrm{h}$ 时的瞬时变化率分别为 $f'\left(3\right)$ 与 $f'\left(5\right)$.
 
-(1) 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\frac{0-3}{-1-2}=\frac{-3}{-3}=1$, 即 $l_1$ 的斜率为 $1$. $l_2$ 的斜率已知为 $1$. 由**常用结论 2.1.5**, $k_1=k_2=1$, 故 $l_1\parallel l_2$. 又 $l_1$ 经过 $A\left(2,3\right)$ 而 $l_2$ 经过 $P\left(1,0\right)$, 两直线不重合, 故 $l_1\parallel l_2$.
+在 $x$ 附近取改变量 $\Delta x$, 由**定义 5.1.1 (平均变化率)**, 得
 
-(2) 由**常用结论 2.1.3** (斜率公式), $k_{CD}=\frac{0-1}{-2-3}=\frac{-1}{-5}=\frac{1}{5}$, 即 $l_3$ 的斜率为 $\frac{1}{5}$. $l_4$ 的斜率已知为 $-5$. 两斜率之积为 $\frac{1}{5}\times\left(-5\right)=-1$. 由**常用结论 2.1.6**, 故 $l_3\perp l_4$. $\blacksquare$
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}=\frac{\left(x+\Delta x\right)^{2}-7\left(x+\Delta x\right)+15-\left(x^{2}-7x+15\right)}{\Delta x}=2x+\Delta x-7.
+$$
+
+令 $\Delta x\to0$, 得 $f'\left(x\right)=2x-7$.
+
+于是 $f'\left(3\right)=2\times3-7=-1$, $f'\left(5\right)=2\times5-7=3$.
+
+故第 $3\ \mathrm{h}$ 时原油温度的瞬时变化率为 $-1\ {^\circ}\mathrm{C/h}$, 说明在第 $3\ \mathrm{h}$ 附近原油温度大约以 $1\ {^\circ}\mathrm{C/h}$ 的速率下降; 第 $5\ \mathrm{h}$ 时原油温度的瞬时变化率为 $3\ {^\circ}\mathrm{C/h}$, 说明在第 $5\ \mathrm{h}$ 附近原油温度大约以 $3\ {^\circ}\mathrm{C/h}$ 的速率上升. $\blacksquare$
 
 ## 练习七
 
-(练习 2.1 第 7 题) 试确定 $m$ 的值, 使过 $A\left(m,1\right)$, $B\left(-1,m\right)$ 两点的直线与过 $P\left(1,2\right)$, $Q\left(-5,0\right)$ 两点的直线:
-
-(1) 平行;
-
-(2) 垂直.
+(练习 5.1 第 7 题) 设 $f\left(x\right)=x$, 求 $f'\left(1\right)$.
 
 ### 解答 练习七
 
-由**常用结论 2.1.3** (斜率公式), 先求两直线的斜率.
-
-直线 $AB$ 的斜率为
+由**定义 5.1.2 (导数)**, 在 $x=1$ 附近取改变量 $\Delta x$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-k_{AB}=\frac{m-1}{-1-m}=\frac{m-1}{-\left(m+1\right)}.
+\frac{\Delta y}{\Delta x}=\frac{f\left(1+\Delta x\right)-f\left(1\right)}{\Delta x}=\frac{\left(1+\Delta x\right)-1}{\Delta x}=1.
 $$
 
-直线 $PQ$ 的斜率为
+令 $\Delta x\to0$, 得
 
 $$
-k_{PQ}=\frac{0-2}{-5-1}=\frac{-2}{-6}=\frac{1}{3}.
+f'\left(1\right)=\lim_{\Delta x\to0}1=1.
 $$
 
-(1) 由**常用结论 2.1.5** (两条直线平行), 两直线平行须 $k_{AB}=k_{PQ}$, 即
+故 $f'\left(1\right)=1$. $\blacksquare$
+
+## 练习八
+
+(练习 5.1 第 8 题) 一质点 $A$ 沿直线运动, 位移 $y$ (单位: $\mathrm{m}$) 与时间 $t$ (单位: $\mathrm{s}$) 之间的关系为 $y\left(t\right)=2t^{2}+1$, 求质点 $A$ 在 $t=2.7\ \mathrm{s}$ 时的瞬时速度.
+
+### 解答 练习八
+
+由**定义 5.1.2 (导数)**, 质点 $A$ 在 $t=2.7\ \mathrm{s}$ 时的瞬时速度为 $y'\left(2.7\right)$. 在 $t=2.7$ 附近取改变量 $\Delta t$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-\frac{m-1}{-m-1}=\frac{1}{3}.
+\frac{\Delta y}{\Delta t}=\frac{y\left(2.7+\Delta t\right)-y\left(2.7\right)}{\Delta t}=\frac{2\left[\left(2.7+\Delta t\right)^{2}-2.7^{2}\right]}{\Delta t}=2\left(5.4+\Delta t\right)=10.8+2\Delta t.
 $$
 
-交叉相乘, 得 $3\left(m-1\right)=-\left(m+1\right)$, 即 $3m-3=-m-1$, 即 $4m=2$, 故 $m=\frac{1}{2}$.
-
-(2) 由**常用结论 2.1.6** (两条直线垂直), 两直线垂直须 $k_{AB}k_{PQ}=-1$, 即
+令 $\Delta t\to0$, 得
 
 $$
-\frac{m-1}{-m-1}\times\frac{1}{3}=-1.
+y'\left(2.7\right)=\lim_{\Delta t\to0}\left(10.8+2\Delta t\right)=10.8.
 $$
 
-化简, 得 $\frac{m-1}{-m-1}=-3$, 即 $m-1=3\left(m+1\right)$, 即 $m-1=3m+3$, 即 $-2m=4$, 故 $m=-2$. $\blacksquare$
+故质点 $A$ 在 $t=2.7\ \mathrm{s}$ 时的瞬时速度为 $10.8\ \mathrm{m/s}$. $\blacksquare$
+
+## 练习九
+
+(练习 5.1 第 9 题) 设函数 $f\left(x\right)=x^{2}-1$. 求: 
+
+(1) 当自变量 $x$ 由 $1$ 变到 $1.1$ 时, 函数的平均变化率; 
+
+(2) 函数在 $x=1$ 处的导数.
+
+### 解答 练习九
+
+由**定义 5.1.1 (平均变化率)** 与**定义 5.1.2 (导数)**.
+
+(1) 当 $x$ 由 $1$ 变到 $1.1$ 时, 
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(1.1\right)-f\left(1\right)}{1.1-1}=\frac{\left(1.1^{2}-1\right)-\left(1^{2}-1\right)}{0.1}=\frac{0.21}{0.1}=2.1.
+$$
+
+故函数的平均变化率为 $2.1$.
+
+(2) 在 $x=1$ 附近取改变量 $\Delta x$, 则
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(1+\Delta x\right)-f\left(1\right)}{\Delta x}=\frac{\left(1+\Delta x\right)^{2}-1-\left(1-1\right)}{\Delta x}=\frac{2\Delta x+\left(\Delta x\right)^{2}}{\Delta x}=2+\Delta x.
+$$
+
+令 $\Delta x\to0$, 得 $f'\left(1\right)=\lim_{\Delta x\to0}\left(2+\Delta x\right)=2$.
+
+故函数在 $x=1$ 处的导数为 $2$. $\blacksquare$
+
+## 练习十
+
+(练习 5.1 第 10 题) 根据图 5.1-6, 描述曲线 $h\left(t\right)$ 在 $t=t_{3},t_{4}$ 附近增 (减) 以及增 (减) 快慢的情况.
+
+### 解答 练习十
+
+由**定义 5.1.3 (1 弧度的角)**, 曲线 $h\left(t\right)$ 在某点处切线斜率 $h'\left(t\right)$ 的正负反映曲线在该点附近的升降, 其绝对值大小反映升降的快慢.
+
+在 $t=t_{3}$ 附近, 曲线上升, 切线斜率 $h'\left(t_{3}\right)> 0$, 故曲线在 $t=t_{3}$ 附近单调递增; 又切线倾斜程度较大, 斜率绝对值较大, 故递增得较快.
+
+在 $t=t_{4}$ 附近, 曲线上升, 切线斜率 $h'\left(t_{4}\right)> 0$, 故曲线在 $t=t_{4}$ 附近单调递增; 但切线较为平缓, 斜率绝对值较小, 故递增得较慢. $\blacksquare$
+
+## 练习十一
+
+(练习 5.1 第 11 题) 函数 $f\left(x\right)$ 的图象如图所示, 下列数值排序正确的是 ( ).
+
+(A) $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$
+
+(B) $f'\left(1\right)< f'\left(2\right)< f'\left(3\right)< 0$
+
+(C) $0< f'\left(1\right)< f'\left(2\right)< f'\left(3\right)$
+
+(D) $f'\left(1\right)> f'\left(2\right)> 0> f'\left(3\right)$
+
+该图为函数 $y=f\left(x\right)$ 的图象:一条从左下向右上上升的曲线,上升越来越平缓(上凸),图中在 $x=1,2,3$ 三处分别画出了曲线的切线,三条切线斜率均为正且依次减小.
+
+### 解答 练习十一
+
+由**定义 5.1.3 (1 弧度的角)**, $f'\left(x\right)$ 为曲线在该点处切线的斜率.
+
+由图象, 曲线 $y=f\left(x\right)$ 在 $x=1,2,3$ 处均呈上升趋势, 切线斜率均为正, 即 $f'\left(1\right),f'\left(2\right),f'\left(3\right)$ 均大于 $0$.
+
+又图象上升越来越平缓, 切线斜率逐渐减小, 即 $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$.
+
+故选 (A). $\blacksquare$
+
+## 练习十二
+
+(练习 5.1 第 12 题) 求曲线 $y=-2x^{2}+1$ 在点 $\left(1,-1\right)$ 处的切线方程.
+
+### 解答 练习十二
+
+由**定义 5.1.3 (1 弧度的角)**, 切线斜率为 $y'\big|_{x=1}$. 在 $x=1$ 附近取改变量 $\Delta x$, 由**定义 5.1.1 (平均变化率)**, 得
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{\left[-2\left(1+\Delta x\right)^{2}+1\right]-\left(-2\times1^{2}+1\right)}{\Delta x}=\frac{-4\Delta x-2\left(\Delta x\right)^{2}}{\Delta x}=-4-2\Delta x.
+$$
+
+令 $\Delta x\to0$, 得 $y'\big|_{x=1}=-4$.
+
+故切线过点 $\left(1,-1\right)$, 斜率为 $-4$, 切线方程为 $y+1=-4\left(x-1\right)$, 即 $y=-4x+3$. $\blacksquare$
+
+## 练习十三
+
+(练习 5.1 第 13 题) 吹气球时, 气球的半径 $r$ (单位: $\mathrm{dm}$) 与体积 $V$ (单位: $\mathrm{L}$) 之间的函数关系是 $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. 利用信息技术工具, 画出 $0\le V\le5$ 时函数的图象, 并根据其图象估计 $V=0.6,1.2\ \mathrm{L}$ 时, 气球的瞬时膨胀率.
+
+该图为函数 $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ 在 $0\le V\le5$ 上的图象:横坐标为体积 $V$(单位 $\mathrm{L}$),纵坐标为气球半径 $r$(单位 $\mathrm{dm}$),曲线从原点出发单调上升但增长越来越平缓(上凸),并在 $V=0.6$ 与 $V=1.2$ 处分别画出切线.
+
+### 解答 练习十三
+
+由**定义 5.1.2 (导数)**, 气球的瞬时膨胀率为 $r'\left(V\right)$. 在 $V$ 附近取改变量 $\Delta V$, 由**定义 5.1.1 (平均变化率)**, 得
+
+$$
+\frac{\Delta r}{\Delta V}=\frac{r\left(V+\Delta V\right)-r\left(V\right)}{\Delta V}.
+$$
+
+由函数 $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ 的图象可知, $r\left(V\right)$ 随 $V$ 增大而增大, 但增长越来越平缓, 故 $r'\left(V\right)> 0$ 且随 $V$ 增大而减小.
+
+由图象估计, 当 $V=0.6$ 时, 切线斜率约为 $r'\left(0.6\right)\approx0.3$; 当 $V=1.2$ 时, 切线斜率约为 $r'\left(1.2\right)\approx0.2$.
+
+故气球在 $V=0.6\ \mathrm{L}$ 时瞬时膨胀率约为 $0.3\ \mathrm{dm/L}$, 在 $V=1.2\ \mathrm{L}$ 时约为 $0.2\ \mathrm{dm/L}$. $\blacksquare$
 
 ## 习题一
 
-(习题 2.1 复习巩固第 1 题) 已知直线斜率的绝对值等于 $1$, 求直线的倾斜角.
+(习题 5.1 复习巩固第 1 题) 一个物体从 $10\ \mathrm{m}$ 高处做自由落体运动, $t\ \mathrm{s}$ 时该物体距离地面的高度 (单位: $\mathrm{m}$) 为 $h\left(t\right)=-4.9t^{2}+10$. 求该物体在 $t=1$ 时的瞬时速度, 并解释此时物体的运动状况.
 
 ### 解答 习题一
 
-由**定义 2.1.2 (斜率)**, $k=\tan\alpha$, 且 $\lvert k \rvert=1$.
+由**定义 5.1.2 (导数)**, 物体在 $t=1$ 时的瞬时速度为 $h'\left(1\right)$. 在 $t=1$ 附近取改变量 $\Delta t$, 由**定义 5.1.1 (平均变化率)**, 得
 
-由 $\lvert \tan\alpha \rvert=1$, 得 $\tan\alpha=1$ 或 $\tan\alpha=-1$. 又倾斜角范围为 $0^\circ\le\alpha< 180^\circ$, 当 $\tan\alpha=1$ 时 $\alpha=45^\circ$, 当 $\tan\alpha=-1$ 时 $\alpha=135^\circ$. 故直线的倾斜角为 $45^\circ$ 或 $135^\circ$. $\blacksquare$
+$$
+\frac{\Delta h}{\Delta t}=\frac{h\left(1+\Delta t\right)-h\left(1\right)}{\Delta t}=\frac{-4.9\left[\left(1+\Delta t\right)^{2}-1^{2}\right]}{\Delta t}=-4.9\left(2+\Delta t\right)=-9.8-4.9\Delta t.
+$$
+
+令 $\Delta t\to0$, 得
+
+$$
+h'\left(1\right)=\lim_{\Delta t\to0}\left(-9.8-4.9\Delta t\right)=-9.8.
+$$
+
+故物体在 $t=1$ 时的瞬时速度为 $-9.8\ \mathrm{m/s}$. 此时物体正以 $9.8\ \mathrm{m/s}$ 的速度向下运动. $\blacksquare$
 
 ## 习题二
 
-(习题 2.1 复习巩固第 2 题) 已知四边形 $ABCD$ 的四个顶点是 $A\left(2,3\right)$, $B\left(1,-1\right)$, $C\left(-1,-2\right)$, $D\left(-2,2\right)$, 求四边形 $ABCD$ 的四条边所在直线的斜率.
+(习题 5.1 复习巩固第 2 题) 圆的面积 $S$ (单位: $\mathrm{cm^{2}}$) 与半径 $R$ (单位: $\mathrm{cm}$) 的关系为 $S=\pi R^{2}$. 求 $R=5\ \mathrm{cm}$ 时面积关于半径的瞬时变化率.
 
 ### 解答 习题二
 
-由**常用结论 2.1.3** (斜率公式), 分别求四条边所在直线的斜率.
-
-$AB$ 边所在直线的斜率:
+由**定义 5.1.2 (导数)**, 面积关于半径的瞬时变化率为 $S'\big|_{R=5}$. 在 $R=5$ 附近取改变量 $\Delta R$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-k_{AB}=\frac{-1-3}{1-2}=\frac{-4}{-1}=4.
+\frac{\Delta S}{\Delta R}=\frac{\pi\left(5+\Delta R\right)^{2}-\pi\cdot5^{2}}{\Delta R}=\frac{\pi\left(10\Delta R+\left(\Delta R\right)^{2}\right)}{\Delta R}=\pi\left(10+\Delta R\right).
 $$
 
-$BC$ 边所在直线的斜率:
+令 $\Delta R\to0$, 得
 
 $$
-k_{BC}=\frac{-2-\left(-1\right)}{-1-1}=\frac{-1}{-2}=\frac{1}{2}.
+S'\big|_{R=5}=\lim_{\Delta R\to0}\pi\left(10+\Delta R\right)=10\pi.
 $$
 
-$CD$ 边所在直线的斜率:
-
-$$
-k_{CD}=\frac{2-\left(-2\right)}{-2-\left(-1\right)}=\frac{4}{-1}=-4.
-$$
-
-$DA$ 边所在直线的斜率:
-
-$$
-k_{DA}=\frac{3-2}{2-\left(-2\right)}=\frac{1}{4}.
-$$
-
-故四条边所在直线的斜率分别为 $k_{AB}=4$, $k_{BC}=\frac{1}{2}$, $k_{CD}=-4$, $k_{DA}=\frac{1}{4}$. $\blacksquare$
+故 $R=5\ \mathrm{cm}$ 时面积关于半径的瞬时变化率为 $10\pi\ \mathrm{cm^{2}/cm}$. $\blacksquare$
 
 ## 习题三
 
-(习题 2.1 复习巩固第 3 题) $m$ 为何值时,
+(习题 5.1 复习巩固第 3 题) 某质点沿直线运动, 位移 $y$ (单位: $\mathrm{m}$) 与时间 $t$ (单位: $\mathrm{s}$) 之间的关系为 $y\left(t\right)=5t^{2}+6$. 求: 
 
-(1) 经过 $A\left(-m,6\right)$, $B\left(1,3m\right)$ 两点的直线的斜率是 $12$?
+(1) $2\le t\le3$ 这段时间内的平均速度; 
 
-(2) 经过 $A\left(m,2\right)$, $B\left(-m,-2m-1\right)$ 两点的直线的倾斜角是 $60^\circ$?
+(2) $t=2\ \mathrm{s}$ 时的瞬时速度.
 
 ### 解答 习题三
 
-由**常用结论 2.1.3** (斜率公式) 及**定义 2.1.2 (斜率)**.
+由**定义 5.1.1 (平均变化率)** 与**定义 5.1.2 (导数)**.
 
-(1) 由斜率公式, $k_{AB}=\frac{3m-6}{1-\left(-m\right)}=\frac{3m-6}{1+m}$. 令其等于 $12$, 得
-
-$$
-\frac{3m-6}{1+m}=12.
-$$
-
-去分母, 得 $3m-6=12\left(1+m\right)=12+12m$, 即 $-9m=18$, 故 $m=-2$.
-
-(2) 由**定义 2.1.2 (斜率)**, 倾斜角为 $60^\circ$ 时斜率 $k=\tan 60^\circ=\sqrt 3$. 由斜率公式,
+(1) 当 $t$ 从 $2$ 变到 $3$ 时, 
 
 $$
-k_{AB}=\frac{\left(-2m-1\right)-2}{-m-m}=\frac{-2m-3}{-2m}=\frac{2m+3}{2m}.
+\overline{v}=\frac{y\left(3\right)-y\left(2\right)}{3-2}=\frac{\left(5\times3^{2}+6\right)-\left(5\times2^{2}+6\right)}{1}=5\times\left(9-4\right)=25.
 $$
 
-令其等于 $\sqrt 3$, 得 $\frac{2m+3}{2m}=\sqrt 3$, 即 $2m+3=2\sqrt 3\,m$, 即 $2m\left(\sqrt 3-1\right)=3$, 故
+故这段时间内的平均速度为 $25\ \mathrm{m/s}$.
+
+(2) 在 $t=2$ 附近取改变量 $\Delta t$, 得
 
 $$
-m=\frac{3}{2\left(\sqrt 3-1\right)}=\frac{3\left(\sqrt 3+1\right)}{2\left(3-1\right)}=\frac{3\left(\sqrt 3+1\right)}{4}.
+\frac{\Delta y}{\Delta t}=\frac{y\left(2+\Delta t\right)-y\left(2\right)}{\Delta t}=\frac{5\left[\left(2+\Delta t\right)^{2}-2^{2}\right]}{\Delta t}=5\left(4+\Delta t\right)=20+5\Delta t.
 $$
 
-$\blacksquare$
+令 $\Delta t\to0$, 得 $y'\left(2\right)=20$.
+
+故 $t=2\ \mathrm{s}$ 时的瞬时速度为 $20\ \mathrm{m/s}$. $\blacksquare$
 
 ## 习题四
 
-(习题 2.1 复习巩固第 4 题) 已知 $A\left(1,2\right)$, $B\left(-1,0\right)$, $C\left(3,4\right)$ 三点, 这三点是否在同一条直线上? 为什么?
+(习题 5.1 复习巩固第 4 题) 已知车轮旋转的角度 $\theta$ (单位: $\mathrm{rad}$) 与时间 $t$ (单位: $\mathrm{s}$) 之间的关系为 $\theta\left(t\right)=\frac{25\pi}{8}t^{2}$. 求车轮转动开始后第 $3.2\ \mathrm{s}$ 时的瞬时角速度.
 
 ### 解答 习题四
 
-由**常用结论 2.1.3** (斜率公式), 分别求 $AB$ 与 $AC$ 的斜率.
+由**定义 5.1.2 (导数)**, 瞬时角速度为 $\theta'\left(3.2\right)$. 在 $t=3.2$ 附近取改变量 $\Delta t$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-k_{AB}=\frac{0-2}{-1-1}=\frac{-2}{-2}=1,
+\frac{\Delta\theta}{\Delta t}=\frac{\frac{25\pi}{8}\left[\left(3.2+\Delta t\right)^{2}-3.2^{2}\right]}{\Delta t}=\frac{25\pi}{8}\left(6.4+\Delta t\right).
 $$
 
+令 $\Delta t\to0$, 得
+
 $$
-k_{AC}=\frac{4-2}{3-1}=\frac{2}{2}=1.
+\theta'\left(3.2\right)=\frac{25\pi}{8}\times6.4=20\pi.
 $$
 
-由**常用结论 2.1.5** (两条直线平行), $k_{AB}=k_{AC}=1$, 且两直线都经过点 $A$, 故直线 $AB$ 与直线 $AC$ 重合, 即 $A,B,C$ 三点在同一条直线上. $\blacksquare$
+故车轮转动开始后第 $3.2\ \mathrm{s}$ 时的瞬时角速度为 $20\pi\ \mathrm{rad/s}$. $\blacksquare$
 
 ## 习题五
 
-(习题 2.1 复习巩固第 5 题) 判断下列不同的直线 $l_1$ 与 $l_2$ 是否平行:
+(习题 5.1 复习巩固第 5 题) 小明骑车上学, 开始时匀速行驶, 途中因交通堵塞停留了一段时间, 后为了赶时间加快速度行驶. 与以上事件吻合得最好的图象是 ( ).
 
-(1) $l_1$ 的斜率为 $2$, $l_2$ 经过 $A\left(1,2\right)$, $B\left(4,8\right)$ 两点;
-
-(2) $l_1$ 经过 $P\left(3,3\right)$, $Q\left(-5,3\right)$ 两点, $l_2$ 平行于 $x$ 轴, 但不经过 $P,Q$ 两点;
-
-(3) $l_1$ 经过 $M\left(-1,0\right)$, $N\left(-5,-2\right)$ 两点, $l_2$ 经过 $R\left(-4,3\right)$, $S\left(0,5\right)$ 两点.
+该图为四个候选图象(A,B,C,D),均以时间为横轴,距学校的距离为纵轴:需选出符合先匀速驶近学校,中途堵塞停留,后加速驶近的一段图——先一段下降直线,接着一段水平线段,最后一段下降且越来越陡的直线(即图 C).
 
 ### 解答 习题五
 
-由**常用结论 2.1.3** (斜率公式) 与**常用结论 2.1.5** (两条直线平行).
+由**定义 5.1.3 (1 弧度的角)**, 距学校的距离关于时间的图象, 其切线斜率表示远离学校的速度.
 
-(1) 由斜率公式, $k_{AB}=\frac{8-2}{4-1}=\frac{6}{3}=2$, 即 $l_2$ 的斜率为 $2$. $l_1$ 的斜率已知为 $2$. 两直线斜率相等, 且不重合 ($l_1$ 不经过 $A,B$), 故 $l_1\parallel l_2$.
+小明匀速行驶时, 距学校距离匀速减小, 图象为一段下降的直线; 堵塞停留时, 距学校距离不变, 图象为一段水平线段; 加快速度行驶时, 距学校距离减小得越来越快, 图象下降且越来越陡.
 
-(2) 由斜率公式, $k_{PQ}=\frac{3-3}{-5-3}=\frac{0}{-8}=0$, 即 $l_1$ 的斜率为 $0$, 即 $l_1$ 平行于 $x$ 轴. $l_2$ 也平行于 $x$ 轴, 故 $l_2$ 的斜率也为 $0$. 两直线斜率相等, 且 $l_2$ 不经过 $P,Q$ 两点, 两直线不重合, 故 $l_1\parallel l_2$.
-
-(3) 由斜率公式,
-
-$$
-k_{MN}=\frac{-2-0}{-5-\left(-1\right)}=\frac{-2}{-4}=\frac{1}{2},
-$$
-
-$$
-k_{RS}=\frac{5-3}{0-\left(-4\right)}=\frac{2}{4}=\frac{1}{2}.
-$$
-
-两直线斜率相等, 且 $l_1$ 经过 $M,N$ 而 $l_2$ 经过 $R,S$, 点 $R,S$ 不在直线 $MN$ 上, 两直线不重合, 故 $l_1\parallel l_2$. $\blacksquare$
+符合这一特征的是图 (C). $\blacksquare$
 
 ## 习题六
 
-(习题 2.1 复习巩固第 6 题) 判断下列直线 $l_1$ 与 $l_2$ 是否垂直:
+(习题 5.1 复习巩固第 6 题) 如图, 试描述函数 $f\left(x\right)$ 在 $x=-5,-4,-2,0,1$ 附近的变化情况.
 
-(1) $l_1$ 的斜率为 $-\frac{2}{3}$, $l_2$ 经过点 $A\left(1,1\right)$, $B\left(0,-\frac{1}{2}\right)$;
-
-(2) $l_1$ 的倾斜角为 $45^\circ$, $l_2$ 经过 $P\left(-2,-1\right)$, $Q\left(3,-6\right)$ 两点;
-
-(3) $l_1$ 经过 $M\left(1,0\right)$, $N\left(4,-5\right)$ 两点, $l_2$ 经过 $R\left(-6,0\right)$, $S\left(-1,3\right)$ 两点.
+该图为函数 $y=f\left(x\right)$ 的图象:一条连续曲线,在 $x=-5$ 附近较陡地上升,到 $x=-4$ 附近上升变缓,在 $x=-2$ 附近到达局部最高点(趋于水平),随后在 $x=0$ 附近下降,到 $x=1$ 附近下降较陡.
 
 ### 解答 习题六
 
-由**常用结论 2.1.6** (两条直线垂直), 即 $k_1k_2=-1$.
+由**定义 5.1.3 (1 弧度的角)**, 由图象切线斜率的正负与大小判断升降及快慢.
 
-(1) 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\frac{-\frac{1}{2}-1}{0-1}=\frac{-\frac{3}{2}}{-1}=\frac{3}{2}$, 即 $l_2$ 的斜率为 $\frac{3}{2}$. $l_1$ 的斜率为 $-\frac{2}{3}$. 两斜率之积为 $-\frac{2}{3}\times\frac{3}{2}=-1$, 故 $l_1\perp l_2$.
+在 $x=-5$ 附近, 曲线上升, 切线斜率为正, 故 $f\left(x\right)$ 单调递增, 且上升较陡, 递增较快.
 
-(2) 由**定义 2.1.2 (斜率)**, $l_1$ 的斜率为 $k_1=\tan 45^\circ=1$. 由斜率公式,
+在 $x=-4$ 附近, 曲线上升趋于平缓, 切线斜率为正但较小, 故 $f\left(x\right)$ 仍单调递增, 但递增较慢.
 
-$$
-k_{PQ}=\frac{-6-\left(-1\right)}{3-\left(-2\right)}=\frac{-5}{5}=-1,
-$$
+在 $x=-2$ 附近, 曲线达到局部最高点附近, 切线接近水平, 斜率接近 $0$, 故 $f\left(x\right)$ 在 $x=-2$ 附近几乎没有升降.
 
-即 $l_2$ 的斜率为 $-1$. 两斜率之积为 $1\times\left(-1\right)=-1$, 故 $l_1\perp l_2$.
+在 $x=0$ 附近, 曲线下降, 切线斜率为负, 故 $f\left(x\right)$ 单调递减.
 
-(3) 由斜率公式,
-
-$$
-k_{MN}=\frac{-5-0}{4-1}=\frac{-5}{3}=-\frac{5}{3},
-$$
-
-$$
-k_{RS}=\frac{3-0}{-1-\left(-6\right)}=\frac{3}{5}.
-$$
-
-两斜率之积为 $-\frac{5}{3}\times\frac{3}{5}=-1$, 故 $l_1\perp l_2$. $\blacksquare$
+在 $x=1$ 附近, 曲线下降且较陡, 切线斜率为负且绝对值较大, 故 $f\left(x\right)$ 单调递减, 且递减较快. $\blacksquare$
 
 ## 习题七
 
-(习题 2.1 综合运用第 7 题) 过 $A\left(m^2+2,m^2-3\right)$, $B\left(3-m-m^2,2m\right)$ 两点的直线 $l$ 的倾斜角为 $45^\circ$, 求 $m$ 的值.
+(习题 5.1 复习巩固第 7 题) 求曲线 $y=\frac{1}{2}x^{2}-2$ 在点 $\left(1,-\frac{3}{2}\right)$ 处的切线的倾斜角.
 
 ### 解答 习题七
 
-由**定义 2.1.2 (斜率)**, 倾斜角为 $45^\circ$ 时斜率 $k=\tan 45^\circ=1$. 由**常用结论 2.1.3** (斜率公式),
+由**定义 5.1.3 (1 弧度的角)**, 切线斜率为 $y'\big|_{x=1}$. 在 $x=1$ 附近取改变量 $\Delta x$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-k_{AB}=\frac{2m-\left(m^2-3\right)}{\left(3-m-m^2\right)-\left(m^2+2\right)}=\frac{2m-m^2+3}{1-m-2m^2}.
+\frac{\Delta y}{\Delta x}=\frac{\frac{1}{2}\left(1+\Delta x\right)^{2}-2-\left(\frac{1}{2}\times1^{2}-2\right)}{\Delta x}=\frac{\frac{1}{2}\left(2\Delta x+\left(\Delta x\right)^{2}\right)}{\Delta x}=1+\frac{1}{2}\Delta x.
 $$
 
-令其等于 $1$, 得
+令 $\Delta x\to0$, 得切线斜率 $k=1$.
 
-$$
-\frac{2m-m^2+3}{1-m-2m^2}=1.
-$$
+设切线的倾斜角为 $\alpha$, 则 $\tan\alpha=1$. 又 $0\le\alpha< \pi$, 故 $\alpha=\frac{\pi}{4}$.
 
-去分母, 得 $2m-m^2+3=1-m-2m^2$, 整理得 $m^2+3m+2=0$, 即 $\left(m+1\right)\left(m+2\right)=0$, 故 $m=-1$ 或 $m=-2$.
-
-当 $m=-1$ 时, $A\left(3,-2\right)$, $B\left(3,-2\right)$, 两点重合, 不合题意, 舍去.
-
-当 $m=-2$ 时, $A\left(6,1\right)$, $B\left(3,-4\right)$, 斜率为 $\frac{-4-1}{3-6}=\frac{-5}{-3}=\frac{5}{3}\ne1$. 代入原式验证: 分子 $2\left(-2\right)-\left(-2\right)^2+3=-4-4+3=-5$, 分母 $1-\left(-2\right)-2\left(-2\right)^2=1+2-8=-5$, 比值为 $1$, 符合.
-
-故 $m=-2$. $\blacksquare$
+故切线的倾斜角为 $\frac{\pi}{4}$. $\blacksquare$
 
 ## 习题八
 
-(习题 2.1 综合运用第 8 题) 经过点 $P\left(0,-1\right)$ 作直线 $l$, 若直线 $l$ 与连接 $A\left(1,-2\right)$, $B\left(2,1\right)$ 两点的线段总有公共点, 求直线 $l$ 的倾斜角 $\alpha$ 与斜率 $k$ 的取值范围, 并说明理由.
+(习题 5.1 综合运用第 8 题) 一个质量为 $m=3\ \mathrm{kg}$ 的物体做直线运动, 设位移 $y$ (单位: $\mathrm{m}$) 与时间 $t$ (单位: $\mathrm{s}$) 之间的关系为 $y\left(t\right)=1+t^{2}$, 并且物体的动能 $E_{k}=\frac{1}{2}mv^{2}$. 求物体开始运动后第 $5\ \mathrm{s}$ 时的动能.
 
 ### 解答 习题八
 
-由**常用结论 2.1.3** (斜率公式), 先求 $PA$ 与 $PB$ 的斜率.
+由**定义 5.1.2 (导数)**, 物体在第 $5\ \mathrm{s}$ 时的瞬时速度为 $y'\left(5\right)$. 在 $t=5$ 附近取改变量 $\Delta t$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-k_{PA}=\frac{-2-\left(-1\right)}{1-0}=\frac{-1}{1}=-1,
+\frac{\Delta y}{\Delta t}=\frac{\left[1+\left(5+\Delta t\right)^{2}\right]-\left(1+5^{2}\right)}{\Delta t}=\frac{10\Delta t+\left(\Delta t\right)^{2}}{\Delta t}=10+\Delta t.
 $$
 
+令 $\Delta t\to0$, 得 $v\left(5\right)=y'\left(5\right)=10$.
+
+由动能公式 $E_{k}=\frac{1}{2}mv^{2}$, 代入 $m=3$, $v=10$, 得
+
 $$
-k_{PB}=\frac{1-\left(-1\right)}{2-0}=\frac{2}{2}=1.
+E_{k}=\frac{1}{2}\times3\times10^{2}=150.
 $$
 
-由**定义 2.1.2 (斜率)**, $k_{PA}=-1$ 对应倾斜角 $135^\circ$, $k_{PB}=1$ 对应倾斜角 $45^\circ$.
-
-直线 $l$ 绕点 $P$ 旋转, 要与线段 $AB$ 有公共点, 其倾斜角 $\alpha$ 须在 $45^\circ$ 到 $135^\circ$ 之间, 即 $45^\circ\le\alpha\le135^\circ$.
-
-当 $\alpha\in\left[45^\circ,90^\circ\right)$ 时, 斜率 $k\ge1$; 当 $\alpha=90^\circ$ 时, 斜率不存在; 当 $\alpha\in\left(90^\circ,135^\circ\right]$ 时, 斜率 $k\le-1$.
-
-故斜率 $k$ 的取值范围为 $k\ge1$ 或 $k\le-1$. $\blacksquare$
+故物体开始运动后第 $5\ \mathrm{s}$ 时的动能为 $150\ \mathrm{J}$. $\blacksquare$
 
 ## 习题九
 
-(习题 2.1 综合运用第 9 题) 已知点 $M\left(2,2\right)$ 和 $N\left(5,-2\right)$, 点 $P$ 在 $x$ 轴上, 且 $\angle MPN$ 为直角, 求点 $P$ 的坐标.
+(习题 5.1 综合运用第 9 题) 根据下面的文字叙述, 画出相应的路程关于时间的函数图象的大致形状.
+
+(1) 汽车在笔直的公路上匀速行驶; 
+
+(2) 汽车在笔直的公路上不断加速行驶; 
+
+(3) 汽车在笔直的公路上不断减速行驶.
+
+该图为路程关于时间 $t$ 的三条示意图象(横轴 $t$,纵轴路程):(1) 从原点出发的一条上升直线(匀速);(2) 一条上升且越来越陡的下凸曲线(不断加速);(3) 一条上升但越来越平缓的上凸曲线(不断减速).
 
 ### 解答 习题九
 
-由**常用结论 2.1.6** (两条直线垂直), $\angle MPN$ 为直角即 $PM\perp PN$, 故 $k_{PM}\,k_{PN}=-1$.
+由**定义 5.1.3 (1 弧度的角)**, 路程关于时间的图象, 其切线斜率表示速度.
 
-设点 $P$ 的坐标为 $\left(x,0\right)$. 由**常用结论 2.1.3** (斜率公式),
+(1) 匀速行驶时, 速度不变, 路程随时间均匀增加, 图象为一条从原点出发的上升直线.
 
-$$
-k_{PM}=\frac{0-2}{x-2}=\frac{-2}{x-2},
-$$
+(2) 不断加速行驶时, 速度越来越大, 路程增加得越来越快, 图象为一条上升且越来越陡的曲线 (下凸).
 
-$$
-k_{PN}=\frac{0-\left(-2\right)}{x-5}=\frac{2}{x-5}.
-$$
-
-由 $PM\perp PN$, 得
-
-$$
-\frac{-2}{x-2}\cdot\frac{2}{x-5}=-1.
-$$
-
-化简, 得 $\frac{-4}{\left(x-2\right)\left(x-5\right)}=-1$, 即 $\left(x-2\right)\left(x-5\right)=4$, 即 $x^2-7x+10=4$, 即 $x^2-7x+6=0$, 即 $\left(x-1\right)\left(x-6\right)=0$.
-
-故 $x=1$ 或 $x=6$, 点 $P$ 的坐标为 $\left(1,0\right)$ 或 $\left(6,0\right)$. $\blacksquare$
+(3) 不断减速行驶时, 速度越来越小, 路程增加得越来越慢, 图象为一条上升但越来越平缓的曲线 (上凸). $\blacksquare$
 
 ## 习题十
 
-(习题 2.1 拓广探索第 10 题) 已知四边形 $ABCD$ 的四个顶点是 $A\left(2,2+2\sqrt 2\right)$, $B\left(-2,2\right)$, $C\left(0,2-2\sqrt 2\right)$, $D\left(4,2\right)$, 求证: 四边形 $ABCD$ 为矩形.
+(习题 5.1 综合运用第 10 题) 如图, 已知函数 $f\left(x\right)$ 的图象, 试画出其导函数 $f'\left(x\right)$ 图象的大致形状.
+
+该图为三个原函数 $y=f\left(x\right)$ 的图象:(1) 一条上升直线;(2) 一条下降直线;(3) 一条开口向上的抛物线(左降右升).要求据此画出对应导函数 $f'\left(x\right)$ 的大致形状.
 
 ### 解答 习题十
 
-由**常用结论 2.1.3** (斜率公式), 分别求四条边所在直线的斜率.
+由**定义 5.1.3 (1 弧度的角)**, 导函数 $f'\left(x\right)$ 的值等于原函数图象在各点处切线的斜率.
+
+对图 (1), 原函数图象为一条上升直线, 切线斜率为正常数, 故 $f'\left(x\right)$ 的图象为一条位于 $x$ 轴上方的水平直线.
+
+对图 (2), 原函数图象为一条下降直线, 切线斜率为负常数, 故 $f'\left(x\right)$ 的图象为一条位于 $x$ 轴下方的水平直线.
+
+对图 (3), 原函数图象为开口向上的抛物线, 左侧下降, 右侧上升, 切线斜率由负逐渐增大到正, 故 $f'\left(x\right)$ 的图象为一条从负到正穿过 $x$ 轴的上升直线. $\blacksquare$
+
+## 习题十一
+
+(习题 5.1 拓广探索第 11 题) 在一次跳水运动中, $t\ \mathrm{s}$ 时运动员的重心相对于水面的高度 (单位: $\mathrm{m}$) 是 $h\left(t\right)=-4.9t^{2}+2.8t+11$. 高度 $h$ 关于时间 $t$ 的导数是速度 $v$, 速度 $v$ 关于时间 $t$ 的导数 $v'$ 的物理意义是什么? 试求 $v,v'$ 关于时间 $t$ 的函数解析式.
+
+### 解答 习题十一
+
+由**定义 5.1.2 (导数)**, 高度关于时间的导数 $h'\left(t\right)$ 是瞬时速度 $v\left(t\right)$; 速度关于时间的导数 $v'\left(t\right)$ 是瞬时加速度.
+
+在 $t$ 附近取改变量 $\Delta t$, 由**定义 5.1.1 (平均变化率)**, 得
 
 $$
-k_{AB}=\frac{2-\left(2+2\sqrt 2\right)}{-2-2}=\frac{-2\sqrt 2}{-4}=\frac{\sqrt 2}{2},
+\frac{\Delta h}{\Delta t}=\frac{h\left(t+\Delta t\right)-h\left(t\right)}{\Delta t}=-4.9\left(2t+\Delta t\right)+2.8=-9.8t+2.8-4.9\Delta t.
 $$
 
-$$
-k_{BC}=\frac{\left(2-2\sqrt 2\right)-2}{0-\left(-2\right)}=\frac{-2\sqrt 2}{2}=-\sqrt 2,
-$$
+令 $\Delta t\to0$, 得
 
 $$
-k_{CD}=\frac{2-\left(2-2\sqrt 2\right)}{4-0}=\frac{2\sqrt 2}{4}=\frac{\sqrt 2}{2},
+v\left(t\right)=h'\left(t\right)=-9.8t+2.8.
 $$
 
+再对 $v\left(t\right)$ 求导, 在 $t$ 附近取改变量 $\Delta t$, 得
+
 $$
-k_{DA}=\frac{\left(2+2\sqrt 2\right)-2}{2-4}=\frac{2\sqrt 2}{-2}=-\sqrt 2.
+\frac{\Delta v}{\Delta t}=\frac{v\left(t+\Delta t\right)-v\left(t\right)}{\Delta t}=\frac{-9.8\Delta t}{\Delta t}=-9.8.
 $$
 
-由**常用结论 2.1.5** (两条直线平行), $k_{AB}=k_{CD}=\frac{\sqrt 2}{2}$, 故 $AB\parallel CD$; $k_{BC}=k_{DA}=-\sqrt 2$, 故 $BC\parallel DA$. 因此四边形 $ABCD$ 是平行四边形.
+令 $\Delta t\to0$, 得
 
-再由**常用结论 2.1.6** (两条直线垂直), $k_{AB}\,k_{BC}=\frac{\sqrt 2}{2}\times\left(-\sqrt 2\right)=-1$, 故 $AB\perp BC$. 平行四边形 $ABCD$ 有一个内角为直角, 故四边形 $ABCD$ 为矩形. $\blacksquare$
+$$
+a\left(t\right)=v'\left(t\right)=-9.8.
+$$
+
+故 $v\left(t\right)=-9.8t+2.8$, $v'\left(t\right)=-9.8$, $v'$ 表示运动员的瞬时加速度. $\blacksquare$

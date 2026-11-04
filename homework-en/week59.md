@@ -1,923 +1,673 @@
 # week59
-> **Definition 1.4.1 (Direction Vector of a Line)**
+> **Definition 5.1.1 (平均变化率)**
 > 
-> 若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.
-> **Definition 1.4.2 (Normal Vector of a Plane)**
+> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **Definition 5.1.2 (Derivative)**
 > 
-> 与平面垂直的直线叫做平面的垂线, 直线的方向向量称为平面的法向量. 求平面的法向量通常只需求出一个.
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**
+> 
+> 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+> **Definition 5.2.1 (Derivative Formulas)**
+> 
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.2 (Differentiation Rules)**
+> 
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **Definition 5.2.3 (Chain Rule)**
+> 
+> 复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
 
 ## Exercise 1
 
-(Exercise 1.4, Problem 1) Determine whether the following propositions are correct; mark " $\surd$ " in the parentheses if correct, and " $\times$ " if incorrect.
+(Exercise 5.1, Problem 13) When blowing up a balloon, the functional relation between the radius $r$ (in $\mathrm{dm}$) and the volume $V$ (in $\mathrm{L}$) is $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. Using an information technology tool, draw the graph of the function for $0\le V\le5$, and from the graph estimate the instantaneous inflation rate of the balloon at $V=0.6,1.2\ \mathrm{L}$.
 
-(1) The zero vector cannot be a direction vector of a line or a normal vector of a plane;
-
-(2) If $\boldsymbol{v}$ is a direction vector of line $l$, then $\lambda\boldsymbol{v}$ ($\lambda \in \mathbb R$) is also a direction vector of line $l$;
-
-(3) In the rectangular coordinate system in space, $\boldsymbol{n}=\left(0,0,1\right)$ is a normal vector of the coordinate plane $Oxy$.
+The figure is the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ on $0\le V\le5$: horizontal axis the volume $V$ (in $\mathrm{L}$), vertical axis the balloon radius $r$ (in $\mathrm{dm}$); the curve starts at the origin and increases monotonically but flattens out (concave down), with tangent lines drawn at $V=0.6$ and $V=1.2$.
 
 ### Solution to Exercise 1
 
-By **Definition 1.4.1 (Direction Vector of a Line)** and **Definition 1.4.2 (Normal Vector of a Plane)**.
+By **Definition 5.1.2 (Derivative)**, the instantaneous inflation rate of the balloon is $r'\left(V\right)$. Take an increment $\Delta V$ near $V$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
-(1) By **Definition 1.4.1 (Normal Vector of a Plane)** and **Definition 1.4.2 (Normal Vector of a Plane)**, both direction vectors and normal vectors are required to be nonzero vectors (otherwise the direction cannot be determined), so the zero vector cannot be a direction vector of a line or a normal vector of a plane. Correct ($\surd$).
+$$
+\frac{\Delta r}{\Delta V}=\frac{r\left(V+\Delta V\right)-r\left(V\right)}{\Delta V}.
+$$
 
-(2) By **Definition 1.4.1 (Normal Vector of a Plane)**, if $\boldsymbol{v}$ is a direction vector of line $l$, then $\lambda\boldsymbol{v}$ ($\lambda \neq 0$) is also one. But when $\lambda=0$, $\lambda\boldsymbol{v}=\boldsymbol{0}$ is not a direction vector. Since the problem states $\lambda \in \mathbb R$, which includes $\lambda=0$, it is incorrect ($\times$).
+From the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$, $r\left(V\right)$ increases as $V$ increases, but the growth becomes more and more gentle, so $r'\left(V\right)> 0$ and decreases as $V$ increases.
 
-(3) All vectors in the coordinate plane $Oxy$ have $z$-coordinate $0$, and the dot product of $\boldsymbol{n}=\left(0,0,1\right)$ with any vector $\left(a,b,0\right)$ in the $Oxy$ plane is $0$, i.e. $\boldsymbol{n} \perp Oxy$ plane. By **Definition 1.4.2 (Normal Vector of a Plane)**, $\boldsymbol{n}$ is a normal vector of the coordinate plane $Oxy$. Correct ($\surd$). $\blacksquare$
+Estimating from the graph, when $V=0.6$, the tangent slope is approximately $r'\left(0.6\right)\approx0.3$; when $V=1.2$, the tangent slope is approximately $r'\left(1.2\right)\approx0.2$.
 
-## Exercise 2
-
-(Exercise 1.4, Problem 2) In the parallelepiped $ABCD-A_1B_1C_1D_1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$, and $O$ is the intersection of $BD$ and $B_1D_1$. Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is a basis of space, find a direction vector of line $OA$.
-
-### Solution to Exercise 2
-
-By **Definition 1.4.1 (Direction Vector of a Line)**.
-
-$O$ is the intersection of $BD$ and $B_1D_1$, i.e. the midpoint of the segment joining the centers of the upper and lower faces. $\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{BO}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{BD}=\boldsymbol{a}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
-
-Hence a direction vector of line $OA$ is $\boldsymbol{OA}=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, or equivalently one may take $\boldsymbol{a}+\boldsymbol{b}$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 1.4, Problem 3) In the cuboid $ABCD-A_1B_1C_1D_1$, $AB=4$, $BC=3$, $CC_1=2$. Taking $D$ as the origin, set up a rectangular coordinate system in space and find a normal vector of the plane $BCC_1B_1$.
-
-### Solution to Exercise 3
-
-By **Definition 1.4.2 (Normal Vector of a Plane)**.
-
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis; then $D\left(0,0,0\right)$, $A\left(3,0,0\right)$, $B\left(3,4,0\right)$, $C\left(0,4,0\right)$, $C_1\left(0,4,2\right)$.
-
-Vectors in the plane $BCC_1B_1$: $\boldsymbol{BC}=\left(-3,0,0\right)$, $\boldsymbol{CC_1}=\left(0,0,2\right)$.
-
-Let the normal vector be $\boldsymbol{n}=\left(x,y,z\right)$; then $\boldsymbol{n} \cdot \boldsymbol{BC}=0$ and $\boldsymbol{n} \cdot \boldsymbol{CC_1}=0$.
-
-$-3x=0$, $2z=0$, so $x=0$, $z=0$, and $y$ is arbitrary.
-
-Taking $\boldsymbol{n}=\left(0,1,0\right)$ gives a normal vector of the plane $BCC_1B_1$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 1.4, Problem 1) Prove by the vector method the "criterion for a line to be parallel to a plane": if a line outside a plane is parallel to a line in the plane, then the line is parallel to the plane.
-
-### Solution to Exercise 4
-
-By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
-
-Let line $l$ lie outside plane $\alpha$, line $m \subset \alpha$, and $l \parallel m$. Let the direction vector of $l$ be $\boldsymbol{u}$; the direction vector of $m$ is also $\boldsymbol{u}$ (since $l \parallel m$).
-
-Let $\boldsymbol{n}$ be a normal vector of plane $\alpha$. Since $m \subset \alpha$, we have $\boldsymbol{n} \perp \boldsymbol{u}$, i.e. $\boldsymbol{n} \cdot \boldsymbol{u}=0$.
-
-By **Common Conclusion 1.4.3**, $l \parallel \alpha \iff \boldsymbol{u} \perp \boldsymbol{n} \iff \boldsymbol{u} \cdot \boldsymbol{n}=0$.
-
-Since $\boldsymbol{n} \cdot \boldsymbol{u}=0$, we have $l \parallel \alpha$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 1.4, Problem 2) As shown in the figure, in the tetrahedron $ABCD$, $E$ is the midpoint of $BC$. Does there exist a point $F$ on line $AD$ such that $AE \parallel CF$?
-
-The figure is a view of the tetrahedron $ABCD$: the four vertices are $A$, $B$, $C$, $D$, and the six edges are $AB$, $AC$, $AD$, $BC$, $BD$, $CD$; $E$ is the midpoint of edge $BC$, and segment $AE$ is drawn.
-
-### Solution to Exercise 5
-
-By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
-
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$.
-
-$E$ is the midpoint of $BC$, so $\boldsymbol{AE}=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
-
-Let $F$ lie on $AD$, and set $\boldsymbol{AF}=t\boldsymbol{AD}=t\boldsymbol{c}$; then $\boldsymbol{CF}=\boldsymbol{CA}+\boldsymbol{AF}=-\boldsymbol{b}+t\boldsymbol{c}$.
-
-If $AE \parallel CF$, then $\boldsymbol{AE}$ and $\boldsymbol{CF}$ are collinear, i.e. there exists a real number $\lambda$ such that $\boldsymbol{CF}=\lambda\boldsymbol{AE}$.
-
-$-\boldsymbol{b}+t\boldsymbol{c}=\lambda \cdot \frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)=\frac{\lambda}{2}\boldsymbol{a}+\frac{\lambda}{2}\boldsymbol{b}$.
-
-Comparing coefficients: $\frac{\lambda}{2}=0$ (the coefficient of $\boldsymbol{a}$), $\frac{\lambda}{2}=-1$ (the coefficient of $\boldsymbol{b}$), and $t=0$ (the coefficient of $\boldsymbol{c}$).
-
-From $\frac{\lambda}{2}=0$ we get $\lambda=0$, but $\frac{\lambda}{2}=-1$ requires $\lambda=-2$, a contradiction.
-
-Hence there is no point $F$ on line $AD$ such that $AE \parallel CF$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 1.4, Problem 3) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $E$, $F$ are the centers of faces $AB_1$ and $A_1C_1$, respectively. Prove that $EF \parallel$ the plane $ACD_1$.
-
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; $E$ is the center of side face $AB_1$ (the rectangle $ABB_1A_1$), $F$ is the center of the upper face $A_1B_1C_1D_1$ (i.e. face $A_1C_1$), and segment $EF$ is drawn.
-
-### Solution to Exercise 6
-
-By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
-
-Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
-
-$E$ is the center of face $AB_1$: $E\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
-
-$F$ is the center of face $A_1C_1$: $F\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
-
-$\boldsymbol{EF}=F-E=\left(-\frac{1}{2}, 0, \frac{1}{2}\right)$.
-
-Plane $ACD_1$: $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $D_1\left(0,0,1\right)$. $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$.
-
-Let the normal vector be $\boldsymbol{n}=\left(x,y,z\right)$; then $\boldsymbol{n} \cdot \boldsymbol{AC}=-x+y=0$, $\boldsymbol{n} \cdot \boldsymbol{AD_1}=-x+z=0$. Taking $x=1$ gives $\boldsymbol{n}=\left(1,1,1\right)$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{n}=\left(-\frac{1}{2}\right) \times 1+0 \times 1+\frac{1}{2} \times 1=-\frac{1}{2}+\frac{1}{2}=0$.
-
-By **Common Conclusion 1.4.3**, $\boldsymbol{EF} \perp \boldsymbol{n}$, and since $EF \not\subset$ the plane $ACD_1$, we have $EF \parallel$ the plane $ACD_1$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 1.4, Problem 1) In the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, the distance from point $A$ to the plane $A_1BD$ is $\;\_\_\;$; the distance from line $DC$ to the plane $AB_1$ is $\;\_\_\;$; the distance from the plane $DA_1C_1$ to the plane $CB_1D$ is $\;\_\_\;$.
-
-### Solution to Exercise 7
-
-By **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
-
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis; edge length $1$.
-
-(1) Plane $A_1BD$: $A_1\left(1,0,1\right)$, $B\left(1,1,0\right)$, $D\left(0,0,0\right)$. $\boldsymbol{DA_1}=\left(1,0,1\right)$, $\boldsymbol{DB}=\left(1,1,0\right)$. Normal vector $\boldsymbol{n}=\boldsymbol{DA_1} \times \boldsymbol{DB}=\left(-1,1,1\right)$.
-
-The distance from point $A\left(1,0,0\right)$ to the plane $A_1BD$: $\boldsymbol{DA}=\left(1,0,0\right)$.
-
-$d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -1 \rvert}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
-
-(2) The distance from line $DC$ to the plane $AB_1$. $DC \parallel$ the plane $AB_1$ (since $DC \parallel AB$ and $AB \subset$ the plane $AB_1$). Take the distance from $D\left(0,0,0\right)$ to the plane $AB_1$.
-
-Plane $AB_1$: $A\left(1,0,0\right)$, $B_1\left(1,1,1\right)$. This plane passes through $A$ with direction $\boldsymbol{AB_1}=\left(0,1,1\right)$. Also $\boldsymbol{AA_1}=\left(0,0,1\right)$ lies in the plane. Normal vector $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AA_1}=\left(1,0,0\right)$.
-
-$d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1 \rvert}{1}=1$. But in fact the distance from $DC$ to the plane $AB_1$ equals the component of the distance from $A$ to the line $DC$ in the perpendicular direction. Since $DC \parallel AB_1$, the distance to that plane is $1$.
-
-(3) The distance from the plane $DA_1C_1$ to the plane $CB_1D$. The two planes are parallel, and the distance is $\frac{\sqrt{3}}{3}$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 1.4, Problem 2) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $E$ is the midpoint of segment $DD_1$ and $F$ is the midpoint of segment $BB_1$.
-
-(1) Find the distance from point $A'$ to the line $B_1E$;
-
-(2) Find the distance from line $FC_1$ to line $AE$;
-
-(3) Find the distance from point $A'$ to the plane $AB_1E$;
-
-(4) Find the distance from line $FC_1$ to the plane $AB_1E$.
-
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $E$ is the midpoint of lateral edge $DD_1$, and $F$ is the midpoint of lateral edge $BB_1$.
-
-### Solution to Exercise 8
-
-By **Common Conclusion 1.4.5** (Distance from a Point to a Line) and **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
-
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis. $A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(1,1,1\right)$, $C_1\left(0,1,1\right)$, $E\left(0,0,\frac{1}{2}\right)$, $F\left(1,1,\frac{1}{2}\right)$.
-
-(1) Line $B_1E$: direction vector $\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-\frac{1}{2}\right)$. From point $A_1$ to the line $B_1E$: $\boldsymbol{B_1A_1}=A_1-B_1=\left(0,-1,0\right)$.
-
-$d=\sqrt{\lvert \boldsymbol{B_1A_1} \rvert^2-\left(\frac{\boldsymbol{B_1A_1} \cdot \boldsymbol{B_1E}}{\lvert \boldsymbol{B_1E} \rvert}\right)^2}=\sqrt{1-\left(\frac{1}{\sqrt{1+1+\frac{1}{4}}}\right)^2}=\sqrt{1-\frac{1}{\frac{9}{4}}}=\sqrt{1-\frac{4}{9}}=\frac{\sqrt{5}}{3}$.
-
-(2) The distance from line $FC_1$ to line $AE$. The two lines are not parallel, and the distance is computed via the common perpendicular. Here the result is given directly: from the projected length, onto the common-perpendicular direction, of the segment joining two points on the skew lines, the distance is $\frac{\sqrt{2}}{2}$.
-
-(3) Plane $AB_1E$: $\boldsymbol{AB_1}=\left(0,1,1\right)$, $\boldsymbol{AE}=\left(-1,0,\frac{1}{2}\right)$. Normal vector $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AE}=\left(\frac{1}{2},-1,1\right)$.
-
-From point $A_1$ to the plane: $\boldsymbol{AA_1}=\left(0,0,1\right)$.
-
-$d=\frac{\lvert \boldsymbol{AA_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{1}{\sqrt{\frac{1}{4}+1+1}}=\frac{1}{\frac{3}{2}}=\frac{2}{3}$.
-
-(4) The distance from line $FC_1$ to the plane $AB_1E$. Since $FC_1 \parallel$ the plane $AB_1E$ (verification: $\boldsymbol{FC_1}=\left(-1,0,\frac{1}{2}\right)$, $\boldsymbol{FC_1} \cdot \boldsymbol{n}=-\frac{1}{2}+0+\frac{1}{2}=0$), the distance equals the distance from point $F$ to the plane.
-
-$\boldsymbol{AF}=\left(0,1,\frac{1}{2}\right)$.
-
-$d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert \frac{1}{2}-1+\frac{1}{2} \rvert}{\frac{3}{2}}=0$. That is, $F$ lies in the plane, and the distance is $0$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 1.4, Problem 3) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, find the distance between the plane $A_1DB$ and the plane $D_1CB_1$.
-
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: two parallel equilateral-triangular cross-sections $A_1BD$ and $D_1CB_1$ are drawn (joining $A_1$, $B$, $D$ and $D_1$, $C$, $B_1$, respectively).
-
-### Solution to Exercise 9
-
-By **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
-
-The planes $A_1DB$ and $D_1CB_1$ are parallel. Take the distance from point $A\left(1,0,0\right)$ to the plane $D_1CB_1$.
-
-Plane $D_1CB_1$: $D_1\left(0,0,1\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$. $\boldsymbol{D_1C}=\left(0,1,-1\right)$, $\boldsymbol{D_1B_1}=\left(1,1,0\right)$.
-
-Normal vector $\boldsymbol{n}=\boldsymbol{D_1C} \times \boldsymbol{D_1B_1}=\left(1,-1,-1\right)$.
-
-$\boldsymbol{D_1A}=\left(1,0,-1\right)$.
-
-$d=\frac{\lvert \boldsymbol{D_1A} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1+0+1 \rvert}{\sqrt{3}}=\frac{2}{\sqrt{3}}=\frac{2\sqrt{3}}{3}$.
-
-But because the two planes cut through the cube at its midsection, the actual distance is $\frac{\sqrt{3}}{3}$ (the distance from the plane $A_1DB$ to the plane $D_1CB_1$). $\blacksquare$
-
-## Exercise 10
-
-(Exercise 1.4, Problem 1) In the right triangular prism $ABC-A_1B_1C_1$, $\angle BCA=90^\circ$, $D_1$, $F_1$ are the midpoints of $A_1B_1$, $A_1C_1$, respectively, and $BC=CA=CC_1$. Then the cosine of the angle between $BD_1$ and $AF_1$ is ( ).
-
-(A) $\frac{\sqrt{30}}{10}$ (B) $\frac{1}{2}$ (C) $\frac{\sqrt{30}}{15}$ (D) $\frac{\sqrt{15}}{10}$
-
-### Solution to Exercise 10
-
-By **Common Conclusion 1.4.7** (Angle between Skew Lines).
-
-Let $BC=CA=CC_1=1$. Take $C$ as the origin, with $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
-
-$A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(0,1,1\right)$, $C_1\left(0,0,1\right)$.
-
-$D_1$ is the midpoint of $A_1B_1$: $D_1\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
-
-$F_1$ is the midpoint of $A_1C_1$: $F_1\left(\frac{1}{2}, 0, 1\right)$.
-
-$\boldsymbol{BD_1}=D_1-B=\left(\frac{1}{2}, -\frac{1}{2}, 1\right)$.
-
-$\boldsymbol{AF_1}=F_1-A=\left(-\frac{1}{2}, 0, 1\right)$.
-
-$\boldsymbol{BD_1} \cdot \boldsymbol{AF_1}=-\frac{1}{4}+0+1=\frac{3}{4}$.
-
-$\lvert \boldsymbol{BD_1} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+1}=\sqrt{\frac{3}{2}}=\frac{\sqrt{6}}{2}$.
-
-$\lvert \boldsymbol{AF_1} \rvert=\sqrt{\frac{1}{4}+1}=\frac{\sqrt{5}}{2}$.
-
-$\cos\theta=\frac{\frac{3}{4}}{\frac{\sqrt{6}}{2} \cdot \frac{\sqrt{5}}{2}}=\frac{\frac{3}{4}}{\frac{\sqrt{30}}{4}}=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
-
-Hence the answer is (A). $\blacksquare$
-
-## Exercise 11
-
-(Exercise 1.4, Problem 2) $PA$, $PB$, $PC$ are three rays emanating from point $P$, and the angle between every two rays is $60^\circ$. Then the cosine of the angle between line $PC$ and the plane $PAB$ is ( ).
-
-(A) $\frac{1}{2}$ (B) $\frac{\sqrt{2}}{2}$ (C) $\frac{\sqrt{3}}{3}$ (D) $\frac{\sqrt{6}}{3}$
-
-### Solution to Exercise 11
-
-By **Common Conclusion 1.4.8** (Angle between a Line and a Plane).
-
-Set $\boldsymbol{PA}=\boldsymbol{a}$, $\boldsymbol{PB}=\boldsymbol{b}$, $\boldsymbol{PC}=\boldsymbol{c}$, with pairwise angles $60^\circ$ and each modulus $1$.
-
-The normal vector of plane $PAB$ is $\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{c} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{n} \rvert}$.
-
-$\boldsymbol{c} \cdot \boldsymbol{n}=\boldsymbol{c} \cdot \left(\boldsymbol{a} \times \boldsymbol{b}\right)$ (scalar triple product).
-
-Set $\boldsymbol{a}=\left(1,0,0\right)$, $\boldsymbol{b}=\left(\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$, $\boldsymbol{c}=\left(\frac{1}{2}, \frac{1}{2\sqrt{3}}, \sqrt{\frac{2}{3}}\right)$ (since it makes $60^\circ$ with both $\boldsymbol{a}$ and $\boldsymbol{b}$).
-
-$\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}=\left(0,0,\frac{\sqrt{3}}{2}\right)$.
-
-$\boldsymbol{c} \cdot \boldsymbol{n}=\frac{\sqrt{3}}{2} \cdot \sqrt{\frac{2}{3}}=\frac{\sqrt{2}}{2}$.
-
-$\lvert \boldsymbol{n} \rvert=\frac{\sqrt{3}}{2}$.
-
-$\sin\theta=\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{3}}{2}}=\sqrt{\frac{2}{3}}$.
-
-$\cos\theta=\sqrt{1-\frac{2}{3}}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
-
-Hence the answer is (C). $\blacksquare$
-
-## Exercise 12
-
-(Exercise 1.4, Problem 3) As shown in the figure, all edges of the regular triangular prism $ABC-A_1B_1C_1$ have length $2$. Find the cosine of the angle between the plane $AA_1B$ and the plane $A_1BC_1$.
-
-The figure is a view of the regular triangular prism $ABC-A_1B_1C_1$: the lower base is the equilateral triangle $ABC$, the upper base is the congruent equilateral triangle $A_1B_1C_1$, and the three lateral edges $AA_1$, $BB_1$, $CC_1$ are parallel to one another and perpendicular to the bases; all edges have length $2$.
-
-### Solution to Exercise 12
-
-By **Common Conclusion 1.4.9** (Angle between Two Planes).
-
-Let the edge length be $2$. Take $A$ as the origin, with $AB$ along the $x$-axis, and set up the coordinate system.
-
-$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(1,\sqrt{3},0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(2,0,2\right)$, $C_1\left(1,\sqrt{3},2\right)$.
-
-Plane $AA_1B$: the $z=0$ plane (i.e. the $xOy$ plane), normal vector $\boldsymbol{n}_1=\left(0,0,1\right)$.
-
-Plane $A_1BC_1$: $\boldsymbol{A_1B}=\left(2,0,-2\right)$, $\boldsymbol{A_1C_1}=\left(1,\sqrt{3},0\right)$.
-
-Normal vector $\boldsymbol{n}_2=\boldsymbol{A_1B} \times \boldsymbol{A_1C_1}=\left(2\sqrt{3},-2,2\sqrt{3}\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{2\sqrt{3}}{\sqrt{12+4+12} \cdot 1}=\frac{2\sqrt{3}}{\sqrt{28}}=\frac{2\sqrt{3}}{2\sqrt{7}}=\frac{\sqrt{21}}{7}$. $\blacksquare$
-
-## Exercise 13
-
-(Exercise 1.4, Problem 4) As shown in the figure, the planes of $\triangle ABC$ and $\triangle DBC$ are perpendicular, and $AB=BC=BD$, $\angle CBA=\angle DBC=120^\circ$. Find:
-
-(1) The size of the angle between line $AD$ and line $BC$;
-
-(2) The size of the angle between line $AD$ and the plane $BCD$;
-
-(3) The cosine of the angle between the plane $ABD$ and the plane $BDC$.
-
-The figure shows two triangles sharing an edge: $\triangle ABC$ and $\triangle DBC$ are joined along the common edge $BC$, and the planes they lie in are perpendicular; $AB=BC=BD$, and $\angle CBA=\angle DBC=120^\circ$.
-
-### Solution to Exercise 13
-
-By **Common Conclusion 1.4.7**, **1.4.8**, **1.4.9**.
-
-Let $AB=BC=BD=1$. Take $B$ as the origin, with $BC$ as the $x$-axis, and the plane containing $BD$ as the $xOy$ plane; the two planes are perpendicular.
-
-$B\left(0,0,0\right)$, $C\left(1,0,0\right)$, $D\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$ (since $\angle DBC=120^\circ$).
-
-$A$ lies in the plane perpendicular to the plane $BCD$, $\angle CBA=120^\circ$, and $A\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$.
-
-(1) $\boldsymbol{AD}=D-A=\left(0, \frac{\sqrt{3}}{2}, -\frac{\sqrt{3}}{2}\right)$. $\boldsymbol{BC}=\left(1,0,0\right)$.
-
-$\boldsymbol{AD} \cdot \boldsymbol{BC}=0$. Hence $AD \perp BC$, and the angle between them is $90^\circ$.
-
-(2) The plane $BCD$ is the $z=0$ plane, with normal vector $\boldsymbol{n}=\left(0,0,1\right)$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{AD} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{AD} \rvert}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{0+\frac{3}{4}+\frac{3}{4}}}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{\frac{3}{2}}}=\frac{1}{\sqrt{2}}$.
-
-Hence $\theta=45^\circ$.
-
-(3) Plane $ABD$: $\boldsymbol{BA}=\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$, $\boldsymbol{BD}=\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$.
-
-Normal vector $\boldsymbol{n}_1=\boldsymbol{BA} \times \boldsymbol{BD}=\left(-\frac{3}{4}, -\frac{\sqrt{3}}{4}, -\frac{\sqrt{3}}{4}\right)$.
-
-The normal vector of plane $BDC$ is $\boldsymbol{n}_2=\left(0,0,1\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{\sqrt{3}}{4}}{\sqrt{\frac{9}{16}+\frac{3}{16}+\frac{3}{16}}}=\frac{\frac{\sqrt{3}}{4}}{\frac{\sqrt{15}}{4}}=\frac{\sqrt{5}}{5}$. $\blacksquare$
-
-## Exercise 14
-
-(Exercise 1.4, Problem 1) As shown in the figure, on the edge of the dihedral angle $\alpha-l-\beta$ there are two points $A$, $B$; the segments $BD$ and $AC$ lie in the two faces of this dihedral angle, and both are perpendicular to the edge $l$. If $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, find the angle between plane $\alpha$ and plane $\beta$.
-
-The figure is a view of the dihedral angle $\alpha-l-\beta$: on the edge $l$ lie two points $A$, $B$; segment $AC$ lies in face $\alpha$ and segment $BD$ lies in face $\beta$, with $AC \perp l$ and $BD \perp l$; $AB=4$, $AC=6$, $BD=8$, and the distance between $C$ and $D$ is $CD=2\sqrt{17}$.
-
-### Solution to Exercise 14
-
-By **Common Conclusion 1.4.9** (Angle between Two Planes).
-
-$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}$.
-
-Since $AC \perp l$ and $BD \perp l$, $\boldsymbol{CA} \cdot \boldsymbol{AB}=0$, and $\boldsymbol{AB} \cdot \boldsymbol{BD}=0$.
-
-$\lvert \boldsymbol{CD} \rvert^2=\boldsymbol{CA}^2+\boldsymbol{AB}^2+\boldsymbol{BD}^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
-
-$\left(2\sqrt{17}\right)^2=6^2+4^2+8^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
-
-$68=36+16+64+2\boldsymbol{CA} \cdot \boldsymbol{BD}=116+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
-
-$2\boldsymbol{CA} \cdot \boldsymbol{BD}=-48$, i.e. $\boldsymbol{CA} \cdot \boldsymbol{BD}=-24$.
-
-Let the angle between the two planes be $\theta$; then $\cos\theta=\frac{\lvert \boldsymbol{AC} \cdot \boldsymbol{BD} \rvert}{\lvert \boldsymbol{AC} \rvert \lvert \boldsymbol{BD} \rvert}=\frac{24}{6 \times 8}=\frac{1}{2}$.
-
-Hence $\theta=60^\circ$. $\blacksquare$
-
-## Exercise 15
-
-(Exercise 1.4, Problem 2) As shown in the figure, in the triangular pyramid $A-BCD$, $AB=AC=BD=CD=3$, $AD=BC=2$, and $M$, $N$ are the midpoints of $AD$, $BC$, respectively. Find the cosine of the angle between the skew lines $AN$ and $CM$.
-
-The figure is a view of the triangular pyramid $A-BCD$: $AB=AC=BD=CD=3$, $AD=BC=2$; $M$ is the midpoint of edge $AD$, $N$ is the midpoint of edge $BC$, and segments $AN$ and $CM$ are drawn.
-
-### Solution to Exercise 15
-
-By **Common Conclusion 1.4.7** (Angle between Skew Lines).
-
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$. By symmetry, set up coordinates: take the midpoint $N$ of $BC$ as the origin, with $BC$ along the $x$-axis and $AN$ in the $yOz$ plane.
-
-$B\left(-1,0,0\right)$, $C\left(1,0,0\right)$, $N\left(0,0,0\right)$. $AB=AC=3$, $BC=2$, so $AN=\sqrt{9-1}=2\sqrt{2}$. Set $A\left(0,2\sqrt{2},0\right)$.
-
-$AD=2$, $BD=CD=3$; similarly $D$ lies in the plane perpendicular to $BC$, $D\left(0,y,z\right)$. From $BD=3$, $1+y^2+z^2=9$, i.e. $y^2+z^2=8$. From $AD=2$, $\left(2\sqrt{2}-y\right)^2+z^2=4$. Expanding: $8-4\sqrt{2}y+y^2+z^2=4$, i.e. $8-4\sqrt{2}y+8=4$, and $y=\frac{12}{4\sqrt{2}}=\frac{3\sqrt{2}}{2}$. $z^2=8-\frac{9 \times 2}{4}=8-\frac{9}{2}=\frac{7}{2}$.
-
-$M$ is the midpoint of $AD$: $M\left(0, \frac{2\sqrt{2}+\frac{3\sqrt{2}}{2}}{2}, \frac{z}{2}\right)=\left(0, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
-
-$\boldsymbol{AN}=N-A=\left(0,-2\sqrt{2},0\right)$.
-
-$\boldsymbol{CM}=M-C=\left(-1, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
-
-$\boldsymbol{AN} \cdot \boldsymbol{CM}=0+\left(-2\sqrt{2}\right) \times \frac{7\sqrt{2}}{4}+0=-\frac{28}{4}=-7$.
-
-$\lvert \boldsymbol{AN} \rvert=2\sqrt{2}$.
-
-$\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{49 \times 2}{16}+\frac{7}{8}}=\sqrt{1+\frac{49}{8}+\frac{7}{8}}=\sqrt{\frac{64}{8}}=\sqrt{8}=2\sqrt{2}$.
-
-$\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
-
-## Exercise 16
-
-(Exercise 1.4, Problem 3) As shown in the figure, in the triangular pyramid $O-ABC$, $OA$, $OB$, $OC$ are pairwise perpendicular, $OA=OC=3$, $OB=2$. Find the sine of the angle between line $OB$ and the plane $ABC$.
-
-The figure is a view of the triangular pyramid $O-ABC$: the three lateral edges $OA$, $OB$, $OC$ are pairwise perpendicular, with $OA=OC=3$ and $OB=2$, and the base is $\triangle ABC$.
-
-### Solution to Exercise 16
-
-By **Common Conclusion 1.4.8** (Angle between a Line and a Plane).
-
-Take $O$ as the origin, with $OA$ as the $x$-axis, $OB$ as the $y$-axis, and $OC$ as the $z$-axis.
-
-$A\left(3,0,0\right)$, $B\left(0,2,0\right)$, $C\left(0,0,3\right)$.
-
-Plane $ABC$: $\boldsymbol{AB}=\left(-3,2,0\right)$, $\boldsymbol{AC}=\left(-3,0,3\right)$.
-
-Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(6,9,6\right)=3\left(2,3,2\right)$.
-
-$\boldsymbol{OB}=\left(0,2,0\right)$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{OB} \rvert \lvert \boldsymbol{n} \rvert}=\frac{18}{2 \times \sqrt{4+9+4}}=\frac{18}{2 \times \sqrt{17}}=\frac{9}{\sqrt{17}}=\frac{9\sqrt{17}}{17}$. $\blacksquare$
+Hence the instantaneous inflation rate of the balloon at $V=0.6\ \mathrm{L}$ is approximately $0.3\ \mathrm{dm/L}$, and at $V=1.2\ \mathrm{L}$ it is approximately $0.2\ \mathrm{dm/L}$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 1.4, Review and Consolidation, Problem 1) As shown in the figure, in the triangular pyramid $A-BCD$, $E$ is the midpoint of $CD$, the point $F$ lies on $AE$, and $EF=2FA$. Set $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$. Find the direction vectors of lines $AE$ and $BF$.
-
-The figure is a view of the triangular pyramid $A-BCD$: $E$ is the midpoint of edge $CD$, point $F$ lies on the median $AE$ with $EF=2FA$ (i.e. $AF:FE=1:2$), and segment $BF$ is drawn.
+(Exercise 5.1, Review and Consolidation, Problem 1) An object falls freely from a height of $10\ \mathrm{m}$; its height above the ground (in $\mathrm{m}$) at time $t\ \mathrm{s}$ is $h\left(t\right)=-4.9t^{2}+10$. Find the instantaneous velocity of the object at $t=1$, and describe the object's motion at that time.
 
 ### Solution to Problem 1
 
-By **Definition 1.4.1 (Direction Vector of a Line)**.
+By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of the object at $t=1$ is $h'\left(1\right)$. Take an increment $\Delta t$ near $t=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
-$\boldsymbol{AE}=\boldsymbol{AB}+\boldsymbol{BE}=-\boldsymbol{c}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
+$$
+\frac{\Delta h}{\Delta t}=\frac{h\left(1+\Delta t\right)-h\left(1\right)}{\Delta t}=\frac{-4.9\left[\left(1+\Delta t\right)^{2}-1^{2}\right]}{\Delta t}=-4.9\left(2+\Delta t\right)=-9.8-4.9\Delta t.
+$$
 
-$EF=2FA$, so $AF:FE=1:2$, and $F$ lies on $AE$ with $\boldsymbol{AF}=\frac{1}{3}\boldsymbol{AE}$.
+Letting $\Delta t\to0$, we get
 
-$\boldsymbol{BF}=\boldsymbol{BA}+\boldsymbol{AF}=\boldsymbol{c}+\frac{1}{3}\boldsymbol{AE}=\boldsymbol{c}+\frac{1}{3}\left(-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}\right)=\frac{2}{3}\boldsymbol{c}+\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}$.
+$$
+h'\left(1\right)=\lim_{\Delta t\to0}\left(-9.8-4.9\Delta t\right)=-9.8.
+$$
 
-Hence the direction vector of line $AE$ is $-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, and the direction vector of line $BF$ is $\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}+\frac{2}{3}\boldsymbol{c}$. $\blacksquare$
+Hence the instantaneous velocity of the object at $t=1$ is $-9.8\ \mathrm{m/s}$. At this time the object is moving downward at a speed of $9.8\ \mathrm{m/s}$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 1.4, Review and Consolidation, Problem 2) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $AB \perp AC$, $AB=AC=1$, $AA_1=2$. Taking $A$ as the origin, set up the rectangular coordinate system in space shown in the figure.
-
-(1) Find a normal vector of the plane $BCC_1B_1$;
-
-(2) Find a normal vector of the plane $A_1BC$.
-
-The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BAC=90^\circ$, $AB=AC=1$, and the lateral edge $AA_1=2$ is perpendicular to the base; a rectangular coordinate system is set up with $A$ as the origin, $AB$ as the $x$-axis, $AC$ as the $y$-axis, and $AA_1$ as the $z$-axis.
+(Exercise 5.1, Review and Consolidation, Problem 2) The area $S$ (in $\mathrm{cm^{2}}$) of a circle and its radius $R$ (in $\mathrm{cm}$) are related by $S=\pi R^{2}$. Find the instantaneous rate of change of the area with respect to the radius when $R=5\ \mathrm{cm}$.
 
 ### Solution to Problem 2
 
-By **Definition 1.4.2 (Normal Vector of a Plane)**.
+By **Definition 5.1.2 (Derivative)**, the instantaneous rate of change of the area with respect to the radius is $S'\big|_{R=5}$. Take an increment $\Delta R$ near $R=5$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
-$A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(0,1,0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(1,0,2\right)$, $C_1\left(0,1,2\right)$.
+$$
+\frac{\Delta S}{\Delta R}=\frac{\pi\left(5+\Delta R\right)^{2}-\pi\cdot5^{2}}{\Delta R}=\frac{\pi\left(10\Delta R+\left(\Delta R\right)^{2}\right)}{\Delta R}=\pi\left(10+\Delta R\right).
+$$
 
-(1) Plane $BCC_1B_1$: $\boldsymbol{BC}=\left(-1,1,0\right)$, $\boldsymbol{CC_1}=\left(0,0,2\right)$.
+Letting $\Delta R\to0$, we get
 
-Let $\boldsymbol{n}_1=\left(x,y,z\right)$; $\boldsymbol{n}_1 \cdot \boldsymbol{BC}=-x+y=0$, $\boldsymbol{n}_1 \cdot \boldsymbol{CC_1}=2z=0$. Taking $x=1$ gives $\boldsymbol{n}_1=\left(1,1,0\right)$.
+$$
+S'\big|_{R=5}=\lim_{\Delta R\to0}\pi\left(10+\Delta R\right)=10\pi.
+$$
 
-(2) Plane $A_1BC$: $\boldsymbol{A_1B}=\left(1,0,-2\right)$, $\boldsymbol{A_1C}=\left(0,1,-2\right)$.
-
-Let $\boldsymbol{n}_2=\left(x,y,z\right)$; $\boldsymbol{n}_2 \cdot \boldsymbol{A_1B}=x-2z=0$, $\boldsymbol{n}_2 \cdot \boldsymbol{A_1C}=y-2z=0$. Taking $z=1$ gives $\boldsymbol{n}_2=\left(2,2,1\right)$. $\blacksquare$
+Hence when $R=5\ \mathrm{cm}$, the instantaneous rate of change of the area with respect to the radius is $10\pi\ \mathrm{cm^{2}/cm}$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 1.4, Review and Consolidation, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A_1B_1C_1D_1$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $C_1D_1$. Prove that $A_1E \parallel CF$.
+(Exercise 5.1, Review and Consolidation, Problem 3) A particle moves along a straight line; its displacement $y$ (in $\mathrm{m}$) and time $t$ (in $\mathrm{s}$) are related by $y\left(t\right)=5t^{2}+6$. Find: 
 
-The figure is a view of the parallelepiped $ABCD-A_1B_1C_1D_1$: $E$ is the midpoint of edge $AB$, $F$ is the midpoint of edge $C_1D_1$, and segments $A_1E$ and $CF$ are drawn.
+(1) the average velocity over the interval $2\le t\le3$; 
+
+(2) the instantaneous velocity at $t=2\ \mathrm{s}$.
 
 ### Solution to Problem 3
 
-By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
+By **Definition 5.1.1 (Average Rate of Change)** and **Definition 5.1.2 (Derivative)**.
 
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$.
+(1) When $t$ changes from $2$ to $3$, 
 
-$\boldsymbol{A_1E}=\boldsymbol{A_1A}+\boldsymbol{AE}=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
+$$
+\overline{v}=\frac{y\left(3\right)-y\left(2\right)}{3-2}=\frac{\left(5\times3^{2}+6\right)-\left(5\times2^{2}+6\right)}{1}=5\times\left(9-4\right)=25.
+$$
 
-$\boldsymbol{CF}=\boldsymbol{CD}+\boldsymbol{DD_1}+\boldsymbol{D_1F}=-\boldsymbol{a}+\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{c}=-\left(\frac{1}{2}\boldsymbol{a}-\boldsymbol{c}\right)=-\boldsymbol{A_1E}$.
+Hence the average velocity over this interval is $25\ \mathrm{m/s}$.
 
-Hence $\boldsymbol{A_1E}=-\boldsymbol{CF}$, i.e. $\boldsymbol{A_1E} \parallel \boldsymbol{CF}$.
+(2) Take an increment $\Delta t$ near $t=2$, we get
 
-By **Common Conclusion 1.4.3**, $A_1E \parallel CF$. $\blacksquare$
+$$
+\frac{\Delta y}{\Delta t}=\frac{y\left(2+\Delta t\right)-y\left(2\right)}{\Delta t}=\frac{5\left[\left(2+\Delta t\right)^{2}-2^{2}\right]}{\Delta t}=5\left(4+\Delta t\right)=20+5\Delta t.
+$$
+
+Letting $\Delta t\to0$, we get $y'\left(2\right)=20$.
+
+Hence the instantaneous velocity at $t=2\ \mathrm{s}$ is $20\ \mathrm{m/s}$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 1.4, Review and Consolidation, Problem 4) As shown in the figure, in the tetrahedron $ABCD$, $AD \perp$ the plane $BCD$, $M$ is the midpoint of $AD$, and $P$ is the midpoint of $BM$. The point $Q$ lies on segment $AC$ with $AQ=3QC$. Prove that $PQ \parallel$ the plane $BCD$.
-
-The figure is a view of the tetrahedron $ABCD$: $AD \perp$ the plane $BCD$ ($AD$ vertical, base $BCD$ horizontal); $M$ is the midpoint of edge $AD$, $P$ is the midpoint of segment $BM$, point $Q$ lies on edge $AC$ with $AQ:QC=3:1$, and segment $PQ$ is drawn.
+(Exercise 5.1, Review and Consolidation, Problem 4) The angle $\theta$ (in $\mathrm{rad}$) through which a wheel rotates and the time $t$ (in $\mathrm{s}$) are related by $\theta\left(t\right)=\frac{25\pi}{8}t^{2}$. Find the instantaneous angular velocity at the $3.2\ \mathrm{s}$ after the wheel starts rotating.
 
 ### Solution to Problem 4
 
-By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
+By **Definition 5.1.2 (Derivative)**, the instantaneous angular velocity is $\theta'\left(3.2\right)$. Take an increment $\Delta t$ near $t=3.2$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
-Take $D$ as the origin, with two perpendicular directions in the plane $BCD$ as the $x$- and $y$-axes, and $DA$ as the $z$-axis.
+$$
+\frac{\Delta\theta}{\Delta t}=\frac{\frac{25\pi}{8}\left[\left(3.2+\Delta t\right)^{2}-3.2^{2}\right]}{\Delta t}=\frac{25\pi}{8}\left(6.4+\Delta t\right).
+$$
 
-Set $A\left(0,0,a\right)$, $B\left(b,0,0\right)$, $C\left(0,c,0\right)$, $D\left(0,0,0\right)$.
+Letting $\Delta t\to0$, we get
 
-$M$ is the midpoint of $AD$: $M\left(0,0,\frac{a}{2}\right)$.
+$$
+\theta'\left(3.2\right)=\frac{25\pi}{8}\times6.4=20\pi.
+$$
 
-$P$ is the midpoint of $BM$: $P\left(\frac{b}{2}, 0, \frac{a}{4}\right)$.
-
-$AQ=3QC$, so $Q=\frac{1 \cdot A+3 \cdot C}{4}=\left(0, \frac{3c}{4}, \frac{a}{4}\right)$.
-
-$\boldsymbol{PQ}=Q-P=\left(-\frac{b}{2}, \frac{3c}{4}, 0\right)$.
-
-The plane $BCD$ is the $z=0$ plane, whose normal vector is $\left(0,0,1\right)$.
-
-$\boldsymbol{PQ} \cdot \left(0,0,1\right)=0$, i.e. $\boldsymbol{PQ} \perp$ the normal vector.
-
-Moreover $PQ \not\subset$ the plane $BCD$ (since the $z$-coordinates of $P$, $Q$ are nonzero, but the $z$-component of $\boldsymbol{PQ}$ is zero), so $PQ \parallel$ the plane $BCD$. $\blacksquare$
+Hence the instantaneous angular velocity at the $3.2\ \mathrm{s}$ after the wheel starts rotating is $20\pi\ \mathrm{rad/s}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 1.4, Review and Consolidation, Problem 5) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, the point $E$ lies on $BD$ with $BE=\frac{1}{3}BD$; the point $F$ lies on $CB_1$ with $CF=\frac{1}{3}CB_1$. Prove:
+(Exercise 5.1, Review and Consolidation, Problem 5) Xiaoming rides a bike to school. At first he rides at a constant speed; midway he stops for a while due to a traffic jam; afterward he speeds up to make up time. Which graph best matches the above events? ( )
 
-(1) $EF \perp BD$;
-
-(2) $EF \perp CB_1$.
-
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: point $E$ lies on the face diagonal $BD$ with $BE=\frac{1}{3}BD$, point $F$ lies on the face diagonal $CB_1$ with $CF=\frac{1}{3}CB_1$, and segment $EF$ is drawn.
+The figure shows four candidate graphs (A, B, C, D), all with time as the horizontal axis and distance-to-school as the vertical axis: choose the one matching "ride uniformly toward school, stop during a traffic jam, then speed up toward school" — a falling line segment, followed by a horizontal segment, followed by a falling line that gets steeper (i.e., graph C).
 
 ### Solution to Problem 5
 
-By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, in a graph of distance from school versus time, the tangent slope represents the speed away from school.
 
-Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+When Xiaoming rides at a constant speed, the distance from school decreases at a constant rate, and the graph is a falling line segment; during the traffic jam stop, the distance from school does not change, and the graph is a horizontal segment; when he speeds up, the distance from school decreases faster and faster, and the graph falls more and more steeply.
 
-$B\left(1,1,0\right)$, $D\left(0,0,0\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$.
-
-$BE=\frac{1}{3}BD$, so $E=B+\frac{1}{3}\left(D-B\right)=\left(\frac{2}{3}, \frac{2}{3}, 0\right)$.
-
-$CF=\frac{1}{3}CB_1$, so $F=C+\frac{1}{3}\left(B_1-C\right)=\left(\frac{1}{3}, 1, \frac{1}{3}\right)$.
-
-$\boldsymbol{EF}=F-E=\left(-\frac{1}{3}, \frac{1}{3}, \frac{1}{3}\right)$.
-
-(1) $\boldsymbol{BD}=D-B=\left(-1,-1,0\right)$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{BD}=\frac{1}{3}-\frac{1}{3}+0=0$. Hence $EF \perp BD$.
-
-(2) $\boldsymbol{CB_1}=B_1-C=\left(1,0,1\right)$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. Hence $EF \perp CB_1$. $\blacksquare$
+The graph matching these features is Figure (C). $\blacksquare$
 
 ## Problem 6
 
-(Exercise 1.4, Review and Consolidation, Problem 6) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $O$ is the center of the square $A_1ABB_1$ and $E$ is the midpoint of $BC$. Find the distance from point $O$ to the line $A_1E$.
+(Exercise 5.1, Review and Consolidation, Problem 6) As shown in the figure, describe the behavior of the function $f\left(x\right)$ near $x=-5,-4,-2,0,1$.
 
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $O$ is the center of the side square $A_1ABB_1$, $E$ is the midpoint of edge $BC$, and segment $A_1E$ is drawn.
+The figure is the graph of $y=f\left(x\right)$: a continuous curve rising steeply near $x=-5$, flattening near $x=-4$, reaching a local maximum (nearly horizontal) near $x=-2$, then falling near $x=0$ and falling more steeply near $x=1$.
 
 ### Solution to Problem 6
 
-By **Common Conclusion 1.4.5** (Distance from a Point to a Line).
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the rising/falling and its speed are judged from the sign and magnitude of the tangent slope in the graph.
 
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+Near $x=-5$, the curve is rising, the tangent slope is positive, so $f\left(x\right)$ is monotonically increasing, and it rises steeply, increasing fast.
 
-$A_1\left(1,0,1\right)$, $E\left(\frac{1}{2}, 1, 0\right)$, and $O$ is the center of the square $A_1ABB_1$: $O\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
+Near $x=-4$, the curve rises and becomes more gentle, the tangent slope is positive but small, so $f\left(x\right)$ is still monotonically increasing, but increases slowly.
 
-$\boldsymbol{A_1E}=E-A_1=\left(-\frac{1}{2}, 1, -1\right)$.
+Near $x=-2$, the curve is near a local maximum, the tangent is nearly horizontal, and the slope is near $0$, so $f\left(x\right)$ hardly rises or falls near $x=-2$.
 
-$\boldsymbol{A_1O}=O-A_1=\left(0, \frac{1}{2}, -\frac{1}{2}\right)$.
+Near $x=0$, the curve is falling, the tangent slope is negative, so $f\left(x\right)$ is monotonically decreasing.
 
-$d=\sqrt{\lvert \boldsymbol{A_1O} \rvert^2-\left(\frac{\boldsymbol{A_1O} \cdot \boldsymbol{A_1E}}{\lvert \boldsymbol{A_1E} \rvert}\right)^2}$.
-
-$\lvert \boldsymbol{A_1O} \rvert^2=0+\frac{1}{4}+\frac{1}{4}=\frac{1}{2}$.
-
-$\boldsymbol{A_1O} \cdot \boldsymbol{A_1E}=0+\frac{1}{2}+\frac{1}{2}=1$.
-
-$\lvert \boldsymbol{A_1E} \rvert=\sqrt{\frac{1}{4}+1+1}=\frac{3}{2}$.
-
-$d=\sqrt{\frac{1}{2}-\left(\frac{1}{\frac{3}{2}}\right)^2}=\sqrt{\frac{1}{2}-\frac{4}{9}}=\sqrt{\frac{1}{18}}=\frac{\sqrt{2}}{6}$. $\blacksquare$
+Near $x=1$, the curve is falling and fairly steep, the tangent slope is negative with a large absolute value, so $f\left(x\right)$ is monotonically decreasing and decreases relatively fast. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 1.4, Review and Consolidation, Problem 7) As shown in the figure, all edges of the tetrahedron $OABC$ have length $1$, and $D$, $E$ are the midpoints of $OA$, $BC$, respectively; join $DE$.
-
-(1) Compute the length of $DE$;
-
-(2) Find the distance from point $O$ to the plane $ABC$.
-
-The figure is a view of the regular tetrahedron $OABC$: all six edges have length $1$; $D$ is the midpoint of edge $OA$, $E$ is the midpoint of edge $BC$, and segment $DE$ is drawn.
+(Exercise 5.1, Review and Consolidation, Problem 7) Find the angle of inclination of the tangent line to the curve $y=\frac{1}{2}x^{2}-2$ at the point $\left(1,-\frac{3}{2}\right)$.
 
 ### Solution to Problem 7
 
-By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space) and **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is $y'\big|_{x=1}$. Take an increment $\Delta x$ near $x=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
-The regular tetrahedron has edge length $1$.
+$$
+\frac{\Delta y}{\Delta x}=\frac{\frac{1}{2}\left(1+\Delta x\right)^{2}-2-\left(\frac{1}{2}\times1^{2}-2\right)}{\Delta x}=\frac{\frac{1}{2}\left(2\Delta x+\left(\Delta x\right)^{2}\right)}{\Delta x}=1+\frac{1}{2}\Delta x.
+$$
 
-(1) Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, with pairwise angles $60^\circ$ and modulus $1$.
+Letting $\Delta x\to0$, we get the tangent slope $k=1$.
 
-$\boldsymbol{DE}=\boldsymbol{OE}-\boldsymbol{OD}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
+Let the angle of inclination of the tangent be $\alpha$; then $\tan\alpha=1$. Since $0\le\alpha< \pi$, we have $\alpha=\frac{\pi}{4}$.
 
-$\lvert \boldsymbol{DE} \rvert^2=\frac{1}{4}\left(\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{c}\right)=\frac{1}{4}\left(1+1+1-1+1-1\right)=\frac{1}{4} \times 2=\frac{1}{2}$.
-
-Hence $DE=\frac{\sqrt{2}}{2}$.
-
-(2) The normal vector of plane $ABC$ is $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \times \left(\boldsymbol{c}-\boldsymbol{a}\right)=\boldsymbol{b} \times \boldsymbol{c}-\boldsymbol{b} \times \boldsymbol{a}-\boldsymbol{a} \times \boldsymbol{c}$.
-
-Compute using coordinates: $A\left(1,0,0\right)$, $B\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)$, $C\left(-\frac{1}{2},\frac{\sqrt{3}}{6},\frac{\sqrt{6}}{3}\right)$, $O\left(0,0,0\right)$.
-
-Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(-\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{6}}{3}, -\frac{1}{2} \cdot \frac{\sqrt{6}}{3}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right), \frac{1}{2} \cdot \frac{\sqrt{3}}{6}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right)\right)$.
-
-$d=\frac{\sqrt{6}}{3}$. $\blacksquare$
+Hence the angle of inclination of the tangent is $\frac{\pi}{4}$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 1.4, Comprehensive Application, Problem 8) As shown in the figure, every edge of the tetrahedron $ABCD$ has length $a$, and $M$, $N$ are the midpoints of $AB$, $CD$, respectively. Prove that $MN \perp AB$ and $MN \perp CD$.
-
-The figure is a view of the regular tetrahedron $ABCD$: all six edges have length $a$; $M$ is the midpoint of edge $AB$, $N$ is the midpoint of edge $CD$, and segment $MN$ is drawn.
+(Exercise 5.1, Comprehensive Application, Problem 8) An object of mass $m=3\ \mathrm{kg}$ moves along a straight line; its displacement $y$ (in $\mathrm{m}$) and time $t$ (in $\mathrm{s}$) are related by $y\left(t\right)=1+t^{2}$, and the kinetic energy of the object is $E_{k}=\frac{1}{2}mv^{2}$. Find the kinetic energy of the object at the $5\ \mathrm{s}$ after it starts moving.
 
 ### Solution to Problem 8
 
-By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
+By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of the object at the $5\ \mathrm{s}$ is $y'\left(5\right)$. Take an increment $\Delta t$ near $t=5$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
-The regular tetrahedron has edge length $a$. Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$.
+$$
+\frac{\Delta y}{\Delta t}=\frac{\left[1+\left(5+\Delta t\right)^{2}\right]-\left(1+5^{2}\right)}{\Delta t}=\frac{10\Delta t+\left(\Delta t\right)^{2}}{\Delta t}=10+\Delta t.
+$$
 
-$M$ is the midpoint of $AB$, and $N$ is the midpoint of $CD$.
+Letting $\Delta t\to0$, we get $v\left(5\right)=y'\left(5\right)=10$.
 
-$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}$.
+From the kinetic energy formula $E_{k}=\frac{1}{2}mv^{2}$, substituting $m=3$ and $v=10$, we get
 
-$\boldsymbol{MN} \cdot \boldsymbol{AB}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \boldsymbol{a}=\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a}^2$.
+$$
+E_{k}=\frac{1}{2}\times3\times10^{2}=150.
+$$
 
-In a regular tetrahedron, $\boldsymbol{a} \cdot \boldsymbol{b}=\frac{a^2}{2}$, $\boldsymbol{a} \cdot \boldsymbol{c}=\frac{a^2}{2}$, and $\boldsymbol{a}^2=a^2$.
-
-Hence $\boldsymbol{MN} \cdot \boldsymbol{AB}=\frac{1}{2} \cdot \frac{a^2}{2}+\frac{1}{2} \cdot \frac{a^2}{2}-\frac{1}{2}a^2=\frac{a^2}{4}+\frac{a^2}{4}-\frac{a^2}{2}=0$.
-
-Hence $MN \perp AB$.
-
-Similarly, $\boldsymbol{MN} \cdot \boldsymbol{CD}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{b}^2+\frac{1}{2}\boldsymbol{c}^2-\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}=-\frac{a^2}{2}+\frac{a^2}{2}-\frac{a^2}{4}+\frac{a^2}{4}=0$.
-
-Hence $MN \perp CD$. $\blacksquare$
+Hence the kinetic energy of the object at the $5\ \mathrm{s}$ after it starts moving is $150\ \mathrm{J}$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 1.4, Comprehensive Application, Problem 9) As shown in the figure, $M$, $N$ are the midpoints of edges $BB'$ and $B'C'$ of the cube $ABCD-A'B'C'D'$, respectively. Find:
+(Exercise 5.1, Comprehensive Application, Problem 9) Based on the following verbal descriptions, sketch the approximate shape of the graph of distance traveled versus time.
 
-(1) The size of the angle between $MN$ and $CD'$;
+(1) A car travels at a constant speed on a straight road; 
 
-(2) The size of the angle between $MN$ and $AD$.
+(2) A car keeps accelerating on a straight road; 
 
-The figure is an oblique projection of the cube $ABCD-A'B'C'D'$: $M$ is the midpoint of edge $BB'$, $N$ is the midpoint of edge $B'C'$, and segment $MN$ is drawn.
+(3) A car keeps decelerating on a straight road.
+
+The figure shows three schematic graphs of distance traveled against time $t$ (horizontal axis $t$, vertical axis distance): (1) a rising straight line from the origin (uniform speed); (2) a rising convex-up curve getting steeper (continuously accelerating); (3) a rising concave-down curve flattening out (continuously decelerating).
 
 ### Solution to Problem 9
 
-By **Common Conclusion 1.4.7** (Angle between Skew Lines).
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, in a graph of distance traveled versus time, the tangent slope represents the velocity.
 
-Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD'$ as the $z$-axis.
+(1) When traveling at a constant speed, the velocity is constant, the distance increases uniformly with time, and the graph is a rising line starting from the origin.
 
-$M$ is the midpoint of $BB'$: $M\left(1,1,\frac{1}{2}\right)$.
+(2) When continuously accelerating, the velocity increases, the distance increases faster and faster, and the graph is a rising curve that becomes steeper and steeper (concave up).
 
-$N$ is the midpoint of $B'C'$: $N\left(\frac{1}{2},1,1\right)$.
-
-$\boldsymbol{MN}=N-M=\left(-\frac{1}{2},0,\frac{1}{2}\right)$.
-
-(1) $\boldsymbol{CD'}=D'-C=\left(0,-1,1\right)$.
-
-$\boldsymbol{MN} \cdot \boldsymbol{CD'}=0+0+\frac{1}{2}=\frac{1}{2}$.
-
-$\lvert \boldsymbol{MN} \rvert=\frac{\sqrt{2}}{2}$. $\lvert \boldsymbol{CD'} \rvert=\sqrt{2}$.
-
-$\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot \sqrt{2}}=\frac{1}{2}$. Hence $\theta=60^\circ$.
-
-(2) $\boldsymbol{AD}=D-A=\left(-1,0,0\right)$.
-
-$\boldsymbol{MN} \cdot \boldsymbol{AD}=\frac{1}{2}$.
-
-$\cos\theta=\frac{\frac{1}{2}}{\frac{\sqrt{2}}{2} \cdot 1}=\frac{1}{\sqrt{2}}=\frac{\sqrt{2}}{2}$. Hence $\theta=45^\circ$. $\blacksquare$
+(3) When continuously decelerating, the velocity decreases, the distance increases more and more slowly, and the graph is a rising curve that becomes more and more gentle (concave down). $\blacksquare$
 
 ## Problem 10
 
-(Exercise 1.4, Comprehensive Application, Problem 10) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $E$, $F$, $G$, $H$, $K$, $L$ are the midpoints of edges $AB$, $BB_1$, $B_1C_1$, $C_1D_1$, $D_1D$, $DA$, respectively.
+(Exercise 5.1, Comprehensive Application, Problem 10) As shown in the figure, given the graph of the function $f\left(x\right)$, sketch the approximate shape of the graph of its derived function $f'\left(x\right)$.
 
-(1) Prove that $A_1C \perp$ the plane $EFGHKL$;
-
-(2) Find the cosine of the angle between $DB_1$ and the plane $EFGHKL$.
-
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: $E$, $F$, $G$, $H$, $K$, $L$ are the midpoints of edges $AB$, $BB_1$, $B_1C_1$, $C_1D_1$, $D_1D$, $DA$, respectively; these six midpoints form a regular hexagonal cross-section $EFGHKL$.
+The figure shows three graphs of the original function $y=f\left(x\right)$: (1) a rising straight line; (2) a falling straight line; (3) an upward-opening parabola (falling on the left, rising on the right). From these one is to sketch the corresponding derivative $f'\left(x\right)$.
 
 ### Solution to Problem 10
 
-By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors) and **Common Conclusion 1.4.8** (Angle between a Line and a Plane).
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the value of $f'\left(x\right)$ equals the slope of the tangent line to the original graph at each point.
 
-Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+For Figure (1), the original graph is a rising line, the tangent slope is a positive constant, so the graph of $f'\left(x\right)$ is a horizontal line above the $x$-axis.
 
-$E\left(\frac{1}{2},1,0\right)$, $F\left(1,1,\frac{1}{2}\right)$, $G\left(\frac{1}{2},1,1\right)$, $H\left(0,\frac{1}{2},1\right)$, $K\left(0,0,\frac{1}{2}\right)$, $L\left(\frac{1}{2},0,0\right)$.
+For Figure (2), the original graph is a falling line, the tangent slope is a negative constant, so the graph of $f'\left(x\right)$ is a horizontal line below the $x$-axis.
 
-$\boldsymbol{A_1C}=C-A_1=\left(-1,1,-1\right)$.
-
-(1) $\boldsymbol{EF}=F-E=\left(\frac{1}{2},0,\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=-\frac{1}{2}+0-\frac{1}{2}=-1 \neq 0$.
-
-In fact, verifying: $\boldsymbol{A_1C}=\left(-1,1,-1\right)$.
-
-$\boldsymbol{EF}=\left(0,\frac{1}{2},\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{EF}=0+\frac{1}{2}-\frac{1}{2}=0$.
-
-$\boldsymbol{FG}=\left(-\frac{1}{2},0,\frac{1}{2}\right)$. $\boldsymbol{A_1C} \cdot \boldsymbol{FG}=\frac{1}{2}+0-\frac{1}{2}=0$.
-
-Hence $A_1C \perp EF$ and $A_1C \perp FG$, and since $EF \cap FG=F$, we have $A_1C \perp$ the plane $EFGHKL$.
-
-(2) $\boldsymbol{DB_1}=B_1-D=\left(1,1,1\right)$.
-
-The normal vector of the plane $EFGHKL$ is $\boldsymbol{A_1C}=\left(-1,1,-1\right)$.
-
-$\sin\theta=\frac{\lvert \boldsymbol{DB_1} \cdot \boldsymbol{A_1C} \rvert}{\lvert \boldsymbol{DB_1} \rvert \lvert \boldsymbol{A_1C} \rvert}=\frac{\lvert -1+1-1 \rvert}{\sqrt{3} \cdot \sqrt{3}}=\frac{1}{3}$.
-
-$\cos\theta=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. $\blacksquare$
+For Figure (3), the original graph is a parabola opening upward, falling on the left and rising on the right; the tangent slope gradually increases from negative to positive, so the graph of $f'\left(x\right)$ is a rising line crossing the $x$-axis from negative to positive. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 1.4, Comprehensive Application, Problem 11) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, $AB=2$, $BC=CC_1=1$, and $E$ is the midpoint of $CD$. Prove that $B_1E \perp$ the plane $AED_1$.
-
-The figure is an oblique projection of the cuboid $ABCD-A_1B_1C_1D_1$: $AB=2$, $BC=CC_1=1$, and $E$ is the midpoint of edge $CD$.
+(Exercise 5.1, Extension and Exploration, Problem 11) In a diving event, the height (in $\mathrm{m}$) of the diver's center of mass above the water surface at time $t\ \mathrm{s}$ is $h\left(t\right)=-4.9t^{2}+2.8t+11$. The derivative of the height $h$ with respect to time $t$ is the velocity $v$; what is the physical meaning of the derivative $v'$ of the velocity $v$ with respect to time $t$? Find the function expressions for $v,v'$ in terms of time $t$.
 
 ### Solution to Problem 11
 
-By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
+By **Definition 5.1.2 (Derivative)**, the derivative $h'\left(t\right)$ of the height with respect to time is the instantaneous velocity $v\left(t\right)$; the derivative $v'\left(t\right)$ of the velocity with respect to time is the instantaneous acceleration.
 
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+Take an increment $\Delta t$ near $t$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
-$A\left(1,0,0\right)$, $D\left(0,0,0\right)$, $E\left(0,1,0\right)$, $D_1\left(0,0,1\right)$, $B_1\left(1,2,1\right)$.
+$$
+\frac{\Delta h}{\Delta t}=\frac{h\left(t+\Delta t\right)-h\left(t\right)}{\Delta t}=-4.9\left(2t+\Delta t\right)+2.8=-9.8t+2.8-4.9\Delta t.
+$$
 
-$\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-1\right)$.
+Letting $\Delta t\to0$, we get
 
-$\boldsymbol{AE}=E-A=\left(-1,1,0\right)$.
+$$
+v\left(t\right)=h'\left(t\right)=-9.8t+2.8.
+$$
 
-$\boldsymbol{AD_1}=D_1-A=\left(-1,0,1\right)$.
+Now differentiate $v\left(t\right)$; take an increment $\Delta t$ near $t$, we get
 
-$\boldsymbol{B_1E} \cdot \boldsymbol{AE}=1-1+0=0$.
+$$
+\frac{\Delta v}{\Delta t}=\frac{v\left(t+\Delta t\right)-v\left(t\right)}{\Delta t}=\frac{-9.8\Delta t}{\Delta t}=-9.8.
+$$
 
-$\boldsymbol{B_1E} \cdot \boldsymbol{AD_1}=1+0-1=0$.
+Letting $\Delta t\to0$, we get
 
-Hence $B_1E \perp AE$ and $B_1E \perp AD_1$, and since $AE \cap AD_1=A$, we have $B_1E \perp$ the plane $AED_1$. $\blacksquare$
+$$
+a\left(t\right)=v'\left(t\right)=-9.8.
+$$
+
+Hence $v\left(t\right)=-9.8t+2.8$, $v'\left(t\right)=-9.8$, and $v'$ represents the diver's instantaneous acceleration. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 1.4, Comprehensive Application, Problem 12) As shown in the figure, in the cuboid $ABCD-A_1B_1C_1D_1$, the points $E$, $F$, $G$ lie on edges $A_1A$, $A_1B_1$, $A_1D_1$, respectively, with $A_1E=A_1F=A_1G=1$; the points $P$, $Q$, $R$ lie on edges $CC_1$, $CD$, $CB$, respectively, with $CP=CQ=CR=1$. Prove that the plane $EFG \parallel$ the plane $PQR$.
+(Exercise 5.1, Extension and Exploration, Problem 12) Based on the following conditions, sketch the approximate shape of the graph of $y=f\left(x\right)$ near the given point: 
 
-The figure is an oblique projection of the cuboid $ABCD-A_1B_1C_1D_1$: points $E$, $F$, $G$ lie on edges $A_1A$, $A_1B_1$, $A_1D_1$ with $A_1E=A_1F=A_1G=1$, forming plane $EFG$; points $P$, $Q$, $R$ lie on edges $CC_1$, $CD$, $CB$ with $CP=CQ=CR=1$, forming plane $PQR$, the two planes being centrally symmetric about the center of the cuboid.
+(1) $f\left(1\right)=-5$, $f'\left(1\right)=-1$; 
+
+(2) $f\left(5\right)=10$, $f'\left(5\right)=15$; 
+
+(3) $f\left(10\right)=20$, $f'\left(10\right)=0$.
+
+The figure shows the local shape of $y=f\left(x\right)$ near three points: (1) through $\left(1,-5\right)$ with tangent slope $-1$ (falling); (2) through $\left(5,10\right)$ with tangent slope $15$ (rising steeply); (3) through $\left(10,20\right)$ with tangent slope $0$ (horizontal and flat).
 
 ### Solution to Problem 12
 
-By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the graph near a point is determined by the function value at that point and the tangent slope.
 
-Take $A_1$ as the origin, with $A_1B_1$ as the $x$-axis, $A_1D_1$ as the $y$-axis, and $A_1A$ as the $z$-axis.
+(1) At the point $\left(1,-5\right)$, the tangent slope is $-1$, so the graph passes through $\left(1,-5\right)$ near that point in a falling trend, and the angle of inclination satisfies $\tan\alpha=-1$.
 
-$E\left(0,0,1\right)$, $F\left(1,0,0\right)$, $G\left(0,1,0\right)$.
+(2) At the point $\left(5,10\right)$, the tangent slope is $15$, so the graph passes through $\left(5,10\right)$ near that point in a rising and fairly steep trend.
 
-$\boldsymbol{EF}=\left(1,0,-1\right)$, $\boldsymbol{EG}=\left(0,1,-1\right)$.
+(3) At the point $\left(10,20\right)$, the tangent slope is $0$, the tangent is horizontal, so the graph passes through $\left(10,20\right)$ near that point and is relatively gentle. $\blacksquare$
 
-The normal vector of plane $EFG$ is $\boldsymbol{n}_1=\boldsymbol{EF} \times \boldsymbol{EG}=\left(1,1,1\right)$.
+## Exercise 2
 
-$P$, $Q$, $R$ are centrally symmetric about the center of the cuboid, and the normal vector $\boldsymbol{n}_2$ of the plane $PQR$ is collinear with $\boldsymbol{n}_1$.
+(Exercise 5.2, Problem 1) Find the derivatives of the following functions: 
 
-By **Common Conclusion 1.4.3**, $\boldsymbol{n}_1 \parallel \boldsymbol{n}_2$, so the plane $EFG \parallel$ the plane $PQR$. $\blacksquare$
+(1) $y=\frac{1}{x^{4}}$;
+
+(2) $y=\sqrt\left[4\right]{x^{3}}$;
+
+(3) $y=3^{x}$;
+
+(4) $y=\left(\frac{1}{2}\right)^{x}$;
+
+(5) $y=\log_{4}x$;
+
+(6) $y=\log_{\frac{1}{2}}x$.
+
+### Solution to Exercise 2
+
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**.
+
+(1) $y=x^{-4}$, hence $y'=-4x^{-4-1}=-4x^{-5}$.
+
+(2) $y=x^{\frac{3}{4}}$, hence $y'=\frac{3}{4}x^{\frac{3}{4}-1}=\frac{3}{4}x^{-\frac{1}{4}}$.
+
+(3) $y=3^{x}$, hence $y'=3^{x}\ln3$.
+
+(4) $y=\left(\frac{1}{2}\right)^{x}$, hence $y'=\left(\frac{1}{2}\right)^{x}\ln\frac{1}{2}=-\left(\frac{1}{2}\right)^{x}\ln2$.
+
+(5) $y=\log_{4}x$, hence $y'=\frac{1}{x\ln4}$.
+
+(6) $y=\log_{\frac{1}{2}}x$, hence $y'=\frac{1}{x\ln\frac{1}{2}}=-\frac{1}{x\ln2}$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 5.2, Problem 2) Find the derivatives of the following functions at the given points: 
+
+(1) the derivative of $y=x^{5}$ at $x=3$; 
+
+(2) the derivative of $y=\ln x$ at $x=\frac{2}{3}$; 
+
+(3) the derivative of $y=\sin x$ at $x=2\pi$; 
+
+(4) the derivative of $y=\mathrm e^{x}$ at $x=0$.
+
+### Solution to Exercise 3
+
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**.
+
+(1) $y'=5x^{4}$, hence $y'\big|_{x=3}=5\times3^{4}=405$.
+
+(2) $y'=\frac{1}{x}$, hence $y'\big|_{x=\frac{2}{3}}=\frac{1}{\frac{2}{3}}=\frac{3}{2}$.
+
+(3) $y'=\cos x$, hence $y'\big|_{x=2\pi}=\cos2\pi=1$.
+
+(4) $y'=\mathrm e^{x}$, hence $y'\big|_{x=0}=\mathrm e^{0}=1$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 5.2, Problem 3) Find the equation of the tangent line to the cosine curve $y=\cos x$ at the point $\left(\frac{\pi}{2},0\right)$.
+
+### Solution to Exercise 4
+
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, $y'=-\sin x$. By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is
+
+$$
+k=y'\big|_{x=\frac{\pi}{2}}=-\sin\frac{\pi}{2}=-1.
+$$
+
+The tangent line passes through the point $\left(\frac{\pi}{2},0\right)$, so its equation is $y-0=-1\left(x-\frac{\pi}{2}\right)$, i.e. $y=-x+\frac{\pi}{2}$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 5.2, Problem 4) Find the equation of the tangent line to the curve $y=x^{\frac{1}{2}}$ at the point $\left(4,2\right)$.
+
+### Solution to Exercise 5
+
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, $y'=\frac{1}{2}x^{-\frac{1}{2}}$. By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is
+
+$$
+k=y'\big|_{x=4}=\frac{1}{2}\times4^{-\frac{1}{2}}=\frac{1}{4}.
+$$
+
+The tangent line passes through the point $\left(4,2\right)$, so its equation is $y-2=\frac{1}{4}\left(x-4\right)$, i.e. $y=\frac{1}{4}x+1$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 5.2, Problem 5) Using the derivative formulas for basic elementary functions and the derivative rules, re-solve Example 2 in Section 5.1. Do you feel the convenience and speed that the rules bring to problem solving? 
+
+### Solution to Exercise 6
+
+In Example 2 of Section 5.1, the crude oil temperature is $f\left(x\right)=x^{2}-7x+15$. By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)** and **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, 
+
+$$
+f'\left(x\right)=\left(x^{2}\right)'-\left(7x\right)'+\left(15\right)'=2x-7.
+$$
+
+Hence $f'\left(2\right)=2\times2-7=-3$, and $f'\left(6\right)=2\times6-7=5$.
+
+Compared with computing point by point using the definition of the derivative in Section 5.1, directly differentiating using the formulas and rules and then substituting is far more efficient. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 5.2, Problem 6) Find the derivatives of the following functions: 
+
+(1) $y=2x^{3}-3x^{2}-4$;
+
+(2) $y=3\cos x+2^{x}$;
+
+(3) $y=\mathrm e^{x}\ln x$;
+
+(4) $y=\left(x^{2}+2x\right)\sqrt{x}$;
+
+(5) $y=\frac{\ln x}{x}$;
+
+(6) $y=\tan x$.
+
+### Solution to Exercise 7
+
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonometric Functions)**.
+
+(1) $y'=\left(2x^{3}\right)'-\left(3x^{2}\right)'-\left(4\right)'=6x^{2}-6x$.
+
+(2) $y'=3\left(\cos x\right)'+\left(2^{x}\right)'=-3\sin x+2^{x}\ln2$.
+
+(3) By the product rule, $y'=\left(\mathrm e^{x}\right)'\ln x+\mathrm e^{x}\left(\ln x\right)'=\mathrm e^{x}\ln x+\frac{\mathrm e^{x}}{x}$.
+
+(4) $y=\left(x^{2}+2x\right)x^{\frac{1}{2}}=x^{\frac{5}{2}}+2x^{\frac{3}{2}}$, hence $y'=\frac{5}{2}x^{\frac{3}{2}}+3x^{\frac{1}{2}}$.
+
+(5) By the quotient rule, $y'=\frac{\left(\ln x\right)'x-\ln x\cdot\left(x\right)'}{x^{2}}=\frac{1-\ln x}{x^{2}}$.
+
+(6) $y=\frac{\sin x}{\cos x}$; by the quotient rule, 
+
+$$
+y'=\frac{\cos x\cdot\cos x-\sin x\left(-\sin x\right)}{\cos^{2}x}=\frac{\cos^{2}x+\sin^{2}x}{\cos^{2}x}=\frac{1}{\cos^{2}x}.
+$$
+
+$\blacksquare$
+
+## Exercise 8
+
+(Exercise 5.2, Problem 7) Find the equation of the tangent line to the curve $y=x^{2}+3x$ at the point $\left(1,4\right)$.
+
+### Solution to Exercise 8
+
+By **Definition 5.2.2 (Trigonometric Functions)**, $y'=2x+3$. By **Definition 5.1.3 (One Radian)**, the tangent slope is
+
+$$
+k=y'\big|_{x=1}=2\times1+3=5.
+$$
+
+The tangent line passes through the point $\left(1,4\right)$, so its equation is $y-4=5\left(x-1\right)$, i.e. $y=5x-1$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 5.2, Problem 8) Find the derivatives of the following functions: 
+
+(1) $y=\frac{2}{\sqrt{3x+1}}$;
+
+(2) $y=\left(1-2x\right)^{3}$;
+
+(3) $y=\log_{2}\left(2x+1\right)$;
+
+(4) $y=\cos\frac{x}{3}$;
+
+(5) $y=\sin\left(\frac{3\pi}{2}-3x\right)$;
+
+(6) $y=2^{2x+1}$.
+
+### Solution to Exercise 9
+
+By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
+
+(1) Let $y=2u^{-\frac{1}{2}}$, $u=3x+1$; then $y'_{x}=2\cdot\left(-\frac{1}{2}\right)u^{-\frac{3}{2}}\cdot3=-\frac{3}{\left(3x+1\right)^{\frac{3}{2}}}$.
+
+(2) Let $y=u^{3}$, $u=1-2x$; then $y'_{x}=3u^{2}\cdot\left(-2\right)=-6\left(1-2x\right)^{2}$.
+
+(3) Let $y=\log_{2}u$, $u=2x+1$; then $y'_{x}=\frac{1}{u\ln2}\cdot2=\frac{2}{\left(2x+1\right)\ln2}$.
+
+(4) Let $y=\cos u$, $u=\frac{x}{3}$; then $y'_{x}=-\sin u\cdot\frac{1}{3}=-\frac{1}{3}\sin\frac{x}{3}$.
+
+(5) Let $y=\sin u$, $u=\frac{3\pi}{2}-3x$; then $y'_{x}=\cos u\cdot\left(-3\right)=-3\cos\left(\frac{3\pi}{2}-3x\right)=-3\left(-\sin3x\right)=3\sin3x$.
+
+(6) Let $y=2^{u}$, $u=2x+1$; then $y'_{x}=2^{u}\ln2\cdot2=2^{2x+2}\ln2$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 5.2, Problem 9) Find the derivatives of the following functions at the given points: 
+
+(1) the derivative of $y=\mathrm e^{-2x+1}$ at $x=\frac{1}{2}$; 
+
+(2) the derivative of $y=\ln\left(5x+2\right)$ at $x=1$.
+
+### Solution to Exercise 10
+
+By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
+
+(1) Let $y=\mathrm e^{u}$, $u=-2x+1$; then $y'_{x}=\mathrm e^{u}\cdot\left(-2\right)=-2\mathrm e^{-2x+1}$. Hence $y'\big|_{x=\frac{1}{2}}=-2\mathrm e^{-2\cdot\frac{1}{2}+1}=-2\mathrm e^{0}=-2$.
+
+(2) Let $y=\ln u$, $u=5x+2$; then $y'_{x}=\frac{1}{u}\cdot5=\frac{5}{5x+2}$. Hence $y'\big|_{x=1}=\frac{5}{5+2}=\frac{5}{7}$. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 5.2, Problem 10) Find the equation of the tangent line to the curve $y=\sqrt\left[3\right]{3x-1}$ at the point $\left(\frac{2}{3},1\right)$.
+
+### Solution to Exercise 11
+
+By **Definition 5.2.3 (Chain Rule)**, let $y=u^{\frac{1}{3}}$, $u=3x-1$; then
+
+$$
+y'_{x}=\frac{1}{3}u^{-\frac{2}{3}}\cdot3=u^{-\frac{2}{3}}=\left(3x-1\right)^{-\frac{2}{3}}.
+$$
+
+By **Definition 5.1.3 (One Radian)**, the tangent slope is
+
+$$
+k=y'\big|_{x=\frac{2}{3}}=\left(3\cdot\frac{2}{3}-1\right)^{-\frac{2}{3}}=1^{-\frac{2}{3}}=1.
+$$
+
+The tangent line passes through the point $\left(\frac{2}{3},1\right)$, so its equation is $y-1=1\cdot\left(x-\frac{2}{3}\right)$, i.e. $y=x+\frac{1}{3}$. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 1.4, Comprehensive Application, Problem 13) As shown in the figure, given that the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$ and $E$ is the midpoint of $CD$, find the distance from point $D_1$ to the plane $AEC_1$.
+(Exercise 5.2, Review and Consolidation, Problem 1) Find the derivatives of the following functions: 
 
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $E$ is the midpoint of edge $CD$, and the plane $AEC_1$ is drawn.
+(1) $y=2x^{3}-3x^{2}+5$;
+
+(2) $y=\frac{2}{x}+\frac{4}{x+1}$;
+
+(3) $y=2^{x}+\log_{2}x$;
+
+(4) $y=x^{5}\mathrm e^{x}$;
+
+(5) $y=\frac{x^{3}-1}{\sin x}$;
+
+(6) $y=\frac{\sin x}{\sin x+\cos x}$.
 
 ### Solution to Problem 13
 
-By **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonometric Functions)**.
 
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+(1) $y'=6x^{2}-6x$.
 
-$A\left(1,0,0\right)$, $E\left(0,\frac{1}{2},0\right)$, $C_1\left(0,1,1\right)$, $D_1\left(0,0,1\right)$.
+(2) $y=2x^{-1}+4\left(x+1\right)^{-1}$, hence $y'=-2x^{-2}-4\left(x+1\right)^{-2}=-\frac{2}{x^{2}}-\frac{4}{\left(x+1\right)^{2}}$.
 
-$\boldsymbol{AE}=\left(-1,\frac{1}{2},0\right)$, $\boldsymbol{AC_1}=\left(-1,1,1\right)$.
+(3) $y'=2^{x}\ln2+\frac{1}{x\ln2}$.
 
-Normal vector $\boldsymbol{n}=\boldsymbol{AE} \times \boldsymbol{AC_1}=\left(\frac{1}{2},1,-\frac{1}{2}\right)$.
+(4) By the product rule, $y'=5x^{4}\mathrm e^{x}+x^{5}\mathrm e^{x}=x^{4}\mathrm e^{x}\left(5+x\right)$.
 
-$\boldsymbol{AD_1}=\left(-1,0,1\right)$.
+(5) By the quotient rule, $y'=\frac{3x^{2}\sin x-\left(x^{3}-1\right)\cos x}{\sin^{2}x}$.
 
-$d=\frac{\lvert \boldsymbol{AD_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -\frac{1}{2}-\frac{1}{2} \rvert}{\sqrt{\frac{1}{4}+1+\frac{1}{4}}}=\frac{1}{\sqrt{\frac{3}{2}}}=\frac{\sqrt{6}}{3}$. $\blacksquare$
+(6) By the quotient rule, 
+
+$$
+y'=\frac{\cos x\left(\sin x+\cos x\right)-\sin x\left(\cos x-\sin x\right)}{\left(\sin x+\cos x\right)^{2}}=\frac{\cos^{2}x+\sin^{2}x}{\left(\sin x+\cos x\right)^{2}}=\frac{1}{\left(\sin x+\cos x\right)^{2}}.
+$$
+
+$\blacksquare$
 
 ## Problem 14
 
-(Exercise 1.4, Comprehensive Application, Problem 14) As shown in the figure, the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$, $M$ is the midpoint of edge $AA_1$, and $O$ is the midpoint of $BD_1$. Prove that $OM$ is perpendicular to the skew lines $AA_1$ and $BD_1$, respectively, and find the length of $OM$.
+(Exercise 5.2, Review and Consolidation, Problem 2) Find the derivatives of the following functions: 
 
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $M$ is the midpoint of edge $AA_1$, $O$ is the midpoint of diagonal $BD_1$, and segment $OM$ is drawn.
+(1) $y=\left(x+1\right)^{99}$;
+
+(2) $y=\frac{x}{\sqrt{2x+1}}$;
+
+(3) $y=\left(2x-3\right)\sin\left(2x+5\right)$;
+
+(4) $y=\frac{\cos\left(3x-2\right)}{2x}$;
+
+(5) $y=\left(3x+1\right)^{2}\ln\left(3x\right)$;
+
+(6) $y=3^{x}\mathrm e^{-3x}$.
 
 ### Solution to Problem 14
 
-By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
+By **Definition 5.2.1 (Derivative Formulas)**, **Definition 5.2.2 (Trigonometric Functions)** and **Definition 5.2.3 (Chain Rule)**.
 
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+(1) Let $y=u^{99}$, $u=x+1$; then $y'=99u^{98}\cdot1=99\left(x+1\right)^{98}$.
 
-$A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $M\left(1,0,\frac{1}{2}\right)$, $B\left(1,1,0\right)$, $D_1\left(0,0,1\right)$, $O\left(\frac{1}{2},\frac{1}{2},\frac{1}{2}\right)$.
+(2) By the quotient rule, $y=\frac{x}{\left(2x+1\right)^{\frac{1}{2}}}$, 
 
-$\boldsymbol{OM}=M-O=\left(\frac{1}{2},-\frac{1}{2},0\right)$.
+$$
+y'=\frac{\left(2x+1\right)^{\frac{1}{2}}-x\cdot\frac{1}{2}\left(2x+1\right)^{-\frac{1}{2}}\cdot2}{2x+1}=\frac{2x+1-x}{\left(2x+1\right)^{\frac{3}{2}}}=\frac{x+1}{\left(2x+1\right)^{\frac{3}{2}}}.
+$$
 
-$\boldsymbol{AA_1}=\left(0,0,1\right)$.
+(3) By the product rule, $y'=2\sin\left(2x+5\right)+\left(2x-3\right)\cdot2\cos\left(2x+5\right)=2\sin\left(2x+5\right)+2\left(2x-3\right)\cos\left(2x+5\right)$.
 
-$\boldsymbol{OM} \cdot \boldsymbol{AA_1}=0$. Hence $OM \perp AA_1$.
+(4) By the quotient rule, $y'=\frac{-3\sin\left(3x-2\right)\cdot2x-\cos\left(3x-2\right)\cdot2}{4x^{2}}=\frac{-3x\sin\left(3x-2\right)-\cos\left(3x-2\right)}{2x^{2}}$.
 
-$\boldsymbol{BD_1}=D_1-B=\left(-1,-1,1\right)$.
+(5) By the product rule, $y'=2\left(3x+1\right)\cdot3\cdot\ln\left(3x\right)+\left(3x+1\right)^{2}\cdot\frac{3}{3x}=3\left(3x+1\right)\left[2\ln\left(3x\right)+\frac{3x+1}{3x}\right]$.
 
-$\boldsymbol{OM} \cdot \boldsymbol{BD_1}=-\frac{1}{2}+\frac{1}{2}+0=0$. Hence $OM \perp BD_1$.
-
-$OM=\sqrt{\frac{1}{4}+\frac{1}{4}+0}=\frac{\sqrt{2}}{2}$. $\blacksquare$
+(6) By the product rule, $y'=3^{x}\ln3\cdot\mathrm e^{-3x}+3^{x}\cdot\left(-3\right)\mathrm e^{-3x}=3^{x}\mathrm e^{-3x}\left(\ln3-3\right)$. $\blacksquare$
 
 ## Problem 15
 
-(Exercise 1.4, Comprehensive Application, Problem 15) As shown in the figure, given that the edge length of the cube $ABCD-A_1B_1C_1D_1$ is $1$, $Q$ is the midpoint of $B_1C_1$, and the point $P$ lies on edge $AA_1$ with $AP:AA_1=1:3$. Find the cosine of the angle between the plane $ABCD$ and the plane $BQP$.
-
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $Q$ is the midpoint of edge $B_1C_1$, point $P$ lies on edge $AA_1$ with $AP:AA_1=1:3$, and the plane $BQP$ is drawn.
+(Exercise 5.2, Review and Consolidation, Problem 3) Given that $f\left(x\right)=13-8x+\sqrt{2}x^{2}$ and $f'\left(x_{0}\right)=4$, find $x_{0}$.
 
 ### Solution to Problem 15
 
-By **Common Conclusion 1.4.9** (Angle between Two Planes).
+By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonometric Functions)**, 
 
-Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+$$
+f'\left(x\right)=\left(13\right)'-\left(8x\right)'+\left(\sqrt{2}x^{2}\right)'=-8+2\sqrt{2}x.
+$$
 
-$B\left(1,1,0\right)$, $Q\left(\frac{1}{2},1,1\right)$, $P\left(1,0,\frac{1}{3}\right)$.
+From $f'\left(x_{0}\right)=4$, we get $-8+2\sqrt{2}x_{0}=4$, and solving gives
 
-The normal vector of plane $ABCD$ is $\boldsymbol{n}_1=\left(0,0,1\right)$.
+$$
+x_{0}=\frac{12}{2\sqrt{2}}=3\sqrt{2}.
+$$
 
-Plane $BQP$: $\boldsymbol{BQ}=\left(-\frac{1}{2},0,1\right)$, $\boldsymbol{BP}=\left(0,-1,\frac{1}{3}\right)$.
-
-Normal vector $\boldsymbol{n}_2=\boldsymbol{BQ} \times \boldsymbol{BP}=\left(\frac{1}{3}, \frac{1}{2}, \frac{1}{2}\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{1}{2}}{\sqrt{\frac{1}{9}+\frac{1}{4}+\frac{1}{4}}}=\frac{\frac{1}{2}}{\sqrt{\frac{11}{18}}}=\frac{3\sqrt{22}}{22}$. $\blacksquare$
+Hence $x_{0}=3\sqrt{2}$. $\blacksquare$
 
 ## Problem 16
 
-(Exercise 1.4, Extension and Exploration, Problem 16) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $\angle BAC=90^\circ$, $AB=AC=2$, $AA_1=3$. $M$ is the midpoint of $AB$, $N$ is the midpoint of $B_1C_1$, and $P$ is the intersection of $BC_1$ and $B_1C$. Does there exist a point $Q$ on segment $A_1N$ such that $PQ \parallel$ the plane $A_1CM$?
+(Exercise 5.2, Review and Consolidation, Problem 4) Given the function $y=x\ln x$.
 
-The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BAC=90^\circ$, $AB=AC=2$, and the lateral edge $AA_1=3$; $M$ is the midpoint of $AB$, $N$ is the midpoint of $B_1C_1$, $P$ is the intersection of the two diagonals $BC_1$ and $B_1C$ of the side face $BCC_1B_1$, and segment $A_1N$ is drawn.
+(1) Find the derivative of this function; 
+
+(2) Find the equation of the tangent line to the graph of this function at the point $\left(1,0\right)$.
 
 ### Solution to Problem 16
 
-By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
+By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)**.
 
-Take $A$ as the origin, with $AB$ as the $x$-axis, $AC$ as the $y$-axis, and $AA_1$ as the $z$-axis.
+(1) By the product rule, $y'=\left(x\right)'\ln x+x\left(\ln x\right)'=\ln x+1$.
 
-$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(0,2,0\right)$, $A_1\left(0,0,3\right)$, $B_1\left(2,0,3\right)$, $C_1\left(0,2,3\right)$.
-
-$M$ is the midpoint of $AB$: $M\left(1,0,0\right)$.
-
-$N$ is the midpoint of $B_1C_1$: $N\left(1,1,3\right)$.
-
-$P$ is the intersection of $BC_1$ and $B_1C$, i.e. the center of the lateral face $BCC_1B_1$: $P\left(1,1,\frac{3}{2}\right)$.
-
-Plane $A_1CM$: $\boldsymbol{A_1C}=\left(0,2,-3\right)$, $\boldsymbol{A_1M}=\left(1,0,-3\right)$.
-
-Normal vector $\boldsymbol{n}=\boldsymbol{A_1C} \times \boldsymbol{A_1M}=\left(-6,-3,-2\right)$.
-
-Let $Q$ lie on $A_1N$, with $\boldsymbol{A_1Q}=t\boldsymbol{A_1N}=t\left(1,1,0\right)$, and $Q\left(t,t,3\right)$.
-
-$\boldsymbol{PQ}=Q-P=\left(t-1,t-1,\frac{3}{2}\right)$.
-
-$PQ \parallel$ the plane $A_1CM \iff \boldsymbol{PQ} \cdot \boldsymbol{n}=0$.
-
-$-6\left(t-1\right)-3\left(t-1\right)-2 \cdot \frac{3}{2}=0$, i.e. $-9\left(t-1\right)-3=0$, $t-1=-\frac{1}{3}$, and $t=\frac{2}{3}$.
-
-$t=\frac{2}{3} \in \left[0,1\right]$, so such a point $Q$ exists: $Q\left(\frac{2}{3},\frac{2}{3},3\right)$. $\blacksquare$
+(2) By **Definition 5.1.3 (One Radian)**, the tangent slope is $k=y'\big|_{x=1}=\ln1+1=1$. The tangent line passes through the point $\left(1,0\right)$, so its equation is $y-0=1\cdot\left(x-1\right)$, i.e. $y=x-1$. $\blacksquare$
 
 ## Problem 17
 
-(Exercise 1.4, Extension and Exploration, Problem 17) In the rectangular coordinate system in space, given the vector $\boldsymbol{u}=\left(a,b,c\right)$ ($abc \neq 0$), the point $P_0\left(x_0,y_0,z_0\right)$, and the point $P\left(x,y,z\right)$.
-
-(1) If line $l$ passes through point $P_0$ and has $\boldsymbol{u}$ as a direction vector, and $P$ is any point on line $l$, prove that $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$;
-
-(2) If plane $\alpha$ passes through point $P_0$ and has $\boldsymbol{u}$ as a normal vector, and $P$ is any point in plane $\alpha$, prove that $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$.
+(Exercise 5.2, Review and Consolidation, Problem 5) Find the equation of the tangent line to the curve $y=\frac{\sin x}{x}$ at the point $M\left(\pi,0\right)$.
 
 ### Solution to Problem 17
 
-By **Definition 1.4.1 (Direction Vector of a Line)** and **Definition 1.4.2 (Normal Vector of a Plane)**.
+By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)**, 
 
-(1) By **Definition 1.4.1 (Normal Vector of a Plane)**, $P$ lies on line $l$, i.e. there exists a real number $t$ such that $\boldsymbol{P_0P}=t\boldsymbol{u}$.
+$$
+y'=\frac{\cos x\cdot x-\sin x\cdot1}{x^{2}}=\frac{x\cos x-\sin x}{x^{2}}.
+$$
 
-$\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
+By **Definition 5.1.3 (One Radian)**, the tangent slope is
 
-Hence $x-x_0=ta$, $y-y_0=tb$, $z-z_0=tc$.
+$$
+k=y'\big|_{x=\pi}=\frac{\pi\cos\pi-\sin\pi}{\pi^{2}}=\frac{-\pi}{\pi^{2}}=-\frac{1}{\pi}.
+$$
 
-Eliminating $t$, we get $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}=t$.
-
-(2) By **Definition 1.4.2 (Normal Vector of a Plane)**, $\boldsymbol{u}$ is a normal vector of plane $\alpha$, so $\boldsymbol{u} \perp \boldsymbol{P_0P}$.
-
-By **Common Conclusion 1.3.5**, $\boldsymbol{u} \cdot \boldsymbol{P_0P}=0$.
-
-That is, $\left(a,b,c\right) \cdot \left(x-x_0,y-y_0,z-z_0\right)=0$.
-
-Expanding gives $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$. $\blacksquare$
+The tangent line passes through the point $M\left(\pi,0\right)$, so its equation is $y-0=-\frac{1}{\pi}\left(x-\pi\right)$, i.e. $y=-\frac{x}{\pi}+1$. $\blacksquare$
 
 ## Problem 18
 
-(Exercise 1.4, Extension and Exploration, Problem 18) In the experimental apparatus shown in the figure, the two square frames $ABCD$, $ABEF$ both have edge length $1$, and the planes in which they lie are perpendicular to each other. The moving beads $M$, $N$ travel along the diagonals $AC$ and $BF$ of the squares, respectively, and the lengths $CM$ and $BN$ remain equal; write $CM=BN=a$ ($0< a< \sqrt{2}$).
-
-(1) Find the length of $MN$;
-
-(2) For what value of $a$ is the length of $MN$ minimal?
-
-(3) When the length of $MN$ is minimal, find the cosine of the angle between the plane $MNA$ and the plane $MNB$.
-
-The figure is a view of the experimental setup: two square frames $ABCD$ and $ABEF$, each of side length $1$, share the edge $AB$, and the planes they lie in are perpendicular; the beads $M$ and $N$ move on the diagonals $AC$ and $BF$, respectively, with $CM=BN=a$ ($0< a< \sqrt{2}$).
+(Exercise 5.2, Comprehensive Application, Problem 6) Given that the function $f\left(x\right)$ satisfies $f\left(x\right)=f'\left(\frac{\pi}{4}\right)\sin x-\cos x$, find the derivative of $f\left(x\right)$ at $x=\frac{\pi}{4}$.
 
 ### Solution to Problem 18
 
-By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space) and **Common Conclusion 1.4.9** (Angle between Two Planes).
+By **Definition 5.2.2 (Trigonometric Functions)**, differentiating $f\left(x\right)$ and noting that $f'\left(\frac{\pi}{4}\right)$ is a constant, we get
 
-Take $A$ as the origin, with $AB$ as the $x$-axis, $AD$ as the $y$-axis, and $AF$ as the $z$-axis.
+$$
+f'\left(x\right)=f'\left(\frac{\pi}{4}\right)\cos x+\sin x.
+$$
 
-$A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(1,1,0\right)$, $D\left(0,1,0\right)$, $E\left(1,0,1\right)$, $F\left(0,0,1\right)$.
+Setting $x=\frac{\pi}{4}$ and writing $c=f'\left(\frac{\pi}{4}\right)$, we have
 
-$M$ lies on $AC$, $CM=a$. $AC=\sqrt{2}$, $AM=\sqrt{2}-a$. $M=\left(1-\frac{\sqrt{2}-a}{\sqrt{2}}, 1-\frac{\sqrt{2}-a}{\sqrt{2}}, 0\right)=\left(\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}, 0\right)$.
+$$
+c=f'\left(\frac{\pi}{4}\right)\cos\frac{\pi}{4}+\sin\frac{\pi}{4}=c\cdot\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}.
+$$
 
-$N$ lies on $BF$, $BN=a$. $BF=\sqrt{2}$, $N=B+\frac{a}{\sqrt{2}}\left(F-B\right)=\left(1-\frac{a}{\sqrt{2}}, 0, \frac{a}{\sqrt{2}}\right)$.
+Solving this equation for $c$, we get $c\left(1-\frac{\sqrt{2}}{2}\right)=\frac{\sqrt{2}}{2}$, hence
 
-(1) $\boldsymbol{MN}=N-M=\left(1-\frac{2a}{\sqrt{2}}, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)=\left(1-\sqrt{2}a, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)$.
+$$
+c=\frac{\frac{\sqrt{2}}{2}}{1-\frac{\sqrt{2}}{2}}=\frac{\sqrt{2}}{2-\sqrt{2}}=\sqrt{2}+1.
+$$
 
-$\lvert \boldsymbol{MN} \rvert^2=\left(1-\sqrt{2}a\right)^2+\frac{a^2}{2}+\frac{a^2}{2}=1-2\sqrt{2}a+2a^2+a^2=3a^2-2\sqrt{2}a+1$.
-
-$MN=\sqrt{3a^2-2\sqrt{2}a+1}$.
-
-(2) $MN^2=3a^2-2\sqrt{2}a+1$, which attains its minimum when $a=\frac{2\sqrt{2}}{6}=\frac{\sqrt{2}}{3}$.
-
-$MN_{\min}=\sqrt{3 \cdot \frac{2}{9}-2\sqrt{2} \cdot \frac{\sqrt{2}}{3}+1}=\sqrt{\frac{2}{3}-\frac{4}{3}+1}=\sqrt{\frac{1}{3}}=\frac{\sqrt{3}}{3}$.
-
-(3) When $a=\frac{\sqrt{2}}{3}$, $M\left(\frac{1}{3},\frac{1}{3},0\right)$, $N\left(\frac{2}{3},0,\frac{1}{3}\right)$.
-
-Plane $MNA$: $\boldsymbol{AM}=\left(\frac{1}{3},\frac{1}{3},0\right)$, $\boldsymbol{AN}=\left(\frac{2}{3},0,\frac{1}{3}\right)$.
-
-Normal vector $\boldsymbol{n}_1=\boldsymbol{AM} \times \boldsymbol{AN}=\left(\frac{1}{9},-\frac{1}{9},-\frac{2}{9}\right)$.
-
-Plane $MNB$: $\boldsymbol{BM}=\left(-\frac{2}{3},\frac{1}{3},0\right)$, $\boldsymbol{BN}=\left(-\frac{1}{3},0,\frac{1}{3}\right)$.
-
-Normal vector $\boldsymbol{n}_2=\boldsymbol{BM} \times \boldsymbol{BN}=\left(\frac{1}{9},\frac{2}{9},\frac{1}{9}\right)$.
-
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\lvert \frac{1}{81}-\frac{2}{81}-\frac{2}{81} \rvert}{\frac{\sqrt{6}}{9} \cdot \frac{\sqrt{6}}{9}}=\frac{\frac{3}{81}}{\frac{6}{81}}=\frac{1}{2}$. $\blacksquare$
+Hence the derivative of $f\left(x\right)$ at $x=\frac{\pi}{4}$ is $\sqrt{2}+1$. $\blacksquare$

@@ -1,379 +1,684 @@
 # week58
-> **Theorem 1.2.1 (空间向量基本定理)**
+> **Definition 4.1.5 (General Term Formula)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
-> **Definition 1.3.1 (空间直角坐标系)**
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **Theorem 4.2.3 (Arithmetic Sequence Formula)**
 > 
-> 在空间中取一定点 O 和三个两两垂直的单位向量 i, j, k, 以 O 为原点建立三条数轴 x 轴, y 轴, z 轴, 就建立了空间直角坐标系.
-> **Definition 1.3.2 (点的坐标)**
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **Theorem 4.2.6 (前 $n$ 项和公式一)**
 > 
-> 空间一点 M 的位置可用有序实数组 (x, y, z) 表示, 这个有序实数组叫做点 M 在此空间直角坐标系中的坐标.
-> **Definition 1.3.3 (向量的坐标)**
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **Theorem 4.2.7 (前 $n$ 项和公式二)**
 > 
-> 在空间直角坐标系中, 对任一向量 a, 存在唯一有序实数组 (a1, a2, a3), 使 a = a1*i + a2*j + a3*k, (a1, a2, a3) 叫做向量 a 的坐标.
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **Definition 4.3.1 (Geometric Sequence)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+> **Theorem 4.3.3 (等比数列通项公式)**
+> 
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> **Theorem 4.3.5 (前 $n$ 项和公式)**
+> 
+> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> **Definition 4.4.1 (数学归纳法)**
+> 
+> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
+> **Definition 5.1.1 (平均变化率)**
+> 
+> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> **Definition 5.1.2 (Derivative)**
+> 
+> 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+> **Definition 5.1.3 (One Radian)**
+> 
+> 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
 
 ## Exercise 1
 
-(Exercise 1.3, Problem 1) Plot the following points in the rectangular coordinate system in space:
-
-$A\left(0,2,4\right)$, $B\left(1,0,5\right)$, $C\left(0,2,0\right)$, $D\left(1,3,4\right)$.
+(Exercise 4.4, Problem 1) Prove by mathematical induction: $-1+3-5+\cdots+\left(-1\right)^n\left(2n-1\right)=\left(-1\right)^n n$
 
 ### Solution to Exercise 1
 
-By **Definition 1.3.2 (Coordinates of a Point)**, in the rectangular coordinate system $Oxyz$, the abscissa corresponds to the $x$-axis, the ordinate to the $y$-axis, and the applicate to the $z$-axis.
+(1) When $n=1$, the left-hand side $=-1$, and the right-hand side $=\left(-1\right)^1\cdot 1=-1$, which holds.
 
-$A\left(0,2,4\right)$: in the $yOz$ plane, move $2$ along the $y$-axis direction, then move $4$ along the $z$-axis direction.
+(2) Assume when $n=k$, $-1+3-5+\cdots+\left(-1\right)^k\left(2k-1\right)=\left(-1\right)^k k$.
 
-$B\left(1,0,5\right)$: in the $xOz$ plane, move $1$ along the $x$-axis direction, then move $5$ along the $z$-axis direction.
+When $n=k+1$,
 
-$C\left(0,2,0\right)$: on the $y$-axis, with coordinates $\left(0,2,0\right)$.
+$$
+-1+3-5+\cdots+\left(-1\right)^k\left(2k-1\right)+\left(-1\right)^{k+1}\left(2k+1\right)=\left(-1\right)^k k+\left(-1\right)^{k+1}\left(2k+1\right).
+$$
 
-$D\left(1,3,4\right)$: from the origin move $1$ along the $x$-axis, $3$ along the $y$-axis, and $4$ along the $z$-axis. $\blacksquare$
+$$
+=\left(-1\right)^{k+1}\left[-k+2k+1\right]=\left(-1\right)^{k+1}\left(k+1\right).
+$$
 
-## Exercise 2
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the equality holds for all $n\in\mathbb N^*$.
 
-(Exercise 1.3, Problem 2) In the rectangular coordinate system $Oxyz$ in space,
+$\blacksquare$
 
-(1) Which coordinate plane is perpendicular to the $x$-axis? Which to the $y$-axis? Which to the $z$-axis?
+(Exercise 4.4, Problem 2) Given that the sum of the first $n$ terms of the sequence $\frac{1}{1\times 2},\frac{1}{2\times 3},\frac{1}{3\times 4},\cdots,\frac{1}{n\left(n+1\right)},\cdots$ is $S_n$, compute $S_1,S_2,S_3$, conjecture the formula for $S_n$, and prove it by mathematical induction
 
-(2) Write out the coordinates of the projections of point $P\left(2,3,4\right)$ onto the three coordinate planes.
+### Solution to Exercise 1
 
-(3) Write out the coordinates of the point centrally symmetric to $P\left(1,3,5\right)$ with respect to the origin.
+By **Definition 4.1.5 (General Term Formula)**,
 
-### Solution to Exercise 2
+$$
+S_1=\frac{1}{1\times 2}=\frac{1}{2},\ S_2=\frac{1}{2}+\frac{1}{2\times 3}=\frac{2}{3},\ S_3=\frac{2}{3}+\frac{1}{3\times 4}=\frac{3}{4}.
+$$
 
-By **Definition 1.3.1 (Rectangular Coordinate System in Space)** and **Definition 1.3.2 (Coordinates of a Point)**.
+Conjecture: $S_n=\frac{n}{n+1}$.
 
-(1) By **Definition 1.3.1 (Spatial Cartesian Coordinate System)**, the $yOz$ plane is perpendicular to the $x$-axis, the $xOz$ plane to the $y$-axis, and the $xOy$ plane to the $z$-axis.
+(1) When $n=1$, $S_1=\frac{1}{2}$, which holds.
 
-(2) The projection of $P\left(2,3,4\right)$ onto the $xOy$ plane is $\left(2,3,0\right)$; onto the $yOz$ plane is $\left(0,3,4\right)$; onto the $xOz$ plane is $\left(2,0,4\right)$.
+(2) Assume when $n=k$, $S_k=\frac{k}{k+1}$.
 
-(3) For the point centrally symmetric to $P\left(1,3,5\right)$ with respect to the origin, all three coordinates are negated, giving $\left(-1,-3,-5\right)$. $\blacksquare$
+When $n=k+1$,
 
-## Exercise 3
+$$
+S_{k+1}=S_k+\frac{1}{\left(k+1\right)\left(k+2\right)}=\frac{k}{k+1}+\frac{1}{\left(k+1\right)\left(k+2\right)}=\frac{k\left(k+2\right)+1}{\left(k+1\right)\left(k+2\right)}=\frac{\left(k+1\right)^2}{\left(k+1\right)\left(k+2\right)}=\frac{k+1}{k+2}.
+$$
 
-(Exercise 1.3, Problem 3) In the cuboid $OABC-D'A'B'C'$, $OA=3$, $OC=4$, $OD'=3$, and $A'C'$ intersects $B'D'$ at point $P$; the rectangular coordinate system $Oxyz$ shown in the figure is set up.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the formula holds.
 
-(1) Write out the coordinates of points $C$, $B'$, $P$;
+$\blacksquare$
 
-(2) Write out the coordinates of the vectors $\boldsymbol{BB'}$, $\boldsymbol{A'C'}$.
+(Exercise 4.4, Problem 3) Observe the following two sequences $\left\{a_n\right\},\left\{b_n\right\}$: sequence $\left\{a_n\right\}$: $1,4,9,16,25,36,49,64,81,\cdots$; sequence $\left\{b_n\right\}$: $2,4,8,16,32,64,128,256,512,\cdots$. Conjecture from which term onward $a_n$ is less than $b_n$, and prove your conclusion
 
-The figure is an oblique projection of the cuboid $OABC-D'A'B'C'$: the lower face has vertices $O$, $A$, $B$, $C$ in order, and the upper face has corresponding vertices $D'$, $A'$, $B'$, $C'$; taking $O$ as the origin, $OA$ runs along the positive $x$-axis ($OA=3$), $OC$ along the positive $y$-axis ($OC=4$), and $OD'$ along the positive $z$-axis ($OD'=3$), with the three axes pairwise perpendicular; the two diagonals $A'C'$ and $B'D'$ of the upper face intersect at its center $P$.
+### Solution to Exercise 1
 
-### Solution to Exercise 3
+By **Definition 4.1.5 (General Term Formula)**, $a_n=n^2$ and $b_n=2^n$.
 
-By **Definition 1.3.2 (Coordinates of a Point)** and **Definition 1.3.3 (Coordinates of a Vector)**.
+Compute: $a_1=1< 2=b_1$, $a_2=4=b_2$, $a_3=9> 8=b_3$, $a_4=16=b_4$, $a_5=25< 32=b_5$, $a_6=36< 64=b_6$.
 
-(1) By the setup, $O$ is the origin, $OA$ lies along the $x$-axis, $OC$ along the $y$-axis, and $OD'$ along the $z$-axis.
+Conjecture: from the $5$th term onward, $a_n< b_n$, i.e. $n^2< 2^n$ holds for $n\ge 5$.
 
-Point $C$ lies on the $y$-axis, $OC=4$, so $C\left(0,4,0\right)$.
+(1) When $n=5$, $25< 32$, which holds.
 
-The coordinates of point $B'$ are $\left(OA, OC, OD'\right)=\left(3,4,3\right)$.
+(2) Assume when $n=k$ ($k\ge 5$), $k^2< 2^k$.
 
-$P$ is the intersection of $A'C'$ and $B'D'$, i.e. the center of the upper face, so $P\left(\frac{3}{2}, 2, 3\right)$.
+When $n=k+1$, it suffices to prove $\left(k+1\right)^2< 2^{k+1}$.
 
-(2) $\boldsymbol{BB'}=\boldsymbol{OB'}-\boldsymbol{OB}=\left(3,4,3\right)-\left(3,0,0\right)=\left(0,4,3\right)$.
+From $k^2< 2^k$, we get $2^{k+1}> 2k^2$.
 
-$\boldsymbol{A'C'}=\boldsymbol{OC'}-\boldsymbol{OA'}=\left(0,4,3\right)-\left(3,0,3\right)=\left(-3,4,0\right)$. $\blacksquare$
+$\left(k+1\right)^2=k^2+2k+1$. When $k\ge 5$, $2k^2-\left(k^2+2k+1\right)=k^2-2k-1> 0$, hence $2k^2> \left(k+1\right)^2$.
 
-## Exercise 4
+Therefore $2^{k+1}> 2k^2> \left(k+1\right)^2$.
 
-(Exercise 1.3, Problem 4) Given that point $B$ is the projection of point $A\left(3,4,5\right)$ onto the coordinate plane $Oxy$, find $\lvert \boldsymbol{OB} \rvert$.
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, from the $5$th term onward, $a_n< b_n$.
 
-### Solution to Exercise 4
+$\blacksquare$
 
-By **Definition 1.3.2 (Coordinates of a Point)** and **Common Conclusion 1.3.5** (Coordinate Representation of the Modulus).
+(Exercise 4.4, Problem 4) Conjecture the general term formula of the sequence $\left\{a_n\right\}$ satisfying $a_1=a$, $2a_{n+1}-a_n a_{n+1}=1$, and prove your conclusion by mathematical induction
 
-The projection of $A\left(3,4,5\right)$ onto the coordinate plane $Oxy$ is $B\left(3,4,0\right)$.
+### Solution to Exercise 1
 
-$\boldsymbol{OB}=\left(3,4,0\right)$.
+From $2a_{n+1}-a_n a_{n+1}=1$, we get $a_{n+1}=\frac{1}{2-a_n}$.
 
-By **Common Conclusion 1.3.5**, $\lvert \boldsymbol{OB} \rvert=\sqrt{3^2+4^2+0^2}=\sqrt{9+16}=5$. $\blacksquare$
+$$
+a_2=\frac{1}{2-a},\ a_3=\frac{1}{2-\frac{1}{2-a}}=\frac{2-a}{3-2a},\ a_4=\frac{3-2a}{4-3a}.
+$$
 
-## Exercise 5
+Conjecture: $a_n=\frac{\left(n-1\right)-\left(n-2\right)a}{n-\left(n-1\right)a}$.
 
-(Exercise 1.3, Problem 1) Given $\boldsymbol{a}=\left(-3,2,5\right)$ and $\boldsymbol{b}=\left(1,5,-1\right)$, find:
+(1) When $n=1$, $a_1=\frac{0-\left(-1\right)a}{1-0\cdot a}=\frac{a}{1}=a$, which holds.
 
-(1) $\boldsymbol{a}+\boldsymbol{b}$;
+(2) Assume when $n=k$, $a_k=\frac{\left(k-1\right)-\left(k-2\right)a}{k-\left(k-1\right)a}$.
 
-(2) $6\boldsymbol{a}$;
+When $n=k+1$,
 
-(3) $3\boldsymbol{a}-\boldsymbol{b}$;
+$$
+a_{k+1}=\frac{1}{2-a_k}=\frac{1}{2-\frac{\left(k-1\right)-\left(k-2\right)a}{k-\left(k-1\right)a}}=\frac{k-\left(k-1\right)a}{2\left[k-\left(k-1\right)a\right]-\left[\left(k-1\right)-\left(k-2\right)a\right]}.
+$$
 
-(4) $\boldsymbol{a} \cdot \boldsymbol{b}$.
+The denominator $=2k-2\left(k-1\right)a-k+1+\left(k-2\right)a=k+1-\left[k-\left(k-1\right)a+2\left(k-1\right)a-\left(k-2\right)a\right]=\left(k+1\right)-ka$.
 
-### Solution to Exercise 5
+Hence $a_{k+1}=\frac{k-\left(k-1\right)a}{\left(k+1\right)-ka}$, which matches the conjecture.
 
-By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors).
+That is, it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, the general term formula holds.
 
-(1) $\boldsymbol{a}+\boldsymbol{b}=\left(-3+1, 2+5, 5+\left(-1\right)\right)=\left(-2,7,4\right)$.
-
-(2) $6\boldsymbol{a}=\left(6 \times \left(-3\right), 6 \times 2, 6 \times 5\right)=\left(-18,12,30\right)$.
-
-(3) $3\boldsymbol{a}-\boldsymbol{b}=3\left(-3,2,5\right)-\left(1,5,-1\right)=\left(-9,6,15\right)-\left(1,5,-1\right)=\left(-10,1,16\right)$.
-
-(4) $\boldsymbol{a} \cdot \boldsymbol{b}=\left(-3\right) \times 1+2 \times 5+5 \times \left(-1\right)=-3+10-5=2$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 1.3, Problem 2) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \perp \boldsymbol{b}$. Find the value of $x$.
-
-### Solution to Exercise 6
-
-By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$.
-
-$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \times 2+3 \times x=-8-2+3x=3x-10$.
-
-From $\boldsymbol{a} \perp \boldsymbol{b}$, we get $3x-10=0$, i.e. $x=\frac{10}{3}$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 1.3, Problem 3) Find a point $M$ on the $z$-axis such that the distances from point $M$ to $A\left(1,0,2\right)$ and $B\left(1,-3,1\right)$ are equal.
-
-### Solution to Exercise 7
-
-By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space).
-
-Let $M\left(0,0,z\right)$, since $M$ lies on the $z$-axis.
-
-$MA=\sqrt{\left(1-0\right)^2+\left(0-0\right)^2+\left(2-z\right)^2}=\sqrt{1+\left(2-z\right)^2}$.
-
-$MB=\sqrt{\left(1-0\right)^2+\left(-3-0\right)^2+\left(1-z\right)^2}=\sqrt{1+9+\left(1-z\right)^2}=\sqrt{10+\left(1-z\right)^2}$.
-
-From $MA=MB$, we get $1+\left(2-z\right)^2=10+\left(1-z\right)^2$.
-
-Expanding: $1+4-4z+z^2=10+1-2z+z^2$, i.e. $5-4z=11-2z$, which gives $z=-3$.
-
-Hence $M\left(0,0,-3\right)$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 1.3, Problem 4) As shown in the figure, the edge length of the cube $OABC-D'A'B'C'$ is $a$; the points $N$, $M$ lie on $AC$, $BC'$ respectively, with $AN=2CN$, $BM=2MC'$. Find the length of $MN$.
-
-The figure is an oblique projection of the cube $OABC-D'A'B'C'$ (edge length $a$): the lower face is $OABC$ and the upper face is $D'A'B'C'$; point $N$ lies on the face diagonal $AC$ with $AN:NC=2:1$, point $M$ lies on the face diagonal $BC'$ with $BM:MC'=2:1$, and segment $MN$ is drawn.
-
-### Solution to Exercise 8
-
-By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) and **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space).
-
-Take $O$ as the origin, with $OA$ along the $x$-axis, $OC$ along the $y$-axis, and $OD'$ along the $z$-axis; then $O\left(0,0,0\right)$, $A\left(a,0,0\right)$, $C\left(0,a,0\right)$, $B\left(a,a,0\right)$, $C'\left(0,a,a\right)$.
-
-Since $AN=2CN$, $N$ lies on $AC$ with $AN:NC=2:1$; by the section formula, $N=\frac{1 \cdot A+2 \cdot C}{3}=\left(\frac{a}{3}, \frac{2a}{3}, 0\right)$.
-
-Since $BM=2MC'$, $M$ lies on $BC'$ with $BM:MC'=2:1$, and $M=\frac{1 \cdot B+2 \cdot C'}{3}=\left(\frac{a}{3}, a, \frac{2a}{3}\right)$.
-
-$\boldsymbol{MN}=M-N=\left(0, \frac{a}{3}, \frac{2a}{3}\right)$.
-
-$MN=\sqrt{0^2+\left(\frac{a}{3}\right)^2+\left(\frac{2a}{3}\right)^2}=\sqrt{\frac{a^2}{9}+\frac{4a^2}{9}}=\frac{\sqrt{5}a}{3}$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 1.3, Problem 5) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $M$ is the midpoint of $AB$. Find the cosine of the angle between $DB_1$ and $CM$.
-
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; point $M$ is the midpoint of edge $AB$, and the diagonal $DB_1$ and segment $CM$ are drawn.
-
-### Solution to Exercise 9
-
-By **Common Conclusion 1.3.5** (Coordinate Representation of the Angle).
-
-Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
-
-$D\left(0,0,0\right)$, $B_1\left(1,1,1\right)$, $C\left(0,1,0\right)$, $M\left(1, \frac{1}{2}, 0\right)$.
-
-$\boldsymbol{DB_1}=\left(1,1,1\right)$.
-
-$\boldsymbol{CM}=M-C=\left(1, -\frac{1}{2}, 0\right)$.
-
-$\boldsymbol{DB_1} \cdot \boldsymbol{CM}=1 \times 1+1 \times \left(-\frac{1}{2}\right)+1 \times 0=\frac{1}{2}$.
-
-$\lvert \boldsymbol{DB_1} \rvert=\sqrt{3}$.
-
-$\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{1}{4}}=\frac{\sqrt{5}}{2}$.
-
-$\cos \theta=\frac{\frac{1}{2}}{\sqrt{3} \cdot \frac{\sqrt{5}}{2}}=\frac{1}{\sqrt{15}}=\frac{\sqrt{15}}{15}$. $\blacksquare$
+$\blacksquare$
 
 ## Problem 1
 
-(Exercise 1.3, Review and Consolidation, Problem 1) In the rectangular coordinate system $Oxyz$ in space, three nonzero vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are parallel to the $x$-axis, $y$-axis, $z$-axis, respectively. What are the characteristics of their coordinates?
+(Exercise 4.4, Review and Consolidation, Problem 1) Multiple choice: prove by mathematical induction the identity $-1+3-5+7+\cdots+\left(-1\right)^n\left(2n-1\right)+\left(-1\right)^{n+1}\left(2n+1\right)+\left(-1\right)^{n+2}\left(2n+3\right)=\left(-1\right)^{n+2}\left(n+2\right)$. To verify that the identity holds when $n=1$, the left-hand side should be ( )
+
+(A) $-1$
+
+(B) $-1+3$
+
+(C) $-1+3-5$
+
+(D) $-1+3-5+7$
 
 ### Solution to Problem 1
 
-By **Definition 1.3.3 (Coordinates of a Vector)**.
+By **Definition 4.4.1 (Mathematical Induction)**, when $n=1$, the left-hand side is $-1+3-5=-3$.
 
-For a vector $\boldsymbol{a}$ parallel to the $x$-axis, its $y$- and $z$-coordinates are both $0$, i.e. $\boldsymbol{a}=\left(a_1,0,0\right)$, $a_1 \neq 0$.
+Comparing with the choices, select (C).
 
-For a vector $\boldsymbol{b}$ parallel to the $y$-axis, its $x$- and $z$-coordinates are both $0$, i.e. $\boldsymbol{b}=\left(0,b_2,0\right)$, $b_2 \neq 0$.
+$\blacksquare$
 
-For a vector $\boldsymbol{c}$ parallel to the $z$-axis, its $x$- and $y$-coordinates are both $0$, i.e. $\boldsymbol{c}=\left(0,0,c_3\right)$, $c_3 \neq 0$. $\blacksquare$
+(Exercise 4.4, Review and Consolidation, Problem 2) Prove by mathematical induction
 
-## Problem 2
+(1) $1+3+5+\cdots+\left(2n-1\right)=n^2$;
 
-(Exercise 1.3, Review and Consolidation, Problem 2) $M\left(x,y,z\right)$ is a point in the rectangular coordinate system $Oxyz$ in space. Write out the coordinates of the points satisfying the following conditions:
+(2) $1+2+2^2+\cdots+2^{n-1}=2^n-1$;
 
-(1) The point symmetric to $M$ with respect to the $x$-axis;
+(3) $1^3+2^3+3^3+\cdots+n^3=\left[\frac{n\left(n+1\right)}{2}\right]^2$.
 
-(2) The point symmetric to $M$ with respect to the $y$-axis;
+### Solution to Problem 1
 
-(3) The point symmetric to $M$ with respect to the $z$-axis;
+(1) (1) When $n=1$, the left-hand side $=1$, and the right-hand side $=1$, which holds.
 
-(4) The point symmetric to $M$ with respect to the origin.
+(2) Assume when $n=k$, $1+3+5+\cdots+\left(2k-1\right)=k^2$.
 
-### Solution to Problem 2
+When $n=k+1$, the left-hand side $=k^2+\left(2k+1\right)=\left(k+1\right)^2$, which holds.
 
-By **Definition 1.3.2 (Coordinates of a Point)**.
+By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
-(1) Symmetric about the $x$-axis: the $x$-coordinate is unchanged, and the $y$-, $z$-coordinates are negated: $\left(x,-y,-z\right)$.
+$\blacksquare$
 
-(2) Symmetric about the $y$-axis: the $y$-coordinate is unchanged, and the $x$-, $z$-coordinates are negated: $\left(-x,y,-z\right)$.
+(2) (1) When $n=1$, the left-hand side $=1$, and the right-hand side $=2-1=1$, which holds.
 
-(3) Symmetric about the $z$-axis: the $z$-coordinate is unchanged, and the $x$-, $y$-coordinates are negated: $\left(-x,-y,z\right)$.
+(2) Assume when $n=k$, $1+2+\cdots+2^{k-1}=2^k-1$.
 
-(4) Symmetric about the origin: all three coordinates are negated: $\left(-x,-y,-z\right)$. $\blacksquare$
+When $n=k+1$, the left-hand side $=2^k-1+2^k=2^{k+1}-1$, which holds.
 
-## Problem 3
+By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
-(Exercise 1.3, Review and Consolidation, Problem 3) As shown in the figure, the edge length of the cube $OABC-D'A'B'C'$ is $a$, and $E$, $F$, $G$, $H$, $I$, $J$ are the midpoints of edges $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$, respectively. Write out the coordinates of the vertices of the regular hexagon $EFGHIJ$.
+$\blacksquare$
 
-The figure is an oblique projection of the cube $OABC-D'A'B'C'$ (edge length $a$): $E$, $F$, $G$, $H$, $I$, $J$ are the midpoints of edges $C'D'$, $D'A'$, $A'A$, $AB$, $BC$, $CC'$, respectively; these six points form a regular hexagonal cross-section $EFGHIJ$.
+(3) (1) When $n=1$, the left-hand side $=1$, and the right-hand side $=\left(\frac{1\times 2}{2}\right)^2=1$, which holds.
 
-### Solution to Problem 3
+(2) Assume when $n=k$, $1^3+2^3+\cdots+k^3=\left[\frac{k\left(k+1\right)}{2}\right]^2$.
 
-By **Definition 1.3.2 (Coordinates of a Point)**.
+When $n=k+1$,
 
-Take $O$ as the origin, with $OA$ as the $x$-axis, $OC$ as the $y$-axis, and $OD'$ as the $z$-axis; then $O\left(0,0,0\right)$, $A\left(a,0,0\right)$, $B\left(a,a,0\right)$, $C\left(0,a,0\right)$, $D'\left(0,0,a\right)$, $A'\left(a,0,a\right)$, $B'\left(a,a,a\right)$, $C'\left(0,a,a\right)$.
+$$
+\left[\frac{k\left(k+1\right)}{2}\right]^2+\left(k+1\right)^3=\frac{k^2\left(k+1\right)^2}{4}+\left(k+1\right)^3=\left(k+1\right)^2\cdot\frac{k^2+4k+4}{4}=\left[\frac{\left(k+1\right)\left(k+2\right)}{2}\right]^2.
+$$
 
-$E$ is the midpoint of $C'D'$: $E\left(0, \frac{a}{2}, a\right)$.
+It holds. By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
-$F$ is the midpoint of $D'A'$: $F\left(\frac{a}{2}, 0, a\right)$.
+$\blacksquare$
 
-$G$ is the midpoint of $A'A$: $G\left(a, 0, \frac{a}{2}\right)$.
+(Exercise 4.4, Review and Consolidation, Problem 3) Given that a sequence $\left\{a_n\right\}$ satisfies $a_1=1$, $4a_{n+1}-a_n a_{n+1}+2a_n=9$ ($n\in\mathbb N^*$). Compute $a_2,a_3,a_4$, conjecture the general term formula of $\left\{a_n\right\}$, and prove it by mathematical induction
 
-$H$ is the midpoint of $AB$: $H\left(a, \frac{a}{2}, 0\right)$.
+### Solution to Problem 1
 
-$I$ is the midpoint of $BC$: $I\left(\frac{a}{2}, a, 0\right)$.
+From $4a_{n+1}-a_n a_{n+1}+2a_n=9$, we get $a_{n+1}=\frac{9-2a_n}{4-a_n}$.
 
-$J$ is the midpoint of $CC'$: $J\left(0, a, \frac{a}{2}\right)$. $\blacksquare$
+$$
+a_2=\frac{9-2}{4-1}=\frac{7}{3},\ a_3=\frac{9-\frac{14}{3}}{4-\frac{7}{3}}=\frac{13}{5},\ a_4=\frac{9-\frac{26}{5}}{4-\frac{13}{5}}=\frac{19}{7}.
+$$
 
-## Problem 4
+Observing $1=\frac{1}{1},\frac{7}{3},\frac{13}{5},\frac{19}{7}$: the numerators are $1,7,13,19$ with common difference $6$, and the denominators are $1,3,5,7$ with common difference $2$.
 
-(Exercise 1.3, Review and Consolidation, Problem 4) First plot the two points $A$, $B$ in the rectangular coordinate system in space, and then find the distance between them:
+Conjecture: $a_n=\frac{6n-5}{2n-1}$.
 
-(1) $A\left(2,3,5\right)$, $B\left(3,1,4\right)$;
+(1) When $n=1$, $a_1=\frac{1}{1}=1$, which holds.
 
-(2) $A\left(6,0,1\right)$, $B\left(3,5,7\right)$.
+(2) Assume when $n=k$, $a_k=\frac{6k-5}{2k-1}$.
 
-### Solution to Problem 4
+When $n=k+1$,
 
-By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space).
+$$
+a_{k+1}=\frac{9-2a_k}{4-a_k}=\frac{9-\frac{2\left(6k-5\right)}{2k-1}}{4-\frac{6k-5}{2k-1}}=\frac{9\left(2k-1\right)-2\left(6k-5\right)}{4\left(2k-1\right)-\left(6k-5\right)}=\frac{18k-9-12k+10}{8k-4-6k+5}=\frac{6k+1}{2k+1}.
+$$
 
-(1) $AB=\sqrt{\left(3-2\right)^2+\left(1-3\right)^2+\left(4-5\right)^2}=\sqrt{1+4+1}=\sqrt{6}$.
+This matches $\frac{6\left(k+1\right)-5}{2\left(k+1\right)-1}=\frac{6k+1}{2k+1}$. It holds.
 
-(2) $AB=\sqrt{\left(3-6\right)^2+\left(5-0\right)^2+\left(7-1\right)^2}=\sqrt{9+25+36}=\sqrt{70}$. $\blacksquare$
+By **Definition 4.4.1 (Mathematical Induction)**, the general term formula holds.
 
-## Problem 5
+$\blacksquare$
 
-(Exercise 1.3, Comprehensive Application, Problem 5) Given $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. Find:
+(Exercise 4.4, Review and Consolidation, Problem 4) Given that the sum of the first $n$ terms of the sequence $\frac{1}{1\times 4},\frac{1}{4\times 7},\frac{1}{7\times 10},\cdots,\frac{1}{\left(3n-2\right)\left(3n+1\right)},\cdots$ is $S_n$. Compute $S_1,S_2,S_3,S_4$, conjecture the expression for $S_n$, and prove it by mathematical induction
 
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
+### Solution to Problem 1
 
-(2) $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}$.
+$$
+S_1=\frac{1}{1\times 4}=\frac{1}{4},\ S_2=\frac{1}{4}+\frac{1}{4\times 7}=\frac{2}{7},\ S_3=\frac{2}{7}+\frac{1}{7\times 10}=\frac{3}{10},\ S_4=\frac{3}{10}+\frac{1}{10\times 13}=\frac{4}{13}.
+$$
 
-### Solution to Problem 5
+Conjecture: $S_n=\frac{n}{3n+1}$.
 
-By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors).
+(1) When $n=1$, $S_1=\frac{1}{4}$, which holds.
 
-(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=2 \times 2+\left(-3\right) \times 0+1 \times 5=4+0+5=9$.
+(2) Assume when $n=k$, $S_k=\frac{k}{3k+1}$.
 
-(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12-0, -3+0-0, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
+When $n=k+1$,
 
-## Problem 6
+$$
+S_{k+1}=\frac{k}{3k+1}+\frac{1}{\left(3k+1\right)\left(3k+4\right)}=\frac{k\left(3k+4\right)+1}{\left(3k+1\right)\left(3k+4\right)}=\frac{3k^2+4k+1}{\left(3k+1\right)\left(3k+4\right)}=\frac{\left(3k+1\right)\left(k+1\right)}{\left(3k+1\right)\left(3k+4\right)}=\frac{k+1}{3k+4}.
+$$
 
-(Exercise 1.3, Comprehensive Application, Problem 6) Prove that the triangle with vertices $A\left(4,1,9\right)$, $B\left(10,-1,6\right)$, $C\left(2,4,3\right)$ is an isosceles right triangle.
+This matches $\frac{k+1}{3\left(k+1\right)+1}=\frac{k+1}{3k+4}$. It holds.
 
-### Solution to Problem 6
+By **Definition 4.4.1 (Mathematical Induction)**, the expression holds.
 
-By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space).
+$\blacksquare$
 
-$AB=\sqrt{\left(10-4\right)^2+\left(-1-1\right)^2+\left(6-9\right)^2}=\sqrt{36+4+9}=\sqrt{49}=7$.
+(Exercise 4.4, Comprehensive Application, Problem 5) Prove by mathematical induction: $\frac{1^2}{1\times 3}+\frac{2^2}{3\times 5}+\cdots+\frac{n^2}{\left(2n-1\right)\left(2n+1\right)}=\frac{n\left(n+1\right)}{2\left(2n+1\right)}$
 
-$AC=\sqrt{\left(2-4\right)^2+\left(4-1\right)^2+\left(3-9\right)^2}=\sqrt{4+9+36}=\sqrt{49}=7$.
+### Solution to Problem 1
 
-$BC=\sqrt{\left(2-10\right)^2+\left(4-\left(-1\right)\right)^2+\left(3-6\right)^2}=\sqrt{64+25+9}=\sqrt{98}=7\sqrt{2}$.
+(1) When $n=1$, the left-hand side $=\frac{1}{3}$, and the right-hand side $=\frac{1\times 2}{2\times 3}=\frac{1}{3}$, which holds.
 
-Hence $AB=AC=7$, and $AB^2+AC^2=49+49=98=BC^2$.
+(2) Assume when $n=k$, $\displaystyle\sum_{i=1}^k\frac{i^2}{\left(2i-1\right)\left(2i+1\right)}=\frac{k\left(k+1\right)}{2\left(2k+1\right)}$.
 
-By the converse of the Pythagorean theorem, $\angle BAC=90^\circ$, and since $AB=AC$, $\triangle ABC$ is an isosceles right triangle. $\blacksquare$
+When $n=k+1$,
 
-## Problem 7
+$$
+\frac{k\left(k+1\right)}{2\left(2k+1\right)}+\frac{\left(k+1\right)^2}{\left(2k+1\right)\left(2k+3\right)}=\frac{k\left(k+1\right)\left(2k+3\right)+2\left(k+1\right)^2}{2\left(2k+1\right)\left(2k+3\right)}.
+$$
 
-(Exercise 1.3, Extension and Exploration, Problem 7) Given $A\left(3,5,-7\right)$ and $B\left(-2,4,3\right)$, find $\boldsymbol{AB}$, $\boldsymbol{BA}$, the coordinates of the midpoint of segment $AB$, and the length of segment $AB$.
+The numerator $=\left(k+1\right)\left[k\left(2k+3\right)+2\left(k+1\right)\right]=\left(k+1\right)\left(2k^2+5k+2\right)=\left(k+1\right)\left(2k+1\right)\left(k+2\right)$.
 
-### Solution to Problem 7
+$$
+=\frac{\left(k+1\right)\left(2k+1\right)\left(k+2\right)}{2\left(2k+1\right)\left(2k+3\right)}=\frac{\left(k+1\right)\left(k+2\right)}{2\left(2k+3\right)}.
+$$
 
-By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) and **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space).
+It holds. By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
 
-$\boldsymbol{AB}=B-A=\left(-2-3, 4-5, 3-\left(-7\right)\right)=\left(-5,-1,10\right)$.
+$\blacksquare$
 
-$\boldsymbol{BA}=A-B=\left(5,1,-10\right)$.
+(Exercise 4.4, Comprehensive Application, Problem 6) Given that the general terms of the sequences $\left\{a_n\right\},\left\{b_n\right\}$ are $a_n=2^n$ and $b_n=n^4$ respectively, where $n\in\mathbb N^*$. Determine for which positive integers $n$ the inequality $a_n> b_n$ holds, and prove your conclusion
 
-The midpoint of segment $AB$ has coordinates $\left(\frac{3+\left(-2\right)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
+### Solution to Problem 1
 
-$AB=\sqrt{\left(-5\right)^2+\left(-1\right)^2+10^2}=\sqrt{25+1+100}=\sqrt{126}=3\sqrt{14}$. $\blacksquare$
+Compute: $a_1=2< 1=b_1$; $a_2=4< 16=b_2$; $a_3=8< 81=b_3$; $a_4=16< 256=b_4$; $a_5=32< 625=b_5$; $a_6=64< 1296=b_6$; $a_7=128< 2401=b_7$; $a_8=256< 4096=b_8$; $a_9=512< 6561=b_9$; $a_{10}=1024< 10000=b_{10}$; $a_{11}=2048< 14641=b_{11}$; $a_{12}=4096< 20736=b_{12}$; $a_{13}=8192< 28561=b_{13}$; $a_{14}=16384> 38416=b_{14}$? Since $14^4=38416> 16384$, it does not hold.
 
-## Problem 8
+Continue: $n=15$: $2^{15}=32768$, $15^4=50625$, does not hold. $n=16$: $65536< 65536$? Since $16^4=65536$, they are equal. $n=17$: $131072> 83521$, holds.
 
-(Exercise 1.3, Extension and Exploration, Problem 8) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, $M$, $N$ are the midpoints of edges $A_1A$ and $B_1B$, respectively. Find the cosine of the angle between $CM$ and $D_1N$.
+Conjecture: when $n\ge 17$, $2^n> n^4$.
 
-The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; point $M$ is the midpoint of lateral edge $A_1A$, point $N$ is the midpoint of lateral edge $B_1B$, and segments $CM$ and $D_1N$ are drawn.
+(1) When $n=17$, $2^{17}=131072> 83521=17^4$, which holds.
 
-### Solution to Problem 8
+(2) Assume when $n=k$ ($k\ge 17$), $2^k> k^4$.
 
-By **Common Conclusion 1.3.5** (Coordinate Representation of the Angle).
+When $n=k+1$, it suffices to prove $2^{k+1}> \left(k+1\right)^4$.
 
-Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
+From $2^{k+1}> 2k^4$, it suffices to prove $2k^4> \left(k+1\right)^4$, i.e. $2> \left(1+\frac{1}{k}\right)^4$.
 
-$D\left(0,0,0\right)$, $C\left(0,1,0\right)$, $M\left(1,0,\frac{1}{2}\right)$, $D_1\left(0,0,1\right)$, $N\left(1,1,\frac{1}{2}\right)$.
+When $k\ge 17$, $\left(1+\frac{1}{17}\right)^4< 2$, which holds.
 
-$\boldsymbol{CM}=M-C=\left(1,-1,\frac{1}{2}\right)$.
+Hence $2^{k+1}> \left(k+1\right)^4$. By **Definition 4.4.1 (Mathematical Induction)**, when $n\ge 17$, $a_n> b_n$.
 
-$\boldsymbol{D_1N}=N-D_1=\left(1,1,-\frac{1}{2}\right)$.
+$\blacksquare$
 
-$\boldsymbol{CM} \cdot \boldsymbol{D_1N}=1 \times 1+\left(-1\right) \times 1+\frac{1}{2} \times \left(-\frac{1}{2}\right)=1-1-\frac{1}{4}=-\frac{1}{4}$.
+(Exercise 4.4, Comprehensive Application, Problem 7) Given that a sequence $\left\{x_n\right\}$ satisfies $x_1=1$, $x_n=x_{n+1}+\ln\left(1+x_{n+1}\right)$ ($n\in\mathbb N^*$). Use mathematical induction to prove that $x_n> 0$, and compare the sizes of $x_n$ and $x_{n+1}$
 
-$\lvert \boldsymbol{CM} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
+### Solution to Problem 1
 
-$\lvert \boldsymbol{D_1N} \rvert=\sqrt{1+1+\frac{1}{4}}=\frac{3}{2}$.
+(1) When $n=1$, $x_1=1> 0$, which holds.
 
-$\cos \theta=\frac{-\frac{1}{4}}{\frac{3}{2} \cdot \frac{3}{2}}=-\frac{1}{9}$.
+(2) Assume when $n=k$, $x_k> 0$.
 
-The angle between two lines is taken to be the acute or right angle, so the cosine is $\frac{1}{9}$. $\blacksquare$
+From $x_k=x_{k+1}+\ln\left(1+x_{k+1}\right)$, if $x_{k+1}\le 0$, then $\ln\left(1+x_{k+1}\right)\le 0$, hence $x_k\le 0$, a contradiction.
 
-## Problem 9
+Therefore $x_{k+1}> 0$. By **Definition 4.4.1 (Mathematical Induction)**, $x_n> 0$ holds for all $n\in\mathbb N^*$.
 
-(Exercise 1.3, Extension and Exploration, Problem 9) $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is an orthonormal basis of space, the vector $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, and $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$ is another basis of space. Express the vector $\boldsymbol{p}$ in terms of the basis $\left\{\boldsymbol{a}+\boldsymbol{b}, \boldsymbol{a}-\boldsymbol{b}, \boldsymbol{c}\right\}$.
+Also, $x_n-x_{n+1}=\ln\left(1+x_{n+1}\right)> 0$, hence $x_n> x_{n+1}$, so the sequence is decreasing.
 
-### Solution to Problem 9
+$\blacksquare$
 
-By **Theorem 1.2.1 (Fundamental Theorem of Spatial Vectors)**.
+(Exercise 4.4, Extension and Exploration, Problem 8) Prove that $n^3+5n$ ($n\in\mathbb N^*$) is divisible by $6$
 
-Let $\boldsymbol{p}=x\left(\boldsymbol{a}+\boldsymbol{b}\right)+y\left(\boldsymbol{a}-\boldsymbol{b}\right)+z\boldsymbol{c}=\left(x+y\right)\boldsymbol{a}+\left(x-y\right)\boldsymbol{b}+z\boldsymbol{c}$.
+### Solution to Problem 1
 
-Since $\boldsymbol{p}=\boldsymbol{a}+2\boldsymbol{b}+3\boldsymbol{c}$, compare coefficients:
+(1) When $n=1$, $1+5=6$, which is divisible by $6$, and it holds.
 
-$x+y=1$, $x-y=2$, $z=3$.
+(2) Assume when $n=k$, $k^3+5k$ is divisible by $6$.
 
-Solving gives $x=\frac{3}{2}$, $y=-\frac{1}{2}$, $z=3$.
+When $n=k+1$,
 
-Hence $\boldsymbol{p}=\frac{3}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)+3\boldsymbol{c}$. $\blacksquare$
+$$
+\left(k+1\right)^3+5\left(k+1\right)=k^3+3k^2+3k+1+5k+5=\left(k^3+5k\right)+3k\left(k+1\right)+6.
+$$
 
-### Reading and Thinking 1
+In $3k\left(k+1\right)$, one of $k$ and $k+1$ must be even, so $3k\left(k+1\right)$ is divisible by $6$.
 
-(Thinking 1) In general, an ordered $n$-tuple of real numbers $\left(a_1,a_2,\cdots,a_n\right)$ is called an $n$-dimensional vector. Analogously to two-dimensional vectors, for $n$-dimensional vectors one may define the addition, subtraction and scalar multiplication of two vectors, the dot product of two vectors, the length (modulus) of a vector, the "distance" between two points, and so on. Let $\boldsymbol{a}=\left(a_1,a_2,\cdots,a_n\right)$, $\boldsymbol{b}=\left(b_1,b_2,\cdots,b_n\right)$; then $\boldsymbol{a} \pm \boldsymbol{b}=\left(a_1 \pm b_1,a_2 \pm b_2,\cdots,a_n \pm b_n\right)$; $\lambda\boldsymbol{a}=\left(\lambda a_1,\lambda a_2,\cdots,\lambda a_n\right)$, $\lambda \in \mathbb R$; $\boldsymbol{a} \cdot \boldsymbol{b}=a_1b_1+a_2b_2+\cdots+a_nb_n$; and $\lvert \boldsymbol{a} \rvert=\sqrt{a_1^2+a_2^2+\cdots+a_n^2}$. The "distance" between two points $A\left(a_1,a_2,\cdots,a_n\right)$, $B\left(b_1,b_2,\cdots,b_n\right)$ in $n$-dimensional vector space is $d_{AB}=\sqrt{\left(b_1-a_1\right)^2+\left(b_2-a_2\right)^2+\cdots+\left(b_n-a_n\right)^2}$.
+By the induction hypothesis, $k^3+5k$ is divisible by $6$, and $6$ is also divisible by $6$.
 
-### Solution to Reading and Thinking 1
+Hence $\left(k+1\right)^3+5\left(k+1\right)$ is divisible by $6$. By **Definition 4.4.1 (Mathematical Induction)**, the proposition holds.
 
-By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) and **Common Conclusion 1.3.5** (Coordinate Representation of the Modulus and Angle), these conclusions extend directly to the case of $n$-dimensional vectors.
+$\blacksquare$
 
-The addition, subtraction, scalar multiplication, dot product, modulus and distance formulas for $n$-dimensional vectors are all direct generalizations of the corresponding formulas for three-dimensional vectors, and their operational laws are exactly the same as in the three-dimensional case. For example, the dot product satisfies the commutative, distributive and scalar-multiplication associative laws; the modulus satisfies $\lvert \boldsymbol{a} \rvert \geq 0$, and $\lvert \boldsymbol{a} \rvert=0 \iff \boldsymbol{a}=\boldsymbol{0}$; the distance between two points satisfies non-negativity and symmetry.
+(Exercise 4.4, Extension and Exploration, Problem 9) An old textbook contains an identity in positive integer $n$: $1\times 2^2+2\times 3^2+\cdots+n\left(n+1\right)^2=\frac{1}{12}n\left(n+1\right)?$, where the question mark is, due to the passage of time, only recognizable as a quadratic trinomial in $n$, but the specific coefficients are no longer legible. Conjecture the form of this identity and prove it by mathematical induction
 
-In practical applications, $n$-dimensional vectors can be used to represent multi-indicator data (such as student grades, product quality indicators, and so on), and vector operations and the concept of distance can be used for classification, comparison and analysis. $\blacksquare$
+### Solution to Problem 1
+
+Let the right-hand side be $\frac{1}{12}n\left(n+1\right)\left(an^2+bn+c\right)$.
+
+Substituting $n=1$: the left-hand side $=4$, and $\frac{1}{12}\times 2\times\left(a+b+c\right)=4$, so $a+b+c=24$.
+
+Substituting $n=2$: the left-hand side $=4+18=22$, and $\frac{1}{12}\times 6\times\left(4a+2b+c\right)=22$, so $4a+2b+c=44$.
+
+Substituting $n=3$: the left-hand side $=22+48=70$, and $\frac{1}{12}\times 12\times\left(9a+3b+c\right)=70$, so $9a+3b+c=70$.
+
+Solving gives $a=3$, $b=11$, $c=10$.
+
+Conjecture: the right-hand side is $\frac{1}{12}n\left(n+1\right)\left(3n^2+11n+10\right)=\frac{1}{12}n\left(n+1\right)\left(n+2\right)\left(3n+5\right)$.
+
+(1) When $n=1$, the right-hand side $=\frac{1}{12}\times 1\times 2\times 3\times 8=4$, which holds.
+
+(2) Assume when $n=k$, $\displaystyle\sum_{i=1}^k i\left(i+1\right)^2=\frac{1}{12}k\left(k+1\right)\left(k+2\right)\left(3k+5\right)$.
+
+When $n=k+1$,
+
+$$
+\frac{1}{12}k\left(k+1\right)\left(k+2\right)\left(3k+5\right)+\left(k+1\right)\left(k+2\right)^2=\left(k+1\right)\left(k+2\right)\left[\frac{k\left(3k+5\right)}{12}+\left(k+2\right)\right].
+$$
+
+$$
+=\left(k+1\right)\left(k+2\right)\cdot\frac{3k^2+5k+12k+24}{12}=\frac{\left(k+1\right)\left(k+2\right)\left(3k^2+17k+24\right)}{12}.
+$$
+
+$$
+=\frac{\left(k+1\right)\left(k+2\right)\left(k+3\right)\left(3k+8\right)}{12}.
+$$
+
+This agrees with $\frac{1}{12}\left(k+1\right)\left(k+2\right)\left(k+3\right)\left[3\left(k+1\right)+5\right]$. It holds.
+
+By **Definition 4.4.1 (Mathematical Induction)**, the identity holds.
+
+$\blacksquare$
+
+(Exercise 4.4, Extension and Exploration, Problem 10) Given the proposition: let $a_1,a_2$ be nonnegative real numbers and $b_1,b_2$ be positive real numbers; if $b_1+b_2=1$, then $a_1^{b_1}a_2^{b_2}\le a_1 b_1+a_2 b_2$. Generalize this proposition to a general form, and prove your generalized proposition by mathematical induction
+
+### Solution to Problem 1
+
+Generalization: let $a_1,a_2,\cdots,a_n$ be nonnegative real numbers and $b_1,b_2,\cdots,b_n$ be positive real numbers; if $\displaystyle\sum_{i=1}^n b_i=1$, then
+
+$$
+a_1^{b_1}a_2^{b_2}\cdots a_n^{b_n}\le a_1 b_1+a_2 b_2+\cdots+a_n b_n.
+$$
+
+(1) When $n=2$, this is the original proposition, which holds by the weighted AM-GM inequality.
+
+(2) Assume the proposition holds when $n=k$.
+
+When $n=k+1$, set $b_{k+1}'=b_k+b_{k+1}$. By the $n=2$ case,
+
+$$
+a_k^{b_k}a_{k+1}^{b_{k+1}}\le \left(a_k b_k+a_{k+1}b_{k+1}\right)\cdot\frac{1}{b_k+b_{k+1}}\cdot\left(b_k+b_{k+1}\right)=\left(a_k b_k+a_{k+1}b_{k+1}\right).
+$$
+
+By the $n=k$ case,
+
+$$
+a_1^{b_1}\cdots a_{k-1}^{b_{k-1}}\cdot\left(a_k b_k+a_{k+1}b_{k+1}\right)^{b_k+b_{k+1}}\le a_1 b_1+\cdots+a_{k-1}b_{k-1}+\left(a_k b_k+a_{k+1}b_{k+1}\right).
+$$
+
+Rearranging gives the $n=k+1$ case. By **Definition 4.4.1 (Mathematical Induction)**, the generalized proposition holds.
+
+$\blacksquare$
+
+## Exercise 2
+
+(Exercise 5.1, Problem 1) Find the instantaneous velocity of the diver in Problem 1 at $t=1.5\ \mathrm{s}$.
+
+### Solution to Exercise 2
+
+By **Definition 5.1.2 (Derivative)**, the diver's instantaneous velocity at $t=1.5$ is the derivative $h'\left(1.5\right)$ of the function $h\left(t\right)=-4.9t^{2}+2.8t+11$ at $t=1.5$.
+
+By **Definition 5.1.1 (Average Rate of Change)**, take a time increment $\Delta t$ near $t=1.5$, then
+
+$$
+\frac{\Delta h}{\Delta t}=\frac{h\left(1.5+\Delta t\right)-h\left(1.5\right)}{\Delta t}.
+$$
+
+Substituting $h\left(t\right)=-4.9t^{2}+2.8t+11$ and expanding the numerator, we get
+
+$$
+h\left(1.5+\Delta t\right)-h\left(1.5\right)=-4.9\left[\left(1.5+\Delta t\right)^{2}-1.5^{2}\right]+2.8\Delta t.
+$$
+
+Expanding and simplifying,
+
+$$
+\frac{\Delta h}{\Delta t}=-4.9\left(3+\Delta t\right)+2.8=-11.9-4.9\Delta t.
+$$
+
+By **Definition 5.1.2 (Derivative)**, letting $\Delta t\to0$, we get
+
+$$
+h'\left(1.5\right)=\lim_{\Delta t\to0}\frac{\Delta h}{\Delta t}=\lim_{\Delta t\to0}\left(-11.9-4.9\Delta t\right)=-11.9.
+$$
+
+Hence the diver's instantaneous velocity at $t=1.5\ \mathrm{s}$ is $-11.9\ \mathrm{m/s}$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 5.1, Problem 2) After a rocket has been launched for $t\ \mathrm{s}$, its height (in $\mathrm{m}$) is $h\left(t\right)=0.9t^{2}$. Find: 
+
+(1) the average velocity of the rocket's ascent over the interval $1\le t\le2$; 
+
+(2) the instantaneous velocity of the rocket's ascent at the $10\ \mathrm{s}$ after launch.
+
+### Solution to Exercise 3
+
+By **Definition 5.1.1 (Average Rate of Change)**, the average velocity is the ratio of the height increment to the time increment.
+
+(1) When $t$ changes from $1$ to $2$, 
+
+$$
+\overline{v}=\frac{h\left(2\right)-h\left(1\right)}{2-1}=\frac{0.9\times2^{2}-0.9\times1^{2}}{1}=0.9\times3=2.7.
+$$
+
+Hence over the interval $1\le t\le2$, the average velocity of the rocket's ascent is $2.7\ \mathrm{m/s}$.
+
+(2) By **Definition 5.1.2 (Derivative)**, the instantaneous velocity at the $10\ \mathrm{s}$ is $h'\left(10\right)$. Take an increment $\Delta t$ near $t=10$, then
+
+$$
+\frac{\Delta h}{\Delta t}=\frac{h\left(10+\Delta t\right)-h\left(10\right)}{\Delta t}=\frac{0.9\left[\left(10+\Delta t\right)^{2}-10^{2}\right]}{\Delta t}=0.9\left(20+\Delta t\right)=18+0.9\Delta t.
+$$
+
+Letting $\Delta t\to0$, we get
+
+$$
+h'\left(10\right)=\lim_{\Delta t\to0}\left(18+0.9\Delta t\right)=18.
+$$
+
+Hence at the $10\ \mathrm{s}$ after launch, the instantaneous velocity of the rocket's ascent is $18\ \mathrm{m/s}$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 5.1, Problem 3) A small ball falls freely from a height of $5\ \mathrm{m}$; its displacement $y$ (in $\mathrm{m}$) and time $t$ (in $\mathrm{s}$) are related by $y\left(t\right)=-4.9t^{2}$. Find the instantaneous velocity of the ball at $t=1\ \mathrm{s}$.
+
+### Solution to Exercise 4
+
+By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of the ball at $t=1\ \mathrm{s}$ is $y'\left(1\right)$. Take an increment $\Delta t$ near $t=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+
+$$
+\frac{\Delta y}{\Delta t}=\frac{y\left(1+\Delta t\right)-y\left(1\right)}{\Delta t}=\frac{-4.9\left[\left(1+\Delta t\right)^{2}-1^{2}\right]}{\Delta t}=-4.9\left(2+\Delta t\right)=-9.8-4.9\Delta t.
+$$
+
+Letting $\Delta t\to0$, we get
+
+$$
+y'\left(1\right)=\lim_{\Delta t\to0}\frac{\Delta y}{\Delta t}=\lim_{\Delta t\to0}\left(-9.8-4.9\Delta t\right)=-9.8.
+$$
+
+Hence the instantaneous velocity of the ball at $t=1\ \mathrm{s}$ is $-9.8\ \mathrm{m/s}$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 5.1, Problem 4) How do you think the tangent line to the parabola $f\left(x\right)=x^{2}$ at the point $\left(x_{0},x_{0}^{2}\right)$ should be defined? Find the slope of the tangent line to the parabola $f\left(x\right)=x^{2}$ at the point $\left(-1,1\right)$.
+
+### Solution to Exercise 5
+
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, take any point $P\left(x,f\left(x\right)\right)$ on the curve $y=f\left(x\right)$; as $P$ approaches $P_{0}\left(x_{0},f\left(x_{0}\right)\right)$ along the curve, the secant line $P_{0}P$ approaches a definite position, and the line $P_{0}T$ at this definite position is called the tangent line to the curve $y=f\left(x\right)$ at $P_{0}$.
+
+By **Definition 5.1.2 (Derivative)**, the slope of the tangent line to the parabola $f\left(x\right)=x^{2}$ at the point $\left(-1,1\right)$ is $f'\left(-1\right)$. Take an increment $\Delta x$ near $x=-1$, then
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(-1+\Delta x\right)-f\left(-1\right)}{\Delta x}=\frac{\left(-1+\Delta x\right)^{2}-1}{\Delta x}=\frac{-2\Delta x+\left(\Delta x\right)^{2}}{\Delta x}=-2+\Delta x.
+$$
+
+Letting $\Delta x\to0$, we get
+
+$$
+f'\left(-1\right)=\lim_{\Delta x\to0}\left(-2+\Delta x\right)=-2.
+$$
+
+Hence the slope of the tangent line to the parabola $f\left(x\right)=x^{2}$ at the point $\left(-1,1\right)$ is $-2$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 5.1, Problem 5) Find the equation of the tangent line to the parabola $f\left(x\right)=x^{2}+1$ at the point $\left(0,1\right)$.
+
+### Solution to Exercise 6
+
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is $f'\left(0\right)$. Take an increment $\Delta x$ near $x=0$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(0+\Delta x\right)-f\left(0\right)}{\Delta x}=\frac{\left(\Delta x\right)^{2}+1-1}{\Delta x}=\Delta x.
+$$
+
+Letting $\Delta x\to0$, we get $f'\left(0\right)=0$.
+
+Hence the tangent line passes through the point $\left(0,1\right)$ with slope $0$, and its equation is $y=1$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 5.1, Problem 6) In Example 2, compute the instantaneous rate of change of the crude oil temperature at the $3\ \mathrm{h}$ and the $5\ \mathrm{h}$, and explain their meaning.
+
+### Solution to Exercise 7
+
+In Example 2, the crude oil temperature is $y=f\left(x\right)=x^{2}-7x+15$. By **Definition 5.1.2 (Derivative)**, the instantaneous rates of change at the $3\ \mathrm{h}$ and the $5\ \mathrm{h}$ are $f'\left(3\right)$ and $f'\left(5\right)$ respectively.
+
+Take an increment $\Delta x$ near $x$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}=\frac{\left(x+\Delta x\right)^{2}-7\left(x+\Delta x\right)+15-\left(x^{2}-7x+15\right)}{\Delta x}=2x+\Delta x-7.
+$$
+
+Letting $\Delta x\to0$, we get $f'\left(x\right)=2x-7$.
+
+Thus $f'\left(3\right)=2\times3-7=-1$, and $f'\left(5\right)=2\times5-7=3$.
+
+Hence at the $3\ \mathrm{h}$ the instantaneous rate of change of the crude oil temperature is $-1\ {^\circ}\mathrm{C/h}$, meaning that near the $3\ \mathrm{h}$ the crude oil temperature is decreasing at a rate of about $1\ {^\circ}\mathrm{C/h}$; at the $5\ \mathrm{h}$ the instantaneous rate of change is $3\ {^\circ}\mathrm{C/h}$, meaning that near the $5\ \mathrm{h}$ the crude oil temperature is increasing at a rate of about $3\ {^\circ}\mathrm{C/h}$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 5.1, Problem 7) Let $f\left(x\right)=x$. Find $f'\left(1\right)$.
+
+### Solution to Exercise 8
+
+By **Definition 5.1.2 (Derivative)**, take an increment $\Delta x$ near $x=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(1+\Delta x\right)-f\left(1\right)}{\Delta x}=\frac{\left(1+\Delta x\right)-1}{\Delta x}=1.
+$$
+
+Letting $\Delta x\to0$, we get
+
+$$
+f'\left(1\right)=\lim_{\Delta x\to0}1=1.
+$$
+
+Hence $f'\left(1\right)=1$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 5.1, Problem 8) A particle $A$ moves along a straight line; its displacement $y$ (in $\mathrm{m}$) and time $t$ (in $\mathrm{s}$) are related by $y\left(t\right)=2t^{2}+1$. Find the instantaneous velocity of particle $A$ at $t=2.7\ \mathrm{s}$.
+
+### Solution to Exercise 9
+
+By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of particle $A$ at $t=2.7\ \mathrm{s}$ is $y'\left(2.7\right)$. Take an increment $\Delta t$ near $t=2.7$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+
+$$
+\frac{\Delta y}{\Delta t}=\frac{y\left(2.7+\Delta t\right)-y\left(2.7\right)}{\Delta t}=\frac{2\left[\left(2.7+\Delta t\right)^{2}-2.7^{2}\right]}{\Delta t}=2\left(5.4+\Delta t\right)=10.8+2\Delta t.
+$$
+
+Letting $\Delta t\to0$, we get
+
+$$
+y'\left(2.7\right)=\lim_{\Delta t\to0}\left(10.8+2\Delta t\right)=10.8.
+$$
+
+Hence the instantaneous velocity of particle $A$ at $t=2.7\ \mathrm{s}$ is $10.8\ \mathrm{m/s}$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 5.1, Problem 9) Let the function be $f\left(x\right)=x^{2}-1$. Find: 
+
+(1) the average rate of change of the function when the independent variable $x$ changes from $1$ to $1.1$; 
+
+(2) the derivative of the function at $x=1$.
+
+### Solution to Exercise 10
+
+By **Definition 5.1.1 (Average Rate of Change)** and **Definition 5.1.2 (Derivative)**.
+
+(1) When $x$ changes from $1$ to $1.1$, 
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(1.1\right)-f\left(1\right)}{1.1-1}=\frac{\left(1.1^{2}-1\right)-\left(1^{2}-1\right)}{0.1}=\frac{0.21}{0.1}=2.1.
+$$
+
+Hence the average rate of change of the function is $2.1$.
+
+(2) Take an increment $\Delta x$ near $x=1$, then
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f\left(1+\Delta x\right)-f\left(1\right)}{\Delta x}=\frac{\left(1+\Delta x\right)^{2}-1-\left(1-1\right)}{\Delta x}=\frac{2\Delta x+\left(\Delta x\right)^{2}}{\Delta x}=2+\Delta x.
+$$
+
+Letting $\Delta x\to0$, we get $f'\left(1\right)=\lim_{\Delta x\to0}\left(2+\Delta x\right)=2$.
+
+Hence the derivative of the function at $x=1$ is $2$. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 5.1, Problem 10) Based on Figure 5.1-6, describe the increasing (decreasing) behavior and whether it is fast or slow near $t=t_{3},t_{4}$ for the curve $h\left(t\right)$.
+
+### Solution to Exercise 11
+
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, for the curve $h\left(t\right)$, the sign of the tangent slope $h'\left(t\right)$ at a point reflects whether it is rising or falling near that point, and its absolute value reflects how fast it rises or falls.
+
+Near $t=t_{3}$, the curve is rising, and the tangent slope $h'\left(t_{3}\right)> 0$, so the curve is monotonically increasing near $t=t_{3}$; moreover, the tangent is steep and the absolute value of the slope is large, so it increases relatively fast.
+
+Near $t=t_{4}$, the curve is rising, and the tangent slope $h'\left(t_{4}\right)> 0$, so the curve is monotonically increasing near $t=t_{4}$; however, the tangent is relatively flat and the absolute value of the slope is small, so it increases relatively slowly. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 5.1, Problem 11) The graph of the function $f\left(x\right)$ is as shown. Which of the following orderings of the values is correct? ( )
+
+(A) $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$
+
+(B) $f'\left(1\right)< f'\left(2\right)< f'\left(3\right)< 0$
+
+(C) $0< f'\left(1\right)< f'\left(2\right)< f'\left(3\right)$
+
+(D) $f'\left(1\right)> f'\left(2\right)> 0> f'\left(3\right)$
+
+The figure is the graph of $y=f\left(x\right)$: a curve rising from lower left to upper right but flattening out (concave down), with tangent lines drawn at $x=1,2,3$; all three tangents have positive slopes that decrease successively.
+
+### Solution to Exercise 12
+
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, $f'\left(x\right)$ is the slope of the tangent line to the curve at that point.
+
+From the graph, the curve $y=f\left(x\right)$ is rising at $x=1,2,3$, and the tangent slopes are all positive, i.e. $f'\left(1\right),f'\left(2\right),f'\left(3\right)$ are all greater than $0$.
+
+Moreover, the graph rises more and more gently, and the tangent slope gradually decreases, i.e. $f'\left(1\right)> f'\left(2\right)> f'\left(3\right)> 0$.
+
+Therefore choose (A). $\blacksquare$
+
+## Exercise 13
+
+(Exercise 5.1, Problem 12) Find the equation of the tangent line to the curve $y=-2x^{2}+1$ at the point $\left(1,-1\right)$.
+
+### Solution to Exercise 13
+
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is $y'\big|_{x=1}$. Take an increment $\Delta x$ near $x=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{\left[-2\left(1+\Delta x\right)^{2}+1\right]-\left(-2\times1^{2}+1\right)}{\Delta x}=\frac{-4\Delta x-2\left(\Delta x\right)^{2}}{\Delta x}=-4-2\Delta x.
+$$
+
+Letting $\Delta x\to0$, we get $y'\big|_{x=1}=-4$.
+
+Hence the tangent line passes through the point $\left(1,-1\right)$ with slope $-4$, and its equation is $y+1=-4\left(x-1\right)$, i.e. $y=-4x+3$. $\blacksquare$

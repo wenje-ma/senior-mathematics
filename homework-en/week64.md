@@ -1,526 +1,540 @@
 # week64
-> **Definition 2.2.1 (Point-slope Form)**
+> **Definition 6.1.1 (分类加法计数原理)**
 > 
-> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
-> **Definition 2.4.1 (圆的标准方程)**
+> 完成一件事有两类不同方案, 在第 1 类方案中有 m 种不同的方法, 在第 2 类方案中有 n 种不同的方法, 那么完成这件事共有 N = m + n 种不同的方法.
+> **Definition 6.1.2 (分步乘法计数原理)**
 > 
-> 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
-> **Definition 2.4.3 (圆的一般方程)**
+> 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
+> **Definition 6.2.1 (排列)**
 > 
-> 点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
+> 从 n 个不同元素中取出 m (m < = n) 个元素, 按照一定的顺序排成一列, 叫做从 n 个不同元素中取出 m 个元素的一个排列.
+> **Definition 6.2.4 (Permutation and Factorial)**
+> 
+> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **Definition 6.2.5 (组合)**
+> 
+> 从 n 个不同元素中取出 m (m < = n) 个元素合成一组, 叫做从 n 个不同元素中取出 m 个元素的一个组合.
 
 ## Exercise 1
 
-(Exercise 2.5, Problem 1) Determine the position of the line $l$ relative to the circle $C$ in each pair below:
+(Exercise 6.2, Problem 1) Write out:
 
-(1) $l:x-y+1=0$, circle $C:x^2+y^2=3$;
+(1) all two-digit numbers without repeated digits formed from the $5$ natural numbers $0\sim 4$;
 
-(2) $l:3x+4y+2=0$, circle $C:x^2+y^2-2x=0$;
-
-(3) $l:x+y+3=0$, circle $C:x^2+y^2+2y=0$.
+(2) all permutations of $2$ letters taken from $a,b,c,d$.
 
 ### Solution to Exercise 1
 
-By **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle), compare the distance $d$ from the center to the line with the radius $r$.
+By **Definition 6.2.1 (Permutation)** and **Formula 6.2.3** (Permutation Number Formula).
 
-(1) The center of circle $C$ is $\left(0,0\right)$ and the radius is $r=\sqrt 3$. By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+(1) The tens digit of a two-digit number cannot be $0$. The tens digit is taken from $1,2,3,4$, and the units digit is taken from the remaining $4$ digits. All two-digit numbers are $10,12,13,14,20,21,23,24,30,31,32,34,40,41,42,43$, totaling $\mathrm{P}\left(4,1\right)\times \mathrm{P}\left(4,1\right)=4\times 4=16$.
 
-$$
-d=\frac{\left|0-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{1}{\sqrt 2}.
-$$
-
-Since $d=\frac{1}{\sqrt 2}< \sqrt 3=r$, the line $l$ intersects the circle $C$.
-
-(2) The circle $C:x^2+y^2-2x=0$ is $\left(x-1\right)^2+y^2=1$, with center $\left(1,0\right)$ and radius $r=1$. By the distance formula,
-
-$$
-d=\frac{\left|3\cdot1+4\cdot0+2\right|}{\sqrt{3^2+4^2}}=\frac{5}{5}=1.
-$$
-
-Since $d=r=1$, the line $l$ is tangent to the circle $C$.
-
-(3) The circle $C:x^2+y^2+2y=0$ is $x^2+\left(y+1\right)^2=1$, with center $\left(0,-1\right)$ and radius $r=1$. By the distance formula,
-
-$$
-d=\frac{\left|0+\left(-1\right)+3\right|}{\sqrt{1^2+1^2}}=\frac{2}{\sqrt 2}=\sqrt 2.
-$$
-
-Since $d=\sqrt 2> 1=r$, the line $l$ is disjoint from the circle $C$. $\blacksquare$
+(2) All permutations of $2$ letters taken from $a,b,c,d$ are $ab,ac,ad,ba,bc,bd,ca,cb,cd,da,db,dc$, totaling $\mathrm{P}\left(4,2\right)=4\times 3=12$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 2.5, Problem 2) Given that the line $4x+3y-35=0$ is tangent to the circle $C$ centered at the origin, find the equation of circle $C$.
+(Exercise 6.2, Problem 2) A teacher is to give lectures in turn to $4$ classes, for $1$ lecture each class. How many orders of rotation are there?
 
 ### Solution to Exercise 2
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $\left(0,0\right)$ to the line $4x+3y-35=0$ is
+By **Definition 6.2.1 (Permutation)** and **Formula 6.2.3** (Permutation Number Formula).
+
+The order of rotation arranges the $4$ classes in a row by the order of lectures, which is a full permutation of $4$ elements. By **Formula 6.2.3**, the orders of rotation total
 
 $$
-d=\frac{\left|-35\right|}{\sqrt{4^2+3^2}}=\frac{35}{5}=7.
+\mathrm{P}\left(4,4\right)=4!=24.
 $$
 
-By **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle), tangency means $d=r$, so $r=7$. By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $x^2+y^2=49$. $\blacksquare$
+Therefore there are $24$ orders of rotation. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 2.5, Problem 3) Determine the position of the line $2x-y+2=0$ relative to the circle $\left(x-1\right)^2+\left(y-2\right)^2=4$; if they intersect, find the chord length cut by the circle.
+(Exercise 6.2, Problem 3) A school's team table-tennis competition uses a $5$-match, first-to-$3$ format ($5$ singles matches). Each team sends $3$ athletes; in the first $3$ matches each athlete appears $1$ time, and among them the athletes appearing in positions $1,2$ will each also appear $1$ more time in the last $2$ matches.
+
+(1) Choosing $3$ athletes out of $5$ for the competition, how many ways of appearance are there in the first $3$ matches?
+
+(2) The $3$ athletes A, B, C take part in the competition; write out all possible ways of appearance.
 
 ### Solution to Exercise 3
 
-The center is $\left(1,2\right)$ and the radius is $r=2$. By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+By **Definition 6.2.1 (Permutation)** and **Formula 6.2.3** (Permutation Number Formula).
+
+(1) The athletes appearing in each of the first $3$ matches are distinct and ordered, which is a permutation of $3$ athletes chosen from $5$. By **Formula 6.2.3**, the ways of appearance total
 
 $$
-d=\frac{\left|2\cdot1-2+2\right|}{\sqrt{2^2+\left(-1\right)^2}}=\frac{2}{\sqrt 5}.
+\mathrm{P}\left(5,3\right)=5\times 4\times 3=60.
 $$
 
-Since $d=\frac{2}{\sqrt 5}< 2=r$, the line intersects the circle.
-
-By **Common Conclusion 2.5.2** (Chord Length Formula), the chord length is
-
-$$
-\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{4-\frac{4}{5}}=2\sqrt{\frac{16}{5}}=\frac{8\sqrt 5}{5}.
-$$
-
-$\blacksquare$
+(2) The $3$ athletes A, B, C each appear $1$ time in the first $3$ matches, which is the full permutation of these $3$ people. All possible ways of appearance are ABC, ACB, BAC, BCA, CAB, CBA, totaling $\mathrm{P}\left(3,3\right)=6$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 2.5, Problem 4) The span of Zhaozhou Bridge is $37.4\,\mathrm{m}$ and the rise of its circular arch is approximately $7.2\,\mathrm{m}$. Find the equation of the circular arch of this bridge.
+(Exercise 6.2, Problem 1) First calculate, then check with a calculating tool:
+
+(1) $\mathrm{P}\left(12,4\right)$;
+
+(2) $\mathrm{P}\left(8,8\right)$;
+
+(3) $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)$;
+
+(4) $\frac{\mathrm{P}\left(12,7\right)}{\mathrm{P}\left(12,6\right)}$.
 
 ### Solution to Exercise 4
 
-Set up a coordinate system with the line through the rise as the $y$-axis, the line through the span as the $x$-axis, and the origin at the midpoint of the span. The two endpoints of the arch are $\left(18.7,0\right)$ and $\left(-18.7,0\right)$, and the top of the arch is $\left(0,7.2\right)$.
+By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.2.4 (Full Permutation and Factorial)**.
 
-Let the center of the arch circle be on the $y$-axis at $\left(0,b\right)$ with radius $r$. By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $x^2+\left(y-b\right)^2=r^2$.
+(1) $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$.
 
-Substituting the endpoint $\left(18.7,0\right)$: $18.7^2+b^2=r^2$. Substituting the top $\left(0,7.2\right)$: $\left(7.2-b\right)^2=r^2$.
+(2) $\mathrm{P}\left(8,8\right)=8!=40320$.
 
-Equating them gives $18.7^2+b^2=\left(7.2-b\right)^2=51.84-14.4b+b^2$, i.e. $349.69=51.84-14.4b$, i.e. $b=\frac{51.84-349.69}{14.4}\approx-20.68$.
+(3) $\mathrm{P}\left(15,5\right)=15\times 14\times 13\times 12\times 11=360360$, $\mathrm{P}\left(14,4\right)=14\times 13\times 12\times 11=24024$, hence $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)=360360-15\times 24024=360360-360360=0$.
 
-$r^2=18.7^2+20.68^2\approx349.69+427.66=777.35$.
+(4) By **Definition 6.2.4 (Opposite Vector)**, $\mathrm{P}\left(12,7\right)=\frac{12!}{5!}$, $\mathrm{P}\left(12,6\right)=\frac{12!}{6!}$, hence
 
-The equation of the arch circle is $x^2+\left(y+20.68\right)^2=777.35$. $\blacksquare$
+$$
+\frac{\mathrm{P}\left(12,7\right)}{\mathrm{P}\left(12,6\right)}=\frac{12!/5!}{12!/6!}=\frac{6!}{5!}=6.
+$$
+
+$\blacksquare$
 
 ## Exercise 5
 
-(Exercise 2.5, Problem 5) A certain circular-arch bridge has a water span of $20\,\mathrm{m}$ and a rise of $4\,\mathrm{m}$. A boat is $10\,\mathrm{m}$ wide and $3\,\mathrm{m}$ above the water. Can this boat pass under the bridge?
+(Exercise 6.2, Problem 2) Prove:
+
+(1) $\mathrm{P}\left(n,m\right)=n\mathrm{P}\left(n-1,m-1\right)$;
+
+(2) $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=\mathrm{P}\left(7,7\right)$.
 
 ### Solution to Exercise 5
 
-Set up a coordinate system with the water surface as the $x$-axis and the line through the rise as the $y$-axis. The two endpoints of the arch are $\left(10,0\right)$ and $\left(-10,0\right)$, and the top is $\left(0,4\right)$.
+By **Definition 6.2.4 (Full Permutation and Factorial)** and **Formula 6.2.3** (Permutation Number Formula).
 
-Let the center be $\left(0,b\right)$ with radius $r$. Substituting the endpoints and the top:
+(1) By **Definition 6.2.4 (Opposite Vector)**, the left side is $\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}$. The right side is $n\mathrm{P}\left(n-1,m-1\right)=n\cdot\frac{\left(n-1\right)!}{\left(n-1\right)-\left(m-1\right)!}=\frac{n!}{\left(n-m\right)!}$. The left side equals the right side, which proves the claim.
 
-$10^2+b^2=r^2$, $\left(4-b\right)^2=r^2$.
-
-Equating gives $100+b^2=16-8b+b^2$, i.e. $84=-8b$, hence $b=-10.5$. $r^2=100+110.25=210.25$.
-
-The equation of the arch circle is $x^2+\left(y+10.5\right)^2=210.25$.
-
-The boat is $10\,\mathrm{m}$ wide, so we check the arch height at $x=\pm5$. Substituting $x=5$ gives $25+\left(y+10.5\right)^2=210.25$, i.e. $\left(y+10.5\right)^2=185.25$, i.e. $y+10.5=\sqrt{185.25}\approx13.61$, hence $y\approx3.11$.
-
-The boat is $3\,\mathrm{m}$ above the water, while the arch at the edge of the boat's width is approximately $3.11\,\mathrm{m}> 3\,\mathrm{m}$, so the boat can pass under the bridge. $\blacksquare$
+(2) The left side is $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=8!-8\cdot 7!+7\cdot 6!=8\cdot 7!-8\cdot 7!+7\cdot 6!=7\cdot 6!=7!$. The right side is $\mathrm{P}\left(7,7\right)=7!$. The left side equals the right side, which proves the claim. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 2.5, Problem 6) On a plane, a robot travels clockwise around the point $C\left(5,-3\right)$, starting at a point at distance $9$ from $C$ and keeping its distance from $C$ constant throughout. What are the closest and farthest distances from the robot to the line through $A\left(-10,0\right)$ and $B\left(0,12\right)$ during its motion?
+(Exercise 6.2, Problem 3) A railway station has $8$ sidings. If each siding can hold only $1$ train, and now $4$ distinct trains are to be parked, how many different ways of parking are there?
 
 ### Solution to Exercise 6
 
-The robot's path is a circle centered at $C\left(5,-3\right)$ with radius $r=9$.
+By **Definition 6.2.1 (Permutation)** and **Formula 6.2.3** (Permutation Number Formula).
 
-Equation of line $AB$: by **Common Conclusion 2.1.3** (Slope Formula), $k_{AB}=\frac{12-0}{0-\left(-10\right)}=\frac{6}{5}$. By **Definition 2.2.1 (Point-Slope Form)**, substituting $A\left(-10,0\right)$ gives $y=\frac{6}{5}\left(x+10\right)$, i.e. $6x-5y+60=0$.
-
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $C\left(5,-3\right)$ to the line $AB$ is
+Parking $4$ distinct trains requires choosing $4$ sidings out of $8$ and parking the $4$ trains into them in order, which is a permutation of $4$ elements chosen from $8$. By **Formula 6.2.3**, the ways of parking total
 
 $$
-d=\frac{\left|6\cdot5-5\cdot\left(-3\right)+60\right|}{\sqrt{6^2+\left(-5\right)^2}}=\frac{\left|30+15+60\right|}{\sqrt{61}}=\frac{105}{\sqrt{61}}\approx13.44.
+\mathrm{P}\left(8,4\right)=8\times 7\times 6\times 5=1680.
 $$
 
-Since $d\approx13.44> 9=r$, the line is disjoint from the circle.
-
-The robot's closest distance to the line is $d-r=13.44-9=4.44$, and its farthest distance is $d+r=13.44+9=22.44$. $\blacksquare$
+Therefore there are $1680$ different ways of parking. $\blacksquare$
 
 ## Exercise 7
 
-(Exercise 2.5, Problem 7) Given circle $C_1:x^2+y^2=4$ and circle $C_2:x^2+y^2-8x-6y+16=0$, determine the position of $C_1$ relative to $C_2$.
+(Exercise 6.2, Problem 1) $4$ football teams, A, B, C, D, play a single round-robin tournament.
+
+(1) List the two sides of every match;
+
+(2) List all possible outcomes for champion and runner-up.
 
 ### Solution to Exercise 7
 
-By **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
+By **Definition 6.2.5 (Combination)** and **Definition 6.2.1 (Permutation)**.
 
-Circle $C_1$: center $O_1\left(0,0\right)$, radius $r_1=2$.
+(1) In a single round-robin match, only the two sides matter and order is not considered, so it is a combination problem. The two sides of all matches are AB, AC, AD, BC, BD, CD, totaling $\binom{4}{2}=6$ matches.
 
-Circle $C_2:x^2+y^2-8x-6y+16=0$ is $\left(x-4\right)^2+\left(y-3\right)^2=9$, with center $O_2\left(4,3\right)$ and radius $r_2=3$.
-
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the distance between centers is
-
-$$
-d=\sqrt{\left(4-0\right)^2+\left(3-0\right)^2}=\sqrt{16+9}=5.
-$$
-
-$r_1+r_2=2+3=5=d$. By **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other), since $d=r_1+r_2$, the circles are externally tangent. $\blacksquare$
+(2) Champion and runner-up distinguish the first from the second place, so order matters and it is a permutation problem. All possible outcomes for champion and runner-up are AB, AC, AD, BA, BC, BD, CA, CB, CD, DA, DB, DC, totaling $\mathrm{P}\left(4,2\right)=12$. $\blacksquare$
 
 ## Exercise 8
 
-(Exercise 2.5, Problem 8) Given circle $C_1:x^2+y^2+2x+3y+1=0$ and circle $C_2:x^2+y^2+4x+3y+2=0$, prove that $C_1$ and $C_2$ intersect, and find the equation of the line containing the common chord of $C_1$ and $C_2$.
+(Exercise 6.2, Problem 2) Given $4$ points $A,B,C,D$ in a plane, no $3$ of which are collinear, write out all triangles with any $3$ of these points as vertices.
 
 ### Solution to Exercise 8
 
-By **Definition 2.4.3 (General Equation of a Circle)**, convert to standard form.
+By **Definition 6.2.5 (Combination)**.
 
-Circle $C_1:\left(x+1\right)^2+\left(y+\frac{3}{2}\right)^2=\frac{9}{4}$, center $O_1\left(-1,-\frac{3}{2}\right)$, radius $r_1=\frac{3}{2}$.
+A triangle depends only on the $3$ chosen vertices, and order is not considered, so it is a combination problem. Taking any $3$ of the $4$ points as vertices, all triangles are $\triangle ABC$, $\triangle ABD$, $\triangle ACD$, $\triangle BCD$, totaling $\binom{4}{3}=4$. $\blacksquare$
 
-Circle $C_2:\left(x+2\right)^2+\left(y+\frac{3}{2}\right)^2=\frac{17}{4}$, center $O_2\left(-2,-\frac{3}{2}\right)$, radius $r_2=\frac{\sqrt{17}}{2}$.
+## Exercise 9
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the distance between centers is $d=\sqrt{\left(-2+1\right)^2+0}=1$.
+(Exercise 6.2, Problem 3) Given the $4$ numbers $1,3,7,13$.
 
-$r_1=\frac{3}{2}$, $r_2=\frac{\sqrt{17}}{2}$. $\lvert r_1-r_2 \rvert=\frac{\sqrt{17}-3}{2}\approx0.56< 1< \frac{3+\sqrt{17}}{2}\approx3.56=r_1+r_2$. By **Common Conclusion 2.5.3** (Position of Two Circles Relative to Each Other), the circles intersect.
+(1) Taking any $2$ of these $4$ numbers and adding them, how many distinct sums can be obtained?
 
-Subtracting the two circle equations gives $\left(x^2+y^2+4x+3y+2\right)-\left(x^2+y^2+2x+3y+1\right)=0$, i.e. $2x+1=0$, i.e. $x=-\frac{1}{2}$. The equation of the line containing the common chord is $x=-\frac{1}{2}$. $\blacksquare$
+(2) Taking any $2$ of these $4$ numbers and subtracting them, how many distinct differences can be obtained?
+
+### Solution to Exercise 9
+
+By **Definition 6.2.5 (Combination)** and **Definition 6.2.1 (Permutation)**.
+
+(1) Addition is independent of the order of the two numbers, so it is a combination problem. The sums of pairs are $1+3=4$, $1+7=8$, $1+13=14$, $3+7=10$, $3+13=16$, $7+13=20$; the six sums are all distinct. Hence the distinct sums total $\binom{4}{2}=6$.
+
+(2) Subtraction distinguishes the minuend from the subtrahend, so order matters and it is a permutation problem. Taking any $2$ of the $4$ numbers and subtracting gives $\mathrm{P}\left(4,2\right)=12$ expressions, among which $1-7=-6$ equals $7-13=-6$, and $7-1=6$ equals $13-7=6$, so $2$ are duplicated. Hence the distinct differences total $12-2=10$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 6.2, Problem 1) First calculate, then check with a calculating tool:
+
+(1) $\binom{6}{2}$;
+
+(2) $\binom{9}{7}$;
+
+(3) $\binom{7}{3}-\binom{6}{2}$;
+
+(4) $3\binom{8}{3}-2\binom{5}{2}$.
+
+### Solution to Exercise 10
+
+By **Formula 6.2.7** (Combination Number Formula) and **Property** (Two Properties of Combination Numbers).
+
+(1) $\binom{6}{2}=\frac{6\times 5}{2!}=15$.
+
+(2) By **Property**, $\binom{9}{7}=\binom{9}{2}=\frac{9\times 8}{2!}=36$.
+
+(3) $\binom{7}{3}=\frac{7\times 6\times 5}{3!}=35$, $\binom{6}{2}=15$, hence $\binom{7}{3}-\binom{6}{2}=35-15=20$.
+
+(4) $\binom{8}{3}=\frac{8\times 7\times 6}{3!}=56$, $\binom{5}{2}=\frac{5\times 4}{2!}=10$, hence $3\binom{8}{3}-2\binom{5}{2}=3\times 56-2\times 10=168-20=148$. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 6.2, Problem 2) Prove: $\binom{n}{m}=\frac{m+1}{n+1}\binom{n+1}{m+1}$.
+
+### Solution to Exercise 11
+
+By **Formula 6.2.7** (Combination Number Formula).
+
+The right side is $\frac{m+1}{n+1}\binom{n+1}{m+1}=\frac{m+1}{n+1}\cdot\frac{\left(n+1\right)!}{\left(m+1\right)!\left(n-m\right)!}=\frac{n!}{m!\left(n-m\right)!}=\binom{n}{m}$. The left side equals the right side, which proves the claim. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 6.2, Problem 3) Given the academic-level exam scores in $6$ subjects: politics, history, geography, physics, chemistry, and biology, now $3$ of these subject scores are to be chosen.
+
+(1) How many different choices are there?
+
+(2) If exactly $1$ of physics and chemistry is chosen, how many different choices are there?
+
+(3) If at least $1$ of physics and chemistry is chosen, how many different choices are there?
+
+### Solution to Exercise 12
+
+By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
+
+(1) Choosing $3$ subjects out of $6$, without regard to order. By **Formula 6.2.7**, the choices total $\binom{6}{3}=\frac{6\times 5\times 4}{3!}=20$.
+
+(2) Exactly $1$ of physics and chemistry is chosen, in two steps: first choose $1$ of the $2$ subjects physics and chemistry, with $\binom{2}{1}=2$ ways; then choose $2$ of the remaining $4$ subjects politics, history, geography, and biology, with $\binom{4}{2}=6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the choices total $2\times 6=12$.
+
+(3) Use the indirect method. Choosing any $3$ of the $6$ subjects gives $\binom{6}{3}=20$ ways, among which those choosing neither physics nor chemistry are those choosing $3$ of the remaining $4$ subjects, with $\binom{4}{3}=4$ ways. By the subtraction idea of **Definition 6.1.1 (分类加法计数原理)**, the choices with at least $1$ of physics and chemistry chosen number $20-4=16$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 2.5, Review and Consolidation, Problem 1) Determine the position of the line $4x-3y=50$ relative to the circle $x^2+y^2=100$. If they have common points, find their coordinates.
+(Exercise 6.2, Review and Consolidation, Problem 1) First calculate, then check with a calculating tool:
+
+(1) $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)$;
+
+(2) $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)$.
 
 ### Solution to Problem 1
 
-The center is $\left(0,0\right)$ and the radius is $r=10$. By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+By **Formula 6.2.3** (Permutation Number Formula).
 
-$$
-d=\frac{\left|-50\right|}{\sqrt{4^2+\left(-3\right)^2}}=\frac{50}{5}=10.
-$$
+(1) $\mathrm{P}\left(5,3\right)=5\times 4\times 3=60$, $\mathrm{P}\left(4,2\right)=4\times 3=12$, hence $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)=5\times 60+4\times 12=300+48=348$.
 
-Since $d=r=10$, by **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle), the line is tangent to the circle.
-
-Tangency point coordinates: combine $\begin{cases}4x-3y=50\\x^2+y^2=100\end{cases}$. From the first equation $y=\frac{4x-50}{3}$; substituting into the second gives $x^2+\frac{\left(4x-50\right)^2}{9}=100$, i.e. $9x^2+16x^2-400x+2500=900$, i.e. $25x^2-400x+1600=0$, i.e. $x^2-16x+64=0$, i.e. $\left(x-8\right)^2=0$, hence $x=8$. Substituting back gives $y=\frac{32-50}{3}=-6$. The common point is $\left(8,-6\right)$. $\blacksquare$
+(2) $\mathrm{P}\left(4,1\right)=4$, $\mathrm{P}\left(4,2\right)=12$, $\mathrm{P}\left(4,3\right)=4\times 3\times 2=24$, $\mathrm{P}\left(4,4\right)=24$, hence $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)=4+12+24+24=64$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 2.5, Review and Consolidation, Problem 2) Find the equations of the circles determined by the following conditions, and draw their figures:
+(Exercise 6.2, Review and Consolidation, Problem 2) First calculate, then check with a calculating tool:
 
-(1) center $M\left(3,-5\right)$, tangent to the line $x-7y+2=0$;
+(1) $\binom{15}{3}$;
 
-(2) center on the line $y=x$, radius $2$, tangent to the line $y=6$;
+(2) $\binom{200}{197}$;
 
-(3) radius $\sqrt{13}$, tangent to the line $2x-3y+6=0$ at the point $\left(3,4\right)$.
+(3) $\binom{6}{3}\div \binom{8}{4}$;
 
-The figure plots three circles in the rectangular coordinate system: (1) the circle $\left(x-3\right)^2+\left(y+5\right)^2=32$ with center $M\left(3,-5\right)$, radius $4\sqrt 2$, tangent to the line $x-7y+2=0$; (2) two circles with center on the line $y=x$, radius $2$, tangent to the line $y=6$, with centers $\left(4,4\right)$ and $\left(8,8\right)$, equations $\left(x-4\right)^2+\left(y-4\right)^2=4$ and $\left(x-8\right)^2+\left(y-8\right)^2=4$; (3) two circles of radius $\sqrt{13}$ tangent to the line $2x-3y+6=0$ at the point $\left(3,4\right)$, with centers $\left(5,1\right)$ and $\left(1,7\right)$.
+(4) $\binom{n+1}{n}\cdot \binom{n}{n-2}$.
 
 ### Solution to Problem 2
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line) and **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle).
+By **Formula 6.2.7** (Combination Number Formula) and **Property** (Two Properties of Combination Numbers).
 
-(1) The radius is the distance from the center $M\left(3,-5\right)$ to the line $x-7y+2=0$:
+(1) $\binom{15}{3}=\frac{15\times 14\times 13}{3!}=455$.
 
-$$
-r=\frac{\left|3-7\cdot\left(-5\right)+2\right|}{\sqrt{1+49}}=\frac{40}{\sqrt{50}}=4\sqrt 2.
-$$
+(2) By **Property**, $\binom{200}{197}=\binom{200}{3}=\frac{200\times 199\times 198}{6}=1313400$.
 
-By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $\left(x-3\right)^2+\left(y+5\right)^2=32$.
+(3) $\binom{6}{3}=\frac{6\times 5\times 4}{6}=20$, $\binom{8}{4}=\frac{8\times 7\times 6\times 5}{24}=70$, hence $\binom{6}{3}\div \binom{8}{4}=20\div 70=\frac{2}{7}$.
 
-(2) The center is on the line $y=x$; let it be $\left(a,a\right)$. The circle is tangent to $y=6$ with radius $2$, so the distance from the center to $y=6$ is $2$, i.e. $\lvert a-6 \rvert=2$, hence $a=4$ or $a=8$. The centers are $\left(4,4\right)$ or $\left(8,8\right)$. The equations are $\left(x-4\right)^2+\left(y-4\right)^2=4$ or $\left(x-8\right)^2+\left(y-8\right)^2=4$.
-
-(3) The line joining the center to the tangency point $\left(3,4\right)$ is perpendicular to the tangent $2x-3y+6=0$. The tangent has slope $\frac{2}{3}$, so the line containing the radius has slope $-\frac{3}{2}$. The center lies on the line through $\left(3,4\right)$ with slope $-\frac{3}{2}$, i.e. $y-4=-\frac{3}{2}\left(x-3\right)$.
-
-Let the center be $\left(a,4-\frac{3}{2}\left(a-3\right)\right)=\left(a,\frac{17-3a}{2}\right)$. The radius is $\sqrt{13}$, i.e. the distance from the center to the tangency point is $\sqrt{13}$, i.e.
-
-$$
-\left(a-3\right)^2+\left(\frac{17-3a}{2}-4\right)^2=13.
-$$
-
-Simplifying gives $\left(a-3\right)^2+\left(\frac{9-3a}{2}\right)^2=13$, i.e. $\left(a-3\right)^2+\frac{9}{4}\left(a-3\right)^2=13$, i.e. $\frac{13}{4}\left(a-3\right)^2=13$, i.e. $\left(a-3\right)^2=4$, hence $a=5$ or $a=1$.
-
-The centers are $\left(5,1\right)$ or $\left(1,7\right)$. The equations are $\left(x-5\right)^2+\left(y-1\right)^2=13$ or $\left(x-1\right)^2+\left(y-7\right)^2=13$. $\blacksquare$
+(4) $\binom{n+1}{n}=\binom{n+1}{1}=n+1$, $\binom{n}{n-2}=\binom{n}{2}=\frac{n\left(n-1\right)}{2}$, hence $\binom{n+1}{n}\cdot \binom{n}{n-2}=\frac{n\left(n-1\right)\left(n+1\right)}{2}$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 2.5, Review and Consolidation, Problem 3) Find the length of the chord $AB$ cut by the circle $C:x^2+y^2-2x-4y=0$ on the line $l:3x-y-6=0$.
+(Exercise 6.2, Review and Consolidation, Problem 3) There are 1-yuan, 5-yuan, 10-yuan, and 20-yuan RMB notes, $1$ of each. How many different currency values can be formed in total?
 
 ### Solution to Problem 3
 
-The circle $C:\left(x-1\right)^2+\left(y-2\right)^2=5$ has center $\left(1,2\right)$ and radius $r=\sqrt 5$. By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+By **Definition 6.2.5 (Combination)** and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
+
+Forming a currency value means taking any number of notes from the $4$ notes of distinct denominations. Classify by the number of notes taken: taking $1$ note gives $\binom{4}{1}=4$ ways, taking $2$ notes gives $\binom{4}{2}=6$ ways, taking $3$ notes gives $\binom{4}{3}=4$ ways, taking $4$ notes gives $\binom{4}{4}=1$ way. Since the currency values corresponding to each number of notes are all distinct, by **Definition 6.1.1 (分类加法计数原理)**, in total one can form
 
 $$
-d=\frac{\left|3\cdot1-2-6\right|}{\sqrt{3^2+\left(-1\right)^2}}=\frac{5}{\sqrt{10}}.
+4+6+4+1=15
 $$
 
-By **Common Conclusion 2.5.2** (Chord Length Formula), the chord length is
-
-$$
-\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{5-\frac{25}{10}}=2\sqrt{\frac{5}{2}}=\sqrt{10}.
-$$
-
-$\blacksquare$
+currency values. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 2.5, Review and Consolidation, Problem 4) Find the equation of the circle whose center lies on the line $3x-y=0$, which is tangent to the $x$-axis, and for which the chord cut by the line $x-y=0$ has length $2\sqrt 7$.
+(Exercise 6.2, Review and Consolidation, Problem 4) Fill in the blanks.
+
+(1) There are $3$ admission tickets and $3$ of $5$ people are to be chosen to visit; the number of different ways is $\;\_\_\;$;
+
+(2) Choosing $3$ gifts from $5$ distinct gifts to give to $3$ students respectively, the number of different ways is $\;\_\_\;$;
+
+(3) Each of $5$ workers chooses $1$ day off among $3$ days; the number of different ways is $\;\_\_\;$;
+
+(4) Set $A$ has $m$ elements and set $B$ has $n$ elements; taking $1$ element from each of the two sets, the number of different ways is $\;\_\_\;$.
 
 ### Solution to Problem 4
 
-The center is on the line $3x-y=0$; let it be $\left(a,3a\right)$. The circle is tangent to the $x$-axis, so the radius equals the distance from the center to the $x$-axis, $r=\lvert 3a \rvert$.
+By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The distance from the center to the line $x-y=0$ is
+(1) Choosing $3$ of $5$ people to visit, without regard to order, is a combination problem, with $\binom{5}{3}=10$ ways.
 
-$$
-d=\frac{\lvert a-3a \rvert}{\sqrt 2}=\frac{\lvert 2a \rvert}{\sqrt 2}=\sqrt 2\lvert a \rvert.
-$$
+(2) Choosing $3$ gifts and giving them to $3$ students respectively, order matters, so it is a permutation problem, with $\mathrm{P}\left(5,3\right)=60$ ways.
 
-By **Common Conclusion 2.5.2** (Chord Length Formula), the chord length is $2\sqrt 7=2\sqrt{r^2-d^2}$, i.e. $7=r^2-d^2=9a^2-2a^2=7a^2$, hence $a^2=1$, i.e. $a=\pm1$.
+(3) Each of the $5$ workers chooses $1$ day off among $3$ days, so each has $3$ choices. By **Definition 6.1.2 (Directed Line Segment)**, there are $3^5=243$ ways.
 
-Either the center is $\left(1,3\right)$ with radius $r=3$, and the equation is $\left(x-1\right)^2+\left(y-3\right)^2=9$; or the center is $\left(-1,-3\right)$ with radius $r=3$, and the equation is $\left(x+1\right)^2+\left(y+3\right)^2=9$. $\blacksquare$
+(4) Taking $1$ element from set $A$ has $m$ ways, and taking $1$ element from set $B$ has $n$ ways. By **Definition 6.1.2 (Directed Line Segment)**, there are $mn$ ways. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 2.5, Review and Consolidation, Problem 5) Find the equation of the circle symmetric to the circle $C:x^2+y^2-x+2y=0$ with respect to the line $l:x-y+1=0$.
+(Exercise 6.2, Review and Consolidation, Problem 5) A student has $4$ distinct mathematics books, $5$ distinct physics books, and $3$ distinct chemistry books, and now these books are to be placed on a single-layer bookshelf.
+
+(1) If $6$ of the books are chosen to be placed on the shelf, how many different ways of arrangement are there?
+
+(2) If all the books are to be placed on the shelf without books of the same subject being separated, how many different ways of arrangement are there?
 
 ### Solution to Problem 5
 
-The circle $C:\left(x-\frac{1}{2}\right)^2+\left(y+1\right)^2=\frac{5}{4}$ has center $\left(\frac{1}{2},-1\right)$ and radius $r=\frac{\sqrt 5}{2}$.
+By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-First find the reflection $\left(a,b\right)$ of the center $\left(\frac{1}{2},-1\right)$ across the line $l:x-y+1=0$.
-
-The line joining the point to its reflection is perpendicular to $l$; since $l$ has slope $1$, the joining line has slope $-1$, i.e. $\frac{b+1}{a-\frac{1}{2}}=-1$, i.e. $b+1=-\left(a-\frac{1}{2}\right)$, i.e. $b=-a-\frac{1}{2}$.
-
-The midpoint $\left(\frac{a+\frac{1}{2}}{2},\frac{b-1}{2}\right)$ lies on $l$, i.e. $\frac{a+\frac{1}{2}}{2}-\frac{b-1}{2}+1=0$, i.e. $a+\frac{1}{2}-b+1+2=0$, i.e. $a-b+\frac{7}{2}=0$.
-
-Substituting $b=-a-\frac{1}{2}$ gives $a+a+\frac{1}{2}+\frac{7}{2}=0$, i.e. $2a+4=0$, hence $a=-2$, $b=\frac{3}{2}$.
-
-The reflected circle has center $\left(-2,\frac{3}{2}\right)$ and the same radius $\frac{\sqrt 5}{2}$. Its equation is $\left(x+2\right)^2+\left(y-\frac{3}{2}\right)^2=\frac{5}{4}$. $\blacksquare$
-
-## Problem 6
-
-(Exercise 2.5, Review and Consolidation, Problem 6) The square $ABCD$ has side length $a$. On side $BC$ take the segment $BE=\frac{a}{3}$, and on the extension of side $DC$ take $CF=\frac{a}{2}$. Prove that the intersection $M$ of lines $AE$ and $BF$ lies on the circumcircle of the square $ABCD$.
-
-### Solution to Problem 6
-
-Set up a coordinate system, and let the vertices of the square $ABCD$ be $A\left(0,0\right)$, $B\left(a,0\right)$, $C\left(a,a\right)$, $D\left(0,a\right)$.
-
-Then $E\left(a,\frac{a}{3}\right)$, $F\left(a+\frac{a}{2},a\right)=\left(\frac{3a}{2},a\right)$.
-
-Line $AE$ passes through $A\left(0,0\right)$ and $E\left(a,\frac{a}{3}\right)$, with slope $\frac{1}{3}$, equation $y=\frac{1}{3}x$.
-
-Line $BF$ passes through $B\left(a,0\right)$ and $F\left(\frac{3a}{2},a\right)$, with slope $\frac{a-0}{\frac{3a}{2}-a}=2$, equation $y=2\left(x-a\right)$.
-
-The intersection $M$ satisfies $\frac{1}{3}x=2\left(x-a\right)$, i.e. $x=6x-6a$, i.e. $5x=6a$, hence $x=\frac{6a}{5}$, $y=\frac{2a}{5}$.
-
-The circumcircle of the square is centered at $\left(\frac{a}{2},\frac{a}{2}\right)$ with radius $\frac{\sqrt 2 a}{2}$. The distance from $M\left(\frac{6a}{5},\frac{2a}{5}\right)$ to the center is
+(1) Choosing $6$ of the $12$ distinct books to place on the single-layer shelf, requiring both choosing the books and arranging them in order on the shelf, so it is a permutation problem. By **Formula 6.2.3**, the ways of arrangement are
 
 $$
-\sqrt{\left(\frac{6a}{5}-\frac{a}{2}\right)^2+\left(\frac{2a}{5}-\frac{a}{2}\right)^2}=\sqrt{\left(\frac{7a}{10}\right)^2+\left(-\frac{a}{10}\right)^2}=\sqrt{\frac{50a^2}{100}}=\frac{\sqrt 2 a}{2}.
+\mathrm{P}\left(12,6\right)=12\times 11\times 10\times 9\times 8\times 7=665280.
 $$
 
-The distance equals the radius, so $M$ lies on the circumcircle. $\blacksquare$
-
-## Problem 7
-
-(Exercise 2.5, Review and Consolidation, Problem 7) Find the equation of the circle passing through $M\left(2,-2\right)$ and through the intersection points of the circles $x^2+y^2-6x=0$ and $x^2+y^2=4$.
-
-### Solution to Problem 7
-
-Let the desired circle have equation $x^2+y^2-6x+\lambda\left(x^2+y^2-4\right)=0$, i.e. $\left(1+\lambda\right)x^2+\left(1+\lambda\right)y^2-6x-4\lambda=0$.
-
-Since $M\left(2,-2\right)$ lies on the circle, substituting gives $\left(1+\lambda\right)\cdot4+\left(1+\lambda\right)\cdot4-12-4\lambda=0$, i.e. $8\left(1+\lambda\right)-12-4\lambda=0$, i.e. $4\lambda-4=0$, hence $\lambda=1$.
-
-Substituting back gives $2x^2+2y^2-6x-4=0$, i.e. $x^2+y^2-3x-2=0$. $\blacksquare$
-
-## Problem 8
-
-(Exercise 2.5, Comprehensive Application, Problem 8) Find the equation of the circle whose center lies on the line $x-y-4=0$ and which passes through the intersection points of the circles $x^2+y^2+6x-4=0$ and $x^2+y^2+6y-28=0$.
-
-### Solution to Problem 8
-
-Let the desired circle have equation $x^2+y^2+6x-4+\lambda\left(x^2+y^2+6y-28\right)=0$, i.e. $\left(1+\lambda\right)x^2+\left(1+\lambda\right)y^2+6x+6\lambda y-4-28\lambda=0$.
-
-The center is $\left(-\frac{3}{1+\lambda},-\frac{3\lambda}{1+\lambda}\right)$. Since it lies on the line $x-y-4=0$, we have
+(2) Without books of the same subject being separated, first regard the mathematics books, physics books, and chemistry books each as a single block. The order of these $3$ blocks on the shelf has $\mathrm{P}\left(3,3\right)=6$ ways; arranging the mathematics books within their block has $\mathrm{P}\left(4,4\right)=24$ ways, the physics books within their block has $\mathrm{P}\left(5,5\right)=120$ ways, and the chemistry books within their block has $\mathrm{P}\left(3,3\right)=6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the ways of arrangement total
 
 $$
--\frac{3}{1+\lambda}+\frac{3\lambda}{1+\lambda}-4=0.
-$$
-
-Simplifying gives $\frac{3\lambda-3}{1+\lambda}=4$, i.e. $3\lambda-3=4+4\lambda$, i.e. $\lambda=-7$.
-
-Substituting back gives $-6x^2-6y^2+6x-42y+192=0$, i.e. $x^2+y^2-x+7y-32=0$. $\blacksquare$
-
-## Problem 9
-
-(Exercise 2.5, Comprehensive Application, Problem 9) Find the length of the common chord of the circles $x^2+y^2-4=0$ and $x^2+y^2-4x+4y-12=0$.
-
-### Solution to Problem 9
-
-Subtracting the two circle equations gives $\left(x^2+y^2-4x+4y-12\right)-\left(x^2+y^2-4\right)=0$, i.e. $-4x+4y-8=0$, i.e. $x-y+2=0$. The line containing the common chord is $x-y+2=0$.
-
-The circle $x^2+y^2=4$ has center $\left(0,0\right)$ and radius $r=2$. By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center to the common chord is
-
-$$
-d=\frac{\lvert 0-0+2 \rvert}{\sqrt 2}=\sqrt 2.
-$$
-
-By **Common Conclusion 2.5.2** (Chord Length Formula), the common chord length is
-
-$$
-2\sqrt{r^2-d^2}=2\sqrt{4-2}=2\sqrt 2.
+\mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(5,5\right)\cdot \mathrm{P}\left(3,3\right)=6\times 24\times 120\times 6=103680.
 $$
 
 $\blacksquare$
 
+## Problem 6
+
+(Exercise 6.2, Review and Consolidation, Problem 6)
+
+(1) In space there are $8$ points, no $4$ of which are coplanar. Through every $3$ points a plane is drawn. How many planes can be drawn?
+
+(2) In space there are $10$ points, no $4$ of which are coplanar. Using every $4$ points as vertices a tetrahedron is drawn. How many tetrahedra can be drawn?
+
+### Solution to Problem 6
+
+By **Formula 6.2.7** (Combination Number Formula).
+
+(1) $3$ non-collinear points determine a plane, without regard to order, so it is a combination problem. By **Formula 6.2.7**, the planes that can be drawn are
+
+$$
+\binom{8}{3}=\frac{8\times 7\times 6}{6}=56
+$$
+
+.
+
+(2) $4$ non-coplanar points determine a tetrahedron, without regard to order, so it is a combination problem. By **Formula 6.2.7**, the tetrahedra that can be drawn are
+
+$$
+\binom{10}{4}=\frac{10\times 9\times 8\times 7}{24}=210
+$$
+
+. $\blacksquare$
+
+## Problem 7
+
+(Exercise 6.2, Review and Consolidation, Problem 7) In the optional-questions part of an exam, one is required to choose $3$ of the $4$ sub-questions of Problem $1$, choose $2$ of the $3$ sub-questions of Problem $2$, and choose $1$ of the $2$ sub-questions of Problem $3$. How many different ways of choosing are there?
+
+### Solution to Problem 7
+
+By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+Completing the optional questions requires three steps: Problem $1$ chooses $3$ of the $4$ sub-questions, with $\binom{4}{3}=4$ ways; Problem $2$ chooses $2$ of the $3$ sub-questions, with $\binom{3}{2}=3$ ways; Problem $3$ chooses $1$ of the $2$ sub-questions, with $\binom{2}{1}=2$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the ways of choosing total
+
+$$
+\binom{4}{3}\cdot \binom{3}{2}\cdot \binom{2}{1}=4\times 3\times 2=24.
+$$
+
+Therefore there are $24$ different ways of choosing. $\blacksquare$
+
+## Problem 8
+
+(Exercise 6.2, Comprehensive Application, Problem 8) Prove:
+
+(1) $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=n^2\mathrm{P}\left(n-1,n-1\right)$;
+
+(2) $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n-k+1\right)n!}{k!}$ ($k\le n$).
+
+### Solution to Problem 8
+
+By **Definition 6.2.4 (Full Permutation and Factorial)**.
+
+(1) The left side is $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=\left(n+1\right)!-n!=n\cdot n!$. The right side is $n^2\mathrm{P}\left(n-1,n-1\right)=n^2\left(n-1\right)!=n\cdot n!$. The left side equals the right side, which proves the claim.
+
+(2) The left side is $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n+1\right)!-k\cdot n!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{\left(n-k+1\right)n!}{k!}$. The left side equals the right side, which proves the claim. $\blacksquare$
+
+## Problem 9
+
+(Exercise 6.2, Comprehensive Application, Problem 9) The school is to arrange the performance order of $11$ items in an evening gala. Except that the $1$st item and the last $1$ item are already fixed, the $4$ music items are required to occupy positions $2,5,7,10$, the $3$ dance items are required to occupy positions $3,6,9$, and the $2$ quyi items are required to occupy positions $4,8$. How many different arrangements are there?
+
+### Solution to Problem 9
+
+By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+The $1$st and the last $1$ item are fixed, so only the remaining $9$ positions need to be arranged. The $4$ music items occupy the specified $4$ positions, which is a full permutation of $4$ elements, with $\mathrm{P}\left(4,4\right)=24$ ways; the $3$ dance items occupy the specified $3$ positions, with $\mathrm{P}\left(3,3\right)=6$ ways; the $2$ quyi items occupy the specified $2$ positions, with $\mathrm{P}\left(2,2\right)=2$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the arrangements total
+
+$$
+\mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(2,2\right)=24\times 6\times 2=288.
+$$
+
+Therefore there are $288$ different arrangements. $\blacksquare$
+
 ## Problem 10
 
-(Exercise 2.5, Comprehensive Application, Problem 10) Find the equation of the circle passing through $M\left(3,-1\right)$ and tangent to the circle $C:x^2+y^2+2x-6y+5=0$ at the point $N\left(1,2\right)$.
+(Exercise 6.2, Extension and Exploration, Problem 10) Each group in the class has $12$ students, and now $4$ students are to be chosen from each group to represent it in a debate competition against other groups.
+
+(1) How many ways of choosing does each group have?
+
+(2) If, in addition, $1$ of the chosen students is designated as the substitute, how many ways of choosing does each group have?
+
+(3) If, in addition, the chosen students are designated as the first, second, third, and fourth debaters, how many ways of choosing does each group have?
 
 ### Solution to Problem 10
 
-The circle $C:\left(x+1\right)^2+\left(y-3\right)^2=5$ has center $C_0\left(-1,3\right)$ and radius $r_0=\sqrt 5$.
+By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The desired circle passes through the tangency point $N\left(1,2\right)$, so $N$ and the two centers are collinear. Let the desired center be $\left(a,b\right)$; then $\left(a,b\right)$, $N\left(1,2\right)$, and $C_0\left(-1,3\right)$ are collinear.
+(1) Choosing $4$ representatives from $12$ students, with no assigned roles, is a combination problem. By **Formula 6.2.7**, the ways of choosing are $\binom{12}{4}=\frac{12\times 11\times 10\times 9}{24}=495$.
 
-Equating slopes: $\frac{b-2}{a-1}=\frac{2-3}{1-\left(-1\right)}=-\frac{1}{2}$, i.e. $b-2=-\frac{1}{2}\left(a-1\right)$.
+(2) First choose $4$ people from $12$, with $\binom{12}{4}=495$ ways; then designate $1$ of the chosen $4$ as the substitute, with $\binom{4}{1}=4$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the ways of choosing total $495\times 4=1980$.
 
-The square of the desired radius is $\left(a-1\right)^2+\left(b-2\right)^2$, and since the circle passes through $M\left(3,-1\right)$, we have $\left(a-3\right)^2+\left(b+1\right)^2=\left(a-1\right)^2+\left(b-2\right)^2$.
-
-Expanding gives $a^2-6a+9+b^2+2b+1=a^2-2a+1+b^2-4b+4$, i.e. $-4a+6b+5=0$.
-
-Combining $b=2-\frac{1}{2}\left(a-1\right)=\frac{5-a}{2}$ with $-4a+6b+5=0$ and substituting gives $-4a+3\left(5-a\right)+5=0$, i.e. $-7a+20=0$, hence $a=\frac{20}{7}$, $b=\frac{5-\frac{20}{7}}{2}=\frac{15}{14}$.
-
-The square of the radius is $\left(\frac{20}{7}-1\right)^2+\left(\frac{15}{14}-2\right)^2=\left(\frac{13}{7}\right)^2+\left(-\frac{13}{14}\right)^2=\frac{169}{49}+\frac{169}{196}=\frac{845}{196}$.
-
-The equation of the circle is $\left(x-\frac{20}{7}\right)^2+\left(y-\frac{15}{14}\right)^2=\frac{845}{196}$. $\blacksquare$
+(3) Once the $4$ debater positions are designated, taking $4$ people from $12$ and filling them in order is a permutation problem. By **Formula 6.2.3**, the ways of choosing are $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 2.5, Comprehensive Application, Problem 11) A machine has three gears: $A$ meshes with $B$, and $C$ also meshes with $B$. The diameters of gears $A$, $B$, and $C$ are $200\,\mathrm{cm}$, $120\,\mathrm{cm}$, and $250\,\mathrm{cm}$ respectively, and $\angle A=45^\circ$. Set up an appropriate coordinate system and use the coordinate method to find the center-to-center distance between gears $A,C$ (to the nearest $1\,\mathrm{cm}$).
+(Exercise 6.2, Extension and Exploration, Problem 11) An array of numbers has $m$ rows and $n$ columns. The $n$ numbers in the first row are all distinct, and the remaining rows are each formed from these $n$ numbers in a different order. If the order in any two rows must be different, what is the maximum possible value of $m$?
 
 ### Solution to Problem 11
 
-Let the centers of gears $A,B,C$ be $O_A,O_B,O_C$ respectively. Their radii are $r_A=100$, $r_B=60$, $r_C=125$.
+By **Definition 6.2.4 (Full Permutation and Factorial)**.
 
-Because they mesh, $\lvert O_AO_B \rvert=r_A+r_B=160$ and $\lvert O_BO_C \rvert=r_B+r_C=185$.
-
-Take $O_A$ as the origin and the line $O_AO_B$ as the $x$-axis; then $O_A\left(0,0\right)$ and $O_B\left(160,0\right)$.
-
-$\angle A=45^\circ$, i.e. the angle between $O_AO_C$ and $O_AO_B$ is $45^\circ$. Let $O_C\left(x,y\right)$. Then
+Each row is a permutation of these $n$ distinct numbers, and one row corresponds to one permutation. To make the order in any two rows different, the number of rows $m$ cannot exceed the total number of distinct permutations of these $n$ numbers, i.e., the number of full permutations of $n$ elements. By **Definition 6.2.4 (Opposite Vector)**, the $n$ numbers have $n!$ distinct permutations, so the maximum value of $m$ is
 
 $$
-x^2+y^2=\lvert O_AO_C \rvert^2,
+n!.
 $$
 
-$$
-\left(x-160\right)^2+y^2=185^2.
-$$
-
-Subtracting the two equations gives $\left(x-160\right)^2-x^2=185^2-\lvert O_AO_C \rvert^2$. But we do not know $\lvert O_AO_C \rvert$.
-
-Since $\angle O_A=45^\circ$, in $\triangle O_AO_BO_C$, by the law of cosines,
-
-$$
-\lvert O_BO_C \rvert^2=\lvert O_AO_B \rvert^2+\lvert O_AO_C \rvert^2-2\lvert O_AO_B \rvert\lvert O_AO_C \rvert\cos45^\circ.
-$$
-
-Let $d=\lvert O_AO_C \rvert$; then $185^2=160^2+d^2-2\cdot160\cdot d\cdot\frac{\sqrt 2}{2}$, i.e. $34225=25600+d^2-160\sqrt 2\,d$, i.e. $d^2-160\sqrt 2\,d-8625=0$.
-
-Solving gives $d=\frac{160\sqrt 2+\sqrt{51200+34500}}{2}=\frac{160\sqrt 2+\sqrt{85700}}{2}\approx\frac{226.3+292.7}{2}\approx259.5$.
-
-To the nearest $1\,\mathrm{cm}$, the center-to-center distance between gears $A,C$ is approximately $260\,\mathrm{cm}$. $\blacksquare$
+$\blacksquare$
 
 ## Problem 12
 
-(Exercise 2.5, Comprehensive Application, Problem 12) Given the three points $A\left(-2,-2\right)$, $B\left(-2,6\right)$, $C\left(4,-2\right)$, and a point $P$ moving on the circle $x^2+y^2=4$, find the maximum and minimum of $\lvert PA \rvert^2+\lvert PB \rvert^2+\lvert PC \rvert^2$.
+(Exercise 6.2, Extension and Exploration, Problem 12)
+
+(1) Taking any $3$ digits from $0,2,4,6$ and any $2$ digits from $1,3,5$, how many five-digit numbers without repeated digits can be formed in total?
+
+(2) Using the digits $0,1,2,3,4,5,6$, how many positive integers without repeated digits and greater than $5000000$ can be formed?
 
 ### Solution to Problem 12
 
-Let the coordinates of $P$ be $\left(x,y\right)$; then $x^2+y^2=4$.
+By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
+
+(1) First choose the digits, then arrange them. Taking $3$ from $0,2,4,6$ has $\binom{4}{3}=4$ ways, among which $3$ choices contain $0$ and $1$ choice is $\left\{2,4,6\right\}$ without $0$; taking $2$ from $1,3,5$ has $\binom{3}{2}=3$ ways.
+
+When $0$ is included, arranging the chosen $5$ digits into a five-digit number with $0$ not in the first position gives $\mathrm{P}\left(5,5\right)-\mathrm{P}\left(4,4\right)=120-24=96$; when $0$ is not included, the $5$ digits can be arranged freely, giving $\mathrm{P}\left(5,5\right)=120$. By **Definition 6.1.1 (分类加法计数原理)**, in total one can form
 
 $$
-\lvert PA \rvert^2=\left(x+2\right)^2+\left(y+2\right)^2=x^2+y^2+4x+4y+8,
+3\times 3\times 96+1\times 3\times 120=864+360=1224
 $$
 
-$$
-\lvert PB \rvert^2=\left(x+2\right)^2+\left(y-6\right)^2=x^2+y^2+4x-12y+40,
-$$
+five-digit numbers.
+
+(2) A number greater than $5000000$, formed from the $7$ digits $0\sim 6$ without repeated digits, must be a seven-digit number whose first digit is not less than $5$. The first digit takes $5$ or $6$, with $2$ choices; once the first digit is fixed, the remaining $6$ digits are arranged in the remaining $6$ positions, with $\mathrm{P}\left(6,6\right)=720$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the positive integers satisfying the condition total
 
 $$
-\lvert PC \rvert^2=\left(x-4\right)^2+\left(y+2\right)^2=x^2+y^2-8x+4y+20.
+2\times \mathrm{P}\left(6,6\right)=2\times 720=1440
 $$
 
-Adding the three equations gives
-
-$$
-\lvert PA \rvert^2+\lvert PB \rvert^2+\lvert PC \rvert^2=3\left(x^2+y^2\right)+0x-4y+68=3\cdot4-4y+68=80-4y.
-$$
-
-Since $P$ lies on the circle $x^2+y^2=4$, we have $y\in\left[-2,2\right]$.
-
-When $y=-2$, the maximum $80-4\left(-2\right)=88$ is attained; when $y=2$, the minimum $80-4\cdot2=72$ is attained. $\blacksquare$
+. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 2.5, Extension and Exploration, Problem 13) Given the circle $x^2+y^2=4$ and the line $l:y=x+b$. For what value of $b$ are there exactly three points on the circle whose distance to the line $l$ is exactly $1$?
+(Exercise 6.2, Extension and Exploration, Problem 13) From $5$ boys and $4$ girls, $4$ people are chosen to take part in an innovation competition.
+
+(1) If, of the $4$ people, $2$ are chosen from each of boys and girls, how many ways of choosing are there?
+
+(2) If A among the boys and B among the girls must be included, how many ways are there?
+
+(3) If at least $1$ of A among the boys and B among the girls must be included, how many ways are there?
+
+(4) If the $4$ people must include both boys and girls, how many ways are there?
 
 ### Solution to Problem 13
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $\left(0,0\right)$ to the line $l:x-y+b=0$ is $d=\frac{\lvert b \rvert}{\sqrt 2}$.
+By **Formula 6.2.7** (Combination Number Formula), **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The radius of the circle is $2$. The points at distance $1$ from $l$ lie on two parallel lines, at distances $d-1$ and $d+1$ from the center.
+(1) Choose $2$ from boys and girls: first choose $2$ of the $5$ boys, then choose $2$ of the $4$ girls. By **Definition 6.1.2 (Directed Line Segment)**, the ways are $\binom{5}{2}\cdot \binom{4}{2}=10\times 6=60$.
 
-There being exactly three points on the circle at distance $1$ from $l$ means one parallel line is tangent to the circle (one intersection point) and the other intersects the circle (two intersection points).
+(2) If A and B must be included, one only needs to choose $2$ more people from the remaining $7$, with $\binom{7}{2}=21$ ways.
 
-(a) When $d-1=1$, i.e. $d=2$, one parallel line is at distance $1$ from the center (intersecting at two points) and the other is at distance $3$ (disjoint). There are only two points.
+(3) Use the indirect method. Choosing any $4$ of $9$ people gives $\binom{9}{4}=126$ ways, among which those including neither A nor B are those choosing $4$ from the remaining $7$, with $\binom{7}{4}=35$ ways. Hence the ways including at least $1$ of A and B number $126-35=91$.
 
-(b) When $d=1$, one parallel line passes through the center at $d-1=0$ (intersecting at two points) and the other is at distance $d+1=2=r$ from the center (tangent at one point). There are three points in total.
-
-Hence $d=\frac{\lvert b \rvert}{\sqrt 2}=1$, i.e. $b=\pm\sqrt 2$. $\blacksquare$
+(4) Use the indirect method. Choosing any $4$ of $9$ people gives $\binom{9}{4}=126$ ways, among which all-boys choices number $\binom{5}{4}=5$ and all-girls choices number $\binom{4}{4}=1$. By **Definition 6.1.1 (分类加法计数原理)**, the ways including both boys and girls number $126-5-1=120$. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 2.5, Extension and Exploration, Problem 14) As shown in the figure, inside the circle $x^2+y^2=8$ there is a point $P_0\left(-1,2\right)$, and $AB$ is a chord through $P_0$ with inclination angle $\alpha$.
+(Exercise 6.2, Extension and Exploration, Problem 14) $6$ students in a dormitory are invited to a party.
 
-(1) When $\alpha=135^\circ$, find the length of $AB$.
+(1) If at least someone must go and the number attending is decided freely, how many different ways of attending are there?
 
-(2) Is there a chord $AB$ that is bisected by $P_0$? If so, write the equation of line $AB$; if not, explain why.
-
-The figure plots, in the rectangular coordinate system, the circle $x^2+y^2=8$ (center at the origin, radius $2\sqrt 2$), a point $P_0\left(-1,2\right)$ inside the circle, and a chord $AB$ through $P_0$ with inclination angle $\alpha$ (endpoints $A,B$ on the circle).
+(2) If A and B must either both go or both not go, how many ways are there?
 
 ### Solution to Problem 14
 
-(1) When $\alpha=135^\circ$, the slope is $k=\tan135^\circ=-1$. The line $AB$ passes through $P_0\left(-1,2\right)$; its equation is $y-2=-\left(x+1\right)$, i.e. $x+y-1=0$.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)** and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
 
-The distance from the center $\left(0,0\right)$ to the line is $d=\frac{\lvert -1 \rvert}{\sqrt 2}=\frac{1}{\sqrt 2}$. The radius is $r=\sqrt 8=2\sqrt 2$.
+(1) Each student has two choices, go or not go, so the $6$ people have $2^6$ cases, among which the case where all $6$ do not go, $1$ case, does not satisfy the requirement that at least someone goes. By the subtraction idea of **Definition 6.1.1 (分类加法计数原理)**, the ways of attending number $2^6-1=63$.
 
-By **Common Conclusion 2.5.2** (Chord Length Formula), the chord length is
-
-$$
-\lvert AB \rvert=2\sqrt{r^2-d^2}=2\sqrt{8-\frac{1}{2}}=2\sqrt{\frac{15}{2}}=\sqrt{30}.
-$$
-
-(2) If the chord $AB$ is bisected by $P_0$, then $OP_0\perp AB$. $k_{OP_0}=\frac{2-0}{-1-0}=-2$, hence $k_{AB}=\frac{1}{2}$.
-
-The line $AB$ passes through $P_0\left(-1,2\right)$; its equation is $y-2=\frac{1}{2}\left(x+1\right)$, i.e. $x-2y+5=0$.
-
-The distance from the center to the line is $d=\frac{\lvert 5 \rvert}{\sqrt 5}=\sqrt 5< 2\sqrt 2=r$, so the line intersects the circle, and such a chord exists. The equation of line $AB$ is $x-2y+5=0$. $\blacksquare$
+(2) Divide into two categories. A and B both go: each of the remaining $4$ people may go or not go, giving $2^4=16$ ways. A and B both do not go: each of the remaining $4$ people may go or not go, but not all $4$ may stay home, giving $2^4-1=15$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the ways of attending total $16+15=31$. $\blacksquare$
 
 ## Problem 15
 
-(Exercise 2.5, Extension and Exploration, Problem 15) Given the point $P\left(-2,-3\right)$ and the circle centered at $Q$: $\left(x-4\right)^2+\left(y-2\right)^2=9$.
+(Exercise 6.2, Extension and Exploration, Problem 15) From a batch of $100$ products containing $3$ defective items, $5$ are drawn at random for inspection.
 
-(1) Draw the circle with $PQ$ as diameter and $Q'$ as center, and find the equation of circle $Q'$;
+(1) How many ways of drawing are there in which all drawn products are qualified?
 
-(2) Suppose circles $Q$ and $Q'$ intersect at $A,B$. Are $PA$ and $PB$ tangents to circle $Q$? Why?
+(2) How many ways of drawing are there in which exactly $2$ of the drawn products are defective?
 
-(3) Find the equation of line $AB$.
+(3) How many ways of drawing are there in which at least $2$ of the drawn products are defective?
 
-The figure plots, in the rectangular coordinate system: the point $P\left(-2,-3\right)$; the circle $\left(x-4\right)^2+\left(y-2\right)^2=9$ with center $Q\left(4,2\right)$ and radius $3$; and the circle with diameter $PQ$ and center $Q'$ (the midpoint of $PQ$, $\left(1,-\frac{1}{2}\right)$). The two circles intersect at $A,B$, and segments $PA$, $PB$, $QA$, $QB$ are drawn.
+(4) How many ways of drawing are there in which at most $2$ of the drawn products are defective?
 
 ### Solution to Problem 15
 
-(1) The center is $Q\left(4,2\right)$ and the point is $P\left(-2,-3\right)$. The center $Q'$ of the circle with diameter $PQ$ is the midpoint of $PQ$, $\left(\frac{4-2}{2},\frac{2-3}{2}\right)=\left(1,-\frac{1}{2}\right)$. Its radius is $\frac{\lvert PQ \rvert}{2}=\frac{\sqrt{\left(4+2\right)^2+\left(2+3\right)^2}}{2}=\frac{\sqrt{61}}{2}$.
+By **Formula 6.2.7** (Combination Number Formula), **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The equation of circle $Q'$ is $\left(x-1\right)^2+\left(y+\frac{1}{2}\right)^2=\frac{61}{4}$.
+The $100$ products include $3$ defective items and $97$ qualified items.
 
-(2) Since $AB$ is the common chord of circles $Q$ and $Q'$, and $PQ$ is a diameter of circle $Q'$, we have $\angle PAQ=90^\circ$, i.e. $PA\perp QA$. Since $QA$ is a radius of circle $Q$, $PA$ is a tangent to circle $Q$. Similarly, $PB$ is also a tangent to circle $Q$.
+(1) If the $5$ drawn items are all qualified, one takes $5$ of the $97$ qualified items, giving $\binom{97}{5}$ ways.
 
-(3) Subtracting the two circle equations: $\left(x-1\right)^2+\left(y+\frac{1}{2}\right)^2-\left[\left(x-4\right)^2+\left(y-2\right)^2\right]=\frac{61}{4}-9$.
+(2) Exactly $2$ defective items: first take $2$ of the $3$ defective items, then take $3$ of the $97$ qualified items. By **Definition 6.1.2 (Directed Line Segment)**, the ways are $\binom{3}{2}\cdot \binom{97}{3}=3\binom{97}{3}$.
 
-Expanding gives $\left(x^2-2x+1+y^2+y+\frac{1}{4}\right)-\left(x^2-8x+16+y^2-4y+4\right)=\frac{25}{4}$.
+(3) At least $2$ defective items includes the two categories of exactly $2$ defective and exactly $3$ defective. From (2), exactly $2$ defective gives $3\binom{97}{3}$ ways; exactly $3$ defective gives $\binom{3}{3}\cdot \binom{97}{2}=\binom{97}{2}$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the ways total $3\binom{97}{3}+\binom{97}{2}$.
 
-Simplifying gives $6x+5y-18.75=\frac{25}{4}$, i.e. $6x+5y=25$. The equation of line $AB$ is $6x+5y-25=0$. $\blacksquare$
+(4) At most $2$ defective items: use the indirect method. Drawing $5$ of the $100$ products gives $\binom{100}{5}$ ways, among which exactly $3$ defective gives $\binom{3}{3}\cdot \binom{97}{2}=\binom{97}{2}$ ways. Hence the ways with at most $2$ defective items number $\binom{100}{5}-\binom{97}{2}$. $\blacksquare$

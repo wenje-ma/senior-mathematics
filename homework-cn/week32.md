@@ -1,705 +1,626 @@
 # week32
-> **定义 6.1.7 (相等向量)**
+> **定义 8.1.4 (棱柱)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
-> **定义 6.2.1 (向量加法的三角形法则)**
+> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
+> **推论 8.4.6 (推论 2)**
 > 
-> 已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
-> **定义 6.2.2 (平行四边形法则)**
+> 经过两条相交直线, 有且只有一个平面.
+> **定义 8.4.9 (直线与平面的位置关系)**
 > 
-> 已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
-> **定义 6.2.4 (全排列与阶乘)**
+> 用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应把直线画在 表示平面α的平行四边形 内;直线在平面α外, 应把直线或它的一部分 画在表示平面α的平行四 边形外. (２)直线与平面相交———有且只有一个公共点; (３)直线与平面平行———没有公共点. 当直线与平面相交或平行时,直线不在平面内,也称为 直线在平面外. 图８.４１３表示了直线与平面的三种位置关系. α a α a A α a 图８.４１３ 直线与平面α相交于点,记作∩α＝;直线与平面α平行,记作∥α. ９２１ 下面我们研究空间中直线,平面之间的位置关系,
+> **定理 8.5.2 (等角定理)**
 > 
-> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
-> **定义 6.2.5 (向量的减法)**
+> 如果一个角的两边和另一个角的两边分别平行, 那么这两个角相等或互补.
+> **定理 8.5.3 (直线与平面平行的判定定理)**
 > 
-> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
-> **定义 6.2.6 (向量的数乘)**
+> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
+> **定理 8.5.4 (直线与平面平行的性质定理)**
 > 
-> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
-> **定理 6.2.8 (共线向量定理)**
+> 一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
+> **定理 8.5.5 (平面与平面平行的判定定理)**
 > 
-> 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
-> **定义 6.2.11 (向量的数量积)**
+> 一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
+> **定理 8.5.6 (平面与平面平行的性质定理)**
 > 
-> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
-
-## 练习一
-
-(练习 6.2 第 1 题) 如图, 在下列各小题中, 已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 分别用两种方法求作向量 $\boldsymbol{a}+\boldsymbol{b}$.
-
-图:共给出几组已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$(方向,夹角各不相同),要求分别用三角形法则(将 $\boldsymbol{b}$ 的起点移到 $\boldsymbol{a}$ 的终点)和平行四边形法则(两向量起点重合作平行四边形)作出和向量 $\boldsymbol{a}+\boldsymbol{b}$.
-
-### 解答 练习一
-
-由**定义 6.2.1 (向量加法的三角形法则)**, 将 $\boldsymbol{b}$ 的起点移至 $\boldsymbol{a}$ 的终点, 从 $\boldsymbol{a}$ 的起点指向 $\boldsymbol{b}$ 的终点即为 $\boldsymbol{a}+\boldsymbol{b}$. 由**定义 6.2.2 (平行四边形法则)**, 将两向量起点重合, 以两向量为邻边作平行四边形, 对角线即为 $\boldsymbol{a}+\boldsymbol{b}$. 两种方法结果一致. $\blacksquare$
-
-## 练习二
-
-(练习 6.2 第 2 题) 当向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足什么条件时, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$?
-
-### 解答 练习二
-
-由**常用结论 6.2.3** (三角不等式), $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. 当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 方向相反时, $\boldsymbol{a}+\boldsymbol{b}$ 的模等于两模之差. 当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 方向相反, 或其中有一个为零向量时, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$. $\blacksquare$
-
-## 练习三
-
-(练习 6.2 第 3 题) 根据图示填空.
-
-(1) $\boldsymbol{a}+\boldsymbol{b}=\;\_\_\;$;
-
-(2) $\boldsymbol{c}+\boldsymbol{d}=\;\_\_\;$;
-
-(3) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{d}=\;\_\_\;$;
-
-(4) $\boldsymbol{c}+\boldsymbol{d}+\boldsymbol{e}=\;\_\_\;$.
-
-图:若干个向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$, $\boldsymbol{e}$ 首尾相接画在同一张图上,各向量依次相接,要求根据首尾相接关系填空求若干向量之和.
-
-### 解答 练习三
-
-由**定义 6.2.1 (向量加法的三角形法则)**, 首尾相接的向量和等于从第一个起点指向最后一个终点的向量. 按图中各向量的首尾关系逐一写出. $\blacksquare$
-
-## 练习四
-
-(练习 6.2 第 4 题) 如图, 四边形 $ABCD$ 是平行四边形, 点 $P$ 在 $CD$ 上, 判断下列各式是否正确.
-
-(1) $\boldsymbol{DA}+\boldsymbol{DP}=\boldsymbol{PA}$;
-
-(2) $\boldsymbol{DA}+\boldsymbol{AB}+\boldsymbol{BP}=\boldsymbol{DP}$;
-
-(3) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CP}=\boldsymbol{PA}$.
-
-图:平行四边形 $ABCD$,点 $P$ 在边 $CD$ 上,标出有向线段 $\boldsymbol{DA}$, $\boldsymbol{DP}$, $\boldsymbol{AB}$, $\boldsymbol{BP}$, $\boldsymbol{BC}$, $\boldsymbol{CP}$ 等,用于判断各向量和等式是否成立.
-
-### 解答 练习四
-
-由**定义 6.2.1 (向量加法的三角形法则)**.
-
-(1) $\boldsymbol{DA}+\boldsymbol{DP}$ 以 $D$ 为起点, 首尾相接得从 $D$ 出发的合成向量, 不等于从 $P$ 指向 $A$ 的 $\boldsymbol{PA}$, 故错误.
-
-(2) $\boldsymbol{DA}+\boldsymbol{AB}=\boldsymbol{DB}$, 再加 $\boldsymbol{BP}$ 得 $\boldsymbol{DP}$, 故正确.
-
-(3) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 再加 $\boldsymbol{CP}$ 得 $\boldsymbol{AP}$, 不是 $\boldsymbol{PA}$, 故错误. $\blacksquare$
-
-## 练习五
-
-(练习 6.2 第 5 题) 有一条东西向的小河, 一艘小船从河南岸的渡口出发渡河. 小船航行速度的大小为 $15\text{ km/h}$, 方向为北偏西 $30^{\circ}$, 水流的速度为向东 $7.5\text{ km/h}$, 求小船实际航行速度的大小与方向.
-
-### 解答 练习五
-
-由**定义 6.2.2 (平行四边形法则)**, 船的实际速度为船速与水速的向量和.
-
-设船速为 $\boldsymbol{v}_1$, $\lvert\boldsymbol{v}_1\rvert=15$, 方向北偏西 $30^{\circ}$; 水速为 $\boldsymbol{v}_2$, $\lvert\boldsymbol{v}_2\rvert=7.5$, 方向向东.
-
-将两速度分解为东向 $\left(x\right)$ 和北向 $\left(y\right)$ 分量:
-
-$$
-v_{1x}=-15\sin30^{\circ}=-7.5,\quad v_{1y}=15\cos30^{\circ}=\frac{15\sqrt 3}{2}.
-$$
-
-$$
-v_{2x}=7.5,\quad v_{2y}=0.
-$$
-
-合速度分量: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt 3}{2}$.
-
-故合速度大小为 $\frac{15\sqrt 3}{2}\approx13.0\text{ km/h}$, 方向为正北. $\blacksquare$
-
-## 练习六
-
-(练习 6.2 第 6 题) 如下页图, 在各小题中, 已知 $\boldsymbol{a}$, $\boldsymbol{b}$, 分别求作 $\boldsymbol{a}-\boldsymbol{b}$.
-
-### 解答 练习六
-
-由**定义 6.2.5 (向量的减法)**, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$. 将 $\boldsymbol{b}$ 反向后与 $\boldsymbol{a}$ 用三角形法则相加, 或从同一起点作 $\boldsymbol{a}$, $\boldsymbol{b}$, 则从 $\boldsymbol{b}$ 的终点指向 $\boldsymbol{a}$ 的终点的向量即为 $\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
-
-## 练习七
-
-(练习 6.2 第 7 题) 填空.
-
-$\boldsymbol{AB}-\boldsymbol{AD}=\;\_\_\;$; $\boldsymbol{BA}-\boldsymbol{BC}=\;\_\_\;$; $\boldsymbol{BC}-\boldsymbol{BA}=\;\_\_\;$; $\boldsymbol{OD}-\boldsymbol{OA}=\;\_\_\;$; $\boldsymbol{OA}-\boldsymbol{OB}=\;\_\_\;$.
-
-### 解答 练习七
-
-由**定义 6.2.5 (向量的减法)**, 同一起点的两向量之差等于从减向量终点指向被减向量终点的向量.
-
-$\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{BC}=\boldsymbol{CA}$; $\boldsymbol{BC}-\boldsymbol{BA}=\boldsymbol{AC}$; $\boldsymbol{OD}-\boldsymbol{OA}=\boldsymbol{AD}$; $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{BA}$. $\blacksquare$
-
-## 练习八
-
-(练习 6.2 第 8 题) 作图验证: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
-
-图:先以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 及其和 $\boldsymbol{a}+\boldsymbol{b}$,再画出相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$;另画 $-\boldsymbol{a}$ 与 $-\boldsymbol{b}$ 并用三角形法则相加,两作图结果重合,验证 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
-
-### 解答 练习八
-
-由**定义 6.2.4 (全排列与阶乘)** 与**定义 6.2.5 (向量的减法)**.
-
-先作 $\boldsymbol{a}+\boldsymbol{b}$, 再作其相反向量 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$. 另一方面, 分别作 $-\boldsymbol{a}$ 和 $-\boldsymbol{b}$, 再用三角形法则相加. 由作图可见两结果重合, 故 $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
-
-## 练习九
-
-(练习 6.2 第 9 题) 任画一向量 $\boldsymbol{e}$, 分别求作向量 $\boldsymbol{a}=4\boldsymbol{e}$, $\boldsymbol{b}=-4\boldsymbol{e}$.
-
-### 解答 练习九
-
-由**定义 6.2.6 (向量的数乘)**, $4\boldsymbol{e}$ 方向与 $\boldsymbol{e}$ 相同, 长度为 $\boldsymbol{e}$ 的 $4$ 倍; $-4\boldsymbol{e}$ 方向与 $\boldsymbol{e}$ 相反, 长度为 $\boldsymbol{e}$ 的 $4$ 倍. $\blacksquare$
-
-## 练习十
-
-(练习 6.2 第 10 题) 点 $C$ 在线段 $AB$ 上, 且 $\frac{AC}{CB}=\frac{5}{2}$, 则 $\boldsymbol{AC}=\;\_\_\;\boldsymbol{AB}$, $\boldsymbol{BC}=\;\_\_\;\boldsymbol{AB}$.
-
-### 解答 练习十
-
-由**定义 6.2.6 (向量的数乘)** 与**定理 6.2.8 (共线向量定理)**.
-
-$AC:CB=5:2$, 故 $AC=\frac{5}{7}AB$, $CB=\frac{2}{7}AB$, 方向与 $\boldsymbol{AB}$ 相同. 故 $\boldsymbol{AC}=\frac{5}{7}\boldsymbol{AB}$. $\boldsymbol{BC}$ 与 $\boldsymbol{AB}$ 方向相反, 故 $\boldsymbol{BC}=-\frac{2}{7}\boldsymbol{AB}$. $\blacksquare$
-
-## 练习十一
-
-(练习 6.2 第 11 题) 把下列各小题中的向量 $\boldsymbol{b}$ 表示为实数与向量 $\boldsymbol{a}$ 的积.
-
-(1) $\boldsymbol{a}=3\boldsymbol{e}$, $\boldsymbol{b}=6\boldsymbol{e}$;
-
-(2) $\boldsymbol{a}=8\boldsymbol{e}$, $\boldsymbol{b}=-14\boldsymbol{e}$;
-
-(3) $\boldsymbol{a}=-\frac{2}{3}\boldsymbol{e}$, $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}$;
-
-(4) $\boldsymbol{a}=-\frac{3}{4}\boldsymbol{e}$, $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}$.
-
-### 解答 练习十一
-
-由**定义 6.2.6 (向量的数乘)**.
-
-(1) $\boldsymbol{b}=6\boldsymbol{e}=2\cdot\left(3\boldsymbol{e}\right)=2\boldsymbol{a}$.
-
-(2) $\boldsymbol{b}=-14\boldsymbol{e}=-\frac{14}{8}\cdot\left(8\boldsymbol{e}\right)=-\frac{7}{4}\boldsymbol{a}$.
-
-(3) $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}=-\frac{1}{2}\cdot\left(-\frac{2}{3}\boldsymbol{e}\right)=-\frac{1}{2}\boldsymbol{a}$.
-
-(4) $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}=\frac{8}{9}\cdot\left(-\frac{3}{4}\boldsymbol{e}\right)=\frac{8}{9}\boldsymbol{a}$. $\blacksquare$
-
-## 练习十二
-
-(练习 6.2 第 12 题) 判断下列各小题中的向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 是否共线.
-
-(1) $\boldsymbol{a}=-2\boldsymbol{e}$, $\boldsymbol{b}=2\boldsymbol{e}$;
-
-(2) $\boldsymbol{a}=\boldsymbol{e}_1-\boldsymbol{e}_2$, $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2$.
-
-### 解答 练习十二
-
-由**定理 6.2.8 (共线向量定理)**, 存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$ 则共线.
-
-(1) $\boldsymbol{b}=2\boldsymbol{e}=-\left(-2\boldsymbol{e}\right)=-\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线.
-
-(2) $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2=-2\left(\boldsymbol{e}_1-\boldsymbol{e}_2\right)=-2\boldsymbol{a}$, 故 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 共线. $\blacksquare$
-
-## 练习十三
-
-(练习 6.2 第 13 题) 化简.
-
-(1) $5\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
-
-(2) $\frac{1}{3}\left(\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{4}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
-
-(3) $\left(x+y\right)\boldsymbol{a}-\left(x-y\right)\boldsymbol{a}$.
-
-### 解答 练习十三
-
-由**常用结论 6.2.7** (数乘的运算律).
-
-(1) 原式 $=15\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=3\boldsymbol{a}-2\boldsymbol{b}$.
-
-(2) 原式 $=\frac{1}{3}\boldsymbol{a}-\frac{2}{3}\boldsymbol{b}-\frac{3}{4}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(\frac{1}{3}-\frac{3}{4}-\frac{1}{2}\right)\boldsymbol{a}+\left(-\frac{2}{3}+\frac{1}{2}+\frac{1}{2}\right)\boldsymbol{b}=-\frac{11}{12}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
-
-(3) 原式 $=\left(x+y-x+y\right)\boldsymbol{a}=2y\boldsymbol{a}$. $\blacksquare$
-
-## 练习十四
-
-(练习 6.2 第 14 题) 已知 $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ 是两个不共线的向量, $\boldsymbol{a}=\boldsymbol{e}_1-2\boldsymbol{e}_2$, $\boldsymbol{b}=2\boldsymbol{e}_1+k\boldsymbol{e}_2$. 若 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 是共线向量, 求实数 $k$ 的值.
-
-### 解答 练习十四
-
-由**定理 6.2.8 (共线向量定理)**, 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
-
-$2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{e}_2\right)=\lambda\boldsymbol{e}_1-2\lambda\boldsymbol{e}_2$.
-
-比较系数: $2=\lambda$, $k=-2\lambda=-4$. 故 $k=-4$. $\blacksquare$
-
-## 练习十五
-
-(练习 6.2 第 15 题) 已知 $\lvert\boldsymbol{p}\rvert=8$, $\lvert\boldsymbol{q}\rvert=6$, $\boldsymbol{p}$ 和 $\boldsymbol{q}$ 的夹角是 $60^{\circ}$, 求 $\boldsymbol{p}\cdot\boldsymbol{q}$.
-
-### 解答 练习十五
-
-由**定义 6.2.11 (向量的数量积)**, $\boldsymbol{p}\cdot\boldsymbol{q}=\lvert\boldsymbol{p}\rvert\lvert\boldsymbol{q}\rvert\cos\theta=8\times6\times\cos60^{\circ}=48\times\frac{1}{2}=24$. $\blacksquare$
-
-## 练习十六
-
-(练习 6.2 第 16 题) 已知 $\triangle ABC$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 当 $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ 或 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, 试判断 $\triangle ABC$ 的形状.
-
-### 解答 练习十六
-
-由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时 $\boldsymbol{a}\perp\boldsymbol{b}$.
-
-当 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, $\boldsymbol{AB}\perp\boldsymbol{AC}$, $\angle A=90^{\circ}$, $\triangle ABC$ 为直角三角形.
-
-当 $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ 时, $\cos A< 0$, $A> 90^{\circ}$, $\triangle ABC$ 为钝角三角形. $\blacksquare$
-
-## 练习十七
-
-(练习 6.2 第 17 题) 已知 $\lvert\boldsymbol{a}\rvert=6$, $\boldsymbol{e}$ 为单位向量, 当向量 $\boldsymbol{a}$, $\boldsymbol{e}$ 的夹角 $\theta$ 分别等于 $45^{\circ}$, $90^{\circ}$, $135^{\circ}$ 时, 求向量 $\boldsymbol{a}$ 在向量 $\boldsymbol{e}$ 上的投影向量.
-
-### 解答 练习十七
-
-由**常用结论 6.2.12** (投影向量), 投影向量为 $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
-
-$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt 2\,\boldsymbol{e}$.
-
-$\theta=90^{\circ}$: $6\cos90^{\circ}\,\boldsymbol{e}=\boldsymbol{0}$.
-
-$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e}$. $\blacksquare$
-
-## 练习十八
-
-(练习 6.2 第 18 题) 已知 $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=2$, $\lvert\boldsymbol{c}\rvert=3$, 向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $\frac{\pi}{6}$, 向量 $\boldsymbol{b}$ 与 $\boldsymbol{c}$ 的夹角为 $\frac{\pi}{4}$, 计算:
-
-(1) $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}$;
-
-(2) $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)$.
-
-### 解答 练习十八
-
-由**定义 6.2.11 (向量的数量积)**.
-
-(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. 故 $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
-
-(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. 故 $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
-
-## 练习十九
-
-(练习 6.2 第 19 题) 已知 $\lvert\boldsymbol{a}\rvert=\sqrt 2$, $\lvert\boldsymbol{b}\rvert=1$, 且 $\boldsymbol{a}-\boldsymbol{b}$ 与 $\boldsymbol{a}+2\boldsymbol{b}$ 互相垂直, 求证 $\boldsymbol{a}\perp\boldsymbol{b}$.
-
-### 解答 练习十九
-
-由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
-
-$\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+2\boldsymbol{b}\right)=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=0$.
-
-代入 $\lvert\boldsymbol{a}\rvert^2=2$, $\lvert\boldsymbol{b}\rvert^2=1$, 得 $2+\boldsymbol{a}\cdot\boldsymbol{b}-2=0$, 即 $\boldsymbol{a}\cdot\boldsymbol{b}=0$. 故 $\boldsymbol{a}\perp\boldsymbol{b}$. $\blacksquare$
-
-## 练习二十
-
-(练习 6.2 第 20 题) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
-
-### 解答 练习二十
-
-由**常用结论 6.2.14** (数量积的运算律).
-
-$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
-
-$\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
-
-两式相减得 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$. $\blacksquare$
+> 两个平行平面同时和第三个平面相交, 所得的交线平行.
+> **定义 8.6.1 (异面直线所成的角)**
+> 
+> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel a$, $b'\parallel b$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
+> **定义 8.6.2 (异面直线垂直)**
+> 
+> 线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平面α内的任意一条直线都垂直,我 们就说直线与平面α互相垂直,记作⊥α.直线叫做平面α 的垂线,平面α叫做直线的垂面.直线与平面垂直时,它们唯 一的公共点叫做垂足. 画直线与平面垂直时,通常把直线画成与表示平面的平行四 边形的一边垂直,如图８.６９所示. Ꮶ 在同一平面内,过一点有且只有一条直线与已知直线垂直.将这一结论推广到空 间,过一点垂直于已知平面的直线有几条?为什么? ９４１ 8. 6. 2 直线与平面垂直 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 8.6-7),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. 图 8.6-7 观察 如图
+> **定义 8.6.3 (直线与平面垂直)**
+> 
+> 第八章　立体几何初步 　图８.６７ ８６２! 3)< = 在日常生活中,我们对直线与平面垂直有很多 感性认识.比如,旗杆与地面的位置关系(图 ８.６７),教室里相邻墙面的交线与地面的位置关系 等,都给我们以直线与平面垂直的形象. ᜺ A B C CĂ BĂ 　图８.６８ 如图８.６８,在阳光下观察直立于地面的旗杆及 它在地面的影子.随着时间的变化,影子的位置 在不断地变化,旗杆所在直线与其影子所在直 线是否保持垂直? 事实上,随着时间的变化,尽管影子的位置在不断地变 化,但是旗杆所在直线始终与影子所在直线垂直.也就 是说,旗杆所在直线与地面上任意一条过点的直线垂直. 对于地面上不过点的任意一条直线′′,总能在地面上找到 过点的一条直线与之平行,根据异面直线垂直的定义,可知 旗杆所在直线与直线′′也垂直.因此,旗杆所在直线 与地面上任意一条直线都垂直. α l P 　图８.６９ 一般地,如果直线与平
+> **定理 8.6.4 (直线与平面垂直的判定定理)**
+> 
+> 一条直线与一个平面内的两条相交直线都垂直, 则该直线与此平面垂直.
+> **定理 8.6.5 (直线与平面垂直的性质定理)**
+> 
+> 垂直于同一个平面的两条直线平行.
+> **定义 8.6.6 (直线与平面所成的角)**
+> 
+> 垂直于平面,我们说它们所成的角是９０°;一条直线和平面平行,或在平面 内,我们说它们所成的角是０°.直线与平面所成的角θ的取值范围是０°≤θ≤９０°. A1 B1 C1 D1 A B C D O 　图８.６１５ 例４　如图８.６１５,在正方体１１１１中,求直线 １和平面１１所成的角. 分析:关键是找出直线１在平面１１上的射影. 解:连接１,１与１相交于点,连接１.设正方 体的棱长为. ∵　１１⊥１１,１１⊥１,１１∩１＝１, ∴　１１⊥平面１１. ∴　１１⊥１. 又　１⊥１, ∴　１⊥平面１１. ∴　１为斜线１在平面１１上的射影,∠１为１和平面１１ 所成的角. 在Ｒｔ△１中,１＝槡２,＝槡２２, ∴　＝１２１. ∴　∠１＝３０°. ∴　直线１和平面１１所成的角为３０°. ጷ˸ １.
+> **定义 8.6.7 (二面角)**
+> 
+> ,利用角刻画两条相交直线的位置关系,进而 研究直线与直线互相垂直这种特殊情况.类似地,我们需要先引进二面角的概念,用以刻 ５５１ 设截得棱台的棱锥的体积为 V,去掉的棱锥的体积为 V',高为 h',则 PO'h'. 于是 S(h'+h). 所以棱台的体积 V棱台=V-V' Sh+(S-S')h']. h'2 (h'+h)2* ①请你自己证明这个 Vs'h 所以 h" 结论. VS-S" 代人①,得 V棱台= -h[S+(S-S') VS-VS h(s'+vs's+S). 练习 l.已知直线α,b 和平面α,且ab,alα,则b与α的位置关系是 2.已知A,B两点在平面α的同侧,且它们与α的距离相等,求证: 直线AB//α. 3.如图,EA 和DC都垂直于平面ABC,且 EA=2DC,F是EB 的 中点,求证:DF/平面ABC. 4.求证:垂直于同一条直线的两个平面互相平行.(提示:过这条直 (第3题) 线作平面与这两个平面相交,则它们的交线平行.) 8.6.3 平面与平面垂直 像研究直线
+> **定理 8.6.8 (平面与平面垂直的判定定理)**
+> 
+> 一个平面过另一个平面的垂线, 则这两个平面垂直.
+> **定理 8.6.9 (平面与平面垂直的性质定理)**
+> 
+> 两个平面垂直, 则一个平面内垂直于交线的直线与另一个平面垂直.
 
 ## 习题一
 
-(习题 6.2 复习巩固第 1 题) 如果 $\boldsymbol{a}$ 表示 "向东走 $10\text{ km}$", $\boldsymbol{b}$ 表示 "向西走 $5\text{ km}$", $\boldsymbol{c}$ 表示 "向北走 $10\text{ km}$", $\boldsymbol{d}$ 表示 "向南走 $5\text{ km}$", 那么下列向量具有什么意义?
+(习题 8.5 拓广探索第 14 题) 如图, $a$, $b$ 是异面直线, $a\subset\alpha$, $a\parallel\beta$, $b\subset\beta$, $b\parallel\alpha$, 求证 $\alpha\parallel\beta$.
 
-(1) $\boldsymbol{a}+\boldsymbol{a}$; (2) $\boldsymbol{a}+\boldsymbol{b}$; (3) $\boldsymbol{a}+\boldsymbol{c}$; (4) $\boldsymbol{b}+\boldsymbol{d}$; (5) $\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{b}$; (6) $\boldsymbol{d}+\boldsymbol{a}+\boldsymbol{d}$.
+(题图: 两个平面 $\alpha,\beta$, 直线 $a\subset\alpha$ 且平行于 $\beta$, 直线 $b\subset\beta$ 且平行于 $\alpha$, $a,b$ 异面.)
 
 ### 解答 习题一
 
-由**定义 6.2.1 (向量加法的三角形法则)** 与**常用结论 6.2.3** (运算律).
+由**定理 8.5.4 (直线与平面平行的性质定理)** 及**定理 8.5.5 (平面与平面平行的判定定理)**.
 
-(1) 向东走 $20\text{ km}$.
+过 $a$ 作平面与 $\beta$ 交于直线 $a'$. 因为 $a\parallel\beta$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $a\parallel a'$.
 
-(2) 向东走 $5\text{ km}$.
+因为 $a$, $b$ 异面, $a\parallel a'$, 所以 $a'$ 与 $b$ 必相交, 设交点为 $P$.
 
-(3) 向东北方向走, 东 $10\text{ km}$, 北 $10\text{ km}$.
+在 $\beta$ 内, $a'$ 与 $b$ 是两条相交直线. 由 $a\parallel a'$, $a\subset\alpha$, $a'\not\subset\alpha$, 得 $a'\parallel\alpha$. 又已知 $b\parallel\alpha$.
 
-(4) 向西南方向走, 西 $5\text{ km}$, 南 $5\text{ km}$.
-
-(5) 向西走 $10\text{ km}$ 再向北走 $10\text{ km}$, 即西北方向.
-
-(6) 向南走 $10\text{ km}$ 再向东走 $10\text{ km}$, 即东南方向. $\blacksquare$
+由**定理 8.5.5 (平面与平面平行的判定定理)**, $\beta$ 内两条相交直线 $a'$, $b$ 都平行于 $\alpha$, 故 $\alpha\parallel\beta$. $\blacksquare$
 
 ## 习题二
 
-(习题 6.2 复习巩固第 2 题) 一架飞机向北飞行 $300\text{ km}$, 然后改变方向向西飞行 $400\text{ km}$, 求飞机飞行的路程及两次位移的合成.
+(习题 8.5 拓广探索第 15 题) 如图, 透明塑料制成的长方体容器 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 内灌进一些水, 固定容器底面一边 $BC$ 于地面上, 再将容器倾斜. 随着倾斜度的不同, 有下面五个命题:
+
+(1) 有水的部分始终呈棱柱形;
+
+(2) 没有水的部分始终呈棱柱形;
+
+(3) 水面 $EFGH$ 所在四边形的面积为定值;
+
+(4) 棱 $A_{1}D_{1}$ 始终与水面所在平面平行;
+
+(5) 当容器倾斜如图 (3) 所示时, $BE\cdot BF$ 是定值.
+
+其中所有正确命题的序号是 $\;\_\_\;$, 为什么?
+
+(题图: 透明长方体容器 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 绕底面边 $BC$ 倾斜的三个不同倾斜度示意图, 水面为 $EFGH$.)
 
 ### 解答 习题二
 
-由**定义 6.2.1 (向量加法的三角形法则)**.
+由**定义 8.1.4 (棱柱)** 及**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-路程为 $300+400=700\text{ km}$. 两次位移合成的大小为 $\sqrt{300^2+400^2}=500\text{ km}$, 方向为北偏西 $\arctan\frac{400}{300}\approx53.1^{\circ}$. $\blacksquare$
+固定 $BC$ 边, 水面始终是一个与地面平行的平面, 它与长方体侧面的交线始终平行于 $BC$.
+
+(1) 有水部分以垂直于 $BC$ 的截面为底面, 沿 $BC$ 方向延伸, 始终呈棱柱形. 正确.
+
+(2) 同理, 没有水的部分也始终呈棱柱形. 正确.
+
+(3) 水面四边形 $EFGH$ 中, 一边长恒等于 $BC$, 但另一边长随倾斜度变化, 面积不是定值. 错误.
+
+(4) $A_{1}D_{1}\parallel BC$, 而水面交线平行于 $BC$, 故 $A_{1}D_{1}$ 平行于水面内的直线, $A_{1}D_{1}$ 始终与水面所在平面平行. 正确.
+
+(5) 水的体积不变, 有水部分是棱柱, 垂直于 $BC$ 的截面为直角三角形, 其面积 $\frac{1}{2}BE\cdot BF$ 乘以 $BC$ 等于水体积. 因水体积和 $BC$ 都为定值, 故 $BE\cdot BF$ 为定值. 正确.
+
+故正确命题序号为 (1) (2) (4) (5). $\blacksquare$
+
+## 练习一
+
+(练习 8.6 第 1 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+
+(1) 如果两条平行直线中的一条与已知直线垂直, 那么另一条也与已知直线垂直.
+
+(2) 垂直于同一条直线的两条直线平行.
+
+### 解答 练习一
+
+由**定义 8.6.2 (异面直线垂直)** 判断.
+
+(1) 正确. 两直线平行, 其中一条与已知直线所成角为 $90^{\circ}$, 另一条所成角也为 $90^{\circ}$.
+
+(2) 错误. 垂直于同一条直线的两条直线可能平行, 相交或异面. $\blacksquare$
+
+## 练习二
+
+(练习 8.6 第 2 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 的各条棱所在直线中,
+
+(1) 与直线 $AB$ 垂直的直线有 $\;\_\_\;$ 条;
+
+(2) 与直线 $AB$ 异面且垂直的直线有 $\;\_\_\;$ 条;
+
+(3) 与直线 $AB$ 和 $A'D'$ 都垂直的直线有 $\;\_\_\;$ 条;
+
+(4) 与直线 $AB$ 和 $A'D'$ 都垂直且相交的直线是直线 $\;\_\_\;$.
+
+(题图: 长方体 $ABCD\text{-}A'B'C'D'$ 的直观图.)
+
+### 解答 练习二
+
+由**定义 8.6.2 (异面直线垂直)** 及长方体棱的方向判断.
+
+(1) $AB$ 方向的棱有 $4$ 条, 与 $AB$ 垂直的棱包括 $4$ 条竖棱和 $4$ 条宽方向棱, 共 $8$ 条.
+
+(2) 与 $AB$ 异面且垂直的棱为 $CC'$, $DD'$, $A'D'$, $B'C'$, 共 $4$ 条.
+
+(3) 与 $AB$ 和 $A'D'$ 都垂直的直线是 $4$ 条竖棱 $AA'$, $BB'$, $CC'$, $DD'$, 共 $4$ 条.
+
+(4) 与 $AB$ 和 $A'D'$ 都垂直且相交的直线是 $AA'$. $\blacksquare$
+
+## 练习三
+
+(练习 8.6 第 3 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, $AB=AD=2\sqrt{3}$, $AA'=2$, 求:
+
+(1) 直线 $BC$ 和 $A'C'$ 所成的角的大小;
+
+(2) 直线 $AA'$ 和 $BC$ 所成的角的大小.
+
+(题图: 长方体 $ABCD\text{-}A'B'C'D'$, $AB=AD=2\sqrt{3}$, $AA'=2$.)
+
+### 解答 练习三
+
+由**定义 8.6.1 (异面直线所成的角)**.
+
+(1) $BC\parallel B'C'$, 故 $BC$ 与 $A'C'$ 所成的角即 $\angle B'C'A'$. 底面 $A'B'C'D'$ 是边长为 $2\sqrt{3}$ 的正方形, $A'C'$ 为对角线, $\triangle A'B'C'$ 为等腰直角三角形, $\angle B'C'A'=45^{\circ}$.
+
+(2) $AA'$ 垂直于底面 $ABCD$, $BC\subset$ 底面, 故 $AA'\perp BC$, 所成角为 $90^{\circ}$. $\blacksquare$
+
+## 练习四
+
+(练习 8.6 第 4 题) 如图, 在正三棱柱 $ABC\text{-}A'B'C'$ 中, $D$ 为棱 $AC$ 的中点, $AB=BB'=2$, 求证 $BD\perp AC'$.
+
+(题图: 正三棱柱 $ABC\text{-}A'B'C'$, $D$ 为 $AC$ 中点.)
+
+### 解答 练习四
+
+由**定理 8.6.4 (直线与平面垂直的判定定理)** 及**定理 8.6.8 (平面与平面垂直的判定定理)**.
+
+底面 $ABC$ 是正三角形, $D$ 为 $AC$ 中点, 故 $BD\perp AC$.
+
+正三棱柱中, 侧面 $ACC'A'\perp$ 底面 $ABC$, 交线为 $AC$. $BD\subset$ 底面 $ABC$ 且 $BD\perp AC$, 由面面垂直的性质, $BD\perp$ 平面 $ACC'A'$.
+
+又 $AC'\subset$ 平面 $ACC'A'$, 故 $BD\perp AC'$. $\blacksquare$
+
+## 练习五
+
+(练习 8.6 第 1 题) 如果两条直线和一个平面所成的角相等, 那么这两条直线一定平行吗?
+
+### 解答 练习五
+
+由**定义 8.6.6 (直线与平面所成的角)** 判断.
+
+不一定. 两条直线与同一平面所成角相等时, 它们可能平行, 也可能相交或异面. 例如过平面外一点作与平面成等角的直线, 它们形成一个圆锥面, 彼此相交于该点. $\blacksquare$
+
+## 练习六
+
+(练习 8.6 第 2 题) 如图, 四棱锥 $S\text{-}ABCD$ 的底面是正方形, $SD\perp$ 平面 $ABCD$, 求证: $AC\perp$ 平面 $SDB$.
+
+(题图: 四棱锥 $S\text{-}ABCD$, 底面 $ABCD$ 为正方形, $SD\perp$ 底面.)
+
+### 解答 练习六
+
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
+
+因为 $SD\perp$ 平面 $ABCD$, $AC\subset$ 平面 $ABCD$, 故 $SD\perp AC$.
+
+底面 $ABCD$ 是正方形, 故 $AC\perp BD$.
+
+又 $SD\cap BD=D$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AC\perp$ 平面 $SDB$. $\blacksquare$
+
+## 练习七
+
+(练习 8.6 第 3 题) 如图, 在直四棱柱 $A'B'C'D'\text{-}ABCD$ 中, 当底面四边形 $ABCD$ 满足什么条件时, $A'C\perp B'D'$?
+
+(题图: 直四棱柱 $A'B'C'D'\text{-}ABCD$.)
+
+### 解答 练习七
+
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
+
+$B'D'\parallel BD$. 直四棱柱中, $A'A\perp$ 底面 $ABCD$, 故 $A'C$ 在底面的射影为 $AC$.
+
+要使 $A'C\perp B'D'$, 由三垂线定理, 只需 $AC\perp BD$.
+
+故当底面四边形 $ABCD$ 的对角线互相垂直 (即 $ABCD$ 为菱形) 时, $A'C\perp B'D'$. $\blacksquare$
+
+## 练习八
+
+(练习 8.6 第 4 题) 过 $\triangle ABC$ 所在平面 $\alpha$ 外一点 $P$, 作 $PO\perp\alpha$, 垂足为 $O$, 连接 $PA$, $PB$, $PC$.
+
+(1) 若 $PA=PB=PC$, 则点 $O$ 是 $\triangle ABC$ 的 $\;\_\_\;$ 心.
+
+(2) 若 $PA=PB=PC$, $\angle ACB=90^{\circ}$, 则点 $O$ 是 $AB$ 边的 $\;\_\_\;$ 点.
+
+### 解答 练习八
+
+由**定义 8.6.3 (直线与平面垂直)** 及勾股定理.
+
+因为 $PO\perp\alpha$, 故 $PO\perp OA$, $PO\perp OB$, $PO\perp OC$.
+
+(1) 由 $PA=PB=PC$, $PO$ 公共, $\text{Rt}\triangle POA\cong\text{Rt}\triangle POB\cong\text{Rt}\triangle POC$, 故 $OA=OB=OC$. 点 $O$ 是 $\triangle ABC$ 的外心.
+
+(2) $\angle ACB=90^{\circ}$, $\triangle ABC$ 为直角三角形, 其外心在斜边 $AB$ 的中点. 又 $OA=OB=OC$, 故 $O$ 是 $AB$ 边的中点. $\blacksquare$
+
+## 练习九
+
+(练习 8.6 第 1 题) 已知直线 $a$, $b$ 和平面 $\alpha$, 且 $a\perp b$, $a\perp\alpha$, 则 $b$ 与 $\alpha$ 的位置关系是 $\;\_\_\;$.
+
+### 解答 练习九
+
+由**定理 8.6.5 (直线与平面垂直的性质定理)** 判断.
+
+$a\perp\alpha$, 若 $b\subset\alpha$, 则 $a\perp b$ 成立. 若 $b\not\subset\alpha$, 过 $a$ 作平面交 $\alpha$ 于直线 $c$, 则 $a\perp c$. 由 $a\perp b$ 且 $a\perp c$, $b\parallel c$. $c\subset\alpha$, $b\not\subset\alpha$, 故 $b\parallel\alpha$.
+
+故 $b$ 与 $\alpha$ 的位置关系是 $b\parallel\alpha$ 或 $b\subset\alpha$. $\blacksquare$
+
+## 练习十
+
+(练习 8.6 第 2 题) 已知 $A$, $B$ 两点在平面 $\alpha$ 的同侧, 且它们与 $\alpha$ 的距离相等, 求证: 直线 $AB\parallel\alpha$.
+
+### 解答 练习十
+
+由**定理 8.5.3 (直线与平面平行的判定定理)**.
+
+分别作 $AA'\perp\alpha$, $BB'\perp\alpha$, 垂足为 $A'$, $B'$. 由**定理 8.6.5 (直线与平面垂直的性质定理)**, $AA'\parallel BB'$.
+
+由题设 $AA'=BB'$, 故四边形 $ABB'A'$ 是平行四边形, $AB\parallel A'B'$.
+
+又 $A'B'\subset\alpha$, $AB\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $AB\parallel\alpha$. $\blacksquare$
+
+## 练习十一
+
+(练习 8.6 第 3 题) 如图, $EA$ 和 $DC$ 都垂直于平面 $ABC$, 且 $EA=2DC$, $F$ 是 $EB$ 的中点, 求证: $DF\parallel$ 平面 $ABC$.
+
+(题图: $EA\perp$ 平面 $ABC$, $DC\perp$ 平面 $ABC$, $EA=2DC$, $F$ 为 $EB$ 中点.)
+
+### 解答 练习十一
+
+由**定理 8.5.3 (直线与平面平行的判定定理)** 及**定理 8.6.5 (直线与平面垂直的性质定理)**.
+
+取 $AB$ 的中点 $G$, 连接 $FG$, $CG$.
+
+在 $\triangle EAB$ 中, $F$, $G$ 分别为 $EB$, $AB$ 的中点, 故 $FG\parallel EA$, $FG=\frac{1}{2}EA$.
+
+由题设 $EA=2DC$, 故 $FG=DC$. 又 $EA\perp$ 平面 $ABC$, $DC\perp$ 平面 $ABC$, 由**定理 8.6.5 (直线与平面垂直的性质定理)**, $EA\parallel DC$. 故 $FG\parallel DC$.
+
+于是 $FG=\ DC$, 四边形 $DFGC$ 是平行四边形, $DF\parallel CG$.
+
+又 $CG\subset$ 平面 $ABC$, $DF\not\subset$ 平面 $ABC$, 故 $DF\parallel$ 平面 $ABC$. $\blacksquare$
+
+## 练习十二
+
+(练习 8.6 第 4 题) 求证: 垂直于同一条直线的两个平面互相平行.
+
+### 解答 练习十二
+
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
+
+设直线 $l\perp\alpha$, $l\perp\beta$. 过 $l$ 作两个相交平面, 分别与 $\alpha$, $\beta$ 交于 $a$, $a'$ 和 $b$, $b'$.
+
+因为 $l\perp\alpha$, 故 $l\perp a$, $l\perp b$. 因为 $l\perp\beta$, 故 $l\perp a'$, $l\perp b'$.
+
+在同一平面内, 垂直于同一直线的两条直线平行, 故 $a\parallel a'$, $b\parallel b'$.
+
+$a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相交直线. 由**定理 8.5.5 (平面与平面平行的判定定理)**, $\alpha\parallel\beta$. $\blacksquare$
+
+## 练习十三
+
+(练习 8.6 第 1 题) 如图, 检查工件的相邻两个 (平) 面是否垂直时, 只要用曲尺的一边紧靠在工件的一个面上, 另一边在工件的另一个面上转动, 观察尺边和这个面是否密合就可以了. 这是为什么?
+
+(题图: 一个工件的两个相邻平面, 一把曲尺 (直角尺) 的一边靠在一个面上, 另一边在另一面上.)
+
+### 解答 练习十三
+
+由**定理 8.6.8 (平面与平面垂直的判定定理)**.
+
+曲尺两边互相垂直. 若一边紧靠第一面, 另一边在第二面内绕交线转动时始终与第二面密合, 说明第二面内存在一条直线垂直于第一面内的曲尺边, 即第二面内有一条直线垂直于第一面.
+
+由**定理 8.6.8 (平面与平面垂直的判定定理)**, 第二面过第一面的一条垂线, 故两平面垂直. $\blacksquare$
+
+## 练习十四
+
+(练习 8.6 第 2 题) 已知直线 $a$, $b$ 与平面 $\alpha$, $\beta$, $\gamma$, 能使 $\alpha\perp\beta$ 的充分条件是 ( ).
+
+(A) $a\perp\gamma$, $\beta\perp\gamma$; (B) $\alpha\cap\beta=a$, $b\perp\alpha$, $b\subset\beta$; (C) $a\parallel\beta$, $a\parallel\alpha$; (D) $a\parallel\alpha$, $a\perp\beta$.
+
+### 解答 练习十四
+
+由**定理 8.6.8 (平面与平面垂直的判定定理)** 判断.
+
+(A) 错误. 同垂直于 $\gamma$ 的两平面 $\alpha$, $\beta$ 可能平行.
+
+(B) 正确. $b\perp\alpha$, $b\subset\beta$, 即 $\beta$ 过 $\alpha$ 的一条垂线, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, $\alpha\perp\beta$.
+
+(C) 错误. $a\parallel\alpha$, $a\parallel\beta$ 不能推出 $\alpha\perp\beta$.
+
+(D) 错误. $a\parallel\alpha$, $a\perp\beta$ 不能推出 $\alpha\perp\beta$.
+
+故选 (B). $\blacksquare$
+
+## 练习十五
+
+(练习 8.6 第 3 题) 如图, $AB\perp$ 平面 $BCD$, $BC\perp CD$, 你能发现哪些平面互相垂直? 为什么?
+
+(题图: $AB\perp$ 平面 $BCD$, $\triangle BCD$ 中 $BC\perp CD$.)
+
+### 解答 练习十五
+
+由**定理 8.6.8 (平面与平面垂直的判定定理)**.
+
+因为 $AB\perp$ 平面 $BCD$, $AB\subset$ 平面 $ABC$, $AB\subset$ 平面 $ABD$, 故平面 $ABC\perp$ 平面 $BCD$, 平面 $ABD\perp$ 平面 $BCD$.
+
+又 $BC\perp CD$, $AB\perp$ 平面 $BCD$ 故 $AB\perp CD$. $AB\cap BC=B$, 故 $CD\perp$ 平面 $ABC$. 而 $CD\subset$ 平面 $ACD$, 故平面 $ACD\perp$ 平面 $ABC$.
+
+综上, 互相垂直的平面对为: 平面 $ABC\perp$ 平面 $BCD$, 平面 $ABD\perp$ 平面 $BCD$, 平面 $ACD\perp$ 平面 $ABC$. $\blacksquare$
+
+## 练习十六
+
+(练习 8.6 第 4 题) 如图, 在正三棱柱 $ABC\text{-}A'B'C'$ 中, $D$ 为棱 $AC$ 的中点. 求证: 平面 $BDC'\perp$ 平面 $ACC'A'$.
+
+(题图: 正三棱柱 $ABC\text{-}A'B'C'$, $D$ 为 $AC$ 中点.)
+
+### 解答 练习十六
+
+由**定理 8.6.8 (平面与平面垂直的判定定理)**.
+
+底面 $ABC$ 是正三角形, $D$ 为 $AC$ 中点, 故 $BD\perp AC$.
+
+正三棱柱中, 平面 $ABC\perp$ 平面 $ACC'A'$, 交线为 $AC$. $BD\subset$ 平面 $ABC$ 且 $BD\perp AC$, 由面面垂直的性质, $BD\perp$ 平面 $ACC'A'$.
+
+又 $BD\subset$ 平面 $BDC'$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, 平面 $BDC'\perp$ 平面 $ACC'A'$. $\blacksquare$
+
+## 练习十七
+
+(练习 8.6 第 1 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+
+(1) 如果平面 $\alpha\perp$ 平面 $\beta$, 那么平面 $\alpha$ 内所有直线都垂直于平面 $\beta$.
+
+(2) 如果平面 $\alpha\perp$ 平面 $\beta$, 那么平面 $\alpha$ 内一定存在直线平行于平面 $\beta$.
+
+(3) 如果平面 $\alpha$ 不垂直于平面 $\beta$, 那么平面 $\alpha$ 内一定不存在直线垂直于平面 $\beta$.
+
+### 解答 练习十七
+
+由**定理 8.6.9 (平面与平面垂直的性质定理)** 判断.
+
+(1) 错误. $\alpha\perp\beta$ 时, $\alpha$ 内平行于交线的直线平行于 $\beta$, 不垂直.
+
+(2) 正确. $\alpha$ 内平行于两平面交线的直线平行于 $\beta$.
+
+(3) 正确. 若 $\alpha$ 内存在直线垂直于 $\beta$, 则由**定理 8.6.8 (平面与平面垂直的判定定理)**, $\alpha\perp\beta$, 矛盾. $\blacksquare$
+
+## 练习十八
+
+(练习 8.6 第 2 题) 若平面 $\alpha\perp$ 平面 $\beta$, 且 $\alpha\cap\beta=l$, 则下列命题中正确的个数是 ( ).
+
+(1) 平面 $\alpha$ 内的直线必垂直于平面 $\beta$ 内的任意一条直线.
+
+(2) 平面 $\alpha$ 内的已知直线必垂直于平面 $\beta$ 内的无数条直线.
+
+(3) 平面 $\alpha$ 内的任一条直线必垂直于平面 $\beta$.
+
+(4) 过平面 $\alpha$ 内任意一点作交线 $l$ 的垂线, 则此垂线必垂直于平面 $\beta$.
+
+(A) $3$; (B) $2$; (C) $1$; (D) $0$.
+
+### 解答 练习十八
+
+由**定理 8.6.9 (平面与平面垂直的性质定理)** 判断.
+
+(1) 错误. $\alpha$ 内平行于 $l$ 的直线不垂直于 $\beta$ 内所有直线.
+
+(2) 正确. $\alpha$ 内任一直线, 在 $\beta$ 内垂直于 $l$ 的所有直线都与它垂直, 有无数条.
+
+(3) 错误. $\alpha$ 内平行于 $l$ 的直线不垂直于 $\beta$.
+
+(4) 正确. 由**定理 8.6.9 (平面与平面垂直的性质定理)**, 过 $\alpha$ 内一点作 $l$ 的垂线, 此垂线垂直于 $\beta$.
+
+共 $2$ 个正确, 选 (B). $\blacksquare$
+
+## 练习十九
+
+(练习 8.6 第 3 题) 已知 $\alpha$, $\beta$ 是两个不同的平面, $m$ 为平面 $\alpha$ 内的一条直线, 则 "$\alpha\perp\beta$" 是 "$m\perp\beta$" 的 ( ).
+
+(A) 充分不必要条件; (B) 必要不充分条件; (C) 充要条件; (D) 既不充分也不必要条件.
+
+### 解答 练习十九
+
+由**定理 8.6.8 (平面与平面垂直的判定定理)** 判断.
+
+若 $m\perp\beta$ 且 $m\subset\alpha$, 则 $\alpha\perp\beta$, 故必要性成立.
+
+但 $\alpha\perp\beta$ 时, $\alpha$ 内的直线 $m$ 不一定垂直于 $\beta$, 故充分性不成立.
+
+故 "$\alpha\perp\beta$" 是 "$m\perp\beta$" 的必要不充分条件, 选 (B). $\blacksquare$
+
+## 练习二十
+
+(练习 8.6 第 4 题) 已知平面 $\alpha$, $\beta$, 直线 $a$, 且 $\alpha\perp\beta$, $\alpha\cap\beta=AB$, $a\parallel\alpha$, $a\perp AB$, 判断直线 $a$ 与平面 $\beta$ 的位置关系, 并说明理由.
+
+### 解答 练习二十
+
+由**定理 8.5.4 (直线与平面平行的性质定理)** 及**定理 8.6.9 (平面与平面垂直的性质定理)**.
+
+因为 $a\parallel\alpha$, 过 $a$ 作平面与 $\alpha$ 交于直线 $b$, 由线面平行性质, $a\parallel b$.
+
+因为 $a\perp AB$, 故 $b\perp AB$. 又 $\alpha\perp\beta$, $b\subset\alpha$, $b\perp AB$ (交线), 由**定理 8.6.9 (平面与平面垂直的性质定理)**, $b\perp\beta$.
+
+又 $a\parallel b$, 故 $a\perp\beta$. $\blacksquare$
 
 ## 习题三
 
-(习题 6.2 复习巩固第 3 题) 一艘船垂直于对岸航行, 航行速度的大小为 $16\text{ km/h}$, 同时河水流速的大小为 $4\text{ km/h}$. 求船实际航行的速度的大小与方向 (精确到 $1^{\circ}$).
+(习题 8.6 复习巩固第 1 题) 选择题.
+
+(1) 若空间中四条不同的直线 $l_{1}$, $l_{2}$, $l_{3}$, $l_{4}$ 满足 $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$, $l_{3}\perp l_{4}$, 则下面结论正确的是 ( ).
+
+(A) $l_{1}\perp l_{4}$; (B) $l_{1}\parallel l_{4}$; (C) $l_{1}$, $l_{4}$ 既不垂直也不平行; (D) $l_{1}$, $l_{4}$ 的位置关系不确定.
+
+(2) 设 $l$, $m$, $n$ 均为直线, 其中 $m$, $n$ 在平面 $\alpha$ 内, 则 "$l\perp\alpha$" 是 "$l\perp m$ 且 $l\perp n$" 的 ( ).
+
+(A) 充分不必要条件; (B) 必要不充分条件; (C) 充要条件; (D) 既不充分也不必要条件.
+
+(3) 直线 $l_{1}$, $l_{2}$ 互相平行的一个充分条件是 ( ).
+
+(A) $l_{1}$, $l_{2}$ 都平行于同一个平面; (B) $l_{1}$, $l_{2}$ 与同一个平面所成的角相等; (C) $l_{1}$, $l_{2}$ 都垂直于同一个平面; (D) $l_{1}$ 平行于 $l_{2}$ 所在的平面.
 
 ### 解答 习题三
 
-由**定义 6.2.2 (平行四边形法则)**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)** 及**定理 8.6.5 (直线与平面垂直的性质定理)** 判断.
 
-船速垂直河岸 $16\text{ km/h}$, 水速沿岸 $4\text{ km/h}$. 合速度大小为 $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{ km/h}$. 方向与河岸垂线的夹角 $\theta$ 满足 $\tan\theta=\frac{4}{16}=\frac{1}{4}$, $\theta\approx14^{\circ}$. $\blacksquare$
+(1) $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$ 只能推出 $l_{1}$ 与 $l_{3}$ 平行或异面, $l_{3}\perp l_{4}$ 后 $l_{1}$ 与 $l_{4}$ 的位置关系仍不确定. 故选 (D).
+
+(2) $l\perp\alpha$ 必有 $l\perp m$ 且 $l\perp n$, 但 $l\perp m$ 且 $l\perp n$ 时若 $m\parallel n$ 则不能推出 $l\perp\alpha$. 故为充分不必要条件, 选 (A).
+
+(3) 由**定理 8.6.5 (直线与平面垂直的性质定理)**, 垂直于同一平面的两直线平行. 故选 (C). $\blacksquare$
 
 ## 习题四
 
-(习题 6.2 复习巩固第 4 题) 化简.
+(习题 8.6 复习巩固第 2 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
 
-(1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
+(1) 过平面外一点, 有且只有一条直线与这个平面垂直.
 
-(2) $\left(\boldsymbol{AB}+\boldsymbol{MB}\right)+\boldsymbol{BO}+\boldsymbol{OM}$;
+(2) 过平面外一点, 有且只有一条直线与这个平面平行.
 
-(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}$;
+(3) 过直线外一点, 有且只有一个平面与这条直线垂直.
 
-(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}$;
+(4) 过直线外一点, 有且只有一个平面与这条直线平行.
 
-(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}$;
-
-(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}$;
-
-(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}$.
+(5) 过直线外一点, 有且只有一条直线与这条直线平行.
 
 ### 解答 习题四
 
-由**定义 6.2.1 (向量加法的三角形法则)** 与**定义 6.2.5 (向量的减法)**.
+由线面平行, 垂直的基本性质判断.
 
-(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 再加 $\boldsymbol{CA}$ 得 $\boldsymbol{0}$.
+(1) 正确. 过平面外一点与该平面垂直的直线唯一.
 
-(2) $\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}=\boldsymbol{AB}+\left(\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}\right)=\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BM}=\boldsymbol{AB}$.
+(2) 错误. 过平面外一点有无数条直线与该平面平行, 它们都在过该点且平行于该平面的平面内.
 
-(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}=\left(\boldsymbol{OA}+\boldsymbol{BO}\right)+\left(\boldsymbol{OC}+\boldsymbol{CO}\right)=\boldsymbol{OA}+\boldsymbol{BO}=\boldsymbol{BA}$.
+(3) 正确. 过直线外一点与该直线垂直的平面唯一.
 
-(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}=\boldsymbol{CB}+\boldsymbol{BD}+\boldsymbol{DC}=\boldsymbol{CB}+\boldsymbol{BC}=\boldsymbol{0}$.
+(4) 错误. 过直线外一点有无数个平面与该直线平行.
 
-(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}=\boldsymbol{DA}+\boldsymbol{AD}=\boldsymbol{0}$.
-
-(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}=\boldsymbol{DB}-\boldsymbol{DC}=\boldsymbol{CB}$.
-
-(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}=\boldsymbol{NP}+\boldsymbol{MN}+\boldsymbol{PM}=\boldsymbol{MN}+\boldsymbol{NP}+\boldsymbol{PM}=\boldsymbol{0}$. $\blacksquare$
+(5) 正确. 由平行公理, 过直线外一点有且只有一条直线与已知直线平行. $\blacksquare$
 
 ## 习题五
 
-(习题 6.2 复习巩固第 5 题) 作图验证:
+(习题 8.6 复习巩固第 3 题) 判断下列命题是否正确, 正确的说明理由, 错误的举例说明.
 
-(1) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)+\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}$;
+(1) 一条直线平行于一个平面, 另一条直线与这个平面垂直, 则这两条直线互相垂直;
 
-(2) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{b}$.
+(2) 如果平面 $\alpha\parallel$ 平面 $\alpha_{1}$, 平面 $\beta\parallel$ 平面 $\beta_{1}$, 那么平面 $\alpha$ 与平面 $\beta$ 所成的二面角和平面 $\alpha_{1}$ 与平面 $\beta_{1}$ 所成的二面角相等或互补;
 
-图:以同一起点画出向量 $\boldsymbol{a}$, $\boldsymbol{b}$,先作 $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$ 与 $\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$ 再相加得 $\boldsymbol{a}$;另一组作图将二者相减得 $\boldsymbol{b}$,验证两个恒等式.
+(3) 如果平面 $\alpha\perp$ 平面 $\beta$, 平面 $\beta\perp$ 平面 $\gamma$, 那么平面 $\alpha\perp$ 平面 $\gamma$.
 
 ### 解答 习题五
 
-由**常用结论 6.2.7** (数乘的运算律).
+由**定理 8.6.4 (直线与平面垂直的判定定理)** 判断.
 
-(1) 左边 $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}=\boldsymbol{a}=$ 右边.
+(1) 正确. 直线 $l\parallel$ 平面 $\alpha$, 直线 $m\perp\alpha$. 过 $l$ 作平面交 $\alpha$ 于 $l'$, 则 $l\parallel l'$. $m\perp\alpha$ 故 $m\perp l'$, 从而 $m\perp l$.
 
-(2) 左边 $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\boldsymbol{b}=$ 右边. $\blacksquare$
+(2) 正确. 两平行平面分别与另两平行平面相交, 所得二面角的平面角对应相等或互补.
+
+(3) 错误. 反例: 墙面与地面垂直, 另一面墙也与地面垂直, 但这两面墙平行或相交, 不一定垂直. $\blacksquare$
 
 ## 习题六
 
-(习题 6.2 复习巩固第 6 题)
+(习题 8.6 复习巩固第 4 题) 如图, 在直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$ 中, $CA=CB$, $P$ 为 $A_{1}B$ 的中点, $Q$ 为棱 $C_{1}C$ 的中点. 求证:
 
-(1) 已知向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 求作向量 $\boldsymbol{c}$, 使 $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
+(1) $PQ\parallel AB$;
 
-(2) (1) 中表示 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 的有向线段能构成三角形吗?
+(2) $PQ\perp C_{1}C$;
+
+(3) $PQ\perp A_{1}B$.
+
+(题图: 直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$, $CA=CB$, $P$ 为 $A_{1}B$ 中点, $Q$ 为 $C_{1}C$ 中点.)
 
 ### 解答 习题六
 
-由**定义 6.2.1 (向量加法的三角形法则)**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-(1) 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则 $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$. 取 $\boldsymbol{c}=-\boldsymbol{AC}$, 即从 $C$ 指向 $A$ 的向量, 则 $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
+取 $AB$ 的中点 $M$, 连接 $PM$, $CM$.
 
-(2) 三条有向线段首尾相接构成三角形. $\blacksquare$
+(1) 在 $\triangle A_{1}AB$ 中, $P$, $M$ 分别为 $A_{1}B$, $AB$ 的中点, 故 $PM\parallel A_{1}A$, $PM=\frac{1}{2}A_{1}A$. 又 $Q$ 为 $C_{1}C$ 中点, $CQ=\frac{1}{2}C_{1}C=\frac{1}{2}A_{1}A$, 且 $CQ\parallel A_{1}A$. 故 $PM=\ CQ$, 四边形 $PMCQ$ 为平行四边形, $PQ\parallel CM$. 又 $CM\subset$ 底面 $ABC$, $AB\subset$ 底面, 故 $PQ\parallel AB$.
+
+(2) $CA=CB$, $M$ 为 $AB$ 中点, 故 $CM\perp AB$. 直三棱柱中 $CC_{1}\perp$ 底面 $ABC$, 故 $CC_{1}\perp CM$. $PQ\parallel CM$, 故 $PQ\perp C_{1}C$.
+
+(3) $CM\perp AB$, $CM\perp BB_{1}$ (直三棱柱), 故 $CM\perp$ 平面 $ABB_{1}A_{1}$. $A_{1}B\subset$ 平面 $ABB_{1}A_{1}$, 故 $CM\perp A_{1}B$. $PQ\parallel CM$, 故 $PQ\perp A_{1}B$. $\blacksquare$
 
 ## 习题七
 
-(习题 6.2 复习巩固第 7 题) 已知 $\boldsymbol{a}$, $\boldsymbol{b}$ 为两个非零向量.
+(习题 8.6 复习巩固第 5 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $CD\perp AB$, 垂足为 $D$, $PO\perp$ 底面 $ABC$, 垂足为 $O$, 且 $O$ 在 $CD$ 上, 求证 $AB\perp PC$.
 
-(1) 求作向量 $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$;
-
-(2) 当向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 成什么位置关系时, 满足 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$? (不要求证明)
+(题图: 三棱锥 $P\text{-}ABC$, $PO\perp$ 底面 $ABC$, $O$ 在 $CD$ 上, $CD\perp AB$.)
 
 ### 解答 习题七
 
-由**定义 6.2.1 (向量加法的三角形法则)** 与**定义 6.2.5 (向量的减法)**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-(1) 略.
+因为 $PO\perp$ 底面 $ABC$, $AB\subset$ 底面 $ABC$, 故 $PO\perp AB$.
 
-(2) 由 $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}\right)^2$ 展开得 $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$. 故当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 垂直时满足. $\blacksquare$
+又已知 $CD\perp AB$, 且 $PO\cap CD=O$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AB\perp$ 平面 $PCD$.
+
+因为 $PC\subset$ 平面 $PCD$, 故 $AB\perp PC$. $\blacksquare$
 
 ## 习题八
 
-(习题 6.2 复习巩固第 8 题) 化简.
+(习题 8.6 复习巩固第 6 题) 如图, 在正方体 $ABCD\text{-}A'B'C'D'$ 中, 平面 $ABC'D'$ 与正方体的各个面所在的平面所成的二面角的大小分别是多少?
 
-(1) $5\left(2\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
-
-(2) $6\left(\boldsymbol{a}-3\boldsymbol{b}+\boldsymbol{c}\right)-4\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$;
-
-(3) $\frac{1}{2}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+5\boldsymbol{a}-\frac{1}{3}\left(6\boldsymbol{a}-9\boldsymbol{b}\right)$;
-
-(4) $\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(x-y\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+(题图: 正方体 $ABCD\text{-}A'B'C'D'$, 标出平面 $ABC'D'$.)
 
 ### 解答 习题八
 
-由**常用结论 6.2.7** (数乘的运算律).
+由**定义 8.6.7 (二面角)** 计算.
 
-(1) 原式 $=10\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=-2\boldsymbol{a}-2\boldsymbol{b}$.
+平面 $ABC'D'$ 与正方体六个面的交线分别为 $AB$, $C'D'$, $AD'$, $BC'$.
 
-(2) 原式 $=6\boldsymbol{a}-18\boldsymbol{b}+6\boldsymbol{c}+4\boldsymbol{a}-4\boldsymbol{b}+4\boldsymbol{c}=10\boldsymbol{a}-22\boldsymbol{b}+10\boldsymbol{c}$.
+与底面 $ABCD$, 顶面 $A'B'C'D'$, 正面 $ABB'A'$, 背面 $CDD'C'$ 所成二面角均为 $45^{\circ}$ (因为该平面与这四个面的交线方向上, 平面的倾斜角为 $45^{\circ}$).
 
-(3) 原式 $=\frac{3}{2}\boldsymbol{a}-\boldsymbol{b}+5\boldsymbol{a}-2\boldsymbol{a}+3\boldsymbol{b}=\frac{9}{2}\boldsymbol{a}+2\boldsymbol{b}$.
+与左面 $ADD'A'$, 右面 $BCC'B'$ 所成二面角均为 $90^{\circ}$ (因为平面 $ABC'D'$ 垂直于这两个面).
 
-(4) 原式 $=\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{a}+\boldsymbol{b}\right)=2\left(x-y\right)\boldsymbol{b}$. $\blacksquare$
+故平面 $ABC'D'$ 与前后上下四个面成 $45^{\circ}$, 与左右两个面成 $90^{\circ}$. $\blacksquare$
 
 ## 习题九
 
-(习题 6.2 复习巩固第 9 题) 如图, $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$, $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$. 求证 $\boldsymbol{MN}=\frac{1}{3}\boldsymbol{BC}$.
+(习题 8.6 复习巩固第 7 题) 如图, 在三棱锥 $V\text{-}ABC$ 中, 已知 $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$, 判断平面 $VAB$ 与平面 $VBC$ 的位置关系, 并说明理由.
 
-图:三角形 $ABC$,点 $M$ 在边 $AB$ 上且 $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$,点 $N$ 在边 $AC$ 上且 $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$,连接 $MN$,线段 $MN$ 与 $BC$ 平行且 $MN=\frac{1}{3}BC$.
+(题图: 三棱锥 $V\text{-}ABC$, $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$.)
 
 ### 解答 习题九
 
-由**定理 6.2.8 (共线向量定理)**.
+由**定理 8.6.4 (直线与平面垂直的判定定理)** 及**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\frac{1}{3}\boldsymbol{AB}=\frac{1}{3}\left(\boldsymbol{AC}-\boldsymbol{AB}\right)=\frac{1}{3}\boldsymbol{BC}$. $\blacksquare$
+因为 $\angle VAB=\angle VAC=90^{\circ}$, 故 $VA\perp AB$, $VA\perp AC$. $AB\cap AC=A$, 故 $VA\perp$ 平面 $ABC$.
+
+因为 $BC\subset$ 平面 $ABC$, 故 $VA\perp BC$. 又 $\angle ABC=90^{\circ}$, 即 $AB\perp BC$. $VA\cap AB=A$, 故 $BC\perp$ 平面 $VAB$.
+
+又 $BC\subset$ 平面 $VBC$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, 平面 $VBC\perp$ 平面 $VAB$. $\blacksquare$
 
 ## 习题十
 
-(习题 6.2 复习巩固第 10 题) 填空.
-
-(1) 若 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert\boldsymbol{a}\rvert=2$, $\lvert\boldsymbol{b}\rvert=3$, 则 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$ 的最大值为 $\;\_\_\;$, 最小值为 $\;\_\_\;$;
-
-(2) 当不共线的向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\;\_\_\;$ 时, $\boldsymbol{a}+\boldsymbol{b}$ 平分 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角.
+(习题 8.6 复习巩固第 8 题) 求证: 如果共点的三条直线两两垂直, 那么它们中每两条直线确定的平面也两两垂直.
 
 ### 解答 习题十
 
-由**常用结论 6.2.3** (三角不等式).
+由**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-(1) 同向时最大: $2+3=5$; 反向时最小: $\left|2-3\right|=1$.
+设共点于 $O$ 的三条直线 $l_{1}$, $l_{2}$, $l_{3}$ 两两垂直, 即 $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$, $l_{3}\perp l_{1}$.
 
-(2) 当 $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$ 时, 平行四边形为菱形, 对角线平分夹角. $\blacksquare$
+$l_{1}\perp l_{2}$ 且 $l_{1}\perp l_{3}$, $l_{2}\cap l_{3}=O$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $l_{1}\perp$ 平面 $\left(l_{2},l_{3}\right)$.
+
+平面 $\left(l_{1},l_{2}\right)$ 过 $l_{1}$, 而 $l_{1}\perp$ 平面 $\left(l_{2},l_{3}\right)$, 故平面 $\left(l_{1},l_{2}\right)\perp$ 平面 $\left(l_{2},l_{3}\right)$.
+
+同理可证平面 $\left(l_{2},l_{3}\right)\perp$ 平面 $\left(l_{3},l_{1}\right)$, 平面 $\left(l_{3},l_{1}\right)\perp$ 平面 $\left(l_{1},l_{2}\right)$. 故三个平面两两垂直. $\blacksquare$
 
 ## 习题十一
 
-(习题 6.2 复习巩固第 11 题)
-
-(1) 已知 $\lvert\boldsymbol{a}\rvert=3$, $\lvert\boldsymbol{b}\rvert=4$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角 $\theta=150^{\circ}$, 求 $\boldsymbol{a}\cdot\boldsymbol{b}$, $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2$, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$;
-
-(2) 已知 $\lvert\boldsymbol{a}\rvert=2$, $\lvert\boldsymbol{b}\rvert=5$, 且 $\boldsymbol{a}\cdot\boldsymbol{b}=-3$, 求 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$, $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$.
+(习题 8.6 复习巩固第 9 题) 已知平面 $\alpha$, $\beta$, $\gamma$, 且 $\alpha\perp\gamma$, $\beta\parallel\alpha$, 求证 $\beta\perp\gamma$.
 
 ### 解答 习题十一
 
-由**定义 6.2.11 (向量的数量积)** 与**常用结论 6.2.13**.
+由**定理 8.6.8 (平面与平面垂直的判定定理)** 及**定理 8.5.6 (平面与平面平行的性质定理)**.
 
-(1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt 3}{2}\right)=-6\sqrt 3$.
+设 $\alpha\cap\gamma=a$. 在 $\alpha$ 内作直线 $l\perp a$, 由**定理 8.6.9 (平面与平面垂直的性质定理)**, $l\perp\gamma$.
 
-$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt 3+16=25-12\sqrt 3$.
+因为 $\alpha\parallel\beta$, 过 $l$ 作平面与 $\beta$ 交于 $l'$, 由面面平行性质, $l'\parallel l$.
 
-$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt 3}$.
-
-(2) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=4-6+25=23$, 故 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{23}$.
-
-$\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=4+6+25=35$, 故 $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert=\sqrt{35}$. $\blacksquare$
-
-## 习题十二
-
-(习题 6.2 复习巩固第 12 题) 求证: $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$.
-
-### 解答 习题十二
-
-由**定义 6.2.11 (向量的数量积)**.
-
-$\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
-
-$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. 当 $\lambda< 0$ 时夹角改变但余弦符号一致, 等式仍成立. 同理 $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ 相同. $\blacksquare$
-
-## 习题十三
-
-(习题 6.2 综合运用第 13 题) 根据下列各小题中的条件, 分别判断四边形 $ABCD$ 的形状, 并给出证明.
-
-(1) $\boldsymbol{AD}=\boldsymbol{BC}$;
-
-(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$;
-
-(3) $\boldsymbol{AB}=\boldsymbol{DC}$, 且 $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$.
-
-### 解答 习题十三
-
-由**定义 6.1.7 (相等向量)** 与**定理 6.2.8 (共线向量定理)**.
-
-(1) $\boldsymbol{AD}=\boldsymbol{BC}$ 意味着 $AD$ 与 $BC$ 平行且相等, 故 $ABCD$ 为平行四边形.
-
-(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$ 意味着 $AD\parallel BC$ 但 $AD=\frac{1}{3}BC$, 故 $ABCD$ 为梯形.
-
-(3) $\boldsymbol{AB}=\boldsymbol{DC}$ 意味着 $AB\parallel DC$ 且 $AB=DC$, 为平行四边形; 又 $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$, 邻边相等, 故为菱形. $\blacksquare$
-
-## 习题十四
-
-(习题 6.2 综合运用第 14 题) 在 $\triangle ABC$ 中, $\boldsymbol{AD}=\frac{1}{4}\boldsymbol{AB}$, $DE\parallel BC$, 且与边 $AC$ 相交于点 $E$, $\triangle ABC$ 的中线 $AM$ 与 $DE$ 相交于点 $N$. 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 用 $\boldsymbol{a}$, $\boldsymbol{b}$ 分别表示向量 $\boldsymbol{AE}$, $\boldsymbol{BC}$, $\boldsymbol{DE}$, $\boldsymbol{DB}$, $\boldsymbol{EC}$, $\boldsymbol{DN}$, $\boldsymbol{AN}$.
-
-### 解答 习题十四
-
-由**定理 6.2.8 (共线向量定理)**.
-
-$\boldsymbol{AE}=\frac{1}{4}\boldsymbol{AC}=\frac{1}{4}\boldsymbol{b}$.
-
-$\boldsymbol{BC}=\boldsymbol{AC}-\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$.
-
-$\boldsymbol{DE}=\frac{1}{4}\boldsymbol{BC}=\frac{1}{4}\left(\boldsymbol{b}-\boldsymbol{a}\right)$.
-
-$\boldsymbol{DB}=\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{a}-\frac{1}{4}\boldsymbol{a}=\frac{3}{4}\boldsymbol{a}$.
-
-$\boldsymbol{EC}=\boldsymbol{AC}-\boldsymbol{AE}=\boldsymbol{b}-\frac{1}{4}\boldsymbol{b}=\frac{3}{4}\boldsymbol{b}$.
-
-$N$ 为 $AM$ 与 $DE$ 的交点, $AM=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$, $N$ 在 $DE$ 上且 $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$? 由 $DE\parallel BC$ 且 $AD=\frac{1}{4}AB$, $N$ 在 $AM$ 上, $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
-
-$\boldsymbol{DN}=\boldsymbol{AN}-\boldsymbol{AD}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{4}\boldsymbol{a}=-\frac{1}{8}\boldsymbol{a}+\frac{1}{8}\boldsymbol{b}$.
-
-$\boldsymbol{AN}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$. $\blacksquare$
-
-## 习题十五
-
-(习题 6.2 综合运用第 15 题) 如图, 在任意四边形 $ABCD$ 中, $E$, $F$ 分别为 $AD$, $BC$ 的中点, 求证: $\boldsymbol{AB}+\boldsymbol{DC}=2\boldsymbol{EF}$.
-
-图:任意四边形 $ABCD$,$E$ 为边 $AD$ 的中点,$F$ 为边 $BC$ 的中点,连接 $EF$.
-
-### 解答 习题十五
-
-由**定义 6.2.5 (向量的减法)**.
-
-$\boldsymbol{EF}=\boldsymbol{EA}+\boldsymbol{AB}+\boldsymbol{BF}$, $\boldsymbol{EF}=\boldsymbol{ED}+\boldsymbol{DC}+\boldsymbol{CF}$.
-
-两式相加: $2\boldsymbol{EF}=\left(\boldsymbol{EA}+\boldsymbol{ED}\right)+\left(\boldsymbol{AB}+\boldsymbol{DC}\right)+\left(\boldsymbol{BF}+\boldsymbol{CF}\right)$.
-
-$E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $BC$ 中点, $\boldsymbol{BF}+\boldsymbol{CF}=\boldsymbol{0}$. 故 $2\boldsymbol{EF}=\boldsymbol{AB}+\boldsymbol{DC}$. $\blacksquare$
-
-## 习题十六
-
-(习题 6.2 综合运用第 16 题) 飞机从甲地沿北偏西 $15^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达乙地, 再从乙地沿南偏东 $75^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达丙地. 画出飞机飞行的位移示意图, 并说明丙地在甲地的什么方向? 丙地距甲地多远?
-
-图:位移示意图,以甲地 $A$ 为起点,第一位移 $\boldsymbol{AB}$ 沿北偏西 $15^\circ$ 方向长 $1400\text{ km}$ 到乙地 $B$,第二位移 $\boldsymbol{BC}$ 沿南偏东 $75^\circ$ 方向长 $1400\text{ km}$ 到丙地 $C$,连接 $AC$.
-
-### 解答 习题十六
-
-由**定义 6.2.1 (向量加法的三角形法则)**.
-
-设甲为原点, 第一位移 $\boldsymbol{AB}$ 方向北偏西 $15^{\circ}$, 长 $1400$; 第二位移 $\boldsymbol{BC}$ 方向南偏东 $75^{\circ}$, 长 $1400$. 两方向夹角为 $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? 北偏西 $15^{\circ}$ 与南偏东 $75^{\circ}$ 两方向之间夹角为 $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? 实际上, 从 $B$ 看, $A$ 在南偏东 $15^{\circ}$, $C$ 在南偏东 $75^{\circ}$, 故 $\angle ABC=75^{\circ}-15^{\circ}=60^{\circ}$. $AB=BC=1400$, $\triangle ABC$ 中 $\angle B=60^{\circ}$, 故 $AC=1400$. 丙地在甲地的南偏东方向, 距甲地 $1400\text{ km}$. $\blacksquare$
-
-## 习题十七
-
-(习题 6.2 拓广探索第 17 题)
-
-(1) 如图 (1), 在 $\triangle ABC$ 中, 计算 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
-
-(2) 如图 (2), 在四边形 $ABCD$ 中, 计算 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}+\boldsymbol{DA}$;
-
-(3) 如图 (3), 在 $n$ 边形 $A_1A_2A_3\cdots A_n$ 中, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? 证明你的结论.
-
-图:共三幅.图 (1):三角形 $ABC$,标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CA}$;图 (2):四边形 $ABCD$,标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CD}$, $\boldsymbol{DA}$;图 (3):$n$ 边形 $A_1A_2\cdots A_n$,标出首尾相接的有向边 $\boldsymbol{A_1A_2},\boldsymbol{A_2A_3},\ldots,\boldsymbol{A_nA_1}$.
-
-### 解答 习题十七
-
-由**定义 6.2.1 (向量加法的三角形法则)**.
-
-(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 再加 $\boldsymbol{CA}$ 得 $\boldsymbol{0}$.
-
-(2) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}+\boldsymbol{DA}=\boldsymbol{AC}+\boldsymbol{CD}+\boldsymbol{DA}=\boldsymbol{AD}+\boldsymbol{DA}=\boldsymbol{0}$.
-
-(3) 多边形首尾相接的向量和为 $\boldsymbol{0}$: $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\cdots+\boldsymbol{A_nA_1}=\boldsymbol{0}$. 由三角形法则逐步合并即得. $\blacksquare$
-
-## 习题十八
-
-(习题 6.2 拓广探索第 18 题) 已知 $\lvert\boldsymbol{a}\rvert=4$, $\lvert\boldsymbol{b}\rvert=3$, 且 $\left(2\boldsymbol{a}-3\boldsymbol{b}\right)\cdot\left(2\boldsymbol{a}+\boldsymbol{b}\right)=61$, 求 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角 $\theta$.
-
-### 解答 习题十八
-
-由**定义 6.2.11 (向量的数量积)**.
-
-$\left(2\boldsymbol{a}-3\boldsymbol{b}\right)\cdot\left(2\boldsymbol{a}+\boldsymbol{b}\right)=4\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-6\boldsymbol{a}\cdot\boldsymbol{b}-3\boldsymbol{b}^2=4\lvert\boldsymbol{a}\rvert^2-4\boldsymbol{a}\cdot\boldsymbol{b}-3\lvert\boldsymbol{b}\rvert^2=61$.
-
-代入: $4\times16-4\boldsymbol{a}\cdot\boldsymbol{b}-3\times9=64-4\boldsymbol{a}\cdot\boldsymbol{b}-27=37-4\boldsymbol{a}\cdot\boldsymbol{b}=61$.
-
-故 $\boldsymbol{a}\cdot\boldsymbol{b}=-6$. $\cos\theta=\frac{-6}{4\times3}=-\frac{1}{2}$, $\theta=120^{\circ}$. $\blacksquare$
-
-## 习题十九
-
-(习题 6.2 拓广探索第 19 题) 已知 $\lvert\boldsymbol{a}\rvert=8$, $\lvert\boldsymbol{b}\rvert=10$, 且 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=16$, 求 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角 $\theta$ (精确到 $1^{\circ}$).
-
-### 解答 习题十九
-
-由**常用结论 6.2.13** (数量积的性质).
-
-$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=64+2\boldsymbol{a}\cdot\boldsymbol{b}+100=256$.
-
-$2\boldsymbol{a}\cdot\boldsymbol{b}=92$, $\boldsymbol{a}\cdot\boldsymbol{b}=46$. $\cos\theta=\frac{46}{8\times10}=0.575$, $\theta\approx55^{\circ}$. $\blacksquare$
-
-## 习题二十
-
-(习题 6.2 拓广探索第 20 题) 已知 $\boldsymbol{a}$ 是非零向量, $\boldsymbol{b}\neq\boldsymbol{c}$, 求证: $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)$.
-
-### 解答 习题二十
-
-由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)\Longleftrightarrow\boldsymbol{a}\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)=0$.
-
-$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}=0\Longleftrightarrow\boldsymbol{a}\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)=0\Longleftrightarrow\boldsymbol{a}\perp\left(\boldsymbol{b}-\boldsymbol{c}\right)$. $\blacksquare$
-
-## 习题二十一
-
-(习题 6.2 拓广探索第 21 题) 已知 $\triangle ABC$ 的外接圆圆心为 $O$, 且 $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, 则向量 $\boldsymbol{BA}$ 在向量 $\boldsymbol{BC}$ 上的投影向量为 ().
-
-(A) $\frac{1}{4}\boldsymbol{BC}$ (B) $\frac{\sqrt 3}{4}\boldsymbol{BC}$ (C) $-\frac{1}{4}\boldsymbol{BC}$ (D) $-\frac{\sqrt 3}{4}\boldsymbol{BC}$
-
-### 解答 习题二十一
-
-由**常用结论 6.2.12** (投影向量).
-
-由 $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$ 知 $O$ 为 $BC$ 中点, 又 $O$ 为外心, 故 $\angle A=90^{\circ}$. $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, $OA=OB=R$, $AB=R$, $\triangle OAB$ 为等边三角形, $\angle B=60^{\circ}$.
-
-$\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\rvert\cos60^{\circ}=AB\cdot\frac{1}{2}=\frac{R}{2}$. $BC=2R$, 故投影向量为 $\frac{R/2}{2R}\boldsymbol{BC}=\frac{1}{4}\boldsymbol{BC}$. 选 (A). $\blacksquare$
-
-## 习题二十二
-
-(习题 6.2 拓广探索第 22 题) 如图, $O$ 是平行四边形 $ABCD$ 外一点, 用 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 表示 $\boldsymbol{OD}$.
-
-图:平行四边形 $ABCD$,点 $O$ 在平行四边形外部,从 $O$ 向各顶点 $A$, $B$, $C$, $D$ 分别连有向线段 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, $\boldsymbol{OD}$.
-
-### 解答 习题二十二
-
-由**定义 6.1.7 (相等向量)** 与**定理 6.2.8 (共线向量定理)**.
-
-在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
-
-## 习题二十三
-
-(习题 6.2 拓广探索第 23 题) 已知 $O$ 为四边形 $ABCD$ 所在平面内一点, 且向量 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, $\boldsymbol{OD}$ 满足等式 $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$.
-
-(1) 作出满足条件的四边形 $ABCD$;
-
-(2) 四边形 $ABCD$ 有什么特点? 请证明你的猜想.
-
-图:四边形 $ABCD$,平面内一点 $O$,从 $O$ 向四个顶点分别连有向线段 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$, $\boldsymbol{OD}$.
-
-### 解答 习题二十三
-
-由**定义 6.2.5 (向量的减法)**.
-
-(1) 略.
-
-(2) $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$ 移项得 $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{OD}-\boldsymbol{OC}$, 即 $\boldsymbol{BA}=\boldsymbol{CD}$. 故 $BA\parallel CD$ 且 $BA=CD$, 四边形 $ABCD$ 为平行四边形. $\blacksquare$
-
-## 习题二十四
-
-(习题 6.2 拓广探索第 24 题) 如图, 在 $\odot C$ 中, 是不是只需知道 $\odot C$ 的半径或弦 $AB$ 的长度, 就可以求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$ 的值?
-
-图:以点 $C$ 为圆心的圆 $\odot C$,弦 $AB$ 的两个端点 $A$, $B$ 在圆上,圆心 $C$ 与 $A$, $B$ 相连,构成等腰三角形 $CAB$($CA=CB$ 为半径).
-
-### 解答 习题二十四
-
-由**定义 6.2.11 (向量的数量积)**.
-
-$\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos\angle BAC$. 设半径为 $R$, 弦长 $AB=l$, 圆心 $C$. $\boldsymbol{AC}$ 为半径向量, $\lvert\boldsymbol{AC}\rvert=R$. 由几何关系, $\cos\angle BAC$ 可由 $R$ 和 $l$ 确定 (等腰三角形 $CAB$ 中). 故只需知道半径 $R$ 和弦长 $l$ 即可求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$. $\blacksquare$
+因为 $l\perp\gamma$, 故 $l'\perp\gamma$. 又 $l'\subset\beta$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, $\beta\perp\gamma$. $\blacksquare$

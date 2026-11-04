@@ -1,291 +1,608 @@
 # week49
-> **Definition 10.1.6 (必然事件)**
+> **Definition 2.2.1 (Point-slope Form)**
 > 
-> 在每次试验中总是发生的事件叫做必然事件.
-> **Definition 10.1.7 (不可能事件)**
+> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **Definition 2.2.2 (斜截式方程)**
 > 
-> 在每次试验中都不发生的事件叫做不可能事件.
-> **Definition 10.1.14 (古典概型)**
+> 由直线的斜率 k 及其在 y 轴上的截距 b 确定的方程 y = kx + b, 叫做直线的斜截式方程.
+> **Definition 2.2.6 (一般式方程)**
 > 
-> 试验中所有可能出现的基本事件只有有限个, 且每个基本事件出现的可能性相等, 具有这两个特点的概率模型称为古典概型.
-> **Definition 10.1.15 (概率的古典定义)**
+> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
+> **Definition 2.4.1 (圆的标准方程)**
 > 
-> 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
-> **Definition 10.3.1 (频率的稳定性)**
+> 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
+> **Definition 2.4.3 (圆的一般方程)**
 > 
-> 随着试验次数的增加, 事件发生的频率会逐渐稳定在某个常数附近, 这个常数就是该事件的概率.
-> **Definition 10.3.2 (随机模拟)**
-> 
-> ,那么他是O型血的概率大约是多少? 4.分别举出一个生活中概率很小和很大的例子. 10. 3. 2 随机模拟 用频率估计概率,需要做大量的重复试验.有没有其他 方法可以替代试验呢? 随机数与伪随机数 我们知道,利用计算器或计算机软件可以产生随机数. 例如我们要产生0～9 实际上,我们也可以根据不同的随机试验构建相应的随机数 之间的随机整数,像彩票 模拟试验,这样就可以快速地进行大量重复试验了. 摇奖那样,把10个质地 例如,对于抛掷一枚质地均匀硬币的试验,我们可以让 和大小相同的号码球放入 摇奖器中,充分搅拌后摇 计算器或计算机产生取值于集合(0,1)的随机数,用0表 出一个球,这个球上的号 示反面朝上,用1表示正面朝上.这样不断产生0,1两个 码就称为随机数.计算器 随机数,相当于不断地做抛掷硬币的试验. 或计算机产生的随机数是 又如,一个袋中装有2个红球和3个白球,这些球除颜 按照确定的算法产生的 色不同外没有其他差别.对于从袋中摸出一个球的试验,我 数,具有周期性(周期很 们可以让
-
-## Exercise 1
-
-(Exercise 10.3, Problem 1) Determine whether the following statements are correct, and give reasons:
-
-(1) If the probability of a coin landing heads is $0.5$, then tossing a coin twice must give one heads and one tails;
-
-(2) Tossing a fair coin $10$ times gives $4$ heads, so the probability of the event "heads" is $0.4$;
-
-(3) When the number of trials is large, the frequency of a random event occurring is close to its probability;
-
-(4) In a single trial, a random event may or may not occur, so the probabilities of it occurring and not occurring are each $0.5$.
-
-### Solution to Exercise 1
-
-By **Definition 10.3.1 (Stability of Frequency)**, frequency is an approximation of probability, while probability is a fixed constant independent of the outcome of each trial.
-
-(1) A probability of $0.5$ only indicates the likelihood of heads in one trial; two tosses may give two heads, two tails, or one of each, and are not "necessarily one heads and one tails". The statement is wrong.
-
-(2) Tossing $10$ times and getting $4$ heads gives a frequency of $0.4$, which is an approximation of the probability, not the probability itself. The probability of heads is still $0.5$. The statement is wrong.
-
-(3) By **Definition 10.3.1 (Stability of Frequency)**, as the number of trials increases the frequency gradually stabilizes around the probability, so when the number of trials is large the frequency is close to the probability. The statement is correct.
-
-(4) The probability of a random event is determined by the event itself and is not necessarily $0.5$. For example, the probability of "rolling a $6$" is $\frac{1}{6}$, and the probability of it not occurring is $\frac{5}{6}$. The statement is wrong. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 10.3, Problem 2) Use two coins to play a win/loss game, with the rule: both coins landing heads or both landing tails counts as A winning, and one heads and one tails counts as B winning. Is this game fair?
-
-### Solution to Exercise 2
-
-By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two coins gives $4$ equally likely sample points: $\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)$.
-
-The event that A wins is "both heads or both tails", i.e. $\left(1,1\right)$ or $\left(0,0\right)$, giving $2$ sample points, so $P\left(\text{甲胜}\right)=\frac{2}{4}=\frac{1}{2}$.
-
-The event that B wins is "one heads and one tails", i.e. $\left(1,0\right)$ or $\left(0,1\right)$, giving $2$ sample points, so $P\left(\text{乙胜}\right)=\frac{2}{4}=\frac{1}{2}$.
-
-The probabilities of A winning and B winning are equal, so this game is fair. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 10.3, Problem 3) Statistics show that $ABO$ blood types vary by ethnicity and region. In province $H$ of China, $30488$ people were surveyed; the numbers for the four blood types are:
-
-| Item | $A$ | $B$ | $O$ | $AB$ |
-|---|---|---|---|---|
-| Number of people | $7704$ | $10765$ | $8970$ | $3049$ |
-| Frequency | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-
-(1) Compute the frequency of each blood type in province $H$ and fill in the table (accurate to $0.001$);
-
-(2) If one person's blood type is surveyed at random from province $H$, approximately what is the probability that he has type $O$ blood?
-
-### Solution to Exercise 3
-
-By **Definition 10.3.1 (Stability of Frequency)**, use frequency to estimate probability. The total number of people is $30488$.
-
-(1) Frequencies of each blood type:
-
-Type $A$ frequency $=\frac{7704}{30488}\approx 0.253$.
-
-Type $B$ frequency $=\frac{10765}{30488}\approx 0.353$.
-
-Type $O$ frequency $=\frac{8970}{30488}\approx 0.294$.
-
-Type $AB$ frequency $=\frac{3049}{30488}\approx 0.100$.
-
-(2) By **Definition 10.3.1 (Stability of Frequency)**, use the frequency of type $O$ blood to estimate the probability; hence, surveying one person at random from province $H$, the probability that he has type $O$ blood is approximately $0.294$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 10.3, Problem 4) Give an example from daily life of a very small probability and one of a very large probability.
-
-### Solution to Exercise 4
-
-By **Definition 10.3.1 (Stability of Frequency)**, an event with very large probability is one highly likely to occur, and an event with very small probability is one unlikely to occur.
-
-Example of a very large probability: drawing a card at random from a deck with the jokers removed, the probability that "the card drawn is not a joker" is $1$ (a certain event), a very large probability. Or "the sun rises in the east in the morning" is a certain event with probability $1$.
-
-Example of a very small probability: buying one sports lottery ticket has a very small probability of winning, about one in several hundred thousand. Or "tossing a coin and getting heads $10$ times in a row" has probability $\frac{1}{2^{10}}=\frac{1}{1024}$, a very small probability. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 10.3, Problem 5) Toss a fair coin $4$ times in succession. Let event $A=$ "exactly two heads".
-
-(1) Directly compute the probability of event $A$;
-
-(2) Using a calculator or computer to simulate $80$ trials, compute the frequency of event $A$ occurring.
-
-### Solution to Exercise 5
-
-(1) By **Definition 10.1.15 (Classical Definition of Probability)**, tossing a coin $4$ times gives $2^4=16$ equally likely outcomes. Exactly two heads means choosing $2$ of the $4$ tosses to be heads, giving $\binom{4}{2}=6$ ways, so
-
-$$
-P\left(A\right)=\frac{6}{16}=\frac{3}{8}=0.375.
-$$
-
-(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate $0, 1$ random numbers, with $1$ for heads and $0$ for tails; each group of $4$ random numbers represents one simulated trial. Repeat $80$ times, count the groups in which exactly $2$ entries equal $1$, denoted $n_A$; then the frequency of event $A$ occurring is $f_{80}\left(A\right)=\frac{n_A}{80}$. By **Definition 10.3.1 (Stability of Frequency)**, this frequency should fluctuate around $0.375$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 10.3, Problem 6) A box contains only $4$ white balls and $5$ black balls, from which one ball is drawn at random.
-
-(1) What kind of event is "the ball drawn is yellow"? What is its probability?
-
-(2) What kind of event is "the ball drawn is white"? What is its probability?
-
-(3) What kind of event is "the ball drawn is white or black"? What is its probability?
-
-(4) Design a calculator- or computer-simulated version of the above ball-drawing experiment, simulate it $100$ times, and estimate the probability that "the ball drawn is white".
-
-### Solution to Exercise 6
-
-By **Definition 10.1.6 (Certain Event)** and **Definition 10.1.7 (Impossible Event)**.
-
-(1) There are no yellow balls in the box, so "the ball drawn is yellow" cannot occur; it is an impossible event. By **Property 10.1.17** (Probability of the Certain and Impossible Events), its probability is $0$.
-
-(2) The box contains white and black balls, so "the ball drawn is white" may or may not occur; it is a random event. By **Definition 10.1.15 (Classical Definition of Probability)**, there are $9$ balls in total, of which $4$ are white, so $P\left(A\right)=\frac{4}{9}$.
-
-(3) The box contains only white and black balls, so "the ball drawn is white or black" always occurs; it is a certain event, with probability $1$.
-
-(4) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers taking values in the set $\left\{1, 2, \cdots, 9\right\}$; use $1, 2, 3, 4$ for white balls and $5, 6, 7, 8, 9$ for black balls. Each random number generated completes one simulated draw; repeat $100$ times, count the occurrences of $1, 2, 3, 4$, denoted $n_A$; then the frequency $f_{100}\left(A\right)=\frac{n_A}{100}$ is the estimated value of the probability of "drawing a white ball". By **Definition 10.3.1 (Stability of Frequency)**, this frequency should be around $\frac{4}{9}\approx 0.444$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 10.3, Problem 7) (1) Toss two fair dice and compute the probability that the sum of the numbers is $7$;
-
-(2) Using random simulation, run $120$ trials and compute the frequency with which the sum of the numbers is $7$;
-
-(3) Is there a large difference between the obtained frequency and the probability? Why does this difference occur?
-
-### Solution to Exercise 7
-
-(1) By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two dice gives $36$ equally likely sample points. The sample points with sum $7$ are $\left(1,6\right), \left(2,5\right), \left(3,4\right), \left(4,3\right), \left(5,2\right), \left(6,1\right)$, totaling $6$, so
-
-$$
-P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx 0.167.
-$$
-
-(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers from $1$ to $6$ simulating each die's number; each pair of random numbers forms a group, repeat $120$ times, and count the occurrences of sum $7$, denoted $n_A$; then the frequency is $f_{120}\left(A\right)=\frac{n_A}{120}$.
-
-(3) By **Definition 10.3.1 (Stability of Frequency)**, with $120$ trials there may be some difference between the frequency and the probability, because frequency is random. But as the number of trials increases, the frequency gradually stabilizes around the probability $\frac{1}{6}$. $\blacksquare$
+> 点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
 
 ## Problem 1
 
-(Exercise 10.3, Review and Consolidation, Problem 1) In an experiment, a serum was injected into $500$ guinea pigs. Before injection, $150$ of these guinea pigs had circular cells, $250$ had elliptical cells, and $100$ had irregularly shaped cells; after injection, none of the circular-cell guinea pigs were infected, $50$ of the elliptical-cell guinea pigs were infected, and all of the irregular-cell guinea pigs were infected. Based on the experimental results, estimate the probability that a guinea pig of each of the following cell types is infected by this serum:
-
-(1) circular cells;
-
-(2) elliptical cells;
-
-(3) irregularly shaped cells.
+(Exercise 2.3, Comprehensive Application, Problem 12) Given that $AO$ is the median to side $BC$ of $\triangle ABC$, prove using the coordinate method that $\lvert AB \rvert^2+\lvert AC \rvert^2=2\left(\lvert AO \rvert^2+\lvert OC \rvert^2\right)$.
 
 ### Solution to Problem 1
 
-By **Definition 10.3.1 (Stability of Frequency)**, use the infection frequency to estimate the infection probability.
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), first set up a coordinate system.
 
-(1) There are $150$ circular-cell guinea pigs, of which $0$ were infected; the infection frequency is $\frac{0}{150}=0$, so the estimated infection probability is $0$.
+Take $O$ as the origin and the line containing $BC$ as the $x$-axis. Let $C\left(c,0\right)$; then $B\left(-c,0\right)$ and $A\left(x,y\right)$.
 
-(2) There are $250$ elliptical-cell guinea pigs, of which $50$ were infected; the infection frequency is $\frac{50}{250}=0.2$, so the estimated infection probability is $0.2$.
+By the distance formula,
 
-(3) There are $100$ irregular-cell guinea pigs, all of which were infected; the infection frequency is $\frac{100}{100}=1$, so the estimated infection probability is $1$. $\blacksquare$
+$$
+\left|AB\right|^2=\left(x+c\right)^2+y^2,
+$$
+
+$$
+\left|AC\right|^2=\left(x-c\right)^2+y^2,
+$$
+
+$$
+\left|AO\right|^2=x^2+y^2,
+$$
+
+$$
+\left|OC\right|^2=c^2.
+$$
+
+Left-hand side: $\left|AB\right|^2+\left|AC\right|^2=\left(x+c\right)^2+y^2+\left(x-c\right)^2+y^2=2x^2+2c^2+2y^2$.
+
+Right-hand side: $2\left(\left|AO\right|^2+\left|OC\right|^2\right)=2\left(x^2+y^2+c^2\right)=2x^2+2y^2+2c^2$.
+
+The left-hand side equals the right-hand side, so $\left|AB\right|^2+\left|AC\right|^2=2\left(\left|AO\right|^2+\left|OC\right|^2\right)$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 10.3, Review and Consolidation, Problem 2) A wooden tetrahedron has its four faces marked $1, 2, 3, 4$ respectively. The tetrahedron is tossed $100$ times, and the number of times each face lands on the table is recorded (as in the table below). If it is tossed once more, estimate the probability that the face marked $3$ lands on the table.
-
-| Face of the tetrahedron | $1$ | $2$ | $3$ | $4$ |
-|---|---|---|---|---|
-| Frequency count | $22$ | $18$ | $21$ | $39$ |
+(Exercise 2.3, Comprehensive Application, Problem 13) Given that the distance $d$ from the point $A\left(a,6\right)$ to the line $3x-4y=2$ takes the following values: (1) $d=4$; (2) $d> 4$, find the range of $a$.
 
 ### Solution to Problem 2
 
-By **Definition 10.3.1 (Stability of Frequency)**, use the frequency with which the face marked $3$ lands on the table to estimate its probability.
-
-The frequency count of the face marked $3$ landing on the table is $21$, and the total number of trials is $100$, so the frequency is
+By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
 
 $$
-f_{100}\left(A\right)=\frac{21}{100}=0.21.
+d=\frac{\left|3a-4\cdot6-2\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|3a-26\right|}{5}.
 $$
 
-Therefore, tossing it once more, the estimated probability that the face marked $3$ lands on the table is $0.21$. $\blacksquare$
+(1) Setting $d=4$, i.e. $\frac{\left|3a-26\right|}{5}=4$, gives $\left|3a-26\right|=20$, i.e. $3a-26=20$ or $3a-26=-20$, so $a=\frac{46}{3}$ or $a=2$.
+
+(2) Setting $d> 4$, i.e. $\frac{\left|3a-26\right|}{5}> 4$, gives $\left|3a-26\right|> 20$, i.e. $3a-26> 20$ or $3a-26< -20$, i.e. $a> \frac{46}{3}$ or $a< 2$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 10.3, Review and Consolidation, Problem 3) In English, the frequencies of different letters differ greatly, but the usage frequency of the same letter is fairly stable. Someone has tallied the usage frequencies of the $5$ vowel letters across more than $40$ ten-thousand words, with results shown in the table below:
-
-| Vowel letter | $A$ | $E$ | $I$ | $O$ | $U$ |
-|---|---|---|---|---|---|
-| Frequency | $7.88\%$ | $12.68\%$ | $7.07\%$ | $7.76\%$ | $2.80\%$ |
-
-(1) Randomly select a page from an English (novel) book and tally the frequency of vowel letters appearing on that page;
-
-(2) Compare the frequency you tally with those in the table above; are the results fairly close? What do you think is the reason for any difference.
+(Exercise 2.3, Comprehensive Application, Problem 14) Given that the distances from $A\left(-3,-4\right)$ and $B\left(6,3\right)$ to the line $l:ax+y+1=0$ are equal, find the value of $a$.
 
 ### Solution to Problem 3
 
-(1) Randomly select a page from an English book, tally the total number of letters $N$ on that page and the number of vowel letters ($A, E, I, O, U$) among them, denoted $n_A$; then the frequency of vowel letters on that page is $f=\frac{n_A}{N}$.
+By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
 
-(2) By **Definition 10.3.1 (Stability of Frequency)**, letter frequencies are fairly stable under large samples; hence the single-page frequency from one's own tally is roughly close to the large-sample frequencies in the table, but because a single page has a small sample size, the frequency may fluctuate and there may be some difference. The main reason for the difference is that one's own sample size (the number of letters on one page) is far smaller than the sample size of more than $40$ ten-thousand words, so random fluctuation is large. $\blacksquare$
+$$
+d_A=\frac{\left|a\cdot\left(-3\right)+\left(-4\right)+1\right|}{\sqrt{a^2+1}}=\frac{\left|-3a-3\right|}{\sqrt{a^2+1}},
+$$
+
+$$
+d_B=\frac{\left|a\cdot6+3+1\right|}{\sqrt{a^2+1}}=\frac{\left|6a+4\right|}{\sqrt{a^2+1}}.
+$$
+
+From $d_A=d_B$, we get $\left|-3a-3\right|=\left|6a+4\right|$, i.e. $\left|3a+3\right|=\left|6a+4\right)$.
+
+(a) When $3a+3=6a+4$, $-3a=1$, i.e. $a=-\frac{1}{3}$.
+
+(b) When $3a+3=-\left(6a+4\right)$, $9a=-7$, i.e. $a=-\frac{7}{9}$.
+
+Hence $a=-\frac{1}{3}$ or $a=-\frac{7}{9}$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 10.3, Review and Consolidation, Problem 4) The correspondence between the four human blood types and genotypes is: type $O$ has genotype $ii$, type $A$ has genotype $I^Ai$ or $I^AI^A$, type $B$ has genotype $I^Bi$ or $I^BI^B$, and type $AB$ has genotype $I^AI^B$. Here $I^A$ and $I^B$ are dominant genes and $i$ is a recessive gene. One parent is type $A$ and the other is type $B$; determine the probabilities that their children have types $O, A, B$, or $AB$, and fill in the table:
-
-| Parent genotype combination | $O$ | $A$ | $B$ | $AB$ |
-|---|---|---|---|---|
-| $I^Ai\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^Ai\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^AI^A\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^AI^A\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+(Exercise 2.3, Comprehensive Application, Problem 15) The equations of the lines containing the four sides of the parallelogram $\square ABCD$ are $l_1:x-4y+5=0$, $l_2:2x+y-8=0$, $l_3:x-4y+14=0$, and $l_4:2x+y+1=0$. Find the area of $\square ABCD$.
 
 ### Solution to Problem 4
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, a child's genotype is determined by inheriting one gene at random from each parent, and each inheritance combination is equally likely.
+By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), $l_1$ is parallel to $l_3$, and $l_2$ is parallel to $l_4$.
 
-Parents of genotypes $I^Ai\times I^Bi$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$), $I^Ai$ (type $A$), $I^Bi$ (type $B$), $ii$ (type $O$), each with probability $\frac{1}{4}$. Hence $O: \frac{1}{4}$, $A: \frac{1}{4}$, $B: \frac{1}{4}$, $AB: \frac{1}{4}$.
+The distance between $l_1$ and $l_3$ is
 
-Parents of genotypes $I^Ai\times I^BI^B$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother can only pass on $I^B$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Bi$ (type $B$), each with probability $\frac{1}{2}$. Hence $O: 0$, $A: 0$, $B: \frac{1}{2}$, $AB: \frac{1}{2}$.
+$$
+d_1=\frac{\left|5-14\right|}{\sqrt{1^2+\left(-4\right)^2}}=\frac{9}{\sqrt{17}}.
+$$
 
-Parents of genotypes $I^AI^A\times I^Bi$: the father can only pass on $I^A$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Ai$ (type $A$), each with probability $\frac{1}{2}$. Hence $O: 0$, $A: \frac{1}{2}$, $B: 0$, $AB: \frac{1}{2}$.
+The distance between $l_2$ and $l_4$ is
 
-Parents of genotypes $I^AI^A\times I^BI^B$: the father can only pass on $I^A$ and the mother can only pass on $I^B$. The child's genotype can only be $I^AI^B$ (type $AB$). Hence $O: 0$, $A: 0$, $B: 0$, $AB: 1$. $\blacksquare$
+$$
+d_2=\frac{\left|-8-1\right|}{\sqrt{2^2+1^2}}=\frac{9}{\sqrt 5}.
+$$
+
+The area of a parallelogram can be expressed as the product of the distances between the two pairs of opposite sides divided by the sine of the included angle. More directly, first find the lengths of two adjacent sides.
+
+Intersection of $l_1$ and $l_2$: solve the system $\begin{cases}x-4y+5=0\\2x+y-8=0\end{cases}$; from the second equation $y=8-2x$, substituting into the first gives $x-4\left(8-2x\right)+5=0$, i.e. $9x=27$, hence $x=3$, $y=2$. The intersection point is $\left(3,2\right)$.
+
+Intersection of $l_1$ and $l_4$: solve the system $\begin{cases}x-4y+5=0\\2x+y+1=0\end{cases}$; from the second equation $y=-1-2x$, substituting into the first gives $x-4\left(-1-2x\right)+5=0$, i.e. $9x=-9$, hence $x=-1$, $y=1$. The intersection point is $\left(-1,1\right)$.
+
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the length of an adjacent side is
+
+$$
+\sqrt{\left(3-\left(-1\right)\right)^2+\left(2-1\right)^2}=\sqrt{16+1}=\sqrt{17}.
+$$
+
+The area of the parallelogram is base times height, i.e. $\sqrt{17}\times\frac{9}{\sqrt 5}=\frac{9\sqrt{85}}{5}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 10.3, Comprehensive Application, Problem 5) "Using the frequency $f_n\left(A\right)$ of event $A$ to estimate the probability $P\left(A\right)$, the larger the number $n$ of repeated trials, the more precise the estimate." Determine whether this statement is correct, and give an example.
+(Exercise 2.3, Extension and Exploration, Problem 16) Given that $\lambda$ is an arbitrary real number, as $\lambda$ varies, what figure does the equation $3x+4y-2+\lambda\left(2x+y+2\right)=0$ represent? What are the features of this figure?
 
 ### Solution to Problem 5
 
-By **Definition 10.3.1 (Stability of Frequency)**, frequency is random; as the number of trials increases, the amount by which the frequency deviates from the probability shrinks overall, but this does not mean that a larger $n$ necessarily makes the frequency closer to the probability.
+By **Common Conclusion 2.3.1** (Intersection Coordinates of Two Lines), the equation $3x+4y-2+\lambda\left(2x+y+2\right)=0$ represents a pencil of lines through the intersection of the lines $3x+4y-2=0$ and $2x+y+2=0$.
 
-The statement is not entirely correct. Although in general the more trials the more the frequency stabilizes around the probability, the randomness of frequency means that the frequency at a larger $n$ may still be farther from the probability than at a smaller $n$. For example, tossing a coin, the probability is $0.5$; in one run of $100$ trials, heads appears $55$ times, giving a frequency of $0.55$; in another run of $1000$ trials, heads appears $520$ times, giving a frequency of $0.52$. The latter is closer to $0.5$. But it is also possible that $100$ trials give a frequency of $0.50$ while $1000$ trials give $0.53$. Therefore, "the larger $n$ the more precise the estimate" is only an overall trend, not a guaranteed outcome. $\blacksquare$
+First find the intersection of the two lines. Solve the system
+
+$$
+\begin{cases}3x+4y-2=0,\\2x+y+2=0.\end{cases}
+$$
+
+From the second equation, $y=-2x-2$; substituting into the first gives $3x+4\left(-2x-2\right)-2=0$, i.e. $-5x-10=0$, hence $x=-2$, $y=2$. The intersection point is $\left(-2,2\right)$.
+
+As $\lambda$ varies, the equation represents all lines passing through the fixed point $\left(-2,2\right)$ (excluding the line $2x+y+2=0$ itself). The feature of the figure is that all the lines pass through the fixed point $\left(-2,2\right)$. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 10.3, Comprehensive Application, Problem 6) Put $6$ white balls and $4$ red balls in a bag, shake well, and draw balls $3$ times at random, using both with-replacement and without-replacement methods. Let event $A_i=$ "the $i$-th draw is red", $i=1, 2, 3$.
+(Exercise 2.3, Extension and Exploration, Problem 17) Given $0< x< 1$, $0< y< 1$.
 
-(1) Under the two drawing methods, conjecture the relative sizes of the probabilities of events $A_1, A_2, A_3$;
+(1) Prove that $\sqrt{x^2+y^2}+\sqrt{x^2+\left(1-y\right)^2}+\sqrt{\left(1-x\right)^2+y^2}+\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}\ge2\sqrt 2$, and find the condition under which equality holds.
 
-(2) Repeat $10$ trials, find the frequencies of events $A_1, A_2, A_3$ occurring, and fill in the table.
-
-| Frequency | With replacement | Without replacement |
-|---|---|---|
-| $f_{10}\left(A_1\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $f_{10}\left(A_2\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $f_{10}\left(A_3\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
-
-(3) Under the two drawing methods, is there a large difference in the frequency $f_{10}\left(A_3\right)$ of the $3$rd draw being red? Under without-replacement drawing, is there a large difference among the frequencies of events $A_1, A_2, A_3$? Explain why.
+(2) Explain the geometric meaning of the above inequality.
 
 ### Solution to Problem 6
 
-(1) With replacement: the composition of balls in the bag is unchanged each draw ($6$ white, $4$ red), so the probability of drawing red each time is $\frac{4}{10}=0.4$, i.e. $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), regard each term as a distance.
 
-Without replacement: the number of balls in the bag decreases after each draw, and the probability of drawing red changes with the number of draws. The probability that the first draw is red is $\frac{4}{10}=0.4$; if the first draw is red, the probability that the second draw is red is $\frac{3}{9}=\frac{1}{3}$, and if the first draw is white, the probability that the second draw is red is $\frac{4}{9}$. By the law of total probability, the probability that the second draw is red is still $\frac{4}{10}=0.4$, and the third is the same. Hence under both methods $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
+(1) Let the points be $P\left(x,y\right)$, $O\left(0,0\right)$, $A\left(1,0\right)$, $B\left(0,1\right)$, $C\left(1,1\right)$.
 
-(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers from $1$ to $10$; $1$ to $4$ represent red balls and $5$ to $10$ represent white balls. With replacement, each draw generates an independent random number; without replacement, each group of $3$ random numbers has no repeats. Repeat $10$ times and tally the frequencies of drawing red each time. The frequencies differ due to randomness, but should be around $0.4$.
+Then $\sqrt{x^2+y^2}=\left|PO\right|$, $\sqrt{x^2+\left(1-y\right)^2}=\left|PB\right|$, $\sqrt{\left(1-x\right)^2+y^2}=\left|PA\right|$, $\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}=\left|PC\right|$.
 
-(3) By **Definition 10.3.1 (Stability of Frequency)**, under both with-replacement and without-replacement methods, the frequency of the $3$rd draw being red should be around $0.4$, with little difference. Under without-replacement drawing, the frequencies of $A_1, A_2, A_3$ should also all be around $0.4$, with little difference. The reason is that theoretically the probability of drawing red each time is $0.4$, and the frequencies fluctuate due to randomness but overall stabilize around $0.4$. $\blacksquare$
+By the triangle inequality, $\left|PO\right|+\left|PC\right|\ge\left|OC\right|=\sqrt 2$, and $\left|PA\right|+\left|PB\right|\ge\left|AB\right|=\sqrt 2$.
 
-### Reading and Thinking 1
+Hence the sum of the four terms is $\ge\sqrt 2+\sqrt 2=2\sqrt 2$. Equality holds if and only if $P$ lies on both the segment $OC$ and the segment $AB$, i.e. $P$ is the intersection of $OC$ and $AB$, namely $\left(\frac{1}{2},\frac{1}{2}\right)$.
 
-(Reading and Thinking: Mendel's Laws of Inheritance) The Austrian geneticist Mendel conducted a large number of pea hybridization experiments over the $8$ years from $1858$ to $1865$. He crossed peas with yellow cotyledons and peas with green cotyledons; in the first year, all the harvested peas had yellow cotyledons. In the second year, when he planted the yellow-cotyledon peas harvested in the first year, the harvested peas had both yellow and green cotyledons. The specific experimental data are: $6022$ yellow cotyledon peas and $2001$ green cotyledon peas, a ratio of about $3.01: 1$. In Mendel's pea experiments, let $A=$ "a pea chosen at random from the second generation has green cotyledons"; then $A$ is a random event. Mendel's experiment (with $8023$ trials) showed that the frequency of event $A$ occurring is about $0.2494$. Questions:
+(2) The geometric meaning of the inequality is: the sum of the distances from any point inside the unit square to its four vertices is no less than the sum of the lengths of the two diagonals. $\blacksquare$
 
-(1) On what basis did Mendel conjecture that the probability of event $A$ occurring is $0.25$, thereby constructing a probabilistic model of the inheritance mechanism?
+## Exercise 1
 
-(2) If for some random phenomenon we first propose a theoretical probability model, how can we verify the correctness of the model?
+(Exercise 2.4, Problem 1) Write the standard equation of each of the following circles:
 
-### Solution to Reading and Thinking 1
+(1) center at the origin, radius $3$;
 
-(1) By **Definition 10.3.1 (Stability of Frequency)**, Mendel observed that in a large number of repeated trials, the frequency of green-cotyledon peas appearing in the second generation stabilized around $0.25$ ($0.2494$ is very close to $0.25$). Meanwhile, from the analysis of the inheritance mechanism, the first-generation hereditary factors are $Dd$, and the second generation inherits one factor at random from each parent; the genotypes are the four equally likely combinations $DD, Dd, dD, dd$, of which only $dd$ appears green, accounting for $\frac{1}{4}=0.25$. The stability of the frequency matches the probabilistic inference of the inheritance mechanism, so Mendel conjectured $P\left(A\right)=0.25$.
+(2) center at $C\left(3,-4\right)$, radius $\sqrt 5$;
 
-(2) By **Definition 10.3.1 (Stability of Frequency)**, the way to verify a theoretical probability model is: conduct a large number of repeated trials, compute the frequency of the random event occurring, and observe whether the frequency stabilizes around the probability given by the theoretical model. If in a large number of trials the frequency of the event occurring is close to the theoretical probability, then the model can be considered fairly reliable; if the frequency differs greatly from the theoretical probability, then the model may be incorrect and needs revision. $\blacksquare$
+(3) passing through $P\left(5,1\right)$, with center $C\left(8,-3\right)$.
+
+### Solution to Exercise 1
+
+By **Definition 2.4.1 (Standard Equation of a Circle)**, the standard equation is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
+
+(1) The center is $\left(0,0\right)$, radius $r=3$, and the equation is $x^2+y^2=9$.
+
+(2) The center is $\left(3,-4\right)$, radius $r=\sqrt 5$, and the equation is $\left(x-3\right)^2+\left(y+4\right)^2=5$.
+
+(3) By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the radius is $\left|CP\right|=\sqrt{\left(5-8\right)^2+\left(1-\left(-3\right)\right)^2}=\sqrt{9+16}=5$. The equation is $\left(x-8\right)^2+\left(y+3\right)^2=25$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 2.4, Problem 2) Write the center coordinates and radius of each of the following circles:
+
+(1) $\left(x-2\right)^2+y^2=25$;
+
+(2) $\left(x+2\right)^2+\left(y+1\right)^2=3$.
+
+### Solution to Exercise 2
+
+By **Definition 2.4.1 (Standard Equation of a Circle)**, compare with $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
+
+(1) The center is $\left(2,0\right)$, radius $r=5$.
+
+(2) The center is $\left(-2,-1\right)$, radius $r=\sqrt 3$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 2.4, Problem 3) Determine the position of the points $P_1\left(3,-5\right)$, $P_2\left(0,0\right)$, $P_3\left(-1,-1\right)$ relative to the circle $\left(x+2\right)^2+\left(y+3\right)^2=4$.
+
+### Solution to Exercise 3
+
+By **Common Conclusion 2.4.2** (Position of a Point Relative to a Circle), the center is $\left(-2,-3\right)$, radius $r=2$, and $r^2=4$.
+
+(1) Point $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29> 4$, so $P_1$ is outside the circle.
+
+(2) Point $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13> 4$, so $P_2$ is outside the circle.
+
+(3) Point $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5> 4$, so $P_3$ is outside the circle. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 2.4, Problem 4) Find the equation of the circle determined by each of the following conditions:
+
+(1) center $C\left(1,3\right)$, tangent to the line $3x-4y-7=0$;
+
+(2) center on the $x$-axis, radius $\sqrt 5$, passing through $A\left(2,-3\right)$.
+
+### Solution to Exercise 4
+
+(1) By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the radius of the circle is the distance from the center $C\left(1,3\right)$ to the line $3x-4y-7=0$.
+
+$$
+r=\frac{\left|3\cdot1-4\cdot3-7\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|3-12-7\right|}{5}=\frac{16}{5}.
+$$
+
+By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation of the circle is $\left(x-1\right)^2+\left(y-3\right)^2=\frac{256}{25}$.
+
+(2) The center is on the $x$-axis; let it be $\left(a,0\right)$. The circle passes through $A\left(2,-3\right)$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the radius is $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt 5$. Squaring both sides gives $\left(2-a\right)^2+9=5$, i.e. $\left(2-a\right)^2=-4$, which has no solution.
+
+Re-reading the problem: the radius is $\sqrt 5$, i.e. $r^2=5$, and $\left(2-a\right)^2+9=5$ gives $\left(2-a\right)^2=-4$, which indeed has no solution. Check: the center is on the $x$-axis, and its distance to $A\left(2,-3\right)$ is $\sqrt 5$, but the distance from $A$ to the $x$-axis is already $3> \sqrt 5$, so no such circle exists. The problem likely intends the radius to be $5$. If $r=5$, then $\left(2-a\right)^2+9=25$, i.e. $\left(2-a\right)^2=16$, hence $a=6$ or $a=-2$. The equations of the circle are $\left(x-6\right)^2+y^2=25$ or $\left(x+2\right)^2+y^2=25$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 2.4, Problem 5) Find the center coordinates and radius of each of the following circles:
+
+(1) $x^2+y^2-6y=0$;
+
+(2) $2x^2+2y^2-3x-5y-2=0$.
+
+### Solution to Exercise 5
+
+By **Definition 2.4.3 (General Equation of a Circle)**, the center is $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and the radius is $\frac{\sqrt{D^2+E^2-4F}}{2}$.
+
+(1) $x^2+y^2-6y=0$ is $x^2+y^2+0x-6y+0=0$, so $D=0$, $E=-6$, $F=0$. The center is $\left(0,3\right)$ and the radius is $\frac{\sqrt{0+36-0}}{2}=3$.
+
+(2) $2x^2+2y^2-3x-5y-2=0$ is $x^2+y^2-\frac{3}{2}x-\frac{5}{2}y-1=0$, so $D=-\frac{3}{2}$, $E=-\frac{5}{2}$, $F=-1$. The center is $\left(\frac{3}{4},\frac{5}{4}\right)$ and the radius is
+
+$$
+\frac{\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{5}{2}\right)^2-4\left(-1\right)}}{2}=\frac{\sqrt{\frac{9}{4}+\frac{25}{4}+4}}{2}=\frac{\sqrt{\frac{50}{4}}}{2}=\frac{5\sqrt 2}{4}.
+$$
+
+$\blacksquare$
+
+## Exercise 6
+
+(Exercise 2.4, Problem 6) Determine whether each of the following equations represents a circle. If so, find the center and radius:
+
+(1) $x^2+y^2-4x-6y+12=0$;
+
+(2) $x^2+y^2-2x-4y+5=0$;
+
+(3) $x^2+y^2-2x-4y-6=0$.
+
+### Solution to Exercise 6
+
+By **Definition 2.4.3 (General Equation of a Circle)**, check the sign of $D^2+E^2-4F$.
+
+(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4> 0$, so it represents a circle. The center is $\left(2,3\right)$ and the radius is $\frac{\sqrt 4}{2}=1$.
+
+(2) $D=-2$, $E=-4$, $F=5$. $D^2+E^2-4F=4+16-20=0$, so it does not represent a circle, only a single point $\left(1,2\right)$.
+
+(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44> 0$, so it represents a circle. The center is $\left(1,2\right)$ and the radius is $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 2.4, Problem 7) Find the equation of the circle passing through the three points $O\left(0,0\right)$, $M_1\left(1,1\right)$, $M_2\left(4,2\right)$, and find its radius and center coordinates.
+
+### Solution to Exercise 7
+
+By **Definition 2.4.3 (General Equation of a Circle)**, let the equation of the circle be $x^2+y^2+Dx+Ey+F=0$.
+
+The three points lie on the circle; substituting:
+
+(a) $O\left(0,0\right)$: $0+0+0+0+F=0$, so $F=0$.
+
+(b) $M_1\left(1,1\right)$: $1+1+D+E+0=0$, i.e. $D+E=-2$.
+
+(c) $M_2\left(4,2\right)$: $16+4+4D+2E+0=0$, i.e. $4D+2E=-20$, i.e. $2D+E=-10$.
+
+Solving (b) and (c) together gives $D=-8$, $E=6$.
+
+The equation of the circle is $x^2+y^2-8x+6y=0$. The center is $\left(4,-3\right)$ and the radius is $\frac{\sqrt{64+36}}{2}=5$. $\blacksquare$
+
+## Problem 7
+
+(Exercise 2.4, Review and Consolidation, Problem 1) Find the equation of each of the following circles:
+
+(1) center at the origin, radius $3$;
+
+(2) center at $\left(3,4\right)$, passing through the origin;
+
+(3) center on the line $x+y-1=0$, radius $\sqrt 2$, passing through $\left(2,1\right)$;
+
+(4) passing through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-2,0\right)$.
+
+### Solution to Problem 7
+
+By **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
+
+(1) The center is $\left(0,0\right)$, radius $r=3$, and the equation is $x^2+y^2=9$.
+
+(2) The center is $\left(3,4\right)$, and the radius is the distance from the center to the origin; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $r=\sqrt{9+16}=5$. The equation is $\left(x-3\right)^2+\left(y-4\right)^2=25$.
+
+(3) The center is on the line $x+y-1=0$; let it be $\left(a,1-a\right)$. The circle passes through $\left(2,1\right)$ with radius $\sqrt 2$; by the distance formula, $\left(2-a\right)^2+\left(1-\left(1-a\right)\right)^2=2$, i.e. $\left(2-a\right)^2+a^2=2$, i.e. $4-4a+2a^2=2$, i.e. $a^2-2a+1=0$, i.e. $\left(a-1\right)^2=0$, hence $a=1$. The center is $\left(1,0\right)$ and the equation is $\left(x-1\right)^2+y^2=2$.
+
+(4) Let the general equation of the circle be $x^2+y^2+Dx+Ey+F=0$. Substitute the three points:
+
+(a) $\left(0,0\right)$: $F=0$.
+
+(b) $\left(1,1\right)$: $1+1+D+E=0$, i.e. $D+E=-2$.
+
+(c) $\left(-2,0\right)$: $4+0-2D+0=0$, i.e. $D=2$.
+
+Hence $E=-4$. The equation of the circle is $x^2+y^2+2x-4y=0$. $\blacksquare$
+
+## Problem 8
+
+(Exercise 2.4, Review and Consolidation, Problem 2) The circle $C$ passes through $\left(1,0\right)$, its center lies on the positive half of the $x$-axis, and its radius is $2\sqrt 2$. Find the standard equation of circle $C$.
+
+### Solution to Problem 8
+
+By **Definition 2.4.1 (Standard Equation of a Circle)**, the center is on the positive half of the $x$-axis; let it be $\left(a,0\right)$ with $a> 0$.
+
+The circle passes through $\left(1,0\right)$ with radius $2\sqrt 2$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, i.e. $\left(a-1\right)^2=8$, hence $a-1=\pm2\sqrt 2$. Since $a> 0$, we have $a=1+2\sqrt 2$.
+
+The standard equation of the circle is $\left(x-1-2\sqrt 2\right)^2+y^2=8$. $\blacksquare$
+
+## Problem 9
+
+(Exercise 2.4, Review and Consolidation, Problem 3) Find the equation of the circle passing through $A\left(2,-3\right)$ and $B\left(-2,-5\right)$, with its center on the line $x-2y-3=0$.
+
+### Solution to Problem 9
+
+Let the center be $\left(a,b\right)$. Since it lies on the line $x-2y-3=0$, we have $a-2b-3=0$.
+
+The center is equidistant from $A,B$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points),
+
+$$
+\left(a-2\right)^2+\left(b+3\right)^2=\left(a+2\right)^2+\left(b+5\right)^2.
+$$
+
+Expanding gives $a^2-4a+4+b^2+6b+9=a^2+4a+4+b^2+10b+25$, i.e. $-8a-4b-16=0$, i.e. $2a+b+4=0$.
+
+Combining $\begin{cases}a-2b=3\\2a+b=-4\end{cases}$, from the second equation $b=-4-2a$; substituting into the first gives $a-2\left(-4-2a\right)=3$, i.e. $5a=-5$, hence $a=-1$, $b=-2$. The center is $\left(-1,-2\right)$.
+
+The radius is $\sqrt{\left(-1-2\right)^2+\left(-2+3\right)^2}=\sqrt{9+1}=\sqrt{10}$. The equation of the circle is $\left(x+1\right)^2+\left(y+2\right)^2=10$. $\blacksquare$
+
+## Problem 10
+
+(Exercise 2.4, Review and Consolidation, Problem 4) Find the center coordinates and radius of the circle $x^2+y^2-2x+4y-4=0$.
+
+### Solution to Problem 10
+
+By **Definition 2.4.3 (General Equation of a Circle)**, $D=-2$, $E=4$, $F=-4$.
+
+The center is $\left(-\frac{D}{2},-\frac{E}{2}\right)=\left(1,-2\right)$.
+
+The radius is $\frac{\sqrt{D^2+E^2-4F}}{2}=\frac{\sqrt{4+16+16}}{2}=\frac{\sqrt{36}}{2}=3$. $\blacksquare$
+
+## Problem 11
+
+(Exercise 2.4, Comprehensive Application, Problem 5) Given the circle $x^2+y^2=4$ and the line $l:y=x+b$. For what value of $b$ are there exactly $3$ points on the circle $x^2+y^2=4$ whose distance to the line $l$ is exactly $1$?
+
+### Solution to Problem 11
+
+By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $\left(0,0\right)$ to the line $l:x-y+b=0$ is
+
+$$
+d=\frac{\left|b\right|}{\sqrt 2}.
+$$
+
+The radius of the circle is $2$. The number of points on the circle at distance $1$ from the line $l$ depends on the relative position of the line $l$ and the circle, and on the relative position of the line $l$ and the lines parallel to $l$ at distance $1$.
+
+When the distance from the center to the line $l$ is $d=1$, the line $l$ cuts a chord on the circle; of the two lines parallel to $l$ and at distance $1$ from $l$, one passes through the center (intersecting the circle at two points) and the other is disjoint from the circle. In this case there are exactly $2$ points on the circle at distance $1$ from $l$.
+
+When the distance from the center to $l$ is $d=1$, a closer analysis: the points at distance $1$ from $l$ lie on two parallel lines, one at distance $d-1=0$ from the center (through the center, intersecting the circle at two points) and the other at distance $d+1=2$ from the center (tangent to the circle, intersecting at one point). Together there are $3$ points.
+
+Hence $\frac{\lvert b \rvert}{\sqrt 2}=1$, i.e. $b=\pm\sqrt 2$. $\blacksquare$
+
+## Problem 12
+
+(Exercise 2.4, Comprehensive Application, Problem 6) Given that the two endpoints of the base of an isosceles triangle are $B\left(2,1\right)$ and $C\left(0,-3\right)$, find the equation of the locus of the other vertex $A$.
+
+### Solution to Problem 12
+
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the isosceles triangle means $\left|AB\right|=\left|AC\right|$.
+
+Let the coordinates of $A$ be $\left(x,y\right)$. Then
+
+$$
+\left(x-2\right)^2+\left(y-1\right)^2=x^2+\left(y+3\right)^2.
+$$
+
+Expanding gives $x^2-4x+4+y^2-2y+1=x^2+y^2+6y+9$, i.e. $-4x-8y-4=0$, i.e. $x+2y+1=0$.
+
+When $A$ is the midpoint of $BC$, the three points are collinear and do not form a triangle. The midpoint of $BC$ is $\left(1,-1\right)$, which lies on the line $x+2y+1=0$. Hence the locus is the line $x+2y+1=0$ with the point $\left(1,-1\right)$ removed. $\blacksquare$
+
+## Problem 13
+
+(Exercise 2.4, Comprehensive Application, Problem 7) Given the circle $C$: $\left(x-1\right)^2+\left(y-2\right)^2=4$, find the equations of the lines through $P\left(3,5\right)$ that are tangent to $C$.
+
+### Solution to Problem 13
+
+The center is $C\left(1,2\right)$ and the radius is $r=2$. The distance from $P\left(3,5\right)$ to the center is $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}> 2$, so $P$ is outside the circle.
+
+Let the tangent line have equation $y-5=k\left(x-3\right)$, i.e. $kx-y+5-3k=0$.
+
+By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center to the tangent equals the radius:
+
+$$
+\frac{\left|k\cdot1-2+5-3k\right|}{\sqrt{k^2+1}}=2.
+$$
+
+Simplifying gives $\frac{\left|3-2k\right|}{\sqrt{k^2+1}}=2$, i.e. $\left(3-2k\right)^2=4\left(k^2+1\right)$, i.e. $9-12k+4k^2=4k^2+4$, i.e. $12k=5$, hence $k=\frac{5}{12}$.
+
+The tangent equation is $y-5=\frac{5}{12}\left(x-3\right)$, i.e. $5x-12y+45=0$.
+
+When the tangent slope does not exist, the tangent is $x=3$. The distance from the center to $x=3$ is $\lvert 3-1 \rvert=2=r$, so $x=3$ is also a tangent.
+
+Hence the tangent equations are $x=3$ or $5x-12y+45=0$. $\blacksquare$
+
+## Problem 14
+
+(Exercise 2.4, Extension and Exploration, Problem 8) Find the area bounded by the curves $x^2+y^2=4$ and $x^2+y^2=2x$.
+
+### Solution to Problem 14
+
+By **Definition 2.4.1 (Standard Equation of a Circle)**, $x^2+y^2=4$ is a circle centered at the origin with radius $2$.
+
+$x^2+y^2=2x$ is $\left(x-1\right)^2+y^2=1$, a circle centered at $\left(1,0\right)$ with radius $1$.
+
+The distance between centers is $1$, and the radii are $2$ and $1$. Since $2-1=1$, i.e. the distance between centers equals the difference of the radii, the two circles are internally tangent, with the tangency point at $\left(2,0\right)$.
+
+The area bounded by the two circles is the area of the larger circle minus the area of the smaller: $\pi\cdot2^2-\pi\cdot1^2=4\pi-\pi=3\pi$. $\blacksquare$
+
+## Problem 15
+
+(Exercise 2.4, Extension and Exploration, Problem 9) Given the circle $O: x^2+y^2=4$ and the line $l:y=x+b$. For what real value of $b$ are there exactly two points on the circle $O$ whose distance to the line $l$ is exactly $1$?
+
+### Solution to Problem 15
+
+By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $O\left(0,0\right)$ to the line $l:x-y+b=0$ is $d=\frac{\lvert b \rvert}{\sqrt 2}$.
+
+The radius of the circle is $2$. The points at distance $1$ from $l$ lie on two lines parallel to $l$, which are at distances $d-1$ and $d+1$ from the center.
+
+There being exactly two points on the circle at distance $1$ from $l$ means that of the two parallel lines above, one intersects the circle at two points and the other is disjoint from the circle.
+
+(a) When $\lvert d-1 \rvert< 2$ and $d+1> 2$, i.e. $-1< d< 3$ and $d> 1$, i.e. $1< d< 3$.
+
+(b) When $d-1> 2$ and $\lvert d+1 \rvert< 2$, i.e. $d> 3$ and $-3< d< 1$, there is no solution.
+
+In summary, $1< d< 3$, i.e. $1< \frac{\lvert b \rvert}{\sqrt 2}< 3$, i.e. $\sqrt 2< \lvert b \rvert< 3\sqrt 2$, hence $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
+
+## Problem 16
+
+(Exercise 2.4, Extension and Exploration, Problem 10) Given the circle $C: x^2+y^2-4x-14y+45=0$, find:
+
+(1) the center coordinates and radius of circle $C$;
+
+(2) if $Q\left(a,b\right)$ is a moving point on circle $C$, find the range of $u=\frac{b-3}{a-6}$.
+
+### Solution to Problem 16
+
+(1) By **Definition 2.4.3 (General Equation of a Circle)**, the equation $x^2+y^2-4x-14y+45=0$ is $\left(x-2\right)^2+\left(y-7\right)^2=8$. The center is $\left(2,7\right)$ and the radius is $r=2\sqrt 2$.
+
+(2) $u=\frac{b-3}{a-6}$ is the slope of the line joining $Q\left(a,b\right)$ and $P\left(6,3\right)$. The problem becomes: find the range of the slope of the line joining $P\left(6,3\right)$ to a moving point on the circle.
+
+The distance from $P$ to the center $\left(2,7\right)$ is $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2> 2\sqrt 2$, so $P$ is outside the circle.
+
+Let the slope of a tangent through $P$ be $k$; the tangent equation is $y-3=k\left(x-6\right)$, i.e. $kx-y+3-6k=0$.
+
+The distance from the center to the tangent equals the radius:
+
+$$
+\frac{\left|2k-7+3-6k\right|}{\sqrt{k^2+1}}=2\sqrt 2.
+$$
+
+Simplifying gives $\frac{\left|-4k-4\right|}{\sqrt{k^2+1}}=2\sqrt 2$, i.e. $\left(k+1\right)^2=\frac{1}{2}\left(k^2+1\right)$, i.e. $2\left(k^2+2k+1\right)=k^2+1$, i.e. $k^2+4k+1=0$.
+
+Solving gives $k=-2\pm\sqrt 3$. Hence the range of $u$ is $\left[-2-\sqrt 3,-2+\sqrt 3\right]$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 2.5, Problem 1) Determine the position of the line $l$ relative to the circle $C$ in each pair below:
+
+(1) $l:x-y+1=0$, circle $C:x^2+y^2=3$;
+
+(2) $l:3x+4y+2=0$, circle $C:x^2+y^2-2x=0$;
+
+(3) $l:x+y+3=0$, circle $C:x^2+y^2+2y=0$.
+
+### Solution to Exercise 8
+
+By **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle), compare the distance $d$ from the center to the line with the radius $r$.
+
+(1) The center of circle $C$ is $\left(0,0\right)$ and the radius is $r=\sqrt 3$. By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+
+$$
+d=\frac{\left|0-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{1}{\sqrt 2}.
+$$
+
+Since $d=\frac{1}{\sqrt 2}< \sqrt 3=r$, the line $l$ intersects the circle $C$.
+
+(2) The circle $C:x^2+y^2-2x=0$ is $\left(x-1\right)^2+y^2=1$, with center $\left(1,0\right)$ and radius $r=1$. By the distance formula,
+
+$$
+d=\frac{\left|3\cdot1+4\cdot0+2\right|}{\sqrt{3^2+4^2}}=\frac{5}{5}=1.
+$$
+
+Since $d=r=1$, the line $l$ is tangent to the circle $C$.
+
+(3) The circle $C:x^2+y^2+2y=0$ is $x^2+\left(y+1\right)^2=1$, with center $\left(0,-1\right)$ and radius $r=1$. By the distance formula,
+
+$$
+d=\frac{\left|0+\left(-1\right)+3\right|}{\sqrt{1^2+1^2}}=\frac{2}{\sqrt 2}=\sqrt 2.
+$$
+
+Since $d=\sqrt 2> 1=r$, the line $l$ is disjoint from the circle $C$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 2.5, Problem 2) Given that the line $4x+3y-35=0$ is tangent to the circle $C$ centered at the origin, find the equation of circle $C$.
+
+### Solution to Exercise 9
+
+By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $\left(0,0\right)$ to the line $4x+3y-35=0$ is
+
+$$
+d=\frac{\left|-35\right|}{\sqrt{4^2+3^2}}=\frac{35}{5}=7.
+$$
+
+By **Common Conclusion 2.5.1** (Position of a Line Relative to a Circle), tangency means $d=r$, so $r=7$. By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $x^2+y^2=49$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 2.5, Problem 3) Determine the position of the line $2x-y+2=0$ relative to the circle $\left(x-1\right)^2+\left(y-2\right)^2=4$; if they intersect, find the chord length cut by the circle.
+
+### Solution to Exercise 10
+
+The center is $\left(1,2\right)$ and the radius is $r=2$. By **Common Conclusion 2.3.3** (Distance from a Point to a Line),
+
+$$
+d=\frac{\left|2\cdot1-2+2\right|}{\sqrt{2^2+\left(-1\right)^2}}=\frac{2}{\sqrt 5}.
+$$
+
+Since $d=\frac{2}{\sqrt 5}< 2=r$, the line intersects the circle.
+
+By **Common Conclusion 2.5.2** (Chord Length Formula), the chord length is
+
+$$
+\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{4-\frac{4}{5}}=2\sqrt{\frac{16}{5}}=\frac{8\sqrt 5}{5}.
+$$
+
+$\blacksquare$
+
+## Exercise 11
+
+(Exercise 2.5, Problem 4) The span of Zhaozhou Bridge is $37.4\,\mathrm{m}$ and the rise of its circular arch is approximately $7.2\,\mathrm{m}$. Find the equation of the circular arch of this bridge.
+
+### Solution to Exercise 11
+
+Set up a coordinate system with the line through the rise as the $y$-axis, the line through the span as the $x$-axis, and the origin at the midpoint of the span. The two endpoints of the arch are $\left(18.7,0\right)$ and $\left(-18.7,0\right)$, and the top of the arch is $\left(0,7.2\right)$.
+
+Let the center of the arch circle be on the $y$-axis at $\left(0,b\right)$ with radius $r$. By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation is $x^2+\left(y-b\right)^2=r^2$.
+
+Substituting the endpoint $\left(18.7,0\right)$: $18.7^2+b^2=r^2$. Substituting the top $\left(0,7.2\right)$: $\left(7.2-b\right)^2=r^2$.
+
+Equating them gives $18.7^2+b^2=\left(7.2-b\right)^2=51.84-14.4b+b^2$, i.e. $349.69=51.84-14.4b$, i.e. $b=\frac{51.84-349.69}{14.4}\approx-20.68$.
+
+$r^2=18.7^2+20.68^2\approx349.69+427.66=777.35$.
+
+The equation of the arch circle is $x^2+\left(y+20.68\right)^2=777.35$. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 2.5, Problem 5) A certain circular-arch bridge has a water span of $20\,\mathrm{m}$ and a rise of $4\,\mathrm{m}$. A boat is $10\,\mathrm{m}$ wide and $3\,\mathrm{m}$ above the water. Can this boat pass under the bridge?
+
+### Solution to Exercise 12
+
+Set up a coordinate system with the water surface as the $x$-axis and the line through the rise as the $y$-axis. The two endpoints of the arch are $\left(10,0\right)$ and $\left(-10,0\right)$, and the top is $\left(0,4\right)$.
+
+Let the center be $\left(0,b\right)$ with radius $r$. Substituting the endpoints and the top:
+
+$10^2+b^2=r^2$, $\left(4-b\right)^2=r^2$.
+
+Equating gives $100+b^2=16-8b+b^2$, i.e. $84=-8b$, hence $b=-10.5$. $r^2=100+110.25=210.25$.
+
+The equation of the arch circle is $x^2+\left(y+10.5\right)^2=210.25$.
+
+The boat is $10\,\mathrm{m}$ wide, so we check the arch height at $x=\pm5$. Substituting $x=5$ gives $25+\left(y+10.5\right)^2=210.25$, i.e. $\left(y+10.5\right)^2=185.25$, i.e. $y+10.5=\sqrt{185.25}\approx13.61$, hence $y\approx3.11$.
+
+The boat is $3\,\mathrm{m}$ above the water, while the arch at the edge of the boat's width is approximately $3.11\,\mathrm{m}> 3\,\mathrm{m}$, so the boat can pass under the bridge. $\blacksquare$

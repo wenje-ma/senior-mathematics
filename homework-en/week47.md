@@ -1,754 +1,600 @@
 # week47
-> **Definition 10.1.1 (随机试验)**
+> **Definition 2.1.1 (倾斜角)**
 > 
-> 对随机现象的实现和观察称为随机试验, 它具有可重复性,结果明确性和不确定性.
-> **Definition 10.1.2 (Sample Point and Sample Space)**
+> 当直线 l 与 x 轴相交时, 我们取 x 轴为基准, x 轴正向与直线 l 向上方向之间所成的角 alpha 叫做直线 l 的倾斜角.
+> **Definition 2.1.2 (Slope)**
 > 
-> 随机试验中每一个可能出现的结果称为一个样本点, 所有样本点组成的集合称为样本空间.
-> **Definition 10.1.4 (随机事件)**
+> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> **Definition 2.2.1 (Point-slope Form)**
 > 
-> 在随机试验中, 可能发生也可能不发生的事件叫做随机事件.
-> **Definition 10.1.8 (包含关系)**
+> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **Definition 2.2.2 (斜截式方程)**
 > 
-> 若事件 A 发生一定导致事件 B 发生, 则称事件 B 包含事件 A.
-> **Definition 10.1.9 (Equal Events)**
+> 由直线的斜率 k 及其在 y 轴上的截距 b 确定的方程 y = kx + b, 叫做直线的斜截式方程.
+> **Definition 2.2.4 (两点式方程)**
 > 
-> 若事件 A 包含事件 B, 且事件 B 包含事件 A, 则称事件 A 与事件 B 相等.
-> **Definition 10.1.10 (并事件)**
+> ２中的一点,例如,取点１(１,狔１),由直线的点斜式方程,得 　　不利用点斜式方程, 你能求出两点式方程吗? 狔－狔１＝狔２－狔１ ２－１(－１), 当狔２≠狔１时,上式可写为 狔－狔１ 狔２－狔１＝－１ ２－１.　　　　　　　　　 这就是经过两点１(１,狔１),２(２,狔２)(其中１≠２,狔１≠狔２)的直线的方程, 我们把它叫做直线的两点式方程,简称两点式(ｔｗｏｐｏｉｎｔｆｏｒｍ). 在１(１,狔１),２(２,狔２)中,如果１＝２或狔１＝狔２,则直线１２没有两点 式方程.当１＝２时,直线１２垂直于轴,直线方程为－１＝０,即＝１;当 狔１＝狔２时,直线１２垂直于狔轴,直线方程为狔－狔１＝０,即狔＝狔１. ２６ 2元 (4)经过点D(一4,一2),倾斜角是3 ° 2.填空题. (1)已知直线的点斜式方程是y一2=一1,那么此直线的斜率是 ,倾斜角是 (2)已知直线的点斜式方程是十2=/3(α十1),那么此直线的斜率
+> **Definition 2.2.5 (Intercept Form)**
 > 
-> 事件 A 与事件 B 至少有一个发生的事件称为 A 与 B 的并事件 (或和事件).
-> **Definition 10.1.11 (交事件)**
+> 由直线在 x 轴上的截距 a 和在 y 轴上的截距 b 确定的方程 x/a + y/b = 1, 叫做直线的截距式方程.
+> **Definition 2.2.6 (一般式方程)**
 > 
-> 事件 A 与事件 B 同时发生的事件称为 A 与 B 的交事件 (或积事件).
-> **Definition 10.1.12 (互斥)**
-> 
-> 若 A 与 B 不能同时发生, 即 A 交 B 为不可能事件, 则称 A 与 B 互斥.
-> **Definition 10.1.13 (互为对立)**
-> 
-> 若 A 与 B 不能同时发生且必有一个发生, 则称 A 与 B 互为对立事件.
-> **Definition 10.1.14 (古典概型)**
-> 
-> 试验中所有可能出现的基本事件只有有限个, 且每个基本事件出现的可能性相等, 具有这两个特点的概率模型称为古典概型.
-> **Definition 10.1.15 (概率的古典定义)**
-> 
-> 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
-
-## Exercise 1
-
-(Exercise 10.1, Problem 1) Write out the sample space of each of the following random experiments.
-
-(1) By drawing lots, randomly select a student and record their gender;
-
-(2) By drawing lots, randomly select a student and observe their $ABO$ blood type;
-
-(3) Randomly select a family with two children and observe the genders of the two children;
-
-(4) Shoot a target $3$ times and observe whether each shot hits or misses;
-
-(5) Shoot a target $3$ times and observe the number of hits.
-
-### Solution to Exercise 1
-
-By **Definition 10.1.2 (Sample Points and Sample Space)**, each possible basic outcome of a random experiment is called a sample point, and the set of all sample points the sample space.
-
-(1) A student's gender has only two possibilities, male and female, so the sample space is $\Omega=\left\{$male, female$\right\}$.
-
-(2) There are four $ABO$ blood types, $A, B, O, AB$, so the sample space is $\Omega=\left\{A, B, O, AB\right\}$.
-
-(3) Each child's gender has two possibilities, male and female; the two children have $4$ gender combinations in total, so the sample space is $\Omega=\left\{$ (male, male), (male, female), (female, male), (female, female) $\right\}$.
-
-(4) Each shot has two possibilities, hit or miss; use $1$ for a hit and $0$ for a miss. The three shots have $2^3=8$ outcomes in total, so the sample space is $\Omega=\left\{\left(1,1,1\right), \left(1,1,0\right), \left(1,0,1\right), \left(1,0,0\right), \left(0,1,1\right), \left(0,1,0\right), \left(0,0,1\right), \left(0,0,0\right)\right\}$.
-
-(5) The number of hits in three shots can be $0, 1, 2, 3$, so the sample space is $\Omega=\left\{0, 1, 2, 3\right\}$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 10.1, Problem 2) As shown in the figure, components $A, B$ form a series circuit (Figure (1)) and a parallel circuit (Figure (2)) respectively; observe whether the two components are normal or failed.
-
-(1) Write out the sample space of the experiment;
-
-(2) For the series circuit, write out the sample points contained in event $M=$ "the circuit is closed";
-
-(3) For the parallel circuit, write out the sample points contained in event $N=$ "the circuit is open".
-
-(Figure: the left shows a series circuit with components $A$ and $B$ connected in sequence on one wire; the right shows a parallel circuit with components $A$ and $B$ on two parallel branches.)
-
-### Solution to Exercise 2
-
-By **Definition 10.1.2 (Sample Points and Sample Space)**, use $1$ for a normal component and $0$ for a failed component; the pair $\left(x_1, x_2\right)$ denotes the states of components $A, B$.
-
-(1) Each component has two states, normal and failed; the two components have $4$ state combinations in total, so the sample space is $\Omega=\left\{\left(0,0\right), \left(0,1\right), \left(1,0\right), \left(1,1\right)\right\}$.
-
-(2) For the series circuit, the circuit is closed only when both components are normal. By **Definition 10.1.4 (Random Event)**, event $M$ is a subset of the sample space; its sample points are the case where both components are normal, so $M=\left\{\left(1,1\right)\right\}$.
-
-(3) For the parallel circuit, the circuit is open only when both components have failed. By **Definition 10.1.4 (Random Event)**, event $N$ is a subset of the sample space; its sample points are the case where both components have failed, so $N=\left\{\left(0,0\right)\right\}$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 10.1, Problem 3) A bag contains $9$ balls of the same size and texture, labeled $1, 2, 3, 4, 5, 6, 7, 8, 9$; a ball is randomly drawn from it.
-
-(1) Write out the sample space of the experiment;
-
-(2) Use sets to denote event $A=$ "the number on the drawn ball is less than $5$", event $B=$ "the number on the drawn ball is greater than $4$", event $C=$ "the number on the drawn ball is even".
-
-### Solution to Exercise 3
-
-By **Definition 10.1.2 (Sample Points and Sample Space)**, the sample point is the number on the drawn ball, and the sample space is the set of all possible numbers.
-
-(1) The bag contains $9$ balls labeled $1$ to $9$, so the sample space is $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8, 9\right\}$.
-
-(2) By **Definition 10.1.4 (Random Event)**, a random event is a subset of the sample space. The number on the drawn ball being less than $5$, i.e. numbers $1, 2, 3, 4$, so $A=\left\{1, 2, 3, 4\right\}$. The number being greater than $4$, i.e. numbers $5, 6, 7, 8, 9$, so $B=\left\{5, 6, 7, 8, 9\right\}$. The number being even, i.e. numbers $2, 4, 6, 8$, so $C=\left\{2, 4, 6, 8\right\}$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 10.1, Problem 4) A person shoots a target twice in succession. Among the following events, which is complementary to the event "hit at least once"? ( ).
-
-(A) hit at most once
-
-(B) hit both times
-
-(C) hit exactly once
-
-(D) hit neither time
-
-### Solution to Exercise 4
-
-By **Definition 10.1.13 (Complementary Events)**, if events $A$ and $B$ are complementary, then $A\cup B=\Omega$ and $A\cap B=\varnothing$, i.e. $B=\overline A$.
-
-Let event $A=$ "hit at least once"; then $\overline A$ means that $A$ does not occur, i.e. neither shot hits. Checking the options, (D) "hit neither time" is exactly $\overline A$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 10.1, Problem 5) Toss a fair die; the following random events are given:
-
-$C_i=$ "the number is $i$", where $i=1, 2, 3, 4, 5, 6$;
-
-$D_1=$ "the number is no greater than $2$", $D_2=$ "the number is greater than $2$", $D_3=$ "the number is greater than $4$";
-
-$E=$ "the number is odd", $F=$ "the number is even".
-
-Determine whether the following conclusions are correct.
-
-(1) $C_1$ and $C_2$ are mutually exclusive;
-
-(2) $C_2, C_3$ are complementary events;
-
-(3) $C_3\subseteq D_2$;
-
-(4) $D_3\subseteq D_2$;
-
-(5) $D_1\cup D_2=\Omega$, $D_1\cap D_2=\varnothing$;
-
-(6) $D_3=C_5\cup C_6$;
-
-(7) $E=C_1\cup C_3\cup C_5$;
-
-(8) $E, F$ are complementary events;
-
-(9) $D_2\cup D_3=D_2$;
-
-(10) $D_2\cap D_3=D_3$.
-
-### Solution to Exercise 5
-
-By **Definition 10.1.4 (Random Event)**, each event is represented as a subset of the sample space $\Omega=\left\{1, 2, 3, 4, 5, 6\right\}$. The events are $C_1=\left\{1\right\}$, $C_2=\left\{2\right\}$, $C_3=\left\{3\right\}$, $C_4=\left\{4\right\}$, $C_5=\left\{5\right\}$, $C_6=\left\{6\right\}$, $D_1=\left\{1, 2\right\}$, $D_2=\left\{3, 4, 5, 6\right\}$, $D_3=\left\{5, 6\right\}$, $E=\left\{1, 3, 5\right\}$, $F=\left\{2, 4, 6\right\}$.
-
-(1) By **Definition 10.1.12 (Mutually Exclusive)**, $C_1\cap C_2=\left\{1\right\}\cap\left\{2\right\}=\varnothing$, so $C_1$ and $C_2$ are mutually exclusive. The conclusion is correct.
-
-(2) By **Definition 10.1.13 (Complementary Events)**, $C_2\cup C_3=\left\{2, 3\right\}\neq\Omega$, so $C_2, C_3$ are not complementary events. The conclusion is wrong.
-
-(3) By **Definition 10.1.8 (Inclusion Relation)**, $C_3=\left\{3\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
-
-(4) By **Definition 10.1.8 (Inclusion Relation)**, $D_3=\left\{5, 6\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
-
-(5) By **Definition 10.1.10 (Union Event)** and **Definition 10.1.11 (Intersection Event)**, $D_1\cup D_2=\left\{1, 2\right\}\cup\left\{3, 4, 5, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, $D_1\cap D_2=\left\{1, 2\right\}\cap\left\{3, 4, 5, 6\right\}=\varnothing$. The conclusion is correct.
-
-(6) By **Definition 10.1.10 (Union Event)**, $C_5\cup C_6=\left\{5\right\}\cup\left\{6\right\}=\left\{5, 6\right\}=D_3$. The conclusion is correct.
-
-(7) By **Definition 10.1.10 (Union Event)**, $C_1\cup C_3\cup C_5=\left\{1\right\}\cup\left\{3\right\}\cup\left\{5\right\}=\left\{1, 3, 5\right\}=E$. The conclusion is correct.
-
-(8) By **Definition 10.1.13 (Complementary Events)**, $E\cup F=\left\{1, 3, 5\right\}\cup\left\{2, 4, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, and $E\cap F=\left\{1, 3, 5\right\}\cap\left\{2, 4, 6\right\}=\varnothing$, so $E, F$ are complementary events. The conclusion is correct.
-
-(9) By **Definition 10.1.10 (Union Event)**, $D_2\cup D_3=\left\{3, 4, 5, 6\right\}\cup\left\{5, 6\right\}=\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
-
-(10) By **Definition 10.1.11 (Intersection Event)**, $D_2\cap D_3=\left\{3, 4, 5, 6\right\}\cap\left\{5, 6\right\}=\left\{5, 6\right\}=D_3$. The conclusion is correct. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 10.1, Problem 6) Determine whether the following solution is correct, and explain why.
-
-An athlete practices trap shooting twice in succession; observing whether each shot hits, use $y$ for a hit and $n$ for a miss. Then the experiment's sample space is $\Omega=\left\{yy, yn, ny, nn\right\}$, so the probability of the event "both shots hit" is $0.25$.
-
-### Solution to Exercise 6
-
-By **Definition 10.1.14 (Classical Probability Model)**, a classical model requires each sample point to be equally likely. In this athlete's two shots, the four sample points $yy, yn, ny, nn$ are not necessarily equally likely, because the probability of hitting the target on each shot is not necessarily $0.5$; hence this experiment is not a classical model, and the classical-model formula cannot be used to compute the probability.
-
-By **Definition 10.1.15 (Classical Definition of Probability)**, $P\left(yy\right)=\frac{1}{4}=0.25$ holds only in a classical model. The solution in the problem assumes the experiment is a classical model without stating that the athlete's per-shot hit probability is $0.5$, so the solution is incorrect. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 10.1, Problem 7) From a deck of $52$ playing cards excluding the jokers, a card is drawn at random. Compute the probability of each of the following events:
-
-(1) the drawn card is a $7$;
-
-(2) the drawn card is not a $7$;
-
-(3) the drawn card is a diamond;
-
-(4) drawing a $J$ or a $Q$ or a $K$;
-
-(5) the drawn card is both a heart and a club;
-
-(6) the drawn card is greater than $6$ and less than $9$;
-
-(7) the drawn card is red;
-
-(8) the drawn card is red or black.
-
-### Solution to Exercise 7
-
-By **Definition 10.1.14 (Classical Probability Model)**, drawing one card at random from $52$ cards, each sample point is equally likely, and the sample space contains $52$ sample points. By **Definition 10.1.15 (Classical Definition of Probability)**, $P\left(A\right)=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
-
-(1) In a deck, the card $7$ has $4$ copies (one of each suit), so $n\left(A_1\right)=4$, $P\left(A_1\right)=\frac{4}{52}=\frac{1}{13}$.
-
-(2) The event "the drawn card is not a $7$" is the complementary event of "the drawn card is a $7$". By **Property 10.1.19** (Probability of Complementary Events), $P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{1}{13}=\frac{12}{13}$.
-
-(3) There are $13$ diamonds in a deck, so $n\left(A_3\right)=13$, $P\left(A_3\right)=\frac{13}{52}=\frac{1}{4}$.
-
-(4) There are $4$ each of $J, Q, K$, $12$ in total, so $n\left(A_4\right)=12$, $P\left(A_4\right)=\frac{12}{52}=\frac{3}{13}$.
-
-(5) A card cannot be both a heart and a club; this event is impossible. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P\left(A_5\right)=0$.
-
-(6) Cards greater than $6$ and less than $9$ are $7, 8$, with $4$ each, $8$ in total, so $n\left(A_6\right)=8$, $P\left(A_6\right)=\frac{8}{52}=\frac{2}{13}$.
-
-(7) Red cards are hearts and diamonds, $13$ each, $26$ in total, so $n\left(A_7\right)=26$, $P\left(A_7\right)=\frac{26}{52}=\frac{1}{2}$.
-
-(8) Drawing a red or a black card is a certain event. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P\left(A_8\right)=1$. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 10.1, Problem 8) A number is chosen at random from the $10$ numbers $0$ to $9$. Find the probability of the following events:
-
-(1) the units digit of the square of this number is $1$;
-
-(2) the units digit of the fourth power of this number is $1$.
-
-### Solution to Exercise 8
-
-By **Definition 10.1.14 (Classical Probability Model)**, choosing a number at random from $0$ to $9$, each number is equally likely, the sample space is $\Omega=\left\{0, 1, 2, \cdots, 9\right\}$, $n\left(\Omega\right)=10$. By **Definition 10.1.15 (Classical Definition of Probability)**, $P\left(A\right)=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
-
-(1) Compute the units digit of each square: $0^2=0$, $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$ with units digit $6$, $5^2=25$ with units digit $5$, $6^2=36$ with units digit $6$, $7^2=49$ with units digit $9$, $8^2=64$ with units digit $4$, $9^2=81$ with units digit $1$. The numbers whose square has units digit $1$ are $1$ and $9$, $2$ in total, so $P\left(A_1\right)=\frac{2}{10}=\frac{1}{5}$.
-
-(2) Compute the units digit of each fourth power: $0^4=0$, $1^4=1$, $2^4=16$ with units digit $6$, $3^4=81$ with units digit $1$, $4^4=256$ with units digit $6$, $5^4=625$ with units digit $5$, $6^4$ with units digit $6$, $7^4$ with units digit $1$, $8^4$ with units digit $6$, $9^4$ with units digit $1$. The numbers whose fourth power has units digit $1$ are $1, 3, 7, 9$, $4$ in total, so $P\left(A_2\right)=\frac{4}{10}=\frac{2}{5}$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 10.1, Problem 9) Given $P\left(A\right)=0.5$, $P\left(B\right)=0.3$.
-
-(1) If $B\subseteq A$, then $P\left(A\cup B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$;
-
-(2) If $A, B$ are mutually exclusive, then $P\left(A\cup B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$.
-
-### Solution to Exercise 9
-
-By **Property 10.1.20** (Monotonicity of Probability) and **Property 10.1.18** (Additive Formula for Mutually Exclusive Events).
-
-(1) Since $B\subseteq A$, the union event is just $A$ itself, i.e. $A\cup B=A$, so $P\left(A\cup B\right)=P\left(A\right)=0.5$. The intersection event is just $B$ itself, i.e. $A\cap B=B$, so $P\left(A\cap B\right)=P\left(B\right)=0.3$.
-
-(2) By **Definition 10.1.12 (Mutually Exclusive)**, $A\cap B=\varnothing$, so $P\left(A\cap B\right)=P\left(\varnothing\right)=0$. By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)=0.5+0.3=0.8$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 10.1, Problem 10) Point out the error in each of the following statements:
-
-(1) The probability that a certain area will rain tomorrow is $0.4$, and the probability that it will not rain tomorrow is $0.5$;
-
-(2) If events $A$ and $B$ are mutually exclusive, then necessarily $P\left(A\right)+P\left(B\right)=1$.
-
-### Solution to Exercise 10
-
-(1) By **Property 10.1.19** (Probability of Complementary Events), "it rains tomorrow" and "it does not rain tomorrow" are complementary events, and the sum of their probabilities should be $1$. But $0.4+0.5=0.9\neq 1$, so the statement is wrong.
-
-(2) By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), mutually exclusive events satisfy $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)$, but $A\cup B$ is not necessarily the certain event, so $P\left(A\right)+P\left(B\right)$ is not necessarily $1$. Only when $A, B$ are complementary does $P\left(A\right)+P\left(B\right)=1$. Mutually exclusive events are not necessarily complementary, so the statement is wrong. $\blacksquare$
-
-## Exercise 11
-
-(Exercise 10.1, Problem 11) At the school sports meet opening ceremony, $100$ students form a square array for a performance. The numbers classified by gender ($M$ (male), $F$ (female)) and grade ($G_1$ (Grade 10), $G_2$ (Grade 11), $G_3$ (Grade 12)) are as in the table:
-
-| Gender | $G_1$ | $G_2$ | $G_3$ |
-|---|---|---|---|
-| $M$ | $18$ | $20$ | $14$ |
-| $F$ | $17$ | $24$ | $7$ |
-
-If a student is chosen at random from these $100$ students, find the following probabilities:
-
-$P\left(M\right)=\;\_\_\;$, $P\left(F\right)=\;\_\_\;$, $P\left(M\cup F\right)=\;\_\_\;$, $P\left(M\cap F\right)=\;\_\_\;$,
-
-$P\left(G_1\right)=\;\_\_\;$, $P\left(M\cup G_2\right)=\;\_\_\;$, $P\left(F\cap G_3\right)=\;\_\_\;$.
-
-### Solution to Exercise 11
-
-By **Definition 10.1.15 (Classical Definition of Probability)**, choosing one student at random from $100$, each student is equally likely, $n\left(\Omega\right)=100$.
-
-The total number of boys is $18+20+14=52$, the total number of girls is $17+24+7=48$, and the total number of Grade-10 students is $18+17=35$.
-
-$P\left(M\right)=\frac{52}{100}=0.52$.
-
-$P\left(F\right)=\frac{48}{100}=0.48$.
-
-By **Definition 10.1.13 (Complementary Events)**, $M$ and $F$ are complementary events, so $M\cup F=\Omega$, $P\left(M\cup F\right)=1$.
-
-By **Definition 10.1.12 (Mutually Exclusive)**, $M$ and $F$ are mutually exclusive, $M\cap F=\varnothing$, so $P\left(M\cap F\right)=0$.
-
-$P\left(G_1\right)=\frac{35}{100}=0.35$.
-
-By **Property 10.1.21** (General Additive Formula), $P\left(M\cup G_2\right)=P\left(M\right)+P\left(G_2\right)-P\left(M\cap G_2\right)$. Here $P\left(G_2\right)=\frac{20+24}{100}=0.44$, $P\left(M\cap G_2\right)=\frac{20}{100}=0.20$, so $P\left(M\cup G_2\right)=0.52+0.44-0.20=0.76$.
-
-$P\left(F\cap G_3\right)=\frac{7}{100}=0.07$. $\blacksquare$
+> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
 
 ## Problem 1
 
-(Exercise 10.1, Review and Consolidation, Problem 1) As shown in the figure, toss one blue and one yellow fair tetrahedral die, observing the number on the bottom face of each.
+(Exercise 2.1, Review and Consolidation, Problem 6) Determine whether the lines $l_1$ and $l_2$ in each of the following are perpendicular:
 
-(1) Represent all possible outcomes of the experiment in a table;
+(1) The slope of $l_1$ is $-\frac{2}{3}$, and $l_2$ passes through the points $A\left(1,1\right)$, $B\left(0,-\frac{1}{2}\right)$;
 
-(2) List the sample points contained in the following events:
+(2) The inclination angle of $l_1$ is $45^\circ$, and $l_2$ passes through the two points $P\left(-2,-1\right)$, $Q\left(3,-6\right)$;
 
-$A=$ "the two numbers are equal", $B=$ "the sum of the two numbers equals $5$", $C=$ "the number on the blue die is $2$".
-
-(Figure: two regular tetrahedral dice, one blue on the left and one yellow on the right, each with its four faces labeled $1\sim4$.)
+(3) $l_1$ passes through the two points $M\left(1,0\right)$, $N\left(4,-5\right)$, and $l_2$ passes through the two points $R\left(-6,0\right)$, $S\left(-1,3\right)$.
 
 ### Solution to Problem 1
 
-By **Definition 10.1.14 (Classical Probability Model)**, the two tetrahedral dice each have $4$ equally likely outcomes; use $\left(x, y\right)$ for the sample point where the blue die's bottom number is $x$ and the yellow die's bottom number is $y$.
+By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), i.e. $k_1k_2=-1$.
 
-(1) All possible outcomes of the experiment are in the following table:
+(1) By **Common Conclusion 2.1.3** (Slope Formula), $k_{AB}=\frac{-\frac{1}{2}-1}{0-1}=\frac{-\frac{3}{2}}{-1}=\frac{3}{2}$, i.e. the slope of $l_2$ is $\frac{3}{2}$. The slope of $l_1$ is $-\frac{2}{3}$. The product of the two slopes is $-\frac{2}{3}\times\frac{3}{2}=-1$, so $l_1\perp l_2$.
 
-| Blue \ Yellow | $1$ | $2$ | $3$ | $4$ |
-|---|---|---|---|---|
-| $1$ | $\left(1,1\right)$ | $\left(1,2\right)$ | $\left(1,3\right)$ | $\left(1,4\right)$ |
-| $2$ | $\left(2,1\right)$ | $\left(2,2\right)$ | $\left(2,3\right)$ | $\left(2,4\right)$ |
-| $3$ | $\left(3,1\right)$ | $\left(3,2\right)$ | $\left(3,3\right)$ | $\left(3,4\right)$ |
-| $4$ | $\left(4,1\right)$ | $\left(4,2\right)$ | $\left(4,3\right)$ | $\left(4,4\right)$ |
+(2) By **Definition 2.1.2 (Slope)**, the slope of $l_1$ is $k_1=\tan 45^\circ=1$. By the slope formula,
 
-(2) By **Definition 10.1.4 (Random Event)**, each event is a subset of the sample space. The sample points with equal numbers are $\left(1,1\right), \left(2,2\right), \left(3,3\right), \left(4,4\right)$, so $A=\left\{\left(1,1\right), \left(2,2\right), \left(3,3\right), \left(4,4\right)\right\}$. The sample points with numbers summing to $5$ are $\left(1,4\right), \left(2,3\right), \left(3,2\right), \left(4,1\right)$, so $B=\left\{\left(1,4\right), \left(2,3\right), \left(3,2\right), \left(4,1\right)\right\}$. The sample points with blue die number $2$ are $\left(2,1\right), \left(2,2\right), \left(2,3\right), \left(2,4\right)$, so $C=\left\{\left(2,1\right), \left(2,2\right), \left(2,3\right), \left(2,4\right)\right\}$. $\blacksquare$
+$$
+k_{PQ}=\frac{-6-\left(-1\right)}{3-\left(-2\right)}=\frac{-5}{5}=-1,
+$$
+
+i.e. the slope of $l_2$ is $-1$. The product of the two slopes is $1\times\left(-1\right)=-1$, so $l_1\perp l_2$.
+
+(3) By the slope formula,
+
+$$
+k_{MN}=\frac{-5-0}{4-1}=\frac{-5}{3}=-\frac{5}{3},
+$$
+
+$$
+k_{RS}=\frac{3-0}{-1-\left(-6\right)}=\frac{3}{5}.
+$$
+
+The product of the two slopes is $-\frac{5}{3}\times\frac{3}{5}=-1$, so $l_1\perp l_2$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 10.1, Review and Consolidation, Problem 2) In a certain World Cup, four teams $a, b, c, d$ reached the final stage. In the two first-round matches, $a$ plays $b$ and $c$ plays $d$; then the winners of these two matches enter the championship final, and the losers play to decide third and fourth place. One possible final result is written $acbd$ (meaning $a$ beats $b$, $c$ beats $d$, then $a$ beats $c$, $b$ beats $d$).
-
-(1) Write out the sample space of all possible results;
-
-(2) Let event $A$ mean team $a$ wins the championship; write out all possible results contained in $A$;
-
-(3) Let event $B$ mean team $a$ reaches the championship final; write out all possible results contained in $B$.
+(Exercise 2.1, Comprehensive Application, Problem 7) The inclination angle of line $l$ through the two points $A\left(m^2+2,m^2-3\right)$, $B\left(3-m-m^2,2m\right)$ is $45^\circ$. Find the value of $m$.
 
 ### Solution to Problem 2
 
-By **Definition 10.1.2 (Sample Points and Sample Space)**, each possible match result is a sample point.
-
-(1) The first round has two matches: $a$ vs $b$ ($a$ wins or $b$ wins), $c$ vs $d$ ($c$ wins or $d$ wins); the winners enter the final and the losers play for third/fourth. The first round has $2\times 2=4$ win/loss combinations; under each, the final and the third-place match each have $2$ outcomes, giving $4\times 2\times 2=16$ results in total. The sample space is:
+By **Definition 2.1.2 (Slope)**, when the inclination angle is $45^\circ$, the slope is $k=\tan 45^\circ=1$. By **Common Conclusion 2.1.3** (Slope Formula),
 
 $$
-\Omega=\left\{acbd, acdb, adbc, adcb, \; cabd, cadb, dabc, dacb, \; bcad, bcda, cbad, cbda, \; bdac, bdca, dbac, dbca\right\}.
+k_{AB}=\frac{2m-\left(m^2-3\right)}{\left(3-m-m^2\right)-\left(m^2+2\right)}=\frac{2m-m^2+3}{1-m-2m^2}.
 $$
 
-(2) By **Definition 10.1.4 (Random Event)**, $A$ is the set of sample points in $\Omega$ where team $a$ wins the championship. Team $a$ winning the championship means $a$ wins the first round and wins the final, so
+Setting this equal to $1$ gives
 
 $$
-A=\left\{acbd, acdb, adbc, adcb\right\}.
+\frac{2m-m^2+3}{1-m-2m^2}=1.
 $$
 
-(3) Team $a$ reaching the championship final means $a$ wins the first round (i.e. $a$ beats $b$), the final opponent is $c$ or $d$, regardless of the final outcome, so
+Clearing denominators gives $2m-m^2+3=1-m-2m^2$, which simplifies to $m^2+3m+2=0$, i.e. $\left(m+1\right)\left(m+2\right)=0$, so $m=-1$ or $m=-2$.
 
-$$
-B=\left\{acbd, acdb, cabd, cadb, \; adbc, adcb, dabc, dacb\right\}.
-$$
+When $m=-1$, $A\left(3,-2\right)$, $B\left(3,-2\right)$; the two points coincide, which does not satisfy the problem, so it is discarded.
 
-$\blacksquare$
+When $m=-2$, $A\left(6,1\right)$, $B\left(3,-4\right)$, and the slope is $\frac{-4-1}{3-6}=\frac{-5}{-3}=\frac{5}{3}\ne1$. Substituting into the original expression to verify: the numerator $2\left(-2\right)-\left(-2\right)^2+3=-4-4+3=-5$, the denominator $1-\left(-2\right)-2\left(-2\right)^2=1+2-8=-5$, and the ratio is $1$, which is consistent.
+
+Hence $m=-2$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 10.1, Review and Consolidation, Problem 3) Toss two fair coins. Let event $A=$ "the first coin lands heads", and event $B=$ "the second coin lands tails".
-
-(1) Write out the sample space and list the sample points contained in $A$ and $B$;
-
-(2) Which of the following conclusions is correct? ( ).
-
-(A) $A$ and $B$ are complementary events
-
-(B) $A$ and $B$ are mutually exclusive
-
-(C) $A$ and $B$ are equal
-
-(D) $P\left(A\right)=P\left(B\right)$
+(Exercise 2.1, Comprehensive Application, Problem 8) Draw a line $l$ through the point $P\left(0,-1\right)$. If line $l$ always has a common point with the segment joining the two points $A\left(1,-2\right)$, $B\left(2,1\right)$, find the range of the inclination angle $\alpha$ and the slope $k$ of line $l$, and explain the reason.
 
 ### Solution to Problem 3
 
-By **Definition 10.1.2 (Sample Points and Sample Space)**, use $1$ for heads and $0$ for tails.
-
-(1) All possible outcomes of tossing the two coins are
+By **Common Conclusion 2.1.3** (Slope Formula), first find the slopes of $PA$ and $PB$.
 
 $$
-\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+k_{PA}=\frac{-2-\left(-1\right)}{1-0}=\frac{-1}{1}=-1,
 $$
 
-By **Definition 10.1.4 (Random Event)**, event $A=$ "the first coin lands heads", i.e. the first is $1$, so $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$. Event $B=$ "the second coin lands tails", i.e. the second is $0$, so $B=\left\{\left(1,0\right), \left(0,0\right)\right\}$.
+$$
+k_{PB}=\frac{1-\left(-1\right)}{2-0}=\frac{2}{2}=1.
+$$
 
-(2) By **Definition 10.1.12 (Mutually Exclusive)**, $A\cap B=\left\{\left(1,0\right)\right\}\neq\varnothing$, so $A, B$ are not mutually exclusive; (A)(B) are wrong. By **Definition 10.1.9 (Equality of Events)**, $A\neq B$, so (C) is wrong. By **Definition 10.1.15 (Classical Definition of Probability)**, $P\left(A\right)=\frac{2}{4}=\frac{1}{2}$, $P\left(B\right)=\frac{2}{4}=\frac{1}{2}$, so $P\left(A\right)=P\left(B\right)$; (D) is correct. $\blacksquare$
+By **Definition 2.1.2 (Slope)**, $k_{PA}=-1$ corresponds to the inclination angle $135^\circ$, and $k_{PB}=1$ corresponds to the inclination angle $45^\circ$.
+
+Line $l$ rotates about point $P$; for it to have a common point with segment $AB$, its inclination angle $\alpha$ must lie between $45^\circ$ and $135^\circ$, i.e. $45^\circ\le\alpha\le135^\circ$.
+
+When $\alpha\in\left[45^\circ,90^\circ\right)$, the slope $k\ge1$; when $\alpha=90^\circ$, the slope does not exist; when $\alpha\in\left(90^\circ,135^\circ\right]$, the slope $k\le-1$.
+
+Hence the range of the slope $k$ is $k\ge1$ or $k\le-1$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 10.1, Review and Consolidation, Problem 4) Determine whether the following statements are correct. If wrong, give a counterexample.
-
-(1) Mutually exclusive events are always complementary, and complementary events are not necessarily mutually exclusive;
-
-(2) Mutually exclusive events are not necessarily complementary, and complementary events are always mutually exclusive;
-
-(3) The probability that at least one of events $A$ and $B$ occurs is always greater than the probability that exactly one of $A$ and $B$ occurs;
-
-(4) The probability that events $A$ and $B$ occur simultaneously is always less than the probability that exactly one of $A$ and $B$ occurs.
+(Exercise 2.1, Comprehensive Application, Problem 9) Given the points $M\left(2,2\right)$ and $N\left(5,-2\right)$, the point $P$ lies on the $x$-axis, and $\angle MPN$ is a right angle. Find the coordinates of point $P$.
 
 ### Solution to Problem 4
 
-By **Definition 10.1.12 (Mutually Exclusive)** and **Definition 10.1.13 (Complementary Events)**.
+By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $\angle MPN$ being a right angle means $PM\perp PN$, so $k_{PM}\,k_{PN}=-1$.
 
-(1) Mutually exclusive events require only $A\cap B=\varnothing$, not $A\cup B=\Omega$, so mutually exclusive events are not necessarily complementary. Complementary events require $A\cap B=\varnothing$ and $A\cup B=\Omega$, so complementary events are always mutually exclusive. The statement is wrong. Counterexample: in die tossing, "the number is $1$" and "the number is $2$" are mutually exclusive but not complementary.
+Let the coordinates of point $P$ be $\left(x,0\right)$. By **Common Conclusion 2.1.3** (Slope Formula),
 
-(2) From the above analysis, mutually exclusive events are not necessarily complementary, and complementary events are always mutually exclusive. The statement is correct.
+$$
+k_{PM}=\frac{0-2}{x-2}=\frac{-2}{x-2},
+$$
 
-(3) By **Property 10.1.21** (General Additive Formula), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. The probability that "exactly one of $A, B$ occurs" is $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. Their difference is $P\left(A\cup B\right)-\left[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\right]=P\left(A\cap B\right)\ge 0$, so the probability that "at least one occurs" is not necessarily greater than the probability that "exactly one occurs". When $P\left(A\cap B\right)=0$, the two are equal. The statement is wrong. Counterexample: for mutually exclusive events $A, B$, their probabilities are equal.
+$$
+k_{PN}=\frac{0-\left(-2\right)}{x-5}=\frac{2}{x-5}.
+$$
 
-(4) By **Property 10.1.16** (Non-negativity of Probability), $P\left(A\cap B\right)\ge 0$, while the probability that "exactly one occurs" is $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. When $P\left(A\right)=P\left(B\right)=0.9$, $P\left(A\cap B\right)=0.81$, the probability that exactly one occurs is $0.9+0.9-2\times 0.81=0.18$, at which point $P\left(A\cap B\right)> $ the probability that exactly one occurs. The statement is wrong. $\blacksquare$
+From $PM\perp PN$, we get
+
+$$
+\frac{-2}{x-2}\cdot\frac{2}{x-5}=-1.
+$$
+
+Simplifying gives $\frac{-4}{\left(x-2\right)\left(x-5\right)}=-1$, i.e. $\left(x-2\right)\left(x-5\right)=4$, i.e. $x^2-7x+10=4$, i.e. $x^2-7x+6=0$, i.e. $\left(x-1\right)\left(x-6\right)=0$.
+
+Hence $x=1$ or $x=6$, and the coordinates of point $P$ are $\left(1,0\right)$ or $\left(6,0\right)$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 10.1, Review and Consolidation, Problem 5) Producing a certain product requires two processes. Let event $A=$ "the first process is qualified" and event $B=$ "the second process is qualified". Use $A, B, \overline A, \overline B$ to denote the following events:
-
-$C=$ "the product is qualified", $D=$ "the product is unqualified".
+(Exercise 2.1, Extension and Exploration, Problem 10) Given that the four vertices of quadrilateral $ABCD$ are $A\left(2,2+2\sqrt 2\right)$, $B\left(-2,2\right)$, $C\left(0,2-2\sqrt 2\right)$, $D\left(4,2\right)$, prove that quadrilateral $ABCD$ is a rectangle.
 
 ### Solution to Problem 5
 
-By **Definition 10.1.11 (Intersection Event)**, the product being qualified requires both processes to be qualified, i.e. $A$ and $B$ occur simultaneously, so
+By **Common Conclusion 2.1.3** (Slope Formula), find the slopes of the lines on which the four sides lie, respectively.
 
 $$
-C=A\cap B.
+k_{AB}=\frac{2-\left(2+2\sqrt 2\right)}{-2-2}=\frac{-2\sqrt 2}{-4}=\frac{\sqrt 2}{2},
 $$
 
-By **Definition 10.1.13 (Complementary Events)**, the product being unqualified is the complementary event of the product being qualified, so $D=\overline C$. It can also be expressed as: the product being unqualified means at least one process is unqualified, i.e. the first process is unqualified ($\overline A$) or the second process is unqualified ($\overline B$), so
-
 $$
-D=\overline A\cup\overline B.
+k_{BC}=\frac{\left(2-2\sqrt 2\right)-2}{0-\left(-2\right)}=\frac{-2\sqrt 2}{2}=-\sqrt 2,
 $$
 
-$\blacksquare$
+$$
+k_{CD}=\frac{2-\left(2-2\sqrt 2\right)}{4-0}=\frac{2\sqrt 2}{4}=\frac{\sqrt 2}{2},
+$$
+
+$$
+k_{DA}=\frac{\left(2+2\sqrt 2\right)-2}{2-4}=\frac{2\sqrt 2}{-2}=-\sqrt 2.
+$$
+
+By **Common Conclusion 2.1.5** (Parallelism of Two Lines), $k_{AB}=k_{CD}=\frac{\sqrt 2}{2}$, so $AB\parallel CD$; $k_{BC}=k_{DA}=-\sqrt 2$, so $BC\parallel DA$. Hence quadrilateral $ABCD$ is a parallelogram.
+
+Then by **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $k_{AB}\,k_{BC}=\frac{\sqrt 2}{2}\times\left(-\sqrt 2\right)=-1$, so $AB\perp BC$. The parallelogram $ABCD$ has one interior angle a right angle, so quadrilateral $ABCD$ is a rectangle. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 2.2, Problem 1) Write the point-slope equation of each of the following lines:
+
+(1) Passing through the point $A\left(3,-1\right)$ with slope $\sqrt 2$;
+
+(2) Passing through the point $B\left(-\sqrt 2,2\right)$ with inclination angle $30^\circ$;
+
+(3) Passing through the point $C\left(0,3\right)$ with inclination angle $0^\circ$;
+
+(4) Passing through the point $D\left(-4,-2\right)$ with inclination angle $\frac{2\pi}{3}$.
+
+### Solution to Exercise 1
+
+By **Definition 2.2.1 (Point-slope Equation)**, the point-slope equation is $y-y_0=k\left(x-x_0\right)$, where $k=\tan\alpha$.
+
+(1) Substituting the point $A\left(3,-1\right)$ and the slope $k=\sqrt 2$ gives $y-\left(-1\right)=\sqrt 2\left(x-3\right)$, i.e. $y+1=\sqrt 2\left(x-3\right)$.
+
+(2) By **Definition 2.1.2 (Slope)**, $k=\tan 30^\circ=\frac{\sqrt 3}{3}$. Substituting the point $B\left(-\sqrt 2,2\right)$ gives $y-2=\frac{\sqrt 3}{3}\left(x+\sqrt 2\right)$.
+
+(3) Since the inclination angle is $0^\circ$, $k=\tan 0^\circ=0$. Substituting the point $C\left(0,3\right)$ gives $y-3=0\cdot\left(x-0\right)$, i.e. $y-3=0$.
+
+(4) By **Definition 2.1.2 (Slope)**, $k=\tan\frac{2\pi}{3}=-\sqrt 3$. Substituting the point $D\left(-4,-2\right)$ gives $y-\left(-2\right)=-\sqrt 3\left(x+4\right)$, i.e. $y+2=-\sqrt 3\left(x+4\right)$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 2.2, Problem 2) Fill in the blanks.
+
+(1) Given that the point-slope equation of a line is $y-2=x-1$, then the slope of this line is $\;\_\_\;$, and the inclination angle is $\;\_\_\;$;
+
+(2) Given that the point-slope equation of a line is $y+2=\sqrt 3\left(x+1\right)$, then the slope of this line is $\;\_\_\;$, and the inclination angle is $\;\_\_\;$.
+
+### Solution to Exercise 2
+
+By **Definition 2.2.1 (Point-slope Equation)**, in the point-slope form $y-y_0=k\left(x-x_0\right)$, $k$ is the slope; by **Definition 2.1.2 (Slope)**, $k=\tan\alpha$.
+
+(1) The equation $y-2=x-1$ is $y-2=1\cdot\left(x-1\right)$; comparing with the point-slope form, the slope is $k=1$. From $\tan\alpha=1$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=45^\circ$.
+
+(2) The equation $y+2=\sqrt 3\left(x+1\right)$ is $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$; comparing with the point-slope form, the slope is $k=\sqrt 3$. From $\tan\alpha=\sqrt 3$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=60^\circ$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 2.2, Problem 3) Write the slope-intercept equation of each of the following lines:
+
+(1) Slope $\frac{\sqrt 3}{2}$, and intercept on the $y$-axis $-2$;
+
+(2) Slope $-2$, and intercept on the $y$-axis $4$.
+
+### Solution to Exercise 3
+
+By **Definition 2.2.2 (Slope-intercept Equation)**, the slope-intercept form is $y=kx+b$, where $k$ is the slope and $b$ is the intercept on the $y$-axis.
+
+(1) Substituting $k=\frac{\sqrt 3}{2}$, $b=-2$ gives $y=\frac{\sqrt 3}{2}x-2$.
+
+(2) Substituting $k=-2$, $b=4$ gives $y=-2x+4$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 2.2, Problem 4) Determine whether each of the following pairs of lines is parallel or perpendicular:
+
+(1) $l_1:y=\frac{1}{2}x+3$, $l_2:y=\frac{1}{2}x-2$;
+
+(2) $l_1:y=\frac{5}{3}x$, $l_2:y=-\frac{3}{5}x$.
+
+### Solution to Exercise 4
+
+By **Common Conclusion 2.2.3** (Parallelism and Perpendicularity in Slope-intercept Form).
+
+(1) The slope of $l_1$ is $k_1=\frac{1}{2}$, the slope of $l_2$ is $k_2=\frac{1}{2}$, and $k_1=k_2$. Also the intercept of $l_1$ is $b_1=3$, the intercept of $l_2$ is $b_2=-2$, and $b_1\ne b_2$, so $l_1\parallel l_2$.
+
+(2) The slope of $l_1$ is $k_1=\frac{5}{3}$, the slope of $l_2$ is $k_2=-\frac{3}{5}$. The product of the two slopes is $\frac{5}{3}\times\left(-\frac{3}{5}\right)=-1$, so $l_1\perp l_2$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 2.2, Problem 5) Find the two-point equation of the line through each of the following pairs of points:
+
+(1) $P_1\left(2,1\right)$, $P_2\left(0,-3\right)$;
+
+(2) $A\left(0,5\right)$, $B\left(5,0\right)$.
+
+### Solution to Exercise 5
+
+By **Definition 2.2.4 (Two-point Equation)**, the two-point form is $\frac{y-y_1}{y_2-y_1}=\frac{x-x_1}{x_2-x_1}$.
+
+(1) Substituting $P_1\left(2,1\right)$, $P_2\left(0,-3\right)$ gives
+
+$$
+\frac{y-1}{-3-1}=\frac{x-2}{0-2},
+$$
+
+i.e. $\frac{y-1}{-4}=\frac{x-2}{-2}$.
+
+(2) Substituting $A\left(0,5\right)$, $B\left(5,0\right)$ gives
+
+$$
+\frac{y-5}{0-5}=\frac{x-0}{5-0},
+$$
+
+i.e. $\frac{y-5}{-5}=\frac{x}{5}$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 2.2, Problem 6) Find the intercept equation of the line under each of the following conditions, and draw the figure:
+
+(1) The intercepts on the $x$-axis and $y$-axis are $2,3$, respectively;
+
+(2) The intercepts on the $x$-axis and $y$-axis are $-5,6$, respectively.
+
+The figure plots two intercept-form lines in the rectangular coordinate system: one has $x$-intercept $2$ and $y$-intercept $3$, i.e. passes through $\left(2,0\right)$ and $\left(0,3\right)$; the other has $x$-intercept $-5$ and $y$-intercept $6$, i.e. passes through $\left(-5,0\right)$ and $\left(0,6\right)$.
+
+### Solution to Exercise 6
+
+By **Definition 2.2.5 (Intercept Equation)**, the intercept form is $\frac{x}{a}+\frac{y}{b}=1$, where $a$ is the intercept on the $x$-axis and $b$ is the intercept on the $y$-axis.
+
+(1) Substituting $a=2$, $b=3$ gives $\frac{x}{2}+\frac{y}{3}=1$.
+
+(2) Substituting $a=-5$, $b=6$ gives $\frac{x}{-5}+\frac{y}{6}=1$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 2.2, Problem 7) Find the equation of the line under each of the following conditions:
+
+(1) Passing through the point $\left(0,5\right)$, with the sum of its intercepts on the two coordinate axes equal to $2$;
+
+(2) Passing through the point $\left(5,0\right)$, with the difference of its intercepts on the two coordinate axes equal to $2$.
+
+### Solution to Exercise 7
+
+By **Definition 2.2.5 (Intercept Equation)**, let the intercepts of the line on the $x$-axis and $y$-axis be $a,b$, respectively; then the intercept form is $\frac{x}{a}+\frac{y}{b}=1$.
+
+(1) The line passes through the point $\left(0,5\right)$, i.e. its intercept on the $y$-axis is $b=5$. Also the sum of the intercepts is $a+b=2$, so $a=2-5=-3$. Substituting into the intercept form gives $\frac{x}{-3}+\frac{y}{5}=1$.
+
+(2) The line passes through the point $\left(5,0\right)$, i.e. its intercept on the $x$-axis is $a=5$. Also the difference of the intercepts is $\lvert a-b \rvert=2$, i.e. $\lvert 5-b \rvert=2$, so $b=3$ or $b=7$.
+
+When $b=3$, the equation is $\frac{x}{5}+\frac{y}{3}=1$; when $b=7$, the equation is $\frac{x}{5}+\frac{y}{7}=1$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 2.2, Problem 8) Under each of the following conditions, write the equation of the line and reduce it to the general form:
+
+(1) Passing through the point $A\left(8,-2\right)$ with slope $-\frac{1}{2}$;
+
+(2) Passing through the point $B\left(4,2\right)$ and parallel to the $x$-axis;
+
+(3) Passing through the points $P_1\left(3,-2\right)$, $P_2\left(5,-4\right)$;
+
+(4) The intercepts on the $x$-axis and $y$-axis are $\frac{3}{2},-3$, respectively.
+
+### Solution to Exercise 8
+
+By **Definition 2.2.6 (General Equation)**, the general form is $Ax+By+C=0$.
+
+(1) By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(8,-2\right)$ and the slope $k=-\frac{1}{2}$ gives $y+2=-\frac{1}{2}\left(x-8\right)$. Rearranging gives $x+2y-4=0$.
+
+(2) The line is parallel to the $x$-axis, i.e. its inclination angle is $0^\circ$ and its slope is $0$. Passing through the point $B\left(4,2\right)$, by **Definition 2.2.1 (Point-slope Form)** we get $y=2$, i.e. $y-2=0$.
+
+(3) By **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{-4-\left(-2\right)}{5-3}=\frac{-2}{2}=-1$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $P_1\left(3,-2\right)$ gives $y+2=-1\left(x-3\right)$, i.e. $x+y-1=0$.
+
+(4) By **Definition 2.2.5 (Intercept Equation)**, substituting $a=\frac{3}{2}$, $b=-3$ gives $\frac{x}{\frac{3}{2}}+\frac{y}{-3}=1$, i.e. $\frac{2x}{3}-\frac{y}{3}=1$. Rearranging gives $2x-y-3=0$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 2.2, Problem 9) Find the slope and the intercept on the $y$-axis of each of the following lines, and draw the figure:
+
+(1) $3x+y-5=0$;
+
+(2) $\frac{x}{4}-\frac{y}{5}=1$;
+
+(3) $x+2y=0$;
+
+(4) $7x-6y+4=0$.
+
+The figure plots four lines in the rectangular coordinate system: (1) $3x+y-5=0$, i.e. $y=-3x+5$, slope $-3$, passing through $\left(0,5\right)$; (2) $\frac{x}{4}-\frac{y}{5}=1$, i.e. $y=\frac{5}{4}x-5$, slope $\frac{5}{4}$, passing through $\left(0,-5\right)$; (3) $x+2y=0$, i.e. $y=-\frac{1}{2}x$, slope $-\frac{1}{2}$, passing through the origin; (4) $7x-6y+4=0$, i.e. $y=\frac{7}{6}x+\frac{2}{3}$, slope $\frac{7}{6}$, $y$-intercept $\frac{2}{3}$.
+
+### Solution to Exercise 9
+
+By **Definition 2.2.6 (General Equation)**, when $B\ne0$, reduce the general form to the slope-intercept form $y=-\frac{A}{B}x-\frac{C}{B}$; the slope is $-\frac{A}{B}$, and the intercept on the $y$-axis is $-\frac{C}{B}$.
+
+(1) $3x+y-5=0$ is $y=-3x+5$; the slope is $k=-3$, and the intercept on the $y$-axis is $5$.
+
+(2) $\frac{x}{4}-\frac{y}{5}=1$ is $y=\frac{5}{4}x-5$; the slope is $k=\frac{5}{4}$, and the intercept on the $y$-axis is $-5$.
+
+(3) $x+2y=0$ is $y=-\frac{1}{2}x$; the slope is $k=-\frac{1}{2}$, and the intercept on the $y$-axis is $0$.
+
+(4) $7x-6y+4=0$ is $y=\frac{7}{6}x+\frac{2}{3}$; the slope is $k=\frac{7}{6}$, and the intercept on the $y$-axis is $\frac{2}{3}$. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 2.2, Problem 10) Given that the equation of line $l$ is $Ax+By+C=0$.
+
+(1) When $B\ne0$, what is the slope of line $l$? And when $B=0$?
+
+(2) For what values of the coefficients $A,B,C$ does the equation $Ax+By+C=0$ represent a line passing through the origin?
+
+### Solution to Exercise 10
+
+By **Definition 2.2.6 (General Equation)**.
+
+(1) When $B\ne0$, the equation $Ax+By+C=0$ can be rewritten as $y=-\frac{A}{B}x-\frac{C}{B}$, so the slope of line $l$ is $-\frac{A}{B}$. When $B=0$, then $A\ne0$, the equation can be rewritten as $x=-\frac{C}{A}$; the line is perpendicular to the $x$-axis and has no slope.
+
+(2) The line passes through the origin $\left(0,0\right)$, i.e. $x=0$, $y=0$ satisfies the equation; substituting gives $A\cdot0+B\cdot0+C=0$, i.e. $C=0$. Also $A,B$ are not both $0$. Hence when $C=0$ and $A,B$ are not both $0$, the equation $Ax+By+C=0$ represents a line passing through the origin. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 10.1, Review and Consolidation, Problem 6) The following three games all involve balls placed in a bag and then drawn without replacement. Compute the probability that A wins in each of the three games. Which game do you think is fair?
+(Exercise 2.2, Review and Consolidation, Problem 1) Write the equation of the line satisfying each of the following conditions:
 
-| Item | Game 1 | Game 2 | Game 3 |
-|---|---|---|---|
-| Number and color of balls in the bag | $1$ red ball and $1$ white ball | $2$ red balls and $2$ white balls | $3$ red balls and $1$ white ball |
-| Drawing rule | draw $1$ ball | draw $2$ balls in succession | draw $2$ balls in succession |
-| Winning rule | A wins if a red ball is drawn, B wins if a white ball is drawn | A wins if the two balls are the same color, B wins if they are different | A wins if the two balls are the same color, B wins if they are different |
+(1) Passing through the point $A\left(8,-2\right)$ with slope $\frac{\sqrt 3}{3}$;
+
+(2) Passing through the point $B\left(-2,0\right)$ and perpendicular to the $x$-axis;
+
+(3) Slope $-4$, and intercept on the $y$-axis $7$;
+
+(4) Passing through the two points $A\left(-1,8\right)$, $B\left(4,-2\right)$;
+
+(5) Intercept on the $y$-axis $2$, and parallel to the $x$-axis;
+
+(6) The intercepts on the $x$-axis and $y$-axis are $4,-3$, respectively.
 
 ### Solution to Problem 6
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, each game is a classical model.
+(1) By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(8,-2\right)$ and the slope $k=\frac{\sqrt 3}{3}$ gives $y+2=\frac{\sqrt 3}{3}\left(x-8\right)$.
 
-Game 1: the bag has $2$ balls, draw $1$, giving $2$ equally likely outcomes. There is $1$ red ball, so the probability that A wins is $\frac{1}{2}$.
+(2) The line is perpendicular to the $x$-axis, i.e. its inclination angle is $90^\circ$ and it has no slope. By **Definition 2.2.1 (Point-slope Form)**, the line equation is $x=-2$.
 
-Game 2: the bag has $4$ balls ($2$ red, $2$ white), draw $2$ balls in succession without replacement, giving $4\times 3=12$ equally likely outcomes. The two balls being the same color: both red has $2\times 1=2$ ways, both white has $2\times 1=2$ ways, $4$ in total. So the probability that A wins is $\frac{4}{12}=\frac{1}{3}$.
+(3) By **Definition 2.2.2 (Slope-intercept Equation)**, substituting $k=-4$, $b=7$ gives $y=-4x+7$.
 
-Game 3: the bag has $4$ balls ($3$ red, $1$ white), draw $2$ balls in succession without replacement, giving $4\times 3=12$ equally likely outcomes. The two balls being the same color: both red has $3\times 2=6$ ways, both white has $0$ ways, $6$ in total. So the probability that A wins is $\frac{6}{12}=\frac{1}{2}$.
+(4) By **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{-2-8}{4-\left(-1\right)}=\frac{-10}{5}=-2$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $A\left(-1,8\right)$ gives $y-8=-2\left(x+1\right)$.
 
-In Games 1 and 3, the probability that A wins is $\frac{1}{2}$ and the probability that B wins is also $\frac{1}{2}$, so the games are fair; in Game 2, the probability that A wins is $\frac{1}{3}$ and that B wins is $\frac{2}{3}$, so the game is unfair. $\blacksquare$
+(5) The line is parallel to the $x$-axis, i.e. its slope is $0$. The intercept on the $y$-axis is $2$; by **Definition 2.2.2 (Slope-intercept Equation)**, we get $y=2$.
+
+(6) By **Definition 2.2.5 (Intercept Equation)**, substituting $a=4$, $b=-3$ gives $\frac{x}{4}+\frac{y}{-3}=1$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 10.1, Review and Consolidation, Problem 7) A box contains $5$ tickets numbered $1, 2, 3, 4, 5$; two tickets are chosen at random. Under the following conditions, find the probability that the numbers on the two tickets are equal integers:
-
-(1) the tickets are chosen without replacement;
-
-(2) the tickets are chosen with replacement.
+(Exercise 2.2, Review and Consolidation, Problem 2) Determine whether the three points $A\left(1,3\right)$, $B\left(5,7\right)$, $C\left(10,12\right)$ are collinear, and explain the reason.
 
 ### Solution to Problem 7
 
-By **Definition 10.1.15 (Classical Definition of Probability)**.
+By **Common Conclusion 2.1.3** (Slope Formula), find the slopes of $AB$ and $AC$, respectively.
 
-(1) Choosing two tickets without replacement: the first draw has $5$ choices and the second has $4$, giving $5\times 4=20$ equally likely outcomes. The number of ways the two ticket numbers are equal is $0$ (since without replacement and each ticket has a different label), so $P\left(A_1\right)=\frac{0}{20}=0$.
+$$
+k_{AB}=\frac{7-3}{5-1}=\frac{4}{4}=1,
+$$
 
-(2) Choosing two tickets with replacement: the first draw has $5$ choices and the second also has $5$, giving $5\times 5=25$ equally likely outcomes. The number of ways the two ticket numbers are equal is $5$ (drawing the same number twice), so $P\left(A_2\right)=\frac{5}{25}=\frac{1}{5}$. $\blacksquare$
+$$
+k_{AC}=\frac{12-3}{10-1}=\frac{9}{9}=1.
+$$
+
+By **Common Conclusion 2.1.5** (Parallelism of Two Lines), $k_{AB}=k_{AC}=1$, and both lines pass through the point $A$, so line $AB$ and line $AC$ coincide; i.e. the three points $A,B,C$ are collinear. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 10.1, Review and Consolidation, Problem 8) From $5$ line segments of lengths $1, 3, 5, 7, 9$, take any $3$. Find the probability that these three segments can form a triangle.
+(Exercise 2.2, Review and Consolidation, Problem 3) Given the two points $A\left(7,-4\right)$, $B\left(-5,6\right)$, find the equation of the perpendicular bisector of segment $AB$.
 
 ### Solution to Problem 8
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, taking any $3$ from $5$ segments gives $\binom{5}{3}=10$ equally likely outcomes.
+By **Common Conclusion 2.1.3** (Slope Formula), first find the slope and the midpoint of $AB$.
 
-The triangle inequality requires that the sum of any two sides be greater than the third. Enumerate all choices:
+$$
+k_{AB}=\frac{6-\left(-4\right)}{-5-7}=\frac{10}{-12}=-\frac{5}{6}.
+$$
 
-$\left(1, 3, 5\right)$: $1+3=4< 5$, cannot form a triangle.
+By the midpoint coordinate formula, the midpoint of $AB$ is $\left(\frac{7+\left(-5\right)}{2},\frac{-4+6}{2}\right)=\left(1,1\right)$.
 
-$\left(1, 3, 7\right)$: $1+3=4< 7$, cannot.
+The perpendicular bisector is perpendicular to $AB$; by **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), its slope is $k=\frac{6}{5}$.
 
-$\left(1, 3, 9\right)$: $1+3=4< 9$, cannot.
-
-$\left(1, 5, 7\right)$: $1+5=6< 7$, cannot.
-
-$\left(1, 5, 9\right)$: $1+5=6< 9$, cannot.
-
-$\left(1, 7, 9\right)$: $1+7=8< 9$, cannot.
-
-$\left(3, 5, 7\right)$: $3+5=8> 7$, can form a triangle.
-
-$\left(3, 5, 9\right)$: $3+5=8< 9$, cannot.
-
-$\left(3, 7, 9\right)$: $3+7=10> 9$, can form a triangle.
-
-$\left(5, 7, 9\right)$: $5+7=12> 9$, can form a triangle.
-
-There are $3$ choices that form a triangle, so $P\left(A\right)=\frac{3}{10}$. $\blacksquare$
+By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $\left(1,1\right)$ and the slope $k=\frac{6}{5}$ gives $y-1=\frac{6}{5}\left(x-1\right)$. Rearranging gives $6x-5y-1=0$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 10.1, Comprehensive Application, Problem 9) A box contains $6$ ballpoint pens, of which $3$ are first-grade, $2$ are second-grade and $1$ is third-grade. If any $2$ are drawn, what are the probabilities of the following events?
-
-(1) $A=$ "exactly $1$ first-grade pen";
-
-(2) $B=$ "both pens are first-grade";
-
-(3) $C=$ "no third-grade pen".
+(Exercise 2.2, Review and Consolidation, Problem 4) Given the three vertices $A\left(8,5\right)$, $B\left(4,-2\right)$, $C\left(-6,3\right)$ of $\triangle ABC$, find the equation of the line through the midpoints of the two sides $AB$ and $AC$.
 
 ### Solution to Problem 9
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, taking any $2$ from $6$ pens gives $\binom{6}{2}=15$ equally likely outcomes.
+By the midpoint coordinate formula, the midpoint of $AB$ is
 
-(1) Exactly $1$ first-grade pen means taking $1$ from the $3$ first-grade pens and $1$ from the $3$ non-first-grade pens, $\binom{3}{1}\binom{3}{1}=9$ ways, so $P\left(A\right)=\frac{9}{15}=\frac{3}{5}$.
+$$
+M\left(\frac{8+4}{2},\frac{5+\left(-2\right)}{2}\right)=M\left(6,\frac{3}{2}\right),
+$$
 
-(2) Both pens first-grade means taking $2$ from the $3$ first-grade pens, $\binom{3}{2}=3$ ways, so $P\left(B\right)=\frac{3}{15}=\frac{1}{5}$.
+and the midpoint of $AC$ is
 
-(3) No third-grade pen means taking $2$ from the $5$ non-third-grade pens, $\binom{5}{2}=10$ ways, so $P\left(C\right)=\frac{10}{15}=\frac{2}{3}$. $\blacksquare$
+$$
+N\left(\frac{8+\left(-6\right)}{2},\frac{5+3}{2}\right)=N\left(1,4\right).
+$$
+
+By **Common Conclusion 2.1.3** (Slope Formula), the slope of line $MN$ is
+
+$$
+k_{MN}=\frac{4-\frac{3}{2}}{1-6}=\frac{\frac{5}{2}}{-5}=-\frac{1}{2}.
+$$
+
+By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $N\left(1,4\right)$ and the slope $k=-\frac{1}{2}$ gives $y-4=-\frac{1}{2}\left(x-1\right)$. Rearranging gives $x+2y-9=0$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 10.1, Comprehensive Application, Problem 10) Toss one red and one green fair six-sided die, recording the number on the top face. Use $x$ for the red die's number, $y$ for the green die's number, and $\left(x, y\right)$ for the result of one trial. Let $A=$ "the sum of the two numbers equals $8$", $B=$ "at least one die shows $5$", $C=$ "the red die shows a number greater than $4$".
-
-(1) Find the probabilities of events $A, B, C$;
-
-(2) Find the probabilities of events $A\cup B$ and $A\cap B$.
+(Exercise 2.2, Review and Consolidation, Problem 5) A spring, when carrying a $4\,\mathrm{N}$ object, has length $20\,\mathrm{cm}$. Within the elastic limit, for every $1\,\mathrm{N}$ increase in the weight of the hanging object, the spring elongates by $1.5\,\mathrm{cm}$. Write the equation relating the length $l$ of the spring (unit: $\mathrm{cm}$) to the weight $G$ of the hanging object (unit: $\mathrm{N}$).
 
 ### Solution to Problem 10
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, the two dice have $6\times 6=36$ equally likely sample points.
+By **Definition 2.2.2 (Slope-intercept Equation)**, let $l=kG+b$.
 
-(1) Event $A=$ "the two numbers sum to $8$" contains the sample points $\left(2,6\right), \left(3,5\right), \left(4,4\right), \left(5,3\right), \left(6,2\right)$, $5$ in total, so $P\left(A\right)=\frac{5}{36}$.
+When $G=4$, $l=20$, i.e. $20=4k+b$. For every $1\,\mathrm{N}$ increase in the hanging weight the spring elongates by $1.5\,\mathrm{cm}$, i.e. the slope is $k=1.5=\frac{3}{2}$.
 
-Event $B=$ "at least one die shows $5$" contains the $6$ points with red $5$, the $6$ points with green $5$, minus the duplicate $\left(5,5\right)$, giving $6+6-1=11$ points, so $P\left(B\right)=\frac{11}{36}$.
+Substituting $k=\frac{3}{2}$ gives $20=\frac{3}{2}\times4+b=6+b$, so $b=14$.
 
-Event $C=$ "the red die shows a number greater than $4$", i.e. red is $5$ or $6$, giving $2\times 6=12$ points, so $P\left(C\right)=\frac{12}{36}=\frac{1}{3}$.
-
-(2) By **Property 10.1.21** (General Additive Formula), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. Event $A\cap B$ means the numbers sum to $8$ and at least one is $5$, containing $\left(3,5\right), \left(5,3\right)$, $2$ points, so $P\left(A\cap B\right)=\frac{2}{36}=\frac{1}{18}$.
-
-Therefore
-
-$$
-P\left(A\cup B\right)=\frac{5}{36}+\frac{11}{36}-\frac{2}{36}=\frac{14}{36}=\frac{7}{18}.
-$$
-
-$\blacksquare$
+Hence the equation relating the spring length to the object weight is $l=\frac{3}{2}G+14$. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 10.1, Comprehensive Application, Problem 11) Someone has $4$ keys, of which $2$ open the door. If a key is chosen at random to try the door and keys that do not open the door are discarded, what is the probability that the door is opened only on the second try? If the tried keys are mixed back in, what is the probability that the door is opened only on the second try?
+(Exercise 2.2, Review and Consolidation, Problem 6) The two diagonals of a rhombus lie on the $x$-axis and the $y$-axis, respectively, and their lengths are $8$ and $6$, respectively. Find the equations of the lines on which the sides of the rhombus lie.
 
 ### Solution to Problem 11
 
-By **Definition 10.1.15 (Classical Definition of Probability)**.
+By **Definition 2.2.5 (Intercept Equation)**, the four vertices of the rhombus are $\left(4,0\right)$, $\left(-4,0\right)$, $\left(0,3\right)$, $\left(0,-3\right)$, respectively.
 
-Without replacement: the first key has $4$ equally likely outcomes and the second has $3$, giving $4\times 3=12$ equally likely outcomes. "Opened only on the second try" means the first key does not open the door (one of the $2$ non-opening keys) and the second does (one of the $2$ opening keys), $2\times 2=4$ ways, so $P_1=\frac{4}{12}=\frac{1}{3}$.
+The four sides connect adjacent vertices, respectively:
 
-With replacement: the first key has $4$ equally likely outcomes and the second also has $4$, giving $4\times 4=16$ equally likely outcomes. "Opened only on the second try" means the first key draws a non-opening key (one of the $2$) and the second draws an opening key (one of the $2$), $2\times 2=4$ ways, so $P_2=\frac{4}{16}=\frac{1}{4}$. $\blacksquare$
+(1) The side connecting $\left(4,0\right)$ and $\left(0,3\right)$: by **Definition 2.2.5 (Intercept Form)**, the intercepts are $4$ and $3$, and the equation is $\frac{x}{4}+\frac{y}{3}=1$.
+
+(2) The side connecting $\left(-4,0\right)$ and $\left(0,3\right)$: the intercepts are $-4$ and $3$, and the equation is $\frac{x}{-4}+\frac{y}{3}=1$.
+
+(3) The side connecting $\left(-4,0\right)$ and $\left(0,-3\right)$: the intercepts are $-4$ and $-3$, and the equation is $\frac{x}{-4}+\frac{y}{-3}=1$.
+
+(4) The side connecting $\left(4,0\right)$ and $\left(0,-3\right)$: the intercepts are $4$ and $-3$, and the equation is $\frac{x}{4}+\frac{y}{-3}=1$. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 10.1, Comprehensive Application, Problem 12) Suppose $5$ similarly qualified girls (denoted $A, B, C, D, E$) apply for secretary jobs, but there are only $2$ secretary positions, so only $2$ of the $5$ can be hired. If the $5$ are equally likely to be hired, compute the probability of each of the following events:
-
-(1) girl $A$ gets a position;
-
-(2) girls $A$ and $B$ each get a position;
-
-(3) girl $A$ or $B$ gets a position.
+(Exercise 2.2, Review and Consolidation, Problem 7) Find the equation of the line through the point $P\left(2,3\right)$ whose intercepts on the two coordinate axes are equal.
 
 ### Solution to Problem 12
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, hiring $2$ from $5$ people gives $\binom{5}{2}=10$ equally likely outcomes.
+By **Definition 2.2.5 (Intercept Equation)**, let the intercepts of the line on the $x$-axis and $y$-axis be $a,b$, respectively, with $a=b$.
 
-(1) Girl $A$ gets a position, i.e. the other position chooses $1$ from the remaining $4$, $\binom{4}{1}=4$ ways, so $P\left(A_1\right)=\frac{4}{10}=\frac{2}{5}$.
+(a) When $a=b\ne0$, the intercept form is $\frac{x}{a}+\frac{y}{a}=1$, i.e. $x+y=a$. The line passes through the point $P\left(2,3\right)$; substituting gives $2+3=a$, so $a=5$. The equation is $x+y=5$, i.e. $x+y-5=0$.
 
-(2) Girls $A$ and $B$ each get a position, only $1$ outcome, so $P\left(A_2\right)=\frac{1}{10}$.
+(b) When $a=b=0$, the line passes through the origin, and the intercept form does not apply. By **Definition 2.2.1 (Point-slope Equation)**, let the line pass through the origin $\left(0,0\right)$ and $P\left(2,3\right)$; by **Common Conclusion 2.1.3** (Slope Formula), $k=\frac{3-0}{2-0}=\frac{3}{2}$. The equation is $y=\frac{3}{2}x$, i.e. $3x-2y=0$.
 
-(3) By **Property 10.1.21** (General Additive Formula), $P\left(A\text{ 或 }B\right)=P\left(A\right)+P\left(B\right)-P\left(A\text{ 且 }B\right)$. By symmetry, $P\left(A\right)=P\left(B\right)=\frac{2}{5}$, $P\left(A\text{ 且 }B\right)=\frac{1}{10}$, so
-
-$$
-P\left(A\text{ 或 }B\right)=\frac{2}{5}+\frac{2}{5}-\frac{1}{10}=\frac{7}{10}.
-$$
-
-$\blacksquare$
+Hence the equations of the desired lines are $x+y-5=0$ or $3x-2y=0$. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 10.1, Comprehensive Application, Problem 13) The statistics of a shooter's usual training results are as follows:
+(Exercise 2.2, Review and Consolidation, Problem 8) Find the equation of the line satisfying each of the following conditions:
 
-| Score (rings) | $6$ | $7$ | $8$ | $9$ | $10$ |
-|---|---|---|---|---|---|
-| Frequency | $0.1$ | $0.15$ | $0.25$ | $0.3$ | $0.2$ |
+(1) Passing through the point $A\left(3,2\right)$ and parallel to the line $4x+y-2=0$;
 
-If this shooter fires only once, find the probability of the following events:
+(2) Passing through the point $C\left(2,-3\right)$ and parallel to the line through the two points $M\left(1,2\right)$ and $N\left(-1,-5\right)$;
 
-(1) hitting $10$ rings;
-
-(2) hitting more than $8$ rings;
-
-(3) hitting fewer than $9$ rings;
-
-(4) hitting no more than $5$ rings.
+(3) Passing through the point $B\left(3,0\right)$ and perpendicular to the line $2x+y-5=0$.
 
 ### Solution to Problem 13
 
-By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), the events corresponding to each score are pairwise mutually exclusive, and the probabilities can be approximated by the frequencies.
+(1) The line $4x+y-2=0$ is $y=-4x+2$, with slope $-4$. By **Common Conclusion 2.1.5** (Parallelism of Two Lines), the desired line also has slope $-4$. By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(3,2\right)$ gives $y-2=-4\left(x-3\right)$, i.e. $4x+y-14=0$.
 
-(1) The probability of hitting $10$ rings is the frequency value, i.e. $P\left(A_1\right)=0.2$.
+(2) By **Common Conclusion 2.1.3** (Slope Formula), $k_{MN}=\frac{-5-2}{-1-1}=\frac{-7}{-2}=\frac{7}{2}$. By **Common Conclusion 2.1.5**, the desired line also has slope $\frac{7}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $C\left(2,-3\right)$ gives $y+3=\frac{7}{2}\left(x-2\right)$, i.e. $7x-2y-20=0$.
 
-(2) Hitting more than $8$ rings means hitting $9$ or $10$ rings; the two are mutually exclusive, so $P\left(A_2\right)=0.3+0.2=0.5$.
-
-(3) Hitting fewer than $9$ rings means hitting $6, 7, 8$ rings; the three are mutually exclusive, so $P\left(A_3\right)=0.1+0.15+0.25=0.5$.
-
-(4) Hitting no more than $5$ rings means not hitting $6$ rings or above. Since the sum of the frequencies of all scores is $0.1+0.15+0.25+0.3+0.2=1$, i.e. the probability of hitting at least $6$ rings is $1$, the probability of hitting no more than $5$ rings is $0$. $\blacksquare$
+(3) The line $2x+y-5=0$ is $y=-2x+5$, with slope $-2$. By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), the desired line has slope $\frac{1}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $B\left(3,0\right)$ gives $y=\frac{1}{2}\left(x-3\right)$, i.e. $x-2y-3=0$. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 10.1, Comprehensive Application, Problem 14) Toss a fair die $3$ times in succession. Find the probability of the following events:
+(Exercise 2.2, Comprehensive Application, Problem 9) The three vertices of $\triangle ABC$ are $A\left(4,0\right)$, $B\left(6,7\right)$, $C\left(0,3\right)$. Find:
 
-(1) no $6$ appears;
+(1) The equation of the line on which the median to side $BC$ lies;
 
-(2) a $6$ appears at least once;
+(2) The equation of the line on which the altitude to side $BC$ lies;
 
-(3) the sum of the three numbers is $9$.
+(3) The equation of the perpendicular bisector of side $BC$.
 
 ### Solution to Problem 14
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, tossing the die $3$ times gives $6^3=216$ equally likely outcomes.
-
-(1) No $6$ appears, i.e. each number is from $1$ to $5$, giving $5^3=125$ outcomes, so $P\left(A_1\right)=\frac{125}{216}$.
-
-(2) By **Property 10.1.19** (Probability of Complementary Events), "a $6$ appears at least once" is the complementary event of "no $6$ appears", so
+By **Common Conclusion 2.1.3** (Slope Formula), first find the slope and the midpoint of $BC$.
 
 $$
-P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{125}{216}=\frac{91}{216}.
+k_{BC}=\frac{3-7}{0-6}=\frac{-4}{-6}=\frac{2}{3}.
 $$
 
-(3) The sum of the three numbers is $9$, i.e. find the number of positive-integer solutions to $x_1+x_2+x_3=9$ ($1\le x_i\le 6$). Let $y_i=x_i-1$; then $y_1+y_2+y_3=6$, $0\le y_i\le 5$. The total number of nonnegative solutions is $\binom{6+3-1}{3-1}=\binom{8}{2}=28$; among them, the solutions with $y_i\ge 6$: if $y_1=6$, then $y_2+y_3=0$, $1$ group, and there are $3$ groups for the three variables. So the number of valid solutions is $28-3=25$. Hence $P\left(A_3\right)=\frac{25}{216}$. $\blacksquare$
+The midpoint of $BC$ is $D\left(\frac{6+0}{2},\frac{7+3}{2}\right)=D\left(3,5\right)$.
+
+(1) The median to side $BC$ is the line $AD$. By **Common Conclusion 2.1.3**, $k_{AD}=\frac{5-0}{3-4}=\frac{5}{-1}=-5$. By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(4,0\right)$ gives $y=-5\left(x-4\right)$, i.e. $5x+y-20=0$.
+
+(2) The altitude to side $BC$ passes through the point $A$ and is perpendicular to $BC$. By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), the slope of the line on which the altitude lies is $-\frac{3}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $A\left(4,0\right)$ gives $y=-\frac{3}{2}\left(x-4\right)$, i.e. $3x+2y-12=0$.
+
+(3) The perpendicular bisector of side $BC$ passes through the midpoint $D\left(3,5\right)$ and is perpendicular to $BC$. By **Common Conclusion 2.1.6**, its slope is $-\frac{3}{2}$. By **Definition 2.2.1 (Point-slope Form)**, substituting the point $D\left(3,5\right)$ gives $y-5=-\frac{3}{2}\left(x-3\right)$, i.e. $3x+2y-19=0$. $\blacksquare$
 
 ## Problem 15
 
-(Exercise 10.1, Extension and Exploration, Problem 15) The figure shows the subscription situation of math, Chinese and English study materials among $50$ students in a class, where $A$ denotes students who subscribe to math materials, $B$ denotes those who subscribe to Chinese materials, and $C$ denotes those who subscribe to English materials.
+(Exercise 2.2, Comprehensive Application, Problem 10) Find the relations that the coefficients $A,B,C$ of the line $Ax+By+C=0$ ($A,B$ not both $0$) must satisfy for this line to have each of the following properties:
 
-(1) Choose any student from this class; describe in natural language the events represented by regions $1, 4, 5, 8$;
+(1) Intersecting both coordinate axes;
 
-(2) Use $A, B, C$ to denote the following events:
+(2) Intersecting only the $x$-axis;
 
-(1) subscribing to at least one study material;
+(3) Intersecting only the $y$-axis;
 
-(2) subscribing to exactly one study material;
+(4) Being the line on which the $x$-axis lies;
 
-(3) subscribing to no study material.
-
-(Figure: a Venn diagram — a rectangle representing the whole class of $50$ students, with three mutually intersecting circles $A, B, C$ inside representing students subscribing to math, Chinese, and English materials respectively, divided into eight regions numbered $1\sim8$.)
+(5) Being the line on which the $y$-axis lies.
 
 ### Solution to Problem 15
 
-By **Definition 10.1.10 (Union Event)**, **Definition 10.1.11 (Intersection Event)** and **Definition 10.1.13 (Complementary Events)**.
+By **Definition 2.2.6 (General Equation)**, when $B\ne0$ the line has slope $-\frac{A}{B}$; when $B=0$ the line is perpendicular to the $x$-axis.
 
-(1) Region 1 denotes students who subscribe only to math; region 4 denotes students who subscribe to both math and Chinese but not English; region 5 denotes students who subscribe to both math and English but not Chinese; region 8 denotes students who subscribe to no study material.
+(1) Intersecting both coordinate axes means the line is neither parallel to the $x$-axis nor parallel to the $y$-axis, i.e. the slope exists and is not $0$. Hence $A\ne0$ and $B\ne0$.
 
-(2) (1) Subscribing to at least one study material, i.e. subscribing to math or Chinese or English; by **Definition 10.1.10 (Union Event)**, denoted $A\cup B\cup C$.
+(2) Intersecting only the $x$-axis means the line is parallel to the $y$-axis, i.e. $B=0$ and $A\ne0$.
 
-(2) Subscribing to exactly one study material, i.e. subscribing only to math, or only to Chinese, or only to English, denoted $\left(A\cap\overline B\cap\overline C\right)\cup\left(\overline A\cap B\cap\overline C\right)\cup\left(\overline A\cap\overline B\cap C\right)$.
+(3) Intersecting only the $y$-axis means the line is parallel to the $x$-axis, i.e. $A=0$ and $B\ne0$.
 
-(3) Subscribing to no study material is the complementary event of "subscribing to at least one"; by **Definition 10.1.13 (Complementary Events)**, denoted $\overline{A\cup B\cup C}=\overline A\cap\overline B\cap\overline C$. $\blacksquare$
+(4) Being the line on which the $x$-axis lies means $y=0$, hence $A=0$, $B\ne0$, $C=0$.
+
+(5) Being the line on which the $y$-axis lies means $x=0$, hence $B=0$, $A\ne0$, $C=0$. $\blacksquare$
 
 ## Problem 16
 
-(Exercise 10.1, Extension and Exploration, Problem 16) Choose a number at random from the $20$ integers $1$ to $20$. Let event $A$ mean the chosen number is divisible by $2$, and event $B$ mean the chosen number is divisible by $3$. Find the probability of the following events:
-
-(1) the number is divisible by both $2$ and $3$;
-
-(2) the number is divisible by $2$ or divisible by $3$;
-
-(3) the number is divisible by neither $2$ nor $3$.
+(Exercise 2.2, Comprehensive Application, Problem 11) Let the point $P_0\left(x_0,y_0\right)$ lie on the line $Ax+By+C=0$. Prove that the equation of this line can also be written as $A\left(x-x_0\right)+B\left(y-y_0\right)=0$.
 
 ### Solution to Problem 16
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, choosing a number at random from $1$ to $20$, $n\left(\Omega\right)=20$.
+By **Definition 2.2.6 (General Equation)**, the line equation is $Ax+By+C=0$.
 
-There are $10$ numbers divisible by $2$ ($2, 4, \cdots, 20$), so $n\left(A\right)=10$, $P\left(A\right)=\frac{10}{20}=\frac{1}{2}$.
+Because the point $P_0\left(x_0,y_0\right)$ lies on the line, we have $Ax_0+By_0+C=0$, i.e. $C=-Ax_0-By_0$.
 
-There are $6$ numbers divisible by $3$ ($3, 6, 9, 12, 15, 18$), so $n\left(B\right)=6$, $P\left(B\right)=\frac{6}{20}=\frac{3}{10}$.
-
-(1) Divisible by both $2$ and $3$, i.e. divisible by $6$; the numbers are $6, 12, 18$, $3$ in total, so $P\left(A\cap B\right)=\frac{3}{20}$.
-
-(2) By **Property 10.1.21** (General Additive Formula),
-
-$$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
-$$
-
-(3) By **Property 10.1.19** (Probability of Complementary Events), "divisible by neither $2$ nor $3$" is the complementary event of "divisible by $2$ or divisible by $3$", so
-
-$$
-P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
-$$
-
-$\blacksquare$
+Substituting $C=-Ax_0-By_0$ into the original equation gives $Ax+By-Ax_0-By_0=0$, i.e. $A\left(x-x_0\right)+B\left(y-y_0\right)=0$. Hence the proposition is proved. $\blacksquare$
 
 ## Problem 17
 
-(Exercise 10.1, Extension and Exploration, Problem 17) A brand of computer has a warranty period of $1$ year. Based on a large number of repair records, the maximum number of repairs within one year of use for this brand is $3$ times, of which repairs $1$ time account for $15\%$, repairs $2$ times account for $6\%$, and repairs $3$ times account for $4\%$.
-
-(1) Someone buys one of this brand's computers; let $A_k=$ "needs repair $k$ times within the warranty period", $k=0, 1, 2, 3$. Please fill in the following table:
-
-| Event | $A_0$ | $A_1$ | $A_2$ | $A_3$ |
-|---|---|---|---|---|
-| Probability | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-
-Are events $A_0, A_1, A_2, A_3$ pairwise mutually exclusive? Are they equally likely?
-
-(2) Find the probability of the following events:
-
-(1) $A=$ "needs repair within the warranty period";
-
-(2) $B=$ "does not need repair within the warranty period";
-
-(3) $C=$ "is repaired no more than $1$ time within the warranty period".
+(Exercise 2.2, Extension and Exploration, Problem 12) If the line $l$ is translated $3$ units to the left along the $x$-axis and then $1$ unit up along the $y$-axis, it returns to its original position. Find the slope of line $l$.
 
 ### Solution to Problem 17
 
-By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events) and **Property 10.1.19** (Probability of Complementary Events).
+By **Definition 2.2.2 (Slope-intercept Equation)**, let the equation of line $l$ be $y=kx+b$.
 
-(1) Given $P\left(A_1\right)=0.15$, $P\left(A_2\right)=0.06$, $P\left(A_3\right)=0.04$. Since the maximum number of repairs is $3$, $A_0\cup A_1\cup A_2\cup A_3=\Omega$, and the $A_k$ are pairwise mutually exclusive, so
+Translating the line $3$ units to the left along the $x$-axis, i.e. replacing $x$ by $x+3$, gives $y=k\left(x+3\right)+b$. Then translating it $1$ unit up along the $y$-axis, i.e. replacing $y$ by $y-1$, gives $y-1=k\left(x+3\right)+b$, i.e. $y=kx+3k+b+1$.
 
-$$
-P\left(A_0\right)=1-P\left(A_1\right)-P\left(A_2\right)-P\left(A_3\right)=1-0.15-0.06-0.04=0.75.
-$$
-
-The events are pairwise mutually exclusive (a computer's number of repairs within the warranty can only be one of $0, 1, 2, 3$); the event probabilities are not equal ($0.75, 0.15, 0.06, 0.04$), so they are not equally likely.
-
-(2) (1) $A=$ "needs repair", i.e. repaired $1, 2, 3$ times; by **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P\left(A\right)=P\left(A_1\right)+P\left(A_2\right)+P\left(A_3\right)=0.15+0.06+0.04=0.25$.
-
-(2) $B=$ "does not need repair", i.e. $A_0$, so $P\left(B\right)=P\left(A_0\right)=0.75$. Also by **Property 10.1.19** (Probability of Complementary Events), $P\left(B\right)=1-P\left(A\right)=1-0.25=0.75$.
-
-(3) $C=$ "repaired no more than $1$ time", i.e. repaired $0$ or $1$ times; the two are mutually exclusive, so $P\left(C\right)=P\left(A_0\right)+P\left(A_1\right)=0.75+0.15=0.90$. $\blacksquare$
+After translation it coincides with the original line, so $3k+b+1=b$, i.e. $3k+1=0$, hence $k=-\frac{1}{3}$. $\blacksquare$

@@ -1,367 +1,414 @@
 # week16
-> **定义 4.4.1 (对数函数)**
+> **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**
 > 
-> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
-> **定义 4.4.2 (反函数)**
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.2.2 (终边上任意一点的三角函数比值)**
 > 
-> ………………………… ４.４　对数函数 １３０ …………………………………………… 探究与发现　互为反函数的两个函数图象间的关系 １３５ … ４.５　函数的应用(二) １４２ ………………………………… 阅读与思考　中外历史上的方程求解 １４７ …………… 文献阅读与数学写作　对数概念的形成与发展 １５７ …… 小结 １５８ ……………………………………………………… 复习参考题４ １５９ …………………………………………… 数学建模　建立函数模型解决实际问题 １６２ ………… 第五章　三角函数 １６７ ………………………………………… ５.１　任意角和弧度制 １６８ …………………………………… ５.２　三角函数的概念 １７７ …………………………………… 阅读与思考　三角学与天文学 １８６ …………………… ５.３　诱导公式 １８８ …………………………………………… ５.４　三角函数的图象与性质 １９６ …………………………… 探究与发现　函数狔＝ｓｉｎ(ω＋φ)及 函数狔＝
-
-## 练习一
-
-(练习 4.4 第 1 题) 求下列函数的定义域.
-
-(1) $y=\ln\left(1-x\right)$;
-
-(2) $y=\frac{1}{\lg x}$;
-
-(3) $y=\log_7\frac{1}{1-3x}$;
-
-(4) $y=\log_a\left|x\right|$ ($a> 0$, 且 $a\neq 1$).
-
-### 解答 练习一
-
-由**定义 4.4.1 (对数函数)**, 真数必须大于 $0$.
-
-(1) $1-x> 0$, 即 $x< 1$, 故定义域为 $\left(-\infty,1\right)$.
-
-(2) $x> 0$ 且 $\lg x\neq 0$, 即 $x> 0$ 且 $x\neq 1$, 故定义域为 $\left(0,1\right)\cup\left(1,+\infty\right)$.
-
-(3) $\frac{1}{1-3x}> 0$, 即 $1-3x> 0$, $x< \frac{1}{3}$, 故定义域为 $\left(-\infty,\frac{1}{3}\right)$.
-
-(4) $\left|x\right|> 0$, 即 $x\neq 0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
-
-## 练习二
-
-(练习 4.4 第 2 题) 画出下列函数的图象.
-
-(1) $y=\lg 10^x$;
-
-(2) $y=10^{\lg x}$.
-
-图:左为 $y=\lg 10^x=x$ 的图象,即平面直角坐标系中过原点,斜率为 $1$ 的整条直线(穿过第一,三象限);右为 $y=10^{\lg x}=x$ ($x> 0$) 的图象,即同一直线 $y=x$ 上只取 $x> 0$ 部分的射线(仅位于第一象限,从原点出发向右上方延伸).
-
-### 解答 练习二
-
-由**常用结论 4.3.3** (对数与指数的关系), $a^{\log_a N}=N$, $\log_a a^x=x$.
-
-(1) 由对数与指数的关系, $\lg 10^x=x$, 故 $y=\lg 10^x$ 即直线 $y=x$.
-
-(2) 由对数与指数的关系, $10^{\lg x}=x$ ($x> 0$), 故 $y=10^{\lg x}$ 即射线 $y=x$ ($x> 0$). $\blacksquare$
-
-## 练习三
-
-(练习 4.4 第 3 题) 已知集合 $A=\left\{1,2,3,4,\cdots\right\}$, 集合 $B=\left\{2,4,6,8,10,\cdots\right\}$, 下列表达式能建立从集合 $A$ 到集合 $B$ 的函数关系的是 $\;\_\_\;$.
-
-(1) $y=2^x$; (2) $y=x^2$; (3) $y=\log_2 x$; (4) $y=2x$.
-
-### 解答 练习三
-
-由函数的定义, 对 $A$ 中任意元素, 按对应关系得到的函数值必须在 $B$ 中.
-
-(1) $y=2^x$: 当 $x=1$ 时 $y=2\in B$, 当 $x=2$ 时 $y=4\in B$, 但 $B$ 中的 $6$ 无法表示为 $2^x$ ($x\in A$), 且 $A$ 中每个元素对应的函数值都在 $B$ 中, 但 $B$ 中元素不一定有原像, 不能建立从 $A$ 到 $B$ 的满射关系. 实际上 $y=2^x$ 对 $A$ 中任意 $x$ 函数值都在 $B$ 中, 但题目要求 "建立从集合 $A$ 到集合 $B$ 的函数关系", 即 $A$ 中每个元素的函数值都在 $B$ 中. $2^x$ 是偶数, 在 $B$ 中, 但 $y=x^2$ 当 $x=1$ 时 $y=1\notin B$; $y=\log_2 x$ 当 $x=1$ 时 $y=0\notin B$; $y=2x$ 对任意 $x\in A$, $2x$ 是正偶数, 在 $B$ 中. 故只有 (4) $y=2x$ 满足. $\blacksquare$
-
-## 练习四
-
-(练习 4.4 第 4 题) 在同一直角坐标系中画出函数 $y=\log_3 x$ 和 $y=\log_{\frac{1}{3}} x$ 的图象, 并说明它们的关系.
-
-图:同一直角坐标系中,两条对数曲线的定义域均为 $\left(0,+\infty\right)$,位于 $y$ 轴右侧,均过点 $\left(1,0\right)$;$y=\log_3 x$ 为单调递增曲线($0< x< 1$ 时在 $x$ 轴下方,$x> 1$ 时在上方),$y=\log_{\frac{1}{3}} x$ 为单调递减曲线($0< x< 1$ 时在 $x$ 轴上方,$x> 1$ 时在下方),二者关于 $x$ 轴对称.
-
-### 解答 练习四
-
-由**常用结论 4.4.3** (对数函数的图象和性质), 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称.
-
-由换底公式, $\log_{\frac{1}{3}} x=-\log_3 x$. 若点 $\left(x,y\right)$ 在 $y=\log_3 x$ 的图象上, 则点 $\left(x,-y\right)$ 在 $y=\log_{\frac{1}{3}} x$ 的图象上, 反之亦然. 故两个图象关于 $x$ 轴对称. $y=\log_3 x$ 是递增曲线, 过 $\left(1,0\right)$; $y=\log_{\frac{1}{3}} x$ 是递减曲线, 过 $\left(1,0\right)$, 二者关于 $x$ 轴镜像对称. $\blacksquare$
-
-## 练习五
-
-(练习 4.4 第 5 题) 比较下列各题中两个值的大小.
-
-(1) $\lg 0.6$, $\lg 0.8$;
-
-(2) $\log_{0.5} 6$, $\log_{0.5} 4$;
-
-(3) $\log_m 5$, $\log_m 7$.
-
-### 解答 练习五
-
-由**常用结论 4.4.3** (对数函数的图象和性质), 利用对数函数的单调性比较.
-
-(1) 底数 $10> 1$, $\lg x$ 为增函数, $0.6< 0.8$, 故 $\lg 0.6< \lg 0.8$.
-
-(2) 底数 $0.5\in\left(0,1\right)$, $\log_{0.5} x$ 为减函数, $6> 4$, 故 $\log_{0.5} 6< \log_{0.5} 4$.
-
-(3) 当 $m> 1$ 时, $y=\log_m x$ 为增函数, $5< 7$, 故 $\log_m 5< \log_m 7$; 当 $0< m< 1$ 时, $y=\log_m x$ 为减函数, $5< 7$, 故 $\log_m 5> \log_m 7$. $\blacksquare$
-
-## 练习六
-
-(练习 4.4 第 6 题) 某地去年的国内生产总值为 $3000$ 亿元人民币, 预计未来 $5$ 年的平均增长率为 $6.8\%$.
-
-(1) 设经过 $x$ 年达到的年国内生产总值为 $y$ 亿元, 试写出未来 $5$ 年内, $y$ 关于 $x$ 的函数解析式;
-
-(2) 经过几年该地国内生产总值能达到 $3900$ 亿元人民币?
-
-### 解答 练习六
-
-由**常用结论 4.2.3** (指数增长与指数衰减模型) 与**常用结论 4.3.3** (对数与指数的关系).
-
-(1) 每年增长率为 $6.8\%$, 即每年为上一年的 $1.068$ 倍, 故 $y=3000\times 1.068^x$, $x\in\left\{0,1,2,3,4,5\right\}$.
-
-(2) 令 $3000\times 1.068^x=3900$, 即 $1.068^x=1.3$. 由对数定义, $x=\log_{1.068} 1.3=\frac{\lg 1.3}{\lg 1.068}\approx\frac{0.1139}{0.0286}\approx 4.0$. 故约 $4$ 年后该地国内生产总值能达到 $3900$ 亿元. $\blacksquare$
-
-### 探究与发现一
-
-(探究与发现 互为反函数的两个函数图象间的关系) 在同一直角坐标系中, 画出指数函数 $y=2^x$ 及其反函数 $y=\log_2 x$ 的图象, 你能发现这两个函数的图象有什么对称关系吗?
-
-图:同一直角坐标系中,指数函数 $y=2^x$ 为位于 $x$ 轴上方,过 $\left(0,1\right)$ 的递增曲线,其反函数 $y=\log_2 x$ 为位于 $y$ 轴右侧,过 $\left(1,0\right)$ 的递增曲线;另画出直线 $y=x$ 作为对称轴,两曲线关于直线 $y=x$ 镜像对称.
-
-### 解答 探究与发现一
-
-由**定义 4.4.2 (反函数)**, 指数函数与对数函数互为反函数.
-
-若点 $P_0\left(x_0,y_0\right)$ 在 $y=2^x$ 的图象上, 则 $y_0=2^{x_0}$, 即 $x_0=\log_2 y_0$, 故点 $\left(y_0,x_0\right)$ 在 $y=\log_2 x$ 的图象上. 而点 $\left(x_0,y_0\right)$ 与点 $\left(y_0,x_0\right)$ 关于直线 $y=x$ 对称. 因此, 互为反函数的两个函数的图象关于直线 $y=x$ 对称. 这一结论对任意 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 及其反函数 $y=\log_a x$ 都成立. $\blacksquare$
-
-## 练习七
-
-(练习 4.4 第 7 题) 三个变量 $y_1$, $y_2$, $y_3$ 随变量 $x$ 变化的数据如下表: $x=0,5,10,15,20,25,30$ 时, $y_1=5,130,505,1130,2005,3130,4505$; $y_2=5,90,1620,29160,524880,9447840,170061120$; $y_3=5,30,55,80,105,130,155$. 其中关于 $x$ 呈指数增长的变量是 $\;\_\_\;$.
-
-### 解答 练习七
-
-由**常用结论 4.4.4** (不同函数增长的差异), 指数增长的变量增长速度越来越快.
-
-$y_3$ 每增加 $5$ 增加 $25$, 呈线性增长; $y_1$ 每增加 $5$ 增加约 $125,375,625,875,1125,1375$, 增长速度均匀, 近似二次函数; $y_2$ 每增加 $5$ 增长约 $18$ 倍, 增长速度越来越快, 呈指数增长. 故呈指数增长的变量是 $y_2$. $\blacksquare$
-
-## 练习八
-
-(练习 4.4 第 8 题) 借助计算工具估算出使 $3^x> 5x$ 的 $x$ 的取值范围 (精确到 $0.01$).
-
-### 解答 练习八
-
-由**常用结论 4.4.4** (不同函数增长的差异), 指数函数最终会超过一次函数, 但在中间区间可能小于一次函数.
-
-方程 $3^x=5x$ 有两个交点. 估算: 在 $x\approx 0.26$ 附近, $3^{0.26}\approx 1.32$, $5\times 0.26=1.30$, 两者接近; 在 $x\approx 2.25$ 附近, $3^{2.25}\approx 11.84$, $5\times 2.25=11.25$, 两者接近. 故 $3^x> 5x$ 的取值范围约为 $x< 0.26$ 或 $x> 2.25$. $\blacksquare$
-
-## 练习九
-
-(练习 4.4 第 9 题) 对数函数 $y=\lg x$ 的图象与一次函数 $y=f\left(x\right)$ 的图象有 $A$, $B$ 两个公共点, 其中 $A$ 在 $x$ 轴上, $B$ 的横坐标为 $2$. 求一次函数 $y=f\left(x\right)$ 的解析式.
-
-### 解答 练习九
-
-由**定义 4.4.1 (对数函数)** 与**常用结论 4.4.3** (对数函数的图象和性质), $y=\lg x$ 过定点 $\left(1,0\right)$.
-
-$A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=\left(1,0\right)$. $B$ 的横坐标为 $2$, 故 $B=\left(2,\lg 2\right)$. 一次函数过 $A\left(1,0\right)$ 和 $B\left(2,\lg 2\right)$, 斜率 $k=\frac{\lg 2-0}{2-1}=\lg 2$, 故 $f\left(x\right)=\left(\lg 2\right)\left(x-1\right)$. $\blacksquare$
-
-## 练习十
-
-(练习 4.4 第 10 题) 函数 $y=f\left(x\right)$ 的图象过 $\left(1,0\right)$, 在 $\left(0,+\infty\right)$ 上递增, 且以 $y=1$ 为水平渐近线, 则 $y=f\left(x\right)$ 可能是 ( ).
-
-(A) $y=1-x^{-1}$, $x\in\left(0,+\infty\right)$ (B) $y=\frac{3}{2}-\left(\frac{1}{2}\right)^x$, $x\in\left(0,+\infty\right)$ (C) $y=\ln x$ (D) $y=x-1$, $x\in\left(0,+\infty\right)$
-
-### 解答 练习十
-
-由**常用结论 4.4.3** (对数函数的图象和性质) 与**常用结论 4.2.2** (指数函数的图象和性质).
-
-(A) $y=1-\frac{1}{x}$: 当 $x=1$ 时 $y=0$, 递增, 当 $x\to+\infty$ 时 $y\to 1$, 符合图象特征. (B) 当 $x=1$ 时 $y=\frac{3}{2}-\frac{1}{2}=1\neq 0$, 不符合. (C) $y=\ln x$ 当 $x\to+\infty$ 时 $y\to+\infty$, 不以 $y=1$ 为渐近线, 不符合. (D) $y=x-1$ 是直线, 不符合图象. 故选 (A). $\blacksquare$
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.4.1 (周期函数)**
+> 
+> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 ## 习题一
 
-(习题 4.4 复习巩固第 1 题) 求下列函数的定义域.
+(习题 5.4 拓广探索第 18 题) 已知函数 $y=f\left(x\right)$ ($x\in\mathbb R$) 是周期函数, 周期为 $2$, 其部分图象如图所示,
 
-(1) $y=\sqrt\left[3\right]{\log_2 x}$;
+(1) 写出函数 $y=f\left(x\right)$ 的解析式;
 
-(2) $y=\sqrt{\log_{0.5}\left(4x-3\right)}$.
+(2) 画出函数 $y=f\left(x+1\right)$ 的图象.
+
+图:函数 $y=f\left(x\right)$ 的一段周期图象(周期为 $2$),曲线过原点,在 $y=-1$ 与 $y=1$ 之间波动,在整数点 $x$ 处穿过 $x$ 轴,形状为 $y=\sin\pi x$ 的正弦波;图中画出了若干个连续周期的波形.
 
 ### 解答 习题一
 
-由**定义 4.4.1 (对数函数)**, 真数必须大于 $0$.
+由**定义 5.4.1 (周期函数)** 及图象特征.
 
-(1) $\log_2 x$ 要求 $x> 0$, 三次根号对被开方数无限制, 故定义域为 $\left(0,+\infty\right)$.
+(1) 由图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 可设 $f\left(x\right)=\sin\frac{\pi x}{2}$. 验证: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, 周期 $T=\frac{2\pi}{\pi/2}=4\neq2$. 再由周期为 $2$ 且过 $\left(0,0\right)$, $\left(1,1\right)$, 可设 $f\left(x\right)=\sin\pi x$. 验证: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. 由图象过 $\left(1,1\right)$ 且周期为 $2$, 设 $f\left(x\right)=-\cos\pi x$. 验证: $f\left(0\right)=-1\neq0$. 综合图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 得 $f\left(x\right)=\sin\pi x$.
 
-(2) 要求 $\log_{0.5}\left(4x-3\right)\ge 0$ 且 $4x-3> 0$. 因底数 $0.5\in\left(0,1\right)$, $\log_{0.5} x$ 为减函数, $\log_{0.5}\left(4x-3\right)\ge 0=\log_{0.5} 1$ 等价于 $0< 4x-3\le 1$, 即 $\frac{3}{4}< x\le 1$. 故定义域为 $\left(\frac{3}{4},1\right]$. $\blacksquare$
+(2) $y=f\left(x+1\right)$ 的图象是将 $y=f\left(x\right)$ 的图象向左平移 $1$ 个单位长度. $\blacksquare$
 
 ## 习题二
 
-(习题 4.4 复习巩固第 2 题) 比较满足下列条件的两个正数 $m$, $n$ 的大小.
-
-(1) $\log_3 m< \log_3 n$;
-
-(2) $\log_{0.3} m< \log_{0.3} n$;
-
-(3) $\log_a m< \log_a n$ ($0< a< 1$);
-
-(4) $\log_a m> \log_a n$ ($a> 1$).
+(习题 5.4 拓广探索第 19 题) 容易知道, 正弦函数 $y=\sin x$ 是奇函数, 正弦曲线关于原点对称, 即原点是正弦曲线的对称中心. 除原点外, 正弦曲线还有其他对称中心吗? 如果有, 那么对称中心的坐标是什么? 另外, 正弦曲线是轴对称图形吗? 如果是, 那么对称轴的方程是什么? 你能用已经学过的正弦函数性质解释上述现象吗? 对余弦函数和正切函数, 讨论上述同样的问题.
 
 ### 解答 习题二
 
-由**常用结论 4.4.3** (对数函数的图象和性质), $a> 1$ 时 $y=\log_a x$ 递增, $0< a< 1$ 时递减.
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 底数 $3> 1$, 递增, 由 $\log_3 m< \log_3 n$ 得 $m< n$.
+(1) 正弦曲线的对称中心: 正弦曲线与 $x$ 轴的交点均为对称中心, 即 $\left(k\pi,0\right)$ ($k\in\mathbb Z$). 正弦曲线是轴对称图形, 对称轴为 $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb Z$).
 
-(2) 底数 $0.3\in\left(0,1\right)$, 递减, 由 $\log_{0.3} m< \log_{0.3} n$ 得 $m> n$.
+(2) 余弦曲线的对称中心: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb Z$). 余弦曲线是轴对称图形, 对称轴为 $x=k\pi$ ($k\in\mathbb Z$).
 
-(3) $0< a< 1$, 递减, 由 $\log_a m< \log_a n$ 得 $m> n$.
+(3) 正切曲线的对称中心: $\left(\frac{k\pi}{2},0\right)$ ($k\in\mathbb Z$). 正切曲线不是轴对称图形. $\blacksquare$
 
-(4) $a> 1$, 递增, 由 $\log_a m> \log_a n$ 得 $m> n$. $\blacksquare$
+## 探究与发现一
+
+(思考 1) 阅读 "函数 $y=A\sin\left(\omega x+\varphi\right)$ 及 $y=A\cos\left(\omega x+\varphi\right)$ 的周期" 一文, 说明周期公式 $T=\frac{2\pi}{\omega}$ 的推导过程.
+
+### 解答 探究与发现一
+
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期).
+
+令 $z=\omega x+\varphi$, 则 $y=A\sin z$ 的周期为 $2\pi$. 由 $z+2\pi=\omega x+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, 知当自变量 $x$ 增加 $\frac{2\pi}{\omega}$ 时, 函数值重复出现. 且当增加量小于 $\frac{2\pi}{\omega}$ 时, 函数值不会总重复出现. 故最小正周期 $T=\frac{2\pi}{\omega}$. $\blacksquare$
+
+## 探究与发现二
+
+(思考 1) 阅读 "利用单位圆的性质研究正弦函数, 余弦函数的性质" 一文, 说明如何借助单位圆得到三角函数的周期性, 奇偶性, 单调性和最值.
+
+### 解答 探究与发现二
+
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**常用结论** (正弦函数的图象与性质).
+
+(1) 周期性: 角 $x$ 的终边每绕原点旋转一周 ($2\pi$), 点 $P\left(\cos x,\sin x\right)$ 回到原位, 故周期为 $2\pi$.
+
+(2) 奇偶性: 角 $x$ 与 $-x$ 的终边关于 $x$ 轴对称, 故 $\cos\left(-x\right)=\cos x$, $\sin\left(-x\right)=-\sin x$, 即余弦为偶函数, 正弦为奇函数.
+
+(3) 单调性: 当角 $x$ 从 $-\frac{\pi}{2}$ 增大到 $\frac{\pi}{2}$ 时, 点 $P$ 的纵坐标从 $-1$ 增大到 $1$, 故 $\sin x$ 递增; 当 $x$ 从 $\frac{\pi}{2}$ 增大到 $\frac{3\pi}{2}$ 时, 纵坐标从 $1$ 减小到 $-1$, 故 $\sin x$ 递减.
+
+(4) 最值: 当 $x=\frac{\pi}{2}+2k\pi$ 时, 纵坐标取最大值 $1$; 当 $x=-\frac{\pi}{2}+2k\pi$ 时, 纵坐标取最小值 $-1$. $\blacksquare$
+
+## 练习一
+
+(练习 5.5 第 1 题) 利用和 (差) 角公式, 求下列各式的值:
+
+(1) $\sin15^{\circ}$;
+
+(2) $\cos75^{\circ}$;
+
+(3) $\sin75^{\circ}$;
+
+(4) $\tan15^{\circ}$.
+
+### 解答 练习一
+
+由**公式 5.5.3** (和角正弦公式) 及**公式 5.5.2** (和角余弦公式) 等.
+
+(1) 由 $\sin15^{\circ}=\sin\left(45^{\circ}-30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}-\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
+
+(2) 由 $\cos75^{\circ}=\cos\left(45^{\circ}+30^{\circ}\right)=\cos45^{\circ}\cos30^{\circ}-\sin45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
+
+(3) 由 $\sin75^{\circ}=\sin\left(45^{\circ}+30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}+\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{6}+\sqrt{2}}{4}$.
+
+(4) 由 $\tan15^{\circ}=\tan\left(45^{\circ}-30^{\circ}\right)=\frac{\tan45^{\circ}-\tan30^{\circ}}{1+\tan45^{\circ}\tan30^{\circ}}=\frac{1-\frac{\sqrt{3}}{3}}{1+\frac{\sqrt{3}}{3}}=2-\sqrt{3}$. $\blacksquare$
+
+## 练习二
+
+(练习 5.5 第 2 题)
+
+(1) 已知 $\cos\theta=-\frac{3}{5}$, $\theta\in\left(\frac{\pi}{2},\pi\right)$, 求 $\sin\left(\theta+\frac{\pi}{3}\right)$ 的值;
+
+(2) 已知 $\sin\theta=-\frac{12}{13}$, $\theta$ 是第三象限角, 求 $\cos\left(\frac{\pi}{6}+\theta\right)$ 的值;
+
+(3) 已知 $\tan\alpha=3$, 求 $\tan\left(\alpha+\frac{\pi}{4}\right)$ 的值.
+
+### 解答 练习二
+
+由**公式 5.5.3** (和角正弦公式) 及**公式 5.5.2** (和角余弦公式), **公式 5.5.5** (和角正切公式).
+
+(1) 由 $\theta\in\left(\frac{\pi}{2},\pi\right)$, $\cos\theta=-\frac{3}{5}$, 得 $\sin\theta=\frac{4}{5}$. 故
+
+$$
+\sin\left(\theta+\frac{\pi}{3}\right)=\sin\theta\cos\frac{\pi}{3}+\cos\theta\sin\frac{\pi}{3}=\frac{4}{5}\cdot\frac{1}{2}+\left(-\frac{3}{5}\right)\cdot\frac{\sqrt{3}}{2}=\frac{4-3\sqrt{3}}{10}.
+$$
+
+(2) 由 $\theta$ 是第三象限角, $\sin\theta=-\frac{12}{13}$, 得 $\cos\theta=-\frac{5}{13}$. 故
+
+$$
+\cos\left(\frac{\pi}{6}+\theta\right)=\cos\frac{\pi}{6}\cos\theta-\sin\frac{\pi}{6}\sin\theta=\frac{\sqrt{3}}{2}\cdot\left(-\frac{5}{13}\right)-\frac{1}{2}\cdot\left(-\frac{12}{13}\right)=\frac{12-5\sqrt{3}}{26}.
+$$
+
+(3) 由**公式 5.5.5**, 得
+
+$$
+\tan\left(\alpha+\frac{\pi}{4}\right)=\frac{\tan\alpha+\tan\frac{\pi}{4}}{1-\tan\alpha\tan\frac{\pi}{4}}=\frac{3+1}{1-3\times1}=-2.
+$$
+
+$\blacksquare$
+
+## 练习三
+
+(练习 5.5 第 3 题) 求下列各式的值:
+
+(1) $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}$;
+
+(2) $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}$;
+
+(3) $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}$;
+
+(4) $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}$;
+
+(5) $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}$;
+
+(6) $\sin20^{\circ}\cos110^{\circ}+\cos160^{\circ}\sin70^{\circ}$.
+
+### 解答 练习三
+
+由**公式 5.5.3** 至**公式 5.5.6** 反用.
+
+(1) 由**公式 5.5.3**, 得 $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}=\sin\left(72^{\circ}+18^{\circ}\right)=\sin90^{\circ}=1$.
+
+(2) 由**公式 5.5.1**, 得 $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}=\cos\left(72^{\circ}-12^{\circ}\right)=\cos60^{\circ}=\frac{1}{2}$.
+
+(3) 由**公式 5.5.5**, 得 $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}=\tan\left(12^{\circ}+33^{\circ}\right)=\tan45^{\circ}=1$.
+
+(4) 由**公式 5.5.4**, 得 $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}=\sin\left(14^{\circ}-74^{\circ}\right)=\sin\left(-60^{\circ}\right)=-\frac{\sqrt{3}}{2}$.
+
+(5) 由**公式 5.5.2**, 得 $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}=-\left(\cos34^{\circ}\cos26^{\circ}-\sin34^{\circ}\sin26^{\circ}\right)=-\cos\left(34^{\circ}+26^{\circ}\right)=-\cos60^{\circ}=-\frac{1}{2}$.
+
+(6) 由 $\cos110^{\circ}=-\cos70^{\circ}$, $\cos160^{\circ}=-\cos20^{\circ}$, 得原式 $=-\sin20^{\circ}\cos70^{\circ}-\cos20^{\circ}\sin70^{\circ}=-\sin\left(20^{\circ}+70^{\circ}\right)=-\sin90^{\circ}=-1$. $\blacksquare$
+
+## 练习四
+
+(练习 5.5 第 4 题) 化简:
+
+(1) $\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x$;
+
+(2) $\sqrt{3}\sin x+\cos x$;
+
+(3) $\sqrt{2}\left(\sin x-\cos x\right)$;
+
+(4) $\sqrt{2}\cos x-\sqrt{6}\sin x$.
+
+### 解答 练习四
+
+由**公式 5.5.11** (辅助角公式).
+
+(1) 原式 $=\cos\frac{\pi}{3}\cos x-\sin\frac{\pi}{3}\sin x=\cos\left(x+\frac{\pi}{3}\right)$.
+
+(2) 原式 $=2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=2\left(\sin x\cos\frac{\pi}{6}+\cos x\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
+
+(3) 原式 $=2\left(\frac{\sqrt{2}}{2}\sin x-\frac{\sqrt{2}}{2}\cos x\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
+
+(4) 原式 $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
+
+## 练习五
+
+(练习 5.5 第 5 题) 已知 $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, 且 $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$, $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, 求 $\sin2\beta$ 的值.
+
+### 解答 练习五
+
+由**公式 5.5.3** 及**公式 5.5.4**.
+
+由 $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$, 得 $\cos\left(\alpha-\beta\right)=-\frac{4}{5}$. 由 $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, 得 $\cos\left(\alpha+\beta\right)=-\frac{4}{5}$.
+
+由 $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$, 得
+
+$$
+\sin2\beta=\sin\left[\left(\alpha+\beta\right)-\left(\alpha-\beta\right)\right]=\sin\left(\alpha+\beta\right)\cos\left(\alpha-\beta\right)-\cos\left(\alpha+\beta\right)\sin\left(\alpha-\beta\right)=\left(-\frac{3}{5}\right)\left(-\frac{4}{5}\right)-\left(-\frac{4}{5}\right)\left(\frac{3}{5}\right)=\frac{12+12}{25}=\frac{24}{25}.
+$$
+
+$\blacksquare$
+
+## 练习六
+
+(练习 5.5 第 6 题) 已知 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, $8\pi< \alpha< 12\pi$, 求 $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$, $\tan\frac{\alpha}{4}$ 的值.
+
+### 解答 练习六
+
+由**公式 5.5.8** (二倍角余弦公式) 的降幂形式.
+
+由 $8\pi< \alpha< 12\pi$, 得 $4\pi< \frac{\alpha}{2}< 6\pi$, $2\pi< \frac{\alpha}{4}< 3\pi$, $\pi< \frac{\alpha}{8}< \frac{3\pi}{2}$. 故 $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, 即 $\frac{\alpha}{4}$ 与 $\left(0,\pi\right)$ 终边相同.
+
+由 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, 得 $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. 由 $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$, $\sin\frac{\alpha}{8}< 0$, 得 $\sin\frac{\alpha}{8}=-\frac{3}{5}$. 故 $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
+
+由 $\cos\frac{\alpha}{4}=2\cos^{2}\frac{\alpha}{8}-1=2\times\frac{16}{25}-1=\frac{7}{25}$.
+
+由 $\tan\frac{\alpha}{4}=\frac{\sin\frac{\alpha}{4}}{\cos\frac{\alpha}{4}}=\frac{24}{7}$. $\blacksquare$
+
+## 练习七
+
+(练习 5.5 第 7 题) 已知 $\sin\left(\alpha-\pi\right)=\frac{3}{5}$, 求 $\cos2\alpha$ 的值.
+
+### 解答 练习七
+
+由**公式 5.5.8** (二倍角余弦公式).
+
+由 $\sin\left(\alpha-\pi\right)=-\sin\alpha=\frac{3}{5}$, 得 $\sin\alpha=-\frac{3}{5}$. 故 $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{9}{25}=\frac{7}{25}$. $\blacksquare$
+
+## 练习八
+
+(练习 5.5 第 8 题) 已知 $\sin2\alpha=-\sin\alpha$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$, 求 $\tan\alpha$ 的值.
+
+### 解答 练习八
+
+由**公式 5.5.7** (二倍角正弦公式).
+
+由 $\sin2\alpha=2\sin\alpha\cos\alpha=-\sin\alpha$, 且 $\alpha\in\left(\frac{\pi}{2},\pi\right)$ 时 $\sin\alpha\neq0$, 得 $2\cos\alpha=-1$, 即 $\cos\alpha=-\frac{1}{2}$. 故 $\sin\alpha=\frac{\sqrt{3}}{2}$, $\tan\alpha=-\sqrt{3}$. $\blacksquare$
+
+## 练习九
+
+(练习 5.5 第 9 题) 已知 $\tan2\alpha=\frac{1}{3}$, 求 $\tan\alpha$ 的值.
+
+### 解答 练习九
+
+由**公式 5.5.9** (二倍角正切公式).
+
+由 $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{1}{3}$, 得 $6\tan\alpha=1-\tan^{2}\alpha$, 即 $\tan^{2}\alpha+6\tan\alpha-1=0$. 解得 $\tan\alpha=-3\pm\sqrt{10}$. $\blacksquare$
+
+## 练习十
+
+(练习 5.5 第 10 题) 求下列各式的值:
+
+(1) $\sin15^{\circ}\cos15^{\circ}$;
+
+(2) $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}$;
+
+(3) $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}$;
+
+(4) $2\cos^{2}22.5^{\circ}-1$.
+
+### 解答 练习十
+
+由**公式 5.5.7** 至**公式 5.5.9**.
+
+(1) 由**公式 5.5.7**, 得 $\sin15^{\circ}\cos15^{\circ}=\frac{1}{2}\sin30^{\circ}=\frac{1}{4}$.
+
+(2) 由**公式 5.5.8**, 得 $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
+
+(3) 由**公式 5.5.9**, 得 $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}=\frac{1}{2}\tan45^{\circ}=\frac{1}{2}$.
+
+(4) 由**公式 5.5.8**, 得 $2\cos^{2}22.5^{\circ}-1=\cos45^{\circ}=\frac{\sqrt{2}}{2}$. $\blacksquare$
+
+## 练习十一
+
+(练习 5.5 第 11 题) 求证: $\tan\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha}$.
+
+### 解答 练习十一
+
+由**公式 5.5.10** (半角公式).
+
+由 $\tan\frac{\alpha}{2}=\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}=\frac{2\sin^{2}\frac{\alpha}{2}}{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}=\frac{1-\cos\alpha}{\sin\alpha}$. 同理, $\tan\frac{\alpha}{2}=\frac{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}{2\cos^{2}\frac{\alpha}{2}}=\frac{\sin\alpha}{1+\cos\alpha}$. $\blacksquare$
+
+## 练习十二
+
+(练习 5.5 第 12 题) 已知 $\cos\theta=\frac{1}{7}$, 且 $270^{\circ}< \theta< 360^{\circ}$, 试求 $\sin\frac{\theta}{2}$ 和 $\cos\frac{\theta}{2}$ 的值.
+
+### 解答 练习十二
+
+由**公式 5.5.10** (半角公式).
+
+由 $270^{\circ}< \theta< 360^{\circ}$, 得 $135^{\circ}< \frac{\theta}{2}< 180^{\circ}$, 故 $\sin\frac{\theta}{2}> 0$, $\cos\frac{\theta}{2}< 0$.
+
+由 $\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}=\sqrt{\frac{1-\frac{1}{7}}{2}}=\sqrt{\frac{3}{7}}=\frac{\sqrt{21}}{7}$.
+
+由 $\cos\frac{\theta}{2}=-\sqrt{\frac{1+\cos\theta}{2}}=-\sqrt{\frac{1+\frac{1}{7}}{2}}=-\sqrt{\frac{4}{7}}=-\frac{2\sqrt{7}}{7}$. $\blacksquare$
+
+## 练习十三
+
+(练习 5.5 第 13 题) 已知等腰三角形的顶角的余弦等于 $\frac{7}{25}$, 求这个三角形的一个底角的正切.
+
+### 解答 练习十三
+
+由**公式 5.5.10** (半角公式).
+
+设顶角为 $\theta$, 则底角为 $\frac{\pi-\theta}{2}$. 由 $\cos\theta=\frac{7}{25}$, 得
+
+$$
+\tan\frac{\pi-\theta}{2}=\cot\frac{\theta}{2}=\frac{1}{\tan\frac{\theta}{2}}=\sqrt{\frac{1+\cos\theta}{1-\cos\theta}}=\sqrt{\frac{1+\frac{7}{25}}{1-\frac{7}{25}}}=\sqrt{\frac{32}{18}}=\frac{4}{3}.
+$$
+
+$\blacksquare$
+
+## 练习十四
+
+(练习 5.5 第 14 题) 求证:
+
+(1) $\cos\alpha\sin\beta=\frac{1}{2}\left[\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)\right]$;
+
+(2) $\cos\alpha\cos\beta=\frac{1}{2}\left[\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)\right]$;
+
+(3) $\sin\alpha\sin\beta=-\frac{1}{2}\left[\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)\right]$.
+
+### 解答 练习十四
+
+由**公式 5.5.3** 及**公式 5.5.4**, **公式 5.5.1** 及**公式 5.5.2**.
+
+(1) 由 $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$, 两边除以 $2$ 即得.
+
+(2) 由 $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$, 两边除以 $2$ 即得.
+
+(3) 由 $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, 两边除以 $-2$ 即得. $\blacksquare$
+
+## 练习十五
+
+(练习 5.5 第 15 题) 求证:
+
+(1) $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$;
+
+(2) $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$;
+
+(3) $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+
+### 解答 练习十五
+
+由**练习十四** 的结果换元.
+
+(1) 令 $\alpha+\beta=\theta$, $\alpha-\beta=\varphi$, 则 $\alpha=\frac{\theta+\varphi}{2}$, $\beta=\frac{\theta-\varphi}{2}$. 代入 $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$, 得 $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+
+(2) 同理, 代入 $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$, 得 $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$.
+
+(3) 代入 $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, 得 $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$. $\blacksquare$
+
+## 练习十六
+
+(练习 5.5 第 16 题) 求下列函数的周期, 最大值和最小值:
+
+(1) $y=5\cos x-12\sin x$;
+
+(2) $y=\cos x+2\sin x$.
+
+### 解答 练习十六
+
+由**公式 5.5.11** (辅助角公式).
+
+(1) 原式 $=13\left(\frac{5}{13}\cos x-\frac{12}{13}\sin x\right)=13\cos\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{12}{5}$. 周期为 $2\pi$, 最大值为 $13$, 最小值为 $-13$.
+
+(2) 原式 $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{1}{2}$. 周期为 $2\pi$, 最大值为 $\sqrt{5}$, 最小值为 $-\sqrt{5}$. $\blacksquare$
 
 ## 习题三
 
-(习题 4.4 复习巩固第 3 题) 假设在不考虑空气阻力的条件下, 火箭的最大速度 $v$ (单位: $\mathrm{m/s}$) 和燃料的质量 $M$ (单位: $\mathrm{kg}$), 火箭 (除燃料外) 的质量 $m$ (单位: $\mathrm{kg}$) 的函数关系是 $v=2000\ln\left(1+\frac{M}{m}\right)$. 当燃料质量是火箭质量的多少倍时, 火箭的最大速度可达到 $12\;\mathrm{km/s}$?
+(习题 5.5 复习巩固第 1 题) 已知 $\sin\alpha=\frac{2}{3}$, $\cos\beta=-\frac{3}{4}$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$, $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, 求 $\cos\left(\alpha-\beta\right)$ 的值.
 
 ### 解答 习题三
 
-由**常用结论 4.3.3** (对数与指数的关系).
+由**公式 5.5.1** (差角余弦公式).
 
-$12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\frac{M}{m}\right)=12000$, 得 $\ln\left(1+\frac{M}{m}\right)=6$, 故 $1+\frac{M}{m}=\mathrm e^6$, $\frac{M}{m}=\mathrm e^6-1\approx 402$. 即燃料质量约是火箭质量的 $402$ 倍时, 火箭最大速度可达 $12\;\mathrm{km/s}$. $\blacksquare$
+由 $\alpha\in\left(\frac{\pi}{2},\pi\right)$, $\sin\alpha=\frac{2}{3}$, 得 $\cos\alpha=-\frac{\sqrt{5}}{3}$. 由 $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, $\cos\beta=-\frac{3}{4}$, 得 $\sin\beta=-\frac{\sqrt{7}}{4}$. 故
+
+$$
+\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\left(-\frac{\sqrt{5}}{3}\right)\left(-\frac{3}{4}\right)+\frac{2}{3}\left(-\frac{\sqrt{7}}{4}\right)=\frac{3\sqrt{5}-2\sqrt{7}}{12}.
+$$
+
+$\blacksquare$
 
 ## 习题四
 
-(习题 4.4 复习巩固第 4 题) 函数 $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ 的图象如图所示.
-
-(1) 试说明哪个函数对应于哪个图象, 并解释为什么;
-
-(2) 以已有图象为基础, 在同一直角坐标系中画出 $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ 的图象;
-
-(3) 从 (2) 的图中你发现了什么?
-
-图:同一直角坐标系中,三条递增的对数曲线 $y=\log_2 x$,$y=\log_3 x$,$y=\lg x$ 的定义域均为 $\left(0,+\infty\right)$,均过点 $\left(1,0\right)$;在 $x> 1$ 区域图象自上而下依次为 $y=\log_2 x$(最靠上,最陡),$y=\log_3 x$(居中),$y=\lg x$(最靠下,最平缓),在 $0< x< 1$ 区域上下顺序相反.
+(习题 5.5 复习巩固第 2 题) 已知 $\alpha$, $\beta$ 都是锐角, $\cos\alpha=\frac{1}{7}$, $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, 求 $\cos\beta$ 的值.
 
 ### 解答 习题四
 
-由**常用结论 4.4.3** (对数函数的图象和性质), 在 $x> 1$ 时, 底数越小, 对数函数图象越靠上.
+由**公式 5.5.1** (差角余弦公式), $\beta=\left(\alpha+\beta\right)-\alpha$.
 
-(1) 在 $x> 1$ 时, 底数越小, $\log_a x$ 的值越大, 图象越靠上. 底数 $2< 3< 10$, 故在 $x> 1$ 时, 图象最靠上的是 $y=\log_2 x$, 中间的是 $y=\log_3 x$, 最下方的是 $y=\lg x$. 即最陡的曲线对应 $y=\log_2 x$, 中间对应 $y=\log_3 x$, 最平缓对应 $y=\lg x$.
+由 $\alpha$ 是锐角, $\cos\alpha=\frac{1}{7}$, 得 $\sin\alpha=\frac{4\sqrt{3}}{7}$. 由 $\alpha+\beta\in\left(0,\pi\right)$, $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, 得 $\sin\left(\alpha+\beta\right)=\frac{5\sqrt{3}}{14}$. 故
 
-(2) 由**常用结论 4.4.3**, 底数互为倒数的两个对数函数图象关于 $x$ 轴对称. 故 $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ 分别与 $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ 关于 $x$ 轴对称.
+$$
+\cos\beta=\cos\left[\left(\alpha+\beta\right)-\alpha\right]=\cos\left(\alpha+\beta\right)\cos\alpha+\sin\left(\alpha+\beta\right)\sin\alpha=\left(-\frac{11}{14}\right)\frac{1}{7}+\frac{5\sqrt{3}}{14}\cdot\frac{4\sqrt{3}}{7}=\frac{-11+60}{98}=\frac{7}{14}=\frac{1}{2}.
+$$
 
-(3) 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称. $\blacksquare$
+$\blacksquare$
 
 ## 习题五
 
-(习题 4.4 复习巩固第 5 题) 大西洋鲑鱼每年都要逆流而上, 游回产地产卵. 研究鲑鱼的科学家发现鲑鱼的游速 $v$ (单位: $\mathrm{m/s}$) 可以表示为 $v=\frac{1}{2}\log_3\frac{O}{100}$, 其中 $O$ 表示鱼的耗氧量的单位数.
-
-(1) 当一条鱼的耗氧量是 $2700$ 个单位时, 它的游速是多少?
-
-(2) 计算一条鱼静止时耗氧量的单位数.
+(习题 5.5 复习巩固第 3 题) 已知 $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$, $60^{\circ}< \alpha< 150^{\circ}$, 求 $\cos\alpha$ 的值.
 
 ### 解答 习题五
 
-由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.4** (对数运算性质).
+由**公式 5.5.2** (和角余弦公式), $\alpha=\left(30^{\circ}+\alpha\right)-30^{\circ}$.
 
-(1) 代入 $O=2700$, 得 $v=\frac{1}{2}\log_3\frac{2700}{100}=\frac{1}{2}\log_3 27=\frac{1}{2}\times 3=\frac{3}{2}\;\mathrm{m/s}$.
+由 $60^{\circ}< \alpha< 150^{\circ}$, 得 $90^{\circ}< 30^{\circ}+\alpha< 180^{\circ}$, 故 $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. 故
 
-(2) 静止时 $v=0$, 即 $\frac{1}{2}\log_3\frac{O}{100}=0$, 得 $\log_3\frac{O}{100}=0$, 故 $\frac{O}{100}=1$, $O=100$. $\blacksquare$
+$$
+\cos\alpha=\cos\left[\left(30^{\circ}+\alpha\right)-30^{\circ}\right]=\cos\left(30^{\circ}+\alpha\right)\cos30^{\circ}+\sin\left(30^{\circ}+\alpha\right)\sin30^{\circ}=\left(-\frac{4}{5}\right)\frac{\sqrt{3}}{2}+\frac{3}{5}\cdot\frac{1}{2}=\frac{3-4\sqrt{3}}{10}.
+$$
 
-## 习题六
-
-(习题 4.4 复习巩固第 6 题) 在 $2\;\mathrm{h}$ 内将某种药物注射进患者的血液中. 在注射期间, 血液中的药物含量呈线性增加; 停止注射后, 血液中的药物含量呈指数衰减. 能反映血液中药物含量 $Q$ 随时间 $t$ 变化的图象是 ( ).
-
-(A) 峰值在 $1\;\mathrm{h}$; (B) 峰值在 $2\;\mathrm{h}$, 然后指数衰减趋近于 $0$; (C) 峰值在 $2\;\mathrm{h}$, 然后线性衰减; (D) 峰值在 $2\;\mathrm{h}$, 然后衰减到负值.
-
-### 解答 习题六
-
-由**常用结论 4.4.4** (不同函数增长的差异), 停止注射后药物含量呈指数衰减, 即逐渐趋近于 $0$ 但不为负.
-
-注射持续 $2\;\mathrm{h}$, 含量线性增加至 $2\;\mathrm{h}$ 达到峰值; 停止后指数衰减, 趋近于 $0$ 但不会为负. 故选 (B). $\blacksquare$
-
-## 习题七
-
-(习题 4.4 综合运用第 7 题) 判断下列各对函数是否互为反函数. 若是, 则求出它们的定义域和值域.
-
-(1) $y=\ln x$, $y=\mathrm e^x$;
-
-(2) $y=-\log_a x$, $y=\left(\frac{1}{a}\right)^x$.
-
-### 解答 习题七
-
-由**定义 4.4.2 (反函数)**.
-
-(1) $y=\ln x$ 与 $y=\mathrm e^x$ 互为反函数. $y=\ln x$ 的定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb R$; $y=\mathrm e^x$ 的定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$.
-
-(2) $y=-\log_a x=\log_{\frac{1}{a}} x$, 它与 $y=\left(\frac{1}{a}\right)^x$ 互为反函数. $y=\log_{\frac{1}{a}} x$ 的定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb R$; $y=\left(\frac{1}{a}\right)^x$ 的定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$. $\blacksquare$
-
-## 习题八
-
-(习题 4.4 综合运用第 8 题) 设 $y=f\left(x\right)$ 表示摄氏温度为 $x$ 时, 华氏温度为 $y$.
-
-(1) 如果函数 $y=f\left(x\right)$ 的反函数是 $y=g\left(x\right)$, 那么 $y=g\left(x\right)$ 表示什么?
-
-(2) 如果 $f\left(30\right)=86$, 那么求 $g\left(86\right)$, 并说明其实际意义.
-
-### 解答 习题八
-
-由**定义 4.4.2 (反函数)**.
-
-(1) $y=f\left(x\right)$ 表示 "摄氏温度 $x$ 对应华氏温度 $y$", 其反函数 $y=g\left(x\right)$ 表示 "华氏温度 $x$ 对应摄氏温度 $y$".
-
-(2) 由 $f\left(30\right)=86$, 即摄氏 $30$ 度对应华氏 $86$ 度, 由反函数定义, $g\left(86\right)=30$, 表示华氏 $86$ 度对应摄氏 $30$ 度. $\blacksquare$
-
-## 习题九
-
-(习题 4.4 综合运用第 9 题) 某地由于人们健康水平的不断提高, 某种疾病的患病率正以每年 $15\%$ 的比例降低. 要将当前的患病率降低一半, 需要多少年?
-
-### 解答 习题九
-
-由**常用结论 4.3.3** (对数与指数的关系).
-
-每年降低 $15\%$, 即每年患病率为原来的 $0.85$. 设需要 $x$ 年, 则 $0.85^x=0.5$. 由对数定义, $x=\log_{0.85} 0.5=\frac{\lg 0.5}{\lg 0.85}\approx\frac{-0.3010}{-0.0706}\approx 4.3$. 故约 $5$ 年后患病率降低一半. $\blacksquare$
-
-## 习题十
-
-(习题 4.4 综合运用第 10 题) 声强级 $L_I$ (单位: $\mathrm{dB}$) 由公式 $L_I=10\lg\left(\frac{I}{10^{-12}}\right)$ 给出, 其中 $I$ 为声强 (单位: $\mathrm{W/m^2}$).
-
-(1) 一般正常人听觉能忍受的最高声强为 $1\;\mathrm{W/m^2}$, 能听到的最低声强为 $10^{-12}\;\mathrm{W/m^2}$. 求人听觉的声强级范围.
-
-(2) 平时常人交谈时的声强约为 $10^{-6}\;\mathrm{W/m^2}$, 求其声强级.
-
-### 解答 习题十
-
-由**常用结论 4.3.4** (对数运算性质).
-
-(1) 当 $I=1$ 时, $L_I=10\lg\frac{1}{10^{-12}}=10\lg 10^{12}=120\;\mathrm{dB}$; 当 $I=10^{-12}$ 时, $L_I=10\lg 1=0\;\mathrm{dB}$. 故人听觉的声强级范围为 $\left[0,120\right]\;\mathrm{dB}$.
-
-(2) 当 $I=10^{-6}$ 时, $L_I=10\lg\frac{10^{-6}}{10^{-12}}=10\lg 10^6=60\;\mathrm{dB}$. $\blacksquare$
-
-## 习题十一
-
-(习题 4.4 综合运用第 11 题) 假设有一套住房的房价从 2002 年的 $20$ 万元上涨到 2012 年的 $40$ 万元. 下表给出了两种价格增长方式, 其中 $P_1$ 是按直线上升的房价, $P_2$ 是按指数增长的房价, $t$ 是 2002 年以来经过的年数. $t=0$ 时 $P_1=20$, $P_2=20$; $t=10$ 时 $P_1=40$, $P_2=40$.
-
-(1) 求函数 $P_1=f\left(t\right)$ 的解析式;
-
-(2) 求函数 $P_2=g\left(t\right)$ 的解析式;
-
-(3) 完成上表空格中的数据, 并比较两种价格增长方式的差异.
-
-### 解答 习题十一
-
-由**常用结论 4.2.3** (指数增长与指数衰减模型).
-
-(1) $P_1$ 按直线上升, 为一次函数. 设 $P_1=kt+b$, 由 $t=0$ 时 $P_1=20$ 得 $b=20$; 由 $t=10$ 时 $P_1=40$ 得 $10k+20=40$, $k=2$. 故 $P_1=f\left(t\right)=2t+20$.
-
-(2) $P_2$ 按指数增长, 设 $P_2=20\cdot a^\top$. 由 $t=10$ 时 $P_2=40$ 得 $20\cdot a^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. 故 $P_2=g\left(t\right)=20\cdot 2^{\frac{t}{10}}$.
-
-(3) 当 $t=5$ 时, $P_1=30$, $P_2=20\cdot 2^{0.5}\approx 28.3$; 当 $t=15$ 时, $P_1=50$, $P_2=20\cdot 2^{1.5}\approx 56.6$; 当 $t=20$ 时, $P_1=60$, $P_2=80$. 直线增长保持固定速度, 指数增长速度越来越快, 长期来看指数增长最终超过直线增长. $\blacksquare$
-
-## 习题十二
-
-(习题 4.4 拓广探索第 12 题) 已知 $\log_a\frac{1}{2}< 1$, $\left(\frac{1}{2}\right)^a< 1$, $a^{\frac{1}{2}}< 1$, 求实数 $a$ 的取值范围.
-
-### 解答 习题十二
-
-由**常用结论 4.4.3** (对数函数的图象和性质) 与**常用结论 4.2.2** (指数函数的图象和性质).
-
-由 $\left(\frac{1}{2}\right)^a< 1=\left(\frac{1}{2}\right)^0$, 底数 $\frac{1}{2}\in\left(0,1\right)$ 递减, 得 $a> 0$. 由 $a^{\frac{1}{2}}< 1$, 得 $0< a< 1$. 再由 $\log_a\frac{1}{2}< 1=\log_a a$: 当 $0< a< 1$ 时, $y=\log_a x$ 递减, 由 $\log_a\frac{1}{2}< \log_a a$ 得 $\frac{1}{2}> a$, 即 $a< \frac{1}{2}$. 综合得 $0< a< \frac{1}{2}$. $\blacksquare$
-
-## 习题十三
-
-(习题 4.4 拓广探索第 13 题) 比较下列各题中三个值的大小.
-
-(1) $\log_{0.2} 6$, $\log_{0.3} 6$, $\log_{0.4} 6$;
-
-(2) $\log_2 3$, $\log_3 4$, $\log_4 5$.
-
-### 解答 习题十三
-
-由**常用结论 4.3.5** (对数换底公式).
-
-(1) 由换底公式, $\log_a 6=\frac{\ln 6}{\ln a}$. 因 $0.2< 0.3< 0.4< 1$, 故 $\ln 0.2< \ln 0.3< \ln 0.4< 0$. 分子 $\ln 6> 0$ 为正, 分母为负, 分母越负 (越小), 分数值越小. 故 $\log_{0.2} 6< \log_{0.3} 6< \log_{0.4} 6$.
-
-(2) 由换底公式, $\log_2 3=\frac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\frac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\frac{\ln 5}{\ln 4}\approx 1.161$. 故 $\log_4 5< \log_3 4< \log_2 3$. $\blacksquare$
+$\blacksquare$

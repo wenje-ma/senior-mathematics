@@ -1,709 +1,507 @@
 # week19
-> **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**
+> **定理 2.2.1 (基本不等式)**
 > 
-> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
-> **定义 5.2.2 (终边上任意一点的三角函数比值)**
+> 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+> **定义 3.1.1 (函数)**
 > 
-> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
-
-## 练习一
-
-(练习 5.2 第 1 题) 利用三角函数定义, 求 $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$ 的三个三角函数值.
-
-### 解答 练习一
-
-由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**, 角 $\alpha$ 的终边与单位圆交点为 $P\left(x,y\right)$, 则 $\sin\alpha=y$, $\cos\alpha=x$, $\tan\alpha=\frac{y}{x}$.
-
-(1) $\alpha=0$ 时, 终边与单位圆交点为 $\left(1,0\right)$, 故 $\sin0=0$, $\cos0=1$, $\tan0=0$.
-
-(2) $\alpha=\frac{\pi}{2}$ 时, 终边与单位圆交点为 $\left(0,1\right)$, 故 $\sin\frac{\pi}{2}=1$, $\cos\frac{\pi}{2}=0$, $\tan\frac{\pi}{2}$ 无意义.
-
-(3) $\alpha=\pi$ 时, 终边与单位圆交点为 $\left(-1,0\right)$, 故 $\sin\pi=0$, $\cos\pi=-1$, $\tan\pi=0$.
-
-(4) $\alpha=\frac{3\pi}{2}$ 时, 终边与单位圆交点为 $\left(0,-1\right)$, 故 $\sin\frac{3\pi}{2}=-1$, $\cos\frac{3\pi}{2}=0$, $\tan\frac{3\pi}{2}$ 无意义. $\blacksquare$
-
-## 练习二
-
-(练习 5.2 第 2 题) 利用三角函数定义, 求 $-\frac{7\pi}{6}$ 的三个三角函数值.
-
-### 解答 练习二
-
-由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**.
-
-由 $-\frac{7\pi}{6}=-2\pi+\frac{5\pi}{6}$, 角 $-\frac{7\pi}{6}$ 的终边与 $\frac{5\pi}{6}$ 的终边相同. $\frac{5\pi}{6}$ 终边与单位圆交点为 $\left(-\frac{\sqrt{3}}{2},\frac{1}{2}\right)$, 故
-
-$$
-\sin\left(-\frac{7\pi}{6}\right)=\frac{1}{2},\quad \cos\left(-\frac{7\pi}{6}\right)=-\frac{\sqrt{3}}{2},\quad \tan\left(-\frac{7\pi}{6}\right)=-\frac{\sqrt{3}}{3}.
-$$
-
-$\blacksquare$
-
-## 练习三
-
-(练习 5.2 第 3 题) 已知角 $\theta$ 的终边过点 $P\left(-12,5\right)$, 求角 $\theta$ 的三角函数值.
-
-### 解答 练习三
-
-由**定义 5.2.2 (终边上任意一点的三角函数比值)**, $r=\sqrt{x^{2}+y^{2}}$.
-
-由 $x=-12$, $y=5$, 得 $r=\sqrt{\left(-12\right)^{2}+5^{2}}=\sqrt{169}=13$. 故
-
-$$
-\sin\theta=\frac{y}{r}=\frac{5}{13},\quad \cos\theta=\frac{x}{r}=-\frac{12}{13},\quad \tan\theta=\frac{y}{x}=-\frac{5}{12}.
-$$
-
-$\blacksquare$
-
-## 练习四
-
-(练习 5.2 第 4 题) 已知点 $P$ 在半径为 $2$ 的圆上按顺时针方向做匀速圆周运动, 角速度为 $1\ \mathrm{rad/s}$. 求 $2\ \mathrm{s}$ 时点 $P$ 所在的位置.
-
-### 解答 练习四
-
-由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**常用结论** (弧度数公式).
-
-经过 $2\ \mathrm{s}$, 点 $P$ 转过的弧度数为 $1\times2=2\ \mathrm{rad}$, 因顺时针旋转, 故转过的角为 $-2\ \mathrm{rad}$. 圆半径为 $2$, 由**定义 5.2.2 (终边上任意一点的三角函数比值)**, 点 $P$ 的坐标为
-
-$$
-\left(2\cos\left(-2\right),\ 2\sin\left(-2\right)\right)=\left(2\cos2,\ -2\sin2\right).
-$$
-
-故 $2\ \mathrm{s}$ 时点 $P$ 所在的位置为 $\left(2\cos2,\ -2\sin2\right)$. $\blacksquare$
-
-## 练习五
-
-(练习 5.2 第 5 题) 填表:
-
-| $\alpha$ | $2\pi$ | $\frac{13\pi}{6}$ | $-\pi$ | $-\frac{4\pi}{3}$ | $\frac{15\pi}{4}$ |
-|---|---|---|---|---|---|
-| $\sin\alpha$ |  |  |  |  |  |
-| $\cos\alpha$ |  |  |  |  |  |
-| $\tan\alpha$ |  |  |  |  |  |
-
-### 解答 练习五
-
-由**公式一** (终边相同的角的三角函数值), 将各角化为 $0\sim2\pi$ 范围内终边相同的角, 再由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求值.
-
-(1) $\alpha=2\pi$: $\sin2\pi=0$, $\cos2\pi=1$, $\tan2\pi=0$.
-
-(2) $\alpha=\frac{13\pi}{6}=2\pi+\frac{\pi}{6}$: $\sin\frac{13\pi}{6}=\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{13\pi}{6}=\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\tan\frac{13\pi}{6}=\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$.
-
-(3) $\alpha=-\pi$: $\sin\left(-\pi\right)=0$, $\cos\left(-\pi\right)=-1$, $\tan\left(-\pi\right)=0$.
-
-(4) $\alpha=-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$: $\sin\left(-\frac{4\pi}{3}\right)=\sin\frac{2\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{4\pi}{3}\right)=\cos\frac{2\pi}{3}=-\frac{1}{2}$, $\tan\left(-\frac{4\pi}{3}\right)=\tan\frac{2\pi}{3}=-\sqrt{3}$.
-
-(5) $\alpha=\frac{15\pi}{4}=4\pi-\frac{\pi}{4}$: $\sin\frac{15\pi}{4}=\sin\left(-\frac{\pi}{4}\right)=-\frac{\sqrt{3}}{2}$, $\cos\frac{15\pi}{4}=\cos\left(-\frac{\pi}{4}\right)=\frac{\sqrt{2}}{2}$, $\tan\frac{15\pi}{4}=\tan\left(-\frac{\pi}{4}\right)=-1$. $\blacksquare$
-
-## 练习六
-
-(练习 5.2 第 6 题) (口答) 设 $\alpha$ 是三角形的一个内角, 在 $\sin\alpha$, $\cos\alpha$, $\tan\alpha$, $\tan\frac{\alpha}{2}$ 中, 哪些有可能取负值?
-
-### 解答 练习六
-
-由**常用结论** (三角函数在各象限的符号), 三角形内角满足 $0< \alpha< \pi$.
-
-(1) 由 $0< \alpha< \pi$, 角 $\alpha$ 的终边在第一或第二象限, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha> 0$, 不可能取负值.
-
-(2) 当 $\frac{\pi}{2}< \alpha< \pi$ 时, $\alpha$ 为第二象限角, $\cos\alpha< 0$, 故 $\cos\alpha$ 有可能取负值.
-
-(3) 当 $\frac{\pi}{2}< \alpha< \pi$ 时, $\alpha$ 为第二象限角, $\tan\alpha< 0$, 故 $\tan\alpha$ 有可能取负值.
-
-(4) 由 $0< \alpha< \pi$, 知 $0< \frac{\alpha}{2}< \frac{\pi}{2}$, $\frac{\alpha}{2}$ 为第一象限角, $\tan\frac{\alpha}{2}> 0$, 不可能取负值.
-
-综上, $\cos\alpha$ 和 $\tan\alpha$ 有可能取负值. $\blacksquare$
-
-## 练习七
-
-(练习 5.2 第 7 题) 确定下列三角函数值的符号:
-
-(1) $\sin156^{\circ}$;
-
-(2) $\cos\frac{16\pi}{5}$;
-
-(3) $\cos\left(-450^{\circ}\right)$;
-
-(4) $\tan\left(-\frac{17\pi}{8}\right)$;
-
-(5) $\sin\left(-\frac{4\pi}{3}\right)$;
-
-(6) $\tan556^{\circ}$.
-
-### 解答 练习七
-
-由**常用结论** (三角函数在各象限的符号) 及**公式一** (终边相同的角的三角函数值).
-
-(1) 由 $156^{\circ}$ 是第二象限角, 知 $\sin156^{\circ}> 0$.
-
-(2) 由 $\frac{16\pi}{5}=2\pi+\frac{6\pi}{5}$, $\frac{6\pi}{5}$ 是第三象限角, 知 $\cos\frac{16\pi}{5}< 0$.
-
-(3) 由 $-450^{\circ}=-360^{\circ}-90^{\circ}$, 终边在 $y$ 轴负半轴, $\cos\left(-450^{\circ}\right)=0$.
-
-(4) 由 $-\frac{17\pi}{8}=-2\pi-\frac{\pi}{8}$, $-\frac{\pi}{8}$ 是第四象限角, 知 $\tan\left(-\frac{17\pi}{8}\right)< 0$.
-
-(5) 由 $-\frac{4\pi}{3}=-2\pi+\frac{2\pi}{3}$, $\frac{2\pi}{3}$ 是第二象限角, 知 $\sin\left(-\frac{4\pi}{3}\right)> 0$.
-
-(6) 由 $556^{\circ}=360^{\circ}+196^{\circ}$, $196^{\circ}$ 是第三象限角, 知 $\tan556^{\circ}> 0$. $\blacksquare$
-
-## 练习八
-
-(练习 5.2 第 8 题) 对于 ①$\sin\theta> 0$, ②$\sin\theta< 0$, ③$\cos\theta> 0$, ④$\cos\theta< 0$, ⑤$\tan\theta> 0$ 与 ⑥$\tan\theta< 0$, 选择恰当的关系式序号填空:
-
-(1) 角 $\theta$ 为第一象限角的充要条件是 $\;\_\_\;$;
-
-(2) 角 $\theta$ 为第二象限角的充要条件是 $\;\_\_\;$;
-
-(3) 角 $\theta$ 为第三象限角的充要条件是 $\;\_\_\;$;
-
-(4) 角 $\theta$ 为第四象限角的充要条件是 $\;\_\_\;$.
-
-### 解答 练习八
-
-由**常用结论** (三角函数在各象限的符号).
-
-(1) 第一象限角: $\sin\theta> 0$ 且 $\cos\theta> 0$, 且 $\tan\theta> 0$. 充要条件是 ①③⑤.
-
-(2) 第二象限角: $\sin\theta> 0$ 且 $\cos\theta< 0$, 且 $\tan\theta< 0$. 充要条件是 ①④⑥.
-
-(3) 第三象限角: $\sin\theta< 0$ 且 $\cos\theta< 0$, 且 $\tan\theta> 0$. 充要条件是 ②④⑤.
-
-(4) 第四象限角: $\sin\theta< 0$ 且 $\cos\theta> 0$, 且 $\tan\theta< 0$. 充要条件是 ②③⑥. $\blacksquare$
-
-## 练习九
-
-(练习 5.2 第 9 题) 求下列三角函数值 (可用计算工具, 第 (1) 题精确到 $0.0001$):
-
-(1) $\cos1100^{\circ}$;
-
-(2) $\tan\frac{19\pi}{3}$;
-
-(3) $\sin\left(-1050^{\circ}\right)$;
-
-(4) $\tan\left(-\frac{31\pi}{4}\right)$.
-
-### 解答 练习九
-
-由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内.
-
-(1) 由 $1100^{\circ}=3\times360^{\circ}+20^{\circ}$, 得 $\cos1100^{\circ}=\cos20^{\circ}\approx0.9397$.
-
-(2) 由 $\frac{19\pi}{3}=6\pi+\frac{\pi}{3}$, 得 $\tan\frac{19\pi}{3}=\tan\frac{\pi}{3}=\sqrt{3}$.
-
-(3) 由 $-1050^{\circ}=-3\times360^{\circ}+30^{\circ}$, 得 $\sin\left(-1050^{\circ}\right)=\sin30^{\circ}=\frac{1}{2}$.
-
-(4) 由 $-\frac{31\pi}{4}=-8\pi+\frac{\pi}{4}$, 得 $\tan\left(-\frac{31\pi}{4}\right)=\tan\frac{\pi}{4}=1$. $\blacksquare$
-
-## 练习十
-
-(练习 5.2 第 10 题) 已知 $\cos\alpha=-\frac{4}{5}$, 且 $\alpha$ 为第三象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值.
-
-### 解答 练习十
-
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
-
-由 $\cos\alpha=-\frac{4}{5}$, 得 $\sin^{2}\alpha=1-\cos^{2}\alpha=1-\frac{16}{25}=\frac{9}{25}$. 因为 $\alpha$ 为第三象限角, 由**常用结论** (三角函数在各象限的符号), $\sin\alpha< 0$, 故
-
-$$
-\sin\alpha=-\frac{3}{5},\quad \tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{-\frac{3}{5}}{-\frac{4}{5}}=\frac{3}{4}.
-$$
-
-$\blacksquare$
-
-## 练习十一
-
-(练习 5.2 第 11 题) 已知 $\tan\varphi=-\sqrt{3}$, 求 $\sin\varphi$, $\cos\varphi$ 的值.
-
-### 解答 练习十一
-
-由**常用结论** (同角三角函数的基本关系), $\tan\varphi=\frac{\sin\varphi}{\cos\varphi}$, $\sin^{2}\varphi+\cos^{2}\varphi=1$.
-
-由 $\tan\varphi=-\sqrt{3}$, 知 $\varphi$ 为第二或第四象限角.
-
-(1) 若 $\varphi$ 为第二象限角, 则 $\sin\varphi> 0$, $\cos\varphi< 0$. 由 $\sin\varphi=-\sqrt{3}\cos\varphi$ 代入 $\sin^{2}\varphi+\cos^{2}\varphi=1$, 得 $3\cos^{2}\varphi+\cos^{2}\varphi=1$, 即 $\cos^{2}\varphi=\frac{1}{4}$, 故 $\cos\varphi=-\frac{1}{2}$, $\sin\varphi=\frac{\sqrt{3}}{2}$.
-
-(2) 若 $\varphi$ 为第四象限角, 则 $\sin\varphi< 0$, $\cos\varphi> 0$, 同理得 $\cos\varphi=\frac{1}{2}$, $\sin\varphi=-\frac{\sqrt{3}}{2}$. $\blacksquare$
-
-## 练习十二
-
-(练习 5.2 第 12 题) 已知 $\sin\theta=0.35$, 求 $\cos\theta$, $\tan\theta$ 的值 (精确到 $0.01$).
-
-### 解答 练习十二
-
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\theta+\cos^{2}\theta=1$.
-
-由 $\sin\theta=0.35$, 得 $\cos^{2}\theta=1-0.35^{2}=0.8775$, 故 $\cos\theta=\pm\sqrt{0.8775}\approx\pm0.94$.
-
-(1) 若 $\theta$ 为第一象限角, 则 $\cos\theta\approx0.94$, $\tan\theta=\frac{0.35}{0.94}\approx0.37$.
-
-(2) 若 $\theta$ 为第二象限角, 则 $\cos\theta\approx-0.94$, $\tan\theta=\frac{0.35}{-0.94}\approx-0.37$. $\blacksquare$
-
-## 练习十三
-
-(练习 5.2 第 13 题) 化简:
-
-(1) $\cos\theta\tan\theta$;
-
-(2) $\frac{2\cos^{2}\alpha-1}{1-2\sin^{2}\alpha}$;
-
-(3) $\left(1+\tan^{2}\alpha\right)\cos^{2}\alpha$.
-
-### 解答 练习十三
-
-由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
-
-(1) 得
-
-$$
-\cos\theta\tan\theta=\cos\theta\cdot\frac{\sin\theta}{\cos\theta}=\sin\theta.
-$$
-
-(2) 由 $2\cos^{2}\alpha-1=\cos^{2}\alpha-\sin^{2}\alpha=1-2\sin^{2}\alpha$, 得
-
-$$
-\frac{2\cos^{2}\alpha-1}{1-2\sin^{2}\alpha}=\frac{1-2\sin^{2}\alpha}{1-2\sin^{2}\alpha}=1.
-$$
-
-(3) 得
-
-$$
-\left(1+\tan^{2}\alpha\right)\cos^{2}\alpha=\cos^{2}\alpha+\frac{\sin^{2}\alpha}{\cos^{2}\alpha}\cdot\cos^{2}\alpha=\cos^{2}\alpha+\sin^{2}\alpha=1.
-$$
-
-$\blacksquare$
-
-## 练习十四
-
-(练习 5.2 第 14 题) 求证: $\sin^{4}\alpha+\sin^{2}\alpha\cos^{2}\alpha+\cos^{2}\alpha=1$.
-
-### 解答 练习十四
-
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
-
-左边 $=\sin^{2}\alpha\left(\sin^{2}\alpha+\cos^{2}\alpha\right)+\cos^{2}\alpha=\sin^{2}\alpha\cdot1+\cos^{2}\alpha=\sin^{2}\alpha+\cos^{2}\alpha=1=$ 右边. 故原式成立. $\blacksquare$
+> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> **定义 3.1.2 (定义域与值域)**
+> 
+> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+> **定义 3.1.5 (分段函数)**
+> 
+> 在函数的定义域内, 对于自变量 $x$ 的不同取值范围, 有着不同的对应关系, 这样的函数通常叫做分段函数.
+> **定义 3.2.1 (单调递增与增函数)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+> **定义 3.2.2 (单调递减与减函数)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+> **定义 3.2.3 (最大值)**
+> 
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+> **定义 3.2.5 (偶函数)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+> **定义 3.2.6 (奇函数)**
+> 
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
+> **定义 3.3.1 (幂函数)**
+> 
+> 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
+> **定义 4.1.1 (n 次方根)**
+> 
+> 一般地, 如果 x^n = a, 那么 x 叫做 a 的 n 次方根, 其中 n > 1, 且 n 是正整数.
+> **定义 4.4.1 (对数函数)**
+> 
+> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+> **定义 4.5.1 (函数的零点)**
+> 
+> 对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
+> **定义 4.5.3 (二分法)**
+> 
+> 的过程,学习了用函数描 述客观事物变化规律的方法.本节将先学习运用函数性质求 方程近似解的基本方法(二分法),再结合实例,更深入地 理解用函数构建数学模型的基本过程,学习运用模型思想发 现和提出问题,分析和解决问题的方法. ４５１! "#$Z\left[-D\$] Ꮶ 我们已经学习了用二次函数的观点认识一元二次方程,知道一元二次方程的实数 根就是相应二次函数的零点.像ｌｎ＋２－６＝０这样不能用公式求解的方程,是否 也能采用类似的方法,用相应的函数研究它的解的情况呢? 与二次函数的零点一样,对于一般函数狔＝(),我们把使()＝０的实数叫做 函数狔＝()的零点(ｚｅｒｏ). 这样,函数狔＝()的零点就是方程()＝０的实数解,也就是函数狔＝()的图 象与轴的公共点的横坐标.所以 方程()＝０有实数解 　"函数狔＝()有零点 　"函数狔＝()的图象与轴有公共点. 由此可知,求方程()＝０的实数解,就是确定函数狔＝()的零点.一般地,对 于不能用公
 
 ## 习题一
 
-(习题 5.2 复习巩固第 1 题) 用定义法, 公式一求下列角的三个三角函数值 (可用计算工具):
+(复习参考题2 拓广探索第 9 题) 如图, 居民小区要建一座八边形的休闲场所, 它的主体造型平面图是由两个相同的矩形 $ABCD$ 和 $EFGH$ 构成的面积为 $200\ \mathrm m^2$ 的十字形地域. 计划在正方形 $MNPQ$ 上建一座花坛, 造价为 $4200$ 元$/ \mathrm m^2$; 在四个相同的矩形 (图中阴影部分) 上铺花岗岩地坪, 造价为 $210$ 元$/ \mathrm m^2$; 再在四个空角 (图中四个三角形) 上铺草坪, 造价为 $80$ 元$/ \mathrm m^2$. 设总造价为 $S$ (单位: 元), $AD$ 长为 $x$ (单位: $\mathrm m$). 当 $x$ 为何值时, $S$ 最小? 并求出这个最小值.
 
-(1) $-\frac{17\pi}{3}$;
-
-(2) $\frac{21\pi}{4}$;
-
-(3) $-\frac{23\pi}{6}$;
-
-(4) $1500^{\circ}$.
+图:一个八边形十字形(正放加号形)休闲场所平面图,由两个全等矩形 $ABCD$ 与 $EFGH$ 正交叠合而成,中央重叠部分为正方形 $MNPQ$(花坛);从中央正方形向上下左右四个方向各伸出一个矩形(图中阴影部分,铺花岗岩地坪),十字形四个外端与外接正方形之间形成四个空角三角形(铺草坪),其中 $AD$ 长记为 $x$.
 
 ### 解答 习题一
 
-由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内, 再由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求值.
+由**常用结论 2.2.2** (积定和最小, 和定积最大), 设十字形由两个全等矩形叠成, 中央正方形 $MNPQ$ 边长为 $x$, 每个矩形长为 $x+2t$, 其中 $t$ 为伸出部分的一半. 十字面积 $2x\left(x+2t\right)-x^2=x^2+4xt=200$.
 
-(1) 由 $-\frac{17\pi}{3}=-6\pi+\frac{\pi}{3}$, 得 $\sin\left(-\frac{17\pi}{3}\right)=\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\left(-\frac{17\pi}{3}\right)=\cos\frac{\pi}{3}=\frac{1}{2}$, $\tan\left(-\frac{17\pi}{3}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
+花坛面积为 $x^2$; 四个阴影矩形面积共 $4\cdot xt$; 四个空角三角形面积共 $4\cdot\frac{1}{2}t^2=2t^2$. 总造价
 
-(2) 由 $\frac{21\pi}{4}=4\pi+\frac{5\pi}{4}$, 得 $\sin\frac{21\pi}{4}=\sin\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\cos\frac{21\pi}{4}=\cos\frac{5\pi}{4}=-\frac{\sqrt{2}}{2}$, $\tan\frac{21\pi}{4}=\tan\frac{5\pi}{4}=1$.
+$$
+S=4200x^2+210\cdot4xt+80\cdot2t^2=4200x^2+840xt+160t^2.
+$$
 
-(3) 由 $-\frac{23\pi}{6}=-4\pi+\frac{\pi}{6}$, 得 $\sin\left(-\frac{23\pi}{6}\right)=\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\left(-\frac{23\pi}{6}\right)=\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\tan\left(-\frac{23\pi}{6}\right)=\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$.
+由 $x^2+4xt=200$ 得 $xt=\frac{200-x^2}{4}$. 代入得
 
-(4) 由 $1500^{\circ}=4\times360^{\circ}+60^{\circ}$, 得 $\sin1500^{\circ}=\sin60^{\circ}=\frac{\sqrt{3}}{2}$, $\cos1500^{\circ}=\cos60^{\circ}=\frac{1}{2}$, $\tan1500^{\circ}=\tan60^{\circ}=\sqrt{3}$. $\blacksquare$
+$$
+S=4200x^2+840\cdot\frac{200-x^2}{4}+160t^2=4000x^2+38000+\frac{400000}{x^2}.
+$$
+
+由**定理 2.2.1 (基本不等式)**, 
+
+$$
+4000x^2+\frac{400000}{x^2}\ge2\sqrt{4000x^2\cdot\frac{400000}{x^2}}=80000,
+$$
+
+当且仅当 $4000x^2=\frac{400000}{x^2}$, 即 $x^2=10$, $x=\sqrt{10}$ 时, 等号成立. 此时 $S=80000+38000=118000$ 元. 故当 $x=\sqrt{10}\ \mathrm m$ 时总造价最小, 最小值为 $118000$ 元. $\blacksquare$
 
 ## 习题二
 
-(习题 5.2 复习巩固第 2 题) 已知角 $\alpha$ 的终边上有一点 $P$ 的坐标是 $\left(3a,4a\right)$, 其中 $a\neq0$, 求 $\sin\alpha$, $\cos\alpha$, $\tan\alpha$ 的值.
+(复习参考题2 拓广探索第 10 题) 购买同一种物品, 可以用两种不同的策略, 第一种是不考虑物品价格的升降, 每次购买这种物品的数量一定; 第二种是不考虑物品价格的升降, 每次购买这种物品所花的钱数一定. 哪种购物方式比较经济? 你能把所得结论作一些推广吗?
 
 ### 解答 习题二
 
-由**定义 5.2.2 (终边上任意一点的三角函数比值)**, $r=\sqrt{x^{2}+y^{2}}$.
+由**定理 2.2.1 (基本不等式)**, 设两次价格为 $p_1,p_2> 0$, 比较两种策略的平均价格.
 
-由 $x=3a$, $y=4a$, 得 $r=\sqrt{\left(3a\right)^{2}+\left(4a\right)^{2}}=\sqrt{25a^{2}}=5\lvert a\rvert$.
+第一种策略每次买固定数量 $q$: 两次共花 $q\left(p_1+p_2\right)$, 共买 $2q$, 平均价格为 $\frac{p_1+p_2}{2}$ (算术平均数).
 
-(1) 当 $a> 0$ 时, $r=5a$, 得 $\sin\alpha=\frac{4a}{5a}=\frac{4}{5}$, $\cos\alpha=\frac{3a}{5a}=\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$.
+第二种策略每次花固定钱数 $m$: 两次共买 $\frac{m}{p_1}+\frac{m}{p_2}$, 共花 $2m$, 平均价格为
 
-(2) 当 $a< 0$ 时, $r=-5a$, 得 $\sin\alpha=\frac{4a}{-5a}=-\frac{4}{5}$, $\cos\alpha=\frac{3a}{-5a}=-\frac{3}{5}$, $\tan\alpha=\frac{4a}{3a}=\frac{4}{3}$. $\blacksquare$
+$$
+\frac{2m}{\frac{m}{p_1}+\frac{m}{p_2}}=\frac{2p_1p_2}{p_1+p_2}
+$$
+
+(调和平均数).
+
+由**定理 2.2.1 (基本不等式)**, $\frac{2p_1p_2}{p_1+p_2}\le\frac{p_1+p_2}{2}$, 当且仅当 $p_1=p_2$ 时取等号. 故第二种策略 (每次花固定钱数) 的平均价格较低, 比较经济.
+
+推广: 价格有升降时, 每次投入固定金额的策略优于每次购买固定数量的策略, 其平均价格恒不高于后者. $\blacksquare$
 
 ## 习题三
 
-(习题 5.2 复习巩固第 3 题) 计算:
+(复习参考题 3 复习巩固第 1 题) 求下列函数的定义域:
 
-(1) $6\sin\left(-90^{\circ}\right)+3\sin0^{\circ}-8\sin270^{\circ}+12\cos180^{\circ}$;
+(1) $y=\sqrt{x-2}\sqrt{x+5}$;
 
-(2) $10\cos270^{\circ}+4\sin0^{\circ}+9\tan0^{\circ}+15\cos360^{\circ}$;
-
-(3) $2\cos\frac{\pi}{2}-\tan\frac{\pi}{4}+\frac{3}{4}\tan^{2}\frac{\pi}{6}-\sin\frac{\pi}{6}+\cos^{2}\frac{\pi}{6}+\sin\frac{3\pi}{2}$;
-
-(4) $\sin^{2}\frac{\pi}{3}+\cos^{4}\frac{3\pi}{2}-\tan^{2}\frac{\pi}{3}$.
+(2) $y=\frac{\sqrt{x-4}}{\left|x\right|-5}$.
 
 ### 解答 习题三
 
-由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求特殊角的三角函数值, 再代入计算.
+由**定义 3.1.2 (定义域与值域)**, 使解析式有意义的实数集合.
 
-(1) 由 $\sin\left(-90^{\circ}\right)=-1$, $\sin0^{\circ}=0$, $\sin270^{\circ}=-1$, $\cos180^{\circ}=-1$, 得
+(1) 要求 $x-2\ge0$ 且 $x+5\ge0$, 即 $x\ge2$ 且 $x\ge-5$, 取交集得 $x\ge2$. 定义域为 $\left[2,+\infty\right)$.
 
-$$
-6\times\left(-1\right)+3\times0-8\times\left(-1\right)+12\times\left(-1\right)=-6+0+8-12=-10.
-$$
-
-(2) 由 $\cos270^{\circ}=0$, $\sin0^{\circ}=0$, $\tan0^{\circ}=0$, $\cos360^{\circ}=1$, 得
-
-$$
-10\times0+4\times0+9\times0+15\times1=15.
-$$
-
-(3) 由 $\cos\frac{\pi}{2}=0$, $\tan\frac{\pi}{4}=1$, $\tan\frac{\pi}{6}=\frac{\sqrt{3}}{3}$, $\sin\frac{\pi}{6}=\frac{1}{2}$, $\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}$, $\sin\frac{3\pi}{2}=-1$, 得
-
-$$
-2\times0-1+\frac{3}{4}\times\frac{1}{3}-\frac{1}{2}+\frac{3}{4}+\left(-1\right)=-1+\frac{1}{4}-\frac{1}{2}+\frac{3}{4}-1=-\frac{3}{2}.
-$$
-
-(4) 由 $\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\frac{3\pi}{2}=0$, $\tan\frac{\pi}{3}=\sqrt{3}$, 得
-
-$$
-\left(\frac{\sqrt{3}}{2}\right)^{2}+0^{4}-\left(\sqrt{3}\right)^{2}=\frac{3}{4}-3=-\frac{9}{4}.
-$$
-
-$\blacksquare$
+(2) 要求 $x-4\ge0$ 即 $x\ge4$, 且分母 $\left|x\right|-5\ne0$ 即 $x\ne\pm5$. 结合 $x\ge4$, 得 $x\ge4$ 且 $x\ne5$. 定义域为 $\left[4,5\right)\cup\left(5,+\infty\right)$. $\blacksquare$
 
 ## 习题四
 
-(习题 5.2 复习巩固第 4 题) 化简:
+(复习参考题 3 复习巩固第 2 题) 已知函数 $f\left(x\right)=\frac{1-x}{1+x}$, 求:
 
-(1) $a\sin0^{\circ}+b\cos90^{\circ}+c\tan180^{\circ}$;
+(1) $f\left(a\right)+1$ ($a\ne-1$);
 
-(2) $-p^{2}\cos180^{\circ}+q^{2}\sin90^{\circ}-2pq\cos0^{\circ}$;
-
-(3) $a^{2}\cos2\pi-b^{2}\sin\frac{3\pi}{2}+ab\cos\pi-ab\sin\frac{\pi}{2}$;
-
-(4) $m\tan0+n\cos\frac{\pi}{2}-p\sin\pi-q\cos\frac{\pi}{2}-r\sin2\pi$.
+(2) $f\left(a+1\right)$ ($a\ne-2$).
 
 ### 解答 习题四
 
-由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求特殊角的三角函数值, 再代入化简.
+由**定义 3.1.1 (函数)**, 将自变量代入解析式.
 
-(1) 由 $\sin0^{\circ}=0$, $\cos90^{\circ}=0$, $\tan180^{\circ}=0$, 得原式 $=0$.
+(1) $f\left(a\right)+1=\frac{1-a}{1+a}+1=\frac{1-a+1+a}{1+a}=\frac{2}{1+a}$.
 
-(2) 由 $\cos180^{\circ}=-1$, $\sin90^{\circ}=1$, $\cos0^{\circ}=1$, 得原式 $=p^{2}+q^{2}-2pq=\left(p-q\right)^{2}$.
-
-(3) 由 $\cos2\pi=1$, $\sin\frac{3\pi}{2}=-1$, $\cos\pi=-1$, $\sin\frac{\pi}{2}=1$, 得原式 $=a^{2}+b^{2}-ab-ab=a^{2}+b^{2}-2ab=\left(a-b\right)^{2}$.
-
-(4) 由 $\tan0=0$, $\cos\frac{\pi}{2}=0$, $\sin\pi=0$, $\sin2\pi=0$, 得原式 $=0$. $\blacksquare$
+(2) $f\left(a+1\right)=\frac{1-\left(a+1\right)}{1+\left(a+1\right)}=\frac{-a}{a+2}$. $\blacksquare$
 
 ## 习题五
 
-(习题 5.2 复习巩固第 5 题) 确定下列三角函数值的符号:
+(复习参考题 3 复习巩固第 3 题) 设 $f\left(x\right)=\frac{1+x^2}{1-x^2}$, 求证:
 
-(1) $\sin186^{\circ}$;
+(1) $f\left(-x\right)=f\left(x\right)$;
 
-(2) $\tan505^{\circ}$;
-
-(3) $\sin7.6\pi$;
-
-(4) $\tan\left(-\frac{23\pi}{4}\right)$;
-
-(5) $\cos940^{\circ}$;
-
-(6) $\cos\left(-\frac{59\pi}{17}\right)$.
+(2) $f\left(\frac{1}{x}\right)=-f\left(x\right)$ ($x\ne0$).
 
 ### 解答 习题五
 
-由**常用结论** (三角函数在各象限的符号) 及**公式一** (终边相同的角的三角函数值).
+由**定义 3.2.5 (偶函数)**, 代入计算验证.
 
-(1) $186^{\circ}$ 是第三象限角, $\sin186^{\circ}< 0$.
+(1) $f\left(-x\right)=\frac{1+\left(-x\right)^2}{1-\left(-x\right)^2}=\frac{1+x^2}{1-x^2}=f\left(x\right)$.
 
-(2) $505^{\circ}=360^{\circ}+145^{\circ}$, $145^{\circ}$ 是第二象限角, $\tan505^{\circ}< 0$.
-
-(3) $7.6\pi=6\pi+1.6\pi$, $1.6\pi$ 即 $288^{\circ}$, 是第四象限角, $\sin7.6\pi< 0$.
-
-(4) $-\frac{23\pi}{4}=-6\pi+\frac{\pi}{4}$, $\frac{\pi}{4}$ 是第一象限角, $\tan\left(-\frac{23\pi}{4}\right)> 0$.
-
-(5) $940^{\circ}=2\times360^{\circ}+220^{\circ}$, $220^{\circ}$ 是第三象限角, $\cos940^{\circ}< 0$.
-
-(6) $-\frac{59\pi}{17}=-4\pi+\frac{9\pi}{17}$, $\frac{9\pi}{17}$ 是第二象限角, $\cos\left(-\frac{59\pi}{17}\right)< 0$. $\blacksquare$
+(2) $f\left(\frac{1}{x}\right)=\frac{1+\frac{1}{x^2}}{1-\frac{1}{x^2}}=\frac{\frac{x^2+1}{x^2}}{\frac{x^2-1}{x^2}}=\frac{x^2+1}{x^2-1}=-\frac{1+x^2}{1-x^2}=-f\left(x\right)$. $\blacksquare$
 
 ## 习题六
 
-(习题 5.2 复习巩固第 6 题)
-
-(1) 已知 $\sin\alpha=-\frac{\sqrt{3}}{2}$, 且 $\alpha$ 为第四象限角, 求 $\cos\alpha$, $\tan\alpha$ 的值;
-
-(2) 已知 $\cos\alpha=-\frac{5}{13}$, 且 $\alpha$ 为第二象限角, 求 $\sin\alpha$, $\tan\alpha$ 的值;
-
-(3) 已知 $\tan\alpha=-\frac{3}{4}$, 求 $\sin\alpha$, $\cos\alpha$ 的值;
-
-(4) 已知 $\cos\alpha=0.68$, 求 $\sin\alpha$, $\tan\alpha$ 的值 (精确到 $0.01$).
+(复习参考题 3 复习巩固第 4 题) 已知函数 $f\left(x\right)=4x^2-kx-8$ 在 $\left[5,20\right]$ 上具有单调性, 求实数 $k$ 的取值范围.
 
 ### 解答 习题六
 
-由**常用结论** (同角三角函数的基本关系) 及**常用结论** (三角函数在各象限的符号).
+由**定义 3.2.1 (单调递增与增函数)** 及**定义 3.2.2 (单调递减与减函数)**, 二次函数的单调性由对称轴位置决定.
 
-(1) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\cos^{2}\alpha=1-\frac{3}{4}=\frac{1}{4}$. 因为 $\alpha$ 为第四象限角, $\cos\alpha> 0$, 故 $\cos\alpha=\frac{1}{2}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\sqrt{3}$.
+$f\left(x\right)=4x^2-kx-8$ 的对称轴为 $x=\frac{k}{8}$. 抛物线开口向上, 在对称轴左侧单调递减, 右侧单调递增.
 
-(2) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-\frac{25}{169}=\frac{144}{169}$. 因为 $\alpha$ 为第二象限角, $\sin\alpha> 0$, 故 $\sin\alpha=\frac{12}{13}$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=-\frac{12}{5}$.
-
-(3) 由 $\tan\alpha=-\frac{3}{4}$, 知 $\alpha$ 为第二或第四象限角. 由 $\sin\alpha=-\frac{3}{4}\cos\alpha$ 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\frac{9}{16}\cos^{2}\alpha+\cos^{2}\alpha=1$, 即 $\cos^{2}\alpha=\frac{16}{25}$. 若 $\alpha$ 为第二象限角, 则 $\cos\alpha=-\frac{4}{5}$, $\sin\alpha=\frac{3}{5}$; 若 $\alpha$ 为第四象限角, 则 $\cos\alpha=\frac{4}{5}$, $\sin\alpha=-\frac{3}{5}$.
-
-(4) 由 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $\sin^{2}\alpha=1-0.68^{2}=0.5376$, 故 $\sin\alpha=\pm\sqrt{0.5376}\approx\pm0.73$. 若 $\alpha$ 为第一象限角, 则 $\sin\alpha\approx0.73$, $\tan\alpha=\frac{0.73}{0.68}\approx1.07$; 若 $\alpha$ 为第四象限角, 则 $\sin\alpha\approx-0.73$, $\tan\alpha\approx-1.07$. $\blacksquare$
+要使 $f\left(x\right)$ 在 $\left[5,20\right]$ 上具有单调性, 对称轴必须在区间左侧或右侧, 即 $\frac{k}{8}\le5$ 或 $\frac{k}{8}\ge20$. 解得 $k\le40$ 或 $k\ge160$. $\blacksquare$
 
 ## 习题七
 
-(习题 5.2 综合运用第 7 题) 根据下列条件求函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{4}\right)+2\sin\left(x-\frac{\pi}{4}\right)-4\cos2x+3\cos\left(x+\frac{3\pi}{4}\right)$ 的值:
+(复习参考题 3 复习巩固第 5 题) 已知幂函数 $y=f\left(x\right)$ 的图象过点 $\left(2,\frac{\sqrt2}{2}\right)$, 试求出此函数的解析式, 并画出图象, 判断奇偶性, 单调性.
 
-(1) $x=\frac{\pi}{4}$;
-
-(2) $x=\frac{3\pi}{4}$.
+图:平面直角坐标系中,幂函数 $y=x^{-\frac{1}{2}}=\frac{1}{\sqrt{x}}$ 的图象只位于第一象限(定义域为 $\left(0,+\infty\right)$),是一条单调递减的曲线,从 $x\to0^+$ 时的 $+\infty$ 随 $x$ 增大而下降,逐渐以 $x$ 轴和 $y$ 轴为渐近线,曲线过点 $\left(2,\frac{\sqrt2}{2}\right)$.
 
 ### 解答 习题七
 
-由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 求特殊角的三角函数值, 再代入计算.
+由**定义 3.3.1 (幂函数)**, 设 $f\left(x\right)=x^\alpha$, 代入已知点.
 
-(1) 当 $x=\frac{\pi}{4}$ 时,
+由 $2^\alpha=\frac{\sqrt2}{2}=2^{-\frac{1}{2}}$, 得 $\alpha=-\frac{1}{2}$. 故 $f\left(x\right)=x^{-\frac{1}{2}}=\frac{1}{\sqrt x}$.
 
-$$
-f\left(\frac{\pi}{4}\right)=\sin\frac{\pi}{2}+2\sin0-4\cos\frac{\pi}{2}+3\cos\pi.
-$$
+定义域为 $\left(0,+\infty\right)$. 定义域不关于原点对称, 故既非奇函数也非偶函数.
 
-$$
-=1+0-0+3\times\left(-1\right)=-2.
-$$
-
-(2) 当 $x=\frac{3\pi}{4}$ 时,
-
-$$
-f\left(\frac{3\pi}{4}\right)=\sin\pi+2\sin\frac{\pi}{2}-4\cos\frac{3\pi}{2}+3\cos\frac{3\pi}{2}.
-$$
-
-$$
-=0+2\times1-0+0=2.
-$$
-
-$\blacksquare$
+由**定义 3.2.2 (单调递减与减函数)**, 在 $\left(0,+\infty\right)$ 上 $x$ 增大时 $\frac{1}{\sqrt x}$ 减小, 故单调递减. 图象在第一象限, 以两坐标轴为渐近线. $\blacksquare$
 
 ## 习题八
 
-(习题 5.2 综合运用第 8 题) 确定下列式子的符号:
+(复习参考题 3 复习巩固第 6 题) 某公司生产某种电子仪器的固定成本为 $20000$ 元, 每生产一台仪器需增加投入 $100$ 元, 已知总收入 $R$ (单位: 元) 关于月产量 $x$ (单位: 台) 满足函数:
 
-(1) $\tan125^{\circ}\sin273^{\circ}$;
+$$
+R=\begin{cases}400x-\frac{1}{2}x^2, & 0\le x\le400,\\80000, & x> 400.\end{cases}
+$$
 
-(2) $\frac{\tan108^{\circ}}{\cos305^{\circ}}$;
+(1) 将利润 $P$ (单位: 元) 表示为月产量 $x$ 的函数;
 
-(3) $\sin\frac{5\pi}{4}\cos\frac{4\pi}{5}\tan\frac{11\pi}{6}$;
-
-(4) $\frac{\cos\frac{5\pi}{6}\tan\frac{11\pi}{6}}{\sin\frac{2\pi}{3}}$.
+(2) 当月产量为何值时, 公司所获利润最大? 最大利润为多少元? (总收入 $=$ 总成本 $+$ 利润)
 
 ### 解答 习题八
 
-由**常用结论** (三角函数在各象限的符号).
+由**定义 3.2.3 (最大值)** 及**定义 3.1.5 (分段函数)**.
 
-(1) $125^{\circ}$ 是第二象限角, $\tan125^{\circ}< 0$; $273^{\circ}$ 是第四象限角, $\sin273^{\circ}< 0$. 故 $\tan125^{\circ}\sin273^{\circ}> 0$.
+(1) 总成本为 $20000+100x$. 利润 $P=R-\left(20000+100x\right)$.
 
-(2) $108^{\circ}$ 是第二象限角, $\tan108^{\circ}< 0$; $305^{\circ}$ 是第四象限角, $\cos305^{\circ}> 0$. 故 $\frac{\tan108^{\circ}}{\cos305^{\circ}}< 0$.
+当 $0\le x\le400$ 时, $P=400x-\frac{1}{2}x^2-20000-100x=-\frac{1}{2}x^2+300x-20000$.
 
-(3) $\frac{5\pi}{4}$ 是第三象限角, $\sin\frac{5\pi}{4}< 0$; $\frac{4\pi}{5}$ 是第二象限角, $\cos\frac{4\pi}{5}< 0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}< 0$. 三个负数相乘, 故原式 $< 0$.
+当 $x> 400$ 时, $P=80000-20000-100x=60000-100x$.
 
-(4) $\frac{5\pi}{6}$ 是第二象限角, $\cos\frac{5\pi}{6}< 0$; $\frac{11\pi}{6}$ 是第四象限角, $\tan\frac{11\pi}{6}< 0$; $\frac{2\pi}{3}$ 是第二象限角, $\sin\frac{2\pi}{3}> 0$. 分子为正, 分母为正, 故原式 $> 0$. $\blacksquare$
+故
+
+$$
+P=\begin{cases}-\frac{1}{2}x^2+300x-20000, & 0\le x\le400,\\60000-100x, & x> 400.\end{cases}
+$$
+
+(2) 当 $0\le x\le400$ 时, $P=-\frac{1}{2}\left(x-300\right)^2+25000$, 在 $x=300$ 时取最大值 $25000$. 当 $x> 400$ 时, $P=60000-100x< 60000-40000=20000< 25000$. 故当月产量为 $300$ 台时利润最大, 最大利润为 $25000$ 元. $\blacksquare$
 
 ## 习题九
 
-(习题 5.2 综合运用第 9 题) 求下列三角函数值 (可用计算工具, 第 (1) (3) (4) 题精确到 $0.0001$):
-
-(1) $\sin\left(-\frac{67\pi}{12}\right)$;
-
-(2) $\tan\left(-\frac{15\pi}{4}\right)$;
-
-(3) $\cos398^{\circ}13'$;
-
-(4) $\tan766^{\circ}15'$.
+(复习参考题 3 综合运用第 7 题) 已知函数 $f\left(x\right)=\begin{cases}x\left(x+4\right), & x\ge0,\\x\left(x-4\right), & x< 0,\end{cases}$ 求 $f\left(1\right)$, $f\left(-3\right)$, $f\left(a+1\right)$ 的值.
 
 ### 解答 习题九
 
-由**公式一** (终边相同的角的三角函数值) 将各角化到 $0\sim2\pi$ 或 $0^{\circ}\sim360^{\circ}$ 范围内.
+由**定义 3.1.5 (分段函数)**, 按自变量所在区间代入对应解析式.
 
-(1) 由 $-\frac{67\pi}{12}=-6\pi+\frac{5\pi}{12}$, 得 $\sin\left(-\frac{67\pi}{12}\right)=\sin\frac{5\pi}{12}\approx0.9659$.
+$f\left(1\right)=1\cdot\left(1+4\right)=5$.
 
-(2) 由 $-\frac{15\pi}{4}=-4\pi+\frac{\pi}{4}$, 得 $\tan\left(-\frac{15\pi}{4}\right)=\tan\frac{\pi}{4}=1$.
+$f\left(-3\right)=\left(-3\right)\cdot\left(-3-4\right)=\left(-3\right)\cdot\left(-7\right)=21$.
 
-(3) 由 $398^{\circ}13'=360^{\circ}+38^{\circ}13'$, 得 $\cos398^{\circ}13'=\cos38^{\circ}13'\approx0.7854$.
-
-(4) 由 $766^{\circ}15'=2\times360^{\circ}+46^{\circ}15'$, 得 $\tan766^{\circ}15'=\tan46^{\circ}15'\approx1.0433$. $\blacksquare$
+当 $a+1\ge0$ 即 $a\ge-1$ 时, $f\left(a+1\right)=\left(a+1\right)\left(a+5\right)$; 当 $a+1< 0$ 即 $a< -1$ 时, $f\left(a+1\right)=\left(a+1\right)\left(a-3\right)$. $\blacksquare$
 
 ## 习题十
 
-(习题 5.2 综合运用第 10 题) 求证:
+(复习参考题 3 综合运用第 8 题) 证明:
 
-(1) 角 $\theta$ 为第二或第三象限角的充要条件是 $\sin\theta\tan\theta< 0$;
+(1) 若 $f\left(x\right)=ax+b$, 则 $f\left(\frac{x_1+x_2}{2}\right)=\frac{f\left(x_1\right)+f\left(x_2\right)}{2}$;
 
-(2) 角 $\theta$ 为第三或第四象限角的充要条件是 $\cos\theta\tan\theta< 0$;
-
-(3) 角 $\theta$ 为第一或第四象限角的充要条件是 $\frac{\sin\theta}{\tan\theta}> 0$;
-
-(4) 角 $\theta$ 为第一或第三象限角的充要条件是 $\sin\theta\cos\theta> 0$.
+(2) 若 $g\left(x\right)=x^2+ax+b$, 则 $g\left(\frac{x_1+x_2}{2}\right)\le\frac{g\left(x_1\right)+g\left(x_2\right)}{2}$.
 
 ### 解答 习题十
 
-由**常用结论** (三角函数在各象限的符号).
+由**定义 3.1.1 (函数)**, 直接代入计算.
 
-(1) $\sin\theta\tan\theta< 0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 异号. 第二象限: $\sin\theta> 0$, $\tan\theta< 0$, 异号; 第三象限: $\sin\theta< 0$, $\tan\theta> 0$, 异号. 其他象限同号. 故充要条件成立.
+(1) 左边: $f\left(\frac{x_1+x_2}{2}\right)=a\cdot\frac{x_1+x_2}{2}+b=\frac{ax_1+ax_2}{2}+b$.
 
-(2) $\cos\theta\tan\theta< 0$ 等价于 $\cos\theta$ 与 $\tan\theta$ 异号. 第三象限: $\cos\theta< 0$, $\tan\theta> 0$, 异号; 第四象限: $\cos\theta> 0$, $\tan\theta< 0$, 异号. 其他象限同号. 故充要条件成立.
+右边: $\frac{f\left(x_1\right)+f\left(x_2\right)}{2}=\frac{\left(ax_1+b\right)+\left(ax_2+b\right)}{2}=\frac{ax_1+ax_2}{2}+b$.
 
-(3) $\frac{\sin\theta}{\tan\theta}> 0$ 等价于 $\sin\theta$ 与 $\tan\theta$ 同号. 第一象限: $\sin\theta> 0$, $\tan\theta> 0$, 同号; 第四象限: $\sin\theta< 0$, $\tan\theta< 0$, 同号. 其他象限异号. 故充要条件成立.
+左边等于右边, 故等式成立.
 
-(4) $\sin\theta\cos\theta> 0$ 等价于 $\sin\theta$ 与 $\cos\theta$ 同号. 第一象限: 均正; 第三象限: 均负. 第二, 四象限异号. 故充要条件成立. $\blacksquare$
+(2) 右边减左边:
+
+$$
+\frac{g\left(x_1\right)+g\left(x_2\right)}{2}-g\left(\frac{x_1+x_2}{2}\right)=\frac{x_1^2+x_2^2}{2}-\left(\frac{x_1+x_2}{2}\right)^2=\frac{2x_1^2+2x_2^2-x_1^2-2x_1x_2-x_2^2}{4}=\frac{\left(x_1-x_2\right)^2}{4}\ge0.
+$$
+
+故 $g\left(\frac{x_1+x_2}{2}\right)\le\frac{g\left(x_1\right)+g\left(x_2\right)}{2}$. $\blacksquare$
 
 ## 习题十一
 
-(习题 5.2 综合运用第 11 题) 已知 $\sin x=-\frac{1}{3}$, 求 $\cos x$, $\tan x$ 的值.
+(复习参考题 3 综合运用第 9 题) (1) 已知奇函数 $f\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 那么它在 $\left[-b,-a\right]$ 上单调递增还是单调递减?
+
+(2) 已知偶函数 $g\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 那么它在 $\left[-b,-a\right]$ 上单调递增还是单调递减?
 
 ### 解答 习题十一
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}x+\cos^{2}x=1$.
+由**定义 3.2.6 (奇函数)** 及**定义 3.2.5 (偶函数)**, 利用奇偶性转化.
 
-由 $\sin x=-\frac{1}{3}< 0$, 知 $x$ 为第三或第四象限角. 由 $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, 得 $\cos x=\pm\frac{2\sqrt{2}}{3}$.
+(1) 任取 $x_1,x_2\in\left[-b,-a\right]$, 且 $x_1< x_2$, 则 $-x_1> -x_2$, 且 $-x_1,-x_2\in\left[a,b\right]$. 由 $f\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 得 $f\left(-x_1\right)< f\left(-x_2\right)$. 由奇函数性质, $f\left(-x_1\right)=-f\left(x_1\right)$, $f\left(-x_2\right)=-f\left(x_2\right)$, 故 $-f\left(x_1\right)< -f\left(x_2\right)$, 即 $f\left(x_1\right)> f\left(x_2\right)$. 因此 $f\left(x\right)$ 在 $\left[-b,-a\right]$ 上单调递减.
 
-(1) 若 $x$ 为第三象限角, 则 $\cos x< 0$, $\cos x=-\frac{2\sqrt{2}}{3}$, $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
-
-(2) 若 $x$ 为第四象限角, 则 $\cos x> 0$, $\cos x=\frac{2\sqrt{2}}{3}$, $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
+(2) 任取 $x_1,x_2\in\left[-b,-a\right]$, 且 $x_1< x_2$, 则 $-x_1> -x_2$, 且 $-x_1,-x_2\in\left[a,b\right]$. 由 $g\left(x\right)$ 在 $\left[a,b\right]$ 上单调递减, 得 $g\left(-x_1\right)< g\left(-x_2\right)$. 由偶函数性质, $g\left(-x_1\right)=g\left(x_1\right)$, $g\left(-x_2\right)=g\left(x_2\right)$, 故 $g\left(x_1\right)< g\left(x_2\right)$. 因此 $g\left(x\right)$ 在 $\left[-b,-a\right]$ 上单调递增. $\blacksquare$
 
 ## 习题十二
 
-(习题 5.2 综合运用第 12 题) 已知 $\tan\alpha=\sqrt{3}$, $\pi< \alpha< \frac{3\pi}{2}$, 求 $\cos\alpha-\sin\alpha$ 的值.
+(复习参考题 3 综合运用第 10 题) 某地区上年度电价为 $0.8$ 元/$\left(\text{kW}\cdot\text{h}\right)$, 年用电量为 $a\ \text{kW}\cdot\text{h}$, 本年度计划将电价下降到 $0.55$ 元/$\left(\text{kW}\cdot\text{h}\right)$ 至 $0.75$ 元/$\left(\text{kW}\cdot\text{h}\right)$ 之间, 而用户期望电价为 $0.4$ 元/$\left(\text{kW}\cdot\text{h}\right)$. 经测算, 下调电价后新增用电量和实际电价与用户的期望电价的差成反比 (比例系数为 $k$). 该地区的电力成本价为 $0.3$ 元/$\left(\text{kW}\cdot\text{h}\right)$.
+
+(1) 写出本年度电价下调后电力部门的收益 $y$ (单位: 元) 关于实际电价 $x$ (单位: 元/$\left(\text{kW}\cdot\text{h}\right)$) 的函数解析式; (收益 $=$ 实际电量 $\times$ (实际电价 $-$ 成本价))
+
+(2) 设 $k=0.2a$, 当电价最低定为多少时, 仍可保证电力部门的收益比上年至少增长 $20\%$?
 
 ### 解答 习题十二
 
-由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$, $\sin^{2}\alpha+\cos^{2}\alpha=1$.
+由**定义 3.1.1 (函数)**, 按题意建立收益关于电价的函数.
 
-由 $\pi< \alpha< \frac{3\pi}{2}$, 知 $\alpha$ 为第三象限角, $\sin\alpha< 0$, $\cos\alpha< 0$. 由 $\tan\alpha=\sqrt{3}$, 得 $\sin\alpha=\sqrt{3}\cos\alpha$, 代入 $\sin^{2}\alpha+\cos^{2}\alpha=1$, 得 $4\cos^{2}\alpha=1$, $\cos^{2}\alpha=\frac{1}{4}$, 故 $\cos\alpha=-\frac{1}{2}$, $\sin\alpha=-\frac{\sqrt{3}}{2}$. 因此
+(1) 新增用电量为 $\frac{k}{x-0.4}$, 实际电量为 $a+\frac{k}{x-0.4}$. 收益
 
 $$
-\cos\alpha-\sin\alpha=-\frac{1}{2}-\left(-\frac{\sqrt{3}}{2}\right)=\frac{\sqrt{3}-1}{2}.
+y=\left(a+\frac{k}{x-0.4}\right)\left(x-0.3\right),\quad x\in\left[0.55,0.75\right].
 $$
 
-$\blacksquare$
+(2) 上年度收益为 $a\left(0.8-0.3\right)=0.5a$. 本年度收益至少增长 $20\%$, 即 $y\ge0.5a\cdot1.2=0.6a$.
+
+代入 $k=0.2a$:
+
+$$
+\left(a+\frac{0.2a}{x-0.4}\right)\left(x-0.3\right)\ge0.6a.
+$$
+
+两边除以 $a$:
+
+$$
+\left(1+\frac{0.2}{x-0.4}\right)\left(x-0.3\right)\ge0.6.
+$$
+
+展开: $\frac{x-0.4+0.2}{x-0.4}\cdot\left(x-0.3\right)=\frac{\left(x-0.2\right)\left(x-0.3\right)}{x-0.4}\ge0.6$.
+
+即 $x^2-0.5x+0.06\ge0.6x-0.24$, 整理得 $x^2-1.1x+0.3\ge0$.
+
+解得 $x\le0.5$ 或 $x\ge0.6$. 结合 $x\in\left[0.55,0.75\right]$, 得 $x\ge0.6$. 故电价最低定为 $0.6$ 元/$\left(\text{kW}\cdot\text{h}\right)$. $\blacksquare$
 
 ## 习题十三
 
-(习题 5.2 综合运用第 13 题) 已知角 $\alpha$ 的终边不在坐标轴上:
-
-(1) 用 $\cos\alpha$ 表示 $\sin\alpha$, $\tan\alpha$;
-
-(2) 用 $\sin\alpha$ 表示 $\cos\alpha$, $\tan\alpha$.
+(复习参考题 3 拓广探索第 11 题) 经济学家在研究供求关系时, 一般用纵轴表示产品价格 (自变量), 而用横轴来表示产品数量 (因变量). 下列供求曲线, 哪条表示厂商希望的供应曲线, 哪条表示客户希望的需求曲线? 为什么?
 
 ### 解答 习题十三
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
+由**定义 3.2.1 (单调递增与增函数)** 及**定义 3.2.2 (单调递减与减函数)**, 从经济意义分析.
 
-(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha$, 得 $\sin\alpha=\pm\sqrt{1-\cos^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sqrt{1-\cos^{2}\alpha}}{\cos\alpha}$.
+图 (1) 中价格随数量增加而上升 (单调递增), 表示供应曲线: 价格越高, 厂商愿意提供的数量越多.
 
-(2) 由 $\cos^{2}\alpha=1-\sin^{2}\alpha$, 得 $\cos\alpha=\pm\sqrt{1-\sin^{2}\alpha}$ (符号由 $\alpha$ 所在象限决定), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\pm\frac{\sin\alpha}{\sqrt{1-\sin^{2}\alpha}}$. $\blacksquare$
+图 (2) 中价格随数量增加而下降 (单调递减), 表示需求曲线: 价格越低, 客户愿意购买的数量越多. $\blacksquare$
 
 ## 习题十四
 
-(习题 5.2 综合运用第 14 题) 求证:
+(复习参考题 3 拓广探索第 12 题) 试讨论函数 $y=x-\frac{1}{x}$ 的定义域, 值域, 单调性, 奇偶性, 并画出函数图象.
 
-(1) $\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=\frac{1-\tan x}{1+\tan x}$;
-
-(2) $\frac{\tan^{2}\alpha-\sin^{2}\alpha}{\tan^{2}\alpha}=\sin^{2}\alpha$;
-
-(3) $\left(\cos\beta-1\right)^{2}+\sin^{2}\beta=2-2\cos\beta$;
-
-(4) $\sin^{4}x+\cos^{4}x=1-2\sin^{2}x\cos^{2}x$.
+图:平面直角坐标系中,函数 $y=x-\frac{1}{x}$ 的图象关于原点对称(奇函数),分为两支:在第一象限,曲线从 $x\to0^+$ 时的 $-\infty$ 单调递增至 $+\infty$,以直线 $y=x$ 和 $y$ 轴为渐近线;在第三象限为其关于原点对称的另一支,从 $-\infty$ 单调递增至 $x\to0^-$ 时的 $+\infty$.
 
 ### 解答 习题十四
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
+由**定义 3.2.6 (奇函数)**, **定义 3.2.1 (单调递增与增函数)** 及**定义 3.2.2 (单调递减与减函数)**.
 
-(1) 右边 $=\frac{1-\frac{\sin x}{\cos x}}{1+\frac{\sin x}{\cos x}}=\frac{\cos x-\sin x}{\cos x+\sin x}=\frac{\left(\cos x-\sin x\right)^{2}}{\left(\cos x+\sin x\right)\left(\cos x-\sin x\right)}=\frac{\cos^{2}x-2\sin x\cos x+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=$ 左边.
+定义域: $x\ne0$, 即 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-(2) 左边 $=1-\frac{\sin^{2}\alpha}{\tan^{2}\alpha}=1-\frac{\sin^{2}\alpha}{\sin^{2}\alpha/\cos^{2}\alpha}=1-\cos^{2}\alpha=\sin^{2}\alpha=$ 右边.
+奇偶性: $f\left(-x\right)=-x-\frac{1}{-x}=-x+\frac{1}{x}=-\left(x-\frac{1}{x}\right)=-f\left(x\right)$, 故为奇函数.
 
-(3) 左边 $=\cos^{2}\beta-2\cos\beta+1+\sin^{2}\beta=\left(\cos^{2}\beta+\sin^{2}\beta\right)+1-2\cos\beta=1+1-2\cos\beta=2-2\cos\beta=$ 右边.
+单调性: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1< x_2$, 则
 
-(4) 左边 $=\left(\sin^{2}x+\cos^{2}x\right)^{2}-2\sin^{2}x\cos^{2}x=1-2\sin^{2}x\cos^{2}x=$ 右边. $\blacksquare$
+$$
+f\left(x_1\right)-f\left(x_2\right)=\left(x_1-\frac{1}{x_1}\right)-\left(x_2-\frac{1}{x_2}\right)=\left(x_1-x_2\right)+\left(\frac{1}{x_2}-\frac{1}{x_1}\right)=\left(x_1-x_2\right)\left(1+\frac{1}{x_1x_2}\right).
+$$
+
+由 $x_1< x_2$ 得 $x_1-x_2< 0$, 又 $1+\frac{1}{x_1x_2}> 0$, 故 $f\left(x_1\right)-f\left(x_2\right)< 0$, 即 $f\left(x_1\right)< f\left(x_2\right)$, 在 $\left(0,+\infty\right)$ 上单调递增. 由奇函数性质, 在 $\left(-\infty,0\right)$ 上也单调递增.
+
+值域: 当 $x\to0^+$ 时 $y\to-\infty$, 当 $x\to+\infty$ 时 $y\to+\infty$, 且函数在 $\left(0,+\infty\right)$ 上连续递增, 故值域为 $\mathbb R$. 图象关于原点对称, 在第一象限从 $-\infty$ 递增至 $+\infty$, 以 $y=x$ 和 $y$ 轴为渐近线. $\blacksquare$
 
 ## 习题十五
 
-(习题 5.2 综合运用第 15 题) 已知 $\tan\alpha=2$, 求 $\frac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ 的值.
+(复习参考题4 复习巩固第 1 题) 选择题.
+
+(1) 函数 $y=-2^{-x}$ 与 $y=2^x$ 的图象 ( ).
+
+(A) 关于 $x$ 轴对称 (B) 关于 $y$ 轴对称 (C) 关于原点对称 (D) 关于直线 $y=x$ 对称
+
+(2) 图 (1) 中, ①②③④中不属于函数 $y=2^x$, $y=6^x$, $y=\left(\frac{1}{2}\right)^x$ 的一个是 ( ).
+
+(A) ① (B) ② (C) ③ (D) ④
+
+(3) 图 (2) 中, ①②③④中不属于函数 $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{3}} x$, $y=\log_2 x$ 的一个是 ( ).
+
+(A) ① (B) ② (C) ③ (D) ④
 
 ### 解答 习题十五
 
-由**常用结论** (同角三角函数的基本关系), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
+由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.4.3** (对数函数的图象和性质).
 
-分子分母同除以 $\cos\alpha$, 得
+(1) 若点 $\left(x,y\right)$ 在 $y=-2^{-x}$ 上, 则 $y=-2^{-x}$, 即 $-y=2^{-x}$, 故点 $\left(-x,-y\right)$ 在 $y=2^x$ 上. 因此两图象关于原点对称. 选 (C).
 
-$$
-\frac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}=\frac{\tan\alpha+1}{\tan\alpha-1}=\frac{2+1}{2-1}=3.
-$$
+(2) $y=2^x$ 和 $y=6^x$ 为递增曲线, $y=\left(\frac{1}{2}\right)^x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x> 1$ 时底数越小图象越靠上, 故 ③ 为 $y=2^x$, ④ 为 $y=6^x$. 递减曲线中, ① 为 $y=\left(\frac{1}{2}\right)^x$, ② 不属于上述三个函数. 选 (B).
 
-$\blacksquare$
+(3) $y=\log_2 x$ 为递增曲线, $y=\log_{\frac{1}{2}} x$ 和 $y=\log_{\frac{1}{3}} x$ 为递减曲线. 图中 ①②递减, ③④递增. 递增曲线中, $x> 1$ 时底数越小图象越靠上, 故 ③ 为 $y=\log_2 x$, ④ 不属于上述三个函数. 选 (D). $\blacksquare$
 
 ## 习题十六
 
-(习题 5.2 拓广探索第 16 题) 化简 $\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}$, 其中 $\alpha$ 为第二象限角.
+(复习参考题4 复习巩固第 2 题) 用 "< " "> " "=" 填空.
+
+(1) $\mathrm e^{0.8}$ ___ $0.8^{\mathrm e}$;
+
+(2) $2^{a+1}$ ___ $3^a$ ($a> 2$);
+
+(3) $a^{0.2}$ ___ $a^{0.3}$ ($0< a< 1$);
+
+(4) $\lg\mathrm e$ ___ $\ln 0.8$;
+
+(5) $\log_2 3$ ___ $\log_3 2$;
+
+(6) $\log_a 0.2$ ___ $\log_a 0.3$ ($a> 1$).
 
 ### 解答 习题十六
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
+由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.4.3** (对数函数的图象和性质).
 
-因为 $\alpha$ 为第二象限角, $\cos\alpha< 0$. 对两式分别有理化:
+(1) $\mathrm e^{0.8}\approx 2.23$, $0.8^{\mathrm e}\approx 0.48$, 故 $\mathrm e^{0.8}> 0.8^{\mathrm e}$.
 
-$$
-\sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{\left(1+\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},
-$$
+(2) 取 $a=3$, $2^{4}=16< 27=3^3$, 故 $2^{a+1}< 3^a$.
 
-$$
-\sqrt{\frac{1-\sin\alpha}{1+\sin\alpha}}=\sqrt{\frac{\left(1-\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1-\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1-\sin\alpha}{-\cos\alpha}.
-$$
+(3) $0< a< 1$ 时 $y=a^x$ 递减, $0.2< 0.3$, 故 $a^{0.2}> a^{0.3}$.
 
-故原式 $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\alpha}{-\cos\alpha}=\frac{2\sin\alpha}{-\cos\alpha}=-2\tan\alpha$. $\blacksquare$
+(4) $\lg\mathrm e\approx 0.434> 0$, $\ln 0.8< 0$, 故 $\lg\mathrm e> \ln 0.8$.
+
+(5) $\log_2 3> 1$, $\log_3 2< 1$, 故 $\log_2 3> \log_3 2$.
+
+(6) $a> 1$ 时 $y=\log_a x$ 递增, $0.2< 0.3$, 故 $\log_a 0.2< \log_a 0.3$. $\blacksquare$
 
 ## 习题十七
 
-(习题 5.2 拓广探索第 17 题) 从本节的例 7 可以看出, $\frac{\cos x}{1-\sin x}=\frac{1+\sin x}{\cos x}$ 就是 $\sin^{2}x+\cos^{2}x=1$ 的一个变形. 你能利用同角三角函数的基本关系推导出更多的关系式吗?
+(复习参考题4 复习巩固第 3 题) 借助信息技术, 用二分法求:
+
+(1) 方程 $2x^3-4x^2-3x+1=0$ 的最大的根 (精确度为 $0.01$);
+
+(2) 函数 $f\left(x\right)=\lg x$ 和 $g\left(x\right)=\frac{1}{x}$ 交点的横坐标 (精确度为 $0.1$).
 
 ### 解答 习题十七
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$, $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
+由**定义 4.5.3 (二分法)**.
 
-(1) 由 $\sin^{2}\alpha=1-\cos^{2}\alpha=\left(1-\cos\alpha\right)\left(1+\cos\alpha\right)$, 可得 $\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}$.
+(1) 令 $h\left(x\right)=2x^3-4x^2-3x+1$. $h\left(2\right)=16-16-6+1=-5< 0$, $h\left(3\right)=54-36-9+1=10> 0$. 在 $\left(2,3\right)$ 内二分, 逐步逼近, 最大根约为 $2.60$.
 
-(2) 由 $1=\sin^{2}\alpha+\cos^{2}\alpha$, 两边除以 $\cos^{2}\alpha$, 得 $\frac{1}{\cos^{2}\alpha}=\tan^{2}\alpha+1$, 即 $\sec^{2}\alpha=1+\tan^{2}\alpha$.
-
-(3) 由 $\sin^{4}\alpha-\cos^{4}\alpha=\left(\sin^{2}\alpha+\cos^{2}\alpha\right)\left(\sin^{2}\alpha-\cos^{2}\alpha\right)=\sin^{2}\alpha-\cos^{2}\alpha$, 可得 $\sin^{4}\alpha-\cos^{4}\alpha=\sin^{2}\alpha-\cos^{2}\alpha$.
-
-(4) 由 $\left(\sin\alpha+\cos\alpha\right)^{2}=1+2\sin\alpha\cos\alpha$, 可得 $\sin\alpha\cos\alpha=\frac{\left(\sin\alpha+\cos\alpha\right)^{2}-1}{2}$. $\blacksquare$
+(2) 令 $h\left(x\right)=x\lg x-1$. $h\left(2\right)=2\lg 2-1\approx -0.398< 0$, $h\left(3\right)=3\lg 3-1\approx 0.431> 0$. 在 $\left(2,3\right)$ 内二分, 交点横坐标约为 $2.5$. $\blacksquare$
 
 ## 习题十八
 
-(习题 5.2 拓广探索第 18 题)
-
-(1) 分别计算 $\sin^{4}\frac{\pi}{3}-\cos^{4}\frac{\pi}{3}$ 和 $\sin^{2}\frac{\pi}{3}-\cos^{2}\frac{\pi}{3}$ 的值, 你有什么发现?
-
-(2) 任取一个 $\alpha$ 的值, 分别计算 $\sin^{4}\alpha-\cos^{4}\alpha$, $\sin^{2}\alpha-\cos^{2}\alpha$, 你又有什么发现?
-
-(3) 证明: $\forall x\in\mathbb R$, $\sin^{2}x-\cos^{2}x=\sin^{4}x-\cos^{4}x$.
+(复习参考题4 复习巩固第 4 题) 已知函数 $f\left(x\right)=\begin{cases}x^2+2x-3, & x\le 0,\\ -2+\ln x, & x> 0,\end{cases}$ 求使方程 $f\left(x\right)=k$ 的实数解个数分别为 $1$, $2$, $3$ 时 $k$ 的相应取值范围.
 
 ### 解答 习题十八
 
-由**常用结论** (同角三角函数的基本关系), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
+由**定义 4.5.1 (函数的零点)** 与**常用结论 4.4.3** (对数函数的图象和性质).
 
-(1) 由 $\sin\frac{\pi}{3}=\frac{\sqrt{3}}{2}$, $\cos\frac{\pi}{3}=\frac{1}{2}$, 得
+$x\le 0$ 时, $y=\left(x+1\right)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时 $y=-3$. $x> 0$ 时, $y=-2+\ln x$ 为增函数, 对任意 $k$ 有且仅有一解 $x=\mathrm e^{k+2}$.
 
-$$
-\sin^{4}\frac{\pi}{3}-\cos^{4}\frac{\pi}{3}=\frac{9}{16}-\frac{1}{16}=\frac{1}{2},
-$$
+当 $k< -4$ 时, $x\le 0$ 部分无解, 共 $1$ 解; 当 $k=-4$ 时, $x\le 0$ 部分有 $1$ 解 $x=-1$, 共 $2$ 解; 当 $-4< k\le -3$ 时, $x\le 0$ 部分有 $2$ 解, 共 $3$ 解; 当 $k> -3$ 时, $x\le 0$ 部分有 $1$ 解, 共 $2$ 解.
 
-$$
-\sin^{2}\frac{\pi}{3}-\cos^{2}\frac{\pi}{3}=\frac{3}{4}-\frac{1}{4}=\frac{1}{2}.
-$$
+故 $1$ 解时 $k< -4$; $2$ 解时 $k=-4$ 或 $k> -3$; $3$ 解时 $-4< k\le -3$. $\blacksquare$
 
-两者相等.
+## 习题十九
 
-(2) 任取 $\alpha=\frac{\pi}{4}$, $\sin\frac{\pi}{4}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$, 得 $\sin^{4}\frac{\pi}{4}-\cos^{4}\frac{\pi}{4}=0$, $\sin^{2}\frac{\pi}{4}-\cos^{2}\frac{\pi}{4}=0$. 两者仍相等.
+(复习参考题4 综合运用第 5 题) 选择题.
 
-(3) 左边 $=\sin^{2}x-\cos^{2}x$. 右边 $=\left(\sin^{2}x+\cos^{2}x\right)\left(\sin^{2}x-\cos^{2}x\right)=1\cdot\left(\sin^{2}x-\cos^{2}x\right)=\sin^{2}x-\cos^{2}x=$ 左边. 故 $\forall x\in\mathbb R$, 等式成立. $\blacksquare$
+(1) 已知集合 $A=\left\{y\,|\,y=\log_2 x,\,x> 1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},\,x> 1\right\}$, 则 $A\cap B=$ ( ).
 
-### 阅读与思考一
+(A) $\left\{y\,|\,0< y< \frac{1}{2}\right\}$ (B) $\left\{y\,|\,0< y< 1\right\}$ (C) $\left\{y\,|\,\frac{1}{2}< y< 1\right\}$ (D) $\varnothing$
 
-(思考 1) 阅读 "三角学与天文学" 一文, 谈谈三角学的发展与天文学的关系.
+(2) 已知 $f\left(x\right)=\left|\lg x\right|$, 若 $a=f\left(\frac{1}{4}\right)$, $b=f\left(\frac{1}{3}\right)$, $c=f\left(2\right)$, 则 ( ).
 
-### 解答 阅读与思考一
+(A) $a< b< c$ (B) $b< c< a$ (C) $c< a< b$ (D) $c< b< a$
 
-由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**常用结论** (同角三角函数的基本关系), 三角学的核心是建立角与比值之间的对应关系.
+(3) 已知函数 $f\left(x\right)=2^x+x$, $g\left(x\right)=\log_2 x+x$, $h\left(x\right)=x^3+x$ 的零点分别为 $a$, $b$, $c$, 则 $a$, $b$, $c$ 的大小顺序为 ( ).
 
-三角学的起源与发展与天文学密不可分. 在 $1450$ 年以前, 三角学主要是球面三角, 这是因为航海, 历法推算以及天文观测等人类实践活动的需要. 最早将三角学从天文学中独立出来的数学家是德国人雷格蒙塔努斯, 他的著作 " 论各种三角形 " 是欧洲第一部独立于天文学的三角学著作. 后来, 雷提库斯将传统的弧与弦的关系改进为角的三角函数关系, 制定了更为精确的三角函数表. 由于天文学研究的需要, 制定更加精确的三角函数表一直是数学家奋斗的目标, 这大大推动了三角学的发展. $16$ 世纪, 三角学从天文学中分离出来, 成为数学的一个独立分支. $\blacksquare$
+(A) $a> b> c$ (B) $b> c> a$ (C) $c> a> b$ (D) $b> a> c$
+
+### 解答 习题十九
+
+由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.4.3** (对数函数的图象和性质).
+
+(1) $x> 1$ 时 $\log_2 x> 0$, 故 $A=\left\{y\,|\,y> 0\right\}$; $x> 1$ 时 $0< \frac{1}{2^x}< \frac{1}{2}$, 故 $B=\left\{y\,|\,0< y< \frac{1}{2}\right\}$. $A\cap B=\left\{y\,|\,0< y< \frac{1}{2}\right\}$. 选 (A).
+
+(2) $a=\left|\lg\frac{1}{4}\right|=\lg 4$, $b=\left|\lg\frac{1}{3}\right|=\lg 3$, $c=\left|\lg 2\right|=\lg 2$. 因 $\lg 2< \lg 3< \lg 4$, 故 $c< b< a$. 选 (D).
+
+(3) $f\left(x\right)=2^x+x=0$ 即 $2^x=-x$, 有解 $a< 0$; $g\left(x\right)=\log_2 x+x=0$ 即 $\log_2 x=-x$, 有解 $0< b< 1$; $h\left(x\right)=x^3+x=x\left(x^2+1\right)=0$ 有解 $c=0$. 故 $b> c> a$. 选 (B). $\blacksquare$
+
+## 习题二十
+
+(复习参考题4 综合运用第 6 题) 设 $f\left(x\right)=\frac{\mathrm e^x-\mathrm e^{-x}}{2}$, $g\left(x\right)=\frac{\mathrm e^x+\mathrm e^{-x}}{2}$, 求证:
+
+(1) $\left[g\left(x\right)\right]^2-\left[f\left(x\right)\right]^2=1$;
+
+(2) $f\left(2x\right)=2f\left(x\right)g\left(x\right)$;
+
+(3) $g\left(2x\right)=\left[g\left(x\right)\right]^2+\left[f\left(x\right)\right]^2$.
+
+### 解答 习题二十
+
+由**常用结论 4.1.6** (实数指数幂的运算性质).
+
+(1) $\left[g\left(x\right)\right]^2-\left[f\left(x\right)\right]^2=\frac{\left(\mathrm e^x+\mathrm e^{-x}\right)^2-\left(\mathrm e^x-\mathrm e^{-x}\right)^2}{4}=\frac{4\mathrm e^x\mathrm e^{-x}}{4}=1$.
+
+(2) $2f\left(x\right)g\left(x\right)=2\cdot\frac{\mathrm e^x-\mathrm e^{-x}}{2}\cdot\frac{\mathrm e^x+\mathrm e^{-x}}{2}=\frac{\mathrm e^{2x}-\mathrm e^{-2x}}{2}=f\left(2x\right)$.
+
+(3) $\left[g\left(x\right)\right]^2+\left[f\left(x\right)\right]^2=\frac{\left(\mathrm e^x+\mathrm e^{-x}\right)^2+\left(\mathrm e^x-\mathrm e^{-x}\right)^2}{4}=\frac{2\left(\mathrm e^{2x}+\mathrm e^{-2x}\right)}{4}=\frac{\mathrm e^{2x}+\mathrm e^{-2x}}{2}=g\left(2x\right)$. $\blacksquare$
+
+## 习题二十一
+
+(复习参考题4 综合运用第 7 题) 指数函数 $y=\left(\frac{b}{a}\right)^x$ 的图象如图所示 (递减曲线), 求二次函数 $y=ax^2+bx$ 图象顶点的横坐标的取值范围.
+
+图:平面直角坐标系中,指数函数 $y=\left(\frac{b}{a}\right)^x$ 的图象是一条位于 $x$ 轴上方,过点 $\left(0,1\right)$ 的单调递减曲线($x> 0$ 时下降并趋近于 $x$ 轴,$x< 0$ 时上升).
+
+### 解答 习题二十一
+
+由**常用结论 4.2.2** (指数函数的图象和性质).
+
+$y=\left(\frac{b}{a}\right)^x$ 递减, 故 $0< \frac{b}{a}< 1$. 二次函数 $y=ax^2+bx$ 顶点的横坐标为 $x=-\frac{b}{2a}$. 由 $0< \frac{b}{a}< 1$ 得 $0< \frac{b}{2a}< \frac{1}{2}$, 故 $-\frac{1}{2}< -\frac{b}{2a}< 0$. 即顶点横坐标的取值范围为 $\left(-\frac{1}{2},0\right)$. $\blacksquare$
+
+## 习题二十二
+
+(复习参考题4 综合运用第 8 题) 1986 年切尔诺贝利核电站爆炸, 主要核污染物锶 90 每年的衰减率为 $2.47\%$. 要完全消除这次核事故对自然环境的影响至少需要 $800$ 年, 到那时原有的锶 90 还剩百分之几?
+
+### 解答 习题二十二
+
+由**常用结论 4.2.3** (指数增长与指数衰减模型).
+
+每年衰减率为 $2.47\%$, 即每年剩余 $97.53\%$. $800$ 年后剩余比例为 $0.9753^{800}=\mathrm e^{800\ln 0.9753}\approx\mathrm e^{800\times\left(-0.0250\right)}\approx\mathrm e^{-20}\approx 2\times 10^{-7}\%$. 即到那时原有的锶 90 约剩 $2\times 10^{-7}\%$. $\blacksquare$
+
+## 习题二十三
+
+(复习参考题4 综合运用第 9 题) 某工厂废气中污染物含量 $P$ (单位: $\mathrm{mg/L}$) 与时间 $t$ (单位: $\mathrm h$) 的关系为 $P=P_0\mathrm e^{-kt}$, 其中 $P_0$, $k$ 为正常数. 前 $5\;\mathrm h$ 消除了 $10\%$ 的污染物.
+
+(1) $10\;\mathrm h$ 后还剩百分之几的污染物?
+
+(2) 污染物减少 $50\%$ 需要花多少时间 (精确到 $1\;\mathrm h$)?
+
+(3) 画出 $P$ 关于 $t$ 变化的函数图象.
+
+图:横轴为时间 $t$(单位:h),纵轴为污染物含量 $P$(单位: mg/L),指数衰减曲线 $P=P_0\mathrm e^{-kt}$ 从纵轴上的 $P_0$ 出发,随 $t$ 增大单调递减并逐渐趋近于 $0$.
+
+### 解答 习题二十三
+
+由**常用结论 4.2.3** (指数增长与指数衰减模型) 与**常用结论 4.3.3** (对数与指数的关系).
+
+(1) $P\left(5\right)=P_0\mathrm e^{-5k}=0.9P_0$, 即 $\mathrm e^{-5k}=0.9$. $P\left(10\right)=P_0\mathrm e^{-10k}=P_0\left(\mathrm e^{-5k}\right)^2=0.81P_0$. 故 $10\;\mathrm h$ 后还剩 $81\%$ 的污染物.
+
+(2) 令 $P_0\mathrm e^{-kt}=0.5P_0$, 即 $\mathrm e^{-kt}=0.5$, $t=-\frac{\ln 0.5}{k}$. 由 $\mathrm e^{-5k}=0.9$ 得 $k=-\frac{\ln 0.9}{5}\approx 0.021$. 故 $t=\frac{\ln 2}{0.021}\approx 33\;\mathrm h$.
+
+(3) $P=P_0\mathrm e^{-kt}$ 为递减的指数衰减曲线, 从 $P_0$ 逐渐趋近于 $0$. $\blacksquare$

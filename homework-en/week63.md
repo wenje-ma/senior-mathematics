@@ -1,339 +1,535 @@
 # week63
-> **Definition 2.4.1 (圆的标准方程)**
+> **Definition 6.1.1 (分类加法计数原理)**
 > 
-> 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
-> **Definition 2.4.3 (圆的一般方程)**
+> 完成一件事有两类不同方案, 在第 1 类方案中有 m 种不同的方法, 在第 2 类方案中有 n 种不同的方法, 那么完成这件事共有 N = m + n 种不同的方法.
+> **Definition 6.1.2 (分步乘法计数原理)**
 > 
-> 点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
+> 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
 
 ## Exercise 1
 
-(Exercise 2.4, Problem 1) Write the standard equation of each of the following circles:
-
-(1) center at the origin, radius $3$;
-
-(2) center at $C\left(3,-4\right)$, radius $\sqrt 5$;
-
-(3) passing through $P\left(5,1\right)$, with center $C\left(8,-3\right)$.
+(Exercise 6.1, Problem 2) In Example 1, if mathematics is also a strong major of University $A$, then University $A$ has $6$ majors to choose from and University $B$ has $4$ majors to choose from. Applying the addition counting principle, the number of possible major choices for this student is $6+4=10$. What is wrong with this calculation?
 
 ### Solution to Exercise 1
 
-By **Definition 2.4.1 (Standard Equation of a Circle)**, the standard equation is $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
+By **Definition 6.1.1 (Addition Counting Principle for Classification)**, the methods in two different categories must be mutually distinct, i.e., the classification must be neither repetitive nor omissive.
 
-(1) The center is $\left(0,0\right)$, radius $r=3$, and the equation is $x^2+y^2=9$.
+Originally, University $A$ and University $B$ had no common strong majors, so $5+4=9$ had no duplication. Now mathematics is also a strong major of University $A$, while in Example 1 mathematics was already a strong major of University $B$; thus the major mathematics appears once in each category. If one directly computes $6+4=10$, the choice of the same major direction is counted twice, which violates the requirement in **Definition 6.1.1 (分类加法计数原理)** that the methods in the two categories be mutually distinct.
 
-(2) The center is $\left(3,-4\right)$, radius $r=\sqrt 5$, and the equation is $\left(x-3\right)^2+\left(y+4\right)^2=5$.
-
-(3) By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the radius is $\left|CP\right|=\sqrt{\left(5-8\right)^2+\left(1-\left(-3\right)\right)^2}=\sqrt{9+16}=5$. The equation is $\left(x-8\right)^2+\left(y+3\right)^2=25$. $\blacksquare$
+The correct approach is to subtract the duplicated $1$, so the number of distinct major choices is $6+4-1=9$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 2.4, Problem 2) Write the center coordinates and radius of each of the following circles:
+(Exercise 6.1, Problem 3) The top shelf of a bookcase holds $6$ different mathematics books, and the bottom shelf holds $5$ different Chinese language books.
 
-(1) $\left(x-2\right)^2+y^2=25$;
+(1) If $1$ book is taken at random from the bookcase, how many different choices are there?
 
-(2) $\left(x+2\right)^2+\left(y+1\right)^2=3$.
+(2) If a mathematics book and a Chinese language book, $1$ of each, are taken at random from the bookcase, how many different choices are there?
 
 ### Solution to Exercise 2
 
-By **Definition 2.4.1 (Standard Equation of a Circle)**, compare with $\left(x-a\right)^2+\left(y-b\right)^2=r^2$.
+By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-(1) The center is $\left(2,0\right)$, radius $r=5$.
+(1) Taking $1$ book at random, one may take a mathematics book from the top shelf or a Chinese language book from the bottom shelf; these are two mutually disjoint categories. By **Definition 6.1.1 (分类加法计数原理)**, the number of different choices is $6+5=11$.
 
-(2) The center is $\left(-2,-1\right)$, radius $r=\sqrt 3$. $\blacksquare$
+(2) Taking a mathematics book and a Chinese language book, $1$ of each, requires first taking $1$ mathematics book and then $1$ Chinese language book, which are two steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is $6\times 5=30$. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 2.4, Problem 3) Determine the position of the points $P_1\left(3,-5\right)$, $P_2\left(0,0\right)$, $P_3\left(-1,-1\right)$ relative to the circle $\left(x+2\right)^2+\left(y+3\right)^2=4$.
+(Exercise 6.1, Problem 4) There are $3$ students from Grade 10, $5$ students from Grade 11, and $4$ students from Grade 12.
+
+(1) If $1$ student is chosen at random from the students of the three grades to take part in an activity receiving foreign guests, how many different choices are there?
+
+(2) If $1$ student is chosen from each of the three grades to take part in the activity receiving foreign guests, how many different choices are there?
 
 ### Solution to Exercise 3
 
-By **Common Conclusion 2.4.2** (Position of a Point Relative to a Circle), the center is $\left(-2,-3\right)$, radius $r=2$, and $r^2=4$.
+By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-(1) Point $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29> 4$, so $P_1$ is outside the circle.
+(1) Choosing $1$ person at random, one may pick any one of the three grades, Grade 10, Grade 11, or Grade 12, to choose from; these are three mutually disjoint categories. By **Definition 6.1.1 (分类加法计数原理)**, the number of different choices is $3+5+4=12$.
 
-(2) Point $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13> 4$, so $P_2$ is outside the circle.
-
-(3) Point $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5> 4$, so $P_3$ is outside the circle. $\blacksquare$
+(2) Choosing $1$ person from each grade requires choosing $1$ student from Grade 10, $1$ from Grade 11, and $1$ from Grade 12, which are three steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is $3\times 5\times 4=60$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 2.4, Problem 4) Find the equation of the circle determined by each of the following conditions:
-
-(1) center $C\left(1,3\right)$, tangent to the line $3x-4y-7=0$;
-
-(2) center on the $x$-axis, radius $\sqrt 5$, passing through $A\left(2,-3\right)$.
+(Exercise 6.1, Problem 1) The telephone numbers within the jurisdiction of a telephone exchange consist of $8$ digits, of which the first $4$ digits are fixed and the last $4$ digits are each a digit from $0\sim 9$. At most how many different telephone numbers can this exchange have?
 
 ### Solution to Exercise 4
 
-(1) By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the radius of the circle is the distance from the center $C\left(1,3\right)$ to the line $3x-4y-7=0$.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+The first $4$ digits are already fixed and do not affect the number of numbers. Each of the last $4$ digits can be taken at random from the $10$ digits $0\sim 9$, and digits may repeat. Determining a telephone number requires successively fixing the last $4$ digits, four steps in total, each with $10$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different numbers is
 
 $$
-r=\frac{\left|3\cdot1-4\cdot3-7\right|}{\sqrt{3^2+\left(-4\right)^2}}=\frac{\left|3-12-7\right|}{5}=\frac{16}{5}.
+10\times 10\times 10\times 10=10^4=10000.
 $$
 
-By **Definition 2.4.1 (Standard Equation of a Circle)**, the equation of the circle is $\left(x-1\right)^2+\left(y-3\right)^2=\frac{256}{25}$.
-
-(2) The center is on the $x$-axis; let it be $\left(a,0\right)$. The circle passes through $A\left(2,-3\right)$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the radius is $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt 5$. Squaring both sides gives $\left(2-a\right)^2+9=5$, i.e. $\left(2-a\right)^2=-4$, which has no solution.
-
-Re-reading the problem: the radius is $\sqrt 5$, i.e. $r^2=5$, and $\left(2-a\right)^2+9=5$ gives $\left(2-a\right)^2=-4$, which indeed has no solution. Check: the center is on the $x$-axis, and its distance to $A\left(2,-3\right)$ is $\sqrt 5$, but the distance from $A$ to the $x$-axis is already $3> \sqrt 5$, so no such circle exists. The problem likely intends the radius to be $5$. If $r=5$, then $\left(2-a\right)^2+9=25$, i.e. $\left(2-a\right)^2=16$, hence $a=6$ or $a=-2$. The equations of the circle are $\left(x-6\right)^2+y^2=25$ or $\left(x+2\right)^2+y^2=25$. $\blacksquare$
+Therefore this exchange can have at most $10000$ different telephone numbers. $\blacksquare$
 
 ## Exercise 5
 
-(Exercise 2.4, Problem 5) Find the center coordinates and radius of each of the following circles:
-
-(1) $x^2+y^2-6y=0$;
-
-(2) $2x^2+2y^2-3x-5y-2=0$.
+(Exercise 6.1, Problem 2) From $5$ students, a head group leader and a deputy group leader are to be chosen, $1$ of each. How many different choices are there?
 
 ### Solution to Exercise 5
 
-By **Definition 2.4.3 (General Equation of a Circle)**, the center is $\left(-\frac{D}{2},-\frac{E}{2}\right)$ and the radius is $\frac{\sqrt{D^2+E^2-4F}}{2}$.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-(1) $x^2+y^2-6y=0$ is $x^2+y^2+0x-6y+0=0$, so $D=0$, $E=-6$, $F=0$. The center is $\left(0,3\right)$ and the radius is $\frac{\sqrt{0+36-0}}{2}=3$.
-
-(2) $2x^2+2y^2-3x-5y-2=0$ is $x^2+y^2-\frac{3}{2}x-\frac{5}{2}y-1=0$, so $D=-\frac{3}{2}$, $E=-\frac{5}{2}$, $F=-1$. The center is $\left(\frac{3}{4},\frac{5}{4}\right)$ and the radius is
+Choosing a head group leader and a deputy group leader, $1$ of each, requires first choosing the head group leader and then the deputy. Step $1$: choose $1$ of the $5$ students as head group leader, with $5$ choices. Step $2$: once the head group leader is chosen, choose $1$ of the remaining $4$ students as deputy, with $4$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is
 
 $$
-\frac{\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{5}{2}\right)^2-4\left(-1\right)}}{2}=\frac{\sqrt{\frac{9}{4}+\frac{25}{4}+4}}{2}=\frac{\sqrt{\frac{50}{4}}}{2}=\frac{5\sqrt 2}{4}.
+5\times 4=20.
+$$
+
+Therefore there are $20$ different choices. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 6.1, Problem 3) Choose a number at random from $1,2,\cdots,19,20$ as the minuend, then choose a number at random from $1,2,\cdots,10$ as the subtrahend, and write them as a subtraction expression. How many different expressions can be obtained in total?
+
+### Solution to Exercise 6
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+Writing a subtraction expression requires first choosing the minuend and then the subtrahend, which are two steps. Step $1$: the minuend is taken at random from $1$ to $20$, with $20$ choices. Step $2$: the subtrahend is taken at random from $1$ to $10$, with $10$ choices. Each pairing of minuend and subtrahend corresponds to a different expression. By **Definition 6.1.2 (Directed Line Segment)**, the number of different expressions is
+
+$$
+20\times 10=200.
+$$
+
+Therefore $200$ different expressions can be obtained. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 6.1, Problem 4) Among $1,2,\cdots,500$, how many numbers leave a remainder of $2$ when divided by $5$?
+
+### Solution to Exercise 7
+
+By **Definition 6.1.1 (Addition Counting Principle for Classification)**, count by classifying according to the remainder upon division by $5$.
+
+Numbers leaving a remainder of $2$ when divided by $5$ have the form $5k+2$, where $k$ is a nonnegative integer. We require $1\le 5k+2\le 500$, i.e., $-1\le 5k\le 498$, equivalently $0\le k\le 99.6$. Thus $k$ can take $0,1,2,\cdots,99$, $100$ values in total.
+
+Therefore, among $1,2,\cdots,500$, there are $100$ numbers leaving a remainder of $2$ when divided by $5$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 6.1, Problem 5) How many three-digit numbers can be formed using the digits $1,2,3,4,5$ (digits on different positions may repeat)?
+
+### Solution to Exercise 8
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+Forming a three-digit number requires successively fixing the hundreds, tens, and units digits, three steps in total. Each digit can be taken at random from the $5$ digits $1,2,3,4,5$, and digits may repeat, so each position has $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of three-digit numbers that can be formed is
+
+$$
+5\times 5\times 5=125.
+$$
+
+Therefore $125$ three-digit numbers can be formed. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 6.1, Problem 1) After expanding the product $\left(a_1+a_2+a_3\right)\left(b_1+b_2+b_3\right)\left(c_1+c_2+c_3+c_4+c_5\right)$, how many terms are there in total?
+
+### Solution to Exercise 9
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+Each term of the expanded product is obtained by taking one $a_i$ at random from the first parentheses, one $b_j$ at random from the second parentheses, and one $c_k$ at random from the third parentheses, and multiplying them. Fixing a term of the expansion requires three steps: Step $1$ chooses $1$ of the $3$ $a_i$'s, with $3$ choices; Step $2$ chooses $1$ of the $3$ $b_j$'s, with $3$ choices; Step $3$ chooses $1$ of the $5$ $c_k$'s, with $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, after expansion there are in total
+
+$$
+3\times 3\times 5=45
+$$
+
+terms. $\blacksquare$
+
+## Exercise 10
+
+(Exercise 6.1, Problem 2) Among all two-digit numbers, how many have a units digit smaller than their tens digit?
+
+### Solution to Exercise 10
+
+By **Definition 6.1.1 (Addition Counting Principle for Classification)**, classify by the tens digit.
+
+The tens digit can take $1,2,\cdots,9$. For each tens digit $t$, the units digit must be smaller than $t$ and be a digit from $0\sim 9$.
+
+(1) When the tens digit is $1$, the units digit can only be $0$, giving $1$ number;
+
+(2) When the tens digit is $2$, the units digit can be $0,1$, giving $2$ numbers;
+
+(3) When the tens digit is $3$, the units digit can be $0,1,2$, giving $3$ numbers;
+
+And so on; when the tens digit is $t$, there are $t$ numbers. By **Definition 6.1.1 (分类加法计数原理)**, the number of two-digit numbers whose units digit is smaller than their tens digit is
+
+$$
+1+2+3+\cdots+9=\frac{9\times 10}{2}=45
+$$
+
+. $\blacksquare$
+
+## Exercise 11
+
+(Exercise 6.1, Problem 3) A shopping mall has $6$ doors. If a person enters the mall through any one of the doors and must exit through a different door, how many different ways of entering and leaving the mall are there?
+
+### Solution to Exercise 11
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+Entering and leaving the mall requires first choosing the entrance and then the exit, which are two steps. Step $1$: choose any $1$ of the $6$ doors to enter, with $6$ choices. Step $2$: once the entrance is chosen, choose $1$ of the remaining $5$ doors as the exit, with $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different ways of entering and leaving is
+
+$$
+6\times 5=30.
+$$
+
+Therefore there are $30$ different ways of entering and leaving the mall. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 6.1, Problem 4) Draw an arbitrary line and take $n$ division points on it at random.
+
+(1) Taking $2$ of these $n$ points at random to form a line segment, how many line segments can be obtained?
+
+(2) Taking $2$ of these $n$ points at random to form directed line segments, how many directed line segments can be obtained?
+
+### Solution to Exercise 12
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+(1) To form a line segment, one only needs to choose $2$ of the $n$ points as endpoints, without regard to order. Choosing the first endpoint has $n$ choices, and choosing the second endpoint from the remaining $n-1$ points has $n-1$ choices. Since the two endpoints of a segment have no order, each segment is counted twice; hence the number of segments is
+
+$$
+\frac{n\left(n-1\right)}{2}.
+$$
+
+(2) To form a directed segment, one first chooses the starting point and then the ending point. Step $1$: choosing the starting point has $n$ choices. Step $2$: choosing the ending point from the remaining $n-1$ points has $n-1$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of directed segments is
+
+$$
+n\left(n-1\right).
 $$
 
 $\blacksquare$
 
-## Exercise 6
-
-(Exercise 2.4, Problem 6) Determine whether each of the following equations represents a circle. If so, find the center and radius:
-
-(1) $x^2+y^2-4x-6y+12=0$;
-
-(2) $x^2+y^2-2x-4y+5=0$;
-
-(3) $x^2+y^2-2x-4y-6=0$.
-
-### Solution to Exercise 6
-
-By **Definition 2.4.3 (General Equation of a Circle)**, check the sign of $D^2+E^2-4F$.
-
-(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4> 0$, so it represents a circle. The center is $\left(2,3\right)$ and the radius is $\frac{\sqrt 4}{2}=1$.
-
-(2) $D=-2$, $E=-4$, $F=5$. $D^2+E^2-4F=4+16-20=0$, so it does not represent a circle, only a single point $\left(1,2\right)$.
-
-(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44> 0$, so it represents a circle. The center is $\left(1,2\right)$ and the radius is $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 2.4, Problem 7) Find the equation of the circle passing through the three points $O\left(0,0\right)$, $M_1\left(1,1\right)$, $M_2\left(4,2\right)$, and find its radius and center coordinates.
-
-### Solution to Exercise 7
-
-By **Definition 2.4.3 (General Equation of a Circle)**, let the equation of the circle be $x^2+y^2+Dx+Ey+F=0$.
-
-The three points lie on the circle; substituting:
-
-(a) $O\left(0,0\right)$: $0+0+0+0+F=0$, so $F=0$.
-
-(b) $M_1\left(1,1\right)$: $1+1+D+E+0=0$, i.e. $D+E=-2$.
-
-(c) $M_2\left(4,2\right)$: $16+4+4D+2E+0=0$, i.e. $4D+2E=-20$, i.e. $2D+E=-10$.
-
-Solving (b) and (c) together gives $D=-8$, $E=6$.
-
-The equation of the circle is $x^2+y^2-8x+6y=0$. The center is $\left(4,-3\right)$ and the radius is $\frac{\sqrt{64+36}}{2}=5$. $\blacksquare$
-
 ## Problem 1
 
-(Exercise 2.4, Review and Consolidation, Problem 1) Find the equation of each of the following circles:
-
-(1) center at the origin, radius $3$;
-
-(2) center at $\left(3,4\right)$, passing through the origin;
-
-(3) center on the line $x+y-1=0$, radius $\sqrt 2$, passing through $\left(2,1\right)$;
-
-(4) passing through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-2,0\right)$.
+(Exercise 6.1, Review and Consolidation, Problem 1) A store sells a certain model of television, of which there are $4$ locally made varieties and $7$ non-local varieties. If $1$ television of this model is to be bought, how many different choices are there?
 
 ### Solution to Problem 1
 
-By **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
+By **Definition 6.1.1 (Addition Counting Principle for Classification)**.
 
-(1) The center is $\left(0,0\right)$, radius $r=3$, and the equation is $x^2+y^2=9$.
+Buying $1$ television, one may choose a local product or a non-local product; these are two mutually disjoint categories. There are $4$ local varieties and $7$ non-local varieties. By **Definition 6.1.1 (分类加法计数原理)**, the number of different choices is
 
-(2) The center is $\left(3,4\right)$, and the radius is the distance from the center to the origin; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $r=\sqrt{9+16}=5$. The equation is $\left(x-3\right)^2+\left(y-4\right)^2=25$.
+$$
+4+7=11.
+$$
 
-(3) The center is on the line $x+y-1=0$; let it be $\left(a,1-a\right)$. The circle passes through $\left(2,1\right)$ with radius $\sqrt 2$; by the distance formula, $\left(2-a\right)^2+\left(1-\left(1-a\right)\right)^2=2$, i.e. $\left(2-a\right)^2+a^2=2$, i.e. $4-4a+2a^2=2$, i.e. $a^2-2a+1=0$, i.e. $\left(a-1\right)^2=0$, hence $a=1$. The center is $\left(1,0\right)$ and the equation is $\left(x-1\right)^2+y^2=2$.
-
-(4) Let the general equation of the circle be $x^2+y^2+Dx+Ey+F=0$. Substitute the three points:
-
-(a) $\left(0,0\right)$: $F=0$.
-
-(b) $\left(1,1\right)$: $1+1+D+E=0$, i.e. $D+E=-2$.
-
-(c) $\left(-2,0\right)$: $4+0-2D+0=0$, i.e. $D=2$.
-
-Hence $E=-4$. The equation of the circle is $x^2+y^2+2x-4y=0$. $\blacksquare$
+Therefore there are $11$ different choices. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 2.4, Review and Consolidation, Problem 2) The circle $C$ passes through $\left(1,0\right)$, its center lies on the positive half of the $x$-axis, and its radius is $2\sqrt 2$. Find the standard equation of circle $C$.
+(Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, there are $2$ roads from Place A to Place B and $3$ roads from Place B to Place D; there are $4$ roads from Place A to Place C and $2$ roads from Place C to Place D. How many different routes are there from Place A to Place D in total?
+
+The figure is a road map: from Place A to Place B there are $2$ roads, from Place B to Place D there are $3$ roads; from Place A to Place C there are $4$ roads, and from Place C to Place D there are $2$ roads (the numbers of connecting roads among the four places A, B, C, D are as shown).
 
 ### Solution to Problem 2
 
-By **Definition 2.4.1 (Standard Equation of a Circle)**, the center is on the positive half of the $x$-axis; let it be $\left(a,0\right)$ with $a> 0$.
+By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The circle passes through $\left(1,0\right)$ with radius $2\sqrt 2$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, i.e. $\left(a-1\right)^2=8$, hence $a-1=\pm2\sqrt 2$. Since $a> 0$, we have $a=1+2\sqrt 2$.
+There are two categories of routes from Place A to Place D: one via Place B and one via Place C.
 
-The standard equation of the circle is $\left(x-1-2\sqrt 2\right)^2+y^2=8$. $\blacksquare$
+(1) Via Place B: first from A to B there are $2$ roads, then from B to D there are $3$ roads. By **Definition 6.1.2 (Directed Line Segment)**, this category has $2\times 3=6$ routes.
+
+(2) Via Place C: first from A to C there are $4$ roads, then from C to D there are $2$ roads. By **Definition 6.1.2 (Directed Line Segment)**, this category has $4\times 2=8$ routes.
+
+The two categories are mutually disjoint. By **Definition 6.1.1 (分类加法计数原理)**, from Place A to Place D there are in total
+
+$$
+6+8=14
+$$
+
+different routes. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 2.4, Review and Consolidation, Problem 3) Find the equation of the circle passing through $A\left(2,-3\right)$ and $B\left(-2,-5\right)$, with its center on the line $x-2y-3=0$.
+(Exercise 6.1, Review and Consolidation, Problem 3) As shown in the figure, to make the circuit conduct from point $A$ to point $B$ with exactly one branch connected, how many different paths are possible?
+
+The figure is a circuit diagram: from point $A$ to point $B$ there are three parallel branches (upper, middle, lower), each with several switches connected in series.
 
 ### Solution to Problem 3
 
-Let the center be $\left(a,b\right)$. Since it lies on the line $x-2y-3=0$, we have $a-2b-3=0$.
+By **Definition 6.1.1 (Addition Counting Principle for Classification)**.
 
-The center is equidistant from $A,B$; by **Common Conclusion 2.3.2** (Distance Formula Between Two Points),
+In the figure, the circuit from $A$ to $B$ consists of three parallel branches, upper, middle, and lower, each with several switches in series. The requirement is that exactly one branch be connected, i.e., exactly one of the three branches is chosen to conduct. The upper, middle, and lower branches are three mutually disjoint categories, and choosing any one branch accomplishes the task of conducting from $A$ to $B$. By **Definition 6.1.1 (分类加法计数原理)**, the number of different paths is
 
 $$
-\left(a-2\right)^2+\left(b+3\right)^2=\left(a+2\right)^2+\left(b+5\right)^2.
+3
 $$
 
-Expanding gives $a^2-4a+4+b^2+6b+9=a^2+4a+4+b^2+10b+25$, i.e. $-8a-4b-16=0$, i.e. $2a+b+4=0$.
-
-Combining $\begin{cases}a-2b=3\\2a+b=-4\end{cases}$, from the second equation $b=-4-2a$; substituting into the first gives $a-2\left(-4-2a\right)=3$, i.e. $5a=-5$, hence $a=-1$, $b=-2$. The center is $\left(-1,-2\right)$.
-
-The radius is $\sqrt{\left(-1-2\right)^2+\left(-2+3\right)^2}=\sqrt{9+1}=\sqrt{10}$. The equation of the circle is $\left(x+1\right)^2+\left(y+2\right)^2=10$. $\blacksquare$
+. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 2.4, Review and Consolidation, Problem 4) Find the center coordinates and radius of the circle $x^2+y^2-2x+4y-4=0$.
+(Exercise 6.1, Review and Consolidation, Problem 4) Using any one of $1,5,9,13$ as the numerator and any one of $4,8,12,16$ as the denominator, how many different fractions can be formed? How many different proper fractions can be formed?
 
 ### Solution to Problem 4
 
-By **Definition 2.4.3 (General Equation of a Circle)**, $D=-2$, $E=4$, $F=-4$.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The center is $\left(-\frac{D}{2},-\frac{E}{2}\right)=\left(1,-2\right)$.
+(1) Forming a fraction requires first choosing the numerator and then the denominator, which are two steps. The numerator has $4$ choices and the denominator has $4$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the total number of fractions that can be formed is
 
-The radius is $\frac{\sqrt{D^2+E^2-4F}}{2}=\frac{\sqrt{4+16+16}}{2}=\frac{\sqrt{36}}{2}=3$. $\blacksquare$
+$$
+4\times 4=16
+$$
+
+fractions.
+
+(2) A proper fraction requires the numerator to be smaller than the denominator. When the numerator is $1$, the denominators $4,8,12,16$ are all greater than $1$, giving $4$; when the numerator is $5$, the denominator can be $8,12,16$, giving $3$; when the numerator is $9$, the denominator can be $12,16$, giving $2$; when the numerator is $13$, the denominator can be $16$, giving $1$. By **Definition 6.1.1 (分类加法计数原理)**, the number of different proper fractions is
+
+$$
+4+3+2+1=10
+$$
+
+. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 2.4, Comprehensive Application, Problem 5) Given the circle $x^2+y^2=4$ and the line $l:y=x+b$. For what value of $b$ are there exactly $3$ points on the circle $x^2+y^2=4$ whose distance to the line $l$ is exactly $1$?
+(Exercise 6.1, Review and Consolidation, Problem 5) One bag contains $5$ balls and another bag contains $6$ balls, and all these balls have distinct colors. Taking $1$ ball from each of the two bags, how many different choices are there in total?
 
 ### Solution to Problem 5
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $\left(0,0\right)$ to the line $l:x-y+b=0$ is
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+Taking $1$ ball from each bag requires first taking $1$ ball from the first bag and then $1$ from the second bag, which are two steps. The first bag has $5$ balls and the second bag has $6$ balls, and all balls have distinct colors. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is
 
 $$
-d=\frac{\left|b\right|}{\sqrt 2}.
+5\times 6=30.
 $$
 
-The radius of the circle is $2$. The number of points on the circle at distance $1$ from the line $l$ depends on the relative position of the line $l$ and the circle, and on the relative position of the line $l$ and the lines parallel to $l$ at distance $1$.
-
-When the distance from the center to the line $l$ is $d=1$, the line $l$ cuts a chord on the circle; of the two lines parallel to $l$ and at distance $1$ from $l$, one passes through the center (intersecting the circle at two points) and the other is disjoint from the circle. In this case there are exactly $2$ points on the circle at distance $1$ from $l$.
-
-When the distance from the center to $l$ is $d=1$, a closer analysis: the points at distance $1$ from $l$ lie on two parallel lines, one at distance $d-1=0$ from the center (through the center, intersecting the circle at two points) and the other at distance $d+1=2$ from the center (tangent to the circle, intersecting at one point). Together there are $3$ points.
-
-Hence $\frac{\lvert b \rvert}{\sqrt 2}=1$, i.e. $b=\pm\sqrt 2$. $\blacksquare$
+Therefore there are $30$ different choices. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 2.4, Comprehensive Application, Problem 6) Given that the two endpoints of the base of an isosceles triangle are $B\left(2,1\right)$ and $C\left(0,-3\right)$, find the equation of the locus of the other vertex $A$.
+(Exercise 6.1, Review and Consolidation, Problem 6)
+
+(1) In a rectangular coordinate system, how many distinct points are there whose x-coordinate and y-coordinate both take values in $A=\left\{0,1,2,3,4,5\right\}$?
+
+(2) In a rectangular coordinate system, how many distinct lines are there whose slope takes values in the set $B=\left\{1,3,5,7\right\}$ and whose $y$-intercept takes values in the set $C=\left\{2,4,6,8\right\}$?
 
 ### Solution to Problem 6
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the isosceles triangle means $\left|AB\right|=\left|AC\right|$.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-Let the coordinates of $A$ be $\left(x,y\right)$. Then
+(1) Fixing the coordinates of a point requires first taking the x-coordinate and then the y-coordinate, which are two steps. The x-coordinate has $6$ choices in $A$, and the y-coordinate also has $6$ choices in $A$. By **Definition 6.1.2 (Directed Line Segment)**, the number of distinct points is
 
 $$
-\left(x-2\right)^2+\left(y-1\right)^2=x^2+\left(y+3\right)^2.
+6\times 6=36
 $$
 
-Expanding gives $x^2-4x+4+y^2-2y+1=x^2+y^2+6y+9$, i.e. $-4x-8y-4=0$, i.e. $x+2y+1=0$.
+.
 
-When $A$ is the midpoint of $BC$, the three points are collinear and do not form a triangle. The midpoint of $BC$ is $\left(1,-1\right)$, which lies on the line $x+2y+1=0$. Hence the locus is the line $x+2y+1=0$ with the point $\left(1,-1\right)$ removed. $\blacksquare$
+(2) Fixing a line requires first taking the slope and then the y-intercept, which are two steps. The slope has $4$ choices in $B$, and the y-intercept has $4$ choices in $C$. Each pairing of slope and intercept determines a distinct line. By **Definition 6.1.2 (Directed Line Segment)**, the number of distinct lines is
+
+$$
+4\times 4=16
+$$
+
+. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 2.4, Comprehensive Application, Problem 7) Given the circle $C$: $\left(x-1\right)^2+\left(y-2\right)^2=4$, find the equations of the lines through $P\left(3,5\right)$ that are tangent to $C$.
+(Exercise 6.1, Comprehensive Application, Problem 7) A combination lock has $4$ dials, each with the $10$ digits $0\sim 9$. Now the last dial has malfunctioned and can only be set among the $6$ digits $0\sim 5$. How many four-digit numbers can these $4$ dials form?
 
 ### Solution to Problem 7
 
-The center is $C\left(1,2\right)$ and the radius is $r=2$. The distance from $P\left(3,5\right)$ to the center is $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}> 2$, so $P$ is outside the circle.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-Let the tangent line have equation $y-5=k\left(x-3\right)$, i.e. $kx-y+5-3k=0$.
-
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center to the tangent equals the radius:
+Setting a four-digit number requires successively turning the $4$ dials, four steps in total. Each of the first $3$ dials has the $10$ digits $0\sim 9$, giving $10$ ways each; the last dial has malfunctioned and can only be set among the $6$ digits $0\sim 5$, giving $6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of four-digit numbers that can be formed is
 
 $$
-\frac{\left|k\cdot1-2+5-3k\right|}{\sqrt{k^2+1}}=2.
+10\times 10\times 10\times 6=6000.
 $$
 
-Simplifying gives $\frac{\left|3-2k\right|}{\sqrt{k^2+1}}=2$, i.e. $\left(3-2k\right)^2=4\left(k^2+1\right)$, i.e. $9-12k+4k^2=4k^2+4$, i.e. $12k=5$, hence $k=\frac{5}{12}$.
-
-The tangent equation is $y-5=\frac{5}{12}\left(x-3\right)$, i.e. $5x-12y+45=0$.
-
-When the tangent slope does not exist, the tangent is $x=3$. The distance from the center to $x=3$ is $\lvert 3-1 \rvert=2=r$, so $x=3$ is also a tangent.
-
-Hence the tangent equations are $x=3$ or $5x-12y+45=0$. $\blacksquare$
+Therefore $6000$ four-digit numbers can be formed. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 2.4, Extension and Exploration, Problem 8) Find the area bounded by the curves $x^2+y^2=4$ and $x^2+y^2=2x$.
+(Exercise 6.1, Comprehensive Application, Problem 8)
+
+(1) $4$ students each sign up for the school's football team, basketball team, or table tennis team, each joining exactly one of the teams. Is the number of different sign-up ways $3^4$ or $4^3$?
+
+(2) $3$ classes each choose one of $5$ scenic spots to visit. Is the number of different choices $3^5$ or $5^3$?
 
 ### Solution to Problem 8
 
-By **Definition 2.4.1 (Standard Equation of a Circle)**, $x^2+y^2=4$ is a circle centered at the origin with radius $2$.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**, determine whether the task requires step-by-step decomposition or classification.
 
-$x^2+y^2=2x$ is $\left(x-1\right)^2+y^2=1$, a circle centered at $\left(1,0\right)$ with radius $1$.
+(1) The task is for each of the $4$ students to join one team. For each student, $1$ team must be chosen among the $3$ teams: football, basketball, and table tennis. Decomposing by student, there are $4$ steps in total, each with $3$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different sign-up ways is
 
-The distance between centers is $1$, and the radii are $2$ and $1$. Since $2-1=1$, i.e. the distance between centers equals the difference of the radii, the two circles are internally tangent, with the tangency point at $\left(2,0\right)$.
+$$
+3\times 3\times 3\times 3=3^4.
+$$
 
-The area bounded by the two circles is the area of the larger circle minus the area of the smaller: $\pi\cdot2^2-\pi\cdot1^2=4\pi-\pi=3\pi$. $\blacksquare$
+Therefore it is $3^4$.
+
+(2) The task is for each of the $3$ classes to choose one scenic spot. For each class, $1$ spot must be chosen among the $5$ spots. Decomposing by class, there are $3$ steps in total, each with $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is
+
+$$
+5\times 5\times 5=5^3.
+$$
+
+Therefore it is $5^3$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 2.4, Extension and Exploration, Problem 9) Given the circle $O: x^2+y^2=4$ and the line $l:y=x+b$. For what real value of $b$ are there exactly two points on the circle $O$ whose distance to the line $l$ is exactly $1$?
+(Exercise 6.1, Comprehensive Application, Problem 9)
+
+(1) From $5$ different gifts, $4$ are chosen to be given to $4$ students, one gift per student. How many different ways of giving are there?
+
+(2) There are $5$ numbered drawers, and $3$ different books are to be put into them. How many different ways of placing them are there? (A drawer may hold more than one book.)
 
 ### Solution to Problem 9
 
-By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the distance from the center $O\left(0,0\right)$ to the line $l:x-y+b=0$ is $d=\frac{\lvert b \rvert}{\sqrt 2}$.
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The radius of the circle is $2$. The points at distance $1$ from $l$ lie on two lines parallel to $l$, which are at distances $d-1$ and $d+1$ from the center.
+(1) The task of giving gifts can be decomposed by student: the $1$st student chooses $1$ of the $5$ gifts, with $5$ ways; the $2$nd student chooses $1$ of the remaining $4$ gifts, with $4$ ways; the $3$rd student chooses $1$ of the remaining $3$ gifts, with $3$ ways; the $4$th student chooses $1$ of the remaining $2$ gifts, with $2$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of different ways of giving is
 
-There being exactly two points on the circle at distance $1$ from $l$ means that of the two parallel lines above, one intersects the circle at two points and the other is disjoint from the circle.
+$$
+5\times 4\times 3\times 2=120.
+$$
 
-(a) When $\lvert d-1 \rvert< 2$ and $d+1> 2$, i.e. $-1< d< 3$ and $d> 1$, i.e. $1< d< 3$.
+(2) Placing the $3$ different books can be decomposed by book: each book may be put into any one of the $5$ drawers, and a drawer may hold more than one book, so each book has $5$ ways of placement. By **Definition 6.1.2 (Directed Line Segment)**, the number of different ways of placement is
 
-(b) When $d-1> 2$ and $\lvert d+1 \rvert< 2$, i.e. $d> 3$ and $-3< d< 1$, there is no solution.
+$$
+5\times 5\times 5=125.
+$$
 
-In summary, $1< d< 3$, i.e. $1< \frac{\lvert b \rvert}{\sqrt 2}< 3$, i.e. $\sqrt 2< \lvert b \rvert< 3\sqrt 2$, hence $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
+$\blacksquare$
 
 ## Problem 10
 
-(Exercise 2.4, Extension and Exploration, Problem 10) Given the circle $C: x^2+y^2-4x-14y+45=0$, find:
+(Exercise 6.1, Comprehensive Application, Problem 10) A bag contains $8$ white balls and $10$ red balls, each ball numbered distinctly. Now $2$ balls are drawn from it.
 
-(1) the center coordinates and radius of circle $C$;
+(1) How many ways of drawing exactly one white ball and one red ball are there?
 
-(2) if $Q\left(a,b\right)$ is a moving point on circle $C$, find the range of $u=\frac{b-3}{a-6}$.
+(2) How many ways of drawing exactly two white balls are there?
+
+(3) How many ways of drawing at least one white ball are there?
+
+(4) How many ways of drawing two balls of the same color are there?
 
 ### Solution to Problem 10
 
-(1) By **Definition 2.4.3 (General Equation of a Circle)**, the equation $x^2+y^2-4x-14y+45=0$ is $\left(x-2\right)^2+\left(y-7\right)^2=8$. The center is $\left(2,7\right)$ and the radius is $r=2\sqrt 2$.
+By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-(2) $u=\frac{b-3}{a-6}$ is the slope of the line joining $Q\left(a,b\right)$ and $P\left(6,3\right)$. The problem becomes: find the range of the slope of the line joining $P\left(6,3\right)$ to a moving point on the circle.
-
-The distance from $P$ to the center $\left(2,7\right)$ is $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2> 2\sqrt 2$, so $P$ is outside the circle.
-
-Let the slope of a tangent through $P$ be $k$; the tangent equation is $y-3=k\left(x-6\right)$, i.e. $kx-y+3-6k=0$.
-
-The distance from the center to the tangent equals the radius:
+(1) Drawing exactly one white ball and one red ball requires first taking $1$ of the $8$ white balls and then $1$ of the $10$ red balls. By **Definition 6.1.2 (Directed Line Segment)**, the number of ways is
 
 $$
-\frac{\left|2k-7+3-6k\right|}{\sqrt{k^2+1}}=2\sqrt 2.
+8\times 10=80.
 $$
 
-Simplifying gives $\frac{\left|-4k-4\right|}{\sqrt{k^2+1}}=2\sqrt 2$, i.e. $\left(k+1\right)^2=\frac{1}{2}\left(k^2+1\right)$, i.e. $2\left(k^2+2k+1\right)=k^2+1$, i.e. $k^2+4k+1=0$.
+(2) Drawing exactly two white balls requires taking $2$ of the $8$ white balls. Taking the first white ball has $8$ ways, and taking the second white ball from the remaining $7$ has $7$ ways; since drawing balls does not consider order, each way is counted twice, so the number of ways is
 
-Solving gives $k=-2\pm\sqrt 3$. Hence the range of $u$ is $\left[-2-\sqrt 3,-2+\sqrt 3\right]$. $\blacksquare$
+$$
+\frac{8\times 7}{2}=28.
+$$
+
+(3) Drawing at least one white ball includes two categories: one white and one red, and two white. From (1), one white and one red gives $80$ ways; from (2), two white gives $28$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the number of ways is
+
+$$
+80+28=108.
+$$
+
+(4) Drawing two balls of the same color includes two categories: two white and two red. Two white gives $28$ ways; similarly, two red gives $\frac{10\times 9}{2}=45$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the number of ways is
+
+$$
+28+45=73.
+$$
+
+$\blacksquare$
+
+## Problem 11
+
+(Exercise 6.1, Extension and Exploration, Problem 11) During the National Day holiday, several people are to be chosen from $7$ people to be on duty during the $7$ holiday days (only $1$ person is on duty each day), with no person on duty for $2$ consecutive days. How many possible arrangements are there?
+
+### Solution to Problem 11
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+The task of scheduling duty is decomposed by day, $7$ steps in total. On day $1$, choose $1$ of the $7$ people to be on duty, with $7$ choices. From day $2$ onward, to avoid the same person being on duty for $2$ consecutive days, each day cannot assign the person who was on duty the previous day; thus each day chooses $1$ of the remaining $6$ people, with $6$ choices each.
+
+Thus day $1$ has $7$ choices, and days $2$ through $7$ each have $6$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of possible arrangements is
+
+$$
+7\times 6^6.
+$$
+
+That is, there are $7\times 6^6$ possible arrangements. $\blacksquare$
+
+## Problem 12
+
+(Exercise 6.1, Extension and Exploration, Problem 12) How many distinct positive divisors does $2160$ have?
+
+### Solution to Problem 12
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+First factor into primes. Since
+
+$$
+2160=2^4\times 3^3\times 5.
+$$
+
+Taking any positive divisor, the exponent of $2$ in its prime factorization can be $0,1,2,3,4$, $5$ choices; the exponent of $3$ can be $0,1,2,3$, $4$ choices; the exponent of $5$ can be $0,1$, $2$ choices. Fixing a positive divisor requires choosing the exponents of $2,3,5$ separately, which are three steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of distinct positive divisors is
+
+$$
+5\times 4\times 2=40.
+$$
+
+Therefore $2160$ has $40$ distinct positive divisors. $\blacksquare$
+
+## Inquiry and Discovery 1
+
+(Think About 1) How many subsets are there? Although enumeration is a rather brute-force method, it is the basic method of counting. Please enumerate the subsets of the $4$-element set $\left\{a_1,a_2,a_3,a_4\right\}$ and the $5$-element set $\left\{a_1,a_2,a_3,a_4,a_5\right\}$.
+
+### Solution to Inquiry and Discovery 1
+
+By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
+
+(1) The subsets of the $4$-element set $\left\{a_1,a_2,a_3,a_4\right\}$ enumerated by the number of elements they contain: the empty set $\varnothing$; the one-element subsets $\left\{a_1\right\},\left\{a_2\right\},\left\{a_3\right\},\left\{a_4\right\}$; the two-element subsets $\left\{a_1,a_2\right\},\left\{a_1,a_3\right\},\left\{a_1,a_4\right\},\left\{a_2,a_3\right\},\left\{a_2,a_4\right\},\left\{a_3,a_4\right\}$; the three-element subsets $\left\{a_1,a_2,a_3\right\},\left\{a_1,a_2,a_4\right\},\left\{a_1,a_3,a_4\right\},\left\{a_2,a_3,a_4\right\}$; the four-element subset $\left\{a_1,a_2,a_3,a_4\right\}$. In total $1+4+6+4+1=16=2^4$.
+
+(2) By **Common Conclusion** (Number of Subsets), the number of subsets of the $5$-element set $\left\{a_1,a_2,a_3,a_4,a_5\right\}$ should be $2^5=32$. By the number of elements they contain, they are $1,5,10,10,5,1$ respectively, totaling $32$.
+
+The enumeration shows that a $3$-element set has $2^3=8$ subsets, a $4$-element set has $2^4=16$ subsets, and a $5$-element set has $2^5=32$ subsets. $\blacksquare$
+
+## Inquiry and Discovery 2
+
+(Think About 2) Inquiry and Discovery: How many subsets are there? From this, do you gain a further understanding of the convention that both the empty set and the set itself are regarded as subsets?
+
+### Solution to Inquiry and Discovery 2
+
+By **Common Conclusion** (Number of Subsets), an $n$-element set has $2^n$ distinct subsets.
+
+When examining a subset with the multiplication counting principle, each element of the set has two choices: belong to the subset or not belong to it. The $n$ elements thus correspond to $2^n$ outcomes, each outcome determining exactly one subset. Among them, when all $n$ elements are chosen as not belonging, the corresponding subset is the empty set; when all $n$ elements are chosen as belonging, the corresponding subset is the set itself.
+
+Thus, regarding both the empty set and the set itself as subsets is not an extra special convention but the two extreme cases that naturally arise under the counting scheme of $2^n$, "two choices for each element." It is precisely because of this convention that the total number of subsets can be neatly written as $2^n$. $\blacksquare$
+
+## Inquiry and Discovery 3
+
+(Think About 3) Inquiry and Discovery: How many subsets are there? Can you also prove, by another method, that the $n$-element set $A=\left\{a_1,a_2,\cdots,a_n\right\}$ has $2^n$ distinct subsets?
+
+### Solution to Inquiry and Discovery 3
+
+By **Definition 6.1.1 (Addition Counting Principle for Classification)** and the meaning of binomial coefficients.
+
+Classify by the number of elements a subset contains: the number of subsets formed by choosing $k$ out of $n$ elements is $\binom{n}{k}$, where $k=0,1,2,\cdots,n$. By **Definition 6.1.1 (分类加法计数原理)**, the number of all subsets is the sum over the categories
+
+$$
+\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}.
+$$
+
+By the binomial theorem, taking $a=b=1$ gives
+
+$$
+\left(1+1\right)^n=\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}=2^n.
+$$
+
+Therefore the $n$-element set $A$ has $2^n$ distinct subsets in total. $\blacksquare$

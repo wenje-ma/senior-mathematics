@@ -1,298 +1,535 @@
 # week48
-> **定义 10.1.2 (样本点与样本空间)**
+> **定义 2.1.2 (斜率)**
 > 
-> 随机试验中每一个可能出现的结果称为一个样本点, 所有样本点组成的集合称为样本空间.
-> **定义 10.1.12 (互斥)**
+> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> **定义 2.2.1 (点斜式方程)**
 > 
-> 若 A 与 B 不能同时发生, 即 A 交 B 为不可能事件, 则称 A 与 B 互斥.
-> **定义 10.1.14 (古典概型)**
+> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **定义 2.2.2 (斜截式方程)**
 > 
-> 试验中所有可能出现的基本事件只有有限个, 且每个基本事件出现的可能性相等, 具有这两个特点的概率模型称为古典概型.
-> **定义 10.1.15 (概率的古典定义)**
+> 由直线的斜率 k 及其在 y 轴上的截距 b 确定的方程 y = kx + b, 叫做直线的斜截式方程.
+> **定义 2.2.4 (两点式方程)**
 > 
-> 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
-> **定义 10.2.1 (事件的相互独立性)**
+> ２中的一点,例如,取点１(１,狔１),由直线的点斜式方程,得 　　不利用点斜式方程, 你能求出两点式方程吗? 狔－狔１＝狔２－狔１ ２－１(－１), 当狔２≠狔１时,上式可写为 狔－狔１ 狔２－狔１＝－１ ２－１.　　　　　　　　　 这就是经过两点１(１,狔１),２(２,狔２)(其中１≠２,狔１≠狔２)的直线的方程, 我们把它叫做直线的两点式方程,简称两点式(ｔｗｏｐｏｉｎｔｆｏｒｍ). 在１(１,狔１),２(２,狔２)中,如果１＝２或狔１＝狔２,则直线１２没有两点 式方程.当１＝２时,直线１２垂直于轴,直线方程为－１＝０,即＝１;当 狔１＝狔２时,直线１２垂直于狔轴,直线方程为狔－狔１＝０,即狔＝狔１. ２６ 2元 (4)经过点D(一4,一2),倾斜角是3 ° 2.填空题. (1)已知直线的点斜式方程是y一2=一1,那么此直线的斜率是 ,倾斜角是 (2)已知直线的点斜式方程是十2=/3(α十1),那么此直线的斜率
+> **定义 2.2.5 (截距式方程)**
 > 
-> 设 A, B 为两个事件, 若 P(AB) = P(A)P(B), 则称事件 A 与事件 B 相互独立.
+> 由直线在 x 轴上的截距 a 和在 y 轴上的截距 b 确定的方程 x/a + y/b = 1, 叫做直线的截距式方程.
+> **定义 2.2.6 (一般式方程)**
+> 
+> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
 
 ## 练习一
 
-(练习 10.2 第 1 题) 分别抛掷两枚质地均匀的硬币, 设事件 $A=$ "第 $1$ 枚正面朝上", 事件 $B=$ "第 $2$ 枚正面朝上", 事件 $C=$ "两枚硬币朝上的面相同", $A, B, C$ 中哪两个相互独立?
+(练习 2.2 第 5 题) 求经过下列两点的直线的两点式方程:
+
+(1) $P_1\left(2,1\right)$, $P_2\left(0,-3\right)$;
+
+(2) $A\left(0,5\right)$, $B\left(5,0\right)$.
 
 ### 解答 练习一
 
-由**定义 10.1.15 (概率的古典定义)**, 抛掷两枚硬币, 样本空间 $\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}$, 共 $4$ 个等可能样本点. 各事件为 $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$, $B=\left\{\left(1,1\right), \left(0,1\right)\right\}$, $C=\left\{\left(1,1\right), \left(0,0\right)\right\}$, 故 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
+由**定义 2.2.4 (两点式方程)**, 两点式为 $\frac{y-y_1}{y_2-y_1}=\frac{x-x_1}{x_2-x_1}$.
 
-由**定义 10.2.1 (事件的相互独立性)**, 验证 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ 是否成立.
+(1) 代入 $P_1\left(2,1\right)$, $P_2\left(0,-3\right)$, 得
 
-$A\cap B=\left\{\left(1,1\right)\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 相互独立.
+$$
+\frac{y-1}{-3-1}=\frac{x-2}{0-2},
+$$
 
-$A\cap C=\left\{\left(1,1\right)\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 相互独立.
+即 $\frac{y-1}{-4}=\frac{x-2}{-2}$.
 
-$B\cap C=\left\{\left(1,1\right)\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 相互独立.
+(2) 代入 $A\left(0,5\right)$, $B\left(5,0\right)$, 得
 
-因此 $A, B, C$ 中任意两个都相互独立. $\blacksquare$
+$$
+\frac{y-5}{0-5}=\frac{x-0}{5-0},
+$$
+
+即 $\frac{y-5}{-5}=\frac{x}{5}$. $\blacksquare$
 
 ## 练习二
 
-(练习 10.2 第 2 题) 设样本空间 $\Omega=\left\{a, b, c, d\right\}$ 含有等可能的样本点, 且
+(练习 2.2 第 6 题) 根据下列条件求直线的截距式方程, 并画出图形:
 
-$$
-A=\left\{a, b\right\},\quad B=\left\{a, c\right\},\quad C=\left\{a, d\right\}.
-$$
+(1) 在 $x$ 轴, $y$ 轴上的截距分别是 $2,3$;
 
-请验证 $A, B, C$ 三个事件两两独立, 但 $P\left(A\cap B\cap C\right)\neq P\left(A\right)P\left(B\right)P\left(C\right)$.
+(2) 在 $x$ 轴, $y$ 轴上的截距分别是 $-5,6$.
+
+该图在平面直角坐标系中画出两条截距式直线:一条 $x$ 轴截距为 $2$,$y$ 轴截距为 $3$,即过点 $\left(2,0\right)$ 与 $\left(0,3\right)$;另一条 $x$ 轴截距为 $-5$,$y$ 轴截距为 $6$,即过点 $\left(-5,0\right)$ 与 $\left(0,6\right)$.
 
 ### 解答 练习二
 
-由**定义 10.1.15 (概率的古典定义)**, 每个样本点概率为 $\frac{1}{4}$, 故 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
+由**定义 2.2.5 (截距式方程)**, 截距式为 $\frac{x}{a}+\frac{y}{b}=1$, 其中 $a$ 为 $x$ 轴上的截距, $b$ 为 $y$ 轴上的截距.
 
-由**定义 10.2.1 (事件的相互独立性)**, 验证两两独立性.
+(1) 代入 $a=2$, $b=3$, 得 $\frac{x}{2}+\frac{y}{3}=1$.
 
-$A\cap B=\left\{a\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
-
-$A\cap C=\left\{a\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
-
-$B\cap C=\left\{a\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
-
-因此 $A, B, C$ 两两独立.
-
-又 $A\cap B\cap C=\left\{a\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8}$, 故
-
-$$
-P\left(A\cap B\cap C\right)=\frac{1}{4}\neq\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right).
-$$
-
-$\blacksquare$
+(2) 代入 $a=-5$, $b=6$, 得 $\frac{x}{-5}+\frac{y}{6}=1$. $\blacksquare$
 
 ## 练习三
 
-(练习 10.2 第 3 题) 天气预报报道: 元旦假期甲地的降雨概率是 $0.2$, 乙地的降雨概率是 $0.3$. 假定在这段时间内两地是否降雨相互之间没有影响, 计算在这段时间内:
+(练习 2.2 第 7 题) 根据下列条件, 求直线的方程:
 
-(1) 甲, 乙两地都降雨的概率;
+(1) 过点 $\left(0,5\right)$, 且在两坐标轴上的截距之和为 $2$;
 
-(2) 甲, 乙两地都不降雨的概率;
-
-(3) 至少一个地方降雨的概率.
+(2) 过点 $\left(5,0\right)$, 且在两坐标轴上的截距之差为 $2$.
 
 ### 解答 练习三
 
-设事件 $A=$ "甲地降雨", $B=$ "乙地降雨", 则 $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. 由题意, $A$ 与 $B$ 相互独立. 由**性质 10.2.2** (对立事件的独立性), $\overline A, \overline B$ 也相互独立.
+由**定义 2.2.5 (截距式方程)**, 设直线在 $x$ 轴, $y$ 轴上的截距分别为 $a,b$, 则截距式为 $\frac{x}{a}+\frac{y}{b}=1$.
 
-(1) 由**定义 10.2.1 (事件的相互独立性)**, 两地都降雨即 $A\cap B$ 发生, 故
+(1) 直线过点 $\left(0,5\right)$, 即在 $y$ 轴上的截距 $b=5$. 又截距之和为 $a+b=2$, 故 $a=2-5=-3$. 代入截距式, 得 $\frac{x}{-3}+\frac{y}{5}=1$.
 
-$$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.2\times 0.3=0.06.
-$$
+(2) 直线过点 $\left(5,0\right)$, 即在 $x$ 轴上的截距 $a=5$. 又截距之差为 $\lvert a-b \rvert=2$, 即 $\lvert 5-b \rvert=2$, 故 $b=3$ 或 $b=7$.
 
-(2) 两地都不降雨即 $\overline A\cap\overline B$ 发生. 由**性质 10.1.19** (对立事件的概率), $P\left(\overline A\right)=1-0.2=0.8$, $P\left(\overline B\right)=1-0.3=0.7$. 再由**定义 10.2.1 (事件的相互独立性)**,
-
-$$
-P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0.8\times 0.7=0.56.
-$$
-
-(3) "至少一个地方降雨" 是 "两地都不降雨" 的对立事件. 由**性质 10.1.19** (对立事件的概率),
-
-$$
-P\left(\text{至少一个降雨}\right)=1-P\left(\overline A\cap\overline B\right)=1-0.56=0.44.
-$$
-
-$\blacksquare$
+当 $b=3$ 时, 方程为 $\frac{x}{5}+\frac{y}{3}=1$; 当 $b=7$ 时, 方程为 $\frac{x}{5}+\frac{y}{7}=1$. $\blacksquare$
 
 ## 练习四
 
-(练习 10.2 第 4 题) 证明必然事件 $\Omega$ 和不可能事件 $\varnothing$ 与任意事件相互独立.
+(练习 2.2 第 8 题) 根据下列条件, 写出直线的方程, 并把它化为一般式:
+
+(1) 经过点 $A\left(8,-2\right)$, 斜率是 $-\frac{1}{2}$;
+
+(2) 经过点 $B\left(4,2\right)$, 平行于 $x$ 轴;
+
+(3) 经过点 $P_1\left(3,-2\right)$, $P_2\left(5,-4\right)$;
+
+(4) 在 $x$ 轴, $y$ 轴上的截距分别是 $\frac{3}{2},-3$.
 
 ### 解答 练习四
 
-由**定义 10.2.1 (事件的相互独立性)**, 需验证对任意事件 $A$, 有 $P\left(\Omega\cap A\right)=P\left(\Omega\right)P\left(A\right)$ 且 $P\left(\varnothing\cap A\right)=P\left(\varnothing\right)P\left(A\right)$.
+由**定义 2.2.6 (一般式方程)**, 一般式为 $Ax+By+C=0$.
 
-由集合运算, $\Omega\cap A=A$, $\varnothing\cap A=\varnothing$. 由**性质 10.1.17** (必然事件与不可能事件的概率), $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
+(1) 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(8,-2\right)$ 与斜率 $k=-\frac{1}{2}$, 得 $y+2=-\frac{1}{2}\left(x-8\right)$. 整理, 得 $x+2y-4=0$.
 
-因此
+(2) 直线平行于 $x$ 轴, 即倾斜角为 $0^\circ$, 斜率为 $0$. 经过点 $B\left(4,2\right)$, 由**定义 2.2.1 (点斜式方程)**, 得 $y=2$, 即 $y-2=0$.
 
-$$
-P\left(\Omega\cap A\right)=P\left(A\right)=1\cdot P\left(A\right)=P\left(\Omega\right)P\left(A\right),
-$$
+(3) 由**常用结论 2.1.3** (斜率公式), $k=\frac{-4-\left(-2\right)}{5-3}=\frac{-2}{2}=-1$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $P_1\left(3,-2\right)$, 得 $y+2=-1\left(x-3\right)$, 即 $x+y-1=0$.
 
-$$
-P\left(\varnothing\cap A\right)=P\left(\varnothing\right)=0=0\cdot P\left(A\right)=P\left(\varnothing\right)P\left(A\right).
-$$
+(4) 由**定义 2.2.5 (截距式方程)**, 代入 $a=\frac{3}{2}$, $b=-3$, 得 $\frac{x}{\frac{3}{2}}+\frac{y}{-3}=1$, 即 $\frac{2x}{3}-\frac{y}{3}=1$. 整理, 得 $2x-y-3=0$. $\blacksquare$
 
-由**定义 10.2.1 (事件的相互独立性)**, 必然事件 $\Omega$ 和不可能事件 $\varnothing$ 与任意事件相互独立. $\blacksquare$
+## 练习五
+
+(练习 2.2 第 9 题) 求下列直线的斜率以及在 $y$ 轴上的截距, 并画出图形:
+
+(1) $3x+y-5=0$;
+
+(2) $\frac{x}{4}-\frac{y}{5}=1$;
+
+(3) $x+2y=0$;
+
+(4) $7x-6y+4=0$.
+
+该图在平面直角坐标系中画出四条直线:(1) $3x+y-5=0$,即 $y=-3x+5$,斜率 $-3$,过点 $\left(0,5\right)$;(2) $\frac{x}{4}-\frac{y}{5}=1$,即 $y=\frac{5}{4}x-5$,斜率 $\frac{5}{4}$,过点 $\left(0,-5\right)$;(3) $x+2y=0$,即 $y=-\frac{1}{2}x$,斜率 $-\frac{1}{2}$,过原点;(4) $7x-6y+4=0$,即 $y=\frac{7}{6}x+\frac{2}{3}$,斜率 $\frac{7}{6}$,$y$ 轴截距 $\frac{2}{3}$.
+
+### 解答 练习五
+
+由**定义 2.2.6 (一般式方程)**, 当 $B\ne0$ 时, 将一般式化为斜截式 $y=-\frac{A}{B}x-\frac{C}{B}$, 斜率为 $-\frac{A}{B}$, 在 $y$ 轴上的截距为 $-\frac{C}{B}$.
+
+(1) $3x+y-5=0$ 即 $y=-3x+5$, 斜率 $k=-3$, 在 $y$ 轴上的截距为 $5$.
+
+(2) $\frac{x}{4}-\frac{y}{5}=1$ 即 $y=\frac{5}{4}x-5$, 斜率 $k=\frac{5}{4}$, 在 $y$ 轴上的截距为 $-5$.
+
+(3) $x+2y=0$ 即 $y=-\frac{1}{2}x$, 斜率 $k=-\frac{1}{2}$, 在 $y$ 轴上的截距为 $0$.
+
+(4) $7x-6y+4=0$ 即 $y=\frac{7}{6}x+\frac{2}{3}$, 斜率 $k=\frac{7}{6}$, 在 $y$ 轴上的截距为 $\frac{2}{3}$. $\blacksquare$
+
+## 练习六
+
+(练习 2.2 第 10 题) 已知直线 $l$ 的方程是 $Ax+By+C=0$.
+
+(1) 当 $B\ne0$ 时, 直线 $l$ 的斜率是多少? 当 $B=0$ 时呢?
+
+(2) 系数 $A,B,C$ 取什么值时, 方程 $Ax+By+C=0$ 表示经过原点的直线?
+
+### 解答 练习六
+
+由**定义 2.2.6 (一般式方程)**.
+
+(1) 当 $B\ne0$ 时, 方程 $Ax+By+C=0$ 可化为 $y=-\frac{A}{B}x-\frac{C}{B}$, 故直线 $l$ 的斜率为 $-\frac{A}{B}$. 当 $B=0$ 时, $A\ne0$, 方程可化为 $x=-\frac{C}{A}$, 直线垂直于 $x$ 轴, 斜率不存在.
+
+(2) 直线经过原点 $\left(0,0\right)$, 即 $x=0$, $y=0$ 满足方程, 代入得 $A\cdot0+B\cdot0+C=0$, 即 $C=0$. 又 $A,B$ 不同时为 $0$, 故当 $C=0$ 且 $A,B$ 不同时为 $0$ 时, 方程 $Ax+By+C=0$ 表示经过原点的直线. $\blacksquare$
 
 ## 习题一
 
-(习题 10.2 复习巩固第 1 题) 掷两枚质地均匀的骰子, 设 $A=$ "第一枚出现奇数点", $B=$ "第二枚出现偶数点", 则 $A$ 与 $B$ 的关系为 ( ).
+(习题 2.2 复习巩固第 1 题) 写出满足下列条件的直线的方程:
 
-(A) 互斥
+(1) 经过点 $A\left(8,-2\right)$, 斜率是 $\frac{\sqrt 3}{3}$;
 
-(B) 互为对立
+(2) 经过点 $B\left(-2,0\right)$, 且与 $x$ 轴垂直;
 
-(C) 相互独立
+(3) 斜率是 $-4$, 在 $y$ 轴上的截距是 $7$;
 
-(D) 相等
+(4) 经过 $A\left(-1,8\right)$, $B\left(4,-2\right)$ 两点;
+
+(5) 在 $y$ 轴上的截距是 $2$, 且与 $x$ 轴平行;
+
+(6) 在 $x$ 轴, $y$ 轴上的截距分别是 $4,-3$.
 
 ### 解答 习题一
 
-由**定义 10.1.15 (概率的古典定义)**, 掷两枚骰子共有 $36$ 个等可能样本点. 第一枚出现奇数点有 $3$ 种 ($1, 3, 5$), 第二枚有 $6$ 种, 故 $n\left(A\right)=3\times 6=18$, $P\left(A\right)=\frac{18}{36}=\frac{1}{2}$. 第二枚出现偶数点有 $3$ 种 ($2, 4, 6$), 第一枚有 $6$ 种, 故 $n\left(B\right)=6\times 3=18$, $P\left(B\right)=\frac{18}{36}=\frac{1}{2}$.
+(1) 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(8,-2\right)$ 与斜率 $k=\frac{\sqrt 3}{3}$, 得 $y+2=\frac{\sqrt 3}{3}\left(x-8\right)$.
 
-$A\cap B$ 即第一枚为奇数且第二枚为偶数, 共 $3\times 3=9$ 个样本点, 故 $P\left(A\cap B\right)=\frac{9}{36}=\frac{1}{4}$. 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$. 由**定义 10.2.1 (事件的相互独立性)**, $A$ 与 $B$ 相互独立, 选 (C). $\blacksquare$
+(2) 直线与 $x$ 轴垂直, 即倾斜角为 $90^\circ$, 斜率不存在. 由**定义 2.2.1 (点斜式方程)**, 直线方程为 $x=-2$.
+
+(3) 由**定义 2.2.2 (斜截式方程)**, 代入 $k=-4$, $b=7$, 得 $y=-4x+7$.
+
+(4) 由**常用结论 2.1.3** (斜率公式), $k=\frac{-2-8}{4-\left(-1\right)}=\frac{-10}{5}=-2$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(-1,8\right)$, 得 $y-8=-2\left(x+1\right)$.
+
+(5) 直线与 $x$ 轴平行, 即斜率为 $0$. 在 $y$ 轴上的截距为 $2$, 由**定义 2.2.2 (斜截式方程)**, 得 $y=2$.
+
+(6) 由**定义 2.2.5 (截距式方程)**, 代入 $a=4$, $b=-3$, 得 $\frac{x}{4}+\frac{y}{-3}=1$. $\blacksquare$
 
 ## 习题二
 
-(习题 10.2 复习巩固第 2 题) 假设 $P\left(A\right)=0.7$, $P\left(B\right)=0.8$, 且 $A$ 与 $B$ 相互独立, 则 $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$.
+(习题 2.2 复习巩固第 2 题) 判断 $A\left(1,3\right)$, $B\left(5,7\right)$, $C\left(10,12\right)$ 三点是否共线, 并说明理由.
 
 ### 解答 习题二
 
-由**定义 10.2.1 (事件的相互独立性)**, 因 $A$ 与 $B$ 独立, 故
+由**常用结论 2.1.3** (斜率公式), 分别求 $AB$ 与 $AC$ 的斜率.
 
 $$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.7\times 0.8=0.56.
+k_{AB}=\frac{7-3}{5-1}=\frac{4}{4}=1,
 $$
 
-由**性质 10.1.21** (一般概率加法公式),
-
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=0.7+0.8-0.56=0.94.
+k_{AC}=\frac{12-3}{10-1}=\frac{9}{9}=1.
 $$
 
-$\blacksquare$
+由**常用结论 2.1.5** (两条直线平行), $k_{AB}=k_{AC}=1$, 且两直线都经过点 $A$, 故直线 $AB$ 与直线 $AC$ 重合, 即 $A,B,C$ 三点共线. $\blacksquare$
 
 ## 习题三
 
-(习题 10.2 复习巩固第 3 题) 若 $P\left(A\right)> 0$, $P\left(B\right)> 0$, 证明: 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立.
+(习题 2.2 复习巩固第 3 题) 已知两点 $A\left(7,-4\right)$, $B\left(-5,6\right)$, 求线段 $AB$ 的垂直平分线的方程.
 
 ### 解答 习题三
 
-由**定义 10.1.12 (互斥)**, 若 $A, B$ 互斥, 则 $A\cap B=\varnothing$, 故 $P\left(A\cap B\right)=0$.
+由**常用结论 2.1.3** (斜率公式), 先求 $AB$ 的斜率与中点.
 
-由**定义 10.2.1 (事件的相互独立性)**, 若 $A, B$ 相互独立, 则 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$.
+$$
+k_{AB}=\frac{6-\left(-4\right)}{-5-7}=\frac{10}{-12}=-\frac{5}{6}.
+$$
 
-若 $A, B$ 既独立又互斥, 则必有 $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. 但已知 $P\left(A\right)> 0$ 且 $P\left(B\right)> 0$, 故 $P\left(A\right)P\left(B\right)> 0$, 矛盾.
+由中点坐标公式, $AB$ 的中点为 $\left(\frac{7+\left(-5\right)}{2},\frac{-4+6}{2}\right)=\left(1,1\right)$.
 
-因此, 当 $P\left(A\right)> 0$, $P\left(B\right)> 0$ 时, 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立. $\blacksquare$
+垂直平分线与 $AB$ 垂直, 由**常用结论 2.1.6** (两条直线垂直), 其斜率为 $k=\frac{6}{5}$.
+
+由**定义 2.2.1 (点斜式方程)**, 代入点 $\left(1,1\right)$ 与斜率 $k=\frac{6}{5}$, 得 $y-1=\frac{6}{5}\left(x-1\right)$. 整理, 得 $6x-5y-1=0$. $\blacksquare$
 
 ## 习题四
 
-(习题 10.2 综合运用第 4 题) 甲, 乙两人独立地破译一份密码, 已知各人能破译的概率分别是 $\frac{1}{3}$, $\frac{1}{4}$, 求:
-
-(1) 两人都成功破译的概率;
-
-(2) 密码被成功破译的概率.
+(习题 2.2 复习巩固第 4 题) 已知 $\triangle ABC$ 的三个顶点 $A\left(8,5\right)$, $B\left(4,-2\right)$, $C\left(-6,3\right)$, 求经过两边 $AB$ 和 $AC$ 的中点的直线的方程.
 
 ### 解答 习题四
 
-设事件 $A=$ "甲破译成功", $B=$ "乙破译成功", 则 $P\left(A\right)=\frac{1}{3}$, $P\left(B\right)=\frac{1}{4}$. 由题意, $A$ 与 $B$ 相互独立.
-
-(1) 由**定义 10.2.1 (事件的相互独立性)**, 两人都破译成功即 $A\cap B$ 发生, 故
+由中点坐标公式, $AB$ 的中点为
 
 $$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=\frac{1}{3}\times\frac{1}{4}=\frac{1}{12}.
+M\left(\frac{8+4}{2},\frac{5+\left(-2\right)}{2}\right)=M\left(6,\frac{3}{2}\right),
 $$
 
-(2) 密码被成功破译即至少一人破译成功, 为 $A\cup B$. 由**性质 10.1.21** (一般概率加法公式),
+$AC$ 的中点为
 
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
+N\left(\frac{8+\left(-6\right)}{2},\frac{5+3}{2}\right)=N\left(1,4\right).
 $$
 
-也可由对立事件计算: 由**性质 10.2.2** (对立事件的独立性), $\overline A$ 与 $\overline B$ 独立, $P\left(\overline A\right)=\frac{2}{3}$, $P\left(\overline B\right)=\frac{3}{4}$, 故
+由**常用结论 2.1.3** (斜率公式), 直线 $MN$ 的斜率为
 
 $$
-P\left(\text{密码被破译}\right)=1-P\left(\overline A\cap\overline B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
+k_{MN}=\frac{4-\frac{3}{2}}{1-6}=\frac{\frac{5}{2}}{-5}=-\frac{1}{2}.
 $$
 
-$\blacksquare$
+由**定义 2.2.1 (点斜式方程)**, 代入点 $N\left(1,4\right)$ 与斜率 $k=-\frac{1}{2}$, 得 $y-4=-\frac{1}{2}\left(x-1\right)$. 整理, 得 $x+2y-9=0$. $\blacksquare$
 
 ## 习题五
 
-(习题 10.2 综合运用第 5 题) 如图, 一个正八面体, 八个面分别标以数字 $1$ 到 $8$, 任意抛掷一次这个正八面体, 观察它与地面接触的面上的数字, 得到样本空间为 $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8\right\}$. 构造适当的事件 $A, B, C$, 使 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但不满足 $A, B, C$ 两两独立.
-
-(题图: 一个正八面体 (两个四棱锥底面粘合而成), 八个三角形面上分别标有数字 $1\sim8$.)
+(习题 2.2 复习巩固第 5 题) 一根弹簧, 挂 $4\,\mathrm{N}$ 的物体时, 长 $20\,\mathrm{cm}$. 在弹性限度内, 所挂物体的重量每增加 $1\,\mathrm{N}$, 弹簧就伸长 $1.5\,\mathrm{cm}$. 试写出弹簧的长度 $l$ (单位: $\mathrm{cm}$) 与所挂物体重量 $G$ (单位: $\mathrm{N}$) 之间关系的方程.
 
 ### 解答 习题五
 
-由**定义 10.1.15 (概率的古典定义)**, 每个样本点概率为 $\frac{1}{8}$.
+由**定义 2.2.2 (斜截式方程)**, 设 $l=kG+b$.
 
-构造如下事件:
+当 $G=4$ 时 $l=20$, 即 $20=4k+b$. 所挂物体重量每增加 $1\,\mathrm{N}$ 弹簧伸长 $1.5\,\mathrm{cm}$, 即斜率 $k=1.5=\frac{3}{2}$.
 
-$$
-A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 3, 5, 7\right\}.
-$$
+代入 $k=\frac{3}{2}$, 得 $20=\frac{3}{2}\times4+b=6+b$, 故 $b=14$.
 
-则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{4}{8}=\frac{1}{2}$.
-
-$A\cap B=\left\{1, 2\right\}$, $P\left(A\cap B\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
-
-$A\cap C=\left\{1, 3\right\}$, $P\left(A\cap C\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
-
-$B\cap C=\left\{1, 5\right\}$, $P\left(B\cap C\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
-
-三者两两独立. 而 $A\cap B\cap C=\left\{1\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{8}$, 且
-
-$$
-P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8},
-$$
-
-故 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立.
-
-该构造中三者不仅整体独立, 还两两独立. 要构造满足 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 但不两两独立的例子, 可取
-
-$$
-A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 2, 7, 8\right\}.
-$$
-
-则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$, $A\cap B=\left\{1, 2\right\}$, $A\cap C=\left\{1, 2\right\}$, $B\cap C=\left\{1, 2\right\}$, 故 $P\left(A\cap B\right)=P\left(A\cap C\right)=P\left(B\cap C\right)=\frac{1}{4}=P\left(A\right)P\left(B\right)$, 三者仍两两独立.
-
-取另一构造: $A=\left\{1, 2, 3, 4\right\}$, $B=\left\{1, 2, 3, 5\right\}$, $C=\left\{1, 6, 7, 8\right\}$. 则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$. $A\cap B=\left\{1, 2, 3\right\}$, $P\left(A\cap B\right)=\frac{3}{8}\neq\frac{1}{4}=P\left(A\right)P\left(B\right)$, 故 $A, B$ 不独立. $A\cap C=\left\{1\right\}$, $B\cap C=\left\{1\right\}$, $A\cap B\cap C=\left\{1\right\}$, 故 $P\left(A\cap B\cap C\right)=\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{8}$. 此例中 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但 $A, B$ 不独立. $\blacksquare$
+故弹簧长度与物体重量之间关系的方程为 $l=\frac{3}{2}G+14$. $\blacksquare$
 
 ## 习题六
 
-(习题 10.2 拓广探索第 6 题) 分析如下三个随机试验及指定的随机事件, 并解答下面的问题.
-
-$E_1$: 抛掷两枚质地均匀的硬币; 事件 $A=$ "两枚都正面朝上".
-
-$E_2$: 向一个目标射击两次, 每次命中目标的概率为 $0.6$; 事件 $B=$ "命中两次目标".
-
-$E_3$: 从包含 $2$ 个红球, $3$ 个黄球的袋子中依次不放回任意摸出两球; 事件 $C=$ "两次都摸到红球".
-
-(1) 用适当的符号表示试验的可能结果, 分别写出各试验的样本空间;
-
-(2) 指出这三个试验的共同特征和区别;
-
-(3) 分别求 $A, B, C$ 的概率.
+(习题 2.2 复习巩固第 6 题) 菱形的两条对角线分别位于 $x$ 轴和 $y$ 轴上, 其长度分别为 $8$ 和 $6$, 求菱形各边所在直线的方程.
 
 ### 解答 习题六
 
-由**定义 10.1.2 (样本点与样本空间)** 与**定义 10.2.1 (事件的相互独立性)**.
+由**定义 2.2.5 (截距式方程)**, 菱形的四个顶点分别为 $\left(4,0\right)$, $\left(-4,0\right)$, $\left(0,3\right)$, $\left(0,-3\right)$.
 
-(1) $E_1$: 用 $1$ 表示正面朝上, $0$ 表示反面朝上, 样本空间为
+四条边分别连接相邻顶点:
+
+(1) 连接 $\left(4,0\right)$ 与 $\left(0,3\right)$ 的边, 由**定义 2.2.5 (截距式方程)**, 截距为 $4$ 和 $3$, 方程为 $\frac{x}{4}+\frac{y}{3}=1$.
+
+(2) 连接 $\left(-4,0\right)$ 与 $\left(0,3\right)$ 的边, 截距为 $-4$ 和 $3$, 方程为 $\frac{x}{-4}+\frac{y}{3}=1$.
+
+(3) 连接 $\left(-4,0\right)$ 与 $\left(0,-3\right)$ 的边, 截距为 $-4$ 和 $-3$, 方程为 $\frac{x}{-4}+\frac{y}{-3}=1$.
+
+(4) 连接 $\left(4,0\right)$ 与 $\left(0,-3\right)$ 的边, 截距为 $4$ 和 $-3$, 方程为 $\frac{x}{4}+\frac{y}{-3}=1$. $\blacksquare$
+
+## 习题七
+
+(习题 2.2 复习巩固第 7 题) 求经过点 $P\left(2,3\right)$, 并且在两坐标轴上的截距相等的直线的方程.
+
+### 解答 习题七
+
+由**定义 2.2.5 (截距式方程)**, 设直线在 $x$ 轴, $y$ 轴上的截距分别为 $a,b$, 且 $a=b$.
+
+(a) 当 $a=b\ne0$ 时, 截距式为 $\frac{x}{a}+\frac{y}{a}=1$, 即 $x+y=a$. 直线过点 $P\left(2,3\right)$, 代入得 $2+3=a$, 故 $a=5$. 方程为 $x+y=5$, 即 $x+y-5=0$.
+
+(b) 当 $a=b=0$ 时, 直线过原点, 截距式不适用. 由**定义 2.2.1 (点斜式方程)**, 设直线过原点 $\left(0,0\right)$ 和 $P\left(2,3\right)$, 由**常用结论 2.1.3** (斜率公式), $k=\frac{3-0}{2-0}=\frac{3}{2}$. 方程为 $y=\frac{3}{2}x$, 即 $3x-2y=0$.
+
+故所求直线的方程为 $x+y-5=0$ 或 $3x-2y=0$. $\blacksquare$
+
+## 习题八
+
+(习题 2.2 复习巩固第 8 题) 求满足下列条件的直线的方程:
+
+(1) 经过点 $A\left(3,2\right)$, 且与直线 $4x+y-2=0$ 平行;
+
+(2) 经过点 $C\left(2,-3\right)$, 且平行于过 $M\left(1,2\right)$ 和 $N\left(-1,-5\right)$ 两点的直线;
+
+(3) 经过点 $B\left(3,0\right)$, 且与直线 $2x+y-5=0$ 垂直.
+
+### 解答 习题八
+
+(1) 直线 $4x+y-2=0$ 即 $y=-4x+2$, 斜率为 $-4$. 由**常用结论 2.1.5** (两条直线平行), 所求直线斜率也为 $-4$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(3,2\right)$, 得 $y-2=-4\left(x-3\right)$, 即 $4x+y-14=0$.
+
+(2) 由**常用结论 2.1.3** (斜率公式), $k_{MN}=\frac{-5-2}{-1-1}=\frac{-7}{-2}=\frac{7}{2}$. 由**常用结论 2.1.5**, 所求直线斜率也为 $\frac{7}{2}$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $C\left(2,-3\right)$, 得 $y+3=\frac{7}{2}\left(x-2\right)$, 即 $7x-2y-20=0$.
+
+(3) 直线 $2x+y-5=0$ 即 $y=-2x+5$, 斜率为 $-2$. 由**常用结论 2.1.6** (两条直线垂直), 所求直线斜率为 $\frac{1}{2}$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $B\left(3,0\right)$, 得 $y=\frac{1}{2}\left(x-3\right)$, 即 $x-2y-3=0$. $\blacksquare$
+
+## 习题九
+
+(习题 2.2 综合运用第 9 题) $\triangle ABC$ 的三个顶点是 $A\left(4,0\right)$, $B\left(6,7\right)$, $C\left(0,3\right)$, 求:
+
+(1) 边 $BC$ 上的中线所在直线的方程;
+
+(2) 边 $BC$ 上的高所在直线的方程;
+
+(3) 边 $BC$ 的垂直平分线的方程.
+
+### 解答 习题九
+
+由**常用结论 2.1.3** (斜率公式), 先求 $BC$ 的斜率与中点.
 
 $$
-\Omega_1=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+k_{BC}=\frac{3-7}{0-6}=\frac{-4}{-6}=\frac{2}{3}.
 $$
 
-$E_2$: 用 $1$ 表示命中, $0$ 表示未命中, 样本空间为
+$BC$ 的中点为 $D\left(\frac{6+0}{2},\frac{7+3}{2}\right)=D\left(3,5\right)$.
+
+(1) 边 $BC$ 上的中线即直线 $AD$. 由**常用结论 2.1.3**, $k_{AD}=\frac{5-0}{3-4}=\frac{5}{-1}=-5$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(4,0\right)$, 得 $y=-5\left(x-4\right)$, 即 $5x+y-20=0$.
+
+(2) 边 $BC$ 上的高过点 $A$ 且与 $BC$ 垂直. 由**常用结论 2.1.6** (两条直线垂直), 高所在直线的斜率为 $-\frac{3}{2}$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(4,0\right)$, 得 $y=-\frac{3}{2}\left(x-4\right)$, 即 $3x+2y-12=0$.
+
+(3) 边 $BC$ 的垂直平分线过中点 $D\left(3,5\right)$ 且与 $BC$ 垂直. 由**常用结论 2.1.6**, 其斜率为 $-\frac{3}{2}$. 由**定义 2.2.1 (点斜式方程)**, 代入点 $D\left(3,5\right)$, 得 $y-5=-\frac{3}{2}\left(x-3\right)$, 即 $3x+2y-19=0$. $\blacksquare$
+
+## 习题十
+
+(习题 2.2 综合运用第 10 题) 求直线 $Ax+By+C=0$ ($A,B$ 不同时为 $0$) 的系数 $A,B,C$ 分别满足什么关系时, 这条直线有以下性质:
+
+(1) 与两条坐标轴都相交;
+
+(2) 只与 $x$ 轴相交;
+
+(3) 只与 $y$ 轴相交;
+
+(4) 是 $x$ 轴所在的直线;
+
+(5) 是 $y$ 轴所在的直线.
+
+### 解答 习题十
+
+由**定义 2.2.6 (一般式方程)**, 当 $B\ne0$ 时直线斜率为 $-\frac{A}{B}$; 当 $B=0$ 时直线垂直于 $x$ 轴.
+
+(1) 与两条坐标轴都相交, 即直线既不平行于 $x$ 轴也不平行于 $y$ 轴, 即斜率存在且不为 $0$. 故 $A\ne0$ 且 $B\ne0$.
+
+(2) 只与 $x$ 轴相交, 即直线平行于 $y$ 轴, 即 $B=0$ 且 $A\ne0$.
+
+(3) 只与 $y$ 轴相交, 即直线平行于 $x$ 轴, 即 $A=0$ 且 $B\ne0$.
+
+(4) 是 $x$ 轴所在的直线, 即 $y=0$, 故 $A=0$, $B\ne0$, $C=0$.
+
+(5) 是 $y$ 轴所在的直线, 即 $x=0$, 故 $B=0$, $A\ne0$, $C=0$. $\blacksquare$
+
+## 习题十一
+
+(习题 2.2 综合运用第 11 题) 设点 $P_0\left(x_0,y_0\right)$ 在直线 $Ax+By+C=0$ 上, 求证: 这条直线的方程还可以写成 $A\left(x-x_0\right)+B\left(y-y_0\right)=0$.
+
+### 解答 习题十一
+
+由**定义 2.2.6 (一般式方程)**, 直线方程为 $Ax+By+C=0$.
+
+因为点 $P_0\left(x_0,y_0\right)$ 在直线上, 所以 $Ax_0+By_0+C=0$, 即 $C=-Ax_0-By_0$.
+
+将 $C=-Ax_0-By_0$ 代入原方程, 得 $Ax+By-Ax_0-By_0=0$, 即 $A\left(x-x_0\right)+B\left(y-y_0\right)=0$. 故原命题得证. $\blacksquare$
+
+## 习题十二
+
+(习题 2.2 拓广探索第 12 题) 若直线 $l$ 沿 $x$ 轴向左平移 $3$ 个单位长度, 再沿 $y$ 轴向上平移 $1$ 个单位长度后, 回到原来的位置. 试求直线 $l$ 的斜率.
+
+### 解答 习题十二
+
+由**定义 2.2.2 (斜截式方程)**, 设直线 $l$ 的方程为 $y=kx+b$.
+
+直线沿 $x$ 轴向左平移 $3$ 个单位, 即将 $x$ 替换为 $x+3$, 得 $y=k\left(x+3\right)+b$. 再沿 $y$ 轴向上平移 $1$ 个单位, 即将 $y$ 替换为 $y-1$, 得 $y-1=k\left(x+3\right)+b$, 即 $y=kx+3k+b+1$.
+
+平移后与原直线重合, 故 $3k+b+1=b$, 即 $3k+1=0$, 故 $k=-\frac{1}{3}$. $\blacksquare$
+
+## 习题十三
+
+(习题 2.2 拓广探索第 13 题) 一条光线从点 $P\left(6,4\right)$ 射出, 与 $x$ 轴相交于点 $Q\left(2,0\right)$, 经 $x$ 轴反射, 求入射光线和反射光线所在直线的方程.
+
+### 解答 习题十三
+
+入射光线经过点 $P\left(6,4\right)$ 和 $Q\left(2,0\right)$. 由**常用结论 2.1.3** (斜率公式),
 
 $$
-\Omega_2=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+k_{PQ}=\frac{0-4}{2-6}=\frac{-4}{-4}=1.
 $$
 
-$E_3$: 将 $2$ 个红球编号为 $1, 2$, $3$ 个黄球编号为 $3, 4, 5$, 用数组 $\left(x_1, x_2\right)$ 表示两次摸球的结果, 样本空间为
+由**定义 2.2.1 (点斜式方程)**, 代入点 $Q\left(2,0\right)$, 得入射光线方程为 $y=x-2$, 即 $x-y-2=0$.
+
+由光的反射定律, 反射光线与入射光线关于 $x$ 轴对称. 点 $P\left(6,4\right)$ 关于 $x$ 轴的对称点为 $P'\left(6,-4\right)$. 反射光线经过点 $P'\left(6,-4\right)$ 和 $Q\left(2,0\right)$. 由**常用结论 2.1.3**,
 
 $$
-\Omega_3=\left\{\left(1,2\right), \left(1,3\right), \left(1,4\right), \left(1,5\right), \left(2,1\right), \left(2,3\right), \left(2,4\right), \left(2,5\right), \left(3,1\right), \left(3,2\right), \left(3,4\right), \left(3,5\right), \left(4,1\right), \left(4,2\right), \left(4,3\right), \left(4,5\right), \left(5,1\right), \left(5,2\right), \left(5,3\right), \left(5,4\right)\right\}.
+k_{P'Q}=\frac{0-\left(-4\right)}{2-6}=\frac{4}{-4}=-1.
 $$
 
-(2) 共同特征: 三个试验都是进行两次独立的试验, 且关注 "两次都发生" 的事件. 区别: $E_1$ 是古典概型, 每个样本点等可能; $E_2$ 中每个样本点不是等可能的 (命中概率为 $0.6$, 不是 $0.5$), 不是古典概型, 但两次射击相互独立; $E_3$ 是不放回抽样, 两次摸球不独立.
+由**定义 2.2.1 (点斜式方程)**, 代入点 $Q\left(2,0\right)$, 得反射光线方程为 $y=-\left(x-2\right)$, 即 $x+y-2=0$. $\blacksquare$
 
-(3) $E_1$ 是古典概型, 由**定义 10.1.15 (概率的古典定义)**, $A=\left\{\left(1,1\right)\right\}$, $P\left(A\right)=\frac{1}{4}$.
+## 习题十四
 
-$E_2$ 中两次射击相互独立, 由**定义 10.2.1 (事件的相互独立性)**,
+(习题 2.2 拓广探索第 14 题) 已知直线 $l_1,l_2$ 的方程分别是 $l_1:A_1x+B_1y+C_1=0$ ($A_1,B_1$ 不同时为 $0$), $l_2:A_2x+B_2y+C_2=0$ ($A_2,B_2$ 不同时为 $0$), 且 $A_1A_2+B_1B_2=0$, 求证: $l_1\perp l_2$.
+
+### 解答 习题十四
+
+由**定义 2.2.6 (一般式方程)**, 当 $B_1\ne0$ 时, $l_1$ 的斜率为 $k_1=-\frac{A_1}{B_1}$; 当 $B_2\ne0$ 时, $l_2$ 的斜率为 $k_2=-\frac{A_2}{B_2}$.
+
+(a) 当 $B_1\ne0$ 且 $B_2\ne0$ 时, 两斜率之积为
 
 $$
-P\left(B\right)=0.6\times 0.6=0.36.
+k_1k_2=\left(-\frac{A_1}{B_1}\right)\left(-\frac{A_2}{B_2}\right)=\frac{A_1A_2}{B_1B_2}.
 $$
 
-$E_3$ 是古典概型, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right), \left(2,1\right)\right\}$, $n\left(C\right)=2$, 故 $P\left(C\right)=\frac{2}{20}=\frac{1}{10}$. $\blacksquare$
+由 $A_1A_2+B_1B_2=0$, 得 $A_1A_2=-B_1B_2$, 故 $k_1k_2=\frac{-B_1B_2}{B_1B_2}=-1$. 由**常用结论 2.1.6** (两条直线垂直), 故 $l_1\perp l_2$.
+
+(b) 当 $B_1=0$ 时, $A_1\ne0$, 由 $A_1A_2+B_1B_2=0$ 得 $A_1A_2=0$, 故 $A_2=0$. 又 $A_2,B_2$ 不同时为 $0$, 故 $B_2\ne0$. 此时 $l_1$ 的方程为 $A_1x+C_1=0$, 即 $x=-\frac{C_1}{A_1}$, 垂直于 $x$ 轴; $l_2$ 的方程为 $B_2y+C_2=0$, 即 $y=-\frac{C_2}{B_2}$, 平行于 $x$ 轴. 故 $l_1\perp l_2$.
+
+(c) 当 $B_2=0$ 时, 同理可得 $A_1=0$, $l_1$ 平行于 $x$ 轴而 $l_2$ 垂直于 $x$ 轴, 故 $l_1\perp l_2$.
+
+综上, $l_1\perp l_2$. $\blacksquare$
+
+## 习题十五
+
+(习题 2.2 拓广探索第 15 题) 画出直线 $l:2x-y+3=0$, 并在直线 $l$ 外取若干点, 将这些点的坐标代入 $2x-y+3$, 求它的值; 观察有什么规律, 并把这个规律表示出来.
+
+该图在平面直角坐标系中画出直线 $l:2x-y+3=0$(即 $y=2x+3$,斜率 $2$,$y$ 轴截距 $3$),并在直线两侧分别取点 $P_1\left(0,0\right)$ 与 $P_2\left(-3,0\right)$.
+
+### 解答 习题十五
+
+由**定义 2.2.6 (一般式方程)**, 直线 $l$ 的方程为 $2x-y+3=0$.
+
+在直线 $l$ 上的点, 其坐标代入 $2x-y+3$ 的值为 $0$. 在直线 $l$ 外的点, 代入 $2x-y+3$ 的值不为 $0$.
+
+取点 $P_1\left(0,0\right)$, 代入得 $2\cdot0-0+3=3> 0$; 取点 $P_2\left(-3,0\right)$, 代入得 $2\cdot\left(-3\right)-0+3=-3< 0$.
+
+观察规律: 在直线 $l$ 同侧的点, 代入 $2x-y+3$ 的值同号; 在直线 $l$ 两侧的点, 代入的值异号. 即二元一次式 $2x-y+3$ 的值的正负刻画了点在直线的哪一侧. $\blacksquare$
+
+## 探究与发现一
+
+(探究与发现 方向向量与直线的参数方程) 如图 1, 设直线 $l$ 经过点 $P_0\left(x_0,y_0\right)$, $\boldsymbol{v}=\left(m,n\right)$ 是它的一个方向向量, $P\left(x,y\right)$ 是直线 $l$ 上的任意一点, 则 $\boldsymbol{P_0P}$ 与 $\boldsymbol{v}$ 共线. 根据向量共线的充要条件, 存在唯一的实数 $t$, 使 $\boldsymbol{P_0P}=t\boldsymbol{v}$, 即 $\left(x-x_0,y-y_0\right)=t\left(m,n\right)$, 所以
+
+$$
+\begin{cases}x=x_0+mt,\\y=y_0+nt.\end{cases}
+$$
+
+从运动学角度看, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t> 0$) 可以看成质点 $P$ 从点 $P_0$ 出发, 以速度 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后的位移. 你能刻画射线 $P_0N$ 吗? 由以上讨论, 你能说说方程 ① 的运动学意义吗?
+
+该图在平面直角坐标系中画出过点 $P_0\left(x_0,y_0\right)$ 的直线 $l$,并标出方向向量 $\boldsymbol{v}=\left(m,n\right)$:点 $P\left(x,y\right)$ 在直线上,向量 $\boldsymbol{P_0P}$ 与 $\boldsymbol{v}$ 同向共线;沿 $-\boldsymbol{v}$ 的反方向从 $P_0$ 延伸出射线 $P_0N$.
+
+### 解答 探究与发现一
+
+由**常用结论 2.1.4** (方向向量与斜率), 直线的方向向量为 $\boldsymbol{v}=\left(m,n\right)$ 时, 直线的斜率为 $k=\frac{n}{m}$.
+
+射线 $P_0N$ 是从点 $P_0$ 出发沿方向 $-\boldsymbol{v}$ 延伸的, 即在参数方程中令 $t\le0$ 即得射线 $P_0N$.
+
+方程 $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ 的运动学意义为: 质点 $P$ 从点 $P_0\left(x_0,y_0\right)$ 出发, 以速度向量 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后到达点 $\left(x,y\right)$. 当 $t> 0$ 时, 质点沿 $\boldsymbol{v}$ 方向运动; 当 $t< 0$ 时, 质点沿 $-\boldsymbol{v}$ 方向运动; $t$ 的绝对值表示运动的时间. $\blacksquare$
+
+## 探究与发现二
+
+(探究与发现 方向向量与直线的参数方程) 想一想, 直线的参数方程 $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ 中, $\left(m,n\right)$ 的几何意义是什么?
+
+### 解答 探究与发现二
+
+由**常用结论 2.1.4** (方向向量与斜率), 直线 $l$ 的方向向量的坐标为 $\left(x,y\right)$ 时, 斜率 $k=\frac{y}{x}$.
+
+在参数方程 $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ 中, $\left(m,n\right)$ 是直线 $l$ 的一个方向向量. 当 $t=1$ 时, 点 $\left(x_0+m,y_0+n\right)$ 在直线 $l$ 上, 即从点 $P_0\left(x_0,y_0\right)$ 出发沿 $\left(m,n\right)$ 方向走一个参数单位到达该点. $\left(m,n\right)$ 的方向即为直线 $l$ 的方向, $\left(m,n\right)$ 的长度即为参数 $t=1$ 时质点沿直线移动的距离. $\blacksquare$
+
+## 练习七
+
+(练习 2.3 第 1 题) 求下列两条直线的交点坐标, 并画出图形:
+
+(1) $l_1:2x+3y=12$, $l_2:x-2y=4$;
+
+(2) $l_1:x=2$, $l_2:3x+2y-12=0$.
+
+该图在平面直角坐标系中画出两组相交直线:(1) 直线 $l_1:2x+3y=12$ 与 $l_2:x-2y=4$ 交于点 $\left(\frac{36}{7},\frac{4}{7}\right)$;(2) 竖直线 $l_1:x=2$ 与直线 $l_2:3x+2y-12=0$ 交于点 $\left(2,3\right)$.
+
+### 解答 练习七
+
+由**常用结论 2.3.1** (两条直线的交点坐标), 交点坐标即方程组的解.
+
+(1) 解方程组
+
+$$
+\begin{cases}2x+3y=12,\\x-2y=4.\end{cases}
+$$
+
+由第二式得 $x=4+2y$, 代入第一式, 得 $2\left(4+2y\right)+3y=12$, 即 $8+7y=12$, 故 $y=\frac{4}{7}$. 代回得 $x=4+\frac{8}{7}=\frac{36}{7}$. 交点坐标为 $\left(\frac{36}{7},\frac{4}{7}\right)$.
+
+(2) 解方程组
+
+$$
+\begin{cases}x=2,\\3x+2y-12=0.\end{cases}
+$$
+
+将 $x=2$ 代入第二式, 得 $6+2y-12=0$, 故 $y=3$. 交点坐标为 $\left(2,3\right)$. $\blacksquare$
+
+## 练习八
+
+(练习 2.3 第 2 题) 判断下列各对直线的位置关系. 如果相交, 求出交点的坐标:
+
+(1) $l_1:2x-3y=7$, $l_2:4x+2y=1$;
+
+(2) $l_1:2x-6y+4=0$, $l_2:y=\frac{x}{3}+\frac{2}{3}$;
+
+(3) $l_1:\left(\sqrt 2-1\right)x+y=3$, $l_2:x+\left(\sqrt 2+1\right)y=2$.
+
+### 解答 练习八
+
+由**常用结论 2.3.1** (两条直线的交点坐标).
+
+(1) 解方程组
+
+$$
+\begin{cases}2x-3y=7,\\4x+2y=1.\end{cases}
+$$
+
+第一式乘 $2$ 减第二式, 得 $-8y=13$, 故 $y=-\frac{13}{8}$. 代入第一式, 得 $2x+\frac{39}{8}=7$, 即 $2x=\frac{17}{8}$, 故 $x=\frac{17}{16}$. 方程组有唯一解, 故 $l_1$ 与 $l_2$ 相交, 交点为 $\left(\frac{17}{16},-\frac{13}{8}\right)$.
+
+(2) $l_2:y=\frac{x}{3}+\frac{2}{3}$ 即 $x-3y+2=0$, 即 $2x-6y+4=0$, 与 $l_1$ 为同一方程, 故 $l_1$ 与 $l_2$ 重合.
+
+(3) 解方程组
+
+$$
+\begin{cases}\left(\sqrt 2-1\right)x+y=3,\\x+\left(\sqrt 2+1\right)y=2.\end{cases}
+$$
+
+由第一式得 $y=3-\left(\sqrt 2-1\right)x$, 代入第二式, 得 $x+\left(\sqrt 2+1\right)\left[3-\left(\sqrt 2-1\right)x\right]=2$, 即 $x+3\left(\sqrt 2+1\right)-\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)x=2$. 因为 $\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)=1$, 故 $x+3\sqrt 2+3-x=2$, 即 $3\sqrt 2+3=2$, 矛盾. 方程组无解, 故 $l_1\parallel l_2$. $\blacksquare$

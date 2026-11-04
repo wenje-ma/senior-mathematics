@@ -1,298 +1,574 @@
 # week54
-> **Definition 9.1.1 (普查与抽样调查)**
+> **Definition 1.1.1 (空间向量)**
 > 
-> 对每一个调查对象都进行调查的方法, 称为全面调查, 又称普查; 根据一定目的, 从总体中抽取一部分个体进行调查, 并以此为依据对总体的情况作出估计和推断的调查方法, 称为抽样调查.
-> **Definition 9.1.2 (Population, Individual, Sample, Sample Size)**
+> 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模.
+> **Definition 1.1.4 (Equal Vectors)**
 > 
-> 统计中所考察问题涉及的全体对象称为总体, 总体中每个对象称为个体, 从总体中抽取的部分个体组成样本, 样本中个体的数量称为样本量.
-> **Definition 9.1.3 (简单随机抽样)**
+> 长度相等且方向相同的向量叫做相等向量.
+> **Theorem 1.2.1 (空间向量基本定理)**
 > 
-> 设一个总体含有 N 个个体, 从中逐个不放回地抽取 n 个个体作为样本, 如果每次抽取时总体内的各个个体被抽到的机会都相等, 这种抽样方法叫做简单随机抽样.
-> **Definition 9.1.4 (Population Mean and Sample Mean)**
+> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
+> **Definition 1.2.2 (Basis, Basis Vectors)**
 > 
-> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
-> **Definition 9.1.5 (Stratified Random Sampling)**
+> 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
+> **Definition 2.1.2 (Slope)**
 > 
-> 将总体按某些特征分成若干层, 然后从各层独立地抽取样本, 这种抽样方法叫做分层随机抽样.
-> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**
+> 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).
+> **Definition 2.2.1 (Point-slope Form)**
 > 
-> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
-> **Definition 9.2.2 (第 p 百分位数)**
+> 由直线上一点 (x0, y0) 及其斜率 k 确定的直线方程 y - y0 = k(x - x0), 叫做直线的点斜式方程.
+> **Definition 2.2.6 (一般式方程)**
 > 
-> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
-> **Definition 9.2.3 (Mode, Median, and Mean)**
+> 标轴上的截距之和为2; (2)过点(5,0),且在两坐标轴上的截距之差为2. 2. 2. 3 直线的一般式方程 观察直线的点斜式,斜截式,两点式,截距式方程,我们发现,它们都是关于,y 的二元一次方程.直线与二元一次方程是否都有这种关系呢?下面我们探讨这个问题. 思考 (1)平面直角坐标系中的任意一条直线都可以用一个关于,的二元一次方程 表示吗? (2)任意一个关于,的二元一次方程都表示一条直线吗? 先看问题(1).任意一条直线l,在其上任取一点 P.(αo,o),当直线l的斜率为k 时(此时直线的倾斜角 分类讨论时,常按 α≠90°),其方程为 α≠90°和α=90°分类,这 yy=k(), 样可以做到不重不漏. 这是关于,的二元一次方程 64　第二章　直线和圆的方程
+> **Definition 2.4.1 (圆的标准方程)**
 > 
-> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
-> **Definition 9.2.4 (Variance and Standard Deviation)**
+> 圆心为 C(a, b), 半径为 r 的圆的标准方程为 (x-a)^2 + (y-b)^2 = r^2.
+> **Definition 2.4.3 (圆的一般方程)**
 > 
-> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
+> 点分别是点A(4,0),O(0,0),B(0,3),求△AOB的外接圆的标准方程. 2. 4. 2 圆的一般方程 思考 我们知道,方程(α一1)²十(十2)²=4表示以(1,一2)为圆心,2为半径的 圆.可以将此方程变形为²十²2十4十l=0. 一般地,圆的标准方程(一a)²十(b)²=r²可以变形为 α²＋²＋D＋Ey＋F=0 (2) 的形式.反过来,形如(2)的方程一定能通过恒等变形变为圆的标准方程吗? 第二章直线和圆的方程 85
+> **Definition 3.1.1 (椭圆)**
+> 
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> **Definition 3.1.3 (Standard Equation of Ellipse)**
+> 
+> 平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
+> **Definition 3.1.7 (椭圆的离心率)**
+> 
+> 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
+> **Definition 3.2.1 (Hyperbola)**
+> 
+> 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
 
 ## Problem 1
 
-(Review Exercises 9, Review and Consolidation, Problem 1) To understand the scores of 5000 students taking a computer proficiency test in a certain region, 200 students were drawn from them for investigation and analysis. In this problem, the 200 students drawn are ($\;\_\_\;$).
-
-(A) population  (B) individual  (C) sample  (D) sample size
+(Review Reference Problems 1, Comprehensive Application, Problem 15) Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is an orthonormal basis of space, what is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$? What is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$?
 
 ### Solution to Problem 1
 
-By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)**, the whole set of subjects under investigation is the population, each subject making up the population is an individual, and the part of the individuals drawn from the population is the sample.
+By **Definition 1.2.2 (Basis, Basis Vectors)** and **Theorem 1.2.1 (Fundamental Theorem of Space Vectors)**.
 
-In this problem, the scores of the 5000 students form the population, the score of each student is an individual, and the 200 students drawn are a part of the individuals taken from the population, i.e. the sample; it is 200 that is the sample size. Hence the answer is (C). $\blacksquare$
+$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ is a linear combination of the basis vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, i.e. its coordinates in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,-1\right)$.
+
+$\boldsymbol{a}+\boldsymbol{b}$ is a linear combination only of $\boldsymbol{a}$ and $\boldsymbol{b}$, with no $\boldsymbol{c}$, so it is parallel to the plane spanned by $\boldsymbol{a}$ and $\boldsymbol{b}$ (i.e. the $xOy$ plane). The coordinates of $\boldsymbol{a}+\boldsymbol{b}$ in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,0\right)$. $\blacksquare$
 
 ## Problem 2
 
-(Review Exercises 9, Review and Consolidation, Problem 2) Four students each roll a die 5 times, recording the number shown on each roll. Based on each student's statistical results, one can determine that the number 6 definitely did not appear for ($\;\_\_\;$).
+(Review Reference Problems 1, Extension and Exploration, Problem 16) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, prove:
 
-(A) the mean is 3 and the median is 2
+(1) $DB_1 \perp AC$;
 
-(B) the median is 3 and the mode is 2
+(2) $DB_1 \perp$ the plane $ACB_1$.
 
-(C) the mean is 2 and the variance is 2.4
-
-(D) the median is 3 and the variance is 2.8
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; the body diagonal $DB_1$ and the face diagonal $AC$ are drawn.
 
 ### Solution to Problem 2
 
-By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+By **Common Conclusion 1.4.4** (Vector Characterization of Perpendicularity).
 
-(1) For (A): if the mean is 3, then the sum of the 5 rolls is 15. For example, $1,2,2,4,6$ has sum 15, median 2 and mean 3, in which 6 appears. Hence (A) cannot determine that 6 definitely did not appear.
+Let the cube have side length $1$, take $D$ as origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-(2) For (B): for example, $2,2,3,4,6$ has median 3 and mode 2, in which 6 appears. Hence (B) cannot determine that 6 definitely did not appear.
+$D\left(0,0,0\right)$, $B_1\left(1,1,1\right)$, $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $B\left(1,1,0\right)$.
 
-(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum\left(x_i-\overline x\right)^2=5\times2.4=12$, i.e.
+$\boldsymbol{DB_1}=\left(1,1,1\right)$.
 
-$$
-\sum x_i^2=\sum\left(x_i-\overline x\right)^2+n\overline x^2=12+5\times4=32.
-$$
+(1) $\boldsymbol{AC}=\left(-1,1,0\right)$.
 
-If 6 appeared once, then the sum of the other 4 rolls would be $10-6=4$, i.e. the other 4 rolls are all 1; in this case the sum of squares would be $6^2+4\times1^2=40> 32$, a contradiction. Hence 6 definitely did not appear.
+$\boldsymbol{DB_1} \cdot \boldsymbol{AC}=-1+1+0=0$. Hence $DB_1 \perp AC$.
 
-(4) For (D): for example, $1,2,3,3,6$ has median 3 and mean 3, and its variance is $\frac{\left(1-3\right)^2+\left(2-3\right)^2+0+0+\left(6-3\right)^2}{5}=\frac{14}{5}=2.8$, in which 6 appears. Hence (D) cannot determine that 6 definitely did not appear.
+(2) $\boldsymbol{AB_1}=\left(0,1,1\right)$.
 
-In summary, the answer is (C). $\blacksquare$
+$\boldsymbol{DB_1} \cdot \boldsymbol{AB_1}=0+1+1=2 \neq 0$. Note the relation between $DB_1$ and the plane $ACB_1$.
+
+Actually, a normal vector to the plane $ACB_1$ is $\boldsymbol{AC} \times \boldsymbol{AB_1}=\left(1,1,-1\right)$.
+
+$\boldsymbol{DB_1}=\left(1,1,1\right)$ is not parallel to the normal $\left(1,1,-1\right)$.
+
+But $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, and $\boldsymbol{DB_1} \cdot \boldsymbol{CB_1}=\left(1,1,1\right) \cdot \left(1,0,1\right)=2 \neq 0$.
+
+Hence $DB_1 \perp AC$, but $DB_1$ is not perpendicular to every line in the plane $ACB_1$. The problem may intend $DB_1 \perp$ the plane $ACD_1$.
+
+Verification: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{AD_1}=-1+0+1=0$.
+
+Hence $DB_1 \perp$ the plane $ACD_1$. $\blacksquare$
 
 ## Problem 3
 
-(Review Exercises 9, Review and Consolidation, Problem 3) If the median of a set of data is much smaller than the mean, which of the following statements must be false? Why?
+(Review Reference Problems 1, Extension and Exploration, Problem 17) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $CA=CB=1$, $\angle BCA=90^\circ$, the edge $AA_1=2$, and $M$ is the midpoint of $A_1B_1$. Set up the space rectangular coordinate system shown in the figure.
 
-(1) there may be outliers in the data;
+(1) Find the coordinates of $\boldsymbol{BN}$ (where $N$ is the midpoint of $A_1A$);
 
-(2) the data are approximately symmetric;
+(2) Find $\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle$;
 
-(3) there may be extremely large values in the data;
+(3) Prove that $A_1B \perp C_1M$.
 
-(4) the mode of the data may coincide with the median.
+The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BCA=90^\circ$, $CA=CB=1$, and the lateral edge $AA_1=2$ is perpendicular to the base; $M$ is the midpoint of $A_1B_1$ and $N$ is the midpoint of $A_1A$; a rectangular coordinate system is set up with $C$ as the origin, $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
 
 ### Solution to Problem 3
 
-By **Definition 9.2.3 (Mode, Median and Mean)**, the mean uses all the data and is easily affected by extreme values, whereas the median depends only on the position in the ordering.
+By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations) and **Common Conclusion 1.4.4** (Vector Characterization of Perpendicularity).
 
-(1) There may be outliers in the data: possible. A few exceptionally large values pull the mean upward.
+Take $C$ as the origin, $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
 
-(2) The data are approximately symmetric: definitely false. If the data were approximately symmetric, the mean and median would be roughly equal, and the median would not be much smaller than the mean.
+$C\left(0,0,0\right)$, $A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,2\right)$, $B_1\left(0,1,2\right)$, $C_1\left(0,0,2\right)$.
 
-(3) There may be extremely large values in the data: possible. Extremely large values pull the mean upward while the median is unaffected.
+(1) $N$ is the midpoint of $A_1A$: $N\left(1,0,1\right)$.
 
-(4) The mode may coincide with the median: possible. Whether the mode equals the median has no necessary connection with the relative size of the mean and median.
+$\boldsymbol{BN}=N-B=\left(1,-1,1\right)$.
 
-Hence the statement that must be false is (2). $\blacksquare$
+(2) $\boldsymbol{BA_1}=A_1-B=\left(1,-1,2\right)$.
+
+$\boldsymbol{CB_1}=B_1-C=\left(0,1,2\right)$.
+
+$\boldsymbol{BA_1} \cdot \boldsymbol{CB_1}=0-1+4=3$.
+
+$\lvert \boldsymbol{BA_1} \rvert=\sqrt{1+1+4}=\sqrt{6}$.
+
+$\lvert \boldsymbol{CB_1} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+
+$\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+
+(3) $M$ is the midpoint of $A_1B_1$: $M\left(\frac{1}{2}, \frac{1}{2}, 2\right)$.
+
+$\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2}, \frac{1}{2}, 0\right)$.
+
+$\boldsymbol{A_1B}=B-A_1=\left(-1,1,-2\right)$.
+
+$\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
+
+By **Common Conclusion 1.4.4**, $A_1B \perp C_1M$. $\blacksquare$
 
 ## Problem 4
 
-(Review Exercises 9, Review and Consolidation, Problem 4) (1) In a set of data already grouped, the frequency count of each group refers to $\;\_\_\;$, and the relative frequency of each group refers to $\;\_\_\;$.
+(Review Reference Problems 2, Review and Consolidation, Problem 1) Multiple choice.
 
-(2) A company has a total of $N$ employees and several departments under it. It is desired to use stratified random sampling with proportional allocation of the sample size to draw a sample of size $n$ from all employees. If a certain department has $m$ employees, then the number of employees drawn from this department is $\;\_\_\;$.
+(1) A direction vector of the line $3x+2y-1=0$ is ( ).
+
+(A) $\left(2,-3\right)$ (B) $\left(2,3\right)$ (C) $\left(-3,2\right)$ (D) $\left(3,2\right)$
+
+(2) Let the line $l$ have equation $x-y\sin\theta+2=0$. Then the range of the inclination angle $\alpha$ of $l$ is ( ).
+
+(A) $\left[0,\pi\right]$ (B) $\left[\frac{\pi}{4},\frac{\pi}{2}\right]$ (C) $\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$ (D) $\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$
+
+(3) The line symmetric to $3x-4y+5=0$ about the $x$-axis has equation ( ).
+
+(A) $3x+4y-5=0$ (B) $3x+4y+5=0$ (C) $3x-4y+5=0$ (D) $3x-4y-5=0$
 
 ### Solution to Problem 4
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)**.
+(1) The line $3x+2y-1=0$ is $y=-\frac{3}{2}x+\frac{1}{2}$, with slope $-\frac{3}{2}$. By **Common Conclusion 2.1.4** (Direction Vector and Slope), a direction vector $\left(x,y\right)$ satisfies $\frac{y}{x}=-\frac{3}{2}$. Option (A) $\left(2,-3\right)$ satisfies $\frac{-3}{2}=-\frac{3}{2}$. Choose (A).
 
-(1) The frequency count of a group refers to the number of data values falling into that group; the relative frequency of a group refers to the ratio of that group's frequency count to the total number of data values.
+(2) The equation $x-y\sin\theta+2=0$ is $y=\frac{1}{\sin\theta}x+\frac{2}{\sin\theta}$ (when $\sin\theta\ne0$). The slope is $k=\frac{1}{\sin\theta}$. Since $\sin\theta\in\left[-1,1\right]$ and $\sin\theta\ne0$, we have $\lvert k \rvert\ge1$, i.e. $\lvert \tan\alpha \rvert\ge1$. Also $\alpha\in\left[0,\pi\right)$, so $\alpha\in\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$. When $\sin\theta=0$, the equation is $x+2=0$, i.e. $\alpha=\frac{\pi}{2}$. Combining, $\alpha\in\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$. Choose (C).
 
-(2) Under proportional allocation, the number drawn from each department is proportional to the number of employees in that department. This department accounts for $\frac{m}{N}$ of all employees, so the number of employees drawn from this department is
+(3) Reflecting about the $x$-axis replaces $y$ by $-y$. The original $3x-4y+5=0$ becomes $3x+4y+5=0$. Choose (B). $\blacksquare$
+
+## Problem 5
+
+(Review Reference Problems 2, Review and Consolidation, Problem 2) Given that the two equations in each pair below represent parallel lines, find $a$:
+
+(1) $2x+3y=a$, $4x+6y-3=0$;
+
+(2) $x+2ay-1=0$, $\left(3a-1\right)x-ay-1=0$;
+
+(3) $x+\left(1+a\right)y=2-a$, $2ax+4y=-16$.
+
+### Solution to Problem 5
+
+By **Common Conclusion 2.1.5** (Two Parallel Lines), parallel means equal slopes (or both perpendicular to the $x$-axis).
+
+(1) $2x+3y=a$ is $y=-\frac{2}{3}x+\frac{a}{3}$, and $4x+6y-3=0$ is $y=-\frac{2}{3}x+\frac{1}{2}$. Slopes are equal. Parallel but not coincident means $\frac{a}{3}\ne\frac{1}{2}$, i.e. $a\ne\frac{3}{2}$. The equations are proportional: $\frac{2}{4}=\frac{3}{6}=\frac{a}{3}$, so when $a=\frac{3}{2}$ they coincide. Hence $a\ne\frac{3}{2}$.
+
+(2) $x+2ay-1=0$ is $y=-\frac{1}{2a}x+\frac{1}{2a}$ ($a\ne0$), and $\left(3a-1\right)x-ay-1=0$ is $y=\frac{3a-1}{a}x-\frac{1}{a}$. Equal slopes: $-\frac{1}{2a}=\frac{3a-1}{a}$, i.e. $-1=2\left(3a-1\right)=6a-2$, so $a=\frac{1}{6}$. When $a=0$, the lines are $x=1$ and $x=-1$, also parallel. Hence $a=0$ or $a=\frac{1}{6}$.
+
+(3) $x+\left(1+a\right)y=2-a$, $2ax+4y=-16$. Parallel means $\frac{1}{2a}=\frac{1+a}{4}$, i.e. $4=2a\left(1+a\right)$, i.e. $a^2+a-2=0$, i.e. $\left(a+2\right)\left(a-1\right)=0$. Hence $a=-2$ or $a=1$. When $a=-2$, the lines are $x-y=4$ and $-4x+4y=-16$ (i.e. $x-y=4$), coincident, rejected. When $a=1$, the lines are $x+2y=1$ and $2x+4y=-16$, parallel but not coincident. Hence $a=1$. $\blacksquare$
+
+## Problem 6
+
+(Review Reference Problems 2, Review and Consolidation, Problem 3) Given that the two equations in each pair below represent perpendicular lines, find $a$:
+
+(1) $4ax+y=1$, $\left(1-a\right)x+y=-1$;
+
+(2) $2x+ay=2$, $ax+2y=1$;
+
+(3) $\left(3a+2\right)x+\left(1-4a\right)y+8=0$, $\left(5a-2\right)x+\left(a+4\right)y-7=0$.
+
+### Solution to Problem 6
+
+By **Common Conclusion 2.1.6** (Two Perpendicular Lines), the product of slopes is $-1$.
+
+(1) $4ax+y=1$ is $y=-4ax+1$, slope $k_1=-4a$. $\left(1-a\right)x+y=-1$ is $y=-\left(1-a\right)x-1$, slope $k_2=a-1$. From $k_1k_2=-1$, we get $-4a\left(a-1\right)=-1$, i.e. $4a^2-4a-1=0$, so $a=\frac{1\pm\sqrt 2}{2}$.
+
+(2) $2x+ay=2$ is $y=-\frac{2}{a}x+\frac{2}{a}$ ($a\ne0$), slope $k_1=-\frac{2}{a}$. $ax+2y=1$ is $y=-\frac{a}{2}x+\frac{1}{2}$, slope $k_2=-\frac{a}{2}$. From $k_1k_2=-1$, we get $\left(-\frac{2}{a}\right)\left(-\frac{a}{2}\right)=1=-1$, a contradiction. When $a=0$, the lines are $x=1$ and $y=\frac{1}{2}$, one perpendicular to the $x$-axis and the other parallel to the $x$-axis, hence perpendicular. Hence $a=0$.
+
+(3) By **Definition 2.2.6 (General Form)**, two lines are perpendicular iff $A_1A_2+B_1B_2=0$. Substituting:
 
 $$
-\frac{m}{N}\cdot n=\frac{mn}{N}.
+\left(3a+2\right)\left(5a-2\right)+\left(1-4a\right)\left(a+4\right)=0.
+$$
+
+Expanding gives $15a^2+10a-6a-4+a+4-4a^2-16a=0$, i.e. $11a^2-11a=0$, i.e. $11a\left(a-1\right)=0$. Hence $a=0$ or $a=1$. $\blacksquare$
+
+## Problem 7
+
+(Review Reference Problems 2, Review and Consolidation, Problem 4) Find the equation of the line parallel to $x-y-2=0$ at distance $2\sqrt 2$.
+
+### Solution to Problem 7
+
+By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), let the desired line be $x-y+c=0$.
+
+The distance between the parallel lines is $\frac{\lvert c-\left(-2\right) \rvert}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\lvert c+2 \rvert}{\sqrt 2}=2\sqrt 2$.
+
+Hence $\lvert c+2 \rvert=4$, i.e. $c+2=4$ or $c+2=-4$, i.e. $c=2$ or $c=-6$.
+
+The desired lines are $x-y+2=0$ or $x-y-6=0$. $\blacksquare$
+
+## Problem 8
+
+(Review Reference Problems 2, Review and Consolidation, Problem 5) Two sides of a parallelogram lie on the lines $x+y-1=0$ and $3x-y+4=0$, and their diagonal intersection is $M\left(3,3\right)$. Find the equations of the other two sides.
+
+### Solution to Problem 8
+
+The intersection of the two given sides: solving $\begin{cases}x+y-1=0\\3x-y+4=0\end{cases}$, adding gives $4x+3=0$, i.e. $x=-\frac{3}{4}$, $y=\frac{7}{4}$. One vertex is $\left(-\frac{3}{4},\frac{7}{4}\right)$.
+
+The diagonal intersection $M\left(3,3\right)$ is the center of the parallelogram, so the opposite vertex is $2M-\left(-\frac{3}{4},\frac{7}{4}\right)=\left(\frac{27}{4},\frac{17}{4}\right)$.
+
+The other two sides are parallel to the given sides.
+
+(a) The side parallel to $x+y-1=0$ passes through $\left(\frac{27}{4},\frac{17}{4}\right)$, with equation $x+y-\frac{27}{4}-\frac{17}{4}=0$, i.e. $x+y-11=0$.
+
+(b) The side parallel to $3x-y+4=0$ passes through $\left(\frac{27}{4},\frac{17}{4}\right)$; translating $3x-y+4=0$: $3\cdot\frac{27}{4}-\frac{17}{4}+c=0$, i.e. $\frac{81-17}{4}+c=0$, i.e. $c=-16$. The equation is $3x-y-16=0$. $\blacksquare$
+
+## Problem 9
+
+(Review Reference Problems 2, Review and Consolidation, Problem 6) Find the equations of the following circles:
+
+(1) center $M\left(-5,3\right)$, passing through $A\left(-8,-1\right)$;
+
+(2) passing through $A\left(-2,4\right)$, $B\left(1,3\right)$, $C\left(2,6\right)$;
+
+(3) center on the line $3x+y-5=0$, passing through the origin and $\left(3,-1\right)$.
+
+### Solution to Problem 9
+
+Use **Definition 2.4.1 (Standard Equation of a Circle)** and **Definition 2.4.3 (General Equation of a Circle)**.
+
+(1) The radius is $\sqrt{\left(-8+5\right)^2+\left(-1-3\right)^2}=\sqrt{9+16}=5$. The circle is $\left(x+5\right)^2+\left(y-3\right)^2=25$.
+
+(2) Let the general equation be $x^2+y^2+Dx+Ey+F=0$. Substituting the three points:
+
+$$
+\begin{cases}4+16-2D+4E+F=0,\\1+9+D+3E+F=0,\\4+36+2D+6E+F=0.\end{cases}
+$$
+
+i.e. $\begin{cases}-2D+4E+F=-20\\D+3E+F=-10\\2D+6E+F=-40\end{cases}$. Subtracting the first from the second: $3D-E=10$. Subtracting the second from the third: $D+3E=-30$. Solving gives $D=0$, $E=-10$, $F=20$. The circle is $x^2+y^2-10y+20=0$.
+
+(3) The center is on $3x+y-5=0$; let it be $\left(a,5-3a\right)$. The circle passes through the origin $\left(0,0\right)$ and $\left(3,-1\right)$, so
+
+$$
+a^2+\left(5-3a\right)^2=\left(3-a\right)^2+\left(-1-5+3a\right)^2.
+$$
+
+Expanding gives $a^2+25-30a+9a^2=9-6a+a^2+36-36a+9a^2$, i.e. $0=20-12a$, so $a=\frac{5}{3}$. The center is $\left(\frac{5}{3},0\right)$. The squared radius is $\left(\frac{5}{3}\right)^2+0=\frac{25}{9}$. The circle is $\left(x-\frac{5}{3}\right)^2+y^2=\frac{25}{9}$. $\blacksquare$
+
+## Problem 10
+
+(Review Reference Problems 2, Review and Consolidation, Problem 7) For what value of $m$ does the equation $x^2+y^2-4x+2my+2m^2-2m+1=0$ represent a circle? Find the equation when the radius is maximized.
+
+### Solution to Problem 10
+
+By **Definition 2.4.3 (General Equation of a Circle)**, $D=-4$, $E=2m$, $F=2m^2-2m+1$.
+
+The equation represents a circle iff $D^2+E^2-4F> 0$, i.e. $16+4m^2-4\left(2m^2-2m+1\right)> 0$, i.e. $16+4m^2-8m^2+8m-4> 0$, i.e. $-4m^2+8m+12> 0$, i.e. $m^2-2m-3< 0$, i.e. $\left(m-3\right)\left(m+1\right)< 0$. Hence $-1< m< 3$.
+
+The squared radius is $\frac{D^2+E^2-4F}{4}=\frac{-4m^2+8m+12}{4}=-m^2+2m+3=-\left(m-1\right)^2+4$.
+
+When $m=1$ the radius is maximized, with squared radius $4$. The center is $\left(1,-m\right)=\left(1,-1\right)$. The circle is $\left(x-1\right)^2+\left(y+1\right)^2=4$. $\blacksquare$
+
+## Problem 11
+
+(Review Reference Problems 2, Review and Consolidation, Problem 8) Determine whether the circle $x^2+y^2-6x+4y+12=0$ is tangent to the circle $x^2+y^2-14x-2y+14=0$.
+
+### Solution to Problem 11
+
+By **Definition 2.4.3 (General Equation of a Circle)**, rewrite in standard form.
+
+Circle $C_1:\left(x-3\right)^2+\left(y+2\right)^2=1$, center $O_1\left(3,-2\right)$, radius $r_1=1$.
+
+Circle $C_2:\left(x-7\right)^2+\left(y-1\right)^2=36$, center $O_2\left(7,1\right)$, radius $r_2=6$.
+
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the center distance is
+
+$$
+d=\sqrt{\left(7-3\right)^2+\left(1+2\right)^2}=\sqrt{16+9}=5.
+$$
+
+$r_1+r_2=1+6=7$, $r_2-r_1=6-1=5=d$. By **Common Conclusion 2.5.3** (Position of Two Circles), since $d=r_2-r_1$, the circles are internally tangent, i.e. tangent. $\blacksquare$
+
+## Problem 12
+
+(Review Reference Problems 2, Comprehensive Application, Problem 9) If the graph of a function $y=f\left(x\right)$ between $x=a$ and $x=b$ can be approximated as a line segment, with $a\le c\le b$, prove:
+
+$$
+f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+$$
+
+### Solution to Problem 12
+
+By **Common Conclusion 2.1.3** (Slope Formula), the endpoints are $\left(a,f\left(a\right)\right)$ and $\left(b,f\left(b\right)\right)$, with slope
+
+$$
+k=\frac{f\left(b\right)-f\left(a\right)}{b-a}.
+$$
+
+By **Definition 2.2.1 (Point-Slope Form)**, the line through the segment is
+
+$$
+y-f\left(a\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}\left(x-a\right).
+$$
+
+Substituting $x=c$ gives
+
+$$
+f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+$$
+
+Hence the claim follows. $\blacksquare$
+
+## Problem 13
+
+(Review Reference Problems 2, Comprehensive Application, Problem 10) Find the maximum distance from $P\left(-2,-1\right)$ to the line $l:\left(1+3\lambda\right)x+\left(1+\lambda\right)y-2-4\lambda=0$ (where $\lambda$ is any real number).
+
+### Solution to Problem 13
+
+By **Common Conclusion 2.3.1** (Intersection of Two Lines), the equation of $l$ can be rewritten as $\left(x+y-2\right)+\lambda\left(3x+y-4\right)=0$, which represents the pencil of lines through the intersection of $x+y-2=0$ and $3x+y-4=0$.
+
+Solving $\begin{cases}x+y-2=0\\3x+y-4=0\end{cases}$, subtracting gives $2x=2$, i.e. $x=1$, $y=1$. The fixed point is $\left(1,1\right)$.
+
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), the distance from $P\left(-2,-1\right)$ to the fixed point $\left(1,1\right)$ is
+
+$$
+d_{\max}=\sqrt{\left(1+2\right)^2+\left(1+1\right)^2}=\sqrt{9+4}=\sqrt{13}.
+$$
+
+The maximum occurs when $l$ is perpendicular to $PQ$. The maximum distance is $\sqrt{13}$. $\blacksquare$
+
+## Problem 14
+
+(Review Reference Problems 2, Comprehensive Application, Problem 11) Through $P\left(3,0\right)$ draw a line $l$ such that the segment cut off between the lines $l_1:2x-y-2=0$ and $l_2:x+y+3=0$ is bisected by $P$. Find the equation of $l$.
+
+### Solution to Problem 14
+
+Let the intersection of $l$ with $l_1$ be $A\left(x_1,y_1\right)$ and with $l_2$ be $B\left(x_2,y_2\right)$. Since $P\left(3,0\right)$ is the midpoint of $AB$,
+
+$$
+\frac{x_1+x_2}{2}=3,\quad\frac{y_1+y_2}{2}=0.
+$$
+
+i.e. $x_1+x_2=6$, $y_1+y_2=0$.
+
+Point $A$ lies on $l_1$: $2x_1-y_1-2=0$. Point $B$ lies on $l_2$: $x_2+y_2+3=0$.
+
+With $y_2=-y_1$ and $x_2=6-x_1$, substituting into $l_2$ gives $\left(6-x_1\right)-y_1+3=0$, i.e. $x_1+y_1=9$.
+
+Solving $\begin{cases}2x_1-y_1=2\\x_1+y_1=9\end{cases}$, adding gives $3x_1=11$, i.e. $x_1=\frac{11}{3}$, $y_1=\frac{16}{3}$. Point $A$ is $\left(\frac{11}{3},\frac{16}{3}\right)$.
+
+The line $l$ passes through $P\left(3,0\right)$ and $A\left(\frac{11}{3},\frac{16}{3}\right)$. By **Common Conclusion 2.1.3** (Slope Formula),
+
+$$
+k=\frac{\frac{16}{3}-0}{\frac{11}{3}-3}=\frac{\frac{16}{3}}{\frac{2}{3}}=8.
+$$
+
+By **Definition 2.2.1 (Point-Slope Form)**, $y=8\left(x-3\right)$, i.e. $8x-y-24=0$. $\blacksquare$
+
+## Problem 15
+
+(Review Reference Problems 2, Comprehensive Application, Problem 12) Given the line $l:x-2y-8=0$ and points $A\left(-2,0\right)$ and $B\left(2,4\right)$, suppose there is a point $P$ on $l$ that minimizes $\lvert PA \rvert+\lvert PB \rvert$. Find the coordinates of $P$.
+
+### Solution to Problem 15
+
+Take the reflection $A'\left(a,b\right)$ of $A$ across $l:x-2y-8=0$.
+
+The midpoint $\left(\frac{a-2}{2},\frac{b}{2}\right)$ of $AA'$ lies on $l$: $\frac{a-2}{2}-2\cdot\frac{b}{2}-8=0$, i.e. $a-2b=18$.
+
+$AA'$ is perpendicular to $l$. Since $l$ has slope $\frac{1}{2}$, $AA'$ has slope $-2$, i.e. $\frac{b-0}{a+2}=-2$, i.e. $b=-2a-4$.
+
+Solving gives $a-2\left(-2a-4\right)=18$, i.e. $5a=10$, so $a=2$, $b=-8$. Hence $A'\left(2,-8\right)$.
+
+$\lvert PA \rvert+\lvert PB \rvert=\lvert PA' \rvert+\lvert PB \rvert\ge\lvert A'B \rvert$, with equality when $P$ is the intersection of $A'B$ with $l$.
+
+The line $A'B$ passes through $A'\left(2,-8\right)$ and $B\left(2,4\right)$, i.e. $x=2$. Substituting into $l:x-2y-8=0$ gives $2-2y-8=0$, i.e. $y=-3$. The coordinates of $P$ are $\left(2,-3\right)$. $\blacksquare$
+
+## Problem 16
+
+(Review Reference Problems 2, Comprehensive Application, Problem 13) Find the length of the common chord of the circles $x^2+y^2-10x-10y=0$ and $x^2+y^2-6x+2y-40=0$.
+
+### Solution to Problem 16
+
+Subtracting the circle equations gives $\left(x^2+y^2-6x+2y-40\right)-\left(x^2+y^2-10x-10y\right)=0$, i.e. $4x+12y-40=0$, i.e. $x+3y-10=0$. The line containing the common chord is $x+3y-10=0$.
+
+Circle $C_1:\left(x-5\right)^2+\left(y-5\right)^2=50$, center $\left(5,5\right)$, radius $r=\sqrt{50}=5\sqrt 2$.
+
+By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from the center to the common chord is
+
+$$
+d=\frac{\lvert 5+15-10 \rvert}{\sqrt{1+9}}=\frac{10}{\sqrt{10}}=\sqrt{10}.
+$$
+
+By **Common Conclusion 2.5.2** (Chord Length Formula), the common chord length is
+
+$$
+2\sqrt{r^2-d^2}=2\sqrt{50-10}=2\sqrt{40}=4\sqrt{10}.
 $$
 
 $\blacksquare$
 
-## Problem 5
+## Problem 17
 
-(Review Exercises 9, Review and Consolidation, Problem 5) A famous national clothing chain conducted an opinion survey about the popular colors of autumn clothing of that year. The surveyors distributed drinks to customers and let customers "vote" for their favorite clothing color by choosing the color printed on the drink cup. According to the results of this survey, in a certain large city A, the mode of clothing colors was red, whereas the result released by the national apparel association of that year was coffee brown.
+(Review Reference Problems 2, Comprehensive Application, Problem 14) The circles $x^2+y^2=4$ and $x^2+y^2+4x-4y+4=0$ are symmetric about a line $l$. Find the equation of $l$.
 
-(1) Does this result represent the views of the people of city A?
+### Solution to Problem 17
 
-(2) What do you think caused the difference between these two surveys?
+Circle $C_1$: center $O_1\left(0,0\right)$, radius $r_1=2$.
 
-### Solution to Problem 5
+Circle $C_2:\left(x+2\right)^2+\left(y-2\right)^2=4$, center $O_2\left(-2,2\right)$, radius $r_2=2$.
 
-By **Definition 9.1.3 (Simple Random Sampling)** and **Definition 9.2.3 (Mode, Median and Mean)**.
+The radii are equal, and the circles are symmetric about $l$, so $l$ is the perpendicular bisector of segment $O_1O_2$.
 
-(1) This result cannot represent the views of all people in city A. Because those who voted were only customers shopping at this clothing store, they form a special group that differs from all residents of city A in age, gender and consumption preferences.
+The midpoint of $O_1O_2$ is $\left(-1,1\right)$, and the slope of $O_1O_2$ is $\frac{2-0}{-2-0}=-1$. The perpendicular bisector has slope $1$.
 
-(2) The difference between the two survey results is caused by sampling bias. The chain store's survey was conducted only on in-store customers, and the sampling frame did not cover all residents of city A; the national apparel association's survey had a wider coverage. Using the voting results of a special group to infer the preferences of all residents naturally produces bias. This shows that whether the sampling frame covers the population in a sampling survey directly affects the representativeness of the result. $\blacksquare$
+By **Definition 2.2.1 (Point-Slope Form)**, $y-1=1\cdot\left(x+1\right)$, i.e. $x-y+2=0$. $\blacksquare$
 
-## Problem 6
+## Problem 18
 
-(Review Exercises 9, Comprehensive Application, Problem 6) Randomly draw 100 sentences from an English book, count the number of words in each sentence, and make a frequency distribution table of these 100 data values. What estimates can you make from this?
+(Review Reference Problems 2, Comprehensive Application, Problem 15) Find the circle symmetric to $C:\left(x+2\right)^2+\left(y-6\right)^2=1$ about the line $3x-4y+5=0$.
 
-(Figure: a frequency distribution table / histogram of the word counts per sentence for 100 English sentences.)
+### Solution to Problem 18
 
-### Solution to Problem 6
+Let the reflection of center $C\left(-2,6\right)$ across $3x-4y+5=0$ be $\left(a,b\right)$.
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.1.4 (Population Mean and Sample Mean)**.
+The connecting line is perpendicular to the given line, which has slope $\frac{3}{4}$, so the connecting line has slope $-\frac{4}{3}$, i.e. $\frac{b-6}{a+2}=-\frac{4}{3}$.
 
-Tabulate the distribution of the number of words in these 100 sentences, list the frequency distribution table, and draw the frequency distribution histogram.
+The midpoint $\left(\frac{a-2}{2},\frac{b+6}{2}\right)$ lies on the line: $3\cdot\frac{a-2}{2}-4\cdot\frac{b+6}{2}+5=0$, i.e. $3a-6-4b-24+10=0$, i.e. $3a-4b-20=0$.
 
-From the frequency distribution table one can see the distribution pattern of sentence lengths in words in this book: how many words most sentences contain, in which range the sentence length in words is concentrated, and whether there are a few exceptionally long or short sentences. Furthermore, using the mean number of words in these 100 sentences, one can estimate the average number of words per sentence in this book, and thereby estimate the linguistic difficulty of the book. $\blacksquare$
+Solving $3\left(b-6\right)=-4\left(a+2\right)$ gives $3b-18=-4a-8$, i.e. $4a+3b=10$. Together with $3a-4b=20$, solving gives $a=4$, $b=-2$.
 
-## Problem 7
+The reflected circle has center $\left(4,-2\right)$ and the same radius $1$. Its equation is $\left(x-4\right)^2+\left(y+2\right)^2=1$. $\blacksquare$
 
-(Review Exercises 9, Comprehensive Application, Problem 7) In an arts competition, 12 professionals and 12 audience representatives each form a judging panel to score the contestants. Below are the scores given by the two panels to the same contestant:
+## Problem 19
 
-Panel A: $42,45,48,46,52,47,49,55,42,51,47,45$;
+(Review Reference Problems 2, Comprehensive Application, Problem 16) Find the circle with center on the line $y=-2x$, passing through $A\left(2,-1\right)$, and tangent to the line $x+y=1$.
 
-Panel B: $55,36,70,66,75,49,46,68,42,62,58,47$.
+### Solution to Problem 19
 
-(1) Choose a quantity that can measure the similarity of the scores within each panel, and compute the measured value for each panel's scores;
+The center lies on $y=-2x$; let it be $\left(a,-2a\right)$.
 
-(2) Based on this, can you judge which of panel A and panel B is more likely to consist of professionals?
+The circle passes through $A\left(2,-1\right)$, so the squared radius is $\left(a-2\right)^2+\left(-2a+1\right)^2$.
 
-### Solution to Problem 7
-
-By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
-
-(1) Use the variance (or standard deviation) to measure the similarity of the scores within a panel: the smaller the variance, the more concentrated the scores within the panel and the more consistent the judges are.
-
-The mean of panel A is
+The circle is tangent to $x+y=1$. By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from center to line equals the radius:
 
 $$
-\overline x_A=\frac{42+45+\cdots+45}{12}=\frac{569}{12}\approx47.42,
+\frac{\lvert a-2a-1 \rvert}{\sqrt 2}=\sqrt{\left(a-2\right)^2+\left(-2a+1\right)^2}.
 $$
 
-with variance approximately $s_A^2\approx13.91$ and standard deviation approximately $s_A\approx3.73$.
+Squaring both sides gives $\frac{\left(-a-1\right)^2}{2}=\left(a-2\right)^2+\left(1-2a\right)^2$, i.e. $\frac{a^2+2a+1}{2}=a^2-4a+4+4a^2-4a+1$, i.e. $a^2+2a+1=10a^2-16a+10$, i.e. $9a^2-18a+9=0$, i.e. $\left(a-1\right)^2=0$, so $a=1$.
 
-The mean of panel B is
+The center is $\left(1,-2\right)$, and the squared radius is $\left(1-2\right)^2+\left(-2+1\right)^2=2$. The circle is $\left(x-1\right)^2+\left(y+2\right)^2=2$. $\blacksquare$
 
-$$
-\overline x_B=\frac{55+36+\cdots+47}{12}=\frac{674}{12}\approx56.17,
-$$
+## Problem 20
 
-with variance approximately $s_B^2\approx138.97$ and standard deviation approximately $s_B\approx11.79$.
+(Review Reference Problems 2, Extension and Exploration, Problem 17) If the sum of squares of one pair of opposite sides of a quadrilateral equals the sum of squares of the other pair, what is the relation between its diagonals? Why?
 
-(2) Since $s_A\approx3.73< s_B\approx11.79$, the scores of panel A are clearly more concentrated and the judges' opinions are more consistent. Professional judges usually have uniform professional standards and score more consistently, whereas audience representatives score with greater variation. Hence panel A is more likely to consist of professionals. $\blacksquare$
+### Solution to Problem 20
 
-## Problem 8
+Take one vertex as the origin and place the two diagonals on the $x$-axis and $y$-axis. Let the four vertices be $A\left(a,0\right)$, $B\left(0,b\right)$, $C\left(c,0\right)$, $D\left(0,d\right)$.
 
-(Review Exercises 9, Comprehensive Application, Problem 8) Using a pedometer, a student recorded the number of steps walked each day for 100 days; the data are given in the textbook.
+The sum of squares of one pair of opposite sides is $\left|AB\right|^2+\left|CD\right|^2=a^2+b^2+c^2+d^2$, and the other pair is $\left|BC\right|^2+\left|DA\right|^2=b^2+c^2+d^2+a^2$. They are identically equal.
 
-(1) Draw a frequency distribution histogram of this data and analyze the distribution characteristics of the data;
+More generally, let the vertices be $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, $C\left(x_3,y_3\right)$, $D\left(x_4,y_4\right)$. One pair has squared sum $\lvert AB \rvert^2+\lvert CD \rvert^2$, the other $\lvert BC \rvert^2+\lvert DA \rvert^2$.
 
-(2) Compute the mean, median and standard deviation of this data, and based on these values describe this student's exercise situation.
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), expanding $\lvert AB \rvert^2+\lvert CD \rvert^2=\lvert BC \rvert^2+\lvert DA \rvert^2$ and simplifying gives $AC\perp BD$.
 
-(Figure: the raw data table of this student's daily step counts over 100 days.)
+Hence the diagonals are perpendicular. $\blacksquare$
 
-### Solution to Problem 8
+## Problem 21
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+(Review Reference Problems 2, Extension and Exploration, Problem 18) Find the area enclosed by the curve $x^2+y^2=\lvert x \rvert+\lvert y \rvert$.
 
-(1) Group the 100 step-count data appropriately, list the frequency distribution table, and draw the frequency distribution histogram. One can see that this student's daily step count is roughly concentrated between $6000\sim12000$ steps, the distribution is roughly symmetric, but with a tail on the right, i.e. a few days have an exceptionally large step count.
+### Solution to Problem 21
 
-(2) The computed mean is
+By **Definition 2.4.1 (Standard Equation of a Circle)**, consider cases.
 
-$$
-\overline x=\frac{\sum_{i=1}^{100}x_i}{100}\approx9370,
-$$
+(a) When $x\ge0$ and $y\ge0$, the equation is $x^2+y^2=x+y$, i.e. $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. This is the portion in the first quadrant of the circle centered at $\left(\frac{1}{2},\frac{1}{2}\right)$ with radius $\frac{\sqrt 2}{2}$.
 
-the median is approximately $9015$, and the standard deviation is approximately
+By symmetry, the curve has a semicircle in each quadrant, each with area $\frac{1}{2}\pi\cdot\frac{1}{2}=\frac{\pi}{4}$. All four quadrants total $4\times\frac{\pi}{4}=\pi$.
 
-$$
-s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\overline x\right)^2}\approx4223.
-$$
+In addition, the four semicircles enclose a square of side $\sqrt 2$ (diagonal $2$), with area $\frac{1}{2}\times2\times2=2$.
 
-This student walks about 9370 steps per day on average, with a median of about 9015 steps, indicating a moderate daily walking amount; the relatively large standard deviation indicates that his daily exercise is unstable, walking more on some days and less on others, and his exercise habits are not yet regular enough. $\blacksquare$
+The total area is $\pi+2$. $\blacksquare$
 
-## Problem 9
+## Problem 22
 
-(Review Exercises 9, Comprehensive Application, Problem 9) To understand the daily sales of apples in his shop, the manager of a fruit store recorded the daily sales of apples (in $\mathrm{kg}$) over the past 30 days, with the following results:
+(Review Reference Problems 2, Extension and Exploration, Problem 19) A light ray is emitted from $A\left(-2,3\right)$ and reflected by the $x$-axis; the reflected ray is tangent to the circle $C:\left(x-3\right)^2+\left(y-2\right)^2=1$. Find the equation of the reflected ray.
 
-$83,96,107,91,70,75,94,80,80,100,75,99,117,89,74,94,84,85,101,87,93,85,107,99,55,97,86,84,85,104$.
+### Solution to Problem 22
 
-(1) Please compute the median, mean, range and standard deviation of the daily apple sales over the past 30 days;
+The reflection of $A\left(-2,3\right)$ across the $x$-axis is $A'\left(-2,-3\right)$. The reflected ray passes through $A'$ and is tangent to $C$.
 
-(2) If too much fruit is stocked at once, the fruit becomes less fresh; if too little is stocked, customer demand cannot be met. The manager hopes the apples are as fresh as possible each day while still meeting customer demand $80\%$ of the time (out of 100 days, on about 80 days the customer demand can be met). How many kilograms of apples should be stocked each day?
+The center is $C\left(3,2\right)$ and radius $r=1$. Let the reflected ray be $y+3=k\left(x+2\right)$, i.e. $kx-y+2k-3=0$.
 
-### Solution to Problem 9
-
-By **Definition 9.2.3 (Mode, Median and Mean)**, **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)** and **Definition 9.2.2 (The $p$-th Percentile)**.
-
-(1) Arrange the 30 data values from small to large. The mean is
+By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from the center to the tangent equals the radius:
 
 $$
-\overline x=\frac{83+96+\cdots+104}{30}=\frac{2676}{30}=89.2.
+\frac{\lvert 3k-2+2k-3 \rvert}{\sqrt{k^2+1}}=1.
 $$
 
-The median is the average of the 15th and 16th values, namely $88$. The range is the difference between the maximum and minimum, namely $117-55=62$. The standard deviation is
+Simplifying gives $\lvert 5k-5 \rvert=\sqrt{k^2+1}$, i.e. $25\left(k-1\right)^2=k^2+1$, i.e. $24k^2-50k+24=0$, i.e. $12k^2-25k+12=0$.
+
+Solving gives $k=\frac{25\pm\sqrt{625-576}}{24}=\frac{25\pm7}{24}$, i.e. $k=\frac{4}{3}$ or $k=\frac{3}{4}$.
+
+The reflected rays are $y+3=\frac{4}{3}\left(x+2\right)$, i.e. $4x-3y-1=0$, or $y+3=\frac{3}{4}\left(x+2\right)$, i.e. $3x-4y-6=0$. $\blacksquare$
+
+## Problem 23
+
+(Review Reference Problems 2, Extension and Exploration, Problem 20) Given the circle $C:\left(x-1\right)^2+\left(y-2\right)^2=25$ and the line $l:\left(2m+1\right)x+\left(m+1\right)y-7m-4=0$.
+
+(1) Prove that $l$ always passes through a fixed point.
+
+(2) When is the chord cut by $l$ on $C$ longest, and when shortest? Find $m$ and the shortest chord length.
+
+### Solution to Problem 23
+
+(1) The equation of $l$ can be rewritten as $\left(x+y-4\right)+m\left(2x+y-7\right)=0$. By **Common Conclusion 2.3.1** (Intersection of Two Lines), $l$ passes through the intersection of $x+y-4=0$ and $2x+y-7=0$.
+
+Solving $\begin{cases}x+y-4=0\\2x+y-7=0\end{cases}$, subtracting gives $x=3$, $y=1$. The fixed point is $\left(3,1\right)$. Hence $l$ always passes through $\left(3,1\right)$.
+
+(2) The center is $C\left(1,2\right)$ and radius $r=5$. The distance from the fixed point $P\left(3,1\right)$ to the center is
 
 $$
-s=\sqrt{\frac{1}{30}\sum_{i=1}^{30}\left(x_i-89.2\right)^2}\approx12.6.
+\lvert CP \rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt 5< 5.
 $$
 
-(2) To meet customer demand $80\%$ of the time, i.e. set the stocking amount at the 80th percentile of the daily sales volume, so that on about $80\%$ of days the sales volume does not exceed the stocking amount.
+Point $P$ is inside the circle. When $l$ passes through the center $C$, the chord is longest (a diameter), with length $10$.
 
-The 80th percentile: $i=30\times80\%=24$, which is an integer, so it is the average of the 24th and 25th values, approximately $99.5$.
+When $l$ is perpendicular to $CP$, the chord is shortest. $k_{CP}=\frac{1-2}{3-1}=-\frac{1}{2}$, so the shortest chord has slope $2$.
 
-Hence about $100\,\mathrm{kg}$ of apples should be stocked each day, which keeps the apples as fresh as possible while meeting customer demand on about $80\%$ of days. $\blacksquare$
+The slope of $l$ is $-\frac{2m+1}{m+1}$. Setting $-\frac{2m+1}{m+1}=2$, i.e. $-2m-1=2m+2$, i.e. $4m=-3$, gives $m=-\frac{3}{4}$.
 
-## Problem 10
+The shortest chord length is $2\sqrt{r^2-\lvert CP \rvert^2}=2\sqrt{25-5}=2\sqrt{20}=4\sqrt 5$. $\blacksquare$
 
-(Review Exercises 9, Comprehensive Application, Problem 10) An insurance company decided to implement management by objectives for its salespeople, i.e. to set a specific sales target for each salesperson. The following data are the monthly sales (in ten thousand yuan) of some salespeople:
+## Problem 24
 
-$1.958,1.611,1.645,2.045,2.024,2.166,2.245,1.822,1.234,1.935,2.055,1.745,1.878,1.796,1.991,1.812,1.465,1.478,1.678,1.878,1.829,1.851,1.786,1.958,1.921,1.855,1.634,1.554,1.755,1.489,1.894,1.743,1.714,1.802,1.998,1.788,1.732,1.935,1.545,1.958,1.345,2.134,1.400,1.842,2.300,1.752,1.851,1.716,2.456,2.514$.
+(Review Reference Problems 3, Review and Consolidation, Problem 1) As shown in the figure, the orbit of China's first artificial Earth satellite is an ellipse with the Earth's center $F_2$ as one focus. Its perigee $A$ is $439\,\mathrm{km}$ above the ground, its apogee $B$ is $2384\,\mathrm{km}$ above the ground, and $F_2$, $A$, $B$ are collinear; the Earth's radius is approximately $6371\,\mathrm{km}$. Find: (1) the equation of the satellite's orbit (accurate to $1\,\mathrm{km}$); (2) the eccentricity of the orbit.
 
-Based on this sample data, propose a suggestion so that $65\%$ of the employees can meet the sales target.
+The figure is a diagram of the satellite's orbit: an ellipse with the earth's center $F_2$ as one focus, the perigee $A$ and apogee $B$ lying on the major axis, with $F_2$, $A$, $B$ collinear; the earth is represented by a small circle centered at $F_2$.
 
-### Solution to Problem 10
+### Solution to Problem 24
 
-By **Definition 9.2.2 (The $p$-th Percentile)**.
+The distance from perigee $A$ to the Earth's center is $6371+439=6810\,\mathrm{km}$, and from apogee $B$ to the Earth's center is $6371+2384=8755\,\mathrm{km}$. By **Definition 3.1.3 (Standard Equation of Ellipse)**, $a-c=6810$, $a+c=8755$. Solving gives $a=7782.5\approx7783\,\mathrm{km}$, $c=972.5\approx973\,\mathrm{km}$.
 
-To enable $65\%$ of the employees to meet the sales target, the sales target should be set at the 65th percentile of the monthly sales, so that about $65\%$ of the salespeople have monthly sales no lower than this target and can meet it.
+(1) $b^2=a^2-c^2=\left(a-c\right)\left(a+c\right)=6810\times8755=59621550$. The orbit equation is
 
-Arrange the 50 monthly sales values from small to large. $i=50\times65\%=32.5$, which is not an integer; rounding up gives the 33rd value. From the data, the 65th percentile is approximately $1.894$ ten thousand yuan.
+$$
+\frac{x^2}{7783^2}+\frac{y^2}{59621550}=1.
+$$
 
-Hence it is suggested to set the monthly sales target at about $1.9$ ten thousand yuan. In this way about $65\%$ of the salespeople can meet the target, neither losing confidence because the target is too high for most people to reach, nor being hampered from tapping their work potential because the target is too low. $\blacksquare$
-
-## Problem 11
-
-(Review Exercises 9, Comprehensive Application, Problem 11) To understand the household electricity consumption in a certain city, the municipal statistics bureau surveyed the average monthly electricity consumption over the past year (in $\mathrm{kW\cdot h}$) of 200 households, with the data sorted from small to large. To both satisfy residents' basic electricity needs and improve energy efficiency, the municipal government plans to adopt a tiered electricity price, so that $75\%$ of residents pay at the first tier, $20\%$ pay at the second tier, and the remaining $5\%$ pay at the third tier. Please determine the range of each tier.
-
-### Solution to Problem 11
-
-By **Definition 9.2.2 (The $p$-th Percentile)**.
-
-The first tier covers $75\%$ of residents, so the upper limit of the first tier is the 75th percentile; the second tier covers the next $20\%$, i.e. between the 75th and the 95th percentile; the third tier is the part exceeding the 95th percentile.
-
-Arrange the 200 data values from small to large. The 75th percentile: $i=200\times75\%=150$, which is an integer, so it is the average of the 150th and 151st values, approximately $178\,\mathrm{kW\cdot h}$. The 95th percentile: $i=200\times95\%=190$, which is an integer, so it is the average of the 190th and 191st values, approximately $296.5\,\mathrm{kW\cdot h}$.
-
-Hence the range of each tier can be set as: the first tier is average monthly consumption not exceeding $178\,\mathrm{kW\cdot h}$; the second tier is $\left(178,296.5\right]\,\mathrm{kW\cdot h}$; the third tier is average monthly consumption exceeding $296.5\,\mathrm{kW\cdot h}$. $\blacksquare$
-
-## Problem 12
-
-(Review Exercises 9, Extension and Exploration, Problem 12) To understand the weight situation of students in the whole school, please design a survey plan, carry out the survey, and complete a statistical survey analysis report.
-
-### Solution to Problem 12
-
-By **Definition 9.1.2 (Population, Individual, Sample and Sample Size)**, **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)** and **Definition 9.2.3 (Mode, Median and Mean)**.
-
-The survey plan is designed as follows.
-
-(1) Clarify the problem: to understand the weight situation of students in the whole school. The population is the weights of all students in the school, and an individual is the weight of each student.
-
-(2) Sampling: considering that students' weights differ greatly across grades and genders, stratify by grade and gender, use stratified random sampling with proportional allocation, and randomly draw an appropriate number of students from each stratum to measure their weights.
-
-(3) Organizing and analyzing: for the weight data of the sampled students, draw a frequency distribution histogram to understand the distribution of weights; compute statistics such as the mean, median and standard deviation, and compare male students, female students and all students separately.
-
-(4) Writing the report: write out the purpose, methods, data results and conclusions of the survey, and put forward reasonable suggestions regarding the proportion of underweight or overweight students.
-
-Use the sample to estimate the overall weight situation of all students. Since the sample is drawn randomly, the estimate has a certain sampling error; the larger the sample size, the more reliable the estimate. $\blacksquare$
+(2) By **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}=\frac{973}{7783}\approx0.125$. $\blacksquare$

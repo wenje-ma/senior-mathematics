@@ -1,428 +1,476 @@
 # week37
-> **定义 7.1.9 (复数的模)**
+> **定义 10.1.2 (样本点与样本空间)**
 > 
-> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
-> **定义 7.3.1 (复数的三角表示式)**
+> 随机试验中每一个可能出现的结果称为一个样本点, 所有样本点组成的集合称为样本空间.
+> **定义 10.1.6 (必然事件)**
 > 
-> 任何一个复数 z = a + bi 都可以表示成 r(cos theta + i sin theta) 的形式, 其中 r = |z|, theta 为 z 的辐角.
-> **定义 7.3.2 (辐角)**
+> 在每次试验中总是发生的事件叫做必然事件.
+> **定义 10.1.7 (不可能事件)**
 > 
-> 复数 z = a + bi 对应的向量 OZ 与 x 轴正方向的夹角 theta 叫做复数 z 的辐角.
-> **定义 7.3.4 (非零复数相等的三角形式条件)**
+> 在每次试验中都不发生的事件叫做不可能事件.
+> **定义 10.1.12 (互斥)**
 > 
-> 参见教材相应章节关于此概念的论述.
-> **定义 7.3.5 (复数乘法的三角表示)**
+> 若 A 与 B 不能同时发生, 即 A 交 B 为不可能事件, 则称 A 与 B 互斥.
+> **定义 10.1.14 (古典概型)**
 > 
-> 第二章　一元二次函数,方程和不等式 ２２　基本不等式 我们知道,乘法公式在代数式的运算中有重要作用.那 么,是否也有一些不等式,它们在解决不等式问题时有着与 乘法公式类似的重要作用呢?下面就来研究这个问题. 前面我们利用完全平方公式得出了一类重要不等式: ,∈,有 ２＋２≥２, 当且仅当＝时,等号成立. 特别地,如果＞０,＞０,我们用槡,槡分别代替上式中的,,可得 槡≤＋ ２, (１) 当且仅当＝时,等号成立. 通常称不等式(１)为基本不等式(ｂａｓｉｃｉｎｅｑｕａｌｉｔｙ).其中,＋ ２叫做正数,的 算术平均数,槡叫做正数,的几何平均数. 基本不等式表明:两个正数的算术平均数不小于它们的几何平均数. 上面通过考察２＋２≥２的特殊情形获得了基本不等式.能否直接利用不等式的性 质推导出基本不等式呢?下面我们来分析一下. 要证 槡≤＋ ２, ① 只要证 ２槡≤＋. ② 要证
-> **定义 7.3.6 (复数除法的三角表示)**
+> 试验中所有可能出现的基本事件只有有限个, 且每个基本事件出现的可能性相等, 具有这两个特点的概率模型称为古典概型.
+> **定义 10.1.15 (概率的古典定义)**
 > 
-> 次 ２００２年游客人次＝３４４ ３０９≈１.１１, …… 　　做减法可以得到游客 人次的年增加量,做除法 可以得到游客人次的年增 长率.增加量,增长率是 刻画事物变化规律的两个 很重要的量. ２０１５年游客人次 ２０１４年游客人次＝１２４４ １１１８≈１.１１. 结果表明,Ｂ地景区的游客人次的年增长率都约为 １.１１－１＝０.１１,是一个常数. 像这样,增长率为常数的变化方式,我们称为指数增 长.因此,Ｂ地景区的游客人次近似于指数增长. 显然,从２００１年开始,Ｂ地景区游客人次的变化规律 可以近似描述为: １年后,游客人次是２００１年的１.１１１倍; ２１１ 比较两地景区游客人次的变化情况,你发现了怎样的变 化规律? 为了便于观察,可以 为了有利于观察规律,根据表 4.2-1,分别画出 A,B 先根据表格中的数据描 两地景区采取不同措施后的15年游客人次的图象(图4.2-1 点,然后用光滑的曲线将 和图4.2-2). 离散的点连起来. 人次/万次 人次/万次个 1 300 1 300 1
-> **定理 7.3.8 (棣莫弗定理)**
+> 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
+> **定义 10.2.1 (事件的相互独立性)**
 > 
-> [r(cos theta + i sin theta)]^n = r^n (cos n theta + i sin n theta).
-
-## 练习一
-
-(练习 7.3 第 1 题) 画出下列复数对应的向量, 并把这些复数表示成三角形式:
-
-(1) $4$;
-
-(2) $-\mathrm{i}$;
-
-(3) $2\sqrt{3}+2\mathrm{i}$;
-
-(4) $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
-
-图:复平面直角坐标系中,从原点 $O$ 画出四个向量:$4$(即实轴正方向上长 $4$ 的向量),$-\mathrm{i}$(即虚轴负方向上长 $1$ 的向量),$2\sqrt{3}+2\mathrm{i}$(即第一象限内坐标 $\left(2\sqrt{3},2\right)$,模 $4$,辐角 $\frac{\pi}{6}$ 的向量),$-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$(即第三象限内坐标 $\left(-\frac{1}{2},-\frac{\sqrt{3}}{2}\right)$,模 $1$,辐角 $\frac{4\pi}{3}$ 的向量).
-
-### 解答 练习一
-
-由**定义 7.3.1 (复数的三角表示式)**, $r=\sqrt{a^2+b^2}$, $\cos\theta=\frac{a}{r}$, $\sin\theta=\frac{b}{r}$, 再由点所在象限确定 $\theta$.
-
-(1) $4=4+0\mathrm{i}$, $r=4$, $\cos\theta=1$, $\sin\theta=0$, 点在实轴正方向, 故 $\arg 4=0$. 三角形式为 $4\left(\cos 0+\mathrm{i}\sin 0\right)$.
-
-(2) $-\mathrm{i}=0+\left(-1\right)\mathrm{i}$, $r=1$, 点在虚轴负方向, 故 $\arg\left(-\mathrm{i}\right)=\frac{3\pi}{2}$. 三角形式为 $\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}$.
-
-(3) $r=\sqrt{\left(2\sqrt{3}\right)^2+2^2}=\sqrt{12+4}=4$, $\cos\theta=\frac{2\sqrt{3}}{4}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{2}{4}=\frac{1}{2}$, 点在第一象限, 故 $\arg=\frac{\pi}{6}$. 三角形式为 $4\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)$.
-
-(4) $r=\sqrt{\left(-\frac{1}{2}\right)^2+\left(-\frac{\sqrt{3}}{2}\right)^2}=1$, $\cos\theta=-\frac{1}{2}$, $\sin\theta=-\frac{\sqrt{3}}{2}$, 点在第三象限, 故 $\arg=\frac{4\pi}{3}$. 三角形式为 $\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}$. $\blacksquare$
-
-## 练习二
-
-(练习 7.3 第 2 题) 下列复数是不是三角形式? 如果不是, 把它们表示成三角形式.
-
-(1) $\frac{1}{2}\left(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4}\right)$;
-
-(2) $-\frac{1}{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)$;
-
-(3) $\frac{1}{2}\left(\sin\frac{5\pi}{12}+\mathrm{i}\cos\frac{5\pi}{12}\right)$;
-
-(4) $\cos\frac{7\pi}{5}+\mathrm{i}\sin\frac{7\pi}{5}$;
-
-(5) $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{6}\right)$.
-
-### 解答 练习二
-
-由**定义 7.3.1 (复数的三角表示式)**, 三角形式必须满足: 模 $r\ge 0$, 括号内为 $\cos\theta+\mathrm{i}\sin\theta$.
-
-(1) 不是三角形式, 因为括号内为 $\cos\theta-\mathrm{i}\sin\theta$. 由 $\cos\theta-\mathrm{i}\sin\theta=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)$, 得
-
-$$
-\frac{1}{2}\left(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4}\right)=\frac{1}{2}\left[\cos\left(-\frac{\pi}{4}\right)+\mathrm{i}\sin\left(-\frac{\pi}{4}\right)\right].
-$$
-
-(2) 不是三角形式, 因为模为 $-\frac{1}{2}< 0$. 改写为 $\frac{1}{2}\left[-\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]=\frac{1}{2}\left[\cos\left(\frac{\pi}{3}+\pi\right)+\mathrm{i}\sin\left(\frac{\pi}{3}+\pi\right)\right]=\frac{1}{2}\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
-
-(3) 不是三角形式, 因为括号内为 $\sin\theta+\mathrm{i}\cos\theta$. 由 $\sin\theta=\cos\left(\frac{\pi}{2}-\theta\right)$, $\cos\theta=\sin\left(\frac{\pi}{2}-\theta\right)$, 得 $\sin\frac{5\pi}{12}+\mathrm{i}\cos\frac{5\pi}{12}=\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}$. 故原式 $=\frac{1}{2}\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$.
-
-(4) 是三角形式, 模为 $1$, 辐角为 $\frac{7\pi}{5}$.
-
-(5) 不是三角形式, 因为括号内 $\cos$ 与 $\sin$ 的角不同. 须统一辐角. $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{6}\right)=2\left(\frac{1}{2}+\mathrm{i}\cdot\frac{1}{2}\right)=1+\mathrm{i}$. 其模 $r=\sqrt{2}$, $\arg=\frac{\pi}{4}$, 故三角形式为 $\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$. $\blacksquare$
-
-## 练习三
-
-(练习 7.3 第 3 题) 把下列复数表示成代数形式:
-
-(1) $6\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)$;
-
-(2) $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)$.
-
-### 解答 练习三
-
-由**定义 7.3.1 (复数的三角表示式)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
-
-(1) $6\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)=6\cdot 0+6\cdot\left(-1\right)\mathrm{i}=-6\mathrm{i}$.
-
-(2) $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)=2\cdot\frac{1}{2}+2\cdot\left(-\frac{\sqrt{3}}{2}\right)\mathrm{i}=1-\sqrt{3}\mathrm{i}$. $\blacksquare$
-
-## 练习四
-
-(练习 7.3 第 1 题) 计算:
-
-(1) $8\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)\times 2\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
-
-(2) $2\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)\times 4\left(\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}\right)$;
-
-(3) $\sqrt{2}\left(\cos 240^{\circ}+\mathrm{i}\sin 240^{\circ}\right)\times\frac{\sqrt{3}}{2}\left(\cos 60^{\circ}+\mathrm{i}\sin 60^{\circ}\right)$;
-
-(4) $3\left(\cos 18^{\circ}+\mathrm{i}\sin 18^{\circ}\right)\times 2\left(\cos 54^{\circ}+\mathrm{i}\sin 54^{\circ}\right)\times 5\left(\cos 108^{\circ}+\mathrm{i}\sin 108^{\circ}\right)$.
-
-### 解答 练习四
-
-由**定义 7.3.5 (复数乘法的三角表示)**, 模相乘, 辐角相加.
-
-(1) 模: $8\times 2=16$; 辐角: $\frac{\pi}{6}+\frac{\pi}{4}=\frac{5\pi}{12}$. 结果为 $16\left(\cos\frac{5\pi}{12}+\mathrm{i}\sin\frac{5\pi}{12}\right)$.
-
-(2) 模: $2\times 4=8$; 辐角: $\frac{4\pi}{3}+\frac{5\pi}{6}=\frac{8\pi}{6}+\frac{5\pi}{6}=\frac{13\pi}{6}=\frac{\pi}{6}$ (减 $2\pi$). 结果为 $8\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)$.
-
-(3) 模: $\sqrt{2}\times\frac{\sqrt{3}}{2}=\frac{\sqrt{6}}{2}$; 辐角: $240^{\circ}+60^{\circ}=300^{\circ}$. 结果为 $\frac{\sqrt{6}}{2}\left(\cos 300^{\circ}+\mathrm{i}\sin 300^{\circ}\right)$.
-
-(4) 模: $3\times 2\times 5=30$; 辐角: $18^{\circ}+54^{\circ}+108^{\circ}=180^{\circ}$. 结果为 $30\left(\cos 180^{\circ}+\mathrm{i}\sin 180^{\circ}\right)=-30$. $\blacksquare$
-
-## 练习五
-
-(练习 7.3 第 2 题) 计算:
-
-(1) $12\left(\cos\frac{7\pi}{4}+\mathrm{i}\sin\frac{7\pi}{4}\right)\div\left[6\left(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}\right)\right]$;
-
-(2) $\sqrt{3}\left(\cos 150^{\circ}+\mathrm{i}\sin 150^{\circ}\right)\div\left[\sqrt{2}\left(\cos 225^{\circ}+\mathrm{i}\sin 225^{\circ}\right)\right]$;
-
-(3) $2\div\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
-
-(4) $-\mathrm{i}\div\left[2\left(\cos 120^{\circ}+\mathrm{i}\sin 120^{\circ}\right)\right]$.
-
-### 解答 练习五
-
-由**定义 7.3.6 (复数除法的三角表示)**, 模相除, 辐角相减.
-
-(1) 模: $12\div 6=2$; 辐角: $\frac{7\pi}{4}-\frac{2\pi}{3}=\frac{21\pi}{12}-\frac{8\pi}{12}=\frac{13\pi}{12}$. 结果为 $2\left(\cos\frac{13\pi}{12}+\mathrm{i}\sin\frac{13\pi}{12}\right)$.
-
-(2) 模: $\sqrt{3}\div\sqrt{2}=\frac{\sqrt{6}}{2}$; 辐角: $150^{\circ}-225^{\circ}=-75^{\circ}$. 结果为 $\frac{\sqrt{6}}{2}\left[\cos\left(-75^{\circ}\right)+\mathrm{i}\sin\left(-75^{\circ}\right)\right]$.
-
-(3) 把 $2$ 写成 $2\left(\cos 0+\mathrm{i}\sin 0\right)$. 模: $2\div 1=2$; 辐角: $0-\frac{\pi}{4}=-\frac{\pi}{4}$. 结果为 $2\left[\cos\left(-\frac{\pi}{4}\right)+\mathrm{i}\sin\left(-\frac{\pi}{4}\right)\right]$.
-
-(4) 把 $-\mathrm{i}$ 写成 $\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}$. 模: $1\div 2=\frac{1}{2}$; 辐角: $\frac{3\pi}{2}-\frac{2\pi}{3}=\frac{9\pi}{6}-\frac{4\pi}{6}=\frac{5\pi}{6}$. 结果为 $\frac{1}{2}\left(\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}\right)$. $\blacksquare$
-
-## 练习六
-
-(练习 7.3 第 3 题) 在复平面内, 把与复数 $3-\sqrt{3}\mathrm{i}$ 对应的向量绕原点 $O$ 按顺时针方向旋转 $60^{\circ}$, 求与所得的向量对应的复数 (用代数形式表示).
-
-### 解答 练习六
-
-由**常用结论 7.3.7** (复数乘, 除运算的几何意义), 顺时针旋转 $60^{\circ}$ 相当于辐角减 $60^{\circ}$, 即乘以 $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$.
-
-先将 $3-\sqrt{3}\mathrm{i}$ 化为三角形式. $r=\sqrt{3^2+\left(-\sqrt{3}\right)^2}=\sqrt{12}=2\sqrt{3}$, $\cos\theta=\frac{3}{2\sqrt{3}}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{-\sqrt{3}}{2\sqrt{3}}=-\frac{1}{2}$, 点在第四象限, 故 $\arg=\frac{11\pi}{6}=330^{\circ}$.
-
-由**定义 7.3.5 (复数乘法的三角表示)**, 乘以 $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$, 得 $2\sqrt{3}\left(\cos 330^{\circ}+\mathrm{i}\sin 330^{\circ}\right)\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\sqrt{3}\left[\cos 270^{\circ}+\mathrm{i}\sin 270^{\circ}\right]$.
-
-化为代数形式: $2\sqrt{3}\left(0-\mathrm{i}\right)=-2\sqrt{3}\mathrm{i}$. $\blacksquare$
+> 设 A, B 为两个事件, 若 P(AB) = P(A)P(B), 则称事件 A 与事件 B 相互独立.
+> **定义 10.3.1 (频率的稳定性)**
+> 
+> 随着试验次数的增加, 事件发生的频率会逐渐稳定在某个常数附近, 这个常数就是该事件的概率.
+> **定义 10.3.2 (随机模拟)**
+> 
+> ,那么他是O型血的概率大约是多少? 4.分别举出一个生活中概率很小和很大的例子. 10. 3. 2 随机模拟 用频率估计概率,需要做大量的重复试验.有没有其他 方法可以替代试验呢? 随机数与伪随机数 我们知道,利用计算器或计算机软件可以产生随机数. 例如我们要产生0～9 实际上,我们也可以根据不同的随机试验构建相应的随机数 之间的随机整数,像彩票 模拟试验,这样就可以快速地进行大量重复试验了. 摇奖那样,把10个质地 例如,对于抛掷一枚质地均匀硬币的试验,我们可以让 和大小相同的号码球放入 摇奖器中,充分搅拌后摇 计算器或计算机产生取值于集合(0,1)的随机数,用0表 出一个球,这个球上的号 示反面朝上,用1表示正面朝上.这样不断产生0,1两个 码就称为随机数.计算器 随机数,相当于不断地做抛掷硬币的试验. 或计算机产生的随机数是 又如,一个袋中装有2个红球和3个白球,这些球除颜 按照确定的算法产生的 色不同外没有其他差别.对于从袋中摸出一个球的试验,我 数,具有周期性(周期很 们可以让
 
 ## 习题一
 
-(习题 7.3 复习巩固第 1 题) 画出下列复数对应的向量, 并把这些复数表示成三角形式:
+(习题 10.2 复习巩固第 1 题) 掷两枚质地均匀的骰子, 设 $A=$ "第一枚出现奇数点", $B=$ "第二枚出现偶数点", 则 $A$ 与 $B$ 的关系为 ( ).
 
-(1) $6$;
+(A) 互斥
 
-(2) $1+\mathrm{i}$;
+(B) 互为对立
 
-(3) $1-\sqrt{3}\mathrm{i}$;
+(C) 相互独立
 
-(4) $-\frac{\sqrt{3}}{2}+\frac{1}{2}\mathrm{i}$.
-
-图:复平面直角坐标系中,从原点 $O$ 画出四个向量:$6$(实轴正方向上长 $6$),$1+\mathrm{i}$(第一象限,坐标 $\left(1,1\right)$,模 $\sqrt2$,辐角 $\frac{\pi}{4}$),$1-\sqrt3\,\mathrm{i}$(第四象限,坐标 $\left(1,-\sqrt3\right)$,模 $2$,辐角 $\frac{5\pi}{3}$),$-\frac{\sqrt3}{2}+\frac{1}{2}\mathrm{i}$(第二象限,坐标 $\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$,模 $1$,辐角 $\frac{5\pi}{6}$).
+(D) 相等
 
 ### 解答 习题一
 
-由**定义 7.3.1 (复数的三角表示式)**.
+由**定义 10.1.15 (概率的古典定义)**, 掷两枚骰子共有 $36$ 个等可能样本点. 第一枚出现奇数点有 $3$ 种 ($1, 3, 5$), 第二枚有 $6$ 种, 故 $n\left(A\right)=3\times 6=18$, $P\left(A\right)=\frac{18}{36}=\frac{1}{2}$. 第二枚出现偶数点有 $3$ 种 ($2, 4, 6$), 第一枚有 $6$ 种, 故 $n\left(B\right)=6\times 3=18$, $P\left(B\right)=\frac{18}{36}=\frac{1}{2}$.
 
-(1) $6=6+0\mathrm{i}$, $r=6$, $\arg=0$. 三角形式为 $6\left(\cos 0+\mathrm{i}\sin 0\right)$.
-
-(2) $r=\sqrt{1^2+1^2}=\sqrt{2}$, $\cos\theta=\frac{\sqrt{2}}{2}$, $\sin\theta=\frac{\sqrt{2}}{2}$, 第一象限, $\arg=\frac{\pi}{4}$. 三角形式为 $\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$.
-
-(3) $r=\sqrt{1+3}=2$, $\cos\theta=\frac{1}{2}$, $\sin\theta=-\frac{\sqrt{3}}{2}$, 第四象限, $\arg=\frac{5\pi}{3}$. 三角形式为 $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)$.
-
-(4) $r=\sqrt{\frac{3}{4}+\frac{1}{4}}=1$, $\cos\theta=-\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{1}{2}$, 第二象限, $\arg=\frac{5\pi}{6}$. 三角形式为 $\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}$. $\blacksquare$
+$A\cap B$ 即第一枚为奇数且第二枚为偶数, 共 $3\times 3=9$ 个样本点, 故 $P\left(A\cap B\right)=\frac{9}{36}=\frac{1}{4}$. 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$. 由**定义 10.2.1 (事件的相互独立性)**, $A$ 与 $B$ 相互独立, 选 (C). $\blacksquare$
 
 ## 习题二
 
-(习题 7.3 复习巩固第 2 题) 把下列复数表示成代数形式:
-
-(1) $3\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
-
-(2) $8\left(\cos\frac{11\pi}{6}+\mathrm{i}\sin\frac{11\pi}{6}\right)$;
-
-(3) $9\left(\cos\pi+\mathrm{i}\sin\pi\right)$;
-
-(4) $6\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
+(习题 10.2 复习巩固第 2 题) 假设 $P\left(A\right)=0.7$, $P\left(B\right)=0.8$, 且 $A$ 与 $B$ 相互独立, 则 $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$.
 
 ### 解答 习题二
 
-由**定义 7.3.1 (复数的三角表示式)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
+由**定义 10.2.1 (事件的相互独立性)**, 因 $A$ 与 $B$ 独立, 故
 
-(1) $3\sqrt{2}\left(\frac{\sqrt{2}}{2}+\mathrm{i}\cdot\frac{\sqrt{2}}{2}\right)=3+3\mathrm{i}$.
+$$
+P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.7\times 0.8=0.56.
+$$
 
-(2) $8\left(\frac{\sqrt{3}}{2}+\mathrm{i}\cdot\left(-\frac{1}{2}\right)\right)=4\sqrt{3}-4\mathrm{i}$.
+由**性质 10.1.21** (一般概率加法公式),
 
-(3) $9\left(-1+\mathrm{i}\cdot 0\right)=-9$.
-
-(4) $6\left(-\frac{1}{2}+\mathrm{i}\cdot\left(-\frac{\sqrt{3}}{2}\right)\right)=-3-3\sqrt{3}\mathrm{i}$. $\blacksquare$
-
-## 习题三
-
-(习题 7.3 复习巩固第 3 题) 计算:
-
-(1) $3\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\times 3\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)$;
-
-(2) $\sqrt{10}\left(\cos\frac{\pi}{2}+\mathrm{i}\sin\frac{\pi}{2}\right)\times\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
-
-(3) $10\left(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}\right)\div\left[5\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]$;
-
-(4) $12\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)\div\left[6\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)\right]$.
-
-### 解答 习题三
-
-由**定义 7.3.5 (复数乘法的三角表示)** 与**定义 7.3.6 (复数除法的三角表示)**.
-
-(1) 模: $3\times 3=9$; 辐角: $\frac{\pi}{3}+\frac{\pi}{6}=\frac{\pi}{2}$. 结果为 $9\left(\cos\frac{\pi}{2}+\mathrm{i}\sin\frac{\pi}{2}\right)=9\mathrm{i}$.
-
-(2) 模: $\sqrt{10}\times\sqrt{2}=\sqrt{20}=2\sqrt{5}$; 辐角: $\frac{\pi}{2}+\frac{\pi}{4}=\frac{3\pi}{4}$. 结果为 $2\sqrt{5}\left(\cos\frac{3\pi}{4}+\mathrm{i}\sin\frac{3\pi}{4}\right)$.
-
-(3) 模: $10\div 5=2$; 辐角: $\frac{2\pi}{3}-\frac{\pi}{3}=\frac{\pi}{3}$. 结果为 $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)$.
-
-(4) 模: $12\div 6=2$; 辐角: $\frac{3\pi}{2}-\frac{\pi}{6}=\frac{9\pi}{6}-\frac{\pi}{6}=\frac{8\pi}{6}=\frac{4\pi}{3}$. 结果为 $2\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$. $\blacksquare$
-
-## 习题四
-
-(习题 7.3 复习巩固第 4 题) 计算下列各式, 并作出几何解释:
-
-(1) $\sqrt{2}\left(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}\right)\times 2\sqrt{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)$;
-
-(2) $2\left(\cos 75^{\circ}+\mathrm{i}\sin 75^{\circ}\right)\times\left(\frac{1}{2}-\frac{1}{2}\mathrm{i}\right)$;
-
-(3) $4\left(\cos 300^{\circ}+\mathrm{i}\sin 300^{\circ}\right)\div\left[\sqrt{2}\left(\cos\frac{3\pi}{4}+\mathrm{i}\sin\frac{3\pi}{4}\right)\right]$;
-
-(4) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\div\left[2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]$.
-
-图:复平面直角坐标系中,画出若干向量并演示乘,除运算的几何意义:两个复数相乘时,把向量绕原点旋转第二个复数的辐角,并把模变为原来的第二个复数模的倍数;两个复数相除时,把向量反向旋转第二个复数的辐角,并把模缩小为原来的第二个复数模分之一.
-
-### 解答 习题四
-
-由**定义 7.3.5 (复数乘法的三角表示)** 与**定义 7.3.6 (复数除法的三角表示)**.
-
-(1) 模: $\sqrt{2}\times 2\sqrt{2}=4$; 辐角: $\frac{2\pi}{3}+\frac{\pi}{3}=\pi$. 结果为 $4\left(\cos\pi+\mathrm{i}\sin\pi\right)=-4$. 几何解释: 将模为 $\sqrt{2}$, 辐角为 $120^{\circ}$ 的向量旋转 $60^{\circ}$ 并伸长为原来的 $2\sqrt{2}$ 倍, 得到模为 $4$, 辐角为 $180^{\circ}$ 的向量.
-
-(2) 先将 $\frac{1}{2}-\frac{1}{2}\mathrm{i}$ 化为三角形式: $r=\frac{\sqrt{2}}{2}$, $\arg=\frac{7\pi}{4}=315^{\circ}$. 模: $2\times\frac{\sqrt{2}}{2}=\sqrt{2}$; 辐角: $75^{\circ}+315^{\circ}=390^{\circ}=30^{\circ}$. 结果为 $\sqrt{2}\left(\cos 30^{\circ}+\mathrm{i}\sin 30^{\circ}\right)=\frac{\sqrt{6}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}$.
-
-(3) 模: $4\div\sqrt{2}=2\sqrt{2}$; 辐角: $300^{\circ}-135^{\circ}=165^{\circ}$. 结果为 $2\sqrt{2}\left(\cos 165^{\circ}+\mathrm{i}\sin 165^{\circ}\right)$.
-
-(4) 先将 $-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$ 化为三角形式: $r=1$, $\arg=\frac{2\pi}{3}$. 模: $1\div 2=\frac{1}{2}$; 辐角: $\frac{2\pi}{3}-\frac{\pi}{3}=\frac{\pi}{3}$. 结果为 $\frac{1}{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)=\frac{1}{4}+\frac{\sqrt{3}}{4}\mathrm{i}$. $\blacksquare$
-
-## 习题五
-
-(习题 7.3 综合运用第 5 题) (1) 求证 $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\cos\theta-\mathrm{i}\sin\theta$;
-
-(2) 写出下列复数 $z$ 的倒数 $\frac{1}{z}$ 的模与辐角:
-
-$z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{\pi}{6}-\mathrm{i}\sin\frac{\pi}{6}$, $z=\frac{\sqrt{2}}{2}\left(1-\mathrm{i}\right)$.
-
-### 解答 习题五
-
-由**定义 7.3.6 (复数除法的三角表示)**.
-
-(1) 由**定义 7.3.6 (复数除法的三角表示)**, $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\frac{\cos 0+\mathrm{i}\sin 0}{\cos\theta+\mathrm{i}\sin\theta}=\cos\left(0-\theta\right)+\mathrm{i}\sin\left(0-\theta\right)=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)=\cos\theta-\mathrm{i}\sin\theta$. 证毕.
-
-(2) 由**定义 7.3.6 (复数除法的三角表示)**, $\frac{1}{z}$ 的模为 $\frac{1}{\lvert z\rvert}$, 辐角为 $-\arg z$.
-
-(a) $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$: $\lvert z\rvert=4$, $\arg z=\frac{\pi}{12}$, 故 $\lvert\frac{1}{z}\rvert=\frac{1}{4}$, $\arg\frac{1}{z}=-\frac{\pi}{12}$.
-
-(b) $z=\cos\frac{\pi}{6}-\mathrm{i}\sin\frac{\pi}{6}=\cos\left(-\frac{\pi}{6}\right)+\mathrm{i}\sin\left(-\frac{\pi}{6}\right)$: $\lvert z\rvert=1$, $\arg z=-\frac{\pi}{6}$, 故 $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=\frac{\pi}{6}$.
-
-(c) $z=\frac{\sqrt{2}}{2}\left(1-\mathrm{i}\right)$: $\lvert z\rvert=\frac{\sqrt{2}}{2}\cdot\sqrt{2}=1$, $\arg z=\frac{7\pi}{4}$, 故 $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=-\frac{7\pi}{4}=\frac{\pi}{4}$. $\blacksquare$
-
-## 习题六
-
-(习题 7.3 综合运用第 6 题) 求证:
-
-(1) $\left(\cos 75^{\circ}+\mathrm{i}\sin 75^{\circ}\right)\left(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right)=\mathrm{i}$;
-
-(2) $\left(\cos 3\theta-\mathrm{i}\sin 3\theta\right)\left(\cos 2\theta-\mathrm{i}\sin 2\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$.
-
-### 解答 习题六
-
-由**定义 7.3.5 (复数乘法的三角表示)** 及 $\cos\left(-\alpha\right)+\mathrm{i}\sin\left(-\alpha\right)=\cos\alpha-\mathrm{i}\sin\alpha$.
-
-(1) 由**定义 7.3.5 (复数乘法的三角表示)**, 模: $1\times 1=1$; 辐角: $75^{\circ}+15^{\circ}=90^{\circ}$. 结果为 $\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}=\mathrm{i}$. 证毕.
-
-(2) 将 $\cos 3\theta-\mathrm{i}\sin 3\theta$ 写成 $\cos\left(-3\theta\right)+\mathrm{i}\sin\left(-3\theta\right)$, 将 $\cos 2\theta-\mathrm{i}\sin 2\theta$ 写成 $\cos\left(-2\theta\right)+\mathrm{i}\sin\left(-2\theta\right)$. 由**定义 7.3.5 (复数乘法的三角表示)**, 模: $1\times 1=1$; 辐角: $-3\theta+\left(-2\theta\right)=-5\theta$. 结果为 $\cos\left(-5\theta\right)+\mathrm{i}\sin\left(-5\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$. 证毕. $\blacksquare$
-
-## 习题七
-
-(习题 7.3 综合运用第 7 题) 化简:
-
-(1) $\frac{\left(\cos 7\theta+\mathrm{i}\sin 7\theta\right)\left(\cos 2\theta+\mathrm{i}\sin 2\theta\right)}{\left(\cos 5\theta+\mathrm{i}\sin 5\theta\right)\left(\cos 3\theta+\mathrm{i}\sin 3\theta\right)}$;
-
-(2) $\frac{\cos\varphi-\mathrm{i}\sin\varphi}{\cos\varphi+\mathrm{i}\sin\varphi}$.
-
-### 解答 习题七
-
-由**定义 7.3.5 (复数乘法的三角表示)** 与**定义 7.3.6 (复数除法的三角表示)** 的三角表示.
-
-(1) 分子: 模为 $1$, 辐角为 $7\theta+2\theta=9\theta$. 分母: 模为 $1$, 辐角为 $5\theta+3\theta=8\theta$. 相除后, 模为 $1$, 辐角为 $9\theta-8\theta=\theta$. 结果为 $\cos\theta+\mathrm{i}\sin\theta$.
-
-(2) 分子 $\cos\varphi-\mathrm{i}\sin\varphi=\cos\left(-\varphi\right)+\mathrm{i}\sin\left(-\varphi\right)$. 相除后, 模为 $1$, 辐角为 $-\varphi-\varphi=-2\varphi$. 结果为 $\cos\left(-2\varphi\right)+\mathrm{i}\sin\left(-2\varphi\right)=\cos 2\varphi-\mathrm{i}\sin 2\varphi$. $\blacksquare$
-
-## 习题八
-
-(习题 7.3 综合运用第 8 题) 设 $z=\sqrt{3}-\mathrm{i}$ 对应的向量为 $\boldsymbol{OZ}$, 将 $\boldsymbol{OZ}$ 绕点 $O$ 按逆时针方向和顺时针方向分别旋转 $45^{\circ}$ 和 $60^{\circ}$, 求所得向量对应的复数 (用代数形式表示).
-
-### 解答 习题八
-
-由**常用结论 7.3.7** (乘, 除运算的几何意义), 逆时针旋转 $45^{\circ}$ 即乘以 $\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}$, 顺时针旋转 $60^{\circ}$ 即乘以 $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$.
-
-先将 $z=\sqrt{3}-\mathrm{i}$ 化为三角形式: $r=\sqrt{3+1}=2$, $\arg=-\frac{\pi}{6}=330^{\circ}$.
-
-(1) 逆时针旋转 $45^{\circ}$:
-
-由**定义 7.3.5 (复数乘法的三角表示)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}\right)=2\left[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right]$.
-
-化为代数形式: $2\left(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right)=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
-
-(2) 顺时针旋转 $60^{\circ}$:
-
-由**定义 7.3.5 (复数乘法的三角表示)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\left[\cos\left(-90^{\circ}\right)+\mathrm{i}\sin\left(-90^{\circ}\right)\right]=2\left(-\mathrm{i}\right)=-2\mathrm{i}$.
+$$
+P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=0.7+0.8-0.56=0.94.
+$$
 
 $\blacksquare$
 
+## 习题三
+
+(习题 10.2 复习巩固第 3 题) 若 $P\left(A\right)> 0$, $P\left(B\right)> 0$, 证明: 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立.
+
+### 解答 习题三
+
+由**定义 10.1.12 (互斥)**, 若 $A, B$ 互斥, 则 $A\cap B=\varnothing$, 故 $P\left(A\cap B\right)=0$.
+
+由**定义 10.2.1 (事件的相互独立性)**, 若 $A, B$ 相互独立, 则 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$.
+
+若 $A, B$ 既独立又互斥, 则必有 $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. 但已知 $P\left(A\right)> 0$ 且 $P\left(B\right)> 0$, 故 $P\left(A\right)P\left(B\right)> 0$, 矛盾.
+
+因此, 当 $P\left(A\right)> 0$, $P\left(B\right)> 0$ 时, 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立. $\blacksquare$
+
+## 习题四
+
+(习题 10.2 综合运用第 4 题) 甲, 乙两人独立地破译一份密码, 已知各人能破译的概率分别是 $\frac{1}{3}$, $\frac{1}{4}$, 求:
+
+(1) 两人都成功破译的概率;
+
+(2) 密码被成功破译的概率.
+
+### 解答 习题四
+
+设事件 $A=$ "甲破译成功", $B=$ "乙破译成功", 则 $P\left(A\right)=\frac{1}{3}$, $P\left(B\right)=\frac{1}{4}$. 由题意, $A$ 与 $B$ 相互独立.
+
+(1) 由**定义 10.2.1 (事件的相互独立性)**, 两人都破译成功即 $A\cap B$ 发生, 故
+
+$$
+P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=\frac{1}{3}\times\frac{1}{4}=\frac{1}{12}.
+$$
+
+(2) 密码被成功破译即至少一人破译成功, 为 $A\cup B$. 由**性质 10.1.21** (一般概率加法公式),
+
+$$
+P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
+$$
+
+也可由对立事件计算: 由**性质 10.2.2** (对立事件的独立性), $\overline A$ 与 $\overline B$ 独立, $P\left(\overline A\right)=\frac{2}{3}$, $P\left(\overline B\right)=\frac{3}{4}$, 故
+
+$$
+P\left(\text{密码被破译}\right)=1-P\left(\overline A\cap\overline B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
+$$
+
+$\blacksquare$
+
+## 习题五
+
+(习题 10.2 综合运用第 5 题) 如图, 一个正八面体, 八个面分别标以数字 $1$ 到 $8$, 任意抛掷一次这个正八面体, 观察它与地面接触的面上的数字, 得到样本空间为 $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8\right\}$. 构造适当的事件 $A, B, C$, 使 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但不满足 $A, B, C$ 两两独立.
+
+(题图: 一个正八面体 (两个四棱锥底面粘合而成), 八个三角形面上分别标有数字 $1\sim8$.)
+
+### 解答 习题五
+
+由**定义 10.1.15 (概率的古典定义)**, 每个样本点概率为 $\frac{1}{8}$.
+
+构造如下事件:
+
+$$
+A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 3, 5, 7\right\}.
+$$
+
+则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{4}{8}=\frac{1}{2}$.
+
+$A\cap B=\left\{1, 2\right\}$, $P\left(A\cap B\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
+
+$A\cap C=\left\{1, 3\right\}$, $P\left(A\cap C\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
+
+$B\cap C=\left\{1, 5\right\}$, $P\left(B\cap C\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
+
+三者两两独立. 而 $A\cap B\cap C=\left\{1\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{8}$, 且
+
+$$
+P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8},
+$$
+
+故 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立.
+
+该构造中三者不仅整体独立, 还两两独立. 要构造满足 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 但不两两独立的例子, 可取
+
+$$
+A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 2, 7, 8\right\}.
+$$
+
+则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$, $A\cap B=\left\{1, 2\right\}$, $A\cap C=\left\{1, 2\right\}$, $B\cap C=\left\{1, 2\right\}$, 故 $P\left(A\cap B\right)=P\left(A\cap C\right)=P\left(B\cap C\right)=\frac{1}{4}=P\left(A\right)P\left(B\right)$, 三者仍两两独立.
+
+取另一构造: $A=\left\{1, 2, 3, 4\right\}$, $B=\left\{1, 2, 3, 5\right\}$, $C=\left\{1, 6, 7, 8\right\}$. 则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$. $A\cap B=\left\{1, 2, 3\right\}$, $P\left(A\cap B\right)=\frac{3}{8}\neq\frac{1}{4}=P\left(A\right)P\left(B\right)$, 故 $A, B$ 不独立. $A\cap C=\left\{1\right\}$, $B\cap C=\left\{1\right\}$, $A\cap B\cap C=\left\{1\right\}$, 故 $P\left(A\cap B\cap C\right)=\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{8}$. 此例中 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但 $A, B$ 不独立. $\blacksquare$
+
+## 习题六
+
+(习题 10.2 拓广探索第 6 题) 分析如下三个随机试验及指定的随机事件, 并解答下面的问题.
+
+$E_1$: 抛掷两枚质地均匀的硬币; 事件 $A=$ "两枚都正面朝上".
+
+$E_2$: 向一个目标射击两次, 每次命中目标的概率为 $0.6$; 事件 $B=$ "命中两次目标".
+
+$E_3$: 从包含 $2$ 个红球, $3$ 个黄球的袋子中依次不放回任意摸出两球; 事件 $C=$ "两次都摸到红球".
+
+(1) 用适当的符号表示试验的可能结果, 分别写出各试验的样本空间;
+
+(2) 指出这三个试验的共同特征和区别;
+
+(3) 分别求 $A, B, C$ 的概率.
+
+### 解答 习题六
+
+由**定义 10.1.2 (样本点与样本空间)** 与**定义 10.2.1 (事件的相互独立性)**.
+
+(1) $E_1$: 用 $1$ 表示正面朝上, $0$ 表示反面朝上, 样本空间为
+
+$$
+\Omega_1=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+$$
+
+$E_2$: 用 $1$ 表示命中, $0$ 表示未命中, 样本空间为
+
+$$
+\Omega_2=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+$$
+
+$E_3$: 将 $2$ 个红球编号为 $1, 2$, $3$ 个黄球编号为 $3, 4, 5$, 用数组 $\left(x_1, x_2\right)$ 表示两次摸球的结果, 样本空间为
+
+$$
+\Omega_3=\left\{\left(1,2\right), \left(1,3\right), \left(1,4\right), \left(1,5\right), \left(2,1\right), \left(2,3\right), \left(2,4\right), \left(2,5\right), \left(3,1\right), \left(3,2\right), \left(3,4\right), \left(3,5\right), \left(4,1\right), \left(4,2\right), \left(4,3\right), \left(4,5\right), \left(5,1\right), \left(5,2\right), \left(5,3\right), \left(5,4\right)\right\}.
+$$
+
+(2) 共同特征: 三个试验都是进行两次独立的试验, 且关注 "两次都发生" 的事件. 区别: $E_1$ 是古典概型, 每个样本点等可能; $E_2$ 中每个样本点不是等可能的 (命中概率为 $0.6$, 不是 $0.5$), 不是古典概型, 但两次射击相互独立; $E_3$ 是不放回抽样, 两次摸球不独立.
+
+(3) $E_1$ 是古典概型, 由**定义 10.1.15 (概率的古典定义)**, $A=\left\{\left(1,1\right)\right\}$, $P\left(A\right)=\frac{1}{4}$.
+
+$E_2$ 中两次射击相互独立, 由**定义 10.2.1 (事件的相互独立性)**,
+
+$$
+P\left(B\right)=0.6\times 0.6=0.36.
+$$
+
+$E_3$ 是古典概型, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right), \left(2,1\right)\right\}$, $n\left(C\right)=2$, 故 $P\left(C\right)=\frac{2}{20}=\frac{1}{10}$. $\blacksquare$
+
+## 练习一
+
+(练习 10.3 第 1 题) 判断下列说法是否正确, 并说明理由:
+
+(1) 抛掷一枚硬币正面朝上的概率为 $0.5$, 则抛掷一枚硬币两次, 一定是一次正面朝上, 一次反面朝上;
+
+(2) 抛掷一枚质地均匀的硬币 $10$ 次, 结果是 $4$ 次正面朝上, 所以事件 "正面朝上" 的概率为 $0.4$;
+
+(3) 当试验次数很大时, 随机事件发生的频率接近其概率;
+
+(4) 在一次试验中, 随机事件可能发生也可能不发生, 所以事件发生和不发生的概率各是 $0.5$.
+
+### 解答 练习一
+
+由**定义 10.3.1 (频率的稳定性)**, 频率是概率的近似值, 概率是确定的常数, 与每次试验的结果无关.
+
+(1) 概率为 $0.5$ 只表示一次试验中正面朝上的可能性大小, 抛掷两次的结果可能是两次正面, 两次反面, 或一正一反, 并非 "一定是一次正面一次反面". 该说法错误.
+
+(2) 抛掷 $10$ 次出现 $4$ 次正面, 得到的频率为 $0.4$, 这是概率的近似值, 而非概率本身. 硬币正面朝上的概率仍为 $0.5$. 该说法错误.
+
+(3) 由**定义 10.3.1 (频率的稳定性)**, 随着试验次数增大, 频率会逐渐稳定于概率, 故试验次数很大时频率接近概率. 该说法正确.
+
+(4) 随机事件发生的概率由事件本身决定, 不一定等于 $0.5$. 例如 "掷骰子出现 $6$ 点" 的概率为 $\frac{1}{6}$, 不发生的概率为 $\frac{5}{6}$. 该说法错误. $\blacksquare$
+
+## 练习二
+
+(练习 10.3 第 2 题) 用掷两枚硬币做胜负游戏, 规定: 两枚硬币同时出现正面或同时出现反面算甲胜, 一个正面, 一个反面算乙胜. 这个游戏公平吗?
+
+### 解答 练习二
+
+由**定义 10.1.15 (概率的古典定义)**, 抛掷两枚硬币共有 $4$ 个等可能样本点: $\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)$.
+
+甲胜的事件为 "同时正面或同时反面", 即 $\left(1,1\right)$ 或 $\left(0,0\right)$, 共 $2$ 个样本点, 故 $P\left(\text{甲胜}\right)=\frac{2}{4}=\frac{1}{2}$.
+
+乙胜的事件为 "一正一反", 即 $\left(1,0\right)$ 或 $\left(0,1\right)$, 共 $2$ 个样本点, 故 $P\left(\text{乙胜}\right)=\frac{2}{4}=\frac{1}{2}$.
+
+甲胜与乙胜的概率相等, 故这个游戏是公平的. $\blacksquare$
+
+## 练习三
+
+(练习 10.3 第 3 题) 据统计 $ABO$ 血型具有民族和地区差异. 在我国 $H$ 省调查了 $30488$ 人, 四种血型的人数如下:
+
+| 项目 | $A$ | $B$ | $O$ | $AB$ |
+|---|---|---|---|---|
+| 人数 | $7704$ | $10765$ | $8970$ | $3049$ |
+| 频率 | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+
+(1) 计算 $H$ 省各种血型的频率并填表 (精确到 $0.001$);
+
+(2) 如果从 $H$ 省任意调查一个人的血型, 那么他是 $O$ 型血的概率大约是多少?
+
+### 解答 练习三
+
+由**定义 10.3.1 (频率的稳定性)**, 用频率估计概率. 总人数为 $30488$.
+
+(1) 各血型频率:
+
+$A$ 型频率 $=\frac{7704}{30488}\approx 0.253$.
+
+$B$ 型频率 $=\frac{10765}{30488}\approx 0.353$.
+
+$O$ 型频率 $=\frac{8970}{30488}\approx 0.294$.
+
+$AB$ 型频率 $=\frac{3049}{30488}\approx 0.100$.
+
+(2) 由**定义 10.3.1 (频率的稳定性)**, 用 $O$ 型血的频率估计概率, 故从 $H$ 省任意调查一人, 其为 $O$ 型血的概率大约为 $0.294$. $\blacksquare$
+
+## 练习四
+
+(练习 10.3 第 4 题) 分别举出一个生活中概率很小和很大的例子.
+
+### 解答 练习四
+
+由**定义 10.3.1 (频率的稳定性)**, 概率很大的事件指发生可能性很高的事件, 概率很小的事件指发生可能性很低的事件.
+
+概率很大的例子: 从一副去掉大小王的扑克牌中随机抽一张, "抽到的牌不是大王" 的概率为 $1$ (必然事件), 概率很大. 又如 "早晨太阳从东方升起" 是必然事件, 概率为 $1$.
+
+概率很小的例子: 买一张体育彩票中奖的概率很小, 约为几十万分之一. 又如 "抛掷一枚硬币连续 $10$ 次都是正面朝上" 的概率为 $\frac{1}{2^{10}}=\frac{1}{1024}$, 概率很小. $\blacksquare$
+
+## 练习五
+
+(练习 10.3 第 5 题) 将一枚质地均匀的硬币连续抛掷 $4$ 次, 设事件 $A=$ "恰好两次正面朝上".
+
+(1) 直接计算事件 $A$ 的概率;
+
+(2) 利用计算器或计算机模拟试验 $80$ 次, 计算事件 $A$ 发生的频率.
+
+### 解答 练习五
+
+(1) 由**定义 10.1.15 (概率的古典定义)**, 抛掷 $4$ 次硬币共有 $2^4=16$ 个等可能结果. 恰好两次正面朝上, 即从 $4$ 次中选 $2$ 次为正面, 共 $\binom{4}{2}=6$ 种, 故
+
+$$
+P\left(A\right)=\frac{6}{16}=\frac{3}{8}=0.375.
+$$
+
+(2) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生 $0, 1$ 随机数, $1$ 表示正面, $0$ 表示反面, 每 $4$ 个随机数为一组表示一次模拟试验. 重复 $80$ 次, 统计其中恰好出现 $2$ 个 $1$ 的组数, 记为 $n_A$, 则事件 $A$ 发生的频率为 $f_{80}\left(A\right)=\frac{n_A}{80}$. 由**定义 10.3.1 (频率的稳定性)**, 该频率应在 $0.375$ 附近波动. $\blacksquare$
+
+## 练习六
+
+(练习 10.3 第 6 题) 盒子中仅有 $4$ 个白球和 $5$ 个黑球, 从中任意取出一个球.
+
+(1) "取出的球是黄球" 是什么事件? 它的概率是多少?
+
+(2) "取出的球是白球" 是什么事件? 它的概率是多少?
+
+(3) "取出的球是白球或黑球" 是什么事件? 它的概率是多少?
+
+(4) 设计一个用计算器或计算机模拟上面取球的试验, 并模拟 $100$ 次, 估计 "取出的球是白球" 的概率.
+
+### 解答 练习六
+
+由**定义 10.1.6 (必然事件)** 与**定义 10.1.7 (不可能事件)**.
+
+(1) 盒子中没有黄球, "取出的球是黄球" 不可能发生, 故为不可能事件. 由**性质 10.1.17** (必然事件与不可能事件的概率), 其概率为 $0$.
+
+(2) 盒子中有白球和黑球, "取出的球是白球" 可能发生也可能不发生, 故为随机事件. 由**定义 10.1.15 (概率的古典定义)**, 共 $9$ 个球, 白球有 $4$ 个, 故 $P\left(A\right)=\frac{4}{9}$.
+
+(3) 盒子中只有白球和黑球, "取出的球是白球或黑球" 一定发生, 故为必然事件, 其概率为 $1$.
+
+(4) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生取值于集合 $\left\{1, 2, \cdots, 9\right\}$ 的随机数, 用 $1, 2, 3, 4$ 表示白球, 用 $5, 6, 7, 8, 9$ 表示黑球. 每次产生一个随机数即完成一次模拟取球, 重复 $100$ 次, 统计其中出现 $1, 2, 3, 4$ 的次数 $n_A$, 则频率 $f_{100}\left(A\right)=\frac{n_A}{100}$ 即为 "取出白球" 概率的估计值. 由**定义 10.3.1 (频率的稳定性)**, 该频率应在 $\frac{4}{9}\approx 0.444$ 附近. $\blacksquare$
+
+## 练习七
+
+(练习 10.3 第 7 题) (1) 掷两枚质地均匀的骰子, 计算点数和为 $7$ 的概率;
+
+(2) 利用随机模拟的方法, 试验 $120$ 次, 计算出现点数和为 $7$ 的频率;
+
+(3) 所得频率与概率相差大吗? 为什么会有这种差异?
+
+### 解答 练习七
+
+(1) 由**定义 10.1.15 (概率的古典定义)**, 掷两枚骰子共有 $36$ 个等可能样本点. 点数和为 $7$ 的样本点为 $\left(1,6\right), \left(2,5\right), \left(3,4\right), \left(4,3\right), \left(5,2\right), \left(6,1\right)$, 共 $6$ 个, 故
+
+$$
+P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx 0.167.
+$$
+
+(2) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生 $1$ 至 $6$ 的随机数模拟每枚骰子的点数, 每两个随机数为一组, 重复 $120$ 次, 统计点数和为 $7$ 的次数 $n_A$, 则频率 $f_{120}\left(A\right)=\frac{n_A}{120}$.
+
+(3) 由**定义 10.3.1 (频率的稳定性)**, 试验次数为 $120$ 时, 频率与概率之间可能存在一定差异, 因为频率具有随机性. 但随着试验次数的增大, 频率会逐渐稳定于概率 $\frac{1}{6}$. $\blacksquare$
+
+## 习题七
+
+(习题 10.3 复习巩固第 1 题) 在一个试验中, 把一种血清注射到 $500$ 只豚鼠体内. 被注射前, 这些豚鼠中 $150$ 只有圆形细胞, $250$ 只有椭圆形细胞, $100$ 只有不规则形状细胞; 被注射后, 没有一个具有圆形细胞的豚鼠被感染, $50$ 个具有椭圆形细胞的豚鼠被感染, 具有不规则形状细胞的豚鼠全部被感染. 根据试验结果, 估计具有下列类型的细胞的豚鼠被这种血清感染的概率:
+
+(1) 圆形细胞;
+
+(2) 椭圆形细胞;
+
+(3) 不规则形状细胞.
+
+### 解答 习题七
+
+由**定义 10.3.1 (频率的稳定性)**, 用感染频率估计感染概率.
+
+(1) 圆形细胞的豚鼠共 $150$ 只, 被感染 $0$ 只, 感染频率为 $\frac{0}{150}=0$, 故估计感染概率为 $0$.
+
+(2) 椭圆形细胞的豚鼠共 $250$ 只, 被感染 $50$ 只, 感染频率为 $\frac{50}{250}=0.2$, 故估计感染概率为 $0.2$.
+
+(3) 不规则形状细胞的豚鼠共 $100$ 只, 全部被感染, 感染频率为 $\frac{100}{100}=1$, 故估计感染概率为 $1$. $\blacksquare$
+
+## 习题八
+
+(习题 10.3 复习巩固第 2 题) 用木块制作的一个四面体, 四个面上分别标记 $1, 2, 3, 4$. 重复抛掷这个四面体 $100$ 次, 记录每个面落在桌面上的次数 (如下表). 如果再抛掷一次, 请估计标记 $3$ 的面落在桌面上的概率.
+
+| 四面体的面 | $1$ | $2$ | $3$ | $4$ |
+|---|---|---|---|---|
+| 频数 | $22$ | $18$ | $21$ | $39$ |
+
+### 解答 习题八
+
+由**定义 10.3.1 (频率的稳定性)**, 用标记 $3$ 的面落在桌面上的频率估计其概率.
+
+标记 $3$ 的面落在桌面上的频数为 $21$, 总试验次数为 $100$, 故频率为
+
+$$
+f_{100}\left(A\right)=\frac{21}{100}=0.21.
+$$
+
+因此, 再抛掷一次, 标记 $3$ 的面落在桌面上的概率估计为 $0.21$. $\blacksquare$
+
 ## 习题九
 
-(习题 7.3 拓广探索第 9 题) 如下页图, 复平面内的 $\triangle ABC$ 是等边三角形, 它的两个顶点 $A$, $B$ 的坐标分别为 $\left(1,0\right)$, $\left(2,1\right)$, 求点 $C$ 的坐标.
+(习题 10.3 复习巩固第 3 题) 在英语中不同字母出现的频率相差很大, 但同一个字母的使用频率相当稳定. 有人统计了 $40$ 多万个单词中 $5$ 个元音字母的使用频率, 结果如下表所示:
+
+| 元音字母 | $A$ | $E$ | $I$ | $O$ | $U$ |
+|---|---|---|---|---|---|
+| 频率 | $7.88\%$ | $12.68\%$ | $7.07\%$ | $7.76\%$ | $2.80\%$ |
+
+(1) 从一本英文 (小说类) 书里随机选一页, 统计在这一页里元音字母出现的频率;
+
+(2) 将你统计得出的频率与上表中的频率进行比较, 结果是否比较接近? 你认为存在差异的原因是什么.
 
 ### 解答 习题九
 
-由**常用结论 7.3.7** (复数乘法的几何意义), 将向量 $\boldsymbol{AB}$ 绕点 $A$ 旋转 $60^{\circ}$ 可得向量 $\boldsymbol{AC}$.
+(1) 从英文书中随机选取一页, 统计该页中所有字母的总数 $N$ 及其中元音字母 ($A, E, I, O, U$) 的个数 $n_A$, 则该页元音字母出现的频率为 $f=\frac{n_A}{N}$.
 
-点 $A$ 对应复数 $z_A=1$, 点 $B$ 对应复数 $z_B=2+\mathrm{i}$. 向量 $\boldsymbol{AB}$ 对应的复数为 $z_B-z_A=1+\mathrm{i}$.
-
-将 $\boldsymbol{AB}$ 绕点 $A$ 逆时针旋转 $60^{\circ}$, 得
-
-$$
-\left(1+\mathrm{i}\right)\left(\cos 60^{\circ}+\mathrm{i}\sin 60^{\circ}\right)=\left(1+\mathrm{i}\right)\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
-$$
-
-故点 $C$ 对应的复数为
-
-$$
-z_C=z_A+\boldsymbol{AC}=1+\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}=\frac{3-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
-$$
-
-点 $C$ 的坐标为 $\left(\frac{3-\sqrt{3}}{2},\frac{1+\sqrt{3}}{2}\right)$.
-
-若顺时针旋转 $60^{\circ}$, 则
-
-$$
-\left(1+\mathrm{i}\right)\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=\left(1+\mathrm{i}\right)\left(\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}.
-$$
-
-此时点 $C$ 对应的复数为 $1+\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}=\frac{3+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}$, 坐标为 $\left(\frac{3+\sqrt{3}}{2},\frac{1-\sqrt{3}}{2}\right)$. $\blacksquare$
+(2) 由**定义 10.3.1 (频率的稳定性)**, 大样本下字母出现的频率相当稳定, 故个人统计得到的单页频率与上表中大样本统计频率大致接近, 但因单页样本量较小, 频率可能有波动, 存在一定差异. 差异的主要原因是个人统计的样本量 (一页的字母数) 远小于 $40$ 多万个单词的样本量, 随机波动较大. $\blacksquare$
 
 ## 习题十
 
-(习题 7.3 拓广探索第 10 题) 如下页图, 已知平面内并列的三个全等的正方形, 利用复数证明 $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$.
+(习题 10.3 复习巩固第 4 题) 人类的四种血型与基因型的对应为: $O$ 型的基因型为 $ii$, $A$ 型的基因型为 $I^Ai$ 或 $I^AI^A$, $B$ 型的基因型为 $I^Bi$ 或 $I^BI^B$, $AB$ 型的基因型为 $I^AI^B$. 其中 $I^A$ 和 $I^B$ 是显性基因, $i$ 是隐性基因. 一对夫妻的血型一个是 $A$ 型, 一个是 $B$ 型, 请确定他们的子女的血型是 $O, A, B$ 或 $AB$ 型的概率, 并填写下表:
+
+| 父母血型的基因型组合 | $O$ | $A$ | $B$ | $AB$ |
+|---|---|---|---|---|
+| $I^Ai\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^Ai\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
 ### 解答 习题十
 
-由**定义 7.3.2 (辐角)** 与**定义 7.3.5 (复数乘法的三角表示)**, 三个角分别对应三个复数的辐角.
+由**定义 10.1.15 (概率的古典定义)**, 子女的基因型由父母各随机遗传一个基因决定, 每种遗传组合等可能.
 
-设三个正方形边长为 $1$. 由图, $\angle 1$ 对应复数 $1+\mathrm{i}$ 的辐角, $\angle 2$ 对应复数 $2+\mathrm{i}$ 的辐角, $\angle 3$ 对应复数 $3+\mathrm{i}$ 的辐角.
+父母基因型为 $I^Ai\times I^Bi$: 父方遗传 $I^A$ 或 $i$, 各 $\frac{1}{2}$; 母方遗传 $I^B$ 或 $i$, 各 $\frac{1}{2}$. 子女基因型为 $I^AI^B$ ($AB$ 型), $I^Ai$ ($A$ 型), $I^Bi$ ($B$ 型), $ii$ ($O$ 型), 各 $\frac{1}{4}$. 故 $O: \frac{1}{4}$, $A: \frac{1}{4}$, $B: \frac{1}{4}$, $AB: \frac{1}{4}$.
 
-由**定义 7.3.5 (复数乘法的三角表示)**, 三个复数相乘后, 积的辐角等于各辐角之和. 计算
+父母基因型为 $I^Ai\times I^BI^B$: 父方遗传 $I^A$ 或 $i$, 各 $\frac{1}{2}$; 母方只能遗传 $I^B$. 子女基因型为 $I^AI^B$ ($AB$ 型) 或 $I^Bi$ ($B$ 型), 各 $\frac{1}{2}$. 故 $O: 0$, $A: 0$, $B: \frac{1}{2}$, $AB: \frac{1}{2}$.
 
-$$
-\left(1+\mathrm{i}\right)\left(2+\mathrm{i}\right)\left(3+\mathrm{i}\right)=\left(1+\mathrm{i}\right)\left(5+5\mathrm{i}\right)=5\left(1+\mathrm{i}\right)^2=5\cdot 2\mathrm{i}=10\mathrm{i}.
-$$
+父母基因型为 $I^AI^A\times I^Bi$: 父方只能遗传 $I^A$; 母方遗传 $I^B$ 或 $i$, 各 $\frac{1}{2}$. 子女基因型为 $I^AI^B$ ($AB$ 型) 或 $I^Ai$ ($A$ 型), 各 $\frac{1}{2}$. 故 $O: 0$, $A: \frac{1}{2}$, $B: 0$, $AB: \frac{1}{2}$.
 
-积 $10\mathrm{i}$ 的辐角为 $\frac{\pi}{2}$. 又三个角均为锐角, 其和在 $\left(0,\frac{3\pi}{2}\right)$ 内, 故 $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$. $\blacksquare$
+父母基因型为 $I^AI^A\times I^BI^B$: 父方只能遗传 $I^A$, 母方只能遗传 $I^B$. 子女基因型只能为 $I^AI^B$ ($AB$ 型). 故 $O: 0$, $A: 0$, $B: 0$, $AB: 1$. $\blacksquare$
 
-### 探究与发现一
+## 习题十一
 
-(探究与发现 1 的 n 次方根) 类比复数乘法的几何意义, 你能给出复数乘方的几何意义吗?
+(习题 10.3 综合运用第 5 题) "用事件 $A$ 发生的频率 $f_n\left(A\right)$ 估计概率 $P\left(A\right)$, 重复试验次数 $n$ 越大, 估计的就越精确", 判断这种说法是否正确, 并举例说明.
 
-### 解答 探究与发现一
+### 解答 习题十一
 
-由**定理 7.3.8 (棣莫弗定理)**, $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)$.
+由**定义 10.3.1 (频率的稳定性)**, 频率具有随机性, 随着试验次数增大, 频率偏离概率的幅度整体上会缩小, 但并不意味着 $n$ 越大频率一定越接近概率.
 
-复数乘方的几何意义为: 将复数对应的向量绕原点 $O$ 每次旋转角 $\theta$ 并将模伸长为原来的 $r$ 倍, 重复 $n$ 次, 最终得到模为 $r^n$, 辐角为 $n\theta$ 的向量. 即连续旋转 $n$ 次角 $\theta$, 连续伸缩 $n$ 次为原来的 $r$ 倍. $\blacksquare$
+该说法不完全正确. 虽然一般情况下试验次数越多频率越稳定于概率, 但频率的随机性使得 $n$ 较大时的频率仍可能比 $n$ 较小时的频率离概率更远. 例如抛掷硬币, 概率为 $0.5$, 某 $100$ 次试验中正面出现 $55$ 次, 频率为 $0.55$; 某 $1000$ 次试验中正面出现 $520$ 次, 频率为 $0.52$. 后者更接近 $0.5$. 但也可能出现 $100$ 次频率为 $0.50$, $1000$ 次频率为 $0.53$ 的情况. 因此 "$n$ 越大估计越精确" 只是整体趋势, 而非必然保证. $\blacksquare$
 
-### 探究与发现二
+## 习题十二
 
-(探究与发现 1 的 n 次方根) 我们还可以得到 1 的 3 次方根的一些性质: (1) $\left(\omega_k\right)^3=1$, $\lvert\omega_k\rvert=1$, 其中 $k=0,1,2$; (2) $\omega_1$ 和 $\omega_2$ 互为共轭复数; (3) $1+\omega_k+\omega_k^2=0$ ($k=1,2$). 你能证明这些性质吗?
+(习题 10.3 综合运用第 6 题) 在一个袋子中放 $6$ 个白球, $4$ 个红球, 摇匀后随机摸球 $3$ 次, 采用放回和不放回两种方式摸球. 设事件 $A_i=$ "第 $i$ 次摸到红球", $i=1, 2, 3$.
 
-### 解答 探究与发现二
+(1) 在两种摸球方式下分别猜想事件 $A_1, A_2, A_3$ 发生的概率的大小关系;
 
-由**定理 7.3.8 (棣莫弗定理)**, $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
+(2) 重复做 $10$ 次试验, 求事件 $A_1, A_2, A_3$ 发生的频率, 并填入下表.
 
-(1) 由棣莫弗定理, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos 2k\pi+\mathrm{i}\sin 2k\pi=1$. 模 $\lvert\omega_k\rvert=1$.
+| 频率 | 放回摸球 | 不放回摸球 |
+|---|---|---|
+| $f_{10}\left(A_1\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $f_{10}\left(A_2\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $f_{10}\left(A_3\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
-(2) $\omega_1=\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}=-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$, $\omega_2=\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$. 实部相等, 虚部互为相反数, 故互为共轭复数.
+(3) 在两种摸球方式下, 第 $3$ 次摸到红球的频率 $f_{10}\left(A_3\right)$ 差别大吗? 在不放回摸球方式下, 事件 $A_1, A_2, A_3$ 的频率差别大吗? 请说明原因.
 
-(3) 当 $k=1$ 时, $1+\omega_1+\omega_1^2$. 由 $\omega_1^3=1$, 得 $\left(\omega_1-1\right)\left(\omega_1^2+\omega_1+1\right)=0$. 又 $\omega_1\neq 1$, 故 $\omega_1^2+\omega_1+1=0$. 同理当 $k=2$ 时, $1+\omega_2+\omega_2^2=0$. $\blacksquare$
+### 解答 习题十二
 
-### 探究与发现三
+(1) 放回摸球: 每次摸球时袋中球的组成不变 ($6$ 白 $4$ 红), 故每次摸到红球的概率均为 $\frac{4}{10}=0.4$, 即 $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
 
-(探究与发现 1 的 n 次方根) 类比上述研究方法, 请你自己探求 1 的 4 次方根, 5 次方根, n 次方根. 你能解释它们的几何意义, 并探求它们的性质吗?
+不放回摸球: 每次摸球后袋中球数减少, 摸到红球的概率随摸球次数变化. 第一次摸到红球的概率为 $\frac{4}{10}=0.4$; 若第一次摸到红球, 第二次摸到红球的概率为 $\frac{3}{9}=\frac{1}{3}$, 若第一次摸到白球, 第二次摸到红球的概率为 $\frac{4}{9}$. 由全概率思想, 第二次摸到红球的概率仍为 $\frac{4}{10}=0.4$, 第三次同理. 故两种方式下 $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
 
-### 解答 探究与发现三
+(2) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生 $1$ 至 $10$ 的随机数, $1$ 至 $4$ 表示红球, $5$ 至 $10$ 表示白球. 放回摸球时每次产生一个独立随机数; 不放回摸球时每 $3$ 个随机数为一组且不重复. 重复 $10$ 次, 统计各次摸到红球的频率. 频率因试验随机而不同, 但应在 $0.4$ 附近.
 
-设 $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ 是 $1$ 的 $n$ 次方根, 则 $z^n=1=\cos 0+\mathrm{i}\sin 0$. 由**定理 7.3.8 (棣莫弗定理)**,
+(3) 由**定义 10.3.1 (频率的稳定性)**, 放回与不放回两种方式下, 第 $3$ 次摸到红球的频率应都在 $0.4$ 附近, 差别不大. 在不放回摸球方式下, $A_1, A_2, A_3$ 的频率也应都在 $0.4$ 附近, 差别不大. 原因是每次摸到红球的概率理论上均为 $0.4$, 频率因随机性而波动, 但整体稳定于 $0.4$. $\blacksquare$
 
-$$
-z^n=\rho^n\left(\cos n\varphi+\mathrm{i}\sin n\varphi\right)=\cos 0+\mathrm{i}\sin 0.
-$$
+## 阅读与思考一
 
-由**定义 7.3.4 (非零复数相等的三角形式条件)**, $\rho^n=1$ 且 $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. 因 $\rho> 0$, 故 $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
+(阅读与思考 孟德尔遗传规律) 奥地利遗传学家孟德尔在 $1858$ 至 $1865$ 年的 $8$ 年间做了大量豌豆杂交试验. 他把子叶为黄色和绿色的豌豆杂交, 第一年收获的豌豆的子叶都是黄色的; 第二年, 当他把第一年收获的子叶为黄色的豌豆再种下时, 收获的豌豆的子叶颜色既有黄色也有绿色. 试验的具体数据如下: 子叶黄色 $6022$ 粒, 绿色 $2001$ 粒, 比例约为 $3.01: 1$. 在孟德尔豌豆试验中, 设 $A=$ "在子二代豌豆中随机选择一粒子叶是绿色的豌豆", 则 $A$ 是一个随机事件. 孟德尔的试验 (试验次数为 $8023$) 表明, 事件 $A$ 发生的频率约为 $0.2494$. 请问:
 
-由三角函数的周期性, $k=0,1,\cdots,n-1$ 给出 $n$ 个不同的根: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\ \left(k=0,1,\cdots,n-1\right)$.
+(1) 孟德尔是依据什么猜想事件 $A$ 发生的概率为 $0.25$, 从而构造遗传机理概率模型的?
 
-几何意义: 这 $n$ 个根对应的点均匀分布在以原点为圆心的单位圆上, 是单位圆的内接正 $n$ 边形的顶点, 其中 $\omega_0=1$ 恰为单位圆与实轴正半轴的交点.
+(2) 如果对某个随机现象, 我们先提出一个理论概率模型, 如何对模型的正确性进行验证呢?
 
-性质: (1) $\omega_k^n=1$, $\lvert\omega_k\rvert=1$; (2) $1+\omega_1+\omega_2+\cdots+\omega_{n-1}=0$; (3) 任意两个根的乘积仍为根. $\blacksquare$
+### 解答 阅读与思考一
+
+(1) 由**定义 10.3.1 (频率的稳定性)**, 孟德尔观察到在大量重复试验中, 子二代中子叶为绿色的豌豆出现的频率稳定在 $0.25$ 附近 ($0.2494$ 非常接近 $0.25$). 同时, 从遗传机理分析, 子一代遗传因子为 $Dd$, 子二代从父母本各随机继承一个因子, 基因型为 $DD, Dd, dD, dd$ 四种等可能组合, 其中只有 $dd$ 表现为绿色, 占 $\frac{1}{4}=0.25$. 频率的稳定性与遗传机理的概率推断相吻合, 故孟德尔猜想 $P\left(A\right)=0.25$.
+
+(2) 由**定义 10.3.1 (频率的稳定性)**, 验证理论概率模型的方法是: 进行大量重复试验, 计算该随机事件发生的频率, 观察频率是否稳定于理论模型给出的概率值. 如果在大量试验中, 事件发生的频率与理论概率接近, 则可以认为模型具有较高的可信度; 如果频率与理论概率相差较大, 则模型可能不正确, 需要修正. $\blacksquare$

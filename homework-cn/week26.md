@@ -1,270 +1,538 @@
 # week26
-> **定义 1.1.6 (列举法)**
+> **定义 6.2.11 (向量的数量积)**
 > 
-> 把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
-> **定义 1.2.1 (子集)**
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+> **定理 6.3.1 (平面向量基本定理)**
 > 
-> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
-> **定义 1.3.1 (并集)**
+> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+> **定理 6.4.2 (余弦定理)**
 > 
-> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
-> **定义 1.3.2 (交集)**
+> 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
+> **定理 6.4.3 (正弦定理)**
 > 
-> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
-> **定义 1.4.2 (充分条件与必要条件)**
+> 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
+> **定义 7.1.1 (虚数单位)**
 > 
-> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
-> **定义 1.4.4 (充要条件)**
+> 我们引入一个新数 $\mathrm{i}$, 使 $\mathrm{i}^2=-1$, $\mathrm{i}$ 叫做虚数单位.
+> **定义 7.1.4 (实部与虚部)**
 > 
-> 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
-> **定义 1.5.1 (全称量词与全称量词命题)**
+> 复数 z = a + bi (a, b 为实数) 中, a 叫做实部, b 叫做虚部.
+> **定义 7.1.5 (复数相等)**
 > 
-> 短语"所有的""任意一个"在逻辑中通常叫做全称量词, 用符号"$\forall$"表示. 含有全称量词的命题, 叫做全称量词命题.
-> **定义 1.5.2 (存在量词与存在量词命题)**
+> 两个复数相等当且仅当它们的实部和虚部分别相等.
+> **定义 7.1.6 (实数, 虚数, 纯虚数)**
 > 
-> 短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
-> **定义 1.5.3 (命题的否定)**
+> 当 b = 0 时, 复数 a + bi 为实数; 当 b != 0 时, 叫做虚数; 当 a = 0 且 b != 0 时, 叫做纯虚数.
+> **定义 7.1.7 (复平面)**
 > 
-> 对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg p$. 若 $p$ 是真命题, 则 $\neg p$ 是假命题; 若 $p$ 是假命题, 则 $\neg p$ 是真命题.
+> 建立直角坐标系表示复数的平面叫做复平面, x 轴叫做实轴, y 轴叫做虚轴.
+> **定义 7.1.8 (复数的几何意义)**
+> 
+> 复数 z = a + bi 与复平面内的点 Z(a, b) 一一对应, 也与向量 OZ = (a, b) 一一对应.
+> **定义 7.1.9 (复数的模)**
+> 
+> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
 
 ## 习题一
 
-(复习参考题1 复习巩固第 1 题) 用列举法表示下列集合:
-
-(1) $A=\left\{x\mid x^2=9\right\}$;
-
-(2) $B=\left\{x\in\mathbb N\mid 1\le x\le 2\right\}$;
-
-(3) $C=\left\{x\mid x^2-3x+2=0\right\}$.
+(习题 6.4 综合运用第 13 题) 一条河的两岸平行, 河的宽度 $d=500\text{ m}$, 一艘船从河岸边的 $A$ 处出发到河对岸. 已知船在静水中的速度 $\boldsymbol{v}_1$ 的大小为 $\lvert\boldsymbol{v}_1\rvert=10\text{ km/h}$, 水流速度 $\boldsymbol{v}_2$ 的大小为 $\lvert\boldsymbol{v}_2\rvert=2\text{ km/h}$. 请计算船行驶时间最短的三种情况.
 
 ### 解答 习题一
 
-由**定义 1.1.6 (列举法)**, 把集合的元素一一列举出来.
+由**定理 6.4.2 (余弦定理)**.
 
-(1) 方程 $x^2=9$ 的根为 $x=\pm3$, 故 $A=\left\{-3,3\right\}$.
+船速 $10\text{ km/h}$, 水速 $2\text{ km/h}$, 河宽 $0.5\text{ km}$.
 
-(2) 由常用数集, $\mathbb N$ 为非负整数集, 满足 $1\le x\le2$ 的非负整数为 $1,2$, 故 $B=\left\{1,2\right\}$.
+(1) 逆流钝角: 合速垂直分量小, 时间长.
 
-(3) 方程 $x^2-3x+2=0$ 即 $\left(x-1\right)\left(x-2\right)=0$, 其根为 $x=1$ 或 $x=2$, 故 $C=\left\{1,2\right\}$. $\blacksquare$
+(2) 顺流锐角: 合速垂直分量中等.
+
+(3) 垂直对岸: 合速垂直分量 $=\sqrt{100-4}=\sqrt{96}$.
+
+时间 $t=\frac{d}{v_\perp}$. 垂直对岸时 $v_\perp$ 最大, 时间最短. $\blacksquare$
 
 ## 习题二
 
-(复习参考题1 复习巩固第 2 题) 设 $P$ 表示平面内的动点, 属于下列集合的点组成什么图形?
-
-(1) $\left\{P\mid PA=PB\right\}$ ($A,B$ 是两个不同定点);
-
-(2) $\left\{P\mid PO=3\mathrm{cm}\right\}$ ($O$ 是定点).
+(习题 6.4 综合运用第 14 题) 一条东西方向的河流两岸平行, 河宽 $250\text{ m}$, 水流的速度为向东 $\frac{2\sqrt 3}{3}\text{ km/h}$. 一艘小货船准备从河的南岸码头 $A$ 处出发, 航行到位于河对岸 $B$ ($AB$ 与河的方向垂直) 的正西方向并且与 $B$ 相距 $\frac{250\sqrt 3}{3}\text{ m}$ 的码头 $C$ 处卸货. 若水流的速度与小货船航行的速度的合速度的大小为 $6\text{ km/h}$, 则当小货船的航程最短时, 求合速度的方向, 并求此时小货船航行速度的大小.
 
 ### 解答 习题二
 
-由集合的描述法, 集合即满足所列条件的点的全体.
+由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**.
 
-(1) 到两个不同定点 $A,B$ 距离相等的点的轨迹, 是线段 $AB$ 的垂直平分线, 故该集合表示线段 $AB$ 的垂直平分线.
+$AB=0.25\text{ km}$, $BC=\frac{0.25\sqrt 3}{3}\text{ km}$. $AC=\sqrt{0.25^2+\left(\frac{0.25\sqrt 3}{3}\right)^2}=\sqrt{0.0625+0.0208}=\frac{0.5}{\sqrt 3}\text{ km}$.
 
-(2) 到定点 $O$ 的距离等于定长 $3\mathrm{cm}$ 的点的轨迹, 是以 $O$ 为圆心, $3\mathrm{cm}$ 为半径的圆, 故该集合表示这个圆. $\blacksquare$
+$\angle BAC$ 满足 $\tan\angle BAC=\frac{BC}{AB}=\frac{\sqrt 3}{3}$, $\angle BAC=30^{\circ}$.
+
+合速度方向沿 $AC$, 即西偏北 $30^{\circ}$.
+
+合速度大小 $6\text{ km/h}$. 水速向东 $\frac{2\sqrt 3}{3}\text{ km/h}$.
+
+船速 $=\sqrt{6^2+\left(\frac{2\sqrt 3}{3}\right)^2-2\times6\times\frac{2\sqrt 3}{3}\cos60^{\circ}}=\sqrt{36+\frac{4}{3}-4\sqrt 3}\approx\sqrt{36.1-6.93}\approx\sqrt{29.2}\approx5.4\text{ km/h}$. $\blacksquare$
 
 ## 习题三
 
-(复习参考题1 复习巩固第 3 题) 设平面内有 $\triangle ABC$, 且 $P$ 表示这个平面内的动点, 指出属于集合 $\left\{P\mid PA=PB\right\}\cap\left\{P\mid PA=PC\right\}$ 的点是什么.
+(习题 6.4 综合运用第 15 题) $\triangle ABC$ 的三边分别为 $a$, $b$, $c$, 边 $BC$, $CA$, $AB$ 上的中线分别记为 $m_a$, $m_b$, $m_c$, 利用余弦定理证明:
+
+$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(a^2+c^2\right)-b^2}$, $m_c=\frac{1}{2}\sqrt{2\left(a^2+b^2\right)-c^2}$.
 
 ### 解答 习题三
 
-由**定义 1.3.2 (交集)**, 所求点既要满足 $PA=PB$, 又要满足 $PA=PC$.
+由**定理 6.4.2 (余弦定理)**.
 
-由 $\left\{P\mid PA=PB\right\}$ 是线段 $AB$ 的垂直平分线, $\left\{P\mid PA=PC\right\}$ 是线段 $AC$ 的垂直平分线, 二者的交集即这两条垂直平分线的交点.
+设 $M$ 为 $BC$ 中点, $BM=\frac{a}{2}$. 在 $\triangle ABM$ 中, $m_a^2=c^2+\left(\frac{a}{2}\right)^2-2c\cdot\frac{a}{2}\cos B$.
 
-该交点到 $A,B,C$ 三点的距离都相等, 它就是 $\triangle ABC$ 的外心, 即 $\triangle ABC$ 外接圆的圆心. $\blacksquare$
+由余弦定理 $\cos B=\frac{a^2+c^2-b^2}{2ac}$:
+
+$m_a^2=c^2+\frac{a^2}{4}-ac\cdot\frac{a^2+c^2-b^2}{2ac}=c^2+\frac{a^2}{4}-\frac{a^2+c^2-b^2}{2}=\frac{2c^2+a^2-2a^2-2c^2+2b^2}{4}=\frac{2b^2+2c^2-a^2}{4}$.
+
+$m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. 同理可得其余两式. $\blacksquare$
 
 ## 习题四
 
-(复习参考题1 复习巩固第 4 题) 请用 "充分不必要条件" "必要不充分条件" "充要条件" "既不充分也不必要条件" 填空:
-
-(1) 三角形两边上的高相等是这个三角形为等腰三角形的 $\;\_\_\;$;
-
-(2) $x\in A$ 是 $x\in A\cup B$ 的 $\;\_\_\;$;
-
-(3) $x\in A$ 是 $x\in A\cap B$ 的 $\;\_\_\;$;
-
-(4) $x,y$ 为无理数是 $x+y$ 为无理数的 $\;\_\_\;$.
+(习题 6.4 综合运用第 16 题) 在 $\triangle ABC$ 中, 求证: $c\left(a\cos B-b\cos A\right)=a^2-b^2$.
 
 ### 解答 习题四
 
-由**定义 1.4.2 (充分条件与必要条件)** 与**定义 1.4.4 (充要条件)**, 分别判断两个方向的推出关系.
+由**定理 6.4.2 (余弦定理)**.
 
-(1) 设三角形两边 $a,b$ 上的高为 $h_a,h_b$. 由三角形面积 $S=\frac12 ah_a=\frac12 bh_b$, 若 $h_a=h_b$ 则 $a=b$, 即三角形为等腰三角形; 反之等腰三角形两腰上的高相等. 故二者互为充要条件, 填 "充要条件".
-
-(2) 由**定义 1.3.1 (并集)**, $x\in A$ 必有 $x\in A\cup B$, 即 $x\in A\Rightarrow x\in A\cup B$; 但 $x\in A\cup B$ 可能只属于 $B$, 推不出 $x\in A$. 故 $x\in A$ 是 $x\in A\cup B$ 的充分不必要条件.
-
-(3) 由**定义 1.3.2 (交集)**, $x\in A\cap B$ 必有 $x\in A$, 即 $x\in A\cap B\Rightarrow x\in A$; 但 $x\in A$ 未必属于 $B$, 推不出 $x\in A\cap B$. 故 $x\in A$ 是 $x\in A\cap B$ 的必要不充分条件.
-
-(4) 取 $x=\sqrt 2$, $y=-\sqrt 2$, 二者均为无理数, 但 $x+y=0$ 为有理数; 又取 $x=y=\sqrt 2$, $x+y=2\sqrt 2$ 为无理数. 两个方向都不成立, 故 $x,y$ 为无理数是 $x+y$ 为无理数的既不充分也不必要条件. $\blacksquare$
+左边 $=c\left(a\cdot\frac{a^2+c^2-b^2}{2ac}-b\cdot\frac{b^2+c^2-a^2}{2bc}\right)=c\cdot\frac{a^2+c^2-b^2-b^2-c^2+a^2}{2c}=\frac{2a^2-2b^2}{2}=a^2-b^2=$ 右边. $\blacksquare$
 
 ## 习题五
 
-(复习参考题1 复习巩固第 5 题) 已知 $a,b,c$ 是实数, 判断下列命题的真假:
-
-(1) "$a> b$" 是 "$a^2> b^2$" 的充分条件; ($\;\_\_\;$)
-
-(2) "$a> b$" 是 "$a^2> b^2$" 的必要条件; ($\;\_\_\;$)
-
-(3) "$a> b$" 是 "$ac^2> bc^2$" 的充分条件; ($\;\_\_\;$)
-
-(4) "$a> b$" 是 "$ac^2> bc^2$" 的必要条件. ($\;\_\_\;$)
+(习题 6.4 综合运用第 17 题) 证明: 设三角形的外接圆的半径是 $R$, 则 $a=2R\sin A$, $b=2R\sin B$, $c=2R\sin C$.
 
 ### 解答 习题五
 
-由**定义 1.4.2 (充分条件与必要条件)**, 举反例可判其为假, 普遍推证可判其为真.
+由**定理 6.4.3 (正弦定理)**.
 
-(1) 取 $a=1$, $b=-2$, 有 $a> b$, 但 $a^2=1< 4=b^2$, 故 $a> b\nRightarrow a^2> b^2$, 该命题为假命题.
+设外接圆圆心为 $O$. 过 $O$ 作直径 $BD$, 则 $\angle BAD=90^{\circ}$ (直径所对圆周角为直角). $\angle BDA=\angle BCA=C$ (同弧所对圆周角相等).
 
-(2) 取 $a=-2$, $b=1$, 有 $a^2=4> 1=b^2$, 但 $a< b$, 故 $a^2> b^2\nRightarrow a> b$, 即 "$a> b$" 不是 "$a^2> b^2$" 的必要条件, 该命题为假命题.
+在直角三角形 $ABD$ 中, $AB=BD\sin\angle BDA=2R\sin C$. 即 $c=2R\sin C$.
 
-(3) 取 $c=0$, 则 $ac^2=bc^2=0$, 即使 $a> b$ 也有 $ac^2=bc^2$, 故 $a> b\nRightarrow ac^2> bc^2$, 该命题为假命题.
-
-(4) 若 $ac^2> bc^2$, 则必有 $c^2> 0$ (否则两边皆为 $0$, 不满足 $> $), 两边同除以正数 $c^2$, 得 $a> b$, 故 $ac^2> bc^2\Rightarrow a> b$, 该命题为真命题. $\blacksquare$
+同理 $a=2R\sin A$, $b=2R\sin B$. $\blacksquare$
 
 ## 习题六
 
-(复习参考题1 复习巩固第 6 题) 用符号 "$\forall$" 与 "$\exists$" 表示下列含有量词的命题, 并判断真假:
-
-(1) 任意实数的平方大于或等于 $0$;
-
-(2) 对任意实数 $a$, 二次函数 $y=x^2+a$ 的图象关于 $y$ 轴对称;
-
-(3) 存在整数 $x,y$, 使得 $2x+4y=3$;
-
-(4) 存在一个无理数, 它的立方是有理数.
+(习题 6.4 综合运用第 18 题) 利用第 10 题的结论, 证明三角形的面积公式 $S=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$.
 
 ### 解答 习题六
 
-由**定义 1.5.1 (全称量词与全称量词命题)** 与**定义 1.5.2 (存在量词与存在量词命题)** 表示并判断.
+由**定理 6.4.3 (正弦定理)** 与第 10 题结论 $S=\frac{1}{2}ab\sin C$.
 
-(1) 表示为 $\forall x\in\mathbb R,\ x^2\ge 0$. 由实数平方非负, 该命题为真命题.
+由正弦定理 $b=\frac{a\sin B}{\sin A}$.
 
-(2) 表示为 $\forall a\in\mathbb R$, 二次函数 $y=x^2+a$ 的图象关于 $y$ 轴对称. 抛物线 $y=x^2+a$ 关于 $y$ 轴对称, 对任意实数 $a$ 成立, 该命题为真命题.
-
-(3) 表示为 $\exists x,y\in\mathbb Z,\ 2x+4y=3$. 左边 $2x+4y=2\left(x+2y\right)$ 是偶数, 右边 $3$ 是奇数, 二者不可能相等, 该命题为假命题.
-
-(4) 表示为 "存在无理数 $x$, $x^3$ 是有理数". 取 $x=\sqrt\left[3\right]{2}$, 它是无理数, 而 $x^3=2$ 是有理数, 这样的 $x$ 存在, 该命题为真命题. $\blacksquare$
+$S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$. $\blacksquare$
 
 ## 习题七
 
-(复习参考题1 复习巩固第 7 题) 写出下列命题的否定, 并判断它们的真假:
+(习题 6.4 拓广探索第 19 题) 如图, 在 $\square ABCD$ 中, 点 $E$, $F$ 分别是 $AD$, $DC$ 边的中点, $BE$, $BF$ 分别与 $AC$ 交于 $R$, $T$ 两点, 你能发现 $AR$, $RT$, $TC$ 之间的关系吗? 用向量方法证明你的结论.
 
-(1) $\forall a\in\mathbb R$, 一元二次方程 $x^2-ax-1=0$ 有实根;
-
-(2) 每个正方形都是平行四边形;
-
-(3) $\exists m\in\mathbb N,\ \sqrt{m^2+1}\in\mathbb N$;
-
-(4) 存在一个四边形 $ABCD$, 其内角和不等于 $360^\circ$.
+图:平行四边形 $ABCD$,$E$ 为边 $AD$ 的中点,$F$ 为边 $DC$ 的中点;线段 $BE$ 与对角线 $AC$ 交于点 $R$,线段 $BF$ 与对角线 $AC$ 交于点 $T$.
 
 ### 解答 习题七
 
-由**常用结论 1.5.4** (全称量词命题的否定) 与**常用结论 1.5.5** (存在量词命题的否定) 改写, 并由**定义 1.5.3 (命题的否定)** 的真假相反判断.
+由**常用结论 6.4.1** (向量法三步曲) 与**定理 6.3.1 (平面向量基本定理)**.
 
-(1) 这是全称量词命题, 其否定为 $\exists a\in\mathbb R$, 一元二次方程 $x^2-ax-1=0$ 无实根. 原方程的判别式为 $\left(-a\right)^2+4=a^2+4> 0$ 恒成立, 故原命题为真, 其否定为假命题.
+设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$. $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$.
 
-(2) 这是全称量词命题, 其否定为 "存在一个正方形, 它不是平行四边形". 正方形是特殊的平行四边形, 原命题为真, 其否定为假命题.
+$R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\lambda\boldsymbol{a}+\frac{\mu}{2}\boldsymbol{b}$. 又 $R$ 在 $AC$ 上: $\boldsymbol{AR}=t\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
-(3) 这是存在量词命题, 其否定为 $\forall m\in\mathbb N,\ \sqrt{m^2+1}\notin\mathbb N$. 取 $m=0\in\mathbb N$, 则 $\sqrt{m^2+1}=\sqrt 1=1\in\mathbb N$, 故原命题为真, 其否定为假命题.
+比较: $t=\lambda$, $t=\frac{\mu}{2}$. $E$ 在 $AD$ 上, $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{b}$. 由 $B$, $R$, $E$ 共线: $\lambda+\frac{\mu}{2}=1$, 即 $t+t=1$, $t=\frac{1}{3}$. 故 $AR=\frac{1}{3}AC$.
 
-(4) 这是存在量词命题, 其否定为 "每个四边形的内角和都等于 $360^\circ$". 任意四边形内角和都为 $360^\circ$, 原命题为假, 其否定为真命题. $\blacksquare$
+同理 $T$ 在 $BF$ 上, $F$ 为 $DC$ 中点, $\boldsymbol{AF}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}$. 由 $A$, $T$, $C$ 共线及 $B$, $T$, $F$ 共线, 得 $AT=\frac{2}{3}AC$.
+
+故 $AR=RT=TC=\frac{1}{3}AC$. $\blacksquare$
 
 ## 习题八
 
-(复习参考题1 综合运用第 8 题) 已知集合 $A=\left\{\left(x,y\right)\mid 2x-y=0\right\}$, $B=\left\{\left(x,y\right)\mid 3x+y=0\right\}$, $C=\left\{\left(x,y\right)\mid 2x-y=3\right\}$, 求 $A\cap B$, $A\cap C$, 并解释它们的几何意义.
+(习题 6.4 拓广探索第 20 题) 已知 $\triangle ABC$ 的三个角 $A$, $B$, $C$ 的对边分别为 $a$, $b$, $c$, 设 $p=\frac{1}{2}\left(a+b+c\right)$, 求证:
+
+(1) 三角形的面积 $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$;
+
+(2) 若 $r$ 为三角形的内切圆半径, 则 $r=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$;
+
+(3) 把边 $BC$, $AC$, $AB$ 上的高分别记为 $h_a$, $h_b$, $h_c$, 则 $h_a=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_b=\frac{2}{b}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$, $h_c=\frac{2}{c}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
 
 ### 解答 习题八
 
-由**定义 1.3.2 (交集)**, $A\cap B$ 由同时属于两条直线的点组成, 即两直线的交点.
+由**定理 6.4.2 (余弦定理)** 与面积公式.
 
-集合 $A$ 表示直线 $y=2x$, $B$ 表示直线 $y=-3x$, $C$ 表示直线 $y=2x-3$.
+(1) $S=\frac{1}{2}ab\sin C$. $\sin C=\sqrt{1-\cos^2 C}$. $\cos C=\frac{a^2+b^2-c^2}{2ab}$.
 
-求 $A\cap B$, 解方程组
+$S^2=\frac{a^2b^2}{4}\left(1-\cos^2 C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
 
-$$
-\begin{cases}2x-y=0,\\3x+y=0.\end{cases}
-$$
+$=\frac{\left(2ab-a^2-b^2+c^2\right)\left(2ab+a^2+b^2-c^2\right)}{16}=\frac{\left(c^2-\left(a-b\right)^2\right)\left(\left(a+b\right)^2-c^2\right)}{16}$.
 
-两式相加得 $5x=0$, 即 $x=0$, 代回得 $y=0$, 故 $A\cap B=\left\{\left(0,0\right)\right\}$. 其几何意义为直线 $y=2x$ 与 $y=-3x$ 的交点, 即坐标原点.
+$=\frac{\left(c-a+b\right)\left(c+a-b\right)\left(a+b-c\right)\left(a+b+c\right)}{16}$.
 
-求 $A\cap C$, 注意到直线 $A$ 与直线 $C$ 的斜率都为 $2$, 互相平行, 且截距分别为 $0$ 与 $-3$, 是两条不重合的平行直线, 没有公共点, 故 $A\cap C=\varnothing$. 其几何意义为直线 $y=2x$ 与 $y=2x-3$ 平行而不相交. $\blacksquare$
+$=p\left(p-a\right)\left(p-b\right)\left(p-c\right)$. $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$.
+
+(2) $S=rp$. $r=\frac{S}{p}=\frac{\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}}{p}=\sqrt{\frac{\left(p-a\right)\left(p-b\right)\left(p-c\right)}{p}}$.
+
+(3) $S=\frac{1}{2}ah_a$. $h_a=\frac{2S}{a}=\frac{2}{a}\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$. 同理 $h_b$, $h_c$. $\blacksquare$
 
 ## 习题九
 
-(复习参考题1 综合运用第 9 题) 已知集合 $A=\left\{1,3,a^2\right\}$, $B=\left\{1,a+2\right\}$, 是否存在实数 $a$, 使得 $A\cup B=A$? 若存在, 试求出实数 $a$ 的值; 若不存在, 请说明理由.
+(习题 6.4 拓广探索第 21 题) 如图, 为了测量两山顶 $M$, $N$ 间的距离, 飞机沿水平方向在 $A$, $B$ 两点进行测量, $A$, $B$, $M$, $N$ 在同一个铅垂平面内. 请设计一个测量方案.
+
+图:铅垂面内的测量示意图,上方水平线上有飞机位置 $A$, $B$ 两点,下方地面上有两个山顶 $M$, $N$;从 $A$, $B$ 分别观测 $M$, $N$ 的仰角,$AB$ 为水平基线.
 
 ### 解答 习题九
 
-由**定义 1.3.1 (并集)** 与**定义 1.2.1 (子集)**, $A\cup B=A$ 当且仅当 $B\subseteq A$, 即 $B$ 的每个元素都属于 $A$.
+由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**.
 
-$B$ 中有元素 $1$ 与 $a+2$. 其中 $1\in A$ 已满足, 只需 $a+2\in A=\left\{1,3,a^2\right\}$, 分三种情况.
+(1) 测量 $AB$ 的距离 $d$, 在 $A$ 点测得 $M$ 的仰角 $\alpha_1$, $N$ 的仰角 $\beta_1$; 在 $B$ 点测得 $M$ 的仰角 $\alpha_2$, $N$ 的仰角 $\beta_2$.
 
-(1) 若 $a+2=1$, 则 $a=-1$. 此时 $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,1\right\}=\left\{1\right\}$, 满足 $B\subseteq A$.
-
-(2) 若 $a+2=3$, 则 $a=1$. 此时 $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,3\right\}$, 满足 $B\subseteq A$.
-
-(3) 若 $a+2=a^2$, 则 $a^2-a-2=0$, 即 $\left(a-2\right)\left(a+1\right)=0$, 得 $a=2$ 或 $a=-1$. 其中 $a=-1$ 已在 (1) 中讨论; 当 $a=2$ 时, $A=\left\{1,3,4\right\}$, $B=\left\{1,4\right\}$, 满足 $B\subseteq A$.
-
-综上, 存在这样的实数 $a$, 其值为 $a=-1$, $a=1$ 或 $a=2$. $\blacksquare$
+(2) 在 $\triangle ABM$ 中, 由正弦定理求 $AM$, $BM$; 在 $\triangle ABN$ 中求 $AN$, $BN$; 在 $\triangle AMN$ 或 $\triangle BMN$ 中由余弦定理求 $MN$. $\blacksquare$
 
 ## 习题十
 
-(复习参考题1 综合运用第 10 题) 把下列定理表示的命题写成含有量词的命题:
+(习题 6.4 拓广探索第 22 题) 已知 $a$, $b$, $c$ 分别为 $\triangle ABC$ 三个内角 $A$, $B$, $C$ 的对边, 且 $a\cos C+\sqrt 3a\sin C-b-c=0$.
 
-(1) 勾股定理;
+(1) 求 $A$;
 
-(2) 三角形内角和定理.
+(2) 若 $a=2$, 且 $\triangle ABC$ 的面积为 $\sqrt 3$, 求 $b$, $c$.
 
 ### 解答 习题十
 
-由**定义 1.5.1 (全称量词与全称量词命题)**, 这两条定理都是对一类对象普遍成立的, 应写成全称量词命题.
+由**定理 6.4.3 (正弦定理)**.
 
-(1) 勾股定理即: 对任意一个直角三角形, 若其两条直角边长为 $a,b$, 斜边长为 $c$, 则 $a^2+b^2=c^2$. 写成全称量词命题为 $\forall$ 直角三角形 (直角边 $a,b$, 斜边 $c$), $a^2+b^2=c^2$.
+(1) 由正弦定理: $\sin A\cos C+\sqrt 3\sin A\sin C-\sin B-\sin C=0$.
 
-(2) 三角形内角和定理即: 对任意一个三角形, 它的三个内角之和等于 $180^\circ$. 写成全称量词命题为 $\forall$ 三角形, 其三个内角之和等于 $180^\circ$. $\blacksquare$
+$B=\pi-A-C$. $\sin B=\sin\left(A+C\right)=\sin A\cos C+\cos A\sin C$.
+
+$\sin A\cos C+\sqrt 3\sin A\sin C-\sin A\cos C-\cos A\sin C-\sin C=0$.
+
+$\left(\sqrt 3\sin A-\cos A-1\right)\sin C=0$.
+
+$\sqrt 3\sin A-\cos A=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
+
+$A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
+
+(2) $S=\frac{1}{2}bc\sin A=\sqrt 3$. $\frac{1}{2}bc\cdot\frac{\sqrt 3}{2}=\sqrt 3$. $bc=4$.
+
+$a^2=b^2+c^2-2bc\cos A$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
+
+$b^2+c^2=8$. $\left(b+c\right)^2=b^2+c^2+2bc=16$. $b+c=4$.
+
+$bc=4$, $b+c=4$. $b=c=2$. $\blacksquare$
 
 ## 习题十一
 
-(复习参考题1 拓广探索第 11 题) 学校举办运动会时, 高一 (1) 班共有 $28$ 名同学参加比赛, 有 $15$ 人参加游泳比赛, 有 $8$ 人参加田径比赛, 有 $14$ 人参加球类比赛, 同时参加游泳比赛和田径比赛的有 $3$ 人, 同时参加游泳比赛和球类比赛的有 $3$ 人, 没有人同时参加三项比赛. 问: 同时参加田径和球类比赛的有多少人? 只参加游泳一项比赛的有多少人?
+(习题 6.4 拓广探索第 23 题) 根据实际需要, 利用本节所学的知识完成一次有关测量的实习作业, 并写出实习报告.
 
 ### 解答 习题十一
 
-设参加游泳, 田径, 球类比赛的同学集合分别为 $S,T,B$, 则 $\operatorname{card}\left(S\cup T\cup B\right)=28$, $\operatorname{card}\left(S\right)=15$, $\operatorname{card}\left(T\right)=8$, $\operatorname{card}\left(B\right)=14$, $\operatorname{card}\left(S\cap T\right)=3$, $\operatorname{card}\left(S\cap B\right)=3$, 且 $\operatorname{card}\left(S\cap T\cap B\right)=0$.
+由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**, 设计测量方案: 选择不可直接到达的两点 (如河两岸), 测量基线长度及各角度, 用正弦定理和余弦定理计算距离. 实习报告包括测量问题, 测量工具, 测得数据和计算过程及结论. $\blacksquare$
 
-设同时参加田径和球类比赛的人数为 $x$, 即 $\operatorname{card}\left(T\cap B\right)=x$.
+## 练习一
 
-由**常用结论** (有限集元素个数) 的容斥原理,
+(练习 7.1 第 1 题) 说出下列复数的实部和虚部:
+
+$-2+\frac{1}{3}\mathrm{i}$, $\sqrt{2}+\mathrm{i}$, $\frac{\sqrt{2}}{2}$, $-\sqrt{3}\mathrm{i}$, $\mathrm{i}$, $0$.
+
+### 解答 练习一
+
+由**定义 7.1.4 (实部与虚部)**, 复数 $z=a+b\mathrm{i}$ 中 $a$ 为实部, $b$ 为虚部.
+
+(1) 复数 $-2+\frac{1}{3}\mathrm{i}$ 的实部为 $-2$, 虚部为 $\frac{1}{3}$.
+
+(2) 复数 $\sqrt{2}+\mathrm{i}$ 的实部为 $\sqrt{2}$, 虚部为 $1$.
+
+(3) 复数 $\frac{\sqrt{2}}{2}=\frac{\sqrt{2}}{2}+0\mathrm{i}$ 的实部为 $\frac{\sqrt{2}}{2}$, 虚部为 $0$.
+
+(4) 复数 $-\sqrt{3}\mathrm{i}=0+\left(-\sqrt{3}\right)\mathrm{i}$ 的实部为 $0$, 虚部为 $-\sqrt{3}$.
+
+(5) 复数 $\mathrm{i}=0+1\mathrm{i}$ 的实部为 $0$, 虚部为 $1$.
+
+(6) 复数 $0=0+0\mathrm{i}$ 的实部为 $0$, 虚部为 $0$. $\blacksquare$
+
+## 练习二
+
+(练习 7.1 第 2 题) 指出下列各数中, 哪些是实数, 哪些是虚数, 哪些是纯虚数. 为什么?
+
+$2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$, $\sqrt{2}-\sqrt{2}\mathrm{i}$.
+
+### 解答 练习二
+
+由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 复数 $a+b\mathrm{i}$ 当 $b=0$ 时为实数, 当 $b\neq 0$ 时为虚数, 当 $a=0$ 且 $b\neq 0$ 时为纯虚数.
+
+(1) $2+\sqrt{7}=\left(2+\sqrt{7}\right)+0\mathrm{i}$, 虚部为 $0$, 是实数.
+
+(2) $0.618=0.618+0\mathrm{i}$, 虚部为 $0$, 是实数.
+
+(3) $\frac{2}{7}\mathrm{i}=0+\frac{2}{7}\mathrm{i}$, 实部为 $0$, 虚部 $\frac{2}{7}\neq 0$, 是纯虚数.
+
+(4) $0=0+0\mathrm{i}$, 虚部为 $0$, 是实数.
+
+(5) $\mathrm{i}=0+1\mathrm{i}$, 实部为 $0$, 虚部 $1\neq 0$, 是纯虚数.
+
+(6) $5\mathrm{i}+8=8+5\mathrm{i}$, 实部 $8\neq 0$, 虚部 $5\neq 0$, 是虚数.
+
+(7) $3-9\sqrt{2}\mathrm{i}=3+\left(-9\sqrt{2}\right)\mathrm{i}$, 实部 $3\neq 0$, 虚部 $-9\sqrt{2}\neq 0$, 是虚数.
+
+(8) $\mathrm{i}\left(1-\sqrt{3}\right)=0+\left(1-\sqrt{3}\right)\mathrm{i}$, 实部为 $0$, 虚部 $1-\sqrt{3}\neq 0$, 是纯虚数.
+
+(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+\left(-\sqrt{2}\right)\mathrm{i}$, 实部 $\sqrt{2}\neq 0$, 虚部 $-\sqrt{2}\neq 0$, 是虚数.
+
+综上, 实数为 $2+\sqrt{7}$, $0.618$, $0$; 虚数为 $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\sqrt{2}-\sqrt{2}\mathrm{i}$; 纯虚数为 $\frac{2}{7}\mathrm{i}$, $\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$. $\blacksquare$
+
+## 练习三
+
+(练习 7.1 第 3 题) 求满足下列条件的实数 $x,y$ 的值:
+
+(1) $\left(x+y\right)+\left(y-1\right)\mathrm{i}=\left(2x+3y\right)+\left(2y+1\right)\mathrm{i}$;
+
+(2) $\left(x+y-3\right)+\left(x-2\right)\mathrm{i}=0$.
+
+### 解答 练习三
+
+由**定义 7.1.5 (复数相等)**, 两个复数相等当且仅当实部相等且虚部相等.
+
+(1) 等式两边的实部分别为 $x+y$ 与 $2x+3y$, 虚部分别为 $y-1$ 与 $2y+1$. 由复数相等, 得方程组
 
 $$
-\operatorname{card}\left(S\cup T\cup B\right)=\operatorname{card}\left(S\right)+\operatorname{card}\left(T\right)+\operatorname{card}\left(B\right)-\operatorname{card}\left(S\cap T\right)-\operatorname{card}\left(S\cap B\right)-\operatorname{card}\left(T\cap B\right)+\operatorname{card}\left(S\cap T\cap B\right).
+\begin{cases}x+y=2x+3y,\\y-1=2y+1.\end{cases}
 $$
 
-代入数据, 得 $28=15+8+14-3-3-x+0$, 即 $28=31-x$, 解得 $x=3$. 故同时参加田径和球类比赛的有 $3$ 人.
+由第一式, 得 $x+2y=0$; 由第二式, 得 $y=-2$. 代入第一式, 得 $x-4=0$, 即 $x=4$. 故 $x=4$, $y=-2$.
 
-只参加游泳一项比赛的人数, 即只在 $S$ 中而不在 $T,B$ 中的人数, 为 $\operatorname{card}\left(S\right)-\operatorname{card}\left(S\cap T\right)-\operatorname{card}\left(S\cap B\right)+\operatorname{card}\left(S\cap T\cap B\right)=15-3-3+0=9$. 故只参加游泳一项比赛的有 $9$ 人. $\blacksquare$
+(2) 等式右边 $0=0+0\mathrm{i}$, 由复数相等, 得方程组
+
+$$
+\begin{cases}x+y-3=0,\\x-2=0.\end{cases}
+$$
+
+由第二式, 得 $x=2$. 代入第一式, 得 $2+y-3=0$, 即 $y=1$. 故 $x=2$, $y=1$. $\blacksquare$
+
+## 练习四
+
+(练习 7.1 第 1 题) 说出图中复平面内各点所表示的复数 (每个小方格的边长为 $1$).
+
+图:复平面直角坐标系(横轴为实轴,纵轴为虚轴,小方格边长为 $1$),标出八个点:$A\left(3,3\right)$,$B\left(2,-2\right)$,$C\left(-3,2\right)$,$D\left(-3,-2\right)$,$E\left(3,0\right)$(在实轴上),$F\left(-2,0\right)$(在实轴上),$G\left(0,3\right)$(在虚轴上),$H\left(0,-3\right)$(在虚轴上).
+
+### 解答 练习四
+
+由**定义 7.1.8 (复数的几何意义)**, 复平面内的点 $Z\left(a,b\right)$ 表示复数 $a+b\mathrm{i}$.
+
+读图, 各点坐标为: $A\left(3,3\right)$, $B\left(2,-2\right)$, $C\left(-3,2\right)$, $D\left(-3,-2\right)$, $E\left(3,0\right)$, $F\left(-2,0\right)$, $G\left(0,3\right)$, $H\left(0,-3\right)$.
+
+故各点表示的复数分别为: $A:3+3\mathrm{i}$, $B:2-2\mathrm{i}$, $C:-3+2\mathrm{i}$, $D:-3-2\mathrm{i}$, $E:3$, $F:-2$, $G:3\mathrm{i}$, $H:-3\mathrm{i}$. $\blacksquare$
+
+## 练习五
+
+(练习 7.1 第 2 题) 在复平面内, 描出表示下列复数的点:
+
+(1) $2+5\mathrm{i}$;
+
+(2) $-3+2\mathrm{i}$;
+
+(3) $2-4\mathrm{i}$;
+
+(4) $-3-\mathrm{i}$;
+
+(5) $5$;
+
+(6) $-3\mathrm{i}$.
+
+图:复平面直角坐标系,描出六个点:$2+5\mathrm{i}$ 对应 $\left(2,5\right)$,$-3+2\mathrm{i}$ 对应 $\left(-3,2\right)$,$2-4\mathrm{i}$ 对应 $\left(2,-4\right)$,$-3-\mathrm{i}$ 对应 $\left(-3,-1\right)$,$5$ 对应实轴上的 $\left(5,0\right)$,$-3\mathrm{i}$ 对应虚轴上的 $\left(0,-3\right)$.
+
+### 解答 练习五
+
+由**定义 7.1.8 (复数的几何意义)**, 复数 $a+b\mathrm{i}$ 对应复平面内的点 $\left(a,b\right)$.
+
+(1) $2+5\mathrm{i}$ 对应点 $\left(2,5\right)$.
+
+(2) $-3+2\mathrm{i}$ 对应点 $\left(-3,2\right)$.
+
+(3) $2-4\mathrm{i}$ 对应点 $\left(2,-4\right)$.
+
+(4) $-3-\mathrm{i}$ 对应点 $\left(-3,-1\right)$.
+
+(5) $5=5+0\mathrm{i}$ 对应点 $\left(5,0\right)$, 在实轴上.
+
+(6) $-3\mathrm{i}=0+\left(-3\right)\mathrm{i}$ 对应点 $\left(0,-3\right)$, 在虚轴上.
+
+在复平面内分别描出上述各点即可. $\blacksquare$
+
+## 练习六
+
+(练习 7.1 第 3 题) 已知复数 $2+\mathrm{i}$, $-2+4\mathrm{i}$, $-2\mathrm{i}$, $4$, $\frac{3}{2}-4\mathrm{i}$,
+
+(1) 在复平面内画出这些复数对应的向量;
+
+(2) 求这些复数的模.
+
+图:复平面直角坐标系,以原点 $O$ 为起点画出五个向量,分别对应复数 $2+\mathrm{i}$(即 $\left(2,1\right)$),$-2+4\mathrm{i}$(即 $\left(-2,4\right)$),$-2\mathrm{i}$(即 $\left(0,-2\right)$),$4$(即 $\left(4,0\right)$),$\frac{3}{2}-4\mathrm{i}$(即 $\left(\frac{3}{2},-4\right)$).
+
+### 解答 练习六
+
+由**定义 7.1.8 (复数的几何意义)**, 复数 $a+b\mathrm{i}$ 对应向量 $\boldsymbol{OZ}=\left(a,b\right)$; 由**定义 7.1.9 (复数的模)**, $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+
+(1) 各复数对应的向量分别为: $\left(2,1\right)$, $\left(-2,4\right)$, $\left(0,-2\right)$, $\left(4,0\right)$, $\left(\frac{3}{2},-4\right)$, 在复平面内以原点 $O$ 为起点画出这些向量即可.
+
+(2) 逐个求模:
+
+(a) $\lvert2+\mathrm{i}\rvert=\sqrt{2^2+1^2}=\sqrt{5}$;
+
+(b) $\lvert-2+4\mathrm{i}\rvert=\sqrt{\left(-2\right)^2+4^2}=\sqrt{20}=2\sqrt{5}$;
+
+(c) $\lvert-2\mathrm{i}\rvert=\sqrt{0^2+\left(-2\right)^2}=2$;
+
+(d) $\lvert4\rvert=\sqrt{4^2+0^2}=4$;
+
+(e) $\left\lvert\frac{3}{2}-4\mathrm{i}\right\rvert=\sqrt{\left(\frac{3}{2}\right)^2+\left(-4\right)^2}=\sqrt{\frac{9}{4}+16}=\sqrt{\frac{73}{4}}=\frac{\sqrt{73}}{2}$. $\blacksquare$
 
 ## 习题十二
 
-(复习参考题1 拓广探索第 12 题) 根据下述事实, 分别写出含有量词的全称量词命题或存在量词命题:
+(习题 7.1 复习巩固第 1 题) 符合下列条件的复数一定存在吗? 若存在, 请举出例子; 若不存在, 请说明理由.
 
-(1) $1=1^2$, $1+3=2^2$, $1+3+5=3^2$, $1+3+5+7=4^2$, $1+3+5+7+9=5^2$, $\cdots\cdots$;
+(1) 实部为 $-\sqrt{2}$ 的虚数;
 
-(2) 如图, 在 $\triangle ABC$ 中, $AD$, $BE$ 与 $CF$ 分别为 $BC$, $AC$ 与 $AB$ 边上的高, 则 $AD$, $BE$ 与 $CF$ 所在的直线交于一点 $O$.
+(2) 虚部为 $-\sqrt{2}$ 的虚数;
 
-图:一个 $\triangle ABC$,$AD$ 为边 $BC$ 上的高($D$ 在 $BC$ 上,$AD\perp BC$),$BE$ 为边 $AC$ 上的高($E$ 在 $AC$ 上,$BE\perp AC$),$CF$ 为边 $AB$ 上的高($F$ 在 $AB$ 上,$CF\perp AB$),三条高所在直线 $AD$,$BE$,$CF$ 交于三角形内一点 $O$(垂心).
+(3) 虚部为 $-\sqrt{2}$ 的纯虚数.
 
 ### 解答 习题十二
 
-由**定义 1.5.1 (全称量词与全称量词命题)** 与**定义 1.5.2 (存在量词与存在量词命题)** 归纳写出.
+由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 虚数要求 $b\neq 0$, 纯虚数要求 $a=0$ 且 $b\neq 0$.
 
-(1) 观察各式: 从 $1$ 开始的前 $n$ 个连续奇数之和等于 $n$ 的平方, 即
+(1) 取 $a=-\sqrt{2}$, $b=1\neq 0$, 则复数 $-\sqrt{2}+\mathrm{i}$ 的实部为 $-\sqrt{2}$, 且 $b\neq 0$, 是虚数. 故存在.
+
+(2) 取 $a=1$, $b=-\sqrt{2}\neq 0$, 则复数 $1-\sqrt{2}\mathrm{i}$ 的虚部为 $-\sqrt{2}$, 且 $b\neq 0$, 是虚数. 故存在.
+
+(3) 要求纯虚数, 须 $a=0$ 且 $b=-\sqrt{2}\neq 0$, 则复数 $0-\sqrt{2}\mathrm{i}=-\sqrt{2}\mathrm{i}$ 的虚部为 $-\sqrt{2}$, 且 $a=0$, 是纯虚数. 故存在. $\blacksquare$
+
+## 习题十三
+
+(习题 7.1 复习巩固第 2 题) 当实数 $m$ 取什么值时, 复数 $\left(m^2-5m+6\right)+\left(m^2-3m\right)\mathrm{i}$ 是下列数?
+
+(1) 实数;
+
+(2) 虚数;
+
+(3) 纯虚数.
+
+### 解答 习题十三
+
+由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 复数 $a+b\mathrm{i}$ 为实数当 $b=0$, 为虚数当 $b\neq 0$, 为纯虚数当 $a=0$ 且 $b\neq 0$.
+
+记 $a=m^2-5m+6$, $b=m^2-3m=m\left(m-3\right)$.
+
+(1) 为实数须 $b=0$, 即 $m\left(m-3\right)=0$, 得 $m=0$ 或 $m=3$.
+
+(2) 为虚数须 $b\neq 0$, 即 $m\neq 0$ 且 $m\neq 3$.
+
+(3) 为纯虚数须 $a=0$ 且 $b\neq 0$. 由 $a=0$, 即 $\left(m-2\right)\left(m-3\right)=0$, 得 $m=2$ 或 $m=3$. 又须 $b\neq 0$, 即 $m\neq 0$ 且 $m\neq 3$, 故舍去 $m=3$, 得 $m=2$. $\blacksquare$
+
+## 习题十四
+
+(习题 7.1 复习巩固第 3 题) 求适合下列方程的实数 $x$ 与 $y$ 的值:
+
+(1) $\left(3x+2y\right)+\left(5x-y\right)\mathrm{i}=17-2\mathrm{i}$;
+
+(2) $\left(x+y-3\right)+\left(x-4\right)\mathrm{i}=0$.
+
+### 解答 习题十四
+
+由**定义 7.1.5 (复数相等)**, 等式两边实部与虚部分别相等.
+
+(1) 右边 $17-2\mathrm{i}$ 的实部为 $17$, 虚部为 $-2$. 得方程组
 
 $$
-1+3+5+\cdots+\left(2n-1\right)=n^2.
+\begin{cases}3x+2y=17,\\5x-y=-2.\end{cases}
 $$
 
-这是对任意正整数 $n$ 都成立的规律, 写成全称量词命题为: $\forall n\in\mathbb N_+$, $1+3+5+\cdots+\left(2n-1\right)=n^2$.
+由第二式, 得 $y=5x+2$. 代入第一式, 得 $3x+2\left(5x+2\right)=17$, 即 $13x+4=17$, 得 $x=1$. 代回得 $y=7$. 故 $x=1$, $y=7$.
 
-(2) 这是对任意三角形都成立的事实 (三角形的三条高所在直线交于一点, 即垂心), 写成全称量词命题为: $\forall\triangle ABC$, 其三条边 $BC$, $AC$, $AB$ 上的高 $AD$, $BE$, $CF$ 所在的直线交于一点. $\blacksquare$
+(2) 右边 $0=0+0\mathrm{i}$. 得方程组
+
+$$
+\begin{cases}x+y-3=0,\\x-4=0.\end{cases}
+$$
+
+由第二式, 得 $x=4$. 代入第一式, 得 $4+y-3=0$, 即 $y=-1$. 故 $x=4$, $y=-1$. $\blacksquare$
+
+## 习题十五
+
+(习题 7.1 复习巩固第 4 题) 如果 $P$ 是复平面内表示复数 $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ 的点, 分别指出在下列条件下点 $P$ 的位置.
+
+(1) $a> 0$, $b> 0$;
+
+(2) $a< 0$, $b> 0$;
+
+(3) $a=0$, $b\le 0$;
+
+(4) $b< 0$.
+
+### 解答 习题十五
+
+由**定义 7.1.7 (复平面)** 与**定义 7.1.8 (复数的几何意义)**, 复数 $a+b\mathrm{i}$ 对应复平面内的点 $P\left(a,b\right)$, $a$ 为横坐标, $b$ 为纵坐标.
+
+(1) $a> 0$, $b> 0$, 点 $P$ 在第一象限.
+
+(2) $a< 0$, $b> 0$, 点 $P$ 在第二象限.
+
+(3) $a=0$, 点 $P$ 在 $y$ 轴 (虚轴) 上; 又 $b\le 0$, 点 $P$ 在虚轴的下半部分 (含原点).
+
+(4) $b< 0$, 点 $P$ 的纵坐标为负, 点 $P$ 位于实轴下方的半平面内. $\blacksquare$
+
+## 习题十六
+
+(习题 7.1 复习巩固第 5 题) 求复数 $z_1=3+4\mathrm{i}$ 及 $z_2=\frac{1}{2}-\sqrt{2}\mathrm{i}$ 的模, 并比较它们的模的大小.
+
+### 解答 习题十六
+
+由**定义 7.1.9 (复数的模)**, $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+
+$$
+\lvert z_1\rvert=\lvert3+4\mathrm{i}\rvert=\sqrt{3^2+4^2}=\sqrt{25}=5.
+$$
+
+$$
+\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
+$$
+
+因为 $5> \frac{3}{2}$, 所以 $\lvert z_1\rvert> \lvert z_2\rvert$. $\blacksquare$
+
+## 习题十七
+
+(习题 7.1 综合运用第 6 题) 当实数 $m$ 取什么值时, 复平面内表示复数 $z=\left(m^2-8m+15\right)+\left(m^2-5m-14\right)\mathrm{i}$ 的点分别满足下列条件?
+
+(1) 位于第四象限;
+
+(2) 位于第一象限或第三象限;
+
+(3) 位于直线 $y=x$ 上.
+
+### 解答 习题十七
+
+由**定义 7.1.8 (复数的几何意义)**, 复数 $z=a+b\mathrm{i}$ 对应点 $P\left(a,b\right)$. 记 $a=m^2-8m+15=\left(m-3\right)\left(m-5\right)$, $b=m^2-5m-14=\left(m-7\right)\left(m+2\right)$.
+
+(1) 位于第四象限, 须 $a> 0$ 且 $b< 0$. 由 $a> 0$, 得 $m< 3$ 或 $m> 5$; 由 $b< 0$, 得 $-2< m< 7$. 取交集, 得 $-2< m< 3$ 或 $5< m< 7$.
+
+(2) 位于第一象限或第三象限, 须 $a$ 与 $b$ 同号, 即 $ab> 0$.
+
+(a) 当 $a> 0$ 且 $b> 0$ 时: $m< 3$ 或 $m> 5$, 且 $m< -2$ 或 $m> 7$, 得 $m< -2$ 或 $m> 7$.
+
+(b) 当 $a< 0$ 且 $b< 0$ 时: $3< m< 5$, 且 $-2< m< 7$, 得 $3< m< 5$.
+
+综上, 得 $m< -2$ 或 $3< m< 5$ 或 $m> 7$.
+
+(3) 位于直线 $y=x$ 上, 须点 $P\left(a,b\right)$ 满足 $b=a$, 即 $m^2-5m-14=m^2-8m+15$. 化简, 得 $3m=29$, 即 $m=\frac{29}{3}$. $\blacksquare$
+
+## 习题十八
+
+(习题 7.1 综合运用第 7 题) 在复平面内, $O$ 是原点, 向量 $\boldsymbol{OA}$ 对应的复数是 $2+\mathrm{i}$.
+
+(1) 如果点 $A$ 关于实轴的对称点为点 $B$, 求向量 $\boldsymbol{OB}$ 对应的复数;
+
+(2) 如果 (1) 中点 $B$ 关于虚轴的对称点为点 $C$, 求点 $C$ 对应的复数.
+
+### 解答 习题十八
+
+由**定义 7.1.8 (复数的几何意义)**, 向量 $\boldsymbol{OA}$ 对应复数 $2+\mathrm{i}$, 故点 $A$ 的坐标为 $\left(2,1\right)$.
+
+(1) 点 $A\left(2,1\right)$ 关于实轴 ( $x$ 轴) 的对称点 $B$ 的坐标为 $\left(2,-1\right)$. 由**定义 7.1.8 (复数的几何意义)**, 向量 $\boldsymbol{OB}$ 对应的复数为 $2+\left(-1\right)\mathrm{i}=2-\mathrm{i}$.
+
+(2) 点 $B\left(2,-1\right)$ 关于虚轴 ( $y$ 轴) 的对称点 $C$ 的坐标为 $\left(-2,-1\right)$. 由**定义 7.1.8 (复数的几何意义)**, 点 $C$ 对应的复数为 $-2+\left(-1\right)\mathrm{i}=-2-\mathrm{i}$. $\blacksquare$

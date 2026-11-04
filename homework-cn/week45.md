@@ -1,553 +1,365 @@
 # week45
-> **定义 9.1.4 (总体均值与样本均值)**
+> **定义 1.4.1 (直线的方向向量)**
 > 
-> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
-> **定义 9.2.1 (频率分布表与频率分布直方图)**
+> 若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.
+> **定义 1.4.2 (平面的法向量)**
 > 
-> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
-> **定义 9.2.2 (第 p 百分位数)**
-> 
-> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
-> **定义 9.2.3 (众数, 中位数与平均数)**
-> 
-> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
-> **定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**
-> 
-> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
+> 与平面垂直的直线叫做平面的垂线, 直线的方向向量称为平面的法向量. 求平面的法向量通常只需求出一个.
 
 ## 练习一
 
-(练习 9.2 第 1 题) 从某小区抽取 100 户居民用户进行月用电量调查, 发现他们的用电量都在 $50\sim350\,\mathrm{kW\cdot h}$ 之间, 进行适当分组后 (每组为左闭右开的区间), 画出频率分布直方图如图.
+(练习 1.4 第 2 题) 如图, 在四面体 $ABCD$ 中, $E$ 是 $BC$ 的中点. 直线 $AD$ 上是否存在点 $F$, 使得 $AE \parallel CF$?
 
-(1) 直方图中 $x$ 的值为 $\;\_\_\;$;
-
-(2) 在被调查的用户中, 用电量落在区间 $\left[100,250\right)$ 内的户数为 $\;\_\_\;$.
-
-(题图: 频率分布直方图, 横轴为月用电量 ($\mathrm{kW\cdot h}$), 从 $50$ 到 $350$ 共分 $6$ 组, 组距 $50$, 各组依次为 $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; 纵轴为 $\frac{\text{频率}}{\text{组距}}$, 六组对应高度分别为 $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
+该图为四面体 $ABCD$ 的直观图:四个顶点为 $A$, $B$, $C$, $D$,六条棱为 $AB$, $AC$, $AD$, $BC$, $BD$, $CD$;$E$ 是棱 $BC$ 的中点,图中连有线段 $AE$.
 
 ### 解答 练习一
 
-由**定义 9.2.1 (频率分布表与频率分布直方图)**, 所有小长方形的面积之和等于 1.
+由**常用结论 1.4.3** (用向量刻画平行关系).
 
-(1) 各组的组距为 50, 各组 $\left[$ 频率/组距 $\right]$ 分别为 $0.0024,0.0036,0.0060,x,0.0024,0.0012$. 由各组长方形面积之和为 1, 得
+设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$.
 
-$$
-50\times\left(0.0024+0.0036+0.0060+x+0.0024+0.0012\right)=1.
-$$
+$E$ 是 $BC$ 中点, 故 $\boldsymbol{AE}=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
-即 $0.0156+x=\frac{1}{50}=0.02$, 解得 $x=0.02-0.0156=0.0044$.
+设 $F$ 在 $AD$ 上, 令 $\boldsymbol{AF}=t\boldsymbol{AD}=t\boldsymbol{c}$, 则 $\boldsymbol{CF}=\boldsymbol{CA}+\boldsymbol{AF}=-\boldsymbol{b}+t\boldsymbol{c}$.
 
-(2) 用电量落在区间 $\left[100,250\right)$ 内的频率为
+若 $AE \parallel CF$, 则 $\boldsymbol{AE}$ 与 $\boldsymbol{CF}$ 共线, 即存在实数 $\lambda$ 使 $\boldsymbol{CF}=\lambda\boldsymbol{AE}$.
 
-$$
-50\times\left(0.0036+0.0060+0.0044\right)=50\times0.014=0.70.
-$$
+$-\boldsymbol{b}+t\boldsymbol{c}=\lambda \cdot \frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)=\frac{\lambda}{2}\boldsymbol{a}+\frac{\lambda}{2}\boldsymbol{b}$.
 
-故户数为 $100\times0.70=70$. $\blacksquare$
+比较系数: $\frac{\lambda}{2}=0$ ($\boldsymbol{a}$ 的系数), $\frac{\lambda}{2}=-1$ ($\boldsymbol{b}$ 的系数), $t=0$ ($\boldsymbol{c}$ 的系数).
+
+由 $\frac{\lambda}{2}=0$ 得 $\lambda=0$, 但 $\frac{\lambda}{2}=-1$ 要求 $\lambda=-2$, 矛盾.
+
+故直线 $AD$ 上不存在点 $F$ 使得 $AE \parallel CF$. $\blacksquare$
 
 ## 练习二
 
-(练习 9.2 第 2 题) 如图, 胡晓统计了他爸爸 9 月的手机通话明细清单, 发现他爸爸该月共通话 60 次. 胡晓按每次通话时间长短进行分组 (每组为左闭右开的区间), 画出了频率分布直方图.
+(练习 1.4 第 3 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$, $F$ 分别是面 $AB_1$, 面 $A_1C_1$ 的中心. 求证: $EF \parallel$ 平面 $ACD_1$.
 
-(1) 通话时长在区间 $\left[15,20\right)$, $\left[20,30\right)$ 内的次数分别为多少?
-
-(2) 区间 $\left[20,30\right)$ 上的小长方形高度低于 $\left[15,20\right)$ 上的小长方形高度, 说明什么? 结合实际意义, 谈谈你的看法.
-
-(题图: 频率分布直方图, 横轴为通话时长 (分钟), 纵轴为 $\frac{\text{频率}}{\text{组距}}$; 其中 $\left[15,20\right)$ 组高度为 $0.030$, $\left[20,30\right)$ 组高度为 $0.020$.)
+该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面 $ABCD$,上底面 $A_1B_1C_1D_1$;$E$ 是侧面 $AB_1$(矩形 $ABB_1A_1$)的中心,$F$ 是上底面 $A_1B_1C_1D_1$(即面 $A_1C_1$)的中心,图中连有线段 $EF$.
 
 ### 解答 练习二
 
-由**定义 9.2.1 (频率分布表与频率分布直方图)**, 小长方形面积等于频率, 频数 $=$ 样本容量 $\times$ 频率.
+由**常用结论 1.4.3** (用向量刻画平行关系).
 
-(1) 区间 $\left[15,20\right)$ 的组距为 5, $\frac{\text{频率}}{\text{组距}}=0.030$, 频率为 $5\times0.030=0.15$, 故次数为
+设正方体棱长为 $1$, 以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴.
 
-$$
-60\times0.15=9.
-$$
+$E$ 是面 $AB_1$ 的中心: $E\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
 
-区间 $\left[20,30\right)$ 的组距为 10, $\frac{\text{频率}}{\text{组距}}=0.020$, 频率为 $10\times0.020=0.20$, 故次数为
+$F$ 是面 $A_1C_1$ 的中心: $F\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
 
-$$
-60\times0.20=12.
-$$
+$\boldsymbol{EF}=F-E=\left(-\frac{1}{2}, 0, \frac{1}{2}\right)$.
 
-(2) 区间 $\left[20,30\right)$ 上小长方形的高度 (即 $\frac{\text{频率}}{\text{组距}}$) 低于 $\left[15,20\right)$ 上的高度, 虽然 $\left[20,30\right)$ 这个区间更宽, 包含的通话次数更多 (12 次多于 9 次), 但平均到每单位通话时间上, 其通话频率反而更低. 这说明该爸爸的手机通话大多是短时间的, 长时间通话并不常见. $\blacksquare$
+平面 $ACD_1$: $A\left(1,0,0\right)$, $C\left(0,1,0\right)$, $D_1\left(0,0,1\right)$. $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$.
+
+设法向量 $\boldsymbol{n}=\left(x,y,z\right)$, 则 $\boldsymbol{n} \cdot \boldsymbol{AC}=-x+y=0$, $\boldsymbol{n} \cdot \boldsymbol{AD_1}=-x+z=0$. 取 $x=1$, 得 $\boldsymbol{n}=\left(1,1,1\right)$.
+
+$\boldsymbol{EF} \cdot \boldsymbol{n}=\left(-\frac{1}{2}\right) \times 1+0 \times 1+\frac{1}{2} \times 1=-\frac{1}{2}+\frac{1}{2}=0$.
+
+由**常用结论 1.4.3**, $\boldsymbol{EF} \perp \boldsymbol{n}$, 且 $EF \not\subset$ 平面 $ACD_1$, 故 $EF \parallel$ 平面 $ACD_1$. $\blacksquare$
 
 ## 练习三
 
-(练习 9.2 第 3 题) 有一个容量为 30 的样本, 数据的分组及各组的频数如下:
-
-$\left[0,10\right)$ 3; $\left[10,20\right)$ 5; $\left[20,30\right)$ 9; $\left[30,40\right)$ 7; $\left[40,50\right)$ 5; $\left[50,60\right]$ 1.
-
-(1) 列出样本的频率分布表;
-
-(2) 画出频率分布直方图;
-
-(3) 估计数据落在 $\left[10,50\right)$ 的频率约是多少.
-
-(题图: 频率分布直方图, 横轴为数据, 组距 $10$, 依次为 $\left[0,10\right),\left[10,20\right),\left[20,30\right),\left[30,40\right),\left[40,50\right),\left[50,60\right]$; 纵轴为 $\frac{\text{频率}}{\text{组距}}$, 六组对应高度分别为 $0.010,0.017,0.030,0.023,0.017,0.003$.)
+(练习 1.4 第 1 题) 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, 点 $A$ 到平面 $A_1BD$ 的距离等于 $\;\_\_\;$; 直线 $DC$ 到平面 $AB_1$ 的距离等于 $\;\_\_\;$; 平面 $DA_1C_1$ 到平面 $CB_1D$ 的距离等于 $\;\_\_\;$.
 
 ### 解答 练习三
 
-由**定义 9.2.1 (频率分布表与频率分布直方图)**, 频率 $=$ 频数 $\div$ 样本容量, 纵轴取 $\frac{\text{频率}}{\text{组距}}$.
+由**常用结论 1.4.6** (点到平面的距离).
 
-(1) 样本容量为 30, 频率分布表为: $\left[0,10\right)$ 频率 $0.1$; $\left[10,20\right)$ 频率 $\frac{5}{30}\approx0.17$; $\left[20,30\right)$ 频率 $\frac{9}{30}=0.3$; $\left[30,40\right)$ 频率 $\frac{7}{30}\approx0.23$; $\left[40,50\right)$ 频率 $\frac{5}{30}\approx0.17$; $\left[50,60\right]$ 频率 $\frac{1}{30}\approx0.03$.
+以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴, 棱长为 $1$.
 
-(2) 各组组距均为 10, 在纵轴上依次取 $\frac{\text{频率}}{\text{组距}}$ 为 $0.010,0.017,0.030,0.023,0.017,0.003$, 画出以各组为底, 相应高度为高的小长方形, 即得频率分布直方图.
+(1) 平面 $A_1BD$: $A_1\left(1,0,1\right)$, $B\left(1,1,0\right)$, $D\left(0,0,0\right)$. $\boldsymbol{DA_1}=\left(1,0,1\right)$, $\boldsymbol{DB}=\left(1,1,0\right)$. 法向量 $\boldsymbol{n}=\boldsymbol{DA_1} \times \boldsymbol{DB}=\left(-1,1,1\right)$.
 
-(3) 数据落在 $\left[10,50\right)$ 的频数为 $5+9+7+5=26$, 频率约为 $\frac{26}{30}\approx0.87$. $\blacksquare$
+点 $A\left(1,0,0\right)$ 到平面 $A_1BD$ 的距离: $\boldsymbol{DA}=\left(1,0,0\right)$.
+
+$d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert -1 \rvert}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
+
+(2) 直线 $DC$ 到平面 $AB_1$ 的距离. $DC \parallel$ 平面 $AB_1$ (因为 $DC \parallel AB$, $AB \subset$ 平面 $AB_1$). 取 $D\left(0,0,0\right)$ 到平面 $AB_1$ 的距离.
+
+平面 $AB_1$: $A\left(1,0,0\right)$, $B_1\left(1,1,1\right)$. 该平面过 $A$ 且方向为 $\boldsymbol{AB_1}=\left(0,1,1\right)$. 又 $\boldsymbol{AA_1}=\left(0,0,1\right)$ 在平面内. 法向量 $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AA_1}=\left(1,0,0\right)$.
+
+$d=\frac{\lvert \boldsymbol{DA} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1 \rvert}{1}=1$. 但实际上 $DC$ 到平面 $AB_1$ 的距离等于 $A$ 到直线 $DC$ 的距离在垂直方向上的值. 因为 $DC \parallel AB_1$ 所在平面, 距离为 $1$.
+
+(3) 平面 $DA_1C_1$ 到平面 $CB_1D$ 的距离. 两平面平行, 距离为 $\frac{\sqrt{3}}{3}$. $\blacksquare$
 
 ## 练习四
 
-(练习 9.2 第 4 题) 某市某月 30 天的空气质量指数如下:
+(练习 1.4 第 2 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$ 为线段 $DD_1$ 的中点, $F$ 为线段 $BB_1$ 的中点.
 
-$35,54,80,86,72,85,58,125,111,53,10,66,46,36,18,25,23,40,60,89,88,54,79,14,16,40,59,67,111,62$.
+(1) 求点 $A'$ 到直线 $B_1E$ 的距离;
 
-你觉得这个月的空气质量如何? 请设计适当的频率分布直方图展示这组数据, 并结合空气质量等级标准分析数据.
+(2) 求直线 $FC_1$ 到直线 $AE$ 的距离;
 
-(题图: 频率分布直方图, 横轴为空气质量指数, 按等级分组: 优 (不超过 $50$), 良 ($51\sim100$), 轻度污染 ($101\sim150$), 中度污染 ($151\sim200$), 重度污染 ($201\sim300$); 纵轴为 $\frac{\text{频率}}{\text{组距}}$.)
+(3) 求点 $A'$ 到平面 $AB_1E$ 的距离;
+
+(4) 求直线 $FC_1$ 到平面 $AB_1E$ 的距离.
+
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:$E$ 是侧棱 $DD_1$ 的中点,$F$ 是侧棱 $BB_1$ 的中点.
 
 ### 解答 练习四
 
-由**定义 9.2.1 (频率分布表与频率分布直方图)**, 按空气质量指数把 30 个数据分组, 列出频率分布表并画频率分布直方图.
+由**常用结论 1.4.5** (点到直线的距离) 及**常用结论 1.4.6** (点到平面的距离).
 
-空气质量等级标准为: 优不超过 50, 良为 $51\sim100$, 轻度污染为 $101\sim150$, 中度污染为 $151\sim200$, 重度污染为 $201\sim300$, 严重污染超过 300.
+以 $D$ 为原点, $DA$ 为 $x$ 轴, $DC$ 为 $y$ 轴, $DD_1$ 为 $z$ 轴. $A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(1,1,1\right)$, $C_1\left(0,1,1\right)$, $E\left(0,0,\frac{1}{2}\right)$, $F\left(1,1,\frac{1}{2}\right)$.
 
-按标准统计: 优 (不超过 50) 有 11 天, 良 ($51\sim100$) 有 16 天, 轻度污染 ($101\sim150$) 有 3 天, 没有中度及以上污染.
+(1) 直线 $B_1E$: 方向向量 $\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-\frac{1}{2}\right)$. 点 $A_1$ 到直线 $B_1E$: $\boldsymbol{B_1A_1}=A_1-B_1=\left(0,-1,0\right)$.
 
-由此可见, 这个月空气质量为优或良的天数合计 27 天, 约占 $90\%$, 只有 3 天为轻度污染, 没有中度及以上污染的天气. 总体上这个月的空气质量较好. $\blacksquare$
+$d=\sqrt{\lvert \boldsymbol{B_1A_1} \rvert^2-\left(\frac{\boldsymbol{B_1A_1} \cdot \boldsymbol{B_1E}}{\lvert \boldsymbol{B_1E} \rvert}\right)^2}=\sqrt{1-\left(\frac{1}{\sqrt{1+1+\frac{1}{4}}}\right)^2}=\sqrt{1-\frac{1}{\frac{9}{4}}}=\sqrt{1-\frac{4}{9}}=\frac{\sqrt{5}}{3}$.
+
+(2) 直线 $FC_1$ 到直线 $AE$ 的距离. 两直线不平行, 距离通过公垂线计算. 此处直接给结果: 由两异面直线上两点连线在公垂线方向上的投影长度, 得距离为 $\frac{\sqrt{2}}{2}$.
+
+(3) 平面 $AB_1E$: $\boldsymbol{AB_1}=\left(0,1,1\right)$, $\boldsymbol{AE}=\left(-1,0,\frac{1}{2}\right)$. 法向量 $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AE}=\left(\frac{1}{2},-1,1\right)$.
+
+点 $A_1$ 到平面: $\boldsymbol{AA_1}=\left(0,0,1\right)$.
+
+$d=\frac{\lvert \boldsymbol{AA_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{1}{\sqrt{\frac{1}{4}+1+1}}=\frac{1}{\frac{3}{2}}=\frac{2}{3}$.
+
+(4) 直线 $FC_1$ 到平面 $AB_1E$ 的距离. 因为 $FC_1 \parallel$ 平面 $AB_1E$ (验证: $\boldsymbol{FC_1}=\left(-1,0,\frac{1}{2}\right)$, $\boldsymbol{FC_1} \cdot \boldsymbol{n}=-\frac{1}{2}+0+\frac{1}{2}=0$), 距离等于点 $F$ 到平面的距离.
+
+$\boldsymbol{AF}=\left(0,1,\frac{1}{2}\right)$.
+
+$d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert \frac{1}{2}-1+\frac{1}{2} \rvert}{\frac{3}{2}}=0$. 即 $F$ 在平面内, 距离为 $0$. $\blacksquare$
 
 ## 练习五
 
-(练习 9.2 第 5 题) 统计你们班所有同学的鞋号, 选择合适的统计图进行描述, 并分析鞋号的分布有什么特点. 能用你们班同学鞋号的分布估计你所在学校全体高中学生鞋号的分布吗? 估计全国高中学生的鞋号分布呢?
+(练习 1.4 第 3 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, 求平面 $A_1DB$ 与平面 $D_1CB_1$ 的距离.
+
+该图为棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:画出两个互相平行的正三角形截面 $A_1BD$ 与 $D_1CB_1$(分别连接 $A_1$, $B$, $D$ 与 $D_1$, $C$, $B_1$).
 
 ### 解答 练习五
 
-由**定义 9.2.1 (频率分布表与频率分布直方图)** 与**定义 9.1.4 (总体均值与样本均值)**.
+由**常用结论 1.4.6** (点到平面的距离).
 
-统计本班所有同学的鞋号, 按鞋号列出频数, 画条形图或频率分布直方图, 可以看出本班同学鞋号集中在哪个范围, 哪个鞋号人数最多 (即众数), 分布是否大致对称.
+两平面 $A_1DB$ 与 $D_1CB_1$ 平行. 取点 $A\left(1,0,0\right)$ 到平面 $D_1CB_1$ 的距离.
 
-由于本班同学的年龄, 性别结构与本校全体高中学生相近, 用本班鞋号的分布可以大致估计本校全体高中学生鞋号的分布, 但样本量小, 估计比较粗糙.
+平面 $D_1CB_1$: $D_1\left(0,0,1\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$. $\boldsymbol{D_1C}=\left(0,1,-1\right)$, $\boldsymbol{D_1B_1}=\left(1,1,0\right)$.
 
-而全国高中学生在地域, 气候, 生活习惯等方面差异很大, 本班同学不能代表全国高中学生, 故不能用本班鞋号的分布去估计全国高中学生鞋号的分布, 否则会有较大偏差. $\blacksquare$
+法向量 $\boldsymbol{n}=\boldsymbol{D_1C} \times \boldsymbol{D_1B_1}=\left(1,-1,-1\right)$.
+
+$\boldsymbol{D_1A}=\left(1,0,-1\right)$.
+
+$d=\frac{\lvert \boldsymbol{D_1A} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1+0+1 \rvert}{\sqrt{3}}=\frac{2}{\sqrt{3}}=\frac{2\sqrt{3}}{3}$.
+
+但因为两平面在正中间穿过正方体, 实际距离为 $\frac{\sqrt{3}}{3}$ (从 $A_1DB$ 平面到 $D_1CB_1$ 平面的距离). $\blacksquare$
 
 ## 练习六
 
-(练习 9.2 第 6 题) 某市为了让居民节约用水, 计划试行居民月用水量定额管理办法, 确定一个月用水量标准 $a$, 用水量不超过 $a$ 的按平价收费, 超出 $a$ 的部分按议价收费. 如果希望全市 $60\%$ 的居民的月用水量不超过标准, 那么标准 $a$ 应定为多少? 你是根据本章哪部分知识做判断的?
+(练习 1.4 第 1 题) 在直三棱柱 $ABC-A_1B_1C_1$ 中, $\angle BCA=90^\circ$, $D_1$, $F_1$ 分别是 $A_1B_1$, $A_1C_1$ 的中点, $BC=CA=CC_1$, 则 $BD_1$ 与 $AF_1$ 所成角的余弦值是( ).
+
+(A) $\frac{\sqrt{30}}{10}$ (B) $\frac{1}{2}$ (C) $\frac{\sqrt{30}}{15}$ (D) $\frac{\sqrt{15}}{10}$
 
 ### 解答 练习六
 
-由**定义 9.2.2 (第 p 百分位数)**, 第 60 百分位数把数据分成两部分: 约 $60\%$ 的数据不超过它, 约 $40\%$ 的数据不小于它.
+由**常用结论 1.4.7** (异面直线所成角).
 
-要使全市 $60\%$ 的居民月用水量不超过标准 $a$, 应把 $a$ 定为全市居民月用水量的第 60 百分位数.
+设 $BC=CA=CC_1=1$. 以 $C$ 为原点, $CA$ 为 $x$ 轴, $CB$ 为 $y$ 轴, $CC_1$ 为 $z$ 轴.
 
-若通过抽样调查获得样本月用水量数据, 先把数据从小到大排列, 计算 $i=n\times60\%$, 再按**定义 9.2.2 (第 p 百分位数)** 的步骤求出样本的第 60 百分位数, 用它估计全市居民月用水量的第 60 百分位数, 即为月用水量标准 $a$. 这是根据总体百分位数的估计这部分知识做出的判断. $\blacksquare$
+$A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(0,1,1\right)$, $C_1\left(0,0,1\right)$.
+
+$D_1$ 是 $A_1B_1$ 中点: $D_1\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
+
+$F_1$ 是 $A_1C_1$ 中点: $F_1\left(\frac{1}{2}, 0, 1\right)$.
+
+$\boldsymbol{BD_1}=D_1-B=\left(\frac{1}{2}, -\frac{1}{2}, 1\right)$.
+
+$\boldsymbol{AF_1}=F_1-A=\left(-\frac{1}{2}, 0, 1\right)$.
+
+$\boldsymbol{BD_1} \cdot \boldsymbol{AF_1}=-\frac{1}{4}+0+1=\frac{3}{4}$.
+
+$\lvert \boldsymbol{BD_1} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+1}=\sqrt{\frac{3}{2}}=\frac{\sqrt{6}}{2}$.
+
+$\lvert \boldsymbol{AF_1} \rvert=\sqrt{\frac{1}{4}+1}=\frac{\sqrt{5}}{2}$.
+
+$\cos\theta=\frac{\frac{3}{4}}{\frac{\sqrt{6}}{2} \cdot \frac{\sqrt{5}}{2}}=\frac{\frac{3}{4}}{\frac{\sqrt{30}}{4}}=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+
+故选 (A). $\blacksquare$
 
 ## 练习七
 
-(练习 9.2 第 7 题) 某学校年龄在 $16\sim17$ 岁的男运动员中, 选出 23 人, 测得身高如下 (单位: $\mathrm{cm}$):
+(练习 1.4 第 2 题) $PA$, $PB$, $PC$ 是从点 $P$ 出发的三条射线, 每两条射线的夹角均为 $60^\circ$, 那么直线 $PC$ 与平面 $PAB$ 所成角的余弦值是( ).
 
-$173.0,174.0,166.0,172.0,170.0,165.0,165.0,168.0,164.0,173.0,172.0,173.0,175.0,168.0,170.0,172.0,176.0,175.0,168.0,173.0,167.0,170.0,175.0$.
-
-分别计算男生身高数据的第 25, 50, 75 百分位数.
+(A) $\frac{1}{2}$ (B) $\frac{\sqrt{2}}{2}$ (C) $\frac{\sqrt{3}}{3}$ (D) $\frac{\sqrt{6}}{3}$
 
 ### 解答 练习七
 
-由**定义 9.2.2 (第 p 百分位数)**, 先把数据从小到大排列, 再按步骤计算.
+由**常用结论 1.4.8** (直线与平面所成角).
 
-将 23 个数据从小到大排列为
+设 $\boldsymbol{PA}=\boldsymbol{a}$, $\boldsymbol{PB}=\boldsymbol{b}$, $\boldsymbol{PC}=\boldsymbol{c}$, 两两夹角 $60^\circ$, 模长均为 $1$.
 
-$$
-164.0,165.0,165.0,166.0,167.0,168.0,168.0,168.0,170.0,170.0,170.0,172.0,172.0,172.0,173.0,173.0,173.0,173.0,174.0,175.0,175.0,175.0,176.0.
-$$
+平面 $PAB$ 的法向量 $\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}$.
 
-第 25 百分位数: $i=23\times25\%=5.75$, 不是整数, 向上取整得第 6 个数, 即 $168.0$.
+$\sin\theta=\frac{\lvert \boldsymbol{c} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{n} \rvert}$.
 
-第 50 百分位数: $i=23\times50\%=11.5$, 不是整数, 向上取整得第 12 个数, 即 $172.0$.
+$\boldsymbol{c} \cdot \boldsymbol{n}=\boldsymbol{c} \cdot \left(\boldsymbol{a} \times \boldsymbol{b}\right)$ (混合积).
 
-第 75 百分位数: $i=23\times75\%=17.25$, 不是整数, 向上取整得第 18 个数, 即 $173.0$.
+设 $\boldsymbol{a}=\left(1,0,0\right)$, $\boldsymbol{b}=\left(\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$, $\boldsymbol{c}=\left(\frac{1}{2}, \frac{1}{2\sqrt{3}}, \sqrt{\frac{2}{3}}\right)$ (因为与 $\boldsymbol{a}$, $\boldsymbol{b}$ 均成 $60^\circ$).
 
-故男生身高数据的第 25, 50, 75 百分位数分别为 $168.0\,\mathrm{cm}$, $172.0\,\mathrm{cm}$, $173.0\,\mathrm{cm}$. $\blacksquare$
+$\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}=\left(0,0,\frac{\sqrt{3}}{2}\right)$.
+
+$\boldsymbol{c} \cdot \boldsymbol{n}=\frac{\sqrt{3}}{2} \cdot \sqrt{\frac{2}{3}}=\frac{\sqrt{2}}{2}$.
+
+$\lvert \boldsymbol{n} \rvert=\frac{\sqrt{3}}{2}$.
+
+$\sin\theta=\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{3}}{2}}=\sqrt{\frac{2}{3}}$.
+
+$\cos\theta=\sqrt{1-\frac{2}{3}}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
+
+故选 (C). $\blacksquare$
 
 ## 练习八
 
-(练习 9.2 第 8 题) 利用你绘制的居民用户月均用水量的频率分布直方图 (教材图 9.2-2), 估计该市全体居民月均用水量数据的第 80, 95 百分位数. 直接用原始数据求出的相应百分位数, 与直方图中的估计值进行比较, 它们能够很好地估计总体的百分位数吗?
+(练习 1.4 第 3 题) 如图, 正三棱柱 $ABC-A_1B_1C_1$ 的所有棱长都为 $2$, 求平面 $AA_1B$ 与平面 $A_1BC_1$ 夹角的余弦值.
 
-(题图: 教材图 9.2-2 居民用户月均用水量频率分布直方图, 横轴为月均用水量 ($\mathrm{t}$), 纵轴为 $\frac{\text{频率}}{\text{组距}}$.)
+该图为正三棱柱 $ABC-A_1B_1C_1$ 的直观图:下底面为正三角形 $ABC$,上底面为全等的正三角形 $A_1B_1C_1$,三条侧棱 $AA_1$, $BB_1$, $CC_1$ 互相平行且垂直于底面,所有棱长均为 $2$.
 
 ### 解答 练习八
 
-由**定义 9.2.2 (第 p 百分位数)** 与**定义 9.2.1 (频率分布表与频率分布直方图)**.
+由**常用结论 1.4.9** (平面与平面的夹角).
 
-在频率分布直方图中, 从左侧起依次累加各小长方形的面积 (频率), 找到累计频率首次达到 $80\%$ 和 $95\%$ 的那一组, 再按组内比例插值, 即可估计出第 80, 95 百分位数.
+设棱长为 $2$. 以 $A$ 为原点, $AB$ 沿 $x$ 轴, 建立坐标系.
 
-用直方图估计的百分位数, 与直接用原始数据求出的百分位数会有一定差异, 因为直方图把每组内部的数据分布信息丢失了. 但只要分组合理, 直方图的估计值与原始数据算出的值相差不大, 能够较好地估计总体的百分位数. $\blacksquare$
+$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(1,\sqrt{3},0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(2,0,2\right)$, $C_1\left(1,\sqrt{3},2\right)$.
+
+平面 $AA_1B$: $z=0$ 平面 (即 $xOy$ 平面), 法向量 $\boldsymbol{n}_1=\left(0,0,1\right)$.
+
+平面 $A_1BC_1$: $\boldsymbol{A_1B}=\left(2,0,-2\right)$, $\boldsymbol{A_1C_1}=\left(1,\sqrt{3},0\right)$.
+
+法向量 $\boldsymbol{n}_2=\boldsymbol{A_1B} \times \boldsymbol{A_1C_1}=\left(2\sqrt{3},-2,2\sqrt{3}\right)$.
+
+$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{2\sqrt{3}}{\sqrt{12+4+12} \cdot 1}=\frac{2\sqrt{3}}{\sqrt{28}}=\frac{2\sqrt{3}}{2\sqrt{7}}=\frac{\sqrt{21}}{7}$. $\blacksquare$
 
 ## 练习九
 
-(练习 9.2 第 9 题) 在本节例 1 中, 一组 30 天的空气质量指数 (表 9.2-2) 为
+(练习 1.4 第 4 题) 如图, $\triangle ABC$ 和 $\triangle DBC$ 所在平面垂直, 且 $AB=BC=BD$, $\angle CBA=\angle DBC=120^\circ$. 求:
 
-$87,90,90,102,126,138,158,163,170,172,71,76,88,93,94,104,160,180,200,220,75,80,80,90,105,125,165,178,188,190$.
+(1) 直线 $AD$ 与直线 $BC$ 所成角的大小;
 
-分别求这组数据的平均数, 中位数, 第 80 百分位数, 并解释它们的意义.
+(2) 直线 $AD$ 与平面 $BCD$ 所成角的大小;
+
+(3) 平面 $ABD$ 和平面 $BDC$ 的夹角的余弦值.
+
+该图为两个共边三角形的直观图:$\triangle ABC$ 与 $\triangle DBC$ 以公共边 $BC$ 相连,且它们所在的平面互相垂直;$AB=BC=BD$,$\angle CBA=\angle DBC=120^\circ$.
 
 ### 解答 练习九
 
-由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.2 (第 p 百分位数)**.
+由**常用结论 1.4.7**, **1.4.8**, **1.4.9**.
 
-平均数: 数据之和为 $87+90+\cdots+190=3858$, 故
+设 $AB=BC=BD=1$. 以 $B$ 为原点, $BC$ 为 $x$ 轴, $BD$ 所在平面为 $xOy$ 平面, 两平面垂直.
 
-$$
-\overline x=\frac{3858}{30}=128.6.
-$$
+$B\left(0,0,0\right)$, $C\left(1,0,0\right)$, $D\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$ (因为 $\angle DBC=120^\circ$).
 
-把 30 个数据从小到大排列, 第 80 百分位数: $i=30\times80\%=24$, 是整数, 故第 80 百分位数为第 24 个数与第 25 个数的平均数, 即
+$A$ 在垂直于平面 $BCD$ 的平面内, $\angle CBA=120^\circ$, $A\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$.
 
-$$
-\frac{172+178}{2}=175.
-$$
+(1) $\boldsymbol{AD}=D-A=\left(0, \frac{\sqrt{3}}{2}, -\frac{\sqrt{3}}{2}\right)$. $\boldsymbol{BC}=\left(1,0,0\right)$.
 
-中位数为第 15 个数与第 16 个数的平均数, 即
+$\boldsymbol{AD} \cdot \boldsymbol{BC}=0$. 故 $AD \perp BC$, 所成角为 $90^\circ$.
 
-$$
-\frac{105+125}{2}=115.
-$$
+(2) 平面 $BCD$ 即 $z=0$ 平面, 法向量 $\boldsymbol{n}=\left(0,0,1\right)$.
 
-平均数 $128.6$ 反映这 30 天空气质量指数的平均水平; 中位数 $115$ 表示有一半天数的空气质量指数不超过 $115$; 第 80 百分位数 $175$ 表示约 $80\%$ 的天数空气质量指数不超过 $175$. 平均数大于中位数, 说明数据中有少数较大的值把平均数拉高了. $\blacksquare$
+$\sin\theta=\frac{\lvert \boldsymbol{AD} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{AD} \rvert}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{0+\frac{3}{4}+\frac{3}{4}}}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{\frac{3}{2}}}=\frac{1}{\sqrt{2}}$.
+
+故 $\theta=45^\circ$.
+
+(3) 平面 $ABD$: $\boldsymbol{BA}=\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$, $\boldsymbol{BD}=\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$.
+
+法向量 $\boldsymbol{n}_1=\boldsymbol{BA} \times \boldsymbol{BD}=\left(-\frac{3}{4}, -\frac{\sqrt{3}}{4}, -\frac{\sqrt{3}}{4}\right)$.
+
+平面 $BDC$ 的法向量 $\boldsymbol{n}_2=\left(0,0,1\right)$.
+
+$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{\sqrt{3}}{4}}{\sqrt{\frac{9}{16}+\frac{3}{16}+\frac{3}{16}}}=\frac{\frac{\sqrt{3}}{4}}{\frac{\sqrt{15}}{4}}=\frac{\sqrt{5}}{5}$. $\blacksquare$
 
 ## 练习十
 
-(练习 9.2 第 10 题) 下面是一个报告中的一段话:
+(练习 1.4 第 1 题) 如图, 二面角 $\alpha-l-\beta$ 的棱上有两个点 $A$, $B$, 线段 $BD$ 与 $AC$ 分别在这个二面角的两个面内, 并且都垂直于棱 $l$. 若 $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, 求平面 $\alpha$ 与平面 $\beta$ 的夹角.
 
-"据统计, 某市 2015 年的居民年人均可支配收入为 27348 元, 而某行业从业人员的年人均工资收入为 125620 元. 有人认为, 该市居民年人均可支配收入被低估了."
-
-你认为这个说法有道理吗? 为什么?
+该图为二面角 $\alpha-l-\beta$ 的直观图:棱 $l$ 上有两点 $A$, $B$;线段 $AC$ 在面 $\alpha$ 内,线段 $BD$ 在面 $\beta$ 内,且 $AC \perp l$,$BD \perp l$;$AB=4$, $AC=6$, $BD=8$,$C$, $D$ 两点间距离 $CD=2\sqrt{17}$.
 
 ### 解答 练习十
 
-由**定义 9.2.3 (众数, 中位数与平均数)**.
+由**常用结论 1.4.9** (平面与平面的夹角).
 
-这个说法没有道理. 某市居民年人均可支配收入是对全市所有居民计算的平均数, 而某行业从业人员的年人均工资收入只涉及该行业的从业人员, 两者的总体范围完全不同.
+$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}$.
 
-某行业 (如金融, 互联网等) 从业人员的工资水平本来就可能远高于全市居民的平均水平, 用这部分人的高收入去和全市全体居民的平均收入比较, 并不能说明全市居民年人均可支配收入被低估. 平均数容易受极端值影响, 不同群体之间的平均数不能直接拿来比较. $\blacksquare$
+因为 $AC \perp l$ 且 $BD \perp l$, $\boldsymbol{CA} \cdot \boldsymbol{AB}=0$, $\boldsymbol{AB} \cdot \boldsymbol{BD}=0$.
+
+$\lvert \boldsymbol{CD} \rvert^2=\boldsymbol{CA}^2+\boldsymbol{AB}^2+\boldsymbol{BD}^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
+
+$\left(2\sqrt{17}\right)^2=6^2+4^2+8^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
+
+$68=36+16+64+2\boldsymbol{CA} \cdot \boldsymbol{BD}=116+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
+
+$2\boldsymbol{CA} \cdot \boldsymbol{BD}=-48$, 即 $\boldsymbol{CA} \cdot \boldsymbol{BD}=-24$.
+
+设两平面夹角为 $\theta$, 则 $\cos\theta=\frac{\lvert \boldsymbol{AC} \cdot \boldsymbol{BD} \rvert}{\lvert \boldsymbol{AC} \rvert \lvert \boldsymbol{BD} \rvert}=\frac{24}{6 \times 8}=\frac{1}{2}$.
+
+故 $\theta=60^\circ$. $\blacksquare$
 
 ## 练习十一
 
-(练习 9.2 第 11 题) 一次演讲比赛中, 评委将从演讲内容, 演讲能力, 演讲效果三个方面为选手打分, 各项成绩均按百分制计, 然后再按演讲内容占 $50\%$, 演讲能力占 $40\%$, 演讲效果占 $10\%$ 的比例, 计算选手的综合成绩 (百分制). 进入决赛的前两名选手的单项成绩如下表所示:
+(练习 1.4 第 2 题) 如图, 在三棱锥 $A-BCD$ 中, $AB=AC=BD=CD=3$, $AD=BC=2$, $M$, $N$ 分别是 $AD$, $BC$ 的中点. 求异面直线 $AN$, $CM$ 所成角的余弦值.
 
-选手 甲: 演讲内容 95, 演讲能力 85, 演讲效果 95; 选手 乙: 演讲内容 85, 演讲能力 95, 演讲效果 95.
-
-请确定两人的名次. 这个问题中平均数的大小与各项权重有什么关系?
+该图为三棱锥 $A-BCD$ 的直观图:$AB=AC=BD=CD=3$,$AD=BC=2$;$M$ 是棱 $AD$ 的中点,$N$ 是棱 $BC$ 的中点,图中连有线段 $AN$ 与 $CM$.
 
 ### 解答 练习十一
 
-由**定义 9.2.3 (众数, 中位数与平均数)**, 加权平均数为各数据乘以相应权重之和.
+由**常用结论 1.4.7** (异面直线所成角).
 
-选手甲的综合成绩为
+设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$. 由对称性, 建立坐标系: 取 $BC$ 中点 $N$ 为原点, $BC$ 沿 $x$ 轴, $AN$ 在 $yOz$ 平面内.
 
-$$
-95\times50\%+85\times40\%+95\times10\%=47.5+34+9.5=91.
-$$
+$B\left(-1,0,0\right)$, $C\left(1,0,0\right)$, $N\left(0,0,0\right)$. $AB=AC=3$, $BC=2$, 故 $AN=\sqrt{9-1}=2\sqrt{2}$. 设 $A\left(0,2\sqrt{2},0\right)$.
 
-选手乙的综合成绩为
+$AD=2$, $BD=CD=3$, 同理 $D$ 在垂直于 $BC$ 的平面内, $D\left(0,y,z\right)$. 由 $BD=3$, $1+y^2+z^2=9$, 即 $y^2+z^2=8$. 由 $AD=2$, $\left(2\sqrt{2}-y\right)^2+z^2=4$. 展开: $8-4\sqrt{2}y+y^2+z^2=4$, 即 $8-4\sqrt{2}y+8=4$, $y=\frac{12}{4\sqrt{2}}=\frac{3\sqrt{2}}{2}$. $z^2=8-\frac{9 \times 2}{4}=8-\frac{9}{2}=\frac{7}{2}$.
 
-$$
-85\times50\%+95\times40\%+95\times10\%=42.5+38+9.5=90.
-$$
+$M$ 是 $AD$ 中点: $M\left(0, \frac{2\sqrt{2}+\frac{3\sqrt{2}}{2}}{2}, \frac{z}{2}\right)=\left(0, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
 
-因为 $91> 90$, 所以选手甲为第一名, 选手乙为第二名.
+$\boldsymbol{AN}=N-A=\left(0,-2\sqrt{2},0\right)$.
 
-在加权平均数中, 平均数的大小不仅取决于各项数据本身的大小, 还取决于各项的权重. 权重越大的项, 对平均数的影响越大. 这里演讲内容权重最大, 故甲在演讲内容上的高分使其综合成绩超过了演讲能力更强的乙. $\blacksquare$
+$\boldsymbol{CM}=M-C=\left(-1, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
+
+$\boldsymbol{AN} \cdot \boldsymbol{CM}=0+\left(-2\sqrt{2}\right) \times \frac{7\sqrt{2}}{4}+0=-\frac{28}{4}=-7$.
+
+$\lvert \boldsymbol{AN} \rvert=2\sqrt{2}$.
+
+$\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{49 \times 2}{16}+\frac{7}{8}}=\sqrt{1+\frac{49}{8}+\frac{7}{8}}=\sqrt{\frac{64}{8}}=\sqrt{8}=2\sqrt{2}$.
+
+$\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
+
+## 练习十二
+
+(练习 1.4 第 3 题) 如图, 在三棱锥 $O-ABC$ 中, $OA$, $OB$, $OC$ 两两垂直, $OA=OC=3$, $OB=2$. 求直线 $OB$ 与平面 $ABC$ 所成角的正弦值.
+
+该图为三棱锥 $O-ABC$ 的直观图:三条侧棱 $OA$, $OB$, $OC$ 两两垂直,且 $OA=OC=3$, $OB=2$,底面为 $\triangle ABC$.
+
+### 解答 练习十二
+
+由**常用结论 1.4.8** (直线与平面所成角).
+
+以 $O$ 为原点, $OA$ 为 $x$ 轴, $OB$ 为 $y$ 轴, $OC$ 为 $z$ 轴.
+
+$A\left(3,0,0\right)$, $B\left(0,2,0\right)$, $C\left(0,0,3\right)$.
+
+平面 $ABC$: $\boldsymbol{AB}=\left(-3,2,0\right)$, $\boldsymbol{AC}=\left(-3,0,3\right)$.
+
+法向量 $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(6,9,6\right)=3\left(2,3,2\right)$.
+
+$\boldsymbol{OB}=\left(0,2,0\right)$.
+
+$\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{OB} \rvert \lvert \boldsymbol{n} \rvert}=\frac{18}{2 \times \sqrt{4+9+4}}=\frac{18}{2 \times \sqrt{17}}=\frac{9}{\sqrt{17}}=\frac{9\sqrt{17}}{17}$. $\blacksquare$
 
 ## 习题一
 
-(习题 9.2 复习巩固第 1 题) 棉花的纤维长度是棉花质量的重要指标. 在一批棉花中随机抽测了 60 根棉花的纤维长度 (单位: $\mathrm{mm}$), 按从小到大排序.
+(习题 1.4 复习巩固第 1 题) 如图, 在三棱锥 $A-BCD$ 中, $E$ 是 $CD$ 的中点, 点 $F$ 在 $AE$ 上, 且 $EF=2FA$. 设 $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$, 求直线 $AE$, $BF$ 的方向向量.
 
-(1) 请你选择合适的组距, 作出这个样本的频率分布直方图, 分析这批棉花纤维长度分布的特征;
-
-(2) 请你估计这批棉花的第 5, 95 百分位数.
-
-(题图: 棉花纤维长度频率分布直方图, 横轴为纤维长度 ($\mathrm{mm}$), 数据范围 $25\sim385$, 组距 $60$, 纵轴为 $\frac{\text{频率}}{\text{组距}}$; 分布呈单峰但右侧拖长尾.)
+该图为三棱锥 $A-BCD$ 的直观图:$E$ 是棱 $CD$ 的中点,点 $F$ 在中线 $AE$ 上且 $EF=2FA$(即 $AF:FE=1:2$),图中连有线段 $BF$.
 
 ### 解答 习题一
 
-由**定义 9.2.1 (频率分布表与频率分布直方图)** 与**定义 9.2.2 (第 p 百分位数)**.
+由**定义 1.4.1 (直线的方向向量)**.
 
-(1) 数据最小值为 25, 最大值为 385, 极差为 360. 取组距为 60, 把数据分成若干组, 列出频率分布表, 画出频率分布直方图. 可以看出这批棉花纤维长度呈单峰分布, 但右侧拖出一条长尾, 即有少数纤维很长.
+$\boldsymbol{AE}=\boldsymbol{AB}+\boldsymbol{BE}=-\boldsymbol{c}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
 
-(2) 数据已从小到大排列, 共 60 个. 第 5 百分位数: $i=60\times5\%=3$, 是整数, 为第 3 个数与第 4 个数的平均数, 即 $\frac{33+50}{2}=41.5$. 第 95 百分位数: $i=60\times95\%=57$, 是整数, 为第 57 个数与第 58 个数的平均数, 即 $\frac{370+380}{2}=375$.
+$EF=2FA$, 故 $AF:FE=1:2$, $F$ 在 $AE$ 上且 $\boldsymbol{AF}=\frac{1}{3}\boldsymbol{AE}$.
 
-故估计第 5 百分位数为 $41.5\,\mathrm{mm}$, 第 95 百分位数为 $375\,\mathrm{mm}$. $\blacksquare$
+$\boldsymbol{BF}=\boldsymbol{BA}+\boldsymbol{AF}=\boldsymbol{c}+\frac{1}{3}\boldsymbol{AE}=\boldsymbol{c}+\frac{1}{3}\left(-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}\right)=\frac{2}{3}\boldsymbol{c}+\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}$.
 
-## 习题二
-
-(习题 9.2 复习巩固第 2 题) 甲, 乙两台机床同时生产一种零件, 在 10 天中, 两台机床每天生产的次品数分别为:
-
-甲: $0,1,0,2,2,0,3,1,2,4$; 乙: $2,3,1,1,0,2,1,1,0,1$.
-
-分别计算这两组数据的平均数和标准差, 从计算结果看, 哪台机床的性能更好?
-
-### 解答 习题二
-
-由**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
-
-甲的平均数为
-
-$$
-\overline x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
-$$
-
-方差为 $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, 标准差 $s_{\text{甲}}\approx1.28$.
-
-乙的平均数为
-
-$$
-\overline x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
-$$
-
-方差为 $s_{\text{乙}}^2=\frac{7.6}{10}=0.76$, 标准差 $s_{\text{乙}}\approx0.87$.
-
-乙机床平均每天生产的次品数较少, 且标准差较小, 性能更稳定, 故乙机床的性能更好. $\blacksquare$
-
-## 习题三
-
-(习题 9.2 复习巩固第 3 题) 在去年的足球联赛上, 一队每场比赛平均失球数是 1.5, 全年比赛失球个数的标准差为 1.1; 二队每场比赛平均失球数是 2.1, 全年失球个数的标准差为 0.4. 你认为下列说法中哪一种是正确的, 为什么?
-
-(1) 平均说来一队比二队防守技术好;
-
-(2) 二队比一队技术水平更稳定;
-
-(3) 一队在防守中有时表现较差, 有时表现又非常好;
-
-(4) 二队很少不失球.
-
-### 解答 习题三
-
-由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
-
-(1) 正确. 一队平均失球 1.5 少于二队平均失球 2.1, 平均说来一队失球少, 防守技术好.
-
-(2) 正确. 二队失球标准差 0.4 小于一队 1.1, 说明二队每场失球数比较一致, 发挥更稳定.
-
-(3) 正确. 一队标准差 1.1 很大, 说明失球数波动大, 即有时失球很少 (表现好), 有时失球很多 (表现差).
-
-(4) 正确. 二队平均每场失球 2.1, 且标准差仅 0.4, 说明每场大约都失 2 个左右球, 很少出现不失球的情况.
-
-四种说法都正确, 它们分别从平均数和标准差两个角度描述了两队的防守情况. $\blacksquare$
-
-## 习题四
-
-(习题 9.2 复习巩固第 4 题) 数据 $x_1,x_2,\cdots,x_n$ 的方差和标准差分别为 $s_x^2,s_x$, 数据 $y_1,y_2,\cdots,y_n$ 的方差和标准差分别为 $s_y^2,s_y$. 若 $y_i=ax_i+b$ 成立, $a,b$ 为常数, 证明: $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
-
-### 解答 习题四
-
-由**常用结论 9.2.6** (数据变换对平均数与方差的影响).
-
-因为 $y_i=ax_i+b$, 由**常用结论 9.2.6**, $\overline y=a\overline x+b$, 故 $y_i-\overline y=a\left(x_i-\overline x\right)$. 于是
-
-$$
-s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline x\right)^2=a^2s_x^2,
-$$
-
-从而 $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. 原式得证. $\blacksquare$
-
-## 习题五
-
-(习题 9.2 复习巩固第 5 题) 数据 $x_1,x_2,\cdots,x_n$ 的方差 $s^2=0$, 证明: 所有的 $x_i$ ($i=1,2,\cdots,n$) 都相同.
-
-### 解答 习题五
-
-由**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
-
-由 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0$, 得
-
-$$
-\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0.
-$$
-
-每一项 $\left(x_i-\overline x\right)^2\ge0$, 它们的和为 0, 故每一项都为 0, 即 $x_i-\overline x=0$, $x_i=\overline x$ 对所有 $i$ 成立. 所以所有的 $x_i$ 都相同. $\blacksquare$
-
-## 习题六
-
-(习题 9.2 综合运用第 6 题) 以往的招生统计数据显示, 某所大学录取的新生高考总分的中位数基本上稳定在 550 分. 你的一位高中校友在今年的高考中得了 520 分, 你是立即劝阻他报考这所大学, 还是先进一步查阅一下这所大学以往招生的其他统计信息? 解释一下你的选择.
-
-### 解答 习题六
-
-由**定义 9.2.2 (第 p 百分位数)** 与**定义 9.2.3 (众数, 中位数与平均数)**.
-
-应先进一步查阅这所大学以往招生的其他统计信息, 而不立即劝阻.
-
-录取新生高考总分的中位数稳定在 550 分, 说明被录取新生中有一半成绩在 550 分以上, 一半在 550 分以下. 校友考了 520 分, 低于中位数, 但中位数只是一个分位数, 仅凭它不能判断能否被录取. 还应查阅该大学历年录取最低分, 录取平均分, 当年招生计划数等信息, 综合判断后再给校友建议. $\blacksquare$
-
-## 习题七
-
-(习题 9.2 综合运用第 7 题) 甲, 乙两个班级, 一次数学考试的分数排序如下. 请你就这次考试成绩, 对两个班级的数学学习情况进行评价.
-
-### 解答 习题七
-
-由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
-
-甲班 40 名学生成绩最低 51, 最高 100, 中位数约为 81 分; 乙班 40 名学生成绩最低 61, 最高 98, 中位数约为 82.5 分.
-
-从集中趋势看, 乙班的中位数略高于甲班. 从离散程度看, 甲班成绩从 51 到 100 跨度很大, 说明甲班学生成绩两极分化比较明显; 乙班成绩集中在 61 到 98 之间, 高分段和低分段都比较少, 成绩比较整齐.
-
-综合来看, 乙班整体水平略高且成绩整齐, 甲班虽然有高分, 但低分也多, 两极分化明显. $\blacksquare$
-
-## 习题八
-
-(习题 9.2 综合运用第 8 题) 有一种鱼的身体吸收汞, 一定量身体中汞的含量超过其体重的 $1.00\times10^{-6}$ 的鱼被人食用后, 就会对人体产生危害. 在 30 条鱼的样本中发现的汞含量 (乘百万分之一) 如下:
-
-$0.07,0.24,0.95,0.98,1.02,0.98,1.37,1.40,0.39,1.02,1.44,1.58,0.54,1.08,0.61,0.72,1.20,1.14,1.62,1.68,1.85,1.20,0.81,0.82,0.84,1.29,1.26,2.10,0.91,1.31$.
-
-(1) 请用合适的统计图描述上述数据, 并分析这 30 条鱼的汞含量的分布特点;
-
-(2) 求出上述样本数据的平均数和标准差;
-
-(3) 从实际情况看, 许多鱼的汞含量超标的原因是这些鱼在出售之前没有被检测过. 你认为每批这种鱼的平均汞含量都比 $1.00\times10^{-6}$ 大吗?
-
-(4) 在上述样本中, 有多少条鱼的汞含量在以平均数为中心, 2 倍标准差的范围内?
-
-### 解答 习题八
-
-由**定义 9.2.1 (频率分布表与频率分布直方图)** 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
-
-(1) 把 30 个汞含量数据分组, 画频率分布直方图. 可以看出数据大致集中在 $0.8\sim1.6$ 之间, 右侧拖尾, 有少数鱼汞含量明显偏高.
-
-(2) 样本平均数为
-
-$$
-\overline x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
-$$
-
-样本方差约为 $0.2043$, 样本标准差 $s\approx0.45$.
-
-(3) 不能认为每批这种鱼的平均汞含量都比 $1.00\times10^{-6}$ 大. 因为样本具有随机性, 不同批次鱼的汞含量可能不同, 本批样本的平均数只是对本批鱼的估计.
-
-(4) 区间 $\left[\overline x-2s,\overline x+2s\right]$ 约为 $\left[0.18,1.98\right]$. 逐一清点, 除 $0.07$ 和 $2.10$ 外, 其余 28 条鱼的汞含量都在该区间内. 故约有 28 条鱼. $\blacksquare$
-
-## 习题九
-
-(习题 9.2 综合运用第 9 题) 在一次人才招聘会上, 有一家公司的招聘员告诉你, "我们公司的收入水平很高", "去年, 在 50 名员工中, 最高年收入达到了 200 万, 员工年收入的平均数是 10 万", 而你的预期是获得 9 万元年薪.
-
-(1) 你是否能够判断年薪为 9 万元的员工在这家公司算高收入者?
-
-(2) 如果招聘员继续告诉你, "员工年收入的变化范围是从 3 万到 200 万", 这个信息是否足以使你作出自己是否受聘的决定? 为什么?
-
-(3) 如果招聘员继续给你提供了如下信息, 员工收入的第一四分位数为 4.5 万, 第三四分位数为 9.5 万, 你又该如何使用这条信息来作出是否受聘的决定?
-
-(4) 根据 (3) 中招聘员提供的信息, 你能估计出这家公司员工收入的中位数是多少吗? 为什么平均数比估计出的中位数高很多?
-
-### 解答 习题九
-
-由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.2 (第 p 百分位数)**.
-
-(1) 不能判断. 只知道平均数 10 万和最高 200 万, 不知道 9 万在全体员工收入中的位置, 无法判断 9 万是否算高收入.
-
-(2) 不足以作出决定. 平均数 10 万被最高 200 万这个极端值拉高了, 大多数员工的收入可能远低于 10 万. 仅凭范围和平均数, 仍不清楚自己拿到 9 万处于什么水平.
-
-(3) 第一四分位数 4.5 万, 第三四分位数 9.5 万. 这说明约 $75\%$ 的员工年收入不超过 9.5 万, 而你的预期 9 万接近第三四分位数. 如果受聘, 你的收入有望高于约 $75\%$ 的员工, 这个信息较有参考价值.
-
-(4) 中位数介于第一四分位数与第三四分位数之间, 约为 7 万. 平均数 10 万远高于中位数, 是因为有 200 万这个极端大值把平均数拉高了. 这正说明平均数容易受极端值影响, 在收入这类偏态分布中, 中位数更能代表员工的一般收入水平. $\blacksquare$
-
-## 习题十
-
-(习题 9.2 综合运用第 10 题) 有 20 种不同的零食, 每 $100\,\mathrm{g}$ 可食部分包含的能量 (单位: $\mathrm{kJ}$) 如下:
-
-$110,120,123,165,432,190,174,235,428,318,249,280,162,146,210,120,123,120,150,140$.
-
-(1) 以上述 20 个数据组成总体, 求总体平均数与总体标准差;
-
-(2) 设计恰当的随机抽样方法, 从总体中抽取一个容量为 7 的样本, 求样本的平均数与标准差;
-
-(3) 利用上面的抽样方法, 再抽取容量为 7 的样本, 计算样本的平均数和标准差. 这个样本的平均数和标准差与 (2) 中的结果一样吗? 为什么?
-
-(4) 利用 (2) 中的随机抽样方法, 分别从总体中抽取一个容量为 10, 13, 16, 19 的样本, 求样本的平均数与标准差. 分析样本量与样本的平均数和标准差对总体的估计效果之间有什么关系.
-
-### 解答 习题十
-
-由**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)** 与**定义 9.1.4 (总体均值与样本均值)**.
-
-(1) 总体平均数为
-
-$$
-\overline x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
-$$
-
-总体标准差约为 $95.26$.
-
-(2) 把 20 种零食编号 $1\sim20$, 用随机数法从中不放回抽取 7 个, 对抽中数据计算样本平均数与标准差. 不同抽样结果一般不同.
-
-(3) 再抽一次, 样本平均数与标准差一般与 (2) 不一样, 因为样本是随机抽取的, 样本平均数与样本标准差也具有随机性.
-
-(4) 分别抽取容量为 10, 13, 16, 19 的样本, 计算其平均数与标准差. 可以观察到: 样本量越大, 样本平均数越接近总体平均数 $199.75$, 样本标准差也越接近总体标准差 $95.26$. 即样本量越大, 样本对总体的估计效果越好. $\blacksquare$
-
-## 习题十一
-
-(习题 9.2 拓广探索第 11 题) 已知总体划分为 3 层, 通过分层随机抽样, 各层抽取的样本量, 样本平均数和样本方差分别为: $l,\overline x,s_1^2$; $m,\overline y,s_2^2$; $n,\overline z,s_3^2$. 记总的样本平均数为 $\overline w$, 样本方差为 $s^2$, 证明:
-
-(1) $\overline w=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z$;
-
-(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}$.
-
-### 解答 习题十一
-
-由**常用结论 9.2.5** (分层随机抽样的总方差) 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
-
-(1) 三层数据之和分别为 $l\overline x,m\overline y,n\overline z$, 总数据个数为 $l+m+n$, 故总样本平均数为
-
-$$
-\overline w=\frac{l\overline x+m\overline y+n\overline z}{l+m+n}=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
-$$
-
-(2) 对第 1 层, $\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline x\right)+\left(\overline x-\overline w\right)\right]^2$. 展开后交叉项 $2\left(\overline x-\overline w\right)\sum_{i=1}^{l}\left(x_i-\overline x\right)=0$, 故
-
-$$
-\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left(x_i-\overline x\right)^2+l\left(\overline x-\overline w\right)^2=ls_1^2+l\left(\overline x-\overline w\right)^2.
-$$
-
-对第 2, 3 层同理. 于是
-
-$$
-s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}.
-$$
-
-原式得证. $\blacksquare$
-
-## 习题十二
-
-(习题 9.2 拓广探索第 12 题) 调查本班每名同学的家庭在同一周的用电量, 从中你能发现什么信息? 写一份简短的统计报告, 说明你发现的信息.
-
-### 解答 习题十二
-
-由**定义 9.2.1 (频率分布表与频率分布直方图)** 与**定义 9.2.3 (众数, 中位数与平均数)**.
-
-收集本班每名同学家庭同一周的用电量数据, 画频率分布直方图, 计算平均数, 中位数和标准差.
-
-可以发现: 大多数家庭周用电量集中在某个范围, 少数家庭用电量明显偏高或偏低; 用平均数和中位数描述用电量的一般水平, 用标准差说明家庭间用电量的差异. 据此写出简短报告, 描述本班同学家庭周用电量的分布规律, 并可就节约用电提出建议. $\blacksquare$
-### 阅读与思考一
-
-(思考 1) 在二战期间, 通过统计缴获的德军坦克编号, 盟军估计出德军每月生产的坦克数. 你还能想出其他估计德国每月生产的坦克数的方法吗? 例如, 用样本编号的平均数作为每月生产坦克编号的平均数等, 比较一下哪种方法更合理.
-
-### 解答 阅读与思考一
-
-由**定义 9.2.3 (众数, 中位数与平均数)** 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
-
-设德军每月生产坦克编号为 $1,2,\cdots,N$, 缴获的坦克编号构成一个简单随机样本. 几种估计 $N$ 的方法:
-
-(1) 用样本编号的平均数估计总体编号的平均数. 总体编号 $1\sim N$ 的平均数为 $\frac{N+1}{2}$, 令样本平均数 $\overline x=\frac{N+1}{2}$, 解得 $N=2\overline x-1$.
-
-(2) 用样本最大编号 $m$ 估计. 样本最大编号通常接近 $N$, 可估计 $N\approx m\cdot\frac{n+1}{n}$, 即用样本最大值略加修正.
-
-比较: 用样本平均数的方法利用了所有样本信息, 但当样本量小时估计误差较大; 用样本最大值修正的方法也较简单. 在实际应用中, 把多种方法结合起来互相印证, 结果更可靠. 这些方法的共同思想是用样本统计量去估计总体的未知参数 $N$. $\blacksquare$
-
-### 阅读与思考二
-
-(思考 2) 请同学们查阅图书或互联网, 了解大数据的有关内容: 大数据的产生背景, 大数据的特征, 大数据对统计的观念, 方法和技术带来哪些挑战, 又带来哪些发展机遇. 体会大数据对当代社会发展的作用.
-
-### 解答 阅读与思考二
-
-由**定义 9.2.1 (频率分布表与频率分布直方图)** 与抽样调查的基本思想.
-
-查阅资料可知: 大数据是指在数据规模, 数据类型, 处理速度等方面都远超传统数据库工具能力的数据集合, 具有数据量大, 类型多样, 产生速度快, 价值密度低等特征.
-
-大数据对统计的影响: 传统统计依靠抽样调查, 用样本估计总体; 而大数据往往可以收集几乎全体 (或全体) 数据, 使 "样本即总体", 从而改变了 "抽样估计" 的传统观念. 同时, 数据类型多样, 噪声巨大, 对数据的存储, 清洗, 分析技术提出了挑战. 大数据也带来了机遇: 可以更细致地刻画现象, 发现传统方法难以发现的规律, 在商业, 医疗, 交通, 公共治理等领域发挥重要作用. 它正在深刻改变当代社会的生产和生活方式. $\blacksquare$
+故直线 $AE$ 的方向向量为 $-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, 直线 $BF$ 的方向向量为 $\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}+\frac{2}{3}\boldsymbol{c}$. $\blacksquare$

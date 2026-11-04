@@ -1,262 +1,405 @@
 # week28
-> **Definition 3.1.1 (Function)**
+> **Definition 8.1.1 (空间几何体)**
 > 
-> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
-> **Definition 3.1.2 (Domain and Range)**
+> 如果只考虑物体的形和大小, 而不考虑其他因素, 那么由这些物体抽象出来的空间图形就叫做空间几何体.
+> **Definition 8.1.2 (多面体)**
 > 
-> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
-> **Definition 3.1.5 (Piecewise Function)**
+> 由若干个平面多边形围成的几何体叫做多面体.
+> **Definition 8.1.3 (旋转体)**
 > 
-> 在函数的定义域内, 对于自变量 $x$ 的不同取值范围, 有着不同的对应关系, 这样的函数通常叫做分段函数.
-> **Definition 3.2.1 (Monotonically Increasing)**
+> 由一个平面图形绕它所在平面内的一条定直线旋转所形成的封闭几何体叫做旋转体.
+> **Definition 8.1.4 (棱柱)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
-> **Definition 3.2.2 (Monotonically Decreasing)**
+> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
+> **Definition 8.1.5 (Right and Oblique Prisms)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
-> **Definition 3.2.3 (Maximum Value)**
+> 侧棱与底面垂直的棱柱叫做直棱柱, 侧棱与底面不垂直的棱柱叫做斜棱柱.
+> **Definition 8.1.7 (平行六面体)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
-> **Definition 3.2.5 (Even Function)**
+> 底面是平行四边形的四棱柱叫做平行六面体.
+> **Definition 8.1.8 (棱锥)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
-> **Definition 3.2.6 (Odd Function)**
+> 有一个面是多边形, 其余各面都是有一个公共顶点的三角形, 由这些面围成的多面体叫做棱锥.
+> **Definition 8.1.9 (正棱锥)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
-> **Definition 3.3.1 (Power Function)**
+> 底面是正多边形, 且顶点在底面的投影是底面中心的棱锥叫做正棱锥.
+> **Definition 8.1.10 (棱台)**
 > 
-> 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
+> 用一个平行于棱锥底面的平面去截棱锥, 底面和截面之间的部分叫做棱台.
+> **Definition 8.1.11 (圆柱)**
+> 
+> 以矩形的一边所在直线为旋转轴, 其余三边旋转形成的面所围成的旋转体叫做圆柱.
+> **Definition 8.1.12 (圆锥)**
+> 
+> 以直角三角形的一条直角边所在直线为旋转轴, 其余两边旋转形成的面所围成的旋转体叫做圆锥.
+> **Definition 8.1.13 (圆台)**
+> 
+> 用平行于圆锥底面的平面去截圆锥, 底面与截面之间的部分叫做圆台.
+> **Definition 8.1.14 (Sphere)**
+> 
+> 以半圆的直径所在直线为旋转轴, 半圆面旋转一周形成的旋转体叫做球体.
+> **Definition 8.1.16 (简单组合体)**
+> 
+> ,它们在结构上有哪些相同点和不同点?当底面发 生变化时,它们能否互相转化?圆柱,圆锥与圆台呢? ８简单组合体 现实世界中的物体表示的几何体,除柱体,锥体,台体和球等简单几何体外,还有大 量的几何体是由简单几何体组合而成的,这些几何体称作简单组合体. (１)　　　　　(２)　　　　　　　(３)　　　　　　　　　(４) 图８.１１４ 　　请你说一说图８.１１４ 中各几何体是由哪些简单 几何体组合而成的. 简单组合体的构成有两种基本形式:一种是由简单几何 体拼接而成,如图８.１１４(１)(２)中物体表示的几何体; 一种是由简单几何体截去或挖去一部分而成,如图８.１１４ (３)(４)中的几何体.现实世界中的物体大多是由具有柱体, 锥体,台体,球等结构特征的物体组合而成. 例２　如图８.１１５(１),以直角梯形的下底 所在直线为轴,其余三边旋转一周形成的面围成一个几何 体.说出这个几何体的结构特征. ３０１ 径.球常用表示球心的字母来表示,如图8.1-13中的球记作球O.
+> **Definition 8.2.1 (直观图)**
+> 
+> 直观图是观察者站在某一点观察一个空间几何体获得的图形. 在立体几何中, 立体图形的直观图通常是在平行投影下得到的平面图形.
+> **Definition 8.2.2 (斜二测画法)**
+> 
+> 斜二测画法是画空间图形直观图的方法: x 轴水平, y 轴与 x 轴成 45 度, z 轴垂直, 平行于 x, z 轴的线段长度不变, 平行于 y 轴的线段长度减半.
+
+## Exercise 1
+
+(Exercise 8.1, Problem 1) Observe the objects in the figure and state their main structural features.
+
+(1) a tent; (2) a dictionary; (3) a glass pyramid; (4) a trash can.
+
+> The original figure appears in the textbook, Compulsory Course Book 2, printed page 101 ($PDF$ page 107). It is a photograph and cannot be redrawn in R.
+
+### Solution to Exercise 1
+
+By **Definition 8.1.4 (Prism)** and **Definition 8.1.8 (Pyramid)**, judge according to whether the faces bounding the object are plane polygons and whether there are two mutually parallel faces.
+
+(1) A tent can be abstracted as a prism; its two bases are triangles and its lateral faces are rectangles, so it is a triangular prism.
+
+(2) A dictionary can be abstracted as a rectangular box; it is a right quadrangular prism with rectangular bases, i.e. a kind of regular quadrangular prism.
+
+(3) A glass pyramid can be abstracted as a pyramid; its base is a quadrilateral and its lateral faces are triangles sharing a common vertex, so it is a quadrangular pyramid.
+
+(4) A trash can can be abstracted as a prism; its overall shape is close to a prism, and the part where the opening is wider than the base approximates a frustum; its main structural feature is a prism plus an open lid. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 8.1, Problem 2) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+
+(1) A rectangular box is a quadrangular prism, and a right quadrangular prism is a rectangular box.
+
+(2) A quadrangular prism, a frustum of a quadrangular pyramid, and a pentagonal pyramid are all hexahedra.
+
+### Solution to Exercise 2
+
+Judge by **Definition 8.1.4 (Prism)**, **Definition 8.1.5 (Right Prisms and Oblique Prisms)**, **Definition 8.1.10 (Frustum of a Pyramid)**, and **Definition 8.1.8 (Pyramid)**.
+
+(1) A rectangular box satisfies the features of a prism and has a quadrilateral base, so it is a quadrangular prism. But a right quadrangular prism only requires the lateral edges to be perpendicular to the bases, and the bases need not be rectangles, whereas the base of a rectangular box must be a rectangle; hence a right quadrangular prism is not necessarily a rectangular box. The statement is false.
+
+(2) A quadrangular prism has two bases and four lateral faces, totaling $6$ faces; a frustum of a quadrangular pyramid has two bases and four lateral faces, totaling $6$ faces; a pentagonal pyramid has one base and five lateral faces, totaling $6$ faces. All three are bounded by $6$ faces and are hexahedra. The statement is true. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 8.1, Problem 3) Fill in the blanks.
+
+(1) A geometric solid is bounded by $7$ faces, of which two are mutually parallel and congruent pentagons and the others are congruent rectangles; then this solid is $\;\_\_\;$.
+
+(2) A polyhedron has at least $\;\_\_\;$ faces; in this case the polyhedron is $\;\_\_\;$.
+
+### Solution to Exercise 3
+
+By **Definition 8.1.4 (Prism)**, the two bases of a prism are mutually parallel and congruent, and the lateral faces are all parallelograms.
+
+(1) The two mutually parallel and congruent pentagons are the bases, and the other five rectangles are the lateral faces; the lateral edges are perpendicular to the bases, so this solid is a regular pentagonal prism.
+
+(2) By **Definition 8.1.8 (Pyramid)**, a triangular pyramid has one triangular base and three triangular lateral faces, totaling $4$ faces. Any polyhedron needs at least $4$ faces to bound a closed spatial figure, so it has at least $4$ faces, and in this case the polyhedron is a triangular pyramid (i.e. a tetrahedron). $\blacksquare$
+
+## Exercise 4
+
+(Exercise 8.1, Problem 4) Design a plane figure that can be folded into a right triangular prism.
+
+The figure: a net of a right triangular prism—three congruent rectangles joined side by side as the lateral faces, with a congruent triangle attached to the top and bottom sides of the middle rectangle as the upper and lower bases.
+
+### Solution to Exercise 4
+
+By **Definition 8.1.4 (Prism)** and **Definition 8.1.5 (Right Prisms)**, a right triangular prism has two congruent triangular bases and three rectangular lateral faces, and its lateral edges are perpendicular to the bases.
+
+Design the following net: take three congruent rectangles joined side by side as the three lateral faces; attach a congruent triangle to each of the upper and lower sides of the middle rectangle as the upper and lower bases. Fold along the common edges of adjacent rectangles so that the three rectangles form the three lateral faces and the two triangles serve as the upper and lower bases, thus folding into a right triangular prism. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 8.1, Problem 1) Observe the objects in the figure and state their main structural features.
+
+(1) a paper cup; (2) a milk powder can; (3) a volleyball; (4) a traffic cone.
+
+> The original figure appears in the textbook, Compulsory Course Book 2, printed page 104 ($PDF$ page 110). It is a photograph and cannot be redrawn in R.
+
+### Solution to Exercise 5
+
+Judge by **Definition 8.1.13 (Frustum of a Cone)**, **Definition 8.1.11 (Cylinder)**, **Definition 8.1.14 (Sphere)**, and **Definition 8.1.12 (Cone)**.
+
+(1) A paper cup is wider at the opening than at the base; its upper and lower bases are circular surfaces of different radii and its lateral surface is curved, so it is a frustum of a cone.
+
+(2) The upper and lower bases of a milk powder can are congruent circular surfaces and its lateral surface is a curved surface perpendicular to the bases, so it is a cylinder.
+
+(3) The surface of a volleyball is a spherical surface, so the whole object is a sphere.
+
+(4) The base of a traffic cone is a circular surface and its lateral surface is a curved surface converging to a point, so it is a cone. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 8.1, Problem 2) State the main structural features of the objects in the figure.
+
+(1) a granary; (2) a nut.
+
+> The original figure appears in the textbook, Compulsory Course Book 2, printed page 104 ($PDF$ page 110). It is a photograph and cannot be redrawn in R.
+
+### Solution to Exercise 6
+
+By **Definition 8.1.16 (Simple Composite Solids)**, real objects can be made by joining simple solids or by hollowing out a part of one.
+
+(1) The lower part of a granary is a cylinder and the top is a cone, joined together with their bases coinciding; it is a composite of a cylinder and a cone.
+
+(2) The outer shape of a nut is a regular hexagonal prism, and a cylindrical hole is hollowed out along the axial direction in the middle; it is a composite obtained by hollowing a cylinder out of a regular hexagonal prism. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 8.1, Problem 3) As shown in the figure, taking the line on which side $AB$ of triangle $ABC$ lies as the axis, the surfaces swept by the other two sides rotating through one full turn bound a geometric solid. State the structural features of this solid.
+
+The figure: a right triangle $ABC$ with the leg $AB$ horizontal (as the axis of rotation), the leg $BC$ perpendicular to $AB$, and the hypotenuse $AC$ joining $A$ and $C$.
+
+### Solution to Exercise 7
+
+By **Definition 8.1.3 (Solids of Revolution)** and **Definition 8.1.12 (Cone)**, a plane figure rotating one full turn about an axis bounds a solid of revolution.
+
+In triangle $ABC$, $AB$ is the axis of rotation, $BC$ is perpendicular to $AB$, and $AC$ is the hypotenuse. Rotating about the line on which $AB$ lies, the side $BC$ perpendicular to the axis sweeps out a circular surface, and the hypotenuse $AC$ sweeps out a curved surface. Hence the bounded solid is a cone, formed by rotating the right triangle $ABC$ about the leg $AB$; $AB$ is the axis, the circular surface swept by $BC$ is the base, and the curved surface swept by $AC$ is the lateral surface. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 8.1, Problem 4) Observe the objects around us and state the main structural features of the geometric solids they represent.
+
+### Solution to Exercise 8
+
+By **Definition 8.1.16 (Simple Composite Solids)**, the objects around us are mostly combinations of simple solids.
+
+For example: a book approximates a rectangular box, i.e. a right quadrangular prism; a soda can approximates a cylinder; a basketball is a sphere; a pyramid approximates a quadrangular pyramid; a tent approximates a triangular prism; a glass, if wider at the opening than at the base, approximates a frustum of a cone. Each of them is either a single prism-like, pyramid-like, frustum-like, or spherical solid, or a composite formed by joining or hollowing out parts of these simple solids. $\blacksquare$
 
 ## Problem 1
 
-(Review Reference Problem 3, Review and Consolidation, Problem 1) Find the domain of the following functions:
+(Exercise 8.1, Review and Consolidation, Problem 1) As shown in the figure, in the rectangular box $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, point out the edges and faces passing through vertex $D$.
 
-(1) $y=\sqrt{x-2}\sqrt{x+5}$;
-
-(2) $y=\frac{\sqrt{x-4}}{\left|x\right|-5}$.
+The figure: an oblique drawing of a rectangular prism $ABCD\text{-}A_1B_1C_1D_1$, with the lower base a rectangle $ABCD$, the upper base a rectangle $A_1B_1C_1D_1$, and the lateral edges $AA_1,BB_1,CC_1,DD_1$ perpendicular to the bases.
 
 ### Solution to Problem 1
 
-By **Definition 3.1.2 (Domain and Range)**, the set of real numbers for which the analytic expression is meaningful.
+By **Definition 8.1.2 (Polyhedron)**, an edge is the common side of two faces, and a vertex is the common point of two edges.
 
-(1) We require $x-2\ge0$ and $x+5\ge0$, i.e. $x\ge2$ and $x\ge-5$; taking the intersection gives $x\ge2$. The domain is $\left[2,+\infty\right)$.
-
-(2) We require $x-4\ge0$, i.e. $x\ge4$, and the denominator $\left|x\right|-5\ne0$, i.e. $x\ne\pm5$. Combined with $x\ge4$, we get $x\ge4$ and $x\ne5$. The domain is $\left[4,5\right)\cup\left(5,+\infty\right)$. $\blacksquare$
+In the rectangular box $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, there are three edges passing through vertex $D$: $DA$, $DC$, $DD_{1}$. There are three faces passing through vertex $D$: the base $ABCD$, the lateral face $ADD_{1}A_{1}$, and the lateral face $CDD_{1}C_{1}$. $\blacksquare$
 
 ## Problem 2
 
-(Review Reference Problem 3, Review and Consolidation, Problem 2) Given the function $f\left(x\right)=\frac{1-x}{1+x}$, find:
+(Exercise 8.1, Review and Consolidation, Problem 2) As shown in the figure, among the following solids, those that are prisms are $\;\_\_\;$ (fill in the numbers).
 
-(1) $f\left(a\right)+1$ ($a\ne-1$);
+(1) an oblique parallelepiped; (2) a triangular prism; (3) an upright rectangular box; (4) a cylinder; (5) a composite of a rectangular box below with a triangular prism on top; (6) a composite of a frustum and a pyramid; (7) a triangular pyramid.
 
-(2) $f\left(a+1\right)$ ($a\ne-2$).
+The figure: seven solids arranged side by side: (1) a slanted parallelepiped; (2) a triangular prism; (3) a vertical rectangular prism; (4) a cylinder; (5) a composite of a rectangular prism below a triangular prism; (6) a composite of a frustum and a pyramid; (7) a triangular pyramid.
 
 ### Solution to Problem 2
 
-By **Definition 3.1.1 (Function)**, substitute the independent variable into the analytic expression.
+By **Definition 8.1.4 (Prism)**, a prism must have two mutually parallel faces, with the remaining faces all quadrilaterals, and the common edges of adjacent quadrilaterals parallel to each other.
 
-(1) $f\left(a\right)+1=\frac{1-a}{1+a}+1=\frac{1-a+1+a}{1+a}=\frac{2}{1+a}$.
-
-(2) $f\left(a+1\right)=\frac{1-\left(a+1\right)}{1+\left(a+1\right)}=\frac{-a}{a+2}$. $\blacksquare$
+(1) It has two parallel triangular faces and the remaining faces are parallelograms, so it is a prism; (2) it has two parallel triangular bases and rectangular lateral faces, so it is a prism; (3) a rectangular box is a quadrangular prism; (5) the lower rectangular-box part by itself is a prism. (4) A cylinder is a solid of revolution, not a polyhedron, so it is not a prism; (6) and (7) do not have the structural features of a prism. Hence the prisms are (1), (2), (3), (5). $\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problem 3, Review and Consolidation, Problem 3) Let $f\left(x\right)=\frac{1+x^2}{1-x^2}$. Prove:
+(Exercise 8.1, Review and Consolidation, Problem 3) As shown in the figure, a car inner tube can be formed by rotating one of the following figures about an axis; that figure is ( ).
 
-(1) $f\left(-x\right)=f\left(x\right)$;
+(A) a set of concentric circles about the axis; (B) two equal circles about the axis; (C) a small circle about the axis; (D) a circle about the axis.
 
-(2) $f\left(\frac{1}{x}\right)=-f\left(x\right)$ ($x\ne0$).
+> The original figure appears in the textbook, Compulsory Course Book 2, printed page 105 ($PDF$ page 111). It is a photograph and cannot be redrawn in R.
+
+The figure: four answer options, each a plane figure rotated about a vertical axis: (A) a set of concentric circles; (B) two equal circles; (C) a small circle; (D) a circle.
 
 ### Solution to Problem 3
 
-By **Definition 3.2.5 (Even Function)**, substitute and compute to verify.
+By **Definition 8.1.3 (Solids of Revolution)**, an inner tube is a torus, formed by rotating a circle about an axis that lies in its plane but does not intersect it.
 
-(1) $f\left(-x\right)=\frac{1+\left(-x\right)^2}{1-\left(-x\right)^2}=\frac{1+x^2}{1-x^2}=f\left(x\right)$.
-
-(2) $f\left(\frac{1}{x}\right)=\frac{1+\frac{1}{x^2}}{1-\frac{1}{x^2}}=\frac{\frac{x^2+1}{x^2}}{\frac{x^2-1}{x^2}}=\frac{x^2+1}{x^2-1}=-\frac{1+x^2}{1-x^2}=-f\left(x\right)$. $\blacksquare$
+(A) The center of the circle lies on the axis, so rotation cannot form a hollow ring; (B) two circles rotate to form two concentric cylindrical surfaces; (C) the center of the small circle is not on the axis, so rotation does not form a toroidal surface; (D) the center of the circle is not on the axis, and rotating the circle about the axis sweeps out a toroidal surface, exactly the inner tube. Choose (D). $\blacksquare$
 
 ## Problem 4
 
-(Review Reference Problem 3, Review and Consolidation, Problem 4) Given that the function $f\left(x\right)=4x^2-kx-8$ is monotonic on $\left[5,20\right]$, find the range of the real number $k$.
+(Exercise 8.1, Review and Consolidation, Problem 4) As shown in the figure, determine whether the following solids are frustums, and explain why.
+
+(1) a frustum of a pyramid with parallel upper and lower bases; (2) a pyramid cut by a plane not parallel to the base; (3) a cone cut by a plane not parallel to the base.
+
+The figure: three solids arranged side by side: (1) a frustum (upper and lower bases parallel); (2) a pyramid cut by a plane not parallel to the base; (3) a cone cut by a plane not parallel to the base.
 
 ### Solution to Problem 4
 
-By **Definition 3.2.1 (Monotonic Increase and Increasing Function)** and **Definition 3.2.2 (Monotonic Decrease and Decreasing Function)**, the monotonicity of a quadratic function is determined by the position of its axis of symmetry.
+By **Definition 8.1.10 (Frustum of a Pyramid)** and **Definition 8.1.13 (Frustum of a Cone)**, a frustum must be obtained by cutting a pyramid or cone with a plane parallel to the base, i.e. the upper and lower bases must be mutually parallel.
 
-The axis of symmetry of $f\left(x\right)=4x^2-kx-8$ is $x=\frac{k}{8}$. The parabola opens upward, decreasing to the left of the axis and increasing to the right.
+(1) The upper and lower bases are mutually parallel, and the lateral edges extended meet at a point, satisfying the features of a frustum; it is a frustum.
 
-For $f\left(x\right)$ to be monotonic on $\left[5,20\right]$, the axis must lie to the left or right of the interval, i.e. $\frac{k}{8}\le5$ or $\frac{k}{8}\ge20$. Solving gives $k\le40$ or $k\ge160$. $\blacksquare$
+(2) The cross-section is not parallel to the base, so the two resulting faces are not parallel, which does not satisfy the definition of a frustum; it is not a frustum.
+
+(3) The cross-section is not parallel to the base, so the two resulting faces are not parallel, which does not satisfy the definition of a frustum of a cone; it is not a frustum. $\blacksquare$
 
 ## Problem 5
 
-(Review Reference Problem 3, Review and Consolidation, Problem 5) Given that the graph of the power function $y=f\left(x\right)$ passes through the point $\left(2,\frac{\sqrt2}{2}\right)$, find the analytic expression of this function, sketch its graph, and determine its odd-even property and monotonicity.
+(Exercise 8.1, Review and Consolidation, Problem 5) As shown in the figure, state the structural features of the two solids.
 
-The graph: in the rectangular coordinate plane, the graph of the power function $y=x^{-\frac{1}{2}}=\frac{1}{\sqrt{x}}$ lies only in the first quadrant (domain $\left(0,+\infty\right)$); it is a monotonically decreasing curve that falls from $+\infty$ as $x\to0^+$ as $x$ increases, gradually approaching both coordinate axes as asymptotes, and passes through the point $\left(2,\frac{\sqrt2}{2}\right)$.
+(1) a cone attached on top of a frustum of a cone; (2) a quadrangular pyramid attached on top of a rectangular box.
+
+The figure: two composite solids arranged side by side: (1) a cone on top of a frustum; (2) a square pyramid on top of a rectangular prism.
 
 ### Solution to Problem 5
 
-By **Definition 3.3.1 (Power Function)**, let $f\left(x\right)=x^\alpha$ and substitute the given point.
+By **Definition 8.1.16 (Simple Composite Solids)**, a composite solid is formed by joining simple solids together.
 
-From $2^\alpha=\frac{\sqrt2}{2}=2^{-\frac{1}{2}}$, we get $\alpha=-\frac{1}{2}$. Hence $f\left(x\right)=x^{-\frac{1}{2}}=\frac{1}{\sqrt x}$.
+(1) The upper part is a cone and the lower part is a frustum of a cone, joined with the base of the cone coinciding with the upper base of the frustum.
 
-The domain is $\left(0,+\infty\right)$. The domain is not symmetric about the origin, hence it is neither an odd nor an even function.
-
-By **Definition 3.2.2 (Monotonic Decrease and Decreasing Function)**, on $\left(0,+\infty\right)$ as $x$ increases, $\frac{1}{\sqrt x}$ decreases, hence it is monotonically decreasing. The graph lies in the first quadrant, with the two coordinate axes as asymptotes. $\blacksquare$
+(2) The lower part is a rectangular box (quadrangular prism) and the upper part is a quadrangular pyramid, joined with the base of the pyramid coinciding with the upper base of the box. $\blacksquare$
 
 ## Problem 6
 
-(Review Reference Problem 3, Review and Consolidation, Problem 6) A company producing a certain electronic instrument has a fixed cost of $20000$ yuan, and each instrument produced requires an additional investment of $100$ yuan. The total revenue $R$ (unit: yuan) as a function of the monthly output $x$ (unit: instruments) satisfies:
+(Exercise 8.1, Comprehensive Application, Problem 6) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
-$$
-R=\begin{cases}400x-\frac{1}{2}x^2, & 0\le x\le400,\\80000, & x> 400.\end{cases}
-$$
+(1) A prism has at least $5$ faces.
 
-(1) Express the profit $P$ (unit: yuan) as a function of the monthly output $x$;
+(2) In a parallelepiped, two opposite faces are congruent parallelograms.
 
-(2) For what monthly output does the company obtain the maximum profit? What is the maximum profit in yuan? (Total revenue $=$ total cost $+$ profit)
+(3) A pyramid with one face a parallelogram must be a quadrangular pyramid.
+
+(4) The lateral faces of a regular pyramid are congruent isosceles triangles.
 
 ### Solution to Problem 6
 
-By **Definition 3.2.3 (Maximum Value)** and **Definition 3.1.5 (Piecewise Function)**.
+Judge by **Definition 8.1.4 (Prism)**, **Definition 8.1.7 (Parallelepiped)**, **Definition 8.1.8 (Pyramid)**, and **Definition 8.1.9 (Regular Pyramid)**.
 
-(1) The total cost is $20000+100x$. The profit is $P=R-\left(20000+100x\right)$.
+(1) The simplest prism is a triangular prism, with two triangular bases and three lateral faces, totaling $5$ faces, so a prism has at least $5$ faces. True.
 
-When $0\le x\le400$, $P=400x-\frac{1}{2}x^2-20000-100x=-\frac{1}{2}x^2+300x-20000$.
+(2) The bases of a parallelepiped are parallelograms; by the properties of a prism, two opposite faces are mutually parallel and congruent, and are parallelograms. True.
 
-When $x> 400$, $P=80000-20000-100x=60000-100x$.
+(3) A pyramid is named by the number of sides of its base polygon; if the base is a parallelogram (a quadrilateral), it is a quadrangular pyramid. Since only one face of a pyramid is the base and the other faces are triangles, having one face a parallelogram means the base is a quadrilateral, so it must be a quadrangular pyramid. True.
 
-Hence
-
-$$
-P=\begin{cases}-\frac{1}{2}x^2+300x-20000, & 0\le x\le400,\\60000-100x, & x> 400.\end{cases}
-$$
-
-(2) When $0\le x\le400$, $P=-\frac{1}{2}\left(x-300\right)^2+25000$, attaining the maximum $25000$ at $x=300$. When $x> 400$, $P=60000-100x< 60000-40000=20000< 25000$. Hence the profit is maximized when the monthly output is $300$ instruments, and the maximum profit is $25000$ yuan. $\blacksquare$
+(4) By **Definition 8.1.9 (Regular Pyramid)**, the base is a regular polygon and the projection of the vertex onto the base is the center of the base; hence the lateral edges are equal and the lateral faces are congruent isosceles triangles. True. $\blacksquare$
 
 ## Problem 7
 
-(Review Reference Problem 3, Comprehensive Application, Problem 7) Given the function $f\left(x\right)=\begin{cases}x\left(x+4\right), & x\ge0,\\x\left(x-4\right), & x< 0,\end{cases}$ find the values of $f\left(1\right)$, $f\left(-3\right)$ and $f\left(a+1\right)$.
+(Exercise 8.1, Comprehensive Application, Problem 7) As shown in the figure, the rectangular box on the right that is bounded by the plane figure on the left is ( ).
+
+(In the net, the middle rectangle has a rectangle attached above and below, and a small square attached on the left and right; the shaded faces are the middle rectangle, the lower rectangle, and the two small squares on the left and right.)
+
+The figure: a net of a rectangular prism—a central rectangle as a lateral face, with a rectangle attached above and below (the lower rectangle shaded), and a small square attached to each side (both shaded).
 
 ### Solution to Problem 7
 
-By **Definition 3.1.5 (Piecewise Function)**, substitute the corresponding analytic expression according to the interval in which the independent variable lies.
+By **Definition 8.1.4 (Prism)**, after the net is folded, the adjacent shaded faces should be pairwise adjacent in the box.
 
-$f\left(1\right)=1\cdot\left(1+4\right)=5$.
-
-$f\left(-3\right)=\left(-3\right)\cdot\left(-3-4\right)=\left(-3\right)\cdot\left(-7\right)=21$.
-
-When $a+1\ge0$, i.e. $a\ge-1$, $f\left(a+1\right)=\left(a+1\right)\left(a+5\right)$; when $a+1< 0$, i.e. $a< -1$, $f\left(a+1\right)=\left(a+1\right)\left(a-3\right)$. $\blacksquare$
+In the net, the middle long rectangle is a lateral face, the rectangle above it is its opposite face, the rectangle below it is shaded and adjacent to the middle rectangle, and the two shaded small squares lie on the two sides of the middle rectangle. After folding into a box, the shaded upper and lower faces are adjacent to one lateral face, while the opposite face is unshaded. The option satisfying this adjacency is (B), i.e. the shaded faces are the top face and one lateral face adjacent to the top. $\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problem 3, Comprehensive Application, Problem 8) Prove:
+(Exercise 8.1, Comprehensive Application, Problem 8) As shown in the figure, the rectangular box $ABCD\text{-}A'B'C'D'$ is cut by a plane into two solids, where $EH\parallel B'C'\parallel FG$. Please give the names of these two solids.
 
-(1) If $f\left(x\right)=ax+b$, then $f\left(\frac{x_1+x_2}{2}\right)=\frac{f\left(x_1\right)+f\left(x_2\right)}{2}$;
-
-(2) If $g\left(x\right)=x^2+ax+b$, then $g\left(\frac{x_1+x_2}{2}\right)\le\frac{g\left(x_1\right)+g\left(x_2\right)}{2}$.
+The figure: a rectangular prism $ABCD\text{-}A'B'C'D'$ cut by a plane, with the cross-section $EFGH$ parallel to the side face $BCC'B'$, where $EH\parallel B'C'\parallel FG$, dividing the prism into two parts.
 
 ### Solution to Problem 8
 
-By **Definition 3.1.1 (Function)**, substitute directly and compute.
+By **Definition 8.1.4 (Prism)**, a polyhedron with two mutually parallel faces, the remaining faces all quadrilaterals, and the common edges of adjacent quadrilaterals parallel, is a prism.
 
-(1) Left side: $f\left(\frac{x_1+x_2}{2}\right)=a\cdot\frac{x_1+x_2}{2}+b=\frac{ax_1+ax_2}{2}+b$.
-
-Right side: $\frac{f\left(x_1\right)+f\left(x_2\right)}{2}=\frac{\left(ax_1+b\right)+\left(ax_2+b\right)}{2}=\frac{ax_1+ax_2}{2}+b$.
-
-The left side equals the right side, hence the equality holds.
-
-(2) Right side minus left side:
-
-$$
-\frac{g\left(x_1\right)+g\left(x_2\right)}{2}-g\left(\frac{x_1+x_2}{2}\right)=\frac{x_1^2+x_2^2}{2}-\left(\frac{x_1+x_2}{2}\right)^2=\frac{2x_1^2+2x_2^2-x_1^2-2x_1x_2-x_2^2}{4}=\frac{\left(x_1-x_2\right)^2}{4}\ge0.
-$$
-
-Hence $g\left(\frac{x_1+x_2}{2}\right)\le\frac{g\left(x_1\right)+g\left(x_2\right)}{2}$. $\blacksquare$
+Because $EH\parallel B'C'\parallel FG$, the cross-section $EFGH$ is parallel to the lateral face $BCC'B'$ of the box. The cross-section cuts the box into two parts, each of which has two mutually parallel faces (the cross-section and the opposite lateral face of the box), with the other faces all quadrilaterals and the common edges of adjacent quadrilaterals parallel. Hence both resulting solids are prisms: the side containing vertex $A$ is a quadrangular prism, and the side containing vertex $B'$ is also a quadrangular prism. $\blacksquare$
 
 ## Problem 9
 
-(Review Reference Problem 3, Comprehensive Application, Problem 9) (1) Given that an odd function $f\left(x\right)$ is monotonically decreasing on $\left[a,b\right]$, is it monotonically increasing or monotonically decreasing on $\left[-b,-a\right]$?
+(Exercise 8.1, Comprehensive Application, Problem 9) As shown in the figure, taking the line on which side $AB$ of $\square ABCD$ lies as the axis, the surfaces swept by the other three sides rotating through one full turn bound a geometric solid. Draw the figure of this solid, and state the simple solids it contains and the relevant structural features.
 
-(2) Given that an even function $g\left(x\right)$ is monotonically decreasing on $\left[a,b\right]$, is it monotonically increasing or monotonically decreasing on $\left[-b,-a\right]$?
+The figure: a parallelogram $ABCD$ with side $AB$ horizontal (as the axis of rotation), $CD\parallel AB$, and $AD$ and $BC$ as the two slanted sides; perpendiculars are dropped from $D$ and $C$ to $AB$, with feet $E$ and $F$.
 
 ### Solution to Problem 9
 
-By **Definition 3.2.6 (Odd Function)** and **Definition 3.2.5 (Even Function)**, use the odd-even property to transform.
+By **Definition 8.1.3 (Solids of Revolution)** and **Definition 8.1.16 (Simple Composite Solids)**, a parallelogram rotating one full turn about one of its sides forms a solid of revolution.
 
-(1) Take any $x_1,x_2\in\left[-b,-a\right]$ with $x_1< x_2$; then $-x_1> -x_2$, and $-x_1,-x_2\in\left[a,b\right]$. Since $f\left(x\right)$ is monotonically decreasing on $\left[a,b\right]$, we get $f\left(-x_1\right)< f\left(-x_2\right)$. By the odd-function property, $f\left(-x_1\right)=-f\left(x_1\right)$ and $f\left(-x_2\right)=-f\left(x_2\right)$, hence $-f\left(x_1\right)< -f\left(x_2\right)$, i.e. $f\left(x_1\right)> f\left(x_2\right)$. Therefore $f\left(x\right)$ is monotonically decreasing on $\left[-b,-a\right]$.
+In parallelogram $ABCD$, let $AB$ be the axis of rotation, $CD\parallel AB$, and $AD$ and $BC$ the two side edges. Drop perpendiculars from $D$ and $C$ to $AB$, with feet $E$ and $F$. After one full turn, $DE$ and $CF$ sweep out circular surfaces, while the side $AD$ on which $AE$ lies, together with $BC$, sweeps out a curved surface.
 
-(2) Take any $x_1,x_2\in\left[-b,-a\right]$ with $x_1< x_2$; then $-x_1> -x_2$, and $-x_1,-x_2\in\left[a,b\right]$. Since $g\left(x\right)$ is monotonically decreasing on $\left[a,b\right]$, we get $g\left(-x_1\right)< g\left(-x_2\right)$. By the even-function property, $g\left(-x_1\right)=g\left(x_1\right)$ and $g\left(-x_2\right)=g\left(x_2\right)$, hence $g\left(x_1\right)< g\left(x_2\right)$. Therefore $g\left(x\right)$ is monotonically increasing on $\left[-b,-a\right]$. $\blacksquare$
+The bounded solid is a cylinder (formed by rotating the rectangle $DEFC$ about $EF$) with two congruent cones (formed by rotating the right triangles $ADE$ and $BCF$) either hollowed out or added. Since $AD$ and $BC$ are the sides slanting outward from the axis $AB$, this solid is a composite of a cylinder with one cone attached to (or hollowed out of) each end, i.e. a composite of one cylinder and two cones. $\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problem 3, Comprehensive Application, Problem 10) Last year the electricity price in a certain region was $0.8$ yuan/$\left(\text{kW}\cdot\text{h}\right)$, and the annual electricity consumption was $a\ \text{kW}\cdot\text{h}$. This year it is planned to lower the price to between $0.55$ yuan/$\left(\text{kW}\cdot\text{h}\right)$ and $0.75$ yuan/$\left(\text{kW}\cdot\text{h}\right)$, while users expect a price of $0.4$ yuan/$\left(\text{kW}\cdot\text{h}\right)$. It is estimated that after the price is lowered, the added electricity consumption is inversely proportional to the difference between the actual price and the users' expected price (proportionality coefficient $k$). The cost price of electricity in this region is $0.3$ yuan/$\left(\text{kW}\cdot\text{h}\right)$.
+(Exercise 8.1, Extension and Exploration, Problem 10) Are the following statements correct? If correct, explain why; if incorrect, give a counterexample.
 
-(1) Write the analytic expression for the power department's revenue $y$ (unit: yuan) as a function of the actual price $x$ (unit: yuan/$\left(\text{kW}\cdot\text{h}\right)$) after this year's price cut. (Revenue $=$ actual consumption $\times$ (actual price $-$ cost price))
+(1) A polyhedron with two parallel faces and all other faces parallelograms is a prism;
 
-(2) Let $k=0.2a$. What is the minimum price that still guarantees the power department's revenue increases by at least $20\%$ over last year?
+(2) A polyhedron with two parallel and similar faces and all other faces trapezoids is a frustum of a pyramid.
 
 ### Solution to Problem 10
 
-By **Definition 3.1.1 (Function)**, build the revenue-as-a-function-of-price according to the problem.
+Judge by **Definition 8.1.4 (Prism)** and **Definition 8.1.10 (Frustum of a Pyramid)**.
 
-(1) The added consumption is $\frac{k}{x-0.4}$, and the actual consumption is $a+\frac{k}{x-0.4}$. The revenue is
+(1) The statement is false. Counterexample: take two oblique prisms with congruent bases and stack them aligned so that the lateral faces are staggered; one obtains a polyhedron with two parallel faces and the rest parallelograms, but the common edges of adjacent quadrilaterals are not all parallel, so it is not a prism. The key point is that a prism also requires the common edges of adjacent lateral faces to be parallel.
 
-$$
-y=\left(a+\frac{k}{x-0.4}\right)\left(x-0.3\right),\quad x\in\left[0.55,0.75\right].
-$$
+(2) The statement is false. Counterexample: take two similar parallelogram faces placed in parallel, with the other faces trapezoids, but the lateral edges when extended do not meet at a single point; such a polyhedron is not obtained by cutting a pyramid with a plane parallel to the base, so it is not a frustum. The key point is that a frustum requires the lateral edges to meet at a point when extended. $\blacksquare$
 
-(2) Last year's revenue was $a\left(0.8-0.3\right)=0.5a$. This year's revenue should increase by at least $20\%$, i.e. $y\ge0.5a\cdot1.2=0.6a$.
+## Exercise 9
 
-Substituting $k=0.2a$:
+(Exercise 8.2, Problem 1) When using the oblique two-measurement method to draw the pictorial drawing of a horizontally placed plane figure, are the following statements correct? Mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
-$$
-\left(a+\frac{0.2a}{x-0.4}\right)\left(x-0.3\right)\ge0.6a.
-$$
+(1) Equal segments remain equal in the pictorial drawing.
 
-Dividing both sides by $a$:
+(2) Parallel segments remain parallel in the pictorial drawing.
 
-$$
-\left(1+\frac{0.2}{x-0.4}\right)\left(x-0.3\right)\ge0.6.
-$$
+(3) The pictorial drawing of an angle is still an angle.
 
-Expanding: $\frac{x-0.4+0.2}{x-0.4}\cdot\left(x-0.3\right)=\frac{\left(x-0.2\right)\left(x-0.3\right)}{x-0.4}\ge0.6$.
+(4) Equal angles remain equal in the pictorial drawing.
 
-i.e. $x^2-0.5x+0.06\ge0.6x-0.24$, rearranging to $x^2-1.1x+0.3\ge0$.
+### Solution to Exercise 9
 
-Solving gives $x\le0.5$ or $x\ge0.6$. Combined with $x\in\left[0.55,0.75\right]$, we get $x\ge0.6$. Hence the minimum price is set at $0.6$ yuan/$\left(\text{kW}\cdot\text{h}\right)$. $\blacksquare$
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, segments parallel to the $x$-axis keep their length, segments parallel to the $y$-axis are halved, and $\angle x'O'y'=45^{\circ}$.
 
-## Problem 11
+(1) False. If two segments of equal length in the original figure have one parallel to the $x$-axis and the other parallel to the $y$-axis, then in the pictorial drawing the former keeps its length while the latter is halved, so they are no longer equal.
 
-(Review Reference Problem 3, Extension and Exploration, Problem 11) When economists study supply and demand, they generally use the vertical axis for the product price (independent variable) and the horizontal axis for the product quantity (dependent variable). Among the following supply-demand curves, which one represents the supply curve desired by producers, and which represents the demand curve desired by customers? Why?
+(2) True. By step (2) of the oblique two-measurement method, segments parallel to the $x$-axis or $y$-axis remain parallel to the $x'$-axis or $y'$-axis in the pictorial drawing, so parallel segments remain parallel.
 
-### Solution to Problem 11
+(3) True. The two sides of an angle remain two rays in the pictorial drawing, and their common endpoint remains the endpoint, so it is still an angle.
 
-By **Definition 3.2.1 (Monotonic Increase and Increasing Function)** and **Definition 3.2.2 (Monotonic Decrease and Decreasing Function)**, analyze from the economic meaning.
+(4) False. A right angle becomes $45^{\circ}$ or $135^{\circ}$ in the pictorial drawing; two originally equal angles facing in different directions are no longer equal in the pictorial drawing. $\blacksquare$
 
-In figure (1), the price rises as the quantity increases (monotonically increasing), representing the supply curve: the higher the price, the more producers are willing to supply.
+## Exercise 10
 
-In figure (2), the price falls as the quantity increases (monotonically decreasing), representing the demand curve: the lower the price, the more customers are willing to buy. $\blacksquare$
+(Exercise 8.2, Problem 2) Use the oblique two-measurement method to draw the pictorial drawings of the following horizontally placed plane figures (choose the dimensions yourself).
 
-## Problem 12
+(1) a rectangle; (2) a parallelogram; (3) an equilateral triangle; (4) a regular pentagon.
 
-(Review Reference Problem 3, Extension and Exploration, Problem 12) Discuss the domain, range, monotonicity and odd-even property of the function $y=x-\frac{1}{x}$, and sketch its graph.
+The figure: oblique (cavalier) projections of four horizontal plane figures—(1) a rectangle becomes a parallelogram; (2) a parallelogram remains a parallelogram; (3) an equilateral triangle becomes an isosceles triangle; (4) a regular pentagon becomes a pentagon under oblique projection.
 
-The graph: in the rectangular coordinate plane, the graph of $y=x-\frac{1}{x}$ is symmetric about the origin (an odd function) and splits into two branches: in the first quadrant, the curve increases monotonically from $-\infty$ as $x\to0^+$ to $+\infty$, with the line $y=x$ and the $y$-axis as asymptotes; in the third quadrant is the other branch symmetric about the origin, increasing monotonically from $-\infty$ to $+\infty$ as $x\to0^-$.
+### Solution to Exercise 10
 
-### Solution to Problem 12
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, draw in three steps: take the axes, draw the corresponding axes, and take the parallel segments.
 
-By **Definition 3.2.6 (Odd Function)**, **Definition 3.2.1 (Monotonic Increase and Increasing Function)** and **Definition 3.2.2 (Monotonic Decrease and Decreasing Function)**.
+(1) Rectangle: take two adjacent sides of the rectangle as the $x$-axis and $y$-axis, and draw the $x'$-axis and $y'$-axis with an angle of $45^{\circ}$ between them; on the $x'$-axis take a segment equal in length to the original side, and on the $y'$-axis take a segment of half the length; through the two endpoints draw lines parallel to the $y'$-axis and $x'$-axis respectively, which intersect to form a parallelogram, the pictorial drawing of the rectangle.
 
-Domain: $x\ne0$, i.e. $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
+(2) Parallelogram: take one side as the $x$-axis, and through a vertex draw the $y$-axis; likewise draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle, keep the length of sides parallel to the $x$-axis unchanged, halve the sides in the $y$-axis direction, and join the points to obtain the pictorial drawing.
 
-Odd-even property: $f\left(-x\right)=-x-\frac{1}{-x}=-x+\frac{1}{x}=-\left(x-\frac{1}{x}\right)=-f\left(x\right)$, hence it is an odd function.
+(3) Equilateral triangle: take the line on which one side lies as the $x$-axis, and the line on which the altitude to that side lies as the $y$-axis; draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle, take on the $x'$-axis a segment equal to the base, and on the $y'$-axis take half the altitude, then join the vertex to the two endpoints of the base to obtain the pictorial drawing.
 
-Monotonicity: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, then
+(4) Regular pentagon: take one axis of symmetry as the $y$-axis, and through the center draw the perpendicular $x$-axis; draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle, plot the vertices according to the rule that lengths in the $x$-direction are unchanged and lengths in the $y$-direction are halved, and join them in order to obtain the pictorial drawing. $\blacksquare$
 
-$$
-f\left(x_1\right)-f\left(x_2\right)=\left(x_1-\frac{1}{x_1}\right)-\left(x_2-\frac{1}{x_2}\right)=\left(x_1-x_2\right)+\left(\frac{1}{x_2}-\frac{1}{x_1}\right)=\left(x_1-x_2\right)\left(1+\frac{1}{x_1x_2}\right).
-$$
+## Exercise 11
 
-From $x_1< x_2$ we get $x_1-x_2< 0$, and $1+\frac{1}{x_1x_2}> 0$, hence $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically increasing on $\left(0,+\infty\right)$. By the odd-function property, it is also monotonically increasing on $\left(-\infty,0\right)$.
+(Exercise 8.2, Problem 1) Use the oblique two-measurement method to draw the pictorial drawing of a cube with edge length $3\text{ cm}$.
 
-Range: as $x\to0^+$, $y\to-\infty$; as $x\to+\infty$, $y\to+\infty$; and since the function is continuously increasing on $\left(0,+\infty\right)$, the range is $\mathbb R$. The graph is symmetric about the origin, increasing from $-\infty$ to $+\infty$ in the first quadrant, with $y=x$ and the $y$-axis as asymptotes. $\blacksquare$
+The figure: an oblique drawing of a cube with edge length $3\text{ cm}$—the base is a parallelogram with a $45^{\circ}$ angle ($3\text{ cm}$ in the $x$ direction and $1.5\text{ cm}$ in the $y$ direction), the vertical edges are $3\text{ cm}$ long, and the hidden edges are drawn as dashed lines.
+
+### Solution to Exercise 11
+
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids), take the three edges through one vertex as the $x$-, $y$-, and $z$-axes respectively.
+
+Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes, meeting at the point $O$, with $\angle xOy=45^{\circ}$ and $\angle xOz=90^{\circ}$.
+
+(2) Draw the base. On the positive half of the $x$-axis take $AB=3\text{ cm}$, and on the positive half of the $y$-axis take $AD=1.5\text{ cm}$; through $B$ draw a line parallel to the $y$-axis, and through $D$ a line parallel to the $x$-axis; their intersection is $C$, giving the pictorial drawing of the base $ABCD$.
+
+(3) Draw the lateral edges. On the positive half of the $z$-axis take $AA'=3\text{ cm}$; through $B$, $C$, $D$ draw lines parallel to the $z$-axis, and on them take $BB'=CC'=DD'=3\text{ cm}$.
+
+(4) Complete the drawing. Join $A'$, $B'$, $C'$, $D'$ in order, remove the auxiliary lines, and change the hidden parts to dashed lines; this gives the pictorial drawing of the cube. $\blacksquare$
+
+## Exercise 12
+
+(Exercise 8.2, Problem 2) Use the oblique two-measurement method to draw the pictorial drawing of a regular hexagonal prism.
+
+The figure: an oblique drawing of a regular hexagonal prism—the base is an oblique projection of a horizontal regular hexagon, each vertex translated vertically by the equal lateral edge length gives the upper base, and the hidden lateral edges are drawn as dashed lines.
+
+### Solution to Exercise 12
+
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids), first draw the pictorial drawing of the regular hexagonal base, then draw the lateral edges.
+
+Drawing method: (1) Use the oblique two-measurement method to draw the pictorial drawing of the horizontally placed regular hexagonal base.
+
+(2) Through each vertex of the base draw a line parallel to the $z$-axis, and on each such line cut off an equal lateral-edge length to obtain the corresponding vertices of the upper base.
+
+(3) Join the vertices of the upper base in order, remove the auxiliary lines, and change the hidden lateral edges to dashed lines; this gives the pictorial drawing of the regular hexagonal prism. $\blacksquare$

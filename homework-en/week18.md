@@ -1,606 +1,472 @@
 # week18
-> **Definition 5.1.1 (正角, 负角, 零角)**
+> **Definition 1.1.6 (Roster Method)**
 > 
-> 我们规定, 一条射线绕其端点按逆时针方向旋转形成的角叫做正角, 按顺时针方向旋转形成的角叫做负角. 如果一条射线没有做任何旋转, 就称它形成了一个零角. 零角的始边与终边重合.
-> **Definition 5.1.2 (象限角)**
+> 把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
+> **Definition 1.2.1 (Subset)**
 > 
-> 在直角坐标系中, 使角的顶点与原点重合, 角的始边与 x 轴的非负半轴重合, 那么角的终边在第几象限, 就说这个角是第几象限角.
-> **Definition 5.1.3 (One Radian)**
+> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+> **Definition 1.3.1 (Union)**
 > 
-> 长度等于半径长的圆弧所对的圆心角叫做 1 弧度的角.
-
-## Exercise 1
-
-(Exercise 5.1, Problem 1) (Oral answer) Which quadrant angle is an acute angle? Is a first-quadrant angle necessarily an acute angle? Then answer these two questions separately for the right angle and the obtuse angle.
-
-### Solution to Exercise 1
-
-By **Definition 5.1.2 (Quadrant Angle)**, whichever quadrant the terminal side of the angle lies in, the angle is said to be a quadrant angle of that quadrant; if the terminal side of the angle lies on a coordinate axis, the angle is considered not to belong to any quadrant.
-
-(1) The degree range of an acute angle is $0^{\circ}< \alpha< 90^{\circ}$, and its terminal side lies in the first quadrant, so an acute angle is a first-quadrant angle. But a first-quadrant angle is not necessarily an acute angle; for example, $390^{\circ}$ has the same terminal side as $30^{\circ}$ and is a first-quadrant angle, yet is not an acute angle.
-
-(2) The right angle is $90^{\circ}$, and its terminal side lies on the $y$-axis; by **Definition 5.1.2 (Quadrant Angle)**, the right angle does not belong to any quadrant. Any angle whose terminal side lies on the $y$-axis is not a quadrant angle.
-
-(3) The degree range of an obtuse angle is $90^{\circ}< \alpha< 180^{\circ}$, and its terminal side lies in the second quadrant, so an obtuse angle is a second-quadrant angle. But a second-quadrant angle is not necessarily an obtuse angle; for example, $480^{\circ}$ has the same terminal side as $120^{\circ}$ and is a second-quadrant angle, yet is not an obtuse angle. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 5.1, Problem 2) (Oral answer) Today is Wednesday. Then what day of the week is it $7k$ ($k\in\mathbb Z$) days from now? What day of the week was it $7k$ ($k\in\mathbb Z$) days ago? What day of the week is it $100$ days from now?
-
-### Solution to Exercise 2
-
-By the recurring-cycle idea of **Standard Conclusion** (Angles with the Same Terminal Side), the days of the week cycle with a period of $7$ days.
-
-(1) Since $7k$ ($k\in\mathbb Z$) is an integer multiple of $7$, after an integer number of weeks the day of the week is unchanged, so $7k$ days from it is still Wednesday.
-
-(2) Similarly, $7k$ days ago was also Wednesday.
-
-(3) From $100=7\times14+2$, i.e. $100$ days equals $14$ complete weeks plus $2$ days. Counting $2$ days forward from Wednesday gives Friday, so $100$ days from now is Friday. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 5.1, Problem 3) Given that the vertex of the angle coincides with the origin of the rectangular coordinate system and the initial side coincides with the nonnegative half of the $x$-axis, draw the following angles and indicate which quadrant angle each is:
-
-(1) $420^{\circ}$;
-
-(2) $-75^{\circ}$;
-
-(3) $855^{\circ}$;
-
-(4) $-510^{\circ}$.
-
-### Solution to Exercise 3
-
-By **Standard Conclusion** (Angles with the Same Terminal Side), reduce each angle to an angle with the same terminal side within the range $0^{\circ}\sim360^{\circ}$, and then judge by **Definition 5.1.2 (Quadrant Angle)**.
-
-(1) From $420^{\circ}=360^{\circ}+60^{\circ}$, we know $420^{\circ}$ has the same terminal side as $60^{\circ}$. Since $60^{\circ}$ is a first-quadrant angle, $420^{\circ}$ is a first-quadrant angle.
-
-(2) From $-75^{\circ}=360^{\circ}-75^{\circ}=285^{\circ}$, we know $-75^{\circ}$ has the same terminal side as $285^{\circ}$. Since $285^{\circ}$ is a fourth-quadrant angle, $-75^{\circ}$ is a fourth-quadrant angle.
-
-(3) From $855^{\circ}=2\times360^{\circ}+135^{\circ}$, we know $855^{\circ}$ has the same terminal side as $135^{\circ}$. Since $135^{\circ}$ is a second-quadrant angle, $855^{\circ}$ is a second-quadrant angle.
-
-(4) From $-510^{\circ}=-2\times360^{\circ}+210^{\circ}$, we know $-510^{\circ}$ has the same terminal side as $210^{\circ}$. Since $210^{\circ}$ is a third-quadrant angle, $-510^{\circ}$ is a third-quadrant angle. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 5.1, Problem 4) Within the range $0^{\circ}\sim360^{\circ}$, find the angles with the same terminal side as the following angles, and indicate which quadrant angle each is:
-
-(1) $-54^{\circ}18'$;
-
-(2) $395^{\circ}8'$;
-
-(3) $-1190^{\circ}30'$.
-
-### Solution to Exercise 4
-
-By **Standard Conclusion** (Angles with the Same Terminal Side), add to or subtract from each angle an integer multiple of $360^{\circ}$ to reduce it to an angle within the range $0^{\circ}\sim360^{\circ}$.
-
-(1) From $-54^{\circ}18'+360^{\circ}=305^{\circ}42'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-54^{\circ}18'$ is $305^{\circ}42'$. Since $270^{\circ}< 305^{\circ}42'< 360^{\circ}$, it is a fourth-quadrant angle.
-
-(2) From $395^{\circ}8'-360^{\circ}=35^{\circ}8'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $395^{\circ}8'$ is $35^{\circ}8'$. Since $0^{\circ}< 35^{\circ}8'< 90^{\circ}$, it is a first-quadrant angle.
-
-(3) From $-1190^{\circ}30'=-4\times360^{\circ}+249^{\circ}30'$, we know that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-1190^{\circ}30'$ is $249^{\circ}30'$. Since $180^{\circ}< 249^{\circ}30'< 270^{\circ}$, it is a third-quadrant angle. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 5.1, Problem 5) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-720^{\circ}\le\beta< 360^{\circ}$:
-
-(1) $1303^{\circ}18'$;
-
-(2) $-225^{\circ}$.
-
-### Solution to Exercise 5
-
-By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$.
-
-(1) From $1303^{\circ}18'=3\times360^{\circ}+223^{\circ}18'$, we know the set of angles with the same terminal side as $1303^{\circ}18'$ is
-
-$$
-S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
-$$
-
-From $-720^{\circ}\le\beta< 360^{\circ}$, i.e. $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}< 360^{\circ}$, solving gives $k=-2,-1,0$. When $k=-2$, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; when $k=-1$, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; when $k=0$, $\beta=223^{\circ}18'$. Therefore the elements satisfying the inequality are $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
-
-(2) The set of angles with the same terminal side as $-225^{\circ}$ is
-
-$$
-S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
-$$
-
-From $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, solving gives $k=0,1$. When $k=0$, $\beta=-225^{\circ}$; when $k=1$, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. Therefore the elements satisfying the inequality are $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 5.1, Problem 6) Convert the following angles to radians:
-
-(1) $22^{\circ}30'$;
-
-(2) $-210^{\circ}$;
-
-(3) $1200^{\circ}$.
-
-### Solution to Exercise 6
-
-By **Standard Conclusion** (Conversion between Degrees and Radians), $1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}$.
-
-(1) From $22^{\circ}30'=22.5^{\circ}=\frac{45}{2}^{\circ}$, we get
-
-$$
-22^{\circ}30'=\frac{45}{2}\times\frac{\pi}{180}=\frac{\pi}{8}.
-$$
-
-(2) We get
-
-$$
--210^{\circ}=-210\times\frac{\pi}{180}=-\frac{7\pi}{6}.
-$$
-
-(3) We get
-
-$$
-1200^{\circ}=1200\times\frac{\pi}{180}=\frac{20\pi}{3}.
-$$
-
-$\blacksquare$
-
-## Exercise 7
-
-(Exercise 5.1, Problem 7) Convert the following radians to degrees:
-
-(1) $\frac{\pi}{12}$;
-
-(2) $-\frac{4\pi}{3}$;
-
-(3) $\frac{3\pi}{10}$.
-
-### Solution to Exercise 7
-
-By **Standard Conclusion** (Conversion between Degrees and Radians), $\pi\ \mathrm{rad}$ $=180^{\circ}$.
-
-(1) We get
-
-$$
-\frac{\pi}{12}=\frac{180^{\circ}}{12}=15^{\circ}.
-$$
-
-(2) We get
-
-$$
--\frac{4\pi}{3}=-\frac{4}{3}\times180^{\circ}=-240^{\circ}.
-$$
-
-(3) We get
-
-$$
-\frac{3\pi}{10}=\frac{3}{10}\times180^{\circ}=54^{\circ}.
-$$
-
-$\blacksquare$
-
-## Exercise 8
-
-(Exercise 5.1, Problem 8) Express in radians:
-
-(1) the set of angles whose terminal side lies on the $x$-axis;
-
-(2) the set of angles whose terminal side lies on the $y$-axis.
-
-### Solution to Exercise 8
-
-By **Standard Conclusion** (Angles with the Same Terminal Side) and $180^{\circ}=\pi\ \mathrm{rad}$, $360^{\circ}=2\pi\ \mathrm{rad}$.
-
-(1) For angles whose terminal side lies on the $x$-axis, their terminal side coincides with that of $0$ or $\pi$. The angles with the same terminal side as $0$ are $2k\pi$, and the angles with the same terminal side as $\pi$ are $\pi+2k\pi$, which merge into $n\pi$ ($n\in\mathbb Z$). Therefore the set of angles whose terminal side lies on the $x$-axis is $\left\{\beta\mid\beta=n\pi,\ n\in\mathbb Z\right\}$.
-
-(2) For angles whose terminal side lies on the $y$-axis, their terminal side coincides with that of $\frac{\pi}{2}$ or $\frac{3\pi}{2}$. The angles with the same terminal side as $\frac{\pi}{2}$ are $\frac{\pi}{2}+2k\pi$, and the angles with the same terminal side as $\frac{3\pi}{2}$ are $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, which merge into $\frac{\pi}{2}+n\pi$ ($n\in\mathbb Z$). Therefore the set of angles whose terminal side lies on the $y$-axis is $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\ n\in\mathbb Z\right\}$. $\blacksquare$
-
-## Exercise 9
-
-(Exercise 5.1, Problem 9) Use a calculating tool to compare the following pairs of values:
-
-(1) $\cos0.75^{\circ}$ and $\cos0.75$;
-
-(2) $\tan1.2^{\circ}$ and $\tan1.2$.
-
-### Solution to Exercise 9
-
-By **Standard Conclusion** (Conversion between Degrees and Radians), $1^{\circ}=\frac{\pi}{180}\approx0.01745\ \mathrm{rad}$, so $0.75^{\circ}\approx0.0131\ \mathrm{rad}$, $1.2^{\circ}\approx0.0209\ \mathrm{rad}$.
-
-(1) From $0.75^{\circ}\approx0.0131< 0.75$, and the cosine function is monotonically decreasing on $\left[0,\frac{\pi}{2}\right]$, we get $\cos0.75^{\circ}> \cos0.75$.
-
-(2) From $1.2^{\circ}\approx0.0209< 1.2$, and the tangent function is monotonically increasing on $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$, we get $\tan1.2^{\circ}< \tan1.2$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 5.1, Problem 10) Using the arc length formulas in degrees and radians respectively, calculate the length of the arc subtended by the central angle $60^{\circ}$ in a circle of radius $1\ \mathrm{m}$.
-
-### Solution to Exercise 10
-
-By **Standard Conclusion** (Arc Length and Area Formulas for a Sector), in radians $l=\alpha R$; in degrees $l=\frac{n\pi R}{180}$.
-
-(1) Degrees: from $n=60$, $R=1$, we get
-
-$$
-l=\frac{60\pi\times1}{180}=\frac{\pi}{3}\ \mathrm{m}.
-$$
-
-(2) Radians: from $60^{\circ}=\frac{\pi}{3}\ \mathrm{rad}$, $R=1$, we get
-
-$$
-l=\alpha R=\frac{\pi}{3}\times1=\frac{\pi}{3}\ \mathrm{m}.
-$$
-
-The results of the two methods are consistent, and the arc length is $\frac{\pi}{3}\ \mathrm{m}$. $\blacksquare$
-
-## Exercise 11
-
-(Exercise 5.1, Problem 11) Given that on a circle of radius $120\ \mathrm{mm}$, the length of an arc is $144\ \mathrm{mm}$, find the radian measure of the central angle (positive angle) subtended by this arc.
-
-### Solution to Exercise 11
-
-By **Standard Conclusion** (Radian Measure Formula), $\lvert\alpha\rvert=\frac{l}{r}$.
-
-From $l=144\ \mathrm{mm}$, $r=120\ \mathrm{mm}$, and the required angle being a positive angle, we get
-
-$$
-\alpha=\frac{l}{r}=\frac{144}{120}=1.2\ \mathrm{rad}.
-$$
-
-$\blacksquare$
+> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
+> **Definition 1.3.2 (Intersection)**
+> 
+> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
+> **Definition 1.4.2 (Sufficient and Necessary Conditions)**
+> 
+> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
+> **Definition 1.4.4 (Necessary and Sufficient Condition)**
+> 
+> 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
+> **Definition 1.5.1 (Universal Quantifier)**
+> 
+> 短语"所有的""任意一个"在逻辑中通常叫做全称量词, 用符号"$\forall$"表示. 含有全称量词的命题, 叫做全称量词命题.
+> **Definition 1.5.2 (Existential Quantifier)**
+> 
+> 短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
+> **Definition 1.5.3 (Negation of a Proposition)**
+> 
+> 对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg p$. 若 $p$ 是真命题, 则 $\neg p$ 是假命题; 若 $p$ 是假命题, 则 $\neg p$ 是真命题.
+> **Theorem 2.2.1 (AM-GM Inequality)**
+> 
+> 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+> **Definition 3.1.1 (Function)**
+> 
+> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> **Definition 4.3.1 (Logarithm)**
+> 
+> If a^b = N (a > 0, a != 1), then b is called the logarithm of N base a.
+> **Definition 5.7.1 (简谐运动)**
+> 
+> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
+> **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**
+> 
+> 函数 y = A sin(omega x + phi) 中, A 是振幅, T = 2pi/omega 是周期, f = 1/T 是频率, omega x + phi 是相位, phi 是初相.
 
 ## Problem 1
 
-(Exercise 5.1, Review and Consolidation, Problem 1) Within the range $0^{\circ}\sim360^{\circ}$, find the angles with the same terminal side as the following angles, and indicate which quadrant angle each is:
+(Exercise 5.7, Extension and Exploration, Problem 3) The national flag at Tiananmen Square in Beijing is raised with the sun at sunrise and lowered at sunset every day. Based on an almanac or other reference materials, compile the sunrise and sunset times for different dates over the past year.
 
-(1) $-265^{\circ}$;
+(1) In the same rectangular coordinate system, with the date on the horizontal axis, draw a scatter plot, fit these data with a curve, and find the function model;
 
-(2) $-1000^{\circ}$;
+(2) A student plans to watch the flag-raising ceremony during the May Day holiday. By what time should he arrive at Tiananmen Square?
 
-(3) $-843^{\circ}10'$;
-
-(4) $3900^{\circ}$.
+The graph: horizontal axis is the date (different dates over the year), vertical axis is time; two sets of points are plotted for the sunrise time and the sunset time, fitted with approximate sine curves; both curves vary periodically over one year (about $365$ days), and the time between the sunrise and sunset curves is the duration of daylight.
 
 ### Solution to Problem 1
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an angle within the range $0^{\circ}\sim360^{\circ}$, and then judge by **Definition 5.1.2 (Quadrant Angle)**.
+By **Property 5.7.1** (Steps in Applying Trigonometric Models).
 
-(1) From $-265^{\circ}+360^{\circ}=95^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-265^{\circ}$ is $95^{\circ}$. Since $90^{\circ}< 95^{\circ}< 180^{\circ}$, it is a second-quadrant angle.
+(1) The sunrise and sunset times change periodically with the date, and can be approximately fitted by $y=A\sin\left(\omega t+\varphi\right)+b$, with a period of one year (about $365$ days).
 
-(2) From $-1000^{\circ}+3\times360^{\circ}=80^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-1000^{\circ}$ is $80^{\circ}$. Since $0^{\circ}< 80^{\circ}< 90^{\circ}$, it is a first-quadrant angle.
-
-(3) From $-843^{\circ}10'+3\times360^{\circ}=236^{\circ}50'$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $-843^{\circ}10'$ is $236^{\circ}50'$. Since $180^{\circ}< 236^{\circ}50'< 270^{\circ}$, it is a third-quadrant angle.
-
-(4) From $3900^{\circ}-10\times360^{\circ}=300^{\circ}$, we get that within $0^{\circ}\sim360^{\circ}$ the angle with the same terminal side as $3900^{\circ}$ is $300^{\circ}$. Since $270^{\circ}< 300^{\circ}< 360^{\circ}$, it is a fourth-quadrant angle. $\blacksquare$
+(2) On May Day (May 1), the sunrise time in Beijing is about $5$:$15$, so one should arrive at Tiananmen Square before $5$ o'clock. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 5.1, Review and Consolidation, Problem 2) Write the set of angles with the same terminal side as the following angles, and find the elements $\beta$ in the set satisfying the inequality $-360^{\circ}\le\beta< 360^{\circ}$:
-
-(1) $60^{\circ}$;
-
-(2) $-75^{\circ}$;
-
-(3) $-824^{\circ}30'$;
-
-(4) $475^{\circ}$;
-
-(5) $90^{\circ}$;
-
-(6) $270^{\circ}$;
-
-(7) $180^{\circ}$;
-
-(8) $0^{\circ}$.
+(Exercise 5.7, Extension and Exploration, Problem 4) Summer is the peak period for electricity use, and daily electricity consumption also shows periodic changes. Please investigate the daily electricity consumption in your region and design a "peak-shaving and valley-filling" electricity price scheme.
 
 ### Solution to Problem 2
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$.
+By **Property 5.7.1** (Steps in Applying Trigonometric Models).
 
-(1) The set of angles with the same terminal side as $60^{\circ}$ is $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-300^{\circ}$; when $k=0$, $\beta=60^{\circ}$. Therefore the suitable elements are $-300^{\circ}$, $60^{\circ}$.
+From the investigation, the electricity consumption curve changes periodically: raise the price during the evening peak ($18:00$-$22:00$) and lower the price during the late night ($0:00$-$6:00$), so as to guide users to use electricity during off-peak periods. $\blacksquare$
 
-(2) The set of angles with the same terminal side as $-75^{\circ}$ is $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=0,1$. When $k=0$, $\beta=-75^{\circ}$; when $k=1$, $\beta=285^{\circ}$. Therefore the suitable elements are $-75^{\circ}$, $285^{\circ}$.
+## Reading and Thinking 1
 
-(3) From $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, the set of angles with the same terminal side as $-824^{\circ}30'$ is $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-104^{\circ}30'$; when $k=0$, $\beta=255^{\circ}30'$. Therefore the suitable elements are $-104^{\circ}30'$, $255^{\circ}30'$.
+(Thinking 1) Read the article "Amplitude, Period, Frequency, Phase", and explain the mathematical model of sound.
 
-(4) From $475^{\circ}=360^{\circ}+115^{\circ}$, the set of angles with the same terminal side as $475^{\circ}$ is $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-245^{\circ}$; when $k=0$, $\beta=115^{\circ}$. Therefore the suitable elements are $-245^{\circ}$, $115^{\circ}$.
+### Solution to Reading and Thinking 1
 
-(5) The set of angles with the same terminal side as $90^{\circ}$ is $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-270^{\circ}$; when $k=0$, $\beta=90^{\circ}$. Therefore the suitable elements are $-270^{\circ}$, $90^{\circ}$.
+By **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**.
 
-(6) The set of angles with the same terminal side as $270^{\circ}$ is $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-90^{\circ}$; when $k=0$, $\beta=270^{\circ}$. Therefore the suitable elements are $-90^{\circ}$, $270^{\circ}$.
-
-(7) The set of angles with the same terminal side as $180^{\circ}$ is $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-180^{\circ}$; when $k=0$, $\beta=180^{\circ}$. Therefore the suitable elements are $-180^{\circ}$, $180^{\circ}$.
-
-(8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. From $-360^{\circ}\le k\cdot360^{\circ}< 360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
+The mathematical model of a pure tone is $y=A\sin\omega t$. Loudness is related to the amplitude $A$, and pitch is related to the frequency $\frac{\omega}{2\pi}$. A complex sound consists of a fundamental tone and harmonics, and the function of sound is $y=\sin x+\frac{1}{2}\sin2x+\frac{1}{3}\sin3x+\frac{1}{4}\sin4x+\cdots$. Timbre is determined by the combined effect of the fundamental tone and the harmonics. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 5.1, Review and Consolidation, Problem 3) Write the sets of first-, second-, third-, and fourth-quadrant angles in degrees and radians respectively.
+(Problem 1) Chinese tea culture is extensive and profound. The taste of tea depends on the type of tea leaves and the temperature of the water. Experience shows that for a certain green tea, brewing it with water at $85^\circ\text{C}$ and then waiting until the tea cools to $60^\circ\text{C}$ before drinking it gives the best taste. Then, at a room temperature of $25^\circ\text{C}$, approximately how long should freshly brewed tea stand to reach the optimal drinking taste?
+
+A researcher measured the tea temperature every $1\ \min$ and obtained a set of data in Table 1, where $x$ denotes the time (unit: $\min$) and $y$ denotes the water temperature (unit: $^\circ\text{C}$).
+
+| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|---|
+| $y$ | 85.00 | 79.19 | 74.75 | 71.19 | 68.19 | 65.10 |
 
 ### Solution to Problem 3
 
-By **Definition 5.1.2 (Quadrant Angle)**, angles whose terminal side lies on a coordinate axis do not belong to any quadrant; by **Standard Conclusion** (Angles with the Same Terminal Side) and $90^{\circ}=\frac{\pi}{2}\ \mathrm{rad}$.
-
-(1) First-quadrant angles: the terminal side lies between $0^{\circ}$ and $90^{\circ}$ (excluding the boundaries), expressed in degrees as
+By **Definition 3.1.1 (Function)**, the tea temperature $y$ is a function of time $x$. By **Common Conclusion 4.2.3** (Exponential Growth and Decay Models), observing the distribution of the scatter plot and taking into account the fact that the tea temperature cannot drop below room temperature, one may choose the function
 
 $$
-S=\left\{\beta\mid k\cdot360^{\circ}< \beta< 90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+y=ka^x+25\quad\left(k\in\mathbb R,\ 0< a< 1,\ x\ge 0\right)
 $$
 
-and expressed in radians as
+to approximately describe the law by which the tea temperature changes over time.
+
+(1) Determine the parameter $k$. When $x=0$, $y=85$; substituting gives $85=k\cdot a^0+25=k+25$, hence $k=60$.
+
+(2) Determine the parameter $a$. Starting from the temperature data at $2\ \min$, compute the ratio of each minute's $\left(y-25\right)$ value to the previous minute's $\left(y-25\right)$ value, and list them in Table 2.
+
+| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|---|
+| $y-25$ | 60.00 | 54.19 | 49.75 | 46.19 | 43.19 | 40.10 |
+| Ratio |  | 0.9032 | 0.9181 | 0.9284 | 0.9351 | 0.9285 |
+
+Computing the average of the ratios gives
 
 $$
-S=\left\{\beta\mid 2k\pi< \beta< \frac{\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
+a=\frac{1}{5}\left(0.9032+0.9181+0.9284+0.9351+0.9285\right)=0.9227.
 $$
 
-(2) Second-quadrant angles: the terminal side lies between $90^{\circ}$ and $180^{\circ}$ (excluding the boundaries), expressed in degrees as
+Hence we obtain the function model
 
 $$
-S=\left\{\beta\mid 90^{\circ}+k\cdot360^{\circ}< \beta< 180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+y=60\times0.9227^x+25\quad\left(x\ge 0\right).
 $$
 
-and expressed in radians as
+(3) Check the model. Substituting the known data into the above, or plotting the graph of the function, one finds that this function model basically agrees with the actual data, showing that it can well reflect the law by which the tea temperature changes over time.
+
+(4) Solve the problem. Substituting $y=60$ into $y=60\times0.9227^x+25$ gives
 
 $$
-S=\left\{\beta\mid \frac{\pi}{2}+2k\pi< \beta< \pi+2k\pi,\ k\in\mathbb Z\right\}.
+60\times0.9227^x+25=60.
 $$
 
-(3) Third-quadrant angles: the terminal side lies between $180^{\circ}$ and $270^{\circ}$ (excluding the boundaries), expressed in degrees as
+Rearranging gives
 
 $$
-S=\left\{\beta\mid 180^{\circ}+k\cdot360^{\circ}< \beta< 270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+0.9227^x=\frac{35}{60}=\frac{7}{12}.
 $$
 
-and expressed in radians as
+By **Common Conclusion 4.3.3** (Relationship between Logarithms and Exponents), converting the exponential form to logarithmic form gives
 
 $$
-S=\left\{\beta\mid \pi+2k\pi< \beta< \frac{3\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
+x=\log_{0.9227}\frac{7}{12}.
 $$
 
-(4) Fourth-quadrant angles: the terminal side lies between $270^{\circ}$ and $360^{\circ}$ (excluding the boundaries), expressed in degrees as
+By **Definition 4.3.1 (Logarithm)**, the computation gives $x\approx 6.6997$.
+
+Therefore, the time needed to brew a cup of tea with the optimal taste is approximately $7\ \min$. $\blacksquare$
+
+## Thinking 1
+
+(Thinking 1) Can one directly substitute a set of data from Table 1 into $y=60a^x+25$ to find $a$? What is the difference between this and establishing the function model by using the average of the ratios as $a$?
+
+### Solution to Thinking 1
+
+By **Definition 3.1.1 (Function)**, the function model contains the undetermined parameter $a$, while Table 1 gives multiple sets of measured data.
+
+(1) Directly substituting one set of data to find $a$ is feasible. For example, taking $x=1$, $y=79.19$ and substituting into $y=60a^x+25$ gives
 
 $$
-S=\left\{\beta\mid 270^{\circ}+k\cdot360^{\circ}< \beta< 360^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+79.19=60a+25,
 $$
 
-and expressed in radians as
+which solves to $a=\frac{54.19}{60}\approx 0.9032$. As another example, taking $x=5$, $y=65.10$ and substituting gives $65.10=60a^5+25$, i.e. $a^5=\frac{40.10}{60}=\frac{401}{600}$, from which the corresponding $a$ can be solved.
 
-$$
-S=\left\{\beta\mid \frac{3\pi}{2}+2k\pi< \beta< 2\pi+2k\pi,\ k\in\mathbb Z\right\}.
-$$
+(2) The difference is: the model obtained by directly substituting one set of data happens to pass through that measured point, but due to measurement error and random fluctuation, this set of data may not represent the overall trend, and the model may deviate greatly from other measured points. Using the average of adjacent ratios as $a$ is equivalent to using all $5$ pieces of ratio information, making the parameter $a$ comprehensively reflect the average level of temperature decay over each segment, so that the model fits all measured data better overall and is more resistant to random error. In other words, the former determines the parameter from a single point, while the latter fits the parameter using all the data; the latter is more robust. $\blacksquare$
 
-$\blacksquare$
+## Project Topics
+
+The above process can be summarized as: observe the practical situation, discover and pose a problem, collect data, choose a function model, solve the function model, and check the model; if it does not match reality, return and modify the model; if it matches reality, the solution to the practical problem is obtained.
+
+Please follow the above process to carry out an activity of building a function model to solve a practical problem. You may continue to study the time needed to brew a cup of tea with the optimal taste at different room temperatures, or choose one of the following topics:
+
+(1) How long before cooking should meat be taken out of the refrigerator to thaw?
+
+(2) Based on a student's height and weight, determine whether the student is overweight.
+
+(3) Using a microwave oven or induction cooker to boil a pot of water, find the most power-saving power setting.
+
+(4) Estimate the time required to read a book.
+
+You may also, based on your own interests, agree with your teacher on a topic and conduct research on it.
+
+## Project Requirements
+
+(1) Form a cooperative team. In the class, form research groups of $3\sim 5$ people, with each student joining one group. Within the group, appoint a group leader so that every member has a clear division of labor. Devise the research topic, determine the research plan, outline the research steps, and prepare a research handbook, then give a project-opening presentation in the class.
+
+(2) Carry out the research activity. Following the research steps planned in the project-opening presentation, complete the topic research through the processes of background analysis, data collection, data analysis, mathematical modeling, and drawing conclusions. During the research, you may use information technology to solve problems.
+
+(3) Write a research report. As a group, write a research report.
+
+(4) Communicate and present. For the same topic, first hold a group exchange among $3\sim 4$ groups, with each group presenting its research results, learning from one another and drawing on each other's strengths. On the basis of the group research reports, form a combined research report for the larger group. Select representatives and prepare a presentation to report to the whole class. Together with the teacher, hold a class-wide presentation and exchange of the research results; based on each group representative's research report, question, debate, evaluate, summarize the results, share insights, and analyze shortcomings. Carry out self-evaluation, peer evaluation and teacher evaluation, completing this mathematical modeling activity.
 
 ## Problem 4
 
-(Exercise 5.1, Review and Consolidation, Problem 4) The length of a chord equals the radius. Does the central angle subtended by this chord equal $1$ radian? Why?
+(Review Reference Problem 1, Review and Consolidation, Problem 1) Represent the following sets using the roster method:
+
+(1) $A=\left\{x\mid x^2=9\right\}$;
+
+(2) $B=\left\{x\in\mathbb N\mid 1\le x\le 2\right\}$;
+
+(3) $C=\left\{x\mid x^2-3x+2=0\right\}$.
 
 ### Solution to Problem 4
 
-By **Definition 5.1.3 (One-Radian Angle)**, a $1$ radian angle is the central angle subtended by an arc whose length equals the radius; by **Standard Conclusion** (Radian Measure Formula), $\lvert\alpha\rvert=\frac{l}{r}$, where $l$ is the arc length, not the chord length.
+By **Definition 1.1.6 (Roster Method)**, list the elements of the set one by one.
 
-Let the radius of the circle be $r$, and the chord length also be $r$; then the chord and the two radii form an equilateral triangle, and the central angle it subtends is $60^{\circ}=\frac{\pi}{3}\ \mathrm{rad}$ $\approx1.047\ \mathrm{rad}$, which is not equal to $1\ \mathrm{rad}$. Because $1$ radian corresponds to the central angle subtended by an arc whose arc length equals the radius, while in this problem the chord length equals the radius and the arc length does not equal the radius, this central angle is not equal to $1$ radian. $\blacksquare$
+(1) The roots of the equation $x^2=9$ are $x=\pm3$, hence $A=\left\{-3,3\right\}$.
+
+(2) By Common Number Sets, $\mathbb N$ is the set of nonnegative integers; the nonnegative integers satisfying $1\le x\le2$ are $1,2$, hence $B=\left\{1,2\right\}$.
+
+(3) The equation $x^2-3x+2=0$ is $\left(x-1\right)\left(x-2\right)=0$, with roots $x=1$ or $x=2$, hence $C=\left\{1,2\right\}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 5.1, Review and Consolidation, Problem 5) Convert the following angles to radians:
+(Review Reference Problem 1, Review and Consolidation, Problem 2) Let $P$ denote a moving point in a plane. What geometric figure is formed by the points belonging to the following sets?
 
-(1) $36^{\circ}$;
+(1) $\left\{P\mid PA=PB\right\}$ ($A,B$ are two distinct fixed points);
 
-(2) $-150^{\circ}$;
-
-(3) $1095^{\circ}$;
-
-(4) $1440^{\circ}$.
+(2) $\left\{P\mid PO=3\mathrm{cm}\right\}$ ($O$ is a fixed point).
 
 ### Solution to Problem 5
 
-By **Standard Conclusion** (Conversion between Degrees and Radians), $1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}$.
+By the set-builder notation, a set is the totality of points satisfying the listed conditions.
 
-(1) We get
+(1) The locus of points equidistant from the two distinct fixed points $A,B$ is the perpendicular bisector of segment $AB$, hence this set represents the perpendicular bisector of segment $AB$.
 
-$$
-36^{\circ}=36\times\frac{\pi}{180}=\frac{\pi}{5}.
-$$
-
-(2) We get
-
-$$
--150^{\circ}=-150\times\frac{\pi}{180}=-\frac{5\pi}{6}.
-$$
-
-(3) We get
-
-$$
-1095^{\circ}=1095\times\frac{\pi}{180}=\frac{73\pi}{12}.
-$$
-
-(4) We get
-
-$$
-1440^{\circ}=1440\times\frac{\pi}{180}=8\pi.
-$$
-
-$\blacksquare$
+(2) The locus of points whose distance from the fixed point $O$ equals the fixed length $3\mathrm{cm}$ is the circle centered at $O$ with radius $3\mathrm{cm}$, hence this set represents this circle. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 5.1, Review and Consolidation, Problem 6) Convert the following radians to degrees (problems (3) and (4) accurate to $0.01^{\circ}$):
-
-(1) $-\frac{7\pi}{6}$;
-
-(2) $-\frac{10\pi}{3}$;
-
-(3) $1.4$;
-
-(4) $\frac{2}{3}$.
+(Review Reference Problem 1, Review and Consolidation, Problem 3) Given $\triangle ABC$ in the plane, and let $P$ denote a moving point in this plane. Identify what point belongs to the set $\left\{P\mid PA=PB\right\}\cap\left\{P\mid PA=PC\right\}$.
 
 ### Solution to Problem 6
 
-By **Standard Conclusion** (Conversion between Degrees and Radians), $\pi\ \mathrm{rad}$ $=180^{\circ}$, $1\ \mathrm{rad}$ $=\left(\frac{180}{\pi}\right)^{\circ}$.
+By **Definition 1.3.2 (Intersection)**, the desired point must satisfy both $PA=PB$ and $PA=PC$.
 
-(1) We get
+Since $\left\{P\mid PA=PB\right\}$ is the perpendicular bisector of segment $AB$ and $\left\{P\mid PA=PC\right\}$ is the perpendicular bisector of segment $AC$, their intersection is the intersection point of these two perpendicular bisectors.
 
-$$
--\frac{7\pi}{6}=-\frac{7}{6}\times180^{\circ}=-210^{\circ}.
-$$
-
-(2) We get
-
-$$
--\frac{10\pi}{3}=-\frac{10}{3}\times180^{\circ}=-600^{\circ}.
-$$
-
-(3) We get
-
-$$
-1.4=1.4\times\frac{180^{\circ}}{\pi}\approx80.21^{\circ}.
-$$
-
-(4) We get
-
-$$
-\frac{2}{3}=\frac{2}{3}\times\frac{180^{\circ}}{\pi}\approx38.20^{\circ}.
-$$
-
-$\blacksquare$
+This intersection point is equidistant from the three points $A,B,C$; it is the circumcenter of $\triangle ABC$, i.e. the center of the circumscribed circle of $\triangle ABC$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 5.1, Comprehensive Application, Problem 7) Multiple choice:
+(Review Reference Problem 1, Review and Consolidation, Problem 4) Please fill in the blanks with "sufficient but not necessary condition", "necessary but not sufficient condition", "sufficient and necessary condition", or "neither sufficient nor necessary condition":
 
-(1) Given that $\alpha$ is an acute angle, then $2\alpha$ is ( ).
+(1) The two altitudes of a triangle being equal is a $\;\_\_\;$ for the triangle to be isosceles;
 
-(A) a first-quadrant angle
+(2) $x\in A$ is a $\;\_\_\;$ for $x\in A\cup B$;
 
-(B) a second-quadrant angle
+(3) $x\in A$ is a $\;\_\_\;$ for $x\in A\cap B$;
 
-(C) a positive angle less than $180^{\circ}$
-
-(D) a first- or second-quadrant angle
-
-(2) Given that $\alpha$ is a first-quadrant angle, then $\frac{\alpha}{2}$ is ( ).
-
-(A) a first-quadrant angle
-
-(B) a second-quadrant angle
-
-(C) a first- or second-quadrant angle
-
-(D) a first- or third-quadrant angle
+(4) $x,y$ being irrational numbers is a $\;\_\_\;$ for $x+y$ to be an irrational number.
 
 ### Solution to Problem 7
 
-By **Definition 5.1.2 (Quadrant Angle)** and **Standard Conclusion** (Angles with the Same Terminal Side).
+By **Definition 1.4.2 (Sufficient and Necessary Conditions)** and **Definition 1.4.4 (Sufficient and Necessary Condition)**, determine the inference relation in both directions separately.
 
-(1) Since $\alpha$ is an acute angle, $0^{\circ}< \alpha< 90^{\circ}$, so $0^{\circ}< 2\alpha< 180^{\circ}$. When $0^{\circ}< 2\alpha< 90^{\circ}$, $2\alpha$ is a first-quadrant angle; when $90^{\circ}< 2\alpha< 180^{\circ}$, $2\alpha$ is a second-quadrant angle; when $2\alpha=90^{\circ}$, $2\alpha$ is a right angle, not belonging to any quadrant. Therefore $2\alpha$ is a positive angle less than $180^{\circ}$; choose (C).
+(1) Let the altitudes to the two sides $a,b$ of the triangle be $h_a,h_b$. From the triangle area $S=\frac12 ah_a=\frac12 bh_b$, if $h_a=h_b$ then $a=b$, i.e. the triangle is isosceles; conversely, the two equal sides of an isosceles triangle have equal altitudes. Hence the two are mutually necessary and sufficient; fill in "sufficient and necessary condition".
 
-(2) Since $\alpha$ is a first-quadrant angle, $k\cdot360^{\circ}< \alpha< 90^{\circ}+k\cdot360^{\circ}$ ($k\in\mathbb Z$). When $k$ is even, i.e. $k=2n$, $n\cdot360^{\circ}< \frac{\alpha}{2}< 45^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a first-quadrant angle; when $k$ is odd, i.e. $k=2n+1$, $180^{\circ}+n\cdot360^{\circ}< \frac{\alpha}{2}< 225^{\circ}+n\cdot360^{\circ}$, and $\frac{\alpha}{2}$ is a third-quadrant angle. Therefore $\frac{\alpha}{2}$ is a first- or third-quadrant angle; choose (D). $\blacksquare$
+(2) By **Definition 1.3.1 (Union)**, $x\in A$ necessarily implies $x\in A\cup B$, i.e. $x\in A\Rightarrow x\in A\cup B$; but $x\in A\cup B$ may belong only to $B$, and does not imply $x\in A$. Hence $x\in A$ is a sufficient but not necessary condition for $x\in A\cup B$.
+
+(3) By **Definition 1.3.2 (Intersection)**, $x\in A\cap B$ necessarily implies $x\in A$, i.e. $x\in A\cap B\Rightarrow x\in A$; but $x\in A$ need not belong to $B$, and does not imply $x\in A\cap B$. Hence $x\in A$ is a necessary but not sufficient condition for $x\in A\cap B$.
+
+(4) Take $x=\sqrt 2$, $y=-\sqrt 2$; both are irrational, but $x+y=0$ is rational; also take $x=y=\sqrt 2$, and $x+y=2\sqrt 2$ is irrational. Neither direction holds, hence $x,y$ being irrational numbers is a neither sufficient nor necessary condition for $x+y$ to be an irrational number. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 5.1, Comprehensive Application, Problem 8) To cut a sector plate from a circular metal plate of radius $OA=100\ \mathrm{cm}$, so that the length of its arc $AB$ is $112\ \mathrm{cm}$, then how many degrees is the central angle $\angle AOB$ (a calculating tool may be used, accurate to $1^{\circ}$)?
+(Review Reference Problem 1, Review and Consolidation, Problem 5) Given that $a,b,c$ are real numbers, determine whether the following propositions are true or false:
+
+(1) "$a> b$" is a sufficient condition for "$a^2> b^2$"; ($\;\_\_\;$)
+
+(2) "$a> b$" is a necessary condition for "$a^2> b^2$"; ($\;\_\_\;$)
+
+(3) "$a> b$" is a sufficient condition for "$ac^2> bc^2$"; ($\;\_\_\;$)
+
+(4) "$a> b$" is a necessary condition for "$ac^2> bc^2$". ($\;\_\_\;$)
 
 ### Solution to Problem 8
 
-By **Standard Conclusion** (Radian Measure Formula), $\lvert\alpha\rvert=\frac{l}{r}$.
+By **Definition 1.4.2 (Sufficient and Necessary Conditions)**, a counterexample shows it false, while a general proof shows it true.
 
-From $l=112\ \mathrm{cm}$, $r=OA=100\ \mathrm{cm}$, we get
+(1) Take $a=1$, $b=-2$; then $a> b$, but $a^2=1< 4=b^2$, hence $a> b\nRightarrow a^2> b^2$, and the proposition is false.
 
-$$
-\alpha=\frac{l}{r}=\frac{112}{100}=1.12\ \mathrm{rad}.
-$$
+(2) Take $a=-2$, $b=1$; then $a^2=4> 1=b^2$, but $a< b$, hence $a^2> b^2\nRightarrow a> b$, i.e. "$a> b$" is not a necessary condition for "$a^2> b^2$", and the proposition is false.
 
-Then by **Standard Conclusion** (Conversion between Degrees and Radians), $1.12\ \mathrm{rad}$ $=1.12\times\frac{180^{\circ}}{\pi}\approx64^{\circ}$.
+(3) Take $c=0$; then $ac^2=bc^2=0$, and even if $a> b$ we still have $ac^2=bc^2$, hence $a> b\nRightarrow ac^2> bc^2$, and the proposition is false.
 
-Therefore the central angle $\angle AOB$ is approximately $64^{\circ}$. $\blacksquare$
+(4) If $ac^2> bc^2$, then necessarily $c^2> 0$ (otherwise both sides are $0$, which does not satisfy $> $); dividing both sides by the positive number $c^2$ gives $a> b$, hence $ac^2> bc^2\Rightarrow a> b$, and the proposition is true. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 5.1, Comprehensive Application, Problem 9) Given that the central angle subtended by an arc of length $50\ \mathrm{cm}$ is $200^{\circ}$, find the radius of the circle to which this arc belongs (a calculating tool may be used, accurate to $1\ \mathrm{cm}$).
+(Review Reference Problem 1, Review and Consolidation, Problem 6) Express the following quantified propositions using the symbols "$\forall$" and "$\exists$", and determine whether they are true or false:
+
+(1) The square of any real number is greater than or equal to $0$;
+
+(2) For any real number $a$, the graph of the quadratic function $y=x^2+a$ is symmetric about the $y$-axis;
+
+(3) There exist integers $x,y$ such that $2x+4y=3$;
+
+(4) There exists an irrational number whose cube is a rational number.
 
 ### Solution to Problem 9
 
-By **Standard Conclusion** (Arc Length and Area Formulas for a Sector), $l=\alpha R$, where $\alpha$ is the radian measure of the central angle.
+Express and judge by **Definition 1.5.1 (Universal Quantifier and Universal Quantified Statement)** and **Definition 1.5.2 (Existential Quantifier and Existential Quantified Statement)**.
 
-From $200^{\circ}=\frac{200\pi}{180}=\frac{10\pi}{9}\ \mathrm{rad}$, $l=50\ \mathrm{cm}$, we get
+(1) Expressed as $\forall x\in\mathbb R,\ x^2\ge 0$. Since the square of a real number is nonnegative, the proposition is true.
 
-$$
-R=\frac{l}{\alpha}=\frac{50}{10\pi/9}=\frac{45}{\pi}\approx14\ \mathrm{cm}.
-$$
+(2) Expressed as $\forall a\in\mathbb R$, the graph of the quadratic function $y=x^2+a$ is symmetric about the $y$-axis. The parabola $y=x^2+a$ is symmetric about the $y$-axis for any real number $a$, hence the proposition is true.
 
-Therefore the radius of the circle to which this arc belongs is approximately $14\ \mathrm{cm}$. $\blacksquare$
+(3) Expressed as $\exists x,y\in\mathbb Z,\ 2x+4y=3$. The left side $2x+4y=2\left(x+2y\right)$ is even, while the right side $3$ is odd; the two cannot be equal, hence the proposition is false.
+
+(4) Expressed as "there exists an irrational number $x$ such that $x^3$ is a rational number". Take $x=\sqrt\left[3\right]{2}$; it is irrational, while $x^3=2$ is rational; such an $x$ exists, hence the proposition is true. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 5.1, Extension and Exploration, Problem 10) Each person prepares a sector-shaped fan, then compares it with those of the other students in the group, selects one fan that looks more aesthetically pleasing when opened, and uses a calculating tool to compute its area $S_{1}$.
+(Review Reference Problem 1, Review and Consolidation, Problem 7) Write the negation of the following propositions and determine whether they are true or false:
 
-(1) Suppose this fan is cut from a circular disk, and the area of the remaining part is $S_{2}$; find the ratio of $S_{1}$ to $S_{2}$;
+(1) $\forall a\in\mathbb R$, the quadratic equation $x^2-ax-1=0$ has real roots;
 
-(2) to make the ratio of $S_{1}$ to $S_{2}$ equal to $0.618$, how many degrees should the central angle of the fan be (accurate to $1^{\circ}$)?
+(2) Every square is a parallelogram;
+
+(3) $\exists m\in\mathbb N,\ \sqrt{m^2+1}\in\mathbb N$;
+
+(4) There exists a quadrilateral $ABCD$ whose interior angle sum is not equal to $360^\circ$.
 
 ### Solution to Problem 10
 
-By **Standard Conclusion** (Arc Length and Area Formulas for a Sector), $S=\frac{1}{2}\alpha R^{2}$.
+Rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quantified Statement) and **Common Conclusion 1.5.5** (Negation of an Existential Quantified Statement), and judge by the fact that the negation has the opposite truth value.
 
-Let the radius of the circle to which the fan belongs be $R$, and the central angle of the fan be $\alpha$; then the fan area is $S_{1}=\frac{1}{2}\alpha R^{2}$, the central angle of the remaining part is $2\pi-\alpha$, and the area is $S_{2}=\frac{1}{2}\left(2\pi-\alpha\right)R^{2}$.
+(1) This is a universal quantified statement; its negation is $\exists a\in\mathbb R$ such that the quadratic equation $x^2-ax-1=0$ has no real roots. The discriminant of the original equation is $\left(-a\right)^2+4=a^2+4> 0$ always, hence the original proposition is true and its negation is false.
 
-(1) We get
+(2) This is a universal quantified statement; its negation is "there exists a square that is not a parallelogram". A square is a special parallelogram, hence the original proposition is true and its negation is false.
 
-$$
-\frac{S_{1}}{S_{2}}=\frac{\frac{1}{2}\alpha R^{2}}{\frac{1}{2}\left(2\pi-\alpha\right)R^{2}}=\frac{\alpha}{2\pi-\alpha}.
-$$
+(3) This is an existential quantified statement; its negation is $\forall m\in\mathbb N,\ \sqrt{m^2+1}\notin\mathbb N$. Take $m=0\in\mathbb N$, then $\sqrt{m^2+1}=\sqrt 1=1\in\mathbb N$, hence the original proposition is true and its negation is false.
 
-(2) From $\frac{S_{1}}{S_{2}}=0.618$, i.e. $\frac{\alpha}{2\pi-\alpha}=0.618$, solving gives $\alpha=0.618\left(2\pi-\alpha\right)$, i.e. $1.618\alpha=1.236\pi$, so
-
-$$
-\alpha=\frac{1.236\pi}{1.618}\approx0.7639\pi\ \mathrm{rad}.
-$$
-
-Then by **Standard Conclusion** (Conversion between Degrees and Radians), we get $\alpha\approx0.7639\times180^{\circ}\approx138^{\circ}$.
-
-Therefore the central angle of the fan should be approximately $138^{\circ}$. $\blacksquare$
+(4) This is an existential quantified statement; its negation is "every quadrilateral has interior angle sum equal to $360^\circ$". Any quadrilateral has interior angle sum $360^\circ$, hence the original proposition is false and its negation is true. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 5.1, Extension and Exploration, Problem 11) (1) After $4\ \mathrm{h}$ (hours) have elapsed, through how many degrees have the hour hand and the minute hand respectively rotated? How many radians does each equal?
-
-(2) Someone says that the hour hand and the minute hand of a clock coincide $24$ times in one day. Do you think this statement is correct? Please explain the reason. (Hint: counting from midnight zero o'clock, suppose the minute hand takes $t\ \mathrm{min}$ to coincide with the hour hand, and in one day the minute hand and the hour hand coincide $n$ times; using the rotation speeds of the minute hand and the hour hand, set up the analytic expression of $t$ with respect to $n$ and solve it.)
+(Review Reference Problem 1, Comprehensive Application, Problem 8) Given the sets $A=\left\{\left(x,y\right)\mid 2x-y=0\right\}$, $B=\left\{\left(x,y\right)\mid 3x+y=0\right\}$, $C=\left\{\left(x,y\right)\mid 2x-y=3\right\}$, find $A\cap B$ and $A\cap C$, and explain their geometric meaning.
 
 ### Solution to Problem 11
 
-By **Standard Conclusion** (Conversion between Degrees and Radians) and the angular velocity of circular motion.
+By **Definition 1.3.2 (Intersection)**, $A\cap B$ consists of points belonging to both lines, i.e. the intersection point of the two lines.
 
-(1) The hour hand rotates one full turn of $360^{\circ}$ in $12$ hours, so in $4$ hours it rotates $360^{\circ}\times\frac{4}{12}=120^{\circ}$, i.e. $\frac{2\pi}{3}\ \mathrm{rad}$. The minute hand rotates one full turn of $360^{\circ}$ in $1$ hour, so in $4$ hours it rotates $4\times360^{\circ}=1440^{\circ}$, i.e. $8\pi\ \mathrm{rad}$. Note that both the hour hand and the minute hand rotate clockwise, so the angles rotated are negative angles, i.e. $-120^{\circ}=-\frac{2\pi}{3}\ \mathrm{rad}$, $-1440^{\circ}=-8\pi\ \mathrm{rad}$.
+Set $A$ represents the line $y=2x$, $B$ represents the line $y=-3x$, and $C$ represents the line $y=2x-3$.
 
-(2) This statement is incorrect. The angular velocity of the minute hand is $6^{\circ}/\mathrm{min}$ (i.e. $360^{\circ}/60$), and the angular velocity of the hour hand is $0.5^{\circ}/\mathrm{min}$ (i.e. $360^{\circ}/\left(12\times60\right)$). Starting from the coincidence of the two hands at midnight zero o'clock, suppose after $t\ \mathrm{min}$ the two hands coincide again; then the minute hand rotates $360^{\circ}$ more than the hour hand, i.e.
+To find $A\cap B$, solve the system
 
 $$
-6t-0.5t=360n,\quad n\in\mathbb N^*.
+\begin{cases}2x-y=0,\\3x+y=0.\end{cases}
 $$
 
-Solving gives $t=\frac{720n}{11}$. One day is $24\ \mathrm{h}=1440\ \mathrm{min}$; from $t\le1440$, we get $\frac{720n}{11}\le1440$, i.e. $n\le22$. Therefore in one day (from midnight zero o'clock to before the next midnight zero o'clock) the minute hand and the hour hand coincide $22$ times, not $24$ times. $\blacksquare$
+Adding the two equations gives $5x=0$, i.e. $x=0$; substituting back gives $y=0$, hence $A\cap B=\left\{\left(0,0\right)\right\}$. Its geometric meaning is the intersection point of the lines $y=2x$ and $y=-3x$, i.e. the coordinate origin.
+
+To find $A\cap C$, note that line $A$ and line $C$ both have slope $2$ and are parallel to each other, with intercepts $0$ and $-3$ respectively; they are two distinct parallel lines with no common point, hence $A\cap C=\varnothing$. Its geometric meaning is that the lines $y=2x$ and $y=2x-3$ are parallel and do not intersect. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 5.1, Extension and Exploration, Problem 12) Given two intermeshing gears, the large gear has $48$ teeth and the small gear has $20$ teeth.
-
-(1) When the large gear rotates one full turn, find the angle through which the small gear rotates;
-
-(2) if the rotational speed of the large gear is $180\ \mathrm{r/min}$ (revolutions per minute) and the radius of the small gear is $10.5\ \mathrm{cm}$, then what is the arc length through which a point on the circumference of the small gear passes every $1\ \mathrm{s}$?
+(Review Reference Problem 1, Comprehensive Application, Problem 9) Given the sets $A=\left\{1,3,a^2\right\}$, $B=\left\{1,a+2\right\}$, does there exist a real number $a$ such that $A\cup B=A$? If it exists, find the value(s) of $a$; if not, explain why.
 
 ### Solution to Problem 12
 
-By **Standard Conclusion** (Radian Measure Formula) and the principle that the linear velocities of intermeshing gears are equal.
+By **Definition 1.3.1 (Union)** and **Definition 1.2.1 (Subset)**, $A\cup B=A$ if and only if $B\subseteq A$, i.e. every element of $B$ belongs to $A$.
 
-(1) For intermeshing gears, the number of teeth turned per unit time is equal. The large gear turns $48$ teeth in one full turn, so the small gear must also turn $48$ teeth, i.e. the small gear rotates $\frac{48}{20}=2.4$ turns. Each turn is $2\pi\ \mathrm{rad}$, so the angle through which the small gear rotates is
+$B$ has elements $1$ and $a+2$. Of these, $1\in A$ is already satisfied; we only need $a+2\in A=\left\{1,3,a^2\right\}$, which splits into three cases.
+
+(1) If $a+2=1$, then $a=-1$. At this time $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,1\right\}=\left\{1\right\}$, satisfying $B\subseteq A$.
+
+(2) If $a+2=3$, then $a=1$. At this time $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,3\right\}$, satisfying $B\subseteq A$.
+
+(3) If $a+2=a^2$, then $a^2-a-2=0$, i.e. $\left(a-2\right)\left(a+1\right)=0$, giving $a=2$ or $a=-1$. Of these, $a=-1$ has already been discussed in (1); when $a=2$, $A=\left\{1,3,4\right\}$, $B=\left\{1,4\right\}$, satisfying $B\subseteq A$.
+
+In summary, such a real number $a$ exists, with values $a=-1$, $a=1$ or $a=2$. $\blacksquare$
+
+## Problem 13
+
+(Review Reference Problem 1, Comprehensive Application, Problem 10) Write the propositions represented by the following theorems as quantified propositions:
+
+(1) The Pythagorean theorem;
+
+(2) The triangle interior angle sum theorem.
+
+### Solution to Problem 13
+
+By **Definition 1.5.1 (Universal Quantifier and Universal Quantified Statement)**, these two theorems hold universally for a class of objects and should be written as universal quantified statements.
+
+(1) The Pythagorean theorem is: for any right triangle, if its two legs have lengths $a,b$ and its hypotenuse has length $c$, then $a^2+b^2=c^2$. Written as a universal quantified statement: $\forall$ right triangle (legs $a,b$, hypotenuse $c$), $a^2+b^2=c^2$.
+
+(2) The triangle interior angle sum theorem is: for any triangle, the sum of its three interior angles equals $180^\circ$. Written as a universal quantified statement: $\forall$ triangle, the sum of its three interior angles equals $180^\circ$. $\blacksquare$
+
+## Problem 14
+
+(Review Reference Problem 1, Extension and Exploration, Problem 11) When the school held a sports meet, Grade 10 Class 1 had a total of $28$ students participating in the competitions; $15$ participated in swimming, $8$ participated in track and field, $14$ participated in ball games; $3$ participated in both swimming and track and field, $3$ participated in both swimming and ball games, and no one participated in all three. Question: How many participated in both track and field and ball games? How many participated only in swimming?
+
+### Solution to Problem 14
+
+Let the sets of students participating in swimming, track and field, and ball games be $S,T,B$ respectively. Then $\operatorname{card}\left(S\cup T\cup B\right)=28$, $\operatorname{card}\left(S\right)=15$, $\operatorname{card}\left(T\right)=8$, $\operatorname{card}\left(B\right)=14$, $\operatorname{card}\left(S\cap T\right)=3$, $\operatorname{card}\left(S\cap B\right)=3$, and $\operatorname{card}\left(S\cap T\cap B\right)=0$.
+
+Let the number participating in both track and field and ball games be $x$, i.e. $\operatorname{card}\left(T\cap B\right)=x$.
+
+By the inclusion-exclusion principle of **Common Conclusion** (Number of Elements in a Finite Set),
 
 $$
-2.4\times2\pi=4.8\pi\ \mathrm{rad}=864^{\circ}.
+\operatorname{card}\left(S\cup T\cup B\right)=\operatorname{card}\left(S\right)+\operatorname{card}\left(T\right)+\operatorname{card}\left(B\right)-\operatorname{card}\left(S\cap T\right)-\operatorname{card}\left(S\cap B\right)-\operatorname{card}\left(T\cap B\right)+\operatorname{card}\left(S\cap T\cap B\right).
 $$
 
-(2) The rotational speed of the large gear is $180\ \mathrm{r/min}$; from (1) we know the rotational speed of the small gear is $\frac{48}{20}=2.4$ times that of the large gear, so the rotational speed of the small gear is $180\times2.4=432\ \mathrm{r/min}$, i.e. $\frac{432}{60}=7.2\ \mathrm{r/s}$. The radius of the small gear is $r=10.5\ \mathrm{cm}$, and the arc length per turn is $2\pi r=21\pi\ \mathrm{cm}$, so the arc length passed every $1\ \mathrm{s}$ is
+Substituting the data gives $28=15+8+14-3-3-x+0$, i.e. $28=31-x$, solving to $x=3$. Hence $3$ people participated in both track and field and ball games.
+
+The number participating only in swimming, i.e. in $S$ but not in $T,B$, is $\operatorname{card}\left(S\right)-\operatorname{card}\left(S\cap T\right)-\operatorname{card}\left(S\cap B\right)+\operatorname{card}\left(S\cap T\cap B\right)=15-3-3+0=9$. Hence $9$ people participated only in swimming. $\blacksquare$
+
+## Problem 15
+
+(Review Reference Problem 1, Extension and Exploration, Problem 12) Based on the following facts, write a universal quantified proposition or existential quantified proposition containing quantifiers respectively:
+
+(1) $1=1^2$, $1+3=2^2$, $1+3+5=3^2$, $1+3+5+7=4^2$, $1+3+5+7+9=5^2$, $\cdots\cdots$;
+
+(2) As shown in the figure, in $\triangle ABC$, $AD$, $BE$ and $CF$ are the altitudes to sides $BC$, $AC$ and $AB$ respectively; then the lines on which $AD$, $BE$ and $CF$ lie intersect at one point $O$.
+
+The figure: a triangle $\triangle ABC$, where $AD$ is the altitude to side $BC$ ($D$ lies on $BC$, $AD\perp BC$), $BE$ is the altitude to side $AC$ ($E$ lies on $AC$, $BE\perp AC$), and $CF$ is the altitude to side $AB$ ($F$ lies on $AB$, $CF\perp AB$); the three lines containing the altitudes $AD$, $BE$, and $CF$ meet at a single point $O$ (the orthocenter) inside the triangle.
+
+### Solution to Problem 15
+
+Inductively write out by **Definition 1.5.1 (Universal Quantifier and Universal Quantified Statement)** and **Definition 1.5.2 (Existential Quantifier and Existential Quantified Statement)**.
+
+(1) Observing the expressions: the sum of the first $n$ consecutive odd numbers starting from $1$ equals the square of $n$, i.e.
 
 $$
-7.2\times21\pi=151.2\pi\ \mathrm{cm}.
+1+3+5+\cdots+\left(2n-1\right)=n^2.
+$$
+
+This is a law that holds for any positive integer $n$; written as a universal quantified proposition: $\forall n\in\mathbb N_+$, $1+3+5+\cdots+\left(2n-1\right)=n^2$.
+
+(2) This is a fact that holds for any triangle (the lines on which the three altitudes of a triangle lie intersect at one point, i.e. the orthocenter); written as a universal quantified proposition: $\forall\triangle ABC$, the lines on which the altitudes $AD$, $BE$, $CF$ to its three sides $BC$, $AC$, $AB$ lie intersect at one point. $\blacksquare$
+
+## Problem 16
+
+(Review Reference Problem 2, Review and Consolidation, Problem 1) A summer camp has $48$ people, and before departure it must choose between two types of tents, $A$ and $B$. There are $5$ fewer tents of type $A$ than of type $B$. If only type $A$ tents are chosen, at $4$ people per tent there are not enough tents, and at $5$ people per tent there is one tent that is not full. If only type $B$ tents are chosen, at $3$ people per tent there are not enough tents, and at $4$ people per tent there are spare tents. Let the number of type $A$ tents be $x$. Express the unequal relations in the problem using inequalities.
+
+### Solution to Problem 16
+
+By **Basic Fact 2.1.1** (Order Relations of Real Numbers), the number of type $B$ tents is $x+5$; write each restriction as an inequality sentence by sentence.
+
+Choosing only type $A$: at $4$ per tent there are not enough, i.e. $4x< 48$; at $5$ per tent one tent is not full, i.e. $5x> 48$ and the rest are all full, $5\left(x-1\right)< 48$.
+
+Choosing only type $B$: at $3$ per tent there are not enough, i.e. $3\left(x+5\right)< 48$; at $4$ per tent there are spares, i.e. $4\left(x+5\right)> 48$.
+
+Hence the required system of inequalities is
+
+$$
+\left\{\begin{array}{l}4x< 48,\\5x> 48,\\5\left(x-1\right)< 48,\\3\left(x+5\right)< 48,\\4\left(x+5\right)> 48.\end{array}\right.
 $$
 
 $\blacksquare$
+
+## Problem 17
+
+(Review Reference Problem 2, Review and Consolidation, Problem 2) Fill in the blanks with the inequality sign "$> $" or "$< $".
+
+(1) If $a> b$ and $\frac{1}{a}> \frac{1}{b}$, then $ab\;\_\_\;0$;
+
+(2) If $c> a> b> 0$, then $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
+
+(3) If $a> b> c> 0$, then $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
+
+### Solution to Problem 17
+
+By **Basic Fact 2.1.1** (Order Relations of Real Numbers), compare by taking the difference.
+
+(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}> 0$. Since $a> b$ gives $b-a< 0$, we must have $ab< 0$ for the quotient to be positive. Hence fill in $< $.
+
+(2) Taking the difference: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. From $c> a> b> 0$, the numerator $c\left(a-b\right)> 0$ and the denominator $\left(c-a\right)\left(c-b\right)> 0$, hence the difference is positive; fill in $> $.
+
+(3) Taking the difference: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}> 0$, hence fill in $> $. $\blacksquare$

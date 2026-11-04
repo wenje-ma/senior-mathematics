@@ -1,321 +1,440 @@
 # week38
-> **Definition 8.1.1 (空间几何体)**
+> **Definition 6.1.1 (向量与数量)**
 > 
-> 如果只考虑物体的形和大小, 而不考虑其他因素, 那么由这些物体抽象出来的空间图形就叫做空间几何体.
-> **Definition 8.1.2 (多面体)**
+> 既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
+> **Definition 6.1.7 (Equal Vectors)**
 > 
-> 由若干个平面多边形围成的几何体叫做多面体.
-> **Definition 8.1.3 (旋转体)**
+> 长度相等且方向相同的向量叫做相等向量.
+> **Definition 6.2.4 (Permutation and Factorial)**
 > 
-> 由一个平面图形绕它所在平面内的一条定直线旋转所形成的封闭几何体叫做旋转体.
-> **Definition 8.1.4 (棱柱)**
+> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **Definition 6.2.5 (Vector Subtraction)**
 > 
-> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
-> **Definition 8.1.5 (Right and Oblique Prisms)**
+> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+> **Definition 6.2.6 (Scalar Multiplication)**
 > 
-> 侧棱与底面垂直的棱柱叫做直棱柱, 侧棱与底面不垂直的棱柱叫做斜棱柱.
-> **Definition 8.1.7 (平行六面体)**
+> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+> **Theorem 6.2.8 (Collinear Vectors Theorem)**
 > 
-> 底面是平行四边形的四棱柱叫做平行六面体.
-> **Definition 8.1.8 (棱锥)**
+> 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+> **Definition 6.2.11 (向量的数量积)**
 > 
-> 有一个面是多边形, 其余各面都是有一个公共顶点的三角形, 由这些面围成的多面体叫做棱锥.
-> **Definition 8.1.9 (正棱锥)**
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
 > 
-> 底面是正多边形, 且顶点在底面的投影是底面中心的棱锥叫做正棱锥.
-> **Definition 8.1.10 (棱台)**
+> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+> **Theorem 6.4.2 (Law of Cosines)**
 > 
-> 用一个平行于棱锥底面的平面去截棱锥, 底面和截面之间的部分叫做棱台.
-> **Definition 8.1.11 (圆柱)**
+> 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
+> **Theorem 6.4.3 (Law of Sines)**
 > 
-> 以矩形的一边所在直线为旋转轴, 其余三边旋转形成的面所围成的旋转体叫做圆柱.
-> **Definition 8.1.12 (圆锥)**
+> 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
+> **Definition 10.1.6 (必然事件)**
 > 
-> 以直角三角形的一条直角边所在直线为旋转轴, 其余两边旋转形成的面所围成的旋转体叫做圆锥.
-> **Definition 8.1.13 (圆台)**
+> 在每次试验中总是发生的事件叫做必然事件.
+> **Definition 10.1.7 (不可能事件)**
 > 
-> 用平行于圆锥底面的平面去截圆锥, 底面与截面之间的部分叫做圆台.
-> **Definition 8.1.14 (Sphere)**
+> 在每次试验中都不发生的事件叫做不可能事件.
+> **Definition 10.1.14 (古典概型)**
 > 
-> 以半圆的直径所在直线为旋转轴, 半圆面旋转一周形成的旋转体叫做球体.
-> **Definition 8.1.16 (简单组合体)**
+> 试验中所有可能出现的基本事件只有有限个, 且每个基本事件出现的可能性相等, 具有这两个特点的概率模型称为古典概型.
+> **Definition 10.1.15 (概率的古典定义)**
 > 
-> ,它们在结构上有哪些相同点和不同点?当底面发 生变化时,它们能否互相转化?圆柱,圆锥与圆台呢? ８简单组合体 现实世界中的物体表示的几何体,除柱体,锥体,台体和球等简单几何体外,还有大 量的几何体是由简单几何体组合而成的,这些几何体称作简单组合体. (１)　　　　　(２)　　　　　　　(３)　　　　　　　　　(４) 图８.１１４ 　　请你说一说图８.１１４ 中各几何体是由哪些简单 几何体组合而成的. 简单组合体的构成有两种基本形式:一种是由简单几何 体拼接而成,如图８.１１４(１)(２)中物体表示的几何体; 一种是由简单几何体截去或挖去一部分而成,如图８.１１４ (３)(４)中的几何体.现实世界中的物体大多是由具有柱体, 锥体,台体,球等结构特征的物体组合而成. 例２　如图８.１１５(１),以直角梯形的下底 所在直线为轴,其余三边旋转一周形成的面围成一个几何 体.说出这个几何体的结构特征. ３０１ 径.球常用表示球心的字母来表示,如图8.1-13中的球记作球O.
+> 在古典概型中, 事件 A 的概率 P(A) = A 包含的基本事件数 / 基本事件总数.
+> **Definition 10.3.1 (频率的稳定性)**
+> 
+> 随着试验次数的增加, 事件发生的频率会逐渐稳定在某个常数附近, 这个常数就是该事件的概率.
+> **Definition 10.3.2 (随机模拟)**
+> 
+> ,那么他是O型血的概率大约是多少? 4.分别举出一个生活中概率很小和很大的例子. 10. 3. 2 随机模拟 用频率估计概率,需要做大量的重复试验.有没有其他 方法可以替代试验呢? 随机数与伪随机数 我们知道,利用计算器或计算机软件可以产生随机数. 例如我们要产生0～9 实际上,我们也可以根据不同的随机试验构建相应的随机数 之间的随机整数,像彩票 模拟试验,这样就可以快速地进行大量重复试验了. 摇奖那样,把10个质地 例如,对于抛掷一枚质地均匀硬币的试验,我们可以让 和大小相同的号码球放入 摇奖器中,充分搅拌后摇 计算器或计算机产生取值于集合(0,1)的随机数,用0表 出一个球,这个球上的号 示反面朝上,用1表示正面朝上.这样不断产生0,1两个 码就称为随机数.计算器 随机数,相当于不断地做抛掷硬币的试验. 或计算机产生的随机数是 又如,一个袋中装有2个红球和3个白球,这些球除颜 按照确定的算法产生的 色不同外没有其他差别.对于从袋中摸出一个球的试验,我 数,具有周期性(周期很 们可以让
 
 ## Exercise 1
 
-(Exercise 8.1, Problem 1) Observe the objects in the figure and state their main structural features.
-
-(1) a tent; (2) a dictionary; (3) a glass pyramid; (4) a trash can.
-
-> The original figure appears in the textbook, Compulsory Course Book 2, printed page 101 ($PDF$ page 107). It is a photograph and cannot be redrawn in R.
+(Exercise 10.3, Problem 4) Give an example from daily life of a very small probability and one of a very large probability.
 
 ### Solution to Exercise 1
 
-By **Definition 8.1.4 (Prism)** and **Definition 8.1.8 (Pyramid)**, judge according to whether the faces bounding the object are plane polygons and whether there are two mutually parallel faces.
+By **Definition 10.3.1 (Stability of Frequency)**, an event with very large probability is one highly likely to occur, and an event with very small probability is one unlikely to occur.
 
-(1) A tent can be abstracted as a prism; its two bases are triangles and its lateral faces are rectangles, so it is a triangular prism.
+Example of a very large probability: drawing a card at random from a deck with the jokers removed, the probability that "the card drawn is not a joker" is $1$ (a certain event), a very large probability. Or "the sun rises in the east in the morning" is a certain event with probability $1$.
 
-(2) A dictionary can be abstracted as a rectangular box; it is a right quadrangular prism with rectangular bases, i.e. a kind of regular quadrangular prism.
-
-(3) A glass pyramid can be abstracted as a pyramid; its base is a quadrilateral and its lateral faces are triangles sharing a common vertex, so it is a quadrangular pyramid.
-
-(4) A trash can can be abstracted as a prism; its overall shape is close to a prism, and the part where the opening is wider than the base approximates a frustum; its main structural feature is a prism plus an open lid. $\blacksquare$
+Example of a very small probability: buying one sports lottery ticket has a very small probability of winning, about one in several hundred thousand. Or "tossing a coin and getting heads $10$ times in a row" has probability $\frac{1}{2^{10}}=\frac{1}{1024}$, a very small probability. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 8.1, Problem 2) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 10.3, Problem 5) Toss a fair coin $4$ times in succession. Let event $A=$ "exactly two heads".
 
-(1) A rectangular box is a quadrangular prism, and a right quadrangular prism is a rectangular box.
+(1) Directly compute the probability of event $A$;
 
-(2) A quadrangular prism, a frustum of a quadrangular pyramid, and a pentagonal pyramid are all hexahedra.
+(2) Using a calculator or computer to simulate $80$ trials, compute the frequency of event $A$ occurring.
 
 ### Solution to Exercise 2
 
-Judge by **Definition 8.1.4 (Prism)**, **Definition 8.1.5 (Right Prisms and Oblique Prisms)**, **Definition 8.1.10 (Frustum of a Pyramid)**, and **Definition 8.1.8 (Pyramid)**.
+(1) By **Definition 10.1.15 (Classical Definition of Probability)**, tossing a coin $4$ times gives $2^4=16$ equally likely outcomes. Exactly two heads means choosing $2$ of the $4$ tosses to be heads, giving $\binom{4}{2}=6$ ways, so
 
-(1) A rectangular box satisfies the features of a prism and has a quadrilateral base, so it is a quadrangular prism. But a right quadrangular prism only requires the lateral edges to be perpendicular to the bases, and the bases need not be rectangles, whereas the base of a rectangular box must be a rectangle; hence a right quadrangular prism is not necessarily a rectangular box. The statement is false.
+$$
+P\left(A\right)=\frac{6}{16}=\frac{3}{8}=0.375.
+$$
 
-(2) A quadrangular prism has two bases and four lateral faces, totaling $6$ faces; a frustum of a quadrangular pyramid has two bases and four lateral faces, totaling $6$ faces; a pentagonal pyramid has one base and five lateral faces, totaling $6$ faces. All three are bounded by $6$ faces and are hexahedra. The statement is true. $\blacksquare$
+(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate $0, 1$ random numbers, with $1$ for heads and $0$ for tails; each group of $4$ random numbers represents one simulated trial. Repeat $80$ times, count the groups in which exactly $2$ entries equal $1$, denoted $n_A$; then the frequency of event $A$ occurring is $f_{80}\left(A\right)=\frac{n_A}{80}$. By **Definition 10.3.1 (Stability of Frequency)**, this frequency should fluctuate around $0.375$. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 8.1, Problem 3) Fill in the blanks.
+(Exercise 10.3, Problem 6) A box contains only $4$ white balls and $5$ black balls, from which one ball is drawn at random.
 
-(1) A geometric solid is bounded by $7$ faces, of which two are mutually parallel and congruent pentagons and the others are congruent rectangles; then this solid is $\;\_\_\;$.
+(1) What kind of event is "the ball drawn is yellow"? What is its probability?
 
-(2) A polyhedron has at least $\;\_\_\;$ faces; in this case the polyhedron is $\;\_\_\;$.
+(2) What kind of event is "the ball drawn is white"? What is its probability?
+
+(3) What kind of event is "the ball drawn is white or black"? What is its probability?
+
+(4) Design a calculator- or computer-simulated version of the above ball-drawing experiment, simulate it $100$ times, and estimate the probability that "the ball drawn is white".
 
 ### Solution to Exercise 3
 
-By **Definition 8.1.4 (Prism)**, the two bases of a prism are mutually parallel and congruent, and the lateral faces are all parallelograms.
+By **Definition 10.1.6 (Certain Event)** and **Definition 10.1.7 (Impossible Event)**.
 
-(1) The two mutually parallel and congruent pentagons are the bases, and the other five rectangles are the lateral faces; the lateral edges are perpendicular to the bases, so this solid is a regular pentagonal prism.
+(1) There are no yellow balls in the box, so "the ball drawn is yellow" cannot occur; it is an impossible event. By **Property 10.1.17** (Probability of the Certain and Impossible Events), its probability is $0$.
 
-(2) By **Definition 8.1.8 (Pyramid)**, a triangular pyramid has one triangular base and three triangular lateral faces, totaling $4$ faces. Any polyhedron needs at least $4$ faces to bound a closed spatial figure, so it has at least $4$ faces, and in this case the polyhedron is a triangular pyramid (i.e. a tetrahedron). $\blacksquare$
+(2) The box contains white and black balls, so "the ball drawn is white" may or may not occur; it is a random event. By **Definition 10.1.15 (Classical Definition of Probability)**, there are $9$ balls in total, of which $4$ are white, so $P\left(A\right)=\frac{4}{9}$.
+
+(3) The box contains only white and black balls, so "the ball drawn is white or black" always occurs; it is a certain event, with probability $1$.
+
+(4) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers taking values in the set $\left\{1, 2, \cdots, 9\right\}$; use $1, 2, 3, 4$ for white balls and $5, 6, 7, 8, 9$ for black balls. Each random number generated completes one simulated draw; repeat $100$ times, count the occurrences of $1, 2, 3, 4$, denoted $n_A$; then the frequency $f_{100}\left(A\right)=\frac{n_A}{100}$ is the estimated value of the probability of "drawing a white ball". By **Definition 10.3.1 (Stability of Frequency)**, this frequency should be around $\frac{4}{9}\approx 0.444$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 8.1, Problem 4) Design a plane figure that can be folded into a right triangular prism.
+(Exercise 10.3, Problem 7) (1) Toss two fair dice and compute the probability that the sum of the numbers is $7$;
 
-The figure: a net of a right triangular prism—three congruent rectangles joined side by side as the lateral faces, with a congruent triangle attached to the top and bottom sides of the middle rectangle as the upper and lower bases.
+(2) Using random simulation, run $120$ trials and compute the frequency with which the sum of the numbers is $7$;
+
+(3) Is there a large difference between the obtained frequency and the probability? Why does this difference occur?
 
 ### Solution to Exercise 4
 
-By **Definition 8.1.4 (Prism)** and **Definition 8.1.5 (Right Prisms)**, a right triangular prism has two congruent triangular bases and three rectangular lateral faces, and its lateral edges are perpendicular to the bases.
+(1) By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two dice gives $36$ equally likely sample points. The sample points with sum $7$ are $\left(1,6\right), \left(2,5\right), \left(3,4\right), \left(4,3\right), \left(5,2\right), \left(6,1\right)$, totaling $6$, so
 
-Design the following net: take three congruent rectangles joined side by side as the three lateral faces; attach a congruent triangle to each of the upper and lower sides of the middle rectangle as the upper and lower bases. Fold along the common edges of adjacent rectangles so that the three rectangles form the three lateral faces and the two triangles serve as the upper and lower bases, thus folding into a right triangular prism. $\blacksquare$
+$$
+P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx 0.167.
+$$
 
-## Exercise 5
+(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers from $1$ to $6$ simulating each die's number; each pair of random numbers forms a group, repeat $120$ times, and count the occurrences of sum $7$, denoted $n_A$; then the frequency is $f_{120}\left(A\right)=\frac{n_A}{120}$.
 
-(Exercise 8.1, Problem 1) Observe the objects in the figure and state their main structural features.
-
-(1) a paper cup; (2) a milk powder can; (3) a volleyball; (4) a traffic cone.
-
-> The original figure appears in the textbook, Compulsory Course Book 2, printed page 104 ($PDF$ page 110). It is a photograph and cannot be redrawn in R.
-
-### Solution to Exercise 5
-
-Judge by **Definition 8.1.13 (Frustum of a Cone)**, **Definition 8.1.11 (Cylinder)**, **Definition 8.1.14 (Sphere)**, and **Definition 8.1.12 (Cone)**.
-
-(1) A paper cup is wider at the opening than at the base; its upper and lower bases are circular surfaces of different radii and its lateral surface is curved, so it is a frustum of a cone.
-
-(2) The upper and lower bases of a milk powder can are congruent circular surfaces and its lateral surface is a curved surface perpendicular to the bases, so it is a cylinder.
-
-(3) The surface of a volleyball is a spherical surface, so the whole object is a sphere.
-
-(4) The base of a traffic cone is a circular surface and its lateral surface is a curved surface converging to a point, so it is a cone. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 8.1, Problem 2) State the main structural features of the objects in the figure.
-
-(1) a granary; (2) a nut.
-
-> The original figure appears in the textbook, Compulsory Course Book 2, printed page 104 ($PDF$ page 110). It is a photograph and cannot be redrawn in R.
-
-### Solution to Exercise 6
-
-By **Definition 8.1.16 (Simple Composite Solids)**, real objects can be made by joining simple solids or by hollowing out a part of one.
-
-(1) The lower part of a granary is a cylinder and the top is a cone, joined together with their bases coinciding; it is a composite of a cylinder and a cone.
-
-(2) The outer shape of a nut is a regular hexagonal prism, and a cylindrical hole is hollowed out along the axial direction in the middle; it is a composite obtained by hollowing a cylinder out of a regular hexagonal prism. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 8.1, Problem 3) As shown in the figure, taking the line on which side $AB$ of triangle $ABC$ lies as the axis, the surfaces swept by the other two sides rotating through one full turn bound a geometric solid. State the structural features of this solid.
-
-The figure: a right triangle $ABC$ with the leg $AB$ horizontal (as the axis of rotation), the leg $BC$ perpendicular to $AB$, and the hypotenuse $AC$ joining $A$ and $C$.
-
-### Solution to Exercise 7
-
-By **Definition 8.1.3 (Solids of Revolution)** and **Definition 8.1.12 (Cone)**, a plane figure rotating one full turn about an axis bounds a solid of revolution.
-
-In triangle $ABC$, $AB$ is the axis of rotation, $BC$ is perpendicular to $AB$, and $AC$ is the hypotenuse. Rotating about the line on which $AB$ lies, the side $BC$ perpendicular to the axis sweeps out a circular surface, and the hypotenuse $AC$ sweeps out a curved surface. Hence the bounded solid is a cone, formed by rotating the right triangle $ABC$ about the leg $AB$; $AB$ is the axis, the circular surface swept by $BC$ is the base, and the curved surface swept by $AC$ is the lateral surface. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 8.1, Problem 4) Observe the objects around us and state the main structural features of the geometric solids they represent.
-
-### Solution to Exercise 8
-
-By **Definition 8.1.16 (Simple Composite Solids)**, the objects around us are mostly combinations of simple solids.
-
-For example: a book approximates a rectangular box, i.e. a right quadrangular prism; a soda can approximates a cylinder; a basketball is a sphere; a pyramid approximates a quadrangular pyramid; a tent approximates a triangular prism; a glass, if wider at the opening than at the base, approximates a frustum of a cone. Each of them is either a single prism-like, pyramid-like, frustum-like, or spherical solid, or a composite formed by joining or hollowing out parts of these simple solids. $\blacksquare$
+(3) By **Definition 10.3.1 (Stability of Frequency)**, with $120$ trials there may be some difference between the frequency and the probability, because frequency is random. But as the number of trials increases, the frequency gradually stabilizes around the probability $\frac{1}{6}$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 8.1, Review and Consolidation, Problem 1) As shown in the figure, in the rectangular box $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, point out the edges and faces passing through vertex $D$.
+(Exercise 10.3, Review and Consolidation, Problem 1) In an experiment, a serum was injected into $500$ guinea pigs. Before injection, $150$ of these guinea pigs had circular cells, $250$ had elliptical cells, and $100$ had irregularly shaped cells; after injection, none of the circular-cell guinea pigs were infected, $50$ of the elliptical-cell guinea pigs were infected, and all of the irregular-cell guinea pigs were infected. Based on the experimental results, estimate the probability that a guinea pig of each of the following cell types is infected by this serum:
 
-The figure: an oblique drawing of a rectangular prism $ABCD\text{-}A_1B_1C_1D_1$, with the lower base a rectangle $ABCD$, the upper base a rectangle $A_1B_1C_1D_1$, and the lateral edges $AA_1,BB_1,CC_1,DD_1$ perpendicular to the bases.
+(1) circular cells;
+
+(2) elliptical cells;
+
+(3) irregularly shaped cells.
 
 ### Solution to Problem 1
 
-By **Definition 8.1.2 (Polyhedron)**, an edge is the common side of two faces, and a vertex is the common point of two edges.
+By **Definition 10.3.1 (Stability of Frequency)**, use the infection frequency to estimate the infection probability.
 
-In the rectangular box $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, there are three edges passing through vertex $D$: $DA$, $DC$, $DD_{1}$. There are three faces passing through vertex $D$: the base $ABCD$, the lateral face $ADD_{1}A_{1}$, and the lateral face $CDD_{1}C_{1}$. $\blacksquare$
+(1) There are $150$ circular-cell guinea pigs, of which $0$ were infected; the infection frequency is $\frac{0}{150}=0$, so the estimated infection probability is $0$.
+
+(2) There are $250$ elliptical-cell guinea pigs, of which $50$ were infected; the infection frequency is $\frac{50}{250}=0.2$, so the estimated infection probability is $0.2$.
+
+(3) There are $100$ irregular-cell guinea pigs, all of which were infected; the infection frequency is $\frac{100}{100}=1$, so the estimated infection probability is $1$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 8.1, Review and Consolidation, Problem 2) As shown in the figure, among the following solids, those that are prisms are $\;\_\_\;$ (fill in the numbers).
+(Exercise 10.3, Review and Consolidation, Problem 2) A wooden tetrahedron has its four faces marked $1, 2, 3, 4$ respectively. The tetrahedron is tossed $100$ times, and the number of times each face lands on the table is recorded (as in the table below). If it is tossed once more, estimate the probability that the face marked $3$ lands on the table.
 
-(1) an oblique parallelepiped; (2) a triangular prism; (3) an upright rectangular box; (4) a cylinder; (5) a composite of a rectangular box below with a triangular prism on top; (6) a composite of a frustum and a pyramid; (7) a triangular pyramid.
-
-The figure: seven solids arranged side by side: (1) a slanted parallelepiped; (2) a triangular prism; (3) a vertical rectangular prism; (4) a cylinder; (5) a composite of a rectangular prism below a triangular prism; (6) a composite of a frustum and a pyramid; (7) a triangular pyramid.
+| Face of the tetrahedron | $1$ | $2$ | $3$ | $4$ |
+|---|---|---|---|---|
+| Frequency count | $22$ | $18$ | $21$ | $39$ |
 
 ### Solution to Problem 2
 
-By **Definition 8.1.4 (Prism)**, a prism must have two mutually parallel faces, with the remaining faces all quadrilaterals, and the common edges of adjacent quadrilaterals parallel to each other.
+By **Definition 10.3.1 (Stability of Frequency)**, use the frequency with which the face marked $3$ lands on the table to estimate its probability.
 
-(1) It has two parallel triangular faces and the remaining faces are parallelograms, so it is a prism; (2) it has two parallel triangular bases and rectangular lateral faces, so it is a prism; (3) a rectangular box is a quadrangular prism; (5) the lower rectangular-box part by itself is a prism. (4) A cylinder is a solid of revolution, not a polyhedron, so it is not a prism; (6) and (7) do not have the structural features of a prism. Hence the prisms are (1), (2), (3), (5). $\blacksquare$
+The frequency count of the face marked $3$ landing on the table is $21$, and the total number of trials is $100$, so the frequency is
+
+$$
+f_{100}\left(A\right)=\frac{21}{100}=0.21.
+$$
+
+Therefore, tossing it once more, the estimated probability that the face marked $3$ lands on the table is $0.21$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 8.1, Review and Consolidation, Problem 3) As shown in the figure, a car inner tube can be formed by rotating one of the following figures about an axis; that figure is ( ).
+(Exercise 10.3, Review and Consolidation, Problem 3) In English, the frequencies of different letters differ greatly, but the usage frequency of the same letter is fairly stable. Someone has tallied the usage frequencies of the $5$ vowel letters across more than $40$ ten-thousand words, with results shown in the table below:
 
-(A) a set of concentric circles about the axis; (B) two equal circles about the axis; (C) a small circle about the axis; (D) a circle about the axis.
+| Vowel letter | $A$ | $E$ | $I$ | $O$ | $U$ |
+|---|---|---|---|---|---|
+| Frequency | $7.88\%$ | $12.68\%$ | $7.07\%$ | $7.76\%$ | $2.80\%$ |
 
-> The original figure appears in the textbook, Compulsory Course Book 2, printed page 105 ($PDF$ page 111). It is a photograph and cannot be redrawn in R.
+(1) Randomly select a page from an English (novel) book and tally the frequency of vowel letters appearing on that page;
 
-The figure: four answer options, each a plane figure rotated about a vertical axis: (A) a set of concentric circles; (B) two equal circles; (C) a small circle; (D) a circle.
+(2) Compare the frequency you tally with those in the table above; are the results fairly close? What do you think is the reason for any difference.
 
 ### Solution to Problem 3
 
-By **Definition 8.1.3 (Solids of Revolution)**, an inner tube is a torus, formed by rotating a circle about an axis that lies in its plane but does not intersect it.
+(1) Randomly select a page from an English book, tally the total number of letters $N$ on that page and the number of vowel letters ($A, E, I, O, U$) among them, denoted $n_A$; then the frequency of vowel letters on that page is $f=\frac{n_A}{N}$.
 
-(A) The center of the circle lies on the axis, so rotation cannot form a hollow ring; (B) two circles rotate to form two concentric cylindrical surfaces; (C) the center of the small circle is not on the axis, so rotation does not form a toroidal surface; (D) the center of the circle is not on the axis, and rotating the circle about the axis sweeps out a toroidal surface, exactly the inner tube. Choose (D). $\blacksquare$
+(2) By **Definition 10.3.1 (Stability of Frequency)**, letter frequencies are fairly stable under large samples; hence the single-page frequency from one's own tally is roughly close to the large-sample frequencies in the table, but because a single page has a small sample size, the frequency may fluctuate and there may be some difference. The main reason for the difference is that one's own sample size (the number of letters on one page) is far smaller than the sample size of more than $40$ ten-thousand words, so random fluctuation is large. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 8.1, Review and Consolidation, Problem 4) As shown in the figure, determine whether the following solids are frustums, and explain why.
+(Exercise 10.3, Review and Consolidation, Problem 4) The correspondence between the four human blood types and genotypes is: type $O$ has genotype $ii$, type $A$ has genotype $I^Ai$ or $I^AI^A$, type $B$ has genotype $I^Bi$ or $I^BI^B$, and type $AB$ has genotype $I^AI^B$. Here $I^A$ and $I^B$ are dominant genes and $i$ is a recessive gene. One parent is type $A$ and the other is type $B$; determine the probabilities that their children have types $O, A, B$, or $AB$, and fill in the table:
 
-(1) a frustum of a pyramid with parallel upper and lower bases; (2) a pyramid cut by a plane not parallel to the base; (3) a cone cut by a plane not parallel to the base.
-
-The figure: three solids arranged side by side: (1) a frustum (upper and lower bases parallel); (2) a pyramid cut by a plane not parallel to the base; (3) a cone cut by a plane not parallel to the base.
+| Parent genotype combination | $O$ | $A$ | $B$ | $AB$ |
+|---|---|---|---|---|
+| $I^Ai\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^Ai\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
 ### Solution to Problem 4
 
-By **Definition 8.1.10 (Frustum of a Pyramid)** and **Definition 8.1.13 (Frustum of a Cone)**, a frustum must be obtained by cutting a pyramid or cone with a plane parallel to the base, i.e. the upper and lower bases must be mutually parallel.
+By **Definition 10.1.15 (Classical Definition of Probability)**, a child's genotype is determined by inheriting one gene at random from each parent, and each inheritance combination is equally likely.
 
-(1) The upper and lower bases are mutually parallel, and the lateral edges extended meet at a point, satisfying the features of a frustum; it is a frustum.
+Parents of genotypes $I^Ai\times I^Bi$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$), $I^Ai$ (type $A$), $I^Bi$ (type $B$), $ii$ (type $O$), each with probability $\frac{1}{4}$. Hence $O: \frac{1}{4}$, $A: \frac{1}{4}$, $B: \frac{1}{4}$, $AB: \frac{1}{4}$.
 
-(2) The cross-section is not parallel to the base, so the two resulting faces are not parallel, which does not satisfy the definition of a frustum; it is not a frustum.
+Parents of genotypes $I^Ai\times I^BI^B$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother can only pass on $I^B$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Bi$ (type $B$), each with probability $\frac{1}{2}$. Hence $O: 0$, $A: 0$, $B: \frac{1}{2}$, $AB: \frac{1}{2}$.
 
-(3) The cross-section is not parallel to the base, so the two resulting faces are not parallel, which does not satisfy the definition of a frustum of a cone; it is not a frustum. $\blacksquare$
+Parents of genotypes $I^AI^A\times I^Bi$: the father can only pass on $I^A$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Ai$ (type $A$), each with probability $\frac{1}{2}$. Hence $O: 0$, $A: \frac{1}{2}$, $B: 0$, $AB: \frac{1}{2}$.
+
+Parents of genotypes $I^AI^A\times I^BI^B$: the father can only pass on $I^A$ and the mother can only pass on $I^B$. The child's genotype can only be $I^AI^B$ (type $AB$). Hence $O: 0$, $A: 0$, $B: 0$, $AB: 1$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 8.1, Review and Consolidation, Problem 5) As shown in the figure, state the structural features of the two solids.
-
-(1) a cone attached on top of a frustum of a cone; (2) a quadrangular pyramid attached on top of a rectangular box.
-
-The figure: two composite solids arranged side by side: (1) a cone on top of a frustum; (2) a square pyramid on top of a rectangular prism.
+(Exercise 10.3, Comprehensive Application, Problem 5) "Using the frequency $f_n\left(A\right)$ of event $A$ to estimate the probability $P\left(A\right)$, the larger the number $n$ of repeated trials, the more precise the estimate." Determine whether this statement is correct, and give an example.
 
 ### Solution to Problem 5
 
-By **Definition 8.1.16 (Simple Composite Solids)**, a composite solid is formed by joining simple solids together.
+By **Definition 10.3.1 (Stability of Frequency)**, frequency is random; as the number of trials increases, the amount by which the frequency deviates from the probability shrinks overall, but this does not mean that a larger $n$ necessarily makes the frequency closer to the probability.
 
-(1) The upper part is a cone and the lower part is a frustum of a cone, joined with the base of the cone coinciding with the upper base of the frustum.
-
-(2) The lower part is a rectangular box (quadrangular prism) and the upper part is a quadrangular pyramid, joined with the base of the pyramid coinciding with the upper base of the box. $\blacksquare$
+The statement is not entirely correct. Although in general the more trials the more the frequency stabilizes around the probability, the randomness of frequency means that the frequency at a larger $n$ may still be farther from the probability than at a smaller $n$. For example, tossing a coin, the probability is $0.5$; in one run of $100$ trials, heads appears $55$ times, giving a frequency of $0.55$; in another run of $1000$ trials, heads appears $520$ times, giving a frequency of $0.52$. The latter is closer to $0.5$. But it is also possible that $100$ trials give a frequency of $0.50$ while $1000$ trials give $0.53$. Therefore, "the larger $n$ the more precise the estimate" is only an overall trend, not a guaranteed outcome. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 8.1, Comprehensive Application, Problem 6) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 10.3, Comprehensive Application, Problem 6) Put $6$ white balls and $4$ red balls in a bag, shake well, and draw balls $3$ times at random, using both with-replacement and without-replacement methods. Let event $A_i=$ "the $i$-th draw is red", $i=1, 2, 3$.
 
-(1) A prism has at least $5$ faces.
+(1) Under the two drawing methods, conjecture the relative sizes of the probabilities of events $A_1, A_2, A_3$;
 
-(2) In a parallelepiped, two opposite faces are congruent parallelograms.
+(2) Repeat $10$ trials, find the frequencies of events $A_1, A_2, A_3$ occurring, and fill in the table.
 
-(3) A pyramid with one face a parallelogram must be a quadrangular pyramid.
+| Frequency | With replacement | Without replacement |
+|---|---|---|
+| $f_{10}\left(A_1\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $f_{10}\left(A_2\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $f_{10}\left(A_3\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
-(4) The lateral faces of a regular pyramid are congruent isosceles triangles.
+(3) Under the two drawing methods, is there a large difference in the frequency $f_{10}\left(A_3\right)$ of the $3$rd draw being red? Under without-replacement drawing, is there a large difference among the frequencies of events $A_1, A_2, A_3$? Explain why.
 
 ### Solution to Problem 6
 
-Judge by **Definition 8.1.4 (Prism)**, **Definition 8.1.7 (Parallelepiped)**, **Definition 8.1.8 (Pyramid)**, and **Definition 8.1.9 (Regular Pyramid)**.
+(1) With replacement: the composition of balls in the bag is unchanged each draw ($6$ white, $4$ red), so the probability of drawing red each time is $\frac{4}{10}=0.4$, i.e. $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
 
-(1) The simplest prism is a triangular prism, with two triangular bases and three lateral faces, totaling $5$ faces, so a prism has at least $5$ faces. True.
+Without replacement: the number of balls in the bag decreases after each draw, and the probability of drawing red changes with the number of draws. The probability that the first draw is red is $\frac{4}{10}=0.4$; if the first draw is red, the probability that the second draw is red is $\frac{3}{9}=\frac{1}{3}$, and if the first draw is white, the probability that the second draw is red is $\frac{4}{9}$. By the law of total probability, the probability that the second draw is red is still $\frac{4}{10}=0.4$, and the third is the same. Hence under both methods $P\left(A_1\right)=P\left(A_2\right)=P\left(A_3\right)=0.4$.
 
-(2) The bases of a parallelepiped are parallelograms; by the properties of a prism, two opposite faces are mutually parallel and congruent, and are parallelograms. True.
+(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers from $1$ to $10$; $1$ to $4$ represent red balls and $5$ to $10$ represent white balls. With replacement, each draw generates an independent random number; without replacement, each group of $3$ random numbers has no repeats. Repeat $10$ times and tally the frequencies of drawing red each time. The frequencies differ due to randomness, but should be around $0.4$.
 
-(3) A pyramid is named by the number of sides of its base polygon; if the base is a parallelogram (a quadrilateral), it is a quadrangular pyramid. Since only one face of a pyramid is the base and the other faces are triangles, having one face a parallelogram means the base is a quadrilateral, so it must be a quadrangular pyramid. True.
+(3) By **Definition 10.3.1 (Stability of Frequency)**, under both with-replacement and without-replacement methods, the frequency of the $3$rd draw being red should be around $0.4$, with little difference. Under without-replacement drawing, the frequencies of $A_1, A_2, A_3$ should also all be around $0.4$, with little difference. The reason is that theoretically the probability of drawing red each time is $0.4$, and the frequencies fluctuate due to randomness but overall stabilize around $0.4$. $\blacksquare$
 
-(4) By **Definition 8.1.9 (Regular Pyramid)**, the base is a regular polygon and the projection of the vertex onto the base is the center of the base; hence the lateral edges are equal and the lateral faces are congruent isosceles triangles. True. $\blacksquare$
+## Reading and Thinking 1
+
+(Reading and Thinking: Mendel's Laws of Inheritance) The Austrian geneticist Mendel conducted a large number of pea hybridization experiments over the $8$ years from $1858$ to $1865$. He crossed peas with yellow cotyledons and peas with green cotyledons; in the first year, all the harvested peas had yellow cotyledons. In the second year, when he planted the yellow-cotyledon peas harvested in the first year, the harvested peas had both yellow and green cotyledons. The specific experimental data are: $6022$ yellow cotyledon peas and $2001$ green cotyledon peas, a ratio of about $3.01: 1$. In Mendel's pea experiments, let $A=$ "a pea chosen at random from the second generation has green cotyledons"; then $A$ is a random event. Mendel's experiment (with $8023$ trials) showed that the frequency of event $A$ occurring is about $0.2494$. Questions:
+
+(1) On what basis did Mendel conjecture that the probability of event $A$ occurring is $0.25$, thereby constructing a probabilistic model of the inheritance mechanism?
+
+(2) If for some random phenomenon we first propose a theoretical probability model, how can we verify the correctness of the model?
+
+### Solution to Reading and Thinking 1
+
+(1) By **Definition 10.3.1 (Stability of Frequency)**, Mendel observed that in a large number of repeated trials, the frequency of green-cotyledon peas appearing in the second generation stabilized around $0.25$ ($0.2494$ is very close to $0.25$). Meanwhile, from the analysis of the inheritance mechanism, the first-generation hereditary factors are $Dd$, and the second generation inherits one factor at random from each parent; the genotypes are the four equally likely combinations $DD, Dd, dD, dd$, of which only $dd$ appears green, accounting for $\frac{1}{4}=0.25$. The stability of the frequency matches the probabilistic inference of the inheritance mechanism, so Mendel conjectured $P\left(A\right)=0.25$.
+
+(2) By **Definition 10.3.1 (Stability of Frequency)**, the way to verify a theoretical probability model is: conduct a large number of repeated trials, compute the frequency of the random event occurring, and observe whether the frequency stabilizes around the probability given by the theoretical model. If in a large number of trials the frequency of the event occurring is close to the theoretical probability, then the model can be considered fairly reliable; if the frequency differs greatly from the theoretical probability, then the model may be incorrect and needs revision. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 8.1, Comprehensive Application, Problem 7) As shown in the figure, the rectangular box on the right that is bounded by the plane figure on the left is ( ).
+(Review Reference Problem 6, Review and Consolidation, Problem 1) Determine whether the following propositions are correct (mark a "$\surd$" in the parentheses for correct ones and a "$\times$" for wrong ones).
 
-(In the net, the middle rectangle has a rectangle attached above and below, and a small square attached on the left and right; the shaded faces are the middle rectangle, the lower rectangle, and the two small squares on the left and right.)
+(1) $\boldsymbol{AB}+\boldsymbol{BA}=\boldsymbol{0}$. ()
 
-The figure: a net of a rectangular prism—a central rectangle as a lateral face, with a rectangle attached above and below (the lower rectangle shaded), and a small square attached to each side (both shaded).
+(2) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$. ()
+
+(3) $\boldsymbol{AB}-\boldsymbol{AC}=\boldsymbol{BC}$. ()
+
+(4) $0\boldsymbol{AB}=\boldsymbol{0}$. ()
 
 ### Solution to Problem 7
 
-By **Definition 8.1.4 (Prism)**, after the net is folded, the adjacent shaded faces should be pairwise adjacent in the box.
+By **Definition 6.2.4 (Opposite Vectors)** and **Definition 6.2.5 (Vector Subtraction)**.
 
-In the net, the middle long rectangle is a lateral face, the rectangle above it is its opposite face, the rectangle below it is shaded and adjacent to the middle rectangle, and the two shaded small squares lie on the two sides of the middle rectangle. After folding into a box, the shaded upper and lower faces are adjacent to one lateral face, while the opposite face is unshaded. The option satisfying this adjacency is (B), i.e. the shaded faces are the top face and one lateral face adjacent to the top. $\blacksquare$
+(1) Correct. $\boldsymbol{BA}=-\boldsymbol{AB}$, $\boldsymbol{AB}+\boldsymbol{BA}=\boldsymbol{0}$.
+
+(2) Correct. The triangle rule.
+
+(3) Wrong. $\boldsymbol{AB}-\boldsymbol{AC}=\boldsymbol{CB}$.
+
+(4) Correct. Scalar multiplication $0\boldsymbol{AB}=\boldsymbol{0}$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 8.1, Comprehensive Application, Problem 8) As shown in the figure, the rectangular box $ABCD\text{-}A'B'C'D'$ is cut by a plane into two solids, where $EH\parallel B'C'\parallel FG$. Please give the names of these two solids.
+(Review Reference Problem 6, Review and Consolidation, Problem 2) Multiple choice.
 
-The figure: a rectangular prism $ABCD\text{-}A'B'C'D'$ cut by a plane, with the cross-section $EFGH$ parallel to the side face $BCC'B'$, where $EH\parallel B'C'\parallel FG$, dividing the prism into two parts.
+(1) If $\boldsymbol{a}$ and $\boldsymbol{b}$ are two unit vectors, then which of the following four conclusions is correct? ().
+
+(A) $\boldsymbol{a}=\boldsymbol{b}$ (B) $\boldsymbol{a}\cdot\boldsymbol{b}=1$
+
+(C) $\boldsymbol{a}^2\neq\boldsymbol{b}^2$ (D) $\boldsymbol{a}^2=\boldsymbol{b}^2$
+
+(2) For any two vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, which of the following propositions is correct? ().
+
+(A) If $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert\boldsymbol{a}\rvert> \lvert\boldsymbol{b}\rvert$, and $\boldsymbol{a}$ and $\boldsymbol{b}$ are in the same direction, then $\boldsymbol{a}> \boldsymbol{b}$
+
+(B) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$
+
+(C) $\boldsymbol{a}\cdot\boldsymbol{b}\ge\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$
+
+(D) $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert$
+
+(3) In quadrilateral $ABCD$, if $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$, then ().
+
+(A) $ABCD$ is a rectangle (B) $ABCD$ is a rhombus
+
+(C) $ABCD$ is a square (D) $ABCD$ is a parallelogram
+
+(4) Let $\boldsymbol{a}$ be a nonzero vector and $\lambda$ a nonzero real number; which conclusion is correct? ().
+
+(A) $\boldsymbol{a}$ and $-\lambda\boldsymbol{a}$ have opposite directions (B) $\lvert-\lambda\boldsymbol{a}\rvert\ge\lvert\boldsymbol{a}\rvert$
+
+(C) $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction (D) $\lvert-\lambda\boldsymbol{a}\rvert=\lambda\lvert\boldsymbol{a}\rvert$
+
+(5) Let $M$ be the intersection of the diagonals of $\square ABCD$, and $O$ any point; then $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}+\boldsymbol{OD}=$ ().
+
+(A) $\boldsymbol{OM}$ (B) $2\boldsymbol{OM}$ (C) $3\boldsymbol{OM}$ (D) $4\boldsymbol{OM}$
+
+(6) Which of the following groups of vectors can serve as a basis? ().
+
+(A) $\boldsymbol{e}_1=\left(0,0\right)$, $\boldsymbol{e}_2=\left(1,-2\right)$ (B) $\boldsymbol{e}_1=\left(-1,2\right)$, $\boldsymbol{e}_2=\left(5,7\right)$
+
+(C) $\boldsymbol{e}_1=\left(3,5\right)$, $\boldsymbol{e}_2=\left(6,10\right)$ (D) $\boldsymbol{e}_1=\left(2,-3\right)$, $\boldsymbol{e}_2=\left(\frac{1}{2},-\frac{3}{4}\right)$
 
 ### Solution to Problem 8
 
-By **Definition 8.1.4 (Prism)**, a polyhedron with two mutually parallel faces, the remaining faces all quadrilaterals, and the common edges of adjacent quadrilaterals parallel, is a prism.
+(1) By **Common Result 6.2.13**, $\boldsymbol{a}^2=\lvert\boldsymbol{a}\rvert^2=1=\boldsymbol{b}^2$. Choose (D).
 
-Because $EH\parallel B'C'\parallel FG$, the cross-section $EFGH$ is parallel to the lateral face $BCC'B'$ of the box. The cross-section cuts the box into two parts, each of which has two mutually parallel faces (the cross-section and the opposite lateral face of the box), with the other faces all quadrilaterals and the common edges of adjacent quadrilaterals parallel. Hence both resulting solids are prisms: the side containing vertex $A$ is a quadrangular prism, and the side containing vertex $B'$ is also a quadrangular prism. $\blacksquare$
+(2) By **Common Result 6.2.3**, the triangle inequality $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. Choose (B).
+
+(3) By **Definition 6.1.7 (Equal Vectors)**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ shows that $ABCD$ is a parallelogram. Choose (D).
+
+(4) By **Definition 6.2.6 (Scalar Multiplication)**, $\lambda^2> 0$, so $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction. Choose (C).
+
+(5) $M$ is the midpoint of the diagonals, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, and the sum is $4\boldsymbol{OM}$. Choose (D).
+
+(6) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, a basis requires non-collinear vectors. In (B), $\left(-1\right)\times7-2\times5=-17\neq0$, so they are non-collinear. Choose (B). $\blacksquare$
 
 ## Problem 9
 
-(Exercise 8.1, Comprehensive Application, Problem 9) As shown in the figure, taking the line on which side $AB$ of $\square ABCD$ lies as the axis, the surfaces swept by the other three sides rotating through one full turn bound a geometric solid. Draw the figure of this solid, and state the simple solids it contains and the relevant structural features.
-
-The figure: a parallelogram $ABCD$ with side $AB$ horizontal (as the axis of rotation), $CD\parallel AB$, and $AD$ and $BC$ as the two slanted sides; perpendiculars are dropped from $D$ and $C$ to $AB$, with feet $E$ and $F$.
+(Review Reference Problem 6, Review and Consolidation, Problem 3) Given that the hexagon $ABCDEF$ is regular, and $\boldsymbol{AC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, express $\boldsymbol{DE}$, $\boldsymbol{AD}$, $\boldsymbol{BC}$, $\boldsymbol{EF}$, $\boldsymbol{FA}$, $\boldsymbol{AB}$, $\boldsymbol{CE}$ in terms of $\boldsymbol{a}$ and $\boldsymbol{b}$ respectively.
 
 ### Solution to Problem 9
 
-By **Definition 8.1.3 (Solids of Revolution)** and **Definition 8.1.16 (Simple Composite Solids)**, a parallelogram rotating one full turn about one of its sides forms a solid of revolution.
+By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)** and **Definition 6.1.7 (Equal Vectors)**.
 
-In parallelogram $ABCD$, let $AB$ be the axis of rotation, $CD\parallel AB$, and $AD$ and $BC$ the two side edges. Drop perpendiculars from $D$ and $C$ to $AB$, with feet $E$ and $F$. After one full turn, $DE$ and $CF$ sweep out circular surfaces, while the side $AD$ on which $AE$ lies, together with $BC$, sweeps out a curved surface.
+Let the center of the regular hexagon be $O$. By geometric relations:
 
-The bounded solid is a cylinder (formed by rotating the rectangle $DEFC$ about $EF$) with two congruent cones (formed by rotating the right triangles $ADE$ and $BCF$) either hollowed out or added. Since $AD$ and $BC$ are the sides slanting outward from the axis $AB$, this solid is a composite of a cylinder with one cone attached to (or hollowed out of) each end, i.e. a composite of one cylinder and two cones. $\blacksquare$
+$\boldsymbol{AC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$.
+
+$\boldsymbol{AD}=\boldsymbol{AC}+\boldsymbol{CD}$. By the symmetry of the regular hexagon, deriving step by step:
+
+$\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{AD}=\boldsymbol{a}-\boldsymbol{b}$; $\boldsymbol{BC}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{EF}=-\boldsymbol{BC}$; $\boldsymbol{FA}=-\boldsymbol{DE}$; $\boldsymbol{AB}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{CE}=\boldsymbol{CD}+\boldsymbol{DE}$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 8.1, Extension and Exploration, Problem 10) Are the following statements correct? If correct, explain why; if incorrect, give a counterexample.
+(Review Reference Problem 6, Review and Consolidation, Problem 4) Given a plane rectangular coordinate system with $O$ as the origin, $A\left(-3,-4\right)$, $B\left(5,-12\right)$.
 
-(1) A polyhedron with two parallel faces and all other faces parallelograms is a prism;
+(1) Find the coordinates of $\boldsymbol{AB}$ and the value of $\lvert\boldsymbol{AB}\rvert$;
 
-(2) A polyhedron with two parallel and similar faces and all other faces trapezoids is a frustum of a pyramid.
+(2) If $\boldsymbol{OC}=\boldsymbol{OA}+\boldsymbol{OB}$, $\boldsymbol{OD}=\boldsymbol{OA}-\boldsymbol{OB}$, find the coordinates of $\boldsymbol{OC}$ and $\boldsymbol{OD}$;
+
+(3) Find the value of $\boldsymbol{OA}\cdot\boldsymbol{OB}$.
 
 ### Solution to Problem 10
 
-Judge by **Definition 8.1.4 (Prism)** and **Definition 8.1.10 (Frustum of a Pyramid)**.
+By **Common Result 6.3.4** and **Common Result 6.3.7**.
 
-(1) The statement is false. Counterexample: take two oblique prisms with congruent bases and stack them aligned so that the lateral faces are staggered; one obtains a polyhedron with two parallel faces and the rest parallelograms, but the common edges of adjacent quadrilaterals are not all parallel, so it is not a prism. The key point is that a prism also requires the common edges of adjacent lateral faces to be parallel.
+(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
 
-(2) The statement is false. Counterexample: take two similar parallelogram faces placed in parallel, with the other faces trapezoids, but the lateral edges when extended do not meet at a single point; such a polyhedron is not obtained by cutting a pyramid with a plane parallel to the base, so it is not a frustum. The key point is that a frustum requires the lateral edges to meet at a point when extended. $\blacksquare$
+(2) $\boldsymbol{OC}=\left(-3+5,-4-12\right)=\left(2,-16\right)$. $\boldsymbol{OD}=\left(-3-5,-4-\left(-12\right)\right)=\left(-8,8\right)$.
+
+(3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=\left(-3\right)\times5+\left(-4\right)\times\left(-12\right)=-15+48=33$. $\blacksquare$
+
+## Problem 11
+
+(Review Reference Problem 6, Review and Consolidation, Problem 5) Given points $A\left(1,1\right)$, $B\left(-1,0\right)$, $C\left(0,1\right)$. If $\boldsymbol{AB}=\boldsymbol{CD}$, what are the coordinates of point $D$?
+
+### Solution to Problem 11
+
+By **Common Result 6.3.4** and **Definition 6.1.7 (Equal Vectors)**.
+
+$\boldsymbol{AB}=\left(-1-1,0-1\right)=\left(-2,-1\right)$.
+
+Let $D\left(x,y\right)$, $\boldsymbol{CD}=\left(x-0,y-1\right)=\left(x,y-1\right)$.
+
+$x=-2$, $y-1=-1$, $y=0$. $D\left(-2,0\right)$. $\blacksquare$
+
+## Problem 12
+
+(Review Reference Problem 6, Review and Consolidation, Problem 6) Given vectors $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$, $\boldsymbol{c}=\left(-1,0\right)$, find the values of $\lambda$ and $\mu$ satisfying $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$.
+
+### Solution to Problem 12
+
+By **Common Result 6.3.4** (Coordinate Operations).
+
+$\left(-1,0\right)=\lambda\left(1,0\right)+\mu\left(1,1\right)=\left(\lambda+\mu,\mu\right)$.
+
+$\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
+
+## Problem 13
+
+(Review Reference Problem 6, Review and Consolidation, Problem 7) Given that the vertices of $\triangle ABC$ have coordinates $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, find the values of $\cos A$, $\cos B$, $\cos C$.
+
+### Solution to Problem 13
+
+By **Common Result 6.3.8** (Angle).
+
+$\boldsymbol{AB}=\left(3,0\right)$, $\boldsymbol{AC}=\left(3,4\right)$, $\boldsymbol{BC}=\left(0,4\right)$.
+
+$\cos A=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
+
+$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
+
+$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
+
+## Problem 14
+
+(Review Reference Problem 6, Review and Consolidation, Problem 8) Given vectors $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$. For what value of $\lambda$ is $\boldsymbol{a}+\lambda\boldsymbol{b}$ perpendicular to $\boldsymbol{a}$?
+
+### Solution to Problem 14
+
+By **Common Result 6.3.8** (Perpendicularity).
+
+$\boldsymbol{a}+\lambda\boldsymbol{b}=\left(1+\lambda,\lambda\right)$.
+
+Perpendicular to $\boldsymbol{a}=\left(1,0\right)$: $\left(1+\lambda\right)\times1+\lambda\times0=0$.
+
+$1+\lambda=0$. $\lambda=-1$. $\blacksquare$
+
+## Problem 15
+
+(Review Reference Problem 6, Review and Consolidation, Problem 9) Given that the angle between vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ is $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt 3$, $\lvert\boldsymbol{b}\rvert=2$, find the values of $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$ and $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$.
+
+### Solution to Problem 15
+
+By **Definition 6.2.11 (Dot Product)** and **Common Result 6.2.13**.
+
+$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt 3\times2\times\cos30^{\circ}=2\sqrt 3\times\frac{\sqrt 3}{2}=3$.
+
+$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3+6+4=13$. $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{13}$.
+
+$\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3-6+4=1$. $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert=1$. $\blacksquare$

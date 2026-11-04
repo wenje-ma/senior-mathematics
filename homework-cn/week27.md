@@ -1,208 +1,515 @@
 # week27
-> **定理 2.2.1 (基本不等式)**
+> **定义 7.1.1 (虚数单位)**
 > 
-> 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+> 我们引入一个新数 $\mathrm{i}$, 使 $\mathrm{i}^2=-1$, $\mathrm{i}$ 叫做虚数单位.
+> **定义 7.1.4 (实部与虚部)**
+> 
+> 复数 z = a + bi (a, b 为实数) 中, a 叫做实部, b 叫做虚部.
+> **定义 7.1.5 (复数相等)**
+> 
+> 两个复数相等当且仅当它们的实部和虚部分别相等.
+> **定义 7.1.6 (实数, 虚数, 纯虚数)**
+> 
+> 当 b = 0 时, 复数 a + bi 为实数; 当 b != 0 时, 叫做虚数; 当 a = 0 且 b != 0 时, 叫做纯虚数.
+> **定义 7.1.7 (复平面)**
+> 
+> 建立直角坐标系表示复数的平面叫做复平面, x 轴叫做实轴, y 轴叫做虚轴.
+> **定义 7.1.8 (复数的几何意义)**
+> 
+> 复数 z = a + bi 与复平面内的点 Z(a, b) 一一对应, 也与向量 OZ = (a, b) 一一对应.
+> **定义 7.1.9 (复数的模)**
+> 
+> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
+> **定义 7.2.1 (复数加法法则)**
+> 
+> (a + bi) + (c + di) = (a + c) + (b + d)i.
+> **定义 7.2.2 (复数减法法则)**
+> 
+> (a + bi) - (c + di) = (a - c) + (b - d)i.
+> **定义 7.2.5 (复数乘法法则)**
+> 
+> (a + bi)(c + di) = (ac - bd) + (ad + bc)i.
+> **定义 7.2.7 (复数除法法则)**
+> 
+> (a + bi)/(c + di) = [(ac + bd) + (bc - ad)i]/(c^2 + d^2) (c + di != 0).
+> **定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**
+> 
+> 实系数方程 ax^2 + bx + c = 0 在复数范围内的根为 x = [-b +/- sqrt(b^2 - 4ac)]/(2a), 当判别式小于 0 时根为共轭复数.
 
 ## 习题一
 
-(复习参考题2 复习巩固第 1 题) 某夏令营有 $48$ 人, 出发前要从 $A$, $B$ 两种型号的帐篷中选择一种. $A$ 型号的帐篷比 $B$ 型号的少 $5$ 顶. 若只选 $A$ 型号的, 每顶帐篷住 $4$ 人, 则帐篷不够; 每顶帐篷住 $5$ 人, 则有一顶帐篷没有住满. 若只选 $B$ 型号的, 每顶帐篷住 $3$ 人, 则帐篷不够; 每顶帐篷住 $4$ 人, 则有帐篷多余. 设 $A$ 型号的帐篷有 $x$ 顶, 用不等式将题目中的不等关系表示出来.
+(习题 7.1 综合运用第 8 题) 设 $z\in\mathbb C$, 在复平面内 $z$ 对应的点为 $Z$, 那么满足下列条件的点 $Z$ 的集合是什么图形?
+
+(1) $\lvert z\rvert=3$;
+
+(2) $2\le \lvert z\rvert< 5$.
 
 ### 解答 习题一
 
-由**基本事实 2.1.1** (实数大小关系), $B$ 型号帐篷为 $x+5$ 顶, 逐句把限制写成不等式.
+由**定义 7.1.9 (复数的模)**, $\lvert z\rvert$ 即向量 $\boldsymbol{OZ}$ 的长度, 也就是点 $Z$ 到原点 $O$ 的距离.
 
-只选 $A$ 型号: 每顶住 $4$ 人不够, 即 $4x< 48$; 每顶住 $5$ 人有一顶没住满, 即 $5x> 48$ 且其余帐篷都住满, $5\left(x-1\right)< 48$.
+(1) $\lvert z\rvert=3$ 即点 $Z$ 到原点 $O$ 的距离恒为 $3$. 由平面几何, 点 $Z$ 的集合是以原点 $O$ 为圆心, 以 $3$ 为半径的圆.
 
-只选 $B$ 型号: 每顶住 $3$ 人不够, 即 $3\left(x+5\right)< 48$; 每顶住 $4$ 人有多余, 即 $4\left(x+5\right)> 48$.
+(2) $\lvert z\rvert< 5$ 表示点 $Z$ 到原点的距离小于 $5$, 即以 $O$ 为圆心, 以 $5$ 为半径的圆的内部; $\lvert z\rvert\ge 2$ 表示点 $Z$ 到原点的距离不小于 $2$, 即以 $O$ 为圆心, 以 $2$ 为半径的圆的外部 (含圆周). 两者交集为: 以 $O$ 为圆心, 以 $2$ 及 $5$ 为半径的两个圆所夹的圆环, 其中内圆周 ( $\lvert z\rvert=2$ ) 包含在内, 外圆周 ( $\lvert z\rvert=5$ ) 不包含在内. $\blacksquare$
 
-故所求不等式组为
+## 习题二
+
+(习题 7.1 综合运用第 9 题) 如果复数 $z$ 的实部为正数, 虚部为 $3$, 那么在复平面内, 复数 $z$ 对应的点应位于怎样的图形上?
+
+### 解答 习题二
+
+由**定义 7.1.8 (复数的几何意义)**, 复数 $z=a+b\mathrm{i}$ 对应点 $Z\left(a,b\right)$. 已知虚部 $b=3$, 实部 $a> 0$, 故点 $Z$ 的纵坐标恒为 $3$, 横坐标为正.
+
+因此, 点 $Z$ 的集合是直线 $y=3$ 上位于第一象限的部分, 即射线 $y=3\ \left(x> 0\right)$, 不含端点 $\left(0,3\right)$. $\blacksquare$
+
+## 习题三
+
+(习题 7.1 拓广探索第 10 题) 已知复数 $z$ 的虚部为 $\sqrt{3}$, 在复平面内复数 $z$ 对应的向量的模为 $2$, 求这个复数 $z$.
+
+### 解答 习题三
+
+设 $z=a+\sqrt{3}\mathrm{i}\ \left(a\in\mathbb R\right)$. 由**定义 7.1.9 (复数的模)**, $\lvert z\rvert=\sqrt{a^2+\left(\sqrt{3}\right)^2}=\sqrt{a^2+3}$. 由已知 $\lvert z\rvert=2$, 得
 
 $$
-\left\{\begin{array}{l}4x< 48,\\5x> 48,\\5\left(x-1\right)< 48,\\3\left(x+5\right)< 48,\\4\left(x+5\right)> 48.\end{array}\right.
+\sqrt{a^2+3}=2.
+$$
+
+两边平方, 得 $a^2+3=4$, 即 $a^2=1$, 故 $a=\pm 1$. 因此 $z=1+\sqrt{3}\mathrm{i}$ 或 $z=-1+\sqrt{3}\mathrm{i}$. $\blacksquare$
+
+## 习题四
+
+(习题 7.1 拓广探索第 11 题) 在复平面内指出与复数 $z_1=1+2\mathrm{i}$, $z_2=\sqrt{2}+\sqrt{3}\mathrm{i}$, $z_3=\sqrt{3}-\sqrt{2}\mathrm{i}$, $z_4=-2+\mathrm{i}$ 对应的点 $Z_1,Z_2,Z_3,Z_4$. 判断这 $4$ 个点是否在同一个圆上, 并证明你的结论.
+
+### 解答 习题四
+
+由**定义 7.1.8 (复数的几何意义)**, 四点坐标分别为 $Z_1\left(1,2\right)$, $Z_2\left(\sqrt{2},\sqrt{3}\right)$, $Z_3\left(\sqrt{3},-\sqrt{2}\right)$, $Z_4\left(-2,1\right)$.
+
+由**定义 7.1.9 (复数的模)**, 计算各点到原点的距离:
+
+$$
+\lvert z_1\rvert=\sqrt{1^2+2^2}=\sqrt{5},
+$$
+
+$$
+\lvert z_2\rvert=\sqrt{\left(\sqrt{2}\right)^2+\left(\sqrt{3}\right)^2}=\sqrt{2+3}=\sqrt{5},
+$$
+
+$$
+\lvert z_3\rvert=\sqrt{\left(\sqrt{3}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{3+2}=\sqrt{5},
+$$
+
+$$
+\lvert z_4\rvert=\sqrt{\left(-2\right)^2+1^2}=\sqrt{5}.
+$$
+
+四点到原点 $O$ 的距离都等于 $\sqrt{5}$, 即四点都在以原点 $O$ 为圆心, 以 $\sqrt{5}$ 为半径的圆上. 故这 $4$ 个点在同一个圆上. $\blacksquare$
+
+## 练习一
+
+(练习 7.2 第 1 题) 计算:
+
+(1) $\left(2+4\mathrm{i}\right)+\left(3-4\mathrm{i}\right)$;
+
+(2) $5-\left(3+2\mathrm{i}\right)$;
+
+(3) $\left(-3-4\mathrm{i}\right)+\left(2+\mathrm{i}\right)-\left(1-5\mathrm{i}\right)$;
+
+(4) $\left(2-\mathrm{i}\right)-\left(2+3\mathrm{i}\right)+4\mathrm{i}$.
+
+### 解答 练习一
+
+由**定义 7.2.1 (复数加法法则)** 与**定义 7.2.2 (复数减法法则)**, 实部与实部相加减, 虚部与虚部相加减.
+
+(1) $\left(2+4\mathrm{i}\right)+\left(3-4\mathrm{i}\right)=\left(2+3\right)+\left(4-4\right)\mathrm{i}=5$.
+
+(2) $5-\left(3+2\mathrm{i}\right)=\left(5-3\right)+\left(0-2\right)\mathrm{i}=2-2\mathrm{i}$.
+
+(3) $\left(-3-4\mathrm{i}\right)+\left(2+\mathrm{i}\right)-\left(1-5\mathrm{i}\right)=\left(-3+2-1\right)+\left(-4+1+5\right)\mathrm{i}=-2+2\mathrm{i}$.
+
+(4) $\left(2-\mathrm{i}\right)-\left(2+3\mathrm{i}\right)+4\mathrm{i}=\left(2-2\right)+\left(-1-3+4\right)\mathrm{i}=0$. $\blacksquare$
+
+## 练习二
+
+(练习 7.2 第 2 题) 如图, 向量 $\boldsymbol{OZ}$ 对应的复数是 $z$, 分别作出下列运算的结果对应的向量:
+
+(1) $z+1$;
+
+(2) $z-\mathrm{i}$;
+
+(3) $z+\left(-2+\mathrm{i}\right)$.
+
+图:复平面直角坐标系中,从原点 $O$ 画出向量 $\boldsymbol{OZ}$ 表示复数 $z=a+b\mathrm{i}$(点 $Z\left(a,b\right)$);另画出三条平移后的向量:$z+1$ 对应 $\left(a+1,b\right)$(即 $\boldsymbol{OZ}$ 向右平移 $1$ 个单位),$z-\mathrm{i}$ 对应 $\left(a,b-1\right)$(即向下平移 $1$ 个单位),$z+\left(-2+\mathrm{i}\right)$ 对应 $\left(a-2,b+1\right)$(即向左平移 $2$ 个单位,向上平移 $1$ 个单位).
+
+### 解答 练习二
+
+由**常用结论 7.2.4** (复数加, 减法的几何意义), 复数加法对应向量加法. 设 $Z\left(a,b\right)$, 则 $z=a+b\mathrm{i}$.
+
+(1) $z+1=\left(a+1\right)+b\mathrm{i}$, 对应点为 $\left(a+1,b\right)$, 即将向量 $\boldsymbol{OZ}$ 向右平移 $1$ 个单位.
+
+(2) $z-\mathrm{i}=a+\left(b-1\right)\mathrm{i}$, 对应点为 $\left(a,b-1\right)$, 即将向量 $\boldsymbol{OZ}$ 向下平移 $1$ 个单位.
+
+(3) $z+\left(-2+\mathrm{i}\right)=\left(a-2\right)+\left(b+1\right)\mathrm{i}$, 对应点为 $\left(a-2,b+1\right)$, 即将向量 $\boldsymbol{OZ}$ 向左平移 $2$ 个单位, 向上平移 $1$ 个单位.
+
+在复平面内分别作出上述向量即可. $\blacksquare$
+
+## 练习三
+
+(练习 7.2 第 3 题) 证明复数的加法满足交换律, 结合律.
+
+### 解答 练习三
+
+设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}$, $z_3=e+f\mathrm{i}\ \left(a,b,c,d,e,f\in\mathbb R\right)$.
+
+由**定义 7.2.1 (复数加法法则)**,
+
+$$
+z_1+z_2=\left(a+c\right)+\left(b+d\right)\mathrm{i},
+$$
+
+$$
+z_2+z_1=\left(c+a\right)+\left(d+b\right)\mathrm{i}.
+$$
+
+由实数加法交换律, $a+c=c+a$, $b+d=d+b$, 故 $z_1+z_2=z_2+z_1$, 交换律成立.
+
+同理, 由**定义 7.2.1 (复数加法法则)**,
+
+$$
+\left(z_1+z_2\right)+z_3=\left[\left(a+c\right)+e\right]+\left[\left(b+d\right)+f\right]\mathrm{i},
+$$
+
+$$
+z_1+\left(z_2+z_3\right)=\left[a+\left(c+e\right)\right]+\left[b+\left(d+f\right)\right]\mathrm{i}.
+$$
+
+由实数加法结合律, $\left(a+c\right)+e=a+\left(c+e\right)$, $\left(b+d\right)+f=b+\left(d+f\right)$, 故 $\left(z_1+z_2\right)+z_3=z_1+\left(z_2+z_3\right)$, 结合律成立. $\blacksquare$
+
+## 练习四
+
+(练习 7.2 第 4 题) 求复平面内下列两个复数对应的两点之间的距离:
+
+(1) $z_1=2+\mathrm{i}$, $z_2=3-\mathrm{i}$;
+
+(2) $z_3=8+5\mathrm{i}$, $z_4=4+2\mathrm{i}$.
+
+### 解答 练习四
+
+由**常用结论 7.2.4** (复数加, 减法的几何意义), 两点之间的距离为 $\lvert z_2-z_1\rvert$.
+
+(1) $z_2-z_1=\left(3-\mathrm{i}\right)-\left(2+\mathrm{i}\right)=1-2\mathrm{i}$. 由**定义 7.1.9 (复数的模)**,
+
+$$
+\lvert z_2-z_1\rvert=\lvert1-2\mathrm{i}\rvert=\sqrt{1^2+\left(-2\right)^2}=\sqrt{5}.
+$$
+
+(2) $z_4-z_3=\left(4+2\mathrm{i}\right)-\left(8+5\mathrm{i}\right)=-4-3\mathrm{i}$. 由**定义 7.1.9 (复数的模)**,
+
+$$
+\lvert z_4-z_3\rvert=\lvert-4-3\mathrm{i}\rvert=\sqrt{\left(-4\right)^2+\left(-3\right)^2}=5.
+$$
+
+故两点间距离分别为 $\sqrt{5}$ 与 $5$. $\blacksquare$
+
+## 练习五
+
+(练习 7.2 第 1 题) 计算:
+
+(1) $\left(7-6\mathrm{i}\right)\left(-3\mathrm{i}\right)$;
+
+(2) $\left(3+4\mathrm{i}\right)\left(-2-3\mathrm{i}\right)$;
+
+(3) $\left(1+2\mathrm{i}\right)\left(3-4\mathrm{i}\right)\left(-2-\mathrm{i}\right)$.
+
+### 解答 练习五
+
+由**定义 7.2.5 (复数乘法法则)**, 类似多项式相乘, 将 $\mathrm{i}^2$ 换成 $-1$ 后合并实部与虚部.
+
+(1) $\left(7-6\mathrm{i}\right)\left(-3\mathrm{i}\right)=-21\mathrm{i}+18\mathrm{i}^2=-18-21\mathrm{i}$.
+
+(2) $\left(3+4\mathrm{i}\right)\left(-2-3\mathrm{i}\right)=-6-9\mathrm{i}-8\mathrm{i}-12\mathrm{i}^2=-6-17\mathrm{i}+12=6-17\mathrm{i}$.
+
+(3) 先算 $\left(1+2\mathrm{i}\right)\left(3-4\mathrm{i}\right)=3-4\mathrm{i}+6\mathrm{i}-8\mathrm{i}^2=11+2\mathrm{i}$. 再算 $\left(11+2\mathrm{i}\right)\left(-2-\mathrm{i}\right)=-22-11\mathrm{i}-4\mathrm{i}-2\mathrm{i}^2=-20-15\mathrm{i}$. $\blacksquare$
+
+## 练习六
+
+(练习 7.2 第 2 题) 计算:
+
+(1) $\left(\sqrt{3}+\sqrt{2}\mathrm{i}\right)\left(-\sqrt{3}+\sqrt{2}\mathrm{i}\right)$;
+
+(2) $\left(1-\mathrm{i}\right)^2$;
+
+(3) $\mathrm{i}\left(2-\mathrm{i}\right)\left(1-2\mathrm{i}\right)$.
+
+### 解答 练习六
+
+由**定义 7.2.5 (复数乘法法则)**.
+
+(1) $\left(\sqrt{3}+\sqrt{2}\mathrm{i}\right)\left(-\sqrt{3}+\sqrt{2}\mathrm{i}\right)=-3+\sqrt{6}\mathrm{i}-\sqrt{6}\mathrm{i}+2\mathrm{i}^2=-3-2=-5$.
+
+(2) $\left(1-\mathrm{i}\right)^2=1-2\mathrm{i}+\mathrm{i}^2=1-2\mathrm{i}-1=-2\mathrm{i}$.
+
+(3) 先算 $\left(2-\mathrm{i}\right)\left(1-2\mathrm{i}\right)=2-4\mathrm{i}-\mathrm{i}+2\mathrm{i}^2=-5\mathrm{i}$. 再算 $\mathrm{i}\cdot\left(-5\mathrm{i}\right)=-5\mathrm{i}^2=5$. $\blacksquare$
+
+## 练习七
+
+(练习 7.2 第 3 题) 计算:
+
+(1) $\frac{1+\mathrm{i}}{1-\mathrm{i}}$;
+
+(2) $\frac{1}{\mathrm{i}}$;
+
+(3) $\frac{7+\mathrm{i}}{3+4\mathrm{i}}$;
+
+(4) $\frac{\left(-1+\mathrm{i}\right)\left(2+\mathrm{i}\right)}{-\mathrm{i}}$.
+
+### 解答 练习七
+
+由**定义 7.2.7 (复数除法法则)**, 分子分母同乘分母的共轭复数使分母实数化.
+
+(1) $\frac{1+\mathrm{i}}{1-\mathrm{i}}=\frac{\left(1+\mathrm{i}\right)^2}{\left(1-\mathrm{i}\right)\left(1+\mathrm{i}\right)}=\frac{1+2\mathrm{i}+\mathrm{i}^2}{1-\mathrm{i}^2}=\frac{2\mathrm{i}}{2}=\mathrm{i}$.
+
+(2) $\frac{1}{\mathrm{i}}=\frac{1\cdot\left(-\mathrm{i}\right)}{\mathrm{i}\cdot\left(-\mathrm{i}\right)}=\frac{-\mathrm{i}}{1}=-\mathrm{i}$.
+
+(3) $\frac{7+\mathrm{i}}{3+4\mathrm{i}}=\frac{\left(7+\mathrm{i}\right)\left(3-4\mathrm{i}\right)}{\left(3+4\mathrm{i}\right)\left(3-4\mathrm{i}\right)}=\frac{21-28\mathrm{i}+3\mathrm{i}-4\mathrm{i}^2}{9+16}=\frac{25-25\mathrm{i}}{25}=1-\mathrm{i}$.
+
+(4) 先算分子 $\left(-1+\mathrm{i}\right)\left(2+\mathrm{i}\right)=-2-\mathrm{i}+2\mathrm{i}+\mathrm{i}^2=-3+\mathrm{i}$. 再算 $\frac{-3+\mathrm{i}}{-\mathrm{i}}=\frac{\left(-3+\mathrm{i}\right)\cdot\mathrm{i}}{\left(-\mathrm{i}\right)\cdot\mathrm{i}}=\frac{-3\mathrm{i}+\mathrm{i}^2}{1}=\frac{-1-3\mathrm{i}}{1}=-1-3\mathrm{i}$. $\blacksquare$
+
+## 练习八
+
+(练习 7.2 第 4 题) 在复数范围内解下列方程:
+
+(1) $9x^2+16=0$;
+
+(2) $x^2+x+1=0$.
+
+### 解答 练习八
+
+由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**.
+
+(1) 由 $9x^2+16=0$, 得 $x^2=-\frac{16}{9}$. 因为 $\left(\frac{4}{3}\mathrm{i}\right)^2=\left(-\frac{4}{3}\mathrm{i}\right)^2=-\frac{16}{9}$, 所以 $x=\pm\frac{4}{3}\mathrm{i}$.
+
+(2) 方程 $x^2+x+1=0$ 中 $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3< 0$. 由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**,
+
+$$
+x=\frac{-1\pm\sqrt{3}\,\mathrm{i}}{2}.
+$$
+
+即 $x=-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$ 或 $x=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$. $\blacksquare$
+
+## 习题五
+
+(习题 7.2 复习巩固第 1 题) 计算:
+
+(1) $\left(6-5\mathrm{i}\right)+\left(3+2\mathrm{i}\right)$;
+
+(2) $5\mathrm{i}-\left(2+2\mathrm{i}\right)$;
+
+(3) $\left(\frac{2}{3}+\mathrm{i}\right)+\left(1-\frac{2}{3}\mathrm{i}\right)-\left(\frac{1}{2}+\frac{3}{4}\mathrm{i}\right)$;
+
+(4) $\left(0.5+1.3\mathrm{i}\right)-\left(1.2+0.7\mathrm{i}\right)+\left(1-0.4\mathrm{i}\right)$.
+
+### 解答 习题五
+
+由**定义 7.2.1 (复数加法法则)** 与**定义 7.2.2 (复数减法法则)**.
+
+(1) $\left(6-5\mathrm{i}\right)+\left(3+2\mathrm{i}\right)=9-3\mathrm{i}$.
+
+(2) $5\mathrm{i}-\left(2+2\mathrm{i}\right)=-2+3\mathrm{i}$.
+
+(3) 实部: $\frac{2}{3}+1-\frac{1}{2}=\frac{4}{6}+\frac{6}{6}-\frac{3}{6}=\frac{7}{6}$; 虚部: $1-\frac{2}{3}-\frac{3}{4}=\frac{12}{12}-\frac{8}{12}-\frac{9}{12}=-\frac{5}{12}$. 结果为 $\frac{7}{6}-\frac{5}{12}\mathrm{i}$.
+
+(4) 实部: $0.5-1.2+1=0.3$; 虚部: $1.3-0.7-0.4=0.2$. 结果为 $0.3+0.2\mathrm{i}$. $\blacksquare$
+
+## 习题六
+
+(习题 7.2 复习巩固第 2 题) 在复平面内, 复数 $6+5\mathrm{i}$, $-3+4\mathrm{i}$ 对应的向量分别是 $\boldsymbol{OA}$, $\boldsymbol{OB}$, 其中 $O$ 是原点, 求向量 $\boldsymbol{AB}$, $\boldsymbol{BA}$ 对应的复数.
+
+### 解答 习题六
+
+由**常用结论 7.2.4** (复数加, 减法的几何意义), $\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}$, $\boldsymbol{BA}=\boldsymbol{OA}-\boldsymbol{OB}$.
+
+点 $A$ 对应复数 $6+5\mathrm{i}$, 点 $B$ 对应复数 $-3+4\mathrm{i}$.
+
+$$
+\boldsymbol{AB}\text{ 对应复数}=\left(-3+4\mathrm{i}\right)-\left(6+5\mathrm{i}\right)=-9-\mathrm{i}.
+$$
+
+$$
+\boldsymbol{BA}\text{ 对应复数}=\left(6+5\mathrm{i}\right)-\left(-3+4\mathrm{i}\right)=9+\mathrm{i}.
 $$
 
 $\blacksquare$
 
-## 习题二
-
-(复习参考题2 复习巩固第 2 题) 用不等号 "$> $" 或 "$< $" 填空.
-
-(1) 若 $a> b$, 且 $\frac{1}{a}> \frac{1}{b}$, 则 $ab\;\_\_\;0$;
-
-(2) 若 $c> a> b> 0$, 则 $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
-
-(3) 若 $a> b> c> 0$, 则 $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
-
-### 解答 习题二
-
-由**基本事实 2.1.1** (实数大小关系), 作差比较.
-
-(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}> 0$. 由 $a> b$ 得 $b-a< 0$, 故须 $ab< 0$ 才能使商为正. 故填 $< $.
-
-(2) 作差: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. 由 $c> a> b> 0$ 知分子 $c\left(a-b\right)> 0$, 分母 $\left(c-a\right)\left(c-b\right)> 0$, 故差为正, 填 $> $.
-
-(3) 作差: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}> 0$, 故填 $> $. $\blacksquare$
-
-## 习题三
-
-(复习参考题2 复习巩固第 3 题)
-
-(1) 在面积为定值 $S$ 的扇形中, 半径是多少时扇形的周长最小?
-
-(2) 在周长为定值 $P$ 的扇形中, 半径是多少时扇形的面积最大?
-
-### 解答 习题三
-
-由**常用结论 2.2.2** (积定和最小, 和定积最大), 设扇形半径为 $R$, 弧长为 $l$. 扇形面积为 $\frac{1}{2}Rl$, 周长为 $2R+l$.
-
-(1) 面积 $S=\frac{1}{2}Rl$ 为定值, 即 $Rl=2S$. 周长 $2R+l\ge2\sqrt{2Rl}=2\sqrt{4S}=4\sqrt S$, 当且仅当 $2R=l$ 时等号成立. 此时 $Rl=2R^2=2S$, 得 $R=\sqrt S$. 故半径为 $\sqrt S$ 时周长最小.
-
-(2) 周长 $P=2R+l$ 为定值. 令 $u=2R$, 则 $u+l=P$, 面积 $\frac{1}{2}Rl=\frac{1}{4}ul\le\frac{1}{4}\cdot\left(\frac{u+l}{2}\right)^2=\frac{P^2}{16}$, 当且仅当 $u=l$ 时等号成立. 此时 $2R=l=\frac{P}{2}$, 得 $R=\frac{P}{4}$. 故半径为 $\frac{P}{4}$ 时面积最大, 最大值为 $\frac{P^2}{16}$. $\blacksquare$
-
-## 习题四
-
-(复习参考题2 复习巩固第 4 题) 求下列不等式的解集.
-
-(1) $14-4x^2\ge x$;
-
-(2) $x^2-14x+45\le0$;
-
-(3) $x^2+6x+10> 0$;
-
-(4) $x\left(x+2\right)> x\left(3-x\right)+1$.
-
-### 解答 习题四
-
-由**常用结论 2.3.3** (一元二次不等式的解集), 逐题求解.
-
-(1) 整理得 $4x^2+x-14\le0$. 方程 $4x^2+x-14=0$ 的根为 $x=-2,\frac{7}{4}$, 故解集为 $\left\{x\mid-2\le x\le\frac{7}{4}\right\}$.
-
-(2) $\left(x-5\right)\left(x-9\right)\le0$, 根为 $x=5,9$, 故解集为 $\left\{x\mid5\le x\le9\right\}$.
-
-(3) $\Delta=36-40=-4< 0$, 开口向上, 故解集为 $\mathbb R$.
-
-(4) 展开整理得 $2x^2-x-1> 0$, 即 $\left(2x+1\right)\left(x-1\right)> 0$, 根为 $x=-\frac{1}{2},1$, 故解集为 $\left\{x\mid x< -\frac{1}{2}$ 或 $x> 1\right\}$. $\blacksquare$
-
-## 习题五
-
-(复习参考题2 综合运用第 5 题) 若 $a,b> 0$, 且 $ab=a+b+3$, 求 $ab$ 的取值范围.
-
-### 解答 习题五
-
-由**定理 2.2.1 (基本不等式)**, $a+b\ge2\sqrt{ab}$.
-
-由 $ab=a+b+3$, 得 $ab\ge2\sqrt{ab}+3$. 令 $t=\sqrt{ab}> 0$, 则
-
-$$
-t^2\ge2t+3,
-$$
-
-即 $\left(t-3\right)\left(t+1\right)\ge0$. 因 $t> 0$, 故 $t\ge3$, 从而 $ab=t^2\ge9$. 当且仅当 $a=b=3$ 时取等号. 故 $ab$ 的取值范围为 $\left\{x\mid x\ge9\right\}$. $\blacksquare$
-
-## 习题六
-
-(复习参考题2 综合运用第 6 题) 当 $k$ 取什么值时, 一元二次不等式 $2kx^2+kx-\frac{3}{8}< 0$ 对一切实数 $x$ 都成立?
-
-### 解答 习题六
-
-由**常用结论 2.3.3** (一元二次不等式的解集), $ax^2+bx+c< 0$ 对一切实数成立, 须开口向下 ($a< 0$) 且无实根 ($\Delta< 0$).
-
-首先 $2k< 0$, 即 $k< 0$.
-
-再要求 $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k< 0$, 即 $k\left(k+3\right)< 0$, 解得 $-3< k< 0$.
-
-与 $k< 0$ 取交集, 得 $-3< k< 0$. 故当 $-3< k< 0$ 时, 该不等式对一切实数 $x$ 都成立. $\blacksquare$
-
 ## 习题七
 
-(复习参考题2 综合运用第 7 题) 一般认为, 民用住宅的窗户面积必须小于地板面积, 但窗户面积与地板面积的比应不小于 $10\%$, 而且这个比值越大, 采光效果越好.
+(习题 7.2 复习巩固第 3 题) 计算:
 
-(1) 若一所公寓窗户面积与地板面积的总和为 $220\ \mathrm m^2$, 则这所公寓的窗户面积至少为多少平方米?
+(1) $\left(-8-7\mathrm{i}\right)\left(-3\mathrm{i}\right)$;
 
-(2) 若同时增加相同的窗户面积和地板面积, 公寓的采光效果是变好了还是变坏了?
+(2) $\left(4-3\mathrm{i}\right)\left(-5-4\mathrm{i}\right)$;
+
+(3) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(1+\mathrm{i}\right)$;
+
+(4) $\left(\frac{\sqrt{3}}{2}\mathrm{i}-\frac{1}{2}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)$;
+
+(5) $\left(1+\mathrm{i}\right)\left(1-\mathrm{i}\right)+\left(-1+\mathrm{i}\right)$.
 
 ### 解答 习题七
 
-设窗户面积为 $w$, 地板面积为 $f$, 则 $w< f$ 且 $\frac{w}{f}\ge0.1$.
+由**定义 7.2.5 (复数乘法法则)**.
 
-(1) 由 $w+f=220$, 即 $f=220-w$. 由 $\frac{w}{f}\ge0.1$, 得 $w\ge0.1\left(220-w\right)$, 即 $1.1w\ge22$, 故 $w\ge20$. 故窗户面积至少为 $20\ \mathrm m^2$.
+(1) $\left(-8-7\mathrm{i}\right)\left(-3\mathrm{i}\right)=24\mathrm{i}+21\mathrm{i}^2=-21+24\mathrm{i}$.
 
-(2) 设窗户与地板同时增加面积 $m> 0$. 由**基本事实 2.1.1** (实数大小关系), 比较新比值与原比值:
+(2) $\left(4-3\mathrm{i}\right)\left(-5-4\mathrm{i}\right)=-20-16\mathrm{i}+15\mathrm{i}+12\mathrm{i}^2=-32-\mathrm{i}$.
 
-$$
-\frac{w+m}{f+m}-\frac{w}{f}=\frac{f\left(w+m\right)-w\left(f+m\right)}{f\left(f+m\right)}=\frac{m\left(f-w\right)}{f\left(f+m\right)}.
-$$
+(3) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(1+\mathrm{i}\right)=-\frac{1}{2}-\frac{1}{2}\mathrm{i}+\frac{\sqrt{3}}{2}\mathrm{i}+\frac{\sqrt{3}}{2}\mathrm{i}^2=\frac{-1-\sqrt{3}}{2}+\frac{\sqrt{3}-1}{2}\mathrm{i}$.
 
-由 $f> w$ 知分子为正, 故差为正, 即新比值变大. 故同时增加相同面积后, 采光效果变好. $\blacksquare$
+(4) 先写成 $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)$, 即 $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)^2=\frac{1}{4}-\frac{\sqrt{3}}{2}\mathrm{i}+\frac{3}{4}\mathrm{i}^2=\frac{1}{4}-\frac{3}{4}-\frac{\sqrt{3}}{2}\mathrm{i}=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
+
+(5) $\left(1+\mathrm{i}\right)\left(1-\mathrm{i}\right)=1-\mathrm{i}^2=2$, 再加 $\left(-1+\mathrm{i}\right)$, 得 $2+\left(-1+\mathrm{i}\right)=1+\mathrm{i}$. $\blacksquare$
 
 ## 习题八
 
-(复习参考题2 综合运用第 8 题) 相等关系和不等关系之间具有对应关系: 即只要将一个相等关系的命题中的等号改为不等号就可得到一个相应的不等关系的命题. 请你用类比的方法探索相等关系和不等关系的对应性质, 仿照下表列出尽可能多的有关对应关系的命题; 指出所列的对应不等关系的命题是否正确, 并说明理由.
+(习题 7.2 复习巩固第 4 题) 计算:
+
+(1) $\frac{2\mathrm{i}}{2-\mathrm{i}}$;
+
+(2) $\frac{2+\mathrm{i}}{7+4\mathrm{i}}$;
+
+(3) $\frac{1}{\left(2-\mathrm{i}\right)^2}$;
+
+(4) $\frac{5\left(4+\mathrm{i}\right)^2}{\mathrm{i}\left(2+\mathrm{i}\right)}$.
 
 ### 解答 习题八
 
-由**性质 2.1.5** (可加性), **性质 2.1.6** (可乘性) 与**基本事实 2.1.1** (实数大小关系), 类比列出并判断.
+由**定义 7.2.7 (复数除法法则)**.
 
-(1) 若 $x=y$, 则 $x+z=y+z$; 对应 若 $x> y$, 则 $x+z> y+z$. 正确, 即**性质 2.1.5** (可加性).
+(1) $\frac{2\mathrm{i}}{2-\mathrm{i}}=\frac{2\mathrm{i}\left(2+\mathrm{i}\right)}{\left(2-\mathrm{i}\right)\left(2+\mathrm{i}\right)}=\frac{4\mathrm{i}+2\mathrm{i}^2}{4+1}=\frac{-2+4\mathrm{i}}{5}=-\frac{2}{5}+\frac{4}{5}\mathrm{i}$.
 
-(2) 若 $x=y$, 则 $xz=yz$; 对应 若 $x> y$, 则 $xz> yz$. 错误, 当 $z< 0$ 时不等号反向.
+(2) $\frac{2+\mathrm{i}}{7+4\mathrm{i}}=\frac{\left(2+\mathrm{i}\right)\left(7-4\mathrm{i}\right)}{\left(7+4\mathrm{i}\right)\left(7-4\mathrm{i}\right)}=\frac{14-8\mathrm{i}+7\mathrm{i}-4\mathrm{i}^2}{49+16}=\frac{18-\mathrm{i}}{65}=\frac{18}{65}-\frac{1}{65}\mathrm{i}$.
 
-(3) 若 $x=y$, 则 $x^3=y^3$; 对应 若 $x> y$, 则 $x^3> y^3$. 正确, 因 $x^3-y^3=\left(x-y\right)\left(x^2+xy+y^2\right)> 0$.
+(3) 先算 $\left(2-\mathrm{i}\right)^2=4-4\mathrm{i}+\mathrm{i}^2=3-4\mathrm{i}$. 再算 $\frac{1}{3-4\mathrm{i}}=\frac{3+4\mathrm{i}}{\left(3-4\mathrm{i}\right)\left(3+4\mathrm{i}\right)}=\frac{3+4\mathrm{i}}{25}=\frac{3}{25}+\frac{4}{25}\mathrm{i}$.
 
-(4) 若 $x=y$, 则 $x^2=y^2$; 对应 若 $x> y$, 则 $x^2> y^2$. 错误, 如 $1> -2$ 但 $1< 4$, 须两数同号才成立.
-
-(5) 若 $x=y$, $z\neq0$, 则 $\frac{x}{z}=\frac{y}{z}$; 对应 若 $x> y$, 则 $\frac{x}{z}> \frac{y}{z}$. 当 $z> 0$ 时正确, 当 $z< 0$ 时错误.
-
-可见, 与加法类比的命题多正确; 与乘除类比时, 乘除数为负会使不等号反向, 须附加条件. $\blacksquare$
+(4) 先算 $\left(4+\mathrm{i}\right)^2=16+8\mathrm{i}+\mathrm{i}^2=15+8\mathrm{i}$, 分子为 $5\left(15+8\mathrm{i}\right)=75+40\mathrm{i}$. 再算 $\mathrm{i}\left(2+\mathrm{i}\right)=2\mathrm{i}+\mathrm{i}^2=-1+2\mathrm{i}$. 最后 $\frac{75+40\mathrm{i}}{-1+2\mathrm{i}}=\frac{\left(75+40\mathrm{i}\right)\left(-1-2\mathrm{i}\right)}{\left(-1+2\mathrm{i}\right)\left(-1-2\mathrm{i}\right)}=\frac{-75-150\mathrm{i}-40\mathrm{i}-80\mathrm{i}^2}{1+4}=\frac{5-190\mathrm{i}}{5}=1-38\mathrm{i}$. $\blacksquare$
 
 ## 习题九
 
-(复习参考题2 拓广探索第 9 题) 如图, 居民小区要建一座八边形的休闲场所, 它的主体造型平面图是由两个相同的矩形 $ABCD$ 和 $EFGH$ 构成的面积为 $200\ \mathrm m^2$ 的十字形地域. 计划在正方形 $MNPQ$ 上建一座花坛, 造价为 $4200$ 元$/ \mathrm m^2$; 在四个相同的矩形 (图中阴影部分) 上铺花岗岩地坪, 造价为 $210$ 元$/ \mathrm m^2$; 再在四个空角 (图中四个三角形) 上铺草坪, 造价为 $80$ 元$/ \mathrm m^2$. 设总造价为 $S$ (单位: 元), $AD$ 长为 $x$ (单位: $\mathrm m$). 当 $x$ 为何值时, $S$ 最小? 并求出这个最小值.
-
-图:一个八边形十字形(正放加号形)休闲场所平面图,由两个全等矩形 $ABCD$ 与 $EFGH$ 正交叠合而成,中央重叠部分为正方形 $MNPQ$(花坛);从中央正方形向上下左右四个方向各伸出一个矩形(图中阴影部分,铺花岗岩地坪),十字形四个外端与外接正方形之间形成四个空角三角形(铺草坪),其中 $AD$ 长记为 $x$.
+(习题 7.2 综合运用第 5 题) 四边形 $ABCD$ 是复平面内的平行四边形, $A$, $B$, $C$ 三点对应的复数分别是 $1+3\mathrm{i}$, $-\mathrm{i}$, $2+\mathrm{i}$, 求点 $D$ 对应的复数.
 
 ### 解答 习题九
 
-由**常用结论 2.2.2** (积定和最小, 和定积最大), 设十字形由两个全等矩形叠成, 中央正方形 $MNPQ$ 边长为 $x$, 每个矩形长为 $x+2t$, 其中 $t$ 为伸出部分的一半. 十字面积 $2x\left(x+2t\right)-x^2=x^2+4xt=200$.
+由**常用结论 7.2.4** (复数加, 减法的几何意义), 在平行四边形 $ABCD$ 中, 对角线互相平分, 即 $AC$ 的中点与 $BD$ 的中点重合.
 
-花坛面积为 $x^2$; 四个阴影矩形面积共 $4\cdot xt$; 四个空角三角形面积共 $4\cdot\frac{1}{2}t^2=2t^2$. 总造价
+点 $A$ 对应复数 $z_A=1+3\mathrm{i}$, 点 $C$ 对应复数 $z_C=2+\mathrm{i}$. 对角线 $AC$ 中点对应的复数为 $\frac{z_A+z_C}{2}=\frac{\left(1+3\mathrm{i}\right)+\left(2+\mathrm{i}\right)}{2}=\frac{3+4\mathrm{i}}{2}=\frac{3}{2}+2\mathrm{i}$.
 
-$$
-S=4200x^2+210\cdot4xt+80\cdot2t^2=4200x^2+840xt+160t^2.
-$$
-
-由 $x^2+4xt=200$ 得 $xt=\frac{200-x^2}{4}$. 代入得
-
-$$
-S=4200x^2+840\cdot\frac{200-x^2}{4}+160t^2=4000x^2+38000+\frac{400000}{x^2}.
-$$
-
-由**定理 2.2.1 (基本不等式)**, 
-
-$$
-4000x^2+\frac{400000}{x^2}\ge2\sqrt{4000x^2\cdot\frac{400000}{x^2}}=80000,
-$$
-
-当且仅当 $4000x^2=\frac{400000}{x^2}$, 即 $x^2=10$, $x=\sqrt{10}$ 时, 等号成立. 此时 $S=80000+38000=118000$ 元. 故当 $x=\sqrt{10}\ \mathrm m$ 时总造价最小, 最小值为 $118000$ 元. $\blacksquare$
+设点 $D$ 对应的复数为 $z_D$, 点 $B$ 对应 $z_B=-\mathrm{i}$. 由 $BD$ 的中点与 $AC$ 的中点重合, 得 $\frac{z_B+z_D}{2}=\frac{3}{2}+2\mathrm{i}$, 故 $z_D=3+4\mathrm{i}-z_B=3+4\mathrm{i}-\left(-\mathrm{i}\right)=3+5\mathrm{i}$. $\blacksquare$
 
 ## 习题十
 
-(复习参考题2 拓广探索第 10 题) 购买同一种物品, 可以用两种不同的策略, 第一种是不考虑物品价格的升降, 每次购买这种物品的数量一定; 第二种是不考虑物品价格的升降, 每次购买这种物品所花的钱数一定. 哪种购物方式比较经济? 你能把所得结论作一些推广吗?
+(习题 7.2 综合运用第 6 题) 在复数范围内解下列方程:
+
+(1) $x^2+4x+5=0$;
+
+(2) $2x^2-3x+4=0$.
 
 ### 解答 习题十
 
-由**定理 2.2.1 (基本不等式)**, 设两次价格为 $p_1,p_2> 0$, 比较两种策略的平均价格.
+由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**.
 
-第一种策略每次买固定数量 $q$: 两次共花 $q\left(p_1+p_2\right)$, 共买 $2q$, 平均价格为 $\frac{p_1+p_2}{2}$ (算术平均数).
-
-第二种策略每次花固定钱数 $m$: 两次共买 $\frac{m}{p_1}+\frac{m}{p_2}$, 共花 $2m$, 平均价格为
+(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4< 0$. 故
 
 $$
-\frac{2m}{\frac{m}{p_1}+\frac{m}{p_2}}=\frac{2p_1p_2}{p_1+p_2}
+x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm 2\mathrm{i}}{2}=-2\pm\mathrm{i}.
 $$
 
-(调和平均数).
+(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23< 0$. 故
 
-由**定理 2.2.1 (基本不等式)**, $\frac{2p_1p_2}{p_1+p_2}\le\frac{p_1+p_2}{2}$, 当且仅当 $p_1=p_2$ 时取等号. 故第二种策略 (每次花固定钱数) 的平均价格较低, 比较经济.
+$$
+x=\frac{3\pm\sqrt{23}\,\mathrm{i}}{4}.
+$$
 
-推广: 价格有升降时, 每次投入固定金额的策略优于每次购买固定数量的策略, 其平均价格恒不高于后者. $\blacksquare$
+即 $x=\frac{3}{4}+\frac{\sqrt{23}}{4}\mathrm{i}$ 或 $x=\frac{3}{4}-\frac{\sqrt{23}}{4}\mathrm{i}$. $\blacksquare$
+
+## 习题十一
+
+(习题 7.2 综合运用第 7 题) 已知 $2\mathrm{i}-3$ 是关于 $x$ 的方程 $2x^2+px+q=0$ 的一个根, 求实数 $p,q$ 的值.
+
+### 解答 习题十一
+
+由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)** 及共轭虚数的性质, 实系数一元二次方程的虚根成对出现. 已知 $x_1=-3+2\mathrm{i}$ 是根, 则另一根为其共轭复数 $x_2=-3-2\mathrm{i}$.
+
+由韦达定理, $x_1+x_2=-\frac{p}{2}$, $x_1x_2=\frac{q}{2}$.
+
+$$
+x_1+x_2=\left(-3+2\mathrm{i}\right)+\left(-3-2\mathrm{i}\right)=-6=-\frac{p}{2},
+$$
+
+故 $p=12$.
+
+$$
+x_1x_2=\left(-3+2\mathrm{i}\right)\left(-3-2\mathrm{i}\right)=9-4\mathrm{i}^2=9+4=13=\frac{q}{2},
+$$
+
+故 $q=26$. $\blacksquare$
+
+## 习题十二
+
+(习题 7.2 拓广探索第 8 题) 利用公式 $a^2+b^2=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)$, 把下列各式分解成一次因式的积:
+
+(1) $x^2+4$;
+
+(2) $a^4-b^4$.
+
+### 解答 习题十二
+
+由**定义 7.2.5 (复数乘法法则)** 及 $a^2+b^2=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)$.
+
+(1) $x^2+4=x^2+2^2=\left(x+2\mathrm{i}\right)\left(x-2\mathrm{i}\right)$.
+
+(2) $a^4-b^4=\left(a^2+b^2\right)\left(a^2-b^2\right)=\left(a^2+b^2\right)\left(a+b\right)\left(a-b\right)$. 再由 $a^2+b^2=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)$, 得
+
+$$
+a^4-b^4=\left(a+\mathrm{i}b\right)\left(a-\mathrm{i}b\right)\left(a+b\right)\left(a-b\right).
+$$
+
+$\blacksquare$
+
+## 习题十三
+
+(习题 7.2 拓广探索第 9 题) 若 $z=x+y\mathrm{i}\ \left(x,y\in\mathbb R\right)$, 则复平面内满足 $\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ 的点 $Z$ 的集合是什么图形?
+
+### 解答 习题十三
+
+由**定义 7.1.9 (复数的模)** 与**常用结论 7.2.4** (复数减法的几何意义), $\lvert z-\left(2+\mathrm{i}\right)\rvert$ 表示点 $Z\left(x,y\right)$ 与点 $\left(2,1\right)$ 之间的距离.
+
+$\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ 即点 $Z$ 到定点 $\left(2,1\right)$ 的距离恒为 $3$. 故点 $Z$ 的集合是以点 $\left(2,1\right)$ 为圆心, 以 $3$ 为半径的圆. $\blacksquare$
+
+## 习题十四
+
+(习题 7.2 拓广探索第 10 题) 使用信息技术手段进行试验: 尝试在复数集中对实系数多项式进行因式分解, 观察并记录所发现的规律.
+
+### 解答 习题十四
+
+在复数集中对实系数多项式进行因式分解, 可观察到以下规律.
+
+由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)** 及**定义 7.2.5 (复数乘法法则)**, 任何实系数多项式在复数集中都可以分解为若干一次因式的乘积, 其中虚根以共轭成对的形式出现. 即若 $a+b\mathrm{i}\ \left(b\neq 0\right)$ 是实系数多项式的根, 则 $a-b\mathrm{i}$ 也是它的根, 对应的一次因式为 $\left(x-a-b\mathrm{i}\right)\left(x-a+b\mathrm{i}\right)=\left(x-a\right)^2+b^2$.
+
+例如, $x^2+1=\left(x+\mathrm{i}\right)\left(x-\mathrm{i}\right)$, $x^4-1=\left(x-1\right)\left(x+1\right)\left(x-\mathrm{i}\right)\left(x+\mathrm{i}\right)$. 这表明在复数集中, 每个实系数多项式都能完全分解为一次因式的乘积, 且虚根成对出现. $\blacksquare$
+
+## 阅读与思考一
+
+(思考 1) 由代数基本定理可以得到: 任何一元 $n\ \left(n\in\mathbb N^*\right)$ 次复系数多项式 $f\left(x\right)$ 在复数集中可以分解为 $n$ 个一次因式的乘积. 进而, 一元 $n$ 次多项式方程有 $n$ 个复数根 (重根按重数计). 你能给出证明吗?
+
+### 解答 阅读与思考一
+
+由代数基本定理, $f\left(x\right)=0$ 至少有一个复数根, 设为 $x_1$. 由多项式除法, $f\left(x\right)$ 可分解为 $\left(x-x_1\right)f_1\left(x\right)$, 其中 $f_1\left(x\right)$ 是 $n-1$ 次多项式.
+
+对 $f_1\left(x\right)$ 再次应用代数基本定理, $f_1\left(x\right)=0$ 至少有一个复数根 $x_2$, 于是 $f\left(x\right)=\left(x-x_1\right)\left(x-x_2\right)f_2\left(x\right)$, 其中 $f_2\left(x\right)$ 是 $n-2$ 次多项式.
+
+如此继续, 经过 $n$ 次后, $f\left(x\right)$ 被分解为 $n$ 个一次因式的乘积:
+
+$$
+f\left(x\right)=a_n\left(x-x_1\right)\left(x-x_2\right)\cdots\left(x-x_n\right).
+$$
+
+因此方程 $f\left(x\right)=0$ 有 $n$ 个复数根 $x_1,x_2,\cdots,x_n$ (重根按重数计). $\blacksquare$

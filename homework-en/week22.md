@@ -1,561 +1,529 @@
 # week22
+> **Definition 6.1.7 (Equal Vectors)**
+> 
+> 长度相等且方向相同的向量叫做相等向量.
+> **Definition 6.2.1 (向量加法的三角形法则)**
+> 
+> 已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+> **Definition 6.2.2 (Parallelogram Rule)**
+> 
+> 已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
+> **Definition 6.2.4 (Permutation and Factorial)**
+> 
+> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **Definition 6.2.5 (Vector Subtraction)**
+> 
+> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+> **Definition 6.2.6 (Scalar Multiplication)**
+> 
+> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+> **Theorem 6.2.8 (Collinear Vectors Theorem)**
+> 
+> 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+> **Definition 6.2.11 (向量的数量积)**
+> 
+> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
 
 ## Exercise 1
 
-(Exercise 5.5, Problem 1) Using the sum (difference) angle formulas, find the value of each of the following expressions:
-
-(1) $\sin15^{\circ}$;
-
-(2) $\cos75^{\circ}$;
-
-(3) $\sin75^{\circ}$;
-
-(4) $\tan15^{\circ}$.
+(Exercise 6.2, Problem 2) Under what conditions on the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ does $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$?
 
 ### Solution to Exercise 1
 
-By **Formula 5.5.3** (Sine of a Sum), **Formula 5.5.2** (Cosine of a Sum), etc.
-
-(1) Since $\sin15^{\circ}=\sin\left(45^{\circ}-30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}-\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
-
-(2) Since $\cos75^{\circ}=\cos\left(45^{\circ}+30^{\circ}\right)=\cos45^{\circ}\cos30^{\circ}-\sin45^{\circ}\sin30^{\circ}=\frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2}-\frac{\sqrt{2}}{2}\cdot\frac{1}{2}=\frac{\sqrt{6}-\sqrt{2}}{4}$.
-
-(3) Since $\sin75^{\circ}=\sin\left(45^{\circ}+30^{\circ}\right)=\sin45^{\circ}\cos30^{\circ}+\cos45^{\circ}\sin30^{\circ}=\frac{\sqrt{6}+\sqrt{2}}{4}$.
-
-(4) Since $\tan15^{\circ}=\tan\left(45^{\circ}-30^{\circ}\right)=\frac{\tan45^{\circ}-\tan30^{\circ}}{1+\tan45^{\circ}\tan30^{\circ}}=\frac{1-\frac{\sqrt{3}}{3}}{1+\frac{\sqrt{3}}{3}}=2-\sqrt{3}$. $\blacksquare$
+By **Common Conclusion 6.2.3** (Triangle Inequality), $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. When $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, the magnitude of $\boldsymbol{a}+\boldsymbol{b}$ equals the difference of the two magnitudes. Thus when $\boldsymbol{a}$ and $\boldsymbol{b}$ have opposite directions, or one of them is the zero vector, $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert\rvert$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 5.5, Problem 2)
+(Exercise 6.2, Problem 3) Fill in the blanks according to the figure.
 
-(1) Given $\cos\theta=-\frac{3}{5}$, $\theta\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\sin\left(\theta+\frac{\pi}{3}\right)$;
+(1) $\boldsymbol{a}+\boldsymbol{b}=\;\_\_\;$;
 
-(2) Given $\sin\theta=-\frac{12}{13}$ and $\theta$ a third-quadrant angle, find the value of $\cos\left(\frac{\pi}{6}+\theta\right)$;
+(2) $\boldsymbol{c}+\boldsymbol{d}=\;\_\_\;$;
 
-(3) Given $\tan\alpha=3$, find the value of $\tan\left(\alpha+\frac{\pi}{4}\right)$.
+(3) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{d}=\;\_\_\;$;
+
+(4) $\boldsymbol{c}+\boldsymbol{d}+\boldsymbol{e}=\;\_\_\;$.
+
+The figure: several vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$, and $\boldsymbol{e}$ drawn head-to-tail on the same diagram, with the task of filling in the sums of various vectors based on the head-to-tail connections.
 
 ### Solution to Exercise 2
 
-By **Formula 5.5.3** (Sine of a Sum), **Formula 5.5.2** (Cosine of a Sum) and **Formula 5.5.5** (Tangent of a Sum).
-
-(1) From $\theta\in\left(\frac{\pi}{2},\pi\right)$ and $\cos\theta=-\frac{3}{5}$, we get $\sin\theta=\frac{4}{5}$. Hence
-
-$$
-\sin\left(\theta+\frac{\pi}{3}\right)=\sin\theta\cos\frac{\pi}{3}+\cos\theta\sin\frac{\pi}{3}=\frac{4}{5}\cdot\frac{1}{2}+\left(-\frac{3}{5}\right)\cdot\frac{\sqrt{3}}{2}=\frac{4-3\sqrt{3}}{10}.
-$$
-
-(2) Since $\theta$ is a third-quadrant angle and $\sin\theta=-\frac{12}{13}$, we get $\cos\theta=-\frac{5}{13}$. Hence
-
-$$
-\cos\left(\frac{\pi}{6}+\theta\right)=\cos\frac{\pi}{6}\cos\theta-\sin\frac{\pi}{6}\sin\theta=\frac{\sqrt{3}}{2}\cdot\left(-\frac{5}{13}\right)-\frac{1}{2}\cdot\left(-\frac{12}{13}\right)=\frac{12-5\sqrt{3}}{26}.
-$$
-
-(3) By **Formula 5.5.5**, we get
-
-$$
-\tan\left(\alpha+\frac{\pi}{4}\right)=\frac{\tan\alpha+\tan\frac{\pi}{4}}{1-\tan\alpha\tan\frac{\pi}{4}}=\frac{3+1}{1-3\times1}=-2.
-$$
-
-$\blacksquare$
+By **Definition 6.2.1 (Triangle Rule)**, the sum of vectors placed head-to-tail equals the vector from the first initial point to the last terminal point. Write them out one by one according to the head-to-tail relations in the figure. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 5.5, Problem 3) Find the value of each of the following expressions:
+(Exercise 6.2, Problem 4) As shown in the figure, $ABCD$ is a parallelogram and the point $P$ lies on $CD$. Determine whether each of the following is correct.
 
-(1) $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}$;
+(1) $\boldsymbol{DA}+\boldsymbol{DP}=\boldsymbol{PA}$;
 
-(2) $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}$;
+(2) $\boldsymbol{DA}+\boldsymbol{AB}+\boldsymbol{BP}=\boldsymbol{DP}$;
 
-(3) $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}$;
+(3) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CP}=\boldsymbol{PA}$.
 
-(4) $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}$;
-
-(5) $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}$;
-
-(6) $\sin20^{\circ}\cos110^{\circ}+\cos160^{\circ}\sin70^{\circ}$.
+The figure: the parallelogram $ABCD$, with point $P$ on side $CD$; the directed segments $\boldsymbol{DA}$, $\boldsymbol{DP}$, $\boldsymbol{AB}$, $\boldsymbol{BP}$, $\boldsymbol{BC}$, $\boldsymbol{CP}$, etc. are marked, used to judge whether various vector-sum equalities hold.
 
 ### Solution to Exercise 3
 
-Use **Formula 5.5.3** through **Formula 5.5.6** in reverse.
+By **Definition 6.2.1 (Triangle Rule)**.
 
-(1) By **Formula 5.5.3**, we get $\sin72^{\circ}\cos18^{\circ}+\cos72^{\circ}\sin18^{\circ}=\sin\left(72^{\circ}+18^{\circ}\right)=\sin90^{\circ}=1$.
+(1) $\boldsymbol{DA}+\boldsymbol{DP}$ starts at $D$ and, by joining head to tail, gives the resultant vector starting from $D$, which is not equal to $\boldsymbol{PA}$ pointing from $P$ to $A$; hence it is incorrect.
 
-(2) By **Formula 5.5.1**, we get $\cos72^{\circ}\cos12^{\circ}+\sin72^{\circ}\sin12^{\circ}=\cos\left(72^{\circ}-12^{\circ}\right)=\cos60^{\circ}=\frac{1}{2}$.
+(2) $\boldsymbol{DA}+\boldsymbol{AB}=\boldsymbol{DB}$, and adding $\boldsymbol{BP}$ gives $\boldsymbol{DP}$; hence it is correct.
 
-(3) By **Formula 5.5.5**, we get $\frac{\tan12^{\circ}+\tan33^{\circ}}{1-\tan12^{\circ}\tan33^{\circ}}=\tan\left(12^{\circ}+33^{\circ}\right)=\tan45^{\circ}=1$.
-
-(4) By **Formula 5.5.4**, we get $\cos74^{\circ}\sin14^{\circ}-\sin74^{\circ}\cos14^{\circ}=\sin\left(14^{\circ}-74^{\circ}\right)=\sin\left(-60^{\circ}\right)=-\frac{\sqrt{3}}{2}$.
-
-(5) By **Formula 5.5.2**, we get $\sin34^{\circ}\sin26^{\circ}-\cos34^{\circ}\cos26^{\circ}=-\left(\cos34^{\circ}\cos26^{\circ}-\sin34^{\circ}\sin26^{\circ}\right)=-\cos\left(34^{\circ}+26^{\circ}\right)=-\cos60^{\circ}=-\frac{1}{2}$.
-
-(6) From $\cos110^{\circ}=-\cos70^{\circ}$ and $\cos160^{\circ}=-\cos20^{\circ}$, the original expression $=-\sin20^{\circ}\cos70^{\circ}-\cos20^{\circ}\sin70^{\circ}=-\sin\left(20^{\circ}+70^{\circ}\right)=-\sin90^{\circ}=-1$. $\blacksquare$
+(3) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, and adding $\boldsymbol{CP}$ gives $\boldsymbol{AP}$, not $\boldsymbol{PA}$; hence it is incorrect. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 5.5, Problem 4) Simplify:
-
-(1) $\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x$;
-
-(2) $\sqrt{3}\sin x+\cos x$;
-
-(3) $\sqrt{2}\left(\sin x-\cos x\right)$;
-
-(4) $\sqrt{2}\cos x-\sqrt{6}\sin x$.
+(Exercise 6.2, Problem 5) There is an east-west river, and a small boat sets out from a ferry crossing on the south bank to cross the river. The boat's speed through the water has magnitude $15\text{ km/h}$ in the direction $30^{\circ}$ west of north, and the current flows east at $7.5\text{ km/h}$. Find the magnitude and direction of the boat's actual velocity.
 
 ### Solution to Exercise 4
 
-By **Formula 5.5.11** (Auxiliary Angle Formula).
+By **Definition 6.2.2 (Parallelogram Rule)**, the boat's actual velocity is the vector sum of the boat's velocity and the current velocity.
 
-(1) The original expression $=\cos\frac{\pi}{3}\cos x-\sin\frac{\pi}{3}\sin x=\cos\left(x+\frac{\pi}{3}\right)$.
+Let the boat's velocity be $\boldsymbol{v}_1$, $\lvert\boldsymbol{v}_1\rvert=15$, directed $30^{\circ}$ west of north; let the current velocity be $\boldsymbol{v}_2$, $\lvert\boldsymbol{v}_2\rvert=7.5$, directed east.
 
-(2) The original expression $=2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=2\left(\sin x\cos\frac{\pi}{6}+\cos x\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
+Resolve the two velocities into eastward $\left(x\right)$ and northward $\left(y\right)$ components:
 
-(3) The original expression $=2\left(\frac{\sqrt{2}}{2}\sin x-\frac{\sqrt{2}}{2}\cos x\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
+$$
+v_{1x}=-15\sin30^{\circ}=-7.5,\quad v_{1y}=15\cos30^{\circ}=\frac{15\sqrt 3}{2}.
+$$
 
-(4) The original expression $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
+$$
+v_{2x}=7.5,\quad v_{2y}=0.
+$$
+
+Resultant velocity components: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt 3}{2}$.
+
+Hence the magnitude of the resultant velocity is $\frac{15\sqrt 3}{2}\approx13.0\text{ km/h}$, directed due north. $\blacksquare$
 
 ## Exercise 5
 
-(Exercise 5.5, Problem 5) Given $\sin\left(\alpha-\beta\right)=\frac{3}{5}$, $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$, $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$ and $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\sin2\beta$.
+(Exercise 6.2, Problem 6) As shown in the figure on the next page, in each part, given $\boldsymbol{a}$ and $\boldsymbol{b}$, construct $\boldsymbol{a}-\boldsymbol{b}$.
 
 ### Solution to Exercise 5
 
-By **Formula 5.5.3** and **Formula 5.5.4**.
-
-From $\sin\left(\alpha-\beta\right)=\frac{3}{5}$ and $\alpha-\beta\in\left(\frac{\pi}{2},\pi\right)$, we get $\cos\left(\alpha-\beta\right)=-\frac{4}{5}$. From $\sin\left(\alpha+\beta\right)=-\frac{3}{5}$ and $\alpha+\beta\in\left(\frac{\pi}{2},\pi\right)$, we get $\cos\left(\alpha+\beta\right)=-\frac{4}{5}$.
-
-Since $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$, we get
-
-$$
-\sin2\beta=\sin\left[\left(\alpha+\beta\right)-\left(\alpha-\beta\right)\right]=\sin\left(\alpha+\beta\right)\cos\left(\alpha-\beta\right)-\cos\left(\alpha+\beta\right)\sin\left(\alpha-\beta\right)=\left(-\frac{3}{5}\right)\left(-\frac{4}{5}\right)-\left(-\frac{4}{5}\right)\left(\frac{3}{5}\right)=\frac{12+12}{25}=\frac{24}{25}.
-$$
-
-$\blacksquare$
+By **Definition 6.2.5 (Subtraction of Vectors)**, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{a}+\left(-\boldsymbol{b}\right)$. Reverse $\boldsymbol{b}$ and add it to $\boldsymbol{a}$ by the triangle rule; alternatively, draw $\boldsymbol{a}$ and $\boldsymbol{b}$ from the same initial point, and the vector from the terminal point of $\boldsymbol{b}$ to the terminal point of $\boldsymbol{a}$ is $\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 5.5, Problem 6) Given $\cos\frac{\alpha}{8}=-\frac{4}{5}$ and $8\pi< \alpha< 12\pi$, find the values of $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$ and $\tan\frac{\alpha}{4}$.
+(Exercise 6.2, Problem 7) Fill in the blanks.
+
+$\boldsymbol{AB}-\boldsymbol{AD}=\;\_\_\;$; $\boldsymbol{BA}-\boldsymbol{BC}=\;\_\_\;$; $\boldsymbol{BC}-\boldsymbol{BA}=\;\_\_\;$; $\boldsymbol{OD}-\boldsymbol{OA}=\;\_\_\;$; $\boldsymbol{OA}-\boldsymbol{OB}=\;\_\_\;$.
 
 ### Solution to Exercise 6
 
-By the power-reduction form of **Formula 5.5.8** (Double-Angle Cosine).
+By **Definition 6.2.5 (Subtraction of Vectors)**, the difference of two vectors with the same initial point equals the vector from the terminal point of the subtracted vector to the terminal point of the vector from which it is subtracted.
 
-From $8\pi< \alpha< 12\pi$, we get $4\pi< \frac{\alpha}{2}< 6\pi$, $2\pi< \frac{\alpha}{4}< 3\pi$, $\pi< \frac{\alpha}{8}< \frac{3\pi}{2}$. Hence $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, i.e. $\frac{\alpha}{4}$ has the same terminal side as $\left(0,\pi\right)$.
-
-From $\cos\frac{\alpha}{8}=-\frac{4}{5}$, we get $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. Since $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$ and $\sin\frac{\alpha}{8}< 0$, we get $\sin\frac{\alpha}{8}=-\frac{3}{5}$. Hence $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
-
-And $\cos\frac{\alpha}{4}=2\cos^{2}\frac{\alpha}{8}-1=2\times\frac{16}{25}-1=\frac{7}{25}$.
-
-And $\tan\frac{\alpha}{4}=\frac{\sin\frac{\alpha}{4}}{\cos\frac{\alpha}{4}}=\frac{24}{7}$. $\blacksquare$
+$\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{DB}$; $\boldsymbol{BA}-\boldsymbol{BC}=\boldsymbol{CA}$; $\boldsymbol{BC}-\boldsymbol{BA}=\boldsymbol{AC}$; $\boldsymbol{OD}-\boldsymbol{OA}=\boldsymbol{AD}$; $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{BA}$. $\blacksquare$
 
 ## Exercise 7
 
-(Exercise 5.5, Problem 7) Given $\sin\left(\alpha-\pi\right)=\frac{3}{5}$, find the value of $\cos2\alpha$.
+(Exercise 6.2, Problem 8) Verify by construction: $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
+
+The figure: first draw the vectors $\boldsymbol{a}$, $\boldsymbol{b}$ and their sum $\boldsymbol{a}+\boldsymbol{b}$ from a common tail, then draw the opposite vector $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$; separately draw $-\boldsymbol{a}$ and $-\boldsymbol{b}$ and add them by the triangle rule; the two constructions coincide, verifying $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$.
 
 ### Solution to Exercise 7
 
-By **Formula 5.5.8** (Double-Angle Cosine).
+By **Definition 6.2.4 (Opposite Vectors)** and **Definition 6.2.5 (Subtraction of Vectors)**.
 
-From $\sin\left(\alpha-\pi\right)=-\sin\alpha=\frac{3}{5}$, we get $\sin\alpha=-\frac{3}{5}$. Hence $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{9}{25}=\frac{7}{25}$. $\blacksquare$
+First construct $\boldsymbol{a}+\boldsymbol{b}$, then construct its opposite vector $-\left(\boldsymbol{a}+\boldsymbol{b}\right)$. On the other hand, construct $-\boldsymbol{a}$ and $-\boldsymbol{b}$ separately and then add them by the triangle rule. The construction shows that the two results coincide, so $-\left(\boldsymbol{a}+\boldsymbol{b}\right)=-\boldsymbol{a}-\boldsymbol{b}$. $\blacksquare$
 
 ## Exercise 8
 
-(Exercise 5.5, Problem 8) Given $\sin2\alpha=-\sin\alpha$ and $\alpha\in\left(\frac{\pi}{2},\pi\right)$, find the value of $\tan\alpha$.
+(Exercise 6.2, Problem 9) Draw any vector $\boldsymbol{e}$, and construct the vectors $\boldsymbol{a}=4\boldsymbol{e}$ and $\boldsymbol{b}=-4\boldsymbol{e}$.
 
 ### Solution to Exercise 8
 
-By **Formula 5.5.7** (Double-Angle Sine).
-
-From $\sin2\alpha=2\sin\alpha\cos\alpha=-\sin\alpha$, and since $\sin\alpha\neq0$ when $\alpha\in\left(\frac{\pi}{2},\pi\right)$, we get $2\cos\alpha=-1$, i.e. $\cos\alpha=-\frac{1}{2}$. Hence $\sin\alpha=\frac{\sqrt{3}}{2}$ and $\tan\alpha=-\sqrt{3}$. $\blacksquare$
+By **Definition 6.2.6 (Scalar Multiplication of a Vector)**, $4\boldsymbol{e}$ has the same direction as $\boldsymbol{e}$ and length $4$ times that of $\boldsymbol{e}$; $-4\boldsymbol{e}$ has the opposite direction to $\boldsymbol{e}$ and length $4$ times that of $\boldsymbol{e}$. $\blacksquare$
 
 ## Exercise 9
 
-(Exercise 5.5, Problem 9) Given $\tan2\alpha=\frac{1}{3}$, find the value of $\tan\alpha$.
+(Exercise 6.2, Problem 10) The point $C$ lies on the segment $AB$, and $\frac{AC}{CB}=\frac{5}{2}$; then $\boldsymbol{AC}=\;\_\_\;\boldsymbol{AB}$, $\boldsymbol{BC}=\;\_\_\;\boldsymbol{AB}$.
 
 ### Solution to Exercise 9
 
-By **Formula 5.5.9** (Double-Angle Tangent).
+By **Definition 6.2.6 (Scalar Multiplication of a Vector)** and **Theorem 6.2.8 (Collinear Vector Theorem)**.
 
-From $\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{1}{3}$, we get $6\tan\alpha=1-\tan^{2}\alpha$, i.e. $\tan^{2}\alpha+6\tan\alpha-1=0$. Solving gives $\tan\alpha=-3\pm\sqrt{10}$. $\blacksquare$
+$AC:CB=5:2$, so $AC=\frac{5}{7}AB$ and $CB=\frac{2}{7}AB$, in the same direction as $\boldsymbol{AB}$. Hence $\boldsymbol{AC}=\frac{5}{7}\boldsymbol{AB}$. Since $\boldsymbol{BC}$ is opposite in direction to $\boldsymbol{AB}$, $\boldsymbol{BC}=-\frac{2}{7}\boldsymbol{AB}$. $\blacksquare$
 
 ## Exercise 10
 
-(Exercise 5.5, Problem 10) Find the value of each of the following expressions:
+(Exercise 6.2, Problem 11) In each of the following, express the vector $\boldsymbol{b}$ as the product of a real number and the vector $\boldsymbol{a}$.
 
-(1) $\sin15^{\circ}\cos15^{\circ}$;
+(1) $\boldsymbol{a}=3\boldsymbol{e}$, $\boldsymbol{b}=6\boldsymbol{e}$;
 
-(2) $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}$;
+(2) $\boldsymbol{a}=8\boldsymbol{e}$, $\boldsymbol{b}=-14\boldsymbol{e}$;
 
-(3) $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}$;
+(3) $\boldsymbol{a}=-\frac{2}{3}\boldsymbol{e}$, $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}$;
 
-(4) $2\cos^{2}22.5^{\circ}-1$.
+(4) $\boldsymbol{a}=-\frac{3}{4}\boldsymbol{e}$, $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}$.
 
 ### Solution to Exercise 10
 
-By **Formula 5.5.7** through **Formula 5.5.9**.
+By **Definition 6.2.6 (Scalar Multiplication of a Vector)**.
 
-(1) By **Formula 5.5.7**, we get $\sin15^{\circ}\cos15^{\circ}=\frac{1}{2}\sin30^{\circ}=\frac{1}{4}$.
+(1) $\boldsymbol{b}=6\boldsymbol{e}=2\cdot\left(3\boldsymbol{e}\right)=2\boldsymbol{a}$.
 
-(2) By **Formula 5.5.8**, we get $\cos^{2}\frac{\pi}{8}-\sin^{2}\frac{\pi}{8}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$.
+(2) $\boldsymbol{b}=-14\boldsymbol{e}=-\frac{14}{8}\cdot\left(8\boldsymbol{e}\right)=-\frac{7}{4}\boldsymbol{a}$.
 
-(3) By **Formula 5.5.9**, we get $\frac{\tan22.5^{\circ}}{1-\tan^{2}22.5^{\circ}}=\frac{1}{2}\tan45^{\circ}=\frac{1}{2}$.
+(3) $\boldsymbol{b}=\frac{1}{3}\boldsymbol{e}=-\frac{1}{2}\cdot\left(-\frac{2}{3}\boldsymbol{e}\right)=-\frac{1}{2}\boldsymbol{a}$.
 
-(4) By **Formula 5.5.8**, we get $2\cos^{2}22.5^{\circ}-1=\cos45^{\circ}=\frac{\sqrt{2}}{2}$. $\blacksquare$
+(4) $\boldsymbol{b}=-\frac{2}{3}\boldsymbol{e}=\frac{8}{9}\cdot\left(-\frac{3}{4}\boldsymbol{e}\right)=\frac{8}{9}\boldsymbol{a}$. $\blacksquare$
 
 ## Exercise 11
 
-(Exercise 5.5, Problem 11) Prove: $\tan\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha}$.
+(Exercise 6.2, Problem 12) Determine whether the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ in each of the following are collinear.
+
+(1) $\boldsymbol{a}=-2\boldsymbol{e}$, $\boldsymbol{b}=2\boldsymbol{e}$;
+
+(2) $\boldsymbol{a}=\boldsymbol{e}_1-\boldsymbol{e}_2$, $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2$.
 
 ### Solution to Exercise 11
 
-By **Formula 5.5.10** (Half-Angle Formulas).
+By **Theorem 6.2.8 (Collinear Vector Theorem)**, they are collinear if there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-Since $\tan\frac{\alpha}{2}=\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}=\frac{2\sin^{2}\frac{\alpha}{2}}{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}=\frac{1-\cos\alpha}{\sin\alpha}$. Similarly, $\tan\frac{\alpha}{2}=\frac{2\sin\frac{\alpha}{2}\cos\frac{\alpha}{2}}{2\cos^{2}\frac{\alpha}{2}}=\frac{\sin\alpha}{1+\cos\alpha}$. $\blacksquare$
+(1) $\boldsymbol{b}=2\boldsymbol{e}=-\left(-2\boldsymbol{e}\right)=-\boldsymbol{a}$, so $\boldsymbol{a}$ and $\boldsymbol{b}$ are collinear.
+
+(2) $\boldsymbol{b}=-2\boldsymbol{e}_1+2\boldsymbol{e}_2=-2\left(\boldsymbol{e}_1-\boldsymbol{e}_2\right)=-2\boldsymbol{a}$, so $\boldsymbol{a}$ and $\boldsymbol{b}$ are collinear. $\blacksquare$
 
 ## Exercise 12
 
-(Exercise 5.5, Problem 12) Given $\cos\theta=\frac{1}{7}$ and $270^{\circ}< \theta< 360^{\circ}$, find the values of $\sin\frac{\theta}{2}$ and $\cos\frac{\theta}{2}$.
+(Exercise 6.2, Problem 13) Simplify.
+
+(1) $5\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
+
+(2) $\frac{1}{3}\left(\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{4}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
+
+(3) $\left(x+y\right)\boldsymbol{a}-\left(x-y\right)\boldsymbol{a}$.
 
 ### Solution to Exercise 12
 
-By **Formula 5.5.10** (Half-Angle Formulas).
+By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
-From $270^{\circ}< \theta< 360^{\circ}$, we get $135^{\circ}< \frac{\theta}{2}< 180^{\circ}$, hence $\sin\frac{\theta}{2}> 0$ and $\cos\frac{\theta}{2}< 0$.
+(1) The original expression $=15\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=3\boldsymbol{a}-2\boldsymbol{b}$.
 
-And $\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}=\sqrt{\frac{1-\frac{1}{7}}{2}}=\sqrt{\frac{3}{7}}=\frac{\sqrt{21}}{7}$.
+(2) The original expression $=\frac{1}{3}\boldsymbol{a}-\frac{2}{3}\boldsymbol{b}-\frac{3}{4}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(\frac{1}{3}-\frac{3}{4}-\frac{1}{2}\right)\boldsymbol{a}+\left(-\frac{2}{3}+\frac{1}{2}+\frac{1}{2}\right)\boldsymbol{b}=-\frac{11}{12}\boldsymbol{a}+\frac{1}{3}\boldsymbol{b}$.
 
-And $\cos\frac{\theta}{2}=-\sqrt{\frac{1+\cos\theta}{2}}=-\sqrt{\frac{1+\frac{1}{7}}{2}}=-\sqrt{\frac{4}{7}}=-\frac{2\sqrt{7}}{7}$. $\blacksquare$
+(3) The original expression $=\left(x+y-x+y\right)\boldsymbol{a}=2y\boldsymbol{a}$. $\blacksquare$
 
 ## Exercise 13
 
-(Exercise 5.5, Problem 13) Given that the cosine of the vertex angle of an isosceles triangle equals $\frac{7}{25}$, find the tangent of one base angle of the triangle.
+(Exercise 6.2, Problem 14) Given that $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$ are two non-collinear vectors, $\boldsymbol{a}=\boldsymbol{e}_1-2\boldsymbol{e}_2$, and $\boldsymbol{b}=2\boldsymbol{e}_1+k\boldsymbol{e}_2$. If $\boldsymbol{a}$ and $\boldsymbol{b}$ are collinear, find the value of the real number $k$.
 
 ### Solution to Exercise 13
 
-By **Formula 5.5.10** (Half-Angle Formulas).
+By **Theorem 6.2.8 (Collinear Vector Theorem)**, there exists $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-Let the vertex angle be $\theta$, then the base angle is $\frac{\pi-\theta}{2}$. From $\cos\theta=\frac{7}{25}$, we get
+$2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{e}_2\right)=\lambda\boldsymbol{e}_1-2\lambda\boldsymbol{e}_2$.
 
-$$
-\tan\frac{\pi-\theta}{2}=\cot\frac{\theta}{2}=\frac{1}{\tan\frac{\theta}{2}}=\sqrt{\frac{1+\cos\theta}{1-\cos\theta}}=\sqrt{\frac{1+\frac{7}{25}}{1-\frac{7}{25}}}=\sqrt{\frac{32}{18}}=\frac{4}{3}.
-$$
-
-$\blacksquare$
+Comparing coefficients: $2=\lambda$, $k=-2\lambda=-4$. Hence $k=-4$. $\blacksquare$
 
 ## Exercise 14
 
-(Exercise 5.5, Problem 14) Prove:
-
-(1) $\cos\alpha\sin\beta=\frac{1}{2}\left[\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)\right]$;
-
-(2) $\cos\alpha\cos\beta=\frac{1}{2}\left[\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)\right]$;
-
-(3) $\sin\alpha\sin\beta=-\frac{1}{2}\left[\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)\right]$.
+(Exercise 6.2, Problem 15) Given $\lvert\boldsymbol{p}\rvert=8$, $\lvert\boldsymbol{q}\rvert=6$, and the angle between $\boldsymbol{p}$ and $\boldsymbol{q}$ is $60^{\circ}$, find $\boldsymbol{p}\cdot\boldsymbol{q}$.
 
 ### Solution to Exercise 14
 
-By **Formula 5.5.3** and **Formula 5.5.4**, **Formula 5.5.1** and **Formula 5.5.2**.
-
-(1) From $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$, dividing both sides by $2$ gives the result.
-
-(2) From $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$, dividing both sides by $2$ gives the result.
-
-(3) From $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$, dividing both sides by $-2$ gives the result. $\blacksquare$
+By **Definition 6.2.11 (Dot Product)**, $\boldsymbol{p}\cdot\boldsymbol{q}=\lvert\boldsymbol{p}\rvert\lvert\boldsymbol{q}\rvert\cos\theta=8\times6\times\cos60^{\circ}=48\times\frac{1}{2}=24$. $\blacksquare$
 
 ## Exercise 15
 
-(Exercise 5.5, Problem 15) Prove:
-
-(1) $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$;
-
-(2) $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$;
-
-(3) $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+(Exercise 6.2, Problem 16) In $\triangle ABC$, given $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$, determine the shape of $\triangle ABC$ when $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ or $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 ### Solution to Exercise 15
 
-By substituting variables into the result of **Exercise 14**.
+By **Common Conclusion 6.2.13** (Properties of the Dot Product), $\boldsymbol{a}\perp\boldsymbol{b}$ when $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
-(1) Set $\alpha+\beta=\theta$, $\alpha-\beta=\varphi$, then $\alpha=\frac{\theta+\varphi}{2}$, $\beta=\frac{\theta-\varphi}{2}$. Substituting into $\sin\left(\alpha+\beta\right)-\sin\left(\alpha-\beta\right)=2\cos\alpha\sin\beta$ gives $\sin\theta-\sin\varphi=2\cos\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$.
+When $\boldsymbol{a}\cdot\boldsymbol{b}=0$, $\boldsymbol{AB}\perp\boldsymbol{AC}$ and $\angle A=90^{\circ}$, so $\triangle ABC$ is a right triangle.
 
-(2) Similarly, substituting into $\cos\left(\alpha+\beta\right)+\cos\left(\alpha-\beta\right)=2\cos\alpha\cos\beta$ gives $\cos\theta+\cos\varphi=2\cos\frac{\theta+\varphi}{2}\cos\frac{\theta-\varphi}{2}$.
-
-(3) Substituting into $\cos\left(\alpha+\beta\right)-\cos\left(\alpha-\beta\right)=-2\sin\alpha\sin\beta$ gives $\cos\theta-\cos\varphi=-2\sin\frac{\theta+\varphi}{2}\sin\frac{\theta-\varphi}{2}$. $\blacksquare$
+When $\boldsymbol{a}\cdot\boldsymbol{b}< 0$, $\cos A< 0$ and $A> 90^{\circ}$, so $\triangle ABC$ is an obtuse triangle. $\blacksquare$
 
 ## Exercise 16
 
-(Exercise 5.5, Problem 16) Find the period, maximum and minimum values of the following functions:
-
-(1) $y=5\cos x-12\sin x$;
-
-(2) $y=\cos x+2\sin x$.
+(Exercise 6.2, Problem 17) Given $\lvert\boldsymbol{a}\rvert=6$ and that $\boldsymbol{e}$ is a unit vector, find the projection vector of $\boldsymbol{a}$ onto $\boldsymbol{e}$ when the angle $\theta$ between $\boldsymbol{a}$ and $\boldsymbol{e}$ is $45^{\circ}$, $90^{\circ}$, and $135^{\circ}$, respectively.
 
 ### Solution to Exercise 16
 
-By **Formula 5.5.11** (Auxiliary Angle Formula).
+By **Common Conclusion 6.2.12** (Projection Vector), the projection vector is $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
 
-(1) The original expression $=13\left(\frac{5}{13}\cos x-\frac{12}{13}\sin x\right)=13\cos\left(x+\varphi\right)$, where $\tan\varphi=\frac{12}{5}$. The period is $2\pi$, the maximum value is $13$, and the minimum value is $-13$.
+$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt 2\,\boldsymbol{e}$.
 
-(2) The original expression $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, where $\tan\varphi=\frac{1}{2}$. The period is $2\pi$, the maximum value is $\sqrt{5}$, and the minimum value is $-\sqrt{5}$. $\blacksquare$
+$\theta=90^{\circ}$: $6\cos90^{\circ}\,\boldsymbol{e}=\boldsymbol{0}$.
+
+$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e}$. $\blacksquare$
+
+## Exercise 17
+
+(Exercise 6.2, Problem 18) Given $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=2$, $\lvert\boldsymbol{c}\rvert=3$, the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$ is $\frac{\pi}{6}$, and the angle between $\boldsymbol{b}$ and $\boldsymbol{c}$ is $\frac{\pi}{4}$. Compute:
+
+(1) $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}$;
+
+(2) $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)$.
+
+### Solution to Exercise 17
+
+By **Definition 6.2.11 (Dot Product)**.
+
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. Hence $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
+
+(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. Hence $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
+
+## Exercise 18
+
+(Exercise 6.2, Problem 19) Given $\lvert\boldsymbol{a}\rvert=\sqrt 2$, $\lvert\boldsymbol{b}\rvert=1$, and that $\boldsymbol{a}-\boldsymbol{b}$ is perpendicular to $\boldsymbol{a}+2\boldsymbol{b}$, prove that $\boldsymbol{a}\perp\boldsymbol{b}$.
+
+### Solution to Exercise 18
+
+By **Common Conclusion 6.2.13** (Properties of the Dot Product), $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}+2\boldsymbol{b}\right)=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{b}^2=0$.
+
+Substituting $\lvert\boldsymbol{a}\rvert^2=2$ and $\lvert\boldsymbol{b}\rvert^2=1$ gives $2+\boldsymbol{a}\cdot\boldsymbol{b}-2=0$, that is, $\boldsymbol{a}\cdot\boldsymbol{b}=0$. Hence $\boldsymbol{a}\perp\boldsymbol{b}$. $\blacksquare$
+
+## Exercise 19
+
+(Exercise 6.2, Problem 20) Prove that $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$.
+
+### Solution to Exercise 19
+
+By **Common Conclusion 6.2.14** (Operation Laws for the Dot Product).
+
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+$\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+
+Subtracting the two equations gives $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2-\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=4\boldsymbol{a}\cdot\boldsymbol{b}$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 5.5, Review and Consolidation, Problem 1) Given $\sin\alpha=\frac{2}{3}$, $\cos\beta=-\frac{3}{4}$, $\alpha\in\left(\frac{\pi}{2},\pi\right)$ and $\beta\in\left(\pi,\frac{3\pi}{2}\right)$, find the value of $\cos\left(\alpha-\beta\right)$.
+(Exercise 6.2, Review and Consolidation, Problem 1) If $\boldsymbol{a}$ means "walk $10\text{ km}$ east", $\boldsymbol{b}$ means "walk $5\text{ km}$ west", $\boldsymbol{c}$ means "walk $10\text{ km}$ north", and $\boldsymbol{d}$ means "walk $5\text{ km}$ south", what is the meaning of each of the following vectors?
+
+(1) $\boldsymbol{a}+\boldsymbol{a}$; (2) $\boldsymbol{a}+\boldsymbol{b}$; (3) $\boldsymbol{a}+\boldsymbol{c}$; (4) $\boldsymbol{b}+\boldsymbol{d}$; (5) $\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{b}$; (6) $\boldsymbol{d}+\boldsymbol{a}+\boldsymbol{d}$.
 
 ### Solution to Problem 1
 
-By **Formula 5.5.1** (Cosine of a Difference).
+By **Definition 6.2.1 (Triangle Rule)** and **Common Conclusion 6.2.3** (Operation Laws).
 
-From $\alpha\in\left(\frac{\pi}{2},\pi\right)$ and $\sin\alpha=\frac{2}{3}$, we get $\cos\alpha=-\frac{\sqrt{5}}{3}$. From $\beta\in\left(\pi,\frac{3\pi}{2}\right)$ and $\cos\beta=-\frac{3}{4}$, we get $\sin\beta=-\frac{\sqrt{7}}{4}$. Hence
+(1) Walk $20\text{ km}$ east.
 
-$$
-\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\left(-\frac{\sqrt{5}}{3}\right)\left(-\frac{3}{4}\right)+\frac{2}{3}\left(-\frac{\sqrt{7}}{4}\right)=\frac{3\sqrt{5}-2\sqrt{7}}{12}.
-$$
+(2) Walk $5\text{ km}$ east.
 
-$\blacksquare$
+(3) Walk northeast, $10\text{ km}$ east and $10\text{ km}$ north.
+
+(4) Walk southwest, $5\text{ km}$ west and $5\text{ km}$ south.
+
+(5) Walk $10\text{ km}$ west and then $10\text{ km}$ north, i.e. northwest.
+
+(6) Walk $10\text{ km}$ south and then $10\text{ km}$ east, i.e. southeast. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 5.5, Review and Consolidation, Problem 2) Given that $\alpha$ and $\beta$ are both acute angles, $\cos\alpha=\frac{1}{7}$ and $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, find the value of $\cos\beta$.
+(Exercise 6.2, Review and Consolidation, Problem 2) An airplane flies $300\text{ km}$ north, then changes direction and flies $400\text{ km}$ west. Find the total distance traveled by the airplane and the resultant of the two displacements.
 
 ### Solution to Problem 2
 
-By **Formula 5.5.1** (Cosine of a Difference), $\beta=\left(\alpha+\beta\right)-\alpha$.
+By **Definition 6.2.1 (Triangle Rule)**.
 
-Since $\alpha$ is acute and $\cos\alpha=\frac{1}{7}$, we get $\sin\alpha=\frac{4\sqrt{3}}{7}$. Since $\alpha+\beta\in\left(0,\pi\right)$ and $\cos\left(\alpha+\beta\right)=-\frac{11}{14}$, we get $\sin\left(\alpha+\beta\right)=\frac{5\sqrt{3}}{14}$. Hence
-
-$$
-\cos\beta=\cos\left[\left(\alpha+\beta\right)-\alpha\right]=\cos\left(\alpha+\beta\right)\cos\alpha+\sin\left(\alpha+\beta\right)\sin\alpha=\left(-\frac{11}{14}\right)\frac{1}{7}+\frac{5\sqrt{3}}{14}\cdot\frac{4\sqrt{3}}{7}=\frac{-11+60}{98}=\frac{7}{14}=\frac{1}{2}.
-$$
-
-$\blacksquare$
+The distance traveled is $300+400=700\text{ km}$. The magnitude of the resultant of the two displacements is $\sqrt{300^2+400^2}=500\text{ km}$, in the direction $\arctan\frac{400}{300}\approx53.1^{\circ}$ west of north. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 5.5, Review and Consolidation, Problem 3) Given $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$ and $60^{\circ}< \alpha< 150^{\circ}$, find the value of $\cos\alpha$.
+(Exercise 6.2, Review and Consolidation, Problem 3) A boat sails perpendicular to the opposite bank at a speed of $16\text{ km/h}$, while the river current flows at $4\text{ km/h}$. Find the magnitude and direction of the boat's actual velocity (to the nearest $1^{\circ}$).
 
 ### Solution to Problem 3
 
-By **Formula 5.5.2** (Cosine of a Sum), $\alpha=\left(30^{\circ}+\alpha\right)-30^{\circ}$.
+By **Definition 6.2.2 (Parallelogram Rule)**.
 
-From $60^{\circ}< \alpha< 150^{\circ}$, we get $90^{\circ}< 30^{\circ}+\alpha< 180^{\circ}$, hence $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. Hence
-
-$$
-\cos\alpha=\cos\left[\left(30^{\circ}+\alpha\right)-30^{\circ}\right]=\cos\left(30^{\circ}+\alpha\right)\cos30^{\circ}+\sin\left(30^{\circ}+\alpha\right)\sin30^{\circ}=\left(-\frac{4}{5}\right)\frac{\sqrt{3}}{2}+\frac{3}{5}\cdot\frac{1}{2}=\frac{3-4\sqrt{3}}{10}.
-$$
-
-$\blacksquare$
+The boat's speed is $16\text{ km/h}$ perpendicular to the bank, and the current is $4\text{ km/h}$ along the bank. The magnitude of the resultant velocity is $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{ km/h}$. The angle $\theta$ between the direction and the perpendicular to the bank satisfies $\tan\theta=\frac{4}{16}=\frac{1}{4}$, so $\theta\approx14^{\circ}$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 5.5, Review and Consolidation, Problem 4) In $\triangle ABC$, given $\cos A=\frac{12}{13}$ and $\cos B=\frac{3}{5}$, find the value of $\cos C$.
+(Exercise 6.2, Review and Consolidation, Problem 4) Simplify.
+
+(1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
+
+(2) $\left(\boldsymbol{AB}+\boldsymbol{MB}\right)+\boldsymbol{BO}+\boldsymbol{OM}$;
+
+(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}$;
+
+(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}$;
+
+(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}$;
+
+(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}$;
+
+(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}$.
 
 ### Solution to Problem 4
 
-From $C=\pi-\left(A+B\right)$, we get $\cos C=-\cos\left(A+B\right)$.
+By **Definition 6.2.1 (Triangle Rule)** and **Definition 6.2.5 (Subtraction of Vectors)**.
 
-From $\cos A=\frac{12}{13}$, we get $\sin A=\frac{5}{13}$. From $\cos B=\frac{3}{5}$, we get $\sin B=\frac{4}{5}$. Hence
+(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, and adding $\boldsymbol{CA}$ gives $\boldsymbol{0}$.
 
-$$
-\cos C=-\cos\left(A+B\right)=-\left(\cos A\cos B-\sin A\sin B\right)=-\left(\frac{12}{13}\cdot\frac{3}{5}-\frac{5}{13}\cdot\frac{4}{5}\right)=-\frac{36-20}{65}=-\frac{16}{65}.
-$$
+(2) $\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}=\boldsymbol{AB}+\left(\boldsymbol{MB}+\boldsymbol{BO}+\boldsymbol{OM}\right)=\boldsymbol{AB}+\boldsymbol{MB}+\boldsymbol{BM}=\boldsymbol{AB}$.
 
-$\blacksquare$
+(3) $\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{BO}+\boldsymbol{CO}=\left(\boldsymbol{OA}+\boldsymbol{BO}\right)+\left(\boldsymbol{OC}+\boldsymbol{CO}\right)=\boldsymbol{OA}+\boldsymbol{BO}=\boldsymbol{BA}$.
+
+(4) $\boldsymbol{AB}-\boldsymbol{AC}+\boldsymbol{BD}-\boldsymbol{CD}=\boldsymbol{CB}+\boldsymbol{BD}+\boldsymbol{DC}=\boldsymbol{CB}+\boldsymbol{BC}=\boldsymbol{0}$.
+
+(5) $\boldsymbol{OA}-\boldsymbol{OD}+\boldsymbol{AD}=\boldsymbol{DA}+\boldsymbol{AD}=\boldsymbol{0}$.
+
+(6) $\boldsymbol{AB}-\boldsymbol{AD}-\boldsymbol{DC}=\boldsymbol{DB}-\boldsymbol{DC}=\boldsymbol{CB}$.
+
+(7) $\boldsymbol{NQ}+\boldsymbol{QP}+\boldsymbol{MN}-\boldsymbol{MP}=\boldsymbol{NP}+\boldsymbol{MN}+\boldsymbol{PM}=\boldsymbol{MN}+\boldsymbol{NP}+\boldsymbol{PM}=\boldsymbol{0}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 5.5, Review and Consolidation, Problem 5) Given $\tan\left(\alpha+\beta\right)=3$ and $\tan\left(\alpha-\beta\right)=5$, find the values of $\tan2\alpha$ and $\tan2\beta$.
+(Exercise 6.2, Review and Consolidation, Problem 5) Verify by construction:
+
+(1) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)+\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}$;
+
+(2) $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{b}$.
+
+The figure: from a common tail draw the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$; first construct $\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$ and $\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}\right)$ and add them to obtain $\boldsymbol{a}$; in another construction subtract the two to obtain $\boldsymbol{b}$, verifying the two identities.
 
 ### Solution to Problem 5
 
-Since $2\alpha=\left(\alpha+\beta\right)+\left(\alpha-\beta\right)$ and $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$.
+By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
-By **Formula 5.5.5**, we get $\tan2\alpha=\frac{3+5}{1-3\times5}=\frac{8}{-14}=-\frac{4}{7}$.
+(1) The left-hand side $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}=\boldsymbol{a}=$ the right-hand side.
 
-By **Formula 5.5.6**, we get $\tan2\beta=\frac{3-5}{1+3\times5}=\frac{-2}{16}=-\frac{1}{8}$. $\blacksquare$
+(2) The left-hand side $=\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\boldsymbol{b}=$ the right-hand side. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 5.5, Review and Consolidation, Problem 6) Simplify:
+(Exercise 6.2, Review and Consolidation, Problem 6)
 
-(1) $\sin347^{\circ}\cos148^{\circ}+\sin77^{\circ}\cos58^{\circ}$;
+(1) Given the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, construct a vector $\boldsymbol{c}$ such that $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
 
-(2) $\sin164^{\circ}\sin224^{\circ}+\sin254^{\circ}\sin314^{\circ}$;
-
-(3) $\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)-\cos\left(\beta+\alpha\right)\sin\left(\beta-\gamma\right)$;
-
-(4) $\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\gamma-\beta\right)$;
-
-(5) $\frac{\tan\frac{5\pi}{12}+\tan\frac{\pi}{12}}{1-\tan\frac{5\pi}{12}\tan\frac{\pi}{12}}$;
-
-(6) $\frac{2\sin\alpha\sin\beta+\cos\left(\alpha+\beta\right)}{\cos\left(\alpha-\beta\right)}$.
+(2) In (1), can the directed segments representing $\boldsymbol{a}$, $\boldsymbol{b}$, and $\boldsymbol{c}$ form a triangle?
 
 ### Solution to Problem 6
 
-By **Formula 5.5.1** through **Formula 5.5.6**.
+By **Definition 6.2.1 (Triangle Rule)**.
 
-(1) From $\sin347^{\circ}=\sin\left(-13^{\circ}\right)=-\sin13^{\circ}$ and $\cos148^{\circ}=-\cos32^{\circ}$, the original expression $=\sin13^{\circ}\cos32^{\circ}+\cos13^{\circ}\sin32^{\circ}=\sin45^{\circ}=\frac{\sqrt{2}}{2}$.
+(1) Draw $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{BC}=\boldsymbol{b}$; then $\boldsymbol{AC}=\boldsymbol{a}+\boldsymbol{b}$. Take $\boldsymbol{c}=-\boldsymbol{AC}$, namely the vector from $C$ to $A$; then $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\boldsymbol{0}$.
 
-(2) By the reduction formulas, the original expression $=-\sin16^{\circ}\sin36^{\circ}+\cos16^{\circ}\cos36^{\circ}=\cos\left(16^{\circ}+36^{\circ}\right)=\cos52^{\circ}$.
-
-(3) From $\sin\left(\beta-\gamma\right)=-\sin\left(\gamma-\beta\right)$, the original expression $=\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)+\cos\left(\alpha+\beta\right)\sin\left(\gamma-\beta\right)=\sin\left(\alpha+\beta+\gamma-\beta\right)=\sin\left(\alpha+\gamma\right)$.
-
-(4) From $\cos\left(\gamma-\beta\right)=\cos\left(\beta-\gamma\right)$, the original expression $=\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\beta-\gamma\right)=-\cos\left[\left(\alpha-\beta\right)+\left(\beta-\gamma\right)\right]=-\cos\left(\alpha-\gamma\right)$.
-
-(5) By **Formula 5.5.5**, the original expression $=\tan\left(\frac{5\pi}{12}+\frac{\pi}{12}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
-
-(6) From $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$ and $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$, the numerator $=2\sin\alpha\sin\beta+\cos\alpha\cos\beta-\sin\alpha\sin\beta=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos\left(\alpha-\beta\right)$. Hence the original expression $=1$. $\blacksquare$
+(2) The three directed segments join head to tail and form a triangle. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 5.5, Review and Consolidation, Problem 7) Given $\sin\alpha=0.8$ and $\alpha\in\left(0,\frac{\pi}{2}\right)$, find the values of $\sin2\alpha$ and $\cos2\alpha$.
+(Exercise 6.2, Review and Consolidation, Problem 7) Given that $\boldsymbol{a}$ and $\boldsymbol{b}$ are two nonzero vectors.
+
+(1) Construct the vectors $\boldsymbol{a}+\boldsymbol{b}$ and $\boldsymbol{a}-\boldsymbol{b}$;
+
+(2) What positional relation between the vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ gives $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$? (Proof not required.)
 
 ### Solution to Problem 7
 
-By **Formula 5.5.7** and **Formula 5.5.8**.
+By **Definition 6.2.1 (Triangle Rule)** and **Definition 6.2.5 (Vector Subtraction)**.
 
-From $\sin\alpha=0.8=\frac{4}{5}$ and $\alpha\in\left(0,\frac{\pi}{2}\right)$, we get $\cos\alpha=\frac{3}{5}$. Hence $\sin2\alpha=2\sin\alpha\cos\alpha=2\times\frac{4}{5}\times\frac{3}{5}=\frac{24}{25}$, and $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{16}{25}=-\frac{7}{25}$. $\blacksquare$
+(1) Omitted.
+
+(2) Expanding $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}\right)^2$ gives $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, i.e. $\boldsymbol{a}\perp\boldsymbol{b}$. Thus the condition holds when $\boldsymbol{a}$ and $\boldsymbol{b}$ are perpendicular. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 5.5, Review and Consolidation, Problem 8) Prove:
+(Exercise 6.2, Review and Consolidation, Problem 8) Simplify.
 
-(1) $\left(\sin2\alpha-\cos2\alpha\right)^{2}=1-\sin4\alpha$;
+(1) $5\left(2\boldsymbol{a}-2\boldsymbol{b}\right)+4\left(2\boldsymbol{b}-3\boldsymbol{a}\right)$;
 
-(2) $\tan\left(\frac{x}{2}+\frac{\pi}{4}\right)+\tan\left(\frac{x}{2}-\frac{\pi}{4}\right)=2\tan x$;
+(2) $6\left(\boldsymbol{a}-3\boldsymbol{b}+\boldsymbol{c}\right)-4\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$;
 
-(3) $\frac{1+\sin2\varphi}{\cos\varphi+\sin\varphi}=\cos\varphi+\sin\varphi$;
+(3) $\frac{1}{2}\left(3\boldsymbol{a}-2\boldsymbol{b}\right)+5\boldsymbol{a}-\frac{1}{3}\left(6\boldsymbol{a}-9\boldsymbol{b}\right)$;
 
-(4) $\frac{2\sin\alpha\cos\alpha}{\cos^{2}\alpha-\sin^{2}\alpha}=\frac{2\tan\alpha}{\left(1-\tan\alpha\right)\left(1+\tan\alpha\right)}$;
-
-(5) $\frac{1-\cos2\theta}{1+\cos2\theta}=\tan^{2}\theta$;
-
-(6) $\frac{1+\sin2\theta-\cos2\theta}{1+\sin2\theta+\cos2\theta}=\tan\theta$.
+(4) $\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}\right)-\left(x-y\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
 
 ### Solution to Problem 8
 
-By **Formula 5.5.7** through **Formula 5.5.9**.
+By **Common Conclusion 6.2.7** (Operation Laws for Scalar Multiplication).
 
-(1) The left side $=\sin^{2}2\alpha-2\sin2\alpha\cos2\alpha+\cos^{2}2\alpha=1-\sin4\alpha=$ the right side.
+(1) The original expression $=10\boldsymbol{a}-10\boldsymbol{b}+8\boldsymbol{b}-12\boldsymbol{a}=-2\boldsymbol{a}-2\boldsymbol{b}$.
 
-(2) Let $u=\tan\frac{x}{2}$. By **Formula 5.5.5** and **Formula 5.5.6**, the left side $=\frac{u+1}{1-u}+\frac{u-1}{1+u}=\frac{\left(u+1\right)^{2}-\left(1-u\right)^{2}}{1-u^{2}}=\frac{4u}{1-u^{2}}=2\cdot\frac{2u}{1-u^{2}}=2\tan x=$ the right side.
+(2) The original expression $=6\boldsymbol{a}-18\boldsymbol{b}+6\boldsymbol{c}+4\boldsymbol{a}-4\boldsymbol{b}+4\boldsymbol{c}=10\boldsymbol{a}-22\boldsymbol{b}+10\boldsymbol{c}$.
 
-(3) The left side $=\frac{\left(\sin\varphi+\cos\varphi\right)^{2}}{\cos\varphi+\sin\varphi}=\sin\varphi+\cos\varphi=$ the right side.
+(3) The original expression $=\frac{3}{2}\boldsymbol{a}-\boldsymbol{b}+5\boldsymbol{a}-2\boldsymbol{a}+3\boldsymbol{b}=\frac{9}{2}\boldsymbol{a}+2\boldsymbol{b}$.
 
-(4) The left side $=\frac{\sin2\alpha}{\cos2\alpha}=\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=$ the right side.
-
-(5) The left side $=\frac{2\sin^{2}\theta}{2\cos^{2}\theta}=\tan^{2}\theta=$ the right side.
-
-(6) The left side $=\frac{2\sin^{2}\theta+2\sin\theta\cos\theta}{2\cos^{2}\theta+2\sin\theta\cos\theta}=\frac{2\sin\theta\left(\sin\theta+\cos\theta\right)}{2\cos\theta\left(\cos\theta+\sin\theta\right)}=\tan\theta=$ the right side. $\blacksquare$
+(4) The original expression $=\left(x-y\right)\left(\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{a}+\boldsymbol{b}\right)=2\left(x-y\right)\boldsymbol{b}$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 5.5, Review and Consolidation, Problem 9) Given $\sin\left(\alpha+\beta\right)=\frac{1}{2}$ and $\sin\left(\alpha-\beta\right)=\frac{1}{3}$, prove:
+(Exercise 6.2, Review and Consolidation, Problem 9) As shown in the figure, $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$ and $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$. Prove that $\boldsymbol{MN}=\frac{1}{3}\boldsymbol{BC}$.
 
-(1) $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$;
-
-(2) $\tan\alpha=5\tan\beta$.
+The figure: triangle $ABC$, with point $M$ on side $AB$ such that $\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AB}$ and point $N$ on side $AC$ such that $\boldsymbol{AN}=\frac{1}{3}\boldsymbol{AC}$; $MN$ is joined, and segment $MN$ is parallel to $BC$ with $MN=\frac{1}{3}BC$.
 
 ### Solution to Problem 9
 
-By **Formula 5.5.3** and **Formula 5.5.4**.
+By **Theorem 6.2.8 (Collinear Vector Theorem)**.
 
-(1) Since $\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\frac{1}{2}$ and $\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\frac{1}{3}$. Adding the two equations gives $2\sin\alpha\cos\beta=\frac{5}{6}$, and subtracting gives $2\cos\alpha\sin\beta=\frac{1}{6}$. Hence $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$.
-
-(2) Dividing both sides of (1) by $\cos\alpha\cos\beta$ gives $\tan\alpha=5\tan\beta$. $\blacksquare$
+$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\frac{1}{3}\boldsymbol{AB}=\frac{1}{3}\left(\boldsymbol{AC}-\boldsymbol{AB}\right)=\frac{1}{3}\boldsymbol{BC}$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 5.5, Review and Consolidation, Problem 10) Given $\frac{1-\tan\theta}{2+\tan\theta}=1$, prove that $\tan2\theta=-4\tan\left(\theta+\frac{\pi}{4}\right)$.
+(Exercise 6.2, Review and Consolidation, Problem 10) Fill in the blanks.
+
+(1) If $\boldsymbol{a}$ and $\boldsymbol{b}$ satisfy $\lvert\boldsymbol{a}\rvert=2$ and $\lvert\boldsymbol{b}\rvert=3$, then the maximum value of $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$ is $\;\_\_\;$, and the minimum value is $\;\_\_\;$;
+
+(2) When the non-collinear vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ satisfy $\;\_\_\;$, $\boldsymbol{a}+\boldsymbol{b}$ bisects the angle between $\boldsymbol{a}$ and $\boldsymbol{b}$.
 
 ### Solution to Problem 10
 
-From the given condition, $1-\tan\theta=2+\tan\theta$, i.e. $\tan\theta=-\frac{1}{2}$.
+By **Common Conclusion 6.2.3** (Triangle Inequality).
 
-The left side $=\tan2\theta=\frac{2\tan\theta}{1-\tan^{2}\theta}=\frac{-1}{1-\frac{1}{4}}=-\frac{4}{3}$.
+(1) Maximum when in the same direction: $2+3=5$; minimum when in opposite directions: $\left|2-3\right|=1$.
 
-The right side $=-4\tan\left(\theta+\frac{\pi}{4}\right)=-4\cdot\frac{\tan\theta+1}{1-\tan\theta}=-4\cdot\frac{-\frac{1}{2}+1}{1+\frac{1}{2}}=-4\cdot\frac{1}{3}=-\frac{4}{3}$.
-
-The left side $=$ the right side, which proves the result. $\blacksquare$
+(2) When $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$, the parallelogram is a rhombus, and the diagonal bisects the angle. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 5.5, Review and Consolidation, Problem 11) Given that the sine of the central angle subtended by an arc equals $\frac{3}{5}$, find the sine, cosine and tangent of the inscribed angle subtended by the same arc.
+(Exercise 6.2, Review and Consolidation, Problem 11)
+
+(1) Given $\lvert\boldsymbol{a}\rvert=3$, $\lvert\boldsymbol{b}\rvert=4$, and the angle $\theta=150^{\circ}$ between $\boldsymbol{a}$ and $\boldsymbol{b}$, find $\boldsymbol{a}\cdot\boldsymbol{b}$, $\left(\boldsymbol{a}+\boldsymbol{b}\right)^2$, and $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$;
+
+(2) Given $\lvert\boldsymbol{a}\rvert=2$, $\lvert\boldsymbol{b}\rvert=5$, and $\boldsymbol{a}\cdot\boldsymbol{b}=-3$, find $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$ and $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$.
 
 ### Solution to Problem 11
 
-By **Formula 5.5.10** (Half-Angle Formulas).
+By **Definition 6.2.11 (Dot Product)** and **Common Conclusion 6.2.13**.
 
-Let the central angle be $2\theta$, then the inscribed angle is $\theta$. From $\sin2\theta=\frac{3}{5}$, we get $\cos2\theta=\pm\frac{4}{5}$.
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt 3}{2}\right)=-6\sqrt 3$.
 
-If $\cos2\theta=\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1-\cos2\theta}{2}}=\sqrt{\frac{1}{10}}=\frac{\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1+\cos2\theta}{2}}=\frac{3\sqrt{10}}{10}$, $\tan\theta=\frac{1}{3}$.
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt 3+16=25-12\sqrt 3$.
 
-If $\cos2\theta=-\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\frac{3\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1-\frac{4}{5}}{2}}=\frac{\sqrt{10}}{10}$, $\tan\theta=3$. $\blacksquare$
+$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt 3}$.
+
+(2) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=4-6+25=23$, so $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{23}$.
+
+$\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=4+6+25=35$, so $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert=\sqrt{35}$. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 5.5, Review and Consolidation, Problem 12) Simplify:
-
-(1) $3\sqrt{15}\sin x+3\sqrt{5}\cos x$;
-
-(2) $\frac{\sqrt{3}}{2}\cos x-\frac{1}{2}\sin x$;
-
-(3) $\sqrt{3}\sin\frac{x}{2}+\cos\frac{x}{2}$;
-
-(4) $\frac{\sqrt{2}}{4}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{6}}{4}\cos\left(\frac{\pi}{4}-x\right)$.
+(Exercise 6.2, Review and Consolidation, Problem 12) Prove that $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$.
 
 ### Solution to Problem 12
 
-By **Formula 5.5.11** (Auxiliary Angle Formula).
+By **Definition 6.2.11 (Dot Product)**.
 
-(1) The original expression $=6\sqrt{5}\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=6\sqrt{5}\sin\left(x+\frac{\pi}{6}\right)$.
+$\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
 
-(2) The original expression $=\cos\frac{\pi}{6}\cos x-\sin\frac{\pi}{6}\sin x=\cos\left(x+\frac{\pi}{6}\right)$.
-
-(3) The original expression $=2\left(\frac{\sqrt{3}}{2}\sin\frac{x}{2}+\frac{1}{2}\cos\frac{x}{2}\right)=2\sin\left(\frac{x}{2}+\frac{\pi}{6}\right)$.
-
-(4) The original expression $=\frac{\sqrt{2}}{2}\left(\frac{1}{2}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{3}}{2}\cos\left(\frac{\pi}{4}-x\right)\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{\pi}{4}-x+\frac{\pi}{3}\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{7\pi}{12}-x\right)$. $\blacksquare$
+$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. When $\lambda< 0$, the angle changes but the sign of the cosine is the same, so the equality still holds. By the same argument, $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ is identical. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 5.5, Comprehensive Application, Problem 13) In $\triangle ABC$, given that $\tan A$ and $\tan B$ are the two real roots of the equation in $x$, $x^{2}+p\left(x+1\right)+1=0$, find $\angle C$.
+(Exercise 6.2, Comprehensive Application, Problem 13) According to the conditions in each part below, determine the shape of the quadrilateral $ABCD$ and give a proof.
+
+(1) $\boldsymbol{AD}=\boldsymbol{BC}$;
+
+(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$;
+
+(3) $\boldsymbol{AB}=\boldsymbol{DC}$, and $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$.
 
 ### Solution to Problem 13
 
-By Vieta's formulas and **Formula 5.5.5**.
+By **Definition 6.1.7 (Equal Vectors)** and **Theorem 6.2.8 (Collinear Vector Theorem)**.
 
-From $\tan A+\tan B=-p$ and $\tan A\tan B=p+1$. Hence $\tan\left(A+B\right)=\frac{\tan A+\tan B}{1-\tan A\tan B}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. From $C=\pi-\left(A+B\right)$, we get $\tan C=-\tan\left(A+B\right)=-1$, hence $C=135^{\circ}$. $\blacksquare$
+(1) $\boldsymbol{AD}=\boldsymbol{BC}$ means that $AD$ and $BC$ are parallel and equal, so $ABCD$ is a parallelogram.
 
-## Problem 14
+(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$ means $AD\parallel BC$ but $AD=\frac{1}{3}BC$, so $ABCD$ is a trapezoid.
 
-(Exercise 5.5, Comprehensive Application, Problem 14) In $\triangle ABC$, $B=\frac{\pi}{4}$, and the altitude to side $BC$ equals $\frac{1}{3}BC$, then $\cos A=$ ( ).
-
-(A) $\frac{3\sqrt{10}}{10}$
-
-(B) $\frac{\sqrt{10}}{10}$
-
-(C) $-\frac{\sqrt{10}}{10}$
-
-(D) $-\frac{3\sqrt{10}}{10}$
-
-### Solution to Problem 14
-
-From the given conditions, set $BC=3$, then the altitude $AD=1$. In $\text{Rt}\triangle ABD$, $B=45^{\circ}$, $AD=1$, hence $BD=1$, $AB=\sqrt{2}$. $DC=BC-BD=2$. In $\text{Rt}\triangle ADC$, $AD=1$, $DC=2$, hence $AC=\sqrt{5}$.
-
-By **Formula 5.5.2**, $\cos A=\cos\left(\angle BAD+\angle DAC\right)$. $\angle BAD=45^{\circ}$, and $\tan\angle DAC=\frac{DC}{AD}=2$. Hence $\sin\angle DAC=\frac{2}{\sqrt{5}}$, $\cos\angle DAC=\frac{1}{\sqrt{5}}$.
-
-$$
-\cos A=\cos45^{\circ}\cos\angle DAC-\sin45^{\circ}\sin\angle DAC=\frac{\sqrt{2}}{2}\cdot\frac{1}{\sqrt{5}}-\frac{\sqrt{2}}{2}\cdot\frac{2}{\sqrt{5}}=-\frac{\sqrt{10}}{10}.
-$$
-
-Choose (C). $\blacksquare$
-
-### Application of Information Technology 1
-
-(Thinking 1) Read the article "Using Information Technology to Make Trigonometric Tables", and explain how to recursively compute trigonometric values using the sum-angle formulas.
-
-### Solution to Application of Information Technology 1
-
-By **Formula 5.5.3** (Sine of a Sum).
-
-Take the initial values $\sin1'\approx0.000290888$, $\cos1'=\sqrt{1-\sin^{2}1'}$. Set $\alpha_{0}=1'$, $\alpha_{n}=\alpha_{n-1}+1'$. From $\sin\alpha_{n}=\sin1'\cos\alpha_{n-1}+\cos1'\sin\alpha_{n-1}$ and $\cos\alpha_{n}=\sqrt{1-\sin^{2}\alpha_{n}}$, one can recursively compute the trigonometric values at intervals of $1'$ within $0^{\circ}\sim90^{\circ}$. $\blacksquare$
+(3) $\boldsymbol{AB}=\boldsymbol{DC}$ means $AB\parallel DC$ and $AB=DC$, so it is a parallelogram; moreover $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$, so the adjacent sides are equal, and hence it is a rhombus. $\blacksquare$

@@ -1,465 +1,441 @@
 # week42
-> **Definition 8.1.4 (棱柱)**
+> **Definition 1.1.1 (空间向量)**
 > 
-> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
-> **Corollary 8.4.6 (推论 2)**
+> 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模.
+> **Definition 1.1.2 (Opposite Vector)**
 > 
-> 经过两条相交直线, 有且只有一个平面.
-> **Definition 8.4.9 (直线与平面的位置关系)**
+> 与向量 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **Definition 1.1.3 (Collinear or Parallel Vectors)**
 > 
-> 用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应把直线画在 表示平面α的平行四边形 内;直线在平面α外, 应把直线或它的一部分 画在表示平面α的平行四 边形外. (２)直线与平面相交———有且只有一个公共点; (３)直线与平面平行———没有公共点. 当直线与平面相交或平行时,直线不在平面内,也称为 直线在平面外. 图８.４１３表示了直线与平面的三种位置关系. α a α a A α a 图８.４１３ 直线与平面α相交于点,记作∩α＝;直线与平面α平行,记作∥α. ９２１ 下面我们研究空间中直线,平面之间的位置关系,
-> **Theorem 8.5.2 (Equal Angles Theorem)**
+> 方向相同或相反的非零向量叫做平行向量 (或共线向量). 规定零向量与任一向量平行.
+> **Definition 1.1.4 (Equal Vectors)**
 > 
-> 如果一个角的两边和另一个角的两边分别平行, 那么这两个角相等或互补.
-> **Theorem 8.5.3 (直线与平面平行的判定定理)**
+> 长度相等且方向相同的向量叫做相等向量.
+> **Definition 1.1.5 (Membership)**
 > 
-> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
-> **Theorem 8.5.4 (直线与平面平行的性质定理)**
+> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> **Definition 1.1.12 (向量的数量积)**
 > 
-> 一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
-> **Theorem 8.5.5 (平面与平面平行的判定定理)**
-> 
-> 一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
-> **Theorem 8.5.6 (Property Theorem of Parallel Planes)**
-> 
-> 两个平行平面同时和第三个平面相交, 所得的交线平行.
+> 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
 
 ## Exercise 1
 
-(Exercise 8.5, Problem 1) As shown in the figure, fold a rectangular sheet of paper several times and then unfold it. Are the resulting creases parallel to one another? Why?
+(Exercise 1.1, Problem 3) In Figure 1.1-6, express $\boldsymbol{AC'}$, $\boldsymbol{BD'}$ and $\boldsymbol{DB'}$ in terms of $\boldsymbol{AB}$, $\boldsymbol{AD}$, $\boldsymbol{AA'}$.
 
-(Figure: a rectangular sheet folded twice and unfolded, showing three parallel creases.)
+(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$.)
 
 ### Solution to Exercise 1
 
-By **Basic Fact 8.5.1** (Basic Fact 4), two lines parallel to the same line are parallel to each other.
+By **Definition 1.1.5 (Linear Operations on Spatial Vectors)** and the parallelepiped rule.
 
-Each crease is parallel to the same side of the original rectangle, so all the creases are parallel to the same line. By **Basic Fact 8.5.1** (Basic Fact 4), these creases are parallel to one another. $\blacksquare$
+In the parallelepiped $ABCD-A'B'C'D'$:
+
+$$
+\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}.
+$$
+
+$$
+\boldsymbol{BD'}=\boldsymbol{BA}+\boldsymbol{AA'}+\boldsymbol{A'D'}=-\boldsymbol{AB}+\boldsymbol{AA'}+\boldsymbol{AD}.
+$$
+
+$$
+\boldsymbol{DB'}=\boldsymbol{DA}+\boldsymbol{AA'}+\boldsymbol{A'B'}=-\boldsymbol{AD}+\boldsymbol{AA'}+\boldsymbol{AB}.
+$$
+
+$\blacksquare$
 
 ## Exercise 2
 
-(Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, how many edges are parallel to the edge $AA'$? Which edges are they?
+(Exercise 1.1, Problem 4) As shown in the figure, given a tetrahedron $ABCD$, $E$, $F$ are the midpoints of $BC$, $CD$, respectively. Simplify the following expressions and mark the simplified results in the figure:
 
-(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
+(1) $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}$;
+
+(2) $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)$;
+
+(3) $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)$.
+
+(Figure: a tetrahedron $ABCD$ with $E$ the midpoint of $BC$ and $F$ the midpoint of $CD$.)
 
 ### Solution to Exercise 2
 
-By **Basic Fact 8.5.1** (Basic Fact 4) and the properties of the edges of a cuboid.
+By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, simplify using the triangle rule for vector addition.
 
-The cuboid has $12$ edges, among which the $4$ mutually parallel lateral edges are $AA'$, $BB'$, $CC'$, $DD'$. Besides $AA'$ itself, there are $3$ edges parallel to $AA'$, namely $BB'$, $CC'$, $DD'$. $\blacksquare$
+(1) By **Definition 1.1.5 (Membership)**, $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, hence $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\boldsymbol{AC}+\boldsymbol{CD}=\boldsymbol{AD}$.
+
+(2) Since $E$ is the midpoint of $BC$, by **Definition 1.1.5 (Membership)**, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BE}+\boldsymbol{EC}=\boldsymbol{BE}+\boldsymbol{ED}$ (since $E$ is the midpoint of $BC$, $\boldsymbol{BE}=\frac{1}{2}\boldsymbol{BC}$; $F$ is the midpoint of $CD$, $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$). In fact, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BF}$ (since in $\triangle BCD$, $F$ is the midpoint of $CD$, $\boldsymbol{BF}=\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)$). Hence $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{AB}+\boldsymbol{BF}=\boldsymbol{AF}$.
+
+(3) Since $E$ is the midpoint of $BC$, $\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AE}$. Hence $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AF}-\boldsymbol{AE}=\boldsymbol{EF}$. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 8.5, Problem 3) As shown in the figure, $AA'$, $BB'$, $CC'$ are not coplanar, and $AA'=\ BB'$, $BB'=\ CC'$. Prove that $\triangle ABC\cong\triangle A'B'C'$.
+(Exercise 1.1, Problem 5) As shown in the figure, given a cube $ABCD-A'B'C'D'$, $E$, $F$ are the centers of the upper face $A'C'$ and the lateral face $CD'$, respectively. Find the values of $x$, $y$ in the following:
 
-(Figure: two triangles $ABC$ and $A'B'C'$ with corresponding vertices joined by parallel equal segments $AA',BB',CC'$.)
+(1) $\boldsymbol{AC'}=x\left(\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}\right)$;
+
+(2) $\boldsymbol{AE}=\boldsymbol{AA'}+x\boldsymbol{AB}+y\boldsymbol{AD}$;
+
+(3) $\boldsymbol{AF}=\boldsymbol{AD}+x\boldsymbol{AB}+y\boldsymbol{AA'}$.
+
+(Figure: a cube $ABCD\text{-}A'B'C'D'$ with $E$ the center of the upper face $A'C'$ and $F$ the center of side face $CD'$.)
 
 ### Solution to Exercise 3
 
-By **Basic Fact 8.5.1** (Basic Fact 4) and **Theorem 8.5.2 (Equal-Angle Theorem)**.
+By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, express the vectors in terms of the basis $\left\{\boldsymbol{AB}, \boldsymbol{AD}, \boldsymbol{AA'}\right\}$.
 
-Since $AA'=\ BB'$, the quadrilateral $ABB'A'$ is a parallelogram, so $AB\parallel A'B'$ and $AB=A'B'$. Similarly, since $BB'=\ CC'$, $BC\parallel B'C'$ and $BC=B'C'$.
+(1) By **Definition 1.1.5 (Membership)**, $\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}$. Comparing, we get $x=1$.
 
-By **Theorem 8.5.2 (Equal-Angle Theorem)**, the two sides of $\angle ABC$ and those of $\angle A'B'C'$ are respectively parallel and in the same direction, so $\angle ABC=\angle A'B'C'$.
+(2) $E$ is the center of the upper face $A'C'$, i.e. the center of the square $A'B'C'D'$. Hence $\boldsymbol{AE}=\boldsymbol{AA'}+\boldsymbol{A'E}$, where $\boldsymbol{A'E}=\frac{1}{2}\left(\boldsymbol{A'B'}+\boldsymbol{A'D'}\right)=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AD}\right)$. Therefore $\boldsymbol{AE}=\boldsymbol{AA'}+\frac{1}{2}\boldsymbol{AB}+\frac{1}{2}\boldsymbol{AD}$, and comparing gives $x=\frac{1}{2}$, $y=\frac{1}{2}$.
 
-In $\triangle ABC$ and $\triangle A'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\angle A'B'C'$, hence $\triangle ABC\cong\triangle A'B'C'$. $\blacksquare$
+(3) $F$ is the center of the lateral face $CD'$, i.e. the center of the square $CDD'C'$. Hence $\boldsymbol{AF}=\boldsymbol{AD}+\boldsymbol{DF}$, where $\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{DC}+\boldsymbol{DD'}\right)=\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AA'}\right)$. Therefore $\boldsymbol{AF}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AB}+\frac{1}{2}\boldsymbol{AA'}$, and comparing gives $x=\frac{1}{2}$, $y=\frac{1}{2}$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 8.5, Problem 4) As shown in the figure, in the tetrahedron $A\text{-}BCD$, $E$, $F$, $G$ are points on $AB$, $AC$, $AD$ respectively. If $EF\parallel BC$ and $FG\parallel CD$, what is the relationship between $\triangle EFG$ and $\triangle BCD$? Why?
+(Exercise 1.1, Problem 1) As shown in the figure, in a regular triangular prism $ABC-A_1B_1C_1$, if $AB=\sqrt{2}BB_1$, then the size of the angle between $AB_1$ and $BC_1$ is ( ).
 
-(Figure: a tetrahedron $A\text{-}BCD$ with $E$ on $AB$, $F$ on $AC$, $G$ on $AD$, and $EF,FG,EG$ joined.)
+(A) $60^\circ$ (B) $90^\circ$ (C) $105^\circ$ (D) $75^\circ$
+
+(Figure: a regular triangular prism $ABC\text{-}A_1B_1C_1$.)
 
 ### Solution to Exercise 4
 
-By **Theorem 8.5.2 (Equal-Angle Theorem)** and the proportional division of a segment by parallel lines.
+By **Definition 1.1.12 (Dot Product)**, the cosine of the angle between two vectors equals their dot product divided by the product of their moduli.
 
-Since $EF\parallel BC$ and $FG\parallel CD$, the corresponding sides are parallel and in the same direction, so $\angle EFG=\angle BCD$.
+Let $BB_1=1$, then $AB=\sqrt{2}$. Take $\left\{\boldsymbol{BA}, \boldsymbol{BC}, \boldsymbol{BB_1}\right\}$ as a basis, and set $\boldsymbol{BA}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{BB_1}=\boldsymbol{c}$. Then $\lvert \boldsymbol{a} \rvert=\sqrt{2}$, $\lvert \boldsymbol{b} \rvert=\sqrt{2}$, $\lvert \boldsymbol{c} \rvert=1$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=60^\circ$, $\boldsymbol{a} \perp \boldsymbol{c}$, $\boldsymbol{b} \perp \boldsymbol{c}$.
 
-Also, from $EF\parallel BC$, $\frac{EF}{BC}=\frac{AF}{AC}$; from $FG\parallel CD$, $\frac{FG}{CD}=\frac{AF}{AC}$. Hence $\frac{EF}{BC}=\frac{FG}{CD}$.
+$\boldsymbol{AB_1}=\boldsymbol{AB}+\boldsymbol{BB_1}=-\boldsymbol{a}+\boldsymbol{c}$.
 
-Since the corresponding sides are proportional and the included angle is equal, $\triangle EFG\sim\triangle BCD$. $\blacksquare$
+$\boldsymbol{BC_1}=\boldsymbol{BC}+\boldsymbol{CC_1}=\boldsymbol{b}+\boldsymbol{c}$.
+
+By **Common Conclusion 1.1.14** (Operational Laws of the Dot Product):
+
+$$
+\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=\left(-\boldsymbol{a}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c} \cdot \boldsymbol{c}.
+$$
+
+Because $\boldsymbol{a} \cdot \boldsymbol{c}=0$, $\boldsymbol{b} \cdot \boldsymbol{c}=0$, $\boldsymbol{c} \cdot \boldsymbol{c}=1$, and $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos 60^\circ=\sqrt{2} \cdot \sqrt{2} \cdot \frac{1}{2}=1$.
+
+Hence $\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=-1+0+0+1=0$.
+
+By **Common Conclusion 1.1.13** (Properties of the Dot Product), $\boldsymbol{AB_1} \perp \boldsymbol{BC_1}$, i.e. the angle between $AB_1$ and $BC_1$ is $90^\circ$. Hence the answer is (B). $\blacksquare$
 
 ## Exercise 5
 
-(Exercise 8.5, Problem 1) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$,
+(Exercise 1.1, Problem 2) As shown in the figure, the edge length of the cube $ABCD-A'B'C'D'$ is $1$; set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$. Find:
 
-(1) the plane parallel to $AB$ is $\;\_\_\;$;
+(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
 
-(2) the plane parallel to $AA'$ is $\;\_\_\;$;
+(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$;
 
-(3) the plane parallel to $AD$ is $\;\_\_\;$.
+(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$.
 
-(Figure: a perspective view of the cuboid $ABCD\text{-}A'B'C'D'$.)
+(Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$.)
 
 ### Solution to Exercise 5
 
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.14** (Operational Laws of the Dot Product).
 
-(1) $AB\parallel A'B'\subset$ plane $A'B'C'D'$, and $AB\parallel DC\subset$ plane $D'DC'C$, so the planes parallel to $AB$ are plane $A'B'C'D'$ and plane $D'DC'C$.
+In the cube, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular and each has modulus $1$, so $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{c} \cdot \boldsymbol{a}=0$, and $\boldsymbol{a} \cdot \boldsymbol{a}=\boldsymbol{b} \cdot \boldsymbol{b}=\boldsymbol{c} \cdot \boldsymbol{c}=1$.
 
-(2) $AA'\parallel BB'\subset$ plane $B'BCC'$, $AA'\parallel DD'\subset$ plane $D'DC'C$, so the planes parallel to $AA'$ are plane $B'BCC'$ and plane $D'DC'C$.
+(1) By the distributive law, $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
 
-(3) $AD\parallel A'D'\subset$ plane $A'B'C'D'$, $AD\parallel BC\subset$ plane $B'BCC'$, so the planes parallel to $AD$ are plane $A'B'C'D'$ and plane $B'BCC'$. $\blacksquare$
+(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{a}+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=1+0+0=1$.
+
+(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{b} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=0+0+1+0=1$. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 8.5, Problem 2) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E'$ is a point on $A'A$. Prove that $AB\parallel$ plane $DCC'D'$.
+(Exercise 1.1, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A'B'C'D'$, $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$. Find:
 
-(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E'$ a point on the lateral edge $A'A$.)
+(1) $\boldsymbol{AA'} \cdot \boldsymbol{AB}$;
+
+(2) the length of $AB'$;
+
+(3) the length of $AC'$.
+
+(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$ with $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$.)
 
 ### Solution to Exercise 6
 
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-In the cuboid, $AB\parallel DC$. Moreover, $DC\subset$ plane $DCC'D'$, and $AB\not\subset$ plane $DCC'D'$.
+Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=4$, $\lvert \boldsymbol{b} \rvert=3$, $\lvert \boldsymbol{c} \rvert=5$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=90^\circ$, $\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=60^\circ$, $\left\langle \boldsymbol{b}, \boldsymbol{c} \right\rangle=60^\circ$.
 
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, the line $AB$ outside the plane is parallel to the line $DC$ lying in the plane, so $AB\parallel$ plane $DCC'D'$. $\blacksquare$
+(1) By **Definition 1.1.12 (向量的数量积)**, $\boldsymbol{AA'} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \boldsymbol{a}=\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{a} \rvert \cos 60^\circ=5 \times 4 \times \frac{1}{2}=10$.
+
+(2) $\boldsymbol{AB'}=\boldsymbol{AB}+\boldsymbol{BB'}=\boldsymbol{a}+\boldsymbol{c}$. By **Common Conclusion 1.1.13**, $\lvert \boldsymbol{AB'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2=16+2 \times 10+25=61$. Hence $AB'=\sqrt{61}$.
+
+(3) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$. $\lvert \boldsymbol{AC'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2+2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$. Here $\boldsymbol{a} \cdot \boldsymbol{b}=0$, $\boldsymbol{a} \cdot \boldsymbol{c}=10$, and $\boldsymbol{b} \cdot \boldsymbol{c}=\lvert \boldsymbol{b} \rvert \lvert \boldsymbol{c} \rvert \cos 60^\circ=3 \times 5 \times \frac{1}{2}=7.5$. Hence $\lvert \boldsymbol{AC'} \rvert^2=16+9+25+0+20+15=85$. So $AC'=\sqrt{85}$. $\blacksquare$
 
 ## Exercise 7
 
-(Exercise 8.5, Problem 1) Determine whether the following statements are correct. If correct, explain why; if wrong, give a counterexample.
+(Exercise 1.1, Problem 4) As shown in the figure, the segments $AB$, $BD$ lie in the plane $\alpha$, $BD \perp AB$, $AC \perp \alpha$, and $AB=a$, $BD=b$, $AC=c$. Find the distance between the two points $C$ and $D$.
 
-(1) Given planes $\alpha$, $\beta$ and lines $m$, $n$, if $m\subset\alpha$, $n\subset\alpha$, $m\parallel\beta$, $n\parallel\beta$, then $\alpha\parallel\beta$.
-
-(2) If two non-parallel lines in a plane $\alpha$ are both parallel to another plane $\beta$, then $\alpha\parallel\beta$.
-
-(3) Two planes parallel to the same line are parallel.
-
-(4) Two planes parallel to the same plane are parallel.
-
-(5) If a line intersects one of two parallel planes, then it must intersect the other.
+(Figure: in plane $\alpha$, segments $AB$ and $BD$ with $BD\perp AB$; $AC\perp\alpha$ at $A$; $AB=a$, $BD=b$, $AC=c$.)
 
 ### Solution to Exercise 7
 
-Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
+By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-(1) Wrong. $m$ and $n$ must intersect; if $m\parallel n$, the two planes may intersect.
+$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}=-\boldsymbol{AC}+\boldsymbol{AB}+\boldsymbol{BD}$.
 
-(2) Correct. Two non-parallel lines in $\alpha$ are intersecting lines, and they are both parallel to $\beta$; by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$.
+Set $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$; then $\boldsymbol{a} \perp \boldsymbol{b}$ (since $BD \perp AB$), $\boldsymbol{c} \perp \boldsymbol{a}$ (since $AC \perp \alpha$ and $AB \subset \alpha$), and $\boldsymbol{c} \perp \boldsymbol{b}$ (since $AC \perp \alpha$ and $BD \subset \alpha$). Hence $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}=0$.
 
-(3) Wrong. Counterexample: two intersecting planes both parallel to a line parallel to their line of intersection.
+$$
+\lvert \boldsymbol{CD} \rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{c} \cdot \boldsymbol{b}=c^2+a^2+b^2.
+$$
 
-(4) Correct. By the transitivity of parallelism, two planes parallel to the same plane are parallel to each other.
-
-(5) Correct. If the line were parallel to the other plane or lay in it, then by the property of parallel planes it would also have no intersection point with the first plane, a contradiction. $\blacksquare$
-
-## Exercise 8
-
-(Exercise 8.5, Problem 2) A sufficient condition for plane $\alpha$ to be parallel to plane $\beta$ can be ( ).
-
-(A) there are infinitely many lines in $\alpha$ all parallel to $\beta$;
-
-(B) the line $a\parallel\alpha$, $a\parallel\beta$, and the line $a$ lies neither in $\alpha$ nor in $\beta$;
-
-(C) the line $a\subset\alpha$, the line $b\subset\beta$, and $a\parallel\beta$, $b\parallel\alpha$;
-
-(D) every line in $\alpha$ is parallel to $\beta$.
-
-### Solution to Exercise 8
-
-Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
-
-(A) Wrong. Infinitely many lines in $\alpha$ are parallel to $\beta$, but they may all be parallel to the line of intersection of the two planes.
-
-(B) Wrong. A single line cannot determine that two planes are parallel.
-
-(C) Wrong. $a$ and $b$ each lying in one plane cannot determine it.
-
-(D) Correct. Every line in $\alpha$ is parallel to $\beta$; in particular, one can take two intersecting lines both parallel to $\beta$, and by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$.
-
-Hence choose (D). $\blacksquare$
-
-## Exercise 9
-
-(Exercise 8.5, Problem 3) As shown in the figure, in the cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $M$, $N$, $E$, $F$ are the midpoints of the edges $A_{1}B_{1}$, $A_{1}D_{1}$, $B_{1}C_{1}$, $C_{1}D_{1}$ respectively. Prove that plane $AMN\parallel$ plane $DBEF$.
-
-(Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with $M,N,E,F$ the midpoints of the four edges of the top face.)
-
-### Solution to Exercise 9
-
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
-
-Since $M$, $N$ are the midpoints of $A_{1}B_{1}$, $A_{1}D_{1}$ respectively, $MN\parallel B_{1}D_{1}$. Also $B_{1}D_{1}\parallel BD$, so $MN\parallel BD$. Since $BD\subset$ plane $DBEF$ and $MN\not\subset$ plane $DBEF$, we have $MN\parallel$ plane $DBEF$.
-
-Similarly, $AM\parallel DF$ (by the mid-segment and the symmetry of the cube), $DF\subset$ plane $DBEF$, $AM\not\subset$ plane $DBEF$, so $AM\parallel$ plane $DBEF$.
-
-Moreover, $MN\cap AM=M$; the two intersecting lines $MN$, $AM$ both lie in plane $AMN$ and are both parallel to plane $DBEF$. By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, plane $AMN\parallel$ plane $DBEF$. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 8.5, Problem 4) As shown in the figure, planes $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel b$. Determine the positional relationship of $c$ with $a$ and of $c$ with $\alpha$, and explain why.
-
-(Figure: two parallel planes $\alpha,\beta$ cut by a third plane $\gamma$, giving intersection lines $a,b$; $c$ lies in $\beta$ and is parallel to $b$.)
-
-### Solution to Exercise 10
-
-By **Theorem 8.5.6 (Property of Two Parallel Planes)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
-
-Since $\alpha\parallel\beta$ and $\gamma$ intersects them at $a$, $b$ respectively, by **Theorem 8.5.6 (Property of Two Parallel Planes)**, $a\parallel b$.
-
-Also $c\parallel b$, and by the transitivity of parallelism, $c\parallel a$.
-
-Since $c\parallel a$, $a\subset\alpha$, $c\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $c\parallel\alpha$.
-
-Hence $c\parallel a$, and $c\parallel\alpha$. $\blacksquare$
+Hence $CD=\sqrt{a^2+b^2+c^2}$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 8.5, Review and Consolidation, Problem 1) Multiple choice.
+(Exercise 1.1, Review and Consolidation, Problem 1) As shown in the figure, in the cuboid $ABCD-A'B'C'D'$, $E$, $F$ are the midpoints of edges $AA'$, $AB$, respectively.
 
-(1) If a line $a$ is not parallel to a plane $\alpha$, which of the following conclusions holds ( ).
+(1) Write out the vectors equal to $\boldsymbol{BC}$;
 
-(A) all lines in $\alpha$ are skew to $a$; (B) there is no line in $\alpha$ parallel to $a$; (C) every line in $\alpha$ intersects $a$; (D) the line $a$ has a common point with the plane $\alpha$.
+(2) Write out the vectors opposite to $\boldsymbol{BC}$;
 
-(2) If the line $a\parallel$ plane $\alpha$ and $P\in\alpha$, then the line passing through point $P$ and parallel to line $a$ ( ).
+(3) Write out the vectors parallel to $\boldsymbol{EF}$.
 
-(A) there is exactly one, not lying in plane $\alpha$; (B) there are infinitely many, not necessarily lying in $\alpha$; (C) there is exactly one, and it lies in plane $\alpha$; (D) there are infinitely many, necessarily lying in $\alpha$.
+(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AA'$ and $F$ the midpoint of $AB$.)
 
 ### Solution to Problem 1
 
-Judge by **Definition 8.4.9 (Positional Relationship Between a Line and a Plane)**.
+By **Definition 1.1.4 (Equal Vectors)**, **Definition 1.1.2 (Opposite Vector)** and **Definition 1.1.3 (Collinear or Parallel Vectors)**.
 
-(1) If line $a$ is not parallel to plane $\alpha$, then $a$ lies in $\alpha$ or intersects $\alpha$; in both cases there is a common point. Hence choose (D).
+(1) By **Definition 1.1.4 (Equal Vectors)**, vectors with the same direction and equal modulus are equal. In the cuboid, $\boldsymbol{BC}=\boldsymbol{AD}=\boldsymbol{A'D'}=\boldsymbol{B'C'}$.
 
-(2) $a\parallel\alpha$, $P\in\alpha$. Pass a plane through $a$ and $P$; this plane intersects $\alpha$ in exactly one line $b$, and by the property of line-plane parallelism, $b\parallel a$. This line is unique and lies in $\alpha$. Hence choose (C). $\blacksquare$
+(2) By **Definition 1.1.2 (Opposite Vector)**, the vectors opposite to $\boldsymbol{BC}$ are those with the opposite direction and equal modulus: $\boldsymbol{CB}$, $\boldsymbol{DA}$, $\boldsymbol{D'A'}$, $\boldsymbol{C'B'}$.
+
+(3) $E$, $F$ are the midpoints of $AA'$, $AB$, respectively, so $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{A'B}=\frac{1}{2}\left(\boldsymbol{AB}-\boldsymbol{AA'}\right)$. By **Definition 1.1.3 (Collinear Vectors)**, the vectors parallel to $\boldsymbol{EF}$ are all vectors collinear with $\boldsymbol{EF}$, such as $\boldsymbol{A'B}$, $\boldsymbol{D'C}$, and so on. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 8.5, Review and Consolidation, Problem 2) Given planes $\alpha$, $\beta$ and lines $a$, $b$, $c$, with $a\parallel b\parallel c$, $a\subset\alpha$, $b\subset\beta$, $c\subset\beta$, the positional relationship between $\alpha$ and $\beta$ is $\;\_\_\;$.
+(Exercise 1.1, Review and Consolidation, Problem 2) As shown in the figure, given the parallelepiped $ABCD-A'B'C'D'$, simplify the following expressions and mark the simplified results in the figure:
+
+(1) $\boldsymbol{AB}+\boldsymbol{BC}$;
+
+(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}$;
+
+(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}$;
+
+(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)$.
+
+(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$.)
 
 ### Solution to Problem 2
 
-Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
+By **Definition 1.1.5 (Linear Operations on Spatial Vectors)** and **Common Conclusion 1.1.6** (Operational Laws).
 
-$b$, $c$ are two parallel lines in $\beta$, and $a$ lies in $\alpha$ and is parallel to $b$, $c$. But $b$, $c$ are parallel and do not intersect, so this cannot determine $\alpha\parallel\beta$. The two planes may be parallel or may intersect (the line of intersection is parallel to these three lines).
+(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
 
-Hence the positional relationship between $\alpha$ and $\beta$ is parallel or intersecting. $\blacksquare$
+(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}=\boldsymbol{AC}+\boldsymbol{CC'}=\boldsymbol{AC'}$.
+
+(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}=\boldsymbol{AC}+\frac{1}{2}\boldsymbol{AA'}$. Let $M$ be the midpoint of $CC'$; then this vector equals $\boldsymbol{AM}$.
+
+(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)=\frac{1}{3}\boldsymbol{AC'}$. Let $P$ be the trisection point on the diagonal $AC'$ closer to $A$; then this vector equals $\boldsymbol{AP}$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 8.5, Review and Consolidation, Problem 3) As shown in the figure, in a cuboid block $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, there is a point $P$ on the face $A_{1}C_{1}$. How can one draw a line through point $P$ parallel to the edge $CD$?
-
-(Figure: a cuboid $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ with point $P$ on the top face $A_{1}B_{1}C_{1}D_{1}$.)
+(Exercise 1.1, Review and Consolidation, Problem 3) Prove that if vectors $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear, then the vector $2\boldsymbol{a}+\boldsymbol{b}$ is collinear with $\boldsymbol{a}$.
 
 ### Solution to Problem 3
 
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and the construction of parallel lines.
+By **Common Conclusion 1.1.7** (Necessary and Sufficient Condition for Vectors to be Collinear), $\boldsymbol{a} \parallel \boldsymbol{b}$ if and only if there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-In the plane $A_{1}B_{1}C_{1}D_{1}$, draw a line $EF$ through point $P$ such that $EF\parallel C_{1}D_{1}$, intersecting $A_{1}D_{1}$ and $B_{1}C_{1}$ at $E$ and $F$ respectively.
+Since $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear, by **Common Conclusion 1.1.7** there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-Since $CD\parallel C_{1}D_{1}$ and the constructed $EF\parallel C_{1}D_{1}$, we have $EF\parallel CD$. The line $EF$ is the required one. $\blacksquare$
+Then $2\boldsymbol{a}+\boldsymbol{b}=2\boldsymbol{a}+\lambda\boldsymbol{a}=\left(2+\lambda\right)\boldsymbol{a}$.
+
+By **Common Conclusion 1.1.7**, $2\boldsymbol{a}+\boldsymbol{b}$ is collinear with $\boldsymbol{a}$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 8.5, Review and Consolidation, Problem 4) As shown in the figure, in the cuboid $ABCD\text{-}A'B'C'D'$, $E$, $F$ are the midpoints of $AB$, $BC$ respectively. Prove that $EF\parallel A'C'$.
+(Exercise 1.1, Review and Consolidation, Problem 4) As shown in the figure, given a tetrahedron $ABCD$ whose edges all have length $a$, $E$, $F$, $G$ are the midpoints of edges $AB$, $AD$, $DC$, respectively. Find:
 
-(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AB$ and $F$ the midpoint of $BC$.)
+(1) $\boldsymbol{AB} \cdot \boldsymbol{AC}$;
+
+(2) $\boldsymbol{AD} \cdot \boldsymbol{DB}$;
+
+(3) $\boldsymbol{GF} \cdot \boldsymbol{AC}$;
+
+(4) $\boldsymbol{EF} \cdot \boldsymbol{BC}$;
+
+(5) $\boldsymbol{FG} \cdot \boldsymbol{BA}$;
+
+(6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
+
+(Figure: a tetrahedron $ABCD$ with all edges equal to $a$, $E$ the midpoint of $AB$, $F$ the midpoint of $AD$, and $G$ the midpoint of $DC$.)
 
 ### Solution to Problem 4
 
-By **Basic Fact 8.5.1** (Basic Fact 4).
+By **Definition 1.1.12 (Dot Product)**, the angle between any two edges in a regular tetrahedron is $60^\circ$.
 
-In $\triangle ABC$, $E$, $F$ are the midpoints of $AB$, $BC$ respectively, so $EF$ is a mid-segment and $EF\parallel AC$.
+(1) $\left\langle \boldsymbol{AB}, \boldsymbol{AC} \right\rangle=60^\circ$, hence $\boldsymbol{AB} \cdot \boldsymbol{AC}=\lvert \boldsymbol{AB} \rvert \lvert \boldsymbol{AC} \rvert \cos 60^\circ=a \cdot a \cdot \frac{1}{2}=\frac{a^2}{2}$.
 
-In the cuboid, $AC\parallel A'C'$. By **Basic Fact 8.5.1** (Basic Fact 4), $EF\parallel A'C'$. $\blacksquare$
+(2) $\left\langle \boldsymbol{AD}, \boldsymbol{DB} \right\rangle$: the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$. In the equilateral triangle $ABD$, $\angle ADB=60^\circ$, but the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$ is $180^\circ-60^\circ=120^\circ$. Hence $\boldsymbol{AD} \cdot \boldsymbol{DB}=a \cdot a \cdot \cos 120^\circ=-\frac{a^2}{2}$.
+
+(3) $G$, $F$ are the midpoints of $DC$, $AD$, respectively, so $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{GF} \cdot \boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{AC}=-\frac{1}{2}a^2$.
+
+(4) $E$, $F$ are the midpoints of $AB$, $AD$, respectively, so $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. Hence $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD} \cdot \boldsymbol{BC}$. Since $\left\langle \boldsymbol{BD}, \boldsymbol{BC} \right\rangle=60^\circ$, $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2} \cdot a \cdot a \cdot \frac{1}{2}=\frac{a^2}{4}$.
+
+(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{FG} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \left(-\boldsymbol{AB}\right)=-\frac{1}{2} \cdot \frac{a^2}{2}=-\frac{a^2}{4}$.
+
+(6) $\boldsymbol{GE}=\boldsymbol{GC}+\boldsymbol{CE}$, or use the midpoint property. $\boldsymbol{GE}=\boldsymbol{AE}-\boldsymbol{AG}$. Here $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AB}$, and $\boldsymbol{AG}=\frac{1}{2}\left(\boldsymbol{AD}+\boldsymbol{AC}\right)$ (since $G$ is the midpoint of $DC$, $\boldsymbol{AG}=\boldsymbol{AD}+\boldsymbol{DG}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{DC}=\boldsymbol{AD}+\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AD}\right)=\frac{1}{2}\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AC}$).
+
+Hence $\boldsymbol{GE}=\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}$.
+
+$\boldsymbol{GF}=-\frac{1}{2}\boldsymbol{AC}$.
+
+$\boldsymbol{GE} \cdot \boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right) \cdot \left(-\frac{1}{2}\boldsymbol{AC}\right)$
+
+$=-\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC} \cdot \boldsymbol{AC}$
+
+$=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 8.5, Review and Consolidation, Problem 5) As shown in the figure on the next page, in the tetrahedron $D\text{-}ABC$, $E$, $F$, $G$ are the midpoints of $AB$, $BC$, $CD$ respectively. Prove that:
+(Exercise 1.1, Comprehensive Application, Problem 5) As shown in the figure, in the parallelepiped $ABCD-A_1B_1C_1D_1$, $M$ is the intersection of $AC$ and $BD$. Set $\boldsymbol{A_1B_1}=\boldsymbol{a}$, $\boldsymbol{A_1D_1}=\boldsymbol{b}$, $\boldsymbol{A_1A}=\boldsymbol{c}$. Then among the following vectors, the one equal to $\boldsymbol{B_1M}$ is ( ).
 
-(1) $BD\parallel$ plane $EFG$;
+(A) $-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (B) $\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (C) $\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (D) $-\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$
 
-(2) $AC\parallel$ plane $EFG$.
+(Figure: a parallelepiped $ABCD\text{-}A_1B_1C_1D_1$ with $M$ the intersection of diagonals $AC$ and $BD$.)
 
 ### Solution to Problem 5
 
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**.
 
-(1) $F$, $G$ are the midpoints of $BC$, $CD$ respectively; in $\triangle BCD$, $FG\parallel BD$. Also $FG\subset$ plane $EFG$ and $BD\not\subset$ plane $EFG$. By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $BD\parallel$ plane $EFG$.
+$\boldsymbol{B_1M}=\boldsymbol{B_1B}+\boldsymbol{BM}=\boldsymbol{c}+\frac{1}{2}\boldsymbol{BD}$.
 
-(2) $E$, $F$ are the midpoints of $AB$, $BC$ respectively; in $\triangle ABC$, $EF\parallel AC$. Also $EF\subset$ plane $EFG$ and $AC\not\subset$ plane $EFG$. By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $AC\parallel$ plane $EFG$. $\blacksquare$
+$\boldsymbol{BD}=\boldsymbol{BA}+\boldsymbol{AD}=-\boldsymbol{A_1B_1}+\boldsymbol{A_1D_1}=-\boldsymbol{a}+\boldsymbol{b}$.
+
+Hence $\boldsymbol{B_1M}=\boldsymbol{c}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$.
+
+Hence the answer is (A). $\blacksquare$
 
 ## Problem 6
 
-(Exercise 8.5, Review and Consolidation, Problem 6) As shown in the figure, $a$, $b$ are skew lines. Draw a plane $\alpha$ such that $a\subset\alpha$ and $b\parallel\alpha$, and explain why.
+(Exercise 1.1, Comprehensive Application, Problem 6) As shown in the figure, given that $E$, $F$, $G$, $H$ are the midpoints of edges $AB$, $BC$, $CD$, $DA$ of the tetrahedron $ABCD$, respectively, prove that the four points $E$, $F$, $G$, $H$ are coplanar.
 
-(Figure: two skew lines $a,b$.)
+(Figure: a tetrahedron $ABCD$ with $E$, $F$, $G$, $H$ the midpoints of $AB$, $BC$, $CD$, $DA$, respectively.)
 
 ### Solution to Problem 6
 
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+By **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Vectors to be Coplanar), to prove that the four points $E$, $F$, $G$, $H$ are coplanar it suffices to prove that $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ are coplanar.
 
-Take any point $A$ on the line $a$, and through $A$ draw a line $b'\parallel b$. By **Corollary 8.4.6 (Corollary 2)**, the two intersecting lines $a$ and $b'$ determine a plane, denoted $\alpha$, so that $a\subset\alpha$.
+Since $E$, $F$, $G$, $H$ are the midpoints of $AB$, $BC$, $CD$, $DA$, respectively, by **Definition 1.1.5 (Membership)**:
 
-Since $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $b\parallel\alpha$. Thus the plane $\alpha$ is the required one. $\blacksquare$
+$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{BD}$.
+
+$\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}+\frac{1}{2}\boldsymbol{BD}$.
+
+Hence $\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{EH}$.
+
+By **Common Conclusion 1.1.9**, $\boldsymbol{EG}$ is coplanar with $\boldsymbol{EF}$, $\boldsymbol{EH}$, i.e. $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ are coplanar; moreover they pass through the same point $E$, so the four points $E$, $F$, $G$, $H$ are coplanar. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 8.5, Review and Consolidation, Problem 7) As shown in the figure, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$. Prove that $CD\parallel EF$.
+(Exercise 1.1, Comprehensive Application, Problem 7) As shown in the figure, the edge length of the cube $ABCD-A'B'C'D'$ is $a$.
 
-(Figure: three planes $\alpha,\beta,\gamma$ pairwise intersecting in lines $CD,EF,AB$.)
+(1) Find the angle between $A'B$ and $B'C$;
+
+(2) Prove that $A'B \perp AC'$.
+
+(Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $a$.)
 
 ### Solution to Problem 7
 
-By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Basic Fact 8.5.1** (Basic Fact 4).
+By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Since $AB\parallel\alpha$, $AB\subset\beta$, $\beta\cap\alpha=CD$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $AB\parallel CD$.
+Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert=a$, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular.
 
-Also $AB\subset\gamma$, $\gamma\cap\alpha=EF$, and by the same reasoning, $AB\parallel EF$.
+(1) $\boldsymbol{A'B}=\boldsymbol{AB}-\boldsymbol{AA'}=\boldsymbol{a}-\boldsymbol{c}$.
 
-By **Basic Fact 8.5.1** (Basic Fact 4), $CD\parallel EF$. $\blacksquare$
+$\boldsymbol{B'C}=\boldsymbol{B'B}+\boldsymbol{BC}=-\boldsymbol{c}+\boldsymbol{b}=\boldsymbol{b}-\boldsymbol{c}$.
+
+$\boldsymbol{A'B} \cdot \boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
+
+$\lvert \boldsymbol{A'B} \rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
+
+$\lvert \boldsymbol{B'C} \rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
+
+$\cos \left\langle \boldsymbol{A'B}, \boldsymbol{B'C} \right\rangle=\frac{a^2}{\sqrt{2}a \cdot \sqrt{2}a}=\frac{1}{2}$.
+
+Hence the angle is $60^\circ$.
+
+(2) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
+
+$\boldsymbol{A'B} \cdot \boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{a}-\boldsymbol{c} \cdot \boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
+
+By **Common Conclusion 1.1.13**, $\boldsymbol{A'B} \perp \boldsymbol{AC'}$, i.e. $A'B \perp AC'$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 8.5, Review and Consolidation, Problem 8) As shown in the figure, the lines $AA'$, $BB'$, $CC'$ intersect at point $O$, $AO=A'O$, $BO=B'O$, $CO=C'O$. Prove that plane $ABC\parallel$ plane $A'B'C'$.
-
-(Figure: three lines $AA',BB',CC'$ meeting at $O$, with $A,B,C$ and $A',B',C'$ on opposite sides of $O$.)
+(Exercise 1.1, Extension and Exploration, Problem 8) Prove by the vector method: a line lying in a plane, if it is perpendicular to the projection on the plane of an oblique line of that plane, is also perpendicular to the oblique line (the theorem of three perpendiculars).
 
 ### Solution to Problem 8
 
-By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
+By **Common Conclusion 1.1.13** (Properties of the Dot Product), to prove two lines are perpendicular it suffices to prove that the dot product of their direction vectors is zero.
 
-In $\triangle AOB$ and $\triangle A'OB'$, $AO=A'O$, $BO=B'O$, $\angle AOB=\angle A'OB'$ (vertical angles), so $\triangle AOB\cong\triangle A'OB'$. Hence $\angle OAB=\angle OA'B'$, and so $AB\parallel A'B'$.
+Let the direction vector of the line $l$ in the plane $\alpha$ be $\boldsymbol{a}$, and let the oblique line be $AB$ ($A \in \alpha$, $B \notin \alpha$); the projection of $B$ on $\alpha$ is $B'$, so the projection is $AB'$. Set $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, where $\boldsymbol{c} \perp \alpha$, hence $\boldsymbol{c} \perp \boldsymbol{a}$.
 
-Similarly, $AO=A'O$, $CO=C'O$, $\angle AOC=\angle A'OC'$, which gives $AC\parallel A'C'$.
+Given $l \perp AB'$, i.e. $\boldsymbol{a} \perp \boldsymbol{b}$, hence $\boldsymbol{a} \cdot \boldsymbol{b}=0$.
 
-Since $AB\parallel A'B'$, $A'B'\subset$ plane $A'B'C'$, $AB\not\subset$ plane $A'B'C'$, we have $AB\parallel$ plane $A'B'C'$. Similarly, $AC\parallel$ plane $A'B'C'$.
+$\boldsymbol{AB}=\boldsymbol{AB'}+\boldsymbol{B'B}=\boldsymbol{b}+\boldsymbol{c}$.
 
-Moreover, $AB\cap AC=A$; by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, plane $ABC\parallel$ plane $A'B'C'$. $\blacksquare$
+$\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+
+By **Common Conclusion 1.1.13**, $\boldsymbol{a} \perp \boldsymbol{AB}$, i.e. $l \perp AB$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 8.5, Comprehensive Application, Problem 9) As shown in the figure, $E$, $E'$ are the midpoints of the edges $AD$, $A'D'$ of the cuboid $ABCD\text{-}A'B'C'D'$ respectively. Prove that $\angle BEC=\angle B'E'C'$.
+(Exercise 1.1, Extension and Exploration, Problem 9) As shown in the figure, in the tetrahedron $OABC$, $OA \perp BC$, $OB \perp AC$. Prove that $OC \perp AB$.
 
-(Figure: a cuboid $ABCD\text{-}A'B'C'D'$ with $E$ the midpoint of $AD$ and $E'$ the midpoint of $A'D'$.)
+(Figure: a tetrahedron $OABC$.)
 
 ### Solution to Problem 9
 
-By **Theorem 8.5.2 (Equal-Angle Theorem)**.
+By **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-In the cuboid, $EE'\parallel AA'\parallel BB'\parallel CC'$, and the directions of $BE$ and $B'E'$ are correspondingly parallel, as are those of $CE$ and $C'E'$.
+Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
 
-The two sides $EB$, $EC$ of $\angle BEC$ and the two sides $E'B'$, $E'C'$ of $\angle B'E'C'$ are respectively parallel and in the same direction.
+From $OA \perp BC$, i.e. $\boldsymbol{a} \perp \boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. Hence $\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, i.e. $\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}=0$. (1)
 
-By **Theorem 8.5.2 (Equal-Angle Theorem)**, $\angle BEC=\angle B'E'C'$. $\blacksquare$
+From $OB \perp AC$, i.e. $\boldsymbol{b} \perp \boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. Hence $\boldsymbol{b} \cdot \left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, i.e. $\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{a}=0$. (2)
+
+From (1), $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$. From (2), $\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$.
+
+Hence $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}$, i.e. $\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+
+$\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+
+Hence $\boldsymbol{c} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+
+By **Common Conclusion 1.1.13**, $\boldsymbol{OC} \perp \boldsymbol{AB}$, i.e. $OC \perp AB$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 8.5, Comprehensive Application, Problem 10) As shown in the figure, $AB\parallel\alpha$, $AC\parallel BD$, $C\in\alpha$, $D\in\alpha$. Prove that $AC=BD$.
+(Exercise 1.1, Extension and Exploration, Problem 10) As shown in the figure, in the tetrahedron $OABC$, $OA=OB$, $CA=CB$, and $E$, $F$, $G$, $H$ are the midpoints of $OA$, $OB$, $BC$, $CA$, respectively. Prove that the quadrilateral $EFGH$ is a rectangle.
 
-(Figure: plane $\alpha$ with $C,D\in\alpha$ and $A,B$ outside $\alpha$, where $AB\parallel\alpha$ and $AC\parallel BD$.)
+(Figure: a tetrahedron $OABC$ with $E$, $F$, $G$, $H$ the midpoints of $OA$, $OB$, $BC$, $CA$, respectively.)
 
 ### Solution to Problem 10
 
-By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**.
+By **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Vectors to be Coplanar) and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Since $C$, $D\in\alpha$, the line $CD\subset\alpha$. Also $AB\parallel\alpha$; the plane passing through $AB$ and $CD$ intersects $\alpha$ in $CD$, and by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $AB\parallel CD$.
+$E$, $F$, $G$, $H$ are the midpoints of $OA$, $OB$, $BC$, $CA$, respectively.
 
-Moreover, it is given that $AC\parallel BD$, so the two pairs of opposite sides of the quadrilateral $ABDC$ are respectively parallel, and it is a parallelogram.
+$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, hence $\boldsymbol{EF}=\boldsymbol{HG}$, i.e. $EF \parallel HG$ and $EF=HG$.
 
-Therefore $AC=BD$. $\blacksquare$
+$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, hence $\boldsymbol{FG}=\boldsymbol{EH}$, i.e. $FG \parallel EH$ and $FG=EH$.
 
-## Problem 11
+Hence the quadrilateral $EFGH$ is a parallelogram.
 
-(Exercise 8.5, Comprehensive Application, Problem 11) Given two parallel lines outside a plane, if one of them is parallel to this plane, prove that the other is also parallel to this plane.
+It remains to prove that one interior angle is a right angle. $\boldsymbol{EF} \cdot \boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB} \cdot \frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{OC}$.
 
-### Solution to Problem 11
+Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. From $OA=OB$, $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert$. From $CA=CB$, $\lvert \boldsymbol{c}-\boldsymbol{a} \rvert=\lvert \boldsymbol{c}-\boldsymbol{b} \rvert$; squaring gives $\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{b}^2$. Since $\boldsymbol{a}^2=\boldsymbol{b}^2$, we get $\boldsymbol{c} \cdot \boldsymbol{a}=\boldsymbol{c} \cdot \boldsymbol{b}$.
 
-By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
+$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB} \cdot \boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}=0$.
 
-Let the lines be $a\parallel b$, $a\parallel$ plane $\alpha$, and both $a$, $b$ lie outside $\alpha$.
+Hence $\boldsymbol{EF} \cdot \boldsymbol{FG}=0$, i.e. $EF \perp FG$.
 
-Pass a plane $\beta$ through $a$ such that $\beta\cap\alpha=c$. Since $a\parallel\alpha$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $a\parallel c$.
-
-Also $a\parallel b$, so by the transitivity of parallelism, $b\parallel c$. Since $c\subset\alpha$ and $b\not\subset\alpha$, by **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, $b\parallel\alpha$.
-
-Hence the other line $b$ is also parallel to the plane $\alpha$. $\blacksquare$
-
-## Problem 12
-
-(Exercise 8.5, Comprehensive Application, Problem 12) A wooden block is shown in the figure on the next page. Point $P$ lies in the plane $VAC$. Saw the block through point $P$ so that the cross-section is parallel to the lines $VB$ and $AC$. How should one draw the lines on the surface of the block?
-
-(Figure: a tetrahedron $V\text{-}ABC$ with point $P$ on face $VAC$.)
-
-### Solution to Problem 12
-
-By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)** and **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**.
-
-In the plane $VAC$, through $P$ draw a line $EF\parallel AC$, intersecting $VA$ and $VC$ at $E$ and $F$ respectively.
-
-In the plane $VAB$, through $E$ draw a line $EG\parallel VB$, intersecting $AB$ at $G$. In the plane $VBC$, through $F$ draw a line $FH\parallel VB$, intersecting $BC$ at $H$. Connect $GH$.
-
-Then the cross-section $EFGH$ is the required one: $EF\parallel AC$, $EG\parallel FH\parallel VB$. Simply draw the lines along $EF$, $EG$, $GH$, $FH$ and saw along them. $\blacksquare$
-
-## Problem 13
-
-(Exercise 8.5, Extension and Exploration, Problem 13) As shown in the figure, $\alpha\parallel\beta\parallel\gamma$. The lines $a$ and $b$ intersect $\alpha$, $\beta$, $\gamma$ at points $A$, $B$, $C$ and points $D$, $E$, $F$ respectively. Prove that $\frac{AB}{BC}=\frac{DE}{EF}$.
-
-(Figure: three parallel planes $\alpha,\beta,\gamma$ with two lines $a,b$ cutting them at $A,B,C$ and $D,E,F$.)
-
-### Solution to Problem 13
-
-By **Theorem 8.5.6 (Property of Two Parallel Planes)** and the proportional division of a segment by parallel lines.
-
-Connect $AF$, intersecting the plane $\beta$ at point $G$. The plane $ACF$ intersects $\beta$ in $BG$ and $\gamma$ in $CF$.
-
-Since $\beta\parallel\gamma$, by **Theorem 8.5.6 (Property of Two Parallel Planes)**, $BG\parallel CF$. In $\triangle ACF$, $\frac{AB}{BC}=\frac{AG}{GF}$.
-
-Similarly, the plane $ADF$ intersects $\beta$ in $GE$ and $\alpha$ in $AD$. Since $\alpha\parallel\beta$, $AD\parallel GE$. In $\triangle ADF$, $\frac{DE}{EF}=\frac{AG}{GF}$.
-
-Hence $\frac{AB}{BC}=\frac{DE}{EF}$. $\blacksquare$
-
-## Problem 14
-
-(Exercise 8.5, Extension and Exploration, Problem 14) As shown in the figure, $a$, $b$ are skew lines, $a\subset\alpha$, $a\parallel\beta$, $b\subset\beta$, $b\parallel\alpha$. Prove that $\alpha\parallel\beta$.
-
-(Figure: two planes $\alpha,\beta$ with $a\subset\alpha$ parallel to $\beta$, $b\subset\beta$ parallel to $\alpha$, and $a,b$ skew.)
-
-### Solution to Problem 14
-
-By **Theorem 8.5.4 (Property of a Line Parallel to a Plane)** and **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
-
-Pass a plane through $a$ intersecting $\beta$ in a line $a'$. Since $a\parallel\beta$, by **Theorem 8.5.4 (Property of a Line Parallel to a Plane)**, $a\parallel a'$.
-
-Since $a$, $b$ are skew and $a\parallel a'$, the line $a'$ must intersect $b$; let the intersection point be $P$.
-
-Within $\beta$, $a'$ and $b$ are two intersecting lines. From $a\parallel a'$, $a\subset\alpha$, $a'\not\subset\alpha$, we get $a'\parallel\alpha$. It is also given that $b\parallel\alpha$.
-
-By **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, the two intersecting lines $a'$, $b$ in $\beta$ are both parallel to $\alpha$, so $\alpha\parallel\beta$. $\blacksquare$
-
-## Problem 15
-
-(Exercise 8.5, Extension and Exploration, Problem 15) As shown in the figure, a transparent plastic cuboid container $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ is filled with some water. One edge $BC$ of the bottom of the container is fixed on the ground, and then the container is tilted. As the angle of tilt changes, consider the following five statements:
-
-(1) the part containing water always has the shape of a prism;
-
-(2) the part without water always has the shape of a prism;
-
-(3) the area of the quadrilateral formed by the water surface $EFGH$ is constant;
-
-(4) the edge $A_{1}D_{1}$ is always parallel to the plane of the water surface;
-
-(5) when the container is tilted as shown in figure (3), $BE\cdot BF$ is constant.
-
-Among them, the numbers of all the correct statements are $\;\_\_\;$. Why?
-
-(Figure: three diagrams of a transparent cuboid container $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ tilted about its base edge $BC$ at different angles, with the water surface $EFGH$ shown.)
-
-### Solution to Problem 15
-
-By **Definition 8.1.4 (Prism)** and **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
-
-With the edge $BC$ fixed, the water surface is always a plane parallel to the ground, and its line of intersection with the side faces of the cuboid is always parallel to $BC$.
-
-(1) The water-filled part has a cross-section perpendicular to $BC$ as its base and extends along the direction of $BC$, so it always has the shape of a prism. Correct.
-
-(2) Similarly, the part without water also always has the shape of a prism. Correct.
-
-(3) In the water-surface quadrilateral $EFGH$, one side length is always equal to $BC$, but the other side length varies with the tilt angle, so the area is not constant. Wrong.
-
-(4) $A_{1}D_{1}\parallel BC$, while the line of intersection of the water surface is parallel to $BC$, so $A_{1}D_{1}$ is parallel to a line lying in the water surface, and $A_{1}D_{1}$ is always parallel to the plane of the water surface. Correct.
-
-(5) The volume of water is unchanged, and the water-filled part is a prism; the cross-section perpendicular to $BC$ is a right triangle, whose area $\frac{1}{2}BE\cdot BF$ times $BC$ equals the volume of water. Since both the volume of water and $BC$ are constant, $BE\cdot BF$ is constant. Correct.
-
-Hence the numbers of the correct statements are (1) (2) (4) (5). $\blacksquare$
+The parallelogram $EFGH$ has one right angle, so it is a rectangle. $\blacksquare$

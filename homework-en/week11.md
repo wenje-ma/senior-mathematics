@@ -1,204 +1,351 @@
 # week11
-> **Definition 3.1.2 (Domain and Range)**
+> **Definition 4.4.1 (对数函数)**
 > 
-> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
-> **Definition 3.1.6 (Representation of Functions)**
+> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+> **Definition 4.4.2 (反函数)**
 > 
-> 函数的常用表示方法有解析法,列表法和图象法.
-> **Definition 3.2.1 (Monotonically Increasing)**
+> ………………………… ４.４　对数函数 １３０ …………………………………………… 探究与发现　互为反函数的两个函数图象间的关系 １３５ … ４.５　函数的应用(二) １４２ ………………………………… 阅读与思考　中外历史上的方程求解 １４７ …………… 文献阅读与数学写作　对数概念的形成与发展 １５７ …… 小结 １５８ ……………………………………………………… 复习参考题４ １５９ …………………………………………… 数学建模　建立函数模型解决实际问题 １６２ ………… 第五章　三角函数 １６７ ………………………………………… ５.１　任意角和弧度制 １６８ …………………………………… ５.２　三角函数的概念 １７７ …………………………………… 阅读与思考　三角学与天文学 １８６ …………………… ５.３　诱导公式 １８８ …………………………………………… ５.４　三角函数的图象与性质 １９６ …………………………… 探究与发现　函数狔＝ｓｉｎ(ω＋φ)及 函数狔＝
+> **Definition 4.5.1 (函数的零点)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
-> **Definition 3.2.2 (Monotonically Decreasing)**
+> 对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
+> **Definition 4.5.3 (二分法)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
-> **Definition 3.2.3 (Maximum Value)**
-> 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
-> **Definition 3.2.4 (Minimum Value)**
-> 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
-> **Definition 3.2.5 (Even Function)**
-> 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
-> **Definition 3.2.6 (Odd Function)**
-> 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
-> **Definition 3.3.1 (Power Function)**
-> 
-> 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
-
-## Exercise 1
-
-(Exercise 3.3, Problem 1) Given that the graph of the power function $y=f\left(x\right)$ passes through the point $\left(2,\sqrt2\right)$, find the analytic expression of this function.
-
-### Solution to Exercise 1
-
-By **Definition 3.3.1 (Power Function)**, let $f\left(x\right)=x^\alpha$, and substitute the known point to find $\alpha$.
-
-Since the graph passes through the point $\left(2,\sqrt2\right)$, we have $2^\alpha=\sqrt2=2^{\frac{1}{2}}$, so $\alpha=\frac{1}{2}$. Therefore the analytic expression of the function is $f\left(x\right)=x^{\frac{1}{2}}=\sqrt x$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 3.3, Problem 2) Using the properties of power functions, compare the sizes of the two values in each of the following:
-
-(1) $\left(-1.5\right)^3$, $\left(-1.4\right)^3$;
-
-(2) $\frac{1}{-1.5}$, $\frac{1}{-1.4}$.
-
-### Solution to Exercise 2
-
-By **Standard Conclusion 3.3.2** (Properties of Power Functions), use the monotonicity of power functions to compare.
-
-(1) The function $y=x^3$ is monotonically increasing on $\mathbb R$. From $-1.5< -1.4$, we get $\left(-1.5\right)^3< \left(-1.4\right)^3$.
-
-(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. The function $y=x^{-1}=\frac{1}{x}$ is monotonically decreasing on $\left(0,+\infty\right)$. From $1.5> 1.4> 0$, we get $\frac{1}{1.5}< \frac{1}{1.4}$, so $-\frac{1}{1.5}> -\frac{1}{1.4}$, i.e. $\frac{1}{-1.5}> \frac{1}{-1.4}$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 3.3, Problem 3) According to the definitions of monotonicity and parity, discuss the monotonicity of the function $f\left(x\right)=x^3$ and determine its parity.
-
-### Solution to Exercise 3
-
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.6 (Odd Function)**.
-
-Monotonicity: for $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$. When $x_1,x_2$ have the same sign, $x_1^2+x_1x_2+x_2^2> 0$; when $x_1x_2\le0$, $x_1^2+x_2^2> 0$ and $x_1x_2\le0$, but $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}> 0$. Thus $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so $f\left(x\right)=x^3$ is monotonically increasing on $\mathbb R$.
-
-Parity: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, so $f\left(x\right)=x^3$ is an odd function. $\blacksquare$
+> 的过程,学习了用函数描 述客观事物变化规律的方法.本节将先学习运用函数性质求 方程近似解的基本方法(二分法),再结合实例,更深入地 理解用函数构建数学模型的基本过程,学习运用模型思想发 现和提出问题,分析和解决问题的方法. ４５１! "#$Z\left[-D\$] Ꮶ 我们已经学习了用二次函数的观点认识一元二次方程,知道一元二次方程的实数 根就是相应二次函数的零点.像ｌｎ＋２－６＝０这样不能用公式求解的方程,是否 也能采用类似的方法,用相应的函数研究它的解的情况呢? 与二次函数的零点一样,对于一般函数狔＝(),我们把使()＝０的实数叫做 函数狔＝()的零点(ｚｅｒｏ). 这样,函数狔＝()的零点就是方程()＝０的实数解,也就是函数狔＝()的图 象与轴的公共点的横坐标.所以 方程()＝０有实数解 　"函数狔＝()有零点 　"函数狔＝()的图象与轴有公共点. 由此可知,求方程()＝０的实数解,就是确定函数狔＝()的零点.一般地,对 于不能用公
 
 ## Problem 1
 
-(Exercise 3.3, Review and Consolidation, Problem 1) Draw the graph of the function $y=\sqrt{\left|x\right|}$, determine the parity of the function, and discuss its monotonicity.
+(Exercise 4.4, Comprehensive Application, Problem 11) Suppose the housing price of an apartment rose from $20$ hundred thousand yuan in 2002 to $40$ hundred thousand yuan in 2012. The following table gives two price growth methods, where $P_1$ is the housing price rising linearly, $P_2$ is the housing price growing exponentially, and $t$ is the number of years elapsed since 2002. When $t=0$, $P_1=20$, $P_2=20$; when $t=10$, $P_1=40$, $P_2=40$.
 
-The graph: in a rectangular coordinate plane, the graph of $y=\sqrt{\left|x\right|}$ is symmetric about the $y$-axis; for $x\ge0$ it is the curve $y=\sqrt x$ rising from the origin $\left(0,0\right)$ to the upper right, and for $x< 0$ it is its mirror image about the $y$-axis rising from the origin to the upper left.
+(1) Find the analytic expression of the function $P_1=f\left(t\right)$;
+
+(2) find the analytic expression of the function $P_2=g\left(t\right)$;
+
+(3) complete the data in the blanks of the above table, and compare the differences between the two price growth methods.
 
 ### Solution to Problem 1
 
-By **Definition 3.2.5 (Even Function)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**.
+By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model).
 
-$$
-y=\sqrt{\left|x\right|}=\begin{cases}\sqrt x, & x\ge0,\\\sqrt{-x}, & x< 0.\end{cases}
-$$
+(1) $P_1$ rises linearly, as a linear function. Let $P_1=kt+b$; from $P_1=20$ when $t=0$, we get $b=20$; from $P_1=40$ when $t=10$, we get $10k+20=40$, $k=2$. Therefore $P_1=f\left(t\right)=2t+20$.
 
-Parity: $f\left(-x\right)=\sqrt{\left|-x\right|}=\sqrt{\left|x\right|}=f\left(x\right)$, so it is an even function.
+(2) $P_2$ grows exponentially; let $P_2=20\cdot a^\top$. From $P_2=40$ when $t=10$, we get $20\cdot a^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. Therefore $P_2=g\left(t\right)=20\cdot 2^{\frac{t}{10}}$.
 
-Monotonicity: when $x\ge0$, $y=\sqrt x$ is monotonically increasing; when $x< 0$, $y=\sqrt{-x}$ is monotonically decreasing. Thus the monotonically increasing interval is $\left[0,+\infty\right)$, and the monotonically decreasing interval is $\left(-\infty,0\right]$. The graph is symmetric about the $y$-axis: on the right it is the curve $y=\sqrt x$, and on the left it is its mirror image about the $y$-axis. $\blacksquare$
+(3) When $t=5$, $P_1=30$, $P_2=20\cdot 2^{0.5}\approx 28.3$; when $t=15$, $P_1=50$, $P_2=20\cdot 2^{1.5}\approx 56.6$; when $t=20$, $P_1=60$, $P_2=80$. Linear growth maintains a fixed speed, while exponential growth has an increasingly fast speed; in the long run, exponential growth will eventually exceed linear growth. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 3.3, Comprehensive Application, Problem 2) Under a fixed pressure difference (the pressure difference is a constant), when gas flows through a circular pipe, its flow rate $v$ (unit: $\text{cm}^3/\text{s}$) is proportional to the fourth power of the pipe radius $r$ (unit: $\text{cm}$).
-
-(1) Write the analytic expression of the gas flow rate $v$ as a function of the pipe radius $r$;
-
-(2) if the gas flows through a pipe of radius $3\ \text{cm}$ with a flow rate of $400\ \text{cm}^3/\text{s}$, find the expression for the flow rate $v$ when this gas flows through a pipe of radius $r$;
-
-(3) given that the pipe radius through which the gas in (2) flows is $5\ \text{cm}$, calculate the flow rate of the gas (accurate to $1\ \text{cm}^3/\text{s}$).
+(Exercise 4.4, Extension and Exploration, Problem 12) Given $\log_a\frac{1}{2}< 1$, $\left(\frac{1}{2}\right)^a< 1$, $a^{\frac{1}{2}}< 1$, find the range of values of the real number $a$.
 
 ### Solution to Problem 2
 
-By **Definition 3.3.1 (Power Function)**, the flow rate is proportional to the fourth power of the radius.
+By **Standard Conclusion 4.4.3** (Graphs and Properties of Logarithmic Functions) and **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions).
 
-(1) Let the proportionality coefficient be $k$, then $v=kr^4$ ($k> 0$).
-
-(2) From $v=400$ when $r=3$, we get $400=k\cdot3^4=81k$, so $k=\frac{400}{81}$. Therefore $v=\frac{400}{81}r^4$.
-
-(3) When $r=5$, $v=\frac{400}{81}\cdot5^4=\frac{400\times625}{81}=\frac{250000}{81}\approx3086\ \text{cm}^3/\text{s}$. $\blacksquare$
+From $\left(\frac{1}{2}\right)^a< 1=\left(\frac{1}{2}\right)^0$, the base $\frac{1}{2}\in\left(0,1\right)$ is decreasing, so $a> 0$. From $a^{\frac{1}{2}}< 1$, we get $0< a< 1$. Then from $\log_a\frac{1}{2}< 1=\log_a a$: when $0< a< 1$, $y=\log_a x$ is decreasing; from $\log_a\frac{1}{2}< \log_a a$ we get $\frac{1}{2}> a$, i.e. $a< \frac{1}{2}$. Combining gives $0< a< \frac{1}{2}$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 3.3, Comprehensive Application, Problem 3) Try to plot points to draw the graph of the function $f\left(x\right)=x^{-2}$, find its domain and range; discuss its monotonicity and parity, and prove.
+(Exercise 4.4, Extension and Exploration, Problem 13) Compare the sizes of the three values in each of the following.
 
-The graph: in a rectangular coordinate plane, the graph of $f\left(x\right)=x^{-2}=\frac{1}{x^2}$ lies above the $x$-axis and is symmetric about the $y$-axis; in the first quadrant it is a decreasing hyperbola-like curve descending from $+\infty$ as $x$ increases, with the $x$-axis as an asymptote, and in the second quadrant it is its mirror image about the $y$-axis; both coordinate axes are asymptotes.
+(1) $\log_{0.2} 6$, $\log_{0.3} 6$, $\log_{0.4} 6$;
+
+(2) $\log_2 3$, $\log_3 4$, $\log_4 5$.
 
 ### Solution to Problem 3
 
-By **Definition 3.2.5 (Even Function)**, **Definition 3.2.1 (Monotone Increasing and Increasing Function)**, and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
+By **Standard Conclusion 4.3.5** (Logarithm Change-of-Base Formula).
 
-Domain: $x^{-2}=\frac{1}{x^2}$ requires $x\ne0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
+(1) By the change-of-base formula, $\log_a 6=\frac{\ln 6}{\ln a}$. Since $0.2< 0.3< 0.4< 1$, we have $\ln 0.2< \ln 0.3< \ln 0.4< 0$. The numerator $\ln 6> 0$ is positive and the denominator is negative; the more negative (smaller) the denominator, the smaller the fraction value. Therefore $\log_{0.2} 6< \log_{0.3} 6< \log_{0.4} 6$.
 
-Range: $\frac{1}{x^2}> 0$, so the range is $\left(0,+\infty\right)$.
+(2) By the change-of-base formula, $\log_2 3=\frac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\frac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\frac{\ln 5}{\ln 4}\approx 1.161$. Therefore $\log_4 5< \log_3 4< \log_2 3$. $\blacksquare$
 
-Parity: $f\left(-x\right)=\frac{1}{\left(-x\right)^2}=\frac{1}{x^2}=f\left(x\right)$, so it is an even function.
+## Exercise 1
 
-Monotonicity: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically decreasing on $\left(0,+\infty\right)$. By the property of even functions, it is monotonically increasing on $\left(-\infty,0\right)$.
+(Exercise 4.5, Problem 1) Figures (1)(2)(3) are respectively the graphs of the function $y=f\left(x\right)$ in three different ranges. Can one conclude, based on only one of the graphs, that the function $y=f\left(x\right)$ has exactly one zero in a certain interval? Why?
 
-Graph: in the first quadrant it is a decreasing hyperbola-like curve, and in the second quadrant it is its mirror image about the $y$-axis, with the two coordinate axes as asymptotes. $\blacksquare$
+The figures: three rectangular coordinate diagrams, labeled Figure (1), Figure (2), and Figure (3), each showing a continuous unbroken curve $y=f\left(x\right)$ over some finite interval; within the displayed interval the curve appears to meet the $x$-axis only once (crossing or tangent), but the trend of the curve outside the interval is not shown.
 
-### Inquiry and Discovery 1
+### Solution to Exercise 1
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) From what aspects do you think this function can be studied?
+By **Standard Conclusion 4.5.2** (Zero Existence Theorem), a continuous graph with $f\left(a\right)f\left(b\right)< 0$ can only guarantee at least one zero in the interval, not exactly one.
 
-### Solution to Inquiry and Discovery 1
+Based on a graph in only one range, one cannot conclude that the function has exactly one zero in a certain interval. Because the graph may cross the $x$-axis multiple times within that interval, may be tangent to the $x$-axis, or may have other zeros not shown. To determine the number of zeros, one must also consider the monotonicity of the function or a graph over a wider range. $\blacksquare$
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.5 (Even Function)**, the general approach to studying a function.
+## Exercise 2
 
-It can be studied from the following aspects: domain, range, parity, monotonicity, extrema, graph features, asymptotes, etc. $\blacksquare$
+(Exercise 4.5, Problem 2) Use a calculating tool to draw the graphs of the functions, and indicate the approximate interval where the zero of each of the following functions lies.
 
-### Inquiry and Discovery 2
+(1) $f\left(x\right)=-x^3-3x+5$;
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) What path do you think should be followed to study this function?
+(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$;
 
-### Solution to Inquiry and Discovery 2
+(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$;
 
-By **Definition 3.1.2 (Domain and Range)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**.
+(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
 
-The study path: first find the domain, then determine the parity, then use the definition to discuss the monotonicity and find the extrema, and finally draw the graph and observe the trend of change. $\blacksquare$
+The graphs: four small coordinate plots. (1) $f\left(x\right)=-x^3-3x+5$ is a cubic curve, above the $x$-axis near $x=1$ and below it near $x=2$, with its zero in $\left(1,2\right)$; (2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ has domain $x> 2$, below the $x$-axis near $x=3$ and above it near $x=4$, with its zero in $\left(3,4\right)$; (3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ is a monotonically rising curve, below the axis near $x=0$ and above it near $x=1$, with its zero in $\left(0,1\right)$; (4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ is a curve crossing the $x$-axis multiple times, with zeros in $\left(-4,-3\right)$, $\left(-3,-2\right)$, and $\left(2,3\right)$.
 
-### Inquiry and Discovery 3
+### Solution to Exercise 2
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Follow the path you have constructed to study the questions you have thought of.
+By **Standard Conclusion 4.5.2** (Zero Existence Theorem), it suffices to find an interval where the function values at the endpoints have opposite signs.
 
-### Solution to Inquiry and Discovery 3
+(1) $f\left(1\right)=1> 0$, $f\left(2\right)=-8-6+5=-9< 0$, so the zero is in $\left(1,2\right)$.
 
-By **Definition 3.2.5 (Even Function)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**.
+(2) The domain is $x> 2$. $f\left(3\right)=6\ln 1-3=-3< 0$, $f\left(4\right)=8\ln 2-3\approx 2.54> 0$, so the zero is in $\left(3,4\right)$.
 
-Domain: $x\ne0$, i.e. $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
+(3) $f\left(0\right)=\mathrm e^{-1}-4< 0$, $f\left(1\right)=1+4-4=1> 0$, so the zero is in $\left(0,1\right)$.
 
-Parity: $f\left(-x\right)=-x+\frac{1}{-x}=-\left(x+\frac{1}{x}\right)=-f\left(x\right)$, so it is an odd function, and the graph is symmetric about the origin.
+(4) $f\left(-4\right)=-4< 0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15> 0$, the zero is in $\left(-4,-3\right)$; $f\left(-2\right)=-2< 0$, the zero is in $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70< 0$, $f\left(3\right)=3> 0$, the zero is in $\left(2,3\right)$. $\blacksquare$
 
-Monotonicity: on $\left(0,+\infty\right)$, by the conclusion of Problem 8 (Section 3.2), $y=x+\frac{1}{x}$ is monotonically decreasing on $\left(0,1\right]$ and monotonically increasing on $\left[1,+\infty\right)$. By the property of odd functions, it is monotonically increasing on $\left(-\infty,-1\right]$ and monotonically decreasing on $\left[-1,0\right)$.
+## Exercise 3
 
-Extrema: it attains the local minimum $f\left(1\right)=2$ at $x=1$, and the local maximum $f\left(-1\right)=-2$ at $x=-1$. $\blacksquare$
+(Exercise 4.5, Problem 3) With the help of information technology, use the bisection method to find the approximate value of the zero of the function $f\left(x\right)=x^3+1.1x^2+0.9x-1.4$ in the interval $\left(0,1\right)$ (accuracy $0.1$).
 
-### Inquiry and Discovery 4
+### Solution to Exercise 3
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Prove that: when $x> 0$, $x+\frac{1}{x}\ge2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=1$; when $x< 0$, $x+\frac{1}{x}\le-2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=-1$.
+By **Definition 4.5.3 (Bisection Method)**.
 
-### Solution to Inquiry and Discovery 4
+$f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. Take the midpoint $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55< 0$, the zero is in $\left(0.5,1\right)$. Take the midpoint $0.75$, $f\left(0.75\right)\approx 0.316> 0$, the zero is in $\left(0.5,0.75\right)$. Take the midpoint $0.625$, $f\left(0.625\right)\approx -0.163< 0$, the zero is in $\left(0.625,0.75\right)$. At this point $\lvert 0.75-0.625\rvert=0.125> 0.1$. Take the midpoint $0.6875$, $f\left(0.6875\right)\approx 0.064> 0$, the zero is in $\left(0.625,0.6875\right)$. At this point $\lvert 0.6875-0.625\rvert=0.0625< 0.1$. Therefore the approximate value of the zero can be taken as $0.625$. $\blacksquare$
 
-By **Definition 3.2.3 (Maximum Value)** and **Definition 3.2.4 (Minimum Value)**, use the nonnegativity of a square to prove.
+## Exercise 4
 
-When $x> 0$, $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$, and expanding gives $x-2+\frac{1}{x}\ge0$, i.e. $x+\frac{1}{x}\ge2$. Equality holds if and only if $\sqrt x=\frac{1}{\sqrt x}$, i.e. $x=1$.
+(Exercise 4.5, Problem 4) With the help of information technology, use the bisection method to find the approximate solution of the equation $x=3-\lg x$ in the interval $\left(2,3\right)$ (accuracy $0.1$).
 
-When $x< 0$, let $t=-x> 0$, then $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, and equality holds if and only if $t=1$, i.e. $x=-1$. $\blacksquare$
+### Solution to Exercise 4
 
-### Inquiry and Discovery 5
+By **Definition 4.5.3 (Bisection Method)**.
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Is the function graph you drew similar to Figure 1?
+The original equation is $x+\lg x-3=0$. Let $f\left(x\right)=x+\lg x-3$. $f\left(2\right)=2+\lg 2-3\approx -0.699< 0$, $f\left(3\right)=\lg 3\approx 0.477> 0$. Take the midpoint $2.5$, $f\left(2.5\right)\approx -0.102< 0$, the zero is in $\left(2.5,3\right)$. Take the midpoint $2.75$, $f\left(2.75\right)\approx 0.189> 0$, the zero is in $\left(2.5,2.75\right)$. Take the midpoint $2.625$, $f\left(2.625\right)\approx 0.045> 0$, the zero is in $\left(2.5,2.625\right)$. At this point $\lvert 2.625-2.5\rvert=0.125> 0.1$. Take the midpoint $2.5625$, $f\left(2.5625\right)\approx -0.029< 0$, the zero is in $\left(2.5625,2.625\right)$. At this point $\lvert 2.625-2.5625\rvert=0.0625< 0.1$. Therefore the approximate solution of the equation can be taken as $2.5625$. $\blacksquare$
 
-Figure 1: in a rectangular coordinate plane, the graph of $y=x+\frac{1}{x}$ is symmetric about the origin; in the first quadrant the curve decreases from $+\infty$ as $x\to0^+$ to the local minimum point $\left(1,2\right)$ and then increases to $+\infty$, approaching the line $y=x$ as an asymptote; in the third quadrant it is the part symmetric about the origin, increasing from $-\infty$ to the local maximum point $\left(-1,-2\right)$ and then decreasing to $-\infty$.
+## Exercise 5
 
-### Solution to Inquiry and Discovery 5
+(Exercise 4.5, Problem 5) Given that the world population in 1650 was $5$ hundred million, and the annual population growth rate at that time was $0.3\%$; in 1970 the world population was $36$ hundred million, and the annual population growth rate at that time was $2.1\%$.
 
-By **Definition 3.1.6 (Ways of Representing a Function)**, the graphical method.
+(1) Using the Malthusian population model to calculate, when will the world population be $2$ times that of 1650? When will the world population be $2$ times that of 1970?
 
-Based on the domain, parity, monotonicity, and extrema discussed above, the drawn graph should be similar to Figure 1 in the textbook: in the first quadrant it decreases from $+\infty$ to $\left(1,2\right)$ and then increases to $+\infty$, and in the third quadrant it is the part symmetric about the origin. $\blacksquare$
+(2) In reality, the world population exceeded $10$ hundred million before 1850; yet by 2004 the world population had not reached $72$ hundred million. What is your view on the two results obtained from the same model?
 
-### Inquiry and Discovery 6
+### Solution to Exercise 5
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) What is the trend of change of the graph of the function $y=x+\frac{1}{x}$? Can you use the trends of the graphs of the functions $y=x$ and $y=\frac{1}{x}$ to explain the trend of the graph of the function $y=x+\frac{1}{x}$?
+By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model) and **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-### Solution to Inquiry and Discovery 6
+(1) The 1650 model is $y=5\mathrm e^{0.003t}$. Let $5\mathrm e^{0.003t}=10$, i.e. $\mathrm e^{0.003t}=2$, $t=\frac{\ln 2}{0.003}\approx 231$. That is, about the year 1881. The 1970 model is $y=36\mathrm e^{0.021t}$. Let $36\mathrm e^{0.021t}=72$, i.e. $\mathrm e^{0.021t}=2$, $t=\frac{\ln 2}{0.021}\approx 33$. That is, about the year 2003.
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
+(2) The Malthusian population model is relatively accurate in the short term, but over the long term, influenced by various factors such as resources, policy, and war, the actual population growth will deviate from the model's prediction. $\blacksquare$
 
-When $x\to+\infty$, $y=\frac{1}{x}\to0$, so $y=x+\frac{1}{x}\approx x$, and the graph approaches the line $y=x$. When $x\to0^+$, $y=\frac{1}{x}\to+\infty$, so $y\to+\infty$. For $x> 0$, $y=x$ is increasing and $y=\frac{1}{x}$ is decreasing; the superposition of the two makes the function attain the local minimum $2$ at $x=1$. For $x< 0$, by symmetry the reasoning is analogous. $\blacksquare$
+## Exercise 6
 
-### Inquiry and Discovery 7
+(Exercise 4.5, Problem 6) Over a period of time, the rabbits in a certain place breed rapidly, and the doubling period of the total number of rabbits is $21$ months. Then approximately how many years are needed for $1$ ten thousand rabbits to grow to $1$ hundred million rabbits?
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Through the inquiry into the graph and properties of the function $y=x+\frac{1}{x}$, what insights have you gained?
+### Solution to Exercise 6
 
-### Solution to Inquiry and Discovery 7
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.5 (Even Function)**.
+Let $n$ doublings occur, then $10^4\times 2^n=10^8$, i.e. $2^n=10^4$, $n=\log_2 10^4=4\log_2 10\approx 13.29$. The doubling period is $21$ months $=1.75$ years, so the number of years is approximately $13.29\times 1.75\approx 23.3$ years. $\blacksquare$
 
-Through the inquiry into $y=x+\frac{1}{x}$, one gains the following insights: (1) one can use the properties of already-learned functions (power functions) to study new functions; (2) parity can simplify the study, since one only needs to study half an interval and then reflect it; (3) the properties of a sum of functions are not a simple superposition of the properties of each function and require comprehensive analysis; (4) using the basic inequality $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$ makes it convenient to find the extrema. $\blacksquare$
+## Exercise 7
+
+(Exercise 4.5, Problem 7) In 1959, archaeologists excavated a group of ancient building ruins at the Erlitou village in Yanshi, Luoyang, Henan. From a certain sample among them, the residual amount of carbon $14$ was detected to be approximately $62.76\%$ of the initial amount. Can this be used to infer approximately what era the Erlitou site dates from?
+
+### Solution to Exercise 7
+
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+
+The half-life of carbon $14$ is $5730$ years, and the residual amount model is $y=k\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x$. Let $\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x=0.6276$, then $x=\log_{\sqrt\left[5730\right]{1/2}} 0.6276=\frac{\ln 0.6276}{\ln\sqrt\left[5730\right]{1/2}}=\frac{5730\ln 0.6276}{\ln\left(1/2\right)}\approx\frac{5730\times\left(-0.466\right)}{-0.693}\approx 3850$. Therefore this sample is approximately $3850$ years old, i.e. approximately $1950$ BC, and the Erlitou site was probably built around $2000$ BC. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 4.5, Problem 8) The numbers of people suffering from a certain infectious disease in the $1$-st, $2$-nd, and $3$-rd months of this year in a certain place are $52$, $61$, $68$ respectively. To predict the number of patients in subsequent months, A chose the model $y=ax^2+bx+c$, and B chose the model $y=pq^x+r$, where $y$ is the number of patients, $x$ is the month number, and $a,b,c,p,q,r$ are all constants. The resulting numbers of patients in the $4$-th, $5$-th, and $6$-th months were $74$, $78$, $83$ respectively. Whose model do you think better matches reality?
+
+### Solution to Exercise 8
+
+By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
+
+A's quadratic model: substituting $\left(1,52\right)$, $\left(2,61\right)$, $\left(3,68\right)$ and solving gives $a=-1$, $b=12$, $c=41$, i.e. $y=-x^2+12x+41$. It predicts $y=73$ when $x=4$, $y=76$ when $x=5$, $y=77$ when $x=6$, which has a large error compared with the actual $74$, $78$, $83$. B's exponential model: substituting the three points and solving gives $q\approx\frac{7}{9}$, predicting that the growth in later stages gradually slows down, which is closer to the growth trend of the actual number of patients. Therefore B's chosen model better matches reality. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 4.5, Problem 9) Due to improved breeding technology and expanded breeding scale, the output of broiler chickens in a certain place is continuously increasing. Over the $11$ years from 2008 to 2018, the number of broiler chickens brought to market increased from $7690$ tons to $9230$ tons; during the same period, the population of this place increased from $100.0$ ten thousand to $112.7$ ten thousand.
+
+(1) Find separately the functions that can approximately reflect the change patterns of the above two sets of data;
+
+(2) If in 2017 the broiler chickens brought to market in this place basically met local demand, then in 2018 could they meet market demand?
+
+(3) Based on the change trends of the above two tables, what suggestions do you have for the development of the broiler chicken market in this place after 2018?
+
+### Solution to Exercise 9
+
+By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
+
+(1) The increase in the number of broiler chickens is relatively uniform, approximately a linear function; the increase in population is also relatively uniform, approximately a linear function. The broiler chickens can be approximated by $y=156.8x+7533$ ($x$ being the number of years since 2008); the population can be approximated by $y=1.27x+99.3$.
+
+(2) In 2017, the per capita broiler chicken was $9080/111.3\approx 81.6\;\mathrm{kg/人}$; in 2018, the per capita broiler chicken was $9230/112.7\approx 81.9\;\mathrm{kg/人}$, slightly higher than in 2017, basically able to meet market demand.
+
+(3) The population growth rate is slightly faster than the broiler chicken growth rate, and the growth in per capita broiler chicken availability is limited. It is recommended to continue expanding the broiler chicken breeding scale to meet the demand brought by population growth. $\blacksquare$
+
+## Problem 4
+
+(Exercise 4.5, Review and Consolidation, Problem 1) The following function graphs all have intersections with the $x$-axis. Among them, those whose zeros cannot be found by the bisection method are $\;\_\_\;$. (Fill in all the figure numbers that satisfy the condition.)
+
+### Solution to Problem 4
+
+By **Definition 4.5.3 (Bisection Method)**, the bisection method requires $f\left(a\right)f\left(b\right)< 0$, i.e. the graph crosses the $x$-axis.
+
+In figure ① the graph is tangent to the $x$-axis (does not cross it), and in figure ③ the graph is tangent to the $x$-axis multiple times (touches but does not cross), neither satisfying $f\left(a\right)f\left(b\right)< 0$, so the bisection method cannot be used. In figures ② and ④ the graph crosses the $x$-axis, so the bisection method can be used. Therefore those whose zeros cannot be found by the bisection method are ①③. $\blacksquare$
+
+## Problem 5
+
+(Exercise 4.5, Review and Consolidation, Problem 2) Given that the graph of the function $y=f\left(x\right)$ is a continuous unbroken curve, and there is the following correspondence table: when $x=1,2,3,4,5,6$, $y=136.136,15.552,-3.92,10.88,-52.488,-232.064$. In which intervals must the function $y=f\left(x\right)$ have zeros? Why?
+
+### Solution to Problem 5
+
+By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
+
+$f\left(2\right)=15.552> 0$, $f\left(3\right)=-3.92< 0$, $f\left(2\right)f\left(3\right)< 0$, so there must be a zero in $\left(2,3\right)$; $f\left(3\right)< 0$, $f\left(4\right)=10.88> 0$, $f\left(3\right)f\left(4\right)< 0$, so there must be a zero in $\left(3,4\right)$; $f\left(4\right)> 0$, $f\left(5\right)=-52.488< 0$, $f\left(4\right)f\left(5\right)< 0$, so there must be a zero in $\left(4,5\right)$. $\blacksquare$
+
+## Problem 6
+
+(Exercise 4.5, Review and Consolidation, Problem 3) Given the function $f\left(x\right)=x^3-2x+1$, prove that the equation $f\left(x\right)=x$ has at least two real solutions in $\left(-1,2\right)$.
+
+### Solution to Problem 6
+
+By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
+
+Let $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1> 0$, $g\left(1\right)=1-3+1=-1< 0$, $g\left(0\right)g\left(1\right)< 0$, so $g\left(x\right)$ has at least one zero in $\left(0,1\right)$; $g\left(1\right)< 0$, $g\left(2\right)=8-6+1=3> 0$, $g\left(1\right)g\left(2\right)< 0$, so $g\left(x\right)$ has at least one zero in $\left(1,2\right)$. Therefore the equation $f\left(x\right)=x$ has at least two real solutions in $\left(-1,2\right)$. $\blacksquare$
+
+## Problem 7
+
+(Exercise 4.5, Review and Consolidation, Problem 4) Using information technology, use the bisection method to find the zero of the function $f\left(x\right)=\ln x-\frac{2}{x}$ (accuracy $0.1$).
+
+### Solution to Problem 7
+
+By **Definition 4.5.3 (Bisection Method)**.
+
+$f\left(2\right)=\ln 2-1\approx -0.307< 0$, $f\left(3\right)=\ln 3-\frac{2}{3}\approx 0.432> 0$. Take the midpoint $2.5$, $f\left(2.5\right)\approx 0.116> 0$, the zero is in $\left(2,2.5\right)$. Take the midpoint $2.25$, $f\left(2.25\right)\approx -0.078< 0$, the zero is in $\left(2.25,2.5\right)$. Take the midpoint $2.375$, $f\left(2.375\right)\approx 0.023> 0$, the zero is in $\left(2.25,2.375\right)$. At this point $\lvert 2.375-2.25\rvert=0.125> 0.1$. Take the midpoint $2.3125$, $f\left(2.3125\right)\approx -0.027< 0$, the zero is in $\left(2.3125,2.375\right)$. At this point $\lvert 2.375-2.3125\rvert=0.0625< 0.1$. Therefore the approximate value of the zero can be taken as $2.3125$. $\blacksquare$
+
+## Problem 8
+
+(Exercise 4.5, Review and Consolidation, Problem 5) Using information technology, use the bisection method to find the approximate solution of the equation $0.8^x-1=\ln x$ (accuracy $0.1$).
+
+### Solution to Problem 8
+
+By **Definition 4.5.3 (Bisection Method)**.
+
+Let $f\left(x\right)=0.8^x-1-\ln x$. $f\left(0.5\right)=0.8^{0.5}-1-\ln 0.5\approx 0.587> 0$, $f\left(1\right)=0.8-1-0=-0.2< 0$. Take the midpoint $0.75$, $f\left(0.75\right)\approx 0.134> 0$, the zero is in $\left(0.75,1\right)$. Take the midpoint $0.875$, $f\left(0.875\right)\approx -0.045< 0$, the zero is in $\left(0.75,0.875\right)$. Take the midpoint $0.8125$, $f\left(0.8125\right)\approx 0.042> 0$, the zero is in $\left(0.8125,0.875\right)$. At this point $\lvert 0.875-0.8125\rvert=0.0625< 0.1$. Therefore the approximate solution of the equation can be taken as $0.8125$. $\blacksquare$
+
+## Problem 9
+
+(Exercise 4.5, Review and Consolidation, Problem 6) A computer virus specifically occupies memory. At boot it occupies $2\;\mathrm{KB}$, and then every $3$ minutes it copies itself, and after copying the memory occupied is $2$ times the original. Then how many minutes after boot will the virus occupy $64\;\mathrm{MB}$ of memory ($1\;\mathrm{MB}=1024\;\mathrm{KB}$)?
+
+### Solution to Problem 9
+
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+
+$64\;\mathrm{MB}=64\times 1024=65536\;\mathrm{KB}$. Let $n$ copies be made to reach $65536\;\mathrm{KB}$, then $2\times 2^n=65536$, i.e. $2^{n+1}=2^{15}$, $n=14$. Each interval is $3$ minutes, so the time is $14\times 3=42$ minutes. $\blacksquare$
+
+## Problem 10
+
+(Exercise 4.5, Comprehensive Application, Problem 7) Let the function $f\left(x\right)=ax^2+bx+c$ ($a> 0$, $b,c\in\mathbb R$), and $f\left(1\right)=-\frac{a}{2}$. Prove that the function $f\left(x\right)$ has at least one zero in $\left(0,2\right)$.
+
+### Solution to Problem 10
+
+By **Standard Conclusion 4.5.2** (Zero Existence Theorem).
+
+$f\left(1\right)=a+b+c=-\frac{a}{2}$, i.e. $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a> 0$. If $f\left(0\right)$ and $f\left(2\right)$ have opposite signs, then by the zero existence theorem there is a zero in $\left(0,2\right)$. If $f\left(0\right)$ and $f\left(2\right)$ have the same sign, since $f\left(0\right)+f\left(2\right)> 0$, both are positive. Moreover, $f\left(1\right)=-\frac{a}{2}< 0$, so $f\left(0\right)f\left(1\right)< 0$ or $f\left(1\right)f\left(2\right)< 0$, i.e. the zero is in $\left(0,1\right)$ or $\left(1,2\right)$. Therefore $f\left(x\right)$ has at least one zero in $\left(0,2\right)$. $\blacksquare$
+
+## Problem 11
+
+(Exercise 4.5, Comprehensive Application, Problem 8) Given the functions $f\left(x\right)=-x^2-3x-2$, $g\left(x\right)=2-\left[f\left(x\right)\right]^2$.
+
+(1) Find the analytic expression of the function $y=g\left(x\right)$;
+
+(2) using information technology, draw the graph of the function $y=g\left(x\right)$;
+
+(3) find the zeros of the function $y=g\left(x\right)$ (accuracy $0.1$).
+
+The graph: the graph of $y=g\left(x\right)=2-\left(x^2+3x+2\right)^2$ is a downward-opening double-hump (wavy) curve, with two peaks of height $2$ near $x=-2$ and $x=-1$, a shallow valley of height about $1.94$ between them at $x=-1.5$, and both ends extending downward toward $-\infty$; it meets the $x$-axis at about $x\approx-2.71$ and $x\approx-0.29$.
+
+### Solution to Problem 11
+
+By **Definition 4.5.1 (Zero of a Function)**.
+
+(1) $g\left(x\right)=2-\left(-x^2-3x-2\right)^2=2-\left(x^2+3x+2\right)^2$.
+
+(2) The graph is a "wavy" curve opening downward, with four intersection points with the $x$-axis.
+
+(3) Let $g\left(x\right)=0$, i.e. $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. From $x^2+3x+2=\sqrt{2}$ we get $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ or $-2.71$. From $x^2+3x+2=-\sqrt{2}$ we get $\Delta=1-4\sqrt{2}< 0$, no real roots. Therefore the zeros are approximately $-0.3$ and $-2.7$. $\blacksquare$
+
+## Problem 12
+
+(Exercise 4.5, Comprehensive Application, Problem 9) In a certain pond, the relationship between the area $y$ (unit: $\mathrm{m^2}$) of duckweed and time $t$ (unit: months) is $y=a^\top$. From the graph, when $t=0$, $y=1$, and when $t=1$, $y=2$. Consider the following statements:
+
+(1) the monthly growth rate of the duckweed is $1$;
+
+(2) by the $5$-th month, the duckweed area will exceed $30\;\mathrm{m^2}$;
+
+(3) the area added by the duckweed each month is equal;
+
+(4) if the times elapsed for the duckweed to spread to $2\;\mathrm{m^2}$, $3\;\mathrm{m^2}$, $6\;\mathrm{m^2}$ are $t_1$, $t_2$, $t_3$ respectively, then $t_1+t_2=t_3$.
+
+The correct statements among them are ( ).
+
+(A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
+
+The graph: horizontal axis is time $t$ (unit: month), vertical axis is the duckweed area $y$ (unit: $\mathrm{m^2}$); the exponential growth curve $y=2^\top$ passes through the points $\left(0,1\right)$ and $\left(1,2\right)$, is monotonically increasing, and rises more and more steeply.
+
+### Solution to Problem 12
+
+By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
+
+From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^\top$. (1) The monthly growth is $2^{t+1}/2^\top=2$, i.e. the growth rate is $1$, correct. (2) When $t=5$, $y=2^5=32> 30$, correct. (3) The area added each month is $2^{t+1}-2^\top=2^\top$, which increases with $t$, incorrect. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, correct. Therefore choose (C). $\blacksquare$
+
+## Problem 13
+
+(Exercise 4.5, Comprehensive Application, Problem 10) A drug is effective only when its amount in the patient's blood is maintained above $1500\;\mathrm{mg}$. Now this drug has been injected intravenously into a certain patient at $2500\;\mathrm{mg}$. If the drug decays in the blood at a rate of $20\%$ per hour, to ensure effectiveness, by what time at the latest should the drug be replenished into the patient's blood (accurate to $0.1\;\mathrm{h}$)?
+
+### Solution to Problem 13
+
+By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
+
+Let after $t$ hours the drug amount be $2500\times 0.8^\top\;\mathrm{mg}$. Let $2500\times 0.8^\top=1500$, i.e. $0.8^\top=0.6$, $t=\log_{0.8} 0.6=\frac{\lg 0.6}{\lg 0.8}\approx\frac{-0.222}{-0.097}\approx 2.3$. Therefore the drug should be replenished at the latest after $2.3\;\mathrm{h}$. $\blacksquare$
+
+## Problem 14
+
+(Exercise 4.5, Comprehensive Application, Problem 11) The global data volume generated in 2008 was $0.49\;\mathrm{ZB}$, in 2009 it was $0.8\;\mathrm{ZB}$, in 2010 it was $1.2\;\mathrm{ZB}$, and in 2011 it was $1.82\;\mathrm{ZB}$.
+
+(1) To better describe the relationship between the global data volume generated since 2008 and time $x$ (unit: years), choose one from the functions $f\left(x\right)=kx+b$ and $g\left(x\right)=ab^x$, and find its analytic expression.
+
+(2) Based on the function model found in (1), estimate the global data volume generated in 2018, and compare it with the published data; what is your view?
+
+### Solution to Problem 14
+
+By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
+
+(1) The data increments are successively $0.31$, $0.4$, $0.62$, with an increasingly fast growth rate, consistent with the characteristics of exponential growth, so choose $g\left(x\right)=ab^x$. Let 2008 be $x=0$, then $a=0.49$. From $0.49b=0.8$ we get $b\approx 1.633$. Therefore $g\left(x\right)=0.49\times 1.633^x$.
+
+(2) 2018 corresponds to $x=10$, $g\left(10\right)=0.49\times 1.633^{10}\approx 65\;\mathrm{ZB}$. The actual data may deviate from the model's prediction due to factors such as technological development and policy adjustment. $\blacksquare$
+
+## Problem 15
+
+(Exercise 4.5, Comprehensive Application, Problem 12) The average body weight of underage males of different heights in a certain place is as follows: when the height is $60\sim 170\;\mathrm{cm}$, the average weight increases from $6.13\;\mathrm{kg}$ to $55.05\;\mathrm{kg}$.
+
+(1) Based on the data provided in the table, establish an appropriate function model that can approximately reflect the functional relationship between the average weight $y$ (unit: $\mathrm{kg}$) of underage males in this area and height $x$ (unit: $\mathrm{cm}$), and write the analytic expression of this function.
+
+(2) If a weight exceeding $1.2$ times the average weight of males of the same height is considered overweight, and below $0.8$ times is considered underweight, then is the weight of a male student in this place who is $175\;\mathrm{cm}$ tall and weighs $78\;\mathrm{kg}$ normal?
+
+### Solution to Problem 15
+
+By **Standard Conclusion 4.4.4** (Differences in Growth of Different Functions).
+
+(1) Weight accelerates as height increases, approximately a power function $y=ax^b$. Taking $\left(60,6.13\right)$ and $\left(170,55.05\right)$ and dividing gives $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, solving gives $b\approx 2.0$, $a\approx 0.0017$. Therefore $y\approx 0.0017x^2$.
+
+(2) When $x=175$, $y\approx 0.0017\times 175^2\approx 52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx 1.49> 1.2$, so this male student is overweight. $\blacksquare$
+
+## Problem 16
+
+(Exercise 4.5, Extension and Exploration, Problem 13) There is a problem: "If the function $f\left(x\right)=24ax^2+4x-1$ has exactly one zero in the interval $\left(-1,1\right)$, find the range of values of the real number $a$." A student gave the following solution: from $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)< 0$, solving gives $-\frac{1}{8}< a< \frac{5}{24}$. Is the above solution correct? If not, please explain the reason and give the correct solution.
+
+### Solution to Problem 16
+
+By **Standard Conclusion 4.5.2** (Zero Existence Theorem) and **Definition 4.5.1 (Zero of a Function)**.
+
+The above solution is incorrect. When $a=0$, $f\left(x\right)=4x-1$, the zero $x=\frac{1}{4}\in\left(-1,1\right)$, with exactly one zero, already included in $-\frac{1}{8}< a< \frac{5}{24}$. But one must also consider the case where the discriminant is zero: when $\Delta=16+96a=0$, $a=-\frac{1}{6}$, at this time the zero $x=\frac{1}{2}\in\left(-1,1\right)$, which is a double root and also has exactly one zero, but $a=-\frac{1}{6}< -\frac{1}{8}$, not in the original range. In addition, when $a=-\frac{1}{8}$, $f\left(1\right)=0$, the zero $x=1$ is not in the open interval $\left(-1,1\right)$; when $a=\frac{5}{24}$, $f\left(-1\right)=0$, the zero $x=-1$ is not in the open interval $\left(-1,1\right)$. Therefore the correct range is $a=-\frac{1}{6}$ or $-\frac{1}{8}< a< \frac{5}{24}$. $\blacksquare$

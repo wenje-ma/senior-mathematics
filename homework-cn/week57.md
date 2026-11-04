@@ -1,334 +1,673 @@
 # week57
-> **定义 1.1.12 (向量的数量积)**
+> **定义 4.1.1 (数列)**
 > 
-> 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
-> **定理 1.2.1 (空间向量基本定理)**
+> 按照确定的顺序排列的一列数称为数列, 数列中的每一个数叫做这个数列的项.
+> **定义 4.1.2 (有穷数列与无穷数列)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
-> **定义 1.2.2 (基底, 基向量)**
+> 项数有限的数列叫做有穷数列, 项数无限的数列叫做无穷数列.
+> **定义 4.1.3 (数列是特殊函数)**
 > 
-> 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
-
-## 练习一
-
-(练习 1.2 第 1 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个基底, 从 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 中选哪一个向量, 一定可以与向量 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 构成空间的另一个基底?
-
-### 解答 练习一
-
-由**定义 1.2.2 (基底, 基向量)**, 三个向量构成空间基底的充要条件是它们不共面.
-
-$\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 都在由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内, 即 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{a}$ 共面, $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{b}$ 也共面. 因此 $\boldsymbol{a}$ 或 $\boldsymbol{b}$ 与 $\boldsymbol{p}$, $\boldsymbol{q}$ 共面, 不能构成新基底.
-
-而 $\boldsymbol{c}$ 不在 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内. 假设 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ 共面, 则存在实数 $\lambda$, $\mu$ 使 $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, 这与 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是基底 ($\boldsymbol{c}$ 不由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性表示) 矛盾.
-
-故选 $\boldsymbol{c}$, $\left\{\boldsymbol{p}, \boldsymbol{q}, \boldsymbol{c}\right\}$ 一定构成空间的另一个基底. $\blacksquare$
-
-## 练习二
-
-(练习 1.2 第 2 题) 已知 $O$, $A$, $B$, $C$ 为空间的四个点, 且向量 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 不构成空间的一个基底, 那么点 $O$, $A$, $B$, $C$ 是否共面?
-
-### 解答 练习二
-
-由**定义 1.2.2 (基底, 基向量)**, 三个向量构成空间基底的充要条件是它们不共面.
-
-因为 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 不构成空间的一个基底, 由**定义 1.2.2 (基底, 基向量)**, 它们必共面, 即存在实数 $x$, $y$, $z$ 不全为零, 使 $x\boldsymbol{OA}+y\boldsymbol{OB}+z\boldsymbol{OC}=\boldsymbol{0}$.
-
-由**定理 1.2.1 (空间向量基本定理)** 的逆否, $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 共面意味着它们平行于同一平面. 又因为它们有共同起点 $O$, 所以 $O$, $A$, $B$, $C$ 四点共面. $\blacksquare$
-
-## 练习三
-
-(练习 1.2 第 3 题) 如图, 已知平行六面体 $OABC-O'A'B'C'$, 点 $G$ 是侧面 $BB'C'C$ 的中心, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.
-
-(1) $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是否构成空间的一个基底?
-
-(2) 如果 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成空间的一个基底, 那么用它表示下列向量: $\boldsymbol{OB'}$, $\boldsymbol{BA'}$, $\boldsymbol{CA'}$, $\boldsymbol{OG}$.
-
-(题图: 平行六面体 $OABC-O'A'B'C'$, $G$ 为侧面 $BB'C'C$ 的中心; $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{b}$, $\boldsymbol{OO'}=\boldsymbol{c}$.)
-
-### 解答 练习三
-
-由**定义 1.2.2 (基底, 基向量)** 及**定理 1.2.1 (空间向量基本定理)**.
-
-(1) 在平行六面体中, $\boldsymbol{OA}$, $\boldsymbol{OC}$, $\boldsymbol{OO'}$ 分别沿三条不共面的棱方向, 它们不共面. 由**定义 1.2.2 (基底, 基向量)**, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成空间的一个基底.
-
-(2) 由**定理 1.2.1 (空间向量基本定理)**:
-
-$\boldsymbol{OB'}=\boldsymbol{OB}+\boldsymbol{BB'}=\boldsymbol{OA}+\boldsymbol{OC}+\boldsymbol{OO'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
-
-$\boldsymbol{BA'}=\boldsymbol{BA}+\boldsymbol{AA'}=-\boldsymbol{OA}+\boldsymbol{OO'}=-\boldsymbol{a}+\boldsymbol{c}$.
-
-$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{OC}+\boldsymbol{OO'}=-\boldsymbol{b}+\boldsymbol{c}$.
-
-$G$ 是侧面 $BB'C'C$ 的中心, 故 $\boldsymbol{OG}=\boldsymbol{OC}+\boldsymbol{CG}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{CB}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{c}\right)=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
-
-## 练习四
-
-(练习 1.2 第 1 题) 已知四面体 $OABC$, $OB=OC$, $\angle AOB=\angle AOC=\theta$. 求证: $OA \perp BC$.
-
-### 解答 练习四
-
-由**常用结论 1.1.13** (数量积的性质), 要证 $OA \perp BC$, 只需证 $\boldsymbol{OA} \cdot \boldsymbol{BC}=0$.
-
-设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, 则 $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$.
-
-$\boldsymbol{OA} \cdot \boldsymbol{BC}=\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}$.
-
-由已知 $OB=OC$, 即 $\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$. 又 $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=\theta$.
-
-故 $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$, $\boldsymbol{a} \cdot \boldsymbol{c}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{c} \rvert \cos\theta=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos\theta$.
-
-因此 $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$, 即 $\boldsymbol{a} \cdot \boldsymbol{BC}=0$.
-
-由**常用结论 1.1.13**, $\boldsymbol{OA} \perp \boldsymbol{BC}$, 即 $OA \perp BC$. $\blacksquare$
-
-## 练习五
-
-(练习 1.2 第 2 题) 如图, 在平行六面体 $ABCD-A'B'C'D'$ 中, $AB=2$, $AD=2$, $AA'=3$, $\angle BAD=\angle BAA'=\angle DAA'=60^\circ$. 求 $BC'$ 与 $CA'$ 所成角的余弦值.
-
-(题图: 平行六面体 $ABCD-A'B'C'D'$, 从 $A$ 出发的三条棱 $AB,AD,AA'$ 两两夹角均为 $60^\circ$.)
-
-### 解答 练习五
-
-由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
-
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert \boldsymbol{a} \rvert=2$, $\lvert \boldsymbol{b} \rvert=2$, $\lvert \boldsymbol{c} \rvert=3$, 两两夹角均为 $60^\circ$.
-
-$\boldsymbol{BC'}=\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{b}+\boldsymbol{c}$.
-
-$\boldsymbol{CA'}=\boldsymbol{CA}+\boldsymbol{AA'}=-\boldsymbol{AC}+\boldsymbol{c}=-\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}=-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}$.
-
-先算数量积:
-
-$$
-\boldsymbol{BC'} \cdot \boldsymbol{CA'}=\left(\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(-\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}+\boldsymbol{c}^2.
-$$
-
-化简得: $=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2$.
-
-其中 $\boldsymbol{a} \cdot \boldsymbol{b}=2 \times 2 \times \frac{1}{2}=2$, $\boldsymbol{a} \cdot \boldsymbol{c}=2 \times 3 \times \frac{1}{2}=3$, $\boldsymbol{b}^2=4$, $\boldsymbol{c}^2=9$.
-
-故 $\boldsymbol{BC'} \cdot \boldsymbol{CA'}=-2-4-3+9=0$.
-
-由**常用结论 1.1.13**, $\boldsymbol{BC'} \perp \boldsymbol{CA'}$, 即 $BC'$ 与 $CA'$ 所成角的余弦值为 $0$. $\blacksquare$
-
-## 练习六
-
-(练习 1.2 第 3 题) 如图, 已知正方体 $ABCD-A'B'C'D'$, $CD'$ 和 $DC'$ 相交于点 $O$, 连接 $AO$, 求证 $AO \perp CD'$.
-
-(题图: 正方体 $ABCD-A'B'C'D'$, $CD'$ 与 $DC'$ 交于侧面 $CC'D'D$ 的中心 $O$, 连接 $AO$.)
-
-### 解答 练习六
-
-由**常用结论 1.1.13** (数量积的性质).
-
-设正方体棱长为 $1$, 以 $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD'}\right\}$ 为单位正交基底. 设 $\boldsymbol{DA}=\boldsymbol{i}$, $\boldsymbol{DC}=\boldsymbol{j}$, $\boldsymbol{DD'}=\boldsymbol{k}$, 则它们两两垂直且模为 $1$.
-
-$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\left(\boldsymbol{DC'}+\boldsymbol{DD}\right)$ 方向. 实际上 $O$ 是 $CD'$ 和 $DC'$ 的交点, 即面 $CC'D'D$ 的中心.
-
-$\boldsymbol{DO}=\frac{1}{2}\left(\boldsymbol{DC}+\boldsymbol{DD'}\right)=\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
-
-$\boldsymbol{AO}=\boldsymbol{AD}+\boldsymbol{DO}=-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}$.
-
-$\boldsymbol{CD'}=\boldsymbol{CD}+\boldsymbol{DD'}=-\boldsymbol{j}+\boldsymbol{k}$.
-
-$\boldsymbol{AO} \cdot \boldsymbol{CD'}=\left(-\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\left(-\boldsymbol{j} \cdot \boldsymbol{j}\right)+\frac{1}{2}\boldsymbol{k} \cdot \boldsymbol{k}=-\frac{1}{2}+\frac{1}{2}=0$.
-
-由**常用结论 1.1.13**, $\boldsymbol{AO} \perp \boldsymbol{CD'}$, 即 $AO \perp CD'$. $\blacksquare$
+> 数列 $\left\{a_n\right\}$ 是从正整数集 $\mathbb N^*$ (或它的有限子集 $\left\{1,2,\cdots,n\right\}$ ) 到实数集 $\mathbb R$ 的函数, 其自变量是序号 $n$, 对应的函数值是数列的第 $n$ 项 $a_n$, 记为 $a_n=f\left(n\right)$.
+> **定义 4.1.4 (递增数列与递减数列)**
+> 
+> 如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
+> **定义 4.1.5 (通项公式)**
+> 
+> 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+> **定义 4.1.6 (递推公式)**
+> 
+> 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+> **定义 4.1.7 (前 $n$ 项和)**
+> 
+> 数列 $\left\{a_n\right\}$ 从第 $1$ 项起到第 $n$ 项止的各项之和, 称为数列 $\left\{a_n\right\}$ 的前 $n$ 项和, 记作 $S_n$.
+> **定义 4.2.1 (等差数列)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+> **定义 4.2.2 (等差中项)**
+> 
+> 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+> **定理 4.2.3 (等差数列通项公式)**
+> 
+> 等差数列的通项公式为 an = a1 + (n-1)d.
+> **定理 4.2.5 (等差数列性质)**
+> 
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> **定理 4.2.6 (前 $n$ 项和公式一)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+> **定理 4.2.7 (前 $n$ 项和公式二)**
+> 
+> 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+> **定义 4.3.1 (等比数列)**
+> 
+> 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
 
 ## 习题一
 
-(习题 1.2 复习巩固第 1 题) 如果向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 与任何向量都不能构成空间的一个基底, 那么 $\boldsymbol{a}$, $\boldsymbol{b}$ 间应有什么关系?
+(习题 4.1 复习巩固第 1 题) 写出下列数列的前 $10$ 项, 并作出它们的图象
+
+(1) 素数按从小到大的顺序排列成的数列;
+
+(2) 欧拉函数 $\varphi\left(n\right)$ ($n\in\mathbb N^*$) 的函数值按自变量从小到大的顺序排列成的数列.
+
+该图为两幅数列散点图(横坐标为序号 $n$,纵坐标为对应项):(1) 素数按从小到大排列 $2,3,5,7,11,13,17,19,23,29$;(2) 欧拉函数 $\varphi\left(n\right)$ 的前 $10$ 项 $1,1,2,2,4,2,6,4,6,4$.
 
 ### 解答 习题一
 
-由**定义 1.2.2 (基底, 基向量)**, 三个向量构成空间基底的充要条件是它们不共面.
-
-$\boldsymbol{a}$, $\boldsymbol{b}$ 与任何向量都不能构成空间的一个基底, 意味着对任意向量 $\boldsymbol{c}$, $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 都不构成基底, 即 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 总是共面.
-
-这只有在 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线 (平行) 时才可能: 如果 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线, 则它们确定一条直线, 加上任何第三个向量 $\boldsymbol{c}$ 都可能与它们共面 (因为共线向量和任何向量都共面).
-
-反之, 如果 $\boldsymbol{a}$, $\boldsymbol{b}$ 不共线, 则存在向量 $\boldsymbol{c}$ 不在它们张成的平面内, 使 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成基底.
-
-故 $\boldsymbol{a}$, $\boldsymbol{b}$ 必须共线 (平行). $\blacksquare$
-
-## 习题二
-
-(习题 1.2 复习巩固第 2 题) 若 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 构成空间的一个基底, 则下列向量不共面的是( ).
-
-(A) $\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{b}$, $\boldsymbol{b}-\boldsymbol{c}$ (B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ (C) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$, $\boldsymbol{c}$ (D) $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{c}$
-
-### 解答 习题二
-
-由**定义 1.2.2 (基底, 基向量)**, 判断三个向量是否共面.
-
-(A) $\boldsymbol{b}$, $\boldsymbol{b}+\boldsymbol{c}$, $\boldsymbol{b}-\boldsymbol{c}$ 都在由 $\boldsymbol{b}$, $\boldsymbol{c}$ 张成的平面内, 共面.
-
-(B) $\boldsymbol{a}$, $\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{a}-\boldsymbol{b}$ 都在由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内, 共面.
-
-(C) 假设 $\boldsymbol{c}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, 这与 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是基底矛盾. 故不共面.
-
-(D) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=\left(\boldsymbol{a}+\boldsymbol{b}\right)+\boldsymbol{c}$, 三个向量共面.
-
-故选 (C). $\blacksquare$
-
-## 习题三
-
-(习题 1.2 复习巩固第 3 题) 已知四面体 $OABC$, $M$, $N$ 分别是棱 $OA$, $BC$ 的中点, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, 用 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 表示向量 $\boldsymbol{MN}$.
-
-### 解答 习题三
-
-由**定理 1.2.1 (空间向量基本定理)**.
-
-$\boldsymbol{MN}=\boldsymbol{MO}+\boldsymbol{ON}=-\frac{1}{2}\boldsymbol{OA}+\frac{1}{2}\left(\boldsymbol{OB}+\boldsymbol{OC}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
-
-## 习题四
-
-(习题 1.2 复习巩固第 4 题) 如图, 在空间平移 $\triangle ABC$ 到 $\triangle A'B'C'$, 连接对应顶点. 设 $\boldsymbol{AA'}=\boldsymbol{a}$, $\boldsymbol{AB}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, $M$ 是 $BC'$ 的中点, $N$ 是 $B'C'$ 的中点, 用基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 表示向量 $\boldsymbol{AM}$, $\boldsymbol{AN}$.
-
-(题图: $\triangle ABC$ 平移到 $\triangle A'B'C'$, $M$ 为 $BC'$ 中点, $N$ 为 $B'C'$ 中点.)
-
-### 解答 习题四
-
-由**定理 1.2.1 (空间向量基本定理)**.
-
-$\boldsymbol{AM}=\boldsymbol{AB}+\boldsymbol{BM}=\boldsymbol{b}+\frac{1}{2}\boldsymbol{BC'}=\boldsymbol{b}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{CC'}\right)=\boldsymbol{b}+\frac{1}{2}\left(-\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
-
-$\boldsymbol{AN}=\boldsymbol{AA'}+\boldsymbol{A'N}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{A'C'}+\frac{1}{2}\boldsymbol{A'B'}$ 方向. 实际上 $N$ 是 $B'C'$ 的中点, $\boldsymbol{A'N}=\frac{1}{2}\left(\boldsymbol{A'B'}+\boldsymbol{A'C'}\right)=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)$.
-
-故 $\boldsymbol{AN}=\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}$. $\blacksquare$
-
-## 习题五
-
-(习题 1.2 综合运用第 5 题) 如图, 在长方体 $ABCD-A_1B_1C_1D_1$ 中, $M$ 是 $AC$ 与 $BD$ 的交点. 若 $D_1A_1=2$, $D_1C_1=2$, $D_1D=3$, 求 $B_1M$ 的长.
-
-(题图: 长方体 $ABCD-A_1B_1C_1D_1$, $M$ 为底面对角线 $AC$ 与 $BD$ 的交点.)
-
-### 解答 习题五
-
-由**定理 1.2.1 (空间向量基本定理)** 及**常用结论 1.1.13** (数量积的性质).
-
-以 $D_1$ 为原点, $\boldsymbol{D_1A_1}=\boldsymbol{i}$, $\boldsymbol{D_1C_1}=\boldsymbol{j}$, $\boldsymbol{D_1D}=\boldsymbol{k}$, 它们两两垂直, $\lvert \boldsymbol{i} \rvert=2$, $\lvert \boldsymbol{j} \rvert=2$, $\lvert \boldsymbol{k} \rvert=3$.
-
-$M$ 是 $AC$ 与 $BD$ 的交点, 即底面 $ABCD$ 的中心.
-
-$\boldsymbol{D_1M}=\frac{1}{2}\left(\boldsymbol{D_1A}+\boldsymbol{D_1C}\right)=\frac{1}{2}\left(\boldsymbol{i}+\boldsymbol{k}+\boldsymbol{j}+\boldsymbol{k}\right)=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
-
-$\boldsymbol{D_1B_1}=\boldsymbol{i}+\boldsymbol{j}$.
-
-$\boldsymbol{B_1M}=\boldsymbol{D_1M}-\boldsymbol{D_1B_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}-\boldsymbol{i}-\boldsymbol{j}=-\frac{1}{2}\boldsymbol{i}-\frac{1}{2}\boldsymbol{j}+\boldsymbol{k}$.
+(1) 由**定义 4.1.5 (通项公式)**, 素数按从小到大排列为
 
 $$
-\lvert \boldsymbol{B_1M} \rvert^2=\frac{1}{4}\lvert \boldsymbol{i} \rvert^2+\frac{1}{4}\lvert \boldsymbol{j} \rvert^2+\lvert \boldsymbol{k} \rvert^2=\frac{1}{4} \times 4+\frac{1}{4} \times 4+9=1+1+9=11.
+2,3,5,7,11,13,17,19,23,29.
 $$
 
-故 $B_1M=\sqrt{11}$. $\blacksquare$
+图象为散点, 横坐标为 $n$, 纵坐标为第 $n$ 个素数.
 
-## 习题六
+$\blacksquare$
 
-(习题 1.2 综合运用第 6 题) 如图, 平行六面体 $ABCD-A_1B_1C_1D_1$ 的底面 $ABCD$ 是菱形, 且 $\angle C_1CB=\angle C_1CD=\angle BCD=60^\circ$, $CD=CC_1$, 求证: $CA_1 \perp$ 平面 $C_1BD$.
-
-(题图: 平行六面体 $ABCD-A_1B_1C_1D_1$, 底面 $ABCD$ 为菱形, $CD=CC_1$, 三个共顶点 $C$ 的角均为 $60^\circ$.)
-
-### 解答 习题六
-
-由**常用结论 1.1.13** (数量积的性质).
-
-设 $\boldsymbol{CD}=\boldsymbol{a}$, $\boldsymbol{CB}=\boldsymbol{b}$, $\boldsymbol{CC_1}=\boldsymbol{c}$, 则 $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$ (因为底面是菱形且 $CD=CC_1$), 且两两夹角均为 $60^\circ$.
-
-$\boldsymbol{CA_1}=\boldsymbol{CA}+\boldsymbol{AA_1}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
-
-$\boldsymbol{C_1D}=\boldsymbol{CD}-\boldsymbol{CC_1}=\boldsymbol{a}-\boldsymbol{c}$.
-
-$\boldsymbol{C_1B}=\boldsymbol{CB}-\boldsymbol{CC_1}=\boldsymbol{b}-\boldsymbol{c}$.
-
-$\boldsymbol{CA_1} \cdot \boldsymbol{C_1D}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}-\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2$.
-
-因为 $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert$ 且两两夹角 $60^\circ$, $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}$, 故上式 $=\boldsymbol{a}^2-\boldsymbol{c}^2=0$.
-
-同理 $\boldsymbol{CA_1} \cdot \boldsymbol{C_1B}=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2+\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{c}^2=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c}^2=0$.
-
-由**常用结论 1.1.13**, $\boldsymbol{CA_1} \perp \boldsymbol{C_1D}$ 且 $\boldsymbol{CA_1} \perp \boldsymbol{C_1B}$. 又 $C_1D \cap C_1B=C_1$, 故 $CA_1 \perp$ 平面 $C_1BD$. $\blacksquare$
-
-## 习题七
-
-(习题 1.2 拓广探索第 7 题) 如图, 在棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中, $E$, $F$ 分别为 $DD_1$, $BD$ 的中点, 点 $G$ 在 $CD$ 上, 且 $CG=\frac{1}{4}CD$.
-
-(1) 求证: $EF \perp B_1C$;
-
-(2) 求 $EF$ 与 $C_1G$ 所成角的余弦值.
-
-(题图: 棱长为 $1$ 的正方体 $ABCD-A_1B_1C_1D_1$, $E$ 为 $DD_1$ 中点, $F$ 为 $BD$ 中点, $G$ 在 $CD$ 上且 $CG=\frac{1}{4}CD$.)
-
-### 解答 习题七
-
-由**常用结论 1.1.13** (数量积的性质) 及**定义 1.1.12 (向量的数量积)**.
-
-以 $\left\{\boldsymbol{DA}, \boldsymbol{DC}, \boldsymbol{DD_1}\right\}$ 为单位正交基底, 记为 $\boldsymbol{i}$, $\boldsymbol{j}$, $\boldsymbol{k}$.
-
-(1) $E$ 是 $DD_1$ 中点, $F$ 是 $BD$ 中点.
-
-$\boldsymbol{EF}=\boldsymbol{DF}-\boldsymbol{DE}=\frac{1}{2}\boldsymbol{DB}-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\left(\boldsymbol{DA}+\boldsymbol{DC}\right)-\frac{1}{2}\boldsymbol{DD_1}=\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}$.
-
-$\boldsymbol{B_1C}=\boldsymbol{B_1B}+\boldsymbol{BC}=-\boldsymbol{k}-\boldsymbol{i}=-\boldsymbol{i}-\boldsymbol{k}$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{B_1C}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\boldsymbol{i}-\boldsymbol{k}\right)=-\frac{1}{2}+\frac{1}{2}=0$.
-
-由**常用结论 1.1.13**, $EF \perp B_1C$.
-
-(2) $G$ 在 $CD$ 上, $CG=\frac{1}{4}CD$, 故 $\boldsymbol{C_1G}=\boldsymbol{C_1C}+\boldsymbol{CG}=-\boldsymbol{k}+\frac{1}{4}\left(-\boldsymbol{j}\right)=-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}$.
-
-$\boldsymbol{EF} \cdot \boldsymbol{C_1G}=\left(\frac{1}{2}\boldsymbol{i}+\frac{1}{2}\boldsymbol{j}-\frac{1}{2}\boldsymbol{k}\right) \cdot \left(-\frac{1}{4}\boldsymbol{j}-\boldsymbol{k}\right)=-\frac{1}{8}+\frac{1}{2}=\frac{3}{8}$.
-
-$\lvert \boldsymbol{EF} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+\frac{1}{4}}=\frac{\sqrt{3}}{2}$.
-
-$\lvert \boldsymbol{C_1G} \rvert=\sqrt{\frac{1}{16}+1}=\frac{\sqrt{17}}{4}$.
-
-$\cos \theta=\frac{\frac{3}{8}}{\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{17}}{4}}=\frac{\frac{3}{8}}{\frac{\sqrt{51}}{8}}=\frac{3}{\sqrt{51}}=\frac{\sqrt{51}}{17}$. $\blacksquare$
-
-## 习题八
-
-(习题 1.2 拓广探索第 8 题) 已知四面体中三组相对棱的中点间的距离都相等, 求证: 这个四面体相对的棱两两垂直.
-
-### 解答 习题八
-
-由**常用结论 1.1.13** (数量积的性质).
-
-设四面体 $OABC$, 三组相对棱的中点分别为: $AB$ 与 $OC$ 的中点连线, $BC$ 与 $OA$ 的中点连线, $CA$ 与 $OB$ 的中点连线.
-
-设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
-
-$AB$ 中点为 $M_1$, $OC$ 中点为 $N_1$: $\boldsymbol{M_1N_1}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
-
-$BC$ 中点为 $M_2$, $OA$ 中点为 $N_2$: $\boldsymbol{M_2N_2}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)=\frac{1}{2}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)$.
-
-$CA$ 中点为 $M_3$, $OB$ 中点为 $N_3$: $\boldsymbol{M_3N_3}=\frac{1}{2}\boldsymbol{b}-\frac{1}{2}\left(\boldsymbol{c}+\boldsymbol{a}\right)=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}\right)$.
-
-三组中点间距离相等, 即 $\lvert \boldsymbol{M_1N_1} \rvert=\lvert \boldsymbol{M_2N_2} \rvert=\lvert \boldsymbol{M_3N_3} \rvert$.
-
-由 $\lvert \boldsymbol{M_1N_1} \rvert^2=\lvert \boldsymbol{M_2N_2} \rvert^2$:
+(2) 由**定义 4.1.5 (通项公式)**, 欧拉函数 $\varphi\left(n\right)$ 表示不超过 $n$ 且与 $n$ 互素的正整数的个数, 逐项计算.
 
 $$
-\frac{1}{4}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\frac{1}{4}\left(\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}\right)^2.
+\varphi\left(1\right)=1,\ \varphi\left(2\right)=1,\ \varphi\left(3\right)=2,\ \varphi\left(4\right)=2,\ \varphi\left(5\right)=4,\ \varphi\left(6\right)=2,\ \varphi\left(7\right)=6,\ \varphi\left(8\right)=4,\ \varphi\left(9\right)=6,\ \varphi\left(10\right)=4.
 $$
 
-展开: $\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$ (相同), 这恒等, 说明需要比较不同的对.
+前 $10$ 项为 $1,1,2,2,4,2,6,4,6,4$.
 
-实际上三组对棱中点连线等长意味着:
+$\blacksquare$
 
-$\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c} \rvert^2$.
+(习题 4.1 复习巩固第 2 题) 根据下列条件, 写出数列 $\left\{a_n\right\}$ 的前 $5$ 项
 
-由前两式相等: $\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\left(\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}\right)^2$ 展开得 $-4\boldsymbol{a} \cdot \boldsymbol{b}+4\boldsymbol{b} \cdot \boldsymbol{c}=4\boldsymbol{a} \cdot \boldsymbol{b}-4\boldsymbol{a} \cdot \boldsymbol{c}$, 即 $-\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}$, 即 $2\boldsymbol{b} \cdot \boldsymbol{c}+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}=0$.
+(1) $a_n=\frac{1}{n^2}$;
 
-但更直接地, 取 $\lvert -\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c} \rvert^2=\lvert \boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c} \rvert^2$:
+(2) $a_n=\left(-1\right)^{n+1}\left(n^2+1\right)$;
 
-$\left(\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{a}\right)^2=\left(\boldsymbol{a}+\boldsymbol{c}-\boldsymbol{b}\right)^2$.
+(3) $a_1=\frac{1}{2},\ a_n=4a_{n-1}+1$ ($n\ge 2$);
 
-展开: $\boldsymbol{b}^2+\boldsymbol{c}^2+\boldsymbol{a}^2+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a}^2+\boldsymbol{c}^2+\boldsymbol{b}^2+2\boldsymbol{a} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{b} \cdot \boldsymbol{c}$.
+(4) $a_1=-\frac{1}{4},\ a_n=1-\frac{1}{a_{n-1}}$ ($n\ge 2$).
 
-化简得 $4\boldsymbol{b} \cdot \boldsymbol{c}-4\boldsymbol{a} \cdot \boldsymbol{c}=0$, 即 $\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=0$.
+### 解答 习题一
 
-而 $\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$, $\boldsymbol{OC}=\boldsymbol{c}$, 故 $\boldsymbol{AB} \cdot \boldsymbol{OC}=0$, 即 $AB \perp OC$.
+(1) 由**定义 4.1.5 (通项公式)**,
 
-同理, 比较其余两组可得 $BC \perp OA$, $CA \perp OB$.
+$$
+a_1=1,\ a_2=\frac{1}{4},\ a_3=\frac{1}{9},\ a_4=\frac{1}{16},\ a_5=\frac{1}{25}.
+$$
 
-故四面体相对的棱两两垂直. $\blacksquare$
+$\blacksquare$
+
+(2) 由**定义 4.1.5 (通项公式)**,
+
+$$
+a_1=2,\ a_2=-5,\ a_3=10,\ a_4=-17,\ a_5=26.
+$$
+
+$\blacksquare$
+
+(3) 由**定义 4.1.6 (递推公式)**,
+
+$$
+a_1=\frac{1}{2},\ a_4=4\times\frac{1}{2}+1=3,\ a_3=4\times 3+1=13,\ a_4=4\times 13+1=53,\ a_5=4\times 53+1=213.
+$$
+
+$\blacksquare$
+
+(4) 由**定义 4.1.6 (递推公式)**,
+
+$$
+a_1=-\frac{1}{4},\ a_2=1-\frac{1}{-1/4}=5,\ a_3=1-\frac{1}{5}=\frac{4}{5},\ a_4=1-\frac{5}{4}=-\frac{1}{4},\ a_5=5.
+$$
+
+$\blacksquare$
+
+(习题 4.1 复习巩固第 3 题) 观察下列数列的特点, 用适当的数填空, 并写出数列的一个通项公式
+
+(1) $\left(\quad\right),-4,9,\left(\quad\right),25,\left(\quad\right),49,\cdots$;
+
+(2) $1,\frac{1}{3^2},\left(\quad\right),\frac{1}{7^2},\frac{1}{9^2},\left(\quad\right),\frac{1}{13^2},\cdots$;
+
+(3) $1,\sqrt{2},\left(\quad\right),2,\sqrt{5},\left(\quad\right),\sqrt{7},\cdots$;
+
+(4) $\frac{1}{2},\frac{1}{6},\left(\quad\right),\frac{1}{20},\frac{1}{30},\left(\quad\right),\cdots$.
+
+### 解答 习题一
+
+(1) 由**定义 4.1.5 (通项公式)**, 各项为 $1^2,-2^2,3^2,-4^2,5^2,-6^2,7^2$, 故填 $1,-16,-36$, 通项公式为
+
+$$
+a_n=\left(-1\right)^{n+1}n^2.
+$$
+
+$\blacksquare$
+
+(2) 由**定义 4.1.5 (通项公式)**, 各项分母为连续奇数的平方 $1^2,3^2,5^2,7^2,9^2,11^2,13^2$, 故填 $\frac{1}{25},\frac{1}{121}$, 通项公式为
+
+$$
+a_n=\frac{1}{\left(2n-1\right)^2}.
+$$
+
+$\blacksquare$
+
+(3) 由**定义 4.1.5 (通项公式)**, 各项为 $\sqrt{1},\sqrt{2},\sqrt{3},\sqrt{4},\sqrt{5},\sqrt{6},\sqrt{7}$, 故填 $\sqrt{3},\sqrt{6}$, 通项公式为
+
+$$
+a_n=\sqrt{n}.
+$$
+
+$\blacksquare$
+
+(4) 由**定义 4.1.5 (通项公式)**, 各项分母为 $2,6,12,20,30,42$, 即 $1\times 2,2\times 3,3\times 4,4\times 5,5\times 6,6\times 7$, 故填 $\frac{1}{12},\frac{1}{42}$, 通项公式为
+
+$$
+a_n=\frac{1}{n\left(n+1\right)}.
+$$
+
+$\blacksquare$
+
+(习题 4.1 综合运用第 4 题) 已知数列 $\left\{a_n\right\}$ 的第 $1$ 项是 $1$, 第 $2$ 项是 $2$, 以后各项由 $a_n=a_{n-1}+a_{n-2}$ ($n> 2$) 给出
+
+(1) 写出这个数列的前 $5$ 项;
+
+(2) 利用数列 $\left\{a_n\right\}$, 通过公式 $b_n=\frac{a_{n+1}}{a_n}$ 构造一个新的数列 $\left\{b_n\right\}$, 试写出数列 $\left\{b_n\right\}$ 的前 $5$ 项.
+
+### 解答 习题一
+
+(1) 由**定义 4.1.6 (递推公式)**,
+
+$$
+a_1=1,\ a_2=2,\ a_3=2+1=3,\ a_4=3+2=5,\ a_5=5+3=8.
+$$
+
+$\blacksquare$
+
+(2) 由**定义 4.1.5 (通项公式)**,
+
+$$
+b_1=\frac{a_2}{a_1}=\frac{2}{1}=2,\ b_2=\frac{a_3}{a_2}=\frac{3}{2},\ b_3=\frac{a_4}{a_3}=\frac{5}{3},\ b_4=\frac{a_5}{a_4}=\frac{8}{5},\ b_5=\frac{a_6}{a_5}=\frac{13}{8}.
+$$
+
+其中 $a_6=8+5=13$.
+
+$\blacksquare$
+
+(习题 4.1 综合运用第 5 题) 传说古希腊毕达哥拉斯学派的数学家用沙粒和小石子来研究数. 他们根据沙粒或小石子所排列的形状把数分成许多类, 如图中第一行的 $1,3,6,10$ 称为三角形数, 第二行的 $1,4,9,16$ 称为正方形数, 第三行的 $1,5,12,22$ 称为五边形数. 请你分别写出三角形数, 正方形数和五边形数所构成的数列的第 $5$ 项和第 $6$ 项
+
+该图为三行石子(点)排列图:第一行三角形数 $1,3,6,10$(摆成三角形);第二行正方形数 $1,4,9,16$(摆成正方形);第三行五边形数 $1,5,12,22$(摆成五边形).
+
+### 解答 习题一
+
+由**定义 4.1.5 (通项公式)**, 三角形数为 $1,3,6,10,\cdots$, 相邻两项之差依次为 $2,3,4,\cdots$, 故
+
+$$
+a_5=10+5=15,\ a_6=15+6=21.
+$$
+
+正方形数为 $1,4,9,16,\cdots$, 即 $n^2$, 故
+
+$$
+a_5=25,\ a_6=36.
+$$
+
+五边形数为 $1,5,12,22,\cdots$, 相邻两项之差依次为 $4,7,10,\cdots$, 公差为 $3$, 故
+
+$$
+a_5=22+13=35,\ a_6=35+16=51.
+$$
+
+$\blacksquare$
+
+(习题 4.1 综合运用第 6 题) 假设某银行的活期存款年利率为 $0.35\%$, 某人存入 $10$ 万元后, 既不加进存款也不取款, 每年到期利息连同本金自动转存. 如果不考虑利息税及利率的变化, 用 $a_n$ 表示第 $n$ 年到期时的存款余额, 求 $a_1,a_2,a_3$ 及 $a_n$
+
+### 解答 习题一
+
+由**定义 4.1.6 (递推公式)**, 每年到期后存款余额为前一年的 $1+0.35\%=1.0035$ 倍.
+
+$$
+a_1=10\times 1.0035=10.035\text{ 万元},
+$$
+
+$$
+a_2=10.035\times 1.0035=10\times 1.0035^2=10.0701225\text{ 万元},
+$$
+
+$$
+a_3=10\times 1.0035^3\approx 10.10537\text{ 万元}.
+$$
+
+由**定义 4.1.5 (通项公式)**, 递推关系为 $a_n=10\times 1.0035^n$, 故
+
+$$
+a_n=10\times 1.0035^n\text{ 万元}.
+$$
+
+$\blacksquare$
+
+(习题 4.1 拓广探索第 7 题) 已知函数 $f\left(x\right)=\frac{2^x-1}{2^x}$ ($x\in\mathbb R$), 设数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=f\left(n\right)$ ($n\in\mathbb N^*$)
+
+(1) 求证 $a_n\ge\frac{1}{2}$;
+
+(2) $\left\{a_n\right\}$ 是递增数列还是递减数列? 为什么?
+
+### 解答 习题一
+
+(1) 由**定义 4.1.5 (通项公式)**,
+
+$$
+a_n=f\left(n\right)=\frac{2^n-1}{2^n}=1-\frac{1}{2^n}.
+$$
+
+因为 $n\in\mathbb N^*$, 所以 $2^n\ge 2$, 从而 $\frac{1}{2^n}\le\frac{1}{2}$, 故
+
+$$
+a_n=1-\frac{1}{2^n}\ge 1-\frac{1}{2}=\frac{1}{2}.
+$$
+
+$\blacksquare$
+
+(2) 由**定义 4.1.4 (递增数列与递减数列)**, 比较 $a_{n+1}$ 与 $a_n$.
+
+$$
+a_{n+1}-a_n=\left(1-\frac{1}{2^{n+1}}\right)-\left(1-\frac{1}{2^n}\right)=\frac{1}{2^n}-\frac{1}{2^{n+1}}=\frac{1}{2^{n+1}}> 0.
+$$
+
+故 $a_{n+1}> a_n$, 由**定义 4.1.4 (递增数列与递减数列)**, $\left\{a_n\right\}$ 是递增数列.
+
+$\blacksquare$
+
+## 练习一
+
+(练习 4.2 第 1 题) 判断下列数列是不是等差数列. 如果是, 写出它的公差
+
+(1) $95,82,69,56,43,30$;
+
+(2) $1,1.1,1.11,1.111,1.1111,1.11111$;
+
+(3) $1,-2,3,-4,5,-6$;
+
+(4) $1,\frac{11}{12},\frac{5}{6},\frac{3}{4},\frac{2}{3},\frac{7}{12},\frac{1}{2}$.
+
+### 解答 练习一
+
+(1) 由**定义 4.2.1 (等差数列)**, $82-95=-13$, $69-82=-13$, 各项之差均为 $-13$, 是等差数列, 公差 $d=-13$.
+
+$\blacksquare$
+
+(2) 由**定义 4.2.1 (等差数列)**, $1.1-1=0.1$, $1.11-1.1=0.01$, 差不相等, 不是等差数列.
+
+$\blacksquare$
+
+(3) 由**定义 4.2.1 (等差数列)**, $-2-1=-3$, $3-\left(-2\right)=5$, 差不相等, 不是等差数列.
+
+$\blacksquare$
+
+(4) 由**定义 4.2.1 (等差数列)**, $\frac{11}{12}-1=-\frac{1}{12}$, $\frac{5}{6}-\frac{11}{12}=-\frac{1}{12}$, 各项之差均为 $-\frac{1}{12}$, 是等差数列, 公差 $d=-\frac{1}{12}$.
+
+$\blacksquare$
+
+(练习 4.2 第 2 题) 求下列各组数的等差中项
+
+(1) $647$ 和 $895$;
+
+(2) $-12\frac{1}{3}$ 和 $24\frac{3}{5}$.
+
+### 解答 练习一
+
+(1) 由**定义 4.2.2 (等差中项)**,
+
+$$
+A=\frac{647+895}{2}=771.
+$$
+
+$\blacksquare$
+
+(2) 由**定义 4.2.2 (等差中项)**,
+
+$$
+A=\frac{-12\frac{1}{3}+24\frac{3}{5}}{2}=\frac{-\frac{37}{3}+\frac{123}{5}}{2}=\frac{-185+369}{30}=\frac{184}{30}=\frac{92}{15}=6\frac{2}{15}.
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 3 题) 已知 $\left\{a_n\right\}$ 是一个等差数列, 请在下表中的空格处填入适当的数
+
+第一行: $a_1=-7,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ d=\underline{\quad}$;
+
+第二行: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underline{\quad},\ d=-6.5$.
+
+### 解答 练习一
+
+第一行: 由**定理 4.2.3 (等差数列通项公式)**, $a_5=a_1+4d$, 即 $8=-7+4d$, $d=\frac{15}{4}=3.75$.
+
+$$
+a_3=-7+2\times 3.75=0.5,\ a_7=-7+6\times 3.75=15.5.
+$$
+
+第二行: 由**定理 4.2.3 (等差数列通项公式)**, $a_3=a_1+2d$, 即 $2=a_1+2\times\left(-6.5\right)$, $a_1=15$.
+
+$$
+a_5=15+4\times\left(-6.5\right)=-11,\ a_7=15+6\times\left(-6.5\right)=-24.
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 4 题) 已知在等差数列 $\left\{a_n\right\}$ 中, $a_4+a_8=20$, $a_7=12$. 求 $a_4$
+
+### 解答 练习一
+
+由**定理 4.2.5 (等差数列性质)**, $a_4+a_8=a_5+a_7=20$.
+
+由 $a_7=12$, 得 $a_5=20-12=8$.
+
+由**定理 4.2.3 (等差数列通项公式)**, $d=a_5-a_4$, 又 $a_7=a_5+2d$, 即 $12=8+2d$, $d=2$.
+
+故 $a_4=a_5-d=8-2=6$.
+
+$\blacksquare$
+
+(练习 4.2 第 5 题) 在 $7$ 和 $21$ 中插入 $3$ 个数, 使这 $5$ 个数成等差数列, 求这 $3$ 个数
+
+### 解答 练习一
+
+由**定理 4.2.3 (等差数列通项公式)**, 设首项 $a_1=7$, 第 $5$ 项 $a_5=21$, 则
+
+$$
+a_5=a_1+4d,\ 21=7+4d,\ d=\frac{14}{4}=3.5.
+$$
+
+插入的 $3$ 个数为
+
+$$
+a_2=7+3.5=10.5,\ a_3=10.5+3.5=14,\ a_4=14+3.5=17.5.
+$$
+
+$\blacksquare$
+
+## 练习二
+
+(练习 4.2 第 1 题) 某体育场一角看台的座位是这样排列的: 第 $1$ 排有 $15$ 个座位, 从第 $2$ 排起每一排都比前一排多 $2$ 个座位. 你能用 $a_n$ 表示第 $n$ 排的座位数吗? 第 $10$ 排有多少个座位?
+
+### 解答 练习二
+
+由**定义 4.2.1 (等差数列)**, 座位数构成首项 $a_1=15$, 公差 $d=2$ 的等差数列.
+
+由**定理 4.2.3 (等差数列通项公式)**,
+
+$$
+a_n=15+\left(n-1\right)\times 2=2n+13.
+$$
+
+第 $10$ 排座位数为
+
+$$
+a_{10}=2\times 10+13=33.
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 2 题) 画出数列 $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1< n\le 6\end{cases}$ 的图象, 并求通过图象上所有点的直线的斜率
+
+该图为数列 $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1< n\le6\end{cases}$ 的散点图(横坐标为 $n$,纵坐标为 $a_n$):六个点依次为 $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$,恰好在直线 $y=21-3x$ 上.
+
+### 解答 练习二
+
+由**定义 4.1.6 (递推公式)**, 逐项计算.
+
+$$
+a_1=18,\ a_2=15,\ a_3=12,\ a_4=9,\ a_5=6,\ a_6=3.
+$$
+
+由**常用结论 4.2.4** (等差数列与一次函数), 各点在直线 $y=21-3x$ 上, 斜率为 $-3$.
+
+$\blacksquare$
+
+(练习 4.2 第 3 题) 在等差数列 $\left\{a_n\right\}$ 中, $a_n=m$, $a_m=n$, 求 $a_{m+n}$
+
+### 解答 练习二
+
+由**定理 4.2.3 (等差数列通项公式)**,
+
+$$
+a_n=a_1+\left(n-1\right)d=m,\ a_m=a_1+\left(m-1\right)d=n.
+$$
+
+两式相减, 得 $\left(n-m\right)d=m-n$, 故 $d=-1$.
+
+代回 $a_1+\left(n-1\right)\left(-1\right)=m$, 得 $a_1=m+n-1$.
+
+故
+
+$$
+a_{m+n}=a_1+\left(m+n-1\right)d=m+n-1-\left(m+n-1\right)=0.
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 4 题) 已知数列 $\left\{a_n\right\},\left\{b_n\right\}$ 都是等差数列, $c_n=a_n+b_n$, 求证 $\left\{c_n\right\}$ 也是等差数列
+
+### 解答 练习二
+
+由**定义 4.2.1 (等差数列)**, 设 $\left\{a_n\right\}$ 公差为 $d_1$, $\left\{b_n\right\}$ 公差为 $d_2$.
+
+$$
+c_{n+1}-c_n=\left(a_{n+1}+b_{n+1}\right)-\left(a_n+b_n\right)=\left(a_{n+1}-a_n\right)+\left(b_{n+1}-b_n\right)=d_1+d_2.
+$$
+
+差为常数 $d_1+d_2$, 由**定义 4.2.1 (等差数列)**, $\left\{c_n\right\}$ 是等差数列.
+
+$\blacksquare$
+
+(练习 4.2 第 5 题) 已知一个无穷等差数列 $\left\{a_n\right\}$ 的首项为 $a_1$, 公差为 $d$
+
+(1) 将数列中的前 $m$ 项去掉, 其余各项组成一个新的数列, 这个新数列是等差数列吗? 如果是, 它的首项与公差分别是多少?
+
+(2) 取出数列中的所有奇数项, 组成一个新的数列, 这个新数列是等差数列吗? 如果是, 它的首项与公差分别是多少?
+
+### 解答 练习二
+
+(1) 由**定理 4.2.3 (等差数列通项公式)**, 去掉前 $m$ 项后, 新数列首项为 $a_{m+1}=a_1+md$, 相邻两项之差仍为 $d$, 是等差数列, 首项为 $a_1+md$, 公差为 $d$.
+
+$\blacksquare$
+
+(2) 由**定理 4.2.3 (等差数列通项公式)**, 奇数项为 $a_1,a_3,a_5,\cdots$, 相邻两项之差为 $a_{2k+1}-a_{2k-1}=2d$, 是等差数列, 首项为 $a_1$, 公差为 $2d$.
+
+$\blacksquare$
+
+## 练习三
+
+(练习 4.2 第 1 题) 根据下列各题中的条件, 求相应等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n$
+
+(1) $a_1=5,\ a_n=-23,\ n=8$;
+
+(2) $a_1=-4,\ d=4,\ n=10$;
+
+(3) $a_1=14.5,\ d=0.7,\ a_n=32$;
+
+(4) $a_3=14.5,\ d=0.7,\ a_n=32$.
+
+### 解答 练习三
+
+(1) 由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+S_8=\frac{8\times\left(5-23\right)}{2}=-72.
+$$
+
+$\blacksquare$
+
+(2) 由**定理 4.2.7 (前 $n$ 项和公式二)**,
+
+$$
+S_{10}=10\times\left(-4\right)+\frac{10\times 9}{2}\times 4=-40+180=140.
+$$
+
+$\blacksquare$
+
+(3) 由**定理 4.2.3 (等差数列通项公式)**, $32=14.5+\left(n-1\right)\times 0.7$, $n-1=25$, $n=26$.
+
+由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+S_{26}=\frac{26\times\left(14.5+32\right)}{2}=13\times 46.5=604.5.
+$$
+
+$\blacksquare$
+
+(4) 由**定理 4.2.3 (等差数列通项公式)**, $a_3=a_1+2\times 0.7=14.5$, $a_1=13.1$.
+
+$32=13.1+\left(n-1\right)\times 0.7$, $n-1=27$, $n=28$.
+
+由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+S_{28}=\frac{28\times\left(13.1+32\right)}{2}=14\times 45.1=631.4.
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 2 题) 等差数列 $-1,-3,-5,\cdots$ 的前多少项的和是 $-100$?
+
+### 解答 练习三
+
+由**定义 4.2.1 (等差数列)**, $a_1=-1$, $d=-2$.
+
+由**定理 4.2.7 (前 $n$ 项和公式二)**,
+
+$$
+S_n=-n+\frac{n\left(n-1\right)}{2}\times\left(-2\right)=-n-n\left(n-1\right)=-n^2.
+$$
+
+令 $-n^2=-100$, $n=10$. 前 $10$ 项的和为 $-100$.
+
+$\blacksquare$
+
+(练习 4.2 第 3 题) 在等差数列 $\left\{a_n\right\}$ 中, $S_n$ 为其前 $n$ 项的和, 若 $S_4=6$, $S_8=20$, 求 $S_{16}$
+
+### 解答 练习三
+
+由**定理 4.2.7 (前 $n$ 项和公式二)**,
+
+$$
+S_4=4a_1+6d=6,\ S_8=8a_1+28d=20.
+$$
+
+解得 $a_1=\frac{3}{4}$, $d=\frac{1}{2}$.
+
+$$
+S_{16}=16\times\frac{3}{4}+\frac{16\times 15}{2}\times\frac{1}{2}=12+60=72.
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 4 题) 在等差数列 $\left\{a_n\right\}$ 中, 若 $S_{15}=5\left(a_2+a_6+a_k\right)$, 求 $k$
+
+### 解答 练习三
+
+由**定理 4.2.6 (前 $n$ 项和公式一)**, $S_{15}=\frac{15\left(a_1+a_{15}\right)}{2}$.
+
+由**定理 4.2.5 (等差数列性质)**, $a_1+a_{15}=2a_8$, 故 $S_{15}=15a_8$.
+
+由 $S_{15}=5\left(a_2+a_6+a_k\right)$, 得 $3a_8=a_2+a_6+a_k$.
+
+由**定理 4.2.5 (等差数列性质)**, $a_2+a_6=2a_4$, 故 $3a_8=2a_4+a_k$.
+
+又 $a_8=a_4+4d$, 故 $3a_4+12d=2a_4+a_k$, $a_k=a_4+12d=a_{16}$.
+
+故 $k=16$.
+
+$\blacksquare$
+
+(练习 4.2 第 5 题) 已知一个等差数列的项数为奇数, 其中奇数项之和为 $44$, 偶数项之和为 $33$, 求该数列的中间项与项数
+
+### 解答 练习三
+
+设项数为 $2n+1$. 由**定理 4.2.5 (等差数列性质)**, 奇数项之和为 $\left(n+1\right)a_{n+1}$, 偶数项之和为 $na_{n+1}$.
+
+$$
+\left(n+1\right)a_{n+1}=44,\ na_{n+1}=33.
+$$
+
+两式相除, $\frac{n+1}{n}=\frac{44}{33}=\frac{4}{3}$, 得 $n=3$.
+
+中间项为 $a_{n+1}=a_4=\frac{33}{3}=11$, 项数为 $2\times 3+1=7$.
+
+$\blacksquare$
+
+## 练习四
+
+(练习 4.2 第 1 题) 某商场的新年最高促销奖设立了两种中奖方式: 第一种方式是"每天奖 100 元, 连续奖 10 天"; 第二种方式是"第 1 天奖 1 元, 第 2 天奖 2 元, 第 3 天奖 4 元, ..., 后一天是前一天的 2 倍, 连续奖 20 天". 如果你是中奖者, 你会选择哪种方式?
+
+### 解答 练习四
+
+第一种方式总金额为 $100\times 10=1000$ 元.
+
+第二种方式为等比数列求和, 首项 $1$, 公比 $2$, $20$ 天总金额为 $2^{20}-1=1048575$ 元.
+
+$1048575> 1000$, 选择第二种方式.
+
+$\blacksquare$
+
+(练习 4.2 第 2 题) 已知数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{1}{4}n^2+\frac{2}{3}n+3$, 求 $\left\{a_n\right\}$ 的通项公式
+
+### 解答 练习四
+
+由**常用结论 4.1.8** ($a_n$ 与 $S_n$ 的关系), 当 $n=1$ 时, $a_1=S_1=\frac{1}{4}+\frac{2}{3}+3=\frac{47}{12}$.
+
+当 $n\ge 2$ 时,
+
+$$
+a_n=S_n-S_{n-1}=\left(\frac{1}{4}n^2+\frac{2}{3}n+3\right)-\left[\frac{1}{4}\left(n-1\right)^2+\frac{2}{3}\left(n-1\right)+3\right]=\frac{1}{4}\left(2n-1\right)+\frac{2}{3}=\frac{n}{2}+\frac{5}{12}.
+$$
+
+验证 $n=1$ 时, $\frac{1}{2}+\frac{5}{12}=\frac{11}{12}\ne\frac{47}{12}$, 故通项公式为
+
+$$
+a_n=\begin{cases}\frac{47}{12}, & n=1,\\ \frac{n}{2}+\frac{5}{12}, & n\ge 2.\end{cases}
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 3 题) 已知等差数列 $-4.2,-3.7,-3.2,\cdots$ 的前 $n$ 项和为 $S_n$, 求 $S_n$ 的最小值及对应的 $n$ 的值
+
+### 解答 练习四
+
+由**定义 4.2.1 (等差数列)**, $a_1=-4.2$, $d=0.5$.
+
+由**定理 4.2.3 (等差数列通项公式)**, $a_n=-4.2+\left(n-1\right)\times 0.5=0.5n-4.7$.
+
+令 $a_n\le 0$, 得 $n\le 9.4$, 即前 $9$ 项为负, 第 $10$ 项为正.
+
+由**定理 4.2.7 (前 $n$ 项和公式二)**,
+
+$$
+S_9=9\times\left(-4.2\right)+\frac{9\times 8}{2}\times 0.5=-37.8+18=-19.8.
+$$
+
+$S_n$ 的最小值为 $-19.8$, 对应 $n=9$.
+
+$\blacksquare$
+
+(练习 4.2 第 4 题) 求集合 $M=\left\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m< 60\right\}$ 的元素个数, 并求这些元素的和
+
+### 解答 练习四
+
+由 $m=2n-1< 60$, 得 $n< 30.5$, $n=1,2,\cdots,30$, 共 $30$ 个元素.
+
+这些元素为 $1,3,5,\cdots,59$, 构成首项 $1$, 末项 $59$, 公差 $2$ 的等差数列.
+
+由**定理 4.2.6 (前 $n$ 项和公式一)**,
+
+$$
+S_{30}=\frac{30\times\left(1+59\right)}{2}=900.
+$$
+
+$\blacksquare$
+
+(练习 4.2 第 5 题) 已知数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=\frac{n-2}{2n-15}$, 求 $S_n$ 取得最小值时 $n$ 的值
+
+### 解答 练习四
+
+由 $a_n=\frac{n-2}{2n-15}$, 令 $a_n=0$, 得 $n=2$.
+
+当 $n< 2$ 时, $a_1=\frac{-1}{-13}> 0$; 当 $n=2$ 时, $a_2=0$; 当 $7.5> n> 2$ 时, $a_n< 0$; 当 $n> 8$ 时, $a_n> 0$.
+
+前 $n$ 项和 $S_n$ 在各项由负转正时取得最小值, 即 $n=8$ 时 $S_8$ 最小.
+
+$\blacksquare$

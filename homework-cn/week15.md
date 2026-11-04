@@ -1,362 +1,468 @@
 # week15
-> **定义 4.3.1 (对数)**
+> **定义 5.2.1 (正弦函数, 余弦函数, 正切函数)**
 > 
-> 一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
+> 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.2.2 (终边上任意一点的三角函数比值)**
+> 
+> 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+> **定义 5.4.1 (周期函数)**
+> 
+> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 ## 练习一
 
-(练习 4.3 第 1 题) 把下列指数式写成对数式, 对数式写成指数式.
-
-(1) $2^3=8$;
-
-(2) $\mathrm e^{\sqrt{3}}=m$;
-
-(3) $27^{-\frac{1}{3}}=\frac{1}{3}$;
-
-(4) $\log_3 9=2$;
-
-(5) $\lg n=2.3$;
-
-(6) $\log_3\frac{1}{81}=-4$.
+(练习 5.4 第 8 题) 设函数 $f\left(x\right)$ ($x\in\mathbb R$) 是以 $2$ 为最小正周期的周期函数, 且当 $x\in\left[0,2\right]$ 时, $f\left(x\right)=\left(x-1\right)^{2}$. 求 $f\left(3\right)$, $f\left(\frac{7}{2}\right)$ 的值.
 
 ### 解答 练习一
 
-由**定义 4.3.1 (对数)** 与**常用结论 4.3.3** (对数与指数的关系), $a^x=N\Leftrightarrow x=\log_a N$.
+由**定义 5.4.1 (周期函数)**, $f\left(x+2\right)=f\left(x\right)$.
 
-(1) $2^3=8$ 化为对数式: $\log_2 8=3$.
+由 $f\left(3\right)=f\left(1+2\right)=f\left(1\right)=\left(1-1\right)^{2}=0$.
 
-(2) $\mathrm e^{\sqrt{3}}=m$ 化为自然对数式: $\ln m=\sqrt{3}$.
-
-(3) $27^{-\frac{1}{3}}=\frac{1}{3}$ 化为对数式: $\log_{27}\frac{1}{3}=-\frac{1}{3}$.
-
-(4) $\log_3 9=2$ 化为指数式: $3^2=9$.
-
-(5) $\lg n=2.3$ 化为指数式: $10^{2.3}=n$.
-
-(6) $\log_3\frac{1}{81}=-4$ 化为指数式: $3^{-4}=\frac{1}{81}$. $\blacksquare$
+由 $f\left(\frac{7}{2}\right)=f\left(\frac{3}{2}+2\right)=f\left(\frac{3}{2}\right)=\left(\frac{3}{2}-1\right)^{2}=\frac{1}{4}$. $\blacksquare$
 
 ## 练习二
 
-(练习 4.3 第 2 题) 求下列各式的值.
+(练习 5.4 第 9 题) 观察正弦曲线和余弦曲线, 写出满足下列条件的 $x$ 所在的区间:
 
-(1) $\log_5 25$;
+(1) $\sin x> 0$;
 
-(2) $\log_{0.4} 1$;
+(2) $\sin x< 0$;
 
-(3) $\ln\frac{1}{\mathrm e}$;
+(3) $\cos x> 0$;
 
-(4) $\lg 0.001$.
+(4) $\cos x< 0$.
 
 ### 解答 练习二
 
-由**常用结论 4.3.3** (对数与指数的关系) 及**常用结论 4.3.4** (对数运算性质).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) $\log_5 25=\log_5 5^2=2$.
+(1) $\sin x> 0$: $x\in\left(2k\pi,\ \pi+2k\pi\right)$, $k\in\mathbb Z$.
 
-(2) 由**常用结论 4.3.3**, $\log_{0.4} 1=0$.
+(2) $\sin x< 0$: $x\in\left(\pi+2k\pi,\ 2\pi+2k\pi\right)$, $k\in\mathbb Z$.
 
-(3) $\ln\frac{1}{\mathrm e}=\ln\mathrm e^{-1}=-1$.
+(3) $\cos x> 0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$.
 
-(4) $\lg 0.001=\lg 10^{-3}=-3$. $\blacksquare$
+(4) $\cos x< 0$: $x\in\left(\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
 
 ## 练习三
 
-(练习 4.3 第 3 题) 求下列各式中 $x$ 的值.
+(练习 5.4 第 10 题) 求使下列函数取得最大值, 最小值的自变量的集合, 并求出最大值, 最小值.
 
-(1) $\log_{\frac{1}{3}} x=-3$;
+(1) $y=2\sin x$, $x\in\mathbb R$;
 
-(2) $\log_x 49=4$;
-
-(3) $\lg 0.00001=x$;
-
-(4) $\ln\sqrt{\mathrm e}=-x$.
+(2) $y=2-\cos\frac{x}{3}$, $x\in\mathbb R$.
 
 ### 解答 练习三
 
-由**常用结论 4.3.3** (对数与指数的关系), 将对数式化为指数式求解.
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) $\log_{\frac{1}{3}} x=-3$ 化为 $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
+(1) 当 $x=\frac{\pi}{2}+2k\pi$ ($k\in\mathbb Z$) 时, $\sin x=1$, $y$ 取最大值 $2$; 当 $x=-\frac{\pi}{2}+2k\pi$ 时, $\sin x=-1$, $y$ 取最小值 $-2$.
 
-(2) $\log_x 49=4$ 化为 $x^4=49$, 又 $x> 0$ 且 $x\neq 1$, 故 $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
-
-(3) $\lg 0.00001=x$ 化为 $10^x=0.00001=10^{-5}$, 故 $x=-5$.
-
-(4) $\ln\sqrt{\mathrm e}=-x$ 化为 $\mathrm e^{-x}=\sqrt{\mathrm e}=\mathrm e^{\frac{1}{2}}$, 故 $-x=\frac{1}{2}$, 即 $x=-\frac{1}{2}$. $\blacksquare$
+(2) 当 $\frac{x}{3}=2k\pi$, 即 $x=6k\pi$ 时, $\cos\frac{x}{3}=1$, $y$ 取最小值 $1$; 当 $\frac{x}{3}=\pi+2k\pi$, 即 $x=3\pi+6k\pi$ 时, $\cos\frac{x}{3}=-1$, $y$ 取最大值 $3$. $\blacksquare$
 
 ## 练习四
 
-(练习 4.3 第 4 题) 求下列各式的值.
+(练习 5.4 第 11 题) 下列关于函数 $y=4\sin x$, $x\in\left[0,2\pi\right]$ 的单调性的叙述, 正确的是 ( ).
 
-(1) $\log_3\left(27\times 9^2\right)$;
+(A) 在 $\left[0,\pi\right]$ 上单调递增, 在 $\left[\pi,2\pi\right]$ 上单调递减
 
-(2) $\lg 5+\lg 2$;
+(B) 在 $\left[0,\frac{\pi}{2}\right]$ 上单调递增, 在 $\left[\frac{\pi}{2},2\pi\right]$ 上单调递减
 
-(3) $\ln 3+\ln\frac{1}{3}$;
+(C) 在 $\left[0,\frac{\pi}{2}\right]$ 及 $\left[\frac{3\pi}{2},2\pi\right]$ 上单调递增, 在 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 上单调递减
 
-(4) $\log_3 5-\log_3 15$.
+(D) 在 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 上单调递增, 在 $\left[0,\frac{\pi}{2}\right]$ 及 $\left[\frac{3\pi}{2},2\pi\right]$ 上单调递减
 
 ### 解答 练习四
 
-由**常用结论 4.3.4** (对数运算性质).
+由**常用结论** (正弦函数的图象与性质), 正弦函数在 $\left[-\frac{\pi}{2}+2k\pi,\ \frac{\pi}{2}+2k\pi\right]$ 上单调递增, 在 $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$ 上单调递减.
 
-(1) 由 (1) (3), $\log_3\left(27\times 9^2\right)=\log_3 27+2\log_3 9=3+2\times 2=7$.
-
-(2) 由 (1), $\lg 5+\lg 2=\lg 10=1$.
-
-(3) 由 (1), $\ln 3+\ln\frac{1}{3}=\ln 1=0$.
-
-(4) 由 (2), $\log_3 5-\log_3 15=\log_3\frac{5}{15}=\log_3\frac{1}{3}=-1$. $\blacksquare$
+在 $\left[0,2\pi\right]$ 上, 递增区间为 $\left[0,\frac{\pi}{2}\right]$ 和 $\left[\frac{3\pi}{2},2\pi\right]$, 递减区间为 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. 选 (C). $\blacksquare$
 
 ## 练习五
 
-(练习 4.3 第 5 题) 用 $\lg x$, $\lg y$, $\lg z$ 表示下列各式.
+(练习 5.4 第 12 题) 不通过求值, 比较下列各组中两个三角函数值的大小:
 
-(1) $\lg\left(xyz\right)$;
+(1) $\cos\frac{3\pi}{7}$ 与 $\cos\left(-\frac{4\pi}{9}\right)$;
 
-(2) $\lg\frac{xy^2}{z}$;
-
-(3) $\lg\frac{xy^3}{\sqrt{z}}$;
-
-(4) $\lg\frac{\sqrt{x}}{y^2 z}$.
+(2) $\sin250^{\circ}$ 与 $\sin260^{\circ}$.
 
 ### 解答 练习五
 
-由**常用结论 4.3.4** (对数运算性质).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 (1), $\lg\left(xyz\right)=\lg x+\lg y+\lg z$.
+(1) 由 $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0< \frac{3\pi}{7}< \frac{4\pi}{9}< \pi$, 且余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{7}> \cos\frac{4\pi}{9}$, 即 $\cos\frac{3\pi}{7}> \cos\left(-\frac{4\pi}{9}\right)$.
 
-(2) 由 (1) (2), $\lg\frac{xy^2}{z}=\lg x+2\lg y-\lg z$.
-
-(3) 由 (1) (2) (3), $\lg\frac{xy^3}{\sqrt{z}}=\lg x+3\lg y-\frac{1}{2}\lg z$.
-
-(4) 由 (1) (2) (3), $\lg\frac{\sqrt{x}}{y^2 z}=\frac{1}{2}\lg x-2\lg y-\lg z$. $\blacksquare$
+(2) 由 $90^{\circ}< 250^{\circ}< 260^{\circ}< 270^{\circ}$, 且正弦函数在 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$ 即 $\left[90^{\circ},270^{\circ}\right]$ 上单调递减, 得 $\sin250^{\circ}> \sin260^{\circ}$. $\blacksquare$
 
 ## 练习六
 
-(练习 4.3 第 6 题) 化简下列各式.
-
-(1) $\log_2 3\times\log_3 4\times\log_4 5\times\log_5 2$;
-
-(2) $2\left(\log_4 3+\log_8 3\right)\left(\log_3 2+\log_9 2\right)$.
+(练习 5.4 第 13 题) 求函数 $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\left[0,\pi\right]$ 的单调递减区间.
 
 ### 解答 练习六
 
-由**常用结论 4.3.5** (对数换底公式).
+由**常用结论** (正弦函数的图象与性质), 正弦函数的递减区间为 $\left[\frac{\pi}{2}+2k\pi,\ \frac{3\pi}{2}+2k\pi\right]$.
 
-(1) 由换底公式, $\log_a b=\frac{\ln b}{\ln a}$, 故原式 $=\frac{\ln 3}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 5}{\ln 4}\cdot\frac{\ln 2}{\ln 5}=1$.
+令 $\frac{\pi}{2}+2k\pi\le 2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, 解得 $\frac{\pi}{8}+k\pi\le x\le\frac{5\pi}{8}+k\pi$. 取 $k=0$, 得 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq\left[0,\pi\right]$. 故单调递减区间为 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
 
-(2) 由换底公式, $\log_4 3=\frac{\ln 3}{2\ln 2}$, $\log_8 3=\frac{\ln 3}{3\ln 2}$, $\log_3 2=\frac{\ln 2}{\ln 3}$, $\log_9 2=\frac{\ln 2}{2\ln 3}$. 代入得
+## 练习七
 
-$$
-2\cdot\frac{\ln 3}{\ln 2}\left(\frac{1}{2}+\frac{1}{3}\right)\cdot\frac{\ln 2}{\ln 3}\left(1+\frac{1}{2}\right)=2\cdot\frac{5}{6}\cdot\frac{3}{2}=\frac{5}{2}.
-$$
+(练习 5.4 第 14 题) 借助函数 $y=\tan x$ 的图象解不等式 $\tan x\ge-1$, $x\in\left[0,\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\pi\right)$.
 
-$\blacksquare$
+### 解答 练习七
+
+由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 和 $\left(\frac{\pi}{2},\frac{3\pi}{2}\right)$ 上单调递增.
+
+由 $\tan\left(-\frac{\pi}{4}\right)=-1$, 在 $\left[0,\frac{\pi}{2}\right)$ 上 $\tan x\ge0> -1$, 恒成立. 在 $\left(\frac{\pi}{2},\pi\right)$ 上, $\tan x\ge-1=\tan\left(-\frac{\pi}{4}\right)=\tan\frac{3\pi}{4}$, 由单调性得 $x\ge\frac{3\pi}{4}$. 故解集为 $\left[0,\frac{\pi}{2}\right)\cup\left[\frac{3\pi}{4},\pi\right)$. $\blacksquare$
+
+## 练习八
+
+(练习 5.4 第 15 题) 观察正切曲线, 写出满足下列条件的 $x$ 值的范围:
+
+(1) $\tan x> 0$;
+
+(2) $\tan x=0$;
+
+(3) $\tan x< 0$.
+
+### 解答 练习八
+
+由**常用结论** (正切函数的图象与性质).
+
+(1) $\tan x> 0$: $x\in\left(k\pi,\ \frac{\pi}{2}+k\pi\right)$, $k\in\mathbb Z$.
+
+(2) $\tan x=0$: $x=k\pi$, $k\in\mathbb Z$.
+
+(3) $\tan x< 0$: $x\in\left(-\frac{\pi}{2}+k\pi,\ k\pi\right)$, $k\in\mathbb Z$. $\blacksquare$
+
+## 练习九
+
+(练习 5.4 第 16 题) 求函数 $y=\tan3x$ 的定义域.
+
+### 解答 练习九
+
+由**常用结论** (正切函数的图象与性质), 正切函数的自变量须满足 $x\neq\frac{\pi}{2}+k\pi$.
+
+由 $3x\neq\frac{\pi}{2}+k\pi$, 得 $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb Z$. 故定义域为 $\left\{x\mid x\neq\frac{\pi}{6}+\frac{k\pi}{2},\ k\in\mathbb Z\right\}$. $\blacksquare$
+
+## 练习十
+
+(练习 5.4 第 17 题) 求下列函数的周期:
+
+(1) $y=\tan2x$, $x\neq\frac{\pi}{4}+\frac{k\pi}{2}$ ($k\in\mathbb Z$);
+
+(2) $y=5\tan\frac{x}{2}$, $x\neq\left(2k+1\right)\pi$ ($k\in\mathbb Z$).
+
+### 解答 练习十
+
+由**常用结论** (正切函数的图象与性质), 正切函数 $y=\tan\left(\omega x+\varphi\right)$ 的周期为 $\frac{\pi}{\omega}$.
+
+(1) 由 $\omega=2$, 得 $T=\frac{\pi}{2}$.
+
+(2) 由 $\omega=\frac{1}{2}$, 得 $T=\frac{\pi}{1/2}=2\pi$. $\blacksquare$
+
+## 练习十一
+
+(练习 5.4 第 18 题) 不通过求值, 比较下列各组中两个正切值的大小:
+
+(1) $\tan\left(-52^{\circ}\right)$ 与 $\tan\left(-47^{\circ}\right)$;
+
+(2) $\tan\frac{13\pi}{4}$ 与 $\tan\frac{17\pi}{5}$.
+
+### 解答 练习十一
+
+由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上单调递增.
+
+(1) 由 $-90^{\circ}< -52^{\circ}< -47^{\circ}< 0^{\circ}$, 得 $\tan\left(-52^{\circ}\right)< \tan\left(-47^{\circ}\right)$.
+
+(2) 由 $\tan\frac{13\pi}{4}=\tan\left(3\pi+\frac{\pi}{4}\right)=\tan\frac{\pi}{4}$, $\tan\frac{17\pi}{5}=\tan\left(3\pi+\frac{2\pi}{5}\right)=\tan\frac{2\pi}{5}$. 由 $0< \frac{\pi}{4}< \frac{2\pi}{5}< \frac{\pi}{2}$, 得 $\tan\frac{\pi}{4}< \tan\frac{2\pi}{5}$, 即 $\tan\frac{13\pi}{4}< \tan\frac{17\pi}{5}$. $\blacksquare$
 
 ## 习题一
 
-(习题 4.3 复习巩固第 1 题) 把下列指数式写成对数式, 对数式写成指数式.
+(习题 5.4 复习巩固第 1 题) 画出下列函数的简图:
 
-(1) $3^x=1$;
+(1) $y=1-\sin x$, $x\in\left[0,2\pi\right]$;
 
-(2) $4^x=\frac{1}{6}$;
+(2) $y=3\cos x+1$, $x\in\left[0,2\pi\right]$.
 
-(3) $10^x=6$;
-
-(4) $\mathrm e^x=25$;
-
-(5) $x=\log_5 27$;
-
-(6) $x=\log_7\frac{1}{3}$;
-
-(7) $x=\lg 0.3$;
-
-(8) $x=\ln\sqrt{3}$.
+图:共两幅.左为 $y=1-\sin x$ 在 $\left[0,2\pi\right]$ 上的五点作图,关键点为 $\left(0,1\right)$,$\left(\frac{\pi}{2},0\right)$,$\left(\pi,1\right)$,$\left(\frac{3\pi}{2},2\right)$,$\left(2\pi,1\right)$;右为 $y=3\cos x+1$ 在 $\left[0,2\pi\right]$ 上的五点作图,关键点为 $\left(0,4\right)$,$\left(\frac{\pi}{2},1\right)$,$\left(\pi,-2\right)$,$\left(\frac{3\pi}{2},1\right)$,$\left(2\pi,4\right)$,振幅为 $3$,沿 $y$ 轴平移 $1$.
 
 ### 解答 习题一
 
-由**定义 4.3.1 (对数)** 与**常用结论 4.3.3** (对数与指数的关系).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质), 用五点法作图.
 
-(1) $3^x=1$ 化为 $\log_3 1=x$.
+(1) 五个关键点: $\left(0,1\right)$, $\left(\frac{\pi}{2},0\right)$, $\left(\pi,1\right)$, $\left(\frac{3\pi}{2},2\right)$, $\left(2\pi,1\right)$.
 
-(2) $4^x=\frac{1}{6}$ 化为 $\log_4\frac{1}{6}=x$.
-
-(3) $10^x=6$ 化为 $\lg 6=x$.
-
-(4) $\mathrm e^x=25$ 化为 $\ln 25=x$.
-
-(5) $x=\log_5 27$ 化为 $5^x=27$.
-
-(6) $x=\log_7\frac{1}{3}$ 化为 $7^x=\frac{1}{3}$.
-
-(7) $x=\lg 0.3$ 化为 $10^x=0.3$.
-
-(8) $x=\ln\sqrt{3}$ 化为 $\mathrm e^x=\sqrt{3}$. $\blacksquare$
+(2) 五个关键点: $\left(0,4\right)$, $\left(\frac{\pi}{2},1\right)$, $\left(\pi,-2\right)$, $\left(\frac{3\pi}{2},1\right)$, $\left(2\pi,4\right)$. $\blacksquare$
 
 ## 习题二
 
-(习题 4.3 复习巩固第 2 题) 选择题.
+(习题 5.4 复习巩固第 2 题) 求下列函数的周期:
 
-(1) 使式子 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义的 $x$ 的取值范围是 ( ).
+(1) $y=\sin\frac{2}{3}x$, $x\in\mathbb R$;
 
-(A) $x> 2$ (B) $x< 2$ (C) $\frac{1}{2}< x< 2$ (D) $\frac{1}{2}< x< 2$, 且 $x\neq 1$
-
-(2) 若 $\lg a$ ($a> 0$) 与 $\lg b$ ($b> 0$) 互为相反数, 则 ( ).
-
-(A) $a+b=0$ (B) $a-b=0$ (C) $ab=1$ (D) $\frac{a}{b}=1$
+(2) $y=\frac{1}{2}\cos4x$, $x\in\mathbb R$.
 
 ### 解答 习题二
 
-由**定义 4.3.1 (对数)** 与**常用结论 4.3.4** (对数运算性质).
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期), $T=\frac{2\pi}{\omega}$.
 
-(1) 对数 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义要求底数 $2x-1> 0$ 且 $2x-1\neq 1$, 真数 $2-x> 0$. 即 $x> \frac{1}{2}$, $x\neq 1$, $x< 2$. 综合得 $\frac{1}{2}< x< 2$ 且 $x\neq 1$, 故选 (D).
+(1) 由 $\omega=\frac{2}{3}$, 得 $T=\frac{2\pi}{2/3}=3\pi$.
 
-(2) $\lg a$ 与 $\lg b$ 互为相反数, 即 $\lg a+\lg b=0$. 由**常用结论 4.3.4** (1), $\lg\left(ab\right)=0$, 故 $ab=1$, 选 (C). $\blacksquare$
+(2) 由 $\omega=4$, 得 $T=\frac{2\pi}{4}=\frac{\pi}{2}$. $\blacksquare$
 
 ## 习题三
 
-(习题 4.3 复习巩固第 3 题) 求下列各式的值.
+(习题 5.4 复习巩固第 3 题) 下列函数中, 哪些是奇函数? 哪些是偶函数? 哪些既不是奇函数, 也不是偶函数?
 
-(1) $\log_a 2+\log_a\frac{1}{2}$;
+(1) $y=\lvert\sin x\rvert$;
 
-(2) $\log_3 18-\log_3 2$;
+(2) $y=1-\cos2x$;
 
-(3) $\lg\frac{1}{4}-\lg 25$;
+(3) $y=-3\sin2x$;
 
-(4) $2\log_5 25-3\log_2 64$;
-
-(5) $\log_2\left(\log_2 16\right)$;
-
-(6) $\log_2 25\times\log_3 4\times\log_5 9$.
+(4) $y=1+2\tan x$.
 
 ### 解答 习题三
 
-由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.5** (对数换底公式).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 (1), $\log_a 2+\log_a\frac{1}{2}=\log_a 1=0$.
+(1) $f\left(-x\right)=\lvert\sin\left(-x\right)\rvert=\lvert-\sin x\rvert=\lvert\sin x\rvert=f\left(x\right)$, 偶函数.
 
-(2) 由 (2), $\log_3 18-\log_3 2=\log_3 9=2$.
+(2) $f\left(-x\right)=1-\cos\left(-2x\right)=1-\cos2x=f\left(x\right)$, 偶函数.
 
-(3) 由 (2), $\lg\frac{1}{4}-\lg 25=\lg\frac{1}{100}=-2$.
+(3) $f\left(-x\right)=-3\sin\left(-2x\right)=3\sin2x=-f\left(x\right)$, 奇函数.
 
-(4) $2\log_5 25-3\log_2 64=2\times 2-3\times 6=-14$.
-
-(5) $\log_2\left(\log_2 16\right)=\log_2 4=2$.
-
-(6) 由换底公式, 原式 $=\frac{\ln 25}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 9}{\ln 5}=\frac{2\ln 5}{\ln 2}\cdot\frac{2\ln 2}{\ln 3}\cdot\frac{2\ln 3}{\ln 5}=8$. $\blacksquare$
+(4) $f\left(-x\right)=1+2\tan\left(-x\right)=1-2\tan x$, 既不等于 $f\left(x\right)$ 也不等于 $-f\left(x\right)$, 既不是奇函数也不是偶函数. $\blacksquare$
 
 ## 习题四
 
-(习题 4.3 复习巩固第 4 题) 求满足下列条件的 $x$ 的值.
+(习题 5.4 复习巩固第 4 题) 求使下列函数取得最大值, 最小值的自变量 $x$ 的集合, 并求出最大值, 最小值:
 
-(1) $\ln x=\ln a+\ln b$;
+(1) $y=1-\frac{1}{2}\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)$, $x\in\mathbb R$;
 
-(2) $\lg x=3\lg n-\lg m$;
+(2) $y=3\sin\left(2x+\frac{\pi}{4}\right)$, $x\in\mathbb R$;
 
-(3) $\log_a x=\frac{1}{2}\log_a b-\log_a c$;
+(3) $y=-\frac{3}{2}\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)$, $x\in\mathbb R$;
 
-(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$.
+(4) $y=\frac{1}{2}\sin\left(\frac{1}{2}x+\frac{\pi}{3}\right)$, $x\in\mathbb R$.
 
 ### 解答 习题四
 
-由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.3** (对数与指数的关系).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 (1), $\ln x=\ln\left(ab\right)$, 故 $x=ab$.
+(1) 当 $\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)=-1$ 时, $y$ 取最大值 $\frac{3}{2}$, 此时 $\frac{2}{3}x+\frac{\pi}{3}=\pi+2k\pi$, 即 $x=\pi+3k\pi$. 当 $\cos\left(\frac{2}{3}x+\frac{\pi}{3}\right)=1$ 时, $y$ 取最小值 $\frac{1}{2}$, 此时 $x=3k\pi$.
 
-(2) 由 (1) (2), $\lg x=\lg\frac{n^3}{m}$, 故 $x=\frac{n^3}{m}$.
+(2) 当 $2x+\frac{\pi}{4}=\frac{\pi}{2}+2k\pi$, 即 $x=\frac{\pi}{8}+k\pi$ 时, $y$ 取最大值 $3$; 当 $x=\frac{5\pi}{8}+k\pi$ 时, $y$ 取最小值 $-3$.
 
-(3) 由 (2) (3), $\log_a x=\log_a\frac{\sqrt{b}}{c}$, 故 $x=\frac{\sqrt{b}}{c}$.
+(3) 当 $\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)=-1$ 时, $y$ 取最大值 $\frac{3}{2}$, 此时 $\frac{1}{2}x-\frac{\pi}{6}=\pi+2k\pi$, 即 $x=\frac{7\pi}{3}+4k\pi$. 当 $\cos\left(\frac{1}{2}x-\frac{\pi}{6}\right)=1$ 时, $y$ 取最小值 $-\frac{3}{2}$, 此时 $x=\frac{\pi}{3}+4k\pi$.
 
-(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$, 由 $\log_a 1=0$, 得 $\log_3\left(\log_4 x\right)=1$; 由 $a^1=a$, 得 $\log_4 x=3$; 故 $x=4^3=64$. $\blacksquare$
+(4) 当 $\frac{1}{2}x+\frac{\pi}{3}=\frac{\pi}{2}+2k\pi$, 即 $x=\frac{\pi}{3}+4k\pi$ 时, $y$ 取最大值 $\frac{1}{2}$; 当 $x=\frac{7\pi}{3}+4k\pi$ 时, $y$ 取最小值 $-\frac{1}{2}$. $\blacksquare$
 
 ## 习题五
 
-(习题 4.3 综合运用第 5 题) 已知 $\lg 2=a$, $\lg 3=b$, 求下列各式的值.
+(习题 5.4 复习巩固第 5 题) 利用函数的单调性比较下列各组中两个三角函数值的大小:
 
-(1) $\lg 6$;
+(1) $\sin103^{\circ}15'$ 与 $\sin164^{\circ}30'$;
 
-(2) $\log_3 4$;
+(2) $\cos\left(-\frac{3\pi}{10}\right)$ 与 $\cos\left(-\frac{4\pi}{9}\right)$;
 
-(3) $\log_2 12$;
+(3) $\sin508^{\circ}$ 与 $\sin144^{\circ}$;
 
-(4) $\lg\frac{3}{2}$.
+(4) $\cos\frac{47\pi}{10}$ 与 $\cos\frac{44\pi}{9}$.
 
 ### 解答 习题五
 
-由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.5** (对数换底公式).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) $\lg 6=\lg\left(2\times 3\right)=\lg 2+\lg 3=a+b$.
+(1) 由 $90^{\circ}< 103^{\circ}15'< 164^{\circ}30'< 180^{\circ}$, 正弦函数在 $\left[90^{\circ},180^{\circ}\right]$ 上单调递减, 得 $\sin103^{\circ}15'> \sin164^{\circ}30'$.
 
-(2) 由换底公式, $\log_3 4=\frac{\lg 4}{\lg 3}=\frac{2\lg 2}{\lg 3}=\frac{2a}{b}$.
+(2) 由 $\cos\left(-\frac{3\pi}{10}\right)=\cos\frac{3\pi}{10}$, $\cos\left(-\frac{4\pi}{9}\right)=\cos\frac{4\pi}{9}$. 由 $0< \frac{3\pi}{10}< \frac{4\pi}{9}< \pi$, 余弦函数在 $\left[0,\pi\right]$ 上单调递减, 得 $\cos\frac{3\pi}{10}> \cos\frac{4\pi}{9}$.
 
-(3) 由换底公式, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg\left(3\times 4\right)}{\lg 2}=\frac{b+2a}{a}$.
+(3) 由 $\sin508^{\circ}=\sin\left(360^{\circ}+148^{\circ}\right)=\sin148^{\circ}$. 由 $90^{\circ}< 144^{\circ}< 148^{\circ}< 180^{\circ}$, 得 $\sin144^{\circ}> \sin148^{\circ}$, 即 $\sin144^{\circ}> \sin508^{\circ}$.
 
-(4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
+(4) 由 $\cos\frac{47\pi}{10}=\cos\left(4\pi+\frac{7\pi}{10}\right)=\cos\frac{7\pi}{10}$, $\cos\frac{44\pi}{9}=\cos\left(4\pi+\frac{8\pi}{9}\right)=\cos\frac{8\pi}{9}$. 由 $0< \frac{7\pi}{10}< \frac{8\pi}{9}< \pi$, 得 $\cos\frac{7\pi}{10}> \cos\frac{8\pi}{9}$, 即 $\cos\frac{47\pi}{10}> \cos\frac{44\pi}{9}$. $\blacksquare$
 
 ## 习题六
 
-(习题 4.3 综合运用第 6 题) 求满足下列条件的各式的值.
+(习题 5.4 复习巩固第 6 题) 求下列函数的单调区间:
 
-(1) 若 $x\log_3 4=1$, 求 $4^x+4^{-x}$ 的值;
+(1) $y=1+\sin x$, $x\in\left[0,2\pi\right]$;
 
-(2) 若 $f\left(x\right)=3^x$, 求 $f\left(\log_3 2\right)$ 的值.
+(2) $y=-\cos x$, $x\in\left[0,2\pi\right]$.
 
 ### 解答 习题六
 
-由**常用结论 4.3.3** (对数与指数的关系).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 $x\log_3 4=1$, 得 $x=\log_4 3$. 故 $4^x=3$, $4^{-x}=\frac{1}{3}$, 从而 $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
+(1) $y=1+\sin x$ 的单调性与 $y=\sin x$ 相同. 递增区间为 $\left[0,\frac{\pi}{2}\right]$ 和 $\left[\frac{3\pi}{2},2\pi\right]$, 递减区间为 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$.
 
-(2) $f\left(\log_3 2\right)=3^{\log_3 2}=2$. $\blacksquare$
+(2) $y=-\cos x$ 的单调性与 $y=\cos x$ 相反. 递增区间为 $\left[0,\pi\right]$, 递减区间为 $\left[\pi,2\pi\right]$. $\blacksquare$
 
 ## 习题七
 
-(习题 4.3 综合运用第 7 题) 证明.
-
-(1) $\log_a b\cdot\log_b c\cdot\log_c a=1$;
-
-(2) $\log_{a^m} b^n=\frac{n}{m}\log_a b$.
+(习题 5.4 复习巩固第 7 题) 求函数 $y=-\tan\left(x+\frac{\pi}{6}\right)+2$ 的定义域.
 
 ### 解答 习题七
 
-由**常用结论 4.3.5** (对数换底公式).
+由**常用结论** (正切函数的图象与性质), 正切函数的自变量须满足 $x\neq\frac{\pi}{2}+k\pi$.
 
-(1) 由换底公式, $\log_a b=\frac{\ln b}{\ln a}$, $\log_b c=\frac{\ln c}{\ln b}$, $\log_c a=\frac{\ln a}{\ln c}$. 三式相乘得 $\log_a b\cdot\log_b c\cdot\log_c a=\frac{\ln b}{\ln a}\cdot\frac{\ln c}{\ln b}\cdot\frac{\ln a}{\ln c}=1$.
-
-(2) 由换底公式, $\log_{a^m} b^n=\frac{\ln b^n}{\ln a^m}=\frac{n\ln b}{m\ln a}=\frac{n}{m}\log_a b$. $\blacksquare$
+由 $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, 得 $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb Z$. 故定义域为 $\left\{x\mid x\neq\frac{\pi}{3}+k\pi,\ k\in\mathbb Z\right\}$. $\blacksquare$
 
 ## 习题八
 
-(习题 4.3 综合运用第 8 题) 某地国内生产总值的年平均增长率为 $6.5\%$, 按此增长率, 多少年后该地国内生产总值会翻两番?
+(习题 5.4 复习巩固第 8 题) 求函数 $y=\tan\left(2x-\frac{5\pi}{12}\right)$, $x\neq\frac{k\pi}{2}$ ($k\in\mathbb Z$) 的周期.
 
 ### 解答 习题八
 
-由**常用结论 4.3.3** (对数与指数的关系), 翻两番即变为原来的 $4$ 倍.
+由**常用结论** (正切函数的图象与性质), 正切函数 $y=\tan\left(\omega x+\varphi\right)$ 的周期为 $\frac{\pi}{\omega}$.
 
-设经过 $x$ 年后国内生产总值翻两番, 则 $1.065^x=4$. 由对数定义, $x=\log_{1.065} 4$. 由换底公式, $x=\frac{\lg 4}{\lg 1.065}\approx\frac{0.602}{0.0273}\approx 22$. 故约 $22$ 年后该地国内生产总值翻两番. $\blacksquare$
+由 $\omega=2$, 得 $T=\frac{\pi}{2}$. $\blacksquare$
 
 ## 习题九
 
-(习题 4.3 拓广探索第 9 题) 我们可以把 $\left(1+1\%\right)^{365}$ 看作每天的 "进步" 率都是 $1\%$, 一年后是 $1.01^{365}$; 而把 $\left(1-1\%\right)^{365}$ 看作每天的 "落后" 率都是 $1\%$, 一年后是 $0.99^{365}$. 利用计算工具计算并回答下列问题.
+(习题 5.4 复习巩固第 9 题) 利用正切函数的单调性比较下列各组中两个函数值的大小:
 
-(1) 一年后 "进步" 的是 "落后" 的多少倍?
+(1) $\tan\left(-\frac{\pi}{5}\right)$ 与 $\tan\left(-\frac{3\pi}{7}\right)$;
 
-(2) 大约经过多少天后 "进步" 的分别是 "落后" 的 $10$ 倍, $100$ 倍, $1000$ 倍?
+(2) $\tan1519^{\circ}$ 与 $\tan1493^{\circ}$;
+
+(3) $\tan\frac{6\pi}{11}$ 与 $\tan\left(-\frac{5\pi}{11}\right)$;
+
+(4) $\tan\frac{7\pi}{8}$ 与 $\tan\frac{\pi}{6}$.
 
 ### 解答 习题九
 
-由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.5** (对数换底公式).
+由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上单调递增.
 
-(1) 一年后进步与落后的倍数为 $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
+(1) 由 $-\frac{\pi}{2}< -\frac{3\pi}{7}< -\frac{\pi}{5}< \frac{\pi}{2}$, 得 $\tan\left(-\frac{3\pi}{7}\right)< \tan\left(-\frac{\pi}{5}\right)$.
 
-(2) 设经过 $x$ 天后进步是落后的 $k$ 倍, 则 $\left(\frac{1.01}{0.99}\right)^x=k$, 故 $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg\left(1.01/0.99\right)}$. 当 $k=10$ 时, $x\approx\frac{1}{0.0087}\approx 115$ 天; 当 $k=100$ 时, $x\approx 230$ 天; 当 $k=1000$ 时, $x\approx 345$ 天. $\blacksquare$
+(2) 由 $\tan1519^{\circ}=\tan\left(4\times360^{\circ}+79^{\circ}\right)=\tan79^{\circ}$, $\tan1493^{\circ}=\tan\left(4\times360^{\circ}+53^{\circ}\right)=\tan53^{\circ}$. 由 $0^{\circ}< 53^{\circ}< 79^{\circ}< 90^{\circ}$, 得 $\tan53^{\circ}< \tan79^{\circ}$, 即 $\tan1493^{\circ}< \tan1519^{\circ}$.
+
+(3) 由 $\tan\frac{6\pi}{11}=\tan\left(-\frac{5\pi}{11}+\pi\right)=\tan\left(-\frac{5\pi}{11}\right)$. 故两者相等.
+
+(4) 由 $\frac{7\pi}{8}\in\left(\frac{\pi}{2},\pi\right)$, $\tan\frac{7\pi}{8}< 0$, 而 $\tan\frac{\pi}{6}> 0$, 得 $\tan\frac{7\pi}{8}< \tan\frac{\pi}{6}$. $\blacksquare$
 
 ## 习题十
 
-(习题 4.3 拓广探索第 10 题) 酒驾是严重危害交通安全的违法行为. 为了保障交通安全, 根据国家有关规定: $100\;\mathrm{mL}$ 血液中酒精含量达到 $20\sim 79\;\mathrm{mg}$ 的驾驶员即为酒后驾车, $80\;\mathrm{mg}$ 及以上认定为醉酒驾车. 假设某驾驶员喝了一定量的酒后, 其血液中的酒精含量上升到了 $1\;\mathrm{mg/mL}$. 如果在停止喝酒以后, 他血液中酒精含量会以每小时 $30\%$ 的速度减少, 那么他至少经过几个小时才能驾驶?
+(习题 5.4 综合运用第 10 题) 求下列函数的值域:
+
+(1) $y=\sin x$, $x\in\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$;
+
+(2) $y=\cos\left(x+\frac{\pi}{3}\right)$, $x\in\left[0,\frac{\pi}{2}\right]$.
 
 ### 解答 习题十
 
-由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.5** (对数换底公式).
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-每小时减少 $30\%$, 即每小时酒精含量为原来的 $0.7$. 初始含量为 $1\;\mathrm{mg/mL}$, 经过 $t$ 小时后含量为 $0.7^\top\;\mathrm{mg/mL}$. 酒后驾车标准为 $100\;\mathrm{mL}$ 中 $20\;\mathrm{mg}$, 即 $0.2\;\mathrm{mg/mL}$, 要能驾驶须 $0.7^\top< 0.2$. 由对数定义, $t> \log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. 故他至少经过 $5$ 个小时才能驾驶. $\blacksquare$
+(1) 在 $\left[\frac{\pi}{4},\frac{5\pi}{4}\right]$ 上, $\sin x$ 在 $x=\frac{\pi}{2}$ 处取最大值 $1$, 在 $x=\frac{5\pi}{4}$ 处取最小值 $-\frac{\sqrt{2}}{2}$. 故值域为 $\left[-\frac{\sqrt{2}}{2},1\right]$.
+
+(2) 由 $x\in\left[0,\frac{\pi}{2}\right]$, 得 $x+\frac{\pi}{3}\in\left[\frac{\pi}{3},\frac{5\pi}{6}\right]$. 在此区间上 $\cos$ 从 $\frac{1}{2}$ 单调递减到 $-\frac{\sqrt{3}}{2}$. 故值域为 $\left[-\frac{\sqrt{3}}{2},\frac{1}{2}\right]$. $\blacksquare$
+
+## 习题十一
+
+(习题 5.4 综合运用第 11 题) 根据正弦函数, 余弦函数的图象, 写出使下列不等式成立的 $x$ 的取值集合:
+
+(1) $\sin x\ge\frac{\sqrt{3}}{2}$ ($x\in\mathbb R$);
+
+(2) $\sqrt{2}+2\cos x\ge0$ ($x\in\mathbb R$).
+
+### 解答 习题十一
+
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
+
+(1) 由 $\sin x\ge\frac{\sqrt{3}}{2}=\sin\frac{\pi}{3}$, 得 $x\in\left[\frac{\pi}{3}+2k\pi,\ \frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+
+(2) 由 $\sqrt{2}+2\cos x\ge0$, 得 $\cos x\ge-\frac{\sqrt{2}}{2}$. 由 $\cos x\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, 得 $x\in\left[-\frac{3\pi}{4}+2k\pi,\ \frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
+
+## 习题十二
+
+(习题 5.4 综合运用第 12 题) 下列四个函数中, 以 $\pi$ 为最小正周期, 且在区间 $\left(\frac{\pi}{2},\pi\right)$ 上单调递减的是 ( ).
+
+(A) $y=\lvert\sin x\rvert$
+
+(B) $y=\cos x$
+
+(C) $y=\tan x$
+
+(D) $y=\cos\frac{x}{2}$
+
+### 解答 习题十二
+
+由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
+
+(A) $y=\lvert\sin x\rvert$ 的周期为 $\pi$, 在 $\left(\frac{\pi}{2},\pi\right)$ 上 $\sin x> 0$ 且递减, 故 $\lvert\sin x\rvert$ 递减, 符合条件.
+
+(B) $y=\cos x$ 的周期为 $2\pi$, 不符合.
+
+(C) $y=\tan x$ 在 $\left(\frac{\pi}{2},\pi\right)$ 上单调递增, 不符合.
+
+(D) $y=\cos\frac{x}{2}$ 的周期为 $4\pi$, 不符合.
+
+选 (A). $\blacksquare$
+
+## 习题十三
+
+(习题 5.4 综合运用第 13 题) 若 $x$ 是斜三角形的一个内角, 写出使下列不等式成立的 $x$ 的集合:
+
+(1) $1+\tan x\le0$;
+
+(2) $\tan x-\sqrt{3}\ge0$.
+
+### 解答 习题十三
+
+由**常用结论** (正切函数的图象与性质), 斜三角形内角 $x\in\left(0,\pi\right)$ 且 $x\neq\frac{\pi}{2}$.
+
+(1) 由 $1+\tan x\le0$, 得 $\tan x\le-1$. 在 $\left(\frac{\pi}{2},\pi\right)$ 上, $\tan x\le-1=\tan\frac{3\pi}{4}$, 得 $x\in\left[\frac{3\pi}{4},\pi\right)$.
+
+(2) 由 $\tan x-\sqrt{3}\ge0$, 得 $\tan x\ge\sqrt{3}=\tan\frac{\pi}{3}$. 在 $\left(0,\frac{\pi}{2}\right)$ 上, 得 $x\in\left[\frac{\pi}{3},\frac{\pi}{2}\right)$. $\blacksquare$
+
+## 习题十四
+
+(习题 5.4 综合运用第 14 题) 求函数 $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调区间.
+
+### 解答 习题十四
+
+由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$ 上单调递增.
+
+$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\pi}{4}\right)$ 相反. 令 $-\frac{\pi}{2}+k\pi< 2x-\frac{3\pi}{4}< \frac{\pi}{2}+k\pi$, 解得 $\frac{\pi}{8}+\frac{k\pi}{2}< x< \frac{5\pi}{8}+\frac{k\pi}{2}$. 故 $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 在 $\left(\frac{\pi}{8}+\frac{k\pi}{2},\ \frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb Z$) 上单调递减. $\blacksquare$
+
+## 习题十五
+
+(习题 5.4 综合运用第 15 题) 已知函数 $y=f\left(x\right)$ 是定义在 $\mathbb R$ 上周期为 $2$ 的奇函数, 若 $f\left(0.5\right)=1$, 求 $f\left(1\right)$, $f\left(3.5\right)$ 的值.
+
+### 解答 习题十五
+
+由**定义 5.4.1 (周期函数)** 及奇函数性质 $f\left(-x\right)=-f\left(x\right)$.
+
+由 $f\left(x\right)$ 为奇函数, $f\left(0\right)=0$. 由周期为 $2$, $f\left(1\right)=f\left(-1+2\right)=f\left(-1\right)=-f\left(1\right)$, 故 $f\left(1\right)=0$.
+
+由 $f\left(3.5\right)=f\left(1.5+2\right)=f\left(1.5\right)=f\left(-0.5+2\right)=f\left(-0.5\right)=-f\left(0.5\right)=-1$. $\blacksquare$
+
+## 习题十六
+
+(习题 5.4 综合运用第 16 题) 已知函数 $f\left(x\right)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$,
+
+(1) 求 $f\left(x\right)$ 的最小正周期;
+
+(2) 求 $f\left(x\right)$ 在区间 $\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$ 上的最大值和最小值.
+
+### 解答 习题十六
+
+由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期) 及**常用结论** (正弦函数的图象与性质).
+
+(1) 由 $\omega=2$, 得 $T=\frac{2\pi}{2}=\pi$.
+
+(2) 由 $x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$, 得 $2x-\frac{\pi}{3}\in\left[-\frac{5\pi}{6},\frac{\pi}{6}\right]$. 在此区间上, $\sin\left(2x-\frac{\pi}{3}\right)$ 的最大值为 $\sin\frac{\pi}{6}=\frac{1}{2}$ (在 $x=\frac{\pi}{4}$ 处), 最小值为 $\sin\left(-\frac{\pi}{2}\right)=-1$ (在 $x=-\frac{\pi}{12}$ 处). 故 $f\left(x\right)$ 的最大值为 $\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 最小值为 $\frac{1}{2}\times\left(-1\right)=-\frac{1}{2}$. $\blacksquare$
+
+## 习题十七
+
+(习题 5.4 拓广探索第 17 题) 在直角坐标系中, 已知 $\odot O$ 是以原点 $O$ 为圆心, 半径长为 $2$ 的圆, 角 $x$ 的终边与 $\odot O$ 的交点为 $B$, 求点 $B$ 的纵坐标 $y$ 关于 $x$ 的函数解析式, 并借助信息技术画出其图象.
+
+图:左侧为平面直角坐标系中以原点 $O$ 为圆心,半径为 $2$ 的圆,角 $x$ 的终边与圆交于点 $B$;右侧为点 $B$ 的纵坐标 $y$ 关于角 $x$ 的函数图象 $y=2\sin x$,即振幅为 $2$,周期为 $2\pi$ 的正弦曲线,在 $y=-2$ 与 $y=2$ 之间波动.
+
+### 解答 习题十七
+
+由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**定义 5.2.2 (终边上任意一点的三角函数比值)**.
+
+由圆半径为 $2$, 角 $x$ 的终边与圆的交点 $B$ 的坐标为 $\left(2\cos x,\ 2\sin x\right)$. 故点 $B$ 的纵坐标 $y=2\sin x$, $x\in\mathbb R$. 其图象为振幅为 $2$, 周期为 $2\pi$ 的正弦曲线. $\blacksquare$

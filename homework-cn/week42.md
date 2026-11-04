@@ -1,465 +1,325 @@
 # week42
-> **定义 8.1.4 (棱柱)**
+> **定义 1.1.1 (空间向量)**
 > 
-> 有两个面互相平行, 其余各面都是四边形, 且每相邻两个四边形的公共边互相平行, 由这些面围成的多面体叫做棱柱.
-> **推论 8.4.6 (推论 2)**
+> 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模.
+> **定义 1.1.2 (相反向量)**
 > 
-> 经过两条相交直线, 有且只有一个平面.
-> **定义 8.4.9 (直线与平面的位置关系)**
+> 与向量 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+> **定义 1.1.3 (共线向量或平行向量)**
 > 
-> 用一个或两个平面衬托,如图８.４１２所示. α a b β α a b 图８.４１２ ２空间中直线与平面的位置关系 在图８.４１１中,直线与平面有无数个公共点;直线′与平面 只有一个公共点;直线′′与平面没有公共点.再结合生活实例,我们可以看 出,直线与平面的位置关系有且只有三种: (１)直线在平面内———有无数个公共点; 　　一般地,直线在平 面α内,应把直线画在 表示平面α的平行四边形 内;直线在平面α外, 应把直线或它的一部分 画在表示平面α的平行四 边形外. (２)直线与平面相交———有且只有一个公共点; (３)直线与平面平行———没有公共点. 当直线与平面相交或平行时,直线不在平面内,也称为 直线在平面外. 图８.４１３表示了直线与平面的三种位置关系. α a α a A α a 图８.４１３ 直线与平面α相交于点,记作∩α＝;直线与平面α平行,记作∥α. ９２１ 下面我们研究空间中直线,平面之间的位置关系,
-> **定理 8.5.2 (等角定理)**
+> 方向相同或相反的非零向量叫做平行向量 (或共线向量). 规定零向量与任一向量平行.
+> **定义 1.1.4 (相等向量)**
 > 
-> 如果一个角的两边和另一个角的两边分别平行, 那么这两个角相等或互补.
-> **定理 8.5.3 (直线与平面平行的判定定理)**
+> 长度相等且方向相同的向量叫做相等向量.
+> **定义 1.1.5 (属于与不属于)**
 > 
-> 平面外一条直线与此平面内的一条直线平行, 则该直线与此平面平行.
-> **定理 8.5.4 (直线与平面平行的性质定理)**
+> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> **定义 1.1.12 (向量的数量积)**
 > 
-> 一条直线与一个平面平行, 则过该直线的任一平面与此平面的交线与该直线平行.
-> **定理 8.5.5 (平面与平面平行的判定定理)**
+> 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.
+> **定理 1.2.1 (空间向量基本定理)**
 > 
-> 一个平面内的两条相交直线与另一个平面平行, 则这两个平面平行.
-> **定理 8.5.6 (平面与平面平行的性质定理)**
+> 如果三个向量 a, b, c 不共面, 那么对任一空间向量 p, 存在唯一的有序实数组 (x, y, z), 使 p = xa + yb + zc.
+> **定义 1.2.2 (基底, 基向量)**
 > 
-> 两个平行平面同时和第三个平面相交, 所得的交线平行.
+> 如果三个向量 a, b, c 不共面, 那么所有空间向量都可以表示成这三个向量的线性组合. {a, b, c} 叫做空间的一个基底, a, b, c 都叫做基向量.
 
 ## 练习一
 
-(练习 8.5 第 1 题) 如图, 把一张矩形纸片对折几次, 然后打开, 得到的折痕互相平行吗? 为什么?
+(练习 1.1 第 4 题) 如图, 线段 $AB$, $BD$ 在平面 $\alpha$ 内, $BD \perp AB$, $AC \perp \alpha$, 且 $AB=a$, $BD=b$, $AC=c$. 求 $C$, $D$ 两点间的距离.
 
-(题图: 一张矩形纸片对折两次后打开, 三条折痕互相平行.)
+(题图: 平面 $\alpha$ 内有线段 $AB$, $BD$, $BD\perp AB$, $AC\perp\alpha$ 于 $A$, $AB=a$, $BD=b$, $AC=c$.)
 
 ### 解答 练习一
 
-由**基本事实 8.5.1** (基本事实 4), 平行于同一直线的两条直线平行.
+由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
 
-每次对折的折痕都与原矩形的同一条边平行, 故各折痕都平行于同一条直线. 由**基本事实 8.5.1** (基本事实 4), 这些折痕互相平行. $\blacksquare$
+$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}=-\boldsymbol{AC}+\boldsymbol{AB}+\boldsymbol{BD}$.
 
-## 练习二
+设 $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, 则 $\boldsymbol{a} \perp \boldsymbol{b}$ (因为 $BD \perp AB$), $\boldsymbol{c} \perp \boldsymbol{a}$ (因为 $AC \perp \alpha$ 且 $AB \subset \alpha$), $\boldsymbol{c} \perp \boldsymbol{b}$ (因为 $AC \perp \alpha$ 且 $BD \subset \alpha$). 故 $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}=0$.
 
-(练习 8.5 第 2 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, 与棱 $AA'$ 平行的棱共有几条? 分别是什么?
+$$
+\lvert \boldsymbol{CD} \rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{c} \cdot \boldsymbol{b}=c^2+a^2+b^2.
+$$
 
-(题图: 长方体 $ABCD\text{-}A'B'C'D'$ 的直观图.)
-
-### 解答 练习二
-
-由**基本事实 8.5.1** (基本事实 4) 及长方体棱的性质.
-
-长方体有 $12$ 条棱, 其中 $4$ 条互相平行的侧棱为 $AA'$, $BB'$, $CC'$, $DD'$. 与 $AA'$ 平行的棱除 $AA'$ 本身外有 $3$ 条, 分别是 $BB'$, $CC'$, $DD'$. $\blacksquare$
-
-## 练习三
-
-(练习 8.5 第 3 题) 如图, $AA'$, $BB'$, $CC'$ 不共面, 且 $AA'=\ BB'$, $BB'=\ CC'$. 求证: $\triangle ABC\cong\triangle A'B'C'$.
-
-(题图: 两个三角形 $ABC$ 与 $A'B'C'$, 对应顶点连线 $AA'$, $BB'$, $CC'$ 平行且相等.)
-
-### 解答 练习三
-
-由**基本事实 8.5.1** (基本事实 4) 及**定理 8.5.2 (等角定理)**.
-
-由 $AA'=\ BB'$, 四边形 $ABB'A'$ 是平行四边形, 故 $AB\parallel A'B'$ 且 $AB=A'B'$. 同理, 由 $BB'=\ CC'$, $BC\parallel B'C'$ 且 $BC=B'C'$.
-
-由**定理 8.5.2 (等角定理)**, $\angle ABC$ 与 $\angle A'B'C'$ 的两边分别对应平行且方向相同, 故 $\angle ABC=\angle A'B'C'$.
-
-在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\angle A'B'C'$, 故 $\triangle ABC\cong\triangle A'B'C'$. $\blacksquare$
-
-## 练习四
-
-(练习 8.5 第 4 题) 如图, 在四面体 $A\text{-}BCD$ 中, $E$, $F$, $G$ 分别为 $AB$, $AC$, $AD$ 上的点. 若 $EF\parallel BC$, $FG\parallel CD$, 则 $\triangle EFG$ 和 $\triangle BCD$ 有什么关系? 为什么?
-
-(题图: 四面体 $A\text{-}BCD$, $E$ 在 $AB$ 上, $F$ 在 $AC$ 上, $G$ 在 $AD$ 上, 连接 $EF$, $FG$, $EG$.)
-
-### 解答 练习四
-
-由**定理 8.5.2 (等角定理)** 及平行线分线段成比例.
-
-由 $EF\parallel BC$, $FG\parallel CD$, 两边对应平行且方向相同, 故 $\angle EFG=\angle BCD$.
-
-又由 $EF\parallel BC$, $\frac{EF}{BC}=\frac{AF}{AC}$; 由 $FG\parallel CD$, $\frac{FG}{CD}=\frac{AF}{AC}$. 故 $\frac{EF}{BC}=\frac{FG}{CD}$.
-
-由两边对应成比例且夹角相等, $\triangle EFG\sim\triangle BCD$. $\blacksquare$
-
-## 练习五
-
-(练习 8.5 第 1 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中,
-
-(1) 与 $AB$ 平行的平面是 $\;\_\_\;$;
-
-(2) 与 $AA'$ 平行的平面是 $\;\_\_\;$;
-
-(3) 与 $AD$ 平行的平面是 $\;\_\_\;$.
-
-(题图: 长方体 $ABCD\text{-}A'B'C'D'$ 的直观图.)
-
-### 解答 练习五
-
-由**定理 8.5.3 (直线与平面平行的判定定理)**.
-
-(1) $AB\parallel A'B'\subset$ 平面 $A'B'C'D'$, 且 $AB\parallel DC\subset$ 平面 $D'DC'C$, 故与 $AB$ 平行的平面是平面 $A'B'C'D'$ 和平面 $D'DC'C$.
-
-(2) $AA'\parallel BB'\subset$ 平面 $B'BCC'$, $AA'\parallel DD'\subset$ 平面 $D'DC'C$, 故与 $AA'$ 平行的平面是平面 $B'BCC'$ 和平面 $D'DC'C$.
-
-(3) $AD\parallel A'D'\subset$ 平面 $A'B'C'D'$, $AD\parallel BC\subset$ 平面 $B'BCC'$, 故与 $AD$ 平行的平面是平面 $A'B'C'D'$ 和平面 $B'BCC'$. $\blacksquare$
-
-## 练习六
-
-(练习 8.5 第 2 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, $E'$ 是 $A'A$ 上一点, 求证: $AB\parallel$ 平面 $DCC'D'$.
-
-(题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E'$ 为侧棱 $A'A$ 上一点.)
-
-### 解答 练习六
-
-由**定理 8.5.3 (直线与平面平行的判定定理)**.
-
-在长方体中, $AB\parallel DC$. 又 $DC\subset$ 平面 $DCC'D'$, $AB\not\subset$ 平面 $DCC'D'$.
-
-由**定理 8.5.3 (直线与平面平行的判定定理)**, 平面外直线 $AB$ 平行于平面内直线 $DC$, 故 $AB\parallel$ 平面 $DCC'D'$. $\blacksquare$
-
-## 练习七
-
-(练习 8.5 第 1 题) 判断下列命题是否正确. 若正确, 则说明理由; 若错误, 则举出反例.
-
-(1) 已知平面 $\alpha$, $\beta$ 和直线 $m$, $n$, 若 $m\subset\alpha$, $n\subset\alpha$, $m\parallel\beta$, $n\parallel\beta$, 则 $\alpha\parallel\beta$.
-
-(2) 若一个平面 $\alpha$ 内两条不平行的直线都平行于另一平面 $\beta$, 则 $\alpha\parallel\beta$.
-
-(3) 平行于同一条直线的两个平面平行.
-
-(4) 平行于同一个平面的两个平面平行.
-
-(5) 一条直线与两个平行平面中的一个相交, 则必与另一个相交.
-
-### 解答 练习七
-
-由**定理 8.5.5 (平面与平面平行的判定定理)** 判断.
-
-(1) 错误. $m$, $n$ 必须相交才行; 若 $m\parallel n$, 两平面可能相交.
-
-(2) 正确. $\alpha$ 内两条不平行的直线即相交直线, 它们都平行于 $\beta$, 由**定理 8.5.5 (平面与平面平行的判定定理)**, $\alpha\parallel\beta$.
-
-(3) 错误. 反例: 两相交平面都平行于同一条交线的平行线.
-
-(4) 正确. 由平行的传递性, 平行于同一平面的两个平面互相平行.
-
-(5) 正确. 若直线与另一个平面平行或在其内, 则由面面平行的性质, 它也与第一个平面无交点, 矛盾. $\blacksquare$
-
-## 练习八
-
-(练习 8.5 第 2 题) 平面 $\alpha$ 与平面 $\beta$ 平行的充分条件可以是 ( ).
-
-(A) $\alpha$ 内有无穷多条直线都与 $\beta$ 平行;
-
-(B) 直线 $a\parallel\alpha$, $a\parallel\beta$, 且直线 $a$ 不在 $\alpha$ 内, 也不在 $\beta$ 内;
-
-(C) 直线 $a\subset\alpha$, 直线 $b\subset\beta$, 且 $a\parallel\beta$, $b\parallel\alpha$;
-
-(D) $\alpha$ 内的任何一条直线都与 $\beta$ 平行.
-
-### 解答 练习八
-
-由**定理 8.5.5 (平面与平面平行的判定定理)** 判断.
-
-(A) 错误. $\alpha$ 内无穷多条直线平行 $\beta$, 但都可能平行于两平面的交线.
-
-(B) 错误. 一条直线不能判定两平面平行.
-
-(C) 错误. $a$, $b$ 各在一平面内不能判定.
-
-(D) 正确. $\alpha$ 内任何一条直线都平行于 $\beta$, 特别地可取两条相交直线都平行于 $\beta$, 由**定理 8.5.5 (平面与平面平行的判定定理)**, $\alpha\parallel\beta$.
-
-故选 (D). $\blacksquare$
-
-## 练习九
-
-(练习 8.5 第 3 题) 如图, 在正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, $M$, $N$, $E$, $F$ 分别是棱 $A_{1}B_{1}$, $A_{1}D_{1}$, $B_{1}C_{1}$, $C_{1}D_{1}$ 的中点. 求证: 平面 $AMN\parallel$ 平面 $DBEF$.
-
-(题图: 正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $M,N,E,F$ 分别为上底面四条棱的中点.)
-
-### 解答 练习九
-
-由**定理 8.5.3 (直线与平面平行的判定定理)** 及**定理 8.5.5 (平面与平面平行的判定定理)**.
-
-$M$, $N$ 分别为 $A_{1}B_{1}$, $A_{1}D_{1}$ 的中点, 故 $MN\parallel B_{1}D_{1}$. 又 $B_{1}D_{1}\parallel BD$, 故 $MN\parallel BD$. 而 $BD\subset$ 平面 $DBEF$, $MN\not\subset$ 平面 $DBEF$, 故 $MN\parallel$ 平面 $DBEF$.
-
-同理, $AM\parallel DF$ (由中位线及正方体对称性), $DF\subset$ 平面 $DBEF$, $AM\not\subset$ 平面 $DBEF$, 故 $AM\parallel$ 平面 $DBEF$.
-
-又 $MN\cap AM=M$, 两条相交直线 $MN$, $AM$ 都在平面 $AMN$ 内且都平行于平面 $DBEF$. 由**定理 8.5.5 (平面与平面平行的判定定理)**, 平面 $AMN\parallel$ 平面 $DBEF$. $\blacksquare$
-
-## 练习十
-
-(练习 8.5 第 4 题) 如图, 平面 $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel b$. 判断 $c$ 与 $a$, $c$ 与 $\alpha$ 的位置关系, 并说明理由.
-
-(题图: 两个平行平面 $\alpha,\beta$ 被第三个平面 $\gamma$ 所截, 交线为 $a,b$; $c$ 在 $\beta$ 内且平行于 $b$.)
-
-### 解答 练习十
-
-由**定理 8.5.6 (平面与平面平行的性质定理)** 及**定理 8.5.3 (直线与平面平行的判定定理)**.
-
-因为 $\alpha\parallel\beta$, $\gamma$ 与它们分别交于 $a$, $b$, 由**定理 8.5.6 (平面与平面平行的性质定理)**, $a\parallel b$.
-
-又 $c\parallel b$, 由平行传递性, $c\parallel a$.
-
-因为 $c\parallel a$, $a\subset\alpha$, $c\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $c\parallel\alpha$.
-
-故 $c\parallel a$, 且 $c\parallel\alpha$. $\blacksquare$
+故 $CD=\sqrt{a^2+b^2+c^2}$. $\blacksquare$
 
 ## 习题一
 
-(习题 8.5 复习巩固第 1 题) 选择题.
+(习题 1.1 复习巩固第 1 题) 如图, 在长方体 $ABCD-A'B'C'D'$ 中, $E$, $F$ 分别为棱 $AA'$, $AB$ 的中点.
 
-(1) 若直线 $a$ 不平行于平面 $\alpha$, 则下列结论成立的是 ( ).
+(1) 写出与向量 $\boldsymbol{BC}$ 相等的向量;
 
-(A) $\alpha$ 内的所有直线都与 $a$ 异面; (B) $\alpha$ 内不存在与 $a$ 平行的直线; (C) $\alpha$ 内的直线都与 $a$ 相交; (D) 直线 $a$ 与平面 $\alpha$ 有公共点.
+(2) 写出与向量 $\boldsymbol{BC}$ 相反的向量;
 
-(2) 如果直线 $a\parallel$ 平面 $\alpha$, $P\in\alpha$, 那么过点 $P$ 且平行于直线 $a$ 的直线 ( ).
+(3) 写出与向量 $\boldsymbol{EF}$ 平行的向量.
 
-(A) 只有一条, 不在平面 $\alpha$ 内; (B) 有无数条, 不一定在 $\alpha$ 内; (C) 只有一条, 且在平面 $\alpha$ 内; (D) 有无数条, 一定在 $\alpha$ 内.
+(题图: 长方体 $ABCD-A'B'C'D'$, $E$ 为 $AA'$ 中点, $F$ 为 $AB$ 中点.)
 
 ### 解答 习题一
 
-由**定义 8.4.9 (直线与平面的位置关系)** 判断.
+由**定义 1.1.4 (相等向量)**, **定义 1.1.2 (相反向量)** 及**定义 1.1.3 (共线向量或平行向量)**.
 
-(1) 直线 $a$ 不平行于平面 $\alpha$, 则 $a$ 在 $\alpha$ 内或与 $\alpha$ 相交, 两种情况都有公共点. 故选 (D).
+(1) 由**定义 1.1.4 (相等向量)**, 方向相同且模相等的向量相等. 在长方体中, $\boldsymbol{BC}=\boldsymbol{AD}=\boldsymbol{A'D'}=\boldsymbol{B'C'}$.
 
-(2) $a\parallel\alpha$, $P\in\alpha$. 过 $a$ 和 $P$ 作平面, 该平面与 $\alpha$ 交于唯一一条直线 $b$, 由线面平行性质, $b\parallel a$. 这条直线唯一且在 $\alpha$ 内. 故选 (C). $\blacksquare$
+(2) 由**定义 1.1.2 (相反向量)**, 与 $\boldsymbol{BC}$ 相反的向量即方向相反且模相等的向量: $\boldsymbol{CB}$, $\boldsymbol{DA}$, $\boldsymbol{D'A'}$, $\boldsymbol{C'B'}$.
+
+(3) $E$, $F$ 分别为 $AA'$, $AB$ 的中点, 故 $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{A'B}=\frac{1}{2}\left(\boldsymbol{AB}-\boldsymbol{AA'}\right)$. 由**定义 1.1.3 (共线向量或平行向量)**, 与 $\boldsymbol{EF}$ 平行的向量为所有与 $\boldsymbol{EF}$ 共线的向量, 如 $\boldsymbol{A'B}$, $\boldsymbol{D'C}$ 等. $\blacksquare$
 
 ## 习题二
 
-(习题 8.5 复习巩固第 2 题) 已知平面 $\alpha$, $\beta$ 和直线 $a$, $b$, $c$, 且 $a\parallel b\parallel c$, $a\subset\alpha$, $b\subset\beta$, $c\subset\beta$, 则 $\alpha$ 与 $\beta$ 的位置关系是 $\;\_\_\;$.
+(习题 1.1 复习巩固第 2 题) 如图, 已知平行六面体 $ABCD-A'B'C'D'$, 化简下列表达式, 并在图中标出化简结果:
+
+(1) $\boldsymbol{AB}+\boldsymbol{BC}$;
+
+(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}$;
+
+(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}$;
+
+(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)$.
+
+(题图: 平行六面体 $ABCD-A'B'C'D'$.)
 
 ### 解答 习题二
 
-由**定理 8.5.5 (平面与平面平行的判定定理)** 判断.
+由**定义 1.1.5 (属于与不属于)** 及**常用结论 1.1.6** (运算律).
 
-$b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 平行. 但 $b$, $c$ 平行不相交, 不能判定 $\alpha\parallel\beta$. 两平面可能平行, 也可能相交 (交线平行于这三条直线).
+(1) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$.
 
-故 $\alpha$ 与 $\beta$ 的位置关系是平行或相交. $\blacksquare$
+(2) $\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{CC'}=\boldsymbol{AC}+\boldsymbol{CC'}=\boldsymbol{AC'}$.
+
+(3) $\boldsymbol{AB}+\boldsymbol{AD}+\frac{1}{2}\boldsymbol{CC'}=\boldsymbol{AC}+\frac{1}{2}\boldsymbol{AA'}$. 设 $M$ 是 $CC'$ 的中点, 则该向量等于 $\boldsymbol{AM}$.
+
+(4) $\frac{1}{3}\left(\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}\right)=\frac{1}{3}\boldsymbol{AC'}$. 设 $P$ 是对角线 $AC'$ 上靠近 $A$ 的三等分点, 则该向量等于 $\boldsymbol{AP}$. $\blacksquare$
 
 ## 习题三
 
-(习题 8.5 复习巩固第 3 题) 如图, 在长方体木块 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 面 $A_{1}C_{1}$ 上有一点 $P$, 怎样过点 $P$ 画一条直线与棱 $CD$ 平行?
-
-(题图: 长方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 上底面 $A_{1}B_{1}C_{1}D_{1}$ 上有一点 $P$.)
+(习题 1.1 复习巩固第 3 题) 证明: 如果向量 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线, 那么向量 $2\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}$ 共线.
 
 ### 解答 习题三
 
-由**定理 8.5.3 (直线与平面平行的判定定理)** 及平行线的作法.
+由**常用结论 1.1.7** (向量共线的充要条件), $\boldsymbol{a} \parallel \boldsymbol{b}$ 当且仅当存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-在平面 $A_{1}B_{1}C_{1}D_{1}$ 内, 过点 $P$ 作直线 $EF$, 使 $EF\parallel C_{1}D_{1}$, 分别交 $A_{1}D_{1}$, $B_{1}C_{1}$ 于 $E$, $F$.
+因为 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线, 由**常用结论 1.1.7**, 存在实数 $\lambda$, 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-因为 $CD\parallel C_{1}D_{1}$, 所作 $EF\parallel C_{1}D_{1}$, 故 $EF\parallel CD$. 直线 $EF$ 即为所求. $\blacksquare$
+于是 $2\boldsymbol{a}+\boldsymbol{b}=2\boldsymbol{a}+\lambda\boldsymbol{a}=\left(2+\lambda\right)\boldsymbol{a}$.
+
+由**常用结论 1.1.7**, $2\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}$ 共线. $\blacksquare$
 
 ## 习题四
 
-(习题 8.5 复习巩固第 4 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, $E$, $F$ 分别是 $AB$, $BC$ 的中点, 求证 $EF\parallel A'C'$.
+(习题 1.1 复习巩固第 4 题) 如图, 已知四面体 $ABCD$ 的所有棱长都等于 $a$, $E$, $F$, $G$ 分别是棱 $AB$, $AD$, $DC$ 的中点. 求:
 
-(题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E$ 为 $AB$ 中点, $F$ 为 $BC$ 中点.)
+(1) $\boldsymbol{AB} \cdot \boldsymbol{AC}$;
+
+(2) $\boldsymbol{AD} \cdot \boldsymbol{DB}$;
+
+(3) $\boldsymbol{GF} \cdot \boldsymbol{AC}$;
+
+(4) $\boldsymbol{EF} \cdot \boldsymbol{BC}$;
+
+(5) $\boldsymbol{FG} \cdot \boldsymbol{BA}$;
+
+(6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
+
+(题图: 所有棱长都等于 $a$ 的四面体 $ABCD$, $E$ 为 $AB$ 中点, $F$ 为 $AD$ 中点, $G$ 为 $DC$ 中点.)
 
 ### 解答 习题四
 
-由**基本事实 8.5.1** (基本事实 4).
+由**定义 1.1.12 (向量的数量积)**, 正四面体中任意两条棱的夹角均为 $60^\circ$.
 
-在 $\triangle ABC$ 中, $E$, $F$ 分别是 $AB$, $BC$ 的中点, 故 $EF$ 是中位线, $EF\parallel AC$.
+(1) $\left\langle \boldsymbol{AB}, \boldsymbol{AC} \right\rangle=60^\circ$, 故 $\boldsymbol{AB} \cdot \boldsymbol{AC}=\lvert \boldsymbol{AB} \rvert \lvert \boldsymbol{AC} \rvert \cos 60^\circ=a \cdot a \cdot \frac{1}{2}=\frac{a^2}{2}$.
 
-在长方体中, $AC\parallel A'C'$. 由**基本事实 8.5.1** (基本事实 4), $EF\parallel A'C'$. $\blacksquare$
+(2) $\left\langle \boldsymbol{AD}, \boldsymbol{DB} \right\rangle$: $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角. 在正三角形 $ABD$ 中, $\angle ADB=60^\circ$, 但 $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角为 $180^\circ-60^\circ=120^\circ$. 故 $\boldsymbol{AD} \cdot \boldsymbol{DB}=a \cdot a \cdot \cos 120^\circ=-\frac{a^2}{2}$.
+
+(3) $G$, $F$ 分别是 $DC$, $AD$ 的中点, 故 $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{GF} \cdot \boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{AC}=-\frac{1}{2}a^2$.
+
+(4) $E$, $F$ 分别是 $AB$, $AD$ 的中点, 故 $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. 故 $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD} \cdot \boldsymbol{BC}$. $\left\langle \boldsymbol{BD}, \boldsymbol{BC} \right\rangle=60^\circ$, 故 $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2} \cdot a \cdot a \cdot \frac{1}{2}=\frac{a^2}{4}$.
+
+(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{FG} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \left(-\boldsymbol{AB}\right)=-\frac{1}{2} \cdot \frac{a^2}{2}=-\frac{a^2}{4}$.
+
+(6) $\boldsymbol{GE}=\boldsymbol{GC}+\boldsymbol{CE}$ 或用中点性质. $\boldsymbol{GE}=\boldsymbol{AE}-\boldsymbol{AG}$. 其中 $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{AG}=\frac{1}{2}\left(\boldsymbol{AD}+\boldsymbol{AC}\right)$ (因为 $G$ 是 $DC$ 中点, $\boldsymbol{AG}=\boldsymbol{AD}+\boldsymbol{DG}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{DC}=\boldsymbol{AD}+\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AD}\right)=\frac{1}{2}\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AC}$).
+
+故 $\boldsymbol{GE}=\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}$.
+
+$\boldsymbol{GF}=-\frac{1}{2}\boldsymbol{AC}$.
+
+$\boldsymbol{GE} \cdot \boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right) \cdot \left(-\frac{1}{2}\boldsymbol{AC}\right)$
+
+$=-\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC} \cdot \boldsymbol{AC}$
+
+$=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
 
 ## 习题五
 
-(习题 8.5 复习巩固第 5 题) 如下页图, 在四面体 $D\text{-}ABC$ 中, $E$, $F$, $G$ 分别是 $AB$, $BC$, $CD$ 的中点, 求证:
+(习题 1.1 综合运用第 5 题) 如图, 在平行六面体 $ABCD-A_1B_1C_1D_1$ 中, $AC$ 与 $BD$ 的交点为 $M$. 设 $\boldsymbol{A_1B_1}=\boldsymbol{a}$, $\boldsymbol{A_1D_1}=\boldsymbol{b}$, $\boldsymbol{A_1A}=\boldsymbol{c}$, 则下列向量中与 $\boldsymbol{B_1M}$ 相等的向量是( ).
 
-(1) $BD\parallel$ 平面 $EFG$;
+(A) $-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (B) $\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (C) $\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$ (D) $-\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$
 
-(2) $AC\parallel$ 平面 $EFG$.
+(题图: 平行六面体 $ABCD-A_1B_1C_1D_1$, $M$ 为对角线 $AC$ 与 $BD$ 的交点.)
 
 ### 解答 习题五
 
-由**定理 8.5.3 (直线与平面平行的判定定理)**.
+由**定义 1.1.5 (属于与不属于)**.
 
-(1) $F$, $G$ 分别是 $BC$, $CD$ 的中点, 在 $\triangle BCD$ 中, $FG\parallel BD$. 又 $FG\subset$ 平面 $EFG$, $BD\not\subset$ 平面 $EFG$. 由**定理 8.5.3 (直线与平面平行的判定定理)**, $BD\parallel$ 平面 $EFG$.
+$\boldsymbol{B_1M}=\boldsymbol{B_1B}+\boldsymbol{BM}=\boldsymbol{c}+\frac{1}{2}\boldsymbol{BD}$.
 
-(2) $E$, $F$ 分别是 $AB$, $BC$ 的中点, 在 $\triangle ABC$ 中, $EF\parallel AC$. 又 $EF\subset$ 平面 $EFG$, $AC\not\subset$ 平面 $EFG$. 由**定理 8.5.3 (直线与平面平行的判定定理)**, $AC\parallel$ 平面 $EFG$. $\blacksquare$
+$\boldsymbol{BD}=\boldsymbol{BA}+\boldsymbol{AD}=-\boldsymbol{A_1B_1}+\boldsymbol{A_1D_1}=-\boldsymbol{a}+\boldsymbol{b}$.
+
+故 $\boldsymbol{B_1M}=\boldsymbol{c}+\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}\right)=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}+\boldsymbol{c}$.
+
+故选 (A). $\blacksquare$
 
 ## 习题六
 
-(习题 8.5 复习巩固第 6 题) 如图, $a$, $b$ 是异面直线, 画出平面 $\alpha$, 使 $a\subset\alpha$, 且 $b\parallel\alpha$, 并说明理由.
+(习题 1.1 综合运用第 6 题) 如图, 已知 $E$, $F$, $G$, $H$ 分别为四面体 $ABCD$ 的棱 $AB$, $BC$, $CD$, $DA$ 的中点, 求证: $E$, $F$, $G$, $H$ 四点共面.
 
-(题图: 两条异面直线 $a,b$.)
+(题图: 四面体 $ABCD$, $E$, $F$, $G$, $H$ 分别为 $AB$, $BC$, $CD$, $DA$ 的中点.)
 
 ### 解答 习题六
 
-由**定理 8.5.3 (直线与平面平行的判定定理)**.
+由**常用结论 1.1.9** (向量共面的充要条件), 要证 $E$, $F$, $G$, $H$ 四点共面, 只需证明 $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ 共面.
 
-在直线 $a$ 上任取一点 $A$, 过 $A$ 作直线 $b'\parallel b$. 由**推论 8.4.6 (推论 2)**, 两条相交直线 $a$ 与 $b'$ 确定一个平面, 记为 $\alpha$, 则 $a\subset\alpha$.
+因为 $E$, $F$, $G$, $H$ 分别是 $AB$, $BC$, $CD$, $DA$ 的中点, 由**定义 1.1.5 (属于与不属于)**:
 
-因为 $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $b\parallel\alpha$. 故平面 $\alpha$ 即为所求. $\blacksquare$
+$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{BD}$.
+
+$\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}+\frac{1}{2}\boldsymbol{BD}$.
+
+故 $\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{EH}$.
+
+由**常用结论 1.1.9**, $\boldsymbol{EG}$ 与 $\boldsymbol{EF}$, $\boldsymbol{EH}$ 共面, 即 $\boldsymbol{EH}$, $\boldsymbol{EF}$, $\boldsymbol{EG}$ 共面, 又它们过同一点 $E$, 故 $E$, $F$, $G$, $H$ 四点共面. $\blacksquare$
 
 ## 习题七
 
-(习题 8.5 复习巩固第 7 题) 如图, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$, 求证 $CD\parallel EF$.
+(习题 1.1 综合运用第 7 题) 如图, 正方体 $ABCD-A'B'C'D'$ 的棱长为 $a$.
 
-(题图: 三个平面 $\alpha,\beta,\gamma$ 两两相交, 交线分别为 $CD,EF,AB$.)
+(1) 求 $A'B$ 和 $B'C$ 的夹角;
+
+(2) 求证: $A'B \perp AC'$.
+
+(题图: 正方体 $ABCD-A'B'C'D'$, 棱长为 $a$.)
 
 ### 解答 习题七
 
-由**定理 8.5.4 (直线与平面平行的性质定理)** 及**基本事实 8.5.1** (基本事实 4).
+由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
 
-因为 $AB\parallel\alpha$, $AB\subset\beta$, $\beta\cap\alpha=CD$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $AB\parallel CD$.
+设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert=a$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两垂直.
 
-又 $AB\subset\gamma$, $\gamma\cap\alpha=EF$, 同理, $AB\parallel EF$.
+(1) $\boldsymbol{A'B}=\boldsymbol{AB}-\boldsymbol{AA'}=\boldsymbol{a}-\boldsymbol{c}$.
 
-由**基本事实 8.5.1** (基本事实 4), $CD\parallel EF$. $\blacksquare$
+$\boldsymbol{B'C}=\boldsymbol{B'B}+\boldsymbol{BC}=-\boldsymbol{c}+\boldsymbol{b}=\boldsymbol{b}-\boldsymbol{c}$.
+
+$\boldsymbol{A'B} \cdot \boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
+
+$\lvert \boldsymbol{A'B} \rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
+
+$\lvert \boldsymbol{B'C} \rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
+
+$\cos \left\langle \boldsymbol{A'B}, \boldsymbol{B'C} \right\rangle=\frac{a^2}{\sqrt{2}a \cdot \sqrt{2}a}=\frac{1}{2}$.
+
+故夹角为 $60^\circ$.
+
+(2) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
+
+$\boldsymbol{A'B} \cdot \boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{a}-\boldsymbol{c} \cdot \boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
+
+由**常用结论 1.1.13**, $\boldsymbol{A'B} \perp \boldsymbol{AC'}$, 即 $A'B \perp AC'$. $\blacksquare$
 
 ## 习题八
 
-(习题 8.5 复习巩固第 8 题) 如图, 直线 $AA'$, $BB'$, $CC'$ 相交于点 $O$, $AO=A'O$, $BO=B'O$, $CO=C'O$, 求证: 平面 $ABC\parallel$ 平面 $A'B'C'$.
-
-(题图: 直线 $AA',BB',CC'$ 交于点 $O$, $A,B,C$ 与 $A',B',C'$ 分别位于 $O$ 的两侧.)
+(习题 1.1 拓广探索第 8 题) 用向量方法证明: 在平面内的一条直线, 如果与这个平面的一条斜线在这个平面上的射影垂直, 那么它也与这条斜线垂直 (三垂线定理).
 
 ### 解答 习题八
 
-由**定理 8.5.5 (平面与平面平行的判定定理)**.
+由**常用结论 1.1.13** (数量积的性质), 要证两直线垂直, 只需证它们的方向向量数量积为零.
 
-在 $\triangle AOB$ 与 $\triangle A'OB'$ 中, $AO=A'O$, $BO=B'O$, $\angle AOB=\angle A'OB'$ (对顶角), 故 $\triangle AOB\cong\triangle A'OB'$. 于是 $\angle OAB=\angle OA'B'$, 故 $AB\parallel A'B'$.
+设平面 $\alpha$ 内的直线 $l$ 的方向向量为 $\boldsymbol{a}$, 斜线为 $AB$ ($A \in \alpha$, $B \notin \alpha$), $B$ 在 $\alpha$ 上的射影为 $B'$, 则射影为 $AB'$. 设 $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, 其中 $\boldsymbol{c} \perp \alpha$, 故 $\boldsymbol{c} \perp \boldsymbol{a}$.
 
-同理, $AO=A'O$, $CO=C'O$, $\angle AOC=\angle A'OC'$, 得 $AC\parallel A'C'$.
+已知 $l \perp AB'$, 即 $\boldsymbol{a} \perp \boldsymbol{b}$, 故 $\boldsymbol{a} \cdot \boldsymbol{b}=0$.
 
-因为 $AB\parallel A'B'$, $A'B'\subset$ 平面 $A'B'C'$, $AB\not\subset$ 平面 $A'B'C'$, 故 $AB\parallel$ 平面 $A'B'C'$. 同理 $AC\parallel$ 平面 $A'B'C'$.
+$\boldsymbol{AB}=\boldsymbol{AB'}+\boldsymbol{B'B}=\boldsymbol{b}+\boldsymbol{c}$.
 
-又 $AB\cap AC=A$, 由**定理 8.5.5 (平面与平面平行的判定定理)**, 平面 $ABC\parallel$ 平面 $A'B'C'$. $\blacksquare$
+$\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+
+由**常用结论 1.1.13**, $\boldsymbol{a} \perp \boldsymbol{AB}$, 即 $l \perp AB$. $\blacksquare$
 
 ## 习题九
 
-(习题 8.5 综合运用第 9 题) 如图, $E$, $E'$ 分别为长方体 $ABCD\text{-}A'B'C'D'$ 的棱 $AD$, $A'D'$ 的中点, 求证 $\angle BEC=\angle B'E'C'$.
+(习题 1.1 拓广探索第 9 题) 如图, 在四面体 $OABC$ 中, $OA \perp BC$, $OB \perp AC$. 求证: $OC \perp AB$.
 
-(题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E$ 为 $AD$ 中点, $E'$ 为 $A'D'$ 中点.)
+(题图: 四面体 $OABC$.)
 
 ### 解答 习题九
 
-由**定理 8.5.2 (等角定理)**.
+由**常用结论 1.1.13** (数量积的性质).
 
-在长方体中, $EE'\parallel AA'\parallel BB'\parallel CC'$, 且 $BE$ 与 $B'E'$ 方向对应平行, $CE$ 与 $C'E'$ 方向对应平行.
+设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
 
-$\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ 分别对应平行且方向相同.
+由 $OA \perp BC$, 即 $\boldsymbol{a} \perp \boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. 故 $\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, 即 $\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}=0$. (1)
 
-由**定理 8.5.2 (等角定理)**, $\angle BEC=\angle B'E'C'$. $\blacksquare$
+由 $OB \perp AC$, 即 $\boldsymbol{b} \perp \boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. 故 $\boldsymbol{b} \cdot \left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, 即 $\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{a}=0$. (2)
+
+由 (1) 得 $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$. 由 (2) 得 $\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$.
+
+故 $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}$, 即 $\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+
+$\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
+
+故 $\boldsymbol{c} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+
+由**常用结论 1.1.13**, $\boldsymbol{OC} \perp \boldsymbol{AB}$, 即 $OC \perp AB$. $\blacksquare$
 
 ## 习题十
 
-(习题 8.5 综合运用第 10 题) 如图, $AB\parallel\alpha$, $AC\parallel BD$, $C\in\alpha$, $D\in\alpha$, 求证 $AC=BD$.
+(习题 1.1 拓广探索第 10 题) 如图, 在四面体 $OABC$ 中, $OA=OB$, $CA=CB$, $E$, $F$, $G$, $H$ 分别是 $OA$, $OB$, $BC$, $CA$ 的中点. 求证: 四边形 $EFGH$ 是矩形.
 
-(题图: 平面 $\alpha$, $C,D\in\alpha$, $A,B$ 在 $\alpha$ 外, $AB\parallel\alpha$ 且 $AC\parallel BD$.)
+(题图: 四面体 $OABC$, $E$, $F$, $G$, $H$ 分别为 $OA$, $OB$, $BC$, $CA$ 的中点.)
 
 ### 解答 习题十
 
-由**定理 8.5.4 (直线与平面平行的性质定理)**.
+由**常用结论 1.1.9** (向量共面的充要条件) 及**常用结论 1.1.13** (数量积的性质).
 
-因为 $C$, $D\in\alpha$, 所以直线 $CD\subset\alpha$. 又 $AB\parallel\alpha$, 过 $AB$ 与 $CD$ 的平面与 $\alpha$ 交于 $CD$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $AB\parallel CD$.
+$E$, $F$, $G$, $H$ 分别是 $OA$, $OB$, $BC$, $CA$ 的中点.
 
-又已知 $AC\parallel BD$, 故四边形 $ABDC$ 的两组对边分别平行, 是平行四边形.
+$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, 故 $\boldsymbol{EF}=\boldsymbol{HG}$, 即 $EF \parallel HG$ 且 $EF=HG$.
 
-因此 $AC=BD$. $\blacksquare$
+$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, 故 $\boldsymbol{FG}=\boldsymbol{EH}$, 即 $FG \parallel EH$ 且 $FG=EH$.
 
-## 习题十一
+故四边形 $EFGH$ 是平行四边形.
 
-(习题 8.5 综合运用第 11 题) 已知平面外的两条平行直线中的一条平行于这个平面, 求证: 另一条也平行于这个平面.
+再证一个内角为直角. $\boldsymbol{EF} \cdot \boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB} \cdot \frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{OC}$.
 
-### 解答 习题十一
+设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. 由 $OA=OB$, $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert$. 由 $CA=CB$, $\lvert \boldsymbol{c}-\boldsymbol{a} \rvert=\lvert \boldsymbol{c}-\boldsymbol{b} \rvert$, 平方得 $\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{b}^2$. 由 $\boldsymbol{a}^2=\boldsymbol{b}^2$, 得 $\boldsymbol{c} \cdot \boldsymbol{a}=\boldsymbol{c} \cdot \boldsymbol{b}$.
 
-由**定理 8.5.4 (直线与平面平行的性质定理)** 及**定理 8.5.3 (直线与平面平行的判定定理)**.
+$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB} \cdot \boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}=0$.
 
-设直线 $a\parallel b$, $a\parallel$ 平面 $\alpha$, 且 $a$, $b$ 都在 $\alpha$ 外.
+故 $\boldsymbol{EF} \cdot \boldsymbol{FG}=0$, 即 $EF \perp FG$.
 
-过 $a$ 作平面 $\beta$, 使 $\beta\cap\alpha=c$. 因为 $a\parallel\alpha$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $a\parallel c$.
+平行四边形 $EFGH$ 有一个内角为直角, 故为矩形. $\blacksquare$
 
-又 $a\parallel b$, 由平行传递性, $b\parallel c$. 而 $c\subset\alpha$, $b\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $b\parallel\alpha$.
+## 练习二
 
-故另一条直线 $b$ 也平行于平面 $\alpha$. $\blacksquare$
+(练习 1.2 第 1 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个基底, 从 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 中选哪一个向量, 一定可以与向量 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 构成空间的另一个基底?
 
-## 习题十二
+### 解答 练习二
 
-(习题 8.5 综合运用第 12 题) 一木块如下页图所示, 点 $P$ 在平面 $VAC$ 内, 过点 $P$ 将木块锯开, 使截面平行于直线 $VB$ 和 $AC$, 在木块表面应该怎样画线?
+由**定义 1.2.2 (基底, 基向量)**, 三个向量构成空间基底的充要条件是它们不共面.
 
-(题图: 四面体 $V\text{-}ABC$, 点 $P$ 在面 $VAC$ 内.)
+$\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 都在由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内, 即 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{a}$ 共面, $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{b}$ 也共面. 因此 $\boldsymbol{a}$ 或 $\boldsymbol{b}$ 与 $\boldsymbol{p}$, $\boldsymbol{q}$ 共面, 不能构成新基底.
 
-### 解答 习题十二
+而 $\boldsymbol{c}$ 不在 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内. 假设 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ 共面, 则存在实数 $\lambda$, $\mu$ 使 $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, 这与 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是基底 ($\boldsymbol{c}$ 不由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性表示) 矛盾.
 
-由**定理 8.5.3 (直线与平面平行的判定定理)** 及**定理 8.5.4 (直线与平面平行的性质定理)**.
+故选 $\boldsymbol{c}$, $\left\{\boldsymbol{p}, \boldsymbol{q}, \boldsymbol{c}\right\}$ 一定构成空间的另一个基底. $\blacksquare$
 
-在平面 $VAC$ 内过 $P$ 作直线 $EF\parallel AC$, 分别交 $VA$, $VC$ 于 $E$, $F$.
+## 练习三
 
-在平面 $VAB$ 内过 $E$ 作直线 $EG\parallel VB$, 交 $AB$ 于 $G$. 在平面 $VBC$ 内过 $F$ 作直线 $FH\parallel VB$, 交 $BC$ 于 $H$. 连接 $GH$.
+(练习 1.2 第 2 题) 已知 $O$, $A$, $B$, $C$ 为空间的四个点, 且向量 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 不构成空间的一个基底, 那么点 $O$, $A$, $B$, $C$ 是否共面?
 
-则截面 $EFGH$ 即为所求: $EF\parallel AC$, $EG\parallel FH\parallel VB$. 沿 $EF$, $EG$, $GH$, $FH$ 画线锯开即可. $\blacksquare$
+### 解答 练习三
 
-## 习题十三
+由**定义 1.2.2 (基底, 基向量)**, 三个向量构成空间基底的充要条件是它们不共面.
 
-(习题 8.5 拓广探索第 13 题) 如图, $\alpha\parallel\beta\parallel\gamma$, 直线 $a$ 与 $b$ 分别交 $\alpha$, $\beta$, $\gamma$ 于点 $A$, $B$, $C$ 和点 $D$, $E$, $F$, 求证 $\frac{AB}{BC}=\frac{DE}{EF}$.
+因为 $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 不构成空间的一个基底, 由**定义 1.2.2 (基底, 基向量)**, 它们必共面, 即存在实数 $x$, $y$, $z$ 不全为零, 使 $x\boldsymbol{OA}+y\boldsymbol{OB}+z\boldsymbol{OC}=\boldsymbol{0}$.
 
-(题图: 三个平行平面 $\alpha,\beta,\gamma$, 两条直线 $a,b$ 分别交三平面于 $A,B,C$ 与 $D,E,F$.)
-
-### 解答 习题十三
-
-由**定理 8.5.6 (平面与平面平行的性质定理)** 及平行线分线段成比例.
-
-连接 $AF$, 交平面 $\beta$ 于点 $G$. 平面 $ACF$ 与 $\beta$ 交于 $BG$, 与 $\gamma$ 交于 $CF$.
-
-因为 $\beta\parallel\gamma$, 由**定理 8.5.6 (平面与平面平行的性质定理)**, $BG\parallel CF$. 在 $\triangle ACF$ 中, $\frac{AB}{BC}=\frac{AG}{GF}$.
-
-同理, 平面 $ADF$ 与 $\beta$ 交于 $GE$, 与 $\alpha$ 交于 $AD$. 因为 $\alpha\parallel\beta$, $AD\parallel GE$. 在 $\triangle ADF$ 中, $\frac{DE}{EF}=\frac{AG}{GF}$.
-
-故 $\frac{AB}{BC}=\frac{DE}{EF}$. $\blacksquare$
-
-## 习题十四
-
-(习题 8.5 拓广探索第 14 题) 如图, $a$, $b$ 是异面直线, $a\subset\alpha$, $a\parallel\beta$, $b\subset\beta$, $b\parallel\alpha$, 求证 $\alpha\parallel\beta$.
-
-(题图: 两个平面 $\alpha,\beta$, 直线 $a\subset\alpha$ 且平行于 $\beta$, 直线 $b\subset\beta$ 且平行于 $\alpha$, $a,b$ 异面.)
-
-### 解答 习题十四
-
-由**定理 8.5.4 (直线与平面平行的性质定理)** 及**定理 8.5.5 (平面与平面平行的判定定理)**.
-
-过 $a$ 作平面与 $\beta$ 交于直线 $a'$. 因为 $a\parallel\beta$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $a\parallel a'$.
-
-因为 $a$, $b$ 异面, $a\parallel a'$, 所以 $a'$ 与 $b$ 必相交, 设交点为 $P$.
-
-在 $\beta$ 内, $a'$ 与 $b$ 是两条相交直线. 由 $a\parallel a'$, $a\subset\alpha$, $a'\not\subset\alpha$, 得 $a'\parallel\alpha$. 又已知 $b\parallel\alpha$.
-
-由**定理 8.5.5 (平面与平面平行的判定定理)**, $\beta$ 内两条相交直线 $a'$, $b$ 都平行于 $\alpha$, 故 $\alpha\parallel\beta$. $\blacksquare$
-
-## 习题十五
-
-(习题 8.5 拓广探索第 15 题) 如图, 透明塑料制成的长方体容器 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 内灌进一些水, 固定容器底面一边 $BC$ 于地面上, 再将容器倾斜. 随着倾斜度的不同, 有下面五个命题:
-
-(1) 有水的部分始终呈棱柱形;
-
-(2) 没有水的部分始终呈棱柱形;
-
-(3) 水面 $EFGH$ 所在四边形的面积为定值;
-
-(4) 棱 $A_{1}D_{1}$ 始终与水面所在平面平行;
-
-(5) 当容器倾斜如图 (3) 所示时, $BE\cdot BF$ 是定值.
-
-其中所有正确命题的序号是 $\;\_\_\;$, 为什么?
-
-(题图: 透明长方体容器 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 绕底面边 $BC$ 倾斜的三个不同倾斜度示意图, 水面为 $EFGH$.)
-
-### 解答 习题十五
-
-由**定义 8.1.4 (棱柱)** 及**定理 8.5.3 (直线与平面平行的判定定理)**.
-
-固定 $BC$ 边, 水面始终是一个与地面平行的平面, 它与长方体侧面的交线始终平行于 $BC$.
-
-(1) 有水部分以垂直于 $BC$ 的截面为底面, 沿 $BC$ 方向延伸, 始终呈棱柱形. 正确.
-
-(2) 同理, 没有水的部分也始终呈棱柱形. 正确.
-
-(3) 水面四边形 $EFGH$ 中, 一边长恒等于 $BC$, 但另一边长随倾斜度变化, 面积不是定值. 错误.
-
-(4) $A_{1}D_{1}\parallel BC$, 而水面交线平行于 $BC$, 故 $A_{1}D_{1}$ 平行于水面内的直线, $A_{1}D_{1}$ 始终与水面所在平面平行. 正确.
-
-(5) 水的体积不变, 有水部分是棱柱, 垂直于 $BC$ 的截面为直角三角形, 其面积 $\frac{1}{2}BE\cdot BF$ 乘以 $BC$ 等于水体积. 因水体积和 $BC$ 都为定值, 故 $BE\cdot BF$ 为定值. 正确.
-
-故正确命题序号为 (1) (2) (4) (5). $\blacksquare$
+由**定理 1.2.1 (空间向量基本定理)** 的逆否, $\boldsymbol{OA}$, $\boldsymbol{OB}$, $\boldsymbol{OC}$ 共面意味着它们平行于同一平面. 又因为它们有共同起点 $O$, 所以 $O$, $A$, $B$, $C$ 四点共面. $\blacksquare$

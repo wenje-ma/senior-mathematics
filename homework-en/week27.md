@@ -1,208 +1,428 @@
 # week27
-> **Theorem 2.2.1 (AM-GM Inequality)**
+> **Definition 7.1.9 (Modulus of a Complex Number)**
 > 
-> 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+> 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
+> **Definition 7.3.1 (复数的三角表示式)**
+> 
+> 任何一个复数 z = a + bi 都可以表示成 r(cos theta + i sin theta) 的形式, 其中 r = |z|, theta 为 z 的辐角.
+> **Definition 7.3.2 (辐角)**
+> 
+> 复数 z = a + bi 对应的向量 OZ 与 x 轴正方向的夹角 theta 叫做复数 z 的辐角.
+> **Definition 7.3.4 (Conditions for Equal Complex Numbers in Trig Form)**
+> 
+> 参见教材相应章节关于此概念的论述.
+> **Definition 7.3.5 (Trig Form of Multiplication)**
+> 
+> 第二章　一元二次函数,方程和不等式 ２２　基本不等式 我们知道,乘法公式在代数式的运算中有重要作用.那 么,是否也有一些不等式,它们在解决不等式问题时有着与 乘法公式类似的重要作用呢?下面就来研究这个问题. 前面我们利用完全平方公式得出了一类重要不等式: ,∈,有 ２＋２≥２, 当且仅当＝时,等号成立. 特别地,如果＞０,＞０,我们用槡,槡分别代替上式中的,,可得 槡≤＋ ２, (１) 当且仅当＝时,等号成立. 通常称不等式(１)为基本不等式(ｂａｓｉｃｉｎｅｑｕａｌｉｔｙ).其中,＋ ２叫做正数,的 算术平均数,槡叫做正数,的几何平均数. 基本不等式表明:两个正数的算术平均数不小于它们的几何平均数. 上面通过考察２＋２≥２的特殊情形获得了基本不等式.能否直接利用不等式的性 质推导出基本不等式呢?下面我们来分析一下. 要证 槡≤＋ ２, ① 只要证 ２槡≤＋. ② 要证
+> **Definition 7.3.6 (Trig Form of Division)**
+> 
+> 次 ２００２年游客人次＝３４４ ３０９≈１.１１, …… 　　做减法可以得到游客 人次的年增加量,做除法 可以得到游客人次的年增 长率.增加量,增长率是 刻画事物变化规律的两个 很重要的量. ２０１５年游客人次 ２０１４年游客人次＝１２４４ １１１８≈１.１１. 结果表明,Ｂ地景区的游客人次的年增长率都约为 １.１１－１＝０.１１,是一个常数. 像这样,增长率为常数的变化方式,我们称为指数增 长.因此,Ｂ地景区的游客人次近似于指数增长. 显然,从２００１年开始,Ｂ地景区游客人次的变化规律 可以近似描述为: １年后,游客人次是２００１年的１.１１１倍; ２１１ 比较两地景区游客人次的变化情况,你发现了怎样的变 化规律? 为了便于观察,可以 为了有利于观察规律,根据表 4.2-1,分别画出 A,B 先根据表格中的数据描 两地景区采取不同措施后的15年游客人次的图象(图4.2-1 点,然后用光滑的曲线将 和图4.2-2). 离散的点连起来. 人次/万次 人次/万次个 1 300 1 300 1
+> **Theorem 7.3.8 (棣莫弗定理)**
+> 
+> [r(cos theta + i sin theta)]^n = r^n (cos n theta + i sin n theta).
+
+## Exercise 1
+
+(Exercise 7.3, Problem 1) Draw the vectors corresponding to the following complex numbers, and write these complex numbers in trigonometric form:
+
+(1) $4$;
+
+(2) $-\mathrm{i}$;
+
+(3) $2\sqrt{3}+2\mathrm{i}$;
+
+(4) $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$.
+
+The figure: in a rectangular coordinate plane of complex numbers, four vectors are drawn from the origin $O$: $4$ (a vector of length $4$ along the positive real axis), $-\mathrm{i}$ (a vector of length $1$ along the negative imaginary axis), $2\sqrt{3}+2\mathrm{i}$ (a vector in the first quadrant with coordinates $\left(2\sqrt{3},2\right)$, modulus $4$, and argument $\frac{\pi}{6}$), and $-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$ (a vector in the third quadrant with coordinates $\left(-\frac{1}{2},-\frac{\sqrt{3}}{2}\right)$, modulus $1$, and argument $\frac{4\pi}{3}$).
+
+### Solution to Exercise 1
+
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, $r=\sqrt{a^2+b^2}$, $\cos\theta=\frac{a}{r}$, $\sin\theta=\frac{b}{r}$, and $\theta$ is then determined by the quadrant in which the point lies.
+
+(1) $4=4+0\mathrm{i}$, $r=4$, $\cos\theta=1$, $\sin\theta=0$, the point lies on the positive real axis, so $\arg 4=0$. The trigonometric form is $4\left(\cos 0+\mathrm{i}\sin 0\right)$.
+
+(2) $-\mathrm{i}=0+\left(-1\right)\mathrm{i}$, $r=1$, the point lies on the negative imaginary axis, so $\arg\left(-\mathrm{i}\right)=\frac{3\pi}{2}$. The trigonometric form is $\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}$.
+
+(3) $r=\sqrt{\left(2\sqrt{3}\right)^2+2^2}=\sqrt{12+4}=4$, $\cos\theta=\frac{2\sqrt{3}}{4}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{2}{4}=\frac{1}{2}$, the point lies in the first quadrant, so $\arg=\frac{\pi}{6}$. The trigonometric form is $4\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)$.
+
+(4) $r=\sqrt{\left(-\frac{1}{2}\right)^2+\left(-\frac{\sqrt{3}}{2}\right)^2}=1$, $\cos\theta=-\frac{1}{2}$, $\sin\theta=-\frac{\sqrt{3}}{2}$, the point lies in the third quadrant, so $\arg=\frac{4\pi}{3}$. The trigonometric form is $\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 7.3, Problem 2) Are the following complex numbers in trigonometric form? If not, write them in trigonometric form.
+
+(1) $\frac{1}{2}\left(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4}\right)$;
+
+(2) $-\frac{1}{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)$;
+
+(3) $\frac{1}{2}\left(\sin\frac{5\pi}{12}+\mathrm{i}\cos\frac{5\pi}{12}\right)$;
+
+(4) $\cos\frac{7\pi}{5}+\mathrm{i}\sin\frac{7\pi}{5}$;
+
+(5) $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{6}\right)$.
+
+### Solution to Exercise 2
+
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, trigonometric form must satisfy: the modulus $r\ge 0$, and the expression in parentheses is $\cos\theta+\mathrm{i}\sin\theta$.
+
+(1) Not in trigonometric form, because the expression in parentheses is $\cos\theta-\mathrm{i}\sin\theta$. Since $\cos\theta-\mathrm{i}\sin\theta=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)$, we get
+
+$$
+\frac{1}{2}\left(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4}\right)=\frac{1}{2}\left[\cos\left(-\frac{\pi}{4}\right)+\mathrm{i}\sin\left(-\frac{\pi}{4}\right)\right].
+$$
+
+(2) Not in trigonometric form, because the modulus is $-\frac{1}{2}< 0$. Rewrite as $\frac{1}{2}\left[-\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]=\frac{1}{2}\left[\cos\left(\frac{\pi}{3}+\pi\right)+\mathrm{i}\sin\left(\frac{\pi}{3}+\pi\right)\right]=\frac{1}{2}\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
+
+(3) Not in trigonometric form, because the expression in parentheses is $\sin\theta+\mathrm{i}\cos\theta$. Since $\sin\theta=\cos\left(\frac{\pi}{2}-\theta\right)$, $\cos\theta=\sin\left(\frac{\pi}{2}-\theta\right)$, we get $\sin\frac{5\pi}{12}+\mathrm{i}\cos\frac{5\pi}{12}=\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}$. Hence the original expression $=\frac{1}{2}\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$.
+
+(4) It is in trigonometric form, with modulus $1$ and argument $\frac{7\pi}{5}$.
+
+(5) Not in trigonometric form, because the angles of $\cos$ and $\sin$ in parentheses differ. The arguments must be unified. $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{6}\right)=2\left(\frac{1}{2}+\mathrm{i}\cdot\frac{1}{2}\right)=1+\mathrm{i}$. Its modulus $r=\sqrt{2}$, $\arg=\frac{\pi}{4}$, so the trigonometric form is $\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 7.3, Problem 3) Write the following complex numbers in algebraic form:
+
+(1) $6\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)$;
+
+(2) $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)$.
+
+### Solution to Exercise 3
+
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
+
+(1) $6\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)=6\cdot 0+6\cdot\left(-1\right)\mathrm{i}=-6\mathrm{i}$.
+
+(2) $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)=2\cdot\frac{1}{2}+2\cdot\left(-\frac{\sqrt{3}}{2}\right)\mathrm{i}=1-\sqrt{3}\mathrm{i}$. $\blacksquare$
+
+## Exercise 4
+
+(Exercise 7.3, Problem 1) Compute:
+
+(1) $8\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)\times 2\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
+
+(2) $2\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)\times 4\left(\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}\right)$;
+
+(3) $\sqrt{2}\left(\cos 240^{\circ}+\mathrm{i}\sin 240^{\circ}\right)\times\frac{\sqrt{3}}{2}\left(\cos 60^{\circ}+\mathrm{i}\sin 60^{\circ}\right)$;
+
+(4) $3\left(\cos 18^{\circ}+\mathrm{i}\sin 18^{\circ}\right)\times 2\left(\cos 54^{\circ}+\mathrm{i}\sin 54^{\circ}\right)\times 5\left(\cos 108^{\circ}+\mathrm{i}\sin 108^{\circ}\right)$.
+
+### Solution to Exercise 4
+
+By **Definition 7.3.5 (Trigonometric Form of Complex Multiplication)**, multiply the moduli and add the arguments.
+
+(1) Modulus: $8\times 2=16$; argument: $\frac{\pi}{6}+\frac{\pi}{4}=\frac{5\pi}{12}$. The result is $16\left(\cos\frac{5\pi}{12}+\mathrm{i}\sin\frac{5\pi}{12}\right)$.
+
+(2) Modulus: $2\times 4=8$; argument: $\frac{4\pi}{3}+\frac{5\pi}{6}=\frac{8\pi}{6}+\frac{5\pi}{6}=\frac{13\pi}{6}=\frac{\pi}{6}$ (subtracting $2\pi$). The result is $8\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)$.
+
+(3) Modulus: $\sqrt{2}\times\frac{\sqrt{3}}{2}=\frac{\sqrt{6}}{2}$; argument: $240^{\circ}+60^{\circ}=300^{\circ}$. The result is $\frac{\sqrt{6}}{2}\left(\cos 300^{\circ}+\mathrm{i}\sin 300^{\circ}\right)$.
+
+(4) Modulus: $3\times 2\times 5=30$; argument: $18^{\circ}+54^{\circ}+108^{\circ}=180^{\circ}$. The result is $30\left(\cos 180^{\circ}+\mathrm{i}\sin 180^{\circ}\right)=-30$. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 7.3, Problem 2) Compute:
+
+(1) $12\left(\cos\frac{7\pi}{4}+\mathrm{i}\sin\frac{7\pi}{4}\right)\div\left[6\left(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}\right)\right]$;
+
+(2) $\sqrt{3}\left(\cos 150^{\circ}+\mathrm{i}\sin 150^{\circ}\right)\div\left[\sqrt{2}\left(\cos 225^{\circ}+\mathrm{i}\sin 225^{\circ}\right)\right]$;
+
+(3) $2\div\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
+
+(4) $-\mathrm{i}\div\left[2\left(\cos 120^{\circ}+\mathrm{i}\sin 120^{\circ}\right)\right]$.
+
+### Solution to Exercise 5
+
+By **Definition 7.3.6 (Trigonometric Form of Complex Division)**, divide the moduli and subtract the arguments.
+
+(1) Modulus: $12\div 6=2$; argument: $\frac{7\pi}{4}-\frac{2\pi}{3}=\frac{21\pi}{12}-\frac{8\pi}{12}=\frac{13\pi}{12}$. The result is $2\left(\cos\frac{13\pi}{12}+\mathrm{i}\sin\frac{13\pi}{12}\right)$.
+
+(2) Modulus: $\sqrt{3}\div\sqrt{2}=\frac{\sqrt{6}}{2}$; argument: $150^{\circ}-225^{\circ}=-75^{\circ}$. The result is $\frac{\sqrt{6}}{2}\left[\cos\left(-75^{\circ}\right)+\mathrm{i}\sin\left(-75^{\circ}\right)\right]$.
+
+(3) Write $2$ as $2\left(\cos 0+\mathrm{i}\sin 0\right)$. Modulus: $2\div 1=2$; argument: $0-\frac{\pi}{4}=-\frac{\pi}{4}$. The result is $2\left[\cos\left(-\frac{\pi}{4}\right)+\mathrm{i}\sin\left(-\frac{\pi}{4}\right)\right]$.
+
+(4) Write $-\mathrm{i}$ as $\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}$. Modulus: $1\div 2=\frac{1}{2}$; argument: $\frac{3\pi}{2}-\frac{2\pi}{3}=\frac{9\pi}{6}-\frac{4\pi}{6}=\frac{5\pi}{6}$. The result is $\frac{1}{2}\left(\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}\right)$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 7.3, Problem 3) In the complex plane, rotate the vector corresponding to the complex number $3-\sqrt{3}\mathrm{i}$ clockwise about the origin $O$ by $60^{\circ}$. Find the complex number corresponding to the resulting vector (in algebraic form).
+
+### Solution to Exercise 6
+
+By **Common Conclusion 7.3.7** (Geometric Meaning of Complex Multiplication and Division), a clockwise rotation by $60^{\circ}$ is equivalent to subtracting $60^{\circ}$ from the argument, i.e. multiplying by $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$.
+
+First convert $3-\sqrt{3}\mathrm{i}$ to trigonometric form. $r=\sqrt{3^2+\left(-\sqrt{3}\right)^2}=\sqrt{12}=2\sqrt{3}$, $\cos\theta=\frac{3}{2\sqrt{3}}=\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{-\sqrt{3}}{2\sqrt{3}}=-\frac{1}{2}$, the point lies in the fourth quadrant, so $\arg=\frac{11\pi}{6}=330^{\circ}$.
+
+By **Definition 7.3.5 (Trig Form of Multiplication)**, multiplying by $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$, we get $2\sqrt{3}\left(\cos 330^{\circ}+\mathrm{i}\sin 330^{\circ}\right)\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\sqrt{3}\left[\cos 270^{\circ}+\mathrm{i}\sin 270^{\circ}\right]$.
+
+Converting to algebraic form: $2\sqrt{3}\left(0-\mathrm{i}\right)=-2\sqrt{3}\mathrm{i}$. $\blacksquare$
 
 ## Problem 1
 
-(Review Reference Problem 2, Review and Consolidation, Problem 1) A summer camp has $48$ people, and before departure it must choose between two types of tents, $A$ and $B$. There are $5$ fewer tents of type $A$ than of type $B$. If only type $A$ tents are chosen, at $4$ people per tent there are not enough tents, and at $5$ people per tent there is one tent that is not full. If only type $B$ tents are chosen, at $3$ people per tent there are not enough tents, and at $4$ people per tent there are spare tents. Let the number of type $A$ tents be $x$. Express the unequal relations in the problem using inequalities.
+(Exercise 7.3, Review and Consolidation, Problem 1) Draw the vectors corresponding to the following complex numbers, and write these complex numbers in trigonometric form:
+
+(1) $6$;
+
+(2) $1+\mathrm{i}$;
+
+(3) $1-\sqrt{3}\mathrm{i}$;
+
+(4) $-\frac{\sqrt{3}}{2}+\frac{1}{2}\mathrm{i}$.
+
+The figure: in a rectangular coordinate plane of complex numbers, four vectors are drawn from the origin $O$: $6$ (length $6$ along the positive real axis), $1+\mathrm{i}$ (first quadrant, coordinates $\left(1,1\right)$, modulus $\sqrt2$, argument $\frac{\pi}{4}$), $1-\sqrt3\,\mathrm{i}$ (fourth quadrant, coordinates $\left(1,-\sqrt3\right)$, modulus $2$, argument $\frac{5\pi}{3}$), and $-\frac{\sqrt3}{2}+\frac{1}{2}\mathrm{i}$ (second quadrant, coordinates $\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$, modulus $1$, argument $\frac{5\pi}{6}$).
 
 ### Solution to Problem 1
 
-By **Basic Fact 2.1.1** (Order Relations of Real Numbers), the number of type $B$ tents is $x+5$; write each restriction as an inequality sentence by sentence.
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**.
 
-Choosing only type $A$: at $4$ per tent there are not enough, i.e. $4x< 48$; at $5$ per tent one tent is not full, i.e. $5x> 48$ and the rest are all full, $5\left(x-1\right)< 48$.
+(1) $6=6+0\mathrm{i}$, $r=6$, $\arg=0$. The trigonometric form is $6\left(\cos 0+\mathrm{i}\sin 0\right)$.
 
-Choosing only type $B$: at $3$ per tent there are not enough, i.e. $3\left(x+5\right)< 48$; at $4$ per tent there are spares, i.e. $4\left(x+5\right)> 48$.
+(2) $r=\sqrt{1^2+1^2}=\sqrt{2}$, $\cos\theta=\frac{\sqrt{2}}{2}$, $\sin\theta=\frac{\sqrt{2}}{2}$, first quadrant, $\arg=\frac{\pi}{4}$. The trigonometric form is $\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$.
 
-Hence the required system of inequalities is
+(3) $r=\sqrt{1+3}=2$, $\cos\theta=\frac{1}{2}$, $\sin\theta=-\frac{\sqrt{3}}{2}$, fourth quadrant, $\arg=\frac{5\pi}{3}$. The trigonometric form is $2\left(\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}\right)$.
 
-$$
-\left\{\begin{array}{l}4x< 48,\\5x> 48,\\5\left(x-1\right)< 48,\\3\left(x+5\right)< 48,\\4\left(x+5\right)> 48.\end{array}\right.
-$$
-
-$\blacksquare$
+(4) $r=\sqrt{\frac{3}{4}+\frac{1}{4}}=1$, $\cos\theta=-\frac{\sqrt{3}}{2}$, $\sin\theta=\frac{1}{2}$, second quadrant, $\arg=\frac{5\pi}{6}$. The trigonometric form is $\cos\frac{5\pi}{6}+\mathrm{i}\sin\frac{5\pi}{6}$. $\blacksquare$
 
 ## Problem 2
 
-(Review Reference Problem 2, Review and Consolidation, Problem 2) Fill in the blanks with the inequality sign "$> $" or "$< $".
+(Exercise 7.3, Review and Consolidation, Problem 2) Write the following complex numbers in algebraic form:
 
-(1) If $a> b$ and $\frac{1}{a}> \frac{1}{b}$, then $ab\;\_\_\;0$;
+(1) $3\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
 
-(2) If $c> a> b> 0$, then $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
+(2) $8\left(\cos\frac{11\pi}{6}+\mathrm{i}\sin\frac{11\pi}{6}\right)$;
 
-(3) If $a> b> c> 0$, then $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
+(3) $9\left(\cos\pi+\mathrm{i}\sin\pi\right)$;
+
+(4) $6\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$.
 
 ### Solution to Problem 2
 
-By **Basic Fact 2.1.1** (Order Relations of Real Numbers), compare by taking the difference.
+By **Definition 7.3.1 (Trigonometric Form of a Complex Number)**, $r\left(\cos\theta+\mathrm{i}\sin\theta\right)=r\cos\theta+\left(r\sin\theta\right)\mathrm{i}$.
 
-(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}> 0$. Since $a> b$ gives $b-a< 0$, we must have $ab< 0$ for the quotient to be positive. Hence fill in $< $.
+(1) $3\sqrt{2}\left(\frac{\sqrt{2}}{2}+\mathrm{i}\cdot\frac{\sqrt{2}}{2}\right)=3+3\mathrm{i}$.
 
-(2) Taking the difference: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. From $c> a> b> 0$, the numerator $c\left(a-b\right)> 0$ and the denominator $\left(c-a\right)\left(c-b\right)> 0$, hence the difference is positive; fill in $> $.
+(2) $8\left(\frac{\sqrt{3}}{2}+\mathrm{i}\cdot\left(-\frac{1}{2}\right)\right)=4\sqrt{3}-4\mathrm{i}$.
 
-(3) Taking the difference: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}> 0$, hence fill in $> $. $\blacksquare$
+(3) $9\left(-1+\mathrm{i}\cdot 0\right)=-9$.
+
+(4) $6\left(-\frac{1}{2}+\mathrm{i}\cdot\left(-\frac{\sqrt{3}}{2}\right)\right)=-3-3\sqrt{3}\mathrm{i}$. $\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problem 2, Review and Consolidation, Problem 3)
+(Exercise 7.3, Review and Consolidation, Problem 3) Compute:
 
-(1) Among sectors with fixed area $S$, for what radius is the perimeter of the sector minimized?
+(1) $3\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\times 3\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)$;
 
-(2) Among sectors with fixed perimeter $P$, for what radius is the area of the sector maximized?
+(2) $\sqrt{10}\left(\cos\frac{\pi}{2}+\mathrm{i}\sin\frac{\pi}{2}\right)\times\sqrt{2}\left(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}\right)$;
+
+(3) $10\left(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}\right)\div\left[5\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]$;
+
+(4) $12\left(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2}\right)\div\left[6\left(\cos\frac{\pi}{6}+\mathrm{i}\sin\frac{\pi}{6}\right)\right]$.
 
 ### Solution to Problem 3
 
-By **Common Conclusion 2.2.2** (Fixed Product Minimizes Sum, Fixed Sum Maximizes Product), let the radius of the sector be $R$ and the arc length be $l$. The sector area is $\frac{1}{2}Rl$, and the perimeter is $2R+l$.
+By **Definition 7.3.5 (Trigonometric Form of Multiplication)** and **Definition 7.3.6 (Trigonometric Form of Division)**.
 
-(1) The area $S=\frac{1}{2}Rl$ is fixed, i.e. $Rl=2S$. The perimeter $2R+l\ge2\sqrt{2Rl}=2\sqrt{4S}=4\sqrt S$, with equality if and only if $2R=l$. At this time $Rl=2R^2=2S$, giving $R=\sqrt S$. Hence the perimeter is minimized when the radius is $\sqrt S$.
+(1) Modulus: $3\times 3=9$; argument: $\frac{\pi}{3}+\frac{\pi}{6}=\frac{\pi}{2}$. The result is $9\left(\cos\frac{\pi}{2}+\mathrm{i}\sin\frac{\pi}{2}\right)=9\mathrm{i}$.
 
-(2) The perimeter $P=2R+l$ is fixed. Let $u=2R$, then $u+l=P$, and the area $\frac{1}{2}Rl=\frac{1}{4}ul\le\frac{1}{4}\cdot\left(\frac{u+l}{2}\right)^2=\frac{P^2}{16}$, with equality if and only if $u=l$. At this time $2R=l=\frac{P}{2}$, giving $R=\frac{P}{4}$. Hence the area is maximized when the radius is $\frac{P}{4}$, and the maximum value is $\frac{P^2}{16}$. $\blacksquare$
+(2) Modulus: $\sqrt{10}\times\sqrt{2}=\sqrt{20}=2\sqrt{5}$; argument: $\frac{\pi}{2}+\frac{\pi}{4}=\frac{3\pi}{4}$. The result is $2\sqrt{5}\left(\cos\frac{3\pi}{4}+\mathrm{i}\sin\frac{3\pi}{4}\right)$.
+
+(3) Modulus: $10\div 5=2$; argument: $\frac{2\pi}{3}-\frac{\pi}{3}=\frac{\pi}{3}$. The result is $2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)$.
+
+(4) Modulus: $12\div 6=2$; argument: $\frac{3\pi}{2}-\frac{\pi}{6}=\frac{9\pi}{6}-\frac{\pi}{6}=\frac{8\pi}{6}=\frac{4\pi}{3}$. The result is $2\left(\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}\right)$. $\blacksquare$
 
 ## Problem 4
 
-(Review Reference Problem 2, Review and Consolidation, Problem 4) Find the solution set of the following inequalities.
+(Exercise 7.3, Review and Consolidation, Problem 4) Compute each of the following and give a geometric interpretation:
 
-(1) $14-4x^2\ge x$;
+(1) $\sqrt{2}\left(\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}\right)\times 2\sqrt{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)$;
 
-(2) $x^2-14x+45\le0$;
+(2) $2\left(\cos 75^{\circ}+\mathrm{i}\sin 75^{\circ}\right)\times\left(\frac{1}{2}-\frac{1}{2}\mathrm{i}\right)$;
 
-(3) $x^2+6x+10> 0$;
+(3) $4\left(\cos 300^{\circ}+\mathrm{i}\sin 300^{\circ}\right)\div\left[\sqrt{2}\left(\cos\frac{3\pi}{4}+\mathrm{i}\sin\frac{3\pi}{4}\right)\right]$;
 
-(4) $x\left(x+2\right)> x\left(3-x\right)+1$.
+(4) $\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)\div\left[2\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)\right]$.
+
+The figure: in a rectangular coordinate plane of complex numbers, several vectors are drawn to illustrate the geometric meaning of complex multiplication and division: when two complex numbers are multiplied, the vector is rotated about the origin by the argument of the second complex number and its modulus is multiplied by the modulus of the second complex number; when two complex numbers are divided, the vector is rotated about the origin by the negative of the argument of the divisor and its modulus is divided by the modulus of the divisor.
 
 ### Solution to Problem 4
 
-By **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable), solve each one.
+By **Definition 7.3.5 (Trig Form of Multiplication)** and **Definition 7.3.6 (Trig Form of Division)**.
 
-(1) Rearranging gives $4x^2+x-14\le0$. The roots of $4x^2+x-14=0$ are $x=-2,\frac{7}{4}$, hence the solution set is $\left\{x\mid-2\le x\le\frac{7}{4}\right\}$.
+(1) Modulus: $\sqrt{2}\times 2\sqrt{2}=4$; argument: $\frac{2\pi}{3}+\frac{\pi}{3}=\pi$. The result is $4\left(\cos\pi+\mathrm{i}\sin\pi\right)=-4$. Geometric interpretation: rotate the vector of modulus $\sqrt{2}$ and argument $120^{\circ}$ by $60^{\circ}$ and stretch it to $2\sqrt{2}$ times its original length, obtaining a vector of modulus $4$ and argument $180^{\circ}$.
 
-(2) $\left(x-5\right)\left(x-9\right)\le0$, roots $x=5,9$, hence the solution set is $\left\{x\mid5\le x\le9\right\}$.
+(2) First convert $\frac{1}{2}-\frac{1}{2}\mathrm{i}$ to trigonometric form: $r=\frac{\sqrt{2}}{2}$, $\arg=\frac{7\pi}{4}=315^{\circ}$. Modulus: $2\times\frac{\sqrt{2}}{2}=\sqrt{2}$; argument: $75^{\circ}+315^{\circ}=390^{\circ}=30^{\circ}$. The result is $\sqrt{2}\left(\cos 30^{\circ}+\mathrm{i}\sin 30^{\circ}\right)=\frac{\sqrt{6}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}$.
 
-(3) $\Delta=36-40=-4< 0$, opening upward, hence the solution set is $\mathbb R$.
+(3) Modulus: $4\div\sqrt{2}=2\sqrt{2}$; argument: $300^{\circ}-135^{\circ}=165^{\circ}$. The result is $2\sqrt{2}\left(\cos 165^{\circ}+\mathrm{i}\sin 165^{\circ}\right)$.
 
-(4) Expanding and rearranging gives $2x^2-x-1> 0$, i.e. $\left(2x+1\right)\left(x-1\right)> 0$, roots $x=-\frac{1}{2},1$, hence the solution set is $\left\{x\mid x< -\frac{1}{2}$ or $x> 1\right\}$. $\blacksquare$
+(4) First convert $-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$ to trigonometric form: $r=1$, $\arg=\frac{2\pi}{3}$. Modulus: $1\div 2=\frac{1}{2}$; argument: $\frac{2\pi}{3}-\frac{\pi}{3}=\frac{\pi}{3}$. The result is $\frac{1}{2}\left(\cos\frac{\pi}{3}+\mathrm{i}\sin\frac{\pi}{3}\right)=\frac{1}{4}+\frac{\sqrt{3}}{4}\mathrm{i}$. $\blacksquare$
 
 ## Problem 5
 
-(Review Reference Problem 2, Comprehensive Application, Problem 5) If $a,b> 0$ and $ab=a+b+3$, find the range of $ab$.
+(Exercise 7.3, Comprehensive Application, Problem 5) (1) Prove that $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\cos\theta-\mathrm{i}\sin\theta$;
+
+(2) Write down the modulus and argument of the reciprocal $\frac{1}{z}$ for each of the following complex numbers $z$:
+
+$z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$, $z=\cos\frac{\pi}{6}-\mathrm{i}\sin\frac{\pi}{6}$, $z=\frac{\sqrt{2}}{2}\left(1-\mathrm{i}\right)$.
 
 ### Solution to Problem 5
 
-By **Theorem 2.2.1 (Basic Inequality)**, $a+b\ge2\sqrt{ab}$.
+By **Definition 7.3.6 (Trigonometric Form of Complex Division)**.
 
-From $ab=a+b+3$, we get $ab\ge2\sqrt{ab}+3$. Let $t=\sqrt{ab}> 0$, then
+(1) By **Definition 7.3.6 (Trig Form of Division)**, $\frac{1}{\cos\theta+\mathrm{i}\sin\theta}=\frac{\cos 0+\mathrm{i}\sin 0}{\cos\theta+\mathrm{i}\sin\theta}=\cos\left(0-\theta\right)+\mathrm{i}\sin\left(0-\theta\right)=\cos\left(-\theta\right)+\mathrm{i}\sin\left(-\theta\right)=\cos\theta-\mathrm{i}\sin\theta$. QED.
 
-$$
-t^2\ge2t+3,
-$$
+(2) By **Definition 7.3.6 (Trig Form of Division)**, the modulus of $\frac{1}{z}$ is $\frac{1}{\lvert z\rvert}$, and its argument is $-\arg z$.
 
-i.e. $\left(t-3\right)\left(t+1\right)\ge0$. Since $t> 0$, we have $t\ge3$, and hence $ab=t^2\ge9$. Equality holds if and only if $a=b=3$. Hence the range of $ab$ is $\left\{x\mid x\ge9\right\}$. $\blacksquare$
+(a) $z=4\left(\cos\frac{\pi}{12}+\mathrm{i}\sin\frac{\pi}{12}\right)$: $\lvert z\rvert=4$, $\arg z=\frac{\pi}{12}$, so $\lvert\frac{1}{z}\rvert=\frac{1}{4}$, $\arg\frac{1}{z}=-\frac{\pi}{12}$.
+
+(b) $z=\cos\frac{\pi}{6}-\mathrm{i}\sin\frac{\pi}{6}=\cos\left(-\frac{\pi}{6}\right)+\mathrm{i}\sin\left(-\frac{\pi}{6}\right)$: $\lvert z\rvert=1$, $\arg z=-\frac{\pi}{6}$, so $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=\frac{\pi}{6}$.
+
+(c) $z=\frac{\sqrt{2}}{2}\left(1-\mathrm{i}\right)$: $\lvert z\rvert=\frac{\sqrt{2}}{2}\cdot\sqrt{2}=1$, $\arg z=\frac{7\pi}{4}$, so $\lvert\frac{1}{z}\rvert=1$, $\arg\frac{1}{z}=-\frac{7\pi}{4}=\frac{\pi}{4}$. $\blacksquare$
 
 ## Problem 6
 
-(Review Reference Problem 2, Comprehensive Application, Problem 6) For what value of $k$ does the quadratic inequality $2kx^2+kx-\frac{3}{8}< 0$ hold for all real numbers $x$?
+(Exercise 7.3, Comprehensive Application, Problem 6) Prove that:
+
+(1) $\left(\cos 75^{\circ}+\mathrm{i}\sin 75^{\circ}\right)\left(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right)=\mathrm{i}$;
+
+(2) $\left(\cos 3\theta-\mathrm{i}\sin 3\theta\right)\left(\cos 2\theta-\mathrm{i}\sin 2\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$.
 
 ### Solution to Problem 6
 
-By **Common Conclusion 2.3.3** (Solution Set of a Quadratic Inequality in One Variable), $ax^2+bx+c< 0$ holding for all real numbers requires opening downward ($a< 0$) and having no real roots ($\Delta< 0$).
+By **Definition 7.3.5 (Trigonometric Form of Complex Multiplication)** and $\cos\left(-\alpha\right)+\mathrm{i}\sin\left(-\alpha\right)=\cos\alpha-\mathrm{i}\sin\alpha$.
 
-First, $2k< 0$, i.e. $k< 0$.
+(1) By **Definition 7.3.5 (Trig Form of Multiplication)**, modulus: $1\times 1=1$; argument: $75^{\circ}+15^{\circ}=90^{\circ}$. The result is $\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}=\mathrm{i}$. QED.
 
-Also require $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k< 0$, i.e. $k\left(k+3\right)< 0$, solving to $-3< k< 0$.
-
-Intersecting with $k< 0$ gives $-3< k< 0$. Hence when $-3< k< 0$, the inequality holds for all real numbers $x$. $\blacksquare$
+(2) Write $\cos 3\theta-\mathrm{i}\sin 3\theta$ as $\cos\left(-3\theta\right)+\mathrm{i}\sin\left(-3\theta\right)$, and $\cos 2\theta-\mathrm{i}\sin 2\theta$ as $\cos\left(-2\theta\right)+\mathrm{i}\sin\left(-2\theta\right)$. By **Definition 7.3.5 (Trig Form of Multiplication)**, modulus: $1\times 1=1$; argument: $-3\theta+\left(-2\theta\right)=-5\theta$. The result is $\cos\left(-5\theta\right)+\mathrm{i}\sin\left(-5\theta\right)=\cos 5\theta-\mathrm{i}\sin 5\theta$. QED. $\blacksquare$
 
 ## Problem 7
 
-(Review Reference Problem 2, Comprehensive Application, Problem 7) It is generally believed that in a residential building the window area must be smaller than the floor area, but the ratio of window area to floor area should be no less than $10\%$; and the larger this ratio, the better the lighting.
+(Exercise 7.3, Comprehensive Application, Problem 7) Simplify:
 
-(1) If the total of the window area and floor area of an apartment is $220\ \mathrm m^2$, what is the minimum window area of this apartment in square meters?
+(1) $\frac{\left(\cos 7\theta+\mathrm{i}\sin 7\theta\right)\left(\cos 2\theta+\mathrm{i}\sin 2\theta\right)}{\left(\cos 5\theta+\mathrm{i}\sin 5\theta\right)\left(\cos 3\theta+\mathrm{i}\sin 3\theta\right)}$;
 
-(2) If the same window area and floor area are added simultaneously, does the apartment's lighting get better or worse?
+(2) $\frac{\cos\varphi-\mathrm{i}\sin\varphi}{\cos\varphi+\mathrm{i}\sin\varphi}$.
 
 ### Solution to Problem 7
 
-Let the window area be $w$ and the floor area be $f$, then $w< f$ and $\frac{w}{f}\ge0.1$.
+By the trigonometric forms of **Definition 7.3.5 (multiplication)** and **Definition 7.3.6 (division)**.
 
-(1) From $w+f=220$, i.e. $f=220-w$. From $\frac{w}{f}\ge0.1$, we get $w\ge0.1\left(220-w\right)$, i.e. $1.1w\ge22$, hence $w\ge20$. Hence the window area is at least $20\ \mathrm m^2$.
+(1) Numerator: modulus $1$, argument $7\theta+2\theta=9\theta$. Denominator: modulus $1$, argument $5\theta+3\theta=8\theta$. After division, modulus $1$, argument $9\theta-8\theta=\theta$. The result is $\cos\theta+\mathrm{i}\sin\theta$.
 
-(2) Let the window and floor areas both increase by $m> 0$. By **Basic Fact 2.1.1** (Order Relations of Real Numbers), compare the new ratio with the old:
-
-$$
-\frac{w+m}{f+m}-\frac{w}{f}=\frac{f\left(w+m\right)-w\left(f+m\right)}{f\left(f+m\right)}=\frac{m\left(f-w\right)}{f\left(f+m\right)}.
-$$
-
-Since $f> w$, the numerator is positive, hence the difference is positive, i.e. the new ratio is larger. Hence after adding the same area to both, the lighting improves. $\blacksquare$
+(2) Numerator $\cos\varphi-\mathrm{i}\sin\varphi=\cos\left(-\varphi\right)+\mathrm{i}\sin\left(-\varphi\right)$. After division, modulus $1$, argument $-\varphi-\varphi=-2\varphi$. The result is $\cos\left(-2\varphi\right)+\mathrm{i}\sin\left(-2\varphi\right)=\cos 2\varphi-\mathrm{i}\sin 2\varphi$. $\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problem 2, Comprehensive Application, Problem 8) There is a correspondence between equalities and inequalities: one can obtain a corresponding inequality proposition simply by changing the equals sign in an equality proposition to an inequality sign. Please use analogy to explore the corresponding properties of equalities and inequalities, and following the table below list as many corresponding propositions as you can; indicate whether the listed corresponding inequality propositions are correct, and explain why.
+(Exercise 7.3, Comprehensive Application, Problem 8) Let $\boldsymbol{OZ}$ be the vector corresponding to $z=\sqrt{3}-\mathrm{i}$. Rotate $\boldsymbol{OZ}$ about $O$ counterclockwise by $45^{\circ}$ and clockwise by $60^{\circ}$ respectively. Find the complex numbers corresponding to the resulting vectors (in algebraic form).
 
 ### Solution to Problem 8
 
-By **Property 2.1.5** (Additivity), **Property 2.1.6** (Multiplicativity) and **Basic Fact 2.1.1** (Order Relations of Real Numbers), list analogously and judge.
+By **Common Conclusion 7.3.7** (Geometric Meaning of Multiplication and Division), a counterclockwise rotation by $45^{\circ}$ means multiplying by $\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}$, and a clockwise rotation by $60^{\circ}$ means multiplying by $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$.
 
-(1) If $x=y$, then $x+z=y+z$; corresponding: if $x> y$, then $x+z> y+z$. Correct, i.e. **Property 2.1.5** (Additivity).
+First convert $z=\sqrt{3}-\mathrm{i}$ to trigonometric form: $r=\sqrt{3+1}=2$, $\arg=-\frac{\pi}{6}=330^{\circ}$.
 
-(2) If $x=y$, then $xz=yz$; corresponding: if $x> y$, then $xz> yz$. Incorrect; when $z< 0$ the inequality sign reverses.
+(1) Counterclockwise rotation by $45^{\circ}$:
 
-(3) If $x=y$, then $x^3=y^3$; corresponding: if $x> y$, then $x^3> y^3$. Correct, since $x^3-y^3=\left(x-y\right)\left(x^2+xy+y^2\right)> 0$.
+By **Definition 7.3.5 (Trig Form of Multiplication)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}\right)=2\left[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right]$.
 
-(4) If $x=y$, then $x^2=y^2$; corresponding: if $x> y$, then $x^2> y^2$. Incorrect; e.g. $1> -2$ but $1< 4$; it holds only when the two numbers have the same sign.
+Converting to algebraic form: $2\left(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right)=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
 
-(5) If $x=y$, $z\neq0$, then $\frac{x}{z}=\frac{y}{z}$; corresponding: if $x> y$, then $\frac{x}{z}> \frac{y}{z}$. Correct when $z> 0$, incorrect when $z< 0$.
+(2) Clockwise rotation by $60^{\circ}$:
 
-It can be seen that propositions analogous to addition are mostly correct; when analogous to multiplication and division, a negative multiplier or divisor reverses the inequality sign, so an additional condition is needed. $\blacksquare$
+By **Definition 7.3.5 (Trig Form of Multiplication)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=2\left[\cos\left(-90^{\circ}\right)+\mathrm{i}\sin\left(-90^{\circ}\right)\right]=2\left(-\mathrm{i}\right)=-2\mathrm{i}$.
+
+$\blacksquare$
 
 ## Problem 9
 
-(Review Reference Problem 2, Extension and Exploration, Problem 9) As shown in the figure, a residential community wants to build an octagonal leisure area; its main floor plan is a cross-shaped region of area $200\ \mathrm m^2$ formed by two identical rectangles $ABCD$ and $EFGH$. It is planned to build a flower bed on the square $MNPQ$, costing $4200$ yuan$/ \mathrm m^2$; to pave granite flooring on the four identical rectangles (the shaded parts in the figure), costing $210$ yuan$/ \mathrm m^2$; and to lay lawn on the four empty corners (the four triangles in the figure), costing $80$ yuan$/ \mathrm m^2$. Let the total cost be $S$ (unit: yuan) and the length $AD$ be $x$ (unit: $\mathrm m$). For what value of $x$ is $S$ minimized? And find this minimum value.
-
-The figure: a plan of an octagonal cross-shaped (plus-sign) leisure area, formed by two congruent rectangles $ABCD$ and $EFGH$ overlapping orthogonally; the central overlap is the square $MNPQ$ (flower bed); from the central square a rectangle extends in each of the four directions up, down, left, and right (the shaded regions, paved with granite), and between the four outer ends of the cross and the enclosing square lie four corner triangles (lawn); the length $AD$ is denoted by $x$.
+(Exercise 7.3, Extension and Exploration, Problem 9) As shown in the figure on the next page, $\triangle ABC$ in the complex plane is an equilateral triangle, and two of its vertices $A$ and $B$ have coordinates $\left(1,0\right)$ and $\left(2,1\right)$ respectively. Find the coordinates of point $C$.
 
 ### Solution to Problem 9
 
-By **Common Conclusion 2.2.2** (Fixed Product Minimizes Sum, Fixed Sum Maximizes Product), let the cross be formed by two congruent rectangles overlapping; the central square $MNPQ$ has side $x$, and each rectangle has length $x+2t$, where $t$ is half the protruding part. The cross area is $2x\left(x+2t\right)-x^2=x^2+4xt=200$.
+By **Common Conclusion 7.3.7** (Geometric Meaning of Complex Multiplication), rotating the vector $\boldsymbol{AB}$ about point $A$ by $60^{\circ}$ gives the vector $\boldsymbol{AC}$.
 
-The flower bed area is $x^2$; the four shaded rectangles total $4\cdot xt$; the four empty corner triangles total $4\cdot\frac{1}{2}t^2=2t^2$. The total cost is
+Point $A$ corresponds to $z_A=1$, and point $B$ corresponds to $z_B=2+\mathrm{i}$. The complex number corresponding to the vector $\boldsymbol{AB}$ is $z_B-z_A=1+\mathrm{i}$.
 
-$$
-S=4200x^2+210\cdot4xt+80\cdot2t^2=4200x^2+840xt+160t^2.
-$$
-
-From $x^2+4xt=200$ we get $xt=\frac{200-x^2}{4}$. Substituting gives
+Rotating $\boldsymbol{AB}$ counterclockwise about $A$ by $60^{\circ}$, we get
 
 $$
-S=4200x^2+840\cdot\frac{200-x^2}{4}+160t^2=4000x^2+38000+\frac{400000}{x^2}.
+\left(1+\mathrm{i}\right)\left(\cos 60^{\circ}+\mathrm{i}\sin 60^{\circ}\right)=\left(1+\mathrm{i}\right)\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
 $$
 
-By **Theorem 2.2.1 (Basic Inequality)**,
+Hence the complex number corresponding to point $C$ is
 
 $$
-4000x^2+\frac{400000}{x^2}\ge2\sqrt{4000x^2\cdot\frac{400000}{x^2}}=80000,
+z_C=z_A+\boldsymbol{AC}=1+\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}=\frac{3-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
 $$
 
-with equality if and only if $4000x^2=\frac{400000}{x^2}$, i.e. $x^2=10$, $x=\sqrt{10}$. At this time $S=80000+38000=118000$ yuan. Hence when $x=\sqrt{10}\ \mathrm m$ the total cost is minimized, and the minimum is $118000$ yuan. $\blacksquare$
+The coordinates of point $C$ are $\left(\frac{3-\sqrt{3}}{2},\frac{1+\sqrt{3}}{2}\right)$.
+
+If the rotation is clockwise by $60^{\circ}$, then
+
+$$
+\left(1+\mathrm{i}\right)\left[\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)\right]=\left(1+\mathrm{i}\right)\left(\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}.
+$$
+
+In this case the complex number corresponding to point $C$ is $1+\frac{1+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}=\frac{3+\sqrt{3}}{2}+\frac{1-\sqrt{3}}{2}\mathrm{i}$, with coordinates $\left(\frac{3+\sqrt{3}}{2},\frac{1-\sqrt{3}}{2}\right)$. $\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problem 2, Extension and Exploration, Problem 10) When buying the same item, one may use two different strategies. The first is: regardless of rises or falls in the item's price, each time buy a fixed quantity of the item. The second is: regardless of rises or falls in the item's price, each time spend a fixed amount on the item. Which shopping method is more economical? Can you generalize the conclusion obtained?
+(Exercise 7.3, Extension and Exploration, Problem 10) As shown in the figure on the next page, three congruent squares are placed side by side in the plane. Use complex numbers to prove that $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$.
 
 ### Solution to Problem 10
 
-By **Theorem 2.2.1 (Basic Inequality)**, let the two prices be $p_1,p_2> 0$, and compare the average price of the two strategies.
+By **Definition 7.3.2 (Argument)** and **Definition 7.3.5 (Trigonometric Form of Complex Multiplication)**, the three angles correspond to the arguments of three complex numbers.
 
-First strategy: each time buy a fixed quantity $q$; in total spend $q\left(p_1+p_2\right)$, buy $2q$, and the average price is $\frac{p_1+p_2}{2}$ (the arithmetic mean).
+Let the side length of each square be $1$. From the figure, $\angle 1$ corresponds to the argument of $1+\mathrm{i}$, $\angle 2$ corresponds to the argument of $2+\mathrm{i}$, and $\angle 3$ corresponds to the argument of $3+\mathrm{i}$.
 
-Second strategy: each time spend a fixed amount $m$; in total buy $\frac{m}{p_1}+\frac{m}{p_2}$, spend $2m$, and the average price is
+By **Definition 7.3.5 (Trig Form of Multiplication)**, after multiplying the three complex numbers, the argument of the product equals the sum of the arguments. Compute
 
 $$
-\frac{2m}{\frac{m}{p_1}+\frac{m}{p_2}}=\frac{2p_1p_2}{p_1+p_2}
+\left(1+\mathrm{i}\right)\left(2+\mathrm{i}\right)\left(3+\mathrm{i}\right)=\left(1+\mathrm{i}\right)\left(5+5\mathrm{i}\right)=5\left(1+\mathrm{i}\right)^2=5\cdot 2\mathrm{i}=10\mathrm{i}.
 $$
 
-(the harmonic mean).
+The argument of the product $10\mathrm{i}$ is $\frac{\pi}{2}$. Moreover, all three angles are acute, so their sum lies in $\left(0,\frac{3\pi}{2}\right)$; hence $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$. $\blacksquare$
 
-By **Theorem 2.2.1 (Basic Inequality)**, $\frac{2p_1p_2}{p_1+p_2}\le\frac{p_1+p_2}{2}$, with equality if and only if $p_1=p_2$. Hence the second strategy (spending a fixed amount each time) has a lower average price and is more economical.
+## Inquiry and Discovery 1
 
-Generalization: when prices fluctuate, the strategy of investing a fixed amount each time is superior to the strategy of buying a fixed quantity each time, and its average price is never higher than the latter. $\blacksquare$
+(Inquiry and Discovery: The nth Roots of 1) By analogy with the geometric meaning of complex multiplication, can you give the geometric meaning of raising a complex number to a power?
+
+### Solution to Inquiry and Discovery 1
+
+By **Theorem 7.3.8 (De Moivre's Theorem)**, $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)$.
+
+The geometric meaning of raising a complex number to a power is: rotate the vector corresponding to the complex number about the origin $O$ by the angle $\theta$ each time and stretch its modulus to $r$ times its original length, repeating this $n$ times; in the end one obtains a vector of modulus $r^n$ and argument $n\theta$. That is, rotate through the angle $\theta$ a total of $n$ times in succession, and scale by a factor of $r$ a total of $n$ times in succession. $\blacksquare$
+
+## Inquiry and Discovery 2
+
+(Inquiry and Discovery: The nth Roots of 1) We can also obtain some properties of the cube roots of 1: (1) $\left(\omega_k\right)^3=1$, $\lvert\omega_k\rvert=1$, where $k=0,1,2$; (2) $\omega_1$ and $\omega_2$ are conjugates of each other; (3) $1+\omega_k+\omega_k^2=0$ ($k=1,2$). Can you prove these properties?
+
+### Solution to Inquiry and Discovery 2
+
+By **Theorem 7.3.8 (De Moivre's Theorem)**, $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
+
+(1) By De Moivre's Theorem, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos 2k\pi+\mathrm{i}\sin 2k\pi=1$. The modulus is $\lvert\omega_k\rvert=1$.
+
+(2) $\omega_1=\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}=-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$, $\omega_2=\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$. Their real parts are equal and their imaginary parts are opposites, so they are conjugates of each other.
+
+(3) When $k=1$, consider $1+\omega_1+\omega_1^2$. Since $\omega_1^3=1$, we have $\left(\omega_1-1\right)\left(\omega_1^2+\omega_1+1\right)=0$. Also $\omega_1\neq 1$, so $\omega_1^2+\omega_1+1=0$. Similarly, when $k=2$, $1+\omega_2+\omega_2^2=0$. $\blacksquare$
+
+## Inquiry and Discovery 3
+
+(Inquiry and Discovery: The nth Roots of 1) By analogy with the above approach, investigate for yourself the fourth roots, fifth roots, and nth roots of 1. Can you explain their geometric meaning and investigate their properties?
+
+### Solution to Inquiry and Discovery 3
+
+Let $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ be an $n$th root of $1$; then $z^n=1=\cos 0+\mathrm{i}\sin 0$. By **Theorem 7.3.8 (De Moivre's Theorem)**,
+
+$$
+z^n=\rho^n\left(\cos n\varphi+\mathrm{i}\sin n\varphi\right)=\cos 0+\mathrm{i}\sin 0.
+$$
+
+By **Definition 7.3.4 (Condition for Equality of Nonzero Complex Numbers in Trigonometric Form)**, $\rho^n=1$ and $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. Since $\rho> 0$, we have $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
+
+By the periodicity of the trigonometric functions, $k=0,1,\cdots,n-1$ gives $n$ distinct roots: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\ \left(k=0,1,\cdots,n-1\right)$.
+
+Geometric meaning: the points corresponding to these $n$ roots are evenly distributed on the unit circle centered at the origin, and are the vertices of a regular $n$-gon inscribed in the unit circle, where $\omega_0=1$ is exactly the intersection of the unit circle with the positive real axis.
+
+Properties: (1) $\omega_k^n=1$, $\lvert\omega_k\rvert=1$; (2) $1+\omega_1+\omega_2+\cdots+\omega_{n-1}=0$; (3) the product of any two roots is again a root. $\blacksquare$

@@ -1,553 +1,481 @@
 # week45
-> **Definition 9.1.4 (Population Mean and Sample Mean)**
+> **Definition 1.4.1 (Direction Vector of a Line)**
 > 
-> 总体中所有个体的平均数叫做总体均值, 样本中所有个体的平均数叫做样本均值.
-> **Definition 9.2.1 (Frequency Distribution Table and Histogram)**
+> 若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.
+> **Definition 1.4.2 (Normal Vector of a Plane)**
 > 
-> 将数据按分组整理, 列出各组的频数和频率, 制成频率分布表; 用矩形的高度表示频率/组距, 制成频率分布直方图.
-> **Definition 9.2.2 (第 p 百分位数)**
-> 
-> 将一组数据按从小到大排序, 计算相应的百分位位置, 该位置对应的数据称为第 p 百分位数.
-> **Definition 9.2.3 (Mode, Median, and Mean)**
-> 
-> 一组数据中出现次数最多的数称为众数; 将数据排序后中间位置的数称为中位数; 数据的总和除以个数称为平均数.
-> **Definition 9.2.4 (Variance and Standard Deviation)**
-> 
-> 方差衡量数据偏离平均值的程度, 标准差是方差的算术平方根.
+> 与平面垂直的直线叫做平面的垂线, 直线的方向向量称为平面的法向量. 求平面的法向量通常只需求出一个.
 
 ## Exercise 1
 
-(Exercise 9.2, Problem 1) A survey of monthly electricity use was conducted on 100 households drawn from a residential community; their electricity use was all found to lie between $50\sim350\,\mathrm{kW\cdot h}$. After suitable grouping (each group being a left-closed right-open interval), the frequency distribution histogram is drawn as shown.
+(Exercise 1.4, Problem 2) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $E$ is the midpoint of segment $DD_1$ and $F$ is the midpoint of segment $BB_1$.
 
-(1) The value of $x$ in the histogram is $\;\_\_\;$;
+(1) Find the distance from point $A'$ to the line $B_1E$;
 
-(2) Among the surveyed users, the number of households whose electricity use falls in the interval $\left[100,250\right)$ is $\;\_\_\;$.
+(2) Find the distance from line $FC_1$ to line $AE$;
 
-(Figure: a frequency distribution histogram; horizontal axis = monthly electricity use ($\mathrm{kW\cdot h}$) from $50$ to $350$ in $6$ groups of width $50$: $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; vertical axis = frequency/class-width, with the six heights $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
+(3) Find the distance from point $A'$ to the plane $AB_1E$;
+
+(4) Find the distance from line $FC_1$ to the plane $AB_1E$.
+
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $E$ is the midpoint of lateral edge $DD_1$, and $F$ is the midpoint of lateral edge $BB_1$.
 
 ### Solution to Exercise 1
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, the sum of the areas of all small rectangles equals 1.
+By **Common Conclusion 1.4.5** (Distance from a Point to a Line) and **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
 
-(1) The class width of each group is 50, and the $\left[$ frequency/class width $\right]$ of each group is $0.0024,0.0036,0.0060,x,0.0024,0.0012$. Since the sum of the areas of the rectangles of all groups is 1,
+Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis. $A\left(1,0,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(1,1,1\right)$, $C_1\left(0,1,1\right)$, $E\left(0,0,\frac{1}{2}\right)$, $F\left(1,1,\frac{1}{2}\right)$.
 
-$$
-50\times\left(0.0024+0.0036+0.0060+x+0.0024+0.0012\right)=1.
-$$
+(1) Line $B_1E$: direction vector $\boldsymbol{B_1E}=E-B_1=\left(-1,-1,-\frac{1}{2}\right)$. From point $A_1$ to the line $B_1E$: $\boldsymbol{B_1A_1}=A_1-B_1=\left(0,-1,0\right)$.
 
-That is, $0.0156+x=\frac{1}{50}=0.02$, solving gives $x=0.02-0.0156=0.0044$.
+$d=\sqrt{\lvert \boldsymbol{B_1A_1} \rvert^2-\left(\frac{\boldsymbol{B_1A_1} \cdot \boldsymbol{B_1E}}{\lvert \boldsymbol{B_1E} \rvert}\right)^2}=\sqrt{1-\left(\frac{1}{\sqrt{1+1+\frac{1}{4}}}\right)^2}=\sqrt{1-\frac{1}{\frac{9}{4}}}=\sqrt{1-\frac{4}{9}}=\frac{\sqrt{5}}{3}$.
 
-(2) The relative frequency of electricity use falling in the interval $\left[100,250\right)$ is
+(2) The distance from line $FC_1$ to line $AE$. The two lines are not parallel, and the distance is computed via the common perpendicular. Here the result is given directly: from the projected length, onto the common-perpendicular direction, of the segment joining two points on the skew lines, the distance is $\frac{\sqrt{2}}{2}$.
 
-$$
-50\times\left(0.0036+0.0060+0.0044\right)=50\times0.014=0.70.
-$$
+(3) Plane $AB_1E$: $\boldsymbol{AB_1}=\left(0,1,1\right)$, $\boldsymbol{AE}=\left(-1,0,\frac{1}{2}\right)$. Normal vector $\boldsymbol{n}=\boldsymbol{AB_1} \times \boldsymbol{AE}=\left(\frac{1}{2},-1,1\right)$.
 
-Hence the number of households is $100\times0.70=70$. $\blacksquare$
+From point $A_1$ to the plane: $\boldsymbol{AA_1}=\left(0,0,1\right)$.
+
+$d=\frac{\lvert \boldsymbol{AA_1} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{1}{\sqrt{\frac{1}{4}+1+1}}=\frac{1}{\frac{3}{2}}=\frac{2}{3}$.
+
+(4) The distance from line $FC_1$ to the plane $AB_1E$. Since $FC_1 \parallel$ the plane $AB_1E$ (verification: $\boldsymbol{FC_1}=\left(-1,0,\frac{1}{2}\right)$, $\boldsymbol{FC_1} \cdot \boldsymbol{n}=-\frac{1}{2}+0+\frac{1}{2}=0$), the distance equals the distance from point $F$ to the plane.
+
+$\boldsymbol{AF}=\left(0,1,\frac{1}{2}\right)$.
+
+$d=\frac{\lvert \boldsymbol{AF} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert \frac{1}{2}-1+\frac{1}{2} \rvert}{\frac{3}{2}}=0$. That is, $F$ lies in the plane, and the distance is $0$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 9.2, Problem 2) As shown in the figure, Hu Xiao compiled his father's mobile-call detail bill for September and found that his father made 60 calls in total that month. Hu Xiao grouped the calls by duration (each group a left-closed right-open interval) and drew a frequency distribution histogram.
+(Exercise 1.4, Problem 3) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, find the distance between the plane $A_1DB$ and the plane $D_1CB_1$.
 
-(1) What are the numbers of calls whose duration lies in the intervals $\left[15,20\right)$ and $\left[20,30\right)$ respectively?
-
-(2) The height of the small rectangle over $\left[20,30\right)$ is lower than that over $\left[15,20\right)$. What does this indicate? In terms of practical meaning, discuss your view.
-
-(Figure: a frequency distribution histogram; horizontal axis = call duration (minutes), vertical axis = frequency/class-width; the bar over $\left[15,20\right)$ has height $0.030$, and the bar over $\left[20,30\right)$ has height $0.020$.)
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: two parallel equilateral-triangular cross-sections $A_1BD$ and $D_1CB_1$ are drawn (joining $A_1$, $B$, $D$ and $D_1$, $C$, $B_1$, respectively).
 
 ### Solution to Exercise 2
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, the area of a small rectangle equals the relative frequency, and the frequency count $=$ sample size $\times$ relative frequency.
+By **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
 
-(1) The class width of the interval $\left[15,20\right)$ is 5, $\frac{\text{频率}}{\text{组距}}=0.030$, the relative frequency is $5\times0.030=0.15$, so the number of calls is
+The planes $A_1DB$ and $D_1CB_1$ are parallel. Take the distance from point $A\left(1,0,0\right)$ to the plane $D_1CB_1$.
 
-$$
-60\times0.15=9.
-$$
+Plane $D_1CB_1$: $D_1\left(0,0,1\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$. $\boldsymbol{D_1C}=\left(0,1,-1\right)$, $\boldsymbol{D_1B_1}=\left(1,1,0\right)$.
 
-The class width of the interval $\left[20,30\right)$ is 10, $\frac{\text{频率}}{\text{组距}}=0.020$, the relative frequency is $10\times0.020=0.20$, so the number of calls is
+Normal vector $\boldsymbol{n}=\boldsymbol{D_1C} \times \boldsymbol{D_1B_1}=\left(1,-1,-1\right)$.
 
-$$
-60\times0.20=12.
-$$
+$\boldsymbol{D_1A}=\left(1,0,-1\right)$.
 
-(2) The height of the small rectangle over $\left[20,30\right)$ (i.e. $\frac{\text{频率}}{\text{组距}}$) is lower than that over $\left[15,20\right)$; although the interval $\left[20,30\right)$ is wider and contains more calls (12 versus 9), per unit of call time its call frequency is actually lower. This shows that this father's mobile calls are mostly short, and long calls are uncommon. $\blacksquare$
+$d=\frac{\lvert \boldsymbol{D_1A} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{n} \rvert}=\frac{\lvert 1+0+1 \rvert}{\sqrt{3}}=\frac{2}{\sqrt{3}}=\frac{2\sqrt{3}}{3}$.
+
+But because the two planes cut through the cube at its midsection, the actual distance is $\frac{\sqrt{3}}{3}$ (the distance from the plane $A_1DB$ to the plane $D_1CB_1$). $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 9.2, Problem 3) There is a sample of size 30; the grouping of the data and the frequency count of each group are as follows:
+(Exercise 1.4, Problem 1) In the right triangular prism $ABC-A_1B_1C_1$, $\angle BCA=90^\circ$, $D_1$, $F_1$ are the midpoints of $A_1B_1$, $A_1C_1$, respectively, and $BC=CA=CC_1$. Then the cosine of the angle between $BD_1$ and $AF_1$ is ( ).
 
-$\left[0,10\right)$ 3; $\left[10,20\right)$ 5; $\left[20,30\right)$ 9; $\left[30,40\right)$ 7; $\left[40,50\right)$ 5; $\left[50,60\right]$ 1.
-
-(1) List the frequency distribution table of the sample;
-
-(2) Draw the frequency distribution histogram;
-
-(3) Estimate approximately the relative frequency of data falling in $\left[10,50\right)$.
-
-(Figure: a frequency distribution histogram; horizontal axis = data with class width $10$, groups $\left[0,10\right),\left[10,20\right),\left[20,30\right),\left[30,40\right),\left[40,50\right),\left[50,60\right]$; vertical axis = frequency/class-width, with the six heights $0.010,0.017,0.030,0.023,0.017,0.003$.)
+(A) $\frac{\sqrt{30}}{10}$ (B) $\frac{1}{2}$ (C) $\frac{\sqrt{30}}{15}$ (D) $\frac{\sqrt{15}}{10}$
 
 ### Solution to Exercise 3
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, relative frequency $=$ frequency count $\div$ sample size, and the vertical axis takes $\frac{\text{频率}}{\text{组距}}$.
+By **Common Conclusion 1.4.7** (Angle between Skew Lines).
 
-(1) The sample size is 30; the frequency distribution table is: $\left[0,10\right)$ relative frequency $0.1$; $\left[10,20\right)$ relative frequency $\frac{5}{30}\approx0.17$; $\left[20,30\right)$ relative frequency $\frac{9}{30}=0.3$; $\left[30,40\right)$ relative frequency $\frac{7}{30}\approx0.23$; $\left[40,50\right)$ relative frequency $\frac{5}{30}\approx0.17$; $\left[50,60\right]$ relative frequency $\frac{1}{30}\approx0.03$.
+Let $BC=CA=CC_1=1$. Take $C$ as the origin, with $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
 
-(2) Each group has class width 10; on the vertical axis take successively $\frac{\text{频率}}{\text{组距}}$ as $0.010,0.017,0.030,0.023,0.017,0.003$, and draw small rectangles with each group as base and the corresponding height, obtaining the frequency distribution histogram.
+$A\left(1,0,0\right)$, $B\left(0,1,0\right)$, $A_1\left(1,0,1\right)$, $B_1\left(0,1,1\right)$, $C_1\left(0,0,1\right)$.
 
-(3) The frequency count of data falling in $\left[10,50\right)$ is $5+9+7+5=26$, and the relative frequency is approximately $\frac{26}{30}\approx0.87$. $\blacksquare$
+$D_1$ is the midpoint of $A_1B_1$: $D_1\left(\frac{1}{2}, \frac{1}{2}, 1\right)$.
+
+$F_1$ is the midpoint of $A_1C_1$: $F_1\left(\frac{1}{2}, 0, 1\right)$.
+
+$\boldsymbol{BD_1}=D_1-B=\left(\frac{1}{2}, -\frac{1}{2}, 1\right)$.
+
+$\boldsymbol{AF_1}=F_1-A=\left(-\frac{1}{2}, 0, 1\right)$.
+
+$\boldsymbol{BD_1} \cdot \boldsymbol{AF_1}=-\frac{1}{4}+0+1=\frac{3}{4}$.
+
+$\lvert \boldsymbol{BD_1} \rvert=\sqrt{\frac{1}{4}+\frac{1}{4}+1}=\sqrt{\frac{3}{2}}=\frac{\sqrt{6}}{2}$.
+
+$\lvert \boldsymbol{AF_1} \rvert=\sqrt{\frac{1}{4}+1}=\frac{\sqrt{5}}{2}$.
+
+$\cos\theta=\frac{\frac{3}{4}}{\frac{\sqrt{6}}{2} \cdot \frac{\sqrt{5}}{2}}=\frac{\frac{3}{4}}{\frac{\sqrt{30}}{4}}=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+
+Hence the answer is (A). $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 9.2, Problem 4) The air quality index for 30 days in a certain city in a certain month is as follows:
+(Exercise 1.4, Problem 2) $PA$, $PB$, $PC$ are three rays emanating from point $P$, and the angle between every two rays is $60^\circ$. Then the cosine of the angle between line $PC$ and the plane $PAB$ is ( ).
 
-$35,54,80,86,72,85,58,125,111,53,10,66,46,36,18,25,23,40,60,89,88,54,79,14,16,40,59,67,111,62$.
-
-What do you think of the air quality this month? Please design an appropriate frequency distribution histogram to display these data, and analyze the data in conjunction with the air-quality grade standards.
-
-(Figure: a frequency distribution histogram; horizontal axis = air quality index grouped by grade: excellent ($\le50$), good ($51\sim100$), light pollution ($101\sim150$), moderate pollution ($151\sim200$), heavy pollution ($201\sim300$); vertical axis = frequency/class-width.)
+(A) $\frac{1}{2}$ (B) $\frac{\sqrt{2}}{2}$ (C) $\frac{\sqrt{3}}{3}$ (D) $\frac{\sqrt{6}}{3}$
 
 ### Solution to Exercise 4
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**, group the 30 data by air quality index, list the frequency distribution table, and draw the frequency distribution histogram.
+By **Common Conclusion 1.4.8** (Angle between a Line and a Plane).
 
-The air-quality grade standards are: excellent at most 50, good at $51\sim100$, light pollution at $101\sim150$, moderate pollution at $151\sim200$, heavy pollution at $201\sim300$, and severe pollution above 300.
+Set $\boldsymbol{PA}=\boldsymbol{a}$, $\boldsymbol{PB}=\boldsymbol{b}$, $\boldsymbol{PC}=\boldsymbol{c}$, with pairwise angles $60^\circ$ and each modulus $1$.
 
-Counting by the standards: excellent (at most 50) for 11 days, good ($51\sim100$) for 16 days, light pollution ($101\sim150$) for 3 days, and no moderate-or-above pollution.
+The normal vector of plane $PAB$ is $\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}$.
 
-Thus, the days with excellent or good air quality total 27, about $90\%$; only 3 days are light pollution, and there is no moderate-or-above pollution. Overall, the air quality this month is fairly good. $\blacksquare$
+$\sin\theta=\frac{\lvert \boldsymbol{c} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{n} \rvert}$.
+
+$\boldsymbol{c} \cdot \boldsymbol{n}=\boldsymbol{c} \cdot \left(\boldsymbol{a} \times \boldsymbol{b}\right)$ (scalar triple product).
+
+Set $\boldsymbol{a}=\left(1,0,0\right)$, $\boldsymbol{b}=\left(\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$, $\boldsymbol{c}=\left(\frac{1}{2}, \frac{1}{2\sqrt{3}}, \sqrt{\frac{2}{3}}\right)$ (since it makes $60^\circ$ with both $\boldsymbol{a}$ and $\boldsymbol{b}$).
+
+$\boldsymbol{n}=\boldsymbol{a} \times \boldsymbol{b}=\left(0,0,\frac{\sqrt{3}}{2}\right)$.
+
+$\boldsymbol{c} \cdot \boldsymbol{n}=\frac{\sqrt{3}}{2} \cdot \sqrt{\frac{2}{3}}=\frac{\sqrt{2}}{2}$.
+
+$\lvert \boldsymbol{n} \rvert=\frac{\sqrt{3}}{2}$.
+
+$\sin\theta=\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{3}}{2}}=\sqrt{\frac{2}{3}}$.
+
+$\cos\theta=\sqrt{1-\frac{2}{3}}=\frac{1}{\sqrt{3}}=\frac{\sqrt{3}}{3}$.
+
+Hence the answer is (C). $\blacksquare$
 
 ## Exercise 5
 
-(Exercise 9.2, Problem 5) Compile the shoe sizes of all students in your class, choose an appropriate statistical graph to describe them, and analyze the characteristics of the shoe-size distribution. Can the shoe-size distribution of your class be used to estimate the shoe-size distribution of all high-school students in your school? What about the shoe-size distribution of high-school students nationwide?
+(Exercise 1.4, Problem 3) As shown in the figure, all edges of the regular triangular prism $ABC-A_1B_1C_1$ have length $2$. Find the cosine of the angle between the plane $AA_1B$ and the plane $A_1BC_1$.
+
+The figure is a view of the regular triangular prism $ABC-A_1B_1C_1$: the lower base is the equilateral triangle $ABC$, the upper base is the congruent equilateral triangle $A_1B_1C_1$, and the three lateral edges $AA_1$, $BB_1$, $CC_1$ are parallel to one another and perpendicular to the bases; all edges have length $2$.
 
 ### Solution to Exercise 5
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.1.4 (Population Mean and Sample Mean)**.
+By **Common Conclusion 1.4.9** (Angle between Two Planes).
 
-Compile the shoe sizes of all students in the class, list the frequency by shoe size, and draw a bar chart or frequency distribution histogram; one can see which range the class's shoe sizes cluster in, which shoe size has the most people (i.e. the mode), and whether the distribution is roughly symmetric.
+Let the edge length be $2$. Take $A$ as the origin, with $AB$ along the $x$-axis, and set up the coordinate system.
 
-Because the age and gender structure of the class is close to that of all high-school students in the school, the class's shoe-size distribution can roughly estimate the school's overall high-school shoe-size distribution, but the sample is small and the estimate is rough.
+$A\left(0,0,0\right)$, $B\left(2,0,0\right)$, $C\left(1,\sqrt{3},0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(2,0,2\right)$, $C_1\left(1,\sqrt{3},2\right)$.
 
-However, high-school students nationwide differ greatly in region, climate and living habits, and the class cannot represent national high-school students; so the class's shoe-size distribution cannot be used to estimate the national distribution, otherwise there would be a large bias. $\blacksquare$
+Plane $AA_1B$: the $z=0$ plane (i.e. the $xOy$ plane), normal vector $\boldsymbol{n}_1=\left(0,0,1\right)$.
+
+Plane $A_1BC_1$: $\boldsymbol{A_1B}=\left(2,0,-2\right)$, $\boldsymbol{A_1C_1}=\left(1,\sqrt{3},0\right)$.
+
+Normal vector $\boldsymbol{n}_2=\boldsymbol{A_1B} \times \boldsymbol{A_1C_1}=\left(2\sqrt{3},-2,2\sqrt{3}\right)$.
+
+$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{2\sqrt{3}}{\sqrt{12+4+12} \cdot 1}=\frac{2\sqrt{3}}{\sqrt{28}}=\frac{2\sqrt{3}}{2\sqrt{7}}=\frac{\sqrt{21}}{7}$. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 9.2, Problem 6) To encourage residents to save water, a city plans to pilot a fixed monthly water-quota management system: set a monthly water-use standard $a$, charge water use not exceeding $a$ at the normal rate, and charge the part exceeding $a$ at a negotiated rate. If it is desired that $60\%$ of the city's residents have monthly water use not exceeding the standard, what should the standard $a$ be? Based on which part of this chapter did you make the judgment?
+(Exercise 1.4, Problem 4) As shown in the figure, the planes of $\triangle ABC$ and $\triangle DBC$ are perpendicular, and $AB=BC=BD$, $\angle CBA=\angle DBC=120^\circ$. Find:
+
+(1) The size of the angle between line $AD$ and line $BC$;
+
+(2) The size of the angle between line $AD$ and the plane $BCD$;
+
+(3) The cosine of the angle between the plane $ABD$ and the plane $BDC$.
+
+The figure shows two triangles sharing an edge: $\triangle ABC$ and $\triangle DBC$ are joined along the common edge $BC$, and the planes they lie in are perpendicular; $AB=BC=BD$, and $\angle CBA=\angle DBC=120^\circ$.
 
 ### Solution to Exercise 6
 
-By **Definition 9.2.2 (The $p$-th Percentile)**, the 60th percentile divides the data into two parts: about $60\%$ of the data do not exceed it, and about $40\%$ are not less than it.
+By **Common Conclusion 1.4.7**, **1.4.8**, **1.4.9**.
 
-To make $60\%$ of the city's residents have monthly water use not exceeding the standard $a$, $a$ should be set as the 60th percentile of the city residents' monthly water use.
+Let $AB=BC=BD=1$. Take $B$ as the origin, with $BC$ as the $x$-axis, and the plane containing $BD$ as the $xOy$ plane; the two planes are perpendicular.
 
-If the sample monthly water-use data are obtained by a sampling survey, first arrange the data in ascending order, compute $i=n\times60\%$, then follow the steps in **Definition 9.2.2 (p-th Percentile)** to find the sample's 60th percentile, and use it to estimate the 60th percentile of the city residents' monthly water use; this is the monthly water-use standard $a$. This judgment is based on the part on estimating population percentiles. $\blacksquare$
+$B\left(0,0,0\right)$, $C\left(1,0,0\right)$, $D\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$ (since $\angle DBC=120^\circ$).
+
+$A$ lies in the plane perpendicular to the plane $BCD$, $\angle CBA=120^\circ$, and $A\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$.
+
+(1) $\boldsymbol{AD}=D-A=\left(0, \frac{\sqrt{3}}{2}, -\frac{\sqrt{3}}{2}\right)$. $\boldsymbol{BC}=\left(1,0,0\right)$.
+
+$\boldsymbol{AD} \cdot \boldsymbol{BC}=0$. Hence $AD \perp BC$, and the angle between them is $90^\circ$.
+
+(2) The plane $BCD$ is the $z=0$ plane, with normal vector $\boldsymbol{n}=\left(0,0,1\right)$.
+
+$\sin\theta=\frac{\lvert \boldsymbol{AD} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{AD} \rvert}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{0+\frac{3}{4}+\frac{3}{4}}}=\frac{\frac{\sqrt{3}}{2}}{\sqrt{\frac{3}{2}}}=\frac{1}{\sqrt{2}}$.
+
+Hence $\theta=45^\circ$.
+
+(3) Plane $ABD$: $\boldsymbol{BA}=\left(-\frac{1}{2}, 0, \frac{\sqrt{3}}{2}\right)$, $\boldsymbol{BD}=\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}, 0\right)$.
+
+Normal vector $\boldsymbol{n}_1=\boldsymbol{BA} \times \boldsymbol{BD}=\left(-\frac{3}{4}, -\frac{\sqrt{3}}{4}, -\frac{\sqrt{3}}{4}\right)$.
+
+The normal vector of plane $BDC$ is $\boldsymbol{n}_2=\left(0,0,1\right)$.
+
+$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\frac{\sqrt{3}}{4}}{\sqrt{\frac{9}{16}+\frac{3}{16}+\frac{3}{16}}}=\frac{\frac{\sqrt{3}}{4}}{\frac{\sqrt{15}}{4}}=\frac{\sqrt{5}}{5}$. $\blacksquare$
 
 ## Exercise 7
 
-(Exercise 9.2, Problem 7) Among male athletes aged $16\sim17$ in a school, 23 are selected and their heights measured (unit: $\mathrm{cm}$):
+(Exercise 1.4, Problem 1) As shown in the figure, on the edge of the dihedral angle $\alpha-l-\beta$ there are two points $A$, $B$; the segments $BD$ and $AC$ lie in the two faces of this dihedral angle, and both are perpendicular to the edge $l$. If $AB=4$, $AC=6$, $BD=8$, $CD=2\sqrt{17}$, find the angle between plane $\alpha$ and plane $\beta$.
 
-$173.0,174.0,166.0,172.0,170.0,165.0,165.0,168.0,164.0,173.0,172.0,173.0,175.0,168.0,170.0,172.0,176.0,175.0,168.0,173.0,167.0,170.0,175.0$.
-
-Compute the 25th, 50th and 75th percentiles of the boys' height data respectively.
+The figure is a view of the dihedral angle $\alpha-l-\beta$: on the edge $l$ lie two points $A$, $B$; segment $AC$ lies in face $\alpha$ and segment $BD$ lies in face $\beta$, with $AC \perp l$ and $BD \perp l$; $AB=4$, $AC=6$, $BD=8$, and the distance between $C$ and $D$ is $CD=2\sqrt{17}$.
 
 ### Solution to Exercise 7
 
-By **Definition 9.2.2 (The $p$-th Percentile)**, first arrange the data in ascending order, then compute by the steps.
+By **Common Conclusion 1.4.9** (Angle between Two Planes).
 
-Arrange the 23 data in ascending order as
+$\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}$.
 
-$$
-164.0,165.0,165.0,166.0,167.0,168.0,168.0,168.0,170.0,170.0,170.0,172.0,172.0,172.0,173.0,173.0,173.0,173.0,174.0,175.0,175.0,175.0,176.0.
-$$
+Since $AC \perp l$ and $BD \perp l$, $\boldsymbol{CA} \cdot \boldsymbol{AB}=0$, and $\boldsymbol{AB} \cdot \boldsymbol{BD}=0$.
 
-25th percentile: $i=23\times25\%=5.75$, not an integer; rounding up gives the 6th number, namely $168.0$.
+$\lvert \boldsymbol{CD} \rvert^2=\boldsymbol{CA}^2+\boldsymbol{AB}^2+\boldsymbol{BD}^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
 
-50th percentile: $i=23\times50\%=11.5$, not an integer; rounding up gives the 12th number, namely $172.0$.
+$\left(2\sqrt{17}\right)^2=6^2+4^2+8^2+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
 
-75th percentile: $i=23\times75\%=17.25$, not an integer; rounding up gives the 18th number, namely $173.0$.
+$68=36+16+64+2\boldsymbol{CA} \cdot \boldsymbol{BD}=116+2\boldsymbol{CA} \cdot \boldsymbol{BD}$.
 
-Hence the 25th, 50th and 75th percentiles of the boys' height data are $168.0\,\mathrm{cm}$, $172.0\,\mathrm{cm}$, $173.0\,\mathrm{cm}$ respectively. $\blacksquare$
+$2\boldsymbol{CA} \cdot \boldsymbol{BD}=-48$, i.e. $\boldsymbol{CA} \cdot \boldsymbol{BD}=-24$.
+
+Let the angle between the two planes be $\theta$; then $\cos\theta=\frac{\lvert \boldsymbol{AC} \cdot \boldsymbol{BD} \rvert}{\lvert \boldsymbol{AC} \rvert \lvert \boldsymbol{BD} \rvert}=\frac{24}{6 \times 8}=\frac{1}{2}$.
+
+Hence $\theta=60^\circ$. $\blacksquare$
 
 ## Exercise 8
 
-(Exercise 9.2, Problem 8) Using the frequency distribution histogram of residents' average monthly water use that you drew (textbook Figure 9.2-2), estimate the 80th and 95th percentiles of the data on all residents' average monthly water use in the city. Compare these histogram estimates with the corresponding percentiles computed directly from the raw data; can they estimate the population percentiles well?
+(Exercise 1.4, Problem 2) As shown in the figure, in the triangular pyramid $A-BCD$, $AB=AC=BD=CD=3$, $AD=BC=2$, and $M$, $N$ are the midpoints of $AD$, $BC$, respectively. Find the cosine of the angle between the skew lines $AN$ and $CM$.
 
-(Figure: textbook Figure 9.2-2, a frequency distribution histogram of residents' average monthly water use; horizontal axis = average monthly water use ($\mathrm{t}$), vertical axis = frequency/class-width.)
+The figure is a view of the triangular pyramid $A-BCD$: $AB=AC=BD=CD=3$, $AD=BC=2$; $M$ is the midpoint of edge $AD$, $N$ is the midpoint of edge $BC$, and segments $AN$ and $CM$ are drawn.
 
 ### Solution to Exercise 8
 
-By **Definition 9.2.2 (The $p$-th Percentile)** and **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)**.
+By **Common Conclusion 1.4.7** (Angle between Skew Lines).
 
-In the frequency distribution histogram, accumulate the areas (relative frequencies) of the small rectangles from the left, find the group where the cumulative relative frequency first reaches $80\%$ and $95\%$, then interpolate proportionally within the group to estimate the 80th and 95th percentiles.
+Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$. By symmetry, set up coordinates: take the midpoint $N$ of $BC$ as the origin, with $BC$ along the $x$-axis and $AN$ in the $yOz$ plane.
 
-The percentile estimated from the histogram will differ somewhat from the percentile computed directly from the raw data, because the histogram loses information about the distribution within each group. But as long as the grouping is reasonable, the histogram estimate and the value computed from the raw data differ little, and it can estimate the population percentiles fairly well. $\blacksquare$
+$B\left(-1,0,0\right)$, $C\left(1,0,0\right)$, $N\left(0,0,0\right)$. $AB=AC=3$, $BC=2$, so $AN=\sqrt{9-1}=2\sqrt{2}$. Set $A\left(0,2\sqrt{2},0\right)$.
+
+$AD=2$, $BD=CD=3$; similarly $D$ lies in the plane perpendicular to $BC$, $D\left(0,y,z\right)$. From $BD=3$, $1+y^2+z^2=9$, i.e. $y^2+z^2=8$. From $AD=2$, $\left(2\sqrt{2}-y\right)^2+z^2=4$. Expanding: $8-4\sqrt{2}y+y^2+z^2=4$, i.e. $8-4\sqrt{2}y+8=4$, and $y=\frac{12}{4\sqrt{2}}=\frac{3\sqrt{2}}{2}$. $z^2=8-\frac{9 \times 2}{4}=8-\frac{9}{2}=\frac{7}{2}$.
+
+$M$ is the midpoint of $AD$: $M\left(0, \frac{2\sqrt{2}+\frac{3\sqrt{2}}{2}}{2}, \frac{z}{2}\right)=\left(0, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
+
+$\boldsymbol{AN}=N-A=\left(0,-2\sqrt{2},0\right)$.
+
+$\boldsymbol{CM}=M-C=\left(-1, \frac{7\sqrt{2}}{4}, \frac{z}{2}\right)$.
+
+$\boldsymbol{AN} \cdot \boldsymbol{CM}=0+\left(-2\sqrt{2}\right) \times \frac{7\sqrt{2}}{4}+0=-\frac{28}{4}=-7$.
+
+$\lvert \boldsymbol{AN} \rvert=2\sqrt{2}$.
+
+$\lvert \boldsymbol{CM} \rvert=\sqrt{1+\frac{49 \times 2}{16}+\frac{7}{8}}=\sqrt{1+\frac{49}{8}+\frac{7}{8}}=\sqrt{\frac{64}{8}}=\sqrt{8}=2\sqrt{2}$.
+
+$\cos\theta=\frac{7}{2\sqrt{2} \times 2\sqrt{2}}=\frac{7}{8}$. $\blacksquare$
 
 ## Exercise 9
 
-(Exercise 9.2, Problem 9) In Example 1 of this section, a set of 30 days of air quality index (Table 9.2-2) is
+(Exercise 1.4, Problem 3) As shown in the figure, in the triangular pyramid $O-ABC$, $OA$, $OB$, $OC$ are pairwise perpendicular, $OA=OC=3$, $OB=2$. Find the sine of the angle between line $OB$ and the plane $ABC$.
 
-$87,90,90,102,126,138,158,163,170,172,71,76,88,93,94,104,160,180,200,220,75,80,80,90,105,125,165,178,188,190$.
-
-Find the mean, median and 80th percentile of this data set respectively, and explain their meaning.
+The figure is a view of the triangular pyramid $O-ABC$: the three lateral edges $OA$, $OB$, $OC$ are pairwise perpendicular, with $OA=OC=3$ and $OB=2$, and the base is $\triangle ABC$.
 
 ### Solution to Exercise 9
 
-By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.2 (The $p$-th Percentile)**.
+By **Common Conclusion 1.4.8** (Angle between a Line and a Plane).
 
-Mean: the sum of the data is $87+90+\cdots+190=3858$, so
+Take $O$ as the origin, with $OA$ as the $x$-axis, $OB$ as the $y$-axis, and $OC$ as the $z$-axis.
 
-$$
-\overline x=\frac{3858}{30}=128.6.
-$$
+$A\left(3,0,0\right)$, $B\left(0,2,0\right)$, $C\left(0,0,3\right)$.
 
-Arrange the 30 data in ascending order. 80th percentile: $i=30\times80\%=24$, an integer, so the 80th percentile is the average of the 24th and 25th numbers, namely
+Plane $ABC$: $\boldsymbol{AB}=\left(-3,2,0\right)$, $\boldsymbol{AC}=\left(-3,0,3\right)$.
 
-$$
-\frac{172+178}{2}=175.
-$$
+Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(6,9,6\right)=3\left(2,3,2\right)$.
 
-The median is the average of the 15th and 16th numbers, namely
+$\boldsymbol{OB}=\left(0,2,0\right)$.
 
-$$
-\frac{105+125}{2}=115.
-$$
-
-The mean $128.6$ reflects the average level of the air quality index over these 30 days; the median $115$ means that half of the days have an air quality index no greater than $115$; the 80th percentile $175$ means that about $80\%$ of the days have an air quality index no greater than $175$. The mean is greater than the median, which shows that a few large values in the data pull the mean up. $\blacksquare$
-
-## Exercise 10
-
-(Exercise 9.2, Problem 10) Below is a passage from a report:
-
-"According to statistics, the per-capita annual disposable income of residents in a certain city in 2015 was 27348 yuan, while the per-capita annual wage income of employees in a certain industry was 125620 yuan. Someone thinks that the city residents' per-capita annual disposable income has been underestimated."
-
-Do you think this statement makes sense? Why?
-
-### Solution to Exercise 10
-
-By **Definition 9.2.3 (Mode, Median and Mean)**.
-
-This statement does not make sense. The city residents' per-capita annual disposable income is a mean computed over all residents, while the per-capita annual wage income of employees in a certain industry involves only that industry's employees; the population scopes of the two are completely different.
-
-The wage level of employees in a certain industry (such as finance or the Internet) may well be far above the city residents' average; comparing this group's high income with the average income of all residents does not show that the residents' per-capita disposable income is underestimated. The mean is easily affected by extreme values, and means from different groups cannot be directly compared. $\blacksquare$
-
-## Exercise 11
-
-(Exercise 9.2, Problem 11) In a speech contest, the judges score each contestant from three aspects: speech content, speaking ability, and presentation effect; each score is on a 100-point scale. Then the contestant's overall score (100-point scale) is computed with weights: speech content $50\%$, speaking ability $40\%$, presentation effect $10\%$. The individual scores of the top two finalists are shown in the table below.
-
-Contestant A: speech content 95, speaking ability 85, presentation effect 95; Contestant B: speech content 85, speaking ability 95, presentation effect 95.
-
-Please determine the rankings of the two. In this problem, what is the relationship between the size of the mean and the weights of the items?
-
-### Solution to Exercise 11
-
-By **Definition 9.2.3 (Mode, Median and Mean)**, the weighted mean is the sum of each data value multiplied by its corresponding weight.
-
-Contestant A's overall score is
-
-$$
-95\times50\%+85\times40\%+95\times10\%=47.5+34+9.5=91.
-$$
-
-Contestant B's overall score is
-
-$$
-85\times50\%+95\times40\%+95\times10\%=42.5+38+9.5=90.
-$$
-
-Because $91> 90$, Contestant A is first and Contestant B is second.
-
-In a weighted mean, the size of the mean depends not only on the data values themselves but also on their weights; the larger the weight of an item, the greater its influence on the mean. Here speech content has the largest weight, so A's high score in speech content makes A's overall score surpass B, who has stronger speaking ability. $\blacksquare$
+$\sin\theta=\frac{\lvert \boldsymbol{OB} \cdot \boldsymbol{n} \rvert}{\lvert \boldsymbol{OB} \rvert \lvert \boldsymbol{n} \rvert}=\frac{18}{2 \times \sqrt{4+9+4}}=\frac{18}{2 \times \sqrt{17}}=\frac{9}{\sqrt{17}}=\frac{9\sqrt{17}}{17}$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 9.2, Review and Consolidation, Problem 1) The fiber length of cotton is an important indicator of cotton quality. In a batch of cotton, 60 fibers are randomly measured for their length (unit: $\mathrm{mm}$) and sorted in ascending order.
+(Exercise 1.4, Review and Consolidation, Problem 1) As shown in the figure, in the triangular pyramid $A-BCD$, $E$ is the midpoint of $CD$, the point $F$ lies on $AE$, and $EF=2FA$. Set $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, $\boldsymbol{BA}=\boldsymbol{c}$. Find the direction vectors of lines $AE$ and $BF$.
 
-(1) Please choose an appropriate class width, make a frequency distribution histogram of this sample, and analyze the characteristics of the distribution of this batch of cotton fiber lengths;
-
-(2) Please estimate the 5th and 95th percentiles of this batch of cotton.
-
-(Figure: a frequency distribution histogram of cotton fiber length; horizontal axis = fiber length ($\mathrm{mm}$), data range $25\sim385$, class width $60$; vertical axis = frequency/class-width; the distribution is unimodal with a long tail to the right.)
+The figure is a view of the triangular pyramid $A-BCD$: $E$ is the midpoint of edge $CD$, point $F$ lies on the median $AE$ with $EF=2FA$ (i.e. $AF:FE=1:2$), and segment $BF$ is drawn.
 
 ### Solution to Problem 1
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.2.2 (The $p$-th Percentile)**.
+By **Definition 1.4.1 (Direction Vector of a Line)**.
 
-(1) The minimum data value is 25, the maximum is 385, and the range is 360. Taking a class width of 60, divide the data into several groups, list the frequency distribution table, and draw the frequency distribution histogram. One can see that this batch of cotton fiber lengths has a unimodal distribution, but with a long tail to the right, i.e. a few fibers are very long.
+$\boldsymbol{AE}=\boldsymbol{AB}+\boldsymbol{BE}=-\boldsymbol{c}+\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$.
 
-(2) The data are already arranged in ascending order, 60 in total. 5th percentile: $i=60\times5\%=3$, an integer, being the average of the 3rd and 4th numbers, namely $\frac{33+50}{2}=41.5$. 95th percentile: $i=60\times95\%=57$, an integer, being the average of the 57th and 58th numbers, namely $\frac{370+380}{2}=375$.
+$EF=2FA$, so $AF:FE=1:2$, and $F$ lies on $AE$ with $\boldsymbol{AF}=\frac{1}{3}\boldsymbol{AE}$.
 
-Hence the estimated 5th percentile is $41.5\,\mathrm{mm}$ and the 95th percentile is $375\,\mathrm{mm}$. $\blacksquare$
+$\boldsymbol{BF}=\boldsymbol{BA}+\boldsymbol{AF}=\boldsymbol{c}+\frac{1}{3}\boldsymbol{AE}=\boldsymbol{c}+\frac{1}{3}\left(-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}\right)=\frac{2}{3}\boldsymbol{c}+\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}$.
+
+Hence the direction vector of line $AE$ is $-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$, and the direction vector of line $BF$ is $\frac{1}{6}\boldsymbol{a}+\frac{1}{6}\boldsymbol{b}+\frac{2}{3}\boldsymbol{c}$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 9.2, Review and Consolidation, Problem 2) Two machines, A and B, produce the same part simultaneously. Over 10 days, the numbers of defective parts produced by the two machines each day are:
+(Exercise 1.4, Review and Consolidation, Problem 2) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $AB \perp AC$, $AB=AC=1$, $AA_1=2$. Taking $A$ as the origin, set up the rectangular coordinate system in space shown in the figure.
 
-A: $0,1,0,2,2,0,3,1,2,4$; B: $2,3,1,1,0,2,1,1,0,1$.
+(1) Find a normal vector of the plane $BCC_1B_1$;
 
-Compute the mean and standard deviation of these two sets of data respectively; from the results, which machine performs better?
+(2) Find a normal vector of the plane $A_1BC$.
+
+The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BAC=90^\circ$, $AB=AC=1$, and the lateral edge $AA_1=2$ is perpendicular to the base; a rectangular coordinate system is set up with $A$ as the origin, $AB$ as the $x$-axis, $AC$ as the $y$-axis, and $AA_1$ as the $z$-axis.
 
 ### Solution to Problem 2
 
-By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+By **Definition 1.4.2 (Normal Vector of a Plane)**.
 
-Machine A's mean is
+$A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(0,1,0\right)$, $A_1\left(0,0,2\right)$, $B_1\left(1,0,2\right)$, $C_1\left(0,1,2\right)$.
 
-$$
-\overline x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
-$$
+(1) Plane $BCC_1B_1$: $\boldsymbol{BC}=\left(-1,1,0\right)$, $\boldsymbol{CC_1}=\left(0,0,2\right)$.
 
-the variance is $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, and the standard deviation is $s_{\text{甲}}\approx1.28$.
+Let $\boldsymbol{n}_1=\left(x,y,z\right)$; $\boldsymbol{n}_1 \cdot \boldsymbol{BC}=-x+y=0$, $\boldsymbol{n}_1 \cdot \boldsymbol{CC_1}=2z=0$. Taking $x=1$ gives $\boldsymbol{n}_1=\left(1,1,0\right)$.
 
-Machine B's mean is
+(2) Plane $A_1BC$: $\boldsymbol{A_1B}=\left(1,0,-2\right)$, $\boldsymbol{A_1C}=\left(0,1,-2\right)$.
 
-$$
-\overline x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
-$$
-
-the variance is $s_{\text{乙}}^2=\frac{7.6}{10}=0.76$, and the standard deviation is $s_{\text{乙}}\approx0.87$.
-
-Machine B produces fewer defectives per day on average and has a smaller standard deviation, so its performance is more stable; hence machine B performs better. $\blacksquare$
+Let $\boldsymbol{n}_2=\left(x,y,z\right)$; $\boldsymbol{n}_2 \cdot \boldsymbol{A_1B}=x-2z=0$, $\boldsymbol{n}_2 \cdot \boldsymbol{A_1C}=y-2z=0$. Taking $z=1$ gives $\boldsymbol{n}_2=\left(2,2,1\right)$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 9.2, Review and Consolidation, Problem 3) In last year's football league, team A conceded on average 1.5 goals per game, with a standard deviation of 1.1 in the number of goals conceded over the year; team B conceded on average 2.1 goals per game, with a standard deviation of 0.4. Which of the following statements do you think is correct, and why?
+(Exercise 1.4, Review and Consolidation, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A_1B_1C_1D_1$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $C_1D_1$. Prove that $A_1E \parallel CF$.
 
-(1) On average, team A's defense is better than team B's;
-
-(2) Team B's performance is more stable than team A's;
-
-(3) Team A sometimes defends poorly and sometimes very well;
-
-(4) Team B rarely fails to concede.
+The figure is a view of the parallelepiped $ABCD-A_1B_1C_1D_1$: $E$ is the midpoint of edge $AB$, $F$ is the midpoint of edge $C_1D_1$, and segments $A_1E$ and $CF$ are drawn.
 
 ### Solution to Problem 3
 
-By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
 
-(1) Correct. Team A concedes 1.5 on average, less than team B's 2.1; on average team A concedes fewer goals and defends better.
+Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA_1}=\boldsymbol{c}$.
 
-(2) Correct. Team B's standard deviation of goals conceded, 0.4, is less than team A's 1.1, showing that team B's goals conceded per game are more consistent and its performance is more stable.
+$\boldsymbol{A_1E}=\boldsymbol{A_1A}+\boldsymbol{AE}=-\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}$.
 
-(3) Correct. Team A's standard deviation 1.1 is large, showing that the number of goals conceded fluctuates greatly—sometimes conceding very few (good performance), sometimes conceding many (poor performance).
+$\boldsymbol{CF}=\boldsymbol{CD}+\boldsymbol{DD_1}+\boldsymbol{D_1F}=-\boldsymbol{a}+\boldsymbol{c}+\frac{1}{2}\boldsymbol{a}=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{c}=-\left(\frac{1}{2}\boldsymbol{a}-\boldsymbol{c}\right)=-\boldsymbol{A_1E}$.
 
-(4) Correct. Team B concedes on average 2.1 goals per game with a standard deviation of only 0.4, showing that it concedes about 2 goals each game and rarely fails to concede.
+Hence $\boldsymbol{A_1E}=-\boldsymbol{CF}$, i.e. $\boldsymbol{A_1E} \parallel \boldsymbol{CF}$.
 
-All four statements are correct; they describe the two teams' defense from the two angles of mean and standard deviation. $\blacksquare$
+By **Common Conclusion 1.4.3**, $A_1E \parallel CF$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 9.2, Review and Consolidation, Problem 4) The variance and standard deviation of the data $x_1,x_2,\cdots,x_n$ are $s_x^2,s_x$ respectively, and those of the data $y_1,y_2,\cdots,y_n$ are $s_y^2,s_y$. If $y_i=ax_i+b$ holds, with $a,b$ constants, prove that $s_y^2=a^2s_x^2$, $s_y=\left|a\right|s_x$.
+(Exercise 1.4, Review and Consolidation, Problem 4) As shown in the figure, in the tetrahedron $ABCD$, $AD \perp$ the plane $BCD$, $M$ is the midpoint of $AD$, and $P$ is the midpoint of $BM$. The point $Q$ lies on segment $AC$ with $AQ=3QC$. Prove that $PQ \parallel$ the plane $BCD$.
+
+The figure is a view of the tetrahedron $ABCD$: $AD \perp$ the plane $BCD$ ($AD$ vertical, base $BCD$ horizontal); $M$ is the midpoint of edge $AD$, $P$ is the midpoint of segment $BM$, point $Q$ lies on edge $AC$ with $AQ:QC=3:1$, and segment $PQ$ is drawn.
 
 ### Solution to Problem 4
 
-By **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance).
+By **Common Conclusion 1.4.3** (Describing Parallelism with Vectors).
 
-Because $y_i=ax_i+b$, by **Common Result 9.2.6**, $\overline y=a\overline x+b$, so $y_i-\overline y=a\left(x_i-\overline x\right)$. Thus
+Take $D$ as the origin, with two perpendicular directions in the plane $BCD$ as the $x$- and $y$-axes, and $DA$ as the $z$-axis.
 
-$$
-s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline x\right)^2=a^2s_x^2,
-$$
+Set $A\left(0,0,a\right)$, $B\left(b,0,0\right)$, $C\left(0,c,0\right)$, $D\left(0,0,0\right)$.
 
-and hence $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. This proves the original identity. $\blacksquare$
+$M$ is the midpoint of $AD$: $M\left(0,0,\frac{a}{2}\right)$.
+
+$P$ is the midpoint of $BM$: $P\left(\frac{b}{2}, 0, \frac{a}{4}\right)$.
+
+$AQ=3QC$, so $Q=\frac{1 \cdot A+3 \cdot C}{4}=\left(0, \frac{3c}{4}, \frac{a}{4}\right)$.
+
+$\boldsymbol{PQ}=Q-P=\left(-\frac{b}{2}, \frac{3c}{4}, 0\right)$.
+
+The plane $BCD$ is the $z=0$ plane, whose normal vector is $\left(0,0,1\right)$.
+
+$\boldsymbol{PQ} \cdot \left(0,0,1\right)=0$, i.e. $\boldsymbol{PQ} \perp$ the normal vector.
+
+Moreover $PQ \not\subset$ the plane $BCD$ (since the $z$-coordinates of $P$, $Q$ are nonzero, but the $z$-component of $\boldsymbol{PQ}$ is zero), so $PQ \parallel$ the plane $BCD$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 9.2, Review and Consolidation, Problem 5) The data $x_1,x_2,\cdots,x_n$ have variance $s^2=0$. Prove that all the $x_i$ ($i=1,2,\cdots,n$) are equal.
+(Exercise 1.4, Review and Consolidation, Problem 5) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, the point $E$ lies on $BD$ with $BE=\frac{1}{3}BD$; the point $F$ lies on $CB_1$ with $CF=\frac{1}{3}CB_1$. Prove:
+
+(1) $EF \perp BD$;
+
+(2) $EF \perp CB_1$.
+
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: point $E$ lies on the face diagonal $BD$ with $BE=\frac{1}{3}BD$, point $F$ lies on the face diagonal $CB_1$ with $CF=\frac{1}{3}CB_1$, and segment $EF$ is drawn.
 
 ### Solution to Problem 5
 
-By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
 
-From $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0$,
+Let the edge length of the cube be $1$, with $D$ as the origin, $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-$$
-\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0.
-$$
+$B\left(1,1,0\right)$, $D\left(0,0,0\right)$, $C\left(0,1,0\right)$, $B_1\left(1,1,1\right)$.
 
-Each term $\left(x_i-\overline x\right)^2\ge0$, and their sum is 0, so every term is 0, i.e. $x_i-\overline x=0$, $x_i=\overline x$ for all $i$. Hence all the $x_i$ are equal. $\blacksquare$
+$BE=\frac{1}{3}BD$, so $E=B+\frac{1}{3}\left(D-B\right)=\left(\frac{2}{3}, \frac{2}{3}, 0\right)$.
+
+$CF=\frac{1}{3}CB_1$, so $F=C+\frac{1}{3}\left(B_1-C\right)=\left(\frac{1}{3}, 1, \frac{1}{3}\right)$.
+
+$\boldsymbol{EF}=F-E=\left(-\frac{1}{3}, \frac{1}{3}, \frac{1}{3}\right)$.
+
+(1) $\boldsymbol{BD}=D-B=\left(-1,-1,0\right)$.
+
+$\boldsymbol{EF} \cdot \boldsymbol{BD}=\frac{1}{3}-\frac{1}{3}+0=0$. Hence $EF \perp BD$.
+
+(2) $\boldsymbol{CB_1}=B_1-C=\left(1,0,1\right)$.
+
+$\boldsymbol{EF} \cdot \boldsymbol{CB_1}=-\frac{1}{3}+0+\frac{1}{3}=0$. Hence $EF \perp CB_1$. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 9.2, Comprehensive Application, Problem 6) Past admissions statistics show that the median total Gaokao score of the freshmen admitted by a certain university has basically stabilized at 550. A high-school alumnus of yours scored 520 in this year's Gaokao. Do you immediately dissuade him from applying to this university, or first look up other statistical information about this university's past admissions? Explain your choice.
+(Exercise 1.4, Review and Consolidation, Problem 6) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$, $O$ is the center of the square $A_1ABB_1$ and $E$ is the midpoint of $BC$. Find the distance from point $O$ to the line $A_1E$.
+
+The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$ of edge length $1$: $O$ is the center of the side square $A_1ABB_1$, $E$ is the midpoint of edge $BC$, and segment $A_1E$ is drawn.
 
 ### Solution to Problem 6
 
-By **Definition 9.2.2 (The $p$-th Percentile)** and **Definition 9.2.3 (Mode, Median and Mean)**.
+By **Common Conclusion 1.4.5** (Distance from a Point to a Line).
 
-One should first look up other statistical information about this university's past admissions, rather than immediately dissuading him.
+Take $D$ as the origin, with $DA$ as the $x$-axis, $DC$ as the $y$-axis, and $DD_1$ as the $z$-axis.
 
-The median Gaokao score of admitted freshmen stabilizing at 550 shows that half of the admitted freshmen score above 550 and half below. The alumnus scored 520, below the median, but the median is only one percentile and cannot by itself determine whether he will be admitted. One should also look up information such as the university's historical minimum admission score, average admission score, and that year's enrollment plan, and only after a comprehensive judgment give the alumnus advice. $\blacksquare$
+$A_1\left(1,0,1\right)$, $E\left(\frac{1}{2}, 1, 0\right)$, and $O$ is the center of the square $A_1ABB_1$: $O\left(1, \frac{1}{2}, \frac{1}{2}\right)$.
+
+$\boldsymbol{A_1E}=E-A_1=\left(-\frac{1}{2}, 1, -1\right)$.
+
+$\boldsymbol{A_1O}=O-A_1=\left(0, \frac{1}{2}, -\frac{1}{2}\right)$.
+
+$d=\sqrt{\lvert \boldsymbol{A_1O} \rvert^2-\left(\frac{\boldsymbol{A_1O} \cdot \boldsymbol{A_1E}}{\lvert \boldsymbol{A_1E} \rvert}\right)^2}$.
+
+$\lvert \boldsymbol{A_1O} \rvert^2=0+\frac{1}{4}+\frac{1}{4}=\frac{1}{2}$.
+
+$\boldsymbol{A_1O} \cdot \boldsymbol{A_1E}=0+\frac{1}{2}+\frac{1}{2}=1$.
+
+$\lvert \boldsymbol{A_1E} \rvert=\sqrt{\frac{1}{4}+1+1}=\frac{3}{2}$.
+
+$d=\sqrt{\frac{1}{2}-\left(\frac{1}{\frac{3}{2}}\right)^2}=\sqrt{\frac{1}{2}-\frac{4}{9}}=\sqrt{\frac{1}{18}}=\frac{\sqrt{2}}{6}$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 9.2, Comprehensive Application, Problem 7) The sorted math-examination scores of two classes, A and B, are as follows. Based on this examination, please evaluate the math-learning situation of the two classes.
+(Exercise 1.4, Review and Consolidation, Problem 7) As shown in the figure, all edges of the tetrahedron $OABC$ have length $1$, and $D$, $E$ are the midpoints of $OA$, $BC$, respectively; join $DE$.
+
+(1) Compute the length of $DE$;
+
+(2) Find the distance from point $O$ to the plane $ABC$.
+
+The figure is a view of the regular tetrahedron $OABC$: all six edges have length $1$; $D$ is the midpoint of edge $OA$, $E$ is the midpoint of edge $BC$, and segment $DE$ is drawn.
 
 ### Solution to Problem 7
 
-By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+By **Common Conclusion 1.3.6** (Distance Formula between Two Points in Space) and **Common Conclusion 1.4.6** (Distance from a Point to a Plane).
 
-Class A's 40 students score from 51 (lowest) to 100 (highest), with a median of about 81; class B's 40 students score from 61 (lowest) to 98 (highest), with a median of about 82.5.
+The regular tetrahedron has edge length $1$.
 
-In terms of central tendency, class B's median is slightly higher than class A's. In terms of dispersion, class A's scores span widely from 51 to 100, showing a clear polarization; class B's scores cluster between 61 and 98, with few in either the high or low segments, so the scores are fairly uniform.
+(1) Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, with pairwise angles $60^\circ$ and modulus $1$.
 
-Overall, class B is slightly higher in overall level and uniform in scores; class A, though it has high scores, also has many low scores, with clear polarization. $\blacksquare$
+$\boldsymbol{DE}=\boldsymbol{OE}-\boldsymbol{OD}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}=\frac{1}{2}\left(-\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$.
+
+$\lvert \boldsymbol{DE} \rvert^2=\frac{1}{4}\left(\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2-2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{b} \cdot \boldsymbol{c}-2\boldsymbol{a} \cdot \boldsymbol{c}\right)=\frac{1}{4}\left(1+1+1-1+1-1\right)=\frac{1}{4} \times 2=\frac{1}{2}$.
+
+Hence $DE=\frac{\sqrt{2}}{2}$.
+
+(2) The normal vector of plane $ABC$ is $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \times \left(\boldsymbol{c}-\boldsymbol{a}\right)=\boldsymbol{b} \times \boldsymbol{c}-\boldsymbol{b} \times \boldsymbol{a}-\boldsymbol{a} \times \boldsymbol{c}$.
+
+Compute using coordinates: $A\left(1,0,0\right)$, $B\left(\frac{1}{2},\frac{\sqrt{3}}{2},0\right)$, $C\left(-\frac{1}{2},\frac{\sqrt{3}}{6},\frac{\sqrt{6}}{3}\right)$, $O\left(0,0,0\right)$.
+
+Normal vector $\boldsymbol{n}=\boldsymbol{AB} \times \boldsymbol{AC}=\left(-\frac{\sqrt{3}}{2} \cdot \frac{\sqrt{6}}{3}, -\frac{1}{2} \cdot \frac{\sqrt{6}}{3}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right), \frac{1}{2} \cdot \frac{\sqrt{3}}{6}-\frac{\sqrt{3}}{2} \cdot \left(-\frac{1}{2}\right)\right)$.
+
+$d=\frac{\sqrt{6}}{3}$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 9.2, Comprehensive Application, Problem 8) One species of fish absorbs mercury through its body; fish whose mercury content exceeds $1.00\times10^{-6}$ of their body weight will harm humans when eaten. The mercury content (parts per million) found in a sample of 30 fish is as follows:
+(Exercise 1.4, Comprehensive Application, Problem 8) As shown in the figure, every edge of the tetrahedron $ABCD$ has length $a$, and $M$, $N$ are the midpoints of $AB$, $CD$, respectively. Prove that $MN \perp AB$ and $MN \perp CD$.
 
-$0.07,0.24,0.95,0.98,1.02,0.98,1.37,1.40,0.39,1.02,1.44,1.58,0.54,1.08,0.61,0.72,1.20,1.14,1.62,1.68,1.85,1.20,0.81,0.82,0.84,1.29,1.26,2.10,0.91,1.31$.
-
-(1) Please describe the above data with an appropriate statistical graph and analyze the distribution characteristics of the mercury content of these 30 fish;
-
-(2) Find the mean and standard deviation of the above sample data;
-
-(3) In practice, the reason many fish exceed the mercury limit is that these fish were not tested before sale. Do you think the average mercury content of every batch of this fish is greater than $1.00\times10^{-6}$?
-
-(4) In the above sample, how many fish have mercury content within 2 standard deviations centered at the mean?
+The figure is a view of the regular tetrahedron $ABCD$: all six edges have length $a$; $M$ is the midpoint of edge $AB$, $N$ is the midpoint of edge $CD$, and segment $MN$ is drawn.
 
 ### Solution to Problem 8
 
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
+By **Common Conclusion 1.4.4** (Describing Perpendicularity with Vectors).
 
-(1) Group the 30 mercury-content data and draw a frequency distribution histogram. One can see that the data roughly cluster between $0.8\sim1.6$, with a right tail, and a few fish have notably high mercury content.
+The regular tetrahedron has edge length $a$. Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, $\boldsymbol{AD}=\boldsymbol{c}$.
 
-(2) The sample mean is
+$M$ is the midpoint of $AB$, and $N$ is the midpoint of $CD$.
 
-$$
-\overline x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
-$$
+$\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{2}\left(\boldsymbol{b}+\boldsymbol{c}\right)-\frac{1}{2}\boldsymbol{a}$.
 
-the sample variance is approximately $0.2043$, and the sample standard deviation is $s\approx0.45$.
+$\boldsymbol{MN} \cdot \boldsymbol{AB}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \boldsymbol{a}=\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a}^2$.
 
-(3) One cannot conclude that the average mercury content of every batch of this fish is greater than $1.00\times10^{-6}$. Because the sample is random, different batches of fish may have different mercury content, and this sample's mean is only an estimate for this batch.
+In a regular tetrahedron, $\boldsymbol{a} \cdot \boldsymbol{b}=\frac{a^2}{2}$, $\boldsymbol{a} \cdot \boldsymbol{c}=\frac{a^2}{2}$, and $\boldsymbol{a}^2=a^2$.
 
-(4) The interval $\left[\overline x-2s,\overline x+2s\right]$ is approximately $\left[0.18,1.98\right]$. Counting one by one, except for $0.07$ and $2.10$, the mercury content of the remaining 28 fish lies in this interval. Hence about 28 fish. $\blacksquare$
+Hence $\boldsymbol{MN} \cdot \boldsymbol{AB}=\frac{1}{2} \cdot \frac{a^2}{2}+\frac{1}{2} \cdot \frac{a^2}{2}-\frac{1}{2}a^2=\frac{a^2}{4}+\frac{a^2}{4}-\frac{a^2}{2}=0$.
 
-## Problem 9
+Hence $MN \perp AB$.
 
-(Exercise 9.2, Comprehensive Application, Problem 9) At a job fair, a company recruiter tells you, "Our company's income level is very high"; "last year, among the 50 employees, the highest annual income reached 2 million, and the mean annual employee income is 100 thousand", while your expectation is an annual salary of 90 thousand.
+Similarly, $\boldsymbol{MN} \cdot \boldsymbol{CD}=\left(\frac{1}{2}\boldsymbol{b}+\frac{1}{2}\boldsymbol{c}-\frac{1}{2}\boldsymbol{a}\right) \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{b}^2+\frac{1}{2}\boldsymbol{c}^2-\frac{1}{2}\boldsymbol{b} \cdot \boldsymbol{c}-\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{c}+\frac{1}{2}\boldsymbol{a} \cdot \boldsymbol{b}=-\frac{a^2}{2}+\frac{a^2}{2}-\frac{a^2}{4}+\frac{a^2}{4}=0$.
 
-(1) Can you determine whether an employee with an annual salary of 90 thousand counts as a high earner in this company?
-
-(2) If the recruiter continues to tell you, "the range of annual employee income is from 30 thousand to 2 million", is this information enough for you to decide whether to accept the offer? Why?
-
-(3) If the recruiter further gives you the information that the first quartile of employee income is 45 thousand and the third quartile is 95 thousand, how would you use this information to decide whether to accept the offer?
-
-(4) Based on the information in (3), can you estimate the median of the company's employee income? Why is the mean much higher than the estimated median?
-
-### Solution to Problem 9
-
-By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.2 (The $p$-th Percentile)**.
-
-(1) Cannot determine. Knowing only the mean 100 thousand and the maximum 2 million, without knowing where 90 thousand stands among all employees' incomes, one cannot judge whether 90 thousand counts as high income.
-
-(2) Not enough to decide. The mean 100 thousand is pulled up by the extreme value of 2 million, and most employees' income may be far below 100 thousand. With only the range and the mean, one still does not know what level a salary of 90 thousand would be.
-
-(3) First quartile 45 thousand, third quartile 95 thousand. This shows that about $75\%$ of employees have annual income no greater than 95 thousand, and your expectation of 90 thousand is close to the third quartile. If hired, your income is expected to be higher than about $75\%$ of employees; this information is fairly useful.
-
-(4) The median lies between the first and third quartiles, about 70 thousand. The mean 100 thousand is far above the median because the extreme value of 2 million pulls the mean up. This shows exactly that the mean is easily affected by extreme values; in skewed distributions such as income, the median better represents employees' typical income level. $\blacksquare$
-
-## Problem 10
-
-(Exercise 9.2, Comprehensive Application, Problem 10) There are 20 kinds of snacks; the energy (unit: $\mathrm{kJ}$) contained in each $100\,\mathrm{g}$ of edible portion is as follows:
-
-$110,120,123,165,432,190,174,235,428,318,249,280,162,146,210,120,123,120,150,140$.
-
-(1) Taking these 20 data as the population, find the population mean and population standard deviation;
-
-(2) Design an appropriate random sampling method, draw a sample of size 7 from the population, and find the sample's mean and standard deviation;
-
-(3) Using the above sampling method, draw another sample of size 7 and compute its mean and standard deviation. Are this sample's mean and standard deviation the same as in (2)? Why?
-
-(4) Using the random sampling method in (2), draw samples of sizes 10, 13, 16, 19 from the population, and find each sample's mean and standard deviation. Analyze the relationship between sample size and how well the sample's mean and standard deviation estimate the population.
-
-### Solution to Problem 10
-
-By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)** and **Definition 9.1.4 (Population Mean and Sample Mean)**.
-
-(1) The population mean is
-
-$$
-\overline x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
-$$
-
-and the population standard deviation is approximately $95.26$.
-
-(2) Number the 20 snacks $1\sim20$, use the random-number method to draw 7 without replacement, and compute the sample mean and standard deviation from the selected data. Different sampling results generally differ.
-
-(3) Draw once more; the sample mean and standard deviation generally differ from (2), because the sample is drawn randomly and the sample mean and sample standard deviation are also random.
-
-(4) Draw samples of sizes 10, 13, 16, 19 respectively and compute their means and standard deviations. One can observe that the larger the sample size, the closer the sample mean is to the population mean $199.75$ and the closer the sample standard deviation is to the population standard deviation $95.26$; i.e. the larger the sample size, the better the sample estimates the population. $\blacksquare$
-
-## Problem 11
-
-(Exercise 9.2, Extension and Exploration, Problem 11) Given that the population is divided into 3 strata, by stratified random sampling the sample size, sample mean and sample variance drawn from each stratum are: $l,\overline x,s_1^2$; $m,\overline y,s_2^2$; $n,\overline z,s_3^2$. Let the total sample mean be $\overline w$ and the sample variance be $s^2$. Prove:
-
-(1) $\overline w=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z$;
-
-(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}$.
-
-### Solution to Problem 11
-
-By **Common Result 9.2.5** (Total Variance of Stratified Random Sampling) and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
-
-(1) The sums of the three strata's data are $l\overline x,m\overline y,n\overline z$ respectively, and the total number of data is $l+m+n$, so the total sample mean is
-
-$$
-\overline w=\frac{l\overline x+m\overline y+n\overline z}{l+m+n}=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
-$$
-
-(2) For the 1st stratum, $\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline x\right)+\left(\overline x-\overline w\right)\right]^2$. After expansion, the cross term $2\left(\overline x-\overline w\right)\sum_{i=1}^{l}\left(x_i-\overline x\right)=0$, so
-
-$$
-\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left(x_i-\overline x\right)^2+l\left(\overline x-\overline w\right)^2=ls_1^2+l\left(\overline x-\overline w\right)^2.
-$$
-
-The same holds for the 2nd and 3rd strata. Thus
-
-$$
-s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}.
-$$
-
-This proves the original identity. $\blacksquare$
-
-## Problem 12
-
-(Exercise 9.2, Extension and Exploration, Problem 12) Survey the electricity use of every student's family in your class over the same week. What information can you find? Write a short statistical report explaining what you found.
-
-### Solution to Problem 12
-
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and **Definition 9.2.3 (Mode, Median and Mean)**.
-
-Collect the weekly electricity-use data for every student's family in the class, draw a frequency distribution histogram, and compute the mean, median and standard deviation.
-
-One can find: most families' weekly electricity use clusters in a certain range, while a few families' use is notably high or low; use the mean and median to describe the typical level of electricity use, and the standard deviation to describe the differences among families. Based on this, write a short report describing the distribution of weekly electricity use among the class's families, and offer suggestions for saving electricity. $\blacksquare$
-### Reading and Thinking 1
-
-(Thinking 1) During World War II, by tallying the serial numbers of captured German tanks, the Allies estimated the number of tanks Germany produced each month. Can you think of other methods to estimate the number of tanks Germany produces monthly? For example, using the mean of the sample serial numbers as the mean of the monthly-produced tank serial numbers; compare which method is more reasonable.
-
-### Solution to Reading and Thinking 1
-
-By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
-
-Let the serial numbers of the tanks Germany produces monthly be $1,2,\cdots,N$, and the captured tank serial numbers form a simple random sample. Several methods for estimating $N$:
-
-(1) Use the mean of the sample serial numbers to estimate the mean of the population serial numbers. The mean of the population serial numbers $1\sim N$ is $\frac{N+1}{2}$; set the sample mean $\overline x=\frac{N+1}{2}$, solving gives $N=2\overline x-1$.
-
-(2) Use the maximum sample serial number $m$ to estimate. The maximum sample serial number is usually close to $N$; one may estimate $N\approx m\cdot\frac{n+1}{n}$, i.e. slightly correct the sample maximum.
-
-Comparison: the method using the sample mean makes use of all the sample information, but when the sample size is small the estimate has large error; the method using a corrected sample maximum is also fairly simple. In practice, combining several methods and cross-checking them gives a more reliable result. The common idea of these methods is to use a sample statistic to estimate the unknown population parameter $N$. $\blacksquare$
-
-### Reading and Thinking 2
-
-(Thinking 2) Please look up books or the Internet to learn about big data: the background of its emergence, its characteristics, the challenges it brings to statistical concepts, methods and technology, and the development opportunities it brings. Appreciate the role of big data in contemporary social development.
-
-### Solution to Reading and Thinking 2
-
-By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution Histogram)** and the basic idea of a sampling survey.
-
-From the literature one learns: big data refers to data sets that far exceed the capabilities of traditional database tools in data scale, data type and processing speed, characterized by large data volume, diverse types, fast generation speed, and low value density.
-
-The impact of big data on statistics: traditional statistics relies on sampling surveys, estimating the population from a sample; but big data can often collect nearly all (or all) the data, making "the sample is the population", thereby changing the traditional concept of "sampling estimation". At the same time, the diverse data types and huge noise pose challenges to data storage, cleaning and analysis technology. Big data also brings opportunities: it can depict phenomena more finely, discover patterns hard to find by traditional methods, and play an important role in commerce, medicine, transportation and public governance. It is profoundly changing contemporary society's ways of production and life. $\blacksquare$
+Hence $MN \perp CD$. $\blacksquare$

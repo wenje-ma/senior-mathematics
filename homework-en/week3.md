@@ -1,237 +1,439 @@
 # week3
-> **Definition 1.1.5 (Membership)**
+> **Definition 1.2.1 (Subset)**
 > 
-> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+> **Definition 1.2.4 (Empty Set)**
+> 
+> 不含任何元素的集合叫做空集, 记作 $\varnothing$. 规定空集是任何集合的子集.
 > **Definition 1.3.1 (Union)**
 > 
 > 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
 > **Definition 1.3.2 (Intersection)**
 > 
 > 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
-> **Definition 1.3.4 (Complement)**
+> **Definition 1.4.2 (Sufficient and Necessary Conditions)**
 > 
-> 对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 记作 $\complement_U A$, 即 $\complement_U A=\left\{x\mid x\in U\text{ 且 }x\notin A\right\}$.
-
-## Exercise 1
-
-(Exercise 1.3, Problem 1) Let $A=\left\{3,5,6,8\right\}$, $B=\left\{4,5,7,8\right\}$, find $A\cap B$, $A\cup B$.
-
-### Solution to Exercise 1
-
-By **Definition 1.3.2 (Intersection)**, the intersection consists of elements that belong to both $A$ and $B$; by **Definition 1.3.1 (Union)**, the union consists of elements that belong to $A$ or $B$, and common elements appear only once.
-
-The common elements of $A$ and $B$ are $5,8$, so $A\cap B=\left\{5,8\right\}$.
-
-Combining the elements of $A$ and $B$ and removing the duplicates $5,8$, we get $A\cup B=\left\{3,4,5,6,7,8\right\}$. $\blacksquare$
-
-## Exercise 2
-
-(Exercise 1.3, Problem 2) Let $A=\left\{x\mid x^2-4x-5=0\right\}$, $B=\left\{x\mid x^2=1\right\}$, find $A\cup B$, $A\cap B$.
-
-### Solution to Exercise 2
-
-First simplify the sets $A,B$ separately. By **Definition 1.1.5 (Belonging and Not Belonging)**, the elements of the sets are precisely the real roots of the equations.
-
-The equation $x^2-4x-5=0$ is equivalent to $\left(x-5\right)\left(x+1\right)=0$, whose roots are $x=5$ or $x=-1$, so $A=\left\{-1,5\right\}$.
-
-The equation $x^2=1$ is equivalent to $\left(x-1\right)\left(x+1\right)=0$, whose roots are $x=1$ or $x=-1$, so $B=\left\{-1,1\right\}$.
-
-By **Definition 1.3.1 (Union)**, combining the elements of $A,B$ and removing the duplicate $-1$, we get $A\cup B=\left\{-1,1,5\right\}$.
-
-By **Definition 1.3.2 (Intersection)**, the only common element of $A,B$ is $-1$, so $A\cap B=\left\{-1\right\}$. $\blacksquare$
-
-## Exercise 3
-
-(Exercise 1.3, Problem 3) Let $A=\left\{x\mid x\text{ 是等腰三角形}\right\}$, $B=\left\{x\mid x\text{ 是直角三角形}\right\}$, find $A\cap B$, $A\cup B$.
-
-### Solution to Exercise 3
-
-By **Definition 1.3.2 (Intersection)**, $A\cap B$ consists of elements that belong to both $A$ and $B$, i.e. triangles that are both isosceles and right triangles, so $A\cap B=\left\{x\mid x\text{ 是等腰直角三角形}\right\}$.
-
-By **Definition 1.3.1 (Union)**, $A\cup B$ consists of elements that belong to $A$ or $B$, i.e. all isosceles or right triangles, so $A\cup B=\left\{x\mid x\text{ 是等腰三角形或直角三角形}\right\}$. $\blacksquare$
-
-## Exercise 4
-
-(Exercise 1.3, Problem 4) Let $A=\left\{x\mid x\text{ 是幸福农场的汽车}\right\}$, $B=\left\{x\mid x\text{ 是幸福农场的货车}\right\}$, find $A\cup B$.
-
-### Solution to Exercise 4
-
-By **Definition 1.3.1 (Union)**, $A\cup B$ consists of elements that belong to $A$ or $B$, i.e. all cars or trucks of Happy Farm. A truck is also a kind of car; the two have a common part, but common elements appear only once in the union.
-
-Therefore $A\cup B=\left\{x\mid x\text{ 是幸福农场的汽车或货车}\right\}$. $\blacksquare$
-
-## Exercise 5
-
-(Exercise 1.3, Problem 5) Given $U=\left\{1,2,3,4,5,6,7\right\}$, $A=\left\{2,4,5\right\}$, $B=\left\{1,3,5,7\right\}$, find $A\cap\left(\boldsymbol{U\setminus B}\right)$, $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)$.
-
-### Solution to Exercise 5
-
-By **Definition 1.3.4 (Complement)**, the complement consists of elements in the universal set $U$ that do not belong to the set.
-
-The universal set is $U=\left\{1,2,3,4,5,6,7\right\}$. Removing the elements of $B=\left\{1,3,5,7\right\}$ from $U$, we get $\boldsymbol{U\setminus B}=\left\{2,4,6\right\}$. Removing the elements of $A=\left\{2,4,5\right\}$ from $U$, we get $\boldsymbol{U\setminus A}=\left\{1,3,6,7\right\}$.
-
-By **Definition 1.3.2 (Intersection)**, the common elements of $A$ and $\boldsymbol{U\setminus B}$ are $2,4$, so $A\cap\left(\boldsymbol{U\setminus B}\right)=\left\{2,4\right\}$.
-
-The only common element of $\boldsymbol{U\setminus A}=\left\{1,3,6,7\right\}$ and $\boldsymbol{U\setminus B}=\left\{2,4,6\right\}$ is $6$, so $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)=\left\{6\right\}$. $\blacksquare$
-
-## Exercise 6
-
-(Exercise 1.3, Problem 6) Let $S=\left\{x\mid x\text{ 是平行四边形或梯形}\right\}$, $A=\left\{x\mid x\text{ 是平行四边形}\right\}$, $B=\left\{x\mid x\text{ 是菱形}\right\}$, $C=\left\{x\mid x\text{ 是矩形}\right\}$, find $B\cap C$, $\boldsymbol{A\setminus B}$, $\boldsymbol{S\setminus A}$.
-
-### Solution to Exercise 6
-
-By **Definition 1.3.2 (Intersection)**, $B\cap C$ consists of quadrilaterals that are both rhombi and rectangles. A rhombus has equal adjacent sides, and a rectangle has right interior angles; a quadrilateral with both properties is a square, so $B\cap C=\left\{x\mid x\text{ 是正方形}\right\}$.
-
-By **Definition 1.3.4 (Complement)**, $\boldsymbol{A\setminus B}$ is the part remaining after removing rhombi from the universal set $A$, i.e. parallelograms, so $\boldsymbol{A\setminus B}=\left\{x\mid x\text{ 是平行四边形且不是菱形}\right\}$.
-
-Similarly, $\boldsymbol{S\setminus A}$ is the part remaining after removing parallelograms from the universal set $S$, i.e. parallelograms or trapezoids, so $\boldsymbol{S\setminus A}=\left\{x\mid x\text{ 是梯形}\right\}$. $\blacksquare$
-
-## Exercise 7
-
-(Exercise 1.3, Problem 7) In the figure, $U$ is the universal set, and $A,B$ are two subsets of $U$. Shade the following:
-
-(1) $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)$;
-
-(2) $\left(\boldsymbol{U\setminus A}\right)\cup\left(\boldsymbol{U\setminus B}\right)$.
-
-(Figure: a rectangle representing the universal set $U$, containing two overlapping circles $A$ and $B$, with partial overlap between them, to be shaded.)
-
-### Solution to Exercise 7
-
-By **Definition 1.3.4 (Complement)**, $\boldsymbol{U\setminus A}$ is the part of the universal set $U$ outside circle $A$, and $\boldsymbol{U\setminus B}$ is the part of the universal set $U$ outside circle $B$.
-
-(1) By **Definition 1.3.2 (Intersection)**, $\left(\boldsymbol{U\setminus A}\right)\cap\left(\boldsymbol{U\setminus B}\right)$ is the part that is both outside circle $A$ and outside circle $B$, i.e. the entire region within the universal set $U$ excluding the areas covered by circles $A$ and $B$; shade it.
-
-(2) By **Definition 1.3.1 (Union)**, $\left(\boldsymbol{U\setminus A}\right)\cup\left(\boldsymbol{U\setminus B}\right)$ is the part that is outside circle $A$ or outside circle $B$, i.e. the entire region within the universal set $U$ excluding the common part $A\cap B$ of circles $A$ and $B$; shade it. $\blacksquare$
-
-## Problem 1
-
-(Problem 1.3, Review and Consolidation, Problem 1) The sets are $A=\left\{x\mid 2\le x< 4\right\}$, $B=\left\{x\mid 3x-7\ge 8-2x\right\}$. Find $A\cup B$, $A\cap B$.
-
-### Solution to Problem 1
-
-First simplify the set $B$. From $3x-7\ge 8-2x$, transposing gives $5x\ge 15$, i.e. $x\ge 3$, so $B=\left\{x\mid x\ge 3\right\}$.
-
-By **Definition 1.3.1 (Union)**, $A\cup B$ consists of real numbers satisfying $2\le x< 4$ or $x\ge 3$, i.e. $x\ge 2$, so $A\cup B=\left\{x\mid x\ge 2\right\}$.
-
-By **Definition 1.3.2 (Intersection)**, $A\cap B$ consists of real numbers simultaneously satisfying $2\le x< 4$ and $x\ge 3$, i.e. $3\le x< 4$, so $A\cap B=\left\{x\mid 3\le x< 4\right\}$. $\blacksquare$
-
-## Problem 2
-
-(Problem 1.3, Review and Consolidation, Problem 2) Let $A=\left\{x\mid x\text{ 是小于 }9\text{ 的正整数}\right\}$, $B=\left\{1,2,3\right\}$, $C=\left\{3,4,5,6\right\}$. Find $A\cap B$, $A\cap C$, $A\cap\left(B\cup C\right)$, $A\cup\left(B\cap C\right)$.
-
-### Solution to Problem 2
-
-By the Common Number Sets and **Definition 1.1.5 (Belonging and Not Belonging)**, the positive integers less than $9$ are $1,2,3,4,5,6,7,8$, so $A=\left\{1,2,3,4,5,6,7,8\right\}$.
-
-By **Definition 1.3.2 (Intersection)**, $A\cap B$ is the common elements of $A$ and $B$, i.e. $A\cap B=\left\{1,2,3\right\}$.
-
-Similarly, $A\cap C$ is the common elements of $A$ and $C$, i.e. $A\cap C=\left\{3,4,5,6\right\}$.
-
-By **Definition 1.3.1 (Union)**, $B\cup C=\left\{1,2,3\right\}\cup\left\{3,4,5,6\right\}=\left\{1,2,3,4,5,6\right\}$, where the common element $3$ appears only once. Then by **Definition 1.3.2 (Intersection)**, $A\cap\left(B\cup C\right)=\left\{1,2,3,4,5,6\right\}$.
-
-By **Definition 1.3.2 (Intersection)**, $B\cap C$ is the common elements of $B$ and $C$, i.e. $B\cap C=\left\{3\right\}$. Then by **Definition 1.3.1 (Union)**, $A\cup\left(B\cap C\right)=A\cup\left\{3\right\}=A=\left\{1,2,3,4,5,6,7,8\right\}$. $\blacksquare$
-
-## Problem 3
-
-(Problem 1.3, Review and Consolidation, Problem 3) The school holds a sports meet. Let $A=\left\{x\mid x\text{ 是参加 }100\text{ m 跑的同学}\right\}$, $B=\left\{x\mid x\text{ 是参加 }200\text{ m 跑的同学}\right\}$, $C=\left\{x\mid x\text{ 是参加 }400\text{ m 跑的同学}\right\}$. The school stipulates that each student participating in the above events may participate in at most two events. Please use set operations to express this rule and explain the meaning of the following set operations:
-
-(1) $A\cup B$;
-
-(2) $A\cap C$.
-
-### Solution to Problem 3
-
-The school stipulates that each student may participate in at most two events, i.e. no student belongs to all three sets $A,B,C$. By **Definition 1.3.2 (Intersection)**, students belonging simultaneously to $A,B,C$ form $A\cap B\cap C$, so this rule can be expressed as $A\cap B\cap C=\varnothing$.
-
-(1) By **Definition 1.3.1 (Union)**, $A\cup B$ consists of students who belong to $A$ or $B$, i.e. all students participating in the $100\text{ m}$ run or the $200\text{ m}$ run.
-
-(2) By **Definition 1.3.2 (Intersection)**, $A\cap C$ consists of students who belong to both $A$ and $C$, i.e. all students participating in both the $100\text{ m}$ run and the $400\text{ m}$ run. $\blacksquare$
-
-## Problem 4
-
-(Problem 1.3, Comprehensive Application, Problem 4) Given the sets $A=\left\{x\mid 3\le x< 7\right\}$, $B=\left\{x\mid 2< x< 10\right\}$, find $\boldsymbol{\left(A\cup B\right)^c}$, $\boldsymbol{\left(A\cap B\right)^c}$, $\left(\boldsymbol{A^c}\right)\cap B$, $A\cup\left(\boldsymbol{B^c}\right)$.
-
-### Solution to Problem 4
-
-By **Definition 1.3.1 (Union)**, $A\cup B=\left\{x\mid 2< x< 10\right\}$. By **Definition 1.3.2 (Intersection)**, $A\cap B=\left\{x\mid 3\le x< 7\right\}$.
-
-By **Definition 1.3.4 (Complement)**, take complements in the universal set $\mathbb R$. First find the complement of $A\cup B$: the real numbers outside $2< x< 10$ are $x\le 2$ or $x\ge 10$, so $\boldsymbol{\left(A\cup B\right)^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$.
-
-Then find the complement of $A\cap B$: the real numbers outside $3\le x< 7$ are $x< 3$ or $x\ge 7$, so $\boldsymbol{\left(A\cap B\right)^c}=\left\{x\mid x< 3\text{ 或 }x\ge 7\right\}$.
-
-The complement of $A$ in $\mathbb R$ is $\boldsymbol{A^c}=\left\{x\mid x< 3\text{ 或 }x\ge 7\right\}$. Then by **Definition 1.3.2 (Intersection)**, $\left(\boldsymbol{A^c}\right)\cap B$ consists of real numbers simultaneously satisfying $x< 3$ or $x\ge 7$ and $2< x< 10$, i.e. $2< x< 3$ or $7\le x< 10$, so $\left(\boldsymbol{A^c}\right)\cap B=\left\{x\mid 2< x< 3\text{ 或 }7\le x< 10\right\}$.
-
-The complement of $B$ in $\mathbb R$ is $\boldsymbol{B^c}=\left\{x\mid x\le 2\text{ 或 }x\ge 10\right\}$. Then by **Definition 1.3.1 (Union)**, $A\cup\left(\boldsymbol{B^c}\right)$ consists of real numbers satisfying $3\le x< 7$ or $x\le 2$ or $x\ge 10$, so $A\cup\left(\boldsymbol{B^c}\right)=\left\{x\mid x\le 2\text{ 或 }3\le x< 7\text{ 或 }x\ge 10\right\}$. $\blacksquare$
-
-## Problem 5
-
-(Problem 1.3, Comprehensive Application, Problem 5) Let $a\in\mathbb R$, the sets are $A=\left\{x\mid\left(x-3\right)\left(x-a\right)=0\right\}$, $B=\left\{x\mid\left(x-4\right)\left(x-1\right)=0\right\}$. Find $A\cup B$, $A\cap B$.
-
-### Solution to Problem 5
-
-By **Definition 1.1.5 (Belonging and Not Belonging)**, the elements of the sets are precisely the real roots of the corresponding equations. The roots of the equation $\left(x-4\right)\left(x-1\right)=0$ are $x=4$ or $x=1$, so $B=\left\{1,4\right\}$.
-
-The roots of the equation $\left(x-3\right)\left(x-a\right)=0$ are $x=3$ and $x=a$. Since the value of $a$ is undetermined, the elements of $A$ may overlap with those of $B$, so a case-by-case discussion is needed.
-
-(a) When $a\notin\left\{1,3,4\right\}$, $A=\left\{3,a\right\}$, with no common elements with $B=\left\{1,4\right\}$. By **Definition 1.3.2 (Intersection)**, $A\cap B=\varnothing$. By **Definition 1.3.1 (Union)**, $A\cup B=\left\{1,3,4,a\right\}$.
-
-(b) When $a=1$, $A=\left\{1,3\right\}$. By **Definition 1.3.2 (Intersection)**, the common element is $1$, so $A\cap B=\left\{1\right\}$. By **Definition 1.3.1 (Union)**, $A\cup B=\left\{1,3,4\right\}$.
-
-(c) When $a=3$, $A=\left\{3\right\}$. Since $3\notin B$, by **Definition 1.3.2 (Intersection)**, $A\cap B=\varnothing$. By **Definition 1.3.1 (Union)**, $A\cup B=\left\{1,3,4\right\}$.
-
-(d) When $a=4$, $A=\left\{3,4\right\}$. By **Definition 1.3.2 (Intersection)**, the common element is $4$, so $A\cap B=\left\{4\right\}$. By **Definition 1.3.1 (Union)**, $A\cup B=\left\{1,3,4\right\}$. $\blacksquare$
-
-## Problem 6
-
-(Problem 1.3, Extension and Exploration, Problem 6) Given the universal set $U=A\cup B=\left\{x\in\mathbb N\mid 0\le x\le 10\right\}$, $A\cap\left(\boldsymbol{U\setminus B}\right)=\left\{1,3,5,7\right\}$, find the set $B$.
-
-### Solution to Problem 6
-
-By the Common Number Sets, $\mathbb N$ is the non-negative integer set, so $U=A\cup B=\left\{0,1,2,3,4,5,6,7,8,9,10\right\}$.
-
-By **Definition 1.3.4 (Complement)**, $\boldsymbol{U\setminus B}$ is the elements in $U$ that do not belong to $B$. Also by **Definition 1.3.1 (Union)**, $U=A\cup B$, i.e. every element in $U$ belongs to at least one of $A,B$. Thus the elements in $U$ that do not belong to $B$ must belong to $A$, i.e.
-
-$$
-\boldsymbol{U\setminus B}=A\cap\left(\boldsymbol{U\setminus B}\right).
-$$
-
-Given $A\cap\left(\boldsymbol{U\setminus B}\right)=\left\{1,3,5,7\right\}$, we have $\boldsymbol{U\setminus B}=\left\{1,3,5,7\right\}$.
-
-Then by **Definition 1.3.4 (Complement)**, removing the elements of $\left\{1,3,5,7\right\}$ from the universal set $U$, we get $B=\left\{0,2,4,6,8,9,10\right\}$. $\blacksquare$
-
-### Reading and Thinking 1
-
-(Reading and Thinking: The Number of Elements in a Set) For finite sets $A,B,C$, can you discover the relationship among $\operatorname{card}\left(A\cup B\cup C\right)$, $\operatorname{card}\left(A\right)$, $\operatorname{card}\left(B\right)$, $\operatorname{card}\left(C\right)$, $\operatorname{card}\left(A\cap B\right)$, $\operatorname{card}\left(B\cap C\right)$, $\operatorname{card}\left(A\cap C\right)$, $\operatorname{card}\left(A\cap B\cap C\right)$? Through a concrete example, calculate.
+> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
+> **Definition 1.4.4 (Necessary and Sufficient Condition)**
+> 
+> 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
+> **Definition 1.5.1 (Universal Quantifier)**
+> 
+> 短语"所有的""任意一个"在逻辑中通常叫做全称量词, 用符号"$\forall$"表示. 含有全称量词的命题, 叫做全称量词命题.
+> **Definition 1.5.2 (Existential Quantifier)**
+> 
+> 短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
+
+## Reading and Thinking 1
+
+(Thinking 1) In the article "Geometric Propositions and Sufficient and Necessary Conditions", let $q$: two triangles are similar. Think about it: (1) Can you give other sufficient conditions for similar triangles? (2) Can determination theorems be used to determine that two triangles are not similar? Why?
 
 ### Solution to Reading and Thinking 1
 
-By the **Common Conclusion** (Number of Elements in a Finite Set), for two finite sets $A,B$ we have $\operatorname{card}\left(A\cup B\right)=\operatorname{card}\left(A\right)+\operatorname{card}\left(B\right)-\operatorname{card}\left(A\cap B\right)$. Treating $A\cup B$ and $C$ as two sets and applying the conclusion once more, we get
+By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Definition 1.4.4 (Necessary and Sufficient Condition)**, answer as follows.
 
-$$
-\operatorname{card}\left(A\cup B\cup C\right)=\operatorname{card}\left(A\cup B\right)+\operatorname{card}\left(C\right)-\operatorname{card}\left(\left(A\cup B\right)\cap C\right).
-$$
+(1) The determination theorems for similar triangles themselves give sufficient conditions for $q$. Besides proportional three sides, two proportional sides with equal included angle, and two pairs of equal angles, one can also cite: two triangles similar to the same triangle are mutually similar (i.e. the transitivity of "similar"), which is also a sufficient condition for two triangles to be similar.
 
-Expanding and simplifying, we get
+(2) Determination theorems cannot be used to determine that two triangles are not similar. Determination theorems give sufficient conditions in the form $p\Rightarrow q$, i.e. when the condition is satisfied, they are certainly similar. But two triangles not satisfying a particular determination theorem does not mean they are not similar, because the sufficient conditions for $q$ to hold are not unique, and it is entirely possible that they are similar through another path. To determine that two triangles are not similar, one needs to use the property theorems of similar triangles (i.e. necessary conditions): as long as one points out that a necessary property does not hold, one can conclude that they are not similar. $\blacksquare$
 
-$$
-\operatorname{card}\left(A\cup B\cup C\right)=\operatorname{card}\left(A\right)+\operatorname{card}\left(B\right)+\operatorname{card}\left(C\right)-\operatorname{card}\left(A\cap B\right)-\operatorname{card}\left(B\cap C\right)-\operatorname{card}\left(A\cap C\right)+\operatorname{card}\left(A\cap B\cap C\right).
-$$
+## Reading and Thinking 2
 
-Below we verify with a concrete example. Take $A=\left\{1,2,3\right\}$, $B=\left\{2,3,4\right\}$, $C=\left\{3,4,5\right\}$; then $\operatorname{card}\left(A\right)=\operatorname{card}\left(B\right)=\operatorname{card}\left(C\right)=3$, $\operatorname{card}\left(A\cap B\right)=\operatorname{card}\left(\left\{2,3\right\}\right)=2$, $\operatorname{card}\left(B\cap C\right)=\operatorname{card}\left(\left\{3,4\right\}\right)=2$, $\operatorname{card}\left(A\cap C\right)=\operatorname{card}\left(\left\{3\right\}\right)=1$, $\operatorname{card}\left(A\cap B\cap C\right)=\operatorname{card}\left(\left\{3\right\}\right)=1$.
-
-Substituting into the right-hand side of the formula, we get $3+3+3-2-2-1+1=5$. Meanwhile $A\cup B\cup C=\left\{1,2,3,4,5\right\}$, whose number of elements is $5$, consistent with the result computed by the formula. $\blacksquare$
-
-### Reading and Thinking 2
-
-(Reading and Thinking: The Number of Elements in a Set) The number of elements in a finite set can be counted one by one. But for sets with infinitely many elements, such as $A=\left\{1,2,3,4,\cdots,n,\cdots\right\}$, $B=\left\{2,4,6,8,\cdots,2n,\cdots\right\}$, we cannot count the number of elements in the set, but we can compare the number of elements in these two sets. Can you design a method to compare the number of elements in these two sets?
+(Thinking 2) In the article "Geometric Propositions and Sufficient and Necessary Conditions", think about it: can property theorems be used to determine that two triangles are similar? Why? Can you give other necessary conditions for similar triangles?
 
 ### Solution to Reading and Thinking 2
 
-To compare the number of elements in two finite sets, one can pair the elements of the two sets one by one and see whether they can all be paired without remainder. For infinite sets, one can similarly use the method of establishing a one-to-one correspondence to compare.
+By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)**, property theorems give necessary conditions in the form $q\Rightarrow r$.
 
-Take any element $n$ in $A$ and let it correspond to the element $2n$ in $B$, i.e. establish the correspondence $n\leftrightarrow 2n$.
+Property theorems cannot be used to determine that two triangles are similar. Property theorems show that if two triangles are similar, then their corresponding angles are necessarily equal, their perimeter ratios equal the similarity ratio, their area ratios equal the square of the similarity ratio, and so on. These are "properties that necessarily follow" after similarity, i.e. $q\Rightarrow r$. Conversely, even if these properties hold, one cannot infer that they are similar, because $q\Rightarrow r$ does not imply $r\Rightarrow q$. To determine similarity, one still needs to use determination theorems (sufficient conditions).
 
-By **Definition 1.1.5 (Belonging and Not Belonging)**, every element $n$ in $A=\left\{1,2,3,4,\cdots,n,\cdots\right\}$ has a uniquely determined element $2n$ in $B$ corresponding to it; conversely, every element in $B=\left\{2,4,6,8,\cdots,2n,\cdots\right\}$ is some even number $2n$, and also has a uniquely determined element $n$ in $A$ corresponding to it.
+Other necessary conditions for similar triangles can also be cited: the ratio of corresponding altitudes, the ratio of corresponding medians, and the ratio of corresponding angle bisectors of similar triangles all equal the similarity ratio; the ratio of circumradii and the ratio of inradii of similar triangles both equal the similarity ratio; and so on. When these properties do not hold, the two triangles are certainly not similar, so they are all necessary conditions for $q$. $\blacksquare$
 
-Thus, the elements of $A$ and $B$ can be paired one by one without remainder, so the two infinite sets have the same number of elements. This method compares the number of elements by establishing a one-to-one correspondence between the two sets. $\blacksquare$
+## Reading and Thinking 3
+
+(Thinking 3) In the article "Geometric Propositions and Sufficient and Necessary Conditions", starting from any equivalent definition of similar triangles, one can also derive other properties of similar triangles; can you try? Following the above approach, organize the knowledge about isosceles triangles, right triangles, parallelograms (rectangles, rhombi, squares), and other figures.
+
+### Solution to Reading and Thinking 3
+
+By **Definition 1.4.4 (Necessary and Sufficient Condition)**, equivalent definitions can be derived from each other; based on this, organize the determination theorems and property theorems of figures.
+
+Take parallelograms as an example. Its definition "a quadrilateral with two pairs of opposite sides respectively parallel" and "a quadrilateral with two pairs of opposite sides respectively equal", "a quadrilateral with one pair of opposite sides parallel and equal", "a quadrilateral whose diagonals bisect each other" are mutually necessary and sufficient conditions; taking any one as the definition, the others can serve both as determination theorems and as derived property theorems. For example, taking "two pairs of opposite sides respectively parallel" as the definition, one can derive that two pairs of opposite sides are respectively equal, two pairs of opposite angles are respectively equal, and the diagonals bisect each other, and other properties.
+
+Similarly, the organization is as follows.
+
+(a) Isosceles triangle: the necessary and sufficient conditions are "two equal sides" or "two equal angles"; from the definition one can derive the "three lines in one" (the angle bisector of the vertex angle, the median on the base, and the altitude on the base coincide) and other property theorems, and these properties are all necessary conditions for an isosceles triangle.
+
+(b) Right triangle: the necessary and sufficient conditions are "one interior angle is a right angle" or "the sum of the squares of two sides equals the square of the third side (the Pythagorean theorem and its converse)"; from this one can derive that the median on the hypotenuse equals half the hypotenuse, and the two acute angles are complementary, and other properties.
+
+(c) Rectangles, rhombi, squares: the necessary and sufficient conditions for a rectangle are "a parallelogram with one right angle" or "a parallelogram with equal diagonals"; the necessary and sufficient conditions for a rhombus are "a parallelogram with one pair of adjacent sides equal" or "a parallelogram with perpendicular diagonals"; the necessary and sufficient conditions for a square are "a rectangle with one pair of adjacent sides equal" or "a rhombus with one right angle". Their respective determination theorems correspond to sufficient conditions, and property theorems correspond to necessary conditions. $\blacksquare$
+
+## Exercise 1
+
+(Exercise 1.5, Problem 1) Determine whether the following universal quantifier propositions are true or false:
+
+(1) The sum of the interior angles of every quadrilateral is $360^\circ$;
+
+(2) Every real number has an arithmetic square root;
+
+(3) $\forall x\in\left\{y\mid y\text{ 是无理数}\right\}$, $x^3$ is irrational.
+
+### Solution to Exercise 1
+
+By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, to determine that the universal quantifier proposition $\forall x\in M,\ p\left(x\right)$ is true, one must prove that $p\left(x\right)$ holds for every $x$ in $M$; if a counterexample is found in $M$ such that $p\left(x\right)$ does not hold, then the proposition is false.
+
+(1) By the formula for the sum of interior angles of a polygon, the sum of interior angles of a quadrilateral is $\left(4-2\right)\cdot180^\circ=360^\circ$, which holds for any quadrilateral, so this proposition is true.
+
+(2) Negative numbers have no arithmetic square root. For example, $-1\in\mathbb R$, but $-1$ has no arithmetic square root; a counterexample is found, so this proposition is false.
+
+(3) Taking $x=\sqrt\left[3\right]{2}$, it is irrational, but $x^3=2$ is rational; a counterexample is found, so this proposition is false. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 1.5, Problem 2) Determine whether the following existential quantifier propositions are true or false:
+
+(1) There exists a quadrilateral whose two diagonals are perpendicular to each other;
+
+(2) There exists an integer $n$ such that $n^2+n$ is odd;
+
+(3) $\exists x\in\left\{y\mid y\text{ 是无理数}\right\}$, $x^2$ is irrational.
+
+### Solution to Exercise 2
+
+By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, to determine that the existential quantifier proposition $\exists x\in M,\ p\left(x\right)$ is true, one only needs to find an $x$ in $M$ such that $p\left(x\right)$ holds; if no such $x$ exists in $M$, then the proposition is false.
+
+(1) The two diagonals of a rhombus are perpendicular to each other, and a rhombus is a quadrilateral, so such a quadrilateral exists; this proposition is true.
+
+(2) For any integer $n$, $n^2+n=n\left(n+1\right)$ is the product of two consecutive integers, one of which must be even, so $n^2+n$ is always even. There is no integer $n$ such that $n^2+n$ is odd; this proposition is false.
+
+(3) Taking $x=\sqrt 2$, $x$ is irrational, and $x^2=2$ is rational; but taking $x=\pi$, $x$ is irrational, and $x^2=\pi^2$ is also irrational; so such an $x$ exists; this proposition is true. $\blacksquare$
+
+## Exercise 3
+
+(Exercise 1.5, Problem 1) Write the negation of the following propositions:
+
+(1) $\forall n\in\mathbb Z,\ n\in\mathbb Q$;
+
+(2) The square of any odd number is still odd;
+
+(3) Every parallelogram is a centrally symmetric figure.
+
+### Solution to Exercise 3
+
+By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), the negation of a universal quantifier proposition is an existential quantifier proposition, i.e. change $\forall$ to $\exists$ and negate the conclusion.
+
+(1) The negation of this proposition is $\exists n\in\mathbb Z,\ n\notin\mathbb Q$.
+
+(2) The original proposition is "the square of any odd number is odd"; its negation is "there exists an odd number whose square is not odd", i.e. "there exists an odd number whose square is even".
+
+(3) The original proposition is "every parallelogram is a centrally symmetric figure"; its negation is "there exists a parallelogram that is not a centrally symmetric figure". $\blacksquare$
+
+## Exercise 4
+
+(Exercise 1.5, Problem 2) Write the negation of the following propositions:
+
+(1) Some triangles are right triangles;
+
+(2) Some trapezoids are isosceles trapezoids;
+
+(3) There exists a real number whose absolute value is not positive.
+
+### Solution to Exercise 4
+
+By **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Proposition), the negation of an existential quantifier proposition is a universal quantifier proposition, i.e. change $\exists$ to $\forall$ and negate the conclusion.
+
+(1) The negation of this proposition is "all triangles are not right triangles".
+
+(2) The negation of this proposition is "all trapezoids are not isosceles trapezoids".
+
+(3) The negation of this proposition is "the absolute value of every real number is positive". $\blacksquare$
+
+## Problem 1
+
+(Problem 1.5, Review and Consolidation, Problem 1) Determine whether the following universal quantifier propositions are true or false:
+
+(1) Every integer ending in $0$ is a multiple of $5$;
+
+(2) The points on the perpendicular bisector of a segment are equidistant from the two endpoints of the segment;
+
+(3) For any negative number $x$, the square of $x$ is positive;
+
+(4) The diagonals of a trapezoid are equal.
+
+### Solution to Problem 1
+
+By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, a counterexample can determine it to be false, and a general proof can determine it to be true.
+
+(1) An integer ending in $0$ can be written as $10k$ ($k\in\mathbb Z$), which equals $5\cdot 2k$, and is a multiple of $5$, so this proposition is true.
+
+(2) By the property of the perpendicular bisector of a segment, any point on it is equidistant from the two endpoints of the segment, so this proposition is true.
+
+(3) For any negative number $x< 0$, since a negative number times a negative number is positive, we have $x^2> 0$, so this proposition is true.
+
+(4) Only isosceles trapezoids have equal diagonals; the diagonals of a general trapezoid are not equal. Taking a non-isosceles trapezoid gives a counterexample, so this proposition is false. $\blacksquare$
+
+## Problem 2
+
+(Problem 1.5, Review and Consolidation, Problem 2) Determine whether the following existential quantifier propositions are true or false:
+
+(1) Some real numbers are infinite non-repeating decimals;
+
+(2) There exists a triangle that is not isosceles;
+
+(3) Some rhombi are squares;
+
+(4) There exists an integer $n$ such that $n^2+1$ is a multiple of $4$.
+
+### Solution to Problem 2
+
+By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, finding one instance determines it to be true, and universal non-existence determines it to be false.
+
+(1) Irrational numbers are precisely infinite non-repeating decimals, e.g. $\pi\in\mathbb R$, so this proposition is true.
+
+(2) A triangle with three mutually unequal sides (e.g. a triangle with sides $3,4,5$) is not isosceles, so such a triangle exists; this proposition is true.
+
+(3) A square has four equal sides and is a special rhombus, so such a rhombus exists; this proposition is true.
+
+(4) For any integer $n$, when $n$ is even, $n^2$ is divisible by $4$, and $n^2+1$ leaves remainder $1$ upon division by $4$; when $n$ is odd, $n^2$ leaves remainder $1$ upon division by $4$, and $n^2+1$ leaves remainder $2$ upon division by $4$. Therefore, $n^2+1$ is never a multiple of $4$; this proposition is false. $\blacksquare$
+
+## Problem 3
+
+(Problem 1.5, Review and Consolidation, Problem 3) Write the negation of the following propositions:
+
+(1) $\forall x\in\mathbb Z,\ \lvert x\rvert\in\mathbb N$;
+
+(2) All integers divisible by $5$ have last digit $0$;
+
+(3) $\exists x\in\mathbb R,\ x+1\ge 0$;
+
+(4) There exists a quadrilateral whose diagonals are perpendicular to each other.
+
+### Solution to Problem 3
+
+By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition) and **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Proposition), change universal to existential, existential to universal, and negate the conclusion.
+
+(1) This is a universal quantifier proposition; its negation is $\exists x\in\mathbb Z,\ \lvert x\rvert\notin\mathbb N$.
+
+(2) This is a universal quantifier proposition; its negation is "there exists an integer divisible by $5$ whose last digit is not $0$".
+
+(3) This is an existential quantifier proposition; its negation is $\forall x\in\mathbb R,\ x+1< 0$.
+
+(4) This is an existential quantifier proposition; its negation is "the diagonals of all quadrilaterals are not perpendicular to each other". $\blacksquare$
+
+## Problem 4
+
+(Problem 1.5, Comprehensive Application, Problem 4) Determine the truth value of the following propositions and write their negations:
+
+(1) Every line in a plane rectangular coordinate system intersects the $x$-axis;
+
+(2) The graph of every quadratic function is an axisymmetric figure;
+
+(3) There exists a triangle whose sum of interior angles is less than $180^\circ$;
+
+(4) There exists a quadrilateral whose four vertices do not lie on the same circle.
+
+### Solution to Problem 4
+
+Judge and rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition) and **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Proposition).
+
+(1) The line $y=1$ is parallel to the $x$-axis and does not intersect the $x$-axis, so this proposition is false. It is a universal quantifier proposition; its negation is "there exists a line that does not intersect the $x$-axis".
+
+(2) The graph of the quadratic function $y=ax^2+bx+c$ ($a\neq 0$) is a parabola, symmetric about the line $x=-\frac{b}{2a}$, so this proposition is true. It is a universal quantifier proposition; its negation is "there exists a quadratic function whose graph is not an axisymmetric figure".
+
+(3) The sum of interior angles of any triangle equals $180^\circ$, and there is no triangle whose sum of interior angles is less than $180^\circ$, so this proposition is false. It is an existential quantifier proposition; its negation is "the sum of interior angles of all triangles is not less than $180^\circ$".
+
+(4) A general quadrilateral (e.g. a quadrilateral with sides $1,1,1,2$) has four vertices that are not concyclic, so such a quadrilateral exists; this proposition is true. It is an existential quantifier proposition; its negation is "the four vertices of every quadrilateral lie on the same circle". $\blacksquare$
+
+## Problem 5
+
+(Problem 1.5, Comprehensive Application, Problem 5) Rewrite the following propositions in the form of a universal quantifier proposition or an existential quantifier proposition containing one quantifier, and write their negations:
+
+(1) The diagonals of a parallelogram bisect each other;
+
+(2) The product of three consecutive integers is a multiple of $6$;
+
+(3) Not all triangles are centrally symmetric figures;
+
+(4) A quadratic equation does not always have real roots.
+
+### Solution to Problem 5
+
+Rewrite by **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)** and **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, then write the negations by **Common Conclusion 1.5.4** and **Common Conclusion 1.5.5**.
+
+(1) The original proposition is "the diagonals of every parallelogram bisect each other", which is a universal quantifier proposition: $\forall$ parallelograms, their diagonals bisect each other. Its negation is "there exists a parallelogram whose diagonals do not bisect each other".
+
+(2) The original proposition is "the product of any three consecutive integers is a multiple of $6$", which is a universal quantifier proposition. Its negation is "there exist three consecutive integers whose product is not a multiple of $6$".
+
+(3) "Not all" means "not every one is", i.e. "there exists a triangle that is not a centrally symmetric figure", which is an existential quantifier proposition. Its negation is "every triangle is a centrally symmetric figure".
+
+(4) "Does not always have real roots" means "there exists a quadratic equation without real roots", which is an existential quantifier proposition. Its negation is "every quadratic equation has real roots". $\blacksquare$
+
+## Problem 6
+
+(Problem 1.5, Extension and Exploration, Problem 6) In this section, we introduced the concept of the negation of a proposition, knowing that the negation of a proposition is still a proposition, and it and the original proposition must be one true and one false, and cannot both be true or both be false. In mathematics, there are many propositions in the form "if $p$, then $q$", some true and some false. For example:
+
+(1) If $x> 1$, then $2x+1> 5$; (false proposition)
+
+(2) If a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are equal. (true proposition)
+
+Here, propositions (1) and (2) are both universal quantifier propositions with omitted quantifiers.
+
+(a) Some people think that the negation of (1) is "if $x> 1$, then $2x+1\le 5$", and the negation of (2) is "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal". Do you think this is correct? If not, please correctly write the negations of propositions (1) and (2).
+
+(b) Please give several examples of universal quantifier propositions in the form "if $p$, then $q$" with omitted quantifiers, write their negations respectively, and determine whether they are true or false.
+
+### Solution to Problem 6
+
+By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), a proposition in the form "if $p$, then $q$" with omitted quantifiers should first have the universal quantifier restored, then be negated.
+
+(a) This view is incorrect. Proposition (1) is actually the universal quantifier proposition "for any $x> 1$, we have $2x+1> 5$", i.e. $\forall x> 1,\ 2x+1> 5$. By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), its negation should be the existential quantifier proposition "there exists an $x> 1$ such that $2x+1\le 5$", i.e. $\exists x> 1,\ 2x+1\le 5$, rather than directly changing the conclusion $2x+1> 5$ to $2x+1\le 5$ while retaining the "if $x> 1$ then $\cdots$" form.
+
+Similarly, proposition (2) is actually the universal quantifier proposition "for any isosceles trapezoid, its diagonals are equal"; its negation should be "there exists an isosceles trapezoid whose diagonals are not equal", rather than "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal".
+
+(b) Examples are as follows.
+
+(1) The proposition "if two angles are vertical angles, then the two angles are equal", i.e. $\forall$ two angles, if they are vertical angles then they are equal, is a true proposition. Its negation is "there exist two vertical angles that are not equal", which is a false proposition.
+
+(2) The proposition "if a number is prime, then it is odd", i.e. $\forall$ prime numbers, it is odd, is a false proposition (because $2$ is prime but not odd). Its negation is "there exists a prime number that is not odd", which is a true proposition. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 2.1, Problem 1) Express the following order relations using inequalities or systems of inequalities.
+
+(1) A certain highway stipulates that the total height $h$ (unit: $\mathrm m$) of a vehicle and its cargo, measured from the ground, must not exceed $4\ \mathrm m$;
+
+(2) the sum of $a$ and $b$ is a nonnegative real number;
+
+(3) as shown in the figure, a warehouse is built at the center of a rectangular site with area less than $350\ \mathrm m^2$, and green space is built around the warehouse. The length $L$ (unit: $\mathrm m$) of the warehouse is greater than $4$ times its width $W$ (unit: $\mathrm m$).
+
+(Figure: a large rectangle representing the site, with a small rectangle in the center representing the warehouse; a uniform strip of green space surrounds the warehouse; the small rectangle is labeled length $L$ horizontally and width $W$ vertically, and the green strip is labeled $5\,\mathrm m$ wide.)
+
+### Solution to Exercise 5
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), write down the restrictions in the problem directly as inequalities.
+
+(1) The total height $h$ must not exceed $4\ \mathrm m$, i.e. $h$ is not greater than $4$, so $h\le4$.
+
+(2) The sum of $a$ and $b$ is a nonnegative real number, i.e. $a+b$ is greater than or equal to $0$, so $a+b\ge0$.
+
+(3) The green space is $5\ \mathrm m$ wide around the warehouse, so the site has length $L+10$ and width $W+10$. The site area is less than $350\ \mathrm m^2$, i.e. $\left(L+10\right)\left(W+10\right)< 350$; the length $L$ of the warehouse is greater than $4$ times its width $W$, i.e. $L> 4W$. Thus the required system of inequalities is
+
+$$
+\left\{\begin{array}{l}\left(L+10\right)\left(W+10\right)< 350,\\L> 4W.\end{array}\right.
+$$
+
+$\blacksquare$
+
+## Exercise 6
+
+(Exercise 2.1, Problem 2) Compare $\left(x+3\right)\left(x+7\right)$ and $\left(x+4\right)\left(x+6\right)$.
+
+### Solution to Exercise 6
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), to compare two algebraic expressions it suffices to examine whether their difference is greater than or less than $0$.
+
+Taking the difference, we get
+
+$$
+\left(x+3\right)\left(x+7\right)-\left(x+4\right)\left(x+6\right)=\left(x^2+10x+21\right)-\left(x^2+10x+24\right)=-3< 0.
+$$
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $\left(x+3\right)\left(x+7\right)< \left(x+4\right)\left(x+6\right)$. $\blacksquare$
+
+## Exercise 7
+
+(Exercise 2.1, Problem 3) Given $a> b$, prove that $a> \frac{a+b}{2}> b$.
+
+### Solution to Exercise 7
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), prove both inequalities simultaneously by taking differences.
+
+Since $a> b$, we have $a-b> 0$.
+
+First compare $a$ and $\frac{a+b}{2}$:
+
+$$
+a-\frac{a+b}{2}=\frac{a-b}{2}> 0,
+$$
+
+so $a> \frac{a+b}{2}$.
+
+Then compare $\frac{a+b}{2}$ and $b$:
+
+$$
+\frac{a+b}{2}-b=\frac{a-b}{2}> 0,
+$$
+
+so $\frac{a+b}{2}> b$.
+
+In summary, $a> \frac{a+b}{2}> b$. $\blacksquare$
+
+## Exercise 8
+
+(Exercise 2.1, Problem 4) Prove inequality Properties 1, 3, 4, and 6.
+
+### Solution to Exercise 8
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate the inequality relations into the sign of a difference from $0$ and prove them.
+
+Proof of **Property 2.1.3** (Symmetry): If $a> b$, then $a-b> 0$, and hence $-\left(a-b\right)=b-a< 0$, so $b< a$. Similarly, if $b< a$, then $b-a< 0$, and hence $a-b> 0$, so $a> b$. Namely, $a> b\Leftrightarrow b< a$.
+
+Proof of **Property 2.1.5** (Additivity): If $a> b$, then
+
+$$
+\left(a+c\right)-\left(b+c\right)=a-b> 0,
+$$
+
+so $a+c> b+c$.
+
+Proof of **Property 2.1.6** (Multiplicativity): If $a> b$, then $a-b> 0$. When $c> 0$,
+
+$$
+ac-bc=c\left(a-b\right)> 0,
+$$
+
+so $ac> bc$; when $c< 0$, $c\left(a-b\right)< 0$, i.e. $ac-bc< 0$, so $ac< bc$.
+
+Proof of **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms): If $a> b> 0$ and $c> 0$, then by **Property 2.1.6** (Multiplicativity) we get $ac> bc$; also $c> d> 0$ and $b> 0$, and again by **Property 2.1.6** (Multiplicativity) we get $bc> bd$. By **Property 2.1.4** (Transitivity), $ac> bc> bd$, so $ac> bd$. $\blacksquare$
+
+## Exercise 9
+
+(Exercise 2.1, Problem 5) Fill in the blanks with the inequality sign "$> $" or "$< $".
+
+(1) If $a> b$ and $c< d$, then $a-c\;\_\_\;b-d$;
+
+(2) if $a> b> 0$ and $c< d< 0$, then $ac\;\_\_\;bd$;
+
+(3) if $a> b> 0$, then $\frac{1}{a^2}\;\_\_\;\frac{1}{b^2}$;
+
+(4) if $a> b> c> 0$, then $\frac{c}{a}\;\_\_\;\frac{c}{b}$.
+
+### Solution to Exercise 9
+
+By **Property 2.1.6** (Multiplicativity), **Property 2.1.7** (Adding Inequalities in the Same Direction), **Property 2.1.9** (Powers), and **Basic Fact 2.1.1** (Order Relations Among Real Numbers), judge each item.
+
+(1) Multiplying both sides of $c< d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d$. Also $a> b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)> b+\left(-d\right)$, i.e. $a-c> b-d$. So fill in $> $.
+
+(2) Multiplying both sides of $c< d< 0$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d> 0$. Also $a> b> 0$, and by **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) we get $a\left(-c\right)> b\left(-d\right)$, i.e. $-ac> -bd$; multiplying both sides by $-1$ gives $ac< bd$. So fill in $< $.
+
+(3) From $a> b> 0$, by **Property 2.1.9** (Powers) we get $a^2> b^2> 0$. Taking reciprocals of positive numbers reverses the inequality sign (i.e. from $a^2> b^2> 0$ we get $\frac{1}{a^2}< \frac{1}{b^2}$), so fill in $< $.
+
+(4) From $a> b> 0$ we get $ab> 0$, so $\frac{1}{ab}> 0$. Multiplying both sides of $a> b$ by $\frac{1}{ab}$, by **Property 2.1.6** (Multiplicativity) we get $\frac{a}{ab}> \frac{b}{ab}$, i.e. $\frac{1}{b}> \frac{1}{a}$, equivalently $\frac{1}{a}< \frac{1}{b}$. Also $c> 0$, and multiplying both sides by the positive number $c$ does not change the direction, giving $\frac{c}{a}< \frac{c}{b}$, so fill in $< $.
+
+$\blacksquare$
+
+## Problem 7
+
+(Exercise 2.1, Review and Consolidation, Problem 1) Give several examples of inequalities in real life.
+
+### Solution to Problem 7
+
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), in real life every comparison involving more and less, larger and smaller, taller and shorter, not exceeding, or not less than corresponds to an inequality.
+
+For example:
+
+(1) A speed limit of $40\ \mathrm{km/h}$ on a certain road, i.e. the car speed $v$ satisfies $0< v\le40$;
+
+(2) a student's height $h$ is not less than $1.60\ \mathrm m$, i.e. $h\ge1.60$;
+
+(3) a class has $m$ boys and $n$ girls, and there are more boys than girls, i.e. $m> n$;
+
+(4) the capacity $V$ of a certain container is not more than $5\ \mathrm L$, i.e. $V\le5$. $\blacksquare$

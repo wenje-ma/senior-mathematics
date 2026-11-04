@@ -1,315 +1,474 @@
 # week17
-> **定义 4.5.1 (函数的零点)**
+> **定义 5.6.1 (振幅)**
 > 
-> 对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
-> **定义 4.5.3 (二分法)**
+> 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+> **定义 5.6.2 (周期)**
 > 
-> 的过程,学习了用函数描 述客观事物变化规律的方法.本节将先学习运用函数性质求 方程近似解的基本方法(二分法),再结合实例,更深入地 理解用函数构建数学模型的基本过程,学习运用模型思想发 现和提出问题,分析和解决问题的方法. ４５１! "#$Z\left[-D\$] Ꮶ 我们已经学习了用二次函数的观点认识一元二次方程,知道一元二次方程的实数 根就是相应二次函数的零点.像ｌｎ＋２－６＝０这样不能用公式求解的方程,是否 也能采用类似的方法,用相应的函数研究它的解的情况呢? 与二次函数的零点一样,对于一般函数狔＝(),我们把使()＝０的实数叫做 函数狔＝()的零点(ｚｅｒｏ). 这样,函数狔＝()的零点就是方程()＝０的实数解,也就是函数狔＝()的图 象与轴的公共点的横坐标.所以 方程()＝０有实数解 　"函数狔＝()有零点 　"函数狔＝()的图象与轴有公共点. 由此可知,求方程()＝０的实数解,就是确定函数狔＝()的零点.一般地,对 于不能用公
-
-## 练习一
-
-(练习 4.5 第 1 题) 图 (1)(2)(3) 分别为函数 $y=f\left(x\right)$ 在三个不同范围的图象. 能否仅根据其中一个图象, 得出函数 $y=f\left(x\right)$ 在某个区间只有一个零点的判断? 为什么?
-
-图:共三幅直角坐标图,分别标为图 (1)(2)(3),每幅图均在某一有限区间内画出一条连续不断的函数曲线 $y=f\left(x\right)$;在各自显示的区间内,曲线与 $x$ 轴看似只有一个交点(穿过或相切),但区间以外曲线的走势未画出.
-
-### 解答 练习一
-
-由**常用结论 4.5.2** (函数零点存在定理), 图象连续且 $f\left(a\right)f\left(b\right)< 0$ 只能保证区间内至少有一个零点, 不能保证只有一个.
-
-仅凭一个范围的图象不能得出函数在某个区间只有一个零点的判断. 因为图象可能在该区间内多次穿过 $x$ 轴, 也可能与 $x$ 轴相切, 还可能存在其他未显示的零点. 要判断零点个数, 还需结合函数的单调性或更广泛范围的图象. $\blacksquare$
-
-## 练习二
-
-(练习 4.5 第 2 题) 利用计算工具画出函数的图象, 并指出下列函数零点所在的大致区间.
-
-(1) $f\left(x\right)=-x^3-3x+5$;
-
-(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$;
-
-(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$;
-
-(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
-
-图:共四幅小坐标图.(1) $f\left(x\right)=-x^3-3x+5$ 为一条三次曲线,在 $x=1$ 附近位于 $x$ 轴上方,$x=2$ 附近位于下方,零点在 $\left(1,2\right)$;(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ 定义域为 $x> 2$,在 $x=3$ 附近位于 $x$ 轴下方,$x=4$ 附近位于上方,零点在 $\left(3,4\right)$;(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ 为一条单调上升曲线,在 $x=0$ 附近位于下方,$x=1$ 附近位于上方,零点在 $\left(0,1\right)$;(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ 为一条多次穿越 $x$ 轴的曲线,零点分别在 $\left(-4,-3\right)$,$\left(-3,-2\right)$,$\left(2,3\right)$ 三处.
-
-### 解答 练习二
-
-由**常用结论 4.5.2** (函数零点存在定理), 找到端点函数值异号的区间即可.
-
-(1) $f\left(1\right)=1> 0$, $f\left(2\right)=-8-6+5=-9< 0$, 故零点在 $\left(1,2\right)$.
-
-(2) 定义域为 $x> 2$. $f\left(3\right)=6\ln 1-3=-3< 0$, $f\left(4\right)=8\ln 2-3\approx 2.54> 0$, 故零点在 $\left(3,4\right)$.
-
-(3) $f\left(0\right)=\mathrm e^{-1}-4< 0$, $f\left(1\right)=1+4-4=1> 0$, 故零点在 $\left(0,1\right)$.
-
-(4) $f\left(-4\right)=-4< 0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15> 0$, 零点在 $\left(-4,-3\right)$; $f\left(-2\right)=-2< 0$, 零点在 $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70< 0$, $f\left(3\right)=3> 0$, 零点在 $\left(2,3\right)$. $\blacksquare$
-
-## 练习三
-
-(练习 4.5 第 3 题) 借助信息技术, 用二分法求函数 $f\left(x\right)=x^3+1.1x^2+0.9x-1.4$ 在区间 $\left(0,1\right)$ 内零点的近似值 (精确度为 $0.1$).
-
-### 解答 练习三
-
-由**定义 4.5.3 (二分法)**.
-
-$f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55< 0$, 零点在 $\left(0.5,1\right)$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.316> 0$, 零点在 $\left(0.5,0.75\right)$. 取中点 $0.625$, $f\left(0.625\right)\approx -0.163< 0$, 零点在 $\left(0.625,0.75\right)$. 此时 $\lvert 0.75-0.625\rvert=0.125> 0.1$. 取中点 $0.6875$, $f\left(0.6875\right)\approx 0.064> 0$, 零点在 $\left(0.625,0.6875\right)$. 此时 $\lvert 0.6875-0.625\rvert=0.0625< 0.1$. 故零点近似值可取 $0.625$. $\blacksquare$
-
-## 练习四
-
-(练习 4.5 第 4 题) 借助信息技术, 用二分法求方程 $x=3-\lg x$ 在区间 $\left(2,3\right)$ 内的近似解 (精确度为 $0.1$).
-
-### 解答 练习四
-
-由**定义 4.5.3 (二分法)**.
-
-原方程即 $x+\lg x-3=0$. 令 $f\left(x\right)=x+\lg x-3$. $f\left(2\right)=2+\lg 2-3\approx -0.699< 0$, $f\left(3\right)=\lg 3\approx 0.477> 0$. 取中点 $2.5$, $f\left(2.5\right)\approx -0.102< 0$, 零点在 $\left(2.5,3\right)$. 取中点 $2.75$, $f\left(2.75\right)\approx 0.189> 0$, 零点在 $\left(2.5,2.75\right)$. 取中点 $2.625$, $f\left(2.625\right)\approx 0.045> 0$, 零点在 $\left(2.5,2.625\right)$. 此时 $\lvert 2.625-2.5\rvert=0.125> 0.1$. 取中点 $2.5625$, $f\left(2.5625\right)\approx -0.029< 0$, 零点在 $\left(2.5625,2.625\right)$. 此时 $\lvert 2.625-2.5625\rvert=0.0625< 0.1$. 故方程近似解可取 $2.5625$. $\blacksquare$
-
-## 练习五
-
-(练习 4.5 第 5 题) 已知 1650 年世界人口为 $5$ 亿, 当时人口的年增长率为 $0.3\%$; 1970 年世界人口为 $36$ 亿, 当时人口的年增长率为 $2.1\%$.
-
-(1) 用马尔萨斯人口模型计算, 什么时候世界人口是 1650 年的 $2$ 倍? 什么时候世界人口是 1970 年的 $2$ 倍?
-
-(2) 实际上, 1850 年以前世界人口就超过了 $10$ 亿; 而 2004 年世界人口还没有达到 $72$ 亿. 你对同样的模型得出的两个结果有何看法?
-
-### 解答 练习五
-
-由**常用结论 4.2.3** (指数增长与指数衰减模型) 与**常用结论 4.3.3** (对数与指数的关系).
-
-(1) 1650 年模型为 $y=5\mathrm e^{0.003t}$. 令 $5\mathrm e^{0.003t}=10$, 即 $\mathrm e^{0.003t}=2$, $t=\frac{\ln 2}{0.003}\approx 231$. 即约 1881 年. 1970 年模型为 $y=36\mathrm e^{0.021t}$. 令 $36\mathrm e^{0.021t}=72$, 即 $\mathrm e^{0.021t}=2$, $t=\frac{\ln 2}{0.021}\approx 33$. 即约 2003 年.
-
-(2) 马尔萨斯人口模型在短期内较准确, 但长期内受资源, 政策, 战争等多种因素影响, 实际人口增长会偏离模型预测. $\blacksquare$
-
-## 练习六
-
-(练习 4.5 第 6 题) 在一段时间内, 某地的野兔快速繁殖, 野兔总只数的倍增期为 $21$ 个月, 那么 $1$ 万只野兔增长到 $1$ 亿只野兔大约需要多少年?
-
-### 解答 练习六
-
-由**常用结论 4.3.3** (对数与指数的关系).
-
-设经过 $n$ 次倍增, $10^4\times 2^n=10^8$, 即 $2^n=10^4$, $n=\log_2 10^4=4\log_2 10\approx 13.29$. 倍增期为 $21$ 个月 $=1.75$ 年, 故年数约为 $13.29\times 1.75\approx 23.3$ 年. $\blacksquare$
-
-## 练习七
-
-(练习 4.5 第 7 题) 1959 年, 考古学家在河南洛阳偃师二里头村发掘出了一批古建筑群, 从其中的某样本中检测出碳 $14$ 的残余量约为初始量的 $62.76\%$, 能否以此推断二里头遗址大概是什么年代的?
-
-### 解答 练习七
-
-由**常用结论 4.3.3** (对数与指数的关系).
-
-碳 $14$ 的半衰期为 $5730$ 年, 残余量模型为 $y=k\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x$. 令 $\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x=0.6276$, 则 $x=\log_{\sqrt\left[5730\right]{1/2}} 0.6276=\frac{\ln 0.6276}{\ln\sqrt\left[5730\right]{1/2}}=\frac{5730\ln 0.6276}{\ln\left(1/2\right)}\approx\frac{5730\times\left(-0.466\right)}{-0.693}\approx 3850$. 故该样本约为 $3850$ 年前, 即约公元前 $1950$ 年, 二里头遗址大概建于公元前 $2000$ 年前后. $\blacksquare$
-
-## 练习八
-
-(练习 4.5 第 8 题) 某地今年 $1$ 月, $2$ 月, $3$ 月患某种传染病的人数分别为 $52$, $61$, $68$. 为了预测以后各月的患病人数, 甲选择了模型 $y=ax^2+bx+c$, 乙选择了模型 $y=pq^x+r$, 其中 $y$ 为患病人数, $x$ 为月份数, $a,b,c,p,q,r$ 都是常数. 结果 $4$ 月, $5$ 月, $6$ 月份的患病人数分别为 $74$, $78$, $83$, 你认为谁选择的模型更符合实际?
-
-### 解答 练习八
-
-由**常用结论 4.4.4** (不同函数增长的差异).
-
-甲的二次模型: 代入 $\left(1,52\right)$, $\left(2,61\right)$, $\left(3,68\right)$, 解得 $a=-1$, $b=12$, $c=41$, 即 $y=-x^2+12x+41$. 预测 $x=4$ 时 $y=73$, $x=5$ 时 $y=76$, $x=6$ 时 $y=77$, 与实际 $74$, $78$, $83$ 误差较大. 乙的指数模型: 代入三点解得 $q\approx\frac{7}{9}$, 预测后期增长逐渐放缓, 与实际患病人数的增长趋势更接近. 故乙选择的模型更符合实际. $\blacksquare$
-
-## 练习九
-
-(练习 4.5 第 9 题) 由于提高了养殖技术并扩大了养殖规模, 某地的肉鸡产量在不断增加. 2008~2018 年的 $11$ 年, 上市的肉鸡数量从 $7690$ 吨增至 $9230$ 吨; 同期该地的人口数从 $100.0$ 万增至 $112.7$ 万.
-
-(1) 分别求出能近似地反映上述两组数据变化规律的函数;
-
-(2) 如果 2017 年该地上市的肉鸡基本能满足本地的需求, 那么 2018 年是否能满足市场的需求?
-
-(3) 按上述两表的变化趋势, 你对该地 2018 年后肉鸡市场的发展有何建议?
-
-### 解答 练习九
-
-由**常用结论 4.4.4** (不同函数增长的差异).
-
-(1) 肉鸡数量增长量较均匀, 近似线性函数; 人口数增长量也较均匀, 近似线性函数. 肉鸡可近似为 $y=156.8x+7533$ ($x$ 为 2008 年起的年数); 人口可近似为 $y=1.27x+99.3$.
-
-(2) 2017 年人均肉鸡 $9080/111.3\approx 81.6\;\mathrm{kg/人}$; 2018 年人均肉鸡 $9230/112.7\approx 81.9\;\mathrm{kg/人}$, 略高于 2017 年, 基本能满足市场需求.
-
-(3) 人口增长速度略快于肉鸡增长速度, 人均肉鸡占有量增长有限, 建议继续扩大肉鸡养殖规模, 以满足人口增长带来的需求. $\blacksquare$
+> 对于函数 f(x), 如果存在一个非零常数 T, 使得当 x 取定义域内的每一个值时, 都有 f(x+T) = f(x), 则 f(x) 叫做周期函数, T 叫做这个函数的周期.
+> **定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
+> 
+> 参见教材相应章节关于此概念的论述.
+> **定义 5.7.1 (简谐运动)**
+> 
+> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
+> **定义 5.7.2 (振幅, 周期, 频率, 相位)**
+> 
+> 函数 y = A sin(omega x + phi) 中, A 是振幅, T = 2pi/omega 是周期, f = 1/T 是频率, omega x + phi 是相位, phi 是初相.
 
 ## 习题一
 
-(习题 4.5 复习巩固第 1 题) 下列函数图象与 $x$ 轴均有交点, 其中不能用二分法求其零点的是 $\;\_\_\;$. (填写上所有符合条件的图号)
+(习题 5.5 复习巩固第 4 题) 在 $\triangle ABC$ 中, $\cos A=\frac{12}{13}$, $\cos B=\frac{3}{5}$, 求 $\cos C$ 的值.
 
 ### 解答 习题一
 
-由**定义 4.5.3 (二分法)**, 二分法要求 $f\left(a\right)f\left(b\right)< 0$, 即图象穿过 $x$ 轴.
+由 $C=\pi-\left(A+B\right)$, 得 $\cos C=-\cos\left(A+B\right)$.
 
-图 ① 中图象与 $x$ 轴相切 (不穿过), 图 ③ 中图象多次与 $x$ 轴相切 (接触但不穿过), 均不满足 $f\left(a\right)f\left(b\right)< 0$, 不能用二分法. 图 ② 和图 ④ 中图象穿过 $x$ 轴, 可以用二分法. 故不能用二分法求零点的是 ①③. $\blacksquare$
+由 $\cos A=\frac{12}{13}$, 得 $\sin A=\frac{5}{13}$. 由 $\cos B=\frac{3}{5}$, 得 $\sin B=\frac{4}{5}$. 故
+
+$$
+\cos C=-\cos\left(A+B\right)=-\left(\cos A\cos B-\sin A\sin B\right)=-\left(\frac{12}{13}\cdot\frac{3}{5}-\frac{5}{13}\cdot\frac{4}{5}\right)=-\frac{36-20}{65}=-\frac{16}{65}.
+$$
+
+$\blacksquare$
 
 ## 习题二
 
-(习题 4.5 复习巩固第 2 题) 已知函数 $y=f\left(x\right)$ 的图象是一条连续不断的曲线, 且有如下对应值表: $x=1,2,3,4,5,6$ 时 $y=136.136,15.552,-3.92,10.88,-52.488,-232.064$. 函数 $y=f\left(x\right)$ 在哪几个区间内一定有零点? 为什么?
+(习题 5.5 复习巩固第 5 题) 已知 $\tan\left(\alpha+\beta\right)=3$, $\tan\left(\alpha-\beta\right)=5$, 求 $\tan2\alpha$, $\tan2\beta$ 的值.
 
 ### 解答 习题二
 
-由**常用结论 4.5.2** (函数零点存在定理).
+由 $2\alpha=\left(\alpha+\beta\right)+\left(\alpha-\beta\right)$, $2\beta=\left(\alpha+\beta\right)-\left(\alpha-\beta\right)$.
 
-$f\left(2\right)=15.552> 0$, $f\left(3\right)=-3.92< 0$, $f\left(2\right)f\left(3\right)< 0$, 故 $\left(2,3\right)$ 内一定有零点; $f\left(3\right)< 0$, $f\left(4\right)=10.88> 0$, $f\left(3\right)f\left(4\right)< 0$, 故 $\left(3,4\right)$ 内一定有零点; $f\left(4\right)> 0$, $f\left(5\right)=-52.488< 0$, $f\left(4\right)f\left(5\right)< 0$, 故 $\left(4,5\right)$ 内一定有零点. $\blacksquare$
+由**公式 5.5.5**, 得 $\tan2\alpha=\frac{3+5}{1-3\times5}=\frac{8}{-14}=-\frac{4}{7}$.
+
+由**公式 5.5.6**, 得 $\tan2\beta=\frac{3-5}{1+3\times5}=\frac{-2}{16}=-\frac{1}{8}$. $\blacksquare$
 
 ## 习题三
 
-(习题 4.5 复习巩固第 3 题) 已知函数 $f\left(x\right)=x^3-2x+1$, 求证: 方程 $f\left(x\right)=x$ 在 $\left(-1,2\right)$ 内至少有两个实数解.
+(习题 5.5 复习巩固第 6 题) 化简:
+
+(1) $\sin347^{\circ}\cos148^{\circ}+\sin77^{\circ}\cos58^{\circ}$;
+
+(2) $\sin164^{\circ}\sin224^{\circ}+\sin254^{\circ}\sin314^{\circ}$;
+
+(3) $\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)-\cos\left(\beta+\alpha\right)\sin\left(\beta-\gamma\right)$;
+
+(4) $\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\gamma-\beta\right)$;
+
+(5) $\frac{\tan\frac{5\pi}{12}+\tan\frac{\pi}{12}}{1-\tan\frac{5\pi}{12}\tan\frac{\pi}{12}}$;
+
+(6) $\frac{2\sin\alpha\sin\beta+\cos\left(\alpha+\beta\right)}{\cos\left(\alpha-\beta\right)}$.
 
 ### 解答 习题三
 
-由**常用结论 4.5.2** (函数零点存在定理).
+由**公式 5.5.1** 至**公式 5.5.6**.
 
-令 $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1> 0$, $g\left(1\right)=1-3+1=-1< 0$, $g\left(0\right)g\left(1\right)< 0$, 故 $g\left(x\right)$ 在 $\left(0,1\right)$ 内至少有一个零点; $g\left(1\right)< 0$, $g\left(2\right)=8-6+1=3> 0$, $g\left(1\right)g\left(2\right)< 0$, 故 $g\left(x\right)$ 在 $\left(1,2\right)$ 内至少有一个零点. 因此方程 $f\left(x\right)=x$ 在 $\left(-1,2\right)$ 内至少有两个实数解. $\blacksquare$
+(1) 由 $\sin347^{\circ}=\sin\left(-13^{\circ}\right)=-\sin13^{\circ}$, $\cos148^{\circ}=-\cos32^{\circ}$, 得原式 $=\sin13^{\circ}\cos32^{\circ}+\cos13^{\circ}\sin32^{\circ}=\sin45^{\circ}=\frac{\sqrt{2}}{2}$.
+
+(2) 由诱导公式, 得原式 $=-\sin16^{\circ}\sin36^{\circ}+\cos16^{\circ}\cos36^{\circ}=\cos\left(16^{\circ}+36^{\circ}\right)=\cos52^{\circ}$.
+
+(3) 由 $\sin\left(\beta-\gamma\right)=-\sin\left(\gamma-\beta\right)$, 得原式 $=\sin\left(\alpha+\beta\right)\cos\left(\gamma-\beta\right)+\cos\left(\alpha+\beta\right)\sin\left(\gamma-\beta\right)=\sin\left(\alpha+\beta+\gamma-\beta\right)=\sin\left(\alpha+\gamma\right)$.
+
+(4) 由 $\cos\left(\gamma-\beta\right)=\cos\left(\beta-\gamma\right)$, 得原式 $=\sin\left(\alpha-\beta\right)\sin\left(\beta-\gamma\right)-\cos\left(\alpha-\beta\right)\cos\left(\beta-\gamma\right)=-\cos\left[\left(\alpha-\beta\right)+\left(\beta-\gamma\right)\right]=-\cos\left(\alpha-\gamma\right)$.
+
+(5) 由**公式 5.5.5**, 得原式 $=\tan\left(\frac{5\pi}{12}+\frac{\pi}{12}\right)=\tan\frac{\pi}{3}=\sqrt{3}$.
+
+(6) 由 $\cos\left(\alpha+\beta\right)=\cos\alpha\cos\beta-\sin\alpha\sin\beta$, $\cos\left(\alpha-\beta\right)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$, 得分子 $=2\sin\alpha\sin\beta+\cos\alpha\cos\beta-\sin\alpha\sin\beta=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos\left(\alpha-\beta\right)$. 故原式 $=1$. $\blacksquare$
 
 ## 习题四
 
-(习题 4.5 复习巩固第 4 题) 利用信息技术, 用二分法求函数 $f\left(x\right)=\ln x-\frac{2}{x}$ 的零点 (精确度为 $0.1$).
+(习题 5.5 复习巩固第 7 题) 已知 $\sin\alpha=0.8$, $\alpha\in\left(0,\frac{\pi}{2}\right)$, 求 $\sin2\alpha$, $\cos2\alpha$ 的值.
 
 ### 解答 习题四
 
-由**定义 4.5.3 (二分法)**.
+由**公式 5.5.7** 及**公式 5.5.8**.
 
-$f\left(2\right)=\ln 2-1\approx -0.307< 0$, $f\left(3\right)=\ln 3-\frac{2}{3}\approx 0.432> 0$. 取中点 $2.5$, $f\left(2.5\right)\approx 0.116> 0$, 零点在 $\left(2,2.5\right)$. 取中点 $2.25$, $f\left(2.25\right)\approx -0.078< 0$, 零点在 $\left(2.25,2.5\right)$. 取中点 $2.375$, $f\left(2.375\right)\approx 0.023> 0$, 零点在 $\left(2.25,2.375\right)$. 此时 $\lvert 2.375-2.25\rvert=0.125> 0.1$. 取中点 $2.3125$, $f\left(2.3125\right)\approx -0.027< 0$, 零点在 $\left(2.3125,2.375\right)$. 此时 $\lvert 2.375-2.3125\rvert=0.0625< 0.1$. 故零点近似值可取 $2.3125$. $\blacksquare$
+由 $\sin\alpha=0.8=\frac{4}{5}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$, 得 $\cos\alpha=\frac{3}{5}$. 故 $\sin2\alpha=2\sin\alpha\cos\alpha=2\times\frac{4}{5}\times\frac{3}{5}=\frac{24}{25}$, $\cos2\alpha=1-2\sin^{2}\alpha=1-2\times\frac{16}{25}=-\frac{7}{25}$. $\blacksquare$
 
 ## 习题五
 
-(习题 4.5 复习巩固第 5 题) 利用信息技术, 用二分法求方程 $0.8^x-1=\ln x$ 的近似解 (精确度为 $0.1$).
+(习题 5.5 复习巩固第 8 题) 求证:
+
+(1) $\left(\sin2\alpha-\cos2\alpha\right)^{2}=1-\sin4\alpha$;
+
+(2) $\tan\left(\frac{x}{2}+\frac{\pi}{4}\right)+\tan\left(\frac{x}{2}-\frac{\pi}{4}\right)=2\tan x$;
+
+(3) $\frac{1+\sin2\varphi}{\cos\varphi+\sin\varphi}=\cos\varphi+\sin\varphi$;
+
+(4) $\frac{2\sin\alpha\cos\alpha}{\cos^{2}\alpha-\sin^{2}\alpha}=\frac{2\tan\alpha}{\left(1-\tan\alpha\right)\left(1+\tan\alpha\right)}$;
+
+(5) $\frac{1-\cos2\theta}{1+\cos2\theta}=\tan^{2}\theta$;
+
+(6) $\frac{1+\sin2\theta-\cos2\theta}{1+\sin2\theta+\cos2\theta}=\tan\theta$.
 
 ### 解答 习题五
 
-由**定义 4.5.3 (二分法)**.
+由**公式 5.5.7** 至**公式 5.5.9**.
 
-令 $f\left(x\right)=0.8^x-1-\ln x$. $f\left(0.5\right)=0.8^{0.5}-1-\ln 0.5\approx 0.587> 0$, $f\left(1\right)=0.8-1-0=-0.2< 0$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.134> 0$, 零点在 $\left(0.75,1\right)$. 取中点 $0.875$, $f\left(0.875\right)\approx -0.045< 0$, 零点在 $\left(0.75,0.875\right)$. 取中点 $0.8125$, $f\left(0.8125\right)\approx 0.042> 0$, 零点在 $\left(0.8125,0.875\right)$. 此时 $\lvert 0.875-0.8125\rvert=0.0625< 0.1$. 故方程近似解可取 $0.8125$. $\blacksquare$
+(1) 左边 $=\sin^{2}2\alpha-2\sin2\alpha\cos2\alpha+\cos^{2}2\alpha=1-\sin4\alpha=$ 右边.
+
+(2) 令 $u=\tan\frac{x}{2}$, 由**公式 5.5.5** 及**公式 5.5.6**, 左边 $=\frac{u+1}{1-u}+\frac{u-1}{1+u}=\frac{\left(u+1\right)^{2}-\left(1-u\right)^{2}}{1-u^{2}}=\frac{4u}{1-u^{2}}=2\cdot\frac{2u}{1-u^{2}}=2\tan x=$ 右边.
+
+(3) 左边 $=\frac{\left(\sin\varphi+\cos\varphi\right)^{2}}{\cos\varphi+\sin\varphi}=\sin\varphi+\cos\varphi=$ 右边.
+
+(4) 左边 $=\frac{\sin2\alpha}{\cos2\alpha}=\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=$ 右边.
+
+(5) 左边 $=\frac{2\sin^{2}\theta}{2\cos^{2}\theta}=\tan^{2}\theta=$ 右边.
+
+(6) 左边 $=\frac{2\sin^{2}\theta+2\sin\theta\cos\theta}{2\cos^{2}\theta+2\sin\theta\cos\theta}=\frac{2\sin\theta\left(\sin\theta+\cos\theta\right)}{2\cos\theta\left(\cos\theta+\sin\theta\right)}=\tan\theta=$ 右边. $\blacksquare$
 
 ## 习题六
 
-(习题 4.5 复习巩固第 6 题) 一种专门占据内存的计算机病毒, 开机时占据内存 $2\;\mathrm{KB}$, 然后每 $3$ 分自身复制一次, 复制后所占内存是原来的 $2$ 倍. 那么开机后多少分, 该病毒会占据 $64\;\mathrm{MB}$ 内存 ($1\;\mathrm{MB}=1024\;\mathrm{KB}$)?
+(习题 5.5 复习巩固第 9 题) 已知 $\sin\left(\alpha+\beta\right)=\frac{1}{2}$, $\sin\left(\alpha-\beta\right)=\frac{1}{3}$, 求证:
+
+(1) $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$;
+
+(2) $\tan\alpha=5\tan\beta$.
 
 ### 解答 习题六
 
-由**常用结论 4.3.3** (对数与指数的关系).
+由**公式 5.5.3** 及**公式 5.5.4**.
 
-$64\;\mathrm{MB}=64\times 1024=65536\;\mathrm{KB}$. 设复制 $n$ 次后达到 $65536\;\mathrm{KB}$, 则 $2\times 2^n=65536$, 即 $2^{n+1}=2^{15}$, $n=14$. 每次间隔 $3$ 分, 故时间为 $14\times 3=42$ 分. $\blacksquare$
+(1) 由 $\sin\left(\alpha+\beta\right)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\frac{1}{2}$, $\sin\left(\alpha-\beta\right)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\frac{1}{3}$. 两式相加得 $2\sin\alpha\cos\beta=\frac{5}{6}$, 相减得 $2\cos\alpha\sin\beta=\frac{1}{6}$. 故 $\sin\alpha\cos\beta=5\cos\alpha\sin\beta$.
+
+(2) 由 (1) 两边同除以 $\cos\alpha\cos\beta$, 得 $\tan\alpha=5\tan\beta$. $\blacksquare$
 
 ## 习题七
 
-(习题 4.5 综合运用第 7 题) 设函数 $f\left(x\right)=ax^2+bx+c$ ($a> 0$, $b,c\in\mathbb R$), 且 $f\left(1\right)=-\frac{a}{2}$, 求证: 函数 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点.
+(习题 5.5 复习巩固第 10 题) 已知 $\frac{1-\tan\theta}{2+\tan\theta}=1$, 求证 $\tan2\theta=-4\tan\left(\theta+\frac{\pi}{4}\right)$.
 
 ### 解答 习题七
 
-由**常用结论 4.5.2** (函数零点存在定理).
+由已知得 $1-\tan\theta=2+\tan\theta$, 即 $\tan\theta=-\frac{1}{2}$.
 
-$f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a> 0$. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 异号, 则由零点存在定理, $\left(0,2\right)$ 内有零点. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 同号, 因 $f\left(0\right)+f\left(2\right)> 0$, 故二者均为正. 又 $f\left(1\right)=-\frac{a}{2}< 0$, 故 $f\left(0\right)f\left(1\right)< 0$ 或 $f\left(1\right)f\left(2\right)< 0$, 即零点在 $\left(0,1\right)$ 或 $\left(1,2\right)$ 内. 因此 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点. $\blacksquare$
+左边 $=\tan2\theta=\frac{2\tan\theta}{1-\tan^{2}\theta}=\frac{-1}{1-\frac{1}{4}}=-\frac{4}{3}$.
+
+右边 $=-4\tan\left(\theta+\frac{\pi}{4}\right)=-4\cdot\frac{\tan\theta+1}{1-\tan\theta}=-4\cdot\frac{-\frac{1}{2}+1}{1+\frac{1}{2}}=-4\cdot\frac{1}{3}=-\frac{4}{3}$.
+
+左边 $=$ 右边, 得证. $\blacksquare$
 
 ## 习题八
 
-(习题 4.5 综合运用第 8 题) 已知函数 $f\left(x\right)=-x^2-3x-2$, $g\left(x\right)=2-\left[f\left(x\right)\right]^2$.
-
-(1) 求函数 $y=g\left(x\right)$ 的解析式;
-
-(2) 利用信息技术, 画出函数 $y=g\left(x\right)$ 的图象;
-
-(3) 求函数 $y=g\left(x\right)$ 的零点 (精确度为 $0.1$).
-
-图:函数 $y=g\left(x\right)=2-\left(x^2+3x+2\right)^2$ 的图象为开口向下的双峰(波浪形)曲线,在 $x=-2$ 与 $x=-1$ 附近各有一个高度为 $2$ 的峰顶,两峰之间在 $x=-1.5$ 处有一个浅谷(高度约 $1.94$),曲线向左,右两端向下延伸趋向 $-\infty$,并与 $x$ 轴交于约 $x\approx-2.71$ 和 $x\approx-0.29$ 两处.
+(习题 5.5 复习巩固第 11 题) 已知一段圆弧所对的圆心角的正弦值等于 $\frac{3}{5}$, 求这段圆弧所对的圆周角的正弦, 余弦和正切.
 
 ### 解答 习题八
 
-由**定义 4.5.1 (函数的零点)**.
+由**公式 5.5.10** (半角公式).
 
-(1) $g\left(x\right)=2-\left(-x^2-3x-2\right)^2=2-\left(x^2+3x+2\right)^2$.
+设圆心角为 $2\theta$, 则圆周角为 $\theta$. 由 $\sin2\theta=\frac{3}{5}$, 得 $\cos2\theta=\pm\frac{4}{5}$.
 
-(2) 图象为开口向下的"波浪形"曲线, 与 $x$ 轴有四个交点.
+若 $\cos2\theta=\frac{4}{5}$, 则 $\sin\theta=\sqrt{\frac{1-\cos2\theta}{2}}=\sqrt{\frac{1}{10}}=\frac{\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1+\cos2\theta}{2}}=\frac{3\sqrt{10}}{10}$, $\tan\theta=\frac{1}{3}$.
 
-(3) 令 $g\left(x\right)=0$, 即 $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. 由 $x^2+3x+2=\sqrt{2}$ 得 $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ 或 $-2.71$. 由 $x^2+3x+2=-\sqrt{2}$ 得 $\Delta=1-4\sqrt{2}< 0$, 无实根. 故零点约为 $-0.3$ 和 $-2.7$. $\blacksquare$
+若 $\cos2\theta=-\frac{4}{5}$, 则 $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\frac{3\sqrt{10}}{10}$, $\cos\theta=\sqrt{\frac{1-\frac{4}{5}}{2}}=\frac{\sqrt{10}}{10}$, $\tan\theta=3$. $\blacksquare$
 
 ## 习题九
 
-(习题 4.5 综合运用第 9 题) 某池塘里浮萍的面积 $y$ (单位: $\mathrm{m^2}$) 与时间 $t$ (单位: 月) 的关系为 $y=a^\top$. 由图知 $t=0$ 时 $y=1$, $t=1$ 时 $y=2$. 关于下列说法:
+(习题 5.5 复习巩固第 12 题) 化简:
 
-(1) 浮萍每月的增长率为 $1$;
+(1) $3\sqrt{15}\sin x+3\sqrt{5}\cos x$;
 
-(2) 第 $5$ 个月时, 浮萍面积就会超过 $30\;\mathrm{m^2}$;
+(2) $\frac{\sqrt{3}}{2}\cos x-\frac{1}{2}\sin x$;
 
-(3) 浮萍每月增加的面积都相等;
+(3) $\sqrt{3}\sin\frac{x}{2}+\cos\frac{x}{2}$;
 
-(4) 若浮萍蔓延到 $2\;\mathrm{m^2}$, $3\;\mathrm{m^2}$, $6\;\mathrm{m^2}$ 所经过的时间分别是 $t_1$, $t_2$, $t_3$, 则 $t_1+t_2=t_3$.
-
-其中正确的说法是 ( ).
-
-(A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
-
-图:横轴为时间 $t$(单位:月),纵轴为浮萍面积 $y$(单位: $\mathrm{m^2}$),指数增长曲线 $y=2^\top$ 过点 $\left(0,1\right)$ 和 $\left(1,2\right)$,单调递增且上升越来越陡.
+(4) $\frac{\sqrt{2}}{4}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{6}}{4}\cos\left(\frac{\pi}{4}-x\right)$.
 
 ### 解答 习题九
 
-由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.3.4** (对数运算性质).
+由**公式 5.5.11** (辅助角公式).
 
-由 $a^0=1$, $a^1=2$ 得 $a=2$, $y=2^\top$. (1) 每月增长为 $2^{t+1}/2^\top=2$, 即增长率为 $1$, 正确. (2) $t=5$ 时 $y=2^5=32> 30$, 正确. (3) 每月增加面积为 $2^{t+1}-2^\top=2^\top$, 随 $t$ 增大, 不正确. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, 正确. 故选 (C). $\blacksquare$
+(1) 原式 $=6\sqrt{5}\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=6\sqrt{5}\sin\left(x+\frac{\pi}{6}\right)$.
+
+(2) 原式 $=\cos\frac{\pi}{6}\cos x-\sin\frac{\pi}{6}\sin x=\cos\left(x+\frac{\pi}{6}\right)$.
+
+(3) 原式 $=2\left(\frac{\sqrt{3}}{2}\sin\frac{x}{2}+\frac{1}{2}\cos\frac{x}{2}\right)=2\sin\left(\frac{x}{2}+\frac{\pi}{6}\right)$.
+
+(4) 原式 $=\frac{\sqrt{2}}{2}\left(\frac{1}{2}\sin\left(\frac{\pi}{4}-x\right)+\frac{\sqrt{3}}{2}\cos\left(\frac{\pi}{4}-x\right)\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{\pi}{4}-x+\frac{\pi}{3}\right)=\frac{\sqrt{2}}{2}\sin\left(\frac{7\pi}{12}-x\right)$. $\blacksquare$
 
 ## 习题十
 
-(习题 4.5 综合运用第 10 题) 一种药在病人血液中的量保持在 $1500\;\mathrm{mg}$ 以上时才有疗效. 现给某病人的静脉注射了这种药 $2500\;\mathrm{mg}$, 如果药在血液中以每小时 $20\%$ 的比例衰减, 为保证有疗效, 最迟应在什么时候再向病人的血液补充这种药 (精确到 $0.1\;\mathrm{h}$)?
+(习题 5.5 综合运用第 13 题) 在 $\triangle ABC$ 中, 已知 $\tan A$, $\tan B$ 是 $x$ 的方程 $x^{2}+p\left(x+1\right)+1=0$ 的两个实根, 求 $\angle C$.
 
 ### 解答 习题十
 
-由**常用结论 4.3.3** (对数与指数的关系).
+由韦达定理及**公式 5.5.5**.
 
-设经过 $t$ 小时后药量为 $2500\times 0.8^\top\;\mathrm{mg}$. 令 $2500\times 0.8^\top=1500$, 即 $0.8^\top=0.6$, $t=\log_{0.8} 0.6=\frac{\lg 0.6}{\lg 0.8}\approx\frac{-0.222}{-0.097}\approx 2.3$. 故最迟应在 $2.3\;\mathrm{h}$ 后补充. $\blacksquare$
+由 $\tan A+\tan B=-p$, $\tan A\tan B=p+1$. 故 $\tan\left(A+B\right)=\frac{\tan A+\tan B}{1-\tan A\tan B}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. 由 $C=\pi-\left(A+B\right)$, 得 $\tan C=-\tan\left(A+B\right)=-1$, 故 $C=135^{\circ}$. $\blacksquare$
 
 ## 习题十一
 
-(习题 4.5 综合运用第 11 题) 2008 年全球产生的数据量为 $0.49\;\mathrm{ZB}$, 2009 年为 $0.8\;\mathrm{ZB}$, 2010 年为 $1.2\;\mathrm{ZB}$, 2011 年为 $1.82\;\mathrm{ZB}$.
+(习题 5.5 综合运用第 14 题) 在 $\triangle ABC$ 中, $B=\frac{\pi}{4}$, $BC$ 边上的高等于 $\frac{1}{3}BC$, 则 $\cos A=$ ( ).
 
-(1) 为了较好地描述 2008 年起全球产生的数据量与时间 $x$ (单位: 年) 的关系, 从函数 $f\left(x\right)=kx+b$ 和 $g\left(x\right)=ab^x$ 中选择一个, 并求出解析式.
+(A) $\frac{3\sqrt{10}}{10}$
 
-(2) 根据 (1) 中所求函数模型, 估计 2018 年全球所产生的数据量, 并与所公布数据比较, 你有何看法?
+(B) $\frac{\sqrt{10}}{10}$
+
+(C) $-\frac{\sqrt{10}}{10}$
+
+(D) $-\frac{3\sqrt{10}}{10}$
 
 ### 解答 习题十一
 
-由**常用结论 4.4.4** (不同函数增长的差异).
+由已知条件设 $BC=3$, 则高 $AD=1$. 在 $\text{Rt}\triangle ABD$ 中, $B=45^{\circ}$, $AD=1$, 故 $BD=1$, $AB=\sqrt{2}$. $DC=BC-BD=2$. 在 $\text{Rt}\triangle ADC$ 中, $AD=1$, $DC=2$, 故 $AC=\sqrt{5}$.
 
-(1) 数据增长量依次为 $0.31$, $0.4$, $0.62$, 增长速度越来越快, 符合指数增长特征, 故选 $g\left(x\right)=ab^x$. 设 2008 年为 $x=0$, 则 $a=0.49$. 由 $0.49b=0.8$ 得 $b\approx 1.633$. 故 $g\left(x\right)=0.49\times 1.633^x$.
+由**公式 5.5.2**, $\cos A=\cos\left(\angle BAD+\angle DAC\right)$. $\angle BAD=45^{\circ}$, $\tan\angle DAC=\frac{DC}{AD}=2$. 故 $\sin\angle DAC=\frac{2}{\sqrt{5}}$, $\cos\angle DAC=\frac{1}{\sqrt{5}}$.
 
-(2) 2018 年对应 $x=10$, $g\left(10\right)=0.49\times 1.633^{10}\approx 65\;\mathrm{ZB}$. 实际数据可能因技术发展, 政策调整等因素偏离模型预测. $\blacksquare$
+$$
+\cos A=\cos45^{\circ}\cos\angle DAC-\sin45^{\circ}\sin\angle DAC=\frac{\sqrt{2}}{2}\cdot\frac{1}{\sqrt{5}}-\frac{\sqrt{2}}{2}\cdot\frac{2}{\sqrt{5}}=-\frac{\sqrt{10}}{10}.
+$$
+
+选 (C). $\blacksquare$
+
+## 信息技术应用一
+
+(思考 1) 阅读 "利用信息技术制作三角函数表" 一文, 说明如何利用和角公式递推计算三角函数值.
+
+### 解答 信息技术应用一
+
+由**公式 5.5.3** (和角正弦公式).
+
+取初始值 $\sin1'\approx0.000290888$, $\cos1'=\sqrt{1-\sin^{2}1'}$. 令 $\alpha_{0}=1'$, $\alpha_{n}=\alpha_{n-1}+1'$. 由 $\sin\alpha_{n}=\sin1'\cos\alpha_{n-1}+\cos1'\sin\alpha_{n-1}$, $\cos\alpha_{n}=\sqrt{1-\sin^{2}\alpha_{n}}$, 即可递推计算出 $0^{\circ}\sim90^{\circ}$ 每隔 $1'$ 的三角函数值. $\blacksquare$
+
+## 练习一
+
+(练习 5.6 第 1 题) 画出下列函数在长度为一个周期的闭区间上的简图:
+
+(1) $y=\frac{1}{2}\sin x$;
+
+(2) $y=\sin3x$;
+
+(3) $y=\sin\left(x-\frac{\pi}{3}\right)$;
+
+(4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$.
+
+图:共四幅长度为一个周期的正弦简图.(1) $y=\frac{1}{2}\sin x$:周期 $2\pi$,振幅 $\frac{1}{2}$,在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动;(2) $y=\sin3x$:周期 $\frac{2\pi}{3}$,振幅 $1$,在 $y=-1$ 与 $y=1$ 之间波动且波形较密;(3) $y=\sin\left(x-\frac{\pi}{3}\right)$:周期 $2\pi$,振幅 $1$,相当于 $y=\sin x$ 向右平移 $\frac{\pi}{3}$;(4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$:周期 $\pi$,振幅 $2$,在 $y=-2$ 与 $y=2$ 之间波动.
+
+### 解答 练习一
+
+由**性质 5.6.1** (图象变换).
+
+(1) 将 $y=\sin x$ 图象上所有点的纵坐标缩短到原来的 $\frac{1}{2}$ (横坐标不变), 即得 $y=\frac{1}{2}\sin x$ 的图象. 周期 $2\pi$, 振幅 $\frac{1}{2}$.
+
+(2) 将 $y=\sin x$ 图象上所有点的横坐标缩短到原来的 $\frac{1}{3}$ (纵坐标不变), 即得 $y=\sin3x$ 的图象. 周期 $\frac{2\pi}{3}$, 振幅 $1$.
+
+(3) 将 $y=\sin x$ 图象上所有点向右平移 $\frac{\pi}{3}$ 个单位长度, 即得 $y=\sin\left(x-\frac{\pi}{3}\right)$ 的图象. 周期 $2\pi$, 初相 $-\frac{\pi}{3}$.
+
+(4) 将 $y=\sin x$ 图象向右平移 $\frac{\pi}{8}$, 横坐标缩短到原来的 $\frac{1}{2}$, 纵坐标伸长到原来的 $2$ 倍, 即得 $y=2\sin\left(2x-\frac{\pi}{4}\right)$ 的图象. 周期 $\pi$, 振幅 $2$. $\blacksquare$
+
+## 练习二
+
+(练习 5.6 第 2 题) 已知函数 $y=3\sin\left(x+\frac{\pi}{5}\right)$ 的图象为 $C$.
+
+(1) 为了得到函数 $y=3\sin\left(x-\frac{\pi}{5}\right)$ 的图象, 只要把 $C$ 上所有的点 ( ).
+
+(A) 向右平行移动 $\frac{\pi}{5}$ 个单位长度
+
+(B) 向左平行移动 $\frac{\pi}{5}$ 个单位长度
+
+(C) 向右平行移动 $\frac{2\pi}{5}$ 个单位长度
+
+(D) 向左平行移动 $\frac{2\pi}{5}$ 个单位长度
+
+(2) 为了得到函数 $y=3\sin\left(2x+\frac{\pi}{5}\right)$ 的图象, 只要把 $C$ 上所有的点 ( ).
+
+(A) 横坐标伸长到原来的 $2$ 倍, 纵坐标不变
+
+(B) 横坐标缩短到原来的 $\frac{1}{2}$, 纵坐标不变
+
+(C) 纵坐标伸长到原来的 $2$ 倍, 横坐标不变
+
+(D) 纵坐标缩短到原来的 $\frac{1}{2}$, 横坐标不变
+
+(3) 为了得到函数 $y=4\sin\left(x+\frac{\pi}{5}\right)$ 的图象, 只要把 $C$ 上所有的点 ( ).
+
+(A) 横坐标伸长到原来的 $\frac{4}{3}$ 倍, 纵坐标不变
+
+(B) 横坐标缩短到原来的 $\frac{3}{4}$, 纵坐标不变
+
+(C) 纵坐标伸长到原来的 $\frac{4}{3}$ 倍, 横坐标不变
+
+(D) 纵坐标缩短到原来的 $\frac{3}{4}$, 横坐标不变
+
+### 解答 练习二
+
+由**性质 5.6.1** (图象变换).
+
+(1) 由 $x+\frac{\pi}{5}\to x-\frac{\pi}{5}$, 即 $x\to x-\frac{2\pi}{5}$, 需向右平移 $\frac{2\pi}{5}$ 个单位. 选 (C).
+
+(2) 由 $x\to2x$, 横坐标缩短到原来的 $\frac{1}{2}$. 选 (B).
+
+(3) 由 $3\to4$, 纵坐标伸长到原来的 $\frac{4}{3}$ 倍. 选 (C). $\blacksquare$
+
+## 练习三
+
+(练习 5.6 第 3 题) 函数 $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$ 的图象与正弦曲线有什么关系?
+
+### 解答 练习三
+
+由**性质 5.6.1** (图象变换).
+
+由 $y=\sin x$ 的图象向右平移 $\frac{\pi}{4}$, 横坐标伸长到原来的 $2$ 倍, 纵坐标缩短到原来的 $\frac{2}{3}$, 即得 $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$ 的图象. $\blacksquare$
+
+## 练习四
+
+(练习 5.6 第 4 题) 函数 $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$ 的图象与正弦曲线有什么关系?
+
+### 解答 练习四
+
+由**性质 5.6.1** (图象变换).
+
+由 $y=\sin x$ ($x\in\mathbb R$) 的图象向左平移 $\frac{\pi}{12}$ 个单位长度, 再取 $x\geq0$ 的部分, 即得 $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$ 的图象. $\blacksquare$
 
 ## 习题十二
 
-(习题 4.5 综合运用第 12 题) 某地不同身高的未成年男性的体重平均值如下表: 身高 $60\sim 170\;\mathrm{cm}$ 时, 平均体重从 $6.13\;\mathrm{kg}$ 增至 $55.05\;\mathrm{kg}$.
+(习题 5.6 复习巩固第 1 题) 选择题.
 
-(1) 根据表中提供的数据建立恰当的函数模型, 使它能近似地反映这个地区未成年男性平均体重 $y$ (单位: $\mathrm{kg}$) 与身高 $x$ (单位: $\mathrm{cm}$) 的函数关系, 并写出这个函数的解析式.
+(1) 为了得到函数 $y=\cos\left(x+\frac{1}{3}\right)$ 的图象, 只需把余弦曲线上所有的点 ( ).
 
-(2) 若体重超过相同身高男性体重平均值的 $1.2$ 倍为偏胖, 低于 $0.8$ 倍为偏瘦, 那么该地一名身高为 $175\;\mathrm{cm}$, 体重为 $78\;\mathrm{kg}$ 的在校男生的体重是否正常?
+(A) 向左平行移动 $\frac{\pi}{3}$ 个单位长度
+
+(B) 向右平行移动 $\frac{\pi}{3}$ 个单位长度
+
+(C) 向左平行移动 $\frac{1}{3}$ 个单位长度
+
+(D) 向右平行移动 $\frac{1}{3}$ 个单位长度
+
+(2) 为了得到函数 $y=\cos\frac{x}{5}$ 的图象, 只需把余弦曲线上所有的点 ( ).
+
+(A) 横坐标伸长到原来的 $5$ 倍, 纵坐标不变
+
+(B) 横坐标缩短到原来的 $\frac{1}{5}$, 纵坐标不变
+
+(C) 纵坐标伸长到原来的 $5$ 倍, 横坐标不变
+
+(D) 纵坐标缩短到原来的 $\frac{1}{5}$, 横坐标不变
+
+(3) 为了得到函数 $y=\frac{1}{4}\cos x$ 的图象, 只需把余弦曲线上所有的点 ( ).
+
+(A) 横坐标伸长到原来的 $4$ 倍, 纵坐标不变
+
+(B) 横坐标缩短到原来的 $\frac{1}{4}$, 纵坐标不变
+
+(C) 纵坐标伸长到原来的 $4$ 倍, 横坐标不变
+
+(D) 纵坐标缩短到原来的 $\frac{1}{4}$, 横坐标不变
 
 ### 解答 习题十二
 
-由**常用结论 4.4.4** (不同函数增长的差异).
+由**性质 5.6.1** (图象变换).
 
-(1) 体重随身高增长加速, 近似幂函数 $y=ax^b$. 取 $\left(60,6.13\right)$ 和 $\left(170,55.05\right)$, 相除得 $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, 解得 $b\approx 2.0$, $a\approx 0.0017$. 故 $y\approx 0.0017x^2$.
+(1) 由 $x\to x+\frac{1}{3}$, 向左平移 $\frac{1}{3}$ 个单位. 选 (C).
 
-(2) 当 $x=175$ 时, $y\approx 0.0017\times 175^2\approx 52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx 1.49> 1.2$, 故该男生体重偏胖. $\blacksquare$
+(2) 由 $x\to\frac{x}{5}$, 横坐标伸长到原来的 $5$ 倍. 选 (A).
+
+(3) 由 $1\to\frac{1}{4}$, 纵坐标缩短到原来的 $\frac{1}{4}$. 选 (D). $\blacksquare$
 
 ## 习题十三
 
-(习题 4.5 拓广探索第 13 题) 有一道题 "若函数 $f\left(x\right)=24ax^2+4x-1$ 在区间 $\left(-1,1\right)$ 内恰有一个零点, 求实数 $a$ 的取值范围", 某同学给出了如下解答: 由 $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)< 0$, 解得 $-\frac{1}{8}< a< \frac{5}{24}$. 上述解答正确吗? 若不正确, 请说明理由, 并给出正确的解答.
+(习题 5.6 复习巩固第 2 题) 画出下列函数在长度为一个周期的闭区间上的简图:
+
+(1) $y=4\sin\frac{x}{2}$;
+
+(2) $y=\frac{1}{2}\cos3x$;
+
+(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$;
+
+(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$.
+
+图:共四幅长度为一个周期的简图.(1) $y=4\sin\frac{x}{2}$:周期 $4\pi$,振幅 $4$,在 $y=-4$ 与 $y=4$ 之间波动且波形较疏;(2) $y=\frac{1}{2}\cos3x$:周期 $\frac{2\pi}{3}$,振幅 $\frac{1}{2}$,在 $y=-\frac{1}{2}$ 与 $y=\frac{1}{2}$ 之间波动;(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$:周期 $\pi$,振幅 $3$;(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$:周期 $4\pi$,振幅 $2$.
 
 ### 解答 习题十三
 
-由**常用结论 4.5.2** (函数零点存在定理) 与**定义 4.5.1 (函数的零点)**.
+由**性质 5.6.1** (图象变换).
 
-上述解答不正确. 当 $a=0$ 时, $f\left(x\right)=4x-1$, 零点 $x=\frac{1}{4}\in\left(-1,1\right)$, 恰有一个零点, 已包含在 $-\frac{1}{8}< a< \frac{5}{24}$ 内. 但还需考虑判别式为零的情况: $\Delta=16+96a=0$ 时 $a=-\frac{1}{6}$, 此时零点 $x=\frac{1}{2}\in\left(-1,1\right)$, 为二重根, 也恰有一个零点, 但 $a=-\frac{1}{6}< -\frac{1}{8}$, 不在原范围内. 此外, $a=-\frac{1}{8}$ 时 $f\left(1\right)=0$, 零点 $x=1$ 不在开区间 $\left(-1,1\right)$ 内; $a=\frac{5}{24}$ 时 $f\left(-1\right)=0$, 零点 $x=-1$ 不在开区间 $\left(-1,1\right)$ 内. 故正确范围为 $a=-\frac{1}{6}$ 或 $-\frac{1}{8}< a< \frac{5}{24}$. $\blacksquare$
+(1) $y=4\sin\frac{x}{2}$: 由 $y=\sin x$ 横坐标伸长到原来的 $2$ 倍, 纵坐标伸长到原来的 $4$ 倍. 周期 $4\pi$, 振幅 $4$.
+
+(2) $y=\frac{1}{2}\cos3x$: 由 $y=\cos x$ 横坐标缩短到原来的 $\frac{1}{3}$, 纵坐标缩短到原来的 $\frac{1}{2}$. 周期 $\frac{2\pi}{3}$, 振幅 $\frac{1}{2}$.
+
+(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$: 由 $y=\sin x$ 向左平移 $\frac{\pi}{12}$, 横坐标缩短到原来的 $\frac{1}{2}$, 纵坐标伸长到原来的 $3$ 倍. 周期 $\pi$, 振幅 $3$.
+
+(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: 由 $y=\cos x$ 向右平移 $\frac{\pi}{2}$, 横坐标伸长到原来的 $2$ 倍, 纵坐标伸长到原来的 $2$ 倍. 周期 $4\pi$, 振幅 $2$. $\blacksquare$
 
 ## 习题十四
 
-(习题 4.5 拓广探索第 14 题) 从甲地到乙地的距离约为 $240\;\mathrm{km}$, 经多次实验得到一辆汽车每小时耗油量 $Q$ (单位: $\mathrm{L}$) 与速度 $v$ (单位: $\mathrm{km/h}$) ($0\le v\le 120$) 的下列数据: $v=0,40,60,80,120$ 时 $Q=0,6.667,8.125,10,20$. 为了描述汽车每小时耗油量与速度的关系, 现有以下三种模型供选择: $Q=av^3+bv^2+cv$, $Q=0.5^v+a$, $Q=k\log_a v+b$.
+(习题 5.6 复习巩固第 3 题) 说明下列函数的图象可由正弦曲线经过怎样的变换得到 (注意定义域):
 
-(1) 选出你认为最符合实际的函数模型, 并写出相应的函数解析式;
+(1) $y=8\sin\left(\frac{x}{4}-\frac{\pi}{8}\right)$, $x\in\left[0,+\infty\right)$;
 
-(2) 从甲地到乙地, 这辆车应以什么速度行驶才能使总耗油量最少?
+(2) $y=\frac{1}{3}\sin\left(3x+\frac{\pi}{7}\right)$, $x\in\left[0,+\infty\right)$.
 
 ### 解答 习题十四
 
-由**常用结论 4.4.4** (不同函数增长的差异).
+由**性质 5.6.1** (图象变换).
 
-(1) $v=0$ 时 $Q=0$, 排除 $Q=0.5^v+a$ (此时 $Q\neq 0$) 和 $Q=k\log_a v+b$ ($v=0$ 时无定义). 选 $Q=av^3+bv^2+cv$. 代入 $\left(40,6.667\right)$, $\left(60,8.125\right)$, $\left(80,10\right)$, 解得 $a=\frac{1}{360000}$, $b=-\frac{1}{3600}$, $c=\frac{7}{24}$. 故 $Q=\frac{v^3}{360000}-\frac{v^2}{3600}+\frac{7v}{24}$.
+(1) 由 $y=\sin x$ 向右平移 $\frac{\pi}{2}$, 横坐标伸长到原来的 $4$ 倍, 纵坐标伸长到原来的 $8$ 倍, 再取 $x\geq0$ 的部分.
 
-(2) 总时间为 $\frac{240}{v}$ 小时, 总耗油量 $=Q\times\frac{240}{v}=240\left(\frac{v^2}{360000}-\frac{v}{3600}+\frac{7}{24}\right)$. 令导数为零: $240\left(\frac{v}{180000}-\frac{1}{3600}\right)=0$, 得 $v=50\;\mathrm{km/h}$. 故以 $50\;\mathrm{km/h}$ 行驶总耗油量最少. $\blacksquare$
+(2) 由 $y=\sin x$ 向左平移 $\frac{\pi}{21}$, 横坐标缩短到原来的 $\frac{1}{3}$, 纵坐标缩短到原来的 $\frac{1}{3}$, 再取 $x\geq0$ 的部分. $\blacksquare$
+
+## 习题十五
+
+(习题 5.6 综合运用第 4 题) 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$, $0< \varphi< \pi$) 在一个周期内的图象如图所示, 此函数的解析式为 $y=$ $\;\_\_\;$ .
+
+图:函数 $y=A\sin\left(\omega x+\varphi\right)$ 在一个周期内的图象,振幅 $A=2$(最大值 $2$,最小值 $-2$),周期为 $\pi$,曲线过点 $\left(0,1\right)$ 且处于上升沿(即 $x=0$ 时函数值为 $1$,随后上升至峰值 $2$).
+
+### 解答 习题十五
+
+由**定义 5.6.1 (振幅)** 至**定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**.
+
+由图象知振幅 $A=2$. 由图象过最高点和最低点的位置关系得周期 $T=\pi$, 故 $\omega=2$. 由图象过点 $\left(0,1\right)$ 且在上升沿, 得 $2\sin\varphi=1$, $\varphi=\frac{\pi}{6}$. 故 $y=2\sin\left(2x+\frac{\pi}{6}\right)$. $\blacksquare$
+
+## 习题十六
+
+(习题 5.6 综合运用第 5 题) 将函数 $y=3\sin\left(2x+\frac{\pi}{4}\right)$ 的图象向左平移 $\frac{\pi}{3}$ 后得到函数 $y=g\left(x\right)$ 的图象, 求 $y=g\left(x\right)$ 的解析式.
+
+### 解答 习题十六
+
+由**性质 5.6.1** (图象变换).
+
+由向左平移 $\frac{\pi}{3}$, 得 $g\left(x\right)=3\sin\left[2\left(x+\frac{\pi}{3}\right)+\frac{\pi}{4}\right]=3\sin\left(2x+\frac{2\pi}{3}+\frac{\pi}{4}\right)=3\sin\left(2x+\frac{11\pi}{12}\right)$. $\blacksquare$
+
+## 习题十七
+
+(习题 5.6 综合运用第 6 题) 某时钟的秒针端点 $A$ 到中心点 $O$ 的距离为 $5\text{ cm}$, 秒针绕点 $O$ 匀速旋转, 当时间 $t=0$ 时, 点 $A$ 与钟面上标 $12$ 的点 $B$ 重合. 将 $A$, $B$ 两点间的距离 $d$ (单位: $\text{cm}$) 表示成 $t$ (单位: $\text{s}$) 的函数, 则 $d=$ $\;\_\_\;$ , $t\in\left[0,60\right]$.
+
+### 解答 习题十七
+
+由**定义 5.6.2 (周期)** 及余弦定理.
+
+由秒针 $60\text{ s}$ 转一圈, 角速度 $\omega=\frac{2\pi}{60}=\frac{\pi}{30}$. $t=0$ 时 $A$ 与 $B$ 重合, $t$ 秒后 $\angle AOB=\frac{\pi t}{30}$. 由余弦定理, $d^{2}=5^{2}+5^{2}-2\times5\times5\cos\frac{\pi t}{30}=50\left(1-\cos\frac{\pi t}{30}\right)=100\sin^{2}\frac{\pi t}{60}$. 故 $d=10\sin\frac{\pi t}{60}$. $\blacksquare$
+
+## 习题十八
+
+(习题 5.6 综合运用第 7 题) 一个半径为 $3\text{ m}$ 的筒车按逆时针方向每分转 $1.5$ 圈, 筒车的轴心 $O$ 距离水面的高度为 $2.2\text{ m}$. 设筒车上的某个盛水筒 $P$ 到水面的距离为 $d$ (单位: $\text{m}$) (在水面下则 $d$ 为负数), 若以盛水筒 $P$ 刚浮出水面时开始计算时间, 则 $d$ 与时间 $t$ (单位: $\text{s}$) 之间的关系为 $d=A\sin\left(\omega t+\varphi\right)+K$ ($A> 0$, $\omega> 0$, $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$).
+
+(1) 求 $A$, $\omega$, $\varphi$, $K$ 的值 ($\varphi$ 精确到 $0.0001$);
+
+(2) 盛水筒出水后至少经过多长时间就可到达最高点 (精确到 $0.01\text{ s}$)?
+
+### 解答 习题十八
+
+由**定义 5.6.1 (振幅)** 至**定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**.
+
+(1) 由筒车半径 $3\text{ m}$, 得 $A=3$. 由轴心距水面 $2.2\text{ m}$, 得 $K=2.2$. 由每分转 $1.5$ 圈, 周期 $T=\frac{60}{1.5}=40\text{ s}$, 故 $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
+
+由 $t=0$ 时盛水筒刚浮出水面, 即 $d=0$, 得 $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. 又 $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$, 故 $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
+
+(2) 由最高点时 $\sin\left(\omega t+\varphi\right)=1$, 即 $\omega t+\varphi=\frac{\pi}{2}$, 得 $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{ s}$. $\blacksquare$
+
+## 练习五
+
+(练习 5.7 第 1 题) 某简谐运动的图象如图所示, 试根据图象回答下列问题:
+
+(1) 这个简谐运动的振幅, 周期与频率各是多少?
+
+(2) 写出这个简谐运动的函数解析式.
+
+图:横轴为时间 $t$(单位:s),纵轴为位移 $y$(单位:cm),一条正弦曲线从原点 $\left(0,0\right)$ 出发沿上升方向,振幅为 $3$(最大值 $3$,最小值 $-3$),周期为 $2$ s(相邻两个上升零点分别约在 $t=1.2$ 与 $t=3.2$ 处).
+
+### 解答 练习五
+
+由**定义 5.7.1 (简谐运动)** 及**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
+
+(1) 由图象知最大值为 $3\text{ cm}$, 最小值为 $-3\text{ cm}$, 故振幅 $A=3$. 由图象知周期 $T=3.2-1.2=2\text{ s}$, 频率 $f=\frac{1}{2}=0.5\text{ Hz}$.
+
+(2) 由 $A=3$, $\omega=\frac{2\pi}{T}=\pi$, 且 $t=0$ 时 $y=0$ 且在上升沿, 得 $\varphi=0$. 故 $y=3\sin\left(\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$

@@ -1,451 +1,599 @@
 # week51
-> **Definition 6.1.1 (向量与数量)**
+> **Definition 3.1.1 (椭圆)**
 > 
-> 既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
-> **Definition 6.1.7 (Equal Vectors)**
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> **Definition 3.1.3 (Standard Equation of Ellipse)**
 > 
-> 长度相等且方向相同的向量叫做相等向量.
-> **Definition 6.2.4 (Permutation and Factorial)**
+> 平面内与两个定点 F1, F2 的距离之和等于常数 (大于 |F1F2|) 的点的轨迹叫做椭圆.
+> **Definition 3.1.6 (Vertices, Major Axis, Minor Axis)**
 > 
-> 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
-> **Definition 6.2.5 (Vector Subtraction)**
+> 椭圆与对称轴的交点叫做椭圆的顶点. 连接椭圆两个顶点的线段中, 较长者为长轴 (长 2a), 较短者为短轴 (长 2b).
+> **Definition 3.1.7 (椭圆的离心率)**
 > 
-> a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
-> **Definition 6.2.6 (Scalar Multiplication)**
+> 椭圆的焦距与长轴长的比 e = c/a 叫做椭圆的离心率.
+> **Definition 3.2.1 (Hyperbola)**
 > 
-> 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
-> **Theorem 6.2.8 (Collinear Vectors Theorem)**
+> 平面内与两个定点 F1, F2 的距离的差的绝对值等于常数 (小于 |F1F2|) 的点的轨迹叫做双曲线.
+> **Definition 3.2.3 (双曲线的标准方程)**
 > 
-> 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
-> **Definition 6.2.11 (向量的数量积)**
+> 双曲线的标准方程为 x^2/a^2 - y^2/b^2 = 1 (焦点在 x 轴上) 或 y^2/a^2 - x^2/b^2 = 1 (焦点在 y 轴上).
+> **Definition 3.2.5 (顶点, 实轴, 虚轴)**
 > 
-> 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
-> **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
+> 双曲线与实轴的交点为顶点, 线段 A1A2 叫做双曲线的实轴, 线段 B1B2 叫做双曲线的虚轴.
+> **Definition 3.2.6 (渐近线)**
 > 
-> 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
-> **Theorem 6.4.2 (Law of Cosines)**
+> 双曲线 x^2/a^2 - y^2/b^2 = 1 的渐近线方程为 y = ±(b/a)x.
+> **Definition 3.2.7 (等轴双曲线)**
 > 
-> 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
-> **Theorem 6.4.3 (Law of Sines)**
+> 实轴和虚轴等长的双曲线叫做等轴双曲线.
+> **Definition 3.2.8 (双曲线的离心率)**
 > 
-> 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
+> 双曲线的焦距与实轴长的比 e = c/a 叫做双曲线的离心率 (e > 1).
+
+## Exercise 1
+
+(Exercise 3.1, Problem 2) Find the coordinates of the foci of each of the following ellipses.
+
+(1) $\frac{x^2}{100}+\frac{y^2}{36}=1$;
+
+(2) $2x^2+y^2=8$.
+
+### Solution to Exercise 1
+
+By **Definition 3.1.3 (Standard Equation of an Ellipse)**, the foci are at $\left(\pm c,0\right)$ or $\left(0,\pm c\right)$, where $c^2=a^2-b^2$ and $a$ is the square root of the larger denominator.
+
+(1) In $\frac{x^2}{100}+\frac{y^2}{36}=1$, we have $a^2=100$, $b^2=36$, the foci are on the $x$-axis, and $c=\sqrt{100-36}=8$; hence the foci are at $\left(-8,0\right)$ and $\left(8,0\right)$.
+
+(2) Rewrite $2x^2+y^2=8$ in standard form as $\frac{y^2}{8}+\frac{x^2}{4}=1$, so $a^2=8$, $b^2=4$, the foci are on the $y$-axis, and $c=\sqrt{8-4}=2$; hence the foci are at $\left(0,-2\right)$ and $\left(0,2\right)$. $\blacksquare$
+
+## Exercise 2
+
+(Exercise 3.1, Problem 3) Find the standard equation of the ellipse satisfying the following conditions.
+
+(1) foci on the $x$-axis, $a=6$, $e=\frac{1}{3}$;
+
+(2) foci on the $y$-axis, $c=3$, $e=\frac{3}{5}$.
+
+### Solution to Exercise 2
+
+By **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}$; by **Definition 3.1.3 (Standard Equation of Ellipse)**, $b^2=a^2-c^2$.
+
+(1) Foci on the $x$-axis, $a=6$, $e=\frac{1}{3}$, so $c=ae=2$, $b^2=a^2-c^2=36-4=32$. The standard equation is
+
+$$
+\frac{x^2}{36}+\frac{y^2}{32}=1.
+$$
+
+(2) Foci on the $y$-axis, $c=3$, $e=\frac{3}{5}$, so $a=\frac{c}{e}=5$, $b^2=a^2-c^2=25-9=16$. The standard equation is
+
+$$
+\frac{y^2}{25}+\frac{x^2}{16}=1.
+$$
+
+$\blacksquare$
+
+## Exercise 3
+
+(Exercise 3.1, Problem 4) Find the standard equation of the ellipse satisfying the following conditions.
+
+(1) passing through $P\left(-3,0\right)$ and $Q\left(0,-2\right)$;
+
+(2) major axis length equals $20$, eccentricity equals $\frac{3}{5}$.
+
+### Solution to Exercise 3
+
+By **Definition 3.1.6 (Vertices)**, the intersections of the ellipse with the coordinate axes are the vertices; by **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}$.
+
+(1) The point $P\left(-3,0\right)$ is on the $x$-axis and $Q\left(0,-2\right)$ is on the $y$-axis; these are the intersections of the ellipse with the two coordinate axes. By **Definition 3.1.6 (Vertices, Major Axis, Minor Axis)**, the vertices are at $\left(\pm a,0\right)$ and $\left(0,\pm b\right)$, so $a=3$, $b=2$. Since $a> b$, the foci are on the $x$-axis, and the standard equation is
+
+$$
+\frac{x^2}{9}+\frac{y^2}{4}=1.
+$$
+
+(2) The major axis length is $2a=20$, so $a=10$. $e=\frac{3}{5}$, so $c=ae=6$, $b^2=a^2-c^2=100-36=64$. Since the axis of the foci is not specified, the standard equation is
+
+$$
+\frac{x^2}{100}+\frac{y^2}{64}=1
+$$
+
+or
+
+$$
+\frac{y^2}{100}+\frac{x^2}{64}=1.
+$$
+
+$\blacksquare$
+
+## Exercise 4
+
+(Exercise 3.1, Problem 5) Compare the shapes of the ellipses in each pair below: which is closer to a circle? Why?
+
+(1) $9x^2+y^2=36$ and $\frac{x^2}{16}+\frac{y^2}{12}=1$;
+
+(2) $x^2+9y^2=36$ and $\frac{x^2}{6}+\frac{y^2}{10}=1$.
+
+### Solution to Exercise 4
+
+By **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}=\sqrt{1-\frac{b^2}{a^2}}$; the closer $e$ is to $0$, the closer $a$ and $b$ are, and the closer the ellipse is to a circle.
+
+(1) Rewrite $9x^2+y^2=36$ as $\frac{y^2}{36}+\frac{x^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{16}+\frac{y^2}{12}=1$, we have $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. Since $e_2< e_1$, the ellipse $\frac{x^2}{16}+\frac{y^2}{12}=1$ is closer to a circle.
+
+(2) Rewrite $x^2+9y^2=36$ as $\frac{x^2}{36}+\frac{y^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{6}+\frac{y^2}{10}=1$, we have $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. Since $e_2< e_1$, the ellipse $\frac{x^2}{6}+\frac{y^2}{10}=1$ is closer to a circle. $\blacksquare$
+
+## Exercise 5
+
+(Exercise 3.1, Problem 1) Find the intersection coordinates of each line and ellipse below.
+
+(1) $3x+10y-25=0$, $\frac{x^2}{25}+\frac{y^2}{4}=1$;
+
+(2) $3x-y+2=0$, $\frac{x^2}{16}+\frac{y^2}{4}=1$.
+
+### Solution to Exercise 5
+
+By **Common Conclusion 3.1.8** (Position of a Line Relative to an Ellipse), combine the line and ellipse equations and solve.
+
+(1) From $3x+10y-25=0$ we have $y=\frac{25-3x}{10}$; substituting into $\frac{x^2}{25}+\frac{y^2}{4}=1$ gives
+
+$$
+\frac{x^2}{25}+\frac{\left(25-3x\right)^2}{400}=1.
+$$
+
+Multiplying both sides by $400$ gives $16x^2+\left(25-3x\right)^2=400$, i.e. $25x^2-150x+225=0$, i.e. $\left(x-3\right)^2=0$, hence $x=3$, and substituting back gives $y=\frac{8}{5}$. The intersection is $\left(3,\frac{8}{5}\right)$.
+
+(2) From $3x-y+2=0$ we have $y=3x+2$; substituting into $\frac{x^2}{16}+\frac{y^2}{4}=1$ gives
+
+$$
+\frac{x^2}{16}+\frac{\left(3x+2\right)^2}{4}=1.
+$$
+
+Multiplying both sides by $16$ gives $x^2+4\left(3x+2\right)^2=16$, i.e. $37x^2+48x=0$, so $x=0$ or $x=-\frac{48}{37}$. Substituting back into $y=3x+2$ gives $y=2$ or $y=-\frac{70}{37}$. The intersections are $\left(0,2\right)$ and $\left(-\frac{48}{37},-\frac{70}{37}\right)$. $\blacksquare$
+
+## Exercise 6
+
+(Exercise 3.1, Problem 2) Through the left focus $F_1$ of the ellipse $\frac{x^2}{2}+y^2=1$, draw the line $l$ with inclination angle $60^{\circ}$. The line $l$ intersects the ellipse at $A$ and $B$. Find the length of the segment $AB$.
+
+### Solution to Exercise 6
+
+By **Definition 3.1.3 (Standard Equation of an Ellipse)**, in the ellipse $\frac{x^2}{2}+y^2=1$ we have $a^2=2$, $b^2=1$, $c=\sqrt{2-1}=1$, and the left focus is $F_1\left(-1,0\right)$.
+
+The line $l$ has inclination angle $60^{\circ}$, so its slope is $k=\tan60^{\circ}=\sqrt{3}$; passing through $F_1\left(-1,0\right)$, its equation is $y=\sqrt{3}\left(x+1\right)$. Substituting into the ellipse gives
+
+$$
+\frac{x^2}{2}+3\left(x+1\right)^2=1.
+$$
+
+Simplifying gives $7x^2+12x+4=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$; then $x_1+x_2=-\frac{12}{7}$ and $x_1x_2=\frac{4}{7}$. By the chord-length formula,
+
+$$
+\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}.
+$$
+
+Substituting gives
+
+$$
+\lvert AB \rvert=\sqrt{1+3}\cdot\sqrt{\frac{144}{49}-\frac{16}{7}}=2\cdot\sqrt{\frac{32}{49}}=\frac{8\sqrt{2}}{7}.
+$$
+
+$\blacksquare$
 
 ## Problem 1
 
-(Review Reference Problem 6, Review and Consolidation, Problem 1) Determine whether the following propositions are correct (mark a "$\surd$" in the parentheses for correct ones and a "$\times$" for wrong ones).
+(Exercise 3.1, Review and Consolidation, Problem 1) If the point $M\left(x,y\right)$ always satisfies the relation
 
-(1) $\boldsymbol{AB}+\boldsymbol{BA}=\boldsymbol{0}$. ()
+$$
+\sqrt{x^2+\left(y-3\right)^2}+\sqrt{x^2+\left(y+3\right)^2}=10,
+$$
 
-(2) $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$. ()
-
-(3) $\boldsymbol{AB}-\boldsymbol{AC}=\boldsymbol{BC}$. ()
-
-(4) $0\boldsymbol{AB}=\boldsymbol{0}$. ()
+as it moves, what curve is the locus of $M$? Why? Write its equation.
 
 ### Solution to Problem 1
 
-By **Definition 6.2.4 (Opposite Vectors)** and **Definition 6.2.5 (Vector Subtraction)**.
+By **Definition 3.1.1 (Ellipse)**, the locus of points in a plane whose sum of distances to two fixed points equals a constant (greater than the distance between the two fixed points) is an ellipse.
 
-(1) Correct. $\boldsymbol{BA}=-\boldsymbol{AB}$, $\boldsymbol{AB}+\boldsymbol{BA}=\boldsymbol{0}$.
+$\sqrt{x^2+\left(y-3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,3\right)$, and $\sqrt{x^2+\left(y+3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,-3\right)$. The two fixed points are $F_1\left(0,3\right)$ and $F_2\left(0,-3\right)$, with $\lvert F_1F_2 \rvert=6$. The sum of the distances from $M$ to the two fixed points is the constant $10$, and $10> 6$, so by **Definition 3.1.1 (椭圆)** the locus of $M$ is an ellipse with foci at $\left(0,\pm3\right)$.
 
-(2) Correct. The triangle rule.
+From $2a=10$ we get $a=5$, and from $2c=6$ we get $c=3$, with $b^2=a^2-c^2=25-9=16$. The foci are on the $y$-axis, so the equation is
 
-(3) Wrong. $\boldsymbol{AB}-\boldsymbol{AC}=\boldsymbol{CB}$.
+$$
+\frac{y^2}{25}+\frac{x^2}{16}=1.
+$$
 
-(4) Correct. Scalar multiplication $0\boldsymbol{AB}=\boldsymbol{0}$. $\blacksquare$
+$\blacksquare$
 
 ## Problem 2
 
-(Review Reference Problem 6, Review and Consolidation, Problem 2) Multiple choice.
+(Exercise 3.1, Review and Consolidation, Problem 2) Write the standard equation of the ellipse satisfying the following conditions.
 
-(1) If $\boldsymbol{a}$ and $\boldsymbol{b}$ are two unit vectors, then which of the following four conclusions is correct? ().
+(1) foci at $\left(0,-4\right)$ and $\left(0,4\right)$, $a=5$;
 
-(A) $\boldsymbol{a}=\boldsymbol{b}$ (B) $\boldsymbol{a}\cdot\boldsymbol{b}=1$
-
-(C) $\boldsymbol{a}^2\neq\boldsymbol{b}^2$ (D) $\boldsymbol{a}^2=\boldsymbol{b}^2$
-
-(2) For any two vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, which of the following propositions is correct? ().
-
-(A) If $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert\boldsymbol{a}\rvert> \lvert\boldsymbol{b}\rvert$, and $\boldsymbol{a}$ and $\boldsymbol{b}$ are in the same direction, then $\boldsymbol{a}> \boldsymbol{b}$
-
-(B) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$
-
-(C) $\boldsymbol{a}\cdot\boldsymbol{b}\ge\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert$
-
-(D) $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert-\lvert\boldsymbol{b}\rvert$
-
-(3) In quadrilateral $ABCD$, if $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$, then ().
-
-(A) $ABCD$ is a rectangle (B) $ABCD$ is a rhombus
-
-(C) $ABCD$ is a square (D) $ABCD$ is a parallelogram
-
-(4) Let $\boldsymbol{a}$ be a nonzero vector and $\lambda$ a nonzero real number; which conclusion is correct? ().
-
-(A) $\boldsymbol{a}$ and $-\lambda\boldsymbol{a}$ have opposite directions (B) $\lvert-\lambda\boldsymbol{a}\rvert\ge\lvert\boldsymbol{a}\rvert$
-
-(C) $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction (D) $\lvert-\lambda\boldsymbol{a}\rvert=\lambda\lvert\boldsymbol{a}\rvert$
-
-(5) Let $M$ be the intersection of the diagonals of $\square ABCD$, and $O$ any point; then $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}+\boldsymbol{OD}=$ ().
-
-(A) $\boldsymbol{OM}$ (B) $2\boldsymbol{OM}$ (C) $3\boldsymbol{OM}$ (D) $4\boldsymbol{OM}$
-
-(6) Which of the following groups of vectors can serve as a basis? ().
-
-(A) $\boldsymbol{e}_1=\left(0,0\right)$, $\boldsymbol{e}_2=\left(1,-2\right)$ (B) $\boldsymbol{e}_1=\left(-1,2\right)$, $\boldsymbol{e}_2=\left(5,7\right)$
-
-(C) $\boldsymbol{e}_1=\left(3,5\right)$, $\boldsymbol{e}_2=\left(6,10\right)$ (D) $\boldsymbol{e}_1=\left(2,-3\right)$, $\boldsymbol{e}_2=\left(\frac{1}{2},-\frac{3}{4}\right)$
+(2) $a+c=10$, $a-c=4$.
 
 ### Solution to Problem 2
 
-(1) By **Common Result 6.2.13**, $\boldsymbol{a}^2=\lvert\boldsymbol{a}\rvert^2=1=\boldsymbol{b}^2$. Choose (D).
+By **Definition 3.1.3 (Standard Equation of an Ellipse)**, $b^2=a^2-c^2$.
 
-(2) By **Common Result 6.2.3**, the triangle inequality $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$. Choose (B).
+(1) The foci $\left(0,\pm4\right)$ are on the $y$-axis, so $c=4$, $a=5$, $b^2=25-16=9$. The standard equation is
 
-(3) By **Definition 6.1.7 (Equal Vectors)**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ shows that $ABCD$ is a parallelogram. Choose (D).
+$$
+\frac{y^2}{25}+\frac{x^2}{9}=1.
+$$
 
-(4) By **Definition 6.2.6 (Scalar Multiplication)**, $\lambda^2> 0$, so $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction. Choose (C).
+(2) From $a+c=10$ and $a-c=4$ we get $a=7$, $c=3$, $b^2=49-9=40$. Since the focus axis is not specified, the standard equation is
 
-(5) $M$ is the midpoint of the diagonals, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, and the sum is $4\boldsymbol{OM}$. Choose (D).
+$$
+\frac{x^2}{49}+\frac{y^2}{40}=1
+$$
 
-(6) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, a basis requires non-collinear vectors. In (B), $\left(-1\right)\times7-2\times5=-17\neq0$, so they are non-collinear. Choose (B). $\blacksquare$
+or
+
+$$
+\frac{y^2}{49}+\frac{x^2}{40}=1.
+$$
+
+$\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problem 6, Review and Consolidation, Problem 3) Given that the hexagon $ABCDEF$ is regular, and $\boldsymbol{AC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, express $\boldsymbol{DE}$, $\boldsymbol{AD}$, $\boldsymbol{BC}$, $\boldsymbol{EF}$, $\boldsymbol{FA}$, $\boldsymbol{AB}$, $\boldsymbol{CE}$ in terms of $\boldsymbol{a}$ and $\boldsymbol{b}$ respectively.
+(Exercise 3.1, Review and Consolidation, Problem 3) Find the major and minor axis lengths, the eccentricity, the foci, and the vertices of each of the following ellipses, and draw the figures.
+
+(1) $x^2+4y^2=16$;
+
+(2) $9x^2+y^2=81$.
+
+The figure plots two ellipses in the rectangular coordinate system: (1) $\frac{x^2}{16}+\frac{y^2}{4}=1$, $a=4$, $b=2$, major axis on the $x$-axis, vertices $\left(\pm4,0\right)$, $\left(0,\pm2\right)$, foci $\left(\pm2\sqrt 3,0\right)$; (2) $\frac{y^2}{81}+\frac{x^2}{9}=1$, $a=9$, $b=3$, major axis on the $y$-axis, vertices $\left(\pm3,0\right)$, $\left(0,\pm9\right)$, foci $\left(0,\pm6\sqrt 2\right)$.
 
 ### Solution to Problem 3
 
-By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)** and **Definition 6.1.7 (Equal Vectors)**.
+By **Definition 3.1.3 (Standard Equation of an Ellipse)**, rewrite the equations in standard form; then use **Definition 3.1.6 (Vertices, Major and Minor Axes)** and **Definition 3.1.7 (Eccentricity)**.
 
-Let the center of the regular hexagon be $O$. By geometric relations:
+(1) $x^2+4y^2=16$ becomes $\frac{x^2}{16}+\frac{y^2}{4}=1$, with $a=4$, $b=2$, $c=\sqrt{16-4}=2\sqrt{3}$. The major axis length is $2a=8$, the minor axis length is $2b=4$, the eccentricity is $e=\frac{c}{a}=\frac{\sqrt{3}}{2}$, the foci are at $\left(-2\sqrt{3},0\right)$ and $\left(2\sqrt{3},0\right)$, and the vertices are at $\left(\pm4,0\right)$ and $\left(0,\pm2\right)$. The figure is an ellipse with foci on the $x$-axis.
 
-$\boldsymbol{AC}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$.
-
-$\boldsymbol{AD}=\boldsymbol{AC}+\boldsymbol{CD}$. By the symmetry of the regular hexagon, deriving step by step:
-
-$\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{AD}=\boldsymbol{a}-\boldsymbol{b}$; $\boldsymbol{BC}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{EF}=-\boldsymbol{BC}$; $\boldsymbol{FA}=-\boldsymbol{DE}$; $\boldsymbol{AB}=\frac{1}{2}\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$; $\boldsymbol{CE}=\boldsymbol{CD}+\boldsymbol{DE}$. $\blacksquare$
+(2) $9x^2+y^2=81$ becomes $\frac{y^2}{81}+\frac{x^2}{9}=1$, with $a=9$, $b=3$, $c=\sqrt{81-9}=6\sqrt{2}$. The major axis length is $2a=18$, the minor axis length is $2b=6$, the eccentricity is $e=\frac{c}{a}=\frac{2\sqrt{2}}{3}$, the foci are at $\left(0,\pm6\sqrt{2}\right)$, and the vertices are at $\left(\pm3,0\right)$ and $\left(0,\pm9\right)$. The figure is an ellipse with foci on the $y$-axis. $\blacksquare$
 
 ## Problem 4
 
-(Review Reference Problem 6, Review and Consolidation, Problem 4) Given a plane rectangular coordinate system with $O$ as the origin, $A\left(-3,-4\right)$, $B\left(5,-12\right)$.
+(Exercise 3.1, Review and Consolidation, Problem 4) Find the standard equation of the ellipse satisfying the following conditions.
 
-(1) Find the coordinates of $\boldsymbol{AB}$ and the value of $\lvert\boldsymbol{AB}\rvert$;
+(1) passing through $P\left(-2\sqrt{2},0\right)$ and $Q\left(0,\sqrt{5}\right)$;
 
-(2) If $\boldsymbol{OC}=\boldsymbol{OA}+\boldsymbol{OB}$, $\boldsymbol{OD}=\boldsymbol{OA}-\boldsymbol{OB}$, find the coordinates of $\boldsymbol{OC}$ and $\boldsymbol{OD}$;
+(2) major axis length is $3$ times the minor axis length, and passing through $P\left(3,0\right)$;
 
-(3) Find the value of $\boldsymbol{OA}\cdot\boldsymbol{OB}$.
+(3) focal distance is $8$, eccentricity equals $0.8$.
 
 ### Solution to Problem 4
 
-By **Common Result 6.3.4** and **Common Result 6.3.7**.
+Use **Definition 3.1.6 (Vertices)** and **Definition 3.1.7 (Eccentricity)**.
 
-(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
+(1) $P\left(-2\sqrt{2},0\right)$ is on the $x$-axis and $Q\left(0,\sqrt{5}\right)$ is on the $y$-axis, so $a=2\sqrt{2}$, $b=\sqrt{5}$, with $a> b$ and the foci on the $x$-axis. The standard equation is
 
-(2) $\boldsymbol{OC}=\left(-3+5,-4-12\right)=\left(2,-16\right)$. $\boldsymbol{OD}=\left(-3-5,-4-\left(-12\right)\right)=\left(-8,8\right)$.
+$$
+\frac{x^2}{8}+\frac{y^2}{5}=1.
+$$
 
-(3) $\boldsymbol{OA}\cdot\boldsymbol{OB}=\left(-3\right)\times5+\left(-4\right)\times\left(-12\right)=-15+48=33$. $\blacksquare$
+(2) The major axis length is $3$ times the minor axis length, i.e. $2a=3\cdot2b$, so $a=3b$. The ellipse passes through $P\left(3,0\right)$. If the foci are on the $x$-axis, then $\left(3,0\right)$ is a major-axis vertex, $a=3$, $b=1$, and the equation is $\frac{x^2}{9}+y^2=1$; if the foci are on the $y$-axis, then $\left(3,0\right)$ is a minor-axis vertex, $b=3$, $a=9$, and the equation is $\frac{y^2}{81}+\frac{x^2}{9}=1$.
+
+(3) The focal distance is $2c=8$, so $c=4$. $e=0.8=\frac{c}{a}$, so $a=\frac{4}{0.8}=5$, $b^2=a^2-c^2=25-16=9$. Since the focus axis is not specified, the equation is
+
+$$
+\frac{x^2}{25}+\frac{y^2}{9}=1
+$$
+
+or
+
+$$
+\frac{y^2}{25}+\frac{x^2}{9}=1.
+$$
+
+$\blacksquare$
 
 ## Problem 5
 
-(Review Reference Problem 6, Review and Consolidation, Problem 5) Given points $A\left(1,1\right)$, $B\left(-1,0\right)$, $C\left(0,1\right)$. If $\boldsymbol{AB}=\boldsymbol{CD}$, what are the coordinates of point $D$?
+(Exercise 3.1, Review and Consolidation, Problem 5) Given that $P$ is a point on the ellipse $\frac{x^2}{5}+\frac{y^2}{4}=1$, and the triangle with $P$ and the foci $F_1$, $F_2$ as vertices has area $1$, find the coordinates of $P$.
 
 ### Solution to Problem 5
 
-By **Common Result 6.3.4** and **Definition 6.1.7 (Equal Vectors)**.
+By **Definition 3.1.3 (Standard Equation of Ellipse)**, in the ellipse $\frac{x^2}{5}+\frac{y^2}{4}=1$ we have $a^2=5$, $b^2=4$, $c=\sqrt{5-4}=1$, foci $F_1\left(-1,0\right)$, $F_2\left(1,0\right)$, and $\lvert F_1F_2 \rvert=2$.
 
-$\boldsymbol{AB}=\left(-1-1,0-1\right)=\left(-2,-1\right)$.
+Let $P\left(x,y\right)$. The base of $\triangle PF_1F_2$ is $\lvert F_1F_2 \rvert=2$ and the height is $\lvert y \rvert$, so the area is $S=\frac{1}{2}\cdot2\cdot\lvert y \rvert=\lvert y \rvert=1$, giving $y=\pm1$. Substituting into the ellipse gives $\frac{x^2}{5}+\frac{1}{4}=1$, i.e. $x^2=\frac{15}{4}$, $x=\pm\frac{\sqrt{15}}{2}$. Hence the coordinates of $P$ are
 
-Let $D\left(x,y\right)$, $\boldsymbol{CD}=\left(x-0,y-1\right)=\left(x,y-1\right)$.
+$$
+\left(\pm\frac{\sqrt{15}}{2},\pm1\right)
+$$
 
-$x=-2$, $y-1=-1$, $y=0$. $D\left(-2,0\right)$. $\blacksquare$
+at four points. $\blacksquare$
 
 ## Problem 6
 
-(Review Reference Problem 6, Review and Consolidation, Problem 6) Given vectors $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$, $\boldsymbol{c}=\left(-1,0\right)$, find the values of $\lambda$ and $\mu$ satisfying $\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$.
+(Exercise 3.1, Review and Consolidation, Problem 6) As shown in the figure, the circle $O$ has fixed radius $r$, $A$ is a fixed point inside the circle $O$, and $P$ is any point on the circle $O$. The perpendicular bisector $l$ of segment $AP$ intersects the radius $OP$ at $Q$. As $P$ moves on the circle, what is the locus of $Q$? Why?
+
+The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ inside the circle, and a point $P$ on the circle; the perpendicular bisector $l$ of segment $AP$ meets the radius $OP$ at point $Q$, and segments $AP$, $OQ$, $QP$ are drawn.
 
 ### Solution to Problem 6
 
-By **Common Result 6.3.4** (Coordinate Operations).
+By the property of the perpendicular bisector of a segment, since $Q$ lies on the perpendicular bisector of $AP$, we have $\lvert QA \rvert=\lvert QP \rvert$.
 
-$\left(-1,0\right)=\lambda\left(1,0\right)+\mu\left(1,1\right)=\left(\lambda+\mu,\mu\right)$.
+Also, $Q$ lies on the radius $OP$, and $\lvert OP \rvert=r$, so $\lvert QO \rvert+\lvert QP \rvert=\lvert OP \rvert=r$. Substituting $\lvert QP \rvert=\lvert QA \rvert$ gives
 
-$\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
+$$
+\lvert QO \rvert+\lvert QA \rvert=r.
+$$
+
+By **Definition 3.1.1 (Ellipse)**, the sum of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$. Since $A$ is inside the circle $O$, we have $\lvert OA \rvert< r$, satisfying the condition that the constant is greater than the distance between the two fixed points. Hence the locus of $Q$ is an ellipse with foci at $O$ and $A$. $\blacksquare$
 
 ## Problem 7
 
-(Review Reference Problem 6, Review and Consolidation, Problem 7) Given that the vertices of $\triangle ABC$ have coordinates $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, find the values of $\cos A$, $\cos B$, $\cos C$.
+(Exercise 3.1, Review and Consolidation, Problem 7) The orbit of the comet "Purple Mountain No. 1" is an ellipse with the sun as one focus. Measurements show that its perihelion distance from the sun's center is $1.486$ astronomical units, its aphelion distance is $5.563$ astronomical units, and the perihelion, aphelion, and sun's center are collinear. Find the equation of the orbit.
 
 ### Solution to Problem 7
 
-By **Common Result 6.3.8** (Angle).
+By **Definition 3.1.3 (Standard Equation of an Ellipse)**, the sun lies at one focus of the ellipse. Let the center of the ellipse be the origin, with the sun (focus) on the $x$-axis.
 
-$\boldsymbol{AB}=\left(3,0\right)$, $\boldsymbol{AC}=\left(3,4\right)$, $\boldsymbol{BC}=\left(0,4\right)$.
+The perihelion distance from the focus is $a-c$, and the aphelion distance is $a+c$. Hence $a-c=1.486$, $a+c=5.563$. Solving gives $a=\frac{1.486+5.563}{2}=3.5245$, $c=\frac{5.563-1.486}{2}=2.0385$. $b^2=a^2-c^2=\left(a-c\right)\left(a+c\right)=1.486\times5.563\approx8.267$. The orbit equation is
 
-$\cos A=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
+$$
+\frac{x^2}{3.5245^2}+\frac{y^2}{8.267}=1.
+$$
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
-
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
+$\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problem 6, Review and Consolidation, Problem 8) Given vectors $\boldsymbol{a}=\left(1,0\right)$, $\boldsymbol{b}=\left(1,1\right)$. For what value of $\lambda$ is $\boldsymbol{a}+\lambda\boldsymbol{b}$ perpendicular to $\boldsymbol{a}$?
+(Exercise 3.1, Review and Consolidation, Problem 8) The ratio of the distance from a point $M$ to the fixed point $F\left(2,0\right)$ to its distance to the fixed line $x=8$ is $1:2$. Find the locus equation of $M$ and describe the figure.
 
 ### Solution to Problem 8
 
-By **Common Result 6.3.8** (Perpendicularity).
+Let $M\left(x,y\right)$. The distance from $M$ to $F\left(2,0\right)$ is $\sqrt{\left(x-2\right)^2+y^2}$, and the distance from $M$ to the line $x=8$ is $\lvert 8-x \rvert$. By the problem,
 
-$\boldsymbol{a}+\lambda\boldsymbol{b}=\left(1+\lambda,\lambda\right)$.
+$$
+\frac{\sqrt{\left(x-2\right)^2+y^2}}{\lvert 8-x \rvert}=\frac{1}{2}.
+$$
 
-Perpendicular to $\boldsymbol{a}=\left(1,0\right)$: $\left(1+\lambda\right)\times1+\lambda\times0=0$.
+Squaring both sides gives $4\left[\left(x-2\right)^2+y^2\right]=\left(8-x\right)^2$; expanding and simplifying gives
 
-$1+\lambda=0$. $\lambda=-1$. $\blacksquare$
+$$
+3x^2+4y^2-16x-48=0.
+$$
+
+Completing the square gives $3\left(x-\frac{8}{3}\right)^2+4y^2=\frac{208}{3}$, i.e.
+
+$$
+\frac{\left(x-\frac{8}{3}\right)^2}{\frac{208}{9}}+\frac{y^2}{\frac{52}{3}}=1.
+$$
+
+By **Definition 3.1.1 (Ellipse)**, the locus is an ellipse centered at $\left(\frac{8}{3},0\right)$. $\blacksquare$
 
 ## Problem 9
 
-(Review Reference Problem 6, Review and Consolidation, Problem 9) Given that the angle between vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ is $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt 3$, $\lvert\boldsymbol{b}\rvert=2$, find the values of $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$ and $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$.
+(Exercise 3.1, Comprehensive Application, Problem 9) As shown in the figure, $DP\perp x$ axis, with foot $D$, and $M$ lies on the extension of $DP$, with $\frac{DM}{DP}=\frac{3}{2}$. As $P$ moves on the circle $x^2+y^2=4$, find the locus equation of $M$ and describe its shape.
+
+The figure plots the circle $x^2+y^2=4$ (center at the origin, radius $2$) in the rectangular coordinate system: point $P$ lies on the circle, $PD$ is perpendicular to the $x$-axis with foot $D$; point $M$ lies on the extension of $DP$, and $DM:DP=3:2$.
 
 ### Solution to Problem 9
 
-By **Definition 6.2.11 (Dot Product)** and **Common Result 6.2.13**.
+Let $M\left(x,y\right)$ and $P\left(x_0,y_0\right)$. Since $DP\perp x$ axis, the foot is $D\left(x_0,0\right)$, and since $M$ lies on the extension of $DP$, we have $x=x_0$. Also $\frac{DM}{DP}=\frac{3}{2}$, with $DM=\lvert y \rvert$ and $DP=\lvert y_0 \rvert$, so $y=\frac{3}{2}y_0$, i.e. $y_0=\frac{2}{3}y$.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt 3\times2\times\cos30^{\circ}=2\sqrt 3\times\frac{\sqrt 3}{2}=3$.
+Since $P\left(x_0,y_0\right)$ lies on the circle $x^2+y^2=4$, we have $x_0^2+y_0^2=4$. Substituting $x_0=x$ and $y_0=\frac{2}{3}y$ gives
 
-$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3+6+4=13$. $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{13}$.
+$$
+x^2+\frac{4}{9}y^2=4,
+$$
 
-$\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3-6+4=1$. $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert=1$. $\blacksquare$
+i.e.
+
+$$
+\frac{x^2}{4}+\frac{y^2}{9}=1.
+$$
+
+By **Definition 3.1.1 (Ellipse)**, the locus of $M$ is an ellipse with foci on the $y$-axis. $\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problem 6, Review and Consolidation, Problem 10) As shown in the figure, support $A$ is acted on by two forces $\boldsymbol{F}_1$ and $\boldsymbol{F}_2$. Given that $\boldsymbol{F}_1$ makes an angle $\theta$ with the horizontal, $\lvert\boldsymbol{F}_1\rvert=40\text{ N}$, $\boldsymbol{F}_2$ is horizontal, $\lvert\boldsymbol{F}_2\rvert=70\text{ N}$, and the magnitude of the resultant $\boldsymbol{F}$ of $\boldsymbol{F}_1$ and $\boldsymbol{F}_2$ is $100\text{ N}$, find $\cos\theta$ and the cosine of the angle $\beta$ between $\boldsymbol{F}$ and $\boldsymbol{F}_2$.
-
-(Figure: support $A$ is acted on by two forces $\boldsymbol{F}_1,\boldsymbol{F}_2$; $\boldsymbol{F}_1$ points upward at angle $\theta$ to the horizontal, $\boldsymbol{F}_2$ points horizontally to the right, and their resultant $\boldsymbol{F}$ points upward at angle $\beta$ to $\boldsymbol{F}_2$.)
+(Exercise 3.1, Comprehensive Application, Problem 10) A moving circle is externally tangent to the circle $x^2+y^2+6x+5=0$ and internally tangent to the circle $x^2+y^2-6x-91=0$. Find the locus equation of the center of the moving circle, and describe the curve.
 
 ### Solution to Problem 10
 
-By **Definition 6.2.11 (Dot Product)** and **Theorem 6.4.2 (Law of Cosines)**.
+Complete the square for the two fixed circles. The circle $x^2+y^2+6x+5=0$ becomes $\left(x+3\right)^2+y^2=4$, with center $C_1\left(-3,0\right)$ and radius $r_1=2$. The circle $x^2+y^2-6x-91=0$ becomes $\left(x-3\right)^2+y^2=100$, with center $C_2\left(3,0\right)$ and radius $r_2=10$.
 
-$\boldsymbol{F}=\boldsymbol{F}_1+\boldsymbol{F}_2$.
+Let the center of the moving circle be $M\left(x,y\right)$ and its radius be $R$. External tangency gives $\lvert MC_1 \rvert=R+r_1=R+2$, and internal tangency gives $\lvert MC_2 \rvert=r_2-R=10-R$. Adding the two gives
 
-$\lvert\boldsymbol{F}\rvert^2=\lvert\boldsymbol{F}_1\rvert^2+\lvert\boldsymbol{F}_2\rvert^2+2\boldsymbol{F}_1\cdot\boldsymbol{F}_2$.
+$$
+\lvert MC_1 \rvert+\lvert MC_2 \rvert=12.
+$$
 
-$10000=1600+4900+2\times40\times70\times\cos\theta$.
+By **Definition 3.1.1 (Ellipse)**, the sum of the distances from $M$ to the two fixed points $C_1\left(-3,0\right)$ and $C_2\left(3,0\right)$ is the constant $12$, and $12> \lvert C_1C_2 \rvert=6$, so the locus is an ellipse with foci at $C_1,C_2$. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. The locus equation is
 
-$3500=5600\cos\theta$. $\cos\theta=\frac{3500}{5600}=\frac{5}{8}$.
+$$
+\frac{x^2}{36}+\frac{y^2}{27}=1.
+$$
 
-$\boldsymbol{F}\cdot\boldsymbol{F}_2=\left(\boldsymbol{F}_1+\boldsymbol{F}_2\right)\cdot\boldsymbol{F}_2=\boldsymbol{F}_1\cdot\boldsymbol{F}_2+\boldsymbol{F}_2^2=40\times70\times\frac{5}{8}+4900=1750+4900=6650$.
-
-$\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert\lvert\boldsymbol{F}_2\rvert}=\frac{6650}{100\times70}=\frac{19}{20}$. $\blacksquare$
+$\blacksquare$
 
 ## Problem 11
 
-(Review Reference Problem 6, Review and Consolidation, Problem 11) In $\triangle ABC$, solve the triangle according to each of the following conditions (angles accurate to $1'$, side lengths accurate to $0.01\text{ cm}$):
+(Exercise 3.1, Extension and Exploration, Problem 11) As shown in the figure, in rectangle $ABCD$, $AB=2a$, $BC=2b$ ($a> b> 0$). $E$, $F$, $G$, $H$ are the midpoints of the four sides; $R$, $S$, $T$ are the points that divide segment $OF$ into four equal parts, and $R'$, $S'$, $T'$ are the points that divide segment $CF$ into four equal parts. Prove that the intersections $L$, $M$, $N$ of $ER$ and $GR'$, $ES$ and $GS'$, and $ET$ and $GT'$ all lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$).
 
-(1) $a=12\text{ cm}$, $b=5\text{ cm}$, $A=120^{\circ}$;
-
-(2) $a=6\text{ cm}$, $b=8\text{ cm}$, $A=30^{\circ}$;
-
-(3) $a=7\text{ cm}$, $b=23\text{ cm}$, $C=130^{\circ}$;
-
-(4) $a=2\text{ cm}$, $b=3\text{ cm}$, $c=4\text{ cm}$.
+The figure plots, in the rectangular coordinate system, the rectangle $ABCD$ (center at $O$, $AB=2a$ horizontal, $BC=2b$ vertical): $E$, $F$, $G$, $H$ are the midpoints of the four sides ($F$ at the midpoint of the right side, $G$ at the midpoint of the top side, $E$ at the midpoint of the bottom side); $R$, $S$, $T$ are the quarter points of segment $OF$ (on the $x$-axis), and $R'$, $S'$, $T'$ are the quarter points of segment $CF$ (on the right vertical side); the lines $ER$ and $GR'$, $ES$ and $GS'$, $ET$ and $GT'$ are drawn, and their intersections $L$, $M$, $N$ lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$.
 
 ### Solution to Problem 11
 
-By **Theorem 6.4.3 (Law of Sines)** and **Theorem 6.4.2 (Law of Cosines)**.
+Take $O$ as the origin and $OF$ as the $x$-axis. From $AB=2a$ and $BC=2b$, the midpoints are $E\left(0,-b\right)$, $F\left(a,0\right)$, $G\left(0,b\right)$, $C\left(a,b\right)$.
 
-(1) $\sin B=\frac{b\sin A}{a}=\frac{5\times\sin120^{\circ}}{12}=\frac{5\sqrt 3}{24}\approx0.361$. $B\approx21^{\circ}10'$. $C=180^{\circ}-120^{\circ}-21^{\circ}10'=38^{\circ}50'$. $c=\frac{a\sin C}{\sin A}\approx7.51\text{ cm}$.
+$R$, $S$, $T$ are the points dividing $OF$ into four equal parts, and $OF$ runs from $O\left(0,0\right)$ to $F\left(a,0\right)$; hence $R\left(\frac{a}{4},0\right)$, $S\left(\frac{a}{2},0\right)$, $T\left(\frac{3a}{4},0\right)$. $R'$, $S'$, $T'$ are the points dividing $CF$ into four equal parts, and $CF$ runs from $C\left(a,b\right)$ to $F\left(a,0\right)$; hence $R'\left(a,\frac{3b}{4}\right)$, $S'\left(a,\frac{b}{2}\right)$, $T'\left(a,\frac{b}{4}\right)$.
 
-(2) $\sin B=\frac{8\times0.5}{6}=\frac{2}{3}$. $B\approx41^{\circ}49'$ or $138^{\circ}11'$.
+Line $ER$ passes through $E\left(0,-b\right)$ and $R\left(\frac{a}{4},0\right)$, with slope $k_1=\frac{b}{a/4}=\frac{4b}{a}$ and equation $y=\frac{4b}{a}x-b$. Line $GR'$ passes through $G\left(0,b\right)$ and $R'\left(a,\frac{3b}{4}\right)$, with slope $k_2=\frac{\frac{3b}{4}-b}{a}=-\frac{b}{4a}$ and equation $y=-\frac{b}{4a}x+b$. Solving for the intersection $L$:
 
-(a) $B\approx41^{\circ}49'$: $C\approx108^{\circ}11'$. $c=\frac{6\sin C}{\sin30^{\circ}}\approx11.40\text{ cm}$.
+$$
+\frac{4b}{a}x-b=-\frac{b}{4a}x+b.
+$$
 
-(b) $B\approx138^{\circ}11'$: $C\approx11^{\circ}49'$. $c\approx2.70\text{ cm}$.
+Solving gives $x=\frac{8a}{17}$, $y=\frac{15b}{17}$. Substituting into the ellipse equation:
 
-(3) $c^2=49+529-2\times7\times23\times\cos130^{\circ}\approx578+207.3=785.3$. $c\approx28.02\text{ cm}$. $\sin A=\frac{7\sin130^{\circ}}{28.02}\approx0.191$. $A\approx11^{\circ}1'\text{. }B\approx38^{\circ}59'$.
+$$
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=\frac{64}{289}+\frac{225}{289}=1.
+$$
 
-(4) $\cos A=\frac{9+16-4}{24}=\frac{21}{24}=0.875$. $A\approx28^{\circ}57'$. $\cos B=\frac{4+16-9}{16}=\frac{11}{16}=0.6875$. $B\approx46^{\circ}34'$. $C\approx104^{\circ}29'$. $\blacksquare$
+Hence $L$ lies on the ellipse. Similarly, combining $ES$ and $GS'$ gives $x=\frac{4a}{5}$, $y=\frac{3b}{5}$, and substitution gives $\frac{16}{25}+\frac{9}{25}=1$, so $M$ lies on the ellipse. Combining $ET$ and $GT'$ gives $x=\frac{24a}{25}$, $y=\frac{7b}{25}$, and substitution gives $\frac{576}{625}+\frac{49}{625}=1$, so $N$ lies on the ellipse. $\blacksquare$
 
 ## Problem 12
 
-(Review Reference Problem 6, Review and Consolidation, Problem 12) There is a small island in the sea, with reefs within $3\text{ n mile}$ around it. A ship sails from west to east and sights the island at $75^{\circ}$ east of north; after sailing $8\text{ n mile}$, it sights the island at $55^{\circ}$ east of north. If the ship continues on its course, is there a danger of hitting the reef?
+(Exercise 3.1, Extension and Exploration, Problem 12) The Earth's orbit is an ellipse with semi-major axis $a=1.50\times10^8\,\mathrm{km}$ and eccentricity $e=0.0192$, with the sun at one focus. Find the maximum and minimum distances from the Earth to the sun.
 
 ### Solution to Problem 12
 
-By **Theorem 6.4.3 (Law of Sines)**.
+By **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}$, so $c=ae=1.50\times10^8\times0.0192=2.88\times10^6\,\mathrm{km}$.
 
-Let the island be $P$, the initial position $A$, and the position after sailing $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-\left(90^{\circ}-55^{\circ}\right)=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
+The maximum distance from the Earth to the sun (focus) is $a+c$, and the minimum distance is $a-c$. Hence the maximum distance is
 
-By the Law of Sines: $\frac{AP}{\sin145^{\circ}}=\frac{8}{\sin20^{\circ}}$.
+$$
+a+c=1.50\times10^8+2.88\times10^6=1.5288\times10^8\,\mathrm{km},
+$$
 
-$AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ}}$.
+and the minimum distance is
 
-The perpendicular distance from the island to the course (the east-west direction): $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47> 3$.
+$$
+a-c=1.50\times10^8-2.88\times10^6=1.4712\times10^8\,\mathrm{km}.
+$$
 
-Hence there is no danger of hitting the reef. $\blacksquare$
+$\blacksquare$
 
 ## Problem 13
 
-(Review Reference Problem 6, Comprehensive Application, Problem 13) Multiple choice.
+(Exercise 3.1, Extension and Exploration, Problem 13) Given the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ and the line $l:4x-5y+40=0$. Is there a point on the ellipse such that:
 
-(1) Given that $\boldsymbol{a}$, $\boldsymbol{b}$ are non-collinear vectors, and $\boldsymbol{AB}=\boldsymbol{a}+5\boldsymbol{b}$, $\boldsymbol{BC}=-2\boldsymbol{a}+8\boldsymbol{b}$, $\boldsymbol{CD}=3\left(\boldsymbol{a}-\boldsymbol{b}\right)$, then ().
+(1) its distance to $l$ is minimized? What is the minimum distance?
 
-(A) $A$, $B$, $D$ are collinear (B) $A$, $B$, $C$ are collinear
-
-(C) $B$, $C$, $D$ are collinear (D) $A$, $C$, $D$ are collinear
-
-(2) Given that the square $ABCD$ has side length $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, then $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=$ ().
-
-(A) $0$ (B) $3$ (C) $\sqrt 2$ (D) $2\sqrt 2$
-
-(3) Given $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OD}=\boldsymbol{d}$, and quadrilateral $ABCD$ is a parallelogram, then ().
-
-(A) $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{d}=\boldsymbol{0}$ (B) $\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$
-
-(C) $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$ (D) $\boldsymbol{a}-\boldsymbol{b}-\boldsymbol{c}+\boldsymbol{d}=\boldsymbol{0}$
-
-(4) If $\boldsymbol{e}_1$, $\boldsymbol{e}_2$ are two unit vectors with angle $60^{\circ}$, then the angle between $\boldsymbol{a}=2\boldsymbol{e}_1+\boldsymbol{e}_2$ and $\boldsymbol{b}=-3\boldsymbol{e}_1+2\boldsymbol{e}_2$ is ().
-
-(A) $30^{\circ}$ (B) $60^{\circ}$ (C) $120^{\circ}$ (D) $150^{\circ}$
-
-(5) Given that the equilateral triangle $ABC$ has side length $1$, $\boldsymbol{BC}=\boldsymbol{a}$, $\boldsymbol{CA}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$, then $\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}\cdot\boldsymbol{c}+\boldsymbol{c}\cdot\boldsymbol{a}=$ ().
-
-(A) $3$ (B) $-3$ (C) $\frac{3}{2}$ (D) $-\frac{3}{2}$
-
-(6) If vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ have equal pairwise angles, and $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=1$, $\lvert\boldsymbol{c}\rvert=3$, then $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=$ ().
-
-(A) $2$ (B) $5$ (C) $2$ or $5$ (D) $\sqrt 2$ or $\sqrt 5$
+(2) its distance to $l$ is maximized? What is the maximum distance?
 
 ### Solution to Problem 13
 
-(1) By **Theorem 6.2.8 (Collinear Vectors Theorem)**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=\left(-2\boldsymbol{a}+8\boldsymbol{b}\right)+\left(3\boldsymbol{a}-3\boldsymbol{b}\right)=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. Hence $A$, $B$, $D$ are collinear. Choose (A).
+Let a line parallel to $l:4x-5y+40=0$ be $4x-5y+m=0$; substitute into the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$. From $y=\frac{4x+m}{5}$, substituting gives
 
-(2) By **Common Result 6.3.4**, $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{AC}=\boldsymbol{c}$. $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=2\boldsymbol{c}$. $\lvert\boldsymbol{c}\rvert=\sqrt 2$. Choose (D).
+$$
+\frac{x^2}{25}+\frac{\left(4x+m\right)^2}{25\cdot9}=1.
+$$
 
-(3) By **Definition 6.1.7 (Equal Vectors)**, in a parallelogram $\boldsymbol{AB}=\boldsymbol{DC}$, i.e. $\boldsymbol{b}-\boldsymbol{a}=\boldsymbol{c}-\boldsymbol{d}$. $\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$. Choose (B).
+Simplifying gives $25x^2+8mx+m^2-225=0$. By **Common Conclusion 3.1.8**, tangency means $\Delta=0$, i.e. $64m^2-100\left(m^2-225\right)=0$, so $m^2=625$, $m=\pm25$.
 
-(4) By **Definition 6.2.11 (向量的数量积)**, $\boldsymbol{e}_1\cdot\boldsymbol{e}_2=\cos60^{\circ}=\frac{1}{2}$.
+The two tangents are $4x-5y+25=0$ and $4x-5y-25=0$. Their distances to $l:4x-5y+40=0$ are respectively
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=\left(2\boldsymbol{e}_1+\boldsymbol{e}_2\right)\cdot\left(-3\boldsymbol{e}_1+2\boldsymbol{e}_2\right)=-6+4\cdot\frac{1}{2}+3\cdot\frac{1}{2}+2=-6+2+1.5+2=-0.5$.
+$$
+d_1=\frac{\lvert 25-40 \rvert}{\sqrt{4^2+5^2}}=\frac{15}{\sqrt{41}}=\frac{15\sqrt{41}}{41},
+$$
 
-$\lvert\boldsymbol{a}\rvert^2=4+4\cdot\frac{1}{2}+1=7$. $\lvert\boldsymbol{b}\rvert^2=9-12\cdot\frac{1}{2}+4=7$.
+$$
+d_2=\frac{\lvert -25-40 \rvert}{\sqrt{41}}=\frac{65}{\sqrt{41}}=\frac{65\sqrt{41}}{41}.
+$$
 
-$\cos\theta=\frac{-0.5}{7}=-\frac{1}{14}$? Correction: $\boldsymbol{a}\cdot\boldsymbol{b}=-6\boldsymbol{e}_1^2+4\boldsymbol{e}_1\cdot\boldsymbol{e}_2-3\boldsymbol{e}_1\cdot\boldsymbol{e}_2+2\boldsymbol{e}_2^2=-6+\frac{1}{2}+2=-\frac{7}{2}$.
+(1) There is a point at minimum distance to $l$, and the minimum distance is $\frac{15\sqrt{41}}{41}$.
 
-$\cos\theta=\frac{-7/2}{\sqrt 7\cdot\sqrt 7}=-\frac{1}{2}$. $\theta=120^{\circ}$. Choose (C).
-
-(5) By **Definition 6.2.11 (向量的数量积)**, each pair has angle $120^{\circ}$.
-
-$\boldsymbol{a}\cdot\boldsymbol{b}=1\times1\times\cos120^{\circ}=-\frac{1}{2}$. The sum of the three pairs $=-\frac{3}{2}$. Choose (D).
-
-(6) The pairwise angles are equal, in two cases: angle $0^{\circ}$ or $120^{\circ}$.
-
-(a) Angle $0^{\circ}$: $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=1+1+3=5$.
-
-(b) Angle $120^{\circ}$: $\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=1+1+9+2\left(1\cdot1\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)+1\cdot3\cdot\left(-\frac{1}{2}\right)\right)=11-7=4$. The magnitude is $2$. Choose (C). $\blacksquare$
+(2) There is a point at maximum distance to $l$, and the maximum distance is $\frac{65\sqrt{41}}{41}$. $\blacksquare$
 
 ## Problem 14
 
-(Review Reference Problem 6, Comprehensive Application, Problem 14) Given that $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, $\boldsymbol{d}$ are nonzero vectors, prove the following conclusions and explain their geometric meaning.
+(Exercise 3.1, Extension and Exploration, Problem 14) Given the ellipse $\frac{x^2}{4}+\frac{y^2}{9}=1$, a family of parallel lines has slope $\frac{3}{2}$.
 
-(1) $\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$;
+(1) When does this family of lines have two common points with the ellipse?
 
-(2) If $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{c}$, $\boldsymbol{a}-\boldsymbol{b}=\boldsymbol{d}$, then $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert\Longleftrightarrow\boldsymbol{c}\perp\boldsymbol{d}$.
+(2) When they have two common points with the ellipse, prove that the midpoints of the segments cut off by the ellipse lie on a single line.
 
 ### Solution to Problem 14
 
-By **Common Result 6.2.13** (Properties of the Dot Product).
+Let the parallel lines be $y=\frac{3}{2}x+m$; substituting into the ellipse $\frac{x^2}{4}+\frac{y^2}{9}=1$ gives
 
-(1) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+$$
+\frac{x^2}{4}+\frac{\left(\frac{3}{2}x+m\right)^2}{9}=1.
+$$
 
-$\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2$.
+Simplifying gives $18x^2+12mx+4m^2-36=0$, i.e. $9x^2+6mx+2m^2-18=0$.
 
-The equality of the two is equivalent to $4\boldsymbol{a}\cdot\boldsymbol{b}=0$, i.e. $\boldsymbol{a}\cdot\boldsymbol{b}=0$, i.e. $\boldsymbol{a}\perp\boldsymbol{b}$. Geometric meaning: the diagonals of a rectangle are equal.
+(1) By **Common Conclusion 3.1.8**, having two common points requires $\Delta> 0$, i.e. $36m^2-36\left(2m^2-18\right)> 0$, which simplifies to $m^2< 18$, i.e. $-3\sqrt{2}< m< 3\sqrt{2}$.
 
-(2) $\boldsymbol{c}\cdot\boldsymbol{d}=\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2$.
+(2) Let the abscissas of the intersections be $x_1,x_2$; then the abscissa of the midpoint is $x_0=\frac{x_1+x_2}{2}=-\frac{m}{3}$. The ordinate of the midpoint is $y_0=\frac{3}{2}x_0+m=-\frac{m}{2}+m=\frac{m}{2}$. Eliminating $m$ gives $y_0=-\frac{3}{2}x_0$, i.e. the midpoints lie on the line $y=-\frac{3}{2}x$. $\blacksquare$
 
-$\boldsymbol{c}\perp\boldsymbol{d}\Longleftrightarrow\boldsymbol{c}\cdot\boldsymbol{d}=0\Longleftrightarrow\boldsymbol{a}^2=\boldsymbol{b}^2\Longleftrightarrow\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$. Geometric meaning: the diagonals of a rhombus are perpendicular to each other. $\blacksquare$
+## Information Technology Application 1
 
-## Problem 15
+(Think About It 1) In deriving the standard equation of the ellipse, what transformation leads to the ratio being the constant $\frac{c}{a}$ between the distance from a point $M\left(x,y\right)$ to the fixed point $F\left(-c,0\right)$ and the distance from the moving point $M$ to the fixed line $l':x=-\frac{a^2}{c}$? What insight do you gain from this process?
 
-(Review Reference Problem 6, Comprehensive Application, Problem 15) Given $\triangle P_1P_2P_3$, the vectors $\boldsymbol{OP_1}$, $\boldsymbol{OP_2}$, $\boldsymbol{OP_3}$ satisfy $\boldsymbol{OP_1}+\boldsymbol{OP_2}+\boldsymbol{OP_3}=\boldsymbol{0}$, $\lvert\boldsymbol{OP_1}\rvert=\lvert\boldsymbol{OP_2}\rvert=\lvert\boldsymbol{OP_3}\rvert$. Prove: $\triangle P_1P_2P_3$ is an equilateral triangle.
+### Solution to Information Technology Application 1
 
-### Solution to Problem 15
+In deriving the standard equation of the ellipse, we obtain
 
-By **Definition 6.2.11 (Dot Product)** and **Theorem 6.4.2 (Law of Cosines)**.
+$$
+a^2-cx=a\sqrt{\left(x-c\right)^2+y^2}.
+$$
 
-Let $\lvert\boldsymbol{OP_1}\rvert=\lvert\boldsymbol{OP_2}\rvert=\lvert\boldsymbol{OP_3}\rvert=R$.
+If we replace $x$ by $-x$ (keeping $y$ unchanged, i.e. reflecting across the $y$-axis), this becomes
 
-$\boldsymbol{OP_1}+\boldsymbol{OP_2}=-\boldsymbol{OP_3}$. Squaring both sides: $\boldsymbol{OP_1}^2+\boldsymbol{OP_2}^2+2\boldsymbol{OP_1}\cdot\boldsymbol{OP_2}=\boldsymbol{OP_3}^2$.
+$$
+a^2+cx=a\sqrt{\left(x+c\right)^2+y^2}.
+$$
 
-$R^2+R^2+2R^2\cos\angle P_1OP_2=R^2$. $\cos\angle P_1OP_2=-\frac{1}{2}$. $\angle P_1OP_2=120^{\circ}$.
+Rearranging gives
 
-Similarly $\angle P_2OP_3=\angle P_3OP_1=120^{\circ}$.
+$$
+\frac{\sqrt{\left(x+c\right)^2+y^2}}{\frac{a^2}{c}+x}=\frac{c}{a}.
+$$
 
-$P_1P_2^2=R^2+R^2-2R^2\cos120^{\circ}=3R^2$. $P_1P_2=R\sqrt 3$.
+Here $\sqrt{\left(x+c\right)^2+y^2}$ is the distance from $M\left(x,y\right)$ to $F\left(-c,0\right)$, and $\frac{a^2}{c}+x=\frac{a^2}{c}-\left(-x\right)$ is the distance from $M$ to the line $l':x=-\frac{a^2}{c}$. This shows that the ratio of the distance from a point on the ellipse to a focus to the distance to the corresponding directrix is always the eccentricity $\frac{c}{a}$. This process reflects the unity of the two definitions of the ellipse and reveals the meaning of the directrix as a geometric element of the ellipse. $\blacksquare$
 
-The three sides are equal, so it is an equilateral triangle. $\blacksquare$
+## Exercise 7
 
-## Problem 16
+(Exercise 3.2, Problem 1) Find the standard equation of the hyperbola satisfying the following conditions.
 
-(Review Reference Problem 6, Comprehensive Application, Problem 16) As shown in the figure, given $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, the point symmetric to any point $M$ about point $A$ is $S$, and the point symmetric to $S$ about point $B$ is $N$; express the vector $\boldsymbol{MN}$ in terms of $\boldsymbol{a}$ and $\boldsymbol{b}$.
+(1) foci on the $x$-axis, $a=4$, $b=3$;
 
-(Figure: from point $O$ two vectors $\boldsymbol{OA}=\boldsymbol{a}$ and $\boldsymbol{OB}=\boldsymbol{b}$; any point $M$, its reflection about $A$ is $S$, and the reflection of $S$ about $B$ is $N$, with $M,S,N,A,B$ arranged collinearly.)
+(2) foci on the $x$-axis, passing through $\left(-\sqrt{2},-\sqrt{3}\right)$ and $\left(\frac{\sqrt{15}}{3},\sqrt{2}\right)$;
 
-### Solution to Problem 16
+(3) foci at $\left(0,-6\right)$ and $\left(0,6\right)$, passing through $\left(2,-5\right)$.
 
-By **Common Result 6.3.6** (Midpoint Coordinate Formula) and **Definition 6.2.5 (Vector Subtraction)**.
+### Solution to Exercise 7
 
-$A$ is the midpoint of $MS$: $\boldsymbol{OA}=\frac{\boldsymbol{OM}+\boldsymbol{OS}}{2}$. $\boldsymbol{OS}=2\boldsymbol{a}-\boldsymbol{OM}$.
+By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, $c^2=a^2+b^2$.
 
-$B$ is the midpoint of $SN$: $\boldsymbol{OB}=\frac{\boldsymbol{OS}+\boldsymbol{ON}}{2}$. $\boldsymbol{ON}=2\boldsymbol{b}-\boldsymbol{OS}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}$.
+(1) Foci on the $x$-axis, $a=4$, $b=3$; the standard equation is
 
-$\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}+\boldsymbol{OM}-\boldsymbol{OM}=2\left(\boldsymbol{b}-\boldsymbol{a}\right)$. $\blacksquare$
+$$
+\frac{x^2}{16}-\frac{y^2}{9}=1.
+$$
 
-## Problem 17
+(2) Foci on the $x$-axis; let the equation be $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$. Substituting the two points:
 
-(Review Reference Problem 6, Extension and Exploration, Problem 17) A person rides a bicycle from place $A$ eastward for $9\text{ km}$ to place $B$, then from place $B$ in the direction $30^{\circ}$ south of east for $6\text{ km}$ to place $C$, then from place $C$ in the direction $30^{\circ}$ north of east for $16\text{ km}$ to place $D$; find the displacement of this person from place $A$ to place $D$ (angle accurate to $1^{\circ}$).
+$$
+\frac{2}{a^2}-\frac{3}{b^2}=1,\quad \frac{15/9}{a^2}-\frac{2}{b^2}=1.
+$$
 
-### Solution to Problem 17
+Solving gives $a^2=1$, $b^2=3$. The standard equation is
 
-By **Definition 6.2.11 (Dot Product)** and **Theorem 6.4.2 (Law of Cosines)**.
+$$
+x^2-\frac{y^2}{3}=1.
+$$
 
-Take the east direction as the $x$-axis and the north direction as the $y$-axis.
+(3) The foci $\left(0,\pm6\right)$ are on the $y$-axis, so $c=6$; let the equation be $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$. Substituting $\left(2,-5\right)$ gives $\frac{25}{a^2}-\frac{4}{b^2}=1$, and $a^2+b^2=36$. Solving gives $a^2=20$, $b^2=16$. The standard equation is
 
-$\boldsymbol{AB}=\left(9,0\right)$.
+$$
+\frac{y^2}{20}-\frac{x^2}{16}=1.
+$$
 
-$\boldsymbol{BC}=6\left(\sin30^{\circ},-\cos30^{\circ}\right)=\left(3,-3\sqrt 3\right)$.
+$\blacksquare$
 
-$\boldsymbol{CD}=16\left(\sin30^{\circ},\cos30^{\circ}\right)=\left(8,8\sqrt 3\right)$.
+## Exercise 8
 
-$\boldsymbol{AD}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\left(9+3+8,0-3\sqrt 3+8\sqrt 3\right)=\left(20,5\sqrt 3\right)$.
+(Exercise 3.2, Problem 2) Prove that the hyperbola $x^2-15y^2=15$ and the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ have the same foci.
 
-$\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text{ km}$.
+### Solution to Exercise 8
 
-Direction: $\tan\theta=\frac{5\sqrt 3}{20}=\frac{\sqrt 3}{4}$. $\theta\approx23^{\circ}$, i.e. $23^{\circ}$ north of east. $\blacksquare$
+By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, rewrite the hyperbola $x^2-15y^2=15$ as $\frac{x^2}{15}-\frac{y^2}{1}=1$, so $a^2=15$, $b^2=1$, $c^2=a^2+b^2=16$, $c=4$, and the foci are at $\left(-4,0\right)$ and $\left(4,0\right)$.
 
-## Problem 18
+By **Definition 3.1.3 (Standard Equation of an Ellipse)**, in the ellipse $\frac{x^2}{25}+\frac{y^2}{9}=1$ we have $a^2=25$, $b^2=9$, $c^2=a^2-b^2=16$, $c=4$, and the foci are at $\left(-4,0\right)$ and $\left(4,0\right)$.
 
-(Review Reference Problem 6, Extension and Exploration, Problem 18) Design a method, using two observation points $C$, $D$ (where the distance between $C$ and $D$ is $d$), to measure the heading and speed of a ship.
+The foci are exactly the same, and the claim follows. $\blacksquare$
 
-### Solution to Problem 18
+## Exercise 9
 
-By **Theorem 6.4.2 (Law of Cosines)** and **Theorem 6.4.3 (Law of Sines)**.
+(Exercise 3.2, Problem 3) Given that the equation $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ represents a hyperbola, find the range of $m$.
 
-Observe the ship's position simultaneously at points $C$ and $D$, and record the azimuth angles at two times $t_1$, $t_2$. Use the triangle Law of Sines to find the ship's distance to $C$ or $D$ at the two times, thereby finding the ship's displacement; dividing the displacement by the time gives the speed, and the direction of the displacement is the heading. $\blacksquare$
+### Solution to Exercise 9
 
-## Problem 19
+By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, in the standard hyperbola equation the signs of the $x^2$ and $y^2$ terms are opposite, i.e. the two denominators must have the same sign (one positive and one negative is impossible; in the standard form the two terms have opposite signs, so the two denominators must have the same sign).
 
-(Review Reference Problem 6, Extension and Exploration, Problem 19) As shown in the figure, the line $l$ intersects the sides $AB$ and $AC$ of $\triangle ABC$ at points $D$ and $E$ respectively. Let $AB=c$, $BC=a$, $CA=b$, $\angle ADE=\theta$; use vector methods to explore the quantitative relationship between $\theta$ and the sides and angles of $\triangle ABC$.
-
-(Figure: $\triangle ABC$ with a line $l$ intersecting $AB$ at $D$ and $AC$ at $E$, and $\angle ADE=\theta$.)
-
-### Solution to Problem 19
-
-By **Common Result 6.4.1** (Three-Step Procedure for Vector Methods) and **Theorem 6.4.3 (Law of Sines)**.
-
-Let $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$. $D$ is on $AB$, and $E$ is on $AC$.
-
-By the vector dot product: $\boldsymbol{DE}\cdot\boldsymbol{AB}=\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AB}\rvert\cos\angle ADE$.
-
-Combining with the Law of Sines, the relationship between $\theta$ and the triangle's sides and angles can be derived, in forms such as $\frac{\sin\theta}{a}=\frac{\sin A}{DE}$. $\blacksquare$
+For $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ to represent a hyperbola, the two denominators must have the same sign. Either $2+m> 0$ and $m+1> 0$, giving $m> -1$; or $2+m< 0$ and $m+1< 0$, giving $m< -2$. Hence the range of $m$ is $m< -2$ or $m> -1$. $\blacksquare$
