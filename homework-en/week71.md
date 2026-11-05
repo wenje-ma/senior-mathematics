@@ -1,31 +1,41 @@
 # week71
+
 > **Definition 6.1.1 (分类加法计数原理)**
 > 
 > 完成一件事有两类不同方案, 在第 1 类方案中有 m 种不同的方法, 在第 2 类方案中有 n 种不同的方法, 那么完成这件事共有 N = m + n 种不同的方法.
+
 > **Definition 6.1.2 (分步乘法计数原理)**
 > 
 > 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
+
 > **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
 > 
 > 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+
 > **Definition 7.1.1 (条件概率)**
 > 
 > 设 A, B 为两个事件, 且 P(A) > 0, 称 P(B|A) = P(AB)/P(A) 为在事件 A 发生的条件下, 事件 B 发生的条件概率.
+
 > **Definition 7.2.3 (分布列)**
 > 
 > 设离散型随机变量 X 可能取的值为 x1, x2, ..., xn, X 取每一个值 xi 的概率 P(X=xi) = pi, 则表称为 X 的分布列.
+
 > **Definition 7.3.1 (Mean or Mathematical Expectation)**
 > 
 > 离散型随机变量 X 的分布列为 P(X=xi) = pi, 则 E(X) = sum(xi*pi) 称为 X 的均值或数学期望.
+
 > **Definition 7.4.2 (二项分布)**
 > 
 > 在 n 次独立重复试验中, 设事件 A 发生的次数为 X, 每次试验中 A 发生的概率为 p, 则 X ~ B(n, p).
+
 > **Definition 7.5.2 (正态分布)**
 > 
 > 正态分布的概率密度函数为 f(x) = (1/(sigma*sqrt(2pi))) * exp(-(x-mu)^2/(2*sigma^2)), 记作 N(mu, sigma^2).
+
 > **Definition 8.2.1 (一元线性回归模型)**
 > 
 > 关于 $x$ 和随机变量 $Y$ 的一元线性回归模型为
+
 > **Definition 8.2.4 (Empirical Regression Equation)**
 > 
 > The regression line y = bx + a obtained by the least squares method.

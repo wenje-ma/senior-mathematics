@@ -1,67 +1,89 @@
 # week39
+
 > **Definition 6.1.1 (向量与数量)**
 > 
 > 既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
+
 > **Definition 6.1.7 (Equal Vectors)**
 > 
 > 长度相等且方向相同的向量叫做相等向量.
+
 > **Definition 6.2.4 (Permutation and Factorial)**
 > 
 > 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+
 > **Definition 6.2.5 (Vector Subtraction)**
 > 
 > a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+
 > **Definition 6.2.6 (Scalar Multiplication)**
 > 
 > 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+
 > **Theorem 6.2.8 (Collinear Vectors Theorem)**
 > 
 > 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+
 > **Definition 6.2.11 (向量的数量积)**
 > 
 > 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+
 > **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
 > 
 > 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+
 > **Theorem 6.4.2 (Law of Cosines)**
 > 
 > 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
+
 > **Theorem 6.4.3 (Law of Sines)**
 > 
 > 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.
+
 > **Definition 7.1.1 (虚数单位)**
 > 
 > 我们引入一个新数 $\mathrm{i}$, 使 $\mathrm{i}^2=-1$, $\mathrm{i}$ 叫做虚数单位.
+
 > **Definition 7.1.5 (Equality of Complex Numbers)**
 > 
 > 两个复数相等当且仅当它们的实部和虚部分别相等.
+
 > **Definition 7.1.6 (纯虚数)**
 > 
 > 它是实数０;当≠０时,它叫做虚数(ｉｍａｇｉｎａｒｙｎｕｍｂｅｒ);当＝０且≠０时,它叫做 纯虚数. 例如,３＋２ｉ,１２－槡３ｉ,－槡３－１２ｉ,－０.２ｉ都是虚数,它们的实部分别是３,１２, －槡３,０,虚部分别是２,－槡３,－１２,－０.２,并且其中只有－０.２ｉ是纯虚数. Ꮶ 复数集与实数集之间有什么关系? ᘿ ᬷ ܭ ᬷ ᬷ ጦᘿ ᬷ 　图７.１１ 显然,实数集是复数集的真子集,即. 这样,复数狕＝＋ｉ(,∈)可以分类如下: 复数实数＝０ ( ), 虚数≠０ ( )当＝０时为纯虚数 ( ). 复数集,实数集,虚数集,纯虚数集之间的关系, 可用图７.１１表示. 例１　当实数取什么值时,复数狕＝＋１＋(－１)ｉ是下列数? (１)实数;(２)虚数;(３)纯虚数. 分析:因为∈,所以＋１,－１都是实数.由复数狕＝＋ｉ(,∈)是实 数,虚数和纯虚数的条件可以确定的取值. 解:(１)当－１＝０,即＝１时
+
 > **Definition 7.1.8 (Geometric Meaning of Complex Numbers)**
 > 
 > 复数 z = a + bi 与复平面内的点 Z(a, b) 一一对应, 也与向量 OZ = (a, b) 一一对应.
+
 > **Definition 7.1.9 (Modulus of a Complex Number)**
 > 
 > 复数 z = a + bi 在复平面内对应的点 Z(a, b) 到原点的距离 |OZ| = sqrt(a^2 + b^2) 叫做复数 z 的模, 记作 |z|.
+
 > **Definition 7.1.10 (Conjugate Complex Number)**
 > 
 > 当两个复数的实部相等, 虚部互为相反数时, 这两个复数叫做互为共轭复数.
+
 > **Definition 7.2.1 (Addition of Complex Numbers)**
 > 
 > (a + bi) + (c + di) = (a + c) + (b + d)i.
+
 > **Definition 7.2.2 (Subtraction of Complex Numbers)**
 > 
 > (a + bi) - (c + di) = (a - c) + (b - d)i.
+
 > **Definition 7.2.5 (Multiplication of Complex Numbers)**
 > 
 > (a + bi)(c + di) = (ac - bd) + (ad + bc)i.
+
 > **Definition 7.2.7 (Division of Complex Numbers)**
 > 
 > (a + bi)/(c + di) = [(ac + bd) + (bc - ad)i]/(c^2 + d^2) (c + di != 0).
+
 > **Definition 7.2.8 (求根公式)**
 > 
 > (２－４ 槡 ) ２ ｉ. 在复数范围内,实系数一元二次方程２＋＋＝０(≠０)的求根公式为: (１)当Δ≥０时,＝－± ２－４ 槡  ２ ; (２)当Δ＜０时,＝－± －(２－４ 槡 )ｉ ２ . ９７ 例5 计算(1十2i)÷(3一4i). 1＋2i 解:(1十2i)÷(3一4i)= 3—4i (1+2i)(3+4i) 3—8+6i十4i (3—4i)(3+4i) 32+42 —5+10i 25 例 6 在复数范围内解下列方程: (1)α²十2=0; (2)aα²＋bx十c=0,其中a,b,cER,且a≠0,△=b²一4ac< 0. 分析:利用复数的乘法容易得到(1)中方程的根.对于(2),当△=62一4ac< 0 时, 一元二次方程aα²十bc十c=0无实数根.利用求解一元二次方程的根本大法———配方 法,类似于(1),就能在复数范围内求得(2)中方程的根. 解:(1)因为(/2i)²=(一2i)²=一2,所以方程α²十2=0 的根为=±/
+
 > **Definition 7.3.3 (辐角主值)**
 > 
 > 辐角在 [0, 2pi) 内的值叫做辐角主值, 记作 arg(z).

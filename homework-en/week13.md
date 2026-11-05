@@ -1,16 +1,21 @@
 # week13
+
 > **Definition 5.1.1 (正角, 负角, 零角)**
 > 
 > 我们规定, 一条射线绕其端点按逆时针方向旋转形成的角叫做正角, 按顺时针方向旋转形成的角叫做负角. 如果一条射线没有做任何旋转, 就称它形成了一个零角. 零角的始边与终边重合.
+
 > **Definition 5.1.2 (象限角)**
 > 
 > 在直角坐标系中, 使角的顶点与原点重合, 角的始边与 x 轴的非负半轴重合, 那么角的终边在第几象限, 就说这个角是第几象限角.
+
 > **Definition 5.1.3 (One Radian)**
 > 
 > 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+
 > **Definition 5.2.1 (Sine, Cosine, Tangent)**
 > 
 > 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+
 > **Definition 5.2.2 (终边上任意一点的三角函数比值)**
 > 
 > 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.

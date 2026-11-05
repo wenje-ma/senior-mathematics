@@ -1,28 +1,37 @@
 # week60
+
 > **Definition 5.1.2 (Derivative)**
 > 
 > 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+
 > **Definition 5.1.3 (One Radian)**
 > 
 > 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+
 > **Definition 5.2.1 (Derivative Formulas)**
 > 
 > 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+
 > **Definition 5.2.2 (Differentiation Rules)**
 > 
 > 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+
 > **Definition 5.2.3 (Chain Rule)**
 > 
 > 复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
+
 > **Definition 5.3.1 (Monotonicity and Derivative Sign)**
 > 
 > 在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+
 > **Definition 5.3.2 (Local Extrema)**
 > 
 > 如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+
 > **Definition 5.3.3 (Method for Finding Extrema)**
 > 
 > 解方程 f'(x) = 0. 当 f'(x0) = 0 时: 若 x < x0 时 f'(x) > 0, x > x0 时 f'(x) < 0, 则 f(x0) 是极大值; 反之是极小值.
+
 > **Definition 5.3.4 (闭区间上的最大 (小)**
 > 
 > 在闭区间 [a, b] 上连续的函数 f(x) 在 [a, b] 上必有最大值与最小值, 只需比较极值与端点值.

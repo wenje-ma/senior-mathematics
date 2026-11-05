@@ -1,13 +1,17 @@
 # week46
+
 > **Definition 1.4.1 (Direction Vector of a Line)**
 > 
 > 若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.
+
 > **Definition 1.4.2 (Normal Vector of a Plane)**
 > 
 > 与平面垂直的直线叫做平面的垂线, 直线的方向向量称为平面的法向量. 求平面的法向量通常只需求出一个.
+
 > **Definition 2.1.1 (倾斜角)**
 > 
 > 当直线 l 与 x 轴相交时, 我们取 x 轴为基准, x 轴正向与直线 l 向上方向之间所成的角 alpha 叫做直线 l 的倾斜角.
+
 > **Definition 2.1.2 (Slope)**
 > 
 > 一条直线的倾斜角 alpha 的正切值叫做这条直线的斜率, 即 k = tan(alpha).

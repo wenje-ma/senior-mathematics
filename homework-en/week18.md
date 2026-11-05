@@ -1,43 +1,57 @@
 # week18
+
 > **Definition 1.1.6 (Roster Method)**
 > 
 > 把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
+
 > **Definition 1.2.1 (Subset)**
 > 
 > 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+
 > **Definition 1.3.1 (Union)**
 > 
 > 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
+
 > **Definition 1.3.2 (Intersection)**
 > 
 > 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
+
 > **Definition 1.4.2 (Sufficient and Necessary Conditions)**
 > 
 > 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
+
 > **Definition 1.4.4 (Necessary and Sufficient Condition)**
 > 
 > 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
+
 > **Definition 1.5.1 (Universal Quantifier)**
 > 
 > 短语"所有的""任意一个"在逻辑中通常叫做全称量词, 用符号"$\forall$"表示. 含有全称量词的命题, 叫做全称量词命题.
+
 > **Definition 1.5.2 (Existential Quantifier)**
 > 
 > 短语"存在一个""至少有一个"在逻辑中通常叫做存在量词, 用符号"$\exists$"表示. 含有存在量词的命题, 叫做存在量词命题.
+
 > **Definition 1.5.3 (Negation of a Proposition)**
 > 
 > 对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg p$. 若 $p$ 是真命题, 则 $\neg p$ 是假命题; 若 $p$ 是假命题, 则 $\neg p$ 是真命题.
+
 > **Theorem 2.2.1 (AM-GM Inequality)**
 > 
 > 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+
 > **Definition 3.1.1 (Function)**
 > 
 > 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+
 > **Definition 4.3.1 (Logarithm)**
 > 
 > If a^b = N (a > 0, a != 1), then b is called the logarithm of N base a.
+
 > **Definition 5.7.1 (简谐运动)**
 > 
 > 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
+
 > **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**
 > 
 > 函数 y = A sin(omega x + phi) 中, A 是振幅, T = 2pi/omega 是周期, f = 1/T 是频率, omega x + phi 是相位, phi 是初相.

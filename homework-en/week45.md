@@ -1,7 +1,9 @@
 # week45
+
 > **Definition 1.4.1 (Direction Vector of a Line)**
 > 
 > 若直线 l 垂直于平面 alpha, 则称直线 l 的方向向量为平面 alpha 的法向量. 空间中任意直线由直线上一点及方向向量唯一确定.
+
 > **Definition 1.4.2 (Normal Vector of a Plane)**
 > 
 > 与平面垂直的直线叫做平面的垂线, 直线的方向向量称为平面的法向量. 求平面的法向量通常只需求出一个.

@@ -1,19 +1,25 @@
 # week42
+
 > **Definition 1.1.1 (空间向量)**
 > 
 > 在空间, 我们把具有大小和方向的量叫做空间向量, 空间向量的大小叫做空间向量的长度或模.
+
 > **Definition 1.1.2 (Opposite Vector)**
 > 
 > 与向量 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+
 > **Definition 1.1.3 (Collinear or Parallel Vectors)**
 > 
 > 方向相同或相反的非零向量叫做平行向量 (或共线向量). 规定零向量与任一向量平行.
+
 > **Definition 1.1.4 (Equal Vectors)**
 > 
 > 长度相等且方向相同的向量叫做相等向量.
+
 > **Definition 1.1.5 (Membership)**
 > 
 > 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+
 > **Definition 1.1.12 (向量的数量积)**
 > 
 > 已知两个非零向量 a 和 b, 它们的夹角为 theta, 把数量 |a||b|cos(theta) 叫做 a 与 b 的数量积 (或内积), 记作 a·b.

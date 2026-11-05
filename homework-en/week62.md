@@ -1,73 +1,97 @@
 # week62
+
 > **Definition 4.1.1 (数列)**
 > 
 > 按照确定的顺序排列的一列数称为数列, 数列中的每一个数叫做这个数列的项.
+
 > **Definition 4.1.5 (General Term Formula)**
 > 
 > 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.
+
 > **Definition 4.1.6 (递推公式)**
 > 
 > 如果已知数列的首项 (或前几项), 且任一项与前一项的关系可用一个公式表示, 这个公式叫做递推公式.
+
 > **Definition 4.2.1 (Arithmetic Sequence)**
 > 
 > 如果一个数列从第 2 项起, 每一项与它的前一项的差等于同一个常数, 这个数列就叫做等差数列.
+
 > **Definition 4.2.2 (等差中项)**
 > 
 > 由三个数 $a,A,b$ 组成的等差数列, $A$ 叫做 $a$ 与 $b$ 的等差中项. 根据等差数列的定义, $2A=a+b$.
+
 > **Theorem 4.2.3 (Arithmetic Sequence Formula)**
 > 
 > 等差数列的通项公式为 an = a1 + (n-1)d.
+
 > **Theorem 4.2.5 (等差数列性质)**
 > 
 > 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+
 > **Theorem 4.2.6 (前 $n$ 项和公式一)**
 > 
 > 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=\frac{n\left(a_1+a_n\right)}{2}$.
+
 > **Theorem 4.2.7 (前 $n$ 项和公式二)**
 > 
 > 等差数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n=na_1+\frac{n\left(n-1\right)}{2}d$.
+
 > **Definition 4.3.1 (Geometric Sequence)**
 > 
 > 如果一个数列从第 2 项起, 每一项与它的前一项的比等于同一个常数, 这个数列就叫做等比数列.
+
 > **Definition 4.3.2 (等比中项)**
 > 
 > 如果在 $a$ 与 $b$ 中间插入一个数 $G$, 使 $a,G,b$ 成等比数列, 那么 $G$ 叫做 $a$ 与 $b$ 的等比中项. 此时 $G^2=ab$.
+
 > **Theorem 4.3.3 (等比数列通项公式)**
 > 
 > 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+
 > **Theorem 4.3.5 (前 $n$ 项和公式)**
 > 
 > 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+
 > **Definition 4.4.1 (数学归纳法)**
 > 
 > 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
+
 > **Definition 5.1.1 (平均变化率)**
 > 
 > $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+
 > **Definition 5.1.2 (Derivative)**
 > 
 > 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+
 > **Definition 5.1.3 (One Radian)**
 > 
 > 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+
 > **Definition 5.2.1 (Derivative Formulas)**
 > 
 > 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+
 > **Definition 5.2.2 (Differentiation Rules)**
 > 
 > 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+
 > **Definition 5.2.3 (Chain Rule)**
 > 
 > 复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).
+
 > **Definition 5.3.1 (Monotonicity and Derivative Sign)**
 > 
 > 在某个区间 (a, b) 内, 如果 f'(x) > 0, 则 f(x) 在这个区间单调递增; 如果 f'(x) < 0, 则单调递减.
+
 > **Definition 5.3.2 (Local Extrema)**
 > 
 > 如果函数 y = f(x) 在点 x = a 处的函数值 f(a) 比它在点 x = a 附近其他点的函数值都小 (大), f'(a) = 0, 且两侧导数异号, 则 f(a) 叫做极小 (大) 值.
+
 > **Definition 6.1.1 (分类加法计数原理)**
 > 
 > 完成一件事有两类不同方案, 在第 1 类方案中有 m 种不同的方法, 在第 2 类方案中有 n 种不同的方法, 那么完成这件事共有 N = m + n 种不同的方法.
+
 > **Definition 6.1.2 (分步乘法计数原理)**
 > 
 > 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.

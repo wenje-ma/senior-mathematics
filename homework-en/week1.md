@@ -1,37 +1,49 @@
 # week1
+
 > **Definition 1.1.1 (Sets and Elements)**
 > 
 > 一般地, 我们把研究对象统称为元素, 把一些元素组成的总体叫做集合, 简称为集. 通常用大写拉丁字母 $A,B,C,\cdots$ 表示集合, 用小写拉丁字母 $a,b,c,\cdots$ 表示集合中的元素.
+
 > **Definition 1.1.2 (Determinacy of Elements)**
 > 
 > 给定一个集合, 它的元素必须是确定的. 也就是说, 给定一个集合, 那么一个元素在或不在这个集合中就确定了.
+
 > **Definition 1.1.5 (Membership)**
 > 
 > 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+
 > **Definition 1.1.6 (Roster Method)**
 > 
 > 把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
+
 > **Definition 1.1.7 (Set-builder Notation)**
 > 
 > 一般地, 设 $A$ 是一个集合, 我们把集合 $A$ 中所有具有共同特征 $P\left(x\right)$ 的元素 $x$ 所组成的集合表示为 $\left\{x\in A\mid P\left(x\right)\right\}$, 这种表示集合的方法称为描述法.
+
 > **Definition 1.2.1 (Subset)**
 > 
 > 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+
 > **Definition 1.2.2 (Equality of Sets)**
 > 
 > 如果集合 $A$ 是集合 $B$ 的子集, 且集合 $B$ 是集合 $A$ 的子集, 此时集合 $A$ 与集合 $B$ 中的元素是一样的, 就称集合 $A$ 与集合 $B$ 相等, 记作 $A=B$.
+
 > **Definition 1.2.3 (Proper Subset)**
 > 
 > 如果集合 $A\subseteq B$, 但存在元素 $x\in B$ 且 $x\notin A$, 就称集合 $A$ 是集合 $B$ 的真子集.
+
 > **Definition 1.2.4 (Empty Set)**
 > 
 > 不含任何元素的集合叫做空集, 记作 $\varnothing$. 规定空集是任何集合的子集.
+
 > **Definition 1.3.1 (Union)**
 > 
 > 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
+
 > **Definition 1.3.2 (Intersection)**
 > 
 > 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
+
 > **Definition 1.3.4 (Complement)**
 > 
 > 对于一个集合 $A$, 由全集 $U$ 中不属于集合 $A$ 的所有元素组成的集合称为集合 $A$ 相对于全集 $U$ 的补集, 记作 $\complement_U A$, 即 $\complement_U A=\left\{x\mid x\in U\text{ 且 }x\notin A\right\}$.

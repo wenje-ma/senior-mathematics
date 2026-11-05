@@ -1,43 +1,57 @@
 # week8
+
 > **Definition 3.1.1 (Function)**
 > 
 > 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+
 > **Definition 3.1.2 (Domain and Range)**
 > 
 > 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+
 > **Definition 3.1.5 (Piecewise Function)**
 > 
 > 在函数的定义域内, 对于自变量 $x$ 的不同取值范围, 有着不同的对应关系, 这样的函数通常叫做分段函数.
+
 > **Definition 3.1.6 (Representation of Functions)**
 > 
 > 函数的常用表示方法有解析法,列表法和图象法.
+
 > **Definition 3.2.1 (Monotonically Increasing)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+
 > **Definition 3.2.2 (Monotonically Decreasing)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+
 > **Definition 3.2.3 (Maximum Value)**
 > 
 > 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+
 > **Definition 3.2.4 (Minimum Value)**
 > 
 > 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
+
 > **Definition 3.2.5 (Even Function)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+
 > **Definition 3.2.6 (Odd Function)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
+
 > **Definition 3.3.1 (Power Function)**
 > 
 > 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
+
 > **Definition 4.1.1 (n 次方根)**
 > 
 > 一般地, 如果 x^n = a, 那么 x 叫做 a 的 n 次方根, 其中 n > 1, 且 n 是正整数.
+
 > **Definition 4.1.4 (Increasing and Decreasing Sequences)**
 > 
 > 如果数列 {an} 从第 2 项起, 每一项都大于它前面的一项, 叫做递增数列; 每一项都小于它前面的一项, 叫做递减数列.
+
 > **Definition 4.1.5 (数列的通项公式)**
 > 
 > 如果数列 {an} 的第 n 项与序号 n 之间的关系可以用一个式子表示, 这个式子叫做数列的通项公式.

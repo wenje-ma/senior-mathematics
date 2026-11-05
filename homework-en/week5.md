@@ -1,16 +1,21 @@
 # week5
+
 > **Definition 2.3.1 (一元二次不等式)**
 > 
 > 一般地, 我们把只含有一个未知数, 并且未知数的最高次数是 $2$ 的不等式, 称为一元二次不等式. 其一般形式是 $ax^2+bx+c> 0$ 或 $ax^2+bx+c< 0$, 其中 $a,b,c$ 均为常数, $a\neq0$.
+
 > **Definition 3.1.1 (Function)**
 > 
 > 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+
 > **Definition 3.1.2 (Domain and Range)**
 > 
 > 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+
 > **Definition 3.1.5 (Piecewise Function)**
 > 
 > 在函数的定义域内, 对于自变量 $x$ 的不同取值范围, 有着不同的对应关系, 这样的函数通常叫做分段函数.
+
 > **Definition 3.1.6 (Representation of Functions)**
 > 
 > 函数的常用表示方法有解析法,列表法和图象法.

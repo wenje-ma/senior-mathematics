@@ -1,16 +1,21 @@
 # week24
+
 > **Definition 6.1.7 (Equal Vectors)**
 > 
 > 长度相等且方向相同的向量叫做相等向量.
+
 > **Definition 6.2.11 (向量的数量积)**
 > 
 > 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.
+
 > **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**
 > 
 > 如果 e1, e2 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 a, 有且只有一对实数 lambda1, lambda2, 使 a = lambda1*e1 + lambda2*e2.
+
 > **Theorem 6.4.2 (Law of Cosines)**
 > 
 > 三角形中任何一边的平方等于其他两边的平方的和减去这两边与它们的夹角的余弦的积的两倍. a^2 = b^2 + c^2 - 2bc cos A.
+
 > **Theorem 6.4.3 (Law of Sines)**
 > 
 > 在一个三角形中, 各边和它所对角的正弦的比相等, 即 a/sin A = b/sin B = c/sin C.

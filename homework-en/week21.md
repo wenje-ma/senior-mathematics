@@ -1,46 +1,61 @@
 # week21
+
 > **Definition 5.6.1 (周期函数)**
 > 
 > 参见教材相应章节关于此概念的论述.
+
 > **Definition 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**
 > 
 > 参见教材相应章节关于此概念的论述.
+
 > **Definition 6.1.1 (向量与数量)**
 > 
 > 既有大小又有方向的量叫做向量; 只有大小没有方向的量叫做数量.
+
 > **Definition 6.1.2 (分步乘法计数原理)**
 > 
 > 完成一件事需要两个步骤, 做第 1 步有 m 种不同的方法, 做第 2 步有 n 种不同的方法, 那么完成这件事共有 N = m*n 种不同的方法.
+
 > **Definition 6.1.3 (Magnitude of a Vector)**
 > 
 > 向量 AB 的大小, 也就是向量 AB 的长度 (或称模), 记作 |AB|.
+
 > **Definition 6.1.5 (Unit Vector)**
 > 
 > 长度等于 1 个单位长度的向量叫做单位向量.
+
 > **Definition 6.1.6 (Parallel and Collinear Vectors)**
 > 
 > 方向相同或相反的非零向量叫做平行向量, 也叫共线向量.
+
 > **Definition 6.1.7 (Equal Vectors)**
 > 
 > 长度相等且方向相同的向量叫做相等向量.
+
 > **Definition 6.2.1 (向量加法的三角形法则)**
 > 
 > 已知非零向量 $\boldsymbol{a}$, $\boldsymbol{b}$, 在平面内取任意一点 $A$, 作 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, 则向量 $\boldsymbol{AC}$ 叫做 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的和, 记作 $\boldsymbol{a}+\boldsymbol{b}$. 求两个向量和的运算叫做向量的加法, 这种方法称为向量加法的三角形法则.
+
 > **Definition 6.2.2 (Parallelogram Rule)**
 > 
 > 已知向量 a, b, 在平面上任取一点 A, 作 AB = a, AD = b, 以 AB, AD 为邻边作平行四边形 ABCD, 则对角线 AC = a + b.
+
 > **Definition 6.2.4 (Permutation and Factorial)**
 > 
 > 与 a 长度相等, 方向相反的向量, 叫做 a 的相反向量, 记作 -a.
+
 > **Definition 6.2.5 (Vector Subtraction)**
 > 
 > a - b = a + (-b), 即减去一个向量相当于加上这个向量的相反向量.
+
 > **Definition 6.2.6 (Scalar Multiplication)**
 > 
 > 实数 lambda 与向量 a 的乘积 lambda a 是一个向量, 它的长度是 |lambda| * |a|, 方向当 lambda > 0 时与 a 相同, lambda < 0 时相反.
+
 > **Theorem 6.2.8 (Collinear Vectors Theorem)**
 > 
 > 向量 a (a != 0) 与 b 共线, 当且仅当存在唯一一个实数 lambda, 使 b = lambda a.
+
 > **Definition 6.2.11 (向量的数量积)**
 > 
 > 已知两个非零向量 a 与 b, 它们的夹角为 theta, 则数量 |a||b|cos(theta) 叫做 a 与 b 的数量积, 记作 a·b.

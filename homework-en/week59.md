@@ -1,19 +1,25 @@
 # week59
+
 > **Definition 5.1.1 (平均变化率)**
 > 
 > $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+
 > **Definition 5.1.2 (Derivative)**
 > 
 > 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+
 > **Definition 5.1.3 (One Radian)**
 > 
 > 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
+
 > **Definition 5.2.1 (Derivative Formulas)**
 > 
 > 设 alpha 是一个任意角, 它的终边上任意一点 P(x, y), 点 P 到原点的距离为 r, 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+
 > **Definition 5.2.2 (Differentiation Rules)**
 > 
 > 设角 alpha 终边上任意一点 P(x, y), r = sqrt(x^2+y^2), 则 sin(alpha) = y/r, cos(alpha) = x/r, tan(alpha) = y/x.
+
 > **Definition 5.2.3 (Chain Rule)**
 > 
 > 复合函数 y = f(g(x)) 的导数为 y' = f'(g(x)) * g'(x).

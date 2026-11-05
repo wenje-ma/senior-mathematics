@@ -1,43 +1,57 @@
 # week19
+
 > **Theorem 2.2.1 (AM-GM Inequality)**
 > 
 > 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+
 > **Definition 3.1.1 (Function)**
 > 
 > 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+
 > **Definition 3.1.2 (Domain and Range)**
 > 
 > 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+
 > **Definition 3.1.5 (Piecewise Function)**
 > 
 > 在函数的定义域内, 对于自变量 $x$ 的不同取值范围, 有着不同的对应关系, 这样的函数通常叫做分段函数.
+
 > **Definition 3.2.1 (Monotonically Increasing)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+
 > **Definition 3.2.2 (Monotonically Decreasing)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+
 > **Definition 3.2.3 (Maximum Value)**
 > 
 > 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+
 > **Definition 3.2.5 (Even Function)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+
 > **Definition 3.2.6 (Odd Function)**
 > 
 > 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
+
 > **Definition 3.3.1 (Power Function)**
 > 
 > 一般地, 函数 $y=x^\alpha$ 叫做幂函数, 其中 $x$ 是自变量, $\alpha$ 是常数.
+
 > **Definition 4.1.1 (n 次方根)**
 > 
 > 一般地, 如果 x^n = a, 那么 x 叫做 a 的 n 次方根, 其中 n > 1, 且 n 是正整数.
+
 > **Definition 4.4.1 (对数函数)**
 > 
 > 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+
 > **Definition 4.5.1 (函数的零点)**
 > 
 > 对于一般函数 $y=f\left(x\right)$, 我们把使 $f\left(x\right)=0$ 的实数 $x$ 叫做函数 $y=f\left(x\right)$ 的零点.
+
 > **Definition 4.5.3 (二分法)**
 > 
 > 的过程,学习了用函数描 述客观事物变化规律的方法.本节将先学习运用函数性质求 方程近似解的基本方法(二分法),再结合实例,更深入地 理解用函数构建数学模型的基本过程,学习运用模型思想发 现和提出问题,分析和解决问题的方法. ４５１! "#$Z\left[-D\$] Ꮶ 我们已经学习了用二次函数的观点认识一元二次方程,知道一元二次方程的实数 根就是相应二次函数的零点.像ｌｎ＋２－６＝０这样不能用公式求解的方程,是否 也能采用类似的方法,用相应的函数研究它的解的情况呢? 与二次函数的零点一样,对于一般函数狔＝(),我们把使()＝０的实数叫做 函数狔＝()的零点(ｚｅｒｏ). 这样,函数狔＝()的零点就是方程()＝０的实数解,也就是函数狔＝()的图 象与轴的公共点的横坐标.所以 方程()＝０有实数解 　"函数狔＝()有零点 　"函数狔＝()的图象与轴有公共点. 由此可知,求方程()＝０的实数解,就是确定函数狔＝()的零点.一般地,对 于不能用公

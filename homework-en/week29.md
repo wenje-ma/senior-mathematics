@@ -1,37 +1,49 @@
 # week29
+
 > **Definition 8.1.12 (圆锥)**
 > 
 > 以直角三角形的一条直角边所在直线为旋转轴, 其余两边旋转形成的面所围成的旋转体叫做圆锥.
+
 > **Definition 8.2.1 (直观图)**
 > 
 > 直观图是观察者站在某一点观察一个空间几何体获得的图形. 在立体几何中, 立体图形的直观图通常是在平行投影下得到的平面图形.
+
 > **Definition 8.2.2 (斜二测画法)**
 > 
 > 斜二测画法是画空间图形直观图的方法: x 轴水平, y 轴与 x 轴成 45 度, z 轴垂直, 平行于 x, z 轴的线段长度不变, 平行于 y 轴的线段长度减半.
+
 > **Definition 8.3.1 (多面体的表面积)**
 > 
 > 多面体的表面积是围成它的各个面的面积之和. 棱台的表面积等于它的侧面积 (各个侧面面积之和) 与两个底面面积之和.
+
 > **Definition 8.3.2 (Volume of a Cylinder)**
 > 
 > 柱体的体积 V = S*h, 其中 S 为底面积, h 为高.
+
 > **Definition 8.3.3 (Volume of a Cone)**
 > 
 > 锥体的体积 V = (1/3)*S*h, 其中 S 为底面积, h 为高.
+
 > **Definition 8.3.4 (Volume of a Frustum)**
 > 
 > 台体的体积 V = (1/3)*h*(S上 + S下 + sqrt(S上*S下)).
+
 > **Definition 8.3.6 (Surface Area of a Cone)**
 > 
 > 圆锥的表面积 S = pi*r^2 + pi*r*l, 其中 r 为底面半径, l 为母线长.
+
 > **Definition 8.3.8 (Volume of a Circular Cylinder)**
 > 
 > 圆柱的体积 V = pi*r^2*h.
+
 > **Definition 8.3.9 (Volume of a Circular Cone)**
 > 
 > 圆锥的体积 V = (1/3)*pi*r^2*h.
+
 > **Definition 8.3.11 (球的表面积)**
 > 
 > 球的表面积 S = 4*pi*R^2.
+
 > **Definition 8.3.12 (球的体积)**
 > 
 > 球的体积 V = (4/3)*pi*R^3.

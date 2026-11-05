@@ -1,10 +1,13 @@
 # week60
+
 > **定义 5.1.1 (平均变化率)**
 > 
 > $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+
 > **定义 5.1.2 (导数)**
 > 
 > 函数 y = f(x) 在 x = x0 处的瞬时变化率 f'(x0) = lim(delta_x-> 0) [f(x0+delta_x)-f(x0)]/delta_x, 叫做函数 y = f(x) 在 x = x0 处的导数.
+
 > **定义 5.1.3 (1 弧度的角)**
 > 
 > 函数 y = f(x) 在 x = x0 处的导数就是函数图象在点 (x0, f(x0)) 处的切线斜率.
