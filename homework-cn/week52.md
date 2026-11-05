@@ -2,7 +2,7 @@
 
 > **定义 3.1.1 (椭圆)**
 > 
-> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert{F}_1F_2\rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
 
 > **定义 3.1.3 (椭圆的标准方程)**
 > 
@@ -52,9 +52,9 @@
 
 由**定义 3.1.7 (椭圆的离心率)**, $e=\frac{c}{a}=\sqrt{1-\frac{b^2}{a^2}}$, $e$ 越接近 $0$, $a$ 与 $b$ 越接近, 椭圆越接近于圆.
 
-(1) 将 $9x^2+y^2=36$ 化为 $\frac{y^2}{36}+\frac{x^2}{4}=1$, $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. 对 $\frac{x^2}{16}+\frac{y^2}{12}=1$, $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. 因为 $e_2< e_1$, 故 $\frac{x^2}{16}+\frac{y^2}{12}=1$ 更接近于圆.
+(1) 将 $9x^2+y^2=36$ 化为 $\frac{y^2}{36}+\frac{x^2}{4}=1$, $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. 对 $\frac{x^2}{16}+\frac{y^2}{12}=1$, $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. 因为 $e_2<{}e_1$, 故 $\frac{x^2}{16}+\frac{y^2}{12}=1$ 更接近于圆.
 
-(2) 将 $x^2+9y^2=36$ 化为 $\frac{x^2}{36}+\frac{y^2}{4}=1$, $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. 对 $\frac{x^2}{6}+\frac{y^2}{10}=1$, $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. 因为 $e_2< e_1$, 故 $\frac{x^2}{6}+\frac{y^2}{10}=1$ 更接近于圆. $\blacksquare$
+(2) 将 $x^2+9y^2=36$ 化为 $\frac{x^2}{36}+\frac{y^2}{4}=1$, $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. 对 $\frac{x^2}{6}+\frac{y^2}{10}=1$, $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. 因为 $e_2<{}e_1$, 故 $\frac{x^2}{6}+\frac{y^2}{10}=1$ 更接近于圆. $\blacksquare$
 
 ## 练习二
 
@@ -101,13 +101,13 @@ $$
 化简, 得 $7x^2+12x+4=0$. 设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, 则 $x_1+x_2=-\frac{12}{7}$, $x_1x_2=\frac{4}{7}$. 由弦长公式
 
 $$
-\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}.
+\lvert{A}B\rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}.
 $$
 
 代入, 得
 
 $$
-\lvert AB \rvert=\sqrt{1+3}\cdot\sqrt{\frac{144}{49}-\frac{16}{7}}=2\cdot\sqrt{\frac{32}{49}}=\frac{8\sqrt{2}}{7}.
+\lvert{A}B\rvert=\sqrt{1+3}\cdot\sqrt{\frac{144}{49}-\frac{16}{7}}=2\cdot\sqrt{\frac{32}{49}}=\frac{8\sqrt{2}}{7}.
 $$
 
 $\blacksquare$
@@ -126,7 +126,7 @@ $$
 
 由**定义 3.1.1 (椭圆)**, 平面内与两个定点距离之和等于常数 (大于两定点间距离) 的点的轨迹是椭圆.
 
-$\sqrt{x^2+\left(y-3\right)^2}$ 即点 $M\left(x,y\right)$ 到点 $\left(0,3\right)$ 的距离, $\sqrt{x^2+\left(y+3\right)^2}$ 即点 $M\left(x,y\right)$ 到点 $\left(0,-3\right)$ 的距离. 两定点为 $F_1\left(0,3\right)$, $F_2\left(0,-3\right)$, 距离 $\lvert F_1F_2 \rvert=6$. 点 $M$ 到两定点距离之和为常数 $10$, 且 $10> 6$, 故由**定义 3.1.1 (椭圆)**, 点 $M$ 的轨迹是以 $\left(0,\pm3\right)$ 为焦点的椭圆.
+$\sqrt{x^2+\left(y-3\right)^2}$ 即点 $M\left(x,y\right)$ 到点 $\left(0,3\right)$ 的距离, $\sqrt{x^2+\left(y+3\right)^2}$ 即点 $M\left(x,y\right)$ 到点 $\left(0,-3\right)$ 的距离. 两定点为 $F_1\left(0,3\right)$, $F_2\left(0,-3\right)$, 距离 $\lvert{F}_1F_2\rvert=6$. 点 $M$ 到两定点距离之和为常数 $10$, 且 $10>6$, 故由**定义 3.1.1 (椭圆)**, 点 $M$ 的轨迹是以 $\left(0,\pm3\right)$ 为焦点的椭圆.
 
 由 $2a=10$ 得 $a=5$, 由 $2c=6$ 得 $c=3$, $b^2=a^2-c^2=25-9=16$. 焦点在 $y$ 轴上, 故方程为
 
@@ -176,7 +176,7 @@ $\blacksquare$
 
 (2) $9x^2+y^2=81$.
 
-该图在平面直角坐标系中画出两个椭圆:(1) $\frac{x^2}{16}+\frac{y^2}{4}=1$,$a=4$, $b=2$,长轴在 $x$ 轴上,顶点为 $\left(\pm4,0\right)$, $\left(0,\pm2\right)$,焦点 $\left(\pm2\sqrt 3,0\right)$;(2) $\frac{y^2}{81}+\frac{x^2}{9}=1$,$a=9$, $b=3$,长轴在 $y$ 轴上,顶点为 $\left(\pm3,0\right)$, $\left(0,\pm9\right)$,焦点 $\left(0,\pm6\sqrt 2\right)$.
+该图在平面直角坐标系中画出两个椭圆:(1) $\frac{x^2}{16}+\frac{y^2}{4}=1$,$a=4$, $b=2$,长轴在 $x$ 轴上,顶点为 $\left(\pm4,0\right)$, $\left(0,\pm2\right)$,焦点 $\left(\pm2\sqrt3,0\right)$;(2) $\frac{y^2}{81}+\frac{x^2}{9}=1$,$a=9$, $b=3$,长轴在 $y$ 轴上,顶点为 $\left(\pm3,0\right)$, $\left(0,\pm9\right)$,焦点 $\left(0,\pm6\sqrt2\right)$.
 
 ### 解答 习题三
 
@@ -200,7 +200,7 @@ $\blacksquare$
 
 由**定义 3.1.6 (顶点, 长轴, 短轴)** 与**定义 3.1.7 (椭圆的离心率)** 求解.
 
-(1) $P\left(-2\sqrt{2},0\right)$ 在 $x$ 轴上, $Q\left(0,\sqrt{5}\right)$ 在 $y$ 轴上, 故 $a=2\sqrt{2}$, $b=\sqrt{5}$, $a> b$, 焦点在 $x$ 轴上. 标准方程为
+(1) $P\left(-2\sqrt{2},0\right)$ 在 $x$ 轴上, $Q\left(0,\sqrt{5}\right)$ 在 $y$ 轴上, 故 $a=2\sqrt{2}$, $b=\sqrt{5}$, $a>{}b$, 焦点在 $x$ 轴上. 标准方程为
 
 $$
 \frac{x^2}{8}+\frac{y^2}{5}=1.
@@ -228,9 +228,9 @@ $\blacksquare$
 
 ### 解答 习题五
 
-由**定义 3.1.3 (椭圆的标准方程)**, 椭圆 $\frac{x^2}{5}+\frac{y^2}{4}=1$ 中 $a^2=5$, $b^2=4$, $c=\sqrt{5-4}=1$, 焦点 $F_1\left(-1,0\right)$, $F_2\left(1,0\right)$, $\lvert F_1F_2 \rvert=2$.
+由**定义 3.1.3 (椭圆的标准方程)**, 椭圆 $\frac{x^2}{5}+\frac{y^2}{4}=1$ 中 $a^2=5$, $b^2=4$, $c=\sqrt{5-4}=1$, 焦点 $F_1\left(-1,0\right)$, $F_2\left(1,0\right)$, $\lvert{F}_1F_2\rvert=2$.
 
-设 $P\left(x,y\right)$, $\triangle PF_1F_2$ 的底为 $\lvert F_1F_2 \rvert=2$, 高为 $\lvert y \rvert$, 故面积 $S=\frac{1}{2}\cdot2\cdot\lvert y \rvert=\lvert y \rvert=1$, 得 $y=\pm1$. 代入椭圆方程, 得 $\frac{x^2}{5}+\frac{1}{4}=1$, 即 $x^2=\frac{15}{4}$, $x=\pm\frac{\sqrt{15}}{2}$. 故点 $P$ 的坐标为
+设 $P\left(x,y\right)$, $\triangle{P}F_1F_2$ 的底为 $\lvert{F}_1F_2\rvert=2$, 高为 $\lvert{y}\rvert$, 故面积 $S=\frac{1}{2}\cdot2\cdot\lvert{y}\rvert=\lvert{y}\rvert=1$, 得 $y=\pm1$. 代入椭圆方程, 得 $\frac{x^2}{5}+\frac{1}{4}=1$, 即 $x^2=\frac{15}{4}$, $x=\pm\frac{\sqrt{15}}{2}$. 故点 $P$ 的坐标为
 
 $$
 \left(\pm\frac{\sqrt{15}}{2},\pm1\right)
@@ -246,15 +246,15 @@ $$
 
 ### 解答 习题六
 
-由线段垂直平分线的性质, $Q$ 在 $AP$ 的垂直平分线上, 故 $\lvert QA \rvert=\lvert QP \rvert$.
+由线段垂直平分线的性质, $Q$ 在 $AP$ 的垂直平分线上, 故 $\lvert{Q}A\rvert=\lvert{Q}P\rvert$.
 
-又 $Q$ 在半径 $OP$ 上, $\lvert OP \rvert=r$, 故 $\lvert QO \rvert+\lvert QP \rvert=\lvert OP \rvert=r$. 代入 $\lvert QP \rvert=\lvert QA \rvert$, 得
+又 $Q$ 在半径 $OP$ 上, $\lvert{O}P\rvert=r$, 故 $\lvert{Q}O\rvert+\lvert{Q}P\rvert=\lvert{O}P\rvert=r$. 代入 $\lvert{Q}P\rvert=\lvert{Q}A\rvert$, 得
 
 $$
-\lvert QO \rvert+\lvert QA \rvert=r.
+\lvert{Q}O\rvert+\lvert{Q}A\rvert=r.
 $$
 
-由**定义 3.1.1 (椭圆)**, 点 $Q$ 到两个定点 $O$, $A$ 的距离之和为常数 $r$. 又 $A$ 是圆 $O$ 内定点, 故 $\lvert OA \rvert< r$, 满足常数大于两定点间距离. 因此点 $Q$ 的轨迹是以 $O$, $A$ 为焦点的椭圆. $\blacksquare$
+由**定义 3.1.1 (椭圆)**, 点 $Q$ 到两个定点 $O$, $A$ 的距离之和为常数 $r$. 又 $A$ 是圆 $O$ 内定点, 故 $\lvert{O}A\rvert<{}r$, 满足常数大于两定点间距离. 因此点 $Q$ 的轨迹是以 $O$, $A$ 为焦点的椭圆. $\blacksquare$
 
 ## 习题七
 
@@ -278,10 +278,10 @@ $\blacksquare$
 
 ### 解答 习题八
 
-设 $M\left(x,y\right)$, $M$ 到 $F\left(2,0\right)$ 的距离为 $\sqrt{\left(x-2\right)^2+y^2}$, $M$ 到直线 $x=8$ 的距离为 $\lvert 8-x \rvert$. 由题意,
+设 $M\left(x,y\right)$, $M$ 到 $F\left(2,0\right)$ 的距离为 $\sqrt{\left(x-2\right)^2+y^2}$, $M$ 到直线 $x=8$ 的距离为 $\lvert8-x\rvert$. 由题意,
 
 $$
-\frac{\sqrt{\left(x-2\right)^2+y^2}}{\lvert 8-x \rvert}=\frac{1}{2}.
+\frac{\sqrt{\left(x-2\right)^2+y^2}}{\lvert8-x\rvert}=\frac{1}{2}.
 $$
 
 两边平方, 得 $4\left[\left(x-2\right)^2+y^2\right]=\left(8-x\right)^2$, 展开化简, 得
@@ -300,13 +300,13 @@ $$
 
 ## 习题九
 
-(习题 3.1 综合运用第 9 题) 如图, $DP\perp x$ 轴, 垂足为 $D$, 点 $M$ 在 $DP$ 的延长线上, 且 $\frac{DM}{DP}=\frac{3}{2}$. 当点 $P$ 在圆 $x^2+y^2=4$ 上运动时, 求点 $M$ 的轨迹方程, 并说明轨迹的形状.
+(习题 3.1 综合运用第 9 题) 如图, $DP\perp{x}$ 轴, 垂足为 $D$, 点 $M$ 在 $DP$ 的延长线上, 且 $\frac{DM}{DP}=\frac{3}{2}$. 当点 $P$ 在圆 $x^2+y^2=4$ 上运动时, 求点 $M$ 的轨迹方程, 并说明轨迹的形状.
 
 该图在平面直角坐标系中画出圆 $x^2+y^2=4$(圆心在原点,半径 $2$):点 $P$ 在圆上,$PD$ 垂直于 $x$ 轴,垂足为 $D$;点 $M$ 在 $DP$ 的延长线上,且 $DM:DP=3:2$.
 
 ### 解答 习题九
 
-设 $M\left(x,y\right)$, $P\left(x_0,y_0\right)$. 由 $DP\perp x$ 轴, 垂足 $D\left(x_0,0\right)$, 且 $M$ 在 $DP$ 延长线上, 故 $x=x_0$. 又 $\frac{DM}{DP}=\frac{3}{2}$, $DM=\lvert y \rvert$, $DP=\lvert y_0 \rvert$, 故 $y=\frac{3}{2}y_0$, 即 $y_0=\frac{2}{3}y$.
+设 $M\left(x,y\right)$, $P\left(x_0,y_0\right)$. 由 $DP\perp{x}$ 轴, 垂足 $D\left(x_0,0\right)$, 且 $M$ 在 $DP$ 延长线上, 故 $x=x_0$. 又 $\frac{DM}{DP}=\frac{3}{2}$, $DM=\lvert{y}\rvert$, $DP=\lvert{y}_0\rvert$, 故 $y=\frac{3}{2}y_0$, 即 $y_0=\frac{2}{3}y$.
 
 点 $P\left(x_0,y_0\right)$ 在圆 $x^2+y^2=4$ 上, 故 $x_0^2+y_0^2=4$. 代入 $x_0=x$, $y_0=\frac{2}{3}y$, 得
 
@@ -330,13 +330,13 @@ $$
 
 将两定圆方程配方. 圆 $x^2+y^2+6x+5=0$ 化为 $\left(x+3\right)^2+y^2=4$, 圆心 $C_1\left(-3,0\right)$, 半径 $r_1=2$. 圆 $x^2+y^2-6x-91=0$ 化为 $\left(x-3\right)^2+y^2=100$, 圆心 $C_2\left(3,0\right)$, 半径 $r_2=10$.
 
-设动圆圆心 $M\left(x,y\right)$, 半径 $R$. 由外切条件 $\lvert MC_1 \rvert=R+r_1=R+2$, 由内切条件 $\lvert MC_2 \rvert=r_2-R=10-R$. 两式相加, 得
+设动圆圆心 $M\left(x,y\right)$, 半径 $R$. 由外切条件 $\lvert{M}C_1\rvert=R+r_1=R+2$, 由内切条件 $\lvert{M}C_2\rvert=r_2-R=10-R$. 两式相加, 得
 
 $$
-\lvert MC_1 \rvert+\lvert MC_2 \rvert=12.
+\lvert{M}C_1\rvert+\lvert{M}C_2\rvert=12.
 $$
 
-由**定义 3.1.1 (椭圆)**, $M$ 到两定点 $C_1\left(-3,0\right)$, $C_2\left(3,0\right)$ 距离之和为常数 $12$, 且 $12> \lvert C_1C_2 \rvert=6$, 故轨迹是以 $C_1,C_2$ 为焦点的椭圆. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. 轨迹方程为
+由**定义 3.1.1 (椭圆)**, $M$ 到两定点 $C_1\left(-3,0\right)$, $C_2\left(3,0\right)$ 距离之和为常数 $12$, 且 $12>\lvert{C}_1C_2\rvert=6$, 故轨迹是以 $C_1,C_2$ 为焦点的椭圆. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. 轨迹方程为
 
 $$
 \frac{x^2}{36}+\frac{y^2}{27}=1.
@@ -346,7 +346,7 @@ $\blacksquare$
 
 ## 习题十一
 
-(习题 3.1 拓广探索第 11 题) 如图, 矩形 $ABCD$ 中, $AB=2a$, $BC=2b$ ($a> b> 0$). $E$, $F$, $G$, $H$ 分别是矩形四条边的中点, $R$, $S$, $T$ 是线段 $OF$ 的四等分点, $R'$, $S'$, $T'$ 是线段 $CF$ 的四等分点. 证明直线 $ER$ 与 $GR'$, $ES$ 与 $GS'$, $ET$ 与 $GT'$ 的交点 $L$, $M$, $N$ 都在椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) 上.
+(习题 3.1 拓广探索第 11 题) 如图, 矩形 $ABCD$ 中, $AB=2a$, $BC=2b$ ($a>{}b>0$). $E$, $F$, $G$, $H$ 分别是矩形四条边的中点, $R$, $S$, $T$ 是线段 $OF$ 的四等分点, $R'$, $S'$, $T'$ 是线段 $CF$ 的四等分点. 证明直线 $ER$ 与 $GR'$, $ES$ 与 $GS'$, $ET$ 与 $GT'$ 的交点 $L$, $M$, $N$ 都在椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>{}b>0$) 上.
 
 该图在平面直角坐标系中画出矩形 $ABCD$(中心在 $O$,$AB=2a$ 沿水平方向,$BC=2b$ 沿竖直方向):$E$, $F$, $G$, $H$ 分别为四条边的中点($F$ 在右边中点,$G$ 在上边中点,$E$ 在下边中点);$R$, $S$, $T$ 为线段 $OF$ 的四等分点(在 $x$ 轴上),$R'$, $S'$, $T'$ 为线段 $CF$ 的四等分点(在右侧竖边上);连有直线 $ER$ 与 $GR'$,$ES$ 与 $GS'$,$ET$ 与 $GT'$,其交点 $L$, $M$, $N$ 落在椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ 上.
 
@@ -413,11 +413,11 @@ $$
 两条切线为 $4x-5y+25=0$ 和 $4x-5y-25=0$. 它们与 $l:4x-5y+40=0$ 的距离分别为
 
 $$
-d_1=\frac{\lvert 25-40 \rvert}{\sqrt{4^2+5^2}}=\frac{15}{\sqrt{41}}=\frac{15\sqrt{41}}{41},
+d_1=\frac{\lvert25-40\rvert}{\sqrt{4^2+5^2}}=\frac{15}{\sqrt{41}}=\frac{15\sqrt{41}}{41},
 $$
 
 $$
-d_2=\frac{\lvert -25-40 \rvert}{\sqrt{41}}=\frac{65}{\sqrt{41}}=\frac{65\sqrt{41}}{41}.
+d_2=\frac{\lvert-25-40\rvert}{\sqrt{41}}=\frac{65}{\sqrt{41}}=\frac{65\sqrt{41}}{41}.
 $$
 
 (1) 存在一点到 $l$ 距离最小, 最小距离为 $\frac{15\sqrt{41}}{41}$.
@@ -442,7 +442,7 @@ $$
 
 化简得 $18x^2+12mx+4m^2-36=0$, 即 $9x^2+6mx+2m^2-18=0$.
 
-(1) 由**常用结论 3.1.8**, 有两个公共点需 $\Delta> 0$, 即 $36m^2-36\left(2m^2-18\right)> 0$, 化简得 $m^2< 18$, 即 $-3\sqrt{2}< m< 3\sqrt{2}$.
+(1) 由**常用结论 3.1.8**, 有两个公共点需 $\Delta>0$, 即 $36m^2-36\left(2m^2-18\right)>0$, 化简得 $m^2<18$, 即 $-3\sqrt{2}<{}m<3\sqrt{2}$.
 
 (2) 设交点横坐标为 $x_1,x_2$, 则中点横坐标 $x_0=\frac{x_1+x_2}{2}=-\frac{m}{3}$. 中点纵坐标 $y_0=\frac{3}{2}x_0+m=-\frac{m}{2}+m=\frac{m}{2}$. 消去 $m$, 得 $y_0=-\frac{3}{2}x_0$, 即中点在直线 $y=-\frac{3}{2}x$ 上. $\blacksquare$
 
@@ -495,7 +495,7 @@ $$
 (2) 焦点在 $x$ 轴上, 设方程为 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$. 代入两点:
 
 $$
-\frac{2}{a^2}-\frac{3}{b^2}=1,\quad \frac{15/9}{a^2}-\frac{2}{b^2}=1.
+\frac{2}{a^2}-\frac{3}{b^2}=1,\quad\frac{15/9}{a^2}-\frac{2}{b^2}=1.
 $$
 
 解得 $a^2=1$, $b^2=3$. 标准方程为
@@ -532,17 +532,17 @@ $\blacksquare$
 
 由**定义 3.2.3 (双曲线的标准方程)**, 双曲线标准方程中 $x^2$ 与 $y^2$ 项的符号相反, 即两分母必须同号 (一正一负不成立; 标准形式中两项一正一负, 故两分母须同号).
 
-方程 $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ 表示双曲线, 需两分母同号. 即 $2+m> 0$ 且 $m+1> 0$, 解得 $m> -1$; 或 $2+m< 0$ 且 $m+1< 0$, 解得 $m< -2$. 故 $m$ 的取值范围是 $m< -2$ 或 $m> -1$. $\blacksquare$
+方程 $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ 表示双曲线, 需两分母同号. 即 $2+m>0$ 且 $m+1>0$, 解得 $m>-1$; 或 $2+m<0$ 且 $m+1<0$, 解得 $m<-2$. 故 $m$ 的取值范围是 $m<-2$ 或 $m>-1$. $\blacksquare$
 
 ## 练习七
 
-(练习 3.2 第 4 题) 双曲线 $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a> 0$) 的两个焦点分别是 $F_1$ 与 $F_2$, 焦距为 $8$; $M$ 是双曲线上的一点, 且 $\lvert MF_1 \rvert=5$, 求 $\lvert MF_2 \rvert$ 的值.
+(练习 3.2 第 4 题) 双曲线 $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a>0$) 的两个焦点分别是 $F_1$ 与 $F_2$, 焦距为 $8$; $M$ 是双曲线上的一点, 且 $\lvert{M}F_1\rvert=5$, 求 $\lvert{M}F_2\rvert$ 的值.
 
 ### 解答 练习七
 
 由**定义 3.2.3 (双曲线的标准方程)**, $c^2=a^2+b^2$. 焦距 $2c=8$, 故 $c=4$, $c^2=16$. 又 $b^2=12$, 故 $a^2=c^2-b^2=4$, $a=2$.
 
-由**常用结论 3.2.2** (双曲线上点到两焦点距离之差), $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a=4$. 代入 $\lvert MF_1 \rvert=5$, 得 $\lvert 5-\lvert MF_2 \rvert \rvert=4$, 故 $\lvert MF_2 \rvert=9$ 或 $\lvert MF_2 \rvert=1$. 又双曲线上点到较近焦点距离大于 $c-a=2$, 故 $\lvert MF_2 \rvert=1$ 舍去, 得 $\lvert MF_2 \rvert=9$. $\blacksquare$
+由**常用结论 3.2.2** (双曲线上点到两焦点距离之差), $\lvert\lvert{M}F_1\rvert-\lvert{M}F_2\rvert\rvert=2a=4$. 代入 $\lvert{M}F_1\rvert=5$, 得 $\lvert5-\lvert{M}F_2\rvert\rvert=4$, 故 $\lvert{M}F_2\rvert=9$ 或 $\lvert{M}F_2\rvert=1$. 又双曲线上点到较近焦点距离大于 $c-a=2$, 故 $\lvert{M}F_2\rvert=1$ 舍去, 得 $\lvert{M}F_2\rvert=9$. $\blacksquare$
 
 ## 练习八
 

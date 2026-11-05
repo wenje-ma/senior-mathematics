@@ -76,7 +76,7 @@
 
 (2) 对于任意两个向量 $\boldsymbol{a}$ 和 $\boldsymbol{b}$, 下列命题中正确的是 ().
 
-(A) 若 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert\boldsymbol{a}\rvert> \lvert\boldsymbol{b}\rvert$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 同向, 则 $\boldsymbol{a}> \boldsymbol{b}$
+(A) 若 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert\boldsymbol{a}\rvert>\lvert\boldsymbol{b}\rvert$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 同向, 则 $\boldsymbol{a}>\boldsymbol{b}$
 
 (B) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$
 
@@ -96,7 +96,7 @@
 
 (C) $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 的方向相同 (D) $\lvert-\lambda\boldsymbol{a}\rvert=\lambda\lvert\boldsymbol{a}\rvert$
 
-(5) 设 $M$ 是 $\square ABCD$ 的对角线的交点, $O$ 为任意一点, 则 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}+\boldsymbol{OD}=$ ().
+(5) 设 $M$ 是 $\square{A}BCD$ 的对角线的交点, $O$ 为任意一点, 则 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}+\boldsymbol{OD}=$ ().
 
 (A) $\boldsymbol{OM}$ (B) $2\boldsymbol{OM}$ (C) $3\boldsymbol{OM}$ (D) $4\boldsymbol{OM}$
 
@@ -114,7 +114,7 @@
 
 (3) 由**定义 6.1.7 (相等向量)**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ 说明 $ABCD$ 为平行四边形. 选 (D).
 
-(4) 由**定义 6.2.6 (向量的数乘)**, $\lambda^2> 0$, $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 方向相同. 选 (C).
+(4) 由**定义 6.2.6 (向量的数乘)**, $\lambda^2>0$, $\boldsymbol{a}$ 与 $\lambda^2\boldsymbol{a}$ 方向相同. 选 (C).
 
 (5) $M$ 为对角线中点, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, 和为 $4\boldsymbol{OM}$. 选 (D).
 
@@ -150,7 +150,7 @@ $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsy
 
 由**常用结论 6.3.4** 与**常用结论 6.3.7**.
 
-(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
+(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt2$.
 
 (2) $\boldsymbol{OC}=\left(-3+5,-4-12\right)=\left(2,-16\right)$. $\boldsymbol{OD}=\left(-3-5,-4-\left(-12\right)\right)=\left(-8,8\right)$.
 
@@ -184,7 +184,7 @@ $\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
 
 ## 习题七
 
-(复习参考题 6 复习巩固第 7 题) 已知 $\triangle ABC$ 的顶点坐标分别为 $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, 求 $\cos A$, $\cos B$, $\cos C$ 的值.
+(复习参考题 6 复习巩固第 7 题) 已知 $\triangle{A}BC$ 的顶点坐标分别为 $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, 求 $\cos{A}$, $\cos{B}$, $\cos{C}$ 的值.
 
 ### 解答 习题七
 
@@ -192,11 +192,11 @@ $\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
 
 $\boldsymbol{AB}=\left(3,0\right)$, $\boldsymbol{AC}=\left(3,4\right)$, $\boldsymbol{BC}=\left(0,4\right)$.
 
-$\cos A=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
+$\cos{A}=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
+$\cos{B}=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
 
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
+$\cos{C}=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
 
 ## 习题八
 
@@ -214,13 +214,13 @@ $1+\lambda=0$. $\lambda=-1$. $\blacksquare$
 
 ## 习题九
 
-(复习参考题 6 复习巩固第 9 题) 已知向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt 3$, $\lvert\boldsymbol{b}\rvert=2$, 求 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$, $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$ 的值.
+(复习参考题 6 复习巩固第 9 题) 已知向量 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt3$, $\lvert\boldsymbol{b}\rvert=2$, 求 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$, $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$ 的值.
 
 ### 解答 习题九
 
 由**定义 6.2.11 (向量的数量积)** 与**常用结论 6.2.13**.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt 3\times2\times\cos30^{\circ}=2\sqrt 3\times\frac{\sqrt 3}{2}=3$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt3\times2\times\cos30^{\circ}=2\sqrt3\times\frac{\sqrt3}{2}=3$.
 
 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3+6+4=13$. $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{13}$.
 
@@ -228,7 +228,7 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 ## 习题十
 
-(复习参考题 6 复习巩固第 10 题) 如图, 支座 $A$ 受 $\boldsymbol{F}_1$, $\boldsymbol{F}_2$ 两个力的作用, 已知 $\boldsymbol{F}_1$ 与水平线成 $\theta$ 角, $\lvert\boldsymbol{F}_1\rvert=40\text{ N}$, $\boldsymbol{F}_2$ 沿水平方向, $\lvert\boldsymbol{F}_2\rvert=70\text{ N}$, $\boldsymbol{F}_1$ 与 $\boldsymbol{F}_2$ 的合力 $\boldsymbol{F}$ 的大小为 $100\text{ N}$, 求 $\cos\theta$ 以及 $\boldsymbol{F}$ 与 $\boldsymbol{F}_2$ 的夹角 $\beta$ 的余弦值.
+(复习参考题 6 复习巩固第 10 题) 如图, 支座 $A$ 受 $\boldsymbol{F}_1$, $\boldsymbol{F}_2$ 两个力的作用, 已知 $\boldsymbol{F}_1$ 与水平线成 $\theta$ 角, $\lvert\boldsymbol{F}_1\rvert=40\text{~N}$, $\boldsymbol{F}_2$ 沿水平方向, $\lvert\boldsymbol{F}_2\rvert=70\text{~N}$, $\boldsymbol{F}_1$ 与 $\boldsymbol{F}_2$ 的合力 $\boldsymbol{F}$ 的大小为 $100\text{~N}$, 求 $\cos\theta$ 以及 $\boldsymbol{F}$ 与 $\boldsymbol{F}_2$ 的夹角 $\beta$ 的余弦值.
 
 (题图: 支座 $A$ 受两个力 $\boldsymbol{F}_1,\boldsymbol{F}_2$ 作用, $\boldsymbol{F}_1$ 斜向上与水平线成 $\theta$ 角, $\boldsymbol{F}_2$ 沿水平方向向右, 二者合力 $\boldsymbol{F}$ 斜向上, 与 $\boldsymbol{F}_2$ 夹角为 $\beta$.)
 
@@ -250,47 +250,47 @@ $\cos\beta=\frac{\boldsymbol{F}\cdot\boldsymbol{F}_2}{\lvert\boldsymbol{F}\rvert
 
 ## 习题十一
 
-(复习参考题 6 复习巩固第 11 题) 在 $\triangle ABC$ 中, 分别根据下列条件解三角形 (角度精确到 $1'$, 边长精确到 $0.01\text{ cm}$):
+(复习参考题 6 复习巩固第 11 题) 在 $\triangle{A}BC$ 中, 分别根据下列条件解三角形 (角度精确到 $1'$, 边长精确到 $0.01\text{~cm}$):
 
-(1) $a=12\text{ cm}$, $b=5\text{ cm}$, $A=120^{\circ}$;
+(1) $a=12\text{~cm}$, $b=5\text{~cm}$, $A=120^{\circ}$;
 
-(2) $a=6\text{ cm}$, $b=8\text{ cm}$, $A=30^{\circ}$;
+(2) $a=6\text{~cm}$, $b=8\text{~cm}$, $A=30^{\circ}$;
 
-(3) $a=7\text{ cm}$, $b=23\text{ cm}$, $C=130^{\circ}$;
+(3) $a=7\text{~cm}$, $b=23\text{~cm}$, $C=130^{\circ}$;
 
-(4) $a=2\text{ cm}$, $b=3\text{ cm}$, $c=4\text{ cm}$.
+(4) $a=2\text{~cm}$, $b=3\text{~cm}$, $c=4\text{~cm}$.
 
 ### 解答 习题十一
 
 由**定理 6.4.3 (正弦定理)** 与**定理 6.4.2 (余弦定理)**.
 
-(1) $\sin B=\frac{b\sin A}{a}=\frac{5\times\sin120^{\circ}}{12}=\frac{5\sqrt 3}{24}\approx0.361$. $B\approx21^{\circ}10'$. $C=180^{\circ}-120^{\circ}-21^{\circ}10'=38^{\circ}50'$. $c=\frac{a\sin C}{\sin A}\approx7.51\text{ cm}$.
+(1) $\sin{B}=\frac{b\sin{A}}{a}=\frac{5\times\sin120^{\circ}}{12}=\frac{5\sqrt3}{24}\approx0.361$. $B\approx21^{\circ}10'$. $C=180^{\circ}-120^{\circ}-21^{\circ}10'=38^{\circ}50'$. $c=\frac{a\sin{C}}{\sin{A}}\approx7.51\text{~cm}$.
 
-(2) $\sin B=\frac{8\times0.5}{6}=\frac{2}{3}$. $B\approx41^{\circ}49'$ 或 $138^{\circ}11'$.
+(2) $\sin{B}=\frac{8\times0.5}{6}=\frac{2}{3}$. $B\approx41^{\circ}49'$ 或 $138^{\circ}11'$.
 
-(a) $B\approx41^{\circ}49'$: $C\approx108^{\circ}11'$. $c=\frac{6\sin C}{\sin30^{\circ}}\approx11.40\text{ cm}$.
+(a) $B\approx41^{\circ}49'$: $C\approx108^{\circ}11'$. $c=\frac{6\sin{C}}{\sin30^{\circ}}\approx11.40\text{~cm}$.
 
-(b) $B\approx138^{\circ}11'$: $C\approx11^{\circ}49'$. $c\approx2.70\text{ cm}$.
+(b) $B\approx138^{\circ}11'$: $C\approx11^{\circ}49'$. $c\approx2.70\text{~cm}$.
 
-(3) $c^2=49+529-2\times7\times23\times\cos130^{\circ}\approx578+207.3=785.3$. $c\approx28.02\text{ cm}$. $\sin A=\frac{7\sin130^{\circ}}{28.02}\approx0.191$. $A\approx11^{\circ}1'\text{. }B\approx38^{\circ}59'$.
+(3) $c^2=49+529-2\times7\times23\times\cos130^{\circ}\approx578+207.3=785.3$. $c\approx28.02\text{~cm}$. $\sin{A}=\frac{7\sin130^{\circ}}{28.02}\approx0.191$. $A\approx11^{\circ}1'\text{.~}B\approx38^{\circ}59'$.
 
-(4) $\cos A=\frac{9+16-4}{24}=\frac{21}{24}=0.875$. $A\approx28^{\circ}57'$. $\cos B=\frac{4+16-9}{16}=\frac{11}{16}=0.6875$. $B\approx46^{\circ}34'$. $C\approx104^{\circ}29'$. $\blacksquare$
+(4) $\cos{A}=\frac{9+16-4}{24}=\frac{21}{24}=0.875$. $A\approx28^{\circ}57'$. $\cos{B}=\frac{4+16-9}{16}=\frac{11}{16}=0.6875$. $B\approx46^{\circ}34'$. $C\approx104^{\circ}29'$. $\blacksquare$
 
 ## 习题十二
 
-(复习参考题 6 复习巩固第 12 题) 海中有一座小岛, 周围 $3\text{ n mile}$ 内有暗礁. 一艘海轮由西向东航行, 望见该岛在北偏东 $75^{\circ}$; 海轮航行 $8\text{ n mile}$ 以后, 望见该岛在北偏东 $55^{\circ}$. 如果这艘海轮不改变航向继续前进, 有没有触礁的危险?
+(复习参考题 6 复习巩固第 12 题) 海中有一座小岛, 周围 $3\text{~n~mile}$ 内有暗礁. 一艘海轮由西向东航行, 望见该岛在北偏东 $75^{\circ}$; 海轮航行 $8\text{~n~mile}$ 以后, 望见该岛在北偏东 $55^{\circ}$. 如果这艘海轮不改变航向继续前进, 有没有触礁的危险?
 
 ### 解答 习题十二
 
 由**定理 6.4.3 (正弦定理)**.
 
-设岛为 $P$, 初始位置为 $A$, 航行后为 $B$. $AB=8$. $\angle PAB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle PBA=180^{\circ}-\left(90^{\circ}-55^{\circ}\right)=145^{\circ}$. $\angle APB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
+设岛为 $P$, 初始位置为 $A$, 航行后为 $B$. $AB=8$. $\angle{P}AB=90^{\circ}-75^{\circ}=15^{\circ}$. $\angle{P}BA=180^{\circ}-\left(90^{\circ}-55^{\circ}\right)=145^{\circ}$. $\angle{A}PB=180^{\circ}-15^{\circ}-145^{\circ}=20^{\circ}$.
 
 由正弦定理: $\frac{AP}{\sin145^{\circ}}=\frac{8}{\sin20^{\circ}}$.
 
 $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ}}$.
 
-岛到航线 (东西方向) 的垂直距离: $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47> 3$.
+岛到航线 (东西方向) 的垂直距离: $d=AP\sin15^{\circ}=\frac{8\sin35^{\circ}\sin15^{\circ}}{\sin20^{\circ}}\approx\frac{8\times0.574\times0.259}{0.342}\approx3.47>3$.
 
 故没有触礁危险. $\blacksquare$
 
@@ -306,7 +306,7 @@ $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ
 
 (2) 已知正方形 $ABCD$ 的边长为 $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{AC}=\boldsymbol{c}$, 则 $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=$ ().
 
-(A) $0$ (B) $3$ (C) $\sqrt 2$ (D) $2\sqrt 2$
+(A) $0$ (B) $3$ (C) $\sqrt2$ (D) $2\sqrt2$
 
 (3) 已知 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$, $\boldsymbol{OD}=\boldsymbol{d}$, 且四边形 $ABCD$ 为平行四边形, 则 ().
 
@@ -324,13 +324,13 @@ $AP=\frac{8\sin145^{\circ}}{\sin20^{\circ}}=\frac{8\sin35^{\circ}}{\sin20^{\circ
 
 (6) 若向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两的夹角相等, 且 $\lvert\boldsymbol{a}\rvert=1$, $\lvert\boldsymbol{b}\rvert=1$, $\lvert\boldsymbol{c}\rvert=3$, 则 $\lvert\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\rvert=$ ().
 
-(A) $2$ (B) $5$ (C) $2$ 或 $5$ (D) $\sqrt 2$ 或 $\sqrt 5$
+(A) $2$ (B) $5$ (C) $2$ 或 $5$ (D) $\sqrt2$ 或 $\sqrt5$
 
 ### 解答 习题十三
 
 (1) 由**定理 6.2.8 (共线向量定理)**, $\boldsymbol{BD}=\boldsymbol{BC}+\boldsymbol{CD}=\left(-2\boldsymbol{a}+8\boldsymbol{b}\right)+\left(3\boldsymbol{a}-3\boldsymbol{b}\right)=\boldsymbol{a}+5\boldsymbol{b}=\boldsymbol{AB}$. 故 $A$, $B$, $D$ 共线. 选 (A).
 
-(2) 由**常用结论 6.3.4**, $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{AC}=\boldsymbol{c}$. $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=2\boldsymbol{c}$. $\lvert\boldsymbol{c}\rvert=\sqrt 2$. 选 (D).
+(2) 由**常用结论 6.3.4**, $\boldsymbol{a}+\boldsymbol{b}=\boldsymbol{AC}=\boldsymbol{c}$. $\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}=2\boldsymbol{c}$. $\lvert\boldsymbol{c}\rvert=\sqrt2$. 选 (D).
 
 (3) 由**定义 6.1.7 (相等向量)**, 平行四边形中 $\boldsymbol{AB}=\boldsymbol{DC}$, 即 $\boldsymbol{b}-\boldsymbol{a}=\boldsymbol{c}-\boldsymbol{d}$. $\boldsymbol{a}-\boldsymbol{b}+\boldsymbol{c}-\boldsymbol{d}=\boldsymbol{0}$. 选 (B).
 
@@ -342,7 +342,7 @@ $\lvert\boldsymbol{a}\rvert^2=4+4\cdot\frac{1}{2}+1=7$. $\lvert\boldsymbol{b}\rv
 
 $\cos\theta=\frac{-0.5}{7}=-\frac{1}{14}$? 修正: $\boldsymbol{a}\cdot\boldsymbol{b}=-6\boldsymbol{e}_1^2+4\boldsymbol{e}_1\cdot\boldsymbol{e}_2-3\boldsymbol{e}_1\cdot\boldsymbol{e}_2+2\boldsymbol{e}_2^2=-6+\frac{1}{2}+2=-\frac{7}{2}$.
 
-$\cos\theta=\frac{-7/2}{\sqrt 7\cdot\sqrt 7}=-\frac{1}{2}$. $\theta=120^{\circ}$. 选 (C).
+$\cos\theta=\frac{-7/2}{\sqrt7\cdot\sqrt7}=-\frac{1}{2}$. $\theta=120^{\circ}$. 选 (C).
 
 (5) 由**定义 6.2.11 (向量的数量积)**, 每对夹角为 $120^{\circ}$.
 

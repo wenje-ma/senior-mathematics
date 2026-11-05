@@ -30,7 +30,7 @@
 
 ## Problem 1
 
-(Exercise 6.2, Extension and Exploration, Problem 16) According to a certain welfare lottery scheme, each lottery entry selects $7$ numbers from the $37$ numbers $1\sim 37$. If the selected $7$ numbers match the $7$ drawn numbers (regardless of order), the entry wins the first prize.
+(Exercise 6.2, Extension and Exploration, Problem 16) According to a certain welfare lottery scheme, each lottery entry selects $7$ numbers from the $37$ numbers $1\sim37$. If the selected $7$ numbers match the $7$ drawn numbers (regardless of order), the entry wins the first prize.
 
 (1) How many entries with distinct numbers can win one first prize?
 
@@ -43,16 +43,16 @@ By **Formula 6.2.7** (Combination Number Formula).
 (1) Winning the first prize means the selected numbers exactly match the drawn numbers, without regard to order, so there is only $1$ winning entry. Choosing $7$ numbers from $37$ numbers gives $\binom{37}{7}$ ways, so the number of entries with distinct numbers that can win one first prize is
 
 $$
-\binom{37}{7}=\frac{37\times 36\times 35\times 34\times 33\times 32\times 31}{7!}=10295472.
+\binom{37}{7}=\frac{37\times36\times35\times34\times33\times32\times31}{7!}=10295472.
 $$
 
 (2) Suppose $k$ numbers are chosen from the $37$. The chance of winning is $\frac{1}{\binom{37}{k}}$, and we require
 
 $$
-\frac{1}{3000000}< \frac{1}{\binom{37}{k}}\le\frac{1}{2000000},
+\frac{1}{3000000}<\frac{1}{\binom{37}{k}}\le\frac{1}{2000000},
 $$
 
-i.e., $2000000\le \binom{37}{k}< 3000000$. Calculating gives $\binom{37}{6}=2324784$, which satisfies $2000000\le 2324784< 3000000$, while $\binom{37}{7}=10295472$ is too large and $\binom{37}{5}=435897$ is too small. Hence $6$ numbers should be chosen from the $37$. $\blacksquare$
+i.e., $2000000\le\binom{37}{k}<3000000$. Calculating gives $\binom{37}{6}=2324784$, which satisfies $2000000\le2324784<3000000$, while $\binom{37}{7}=10295472$ is too large and $\binom{37}{5}=435897$ is too small. Hence $6$ numbers should be chosen from the $37$. $\blacksquare$
 
 ## Problem 2
 
@@ -77,7 +77,7 @@ In the figure the four regions are denoted $\mathrm{I}$, $\mathrm{II}$, $\mathrm
 By **Definition 6.1.2 (Directed Line Segment)**, the ways of coloring total
 
 $$
-5\times 4\times 3\times 4=240.
+5\times4\times3\times4=240.
 $$
 
 Therefore there are $240$ different ways of coloring. $\blacksquare$
@@ -93,7 +93,7 @@ By **Formula 6.2.7** (Combination Number Formula).
 The "group" has $10$ people, the poster is $1$ person, and the others are $9$. Since only "friends" can see the message, the $3$ people in the "group" who said they saw it are exactly the "friends" of the poster among these $9$ people. The problem is to choose $3$ of the remaining $9$ people as "friends". By **Formula 6.2.7**, the possible cases for the "friend" relations are
 
 $$
-\binom{9}{3}=\frac{9\times 8\times 7}{6}=84
+\binom{9}{3}=\frac{9\times8\times7}{6}=84
 $$
 
 . $\blacksquare$
@@ -113,7 +113,7 @@ Once the champion is chosen, the remaining $4$ positions are filled by the other
 Since the champion has $3$ choices, by **Definition 6.1.2 (Directed Line Segment)**, the total number of possible rankings of the $5$ people is
 
 $$
-3\times 18=54.
+3\times18=54.
 $$
 
 $\blacksquare$
@@ -149,13 +149,13 @@ The claim is proved. $\blacksquare$
 By **Theorem 6.3.1 (Binomial Theorem)**.
 
 $$
-\left(p+q\right)^5=\binom{5}{0} p^5+\binom{5}{1} p^4 q+\binom{5}{2} p^3 q^2+\binom{5}{3} p^2 q^3+\binom{5}{4} p q^4+\binom{5}{5} q^5.
+\left(p+q\right)^5=\binom{5}{0}p^5+\binom{5}{1}p^4q+\binom{5}{2}p^3q^2+\binom{5}{3}p^2q^3+\binom{5}{4}pq^4+\binom{5}{5}q^5.
 $$
 
 Substituting $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$, we get
 
 $$
-\left(p+q\right)^5=p^5+5p^4 q+10p^3 q^2+10p^2 q^3+5p q^4+q^5.
+\left(p+q\right)^5=p^5+5p^4q+10p^3q^2+10p^2q^3+5pq^4+q^5.
 $$
 
 $\blacksquare$
@@ -177,10 +177,10 @@ $$
 Substituting $\binom{6}{2}=15$, we get
 
 $$
-T_3=15\cdot 2^4\cdot 3^2 a^4 b^2=15\times 16\times 9\,a^4 b^2=2160a^4 b^2.
+T_3=15\cdot2^4\cdot3^2a^4b^2=15\times16\times9\,a^4b^2=2160a^4b^2.
 $$
 
-Thus the $3$rd term of the expansion is $2160a^4 b^2$. $\blacksquare$
+Thus the $3$rd term of the expansion is $2160a^4b^2$. $\blacksquare$
 
 ## Exercise 3
 
@@ -199,7 +199,7 @@ $$
 Simplifying the exponent of $x$: $\frac{n-r}{3}-\frac{r}{3}=\frac{n-2r}{3}$. Thus
 
 $$
-T_{r+1}=\left(-1\right)^r\frac{1}{2^r}\binom{n}{r} x^{\frac{n-2r}{3}}.
+T_{r+1}=\left(-1\right)^r\frac{1}{2^r}\binom{n}{r}x^{\frac{n-2r}{3}}.
 $$
 
 $\blacksquare$
@@ -217,7 +217,7 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion).
 The $6$th term corresponds to $k=5$. By **Formula 6.3.2**,
 
 $$
-T_6=\binom{10}{5} x^5\left(-1\right)^5=-\binom{10}{5} x^5.
+T_6=\binom{10}{5}x^5\left(-1\right)^5=-\binom{10}{5}x^5.
 $$
 
 Thus the coefficient of the $6$th term is $-\binom{10}{5}$, so the answer is (D). $\blacksquare$
@@ -242,9 +242,9 @@ Thus the coefficient of the term containing $x^4$ is $-15$. $\blacksquare$
 
 (Exercise 6.3, Problem 1) Fill in the blanks.
 
-(1) $\binom{11}{1}+\binom{11}{3}+\binom{11}{5}+\cdots+\binom{11}{11}= $ $\;\_\_\;$;
+(1) $\binom{11}{1}+\binom{11}{3}+\binom{11}{5}+\cdots+\binom{11}{11}=$ $\;\_\_\;$;
 
-(2) $\frac{\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}}{\binom{n+1}{0}+\binom{n+1}{1}+\binom{n+1}{2}+\cdots+\binom{n+1}{n+1}}= $ $\;\_\_\;$.
+(2) $\frac{\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}}{\binom{n+1}{0}+\binom{n+1}{1}+\binom{n+1}{2}+\cdots+\binom{n+1}{n+1}}=$ $\;\_\_\;$.
 
 ### Solution to Exercise 6
 
@@ -281,7 +281,7 @@ $$
 Setting $x=-1$, we get
 
 $$
-0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+\left(-1\right)^n \binom{n}{n}.
+0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+\left(-1\right)^n\binom{n}{n}.
 $$
 
 Adding the two equations, the odd terms cancel, giving
@@ -360,7 +360,7 @@ By **Property 6.3.4**, this sum equals $2^n$. Thus the set has $2^n$ subsets in 
 
 By **Formula 6.3.2** (General Term of the Binomial Expansion).
 
-(1) In the expansion of $\left(1-x\right)^n$, the $x^3$ term is $\binom{n}{3}\left(-x\right)^3=-\binom{n}{3} x^3$, with coefficient $-\binom{n}{3}$. Thus the sum of the coefficients of the $x^3$ term in the four expansions is
+(1) In the expansion of $\left(1-x\right)^n$, the $x^3$ term is $\binom{n}{3}\left(-x\right)^3=-\binom{n}{3}x^3$, with coefficient $-\binom{n}{3}$. Thus the sum of the coefficients of the $x^3$ term in the four expansions is
 
 $$
 -\left(\binom{5}{3}+\binom{6}{3}+\binom{7}{3}+\binom{8}{3}\right)=-\left(10+20+35+56\right)=-121.
@@ -378,15 +378,15 @@ The answer is (D).
 
 By **Formula 6.3.2** (General Term of the Binomial Expansion) and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
 
-In the expansion of $\left(x-y\right)^5$, the general term is $\binom{5}{k} x^{5-k}\left(-y\right)^k=\left(-1\right)^k \binom{5}{k} x^{5-k} y^k$.
+In the expansion of $\left(x-y\right)^5$, the general term is $\binom{5}{k}x^{5-k}\left(-y\right)^k=\left(-1\right)^k\binom{5}{k}x^{5-k}y^k$.
 
-After multiplying by $x+y$, the $x^3 y^3$ term arises from two sources:
+After multiplying by $x+y$, the $x^3y^3$ term arises from two sources:
 
-(1) $x$ times the $x^2 y^3$ term in $\left(x-y\right)^5$, where $5-k=2$, i.e. $k=3$, with coefficient $\left(-1\right)^3 \binom{5}{3}=-10$;
+(1) $x$ times the $x^2y^3$ term in $\left(x-y\right)^5$, where $5-k=2$, i.e. $k=3$, with coefficient $\left(-1\right)^3\binom{5}{3}=-10$;
 
-(2) $y$ times the $x^3 y^2$ term in $\left(x-y\right)^5$, where $k=2$, with coefficient $\left(-1\right)^2 \binom{5}{2}=10$.
+(2) $y$ times the $x^3y^2$ term in $\left(x-y\right)^5$, where $k=2$, with coefficient $\left(-1\right)^2\binom{5}{2}=10$.
 
-By **Definition 6.1.1 (分类加法计数原理)**, the coefficient of $x^3 y^3$ is $-10+10=0$. $\blacksquare$
+By **Definition 6.1.1 (分类加法计数原理)**, the coefficient of $x^3y^3$ is $-10+10=0$. $\blacksquare$
 
 ## Problem 7
 
@@ -403,13 +403,13 @@ By **Theorem 6.3.1 (Binomial Theorem)**.
 (1) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
-\left(a+\sqrt\left[3\right]{b}\right)^9=\sum_{k=0}^{9} \binom{9}{k} a^{9-k}\left(\sqrt\left[3\right]{b}\right)^k.
+\left(a+\sqrt\left[3\right]{b}\right)^9=\sum_{k=0}^{9}\binom{9}{k}a^{9-k}\left(\sqrt\left[3\right]{b}\right)^k.
 $$
 
 (2) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
-\left(\frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}}\right)^7=\sum_{k=0}^{7} \binom{7}{k}\left(\frac{\sqrt{x}}{2}\right)^{7-k}\left(-\frac{2}{\sqrt{x}}\right)^k.
+\left(\frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}}\right)^7=\sum_{k=0}^{7}\binom{7}{k}\left(\frac{\sqrt{x}}{2}\right)^{7-k}\left(-\frac{2}{\sqrt{x}}\right)^k.
 $$
 
 $\blacksquare$
@@ -429,7 +429,7 @@ By **Theorem 6.3.1 (Binomial Theorem)**.
 (1) When the two expressions are added, the odd powers of $\sqrt{x}$ cancel and the even powers double. By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
-\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5=2\left[\binom{5}{0}+\binom{5}{2} x+\binom{5}{4} x^2\right].
+\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5=2\left[\binom{5}{0}+\binom{5}{2}x+\binom{5}{4}x^2\right].
 $$
 
 Substituting $\binom{5}{2}=10$, $\binom{5}{4}=5$, we get
@@ -447,7 +447,7 @@ $$
 Substituting $\binom{4}{2}=6$, we get
 
 $$
-2\left[16x^2+6\cdot 4x\cdot\frac{9}{x}+\frac{81}{x^2}\right]=2\left[16x^2+216+\frac{81}{x^2}\right]=32x^2+432+\frac{162}{x^2}.
+2\left[16x^2+6\cdot4x\cdot\frac{9}{x}+\frac{81}{x^2}\right]=2\left[16x^2+216+\frac{81}{x^2}\right]=32x^2+432+\frac{162}{x^2}.
 $$
 
 $\blacksquare$
@@ -489,23 +489,23 @@ $$
 Substituting $\binom{10}{7}=120$, we get
 
 $$
-T_8=120\cdot 8\,a^9\cdot\left(-3\right)^7 b^{14}=-2099520\,a^9 b^{14}.
+T_8=120\cdot8\,a^9\cdot\left(-3\right)^7b^{14}=-2099520\,a^9b^{14}.
 $$
 
 (3) $n=12$ is even, so by **Property 6.3.4**, the middle term is the $7$th term with $k=6$. By **Formula 6.3.2**,
 
 $$
-T_7=\binom{12}{6}\left(\frac{\sqrt{x}}{3}\right)^6\left(-\frac{3}{\sqrt{x}}\right)^6=\binom{12}{6}\cdot\frac{1}{3^6}\cdot 3^6\cdot x^3\cdot x^{-3}=\binom{12}{6}=924.
+T_7=\binom{12}{6}\left(\frac{\sqrt{x}}{3}\right)^6\left(-\frac{3}{\sqrt{x}}\right)^6=\binom{12}{6}\cdot\frac{1}{3^6}\cdot3^6\cdot{x}^3\cdot{x}^{-3}=\binom{12}{6}=924.
 $$
 
 (4) $n=15$ is odd, so by **Property 6.3.4**, the two middle terms are the $8$th term with $k=7$ and the $9$th term with $k=8$. By **Formula 6.3.2**,
 
 $$
-T_8=\binom{15}{7}\left(x\sqrt{y}\right)^8\left(-y\sqrt{x}\right)^7=-\binom{15}{7} x^{\frac{23}{2}} y^{11}=-6435\,x^{\frac{23}{2}} y^{11},
+T_8=\binom{15}{7}\left(x\sqrt{y}\right)^8\left(-y\sqrt{x}\right)^7=-\binom{15}{7}x^{\frac{23}{2}}y^{11}=-6435\,x^{\frac{23}{2}}y^{11},
 $$
 
 $$
-T_9=\binom{15}{8}\left(x\sqrt{y}\right)^7\left(-y\sqrt{x}\right)^8=\binom{15}{8} x^{11} y^{\frac{23}{2}}=6435\,x^{11} y^{\frac{23}{2}}.
+T_9=\binom{15}{8}\left(x\sqrt{y}\right)^7\left(-y\sqrt{x}\right)^8=\binom{15}{8}x^{11}y^{\frac{23}{2}}=6435\,x^{11}y^{\frac{23}{2}}.
 $$
 
 $\blacksquare$
@@ -539,13 +539,13 @@ Thus the required term is $-\frac{63}{8x^5}$.
 (2) The general term is
 
 $$
-T_{k+1}=\binom{10}{k}\left(2x^3\right)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}\left(-1\right)^k 2^{10-2k}x^{30-6k}.
+T_{k+1}=\binom{10}{k}\left(2x^3\right)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}\left(-1\right)^k2^{10-2k}x^{30-6k}.
 $$
 
 The constant term requires $30-6k=0$, i.e. $k=5$. This term is
 
 $$
-T_6=\binom{10}{5}\left(-1\right)^5 2^0=-252.
+T_6=\binom{10}{5}\left(-1\right)^52^0=-252.
 $$
 
 Thus the constant term is $-252$. $\blacksquare$
@@ -554,9 +554,9 @@ Thus the constant term is $-252$. $\blacksquare$
 
 (Exercise 6.3, Comprehensive Application, Problem 7) Prove:
 
-(1) In the expansion of $\left(x-\frac{1}{x}\right)^{2n}$, the constant term is $\left(-2\right)^n\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}$;
+(1) In the expansion of $\left(x-\frac{1}{x}\right)^{2n}$, the constant term is $\left(-2\right)^n\frac{1\times3\times5\times\cdots\times\left(2n-1\right)}{n!}$;
 
-(2) The middle term of the expansion of $\left(1+x\right)^{2n}$ is $\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}\left(2x\right)^n$.
+(2) The middle term of the expansion of $\left(1+x\right)^{2n}$ is $\frac{1\times3\times5\times\cdots\times\left(2n-1\right)}{n!}\left(2x\right)^n$.
 
 ### Solution to Problem 11
 
@@ -565,41 +565,41 @@ By **Formula 6.3.2** (General Term of the Binomial Expansion) and **Formula 6.2.
 (1) The general term is
 
 $$
-T_{k+1}=\binom{2n}{k} x^{2n-k}\left(-\frac{1}{x}\right)^k=\left(-1\right)^k \binom{2n}{k} x^{2n-2k}.
+T_{k+1}=\binom{2n}{k}x^{2n-k}\left(-\frac{1}{x}\right)^k=\left(-1\right)^k\binom{2n}{k}x^{2n-2k}.
 $$
 
-The constant term requires $2n-2k=0$, i.e. $k=n$. Thus the constant term is $\left(-1\right)^n \binom{2n}{n}$.
+The constant term requires $2n-2k=0$, i.e. $k=n$. Thus the constant term is $\left(-1\right)^n\binom{2n}{n}$.
 
 By **Formula 6.2.7**,
 
 $$
-\binom{2n}{n}=\frac{\left(2n\right)!}{\left(n!\right)^2}=\frac{2n\left(2n-1\right)\left(2n-2\right)\cdots 2\cdot 1}{\left(n!\right)^2}.
+\binom{2n}{n}=\frac{\left(2n\right)!}{\left(n!\right)^2}=\frac{2n\left(2n-1\right)\left(2n-2\right)\cdots2\cdot1}{\left(n!\right)^2}.
 $$
 
 Factoring a $2$ from each even factor in the numerator, we get
 
 $$
-\left(2n\right)!=2^n n!\cdot 1\cdot 3\cdot 5\cdots\left(2n-1\right).
+\left(2n\right)!=2^nn!\cdot1\cdot3\cdot5\cdots\left(2n-1\right).
 $$
 
 Thus
 
 $$
-\binom{2n}{n}=\frac{2^n n!\cdot 1\cdot 3\cdots\left(2n-1\right)}{\left(n!\right)^2}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}.
+\binom{2n}{n}=\frac{2^nn!\cdot1\cdot3\cdots\left(2n-1\right)}{\left(n!\right)^2}=\frac{2^n\cdot1\cdot3\cdots\left(2n-1\right)}{n!}.
 $$
 
-Hence the constant term $\left(-1\right)^n \binom{2n}{n}=\left(-2\right)^n\frac{1\cdot 3\cdots\left(2n-1\right)}{n!}$, which proves the claim.
+Hence the constant term $\left(-1\right)^n\binom{2n}{n}=\left(-2\right)^n\frac{1\cdot3\cdots\left(2n-1\right)}{n!}$, which proves the claim.
 
 (2) After replacing $n$ by $2n$, it is even, so by **Property 6.3.4**, the middle term is the $n+1$-th term with $k=n$. By **Formula 6.3.2**,
 
 $$
-T_{n+1}=\binom{2n}{n} x^n.
+T_{n+1}=\binom{2n}{n}x^n.
 $$
 
-Using $\binom{2n}{n}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}$ from (1), we get
+Using $\binom{2n}{n}=\frac{2^n\cdot1\cdot3\cdots\left(2n-1\right)}{n!}$ from (1), we get
 
 $$
-T_{n+1}=\frac{1\cdot 3\cdot 5\cdots\left(2n-1\right)}{n!}\left(2x\right)^n.
+T_{n+1}=\frac{1\cdot3\cdot5\cdots\left(2n-1\right)}{n!}\left(2x\right)^n.
 $$
 
 This proves the claim. $\blacksquare$
@@ -637,13 +637,13 @@ By **Theorem 6.3.1 (Binomial Theorem)**.
 (1) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
-\left(n+1\right)^n=\binom{n}{0}+\binom{n}{1} n+\binom{n}{2} n^2+\cdots+\binom{n}{n} n^n.
+\left(n+1\right)^n=\binom{n}{0}+\binom{n}{1}n+\binom{n}{2}n^2+\cdots+\binom{n}{n}n^n.
 $$
 
-Here $\binom{n}{0}=1$, $\binom{n}{1} n=n\cdot n=n^2$, and every remaining term contains at least the factor $n^2$. Thus
+Here $\binom{n}{0}=1$, $\binom{n}{1}n=n\cdot{n}=n^2$, and every remaining term contains at least the factor $n^2$. Thus
 
 $$
-\left(n+1\right)^n-1=n^2+\binom{n}{2} n^2+\cdots+n^n=n^2\left(1+\binom{n}{2} n^0+\cdots+n^{n-2}\right).
+\left(n+1\right)^n-1=n^2+\binom{n}{2}n^2+\cdots+n^n=n^2\left(1+\binom{n}{2}n^0+\cdots+n^{n-2}\right).
 $$
 
 The expression in parentheses is an integer, so $\left(n+1\right)^n-1$ is divisible by $n^2$.
@@ -651,20 +651,20 @@ The expression in parentheses is an integer, so $\left(n+1\right)^n-1$ is divisi
 (2) By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
-99^{10}=\left(100-1\right)^{10}=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9+\left(-1\right)^{10}.
+99^{10}=\left(100-1\right)^{10}=\binom{10}{0}100^{10}-\binom{10}{1}100^9+\cdots+\binom{10}{9}100\left(-1\right)^9+\left(-1\right)^{10}.
 $$
 
 Here $\left(-1\right)^{10}=1$, so
 
 $$
-99^{10}-1=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9.
+99^{10}-1=\binom{10}{0}100^{10}-\binom{10}{1}100^9+\cdots+\binom{10}{9}100\left(-1\right)^9.
 $$
 
-The last term $\binom{10}{9}\cdot 100\cdot\left(-1\right)^9=-1000$ is divisible by $1000$; every remaining term contains the factor $100^2=10000$, which is also divisible by $1000$. Thus $99^{10}-1$ is divisible by $1000$. $\blacksquare$
+The last term $\binom{10}{9}\cdot100\cdot\left(-1\right)^9=-1000$ is divisible by $1000$; every remaining term contains the factor $100^2=10000$, which is also divisible by $1000$. Thus $99^{10}-1$ is divisible by $1000$. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 6.3, Extension and Exploration, Problem 10) Prove: $2^n-\binom{n}{1}\times 2^{n-1}+\binom{n}{2}\times 2^{n-2}+\cdots+\left(-1\right)^{n-1}\binom{n}{n-1}\times 2+\left(-1\right)^n=1$.
+(Exercise 6.3, Extension and Exploration, Problem 10) Prove: $2^n-\binom{n}{1}\times2^{n-1}+\binom{n}{2}\times2^{n-2}+\cdots+\left(-1\right)^{n-1}\binom{n}{n-1}\times2+\left(-1\right)^n=1$.
 
 ### Solution to Problem 14
 
@@ -673,20 +673,20 @@ By **Theorem 6.3.1 (Binomial Theorem)**.
 Taking $a=2$ and $b=-1$ in **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**, we have
 
 $$
-\left(2-1\right)^n=\binom{n}{0} 2^n+\binom{n}{1} 2^{n-1}\left(-1\right)+\binom{n}{2} 2^{n-2}\left(-1\right)^2+\cdots+\binom{n}{n}\left(-1\right)^n.
+\left(2-1\right)^n=\binom{n}{0}2^n+\binom{n}{1}2^{n-1}\left(-1\right)+\binom{n}{2}2^{n-2}\left(-1\right)^2+\cdots+\binom{n}{n}\left(-1\right)^n.
 $$
 
 That is,
 
 $$
-2^n-\binom{n}{1} 2^{n-1}+\binom{n}{2} 2^{n-2}+\cdots+\left(-1\right)^n=1.
+2^n-\binom{n}{1}2^{n-1}+\binom{n}{2}2^{n-2}+\cdots+\left(-1\right)^n=1.
 $$
 
 The left side is exactly the expression to be proved, and the right side $=1$. This proves the claim. $\blacksquare$
 
 ## Problem 15
 
-(Exercise 6.3, Extension and Exploration, Problem 11) The figure below reflects the long journey through which the binomial theorem was generated, completed, and generalized. In this development, both generalization and proof proceed from the particular to the general. Nowadays, a trend in mathematical research is toward ever greater generality. Try to generalize from $\left(a+b\right)^n$ to $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb N^*$).
+(Exercise 6.3, Extension and Exploration, Problem 11) The figure below reflects the long journey through which the binomial theorem was generated, completed, and generalized. In this development, both generalization and proof proceed from the particular to the general. Nowadays, a trend in mathematical research is toward ever greater generality. Try to generalize from $\left(a+b\right)^n$ to $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb{N}^*$).
 
 The figure is a timeline illustrating the long history of the emergence, completion, and generalization of the binomial theorem (showing, from a historical-development perspective, the generalization of the binomial theorem from special cases to the general case).
 
@@ -705,29 +705,29 @@ $$
 Thus the generalization is
 
 $$
-\left(a_1+a_2+\cdots+a_m\right)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots a_m^{n_m}.
+\left(a_1+a_2+\cdots+a_m\right)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots{a}_m^{n_m}.
 $$
 
 $\blacksquare$
 
 ## Exercise 10
 
-(Exercise 7.1, Problem 1) Let $A\subseteq B$, with $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. Based on the meaning of event inclusion and the meaning of conditional probability, directly write down the values of $\mathbb P\left(B\mid A\right)$ and $\mathbb P\left(A\mid B\right)$, and then verify them using the conditional probability formula.
+(Exercise 7.1, Problem 1) Let $A\subseteq{B}$, with $\mathbb{P}\left(A\right)=0.3$, $\mathbb{P}\left(B\right)=0.6$. Based on the meaning of event inclusion and the meaning of conditional probability, directly write down the values of $\mathbb{P}\left(B\mid{A}\right)$ and $\mathbb{P}\left(A\mid{B}\right)$, and then verify them using the conditional probability formula.
 
 ### Solution to Exercise 10
 
-By **Definition 7.1.1 (Conditional Probability)**, $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
+By **Definition 7.1.1 (Conditional Probability)**, $\mathbb{P}\left(B\mid{A}\right)=\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(A\right)}$.
 
-Because $A\subseteq B$, when event $A$ occurs event $B$ necessarily occurs, giving directly $\mathbb P\left(B\mid A\right)=1$; while under the condition that event $B$ occurs, the probability that event $A$ occurs should be the proportion that $A$ occupies in $B$, giving directly $\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5$.
+Because $A\subseteq{B}$, when event $A$ occurs event $B$ necessarily occurs, giving directly $\mathbb{P}\left(B\mid{A}\right)=1$; while under the condition that event $B$ occurs, the probability that event $A$ occurs should be the proportion that $A$ occupies in $B$, giving directly $\mathbb{P}\left(A\mid{B}\right)=\frac{\mathbb{P}\left(A\right)}{\mathbb{P}\left(B\right)}=\frac{0.3}{0.6}=0.5$.
 
-The verification is as follows. From $A\subseteq B$, we have $AB=A$, hence $\mathbb P\left(AB\right)=\mathbb P\left(A\right)=0.3$.
-
-$$
-\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\frac{0.3}{0.3}=1.
-$$
+The verification is as follows. From $A\subseteq{B}$, we have $AB=A$, hence $\mathbb{P}\left(AB\right)=\mathbb{P}\left(A\right)=0.3$.
 
 $$
-\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5.
+\mathbb{P}\left(B\mid{A}\right)=\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(A\right)}=\frac{0.3}{0.3}=1.
+$$
+
+$$
+\mathbb{P}\left(A\mid{B}\right)=\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(B\right)}=\frac{0.3}{0.6}=0.5.
 $$
 
 This agrees with the intuitive judgment. $\blacksquare$

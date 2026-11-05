@@ -58,7 +58,7 @@ The figure: an oblique drawing of a composite solid consisting of a cylinder bel
 
 By **Definition 8.2.1 (Pictorial Drawings)**, first analyze the structure of the composite solid, then draw the pictorial drawings of each simple solid separately.
 
-Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle xOz=90^{\circ}$.
+Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle{x}Oz=90^{\circ}$.
 
 (2) Draw the lower base of the cylinder. Using a point on the axis as the center, draw an ellipse with an ellipse template as the lower base.
 
@@ -68,7 +68,7 @@ Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle x
 
 ## Problem 1
 
-(Exercise 8.2, Review and Consolidation, Problem 1) When using the oblique two-measurement method to draw the pictorial drawing of a horizontally placed plane figure, are the following statements correct? Mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 8.2, Review and Consolidation, Problem 1) When using the oblique two-measurement method to draw the pictorial drawing of a horizontally placed plane figure, are the following statements correct? Mark "$\sqrt{}$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
 (1) The pictorial drawing of a triangle is a triangle.
 
@@ -110,53 +110,53 @@ By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, segments parallel 
 
 ## Problem 3
 
-(Exercise 8.2, Review and Consolidation, Problem 3) Use the oblique two-measurement method to draw the pictorial drawing of a regular triangular prism with base side $2\text{ cm}$ and lateral edge $3\text{ cm}$.
+(Exercise 8.2, Review and Consolidation, Problem 3) Use the oblique two-measurement method to draw the pictorial drawing of a regular triangular prism with base side $2\text{~cm}$ and lateral edge $3\text{~cm}$.
 
-The figure: an oblique drawing of a regular triangular prism with base edge $2\text{ cm}$ and lateral edge $3\text{ cm}$—the lower base is an oblique projection of an equilateral triangle (base $2\text{ cm}$, altitude halved), the lateral edges are vertical and $3\text{ cm}$ long, and hidden parts are dashed.
+The figure: an oblique drawing of a regular triangular prism with base edge $2\text{~cm}$ and lateral edge $3\text{~cm}$—the lower base is an oblique projection of an equilateral triangle (base $2\text{~cm}$, altitude halved), the lateral edges are vertical and $3\text{~cm}$ long, and hidden parts are dashed.
 
 ### Solution to Problem 3
 
 By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids).
 
-Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes with $\angle xOy=45^{\circ}$ and $\angle xOz=90^{\circ}$.
+Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes with $\angle{x}Oy=45^{\circ}$ and $\angle{x}Oz=90^{\circ}$.
 
-(2) Draw the lower base. Use the oblique two-measurement method to draw the horizontally placed pictorial drawing of an equilateral triangle of side $2\text{ cm}$: take one side as the $x$-axis and the altitude to it as the $y$-axis; keep the side length unchanged on the $x'$-axis and halve the altitude on the $y'$-axis.
+(2) Draw the lower base. Use the oblique two-measurement method to draw the horizontally placed pictorial drawing of an equilateral triangle of side $2\text{~cm}$: take one side as the $x$-axis and the altitude to it as the $y$-axis; keep the side length unchanged on the $x'$-axis and halve the altitude on the $y'$-axis.
 
-(3) Draw the lateral edges. Through each vertex of the lower base draw a line parallel to the $z$-axis, and cut off lateral edges of length $3\text{ cm}$ to obtain the corresponding vertices of the upper base.
+(3) Draw the lateral edges. Through each vertex of the lower base draw a line parallel to the $z$-axis, and cut off lateral edges of length $3\text{~cm}$ to obtain the corresponding vertices of the upper base.
 
 (4) Complete the drawing. Join the vertices of the upper base in order, tidy up by removing the auxiliary lines, and draw the hidden parts as dashed lines; this gives the pictorial drawing of the regular triangular prism. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 8.2, Review and Consolidation, Problem 4) Draw the pictorial drawing of a cylinder with base radius $1\text{ cm}$ and generatrix length $3\text{ cm}$.
+(Exercise 8.2, Review and Consolidation, Problem 4) Draw the pictorial drawing of a cylinder with base radius $1\text{~cm}$ and generatrix length $3\text{~cm}$.
 
-The figure: an oblique drawing of a cylinder with base radius $1\text{ cm}$ and generatrix length $3\text{ cm}$—the upper and lower bases are ellipses ($2\text{ cm}$ wide horizontally), the centers of the two ellipses are $3\text{ cm}$ apart, and the side surface is two parallel tangent lines.
+The figure: an oblique drawing of a cylinder with base radius $1\text{~cm}$ and generatrix length $3\text{~cm}$—the upper and lower bases are ellipses ($2\text{~cm}$ wide horizontally), the centers of the two ellipses are $3\text{~cm}$ apart, and the side surface is two parallel tangent lines.
 
 ### Solution to Problem 4
 
 By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids), the pictorial drawing of a horizontally placed circle is drawn as an ellipse.
 
-Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle xOz=90^{\circ}$.
+Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle{x}Oz=90^{\circ}$.
 
-(2) Draw the lower base. With $O$ as the midpoint, take $OA=OB=1\text{ cm}$ on the $x$-axis, and use an ellipse template to draw the ellipse through $A$ and $B$ as the lower base.
+(2) Draw the lower base. With $O$ as the midpoint, take $OA=OB=1\text{~cm}$ on the $x$-axis, and use an ellipse template to draw the ellipse through $A$ and $B$ as the lower base.
 
-(3) Draw the upper base. On $Oz$ take $OO'=3\text{ cm}$; through $O'$ draw an axis parallel to $Ox$, and draw the ellipse of the upper base in the same way.
+(3) Draw the upper base. On $Oz$ take $OO'=3\text{~cm}$; through $O'$ draw an axis parallel to $Ox$, and draw the ellipse of the upper base in the same way.
 
 (4) Complete the drawing. Draw two parallel tangent lines to the two ellipses and tidy up to obtain the pictorial drawing of the cylinder. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 8.2, Comprehensive Application, Problem 5) A rhombus has side length $4\text{ cm}$ and one interior angle $60^{\circ}$. Place the rhombus horizontally with its longer diagonal horizontal, and use the oblique two-measurement method to draw the pictorial drawing of this rhombus.
+(Exercise 8.2, Comprehensive Application, Problem 5) A rhombus has side length $4\text{~cm}$ and one interior angle $60^{\circ}$. Place the rhombus horizontally with its longer diagonal horizontal, and use the oblique two-measurement method to draw the pictorial drawing of this rhombus.
 
-The figure: an oblique drawing of a rhombus with side $4\text{ cm}$ and one interior angle $60^{\circ}$—the longer diagonal ($4\sqrt{3}\text{ cm}$) is horizontal (parallel to the $x'$-axis), the shorter diagonal ($4\text{ cm}$) lies along the $y'$-axis and is halved to $2\text{ cm}$, and the four vertices are connected in order.
+The figure: an oblique drawing of a rhombus with side $4\text{~cm}$ and one interior angle $60^{\circ}$—the longer diagonal ($4\sqrt{3}\text{~cm}$) is horizontal (parallel to the $x'$-axis), the shorter diagonal ($4\text{~cm}$) lies along the $y'$-axis and is halved to $2\text{~cm}$, and the four vertices are connected in order.
 
 ### Solution to Problem 5
 
 By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, the longer diagonal being horizontal means it is parallel to the $x$-axis, and the shorter diagonal is parallel to the $y$-axis.
 
-The rhombus has side $4\text{ cm}$ and one interior angle $60^{\circ}$, so the shorter diagonal is $4\text{ cm}$ and the longer diagonal is $4\sqrt{3}\text{ cm}$.
+The rhombus has side $4\text{~cm}$ and one interior angle $60^{\circ}$, so the shorter diagonal is $4\text{~cm}$ and the longer diagonal is $4\sqrt{3}\text{~cm}$.
 
-Take the longer diagonal as the $x$-axis and the shorter diagonal as the $y$-axis, with intersection $O$. Draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle; on the $x'$-axis take the longer diagonal of length $4\sqrt{3}\text{ cm}$, and on the $y'$-axis take half the shorter diagonal, i.e. $1\text{ cm}$; join the four vertices in order to obtain the pictorial drawing of the rhombus. $\blacksquare$
+Take the longer diagonal as the $x$-axis and the shorter diagonal as the $y$-axis, with intersection $O$. Draw the $x'$ and $y'$ axes with a $45^{\circ}$ angle; on the $x'$-axis take the longer diagonal of length $4\sqrt{3}\text{~cm}$, and on the $y'$-axis take half the shorter diagonal, i.e. $1\text{~cm}$; join the four vertices in order to obtain the pictorial drawing of the rhombus. $\blacksquare$
 
 ## Problem 6
 
@@ -168,7 +168,7 @@ The figure: an oblique drawing of a cone formed by rotating an isosceles right t
 
 By **Definition 8.2.1 (Pictorial Drawings)** and **Definition 8.1.12 (Cone)**, the cone is formed by rotating an isosceles right triangle about a leg, so the height of the cone equals the radius of its base.
 
-Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle xOz=90^{\circ}$.
+Drawing method: (1) Draw the axes. Draw the $x$-axis and $z$-axis with $\angle{x}Oz=90^{\circ}$.
 
 (2) Draw the base. With $O$ as the center, use an ellipse template to draw the horizontally placed base ellipse, and let the base radius be $r$.
 
@@ -202,13 +202,13 @@ First observe the buildings and abstract them into simple solids such as prisms 
 
 ## Exercise 2
 
-(Exercise 8.3, Problem 1) The upper and lower base sides of a regular hexagonal frustum are $2\text{ cm}$ and $6\text{ cm}$ respectively, and its lateral edge is $5\text{ cm}$. Find its surface area.
+(Exercise 8.3, Problem 1) The upper and lower base sides of a regular hexagonal frustum are $2\text{~cm}$ and $6\text{~cm}$ respectively, and its lateral edge is $5\text{~cm}$. Find its surface area.
 
 ### Solution to Exercise 2
 
 By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the surface area equals the sum of the areas of the two bases and the lateral area.
 
-The area formula for a regular hexagon is $\frac{3\sqrt{3}}{2}a^{2}$. The upper base side is $a'=2$, so the upper base area is $S'=\frac{3\sqrt{3}}{2}\cdot 2^{2}=6\sqrt{3}$. The lower base side is $a=6$, so the lower base area is $S=\frac{3\sqrt{3}}{2}\cdot 6^{2}=54\sqrt{3}$.
+The area formula for a regular hexagon is $\frac{3\sqrt{3}}{2}a^{2}$. The upper base side is $a'=2$, so the upper base area is $S'=\frac{3\sqrt{3}}{2}\cdot2^{2}=6\sqrt{3}$. The lower base side is $a=6$, so the lower base area is $S=\frac{3\sqrt{3}}{2}\cdot6^{2}=54\sqrt{3}$.
 
 The lateral faces are $6$ congruent isosceles trapezoids, with upper base $2$, lower base $6$, and leg (lateral edge) $5$. The height of each trapezoid is
 
@@ -216,15 +216,15 @@ $$
 h_{\text{梯}}=\sqrt{5^{2}-\left(\frac{6-2}{2}\right)^{2}}=\sqrt{25-4}=\sqrt{21}.
 $$
 
-The area of each trapezoid is $\frac{2+6}{2}\cdot\sqrt{21}=4\sqrt{21}$, and the lateral area is $6\times 4\sqrt{21}=24\sqrt{21}$.
+The area of each trapezoid is $\frac{2+6}{2}\cdot\sqrt{21}=4\sqrt{21}$, and the lateral area is $6\times4\sqrt{21}=24\sqrt{21}$.
 
-Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\ \left(\text{cm}^{2}\right)$. $\blacksquare$
+Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{21}\,\left(\text{cm}^{2}\right)$. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 8.3, Problem 2) As shown in the figure, a cube of edge $4\text{ cm}$ has its surfaces painted red; it is suitably divided into small cubes of edge $1\text{ cm}$.
+(Exercise 8.3, Problem 2) As shown in the figure, a cube of edge $4\text{~cm}$ has its surfaces painted red; it is suitably divided into small cubes of edge $1\text{~cm}$.
 
-(1) How many small cubes of edge $1\text{ cm}$ are obtained in total?
+(1) How many small cubes of edge $1\text{~cm}$ are obtained in total?
 
 (2) How many small cubes have three faces red? What is the sum of their surface areas?
 
@@ -234,41 +234,41 @@ Hence the surface area is $6\sqrt{3}+54\sqrt{3}+24\sqrt{21}=60\sqrt{3}+24\sqrt{2
 
 (5) How many small cubes have no face colored? What is the sum of their surface areas? How many cubic centimeters of space do they occupy?
 
-The figure: a cube of edge length $4\text{ cm}$ with its surface painted red, divided into $4\times 4\times 4=64$ small cubes of edge length $1\text{ cm}$; one can see the distribution: corner cubes have three painted faces, edge cubes have two, face cubes have one, and interior cubes have none.
+The figure: a cube of edge length $4\text{~cm}$ with its surface painted red, divided into $4\times4\times4=64$ small cubes of edge length $1\text{~cm}$; one can see the distribution: corner cubes have three painted faces, edge cubes have two, face cubes have one, and interior cubes have none.
 
 ### Solution to Exercise 3
 
-By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the cube is divided into $4\times 4\times 4$ small cubes.
+By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the cube is divided into $4\times4\times4$ small cubes.
 
 (1) The total number of small cubes is $4^{3}=64$.
 
-(2) Small cubes with three red faces lie at the vertices of the large cube, totaling $8$. Each small cube has surface area $6\text{ cm}^{2}$, so the sum of their surface areas is $8\times 6=48\text{ cm}^{2}$.
+(2) Small cubes with three red faces lie at the vertices of the large cube, totaling $8$. Each small cube has surface area $6\text{~cm}^{2}$, so the sum of their surface areas is $8\times6=48\text{~cm}^{2}$.
 
-(3) Small cubes with two red faces lie on the edges but not at the vertices. On each edge there are $4-2=2$, and there are $12$ edges, so there are $12\times 2=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
+(3) Small cubes with two red faces lie on the edges but not at the vertices. On each edge there are $4-2=2$, and there are $12$ edges, so there are $12\times2=24$. The sum of their surface areas is $24\times6=144\text{~cm}^{2}$.
 
-(4) Small cubes with one red face lie on the faces but not on the edges. On each face there are $\left(4-2\right)^{2}=4$, and there are $6$ faces, so there are $6\times 4=24$. The sum of their surface areas is $24\times 6=144\text{ cm}^{2}$.
+(4) Small cubes with one red face lie on the faces but not on the edges. On each face there are $\left(4-2\right)^{2}=4$, and there are $6$ faces, so there are $6\times4=24$. The sum of their surface areas is $24\times6=144\text{~cm}^{2}$.
 
-(5) Uncolored small cubes lie inside the large cube, and there are $\left(4-2\right)^{3}=8$ of them. The sum of their surface areas is $8\times 6=48\text{ cm}^{2}$. The space they occupy is $8\times 1^{3}=8\text{ cm}^{3}$. $\blacksquare$
+(5) Uncolored small cubes lie inside the large cube, and there are $\left(4-2\right)^{3}=8$ of them. The sum of their surface areas is $8\times6=48\text{~cm}^{2}$. The space they occupy is $8\times1^{3}=8\text{~cm}^{3}$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 8.3, Problem 3) Some stone benches are placed on a plaza for people to rest; these benches are obtained by cutting off eight identical tetrahedra from a cube. If the edge of the original cube is $50\text{ cm}$, what is the volume of each bench?
+(Exercise 8.3, Problem 3) Some stone benches are placed on a plaza for people to rest; these benches are obtained by cutting off eight identical tetrahedra from a cube. If the edge of the original cube is $50\text{~cm}$, what is the volume of each bench?
 
 ### Solution to Exercise 4
 
 By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and **Definition 8.3.3 (Volume of a Pyramid-like or Cone-like Solid)**, the volume of the bench equals the volume of the cube minus the volumes of the eight tetrahedra cut off.
 
-The cube has edge $50\text{ cm}$ and volume $50^{3}=125000\text{ cm}^{3}$.
+The cube has edge $50\text{~cm}$ and volume $50^{3}=125000\text{~cm}^{3}$.
 
-Eight identical tetrahedra are cut off; each has three pairwise perpendicular edges of length $25\text{ cm}$ (i.e. cut by planes through the midpoints of the three edges at each vertex). The volume of each tetrahedron is
+Eight identical tetrahedra are cut off; each has three pairwise perpendicular edges of length $25\text{~cm}$ (i.e. cut by planes through the midpoints of the three edges at each vertex). The volume of each tetrahedron is
 
 $$
-V_{4}=\frac{1}{3}\times\frac{1}{2}\times 25\times 25\times 25=\frac{25^{3}}{6}=\frac{15625}{6}\ \left(\text{cm}^{3}\right).
+V_{4}=\frac{1}{3}\times\frac{1}{2}\times25\times25\times25=\frac{25^{3}}{6}=\frac{15625}{6}\,\left(\text{cm}^{3}\right).
 $$
 
-The eight tetrahedra cut off a total of $8\times\frac{15625}{6}=\frac{62500}{3}\text{ cm}^{3}$.
+The eight tetrahedra cut off a total of $8\times\frac{15625}{6}=\frac{62500}{3}\text{~cm}^{3}$.
 
-Hence the volume of the bench is $125000-\frac{62500}{3}=\frac{312500}{3}\approx 104167\text{ cm}^{3}$. $\blacksquare$
+Hence the volume of the bench is $125000-\frac{62500}{3}=\frac{312500}{3}\approx104167\text{~cm}^{3}$. $\blacksquare$
 
 ## Exercise 5
 
@@ -280,21 +280,21 @@ By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)** and the 
 
 Let the three sides of the base triangle be $a$, $b$, $c$, and the lateral edge be $l$. The three lateral-face areas are $al$, $bl$, $cl$, respectively.
 
-By the fact that the sum of two sides of a triangle is greater than the third, $a+b> c$. Multiplying both sides by the positive number $l$ gives $al+bl> cl$, i.e. the sum of any two lateral-face areas is greater than the third. The other two pairs follow similarly. Hence the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third. $\blacksquare$
+By the fact that the sum of two sides of a triangle is greater than the third, $a+b>{}c$. Multiplying both sides by the positive number $l$ gives $al+bl>{}cl$, i.e. the sum of any two lateral-face areas is greater than the third. The other two pairs follow similarly. Hence the sum of the areas of any two lateral faces of a right triangular prism is greater than the area of the third. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 8.3, Problem 1) Given that the surface area of a cone is $a\text{ m}^{2}$ and its lateral development is a semicircle, find the diameter of the base of this cone.
+(Exercise 8.3, Problem 1) Given that the surface area of a cone is $a\text{~m}^{2}$ and its lateral development is a semicircle, find the diameter of the base of this cone.
 
 ### Solution to Exercise 6
 
 By **Definition 8.3.6 (Surface Area of a Cone)**, let the base radius be $r$ and the generatrix length be $l$.
 
-The lateral development is a semicircle whose radius is the generatrix $l$ and whose arc length is $\pi l$. This arc length equals the base circumference $2\pi r$, so $\pi l=2\pi r$, i.e. $l=2r$.
+The lateral development is a semicircle whose radius is the generatrix $l$ and whose arc length is $\pi{l}$. This arc length equals the base circumference $2\pi{r}$, so $\pi{l}=2\pi{r}$, i.e. $l=2r$.
 
-The surface area is $S=\pi r\left(r+l\right)=\pi r\left(r+2r\right)=3\pi r^{2}=a$, giving $r=\sqrt{\frac{a}{3\pi}}$.
+The surface area is $S=\pi{r}\left(r+l\right)=\pi{r}\left(r+2r\right)=3\pi{r}^{2}=a$, giving $r=\sqrt{\frac{a}{3\pi}}$.
 
-Hence the base diameter is $2r=2\sqrt{\frac{a}{3\pi}}\ \left(\text{m}\right)$. $\blacksquare$
+Hence the base diameter is $2r=2\sqrt{\frac{a}{3\pi}}\,\left(\text{m}\right)$. $\blacksquare$
 
 ## Exercise 7
 
@@ -304,55 +304,55 @@ Hence the base diameter is $2r=2\sqrt{\frac{a}{3\pi}}\ \left(\text{m}\right)$. $
 
 By **Definition 8.3.11 (Surface Area of a Sphere)** and **Definition 8.3.12 (Volume of a Sphere)**, let the radius be $R$.
 
-The volume is $V=\frac{4}{3}\pi R^{3}$ and the surface area is $S=4\pi R^{2}$. Set them equal numerically:
+The volume is $V=\frac{4}{3}\pi{R}^{3}$ and the surface area is $S=4\pi{R}^{2}$. Set them equal numerically:
 
 $$
-\frac{4}{3}\pi R^{3}=4\pi R^{2}.
+\frac{4}{3}\pi{R}^{3}=4\pi{R}^{2}.
 $$
 
-Dividing both sides by $4\pi R^{2}$ ($R> 0$) gives $\frac{R}{3}=1$, i.e. $R=3$.
+Dividing both sides by $4\pi{R}^{2}$ ($R>0$) gives $\frac{R}{3}=1$, i.e. $R=3$.
 
 Hence when the radius of the sphere is $3$, the numerical values of its volume and surface area coincide. $\blacksquare$
 
 ## Exercise 8
 
-(Exercise 8.3, Problem 3) An iron cube of edge $6\text{ cm}$ is ground into a spherical part. Find the volume of the largest possible part.
+(Exercise 8.3, Problem 3) An iron cube of edge $6\text{~cm}$ is ground into a spherical part. Find the volume of the largest possible part.
 
 ### Solution to Exercise 8
 
 By **Definition 8.3.12 (Volume of a Sphere)**, the largest sphere that fits inside the cube is its inscribed sphere, whose diameter equals the edge of the cube.
 
-The cube has edge $6\text{ cm}$, so the inscribed sphere has diameter $6\text{ cm}$ and radius $R=3\text{ cm}$.
+The cube has edge $6\text{~cm}$, so the inscribed sphere has diameter $6\text{~cm}$ and radius $R=3\text{~cm}$.
 
-The volume of the largest sphere is $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 3^{3}=36\pi\approx 113.1\text{ cm}^{3}$. $\blacksquare$
+The volume of the largest sphere is $V=\frac{4}{3}\pi{R}^{3}=\frac{4}{3}\pi\times3^{3}=36\pi\approx113.1\text{~cm}^{3}$. $\blacksquare$
 
 ## Exercise 9
 
-(Exercise 8.3, Problem 4) A rectangular water tank of length $80\text{ cm}$, width $60\text{ cm}$, and height $55\text{ cm}$ contains $200000\text{ cm}^{3}$ of water. A wooden sphere of diameter $50\text{ cm}$ is now placed in it. If two-thirds of the sphere is underwater and one-third above, will the water overflow the tank?
+(Exercise 8.3, Problem 4) A rectangular water tank of length $80\text{~cm}$, width $60\text{~cm}$, and height $55\text{~cm}$ contains $200000\text{~cm}^{3}$ of water. A wooden sphere of diameter $50\text{~cm}$ is now placed in it. If two-thirds of the sphere is underwater and one-third above, will the water overflow the tank?
 
 ### Solution to Exercise 9
 
 By **Definition 8.3.12 (Volume of a Sphere)**, compare the volume of the submerged part of the sphere with the remaining capacity of the tank.
 
-The tank capacity is $80\times 60\times 55=264000\text{ cm}^{3}$. It already holds $200000\text{ cm}^{3}$ of water, leaving $264000-200000=64000\text{ cm}^{3}$ of space.
+The tank capacity is $80\times60\times55=264000\text{~cm}^{3}$. It already holds $200000\text{~cm}^{3}$ of water, leaving $264000-200000=64000\text{~cm}^{3}$ of space.
 
-The sphere has radius $R=25\text{ cm}$ and volume $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\times 25^{3}\approx 65450\text{ cm}^{3}$. The submerged volume is $\frac{2}{3}V\approx 43633\text{ cm}^{3}$.
+The sphere has radius $R=25\text{~cm}$ and volume $V=\frac{4}{3}\pi{R}^{3}=\frac{4}{3}\pi\times25^{3}\approx65450\text{~cm}^{3}$. The submerged volume is $\frac{2}{3}V\approx43633\text{~cm}^{3}$.
 
-Since $43633< 64000$, the submerged volume is less than the remaining space, so the water will not overflow. $\blacksquare$
+Since $43633<64000$, the submerged volume is less than the remaining space, so the water will not overflow. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 8.3, Review and Consolidation, Problem 1) As shown in the figure, every face of an octahedron is an equilateral triangle, and the $4$ vertices $A$, $B$, $C$, $D$ lie in the same plane. If the quadrilateral $ABCD$ is a square of side $30\text{ cm}$, what is the surface area of this octahedron?
+(Exercise 8.3, Review and Consolidation, Problem 1) As shown in the figure, every face of an octahedron is an equilateral triangle, and the $4$ vertices $A$, $B$, $C$, $D$ lie in the same plane. If the quadrilateral $ABCD$ is a square of side $30\text{~cm}$, what is the surface area of this octahedron?
 
-The figure: an octahedron whose four vertices $A,B,C,D$ lie in one plane forming a square $ABCD$ of side $30\text{ cm}$, with one vertex above and one below the square; all $8$ faces are equilateral triangles.
+The figure: an octahedron whose four vertices $A,B,C,D$ lie in one plane forming a square $ABCD$ of side $30\text{~cm}$, with one vertex above and one below the square; all $8$ faces are equilateral triangles.
 
 ### Solution to Problem 9
 
-By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the octahedron has $8$ faces, each an equilateral triangle of side $30\text{ cm}$.
+By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the octahedron has $8$ faces, each an equilateral triangle of side $30\text{~cm}$.
 
-The area of each equilateral triangle is $\frac{\sqrt{3}}{4}\times 30^{2}=225\sqrt{3}\text{ cm}^{2}$.
+The area of each equilateral triangle is $\frac{\sqrt{3}}{4}\times30^{2}=225\sqrt{3}\text{~cm}^{2}$.
 
-The surface area is $8\times 225\sqrt{3}=1800\sqrt{3}\text{ cm}^{2}$. $\blacksquare$
+The surface area is $8\times225\sqrt{3}=1800\sqrt{3}\text{~cm}^{2}$. $\blacksquare$
 
 ## Problem 10
 
@@ -369,7 +369,7 @@ The volume of the box is $V=abc$.
 The removed pyramid has one vertex of the box as its vertex, with three pairwise perpendicular edges of lengths $a$, $b$, $c$; its volume is
 
 $$
-V_{\text{锥}}=\frac{1}{3}\times\frac{1}{2}ab\cdot c=\frac{1}{6}abc.
+V_{\text{锥}}=\frac{1}{3}\times\frac{1}{2}ab\cdot{c}=\frac{1}{6}abc.
 $$
 
 The volume of the remaining solid is $V_{\text{剩}}=abc-\frac{1}{6}abc=\frac{5}{6}abc$.
@@ -388,11 +388,11 @@ By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the vol
 
 Let the area of the base triangle $ABC$ be $S$, and the lateral edge be $AA_{1}=8$. When the lateral face $AA_{1}B_{1}B$ is horizontal, the water surface passes through the midpoints of $AC$ and $BC$, i.e. in the cross-section triangle $ABC$, the water line is parallel to $AB$ and lies on the segment joining the midpoints of $AC$ and $BC$.
 
-The small triangle above the water is similar to $\triangle ABC$ with similarity ratio $\frac{1}{2}$, so its area is $\frac{1}{4}S$. Hence the cross-sectional area under water is $S-\frac{1}{4}S=\frac{3}{4}S$.
+The small triangle above the water is similar to $\triangle{A}BC$ with similarity ratio $\frac{1}{2}$, so its area is $\frac{1}{4}S$. Hence the cross-sectional area under water is $S-\frac{1}{4}S=\frac{3}{4}S$.
 
-The volume of water is $V_{\text{水}}=\frac{3}{4}S\times 8=6S$.
+The volume of water is $V_{\text{水}}=\frac{3}{4}S\times8=6S$.
 
-When the base $ABC$ is horizontal, let the water height be $h$; then $V_{\text{水}}=S\cdot h$. From $S\cdot h=6S$ we get $h=6$. $\blacksquare$
+When the base $ABC$ is horizontal, let the water height be $h$; then $V_{\text{水}}=S\cdot{h}$. From $S\cdot{h}=6S$ we get $h=6$. $\blacksquare$
 
 ## Problem 12
 
@@ -408,21 +408,21 @@ The cone has base radius $\frac{a}{2}$ and height $a$, and generatrix length $l=
 
 $O'$ is the midpoint of $PO$, at height $\frac{a}{2}$ above the base. By similarity, the cross-section radius is $r'=\frac{1}{2}\times\frac{a}{2}=\frac{a}{4}$. The hollowed cylinder has height $\frac{a}{2}$ and base radius $\frac{a}{4}$.
 
-Surface area: the lateral area of the cone is $\pi\cdot\frac{a}{2}\cdot\frac{\sqrt{5}}{2}a=\frac{\sqrt{5}}{4}\pi a^{2}$; after removing a circle of radius $\frac{a}{4}$ from the cone's base, the remaining annulus area is $\pi\left(\frac{a}{2}\right)^{2}-\pi\left(\frac{a}{4}\right)^{2}=\frac{3}{16}\pi a^{2}$; the new lateral area of the cylinder is $2\pi\cdot\frac{a}{4}\cdot\frac{a}{2}=\frac{1}{4}\pi a^{2}$; the top face of the cylinder (i.e. the cross-section circle) has area $\pi\left(\frac{a}{4}\right)^{2}=\frac{1}{16}\pi a^{2}$.
+Surface area: the lateral area of the cone is $\pi\cdot\frac{a}{2}\cdot\frac{\sqrt{5}}{2}a=\frac{\sqrt{5}}{4}\pi{a}^{2}$; after removing a circle of radius $\frac{a}{4}$ from the cone's base, the remaining annulus area is $\pi\left(\frac{a}{2}\right)^{2}-\pi\left(\frac{a}{4}\right)^{2}=\frac{3}{16}\pi{a}^{2}$; the new lateral area of the cylinder is $2\pi\cdot\frac{a}{4}\cdot\frac{a}{2}=\frac{1}{4}\pi{a}^{2}$; the top face of the cylinder (i.e. the cross-section circle) has area $\pi\left(\frac{a}{4}\right)^{2}=\frac{1}{16}\pi{a}^{2}$.
 
 Hence the surface area of the remaining solid is
 
 $$
-S=\frac{\sqrt{5}}{4}\pi a^{2}+\frac{3}{16}\pi a^{2}+\frac{1}{4}\pi a^{2}+\frac{1}{16}\pi a^{2}=\frac{\left(\sqrt{5}+2\right)\pi a^{2}}{4}.
+S=\frac{\sqrt{5}}{4}\pi{a}^{2}+\frac{3}{16}\pi{a}^{2}+\frac{1}{4}\pi{a}^{2}+\frac{1}{16}\pi{a}^{2}=\frac{\left(\sqrt{5}+2\right)\pi{a}^{2}}{4}.
 $$
 
-Volume: the cone volume is $\frac{1}{3}\pi\left(\frac{a}{2}\right)^{2}\cdot a=\frac{\pi a^{3}}{12}$, and the hollowed cylinder volume is $\pi\left(\frac{a}{4}\right)^{2}\cdot\frac{a}{2}=\frac{\pi a^{3}}{32}$.
+Volume: the cone volume is $\frac{1}{3}\pi\left(\frac{a}{2}\right)^{2}\cdot{a}=\frac{\pi{a}^{3}}{12}$, and the hollowed cylinder volume is $\pi\left(\frac{a}{4}\right)^{2}\cdot\frac{a}{2}=\frac{\pi{a}^{3}}{32}$.
 
-Hence the volume of the remaining solid is $V=\frac{\pi a^{3}}{12}-\frac{\pi a^{3}}{32}=\frac{5\pi a^{3}}{96}$. $\blacksquare$
+Hence the volume of the remaining solid is $V=\frac{\pi{a}^{3}}{12}-\frac{\pi{a}^{3}}{32}=\frac{5\pi{a}^{3}}{96}$. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 8.3, Review and Consolidation, Problem 5) The vertices of a cube all lie on a sphere, and its edge is $a\text{ cm}$. Find the volume of the sphere.
+(Exercise 8.3, Review and Consolidation, Problem 5) The vertices of a cube all lie on a sphere, and its edge is $a\text{~cm}$. Find the volume of the sphere.
 
 ### Solution to Problem 13
 
@@ -430,21 +430,21 @@ By **Definition 8.3.12 (Volume of a Sphere)**, the diameter of the circumsphere 
 
 The cube has edge $a$ and space diagonal $\sqrt{3}a$, so the circumsphere radius is $R=\frac{\sqrt{3}}{2}a$.
 
-The volume of the sphere is $V=\frac{4}{3}\pi R^{3}=\frac{4}{3}\pi\left(\frac{\sqrt{3}}{2}a\right)^{3}=\frac{\sqrt{3}}{2}\pi a^{3}\text{ cm}^{3}$. $\blacksquare$
+The volume of the sphere is $V=\frac{4}{3}\pi{R}^{3}=\frac{4}{3}\pi\left(\frac{\sqrt{3}}{2}a\right)^{3}=\frac{\sqrt{3}}{2}\pi{a}^{3}\text{~cm}^{3}$. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 8.3, Comprehensive Application, Problem 6) As shown in the figure is a pictorial drawing of a chimney (the units in the figure are centimeters); its lower part is a regular square frustum and its upper part is a regular square prism (whose base coincides with the upper base of the frustum). To prevent rain erosion and make the chimney more attractive, tiles are to be glued on its exterior. Calculate how many square centimeters of tiles are needed. (Round to $1\text{ cm}^{2}$; a calculator may be used.)
+(Exercise 8.3, Comprehensive Application, Problem 6) As shown in the figure is a pictorial drawing of a chimney (the units in the figure are centimeters); its lower part is a regular square frustum and its upper part is a regular square prism (whose base coincides with the upper base of the frustum). To prevent rain erosion and make the chimney more attractive, tiles are to be glued on its exterior. Calculate how many square centimeters of tiles are needed. (Round to $1\text{~cm}^{2}$; a calculator may be used.)
 
 (The lower frustum has lower base side $50$, upper base side $40$, and height $10$; the upper prism has base side $40$ and height $70$.)
 
-The figure: a pictorial drawing of a chimney—the lower part is a regular square frustum (lower base side $50\text{ cm}$, upper base side $40\text{ cm}$, height $10\text{ cm}$), and the upper part is a regular square prism (base side $40\text{ cm}$, height $70\text{ cm}$), joined at their bases.
+The figure: a pictorial drawing of a chimney—the lower part is a regular square frustum (lower base side $50\text{~cm}$, upper base side $40\text{~cm}$, height $10\text{~cm}$), and the upper part is a regular square prism (base side $40\text{~cm}$, height $70\text{~cm}$), joined at their bases.
 
 ### Solution to Problem 14
 
 By **Definition 8.3.1 (Surface Area of a Polyhedron)**, the tiled area is the sum of all exposed exterior faces; the bottom face, which touches the ground, is not counted.
 
-Prism part: the four lateral faces total $4\times 40\times 70=11200\text{ cm}^{2}$, and the upper base is $40\times 40=1600\text{ cm}^{2}$.
+Prism part: the four lateral faces total $4\times40\times70=11200\text{~cm}^{2}$, and the upper base is $40\times40=1600\text{~cm}^{2}$.
 
 Frustum part: the upper and lower base sides are $40$ and $50$, and the height is $10$. The height (slant height) of each isosceles trapezoidal lateral face is
 
@@ -452,6 +452,6 @@ $$
 h_{\text{斜}}=\sqrt{10^{2}+\left(\frac{50-40}{2}\right)^{2}}=\sqrt{125}=5\sqrt{5}.
 $$
 
-The four lateral faces total $4\times\frac{40+50}{2}\times 5\sqrt{5}=900\sqrt{5}\text{ cm}^{2}$. The upper base of the frustum is covered by the prism and the lower base touches the ground; neither is counted.
+The four lateral faces total $4\times\frac{40+50}{2}\times5\sqrt{5}=900\sqrt{5}\text{~cm}^{2}$. The upper base of the frustum is covered by the prism and the lower base touches the ground; neither is counted.
 
-Hence the total area is $11200+1600+900\sqrt{5}=12800+900\sqrt{5}\approx 12800+2012=14812\text{ cm}^{2}$. $\blacksquare$
+Hence the total area is $11200+1600+900\sqrt{5}=12800+900\sqrt{5}\approx12800+2012=14812\text{~cm}^{2}$. $\blacksquare$

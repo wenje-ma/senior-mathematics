@@ -99,7 +99,7 @@ By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sampl
 Machine A's mean is
 
 $$
-\overline x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
+\overline{x}_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
 $$
 
 the variance is $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, and the standard deviation is $s_{\text{甲}}\approx1.28$.
@@ -107,7 +107,7 @@ the variance is $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, and the standard deviat
 Machine B's mean is
 
 $$
-\overline x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
+\overline{x}_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
 $$
 
 the variance is $s_{\text{乙}}^2=\frac{7.6}{10}=0.76$, and the standard deviation is $s_{\text{乙}}\approx0.87$.
@@ -148,10 +148,10 @@ All four statements are correct; they describe the two teams' defense from the t
 
 By **Common Result 9.2.6** (Effect of Data Transformation on the Mean and Variance).
 
-Because $y_i=ax_i+b$, by **Common Result 9.2.6**, $\overline y=a\overline x+b$, so $y_i-\overline y=a\left(x_i-\overline x\right)$. Thus
+Because $y_i=ax_i+b$, by **Common Result 9.2.6**, $\overline{y}=a\overline{x}+b$, so $y_i-\overline{y}=a\left(x_i-\overline{x}\right)$. Thus
 
 $$
-s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline x\right)^2=a^2s_x^2,
+s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline{y}\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline{x}\right)^2=a^2s_x^2,
 $$
 
 and hence $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. This proves the original identity. $\blacksquare$
@@ -164,13 +164,13 @@ and hence $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. This proves the original iden
 
 By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
 
-From $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0$,
+From $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline{x}\right)^2=0$,
 
 $$
-\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0.
+\sum_{i=1}^{n}\left(x_i-\overline{x}\right)^2=0.
 $$
 
-Each term $\left(x_i-\overline x\right)^2\ge0$, and their sum is 0, so every term is 0, i.e. $x_i-\overline x=0$, $x_i=\overline x$ for all $i$. Hence all the $x_i$ are equal. $\blacksquare$
+Each term $\left(x_i-\overline{x}\right)^2\ge0$, and their sum is 0, so every term is 0, i.e. $x_i-\overline{x}=0$, $x_i=\overline{x}$ for all $i$. Hence all the $x_i$ are equal. $\blacksquare$
 
 ## Problem 6
 
@@ -221,14 +221,14 @@ By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution H
 (2) The sample mean is
 
 $$
-\overline x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
+\overline{x}=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
 $$
 
 the sample variance is approximately $0.2043$, and the sample standard deviation is $s\approx0.45$.
 
 (3) One cannot conclude that the average mercury content of every batch of this fish is greater than $1.00\times10^{-6}$. Because the sample is random, different batches of fish may have different mercury content, and this sample's mean is only an estimate for this batch.
 
-(4) The interval $\left[\overline x-2s,\overline x+2s\right]$ is approximately $\left[0.18,1.98\right]$. Counting one by one, except for $0.07$ and $2.10$, the mercury content of the remaining 28 fish lies in this interval. Hence about 28 fish. $\blacksquare$
+(4) The interval $\left[\overline{x}-2s,\overline{x}+2s\right]$ is approximately $\left[0.18,1.98\right]$. Counting one by one, except for $0.07$ and $2.10$, the mercury content of the remaining 28 fish lies in this interval. Hence about 28 fish. $\blacksquare$
 
 ## Problem 9
 
@@ -275,7 +275,7 @@ By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sampl
 (1) The population mean is
 
 $$
-\overline x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
+\overline{x}=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
 $$
 
 and the population standard deviation is approximately $95.26$.
@@ -288,32 +288,32 @@ and the population standard deviation is approximately $95.26$.
 
 ## Problem 11
 
-(Exercise 9.2, Extension and Exploration, Problem 11) Given that the population is divided into 3 strata, by stratified random sampling the sample size, sample mean and sample variance drawn from each stratum are: $l,\overline x,s_1^2$; $m,\overline y,s_2^2$; $n,\overline z,s_3^2$. Let the total sample mean be $\overline w$ and the sample variance be $s^2$. Prove:
+(Exercise 9.2, Extension and Exploration, Problem 11) Given that the population is divided into 3 strata, by stratified random sampling the sample size, sample mean and sample variance drawn from each stratum are: $l,\overline{x},s_1^2$; $m,\overline{y},s_2^2$; $n,\overline{z},s_3^2$. Let the total sample mean be $\overline{w}$ and the sample variance be $s^2$. Prove:
 
-(1) $\overline w=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z$;
+(1) $\overline{w}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}$;
 
-(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}$.
+(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline{x}-\overline{w}\right)^2\right]+m\left[s_2^2+\left(\overline{y}-\overline{w}\right)^2\right]+n\left[s_3^2+\left(\overline{z}-\overline{w}\right)^2\right]\right\}$.
 
 ### Solution to Problem 11
 
 By **Common Result 9.2.5** (Total Variance of Stratified Random Sampling) and **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sample Variance and Sample Standard Deviation)**.
 
-(1) The sums of the three strata's data are $l\overline x,m\overline y,n\overline z$ respectively, and the total number of data is $l+m+n$, so the total sample mean is
+(1) The sums of the three strata's data are $l\overline{x},m\overline{y},n\overline{z}$ respectively, and the total number of data is $l+m+n$, so the total sample mean is
 
 $$
-\overline w=\frac{l\overline x+m\overline y+n\overline z}{l+m+n}=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+\overline{w}=\frac{l\overline{x}+m\overline{y}+n\overline{z}}{l+m+n}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}.
 $$
 
-(2) For the 1st stratum, $\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline x\right)+\left(\overline x-\overline w\right)\right]^2$. After expansion, the cross term $2\left(\overline x-\overline w\right)\sum_{i=1}^{l}\left(x_i-\overline x\right)=0$, so
+(2) For the 1st stratum, $\sum_{i=1}^{l}\left(x_i-\overline{w}\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline{x}\right)+\left(\overline{x}-\overline{w}\right)\right]^2$. After expansion, the cross term $2\left(\overline{x}-\overline{w}\right)\sum_{i=1}^{l}\left(x_i-\overline{x}\right)=0$, so
 
 $$
-\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left(x_i-\overline x\right)^2+l\left(\overline x-\overline w\right)^2=ls_1^2+l\left(\overline x-\overline w\right)^2.
+\sum_{i=1}^{l}\left(x_i-\overline{w}\right)^2=\sum_{i=1}^{l}\left(x_i-\overline{x}\right)^2+l\left(\overline{x}-\overline{w}\right)^2=ls_1^2+l\left(\overline{x}-\overline{w}\right)^2.
 $$
 
 The same holds for the 2nd and 3rd strata. Thus
 
 $$
-s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}.
+s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline{x}-\overline{w}\right)^2\right]+m\left[s_2^2+\left(\overline{y}-\overline{w}\right)^2\right]+n\left[s_3^2+\left(\overline{z}-\overline{w}\right)^2\right]\right\}.
 $$
 
 This proves the original identity. $\blacksquare$
@@ -340,9 +340,9 @@ By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Populati
 
 Let the serial numbers of the tanks Germany produces monthly be $1,2,\cdots,N$, and the captured tank serial numbers form a simple random sample. Several methods for estimating $N$:
 
-(1) Use the mean of the sample serial numbers to estimate the mean of the population serial numbers. The mean of the population serial numbers $1\sim N$ is $\frac{N+1}{2}$; set the sample mean $\overline x=\frac{N+1}{2}$, solving gives $N=2\overline x-1$.
+(1) Use the mean of the sample serial numbers to estimate the mean of the population serial numbers. The mean of the population serial numbers $1\sim{N}$ is $\frac{N+1}{2}$; set the sample mean $\overline{x}=\frac{N+1}{2}$, solving gives $N=2\overline{x}-1$.
 
-(2) Use the maximum sample serial number $m$ to estimate. The maximum sample serial number is usually close to $N$; one may estimate $N\approx m\cdot\frac{n+1}{n}$, i.e. slightly correct the sample maximum.
+(2) Use the maximum sample serial number $m$ to estimate. The maximum sample serial number is usually close to $N$; one may estimate $N\approx{m}\cdot\frac{n+1}{n}$, i.e. slightly correct the sample maximum.
 
 Comparison: the method using the sample mean makes use of all the sample information, but when the sample size is small the estimate has large error; the method using a corrected sample maximum is also fairly simple. In practice, combining several methods and cross-checking them gives a more reliable result. The common idea of these methods is to use a sample statistic to estimate the unknown population parameter $N$. $\blacksquare$
 
@@ -378,17 +378,17 @@ By **Definition 10.1.2 (Sample Points and Sample Space)**, each possible basic o
 
 (1) A student's gender has only two possibilities, male and female, so the sample space is $\Omega=\left\{$male, female$\right\}$.
 
-(2) There are four $ABO$ blood types, $A, B, O, AB$, so the sample space is $\Omega=\left\{A, B, O, AB\right\}$.
+(2) There are four $ABO$ blood types, $A,B,O,AB$, so the sample space is $\Omega=\left\{A,B,O,AB\right\}$.
 
 (3) Each child's gender has two possibilities, male and female; the two children have $4$ gender combinations in total, so the sample space is $\Omega=\left\{$ (male, male), (male, female), (female, male), (female, female) $\right\}$.
 
-(4) Each shot has two possibilities, hit or miss; use $1$ for a hit and $0$ for a miss. The three shots have $2^3=8$ outcomes in total, so the sample space is $\Omega=\left\{\left(1,1,1\right), \left(1,1,0\right), \left(1,0,1\right), \left(1,0,0\right), \left(0,1,1\right), \left(0,1,0\right), \left(0,0,1\right), \left(0,0,0\right)\right\}$.
+(4) Each shot has two possibilities, hit or miss; use $1$ for a hit and $0$ for a miss. The three shots have $2^3=8$ outcomes in total, so the sample space is $\Omega=\left\{\left(1,1,1\right),\left(1,1,0\right),\left(1,0,1\right),\left(1,0,0\right),\left(0,1,1\right),\left(0,1,0\right),\left(0,0,1\right),\left(0,0,0\right)\right\}$.
 
-(5) The number of hits in three shots can be $0, 1, 2, 3$, so the sample space is $\Omega=\left\{0, 1, 2, 3\right\}$. $\blacksquare$
+(5) The number of hits in three shots can be $0,1,2,3$, so the sample space is $\Omega=\left\{0,1,2,3\right\}$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 10.1, Problem 2) As shown in the figure, components $A, B$ form a series circuit (Figure (1)) and a parallel circuit (Figure (2)) respectively; observe whether the two components are normal or failed.
+(Exercise 10.1, Problem 2) As shown in the figure, components $A,B$ form a series circuit (Figure (1)) and a parallel circuit (Figure (2)) respectively; observe whether the two components are normal or failed.
 
 (1) Write out the sample space of the experiment;
 
@@ -400,9 +400,9 @@ By **Definition 10.1.2 (Sample Points and Sample Space)**, each possible basic o
 
 ### Solution to Exercise 2
 
-By **Definition 10.1.2 (Sample Points and Sample Space)**, use $1$ for a normal component and $0$ for a failed component; the pair $\left(x_1, x_2\right)$ denotes the states of components $A, B$.
+By **Definition 10.1.2 (Sample Points and Sample Space)**, use $1$ for a normal component and $0$ for a failed component; the pair $\left(x_1,x_2\right)$ denotes the states of components $A,B$.
 
-(1) Each component has two states, normal and failed; the two components have $4$ state combinations in total, so the sample space is $\Omega=\left\{\left(0,0\right), \left(0,1\right), \left(1,0\right), \left(1,1\right)\right\}$.
+(1) Each component has two states, normal and failed; the two components have $4$ state combinations in total, so the sample space is $\Omega=\left\{\left(0,0\right),\left(0,1\right),\left(1,0\right),\left(1,1\right)\right\}$.
 
 (2) For the series circuit, the circuit is closed only when both components are normal. By **Definition 10.1.4 (Random Event)**, event $M$ is a subset of the sample space; its sample points are the case where both components are normal, so $M=\left\{\left(1,1\right)\right\}$.
 
@@ -410,7 +410,7 @@ By **Definition 10.1.2 (Sample Points and Sample Space)**, use $1$ for a normal 
 
 ## Exercise 3
 
-(Exercise 10.1, Problem 3) A bag contains $9$ balls of the same size and texture, labeled $1, 2, 3, 4, 5, 6, 7, 8, 9$; a ball is randomly drawn from it.
+(Exercise 10.1, Problem 3) A bag contains $9$ balls of the same size and texture, labeled $1,2,3,4,5,6,7,8,9$; a ball is randomly drawn from it.
 
 (1) Write out the sample space of the experiment;
 
@@ -420,9 +420,9 @@ By **Definition 10.1.2 (Sample Points and Sample Space)**, use $1$ for a normal 
 
 By **Definition 10.1.2 (Sample Points and Sample Space)**, the sample point is the number on the drawn ball, and the sample space is the set of all possible numbers.
 
-(1) The bag contains $9$ balls labeled $1$ to $9$, so the sample space is $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8, 9\right\}$.
+(1) The bag contains $9$ balls labeled $1$ to $9$, so the sample space is $\Omega=\left\{1,2,3,4,5,6,7,8,9\right\}$.
 
-(2) By **Definition 10.1.4 (Random Event)**, a random event is a subset of the sample space. The number on the drawn ball being less than $5$, i.e. numbers $1, 2, 3, 4$, so $A=\left\{1, 2, 3, 4\right\}$. The number being greater than $4$, i.e. numbers $5, 6, 7, 8, 9$, so $B=\left\{5, 6, 7, 8, 9\right\}$. The number being even, i.e. numbers $2, 4, 6, 8$, so $C=\left\{2, 4, 6, 8\right\}$. $\blacksquare$
+(2) By **Definition 10.1.4 (Random Event)**, a random event is a subset of the sample space. The number on the drawn ball being less than $5$, i.e. numbers $1,2,3,4$, so $A=\left\{1,2,3,4\right\}$. The number being greater than $4$, i.e. numbers $5,6,7,8,9$, so $B=\left\{5,6,7,8,9\right\}$. The number being even, i.e. numbers $2,4,6,8$, so $C=\left\{2,4,6,8\right\}$. $\blacksquare$
 
 ## Exercise 4
 
@@ -438,15 +438,15 @@ By **Definition 10.1.2 (Sample Points and Sample Space)**, the sample point is t
 
 ### Solution to Exercise 4
 
-By **Definition 10.1.13 (Complementary Events)**, if events $A$ and $B$ are complementary, then $A\cup B=\Omega$ and $A\cap B=\varnothing$, i.e. $B=\overline A$.
+By **Definition 10.1.13 (Complementary Events)**, if events $A$ and $B$ are complementary, then $A\cup{B}=\Omega$ and $A\cap{B}=\varnothing$, i.e. $B=\overline{A}$.
 
-Let event $A=$ "hit at least once"; then $\overline A$ means that $A$ does not occur, i.e. neither shot hits. Checking the options, (D) "hit neither time" is exactly $\overline A$. $\blacksquare$
+Let event $A=$ "hit at least once"; then $\overline{A}$ means that $A$ does not occur, i.e. neither shot hits. Checking the options, (D) "hit neither time" is exactly $\overline{A}$. $\blacksquare$
 
 ## Exercise 5
 
 (Exercise 10.1, Problem 5) Toss a fair die; the following random events are given:
 
-$C_i=$ "the number is $i$", where $i=1, 2, 3, 4, 5, 6$;
+$C_i=$ "the number is $i$", where $i=1,2,3,4,5,6$;
 
 $D_1=$ "the number is no greater than $2$", $D_2=$ "the number is greater than $2$", $D_3=$ "the number is greater than $4$";
 
@@ -456,44 +456,44 @@ Determine whether the following conclusions are correct.
 
 (1) $C_1$ and $C_2$ are mutually exclusive;
 
-(2) $C_2, C_3$ are complementary events;
+(2) $C_2,C_3$ are complementary events;
 
-(3) $C_3\subseteq D_2$;
+(3) $C_3\subseteq{D}_2$;
 
-(4) $D_3\subseteq D_2$;
+(4) $D_3\subseteq{D}_2$;
 
-(5) $D_1\cup D_2=\Omega$, $D_1\cap D_2=\varnothing$;
+(5) $D_1\cup{D}_2=\Omega$, $D_1\cap{D}_2=\varnothing$;
 
-(6) $D_3=C_5\cup C_6$;
+(6) $D_3=C_5\cup{C}_6$;
 
-(7) $E=C_1\cup C_3\cup C_5$;
+(7) $E=C_1\cup{C}_3\cup{C}_5$;
 
-(8) $E, F$ are complementary events;
+(8) $E,F$ are complementary events;
 
-(9) $D_2\cup D_3=D_2$;
+(9) $D_2\cup{D}_3=D_2$;
 
-(10) $D_2\cap D_3=D_3$.
+(10) $D_2\cap{D}_3=D_3$.
 
 ### Solution to Exercise 5
 
-By **Definition 10.1.4 (Random Event)**, each event is represented as a subset of the sample space $\Omega=\left\{1, 2, 3, 4, 5, 6\right\}$. The events are $C_1=\left\{1\right\}$, $C_2=\left\{2\right\}$, $C_3=\left\{3\right\}$, $C_4=\left\{4\right\}$, $C_5=\left\{5\right\}$, $C_6=\left\{6\right\}$, $D_1=\left\{1, 2\right\}$, $D_2=\left\{3, 4, 5, 6\right\}$, $D_3=\left\{5, 6\right\}$, $E=\left\{1, 3, 5\right\}$, $F=\left\{2, 4, 6\right\}$.
+By **Definition 10.1.4 (Random Event)**, each event is represented as a subset of the sample space $\Omega=\left\{1,2,3,4,5,6\right\}$. The events are $C_1=\left\{1\right\}$, $C_2=\left\{2\right\}$, $C_3=\left\{3\right\}$, $C_4=\left\{4\right\}$, $C_5=\left\{5\right\}$, $C_6=\left\{6\right\}$, $D_1=\left\{1,2\right\}$, $D_2=\left\{3,4,5,6\right\}$, $D_3=\left\{5,6\right\}$, $E=\left\{1,3,5\right\}$, $F=\left\{2,4,6\right\}$.
 
-(1) By **Definition 10.1.12 (Mutually Exclusive)**, $C_1\cap C_2=\left\{1\right\}\cap\left\{2\right\}=\varnothing$, so $C_1$ and $C_2$ are mutually exclusive. The conclusion is correct.
+(1) By **Definition 10.1.12 (Mutually Exclusive)**, $C_1\cap{C}_2=\left\{1\right\}\cap\left\{2\right\}=\varnothing$, so $C_1$ and $C_2$ are mutually exclusive. The conclusion is correct.
 
-(2) By **Definition 10.1.13 (Complementary Events)**, $C_2\cup C_3=\left\{2, 3\right\}\neq\Omega$, so $C_2, C_3$ are not complementary events. The conclusion is wrong.
+(2) By **Definition 10.1.13 (Complementary Events)**, $C_2\cup{C}_3=\left\{2,3\right\}\neq\Omega$, so $C_2,C_3$ are not complementary events. The conclusion is wrong.
 
-(3) By **Definition 10.1.8 (Inclusion Relation)**, $C_3=\left\{3\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
+(3) By **Definition 10.1.8 (Inclusion Relation)**, $C_3=\left\{3\right\}\subseteq\left\{3,4,5,6\right\}=D_2$. The conclusion is correct.
 
-(4) By **Definition 10.1.8 (Inclusion Relation)**, $D_3=\left\{5, 6\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
+(4) By **Definition 10.1.8 (Inclusion Relation)**, $D_3=\left\{5,6\right\}\subseteq\left\{3,4,5,6\right\}=D_2$. The conclusion is correct.
 
-(5) By **Definition 10.1.10 (Union Event)** and **Definition 10.1.11 (Intersection Event)**, $D_1\cup D_2=\left\{1, 2\right\}\cup\left\{3, 4, 5, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, $D_1\cap D_2=\left\{1, 2\right\}\cap\left\{3, 4, 5, 6\right\}=\varnothing$. The conclusion is correct.
+(5) By **Definition 10.1.10 (Union Event)** and **Definition 10.1.11 (Intersection Event)**, $D_1\cup{D}_2=\left\{1,2\right\}\cup\left\{3,4,5,6\right\}=\left\{1,2,3,4,5,6\right\}=\Omega$, $D_1\cap{D}_2=\left\{1,2\right\}\cap\left\{3,4,5,6\right\}=\varnothing$. The conclusion is correct.
 
-(6) By **Definition 10.1.10 (Union Event)**, $C_5\cup C_6=\left\{5\right\}\cup\left\{6\right\}=\left\{5, 6\right\}=D_3$. The conclusion is correct.
+(6) By **Definition 10.1.10 (Union Event)**, $C_5\cup{C}_6=\left\{5\right\}\cup\left\{6\right\}=\left\{5,6\right\}=D_3$. The conclusion is correct.
 
-(7) By **Definition 10.1.10 (Union Event)**, $C_1\cup C_3\cup C_5=\left\{1\right\}\cup\left\{3\right\}\cup\left\{5\right\}=\left\{1, 3, 5\right\}=E$. The conclusion is correct.
+(7) By **Definition 10.1.10 (Union Event)**, $C_1\cup{C}_3\cup{C}_5=\left\{1\right\}\cup\left\{3\right\}\cup\left\{5\right\}=\left\{1,3,5\right\}=E$. The conclusion is correct.
 
-(8) By **Definition 10.1.13 (Complementary Events)**, $E\cup F=\left\{1, 3, 5\right\}\cup\left\{2, 4, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, and $E\cap F=\left\{1, 3, 5\right\}\cap\left\{2, 4, 6\right\}=\varnothing$, so $E, F$ are complementary events. The conclusion is correct.
+(8) By **Definition 10.1.13 (Complementary Events)**, $E\cup{F}=\left\{1,3,5\right\}\cup\left\{2,4,6\right\}=\left\{1,2,3,4,5,6\right\}=\Omega$, and $E\cap{F}=\left\{1,3,5\right\}\cap\left\{2,4,6\right\}=\varnothing$, so $E,F$ are complementary events. The conclusion is correct.
 
-(9) By **Definition 10.1.10 (Union Event)**, $D_2\cup D_3=\left\{3, 4, 5, 6\right\}\cup\left\{5, 6\right\}=\left\{3, 4, 5, 6\right\}=D_2$. The conclusion is correct.
+(9) By **Definition 10.1.10 (Union Event)**, $D_2\cup{D}_3=\left\{3,4,5,6\right\}\cup\left\{5,6\right\}=\left\{3,4,5,6\right\}=D_2$. The conclusion is correct.
 
-(10) By **Definition 10.1.11 (Intersection Event)**, $D_2\cap D_3=\left\{3, 4, 5, 6\right\}\cap\left\{5, 6\right\}=\left\{5, 6\right\}=D_3$. The conclusion is correct. $\blacksquare$
+(10) By **Definition 10.1.11 (Intersection Event)**, $D_2\cap{D}_3=\left\{3,4,5,6\right\}\cap\left\{5,6\right\}=\left\{5,6\right\}=D_3$. The conclusion is correct. $\blacksquare$

@@ -42,15 +42,15 @@
 
 By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), i.e. $k_1k_2=-1$.
 
-(1) By **Common Conclusion 2.1.3** (Slope Formula), $k_{AB}=\frac{-\frac{1}{2}-1}{0-1}=\frac{-\frac{3}{2}}{-1}=\frac{3}{2}$, i.e. the slope of $l_2$ is $\frac{3}{2}$. The slope of $l_1$ is $-\frac{2}{3}$. The product of the two slopes is $-\frac{2}{3}\times\frac{3}{2}=-1$, so $l_1\perp l_2$.
+(1) By **Common Conclusion 2.1.3** (Slope Formula), $k_{AB}=\frac{-\frac{1}{2}-1}{0-1}=\frac{-\frac{3}{2}}{-1}=\frac{3}{2}$, i.e. the slope of $l_2$ is $\frac{3}{2}$. The slope of $l_1$ is $-\frac{2}{3}$. The product of the two slopes is $-\frac{2}{3}\times\frac{3}{2}=-1$, so $l_1\perp{l}_2$.
 
-(2) By **Definition 2.1.2 (Slope)**, the slope of $l_1$ is $k_1=\tan 45^\circ=1$. By the slope formula,
+(2) By **Definition 2.1.2 (Slope)**, the slope of $l_1$ is $k_1=\tan45^\circ=1$. By the slope formula,
 
 $$
 k_{PQ}=\frac{-6-\left(-1\right)}{3-\left(-2\right)}=\frac{-5}{5}=-1,
 $$
 
-i.e. the slope of $l_2$ is $-1$. The product of the two slopes is $1\times\left(-1\right)=-1$, so $l_1\perp l_2$.
+i.e. the slope of $l_2$ is $-1$. The product of the two slopes is $1\times\left(-1\right)=-1$, so $l_1\perp{l}_2$.
 
 (3) By the slope formula,
 
@@ -62,7 +62,7 @@ $$
 k_{RS}=\frac{3-0}{-1-\left(-6\right)}=\frac{3}{5}.
 $$
 
-The product of the two slopes is $-\frac{5}{3}\times\frac{3}{5}=-1$, so $l_1\perp l_2$. $\blacksquare$
+The product of the two slopes is $-\frac{5}{3}\times\frac{3}{5}=-1$, so $l_1\perp{l}_2$. $\blacksquare$
 
 ## Problem 2
 
@@ -70,7 +70,7 @@ The product of the two slopes is $-\frac{5}{3}\times\frac{3}{5}=-1$, so $l_1\per
 
 ### Solution to Problem 2
 
-By **Definition 2.1.2 (Slope)**, when the inclination angle is $45^\circ$, the slope is $k=\tan 45^\circ=1$. By **Common Conclusion 2.1.3** (Slope Formula),
+By **Definition 2.1.2 (Slope)**, when the inclination angle is $45^\circ$, the slope is $k=\tan45^\circ=1$. By **Common Conclusion 2.1.3** (Slope Formula),
 
 $$
 k_{AB}=\frac{2m-\left(m^2-3\right)}{\left(3-m-m^2\right)-\left(m^2+2\right)}=\frac{2m-m^2+3}{1-m-2m^2}.
@@ -116,11 +116,11 @@ Hence the range of the slope $k$ is $k\ge1$ or $k\le-1$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 2.1, Comprehensive Application, Problem 9) Given the points $M\left(2,2\right)$ and $N\left(5,-2\right)$, the point $P$ lies on the $x$-axis, and $\angle MPN$ is a right angle. Find the coordinates of point $P$.
+(Exercise 2.1, Comprehensive Application, Problem 9) Given the points $M\left(2,2\right)$ and $N\left(5,-2\right)$, the point $P$ lies on the $x$-axis, and $\angle{M}PN$ is a right angle. Find the coordinates of point $P$.
 
 ### Solution to Problem 4
 
-By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $\angle MPN$ being a right angle means $PM\perp PN$, so $k_{PM}\,k_{PN}=-1$.
+By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $\angle{M}PN$ being a right angle means $PM\perp{P}N$, so $k_{PM}\,k_{PN}=-1$.
 
 Let the coordinates of point $P$ be $\left(x,0\right)$. By **Common Conclusion 2.1.3** (Slope Formula),
 
@@ -132,7 +132,7 @@ $$
 k_{PN}=\frac{0-\left(-2\right)}{x-5}=\frac{2}{x-5}.
 $$
 
-From $PM\perp PN$, we get
+From $PM\perp{P}N$, we get
 
 $$
 \frac{-2}{x-2}\cdot\frac{2}{x-5}=-1.
@@ -144,39 +144,39 @@ Hence $x=1$ or $x=6$, and the coordinates of point $P$ are $\left(1,0\right)$ or
 
 ## Problem 5
 
-(Exercise 2.1, Extension and Exploration, Problem 10) Given that the four vertices of quadrilateral $ABCD$ are $A\left(2,2+2\sqrt 2\right)$, $B\left(-2,2\right)$, $C\left(0,2-2\sqrt 2\right)$, $D\left(4,2\right)$, prove that quadrilateral $ABCD$ is a rectangle.
+(Exercise 2.1, Extension and Exploration, Problem 10) Given that the four vertices of quadrilateral $ABCD$ are $A\left(2,2+2\sqrt2\right)$, $B\left(-2,2\right)$, $C\left(0,2-2\sqrt2\right)$, $D\left(4,2\right)$, prove that quadrilateral $ABCD$ is a rectangle.
 
 ### Solution to Problem 5
 
 By **Common Conclusion 2.1.3** (Slope Formula), find the slopes of the lines on which the four sides lie, respectively.
 
 $$
-k_{AB}=\frac{2-\left(2+2\sqrt 2\right)}{-2-2}=\frac{-2\sqrt 2}{-4}=\frac{\sqrt 2}{2},
+k_{AB}=\frac{2-\left(2+2\sqrt2\right)}{-2-2}=\frac{-2\sqrt2}{-4}=\frac{\sqrt2}{2},
 $$
 
 $$
-k_{BC}=\frac{\left(2-2\sqrt 2\right)-2}{0-\left(-2\right)}=\frac{-2\sqrt 2}{2}=-\sqrt 2,
+k_{BC}=\frac{\left(2-2\sqrt2\right)-2}{0-\left(-2\right)}=\frac{-2\sqrt2}{2}=-\sqrt2,
 $$
 
 $$
-k_{CD}=\frac{2-\left(2-2\sqrt 2\right)}{4-0}=\frac{2\sqrt 2}{4}=\frac{\sqrt 2}{2},
+k_{CD}=\frac{2-\left(2-2\sqrt2\right)}{4-0}=\frac{2\sqrt2}{4}=\frac{\sqrt2}{2},
 $$
 
 $$
-k_{DA}=\frac{\left(2+2\sqrt 2\right)-2}{2-4}=\frac{2\sqrt 2}{-2}=-\sqrt 2.
+k_{DA}=\frac{\left(2+2\sqrt2\right)-2}{2-4}=\frac{2\sqrt2}{-2}=-\sqrt2.
 $$
 
-By **Common Conclusion 2.1.5** (Parallelism of Two Lines), $k_{AB}=k_{CD}=\frac{\sqrt 2}{2}$, so $AB\parallel CD$; $k_{BC}=k_{DA}=-\sqrt 2$, so $BC\parallel DA$. Hence quadrilateral $ABCD$ is a parallelogram.
+By **Common Conclusion 2.1.5** (Parallelism of Two Lines), $k_{AB}=k_{CD}=\frac{\sqrt2}{2}$, so $AB\parallel{C}D$; $k_{BC}=k_{DA}=-\sqrt2$, so $BC\parallel{D}A$. Hence quadrilateral $ABCD$ is a parallelogram.
 
-Then by **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $k_{AB}\,k_{BC}=\frac{\sqrt 2}{2}\times\left(-\sqrt 2\right)=-1$, so $AB\perp BC$. The parallelogram $ABCD$ has one interior angle a right angle, so quadrilateral $ABCD$ is a rectangle. $\blacksquare$
+Then by **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $k_{AB}\,k_{BC}=\frac{\sqrt2}{2}\times\left(-\sqrt2\right)=-1$, so $AB\perp{B}C$. The parallelogram $ABCD$ has one interior angle a right angle, so quadrilateral $ABCD$ is a rectangle. $\blacksquare$
 
 ## Exercise 1
 
 (Exercise 2.2, Problem 1) Write the point-slope equation of each of the following lines:
 
-(1) Passing through the point $A\left(3,-1\right)$ with slope $\sqrt 2$;
+(1) Passing through the point $A\left(3,-1\right)$ with slope $\sqrt2$;
 
-(2) Passing through the point $B\left(-\sqrt 2,2\right)$ with inclination angle $30^\circ$;
+(2) Passing through the point $B\left(-\sqrt2,2\right)$ with inclination angle $30^\circ$;
 
 (3) Passing through the point $C\left(0,3\right)$ with inclination angle $0^\circ$;
 
@@ -186,13 +186,13 @@ Then by **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $k_{AB}\,k_
 
 By **Definition 2.2.1 (Point-slope Equation)**, the point-slope equation is $y-y_0=k\left(x-x_0\right)$, where $k=\tan\alpha$.
 
-(1) Substituting the point $A\left(3,-1\right)$ and the slope $k=\sqrt 2$ gives $y-\left(-1\right)=\sqrt 2\left(x-3\right)$, i.e. $y+1=\sqrt 2\left(x-3\right)$.
+(1) Substituting the point $A\left(3,-1\right)$ and the slope $k=\sqrt2$ gives $y-\left(-1\right)=\sqrt2\left(x-3\right)$, i.e. $y+1=\sqrt2\left(x-3\right)$.
 
-(2) By **Definition 2.1.2 (Slope)**, $k=\tan 30^\circ=\frac{\sqrt 3}{3}$. Substituting the point $B\left(-\sqrt 2,2\right)$ gives $y-2=\frac{\sqrt 3}{3}\left(x+\sqrt 2\right)$.
+(2) By **Definition 2.1.2 (Slope)**, $k=\tan30^\circ=\frac{\sqrt3}{3}$. Substituting the point $B\left(-\sqrt2,2\right)$ gives $y-2=\frac{\sqrt3}{3}\left(x+\sqrt2\right)$.
 
-(3) Since the inclination angle is $0^\circ$, $k=\tan 0^\circ=0$. Substituting the point $C\left(0,3\right)$ gives $y-3=0\cdot\left(x-0\right)$, i.e. $y-3=0$.
+(3) Since the inclination angle is $0^\circ$, $k=\tan0^\circ=0$. Substituting the point $C\left(0,3\right)$ gives $y-3=0\cdot\left(x-0\right)$, i.e. $y-3=0$.
 
-(4) By **Definition 2.1.2 (Slope)**, $k=\tan\frac{2\pi}{3}=-\sqrt 3$. Substituting the point $D\left(-4,-2\right)$ gives $y-\left(-2\right)=-\sqrt 3\left(x+4\right)$, i.e. $y+2=-\sqrt 3\left(x+4\right)$. $\blacksquare$
+(4) By **Definition 2.1.2 (Slope)**, $k=\tan\frac{2\pi}{3}=-\sqrt3$. Substituting the point $D\left(-4,-2\right)$ gives $y-\left(-2\right)=-\sqrt3\left(x+4\right)$, i.e. $y+2=-\sqrt3\left(x+4\right)$. $\blacksquare$
 
 ## Exercise 2
 
@@ -200,21 +200,21 @@ By **Definition 2.2.1 (Point-slope Equation)**, the point-slope equation is $y-y
 
 (1) Given that the point-slope equation of a line is $y-2=x-1$, then the slope of this line is $\;\_\_\;$, and the inclination angle is $\;\_\_\;$;
 
-(2) Given that the point-slope equation of a line is $y+2=\sqrt 3\left(x+1\right)$, then the slope of this line is $\;\_\_\;$, and the inclination angle is $\;\_\_\;$.
+(2) Given that the point-slope equation of a line is $y+2=\sqrt3\left(x+1\right)$, then the slope of this line is $\;\_\_\;$, and the inclination angle is $\;\_\_\;$.
 
 ### Solution to Exercise 2
 
 By **Definition 2.2.1 (Point-slope Equation)**, in the point-slope form $y-y_0=k\left(x-x_0\right)$, $k$ is the slope; by **Definition 2.1.2 (Slope)**, $k=\tan\alpha$.
 
-(1) The equation $y-2=x-1$ is $y-2=1\cdot\left(x-1\right)$; comparing with the point-slope form, the slope is $k=1$. From $\tan\alpha=1$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=45^\circ$.
+(1) The equation $y-2=x-1$ is $y-2=1\cdot\left(x-1\right)$; comparing with the point-slope form, the slope is $k=1$. From $\tan\alpha=1$ and $0^\circ\le\alpha<180^\circ$, the inclination angle is $\alpha=45^\circ$.
 
-(2) The equation $y+2=\sqrt 3\left(x+1\right)$ is $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$; comparing with the point-slope form, the slope is $k=\sqrt 3$. From $\tan\alpha=\sqrt 3$ and $0^\circ\le\alpha< 180^\circ$, the inclination angle is $\alpha=60^\circ$. $\blacksquare$
+(2) The equation $y+2=\sqrt3\left(x+1\right)$ is $y-\left(-2\right)=\sqrt3\left[x-\left(-1\right)\right]$; comparing with the point-slope form, the slope is $k=\sqrt3$. From $\tan\alpha=\sqrt3$ and $0^\circ\le\alpha<180^\circ$, the inclination angle is $\alpha=60^\circ$. $\blacksquare$
 
 ## Exercise 3
 
 (Exercise 2.2, Problem 3) Write the slope-intercept equation of each of the following lines:
 
-(1) Slope $\frac{\sqrt 3}{2}$, and intercept on the $y$-axis $-2$;
+(1) Slope $\frac{\sqrt3}{2}$, and intercept on the $y$-axis $-2$;
 
 (2) Slope $-2$, and intercept on the $y$-axis $4$.
 
@@ -222,7 +222,7 @@ By **Definition 2.2.1 (Point-slope Equation)**, in the point-slope form $y-y_0=k
 
 By **Definition 2.2.2 (Slope-intercept Equation)**, the slope-intercept form is $y=kx+b$, where $k$ is the slope and $b$ is the intercept on the $y$-axis.
 
-(1) Substituting $k=\frac{\sqrt 3}{2}$, $b=-2$ gives $y=\frac{\sqrt 3}{2}x-2$.
+(1) Substituting $k=\frac{\sqrt3}{2}$, $b=-2$ gives $y=\frac{\sqrt3}{2}x-2$.
 
 (2) Substituting $k=-2$, $b=4$ gives $y=-2x+4$. $\blacksquare$
 
@@ -238,9 +238,9 @@ By **Definition 2.2.2 (Slope-intercept Equation)**, the slope-intercept form is 
 
 By **Common Conclusion 2.2.3** (Parallelism and Perpendicularity in Slope-intercept Form).
 
-(1) The slope of $l_1$ is $k_1=\frac{1}{2}$, the slope of $l_2$ is $k_2=\frac{1}{2}$, and $k_1=k_2$. Also the intercept of $l_1$ is $b_1=3$, the intercept of $l_2$ is $b_2=-2$, and $b_1\ne b_2$, so $l_1\parallel l_2$.
+(1) The slope of $l_1$ is $k_1=\frac{1}{2}$, the slope of $l_2$ is $k_2=\frac{1}{2}$, and $k_1=k_2$. Also the intercept of $l_1$ is $b_1=3$, the intercept of $l_2$ is $b_2=-2$, and $b_1\ne{b}_2$, so $l_1\parallel{l}_2$.
 
-(2) The slope of $l_1$ is $k_1=\frac{5}{3}$, the slope of $l_2$ is $k_2=-\frac{3}{5}$. The product of the two slopes is $\frac{5}{3}\times\left(-\frac{3}{5}\right)=-1$, so $l_1\perp l_2$. $\blacksquare$
+(2) The slope of $l_1$ is $k_1=\frac{5}{3}$, the slope of $l_2$ is $k_2=-\frac{3}{5}$. The product of the two slopes is $\frac{5}{3}\times\left(-\frac{3}{5}\right)=-1$, so $l_1\perp{l}_2$. $\blacksquare$
 
 ## Exercise 5
 
@@ -302,7 +302,7 @@ By **Definition 2.2.5 (Intercept Equation)**, let the intercepts of the line on 
 
 (1) The line passes through the point $\left(0,5\right)$, i.e. its intercept on the $y$-axis is $b=5$. Also the sum of the intercepts is $a+b=2$, so $a=2-5=-3$. Substituting into the intercept form gives $\frac{x}{-3}+\frac{y}{5}=1$.
 
-(2) The line passes through the point $\left(5,0\right)$, i.e. its intercept on the $x$-axis is $a=5$. Also the difference of the intercepts is $\lvert a-b \rvert=2$, i.e. $\lvert 5-b \rvert=2$, so $b=3$ or $b=7$.
+(2) The line passes through the point $\left(5,0\right)$, i.e. its intercept on the $x$-axis is $a=5$. Also the difference of the intercepts is $\lvert{a}-b\rvert=2$, i.e. $\lvert5-b\rvert=2$, so $b=3$ or $b=7$.
 
 When $b=3$, the equation is $\frac{x}{5}+\frac{y}{3}=1$; when $b=7$, the equation is $\frac{x}{5}+\frac{y}{7}=1$. $\blacksquare$
 
@@ -376,7 +376,7 @@ By **Definition 2.2.6 (General Equation)**.
 
 (Exercise 2.2, Review and Consolidation, Problem 1) Write the equation of the line satisfying each of the following conditions:
 
-(1) Passing through the point $A\left(8,-2\right)$ with slope $\frac{\sqrt 3}{3}$;
+(1) Passing through the point $A\left(8,-2\right)$ with slope $\frac{\sqrt3}{3}$;
 
 (2) Passing through the point $B\left(-2,0\right)$ and perpendicular to the $x$-axis;
 
@@ -390,7 +390,7 @@ By **Definition 2.2.6 (General Equation)**.
 
 ### Solution to Problem 6
 
-(1) By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(8,-2\right)$ and the slope $k=\frac{\sqrt 3}{3}$ gives $y+2=\frac{\sqrt 3}{3}\left(x-8\right)$.
+(1) By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $A\left(8,-2\right)$ and the slope $k=\frac{\sqrt3}{3}$ gives $y+2=\frac{\sqrt3}{3}\left(x-8\right)$.
 
 (2) The line is perpendicular to the $x$-axis, i.e. its inclination angle is $90^\circ$ and it has no slope. By **Definition 2.2.1 (Point-slope Form)**, the line equation is $x=-2$.
 
@@ -440,7 +440,7 @@ By **Definition 2.2.1 (Point-slope Equation)**, substituting the point $\left(1,
 
 ## Problem 9
 
-(Exercise 2.2, Review and Consolidation, Problem 4) Given the three vertices $A\left(8,5\right)$, $B\left(4,-2\right)$, $C\left(-6,3\right)$ of $\triangle ABC$, find the equation of the line through the midpoints of the two sides $AB$ and $AC$.
+(Exercise 2.2, Review and Consolidation, Problem 4) Given the three vertices $A\left(8,5\right)$, $B\left(4,-2\right)$, $C\left(-6,3\right)$ of $\triangle{A}BC$, find the equation of the line through the midpoints of the two sides $AB$ and $AC$.
 
 ### Solution to Problem 9
 
@@ -530,7 +530,7 @@ Hence the equations of the desired lines are $x+y-5=0$ or $3x-2y=0$. $\blacksqua
 
 ## Problem 14
 
-(Exercise 2.2, Comprehensive Application, Problem 9) The three vertices of $\triangle ABC$ are $A\left(4,0\right)$, $B\left(6,7\right)$, $C\left(0,3\right)$. Find:
+(Exercise 2.2, Comprehensive Application, Problem 9) The three vertices of $\triangle{A}BC$ are $A\left(4,0\right)$, $B\left(6,7\right)$, $C\left(0,3\right)$. Find:
 
 (1) The equation of the line on which the median to side $BC$ lies;
 

@@ -50,43 +50,43 @@
 
 ### 解答 习题一
 
-由**定义 10.1.15 (概率的古典定义)**, 掷两枚骰子共有 $36$ 个等可能样本点. 第一枚出现奇数点有 $3$ 种 ($1, 3, 5$), 第二枚有 $6$ 种, 故 $n\left(A\right)=3\times 6=18$, $P\left(A\right)=\frac{18}{36}=\frac{1}{2}$. 第二枚出现偶数点有 $3$ 种 ($2, 4, 6$), 第一枚有 $6$ 种, 故 $n\left(B\right)=6\times 3=18$, $P\left(B\right)=\frac{18}{36}=\frac{1}{2}$.
+由**定义 10.1.15 (概率的古典定义)**, 掷两枚骰子共有 $36$ 个等可能样本点. 第一枚出现奇数点有 $3$ 种 ($1,3,5$), 第二枚有 $6$ 种, 故 $n\left(A\right)=3\times6=18$, $P\left(A\right)=\frac{18}{36}=\frac{1}{2}$. 第二枚出现偶数点有 $3$ 种 ($2,4,6$), 第一枚有 $6$ 种, 故 $n\left(B\right)=6\times3=18$, $P\left(B\right)=\frac{18}{36}=\frac{1}{2}$.
 
-$A\cap B$ 即第一枚为奇数且第二枚为偶数, 共 $3\times 3=9$ 个样本点, 故 $P\left(A\cap B\right)=\frac{9}{36}=\frac{1}{4}$. 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$. 由**定义 10.2.1 (事件的相互独立性)**, $A$ 与 $B$ 相互独立, 选 (C). $\blacksquare$
+$A\cap{B}$ 即第一枚为奇数且第二枚为偶数, 共 $3\times3=9$ 个样本点, 故 $P\left(A\cap{B}\right)=\frac{9}{36}=\frac{1}{4}$. 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)$. 由**定义 10.2.1 (事件的相互独立性)**, $A$ 与 $B$ 相互独立, 选 (C). $\blacksquare$
 
 ## 习题二
 
-(习题 10.2 复习巩固第 2 题) 假设 $P\left(A\right)=0.7$, $P\left(B\right)=0.8$, 且 $A$ 与 $B$ 相互独立, 则 $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$.
+(习题 10.2 复习巩固第 2 题) 假设 $P\left(A\right)=0.7$, $P\left(B\right)=0.8$, 且 $A$ 与 $B$ 相互独立, 则 $P\left(A\cap{B}\right)=\;\_\_\;$, $P\left(A\cup{B}\right)=\;\_\_\;$.
 
 ### 解答 习题二
 
 由**定义 10.2.1 (事件的相互独立性)**, 因 $A$ 与 $B$ 独立, 故
 
 $$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.7\times 0.8=0.56.
+P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)=0.7\times0.8=0.56.
 $$
 
 由**性质 10.1.21** (一般概率加法公式),
 
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=0.7+0.8-0.56=0.94.
+P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)=0.7+0.8-0.56=0.94.
 $$
 
 $\blacksquare$
 
 ## 习题三
 
-(习题 10.2 复习巩固第 3 题) 若 $P\left(A\right)> 0$, $P\left(B\right)> 0$, 证明: 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立.
+(习题 10.2 复习巩固第 3 题) 若 $P\left(A\right)>0$, $P\left(B\right)>0$, 证明: 事件 $A,B$ 相互独立与 $A,B$ 互斥不能同时成立.
 
 ### 解答 习题三
 
-由**定义 10.1.12 (互斥)**, 若 $A, B$ 互斥, 则 $A\cap B=\varnothing$, 故 $P\left(A\cap B\right)=0$.
+由**定义 10.1.12 (互斥)**, 若 $A,B$ 互斥, 则 $A\cap{B}=\varnothing$, 故 $P\left(A\cap{B}\right)=0$.
 
-由**定义 10.2.1 (事件的相互独立性)**, 若 $A, B$ 相互独立, 则 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$.
+由**定义 10.2.1 (事件的相互独立性)**, 若 $A,B$ 相互独立, 则 $P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)$.
 
-若 $A, B$ 既独立又互斥, 则必有 $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. 但已知 $P\left(A\right)> 0$ 且 $P\left(B\right)> 0$, 故 $P\left(A\right)P\left(B\right)> 0$, 矛盾.
+若 $A,B$ 既独立又互斥, 则必有 $P\left(A\right)P\left(B\right)=P\left(A\cap{B}\right)=0$. 但已知 $P\left(A\right)>0$ 且 $P\left(B\right)>0$, 故 $P\left(A\right)P\left(B\right)>0$, 矛盾.
 
-因此, 当 $P\left(A\right)> 0$, $P\left(B\right)> 0$ 时, 事件 $A, B$ 相互独立与 $A, B$ 互斥不能同时成立. $\blacksquare$
+因此, 当 $P\left(A\right)>0$, $P\left(B\right)>0$ 时, 事件 $A,B$ 相互独立与 $A,B$ 互斥不能同时成立. $\blacksquare$
 
 ## 习题四
 
@@ -100,29 +100,29 @@ $\blacksquare$
 
 设事件 $A=$ "甲破译成功", $B=$ "乙破译成功", 则 $P\left(A\right)=\frac{1}{3}$, $P\left(B\right)=\frac{1}{4}$. 由题意, $A$ 与 $B$ 相互独立.
 
-(1) 由**定义 10.2.1 (事件的相互独立性)**, 两人都破译成功即 $A\cap B$ 发生, 故
+(1) 由**定义 10.2.1 (事件的相互独立性)**, 两人都破译成功即 $A\cap{B}$ 发生, 故
 
 $$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=\frac{1}{3}\times\frac{1}{4}=\frac{1}{12}.
+P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)=\frac{1}{3}\times\frac{1}{4}=\frac{1}{12}.
 $$
 
-(2) 密码被成功破译即至少一人破译成功, 为 $A\cup B$. 由**性质 10.1.21** (一般概率加法公式),
+(2) 密码被成功破译即至少一人破译成功, 为 $A\cup{B}$. 由**性质 10.1.21** (一般概率加法公式),
 
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
+P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
 $$
 
-也可由对立事件计算: 由**性质 10.2.2** (对立事件的独立性), $\overline A$ 与 $\overline B$ 独立, $P\left(\overline A\right)=\frac{2}{3}$, $P\left(\overline B\right)=\frac{3}{4}$, 故
+也可由对立事件计算: 由**性质 10.2.2** (对立事件的独立性), $\overline{A}$ 与 $\overline{B}$ 独立, $P\left(\overline{A}\right)=\frac{2}{3}$, $P\left(\overline{B}\right)=\frac{3}{4}$, 故
 
 $$
-P\left(\text{密码被破译}\right)=1-P\left(\overline A\cap\overline B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
+P\left(\text{密码被破译}\right)=1-P\left(\overline{A}\cap\overline{B}\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
 $$
 
 $\blacksquare$
 
 ## 习题五
 
-(习题 10.2 综合运用第 5 题) 如图, 一个正八面体, 八个面分别标以数字 $1$ 到 $8$, 任意抛掷一次这个正八面体, 观察它与地面接触的面上的数字, 得到样本空间为 $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8\right\}$. 构造适当的事件 $A, B, C$, 使 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但不满足 $A, B, C$ 两两独立.
+(习题 10.2 综合运用第 5 题) 如图, 一个正八面体, 八个面分别标以数字 $1$ 到 $8$, 任意抛掷一次这个正八面体, 观察它与地面接触的面上的数字, 得到样本空间为 $\Omega=\left\{1,2,3,4,5,6,7,8\right\}$. 构造适当的事件 $A,B,C$, 使 $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但不满足 $A,B,C$ 两两独立.
 
 (题图: 一个正八面体 (两个四棱锥底面粘合而成), 八个三角形面上分别标有数字 $1\sim8$.)
 
@@ -133,34 +133,34 @@ $\blacksquare$
 构造如下事件:
 
 $$
-A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 3, 5, 7\right\}.
+A=\left\{1,2,3,4\right\},\quad{B}=\left\{1,2,5,6\right\},\quad{C}=\left\{1,3,5,7\right\}.
 $$
 
 则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{4}{8}=\frac{1}{2}$.
 
-$A\cap B=\left\{1, 2\right\}$, $P\left(A\cap B\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
+$A\cap{B}=\left\{1,2\right\}$, $P\left(A\cap{B}\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
 
-$A\cap C=\left\{1, 3\right\}$, $P\left(A\cap C\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
+$A\cap{C}=\left\{1,3\right\}$, $P\left(A\cap{C}\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
 
-$B\cap C=\left\{1, 5\right\}$, $P\left(B\cap C\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
+$B\cap{C}=\left\{1,5\right\}$, $P\left(B\cap{C}\right)=\frac{2}{8}=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
 
-三者两两独立. 而 $A\cap B\cap C=\left\{1\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{8}$, 且
+三者两两独立. 而 $A\cap{B}\cap{C}=\left\{1\right\}$, $P\left(A\cap{B}\cap{C}\right)=\frac{1}{8}$, 且
 
 $$
 P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8},
 $$
 
-故 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立.
+故 $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立.
 
-该构造中三者不仅整体独立, 还两两独立. 要构造满足 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 但不两两独立的例子, 可取
+该构造中三者不仅整体独立, 还两两独立. 要构造满足 $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 但不两两独立的例子, 可取
 
 $$
-A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 2, 7, 8\right\}.
+A=\left\{1,2,3,4\right\},\quad{B}=\left\{1,2,5,6\right\},\quad{C}=\left\{1,2,7,8\right\}.
 $$
 
-则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$, $A\cap B=\left\{1, 2\right\}$, $A\cap C=\left\{1, 2\right\}$, $B\cap C=\left\{1, 2\right\}$, 故 $P\left(A\cap B\right)=P\left(A\cap C\right)=P\left(B\cap C\right)=\frac{1}{4}=P\left(A\right)P\left(B\right)$, 三者仍两两独立.
+则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$, $A\cap{B}=\left\{1,2\right\}$, $A\cap{C}=\left\{1,2\right\}$, $B\cap{C}=\left\{1,2\right\}$, 故 $P\left(A\cap{B}\right)=P\left(A\cap{C}\right)=P\left(B\cap{C}\right)=\frac{1}{4}=P\left(A\right)P\left(B\right)$, 三者仍两两独立.
 
-取另一构造: $A=\left\{1, 2, 3, 4\right\}$, $B=\left\{1, 2, 3, 5\right\}$, $C=\left\{1, 6, 7, 8\right\}$. 则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$. $A\cap B=\left\{1, 2, 3\right\}$, $P\left(A\cap B\right)=\frac{3}{8}\neq\frac{1}{4}=P\left(A\right)P\left(B\right)$, 故 $A, B$ 不独立. $A\cap C=\left\{1\right\}$, $B\cap C=\left\{1\right\}$, $A\cap B\cap C=\left\{1\right\}$, 故 $P\left(A\cap B\cap C\right)=\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{8}$. 此例中 $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但 $A, B$ 不独立. $\blacksquare$
+取另一构造: $A=\left\{1,2,3,4\right\}$, $B=\left\{1,2,3,5\right\}$, $C=\left\{1,6,7,8\right\}$. 则 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$. $A\cap{B}=\left\{1,2,3\right\}$, $P\left(A\cap{B}\right)=\frac{3}{8}\neq\frac{1}{4}=P\left(A\right)P\left(B\right)$, 故 $A,B$ 不独立. $A\cap{C}=\left\{1\right\}$, $B\cap{C}=\left\{1\right\}$, $A\cap{B}\cap{C}=\left\{1\right\}$, 故 $P\left(A\cap{B}\cap{C}\right)=\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{8}$. 此例中 $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ 成立, 但 $A,B$ 不独立. $\blacksquare$
 
 ## 习题六
 
@@ -176,7 +176,7 @@ $E_3$: 从包含 $2$ 个红球, $3$ 个黄球的袋子中依次不放回任意�
 
 (2) 指出这三个试验的共同特征和区别;
 
-(3) 分别求 $A, B, C$ 的概率.
+(3) 分别求 $A,B,C$ 的概率.
 
 ### 解答 习题六
 
@@ -185,19 +185,19 @@ $E_3$: 从包含 $2$ 个红球, $3$ 个黄球的袋子中依次不放回任意�
 (1) $E_1$: 用 $1$ 表示正面朝上, $0$ 表示反面朝上, 样本空间为
 
 $$
-\Omega_1=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+\Omega_1=\left\{\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)\right\}.
 $$
 
 $E_2$: 用 $1$ 表示命中, $0$ 表示未命中, 样本空间为
 
 $$
-\Omega_2=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+\Omega_2=\left\{\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)\right\}.
 $$
 
-$E_3$: 将 $2$ 个红球编号为 $1, 2$, $3$ 个黄球编号为 $3, 4, 5$, 用数组 $\left(x_1, x_2\right)$ 表示两次摸球的结果, 样本空间为
+$E_3$: 将 $2$ 个红球编号为 $1,2$, $3$ 个黄球编号为 $3,4,5$, 用数组 $\left(x_1,x_2\right)$ 表示两次摸球的结果, 样本空间为
 
 $$
-\Omega_3=\left\{\left(1,2\right), \left(1,3\right), \left(1,4\right), \left(1,5\right), \left(2,1\right), \left(2,3\right), \left(2,4\right), \left(2,5\right), \left(3,1\right), \left(3,2\right), \left(3,4\right), \left(3,5\right), \left(4,1\right), \left(4,2\right), \left(4,3\right), \left(4,5\right), \left(5,1\right), \left(5,2\right), \left(5,3\right), \left(5,4\right)\right\}.
+\Omega_3=\left\{\left(1,2\right),\left(1,3\right),\left(1,4\right),\left(1,5\right),\left(2,1\right),\left(2,3\right),\left(2,4\right),\left(2,5\right),\left(3,1\right),\left(3,2\right),\left(3,4\right),\left(3,5\right),\left(4,1\right),\left(4,2\right),\left(4,3\right),\left(4,5\right),\left(5,1\right),\left(5,2\right),\left(5,3\right),\left(5,4\right)\right\}.
 $$
 
 (2) 共同特征: 三个试验都是进行两次独立的试验, 且关注 "两次都发生" 的事件. 区别: $E_1$ 是古典概型, 每个样本点等可能; $E_2$ 中每个样本点不是等可能的 (命中概率为 $0.6$, 不是 $0.5$), 不是古典概型, 但两次射击相互独立; $E_3$ 是不放回抽样, 两次摸球不独立.
@@ -207,10 +207,10 @@ $$
 $E_2$ 中两次射击相互独立, 由**定义 10.2.1 (事件的相互独立性)**,
 
 $$
-P\left(B\right)=0.6\times 0.6=0.36.
+P\left(B\right)=0.6\times0.6=0.36.
 $$
 
-$E_3$ 是古典概型, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right), \left(2,1\right)\right\}$, $n\left(C\right)=2$, 故 $P\left(C\right)=\frac{2}{20}=\frac{1}{10}$. $\blacksquare$
+$E_3$ 是古典概型, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right),\left(2,1\right)\right\}$, $n\left(C\right)=2$, 故 $P\left(C\right)=\frac{2}{20}=\frac{1}{10}$. $\blacksquare$
 
 ## 练习一
 
@@ -242,7 +242,7 @@ $E_3$ 是古典概型, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right), 
 
 ### 解答 练习二
 
-由**定义 10.1.15 (概率的古典定义)**, 抛掷两枚硬币共有 $4$ 个等可能样本点: $\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)$.
+由**定义 10.1.15 (概率的古典定义)**, 抛掷两枚硬币共有 $4$ 个等可能样本点: $\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)$.
 
 甲胜的事件为 "同时正面或同时反面", 即 $\left(1,1\right)$ 或 $\left(0,0\right)$, 共 $2$ 个样本点, 故 $P\left(\text{甲胜}\right)=\frac{2}{4}=\frac{1}{2}$.
 
@@ -269,13 +269,13 @@ $E_3$ 是古典概型, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right), 
 
 (1) 各血型频率:
 
-$A$ 型频率 $=\frac{7704}{30488}\approx 0.253$.
+$A$ 型频率 $=\frac{7704}{30488}\approx0.253$.
 
-$B$ 型频率 $=\frac{10765}{30488}\approx 0.353$.
+$B$ 型频率 $=\frac{10765}{30488}\approx0.353$.
 
-$O$ 型频率 $=\frac{8970}{30488}\approx 0.294$.
+$O$ 型频率 $=\frac{8970}{30488}\approx0.294$.
 
-$AB$ 型频率 $=\frac{3049}{30488}\approx 0.100$.
+$AB$ 型频率 $=\frac{3049}{30488}\approx0.100$.
 
 (2) 由**定义 10.3.1 (频率的稳定性)**, 用 $O$ 型血的频率估计概率, 故从 $H$ 省任意调查一人, 其为 $O$ 型血的概率大约为 $0.294$. $\blacksquare$
 
@@ -307,7 +307,7 @@ $$
 P\left(A\right)=\frac{6}{16}=\frac{3}{8}=0.375.
 $$
 
-(2) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生 $0, 1$ 随机数, $1$ 表示正面, $0$ 表示反面, 每 $4$ 个随机数为一组表示一次模拟试验. 重复 $80$ 次, 统计其中恰好出现 $2$ 个 $1$ 的组数, 记为 $n_A$, 则事件 $A$ 发生的频率为 $f_{80}\left(A\right)=\frac{n_A}{80}$. 由**定义 10.3.1 (频率的稳定性)**, 该频率应在 $0.375$ 附近波动. $\blacksquare$
+(2) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生 $0,1$ 随机数, $1$ 表示正面, $0$ 表示反面, 每 $4$ 个随机数为一组表示一次模拟试验. 重复 $80$ 次, 统计其中恰好出现 $2$ 个 $1$ 的组数, 记为 $n_A$, 则事件 $A$ 发生的频率为 $f_{80}\left(A\right)=\frac{n_A}{80}$. 由**定义 10.3.1 (频率的稳定性)**, 该频率应在 $0.375$ 附近波动. $\blacksquare$
 
 ## 练习六
 
@@ -331,7 +331,7 @@ $$
 
 (3) 盒子中只有白球和黑球, "取出的球是白球或黑球" 一定发生, 故为必然事件, 其概率为 $1$.
 
-(4) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生取值于集合 $\left\{1, 2, \cdots, 9\right\}$ 的随机数, 用 $1, 2, 3, 4$ 表示白球, 用 $5, 6, 7, 8, 9$ 表示黑球. 每次产生一个随机数即完成一次模拟取球, 重复 $100$ 次, 统计其中出现 $1, 2, 3, 4$ 的次数 $n_A$, 则频率 $f_{100}\left(A\right)=\frac{n_A}{100}$ 即为 "取出白球" 概率的估计值. 由**定义 10.3.1 (频率的稳定性)**, 该频率应在 $\frac{4}{9}\approx 0.444$ 附近. $\blacksquare$
+(4) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生取值于集合 $\left\{1,2,\cdots,9\right\}$ 的随机数, 用 $1,2,3,4$ 表示白球, 用 $5,6,7,8,9$ 表示黑球. 每次产生一个随机数即完成一次模拟取球, 重复 $100$ 次, 统计其中出现 $1,2,3,4$ 的次数 $n_A$, 则频率 $f_{100}\left(A\right)=\frac{n_A}{100}$ 即为 "取出白球" 概率的估计值. 由**定义 10.3.1 (频率的稳定性)**, 该频率应在 $\frac{4}{9}\approx0.444$ 附近. $\blacksquare$
 
 ## 练习七
 
@@ -343,10 +343,10 @@ $$
 
 ### 解答 练习七
 
-(1) 由**定义 10.1.15 (概率的古典定义)**, 掷两枚骰子共有 $36$ 个等可能样本点. 点数和为 $7$ 的样本点为 $\left(1,6\right), \left(2,5\right), \left(3,4\right), \left(4,3\right), \left(5,2\right), \left(6,1\right)$, 共 $6$ 个, 故
+(1) 由**定义 10.1.15 (概率的古典定义)**, 掷两枚骰子共有 $36$ 个等可能样本点. 点数和为 $7$ 的样本点为 $\left(1,6\right),\left(2,5\right),\left(3,4\right),\left(4,3\right),\left(5,2\right),\left(6,1\right)$, 共 $6$ 个, 故
 
 $$
-P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx 0.167.
+P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx0.167.
 $$
 
 (2) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生 $1$ 至 $6$ 的随机数模拟每枚骰子的点数, 每两个随机数为一组, 重复 $120$ 次, 统计点数和为 $7$ 的次数 $n_A$, 则频率 $f_{120}\left(A\right)=\frac{n_A}{120}$.
@@ -375,7 +375,7 @@ $$
 
 ## 习题八
 
-(习题 10.3 复习巩固第 2 题) 用木块制作的一个四面体, 四个面上分别标记 $1, 2, 3, 4$. 重复抛掷这个四面体 $100$ 次, 记录每个面落在桌面上的次数 (如下表). 如果再抛掷一次, 请估计标记 $3$ 的面落在桌面上的概率.
+(习题 10.3 复习巩固第 2 题) 用木块制作的一个四面体, 四个面上分别标记 $1,2,3,4$. 重复抛掷这个四面体 $100$ 次, 记录每个面落在桌面上的次数 (如下表). 如果再抛掷一次, 请估计标记 $3$ 的面落在桌面上的概率.
 
 | 四面体的面 | $1$ | $2$ | $3$ | $4$ |
 |---|---|---|---|---|
@@ -407,32 +407,32 @@ $$
 
 ### 解答 习题九
 
-(1) 从英文书中随机选取一页, 统计该页中所有字母的总数 $N$ 及其中元音字母 ($A, E, I, O, U$) 的个数 $n_A$, 则该页元音字母出现的频率为 $f=\frac{n_A}{N}$.
+(1) 从英文书中随机选取一页, 统计该页中所有字母的总数 $N$ 及其中元音字母 ($A,E,I,O,U$) 的个数 $n_A$, 则该页元音字母出现的频率为 $f=\frac{n_A}{N}$.
 
 (2) 由**定义 10.3.1 (频率的稳定性)**, 大样本下字母出现的频率相当稳定, 故个人统计得到的单页频率与上表中大样本统计频率大致接近, 但因单页样本量较小, 频率可能有波动, 存在一定差异. 差异的主要原因是个人统计的样本量 (一页的字母数) 远小于 $40$ 多万个单词的样本量, 随机波动较大. $\blacksquare$
 
 ## 习题十
 
-(习题 10.3 复习巩固第 4 题) 人类的四种血型与基因型的对应为: $O$ 型的基因型为 $ii$, $A$ 型的基因型为 $I^Ai$ 或 $I^AI^A$, $B$ 型的基因型为 $I^Bi$ 或 $I^BI^B$, $AB$ 型的基因型为 $I^AI^B$. 其中 $I^A$ 和 $I^B$ 是显性基因, $i$ 是隐性基因. 一对夫妻的血型一个是 $A$ 型, 一个是 $B$ 型, 请确定他们的子女的血型是 $O, A, B$ 或 $AB$ 型的概率, 并填写下表:
+(习题 10.3 复习巩固第 4 题) 人类的四种血型与基因型的对应为: $O$ 型的基因型为 $ii$, $A$ 型的基因型为 $I^Ai$ 或 $I^AI^A$, $B$ 型的基因型为 $I^Bi$ 或 $I^BI^B$, $AB$ 型的基因型为 $I^AI^B$. 其中 $I^A$ 和 $I^B$ 是显性基因, $i$ 是隐性基因. 一对夫妻的血型一个是 $A$ 型, 一个是 $B$ 型, 请确定他们的子女的血型是 $O,A,B$ 或 $AB$ 型的概率, 并填写下表:
 
 | 父母血型的基因型组合 | $O$ | $A$ | $B$ | $AB$ |
 |---|---|---|---|---|
-| $I^Ai\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^Ai\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^AI^A\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^AI^A\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^Ai\times{I}^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^Ai\times{I}^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times{I}^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times{I}^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
 ### 解答 习题十
 
 由**定义 10.1.15 (概率的古典定义)**, 子女的基因型由父母各随机遗传一个基因决定, 每种遗传组合等可能.
 
-父母基因型为 $I^Ai\times I^Bi$: 父方遗传 $I^A$ 或 $i$, 各 $\frac{1}{2}$; 母方遗传 $I^B$ 或 $i$, 各 $\frac{1}{2}$. 子女基因型为 $I^AI^B$ ($AB$ 型), $I^Ai$ ($A$ 型), $I^Bi$ ($B$ 型), $ii$ ($O$ 型), 各 $\frac{1}{4}$. 故 $O: \frac{1}{4}$, $A: \frac{1}{4}$, $B: \frac{1}{4}$, $AB: \frac{1}{4}$.
+父母基因型为 $I^Ai\times{I}^Bi$: 父方遗传 $I^A$ 或 $i$, 各 $\frac{1}{2}$; 母方遗传 $I^B$ 或 $i$, 各 $\frac{1}{2}$. 子女基因型为 $I^AI^B$ ($AB$ 型), $I^Ai$ ($A$ 型), $I^Bi$ ($B$ 型), $ii$ ($O$ 型), 各 $\frac{1}{4}$. 故 $O:\frac{1}{4}$, $A:\frac{1}{4}$, $B:\frac{1}{4}$, $AB:\frac{1}{4}$.
 
-父母基因型为 $I^Ai\times I^BI^B$: 父方遗传 $I^A$ 或 $i$, 各 $\frac{1}{2}$; 母方只能遗传 $I^B$. 子女基因型为 $I^AI^B$ ($AB$ 型) 或 $I^Bi$ ($B$ 型), 各 $\frac{1}{2}$. 故 $O: 0$, $A: 0$, $B: \frac{1}{2}$, $AB: \frac{1}{2}$.
+父母基因型为 $I^Ai\times{I}^BI^B$: 父方遗传 $I^A$ 或 $i$, 各 $\frac{1}{2}$; 母方只能遗传 $I^B$. 子女基因型为 $I^AI^B$ ($AB$ 型) 或 $I^Bi$ ($B$ 型), 各 $\frac{1}{2}$. 故 $O:0$, $A:0$, $B:\frac{1}{2}$, $AB:\frac{1}{2}$.
 
-父母基因型为 $I^AI^A\times I^Bi$: 父方只能遗传 $I^A$; 母方遗传 $I^B$ 或 $i$, 各 $\frac{1}{2}$. 子女基因型为 $I^AI^B$ ($AB$ 型) 或 $I^Ai$ ($A$ 型), 各 $\frac{1}{2}$. 故 $O: 0$, $A: \frac{1}{2}$, $B: 0$, $AB: \frac{1}{2}$.
+父母基因型为 $I^AI^A\times{I}^Bi$: 父方只能遗传 $I^A$; 母方遗传 $I^B$ 或 $i$, 各 $\frac{1}{2}$. 子女基因型为 $I^AI^B$ ($AB$ 型) 或 $I^Ai$ ($A$ 型), 各 $\frac{1}{2}$. 故 $O:0$, $A:\frac{1}{2}$, $B:0$, $AB:\frac{1}{2}$.
 
-父母基因型为 $I^AI^A\times I^BI^B$: 父方只能遗传 $I^A$, 母方只能遗传 $I^B$. 子女基因型只能为 $I^AI^B$ ($AB$ 型). 故 $O: 0$, $A: 0$, $B: 0$, $AB: 1$. $\blacksquare$
+父母基因型为 $I^AI^A\times{I}^BI^B$: 父方只能遗传 $I^A$, 母方只能遗传 $I^B$. 子女基因型只能为 $I^AI^B$ ($AB$ 型). 故 $O:0$, $A:0$, $B:0$, $AB:1$. $\blacksquare$
 
 ## 习题十一
 
@@ -446,11 +446,11 @@ $$
 
 ## 习题十二
 
-(习题 10.3 综合运用第 6 题) 在一个袋子中放 $6$ 个白球, $4$ 个红球, 摇匀后随机摸球 $3$ 次, 采用放回和不放回两种方式摸球. 设事件 $A_i=$ "第 $i$ 次摸到红球", $i=1, 2, 3$.
+(习题 10.3 综合运用第 6 题) 在一个袋子中放 $6$ 个白球, $4$ 个红球, 摇匀后随机摸球 $3$ 次, 采用放回和不放回两种方式摸球. 设事件 $A_i=$ "第 $i$ 次摸到红球", $i=1,2,3$.
 
-(1) 在两种摸球方式下分别猜想事件 $A_1, A_2, A_3$ 发生的概率的大小关系;
+(1) 在两种摸球方式下分别猜想事件 $A_1,A_2,A_3$ 发生的概率的大小关系;
 
-(2) 重复做 $10$ 次试验, 求事件 $A_1, A_2, A_3$ 发生的频率, 并填入下表.
+(2) 重复做 $10$ 次试验, 求事件 $A_1,A_2,A_3$ 发生的频率, 并填入下表.
 
 | 频率 | 放回摸球 | 不放回摸球 |
 |---|---|---|
@@ -458,7 +458,7 @@ $$
 | $f_{10}\left(A_2\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
 | $f_{10}\left(A_3\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
-(3) 在两种摸球方式下, 第 $3$ 次摸到红球的频率 $f_{10}\left(A_3\right)$ 差别大吗? 在不放回摸球方式下, 事件 $A_1, A_2, A_3$ 的频率差别大吗? 请说明原因.
+(3) 在两种摸球方式下, 第 $3$ 次摸到红球的频率 $f_{10}\left(A_3\right)$ 差别大吗? 在不放回摸球方式下, 事件 $A_1,A_2,A_3$ 的频率差别大吗? 请说明原因.
 
 ### 解答 习题十二
 
@@ -468,11 +468,11 @@ $$
 
 (2) 由**定义 10.3.2 (随机模拟)**, 用计算器或计算机产生 $1$ 至 $10$ 的随机数, $1$ 至 $4$ 表示红球, $5$ 至 $10$ 表示白球. 放回摸球时每次产生一个独立随机数; 不放回摸球时每 $3$ 个随机数为一组且不重复. 重复 $10$ 次, 统计各次摸到红球的频率. 频率因试验随机而不同, 但应在 $0.4$ 附近.
 
-(3) 由**定义 10.3.1 (频率的稳定性)**, 放回与不放回两种方式下, 第 $3$ 次摸到红球的频率应都在 $0.4$ 附近, 差别不大. 在不放回摸球方式下, $A_1, A_2, A_3$ 的频率也应都在 $0.4$ 附近, 差别不大. 原因是每次摸到红球的概率理论上均为 $0.4$, 频率因随机性而波动, 但整体稳定于 $0.4$. $\blacksquare$
+(3) 由**定义 10.3.1 (频率的稳定性)**, 放回与不放回两种方式下, 第 $3$ 次摸到红球的频率应都在 $0.4$ 附近, 差别不大. 在不放回摸球方式下, $A_1,A_2,A_3$ 的频率也应都在 $0.4$ 附近, 差别不大. 原因是每次摸到红球的概率理论上均为 $0.4$, 频率因随机性而波动, 但整体稳定于 $0.4$. $\blacksquare$
 
 ## 阅读与思考一
 
-(阅读与思考 孟德尔遗传规律) 奥地利遗传学家孟德尔在 $1858$ 至 $1865$ 年的 $8$ 年间做了大量豌豆杂交试验. 他把子叶为黄色和绿色的豌豆杂交, 第一年收获的豌豆的子叶都是黄色的; 第二年, 当他把第一年收获的子叶为黄色的豌豆再种下时, 收获的豌豆的子叶颜色既有黄色也有绿色. 试验的具体数据如下: 子叶黄色 $6022$ 粒, 绿色 $2001$ 粒, 比例约为 $3.01: 1$. 在孟德尔豌豆试验中, 设 $A=$ "在子二代豌豆中随机选择一粒子叶是绿色的豌豆", 则 $A$ 是一个随机事件. 孟德尔的试验 (试验次数为 $8023$) 表明, 事件 $A$ 发生的频率约为 $0.2494$. 请问:
+(阅读与思考 孟德尔遗传规律) 奥地利遗传学家孟德尔在 $1858$ 至 $1865$ 年的 $8$ 年间做了大量豌豆杂交试验. 他把子叶为黄色和绿色的豌豆杂交, 第一年收获的豌豆的子叶都是黄色的; 第二年, 当他把第一年收获的子叶为黄色的豌豆再种下时, 收获的豌豆的子叶颜色既有黄色也有绿色. 试验的具体数据如下: 子叶黄色 $6022$ 粒, 绿色 $2001$ 粒, 比例约为 $3.01:1$. 在孟德尔豌豆试验中, 设 $A=$ "在子二代豌豆中随机选择一粒子叶是绿色的豌豆", 则 $A$ 是一个随机事件. 孟德尔的试验 (试验次数为 $8023$) 表明, 事件 $A$ 发生的频率约为 $0.2494$. 请问:
 
 (1) 孟德尔是依据什么猜想事件 $A$ 发生的概率为 $0.25$, 从而构造遗传机理概率模型的?
 
@@ -480,6 +480,6 @@ $$
 
 ### 解答 阅读与思考一
 
-(1) 由**定义 10.3.1 (频率的稳定性)**, 孟德尔观察到在大量重复试验中, 子二代中子叶为绿色的豌豆出现的频率稳定在 $0.25$ 附近 ($0.2494$ 非常接近 $0.25$). 同时, 从遗传机理分析, 子一代遗传因子为 $Dd$, 子二代从父母本各随机继承一个因子, 基因型为 $DD, Dd, dD, dd$ 四种等可能组合, 其中只有 $dd$ 表现为绿色, 占 $\frac{1}{4}=0.25$. 频率的稳定性与遗传机理的概率推断相吻合, 故孟德尔猜想 $P\left(A\right)=0.25$.
+(1) 由**定义 10.3.1 (频率的稳定性)**, 孟德尔观察到在大量重复试验中, 子二代中子叶为绿色的豌豆出现的频率稳定在 $0.25$ 附近 ($0.2494$ 非常接近 $0.25$). 同时, 从遗传机理分析, 子一代遗传因子为 $Dd$, 子二代从父母本各随机继承一个因子, 基因型为 $DD,Dd,dD,dd$ 四种等可能组合, 其中只有 $dd$ 表现为绿色, 占 $\frac{1}{4}=0.25$. 频率的稳定性与遗传机理的概率推断相吻合, 故孟德尔猜想 $P\left(A\right)=0.25$.
 
 (2) 由**定义 10.3.1 (频率的稳定性)**, 验证理论概率模型的方法是: 进行大量重复试验, 计算该随机事件发生的频率, 观察频率是否稳定于理论模型给出的概率值. 如果在大量试验中, 事件发生的频率与理论概率接近, 则可以认为模型具有较高的可信度; 如果频率与理论概率相差较大, 则模型可能不正确, 需要修正. $\blacksquare$

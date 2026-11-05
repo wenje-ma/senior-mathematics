@@ -110,7 +110,7 @@
 
 ## 习题一
 
-(复习参考题8 复习巩固第 7 题) 如图, 四边形 $A'B'C'D'$ 是 $\square ABCD$ 在平面 $\alpha$ 上的投影 ($AA'\parallel BB'\parallel CC'\parallel DD'$), 求证: 四边形 $A'B'C'D'$ 是平行四边形.
+(复习参考题8 复习巩固第 7 题) 如图, 四边形 $A'B'C'D'$ 是 $\square{A}BCD$ 在平面 $\alpha$ 上的投影 ($AA'\parallel{B}B'\parallel{C}C'\parallel{D}D'$), 求证: 四边形 $A'B'C'D'$ 是平行四边形.
 
 (题图: 平行四边形 $ABCD$ 在平面 $\alpha$ 上方, 四点向 $\alpha$ 作平行投影, 垂足 $A',B',C',D'$ 构成投影四边形.)
 
@@ -118,9 +118,9 @@
 
 由**定理 8.5.6 (平面与平面平行的性质定理)**.
 
-因为 $AA'\parallel BB'\parallel CC'\parallel DD'$, 这四条直线互相平行. $AB\parallel CD$ (平行四边形). 由**定理 8.5.6 (平面与平面平行的性质定理)**, 分别过平行线对 $AA'$, $BB'$ 和 $CC'$, $DD'$ 的两个平面与平面 $\alpha$ 的交线 $A'B'$ 和 $C'D'$ 平行.
+因为 $AA'\parallel{B}B'\parallel{C}C'\parallel{D}D'$, 这四条直线互相平行. $AB\parallel{C}D$ (平行四边形). 由**定理 8.5.6 (平面与平面平行的性质定理)**, 分别过平行线对 $AA'$, $BB'$ 和 $CC'$, $DD'$ 的两个平面与平面 $\alpha$ 的交线 $A'B'$ 和 $C'D'$ 平行.
 
-同理, 由 $AD\parallel BC$, 可得 $A'D'\parallel B'C'$.
+同理, 由 $AD\parallel{B}C$, 可得 $A'D'\parallel{B}'C'$.
 
 四边形 $A'B'C'D'$ 两组对边分别平行, 故它是平行四边形. $\blacksquare$
 
@@ -134,39 +134,39 @@
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-设正方体上底面为 $A_{1}B_{1}C_{1}D_{1}$, $C$ 为下底面顶点. 连接 $C_{1}E$. 在上底面 $A_{1}B_{1}C_{1}D_{1}$ 内, 过点 $E$ 作直线 $l\perp C_{1}E$.
+设正方体上底面为 $A_{1}B_{1}C_{1}D_{1}$, $C$ 为下底面顶点. 连接 $C_{1}E$. 在上底面 $A_{1}B_{1}C_{1}D_{1}$ 内, 过点 $E$ 作直线 $l\perp{C}_{1}E$.
 
-因为 $CC_{1}\perp$ 上底面, 故 $CC_{1}\perp l$. 又 $l\perp C_{1}E$, $CC_{1}\cap C_{1}E=C_{1}$, 故 $l\perp$ 平面 $CC_{1}E$. 而 $CE\subset$ 平面 $CC_{1}E$, 故 $l\perp CE$.
+因为 $CC_{1}\perp$ 上底面, 故 $CC_{1}\perp{l}$. 又 $l\perp{C}_{1}E$, $CC_{1}\cap{C}_{1}E=C_{1}$, 故 $l\perp$ 平面 $CC_{1}E$. 而 $CE\subset$ 平面 $CC_{1}E$, 故 $l\perp{C}E$.
 
 故过 $E$ 作 $C_{1}E$ 的垂线即为所求. $\blacksquare$
 
 ## 习题三
 
-(复习参考题8 复习巩固第 9 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $PC\perp$ 底面 $ABC$, $AB\perp BC$, $D$, $E$ 分别是 $AB$, $PB$ 的中点. 求证:
+(复习参考题8 复习巩固第 9 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $PC\perp$ 底面 $ABC$, $AB\perp{B}C$, $D$, $E$ 分别是 $AB$, $PB$ 的中点. 求证:
 
 (1) $DE\parallel$ 平面 $PAC$;
 
-(2) $AB\perp PB$.
+(2) $AB\perp{P}B$.
 
-(题图: 三棱锥 $P\text{-}ABC$, $PC\perp$ 底面 $ABC$, $\triangle ABC$ 中 $\angle ABC=90^{\circ}$; $D$ 为 $AB$ 中点, $E$ 为 $PB$ 中点.)
+(题图: 三棱锥 $P\text{-}ABC$, $PC\perp$ 底面 $ABC$, $\triangle{A}BC$ 中 $\angle{A}BC=90^{\circ}$; $D$ 为 $AB$ 中点, $E$ 为 $PB$ 中点.)
 
 ### 解答 习题三
 
 由**定理 8.5.3 (直线与平面平行的判定定理)** 及**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-(1) 在 $\triangle PAB$ 中, $D$, $E$ 分别是 $AB$, $PB$ 的中点, 故 $DE$ 是中位线, $DE\parallel PA$.
+(1) 在 $\triangle{P}AB$ 中, $D$, $E$ 分别是 $AB$, $PB$ 的中点, 故 $DE$ 是中位线, $DE\parallel{P}A$.
 
 又 $PA\subset$ 平面 $PAC$, $DE\not\subset$ 平面 $PAC$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $DE\parallel$ 平面 $PAC$.
 
-(2) 因为 $PC\perp$ 底面 $ABC$, $AB\subset$ 底面 $ABC$, 故 $PC\perp AB$. 又已知 $AB\perp BC$, $PC\cap BC=C$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AB\perp$ 平面 $PBC$.
+(2) 因为 $PC\perp$ 底面 $ABC$, $AB\subset$ 底面 $ABC$, 故 $PC\perp{A}B$. 又已知 $AB\perp{B}C$, $PC\cap{B}C=C$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AB\perp$ 平面 $PBC$.
 
-而 $PB\subset$ 平面 $PBC$, 故 $AB\perp PB$. $\blacksquare$
+而 $PB\subset$ 平面 $PBC$, 故 $AB\perp{P}B$. $\blacksquare$
 
 ## 习题四
 
-(复习参考题8 综合运用第 10 题) 如图, 在边长为 $2$ 的正方形 $ABCD$ 中, 点 $E$ 是 $AB$ 的中点, 点 $F$ 是 $BC$ 的中点, 将 $\triangle AED$, $\triangle BEF$, $\triangle DCF$ 分别沿 $DE$, $EF$, $DF$ 折起, 使 $A$, $B$, $C$ 三点重合于点 $A'$.
+(复习参考题8 综合运用第 10 题) 如图, 在边长为 $2$ 的正方形 $ABCD$ 中, 点 $E$ 是 $AB$ 的中点, 点 $F$ 是 $BC$ 的中点, 将 $\triangle{A}ED$, $\triangle{B}EF$, $\triangle{D}CF$ 分别沿 $DE$, $EF$, $DF$ 折起, 使 $A$, $B$, $C$ 三点重合于点 $A'$.
 
-(1) 求证 $A'D\perp EF$;
+(1) 求证 $A'D\perp{E}F$;
 
 (2) 求三棱锥 $A'\text{-}EFD$ 的体积.
 
@@ -176,18 +176,18 @@
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)** 及棱锥体积公式.
 
-折叠前: $EA\perp AD$, $EB\perp BF$, $FC\perp CD$. 折叠后 $A$, $B$, $C$ 重合为 $A'$, 故 $A'E\perp A'D$, $A'E\perp A'F$, $A'F\perp A'D$.
+折叠前: $EA\perp{A}D$, $EB\perp{B}F$, $FC\perp{C}D$. 折叠后 $A$, $B$, $C$ 重合为 $A'$, 故 $A'E\perp{A}'D$, $A'E\perp{A}'F$, $A'F\perp{A}'D$.
 
-(1) 因为 $A'E\perp A'D$, $A'F\perp A'D$, $A'E\cap A'F=A'$, 故 $A'D\perp$ 平面 $A'EF$. 而 $EF\subset$ 平面 $A'EF$, 故 $A'D\perp EF$.
+(1) 因为 $A'E\perp{A}'D$, $A'F\perp{A}'D$, $A'E\cap{A}'F=A'$, 故 $A'D\perp$ 平面 $A'EF$. 而 $EF\subset$ 平面 $A'EF$, 故 $A'D\perp{E}F$.
 
 (2) 由上述, $A'E$, $A'F$, $A'D$ 两两垂直. $A'E=A'F=1$ ($E$, $F$ 为中点), $A'D=AD=2$.
 
-三棱锥 $A'\text{-}EFD$ 即三棱锥 $D\text{-}A'EF$ (以 $A'$ 为顶点, 底面 $\triangle A'EF$). $\triangle A'EF$ 是直角三角形, 面积 $S=\frac{1}{2}\times 1\times 1=\frac{1}{2}$.
+三棱锥 $A'\text{-}EFD$ 即三棱锥 $D\text{-}A'EF$ (以 $A'$ 为顶点, 底面 $\triangle{A}'EF$). $\triangle{A}'EF$ 是直角三角形, 面积 $S=\frac{1}{2}\times1\times1=\frac{1}{2}$.
 
 高 $DA'=2$. 故体积
 
 $$
-V=\frac{1}{3}\times\frac{1}{2}\times 2=\frac{1}{3}.
+V=\frac{1}{3}\times\frac{1}{2}\times2=\frac{1}{3}.
 $$
 
 $\blacksquare$
@@ -202,11 +202,11 @@ $\blacksquare$
 
 取 $MD$ 的中点 $N$, 连接 $PN$, $QN$.
 
-在 $\triangle BMD$ 中, $P$ 是 $BM$ 中点, $N$ 是 $MD$ 中点, 故 $PN\parallel BD$.
+在 $\triangle{B}MD$ 中, $P$ 是 $BM$ 中点, $N$ 是 $MD$ 中点, 故 $PN\parallel{B}D$.
 
-在 $\triangle ADC$ 中, $M$ 是 $AD$ 中点, $N$ 是 $MD$ 中点, 故 $AN=\frac{3}{4}AD$, 即 $AN:ND=3:1$. 又 $AQ:QC=3:1$, 故在 $\triangle ADC$ 中, $QN\parallel DC$.
+在 $\triangle{A}DC$ 中, $M$ 是 $AD$ 中点, $N$ 是 $MD$ 中点, 故 $AN=\frac{3}{4}AD$, 即 $AN:ND=3:1$. 又 $AQ:QC=3:1$, 故在 $\triangle{A}DC$ 中, $QN\parallel{D}C$.
 
-$PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$, $BD\cap DC=D$. 由面面平行判定定理, 平面 $PQN\parallel$ 平面 $BCD$.
+$PN\parallel{B}D$, $QN\parallel{D}C$, $PN\cap{Q}N=N$, $BD\cap{D}C=D$. 由面面平行判定定理, 平面 $PQN\parallel$ 平面 $BCD$.
 
 而 $PQ\subset$ 平面 $PQN$, 故 $PQ\parallel$ 平面 $BCD$. $\blacksquare$
 
@@ -216,7 +216,7 @@ $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$, $BD\cap DC=D$. 由面面平�
 
 (1) $B_{1}D\perp$ 平面 $A_{1}BC_{1}$;
 
-(2) $B_{1}D$ 与平面 $A_{1}BC_{1}$ 的交点 $H$ 是 $\triangle A_{1}C_{1}B$ 的重心.
+(2) $B_{1}D$ 与平面 $A_{1}BC_{1}$ 的交点 $H$ 是 $\triangle{A}_{1}C_{1}B$ 的重心.
 
 (题图: 正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 标出对角线 $B_{1}D$ 与平面 $A_{1}BC_{1}$.)
 
@@ -224,46 +224,46 @@ $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$, $BD\cap DC=D$. 由面面平�
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-(1) 因为 $DD_{1}\perp$ 平面 $A_{1}B_{1}C_{1}D_{1}$, 故 $DD_{1}\perp A_{1}C_{1}$. 又 $A_{1}C_{1}\perp B_{1}D_{1}$ (正方形对角线垂直), $DD_{1}\cap B_{1}D_{1}=D_{1}$, 故 $A_{1}C_{1}\perp$ 平面 $BDD_{1}B_{1}$. 而 $B_{1}D\subset$ 平面 $BDD_{1}B_{1}$, 故 $A_{1}C_{1}\perp B_{1}D$.
+(1) 因为 $DD_{1}\perp$ 平面 $A_{1}B_{1}C_{1}D_{1}$, 故 $DD_{1}\perp{A}_{1}C_{1}$. 又 $A_{1}C_{1}\perp{B}_{1}D_{1}$ (正方形对角线垂直), $DD_{1}\cap{B}_{1}D_{1}=D_{1}$, 故 $A_{1}C_{1}\perp$ 平面 $BDD_{1}B_{1}$. 而 $B_{1}D\subset$ 平面 $BDD_{1}B_{1}$, 故 $A_{1}C_{1}\perp{B}_{1}D$.
 
-同理, $A_{1}B\perp B_{1}C$ (正方形 $ABB_{1}A_{1}$ 对角线垂直, 且 $BC\perp$ 平面 $ABB_{1}A_{1}$), 可证 $B_{1}D\perp A_{1}B$.
+同理, $A_{1}B\perp{B}_{1}C$ (正方形 $ABB_{1}A_{1}$ 对角线垂直, 且 $BC\perp$ 平面 $ABB_{1}A_{1}$), 可证 $B_{1}D\perp{A}_{1}B$.
 
-$A_{1}C_{1}\cap A_{1}B=A_{1}$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $B_{1}D\perp$ 平面 $A_{1}BC_{1}$.
+$A_{1}C_{1}\cap{A}_{1}B=A_{1}$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $B_{1}D\perp$ 平面 $A_{1}BC_{1}$.
 
-(2) 设正方体棱长为 $1$, $B_{1}D$ 与平面 $A_{1}BC_{1}$ 交于 $H$. 由对称性, $H$ 到 $A_{1}$, $B$, $C_{1}$ 三点的距离相等. $\triangle A_{1}BC_{1}$ 是正三角形, 其外心, 重心, 垂心重合. 故 $H$ 是 $\triangle A_{1}C_{1}B$ 的重心. $\blacksquare$
+(2) 设正方体棱长为 $1$, $B_{1}D$ 与平面 $A_{1}BC_{1}$ 交于 $H$. 由对称性, $H$ 到 $A_{1}$, $B$, $C_{1}$ 三点的距离相等. $\triangle{A}_{1}BC_{1}$ 是正三角形, 其外心, 重心, 垂心重合. 故 $H$ 是 $\triangle{A}_{1}C_{1}B$ 的重心. $\blacksquare$
 
 ## 习题七
 
-(复习参考题8 综合运用第 13 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $\angle ACB=90^{\circ}$, $PA\perp$ 底面 $ABC$.
+(复习参考题8 综合运用第 13 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $\angle{A}CB=90^{\circ}$, $PA\perp$ 底面 $ABC$.
 
 (1) 求证: 平面 $PAC\perp$ 平面 $PBC$;
 
 (2) 若 $AC=BC=PA$, $M$ 是 $PB$ 的中点, 求 $AM$ 与平面 $PBC$ 所成角的正切值.
 
-(题图: 三棱锥 $P\text{-}ABC$, $PA\perp$ 底面 $ABC$, $\triangle ABC$ 中 $\angle ACB=90^{\circ}$.)
+(题图: 三棱锥 $P\text{-}ABC$, $PA\perp$ 底面 $ABC$, $\triangle{A}BC$ 中 $\angle{A}CB=90^{\circ}$.)
 
 ### 解答 习题七
 
 由**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-(1) 因为 $PA\perp$ 底面 $ABC$, $BC\subset$ 底面 $ABC$, 故 $PA\perp BC$. 又 $\angle ACB=90^{\circ}$, 即 $AC\perp BC$. $PA\cap AC=A$, 故 $BC\perp$ 平面 $PAC$.
+(1) 因为 $PA\perp$ 底面 $ABC$, $BC\subset$ 底面 $ABC$, 故 $PA\perp{B}C$. 又 $\angle{A}CB=90^{\circ}$, 即 $AC\perp{B}C$. $PA\cap{A}C=A$, 故 $BC\perp$ 平面 $PAC$.
 
 而 $BC\subset$ 平面 $PBC$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, 平面 $PAC\perp$ 平面 $PBC$.
 
 (2) 设 $AC=BC=PA=a$. 取 $PC$ 的中点 $N$, 连接 $AN$, $MN$.
 
-因为 $PA=AC=a$, $\triangle PAC$ 是等腰直角三角形, $N$ 为 $PC$ 中点, 故 $AN\perp PC$.
+因为 $PA=AC=a$, $\triangle{P}AC$ 是等腰直角三角形, $N$ 为 $PC$ 中点, 故 $AN\perp{P}C$.
 
-由 (1) 平面 $PAC\perp$ 平面 $PBC$, 交线为 $PC$, $AN\subset$ 平面 $PAC$ 且 $AN\perp PC$, 故 $AN\perp$ 平面 $PBC$.
+由 (1) 平面 $PAC\perp$ 平面 $PBC$, 交线为 $PC$, $AN\subset$ 平面 $PAC$ 且 $AN\perp{P}C$, 故 $AN\perp$ 平面 $PBC$.
 
-$MN$ 是 $\triangle PBC$ 的中位线, $MN\parallel BC$ 且 $MN=\frac{1}{2}BC=\frac{a}{2}$.
+$MN$ 是 $\triangle{P}BC$ 的中位线, $MN\parallel{B}C$ 且 $MN=\frac{1}{2}BC=\frac{a}{2}$.
 
-$AM$ 在平面 $PBC$ 上的射影为 $NM$, $\angle AMN$ 即 $AM$ 与平面 $PBC$ 所成的角.
+$AM$ 在平面 $PBC$ 上的射影为 $NM$, $\angle{A}MN$ 即 $AM$ 与平面 $PBC$ 所成的角.
 
 $AN=\frac{\sqrt{2}}{2}a$, $MN=\frac{a}{2}$. 故
 
 $$
-\tan\angle AMN=\frac{AN}{MN}=\frac{\frac{\sqrt{2}}{2}a}{\frac{a}{2}}=\sqrt{2}.
+\tan\angle{A}MN=\frac{AN}{MN}=\frac{\frac{\sqrt{2}}{2}a}{\frac{a}{2}}=\sqrt{2}.
 $$
 
 $\blacksquare$
@@ -282,23 +282,23 @@ $\blacksquare$
 
 由**定理 8.6.9 (平面与平面垂直的性质定理)** 及**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-(1) 因为侧面 $PAD\perp$ 底面 $ABCD$, 交线为 $AD$. 底面 $ABCD$ 为正方形, 故 $CD\perp AD$. 由面面垂直的性质, $CD\perp$ 平面 $PAD$.
+(1) 因为侧面 $PAD\perp$ 底面 $ABCD$, 交线为 $AD$. 底面 $ABCD$ 为正方形, 故 $CD\perp{A}D$. 由面面垂直的性质, $CD\perp$ 平面 $PAD$.
 
-而 $AM\subset$ 平面 $PAD$, 故 $CD\perp AM$.
+而 $AM\subset$ 平面 $PAD$, 故 $CD\perp{A}M$.
 
-又 $\triangle PAD$ 是正三角形, $M$ 是 $PD$ 中点, 故 $AM\perp PD$.
+又 $\triangle{P}AD$ 是正三角形, $M$ 是 $PD$ 中点, 故 $AM\perp{P}D$.
 
-$CD\cap PD=D$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AM\perp$ 平面 $PCD$.
+$CD\cap{P}D=D$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AM\perp$ 平面 $PCD$.
 
 (2) 取 $AD$ 的中点 $O$, $BC$ 的中点 $E$, 连接 $PO$, $OE$, $PE$.
 
-$\triangle PAD$ 为正三角形, $O$ 为 $AD$ 中点, 故 $PO\perp AD$. 又平面 $PAD\perp$ 底面 $ABCD$, 故 $PO\perp$ 底面 $ABCD$.
+$\triangle{P}AD$ 为正三角形, $O$ 为 $AD$ 中点, 故 $PO\perp{A}D$. 又平面 $PAD\perp$ 底面 $ABCD$, 故 $PO\perp$ 底面 $ABCD$.
 
-$OE\parallel AB\parallel CD$, $OE\perp BC$. 由三垂线定理, $PE\perp BC$. 故 $\angle PEO$ 即侧面 $PBC$ 与底面 $ABCD$ 所成二面角的平面角.
+$OE\parallel{A}B\parallel{C}D$, $OE\perp{B}C$. 由三垂线定理, $PE\perp{B}C$. 故 $\angle{P}EO$ 即侧面 $PBC$ 与底面 $ABCD$ 所成二面角的平面角.
 
 设正方形边长为 $a$, 则 $PO=\frac{\sqrt{3}}{2}a$, $OE=a$, $PE=\sqrt{PO^{2}+OE^{2}}=\sqrt{\frac{3}{4}a^{2}+a^{2}}=\frac{\sqrt{7}}{2}a$.
 
-故 $\cos\angle PEO=\frac{OE}{PE}=\frac{a}{\frac{\sqrt{7}}{2}a}=\frac{2}{\sqrt{7}}=\frac{2\sqrt{7}}{7}$. $\blacksquare$
+故 $\cos\angle{P}EO=\frac{OE}{PE}=\frac{a}{\frac{\sqrt{7}}{2}a}=\frac{2}{\sqrt{7}}=\frac{2\sqrt{7}}{7}$. $\blacksquare$
 
 ## 习题九
 
@@ -310,9 +310,9 @@ $OE\parallel AB\parallel CD$, $OE\perp BC$. 由三垂线定理, $PE\perp BC$. �
 
 (1) 若 $a\parallel\omega$, $b\parallel\omega$, 则 $a$ 与 $b$ 平行, 相交或异面, 不一定平行.
 
-(2) 若 $a\perp\omega$, $b\perp\omega$, 则 $a\parallel b$ (**定理 8.6.5 (直线与平面垂直的性质定理)**).
+(2) 若 $a\perp\omega$, $b\perp\omega$, 则 $a\parallel{b}$ (**定理 8.6.5 (直线与平面垂直的性质定理)**).
 
-(3) 若 $a\parallel\omega$, $b\perp\omega$, 则 $a\perp b$.
+(3) 若 $a\parallel\omega$, $b\perp\omega$, 则 $a\perp{b}$.
 
 对直线 $m$ 和平面 $\alpha$, $\beta$:
 
@@ -326,7 +326,7 @@ $OE\parallel AB\parallel CD$, $OE\perp BC$. 由三垂线定理, $PE\perp BC$. �
 
 ## 习题十
 
-(复习参考题8 拓广探索第 16 题) 已知 $m$, $n$ 为异面直线, $m\perp$ 平面 $\alpha$, $n\perp$ 平面 $\beta$. 若直线 $l$ 满足 $l\perp m$, $l\perp n$, $l\not\subset\alpha$, $l\not\subset\beta$, 则 ( ).
+(复习参考题8 拓广探索第 16 题) 已知 $m$, $n$ 为异面直线, $m\perp$ 平面 $\alpha$, $n\perp$ 平面 $\beta$. 若直线 $l$ 满足 $l\perp{m}$, $l\perp{n}$, $l\not\subset\alpha$, $l\not\subset\beta$, 则 ( ).
 
 (A) $\alpha\parallel\beta$, $l\parallel\alpha$; (B) $\alpha$ 与 $\beta$ 相交, 且交线平行于 $l$; (C) $\alpha\perp\beta$, $l\perp\beta$; (D) $\alpha$ 与 $\beta$ 相交, 且交线垂直于 $l$.
 
@@ -334,9 +334,9 @@ $OE\parallel AB\parallel CD$, $OE\perp BC$. 由三垂线定理, $PE\perp BC$. �
 
 由**定理 8.6.5 (直线与平面垂直的性质定理)**.
 
-因为 $m\perp\alpha$, $n\perp\beta$, 且 $m$, $n$ 是异面直线, 故 $\alpha$ 与 $\beta$ 不平行 (若 $\alpha\parallel\beta$, 则由**定理 8.6.5 (直线与平面垂直的性质定理)** 类似结论, $m\parallel n$, 与 $m$, $n$ 异面矛盾). 故 $\alpha$ 与 $\beta$ 相交.
+因为 $m\perp\alpha$, $n\perp\beta$, 且 $m$, $n$ 是异面直线, 故 $\alpha$ 与 $\beta$ 不平行 (若 $\alpha\parallel\beta$, 则由**定理 8.6.5 (直线与平面垂直的性质定理)** 类似结论, $m\parallel{n}$, 与 $m$, $n$ 异面矛盾). 故 $\alpha$ 与 $\beta$ 相交.
 
-$l\perp m$, $l\perp n$. 过 $l$ 作平面, 由 $m\perp\alpha$, $n\perp\beta$, 可推知 $l$ 平行于 $\alpha$ 与 $\beta$ 的交线.
+$l\perp{m}$, $l\perp{n}$. 过 $l$ 作平面, 由 $m\perp\alpha$, $n\perp\beta$, 可推知 $l$ 平行于 $\alpha$ 与 $\beta$ 的交线.
 
 故选 (B). $\blacksquare$
 
@@ -372,13 +372,13 @@ $l\perp m$, $l\perp n$. 过 $l$ 作平面, 由 $m\perp\alpha$, $n\perp\beta$, �
 
 (2) 对 (B): 例如 $2,2,3,4,6$ 的中位数为 3, 众数为 2, 其中出现了 6. 故 (B) 不能判断一定没有 6.
 
-(3) 对 (C): 平均数为 2, 则 5 次点数之和为 $5\times2=10$. 方差为 2.4, 则 $\sum\left(x_i-\overline x\right)^2=5\times2.4=12$, 即
+(3) 对 (C): 平均数为 2, 则 5 次点数之和为 $5\times2=10$. 方差为 2.4, 则 $\sum\left(x_i-\overline{x}\right)^2=5\times2.4=12$, 即
 
 $$
-\sum x_i^2=\sum\left(x_i-\overline x\right)^2+n\overline x^2=12+5\times4=32.
+\sum{x}_i^2=\sum\left(x_i-\overline{x}\right)^2+n\overline{x}^2=12+5\times4=32.
 $$
 
-若出现一次点数 6, 则其余 4 次点数之和为 $10-6=4$, 即其余 4 次都为 1, 此时平方和为 $6^2+4\times1^2=40> 32$, 矛盾. 故一定没有出现点数 6.
+若出现一次点数 6, 则其余 4 次点数之和为 $10-6=4$, 即其余 4 次都为 1, 此时平方和为 $6^2+4\times1^2=40>32$, 矛盾. 故一定没有出现点数 6.
 
 (4) 对 (D): 例如 $1,2,3,3,6$ 的中位数为 3, 平均数为 3, 方差为 $\frac{\left(1-3\right)^2+\left(2-3\right)^2+0+0+\left(6-3\right)^2}{5}=\frac{14}{5}=2.8$, 其中出现了 6. 故 (D) 不能判断一定没有 6.
 
@@ -425,7 +425,7 @@ $$
 (2) 比例分配时, 各部门抽取的人数与该部门员工人数成比例. 该部门占全体员工的比例为 $\frac{m}{N}$, 故从该部门抽取的员工人数为
 
 $$
-\frac{m}{N}\cdot n=\frac{mn}{N}.
+\frac{m}{N}\cdot{n}=\frac{mn}{N}.
 $$
 
 $\blacksquare$
@@ -481,7 +481,7 @@ $\blacksquare$
 小组 A 的平均数为
 
 $$
-\overline x_A=\frac{42+45+\cdots+45}{12}=\frac{569}{12}\approx47.42,
+\overline{x}_A=\frac{42+45+\cdots+45}{12}=\frac{569}{12}\approx47.42,
 $$
 
 方差约为 $s_A^2\approx13.91$, 标准差约为 $s_A\approx3.73$.
@@ -489,12 +489,12 @@ $$
 小组 B 的平均数为
 
 $$
-\overline x_B=\frac{55+36+\cdots+47}{12}=\frac{674}{12}\approx56.17,
+\overline{x}_B=\frac{55+36+\cdots+47}{12}=\frac{674}{12}\approx56.17,
 $$
 
 方差约为 $s_B^2\approx138.97$, 标准差约为 $s_B\approx11.79$.
 
-(2) 因为 $s_A\approx3.73< s_B\approx11.79$, 小组 A 的打分明显更集中, 评委之间意见更一致. 专业评委通常有统一的专业标准, 打分比较一致; 而观众代表打分差异较大. 故小组 A 更像是由专业人士组成的. $\blacksquare$
+(2) 因为 $s_A\approx3.73<{}s_B\approx11.79$, 小组 A 的打分明显更集中, 评委之间意见更一致. 专业评委通常有统一的专业标准, 打分比较一致; 而观众代表打分差异较大. 故小组 A 更像是由专业人士组成的. $\blacksquare$
 
 ## 习题十八
 
@@ -515,13 +515,13 @@ $$
 (2) 计算得平均数为
 
 $$
-\overline x=\frac{\sum_{i=1}^{100}x_i}{100}\approx9370,
+\overline{x}=\frac{\sum_{i=1}^{100}x_i}{100}\approx9370,
 $$
 
 中位数约为 $9015$, 标准差约为
 
 $$
-s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\overline x\right)^2}\approx4223.
+s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\overline{x}\right)^2}\approx4223.
 $$
 
 这名学生平均每天走约 9370 步, 中位数约 9015 步, 说明他每天步行量中等; 标准差较大, 说明他每天的运动量不稳定, 有的天走得多, 有的天走得少, 运动习惯还不够规律. $\blacksquare$
@@ -543,7 +543,7 @@ $83,96,107,91,70,75,94,80,80,100,75,99,117,89,74,94,84,85,101,87,93,85,107,99,55
 (1) 把 30 个数据从小到大排列. 平均数为
 
 $$
-\overline x=\frac{83+96+\cdots+104}{30}=\frac{2676}{30}=89.2.
+\overline{x}=\frac{83+96+\cdots+104}{30}=\frac{2676}{30}=89.2.
 $$
 
 中位数为第 15 个数与第 16 个数的平均数, 即 $88$. 极差为最大值与最小值之差, 即 $117-55=62$. 标准差为
@@ -578,7 +578,7 @@ $1.958,1.611,1.645,2.045,2.024,2.166,2.245,1.822,1.234,1.935,2.055,1.745,1.878,1
 
 ## 习题二十一
 
-(复习参考题9 综合运用第 11 题) 为了解某市家庭用电量的情况, 该市统计局调查了 200 户居民去年一年的月均用电量 (单位: $\mathrm{kW\cdot h}$), 数据从小到大排序. 为了既满足居民的基本用电需求, 又提高能源的利用效率, 市政府计划采用阶梯电价, 使 $75\%$ 的居民缴费在第一档, $20\%$ 的居民缴费在第二档, 其余 $5\%$ 的居民缴费在第三档. 请确定各档的范围.
+(复习参考题9 综合运用第 11 题) 为了解某市家庭用电量的情况, 该市统计局调查了 200 户居民去年一年的月均用电量 (单位: $\mathrm{kW\cdot{h}}$), 数据从小到大排序. 为了既满足居民的基本用电需求, 又提高能源的利用效率, 市政府计划采用阶梯电价, 使 $75\%$ 的居民缴费在第一档, $20\%$ 的居民缴费在第二档, 其余 $5\%$ 的居民缴费在第三档. 请确定各档的范围.
 
 ### 解答 习题二十一
 
@@ -586,9 +586,9 @@ $1.958,1.611,1.645,2.045,2.024,2.166,2.245,1.822,1.234,1.935,2.055,1.745,1.878,1
 
 第一档覆盖 $75\%$ 的居民, 故第一档上限为第 75 百分位数; 第二档覆盖接下来的 $20\%$, 即介于第 75 百分位数与第 95 百分位数之间; 第三档为超过第 95 百分位数的部分.
 
-把 200 个数据从小到大排列. 第 75 百分位数: $i=200\times75\%=150$, 是整数, 为第 150 个数与第 151 个数的平均数, 约为 $178\,\mathrm{kW\cdot h}$. 第 95 百分位数: $i=200\times95\%=190$, 是整数, 为第 190 个数与第 191 个数的平均数, 约为 $296.5\,\mathrm{kW\cdot h}$.
+把 200 个数据从小到大排列. 第 75 百分位数: $i=200\times75\%=150$, 是整数, 为第 150 个数与第 151 个数的平均数, 约为 $178\,\mathrm{kW\cdot{h}}$. 第 95 百分位数: $i=200\times95\%=190$, 是整数, 为第 190 个数与第 191 个数的平均数, 约为 $296.5\,\mathrm{kW\cdot{h}}$.
 
-故各档范围可定为: 第一档为月均用电量不超过 $178\,\mathrm{kW\cdot h}$; 第二档为 $\left(178,296.5\right]\,\mathrm{kW\cdot h}$; 第三档为月均用电量超过 $296.5\,\mathrm{kW\cdot h}$. $\blacksquare$
+故各档范围可定为: 第一档为月均用电量不超过 $178\,\mathrm{kW\cdot{h}}$; 第二档为 $\left(178,296.5\right]\,\mathrm{kW\cdot{h}}$; 第三档为月均用电量超过 $296.5\,\mathrm{kW\cdot{h}}$. $\blacksquare$
 
 ## 习题二十二
 
@@ -622,24 +622,24 @@ $1.958,1.611,1.645,2.045,2.024,2.166,2.245,1.822,1.234,1.935,2.055,1.745,1.878,1
 
 ### 解答 习题二十三
 
-由**定义 10.1.2 (样本点与样本空间)**, 用 $b$ 表示蓝球, $r$ 表示红球, $g$ 表示绿球, 用数组 $\left(x_1, x_2\right)$ 表示两次取球的结果.
+由**定义 10.1.2 (样本点与样本空间)**, 用 $b$ 表示蓝球, $r$ 表示红球, $g$ 表示绿球, 用数组 $\left(x_1,x_2\right)$ 表示两次取球的结果.
 
 (1) 由于是有放回取球, 每次都有 $3$ 种可能, 样本空间为
 
 $$
-\Omega=\left\{\left(b,b\right), \left(b,r\right), \left(b,g\right), \left(r,b\right), \left(r,r\right), \left(r,g\right), \left(g,b\right), \left(g,r\right), \left(g,g\right)\right\}.
+\Omega=\left\{\left(b,b\right),\left(b,r\right),\left(b,g\right),\left(r,b\right),\left(r,r\right),\left(r,g\right),\left(g,b\right),\left(g,r\right),\left(g,g\right)\right\}.
 $$
 
-(2) 由**定义 10.1.4 (随机事件)**, "第一次取出的是红球" 即 $x_1=r$, 包含的样本点为 $\left(r,b\right), \left(r,r\right), \left(r,g\right)$, 故
+(2) 由**定义 10.1.4 (随机事件)**, "第一次取出的是红球" 即 $x_1=r$, 包含的样本点为 $\left(r,b\right),\left(r,r\right),\left(r,g\right)$, 故
 
 $$
-A=\left\{\left(r,b\right), \left(r,r\right), \left(r,g\right)\right\}.
+A=\left\{\left(r,b\right),\left(r,r\right),\left(r,g\right)\right\}.
 $$
 
-(3) "两次取出的球颜色相同" 即 $x_1=x_2$, 包含的样本点为 $\left(b,b\right), \left(r,r\right), \left(g,g\right)$, 故
+(3) "两次取出的球颜色相同" 即 $x_1=x_2$, 包含的样本点为 $\left(b,b\right),\left(r,r\right),\left(g,g\right)$, 故
 
 $$
-B=\left\{\left(b,b\right), \left(r,r\right), \left(g,g\right)\right\}.
+B=\left\{\left(b,b\right),\left(r,r\right),\left(g,g\right)\right\}.
 $$
 
 $\blacksquare$

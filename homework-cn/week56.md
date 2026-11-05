@@ -22,7 +22,7 @@
 
 > **定义 3.1.1 (椭圆)**
 > 
-> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert{F}_1F_2\rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
 
 > **定义 3.1.3 (椭圆的标准方程)**
 > 
@@ -46,7 +46,7 @@
 
 > **定义 4.1.3 (数列是特殊函数)**
 > 
-> 数列 $\left\{a_n\right\}$ 是从正整数集 $\mathbb N^*$ (或它的有限子集 $\left\{1,2,\cdots,n\right\}$ ) 到实数集 $\mathbb R$ 的函数, 其自变量是序号 $n$, 对应的函数值是数列的第 $n$ 项 $a_n$, 记为 $a_n=f\left(n\right)$.
+> 数列 $\left\{a_n\right\}$ 是从正整数集 $\mathbb{N}^*$ (或它的有限子集 $\left\{1,2,\cdots,n\right\}$ ) 到实数集 $\mathbb{R}$ 的函数, 其自变量是序号 $n$, 对应的函数值是数列的第 $n$ 项 $a_n$, 记为 $a_n=f\left(n\right)$.
 
 > **定义 4.1.4 (递增数列与递减数列)**
 > 
@@ -66,17 +66,17 @@
 
 ## 习题一
 
-(复习参考题 2 拓广探索第 18 题) 求由曲线 $x^2+y^2=\lvert x \rvert+\lvert y \rvert$ 围成的图形的面积.
+(复习参考题 2 拓广探索第 18 题) 求由曲线 $x^2+y^2=\lvert{x}\rvert+\lvert{y}\rvert$ 围成的图形的面积.
 
 ### 解答 习题一
 
 由**定义 2.4.1 (圆的标准方程)**, 分情况讨论.
 
-(a) 当 $x\ge0$, $y\ge0$ 时, 方程为 $x^2+y^2=x+y$, 即 $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. 这是圆心在 $\left(\frac{1}{2},\frac{1}{2}\right)$, 半径为 $\frac{\sqrt 2}{2}$ 的圆在第一象限的部分.
+(a) 当 $x\ge0$, $y\ge0$ 时, 方程为 $x^2+y^2=x+y$, 即 $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. 这是圆心在 $\left(\frac{1}{2},\frac{1}{2}\right)$, 半径为 $\frac{\sqrt2}{2}$ 的圆在第一象限的部分.
 
 由对称性, 曲线在四个象限各对应一个半圆, 每个半圆的面积为 $\frac{1}{2}\pi\cdot\frac{1}{2}=\frac{\pi}{4}$. 四个象限共 $4\times\frac{\pi}{4}=\pi$.
 
-此外, 四个半圆还围成一个边长为 $\sqrt 2$ 的正方形 (对角线长为 $2$), 面积为 $\frac{1}{2}\times2\times2=2$.
+此外, 四个半圆还围成一个边长为 $\sqrt2$ 的正方形 (对角线长为 $2$), 面积为 $\frac{1}{2}\times2\times2=2$.
 
 总面积为 $\pi+2$. $\blacksquare$
 
@@ -93,10 +93,10 @@
 由**常用结论 2.3.3** (点到直线的距离公式), 圆心到切线的距离等于半径:
 
 $$
-\frac{\lvert 3k-2+2k-3 \rvert}{\sqrt{k^2+1}}=1.
+\frac{\lvert3k-2+2k-3\rvert}{\sqrt{k^2+1}}=1.
 $$
 
-化简, 得 $\lvert 5k-5 \rvert=\sqrt{k^2+1}$, 即 $25\left(k-1\right)^2=k^2+1$, 即 $24k^2-50k+24=0$, 即 $12k^2-25k+12=0$.
+化简, 得 $\lvert5k-5\rvert=\sqrt{k^2+1}$, 即 $25\left(k-1\right)^2=k^2+1$, 即 $24k^2-50k+24=0$, 即 $12k^2-25k+12=0$.
 
 解得 $k=\frac{25\pm\sqrt{625-576}}{24}=\frac{25\pm7}{24}$, 即 $k=\frac{4}{3}$ 或 $k=\frac{3}{4}$.
 
@@ -119,7 +119,7 @@ $$
 (2) 圆心为 $C\left(1,2\right)$, 半径 $r=5$. 定点 $P\left(3,1\right)$ 到圆心的距离为
 
 $$
-\lvert CP \rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt 5< 5.
+\lvert{C}P\rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt5<5.
 $$
 
 点 $P$ 在圆内. 当直线 $l$ 经过圆心 $C$ 时, 弦最长, 即弦为直径, 长为 $10$.
@@ -128,7 +128,7 @@ $$
 
 直线 $l$ 的斜率为 $-\frac{2m+1}{m+1}$. 令 $-\frac{2m+1}{m+1}=2$, 即 $-2m-1=2m+2$, 即 $4m=-3$, 故 $m=-\frac{3}{4}$.
 
-最短弦长为 $2\sqrt{r^2-\lvert CP \rvert^2}=2\sqrt{25-5}=2\sqrt{20}=4\sqrt 5$. $\blacksquare$
+最短弦长为 $2\sqrt{r^2-\lvert{C}P\rvert^2}=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5$. $\blacksquare$
 
 ## 习题四
 
@@ -152,7 +152,7 @@ $$
 
 (复习参考题 3 复习巩固第 2 题) 选择题.
 
-(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 与椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k< 9$) 的 $\left(\quad\right)$.
+(1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 与椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ ($k<9$) 的 $\left(\quad\right)$.
 
 (A) 长轴长相等    (B) 短轴长相等
 
@@ -168,7 +168,7 @@ $$
 
 (1) 椭圆 $\frac{x^2}{25}+\frac{y^2}{9}=1$ 中 $c^2=25-9=16$, $c=4$. 椭圆 $\frac{x^2}{25-k}+\frac{y^2}{9-k}=1$ 中 $c^2=\left(25-k\right)-\left(9-k\right)=16$, $c=4$. 两椭圆焦距均为 $2c=8$, 故焦距相等. 选 (D).
 
-(2) 圆 $x^2+y^2=1$ 圆心 $O_1\left(0,0\right)$, 半径 $r_1=1$. 圆 $x^2+y^2-8x+12=0$ 化为 $\left(x-4\right)^2+y^2=4$, 圆心 $O_2\left(4,0\right)$, 半径 $r_2=2$. 动圆与两圆都外切, 设半径 $R$, 则 $\lvert MO_1 \rvert=R+1$, $\lvert MO_2 \rvert=R+2$, 故 $\lvert MO_2 \rvert-\lvert MO_1 \rvert=1$. 由**定义 3.2.1 (双曲线)**, 圆心在双曲线的一支上. 选 (B). $\blacksquare$
+(2) 圆 $x^2+y^2=1$ 圆心 $O_1\left(0,0\right)$, 半径 $r_1=1$. 圆 $x^2+y^2-8x+12=0$ 化为 $\left(x-4\right)^2+y^2=4$, 圆心 $O_2\left(4,0\right)$, 半径 $r_2=2$. 动圆与两圆都外切, 设半径 $R$, 则 $\lvert{M}O_1\rvert=R+1$, $\lvert{M}O_2\rvert=R+2$, 故 $\lvert{M}O_2\rvert-\lvert{M}O_1\rvert=1$. 由**定义 3.2.1 (双曲线)**, 圆心在双曲线的一支上. 选 (B). $\blacksquare$
 
 ## 习题六
 
@@ -180,11 +180,11 @@ $$
 
 (1) $\alpha=0^{\circ}$ 时, $\cos\alpha=1$, 方程为 $x^2+y^2=1$, 表示单位圆.
 
-(2) $0^{\circ}< \alpha< 90^{\circ}$ 时, $0< \cos\alpha< 1$, 方程为 $\frac{x^2}{1}+\frac{y^2}{1/\cos\alpha}=1$, 焦点在 $y$ 轴上的椭圆.
+(2) $0^{\circ}<\alpha<90^{\circ}$ 时, $0<\cos\alpha<1$, 方程为 $\frac{x^2}{1}+\frac{y^2}{1/\cos\alpha}=1$, 焦点在 $y$ 轴上的椭圆.
 
 (3) $\alpha=90^{\circ}$ 时, $\cos\alpha=0$, 方程为 $x^2=1$, 即 $x=\pm1$, 两条平行直线.
 
-(4) $90^{\circ}< \alpha\le180^{\circ}$ 时, $-1\le\cos\alpha< 0$, 方程为 $x^2-\frac{y^2}{-1/\cos\alpha}=1$, 焦点在 $x$ 轴上的双曲线 ($\alpha=180^{\circ}$ 时为等轴双曲线 $x^2-y^2=1$). $\blacksquare$
+(4) $90^{\circ}<\alpha\le180^{\circ}$ 时, $-1\le\cos\alpha<0$, 方程为 $x^2-\frac{y^2}{-1/\cos\alpha}=1$, 焦点在 $x$ 轴上的双曲线 ($\alpha=180^{\circ}$ 时为等轴双曲线 $x^2-y^2=1$). $\blacksquare$
 
 ## 习题七
 
@@ -194,53 +194,53 @@ $$
 
 将 $y=kx-1$ 代入 $x^2-y^2=4$, 得 $x^2-\left(kx-1\right)^2=4$, 即 $\left(1-k^2\right)x^2+2kx-5=0$.
 
-无公共点需无实根. 当 $1-k^2=0$ 即 $k=\pm1$ 时, 方程为一次方程, 有一个解, 不合题意. 当 $1-k^2\neq0$ 时, 判别式 $\Delta=4k^2+20\left(1-k^2\right)< 0$, 即 $20-16k^2< 0$, $k^2> \frac{5}{4}$. 故 $k$ 的取值范围是 $k< -\frac{\sqrt{5}}{2}$ 或 $k> \frac{\sqrt{5}}{2}$. $\blacksquare$
+无公共点需无实根. 当 $1-k^2=0$ 即 $k=\pm1$ 时, 方程为一次方程, 有一个解, 不合题意. 当 $1-k^2\neq0$ 时, 判别式 $\Delta=4k^2+20\left(1-k^2\right)<0$, 即 $20-16k^2<0$, $k^2>\frac{5}{4}$. 故 $k$ 的取值范围是 $k<-\frac{\sqrt{5}}{2}$ 或 $k>\frac{\sqrt{5}}{2}$. $\blacksquare$
 
 ## 习题八
 
-(复习参考题 3 复习巩固第 5 题) 设抛物线的顶点为 $O$, 经过焦点且垂直于对称轴的直线交抛物线于 $B$, $C$ 两点, 经过抛物线上一点 $P$ 且垂直于对称轴的直线与对称轴交于点 $Q$. 求证: $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$.
+(复习参考题 3 复习巩固第 5 题) 设抛物线的顶点为 $O$, 经过焦点且垂直于对称轴的直线交抛物线于 $B$, $C$ 两点, 经过抛物线上一点 $P$ 且垂直于对称轴的直线与对称轴交于点 $Q$. 求证: $\lvert{P}Q\rvert^2=\lvert{B}C\rvert\cdot\lvert{O}Q\rvert$.
 
 ### 解答 习题八
 
-设抛物线 $y^2=2px$, 焦点 $F\left(\frac{p}{2},0\right)$. 过 $F$ 垂直对称轴 ($x$ 轴) 的直线 $x=\frac{p}{2}$ 交抛物线于 $B\left(\frac{p}{2},p\right)$, $C\left(\frac{p}{2},-p\right)$, 故 $\lvert BC \rvert=2p$.
+设抛物线 $y^2=2px$, 焦点 $F\left(\frac{p}{2},0\right)$. 过 $F$ 垂直对称轴 ($x$ 轴) 的直线 $x=\frac{p}{2}$ 交抛物线于 $B\left(\frac{p}{2},p\right)$, $C\left(\frac{p}{2},-p\right)$, 故 $\lvert{B}C\rvert=2p$.
 
-设 $P\left(x_0,y_0\right)$ 在抛物线上, $y_0^2=2px_0$. $PQ$ 垂直 $x$ 轴交 $x$ 轴于 $Q\left(x_0,0\right)$, 故 $\lvert PQ \rvert=\lvert y_0 \rvert$, $\lvert OQ \rvert=x_0$.
+设 $P\left(x_0,y_0\right)$ 在抛物线上, $y_0^2=2px_0$. $PQ$ 垂直 $x$ 轴交 $x$ 轴于 $Q\left(x_0,0\right)$, 故 $\lvert{P}Q\rvert=\lvert{y}_0\rvert$, $\lvert{O}Q\rvert=x_0$.
 
-$\lvert PQ \rvert^2=y_0^2=2px_0$, $\lvert BC \rvert\cdot\lvert OQ \rvert=2p\cdot x_0=2px_0$. 故 $\lvert PQ \rvert^2=\lvert BC \rvert\cdot\lvert OQ \rvert$. $\blacksquare$
+$\lvert{P}Q\rvert^2=y_0^2=2px_0$, $\lvert{B}C\rvert\cdot\lvert{O}Q\rvert=2p\cdot{x}_0=2px_0$. 故 $\lvert{P}Q\rvert^2=\lvert{B}C\rvert\cdot\lvert{O}Q\rvert$. $\blacksquare$
 
 ## 习题九
 
-(复习参考题 3 复习巩固第 6 题) 已知等边三角形的一个顶点位于抛物线 $y^2=2px$ ($p> 0$) 的焦点, 另外两个顶点在抛物线上, 求这个等边三角形的边长.
+(复习参考题 3 复习巩固第 6 题) 已知等边三角形的一个顶点位于抛物线 $y^2=2px$ ($p>0$) 的焦点, 另外两个顶点在抛物线上, 求这个等边三角形的边长.
 
 ### 解答 习题九
 
-焦点 $F\left(\frac{p}{2},0\right)$. 设抛物线上两点 $A$, $B$ 关于 $x$ 轴对称, $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$. $\lvert FA \rvert=\lvert FB \rvert=\lvert AB \rvert$.
+焦点 $F\left(\frac{p}{2},0\right)$. 设抛物线上两点 $A$, $B$ 关于 $x$ 轴对称, $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$. $\lvert{F}A\rvert=\lvert{F}B\rvert=\lvert{A}B\rvert$.
 
-$\lvert AB \rvert=2\lvert y_0 \rvert$, $\lvert FA \rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. 由 $\lvert FA \rvert=\lvert AB \rvert$ 及 $y_0^2=2px_0$, 得 $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, 即 $x_0^2-px_0+\frac{p^2}{4}=8px_0$, $x_0^2-9px_0+\frac{p^2}{4}=0$. 解得 $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. 取 $x_0> 0$ 的解, 边长 $\lvert AB \rvert=2\lvert y_0 \rvert=2\sqrt{2px_0}$. 代入得边长为 $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
+$\lvert{A}B\rvert=2\lvert{y}_0\rvert$, $\lvert{F}A\rvert=\sqrt{\left(x_0-\frac{p}{2}\right)^2+y_0^2}$. 由 $\lvert{F}A\rvert=\lvert{A}B\rvert$ 及 $y_0^2=2px_0$, 得 $\left(x_0-\frac{p}{2}\right)^2+2px_0=4y_0^2=8px_0$, 即 $x_0^2-px_0+\frac{p^2}{4}=8px_0$, $x_0^2-9px_0+\frac{p^2}{4}=0$. 解得 $x_0=\frac{9p\pm\sqrt{80p^2}}{2}=\frac{9\pm4\sqrt{5}}{2}p$. 取 $x_0>0$ 的解, 边长 $\lvert{A}B\rvert=2\lvert{y}_0\rvert=2\sqrt{2px_0}$. 代入得边长为 $2p\sqrt{9+4\sqrt{5}}=2p\left(2\sqrt{5}+1\right)$. $\blacksquare$
 
 ## 习题十
 
-(复习参考题 3 综合运用第 7 题) 已知 $P$ 是椭圆 $16x^2+25y^2=1600$ 上的一点, 且在 $x$ 轴上方, $F_1$, $F_2$ 分别是椭圆的左, 右焦点, 直线 $PF_2$ 的斜率为 $-\frac{4\sqrt{3}}{3}$, 求 $\triangle PF_1F_2$ 的面积.
+(复习参考题 3 综合运用第 7 题) 已知 $P$ 是椭圆 $16x^2+25y^2=1600$ 上的一点, 且在 $x$ 轴上方, $F_1$, $F_2$ 分别是椭圆的左, 右焦点, 直线 $PF_2$ 的斜率为 $-\frac{4\sqrt{3}}{3}$, 求 $\triangle{P}F_1F_2$ 的面积.
 
 ### 解答 习题十
 
-椭圆 $16x^2+25y^2=1600$ 化为 $\frac{x^2}{100}+\frac{y^2}{64}=1$, $a=10$, $b=8$, $c=6$. $F_1\left(-6,0\right)$, $F_2\left(6,0\right)$, $\lvert F_1F_2 \rvert=12$.
+椭圆 $16x^2+25y^2=1600$ 化为 $\frac{x^2}{100}+\frac{y^2}{64}=1$, $a=10$, $b=8$, $c=6$. $F_1\left(-6,0\right)$, $F_2\left(6,0\right)$, $\lvert{F}_1F_2\rvert=12$.
 
-直线 $PF_2$ 过 $F_2\left(6,0\right)$, 斜率 $-\frac{4\sqrt{3}}{3}$, 方程为 $y=-\frac{4\sqrt{3}}{3}\left(x-6\right)$. 代入椭圆方程求 $P$ 的纵坐标. 解得 $P$ 的纵坐标 $y_P=3\sqrt{3}$ (取上方). 面积 $S=\frac{1}{2}\cdot\lvert F_1F_2 \rvert\cdot\lvert y_P \rvert=\frac{1}{2}\cdot12\cdot3\sqrt{3}=18\sqrt{3}$. $\blacksquare$
+直线 $PF_2$ 过 $F_2\left(6,0\right)$, 斜率 $-\frac{4\sqrt{3}}{3}$, 方程为 $y=-\frac{4\sqrt{3}}{3}\left(x-6\right)$. 代入椭圆方程求 $P$ 的纵坐标. 解得 $P$ 的纵坐标 $y_P=3\sqrt{3}$ (取上方). 面积 $S=\frac{1}{2}\cdot\lvert{F}_1F_2\rvert\cdot\lvert{y}_P\rvert=\frac{1}{2}\cdot12\cdot3\sqrt{3}=18\sqrt{3}$. $\blacksquare$
 
 ## 习题十一
 
-(复习参考题 3 综合运用第 8 题) 如图, 从椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) 上一点 $P$ 向 $x$ 轴作垂线, 垂足恰为左焦点 $F_1$. 又点 $A$ 是椭圆与 $x$ 轴正半轴的交点, 点 $B$ 是椭圆与 $y$ 轴正半轴的交点, 且 $AB\parallel OP$, $\lvert F_1A \rvert=\sqrt{10}+\sqrt{5}$, 求椭圆的方程.
+(复习参考题 3 综合运用第 8 题) 如图, 从椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>{}b>0$) 上一点 $P$ 向 $x$ 轴作垂线, 垂足恰为左焦点 $F_1$. 又点 $A$ 是椭圆与 $x$ 轴正半轴的交点, 点 $B$ 是椭圆与 $y$ 轴正半轴的交点, 且 $AB\parallel{O}P$, $\lvert{F}_1A\rvert=\sqrt{10}+\sqrt{5}$, 求椭圆的方程.
 
-该图在平面直角坐标系中画出中心在原点,焦点在 $x$ 轴上的椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$($a> b> 0$):点 $P$ 在椭圆上,$P$ 向 $x$ 轴作垂线,垂足恰为左焦点 $F_1\left(-c,0\right)$;$A$ 是椭圆与 $x$ 轴正半轴交点 $\left(a,0\right)$,$B$ 是椭圆与 $y$ 轴正半轴交点 $\left(0,b\right)$,且 $AB\parallel OP$.
+该图在平面直角坐标系中画出中心在原点,焦点在 $x$ 轴上的椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$($a>{}b>0$):点 $P$ 在椭圆上,$P$ 向 $x$ 轴作垂线,垂足恰为左焦点 $F_1\left(-c,0\right)$;$A$ 是椭圆与 $x$ 轴正半轴交点 $\left(a,0\right)$,$B$ 是椭圆与 $y$ 轴正半轴交点 $\left(0,b\right)$,且 $AB\parallel{O}P$.
 
 ### 解答 习题十一
 
 $P$ 向 $x$ 轴垂足为 $F_1\left(-c,0\right)$, 故 $P\left(-c,y_P\right)$. 代入椭圆: $\frac{c^2}{a^2}+\frac{y_P^2}{b^2}=1$, $y_P^2=b^2\left(1-\frac{c^2}{a^2}\right)=\frac{b^4}{a^2}$, $y_P=\frac{b^2}{a}$ ($P$ 在上方).
 
-$A\left(a,0\right)$, $B\left(0,b\right)$, $k_{AB}=-\frac{b}{a}$. $k_{OP}=\frac{y_P}{-c}=-\frac{b^2}{ac}$. 由 $AB\parallel OP$, $-\frac{b}{a}=-\frac{b^2}{ac}$, 得 $b=c$. 又 $a^2=b^2+c^2=2c^2$, $a=\sqrt{2}c$.
+$A\left(a,0\right)$, $B\left(0,b\right)$, $k_{AB}=-\frac{b}{a}$. $k_{OP}=\frac{y_P}{-c}=-\frac{b^2}{ac}$. 由 $AB\parallel{O}P$, $-\frac{b}{a}=-\frac{b^2}{ac}$, 得 $b=c$. 又 $a^2=b^2+c^2=2c^2$, $a=\sqrt{2}c$.
 
-$\lvert F_1A \rvert=a+c=\sqrt{10}+\sqrt{5}$, 即 $c\left(\sqrt{2}+1\right)=\sqrt{5}\left(\sqrt{2}+1\right)$, $c=\sqrt{5}$. $b=\sqrt{5}$, $a=\sqrt{10}$. 椭圆方程为
+$\lvert{F}_1A\rvert=a+c=\sqrt{10}+\sqrt{5}$, 即 $c\left(\sqrt{2}+1\right)=\sqrt{5}\left(\sqrt{2}+1\right)$, $c=\sqrt{5}$. $b=\sqrt{5}$, $a=\sqrt{10}$. 椭圆方程为
 
 $$
 \frac{x^2}{10}+\frac{y^2}{5}=1.
@@ -264,15 +264,15 @@ $$
 
 ## 习题十三
 
-(复习参考题 3 拓广探索第 10 题) 如图, 已知直线与抛物线 $y^2=2px$ ($p> 0$) 交于 $A$, $B$ 两点, 且 $OA\perp OB$, $OD\perp AB$ 交 $AB$ 于点 $D$, 点 $D$ 的坐标为 $\left(2,1\right)$, 求 $p$ 的值.
+(复习参考题 3 拓广探索第 10 题) 如图, 已知直线与抛物线 $y^2=2px$ ($p>0$) 交于 $A$, $B$ 两点, 且 $OA\perp{O}B$, $OD\perp{A}B$ 交 $AB$ 于点 $D$, 点 $D$ 的坐标为 $\left(2,1\right)$, 求 $p$ 的值.
 
-该图在平面直角坐标系中画出开口向右,顶点在原点的抛物线 $y^2=2px$:一条直线交抛物线于 $A$, $B$ 两点,$OA\perp OB$($O$ 为原点);过 $O$ 作 $OD\perp AB$,垂足为 $D\left(2,1\right)$.
+该图在平面直角坐标系中画出开口向右,顶点在原点的抛物线 $y^2=2px$:一条直线交抛物线于 $A$, $B$ 两点,$OA\perp{O}B$($O$ 为原点);过 $O$ 作 $OD\perp{A}B$,垂足为 $D\left(2,1\right)$.
 
 ### 解答 习题十三
 
-$D\left(2,1\right)$ 在 $AB$ 上, $OD$ 斜率 $\frac{1}{2}$, $OD\perp AB$, 故 $AB$ 斜率 $-2$. $AB$ 方程为 $y-1=-2\left(x-2\right)$, 即 $y=-2x+5$.
+$D\left(2,1\right)$ 在 $AB$ 上, $OD$ 斜率 $\frac{1}{2}$, $OD\perp{A}B$, 故 $AB$ 斜率 $-2$. $AB$ 方程为 $y-1=-2\left(x-2\right)$, 即 $y=-2x+5$.
 
-设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$. $OA\perp OB$, $x_1x_2+y_1y_2=0$. 将 $y=-2x+5$ 代入 $y^2=2px$, 得 $\left(-2x+5\right)^2=2px$, $4x^2-\left(20+2p\right)x+25=0$. $x_1x_2=\frac{25}{4}$, $x_1+x_2=\frac{20+2p}{4}$.
+设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$. $OA\perp{O}B$, $x_1x_2+y_1y_2=0$. 将 $y=-2x+5$ 代入 $y^2=2px$, 得 $\left(-2x+5\right)^2=2px$, $4x^2-\left(20+2p\right)x+25=0$. $x_1x_2=\frac{25}{4}$, $x_1+x_2=\frac{20+2p}{4}$.
 
 $y_1y_2=\left(-2x_1+5\right)\left(-2x_2+5\right)=4x_1x_2-10\left(x_1+x_2\right)+25=25-\frac{10\left(20+2p\right)}{4}+25=50-5\left(10+p\right)=-5p$.
 
@@ -280,7 +280,7 @@ $y_1y_2=\left(-2x_1+5\right)\left(-2x_2+5\right)=4x_1x_2-10\left(x_1+x_2\right)+
 
 ## 习题十四
 
-(复习参考题 3 拓广探索第 11 题) 已知 $\triangle ABC$ 的两个顶点 $A$, $B$ 的坐标分别是 $\left(-5,0\right)$, $\left(5,0\right)$, 且 $AC$, $BC$ 所在直线的斜率之积等于 $m$ ($m\neq0$), 求顶点 $C$ 的轨迹.
+(复习参考题 3 拓广探索第 11 题) 已知 $\triangle{A}BC$ 的两个顶点 $A$, $B$ 的坐标分别是 $\left(-5,0\right)$, $\left(5,0\right)$, 且 $AC$, $BC$ 所在直线的斜率之积等于 $m$ ($m\neq0$), 求顶点 $C$ 的轨迹.
 
 ### 解答 习题十四
 
@@ -290,7 +290,7 @@ $$
 \frac{x^2}{25}-\frac{y^2}{25m}=1.
 $$
 
-当 $m> 0$ 时, 轨迹是焦点在 $x$ 轴上的双曲线 (去掉 $A$, $B$ 两点); 当 $m< 0$ 时, 轨迹是椭圆 (去掉 $A$, $B$ 两点). $\blacksquare$
+当 $m>0$ 时, 轨迹是焦点在 $x$ 轴上的双曲线 (去掉 $A$, $B$ 两点); 当 $m<0$ 时, 轨迹是椭圆 (去掉 $A$, $B$ 两点). $\blacksquare$
 
 ## 习题十五
 
@@ -304,7 +304,7 @@ $$
 d=\frac{\left|x_0-y_0+3\right|}{\sqrt{2}}=\frac{\left|\frac{y_0^2}{4}-y_0+3\right|}{\sqrt{2}}.
 $$
 
-$\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2> 0$, 故 $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. 当 $y_0=2$ 时 $d$ 最小, $x_0=1$. 点 $P$ 为 $\left(1,2\right)$. $\blacksquare$
+$\frac{y_0^2}{4}-y_0+3=\frac{1}{4}\left(y_0-2\right)^2+2>0$, 故 $d=\frac{\frac{1}{4}\left(y_0-2\right)^2+2}{\sqrt{2}}$. 当 $y_0=2$ 时 $d$ 最小, $x_0=1$. 点 $P$ 为 $\left(1,2\right)$. $\blacksquare$
 
 ## 习题十六
 
@@ -322,11 +322,11 @@ $$
 
 (2) $m=3$ 时, 方程为 $2x^2=0$, 即 $x=0$, 一条直线.
 
-(3) $1< m< 3$ 时, 两分母均为正, 表示椭圆 (当 $3-m=m-1$ 即 $m=2$ 时为圆).
+(3) $1<{}m<3$ 时, 两分母均为正, 表示椭圆 (当 $3-m=m-1$ 即 $m=2$ 时为圆).
 
-(4) $m< 1$ 时, $3-m> 0$, $m-1< 0$, 表示焦点在 $x$ 轴上的双曲线.
+(4) $m<1$ 时, $3-m>0$, $m-1<0$, 表示焦点在 $x$ 轴上的双曲线.
 
-(5) $m> 3$ 时, $3-m< 0$, $m-1> 0$, 表示焦点在 $y$ 轴上的双曲线. $\blacksquare$
+(5) $m>3$ 时, $3-m<0$, $m-1>0$, 表示焦点在 $y$ 轴上的双曲线. $\blacksquare$
 
 ## 习题十七
 
@@ -360,11 +360,11 @@ $\blacksquare$
 
 ## 习题十九
 
-(复习参考题 3 拓广探索第 16 题) 过抛物线 $y^2=2px$ ($p> 0$) 的焦点 $F$ 作直线与抛物线交于 $A$, $B$ 两点, 以 $AB$ 为直径画圆, 观察它与抛物线的准线 $l$ 的关系, 你能得到什么结论? 相应于椭圆, 双曲线如何? 你能证明你的结论吗?
+(复习参考题 3 拓广探索第 16 题) 过抛物线 $y^2=2px$ ($p>0$) 的焦点 $F$ 作直线与抛物线交于 $A$, $B$ 两点, 以 $AB$ 为直径画圆, 观察它与抛物线的准线 $l$ 的关系, 你能得到什么结论? 相应于椭圆, 双曲线如何? 你能证明你的结论吗?
 
 ### 解答 习题十九
 
-设 $AB$ 为过焦点 $F$ 的弦, 中点为 $M$. 由**常用结论 3.3.3**, $\lvert AF \rvert=d_A$ ($A$ 到准线距离), $\lvert BF \rvert=d_B$. 圆半径 $r=\frac{\lvert AB \rvert}{2}=\frac{\lvert AF \rvert+\lvert BF \rvert}{2}=\frac{d_A+d_B}{2}$.
+设 $AB$ 为过焦点 $F$ 的弦, 中点为 $M$. 由**常用结论 3.3.3**, $\lvert{A}F\rvert=d_A$ ($A$ 到准线距离), $\lvert{B}F\rvert=d_B$. 圆半径 $r=\frac{\lvert{A}B\rvert}{2}=\frac{\lvert{A}F\rvert+\lvert{B}F\rvert}{2}=\frac{d_A+d_B}{2}$.
 
 圆心 $M$ 到准线距离为 $d_M=\frac{d_A+d_B}{2}=r$. 故以 $AB$ 为直径的圆与准线相切.
 
@@ -378,16 +378,16 @@ $\blacksquare$
 
 (2) 当自变量 $x$ 依次取 $1,2,3,\cdots$ 时, 函数 $f\left(x\right)=2x+1$ 的值构成的数列;
 
-(3) 数列的通项公式为 $a_n=\begin{cases}2, & n\text{ 为奇数},\\ n+1, & n\text{ 为偶数}.\end{cases}$
+(3) 数列的通项公式为 $a_n=\begin{cases}2,&n\text{~为奇数},\\n+1,&n\text{~为偶数}.\end{cases}$
 
-该图为三幅数列散点图(横坐标为序号 $n$,纵坐标为对应项 $a_n$):(1) $a_n=\frac{1}{n}$,散点随 $n$ 增大递减趋近于 $0$;(2) $a_n=2n+1$,散点在直线 $y=2x+1$ 上,随 $n$ 递增;(3) $a_n=\begin{cases}2,&n\text{ 为奇数}\\n+1,&n\text{ 为偶数}\end{cases}$,奇数项散点均在 $y=2$ 上,偶数项散点随 $n$ 递增.
+该图为三幅数列散点图(横坐标为序号 $n$,纵坐标为对应项 $a_n$):(1) $a_n=\frac{1}{n}$,散点随 $n$ 增大递减趋近于 $0$;(2) $a_n=2n+1$,散点在直线 $y=2x+1$ 上,随 $n$ 递增;(3) $a_n=\begin{cases}2,&n\text{~为奇数}\\n+1,&n\text{~为偶数}\end{cases}$,奇数项散点均在 $y=2$ 上,偶数项散点随 $n$ 递增.
 
 ### 解答 练习一
 
 (1) 由**定义 4.1.5 (通项公式)**, 所有正整数的倒数按从大到小排列, 第 $n$ 项为 $a_n=\frac{1}{n}$.
 
 $$
-a_1=1,\ a_2=\frac{1}{2},\ a_3=\frac{1}{3},\ \cdots,\ a_{10}=\frac{1}{10}.
+a_1=1,\,a_2=\frac{1}{2},\,a_3=\frac{1}{3},\,\cdots,\,a_{10}=\frac{1}{10}.
 $$
 
 图象为散点, 横坐标为 $n$, 纵坐标为 $\frac{1}{n}$, 各点随 $n$ 增大而递减趋近于 $0$.
@@ -397,7 +397,7 @@ $\blacksquare$
 (2) 由**定义 4.1.3 (数列是特殊函数)**, $x$ 依次取 $1,2,3,\cdots$, 对应函数值构成的数列为 $a_n=f\left(n\right)=2n+1$.
 
 $$
-a_1=3,\ a_2=5,\ a_3=7,\ a_4=9,\ a_5=11,\ a_6=13,\ a_7=15,\ a_8=17,\ a_9=19,\ a_{10}=21.
+a_1=3,\,a_2=5,\,a_3=7,\,a_4=9,\,a_5=11,\,a_6=13,\,a_7=15,\,a_8=17,\,a_9=19,\,a_{10}=21.
 $$
 
 图象为散点, 各点在直线 $y=2x+1$ 上, 呈递增排列.
@@ -407,7 +407,7 @@ $\blacksquare$
 (3) 由**定义 4.1.5 (通项公式)**, 当 $n$ 为奇数时 $a_n=2$, 当 $n$ 为偶数时 $a_n=n+1$.
 
 $$
-a_1=2,\ a_2=3,\ a_3=2,\ a_4=5,\ a_5=2,\ a_6=7,\ a_7=2,\ a_8=9,\ a_9=2,\ a_{10}=11.
+a_1=2,\,a_2=3,\,a_3=2,\,a_4=5,\,a_5=2,\,a_6=7,\,a_7=2,\,a_8=9,\,a_9=2,\,a_{10}=11.
 $$
 
 图象为散点, 奇数项均在 $y=2$ 上, 偶数项随 $n$ 增大而递增.
@@ -432,14 +432,14 @@ $\blacksquare$
 
 $\blacksquare$
 
-(练习 4.1 第 3 题) 除数函数 $y=d\left(n\right)$ ($n\in\mathbb N^*$) 的函数值等于 $n$ 的正因数的个数, 例如 $d\left(1\right)=1$, $d\left(4\right)=3$. 写出数列 $d\left(1\right),d\left(2\right),\cdots,d\left(n\right),\cdots$ 的前 $10$ 项
+(练习 4.1 第 3 题) 除数函数 $y=d\left(n\right)$ ($n\in\mathbb{N}^*$) 的函数值等于 $n$ 的正因数的个数, 例如 $d\left(1\right)=1$, $d\left(4\right)=3$. 写出数列 $d\left(1\right),d\left(2\right),\cdots,d\left(n\right),\cdots$ 的前 $10$ 项
 
 ### 解答 练习一
 
 由**定义 4.1.5 (通项公式)**, 逐项计算正因数个数.
 
 $$
-d\left(1\right)=1,\ d\left(2\right)=2,\ d\left(3\right)=2,\ d\left(4\right)=3,\ d\left(5\right)=2,\ d\left(6\right)=4,\ d\left(7\right)=2,\ d\left(8\right)=4,\ d\left(9\right)=3,\ d\left(10\right)=4.
+d\left(1\right)=1,\,d\left(2\right)=2,\,d\left(3\right)=2,\,d\left(4\right)=3,\,d\left(5\right)=2,\,d\left(6\right)=4,\,d\left(7\right)=2,\,d\left(8\right)=4,\,d\left(9\right)=3,\,d\left(10\right)=4.
 $$
 
 前 $10$ 项为 $1,2,2,3,2,4,2,4,3,4$.
@@ -490,7 +490,7 @@ $$
 a_n=1+5\left(n-1\right)=5n-4.
 $$
 
-第 $5$ 项为 $a_5=5\times 5-4=21$.
+第 $5$ 项为 $a_5=5\times5-4=21$.
 
 $\blacksquare$
 
@@ -500,7 +500,7 @@ $$
 a_n=1+3\left(n-1\right)=3n-2.
 $$
 
-第 $5$ 项为 $a_5=3\times 5-2=13$.
+第 $5$ 项为 $a_5=3\times5-2=13$.
 
 $\blacksquare$
 
@@ -516,16 +516,16 @@ $\blacksquare$
 
 (练习 4.1 第 2 题) 根据下列条件, 写出数列 $\left\{a_n\right\}$ 的前 $5$ 项
 
-(1) $a_1=1,\ a_n=a_{n-1}+2^{n-1}$ ($n\ge 2$);
+(1) $a_1=1,\,a_n=a_{n-1}+2^{n-1}$ ($n\ge2$);
 
-(2) $a_1=3,\ a_n=\frac{2}{3}a_{n-1}+1$ ($n\ge 2$).
+(2) $a_1=3,\,a_n=\frac{2}{3}a_{n-1}+1$ ($n\ge2$).
 
 ### 解答 练习二
 
 (1) 由**定义 4.1.6 (递推公式)**, 逐项递推.
 
 $$
-a_1=1,\ a_2=1+2=3,\ a_3=3+4=7,\ a_4=7+8=15,\ a_5=15+16=31.
+a_1=1,\,a_2=1+2=3,\,a_3=3+4=7,\,a_4=7+8=15,\,a_5=15+16=31.
 $$
 
 $\blacksquare$
@@ -533,19 +533,19 @@ $\blacksquare$
 (2) 由**定义 4.1.6 (递推公式)**, 逐项递推.
 
 $$
-a_1=3,\ a_2=\frac{2}{3}\times 3+1=3,\ a_3=\frac{2}{3}\times 3+1=3,\ a_4=3,\ a_5=3.
+a_1=3,\,a_2=\frac{2}{3}\times3+1=3,\,a_3=\frac{2}{3}\times3+1=3,\,a_4=3,\,a_5=3.
 $$
 
 $\blacksquare$
 
-(练习 4.1 第 3 题) 已知数列 $\left\{a_n\right\}$ 满足 $a_1=2,\ a_n=2-\frac{1}{a_{n-1}}$ ($n\ge 2$), 写出它的前 $5$ 项, 并猜想它的通项公式
+(练习 4.1 第 3 题) 已知数列 $\left\{a_n\right\}$ 满足 $a_1=2,\,a_n=2-\frac{1}{a_{n-1}}$ ($n\ge2$), 写出它的前 $5$ 项, 并猜想它的通项公式
 
 ### 解答 练习二
 
 由**定义 4.1.6 (递推公式)**, 逐项递推.
 
 $$
-a_1=2,\ a_2=2-\frac{1}{2}=\frac{3}{2},\ a_3=2-\frac{2}{3}=\frac{4}{3},\ a_4=2-\frac{3}{4}=\frac{5}{4},\ a_5=2-\frac{4}{5}=\frac{6}{5}.
+a_1=2,\,a_2=2-\frac{1}{2}=\frac{3}{2},\,a_3=2-\frac{2}{3}=\frac{4}{3},\,a_4=2-\frac{3}{4}=\frac{5}{4},\,a_5=2-\frac{4}{5}=\frac{6}{5}.
 $$
 
 由**定义 4.1.5 (通项公式)**, 观察前 $5$ 项 $\frac{2}{1},\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5}$, 猜想通项公式为
@@ -562,13 +562,13 @@ $\blacksquare$
 
 由**常用结论 4.1.8** ($a_n$ 与 $S_n$ 的关系), 当 $n=1$ 时, $a_1=S_1=-2$.
 
-当 $n\ge 2$ 时,
+当 $n\ge2$ 时,
 
 $$
 a_n=S_n-S_{n-1}=-2n^2-\left[-2\left(n-1\right)^2\right]=-2n^2+2\left(n-1\right)^2=-4n+2.
 $$
 
-验证 $n=1$ 时, $-4\times 1+2=-2=a_1$, 故通项公式为
+验证 $n=1$ 时, $-4\times1+2=-2=a_1$, 故通项公式为
 
 $$
 a_n=-4n+2.

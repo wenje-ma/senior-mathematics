@@ -38,7 +38,7 @@
 
 ## Problem 1
 
-(Exercise 9.1, Comprehensive Application, Problem 6) The average of the data $x_1,x_2,\cdots,x_n$ is $\overline x$, the average of the data $y_1,y_2,\cdots,y_n$ is $\overline y$, and $a,b$ are constants. If $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, prove that $\overline y=a\overline x+b$.
+(Exercise 9.1, Comprehensive Application, Problem 6) The average of the data $x_1,x_2,\cdots,x_n$ is $\overline{x}$, the average of the data $y_1,y_2,\cdots,y_n$ is $\overline{y}$, and $a,b$ are constants. If $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, prove that $\overline{y}=a\overline{x}+b$.
 
 ### Solution to Problem 1
 
@@ -47,31 +47,31 @@ By **Common Result 9.1.7** (Effect of Data Transformation on the Mean).
 Because $y_i=ax_i+b$ ($i=1,2,\cdots,n$), we have
 
 $$
-\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\overline x+b.
+\overline{y}=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot{n}b=a\overline{x}+b.
 $$
 
 This proves the original identity. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 9.1, Comprehensive Application, Problem 7) Given that the population is divided into 3 strata, and through stratified random sampling the stratum sample averages are obtained as $\overline x,\overline y,\overline z$.
+(Exercise 9.1, Comprehensive Application, Problem 7) Given that the population is divided into 3 strata, and through stratified random sampling the stratum sample averages are obtained as $\overline{x},\overline{y},\overline{z}$.
 
 (1) Based on the above information, can the population average be estimated? If not, what additional condition is needed? Write the estimation formula.
 
 (2) If the sample size is proportionally allocated and the individual counts of the 1st, 2nd, 3rd strata are $L,M,N$ with sample sizes $l,m,n$, prove that
 
 $$
-\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+\frac{L}{L+M+N}\overline{x}+\frac{M}{L+M+N}\overline{y}+\frac{N}{L+M+N}\overline{z}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}.
 $$
 
 ### Solution to Problem 2
 
 By **Definition 9.1.5 (Stratified Random Sampling, Strata and Proportional Allocation)** and **Common Result 9.1.6** (Estimating the Population Mean by Stratified Random Sampling).
 
-(1) From the stratum sample averages $\overline x,\overline y,\overline z$ alone one cannot estimate the population average; one also needs to know the proportion each stratum occupies in the population (i.e. the individual count or sample size of each stratum) in order to weight the stratum sample averages. The estimation formula is
+(1) From the stratum sample averages $\overline{x},\overline{y},\overline{z}$ alone one cannot estimate the population average; one also needs to know the proportion each stratum occupies in the population (i.e. the individual count or sample size of each stratum) in order to weight the stratum sample averages. The estimation formula is
 
 $$
-\overline W=\frac{L\overline x+M\overline y+N\overline z}{L+M+N},
+\overline{W}=\frac{L\overline{x}+M\overline{y}+N\overline{z}}{L+M+N},
 $$
 
 where $L,M,N$ are the individual counts of the 1st, 2nd, 3rd strata respectively.
@@ -87,7 +87,7 @@ From $\frac{l}{L}=\frac{l+m+n}{L+M+N}$, we get $\frac{L}{L+M+N}=\frac{l}{l+m+n}$
 Substituting gives
 
 $$
-\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+\frac{L}{L+M+N}\overline{x}+\frac{M}{L+M+N}\overline{y}+\frac{N}{L+M+N}\overline{z}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}.
 $$
 
 This proves the original identity. $\blacksquare$
@@ -186,13 +186,13 @@ From this, the proportion of smoking middle-school students in this region is es
 
 ## Exercise 1
 
-(Exercise 9.2, Problem 1) A survey of monthly electricity use was conducted on 100 households drawn from a residential community; their electricity use was all found to lie between $50\sim350\,\mathrm{kW\cdot h}$. After suitable grouping (each group being a left-closed right-open interval), the frequency distribution histogram is drawn as shown.
+(Exercise 9.2, Problem 1) A survey of monthly electricity use was conducted on 100 households drawn from a residential community; their electricity use was all found to lie between $50\sim350\,\mathrm{kW\cdot{h}}$. After suitable grouping (each group being a left-closed right-open interval), the frequency distribution histogram is drawn as shown.
 
 (1) The value of $x$ in the histogram is $\;\_\_\;$;
 
 (2) Among the surveyed users, the number of households whose electricity use falls in the interval $\left[100,250\right)$ is $\;\_\_\;$.
 
-(Figure: a frequency distribution histogram; horizontal axis = monthly electricity use ($\mathrm{kW\cdot h}$) from $50$ to $350$ in $6$ groups of width $50$: $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; vertical axis = frequency/class-width, with the six heights $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
+(Figure: a frequency distribution histogram; horizontal axis = monthly electricity use ($\mathrm{kW\cdot{h}}$) from $50$ to $350$ in $6$ groups of width $50$: $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; vertical axis = frequency/class-width, with the six heights $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
 
 ### Solution to Exercise 1
 
@@ -367,7 +367,7 @@ By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.2 (The $p$-
 Mean: the sum of the data is $87+90+\cdots+190=3858$, so
 
 $$
-\overline x=\frac{3858}{30}=128.6.
+\overline{x}=\frac{3858}{30}=128.6.
 $$
 
 Arrange the 30 data in ascending order. 80th percentile: $i=30\times80\%=24$, an integer, so the 80th percentile is the average of the 24th and 25th numbers, namely
@@ -424,6 +424,6 @@ $$
 85\times50\%+95\times40\%+95\times10\%=42.5+38+9.5=90.
 $$
 
-Because $91> 90$, Contestant A is first and Contestant B is second.
+Because $91>90$, Contestant A is first and Contestant B is second.
 
 In a weighted mean, the size of the mean depends not only on the data values themselves but also on their weights; the larger the weight of an item, the greater its influence on the mean. Here speech content has the largest weight, so A's high score in speech content makes A's overall score surpass B, who has stronger speaking ability. $\blacksquare$

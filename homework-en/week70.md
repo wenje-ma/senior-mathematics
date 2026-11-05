@@ -16,7 +16,7 @@
 > 
 > 变量的不同取值表示个体所属的不同类别, 这类变量称为分类变量.
 
-> **Definition 8.3.2 ($2\times 2$ 列联表)**
+> **Definition 8.3.2 ($2\times2$ 列联表)**
 > 
 > 过成对样本数据进行分析;通过构建一元线性回归 模型,可以研究变量之间的随机关系并进行预测;利用２×２列联表可以检验两个分类变 量的独立性等.在本章的学习过程中,同学们可以进一步体会统计思想在解决实际问题中 的作用. 祝愿同学们通过本册书的学习,不但学到更多的数学知识,而且在数学能力,数学核 心素养等方面都有较大的提高,并培养起更高的数学学习兴趣,形成对数学的更加全面的 认识. 本册导弓 本书根据《普通高中数学课程标准(2017年)》编写,包括计数原理随机变 量及其分布成对数据的统计分析三章内容. 计数问题在日常生活,生产实践中大量存在,也是数学研究的重要问题之一.在计 数原理一章中,同学们将学习分类加法计数原理和分步乘法计数原理,体会这两个原理 在解决计数问题中的基础性作用;运用两个基本计数原理探索排列,组合,二项式定理等 问题,推导相关的公式;在运用它们解决一些简单的计数问题和实际问题的过程中,理解 排列,组合,二项式定理与两个计数原理的关系,体会数学抽象,化繁为简等
 
@@ -40,7 +40,7 @@ Different conclusions may be reached.
 
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), an independence test makes an inference by comparing the size of the $\chi^2$ statistic with the critical value $x_\alpha$. Different small probability values $\alpha$ correspond to different critical values $x_\alpha$: the smaller $\alpha$ is, the larger the critical value $x_\alpha$ is, and the harder it is to reject the null hypothesis.
 
-Therefore, when the $\chi^2$ computed from the data lies between the critical values corresponding to two different small probability values, for example $3.841< \chi^2< 6.635$, using $\alpha=0.05$ leads to the inference that the two variables are associated, whereas using $\alpha=0.01$ gives insufficient evidence to infer that they are associated. Hence applying different small probability values may lead to different conclusions. $\blacksquare$
+Therefore, when the $\chi^2$ computed from the data lies between the critical values corresponding to two different small probability values, for example $3.841<\chi^2<6.635$, using $\alpha=0.05$ leads to the inference that the two variables are associated, whereas using $\alpha=0.01$ gives insufficient evidence to infer that they are associated. Hence applying different small probability values may lead to different conclusions. $\blacksquare$
 
 ## Exercise 2
 
@@ -63,13 +63,13 @@ The null hypothesis $H_0$ is that taking drug $A$ and whether one gets disease $
 By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{105\times\left(29\times 14-15\times 47\right)^2}{44\times 61\times 76\times 29}\approx 1.59.
+\chi^2=\frac{105\times\left(29\times14-15\times47\right)^2}{44\times61\times76\times29}\approx1.59.
 $$
 
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 1.59< 3.841,
+\chi^2\approx1.59<3.841,
 $$
 
 there is insufficient evidence to infer that the null hypothesis does not hold, i.e. one cannot infer that drug $A$ is effective in preventing disease $B$. $\blacksquare$
@@ -95,13 +95,13 @@ The null hypothesis $H_0$ is that whether the math score is excellent and whethe
 By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{400\times\left(212\times 73-61\times 54\right)^2}{273\times 127\times 266\times 134}\approx 48.03.
+\chi^2=\frac{400\times\left(212\times73-61\times54\right)^2}{273\times127\times266\times134}\approx48.03.
 $$
 
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 48.03> 3.841,
+\chi^2\approx48.03>3.841,
 $$
 
 we infer that the null hypothesis does not hold, i.e. we consider excellent math scores to be associated with excellent Chinese scores, and the probability that this inference is wrong is no more than $0.05$. $\blacksquare$
@@ -112,9 +112,9 @@ we infer that the null hypothesis does not hold, i.e. we consider excellent math
 
 ### Solution to Problem 1
 
-By **Definition 8.3.2 ($2\times 2$ Contingency Table)** and **Definition 8.3.3 (Null Hypothesis)**.
+By **Definition 8.3.2 ($2\times2$ Contingency Table)** and **Definition 8.3.3 (Null Hypothesis)**.
 
-By **Definition 8.3.2 ($2\times 2$ Contingency Table)**, to study whether there is an association between two categorical variables, one needs to know the frequencies of the paired sample data in each category combination, i.e. the number of individuals for whom both variables are observed simultaneously.
+By **Definition 8.3.2 ($2\times2$ Contingency Table)**, to study whether there is an association between two categorical variables, one needs to know the frequencies of the paired sample data in each category combination, i.e. the number of individuals for whom both variables are observed simultaneously.
 
 If one only knows the frequencies of the two categorical variables separately and not the frequencies with which they occur in pairs, then by **Definition 8.3.4 ($\chi^2$ Statistic)** one cannot compute the $\chi^2$ statistic, and by **Definition 8.3.3 (Null Hypothesis)** one cannot test whether the two variables are independent.
 
@@ -217,13 +217,13 @@ By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Ru
 By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{40\times\left(14\times 11-7\times 8\right)^2}{21\times 19\times 22\times 18}\approx 2.43.
+\chi^2=\frac{40\times\left(14\times11-7\times8\right)^2}{21\times19\times22\times18}\approx2.43.
 $$
 
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 2.43< 3.841,
+\chi^2\approx2.43<3.841,
 $$
 
 there is insufficient evidence to infer that the null hypothesis does not hold, i.e. one cannot consider there to be an association between gender and height among the senior-year students at this school.
@@ -253,13 +253,13 @@ The null hypothesis $H_0$ is that the baby's gender and time of birth are indepe
 By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{89\times\left(24\times 26-31\times 8\right)^2}{55\times 34\times 32\times 57}\approx 3.69.
+\chi^2=\frac{89\times\left(24\times26-31\times8\right)^2}{55\times34\times32\times57}\approx3.69.
 $$
 
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because
 
 $$
-\chi^2\approx 3.69> 2.706,
+\chi^2\approx3.69>2.706,
 $$
 
 we infer that the null hypothesis does not hold, i.e. we consider there to be an association between a baby's gender and its time of birth, and the probability that this inference is wrong is no more than $0.1$. $\blacksquare$
@@ -277,18 +277,18 @@ The contingency table for Example $1$ is: School A, not excellent $33$, excellen
 By **Definition 8.3.4 ($\chi^2$ Statistic)**, for the original data
 
 $$
-\chi^2=\frac{88\times\left(33\times 7-10\times 38\right)^2}{43\times 45\times 71\times 17}\approx 0.58.
+\chi^2=\frac{88\times\left(33\times7-10\times38\right)^2}{43\times45\times71\times17}\approx0.58.
 $$
 
-By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 0.58< 2.706$, there is insufficient evidence to infer that the two schools differ in math excellence rate.
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx0.58<2.706$, there is insufficient evidence to infer that the two schools differ in math excellence rate.
 
 When all the data in the table are enlarged to $10$ times the original: School A, not excellent $330$, excellent $100$, total $430$; School B, not excellent $380$, excellent $70$, total $450$; grand total $880$. By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{880\times\left(330\times 70-100\times 380\right)^2}{430\times 450\times 710\times 170}\approx 5.81.
+\chi^2=\frac{880\times\left(330\times70-100\times380\right)^2}{430\times450\times710\times170}\approx5.81.
 $$
 
-By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx 5.81> 2.706$, we infer that the two schools differ in math excellence rate, and the conclusion has changed.
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.1$ the critical value is $x_{0.1}=2.706$. Because $\chi^2\approx5.81>2.706$, we infer that the two schools differ in math excellence rate, and the conclusion has changed.
 
 After the data are enlarged to $10$ times the original, the proportions of the excellence rates in the two schools are unchanged, so the shape of the stacked bar chart of equal height is essentially unchanged.
 
@@ -304,12 +304,12 @@ The figure is an ancient computational diagram using Yang Hui's triangle (Figure
 
 By **Theorem 6.3.1 (Binomial Theorem)**, ancient Chinese mathematicians used the coefficients in the rows of Pascal's triangle to extract roots. This problem is to find the positive root of $x^4=1336336$.
 
-(1) Estimate the number of digits and the range. Since $30^4=810000$, $40^4=2560000$, and $810000< 1336336< 2560000$, $x$ lies between 30 and 40; that is, the tens digit of $x$ is 3. Write $x=30+b$, where $b$ is the units digit.
+(1) Estimate the number of digits and the range. Since $30^4=810000$, $40^4=2560000$, and $810000<1336336<2560000$, $x$ lies between 30 and 40; that is, the tens digit of $x$ is 3. Write $x=30+b$, where $b$ is the units digit.
 
 (2) Use the expansion of a complete fourth power. By **Theorem 6.3.1 (Binomial Theorem)**,
 
 $$
-\left(30+b\right)^4=30^4+4\cdot 30^3b+6\cdot 30^2b^2+4\cdot 30b^3+b^4.
+\left(30+b\right)^4=30^4+4\cdot30^3b+6\cdot30^2b^2+4\cdot30b^3+b^4.
 $$
 
 Here $30^4=810000$. First try $b=4$:
@@ -339,13 +339,13 @@ By **Common Conclusion 6.3.3** (Summing Formula for Binomial Coefficients), the 
 (1) The number of balls in each layer. The bottom layer has 12 balls per edge, and the number of balls in that layer is the triangular number with edge 12, i.e.
 
 $$
-1+2+\cdots+12=\frac{12\times 13}{2}=78.
+1+2+\cdots+12=\frac{12\times13}{2}=78.
 $$
 
 Going up, each layer has one fewer ball per edge, so from top to bottom the numbers of balls per edge are $1,2,3,\cdots,12$, and the numbers of balls in the layers are
 
 $$
-1,\ 3,\ 6,\ 10,\ \cdots,\ \frac{k\left(k+1\right)}{2},\ \cdots,\ 78.
+1,\,3,\,6,\,10,\,\cdots,\,\frac{k\left(k+1\right)}{2},\,\cdots,\,78.
 $$
 
 Here the number of balls in a layer with $k$ per edge is $\frac{k\left(k+1\right)}{2}=\binom{k+1}{2}$.
@@ -365,7 +365,7 @@ $$
 Computing,
 
 $$
-\binom{14}{3}=\frac{14\times 13\times 12}{6}=364.
+\binom{14}{3}=\frac{14\times13\times12}{6}=364.
 $$
 
 Thus when the base edge of the triangular pile has 12 balls per side, the total number of balls is 364.
@@ -408,7 +408,7 @@ The title of the research report is Properties and Applications of Pascal's Tria
 
 ## Problem 12
 
-(Problem 1) When the concentration of the air pollutant $PM_{2.5}$ exceeds a certain limit, it affects people's health. To study whether the concentration of $PM_{2.5}$ is affected by factors such as traffic flow and weather conditions, researchers selected 24 cities with similar socio-economic development levels; in each city, a traffic point was chosen as a monitoring station, the number of vehicles passing through each monitoring point within $24\ \mathrm{h}$ (unit: thousand vehicles) was counted, and at the same time, at the same low altitude, the average temperature (unit: $^\circ\mathrm{C}$), wind speed (unit: $\mathrm{m/s}$), air humidity (absolute humidity, unit: $\mathrm{g/m^3}$), and the average concentration of $PM_{2.5}$ in the air (unit: $\mu\mathrm{g/m^3}$) were measured for each monitoring station over that period; the data are shown in Table 1. By building a statistical model, quantitatively explore the relationship between the $PM_{2.5}$ concentration and traffic flow, and carry out prediction and control.
+(Problem 1) When the concentration of the air pollutant $PM_{2.5}$ exceeds a certain limit, it affects people's health. To study whether the concentration of $PM_{2.5}$ is affected by factors such as traffic flow and weather conditions, researchers selected 24 cities with similar socio-economic development levels; in each city, a traffic point was chosen as a monitoring station, the number of vehicles passing through each monitoring point within $24\,\mathrm{h}$ (unit: thousand vehicles) was counted, and at the same time, at the same low altitude, the average temperature (unit: $^\circ\mathrm{C}$), wind speed (unit: $\mathrm{m/s}$), air humidity (absolute humidity, unit: $\mathrm{g/m^3}$), and the average concentration of $PM_{2.5}$ in the air (unit: $\mu\mathrm{g/m^3}$) were measured for each monitoring station over that period; the data are shown in Table 1. By building a statistical model, quantitatively explore the relationship between the $PM_{2.5}$ concentration and traffic flow, and carry out prediction and control.
 
 Table 1 Monitoring data of the $PM_{2.5}$ concentration in the air at traffic points in 24 cities
 
@@ -436,49 +436,49 @@ By **Definition 8.2.1 (Simple Linear Regression Model)**, taking traffic flow as
 (2) Build the linear regression equation. By **Definition 8.2.1 (Simple Linear Regression Model)**, set
 
 $$
-Y=bx+a+e,\quad \mathbb E\left(e\right)=0,\quad D\left(e\right)=\sigma^2.
+Y=bx+a+e,\quad\mathbb{E}\left(e\right)=0,\quad{D}\left(e\right)=\sigma^2.
 $$
 
 By **Definition 8.2.4 (Empirical Regression Equation)**, using the least squares method to estimate the parameters $a$, $b$, we obtain the empirical regression equation
 
 $$
-\widehat y=\widehat b x+\widehat a.
+\widehat{y}=\widehat{b}x+\widehat{a}.
 $$
 
 Computing from the sample data gives
 
 $$
-\widehat a=-99.69,\quad \widehat b=138.60,
+\widehat{a}=-99.69,\quad\widehat{b}=138.60,
 $$
 
 i.e. the regression equation of the $PM_{2.5}$ concentration on traffic flow is
 
 $$
-\widehat y=138.60x-99.69. \tag{1}
+\widehat{y}=138.60x-99.69.\tag{1}
 $$
 
 (3) Analysis of the regression results. By **Common Conclusion 8.2.8** (Analysis of Regression Results), the model is tested from three aspects.
 
-(a) Estimate of the regression coefficient. $\widehat b=138.60> 0$, indicating that the $PM_{2.5}$ concentration increases as traffic flow increases: for every additional 100 vehicles (i.e. 0.1 thousand vehicles), the $PM_{2.5}$ concentration in the air increases on average by $13.86\ \mu\mathrm{g/m^3}$. The $t$ statistic corresponding to the regression coefficient $b$ is $6.721$, with degrees of freedom $n-2=22$; given the significance level $\alpha=0.05$, the critical value is $t_{0.025}\left(22\right)=2.074$. Since $t=6.721> t_{0.025}\left(22\right)$, or the corresponding $p$-value $9.37\times 10^{-7}< 0.05$, this shows that $b$ is significantly not 0, and traffic flow is a significant factor affecting the $PM_{2.5}$ concentration.
+(a) Estimate of the regression coefficient. $\widehat{b}=138.60>0$, indicating that the $PM_{2.5}$ concentration increases as traffic flow increases: for every additional 100 vehicles (i.e. 0.1 thousand vehicles), the $PM_{2.5}$ concentration in the air increases on average by $13.86\,\mu\mathrm{g/m^3}$. The $t$ statistic corresponding to the regression coefficient $b$ is $6.721$, with degrees of freedom $n-2=22$; given the significance level $\alpha=0.05$, the critical value is $t_{0.025}\left(22\right)=2.074$. Since $t=6.721>{}t_{0.025}\left(22\right)$, or the corresponding $p$-value $9.37\times10^{-7}<0.05$, this shows that $b$ is significantly not 0, and traffic flow is a significant factor affecting the $PM_{2.5}$ concentration.
 
-(b) Test of significance of the linear relationship. The value of the $F$ statistic is $45.17$, with numerator degrees of freedom $1$ and denominator degrees of freedom $n-2=22$; the critical value is $F_{0.05}\left(1,22\right)=4.301$. Since $F=45.17> F_{0.05}\left(1,22\right)$, or the $p$-value $9.366\times 10^{-7}< 0.05$, this shows that the linear relationship between the $PM_{2.5}$ concentration and traffic flow is significant, and regression equation (1) can be considered to be statistically meaningful.
+(b) Test of significance of the linear relationship. The value of the $F$ statistic is $45.17$, with numerator degrees of freedom $1$ and denominator degrees of freedom $n-2=22$; the critical value is $F_{0.05}\left(1,22\right)=4.301$. Since $F=45.17>{}F_{0.05}\left(1,22\right)$, or the $p$-value $9.366\times10^{-7}<0.05$, this shows that the linear relationship between the $PM_{2.5}$ concentration and traffic flow is significant, and regression equation (1) can be considered to be statistically meaningful.
 
 (c) Coefficient of determination. The multiple coefficient of determination is $R^2=0.6725$, and the adjusted coefficient of determination is $R'=0.6576=65.76\%$, indicating that $65.76\%$ of the total variation in the $PM_{2.5}$ concentration is related to traffic flow, and the model fits well.
 
-(4) Application of the model. One important application of a regression model is prediction: given a value of $x$, the predicted value $\widehat y$ of $Y$ is computed from the regression equation.
+(4) Application of the model. One important application of a regression model is prediction: given a value of $x$, the predicted value $\widehat{y}$ of $Y$ is computed from the regression equation.
 
-China's safety standard for the $PM_{2.5}$ concentration in the air is an annual average concentration of $35\ \mu\mathrm{g/m^3}$ and a $24\ \mathrm{h}$ average concentration of $75\ \mu\mathrm{g/m^3}$. When the traffic flow is 1300 vehicles, i.e. $x=1.3$, by equation (1),
+China's safety standard for the $PM_{2.5}$ concentration in the air is an annual average concentration of $35\,\mu\mathrm{g/m^3}$ and a $24\,\mathrm{h}$ average concentration of $75\,\mu\mathrm{g/m^3}$. When the traffic flow is 1300 vehicles, i.e. $x=1.3$, by equation (1),
 
 $$
-\widehat y=138.60\times 1.3-99.69=80.49,
+\widehat{y}=138.60\times1.3-99.69=80.49,
 $$
 
 indicating that the $PM_{2.5}$ concentration is near the safety standard; when the traffic flow is 2300 vehicles, i.e. $x=2.3$,
 
 $$
-\widehat y=138.60\times 2.3-99.69=219.09,
+\widehat{y}=138.60\times2.3-99.69=219.09,
 $$
 
 indicating that the $PM_{2.5}$ concentration seriously exceeds the standard, and a warning and intervention measures are needed.
 
-Conversely, if the average $PM_{2.5}$ concentration is to be controlled within $60\sim 120$, solve for $x$ from equation (1): when $\widehat y_1=60$, $x_1=\frac{60+99.69}{138.60}\approx 1.152$; when $\widehat y_2=120$, $x_2=\frac{120+99.69}{138.60}\approx 1.585$. Hence, to keep the average $PM_{2.5}$ concentration of this city within $60\sim 120$, the $24\ \mathrm{h}$ traffic flow must be controlled within $1152\sim 1585$ vehicles. $\blacksquare$
+Conversely, if the average $PM_{2.5}$ concentration is to be controlled within $60\sim120$, solve for $x$ from equation (1): when $\widehat{y}_1=60$, $x_1=\frac{60+99.69}{138.60}\approx1.152$; when $\widehat{y}_2=120$, $x_2=\frac{120+99.69}{138.60}\approx1.585$. Hence, to keep the average $PM_{2.5}$ concentration of this city within $60\sim120$, the $24\,\mathrm{h}$ traffic flow must be controlled within $1152\sim1585$ vehicles. $\blacksquare$

@@ -42,13 +42,13 @@
 
 ## Exercise 1
 
-(Exercise 3.2, Problem 4) The two foci of the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a> 0$) are $F_1$ and $F_2$, with focal distance $8$; $M$ is a point on the hyperbola with $\lvert MF_1 \rvert=5$. Find $\lvert MF_2 \rvert$.
+(Exercise 3.2, Problem 4) The two foci of the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{12}=1$ ($a>0$) are $F_1$ and $F_2$, with focal distance $8$; $M$ is a point on the hyperbola with $\lvert{M}F_1\rvert=5$. Find $\lvert{M}F_2\rvert$.
 
 ### Solution to Exercise 1
 
 By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, $c^2=a^2+b^2$. The focal distance is $2c=8$, so $c=4$, $c^2=16$. Also $b^2=12$, so $a^2=c^2-b^2=4$, $a=2$.
 
-By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert MF_1 \rvert-\lvert MF_2 \rvert \rvert=2a=4$. Substituting $\lvert MF_1 \rvert=5$ gives $\lvert 5-\lvert MF_2 \rvert \rvert=4$, so $\lvert MF_2 \rvert=9$ or $\lvert MF_2 \rvert=1$. Since the distance from a point on the hyperbola to the nearer focus is greater than $c-a=2$, the solution $\lvert MF_2 \rvert=1$ is rejected, leaving $\lvert MF_2 \rvert=9$. $\blacksquare$
+By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert\lvert{M}F_1\rvert-\lvert{M}F_2\rvert\rvert=2a=4$. Substituting $\lvert{M}F_1\rvert=5$ gives $\lvert5-\lvert{M}F_2\rvert\rvert=4$, so $\lvert{M}F_2\rvert=9$ or $\lvert{M}F_2\rvert=1$. Since the distance from a point on the hyperbola to the nearer focus is greater than $c-a=2$, the solution $\lvert{M}F_2\rvert=1$ is rejected, leaving $\lvert{M}F_2\rvert=9$. $\blacksquare$
 
 ## Exercise 2
 
@@ -112,7 +112,7 @@ $$
 \frac{x^2}{18}-\frac{y^2}{18}=1.
 $$
 
-By **Definition 3.2.6 (Asymptotes)**, the asymptotes are $y=\pm\frac{b}{a}x=\pm x$. $\blacksquare$
+By **Definition 3.2.6 (Asymptotes)**, the asymptotes are $y=\pm\frac{b}{a}x=\pm{x}$. $\blacksquare$
 
 ## Exercise 5
 
@@ -184,7 +184,7 @@ Simplifying gives $16x^2-\left(4x-16\right)^2=400$, i.e. $128x=656$, $x=\frac{41
 
 ## Exercise 8
 
-(Exercise 3.2, Problem 3) The line $y=\frac{2}{3}x$ intersects the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a> 0$) at $A$ and $B$, and the product of the abscissas of $A$ and $B$ is $-9$. Find the eccentricity $e$.
+(Exercise 3.2, Problem 3) The line $y=\frac{2}{3}x$ intersects the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a>0$) at $A$ and $B$, and the product of the abscissas of $A$ and $B$ is $-9$. Find the eccentricity $e$.
 
 ### Solution to Exercise 8
 
@@ -204,7 +204,7 @@ i.e. $x^2\left(\frac{1}{a^2}-\frac{1}{18}\right)=1$. Let the abscissas of the tw
 
 Rewrite the hyperbola $4x^2-y^2+64=0$ as $\frac{y^2}{64}-\frac{x^2}{16}=1$, with $a=8$, $b=4$, $c=\sqrt{64+16}=4\sqrt{5}$.
 
-By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. Given that the distance to one focus is $1$, the distance to the other is $1+16=17$ (rejecting $\lvert 1-16 \rvert=15$, because the distance from a point on the hyperbola to the nearer focus is at least $c-a=4\sqrt{5}-8\approx0.94> 0$; the distance $1$ corresponds to the nearer focus, so the distance to the farther focus is $17$). $\blacksquare$
+By **Common Conclusion 3.2.2** (Difference of Distances from a Point on a Hyperbola to the Two Foci), $\lvert\lvert{P}F_1\rvert-\lvert{P}F_2\rvert\rvert=2a=16$. Given that the distance to one focus is $1$, the distance to the other is $1+16=17$ (rejecting $\lvert1-16\rvert=15$, because the distance from a point on the hyperbola to the nearer focus is at least $c-a=4\sqrt{5}-8\approx0.94>0$; the distance $1$ corresponds to the nearer focus, so the distance to the farther focus is $17$). $\blacksquare$
 
 ## Problem 2
 
@@ -224,10 +224,10 @@ $$
 \frac{x^2}{20}-\frac{y^2}{16}=1.
 $$
 
-(2) Let the equation be $mx^2+ny^2=1$ ($mn< 0$). Substituting $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$:
+(2) Let the equation be $mx^2+ny^2=1$ ($mn<0$). Substituting $A\left(-7,-6\sqrt{2}\right)$ and $B\left(2\sqrt{7},3\right)$:
 
 $$
-49m+72n=1,\quad 28m+9n=1.
+49m+72n=1,\quad28m+9n=1.
 $$
 
 Solving gives $m=\frac{1}{25}$, $n=-\frac{1}{75}$. The standard equation is
@@ -296,15 +296,15 @@ The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ outside t
 
 ### Solution to Problem 5
 
-By the property of the perpendicular bisector, $\lvert QA \rvert=\lvert QP \rvert$. Also, $Q$ lies on the line $OP$, and $\lvert OP \rvert=r$.
+By the property of the perpendicular bisector, $\lvert{Q}A\rvert=\lvert{Q}P\rvert$. Also, $Q$ lies on the line $OP$, and $\lvert{O}P\rvert=r$.
 
-Since $A$ is outside the circle $O$, $\lvert OA \rvert> r$, and $Q$ lies on the extension of $OP$ (on the side beyond $P$), so $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, i.e.
+Since $A$ is outside the circle $O$, $\lvert{O}A\rvert>{}r$, and $Q$ lies on the extension of $OP$ (on the side beyond $P$), so $\lvert{Q}O\rvert=\lvert{Q}P\rvert+\lvert{P}O\rvert=\lvert{Q}A\rvert+r$, i.e.
 
 $$
-\lvert QO \rvert-\lvert QA \rvert=r.
+\lvert{Q}O\rvert-\lvert{Q}A\rvert=r.
 $$
 
-By **Definition 3.2.1 (Hyperbola)**, the difference of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$, and $r< \lvert OA \rvert$, so the locus of $Q$ is one branch of a hyperbola with foci at $O$ and $A$. $\blacksquare$
+By **Definition 3.2.1 (Hyperbola)**, the difference of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$, and $r<\lvert{O}A\rvert$, so the locus of $Q$ is one branch of a hyperbola with foci at $O$ and $A$. $\blacksquare$
 
 ## Problem 6
 
@@ -332,11 +332,11 @@ $\blacksquare$
 
 ### Solution to Problem 7
 
-(1) By **Definition 3.1.3 (Standard Equation of an Ellipse)**, a circle is the special case of an ellipse when $a=b$, so we need $m=n> 0$.
+(1) By **Definition 3.1.3 (Standard Equation of an Ellipse)**, a circle is the special case of an ellipse when $a=b$, so we need $m=n>0$.
 
-(2) By **Definition 3.1.3 (Standard Equation of Ellipse)**, an ellipse requires both denominators positive and unequal, i.e. $m> 0$, $n> 0$, and $m\neq n$.
+(2) By **Definition 3.1.3 (Standard Equation of Ellipse)**, an ellipse requires both denominators positive and unequal, i.e. $m>0$, $n>0$, and $m\neq{n}$.
 
-(3) By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, a hyperbola requires the two denominators to have opposite signs, i.e. $m> 0$, $n< 0$ or $m< 0$, $n> 0$. $\blacksquare$
+(3) By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, a hyperbola requires the two denominators to have opposite signs, i.e. $m>0$, $n<0$ or $m<0$, $n>0$. $\blacksquare$
 
 ## Problem 8
 
@@ -362,7 +362,7 @@ $\blacksquare$
 
 The difference of the distances from the explosion point to $A$ and $B$ is $340\times3=1020\,\mathrm{m}$. Take the midpoint of $AB$ as the origin and the line $AB$ as the $x$-axis; then $A\left(-700,0\right)$, $B\left(700,0\right)$, $2c=1400$, $c=700$.
 
-By **Common Conclusion 3.2.2**, $\lvert \lvert PA \rvert-\lvert PB \rvert \rvert=1020=2a$, $a=510$. $b^2=c^2-a^2=700^2-510^2=229900$. The explosion point lies on a hyperbola with foci at $A$ and $B$, with equation
+By **Common Conclusion 3.2.2**, $\lvert\lvert{P}A\rvert-\lvert{P}B\rvert\rvert=1020=2a$, $a=510$. $b^2=c^2-a^2=700^2-510^2=229900$. The explosion point lies on a hyperbola with foci at $A$ and $B$, with equation
 
 $$
 \frac{x^2}{260100}-\frac{y^2}{229900}=1.
@@ -372,7 +372,7 @@ $\blacksquare$
 
 ## Problem 10
 
-(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F\left(c,0\right)$ ($c> 0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a< c$). Find the locus equation of $M$ and describe its shape.
+(Exercise 3.2, Comprehensive Application, Problem 10) Let the ratio of the distance from a moving point $M$ to the fixed point $F\left(c,0\right)$ ($c>0$) to the distance from $M$ to the fixed line $l:x=\frac{a^2}{c}$ be $\frac{c}{a}$ ($a<{}c$). Find the locus equation of $M$ and describe its shape.
 
 ### Solution to Problem 10
 
@@ -388,7 +388,7 @@ $$
 \left(a^2-c^2\right)x^2+a^2y^2=a^2\left(a^2-c^2\right).
 $$
 
-Since $a< c$, we have $a^2-c^2< 0$; dividing both sides by $a^2\left(a^2-c^2\right)$ gives
+Since $a<{}c$, we have $a^2-c^2<0$; dividing both sides by $a^2\left(a^2-c^2\right)$ gives
 
 $$
 \frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
@@ -402,35 +402,35 @@ By **Definition 3.2.1 (Hyperbola)**, the locus is a hyperbola with foci on the $
 
 ### Solution to Problem 11
 
-Let $M\left(x,y\right)$. $MA\perp y=x$, with foot $A$ on $y=x$; $MB\perp y=-x$, with foot $B$ on $y=-x$.
+Let $M\left(x,y\right)$. $MA\perp{y}=x$, with foot $A$ on $y=x$; $MB\perp{y}=-x$, with foot $B$ on $y=-x$.
 
-By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. Since $A$ is in the first quadrant, $x+y> 0$; since $B$ is in the fourth quadrant, $x-y> 0$, so $x> \lvert y \rvert$.
+By the projection formula, the coordinates of $A$ are $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, and the coordinates of $B$ are $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. Since $A$ is in the first quadrant, $x+y>0$; since $B$ is in the fourth quadrant, $x-y>0$, so $x>\lvert{y}\rvert$.
 
-The quadrilateral $OAMB$ is split into $\triangle OMA$ and $\triangle OMB$. $\lvert OA \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$, $\lvert MA \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$; $\lvert OB \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$, $\lvert MB \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$. The area is
-
-$$
-S=\frac{1}{2}\lvert OA \rvert\lvert MA \rvert+\frac{1}{2}\lvert OB \rvert\lvert MB \rvert=\frac{1}{2}\cdot\frac{\lvert x^2-y^2 \rvert}{2}\cdot2=\frac{\lvert x^2-y^2 \rvert}{2}=3.
-$$
-
-Since $x> \lvert y \rvert$, we have $x^2-y^2> 0$, so $x^2-y^2=6$. The locus equation is
+The quadrilateral $OAMB$ is split into $\triangle{O}MA$ and $\triangle{O}MB$. $\lvert{O}A\rvert=\frac{\lvert{x}+y\rvert}{\sqrt{2}}$, $\lvert{M}A\rvert=\frac{\lvert{x}-y\rvert}{\sqrt{2}}$; $\lvert{O}B\rvert=\frac{\lvert{x}-y\rvert}{\sqrt{2}}$, $\lvert{M}B\rvert=\frac{\lvert{x}+y\rvert}{\sqrt{2}}$. The area is
 
 $$
-\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x> \sqrt{6}\right).
+S=\frac{1}{2}\lvert{O}A\rvert\lvert{M}A\rvert+\frac{1}{2}\lvert{O}B\rvert\lvert{M}B\rvert=\frac{1}{2}\cdot\frac{\lvert{x}^2-y^2\rvert}{2}\cdot2=\frac{\lvert{x}^2-y^2\rvert}{2}=3.
+$$
+
+Since $x>\lvert{y}\rvert$, we have $x^2-y^2>0$, so $x^2-y^2=6$. The locus equation is
+
+$$
+\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x>\sqrt{6}\right).
 $$
 
 $\blacksquare$
 
 ## Problem 12
 
-(Exercise 3.2, Extension and Exploration, Problem 12) Let the eccentricities of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) and the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ be $e_1$ and $e_2$, respectively, and suppose the slopes of the asymptotes of the hyperbola are less than $\frac{2\sqrt{5}}{5}$. Find the ranges of $e_1$ and $e_2$.
+(Exercise 3.2, Extension and Exploration, Problem 12) Let the eccentricities of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>{}b>0$) and the hyperbola $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ be $e_1$ and $e_2$, respectively, and suppose the slopes of the asymptotes of the hyperbola are less than $\frac{2\sqrt{5}}{5}$. Find the ranges of $e_1$ and $e_2$.
 
 ### Solution to Problem 12
 
 By **Definition 3.1.7 (Eccentricity of an Ellipse)**, $e_1=\frac{c_1}{a}=\frac{\sqrt{a^2-b^2}}{a}$; by **Definition 3.2.8 (Eccentricity of a Hyperbola)**, $e_2=\frac{c_2}{a}=\frac{\sqrt{a^2+b^2}}{a}$.
 
-The slopes of the hyperbola's asymptotes are $\frac{b}{a}< \frac{2\sqrt{5}}{5}$, so $\frac{b^2}{a^2}< \frac{4}{5}$.
+The slopes of the hyperbola's asymptotes are $\frac{b}{a}<\frac{2\sqrt{5}}{5}$, so $\frac{b^2}{a^2}<\frac{4}{5}$.
 
-Let $t=\frac{b^2}{a^2}$; then $0< t< \frac{4}{5}$. $e_1^2=1-t> \frac{1}{5}$, and since $e_1< 1$, we have $\frac{\sqrt{5}}{5}< e_1< 1$. $e_2^2=1+t< \frac{9}{5}$, and since $e_2> 1$, we have $1< e_2< \frac{3\sqrt{5}}{5}$. $\blacksquare$
+Let $t=\frac{b^2}{a^2}$; then $0<{}t<\frac{4}{5}$. $e_1^2=1-t>\frac{1}{5}$, and since $e_1<1$, we have $\frac{\sqrt{5}}{5}<{}e_1<1$. $e_2^2=1+t<\frac{9}{5}$, and since $e_2>1$, we have $1<{}e_2<\frac{3\sqrt{5}}{5}$. $\blacksquare$
 
 ## Problem 13
 
@@ -446,7 +446,7 @@ $$
 
 Simplifying gives $\left(2-k^2\right)x^2-2k\left(1-k\right)x-\left(1-k\right)^2-2=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. If $P\left(1,1\right)$ is the midpoint, then $x_1+x_2=2$. By Vieta's formulas, $x_1+x_2=\frac{2k\left(1-k\right)}{2-k^2}=2$, so $k=2$.
 
-When $k=2$, the equation becomes $-2x^2+4x-3=0$, with discriminant $\Delta=16-24=-8< 0$, so there are no real roots. Hence no such line exists, and $P$ cannot be the midpoint of $AB$. $\blacksquare$
+When $k=2$, the equation becomes $-2x^2+4x-3=0$, with discriminant $\Delta=16-24=-8<0$, so there are no real roots. Hence no such line exists, and $P$ cannot be the midpoint of $AB$. $\blacksquare$
 
 ## Problem 14
 
@@ -468,14 +468,14 @@ The locus is a hyperbola. Generalizing to a general hyperbola, the locus of the 
 
 ## Inquiry and Discovery 1
 
-(Think About It 1) Alternatively, we can directly compute $\lvert MQ \rvert$ and prove that as $x$ grows without bound, $\lvert MQ \rvert$ approaches $0$.
+(Think About It 1) Alternatively, we can directly compute $\lvert{M}Q\rvert$ and prove that as $x$ grows without bound, $\lvert{M}Q\rvert$ approaches $0$.
 
 ### Solution to Inquiry and Discovery 1
 
-In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x> a$). The distance from $M\left(x,y\right)$ to the asymptote $bx-ay=0$ is
+In the first quadrant, the hyperbola equation is $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x>{}a$). The distance from $M\left(x,y\right)$ to the asymptote $bx-ay=0$ is
 
 $$
-\lvert MQ \rvert=\frac{\lvert bx-ay \rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.
+\lvert{M}Q\rvert=\frac{\lvert{b}x-ay\rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.
 $$
 
 Rationalizing the numerator:
@@ -487,10 +487,10 @@ $$
 Hence
 
 $$
-\lvert MQ \rvert=\frac{ba^2}{\sqrt{a^2+b^2}\left(x+\sqrt{x^2-a^2}\right)}.
+\lvert{M}Q\rvert=\frac{ba^2}{\sqrt{a^2+b^2}\left(x+\sqrt{x^2-a^2}\right)}.
 $$
 
-As $x\to+\infty$, the denominator tends to infinity, so $\lvert MQ \rvert\to0$, i.e. the hyperbola approaches its asymptote without bound. $\blacksquare$
+As $x\to+\infty$, the denominator tends to infinity, so $\lvert{M}Q\rvert\to0$, i.e. the hyperbola approaches its asymptote without bound. $\blacksquare$
 
 ## Exercise 9
 
@@ -540,17 +540,17 @@ By **Definition 3.3.2 (Standard Equation of a Parabola)**, for $y^2=2px$ the foc
 
 (Exercise 3.3, Problem 3) Fill in the blanks.
 
-(1) A point $M$ on the parabola $y^2=2px$ ($p> 0$) is at distance $a$ ($a> \frac{p}{2}$) from the focus; then the distance from $M$ to the directrix is $\;\_\_\;$, and the abscissa of $M$ is $\;\_\_\;$;
+(1) A point $M$ on the parabola $y^2=2px$ ($p>0$) is at distance $a$ ($a>\frac{p}{2}$) from the focus; then the distance from $M$ to the directrix is $\;\_\_\;$, and the abscissa of $M$ is $\;\_\_\;$;
 
 (2) The coordinates of the point on the parabola $y^2=12x$ whose distance to the focus equals $9$ are $\;\_\_\;$.
 
 ### Solution to Exercise 11
 
-By **Common Conclusion 3.3.3** (Distance from a Point on a Parabola to Focus and Directrix), $\lvert MF \rvert=d$ ($d$ is the distance to the directrix).
+By **Common Conclusion 3.3.3** (Distance from a Point on a Parabola to Focus and Directrix), $\lvert{M}F\rvert=d$ ($d$ is the distance to the directrix).
 
-(1) $\lvert MF \rvert=a$, so the distance from $M$ to the directrix is $d=a$. The directrix is $x=-\frac{p}{2}$, so $x_M-\left(-\frac{p}{2}\right)=a$, i.e. $x_M=a-\frac{p}{2}$.
+(1) $\lvert{M}F\rvert=a$, so the distance from $M$ to the directrix is $d=a$. The directrix is $x=-\frac{p}{2}$, so $x_M-\left(-\frac{p}{2}\right)=a$, i.e. $x_M=a-\frac{p}{2}$.
 
-(2) For $y^2=12x$, $p=6$, focus $\left(3,0\right)$, directrix $x=-3$. $\lvert MF \rvert=9$, so $x_M+3=9$, $x_M=6$, $y=\pm\sqrt{72}=\pm6\sqrt{2}$. The coordinates are $\left(6,\pm6\sqrt{2}\right)$. $\blacksquare$
+(2) For $y^2=12x$, $p=6$, focus $\left(3,0\right)$, directrix $x=-3$. $\lvert{M}F\rvert=9$, so $x_M+3=9$, $x_M=6$, $y=\pm\sqrt{72}=\pm6\sqrt{2}$. The coordinates are $\left(6,\pm6\sqrt{2}\right)$. $\blacksquare$
 
 ## Exercise 12
 
@@ -598,18 +598,18 @@ The values of $2p$ for the four equations are $12$, $1$, $2$, and $4$. The large
 
 ## Exercise 14
 
-(Exercise 3.3, Problem 3) Through $M\left(2,0\right)$ draw the line $l$ with slope $1$, intersecting the parabola $y^2=4x$ at $A$ and $B$. Find $\lvert AB \rvert$.
+(Exercise 3.3, Problem 3) Through $M\left(2,0\right)$ draw the line $l$ with slope $1$, intersecting the parabola $y^2=4x$ at $A$ and $B$. Find $\lvert{A}B\rvert$.
 
 ### Solution to Exercise 14
 
 The line $l$ passes through $M\left(2,0\right)$ with slope $1$, so its equation is $y=x-2$. Substituting into $y^2=4x$ gives $\left(x-2\right)^2=4x$, i.e. $x^2-8x+4=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$; then $x_1+x_2=8$, $x_1x_2=4$.
 
-By the chord-length formula, $\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}=\sqrt{2}\cdot\sqrt{64-16}=\sqrt{2}\cdot4\sqrt{3}=4\sqrt{6}$. $\blacksquare$
+By the chord-length formula, $\lvert{A}B\rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}=\sqrt{2}\cdot\sqrt{64-16}=\sqrt{2}\cdot4\sqrt{3}=4\sqrt{6}$. $\blacksquare$
 
 ## Exercise 15
 
-(Exercise 3.3, Problem 4) A line perpendicular to the $x$-axis intersects the parabola $y^2=4x$ at $A$ and $B$, with $\lvert AB \rvert=4\sqrt{3}$. Find the equation of line $AB$.
+(Exercise 3.3, Problem 4) A line perpendicular to the $x$-axis intersects the parabola $y^2=4x$ at $A$ and $B$, with $\lvert{A}B\rvert=4\sqrt{3}$. Find the equation of line $AB$.
 
 ### Solution to Exercise 15
 
-Let the line perpendicular to the $x$-axis be $x=x_0$, intersecting the parabola at $A\left(x_0,y_0\right)$ and $B\left(x_0,-y_0\right)$; then $\lvert AB \rvert=2\lvert y_0 \rvert=4\sqrt{3}$, so $\lvert y_0 \rvert=2\sqrt{3}$. Substituting into $y^2=4x$ gives $12=4x_0$, $x_0=3$. The line is $x=3$. $\blacksquare$
+Let the line perpendicular to the $x$-axis be $x=x_0$, intersecting the parabola at $A\left(x_0,y_0\right)$ and $B\left(x_0,-y_0\right)$; then $\lvert{A}B\rvert=2\lvert{y}_0\rvert=4\sqrt{3}$, so $\lvert{y}_0\rvert=2\sqrt{3}$. Substituting into $y^2=4x$ gives $12=4x_0$, $x_0=3$. The line is $x=3$. $\blacksquare$

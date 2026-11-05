@@ -90,23 +90,23 @@
 
 ## Problem 1
 
-(Exercise 8.3, Comprehensive Application, Problem 7) A pile of identical iron hex nuts (iron density $7.9\times 10^{3}\text{ kg/m}^{3}$) has mass $5.8\text{ kg}$. As shown in the figure, each nut has a regular hexagonal base of side $12\text{ mm}$, an inner hole of diameter $10\text{ mm}$, and height $10\text{ mm}$. Approximately how many nuts are in the pile? (A calculator may be used; take $\pi$ as $3.14$.)
+(Exercise 8.3, Comprehensive Application, Problem 7) A pile of identical iron hex nuts (iron density $7.9\times10^{3}\text{~kg/m}^{3}$) has mass $5.8\text{~kg}$. As shown in the figure, each nut has a regular hexagonal base of side $12\text{~mm}$, an inner hole of diameter $10\text{~mm}$, and height $10\text{~mm}$. Approximately how many nuts are in the pile? (A calculator may be used; take $\pi$ as $3.14$.)
 
-The figure: a hexagonal nut—the base is a regular hexagon (side $12\text{ mm}$), with a cylindrical hole (diameter $10\text{ mm}$) bored through vertically, and a height of $10\text{ mm}$.
+The figure: a hexagonal nut—the base is a regular hexagon (side $12\text{~mm}$), with a cylindrical hole (diameter $10\text{~mm}$) bored through vertically, and a height of $10\text{~mm}$.
 
 ### Solution to Problem 1
 
 By **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, the volume of one nut equals the volume of the regular hexagonal prism minus the volume of the cylindrical inner hole.
 
-The regular hexagon area is $\frac{3\sqrt{3}}{2}\times 12^{2}=216\sqrt{3}\approx 374.1\text{ mm}^{2}$. The hexagonal-prism volume is $374.1\times 10=3741\text{ mm}^{3}$.
+The regular hexagon area is $\frac{3\sqrt{3}}{2}\times12^{2}=216\sqrt{3}\approx374.1\text{~mm}^{2}$. The hexagonal-prism volume is $374.1\times10=3741\text{~mm}^{3}$.
 
-The inner-hole cylinder has radius $5\text{ mm}$ and volume $\pi\times 5^{2}\times 10=250\pi\approx 785\text{ mm}^{3}$.
+The inner-hole cylinder has radius $5\text{~mm}$ and volume $\pi\times5^{2}\times10=250\pi\approx785\text{~mm}^{3}$.
 
-One nut has volume $3741-785=2956\text{ mm}^{3}=2.956\text{ cm}^{3}$.
+One nut has volume $3741-785=2956\text{~mm}^{3}=2.956\text{~cm}^{3}$.
 
-One nut has mass $7.9\text{ g/cm}^{3}\times 2.956\text{ cm}^{3}\approx 23.35\text{ g}$.
+One nut has mass $7.9\text{~g/cm}^{3}\times2.956\text{~cm}^{3}\approx23.35\text{~g}$.
 
-The number of nuts is approximately $\frac{5800}{23.35}\approx 248$. $\blacksquare$
+The number of nuts is approximately $\frac{5800}{23.35}\approx248$. $\blacksquare$
 
 ## Problem 2
 
@@ -116,14 +116,14 @@ The number of nuts is approximately $\frac{5800}{23.35}\approx 248$. $\blacksqua
 
 By **Definition 8.3.9 (Volume of a Cone)**, let the two legs be $a$, $b$ and the hypotenuse be $c=\sqrt{a^{2}+b^{2}}$.
 
-Rotating about the leg $a$ gives a cone with base radius $b$ and height $a$, of volume $V_{1}=\frac{1}{3}\pi b^{2}a$.
+Rotating about the leg $a$ gives a cone with base radius $b$ and height $a$, of volume $V_{1}=\frac{1}{3}\pi{b}^{2}a$.
 
-Rotating about the leg $b$ gives a cone with base radius $a$ and height $b$, of volume $V_{2}=\frac{1}{3}\pi a^{2}b$.
+Rotating about the leg $b$ gives a cone with base radius $a$ and height $b$, of volume $V_{2}=\frac{1}{3}\pi{a}^{2}b$.
 
 Rotating about the hypotenuse $c$ gives a composite of two cones on the same base, with base radius equal to the altitude to the hypotenuse $h=\frac{ab}{c}$, and total volume
 
 $$
-V_{3}=\frac{1}{3}\pi h^{2}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c^{2}}\cdot c=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c}.
+V_{3}=\frac{1}{3}\pi{h}^{2}\cdot{c}=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c^{2}}\cdot{c}=\frac{1}{3}\pi\cdot\frac{a^{2}b^{2}}{c}.
 $$
 
 A calculation gives
@@ -138,35 +138,35 @@ Hence the three volumes satisfy $\frac{1}{V_{3}^{2}}=\frac{1}{V_{1}^{2}}+\frac{1
 
 (Exercise 8.3, Extension and Exploration, Problem 9) The three-view drawing of a trophy is shown on the next page. Based on the three-view drawing, calculate its surface area and volume. (A calculator may be used; dimensions are as shown, in $\text{cm}$; take $\pi$ as $3.14$; round the results to integers.)
 
-(From bottom to top, the trophy consists of: a square frustum with lower base $20\times 16$, upper base $10\times 8$, height $2$; a square prism $8\times 4$, height $20$; and a sphere of diameter $4$.)
+(From bottom to top, the trophy consists of: a square frustum with lower base $20\times16$, upper base $10\times8$, height $2$; a square prism $8\times4$, height $20$; and a sphere of diameter $4$.)
 
-The figure: three views of a trophy—from bottom to top: a square frustum (lower base $20\times 16\text{ cm}$, upper base $10\times 8\text{ cm}$, height $2\text{ cm}$), a square prism ($8\times 4\text{ cm}$, height $20\text{ cm}$), and a sphere (diameter $4\text{ cm}$).
+The figure: three views of a trophy—from bottom to top: a square frustum (lower base $20\times16\text{~cm}$, upper base $10\times8\text{~cm}$, height $2\text{~cm}$), a square prism ($8\times4\text{~cm}$, height $20\text{~cm}$), and a sphere (diameter $4\text{~cm}$).
 
 ### Solution to Problem 3
 
 By **Definition 8.3.4 (Volume of a Frustum)**, **Definition 8.3.2 (Volume of a Prism-like or Cylinder-like Solid)**, and **Definition 8.3.12 (Volume of a Sphere)**, the trophy consists of three parts: a square frustum, a square prism, and a sphere.
 
-Volume: the frustum has lower base area $S=20\times 16=320$, upper base area $S'=10\times 8=80$, and height $2$; its volume is
+Volume: the frustum has lower base area $S=20\times16=320$, upper base area $S'=10\times8=80$, and height $2$; its volume is
 
 $$
-V_{\text{台}}=\frac{1}{3}\times 2\times\left(80+\sqrt{80\times 320}+320\right)=\frac{2}{3}\times 560=\frac{1120}{3}\approx 373.3.
+V_{\text{台}}=\frac{1}{3}\times2\times\left(80+\sqrt{80\times320}+320\right)=\frac{2}{3}\times560=\frac{1120}{3}\approx373.3.
 $$
 
-The prism volume is $8\times 4\times 20=640$. The sphere has radius $2$ and volume $\frac{4}{3}\pi\times 2^{3}=\frac{32\pi}{3}\approx 33.5$.
+The prism volume is $8\times4\times20=640$. The sphere has radius $2$ and volume $\frac{4}{3}\pi\times2^{3}=\frac{32\pi}{3}\approx33.5$.
 
-The total volume is $373.3+640+33.5\approx 1047\text{ cm}^{3}$.
+The total volume is $373.3+640+33.5\approx1047\text{~cm}^{3}$.
 
-Surface area: for the front and back lateral faces of the frustum (bases $20$, $10$), the slant height is $\sqrt{2^{2}+4^{2}}=2\sqrt{5}$, and their combined area is $2\times\frac{20+10}{2}\times 2\sqrt{5}=60\sqrt{5}$; for the left and right faces (bases $16$, $8$), the slant height is $\sqrt{2^{2}+5^{2}}=\sqrt{29}$, and their combined area is $2\times\frac{16+8}{2}\times\sqrt{29}=24\sqrt{29}$. The frustum's lower base area is $320$, and its exposed upper base area is $80-8\times 4=48$.
+Surface area: for the front and back lateral faces of the frustum (bases $20$, $10$), the slant height is $\sqrt{2^{2}+4^{2}}=2\sqrt{5}$, and their combined area is $2\times\frac{20+10}{2}\times2\sqrt{5}=60\sqrt{5}$; for the left and right faces (bases $16$, $8$), the slant height is $\sqrt{2^{2}+5^{2}}=\sqrt{29}$, and their combined area is $2\times\frac{16+8}{2}\times\sqrt{29}=24\sqrt{29}$. The frustum's lower base area is $320$, and its exposed upper base area is $80-8\times4=48$.
 
-The prism's lateral area is $2\left(8\times 20+4\times 20\right)=480$, and its upper base area is $8\times 4=32$.
+The prism's lateral area is $2\left(8\times20+4\times20\right)=480$, and its upper base area is $8\times4=32$.
 
-The sphere's surface area is $4\pi\times 2^{2}=16\pi$.
+The sphere's surface area is $4\pi\times2^{2}=16\pi$.
 
-The total surface area is $60\sqrt{5}+24\sqrt{29}+320+48+480+32+16\pi\approx 134.2+129.3+880+50.2\approx 1194\text{ cm}^{2}$. $\blacksquare$
+The total surface area is $60\sqrt{5}+24\sqrt{29}+320+48+480+32+16\pi\approx134.2+129.3+880+50.2\approx1194\text{~cm}^{2}$. $\blacksquare$
 
 ## Exercise 1
 
-(Exercise 8.4, Problem 1) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 8.4, Problem 1) Determine whether the following statements are correct; mark "$\sqrt{}$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
 (1) The surface of a desk is a plane.
 
@@ -276,7 +276,7 @@ $A'B$ and $C'D$ have the same direction and no common points, so they are parall
 
 ## Exercise 7
 
-(Exercise 8.4, Problem 3) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 8.4, Problem 3) Determine whether the following statements are correct; mark "$\sqrt{}$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
 (1) If infinitely many points on line $l$ are not in plane $\alpha$, then $l\parallel\alpha$.
 
@@ -314,11 +314,11 @@ Hence $a$ and $b$ may be parallel or may be skew. $\blacksquare$
 
 (Exercise 8.4, Review and Consolidation, Problem 1) Draw figures satisfying the following conditions:
 
-(1) $a\subset\alpha$, $b\subset\alpha$, $a\cap b=A$, $c\cap\alpha=A$;
+(1) $a\subset\alpha$, $b\subset\alpha$, $a\cap{b}=A$, $c\cap\alpha=A$;
 
-(2) $\alpha\cap\beta=l$, $AB\subset\alpha$, $CD\subset\beta$, $AB\parallel l$, $CD\parallel l$.
+(2) $\alpha\cap\beta=l$, $AB\subset\alpha$, $CD\subset\beta$, $AB\parallel{l}$, $CD\parallel{l}$.
 
-(Figure: two diagrams side by side; the left shows plane $\alpha$ with two intersecting lines $a,b$ meeting at $A$, and a line $c$ through $A$ piercing the plane; the right shows two intersecting planes $\alpha,\beta$ with intersection line $l$, and lines $AB\parallel l$ in $\alpha$ and $CD\parallel l$ in $\beta$.)
+(Figure: two diagrams side by side; the left shows plane $\alpha$ with two intersecting lines $a,b$ meeting at $A$, and a line $c$ through $A$ piercing the plane; the right shows two intersecting planes $\alpha,\beta$ with intersection line $l$, and lines $AB\parallel{l}$ in $\alpha$ and $CD\parallel{l}$ in $\beta$.)
 
 ### Solution to Problem 4
 
@@ -326,7 +326,7 @@ Draw by **Definition 8.4.1 (Plane)** and the symbolic notation for point-line-pl
 
 (1) Draw a parallelogram for plane $\alpha$; inside $\alpha$ draw two intersecting lines $a$, $b$ with intersection $A$; through $A$ draw a line $c$ passing out of plane $\alpha$, so that $c$ meets $\alpha$ only at $A$.
 
-(2) Draw two intersecting planes $\alpha$, $\beta$ with line of intersection $l$; in $\alpha$ draw line $AB\parallel l$, and in $\beta$ draw line $CD\parallel l$. $\blacksquare$
+(2) Draw two intersecting planes $\alpha$, $\beta$ with line of intersection $l$; in $\alpha$ draw line $AB\parallel{l}$, and in $\beta$ draw line $CD\parallel{l}$. $\blacksquare$
 
 ## Problem 5
 
@@ -350,7 +350,7 @@ Judge by **Corollary 8.4.5 (Corollary 1)** and **Definition 8.4.9 (Positional Re
 
 ## Problem 6
 
-(Exercise 8.4, Review and Consolidation, Problem 3) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 8.4, Review and Consolidation, Problem 3) Determine whether the following statements are correct; mark "$\sqrt{}$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
 (1) Three lines that are pairwise intersecting and not all through one point determine a plane.
 
@@ -396,7 +396,7 @@ Judge by **Corollary 8.4.6 (Corollary 2)** and **Definition 8.4.9 (Positional Re
 
 By **Definition 8.4.10 (Positional Relationships Between Two Planes)**, a cube has three pairs of mutually parallel faces.
 
-The cube has upper and lower parallel faces, left and right parallel faces, and front and back parallel faces. Each pair of parallel planes divides space into $3$ parts, so the three mutually perpendicular pairs of parallel planes divide space into $3\times 3\times 3=27$ parts.
+The cube has upper and lower parallel faces, left and right parallel faces, and front and back parallel faces. Each pair of parallel planes divides space into $3$ parts, so the three mutually perpendicular pairs of parallel planes divide space into $3\times3\times3=27$ parts.
 
 Hence the face planes of the cube divide space into $27$ parts. $\blacksquare$
 
@@ -408,9 +408,9 @@ Hence the face planes of the cube divide space into $27$ parts. $\blacksquare$
 
 By **Corollary 8.4.7 (Corollary 3)** and **Basic Fact 8.4.3** (Basic Fact 2).
 
-Let $a\parallel b$, and let $l$ meet $a$ at $A$ and $b$ at $B$.
+Let $a\parallel{b}$, and let $l$ meet $a$ at $A$ and $b$ at $B$.
 
-By **Corollary 8.4.7 (Corollary 3)**, the parallel lines $a$, $b$ determine a plane, call it $\alpha$. Since $A\in a\subset\alpha$ and $B\in b\subset\alpha$, we have $A\in\alpha$ and $B\in\alpha$.
+By **Corollary 8.4.7 (Corollary 3)**, the parallel lines $a$, $b$ determine a plane, call it $\alpha$. Since $A\in{a}\subset\alpha$ and $B\in{b}\subset\alpha$, we have $A\in\alpha$ and $B\in\alpha$.
 
 By **Basic Fact 8.4.3** (Basic Fact 2), since two points $A$, $B$ on line $l$ lie in plane $\alpha$, we have $l\subset\alpha$.
 
@@ -432,7 +432,7 @@ When three lines meet at one point, each pair of intersecting lines determines a
 
 ## Problem 11
 
-(Exercise 8.4, Comprehensive Application, Problem 8) As shown in the figure, $\triangle ABC$ lies outside plane $\alpha$, with $AB\cap\alpha=P$, $BC\cap\alpha=Q$, $AC\cap\alpha=R$. Prove that $P$, $Q$, $R$ are collinear.
+(Exercise 8.4, Comprehensive Application, Problem 8) As shown in the figure, $\triangle{A}BC$ lies outside plane $\alpha$, with $AB\cap\alpha=P$, $BC\cap\alpha=Q$, $AC\cap\alpha=R$. Prove that $P$, $Q$, $R$ are collinear.
 
 (Figure: a parallelogram representing plane $\alpha$, with triangle $ABC$ above the plane; the sides $AB,BC,AC$ pierce the plane at $P,Q,R$ respectively.)
 
@@ -440,9 +440,9 @@ When three lines meet at one point, each pair of intersecting lines determines a
 
 By **Basic Fact 8.4.4** (Basic Fact 3), the common points of two planes lie on their line of intersection.
 
-Since $P\in AB$ and $AB\subset$ plane $ABC$, we have $P\in$ plane $ABC$. Also $P\in\alpha$, so $P$ is a common point of plane $ABC$ and plane $\alpha$.
+Since $P\in{A}B$ and $AB\subset$ plane $ABC$, we have $P\in$ plane $ABC$. Also $P\in\alpha$, so $P$ is a common point of plane $ABC$ and plane $\alpha$.
 
-Similarly, $Q\in BC\subset$ plane $ABC$ and $Q\in\alpha$, so $Q$ is also a common point of plane $ABC$ and plane $\alpha$; $R\in AC\subset$ plane $ABC$ and $R\in\alpha$, so $R$ is also a common point of plane $ABC$ and plane $\alpha$.
+Similarly, $Q\in{B}C\subset$ plane $ABC$ and $Q\in\alpha$, so $Q$ is also a common point of plane $ABC$ and plane $\alpha$; $R\in{A}C\subset$ plane $ABC$ and $R\in\alpha$, so $R$ is also a common point of plane $ABC$ and plane $\alpha$.
 
 By **Basic Fact 8.4.4** (Basic Fact 3), plane $ABC$ and plane $\alpha$ have exactly one line of intersection $l$ through their common points. Hence $P$, $Q$, $R$ all lie on $l$, and the three points are collinear. $\blacksquare$
 
@@ -496,7 +496,7 @@ The cuboid has $12$ edges, among which the $4$ mutually parallel lateral edges a
 
 ## Exercise 11
 
-(Exercise 8.5, Problem 3) As shown in the figure, $AA'$, $BB'$, $CC'$ are not coplanar, and $AA'=\ BB'$, $BB'=\ CC'$. Prove that $\triangle ABC\cong\triangle A'B'C'$.
+(Exercise 8.5, Problem 3) As shown in the figure, $AA'$, $BB'$, $CC'$ are not coplanar, and $AA'=\,BB'$, $BB'=\,CC'$. Prove that $\triangle{A}BC\cong\triangle{A}'B'C'$.
 
 (Figure: two triangles $ABC$ and $A'B'C'$ with corresponding vertices joined by parallel equal segments $AA',BB',CC'$.)
 
@@ -504,15 +504,15 @@ The cuboid has $12$ edges, among which the $4$ mutually parallel lateral edges a
 
 By **Basic Fact 8.5.1** (Basic Fact 4) and **Theorem 8.5.2 (Equal-Angle Theorem)**.
 
-Since $AA'=\ BB'$, the quadrilateral $ABB'A'$ is a parallelogram, so $AB\parallel A'B'$ and $AB=A'B'$. Similarly, since $BB'=\ CC'$, $BC\parallel B'C'$ and $BC=B'C'$.
+Since $AA'=\,BB'$, the quadrilateral $ABB'A'$ is a parallelogram, so $AB\parallel{A}'B'$ and $AB=A'B'$. Similarly, since $BB'=\,CC'$, $BC\parallel{B}'C'$ and $BC=B'C'$.
 
-By **Theorem 8.5.2 (Equal-Angle Theorem)**, the two sides of $\angle ABC$ and those of $\angle A'B'C'$ are respectively parallel and in the same direction, so $\angle ABC=\angle A'B'C'$.
+By **Theorem 8.5.2 (Equal-Angle Theorem)**, the two sides of $\angle{A}BC$ and those of $\angle{A}'B'C'$ are respectively parallel and in the same direction, so $\angle{A}BC=\angle{A}'B'C'$.
 
-In $\triangle ABC$ and $\triangle A'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\angle A'B'C'$, hence $\triangle ABC\cong\triangle A'B'C'$. $\blacksquare$
+In $\triangle{A}BC$ and $\triangle{A}'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle{A}BC=\angle{A}'B'C'$, hence $\triangle{A}BC\cong\triangle{A}'B'C'$. $\blacksquare$
 
 ## Exercise 12
 
-(Exercise 8.5, Problem 4) As shown in the figure, in the tetrahedron $A\text{-}BCD$, $E$, $F$, $G$ are points on $AB$, $AC$, $AD$ respectively. If $EF\parallel BC$ and $FG\parallel CD$, what is the relationship between $\triangle EFG$ and $\triangle BCD$? Why?
+(Exercise 8.5, Problem 4) As shown in the figure, in the tetrahedron $A\text{-}BCD$, $E$, $F$, $G$ are points on $AB$, $AC$, $AD$ respectively. If $EF\parallel{B}C$ and $FG\parallel{C}D$, what is the relationship between $\triangle{E}FG$ and $\triangle{B}CD$? Why?
 
 (Figure: a tetrahedron $A\text{-}BCD$ with $E$ on $AB$, $F$ on $AC$, $G$ on $AD$, and $EF,FG,EG$ joined.)
 
@@ -520,11 +520,11 @@ In $\triangle ABC$ and $\triangle A'B'C'$, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\an
 
 By **Theorem 8.5.2 (Equal-Angle Theorem)** and the proportional division of a segment by parallel lines.
 
-Since $EF\parallel BC$ and $FG\parallel CD$, the corresponding sides are parallel and in the same direction, so $\angle EFG=\angle BCD$.
+Since $EF\parallel{B}C$ and $FG\parallel{C}D$, the corresponding sides are parallel and in the same direction, so $\angle{E}FG=\angle{B}CD$.
 
-Also, from $EF\parallel BC$, $\frac{EF}{BC}=\frac{AF}{AC}$; from $FG\parallel CD$, $\frac{FG}{CD}=\frac{AF}{AC}$. Hence $\frac{EF}{BC}=\frac{FG}{CD}$.
+Also, from $EF\parallel{B}C$, $\frac{EF}{BC}=\frac{AF}{AC}$; from $FG\parallel{C}D$, $\frac{FG}{CD}=\frac{AF}{AC}$. Hence $\frac{EF}{BC}=\frac{FG}{CD}$.
 
-Since the corresponding sides are proportional and the included angle is equal, $\triangle EFG\sim\triangle BCD$. $\blacksquare$
+Since the corresponding sides are proportional and the included angle is equal, $\triangle{E}FG\sim\triangle{B}CD$. $\blacksquare$
 
 ## Exercise 13
 
@@ -542,11 +542,11 @@ Since the corresponding sides are proportional and the included angle is equal, 
 
 By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-(1) $AB\parallel A'B'\subset$ plane $A'B'C'D'$, and $AB\parallel DC\subset$ plane $D'DC'C$, so the planes parallel to $AB$ are plane $A'B'C'D'$ and plane $D'DC'C$.
+(1) $AB\parallel{A}'B'\subset$ plane $A'B'C'D'$, and $AB\parallel{D}C\subset$ plane $D'DC'C$, so the planes parallel to $AB$ are plane $A'B'C'D'$ and plane $D'DC'C$.
 
-(2) $AA'\parallel BB'\subset$ plane $B'BCC'$, $AA'\parallel DD'\subset$ plane $D'DC'C$, so the planes parallel to $AA'$ are plane $B'BCC'$ and plane $D'DC'C$.
+(2) $AA'\parallel{B}B'\subset$ plane $B'BCC'$, $AA'\parallel{D}D'\subset$ plane $D'DC'C$, so the planes parallel to $AA'$ are plane $B'BCC'$ and plane $D'DC'C$.
 
-(3) $AD\parallel A'D'\subset$ plane $A'B'C'D'$, $AD\parallel BC\subset$ plane $B'BCC'$, so the planes parallel to $AD$ are plane $A'B'C'D'$ and plane $B'BCC'$. $\blacksquare$
+(3) $AD\parallel{A}'D'\subset$ plane $A'B'C'D'$, $AD\parallel{B}C\subset$ plane $B'BCC'$, so the planes parallel to $AD$ are plane $A'B'C'D'$ and plane $B'BCC'$. $\blacksquare$
 
 ## Exercise 14
 
@@ -558,7 +558,7 @@ By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
 By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**.
 
-In the cuboid, $AB\parallel DC$. Moreover, $DC\subset$ plane $DCC'D'$, and $AB\not\subset$ plane $DCC'D'$.
+In the cuboid, $AB\parallel{D}C$. Moreover, $DC\subset$ plane $DCC'D'$, and $AB\not\subset$ plane $DCC'D'$.
 
 By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, the line $AB$ outside the plane is parallel to the line $DC$ lying in the plane, so $AB\parallel$ plane $DCC'D'$. $\blacksquare$
 
@@ -580,7 +580,7 @@ By **Theorem 8.5.3 (Criterion for a Line Being Parallel to a Plane)**, the line 
 
 Judge by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**.
 
-(1) Wrong. $m$ and $n$ must intersect; if $m\parallel n$, the two planes may intersect.
+(1) Wrong. $m$ and $n$ must intersect; if $m\parallel{n}$, the two planes may intersect.
 
 (2) Correct. Two non-parallel lines in $\alpha$ are intersecting lines, and they are both parallel to $\beta$; by **Theorem 8.5.5 (Criterion for Two Parallel Planes)**, $\alpha\parallel\beta$.
 

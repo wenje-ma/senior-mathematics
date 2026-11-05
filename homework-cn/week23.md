@@ -76,11 +76,11 @@ $\boldsymbol{MN}=\boldsymbol{AN}-\boldsymbol{AM}=\frac{1}{3}\boldsymbol{AC}-\fra
 
 由**定义 6.2.11 (向量的数量积)** 与**常用结论 6.2.13**.
 
-(1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt 3}{2}\right)=-6\sqrt 3$.
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt3}{2}\right)=-6\sqrt3$.
 
-$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt 3+16=25-12\sqrt 3$.
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt3+16=25-12\sqrt3$.
 
-$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt 3}$.
+$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt3}$.
 
 (2) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=4-6+25=23$, 故 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{23}$.
 
@@ -96,7 +96,7 @@ $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert^2=\boldsymbol{a}^2-2\boldsymbol{a}\cd
 
 $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
 
-$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. 当 $\lambda< 0$ 时夹角改变但余弦符号一致, 等式仍成立. 同理 $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ 相同. $\blacksquare$
+$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. 当 $\lambda<0$ 时夹角改变但余弦符号一致, 等式仍成立. 同理 $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ 相同. $\blacksquare$
 
 ## 习题五
 
@@ -114,13 +114,13 @@ $\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{
 
 (1) $\boldsymbol{AD}=\boldsymbol{BC}$ 意味着 $AD$ 与 $BC$ 平行且相等, 故 $ABCD$ 为平行四边形.
 
-(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$ 意味着 $AD\parallel BC$ 但 $AD=\frac{1}{3}BC$, 故 $ABCD$ 为梯形.
+(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$ 意味着 $AD\parallel{B}C$ 但 $AD=\frac{1}{3}BC$, 故 $ABCD$ 为梯形.
 
-(3) $\boldsymbol{AB}=\boldsymbol{DC}$ 意味着 $AB\parallel DC$ 且 $AB=DC$, 为平行四边形; 又 $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$, 邻边相等, 故为菱形. $\blacksquare$
+(3) $\boldsymbol{AB}=\boldsymbol{DC}$ 意味着 $AB\parallel{D}C$ 且 $AB=DC$, 为平行四边形; 又 $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$, 邻边相等, 故为菱形. $\blacksquare$
 
 ## 习题六
 
-(习题 6.2 综合运用第 14 题) 在 $\triangle ABC$ 中, $\boldsymbol{AD}=\frac{1}{4}\boldsymbol{AB}$, $DE\parallel BC$, 且与边 $AC$ 相交于点 $E$, $\triangle ABC$ 的中线 $AM$ 与 $DE$ 相交于点 $N$. 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 用 $\boldsymbol{a}$, $\boldsymbol{b}$ 分别表示向量 $\boldsymbol{AE}$, $\boldsymbol{BC}$, $\boldsymbol{DE}$, $\boldsymbol{DB}$, $\boldsymbol{EC}$, $\boldsymbol{DN}$, $\boldsymbol{AN}$.
+(习题 6.2 综合运用第 14 题) 在 $\triangle{A}BC$ 中, $\boldsymbol{AD}=\frac{1}{4}\boldsymbol{AB}$, $DE\parallel{B}C$, 且与边 $AC$ 相交于点 $E$, $\triangle{A}BC$ 的中线 $AM$ 与 $DE$ 相交于点 $N$. 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 用 $\boldsymbol{a}$, $\boldsymbol{b}$ 分别表示向量 $\boldsymbol{AE}$, $\boldsymbol{BC}$, $\boldsymbol{DE}$, $\boldsymbol{DB}$, $\boldsymbol{EC}$, $\boldsymbol{DN}$, $\boldsymbol{AN}$.
 
 ### 解答 习题六
 
@@ -136,7 +136,7 @@ $\boldsymbol{DB}=\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{a}-\frac{1}{4}\bold
 
 $\boldsymbol{EC}=\boldsymbol{AC}-\boldsymbol{AE}=\boldsymbol{b}-\frac{1}{4}\boldsymbol{b}=\frac{3}{4}\boldsymbol{b}$.
 
-$N$ 为 $AM$ 与 $DE$ 的交点, $AM=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$, $N$ 在 $DE$ 上且 $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$? 由 $DE\parallel BC$ 且 $AD=\frac{1}{4}AB$, $N$ 在 $AM$ 上, $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
+$N$ 为 $AM$ 与 $DE$ 的交点, $AM=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$, $N$ 在 $DE$ 上且 $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$? 由 $DE\parallel{B}C$ 且 $AD=\frac{1}{4}AB$, $N$ 在 $AM$ 上, $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
 $\boldsymbol{DN}=\boldsymbol{AN}-\boldsymbol{AD}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{4}\boldsymbol{a}=-\frac{1}{8}\boldsymbol{a}+\frac{1}{8}\boldsymbol{b}$.
 
@@ -160,27 +160,27 @@ $E$ 为 $AD$ 中点, $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$; $F$ 为 $
 
 ## 习题八
 
-(习题 6.2 综合运用第 16 题) 飞机从甲地沿北偏西 $15^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达乙地, 再从乙地沿南偏东 $75^{\circ}$ 的方向飞行 $1400\text{ km}$ 到达丙地. 画出飞机飞行的位移示意图, 并说明丙地在甲地的什么方向? 丙地距甲地多远?
+(习题 6.2 综合运用第 16 题) 飞机从甲地沿北偏西 $15^{\circ}$ 的方向飞行 $1400\text{~km}$ 到达乙地, 再从乙地沿南偏东 $75^{\circ}$ 的方向飞行 $1400\text{~km}$ 到达丙地. 画出飞机飞行的位移示意图, 并说明丙地在甲地的什么方向? 丙地距甲地多远?
 
-图:位移示意图,以甲地 $A$ 为起点,第一位移 $\boldsymbol{AB}$ 沿北偏西 $15^\circ$ 方向长 $1400\text{ km}$ 到乙地 $B$,第二位移 $\boldsymbol{BC}$ 沿南偏东 $75^\circ$ 方向长 $1400\text{ km}$ 到丙地 $C$,连接 $AC$.
+图:位移示意图,以甲地 $A$ 为起点,第一位移 $\boldsymbol{AB}$ 沿北偏西 $15^\circ$ 方向长 $1400\text{~km}$ 到乙地 $B$,第二位移 $\boldsymbol{BC}$ 沿南偏东 $75^\circ$ 方向长 $1400\text{~km}$ 到丙地 $C$,连接 $AC$.
 
 ### 解答 习题八
 
 由**定义 6.2.1 (向量加法的三角形法则)**.
 
-设甲为原点, 第一位移 $\boldsymbol{AB}$ 方向北偏西 $15^{\circ}$, 长 $1400$; 第二位移 $\boldsymbol{BC}$ 方向南偏东 $75^{\circ}$, 长 $1400$. 两方向夹角为 $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? 北偏西 $15^{\circ}$ 与南偏东 $75^{\circ}$ 两方向之间夹角为 $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? 实际上, 从 $B$ 看, $A$ 在南偏东 $15^{\circ}$, $C$ 在南偏东 $75^{\circ}$, 故 $\angle ABC=75^{\circ}-15^{\circ}=60^{\circ}$. $AB=BC=1400$, $\triangle ABC$ 中 $\angle B=60^{\circ}$, 故 $AC=1400$. 丙地在甲地的南偏东方向, 距甲地 $1400\text{ km}$. $\blacksquare$
+设甲为原点, 第一位移 $\boldsymbol{AB}$ 方向北偏西 $15^{\circ}$, 长 $1400$; 第二位移 $\boldsymbol{BC}$ 方向南偏东 $75^{\circ}$, 长 $1400$. 两方向夹角为 $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? 北偏西 $15^{\circ}$ 与南偏东 $75^{\circ}$ 两方向之间夹角为 $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? 实际上, 从 $B$ 看, $A$ 在南偏东 $15^{\circ}$, $C$ 在南偏东 $75^{\circ}$, 故 $\angle{A}BC=75^{\circ}-15^{\circ}=60^{\circ}$. $AB=BC=1400$, $\triangle{A}BC$ 中 $\angle{B}=60^{\circ}$, 故 $AC=1400$. 丙地在甲地的南偏东方向, 距甲地 $1400\text{~km}$. $\blacksquare$
 
 ## 习题九
 
 (习题 6.2 拓广探索第 17 题)
 
-(1) 如图 (1), 在 $\triangle ABC$ 中, 计算 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
+(1) 如图 (1), 在 $\triangle{A}BC$ 中, 计算 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
 
 (2) 如图 (2), 在四边形 $ABCD$ 中, 计算 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}+\boldsymbol{DA}$;
 
-(3) 如图 (3), 在 $n$ 边形 $A_1A_2A_3\cdots A_n$ 中, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? 证明你的结论.
+(3) 如图 (3), 在 $n$ 边形 $A_1A_2A_3\cdots{A}_n$ 中, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? 证明你的结论.
 
-图:共三幅.图 (1):三角形 $ABC$,标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CA}$;图 (2):四边形 $ABCD$,标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CD}$, $\boldsymbol{DA}$;图 (3):$n$ 边形 $A_1A_2\cdots A_n$,标出首尾相接的有向边 $\boldsymbol{A_1A_2},\boldsymbol{A_2A_3},\ldots,\boldsymbol{A_nA_1}$.
+图:共三幅.图 (1):三角形 $ABC$,标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CA}$;图 (2):四边形 $ABCD$,标出有向边 $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CD}$, $\boldsymbol{DA}$;图 (3):$n$ 边形 $A_1A_2\cdots{A}_n$,标出首尾相接的有向边 $\boldsymbol{A_1A_2},\boldsymbol{A_2A_3},\ldots,\boldsymbol{A_nA_1}$.
 
 ### 解答 习题九
 
@@ -230,15 +230,15 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrig
 
 ## 习题十三
 
-(习题 6.2 拓广探索第 21 题) 已知 $\triangle ABC$ 的外接圆圆心为 $O$, 且 $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, 则向量 $\boldsymbol{BA}$ 在向量 $\boldsymbol{BC}$ 上的投影向量为 ().
+(习题 6.2 拓广探索第 21 题) 已知 $\triangle{A}BC$ 的外接圆圆心为 $O$, 且 $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, 则向量 $\boldsymbol{BA}$ 在向量 $\boldsymbol{BC}$ 上的投影向量为 ().
 
-(A) $\frac{1}{4}\boldsymbol{BC}$ (B) $\frac{\sqrt 3}{4}\boldsymbol{BC}$ (C) $-\frac{1}{4}\boldsymbol{BC}$ (D) $-\frac{\sqrt 3}{4}\boldsymbol{BC}$
+(A) $\frac{1}{4}\boldsymbol{BC}$ (B) $\frac{\sqrt3}{4}\boldsymbol{BC}$ (C) $-\frac{1}{4}\boldsymbol{BC}$ (D) $-\frac{\sqrt3}{4}\boldsymbol{BC}$
 
 ### 解答 习题十三
 
 由**常用结论 6.2.12** (投影向量).
 
-由 $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$ 知 $O$ 为 $BC$ 中点, 又 $O$ 为外心, 故 $\angle A=90^{\circ}$. $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, $OA=OB=R$, $AB=R$, $\triangle OAB$ 为等边三角形, $\angle B=60^{\circ}$.
+由 $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$ 知 $O$ 为 $BC$ 中点, 又 $O$ 为外心, 故 $\angle{A}=90^{\circ}$. $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, $OA=OB=R$, $AB=R$, $\triangle{O}AB$ 为等边三角形, $\angle{B}=60^{\circ}$.
 
 $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\rvert\cos60^{\circ}=AB\cdot\frac{1}{2}=\frac{R}{2}$. $BC=2R$, 故投影向量为 $\frac{R/2}{2R}\boldsymbol{BC}=\frac{1}{4}\boldsymbol{BC}$. 选 (A). $\blacksquare$
 
@@ -252,7 +252,7 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 由**定义 6.1.7 (相等向量)** 与**定理 6.2.8 (共线向量定理)**.
 
-在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
+在 $\square{A}BCD$ 中, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
 
 ## 习题十五
 
@@ -270,19 +270,19 @@ $\boldsymbol{BA}$ 在 $\boldsymbol{BC}$ 上的投影为 $\lvert\boldsymbol{BA}\r
 
 (1) 略.
 
-(2) $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$ 移项得 $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{OD}-\boldsymbol{OC}$, 即 $\boldsymbol{BA}=\boldsymbol{CD}$. 故 $BA\parallel CD$ 且 $BA=CD$, 四边形 $ABCD$ 为平行四边形. $\blacksquare$
+(2) $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$ 移项得 $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{OD}-\boldsymbol{OC}$, 即 $\boldsymbol{BA}=\boldsymbol{CD}$. 故 $BA\parallel{C}D$ 且 $BA=CD$, 四边形 $ABCD$ 为平行四边形. $\blacksquare$
 
 ## 习题十六
 
-(习题 6.2 拓广探索第 24 题) 如图, 在 $\odot C$ 中, 是不是只需知道 $\odot C$ 的半径或弦 $AB$ 的长度, 就可以求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$ 的值?
+(习题 6.2 拓广探索第 24 题) 如图, 在 $\odot{C}$ 中, 是不是只需知道 $\odot{C}$ 的半径或弦 $AB$ 的长度, 就可以求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$ 的值?
 
-图:以点 $C$ 为圆心的圆 $\odot C$,弦 $AB$ 的两个端点 $A$, $B$ 在圆上,圆心 $C$ 与 $A$, $B$ 相连,构成等腰三角形 $CAB$($CA=CB$ 为半径).
+图:以点 $C$ 为圆心的圆 $\odot{C}$,弦 $AB$ 的两个端点 $A$, $B$ 在圆上,圆心 $C$ 与 $A$, $B$ 相连,构成等腰三角形 $CAB$($CA=CB$ 为半径).
 
 ### 解答 习题十六
 
 由**定义 6.2.11 (向量的数量积)**.
 
-$\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos\angle BAC$. 设半径为 $R$, 弦长 $AB=l$, 圆心 $C$. $\boldsymbol{AC}$ 为半径向量, $\lvert\boldsymbol{AC}\rvert=R$. 由几何关系, $\cos\angle BAC$ 可由 $R$ 和 $l$ 确定 (等腰三角形 $CAB$ 中). 故只需知道半径 $R$ 和弦长 $l$ 即可求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$. $\blacksquare$
+$\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos\angle{B}AC$. 设半径为 $R$, 弦长 $AB=l$, 圆心 $C$. $\boldsymbol{AC}$ 为半径向量, $\lvert\boldsymbol{AC}\rvert=R$. 由几何关系, $\cos\angle{B}AC$ 可由 $R$ 和 $l$ 确定 (等腰三角形 $CAB$ 中). 故只需知道半径 $R$ 和弦长 $l$ 即可求出 $\boldsymbol{AB}\cdot\boldsymbol{AC}$. $\blacksquare$
 
 ## 练习一
 

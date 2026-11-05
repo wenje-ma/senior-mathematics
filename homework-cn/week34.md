@@ -60,7 +60,7 @@ $$
 
 ## 习题二
 
-(习题 9.1 综合运用第 6 题) 数据 $x_1,x_2,\cdots,x_n$ 的平均数为 $\overline x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline y$, $a,b$ 为常数. 如果满足 $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, 证明 $\overline y=a\overline x+b$.
+(习题 9.1 综合运用第 6 题) 数据 $x_1,x_2,\cdots,x_n$ 的平均数为 $\overline{x}$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline{y}$, $a,b$ 为常数. 如果满足 $y_1=ax_1+b$, $y_2=ax_2+b$, $\cdots$, $y_n=ax_n+b$, 证明 $\overline{y}=a\overline{x}+b$.
 
 ### 解答 习题二
 
@@ -69,31 +69,31 @@ $$
 因为 $y_i=ax_i+b$ ($i=1,2,\cdots,n$), 所以
 
 $$
-\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot nb=a\overline x+b.
+\overline{y}=\frac{1}{n}\sum_{i=1}^{n}y_i=\frac{1}{n}\sum_{i=1}^{n}\left(ax_i+b\right)=\frac{a}{n}\sum_{i=1}^{n}x_i+\frac{1}{n}\cdot{n}b=a\overline{x}+b.
 $$
 
 原式得证. $\blacksquare$
 
 ## 习题三
 
-(习题 9.1 综合运用第 7 题) 已知总体划分为 3 层, 通过分层随机抽样, 得到各层的样本平均数分别为 $\overline x,\overline y,\overline z$.
+(习题 9.1 综合运用第 7 题) 已知总体划分为 3 层, 通过分层随机抽样, 得到各层的样本平均数分别为 $\overline{x},\overline{y},\overline{z}$.
 
 (1) 根据以上信息可以估计总体平均数吗? 如果不能, 还需要什么条件? 写出估计式.
 
 (2) 如果样本量是按比例分配, 第 1, 2, 3 层的个体数分别为 $L,M,N$, 样本量分别为 $l,m,n$, 证明:
 
 $$
-\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+\frac{L}{L+M+N}\overline{x}+\frac{M}{L+M+N}\overline{y}+\frac{N}{L+M+N}\overline{z}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}.
 $$
 
 ### 解答 习题三
 
 由**定义 9.1.5 (分层随机抽样, 层与比例分配)** 与**常用结论 9.1.6** (分层随机抽样的总体平均数估计).
 
-(1) 仅凭各层的样本平均数 $\overline x,\overline y,\overline z$ 不能估计总体平均数, 还需要知道各层在总体中所占的比重 (即各层的个体数或样本量), 才能对各层样本平均数加权. 估计式为
+(1) 仅凭各层的样本平均数 $\overline{x},\overline{y},\overline{z}$ 不能估计总体平均数, 还需要知道各层在总体中所占的比重 (即各层的个体数或样本量), 才能对各层样本平均数加权. 估计式为
 
 $$
-\overline W=\frac{L\overline x+M\overline y+N\overline z}{L+M+N},
+\overline{W}=\frac{L\overline{x}+M\overline{y}+N\overline{z}}{L+M+N},
 $$
 
 其中 $L,M,N$ 分别为第 1, 2, 3 层的个体数.
@@ -109,7 +109,7 @@ $$
 代入即得
 
 $$
-\frac{L}{L+M+N}\overline x+\frac{M}{L+M+N}\overline y+\frac{N}{L+M+N}\overline z=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+\frac{L}{L+M+N}\overline{x}+\frac{M}{L+M+N}\overline{y}+\frac{N}{L+M+N}\overline{z}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}.
 $$
 
 原式得证. $\blacksquare$
@@ -208,13 +208,13 @@ $$
 
 ## 练习一
 
-(练习 9.2 第 1 题) 从某小区抽取 100 户居民用户进行月用电量调查, 发现他们的用电量都在 $50\sim350\,\mathrm{kW\cdot h}$ 之间, 进行适当分组后 (每组为左闭右开的区间), 画出频率分布直方图如图.
+(练习 9.2 第 1 题) 从某小区抽取 100 户居民用户进行月用电量调查, 发现他们的用电量都在 $50\sim350\,\mathrm{kW\cdot{h}}$ 之间, 进行适当分组后 (每组为左闭右开的区间), 画出频率分布直方图如图.
 
 (1) 直方图中 $x$ 的值为 $\;\_\_\;$;
 
 (2) 在被调查的用户中, 用电量落在区间 $\left[100,250\right)$ 内的户数为 $\;\_\_\;$.
 
-(题图: 频率分布直方图, 横轴为月用电量 ($\mathrm{kW\cdot h}$), 从 $50$ 到 $350$ 共分 $6$ 组, 组距 $50$, 各组依次为 $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; 纵轴为 $\frac{\text{频率}}{\text{组距}}$, 六组对应高度分别为 $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
+(题图: 频率分布直方图, 横轴为月用电量 ($\mathrm{kW\cdot{h}}$), 从 $50$ 到 $350$ 共分 $6$ 组, 组距 $50$, 各组依次为 $\left[50,100\right),\left[100,150\right),\left[150,200\right),\left[200,250\right),\left[250,300\right),\left[300,350\right]$; 纵轴为 $\frac{\text{频率}}{\text{组距}}$, 六组对应高度分别为 $0.0024,0.0036,0.0060,x,0.0024,0.0012$.)
 
 ### 解答 练习一
 
@@ -389,7 +389,7 @@ $87,90,90,102,126,138,158,163,170,172,71,76,88,93,94,104,160,180,200,220,75,80,8
 平均数: 数据之和为 $87+90+\cdots+190=3858$, 故
 
 $$
-\overline x=\frac{3858}{30}=128.6.
+\overline{x}=\frac{3858}{30}=128.6.
 $$
 
 把 30 个数据从小到大排列, 第 80 百分位数: $i=30\times80\%=24$, 是整数, 故第 80 百分位数为第 24 个数与第 25 个数的平均数, 即
@@ -446,7 +446,7 @@ $$
 85\times50\%+95\times40\%+95\times10\%=42.5+38+9.5=90.
 $$
 
-因为 $91> 90$, 所以选手甲为第一名, 选手乙为第二名.
+因为 $91>90$, 所以选手甲为第一名, 选手乙为第二名.
 
 在加权平均数中, 平均数的大小不仅取决于各项数据本身的大小, 还取决于各项的权重. 权重越大的项, 对平均数的影响越大. 这里演讲内容权重最大, 故甲在演讲内容上的高分使其综合成绩超过了演讲能力更强的乙. $\blacksquare$
 
@@ -485,7 +485,7 @@ $$
 甲的平均数为
 
 $$
-\overline x_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
+\overline{x}_{\text{甲}}=\frac{0+1+0+2+2+0+3+1+2+4}{10}=1.5,
 $$
 
 方差为 $s_{\text{甲}}^2=\frac{16.5}{10}=1.65$, 标准差 $s_{\text{甲}}\approx1.28$.
@@ -493,7 +493,7 @@ $$
 乙的平均数为
 
 $$
-\overline x_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
+\overline{x}_{\text{乙}}=\frac{2+3+1+1+0+2+1+1+0+1}{10}=1.2,
 $$
 
 方差为 $s_{\text{乙}}^2=\frac{7.6}{10}=0.76$, 标准差 $s_{\text{乙}}\approx0.87$.
@@ -534,10 +534,10 @@ $$
 
 由**常用结论 9.2.6** (数据变换对平均数与方差的影响).
 
-因为 $y_i=ax_i+b$, 由**常用结论 9.2.6**, $\overline y=a\overline x+b$, 故 $y_i-\overline y=a\left(x_i-\overline x\right)$. 于是
+因为 $y_i=ax_i+b$, 由**常用结论 9.2.6**, $\overline{y}=a\overline{x}+b$, 故 $y_i-\overline{y}=a\left(x_i-\overline{x}\right)$. 于是
 
 $$
-s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline y\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline x\right)^2=a^2s_x^2,
+s_y^2=\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\overline{y}\right)^2=\frac{1}{n}\sum_{i=1}^{n}a^2\left(x_i-\overline{x}\right)^2=a^2s_x^2,
 $$
 
 从而 $s_y=\sqrt{a^2s_x^2}=\left|a\right|s_x$. 原式得证. $\blacksquare$
@@ -550,13 +550,13 @@ $$
 
 由**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
 
-由 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0$, 得
+由 $s^2=\frac{1}{n}\sum_{i=1}^{n}\left(x_i-\overline{x}\right)^2=0$, 得
 
 $$
-\sum_{i=1}^{n}\left(x_i-\overline x\right)^2=0.
+\sum_{i=1}^{n}\left(x_i-\overline{x}\right)^2=0.
 $$
 
-每一项 $\left(x_i-\overline x\right)^2\ge0$, 它们的和为 0, 故每一项都为 0, 即 $x_i-\overline x=0$, $x_i=\overline x$ 对所有 $i$ 成立. 所以所有的 $x_i$ 都相同. $\blacksquare$
+每一项 $\left(x_i-\overline{x}\right)^2\ge0$, 它们的和为 0, 故每一项都为 0, 即 $x_i-\overline{x}=0$, $x_i=\overline{x}$ 对所有 $i$ 成立. 所以所有的 $x_i$ 都相同. $\blacksquare$
 
 ## 习题十四
 

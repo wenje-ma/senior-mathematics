@@ -34,7 +34,7 @@ By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **D
 
 (1) Taking $1$ book at random, one may take a mathematics book from the top shelf or a Chinese language book from the bottom shelf; these are two mutually disjoint categories. By **Definition 6.1.1 (分类加法计数原理)**, the number of different choices is $6+5=11$.
 
-(2) Taking a mathematics book and a Chinese language book, $1$ of each, requires first taking $1$ mathematics book and then $1$ Chinese language book, which are two steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is $6\times 5=30$. $\blacksquare$
+(2) Taking a mathematics book and a Chinese language book, $1$ of each, requires first taking $1$ mathematics book and then $1$ Chinese language book, which are two steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is $6\times5=30$. $\blacksquare$
 
 ## Exercise 3
 
@@ -50,20 +50,20 @@ By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **D
 
 (1) Choosing $1$ person at random, one may pick any one of the three grades, Grade 10, Grade 11, or Grade 12, to choose from; these are three mutually disjoint categories. By **Definition 6.1.1 (分类加法计数原理)**, the number of different choices is $3+5+4=12$.
 
-(2) Choosing $1$ person from each grade requires choosing $1$ student from Grade 10, $1$ from Grade 11, and $1$ from Grade 12, which are three steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is $3\times 5\times 4=60$. $\blacksquare$
+(2) Choosing $1$ person from each grade requires choosing $1$ student from Grade 10, $1$ from Grade 11, and $1$ from Grade 12, which are three steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is $3\times5\times4=60$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 6.1, Problem 1) The telephone numbers within the jurisdiction of a telephone exchange consist of $8$ digits, of which the first $4$ digits are fixed and the last $4$ digits are each a digit from $0\sim 9$. At most how many different telephone numbers can this exchange have?
+(Exercise 6.1, Problem 1) The telephone numbers within the jurisdiction of a telephone exchange consist of $8$ digits, of which the first $4$ digits are fixed and the last $4$ digits are each a digit from $0\sim9$. At most how many different telephone numbers can this exchange have?
 
 ### Solution to Exercise 4
 
 By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-The first $4$ digits are already fixed and do not affect the number of numbers. Each of the last $4$ digits can be taken at random from the $10$ digits $0\sim 9$, and digits may repeat. Determining a telephone number requires successively fixing the last $4$ digits, four steps in total, each with $10$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different numbers is
+The first $4$ digits are already fixed and do not affect the number of numbers. Each of the last $4$ digits can be taken at random from the $10$ digits $0\sim9$, and digits may repeat. Determining a telephone number requires successively fixing the last $4$ digits, four steps in total, each with $10$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different numbers is
 
 $$
-10\times 10\times 10\times 10=10^4=10000.
+10\times10\times10\times10=10^4=10000.
 $$
 
 Therefore this exchange can have at most $10000$ different telephone numbers. $\blacksquare$
@@ -79,7 +79,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 Choosing a head group leader and a deputy group leader, $1$ of each, requires first choosing the head group leader and then the deputy. Step $1$: choose $1$ of the $5$ students as head group leader, with $5$ choices. Step $2$: once the head group leader is chosen, choose $1$ of the remaining $4$ students as deputy, with $4$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is
 
 $$
-5\times 4=20.
+5\times4=20.
 $$
 
 Therefore there are $20$ different choices. $\blacksquare$
@@ -95,7 +95,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 Writing a subtraction expression requires first choosing the minuend and then the subtrahend, which are two steps. Step $1$: the minuend is taken at random from $1$ to $20$, with $20$ choices. Step $2$: the subtrahend is taken at random from $1$ to $10$, with $10$ choices. Each pairing of minuend and subtrahend corresponds to a different expression. By **Definition 6.1.2 (Directed Line Segment)**, the number of different expressions is
 
 $$
-20\times 10=200.
+20\times10=200.
 $$
 
 Therefore $200$ different expressions can be obtained. $\blacksquare$
@@ -108,7 +108,7 @@ Therefore $200$ different expressions can be obtained. $\blacksquare$
 
 By **Definition 6.1.1 (Addition Counting Principle for Classification)**, count by classifying according to the remainder upon division by $5$.
 
-Numbers leaving a remainder of $2$ when divided by $5$ have the form $5k+2$, where $k$ is a nonnegative integer. We require $1\le 5k+2\le 500$, i.e., $-1\le 5k\le 498$, equivalently $0\le k\le 99.6$. Thus $k$ can take $0,1,2,\cdots,99$, $100$ values in total.
+Numbers leaving a remainder of $2$ when divided by $5$ have the form $5k+2$, where $k$ is a nonnegative integer. We require $1\le5k+2\le500$, i.e., $-1\le5k\le498$, equivalently $0\le{k}\le99.6$. Thus $k$ can take $0,1,2,\cdots,99$, $100$ values in total.
 
 Therefore, among $1,2,\cdots,500$, there are $100$ numbers leaving a remainder of $2$ when divided by $5$. $\blacksquare$
 
@@ -123,7 +123,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 Forming a three-digit number requires successively fixing the hundreds, tens, and units digits, three steps in total. Each digit can be taken at random from the $5$ digits $1,2,3,4,5$, and digits may repeat, so each position has $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of three-digit numbers that can be formed is
 
 $$
-5\times 5\times 5=125.
+5\times5\times5=125.
 $$
 
 Therefore $125$ three-digit numbers can be formed. $\blacksquare$
@@ -139,7 +139,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 Each term of the expanded product is obtained by taking one $a_i$ at random from the first parentheses, one $b_j$ at random from the second parentheses, and one $c_k$ at random from the third parentheses, and multiplying them. Fixing a term of the expansion requires three steps: Step $1$ chooses $1$ of the $3$ $a_i$'s, with $3$ choices; Step $2$ chooses $1$ of the $3$ $b_j$'s, with $3$ choices; Step $3$ chooses $1$ of the $5$ $c_k$'s, with $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, after expansion there are in total
 
 $$
-3\times 3\times 5=45
+3\times3\times5=45
 $$
 
 terms. $\blacksquare$
@@ -152,7 +152,7 @@ terms. $\blacksquare$
 
 By **Definition 6.1.1 (Addition Counting Principle for Classification)**, classify by the tens digit.
 
-The tens digit can take $1,2,\cdots,9$. For each tens digit $t$, the units digit must be smaller than $t$ and be a digit from $0\sim 9$.
+The tens digit can take $1,2,\cdots,9$. For each tens digit $t$, the units digit must be smaller than $t$ and be a digit from $0\sim9$.
 
 (1) When the tens digit is $1$, the units digit can only be $0$, giving $1$ number;
 
@@ -163,7 +163,7 @@ The tens digit can take $1,2,\cdots,9$. For each tens digit $t$, the units digit
 And so on; when the tens digit is $t$, there are $t$ numbers. By **Definition 6.1.1 (分类加法计数原理)**, the number of two-digit numbers whose units digit is smaller than their tens digit is
 
 $$
-1+2+3+\cdots+9=\frac{9\times 10}{2}=45
+1+2+3+\cdots+9=\frac{9\times10}{2}=45
 $$
 
 . $\blacksquare$
@@ -179,7 +179,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 Entering and leaving the mall requires first choosing the entrance and then the exit, which are two steps. Step $1$: choose any $1$ of the $6$ doors to enter, with $6$ choices. Step $2$: once the entrance is chosen, choose $1$ of the remaining $5$ doors as the exit, with $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different ways of entering and leaving is
 
 $$
-6\times 5=30.
+6\times5=30.
 $$
 
 Therefore there are $30$ different ways of entering and leaving the mall. $\blacksquare$
@@ -238,9 +238,9 @@ By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **D
 
 There are two categories of routes from Place A to Place D: one via Place B and one via Place C.
 
-(1) Via Place B: first from A to B there are $2$ roads, then from B to D there are $3$ roads. By **Definition 6.1.2 (Directed Line Segment)**, this category has $2\times 3=6$ routes.
+(1) Via Place B: first from A to B there are $2$ roads, then from B to D there are $3$ roads. By **Definition 6.1.2 (Directed Line Segment)**, this category has $2\times3=6$ routes.
 
-(2) Via Place C: first from A to C there are $4$ roads, then from C to D there are $2$ roads. By **Definition 6.1.2 (Directed Line Segment)**, this category has $4\times 2=8$ routes.
+(2) Via Place C: first from A to C there are $4$ roads, then from C to D there are $2$ roads. By **Definition 6.1.2 (Directed Line Segment)**, this category has $4\times2=8$ routes.
 
 The two categories are mutually disjoint. By **Definition 6.1.1 (分类加法计数原理)**, from Place A to Place D there are in total
 
@@ -279,7 +279,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 (1) Forming a fraction requires first choosing the numerator and then the denominator, which are two steps. The numerator has $4$ choices and the denominator has $4$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the total number of fractions that can be formed is
 
 $$
-4\times 4=16
+4\times4=16
 $$
 
 fractions.
@@ -303,7 +303,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 Taking $1$ ball from each bag requires first taking $1$ ball from the first bag and then $1$ from the second bag, which are two steps. The first bag has $5$ balls and the second bag has $6$ balls, and all balls have distinct colors. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is
 
 $$
-5\times 6=30.
+5\times6=30.
 $$
 
 Therefore there are $30$ different choices. $\blacksquare$
@@ -323,7 +323,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 (1) Fixing the coordinates of a point requires first taking the x-coordinate and then the y-coordinate, which are two steps. The x-coordinate has $6$ choices in $A$, and the y-coordinate also has $6$ choices in $A$. By **Definition 6.1.2 (Directed Line Segment)**, the number of distinct points is
 
 $$
-6\times 6=36
+6\times6=36
 $$
 
 .
@@ -331,23 +331,23 @@ $$
 (2) Fixing a line requires first taking the slope and then the y-intercept, which are two steps. The slope has $4$ choices in $B$, and the y-intercept has $4$ choices in $C$. Each pairing of slope and intercept determines a distinct line. By **Definition 6.1.2 (Directed Line Segment)**, the number of distinct lines is
 
 $$
-4\times 4=16
+4\times4=16
 $$
 
 . $\blacksquare$
 
 ## Problem 7
 
-(Exercise 6.1, Comprehensive Application, Problem 7) A combination lock has $4$ dials, each with the $10$ digits $0\sim 9$. Now the last dial has malfunctioned and can only be set among the $6$ digits $0\sim 5$. How many four-digit numbers can these $4$ dials form?
+(Exercise 6.1, Comprehensive Application, Problem 7) A combination lock has $4$ dials, each with the $10$ digits $0\sim9$. Now the last dial has malfunctioned and can only be set among the $6$ digits $0\sim5$. How many four-digit numbers can these $4$ dials form?
 
 ### Solution to Problem 7
 
 By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-Setting a four-digit number requires successively turning the $4$ dials, four steps in total. Each of the first $3$ dials has the $10$ digits $0\sim 9$, giving $10$ ways each; the last dial has malfunctioned and can only be set among the $6$ digits $0\sim 5$, giving $6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of four-digit numbers that can be formed is
+Setting a four-digit number requires successively turning the $4$ dials, four steps in total. Each of the first $3$ dials has the $10$ digits $0\sim9$, giving $10$ ways each; the last dial has malfunctioned and can only be set among the $6$ digits $0\sim5$, giving $6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of four-digit numbers that can be formed is
 
 $$
-10\times 10\times 10\times 6=6000.
+10\times10\times10\times6=6000.
 $$
 
 Therefore $6000$ four-digit numbers can be formed. $\blacksquare$
@@ -367,7 +367,7 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 (1) The task is for each of the $4$ students to join one team. For each student, $1$ team must be chosen among the $3$ teams: football, basketball, and table tennis. Decomposing by student, there are $4$ steps in total, each with $3$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different sign-up ways is
 
 $$
-3\times 3\times 3\times 3=3^4.
+3\times3\times3\times3=3^4.
 $$
 
 Therefore it is $3^4$.
@@ -375,7 +375,7 @@ Therefore it is $3^4$.
 (2) The task is for each of the $3$ classes to choose one scenic spot. For each class, $1$ spot must be chosen among the $5$ spots. Decomposing by class, there are $3$ steps in total, each with $5$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of different choices is
 
 $$
-5\times 5\times 5=5^3.
+5\times5\times5=5^3.
 $$
 
 Therefore it is $5^3$. $\blacksquare$
@@ -395,13 +395,13 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 (1) The task of giving gifts can be decomposed by student: the $1$st student chooses $1$ of the $5$ gifts, with $5$ ways; the $2$nd student chooses $1$ of the remaining $4$ gifts, with $4$ ways; the $3$rd student chooses $1$ of the remaining $3$ gifts, with $3$ ways; the $4$th student chooses $1$ of the remaining $2$ gifts, with $2$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of different ways of giving is
 
 $$
-5\times 4\times 3\times 2=120.
+5\times4\times3\times2=120.
 $$
 
 (2) Placing the $3$ different books can be decomposed by book: each book may be put into any one of the $5$ drawers, and a drawer may hold more than one book, so each book has $5$ ways of placement. By **Definition 6.1.2 (Directed Line Segment)**, the number of different ways of placement is
 
 $$
-5\times 5\times 5=125.
+5\times5\times5=125.
 $$
 
 $\blacksquare$
@@ -425,13 +425,13 @@ By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **D
 (1) Drawing exactly one white ball and one red ball requires first taking $1$ of the $8$ white balls and then $1$ of the $10$ red balls. By **Definition 6.1.2 (Directed Line Segment)**, the number of ways is
 
 $$
-8\times 10=80.
+8\times10=80.
 $$
 
 (2) Drawing exactly two white balls requires taking $2$ of the $8$ white balls. Taking the first white ball has $8$ ways, and taking the second white ball from the remaining $7$ has $7$ ways; since drawing balls does not consider order, each way is counted twice, so the number of ways is
 
 $$
-\frac{8\times 7}{2}=28.
+\frac{8\times7}{2}=28.
 $$
 
 (3) Drawing at least one white ball includes two categories: one white and one red, and two white. From (1), one white and one red gives $80$ ways; from (2), two white gives $28$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the number of ways is
@@ -440,7 +440,7 @@ $$
 80+28=108.
 $$
 
-(4) Drawing two balls of the same color includes two categories: two white and two red. Two white gives $28$ ways; similarly, two red gives $\frac{10\times 9}{2}=45$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the number of ways is
+(4) Drawing two balls of the same color includes two categories: two white and two red. Two white gives $28$ ways; similarly, two red gives $\frac{10\times9}{2}=45$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the number of ways is
 
 $$
 28+45=73.
@@ -461,10 +461,10 @@ The task of scheduling duty is decomposed by day, $7$ steps in total. On day $1$
 Thus day $1$ has $7$ choices, and days $2$ through $7$ each have $6$ choices. By **Definition 6.1.2 (Directed Line Segment)**, the number of possible arrangements is
 
 $$
-7\times 6^6.
+7\times6^6.
 $$
 
-That is, there are $7\times 6^6$ possible arrangements. $\blacksquare$
+That is, there are $7\times6^6$ possible arrangements. $\blacksquare$
 
 ## Problem 12
 
@@ -477,13 +477,13 @@ By **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Proces
 First factor into primes. Since
 
 $$
-2160=2^4\times 3^3\times 5.
+2160=2^4\times3^3\times5.
 $$
 
 Taking any positive divisor, the exponent of $2$ in its prime factorization can be $0,1,2,3,4$, $5$ choices; the exponent of $3$ can be $0,1,2,3$, $4$ choices; the exponent of $5$ can be $0,1$, $2$ choices. Fixing a positive divisor requires choosing the exponents of $2,3,5$ separately, which are three steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of distinct positive divisors is
 
 $$
-5\times 4\times 2=40.
+5\times4\times2=40.
 $$
 
 Therefore $2160$ has $40$ distinct positive divisors. $\blacksquare$

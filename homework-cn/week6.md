@@ -2,11 +2,11 @@
 
 > **定义 3.1.1 (函数)**
 > 
-> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to{B}$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in{A}$.
 
 > **定义 3.1.2 (定义域与值域)**
 > 
-> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+> 对于函数 $y=f\left(x\right)$, $x\in{A}$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid{x}\in{A}\right\}$ 叫做函数的值域.
 
 > **定义 3.1.6 (函数的表示法)**
 > 
@@ -14,27 +14,27 @@
 
 > **定义 3.2.1 (单调递增与增函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)<{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
 
 > **定义 3.2.2 (单调递减与减函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)>{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
 
 > **定义 3.2.3 (最大值)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\le{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
 
 > **定义 3.2.4 (最小值)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\ge{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
 
 > **定义 3.2.5 (偶函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
 
 > **定义 3.2.6 (奇函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
 
 > **定义 3.3.1 (幂函数)**
 > 
@@ -46,15 +46,15 @@
 
 ### 解答 练习一
 
-由**定义 3.2.1 (单调递增与增函数)**, 任取 $x_1< x_2< 0$, 证明 $f\left(x_1\right)< f\left(x_2\right)$.
+由**定义 3.2.1 (单调递增与增函数)**, 任取 $x_1<{}x_2<0$, 证明 $f\left(x_1\right)<{}f\left(x_2\right)$.
 
-$\forall x_1,x_2\in\left(-\infty,0\right)$, 且 $x_1< x_2$, 则
+$\forall{x}_1,x_2\in\left(-\infty,0\right)$, 且 $x_1<{}x_2$, 则
 
 $$
 f\left(x_1\right)-f\left(x_2\right)=-\frac{2}{x_1}-\left(-\frac{2}{x_2}\right)=\frac{2}{x_2}-\frac{2}{x_1}=\frac{2\left(x_1-x_2\right)}{x_1x_2}.
 $$
 
-由 $x_1< x_2< 0$, 得 $x_1-x_2< 0$, $x_1x_2> 0$, 又 $2> 0$, 故 $\frac{2\left(x_1-x_2\right)}{x_1x_2}< 0$, 即 $f\left(x_1\right)-f\left(x_2\right)< 0$, 亦即 $f\left(x_1\right)< f\left(x_2\right)$. 故 $f\left(x\right)=-\frac{2}{x}$ 在 $\left(-\infty,0\right)$ 上单调递增. $\blacksquare$
+由 $x_1<{}x_2<0$, 得 $x_1-x_2<0$, $x_1x_2>0$, 又 $2>0$, 故 $\frac{2\left(x_1-x_2\right)}{x_1x_2}<0$, 即 $f\left(x_1\right)-f\left(x_2\right)<0$, 亦即 $f\left(x_1\right)<{}f\left(x_2\right)$. 故 $f\left(x\right)=-\frac{2}{x}$ 在 $\left(-\infty,0\right)$ 上单调递增. $\blacksquare$
 
 ## 练习二
 
@@ -72,7 +72,7 @@ $$
 
 (1) 分式 $\frac{k}{x}$ 要求 $x\ne0$, 故定义域 $D=\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-(2) 当 $k> 0$ 时, 图象在第一, 三象限: 在 $\left(-\infty,0\right)$ 上单调递减, 在 $\left(0,+\infty\right)$ 上也单调递减. 证明: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1< x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\frac{k}{x_1}-\frac{k}{x_2}=\frac{k\left(x_2-x_1\right)}{x_1x_2}> 0$, 即 $f\left(x_1\right)> f\left(x_2\right)$, 故单调递减. 同理在 $\left(-\infty,0\right)$ 上单调递减. 当 $k< 0$ 时, 图象在第二, 四象限, 在两个区间上均单调递增. $\blacksquare$
+(2) 当 $k>0$ 时, 图象在第一, 三象限: 在 $\left(-\infty,0\right)$ 上单调递减, 在 $\left(0,+\infty\right)$ 上也单调递减. 证明: 任取 $x_1,x_2\in\left(0,+\infty\right)$, $x_1<{}x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\frac{k}{x_1}-\frac{k}{x_2}=\frac{k\left(x_2-x_1\right)}{x_1x_2}>0$, 即 $f\left(x_1\right)>{}f\left(x_2\right)$, 故单调递减. 同理在 $\left(-\infty,0\right)$ 上单调递减. 当 $k<0$ 时, 图象在第二, 四象限, 在两个区间上均单调递增. $\blacksquare$
 
 ## 练习三
 
@@ -134,9 +134,9 @@ $8{:}00\sim12{:}00$ 气温上升, 单调递增; $12{:}00\sim13{:}00$ 气温骤�
 
 由**定义 3.2.5 (偶函数)** 及**定义 3.2.6 (奇函数)**, 计算 $f\left(-x\right)$ 并与 $f\left(x\right)$ 比较.
 
-(1) 定义域为 $\mathbb R$. $f\left(-x\right)=2\left(-x\right)^4+3\left(-x\right)^2=2x^4+3x^2=f\left(x\right)$, 故 $f\left(x\right)$ 为偶函数.
+(1) 定义域为 $\mathbb{R}$. $f\left(-x\right)=2\left(-x\right)^4+3\left(-x\right)^2=2x^4+3x^2=f\left(x\right)$, 故 $f\left(x\right)$ 为偶函数.
 
-(2) 定义域为 $\mathbb R$. $f\left(-x\right)=\left(-x\right)^3-2\left(-x\right)=-x^3+2x=-\left(x^3-2x\right)=-f\left(x\right)$, 故 $f\left(x\right)$ 为奇函数. $\blacksquare$
+(2) 定义域为 $\mathbb{R}$. $f\left(-x\right)=\left(-x\right)^3-2\left(-x\right)=-x^3+2x=-\left(x^3-2x\right)=-f\left(x\right)$, 故 $f\left(x\right)$ 为奇函数. $\blacksquare$
 
 ## 练习八
 
@@ -148,11 +148,11 @@ $8{:}00\sim12{:}00$ 气温上升, 单调递增; $12{:}00\sim13{:}00$ 气温骤�
 
 由**定义 3.2.5 (偶函数)** 及**定义 3.2.6 (奇函数)**, 从定义出发证明充要条件.
 
-(1) 必要性: 若 $f\left(x\right)$ 为偶函数, 则 $\forall x\in D$, $f\left(-x\right)=f\left(x\right)$. 图象上点 $\left(x,f\left(x\right)\right)$ 关于 $y$ 轴的对称点为 $\left(-x,f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, 也在图象上, 故图象关于 $y$ 轴对称.
+(1) 必要性: 若 $f\left(x\right)$ 为偶函数, 则 $\forall{x}\in{D}$, $f\left(-x\right)=f\left(x\right)$. 图象上点 $\left(x,f\left(x\right)\right)$ 关于 $y$ 轴的对称点为 $\left(-x,f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, 也在图象上, 故图象关于 $y$ 轴对称.
 
 充分性: 若图象关于 $y$ 轴对称, 则点 $\left(x,f\left(x\right)\right)$ 的对称点 $\left(-x,f\left(x\right)\right)$ 也在图象上, 即 $f\left(-x\right)=f\left(x\right)$, 故 $f\left(x\right)$ 为偶函数.
 
-(2) 必要性: 若 $f\left(x\right)$ 为奇函数, 则 $\forall x\in D$, $f\left(-x\right)=-f\left(x\right)$. 图象上点 $\left(x,f\left(x\right)\right)$ 关于原点的对称点为 $\left(-x,-f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, 也在图象上, 故图象关于原点对称.
+(2) 必要性: 若 $f\left(x\right)$ 为奇函数, 则 $\forall{x}\in{D}$, $f\left(-x\right)=-f\left(x\right)$. 图象上点 $\left(x,f\left(x\right)\right)$ 关于原点的对称点为 $\left(-x,-f\left(x\right)\right)=\left(-x,f\left(-x\right)\right)$, 也在图象上, 故图象关于原点对称.
 
 充分性: 若图象关于原点对称, 则点 $\left(x,f\left(x\right)\right)$ 的对称点 $\left(-x,-f\left(x\right)\right)$ 也在图象上, 即 $f\left(-x\right)=-f\left(x\right)$, 故 $f\left(x\right)$ 为奇函数. $\blacksquare$
 
@@ -200,11 +200,11 @@ $8{:}00\sim12{:}00$ 气温上升, 单调递增; $12{:}00\sim13{:}00$ 气温骤�
 
 由**定义 3.2.1 (单调递增与增函数)** 及**定义 3.2.2 (单调递减与减函数)**.
 
-(1) $\forall x_1,x_2\in\mathbb R$, $x_1< x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\left(-2x_1+1\right)-\left(-2x_2+1\right)=-2\left(x_1-x_2\right)$. 由 $x_1< x_2$ 得 $x_1-x_2< 0$, 故 $-2\left(x_1-x_2\right)> 0$, 即 $f\left(x_1\right)> f\left(x_2\right)$, 故 $f\left(x\right)=-2x+1$ 是减函数.
+(1) $\forall{x}_1,x_2\in\mathbb{R}$, $x_1<{}x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\left(-2x_1+1\right)-\left(-2x_2+1\right)=-2\left(x_1-x_2\right)$. 由 $x_1<{}x_2$ 得 $x_1-x_2<0$, 故 $-2\left(x_1-x_2\right)>0$, 即 $f\left(x_1\right)>{}f\left(x_2\right)$, 故 $f\left(x\right)=-2x+1$ 是减函数.
 
-(2) $\forall x_1,x_2\in\left(0,+\infty\right)$, $x_1< x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\left(x_1^2+1\right)-\left(x_2^2+1\right)=x_1^2-x_2^2=\left(x_1-x_2\right)\left(x_1+x_2\right)$. 由 $x_1< x_2$ 得 $x_1-x_2< 0$, 由 $x_1,x_2> 0$ 得 $x_1+x_2> 0$, 故 $f\left(x_1\right)-f\left(x_2\right)< 0$, 即 $f\left(x_1\right)< f\left(x_2\right)$, 故单调递增.
+(2) $\forall{x}_1,x_2\in\left(0,+\infty\right)$, $x_1<{}x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\left(x_1^2+1\right)-\left(x_2^2+1\right)=x_1^2-x_2^2=\left(x_1-x_2\right)\left(x_1+x_2\right)$. 由 $x_1<{}x_2$ 得 $x_1-x_2<0$, 由 $x_1,x_2>0$ 得 $x_1+x_2>0$, 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<{}f\left(x_2\right)$, 故单调递增.
 
-(3) $\forall x_1,x_2\in\left(-\infty,0\right)$, $x_1< x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\left(1-\frac{1}{x_1}\right)-\left(1-\frac{1}{x_2}\right)=\frac{1}{x_2}-\frac{1}{x_1}=\frac{x_1-x_2}{x_1x_2}$. 由 $x_1< x_2< 0$ 得 $x_1-x_2< 0$, $x_1x_2> 0$, 故 $f\left(x_1\right)-f\left(x_2\right)< 0$, 即 $f\left(x_1\right)< f\left(x_2\right)$, 故单调递增. $\blacksquare$
+(3) $\forall{x}_1,x_2\in\left(-\infty,0\right)$, $x_1<{}x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=\left(1-\frac{1}{x_1}\right)-\left(1-\frac{1}{x_2}\right)=\frac{1}{x_2}-\frac{1}{x_1}=\frac{x_1-x_2}{x_1x_2}$. 由 $x_1<{}x_2<0$ 得 $x_1-x_2<0$, $x_1x_2>0$, 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<{}f\left(x_2\right)$, 故单调递增. $\blacksquare$
 
 ## 习题四
 
@@ -232,9 +232,9 @@ $$
 
 由**定义 3.2.5 (偶函数)** 及**定义 3.2.6 (奇函数)**.
 
-(1) 定义域为 $\mathbb R$. $f\left(-x\right)=\left(-x\right)^2+1=x^2+1=f\left(x\right)$, 故为偶函数.
+(1) 定义域为 $\mathbb{R}$. $f\left(-x\right)=\left(-x\right)^2+1=x^2+1=f\left(x\right)$, 故为偶函数.
 
-(2) 定义域为 $\mathbb R$. $f\left(-x\right)=\frac{-x}{\left(-x\right)^2+1}=\frac{-x}{x^2+1}=-f\left(x\right)$, 故为奇函数. $\blacksquare$
+(2) 定义域为 $\mathbb{R}$. $f\left(-x\right)=\frac{-x}{\left(-x\right)^2+1}=\frac{-x}{x^2+1}=-f\left(x\right)$, 故为奇函数. $\blacksquare$
 
 ## 习题六
 
@@ -272,47 +272,47 @@ $f\left(x\right)=x^2-2x=\left(x-1\right)^2-1$, 顶点为 $\left(1,-1\right)$.
 
 (2) 讨论函数 $y=x+\frac{9}{x}$ 在区间 $\left(0,+\infty\right)$ 上的单调性.
 
-(3) 讨论函数 $y=x+\frac{k}{x}$ ($k> 0$) 在区间 $\left(0,+\infty\right)$ 上的单调性.
+(3) 讨论函数 $y=x+\frac{k}{x}$ ($k>0$) 在区间 $\left(0,+\infty\right)$ 上的单调性.
 
 ### 解答 习题八
 
 由**定义 3.2.1 (单调递增与增函数)** 及**定义 3.2.2 (单调递减与减函数)**.
 
-(1) $\forall x_1,x_2\in\left[3,+\infty\right)$, $x_1< x_2$, 则
+(1) $\forall{x}_1,x_2\in\left[3,+\infty\right)$, $x_1<{}x_2$, 则
 
 $$
 y_1-y_2=\left(x_1+\frac{9}{x_1}\right)-\left(x_2+\frac{9}{x_2}\right)=\left(x_1-x_2\right)+9\left(\frac{1}{x_1}-\frac{1}{x_2}\right)=\left(x_1-x_2\right)\left(1-\frac{9}{x_1x_2}\right).
 $$
 
-由 $x_1,x_2\ge3$ 得 $x_1x_2\ge9$, 故 $1-\frac{9}{x_1x_2}\ge0$; 由 $x_1< x_2$ 得 $x_1-x_2< 0$. 当 $x_1,x_2> 3$ 时 $x_1x_2> 9$, 故 $1-\frac{9}{x_1x_2}> 0$, 从而 $y_1-y_2< 0$, 即 $y_1< y_2$, 故单调递增.
+由 $x_1,x_2\ge3$ 得 $x_1x_2\ge9$, 故 $1-\frac{9}{x_1x_2}\ge0$; 由 $x_1<{}x_2$ 得 $x_1-x_2<0$. 当 $x_1,x_2>3$ 时 $x_1x_2>9$, 故 $1-\frac{9}{x_1x_2}>0$, 从而 $y_1-y_2<0$, 即 $y_1<{}y_2$, 故单调递增.
 
-(2) 由 (1) 同理, 当 $x_1,x_2\in\left(0,3\right)$ 且 $x_1< x_2$ 时, $x_1x_2< 9$, 故 $1-\frac{9}{x_1x_2}< 0$, 从而 $y_1-y_2> 0$, 即 $y_1> y_2$, 单调递减. 故 $y=x+\frac{9}{x}$ 在 $\left(0,3\right]$ 上单调递减, 在 $\left[3,+\infty\right)$ 上单调递增.
+(2) 由 (1) 同理, 当 $x_1,x_2\in\left(0,3\right)$ 且 $x_1<{}x_2$ 时, $x_1x_2<9$, 故 $1-\frac{9}{x_1x_2}<0$, 从而 $y_1-y_2>0$, 即 $y_1>{}y_2$, 单调递减. 故 $y=x+\frac{9}{x}$ 在 $\left(0,3\right]$ 上单调递减, 在 $\left[3,+\infty\right)$ 上单调递增.
 
-(3) 对 $y=x+\frac{k}{x}$ ($k> 0$), 同理可得 $y_1-y_2=\left(x_1-x_2\right)\left(1-\frac{k}{x_1x_2}\right)$. 当 $x_1x_2< k$ 时递减, 当 $x_1x_2> k$ 时递增. 分界点为 $x=\sqrt k$, 故在 $\left(0,\sqrt k\right]$ 上单调递减, 在 $\left[\sqrt k,+\infty\right)$ 上单调递增. $\blacksquare$
+(3) 对 $y=x+\frac{k}{x}$ ($k>0$), 同理可得 $y_1-y_2=\left(x_1-x_2\right)\left(1-\frac{k}{x_1x_2}\right)$. 当 $x_1x_2<{}k$ 时递减, 当 $x_1x_2>{}k$ 时递增. 分界点为 $x=\sqrt{k}$, 故在 $\left(0,\sqrt{k}\right]$ 上单调递减, 在 $\left[\sqrt{k},+\infty\right)$ 上单调递增. $\blacksquare$
 
 ## 习题九
 
-(习题 3.2 综合运用第 9 题) 设函数 $y=f\left(x\right)$ 的定义域为 $D$, 区间 $I\subseteq D$, 记 $\Delta x=x_1-x_2$, $\Delta y=f\left(x_1\right)-f\left(x_2\right)$. 证明:
+(习题 3.2 综合运用第 9 题) 设函数 $y=f\left(x\right)$ 的定义域为 $D$, 区间 $I\subseteq{D}$, 记 $\Delta{x}=x_1-x_2$, $\Delta{y}=f\left(x_1\right)-f\left(x_2\right)$. 证明:
 
-(1) 函数 $y=f\left(x\right)$ 在区间 $I$ 上单调递增的充要条件是: $\forall x_1,x_2\in I$, $x_1\ne x_2$, 都有 $\frac{\Delta y}{\Delta x}> 0$;
+(1) 函数 $y=f\left(x\right)$ 在区间 $I$ 上单调递增的充要条件是: $\forall{x}_1,x_2\in{I}$, $x_1\ne{x}_2$, 都有 $\frac{\Delta{y}}{\Delta{x}}>0$;
 
-(2) 函数 $y=f\left(x\right)$ 在区间 $I$ 上单调递减的充要条件是: $\forall x_1,x_2\in I$, $x_1\ne x_2$, 都有 $\frac{\Delta y}{\Delta x}< 0$.
+(2) 函数 $y=f\left(x\right)$ 在区间 $I$ 上单调递减的充要条件是: $\forall{x}_1,x_2\in{I}$, $x_1\ne{x}_2$, 都有 $\frac{\Delta{y}}{\Delta{x}}<0$.
 
 ### 解答 习题九
 
 由**定义 3.2.1 (单调递增与增函数)** 及**定义 3.2.2 (单调递减与减函数)**.
 
-(1) 必要性: 若 $f$ 在 $I$ 上单调递增, 则 $\forall x_1,x_2\in I$, $x_1\ne x_2$, 不妨设 $x_1> x_2$, 则 $\Delta x=x_1-x_2> 0$, 且 $f\left(x_1\right)> f\left(x_2\right)$ 即 $\Delta y> 0$, 故 $\frac{\Delta y}{\Delta x}> 0$.
+(1) 必要性: 若 $f$ 在 $I$ 上单调递增, 则 $\forall{x}_1,x_2\in{I}$, $x_1\ne{x}_2$, 不妨设 $x_1>{}x_2$, 则 $\Delta{x}=x_1-x_2>0$, 且 $f\left(x_1\right)>{}f\left(x_2\right)$ 即 $\Delta{y}>0$, 故 $\frac{\Delta{y}}{\Delta{x}}>0$.
 
-充分性: 若 $\frac{\Delta y}{\Delta x}> 0$, 则 $\Delta y$ 与 $\Delta x$ 同号. 当 $x_1> x_2$ 时 $\Delta x> 0$, 故 $\Delta y> 0$ 即 $f\left(x_1\right)> f\left(x_2\right)$, 故单调递增.
+充分性: 若 $\frac{\Delta{y}}{\Delta{x}}>0$, 则 $\Delta{y}$ 与 $\Delta{x}$ 同号. 当 $x_1>{}x_2$ 时 $\Delta{x}>0$, 故 $\Delta{y}>0$ 即 $f\left(x_1\right)>{}f\left(x_2\right)$, 故单调递增.
 
-(2) 必要性: 若 $f$ 在 $I$ 上单调递减, 则 $x_1> x_2$ 时 $\Delta x> 0$, 且 $f\left(x_1\right)< f\left(x_2\right)$ 即 $\Delta y< 0$, 故 $\frac{\Delta y}{\Delta x}< 0$.
+(2) 必要性: 若 $f$ 在 $I$ 上单调递减, 则 $x_1>{}x_2$ 时 $\Delta{x}>0$, 且 $f\left(x_1\right)<{}f\left(x_2\right)$ 即 $\Delta{y}<0$, 故 $\frac{\Delta{y}}{\Delta{x}}<0$.
 
-充分性: 若 $\frac{\Delta y}{\Delta x}< 0$, 则 $\Delta y$ 与 $\Delta x$ 异号. 当 $x_1> x_2$ 时 $\Delta x> 0$, 故 $\Delta y< 0$ 即 $f\left(x_1\right)< f\left(x_2\right)$, 故单调递减. $\blacksquare$
+充分性: 若 $\frac{\Delta{y}}{\Delta{x}}<0$, 则 $\Delta{y}$ 与 $\Delta{x}$ 异号. 当 $x_1>{}x_2$ 时 $\Delta{x}>0$, 故 $\Delta{y}<0$ 即 $f\left(x_1\right)<{}f\left(x_2\right)$, 故单调递减. $\blacksquare$
 
 ## 习题十
 
-(习题 3.2 综合运用第 10 题) 如图所示, 动物园要建造一面靠墙的两间面积相同的矩形熊猫居室, 如果可供建造围墙的材料总长是 $30\ \text{m}$, 那么宽 $x$ (单位: $\text{m}$) 为多少时才能使所建造的每间熊猫居室面积最大? 每间熊猫居室的最大面积是多少?
+(习题 3.2 综合运用第 10 题) 如图所示, 动物园要建造一面靠墙的两间面积相同的矩形熊猫居室, 如果可供建造围墙的材料总长是 $30\,\text{m}$, 那么宽 $x$ (单位: $\text{m}$) 为多少时才能使所建造的每间熊猫居室面积最大? 每间熊猫居室的最大面积是多少?
 
 (题图: 一面水平墙在上方, 墙下并排两个相同矩形居室, 居室宽 (垂直于墙方向) 标 $x$, 两居室之间共用一道竖墙, 下方和两侧有围墙.)
 
@@ -322,25 +322,25 @@ $$
 
 两间居室共需 $3$ 段宽 (每段长 $x$) 和 $2$ 段总长 (每段设为 $y$), 围墙总长为 $3x+2y=30$, 故 $y=15-\frac{3x}{2}$. 每间面积为 $S=x\cdot\frac{y}{2}=x\left(\frac{15}{2}-\frac{3x}{4}\right)=-\frac{3}{4}x^2+\frac{15}{2}x$.
 
-当 $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$ 时, $S$ 取最大值 $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\ \text{m}^2$. 故宽为 $5\ \text{m}$ 时每间面积最大, 最大面积为 $18.75\ \text{m}^2$. $\blacksquare$
+当 $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$ 时, $S$ 取最大值 $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\,\text{m}^2$. 故宽为 $5\,\text{m}$ 时每间面积最大, 最大面积为 $18.75\,\text{m}^2$. $\blacksquare$
 
 ## 习题十一
 
-(习题 3.2 综合运用第 11 题) 已知函数 $f\left(x\right)$ 是定义域为 $\mathbb R$ 的奇函数, 当 $x\ge0$ 时, $f\left(x\right)=x\left(1+x\right)$. 画出函数 $f\left(x\right)$ 的图象, 并求出函数的解析式.
+(习题 3.2 综合运用第 11 题) 已知函数 $f\left(x\right)$ 是定义域为 $\mathbb{R}$ 的奇函数, 当 $x\ge0$ 时, $f\left(x\right)=x\left(1+x\right)$. 画出函数 $f\left(x\right)$ 的图象, 并求出函数的解析式.
 
-(题图: 坐标系中, $x\ge0$ 部分为开口向上抛物线的右半支, $x< 0$ 部分为其关于原点对称的曲线.)
+(题图: 坐标系中, $x\ge0$ 部分为开口向上抛物线的右半支, $x<0$ 部分为其关于原点对称的曲线.)
 
 ### 解答 习题十一
 
-由**定义 3.2.6 (奇函数)**, $x< 0$ 时利用 $f\left(x\right)=-f\left(-x\right)$ 求解析式.
+由**定义 3.2.6 (奇函数)**, $x<0$ 时利用 $f\left(x\right)=-f\left(-x\right)$ 求解析式.
 
-当 $x< 0$ 时, $-x> 0$, 故 $f\left(-x\right)=\left(-x\right)\left(1-x\right)=-x\left(1-x\right)$. 由奇函数性质 $f\left(x\right)=-f\left(-x\right)=x\left(1-x\right)$. 故
+当 $x<0$ 时, $-x>0$, 故 $f\left(-x\right)=\left(-x\right)\left(1-x\right)=-x\left(1-x\right)$. 由奇函数性质 $f\left(x\right)=-f\left(-x\right)=x\left(1-x\right)$. 故
 
 $$
-f\left(x\right)=\begin{cases}x\left(1+x\right), & x\ge0,\\x\left(1-x\right), & x< 0.\end{cases}
+f\left(x\right)=\begin{cases}x\left(1+x\right),&x\ge0,\\x\left(1-x\right),&x<0.\end{cases}
 $$
 
-图象在 $x\ge0$ 时为开口向上的抛物线右半支, 在 $x< 0$ 时为其关于原点的中心对称图形. $\blacksquare$
+图象在 $x\ge0$ 时为开口向上的抛物线右半支, 在 $x<0$ 时为其关于原点的中心对称图形. $\blacksquare$
 
 ## 习题十二
 
@@ -350,7 +350,7 @@ $$
 
 由**定义 3.2.5 (偶函数)** 及**定义 3.2.1 (单调递增与增函数)**, 利用偶函数性质转化.
 
-$f\left(x\right)$ 在 $\left(-\infty,0\right)$ 上单调递增. 证明: 任取 $x_1,x_2\in\left(-\infty,0\right)$, 且 $x_1< x_2< 0$, 则 $-x_1> -x_2> 0$. 由 $f\left(x\right)$ 在 $\left(0,+\infty\right)$ 上单调递减, 得 $f\left(-x_1\right)< f\left(-x_2\right)$. 又由 $f\left(x\right)$ 为偶函数, $f\left(-x_1\right)=f\left(x_1\right)$, $f\left(-x_2\right)=f\left(x_2\right)$, 故 $f\left(x_1\right)< f\left(x_2\right)$. 因此 $f\left(x\right)$ 在 $\left(-\infty,0\right)$ 上单调递增. $\blacksquare$
+$f\left(x\right)$ 在 $\left(-\infty,0\right)$ 上单调递增. 证明: 任取 $x_1,x_2\in\left(-\infty,0\right)$, 且 $x_1<{}x_2<0$, 则 $-x_1>-x_2>0$. 由 $f\left(x\right)$ 在 $\left(0,+\infty\right)$ 上单调递减, 得 $f\left(-x_1\right)<{}f\left(-x_2\right)$. 又由 $f\left(x\right)$ 为偶函数, $f\left(-x_1\right)=f\left(x_1\right)$, $f\left(-x_2\right)=f\left(x_2\right)$, 故 $f\left(x_1\right)<{}f\left(x_2\right)$. 因此 $f\left(x\right)$ 在 $\left(-\infty,0\right)$ 上单调递增. $\blacksquare$
 
 ## 习题十三
 
@@ -382,7 +382,7 @@ $$
 
 由**定义 3.1.6 (函数的表示法)**, 通过图象观察系数对抛物线形状和位置的影响.
 
-(1) 系数 $a$ 决定开口方向和大小: $a> 0$ 时开口向上, $a< 0$ 时开口向下; $\left|a\right|$ 越大开口越窄, $\left|a\right|$ 越小开口越宽.
+(1) 系数 $a$ 决定开口方向和大小: $a>0$ 时开口向上, $a<0$ 时开口向下; $\left|a\right|$ 越大开口越窄, $\left|a\right|$ 越小开口越宽.
 
 (2) 系数 $c$ 决定图象与 $y$ 轴的交点位置: 当 $x=0$ 时 $y=c$, 故图象与 $y$ 轴交于点 $\left(0,c\right)$.
 
@@ -396,7 +396,7 @@ $$
 
 由**定义 3.3.1 (幂函数)**, 设 $f\left(x\right)=x^\alpha$, 代入已知点求 $\alpha$.
 
-由图象过点 $\left(2,\sqrt2\right)$, 得 $2^\alpha=\sqrt2=2^{\frac{1}{2}}$, 故 $\alpha=\frac{1}{2}$. 因此函数解析式为 $f\left(x\right)=x^{\frac{1}{2}}=\sqrt x$. $\blacksquare$
+由图象过点 $\left(2,\sqrt2\right)$, 得 $2^\alpha=\sqrt2=2^{\frac{1}{2}}$, 故 $\alpha=\frac{1}{2}$. 因此函数解析式为 $f\left(x\right)=x^{\frac{1}{2}}=\sqrt{x}$. $\blacksquare$
 
 ## 练习十
 
@@ -410,9 +410,9 @@ $$
 
 由**常用结论 3.3.2** (幂函数的性质), 利用幂函数的单调性比较.
 
-(1) 函数 $y=x^3$ 在 $\mathbb R$ 上单调递增. 由 $-1.5< -1.4$, 得 $\left(-1.5\right)^3< \left(-1.4\right)^3$.
+(1) 函数 $y=x^3$ 在 $\mathbb{R}$ 上单调递增. 由 $-1.5<-1.4$, 得 $\left(-1.5\right)^3<\left(-1.4\right)^3$.
 
-(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. 函数 $y=x^{-1}=\frac{1}{x}$ 在 $\left(0,+\infty\right)$ 上单调递减. 由 $1.5> 1.4> 0$, 得 $\frac{1}{1.5}< \frac{1}{1.4}$, 故 $-\frac{1}{1.5}> -\frac{1}{1.4}$, 即 $\frac{1}{-1.5}> \frac{1}{-1.4}$. $\blacksquare$
+(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. 函数 $y=x^{-1}=\frac{1}{x}$ 在 $\left(0,+\infty\right)$ 上单调递减. 由 $1.5>1.4>0$, 得 $\frac{1}{1.5}<\frac{1}{1.4}$, 故 $-\frac{1}{1.5}>-\frac{1}{1.4}$, 即 $\frac{1}{-1.5}>\frac{1}{-1.4}$. $\blacksquare$
 
 ## 练习十一
 
@@ -422,7 +422,7 @@ $$
 
 由**定义 3.2.1 (单调递增与增函数)** 及**定义 3.2.6 (奇函数)**.
 
-单调性: $\forall x_1,x_2\in\mathbb R$, $x_1< x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. 由 $x_1< x_2$ 得 $x_1-x_2< 0$. 当 $x_1,x_2$ 同号时 $x_1^2+x_1x_2+x_2^2> 0$; 当 $x_1x_2\le0$ 时 $x_1^2+x_2^2> 0$ 且 $x_1x_2\le0$, 但 $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}> 0$. 故 $f\left(x_1\right)-f\left(x_2\right)< 0$, 即 $f\left(x_1\right)< f\left(x_2\right)$, 因此 $f\left(x\right)=x^3$ 在 $\mathbb R$ 上单调递增.
+单调性: $\forall{x}_1,x_2\in\mathbb{R}$, $x_1<{}x_2$, 则 $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. 由 $x_1<{}x_2$ 得 $x_1-x_2<0$. 当 $x_1,x_2$ 同号时 $x_1^2+x_1x_2+x_2^2>0$; 当 $x_1x_2\le0$ 时 $x_1^2+x_2^2>0$ 且 $x_1x_2\le0$, 但 $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}>0$. 故 $f\left(x_1\right)-f\left(x_2\right)<0$, 即 $f\left(x_1\right)<{}f\left(x_2\right)$, 因此 $f\left(x\right)=x^3$ 在 $\mathbb{R}$ 上单调递增.
 
 奇偶性: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, 故 $f\left(x\right)=x^3$ 为奇函数. $\blacksquare$
 
@@ -430,16 +430,16 @@ $$
 
 (习题 3.3 复习巩固第 1 题) 画出函数 $y=\sqrt{\left|x\right|}$ 的图象, 并判断函数的奇偶性, 讨论函数的单调性.
 
-图:平面直角坐标系中,函数 $y=\sqrt{\left|x\right|}$ 的图象关于 $y$ 轴对称;$x\ge0$ 部分为曲线 $y=\sqrt x$,从原点 $\left(0,0\right)$ 出发向右上方上升,$x< 0$ 部分为其关于 $y$ 轴的镜像,从原点出发向左上方上升.
+图:平面直角坐标系中,函数 $y=\sqrt{\left|x\right|}$ 的图象关于 $y$ 轴对称;$x\ge0$ 部分为曲线 $y=\sqrt{x}$,从原点 $\left(0,0\right)$ 出发向右上方上升,$x<0$ 部分为其关于 $y$ 轴的镜像,从原点出发向左上方上升.
 
 ### 解答 习题十四
 
 由**定义 3.2.5 (偶函数)** 及**定义 3.2.1 (单调递增与增函数)**.
 
 $$
-y=\sqrt{\left|x\right|}=\begin{cases}\sqrt x, & x\ge0,\\\sqrt{-x}, & x< 0.\end{cases}
+y=\sqrt{\left|x\right|}=\begin{cases}\sqrt{x},&x\ge0,\\\sqrt{-x},&x<0.\end{cases}
 $$
 
 奇偶性: $f\left(-x\right)=\sqrt{\left|-x\right|}=\sqrt{\left|x\right|}=f\left(x\right)$, 故为偶函数.
 
-单调性: 当 $x\ge0$ 时, $y=\sqrt x$ 单调递增; 当 $x< 0$ 时, $y=\sqrt{-x}$ 单调递减. 故单调递增区间为 $\left[0,+\infty\right)$, 单调递减区间为 $\left(-\infty,0\right]$. 图象关于 $y$ 轴对称, 在右侧为 $y=\sqrt x$ 的曲线, 左侧为其关于 $y$ 轴的镜像. $\blacksquare$
+单调性: 当 $x\ge0$ 时, $y=\sqrt{x}$ 单调递增; 当 $x<0$ 时, $y=\sqrt{-x}$ 单调递减. 故单调递增区间为 $\left[0,+\infty\right)$, 单调递减区间为 $\left(-\infty,0\right]$. 图象关于 $y$ 轴对称, 在右侧为 $y=\sqrt{x}$ 的曲线, 左侧为其关于 $y$ 轴的镜像. $\blacksquare$

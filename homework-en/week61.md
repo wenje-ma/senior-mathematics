@@ -26,7 +26,7 @@
 
 > **Theorem 4.2.5 (等差数列性质)**
 > 
-> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb{N}^*$), 则 $a_p+a_q=a_s+a_t$.
 
 > **Theorem 4.2.6 (前 $n$ 项和公式一)**
 > 
@@ -46,15 +46,15 @@
 
 > **Theorem 4.3.3 (等比数列通项公式)**
 > 
-> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1q^{n-1}$.
 
 > **Theorem 4.3.5 (前 $n$ 项和公式)**
 > 
-> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> 当 $q\ne1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_nq}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
 
 > **Definition 4.4.1 (数学归纳法)**
 > 
-> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
+> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb{N}^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb{N}^*$, $k\ge{n}_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
 
 > **Definition 5.1.2 (Derivative)**
 > 
@@ -104,7 +104,7 @@ By **Definition 5.3.4 (Maximum (Minimum)** Value on a Closed Interval).
 
 (2) The zeros $x=\pm2\in\left[-3,3\right]$. Comparing $f\left(-3\right)=9$, $f\left(-2\right)=16$, $f\left(2\right)=-16$, $f\left(3\right)=-9$. Maximum $16$, minimum $-16$.
 
-(3) The zeros are $x=\pm2$, and there is no zero in $\left[-\frac{1}{3},1\right]$ ($f'\left(x\right)< 0$). Comparing $f\left(-\frac{1}{3}\right)=\frac{115}{27}$, $f\left(1\right)=-5$. Maximum $\frac{115}{27}$, minimum $-5$.
+(3) The zeros are $x=\pm2$, and there is no zero in $\left[-\frac{1}{3},1\right]$ ($f'\left(x\right)<0$). Comparing $f\left(-\frac{1}{3}\right)=\frac{115}{27}$, $f\left(1\right)=-5$. Maximum $\frac{115}{27}$, minimum $-5$.
 
 (4) The zeros are $x=\pm4$; in $\left[-3,5\right]$ the zero is $x=4$. Comparing $f\left(-3\right)=-117$, $f\left(4\right)=128$, $f\left(5\right)=115$. Maximum $128$, minimum $-117$. $\blacksquare$
 
@@ -122,7 +122,7 @@ $$
 
 Differentiating, $S'=\frac{2x-2\left(l-x\right)}{16}=\frac{2x-l}{8}$. Setting $S'=0$, we get $x=\frac{l}{2}$.
 
-When $x< \frac{l}{2}$, $S'< 0$; when $x> \frac{l}{2}$, $S'> 0$, so $x=\frac{l}{2}$ is the minimum point.
+When $x<\frac{l}{2}$, $S'<0$; when $x>\frac{l}{2}$, $S'>0$, so $x=\frac{l}{2}$ is the minimum point.
 
 Hence when both pieces have length $\frac{l}{2}$, the sum of the areas of the two squares is minimized. $\blacksquare$
 
@@ -139,14 +139,14 @@ Hence when both pieces have length $\frac{l}{2}$, the sum of the areas of the tw
 (1) After cutting off the four corners, the base of the box is a square of side $a-2x$ and the height is $x$, hence
 
 $$
-V\left(x\right)=x\left(a-2x\right)^{2},\quad 0< x< \frac{a}{2}.
+V\left(x\right)=x\left(a-2x\right)^{2},\quad0<{}x<\frac{a}{2}.
 $$
 
 (2) Differentiating, $V'\left(x\right)=\left(a-2x\right)^{2}+x\cdot2\left(a-2x\right)\left(-2\right)=\left(a-2x\right)\left(a-6x\right)$.
 
 Setting $V'\left(x\right)=0$, within $\left(0,\frac{a}{2}\right)$ we get $x=\frac{a}{6}$.
 
-When $0< x< \frac{a}{6}$, $V'\left(x\right)> 0$; when $\frac{a}{6}< x< \frac{a}{2}$, $V'\left(x\right)< 0$, so $x=\frac{a}{6}$ is the maximum point.
+When $0<{}x<\frac{a}{6}$, $V'\left(x\right)>0$; when $\frac{a}{6}<{}x<\frac{a}{2}$, $V'\left(x\right)<0$, so $x=\frac{a}{6}$ is the maximum point.
 
 Hence when $x=\frac{a}{6}$, the volume of the box is maximized. $\blacksquare$
 
@@ -164,7 +164,7 @@ $$
 
 Setting $f'\left(x\right)=0$, we get $\sum_{i=1}^{n}a_{i}-nx=0$, i.e. $x=\frac{1}{n}\sum_{i=1}^{n}a_{i}=\overline{x}$.
 
-Also $f''\left(x\right)=\frac{2}{n}\cdot n=2> 0$, so $x=\overline{x}$ is a local minimum point, i.e. the global minimum point.
+Also $f''\left(x\right)=\frac{2}{n}\cdot{n}=2>0$, so $x=\overline{x}$ is a local minimum point, i.e. the global minimum point.
 
 Hence when $x=\overline{x}$, $f\left(x\right)$ attains its minimum. $\blacksquare$
 
@@ -182,7 +182,7 @@ $$
 
 Differentiating, $L'\left(q\right)=-\frac{1}{4}q+21$. Setting $L'\left(q\right)=0$, we get $q=84$.
 
-When $q< 84$, $L'\left(q\right)> 0$; when $q> 84$, $L'\left(q\right)< 0$, so $q=84$ is the maximum point.
+When $q<84$, $L'\left(q\right)>0$; when $q>84$, $L'\left(q\right)<0$, so $q=84$ is the maximum point.
 
 Hence when output is $q=84$, profit is maximized. $\blacksquare$
 
@@ -214,21 +214,21 @@ This point is the maximum point. Hence when the selling price is $x=\frac{5b+4a}
 
 (Exercise 5.3, Extension and Exploration, Problem 12) Using the monotonicity of functions, prove the following inequalities and verify them visually with graphs: 
 
-(1) $\mathrm e^{x}> 1+x$, $x\neq0$;
+(1) $\mathrm{e}^{x}>1+x$, $x\neq0$;
 
-(2) $\ln x< x< \mathrm e^{x}$, $x> 0$.
+(2) $\ln{x}<{}x<\mathrm{e}^{x}$, $x>0$.
 
-The figure shows four curves in one coordinate system: the line $y=1+x$, the exponential curve $y=\mathrm e^{x}$ (always above $y=1+x$, tangent to it only at $x=0$), the logarithmic curve $y=\ln x$, and the line $y=x$ (with $y=\ln x$ always below $y=x$), visually illustrating $\mathrm e^{x}> 1+x$ and $\ln x< x< \mathrm e^{x}$.
+The figure shows four curves in one coordinate system: the line $y=1+x$, the exponential curve $y=\mathrm{e}^{x}$ (always above $y=1+x$, tangent to it only at $x=0$), the logarithmic curve $y=\ln{x}$, and the line $y=x$ (with $y=\ln{x}$ always below $y=x$), visually illustrating $\mathrm{e}^{x}>1+x$ and $\ln{x}<{}x<\mathrm{e}^{x}$.
 
 ### Solution to Problem 7
 
-(1) Let $s\left(x\right)=\mathrm e^{x}-1-x$; then $s'\left(x\right)=\mathrm e^{x}-1$. When $x> 0$, $s'\left(x\right)> 0$; when $x< 0$, $s'\left(x\right)< 0$. Hence $x=0$ is the minimum point, with minimum $s\left(0\right)=0$. Therefore when $x\neq0$, $s\left(x\right)> 0$, i.e. $\mathrm e^{x}> 1+x$.
+(1) Let $s\left(x\right)=\mathrm{e}^{x}-1-x$; then $s'\left(x\right)=\mathrm{e}^{x}-1$. When $x>0$, $s'\left(x\right)>0$; when $x<0$, $s'\left(x\right)<0$. Hence $x=0$ is the minimum point, with minimum $s\left(0\right)=0$. Therefore when $x\neq0$, $s\left(x\right)>0$, i.e. $\mathrm{e}^{x}>1+x$.
 
-(2) First prove $\ln x< x$. Let $s\left(x\right)=x-\ln x$; then $s'\left(x\right)=1-\frac{1}{x}$. Setting $s'\left(x\right)=0$, we get $x=1$, with minimum $s\left(1\right)=1> 0$. Hence $\ln x< x$.
+(2) First prove $\ln{x}<{}x$. Let $s\left(x\right)=x-\ln{x}$; then $s'\left(x\right)=1-\frac{1}{x}$. Setting $s'\left(x\right)=0$, we get $x=1$, with minimum $s\left(1\right)=1>0$. Hence $\ln{x}<{}x$.
 
-Next prove $x< \mathrm e^{x}$. From (1), when $x> 0$, $\mathrm e^{x}> 1+x> x$. Hence $x< \mathrm e^{x}$.
+Next prove $x<\mathrm{e}^{x}$. From (1), when $x>0$, $\mathrm{e}^{x}>1+x>{}x$. Hence $x<\mathrm{e}^{x}$.
 
-In summary, $\ln x< x< \mathrm e^{x}$, $x> 0$. $\blacksquare$
+In summary, $\ln{x}<{}x<\mathrm{e}^{x}$, $x>0$. $\blacksquare$
 
 ## Problem 8
 
@@ -242,7 +242,7 @@ The figure is the graph of the cubic $f\left(x\right)=-4x^{3}+x^{2}+5x-1$ ($a=-4
 
 ### Solution to Problem 8
 
-(1) The graph of the cubic function $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ is an " $\mathrm S$ "-shaped curve. When $a> 0$, the left end goes down and the right end goes up; when $a< 0$, the left end goes up and the right end goes down. The graph generally has one local maximum point and one local minimum point, with monotonic intervals alternating between the two points.
+(1) The graph of the cubic function $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ is an " $\mathrm{S}$ "-shaped curve. When $a>0$, the left end goes down and the right end goes up; when $a<0$, the left end goes up and the right end goes down. The graph generally has one local maximum point and one local minimum point, with monotonic intervals alternating between the two points.
 
 (2) Differentiating $f\left(x\right)=ax^{3}+bx^{2}+cx+d$, we get
 
@@ -252,7 +252,7 @@ $$
 
 When $a=-4,b=1,c=5$, $f'\left(x\right)=-12x^{2}+2x+5$. Setting $f'\left(x\right)=0$, i.e. $12x^{2}-2x-5=0$, we get $x=\frac{2\pm\sqrt{4+240}}{24}=\frac{2\pm\sqrt{244}}{24}=\frac{1\pm\sqrt{61}}{12}$.
 
-When $f'\left(x\right)> 0$ the function is increasing; when $f'\left(x\right)< 0$ it is decreasing. Since $a=-12< 0$, $f'\left(x\right)> 0$ between the two roots and $f'\left(x\right)< 0$ outside them.
+When $f'\left(x\right)>0$ the function is increasing; when $f'\left(x\right)<0$ it is decreasing. Since $a=-12<0$, $f'\left(x\right)>0$ between the two roots and $f'\left(x\right)<0$ outside them.
 
 Hence $f\left(x\right)$ is decreasing on $\left(-\infty,\frac{1-\sqrt{61}}{12}\right)$ and $\left(\frac{1+\sqrt{61}}{12},+\infty\right)$, and increasing on $\left(\frac{1-\sqrt{61}}{12},\frac{1+\sqrt{61}}{12}\right)$. $\blacksquare$
 
@@ -320,7 +320,7 @@ $\blacksquare$
 
 (Review Reference Problem 4, Review and Consolidation, Problem 3) Multiple choice
 
-(1) There are many ways to predict population trends. The formula used by the "direct projection method" is $P_n=P_0\left(1+k\right)^n$ ($k> -1$), where $P_n$ is the projected population, $P_0$ the initial population, $k$ the annual population growth rate during the projection period, and $n$ the number of years. If during a certain period $k\in\left(-1,0\right)$, then during this period the population ( ).
+(1) There are many ways to predict population trends. The formula used by the "direct projection method" is $P_n=P_0\left(1+k\right)^n$ ($k>-1$), where $P_n$ is the projected population, $P_0$ the initial population, $k$ the annual population growth rate during the projection period, and $n$ the number of years. If during a certain period $k\in\left(-1,0\right)$, then during this period the population ( ).
 
 (A) shows an upward trend
 
@@ -354,20 +354,20 @@ The figure shows the first four iterations of the Koch snowflake curve: $C_1$ is
 
 ### Solution to Problem 9
 
-(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $P_n=P_0\left(1+k\right)^n$. When $k\in\left(-1,0\right)$, $0< 1+k< 1$, so $P_n$ decreases. Choose (B).
+(1) By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $P_n=P_0\left(1+k\right)^n$. When $k\in\left(-1,0\right)$, $0<1+k<1$, so $P_n$ decreases. Choose (B).
 
 $\blacksquare$
 
 (2) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the five people receive $a-2d,a-d,a,a+d,a+2d$.
 
 $$
-5a=100,\ a=20.
+5a=100,\,a=20.
 $$
 
 The sum of the three larger shares $=\left(a\right)+\left(a+d\right)+\left(a+2d\right)=3a+3d$; the sum of the two smaller shares $=\left(a-2d\right)+\left(a-d\right)=2a-3d$.
 
 $$
-\frac{1}{7}\left(3a+3d\right)=2a-3d,\ 3a+3d=14a-21d,\ 24d=11a=220,\ d=\frac{55}{6}.
+\frac{1}{7}\left(3a+3d\right)=2a-3d,\,3a+3d=14a-21d,\,24d=11a=220,\,d=\frac{55}{6}.
 $$
 
 The smallest share $a-2d=20-\frac{110}{6}=\frac{10}{6}=\frac{5}{3}$. Choose (A).
@@ -390,7 +390,7 @@ $\blacksquare$
 
 (1) By **Definition 4.2.2 (Arithmetic Mean)**, $b=\frac{a+c}{2}=\frac{10}{2}=5$.
 
-By **Definition 4.3.2 (Geometric Mean)**, $b^2=ac=\left(5+2\sqrt{6}\right)\left(5-2\sqrt{6}\right)=25-24=1$, so $b=\pm 1$.
+By **Definition 4.3.2 (Geometric Mean)**, $b^2=ac=\left(5+2\sqrt{6}\right)\left(5-2\sqrt{6}\right)=25-24=1$, so $b=\pm1$.
 
 $\blacksquare$
 
@@ -399,7 +399,7 @@ $\blacksquare$
 By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
-S_7=\frac{a_1\left(1-2^7\right)}{1-2}=127a_1=381,\ a_1=3.
+S_7=\frac{a_1\left(1-2^7\right)}{1-2}=127a_1=381,\,a_1=3.
 $$
 
 The top story has $3$ lamps.
@@ -413,7 +413,7 @@ $\blacksquare$
 By **Definition 4.3.1 (Geometric Sequence)**, the number of users forms a geometric sequence with first term $2000$ and common ratio $1.3$.
 
 $$
-2000\times 1.3^n\ge 10000,\ 1.3^n\ge 5,\ n\ge\log_{1.3}5\approx 6.8.
+2000\times1.3^n\ge10000,\,1.3^n\ge5,\,n\ge\log_{1.3}5\approx6.8.
 $$
 
 Approximately $7$ months.
@@ -429,11 +429,11 @@ By **Definition 4.2.1 (Arithmetic Sequence)**, the daily donations form an arith
 By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-S_n=10n+\frac{n\left(n-1\right)}{2}\times 10=5n^2+5n=1200.
+S_n=10n+\frac{n\left(n-1\right)}{2}\times10=5n^2+5n=1200.
 $$
 
 $$
-n^2+n-240=0,\ n=15.
+n^2+n-240=0,\,n=15.
 $$
 
 It lasted $15$ days.
@@ -444,15 +444,15 @@ $\blacksquare$
 
 ### Solution to Problem 9
 
-Let him work $n$ days ($n\le 20$).
+Let him work $n$ days ($n\le20$).
 
 Plan 1: $85n$ yuan.
 
-Plan 2: by **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $65n+\frac{n\left(n-1\right)}{2}\times 2=n^2+64n$ yuan.
+Plan 2: by **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**, $65n+\frac{n\left(n-1\right)}{2}\times2=n^2+64n$ yuan.
 
 Plan 3: by **Theorem 4.3.5 (Sum of the First $n$ Terms)**, $\frac{40\left(1.1^n-1\right)}{1.1-1}=400\left(1.1^n-1\right)$ yuan.
 
-Comparing: Plan 2 $-$ Plan 1 $=n^2+64n-85n=n\left(n-21\right)< 0$ ($n< 21$); Plan 1 is always better than Plan 2.
+Comparing: Plan 2 $-$ Plan 1 $=n^2+64n-85n=n\left(n-21\right)<0$ ($n<21$); Plan 1 is always better than Plan 2.
 
 Comparing Plan 3 with Plan 1: $400\left(1.1^n-1\right)$ versus $85n$.
 
@@ -462,7 +462,7 @@ $n=15$: Plan 3 $=400\left(4.177-1\right)=1270.8$, Plan 1 $=1275$; close.
 
 $n=16$: Plan 3 $=400\left(4.595-1\right)=1438$, Plan 1 $=1360$; Plan 3 better.
 
-Hence for $n\le 15$ choose Plan 1, and for $n\ge 16$ choose Plan 3.
+Hence for $n\le15$ choose Plan 1, and for $n\ge16$ choose Plan 3.
 
 $\blacksquare$
 
@@ -502,9 +502,9 @@ $\blacksquare$
 
 By **Definition 4.3.1 (Geometric Sequence)**, the accumulated principal and interest of each deposit by $2023$ forms a geometric sequence.
 
-The $10000$ yuan deposited in $2017$ becomes, by $2023$: $10000\times 1.0275^6$.
+The $10000$ yuan deposited in $2017$ becomes, by $2023$: $10000\times1.0275^6$.
 
-The $1200$ yuan deposited each year from $2018$ to $2022$ becomes, by $2023$: $1200\times 1.0275^5,1200\times 1.0275^4,\cdots,1200\times 1.0275^0$.
+The $1200$ yuan deposited each year from $2018$ to $2022$ becomes, by $2023$: $1200\times1.0275^5,1200\times1.0275^4,\cdots,1200\times1.0275^0$.
 
 By **Theorem 4.3.5 (Sum of the First $n$ Terms)**, the accumulated principal and interest of the subsequent deposits is
 
@@ -512,13 +512,13 @@ $$
 1200\times\frac{1.0275^6-1}{1.0275-1}=1200\times\frac{1.0275^6-1}{0.0275}.
 $$
 
-Total amount $=10000\times 1.0275^6+1200\times\frac{1.0275^6-1}{0.0275}$.
+Total amount $=10000\times1.0275^6+1200\times\frac{1.0275^6-1}{0.0275}$.
 
-$1.0275^6\approx 1.1769$, total amount $\approx 11769+1200\times\frac{0.1769}{0.0275}\approx 11769+7721=19490$ yuan.
+$1.0275^6\approx1.1769$, total amount $\approx11769+1200\times\frac{0.1769}{0.0275}\approx11769+7721=19490$ yuan.
 
 $\blacksquare$
 
-(Review Reference Problem 4, Comprehensive Application, Problem 10) Take any positive integer; if it is odd, multiply it by $3$ and add $1$; if it is even, divide it by $2$. Repeating these two operations, after finitely many steps one must enter the cycle $1\to 4\to 2\to 1$. This is the famous "hailstone conjecture" in the history of mathematics. The recurrence relation of the hailstone conjecture is given as follows: the sequence $\left\{a_n\right\}$ satisfies $a_1=m$ ($m$ a positive integer), $a_{n+1}=\begin{cases}\frac{a_n}{2}, & a_n\text{ 为偶数},\\ 3a_n+1, & a_n\text{ 为奇数}.\end{cases}$
+(Review Reference Problem 4, Comprehensive Application, Problem 10) Take any positive integer; if it is odd, multiply it by $3$ and add $1$; if it is even, divide it by $2$. Repeating these two operations, after finitely many steps one must enter the cycle $1\to4\to2\to1$. This is the famous "hailstone conjecture" in the history of mathematics. The recurrence relation of the hailstone conjecture is given as follows: the sequence $\left\{a_n\right\}$ satisfies $a_1=m$ ($m$ a positive integer), $a_{n+1}=\begin{cases}\frac{a_n}{2},&a_n\text{~为偶数},\\3a_n+1,&a_n\text{~为奇数}.\end{cases}$
 
 (1) When $m=17$, determine how many steps are needed to make $a_n=1$;
 
@@ -528,7 +528,7 @@ $\blacksquare$
 
 (1) By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
 
-$17\to 52\to 26\to 13\to 40\to 20\to 10\to 5\to 16\to 8\to 4\to 2\to 1$.
+$17\to52\to26\to13\to40\to20\to10\to5\to16\to8\to4\to2\to1$.
 
 A total of $12$ steps.
 
@@ -536,7 +536,7 @@ $\blacksquare$
 
 (2) Work backwards: $a_8=1$.
 
-$a_7=2$ (since $1\times 2=2$, and odd $1$ does not satisfy $3a_7+1=1$).
+$a_7=2$ (since $1\times2=2$, and odd $1$ does not satisfy $3a_7+1=1$).
 
 $a_6=4$ (or $a_6=0$, discarded).
 
@@ -554,11 +554,11 @@ Hence $M=\left\{3,20,21,128\right\}$.
 
 $\blacksquare$
 
-(Review Reference Problem 4, Comprehensive Application, Problem 11) Given that the sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n$, and $S_4=4S_2$, $a_{2n}=2a_n+1$ ($n\in\mathbb N^*$).
+(Review Reference Problem 4, Comprehensive Application, Problem 11) Given that the sum of the first $n$ terms of an arithmetic sequence $\left\{a_n\right\}$ is $S_n$, and $S_4=4S_2$, $a_{2n}=2a_n+1$ ($n\in\mathbb{N}^*$).
 
 (1) Find the general term formula of $\left\{a_n\right\}$;
 
-(2) If $b_n=3^{n-1}$, let $c_n=a_n b_n$. Find the sum $T_n$ of the first $n$ terms of $\left\{c_n\right\}$.
+(2) If $b_n=3^{n-1}$, let $c_n=a_nb_n$. Find the sum $T_n$ of the first $n$ terms of $\left\{c_n\right\}$.
 
 ### Solution to Problem 10
 
@@ -581,11 +581,11 @@ $\blacksquare$
 (2) $c_n=\left(2n-1\right)3^{n-1}$.
 
 $$
-T_n=1+3\times 3+5\times 3^2+\cdots+\left(2n-1\right)3^{n-1}.
+T_n=1+3\times3+5\times3^2+\cdots+\left(2n-1\right)3^{n-1}.
 $$
 
 $$
-3T_n=1\times 3+3\times 3^2+\cdots+\left(2n-3\right)3^{n-1}+\left(2n-1\right)3^n.
+3T_n=1\times3+3\times3^2+\cdots+\left(2n-3\right)3^{n-1}+\left(2n-1\right)3^n.
 $$
 
 Subtracting the two equations,
@@ -604,7 +604,7 @@ $$
 
 $\blacksquare$
 
-(Review Reference Problem 4, Comprehensive Application, Problem 12) Given that the sum of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $S_n$, and $a_{n+1}=2S_n+2$ ($n\in\mathbb N^*$).
+(Review Reference Problem 4, Comprehensive Application, Problem 12) Given that the sum of the first $n$ terms of a geometric sequence $\left\{a_n\right\}$ is $S_n$, and $a_{n+1}=2S_n+2$ ($n\in\mathbb{N}^*$).
 
 (1) Find the general term formula of $\left\{a_n\right\}$.
 
@@ -612,30 +612,30 @@ $\blacksquare$
 
 ### Solution to Problem 10
 
-(1) From $a_{n+1}=2S_n+2$, when $n\ge 2$, $a_n=2S_{n-1}+2$.
+(1) From $a_{n+1}=2S_n+2$, when $n\ge2$, $a_n=2S_{n-1}+2$.
 
 Subtracting, $a_{n+1}-a_n=2a_n$, so $a_{n+1}=3a_n$.
 
 When $n=1$, $a_2=2a_1+2$, and also $a_2=3a_1$, hence $a_1=2$.
 
-By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_n=2\times 3^{n-1}$.
+By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_n=2\times3^{n-1}$.
 
 $\blacksquare$
 
 (2) Inserting $n$ numbers between $a_n$ and $a_{n+1}$, there are $n+2$ terms in total, and the common difference is
 
 $$
-d_n=\frac{a_{n+1}-a_n}{n+1}=\frac{2\times 3^n-2\times 3^{n-1}}{n+1}=\frac{4\times 3^{n-1}}{n+1}.
+d_n=\frac{a_{n+1}-a_n}{n+1}=\frac{2\times3^n-2\times3^{n-1}}{n+1}=\frac{4\times3^{n-1}}{n+1}.
 $$
 
 Suppose there exist $d_m,d_k,d_p$ forming a geometric sequence, with $m,k,p$ forming an arithmetic sequence, i.e. $2k=m+p$.
 
 $$
-d_k^2=d_m d_p.
+d_k^2=d_md_p.
 $$
 
 $$
-\left(\frac{4\times 3^{k-1}}{k+1}\right)^2=\frac{4\times 3^{m-1}}{m+1}\cdot\frac{4\times 3^{p-1}}{p+1}.
+\left(\frac{4\times3^{k-1}}{k+1}\right)^2=\frac{4\times3^{m-1}}{m+1}\cdot\frac{4\times3^{p-1}}{p+1}.
 $$
 
 $$
@@ -647,11 +647,11 @@ Since $2k=m+p$, $3^{2k-2}=3^{m+p-2}$, hence $\left(k+1\right)^2=\left(m+1\right)
 Since $k=\frac{m+p}{2}$, $\left(\frac{m+p}{2}+1\right)^2=\left(m+1\right)\left(p+1\right)$.
 
 $$
-\frac{\left(m+p+2\right)^2}{4}=mp+m+p+1,\ \left(m+p\right)^2+4\left(m+p\right)+4=4mp+4\left(m+p\right)+4.
+\frac{\left(m+p+2\right)^2}{4}=mp+m+p+1,\,\left(m+p\right)^2+4\left(m+p\right)+4=4mp+4\left(m+p\right)+4.
 $$
 
 $$
-\left(m-p\right)^2=0,\ m=p.
+\left(m-p\right)^2=0,\,m=p.
 $$
 
 Hence $m=k=p$, i.e. the three terms are identical; there do not exist $3$ distinct terms forming a geometric sequence.
@@ -662,31 +662,31 @@ $\blacksquare$
 
 (1) Based on the above statement, infer the corresponding dual relations from the information given in the table;
 
-(2) In an arithmetic sequence $\left\{a_n\right\}$, if $a_{2018}=0$, then $a_1+a_2+\cdots+a_n=a_1+a_2+\cdots+a_{4035-n}$ ($n\in\mathbb N^*$, $n< 4035$). Correspondingly, in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, infer by analogy the dual equality and prove it.
+(2) In an arithmetic sequence $\left\{a_n\right\}$, if $a_{2018}=0$, then $a_1+a_2+\cdots+a_n=a_1+a_2+\cdots+a_{4035-n}$ ($n\in\mathbb{N}^*$, $n<4035$). Correspondingly, in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, infer by analogy the dual equality and prove it.
 
 ### Solution to Problem 10
 
 (1) By the dual relationship, the arithmetic sequence relation $a_{n+1}-a_n=d$ corresponds to the geometric sequence relation $\frac{b_{n+1}}{b_n}=q$.
 
-The arithmetic general term $a_n=a_1+\left(n-1\right)d$ corresponds to $b_n=b_1 q^{n-1}$.
+The arithmetic general term $a_n=a_1+\left(n-1\right)d$ corresponds to $b_n=b_1q^{n-1}$.
 
-Common properties of arithmetic sequences: $a_1+a_n=a_2+a_{n-1}$ corresponds to $b_1 b_n=b_2 b_{n-1}$; $a_{n-k}+a_{n+k}=2a_n$ corresponds to $b_{n-k}b_{n+k}=b_n^2$; if $m+n=k+l$ then $a_m+a_n=a_k+a_l$ corresponds to $b_m b_n=b_k b_l$.
+Common properties of arithmetic sequences: $a_1+a_n=a_2+a_{n-1}$ corresponds to $b_1b_n=b_2b_{n-1}$; $a_{n-k}+a_{n+k}=2a_n$ corresponds to $b_{n-k}b_{n+k}=b_n^2$; if $m+n=k+l$ then $a_m+a_n=a_k+a_l$ corresponds to $b_mb_n=b_kb_l$.
 
 $\blacksquare$
 
 (2) Dual conjecture: in a geometric sequence $\left\{b_n\right\}$, if $b_{2019}=1$, then
 
 $$
-b_1 b_2\cdots b_n=b_1 b_2\cdots b_{4037-n}\ \left(n< 4037\right).
+b_1b_2\cdots{b}_n=b_1b_2\cdots{b}_{4037-n}\,\left(n<4037\right).
 $$
 
-Proof: by **Definition 4.3.2 (Geometric Mean)**, $b_i b_{4037-i}=b_{2019}^2=1$.
+Proof: by **Definition 4.3.2 (Geometric Mean)**, $b_ib_{4037-i}=b_{2019}^2=1$.
 
-The left side $=b_1 b_2\cdots b_n$, and the right side $=b_1 b_2\cdots b_n\cdot b_{n+1}\cdots b_{4037-n}$.
+The left side $=b_1b_2\cdots{b}_n$, and the right side $=b_1b_2\cdots{b}_n\cdot{b}_{n+1}\cdots{b}_{4037-n}$.
 
-It suffices to prove that $b_{n+1}\cdots b_{4037-n}=1$.
+It suffices to prove that $b_{n+1}\cdots{b}_{4037-n}=1$.
 
-Since $b_i b_{4037-i}=1$, there are $\left(4037-n\right)-\left(n+1\right)+1=4036-2n$ terms, which can be paired into $2018-n$ pairs, each with product $1$.
+Since $b_ib_{4037-i}=1$, there are $\left(4037-n\right)-\left(n+1\right)+1=4036-2n$ terms, which can be paired into $2018-n$ pairs, each with product $1$.
 
 Hence the product is $1$, and the equality holds.
 

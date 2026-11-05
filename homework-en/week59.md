@@ -2,7 +2,7 @@
 
 > **Definition 5.1.1 (平均变化率)**
 > 
-> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> $\frac{\Delta{y}}{\Delta{x}}=\frac{f\left(x_{0}+\Delta{x}\right)-f\left(x_{0}\right)}{\Delta{x}}$.
 
 > **Definition 5.1.2 (Derivative)**
 > 
@@ -26,71 +26,71 @@
 
 ## Exercise 1
 
-(Exercise 5.1, Problem 13) When blowing up a balloon, the functional relation between the radius $r$ (in $\mathrm{dm}$) and the volume $V$ (in $\mathrm{L}$) is $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. Using an information technology tool, draw the graph of the function for $0\le V\le5$, and from the graph estimate the instantaneous inflation rate of the balloon at $V=0.6,1.2\ \mathrm{L}$.
+(Exercise 5.1, Problem 13) When blowing up a balloon, the functional relation between the radius $r$ (in $\mathrm{dm}$) and the volume $V$ (in $\mathrm{L}$) is $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$. Using an information technology tool, draw the graph of the function for $0\le{V}\le5$, and from the graph estimate the instantaneous inflation rate of the balloon at $V=0.6,1.2\,\mathrm{L}$.
 
-The figure is the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ on $0\le V\le5$: horizontal axis the volume $V$ (in $\mathrm{L}$), vertical axis the balloon radius $r$ (in $\mathrm{dm}$); the curve starts at the origin and increases monotonically but flattens out (concave down), with tangent lines drawn at $V=0.6$ and $V=1.2$.
+The figure is the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$ on $0\le{V}\le5$: horizontal axis the volume $V$ (in $\mathrm{L}$), vertical axis the balloon radius $r$ (in $\mathrm{dm}$); the curve starts at the origin and increases monotonically but flattens out (concave down), with tangent lines drawn at $V=0.6$ and $V=1.2$.
 
 ### Solution to Exercise 1
 
-By **Definition 5.1.2 (Derivative)**, the instantaneous inflation rate of the balloon is $r'\left(V\right)$. Take an increment $\Delta V$ near $V$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+By **Definition 5.1.2 (Derivative)**, the instantaneous inflation rate of the balloon is $r'\left(V\right)$. Take an increment $\Delta{V}$ near $V$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
 $$
-\frac{\Delta r}{\Delta V}=\frac{r\left(V+\Delta V\right)-r\left(V\right)}{\Delta V}.
+\frac{\Delta{r}}{\Delta{V}}=\frac{r\left(V+\Delta{V}\right)-r\left(V\right)}{\Delta{V}}.
 $$
 
-From the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$, $r\left(V\right)$ increases as $V$ increases, but the growth becomes more and more gentle, so $r'\left(V\right)> 0$ and decreases as $V$ increases.
+From the graph of $r\left(V\right)=\sqrt\left[3\right]{\frac{3V}{4\pi}}$, $r\left(V\right)$ increases as $V$ increases, but the growth becomes more and more gentle, so $r'\left(V\right)>0$ and decreases as $V$ increases.
 
 Estimating from the graph, when $V=0.6$, the tangent slope is approximately $r'\left(0.6\right)\approx0.3$; when $V=1.2$, the tangent slope is approximately $r'\left(1.2\right)\approx0.2$.
 
-Hence the instantaneous inflation rate of the balloon at $V=0.6\ \mathrm{L}$ is approximately $0.3\ \mathrm{dm/L}$, and at $V=1.2\ \mathrm{L}$ it is approximately $0.2\ \mathrm{dm/L}$. $\blacksquare$
+Hence the instantaneous inflation rate of the balloon at $V=0.6\,\mathrm{L}$ is approximately $0.3\,\mathrm{dm/L}$, and at $V=1.2\,\mathrm{L}$ it is approximately $0.2\,\mathrm{dm/L}$. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 5.1, Review and Consolidation, Problem 1) An object falls freely from a height of $10\ \mathrm{m}$; its height above the ground (in $\mathrm{m}$) at time $t\ \mathrm{s}$ is $h\left(t\right)=-4.9t^{2}+10$. Find the instantaneous velocity of the object at $t=1$, and describe the object's motion at that time.
+(Exercise 5.1, Review and Consolidation, Problem 1) An object falls freely from a height of $10\,\mathrm{m}$; its height above the ground (in $\mathrm{m}$) at time $t\,\mathrm{s}$ is $h\left(t\right)=-4.9t^{2}+10$. Find the instantaneous velocity of the object at $t=1$, and describe the object's motion at that time.
 
 ### Solution to Problem 1
 
-By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of the object at $t=1$ is $h'\left(1\right)$. Take an increment $\Delta t$ near $t=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of the object at $t=1$ is $h'\left(1\right)$. Take an increment $\Delta{t}$ near $t=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
 $$
-\frac{\Delta h}{\Delta t}=\frac{h\left(1+\Delta t\right)-h\left(1\right)}{\Delta t}=\frac{-4.9\left[\left(1+\Delta t\right)^{2}-1^{2}\right]}{\Delta t}=-4.9\left(2+\Delta t\right)=-9.8-4.9\Delta t.
+\frac{\Delta{h}}{\Delta{t}}=\frac{h\left(1+\Delta{t}\right)-h\left(1\right)}{\Delta{t}}=\frac{-4.9\left[\left(1+\Delta{t}\right)^{2}-1^{2}\right]}{\Delta{t}}=-4.9\left(2+\Delta{t}\right)=-9.8-4.9\Delta{t}.
 $$
 
-Letting $\Delta t\to0$, we get
+Letting $\Delta{t}\to0$, we get
 
 $$
-h'\left(1\right)=\lim_{\Delta t\to0}\left(-9.8-4.9\Delta t\right)=-9.8.
+h'\left(1\right)=\lim_{\Delta{t}\to0}\left(-9.8-4.9\Delta{t}\right)=-9.8.
 $$
 
-Hence the instantaneous velocity of the object at $t=1$ is $-9.8\ \mathrm{m/s}$. At this time the object is moving downward at a speed of $9.8\ \mathrm{m/s}$. $\blacksquare$
+Hence the instantaneous velocity of the object at $t=1$ is $-9.8\,\mathrm{m/s}$. At this time the object is moving downward at a speed of $9.8\,\mathrm{m/s}$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 5.1, Review and Consolidation, Problem 2) The area $S$ (in $\mathrm{cm^{2}}$) of a circle and its radius $R$ (in $\mathrm{cm}$) are related by $S=\pi R^{2}$. Find the instantaneous rate of change of the area with respect to the radius when $R=5\ \mathrm{cm}$.
+(Exercise 5.1, Review and Consolidation, Problem 2) The area $S$ (in $\mathrm{cm^{2}}$) of a circle and its radius $R$ (in $\mathrm{cm}$) are related by $S=\pi{R}^{2}$. Find the instantaneous rate of change of the area with respect to the radius when $R=5\,\mathrm{cm}$.
 
 ### Solution to Problem 2
 
-By **Definition 5.1.2 (Derivative)**, the instantaneous rate of change of the area with respect to the radius is $S'\big|_{R=5}$. Take an increment $\Delta R$ near $R=5$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+By **Definition 5.1.2 (Derivative)**, the instantaneous rate of change of the area with respect to the radius is $S'\big|_{R=5}$. Take an increment $\Delta{R}$ near $R=5$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
 $$
-\frac{\Delta S}{\Delta R}=\frac{\pi\left(5+\Delta R\right)^{2}-\pi\cdot5^{2}}{\Delta R}=\frac{\pi\left(10\Delta R+\left(\Delta R\right)^{2}\right)}{\Delta R}=\pi\left(10+\Delta R\right).
+\frac{\Delta{S}}{\Delta{R}}=\frac{\pi\left(5+\Delta{R}\right)^{2}-\pi\cdot5^{2}}{\Delta{R}}=\frac{\pi\left(10\Delta{R}+\left(\Delta{R}\right)^{2}\right)}{\Delta{R}}=\pi\left(10+\Delta{R}\right).
 $$
 
-Letting $\Delta R\to0$, we get
+Letting $\Delta{R}\to0$, we get
 
 $$
-S'\big|_{R=5}=\lim_{\Delta R\to0}\pi\left(10+\Delta R\right)=10\pi.
+S'\big|_{R=5}=\lim_{\Delta{R}\to0}\pi\left(10+\Delta{R}\right)=10\pi.
 $$
 
-Hence when $R=5\ \mathrm{cm}$, the instantaneous rate of change of the area with respect to the radius is $10\pi\ \mathrm{cm^{2}/cm}$. $\blacksquare$
+Hence when $R=5\,\mathrm{cm}$, the instantaneous rate of change of the area with respect to the radius is $10\pi\,\mathrm{cm^{2}/cm}$. $\blacksquare$
 
 ## Problem 3
 
 (Exercise 5.1, Review and Consolidation, Problem 3) A particle moves along a straight line; its displacement $y$ (in $\mathrm{m}$) and time $t$ (in $\mathrm{s}$) are related by $y\left(t\right)=5t^{2}+6$. Find: 
 
-(1) the average velocity over the interval $2\le t\le3$; 
+(1) the average velocity over the interval $2\le{t}\le3$; 
 
-(2) the instantaneous velocity at $t=2\ \mathrm{s}$.
+(2) the instantaneous velocity at $t=2\,\mathrm{s}$.
 
 ### Solution to Problem 3
 
@@ -102,37 +102,37 @@ $$
 \overline{v}=\frac{y\left(3\right)-y\left(2\right)}{3-2}=\frac{\left(5\times3^{2}+6\right)-\left(5\times2^{2}+6\right)}{1}=5\times\left(9-4\right)=25.
 $$
 
-Hence the average velocity over this interval is $25\ \mathrm{m/s}$.
+Hence the average velocity over this interval is $25\,\mathrm{m/s}$.
 
-(2) Take an increment $\Delta t$ near $t=2$, we get
+(2) Take an increment $\Delta{t}$ near $t=2$, we get
 
 $$
-\frac{\Delta y}{\Delta t}=\frac{y\left(2+\Delta t\right)-y\left(2\right)}{\Delta t}=\frac{5\left[\left(2+\Delta t\right)^{2}-2^{2}\right]}{\Delta t}=5\left(4+\Delta t\right)=20+5\Delta t.
+\frac{\Delta{y}}{\Delta{t}}=\frac{y\left(2+\Delta{t}\right)-y\left(2\right)}{\Delta{t}}=\frac{5\left[\left(2+\Delta{t}\right)^{2}-2^{2}\right]}{\Delta{t}}=5\left(4+\Delta{t}\right)=20+5\Delta{t}.
 $$
 
-Letting $\Delta t\to0$, we get $y'\left(2\right)=20$.
+Letting $\Delta{t}\to0$, we get $y'\left(2\right)=20$.
 
-Hence the instantaneous velocity at $t=2\ \mathrm{s}$ is $20\ \mathrm{m/s}$. $\blacksquare$
+Hence the instantaneous velocity at $t=2\,\mathrm{s}$ is $20\,\mathrm{m/s}$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 5.1, Review and Consolidation, Problem 4) The angle $\theta$ (in $\mathrm{rad}$) through which a wheel rotates and the time $t$ (in $\mathrm{s}$) are related by $\theta\left(t\right)=\frac{25\pi}{8}t^{2}$. Find the instantaneous angular velocity at the $3.2\ \mathrm{s}$ after the wheel starts rotating.
+(Exercise 5.1, Review and Consolidation, Problem 4) The angle $\theta$ (in $\mathrm{rad}$) through which a wheel rotates and the time $t$ (in $\mathrm{s}$) are related by $\theta\left(t\right)=\frac{25\pi}{8}t^{2}$. Find the instantaneous angular velocity at the $3.2\,\mathrm{s}$ after the wheel starts rotating.
 
 ### Solution to Problem 4
 
-By **Definition 5.1.2 (Derivative)**, the instantaneous angular velocity is $\theta'\left(3.2\right)$. Take an increment $\Delta t$ near $t=3.2$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+By **Definition 5.1.2 (Derivative)**, the instantaneous angular velocity is $\theta'\left(3.2\right)$. Take an increment $\Delta{t}$ near $t=3.2$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
 $$
-\frac{\Delta\theta}{\Delta t}=\frac{\frac{25\pi}{8}\left[\left(3.2+\Delta t\right)^{2}-3.2^{2}\right]}{\Delta t}=\frac{25\pi}{8}\left(6.4+\Delta t\right).
+\frac{\Delta\theta}{\Delta{t}}=\frac{\frac{25\pi}{8}\left[\left(3.2+\Delta{t}\right)^{2}-3.2^{2}\right]}{\Delta{t}}=\frac{25\pi}{8}\left(6.4+\Delta{t}\right).
 $$
 
-Letting $\Delta t\to0$, we get
+Letting $\Delta{t}\to0$, we get
 
 $$
 \theta'\left(3.2\right)=\frac{25\pi}{8}\times6.4=20\pi.
 $$
 
-Hence the instantaneous angular velocity at the $3.2\ \mathrm{s}$ after the wheel starts rotating is $20\pi\ \mathrm{rad/s}$. $\blacksquare$
+Hence the instantaneous angular velocity at the $3.2\,\mathrm{s}$ after the wheel starts rotating is $20\pi\,\mathrm{rad/s}$. $\blacksquare$
 
 ## Problem 5
 
@@ -174,31 +174,31 @@ Near $x=1$, the curve is falling and fairly steep, the tangent slope is negative
 
 ### Solution to Problem 7
 
-By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is $y'\big|_{x=1}$. Take an increment $\Delta x$ near $x=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is $y'\big|_{x=1}$. Take an increment $\Delta{x}$ near $x=1$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
 $$
-\frac{\Delta y}{\Delta x}=\frac{\frac{1}{2}\left(1+\Delta x\right)^{2}-2-\left(\frac{1}{2}\times1^{2}-2\right)}{\Delta x}=\frac{\frac{1}{2}\left(2\Delta x+\left(\Delta x\right)^{2}\right)}{\Delta x}=1+\frac{1}{2}\Delta x.
+\frac{\Delta{y}}{\Delta{x}}=\frac{\frac{1}{2}\left(1+\Delta{x}\right)^{2}-2-\left(\frac{1}{2}\times1^{2}-2\right)}{\Delta{x}}=\frac{\frac{1}{2}\left(2\Delta{x}+\left(\Delta{x}\right)^{2}\right)}{\Delta{x}}=1+\frac{1}{2}\Delta{x}.
 $$
 
-Letting $\Delta x\to0$, we get the tangent slope $k=1$.
+Letting $\Delta{x}\to0$, we get the tangent slope $k=1$.
 
-Let the angle of inclination of the tangent be $\alpha$; then $\tan\alpha=1$. Since $0\le\alpha< \pi$, we have $\alpha=\frac{\pi}{4}$.
+Let the angle of inclination of the tangent be $\alpha$; then $\tan\alpha=1$. Since $0\le\alpha<\pi$, we have $\alpha=\frac{\pi}{4}$.
 
 Hence the angle of inclination of the tangent is $\frac{\pi}{4}$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 5.1, Comprehensive Application, Problem 8) An object of mass $m=3\ \mathrm{kg}$ moves along a straight line; its displacement $y$ (in $\mathrm{m}$) and time $t$ (in $\mathrm{s}$) are related by $y\left(t\right)=1+t^{2}$, and the kinetic energy of the object is $E_{k}=\frac{1}{2}mv^{2}$. Find the kinetic energy of the object at the $5\ \mathrm{s}$ after it starts moving.
+(Exercise 5.1, Comprehensive Application, Problem 8) An object of mass $m=3\,\mathrm{kg}$ moves along a straight line; its displacement $y$ (in $\mathrm{m}$) and time $t$ (in $\mathrm{s}$) are related by $y\left(t\right)=1+t^{2}$, and the kinetic energy of the object is $E_{k}=\frac{1}{2}mv^{2}$. Find the kinetic energy of the object at the $5\,\mathrm{s}$ after it starts moving.
 
 ### Solution to Problem 8
 
-By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of the object at the $5\ \mathrm{s}$ is $y'\left(5\right)$. Take an increment $\Delta t$ near $t=5$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+By **Definition 5.1.2 (Derivative)**, the instantaneous velocity of the object at the $5\,\mathrm{s}$ is $y'\left(5\right)$. Take an increment $\Delta{t}$ near $t=5$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
 $$
-\frac{\Delta y}{\Delta t}=\frac{\left[1+\left(5+\Delta t\right)^{2}\right]-\left(1+5^{2}\right)}{\Delta t}=\frac{10\Delta t+\left(\Delta t\right)^{2}}{\Delta t}=10+\Delta t.
+\frac{\Delta{y}}{\Delta{t}}=\frac{\left[1+\left(5+\Delta{t}\right)^{2}\right]-\left(1+5^{2}\right)}{\Delta{t}}=\frac{10\Delta{t}+\left(\Delta{t}\right)^{2}}{\Delta{t}}=10+\Delta{t}.
 $$
 
-Letting $\Delta t\to0$, we get $v\left(5\right)=y'\left(5\right)=10$.
+Letting $\Delta{t}\to0$, we get $v\left(5\right)=y'\left(5\right)=10$.
 
 From the kinetic energy formula $E_{k}=\frac{1}{2}mv^{2}$, substituting $m=3$ and $v=10$, we get
 
@@ -206,7 +206,7 @@ $$
 E_{k}=\frac{1}{2}\times3\times10^{2}=150.
 $$
 
-Hence the kinetic energy of the object at the $5\ \mathrm{s}$ after it starts moving is $150\ \mathrm{J}$. $\blacksquare$
+Hence the kinetic energy of the object at the $5\,\mathrm{s}$ after it starts moving is $150\,\mathrm{J}$. $\blacksquare$
 
 ## Problem 9
 
@@ -248,31 +248,31 @@ For Figure (3), the original graph is a parabola opening upward, falling on the 
 
 ## Problem 11
 
-(Exercise 5.1, Extension and Exploration, Problem 11) In a diving event, the height (in $\mathrm{m}$) of the diver's center of mass above the water surface at time $t\ \mathrm{s}$ is $h\left(t\right)=-4.9t^{2}+2.8t+11$. The derivative of the height $h$ with respect to time $t$ is the velocity $v$; what is the physical meaning of the derivative $v'$ of the velocity $v$ with respect to time $t$? Find the function expressions for $v,v'$ in terms of time $t$.
+(Exercise 5.1, Extension and Exploration, Problem 11) In a diving event, the height (in $\mathrm{m}$) of the diver's center of mass above the water surface at time $t\,\mathrm{s}$ is $h\left(t\right)=-4.9t^{2}+2.8t+11$. The derivative of the height $h$ with respect to time $t$ is the velocity $v$; what is the physical meaning of the derivative $v'$ of the velocity $v$ with respect to time $t$? Find the function expressions for $v,v'$ in terms of time $t$.
 
 ### Solution to Problem 11
 
 By **Definition 5.1.2 (Derivative)**, the derivative $h'\left(t\right)$ of the height with respect to time is the instantaneous velocity $v\left(t\right)$; the derivative $v'\left(t\right)$ of the velocity with respect to time is the instantaneous acceleration.
 
-Take an increment $\Delta t$ near $t$; by **Definition 5.1.1 (Average Rate of Change)**, we get
+Take an increment $\Delta{t}$ near $t$; by **Definition 5.1.1 (Average Rate of Change)**, we get
 
 $$
-\frac{\Delta h}{\Delta t}=\frac{h\left(t+\Delta t\right)-h\left(t\right)}{\Delta t}=-4.9\left(2t+\Delta t\right)+2.8=-9.8t+2.8-4.9\Delta t.
+\frac{\Delta{h}}{\Delta{t}}=\frac{h\left(t+\Delta{t}\right)-h\left(t\right)}{\Delta{t}}=-4.9\left(2t+\Delta{t}\right)+2.8=-9.8t+2.8-4.9\Delta{t}.
 $$
 
-Letting $\Delta t\to0$, we get
+Letting $\Delta{t}\to0$, we get
 
 $$
 v\left(t\right)=h'\left(t\right)=-9.8t+2.8.
 $$
 
-Now differentiate $v\left(t\right)$; take an increment $\Delta t$ near $t$, we get
+Now differentiate $v\left(t\right)$; take an increment $\Delta{t}$ near $t$, we get
 
 $$
-\frac{\Delta v}{\Delta t}=\frac{v\left(t+\Delta t\right)-v\left(t\right)}{\Delta t}=\frac{-9.8\Delta t}{\Delta t}=-9.8.
+\frac{\Delta{v}}{\Delta{t}}=\frac{v\left(t+\Delta{t}\right)-v\left(t\right)}{\Delta{t}}=\frac{-9.8\Delta{t}}{\Delta{t}}=-9.8.
 $$
 
-Letting $\Delta t\to0$, we get
+Letting $\Delta{t}\to0$, we get
 
 $$
 a\left(t\right)=v'\left(t\right)=-9.8.
@@ -340,11 +340,11 @@ By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**.
 
 (1) the derivative of $y=x^{5}$ at $x=3$; 
 
-(2) the derivative of $y=\ln x$ at $x=\frac{2}{3}$; 
+(2) the derivative of $y=\ln{x}$ at $x=\frac{2}{3}$; 
 
-(3) the derivative of $y=\sin x$ at $x=2\pi$; 
+(3) the derivative of $y=\sin{x}$ at $x=2\pi$; 
 
-(4) the derivative of $y=\mathrm e^{x}$ at $x=0$.
+(4) the derivative of $y=\mathrm{e}^{x}$ at $x=0$.
 
 ### Solution to Exercise 3
 
@@ -354,17 +354,17 @@ By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**.
 
 (2) $y'=\frac{1}{x}$, hence $y'\big|_{x=\frac{2}{3}}=\frac{1}{\frac{2}{3}}=\frac{3}{2}$.
 
-(3) $y'=\cos x$, hence $y'\big|_{x=2\pi}=\cos2\pi=1$.
+(3) $y'=\cos{x}$, hence $y'\big|_{x=2\pi}=\cos2\pi=1$.
 
-(4) $y'=\mathrm e^{x}$, hence $y'\big|_{x=0}=\mathrm e^{0}=1$. $\blacksquare$
+(4) $y'=\mathrm{e}^{x}$, hence $y'\big|_{x=0}=\mathrm{e}^{0}=1$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 5.2, Problem 3) Find the equation of the tangent line to the cosine curve $y=\cos x$ at the point $\left(\frac{\pi}{2},0\right)$.
+(Exercise 5.2, Problem 3) Find the equation of the tangent line to the cosine curve $y=\cos{x}$ at the point $\left(\frac{\pi}{2},0\right)$.
 
 ### Solution to Exercise 4
 
-By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, $y'=-\sin x$. By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is
+By **Definition 5.2.1 (Derivative Formulas for Basic Elementary Functions)**, $y'=-\sin{x}$. By **Definition 5.1.3 (Geometric Meaning of the Derivative)**, the tangent slope is
 
 $$
 k=y'\big|_{x=\frac{\pi}{2}}=-\sin\frac{\pi}{2}=-1.
@@ -408,15 +408,15 @@ Compared with computing point by point using the definition of the derivative in
 
 (1) $y=2x^{3}-3x^{2}-4$;
 
-(2) $y=3\cos x+2^{x}$;
+(2) $y=3\cos{x}+2^{x}$;
 
-(3) $y=\mathrm e^{x}\ln x$;
+(3) $y=\mathrm{e}^{x}\ln{x}$;
 
 (4) $y=\left(x^{2}+2x\right)\sqrt{x}$;
 
-(5) $y=\frac{\ln x}{x}$;
+(5) $y=\frac{\ln{x}}{x}$;
 
-(6) $y=\tan x$.
+(6) $y=\tan{x}$.
 
 ### Solution to Exercise 7
 
@@ -424,18 +424,18 @@ By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonomet
 
 (1) $y'=\left(2x^{3}\right)'-\left(3x^{2}\right)'-\left(4\right)'=6x^{2}-6x$.
 
-(2) $y'=3\left(\cos x\right)'+\left(2^{x}\right)'=-3\sin x+2^{x}\ln2$.
+(2) $y'=3\left(\cos{x}\right)'+\left(2^{x}\right)'=-3\sin{x}+2^{x}\ln2$.
 
-(3) By the product rule, $y'=\left(\mathrm e^{x}\right)'\ln x+\mathrm e^{x}\left(\ln x\right)'=\mathrm e^{x}\ln x+\frac{\mathrm e^{x}}{x}$.
+(3) By the product rule, $y'=\left(\mathrm{e}^{x}\right)'\ln{x}+\mathrm{e}^{x}\left(\ln{x}\right)'=\mathrm{e}^{x}\ln{x}+\frac{\mathrm{e}^{x}}{x}$.
 
 (4) $y=\left(x^{2}+2x\right)x^{\frac{1}{2}}=x^{\frac{5}{2}}+2x^{\frac{3}{2}}$, hence $y'=\frac{5}{2}x^{\frac{3}{2}}+3x^{\frac{1}{2}}$.
 
-(5) By the quotient rule, $y'=\frac{\left(\ln x\right)'x-\ln x\cdot\left(x\right)'}{x^{2}}=\frac{1-\ln x}{x^{2}}$.
+(5) By the quotient rule, $y'=\frac{\left(\ln{x}\right)'x-\ln{x}\cdot\left(x\right)'}{x^{2}}=\frac{1-\ln{x}}{x^{2}}$.
 
-(6) $y=\frac{\sin x}{\cos x}$; by the quotient rule, 
+(6) $y=\frac{\sin{x}}{\cos{x}}$; by the quotient rule, 
 
 $$
-y'=\frac{\cos x\cdot\cos x-\sin x\left(-\sin x\right)}{\cos^{2}x}=\frac{\cos^{2}x+\sin^{2}x}{\cos^{2}x}=\frac{1}{\cos^{2}x}.
+y'=\frac{\cos{x}\cdot\cos{x}-\sin{x}\left(-\sin{x}\right)}{\cos^{2}x}=\frac{\cos^{2}x+\sin^{2}x}{\cos^{2}x}=\frac{1}{\cos^{2}x}.
 $$
 
 $\blacksquare$
@@ -480,9 +480,9 @@ By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
 
 (3) Let $y=\log_{2}u$, $u=2x+1$; then $y'_{x}=\frac{1}{u\ln2}\cdot2=\frac{2}{\left(2x+1\right)\ln2}$.
 
-(4) Let $y=\cos u$, $u=\frac{x}{3}$; then $y'_{x}=-\sin u\cdot\frac{1}{3}=-\frac{1}{3}\sin\frac{x}{3}$.
+(4) Let $y=\cos{u}$, $u=\frac{x}{3}$; then $y'_{x}=-\sin{u}\cdot\frac{1}{3}=-\frac{1}{3}\sin\frac{x}{3}$.
 
-(5) Let $y=\sin u$, $u=\frac{3\pi}{2}-3x$; then $y'_{x}=\cos u\cdot\left(-3\right)=-3\cos\left(\frac{3\pi}{2}-3x\right)=-3\left(-\sin3x\right)=3\sin3x$.
+(5) Let $y=\sin{u}$, $u=\frac{3\pi}{2}-3x$; then $y'_{x}=\cos{u}\cdot\left(-3\right)=-3\cos\left(\frac{3\pi}{2}-3x\right)=-3\left(-\sin3x\right)=3\sin3x$.
 
 (6) Let $y=2^{u}$, $u=2x+1$; then $y'_{x}=2^{u}\ln2\cdot2=2^{2x+2}\ln2$. $\blacksquare$
 
@@ -490,7 +490,7 @@ By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
 
 (Exercise 5.2, Problem 9) Find the derivatives of the following functions at the given points: 
 
-(1) the derivative of $y=\mathrm e^{-2x+1}$ at $x=\frac{1}{2}$; 
+(1) the derivative of $y=\mathrm{e}^{-2x+1}$ at $x=\frac{1}{2}$; 
 
 (2) the derivative of $y=\ln\left(5x+2\right)$ at $x=1$.
 
@@ -498,9 +498,9 @@ By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
 
 By **Definition 5.2.3 (Chain Rule for Composite Functions)**.
 
-(1) Let $y=\mathrm e^{u}$, $u=-2x+1$; then $y'_{x}=\mathrm e^{u}\cdot\left(-2\right)=-2\mathrm e^{-2x+1}$. Hence $y'\big|_{x=\frac{1}{2}}=-2\mathrm e^{-2\cdot\frac{1}{2}+1}=-2\mathrm e^{0}=-2$.
+(1) Let $y=\mathrm{e}^{u}$, $u=-2x+1$; then $y'_{x}=\mathrm{e}^{u}\cdot\left(-2\right)=-2\mathrm{e}^{-2x+1}$. Hence $y'\big|_{x=\frac{1}{2}}=-2\mathrm{e}^{-2\cdot\frac{1}{2}+1}=-2\mathrm{e}^{0}=-2$.
 
-(2) Let $y=\ln u$, $u=5x+2$; then $y'_{x}=\frac{1}{u}\cdot5=\frac{5}{5x+2}$. Hence $y'\big|_{x=1}=\frac{5}{5+2}=\frac{5}{7}$. $\blacksquare$
+(2) Let $y=\ln{u}$, $u=5x+2$; then $y'_{x}=\frac{1}{u}\cdot5=\frac{5}{5x+2}$. Hence $y'\big|_{x=1}=\frac{5}{5+2}=\frac{5}{7}$. $\blacksquare$
 
 ## Exercise 11
 
@@ -532,11 +532,11 @@ The tangent line passes through the point $\left(\frac{2}{3},1\right)$, so its e
 
 (3) $y=2^{x}+\log_{2}x$;
 
-(4) $y=x^{5}\mathrm e^{x}$;
+(4) $y=x^{5}\mathrm{e}^{x}$;
 
-(5) $y=\frac{x^{3}-1}{\sin x}$;
+(5) $y=\frac{x^{3}-1}{\sin{x}}$;
 
-(6) $y=\frac{\sin x}{\sin x+\cos x}$.
+(6) $y=\frac{\sin{x}}{\sin{x}+\cos{x}}$.
 
 ### Solution to Problem 13
 
@@ -548,14 +548,14 @@ By **Definition 5.2.1 (Derivative Formulas)** and **Definition 5.2.2 (Trigonomet
 
 (3) $y'=2^{x}\ln2+\frac{1}{x\ln2}$.
 
-(4) By the product rule, $y'=5x^{4}\mathrm e^{x}+x^{5}\mathrm e^{x}=x^{4}\mathrm e^{x}\left(5+x\right)$.
+(4) By the product rule, $y'=5x^{4}\mathrm{e}^{x}+x^{5}\mathrm{e}^{x}=x^{4}\mathrm{e}^{x}\left(5+x\right)$.
 
-(5) By the quotient rule, $y'=\frac{3x^{2}\sin x-\left(x^{3}-1\right)\cos x}{\sin^{2}x}$.
+(5) By the quotient rule, $y'=\frac{3x^{2}\sin{x}-\left(x^{3}-1\right)\cos{x}}{\sin^{2}x}$.
 
 (6) By the quotient rule, 
 
 $$
-y'=\frac{\cos x\left(\sin x+\cos x\right)-\sin x\left(\cos x-\sin x\right)}{\left(\sin x+\cos x\right)^{2}}=\frac{\cos^{2}x+\sin^{2}x}{\left(\sin x+\cos x\right)^{2}}=\frac{1}{\left(\sin x+\cos x\right)^{2}}.
+y'=\frac{\cos{x}\left(\sin{x}+\cos{x}\right)-\sin{x}\left(\cos{x}-\sin{x}\right)}{\left(\sin{x}+\cos{x}\right)^{2}}=\frac{\cos^{2}x+\sin^{2}x}{\left(\sin{x}+\cos{x}\right)^{2}}=\frac{1}{\left(\sin{x}+\cos{x}\right)^{2}}.
 $$
 
 $\blacksquare$
@@ -574,7 +574,7 @@ $\blacksquare$
 
 (5) $y=\left(3x+1\right)^{2}\ln\left(3x\right)$;
 
-(6) $y=3^{x}\mathrm e^{-3x}$.
+(6) $y=3^{x}\mathrm{e}^{-3x}$.
 
 ### Solution to Problem 14
 
@@ -594,7 +594,7 @@ $$
 
 (5) By the product rule, $y'=2\left(3x+1\right)\cdot3\cdot\ln\left(3x\right)+\left(3x+1\right)^{2}\cdot\frac{3}{3x}=3\left(3x+1\right)\left[2\ln\left(3x\right)+\frac{3x+1}{3x}\right]$.
 
-(6) By the product rule, $y'=3^{x}\ln3\cdot\mathrm e^{-3x}+3^{x}\cdot\left(-3\right)\mathrm e^{-3x}=3^{x}\mathrm e^{-3x}\left(\ln3-3\right)$. $\blacksquare$
+(6) By the product rule, $y'=3^{x}\ln3\cdot\mathrm{e}^{-3x}+3^{x}\cdot\left(-3\right)\mathrm{e}^{-3x}=3^{x}\mathrm{e}^{-3x}\left(\ln3-3\right)$. $\blacksquare$
 
 ## Problem 15
 
@@ -618,7 +618,7 @@ Hence $x_{0}=3\sqrt{2}$. $\blacksquare$
 
 ## Problem 16
 
-(Exercise 5.2, Review and Consolidation, Problem 4) Given the function $y=x\ln x$.
+(Exercise 5.2, Review and Consolidation, Problem 4) Given the function $y=x\ln{x}$.
 
 (1) Find the derivative of this function; 
 
@@ -628,20 +628,20 @@ Hence $x_{0}=3\sqrt{2}$. $\blacksquare$
 
 By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)**.
 
-(1) By the product rule, $y'=\left(x\right)'\ln x+x\left(\ln x\right)'=\ln x+1$.
+(1) By the product rule, $y'=\left(x\right)'\ln{x}+x\left(\ln{x}\right)'=\ln{x}+1$.
 
 (2) By **Definition 5.1.3 (One Radian)**, the tangent slope is $k=y'\big|_{x=1}=\ln1+1=1$. The tangent line passes through the point $\left(1,0\right)$, so its equation is $y-0=1\cdot\left(x-1\right)$, i.e. $y=x-1$. $\blacksquare$
 
 ## Problem 17
 
-(Exercise 5.2, Review and Consolidation, Problem 5) Find the equation of the tangent line to the curve $y=\frac{\sin x}{x}$ at the point $M\left(\pi,0\right)$.
+(Exercise 5.2, Review and Consolidation, Problem 5) Find the equation of the tangent line to the curve $y=\frac{\sin{x}}{x}$ at the point $M\left(\pi,0\right)$.
 
 ### Solution to Problem 17
 
 By **Definition 5.2.2 (Rules for Arithmetic Operations on Derivatives)**, 
 
 $$
-y'=\frac{\cos x\cdot x-\sin x\cdot1}{x^{2}}=\frac{x\cos x-\sin x}{x^{2}}.
+y'=\frac{\cos{x}\cdot{x}-\sin{x}\cdot1}{x^{2}}=\frac{x\cos{x}-\sin{x}}{x^{2}}.
 $$
 
 By **Definition 5.1.3 (One Radian)**, the tangent slope is
@@ -654,14 +654,14 @@ The tangent line passes through the point $M\left(\pi,0\right)$, so its equation
 
 ## Problem 18
 
-(Exercise 5.2, Comprehensive Application, Problem 6) Given that the function $f\left(x\right)$ satisfies $f\left(x\right)=f'\left(\frac{\pi}{4}\right)\sin x-\cos x$, find the derivative of $f\left(x\right)$ at $x=\frac{\pi}{4}$.
+(Exercise 5.2, Comprehensive Application, Problem 6) Given that the function $f\left(x\right)$ satisfies $f\left(x\right)=f'\left(\frac{\pi}{4}\right)\sin{x}-\cos{x}$, find the derivative of $f\left(x\right)$ at $x=\frac{\pi}{4}$.
 
 ### Solution to Problem 18
 
 By **Definition 5.2.2 (Trigonometric Functions)**, differentiating $f\left(x\right)$ and noting that $f'\left(\frac{\pi}{4}\right)$ is a constant, we get
 
 $$
-f'\left(x\right)=f'\left(\frac{\pi}{4}\right)\cos x+\sin x.
+f'\left(x\right)=f'\left(\frac{\pi}{4}\right)\cos{x}+\sin{x}.
 $$
 
 Setting $x=\frac{\pi}{4}$ and writing $c=f'\left(\frac{\pi}{4}\right)$, we have

@@ -6,7 +6,7 @@
 
 > **定义 4.4.1 (对数函数)**
 > 
-> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+> 一般地, 函数 $y=\log_ax$ ($a>0$, 且 $a\neq1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
 
 > **定义 4.5.1 (函数的零点)**
 > 
@@ -26,23 +26,23 @@
 
 ## 习题一
 
-(复习参考题4 综合运用第 10 题) 物体冷却公式为 $\theta=\theta_0+\left(\theta_1-\theta_0\right)\mathrm e^{-kt}$. 现有 $62{}^\circ\mathrm C$ 的物体放在 $15{}^\circ\mathrm C$ 的空气中冷却, $1\;\mathrm{min}$ 后物体温度为 $52{}^\circ\mathrm C$.
+(复习参考题4 综合运用第 10 题) 物体冷却公式为 $\theta=\theta_0+\left(\theta_1-\theta_0\right)\mathrm{e}^{-kt}$. 现有 $62{}^\circ\mathrm{C}$ 的物体放在 $15{}^\circ\mathrm{C}$ 的空气中冷却, $1\;\mathrm{min}$ 后物体温度为 $52{}^\circ\mathrm{C}$.
 
 (1) 求 $k$ 的值 (精确到 $0.01$);
 
-(2) 若要将物体温度降为 $42{}^\circ\mathrm C$, $32{}^\circ\mathrm C$, 求分别需要冷却的时间 (精确到 $0.1\;\mathrm{min}$).
+(2) 若要将物体温度降为 $42{}^\circ\mathrm{C}$, $32{}^\circ\mathrm{C}$, 求分别需要冷却的时间 (精确到 $0.1\;\mathrm{min}$).
 
 ### 解答 习题一
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 代入 $\theta=52$, $\theta_0=15$, $\theta_1=62$, $t=1$: $52=15+47\mathrm e^{-k}$, $\mathrm e^{-k}=\frac{37}{47}$, $k=-\ln\frac{37}{47}\approx 0.24$.
+(1) 代入 $\theta=52$, $\theta_0=15$, $\theta_1=62$, $t=1$: $52=15+47\mathrm{e}^{-k}$, $\mathrm{e}^{-k}=\frac{37}{47}$, $k=-\ln\frac{37}{47}\approx0.24$.
 
-(2) 令 $\theta=42$: $42=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\frac{27}{47}$, $t=\frac{-\ln\left(27/47\right)}{0.24}\approx 2.3\;\mathrm{min}$. 令 $\theta=32$: $32=15+47\mathrm e^{-0.24t}$, $\mathrm e^{-0.24t}=\frac{17}{47}$, $t=\frac{-\ln\left(17/47\right)}{0.24}\approx 4.5\;\mathrm{min}$. $\blacksquare$
+(2) 令 $\theta=42$: $42=15+47\mathrm{e}^{-0.24t}$, $\mathrm{e}^{-0.24t}=\frac{27}{47}$, $t=\frac{-\ln\left(27/47\right)}{0.24}\approx2.3\;\mathrm{min}$. 令 $\theta=32$: $32=15+47\mathrm{e}^{-0.24t}$, $\mathrm{e}^{-0.24t}=\frac{17}{47}$, $t=\frac{-\ln\left(17/47\right)}{0.24}\approx4.5\;\mathrm{min}$. $\blacksquare$
 
 ## 习题二
 
-(复习参考题4 拓广探索第 11 题) 已知函数 $f\left(x\right)=\log_a\left(x+1\right)$, $g\left(x\right)=\log_a\left(1-x\right)$ ($a> 0$, 且 $a\neq 1$).
+(复习参考题4 拓广探索第 11 题) 已知函数 $f\left(x\right)=\log_a\left(x+1\right)$, $g\left(x\right)=\log_a\left(1-x\right)$ ($a>0$, 且 $a\neq1$).
 
 (1) 求函数 $f\left(x\right)+g\left(x\right)$ 的定义域;
 
@@ -52,13 +52,13 @@
 
 由**定义 4.4.1 (对数函数)**.
 
-(1) 要求 $x+1> 0$ 且 $1-x> 0$, 即 $-1< x< 1$. 故定义域为 $\left(-1,1\right)$.
+(1) 要求 $x+1>0$ 且 $1-x>0$, 即 $-1<{}x<1$. 故定义域为 $\left(-1,1\right)$.
 
 (2) $F\left(x\right)=f\left(x\right)+g\left(x\right)=\log_a\left(x+1\right)+\log_a\left(1-x\right)=\log_a\left(1-x^2\right)$. $F\left(-x\right)=\log_a\left(1-\left(-x\right)^2\right)=\log_a\left(1-x^2\right)=F\left(x\right)$. 故 $F\left(x\right)$ 为偶函数. $\blacksquare$
 
 ## 习题三
 
-(复习参考题4 拓广探索第 12 题) 对于函数 $f\left(x\right)=a-\frac{2}{2^x+1}$ ($a\in\mathbb R$).
+(复习参考题4 拓广探索第 12 题) 对于函数 $f\left(x\right)=a-\frac{2}{2^x+1}$ ($a\in\mathbb{R}$).
 
 (1) 探索函数 $f\left(x\right)$ 的单调性;
 
@@ -84,13 +84,13 @@
 
 由**常用结论 4.4.4** (不同函数增长的差异).
 
-(1) 曲线段 $OA$ 可设为二次函数 $y=\frac{3}{4}x^2$ ($0\le x\le 2$); 直线段 $AB$ 过 $\left(2,3\right)$ 和 $\left(5,0\right)$, 斜率为 $-1$, 方程为 $y=-x+5$ ($2< x\le 5$). 故 $f\left(x\right)=\begin{cases}\frac{3}{4}x^2, & 0\le x\le 2,\\ -x+5, & 2< x\le 5.\end{cases}$
+(1) 曲线段 $OA$ 可设为二次函数 $y=\frac{3}{4}x^2$ ($0\le{x}\le2$); 直线段 $AB$ 过 $\left(2,3\right)$ 和 $\left(5,0\right)$, 斜率为 $-1$, 方程为 $y=-x+5$ ($2<{}x\le5$). 故 $f\left(x\right)=\begin{cases}\frac{3}{4}x^2,&0\le{x}\le2,\\-x+5,&2<{}x\le5.\end{cases}$
 
 (2) 实际问题: 如某物体先做加速运动到达最高点, 再做匀速减速运动回到初始位置. $\blacksquare$
 
 ## 习题五
 
-(复习参考题5 复习巩固第 1 题) 写出与下列各角终边相同的角的集合 $S$, 并且把 $S$ 中适合不等式 $-2\pi\leq\beta< 4\pi$ 的元素 $\beta$ 写出来:
+(复习参考题5 复习巩固第 1 题) 写出与下列各角终边相同的角的集合 $S$, 并且把 $S$ 中适合不等式 $-2\pi\leq\beta<4\pi$ 的元素 $\beta$ 写出来:
 
 (1) $\frac{\pi}{4}$;
 
@@ -104,13 +104,13 @@
 
 由**公式 5.1.1** (弧度制).
 
-(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
+(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
 
-(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
+(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
 
-(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
+(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
 
-(4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb Z\right\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
+(4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
 
 ## 习题六
 
@@ -120,7 +120,7 @@
 
 由**公式 5.1.1** (弧度制).
 
-由 $l=5$, $S=5$, 得 $S=\frac{1}{2}lr=\frac{5r}{2}=5$, $r=2$. 又 $l=\lvert\alpha\rvert r=2\lvert\alpha\rvert=5$, 故 $\lvert\alpha\rvert=\frac{5}{2}=2.5\text{ rad}\approx143^{\circ}$. $\blacksquare$
+由 $l=5$, $S=5$, 得 $S=\frac{1}{2}lr=\frac{5r}{2}=5$, $r=2$. 又 $l=\lvert\alpha\rvert{r}=2\lvert\alpha\rvert=5$, 故 $\lvert\alpha\rvert=\frac{5}{2}=2.5\text{~rad}\approx143^{\circ}$. $\blacksquare$
 
 ## 习题七
 
@@ -128,7 +128,7 @@
 
 (1) 已知 $\cos\varphi=\frac{1}{4}$, 求 $\sin\varphi$, $\tan\varphi$.
 
-(2) 已知 $\sin x=2\cos x$, 求角 $x$ 的三个三角函数值.
+(2) 已知 $\sin{x}=2\cos{x}$, 求角 $x$ 的三个三角函数值.
 
 ### 解答 习题七
 
@@ -136,7 +136,7 @@
 
 (1) 由 $\sin^{2}\varphi=1-\cos^{2}\varphi=1-\frac{1}{16}=\frac{15}{16}$, 得 $\sin\varphi=\pm\frac{\sqrt{15}}{4}$, $\tan\varphi=\pm\sqrt{15}$.
 
-(2) 由 $\sin x=2\cos x$, 得 $\tan x=2$. 又 $\sin^{2}x+\cos^{2}x=1$, 得 $\cos^{2}x=\frac{1}{5}$, $\cos x=\pm\frac{\sqrt{5}}{5}$, $\sin x=\pm\frac{2\sqrt{5}}{5}$. $\blacksquare$
+(2) 由 $\sin{x}=2\cos{x}$, 得 $\tan{x}=2$. 又 $\sin^{2}x+\cos^{2}x=1$, 得 $\cos^{2}x=\frac{1}{5}$, $\cos{x}=\pm\frac{\sqrt{5}}{5}$, $\sin{x}=\pm\frac{2\sqrt{5}}{5}$. $\blacksquare$
 
 ## 习题八
 
@@ -186,7 +186,7 @@
 
 ## 习题十
 
-(复习参考题5 复习巩固第 6 题) 设 $\pi< x< 2\pi$, 填表.
+(复习参考题5 复习巩固第 6 题) 设 $\pi<{}x<2\pi$, 填表.
 
 ### 解答 习题十
 
@@ -194,9 +194,9 @@
 
 | $x$ | $\frac{7\pi}{6}$ | $\frac{7\pi}{4}$ |
 |---|---|---|
-| $\sin x$ | $-\frac{1}{2}$ | $-\frac{\sqrt{2}}{2}$ |
-| $\cos x$ | $-\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ |
-| $\tan x$ | $\frac{\sqrt{3}}{3}$ | $-1$ |
+| $\sin{x}$ | $-\frac{1}{2}$ | $-\frac{\sqrt{2}}{2}$ |
+| $\cos{x}$ | $-\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ |
+| $\tan{x}$ | $\frac{\sqrt{3}}{3}$ | $-1$ |
 
 $\blacksquare$
 
@@ -204,21 +204,21 @@ $\blacksquare$
 
 (复习参考题5 复习巩固第 7 题) 求下列函数的最大值, 最小值, 并求使函数取得最大, 最小值的 $x$ 的集合:
 
-(1) $y=\sqrt{2}+\frac{\sin x}{\pi}$;
+(1) $y=\sqrt{2}+\frac{\sin{x}}{\pi}$;
 
-(2) $y=3-2\cos x$.
+(2) $y=3-2\cos{x}$.
 
 ### 解答 习题十一
 
 由正弦函数和余弦函数的值域.
 
-(1) 由 $-1\leq\sin x\leq1$, 得 $y_{\max}=\sqrt{2}+\frac{1}{\pi}$ ($x=\frac{\pi}{2}+2k\pi$), $y_{\min}=\sqrt{2}-\frac{1}{\pi}$ ($x=\frac{3\pi}{2}+2k\pi$).
+(1) 由 $-1\leq\sin{x}\leq1$, 得 $y_{\max}=\sqrt{2}+\frac{1}{\pi}$ ($x=\frac{\pi}{2}+2k\pi$), $y_{\min}=\sqrt{2}-\frac{1}{\pi}$ ($x=\frac{3\pi}{2}+2k\pi$).
 
-(2) 由 $-1\leq\cos x\leq1$, 得 $y_{\max}=5$ ($x=\pi+2k\pi$), $y_{\min}=1$ ($x=2k\pi$). $\blacksquare$
+(2) 由 $-1\leq\cos{x}\leq1$, 得 $y_{\max}=5$ ($x=\pi+2k\pi$), $y_{\min}=1$ ($x=2k\pi$). $\blacksquare$
 
 ## 习题十二
 
-(复习参考题5 复习巩固第 8 题) 画出下列函数在长度为一个周期的闭区间上的简图, 并指出分别由函数 $y=\sin x$, $x\in\mathbb R$ 的图象经过怎样的变换得到:
+(复习参考题5 复习巩固第 8 题) 画出下列函数在长度为一个周期的闭区间上的简图, 并指出分别由函数 $y=\sin{x}$, $x\in\mathbb{R}$ 的图象经过怎样的变换得到:
 
 (1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$;
 
@@ -228,31 +228,31 @@ $\blacksquare$
 
 (4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$.
 
-图:共四幅长度为一个周期的简图.(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$:振幅 $\frac{1}{2}$,周期 $\frac{2\pi}{3}$;(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$:振幅 $2$,周期 $2\pi$,与 $y=\sin x$ 的起伏方向相反;(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$:振幅 $1$,周期 $\pi$,在 $y=0$ 与 $y=2$ 之间波动;(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$:振幅 $3$,周期 $12\pi$.
+图:共四幅长度为一个周期的简图.(1) $y=\frac{1}{2}\sin\left(3x-\frac{\pi}{3}\right)$:振幅 $\frac{1}{2}$,周期 $\frac{2\pi}{3}$;(2) $y=-2\sin\left(x+\frac{\pi}{4}\right)$:振幅 $2$,周期 $2\pi$,与 $y=\sin{x}$ 的起伏方向相反;(3) $y=1-\sin\left(2x-\frac{\pi}{5}\right)$:振幅 $1$,周期 $\pi$,在 $y=0$ 与 $y=2$ 之间波动;(4) $y=3\sin\left(\frac{x}{6}-\frac{\pi}{3}\right)$:振幅 $3$,周期 $12\pi$.
 
 ### 解答 习题十二
 
 由**性质 5.6.1** (图象变换).
 
-(1) $y=\sin x$ 向右平移 $\frac{\pi}{9}$, 横坐标缩短到原来的 $\frac{1}{3}$, 纵坐标缩短到原来的 $\frac{1}{2}$.
+(1) $y=\sin{x}$ 向右平移 $\frac{\pi}{9}$, 横坐标缩短到原来的 $\frac{1}{3}$, 纵坐标缩短到原来的 $\frac{1}{2}$.
 
-(2) $y=\sin x$ 向左平移 $\frac{\pi}{4}$, 纵坐标伸长到原来的 $2$ 倍后关于 $x$ 轴对称.
+(2) $y=\sin{x}$ 向左平移 $\frac{\pi}{4}$, 纵坐标伸长到原来的 $2$ 倍后关于 $x$ 轴对称.
 
-(3) $y=\sin x$ 向右平移 $\frac{\pi}{10}$, 横坐标缩短到原来的 $\frac{1}{2}$, 关于 $x$ 轴对称后向上平移 $1$.
+(3) $y=\sin{x}$ 向右平移 $\frac{\pi}{10}$, 横坐标缩短到原来的 $\frac{1}{2}$, 关于 $x$ 轴对称后向上平移 $1$.
 
-(4) $y=\sin x$ 向右平移 $2\pi$, 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $3$ 倍. $\blacksquare$
+(4) $y=\sin{x}$ 向右平移 $2\pi$, 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $3$ 倍. $\blacksquare$
 
 ## 习题十三
 
 (复习参考题5 复习巩固第 9 题)
 
-(1) 用描点法画出函数 $y=\sin x$, $x\in\left[0,\frac{\pi}{2}\right]$ 的图象.
+(1) 用描点法画出函数 $y=\sin{x}$, $x\in\left[0,\frac{\pi}{2}\right]$ 的图象.
 
-(2) 如何根据第 (1) 小题并运用正弦函数的性质, 得到函数 $y=\sin x$, $x\in\left[0,2\pi\right]$ 的图象?
+(2) 如何根据第 (1) 小题并运用正弦函数的性质, 得到函数 $y=\sin{x}$, $x\in\left[0,2\pi\right]$ 的图象?
 
 (3) 如何根据第 (2) 小题并通过平行移动坐标轴, 得到函数 $y=\sin\left(x+\varphi\right)+k$, $x\in\left[0,2\pi\right]$ ($\varphi$, $k$ 都是常数) 的图象?
 
-图:平面直角坐标系中,$y=\sin x$ 在 $\left[0,\frac{\pi}{2}\right]$ 上的一段四分之一波峰状正弦曲线,从原点 $\left(0,0\right)$ 上升至 $\left(\frac{\pi}{2},1\right)$,标出五个描点 $\left(0,0\right)$,$\left(\frac{\pi}{6},\frac{1}{2}\right)$,$\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$,$\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$,$\left(\frac{\pi}{2},1\right)$ 并用光滑曲线连接.
+图:平面直角坐标系中,$y=\sin{x}$ 在 $\left[0,\frac{\pi}{2}\right]$ 上的一段四分之一波峰状正弦曲线,从原点 $\left(0,0\right)$ 上升至 $\left(\frac{\pi}{2},1\right)$,标出五个描点 $\left(0,0\right)$,$\left(\frac{\pi}{6},\frac{1}{2}\right)$,$\left(\frac{\pi}{4},\frac{\sqrt2}{2}\right)$,$\left(\frac{\pi}{3},\frac{\sqrt3}{2}\right)$,$\left(\frac{\pi}{2},1\right)$ 并用光滑曲线连接.
 
 ### 解答 习题十三
 
@@ -260,9 +260,9 @@ $\blacksquare$
 
 (1) 取 $x=0$, $\frac{\pi}{6}$, $\frac{\pi}{4}$, $\frac{\pi}{3}$, $\frac{\pi}{2}$ 描点连线.
 
-(2) 由正弦函数关于 $x=\frac{\pi}{2}$ 对称, 得 $\left[\frac{\pi}{2},\pi\right]$ 的图象; 由 $\sin\left(\pi+x\right)=-\sin x$, 得 $\left[\pi,2\pi\right]$ 的图象.
+(2) 由正弦函数关于 $x=\frac{\pi}{2}$ 对称, 得 $\left[\frac{\pi}{2},\pi\right]$ 的图象; 由 $\sin\left(\pi+x\right)=-\sin{x}$, 得 $\left[\pi,2\pi\right]$ 的图象.
 
-(3) 将 $y=\sin x$ 的图象向左 (右) 平移 $\lvert\varphi\rvert$, 再向上 (下) 平移 $\lvert k\rvert$. $\blacksquare$
+(3) 将 $y=\sin{x}$ 的图象向左 (右) 平移 $\lvert\varphi\rvert$, 再向上 (下) 平移 $\lvert{k}\rvert$. $\blacksquare$
 
 ## 习题十四
 
@@ -276,9 +276,9 @@ $\blacksquare$
 
 由**定义 5.6.1 (周期函数)** 至**定义 5.6.4 (函数 y=Asin(omega x+phi) 的周期)**.
 
-(1) 振幅 $1$, 周期 $\frac{2\pi}{5}$, 初相 $\frac{\pi}{6}$. 由 $y=\sin x$ 向左平移 $\frac{\pi}{6}$, 横坐标缩短到原来的 $\frac{1}{5}$.
+(1) 振幅 $1$, 周期 $\frac{2\pi}{5}$, 初相 $\frac{\pi}{6}$. 由 $y=\sin{x}$ 向左平移 $\frac{\pi}{6}$, 横坐标缩短到原来的 $\frac{1}{5}$.
 
-(2) 振幅 $2$, 周期 $12\pi$, 初相 $0$. 由 $y=\sin x$ 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $2$ 倍. $\blacksquare$
+(2) 振幅 $2$, 周期 $12\pi$, 初相 $0$. 由 $y=\sin{x}$ 横坐标伸长到原来的 $6$ 倍, 纵坐标伸长到原来的 $2$ 倍. $\blacksquare$
 
 ## 习题十五
 
@@ -352,7 +352,7 @@ $\blacksquare$
 
 (复习参考题5 复习巩固第 14 题)
 
-(1) 已知 $\cos\theta=-\frac{3}{5}$, $\pi< \theta< \frac{3\pi}{2}$, 求 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}$ 的值;
+(1) 已知 $\cos\theta=-\frac{3}{5}$, $\pi<\theta<\frac{3\pi}{2}$, 求 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}$ 的值;
 
 (2) 已知 $\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}=\frac{1}{5}$, 求 $\sin\alpha$ 的值;
 
@@ -364,7 +364,7 @@ $\blacksquare$
 
 由**公式 5.5.7** 及**公式 5.5.8**.
 
-(1) 由 $\pi< \theta< \frac{3\pi}{2}$, 得 $\frac{\pi}{2}< \frac{\theta}{2}< \frac{3\pi}{4}$, $\sin\frac{\theta}{2}> \cos\frac{\theta}{2}$. $\left(\sin\frac{\theta}{2}-\cos\frac{\theta}{2}\right)^{2}=1-\sin\theta=1-\left(-\frac{4}{5}\right)=\frac{9}{5}$. 故 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}=\frac{3\sqrt{5}}{5}$.
+(1) 由 $\pi<\theta<\frac{3\pi}{2}$, 得 $\frac{\pi}{2}<\frac{\theta}{2}<\frac{3\pi}{4}$, $\sin\frac{\theta}{2}>\cos\frac{\theta}{2}$. $\left(\sin\frac{\theta}{2}-\cos\frac{\theta}{2}\right)^{2}=1-\sin\theta=1-\left(-\frac{4}{5}\right)=\frac{9}{5}$. 故 $\sin\frac{\theta}{2}-\cos\frac{\theta}{2}=\frac{3\sqrt{5}}{5}$.
 
 (2) 由 $\left(\sin\frac{\alpha}{2}-\cos\frac{\alpha}{2}\right)^{2}=\frac{1}{25}=1-\sin\alpha$, 得 $\sin\alpha=\frac{24}{25}$.
 

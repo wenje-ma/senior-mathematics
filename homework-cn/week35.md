@@ -87,14 +87,14 @@ $0.07,0.24,0.95,0.98,1.02,0.98,1.37,1.40,0.39,1.02,1.44,1.58,0.54,1.08,0.61,0.72
 (2) 样本平均数为
 
 $$
-\overline x=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
+\overline{x}=\frac{0.07+0.24+\cdots+1.31}{30}\approx1.08,
 $$
 
 样本方差约为 $0.2043$, 样本标准差 $s\approx0.45$.
 
 (3) 不能认为每批这种鱼的平均汞含量都比 $1.00\times10^{-6}$ 大. 因为样本具有随机性, 不同批次鱼的汞含量可能不同, 本批样本的平均数只是对本批鱼的估计.
 
-(4) 区间 $\left[\overline x-2s,\overline x+2s\right]$ 约为 $\left[0.18,1.98\right]$. 逐一清点, 除 $0.07$ 和 $2.10$ 外, 其余 28 条鱼的汞含量都在该区间内. 故约有 28 条鱼. $\blacksquare$
+(4) 区间 $\left[\overline{x}-2s,\overline{x}+2s\right]$ 约为 $\left[0.18,1.98\right]$. 逐一清点, 除 $0.07$ 和 $2.10$ 外, 其余 28 条鱼的汞含量都在该区间内. 故约有 28 条鱼. $\blacksquare$
 
 ## 习题二
 
@@ -141,7 +141,7 @@ $110,120,123,165,432,190,174,235,428,318,249,280,162,146,210,120,123,120,150,140
 (1) 总体平均数为
 
 $$
-\overline x=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
+\overline{x}=\frac{110+120+\cdots+140}{20}=\frac{3995}{20}=199.75,
 $$
 
 总体标准差约为 $95.26$.
@@ -154,32 +154,32 @@ $$
 
 ## 习题四
 
-(习题 9.2 拓广探索第 11 题) 已知总体划分为 3 层, 通过分层随机抽样, 各层抽取的样本量, 样本平均数和样本方差分别为: $l,\overline x,s_1^2$; $m,\overline y,s_2^2$; $n,\overline z,s_3^2$. 记总的样本平均数为 $\overline w$, 样本方差为 $s^2$, 证明:
+(习题 9.2 拓广探索第 11 题) 已知总体划分为 3 层, 通过分层随机抽样, 各层抽取的样本量, 样本平均数和样本方差分别为: $l,\overline{x},s_1^2$; $m,\overline{y},s_2^2$; $n,\overline{z},s_3^2$. 记总的样本平均数为 $\overline{w}$, 样本方差为 $s^2$, 证明:
 
-(1) $\overline w=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z$;
+(1) $\overline{w}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}$;
 
-(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}$.
+(2) $s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline{x}-\overline{w}\right)^2\right]+m\left[s_2^2+\left(\overline{y}-\overline{w}\right)^2\right]+n\left[s_3^2+\left(\overline{z}-\overline{w}\right)^2\right]\right\}$.
 
 ### 解答 习题四
 
 由**常用结论 9.2.5** (分层随机抽样的总方差) 与**定义 9.2.4 (总体方差, 总体标准差, 样本方差与样本标准差)**.
 
-(1) 三层数据之和分别为 $l\overline x,m\overline y,n\overline z$, 总数据个数为 $l+m+n$, 故总样本平均数为
+(1) 三层数据之和分别为 $l\overline{x},m\overline{y},n\overline{z}$, 总数据个数为 $l+m+n$, 故总样本平均数为
 
 $$
-\overline w=\frac{l\overline x+m\overline y+n\overline z}{l+m+n}=\frac{l}{l+m+n}\overline x+\frac{m}{l+m+n}\overline y+\frac{n}{l+m+n}\overline z.
+\overline{w}=\frac{l\overline{x}+m\overline{y}+n\overline{z}}{l+m+n}=\frac{l}{l+m+n}\overline{x}+\frac{m}{l+m+n}\overline{y}+\frac{n}{l+m+n}\overline{z}.
 $$
 
-(2) 对第 1 层, $\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline x\right)+\left(\overline x-\overline w\right)\right]^2$. 展开后交叉项 $2\left(\overline x-\overline w\right)\sum_{i=1}^{l}\left(x_i-\overline x\right)=0$, 故
+(2) 对第 1 层, $\sum_{i=1}^{l}\left(x_i-\overline{w}\right)^2=\sum_{i=1}^{l}\left[\left(x_i-\overline{x}\right)+\left(\overline{x}-\overline{w}\right)\right]^2$. 展开后交叉项 $2\left(\overline{x}-\overline{w}\right)\sum_{i=1}^{l}\left(x_i-\overline{x}\right)=0$, 故
 
 $$
-\sum_{i=1}^{l}\left(x_i-\overline w\right)^2=\sum_{i=1}^{l}\left(x_i-\overline x\right)^2+l\left(\overline x-\overline w\right)^2=ls_1^2+l\left(\overline x-\overline w\right)^2.
+\sum_{i=1}^{l}\left(x_i-\overline{w}\right)^2=\sum_{i=1}^{l}\left(x_i-\overline{x}\right)^2+l\left(\overline{x}-\overline{w}\right)^2=ls_1^2+l\left(\overline{x}-\overline{w}\right)^2.
 $$
 
 对第 2, 3 层同理. 于是
 
 $$
-s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline x-\overline w\right)^2\right]+m\left[s_2^2+\left(\overline y-\overline w\right)^2\right]+n\left[s_3^2+\left(\overline z-\overline w\right)^2\right]\right\}.
+s^2=\frac{1}{l+m+n}\left\{l\left[s_1^2+\left(\overline{x}-\overline{w}\right)^2\right]+m\left[s_2^2+\left(\overline{y}-\overline{w}\right)^2\right]+n\left[s_3^2+\left(\overline{z}-\overline{w}\right)^2\right]\right\}.
 $$
 
 原式得证. $\blacksquare$
@@ -206,9 +206,9 @@ $$
 
 设德军每月生产坦克编号为 $1,2,\cdots,N$, 缴获的坦克编号构成一个简单随机样本. 几种估计 $N$ 的方法:
 
-(1) 用样本编号的平均数估计总体编号的平均数. 总体编号 $1\sim N$ 的平均数为 $\frac{N+1}{2}$, 令样本平均数 $\overline x=\frac{N+1}{2}$, 解得 $N=2\overline x-1$.
+(1) 用样本编号的平均数估计总体编号的平均数. 总体编号 $1\sim{N}$ 的平均数为 $\frac{N+1}{2}$, 令样本平均数 $\overline{x}=\frac{N+1}{2}$, 解得 $N=2\overline{x}-1$.
 
-(2) 用样本最大编号 $m$ 估计. 样本最大编号通常接近 $N$, 可估计 $N\approx m\cdot\frac{n+1}{n}$, 即用样本最大值略加修正.
+(2) 用样本最大编号 $m$ 估计. 样本最大编号通常接近 $N$, 可估计 $N\approx{m}\cdot\frac{n+1}{n}$, 即用样本最大值略加修正.
 
 比较: 用样本平均数的方法利用了所有样本信息, 但当样本量小时估计误差较大; 用样本最大值修正的方法也较简单. 在实际应用中, 把多种方法结合起来互相印证, 结果更可靠. 这些方法的共同思想是用样本统计量去估计总体的未知参数 $N$. $\blacksquare$
 
@@ -244,17 +244,17 @@ $$
 
 (1) 一名同学的性别只有男和女两种可能, 故样本空间为 $\Omega=\left\{$男, 女$\right\}$.
 
-(2) $ABO$ 血型共有 $A, B, O, AB$ 四种, 故样本空间为 $\Omega=\left\{A, B, O, AB\right\}$.
+(2) $ABO$ 血型共有 $A,B,O,AB$ 四种, 故样本空间为 $\Omega=\left\{A,B,O,AB\right\}$.
 
 (3) 每个孩子的性别有男和女两种, 两个孩子的性别组合共有 $4$ 种, 故样本空间为 $\Omega=\left\{$ (男, 男), (男, 女), (女, 男), (女, 女) $\right\}$.
 
-(4) 每次射击有中靶和脱靶两种可能, 用 $1$ 表示中靶, 用 $0$ 表示脱靶, 三次射击的结果共有 $2^3=8$ 种, 故样本空间为 $\Omega=\left\{\left(1,1,1\right), \left(1,1,0\right), \left(1,0,1\right), \left(1,0,0\right), \left(0,1,1\right), \left(0,1,0\right), \left(0,0,1\right), \left(0,0,0\right)\right\}$.
+(4) 每次射击有中靶和脱靶两种可能, 用 $1$ 表示中靶, 用 $0$ 表示脱靶, 三次射击的结果共有 $2^3=8$ 种, 故样本空间为 $\Omega=\left\{\left(1,1,1\right),\left(1,1,0\right),\left(1,0,1\right),\left(1,0,0\right),\left(0,1,1\right),\left(0,1,0\right),\left(0,0,1\right),\left(0,0,0\right)\right\}$.
 
-(5) 三次射击中靶的次数可能为 $0, 1, 2, 3$, 故样本空间为 $\Omega=\left\{0, 1, 2, 3\right\}$. $\blacksquare$
+(5) 三次射击中靶的次数可能为 $0,1,2,3$, 故样本空间为 $\Omega=\left\{0,1,2,3\right\}$. $\blacksquare$
 
 ## 练习二
 
-(练习 10.1 第 2 题) 如图, 由 $A, B$ 两个元件分别组成串联电路 (图 (1)) 和并联电路 (图 (2)), 观察两个元件正常或失效的情况.
+(练习 10.1 第 2 题) 如图, 由 $A,B$ 两个元件分别组成串联电路 (图 (1)) 和并联电路 (图 (2)), 观察两个元件正常或失效的情况.
 
 (1) 写出试验的样本空间;
 
@@ -266,9 +266,9 @@ $$
 
 ### 解答 练习二
 
-由**定义 10.1.2 (样本点与样本空间)**, 用 $1$ 表示元件正常, 用 $0$ 表示元件失效, 数组 $\left(x_1, x_2\right)$ 表示元件 $A, B$ 的状态.
+由**定义 10.1.2 (样本点与样本空间)**, 用 $1$ 表示元件正常, 用 $0$ 表示元件失效, 数组 $\left(x_1,x_2\right)$ 表示元件 $A,B$ 的状态.
 
-(1) 每个元件有正常和失效两种状态, 两个元件的状态组合共有 $4$ 种, 故样本空间为 $\Omega=\left\{\left(0,0\right), \left(0,1\right), \left(1,0\right), \left(1,1\right)\right\}$.
+(1) 每个元件有正常和失效两种状态, 两个元件的状态组合共有 $4$ 种, 故样本空间为 $\Omega=\left\{\left(0,0\right),\left(0,1\right),\left(1,0\right),\left(1,1\right)\right\}$.
 
 (2) 对串联电路, 只有两个元件都正常时电路才是通路. 由**定义 10.1.4 (随机事件)**, 事件 $M$ 是样本空间的子集, 它包含的样本点为两个元件均正常的情况, 故 $M=\left\{\left(1,1\right)\right\}$.
 
@@ -276,7 +276,7 @@ $$
 
 ## 练习三
 
-(练习 10.1 第 3 题) 袋子中有 $9$ 个大小和质地相同的球, 标号为 $1, 2, 3, 4, 5, 6, 7, 8, 9$, 从中随机摸出一个球.
+(练习 10.1 第 3 题) 袋子中有 $9$ 个大小和质地相同的球, 标号为 $1,2,3,4,5,6,7,8,9$, 从中随机摸出一个球.
 
 (1) 写出试验的样本空间;
 
@@ -286,9 +286,9 @@ $$
 
 由**定义 10.1.2 (样本点与样本空间)**, 样本点为摸到球的号码, 样本空间为所有可能号码的集合.
 
-(1) 袋子中有标号 $1$ 至 $9$ 的 $9$ 个球, 故样本空间为 $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8, 9\right\}$.
+(1) 袋子中有标号 $1$ 至 $9$ 的 $9$ 个球, 故样本空间为 $\Omega=\left\{1,2,3,4,5,6,7,8,9\right\}$.
 
-(2) 由**定义 10.1.4 (随机事件)**, 随机事件是样本空间的子集. 摸到球的号码小于 $5$, 即号码为 $1, 2, 3, 4$, 故 $A=\left\{1, 2, 3, 4\right\}$. 摸到球的号码大于 $4$, 即号码为 $5, 6, 7, 8, 9$, 故 $B=\left\{5, 6, 7, 8, 9\right\}$. 摸到球的号码是偶数, 即号码为 $2, 4, 6, 8$, 故 $C=\left\{2, 4, 6, 8\right\}$. $\blacksquare$
+(2) 由**定义 10.1.4 (随机事件)**, 随机事件是样本空间的子集. 摸到球的号码小于 $5$, 即号码为 $1,2,3,4$, 故 $A=\left\{1,2,3,4\right\}$. 摸到球的号码大于 $4$, 即号码为 $5,6,7,8,9$, 故 $B=\left\{5,6,7,8,9\right\}$. 摸到球的号码是偶数, 即号码为 $2,4,6,8$, 故 $C=\left\{2,4,6,8\right\}$. $\blacksquare$
 
 ## 练习四
 
@@ -304,15 +304,15 @@ $$
 
 ### 解答 练习四
 
-由**定义 10.1.13 (互为对立)**, 若事件 $A$ 与事件 $B$ 互为对立, 则 $A\cup B=\Omega$ 且 $A\cap B=\varnothing$, 即 $B=\overline A$.
+由**定义 10.1.13 (互为对立)**, 若事件 $A$ 与事件 $B$ 互为对立, 则 $A\cup{B}=\Omega$ 且 $A\cap{B}=\varnothing$, 即 $B=\overline{A}$.
 
-设事件 $A=$ "至少一次中靶", 则 $\overline A$ 表示 $A$ 不发生, 即两次射击都没有中靶. 对照选项, (D) "两次都没有中靶" 正是 $\overline A$. $\blacksquare$
+设事件 $A=$ "至少一次中靶", 则 $\overline{A}$ 表示 $A$ 不发生, 即两次射击都没有中靶. 对照选项, (D) "两次都没有中靶" 正是 $\overline{A}$. $\blacksquare$
 
 ## 练习五
 
 (练习 10.1 第 5 题) 抛掷一颗质地均匀的骰子, 有如下随机事件:
 
-$C_i=$ "点数为 $i$", 其中 $i=1, 2, 3, 4, 5, 6$;
+$C_i=$ "点数为 $i$", 其中 $i=1,2,3,4,5,6$;
 
 $D_1=$ "点数不大于 $2$", $D_2=$ "点数大于 $2$", $D_3=$ "点数大于 $4$";
 
@@ -322,57 +322,57 @@ $E=$ "点数为奇数", $F=$ "点数为偶数".
 
 (1) $C_1$ 与 $C_2$ 互斥;
 
-(2) $C_2, C_3$ 为对立事件;
+(2) $C_2,C_3$ 为对立事件;
 
-(3) $C_3\subseteq D_2$;
+(3) $C_3\subseteq{D}_2$;
 
-(4) $D_3\subseteq D_2$;
+(4) $D_3\subseteq{D}_2$;
 
-(5) $D_1\cup D_2=\Omega$, $D_1\cap D_2=\varnothing$;
+(5) $D_1\cup{D}_2=\Omega$, $D_1\cap{D}_2=\varnothing$;
 
-(6) $D_3=C_5\cup C_6$;
+(6) $D_3=C_5\cup{C}_6$;
 
-(7) $E=C_1\cup C_3\cup C_5$;
+(7) $E=C_1\cup{C}_3\cup{C}_5$;
 
-(8) $E, F$ 为对立事件;
+(8) $E,F$ 为对立事件;
 
-(9) $D_2\cup D_3=D_2$;
+(9) $D_2\cup{D}_3=D_2$;
 
-(10) $D_2\cap D_3=D_3$.
+(10) $D_2\cap{D}_3=D_3$.
 
 ### 解答 练习五
 
-由**定义 10.1.4 (随机事件)**, 各事件用样本空间 $\Omega=\left\{1, 2, 3, 4, 5, 6\right\}$ 的子集表示. 各事件分别为 $C_1=\left\{1\right\}$, $C_2=\left\{2\right\}$, $C_3=\left\{3\right\}$, $C_4=\left\{4\right\}$, $C_5=\left\{5\right\}$, $C_6=\left\{6\right\}$, $D_1=\left\{1, 2\right\}$, $D_2=\left\{3, 4, 5, 6\right\}$, $D_3=\left\{5, 6\right\}$, $E=\left\{1, 3, 5\right\}$, $F=\left\{2, 4, 6\right\}$.
+由**定义 10.1.4 (随机事件)**, 各事件用样本空间 $\Omega=\left\{1,2,3,4,5,6\right\}$ 的子集表示. 各事件分别为 $C_1=\left\{1\right\}$, $C_2=\left\{2\right\}$, $C_3=\left\{3\right\}$, $C_4=\left\{4\right\}$, $C_5=\left\{5\right\}$, $C_6=\left\{6\right\}$, $D_1=\left\{1,2\right\}$, $D_2=\left\{3,4,5,6\right\}$, $D_3=\left\{5,6\right\}$, $E=\left\{1,3,5\right\}$, $F=\left\{2,4,6\right\}$.
 
-(1) 由**定义 10.1.12 (互斥)**, $C_1\cap C_2=\left\{1\right\}\cap\left\{2\right\}=\varnothing$, 故 $C_1$ 与 $C_2$ 互斥. 结论正确.
+(1) 由**定义 10.1.12 (互斥)**, $C_1\cap{C}_2=\left\{1\right\}\cap\left\{2\right\}=\varnothing$, 故 $C_1$ 与 $C_2$ 互斥. 结论正确.
 
-(2) 由**定义 10.1.13 (互为对立)**, $C_2\cup C_3=\left\{2, 3\right\}\neq\Omega$, 故 $C_2, C_3$ 不是对立事件. 结论错误.
+(2) 由**定义 10.1.13 (互为对立)**, $C_2\cup{C}_3=\left\{2,3\right\}\neq\Omega$, 故 $C_2,C_3$ 不是对立事件. 结论错误.
 
-(3) 由**定义 10.1.8 (包含关系)**, $C_3=\left\{3\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. 结论正确.
+(3) 由**定义 10.1.8 (包含关系)**, $C_3=\left\{3\right\}\subseteq\left\{3,4,5,6\right\}=D_2$. 结论正确.
 
-(4) 由**定义 10.1.8 (包含关系)**, $D_3=\left\{5, 6\right\}\subseteq\left\{3, 4, 5, 6\right\}=D_2$. 结论正确.
+(4) 由**定义 10.1.8 (包含关系)**, $D_3=\left\{5,6\right\}\subseteq\left\{3,4,5,6\right\}=D_2$. 结论正确.
 
-(5) 由**定义 10.1.10 (并事件)** 与**定义 10.1.11 (交事件)**, $D_1\cup D_2=\left\{1, 2\right\}\cup\left\{3, 4, 5, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, $D_1\cap D_2=\left\{1, 2\right\}\cap\left\{3, 4, 5, 6\right\}=\varnothing$. 结论正确.
+(5) 由**定义 10.1.10 (并事件)** 与**定义 10.1.11 (交事件)**, $D_1\cup{D}_2=\left\{1,2\right\}\cup\left\{3,4,5,6\right\}=\left\{1,2,3,4,5,6\right\}=\Omega$, $D_1\cap{D}_2=\left\{1,2\right\}\cap\left\{3,4,5,6\right\}=\varnothing$. 结论正确.
 
-(6) 由**定义 10.1.10 (并事件)**, $C_5\cup C_6=\left\{5\right\}\cup\left\{6\right\}=\left\{5, 6\right\}=D_3$. 结论正确.
+(6) 由**定义 10.1.10 (并事件)**, $C_5\cup{C}_6=\left\{5\right\}\cup\left\{6\right\}=\left\{5,6\right\}=D_3$. 结论正确.
 
-(7) 由**定义 10.1.10 (并事件)**, $C_1\cup C_3\cup C_5=\left\{1\right\}\cup\left\{3\right\}\cup\left\{5\right\}=\left\{1, 3, 5\right\}=E$. 结论正确.
+(7) 由**定义 10.1.10 (并事件)**, $C_1\cup{C}_3\cup{C}_5=\left\{1\right\}\cup\left\{3\right\}\cup\left\{5\right\}=\left\{1,3,5\right\}=E$. 结论正确.
 
-(8) 由**定义 10.1.13 (互为对立)**, $E\cup F=\left\{1, 3, 5\right\}\cup\left\{2, 4, 6\right\}=\left\{1, 2, 3, 4, 5, 6\right\}=\Omega$, 且 $E\cap F=\left\{1, 3, 5\right\}\cap\left\{2, 4, 6\right\}=\varnothing$, 故 $E, F$ 为对立事件. 结论正确.
+(8) 由**定义 10.1.13 (互为对立)**, $E\cup{F}=\left\{1,3,5\right\}\cup\left\{2,4,6\right\}=\left\{1,2,3,4,5,6\right\}=\Omega$, 且 $E\cap{F}=\left\{1,3,5\right\}\cap\left\{2,4,6\right\}=\varnothing$, 故 $E,F$ 为对立事件. 结论正确.
 
-(9) 由**定义 10.1.10 (并事件)**, $D_2\cup D_3=\left\{3, 4, 5, 6\right\}\cup\left\{5, 6\right\}=\left\{3, 4, 5, 6\right\}=D_2$. 结论正确.
+(9) 由**定义 10.1.10 (并事件)**, $D_2\cup{D}_3=\left\{3,4,5,6\right\}\cup\left\{5,6\right\}=\left\{3,4,5,6\right\}=D_2$. 结论正确.
 
-(10) 由**定义 10.1.11 (交事件)**, $D_2\cap D_3=\left\{3, 4, 5, 6\right\}\cap\left\{5, 6\right\}=\left\{5, 6\right\}=D_3$. 结论正确. $\blacksquare$
+(10) 由**定义 10.1.11 (交事件)**, $D_2\cap{D}_3=\left\{3,4,5,6\right\}\cap\left\{5,6\right\}=\left\{5,6\right\}=D_3$. 结论正确. $\blacksquare$
 
 ## 练习六
 
 (练习 10.1 第 6 题) 判断下面的解答是否正确, 并说明理由.
 
-某运动员连续进行两次飞碟射击练习, 观察命中目标的情况, 用 $y$ 表示命中, 用 $n$ 表示没有命中, 那么试验的样本空间 $\Omega=\left\{yy, yn, ny, nn\right\}$, 因此事件 "两次射击都命中" 的概率为 $0.25$.
+某运动员连续进行两次飞碟射击练习, 观察命中目标的情况, 用 $y$ 表示命中, 用 $n$ 表示没有命中, 那么试验的样本空间 $\Omega=\left\{yy,yn,ny,nn\right\}$, 因此事件 "两次射击都命中" 的概率为 $0.25$.
 
 ### 解答 练习六
 
-由**定义 10.1.14 (古典概型)**, 古典概型要求每个样本点发生的可能性相等. 该运动员两次射击的命中情况中, 四个样本点 $yy, yn, ny, nn$ 并不一定等可能发生, 因为每次射击命中目标的概率不一定是 $0.5$, 故该试验不是古典概型, 不能用古典概型公式计算概率.
+由**定义 10.1.14 (古典概型)**, 古典概型要求每个样本点发生的可能性相等. 该运动员两次射击的命中情况中, 四个样本点 $yy,yn,ny,nn$ 并不一定等可能发生, 因为每次射击命中目标的概率不一定是 $0.5$, 故该试验不是古典概型, 不能用古典概型公式计算概率.
 
 由**定义 10.1.15 (概率的古典定义)**, 只有在古典概型下, $P\left(yy\right)=\frac{1}{4}=0.25$ 才成立. 题中解答默认了该试验为古典概型, 但未说明该运动员每次射击命中的概率为 $0.5$, 故解答不正确. $\blacksquare$
 
@@ -406,11 +406,11 @@ $E=$ "点数为奇数", $F=$ "点数为偶数".
 
 (3) 一副牌中方块有 $13$ 张, 故 $n\left(A_3\right)=13$, $P\left(A_3\right)=\frac{13}{52}=\frac{1}{4}$.
 
-(4) $J, Q, K$ 各有 $4$ 张, 共 $12$ 张, 故 $n\left(A_4\right)=12$, $P\left(A_4\right)=\frac{12}{52}=\frac{3}{13}$.
+(4) $J,Q,K$ 各有 $4$ 张, 共 $12$ 张, 故 $n\left(A_4\right)=12$, $P\left(A_4\right)=\frac{12}{52}=\frac{3}{13}$.
 
 (5) 一张牌不可能既是红桃又是梅花, 该事件为不可能事件. 由**性质 10.1.17** (必然事件与不可能事件的概率), $P\left(A_5\right)=0$.
 
-(6) 比 $6$ 大比 $9$ 小的牌为 $7, 8$, 每种有 $4$ 张, 共 $8$ 张, 故 $n\left(A_6\right)=8$, $P\left(A_6\right)=\frac{8}{52}=\frac{2}{13}$.
+(6) 比 $6$ 大比 $9$ 小的牌为 $7,8$, 每种有 $4$ 张, 共 $8$ 张, 故 $n\left(A_6\right)=8$, $P\left(A_6\right)=\frac{8}{52}=\frac{2}{13}$.
 
 (7) 红花色的牌为红桃和方块, 各 $13$ 张, 共 $26$ 张, 故 $n\left(A_7\right)=26$, $P\left(A_7\right)=\frac{26}{52}=\frac{1}{2}$.
 
@@ -426,27 +426,27 @@ $E=$ "点数为奇数", $F=$ "点数为偶数".
 
 ### 解答 练习八
 
-由**定义 10.1.14 (古典概型)**, 从 $0$ 至 $9$ 随机选一个数, 每个数等可能被选中, 样本空间 $\Omega=\left\{0, 1, 2, \cdots, 9\right\}$, $n\left(\Omega\right)=10$. 由**定义 10.1.15 (概率的古典定义)**, $P\left(A\right)=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
+由**定义 10.1.14 (古典概型)**, 从 $0$ 至 $9$ 随机选一个数, 每个数等可能被选中, 样本空间 $\Omega=\left\{0,1,2,\cdots,9\right\}$, $n\left(\Omega\right)=10$. 由**定义 10.1.15 (概率的古典定义)**, $P\left(A\right)=\frac{n\left(A\right)}{n\left(\Omega\right)}$.
 
 (1) 计算各数平方的个位数字: $0^2=0$, $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$ 个位为 $6$, $5^2=25$ 个位为 $5$, $6^2=36$ 个位为 $6$, $7^2=49$ 个位为 $9$, $8^2=64$ 个位为 $4$, $9^2=81$ 个位为 $1$. 平方的个位数字为 $1$ 的数为 $1$ 和 $9$, 共 $2$ 个, 故 $P\left(A_1\right)=\frac{2}{10}=\frac{1}{5}$.
 
-(2) 计算各数四次方的个位数字: $0^4=0$, $1^4=1$, $2^4=16$ 个位为 $6$, $3^4=81$ 个位为 $1$, $4^4=256$ 个位为 $6$, $5^4=625$ 个位为 $5$, $6^4$ 个位为 $6$, $7^4$ 个位为 $1$, $8^4$ 个位为 $6$, $9^4$ 个位为 $1$. 四次方的个位数字为 $1$ 的数为 $1, 3, 7, 9$, 共 $4$ 个, 故 $P\left(A_2\right)=\frac{4}{10}=\frac{2}{5}$. $\blacksquare$
+(2) 计算各数四次方的个位数字: $0^4=0$, $1^4=1$, $2^4=16$ 个位为 $6$, $3^4=81$ 个位为 $1$, $4^4=256$ 个位为 $6$, $5^4=625$ 个位为 $5$, $6^4$ 个位为 $6$, $7^4$ 个位为 $1$, $8^4$ 个位为 $6$, $9^4$ 个位为 $1$. 四次方的个位数字为 $1$ 的数为 $1,3,7,9$, 共 $4$ 个, 故 $P\left(A_2\right)=\frac{4}{10}=\frac{2}{5}$. $\blacksquare$
 
 ## 练习九
 
 (练习 10.1 第 9 题) 已知 $P\left(A\right)=0.5$, $P\left(B\right)=0.3$.
 
-(1) 如果 $B\subseteq A$, 那么 $P\left(A\cup B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$;
+(1) 如果 $B\subseteq{A}$, 那么 $P\left(A\cup{B}\right)=\;\_\_\;$, $P\left(A\cap{B}\right)=\;\_\_\;$;
 
-(2) 如果 $A, B$ 互斥, 那么 $P\left(A\cup B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$.
+(2) 如果 $A,B$ 互斥, 那么 $P\left(A\cup{B}\right)=\;\_\_\;$, $P\left(A\cap{B}\right)=\;\_\_\;$.
 
 ### 解答 练习九
 
 由**性质 10.1.20** (概率的单调性) 与**性质 10.1.18** (互斥事件的概率加法公式).
 
-(1) 由 $B\subseteq A$, 并事件就是 $A$ 本身, 即 $A\cup B=A$, 故 $P\left(A\cup B\right)=P\left(A\right)=0.5$. 交事件就是 $B$ 本身, 即 $A\cap B=B$, 故 $P\left(A\cap B\right)=P\left(B\right)=0.3$.
+(1) 由 $B\subseteq{A}$, 并事件就是 $A$ 本身, 即 $A\cup{B}=A$, 故 $P\left(A\cup{B}\right)=P\left(A\right)=0.5$. 交事件就是 $B$ 本身, 即 $A\cap{B}=B$, 故 $P\left(A\cap{B}\right)=P\left(B\right)=0.3$.
 
-(2) 由**定义 10.1.12 (互斥)**, $A\cap B=\varnothing$, 故 $P\left(A\cap B\right)=P\left(\varnothing\right)=0$. 由**性质 10.1.18** (互斥事件的概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)=0.5+0.3=0.8$. $\blacksquare$
+(2) 由**定义 10.1.12 (互斥)**, $A\cap{B}=\varnothing$, 故 $P\left(A\cap{B}\right)=P\left(\varnothing\right)=0$. 由**性质 10.1.18** (互斥事件的概率加法公式), $P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)=0.5+0.3=0.8$. $\blacksquare$
 
 ## 练习十
 
@@ -458,9 +458,9 @@ $E=$ "点数为奇数", $F=$ "点数为偶数".
 
 ### 解答 练习十
 
-(1) 由**性质 10.1.19** (对立事件的概率), "明天下雨" 与 "明天不下雨" 互为对立事件, 二者概率之和应为 $1$. 但 $0.4+0.5=0.9\neq 1$, 故表述错误.
+(1) 由**性质 10.1.19** (对立事件的概率), "明天下雨" 与 "明天不下雨" 互为对立事件, 二者概率之和应为 $1$. 但 $0.4+0.5=0.9\neq1$, 故表述错误.
 
-(2) 由**性质 10.1.18** (互斥事件的概率加法公式), 互斥事件满足 $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)$, 但 $A\cup B$ 不一定是必然事件, 故 $P\left(A\right)+P\left(B\right)$ 不一定等于 $1$. 只有当 $A, B$ 互为对立事件时才有 $P\left(A\right)+P\left(B\right)=1$. 互斥事件不一定是对立事件, 故表述错误. $\blacksquare$
+(2) 由**性质 10.1.18** (互斥事件的概率加法公式), 互斥事件满足 $P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)$, 但 $A\cup{B}$ 不一定是必然事件, 故 $P\left(A\right)+P\left(B\right)$ 不一定等于 $1$. 只有当 $A,B$ 互为对立事件时才有 $P\left(A\right)+P\left(B\right)=1$. 互斥事件不一定是对立事件, 故表述错误. $\blacksquare$
 
 ## 练习十一
 
@@ -473,9 +473,9 @@ $E=$ "点数为奇数", $F=$ "点数为偶数".
 
 若从这 $100$ 名学生中随机选一名学生, 求下列概率:
 
-$P\left(M\right)=\;\_\_\;$, $P\left(F\right)=\;\_\_\;$, $P\left(M\cup F\right)=\;\_\_\;$, $P\left(M\cap F\right)=\;\_\_\;$,
+$P\left(M\right)=\;\_\_\;$, $P\left(F\right)=\;\_\_\;$, $P\left(M\cup{F}\right)=\;\_\_\;$, $P\left(M\cap{F}\right)=\;\_\_\;$,
 
-$P\left(G_1\right)=\;\_\_\;$, $P\left(M\cup G_2\right)=\;\_\_\;$, $P\left(F\cap G_3\right)=\;\_\_\;$.
+$P\left(G_1\right)=\;\_\_\;$, $P\left(M\cup{G}_2\right)=\;\_\_\;$, $P\left(F\cap{G}_3\right)=\;\_\_\;$.
 
 ### 解答 练习十一
 
@@ -487,15 +487,15 @@ $P\left(M\right)=\frac{52}{100}=0.52$.
 
 $P\left(F\right)=\frac{48}{100}=0.48$.
 
-由**定义 10.1.13 (互为对立)**, $M$ 与 $F$ 互为对立事件, 故 $M\cup F=\Omega$, $P\left(M\cup F\right)=1$.
+由**定义 10.1.13 (互为对立)**, $M$ 与 $F$ 互为对立事件, 故 $M\cup{F}=\Omega$, $P\left(M\cup{F}\right)=1$.
 
-由**定义 10.1.12 (互斥)**, $M$ 与 $F$ 互斥, $M\cap F=\varnothing$, 故 $P\left(M\cap F\right)=0$.
+由**定义 10.1.12 (互斥)**, $M$ 与 $F$ 互斥, $M\cap{F}=\varnothing$, 故 $P\left(M\cap{F}\right)=0$.
 
 $P\left(G_1\right)=\frac{35}{100}=0.35$.
 
-由**性质 10.1.21** (一般概率加法公式), $P\left(M\cup G_2\right)=P\left(M\right)+P\left(G_2\right)-P\left(M\cap G_2\right)$. 其中 $P\left(G_2\right)=\frac{20+24}{100}=0.44$, $P\left(M\cap G_2\right)=\frac{20}{100}=0.20$, 故 $P\left(M\cup G_2\right)=0.52+0.44-0.20=0.76$.
+由**性质 10.1.21** (一般概率加法公式), $P\left(M\cup{G}_2\right)=P\left(M\right)+P\left(G_2\right)-P\left(M\cap{G}_2\right)$. 其中 $P\left(G_2\right)=\frac{20+24}{100}=0.44$, $P\left(M\cap{G}_2\right)=\frac{20}{100}=0.20$, 故 $P\left(M\cup{G}_2\right)=0.52+0.44-0.20=0.76$.
 
-$P\left(F\cap G_3\right)=\frac{7}{100}=0.07$. $\blacksquare$
+$P\left(F\cap{G}_3\right)=\frac{7}{100}=0.07$. $\blacksquare$
 
 ## 习题六
 
@@ -511,7 +511,7 @@ $A=$ "两个数字相同", $B=$ "两个数字之和等于 $5$", $C=$ "蓝色骰�
 
 ### 解答 习题六
 
-由**定义 10.1.14 (古典概型)**, 两枚正四面体骰子各有 $4$ 个等可能结果, 用 $\left(x, y\right)$ 表示蓝色骰子底面数字为 $x$, 黄色骰子底面数字为 $y$ 的样本点.
+由**定义 10.1.14 (古典概型)**, 两枚正四面体骰子各有 $4$ 个等可能结果, 用 $\left(x,y\right)$ 表示蓝色骰子底面数字为 $x$, 黄色骰子底面数字为 $y$ 的样本点.
 
 (1) 试验的所有可能结果如下表:
 
@@ -522,4 +522,4 @@ $A=$ "两个数字相同", $B=$ "两个数字之和等于 $5$", $C=$ "蓝色骰�
 | $3$ | $\left(3,1\right)$ | $\left(3,2\right)$ | $\left(3,3\right)$ | $\left(3,4\right)$ |
 | $4$ | $\left(4,1\right)$ | $\left(4,2\right)$ | $\left(4,3\right)$ | $\left(4,4\right)$ |
 
-(2) 由**定义 10.1.4 (随机事件)**, 各事件为样本空间的子集. 两个数字相同的样本点为 $\left(1,1\right), \left(2,2\right), \left(3,3\right), \left(4,4\right)$, 故 $A=\left\{\left(1,1\right), \left(2,2\right), \left(3,3\right), \left(4,4\right)\right\}$. 两个数字之和为 $5$ 的样本点为 $\left(1,4\right), \left(2,3\right), \left(3,2\right), \left(4,1\right)$, 故 $B=\left\{\left(1,4\right), \left(2,3\right), \left(3,2\right), \left(4,1\right)\right\}$. 蓝色骰子数字为 $2$ 的样本点为 $\left(2,1\right), \left(2,2\right), \left(2,3\right), \left(2,4\right)$, 故 $C=\left\{\left(2,1\right), \left(2,2\right), \left(2,3\right), \left(2,4\right)\right\}$. $\blacksquare$
+(2) 由**定义 10.1.4 (随机事件)**, 各事件为样本空间的子集. 两个数字相同的样本点为 $\left(1,1\right),\left(2,2\right),\left(3,3\right),\left(4,4\right)$, 故 $A=\left\{\left(1,1\right),\left(2,2\right),\left(3,3\right),\left(4,4\right)\right\}$. 两个数字之和为 $5$ 的样本点为 $\left(1,4\right),\left(2,3\right),\left(3,2\right),\left(4,1\right)$, 故 $B=\left\{\left(1,4\right),\left(2,3\right),\left(3,2\right),\left(4,1\right)\right\}$. 蓝色骰子数字为 $2$ 的样本点为 $\left(2,1\right),\left(2,2\right),\left(2,3\right),\left(2,4\right)$, 故 $C=\left\{\left(2,1\right),\left(2,2\right),\left(2,3\right),\left(2,4\right)\right\}$. $\blacksquare$

@@ -26,7 +26,7 @@
 
 > **Theorem 4.2.5 (等差数列性质)**
 > 
-> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb{N}^*$), 则 $a_p+a_q=a_s+a_t$.
 
 > **Theorem 4.2.6 (前 $n$ 项和公式一)**
 > 
@@ -46,19 +46,19 @@
 
 > **Theorem 4.3.3 (等比数列通项公式)**
 > 
-> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1 q^{n-1}$.
+> 首项为 $a_1$, 公比为 $q$ 的等比数列 $\left\{a_n\right\}$ 的通项公式为 $a_n=a_1q^{n-1}$.
 
 > **Theorem 4.3.5 (前 $n$ 项和公式)**
 > 
-> 当 $q\ne 1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_n q}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
+> 当 $q\ne1$ 时, $S_n=\frac{a_1\left(1-q^n\right)}{1-q}=\frac{a_1-a_nq}{1-q}$; 当 $q=1$ 时, $S_n=na_1$.
 
 > **Definition 4.4.1 (数学归纳法)**
 > 
-> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb N^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb N^*$, $k\ge n_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
+> 证明一个与正整数 $n$ 有关的命题, 可按下列步骤进行: (1)(归纳奠基) 证明当 $n=n_0$ ($n_0\in\mathbb{N}^*$) 时命题成立; (2)(归纳递推) 以"当 $n=k$ ($k\in\mathbb{N}^*$, $k\ge{n}_0$) 时命题成立"为条件, 推出"当 $n=k+1$ 时命题也成立". 只要完成这两个步骤, 就可以断定命题对从 $n_0$ 开始的所有正整数 $n$ 都成立.
 
 > **Definition 5.1.1 (平均变化率)**
 > 
-> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> $\frac{\Delta{y}}{\Delta{x}}=\frac{f\left(x_{0}+\Delta{x}\right)-f\left(x_{0}\right)}{\Delta{x}}$.
 
 > **Definition 5.1.2 (Derivative)**
 > 
@@ -138,7 +138,7 @@ $$
 
 $\blacksquare$
 
-(Review Reference Problem 4, Extension and Exploration, Problem 15) Every rational number can be written as $\frac{m}{n}$ ($m,n\in\mathbb Z$, $n\ne 0$, $m$ and $n$ coprime). Any rational number $\frac{m}{n}$ can be converted into a terminating or repeating decimal. Conversely, any terminating decimal can be written as $\frac{m}{n}$ and is therefore rational. Is a repeating decimal rational? Consider the following questions.
+(Review Reference Problem 4, Extension and Exploration, Problem 15) Every rational number can be written as $\frac{m}{n}$ ($m,n\in\mathbb{Z}$, $n\ne0$, $m$ and $n$ coprime). Any rational number $\frac{m}{n}$ can be converted into a terminating or repeating decimal. Conversely, any terminating decimal can be written as $\frac{m}{n}$ and is therefore rational. Is a repeating decimal rational? Consider the following questions.
 
 (1) Is $1.2\dot{3}$ rational? Explain why.
 
@@ -166,13 +166,13 @@ Hence $1.2\dot{4}$ is rational.
 
 $\blacksquare$
 
-(Review Reference Problem 4, Extension and Exploration, Problem 16) On a plane there are $n$ ($n\in\mathbb N$, $n\ge 3$) points, no three of which are collinear. Draw lines through every pair of these points. How many such lines are there in total? Prove your conclusion.
+(Review Reference Problem 4, Extension and Exploration, Problem 16) On a plane there are $n$ ($n\in\mathbb{N}$, $n\ge3$) points, no three of which are collinear. Draw lines through every pair of these points. How many such lines are there in total? Prove your conclusion.
 
 ### Solution to Problem 1
 
 Conjecture: there are $\frac{n\left(n-1\right)}{2}$ lines in total.
 
-(1) When $n=3$, $3$ points determine $3$ lines, and $\frac{3\times 2}{2}=3$; holds.
+(1) When $n=3$, $3$ points determine $3$ lines, and $\frac{3\times2}{2}=3$; holds.
 
 (2) Assume that when $n=k$, $k$ points determine $\frac{k\left(k-1\right)}{2}$ lines.
 
@@ -186,7 +186,7 @@ Thus it holds when $n=k+1$. By **Definition 4.4.1 (Mathematical Induction)**, $n
 
 $\blacksquare$
 
-(Review Reference Problem 4, Extension and Exploration, Problem 17) Mathematical induction has other variants. For example, keep step (1) of mathematical induction unchanged, but change step (2) to "taking 'the proposition holds for $n_0\le n\le k$' ($k\in\mathbb N^*$, $k\ge n_0$) as the hypothesis, deduce that 'the proposition also holds when $n=k+1$'"; one may then also conclude that the proposition holds for all positive integers $n$ starting from $n_0$. This proof method is called the second principle of mathematical induction. Use the second principle of mathematical induction to prove the following proposition: if the sequence $\left\{F_n\right\}$ satisfies $F_1=1$, $F_2=1$, $F_n=F_{n-1}+F_{n-2}$ ($n\ge 3$, $n\in\mathbb N^*$), then its general term is $F_n=\frac{1}{\sqrt{5}}\left[\left(\frac{1+\sqrt{5}}{2}\right)^n-\left(\frac{1-\sqrt{5}}{2}\right)^n\right]$.
+(Review Reference Problem 4, Extension and Exploration, Problem 17) Mathematical induction has other variants. For example, keep step (1) of mathematical induction unchanged, but change step (2) to "taking 'the proposition holds for $n_0\le{n}\le{k}$' ($k\in\mathbb{N}^*$, $k\ge{n}_0$) as the hypothesis, deduce that 'the proposition also holds when $n=k+1$'"; one may then also conclude that the proposition holds for all positive integers $n$ starting from $n_0$. This proof method is called the second principle of mathematical induction. Use the second principle of mathematical induction to prove the following proposition: if the sequence $\left\{F_n\right\}$ satisfies $F_1=1$, $F_2=1$, $F_n=F_{n-1}+F_{n-2}$ ($n\ge3$, $n\in\mathbb{N}^*$), then its general term is $F_n=\frac{1}{\sqrt{5}}\left[\left(\frac{1+\sqrt{5}}{2}\right)^n-\left(\frac{1-\sqrt{5}}{2}\right)^n\right]$.
 
 ### Solution to Problem 1
 
@@ -194,9 +194,9 @@ Let $\alpha=\frac{1+\sqrt{5}}{2}$, $\beta=\frac{1-\sqrt{5}}{2}$; then $\alpha+\b
 
 (1) When $n=1$, $\frac{1}{\sqrt{5}}\left(\alpha-\beta\right)=\frac{1}{\sqrt{5}}\cdot\sqrt{5}=1=F_1$; holds.
 
-When $n=2$, $\frac{1}{\sqrt{5}}\left(\alpha^2-\beta^2\right)=\frac{1}{\sqrt{5}}\left(\alpha-\beta\right)\left(\alpha+\beta\right)=\frac{1}{\sqrt{5}}\cdot\sqrt{5}\cdot 1=1=F_2$; holds.
+When $n=2$, $\frac{1}{\sqrt{5}}\left(\alpha^2-\beta^2\right)=\frac{1}{\sqrt{5}}\left(\alpha-\beta\right)\left(\alpha+\beta\right)=\frac{1}{\sqrt{5}}\cdot\sqrt{5}\cdot1=1=F_2$; holds.
 
-(2) Assume that for $n\le k$ ($k\ge 2$), $F_n=\frac{1}{\sqrt{5}}\left(\alpha^n-\beta^n\right)$.
+(2) Assume that for $n\le{k}$ ($k\ge2$), $F_n=\frac{1}{\sqrt{5}}\left(\alpha^n-\beta^n\right)$.
 
 When $n=k+1$,
 
@@ -214,7 +214,7 @@ $$
 F_{k+1}=\frac{1}{\sqrt{5}}\left(\alpha^{k+1}-\beta^{k+1}\right).
 $$
 
-Holds. By the second form of **Definition 4.4.1 (Mathematical Induction)**, the general term holds for all $n\in\mathbb N^*$.
+Holds. By the second form of **Definition 4.4.1 (Mathematical Induction)**, the general term holds for all $n\in\mathbb{N}^*$.
 
 $\blacksquare$
 
@@ -242,15 +242,15 @@ $$
 
 (Review Reference Problem 5, Review and Consolidation, Problem 2) Find the derivatives of the following functions: 
 
-(1) $y=2^{x}\tan x$;
+(1) $y=2^{x}\tan{x}$;
 
-(2) $y=2^{x}\ln x$;
+(2) $y=2^{x}\ln{x}$;
 
 (3) $y=\left(x-2\right)^{3}\left(3x+1\right)^{2}$;
 
 (4) $y=\frac{x^{2}}{\left(2x+1\right)^{3}}$;
 
-(5) $y=\mathrm e^{-2x+1}\cos\left(-x^{2}+x\right)$;
+(5) $y=\mathrm{e}^{-2x+1}\cos\left(-x^{2}+x\right)$;
 
 (6) $y=\frac{\sin2x}{\sqrt{x}}$.
 
@@ -258,9 +258,9 @@ $$
 
 By **Definition 5.2.1 (Derivative Formulas)**, **Definition 5.2.2 (Trigonometric Functions)** and **Definition 5.2.3 (Chain Rule)**.
 
-(1) $y'=2^{x}\ln2\cdot\tan x+2^{x}\cdot\frac{1}{\cos^{2}x}$.
+(1) $y'=2^{x}\ln2\cdot\tan{x}+2^{x}\cdot\frac{1}{\cos^{2}x}$.
 
-(2) $y'=2^{x}\ln2\cdot\ln x+\frac{2^{x}}{x}$.
+(2) $y'=2^{x}\ln2\cdot\ln{x}+\frac{2^{x}}{x}$.
 
 (3) By the product rule, 
 
@@ -277,7 +277,7 @@ $$
 (5) By the product rule and the chain rule, 
 
 $$
-y'=-2\mathrm e^{-2x+1}\cos\left(-x^{2}+1\right)+\mathrm e^{-2x+1}\left[-\sin\left(-x^{2}+x\right)\right]\cdot\left(-2x+1\right).
+y'=-2\mathrm{e}^{-2x+1}\cos\left(-x^{2}+1\right)+\mathrm{e}^{-2x+1}\left[-\sin\left(-x^{2}+x\right)\right]\cdot\left(-2x+1\right).
 $$
 
 (6) By the quotient rule, 
@@ -298,7 +298,7 @@ The upper part shows the graph of the derivative $y=f'\left(x\right)$ on $\left(
 
 By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, the sign of $f'\left(x\right)$ determines whether $f\left(x\right)$ increases or decreases.
 
-From the graph of the derivative: on $\left(-1,0\right)$, $f'\left(x\right)> 0$ and is increasing, so $f\left(x\right)$ is increasing and becoming steeper; on $\left(0,1\right)$, $f'\left(x\right)> 0$ but is decreasing, so $f\left(x\right)$ is increasing but becoming flatter.
+From the graph of the derivative: on $\left(-1,0\right)$, $f'\left(x\right)>0$ and is increasing, so $f\left(x\right)$ is increasing and becoming steeper; on $\left(0,1\right)$, $f'\left(x\right)>0$ but is decreasing, so $f\left(x\right)$ is increasing but becoming flatter.
 
 Hence $f\left(x\right)$ is always increasing on $\left(-1,1\right)$, with slope first increasing then decreasing. The graph with this feature is option (B). $\blacksquare$
 
@@ -308,7 +308,7 @@ Hence $f\left(x\right)$ is always increasing on $\left(-1,1\right)$, with slope 
 
 (1) $y=x-\frac{1}{x}$, $\left(1,0\right)$;
 
-(2) $y=\frac{\mathrm e^{2x-1}}{x^{2}}$, $\left(\frac{1}{2},4\right)$.
+(2) $y=\frac{\mathrm{e}^{2x-1}}{x^{2}}$, $\left(\frac{1}{2},4\right)$.
 
 ### Solution to Problem 5
 
@@ -316,10 +316,10 @@ By **Definition 5.1.3 (One Radian)** and **Definition 5.2.2 (Trigonometric Funct
 
 (1) $y'=1+\frac{1}{x^{2}}$, tangent slope $k=y'\big|_{x=1}=2$. The tangent passes through $\left(1,0\right)$, and its equation is $y=2\left(x-1\right)$, i.e. $y=2x-2$.
 
-(2) $y'=\frac{2\mathrm e^{2x-1}\cdot x^{2}-\mathrm e^{2x-1}\cdot2x}{x^{4}}=\frac{2\mathrm e^{2x-1}\left(x-1\right)}{x^{3}}$. At $x=\frac{1}{2}$, 
+(2) $y'=\frac{2\mathrm{e}^{2x-1}\cdot{x}^{2}-\mathrm{e}^{2x-1}\cdot2x}{x^{4}}=\frac{2\mathrm{e}^{2x-1}\left(x-1\right)}{x^{3}}$. At $x=\frac{1}{2}$, 
 
 $$
-k=\frac{2\mathrm e^{0}\left(\frac{1}{2}-1\right)}{\left(\frac{1}{2}\right)^{3}}=\frac{2\cdot\left(-\frac{1}{2}\right)}{\frac{1}{8}}=-8.
+k=\frac{2\mathrm{e}^{0}\left(\frac{1}{2}-1\right)}{\left(\frac{1}{2}\right)^{3}}=\frac{2\cdot\left(-\frac{1}{2}\right)}{\frac{1}{8}}=-8.
 $$
 
 The tangent passes through $\left(\frac{1}{2},4\right)$, and its equation is $y-4=-8\left(x-\frac{1}{2}\right)$, i.e. $y=-8x+8$. $\blacksquare$
@@ -330,7 +330,7 @@ The tangent passes through $\left(\frac{1}{2},4\right)$, and its equation is $y-
 
 ### Solution to Problem 6
 
-By **Definition 5.2.1 (Derivative Formulas)**, $F=GMm\cdot r^{-2}$, hence
+By **Definition 5.2.1 (Derivative Formulas)**, $F=GMm\cdot{r}^{-2}$, hence
 
 $$
 F'\left(r\right)=GMm\cdot\left(-2\right)r^{-3}=-\frac{2GMm}{r^{3}}.
@@ -340,21 +340,21 @@ Hence the instantaneous rate of change of $F$ with respect to $r$ is $-\frac{2GM
 
 ## Problem 7
 
-(Review Reference Problem 5, Review and Consolidation, Problem 6) A cup of hot black tea at $80\ {^\circ}\mathrm C$ is placed in a $20\ {^\circ}\mathrm C$ room; its temperature gradually drops. The temperature $T$ (in ${^\circ}\mathrm C$) and time $t$ (in $\mathrm{min}$) are related by the function $T=f\left(t\right)$.
+(Review Reference Problem 5, Review and Consolidation, Problem 6) A cup of hot black tea at $80\,{^\circ}\mathrm{C}$ is placed in a $20\,{^\circ}\mathrm{C}$ room; its temperature gradually drops. The temperature $T$ (in ${^\circ}\mathrm{C}$) and time $t$ (in $\mathrm{min}$) are related by the function $T=f\left(t\right)$.
 
 (1) Determine the sign of $f'\left(t\right)$ and explain why.
 
-(2) What is the practical meaning of $f'\left(3\right)=-4$? If $f\left(3\right)=65\ {^\circ}\mathrm C$, can you sketch the approximate shape of the graph of $T=f\left(t\right)$ at $t=3$? 
+(2) What is the practical meaning of $f'\left(3\right)=-4$? If $f\left(3\right)=65\,{^\circ}\mathrm{C}$, can you sketch the approximate shape of the graph of $T=f\left(t\right)$ at $t=3$? 
 
-The figure is the cooling curve $T=f\left(t\right)$ (horizontal axis time $t$ in $\mathrm{min}$, vertical axis temperature $T$ in ${^\circ}\mathrm C$): it drops from a high temperature and flattens out toward room temperature, with the point $\left(3,65\right)$ marked and a tangent of slope $-4$ drawn there.
+The figure is the cooling curve $T=f\left(t\right)$ (horizontal axis time $t$ in $\mathrm{min}$, vertical axis temperature $T$ in ${^\circ}\mathrm{C}$): it drops from a high temperature and flattens out toward room temperature, with the point $\left(3,65\right)$ marked and a tangent of slope $-4$ drawn there.
 
 ### Solution to Problem 7
 
-(1) By **Definition 5.1.2 (Derivative)**, $f'\left(t\right)$ is the instantaneous rate of change of temperature with respect to time. The hot tea gradually cools, so the temperature decreases as time increases, and $f'\left(t\right)< 0$.
+(1) By **Definition 5.1.2 (Derivative)**, $f'\left(t\right)$ is the instantaneous rate of change of temperature with respect to time. The hot tea gradually cools, so the temperature decreases as time increases, and $f'\left(t\right)<0$.
 
-(2) $f'\left(3\right)=-4$ means that around the $3\ \mathrm{min}$ mark, the tea temperature is decreasing at a rate of about $4\ {^\circ}\mathrm C$ per minute.
+(2) $f'\left(3\right)=-4$ means that around the $3\,\mathrm{min}$ mark, the tea temperature is decreasing at a rate of about $4\,{^\circ}\mathrm{C}$ per minute.
 
-Since $f\left(3\right)=65$ and $f'\left(3\right)=-4< 0$, the graph is decreasing at the point $\left(3,65\right)$ with tangent slope $-4$. Also, the cooling rate slows as the temperature difference decreases, so the graph decreases and becomes flatter. $\blacksquare$
+Since $f\left(3\right)=65$ and $f'\left(3\right)=-4<0$, the graph is decreasing at the point $\left(3,65\right)$ with tangent slope $-4$. Also, the cooling rate slows as the temperature difference decreases, so the graph decreases and becomes flatter. $\blacksquare$
 
 ## Problem 8
 
@@ -364,7 +364,7 @@ Since $f\left(3\right)=65$ and $f'\left(3\right)=-4< 0$, the graph is decreasing
 
 By **Definition 5.2.1 (Derivative Formulas)**, $f\left(x\right)=x^{\frac{2}{3}}$, hence $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
-When $x> 0$, $f'\left(x\right)> 0$; when $x< 0$, $f'\left(x\right)< 0$.
+When $x>0$, $f'\left(x\right)>0$; when $x<0$, $f'\left(x\right)<0$.
 
 By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $f\left(x\right)$ is decreasing on $\left(-\infty,0\right)$ and increasing on $\left(0,+\infty\right)$. $\blacksquare$
 
@@ -400,27 +400,27 @@ Hence $c=6$. $\blacksquare$
 
 ## Problem 11
 
-(Review Reference Problem 5, Comprehensive Application, Problem 10) As shown in the figure, draw a line $AB$ through $P\left(1,1\right)$, intersecting the positive $x$-axis and the positive $y$-axis at $A,B$ respectively. At what position of line $AB$ is the area of $\triangle AOB$ minimized? What is the minimum area? 
+(Review Reference Problem 5, Comprehensive Application, Problem 10) As shown in the figure, draw a line $AB$ through $P\left(1,1\right)$, intersecting the positive $x$-axis and the positive $y$-axis at $A,B$ respectively. At what position of line $AB$ is the area of $\triangle{A}OB$ minimized? What is the minimum area? 
 
-The figure is a schematic in the coordinate plane: the point $P\left(1,1\right)$ lies in the first quadrant, a line $AB$ through $P$ meets the positive $x$-axis at $A$ and the positive $y$-axis at $B$, with $O$ the origin and $\triangle AOB$ shaded.
+The figure is a schematic in the coordinate plane: the point $P\left(1,1\right)$ lies in the first quadrant, a line $AB$ through $P$ meets the positive $x$-axis at $A$ and the positive $y$-axis at $B$, with $O$ the origin and $\triangle{A}OB$ shaded.
 
 ### Solution to Problem 11
 
-Let the slope of line $AB$ be $k$; then its equation is $y-1=k\left(x-1\right)$. Setting $y=0$, we get $A\left(1-\frac{1}{k},0\right)$; setting $x=0$, we get $B\left(0,1-k\right)$. Since $A,B$ lie on the positive axes, $k< 0$.
+Let the slope of line $AB$ be $k$; then its equation is $y-1=k\left(x-1\right)$. Setting $y=0$, we get $A\left(1-\frac{1}{k},0\right)$; setting $x=0$, we get $B\left(0,1-k\right)$. Since $A,B$ lie on the positive axes, $k<0$.
 
-The area of $\triangle AOB$ is
+The area of $\triangle{A}OB$ is
 
 $$
 S=\frac{1}{2}\left(1-\frac{1}{k}\right)\left(1-k\right)=\frac{1}{2}\left(2-k-\frac{1}{k}\right).
 $$
 
-Differentiating, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. Setting $S'=0$, we get $k^{2}=1$, and since $k< 0$, $k=-1$.
+Differentiating, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. Setting $S'=0$, we get $k^{2}=1$, and since $k<0$, $k=-1$.
 
-When $k< -1$, $S'< 0$; when $-1< k< 0$, $S'> 0$, so $k=-1$ is the minimum point.
+When $k<-1$, $S'<0$; when $-1<{}k<0$, $S'>0$, so $k=-1$ is the minimum point.
 
 Then $A\left(2,0\right)$, $B\left(0,2\right)$, and the minimum area is $S=\frac{1}{2}\times2\times2=2$.
 
-Hence when line $AB$ is $x+y=2$, the area of $\triangle AOB$ is minimized, with minimum area $2$. $\blacksquare$
+Hence when line $AB$ is $x+y=2$, the area of $\triangle{A}OB$ is minimized, with minimum area $2$. $\blacksquare$
 
 ## Problem 12
 
@@ -438,7 +438,7 @@ The graph with this feature is option (C). $\blacksquare$
 
 ## Problem 13
 
-(Review Reference Problem 5, Comprehensive Application, Problem 12) When toxic bacteria indoors start to increase, a bactericide must be used. At first, the bacteria count continues to increase; as time passes, the rate of increase gradually diminishes, and after some time the bacteria count starts to decrease. Given that the bacteria count $t\ \mathrm{h}$ after using the bactericide is $b\left(t\right)=10^{5}+10^{4}t-10^{3}t^{2}$.
+(Review Reference Problem 5, Comprehensive Application, Problem 12) When toxic bacteria indoors start to increase, a bactericide must be used. At first, the bacteria count continues to increase; as time passes, the rate of increase gradually diminishes, and after some time the bacteria count starts to decrease. Given that the bacteria count $t\,\mathrm{h}$ after using the bactericide is $b\left(t\right)=10^{5}+10^{4}t-10^{3}t^{2}$.
 
 (1) Find the instantaneous rate of change of the bacteria count at $t=5$ and at $t=10$.
 
@@ -454,15 +454,15 @@ $b'\left(5\right)=10000-10000=0$.
 
 $b'\left(10\right)=10000-20000=-10000$.
 
-(2) Setting $b'\left(t\right)=0$, we get $t=5$. When $0< t< 5$, $b'\left(t\right)> 0$ and the bacteria count increases; when $t> 5$, $b'\left(t\right)< 0$ and the bacteria count decreases. $\blacksquare$
+(2) Setting $b'\left(t\right)=0$, we get $t=5$. When $0<{}t<5$, $b'\left(t\right)>0$ and the bacteria count increases; when $t>5$, $b'\left(t\right)<0$ and the bacteria count decreases. $\blacksquare$
 
 ## Problem 14
 
-(Review Reference Problem 5, Comprehensive Application, Problem 13) Given that the tangent line to $y=x+\ln x$ at $\left(1,1\right)$ has exactly one common point with the curve $y=ax^{2}+\left(2a+3\right)x+1$, find the value of $a$.
+(Review Reference Problem 5, Comprehensive Application, Problem 13) Given that the tangent line to $y=x+\ln{x}$ at $\left(1,1\right)$ has exactly one common point with the curve $y=ax^{2}+\left(2a+3\right)x+1$, find the value of $a$.
 
 ### Solution to Problem 14
 
-For $y=x+\ln x$, $y'=1+\frac{1}{x}$, so at $x=1$ the tangent slope is $2$. The tangent equation is $y-1=2\left(x-1\right)$, i.e. $y=2x-1$.
+For $y=x+\ln{x}$, $y'=1+\frac{1}{x}$, so at $x=1$ the tangent slope is $2$. The tangent equation is $y-1=2\left(x-1\right)$, i.e. $y=2x-1$.
 
 Setting $2x-1=ax^{2}+\left(2a+3\right)x+1$ and simplifying,
 
@@ -478,11 +478,11 @@ Hence $a=0$ or $a=\frac{1}{2}$. $\blacksquare$
 
 ## Problem 15
 
-(Review Reference Problem 5, Comprehensive Application, Problem 14) A frame for a rectangular box is to be made from a steel bar of total length $14.8\ \mathrm{m}$. If one side of the base is $0.5\ \mathrm{m}$ longer than the other, what height maximizes the volume of the box? What is the maximum volume? 
+(Review Reference Problem 5, Comprehensive Application, Problem 14) A frame for a rectangular box is to be made from a steel bar of total length $14.8\,\mathrm{m}$. If one side of the base is $0.5\,\mathrm{m}$ longer than the other, what height maximizes the volume of the box? What is the maximum volume? 
 
 ### Solution to Problem 15
 
-Let the shorter base side be $x\ \mathrm{m}$; then the longer side is $x+0.5\ \mathrm{m}$ and the height is $h$. A rectangular box frame has $12$ edges (4 lengths, 4 widths, 4 heights), hence
+Let the shorter base side be $x\,\mathrm{m}$; then the longer side is $x+0.5\,\mathrm{m}$ and the height is $h$. A rectangular box frame has $12$ edges (4 lengths, 4 widths, 4 heights), hence
 
 $$
 4\left[x+\left(x+0.5\right)+h\right]=14.8,
@@ -498,11 +498,11 @@ $$
 
 Differentiating and setting $V'\left(x\right)=0$: expanding, $V\left(x\right)=-2x^{3}+2.2x^{2}+1.6x$, so $V'\left(x\right)=-6x^{2}+4.4x+1.6=0$, i.e. $3x^{2}-2.2x-0.8=0$.
 
-Solving, $x=1$ (discarding the negative root). Then $h=3.2-2=1.2\ \mathrm{m}$.
+Solving, $x=1$ (discarding the negative root). Then $h=3.2-2=1.2\,\mathrm{m}$.
 
-The maximum volume is $V=1\times1.5\times1.2=1.8\ \mathrm{m^{3}}$.
+The maximum volume is $V=1\times1.5\times1.2=1.8\,\mathrm{m^{3}}$.
 
-Hence when the height is $1.2\ \mathrm{m}$, the volume is maximized, with maximum volume $1.8\ \mathrm{m^{3}}$. $\blacksquare$
+Hence when the height is $1.2\,\mathrm{m}$, the volume is maximized, with maximum volume $1.8\,\mathrm{m^{3}}$. $\blacksquare$
 
 ## Problem 16
 
@@ -519,7 +519,7 @@ $$
 The volume of the cone is
 
 $$
-V=\frac{1}{3}\pi r^{2}h=\frac{1}{3}\pi\cdot\frac{R^{2}\alpha^{2}}{4\pi^{2}}\cdot\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}=\frac{R^{3}}{24\pi^{2}}\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}.
+V=\frac{1}{3}\pi{r}^{2}h=\frac{1}{3}\pi\cdot\frac{R^{2}\alpha^{2}}{4\pi^{2}}\cdot\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}=\frac{R^{3}}{24\pi^{2}}\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}.
 $$
 
 It suffices to maximize $\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}$. Let $u=\alpha^{2}$; the objective is $u\sqrt{4\pi^{2}-u}$. Differentiating and setting to $0$, we get $2\left(4\pi^{2}-u\right)-u=0$, i.e. $u=\frac{8\pi^{2}}{3}$.
@@ -530,33 +530,33 @@ When the central angle is $\alpha=\frac{2\sqrt{6}\pi}{3}$, the volume of the con
 
 ## Problem 17
 
-(Review Reference Problem 5, Extension and Exploration, Problem 16) The distance between cities $A,B$ is $130\ \mathrm{km}$. By traffic regulations, the speed on the highway between them should be limited to $50\sim100\ \mathrm{km/h}$. Assume gasoline costs $7$ yuan/$\mathrm L$; at speed $x\ \mathrm{km/h}$, the fuel consumption rate is $\left(3+\frac{x^{2}}{360}\right)\ \mathrm{L/h}$, and the driver's wage is $35$ yuan per hour. What is the most economical speed (rounded to $1\ \mathrm{km/h}$)? Ignoring other costs, what is the total cost of the trip (rounded to $1$ yuan)? 
+(Review Reference Problem 5, Extension and Exploration, Problem 16) The distance between cities $A,B$ is $130\,\mathrm{km}$. By traffic regulations, the speed on the highway between them should be limited to $50\sim100\,\mathrm{km/h}$. Assume gasoline costs $7$ yuan/$\mathrm{L}$; at speed $x\,\mathrm{km/h}$, the fuel consumption rate is $\left(3+\frac{x^{2}}{360}\right)\,\mathrm{L/h}$, and the driver's wage is $35$ yuan per hour. What is the most economical speed (rounded to $1\,\mathrm{km/h}$)? Ignoring other costs, what is the total cost of the trip (rounded to $1$ yuan)? 
 
 ### Solution to Problem 17
 
-The travel time is $\frac{130}{x}\ \mathrm{h}$. The total cost is the sum of fuel cost and wage: 
+The travel time is $\frac{130}{x}\,\mathrm{h}$. The total cost is the sum of fuel cost and wage: 
 
 $$
 C\left(x\right)=\frac{130}{x}\left[7\left(3+\frac{x^{2}}{360}\right)+35\right]=\frac{130}{x}\left(56+\frac{7x^{2}}{360}\right)=130\left(\frac{56}{x}+\frac{7x}{360}\right).
 $$
 
-Differentiating, $C'\left(x\right)=130\left(-\frac{56}{x^{2}}+\frac{7}{360}\right)$. Setting $C'\left(x\right)=0$, we get $\frac{56}{x^{2}}=\frac{7}{360}$, i.e. $x^{2}=2880$, hence $x\approx53.7\ \mathrm{km/h}$.
+Differentiating, $C'\left(x\right)=130\left(-\frac{56}{x^{2}}+\frac{7}{360}\right)$. Setting $C'\left(x\right)=0$, we get $\frac{56}{x^{2}}=\frac{7}{360}$, i.e. $x^{2}=2880$, hence $x\approx53.7\,\mathrm{km/h}$.
 
-This value is within the $50\sim100$ range and is the minimum point. Rounded to $1\ \mathrm{km/h}$, the most economical speed is about $54\ \mathrm{km/h}$.
+This value is within the $50\sim100$ range and is the minimum point. Rounded to $1\,\mathrm{km/h}$, the most economical speed is about $54\,\mathrm{km/h}$.
 
 The total cost is
 
 $$
-C\left(54\right)=130\left(\frac{56}{54}+\frac{7\times54}{360}\right)\approx130\times\left(1.037+1.05\right)\approx271\ \mathrm{元}.
+C\left(54\right)=130\left(\frac{56}{54}+\frac{7\times54}{360}\right)\approx130\times\left(1.037+1.05\right)\approx271\,\mathrm{元}.
 $$
 
-Hence the most economical speed is about $54\ \mathrm{km/h}$, and the total cost is about $271$ yuan. $\blacksquare$
+Hence the most economical speed is about $54\,\mathrm{km/h}$, and the total cost is about $271$ yuan. $\blacksquare$
 
 ## Problem 18
 
-(Review Reference Problem 5, Extension and Exploration, Problem 17) Sketch the graph of $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$.
+(Review Reference Problem 5, Extension and Exploration, Problem 17) Sketch the graph of $y=\frac{\mathrm{e}^{x}\left(2x-1\right)}{x-1}$.
 
-The figure is a sketch of $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$: it has the vertical asymptote $x=1$ and the horizontal asymptote $y=0$ ($y\to0$ as $x\to-\infty$), crosses the $x$-axis at $\left(\frac{1}{2},0\right)$, and has extrema at $x=\frac{1\pm\sqrt{17}}{4}$.
+The figure is a sketch of $y=\frac{\mathrm{e}^{x}\left(2x-1\right)}{x-1}$: it has the vertical asymptote $x=1$ and the horizontal asymptote $y=0$ ($y\to0$ as $x\to-\infty$), crosses the $x$-axis at $\left(\frac{1}{2},0\right)$, and has extrema at $x=\frac{1\pm\sqrt{17}}{4}$.
 
 ### Solution to Problem 18
 
@@ -567,7 +567,7 @@ The domain is $x\neq1$. Setting $y=0$, we get $x=\frac{1}{2}$, so the graph pass
 Differentiating, 
 
 $$
-y'=\frac{\left[\mathrm e^{x}\left(2x-1\right)+2\mathrm e^{x}\right]\left(x-1\right)-\mathrm e^{x}\left(2x-1\right)}{\left(x-1\right)^{2}}=\frac{\mathrm e^{x}\left(2x^{2}-x-2\right)}{\left(x-1\right)^{2}}.
+y'=\frac{\left[\mathrm{e}^{x}\left(2x-1\right)+2\mathrm{e}^{x}\right]\left(x-1\right)-\mathrm{e}^{x}\left(2x-1\right)}{\left(x-1\right)^{2}}=\frac{\mathrm{e}^{x}\left(2x^{2}-x-2\right)}{\left(x-1\right)^{2}}.
 $$
 
 Setting $y'=0$, we get $2x^{2}-x-2=0$, with solutions $x=\frac{1\pm\sqrt{17}}{4}$.
@@ -578,27 +578,27 @@ Hence the graph has two asymptotes $x=1$ and $y=0$, and attains extreme values a
 
 ## Problem 19
 
-(Review Reference Problem 5, Extension and Exploration, Problem 18) Given $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. When $m\le2$, prove that $f\left(x\right)> 0$.
+(Review Reference Problem 5, Extension and Exploration, Problem 18) Given $f\left(x\right)=\mathrm{e}^{x}-\ln\left(x+m\right)$. When $m\le2$, prove that $f\left(x\right)>0$.
 
 ### Solution to Problem 19
 
-By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. Setting $f'\left(x\right)=0$, i.e. $\mathrm e^{x}=\frac{1}{x+m}$.
+By **Definition 5.3.1 (Monotonicity and Derivative Sign)**, $f'\left(x\right)=\mathrm{e}^{x}-\frac{1}{x+m}$. Setting $f'\left(x\right)=0$, i.e. $\mathrm{e}^{x}=\frac{1}{x+m}$.
 
-When $m\le2$, within the domain of $\ln\left(x+m\right)$ we have $x+m> 0$. Let the minimum point of $f\left(x\right)$ be $x_{0}$, satisfying $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, i.e. $x_{0}+m=\mathrm e^{-x_{0}}$.
+When $m\le2$, within the domain of $\ln\left(x+m\right)$ we have $x+m>0$. Let the minimum point of $f\left(x\right)$ be $x_{0}$, satisfying $\mathrm{e}^{x_{0}}=\frac{1}{x_{0}+m}$, i.e. $x_{0}+m=\mathrm{e}^{-x_{0}}$.
 
 The minimum value is
 
 $$
-f\left(x_{0}\right)=\mathrm e^{x_{0}}-\ln\left(x_{0}+m\right)=\mathrm e^{x_{0}}-\ln\left(\mathrm e^{-x_{0}}\right)=\mathrm e^{x_{0}}+x_{0}.
+f\left(x_{0}\right)=\mathrm{e}^{x_{0}}-\ln\left(x_{0}+m\right)=\mathrm{e}^{x_{0}}-\ln\left(\mathrm{e}^{-x_{0}}\right)=\mathrm{e}^{x_{0}}+x_{0}.
 $$
 
-From $x_{0}+m=\mathrm e^{-x_{0}}$ and $m\le2$, we get $x_{0}\ge\mathrm e^{-x_{0}}-2$. Also $\mathrm e^{x_{0}}+x_{0}> 0$ for all $x_{0}$ (since $\mathrm e^{x_{0}}> 0$, and when $x_{0}\ge-2$, $\mathrm e^{x_{0}}+x_{0}> 0$).
+From $x_{0}+m=\mathrm{e}^{-x_{0}}$ and $m\le2$, we get $x_{0}\ge\mathrm{e}^{-x_{0}}-2$. Also $\mathrm{e}^{x_{0}}+x_{0}>0$ for all $x_{0}$ (since $\mathrm{e}^{x_{0}}>0$, and when $x_{0}\ge-2$, $\mathrm{e}^{x_{0}}+x_{0}>0$).
 
-Hence the minimum of $f\left(x\right)$ is greater than $0$, i.e. $f\left(x\right)> 0$. $\blacksquare$
+Hence the minimum of $f\left(x\right)$ is greater than $0$, i.e. $f\left(x\right)>0$. $\blacksquare$
 
 ## Problem 20
 
-(Review Reference Problem 5, Extension and Exploration, Problem 19) Given $f\left(x\right)=a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-x$.
+(Review Reference Problem 5, Extension and Exploration, Problem 19) Given $f\left(x\right)=a\mathrm{e}^{2x}+\left(a-2\right)\mathrm{e}^{x}-x$.
 
 (1) Discuss the monotonicity of $f\left(x\right)$; 
 
@@ -606,27 +606,27 @@ Hence the minimum of $f\left(x\right)$ is greater than $0$, i.e. $f\left(x\right
 
 ### Solution to Problem 20
 
-By **Definition 5.2.3 (Chain Rule)**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. Letting $t=\mathrm e^{x}> 0$, we have
+By **Definition 5.2.3 (Chain Rule)**, $f'\left(x\right)=2a\mathrm{e}^{2x}+\left(a-2\right)\mathrm{e}^{x}-1$. Letting $t=\mathrm{e}^{x}>0$, we have
 
 $$
 f'\left(x\right)=\left(at-1\right)\left(2t+1\right).
 $$
 
-(1) Since $2t+1> 0$, the sign of $f'\left(x\right)$ is determined by $at-1$.
+(1) Since $2t+1>0$, the sign of $f'\left(x\right)$ is determined by $at-1$.
 
-When $a\le0$, $at-1< 0$, so $f'\left(x\right)< 0$, and $f\left(x\right)$ is monotonically decreasing on $\mathbb R$.
+When $a\le0$, $at-1<0$, so $f'\left(x\right)<0$, and $f\left(x\right)$ is monotonically decreasing on $\mathbb{R}$.
 
-When $a> 0$, setting $at-1=0$, we get $t=\frac{1}{a}$, i.e. $x=-\ln a$. When $x< -\ln a$, $f'\left(x\right)< 0$; when $x> -\ln a$, $f'\left(x\right)> 0$. Hence $f\left(x\right)$ is decreasing on $\left(-\infty,-\ln a\right)$ and increasing on $\left(-\ln a,+\infty\right)$.
+When $a>0$, setting $at-1=0$, we get $t=\frac{1}{a}$, i.e. $x=-\ln{a}$. When $x<-\ln{a}$, $f'\left(x\right)<0$; when $x>-\ln{a}$, $f'\left(x\right)>0$. Hence $f\left(x\right)$ is decreasing on $\left(-\infty,-\ln{a}\right)$ and increasing on $\left(-\ln{a},+\infty\right)$.
 
 (2) When $a\le0$, $f\left(x\right)$ is decreasing and has at most one zero.
 
-When $a> 0$, $f\left(x\right)$ attains its minimum at $x=-\ln a$, namely $f\left(-\ln a\right)$. Substituting $t=\frac{1}{a}$, 
+When $a>0$, $f\left(x\right)$ attains its minimum at $x=-\ln{a}$, namely $f\left(-\ln{a}\right)$. Substituting $t=\frac{1}{a}$, 
 
 $$
-f\left(-\ln a\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln a=\frac{1}{a}+1-\frac{2}{a}+\ln a=1-\frac{1}{a}+\ln a.
+f\left(-\ln{a}\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln{a}=\frac{1}{a}+1-\frac{2}{a}+\ln{a}=1-\frac{1}{a}+\ln{a}.
 $$
 
-For $f\left(x\right)$ to have two zeros, the minimum must be less than $0$, i.e. $1-\frac{1}{a}+\ln a< 0$. Let $g\left(a\right)=1-\frac{1}{a}+\ln a$; then $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}> 0$, so $g\left(a\right)$ is increasing, and $g\left(1\right)=0$. Hence when $0< a< 1$, $g\left(a\right)< 0$.
+For $f\left(x\right)$ to have two zeros, the minimum must be less than $0$, i.e. $1-\frac{1}{a}+\ln{a}<0$. Let $g\left(a\right)=1-\frac{1}{a}+\ln{a}$; then $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}>0$, so $g\left(a\right)$ is increasing, and $g\left(1\right)=0$. Hence when $0<{}a<1$, $g\left(a\right)<0$.
 
 Also, when $x\to-\infty$, $f\left(x\right)\to+\infty$, and when $x\to+\infty$, $f\left(x\right)\to+\infty$.
 
@@ -646,4 +646,4 @@ By **Definition 6.1.1 (Addition Counting Principle for Classification)** and **D
 
 (1) The task is to choose $1$ person for the job. The $5$ people who can use the $1$st method and the $4$ people who can use the $2$nd method form two mutually disjoint categories, and choosing any one of them completes the job. By **Definition 6.1.1 (分类加法计数原理)**, the number of different choices is $5+4=9$.
 
-(2) Going from Village $A$ through Village $B$ to Village $C$ requires first reaching Village $B$ and then Village $C$, which are two steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different routes is $3\times 2=6$. $\blacksquare$
+(2) Going from Village $A$ through Village $B$ to Village $C$ requires first reaching Village $B$ and then Village $C$, which are two steps. By **Definition 6.1.2 (Directed Line Segment)**, the number of different routes is $3\times2=6$. $\blacksquare$

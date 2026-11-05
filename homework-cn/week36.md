@@ -50,7 +50,7 @@
 
 ## 习题一
 
-(习题 10.1 复习巩固第 2 题) 在某届世界杯足球赛上, $a, b, c, d$ 四支球队进入了最后的比赛. 在第一轮的两场比赛中, $a$ 对 $b$, $c$ 对 $d$, 然后这两场比赛的胜者将进入冠亚军决赛, 这两场比赛的负者比赛, 决出第三名和第四名. 比赛的一种最终可能结果记为 $acbd$ (表示 $a$ 胜 $b$, $c$ 胜 $d$, 然后 $a$ 胜 $c$, $b$ 胜 $d$).
+(习题 10.1 复习巩固第 2 题) 在某届世界杯足球赛上, $a,b,c,d$ 四支球队进入了最后的比赛. 在第一轮的两场比赛中, $a$ 对 $b$, $c$ 对 $d$, 然后这两场比赛的胜者将进入冠亚军决赛, 这两场比赛的负者比赛, 决出第三名和第四名. 比赛的一种最终可能结果记为 $acbd$ (表示 $a$ 胜 $b$, $c$ 胜 $d$, 然后 $a$ 胜 $c$, $b$ 胜 $d$).
 
 (1) 写出比赛所有可能结果构成的样本空间;
 
@@ -62,22 +62,22 @@
 
 由**定义 10.1.2 (样本点与样本空间)**, 每个可能的比赛结果为一个样本点.
 
-(1) 第一轮有两场比赛: $a$ 对 $b$ ($a$ 胜或 $b$ 胜), $c$ 对 $d$ ($c$ 胜或 $d$ 胜), 胜者进入决赛, 负者争夺第三四名. 第一轮共有 $2\times 2=4$ 种胜负组合, 每种组合下决赛和季军赛各有 $2$ 种胜负, 共 $4\times 2\times 2=16$ 种结果. 样本空间为:
+(1) 第一轮有两场比赛: $a$ 对 $b$ ($a$ 胜或 $b$ 胜), $c$ 对 $d$ ($c$ 胜或 $d$ 胜), 胜者进入决赛, 负者争夺第三四名. 第一轮共有 $2\times2=4$ 种胜负组合, 每种组合下决赛和季军赛各有 $2$ 种胜负, 共 $4\times2\times2=16$ 种结果. 样本空间为:
 
 $$
-\Omega=\left\{acbd, acdb, adbc, adcb, \; cabd, cadb, dabc, dacb, \; bcad, bcda, cbad, cbda, \; bdac, bdca, dbac, dbca\right\}.
+\Omega=\left\{acbd,acdb,adbc,adcb,\;cabd,cadb,dabc,dacb,\;bcad,bcda,cbad,cbda,\;bdac,bdca,dbac,dbca\right\}.
 $$
 
 (2) 由**定义 10.1.4 (随机事件)**, $A$ 是 $\Omega$ 中 $a$ 队获得冠军的样本点的集合. $a$ 队获得冠军意味着 $a$ 在第一轮获胜且在决赛中获胜, 故
 
 $$
-A=\left\{acbd, acdb, adbc, adcb\right\}.
+A=\left\{acbd,acdb,adbc,adcb\right\}.
 $$
 
 (3) $a$ 队进入冠亚军决赛意味着 $a$ 在第一轮获胜 (即 $a$ 胜 $b$), 决赛对手为 $c$ 或 $d$, 无论决赛胜负如何, 故
 
 $$
-B=\left\{acbd, acdb, cabd, cadb, \; adbc, adcb, dabc, dacb\right\}.
+B=\left\{acbd,acdb,cabd,cadb,\;adbc,adcb,dabc,dacb\right\}.
 $$
 
 $\blacksquare$
@@ -105,12 +105,12 @@ $\blacksquare$
 (1) 两枚硬币抛掷的所有可能结果为
 
 $$
-\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+\Omega=\left\{\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)\right\}.
 $$
 
-由**定义 10.1.4 (随机事件)**, 事件 $A=$ "第一枚硬币正面朝上" 即第一枚为 $1$, 故 $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$. 事件 $B=$ "第二枚硬币反面朝上" 即第二枚为 $0$, 故 $B=\left\{\left(1,0\right), \left(0,0\right)\right\}$.
+由**定义 10.1.4 (随机事件)**, 事件 $A=$ "第一枚硬币正面朝上" 即第一枚为 $1$, 故 $A=\left\{\left(1,1\right),\left(1,0\right)\right\}$. 事件 $B=$ "第二枚硬币反面朝上" 即第二枚为 $0$, 故 $B=\left\{\left(1,0\right),\left(0,0\right)\right\}$.
 
-(2) 由**定义 10.1.12 (互斥)**, $A\cap B=\left\{\left(1,0\right)\right\}\neq\varnothing$, 故 $A, B$ 不互斥, (A)(B) 错误. 由**定义 10.1.9 (事件相等)**, $A\neq B$, 故 (C) 错误. 由**定义 10.1.15 (概率的古典定义)**, $P\left(A\right)=\frac{2}{4}=\frac{1}{2}$, $P\left(B\right)=\frac{2}{4}=\frac{1}{2}$, 故 $P\left(A\right)=P\left(B\right)$, (D) 正确. $\blacksquare$
+(2) 由**定义 10.1.12 (互斥)**, $A\cap{B}=\left\{\left(1,0\right)\right\}\neq\varnothing$, 故 $A,B$ 不互斥, (A)(B) 错误. 由**定义 10.1.9 (事件相等)**, $A\neq{B}$, 故 (C) 错误. 由**定义 10.1.15 (概率的古典定义)**, $P\left(A\right)=\frac{2}{4}=\frac{1}{2}$, $P\left(B\right)=\frac{2}{4}=\frac{1}{2}$, 故 $P\left(A\right)=P\left(B\right)$, (D) 正确. $\blacksquare$
 
 ## 习题三
 
@@ -128,17 +128,17 @@ $$
 
 由**定义 10.1.12 (互斥)** 与**定义 10.1.13 (互为对立)**.
 
-(1) 互斥事件只要求 $A\cap B=\varnothing$, 并不要求 $A\cup B=\Omega$, 故互斥事件不一定是对立事件. 对立事件要求 $A\cap B=\varnothing$ 且 $A\cup B=\Omega$, 故对立事件一定互斥. 该说法错误. 反例: 掷骰子试验中, "点数为 $1$" 与 "点数为 $2$" 互斥但不对立.
+(1) 互斥事件只要求 $A\cap{B}=\varnothing$, 并不要求 $A\cup{B}=\Omega$, 故互斥事件不一定是对立事件. 对立事件要求 $A\cap{B}=\varnothing$ 且 $A\cup{B}=\Omega$, 故对立事件一定互斥. 该说法错误. 反例: 掷骰子试验中, "点数为 $1$" 与 "点数为 $2$" 互斥但不对立.
 
 (2) 由上述分析, 互斥事件不一定是对立事件, 对立事件一定是互斥事件. 该说法正确.
 
-(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. "$A, B$ 中恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 二者之差为 $P\left(A\cup B\right)-\left[P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)\right]=P\left(A\cap B\right)\ge 0$, 故 "至少有一个发生" 的概率不一定比 "恰有一个发生" 的概率大. 当 $P\left(A\cap B\right)=0$ 时, 二者相等. 该说法错误. 反例: 互斥事件 $A, B$ 中, 二者概率相等.
+(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)$. "$A,B$ 中恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap{B}\right)$. 二者之差为 $P\left(A\cup{B}\right)-\left[P\left(A\right)+P\left(B\right)-2P\left(A\cap{B}\right)\right]=P\left(A\cap{B}\right)\ge0$, 故 "至少有一个发生" 的概率不一定比 "恰有一个发生" 的概率大. 当 $P\left(A\cap{B}\right)=0$ 时, 二者相等. 该说法错误. 反例: 互斥事件 $A,B$ 中, 二者概率相等.
 
-(4) 由**性质 10.1.16** (概率的非负性), $P\left(A\cap B\right)\ge 0$, 而 "恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap B\right)$. 当 $P\left(A\right)=P\left(B\right)=0.9$ 时, $P\left(A\cap B\right)=0.81$, 恰有一个发生的概率为 $0.9+0.9-2\times 0.81=0.18$, 此时 $P\left(A\cap B\right)> $ 恰有一个发生的概率. 该说法错误. $\blacksquare$
+(4) 由**性质 10.1.16** (概率的非负性), $P\left(A\cap{B}\right)\ge0$, 而 "恰有一个发生" 的概率为 $P\left(A\right)+P\left(B\right)-2P\left(A\cap{B}\right)$. 当 $P\left(A\right)=P\left(B\right)=0.9$ 时, $P\left(A\cap{B}\right)=0.81$, 恰有一个发生的概率为 $0.9+0.9-2\times0.81=0.18$, 此时 $P\left(A\cap{B}\right)>$ 恰有一个发生的概率. 该说法错误. $\blacksquare$
 
 ## 习题四
 
-(习题 10.1 复习巩固第 5 题) 生产某种产品需要两道工序, 设事件 $A=$ "第一道工序加工合格", 事件 $B=$ "第二道工序加工合格", 用 $A, B, \overline A, \overline B$ 表示下列事件:
+(习题 10.1 复习巩固第 5 题) 生产某种产品需要两道工序, 设事件 $A=$ "第一道工序加工合格", 事件 $B=$ "第二道工序加工合格", 用 $A,B,\overline{A},\overline{B}$ 表示下列事件:
 
 $C=$ "产品合格", $D=$ "产品不合格".
 
@@ -147,13 +147,13 @@ $C=$ "产品合格", $D=$ "产品不合格".
 由**定义 10.1.11 (交事件)**, 产品合格需要两道工序都加工合格, 即 $A$ 与 $B$ 同时发生, 故
 
 $$
-C=A\cap B.
+C=A\cap{B}.
 $$
 
-由**定义 10.1.13 (互为对立)**, 产品不合格是产品合格的对立事件, 故 $D=\overline C$. 也可以表示为: 产品不合格即至少有一道工序不合格, 即第一道工序不合格 ($\overline A$) 或第二道工序不合格 ($\overline B$), 故
+由**定义 10.1.13 (互为对立)**, 产品不合格是产品合格的对立事件, 故 $D=\overline{C}$. 也可以表示为: 产品不合格即至少有一道工序不合格, 即第一道工序不合格 ($\overline{A}$) 或第二道工序不合格 ($\overline{B}$), 故
 
 $$
-D=\overline A\cup\overline B.
+D=\overline{A}\cup\overline{B}.
 $$
 
 $\blacksquare$
@@ -174,15 +174,15 @@ $\blacksquare$
 
 游戏 1: 袋子中有 $2$ 个球, 取 $1$ 个球, 共 $2$ 个等可能结果. 红球有 $1$ 个, 故甲胜的概率为 $\frac{1}{2}$.
 
-游戏 2: 袋子中有 $4$ 个球 ($2$ 红 $2$ 白), 不放回依次取 $2$ 个球, 共 $4\times 3=12$ 个等可能结果. 两个球同色的情况: 两个都是红球有 $2\times 1=2$ 种, 两个都是白球有 $2\times 1=2$ 种, 共 $4$ 种. 故甲胜的概率为 $\frac{4}{12}=\frac{1}{3}$.
+游戏 2: 袋子中有 $4$ 个球 ($2$ 红 $2$ 白), 不放回依次取 $2$ 个球, 共 $4\times3=12$ 个等可能结果. 两个球同色的情况: 两个都是红球有 $2\times1=2$ 种, 两个都是白球有 $2\times1=2$ 种, 共 $4$ 种. 故甲胜的概率为 $\frac{4}{12}=\frac{1}{3}$.
 
-游戏 3: 袋子中有 $4$ 个球 ($3$ 红 $1$ 白), 不放回依次取 $2$ 个球, 共 $4\times 3=12$ 个等可能结果. 两个球同色的情况: 两个都是红球有 $3\times 2=6$ 种, 两个都是白球有 $0$ 种, 共 $6$ 种. 故甲胜的概率为 $\frac{6}{12}=\frac{1}{2}$.
+游戏 3: 袋子中有 $4$ 个球 ($3$ 红 $1$ 白), 不放回依次取 $2$ 个球, 共 $4\times3=12$ 个等可能结果. 两个球同色的情况: 两个都是红球有 $3\times2=6$ 种, 两个都是白球有 $0$ 种, 共 $6$ 种. 故甲胜的概率为 $\frac{6}{12}=\frac{1}{2}$.
 
 游戏 1 和游戏 3 中甲胜的概率为 $\frac{1}{2}$, 乙胜的概率也为 $\frac{1}{2}$, 游戏是公平的; 游戏 2 中甲胜的概率为 $\frac{1}{3}$, 乙胜的概率为 $\frac{2}{3}$, 游戏不公平. $\blacksquare$
 
 ## 习题六
 
-(习题 10.1 复习巩固第 7 题) 一个盒子中装有标号为 $1, 2, 3, 4, 5$ 的 $5$ 张标签, 随机地选取两张标签, 根据下列条件求两张标签上的数字为相等整数的概率:
+(习题 10.1 复习巩固第 7 题) 一个盒子中装有标号为 $1,2,3,4,5$ 的 $5$ 张标签, 随机地选取两张标签, 根据下列条件求两张标签上的数字为相等整数的概率:
 
 (1) 标签的选取是不放回的;
 
@@ -192,13 +192,13 @@ $\blacksquare$
 
 由**定义 10.1.15 (概率的古典定义)**.
 
-(1) 不放回选取两张标签, 第一次有 $5$ 种取法, 第二次有 $4$ 种取法, 共 $5\times 4=20$ 个等可能结果. 两张标签数字相等的情况为 $0$ (因为不放回且每张标签标号不同), 故 $P\left(A_1\right)=\frac{0}{20}=0$.
+(1) 不放回选取两张标签, 第一次有 $5$ 种取法, 第二次有 $4$ 种取法, 共 $5\times4=20$ 个等可能结果. 两张标签数字相等的情况为 $0$ (因为不放回且每张标签标号不同), 故 $P\left(A_1\right)=\frac{0}{20}=0$.
 
-(2) 有放回选取两张标签, 第一次有 $5$ 种取法, 第二次也有 $5$ 种取法, 共 $5\times 5=25$ 个等可能结果. 两张标签数字相等的情况有 $5$ 种 (两次取到同号), 故 $P\left(A_2\right)=\frac{5}{25}=\frac{1}{5}$. $\blacksquare$
+(2) 有放回选取两张标签, 第一次有 $5$ 种取法, 第二次也有 $5$ 种取法, 共 $5\times5=25$ 个等可能结果. 两张标签数字相等的情况有 $5$ 种 (两次取到同号), 故 $P\left(A_2\right)=\frac{5}{25}=\frac{1}{5}$. $\blacksquare$
 
 ## 习题七
 
-(习题 10.1 复习巩固第 8 题) 从长度为 $1, 3, 5, 7, 9$ 的 $5$ 条线段中任取 $3$ 条, 求这三条线段能构成一个三角形的概率.
+(习题 10.1 复习巩固第 8 题) 从长度为 $1,3,5,7,9$ 的 $5$ 条线段中任取 $3$ 条, 求这三条线段能构成一个三角形的概率.
 
 ### 解答 习题七
 
@@ -206,25 +206,25 @@ $\blacksquare$
 
 三角形的三边关系要求任意两边之和大于第三边. 枚举所有取法:
 
-$\left(1, 3, 5\right)$: $1+3=4< 5$, 不能构成三角形.
+$\left(1,3,5\right)$: $1+3=4<5$, 不能构成三角形.
 
-$\left(1, 3, 7\right)$: $1+3=4< 7$, 不能构成.
+$\left(1,3,7\right)$: $1+3=4<7$, 不能构成.
 
-$\left(1, 3, 9\right)$: $1+3=4< 9$, 不能构成.
+$\left(1,3,9\right)$: $1+3=4<9$, 不能构成.
 
-$\left(1, 5, 7\right)$: $1+5=6< 7$, 不能构成.
+$\left(1,5,7\right)$: $1+5=6<7$, 不能构成.
 
-$\left(1, 5, 9\right)$: $1+5=6< 9$, 不能构成.
+$\left(1,5,9\right)$: $1+5=6<9$, 不能构成.
 
-$\left(1, 7, 9\right)$: $1+7=8< 9$, 不能构成.
+$\left(1,7,9\right)$: $1+7=8<9$, 不能构成.
 
-$\left(3, 5, 7\right)$: $3+5=8> 7$, 能构成三角形.
+$\left(3,5,7\right)$: $3+5=8>7$, 能构成三角形.
 
-$\left(3, 5, 9\right)$: $3+5=8< 9$, 不能构成.
+$\left(3,5,9\right)$: $3+5=8<9$, 不能构成.
 
-$\left(3, 7, 9\right)$: $3+7=10> 9$, 能构成三角形.
+$\left(3,7,9\right)$: $3+7=10>9$, 能构成三角形.
 
-$\left(5, 7, 9\right)$: $5+7=12> 9$, 能构成三角形.
+$\left(5,7,9\right)$: $5+7=12>9$, 能构成三角形.
 
 能构成三角形的取法有 $3$ 种, 故 $P\left(A\right)=\frac{3}{10}$. $\blacksquare$
 
@@ -250,28 +250,28 @@ $\left(5, 7, 9\right)$: $5+7=12> 9$, 能构成三角形.
 
 ## 习题九
 
-(习题 10.1 综合运用第 10 题) 抛掷一红一绿两颗质地均匀的六面体骰子, 记下骰子朝上面的点数. 若用 $x$ 表示红色骰子的点数, 用 $y$ 表示绿色骰子的点数, 用 $\left(x, y\right)$ 表示一次试验的结果. 设 $A=$ "两个点数之和等于 $8$", $B=$ "至少有一颗骰子的点数为 $5$", $C=$ "红色骰子上的点数大于 $4$".
+(习题 10.1 综合运用第 10 题) 抛掷一红一绿两颗质地均匀的六面体骰子, 记下骰子朝上面的点数. 若用 $x$ 表示红色骰子的点数, 用 $y$ 表示绿色骰子的点数, 用 $\left(x,y\right)$ 表示一次试验的结果. 设 $A=$ "两个点数之和等于 $8$", $B=$ "至少有一颗骰子的点数为 $5$", $C=$ "红色骰子上的点数大于 $4$".
 
-(1) 求事件 $A, B, C$ 的概率;
+(1) 求事件 $A,B,C$ 的概率;
 
-(2) 求事件 $A\cup B$, $A\cap B$ 的概率.
+(2) 求事件 $A\cup{B}$, $A\cap{B}$ 的概率.
 
 ### 解答 习题九
 
-由**定义 10.1.15 (概率的古典定义)**, 两颗骰子共有 $6\times 6=36$ 个等可能样本点.
+由**定义 10.1.15 (概率的古典定义)**, 两颗骰子共有 $6\times6=36$ 个等可能样本点.
 
-(1) 事件 $A=$ "两个点数之和等于 $8$" 包含的样本点为 $\left(2,6\right), \left(3,5\right), \left(4,4\right), \left(5,3\right), \left(6,2\right)$, 共 $5$ 个, 故 $P\left(A\right)=\frac{5}{36}$.
+(1) 事件 $A=$ "两个点数之和等于 $8$" 包含的样本点为 $\left(2,6\right),\left(3,5\right),\left(4,4\right),\left(5,3\right),\left(6,2\right)$, 共 $5$ 个, 故 $P\left(A\right)=\frac{5}{36}$.
 
 事件 $B=$ "至少有一颗骰子的点数为 $5$" 包含的样本点为红色为 $5$ 的 $6$ 个, 绿色为 $5$ 的 $6$ 个, 去掉重复的 $\left(5,5\right)$, 共 $6+6-1=11$ 个, 故 $P\left(B\right)=\frac{11}{36}$.
 
-事件 $C=$ "红色骰子点数大于 $4$" 即红色点数为 $5$ 或 $6$, 共 $2\times 6=12$ 个, 故 $P\left(C\right)=\frac{12}{36}=\frac{1}{3}$.
+事件 $C=$ "红色骰子点数大于 $4$" 即红色点数为 $5$ 或 $6$, 共 $2\times6=12$ 个, 故 $P\left(C\right)=\frac{12}{36}=\frac{1}{3}$.
 
-(2) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)$. 事件 $A\cap B$ 即点数之和为 $8$ 且至少有一颗为 $5$, 包含的样本点为 $\left(3,5\right), \left(5,3\right)$, 共 $2$ 个, 故 $P\left(A\cap B\right)=\frac{2}{36}=\frac{1}{18}$.
+(2) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)$. 事件 $A\cap{B}$ 即点数之和为 $8$ 且至少有一颗为 $5$, 包含的样本点为 $\left(3,5\right),\left(5,3\right)$, 共 $2$ 个, 故 $P\left(A\cap{B}\right)=\frac{2}{36}=\frac{1}{18}$.
 
 因此
 
 $$
-P\left(A\cup B\right)=\frac{5}{36}+\frac{11}{36}-\frac{2}{36}=\frac{14}{36}=\frac{7}{18}.
+P\left(A\cup{B}\right)=\frac{5}{36}+\frac{11}{36}-\frac{2}{36}=\frac{14}{36}=\frac{7}{18}.
 $$
 
 $\blacksquare$
@@ -284,13 +284,13 @@ $\blacksquare$
 
 由**定义 10.1.15 (概率的古典定义)**.
 
-不放回情形: 第一次取钥匙有 $4$ 种等可能结果, 第二次有 $3$ 种, 共 $4\times 3=12$ 个等可能结果. "第二次才能打开门" 即第一次取到不能开门的钥匙 ($2$ 把中的一把), 第二次取到能开门的钥匙 ($2$ 把中的一把), 共 $2\times 2=4$ 种, 故 $P_1=\frac{4}{12}=\frac{1}{3}$.
+不放回情形: 第一次取钥匙有 $4$ 种等可能结果, 第二次有 $3$ 种, 共 $4\times3=12$ 个等可能结果. "第二次才能打开门" 即第一次取到不能开门的钥匙 ($2$ 把中的一把), 第二次取到能开门的钥匙 ($2$ 把中的一把), 共 $2\times2=4$ 种, 故 $P_1=\frac{4}{12}=\frac{1}{3}$.
 
-有放回情形: 第一次取钥匙有 $4$ 种等可能结果, 第二次也有 $4$ 种, 共 $4\times 4=16$ 个等可能结果. "第二次才能打开门" 即第一次取到不能开门的钥匙 ($2$ 把中的一把), 第二次取到能开门的钥匙 ($2$ 把中的一把), 共 $2\times 2=4$ 种, 故 $P_2=\frac{4}{16}=\frac{1}{4}$. $\blacksquare$
+有放回情形: 第一次取钥匙有 $4$ 种等可能结果, 第二次也有 $4$ 种, 共 $4\times4=16$ 个等可能结果. "第二次才能打开门" 即第一次取到不能开门的钥匙 ($2$ 把中的一把), 第二次取到能开门的钥匙 ($2$ 把中的一把), 共 $2\times2=4$ 种, 故 $P_2=\frac{4}{16}=\frac{1}{4}$. $\blacksquare$
 
 ## 习题十一
 
-(习题 10.1 综合运用第 12 题) 假设有 $5$ 个条件类似的女孩 (把她们分别记为 $A, B, C, D, E$) 应聘秘书工作, 但只有 $2$ 个秘书职位, 因此 $5$ 个人中只有 $2$ 人能被录用. 如果 $5$ 个人被录用的机会相等, 分别计算下列事件的概率:
+(习题 10.1 综合运用第 12 题) 假设有 $5$ 个条件类似的女孩 (把她们分别记为 $A,B,C,D,E$) 应聘秘书工作, 但只有 $2$ 个秘书职位, 因此 $5$ 个人中只有 $2$ 人能被录用. 如果 $5$ 个人被录用的机会相等, 分别计算下列事件的概率:
 
 (1) 女孩 $A$ 得到一个职位;
 
@@ -306,10 +306,10 @@ $\blacksquare$
 
 (2) 女孩 $A$ 和 $B$ 各得到一个职位, 只有 $1$ 种结果, 故 $P\left(A_2\right)=\frac{1}{10}$.
 
-(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\text{ 或 }B\right)=P\left(A\right)+P\left(B\right)-P\left(A\text{ 且 }B\right)$. 由对称性, $P\left(A\right)=P\left(B\right)=\frac{2}{5}$, $P\left(A\text{ 且 }B\right)=\frac{1}{10}$, 故
+(3) 由**性质 10.1.21** (一般概率加法公式), $P\left(A\text{~或~}B\right)=P\left(A\right)+P\left(B\right)-P\left(A\text{~且~}B\right)$. 由对称性, $P\left(A\right)=P\left(B\right)=\frac{2}{5}$, $P\left(A\text{~且~}B\right)=\frac{1}{10}$, 故
 
 $$
-P\left(A\text{ 或 }B\right)=\frac{2}{5}+\frac{2}{5}-\frac{1}{10}=\frac{7}{10}.
+P\left(A\text{~或~}B\right)=\frac{2}{5}+\frac{2}{5}-\frac{1}{10}=\frac{7}{10}.
 $$
 
 $\blacksquare$
@@ -340,7 +340,7 @@ $\blacksquare$
 
 (2) 命中环数大于 $8$ 环即命中 $9$ 环或 $10$ 环, 二者互斥, 故 $P\left(A_2\right)=0.3+0.2=0.5$.
 
-(3) 命中环数小于 $9$ 环即命中 $6, 7, 8$ 环, 三者互斥, 故 $P\left(A_3\right)=0.1+0.15+0.25=0.5$.
+(3) 命中环数小于 $9$ 环即命中 $6,7,8$ 环, 三者互斥, 故 $P\left(A_3\right)=0.1+0.15+0.25=0.5$.
 
 (4) 命中环数不超过 $5$ 环, 即没有命中 $6$ 环及以上. 由于各环数频率之和为 $0.1+0.15+0.25+0.3+0.2=1$, 即命中环数不低于 $6$ 环的概率为 $1$, 故不超过 $5$ 环的概率为 $0$. $\blacksquare$
 
@@ -366,15 +366,15 @@ $$
 P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{125}{216}=\frac{91}{216}.
 $$
 
-(3) 三个点数之和为 $9$, 即求 $x_1+x_2+x_3=9$ 的正整数解 ($1\le x_i\le 6$) 的个数. 令 $y_i=x_i-1$, 则 $y_1+y_2+y_3=6$, $0\le y_i\le 5$. 正整数解总数为 $\binom{6+3-1}{3-1}=\binom{8}{2}=28$, 其中 $y_i\ge 6$ 的解: 若 $y_1=6$, 则 $y_2+y_3=0$, 共 $1$ 组, 三个变量共 $3$ 组. 故满足条件的解数为 $28-3=25$. 因此 $P\left(A_3\right)=\frac{25}{216}$. $\blacksquare$
+(3) 三个点数之和为 $9$, 即求 $x_1+x_2+x_3=9$ 的正整数解 ($1\le{x}_i\le6$) 的个数. 令 $y_i=x_i-1$, 则 $y_1+y_2+y_3=6$, $0\le{y}_i\le5$. 正整数解总数为 $\binom{6+3-1}{3-1}=\binom{8}{2}=28$, 其中 $y_i\ge6$ 的解: 若 $y_1=6$, 则 $y_2+y_3=0$, 共 $1$ 组, 三个变量共 $3$ 组. 故满足条件的解数为 $28-3=25$. 因此 $P\left(A_3\right)=\frac{25}{216}$. $\blacksquare$
 
 ## 习题十四
 
 (习题 10.1 拓广探索第 15 题) 如图是某班级 $50$ 名学生订阅数学, 语文, 英语学习资料的情况, 其中 $A$ 表示订阅数学学习资料的学生, $B$ 表示订阅语文学习资料的学生, $C$ 表示订阅英语学习资料的学生.
 
-(1) 从这个班任意选择一名学生, 用自然语言描述 $1, 4, 5, 8$ 各区域所代表的事件;
+(1) 从这个班任意选择一名学生, 用自然语言描述 $1,4,5,8$ 各区域所代表的事件;
 
-(2) 用 $A, B, C$ 表示下列事件:
+(2) 用 $A,B,C$ 表示下列事件:
 
 (1) 至少订阅一种学习资料;
 
@@ -390,11 +390,11 @@ $$
 
 (1) 区域 1 表示只订阅数学的学生; 区域 4 表示同时订阅数学和语文但不订阅英语的学生; 区域 5 表示同时订阅数学和英语但不订阅语文的学生; 区域 8 表示不订阅任何学习资料的学生.
 
-(2) (1) 至少订阅一种学习资料, 即订阅数学或语文或英语, 由**定义 10.1.10 (并事件)**, 表示为 $A\cup B\cup C$.
+(2) (1) 至少订阅一种学习资料, 即订阅数学或语文或英语, 由**定义 10.1.10 (并事件)**, 表示为 $A\cup{B}\cup{C}$.
 
-(2) 恰好订阅一种学习资料, 即只订阅数学, 或只订阅语文, 或只订阅英语, 表示为 $\left(A\cap\overline B\cap\overline C\right)\cup\left(\overline A\cap B\cap\overline C\right)\cup\left(\overline A\cap\overline B\cap C\right)$.
+(2) 恰好订阅一种学习资料, 即只订阅数学, 或只订阅语文, 或只订阅英语, 表示为 $\left(A\cap\overline{B}\cap\overline{C}\right)\cup\left(\overline{A}\cap{B}\cap\overline{C}\right)\cup\left(\overline{A}\cap\overline{B}\cap{C}\right)$.
 
-(3) 没有订阅任何学习资料, 是 "至少订阅一种" 的对立事件, 由**定义 10.1.13 (互为对立)**, 表示为 $\overline{A\cup B\cup C}=\overline A\cap\overline B\cap\overline C$. $\blacksquare$
+(3) 没有订阅任何学习资料, 是 "至少订阅一种" 的对立事件, 由**定义 10.1.13 (互为对立)**, 表示为 $\overline{A\cup{B}\cup{C}}=\overline{A}\cap\overline{B}\cap\overline{C}$. $\blacksquare$
 
 ## 习题十五
 
@@ -410,22 +410,22 @@ $$
 
 由**定义 10.1.15 (概率的古典定义)**, 从 $1$ 至 $20$ 随机选一个数, $n\left(\Omega\right)=20$.
 
-能被 $2$ 整除的数有 $10$ 个 ($2, 4, \cdots, 20$), 故 $n\left(A\right)=10$, $P\left(A\right)=\frac{10}{20}=\frac{1}{2}$.
+能被 $2$ 整除的数有 $10$ 个 ($2,4,\cdots,20$), 故 $n\left(A\right)=10$, $P\left(A\right)=\frac{10}{20}=\frac{1}{2}$.
 
-能被 $3$ 整除的数有 $6$ 个 ($3, 6, 9, 12, 15, 18$), 故 $n\left(B\right)=6$, $P\left(B\right)=\frac{6}{20}=\frac{3}{10}$.
+能被 $3$ 整除的数有 $6$ 个 ($3,6,9,12,15,18$), 故 $n\left(B\right)=6$, $P\left(B\right)=\frac{6}{20}=\frac{3}{10}$.
 
-(1) 既能被 $2$ 也能被 $3$ 整除, 即能被 $6$ 整除, 数为 $6, 12, 18$, 共 $3$ 个, 故 $P\left(A\cap B\right)=\frac{3}{20}$.
+(1) 既能被 $2$ 也能被 $3$ 整除, 即能被 $6$ 整除, 数为 $6,12,18$, 共 $3$ 个, 故 $P\left(A\cap{B}\right)=\frac{3}{20}$.
 
 (2) 由**性质 10.1.21** (一般概率加法公式),
 
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
+P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
 $$
 
 (3) 由**性质 10.1.19** (对立事件的概率), "既不能被 $2$ 也不能被 $3$ 整除" 是 "能被 $2$ 或能被 $3$ 整除" 的对立事件, 故
 
 $$
-P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
+P\left(\overline{A}\cap\overline{B}\right)=1-P\left(A\cup{B}\right)=1-\frac{13}{20}=\frac{7}{20}.
 $$
 
 $\blacksquare$
@@ -434,13 +434,13 @@ $\blacksquare$
 
 (习题 10.1 拓广探索第 17 题) 某品牌计算机售后保修期为 $1$ 年, 根据大量的维修记录资料, 这种品牌的计算机在使用一年内维修次数最多的是 $3$ 次, 其中维修 $1$ 次的占 $15\%$, 维修 $2$ 次的占 $6\%$, 维修 $3$ 次的占 $4\%$.
 
-(1) 某人购买了一台这个品牌的计算机, 设 $A_k=$ "保修期内需要维修 $k$ 次", $k=0, 1, 2, 3$, 请填写下表:
+(1) 某人购买了一台这个品牌的计算机, 设 $A_k=$ "保修期内需要维修 $k$ 次", $k=0,1,2,3$, 请填写下表:
 
 | 事件 | $A_0$ | $A_1$ | $A_2$ | $A_3$ |
 |---|---|---|---|---|
 | 概率 | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
-事件 $A_0, A_1, A_2, A_3$ 是否满足两两互斥? 是否满足等可能性?
+事件 $A_0,A_1,A_2,A_3$ 是否满足两两互斥? 是否满足等可能性?
 
 (2) 求下列事件的概率:
 
@@ -454,15 +454,15 @@ $\blacksquare$
 
 由**性质 10.1.18** (互斥事件的概率加法公式) 与**性质 10.1.19** (对立事件的概率).
 
-(1) 由已知, $P\left(A_1\right)=0.15$, $P\left(A_2\right)=0.06$, $P\left(A_3\right)=0.04$. 由于维修次数最多为 $3$ 次, $A_0\cup A_1\cup A_2\cup A_3=\Omega$, 且各 $A_k$ 两两互斥, 故
+(1) 由已知, $P\left(A_1\right)=0.15$, $P\left(A_2\right)=0.06$, $P\left(A_3\right)=0.04$. 由于维修次数最多为 $3$ 次, $A_0\cup{A}_1\cup{A}_2\cup{A}_3=\Omega$, 且各 $A_k$ 两两互斥, 故
 
 $$
 P\left(A_0\right)=1-P\left(A_1\right)-P\left(A_2\right)-P\left(A_3\right)=1-0.15-0.06-0.04=0.75.
 $$
 
-各事件两两互斥 (一台计算机在保修期内维修次数只能是 $0, 1, 2, 3$ 中的一个); 各事件概率不相等 ($0.75, 0.15, 0.06, 0.04$), 故不满足等可能性.
+各事件两两互斥 (一台计算机在保修期内维修次数只能是 $0,1,2,3$ 中的一个); 各事件概率不相等 ($0.75,0.15,0.06,0.04$), 故不满足等可能性.
 
-(2) (1) $A=$ "需要维修" 即维修 $1, 2, 3$ 次, 由**性质 10.1.18** (互斥事件的概率加法公式), $P\left(A\right)=P\left(A_1\right)+P\left(A_2\right)+P\left(A_3\right)=0.15+0.06+0.04=0.25$.
+(2) (1) $A=$ "需要维修" 即维修 $1,2,3$ 次, 由**性质 10.1.18** (互斥事件的概率加法公式), $P\left(A\right)=P\left(A_1\right)+P\left(A_2\right)+P\left(A_3\right)=0.15+0.06+0.04=0.25$.
 
 (2) $B=$ "不需要维修" 即 $A_0$, 故 $P\left(B\right)=P\left(A_0\right)=0.75$. 也可由**性质 10.1.19** (对立事件的概率) 得 $P\left(B\right)=1-P\left(A\right)=1-0.25=0.75$.
 
@@ -470,31 +470,31 @@ $$
 
 ## 练习一
 
-(练习 10.2 第 1 题) 分别抛掷两枚质地均匀的硬币, 设事件 $A=$ "第 $1$ 枚正面朝上", 事件 $B=$ "第 $2$ 枚正面朝上", 事件 $C=$ "两枚硬币朝上的面相同", $A, B, C$ 中哪两个相互独立?
+(练习 10.2 第 1 题) 分别抛掷两枚质地均匀的硬币, 设事件 $A=$ "第 $1$ 枚正面朝上", 事件 $B=$ "第 $2$ 枚正面朝上", 事件 $C=$ "两枚硬币朝上的面相同", $A,B,C$ 中哪两个相互独立?
 
 ### 解答 练习一
 
-由**定义 10.1.15 (概率的古典定义)**, 抛掷两枚硬币, 样本空间 $\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}$, 共 $4$ 个等可能样本点. 各事件为 $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$, $B=\left\{\left(1,1\right), \left(0,1\right)\right\}$, $C=\left\{\left(1,1\right), \left(0,0\right)\right\}$, 故 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
+由**定义 10.1.15 (概率的古典定义)**, 抛掷两枚硬币, 样本空间 $\Omega=\left\{\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)\right\}$, 共 $4$ 个等可能样本点. 各事件为 $A=\left\{\left(1,1\right),\left(1,0\right)\right\}$, $B=\left\{\left(1,1\right),\left(0,1\right)\right\}$, $C=\left\{\left(1,1\right),\left(0,0\right)\right\}$, 故 $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
 
-由**定义 10.2.1 (事件的相互独立性)**, 验证 $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ 是否成立.
+由**定义 10.2.1 (事件的相互独立性)**, 验证 $P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)$ 是否成立.
 
-$A\cap B=\left\{\left(1,1\right)\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 相互独立.
+$A\cap{B}=\left\{\left(1,1\right)\right\}$, $P\left(A\cap{B}\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 相互独立.
 
-$A\cap C=\left\{\left(1,1\right)\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 相互独立.
+$A\cap{C}=\left\{\left(1,1\right)\right\}$, $P\left(A\cap{C}\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 相互独立.
 
-$B\cap C=\left\{\left(1,1\right)\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 相互独立.
+$B\cap{C}=\left\{\left(1,1\right)\right\}$, $P\left(B\cap{C}\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 相互独立.
 
-因此 $A, B, C$ 中任意两个都相互独立. $\blacksquare$
+因此 $A,B,C$ 中任意两个都相互独立. $\blacksquare$
 
 ## 练习二
 
-(练习 10.2 第 2 题) 设样本空间 $\Omega=\left\{a, b, c, d\right\}$ 含有等可能的样本点, 且
+(练习 10.2 第 2 题) 设样本空间 $\Omega=\left\{a,b,c,d\right\}$ 含有等可能的样本点, 且
 
 $$
-A=\left\{a, b\right\},\quad B=\left\{a, c\right\},\quad C=\left\{a, d\right\}.
+A=\left\{a,b\right\},\quad{B}=\left\{a,c\right\},\quad{C}=\left\{a,d\right\}.
 $$
 
-请验证 $A, B, C$ 三个事件两两独立, 但 $P\left(A\cap B\cap C\right)\neq P\left(A\right)P\left(B\right)P\left(C\right)$.
+请验证 $A,B,C$ 三个事件两两独立, 但 $P\left(A\cap{B}\cap{C}\right)\neq{P}\left(A\right)P\left(B\right)P\left(C\right)$.
 
 ### 解答 练习二
 
@@ -502,18 +502,18 @@ $$
 
 由**定义 10.2.1 (事件的相互独立性)**, 验证两两独立性.
 
-$A\cap B=\left\{a\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
+$A\cap{B}=\left\{a\right\}$, $P\left(A\cap{B}\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $B$ 独立.
 
-$A\cap C=\left\{a\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
+$A\cap{C}=\left\{a\right\}$, $P\left(A\cap{C}\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $A$ 与 $C$ 独立.
 
-$B\cap C=\left\{a\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
+$B\cap{C}=\left\{a\right\}$, $P\left(B\cap{C}\right)=\frac{1}{4}$, 而 $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, 故 $B$ 与 $C$ 独立.
 
-因此 $A, B, C$ 两两独立.
+因此 $A,B,C$ 两两独立.
 
-又 $A\cap B\cap C=\left\{a\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8}$, 故
+又 $A\cap{B}\cap{C}=\left\{a\right\}$, $P\left(A\cap{B}\cap{C}\right)=\frac{1}{4}$, 而 $P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8}$, 故
 
 $$
-P\left(A\cap B\cap C\right)=\frac{1}{4}\neq\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right).
+P\left(A\cap{B}\cap{C}\right)=\frac{1}{4}\neq\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right).
 $$
 
 $\blacksquare$
@@ -530,24 +530,24 @@ $\blacksquare$
 
 ### 解答 练习三
 
-设事件 $A=$ "甲地降雨", $B=$ "乙地降雨", 则 $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. 由题意, $A$ 与 $B$ 相互独立. 由**性质 10.2.2** (对立事件的独立性), $\overline A, \overline B$ 也相互独立.
+设事件 $A=$ "甲地降雨", $B=$ "乙地降雨", 则 $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. 由题意, $A$ 与 $B$ 相互独立. 由**性质 10.2.2** (对立事件的独立性), $\overline{A},\overline{B}$ 也相互独立.
 
-(1) 由**定义 10.2.1 (事件的相互独立性)**, 两地都降雨即 $A\cap B$ 发生, 故
-
-$$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.2\times 0.3=0.06.
-$$
-
-(2) 两地都不降雨即 $\overline A\cap\overline B$ 发生. 由**性质 10.1.19** (对立事件的概率), $P\left(\overline A\right)=1-0.2=0.8$, $P\left(\overline B\right)=1-0.3=0.7$. 再由**定义 10.2.1 (事件的相互独立性)**,
+(1) 由**定义 10.2.1 (事件的相互独立性)**, 两地都降雨即 $A\cap{B}$ 发生, 故
 
 $$
-P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0.8\times 0.7=0.56.
+P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)=0.2\times0.3=0.06.
+$$
+
+(2) 两地都不降雨即 $\overline{A}\cap\overline{B}$ 发生. 由**性质 10.1.19** (对立事件的概率), $P\left(\overline{A}\right)=1-0.2=0.8$, $P\left(\overline{B}\right)=1-0.3=0.7$. 再由**定义 10.2.1 (事件的相互独立性)**,
+
+$$
+P\left(\overline{A}\cap\overline{B}\right)=P\left(\overline{A}\right)P\left(\overline{B}\right)=0.8\times0.7=0.56.
 $$
 
 (3) "至少一个地方降雨" 是 "两地都不降雨" 的对立事件. 由**性质 10.1.19** (对立事件的概率),
 
 $$
-P\left(\text{至少一个降雨}\right)=1-P\left(\overline A\cap\overline B\right)=1-0.56=0.44.
+P\left(\text{至少一个降雨}\right)=1-P\left(\overline{A}\cap\overline{B}\right)=1-0.56=0.44.
 $$
 
 $\blacksquare$
@@ -558,18 +558,18 @@ $\blacksquare$
 
 ### 解答 练习四
 
-由**定义 10.2.1 (事件的相互独立性)**, 需验证对任意事件 $A$, 有 $P\left(\Omega\cap A\right)=P\left(\Omega\right)P\left(A\right)$ 且 $P\left(\varnothing\cap A\right)=P\left(\varnothing\right)P\left(A\right)$.
+由**定义 10.2.1 (事件的相互独立性)**, 需验证对任意事件 $A$, 有 $P\left(\Omega\cap{A}\right)=P\left(\Omega\right)P\left(A\right)$ 且 $P\left(\varnothing\cap{A}\right)=P\left(\varnothing\right)P\left(A\right)$.
 
-由集合运算, $\Omega\cap A=A$, $\varnothing\cap A=\varnothing$. 由**性质 10.1.17** (必然事件与不可能事件的概率), $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
+由集合运算, $\Omega\cap{A}=A$, $\varnothing\cap{A}=\varnothing$. 由**性质 10.1.17** (必然事件与不可能事件的概率), $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
 
 因此
 
 $$
-P\left(\Omega\cap A\right)=P\left(A\right)=1\cdot P\left(A\right)=P\left(\Omega\right)P\left(A\right),
+P\left(\Omega\cap{A}\right)=P\left(A\right)=1\cdot{P}\left(A\right)=P\left(\Omega\right)P\left(A\right),
 $$
 
 $$
-P\left(\varnothing\cap A\right)=P\left(\varnothing\right)=0=0\cdot P\left(A\right)=P\left(\varnothing\right)P\left(A\right).
+P\left(\varnothing\cap{A}\right)=P\left(\varnothing\right)=0=0\cdot{P}\left(A\right)=P\left(\varnothing\right)P\left(A\right).
 $$
 
 由**定义 10.2.1 (事件的相互独立性)**, 必然事件 $\Omega$ 和不可能事件 $\varnothing$ 与任意事件相互独立. $\blacksquare$

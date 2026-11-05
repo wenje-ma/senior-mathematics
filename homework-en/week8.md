@@ -2,11 +2,11 @@
 
 > **Definition 3.1.1 (Function)**
 > 
-> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to{B}$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in{A}$.
 
 > **Definition 3.1.2 (Domain and Range)**
 > 
-> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+> 对于函数 $y=f\left(x\right)$, $x\in{A}$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid{x}\in{A}\right\}$ 叫做函数的值域.
 
 > **Definition 3.1.5 (Piecewise Function)**
 > 
@@ -18,27 +18,27 @@
 
 > **Definition 3.2.1 (Monotonically Increasing)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)<{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
 
 > **Definition 3.2.2 (Monotonically Decreasing)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)>{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
 
 > **Definition 3.2.3 (Maximum Value)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\le{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
 
 > **Definition 3.2.4 (Minimum Value)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\ge{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
 
 > **Definition 3.2.5 (Even Function)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
 
 > **Definition 3.2.6 (Odd Function)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
 
 > **Definition 3.3.1 (Power Function)**
 > 
@@ -64,11 +64,11 @@
 
 By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.5 (Even Function)**.
 
-Through the inquiry into $y=x+\frac{1}{x}$, one gains the following insights: (1) one can use the properties of already-learned functions (power functions) to study new functions; (2) parity can simplify the study, since one only needs to study half an interval and then reflect it; (3) the properties of a sum of functions are not a simple superposition of the properties of each function and require comprehensive analysis; (4) using the basic inequality $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$ makes it convenient to find the extrema. $\blacksquare$
+Through the inquiry into $y=x+\frac{1}{x}$, one gains the following insights: (1) one can use the properties of already-learned functions (power functions) to study new functions; (2) parity can simplify the study, since one only needs to study half an interval and then reflect it; (3) the properties of a sum of functions are not a simple superposition of the properties of each function and require comprehensive analysis; (4) using the basic inequality $\left(\sqrt{x}-\frac{1}{\sqrt{x}}\right)^2\ge0$ makes it convenient to find the extrema. $\blacksquare$
 
 ## Exercise 1
 
-(Exercise 3.4, Problem 1) If the model $y=ax^2$ is used to describe the relation between the sliding distance $y$ (unit: $\text{m}$) after a car brakes emergently and the speed $x$ (unit: $\text{km/h}$) at braking, and a certain model of car slides $20\ \text{m}$ after an emergency brake at a speed of $60\ \text{km/h}$. On a highway with a speed limit of $100\ \text{km/h}$, a car of this model slides $50\ \text{m}$ after an emergency brake. Is this car speeding?
+(Exercise 3.4, Problem 1) If the model $y=ax^2$ is used to describe the relation between the sliding distance $y$ (unit: $\text{m}$) after a car brakes emergently and the speed $x$ (unit: $\text{km/h}$) at braking, and a certain model of car slides $20\,\text{m}$ after an emergency brake at a speed of $60\,\text{km/h}$. On a highway with a speed limit of $100\,\text{km/h}$, a car of this model slides $50\,\text{m}$ after an emergency brake. Is this car speeding?
 
 ### Solution to Exercise 1
 
@@ -76,7 +76,7 @@ By **Definition 3.3.1 (Power Function)**, first determine the coefficient $a$ fr
 
 From $y=20$ when $x=60$, we get $20=a\cdot60^2=3600a$, so $a=\frac{20}{3600}=\frac{1}{180}$. Therefore $y=\frac{x^2}{180}$.
 
-When $y=50$, $50=\frac{x^2}{180}$, giving $x^2=9000$, i.e. $x=\sqrt{9000}\approx94.9\ \text{km/h}$. Since $94.9< 100$, this car is not speeding. $\blacksquare$
+When $y=50$, $50=\frac{x^2}{180}$, giving $x^2=9000$, i.e. $x=\sqrt{9000}\approx94.9\,\text{km/h}$. Since $94.9<100$, this car is not speeding. $\blacksquare$
 
 ## Exercise 2
 
@@ -114,43 +114,43 @@ The total sales revenue is $y_3=3500x$ yuan $=0.35x$ (ten-thousand yuan).
 
 The total profit is $y_4=y_3-y_1=0.35x-\left(150+0.25x\right)=0.1x-150$ (ten-thousand yuan).
 
-(2) When $y_4=0$, $0.1x-150=0$, i.e. $x=1500$. When the output $x> 1500$ pieces, the company makes a profit; when $x< 1500$ pieces, it incurs a loss; when $x=1500$ pieces, it breaks even. As the output increases, the unit cost $y_2=\frac{150}{x}+0.25$ gradually decreases and approaches $0.25$ ten-thousand yuan per piece. $\blacksquare$
+(2) When $y_4=0$, $0.1x-150=0$, i.e. $x=1500$. When the output $x>1500$ pieces, the company makes a profit; when $x<1500$ pieces, it incurs a loss; when $x=1500$ pieces, it breaks even. As the output increases, the unit cost $y_2=\frac{150}{x}+0.25$ gradually decreases and approaches $0.25$ ten-thousand yuan per piece. $\blacksquare$
 
 ## Problem 1
 
-(Exercise 3.4, Comprehensive Application, Problem 1) A person drives a car at a speed of $60\ \text{km/h}$ from place $A$ to place $B$, which is $150\ \text{km}$ away. After staying at place $B$ for $1\ \text{h}$, the person returns to place $A$ at a speed of $50\ \text{km/h}$. Express the distance $x$ (unit: $\text{km}$) of the car from place $A$ as a function of the time $t$ (unit: $\text{h}$) (starting from the moment of departure from place $A$); then express the car speed $v$ (unit: $\text{km/h}$) as a function of the time $t$, and draw the graphs of these two functions respectively.
+(Exercise 3.4, Comprehensive Application, Problem 1) A person drives a car at a speed of $60\,\text{km/h}$ from place $A$ to place $B$, which is $150\,\text{km}$ away. After staying at place $B$ for $1\,\text{h}$, the person returns to place $A$ at a speed of $50\,\text{km/h}$. Express the distance $x$ (unit: $\text{km}$) of the car from place $A$ as a function of the time $t$ (unit: $\text{h}$) (starting from the moment of departure from place $A$); then express the car speed $v$ (unit: $\text{km/h}$) as a function of the time $t$, and draw the graphs of these two functions respectively.
 
-The graphs: on the left is the piecewise line graph of the distance $x$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $x$ (unit: km), rising from the origin $\left(0,0\right)$ with slope $60$ to $\left(2.5,150\right)$, extending horizontally to $\left(3.5,150\right)$, and then falling with slope $-50$ to $\left(6.5,0\right)$; on the right is the piecewise constant graph of the car speed $v$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $v$ (unit: km/h), with three horizontal segments at $v=60$ ($0\le t\le2.5$), $v=0$ ($2.5< t\le3.5$), and $v=50$ ($3.5< t\le6.5$).
+The graphs: on the left is the piecewise line graph of the distance $x$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $x$ (unit: km), rising from the origin $\left(0,0\right)$ with slope $60$ to $\left(2.5,150\right)$, extending horizontally to $\left(3.5,150\right)$, and then falling with slope $-50$ to $\left(6.5,0\right)$; on the right is the piecewise constant graph of the car speed $v$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $v$ (unit: km/h), with three horizontal segments at $v=60$ ($0\le{t}\le2.5$), $v=0$ ($2.5<{}t\le3.5$), and $v=50$ ($3.5<{}t\le6.5$).
 
 ### Solution to Problem 1
 
 By **Definition 3.1.5 (Piecewise Function)**, represent it in segments according to the three stages of the trip.
 
-The trip from $A$ to $B$ takes $\frac{150}{60}=2.5\ \text{h}$, the stay at $B$ is $1\ \text{h}$, and the return from $B$ to $A$ takes $\frac{150}{50}=3\ \text{h}$.
+The trip from $A$ to $B$ takes $\frac{150}{60}=2.5\,\text{h}$, the stay at $B$ is $1\,\text{h}$, and the return from $B$ to $A$ takes $\frac{150}{50}=3\,\text{h}$.
 
 The function of distance with respect to time:
 
 $$
-x=\begin{cases}60t, & 0\le t\le2.5,\\150, & 2.5< t\le3.5,\\150-50\left(t-3.5\right), & 3.5< t\le6.5.\end{cases}
+x=\begin{cases}60t,&0\le{t}\le2.5,\\150,&2.5<{}t\le3.5,\\150-50\left(t-3.5\right),&3.5<{}t\le6.5.\end{cases}
 $$
 
 The function of car speed with respect to time:
 
 $$
-v=\begin{cases}60, & 0\le t\le2.5,\\0, & 2.5< t\le3.5,\\50, & 3.5< t\le6.5.\end{cases}
+v=\begin{cases}60,&0\le{t}\le2.5,\\0,&2.5<{}t\le3.5,\\50,&3.5<{}t\le6.5.\end{cases}
 $$
 
 The distance graph is: a segment rising from the origin to $\left(2.5,150\right)$, a horizontal segment to $\left(3.5,150\right)$, and then falling to $\left(6.5,0\right)$. The speed graph consists of three horizontal segments. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 3.4, Comprehensive Application, Problem 2) To build an open-air cuboidal reservoir with volume $1200\ \text{m}^3$ and depth $6\ \text{m}$, the cost of the walls is $95$ yuan/$\text{m}^2$ and the cost of the bottom is $135$ yuan/$\text{m}^2$. How should the length and width of the reservoir be designed so that the total cost is kept within $7$ ten-thousand yuan (accurate to $0.1\ \text{m}$)?
+(Exercise 3.4, Comprehensive Application, Problem 2) To build an open-air cuboidal reservoir with volume $1200\,\text{m}^3$ and depth $6\,\text{m}$, the cost of the walls is $95$ yuan/$\text{m}^2$ and the cost of the bottom is $135$ yuan/$\text{m}^2$. How should the length and width of the reservoir be designed so that the total cost is kept within $7$ ten-thousand yuan (accurate to $0.1\,\text{m}$)?
 
 ### Solution to Problem 2
 
 By **Definition 3.1.1 (Function)**, set up the total cost as a function of the length and width.
 
-The bottom area of the reservoir is $\frac{1200}{6}=200\ \text{m}^2$. Let the length be $a$ and the width be $b$, then $ab=200$, i.e. $b=\frac{200}{a}$.
+The bottom area of the reservoir is $\frac{1200}{6}=200\,\text{m}^2$. Let the length be $a$ and the width be $b$, then $ab=200$, i.e. $b=\frac{200}{a}$.
 
 The wall area is $2\cdot6\cdot\left(a+b\right)=12\left(a+b\right)$, and the wall cost is $95\cdot12\left(a+b\right)=1140\left(a+b\right)$ yuan.
 
@@ -162,13 +162,13 @@ Requiring $C\le70000$, i.e. $1140\left(a+\frac{200}{a}\right)\le43000$, equivale
 
 Rearranging gives $a^2-37.72a+200\le0$, and solving gives $a\in\left[\frac{37.72-\sqrt{37.72^2-800}}{2},\frac{37.72+\sqrt{37.72^2-800}}{2}\right]\approx\left[5.9,31.8\right]$.
 
-Thus when the length $a$ is between $5.9\ \text{m}$ and $31.8\ \text{m}$, the total cost can be kept within $7$ ten-thousand yuan, and the corresponding width $b=\frac{200}{a}$ is between $6.3\ \text{m}$ and $33.9\ \text{m}$. $\blacksquare$
+Thus when the length $a$ is between $5.9\,\text{m}$ and $31.8\,\text{m}$, the total cost can be kept within $7$ ten-thousand yuan, and the corresponding width $b=\frac{200}{a}$ is between $6.3\,\text{m}$ and $33.9\,\text{m}$. $\blacksquare$
 
 ## Problem 3
 
 (Exercise 3.4, Comprehensive Application, Problem 3) To protect water resources and encourage water conservation, a city implements a "tiered water price" for domestic water use. The billing method is as follows:
 
-For each household per month, the part of water consumption not exceeding $12\ \text{m}^3$ is priced at $3$ yuan/$\text{m}^3$; the part exceeding $12\ \text{m}^3$ but not exceeding $18\ \text{m}^3$ is priced at $6$ yuan/$\text{m}^3$; the part exceeding $18\ \text{m}^3$ is priced at $9$ yuan/$\text{m}^3$.
+For each household per month, the part of water consumption not exceeding $12\,\text{m}^3$ is priced at $3$ yuan/$\text{m}^3$; the part exceeding $12\,\text{m}^3$ but not exceeding $18\,\text{m}^3$ is priced at $6$ yuan/$\text{m}^3$; the part exceeding $18\,\text{m}^3$ is priced at $9$ yuan/$\text{m}^3$.
 
 If a certain household paid a water bill of $48$ yuan this month, find the water consumption of this household this month.
 
@@ -176,13 +176,13 @@ If a certain household paid a water bill of $48$ yuan this month, find the water
 
 By **Definition 3.1.5 (Piecewise Function)**, calculate the water bill in tiered segments.
 
-When the water consumption is $12\ \text{m}^3$, the water bill is $12\times3=36$ yuan. When the water consumption is $18\ \text{m}^3$, the water bill is $36+6\times6=72$ yuan.
+When the water consumption is $12\,\text{m}^3$, the water bill is $12\times3=36$ yuan. When the water consumption is $18\,\text{m}^3$, the water bill is $36+6\times6=72$ yuan.
 
-Since $36< 48< 72$, the water consumption of this household is between $12\ \text{m}^3$ and $18\ \text{m}^3$.
+Since $36<48<72$, the water consumption of this household is between $12\,\text{m}^3$ and $18\,\text{m}^3$.
 
-The water bill for the part exceeding $12\ \text{m}^3$ is $48-36=12$ yuan, and the price of this part is $6$ yuan/$\text{m}^3$, so the excess amount is $\frac{12}{6}=2\ \text{m}^3$.
+The water bill for the part exceeding $12\,\text{m}^3$ is $48-36=12$ yuan, and the price of this part is $6$ yuan/$\text{m}^3$, so the excess amount is $\frac{12}{6}=2\,\text{m}^3$.
 
-Therefore the total water consumption is $12+2=14\ \text{m}^3$. $\blacksquare$
+Therefore the total water consumption is $12+2=14\,\text{m}^3$. $\blacksquare$
 
 ## Problem 4
 
@@ -222,7 +222,7 @@ Therefore the function analytic expression that can basically reflect this pheno
 
 ## Exercise 4
 
-(Exercise 4.1, Problem 1) Express the following in radical form ($a> 0$).
+(Exercise 4.1, Problem 1) Express the following in radical form ($a>0$).
 
 (1) $a^{\frac{1}{2}}$;
 
@@ -248,25 +248,25 @@ By **Definition 4.1.4 (Positive Fractional Exponent)** and **Definition 4.1.5 (N
 
 (Exercise 4.1, Problem 2) Express and calculate the following in fractional exponent form.
 
-(1) $\sqrt\left[3\right]{x^2}$ ($x> 0$);
+(1) $\sqrt\left[3\right]{x^2}$ ($x>0$);
 
-(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m> n$);
+(2) $\sqrt\left[5\right]{\left(m-n\right)^4}$ ($m>{}n$);
 
-(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p> 0$);
+(3) $\sqrt{p^6}\sqrt\left[5\right]{p}$ ($p>0$);
 
-(4) $\frac{a^3}{\sqrt{a}}$ ($a> 0$).
+(4) $\frac{a^3}{\sqrt{a}}$ ($a>0$).
 
 ### Solution to Exercise 5
 
 By **Definition 4.1.4 (Positive Fractional Exponent)** and **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents).
 
-(1) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x> 0$).
+(1) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt\left[3\right]{x^2}=x^{\frac{2}{3}}$ ($x>0$).
 
-(2) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m> n$).
+(2) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt\left[5\right]{\left(m-n\right)^4}=\left(m-n\right)^{\frac{4}{5}}$ ($m>{}n$).
 
-(3) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. Then by **Standard Conclusion 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot p^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p> 0$).
+(3) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt{p^6}=p^3$, $\sqrt\left[5\right]{p}=p^{\frac{1}{5}}$. Then by **Standard Conclusion 4.1.6** (1), $\sqrt{p^6}\sqrt\left[5\right]{p}=p^3\cdot{p}^{\frac{1}{5}}=p^{3+\frac{1}{5}}=p^{\frac{31}{5}}$ ($p>0$).
 
-(4) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt{a}=a^{\frac{1}{2}}$. Then by **Standard Conclusion 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a> 0$). $\blacksquare$
+(4) By **Definition 4.1.4 (Increasing and Decreasing Sequences)**, $\sqrt{a}=a^{\frac{1}{2}}$. Then by **Standard Conclusion 4.1.6** (1), $\frac{a^3}{\sqrt{a}}=a^{3-\frac{1}{2}}=a^{\frac{5}{2}}$ ($a>0$). $\blacksquare$
 
 ## Exercise 6
 
@@ -274,9 +274,9 @@ By **Definition 4.1.4 (Positive Fractional Exponent)** and **Standard Conclusion
 
 (1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}$;
 
-(2) $2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}$;
+(2) $2\sqrt{3}\times3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}$;
 
-(3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a> 0$);
+(3) $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}$ ($a>0$);
 
 (4) $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)$.
 
@@ -286,13 +286,13 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents), a
 
 (1) $\left(\frac{36}{49}\right)^{\frac{3}{2}}=\left[\left(\frac{6}{7}\right)^2\right]^{\frac{3}{2}}=\left(\frac{6}{7}\right)^3=\frac{216}{343}$.
 
-(2) Convert to fractional exponents: $\sqrt{3}=3^{\frac{1}{2}}$, $\sqrt\left[3\right]{1.5}=\left(\frac{3}{2}\right)^{\frac{1}{3}}=3^{\frac{1}{3}}2^{-\frac{1}{3}}$, $\sqrt\left[6\right]{12}=\left(2^2\cdot 3\right)^{\frac{1}{6}}=2^{\frac{1}{3}}3^{\frac{1}{6}}$. By **Standard Conclusion 4.1.6** (1) (3),
+(2) Convert to fractional exponents: $\sqrt{3}=3^{\frac{1}{2}}$, $\sqrt\left[3\right]{1.5}=\left(\frac{3}{2}\right)^{\frac{1}{3}}=3^{\frac{1}{3}}2^{-\frac{1}{3}}$, $\sqrt\left[6\right]{12}=\left(2^2\cdot3\right)^{\frac{1}{6}}=2^{\frac{1}{3}}3^{\frac{1}{6}}$. By **Standard Conclusion 4.1.6** (1) (3),
 
 $$
-2\sqrt{3}\times 3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}=6\cdot 3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot 2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot 3\cdot 1=18.
+2\sqrt{3}\times3\sqrt\left[3\right]{1.5}\times\sqrt\left[6\right]{12}=6\cdot3^{\frac{1}{2}+\frac{1}{3}+\frac{1}{6}}\cdot2^{-\frac{1}{3}+\frac{1}{3}}=6\cdot3\cdot1=18.
 $$
 
-(3) By **Standard Conclusion 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a> 0$).
+(3) By **Standard Conclusion 4.1.6** (1), $a^{\frac{1}{2}}a^{\frac{1}{4}}a^{-\frac{1}{8}}=a^{\frac{1}{2}+\frac{1}{4}-\frac{1}{8}}=a^{\frac{5}{8}}$ ($a>0$).
 
 (4) By **Standard Conclusion 4.1.6** (1), $2x^{-\frac{1}{3}}\left(\frac{1}{2}x^{\frac{1}{3}}-2x^{-\frac{2}{3}}\right)=x^{-\frac{1}{3}+\frac{1}{3}}-4x^{-\frac{1}{3}-\frac{2}{3}}=1-4x^{-1}$. $\blacksquare$
 
@@ -311,7 +311,7 @@ By **Standard Conclusion 4.1.7** (Irrational Exponents) and **Standard Conclusio
 (1) $\sqrt{m^{\sqrt{3}}}=m^{\frac{\sqrt{3}}{2}}$. By **Standard Conclusion 4.1.8** (2) (3),
 
 $$
-\left(2^{\sqrt{3}}\sqrt{m^{\sqrt{3}}}\right)^{2\sqrt{3}}=\left(2^{\sqrt{3}}\cdot m^{\frac{\sqrt{3}}{2}}\right)^{2\sqrt{3}}=\left(2^{\sqrt{3}}\right)^{2\sqrt{3}}\cdot\left(m^{\frac{\sqrt{3}}{2}}\right)^{2\sqrt{3}}=2^6\cdot m^3=64m^3.
+\left(2^{\sqrt{3}}\sqrt{m^{\sqrt{3}}}\right)^{2\sqrt{3}}=\left(2^{\sqrt{3}}\cdot{m}^{\frac{\sqrt{3}}{2}}\right)^{2\sqrt{3}}=\left(2^{\sqrt{3}}\right)^{2\sqrt{3}}\cdot\left(m^{\frac{\sqrt{3}}{2}}\right)^{2\sqrt{3}}=2^6\cdot{m}^3=64m^3.
 $$
 
 (2) By **Standard Conclusion 4.1.8** (1), $a^{\frac{\pi}{3}}a^{\frac{2\pi}{3}}a^{-\pi}=a^{\frac{\pi}{3}+\frac{2\pi}{3}-\pi}=a^0=1$. $\blacksquare$
@@ -320,15 +320,15 @@ $$
 
 (Exercise 4.1, Problem 5) Using a calculating tool, investigate the pattern of change of the following real exponents.
 
-(1) Take $x$ as negative real numbers such that the value of $\left|x\right|$ gradually increases and tends to infinity; calculate the corresponding values of $2^x$ ($x\in\mathbb R$) and observe the trend of change;
+(1) Take $x$ as negative real numbers such that the value of $\left|x\right|$ gradually increases and tends to infinity; calculate the corresponding values of $2^x$ ($x\in\mathbb{R}$) and observe the trend of change;
 
-(2) take $x$ as positive real numbers such that the value of $x$ gradually increases and tends to infinity; calculate the corresponding values of $\left(\frac{1}{2}\right)^x$ ($x\in\mathbb R$) and observe the trend of change.
+(2) take $x$ as positive real numbers such that the value of $x$ gradually increases and tends to infinity; calculate the corresponding values of $\left(\frac{1}{2}\right)^x$ ($x\in\mathbb{R}$) and observe the trend of change.
 
 ### Solution to Exercise 8
 
-By **Standard Conclusion 4.1.7** (Irrational Exponents), the real exponent power $a^x$ ($a> 0$) is a determined real number, and its trend of change can be investigated with a calculating tool.
+By **Standard Conclusion 4.1.7** (Irrational Exponents), the real exponent power $a^x$ ($a>0$) is a determined real number, and its trend of change can be investigated with a calculating tool.
 
-(1) When $x$ takes negative real numbers and $\left|x\right|\to+\infty$, let $x=-t$, $t> 0$, $t\to+\infty$, then $2^x=2^{-t}=\frac{1}{2^\top}$. Since $2^\top$ increases as $t$ increases, $\frac{1}{2^\top}$ decreases as $t$ increases and tends to $0$, i.e. $2^x$ gradually decreases and tends to $0$ as $\left|x\right|$ increases.
+(1) When $x$ takes negative real numbers and $\left|x\right|\to+\infty$, let $x=-t$, $t>0$, $t\to+\infty$, then $2^x=2^{-t}=\frac{1}{2^\top}$. Since $2^\top$ increases as $t$ increases, $\frac{1}{2^\top}$ decreases as $t$ increases and tends to $0$, i.e. $2^x$ gradually decreases and tends to $0$ as $\left|x\right|$ increases.
 
 (2) When $x$ takes positive real numbers and $x\to+\infty$, $\left(\frac{1}{2}\right)^x=\frac{1}{2^x}$. Since $2^x$ increases as $x$ increases, $\frac{1}{2^x}$ decreases as $x$ increases and tends to $0$, i.e. $\left(\frac{1}{2}\right)^x$ gradually decreases and tends to $0$ as $x$ increases. $\blacksquare$
 
@@ -360,11 +360,11 @@ By **Standard Conclusion 4.1.3** (Properties of the n-th Root), take the absolut
 
 (Exercise 4.1, Review and Consolidation, Problem 2) Multiple choice.
 
-(1) Let $a> 0$; which of the following operations is correct? ( ).
+(1) Let $a>0$; which of the following operations is correct? ( ).
 
-(A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a$ (B) $a\div a^{\frac{2}{3}}=a^{\frac{3}{2}}$ (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=0$ (D) $\left(a^{\frac{1}{4}}\right)^4=a$
+(A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a$ (B) $a\div{a}^{\frac{2}{3}}=a^{\frac{3}{2}}$ (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=0$ (D) $\left(a^{\frac{1}{4}}\right)^4=a$
 
-(2) Let $a> 0$, and let $m$, $n$ be positive integers with $n> 1$; how many of the following expressions $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ are correct? ( ).
+(2) Let $a>0$, and let $m$, $n$ be positive integers with $n>1$; how many of the following expressions $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$, $a^0=1$, $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ are correct? ( ).
 
 (A) $3$ (B) $2$ (C) $1$ (D) $0$
 
@@ -372,7 +372,7 @@ By **Standard Conclusion 4.1.3** (Properties of the n-th Root), take the absolut
 
 By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents), **Definition 4.1.4 (Increasing and Decreasing Sequences)**, and **Definition 4.1.5 (数列的通项公式)**.
 
-(1) Check item by item: (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a^{\frac{4}{3}+\frac{3}{4}}=a^{\frac{25}{12}}\neq a$, incorrect; (B) $a\div a^{\frac{2}{3}}=a^{1-\frac{2}{3}}=a^{\frac{1}{3}}\neq a^{\frac{3}{2}}$, incorrect; (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=a^0=1\neq 0$, incorrect; (D) $\left(a^{\frac{1}{4}}\right)^4=a^{\frac{1}{4}\times 4}=a$, correct. Therefore choose (D).
+(1) Check item by item: (A) $a^{\frac{4}{3}}a^{\frac{3}{4}}=a^{\frac{4}{3}+\frac{3}{4}}=a^{\frac{25}{12}}\neq{a}$, incorrect; (B) $a\div{a}^{\frac{2}{3}}=a^{1-\frac{2}{3}}=a^{\frac{1}{3}}\neq{a}^{\frac{3}{2}}$, incorrect; (C) $a^{\frac{2}{3}}a^{-\frac{2}{3}}=a^0=1\neq0$, incorrect; (D) $\left(a^{\frac{1}{4}}\right)^4=a^{\frac{1}{4}\times4}=a$, correct. Therefore choose (D).
 
 (2) $a^{\frac{m}{n}}=\sqrt\left[n\right]{a^m}$ is exactly **Definition 4.1.4 (Increasing and Decreasing Sequences)**, correct; $a^0=1$ is the convention for the zero exponent, correct; $a^{-\frac{m}{n}}=\frac{1}{\sqrt\left[n\right]{a^m}}$ is exactly **Definition 4.1.5 (数列的通项公式)**, correct. All three expressions are correct, so choose (A). $\blacksquare$
 
@@ -388,9 +388,9 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents), *
 
 By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) and **Standard Conclusion 4.1.7** (Irrational Exponents).
 
-(1) Calculate separately: $\left(-\frac{1}{2}\right)^{-1}=-2$; $2^{-\frac{1}{2}}=\frac{1}{\sqrt{2}}\approx 0.707$; $\left(\frac{1}{2}\right)^{-1}=2$; $2^{-1}=\frac{1}{2}=0.5$. Comparing, the largest number is $\left(\frac{1}{2}\right)^{-1}$.
+(1) Calculate separately: $\left(-\frac{1}{2}\right)^{-1}=-2$; $2^{-\frac{1}{2}}=\frac{1}{\sqrt{2}}\approx0.707$; $\left(\frac{1}{2}\right)^{-1}=2$; $2^{-1}=\frac{1}{2}=0.5$. Comparing, the largest number is $\left(\frac{1}{2}\right)^{-1}$.
 
-(2) Approximate with a calculating tool: $2^{\sqrt{3}}\approx 2^{1.732}\approx 3.32$; $3^{\sqrt{2}}\approx 3^{1.414}\approx 4.73$; $\pi^{\sqrt{5}}\approx \pi^{2.236}\approx 11.2$; $2^\pi\approx 2^{3.142}\approx 8.83$. Thus in ascending order: $2^{\sqrt{3}}< 3^{\sqrt{2}}< 2^\pi< \pi^{\sqrt{5}}$. $\blacksquare$
+(2) Approximate with a calculating tool: $2^{\sqrt{3}}\approx2^{1.732}\approx3.32$; $3^{\sqrt{2}}\approx3^{1.414}\approx4.73$; $\pi^{\sqrt{5}}\approx\pi^{2.236}\approx11.2$; $2^\pi\approx2^{3.142}\approx8.83$. Thus in ascending order: $2^{\sqrt{3}}<3^{\sqrt{2}}<2^\pi<\pi^{\sqrt{5}}$. $\blacksquare$
 
 ## Problem 9
 
@@ -400,17 +400,17 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents) an
 
 (2) $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}$;
 
-(3) $\frac{\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}}{\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}}$.
+(3) $\frac{\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}}{\left(\sqrt\left[6\right]{m}\right)^5m^{\frac{1}{4}}}$.
 
 ### Solution to Problem 9
 
 By **Definition 4.1.4 (Positive Fractional Exponent)** and **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents).
 
-(1) Convert layer by layer from the inside out: $\sqrt\left[4\right]{\frac{a^2}{b^6}}=\left(a^2 b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, so $\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}=b^3 a^{-1}\cdot a^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, and then taking the square root gives $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
+(1) Convert layer by layer from the inside out: $\sqrt\left[4\right]{\frac{a^2}{b^6}}=\left(a^2b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, so $\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}=b^3a^{-1}\cdot{a}^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, and then taking the square root gives $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
 
-(2) Convert layer by layer from the inside out: $\sqrt{a}=a^{\frac{1}{2}}$; $a^{\frac{1}{2}}\sqrt{a}=a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, so $\sqrt{a^{\frac{1}{2}}\sqrt{a}}=\sqrt{a}=a^{\frac{1}{2}}$; then the outer layer $a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, so $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}=\sqrt{a}=a^{\frac{1}{2}}$.
+(2) Convert layer by layer from the inside out: $\sqrt{a}=a^{\frac{1}{2}}$; $a^{\frac{1}{2}}\sqrt{a}=a^{\frac{1}{2}}\cdot{a}^{\frac{1}{2}}=a$, so $\sqrt{a^{\frac{1}{2}}\sqrt{a}}=\sqrt{a}=a^{\frac{1}{2}}$; then the outer layer $a^{\frac{1}{2}}\cdot{a}^{\frac{1}{2}}=a$, so $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}=\sqrt{a}=a^{\frac{1}{2}}$.
 
-(3) Numerator: $\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. Denominator: $\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. By **Standard Conclusion 4.1.6** (1), the original expression $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
+(3) Numerator: $\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. Denominator: $\left(\sqrt\left[6\right]{m}\right)^5m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. By **Standard Conclusion 4.1.6** (1), the original expression $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
 
 ## Problem 10
 
@@ -418,7 +418,7 @@ By **Definition 4.1.4 (Positive Fractional Exponent)** and **Standard Conclusion
 
 (1) $a^{\frac{1}{3}}a^{\frac{3}{4}}a^{\frac{7}{12}}$;
 
-(2) $a^{\frac{2}{3}}a^{\frac{3}{4}}\div a^{\frac{5}{6}}$;
+(2) $a^{\frac{2}{3}}a^{\frac{3}{4}}\div{a}^{\frac{5}{6}}$;
 
 (3) $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}$;
 
@@ -430,11 +430,11 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents).
 
 (1) By (1), $a^{\frac{1}{3}}a^{\frac{3}{4}}a^{\frac{7}{12}}=a^{\frac{1}{3}+\frac{3}{4}+\frac{7}{12}}=a^{\frac{4}{12}+\frac{9}{12}+\frac{7}{12}}=a^{\frac{20}{12}}=a^{\frac{5}{3}}$.
 
-(2) By (1), $a^{\frac{2}{3}}a^{\frac{3}{4}}\div a^{\frac{5}{6}}=a^{\frac{2}{3}+\frac{3}{4}-\frac{5}{6}}=a^{\frac{8}{12}+\frac{9}{12}-\frac{10}{12}}=a^{\frac{7}{12}}$.
+(2) By (1), $a^{\frac{2}{3}}a^{\frac{3}{4}}\div{a}^{\frac{5}{6}}=a^{\frac{2}{3}+\frac{3}{4}-\frac{5}{6}}=a^{\frac{8}{12}+\frac{9}{12}-\frac{10}{12}}=a^{\frac{7}{12}}$.
 
-(3) By (2) (3), $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}=x^{\frac{1}{3}\times 12}y^{-\frac{3}{4}\times 12}=x^4 y^{-9}$.
+(3) By (2) (3), $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}=x^{\frac{1}{3}\times12}y^{-\frac{3}{4}\times12}=x^4y^{-9}$.
 
-(4) By (1) (3), $4a^{\frac{2}{3}}b^{-\frac{1}{3}}\div\left(-\frac{2}{3}a^{-\frac{1}{3}}b^{-\frac{1}{3}}\right)=\frac{4}{-\frac{2}{3}}\cdot a^{\frac{2}{3}+\frac{1}{3}}\cdot b^{-\frac{1}{3}+\frac{1}{3}}=-6a$. $\blacksquare$
+(4) By (1) (3), $4a^{\frac{2}{3}}b^{-\frac{1}{3}}\div\left(-\frac{2}{3}a^{-\frac{1}{3}}b^{-\frac{1}{3}}\right)=\frac{4}{-\frac{2}{3}}\cdot{a}^{\frac{2}{3}+\frac{1}{3}}\cdot{b}^{-\frac{1}{3}+\frac{1}{3}}=-6a$. $\blacksquare$
 
 ## Problem 11
 
@@ -474,9 +474,9 @@ By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents), s
 
 By **Standard Conclusion 4.1.6** (Operation Properties of Rational Exponents), square both sides of the known equation.
 
-(1) Squaring both sides of $a^{\frac{1}{2}}+a^{-\frac{1}{2}}=3$ gives $a+2\cdot a^{\frac{1}{2}}\cdot a^{-\frac{1}{2}}+a^{-1}=9$, i.e. $a+2+a^{-1}=9$, so $a+a^{-1}=7$.
+(1) Squaring both sides of $a^{\frac{1}{2}}+a^{-\frac{1}{2}}=3$ gives $a+2\cdot{a}^{\frac{1}{2}}\cdot{a}^{-\frac{1}{2}}+a^{-1}=9$, i.e. $a+2+a^{-1}=9$, so $a+a^{-1}=7$.
 
-(2) Squaring both sides of $a+a^{-1}=7$ gives $a^2+2\cdot a\cdot a^{-1}+a^{-2}=49$, i.e. $a^2+2+a^{-2}=49$, so $a^2+a^{-2}=47$. $\blacksquare$
+(2) Squaring both sides of $a+a^{-1}=7$ gives $a^2+2\cdot{a}\cdot{a}^{-1}+a^{-2}=49$, i.e. $a^2+2+a^{-2}=49$, so $a^2+a^{-2}=47$. $\blacksquare$
 
 ## Problem 14
 

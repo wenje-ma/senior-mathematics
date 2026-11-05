@@ -92,7 +92,7 @@
 
 由**公式 5.5.7** 及**公式 5.5.3**.
 
-由 $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, 得 $\sin2\alpha=\frac{24}{25}$. 又 $0\leq\alpha\leq\pi$, $\sin\alpha-\cos\alpha=\frac{1}{5}> 0$, 得 $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. 由 $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. 若 $\cos2\alpha=\frac{7}{25}$, 则 $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ 不成立; 故 $\cos2\alpha=-\frac{7}{25}$.
+由 $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, 得 $\sin2\alpha=\frac{24}{25}$. 又 $0\leq\alpha\leq\pi$, $\sin\alpha-\cos\alpha=\frac{1}{5}>0$, 得 $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. 由 $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. 若 $\cos2\alpha=\frac{7}{25}$, 则 $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ 不成立; 故 $\cos2\alpha=-\frac{7}{25}$.
 
 $$
 \sin\left(2\alpha-\frac{\pi}{4}\right)=\sin2\alpha\cos\frac{\pi}{4}-\cos2\alpha\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}\left(\frac{24}{25}+\frac{7}{25}\right)=\frac{31\sqrt{2}}{50}.
@@ -102,13 +102,13 @@ $\blacksquare$
 
 ## 习题三
 
-(复习参考题5 综合运用第 18 题) 已知 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 求 $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$ 的值.
+(复习参考题5 综合运用第 18 题) 已知 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}<{}x<\frac{7\pi}{4}$, 求 $\frac{\sin2x+2\sin^{2}x}{1-\tan{x}}$ 的值.
 
 ### 解答 习题三
 
 由**公式 5.5.7** 及**公式 5.5.1**.
 
-由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, 得 $\frac{5\pi}{3}< \frac{\pi}{4}+x< 2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
+由 $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}<{}x<\frac{7\pi}{4}$, 得 $\frac{5\pi}{3}<\frac{\pi}{4}+x<2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. 故 $\cos{x}-\sin{x}=\frac{3\sqrt{2}}{5}$, $\cos{x}+\sin{x}=-\frac{4\sqrt{2}}{5}$. 两式相乘得 $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. 又 $\left(\cos{x}-\sin{x}\right)^{2}=\frac{18}{25}=1-\sin2x$, 得 $\sin2x=\frac{7}{25}$. 原式 $=\frac{2\sin{x}\left(\cos{x}+\sin{x}\right)}{1-\frac{\sin{x}}{\cos{x}}}=\frac{2\sin{x}\cos{x}\left(\cos{x}+\sin{x}\right)}{\cos{x}-\sin{x}}=\frac{\sin2x\left(\cos{x}+\sin{x}\right)}{\cos{x}-\sin{x}}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
 
 ## 习题四
 
@@ -124,7 +124,7 @@ $\blacksquare$
 
 ## 习题五
 
-(复习参考题5 综合运用第 20 题) 已知函数 $f\left(x\right)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
+(复习参考题5 综合运用第 20 题) 已知函数 $f\left(x\right)=\cos^{4}x-2\sin{x}\cos{x}-\sin^{4}x$.
 
 (1) 求 $f\left(x\right)$ 的最小正周期;
 
@@ -140,7 +140,7 @@ $\blacksquare$
 
 ## 习题六
 
-(复习参考题5 综合运用第 21 题) 已知函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ 的最大值为 $1$.
+(复习参考题5 综合运用第 21 题) 已知函数 $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos{x}+a$ 的最大值为 $1$.
 
 (1) 求常数 $a$ 的值;
 
@@ -152,11 +152,11 @@ $\blacksquare$
 
 由**公式 5.5.3** 及**公式 5.5.4**.
 
-(1) $f\left(x\right)=2\sin x\cos\frac{\pi}{6}+\cos x+a=\sqrt{3}\sin x+\cos x+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. 最大值为 $2+a=1$, 故 $a=-1$.
+(1) $f\left(x\right)=2\sin{x}\cos\frac{\pi}{6}+\cos{x}+a=\sqrt{3}\sin{x}+\cos{x}+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. 最大值为 $2+a=1$, 故 $a=-1$.
 
-(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. 单调递减区间为 $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. 单调递减区间为 $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$.
 
-(3) 由 $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, 得 $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. 故 $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
+(3) 由 $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, 得 $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. 故 $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## 习题七
 
@@ -164,7 +164,7 @@ $\blacksquare$
 
 (1) 求常数 $m$ 的值;
 
-(2) 当 $x\in\mathbb R$ 时, 求函数 $f\left(x\right)$ 的最小值, 以及相应 $x$ 的集合.
+(2) 当 $x\in\mathbb{R}$ 时, 求函数 $f\left(x\right)$ 的最小值, 以及相应 $x$ 的集合.
 
 ### 解答 习题七
 
@@ -172,25 +172,25 @@ $\blacksquare$
 
 (1) $f\left(x\right)=\sqrt{3}\sin2x+\cos2x+1+m=2\sin\left(2x+\frac{\pi}{6}\right)+1+m$. 由 $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{6}\in\left[\frac{\pi}{6},\frac{7\pi}{6}\right]$, 最大值 $2+1+m=6$, 故 $m=3$.
 
-(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. 最小值为 $-2+4=2$, 此时 $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
+(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. 最小值为 $-2+4=2$, 此时 $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## 习题八
 
-(复习参考题5 综合运用第 23 题) 正方形 $ABCD$ 的边长为 $1$, $P$, $Q$ 分别为边 $AB$, $DA$ 上的点. 当 $\triangle APQ$ 的周长为 $2$ 时, 求 $\angle PCQ$ 的大小.
+(复习参考题5 综合运用第 23 题) 正方形 $ABCD$ 的边长为 $1$, $P$, $Q$ 分别为边 $AB$, $DA$ 上的点. 当 $\triangle{A}PQ$ 的周长为 $2$ 时, 求 $\angle{P}CQ$ 的大小.
 
 ### 解答 习题八
 
 由**公式 5.5.5** (和角正切公式).
 
-设 $AP=x$, $AQ=y$, 则 $x+y+\sqrt{x^{2}+y^{2}}=2$. 设 $\angle BCP=\alpha$, $\angle DCQ=\beta$, 则 $\tan\alpha=1-x$, $\tan\beta=1-y$.
+设 $AP=x$, $AQ=y$, 则 $x+y+\sqrt{x^{2}+y^{2}}=2$. 设 $\angle{B}CP=\alpha$, $\angle{D}CQ=\beta$, 则 $\tan\alpha=1-x$, $\tan\beta=1-y$.
 
 由 $x+y+\sqrt{x^{2}+y^{2}}=2$, 得 $\sqrt{x^{2}+y^{2}}=2-x-y$. 平方得 $2xy=4-4x-4y+2xy$, 即 $x+y=1$. 故 $y=1-x$.
 
 $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(1-x\right)\left(1-y\right)}=\frac{2-\left(x+y\right)}{1-\left(1-x-y+xy\right)}=\frac{1}{x+y-xy}=\frac{1}{1-xy}$. 又 $xy=x\left(1-x\right)$.
 
-由 $\angle PCQ=\frac{\pi}{2}-\alpha-\beta$, 得 $\tan\angle PCQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. 又由 $x+y=1$, $xy\leq\frac{1}{4}$.
+由 $\angle{P}CQ=\frac{\pi}{2}-\alpha-\beta$, 得 $\tan\angle{P}CQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. 又由 $x+y=1$, $xy\leq\frac{1}{4}$.
 
-由条件可证得 $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
+由条件可证得 $\angle{P}CQ=\frac{\pi}{4}$. $\blacksquare$
 
 ## 习题九
 
@@ -204,39 +204,39 @@ $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(
 
 由**公式 5.2.2** (同角三角函数关系).
 
-(1) 由 $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, 得 $\sin2\beta=-\frac{24}{25}$. 由 $\beta\in\left(0,\pi\right)$, $\sin\beta+\cos\beta=\frac{1}{5}> 0$, 得 $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. 故 $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
+(1) 由 $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, 得 $\sin2\beta=-\frac{24}{25}$. 由 $\beta\in\left(0,\pi\right)$, $\sin\beta+\cos\beta=\frac{1}{5}>0$, 得 $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. 故 $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
 
 (2) 可构造求 $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$ 等问题. $\blacksquare$
 
 ## 习题十
 
-(复习参考题5 拓广探索第 25 题) 已知直线 $l_{1}\parallel l_{2}$, $A$ 是 $l_{1}$, $l_{2}$ 之间的一定点, 并且点 $A$ 到 $l_{1}$, $l_{2}$ 的距离分别为 $h_{1}$, $h_{2}$. $B$ 是直线 $l_{2}$ 上一动点, 作 $AC\perp AB$, 且使 $AC$ 与直线 $l_{1}$ 交于点 $C$. 设 $\angle ABD=\alpha$.
+(复习参考题5 拓广探索第 25 题) 已知直线 $l_{1}\parallel{l}_{2}$, $A$ 是 $l_{1}$, $l_{2}$ 之间的一定点, 并且点 $A$ 到 $l_{1}$, $l_{2}$ 的距离分别为 $h_{1}$, $h_{2}$. $B$ 是直线 $l_{2}$ 上一动点, 作 $AC\perp{A}B$, 且使 $AC$ 与直线 $l_{1}$ 交于点 $C$. 设 $\angle{A}BD=\alpha$.
 
-(1) 写出 $\triangle ABC$ 的面积 $S$ 关于角 $\alpha$ 的函数解析式 $S\left(\alpha\right)$;
+(1) 写出 $\triangle{A}BC$ 的面积 $S$ 关于角 $\alpha$ 的函数解析式 $S\left(\alpha\right)$;
 
 (2) 画出上述函数的图象;
 
 (3) 由 (2) 中的图象求 $S\left(\alpha\right)$ 的最小值.
 
-图:两条平行直线 $l_1$(上方)与 $l_2$(下方),定点 $A$ 在两线之间,到 $l_1$ 的距离为 $h_1$,到 $l_2$ 的距离为 $h_2$;动点 $B$ 在 $l_2$ 上,从 $A$ 作 $AB$ 的垂线交 $l_1$ 于点 $C$,构成直角三角形 $ABC$($\angle BAC=90^\circ$),$\angle ABD=\alpha$ 为 $AB$ 与 $l_2$ 的夹角($D$ 在 $l_2$ 上 $B$ 的一侧).
+图:两条平行直线 $l_1$(上方)与 $l_2$(下方),定点 $A$ 在两线之间,到 $l_1$ 的距离为 $h_1$,到 $l_2$ 的距离为 $h_2$;动点 $B$ 在 $l_2$ 上,从 $A$ 作 $AB$ 的垂线交 $l_1$ 于点 $C$,构成直角三角形 $ABC$($\angle{B}AC=90^\circ$),$\angle{A}BD=\alpha$ 为 $AB$ 与 $l_2$ 的夹角($D$ 在 $l_2$ 上 $B$ 的一侧).
 
 ### 解答 习题十
 
 由三角函数定义.
 
-(1) 由 $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. 故 $S\left(\alpha\right)=\frac{1}{2}AB\cdot AC=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
+(1) 由 $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. 故 $S\left(\alpha\right)=\frac{1}{2}AB\cdot{A}C=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
 
 (2) 函数 $S\left(\alpha\right)=\frac{h_{1}h_{2}}{\sin2\alpha}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$.
 
-(3) 由 $\sin2\alpha\leq1$, 得 $S\left(\alpha\right)\geq h_{1}h_{2}$, 当 $\alpha=\frac{\pi}{4}$ 时取最小值 $h_{1}h_{2}$. $\blacksquare$
+(3) 由 $\sin2\alpha\leq1$, 得 $S\left(\alpha\right)\geq{h}_{1}h_{2}$, 当 $\alpha=\frac{\pi}{4}$ 时取最小值 $h_{1}h_{2}$. $\blacksquare$
 
 ## 习题十一
 
 (复习参考题5 拓广探索第 26 题) 英国数学家泰勒给出如下公式:
 
-$\sin x=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots$,
+$\sin{x}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots$,
 
-$\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
+$\cos{x}=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 试用计算工具计算 $\cos0.3$, 并与前三项近似结果 $0.9553375$ 比较.
 
@@ -260,7 +260,7 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 (1) 太阳直射点的纬度随时间呈周期性变化, 周期为一年 (约 $365$ 天), 春分日 ($t=0$) 时 $\delta=0$, 夏至日 $\delta$ 最大 (约 $23.5^{\circ}$), 冬至日 $\delta$ 最小 (约 $-23.5^{\circ}$).
 
-(2) 可建立模型 $\delta=23.5^{\circ}\sin\left(\frac{2\pi t}{365}\right)$, 其中 $t$ 为春分后的天数. $\blacksquare$
+(2) 可建立模型 $\delta=23.5^{\circ}\sin\left(\frac{2\pi{t}}{365}\right)$, 其中 $t$ 为春分后的天数. $\blacksquare$
 
 ## 练习一
 
@@ -276,15 +276,15 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 ## 练习二
 
-(练习 6.1 第 2 题) 画两条有向线段, 分别表示一个竖直向下, 大小为 $18\text{ N}$ 的力和一个水平向左, 大小为 $28\text{ N}$ 的力. (用 $1\text{ cm}$ 长表示 $10\text{ N}$)
+(练习 6.1 第 2 题) 画两条有向线段, 分别表示一个竖直向下, 大小为 $18\text{~N}$ 的力和一个水平向左, 大小为 $28\text{~N}$ 的力. (用 $1\text{~cm}$ 长表示 $10\text{~N}$)
 
-图:按 $1\text{ cm}$ 表示 $10\text{ N}$ 的比例,画出一条竖直向下,长 $1.8\text{ cm}$ 的有向线段,表示大小为 $18\text{ N}$ 的力;旁边画出一条水平向左,长 $2.8\text{ cm}$ 的有向线段,表示大小为 $28\text{ N}$ 的力.
+图:按 $1\text{~cm}$ 表示 $10\text{~N}$ 的比例,画出一条竖直向下,长 $1.8\text{~cm}$ 的有向线段,表示大小为 $18\text{~N}$ 的力;旁边画出一条水平向左,长 $2.8\text{~cm}$ 的有向线段,表示大小为 $28\text{~N}$ 的力.
 
 ### 解答 练习二
 
 由**定义 6.1.2 (分步乘法计数原理)**, 用有向线段的方向表示力的方向, 有向线段的长度按比例表示力的大小.
 
-取 $1\text{ cm}$ 表示 $10\text{ N}$, 则 $18\text{ N}$ 的力对应的有向线段长 $1.8\text{ cm}$, $28\text{ N}$ 的力对应的有向线段长 $2.8\text{ cm}$. 画一条竖直向下, 长 $1.8\text{ cm}$ 的有向线段表示 $18\text{ N}$ 的力, 画一条水平向左, 长 $2.8\text{ cm}$ 的有向线段表示 $28\text{ N}$ 的力. $\blacksquare$
+取 $1\text{~cm}$ 表示 $10\text{~N}$, 则 $18\text{~N}$ 的力对应的有向线段长 $1.8\text{~cm}$, $28\text{~N}$ 的力对应的有向线段长 $2.8\text{~cm}$. 画一条竖直向下, 长 $1.8\text{~cm}$ 的有向线段表示 $18\text{~N}$ 的力, 画一条水平向左, 长 $2.8\text{~cm}$ 的有向线段表示 $28\text{~N}$ 的力. $\blacksquare$
 
 ## 练习三
 
@@ -294,7 +294,7 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 ### 解答 练习三
 
-由**定义 6.1.3 (向量的模)**, 向量的长度即其模. 规定小方格边长为 $0.5$, 沿方格边方向的向量, 其长度为所占格数乘以 $0.5$; 沿对角线方向的向量, 其长度为 $\sqrt 2$ 乘以对应格数再乘以 $0.5$. 按图中各向量所占方格数逐一计算, 即得各向量的长度. $\blacksquare$
+由**定义 6.1.3 (向量的模)**, 向量的长度即其模. 规定小方格边长为 $0.5$, 沿方格边方向的向量, 其长度为所占格数乘以 $0.5$; 沿对角线方向的向量, 其长度为 $\sqrt2$ 乘以对应格数再乘以 $0.5$. 按图中各向量所占方格数逐一计算, 即得各向量的长度. $\blacksquare$
 
 ## 练习四
 
@@ -324,7 +324,7 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 (1) $\lvert\boldsymbol{OA}\rvert=4$, 点 $A$ 在点 $O$ 正南方向;
 
-(2) $\lvert\boldsymbol{OB}\rvert=2\sqrt 2$, 点 $B$ 在点 $O$ 北偏西 $45^{\circ}$ 方向;
+(2) $\lvert\boldsymbol{OB}\rvert=2\sqrt2$, 点 $B$ 在点 $O$ 北偏西 $45^{\circ}$ 方向;
 
 (3) $\lvert\boldsymbol{OC}\rvert=2$, 点 $C$ 在点 $O$ 南偏西 $30^{\circ}$ 方向.
 
@@ -336,13 +336,13 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 (1) 从点 $O$ 向正南方向画长为 $4$ 的有向线段 $\boldsymbol{OA}$, 即得.
 
-(2) 北偏西 $45^{\circ}$ 方向上, 长度 $2\sqrt 2$ 的有向线段, 其水平分量 (向西) 与竖直分量 (向北) 均为 $2\sqrt 2\cdot\cos45^{\circ}=2$, 故从 $O$ 向西 $2$ 格, 向北 $2$ 格处取点 $B$, 连 $\boldsymbol{OB}$ 即得.
+(2) 北偏西 $45^{\circ}$ 方向上, 长度 $2\sqrt2$ 的有向线段, 其水平分量 (向西) 与竖直分量 (向北) 均为 $2\sqrt2\cdot\cos45^{\circ}=2$, 故从 $O$ 向西 $2$ 格, 向北 $2$ 格处取点 $B$, 连 $\boldsymbol{OB}$ 即得.
 
 (3) 南偏西 $30^{\circ}$ 方向上, 长度为 $2$ 的有向线段, 从 $O$ 出发按此方向画长 $2$ 的有向线段 $\boldsymbol{OC}$ 即得. $\blacksquare$
 
 ## 习题十四
 
-(习题 6.1 复习巩固第 2 题) 如图, 点 $O$ 是 $\square ABCD$ 的对角线的交点, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$, 分别写出 $\square ABCD$ 和折线 $MPQRST$ 中与 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 相等的向量.
+(习题 6.1 复习巩固第 2 题) 如图, 点 $O$ 是 $\square{A}BCD$ 的对角线的交点, 且 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$, 分别写出 $\square{A}BCD$ 和折线 $MPQRST$ 中与 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 相等的向量.
 
 图:左侧为平行四边形 $ABCD$,对角线 $AC$ 与 $BD$ 交于点 $O$,标出 $\boldsymbol{OA}=\boldsymbol{a}$,$\boldsymbol{OB}=\boldsymbol{b}$,$\boldsymbol{AB}=\boldsymbol{c}$;右侧为一条由点 $M,P,Q,R,S,T$ 依次连接而成的折线,每段均为带箭头的有向线段.
 
@@ -350,7 +350,7 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 由**定义 6.1.7 (相等向量)**, 长度相等且方向相同的向量相等.
 
-在 $\square ABCD$ 中, 对角线互相平分, 故 $O$ 为 $AC$ 和 $BD$ 的中点. 于是 $\boldsymbol{OC}$ 与 $\boldsymbol{OA}$ 方向相反, $\boldsymbol{OD}$ 与 $\boldsymbol{OB}$ 方向相反. 与 $\boldsymbol{a}=\boldsymbol{OA}$ 相等的向量为 $\boldsymbol{CO}$; 与 $\boldsymbol{b}=\boldsymbol{OB}$ 相等的向量为 $\boldsymbol{DO}$; 与 $\boldsymbol{c}=\boldsymbol{AB}$ 相等的向量为 $\boldsymbol{DC}$.
+在 $\square{A}BCD$ 中, 对角线互相平分, 故 $O$ 为 $AC$ 和 $BD$ 的中点. 于是 $\boldsymbol{OC}$ 与 $\boldsymbol{OA}$ 方向相反, $\boldsymbol{OD}$ 与 $\boldsymbol{OB}$ 方向相反. 与 $\boldsymbol{a}=\boldsymbol{OA}$ 相等的向量为 $\boldsymbol{CO}$; 与 $\boldsymbol{b}=\boldsymbol{OB}$ 相等的向量为 $\boldsymbol{DO}$; 与 $\boldsymbol{c}=\boldsymbol{AB}$ 相等的向量为 $\boldsymbol{DC}$.
 
 在折线 $MPQRST$ 中, 按图中各有向线段的方向和长度, 找出与 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 方向相同且长度相等的有向线段, 即为对应的相等向量. $\blacksquare$
 
@@ -418,11 +418,11 @@ $\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 (f) 竖直向下, 长度为 $1$ 的向量: $\boldsymbol{DA}$, $\boldsymbol{CB}$, $\boldsymbol{NM}$. 共 $3$ 个, 组成 $3$ 对.
 
-(g) 对角线方向, 长度为 $\sqrt 2$ 的向量: $\boldsymbol{AN}$, $\boldsymbol{MD}$, $\boldsymbol{BN}$, $\boldsymbol{MC}$, $\boldsymbol{NA}$, $\boldsymbol{DM}$, $\boldsymbol{NB}$, $\boldsymbol{CM}$. 其中方向相同且长度相等者: $\boldsymbol{AN}$ 与 $\boldsymbol{MD}$ (长度 $\sqrt 2$, 方向右下), $\boldsymbol{BN}$ 与 $\boldsymbol{MC}$ (长度 $\sqrt 2$, 方向左下), $\boldsymbol{NA}$ 与 $\boldsymbol{DM}$ (方向左上), $\boldsymbol{NB}$ 与 $\boldsymbol{CM}$ (方向右上). 共 $4$ 对.
+(g) 对角线方向, 长度为 $\sqrt2$ 的向量: $\boldsymbol{AN}$, $\boldsymbol{MD}$, $\boldsymbol{BN}$, $\boldsymbol{MC}$, $\boldsymbol{NA}$, $\boldsymbol{DM}$, $\boldsymbol{NB}$, $\boldsymbol{CM}$. 其中方向相同且长度相等者: $\boldsymbol{AN}$ 与 $\boldsymbol{MD}$ (长度 $\sqrt2$, 方向右下), $\boldsymbol{BN}$ 与 $\boldsymbol{MC}$ (长度 $\sqrt2$, 方向左下), $\boldsymbol{NA}$ 与 $\boldsymbol{DM}$ (方向左上), $\boldsymbol{NB}$ 与 $\boldsymbol{CM}$ (方向右上). 共 $4$ 对.
 
-(h) 对角线方向, 长度为 $\sqrt 5$ 的向量: $\boldsymbol{AC}$, $\boldsymbol{BD}$, $\boldsymbol{CA}$, $\boldsymbol{DB}$. 它们方向两两不同, 不组成相等向量对.
+(h) 对角线方向, 长度为 $\sqrt5$ 的向量: $\boldsymbol{AC}$, $\boldsymbol{BD}$, $\boldsymbol{CA}$, $\boldsymbol{DB}$. 它们方向两两不同, 不组成相等向量对.
 
-(i) 其余对角线 (如 $\boldsymbol{AN}$ 长度为 $\sqrt 2$ 已计入) 不重复.
+(i) 其余对角线 (如 $\boldsymbol{AN}$ 长度为 $\sqrt2$ 已计入) 不重复.
 
 合计: $1+1+6+6+3+3+4=24$ 对. $\blacksquare$
 

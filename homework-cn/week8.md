@@ -14,11 +14,11 @@
 
 > **定义 4.2.1 (指数函数)**
 > 
-> 一般地, 函数 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 叫做指数函数, 其中指数 $x$ 是自变量, 定义域是 $\mathbb R$.
+> 一般地, 函数 $y=a^x$ ($a>0$, 且 $a\neq1$) 叫做指数函数, 其中指数 $x$ 是自变量, 定义域是 $\mathbb{R}$.
 
 > **定义 4.3.1 (对数)**
 > 
-> 一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
+> 一般地, 如果 $a^x=N$ ($a>0$, 且 $a\neq1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_aN$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
 
 ## 习题一
 
@@ -28,17 +28,17 @@
 
 (2) $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}$;
 
-(3) $\frac{\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}}{\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}}$.
+(3) $\frac{\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}}{\left(\sqrt\left[6\right]{m}\right)^5m^{\frac{1}{4}}}$.
 
 ### 解答 习题一
 
 由**定义 4.1.4 (递增数列与递减数列)** 与**常用结论 4.1.6** (有理数指数幂的运算性质).
 
-(1) 由内向外逐层化: $\sqrt\left[4\right]{\frac{a^2}{b^6}}=\left(a^2 b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, 于是 $\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}=b^3 a^{-1}\cdot a^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, 再开平方得 $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
+(1) 由内向外逐层化: $\sqrt\left[4\right]{\frac{a^2}{b^6}}=\left(a^2b^{-6}\right)^{\frac{1}{4}}=a^{\frac{1}{2}}b^{-\frac{3}{2}}$, 于是 $\frac{b^3}{a}\sqrt\left[4\right]{\frac{a^2}{b^6}}=b^3a^{-1}\cdot{a}^{\frac{1}{2}}b^{-\frac{3}{2}}=a^{-\frac{1}{2}}b^{\frac{3}{2}}$, 再开平方得 $\left(a^{-\frac{1}{2}}b^{\frac{3}{2}}\right)^{\frac{1}{2}}=a^{-\frac{1}{4}}b^{\frac{3}{4}}$.
 
-(2) 由内向外逐层化: $\sqrt{a}=a^{\frac{1}{2}}$; $a^{\frac{1}{2}}\sqrt{a}=a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a}}=\sqrt{a}=a^{\frac{1}{2}}$; 再外一层 $a^{\frac{1}{2}}\cdot a^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}=\sqrt{a}=a^{\frac{1}{2}}$.
+(2) 由内向外逐层化: $\sqrt{a}=a^{\frac{1}{2}}$; $a^{\frac{1}{2}}\sqrt{a}=a^{\frac{1}{2}}\cdot{a}^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a}}=\sqrt{a}=a^{\frac{1}{2}}$; 再外一层 $a^{\frac{1}{2}}\cdot{a}^{\frac{1}{2}}=a$, 故 $\sqrt{a^{\frac{1}{2}}\sqrt{a^{\frac{1}{2}}\sqrt{a}}}=\sqrt{a}=a^{\frac{1}{2}}$.
 
-(3) 分子: $\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. 分母: $\left(\sqrt\left[6\right]{m}\right)^5 m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. 由**常用结论 4.1.6** (1), 原式 $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
+(3) 分子: $\sqrt{m}\sqrt\left[3\right]{m}\sqrt\left[4\right]{m}=m^{\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}=m^{\frac{13}{12}}$. 分母: $\left(\sqrt\left[6\right]{m}\right)^5m^{\frac{1}{4}}=m^{\frac{5}{6}+\frac{1}{4}}=m^{\frac{13}{12}}$. 由**常用结论 4.1.6** (1), 原式 $=m^{\frac{13}{12}-\frac{13}{12}}=m^0=1$. $\blacksquare$
 
 ## 习题二
 
@@ -46,7 +46,7 @@
 
 (1) $a^{\frac{1}{3}}a^{\frac{3}{4}}a^{\frac{7}{12}}$;
 
-(2) $a^{\frac{2}{3}}a^{\frac{3}{4}}\div a^{\frac{5}{6}}$;
+(2) $a^{\frac{2}{3}}a^{\frac{3}{4}}\div{a}^{\frac{5}{6}}$;
 
 (3) $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}$;
 
@@ -58,11 +58,11 @@
 
 (1) 由 (1), $a^{\frac{1}{3}}a^{\frac{3}{4}}a^{\frac{7}{12}}=a^{\frac{1}{3}+\frac{3}{4}+\frac{7}{12}}=a^{\frac{4}{12}+\frac{9}{12}+\frac{7}{12}}=a^{\frac{20}{12}}=a^{\frac{5}{3}}$.
 
-(2) 由 (1), $a^{\frac{2}{3}}a^{\frac{3}{4}}\div a^{\frac{5}{6}}=a^{\frac{2}{3}+\frac{3}{4}-\frac{5}{6}}=a^{\frac{8}{12}+\frac{9}{12}-\frac{10}{12}}=a^{\frac{7}{12}}$.
+(2) 由 (1), $a^{\frac{2}{3}}a^{\frac{3}{4}}\div{a}^{\frac{5}{6}}=a^{\frac{2}{3}+\frac{3}{4}-\frac{5}{6}}=a^{\frac{8}{12}+\frac{9}{12}-\frac{10}{12}}=a^{\frac{7}{12}}$.
 
-(3) 由 (2) (3), $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}=x^{\frac{1}{3}\times 12}y^{-\frac{3}{4}\times 12}=x^4 y^{-9}$.
+(3) 由 (2) (3), $\left(x^{\frac{1}{3}}y^{-\frac{3}{4}}\right)^{12}=x^{\frac{1}{3}\times12}y^{-\frac{3}{4}\times12}=x^4y^{-9}$.
 
-(4) 由 (1) (3), $4a^{\frac{2}{3}}b^{-\frac{1}{3}}\div\left(-\frac{2}{3}a^{-\frac{1}{3}}b^{-\frac{1}{3}}\right)=\frac{4}{-\frac{2}{3}}\cdot a^{\frac{2}{3}+\frac{1}{3}}\cdot b^{-\frac{1}{3}+\frac{1}{3}}=-6a$. $\blacksquare$
+(4) 由 (1) (3), $4a^{\frac{2}{3}}b^{-\frac{1}{3}}\div\left(-\frac{2}{3}a^{-\frac{1}{3}}b^{-\frac{1}{3}}\right)=\frac{4}{-\frac{2}{3}}\cdot{a}^{\frac{2}{3}+\frac{1}{3}}\cdot{b}^{-\frac{1}{3}+\frac{1}{3}}=-6a$. $\blacksquare$
 
 ## 习题三
 
@@ -102,9 +102,9 @@ $1\;\mathrm{h}=60\;\mathrm{min}$, 每 $10\;\mathrm{min}$ 分裂 $1$ 次, 共分�
 
 由**常用结论 4.1.6** (有理数指数幂的运算性质), 对已知等式两边平方.
 
-(1) 将 $a^{\frac{1}{2}}+a^{-\frac{1}{2}}=3$ 两边平方, 得 $a+2\cdot a^{\frac{1}{2}}\cdot a^{-\frac{1}{2}}+a^{-1}=9$, 即 $a+2+a^{-1}=9$, 故 $a+a^{-1}=7$.
+(1) 将 $a^{\frac{1}{2}}+a^{-\frac{1}{2}}=3$ 两边平方, 得 $a+2\cdot{a}^{\frac{1}{2}}\cdot{a}^{-\frac{1}{2}}+a^{-1}=9$, 即 $a+2+a^{-1}=9$, 故 $a+a^{-1}=7$.
 
-(2) 将 $a+a^{-1}=7$ 两边平方, 得 $a^2+2\cdot a\cdot a^{-1}+a^{-2}=49$, 即 $a^2+2+a^{-2}=49$, 故 $a^2+a^{-2}=47$. $\blacksquare$
+(2) 将 $a+a^{-1}=7$ 两边平方, 得 $a^2+2\cdot{a}\cdot{a}^{-1}+a^{-2}=49$, 即 $a^2+2+a^{-2}=49$, 故 $a^2+a^{-2}=47$. $\blacksquare$
 
 ## 习题六
 
@@ -126,7 +126,7 @@ $1\;\mathrm{h}=60\;\mathrm{min}$, 每 $10\;\mathrm{min}$ 分裂 $1$ 次, 共分�
 
 (习题 4.1 拓广探索第 10 题)
 
-(1) 当 $n=1,2,3,10,100,1000,10000,100000,\cdots$ 时, 用计算工具计算 $\left(1+\frac{1}{n}\right)^n$ ($n\in\mathbb N^*$) 的值;
+(1) 当 $n=1,2,3,10,100,1000,10000,100000,\cdots$ 时, 用计算工具计算 $\left(1+\frac{1}{n}\right)^n$ ($n\in\mathbb{N}^*$) 的值;
 
 (2) 当 $n$ 越来越大时, $\left(1+\frac{1}{n}\right)^n$ 的底数越来越小, 而指数越来越大, 那么 $\left(1+\frac{1}{n}\right)^n$ 是否也会越来越大? 有没有最大值?
 
@@ -134,9 +134,9 @@ $1\;\mathrm{h}=60\;\mathrm{min}$, 每 $10\;\mathrm{min}$ 分裂 $1$ 次, 共分�
 
 由**常用结论 4.1.6** (有理数指数幂的运算性质), 借助计算工具考察数列 $\left\{\left(1+\frac{1}{n}\right)^n\right\}$ 的变化趋势.
 
-(1) 用计算工具计算: $\left(1+\frac{1}{1}\right)^1=2$; $\left(1+\frac{1}{2}\right)^2=2.25$; $\left(1+\frac{1}{3}\right)^3\approx 2.370$; $\left(1+\frac{1}{10}\right)^{10}\approx 2.594$; $\left(1+\frac{1}{100}\right)^{100}\approx 2.705$; $\left(1+\frac{1}{1000}\right)^{1000}\approx 2.717$; $\left(1+\frac{1}{10000}\right)^{10000}\approx 2.718$; $\left(1+\frac{1}{100000}\right)^{100000}\approx 2.718$.
+(1) 用计算工具计算: $\left(1+\frac{1}{1}\right)^1=2$; $\left(1+\frac{1}{2}\right)^2=2.25$; $\left(1+\frac{1}{3}\right)^3\approx2.370$; $\left(1+\frac{1}{10}\right)^{10}\approx2.594$; $\left(1+\frac{1}{100}\right)^{100}\approx2.705$; $\left(1+\frac{1}{1000}\right)^{1000}\approx2.717$; $\left(1+\frac{1}{10000}\right)^{10000}\approx2.718$; $\left(1+\frac{1}{100000}\right)^{100000}\approx2.718$.
 
-(2) 由上述计算结果可见, 当 $n$ 越来越大时, $\left(1+\frac{1}{n}\right)^n$ 逐渐增大并趋向于一个确定的常数, 这个常数约为 $2.718$, 即自然对数的底 $\mathrm e$. 因此它是越来越大的, 但始终不超过 $\mathrm e$, 没有最大值, 只是无限接近 $\mathrm e$. $\blacksquare$
+(2) 由上述计算结果可见, 当 $n$ 越来越大时, $\left(1+\frac{1}{n}\right)^n$ 逐渐增大并趋向于一个确定的常数, 这个常数约为 $2.718$, 即自然对数的底 $\mathrm{e}$. 因此它是越来越大的, 但始终不超过 $\mathrm{e}$, 没有最大值, 只是无限接近 $\mathrm{e}$. $\blacksquare$
 
 ## 练习一
 
@@ -146,25 +146,25 @@ $1\;\mathrm{h}=60\;\mathrm{min}$, 每 $10\;\mathrm{min}$ 分裂 $1$ 次, 共分�
 
 ### 解答 练习一
 
-由**定义 4.2.1 (指数函数)** 与**常用结论 4.2.2** (指数函数的图象和性质), 指数函数 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 的定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$, 图象恒在 $x$ 轴上方, 过定点 $\left(0,1\right)$, 且单调.
+由**定义 4.2.1 (指数函数)** 与**常用结论 4.2.2** (指数函数的图象和性质), 指数函数 $y=a^x$ ($a>0$, 且 $a\neq1$) 的定义域为 $\mathbb{R}$, 值域为 $\left(0,+\infty\right)$, 图象恒在 $x$ 轴上方, 过定点 $\left(0,1\right)$, 且单调.
 
-(A) 是直线, 为一次函数; (B) 是抛物线, 为二次函数; (D) 过原点且分布在第一, 第三象限, 值域含负数, 不符合值域 $\left(0,+\infty\right)$. 只有 (C) 的图象位于 $x$ 轴上方, 过 $\left(0,1\right)$, 单调递增, 与 $y=a^x$ ($a> 1$) 的特征一致. 故选 (C). $\blacksquare$
+(A) 是直线, 为一次函数; (B) 是抛物线, 为二次函数; (D) 过原点且分布在第一, 第三象限, 值域含负数, 不符合值域 $\left(0,+\infty\right)$. 只有 (C) 的图象位于 $x$ 轴上方, 过 $\left(0,1\right)$, 单调递增, 与 $y=a^x$ ($a>1$) 的特征一致. 故选 (C). $\blacksquare$
 
 ## 练习二
 
-(练习 4.2 第 2 题) 已知函数 $y=f\left(x\right)$, $x\in\mathbb R$, 且 $f\left(0\right)=3$, $\frac{f\left(0.5\right)}{f\left(0\right)}=2$, $\frac{f\left(1\right)}{f\left(0.5\right)}=2$, $\cdots$, $\frac{f\left(0.5n\right)}{f\left(0.5\left(n-1\right)\right)}=2$, $n\in\mathbb N^*$, 求函数 $y=f\left(x\right)$ 的一个解析式.
+(练习 4.2 第 2 题) 已知函数 $y=f\left(x\right)$, $x\in\mathbb{R}$, 且 $f\left(0\right)=3$, $\frac{f\left(0.5\right)}{f\left(0\right)}=2$, $\frac{f\left(1\right)}{f\left(0.5\right)}=2$, $\cdots$, $\frac{f\left(0.5n\right)}{f\left(0.5\left(n-1\right)\right)}=2$, $n\in\mathbb{N}^*$, 求函数 $y=f\left(x\right)$ 的一个解析式.
 
 ### 解答 练习二
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 函数值每经过固定间隔翻一倍, 为指数增长模式.
 
-由已知, $f\left(0\right)=3$, 且自变量每增加 $0.5$, 函数值乘以 $2$. 故对 $n\in\mathbb N^*$,
+由已知, $f\left(0\right)=3$, 且自变量每增加 $0.5$, 函数值乘以 $2$. 故对 $n\in\mathbb{N}^*$,
 
 $$
-f\left(0.5n\right)=f\left(0\right)\cdot 2^n=3\cdot 2^n.
+f\left(0.5n\right)=f\left(0\right)\cdot2^n=3\cdot2^n.
 $$
 
-令 $x=0.5n$, 则 $n=2x$, 代入得 $f\left(x\right)=3\cdot 2^{2x}=3\cdot 4^x$. 故 $f\left(x\right)=3\cdot 4^x$ ($x\in\mathbb R$) 为所求的一个解析式. $\blacksquare$
+令 $x=0.5n$, 则 $n=2x$, 代入得 $f\left(x\right)=3\cdot2^{2x}=3\cdot4^x$. 故 $f\left(x\right)=3\cdot4^x$ ($x\in\mathbb{R}$) 为所求的一个解析式. $\blacksquare$
 
 ## 练习三
 
@@ -174,7 +174,7 @@ $$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 每天的增长率为 $6.25\%$, 即每天的数量为前一天的 $1+6.25\%=1.0625$ 倍.
 
-设原有数量为 $N$, 经过 $30$ 天后数量为 $y$, 则 $y=N\cdot 1.0625^{30}$. 用计算工具算得 $1.0625^{30}\approx 6.13$, 故经过 $30$ 天, 蓝细菌约变为原来的 $6.13$ 倍. $\blacksquare$
+设原有数量为 $N$, 经过 $30$ 天后数量为 $y$, 则 $y=N\cdot1.0625^{30}$. 用计算工具算得 $1.0625^{30}\approx6.13$, 故经过 $30$ 天, 蓝细菌约变为原来的 $6.13$ 倍. $\blacksquare$
 
 ## 阅读与思考一
 
@@ -184,7 +184,7 @@ $$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 半衰期为 $h$ 意味着每经过时间 $h$, 剩余质量减半.
 
-经过 $1$ 个半衰期即 $t=h$ 时, 剩余质量为 $\frac{1}{2}Q_0$; 经过 $2$ 个半衰期即 $t=2h$ 时, 剩余质量为 $\frac{1}{2}\cdot\frac{1}{2}Q_0=\left(\frac{1}{2}\right)^2 Q_0$; 经过 $n$ 个半衰期即 $t=nh$ 时, 剩余质量为 $\left(\frac{1}{2}\right)^n Q_0$. 推广到任意时间 $t$, 经过的半衰期个数为 $\frac{t}{h}$, 故 $Q\left(t\right)=Q_0\left(\frac{1}{2}\right)^{\frac{t}{h}}$. $\blacksquare$
+经过 $1$ 个半衰期即 $t=h$ 时, 剩余质量为 $\frac{1}{2}Q_0$; 经过 $2$ 个半衰期即 $t=2h$ 时, 剩余质量为 $\frac{1}{2}\cdot\frac{1}{2}Q_0=\left(\frac{1}{2}\right)^2Q_0$; 经过 $n$ 个半衰期即 $t=nh$ 时, 剩余质量为 $\left(\frac{1}{2}\right)^nQ_0$. 推广到任意时间 $t$, 经过的半衰期个数为 $\frac{t}{h}$, 故 $Q\left(t\right)=Q_0\left(\frac{1}{2}\right)^{\frac{t}{h}}$. $\blacksquare$
 
 ## 阅读与思考二
 
@@ -194,13 +194,13 @@ $$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 倍增期即函数值翻一倍所需的时间.
 
-实例: 某种细菌在理想条件下每 $20\;\mathrm{min}$ 分裂一次 ($1$ 个分裂成 $2$ 个), 则其数量的倍增期为 $20\;\mathrm{min}$. 设初始数量为 $N_0$, 经过 $t$ 分钟后数量为 $N\left(t\right)$, 则 $N\left(t\right)=N_0\cdot 2^{\frac{t}{20}}$. 当 $t=20$ 时, $N\left(20\right)=2N_0$; 当 $t=40$ 时, $N\left(40\right)=4N_0$, 即每过 $20\;\mathrm{min}$ 数量翻倍. $\blacksquare$
+实例: 某种细菌在理想条件下每 $20\;\mathrm{min}$ 分裂一次 ($1$ 个分裂成 $2$ 个), 则其数量的倍增期为 $20\;\mathrm{min}$. 设初始数量为 $N_0$, 经过 $t$ 分钟后数量为 $N\left(t\right)$, 则 $N\left(t\right)=N_0\cdot2^{\frac{t}{20}}$. 当 $t=20$ 时, $N\left(20\right)=2N_0$; 当 $t=40$ 时, $N\left(40\right)=4N_0$, 即每过 $20\;\mathrm{min}$ 数量翻倍. $\blacksquare$
 
 ## 练习四
 
 (练习 4.2 第 4 题) 在同一直角坐标系中画出函数 $y=3^x$ 和 $y=\left(\frac{1}{3}\right)^x$ 的图象, 并说明它们的关系.
 
-图:同一直角坐标系中,两条指数曲线均过点 $\left(0,1\right)$ 且位于 $x$ 轴上方;$y=3^x$ 为单调递增曲线($x> 0$ 时上升,$x< 0$ 时趋近于 $x$ 轴),$y=\left(\frac{1}{3}\right)^x$ 为单调递减曲线($x< 0$ 时上升,$x> 0$ 时趋近于 $x$ 轴),二者关于 $y$ 轴对称.
+图:同一直角坐标系中,两条指数曲线均过点 $\left(0,1\right)$ 且位于 $x$ 轴上方;$y=3^x$ 为单调递增曲线($x>0$ 时上升,$x<0$ 时趋近于 $x$ 轴),$y=\left(\frac{1}{3}\right)^x$ 为单调递减曲线($x<0$ 时上升,$x>0$ 时趋近于 $x$ 轴),二者关于 $y$ 轴对称.
 
 ### 解答 练习四
 
@@ -222,23 +222,23 @@ $$
 
 由**常用结论 4.2.2** (指数函数的图象和性质), 利用指数函数的单调性比较大小.
 
-(1) $\sqrt{2}> 0$, 对幂 $x^{\sqrt{2}}$ 而言, 当底数增大时幂值增大, 故 $6^{\sqrt{2}}< 7^{\sqrt{2}}$.
+(1) $\sqrt{2}>0$, 对幂 $x^{\sqrt{2}}$ 而言, 当底数增大时幂值增大, 故 $6^{\sqrt{2}}<7^{\sqrt{2}}$.
 
-(2) 底数 $0.3\in\left(0,1\right)$, 函数 $y=0.3^x$ 为减函数. 因 $-3.5< -2.3$, 减函数中自变量越小函数值越大, 故 $0.3^{-3.5}> 0.3^{-2.3}$.
+(2) 底数 $0.3\in\left(0,1\right)$, 函数 $y=0.3^x$ 为减函数. 因 $-3.5<-2.3$, 减函数中自变量越小函数值越大, 故 $0.3^{-3.5}>0.3^{-2.3}$.
 
-(3) $1.2^{0.5}> 1.2^0=1$, 而 $0.5^{1.2}< 0.5^0=1$, 故 $1.2^{0.5}> 0.5^{1.2}$. $\blacksquare$
+(3) $1.2^{0.5}>1.2^0=1$, 而 $0.5^{1.2}<0.5^0=1$, 故 $1.2^{0.5}>0.5^{1.2}$. $\blacksquare$
 
 ## 练习六
 
 (练习 4.2 第 6 题) 体内癌细胞初期增加得很缓慢, 但到了晚期就急剧增加, 画一幅能反映体内癌细胞数量随时间变化的示意图.
 
-示意图:横轴为时间,纵轴为体内癌细胞数量;曲线从原点附近出发,初期斜率很小,上升平缓,随时间推移斜率逐渐增大,后期急剧上升,呈下凸(凹向上)的指数增长形态,与 $y=a^x$ ($a> 1$) 在 $x\ge0$ 时的图象一致.
+示意图:横轴为时间,纵轴为体内癌细胞数量;曲线从原点附近出发,初期斜率很小,上升平缓,随时间推移斜率逐渐增大,后期急剧上升,呈下凸(凹向上)的指数增长形态,与 $y=a^x$ ($a>1$) 在 $x\ge0$ 时的图象一致.
 
 ### 解答 练习六
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 癌细胞数量随时间呈指数增长.
 
-示意图: 横轴为时间, 纵轴为癌细胞数量. 曲线从原点附近出发, 初期斜率很小, 上升平缓; 随时间推移斜率逐渐增大, 后期急剧上升, 呈下凸的指数增长形态, 与 $y=a^x$ ($a> 1$) 在 $x\ge 0$ 时的图象一致. $\blacksquare$
+示意图: 横轴为时间, 纵轴为癌细胞数量. 曲线从原点附近出发, 初期斜率很小, 上升平缓; 随时间推移斜率逐渐增大, 后期急剧上升, 呈下凸的指数增长形态, 与 $y=a^x$ ($a>1$) 在 $x\ge0$ 时的图象一致. $\blacksquare$
 
 ## 习题八
 
@@ -256,13 +256,13 @@ $$
 
 由**定义 4.2.1 (指数函数)**, 指数位置的式子必须有意义.
 
-(1) $3-x$ 对任意 $x\in\mathbb R$ 都有意义, 故定义域为 $\mathbb R$.
+(1) $3-x$ 对任意 $x\in\mathbb{R}$ 都有意义, 故定义域为 $\mathbb{R}$.
 
-(2) $2x+1$ 对任意 $x\in\mathbb R$ 都有意义, 故定义域为 $\mathbb R$.
+(2) $2x+1$ 对任意 $x\in\mathbb{R}$ 都有意义, 故定义域为 $\mathbb{R}$.
 
-(3) $5x$ 对任意 $x\in\mathbb R$ 都有意义, 故定义域为 $\mathbb R$.
+(3) $5x$ 对任意 $x\in\mathbb{R}$ 都有意义, 故定义域为 $\mathbb{R}$.
 
-(4) $\frac{1}{x}$ 要求 $x\neq 0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
+(4) $\frac{1}{x}$ 要求 $x\neq0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
 
 ## 习题九
 
@@ -278,25 +278,25 @@ $$
 
 (习题 4.2 复习巩固第 3 题) 比较满足下列条件的 $m$, $n$ 的大小.
 
-(1) $2^m< 2^n$;
+(1) $2^m<2^n$;
 
-(2) $0.2^m< 0.2^n$;
+(2) $0.2^m<0.2^n$;
 
-(3) $a^m< a^n$ ($0< a< 1$);
+(3) $a^m<{}a^n$ ($0<{}a<1$);
 
-(4) $a^m> a^n$ ($a> 1$).
+(4) $a^m>{}a^n$ ($a>1$).
 
 ### 解答 习题十
 
-由**常用结论 4.2.2** (指数函数的图象和性质), $a> 1$ 时 $y=a^x$ 递增, $0< a< 1$ 时 $y=a^x$ 递减.
+由**常用结论 4.2.2** (指数函数的图象和性质), $a>1$ 时 $y=a^x$ 递增, $0<{}a<1$ 时 $y=a^x$ 递减.
 
-(1) 底数 $2> 1$, $y=2^x$ 递增, 由 $2^m< 2^n$ 得 $m< n$.
+(1) 底数 $2>1$, $y=2^x$ 递增, 由 $2^m<2^n$ 得 $m<{}n$.
 
-(2) 底数 $0.2\in\left(0,1\right)$, $y=0.2^x$ 递减, 由 $0.2^m< 0.2^n$ 得 $m> n$.
+(2) 底数 $0.2\in\left(0,1\right)$, $y=0.2^x$ 递减, 由 $0.2^m<0.2^n$ 得 $m>{}n$.
 
-(3) $0< a< 1$, $y=a^x$ 递减, 由 $a^m< a^n$ 得 $m> n$.
+(3) $0<{}a<1$, $y=a^x$ 递减, 由 $a^m<{}a^n$ 得 $m>{}n$.
 
-(4) $a> 1$, $y=a^x$ 递增, 由 $a^m> a^n$ 得 $m> n$. $\blacksquare$
+(4) $a>1$, $y=a^x$ 递增, 由 $a^m>{}a^n$ 得 $m>{}n$. $\blacksquare$
 
 ## 习题十一
 
@@ -310,9 +310,9 @@ $$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), $f\left(x\right)=Q_0\left(1+r\right)^x$.
 
-(1) 由 $f\left(11\right)=Q_0\left(1+r\right)^{11}$, $f\left(10\right)=Q_0\left(1+r\right)^{10}$, 两式相除得 $\frac{f\left(11\right)}{f\left(10\right)}=1+r=\frac{23.26}{20.23}\approx 1.15$, 故 $r\approx 0.15$, 即增长率约为 $15\%$.
+(1) 由 $f\left(11\right)=Q_0\left(1+r\right)^{11}$, $f\left(10\right)=Q_0\left(1+r\right)^{10}$, 两式相除得 $\frac{f\left(11\right)}{f\left(10\right)}=1+r=\frac{23.26}{20.23}\approx1.15$, 故 $r\approx0.15$, 即增长率约为 $15\%$.
 
-(2) $f\left(12\right)=f\left(11\right)\left(1+r\right)\approx 23.26\times 1.15\approx 26.75$. $\blacksquare$
+(2) $f\left(12\right)=f\left(11\right)\left(1+r\right)\approx23.26\times1.15\approx26.75$. $\blacksquare$
 
 ## 习题十二
 
@@ -326,9 +326,9 @@ $$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 设函数为指数型 $y=ka^x$.
 
-(1) 由数据: $\frac{f\left(1\right)}{f\left(0\right)}=\frac{4.20}{3.50}=1.2$, $\frac{f\left(2\right)}{f\left(1\right)}=\frac{5.04}{4.20}=1.2$, 公比为 $1.2$, 首项 $f\left(0\right)=3.50$. 故 $f\left(x\right)=3.50\times 1.2^x$.
+(1) 由数据: $\frac{f\left(1\right)}{f\left(0\right)}=\frac{4.20}{3.50}=1.2$, $\frac{f\left(2\right)}{f\left(1\right)}=\frac{5.04}{4.20}=1.2$, 公比为 $1.2$, 首项 $f\left(0\right)=3.50$. 故 $f\left(x\right)=3.50\times1.2^x$.
 
-(2) 设 $g\left(x\right)=ka^x$ ($0< a< 1$). 由 $g\left(1\right)=ka=2$, $g\left(-1\right)=ka^{-1}=8$, 两式相除得 $a^2=\frac{2}{8}=\frac{1}{4}$, 故 $a=\frac{1}{2}$, 代入 $ka=2$ 得 $k=4$. 故 $g\left(x\right)=4\cdot\left(\frac{1}{2}\right)^x=2^{2-x}$. $\blacksquare$
+(2) 设 $g\left(x\right)=ka^x$ ($0<{}a<1$). 由 $g\left(1\right)=ka=2$, $g\left(-1\right)=ka^{-1}=8$, 两式相除得 $a^2=\frac{2}{8}=\frac{1}{4}$, 故 $a=\frac{1}{2}$, 代入 $ka=2$ 得 $k=4$. 故 $g\left(x\right)=4\cdot\left(\frac{1}{2}\right)^x=2^{2-x}$. $\blacksquare$
 
 ## 习题十三
 
@@ -346,13 +346,13 @@ $$
 
 由**常用结论 4.2.2** (指数函数的图象和性质), 利用单调性比较.
 
-(1) 底数 $3> 1$, $y=3^x$ 递增, $0.8> 0.7$, 故 $3^{0.8}> 3^{0.7}$.
+(1) 底数 $3>1$, $y=3^x$ 递增, $0.8>0.7$, 故 $3^{0.8}>3^{0.7}$.
 
-(2) 底数 $0.75\in\left(0,1\right)$, $y=0.75^x$ 递减, $-0.1< 0.1$, 故 $0.75^{-0.1}> 0.75^{0.1}$.
+(2) 底数 $0.75\in\left(0,1\right)$, $y=0.75^x$ 递减, $-0.1<0.1$, 故 $0.75^{-0.1}>0.75^{0.1}$.
 
-(3) 底数 $1.01> 1$, $y=1.01^x$ 递增, $2.7< 3.5$, 故 $1.01^{2.7}< 1.01^{3.5}$.
+(3) 底数 $1.01>1$, $y=1.01^x$ 递增, $2.7<3.5$, 故 $1.01^{2.7}<1.01^{3.5}$.
 
-(4) 底数 $0.99\in\left(0,1\right)$, $y=0.99^x$ 递减, $3.3< 4.5$, 故 $0.99^{3.3}> 0.99^{4.5}$. $\blacksquare$
+(4) 底数 $0.99\in\left(0,1\right)$, $y=0.99^x$ 递减, $3.3<4.5$, 故 $0.99^{3.3}>0.99^{4.5}$. $\blacksquare$
 
 ## 习题十四
 
@@ -362,7 +362,7 @@ $$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 每经过一个半衰期, 剩余质量减半.
 
-经过九个半衰期后, 剩余碳 $14$ 为原来的 $\left(\frac{1}{2}\right)^9=\frac{1}{512}\approx 0.001953=0.1953\%$. 千分之一为 $0.1\%$. 因 $0.1953\%> 0.1\%$, 即剩余含量超过千分之一, 故用一般的放射性探测器能测到碳 $14$. $\blacksquare$
+经过九个半衰期后, 剩余碳 $14$ 为原来的 $\left(\frac{1}{2}\right)^9=\frac{1}{512}\approx0.001953=0.1953\%$. 千分之一为 $0.1\%$. 因 $0.1953\%>0.1\%$, 即剩余含量超过千分之一, 故用一般的放射性探测器能测到碳 $14$. $\blacksquare$
 
 ## 习题十五
 
@@ -376,9 +376,9 @@ $$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型), 复利即每期利息并入本金下期再生利息.
 
-(1) 存 $1$ 期后本利和为 $a\left(1+r\right)$, 存 $2$ 期后为 $a\left(1+r\right)^2$, 依此类推, 存 $x$ 期后为 $y=a\left(1+r\right)^x$, 其中 $x\in\mathbb N$.
+(1) 存 $1$ 期后本利和为 $a\left(1+r\right)$, 存 $2$ 期后为 $a\left(1+r\right)^2$, 依此类推, 存 $x$ 期后为 $y=a\left(1+r\right)^x$, 其中 $x\in\mathbb{N}$.
 
-(2) 代入 $a=1000$, $r=2.25\%=0.0225$, $x=5$, 得 $y=1000\times 1.0225^5\approx 1000\times 1.1177\approx 1117.7$ 元. $\blacksquare$
+(2) 代入 $a=1000$, $r=2.25\%=0.0225$, $x=5$, 得 $y=1000\times1.0225^5\approx1000\times1.1177\approx1117.7$ 元. $\blacksquare$
 
 ## 习题十六
 
@@ -394,25 +394,25 @@ $$
 
 由**定义 4.2.1 (指数函数)** 与**常用结论 4.2.2** (指数函数的图象和性质).
 
-(1) 图象过原点, 即 $x=0$ 时 $y=0$, 故 $a\left(\frac{1}{2}\right)^0+b=a+b=0$, 得 $b=-a$. 当 $\left|x\right|\to+\infty$ 时, $\left(\frac{1}{2}\right)^{\left|x\right|}\to 0$, 故 $y\to b$. 又图象无限接近 $y=2$ 但不相交, 故 $b=2$, 从而 $a=-2$. 解析式为 $y=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$. 图象: 过原点, 关于 $y$ 轴对称, 在 $x=0$ 处取最小值 $0$, 向两侧逐渐上升并无限接近直线 $y=2$.
+(1) 图象过原点, 即 $x=0$ 时 $y=0$, 故 $a\left(\frac{1}{2}\right)^0+b=a+b=0$, 得 $b=-a$. 当 $\left|x\right|\to+\infty$ 时, $\left(\frac{1}{2}\right)^{\left|x\right|}\to0$, 故 $y\to{b}$. 又图象无限接近 $y=2$ 但不相交, 故 $b=2$, 从而 $a=-2$. 解析式为 $y=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$. 图象: 过原点, 关于 $y$ 轴对称, 在 $x=0$ 处取最小值 $0$, 向两侧逐渐上升并无限接近直线 $y=2$.
 
-(2) 设 $f\left(x\right)=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$. 由 $\left|-x\right|=\left|x\right|$, 得 $f\left(-x\right)=2-2\left(\frac{1}{2}\right)^{\left|-x\right|}=2-2\left(\frac{1}{2}\right)^{\left|x\right|}=f\left(x\right)$, 故 $f\left(x\right)$ 为偶函数. 当 $x\ge 0$ 时, $\left(\frac{1}{2}\right)^x$ 递减, $-2\left(\frac{1}{2}\right)^x$ 递增, 故 $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上递增; 由偶函数对称性, $f\left(x\right)$ 在 $\left(-\infty,0\right]$ 上递减. $\blacksquare$
+(2) 设 $f\left(x\right)=2-2\left(\frac{1}{2}\right)^{\left|x\right|}$. 由 $\left|-x\right|=\left|x\right|$, 得 $f\left(-x\right)=2-2\left(\frac{1}{2}\right)^{\left|-x\right|}=2-2\left(\frac{1}{2}\right)^{\left|x\right|}=f\left(x\right)$, 故 $f\left(x\right)$ 为偶函数. 当 $x\ge0$ 时, $\left(\frac{1}{2}\right)^x$ 递减, $-2\left(\frac{1}{2}\right)^x$ 递增, 故 $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上递增; 由偶函数对称性, $f\left(x\right)$ 在 $\left(-\infty,0\right]$ 上递减. $\blacksquare$
 
 ## 习题十七
 
-(习题 4.2 拓广探索第 10 题) 已知 $f\left(x\right)=a^x$, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ ($a> 0$, 且 $a\neq 1$).
+(习题 4.2 拓广探索第 10 题) 已知 $f\left(x\right)=a^x$, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ ($a>0$, 且 $a\neq1$).
 
 (1) 讨论函数 $f\left(x\right)$ 和 $g\left(x\right)$ 的单调性;
 
-(2) 如果 $f\left(x\right)< g\left(x\right)$, 那么 $x$ 的取值范围是多少?
+(2) 如果 $f\left(x\right)<{}g\left(x\right)$, 那么 $x$ 的取值范围是多少?
 
 ### 解答 习题十七
 
 由**常用结论 4.2.2** (指数函数的图象和性质).
 
-(1) 当 $a> 1$ 时, $f\left(x\right)=a^x$ 是增函数, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ 的底数 $\frac{1}{a}\in\left(0,1\right)$, 故 $g\left(x\right)$ 是减函数; 当 $0< a< 1$ 时, $f\left(x\right)=a^x$ 是减函数, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ 的底数 $\frac{1}{a}> 1$, 故 $g\left(x\right)$ 是增函数.
+(1) 当 $a>1$ 时, $f\left(x\right)=a^x$ 是增函数, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ 的底数 $\frac{1}{a}\in\left(0,1\right)$, 故 $g\left(x\right)$ 是减函数; 当 $0<{}a<1$ 时, $f\left(x\right)=a^x$ 是减函数, $g\left(x\right)=\left(\frac{1}{a}\right)^x$ 的底数 $\frac{1}{a}>1$, 故 $g\left(x\right)$ 是增函数.
 
-(2) $f\left(x\right)< g\left(x\right)$ 即 $a^x< \left(\frac{1}{a}\right)^x=a^{-x}$, 亦即 $a^{2x}< 1=a^0$. 当 $a> 1$ 时, $y=a^x$ 递增, 由 $a^{2x}< a^0$ 得 $2x< 0$, 即 $x< 0$; 当 $0< a< 1$ 时, $y=a^x$ 递减, 由 $a^{2x}< a^0$ 得 $2x> 0$, 即 $x> 0$. $\blacksquare$
+(2) $f\left(x\right)<{}g\left(x\right)$ 即 $a^x<\left(\frac{1}{a}\right)^x=a^{-x}$, 亦即 $a^{2x}<1=a^0$. 当 $a>1$ 时, $y=a^x$ 递增, 由 $a^{2x}<{}a^0$ 得 $2x<0$, 即 $x<0$; 当 $0<{}a<1$ 时, $y=a^x$ 递减, 由 $a^{2x}<{}a^0$ 得 $2x>0$, 即 $x>0$. $\blacksquare$
 
 ## 信息技术应用一
 
@@ -422,7 +422,7 @@ $$
 
 由**常用结论 4.2.2** (指数函数的图象和性质), 在同一坐标系中比较不同底数的指数函数.
 
-当 $x> 0$ 时, 底数越大的指数函数 $y=a^x$ 的函数值越大, 即图象在上方; 当 $x< 0$ 时, 底数越大的指数函数的函数值反而越小, 即图象在下方; 所有图象都过 $\left(0,1\right)$. 规律: 在 $y$ 轴右侧, 图象从下到上底数递增; 在 $y$ 轴左侧, 图象从下到上底数递减. $\blacksquare$
+当 $x>0$ 时, 底数越大的指数函数 $y=a^x$ 的函数值越大, 即图象在上方; 当 $x<0$ 时, 底数越大的指数函数的函数值反而越小, 即图象在下方; 所有图象都过 $\left(0,1\right)$. 规律: 在 $y$ 轴右侧, 图象从下到上底数递增; 在 $y$ 轴左侧, 图象从下到上底数递减. $\blacksquare$
 
 ## 信息技术应用二
 
@@ -432,7 +432,7 @@ $$
 
 由幂函数的图象和性质, 改变指数 $\alpha$ 可观察幂函数在第一象限的变化.
 
-当 $\alpha> 0$ 时, 图象过原点 $\left(0,0\right)$ 和 $\left(1,1\right)$, 在第一象限内递增; $\alpha$ 越大, 当 $x> 1$ 时图象越陡. 当 $\alpha< 0$ 时, 图象不过原点, 在第一象限内递减, 以坐标轴为渐近线. 所有幂函数图象都过点 $\left(1,1\right)$. $\blacksquare$
+当 $\alpha>0$ 时, 图象过原点 $\left(0,0\right)$ 和 $\left(1,1\right)$, 在第一象限内递增; $\alpha$ 越大, 当 $x>1$ 时图象越陡. 当 $\alpha<0$ 时, 图象不过原点, 在第一象限内递减, 以坐标轴为渐近线. 所有幂函数图象都过点 $\left(1,1\right)$. $\blacksquare$
 
 ## 练习七
 
@@ -440,29 +440,29 @@ $$
 
 (1) $2^3=8$;
 
-(2) $\mathrm e^{\sqrt{3}}=m$;
+(2) $\mathrm{e}^{\sqrt{3}}=m$;
 
 (3) $27^{-\frac{1}{3}}=\frac{1}{3}$;
 
-(4) $\log_3 9=2$;
+(4) $\log_39=2$;
 
-(5) $\lg n=2.3$;
+(5) $\lg{n}=2.3$;
 
 (6) $\log_3\frac{1}{81}=-4$.
 
 ### 解答 练习七
 
-由**定义 4.3.1 (对数)** 与**常用结论 4.3.3** (对数与指数的关系), $a^x=N\Leftrightarrow x=\log_a N$.
+由**定义 4.3.1 (对数)** 与**常用结论 4.3.3** (对数与指数的关系), $a^x=N\Leftrightarrow{x}=\log_aN$.
 
-(1) $2^3=8$ 化为对数式: $\log_2 8=3$.
+(1) $2^3=8$ 化为对数式: $\log_28=3$.
 
-(2) $\mathrm e^{\sqrt{3}}=m$ 化为自然对数式: $\ln m=\sqrt{3}$.
+(2) $\mathrm{e}^{\sqrt{3}}=m$ 化为自然对数式: $\ln{m}=\sqrt{3}$.
 
 (3) $27^{-\frac{1}{3}}=\frac{1}{3}$ 化为对数式: $\log_{27}\frac{1}{3}=-\frac{1}{3}$.
 
-(4) $\log_3 9=2$ 化为指数式: $3^2=9$.
+(4) $\log_39=2$ 化为指数式: $3^2=9$.
 
-(5) $\lg n=2.3$ 化为指数式: $10^{2.3}=n$.
+(5) $\lg{n}=2.3$ 化为指数式: $10^{2.3}=n$.
 
 (6) $\log_3\frac{1}{81}=-4$ 化为指数式: $3^{-4}=\frac{1}{81}$. $\blacksquare$
 
@@ -470,22 +470,22 @@ $$
 
 (练习 4.3 第 2 题) 求下列各式的值.
 
-(1) $\log_5 25$;
+(1) $\log_525$;
 
-(2) $\log_{0.4} 1$;
+(2) $\log_{0.4}1$;
 
-(3) $\ln\frac{1}{\mathrm e}$;
+(3) $\ln\frac{1}{\mathrm{e}}$;
 
-(4) $\lg 0.001$.
+(4) $\lg0.001$.
 
 ### 解答 练习八
 
 由**常用结论 4.3.3** (对数与指数的关系) 及**常用结论 4.3.4** (对数运算性质).
 
-(1) $\log_5 25=\log_5 5^2=2$.
+(1) $\log_525=\log_55^2=2$.
 
-(2) 由**常用结论 4.3.3**, $\log_{0.4} 1=0$.
+(2) 由**常用结论 4.3.3**, $\log_{0.4}1=0$.
 
-(3) $\ln\frac{1}{\mathrm e}=\ln\mathrm e^{-1}=-1$.
+(3) $\ln\frac{1}{\mathrm{e}}=\ln\mathrm{e}^{-1}=-1$.
 
-(4) $\lg 0.001=\lg 10^{-3}=-3$. $\blacksquare$
+(4) $\lg0.001=\lg10^{-3}=-3$. $\blacksquare$

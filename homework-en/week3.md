@@ -2,7 +2,7 @@
 
 > **Definition 1.2.1 (Subset)**
 > 
-> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq{B}$ (或 $B\supseteq{A}$).
 
 > **Definition 1.2.4 (Empty Set)**
 > 
@@ -10,19 +10,19 @@
 
 > **Definition 1.3.1 (Union)**
 > 
-> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
+> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup{B}$, 即 $A\cup{B}=\left\{x\mid{x}\in{A}\text{~或~}x\in{B}\right\}$.
 
 > **Definition 1.3.2 (Intersection)**
 > 
-> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
+> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap{B}$, 即 $A\cap{B}=\left\{x\mid{x}\in{A}\text{~且~}x\in{B}\right\}$.
 
 > **Definition 1.4.2 (Sufficient and Necessary Conditions)**
 > 
-> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
+> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow{q}$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
 
 > **Definition 1.4.4 (Necessary and Sufficient Condition)**
 > 
-> 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
+> 如果既有 $p\Rightarrow{q}$, 又有 $q\Rightarrow{p}$, 就记作 $p\Leftrightarrow{q}$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
 
 > **Definition 1.5.1 (Universal Quantifier)**
 > 
@@ -42,7 +42,7 @@ By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Def
 
 (1) The determination theorems for similar triangles themselves give sufficient conditions for $q$. Besides proportional three sides, two proportional sides with equal included angle, and two pairs of equal angles, one can also cite: two triangles similar to the same triangle are mutually similar (i.e. the transitivity of "similar"), which is also a sufficient condition for two triangles to be similar.
 
-(2) Determination theorems cannot be used to determine that two triangles are not similar. Determination theorems give sufficient conditions in the form $p\Rightarrow q$, i.e. when the condition is satisfied, they are certainly similar. But two triangles not satisfying a particular determination theorem does not mean they are not similar, because the sufficient conditions for $q$ to hold are not unique, and it is entirely possible that they are similar through another path. To determine that two triangles are not similar, one needs to use the property theorems of similar triangles (i.e. necessary conditions): as long as one points out that a necessary property does not hold, one can conclude that they are not similar. $\blacksquare$
+(2) Determination theorems cannot be used to determine that two triangles are not similar. Determination theorems give sufficient conditions in the form $p\Rightarrow{q}$, i.e. when the condition is satisfied, they are certainly similar. But two triangles not satisfying a particular determination theorem does not mean they are not similar, because the sufficient conditions for $q$ to hold are not unique, and it is entirely possible that they are similar through another path. To determine that two triangles are not similar, one needs to use the property theorems of similar triangles (i.e. necessary conditions): as long as one points out that a necessary property does not hold, one can conclude that they are not similar. $\blacksquare$
 
 ## Reading and Thinking 2
 
@@ -50,9 +50,9 @@ By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)** and **Def
 
 ### Solution to Reading and Thinking 2
 
-By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)**, property theorems give necessary conditions in the form $q\Rightarrow r$.
+By **Definition 1.4.2 (Sufficient Condition and Necessary Condition)**, property theorems give necessary conditions in the form $q\Rightarrow{r}$.
 
-Property theorems cannot be used to determine that two triangles are similar. Property theorems show that if two triangles are similar, then their corresponding angles are necessarily equal, their perimeter ratios equal the similarity ratio, their area ratios equal the square of the similarity ratio, and so on. These are "properties that necessarily follow" after similarity, i.e. $q\Rightarrow r$. Conversely, even if these properties hold, one cannot infer that they are similar, because $q\Rightarrow r$ does not imply $r\Rightarrow q$. To determine similarity, one still needs to use determination theorems (sufficient conditions).
+Property theorems cannot be used to determine that two triangles are similar. Property theorems show that if two triangles are similar, then their corresponding angles are necessarily equal, their perimeter ratios equal the similarity ratio, their area ratios equal the square of the similarity ratio, and so on. These are "properties that necessarily follow" after similarity, i.e. $q\Rightarrow{r}$. Conversely, even if these properties hold, one cannot infer that they are similar, because $q\Rightarrow{r}$ does not imply $r\Rightarrow{q}$. To determine similarity, one still needs to use determination theorems (sufficient conditions).
 
 Other necessary conditions for similar triangles can also be cited: the ratio of corresponding altitudes, the ratio of corresponding medians, and the ratio of corresponding angle bisectors of similar triangles all equal the similarity ratio; the ratio of circumradii and the ratio of inradii of similar triangles both equal the similarity ratio; and so on. When these properties do not hold, the two triangles are certainly not similar, so they are all necessary conditions for $q$. $\blacksquare$
 
@@ -82,15 +82,15 @@ Similarly, the organization is as follows.
 
 (2) Every real number has an arithmetic square root;
 
-(3) $\forall x\in\left\{y\mid y\text{ 是无理数}\right\}$, $x^3$ is irrational.
+(3) $\forall{x}\in\left\{y\mid{y}\text{~是无理数}\right\}$, $x^3$ is irrational.
 
 ### Solution to Exercise 1
 
-By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, to determine that the universal quantifier proposition $\forall x\in M,\ p\left(x\right)$ is true, one must prove that $p\left(x\right)$ holds for every $x$ in $M$; if a counterexample is found in $M$ such that $p\left(x\right)$ does not hold, then the proposition is false.
+By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, to determine that the universal quantifier proposition $\forall{x}\in{M},\,p\left(x\right)$ is true, one must prove that $p\left(x\right)$ holds for every $x$ in $M$; if a counterexample is found in $M$ such that $p\left(x\right)$ does not hold, then the proposition is false.
 
 (1) By the formula for the sum of interior angles of a polygon, the sum of interior angles of a quadrilateral is $\left(4-2\right)\cdot180^\circ=360^\circ$, which holds for any quadrilateral, so this proposition is true.
 
-(2) Negative numbers have no arithmetic square root. For example, $-1\in\mathbb R$, but $-1$ has no arithmetic square root; a counterexample is found, so this proposition is false.
+(2) Negative numbers have no arithmetic square root. For example, $-1\in\mathbb{R}$, but $-1$ has no arithmetic square root; a counterexample is found, so this proposition is false.
 
 (3) Taking $x=\sqrt\left[3\right]{2}$, it is irrational, but $x^3=2$ is rational; a counterexample is found, so this proposition is false. $\blacksquare$
 
@@ -102,23 +102,23 @@ By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition
 
 (2) There exists an integer $n$ such that $n^2+n$ is odd;
 
-(3) $\exists x\in\left\{y\mid y\text{ 是无理数}\right\}$, $x^2$ is irrational.
+(3) $\exists{x}\in\left\{y\mid{y}\text{~是无理数}\right\}$, $x^2$ is irrational.
 
 ### Solution to Exercise 2
 
-By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, to determine that the existential quantifier proposition $\exists x\in M,\ p\left(x\right)$ is true, one only needs to find an $x$ in $M$ such that $p\left(x\right)$ holds; if no such $x$ exists in $M$, then the proposition is false.
+By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, to determine that the existential quantifier proposition $\exists{x}\in{M},\,p\left(x\right)$ is true, one only needs to find an $x$ in $M$ such that $p\left(x\right)$ holds; if no such $x$ exists in $M$, then the proposition is false.
 
 (1) The two diagonals of a rhombus are perpendicular to each other, and a rhombus is a quadrilateral, so such a quadrilateral exists; this proposition is true.
 
 (2) For any integer $n$, $n^2+n=n\left(n+1\right)$ is the product of two consecutive integers, one of which must be even, so $n^2+n$ is always even. There is no integer $n$ such that $n^2+n$ is odd; this proposition is false.
 
-(3) Taking $x=\sqrt 2$, $x$ is irrational, and $x^2=2$ is rational; but taking $x=\pi$, $x$ is irrational, and $x^2=\pi^2$ is also irrational; so such an $x$ exists; this proposition is true. $\blacksquare$
+(3) Taking $x=\sqrt2$, $x$ is irrational, and $x^2=2$ is rational; but taking $x=\pi$, $x$ is irrational, and $x^2=\pi^2$ is also irrational; so such an $x$ exists; this proposition is true. $\blacksquare$
 
 ## Exercise 3
 
 (Exercise 1.5, Problem 1) Write the negation of the following propositions:
 
-(1) $\forall n\in\mathbb Z,\ n\in\mathbb Q$;
+(1) $\forall{n}\in\mathbb{Z},\,n\in\mathbb{Q}$;
 
 (2) The square of any odd number is still odd;
 
@@ -128,7 +128,7 @@ By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposi
 
 By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), the negation of a universal quantifier proposition is an existential quantifier proposition, i.e. change $\forall$ to $\exists$ and negate the conclusion.
 
-(1) The negation of this proposition is $\exists n\in\mathbb Z,\ n\notin\mathbb Q$.
+(1) The negation of this proposition is $\exists{n}\in\mathbb{Z},\,n\notin\mathbb{Q}$.
 
 (2) The original proposition is "the square of any odd number is odd"; its negation is "there exists an odd number whose square is not odd", i.e. "there exists an odd number whose square is even".
 
@@ -170,11 +170,11 @@ By **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Propositio
 
 By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, a counterexample can determine it to be false, and a general proof can determine it to be true.
 
-(1) An integer ending in $0$ can be written as $10k$ ($k\in\mathbb Z$), which equals $5\cdot 2k$, and is a multiple of $5$, so this proposition is true.
+(1) An integer ending in $0$ can be written as $10k$ ($k\in\mathbb{Z}$), which equals $5\cdot2k$, and is a multiple of $5$, so this proposition is true.
 
 (2) By the property of the perpendicular bisector of a segment, any point on it is equidistant from the two endpoints of the segment, so this proposition is true.
 
-(3) For any negative number $x< 0$, since a negative number times a negative number is positive, we have $x^2> 0$, so this proposition is true.
+(3) For any negative number $x<0$, since a negative number times a negative number is positive, we have $x^2>0$, so this proposition is true.
 
 (4) Only isosceles trapezoids have equal diagonals; the diagonals of a general trapezoid are not equal. Taking a non-isosceles trapezoid gives a counterexample, so this proposition is false. $\blacksquare$
 
@@ -194,7 +194,7 @@ By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition
 
 By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, finding one instance determines it to be true, and universal non-existence determines it to be false.
 
-(1) Irrational numbers are precisely infinite non-repeating decimals, e.g. $\pi\in\mathbb R$, so this proposition is true.
+(1) Irrational numbers are precisely infinite non-repeating decimals, e.g. $\pi\in\mathbb{R}$, so this proposition is true.
 
 (2) A triangle with three mutually unequal sides (e.g. a triangle with sides $3,4,5$) is not isosceles, so such a triangle exists; this proposition is true.
 
@@ -206,11 +206,11 @@ By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposi
 
 (Problem 1.5, Review and Consolidation, Problem 3) Write the negation of the following propositions:
 
-(1) $\forall x\in\mathbb Z,\ \lvert x\rvert\in\mathbb N$;
+(1) $\forall{x}\in\mathbb{Z},\,\lvert{x}\rvert\in\mathbb{N}$;
 
 (2) All integers divisible by $5$ have last digit $0$;
 
-(3) $\exists x\in\mathbb R,\ x+1\ge 0$;
+(3) $\exists{x}\in\mathbb{R},\,x+1\ge0$;
 
 (4) There exists a quadrilateral whose diagonals are perpendicular to each other.
 
@@ -218,11 +218,11 @@ By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposi
 
 By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition) and **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Proposition), change universal to existential, existential to universal, and negate the conclusion.
 
-(1) This is a universal quantifier proposition; its negation is $\exists x\in\mathbb Z,\ \lvert x\rvert\notin\mathbb N$.
+(1) This is a universal quantifier proposition; its negation is $\exists{x}\in\mathbb{Z},\,\lvert{x}\rvert\notin\mathbb{N}$.
 
 (2) This is a universal quantifier proposition; its negation is "there exists an integer divisible by $5$ whose last digit is not $0$".
 
-(3) This is an existential quantifier proposition; its negation is $\forall x\in\mathbb R,\ x+1< 0$.
+(3) This is an existential quantifier proposition; its negation is $\forall{x}\in\mathbb{R},\,x+1<0$.
 
 (4) This is an existential quantifier proposition; its negation is "the diagonals of all quadrilaterals are not perpendicular to each other". $\blacksquare$
 
@@ -244,7 +244,7 @@ Judge and rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quanti
 
 (1) The line $y=1$ is parallel to the $x$-axis and does not intersect the $x$-axis, so this proposition is false. It is a universal quantifier proposition; its negation is "there exists a line that does not intersect the $x$-axis".
 
-(2) The graph of the quadratic function $y=ax^2+bx+c$ ($a\neq 0$) is a parabola, symmetric about the line $x=-\frac{b}{2a}$, so this proposition is true. It is a universal quantifier proposition; its negation is "there exists a quadratic function whose graph is not an axisymmetric figure".
+(2) The graph of the quadratic function $y=ax^2+bx+c$ ($a\neq0$) is a parabola, symmetric about the line $x=-\frac{b}{2a}$, so this proposition is true. It is a universal quantifier proposition; its negation is "there exists a quadratic function whose graph is not an axisymmetric figure".
 
 (3) The sum of interior angles of any triangle equals $180^\circ$, and there is no triangle whose sum of interior angles is less than $180^\circ$, so this proposition is false. It is an existential quantifier proposition; its negation is "the sum of interior angles of all triangles is not less than $180^\circ$".
 
@@ -278,13 +278,13 @@ Rewrite by **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Pro
 
 (Problem 1.5, Extension and Exploration, Problem 6) In this section, we introduced the concept of the negation of a proposition, knowing that the negation of a proposition is still a proposition, and it and the original proposition must be one true and one false, and cannot both be true or both be false. In mathematics, there are many propositions in the form "if $p$, then $q$", some true and some false. For example:
 
-(1) If $x> 1$, then $2x+1> 5$; (false proposition)
+(1) If $x>1$, then $2x+1>5$; (false proposition)
 
 (2) If a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are equal. (true proposition)
 
 Here, propositions (1) and (2) are both universal quantifier propositions with omitted quantifiers.
 
-(a) Some people think that the negation of (1) is "if $x> 1$, then $2x+1\le 5$", and the negation of (2) is "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal". Do you think this is correct? If not, please correctly write the negations of propositions (1) and (2).
+(a) Some people think that the negation of (1) is "if $x>1$, then $2x+1\le5$", and the negation of (2) is "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal". Do you think this is correct? If not, please correctly write the negations of propositions (1) and (2).
 
 (b) Please give several examples of universal quantifier propositions in the form "if $p$, then $q$" with omitted quantifiers, write their negations respectively, and determine whether they are true or false.
 
@@ -292,7 +292,7 @@ Here, propositions (1) and (2) are both universal quantifier propositions with o
 
 By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), a proposition in the form "if $p$, then $q$" with omitted quantifiers should first have the universal quantifier restored, then be negated.
 
-(a) This view is incorrect. Proposition (1) is actually the universal quantifier proposition "for any $x> 1$, we have $2x+1> 5$", i.e. $\forall x> 1,\ 2x+1> 5$. By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), its negation should be the existential quantifier proposition "there exists an $x> 1$ such that $2x+1\le 5$", i.e. $\exists x> 1,\ 2x+1\le 5$, rather than directly changing the conclusion $2x+1> 5$ to $2x+1\le 5$ while retaining the "if $x> 1$ then $\cdots$" form.
+(a) This view is incorrect. Proposition (1) is actually the universal quantifier proposition "for any $x>1$, we have $2x+1>5$", i.e. $\forall{x}>1,\,2x+1>5$. By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), its negation should be the existential quantifier proposition "there exists an $x>1$ such that $2x+1\le5$", i.e. $\exists{x}>1,\,2x+1\le5$, rather than directly changing the conclusion $2x+1>5$ to $2x+1\le5$ while retaining the "if $x>1$ then $\cdots$" form.
 
 Similarly, proposition (2) is actually the universal quantifier proposition "for any isosceles trapezoid, its diagonals are equal"; its negation should be "there exists an isosceles trapezoid whose diagonals are not equal", rather than "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal".
 
@@ -306,26 +306,26 @@ Similarly, proposition (2) is actually the universal quantifier proposition "for
 
 (Exercise 2.1, Problem 1) Express the following order relations using inequalities or systems of inequalities.
 
-(1) A certain highway stipulates that the total height $h$ (unit: $\mathrm m$) of a vehicle and its cargo, measured from the ground, must not exceed $4\ \mathrm m$;
+(1) A certain highway stipulates that the total height $h$ (unit: $\mathrm{m}$) of a vehicle and its cargo, measured from the ground, must not exceed $4\,\mathrm{m}$;
 
 (2) the sum of $a$ and $b$ is a nonnegative real number;
 
-(3) as shown in the figure, a warehouse is built at the center of a rectangular site with area less than $350\ \mathrm m^2$, and green space is built around the warehouse. The length $L$ (unit: $\mathrm m$) of the warehouse is greater than $4$ times its width $W$ (unit: $\mathrm m$).
+(3) as shown in the figure, a warehouse is built at the center of a rectangular site with area less than $350\,\mathrm{m}^2$, and green space is built around the warehouse. The length $L$ (unit: $\mathrm{m}$) of the warehouse is greater than $4$ times its width $W$ (unit: $\mathrm{m}$).
 
-(Figure: a large rectangle representing the site, with a small rectangle in the center representing the warehouse; a uniform strip of green space surrounds the warehouse; the small rectangle is labeled length $L$ horizontally and width $W$ vertically, and the green strip is labeled $5\,\mathrm m$ wide.)
+(Figure: a large rectangle representing the site, with a small rectangle in the center representing the warehouse; a uniform strip of green space surrounds the warehouse; the small rectangle is labeled length $L$ horizontally and width $W$ vertically, and the green strip is labeled $5\,\mathrm{m}$ wide.)
 
 ### Solution to Exercise 5
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), write down the restrictions in the problem directly as inequalities.
 
-(1) The total height $h$ must not exceed $4\ \mathrm m$, i.e. $h$ is not greater than $4$, so $h\le4$.
+(1) The total height $h$ must not exceed $4\,\mathrm{m}$, i.e. $h$ is not greater than $4$, so $h\le4$.
 
 (2) The sum of $a$ and $b$ is a nonnegative real number, i.e. $a+b$ is greater than or equal to $0$, so $a+b\ge0$.
 
-(3) The green space is $5\ \mathrm m$ wide around the warehouse, so the site has length $L+10$ and width $W+10$. The site area is less than $350\ \mathrm m^2$, i.e. $\left(L+10\right)\left(W+10\right)< 350$; the length $L$ of the warehouse is greater than $4$ times its width $W$, i.e. $L> 4W$. Thus the required system of inequalities is
+(3) The green space is $5\,\mathrm{m}$ wide around the warehouse, so the site has length $L+10$ and width $W+10$. The site area is less than $350\,\mathrm{m}^2$, i.e. $\left(L+10\right)\left(W+10\right)<350$; the length $L$ of the warehouse is greater than $4$ times its width $W$, i.e. $L>4W$. Thus the required system of inequalities is
 
 $$
-\left\{\begin{array}{l}\left(L+10\right)\left(W+10\right)< 350,\\L> 4W.\end{array}\right.
+\left\{\begin{array}{l}\left(L+10\right)\left(W+10\right)<350,\\L>4W.\end{array}\right.
 $$
 
 $\blacksquare$
@@ -341,38 +341,38 @@ By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), to compare two alg
 Taking the difference, we get
 
 $$
-\left(x+3\right)\left(x+7\right)-\left(x+4\right)\left(x+6\right)=\left(x^2+10x+21\right)-\left(x^2+10x+24\right)=-3< 0.
+\left(x+3\right)\left(x+7\right)-\left(x+4\right)\left(x+6\right)=\left(x^2+10x+21\right)-\left(x^2+10x+24\right)=-3<0.
 $$
 
-By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $\left(x+3\right)\left(x+7\right)< \left(x+4\right)\left(x+6\right)$. $\blacksquare$
+By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), the difference is negative, so $\left(x+3\right)\left(x+7\right)<\left(x+4\right)\left(x+6\right)$. $\blacksquare$
 
 ## Exercise 7
 
-(Exercise 2.1, Problem 3) Given $a> b$, prove that $a> \frac{a+b}{2}> b$.
+(Exercise 2.1, Problem 3) Given $a>{}b$, prove that $a>\frac{a+b}{2}>{}b$.
 
 ### Solution to Exercise 7
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), prove both inequalities simultaneously by taking differences.
 
-Since $a> b$, we have $a-b> 0$.
+Since $a>{}b$, we have $a-b>0$.
 
 First compare $a$ and $\frac{a+b}{2}$:
 
 $$
-a-\frac{a+b}{2}=\frac{a-b}{2}> 0,
+a-\frac{a+b}{2}=\frac{a-b}{2}>0,
 $$
 
-so $a> \frac{a+b}{2}$.
+so $a>\frac{a+b}{2}$.
 
 Then compare $\frac{a+b}{2}$ and $b$:
 
 $$
-\frac{a+b}{2}-b=\frac{a-b}{2}> 0,
+\frac{a+b}{2}-b=\frac{a-b}{2}>0,
 $$
 
-so $\frac{a+b}{2}> b$.
+so $\frac{a+b}{2}>{}b$.
 
-In summary, $a> \frac{a+b}{2}> b$. $\blacksquare$
+In summary, $a>\frac{a+b}{2}>{}b$. $\blacksquare$
 
 ## Exercise 8
 
@@ -382,49 +382,49 @@ In summary, $a> \frac{a+b}{2}> b$. $\blacksquare$
 
 By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), translate the inequality relations into the sign of a difference from $0$ and prove them.
 
-Proof of **Property 2.1.3** (Symmetry): If $a> b$, then $a-b> 0$, and hence $-\left(a-b\right)=b-a< 0$, so $b< a$. Similarly, if $b< a$, then $b-a< 0$, and hence $a-b> 0$, so $a> b$. Namely, $a> b\Leftrightarrow b< a$.
+Proof of **Property 2.1.3** (Symmetry): If $a>{}b$, then $a-b>0$, and hence $-\left(a-b\right)=b-a<0$, so $b<{}a$. Similarly, if $b<{}a$, then $b-a<0$, and hence $a-b>0$, so $a>{}b$. Namely, $a>{}b\Leftrightarrow{b}<{}a$.
 
-Proof of **Property 2.1.5** (Additivity): If $a> b$, then
-
-$$
-\left(a+c\right)-\left(b+c\right)=a-b> 0,
-$$
-
-so $a+c> b+c$.
-
-Proof of **Property 2.1.6** (Multiplicativity): If $a> b$, then $a-b> 0$. When $c> 0$,
+Proof of **Property 2.1.5** (Additivity): If $a>{}b$, then
 
 $$
-ac-bc=c\left(a-b\right)> 0,
+\left(a+c\right)-\left(b+c\right)=a-b>0,
 $$
 
-so $ac> bc$; when $c< 0$, $c\left(a-b\right)< 0$, i.e. $ac-bc< 0$, so $ac< bc$.
+so $a+c>{}b+c$.
 
-Proof of **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms): If $a> b> 0$ and $c> 0$, then by **Property 2.1.6** (Multiplicativity) we get $ac> bc$; also $c> d> 0$ and $b> 0$, and again by **Property 2.1.6** (Multiplicativity) we get $bc> bd$. By **Property 2.1.4** (Transitivity), $ac> bc> bd$, so $ac> bd$. $\blacksquare$
+Proof of **Property 2.1.6** (Multiplicativity): If $a>{}b$, then $a-b>0$. When $c>0$,
+
+$$
+ac-bc=c\left(a-b\right)>0,
+$$
+
+so $ac>{}bc$; when $c<0$, $c\left(a-b\right)<0$, i.e. $ac-bc<0$, so $ac<{}bc$.
+
+Proof of **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms): If $a>{}b>0$ and $c>0$, then by **Property 2.1.6** (Multiplicativity) we get $ac>{}bc$; also $c>{}d>0$ and $b>0$, and again by **Property 2.1.6** (Multiplicativity) we get $bc>{}bd$. By **Property 2.1.4** (Transitivity), $ac>{}bc>{}bd$, so $ac>{}bd$. $\blacksquare$
 
 ## Exercise 9
 
-(Exercise 2.1, Problem 5) Fill in the blanks with the inequality sign "$> $" or "$< $".
+(Exercise 2.1, Problem 5) Fill in the blanks with the inequality sign "$>$" or "$<$".
 
-(1) If $a> b$ and $c< d$, then $a-c\;\_\_\;b-d$;
+(1) If $a>{}b$ and $c<{}d$, then $a-c\;\_\_\;b-d$;
 
-(2) if $a> b> 0$ and $c< d< 0$, then $ac\;\_\_\;bd$;
+(2) if $a>{}b>0$ and $c<{}d<0$, then $ac\;\_\_\;bd$;
 
-(3) if $a> b> 0$, then $\frac{1}{a^2}\;\_\_\;\frac{1}{b^2}$;
+(3) if $a>{}b>0$, then $\frac{1}{a^2}\;\_\_\;\frac{1}{b^2}$;
 
-(4) if $a> b> c> 0$, then $\frac{c}{a}\;\_\_\;\frac{c}{b}$.
+(4) if $a>{}b>{}c>0$, then $\frac{c}{a}\;\_\_\;\frac{c}{b}$.
 
 ### Solution to Exercise 9
 
 By **Property 2.1.6** (Multiplicativity), **Property 2.1.7** (Adding Inequalities in the Same Direction), **Property 2.1.9** (Powers), and **Basic Fact 2.1.1** (Order Relations Among Real Numbers), judge each item.
 
-(1) Multiplying both sides of $c< d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d$. Also $a> b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)> b+\left(-d\right)$, i.e. $a-c> b-d$. So fill in $> $.
+(1) Multiplying both sides of $c<{}d$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c>-d$. Also $a>{}b$, and by **Property 2.1.7** (Adding Inequalities in the Same Direction) we get $a+\left(-c\right)>{}b+\left(-d\right)$, i.e. $a-c>{}b-d$. So fill in $>$.
 
-(2) Multiplying both sides of $c< d< 0$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c> -d> 0$. Also $a> b> 0$, and by **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) we get $a\left(-c\right)> b\left(-d\right)$, i.e. $-ac> -bd$; multiplying both sides by $-1$ gives $ac< bd$. So fill in $< $.
+(2) Multiplying both sides of $c<{}d<0$ by $-1$, by **Property 2.1.6** (Multiplicativity) we get $-c>-d>0$. Also $a>{}b>0$, and by **Property 2.1.8** (Multiplying Inequalities in the Same Direction with Positive Terms) we get $a\left(-c\right)>{}b\left(-d\right)$, i.e. $-ac>-bd$; multiplying both sides by $-1$ gives $ac<{}bd$. So fill in $<$.
 
-(3) From $a> b> 0$, by **Property 2.1.9** (Powers) we get $a^2> b^2> 0$. Taking reciprocals of positive numbers reverses the inequality sign (i.e. from $a^2> b^2> 0$ we get $\frac{1}{a^2}< \frac{1}{b^2}$), so fill in $< $.
+(3) From $a>{}b>0$, by **Property 2.1.9** (Powers) we get $a^2>{}b^2>0$. Taking reciprocals of positive numbers reverses the inequality sign (i.e. from $a^2>{}b^2>0$ we get $\frac{1}{a^2}<\frac{1}{b^2}$), so fill in $<$.
 
-(4) From $a> b> 0$ we get $ab> 0$, so $\frac{1}{ab}> 0$. Multiplying both sides of $a> b$ by $\frac{1}{ab}$, by **Property 2.1.6** (Multiplicativity) we get $\frac{a}{ab}> \frac{b}{ab}$, i.e. $\frac{1}{b}> \frac{1}{a}$, equivalently $\frac{1}{a}< \frac{1}{b}$. Also $c> 0$, and multiplying both sides by the positive number $c$ does not change the direction, giving $\frac{c}{a}< \frac{c}{b}$, so fill in $< $.
+(4) From $a>{}b>0$ we get $ab>0$, so $\frac{1}{ab}>0$. Multiplying both sides of $a>{}b$ by $\frac{1}{ab}$, by **Property 2.1.6** (Multiplicativity) we get $\frac{a}{ab}>\frac{b}{ab}$, i.e. $\frac{1}{b}>\frac{1}{a}$, equivalently $\frac{1}{a}<\frac{1}{b}$. Also $c>0$, and multiplying both sides by the positive number $c$ does not change the direction, giving $\frac{c}{a}<\frac{c}{b}$, so fill in $<$.
 
 $\blacksquare$
 
@@ -438,10 +438,10 @@ By **Basic Fact 2.1.1** (Order Relations Among Real Numbers), in real life every
 
 For example:
 
-(1) A speed limit of $40\ \mathrm{km/h}$ on a certain road, i.e. the car speed $v$ satisfies $0< v\le40$;
+(1) A speed limit of $40\,\mathrm{km/h}$ on a certain road, i.e. the car speed $v$ satisfies $0<{}v\le40$;
 
-(2) a student's height $h$ is not less than $1.60\ \mathrm m$, i.e. $h\ge1.60$;
+(2) a student's height $h$ is not less than $1.60\,\mathrm{m}$, i.e. $h\ge1.60$;
 
-(3) a class has $m$ boys and $n$ girls, and there are more boys than girls, i.e. $m> n$;
+(3) a class has $m$ boys and $n$ girls, and there are more boys than girls, i.e. $m>{}n$;
 
-(4) the capacity $V$ of a certain container is not more than $5\ \mathrm L$, i.e. $V\le5$. $\blacksquare$
+(4) the capacity $V$ of a certain container is not more than $5\,\mathrm{L}$, i.e. $V\le5$. $\blacksquare$

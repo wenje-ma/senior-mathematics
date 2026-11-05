@@ -48,16 +48,16 @@
 
 由**定义 7.4.4 (超几何分布)**.
 
-设 $X$ 为抽出的 2 罐中有奖券的罐数, 总体 $N=24$, 其中有奖券的 $M=4$, 抽取 $n=2$. 所求为 $\mathbb P\left(X\ge 1\right)$.
+设 $X$ 为抽出的 2 罐中有奖券的罐数, 总体 $N=24$, 其中有奖券的 $M=4$, 抽取 $n=2$. 所求为 $\mathbb{P}\left(X\ge1\right)$.
 
 $$
-\mathbb P\left(X=0\right)=\frac{\binom{20}{2}}{\binom{24}{2}}=\frac{190}{276}=\frac{95}{138}.
+\mathbb{P}\left(X=0\right)=\frac{\binom{20}{2}}{\binom{24}{2}}=\frac{190}{276}=\frac{95}{138}.
 $$
 
 由对立事件,
 
 $$
-\mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-\frac{95}{138}=\frac{43}{138}.
+\mathbb{P}\left(X\ge1\right)=1-\mathbb{P}\left(X=0\right)=1-\frac{95}{138}=\frac{43}{138}.
 $$
 
 $\blacksquare$
@@ -70,10 +70,10 @@ $\blacksquare$
 
 由**定义 7.4.4 (超几何分布)**.
 
-设 $X$ 为甲班被选中的志愿者人数, 总体 $N=12$, 其中甲班 $M=4$, 抽取 $n=4$. 所求为 $\mathbb P\left(X=2\right)$.
+设 $X$ 为甲班被选中的志愿者人数, 总体 $N=12$, 其中甲班 $M=4$, 抽取 $n=4$. 所求为 $\mathbb{P}\left(X=2\right)$.
 
 $$
-\mathbb P\left(X=2\right)=\frac{\binom{4}{2} \binom{8}{2}}{\binom{12}{4}}=\frac{6\times 28}{495}=\frac{168}{495}=\frac{56}{165}.
+\mathbb{P}\left(X=2\right)=\frac{\binom{4}{2}\binom{8}{2}}{\binom{12}{4}}=\frac{6\times28}{495}=\frac{168}{495}=\frac{56}{165}.
 $$
 
 $\blacksquare$
@@ -98,12 +98,12 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)** 与**结论 7.4.3** (二项分布的均值与方差).
 
-抛掷一枚骰子, 出现 5 点或 6 点即成功, 成功概率 $p=\frac{2}{6}=\frac{1}{3}$. 独立重复 30 次, 成功次数 $X\sim B\left(30,\frac{1}{3}\right)$.
+抛掷一枚骰子, 出现 5 点或 6 点即成功, 成功概率 $p=\frac{2}{6}=\frac{1}{3}$. 独立重复 30 次, 成功次数 $X\sim{B}\left(30,\frac{1}{3}\right)$.
 
 由**结论 7.4.3** (二项分布的均值与方差),
 
 $$
-\mathbb E\left(X\right)=np=30\times\frac{1}{3}=10.
+\mathbb{E}\left(X\right)=np=30\times\frac{1}{3}=10.
 $$
 
 $$
@@ -120,10 +120,10 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)**.
 
-设 $X$ 为 4 次射击中命中目标的次数, 则 $X\sim B\left(4,0.9\right)$. 恰有 1 次未命中即恰命中 3 次, 所求为 $\mathbb P\left(X=3\right)$.
+设 $X$ 为 4 次射击中命中目标的次数, 则 $X\sim{B}\left(4,0.9\right)$. 恰有 1 次未命中即恰命中 3 次, 所求为 $\mathbb{P}\left(X=3\right)$.
 
 $$
-\mathbb P\left(X=3\right)=\binom{4}{3} \left(0.9\right)^3\times 0.1=4\times 0.729\times 0.1=0.2916.
+\mathbb{P}\left(X=3\right)=\binom{4}{3}\left(0.9\right)^3\times0.1=4\times0.729\times0.1=0.2916.
 $$
 
 $\blacksquare$
@@ -142,18 +142,18 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)**.
 
-设 $X$ 为 6 次移动中向右移动的次数, 每次向右的概率为 $0.5$, 故 $X\sim B\left(6,0.5\right)$. 质点最终位置为 $X-\left(6-X\right)=2X-6$.
+设 $X$ 为 6 次移动中向右移动的次数, 每次向右的概率为 $0.5$, 故 $X\sim{B}\left(6,0.5\right)$. 质点最终位置为 $X-\left(6-X\right)=2X-6$.
 
 (1) 回到原点即 $2X-6=0$, $X=3$.
 
 $$
-\mathbb P\left(X=3\right)=\binom{6}{3} \left(0.5\right)^6=\frac{20}{64}=\frac{5}{16}.
+\mathbb{P}\left(X=3\right)=\binom{6}{3}\left(0.5\right)^6=\frac{20}{64}=\frac{5}{16}.
 $$
 
 (2) 位于坐标 4 处即 $2X-6=4$, $X=5$.
 
 $$
-\mathbb P\left(X=5\right)=\binom{6}{5} \left(0.5\right)^6=\frac{6}{64}=\frac{3}{32}.
+\mathbb{P}\left(X=5\right)=\binom{6}{5}\left(0.5\right)^6=\frac{6}{64}=\frac{3}{32}.
 $$
 
 $\blacksquare$
@@ -166,18 +166,18 @@ $\blacksquare$
 
 由**定义 7.4.4 (超几何分布)**.
 
-设 $X$ 为抽到的 $A$ 牌张数, 总体 $N=52$, 其中 $A$ 牌 $M=4$, 抽取 $n=5$. 所求为 $\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X=0\right)-\mathbb P\left(X=1\right)$.
+设 $X$ 为抽到的 $A$ 牌张数, 总体 $N=52$, 其中 $A$ 牌 $M=4$, 抽取 $n=5$. 所求为 $\mathbb{P}\left(X\ge2\right)=1-\mathbb{P}\left(X=0\right)-\mathbb{P}\left(X=1\right)$.
 
 $$
-\mathbb P\left(X=0\right)=\frac{\binom{48}{5}}{\binom{52}{5}}=\frac{1712304}{2598960}\approx 0.6588.
-$$
-
-$$
-\mathbb P\left(X=1\right)=\frac{\binom{4}{1} \binom{48}{4}}{\binom{52}{5}}=\frac{4\times 194580}{2598960}\approx 0.2995.
+\mathbb{P}\left(X=0\right)=\frac{\binom{48}{5}}{\binom{52}{5}}=\frac{1712304}{2598960}\approx0.6588.
 $$
 
 $$
-\mathbb P\left(X\ge 2\right)=1-0.6588-0.2995\approx 0.0417.
+\mathbb{P}\left(X=1\right)=\frac{\binom{4}{1}\binom{48}{4}}{\binom{52}{5}}=\frac{4\times194580}{2598960}\approx0.2995.
+$$
+
+$$
+\mathbb{P}\left(X\ge2\right)=1-0.6588-0.2995\approx0.0417.
 $$
 
 $\blacksquare$
@@ -194,26 +194,26 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)**.
 
-设 $X$ 为 10 次射击中命中目标的次数, 则 $X\sim B\left(10,0.8\right)$.
+设 $X$ 为 10 次射击中命中目标的次数, 则 $X\sim{B}\left(10,0.8\right)$.
 
 (1)
 
 $$
-\mathbb P\left(X=8\right)=\binom{10}{8} \left(0.8\right)^8 \left(0.2\right)^2=45\times 0.8^8\times 0.2^2\approx 0.3020.
+\mathbb{P}\left(X=8\right)=\binom{10}{8}\left(0.8\right)^8\left(0.2\right)^2=45\times0.8^8\times0.2^2\approx0.3020.
 $$
 
 (2)
 
 $$
-\mathbb P\left(X=9\right)=\binom{10}{9} \left(0.8\right)^9 \left(0.2\right)=10\times 0.8^9\times 0.2\approx 0.2684.
+\mathbb{P}\left(X=9\right)=\binom{10}{9}\left(0.8\right)^9\left(0.2\right)=10\times0.8^9\times0.2\approx0.2684.
 $$
 
 $$
-\mathbb P\left(X=10\right)=0.8^{10}\approx 0.1074.
+\mathbb{P}\left(X=10\right)=0.8^{10}\approx0.1074.
 $$
 
 $$
-\mathbb P\left(X\ge 8\right)=0.3020+0.2684+0.1074=0.6778.
+\mathbb{P}\left(X\ge8\right)=0.3020+0.2684+0.1074=0.6778.
 $$
 
 $\blacksquare$
@@ -226,22 +226,22 @@ $\blacksquare$
 
 由**定义 7.4.4 (超几何分布)**.
 
-设 $X$ 为摸出的 5 个球中红球的个数, 总体 $N=30$, 其中红球 $M=10$, 抽取 $n=5$. 所求为 $\mathbb P\left(X\ge 3\right)=\mathbb P\left(X=3\right)+\mathbb P\left(X=4\right)+\mathbb P\left(X=5\right)$.
+设 $X$ 为摸出的 5 个球中红球的个数, 总体 $N=30$, 其中红球 $M=10$, 抽取 $n=5$. 所求为 $\mathbb{P}\left(X\ge3\right)=\mathbb{P}\left(X=3\right)+\mathbb{P}\left(X=4\right)+\mathbb{P}\left(X=5\right)$.
 
 $$
-\mathbb P\left(X=3\right)=\frac{\binom{10}{3} \binom{20}{2}}{\binom{30}{5}}=\frac{120\times 190}{142506}\approx 0.1599.
-$$
-
-$$
-\mathbb P\left(X=4\right)=\frac{\binom{10}{4} \binom{20}{1}}{\binom{30}{5}}=\frac{210\times 20}{142506}\approx 0.0295.
+\mathbb{P}\left(X=3\right)=\frac{\binom{10}{3}\binom{20}{2}}{\binom{30}{5}}=\frac{120\times190}{142506}\approx0.1599.
 $$
 
 $$
-\mathbb P\left(X=5\right)=\frac{\binom{10}{5}}{\binom{30}{5}}=\frac{252}{142506}\approx 0.0018.
+\mathbb{P}\left(X=4\right)=\frac{\binom{10}{4}\binom{20}{1}}{\binom{30}{5}}=\frac{210\times20}{142506}\approx0.0295.
 $$
 
 $$
-\mathbb P\left(X\ge 3\right)\approx 0.1599+0.0295+0.0018=0.1912.
+\mathbb{P}\left(X=5\right)=\frac{\binom{10}{5}}{\binom{30}{5}}=\frac{252}{142506}\approx0.0018.
+$$
+
+$$
+\mathbb{P}\left(X\ge3\right)\approx0.1599+0.0295+0.0018=0.1912.
 $$
 
 $\blacksquare$
@@ -258,40 +258,40 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)** 与概率的乘法公式.
 
-(1) 3 台车床型号相同且各自独立, 每台故障概率均为 $0.2$, 故 $X\sim B\left(3,0.2\right)$.
+(1) 3 台车床型号相同且各自独立, 每台故障概率均为 $0.2$, 故 $X\sim{B}\left(3,0.2\right)$.
 
 $$
-\mathbb P\left(X=0\right)=0.8^3=0.512.
-$$
-
-$$
-\mathbb P\left(X=1\right)=\binom{3}{1}\times 0.2\times 0.8^2=3\times 0.2\times 0.64=0.384.
+\mathbb{P}\left(X=0\right)=0.8^3=0.512.
 $$
 
 $$
-\mathbb P\left(X=2\right)=\binom{3}{2}\times 0.2^2\times 0.8=3\times 0.04\times 0.8=0.096.
+\mathbb{P}\left(X=1\right)=\binom{3}{1}\times0.2\times0.8^2=3\times0.2\times0.64=0.384.
 $$
 
 $$
-\mathbb P\left(X=3\right)=0.2^3=0.008.
+\mathbb{P}\left(X=2\right)=\binom{3}{2}\times0.2^2\times0.8=3\times0.04\times0.8=0.096.
+$$
+
+$$
+\mathbb{P}\left(X=3\right)=0.2^3=0.008.
 $$
 
 (2) 2 台 $A$ 型车床故障概率为 $0.1$, 1 台 $B$ 型车床故障概率为 $0.2$, 且相互独立.
 
 $$
-\mathbb P\left(X=0\right)=0.9^2\times 0.8=0.648.
+\mathbb{P}\left(X=0\right)=0.9^2\times0.8=0.648.
 $$
 
 $$
-\mathbb P\left(X=1\right)=\binom{2}{1}\times 0.1\times 0.9\times 0.8+0.9^2\times 0.2=0.144+0.162=0.306.
+\mathbb{P}\left(X=1\right)=\binom{2}{1}\times0.1\times0.9\times0.8+0.9^2\times0.2=0.144+0.162=0.306.
 $$
 
 $$
-\mathbb P\left(X=2\right)=0.1^2\times 0.8+\binom{2}{1}\times 0.1\times 0.9\times 0.2=0.008+0.036=0.044.
+\mathbb{P}\left(X=2\right)=0.1^2\times0.8+\binom{2}{1}\times0.1\times0.9\times0.2=0.008+0.036=0.044.
 $$
 
 $$
-\mathbb P\left(X=3\right)=0.1^2\times 0.2=0.002.
+\mathbb{P}\left(X=3\right)=0.1^2\times0.2=0.002.
 $$
 
 故两种情形下 $X$ 的分布列分别为
@@ -314,39 +314,39 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)**.
 
-若该药品有效率确为 $0.9$, 设 $X$ 为 10 名患者中治愈的人数, 则 $X\sim B\left(10,0.9\right)$. 计算 $\mathbb P\left(X\le 6\right)=1-\mathbb P\left(X\ge 7\right)$.
+若该药品有效率确为 $0.9$, 设 $X$ 为 10 名患者中治愈的人数, 则 $X\sim{B}\left(10,0.9\right)$. 计算 $\mathbb{P}\left(X\le6\right)=1-\mathbb{P}\left(X\ge7\right)$.
 
 $$
-\mathbb P\left(X=7\right)=\binom{10}{7} \left(0.9\right)^7 \left(0.1\right)^3\approx 0.0574.
-$$
-
-$$
-\mathbb P\left(X=8\right)=\binom{10}{8} \left(0.9\right)^8 \left(0.1\right)^2\approx 0.1937.
+\mathbb{P}\left(X=7\right)=\binom{10}{7}\left(0.9\right)^7\left(0.1\right)^3\approx0.0574.
 $$
 
 $$
-\mathbb P\left(X=9\right)=\binom{10}{9} \left(0.9\right)^9 \left(0.1\right)\approx 0.3874.
+\mathbb{P}\left(X=8\right)=\binom{10}{8}\left(0.9\right)^8\left(0.1\right)^2\approx0.1937.
 $$
 
 $$
-\mathbb P\left(X=10\right)=0.9^{10}\approx 0.3487.
+\mathbb{P}\left(X=9\right)=\binom{10}{9}\left(0.9\right)^9\left(0.1\right)\approx0.3874.
 $$
 
 $$
-\mathbb P\left(X\ge 7\right)\approx 0.0574+0.1937+0.3874+0.3487=0.9872.
+\mathbb{P}\left(X=10\right)=0.9^{10}\approx0.3487.
 $$
 
 $$
-\mathbb P\left(X\le 6\right)=1-0.9872=0.0128.
+\mathbb{P}\left(X\ge7\right)\approx0.0574+0.1937+0.3874+0.3487=0.9872.
+$$
+
+$$
+\mathbb{P}\left(X\le6\right)=1-0.9872=0.0128.
 $$
 
 即在有效率为 $90\%$ 的假设下, 10 名患者中治愈不超过 6 人的概率仅约 $1.28\%$, 是小概率事件, 故有理由怀疑该药品的有效率达不到 $90\%$. $\blacksquare$
 
 ## 探究与发现一
 
-(思考 1) 二项分布的性质. 观察参数 $n$, $p$ 取不同值时二项分布 $X\sim B\left(n,p\right)$ 的分布列图形, 类比函数性质的研究, 你能发现二项分布的哪些性质?
+(思考 1) 二项分布的性质. 观察参数 $n$, $p$ 取不同值时二项分布 $X\sim{B}\left(n,p\right)$ 的分布列图形, 类比函数性质的研究, 你能发现二项分布的哪些性质?
 
-该图为不同参数 $n,p$ 下二项分布 $X\sim B\left(n,p\right)$ 的分布列柱形图组(多幅并列):横轴为取值 $k$,纵轴为概率 $\mathbb P\left(X=k\right)$,各图均呈单峰形,概率先随 $k$ 增大而增大,在 $k$ 接近 $np$ 处达到最大后减小.
+该图为不同参数 $n,p$ 下二项分布 $X\sim{B}\left(n,p\right)$ 的分布列柱形图组(多幅并列):横轴为取值 $k$,纵轴为概率 $\mathbb{P}\left(X=k\right)$,各图均呈单峰形,概率先随 $k$ 增大而增大,在 $k$ 接近 $np$ 处达到最大后减小.
 
 ### 解答 探究与发现一
 
@@ -356,9 +356,9 @@ $$
 
 (1) 分布列各概率之和为 $1$, 图形下方面积 (概率和) 恒为 $1$.
 
-(2) 概率 $\mathbb P\left(X=k\right)$ 先随 $k$ 增大而增大, 在 $k$ 接近 $np$ 处取得最大值, 随后随 $k$ 增大而减小, 图形呈单峰形.
+(2) 概率 $\mathbb{P}\left(X=k\right)$ 先随 $k$ 增大而增大, 在 $k$ 接近 $np$ 处取得最大值, 随后随 $k$ 增大而减小, 图形呈单峰形.
 
-(3) 当 $p=0.5$ 时, 分布列关于 $k=np$ 对称; 当 $p\neq 0.5$ 时, 分布列不对称, 峰值位置偏向一侧.
+(3) 当 $p=0.5$ 时, 分布列关于 $k=np$ 对称; 当 $p\neq0.5$ 时, 分布列不对称, 峰值位置偏向一侧.
 
 (4) $n$ 越大, 概率越集中在均值 $np$ 附近, 图形越陡峻. $\blacksquare$
 
@@ -373,44 +373,44 @@ $$
 考察相邻两项之比:
 
 $$
-\frac{\mathbb P\left(X=k+1\right)}{\mathbb P\left(X=k\right)}=\frac{\binom{n}{k+1} p^{k+1}\left(1-p\right)^{n-k-1}}{\binom{n}{k} p^k\left(1-p\right)^{n-k}}=\frac{n-k}{k+1}\cdot\frac{p}{1-p}.
+\frac{\mathbb{P}\left(X=k+1\right)}{\mathbb{P}\left(X=k\right)}=\frac{\binom{n}{k+1}p^{k+1}\left(1-p\right)^{n-k-1}}{\binom{n}{k}p^k\left(1-p\right)^{n-k}}=\frac{n-k}{k+1}\cdot\frac{p}{1-p}.
 $$
 
-当该比值大于 $1$, 即 $k< \left(n+1\right)p-1$ 时, $\mathbb P\left(X=k+1\right)> \mathbb P\left(X=k\right)$, 分布列上升; 当该比值小于 $1$, 即 $k> \left(n+1\right)p-1$ 时, $\mathbb P\left(X=k+1\right)< \mathbb P\left(X=k\right)$, 分布列下降. 故 $\mathbb P\left(X=k\right)$ 在 $k$ 最接近 $\left(n+1\right)p$ 的整数处取得最大值, 即单峰性质得证.
+当该比值大于 $1$, 即 $k<\left(n+1\right)p-1$ 时, $\mathbb{P}\left(X=k+1\right)>\mathbb{P}\left(X=k\right)$, 分布列上升; 当该比值小于 $1$, 即 $k>\left(n+1\right)p-1$ 时, $\mathbb{P}\left(X=k+1\right)<\mathbb{P}\left(X=k\right)$, 分布列下降. 故 $\mathbb{P}\left(X=k\right)$ 在 $k$ 最接近 $\left(n+1\right)p$ 的整数处取得最大值, 即单峰性质得证.
 
-当 $p=0.5$ 时, $\mathbb P\left(X=k\right)=\mathbb P\left(X=n-k\right)$, 分布列关于 $k=\frac{n}{2}$ 对称, 对称性质得证. $\blacksquare$
+当 $p=0.5$ 时, $\mathbb{P}\left(X=k\right)=\mathbb{P}\left(X=n-k\right)$, 分布列关于 $k=\frac{n}{2}$ 对称, 对称性质得证. $\blacksquare$
 
 ## 练习四
 
-(练习 7.5 第 1 题) 已知 $X\sim N\left(0,1\right)$, 则正态密度函数为 $\;\_\_\;$, $\mathbb P\left(X\le 0\right)=\;\_\_\;$, $\mathbb P\left(\lvert X\rvert\le 1\right)=\;\_\_\;$, $\mathbb P\left(X\le 1\right)=\;\_\_\;$, $\mathbb P\left(X> 1\right)=\;\_\_\;$.
+(练习 7.5 第 1 题) 已知 $X\sim{N}\left(0,1\right)$, 则正态密度函数为 $\;\_\_\;$, $\mathbb{P}\left(X\le0\right)=\;\_\_\;$, $\mathbb{P}\left(\lvert{X}\rvert\le1\right)=\;\_\_\;$, $\mathbb{P}\left(X\le1\right)=\;\_\_\;$, $\mathbb{P}\left(X>1\right)=\;\_\_\;$.
 
 ### 解答 练习四
 
 由**定义 7.5.2 (正态分布)** 与**结论 7.5.4** ($3\sigma$ 原则).
 
-$X\sim N\left(0,1\right)$ 时, 正态密度函数为
+$X\sim{N}\left(0,1\right)$ 时, 正态密度函数为
 
 $$
 f\left(x\right)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}.
 $$
 
-由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb P\left(X\le 0\right)=0.5$.
+由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb{P}\left(X\le0\right)=0.5$.
 
-由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P\left(\lvert X\rvert\le 1\right)\approx 0.6827$. 又 $\mathbb P\left(X\le 1\right)=0.5+\frac{0.6827}{2}\approx 0.8413$, 故 $\mathbb P\left(X> 1\right)=1-0.8413=0.1587$.
+由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb{P}\left(\lvert{X}\rvert\le1\right)\approx0.6827$. 又 $\mathbb{P}\left(X\le1\right)=0.5+\frac{0.6827}{2}\approx0.8413$, 故 $\mathbb{P}\left(X>1\right)=1-0.8413=0.1587$.
 
 填空处依次为 $f\left(x\right)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$, $0.5$, $0.6827$, $0.8413$, $0.1587$. $\blacksquare$
 
 ## 练习五
 
-(练习 7.5 第 2 题) 已知 $X\sim N\left(0,2^2\right)$, $Y\sim N\left(0,3^2\right)$.
+(练习 7.5 第 2 题) 已知 $X\sim{N}\left(0,2^2\right)$, $Y\sim{N}\left(0,3^2\right)$.
 
 (1) 画出它们的密度曲线草图;
 
-(2) 比较 $\mathbb P\left(X\le -2\right)$ 与 $\mathbb P\left(X\le 2\right)$ 的大小关系;
+(2) 比较 $\mathbb{P}\left(X\le-2\right)$ 与 $\mathbb{P}\left(X\le2\right)$ 的大小关系;
 
-(3) 比较 $\mathbb P\left(\lvert X\rvert\le 1\right)$ 与 $\mathbb P\left(\lvert Y\rvert\le 1\right)$ 的大小.
+(3) 比较 $\mathbb{P}\left(\lvert{X}\rvert\le1\right)$ 与 $\mathbb{P}\left(\lvert{Y}\rvert\le1\right)$ 的大小.
 
-该图为同一坐标系中的两条正态密度曲线,均关于 $x=0$ 对称,呈钟形:$X\sim N\left(0,2^2\right)$ 的曲线更陡峻,更集中在 $0$ 附近,$Y\sim N\left(0,3^2\right)$ 的曲线更扁平,更分散(标准差较大者曲线更宽矮).
+该图为同一坐标系中的两条正态密度曲线,均关于 $x=0$ 对称,呈钟形:$X\sim{N}\left(0,2^2\right)$ 的曲线更陡峻,更集中在 $0$ 附近,$Y\sim{N}\left(0,3^2\right)$ 的曲线更扁平,更分散(标准差较大者曲线更宽矮).
 
 ### 解答 练习五
 
@@ -418,9 +418,9 @@ $$
 
 (1) 两条密度曲线都关于 $x=0$ 对称, 呈钟形. $X$ 的标准差为 2, $Y$ 的标准差为 3, 故 $X$ 的曲线更陡峻, 更集中在 0 附近, $Y$ 的曲线更扁平, 更分散.
 
-(2) 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb P\left(X\le -2\right)=\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X\le 2\right)$. 二者不相等, 且 $\mathbb P\left(X\le -2\right)< \mathbb P\left(X\le 2\right)$.
+(2) 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=0$ 对称, 故 $\mathbb{P}\left(X\le-2\right)=\mathbb{P}\left(X\ge2\right)=1-\mathbb{P}\left(X\le2\right)$. 二者不相等, 且 $\mathbb{P}\left(X\le-2\right)<\mathbb{P}\left(X\le2\right)$.
 
-(3) $X$ 的标准差较小, 取值更集中在均值 0 附近, 故落在区间 $\left[-1,1\right]$ 内的概率更大, 即 $\mathbb P\left(\lvert X\rvert\le 1\right)> \mathbb P\left(\lvert Y\rvert\le 1\right)$. $\blacksquare$
+(3) $X$ 的标准差较小, 取值更集中在均值 0 附近, 故落在区间 $\left[-1,1\right]$ 内的概率更大, 即 $\mathbb{P}\left(\lvert{X}\rvert\le1\right)>\mathbb{P}\left(\lvert{Y}\rvert\le1\right)$. $\blacksquare$
 
 ## 练习六
 
@@ -436,7 +436,7 @@ $$
 
 ## 习题九
 
-(习题 7.5 复习巩固第 1 题) 已知某地区男生的身高 $X\sim N\left(72,8^2\right)$, 女生的身高 $Y\sim N\left(74,6^2\right)$ (单位: $\mathrm{cm}$). 试比较男生和女生身高的分布情况.
+(习题 7.5 复习巩固第 1 题) 已知某地区男生的身高 $X\sim{N}\left(72,8^2\right)$, 女生的身高 $Y\sim{N}\left(74,6^2\right)$ (单位: $\mathrm{cm}$). 试比较男生和女生身高的分布情况.
 
 ### 解答 习题九
 
@@ -446,13 +446,13 @@ $$
 
 ## 习题十
 
-(习题 7.5 复习巩固第 2 题) 已知某地区成年男子的身高 $X\sim N\left(170,5^2\right)$ (单位: $\mathrm{cm}$). 求:
+(习题 7.5 复习巩固第 2 题) 已知某地区成年男子的身高 $X\sim{N}\left(170,5^2\right)$ (单位: $\mathrm{cm}$). 求:
 
-(1) $\mathbb P\left(165< X\le 175\right)$;
+(1) $\mathbb{P}\left(165<{}X\le175\right)$;
 
-(2) $\mathbb P\left(X\le 165\right)$;
+(2) $\mathbb{P}\left(X\le165\right)$;
 
-(3) $\mathbb P\left(X> 175\right)$.
+(3) $\mathbb{P}\left(X>175\right)$.
 
 ### 解答 习题十
 
@@ -463,31 +463,31 @@ $$
 (1)
 
 $$
-\mathbb P\left(165< X\le 175\right)=\mathbb P\left(\mu-\sigma< X\le\mu+\sigma\right)\approx 0.6827.
+\mathbb{P}\left(165<{}X\le175\right)=\mathbb{P}\left(\mu-\sigma<{}X\le\mu+\sigma\right)\approx0.6827.
 $$
 
-(2) 由对称性, $\mathbb P\left(X\le 165\right)=\mathbb P\left(X\le\mu-\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587$.
+(2) 由对称性, $\mathbb{P}\left(X\le165\right)=\mathbb{P}\left(X\le\mu-\sigma\right)=\frac{1-0.6827}{2}\approx0.1587$.
 
 (3)
 
 $$
-\mathbb P\left(X> 175\right)=\mathbb P\left(X> \mu+\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587.
+\mathbb{P}\left(X>175\right)=\mathbb{P}\left(X>\mu+\sigma\right)=\frac{1-0.6827}{2}\approx0.1587.
 $$
 
 $\blacksquare$
 
 ## 习题十一
 
-(习题 7.5 复习巩固第 3 题) 已知 $X\sim N\left(\mu,\sigma^2\right)$, 求 $X$ 位于区间 $\left[\mu,\mu+\sigma\right]$ 内的概率.
+(习题 7.5 复习巩固第 3 题) 已知 $X\sim{N}\left(\mu,\sigma^2\right)$, 求 $X$ 位于区间 $\left[\mu,\mu+\sigma\right]$ 内的概率.
 
 ### 解答 习题十一
 
 由**结论 7.5.3** (正态曲线的性质) 与**结论 7.5.4** ($3\sigma$ 原则).
 
-由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$. 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=\mu$ 对称, 区间 $\left[\mu-\sigma,\mu\right]$ 与 $\left[\mu,\mu+\sigma\right]$ 上的概率相等. 故
+由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)\approx0.6827$. 由**结论 7.5.3** (正态曲线的性质), 曲线关于 $x=\mu$ 对称, 区间 $\left[\mu-\sigma,\mu\right]$ 与 $\left[\mu,\mu+\sigma\right]$ 上的概率相等. 故
 
 $$
-\mathbb P\left(\mu\le X\le\mu+\sigma\right)=\frac{0.6827}{2}\approx 0.3414.
+\mathbb{P}\left(\mu\le{X}\le\mu+\sigma\right)=\frac{0.6827}{2}\approx0.3414.
 $$
 
 $\blacksquare$
@@ -500,19 +500,19 @@ $\blacksquare$
 
 由**结论 7.5.4** ($3\sigma$ 原则).
 
-误差 $X$ 服从正态分布, 样本均值为 0, 样本方差为 4, 即 $\mu=0$, $\sigma=\sqrt{4}=2$. 合格即 $\lvert X\rvert\le 4=2\sigma$.
+误差 $X$ 服从正态分布, 样本均值为 0, 样本方差为 4, 即 $\mu=0$, $\sigma=\sqrt{4}=2$. 合格即 $\lvert{X}\rvert\le4=2\sigma$.
 
 由**结论 7.5.4** ($3\sigma$ 原则),
 
 $$
-\mathbb P\left(\lvert X\rvert\le 2\sigma\right)=\mathbb P\left(-2\sigma\le X\le 2\sigma\right)\approx 0.9545.
+\mathbb{P}\left(\lvert{X}\rvert\le2\sigma\right)=\mathbb{P}\left(-2\sigma\le{X}\le2\sigma\right)\approx0.9545.
 $$
 
 故这批食盐的合格率约为 $95.45\%$. $\blacksquare$
 
 ## 信息技术应用一
 
-(思考 1) 概率分布图及概率计算. 请你再选择一些正态分布 $N\left(\mu,\sigma^2\right)$, 分别计算 $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)$, $\mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)$, $\mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)$ 的值, 并总结这些值的规律.
+(思考 1) 概率分布图及概率计算. 请你再选择一些正态分布 $N\left(\mu,\sigma^2\right)$, 分别计算 $\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)$, $\mathbb{P}\left(\mu-2\sigma\le{X}\le\mu+2\sigma\right)$, $\mathbb{P}\left(\mu-3\sigma\le{X}\le\mu+3\sigma\right)$ 的值, 并总结这些值的规律.
 
 ### 解答 信息技术应用一
 
@@ -521,15 +521,15 @@ $$
 无论 $\mu$, $\sigma$ 取何值, 正态分布 $N\left(\mu,\sigma^2\right)$ 落在区间 $\left[\mu-\sigma,\mu+\sigma\right]$, $\left[\mu-2\sigma,\mu+2\sigma\right]$, $\left[\mu-3\sigma,\mu+3\sigma\right]$ 内的概率分别约为
 
 $$
-\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827.
+\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)\approx0.6827.
 $$
 
 $$
-\mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)\approx 0.9545.
+\mathbb{P}\left(\mu-2\sigma\le{X}\le\mu+2\sigma\right)\approx0.9545.
 $$
 
 $$
-\mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)\approx 0.9973.
+\mathbb{P}\left(\mu-3\sigma\le{X}\le\mu+3\sigma\right)\approx0.9973.
 $$
 
 规律: 这三个概率只与区间宽度相对于标准差的倍数有关, 与 $\mu$, $\sigma$ 的具体取值无关. 正态变量几乎全部的取值落在 $\left[\mu-3\sigma,\mu+3\sigma\right]$ 内, 落在其外的概率仅约 $0.27\%$, 这就是 $3\sigma$ 原则. $\blacksquare$
@@ -570,7 +570,7 @@ $$
 
 | 地区 | $A$ | $B$ | $C$ | $D$ | $E$ | $F$ | $G$ | $H$ | $I$ | $J$ | $K$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 海拔高度/$\mathrm m$ | $1250$ | $1158$ | $1067$ | $457$ | $701$ | $731$ | $610$ | $670$ | $1493$ | $762$ | $549$ |
+| 海拔高度/$\mathrm{m}$ | $1250$ | $1158$ | $1067$ | $457$ | $701$ | $731$ | $610$ | $670$ | $1493$ | $762$ | $549$ |
 | 鸟的种类/种 | $36$ | $30$ | $37$ | $11$ | $11$ | $13$ | $17$ | $13$ | $29$ | $4$ | $15$ |
 
 ### 解答 练习九
@@ -582,10 +582,10 @@ $$
 由**定义 8.1.5 (样本相关系数)** 计算得
 
 $$
-r\approx 0.79.
+r\approx0.79.
 $$
 
-由**常用结论 8.1.6** (样本相关系数的性质), $r> 0$ 且较接近 $1$, 故鸟的种类数与海拔高度之间存在正相关关系, 即海拔越高的地区鸟的种类数一般越多, 且线性相关程度较强. $\blacksquare$
+由**常用结论 8.1.6** (样本相关系数的性质), $r>0$ 且较接近 $1$, 故鸟的种类数与海拔高度之间存在正相关关系, 即海拔越高的地区鸟的种类数一般越多, 且线性相关程度较强. $\blacksquare$
 
 ## 练习十
 
@@ -610,23 +610,23 @@ $$
 由数据得
 
 $$
-\overline x=\frac{2+3+5}{3}=\frac{10}{3},\quad \overline y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
+\overline{x}=\frac{2+3+5}{3}=\frac{10}{3},\quad\overline{y}=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
 $$
 
 由**定义 8.1.5 (样本相关系数)**,
 
 $$
-\sum_{i=1}^{3}\left(x_i-\overline x\right)\left(y_i-\overline y\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
+\sum_{i=1}^{3}\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
 $$
 
 $$
-\sum_{i=1}^{3}\left(x_i-\overline x\right)^2=\frac{14}{3},\quad \sum_{i=1}^{3}\left(y_i-\overline y\right)^2=42.
+\sum_{i=1}^{3}\left(x_i-\overline{x}\right)^2=\frac{14}{3},\quad\sum_{i=1}^{3}\left(y_i-\overline{y}\right)^2=42.
 $$
 
 故
 
 $$
-r=\frac{-14}{\sqrt{\frac{14}{3}\times 42}}=\frac{-14}{\sqrt{196}}=-1.
+r=\frac{-14}{\sqrt{\frac{14}{3}\times42}}=\frac{-14}{\sqrt{196}}=-1.
 $$
 
 虽然 $r=-1$, 表明这 $3$ 对样本数据恰好落在一条直线上, 但样本容量只有 $3$, 样本容量过小, 由**常用结论 8.1.6** (样本相关系数的性质) 及随机样本的随机性可知, 不能据此推断这两个变量在总体上线性相关. $\blacksquare$
@@ -641,9 +641,9 @@ $$
 
 (3) $\left(-2,-8\right)$, $\left(-1,-1\right)$, $\left(0,0\right)$, $\left(1,1\right)$, $\left(2,8\right)$, $\left(3,27\right)$;
 
-(4) $\left(2,0\right)$, $\left(1,\sqrt 3\right)$, $\left(0,2\right)$, $\left(-1,\sqrt 3\right)$, $\left(-2,0\right)$.
+(4) $\left(2,0\right)$, $\left(1,\sqrt3\right)$, $\left(0,2\right)$, $\left(-1,\sqrt3\right)$, $\left(-2,0\right)$.
 
-该图为四幅散点图:(1) $\left(-2,-3\right),\left(-1,-1\right),\left(0,1\right),\left(1,3\right),\left(2,5\right),\left(3,7\right)$,各点恰在直线 $y=2x+1$ 上;(2) $\left(0,0\right),\left(1,1\right),\left(2,4\right),\left(3,9\right),\left(4,16\right)$,各点呈抛物线 $y=x^2$ 分布;(3) $\left(-2,-8\right),\left(-1,-1\right),\left(0,0\right),\left(1,1\right),\left(2,8\right),\left(3,27\right)$,各点呈曲线 $y=x^3$ 分布;(4) $\left(2,0\right),\left(1,\sqrt 3\right),\left(0,2\right),\left(-1,\sqrt 3\right),\left(-2,0\right)$,各点呈上半圆分布.
+该图为四幅散点图:(1) $\left(-2,-3\right),\left(-1,-1\right),\left(0,1\right),\left(1,3\right),\left(2,5\right),\left(3,7\right)$,各点恰在直线 $y=2x+1$ 上;(2) $\left(0,0\right),\left(1,1\right),\left(2,4\right),\left(3,9\right),\left(4,16\right)$,各点呈抛物线 $y=x^2$ 分布;(3) $\left(-2,-8\right),\left(-1,-1\right),\left(0,0\right),\left(1,1\right),\left(2,8\right),\left(3,27\right)$,各点呈曲线 $y=x^3$ 分布;(4) $\left(2,0\right),\left(1,\sqrt3\right),\left(0,2\right),\left(-1,\sqrt3\right),\left(-2,0\right)$,各点呈上半圆分布.
 
 ### 解答 练习十二
 
@@ -651,10 +651,10 @@ $$
 
 (1) 数据满足 $y=2x+1$, 各点恰好落在一条直线上, 由**定义 8.1.5 (样本相关系数)** 计算得 $r=1$.
 
-(2) 由数据计算得 $\overline x=2$, $\overline y=6$, 进而由**定义 8.1.5 (样本相关系数)** 得
+(2) 由数据计算得 $\overline{x}=2$, $\overline{y}=6$, 进而由**定义 8.1.5 (样本相关系数)** 得
 
 $$
-r=\frac{40}{\sqrt{10\times 174}}\approx 0.96.
+r=\frac{40}{\sqrt{10\times174}}\approx0.96.
 $$
 
 散点虽然呈曲线 $y=x^2$ 分布, 但 $r$ 仍较接近 $1$.
@@ -662,11 +662,11 @@ $$
 (3) 由数据计算得
 
 $$
-r\approx 0.89.
+r\approx0.89.
 $$
 
 散点呈曲线 $y=x^3$ 分布, $r$ 为正且较大.
 
-(4) 由数据计算得 $\sum_{i=1}^{5}x_i\left(y_i-\overline y\right)=0$, 故由**定义 8.1.5 (样本相关系数)** 得 $r=0$. 散点呈上半圆分布, 两个变量之间存在明显的曲线相关关系, 但线性相关程度为零.
+(4) 由数据计算得 $\sum_{i=1}^{5}x_i\left(y_i-\overline{y}\right)=0$, 故由**定义 8.1.5 (样本相关系数)** 得 $r=0$. 散点呈上半圆分布, 两个变量之间存在明显的曲线相关关系, 但线性相关程度为零.
 
 由以上四例可见: 样本相关系数 $r$ 只刻画成对样本数据的线性相关程度, 当 $r=0$ 时只表明两个变量之间没有线性相关关系, 并不排除它们之间存在其他 (如曲线) 相关关系; $r$ 的绝对值接近 $1$ 时, 数据也可能呈曲线分布, 故应结合散点图综合判断. $\blacksquare$

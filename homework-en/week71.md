@@ -54,13 +54,13 @@ You may also, according to your own interest, determine a topic to study after c
 
 ## Activity Requirements
 
-(1) Form a cooperative team. Form research groups of $3\sim 5$ people in the class, with each student joining one group. Within the group, designate a group leader so that every member has a clear division of labor. Draw up the research topic, determine the research plan, outline the research steps, compile a research handbook, and then give a topic-opening report in class.
+(1) Form a cooperative team. Form research groups of $3\sim5$ people in the class, with each student joining one group. Within the group, designate a group leader so that every member has a clear division of labor. Draw up the research topic, determine the research plan, outline the research steps, compile a research handbook, and then give a topic-opening report in class.
 
 (2) Carry out the research activity. Following the research flow outlined in the topic-opening report, complete the topic research through processes such as background analysis, data collection, data analysis, mathematical modeling, and drawing conclusions. During the research, information-technology tools may be used to solve problems.
 
 (3) Write the research report. As a group, write a research report.
 
-(4) Exchange and present. For the same topic, first have $3\sim 4$ groups exchange with one another, each group presenting its research results, learning from each other and drawing on each other's strengths. On the basis of the group research reports, form a larger-group research report. Select representatives and prepare a presentation to report to the whole class. Together with the teacher, hold a whole-class presentation and exchange of the research results, questioning, debating, evaluating, summarizing the results, sharing reflections, and analyzing shortcomings. Carry out self-evaluation, peer evaluation, and teacher evaluation, completing this mathematical modeling activity.
+(4) Exchange and present. For the same topic, first have $3\sim4$ groups exchange with one another, each group presenting its research results, learning from each other and drawing on each other's strengths. On the basis of the group research reports, form a larger-group research report. Select representatives and prepare a presentation to report to the whole class. Together with the teacher, hold a whole-class presentation and exchange of the research results, questioning, debating, evaluating, summarizing the results, sharing reflections, and analyzing shortcomings. Carry out self-evaluation, peer evaluation, and teacher evaluation, completing this mathematical modeling activity.
 
 ## Reference Format for the Report
 
@@ -104,18 +104,18 @@ The content of the research report includes the following items:
 
 By **Definition 6.1.1 (Classification Addition Counting Principle)**, **Definition 6.1.2 (Stepwise Multiplication Counting Principle)**, **Formula 6.2.3** (Permutation Number Formula) and **Formula 6.2.7** (Combination Number Formula).
 
-(1) When expanding, choose one $a_i$ from the first parentheses and one $b_j$ from the second; each pair $\left(a_i,b_j\right)$ gives one term. By **Definition 6.1.2 (Directed Line Segment)**, the number of terms is $n\times n=n^2$.
+(1) When expanding, choose one $a_i$ from the first parentheses and one $b_j$ from the second; each pair $\left(a_i,b_j\right)$ gives one term. By **Definition 6.1.2 (Directed Line Segment)**, the number of terms is $n\times{n}=n^2$.
 
 (2) Choosing courses and choosing activity groups are two steps. By **Definition 6.1.2 (Directed Line Segment)** and **Formula 6.2.7**, the number of different choices is
 
 $$
-\binom{7}{3}\times \binom{6}{2}=35\times 15=525.
+\binom{7}{3}\times\binom{6}{2}=35\times15=525.
 $$
 
 (3) First arrange that singer: they cannot be first or last, so there are $4$ positions in the middle to choose from. Then arrange the remaining $5$ singers: by **Formula 6.2.3**, there are $\mathrm{P}\left(5,5\right)=120$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of different arrangements is
 
 $$
-4\times 120=480.
+4\times120=480.
 $$
 
 (4) Choose $4$ of the $5$ people to get tickets; by **Formula 6.2.7**, the number of different distributions is $\binom{5}{4}=5$.
@@ -179,10 +179,10 @@ By **Formula 6.2.7** (Combination Number Formula), **Definition 6.1.2 (Stepwise 
 (2) Mathematics is placed in one of the $4$ morning periods: $4$ ways; physical education in one of the $2$ afternoon periods: $2$ ways; the remaining $4$ courses are arranged freely in the remaining $4$ periods: $\mathrm{P}\left(4,4\right)=24$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the number of different arrangements is
 
 $$
-4\times 2\times 24=192.
+4\times2\times24=192.
 $$
 
-(3) Two different English letters have $26\times 25=650$ possibilities; four digits have $10^4=10000$ possibilities. By **Definition 6.1.2 (Directed Line Segment)**, the number of passwords is $650\times 10000=6500000$.
+(3) Two different English letters have $26\times25=650$ possibilities; four digits have $10^4=10000$ possibilities. By **Definition 6.1.2 (Directed Line Segment)**, the number of passwords is $650\times10000=6500000$.
 
 (4) A cube has $8$ vertices; choosing any $4$ gives $\binom{8}{4}=70$ ways. Among them, the cases where the four points are coplanar: $6$ faces plus $6$ diagonal planes, $12$ in all, cannot form a triangular pyramid. By **Definition 6.1.1 (分类加法计数原理)**, the number of triangular pyramids is
 
@@ -232,7 +232,7 @@ $\blacksquare$
 
 (4) Find the coefficient of $x^4$ in the expansion of $\left(1+x+x^2\right)\left(1-x\right)^{10}$;
 
-(5) Find the coefficient of $x^5 y^2$ in the expansion of $\left(x^2+x+y\right)^5$.
+(5) Find the coefficient of $x^5y^2$ in the expansion of $\left(x^2+x+y\right)^5$.
 
 ### Solution to Problem 5
 
@@ -248,18 +248,18 @@ $$
 \left(1+3x\right)^4=1+12x+54x^2+\cdots.
 $$
 
-The coefficient of $x^2$ in the product is $40+\left(-10\right)\times 12+54=-26$. The $3$-rd term in ascending powers is $-26x^2$.
+The coefficient of $x^2$ in the product is $40+\left(-10\right)\times12+54=-26$. The $3$-rd term in ascending powers is $-26x^2$.
 
 (2) The general term is
 
 $$
-T_{k+1}=\binom{18}{k}\left(9x\right)^{18-k}\left(\frac{1}{3\sqrt{x}}\right)^k=\binom{18}{k} 9^{18-k}3^{-k}x^{18-\frac{3k}{2}}.
+T_{k+1}=\binom{18}{k}\left(9x\right)^{18-k}\left(\frac{1}{3\sqrt{x}}\right)^k=\binom{18}{k}9^{18-k}3^{-k}x^{18-\frac{3k}{2}}.
 $$
 
 The constant term requires $18-\frac{3k}{2}=0$, i.e. $k=12$. This term is
 
 $$
-T_{13}=\binom{18}{12}9^6 3^{-12}=\binom{18}{6}\cdot 3^{12}\cdot 3^{-12}=\binom{18}{6}=18564.
+T_{13}=\binom{18}{12}9^63^{-12}=\binom{18}{6}\cdot3^{12}\cdot3^{-12}=\binom{18}{6}=18564.
 $$
 
 (3) The binomial coefficients of the $9$-th, $10$-th, and $11$-th terms are $\binom{n}{8}$, $\binom{n}{9}$, and $\binom{n}{10}$, respectively. Since they form an arithmetic progression,
@@ -282,10 +282,10 @@ $$
 \binom{10}{4}\left(-1\right)^4+\binom{10}{3}\left(-1\right)^3+\binom{10}{2}\left(-1\right)^2=210-120+45=135.
 $$
 
-(5) Regard $\left(x^2+x+y\right)^5$ as $\left(\left(x^2+x\right)+y\right)^5$. The term containing $y^2$ is $\binom{5}{2}\left(x^2+x\right)^3 y^2$. In $\left(x^2+x\right)^3$, the general term is $\binom{3}{k}\left(x^2\right)^{3-k}x^k=\binom{3}{k} x^{6-k}$; setting $6-k=5$ gives $k=1$, with coefficient $\binom{3}{1}=3$. Hence the coefficient of $x^5 y^2$ is
+(5) Regard $\left(x^2+x+y\right)^5$ as $\left(\left(x^2+x\right)+y\right)^5$. The term containing $y^2$ is $\binom{5}{2}\left(x^2+x\right)^3y^2$. In $\left(x^2+x\right)^3$, the general term is $\binom{3}{k}\left(x^2\right)^{3-k}x^k=\binom{3}{k}x^{6-k}$; setting $6-k=5$ gives $k=1$, with coefficient $\binom{3}{1}=3$. Hence the coefficient of $x^5y^2$ is
 
 $$
-\binom{5}{2}\times 3=10\times 3=30.
+\binom{5}{2}\times3=10\times3=30.
 $$
 
 $\blacksquare$
@@ -301,19 +301,19 @@ By **Theorem 6.3.1 (Binomial Theorem)**.
 By the hint, $55^{55}+9=\left(56-1\right)^{55}+9$. By **Theorem 6.3.1 (Fundamental Theorem of Plane Vectors)**,
 
 $$
-\left(56-1\right)^{55}=\binom{55}{0} 56^{55}-\binom{55}{1} 56^{54}+\cdots+\binom{55}{54}56\left(-1\right)^{54}+\left(-1\right)^{55}.
+\left(56-1\right)^{55}=\binom{55}{0}56^{55}-\binom{55}{1}56^{54}+\cdots+\binom{55}{54}56\left(-1\right)^{54}+\left(-1\right)^{55}.
 $$
 
 Since $\left(-1\right)^{55}=-1$,
 
 $$
-55^{55}+9=\binom{55}{0} 56^{55}-\binom{55}{1} 56^{54}+\cdots+\binom{55}{54}56+\left(-1\right)+9.
+55^{55}+9=\binom{55}{0}56^{55}-\binom{55}{1}56^{54}+\cdots+\binom{55}{54}56+\left(-1\right)+9.
 $$
 
 That is,
 
 $$
-55^{55}+9=\binom{55}{0} 56^{55}-\binom{55}{1} 56^{54}+\cdots+\binom{55}{54}56+8.
+55^{55}+9=\binom{55}{0}56^{55}-\binom{55}{1}56^{54}+\cdots+\binom{55}{54}56+8.
 $$
 
 Except for the last term $8$, every other term contains the factor $56$, and $56$ is divisible by $8$; hence $55^{55}+9$ is divisible by $8$. $\blacksquare$
@@ -333,13 +333,13 @@ By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2 (Stepwi
 (1) Forming a parallelogram requires choosing $2$ lines from the first group and $2$ from the second. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
-\binom{m}{2} \binom{n}{2}.
+\binom{m}{2}\binom{n}{2}.
 $$
 
 (2) Forming a parallelepiped requires choosing $2$ planes from each of the three groups. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
-\binom{m}{2} \binom{n}{2} \binom{l}{2}.
+\binom{m}{2}\binom{n}{2}\binom{l}{2}.
 $$
 
 $\blacksquare$
@@ -363,19 +363,19 @@ By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.1 (Classi
 (1) One process cannot be placed last, so there are $4$ positions to choose from; the other $4$ processes are fully permuted: $\mathrm{P}\left(4,4\right)=24$. By **Definition 6.1.2 (Directed Line Segment)**, the number of processing orders is
 
 $$
-4\times 24=96.
+4\times24=96.
 $$
 
 (2) A certain $2$ processes can only be placed in the middle $3$ positions: choose and arrange $2$ of them: $\mathrm{P}\left(3,2\right)=6$; the remaining $3$ processes are fully permuted: $\mathrm{P}\left(3,3\right)=6$. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
-6\times 6=36.
+6\times6=36.
 $$
 
 (3) Bind the $2$ processes that must be adjacent and regard them as one element; together with the other $3$ processes, fully permute the $4$ elements: $\mathrm{P}\left(4,4\right)=24$; permute the $2$ processes within the bundle: $\mathrm{P}\left(2,2\right)=2$. By **Definition 6.1.2 (Directed Line Segment)**, the number is
 
 $$
-24\times 2=48.
+24\times2=48.
 $$
 
 (4) The $5$ processes are fully permuted in $\mathrm{P}\left(5,5\right)=120$ ways. By (3), of these $48$ are adjacent. By **Definition 6.1.1 (分类加法计数原理)**, the number of non-adjacent arrangements is
@@ -410,7 +410,7 @@ Hence the coefficient of the term containing $x^2$ is $\binom{n+3}{3}$. $\blacks
 
 ## Problem 10
 
-(Review Reference Exercise 6, Extension and Exploration, Problem 10) Can you construct a real-world context that explains the meaning of the identity $\binom{n}{k}\cdot \binom{n-k}{m-k}=\binom{n}{m}\cdot \binom{m}{k}$?
+(Review Reference Exercise 6, Extension and Exploration, Problem 10) Can you construct a real-world context that explains the meaning of the identity $\binom{n}{k}\cdot\binom{n-k}{m-k}=\binom{n}{m}\cdot\binom{m}{k}$?
 
 ### Solution to Problem 10
 
@@ -418,33 +418,33 @@ By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2 (Stepwi
 
 Construct the following real-world context: choose $m$ people from $n$ to form a committee, and then choose $k$ of these $m$ to be standing committee members.
 
-Right-hand side $\binom{n}{m}\cdot \binom{m}{k}$: first choose the $m$-person committee, then choose $k$ standing members from the committee.
+Right-hand side $\binom{n}{m}\cdot\binom{m}{k}$: first choose the $m$-person committee, then choose $k$ standing members from the committee.
 
-Left-hand side $\binom{n}{k}\cdot \binom{n-k}{m-k}$: first choose $k$ of the $n$ people to be standing members, then choose $m-k$ of the remaining $n-k$ people to be ordinary committee members.
+Left-hand side $\binom{n}{k}\cdot\binom{n-k}{m-k}$: first choose $k$ of the $n$ people to be standing members, then choose $m-k$ of the remaining $n-k$ people to be ordinary committee members.
 
 The two ways of choosing accomplish the same task; counting by **Definition 6.1.2 (Directed Line Segment)**, the results are equal, so
 
 $$
-\binom{n}{k}\cdot \binom{n-k}{m-k}=\binom{n}{m}\cdot \binom{m}{k}.
+\binom{n}{k}\cdot\binom{n-k}{m-k}=\binom{n}{m}\cdot\binom{m}{k}.
 $$
 
 $\blacksquare$
 
 ## Problem 11
 
-(Review Reference Exercise 7, Review and Consolidation, Problem 1) Give examples to show that $\mathbb P\left(B\right)$ and $\mathbb P\left(B\mid A\right)$ have no definite order relation.
+(Review Reference Exercise 7, Review and Consolidation, Problem 1) Give examples to show that $\mathbb{P}\left(B\right)$ and $\mathbb{P}\left(B\mid{A}\right)$ have no definite order relation.
 
 ### Solution to Problem 11
 
-By **Definition 7.1.1 (Conditional Probability)**, $\mathbb P\left(B\mid A\right)$ is the probability that $B$ occurs given that $A$ has occurred; its order relation with $\mathbb P\left(B\right)$ depends on the specific relationship between events $A$ and $B$.
+By **Definition 7.1.1 (Conditional Probability)**, $\mathbb{P}\left(B\mid{A}\right)$ is the probability that $B$ occurs given that $A$ has occurred; its order relation with $\mathbb{P}\left(B\right)$ depends on the specific relationship between events $A$ and $B$.
 
-(1) An example where $\mathbb P\left(B\mid A\right)> \mathbb P\left(B\right)$. Toss a fair die; let $A$ = "rolling a 2", $B$ = "the rolled number is at most 2". Then $\mathbb P\left(B\right)=\frac{2}{6}=\frac{1}{3}$, and $A\subseteq B$, so whenever $A$ occurs, $B$ must occur, i.e. $\mathbb P\left(B\mid A\right)=1$. Thus $\mathbb P\left(B\mid A\right)=1> \frac{1}{3}=\mathbb P\left(B\right)$.
+(1) An example where $\mathbb{P}\left(B\mid{A}\right)>\mathbb{P}\left(B\right)$. Toss a fair die; let $A$ = "rolling a 2", $B$ = "the rolled number is at most 2". Then $\mathbb{P}\left(B\right)=\frac{2}{6}=\frac{1}{3}$, and $A\subseteq{B}$, so whenever $A$ occurs, $B$ must occur, i.e. $\mathbb{P}\left(B\mid{A}\right)=1$. Thus $\mathbb{P}\left(B\mid{A}\right)=1>\frac{1}{3}=\mathbb{P}\left(B\right)$.
 
-(2) An example where $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$. Toss two fair dice simultaneously; let $A$ = "the first die shows an even number", $B$ = "the second die shows an even number". By **Conclusion 7.1.4** (Mutual Independence of Events), the two dice are independent, so $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)=\frac{1}{2}$.
+(2) An example where $\mathbb{P}\left(B\mid{A}\right)=\mathbb{P}\left(B\right)$. Toss two fair dice simultaneously; let $A$ = "the first die shows an even number", $B$ = "the second die shows an even number". By **Conclusion 7.1.4** (Mutual Independence of Events), the two dice are independent, so $\mathbb{P}\left(B\mid{A}\right)=\mathbb{P}\left(B\right)=\frac{1}{2}$.
 
-(3) An example where $\mathbb P\left(B\mid A\right)< \mathbb P\left(B\right)$. Toss a fair die; let $A$ = "the rolled number is at least 5", $B$ = "the rolled number is at most 4". Then $\mathbb P\left(B\right)=\frac{4}{6}=\frac{2}{3}$, and $A$ and $B$ are mutually exclusive, so whenever $A$ occurs, $B$ cannot occur, i.e. $\mathbb P\left(B\mid A\right)=0$. Thus $\mathbb P\left(B\mid A\right)=0< \frac{2}{3}=\mathbb P\left(B\right)$.
+(3) An example where $\mathbb{P}\left(B\mid{A}\right)<\mathbb{P}\left(B\right)$. Toss a fair die; let $A$ = "the rolled number is at least 5", $B$ = "the rolled number is at most 4". Then $\mathbb{P}\left(B\right)=\frac{4}{6}=\frac{2}{3}$, and $A$ and $B$ are mutually exclusive, so whenever $A$ occurs, $B$ cannot occur, i.e. $\mathbb{P}\left(B\mid{A}\right)=0$. Thus $\mathbb{P}\left(B\mid{A}\right)=0<\frac{2}{3}=\mathbb{P}\left(B\right)$.
 
-In summary, $\mathbb P\left(B\mid A\right)$ may be greater than, equal to, or less than $\mathbb P\left(B\right)$; the two have no definite order relation. $\blacksquare$
+In summary, $\mathbb{P}\left(B\mid{A}\right)$ may be greater than, equal to, or less than $\mathbb{P}\left(B\right)$; the two have no definite order relation. $\blacksquare$
 
 ## Problem 12
 
@@ -458,18 +458,18 @@ In summary, $\mathbb P\left(B\mid A\right)$ may be greater than, equal to, or le
 
 By **Conclusion 7.1.4** (Mutual Independence of Events), the numbers rolled by the two dice are independent.
 
-Let $A$ = "the first die is even", $B$ = "the second die is even". The probability that each die shows an even number is $\frac{3}{6}=\frac{1}{2}$, so $\mathbb P\left(A\right)=\mathbb P\left(B\right)=\frac{1}{2}$.
+Let $A$ = "the first die is even", $B$ = "the second die is even". The probability that each die shows an even number is $\frac{3}{6}=\frac{1}{2}$, so $\mathbb{P}\left(A\right)=\mathbb{P}\left(B\right)=\frac{1}{2}$.
 
 (1) By **Conclusion 7.1.4** (Mutual Independence of Events), the probability that both numbers are even is
 
 $$
-\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}.
+\mathbb{P}\left(AB\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}.
 $$
 
 (2) By **Conclusion 7.1.4** (Mutual Independence of Events), given that the first die is even, whether the second is even is unaffected, so
 
 $$
-\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)=\frac{1}{2}.
+\mathbb{P}\left(B\mid{A}\right)=\mathbb{P}\left(B\right)=\frac{1}{2}.
 $$
 
 $\blacksquare$
@@ -486,24 +486,24 @@ $\blacksquare$
 
 By **Conclusion 7.1.5** (Law of Total Probability) and **Conclusion 7.1.6** (Bayes' Formula).
 
-Let $A_1$ = "the chosen box is the first", $A_2$ = "the chosen box is the second", $B$ = "the drawn part is defective". Choosing a box at random gives $\mathbb P\left(A_1\right)=\mathbb P\left(A_2\right)=\frac{1}{2}$. The defective rate of the first box is $\frac{2}{10}=0.2$, and that of the second is $\frac{3}{20}=0.15$, so $\mathbb P\left(B\mid A_1\right)=0.2$, $\mathbb P\left(B\mid A_2\right)=0.15$.
+Let $A_1$ = "the chosen box is the first", $A_2$ = "the chosen box is the second", $B$ = "the drawn part is defective". Choosing a box at random gives $\mathbb{P}\left(A_1\right)=\mathbb{P}\left(A_2\right)=\frac{1}{2}$. The defective rate of the first box is $\frac{2}{10}=0.2$, and that of the second is $\frac{3}{20}=0.15$, so $\mathbb{P}\left(B\mid{A}_1\right)=0.2$, $\mathbb{P}\left(B\mid{A}_2\right)=0.15$.
 
 (1) By **Conclusion 7.1.5** (Law of Total Probability),
 
 $$
-\mathbb P\left(B\right)=\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)+\mathbb P\left(A_2\right)\mathbb P\left(B\mid A_2\right).
+\mathbb{P}\left(B\right)=\mathbb{P}\left(A_1\right)\mathbb{P}\left(B\mid{A}_1\right)+\mathbb{P}\left(A_2\right)\mathbb{P}\left(B\mid{A}_2\right).
 $$
 
 Substituting the data,
 
 $$
-\mathbb P\left(B\right)=\frac{1}{2}\times 0.2+\frac{1}{2}\times 0.15=0.1+0.075=0.175.
+\mathbb{P}\left(B\right)=\frac{1}{2}\times0.2+\frac{1}{2}\times0.15=0.1+0.075=0.175.
 $$
 
 (2) By **Conclusion 7.1.6** (Bayes' Formula),
 
 $$
-\mathbb P\left(A_1\mid B\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)}{\mathbb P\left(B\right)}=\frac{\frac{1}{2}\times 0.2}{0.175}=\frac{0.1}{0.175}=\frac{4}{7}.
+\mathbb{P}\left(A_1\mid{B}\right)=\frac{\mathbb{P}\left(A_1\right)\mathbb{P}\left(B\mid{A}_1\right)}{\mathbb{P}\left(B\right)}=\frac{\frac{1}{2}\times0.2}{0.175}=\frac{0.1}{0.175}=\frac{4}{7}.
 $$
 
 $\blacksquare$
@@ -516,7 +516,7 @@ $\blacksquare$
 |---|---|---|---|
 | $P$ | 0.36 | $1-2q$ | $q^2$ |
 
-Find: (1) the value of the constant $q$; (2) $\mathbb E\left(X\right)$ and $D\left(X\right)$.
+Find: (1) the value of the constant $q$; (2) $\mathbb{E}\left(X\right)$ and $D\left(X\right)$.
 
 ### Solution to Problem 14
 
@@ -534,44 +534,44 @@ $$
 q^2-2q+0.36=0.
 $$
 
-Solving this quadratic equation gives $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm 1.6}{2}$, i.e. $q=1.8$ or $q=0.2$. When $q=1.8$, $1-2q=-2.6< 0$, which violates $p_i\ge 0$ in **Definition 7.2.3 (Distribution List)**, so it is discarded; when $q=0.2$, $1-2q=0.6\ge 0$, $q^2=0.04\ge 0$, and $0.36+0.6+0.04=1$, which meets the requirement. Hence $q=0.2$.
+Solving this quadratic equation gives $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm1.6}{2}$, i.e. $q=1.8$ or $q=0.2$. When $q=1.8$, $1-2q=-2.6<0$, which violates $p_i\ge0$ in **Definition 7.2.3 (Distribution List)**, so it is discarded; when $q=0.2$, $1-2q=0.6\ge0$, $q^2=0.04\ge0$, and $0.36+0.6+0.04=1$, which meets the requirement. Hence $q=0.2$.
 
 (2) By **Definition 7.3.1 (Mean or Mathematical Expectation)**,
 
 $$
-\mathbb E\left(X\right)=0\times 0.36+1\times 0.6+2\times 0.04=0.68.
+\mathbb{E}\left(X\right)=0\times0.36+1\times0.6+2\times0.04=0.68.
 $$
 
 Also,
 
 $$
-\mathbb E\left(X^2\right)=0^2\times 0.36+1^2\times 0.6+2^2\times 0.04=0.76.
+\mathbb{E}\left(X^2\right)=0^2\times0.36+1^2\times0.6+2^2\times0.04=0.76.
 $$
 
 By **Conclusion 7.3.4** (Simplified Formula for the Variance),
 
 $$
-D\left(X\right)=\mathbb E\left(X^2\right)-\left[\mathbb E\left(X\right)\right]^2=0.76-0.68^2=0.76-0.4624=0.2976.
+D\left(X\right)=\mathbb{E}\left(X^2\right)-\left[\mathbb{E}\left(X\right)\right]^2=0.76-0.68^2=0.76-0.4624=0.2976.
 $$
 
 $\blacksquare$
 
 ## Problem 15
 
-(Review Reference Exercise 7, Review and Consolidation, Problem 5) The random variable $X$ takes all the values $1$, $2$, $\cdots$, $n$ with equal probability, and $\mathbb E\left(X\right)=10$. Find $n$.
+(Review Reference Exercise 7, Review and Consolidation, Problem 5) The random variable $X$ takes all the values $1$, $2$, $\cdots$, $n$ with equal probability, and $\mathbb{E}\left(X\right)=10$. Find $n$.
 
 ### Solution to Problem 15
 
 By **Definition 7.3.1 (Mean or Mathematical Expectation)**, $X$ takes each value with probability $\frac{1}{n}$, so
 
 $$
-\mathbb E\left(X\right)=\frac{1+2+\cdots+n}{n}.
+\mathbb{E}\left(X\right)=\frac{1+2+\cdots+n}{n}.
 $$
 
 By the summation formula for an arithmetic progression, $1+2+\cdots+n=\frac{n\left(n+1\right)}{2}$; substituting,
 
 $$
-\mathbb E\left(X\right)=\frac{n+1}{2}.
+\mathbb{E}\left(X\right)=\frac{n+1}{2}.
 $$
 
-By the problem, $\mathbb E\left(X\right)=10$, so $\frac{n+1}{2}=10$, solving gives $n=19$. $\blacksquare$
+By the problem, $\mathbb{E}\left(X\right)=10$, so $\frac{n+1}{2}=10$, solving gives $n=19$. $\blacksquare$

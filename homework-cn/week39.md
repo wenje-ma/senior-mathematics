@@ -134,7 +134,7 @@
 
 ## 习题一
 
-(复习参考题 6 综合运用第 15 题) 已知 $\triangle P_1P_2P_3$, 向量 $\boldsymbol{OP_1}$, $\boldsymbol{OP_2}$, $\boldsymbol{OP_3}$ 满足条件 $\boldsymbol{OP_1}+\boldsymbol{OP_2}+\boldsymbol{OP_3}=\boldsymbol{0}$, $\lvert\boldsymbol{OP_1}\rvert=\lvert\boldsymbol{OP_2}\rvert=\lvert\boldsymbol{OP_3}\rvert$. 求证: $\triangle P_1P_2P_3$ 是等边三角形.
+(复习参考题 6 综合运用第 15 题) 已知 $\triangle{P}_1P_2P_3$, 向量 $\boldsymbol{OP_1}$, $\boldsymbol{OP_2}$, $\boldsymbol{OP_3}$ 满足条件 $\boldsymbol{OP_1}+\boldsymbol{OP_2}+\boldsymbol{OP_3}=\boldsymbol{0}$, $\lvert\boldsymbol{OP_1}\rvert=\lvert\boldsymbol{OP_2}\rvert=\lvert\boldsymbol{OP_3}\rvert$. 求证: $\triangle{P}_1P_2P_3$ 是等边三角形.
 
 ### 解答 习题一
 
@@ -144,11 +144,11 @@
 
 $\boldsymbol{OP_1}+\boldsymbol{OP_2}=-\boldsymbol{OP_3}$. 两边平方: $\boldsymbol{OP_1}^2+\boldsymbol{OP_2}^2+2\boldsymbol{OP_1}\cdot\boldsymbol{OP_2}=\boldsymbol{OP_3}^2$.
 
-$R^2+R^2+2R^2\cos\angle P_1OP_2=R^2$. $\cos\angle P_1OP_2=-\frac{1}{2}$. $\angle P_1OP_2=120^{\circ}$.
+$R^2+R^2+2R^2\cos\angle{P}_1OP_2=R^2$. $\cos\angle{P}_1OP_2=-\frac{1}{2}$. $\angle{P}_1OP_2=120^{\circ}$.
 
-同理 $\angle P_2OP_3=\angle P_3OP_1=120^{\circ}$.
+同理 $\angle{P}_2OP_3=\angle{P}_3OP_1=120^{\circ}$.
 
-$P_1P_2^2=R^2+R^2-2R^2\cos120^{\circ}=3R^2$. $P_1P_2=R\sqrt 3$.
+$P_1P_2^2=R^2+R^2-2R^2\cos120^{\circ}=3R^2$. $P_1P_2=R\sqrt3$.
 
 三边长相等, 故为等边三角形. $\blacksquare$
 
@@ -170,7 +170,7 @@ $\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}
 
 ## 习题三
 
-(复习参考题 6 拓广探索第 17 题) 一个人骑自行车由 $A$ 地出发向东骑行了 $9\text{ km}$ 到达 $B$ 地, 然后由 $B$ 地向南偏东 $30^{\circ}$ 方向骑行了 $6\text{ km}$ 到达 $C$ 地, 再从 $C$ 地向北偏东 $30^{\circ}$ 骑行了 $16\text{ km}$ 到达 $D$ 地, 求这个人由 $A$ 地到 $D$ 地的位移 (角度精确到 $1^{\circ}$).
+(复习参考题 6 拓广探索第 17 题) 一个人骑自行车由 $A$ 地出发向东骑行了 $9\text{~km}$ 到达 $B$ 地, 然后由 $B$ 地向南偏东 $30^{\circ}$ 方向骑行了 $6\text{~km}$ 到达 $C$ 地, 再从 $C$ 地向北偏东 $30^{\circ}$ 骑行了 $16\text{~km}$ 到达 $D$ 地, 求这个人由 $A$ 地到 $D$ 地的位移 (角度精确到 $1^{\circ}$).
 
 ### 解答 习题三
 
@@ -180,15 +180,15 @@ $\boldsymbol{MN}=\boldsymbol{ON}-\boldsymbol{OM}=2\boldsymbol{b}-2\boldsymbol{a}
 
 $\boldsymbol{AB}=\left(9,0\right)$.
 
-$\boldsymbol{BC}=6\left(\sin30^{\circ},-\cos30^{\circ}\right)=\left(3,-3\sqrt 3\right)$.
+$\boldsymbol{BC}=6\left(\sin30^{\circ},-\cos30^{\circ}\right)=\left(3,-3\sqrt3\right)$.
 
-$\boldsymbol{CD}=16\left(\sin30^{\circ},\cos30^{\circ}\right)=\left(8,8\sqrt 3\right)$.
+$\boldsymbol{CD}=16\left(\sin30^{\circ},\cos30^{\circ}\right)=\left(8,8\sqrt3\right)$.
 
-$\boldsymbol{AD}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\left(9+3+8,0-3\sqrt 3+8\sqrt 3\right)=\left(20,5\sqrt 3\right)$.
+$\boldsymbol{AD}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\left(9+3+8,0-3\sqrt3+8\sqrt3\right)=\left(20,5\sqrt3\right)$.
 
-$\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text{ km}$.
+$\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text{~km}$.
 
-方向: $\tan\theta=\frac{5\sqrt 3}{20}=\frac{\sqrt 3}{4}$. $\theta\approx23^{\circ}$, 即东偏北 $23^{\circ}$. $\blacksquare$
+方向: $\tan\theta=\frac{5\sqrt3}{20}=\frac{\sqrt3}{4}$. $\theta\approx23^{\circ}$, 即东偏北 $23^{\circ}$. $\blacksquare$
 
 ## 习题四
 
@@ -202,9 +202,9 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 ## 习题五
 
-(复习参考题 6 拓广探索第 19 题) 如图, 直线 $l$ 与 $\triangle ABC$ 的边 $AB$, $AC$ 分别相交于点 $D$, $E$. 设 $AB=c$, $BC=a$, $CA=b$, $\angle ADE=\theta$, 请用向量方法探究 $\theta$ 与 $\triangle ABC$ 的边和角之间的等量关系.
+(复习参考题 6 拓广探索第 19 题) 如图, 直线 $l$ 与 $\triangle{A}BC$ 的边 $AB$, $AC$ 分别相交于点 $D$, $E$. 设 $AB=c$, $BC=a$, $CA=b$, $\angle{A}DE=\theta$, 请用向量方法探究 $\theta$ 与 $\triangle{A}BC$ 的边和角之间的等量关系.
 
-(题图: $\triangle ABC$, 一条直线 $l$ 与 $AB$ 交于 $D$, 与 $AC$ 交于 $E$; $\angle ADE=\theta$.)
+(题图: $\triangle{A}BC$, 一条直线 $l$ 与 $AB$ 交于 $D$, 与 $AC$ 交于 $E$; $\angle{A}DE=\theta$.)
 
 ### 解答 习题五
 
@@ -212,9 +212,9 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 设 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$. $D$ 在 $AB$ 上, $E$ 在 $AC$ 上.
 
-由向量数量积: $\boldsymbol{DE}\cdot\boldsymbol{AB}=\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AB}\rvert\cos\angle ADE$.
+由向量数量积: $\boldsymbol{DE}\cdot\boldsymbol{AB}=\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AB}\rvert\cos\angle{A}DE$.
 
-结合正弦定理, 可推导得 $\theta$ 与三角形边角的关系: $\frac{\sin\theta}{a}=\frac{\sin A}{DE}$ 等形式. $\blacksquare$
+结合正弦定理, 可推导得 $\theta$ 与三角形边角的关系: $\frac{\sin\theta}{a}=\frac{\sin{A}}{DE}$ 等形式. $\blacksquare$
 
 ## 习题六
 
@@ -240,7 +240,7 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 (D) $2-\mathrm{i}$
 
-(3) 当 $\frac{2}{3}< m< 1$ 时, 复数 $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ 在复平面内对应的点位于 ( ).
+(3) 当 $\frac{2}{3}<{}m<1$ 时, 复数 $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)$ 在复平面内对应的点位于 ( ).
 
 (A) 第一象限
 
@@ -250,7 +250,7 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 (D) 第四象限
 
-(4) 复数 $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$ 的辐角主值是 ( ).
+(4) 复数 $\sin40^{\circ}-\mathrm{i}\cos40^{\circ}$ 的辐角主值是 ( ).
 
 (A) $40^{\circ}$
 
@@ -266,9 +266,9 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 (2) 由**定义 7.2.7 (复数除法法则)**, $\frac{5}{\mathrm{i}-2}=\frac{5\left(-2-\mathrm{i}\right)}{\left(\mathrm{i}-2\right)\left(-2-\mathrm{i}\right)}=\frac{-10-5\mathrm{i}}{5}=-2-\mathrm{i}$. 由**定义 7.1.10 (共轭复数)**, 其共轭复数为 $-2+\mathrm{i}$, 即 $\mathrm{i}-2$. 故选 (B).
 
-(3) 由**定义 7.2.1 (复数加法法则)** 与**定义 7.2.2 (复数减法法则)**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. 当 $\frac{2}{3}< m< 1$ 时, $3m-2> 0$, $m-1< 0$. 由**定义 7.1.8 (复数的几何意义)**, 实部为正, 虚部为负的点位于第四象限. 故选 (D).
+(3) 由**定义 7.2.1 (复数加法法则)** 与**定义 7.2.2 (复数减法法则)**, $m\left(3+\mathrm{i}\right)-\left(2+\mathrm{i}\right)=\left(3m-2\right)+\left(m-1\right)\mathrm{i}$. 当 $\frac{2}{3}<{}m<1$ 时, $3m-2>0$, $m-1<0$. 由**定义 7.1.8 (复数的几何意义)**, 实部为正, 虚部为负的点位于第四象限. 故选 (D).
 
-(4) $\sin 40^{\circ}-\mathrm{i}\cos 40^{\circ}$. 由三角恒等式, $\sin 40^{\circ}=\cos 50^{\circ}$, $\cos 40^{\circ}=\sin 50^{\circ}$, 故原式 $=\cos 50^{\circ}-\mathrm{i}\sin 50^{\circ}=\cos\left(-50^{\circ}\right)+\mathrm{i}\sin\left(-50^{\circ}\right)=\cos 310^{\circ}+\mathrm{i}\sin 310^{\circ}$. 由**定义 7.3.3 (辐角主值)**, 辐角主值为 $310^{\circ}$. 故选 (D). $\blacksquare$
+(4) $\sin40^{\circ}-\mathrm{i}\cos40^{\circ}$. 由三角恒等式, $\sin40^{\circ}=\cos50^{\circ}$, $\cos40^{\circ}=\sin50^{\circ}$, 故原式 $=\cos50^{\circ}-\mathrm{i}\sin50^{\circ}=\cos\left(-50^{\circ}\right)+\mathrm{i}\sin\left(-50^{\circ}\right)=\cos310^{\circ}+\mathrm{i}\sin310^{\circ}$. 由**定义 7.3.3 (辐角主值)**, 辐角主值为 $310^{\circ}$. 故选 (D). $\blacksquare$
 
 ## 习题七
 
@@ -284,21 +284,21 @@ $\lvert\boldsymbol{AD}\rvert=\sqrt{400+75}=\sqrt{475}=5\sqrt{19}\approx21.8\text
 
 ### 解答 习题七
 
-(1) 设 $z=a-4\mathrm{i}$. 由**定义 7.1.9 (复数的模)**, $\lvert z \rvert=\sqrt{a^2+\left(-4\right)^2}=5$, 故 $a^2+16=25$, $a^2=9$, $a=\pm 3$. 所以 $z=3-4\mathrm{i}$ 或 $z=-3-4\mathrm{i}$.
+(1) 设 $z=a-4\mathrm{i}$. 由**定义 7.1.9 (复数的模)**, $\lvert{z}\rvert=\sqrt{a^2+\left(-4\right)^2}=5$, 故 $a^2+16=25$, $a^2=9$, $a=\pm3$. 所以 $z=3-4\mathrm{i}$ 或 $z=-3-4\mathrm{i}$.
 
 (2) 由**定义 7.1.10 (共轭复数)**, $\overline{z}=1+2\mathrm{i}$. 由**定义 7.2.7 (复数除法法则)**, $\frac{1}{\overline{z}}=\frac{1}{1+2\mathrm{i}}=\frac{1-2\mathrm{i}}{\left(1+2\mathrm{i}\right)\left(1-2\mathrm{i}\right)}=\frac{1-2\mathrm{i}}{5}=\frac{1}{5}-\frac{2}{5}\mathrm{i}$.
 
 (3) 由**定义 7.2.2 (复数减法法则)**, $\boldsymbol{BA}=\boldsymbol{OA}-\boldsymbol{OB}$. 对应复数为 $\left(-1+\mathrm{i}\right)-\left(3-4\mathrm{i}\right)=-4+5\mathrm{i}$.
 
-(4) 向量 $\boldsymbol{OZ}$ 对应复数 $4\mathrm{i}=4\left(\cos 90^{\circ}+\mathrm{i}\sin 90^{\circ}\right)$. 由**常用结论 7.3.7** (乘法的几何意义), 逆时针旋转 $45^{\circ}$ 并将模变为原来的 $\sqrt{2}$ 倍: 模为 $4\sqrt{2}$, 辐角为 $90^{\circ}+45^{\circ}=135^{\circ}$. 化为代数形式: $4\sqrt{2}\left(\cos 135^{\circ}+\mathrm{i}\sin 135^{\circ}\right)=4\sqrt{2}\left(-\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}\right)=-4+4\mathrm{i}$. $\blacksquare$
+(4) 向量 $\boldsymbol{OZ}$ 对应复数 $4\mathrm{i}=4\left(\cos90^{\circ}+\mathrm{i}\sin90^{\circ}\right)$. 由**常用结论 7.3.7** (乘法的几何意义), 逆时针旋转 $45^{\circ}$ 并将模变为原来的 $\sqrt{2}$ 倍: 模为 $4\sqrt{2}$, 辐角为 $90^{\circ}+45^{\circ}=135^{\circ}$. 化为代数形式: $4\sqrt{2}\left(\cos135^{\circ}+\mathrm{i}\sin135^{\circ}\right)=4\sqrt{2}\left(-\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}\mathrm{i}\right)=-4+4\mathrm{i}$. $\blacksquare$
 
 ## 习题八
 
-(复习参考题 7 复习巩固第 3 题) 求证: $z\cdot\overline{z}=\lvert z \rvert^2=\lvert \overline{z} \rvert^2$.
+(复习参考题 7 复习巩固第 3 题) 求证: $z\cdot\overline{z}=\lvert{z}\rvert^2=\lvert\overline{z}\rvert^2$.
 
 ### 解答 习题八
 
-设 $z=a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$. 由**定义 7.1.10 (共轭复数)**, $\overline{z}=a-b\mathrm{i}$.
+设 $z=a+b\mathrm{i}\,\left(a,b\in\mathbb{R}\right)$. 由**定义 7.1.10 (共轭复数)**, $\overline{z}=a-b\mathrm{i}$.
 
 由**定义 7.2.5 (复数乘法法则)**,
 
@@ -306,9 +306,9 @@ $$
 z\cdot\overline{z}=\left(a+b\mathrm{i}\right)\left(a-b\mathrm{i}\right)=a^2-b^2\mathrm{i}^2=a^2+b^2.
 $$
 
-由**定义 7.1.9 (复数的模)**, $\lvert z \rvert^2=a^2+b^2$, $\lvert \overline{z} \rvert^2=a^2+\left(-b\right)^2=a^2+b^2$.
+由**定义 7.1.9 (复数的模)**, $\lvert{z}\rvert^2=a^2+b^2$, $\lvert\overline{z}\rvert^2=a^2+\left(-b\right)^2=a^2+b^2$.
 
-故 $z\cdot\overline{z}=\lvert z \rvert^2=\lvert \overline{z} \rvert^2$. $\blacksquare$
+故 $z\cdot\overline{z}=\lvert{z}\rvert^2=\lvert\overline{z}\rvert^2$. $\blacksquare$
 
 ## 习题九
 
@@ -316,7 +316,7 @@ $$
 
 ### 解答 习题九
 
-由**定义 7.1.6 (纯虚数)**, 设 $z=b\mathrm{i}\ \left(b\in\mathbb R, b\neq 0\right)$.
+由**定义 7.1.6 (纯虚数)**, 设 $z=b\mathrm{i}\,\left(b\in\mathbb{R},b\neq0\right)$.
 
 则 $z+2=2+b\mathrm{i}$. 由**定义 7.2.5 (复数乘法法则)**,
 
@@ -332,13 +332,13 @@ $$
 4-b^2=0,
 $$
 
-得 $b=\pm 2$. 又须 $4b-8\neq 0$, 即 $b\neq 2$, 故 $b=-2$.
+得 $b=\pm2$. 又须 $4b-8\neq0$, 即 $b\neq2$, 故 $b=-2$.
 
 因此 $z=-2\mathrm{i}$. $\blacksquare$
 
 ## 习题十
 
-(复习参考题 7 复习巩固第 5 题) 在复数集 $\mathbb C$ 中解下列方程:
+(复习参考题 7 复习巩固第 5 题) 在复数集 $\mathbb{C}$ 中解下列方程:
 
 (1) $4x^2+9=0$;
 
@@ -348,10 +348,10 @@ $$
 
 (1) 由 $4x^2+9=0$, 得 $x^2=-\frac{9}{4}$. 因为 $\left(\frac{3}{2}\mathrm{i}\right)^2=\left(-\frac{3}{2}\mathrm{i}\right)^2=-\frac{9}{4}$, 所以 $x=\pm\frac{3}{2}\mathrm{i}$.
 
-(2) 展开 $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. 这里 $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4< 0$. 由**定义 7.2.8 (求根公式)**,
+(2) 展开 $\left(x-3\right)\left(x-5\right)+2=x^2-8x+15+2=x^2-8x+17=0$. 这里 $a=1$, $b=-8$, $c=17$, $\Delta=64-68=-4<0$. 由**定义 7.2.8 (求根公式)**,
 
 $$
-x=\frac{8\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{8\pm 2\mathrm{i}}{2}=4\pm\mathrm{i}.
+x=\frac{8\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{8\pm2\mathrm{i}}{2}=4\pm\mathrm{i}.
 $$
 
 即 $x=4+\mathrm{i}$ 或 $x=4-\mathrm{i}$. $\blacksquare$
@@ -404,7 +404,7 @@ $$
 
 (复习参考题 7 综合运用第 8 题) (1) 求 $\mathrm{i}^1$, $\mathrm{i}^2$, $\mathrm{i}^3$, $\mathrm{i}^4$, $\mathrm{i}^5$, $\mathrm{i}^6$, $\mathrm{i}^7$, $\mathrm{i}^8$ 的值;
 
-(2) 由 (1) 推测 $\mathrm{i}^n\ \left(n\in\mathbb N^*\right)$ 的值有什么变化规律, 并把这个规律用式子表示出来.
+(2) 由 (1) 推测 $\mathrm{i}^n\,\left(n\in\mathbb{N}^*\right)$ 的值有什么变化规律, 并把这个规律用式子表示出来.
 
 ### 解答 习题十三
 
@@ -428,11 +428,11 @@ $$
 
 (h) $\mathrm{i}^8=\mathrm{i}^7\cdot\mathrm{i}=1$.
 
-(2) 由 (1), $\mathrm{i}^n$ 的值以 $4$ 为周期循环出现: $\mathrm{i}$, $-1$, $-\mathrm{i}$, $1$. 规律为: 当 $n=4k+1$ 时 $\mathrm{i}^n=\mathrm{i}$; 当 $n=4k+2$ 时 $\mathrm{i}^n=-1$; 当 $n=4k+3$ 时 $\mathrm{i}^n=-\mathrm{i}$; 当 $n=4k+4$ 时 $\mathrm{i}^n=1$ ($k\in\mathbb N$). $\blacksquare$
+(2) 由 (1), $\mathrm{i}^n$ 的值以 $4$ 为周期循环出现: $\mathrm{i}$, $-1$, $-\mathrm{i}$, $1$. 规律为: 当 $n=4k+1$ 时 $\mathrm{i}^n=\mathrm{i}$; 当 $n=4k+2$ 时 $\mathrm{i}^n=-1$; 当 $n=4k+3$ 时 $\mathrm{i}^n=-\mathrm{i}$; 当 $n=4k+4$ 时 $\mathrm{i}^n=1$ ($k\in\mathbb{N}$). $\blacksquare$
 
 ## 习题十四
 
-(复习参考题 7 拓广探索第 9 题) 已知复数 $z_1=m+\left(4-m^2\right)\mathrm{i}\ \left(m\in\mathbb R\right)$, $z_2=2\cos\theta+\left(\lambda+3\sin\theta\right)\mathrm{i}\ \left(\lambda,\theta\in\mathbb R\right)$, 并且 $z_1=z_2$, 求 $\lambda$ 的取值范围.
+(复习参考题 7 拓广探索第 9 题) 已知复数 $z_1=m+\left(4-m^2\right)\mathrm{i}\,\left(m\in\mathbb{R}\right)$, $z_2=2\cos\theta+\left(\lambda+3\sin\theta\right)\mathrm{i}\,\left(\lambda,\theta\in\mathbb{R}\right)$, 并且 $z_1=z_2$, 求 $\lambda$ 的取值范围.
 
 ### 解答 习题十四
 
@@ -464,18 +464,18 @@ $$
 
 ## 习题十五
 
-(复习参考题 7 拓广探索第 10 题) 在复平面的上半平面内有一个菱形 $OABC$, $\angle AOC=120^{\circ}$, 点 $A$ 所对应的复数是 $2+\mathrm{i}$, 求另外两个顶点 $B$, $C$ 所对应的复数.
+(复习参考题 7 拓广探索第 10 题) 在复平面的上半平面内有一个菱形 $OABC$, $\angle{A}OC=120^{\circ}$, 点 $A$ 所对应的复数是 $2+\mathrm{i}$, 求另外两个顶点 $B$, $C$ 所对应的复数.
 
 ### 解答 习题十五
 
 由**常用结论 7.3.7** (复数乘法的几何意义), 将向量 $\boldsymbol{OA}$ 旋转角即得向量 $\boldsymbol{OC}$.
 
-菱形 $OABC$ 中, $O$ 为原点, $\angle AOC=120^{\circ}$, 且 $\lvert \boldsymbol{OA} \rvert=\lvert \boldsymbol{OC} \rvert$ (菱形边长相等). 点 $A$ 对应复数 $z_A=2+\mathrm{i}$.
+菱形 $OABC$ 中, $O$ 为原点, $\angle{A}OC=120^{\circ}$, 且 $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{OC}\rvert$ (菱形边长相等). 点 $A$ 对应复数 $z_A=2+\mathrm{i}$.
 
 将 $\boldsymbol{OA}$ 绕点 $O$ 逆时针旋转 $120^{\circ}$ 得 $\boldsymbol{OC}$ (因在上半平面内):
 
 $$
-z_C=\left(2+\mathrm{i}\right)\left(\cos 120^{\circ}+\mathrm{i}\sin 120^{\circ}\right)=\left(2+\mathrm{i}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right).
+z_C=\left(2+\mathrm{i}\right)\left(\cos120^{\circ}+\mathrm{i}\sin120^{\circ}\right)=\left(2+\mathrm{i}\right)\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right).
 $$
 
 展开:
@@ -516,21 +516,21 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 ## 习题十七
 
-(复习参考题8 复习巩固第 2 题) 在直四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, $AA_{1}=4$.
+(复习参考题8 复习巩固第 2 题) 在直四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, $AB\parallel{C}D$, $\angle{D}AB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, $AA_{1}=4$.
 
 (1) 画出四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 的直观图;
 
 (2) 将四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 补成一个长方体, 并说出补上的几何体的名称.
 
-(题图: 直四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 底面 $ABCD$ 为直角梯形, $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, 侧棱 $AA_{1}=4$ 垂直底面.)
+(题图: 直四棱柱 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, 底面 $ABCD$ 为直角梯形, $AB\parallel{C}D$, $\angle{D}AB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, 侧棱 $AA_{1}=4$ 垂直底面.)
 
 ### 解答 习题十七
 
 由**定义 8.1.4 (棱柱)** 及斜二测画法.
 
-(1) 按斜二测画法: 取 $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴, $AA_{1}$ 为 $z$ 轴. 在 $x'$ 轴上取 $AB=2$, $DC=1$ (因 $AB\parallel CD$), 在 $y'$ 轴上取 $AD=1.5$ (取一半), 连接成直角梯形 $ABCD$; 沿 $z$ 轴方向取 $AA_{1}=4$, 画出上底面 $A_{1}B_{1}C_{1}D_{1}$, 连接侧棱.
+(1) 按斜二测画法: 取 $AB$ 为 $x$ 轴, $AD$ 为 $y$ 轴, $AA_{1}$ 为 $z$ 轴. 在 $x'$ 轴上取 $AB=2$, $DC=1$ (因 $AB\parallel{C}D$), 在 $y'$ 轴上取 $AD=1.5$ (取一半), 连接成直角梯形 $ABCD$; 沿 $z$ 轴方向取 $AA_{1}=4$, 画出上底面 $A_{1}B_{1}C_{1}D_{1}$, 连接侧棱.
 
-(2) 底面 $ABCD$ 是直角梯形 ($AB=2$, $CD=1$, $AD=3$, $\angle DAB=90^{\circ}$). 补上一个与原直四棱柱等高的直三棱柱 (底面为直角三角形, 两条直角边分别为 $1$ 和 $3$), 即可补成一个长方体 (长 $2$, 宽 $3$, 高 $4$). $\blacksquare$
+(2) 底面 $ABCD$ 是直角梯形 ($AB=2$, $CD=1$, $AD=3$, $\angle{D}AB=90^{\circ}$). 补上一个与原直四棱柱等高的直三棱柱 (底面为直角三角形, 两条直角边分别为 $1$ 和 $3$), 即可补成一个长方体 (长 $2$, 宽 $3$, 高 $4$). $\blacksquare$
 
 ## 习题十八
 
@@ -546,11 +546,11 @@ $n$ 棱台: 上下底各 $n$ 个顶点, 共 $V=2n$; 侧棱 $n$ 条, 上下底各
 
 (1) 正方体表面积 $S=6a^{2}$, 体积 $V=a^{3}$. 棱长扩大 $n$ 倍后, $S'=6\left(na\right)^{2}=n^{2}S$, $V'=\left(na\right)^{3}=n^{3}V$. 故表面积扩大 $n^{2}$ 倍, 体积扩大 $n^{3}$ 倍.
 
-(2) 球表面积 $S=4\pi R^{2}$, 体积 $V=\frac{4}{3}\pi R^{3}$. 半径扩大 $n$ 倍后, $S'=4\pi\left(nR\right)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi\left(nR\right)^{3}=n^{3}V$. 故表面积扩大 $n^{2}$ 倍, 体积扩大 $n^{3}$ 倍. $\blacksquare$
+(2) 球表面积 $S=4\pi{R}^{2}$, 体积 $V=\frac{4}{3}\pi{R}^{3}$. 半径扩大 $n$ 倍后, $S'=4\pi\left(nR\right)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi\left(nR\right)^{3}=n^{3}V$. 故表面积扩大 $n^{2}$ 倍, 体积扩大 $n^{3}$ 倍. $\blacksquare$
 
 ## 习题十九
 
-(复习参考题8 复习巩固第 4 题) 如图, 一块边长为 $10\text{ cm}$ 的正方形铁片上有四块阴影部分. 将这些阴影部分裁下来, 然后用余下的四个全等的等腰三角形加工成一个正四棱锥形容器, 把容器的容积 $V$ (单位: $\text{cm}^{3}$) 表示为 $x$ (单位: $\text{cm}$) 的函数.
+(复习参考题8 复习巩固第 4 题) 如图, 一块边长为 $10\text{~cm}$ 的正方形铁片上有四块阴影部分. 将这些阴影部分裁下来, 然后用余下的四个全等的等腰三角形加工成一个正四棱锥形容器, 把容器的容积 $V$ (单位: $\text{cm}^{3}$) 表示为 $x$ (单位: $\text{cm}$) 的函数.
 
 (图: 正方形边长 $10$, 中间正方形边长 $x$, 四个等腰三角形底为 $x$, 高为 $5$.)
 
@@ -569,7 +569,7 @@ $$
 故容积
 
 $$
-V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad \left(0< x< 10\right).
+V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad\left(0<{}x<10\right).
 $$
 
 $\blacksquare$
@@ -598,16 +598,16 @@ $\blacksquare$
 
 (复习参考题8 复习巩固第 6 题) 已知 $\alpha$, $\beta$, $\gamma$ 是三个平面, 且 $\alpha\cap\beta=a$, $\alpha\cap\gamma=b$, $\beta\cap\gamma=c$.
 
-(1) 若 $a\cap b=O$, 求证: $a$, $b$, $c$ 三线共点.
+(1) 若 $a\cap{b}=O$, 求证: $a$, $b$, $c$ 三线共点.
 
-(2) 若 $a\parallel b$, 则 $a$ 与 $c$, $b$ 与 $c$ 有什么关系? 为什么?
+(2) 若 $a\parallel{b}$, 则 $a$ 与 $c$, $b$ 与 $c$ 有什么关系? 为什么?
 
 ### 解答 习题二十一
 
 由**基本事实 8.4.4** (基本事实 3).
 
-(1) 因为 $a\cap b=O$, $a=\alpha\cap\beta$, $b=\alpha\cap\gamma$, 故 $O\in\beta$ 且 $O\in\gamma$. 又 $\beta\cap\gamma=c$, 由**基本事实 8.4.4** (基本事实 3), $O\in c$. 故 $a$, $b$, $c$ 三线共点于 $O$.
+(1) 因为 $a\cap{b}=O$, $a=\alpha\cap\beta$, $b=\alpha\cap\gamma$, 故 $O\in\beta$ 且 $O\in\gamma$. 又 $\beta\cap\gamma=c$, 由**基本事实 8.4.4** (基本事实 3), $O\in{c}$. 故 $a$, $b$, $c$ 三线共点于 $O$.
 
-(2) 因为 $a\parallel b$, $b\subset\gamma$, $a\not\subset\gamma$, 故 $a\parallel\gamma$. 又 $a\subset\beta$, $\beta\cap\gamma=c$, 由线面平行的性质, $a\parallel c$. 又 $a\parallel b$, 故 $b\parallel c$.
+(2) 因为 $a\parallel{b}$, $b\subset\gamma$, $a\not\subset\gamma$, 故 $a\parallel\gamma$. 又 $a\subset\beta$, $\beta\cap\gamma=c$, 由线面平行的性质, $a\parallel{c}$. 又 $a\parallel{b}$, 故 $b\parallel{c}$.
 
-故 $a\parallel c$, $b\parallel c$. $\blacksquare$
+故 $a\parallel{c}$, $b\parallel{c}$. $\blacksquare$

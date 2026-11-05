@@ -2,7 +2,7 @@
 
 > **定义 4.4.1 (对数函数)**
 > 
-> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+> 一般地, 函数 $y=\log_ax$ ($a>0$, 且 $a\neq1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
 
 > **定义 4.4.2 (反函数)**
 > 
@@ -32,17 +32,17 @@
 
 (习题 4.4 综合运用第 7 题) 判断下列各对函数是否互为反函数. 若是, 则求出它们的定义域和值域.
 
-(1) $y=\ln x$, $y=\mathrm e^x$;
+(1) $y=\ln{x}$, $y=\mathrm{e}^x$;
 
-(2) $y=-\log_a x$, $y=\left(\frac{1}{a}\right)^x$.
+(2) $y=-\log_ax$, $y=\left(\frac{1}{a}\right)^x$.
 
 ### 解答 习题二
 
 由**定义 4.4.2 (反函数)**.
 
-(1) $y=\ln x$ 与 $y=\mathrm e^x$ 互为反函数. $y=\ln x$ 的定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb R$; $y=\mathrm e^x$ 的定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$.
+(1) $y=\ln{x}$ 与 $y=\mathrm{e}^x$ 互为反函数. $y=\ln{x}$ 的定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb{R}$; $y=\mathrm{e}^x$ 的定义域为 $\mathbb{R}$, 值域为 $\left(0,+\infty\right)$.
 
-(2) $y=-\log_a x=\log_{\frac{1}{a}} x$, 它与 $y=\left(\frac{1}{a}\right)^x$ 互为反函数. $y=\log_{\frac{1}{a}} x$ 的定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb R$; $y=\left(\frac{1}{a}\right)^x$ 的定义域为 $\mathbb R$, 值域为 $\left(0,+\infty\right)$. $\blacksquare$
+(2) $y=-\log_ax=\log_{\frac{1}{a}}x$, 它与 $y=\left(\frac{1}{a}\right)^x$ 互为反函数. $y=\log_{\frac{1}{a}}x$ 的定义域为 $\left(0,+\infty\right)$, 值域为 $\mathbb{R}$; $y=\left(\frac{1}{a}\right)^x$ 的定义域为 $\mathbb{R}$, 值域为 $\left(0,+\infty\right)$. $\blacksquare$
 
 ## 习题三
 
@@ -68,7 +68,7 @@
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-每年降低 $15\%$, 即每年患病率为原来的 $0.85$. 设需要 $x$ 年, 则 $0.85^x=0.5$. 由对数定义, $x=\log_{0.85} 0.5=\frac{\lg 0.5}{\lg 0.85}\approx\frac{-0.3010}{-0.0706}\approx 4.3$. 故约 $5$ 年后患病率降低一半. $\blacksquare$
+每年降低 $15\%$, 即每年患病率为原来的 $0.85$. 设需要 $x$ 年, 则 $0.85^x=0.5$. 由对数定义, $x=\log_{0.85}0.5=\frac{\lg0.5}{\lg0.85}\approx\frac{-0.3010}{-0.0706}\approx4.3$. 故约 $5$ 年后患病率降低一半. $\blacksquare$
 
 ## 习题五
 
@@ -82,9 +82,9 @@
 
 由**常用结论 4.3.4** (对数运算性质).
 
-(1) 当 $I=1$ 时, $L_I=10\lg\frac{1}{10^{-12}}=10\lg 10^{12}=120\;\mathrm{dB}$; 当 $I=10^{-12}$ 时, $L_I=10\lg 1=0\;\mathrm{dB}$. 故人听觉的声强级范围为 $\left[0,120\right]\;\mathrm{dB}$.
+(1) 当 $I=1$ 时, $L_I=10\lg\frac{1}{10^{-12}}=10\lg10^{12}=120\;\mathrm{dB}$; 当 $I=10^{-12}$ 时, $L_I=10\lg1=0\;\mathrm{dB}$. 故人听觉的声强级范围为 $\left[0,120\right]\;\mathrm{dB}$.
 
-(2) 当 $I=10^{-6}$ 时, $L_I=10\lg\frac{10^{-6}}{10^{-12}}=10\lg 10^6=60\;\mathrm{dB}$. $\blacksquare$
+(2) 当 $I=10^{-6}$ 时, $L_I=10\lg\frac{10^{-6}}{10^{-12}}=10\lg10^6=60\;\mathrm{dB}$. $\blacksquare$
 
 ## 习题六
 
@@ -102,35 +102,35 @@
 
 (1) $P_1$ 按直线上升, 为一次函数. 设 $P_1=kt+b$, 由 $t=0$ 时 $P_1=20$ 得 $b=20$; 由 $t=10$ 时 $P_1=40$ 得 $10k+20=40$, $k=2$. 故 $P_1=f\left(t\right)=2t+20$.
 
-(2) $P_2$ 按指数增长, 设 $P_2=20\cdot a^\top$. 由 $t=10$ 时 $P_2=40$ 得 $20\cdot a^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. 故 $P_2=g\left(t\right)=20\cdot 2^{\frac{t}{10}}$.
+(2) $P_2$ 按指数增长, 设 $P_2=20\cdot{a}^\top$. 由 $t=10$ 时 $P_2=40$ 得 $20\cdot{a}^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. 故 $P_2=g\left(t\right)=20\cdot2^{\frac{t}{10}}$.
 
-(3) 当 $t=5$ 时, $P_1=30$, $P_2=20\cdot 2^{0.5}\approx 28.3$; 当 $t=15$ 时, $P_1=50$, $P_2=20\cdot 2^{1.5}\approx 56.6$; 当 $t=20$ 时, $P_1=60$, $P_2=80$. 直线增长保持固定速度, 指数增长速度越来越快, 长期来看指数增长最终超过直线增长. $\blacksquare$
+(3) 当 $t=5$ 时, $P_1=30$, $P_2=20\cdot2^{0.5}\approx28.3$; 当 $t=15$ 时, $P_1=50$, $P_2=20\cdot2^{1.5}\approx56.6$; 当 $t=20$ 时, $P_1=60$, $P_2=80$. 直线增长保持固定速度, 指数增长速度越来越快, 长期来看指数增长最终超过直线增长. $\blacksquare$
 
 ## 习题七
 
-(习题 4.4 拓广探索第 12 题) 已知 $\log_a\frac{1}{2}< 1$, $\left(\frac{1}{2}\right)^a< 1$, $a^{\frac{1}{2}}< 1$, 求实数 $a$ 的取值范围.
+(习题 4.4 拓广探索第 12 题) 已知 $\log_a\frac{1}{2}<1$, $\left(\frac{1}{2}\right)^a<1$, $a^{\frac{1}{2}}<1$, 求实数 $a$ 的取值范围.
 
 ### 解答 习题七
 
 由**常用结论 4.4.3** (对数函数的图象和性质) 与**常用结论 4.2.2** (指数函数的图象和性质).
 
-由 $\left(\frac{1}{2}\right)^a< 1=\left(\frac{1}{2}\right)^0$, 底数 $\frac{1}{2}\in\left(0,1\right)$ 递减, 得 $a> 0$. 由 $a^{\frac{1}{2}}< 1$, 得 $0< a< 1$. 再由 $\log_a\frac{1}{2}< 1=\log_a a$: 当 $0< a< 1$ 时, $y=\log_a x$ 递减, 由 $\log_a\frac{1}{2}< \log_a a$ 得 $\frac{1}{2}> a$, 即 $a< \frac{1}{2}$. 综合得 $0< a< \frac{1}{2}$. $\blacksquare$
+由 $\left(\frac{1}{2}\right)^a<1=\left(\frac{1}{2}\right)^0$, 底数 $\frac{1}{2}\in\left(0,1\right)$ 递减, 得 $a>0$. 由 $a^{\frac{1}{2}}<1$, 得 $0<{}a<1$. 再由 $\log_a\frac{1}{2}<1=\log_aa$: 当 $0<{}a<1$ 时, $y=\log_ax$ 递减, 由 $\log_a\frac{1}{2}<\log_aa$ 得 $\frac{1}{2}>{}a$, 即 $a<\frac{1}{2}$. 综合得 $0<{}a<\frac{1}{2}$. $\blacksquare$
 
 ## 习题八
 
 (习题 4.4 拓广探索第 13 题) 比较下列各题中三个值的大小.
 
-(1) $\log_{0.2} 6$, $\log_{0.3} 6$, $\log_{0.4} 6$;
+(1) $\log_{0.2}6$, $\log_{0.3}6$, $\log_{0.4}6$;
 
-(2) $\log_2 3$, $\log_3 4$, $\log_4 5$.
+(2) $\log_23$, $\log_34$, $\log_45$.
 
 ### 解答 习题八
 
 由**常用结论 4.3.5** (对数换底公式).
 
-(1) 由换底公式, $\log_a 6=\frac{\ln 6}{\ln a}$. 因 $0.2< 0.3< 0.4< 1$, 故 $\ln 0.2< \ln 0.3< \ln 0.4< 0$. 分子 $\ln 6> 0$ 为正, 分母为负, 分母越负 (越小), 分数值越小. 故 $\log_{0.2} 6< \log_{0.3} 6< \log_{0.4} 6$.
+(1) 由换底公式, $\log_a6=\frac{\ln6}{\ln{a}}$. 因 $0.2<0.3<0.4<1$, 故 $\ln0.2<\ln0.3<\ln0.4<0$. 分子 $\ln6>0$ 为正, 分母为负, 分母越负 (越小), 分数值越小. 故 $\log_{0.2}6<\log_{0.3}6<\log_{0.4}6$.
 
-(2) 由换底公式, $\log_2 3=\frac{\ln 3}{\ln 2}\approx 1.585$, $\log_3 4=\frac{\ln 4}{\ln 3}\approx 1.262$, $\log_4 5=\frac{\ln 5}{\ln 4}\approx 1.161$. 故 $\log_4 5< \log_3 4< \log_2 3$. $\blacksquare$
+(2) 由换底公式, $\log_23=\frac{\ln3}{\ln2}\approx1.585$, $\log_34=\frac{\ln4}{\ln3}\approx1.262$, $\log_45=\frac{\ln5}{\ln4}\approx1.161$. 故 $\log_45<\log_34<\log_23$. $\blacksquare$
 
 ## 练习一
 
@@ -140,7 +140,7 @@
 
 ### 解答 练习一
 
-由**常用结论 4.5.2** (函数零点存在定理), 图象连续且 $f\left(a\right)f\left(b\right)< 0$ 只能保证区间内至少有一个零点, 不能保证只有一个.
+由**常用结论 4.5.2** (函数零点存在定理), 图象连续且 $f\left(a\right)f\left(b\right)<0$ 只能保证区间内至少有一个零点, 不能保证只有一个.
 
 仅凭一个范围的图象不能得出函数在某个区间只有一个零点的判断. 因为图象可能在该区间内多次穿过 $x$ 轴, 也可能与 $x$ 轴相切, 还可能存在其他未显示的零点. 要判断零点个数, 还需结合函数的单调性或更广泛范围的图象. $\blacksquare$
 
@@ -152,23 +152,23 @@
 
 (2) $f\left(x\right)=2x\ln\left(x-2\right)-3$;
 
-(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$;
+(3) $f\left(x\right)=\mathrm{e}^{x-1}+4x-4$;
 
 (4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$.
 
-图:共四幅小坐标图.(1) $f\left(x\right)=-x^3-3x+5$ 为一条三次曲线,在 $x=1$ 附近位于 $x$ 轴上方,$x=2$ 附近位于下方,零点在 $\left(1,2\right)$;(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ 定义域为 $x> 2$,在 $x=3$ 附近位于 $x$ 轴下方,$x=4$ 附近位于上方,零点在 $\left(3,4\right)$;(3) $f\left(x\right)=\mathrm e^{x-1}+4x-4$ 为一条单调上升曲线,在 $x=0$ 附近位于下方,$x=1$ 附近位于上方,零点在 $\left(0,1\right)$;(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ 为一条多次穿越 $x$ 轴的曲线,零点分别在 $\left(-4,-3\right)$,$\left(-3,-2\right)$,$\left(2,3\right)$ 三处.
+图:共四幅小坐标图.(1) $f\left(x\right)=-x^3-3x+5$ 为一条三次曲线,在 $x=1$ 附近位于 $x$ 轴上方,$x=2$ 附近位于下方,零点在 $\left(1,2\right)$;(2) $f\left(x\right)=2x\ln\left(x-2\right)-3$ 定义域为 $x>2$,在 $x=3$ 附近位于 $x$ 轴下方,$x=4$ 附近位于上方,零点在 $\left(3,4\right)$;(3) $f\left(x\right)=\mathrm{e}^{x-1}+4x-4$ 为一条单调上升曲线,在 $x=0$ 附近位于下方,$x=1$ 附近位于上方,零点在 $\left(0,1\right)$;(4) $f\left(x\right)=3\left(x+2\right)\left(x-3\right)\left(x+4\right)+x$ 为一条多次穿越 $x$ 轴的曲线,零点分别在 $\left(-4,-3\right)$,$\left(-3,-2\right)$,$\left(2,3\right)$ 三处.
 
 ### 解答 练习二
 
 由**常用结论 4.5.2** (函数零点存在定理), 找到端点函数值异号的区间即可.
 
-(1) $f\left(1\right)=1> 0$, $f\left(2\right)=-8-6+5=-9< 0$, 故零点在 $\left(1,2\right)$.
+(1) $f\left(1\right)=1>0$, $f\left(2\right)=-8-6+5=-9<0$, 故零点在 $\left(1,2\right)$.
 
-(2) 定义域为 $x> 2$. $f\left(3\right)=6\ln 1-3=-3< 0$, $f\left(4\right)=8\ln 2-3\approx 2.54> 0$, 故零点在 $\left(3,4\right)$.
+(2) 定义域为 $x>2$. $f\left(3\right)=6\ln1-3=-3<0$, $f\left(4\right)=8\ln2-3\approx2.54>0$, 故零点在 $\left(3,4\right)$.
 
-(3) $f\left(0\right)=\mathrm e^{-1}-4< 0$, $f\left(1\right)=1+4-4=1> 0$, 故零点在 $\left(0,1\right)$.
+(3) $f\left(0\right)=\mathrm{e}^{-1}-4<0$, $f\left(1\right)=1+4-4=1>0$, 故零点在 $\left(0,1\right)$.
 
-(4) $f\left(-4\right)=-4< 0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15> 0$, 零点在 $\left(-4,-3\right)$; $f\left(-2\right)=-2< 0$, 零点在 $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70< 0$, $f\left(3\right)=3> 0$, 零点在 $\left(2,3\right)$. $\blacksquare$
+(4) $f\left(-4\right)=-4<0$, $f\left(-3\right)=3\left(-1\right)\left(-6\right)\left(1\right)-3=15>0$, 零点在 $\left(-4,-3\right)$; $f\left(-2\right)=-2<0$, 零点在 $\left(-3,-2\right)$; $f\left(2\right)=3\left(4\right)\left(-1\right)\left(6\right)+2=-70<0$, $f\left(3\right)=3>0$, 零点在 $\left(2,3\right)$. $\blacksquare$
 
 ## 练习三
 
@@ -178,17 +178,17 @@
 
 由**定义 4.5.3 (二分法)**.
 
-$f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55< 0$, 零点在 $\left(0.5,1\right)$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.316> 0$, 零点在 $\left(0.5,0.75\right)$. 取中点 $0.625$, $f\left(0.625\right)\approx -0.163< 0$, 零点在 $\left(0.625,0.75\right)$. 此时 $\lvert 0.75-0.625\rvert=0.125> 0.1$. 取中点 $0.6875$, $f\left(0.6875\right)\approx 0.064> 0$, 零点在 $\left(0.625,0.6875\right)$. 此时 $\lvert 0.6875-0.625\rvert=0.0625< 0.1$. 故零点近似值可取 $0.625$. $\blacksquare$
+$f\left(0\right)=-1.4<0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6>0$. 取中点 $0.5$, $f\left(0.5\right)=0.125+0.275+0.45-1.4=-0.55<0$, 零点在 $\left(0.5,1\right)$. 取中点 $0.75$, $f\left(0.75\right)\approx0.316>0$, 零点在 $\left(0.5,0.75\right)$. 取中点 $0.625$, $f\left(0.625\right)\approx-0.163<0$, 零点在 $\left(0.625,0.75\right)$. 此时 $\lvert0.75-0.625\rvert=0.125>0.1$. 取中点 $0.6875$, $f\left(0.6875\right)\approx0.064>0$, 零点在 $\left(0.625,0.6875\right)$. 此时 $\lvert0.6875-0.625\rvert=0.0625<0.1$. 故零点近似值可取 $0.625$. $\blacksquare$
 
 ## 练习四
 
-(练习 4.5 第 4 题) 借助信息技术, 用二分法求方程 $x=3-\lg x$ 在区间 $\left(2,3\right)$ 内的近似解 (精确度为 $0.1$).
+(练习 4.5 第 4 题) 借助信息技术, 用二分法求方程 $x=3-\lg{x}$ 在区间 $\left(2,3\right)$ 内的近似解 (精确度为 $0.1$).
 
 ### 解答 练习四
 
 由**定义 4.5.3 (二分法)**.
 
-原方程即 $x+\lg x-3=0$. 令 $f\left(x\right)=x+\lg x-3$. $f\left(2\right)=2+\lg 2-3\approx -0.699< 0$, $f\left(3\right)=\lg 3\approx 0.477> 0$. 取中点 $2.5$, $f\left(2.5\right)\approx -0.102< 0$, 零点在 $\left(2.5,3\right)$. 取中点 $2.75$, $f\left(2.75\right)\approx 0.189> 0$, 零点在 $\left(2.5,2.75\right)$. 取中点 $2.625$, $f\left(2.625\right)\approx 0.045> 0$, 零点在 $\left(2.5,2.625\right)$. 此时 $\lvert 2.625-2.5\rvert=0.125> 0.1$. 取中点 $2.5625$, $f\left(2.5625\right)\approx -0.029< 0$, 零点在 $\left(2.5625,2.625\right)$. 此时 $\lvert 2.625-2.5625\rvert=0.0625< 0.1$. 故方程近似解可取 $2.5625$. $\blacksquare$
+原方程即 $x+\lg{x}-3=0$. 令 $f\left(x\right)=x+\lg{x}-3$. $f\left(2\right)=2+\lg2-3\approx-0.699<0$, $f\left(3\right)=\lg3\approx0.477>0$. 取中点 $2.5$, $f\left(2.5\right)\approx-0.102<0$, 零点在 $\left(2.5,3\right)$. 取中点 $2.75$, $f\left(2.75\right)\approx0.189>0$, 零点在 $\left(2.5,2.75\right)$. 取中点 $2.625$, $f\left(2.625\right)\approx0.045>0$, 零点在 $\left(2.5,2.625\right)$. 此时 $\lvert2.625-2.5\rvert=0.125>0.1$. 取中点 $2.5625$, $f\left(2.5625\right)\approx-0.029<0$, 零点在 $\left(2.5625,2.625\right)$. 此时 $\lvert2.625-2.5625\rvert=0.0625<0.1$. 故方程近似解可取 $2.5625$. $\blacksquare$
 
 ## 练习五
 
@@ -202,7 +202,7 @@ $f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型) 与**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 1650 年模型为 $y=5\mathrm e^{0.003t}$. 令 $5\mathrm e^{0.003t}=10$, 即 $\mathrm e^{0.003t}=2$, $t=\frac{\ln 2}{0.003}\approx 231$. 即约 1881 年. 1970 年模型为 $y=36\mathrm e^{0.021t}$. 令 $36\mathrm e^{0.021t}=72$, 即 $\mathrm e^{0.021t}=2$, $t=\frac{\ln 2}{0.021}\approx 33$. 即约 2003 年.
+(1) 1650 年模型为 $y=5\mathrm{e}^{0.003t}$. 令 $5\mathrm{e}^{0.003t}=10$, 即 $\mathrm{e}^{0.003t}=2$, $t=\frac{\ln2}{0.003}\approx231$. 即约 1881 年. 1970 年模型为 $y=36\mathrm{e}^{0.021t}$. 令 $36\mathrm{e}^{0.021t}=72$, 即 $\mathrm{e}^{0.021t}=2$, $t=\frac{\ln2}{0.021}\approx33$. 即约 2003 年.
 
 (2) 马尔萨斯人口模型在短期内较准确, 但长期内受资源, 政策, 战争等多种因素影响, 实际人口增长会偏离模型预测. $\blacksquare$
 
@@ -214,7 +214,7 @@ $f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-设经过 $n$ 次倍增, $10^4\times 2^n=10^8$, 即 $2^n=10^4$, $n=\log_2 10^4=4\log_2 10\approx 13.29$. 倍增期为 $21$ 个月 $=1.75$ 年, 故年数约为 $13.29\times 1.75\approx 23.3$ 年. $\blacksquare$
+设经过 $n$ 次倍增, $10^4\times2^n=10^8$, 即 $2^n=10^4$, $n=\log_210^4=4\log_210\approx13.29$. 倍增期为 $21$ 个月 $=1.75$ 年, 故年数约为 $13.29\times1.75\approx23.3$ 年. $\blacksquare$
 
 ## 练习七
 
@@ -224,7 +224,7 @@ $f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-碳 $14$ 的半衰期为 $5730$ 年, 残余量模型为 $y=k\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x$. 令 $\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x=0.6276$, 则 $x=\log_{\sqrt\left[5730\right]{1/2}} 0.6276=\frac{\ln 0.6276}{\ln\sqrt\left[5730\right]{1/2}}=\frac{5730\ln 0.6276}{\ln\left(1/2\right)}\approx\frac{5730\times\left(-0.466\right)}{-0.693}\approx 3850$. 故该样本约为 $3850$ 年前, 即约公元前 $1950$ 年, 二里头遗址大概建于公元前 $2000$ 年前后. $\blacksquare$
+碳 $14$ 的半衰期为 $5730$ 年, 残余量模型为 $y=k\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x$. 令 $\left(\sqrt\left[5730\right]{\frac{1}{2}}\right)^x=0.6276$, 则 $x=\log_{\sqrt\left[5730\right]{1/2}}0.6276=\frac{\ln0.6276}{\ln\sqrt\left[5730\right]{1/2}}=\frac{5730\ln0.6276}{\ln\left(1/2\right)}\approx\frac{5730\times\left(-0.466\right)}{-0.693}\approx3850$. 故该样本约为 $3850$ 年前, 即约公元前 $1950$ 年, 二里头遗址大概建于公元前 $2000$ 年前后. $\blacksquare$
 
 ## 练习八
 
@@ -252,7 +252,7 @@ $f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.
 
 (1) 肉鸡数量增长量较均匀, 近似线性函数; 人口数增长量也较均匀, 近似线性函数. 肉鸡可近似为 $y=156.8x+7533$ ($x$ 为 2008 年起的年数); 人口可近似为 $y=1.27x+99.3$.
 
-(2) 2017 年人均肉鸡 $9080/111.3\approx 81.6\;\mathrm{kg/人}$; 2018 年人均肉鸡 $9230/112.7\approx 81.9\;\mathrm{kg/人}$, 略高于 2017 年, 基本能满足市场需求.
+(2) 2017 年人均肉鸡 $9080/111.3\approx81.6\;\mathrm{kg/人}$; 2018 年人均肉鸡 $9230/112.7\approx81.9\;\mathrm{kg/人}$, 略高于 2017 年, 基本能满足市场需求.
 
 (3) 人口增长速度略快于肉鸡增长速度, 人均肉鸡占有量增长有限, 建议继续扩大肉鸡养殖规模, 以满足人口增长带来的需求. $\blacksquare$
 
@@ -262,9 +262,9 @@ $f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.
 
 ### 解答 习题九
 
-由**定义 4.5.3 (二分法)**, 二分法要求 $f\left(a\right)f\left(b\right)< 0$, 即图象穿过 $x$ 轴.
+由**定义 4.5.3 (二分法)**, 二分法要求 $f\left(a\right)f\left(b\right)<0$, 即图象穿过 $x$ 轴.
 
-图 ① 中图象与 $x$ 轴相切 (不穿过), 图 ③ 中图象多次与 $x$ 轴相切 (接触但不穿过), 均不满足 $f\left(a\right)f\left(b\right)< 0$, 不能用二分法. 图 ② 和图 ④ 中图象穿过 $x$ 轴, 可以用二分法. 故不能用二分法求零点的是 ①③. $\blacksquare$
+图 ① 中图象与 $x$ 轴相切 (不穿过), 图 ③ 中图象多次与 $x$ 轴相切 (接触但不穿过), 均不满足 $f\left(a\right)f\left(b\right)<0$, 不能用二分法. 图 ② 和图 ④ 中图象穿过 $x$ 轴, 可以用二分法. 故不能用二分法求零点的是 ①③. $\blacksquare$
 
 ## 习题十
 
@@ -274,7 +274,7 @@ $f\left(0\right)=-1.4< 0$, $f\left(1\right)=1+1.1+0.9-1.4=1.6> 0$. 取中点 $0.
 
 由**常用结论 4.5.2** (函数零点存在定理).
 
-$f\left(2\right)=15.552> 0$, $f\left(3\right)=-3.92< 0$, $f\left(2\right)f\left(3\right)< 0$, 故 $\left(2,3\right)$ 内一定有零点; $f\left(3\right)< 0$, $f\left(4\right)=10.88> 0$, $f\left(3\right)f\left(4\right)< 0$, 故 $\left(3,4\right)$ 内一定有零点; $f\left(4\right)> 0$, $f\left(5\right)=-52.488< 0$, $f\left(4\right)f\left(5\right)< 0$, 故 $\left(4,5\right)$ 内一定有零点. $\blacksquare$
+$f\left(2\right)=15.552>0$, $f\left(3\right)=-3.92<0$, $f\left(2\right)f\left(3\right)<0$, 故 $\left(2,3\right)$ 内一定有零点; $f\left(3\right)<0$, $f\left(4\right)=10.88>0$, $f\left(3\right)f\left(4\right)<0$, 故 $\left(3,4\right)$ 内一定有零点; $f\left(4\right)>0$, $f\left(5\right)=-52.488<0$, $f\left(4\right)f\left(5\right)<0$, 故 $\left(4,5\right)$ 内一定有零点. $\blacksquare$
 
 ## 习题十一
 
@@ -284,27 +284,27 @@ $f\left(2\right)=15.552> 0$, $f\left(3\right)=-3.92< 0$, $f\left(2\right)f\left(
 
 由**常用结论 4.5.2** (函数零点存在定理).
 
-令 $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1> 0$, $g\left(1\right)=1-3+1=-1< 0$, $g\left(0\right)g\left(1\right)< 0$, 故 $g\left(x\right)$ 在 $\left(0,1\right)$ 内至少有一个零点; $g\left(1\right)< 0$, $g\left(2\right)=8-6+1=3> 0$, $g\left(1\right)g\left(2\right)< 0$, 故 $g\left(x\right)$ 在 $\left(1,2\right)$ 内至少有一个零点. 因此方程 $f\left(x\right)=x$ 在 $\left(-1,2\right)$ 内至少有两个实数解. $\blacksquare$
+令 $g\left(x\right)=f\left(x\right)-x=x^3-3x+1$. $g\left(0\right)=1>0$, $g\left(1\right)=1-3+1=-1<0$, $g\left(0\right)g\left(1\right)<0$, 故 $g\left(x\right)$ 在 $\left(0,1\right)$ 内至少有一个零点; $g\left(1\right)<0$, $g\left(2\right)=8-6+1=3>0$, $g\left(1\right)g\left(2\right)<0$, 故 $g\left(x\right)$ 在 $\left(1,2\right)$ 内至少有一个零点. 因此方程 $f\left(x\right)=x$ 在 $\left(-1,2\right)$ 内至少有两个实数解. $\blacksquare$
 
 ## 习题十二
 
-(习题 4.5 复习巩固第 4 题) 利用信息技术, 用二分法求函数 $f\left(x\right)=\ln x-\frac{2}{x}$ 的零点 (精确度为 $0.1$).
+(习题 4.5 复习巩固第 4 题) 利用信息技术, 用二分法求函数 $f\left(x\right)=\ln{x}-\frac{2}{x}$ 的零点 (精确度为 $0.1$).
 
 ### 解答 习题十二
 
 由**定义 4.5.3 (二分法)**.
 
-$f\left(2\right)=\ln 2-1\approx -0.307< 0$, $f\left(3\right)=\ln 3-\frac{2}{3}\approx 0.432> 0$. 取中点 $2.5$, $f\left(2.5\right)\approx 0.116> 0$, 零点在 $\left(2,2.5\right)$. 取中点 $2.25$, $f\left(2.25\right)\approx -0.078< 0$, 零点在 $\left(2.25,2.5\right)$. 取中点 $2.375$, $f\left(2.375\right)\approx 0.023> 0$, 零点在 $\left(2.25,2.375\right)$. 此时 $\lvert 2.375-2.25\rvert=0.125> 0.1$. 取中点 $2.3125$, $f\left(2.3125\right)\approx -0.027< 0$, 零点在 $\left(2.3125,2.375\right)$. 此时 $\lvert 2.375-2.3125\rvert=0.0625< 0.1$. 故零点近似值可取 $2.3125$. $\blacksquare$
+$f\left(2\right)=\ln2-1\approx-0.307<0$, $f\left(3\right)=\ln3-\frac{2}{3}\approx0.432>0$. 取中点 $2.5$, $f\left(2.5\right)\approx0.116>0$, 零点在 $\left(2,2.5\right)$. 取中点 $2.25$, $f\left(2.25\right)\approx-0.078<0$, 零点在 $\left(2.25,2.5\right)$. 取中点 $2.375$, $f\left(2.375\right)\approx0.023>0$, 零点在 $\left(2.25,2.375\right)$. 此时 $\lvert2.375-2.25\rvert=0.125>0.1$. 取中点 $2.3125$, $f\left(2.3125\right)\approx-0.027<0$, 零点在 $\left(2.3125,2.375\right)$. 此时 $\lvert2.375-2.3125\rvert=0.0625<0.1$. 故零点近似值可取 $2.3125$. $\blacksquare$
 
 ## 习题十三
 
-(习题 4.5 复习巩固第 5 题) 利用信息技术, 用二分法求方程 $0.8^x-1=\ln x$ 的近似解 (精确度为 $0.1$).
+(习题 4.5 复习巩固第 5 题) 利用信息技术, 用二分法求方程 $0.8^x-1=\ln{x}$ 的近似解 (精确度为 $0.1$).
 
 ### 解答 习题十三
 
 由**定义 4.5.3 (二分法)**.
 
-令 $f\left(x\right)=0.8^x-1-\ln x$. $f\left(0.5\right)=0.8^{0.5}-1-\ln 0.5\approx 0.587> 0$, $f\left(1\right)=0.8-1-0=-0.2< 0$. 取中点 $0.75$, $f\left(0.75\right)\approx 0.134> 0$, 零点在 $\left(0.75,1\right)$. 取中点 $0.875$, $f\left(0.875\right)\approx -0.045< 0$, 零点在 $\left(0.75,0.875\right)$. 取中点 $0.8125$, $f\left(0.8125\right)\approx 0.042> 0$, 零点在 $\left(0.8125,0.875\right)$. 此时 $\lvert 0.875-0.8125\rvert=0.0625< 0.1$. 故方程近似解可取 $0.8125$. $\blacksquare$
+令 $f\left(x\right)=0.8^x-1-\ln{x}$. $f\left(0.5\right)=0.8^{0.5}-1-\ln0.5\approx0.587>0$, $f\left(1\right)=0.8-1-0=-0.2<0$. 取中点 $0.75$, $f\left(0.75\right)\approx0.134>0$, 零点在 $\left(0.75,1\right)$. 取中点 $0.875$, $f\left(0.875\right)\approx-0.045<0$, 零点在 $\left(0.75,0.875\right)$. 取中点 $0.8125$, $f\left(0.8125\right)\approx0.042>0$, 零点在 $\left(0.8125,0.875\right)$. 此时 $\lvert0.875-0.8125\rvert=0.0625<0.1$. 故方程近似解可取 $0.8125$. $\blacksquare$
 
 ## 习题十四
 
@@ -314,17 +314,17 @@ $f\left(2\right)=\ln 2-1\approx -0.307< 0$, $f\left(3\right)=\ln 3-\frac{2}{3}\a
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-$64\;\mathrm{MB}=64\times 1024=65536\;\mathrm{KB}$. 设复制 $n$ 次后达到 $65536\;\mathrm{KB}$, 则 $2\times 2^n=65536$, 即 $2^{n+1}=2^{15}$, $n=14$. 每次间隔 $3$ 分, 故时间为 $14\times 3=42$ 分. $\blacksquare$
+$64\;\mathrm{MB}=64\times1024=65536\;\mathrm{KB}$. 设复制 $n$ 次后达到 $65536\;\mathrm{KB}$, 则 $2\times2^n=65536$, 即 $2^{n+1}=2^{15}$, $n=14$. 每次间隔 $3$ 分, 故时间为 $14\times3=42$ 分. $\blacksquare$
 
 ## 习题十五
 
-(习题 4.5 综合运用第 7 题) 设函数 $f\left(x\right)=ax^2+bx+c$ ($a> 0$, $b,c\in\mathbb R$), 且 $f\left(1\right)=-\frac{a}{2}$, 求证: 函数 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点.
+(习题 4.5 综合运用第 7 题) 设函数 $f\left(x\right)=ax^2+bx+c$ ($a>0$, $b,c\in\mathbb{R}$), 且 $f\left(1\right)=-\frac{a}{2}$, 求证: 函数 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点.
 
 ### 解答 习题十五
 
 由**常用结论 4.5.2** (函数零点存在定理).
 
-$f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a> 0$. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 异号, 则由零点存在定理, $\left(0,2\right)$ 内有零点. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 同号, 因 $f\left(0\right)+f\left(2\right)> 0$, 故二者均为正. 又 $f\left(1\right)=-\frac{a}{2}< 0$, 故 $f\left(0\right)f\left(1\right)< 0$ 或 $f\left(1\right)f\left(2\right)< 0$, 即零点在 $\left(0,1\right)$ 或 $\left(1,2\right)$ 内. 因此 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点. $\blacksquare$
+$f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=c$, $f\left(2\right)=4a+2b+c=4a+2\left(b+c\right)-c=4a-3a-c=a-c$. $f\left(0\right)+f\left(2\right)=c+a-c=a>0$. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 异号, 则由零点存在定理, $\left(0,2\right)$ 内有零点. 若 $f\left(0\right)$ 与 $f\left(2\right)$ 同号, 因 $f\left(0\right)+f\left(2\right)>0$, 故二者均为正. 又 $f\left(1\right)=-\frac{a}{2}<0$, 故 $f\left(0\right)f\left(1\right)<0$ 或 $f\left(1\right)f\left(2\right)<0$, 即零点在 $\left(0,1\right)$ 或 $\left(1,2\right)$ 内. 因此 $f\left(x\right)$ 在 $\left(0,2\right)$ 内至少有一个零点. $\blacksquare$
 
 ## 习题十六
 
@@ -346,7 +346,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 (2) 图象为开口向下的"波浪形"曲线, 与 $x$ 轴有四个交点.
 
-(3) 令 $g\left(x\right)=0$, 即 $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. 由 $x^2+3x+2=\sqrt{2}$ 得 $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx -0.29$ 或 $-2.71$. 由 $x^2+3x+2=-\sqrt{2}$ 得 $\Delta=1-4\sqrt{2}< 0$, 无实根. 故零点约为 $-0.3$ 和 $-2.7$. $\blacksquare$
+(3) 令 $g\left(x\right)=0$, 即 $\left(x^2+3x+2\right)^2=2$, $x^2+3x+2=\pm\sqrt{2}$. 由 $x^2+3x+2=\sqrt{2}$ 得 $x=\frac{-3\pm\sqrt{1+4\sqrt{2}}}{2}\approx-0.29$ 或 $-2.71$. 由 $x^2+3x+2=-\sqrt{2}$ 得 $\Delta=1-4\sqrt{2}<0$, 无实根. 故零点约为 $-0.3$ 和 $-2.7$. $\blacksquare$
 
 ## 习题十七
 
@@ -370,7 +370,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 由**常用结论 4.2.2** (指数函数的图象和性质) 与**常用结论 4.3.4** (对数运算性质).
 
-由 $a^0=1$, $a^1=2$ 得 $a=2$, $y=2^\top$. (1) 每月增长为 $2^{t+1}/2^\top=2$, 即增长率为 $1$, 正确. (2) $t=5$ 时 $y=2^5=32> 30$, 正确. (3) 每月增加面积为 $2^{t+1}-2^\top=2^\top$, 随 $t$ 增大, 不正确. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_2 3$; $2^{t_3}=6$, $t_3=\log_2 6=\log_2 2+\log_2 3=1+\log_2 3=t_1+t_2$, 正确. 故选 (C). $\blacksquare$
+由 $a^0=1$, $a^1=2$ 得 $a=2$, $y=2^\top$. (1) 每月增长为 $2^{t+1}/2^\top=2$, 即增长率为 $1$, 正确. (2) $t=5$ 时 $y=2^5=32>30$, 正确. (3) 每月增加面积为 $2^{t+1}-2^\top=2^\top$, 随 $t$ 增大, 不正确. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_23$; $2^{t_3}=6$, $t_3=\log_26=\log_22+\log_23=1+\log_23=t_1+t_2$, 正确. 故选 (C). $\blacksquare$
 
 ## 习题十八
 
@@ -380,7 +380,7 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-设经过 $t$ 小时后药量为 $2500\times 0.8^\top\;\mathrm{mg}$. 令 $2500\times 0.8^\top=1500$, 即 $0.8^\top=0.6$, $t=\log_{0.8} 0.6=\frac{\lg 0.6}{\lg 0.8}\approx\frac{-0.222}{-0.097}\approx 2.3$. 故最迟应在 $2.3\;\mathrm{h}$ 后补充. $\blacksquare$
+设经过 $t$ 小时后药量为 $2500\times0.8^\top\;\mathrm{mg}$. 令 $2500\times0.8^\top=1500$, 即 $0.8^\top=0.6$, $t=\log_{0.8}0.6=\frac{\lg0.6}{\lg0.8}\approx\frac{-0.222}{-0.097}\approx2.3$. 故最迟应在 $2.3\;\mathrm{h}$ 后补充. $\blacksquare$
 
 ## 习题十九
 
@@ -394,6 +394,6 @@ $f\left(1\right)=a+b+c=-\frac{a}{2}$, 即 $b+c=-\frac{3a}{2}$. $f\left(0\right)=
 
 由**常用结论 4.4.4** (不同函数增长的差异).
 
-(1) 数据增长量依次为 $0.31$, $0.4$, $0.62$, 增长速度越来越快, 符合指数增长特征, 故选 $g\left(x\right)=ab^x$. 设 2008 年为 $x=0$, 则 $a=0.49$. 由 $0.49b=0.8$ 得 $b\approx 1.633$. 故 $g\left(x\right)=0.49\times 1.633^x$.
+(1) 数据增长量依次为 $0.31$, $0.4$, $0.62$, 增长速度越来越快, 符合指数增长特征, 故选 $g\left(x\right)=ab^x$. 设 2008 年为 $x=0$, 则 $a=0.49$. 由 $0.49b=0.8$ 得 $b\approx1.633$. 故 $g\left(x\right)=0.49\times1.633^x$.
 
-(2) 2018 年对应 $x=10$, $g\left(10\right)=0.49\times 1.633^{10}\approx 65\;\mathrm{ZB}$. 实际数据可能因技术发展, 政策调整等因素偏离模型预测. $\blacksquare$
+(2) 2018 年对应 $x=10$, $g\left(10\right)=0.49\times1.633^{10}\approx65\;\mathrm{ZB}$. 实际数据可能因技术发展, 政策调整等因素偏离模型预测. $\blacksquare$

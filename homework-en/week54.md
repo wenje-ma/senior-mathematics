@@ -38,7 +38,7 @@
 
 > **Definition 3.1.1 (椭圆)**
 > 
-> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert{F}_1F_2\rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
 
 > **Definition 3.1.3 (Standard Equation of Ellipse)**
 > 
@@ -54,23 +54,23 @@
 
 ## Problem 1
 
-(Review Reference Problems 1, Comprehensive Application, Problem 15) Given that $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ is an orthonormal basis of space, what is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$? What is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}$ and the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$?
+(Review Reference Problems 1, Comprehensive Application, Problem 15) Given that $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ is an orthonormal basis of space, what is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ and the basis $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$? What is the relation between the vector $\boldsymbol{a}+\boldsymbol{b}$ and the basis $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$?
 
 ### Solution to Problem 1
 
 By **Definition 1.2.2 (Basis, Basis Vectors)** and **Theorem 1.2.1 (Fundamental Theorem of Space Vectors)**.
 
-$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ is a linear combination of the basis vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, i.e. its coordinates in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,-1\right)$.
+$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ is a linear combination of the basis vectors $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$, i.e. its coordinates in the basis $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ are $\left(1,1,-1\right)$.
 
-$\boldsymbol{a}+\boldsymbol{b}$ is a linear combination only of $\boldsymbol{a}$ and $\boldsymbol{b}$, with no $\boldsymbol{c}$, so it is parallel to the plane spanned by $\boldsymbol{a}$ and $\boldsymbol{b}$ (i.e. the $xOy$ plane). The coordinates of $\boldsymbol{a}+\boldsymbol{b}$ in the basis $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ are $\left(1,1,0\right)$. $\blacksquare$
+$\boldsymbol{a}+\boldsymbol{b}$ is a linear combination only of $\boldsymbol{a}$ and $\boldsymbol{b}$, with no $\boldsymbol{c}$, so it is parallel to the plane spanned by $\boldsymbol{a}$ and $\boldsymbol{b}$ (i.e. the $xOy$ plane). The coordinates of $\boldsymbol{a}+\boldsymbol{b}$ in the basis $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ are $\left(1,1,0\right)$. $\blacksquare$
 
 ## Problem 2
 
 (Review Reference Problems 1, Extension and Exploration, Problem 16) As shown in the figure, in the cube $ABCD-A_1B_1C_1D_1$, prove:
 
-(1) $DB_1 \perp AC$;
+(1) $DB_1\perp{A}C$;
 
-(2) $DB_1 \perp$ the plane $ACB_1$.
+(2) $DB_1\perp$ the plane $ACB_1$.
 
 The figure is an oblique projection of the cube $ABCD-A_1B_1C_1D_1$: the lower face is $ABCD$ and the upper face is $A_1B_1C_1D_1$; the body diagonal $DB_1$ and the face diagonal $AC$ are drawn.
 
@@ -86,35 +86,35 @@ $\boldsymbol{DB_1}=\left(1,1,1\right)$.
 
 (1) $\boldsymbol{AC}=\left(-1,1,0\right)$.
 
-$\boldsymbol{DB_1} \cdot \boldsymbol{AC}=-1+1+0=0$. Hence $DB_1 \perp AC$.
+$\boldsymbol{DB_1}\cdot\boldsymbol{AC}=-1+1+0=0$. Hence $DB_1\perp{A}C$.
 
 (2) $\boldsymbol{AB_1}=\left(0,1,1\right)$.
 
-$\boldsymbol{DB_1} \cdot \boldsymbol{AB_1}=0+1+1=2 \neq 0$. Note the relation between $DB_1$ and the plane $ACB_1$.
+$\boldsymbol{DB_1}\cdot\boldsymbol{AB_1}=0+1+1=2\neq0$. Note the relation between $DB_1$ and the plane $ACB_1$.
 
-Actually, a normal vector to the plane $ACB_1$ is $\boldsymbol{AC} \times \boldsymbol{AB_1}=\left(1,1,-1\right)$.
+Actually, a normal vector to the plane $ACB_1$ is $\boldsymbol{AC}\times\boldsymbol{AB_1}=\left(1,1,-1\right)$.
 
 $\boldsymbol{DB_1}=\left(1,1,1\right)$ is not parallel to the normal $\left(1,1,-1\right)$.
 
-But $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, and $\boldsymbol{DB_1} \cdot \boldsymbol{CB_1}=\left(1,1,1\right) \cdot \left(1,0,1\right)=2 \neq 0$.
+But $\boldsymbol{DB_1}\cdot\boldsymbol{AC}=0$, and $\boldsymbol{DB_1}\cdot\boldsymbol{CB_1}=\left(1,1,1\right)\cdot\left(1,0,1\right)=2\neq0$.
 
-Hence $DB_1 \perp AC$, but $DB_1$ is not perpendicular to every line in the plane $ACB_1$. The problem may intend $DB_1 \perp$ the plane $ACD_1$.
+Hence $DB_1\perp{A}C$, but $DB_1$ is not perpendicular to every line in the plane $ACB_1$. The problem may intend $DB_1\perp$ the plane $ACD_1$.
 
-Verification: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{AD_1}=-1+0+1=0$.
+Verification: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1}\cdot\boldsymbol{AC}=0$, $\boldsymbol{DB_1}\cdot\boldsymbol{AD_1}=-1+0+1=0$.
 
-Hence $DB_1 \perp$ the plane $ACD_1$. $\blacksquare$
+Hence $DB_1\perp$ the plane $ACD_1$. $\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problems 1, Extension and Exploration, Problem 17) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $CA=CB=1$, $\angle BCA=90^\circ$, the edge $AA_1=2$, and $M$ is the midpoint of $A_1B_1$. Set up the space rectangular coordinate system shown in the figure.
+(Review Reference Problems 1, Extension and Exploration, Problem 17) As shown in the figure, in the right triangular prism $ABC-A_1B_1C_1$, $CA=CB=1$, $\angle{B}CA=90^\circ$, the edge $AA_1=2$, and $M$ is the midpoint of $A_1B_1$. Set up the space rectangular coordinate system shown in the figure.
 
 (1) Find the coordinates of $\boldsymbol{BN}$ (where $N$ is the midpoint of $A_1A$);
 
-(2) Find $\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle$;
+(2) Find $\cos\left\langle\boldsymbol{BA_1},\boldsymbol{CB_1}\right\rangle$;
 
-(3) Prove that $A_1B \perp C_1M$.
+(3) Prove that $A_1B\perp{C}_1M$.
 
-The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle ABC$, $\angle BCA=90^\circ$, $CA=CB=1$, and the lateral edge $AA_1=2$ is perpendicular to the base; $M$ is the midpoint of $A_1B_1$ and $N$ is the midpoint of $A_1A$; a rectangular coordinate system is set up with $C$ as the origin, $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
+The figure is an oblique projection of the right triangular prism $ABC-A_1B_1C_1$: in the lower base $\triangle{A}BC$, $\angle{B}CA=90^\circ$, $CA=CB=1$, and the lateral edge $AA_1=2$ is perpendicular to the base; $M$ is the midpoint of $A_1B_1$ and $N$ is the midpoint of $A_1A$; a rectangular coordinate system is set up with $C$ as the origin, $CA$ as the $x$-axis, $CB$ as the $y$-axis, and $CC_1$ as the $z$-axis.
 
 ### Solution to Problem 3
 
@@ -132,23 +132,23 @@ $\boldsymbol{BN}=N-B=\left(1,-1,1\right)$.
 
 $\boldsymbol{CB_1}=B_1-C=\left(0,1,2\right)$.
 
-$\boldsymbol{BA_1} \cdot \boldsymbol{CB_1}=0-1+4=3$.
+$\boldsymbol{BA_1}\cdot\boldsymbol{CB_1}=0-1+4=3$.
 
-$\lvert \boldsymbol{BA_1} \rvert=\sqrt{1+1+4}=\sqrt{6}$.
+$\lvert\boldsymbol{BA_1}\rvert=\sqrt{1+1+4}=\sqrt{6}$.
 
-$\lvert \boldsymbol{CB_1} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+$\lvert\boldsymbol{CB_1}\rvert=\sqrt{0+1+4}=\sqrt{5}$.
 
-$\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+$\cos\left\langle\boldsymbol{BA_1},\boldsymbol{CB_1}\right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
 
-(3) $M$ is the midpoint of $A_1B_1$: $M\left(\frac{1}{2}, \frac{1}{2}, 2\right)$.
+(3) $M$ is the midpoint of $A_1B_1$: $M\left(\frac{1}{2},\frac{1}{2},2\right)$.
 
-$\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2}, \frac{1}{2}, 0\right)$.
+$\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2},\frac{1}{2},0\right)$.
 
 $\boldsymbol{A_1B}=B-A_1=\left(-1,1,-2\right)$.
 
-$\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
+$\boldsymbol{A_1B}\cdot\boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
 
-By **Common Conclusion 1.4.4**, $A_1B \perp C_1M$. $\blacksquare$
+By **Common Conclusion 1.4.4**, $A_1B\perp{C}_1M$. $\blacksquare$
 
 ## Problem 4
 
@@ -170,7 +170,7 @@ By **Common Conclusion 1.4.4**, $A_1B \perp C_1M$. $\blacksquare$
 
 (1) The line $3x+2y-1=0$ is $y=-\frac{3}{2}x+\frac{1}{2}$, with slope $-\frac{3}{2}$. By **Common Conclusion 2.1.4** (Direction Vector and Slope), a direction vector $\left(x,y\right)$ satisfies $\frac{y}{x}=-\frac{3}{2}$. Option (A) $\left(2,-3\right)$ satisfies $\frac{-3}{2}=-\frac{3}{2}$. Choose (A).
 
-(2) The equation $x-y\sin\theta+2=0$ is $y=\frac{1}{\sin\theta}x+\frac{2}{\sin\theta}$ (when $\sin\theta\ne0$). The slope is $k=\frac{1}{\sin\theta}$. Since $\sin\theta\in\left[-1,1\right]$ and $\sin\theta\ne0$, we have $\lvert k \rvert\ge1$, i.e. $\lvert \tan\alpha \rvert\ge1$. Also $\alpha\in\left[0,\pi\right)$, so $\alpha\in\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$. When $\sin\theta=0$, the equation is $x+2=0$, i.e. $\alpha=\frac{\pi}{2}$. Combining, $\alpha\in\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$. Choose (C).
+(2) The equation $x-y\sin\theta+2=0$ is $y=\frac{1}{\sin\theta}x+\frac{2}{\sin\theta}$ (when $\sin\theta\ne0$). The slope is $k=\frac{1}{\sin\theta}$. Since $\sin\theta\in\left[-1,1\right]$ and $\sin\theta\ne0$, we have $\lvert{k}\rvert\ge1$, i.e. $\lvert\tan\alpha\rvert\ge1$. Also $\alpha\in\left[0,\pi\right)$, so $\alpha\in\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$. When $\sin\theta=0$, the equation is $x+2=0$, i.e. $\alpha=\frac{\pi}{2}$. Combining, $\alpha\in\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$. Choose (C).
 
 (3) Reflecting about the $x$-axis replaces $y$ by $-y$. The original $3x-4y+5=0$ becomes $3x+4y+5=0$. Choose (B). $\blacksquare$
 
@@ -208,7 +208,7 @@ By **Common Conclusion 2.1.5** (Two Parallel Lines), parallel means equal slopes
 
 By **Common Conclusion 2.1.6** (Two Perpendicular Lines), the product of slopes is $-1$.
 
-(1) $4ax+y=1$ is $y=-4ax+1$, slope $k_1=-4a$. $\left(1-a\right)x+y=-1$ is $y=-\left(1-a\right)x-1$, slope $k_2=a-1$. From $k_1k_2=-1$, we get $-4a\left(a-1\right)=-1$, i.e. $4a^2-4a-1=0$, so $a=\frac{1\pm\sqrt 2}{2}$.
+(1) $4ax+y=1$ is $y=-4ax+1$, slope $k_1=-4a$. $\left(1-a\right)x+y=-1$ is $y=-\left(1-a\right)x-1$, slope $k_2=a-1$. From $k_1k_2=-1$, we get $-4a\left(a-1\right)=-1$, i.e. $4a^2-4a-1=0$, so $a=\frac{1\pm\sqrt2}{2}$.
 
 (2) $2x+ay=2$ is $y=-\frac{2}{a}x+\frac{2}{a}$ ($a\ne0$), slope $k_1=-\frac{2}{a}$. $ax+2y=1$ is $y=-\frac{a}{2}x+\frac{1}{2}$, slope $k_2=-\frac{a}{2}$. From $k_1k_2=-1$, we get $\left(-\frac{2}{a}\right)\left(-\frac{a}{2}\right)=1=-1$, a contradiction. When $a=0$, the lines are $x=1$ and $y=\frac{1}{2}$, one perpendicular to the $x$-axis and the other parallel to the $x$-axis, hence perpendicular. Hence $a=0$.
 
@@ -222,15 +222,15 @@ Expanding gives $15a^2+10a-6a-4+a+4-4a^2-16a=0$, i.e. $11a^2-11a=0$, i.e. $11a\l
 
 ## Problem 7
 
-(Review Reference Problems 2, Review and Consolidation, Problem 4) Find the equation of the line parallel to $x-y-2=0$ at distance $2\sqrt 2$.
+(Review Reference Problems 2, Review and Consolidation, Problem 4) Find the equation of the line parallel to $x-y-2=0$ at distance $2\sqrt2$.
 
 ### Solution to Problem 7
 
 By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), let the desired line be $x-y+c=0$.
 
-The distance between the parallel lines is $\frac{\lvert c-\left(-2\right) \rvert}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\lvert c+2 \rvert}{\sqrt 2}=2\sqrt 2$.
+The distance between the parallel lines is $\frac{\lvert{c}-\left(-2\right)\rvert}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\lvert{c}+2\rvert}{\sqrt2}=2\sqrt2$.
 
-Hence $\lvert c+2 \rvert=4$, i.e. $c+2=4$ or $c+2=-4$, i.e. $c=2$ or $c=-6$.
+Hence $\lvert{c}+2\rvert=4$, i.e. $c+2=4$ or $c+2=-4$, i.e. $c=2$ or $c=-6$.
 
 The desired lines are $x-y+2=0$ or $x-y-6=0$. $\blacksquare$
 
@@ -290,7 +290,7 @@ Expanding gives $a^2+25-30a+9a^2=9-6a+a^2+36-36a+9a^2$, i.e. $0=20-12a$, so $a=\
 
 By **Definition 2.4.3 (General Equation of a Circle)**, $D=-4$, $E=2m$, $F=2m^2-2m+1$.
 
-The equation represents a circle iff $D^2+E^2-4F> 0$, i.e. $16+4m^2-4\left(2m^2-2m+1\right)> 0$, i.e. $16+4m^2-8m^2+8m-4> 0$, i.e. $-4m^2+8m+12> 0$, i.e. $m^2-2m-3< 0$, i.e. $\left(m-3\right)\left(m+1\right)< 0$. Hence $-1< m< 3$.
+The equation represents a circle iff $D^2+E^2-4F>0$, i.e. $16+4m^2-4\left(2m^2-2m+1\right)>0$, i.e. $16+4m^2-8m^2+8m-4>0$, i.e. $-4m^2+8m+12>0$, i.e. $m^2-2m-3<0$, i.e. $\left(m-3\right)\left(m+1\right)<0$. Hence $-1<{}m<3$.
 
 The squared radius is $\frac{D^2+E^2-4F}{4}=\frac{-4m^2+8m+12}{4}=-m^2+2m+3=-\left(m-1\right)^2+4$.
 
@@ -318,10 +318,10 @@ $r_1+r_2=1+6=7$, $r_2-r_1=6-1=5=d$. By **Common Conclusion 2.5.3** (Position of 
 
 ## Problem 12
 
-(Review Reference Problems 2, Comprehensive Application, Problem 9) If the graph of a function $y=f\left(x\right)$ between $x=a$ and $x=b$ can be approximated as a line segment, with $a\le c\le b$, prove:
+(Review Reference Problems 2, Comprehensive Application, Problem 9) If the graph of a function $y=f\left(x\right)$ between $x=a$ and $x=b$ can be approximated as a line segment, with $a\le{c}\le{b}$, prove:
 
 $$
-f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+f\left(c\right)\approx{f}\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
 $$
 
 ### Solution to Problem 12
@@ -341,7 +341,7 @@ $$
 Substituting $x=c$ gives
 
 $$
-f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+f\left(c\right)\approx{f}\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
 $$
 
 Hence the claim follows. $\blacksquare$
@@ -394,7 +394,7 @@ By **Definition 2.2.1 (Point-Slope Form)**, $y=8\left(x-3\right)$, i.e. $8x-y-24
 
 ## Problem 15
 
-(Review Reference Problems 2, Comprehensive Application, Problem 12) Given the line $l:x-2y-8=0$ and points $A\left(-2,0\right)$ and $B\left(2,4\right)$, suppose there is a point $P$ on $l$ that minimizes $\lvert PA \rvert+\lvert PB \rvert$. Find the coordinates of $P$.
+(Review Reference Problems 2, Comprehensive Application, Problem 12) Given the line $l:x-2y-8=0$ and points $A\left(-2,0\right)$ and $B\left(2,4\right)$, suppose there is a point $P$ on $l$ that minimizes $\lvert{P}A\rvert+\lvert{P}B\rvert$. Find the coordinates of $P$.
 
 ### Solution to Problem 15
 
@@ -406,7 +406,7 @@ $AA'$ is perpendicular to $l$. Since $l$ has slope $\frac{1}{2}$, $AA'$ has slop
 
 Solving gives $a-2\left(-2a-4\right)=18$, i.e. $5a=10$, so $a=2$, $b=-8$. Hence $A'\left(2,-8\right)$.
 
-$\lvert PA \rvert+\lvert PB \rvert=\lvert PA' \rvert+\lvert PB \rvert\ge\lvert A'B \rvert$, with equality when $P$ is the intersection of $A'B$ with $l$.
+$\lvert{P}A\rvert+\lvert{P}B\rvert=\lvert{P}A'\rvert+\lvert{P}B\rvert\ge\lvert{A}'B\rvert$, with equality when $P$ is the intersection of $A'B$ with $l$.
 
 The line $A'B$ passes through $A'\left(2,-8\right)$ and $B\left(2,4\right)$, i.e. $x=2$. Substituting into $l:x-2y-8=0$ gives $2-2y-8=0$, i.e. $y=-3$. The coordinates of $P$ are $\left(2,-3\right)$. $\blacksquare$
 
@@ -418,12 +418,12 @@ The line $A'B$ passes through $A'\left(2,-8\right)$ and $B\left(2,4\right)$, i.e
 
 Subtracting the circle equations gives $\left(x^2+y^2-6x+2y-40\right)-\left(x^2+y^2-10x-10y\right)=0$, i.e. $4x+12y-40=0$, i.e. $x+3y-10=0$. The line containing the common chord is $x+3y-10=0$.
 
-Circle $C_1:\left(x-5\right)^2+\left(y-5\right)^2=50$, center $\left(5,5\right)$, radius $r=\sqrt{50}=5\sqrt 2$.
+Circle $C_1:\left(x-5\right)^2+\left(y-5\right)^2=50$, center $\left(5,5\right)$, radius $r=\sqrt{50}=5\sqrt2$.
 
 By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from the center to the common chord is
 
 $$
-d=\frac{\lvert 5+15-10 \rvert}{\sqrt{1+9}}=\frac{10}{\sqrt{10}}=\sqrt{10}.
+d=\frac{\lvert5+15-10\rvert}{\sqrt{1+9}}=\frac{10}{\sqrt{10}}=\sqrt{10}.
 $$
 
 By **Common Conclusion 2.5.2** (Chord Length Formula), the common chord length is
@@ -479,7 +479,7 @@ The circle passes through $A\left(2,-1\right)$, so the squared radius is $\left(
 The circle is tangent to $x+y=1$. By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from center to line equals the radius:
 
 $$
-\frac{\lvert a-2a-1 \rvert}{\sqrt 2}=\sqrt{\left(a-2\right)^2+\left(-2a+1\right)^2}.
+\frac{\lvert{a}-2a-1\rvert}{\sqrt2}=\sqrt{\left(a-2\right)^2+\left(-2a+1\right)^2}.
 $$
 
 Squaring both sides gives $\frac{\left(-a-1\right)^2}{2}=\left(a-2\right)^2+\left(1-2a\right)^2$, i.e. $\frac{a^2+2a+1}{2}=a^2-4a+4+4a^2-4a+1$, i.e. $a^2+2a+1=10a^2-16a+10$, i.e. $9a^2-18a+9=0$, i.e. $\left(a-1\right)^2=0$, so $a=1$.
@@ -496,25 +496,25 @@ Take one vertex as the origin and place the two diagonals on the $x$-axis and $y
 
 The sum of squares of one pair of opposite sides is $\left|AB\right|^2+\left|CD\right|^2=a^2+b^2+c^2+d^2$, and the other pair is $\left|BC\right|^2+\left|DA\right|^2=b^2+c^2+d^2+a^2$. They are identically equal.
 
-More generally, let the vertices be $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, $C\left(x_3,y_3\right)$, $D\left(x_4,y_4\right)$. One pair has squared sum $\lvert AB \rvert^2+\lvert CD \rvert^2$, the other $\lvert BC \rvert^2+\lvert DA \rvert^2$.
+More generally, let the vertices be $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, $C\left(x_3,y_3\right)$, $D\left(x_4,y_4\right)$. One pair has squared sum $\lvert{A}B\rvert^2+\lvert{C}D\rvert^2$, the other $\lvert{B}C\rvert^2+\lvert{D}A\rvert^2$.
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), expanding $\lvert AB \rvert^2+\lvert CD \rvert^2=\lvert BC \rvert^2+\lvert DA \rvert^2$ and simplifying gives $AC\perp BD$.
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), expanding $\lvert{A}B\rvert^2+\lvert{C}D\rvert^2=\lvert{B}C\rvert^2+\lvert{D}A\rvert^2$ and simplifying gives $AC\perp{B}D$.
 
 Hence the diagonals are perpendicular. $\blacksquare$
 
 ## Problem 21
 
-(Review Reference Problems 2, Extension and Exploration, Problem 18) Find the area enclosed by the curve $x^2+y^2=\lvert x \rvert+\lvert y \rvert$.
+(Review Reference Problems 2, Extension and Exploration, Problem 18) Find the area enclosed by the curve $x^2+y^2=\lvert{x}\rvert+\lvert{y}\rvert$.
 
 ### Solution to Problem 21
 
 By **Definition 2.4.1 (Standard Equation of a Circle)**, consider cases.
 
-(a) When $x\ge0$ and $y\ge0$, the equation is $x^2+y^2=x+y$, i.e. $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. This is the portion in the first quadrant of the circle centered at $\left(\frac{1}{2},\frac{1}{2}\right)$ with radius $\frac{\sqrt 2}{2}$.
+(a) When $x\ge0$ and $y\ge0$, the equation is $x^2+y^2=x+y$, i.e. $\left(x-\frac{1}{2}\right)^2+\left(y-\frac{1}{2}\right)^2=\frac{1}{2}$. This is the portion in the first quadrant of the circle centered at $\left(\frac{1}{2},\frac{1}{2}\right)$ with radius $\frac{\sqrt2}{2}$.
 
 By symmetry, the curve has a semicircle in each quadrant, each with area $\frac{1}{2}\pi\cdot\frac{1}{2}=\frac{\pi}{4}$. All four quadrants total $4\times\frac{\pi}{4}=\pi$.
 
-In addition, the four semicircles enclose a square of side $\sqrt 2$ (diagonal $2$), with area $\frac{1}{2}\times2\times2=2$.
+In addition, the four semicircles enclose a square of side $\sqrt2$ (diagonal $2$), with area $\frac{1}{2}\times2\times2=2$.
 
 The total area is $\pi+2$. $\blacksquare$
 
@@ -531,10 +531,10 @@ The center is $C\left(3,2\right)$ and radius $r=1$. Let the reflected ray be $y+
 By **Common Conclusion 2.3.3** (Point-to-Line Distance Formula), the distance from the center to the tangent equals the radius:
 
 $$
-\frac{\lvert 3k-2+2k-3 \rvert}{\sqrt{k^2+1}}=1.
+\frac{\lvert3k-2+2k-3\rvert}{\sqrt{k^2+1}}=1.
 $$
 
-Simplifying gives $\lvert 5k-5 \rvert=\sqrt{k^2+1}$, i.e. $25\left(k-1\right)^2=k^2+1$, i.e. $24k^2-50k+24=0$, i.e. $12k^2-25k+12=0$.
+Simplifying gives $\lvert5k-5\rvert=\sqrt{k^2+1}$, i.e. $25\left(k-1\right)^2=k^2+1$, i.e. $24k^2-50k+24=0$, i.e. $12k^2-25k+12=0$.
 
 Solving gives $k=\frac{25\pm\sqrt{625-576}}{24}=\frac{25\pm7}{24}$, i.e. $k=\frac{4}{3}$ or $k=\frac{3}{4}$.
 
@@ -557,7 +557,7 @@ Solving $\begin{cases}x+y-4=0\\2x+y-7=0\end{cases}$, subtracting gives $x=3$, $y
 (2) The center is $C\left(1,2\right)$ and radius $r=5$. The distance from the fixed point $P\left(3,1\right)$ to the center is
 
 $$
-\lvert CP \rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt 5< 5.
+\lvert{C}P\rvert=\sqrt{\left(3-1\right)^2+\left(1-2\right)^2}=\sqrt5<5.
 $$
 
 Point $P$ is inside the circle. When $l$ passes through the center $C$, the chord is longest (a diameter), with length $10$.
@@ -566,7 +566,7 @@ When $l$ is perpendicular to $CP$, the chord is shortest. $k_{CP}=\frac{1-2}{3-1
 
 The slope of $l$ is $-\frac{2m+1}{m+1}$. Setting $-\frac{2m+1}{m+1}=2$, i.e. $-2m-1=2m+2$, i.e. $4m=-3$, gives $m=-\frac{3}{4}$.
 
-The shortest chord length is $2\sqrt{r^2-\lvert CP \rvert^2}=2\sqrt{25-5}=2\sqrt{20}=4\sqrt 5$. $\blacksquare$
+The shortest chord length is $2\sqrt{r^2-\lvert{C}P\rvert^2}=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5$. $\blacksquare$
 
 ## Problem 24
 

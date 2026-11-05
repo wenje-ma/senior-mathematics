@@ -18,7 +18,7 @@
 
 > **Definition 1.1.5 (Membership)**
 > 
-> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in{A}$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin{A}$.
 
 > **Definition 1.1.12 (向量的数量积)**
 > 
@@ -68,7 +68,7 @@ By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, simplify using t
 
 (1) By **Definition 1.1.5 (Membership)**, $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, hence $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\boldsymbol{AC}+\boldsymbol{CD}=\boldsymbol{AD}$.
 
-(2) Since $E$ is the midpoint of $BC$, by **Definition 1.1.5 (Membership)**, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BE}+\boldsymbol{EC}=\boldsymbol{BE}+\boldsymbol{ED}$ (since $E$ is the midpoint of $BC$, $\boldsymbol{BE}=\frac{1}{2}\boldsymbol{BC}$; $F$ is the midpoint of $CD$, $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$). In fact, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BF}$ (since in $\triangle BCD$, $F$ is the midpoint of $CD$, $\boldsymbol{BF}=\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)$). Hence $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{AB}+\boldsymbol{BF}=\boldsymbol{AF}$.
+(2) Since $E$ is the midpoint of $BC$, by **Definition 1.1.5 (Membership)**, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BE}+\boldsymbol{EC}=\boldsymbol{BE}+\boldsymbol{ED}$ (since $E$ is the midpoint of $BC$, $\boldsymbol{BE}=\frac{1}{2}\boldsymbol{BC}$; $F$ is the midpoint of $CD$, $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$). In fact, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BF}$ (since in $\triangle{B}CD$, $F$ is the midpoint of $CD$, $\boldsymbol{BF}=\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)$). Hence $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{AB}+\boldsymbol{BF}=\boldsymbol{AF}$.
 
 (3) Since $E$ is the midpoint of $BC$, $\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AE}$. Hence $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AF}-\boldsymbol{AE}=\boldsymbol{EF}$. $\blacksquare$
 
@@ -86,7 +86,7 @@ By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, simplify using t
 
 ### Solution to Exercise 3
 
-By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, express the vectors in terms of the basis $\left\{\boldsymbol{AB}, \boldsymbol{AD}, \boldsymbol{AA'}\right\}$.
+By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, express the vectors in terms of the basis $\left\{\boldsymbol{AB},\boldsymbol{AD},\boldsymbol{AA'}\right\}$.
 
 (1) By **Definition 1.1.5 (Membership)**, $\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}$. Comparing, we get $x=1$.
 
@@ -106,7 +106,7 @@ By **Definition 1.1.5 (Linear Operations on Spatial Vectors)**, express the vect
 
 By **Definition 1.1.12 (Dot Product)**, the cosine of the angle between two vectors equals their dot product divided by the product of their moduli.
 
-Let $BB_1=1$, then $AB=\sqrt{2}$. Take $\left\{\boldsymbol{BA}, \boldsymbol{BC}, \boldsymbol{BB_1}\right\}$ as a basis, and set $\boldsymbol{BA}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{BB_1}=\boldsymbol{c}$. Then $\lvert \boldsymbol{a} \rvert=\sqrt{2}$, $\lvert \boldsymbol{b} \rvert=\sqrt{2}$, $\lvert \boldsymbol{c} \rvert=1$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=60^\circ$, $\boldsymbol{a} \perp \boldsymbol{c}$, $\boldsymbol{b} \perp \boldsymbol{c}$.
+Let $BB_1=1$, then $AB=\sqrt{2}$. Take $\left\{\boldsymbol{BA},\boldsymbol{BC},\boldsymbol{BB_1}\right\}$ as a basis, and set $\boldsymbol{BA}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{BB_1}=\boldsymbol{c}$. Then $\lvert\boldsymbol{a}\rvert=\sqrt{2}$, $\lvert\boldsymbol{b}\rvert=\sqrt{2}$, $\lvert\boldsymbol{c}\rvert=1$, $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=60^\circ$, $\boldsymbol{a}\perp\boldsymbol{c}$, $\boldsymbol{b}\perp\boldsymbol{c}$.
 
 $\boldsymbol{AB_1}=\boldsymbol{AB}+\boldsymbol{BB_1}=-\boldsymbol{a}+\boldsymbol{c}$.
 
@@ -115,24 +115,24 @@ $\boldsymbol{BC_1}=\boldsymbol{BC}+\boldsymbol{CC_1}=\boldsymbol{b}+\boldsymbol{
 By **Common Conclusion 1.1.14** (Operational Laws of the Dot Product):
 
 $$
-\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=\left(-\boldsymbol{a}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c} \cdot \boldsymbol{c}.
+\boldsymbol{AB_1}\cdot\boldsymbol{BC_1}=\left(-\boldsymbol{a}+\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{c}\cdot\boldsymbol{b}+\boldsymbol{c}\cdot\boldsymbol{c}.
 $$
 
-Because $\boldsymbol{a} \cdot \boldsymbol{c}=0$, $\boldsymbol{b} \cdot \boldsymbol{c}=0$, $\boldsymbol{c} \cdot \boldsymbol{c}=1$, and $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos 60^\circ=\sqrt{2} \cdot \sqrt{2} \cdot \frac{1}{2}=1$.
+Because $\boldsymbol{a}\cdot\boldsymbol{c}=0$, $\boldsymbol{b}\cdot\boldsymbol{c}=0$, $\boldsymbol{c}\cdot\boldsymbol{c}=1$, and $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos60^\circ=\sqrt{2}\cdot\sqrt{2}\cdot\frac{1}{2}=1$.
 
-Hence $\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=-1+0+0+1=0$.
+Hence $\boldsymbol{AB_1}\cdot\boldsymbol{BC_1}=-1+0+0+1=0$.
 
-By **Common Conclusion 1.1.13** (Properties of the Dot Product), $\boldsymbol{AB_1} \perp \boldsymbol{BC_1}$, i.e. the angle between $AB_1$ and $BC_1$ is $90^\circ$. Hence the answer is (B). $\blacksquare$
+By **Common Conclusion 1.1.13** (Properties of the Dot Product), $\boldsymbol{AB_1}\perp\boldsymbol{BC_1}$, i.e. the angle between $AB_1$ and $BC_1$ is $90^\circ$. Hence the answer is (B). $\blacksquare$
 
 ## Exercise 5
 
 (Exercise 1.1, Problem 2) As shown in the figure, the edge length of the cube $ABCD-A'B'C'D'$ is $1$; set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$. Find:
 
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
+(1) $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)$;
 
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$;
+(2) $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$;
 
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$.
+(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)$.
 
 (Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$.)
 
@@ -140,43 +140,43 @@ By **Common Conclusion 1.1.13** (Properties of the Dot Product), $\boldsymbol{AB
 
 By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.14** (Operational Laws of the Dot Product).
 
-In the cube, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular and each has modulus $1$, so $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{c} \cdot \boldsymbol{a}=0$, and $\boldsymbol{a} \cdot \boldsymbol{a}=\boldsymbol{b} \cdot \boldsymbol{b}=\boldsymbol{c} \cdot \boldsymbol{c}=1$.
+In the cube, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular and each has modulus $1$, so $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{a}=0$, and $\boldsymbol{a}\cdot\boldsymbol{a}=\boldsymbol{b}\cdot\boldsymbol{b}=\boldsymbol{c}\cdot\boldsymbol{c}=1$.
 
-(1) By the distributive law, $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+(1) By the distributive law, $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}=0+0=0$.
 
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{a}+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=1+0+0=1$.
+(2) $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{a}+\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}=1+0+0=1$.
 
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{b} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=0+0+1+0=1$. $\blacksquare$
+(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{b}+\boldsymbol{b}\cdot\boldsymbol{c}=0+0+1+0=1$. $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 1.1, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A'B'C'D'$, $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$. Find:
+(Exercise 1.1, Problem 3) As shown in the figure, in the parallelepiped $ABCD-A'B'C'D'$, $AB=4$, $AD=3$, $AA'=5$, $\angle{B}AD=90^\circ$, $\angle{B}AA'=\angle{D}AA'=60^\circ$. Find:
 
-(1) $\boldsymbol{AA'} \cdot \boldsymbol{AB}$;
+(1) $\boldsymbol{AA'}\cdot\boldsymbol{AB}$;
 
 (2) the length of $AB'$;
 
 (3) the length of $AC'$.
 
-(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$ with $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$.)
+(Figure: a parallelepiped $ABCD\text{-}A'B'C'D'$ with $AB=4$, $AD=3$, $AA'=5$, $\angle{B}AD=90^\circ$, $\angle{B}AA'=\angle{D}AA'=60^\circ$.)
 
 ### Solution to Exercise 6
 
 By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=4$, $\lvert \boldsymbol{b} \rvert=3$, $\lvert \boldsymbol{c} \rvert=5$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=90^\circ$, $\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=60^\circ$, $\left\langle \boldsymbol{b}, \boldsymbol{c} \right\rangle=60^\circ$.
+Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert\boldsymbol{a}\rvert=4$, $\lvert\boldsymbol{b}\rvert=3$, $\lvert\boldsymbol{c}\rvert=5$, $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=90^\circ$, $\left\langle\boldsymbol{a},\boldsymbol{c}\right\rangle=60^\circ$, $\left\langle\boldsymbol{b},\boldsymbol{c}\right\rangle=60^\circ$.
 
-(1) By **Definition 1.1.12 (向量的数量积)**, $\boldsymbol{AA'} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \boldsymbol{a}=\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{a} \rvert \cos 60^\circ=5 \times 4 \times \frac{1}{2}=10$.
+(1) By **Definition 1.1.12 (向量的数量积)**, $\boldsymbol{AA'}\cdot\boldsymbol{AB}=\boldsymbol{c}\cdot\boldsymbol{a}=\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{a}\rvert\cos60^\circ=5\times4\times\frac{1}{2}=10$.
 
-(2) $\boldsymbol{AB'}=\boldsymbol{AB}+\boldsymbol{BB'}=\boldsymbol{a}+\boldsymbol{c}$. By **Common Conclusion 1.1.13**, $\lvert \boldsymbol{AB'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2=16+2 \times 10+25=61$. Hence $AB'=\sqrt{61}$.
+(2) $\boldsymbol{AB'}=\boldsymbol{AB}+\boldsymbol{BB'}=\boldsymbol{a}+\boldsymbol{c}$. By **Common Conclusion 1.1.13**, $\lvert\boldsymbol{AB'}\rvert^2=\left(\boldsymbol{a}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{c}^2=16+2\times10+25=61$. Hence $AB'=\sqrt{61}$.
 
-(3) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$. $\lvert \boldsymbol{AC'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2+2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$. Here $\boldsymbol{a} \cdot \boldsymbol{b}=0$, $\boldsymbol{a} \cdot \boldsymbol{c}=10$, and $\boldsymbol{b} \cdot \boldsymbol{c}=\lvert \boldsymbol{b} \rvert \lvert \boldsymbol{c} \rvert \cos 60^\circ=3 \times 5 \times \frac{1}{2}=7.5$. Hence $\lvert \boldsymbol{AC'} \rvert^2=16+9+25+0+20+15=85$. So $AC'=\sqrt{85}$. $\blacksquare$
+(3) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$. $\lvert\boldsymbol{AC'}\rvert^2=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+2\boldsymbol{a}\cdot\boldsymbol{c}+2\boldsymbol{b}\cdot\boldsymbol{c}$. Here $\boldsymbol{a}\cdot\boldsymbol{b}=0$, $\boldsymbol{a}\cdot\boldsymbol{c}=10$, and $\boldsymbol{b}\cdot\boldsymbol{c}=\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}\rvert\cos60^\circ=3\times5\times\frac{1}{2}=7.5$. Hence $\lvert\boldsymbol{AC'}\rvert^2=16+9+25+0+20+15=85$. So $AC'=\sqrt{85}$. $\blacksquare$
 
 ## Exercise 7
 
-(Exercise 1.1, Problem 4) As shown in the figure, the segments $AB$, $BD$ lie in the plane $\alpha$, $BD \perp AB$, $AC \perp \alpha$, and $AB=a$, $BD=b$, $AC=c$. Find the distance between the two points $C$ and $D$.
+(Exercise 1.1, Problem 4) As shown in the figure, the segments $AB$, $BD$ lie in the plane $\alpha$, $BD\perp{A}B$, $AC\perp\alpha$, and $AB=a$, $BD=b$, $AC=c$. Find the distance between the two points $C$ and $D$.
 
-(Figure: in plane $\alpha$, segments $AB$ and $BD$ with $BD\perp AB$; $AC\perp\alpha$ at $A$; $AB=a$, $BD=b$, $AC=c$.)
+(Figure: in plane $\alpha$, segments $AB$ and $BD$ with $BD\perp{A}B$; $AC\perp\alpha$ at $A$; $AB=a$, $BD=b$, $AC=c$.)
 
 ### Solution to Exercise 7
 
@@ -184,10 +184,10 @@ By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Propert
 
 $\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}=-\boldsymbol{AC}+\boldsymbol{AB}+\boldsymbol{BD}$.
 
-Set $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$; then $\boldsymbol{a} \perp \boldsymbol{b}$ (since $BD \perp AB$), $\boldsymbol{c} \perp \boldsymbol{a}$ (since $AC \perp \alpha$ and $AB \subset \alpha$), and $\boldsymbol{c} \perp \boldsymbol{b}$ (since $AC \perp \alpha$ and $BD \subset \alpha$). Hence $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}=0$.
+Set $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$; then $\boldsymbol{a}\perp\boldsymbol{b}$ (since $BD\perp{A}B$), $\boldsymbol{c}\perp\boldsymbol{a}$ (since $AC\perp\alpha$ and $AB\subset\alpha$), and $\boldsymbol{c}\perp\boldsymbol{b}$ (since $AC\perp\alpha$ and $BD\subset\alpha$). Hence $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}=\boldsymbol{b}\cdot\boldsymbol{c}=0$.
 
 $$
-\lvert \boldsymbol{CD} \rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{c} \cdot \boldsymbol{b}=c^2+a^2+b^2.
+\lvert\boldsymbol{CD}\rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c}\cdot\boldsymbol{a}+2\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{c}\cdot\boldsymbol{b}=c^2+a^2+b^2.
 $$
 
 Hence $CD=\sqrt{a^2+b^2+c^2}$. $\blacksquare$
@@ -246,7 +246,7 @@ By **Definition 1.1.5 (Linear Operations on Spatial Vectors)** and **Common Conc
 
 ### Solution to Problem 3
 
-By **Common Conclusion 1.1.7** (Necessary and Sufficient Condition for Vectors to be Collinear), $\boldsymbol{a} \parallel \boldsymbol{b}$ if and only if there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+By **Common Conclusion 1.1.7** (Necessary and Sufficient Condition for Vectors to be Collinear), $\boldsymbol{a}\parallel\boldsymbol{b}$ if and only if there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
 Since $\boldsymbol{a}$, $\boldsymbol{b}$ are collinear, by **Common Conclusion 1.1.7** there exists a real number $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
@@ -258,17 +258,17 @@ By **Common Conclusion 1.1.7**, $2\boldsymbol{a}+\boldsymbol{b}$ is collinear wi
 
 (Exercise 1.1, Review and Consolidation, Problem 4) As shown in the figure, given a tetrahedron $ABCD$ whose edges all have length $a$, $E$, $F$, $G$ are the midpoints of edges $AB$, $AD$, $DC$, respectively. Find:
 
-(1) $\boldsymbol{AB} \cdot \boldsymbol{AC}$;
+(1) $\boldsymbol{AB}\cdot\boldsymbol{AC}$;
 
-(2) $\boldsymbol{AD} \cdot \boldsymbol{DB}$;
+(2) $\boldsymbol{AD}\cdot\boldsymbol{DB}$;
 
-(3) $\boldsymbol{GF} \cdot \boldsymbol{AC}$;
+(3) $\boldsymbol{GF}\cdot\boldsymbol{AC}$;
 
-(4) $\boldsymbol{EF} \cdot \boldsymbol{BC}$;
+(4) $\boldsymbol{EF}\cdot\boldsymbol{BC}$;
 
-(5) $\boldsymbol{FG} \cdot \boldsymbol{BA}$;
+(5) $\boldsymbol{FG}\cdot\boldsymbol{BA}$;
 
-(6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
+(6) $\boldsymbol{GE}\cdot\boldsymbol{GF}$.
 
 (Figure: a tetrahedron $ABCD$ with all edges equal to $a$, $E$ the midpoint of $AB$, $F$ the midpoint of $AD$, and $G$ the midpoint of $DC$.)
 
@@ -276,15 +276,15 @@ By **Common Conclusion 1.1.7**, $2\boldsymbol{a}+\boldsymbol{b}$ is collinear wi
 
 By **Definition 1.1.12 (Dot Product)**, the angle between any two edges in a regular tetrahedron is $60^\circ$.
 
-(1) $\left\langle \boldsymbol{AB}, \boldsymbol{AC} \right\rangle=60^\circ$, hence $\boldsymbol{AB} \cdot \boldsymbol{AC}=\lvert \boldsymbol{AB} \rvert \lvert \boldsymbol{AC} \rvert \cos 60^\circ=a \cdot a \cdot \frac{1}{2}=\frac{a^2}{2}$.
+(1) $\left\langle\boldsymbol{AB},\boldsymbol{AC}\right\rangle=60^\circ$, hence $\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos60^\circ=a\cdot{a}\cdot\frac{1}{2}=\frac{a^2}{2}$.
 
-(2) $\left\langle \boldsymbol{AD}, \boldsymbol{DB} \right\rangle$: the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$. In the equilateral triangle $ABD$, $\angle ADB=60^\circ$, but the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$ is $180^\circ-60^\circ=120^\circ$. Hence $\boldsymbol{AD} \cdot \boldsymbol{DB}=a \cdot a \cdot \cos 120^\circ=-\frac{a^2}{2}$.
+(2) $\left\langle\boldsymbol{AD},\boldsymbol{DB}\right\rangle$: the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$. In the equilateral triangle $ABD$, $\angle{A}DB=60^\circ$, but the angle between $\boldsymbol{AD}$ and $\boldsymbol{DB}$ is $180^\circ-60^\circ=120^\circ$. Hence $\boldsymbol{AD}\cdot\boldsymbol{DB}=a\cdot{a}\cdot\cos120^\circ=-\frac{a^2}{2}$.
 
-(3) $G$, $F$ are the midpoints of $DC$, $AD$, respectively, so $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{GF} \cdot \boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{AC}=-\frac{1}{2}a^2$.
+(3) $G$, $F$ are the midpoints of $DC$, $AD$, respectively, so $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{GF}\cdot\boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC}\cdot\boldsymbol{AC}=-\frac{1}{2}a^2$.
 
-(4) $E$, $F$ are the midpoints of $AB$, $AD$, respectively, so $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. Hence $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD} \cdot \boldsymbol{BC}$. Since $\left\langle \boldsymbol{BD}, \boldsymbol{BC} \right\rangle=60^\circ$, $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2} \cdot a \cdot a \cdot \frac{1}{2}=\frac{a^2}{4}$.
+(4) $E$, $F$ are the midpoints of $AB$, $AD$, respectively, so $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. Hence $\boldsymbol{EF}\cdot\boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD}\cdot\boldsymbol{BC}$. Since $\left\langle\boldsymbol{BD},\boldsymbol{BC}\right\rangle=60^\circ$, $\boldsymbol{EF}\cdot\boldsymbol{BC}=\frac{1}{2}\cdot{a}\cdot{a}\cdot\frac{1}{2}=\frac{a^2}{4}$.
 
-(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{FG} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \left(-\boldsymbol{AB}\right)=-\frac{1}{2} \cdot \frac{a^2}{2}=-\frac{a^2}{4}$.
+(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. Hence $\boldsymbol{FG}\cdot\boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC}\cdot\boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC}\cdot\left(-\boldsymbol{AB}\right)=-\frac{1}{2}\cdot\frac{a^2}{2}=-\frac{a^2}{4}$.
 
 (6) $\boldsymbol{GE}=\boldsymbol{GC}+\boldsymbol{CE}$, or use the midpoint property. $\boldsymbol{GE}=\boldsymbol{AE}-\boldsymbol{AG}$. Here $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AB}$, and $\boldsymbol{AG}=\frac{1}{2}\left(\boldsymbol{AD}+\boldsymbol{AC}\right)$ (since $G$ is the midpoint of $DC$, $\boldsymbol{AG}=\boldsymbol{AD}+\boldsymbol{DG}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{DC}=\boldsymbol{AD}+\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AD}\right)=\frac{1}{2}\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AC}$).
 
@@ -292,11 +292,11 @@ Hence $\boldsymbol{GE}=\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\fr
 
 $\boldsymbol{GF}=-\frac{1}{2}\boldsymbol{AC}$.
 
-$\boldsymbol{GE} \cdot \boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right) \cdot \left(-\frac{1}{2}\boldsymbol{AC}\right)$
+$\boldsymbol{GE}\cdot\boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right)\cdot\left(-\frac{1}{2}\boldsymbol{AC}\right)$
 
-$=-\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC} \cdot \boldsymbol{AC}$
+$=-\frac{1}{4}\boldsymbol{AB}\cdot\boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD}\cdot\boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC}\cdot\boldsymbol{AC}$
 
-$=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
+$=-\frac{1}{4}\cdot\frac{a^2}{2}+\frac{1}{4}\cdot\frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
 
 ## Problem 5
 
@@ -344,7 +344,7 @@ By **Common Conclusion 1.1.9**, $\boldsymbol{EG}$ is coplanar with $\boldsymbol{
 
 (1) Find the angle between $A'B$ and $B'C$;
 
-(2) Prove that $A'B \perp AC'$.
+(2) Prove that $A'B\perp{A}C'$.
 
 (Figure: a cube $ABCD\text{-}A'B'C'D'$ with edge length $a$.)
 
@@ -352,27 +352,27 @@ By **Common Conclusion 1.1.9**, $\boldsymbol{EG}$ is coplanar with $\boldsymbol{
 
 By **Definition 1.1.12 (Dot Product)** and **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
-Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert=a$, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular.
+Set $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$; then $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert=a$, and $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ are pairwise perpendicular.
 
 (1) $\boldsymbol{A'B}=\boldsymbol{AB}-\boldsymbol{AA'}=\boldsymbol{a}-\boldsymbol{c}$.
 
 $\boldsymbol{B'C}=\boldsymbol{B'B}+\boldsymbol{BC}=-\boldsymbol{c}+\boldsymbol{b}=\boldsymbol{b}-\boldsymbol{c}$.
 
-$\boldsymbol{A'B} \cdot \boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
+$\boldsymbol{A'B}\cdot\boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
 
-$\lvert \boldsymbol{A'B} \rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
+$\lvert\boldsymbol{A'B}\rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
 
-$\lvert \boldsymbol{B'C} \rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
+$\lvert\boldsymbol{B'C}\rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
 
-$\cos \left\langle \boldsymbol{A'B}, \boldsymbol{B'C} \right\rangle=\frac{a^2}{\sqrt{2}a \cdot \sqrt{2}a}=\frac{1}{2}$.
+$\cos\left\langle\boldsymbol{A'B},\boldsymbol{B'C}\right\rangle=\frac{a^2}{\sqrt{2}a\cdot\sqrt{2}a}=\frac{1}{2}$.
 
 Hence the angle is $60^\circ$.
 
 (2) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
 
-$\boldsymbol{A'B} \cdot \boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{a}-\boldsymbol{c} \cdot \boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
+$\boldsymbol{A'B}\cdot\boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{a}-\boldsymbol{c}\cdot\boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{A'B} \perp \boldsymbol{AC'}$, i.e. $A'B \perp AC'$. $\blacksquare$
+By **Common Conclusion 1.1.13**, $\boldsymbol{A'B}\perp\boldsymbol{AC'}$, i.e. $A'B\perp{A}C'$. $\blacksquare$
 
 ## Problem 8
 
@@ -382,19 +382,19 @@ By **Common Conclusion 1.1.13**, $\boldsymbol{A'B} \perp \boldsymbol{AC'}$, i.e.
 
 By **Common Conclusion 1.1.13** (Properties of the Dot Product), to prove two lines are perpendicular it suffices to prove that the dot product of their direction vectors is zero.
 
-Let the direction vector of the line $l$ in the plane $\alpha$ be $\boldsymbol{a}$, and let the oblique line be $AB$ ($A \in \alpha$, $B \notin \alpha$); the projection of $B$ on $\alpha$ is $B'$, so the projection is $AB'$. Set $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, where $\boldsymbol{c} \perp \alpha$, hence $\boldsymbol{c} \perp \boldsymbol{a}$.
+Let the direction vector of the line $l$ in the plane $\alpha$ be $\boldsymbol{a}$, and let the oblique line be $AB$ ($A\in\alpha$, $B\notin\alpha$); the projection of $B$ on $\alpha$ is $B'$, so the projection is $AB'$. Set $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, where $\boldsymbol{c}\perp\alpha$, hence $\boldsymbol{c}\perp\boldsymbol{a}$.
 
-Given $l \perp AB'$, i.e. $\boldsymbol{a} \perp \boldsymbol{b}$, hence $\boldsymbol{a} \cdot \boldsymbol{b}=0$.
+Given $l\perp{A}B'$, i.e. $\boldsymbol{a}\perp\boldsymbol{b}$, hence $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 $\boldsymbol{AB}=\boldsymbol{AB'}+\boldsymbol{B'B}=\boldsymbol{b}+\boldsymbol{c}$.
 
-$\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+$\boldsymbol{a}\cdot\boldsymbol{AB}=\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}=0+0=0$.
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{a} \perp \boldsymbol{AB}$, i.e. $l \perp AB$. $\blacksquare$
+By **Common Conclusion 1.1.13**, $\boldsymbol{a}\perp\boldsymbol{AB}$, i.e. $l\perp{A}B$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 1.1, Extension and Exploration, Problem 9) As shown in the figure, in the tetrahedron $OABC$, $OA \perp BC$, $OB \perp AC$. Prove that $OC \perp AB$.
+(Exercise 1.1, Extension and Exploration, Problem 9) As shown in the figure, in the tetrahedron $OABC$, $OA\perp{B}C$, $OB\perp{A}C$. Prove that $OC\perp{A}B$.
 
 (Figure: a tetrahedron $OABC$.)
 
@@ -404,19 +404,19 @@ By **Common Conclusion 1.1.13** (Properties of the Dot Product).
 
 Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
 
-From $OA \perp BC$, i.e. $\boldsymbol{a} \perp \boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. Hence $\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, i.e. $\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}=0$. (1)
+From $OA\perp{B}C$, i.e. $\boldsymbol{a}\perp\boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. Hence $\boldsymbol{a}\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, i.e. $\boldsymbol{a}\cdot\boldsymbol{c}-\boldsymbol{a}\cdot\boldsymbol{b}=0$. (1)
 
-From $OB \perp AC$, i.e. $\boldsymbol{b} \perp \boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. Hence $\boldsymbol{b} \cdot \left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, i.e. $\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{a}=0$. (2)
+From $OB\perp{A}C$, i.e. $\boldsymbol{b}\perp\boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. Hence $\boldsymbol{b}\cdot\left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, i.e. $\boldsymbol{b}\cdot\boldsymbol{c}-\boldsymbol{b}\cdot\boldsymbol{a}=0$. (2)
 
-From (1), $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$. From (2), $\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$.
+From (1), $\boldsymbol{a}\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{b}$. From (2), $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{b}$.
 
-Hence $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}$, i.e. $\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+Hence $\boldsymbol{a}\cdot\boldsymbol{c}=\boldsymbol{b}\cdot\boldsymbol{c}$, i.e. $\boldsymbol{c}\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
 
 $\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
 
-Hence $\boldsymbol{c} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+Hence $\boldsymbol{c}\cdot\boldsymbol{AB}=\boldsymbol{c}\cdot\left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c}\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
 
-By **Common Conclusion 1.1.13**, $\boldsymbol{OC} \perp \boldsymbol{AB}$, i.e. $OC \perp AB$. $\blacksquare$
+By **Common Conclusion 1.1.13**, $\boldsymbol{OC}\perp\boldsymbol{AB}$, i.e. $OC\perp{A}B$. $\blacksquare$
 
 ## Problem 10
 
@@ -430,18 +430,18 @@ By **Common Conclusion 1.1.9** (Necessary and Sufficient Condition for Vectors t
 
 $E$, $F$, $G$, $H$ are the midpoints of $OA$, $OB$, $BC$, $CA$, respectively.
 
-$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, hence $\boldsymbol{EF}=\boldsymbol{HG}$, i.e. $EF \parallel HG$ and $EF=HG$.
+$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, hence $\boldsymbol{EF}=\boldsymbol{HG}$, i.e. $EF\parallel{H}G$ and $EF=HG$.
 
-$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, hence $\boldsymbol{FG}=\boldsymbol{EH}$, i.e. $FG \parallel EH$ and $FG=EH$.
+$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, hence $\boldsymbol{FG}=\boldsymbol{EH}$, i.e. $FG\parallel{E}H$ and $FG=EH$.
 
 Hence the quadrilateral $EFGH$ is a parallelogram.
 
-It remains to prove that one interior angle is a right angle. $\boldsymbol{EF} \cdot \boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB} \cdot \frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{OC}$.
+It remains to prove that one interior angle is a right angle. $\boldsymbol{EF}\cdot\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB}\cdot\frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB}\cdot\boldsymbol{OC}$.
 
-Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. From $OA=OB$, $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert$. From $CA=CB$, $\lvert \boldsymbol{c}-\boldsymbol{a} \rvert=\lvert \boldsymbol{c}-\boldsymbol{b} \rvert$; squaring gives $\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{b}^2$. Since $\boldsymbol{a}^2=\boldsymbol{b}^2$, we get $\boldsymbol{c} \cdot \boldsymbol{a}=\boldsymbol{c} \cdot \boldsymbol{b}$.
+Set $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. From $OA=OB$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$. From $CA=CB$, $\lvert\boldsymbol{c}-\boldsymbol{a}\rvert=\lvert\boldsymbol{c}-\boldsymbol{b}\rvert$; squaring gives $\boldsymbol{c}^2-2\boldsymbol{c}\cdot\boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c}\cdot\boldsymbol{b}+\boldsymbol{b}^2$. Since $\boldsymbol{a}^2=\boldsymbol{b}^2$, we get $\boldsymbol{c}\cdot\boldsymbol{a}=\boldsymbol{c}\cdot\boldsymbol{b}$.
 
-$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB} \cdot \boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}=0$.
+$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB}\cdot\boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right)\cdot\boldsymbol{c}=\boldsymbol{b}\cdot\boldsymbol{c}-\boldsymbol{a}\cdot\boldsymbol{c}=0$.
 
-Hence $\boldsymbol{EF} \cdot \boldsymbol{FG}=0$, i.e. $EF \perp FG$.
+Hence $\boldsymbol{EF}\cdot\boldsymbol{FG}=0$, i.e. $EF\perp{F}G$.
 
 The parallelogram $EFGH$ has one right angle, so it is a rectangle. $\blacksquare$

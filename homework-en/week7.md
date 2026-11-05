@@ -2,11 +2,11 @@
 
 > **Definition 3.1.1 (Function)**
 > 
-> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to{B}$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in{A}$.
 
 > **Definition 3.1.2 (Domain and Range)**
 > 
-> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+> 对于函数 $y=f\left(x\right)$, $x\in{A}$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid{x}\in{A}\right\}$ 叫做函数的值域.
 
 > **Definition 3.1.6 (Representation of Functions)**
 > 
@@ -14,27 +14,27 @@
 
 > **Definition 3.2.1 (Monotonically Increasing)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)<{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
 
 > **Definition 3.2.2 (Monotonically Decreasing)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)>{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
 
 > **Definition 3.2.3 (Maximum Value)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\le{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
 
 > **Definition 3.2.4 (Minimum Value)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\ge{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
 
 > **Definition 3.2.5 (Even Function)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
 
 > **Definition 3.2.6 (Odd Function)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
 
 > **Definition 3.3.1 (Power Function)**
 > 
@@ -72,11 +72,11 @@ By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Defi
 
 By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
 
-(1) For $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(-2x_1+1\right)-\left(-2x_2+1\right)=-2\left(x_1-x_2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$, so $-2\left(x_1-x_2\right)> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so $f\left(x\right)=-2x+1$ is a decreasing function.
+(1) For $\forall{x}_1,x_2\in\mathbb{R}$ with $x_1<{}x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(-2x_1+1\right)-\left(-2x_2+1\right)=-2\left(x_1-x_2\right)$. From $x_1<{}x_2$ we get $x_1-x_2<0$, so $-2\left(x_1-x_2\right)>0$, i.e. $f\left(x_1\right)>{}f\left(x_2\right)$, so $f\left(x\right)=-2x+1$ is a decreasing function.
 
-(2) For $\forall x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(x_1^2+1\right)-\left(x_2^2+1\right)=x_1^2-x_2^2=\left(x_1-x_2\right)\left(x_1+x_2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$, and from $x_1,x_2> 0$ we get $x_1+x_2> 0$, so $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically increasing.
+(2) For $\forall{x}_1,x_2\in\left(0,+\infty\right)$ with $x_1<{}x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(x_1^2+1\right)-\left(x_2^2+1\right)=x_1^2-x_2^2=\left(x_1-x_2\right)\left(x_1+x_2\right)$. From $x_1<{}x_2$ we get $x_1-x_2<0$, and from $x_1,x_2>0$ we get $x_1+x_2>0$, so $f\left(x_1\right)-f\left(x_2\right)<0$, i.e. $f\left(x_1\right)<{}f\left(x_2\right)$, so it is monotonically increasing.
 
-(3) For $\forall x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(1-\frac{1}{x_1}\right)-\left(1-\frac{1}{x_2}\right)=\frac{1}{x_2}-\frac{1}{x_1}=\frac{x_1-x_2}{x_1x_2}$. From $x_1< x_2< 0$ we get $x_1-x_2< 0$ and $x_1x_2> 0$, so $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically increasing. $\blacksquare$
+(3) For $\forall{x}_1,x_2\in\left(-\infty,0\right)$ with $x_1<{}x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=\left(1-\frac{1}{x_1}\right)-\left(1-\frac{1}{x_2}\right)=\frac{1}{x_2}-\frac{1}{x_1}=\frac{x_1-x_2}{x_1x_2}$. From $x_1<{}x_2<0$ we get $x_1-x_2<0$ and $x_1x_2>0$, so $f\left(x_1\right)-f\left(x_2\right)<0$, i.e. $f\left(x_1\right)<{}f\left(x_2\right)$, so it is monotonically increasing. $\blacksquare$
 
 ## Problem 3
 
@@ -104,9 +104,9 @@ When $x=4050$, $y$ attains its maximum value $307050$. Thus when the monthly ren
 
 By **Definition 3.2.5 (Even Function)** and **Definition 3.2.6 (Odd Function)**.
 
-(1) The domain is $\mathbb R$. $f\left(-x\right)=\left(-x\right)^2+1=x^2+1=f\left(x\right)$, so it is an even function.
+(1) The domain is $\mathbb{R}$. $f\left(-x\right)=\left(-x\right)^2+1=x^2+1=f\left(x\right)$, so it is an even function.
 
-(2) The domain is $\mathbb R$. $f\left(-x\right)=\frac{-x}{\left(-x\right)^2+1}=\frac{-x}{x^2+1}=-f\left(x\right)$, so it is an odd function. $\blacksquare$
+(2) The domain is $\mathbb{R}$. $f\left(-x\right)=\frac{-x}{\left(-x\right)^2+1}=\frac{-x}{x^2+1}=-f\left(x\right)$, so it is an odd function. $\blacksquare$
 
 ## Problem 5
 
@@ -144,47 +144,47 @@ $f\left(x\right)=x^2-2x=\left(x-1\right)^2-1$, with vertex $\left(1,-1\right)$.
 
 (2) Discuss the monotonicity of the function $y=x+\frac{9}{x}$ on the interval $\left(0,+\infty\right)$.
 
-(3) Discuss the monotonicity of the function $y=x+\frac{k}{x}$ ($k> 0$) on the interval $\left(0,+\infty\right)$.
+(3) Discuss the monotonicity of the function $y=x+\frac{k}{x}$ ($k>0$) on the interval $\left(0,+\infty\right)$.
 
 ### Solution to Problem 7
 
 By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
 
-(1) For $\forall x_1,x_2\in\left[3,+\infty\right)$ with $x_1< x_2$, we have
+(1) For $\forall{x}_1,x_2\in\left[3,+\infty\right)$ with $x_1<{}x_2$, we have
 
 $$
 y_1-y_2=\left(x_1+\frac{9}{x_1}\right)-\left(x_2+\frac{9}{x_2}\right)=\left(x_1-x_2\right)+9\left(\frac{1}{x_1}-\frac{1}{x_2}\right)=\left(x_1-x_2\right)\left(1-\frac{9}{x_1x_2}\right).
 $$
 
-From $x_1,x_2\ge3$ we get $x_1x_2\ge9$, so $1-\frac{9}{x_1x_2}\ge0$; from $x_1< x_2$ we get $x_1-x_2< 0$. When $x_1,x_2> 3$, $x_1x_2> 9$, so $1-\frac{9}{x_1x_2}> 0$, and hence $y_1-y_2< 0$, i.e. $y_1< y_2$, so it is monotonically increasing.
+From $x_1,x_2\ge3$ we get $x_1x_2\ge9$, so $1-\frac{9}{x_1x_2}\ge0$; from $x_1<{}x_2$ we get $x_1-x_2<0$. When $x_1,x_2>3$, $x_1x_2>9$, so $1-\frac{9}{x_1x_2}>0$, and hence $y_1-y_2<0$, i.e. $y_1<{}y_2$, so it is monotonically increasing.
 
-(2) By the same reasoning as (1), when $x_1,x_2\in\left(0,3\right)$ with $x_1< x_2$, $x_1x_2< 9$, so $1-\frac{9}{x_1x_2}< 0$, and hence $y_1-y_2> 0$, i.e. $y_1> y_2$, so it is monotonically decreasing. Thus $y=x+\frac{9}{x}$ is monotonically decreasing on $\left(0,3\right]$ and monotonically increasing on $\left[3,+\infty\right)$.
+(2) By the same reasoning as (1), when $x_1,x_2\in\left(0,3\right)$ with $x_1<{}x_2$, $x_1x_2<9$, so $1-\frac{9}{x_1x_2}<0$, and hence $y_1-y_2>0$, i.e. $y_1>{}y_2$, so it is monotonically decreasing. Thus $y=x+\frac{9}{x}$ is monotonically decreasing on $\left(0,3\right]$ and monotonically increasing on $\left[3,+\infty\right)$.
 
-(3) For $y=x+\frac{k}{x}$ ($k> 0$), by the same reasoning we get $y_1-y_2=\left(x_1-x_2\right)\left(1-\frac{k}{x_1x_2}\right)$. It is decreasing when $x_1x_2< k$ and increasing when $x_1x_2> k$. The dividing point is $x=\sqrt k$, so it is monotonically decreasing on $\left(0,\sqrt k\right]$ and monotonically increasing on $\left[\sqrt k,+\infty\right)$. $\blacksquare$
+(3) For $y=x+\frac{k}{x}$ ($k>0$), by the same reasoning we get $y_1-y_2=\left(x_1-x_2\right)\left(1-\frac{k}{x_1x_2}\right)$. It is decreasing when $x_1x_2<{}k$ and increasing when $x_1x_2>{}k$. The dividing point is $x=\sqrt{k}$, so it is monotonically decreasing on $\left(0,\sqrt{k}\right]$ and monotonically increasing on $\left[\sqrt{k},+\infty\right)$. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 3.2, Comprehensive Application, Problem 9) Let the domain of the function $y=f\left(x\right)$ be $D$, let $I\subseteq D$ be an interval, and write $\Delta x=x_1-x_2$, $\Delta y=f\left(x_1\right)-f\left(x_2\right)$. Prove that:
+(Exercise 3.2, Comprehensive Application, Problem 9) Let the domain of the function $y=f\left(x\right)$ be $D$, let $I\subseteq{D}$ be an interval, and write $\Delta{x}=x_1-x_2$, $\Delta{y}=f\left(x_1\right)-f\left(x_2\right)$. Prove that:
 
-(1) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically increasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}> 0$;
+(1) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically increasing on the interval $I$ is: for $\forall{x}_1,x_2\in{I}$ with $x_1\ne{x}_2$, we always have $\frac{\Delta{y}}{\Delta{x}}>0$;
 
-(2) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically decreasing on the interval $I$ is: for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, we always have $\frac{\Delta y}{\Delta x}< 0$.
+(2) the necessary and sufficient condition for the function $y=f\left(x\right)$ to be monotonically decreasing on the interval $I$ is: for $\forall{x}_1,x_2\in{I}$ with $x_1\ne{x}_2$, we always have $\frac{\Delta{y}}{\Delta{x}}<0$.
 
 ### Solution to Problem 8
 
 By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
 
-(1) Necessity: If $f$ is monotonically increasing on $I$, then for $\forall x_1,x_2\in I$ with $x_1\ne x_2$, without loss of generality let $x_1> x_2$, then $\Delta x=x_1-x_2> 0$, and $f\left(x_1\right)> f\left(x_2\right)$, i.e. $\Delta y> 0$, so $\frac{\Delta y}{\Delta x}> 0$.
+(1) Necessity: If $f$ is monotonically increasing on $I$, then for $\forall{x}_1,x_2\in{I}$ with $x_1\ne{x}_2$, without loss of generality let $x_1>{}x_2$, then $\Delta{x}=x_1-x_2>0$, and $f\left(x_1\right)>{}f\left(x_2\right)$, i.e. $\Delta{y}>0$, so $\frac{\Delta{y}}{\Delta{x}}>0$.
 
-Sufficiency: If $\frac{\Delta y}{\Delta x}> 0$, then $\Delta y$ and $\Delta x$ have the same sign. When $x_1> x_2$, $\Delta x> 0$, so $\Delta y> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically increasing.
+Sufficiency: If $\frac{\Delta{y}}{\Delta{x}}>0$, then $\Delta{y}$ and $\Delta{x}$ have the same sign. When $x_1>{}x_2$, $\Delta{x}>0$, so $\Delta{y}>0$, i.e. $f\left(x_1\right)>{}f\left(x_2\right)$, so it is monotonically increasing.
 
-(2) Necessity: If $f$ is monotonically decreasing on $I$, then when $x_1> x_2$, $\Delta x> 0$, and $f\left(x_1\right)< f\left(x_2\right)$, i.e. $\Delta y< 0$, so $\frac{\Delta y}{\Delta x}< 0$.
+(2) Necessity: If $f$ is monotonically decreasing on $I$, then when $x_1>{}x_2$, $\Delta{x}>0$, and $f\left(x_1\right)<{}f\left(x_2\right)$, i.e. $\Delta{y}<0$, so $\frac{\Delta{y}}{\Delta{x}}<0$.
 
-Sufficiency: If $\frac{\Delta y}{\Delta x}< 0$, then $\Delta y$ and $\Delta x$ have opposite signs. When $x_1> x_2$, $\Delta x> 0$, so $\Delta y< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so it is monotonically decreasing. $\blacksquare$
+Sufficiency: If $\frac{\Delta{y}}{\Delta{x}}<0$, then $\Delta{y}$ and $\Delta{x}$ have opposite signs. When $x_1>{}x_2$, $\Delta{x}>0$, so $\Delta{y}<0$, i.e. $f\left(x_1\right)<{}f\left(x_2\right)$, so it is monotonically decreasing. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 3.2, Comprehensive Application, Problem 10) As shown in the figure, a zoo wants to build two adjacent rectangular panda enclosures of equal area against a wall. If the total length of materials available for building the walls is $30\ \text{m}$, then for what width $x$ (unit: $\text{m}$) is the area of each panda enclosure maximized? What is the maximum area of each panda enclosure?
+(Exercise 3.2, Comprehensive Application, Problem 10) As shown in the figure, a zoo wants to build two adjacent rectangular panda enclosures of equal area against a wall. If the total length of materials available for building the walls is $30\,\text{m}$, then for what width $x$ (unit: $\text{m}$) is the area of each panda enclosure maximized? What is the maximum area of each panda enclosure?
 
 (Figure: a horizontal wall at the top, with two identical rectangular enclosures side by side below it; the width (perpendicular to the wall) is labeled $x$, a shared vertical wall separates the two enclosures, and the bottom and sides have walls.)
 
@@ -194,25 +194,25 @@ By **Definition 3.2.3 (Maximum Value)**, set up the area as a function of $x$ an
 
 The two enclosures together require $3$ width segments (each of length $x$) and $2$ length segments (each denoted $y$), and the total wall length is $3x+2y=30$, so $y=15-\frac{3x}{2}$. The area of each enclosure is $S=x\cdot\frac{y}{2}=x\left(\frac{15}{2}-\frac{3x}{4}\right)=-\frac{3}{4}x^2+\frac{15}{2}x$.
 
-When $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$, $S$ attains its maximum $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\ \text{m}^2$. Thus when the width is $5\ \text{m}$, the area of each enclosure is maximized, with maximum area $18.75\ \text{m}^2$. $\blacksquare$
+When $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$, $S$ attains its maximum $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\,\text{m}^2$. Thus when the width is $5\,\text{m}$, the area of each enclosure is maximized, with maximum area $18.75\,\text{m}^2$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 3.2, Comprehensive Application, Problem 11) Given that the function $f\left(x\right)$ is an odd function with domain $\mathbb R$, and when $x\ge0$, $f\left(x\right)=x\left(1+x\right)$. Draw the graph of the function $f\left(x\right)$ and find its analytic expression.
+(Exercise 3.2, Comprehensive Application, Problem 11) Given that the function $f\left(x\right)$ is an odd function with domain $\mathbb{R}$, and when $x\ge0$, $f\left(x\right)=x\left(1+x\right)$. Draw the graph of the function $f\left(x\right)$ and find its analytic expression.
 
-(Figure: in the coordinate system, the $x\ge0$ part is the right half of an upward-opening parabola, and the $x< 0$ part is its central-symmetric counterpart about the origin.)
+(Figure: in the coordinate system, the $x\ge0$ part is the right half of an upward-opening parabola, and the $x<0$ part is its central-symmetric counterpart about the origin.)
 
 ### Solution to Problem 10
 
-By **Definition 3.2.6 (Odd Function)**, use $f\left(x\right)=-f\left(-x\right)$ to find the analytic expression when $x< 0$.
+By **Definition 3.2.6 (Odd Function)**, use $f\left(x\right)=-f\left(-x\right)$ to find the analytic expression when $x<0$.
 
-When $x< 0$, $-x> 0$, so $f\left(-x\right)=\left(-x\right)\left(1-x\right)=-x\left(1-x\right)$. By the property of odd functions, $f\left(x\right)=-f\left(-x\right)=x\left(1-x\right)$. Thus
+When $x<0$, $-x>0$, so $f\left(-x\right)=\left(-x\right)\left(1-x\right)=-x\left(1-x\right)$. By the property of odd functions, $f\left(x\right)=-f\left(-x\right)=x\left(1-x\right)$. Thus
 
 $$
-f\left(x\right)=\begin{cases}x\left(1+x\right), & x\ge0,\\x\left(1-x\right), & x< 0.\end{cases}
+f\left(x\right)=\begin{cases}x\left(1+x\right),&x\ge0,\\x\left(1-x\right),&x<0.\end{cases}
 $$
 
-The graph is the right half of a parabola opening upward when $x\ge0$, and its centrally symmetric figure about the origin when $x< 0$. $\blacksquare$
+The graph is the right half of a parabola opening upward when $x\ge0$, and its centrally symmetric figure about the origin when $x<0$. $\blacksquare$
 
 ## Problem 11
 
@@ -222,7 +222,7 @@ The graph is the right half of a parabola opening upward when $x\ge0$, and its c
 
 By **Definition 3.2.5 (Even Function)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**, use the property of even functions to transform.
 
-$f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. Proof: take any $x_1,x_2\in\left(-\infty,0\right)$ with $x_1< x_2< 0$, then $-x_1> -x_2> 0$. Since $f\left(x\right)$ is monotonically decreasing on $\left(0,+\infty\right)$, we get $f\left(-x_1\right)< f\left(-x_2\right)$. Also since $f\left(x\right)$ is an even function, $f\left(-x_1\right)=f\left(x_1\right)$ and $f\left(-x_2\right)=f\left(x_2\right)$, so $f\left(x_1\right)< f\left(x_2\right)$. Therefore $f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
+$f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. Proof: take any $x_1,x_2\in\left(-\infty,0\right)$ with $x_1<{}x_2<0$, then $-x_1>-x_2>0$. Since $f\left(x\right)$ is monotonically decreasing on $\left(0,+\infty\right)$, we get $f\left(-x_1\right)<{}f\left(-x_2\right)$. Also since $f\left(x\right)$ is an even function, $f\left(-x_1\right)=f\left(x_1\right)$ and $f\left(-x_2\right)=f\left(x_2\right)$, so $f\left(x_1\right)<{}f\left(x_2\right)$. Therefore $f\left(x\right)$ is monotonically increasing on $\left(-\infty,0\right)$. $\blacksquare$
 
 ## Problem 12
 
@@ -254,7 +254,7 @@ For an odd function, $g\left(x\right)$ must contain no even-powered terms and no
 
 By **Definition 3.1.6 (Ways of Representing a Function)**, observe from the graphs the influence of the coefficients on the shape and position of the parabola.
 
-(1) The coefficient $a$ determines the opening direction and width: when $a> 0$ it opens upward, and when $a< 0$ it opens downward; the larger $\left|a\right|$ is, the narrower the opening, and the smaller $\left|a\right|$ is, the wider the opening.
+(1) The coefficient $a$ determines the opening direction and width: when $a>0$ it opens upward, and when $a<0$ it opens downward; the larger $\left|a\right|$ is, the narrower the opening, and the smaller $\left|a\right|$ is, the wider the opening.
 
 (2) The coefficient $c$ determines the position of the intersection of the graph with the $y$-axis: when $x=0$, $y=c$, so the graph intersects the $y$-axis at the point $\left(0,c\right)$.
 
@@ -268,7 +268,7 @@ By **Definition 3.1.6 (Ways of Representing a Function)**, observe from the grap
 
 By **Definition 3.3.1 (Power Function)**, let $f\left(x\right)=x^\alpha$, and substitute the known point to find $\alpha$.
 
-Since the graph passes through the point $\left(2,\sqrt2\right)$, we have $2^\alpha=\sqrt2=2^{\frac{1}{2}}$, so $\alpha=\frac{1}{2}$. Therefore the analytic expression of the function is $f\left(x\right)=x^{\frac{1}{2}}=\sqrt x$. $\blacksquare$
+Since the graph passes through the point $\left(2,\sqrt2\right)$, we have $2^\alpha=\sqrt2=2^{\frac{1}{2}}$, so $\alpha=\frac{1}{2}$. Therefore the analytic expression of the function is $f\left(x\right)=x^{\frac{1}{2}}=\sqrt{x}$. $\blacksquare$
 
 ## Exercise 2
 
@@ -282,9 +282,9 @@ Since the graph passes through the point $\left(2,\sqrt2\right)$, we have $2^\al
 
 By **Standard Conclusion 3.3.2** (Properties of Power Functions), use the monotonicity of power functions to compare.
 
-(1) The function $y=x^3$ is monotonically increasing on $\mathbb R$. From $-1.5< -1.4$, we get $\left(-1.5\right)^3< \left(-1.4\right)^3$.
+(1) The function $y=x^3$ is monotonically increasing on $\mathbb{R}$. From $-1.5<-1.4$, we get $\left(-1.5\right)^3<\left(-1.4\right)^3$.
 
-(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. The function $y=x^{-1}=\frac{1}{x}$ is monotonically decreasing on $\left(0,+\infty\right)$. From $1.5> 1.4> 0$, we get $\frac{1}{1.5}< \frac{1}{1.4}$, so $-\frac{1}{1.5}> -\frac{1}{1.4}$, i.e. $\frac{1}{-1.5}> \frac{1}{-1.4}$. $\blacksquare$
+(2) $\frac{1}{-1.5}=-\frac{1}{1.5}$, $\frac{1}{-1.4}=-\frac{1}{1.4}$. The function $y=x^{-1}=\frac{1}{x}$ is monotonically decreasing on $\left(0,+\infty\right)$. From $1.5>1.4>0$, we get $\frac{1}{1.5}<\frac{1}{1.4}$, so $-\frac{1}{1.5}>-\frac{1}{1.4}$, i.e. $\frac{1}{-1.5}>\frac{1}{-1.4}$. $\blacksquare$
 
 ## Exercise 3
 
@@ -294,7 +294,7 @@ By **Standard Conclusion 3.3.2** (Properties of Power Functions), use the monoto
 
 By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.6 (Odd Function)**.
 
-Monotonicity: for $\forall x_1,x_2\in\mathbb R$ with $x_1< x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. From $x_1< x_2$ we get $x_1-x_2< 0$. When $x_1,x_2$ have the same sign, $x_1^2+x_1x_2+x_2^2> 0$; when $x_1x_2\le0$, $x_1^2+x_2^2> 0$ and $x_1x_2\le0$, but $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}> 0$. Thus $f\left(x_1\right)-f\left(x_2\right)< 0$, i.e. $f\left(x_1\right)< f\left(x_2\right)$, so $f\left(x\right)=x^3$ is monotonically increasing on $\mathbb R$.
+Monotonicity: for $\forall{x}_1,x_2\in\mathbb{R}$ with $x_1<{}x_2$, we have $f\left(x_1\right)-f\left(x_2\right)=x_1^3-x_2^3=\left(x_1-x_2\right)\left(x_1^2+x_1x_2+x_2^2\right)$. From $x_1<{}x_2$ we get $x_1-x_2<0$. When $x_1,x_2$ have the same sign, $x_1^2+x_1x_2+x_2^2>0$; when $x_1x_2\le0$, $x_1^2+x_2^2>0$ and $x_1x_2\le0$, but $x_1^2+x_1x_2+x_2^2=\left(x_1+\frac{x_2}{2}\right)^2+\frac{3x_2^2}{4}>0$. Thus $f\left(x_1\right)-f\left(x_2\right)<0$, i.e. $f\left(x_1\right)<{}f\left(x_2\right)$, so $f\left(x\right)=x^3$ is monotonically increasing on $\mathbb{R}$.
 
 Parity: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, so $f\left(x\right)=x^3$ is an odd function. $\blacksquare$
 
@@ -302,19 +302,19 @@ Parity: $f\left(-x\right)=\left(-x\right)^3=-x^3=-f\left(x\right)$, so $f\left(x
 
 (Exercise 3.3, Review and Consolidation, Problem 1) Draw the graph of the function $y=\sqrt{\left|x\right|}$, determine the parity of the function, and discuss its monotonicity.
 
-The graph: in a rectangular coordinate plane, the graph of $y=\sqrt{\left|x\right|}$ is symmetric about the $y$-axis; for $x\ge0$ it is the curve $y=\sqrt x$ rising from the origin $\left(0,0\right)$ to the upper right, and for $x< 0$ it is its mirror image about the $y$-axis rising from the origin to the upper left.
+The graph: in a rectangular coordinate plane, the graph of $y=\sqrt{\left|x\right|}$ is symmetric about the $y$-axis; for $x\ge0$ it is the curve $y=\sqrt{x}$ rising from the origin $\left(0,0\right)$ to the upper right, and for $x<0$ it is its mirror image about the $y$-axis rising from the origin to the upper left.
 
 ### Solution to Problem 13
 
 By **Definition 3.2.5 (Even Function)** and **Definition 3.2.1 (Monotone Increasing and Increasing Function)**.
 
 $$
-y=\sqrt{\left|x\right|}=\begin{cases}\sqrt x, & x\ge0,\\\sqrt{-x}, & x< 0.\end{cases}
+y=\sqrt{\left|x\right|}=\begin{cases}\sqrt{x},&x\ge0,\\\sqrt{-x},&x<0.\end{cases}
 $$
 
 Parity: $f\left(-x\right)=\sqrt{\left|-x\right|}=\sqrt{\left|x\right|}=f\left(x\right)$, so it is an even function.
 
-Monotonicity: when $x\ge0$, $y=\sqrt x$ is monotonically increasing; when $x< 0$, $y=\sqrt{-x}$ is monotonically decreasing. Thus the monotonically increasing interval is $\left[0,+\infty\right)$, and the monotonically decreasing interval is $\left(-\infty,0\right]$. The graph is symmetric about the $y$-axis: on the right it is the curve $y=\sqrt x$, and on the left it is its mirror image about the $y$-axis. $\blacksquare$
+Monotonicity: when $x\ge0$, $y=\sqrt{x}$ is monotonically increasing; when $x<0$, $y=\sqrt{-x}$ is monotonically decreasing. Thus the monotonically increasing interval is $\left[0,+\infty\right)$, and the monotonically decreasing interval is $\left(-\infty,0\right]$. The graph is symmetric about the $y$-axis: on the right it is the curve $y=\sqrt{x}$, and on the left it is its mirror image about the $y$-axis. $\blacksquare$
 
 ## Problem 14
 
@@ -322,19 +322,19 @@ Monotonicity: when $x\ge0$, $y=\sqrt x$ is monotonically increasing; when $x< 0$
 
 (1) Write the analytic expression of the gas flow rate $v$ as a function of the pipe radius $r$;
 
-(2) if the gas flows through a pipe of radius $3\ \text{cm}$ with a flow rate of $400\ \text{cm}^3/\text{s}$, find the expression for the flow rate $v$ when this gas flows through a pipe of radius $r$;
+(2) if the gas flows through a pipe of radius $3\,\text{cm}$ with a flow rate of $400\,\text{cm}^3/\text{s}$, find the expression for the flow rate $v$ when this gas flows through a pipe of radius $r$;
 
-(3) given that the pipe radius through which the gas in (2) flows is $5\ \text{cm}$, calculate the flow rate of the gas (accurate to $1\ \text{cm}^3/\text{s}$).
+(3) given that the pipe radius through which the gas in (2) flows is $5\,\text{cm}$, calculate the flow rate of the gas (accurate to $1\,\text{cm}^3/\text{s}$).
 
 ### Solution to Problem 14
 
 By **Definition 3.3.1 (Power Function)**, the flow rate is proportional to the fourth power of the radius.
 
-(1) Let the proportionality coefficient be $k$, then $v=kr^4$ ($k> 0$).
+(1) Let the proportionality coefficient be $k$, then $v=kr^4$ ($k>0$).
 
 (2) From $v=400$ when $r=3$, we get $400=k\cdot3^4=81k$, so $k=\frac{400}{81}$. Therefore $v=\frac{400}{81}r^4$.
 
-(3) When $r=5$, $v=\frac{400}{81}\cdot5^4=\frac{400\times625}{81}=\frac{250000}{81}\approx3086\ \text{cm}^3/\text{s}$. $\blacksquare$
+(3) When $r=5$, $v=\frac{400}{81}\cdot5^4=\frac{400\times625}{81}=\frac{250000}{81}\approx3086\,\text{cm}^3/\text{s}$. $\blacksquare$
 
 ## Problem 15
 
@@ -348,11 +348,11 @@ By **Definition 3.2.5 (Even Function)**, **Definition 3.2.1 (Monotone Increasing
 
 Domain: $x^{-2}=\frac{1}{x^2}$ requires $x\ne0$, so the domain is $\left(-\infty,0\right)\cup\left(0,+\infty\right)$.
 
-Range: $\frac{1}{x^2}> 0$, so the range is $\left(0,+\infty\right)$.
+Range: $\frac{1}{x^2}>0$, so the range is $\left(0,+\infty\right)$.
 
 Parity: $f\left(-x\right)=\frac{1}{\left(-x\right)^2}=\frac{1}{x^2}=f\left(x\right)$, so it is an even function.
 
-Monotonicity: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1< x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}> 0$, i.e. $f\left(x_1\right)> f\left(x_2\right)$, so it is monotonically decreasing on $\left(0,+\infty\right)$. By the property of even functions, it is monotonically increasing on $\left(-\infty,0\right)$.
+Monotonicity: take any $x_1,x_2\in\left(0,+\infty\right)$ with $x_1<{}x_2$, then $f\left(x_1\right)-f\left(x_2\right)=\frac{1}{x_1^2}-\frac{1}{x_2^2}=\frac{x_2^2-x_1^2}{x_1^2x_2^2}=\frac{\left(x_2-x_1\right)\left(x_2+x_1\right)}{x_1^2x_2^2}>0$, i.e. $f\left(x_1\right)>{}f\left(x_2\right)$, so it is monotonically decreasing on $\left(0,+\infty\right)$. By the property of even functions, it is monotonically increasing on $\left(-\infty,0\right)$.
 
 Graph: in the first quadrant it is a decreasing hyperbola-like curve, and in the second quadrant it is its mirror image about the $y$-axis, with the two coordinate axes as asymptotes. $\blacksquare$
 
@@ -394,15 +394,15 @@ Extrema: it attains the local minimum $f\left(1\right)=2$ at $x=1$, and the loca
 
 ## Inquiry and Discovery 4
 
-(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Prove that: when $x> 0$, $x+\frac{1}{x}\ge2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=1$; when $x< 0$, $x+\frac{1}{x}\le-2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=-1$.
+(Inquiry and Discovery: Investigating the Graph and Properties of the Function $y=x+\frac{1}{x}$) Prove that: when $x>0$, $x+\frac{1}{x}\ge2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=1$; when $x<0$, $x+\frac{1}{x}\le-2$, with equality if and only if $x=\frac{1}{x}$, i.e. $x=-1$.
 
 ### Solution to Inquiry and Discovery 4
 
 By **Definition 3.2.3 (Maximum Value)** and **Definition 3.2.4 (Minimum Value)**, use the nonnegativity of a square to prove.
 
-When $x> 0$, $\left(\sqrt x-\frac{1}{\sqrt x}\right)^2\ge0$, and expanding gives $x-2+\frac{1}{x}\ge0$, i.e. $x+\frac{1}{x}\ge2$. Equality holds if and only if $\sqrt x=\frac{1}{\sqrt x}$, i.e. $x=1$.
+When $x>0$, $\left(\sqrt{x}-\frac{1}{\sqrt{x}}\right)^2\ge0$, and expanding gives $x-2+\frac{1}{x}\ge0$, i.e. $x+\frac{1}{x}\ge2$. Equality holds if and only if $\sqrt{x}=\frac{1}{\sqrt{x}}$, i.e. $x=1$.
 
-When $x< 0$, let $t=-x> 0$, then $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, and equality holds if and only if $t=1$, i.e. $x=-1$. $\blacksquare$
+When $x<0$, let $t=-x>0$, then $x+\frac{1}{x}=-\left(t+\frac{1}{t}\right)\le-2$, and equality holds if and only if $t=1$, i.e. $x=-1$. $\blacksquare$
 
 ## Inquiry and Discovery 5
 
@@ -424,4 +424,4 @@ Based on the domain, parity, monotonicity, and extrema discussed above, the draw
 
 By **Definition 3.2.1 (Monotone Increasing and Increasing Function)** and **Definition 3.2.2 (Monotone Decreasing and Decreasing Function)**.
 
-When $x\to+\infty$, $y=\frac{1}{x}\to0$, so $y=x+\frac{1}{x}\approx x$, and the graph approaches the line $y=x$. When $x\to0^+$, $y=\frac{1}{x}\to+\infty$, so $y\to+\infty$. For $x> 0$, $y=x$ is increasing and $y=\frac{1}{x}$ is decreasing; the superposition of the two makes the function attain the local minimum $2$ at $x=1$. For $x< 0$, by symmetry the reasoning is analogous. $\blacksquare$
+When $x\to+\infty$, $y=\frac{1}{x}\to0$, so $y=x+\frac{1}{x}\approx{x}$, and the graph approaches the line $y=x$. When $x\to0^+$, $y=\frac{1}{x}\to+\infty$, so $y\to+\infty$. For $x>0$, $y=x$ is increasing and $y=\frac{1}{x}$ is decreasing; the superposition of the two makes the function attain the local minimum $2$ at $x=1$. For $x<0$, by symmetry the reasoning is analogous. $\blacksquare$

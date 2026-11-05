@@ -10,49 +10,49 @@
 
 > **定义 5.4.1 (周期函数)**
 > 
-> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
+> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in{D}$ 都有 $x+T\in{D}$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 ## 习题一
 
-(习题 5.4 拓广探索第 18 题) 已知函数 $y=f\left(x\right)$ ($x\in\mathbb R$) 是周期函数, 周期为 $2$, 其部分图象如图所示,
+(习题 5.4 拓广探索第 18 题) 已知函数 $y=f\left(x\right)$ ($x\in\mathbb{R}$) 是周期函数, 周期为 $2$, 其部分图象如图所示,
 
 (1) 写出函数 $y=f\left(x\right)$ 的解析式;
 
 (2) 画出函数 $y=f\left(x+1\right)$ 的图象.
 
-图:函数 $y=f\left(x\right)$ 的一段周期图象(周期为 $2$),曲线过原点,在 $y=-1$ 与 $y=1$ 之间波动,在整数点 $x$ 处穿过 $x$ 轴,形状为 $y=\sin\pi x$ 的正弦波;图中画出了若干个连续周期的波形.
+图:函数 $y=f\left(x\right)$ 的一段周期图象(周期为 $2$),曲线过原点,在 $y=-1$ 与 $y=1$ 之间波动,在整数点 $x$ 处穿过 $x$ 轴,形状为 $y=\sin\pi{x}$ 的正弦波;图中画出了若干个连续周期的波形.
 
 ### 解答 习题一
 
 由**定义 5.4.1 (周期函数)** 及图象特征.
 
-(1) 由图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 可设 $f\left(x\right)=\sin\frac{\pi x}{2}$. 验证: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, 周期 $T=\frac{2\pi}{\pi/2}=4\neq2$. 再由周期为 $2$ 且过 $\left(0,0\right)$, $\left(1,1\right)$, 可设 $f\left(x\right)=\sin\pi x$. 验证: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. 由图象过 $\left(1,1\right)$ 且周期为 $2$, 设 $f\left(x\right)=-\cos\pi x$. 验证: $f\left(0\right)=-1\neq0$. 综合图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 得 $f\left(x\right)=\sin\pi x$.
+(1) 由图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 可设 $f\left(x\right)=\sin\frac{\pi{x}}{2}$. 验证: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, 周期 $T=\frac{2\pi}{\pi/2}=4\neq2$. 再由周期为 $2$ 且过 $\left(0,0\right)$, $\left(1,1\right)$, 可设 $f\left(x\right)=\sin\pi{x}$. 验证: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. 由图象过 $\left(1,1\right)$ 且周期为 $2$, 设 $f\left(x\right)=-\cos\pi{x}$. 验证: $f\left(0\right)=-1\neq0$. 综合图象过 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ 且周期为 $2$, 得 $f\left(x\right)=\sin\pi{x}$.
 
 (2) $y=f\left(x+1\right)$ 的图象是将 $y=f\left(x\right)$ 的图象向左平移 $1$ 个单位长度. $\blacksquare$
 
 ## 习题二
 
-(习题 5.4 拓广探索第 19 题) 容易知道, 正弦函数 $y=\sin x$ 是奇函数, 正弦曲线关于原点对称, 即原点是正弦曲线的对称中心. 除原点外, 正弦曲线还有其他对称中心吗? 如果有, 那么对称中心的坐标是什么? 另外, 正弦曲线是轴对称图形吗? 如果是, 那么对称轴的方程是什么? 你能用已经学过的正弦函数性质解释上述现象吗? 对余弦函数和正切函数, 讨论上述同样的问题.
+(习题 5.4 拓广探索第 19 题) 容易知道, 正弦函数 $y=\sin{x}$ 是奇函数, 正弦曲线关于原点对称, 即原点是正弦曲线的对称中心. 除原点外, 正弦曲线还有其他对称中心吗? 如果有, 那么对称中心的坐标是什么? 另外, 正弦曲线是轴对称图形吗? 如果是, 那么对称轴的方程是什么? 你能用已经学过的正弦函数性质解释上述现象吗? 对余弦函数和正切函数, 讨论上述同样的问题.
 
 ### 解答 习题二
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 正弦曲线的对称中心: 正弦曲线与 $x$ 轴的交点均为对称中心, 即 $\left(k\pi,0\right)$ ($k\in\mathbb Z$). 正弦曲线是轴对称图形, 对称轴为 $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb Z$).
+(1) 正弦曲线的对称中心: 正弦曲线与 $x$ 轴的交点均为对称中心, 即 $\left(k\pi,0\right)$ ($k\in\mathbb{Z}$). 正弦曲线是轴对称图形, 对称轴为 $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb{Z}$).
 
-(2) 余弦曲线的对称中心: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb Z$). 余弦曲线是轴对称图形, 对称轴为 $x=k\pi$ ($k\in\mathbb Z$).
+(2) 余弦曲线的对称中心: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb{Z}$). 余弦曲线是轴对称图形, 对称轴为 $x=k\pi$ ($k\in\mathbb{Z}$).
 
-(3) 正切曲线的对称中心: $\left(\frac{k\pi}{2},0\right)$ ($k\in\mathbb Z$). 正切曲线不是轴对称图形. $\blacksquare$
+(3) 正切曲线的对称中心: $\left(\frac{k\pi}{2},0\right)$ ($k\in\mathbb{Z}$). 正切曲线不是轴对称图形. $\blacksquare$
 
 ## 探究与发现一
 
-(思考 1) 阅读 "函数 $y=A\sin\left(\omega x+\varphi\right)$ 及 $y=A\cos\left(\omega x+\varphi\right)$ 的周期" 一文, 说明周期公式 $T=\frac{2\pi}{\omega}$ 的推导过程.
+(思考 1) 阅读 "函数 $y=A\sin\left(\omega{x}+\varphi\right)$ 及 $y=A\cos\left(\omega{x}+\varphi\right)$ 的周期" 一文, 说明周期公式 $T=\frac{2\pi}{\omega}$ 的推导过程.
 
 ### 解答 探究与发现一
 
-由**常用结论** ($y=A\sin\left(\omega x+\varphi\right)$ 的周期).
+由**常用结论** ($y=A\sin\left(\omega{x}+\varphi\right)$ 的周期).
 
-令 $z=\omega x+\varphi$, 则 $y=A\sin z$ 的周期为 $2\pi$. 由 $z+2\pi=\omega x+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, 知当自变量 $x$ 增加 $\frac{2\pi}{\omega}$ 时, 函数值重复出现. 且当增加量小于 $\frac{2\pi}{\omega}$ 时, 函数值不会总重复出现. 故最小正周期 $T=\frac{2\pi}{\omega}$. $\blacksquare$
+令 $z=\omega{x}+\varphi$, 则 $y=A\sin{z}$ 的周期为 $2\pi$. 由 $z+2\pi=\omega{x}+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, 知当自变量 $x$ 增加 $\frac{2\pi}{\omega}$ 时, 函数值重复出现. 且当增加量小于 $\frac{2\pi}{\omega}$ 时, 函数值不会总重复出现. 故最小正周期 $T=\frac{2\pi}{\omega}$. $\blacksquare$
 
 ## 探究与发现二
 
@@ -62,11 +62,11 @@
 
 由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**常用结论** (正弦函数的图象与性质).
 
-(1) 周期性: 角 $x$ 的终边每绕原点旋转一周 ($2\pi$), 点 $P\left(\cos x,\sin x\right)$ 回到原位, 故周期为 $2\pi$.
+(1) 周期性: 角 $x$ 的终边每绕原点旋转一周 ($2\pi$), 点 $P\left(\cos{x},\sin{x}\right)$ 回到原位, 故周期为 $2\pi$.
 
-(2) 奇偶性: 角 $x$ 与 $-x$ 的终边关于 $x$ 轴对称, 故 $\cos\left(-x\right)=\cos x$, $\sin\left(-x\right)=-\sin x$, 即余弦为偶函数, 正弦为奇函数.
+(2) 奇偶性: 角 $x$ 与 $-x$ 的终边关于 $x$ 轴对称, 故 $\cos\left(-x\right)=\cos{x}$, $\sin\left(-x\right)=-\sin{x}$, 即余弦为偶函数, 正弦为奇函数.
 
-(3) 单调性: 当角 $x$ 从 $-\frac{\pi}{2}$ 增大到 $\frac{\pi}{2}$ 时, 点 $P$ 的纵坐标从 $-1$ 增大到 $1$, 故 $\sin x$ 递增; 当 $x$ 从 $\frac{\pi}{2}$ 增大到 $\frac{3\pi}{2}$ 时, 纵坐标从 $1$ 减小到 $-1$, 故 $\sin x$ 递减.
+(3) 单调性: 当角 $x$ 从 $-\frac{\pi}{2}$ 增大到 $\frac{\pi}{2}$ 时, 点 $P$ 的纵坐标从 $-1$ 增大到 $1$, 故 $\sin{x}$ 递增; 当 $x$ 从 $\frac{\pi}{2}$ 增大到 $\frac{3\pi}{2}$ 时, 纵坐标从 $1$ 减小到 $-1$, 故 $\sin{x}$ 递减.
 
 (4) 最值: 当 $x=\frac{\pi}{2}+2k\pi$ 时, 纵坐标取最大值 $1$; 当 $x=-\frac{\pi}{2}+2k\pi$ 时, 纵坐标取最小值 $-1$. $\blacksquare$
 
@@ -164,25 +164,25 @@ $\blacksquare$
 
 (练习 5.5 第 4 题) 化简:
 
-(1) $\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x$;
+(1) $\frac{1}{2}\cos{x}-\frac{\sqrt{3}}{2}\sin{x}$;
 
-(2) $\sqrt{3}\sin x+\cos x$;
+(2) $\sqrt{3}\sin{x}+\cos{x}$;
 
-(3) $\sqrt{2}\left(\sin x-\cos x\right)$;
+(3) $\sqrt{2}\left(\sin{x}-\cos{x}\right)$;
 
-(4) $\sqrt{2}\cos x-\sqrt{6}\sin x$.
+(4) $\sqrt{2}\cos{x}-\sqrt{6}\sin{x}$.
 
 ### 解答 练习四
 
 由**公式 5.5.11** (辅助角公式).
 
-(1) 原式 $=\cos\frac{\pi}{3}\cos x-\sin\frac{\pi}{3}\sin x=\cos\left(x+\frac{\pi}{3}\right)$.
+(1) 原式 $=\cos\frac{\pi}{3}\cos{x}-\sin\frac{\pi}{3}\sin{x}=\cos\left(x+\frac{\pi}{3}\right)$.
 
-(2) 原式 $=2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=2\left(\sin x\cos\frac{\pi}{6}+\cos x\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
+(2) 原式 $=2\left(\frac{\sqrt{3}}{2}\sin{x}+\frac{1}{2}\cos{x}\right)=2\left(\sin{x}\cos\frac{\pi}{6}+\cos{x}\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
 
-(3) 原式 $=2\left(\frac{\sqrt{2}}{2}\sin x-\frac{\sqrt{2}}{2}\cos x\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
+(3) 原式 $=2\left(\frac{\sqrt{2}}{2}\sin{x}-\frac{\sqrt{2}}{2}\cos{x}\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
 
-(4) 原式 $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
+(4) 原式 $=2\sqrt{2}\left(\frac{1}{2}\cos{x}-\frac{\sqrt{3}}{2}\sin{x}\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
 
 ## 练习五
 
@@ -204,15 +204,15 @@ $\blacksquare$
 
 ## 练习六
 
-(练习 5.5 第 6 题) 已知 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, $8\pi< \alpha< 12\pi$, 求 $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$, $\tan\frac{\alpha}{4}$ 的值.
+(练习 5.5 第 6 题) 已知 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, $8\pi<\alpha<12\pi$, 求 $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$, $\tan\frac{\alpha}{4}$ 的值.
 
 ### 解答 练习六
 
 由**公式 5.5.8** (二倍角余弦公式) 的降幂形式.
 
-由 $8\pi< \alpha< 12\pi$, 得 $4\pi< \frac{\alpha}{2}< 6\pi$, $2\pi< \frac{\alpha}{4}< 3\pi$, $\pi< \frac{\alpha}{8}< \frac{3\pi}{2}$. 故 $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, 即 $\frac{\alpha}{4}$ 与 $\left(0,\pi\right)$ 终边相同.
+由 $8\pi<\alpha<12\pi$, 得 $4\pi<\frac{\alpha}{2}<6\pi$, $2\pi<\frac{\alpha}{4}<3\pi$, $\pi<\frac{\alpha}{8}<\frac{3\pi}{2}$. 故 $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, 即 $\frac{\alpha}{4}$ 与 $\left(0,\pi\right)$ 终边相同.
 
-由 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, 得 $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. 由 $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$, $\sin\frac{\alpha}{8}< 0$, 得 $\sin\frac{\alpha}{8}=-\frac{3}{5}$. 故 $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
+由 $\cos\frac{\alpha}{8}=-\frac{4}{5}$, 得 $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. 由 $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$, $\sin\frac{\alpha}{8}<0$, 得 $\sin\frac{\alpha}{8}=-\frac{3}{5}$. 故 $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
 
 由 $\cos\frac{\alpha}{4}=2\cos^{2}\frac{\alpha}{8}-1=2\times\frac{16}{25}-1=\frac{7}{25}$.
 
@@ -284,13 +284,13 @@ $\blacksquare$
 
 ## 练习十二
 
-(练习 5.5 第 12 题) 已知 $\cos\theta=\frac{1}{7}$, 且 $270^{\circ}< \theta< 360^{\circ}$, 试求 $\sin\frac{\theta}{2}$ 和 $\cos\frac{\theta}{2}$ 的值.
+(练习 5.5 第 12 题) 已知 $\cos\theta=\frac{1}{7}$, 且 $270^{\circ}<\theta<360^{\circ}$, 试求 $\sin\frac{\theta}{2}$ 和 $\cos\frac{\theta}{2}$ 的值.
 
 ### 解答 练习十二
 
 由**公式 5.5.10** (半角公式).
 
-由 $270^{\circ}< \theta< 360^{\circ}$, 得 $135^{\circ}< \frac{\theta}{2}< 180^{\circ}$, 故 $\sin\frac{\theta}{2}> 0$, $\cos\frac{\theta}{2}< 0$.
+由 $270^{\circ}<\theta<360^{\circ}$, 得 $135^{\circ}<\frac{\theta}{2}<180^{\circ}$, 故 $\sin\frac{\theta}{2}>0$, $\cos\frac{\theta}{2}<0$.
 
 由 $\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}=\sqrt{\frac{1-\frac{1}{7}}{2}}=\sqrt{\frac{3}{7}}=\frac{\sqrt{21}}{7}$.
 
@@ -356,17 +356,17 @@ $\blacksquare$
 
 (练习 5.5 第 16 题) 求下列函数的周期, 最大值和最小值:
 
-(1) $y=5\cos x-12\sin x$;
+(1) $y=5\cos{x}-12\sin{x}$;
 
-(2) $y=\cos x+2\sin x$.
+(2) $y=\cos{x}+2\sin{x}$.
 
 ### 解答 练习十六
 
 由**公式 5.5.11** (辅助角公式).
 
-(1) 原式 $=13\left(\frac{5}{13}\cos x-\frac{12}{13}\sin x\right)=13\cos\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{12}{5}$. 周期为 $2\pi$, 最大值为 $13$, 最小值为 $-13$.
+(1) 原式 $=13\left(\frac{5}{13}\cos{x}-\frac{12}{13}\sin{x}\right)=13\cos\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{12}{5}$. 周期为 $2\pi$, 最大值为 $13$, 最小值为 $-13$.
 
-(2) 原式 $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{1}{2}$. 周期为 $2\pi$, 最大值为 $\sqrt{5}$, 最小值为 $-\sqrt{5}$. $\blacksquare$
+(2) 原式 $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos{x}+\frac{2}{\sqrt{5}}\sin{x}\right)=\sqrt{5}\sin\left(x+\varphi\right)$, 其中 $\tan\varphi=\frac{1}{2}$. 周期为 $2\pi$, 最大值为 $\sqrt{5}$, 最小值为 $-\sqrt{5}$. $\blacksquare$
 
 ## 习题三
 
@@ -402,13 +402,13 @@ $\blacksquare$
 
 ## 习题五
 
-(习题 5.5 复习巩固第 3 题) 已知 $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$, $60^{\circ}< \alpha< 150^{\circ}$, 求 $\cos\alpha$ 的值.
+(习题 5.5 复习巩固第 3 题) 已知 $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$, $60^{\circ}<\alpha<150^{\circ}$, 求 $\cos\alpha$ 的值.
 
 ### 解答 习题五
 
 由**公式 5.5.2** (和角余弦公式), $\alpha=\left(30^{\circ}+\alpha\right)-30^{\circ}$.
 
-由 $60^{\circ}< \alpha< 150^{\circ}$, 得 $90^{\circ}< 30^{\circ}+\alpha< 180^{\circ}$, 故 $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. 故
+由 $60^{\circ}<\alpha<150^{\circ}$, 得 $90^{\circ}<30^{\circ}+\alpha<180^{\circ}$, 故 $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. 故
 
 $$
 \cos\alpha=\cos\left[\left(30^{\circ}+\alpha\right)-30^{\circ}\right]=\cos\left(30^{\circ}+\alpha\right)\cos30^{\circ}+\sin\left(30^{\circ}+\alpha\right)\sin30^{\circ}=\left(-\frac{4}{5}\right)\frac{\sqrt{3}}{2}+\frac{3}{5}\cdot\frac{1}{2}=\frac{3-4\sqrt{3}}{10}.

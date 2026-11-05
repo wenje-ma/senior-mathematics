@@ -62,15 +62,15 @@
 
 By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, $z=a+b\mathrm{i}$ corresponds to the point $P\left(a,b\right)$. Write $a=m^2-8m+15=\left(m-3\right)\left(m-5\right)$, $b=m^2-5m-14=\left(m-7\right)\left(m+2\right)$.
 
-(1) To lie in the fourth quadrant, require $a> 0$ and $b< 0$. From $a> 0$, we get $m< 3$ or $m> 5$; from $b< 0$, we get $-2< m< 7$. Taking the intersection gives $-2< m< 3$ or $5< m< 7$.
+(1) To lie in the fourth quadrant, require $a>0$ and $b<0$. From $a>0$, we get $m<3$ or $m>5$; from $b<0$, we get $-2<{}m<7$. Taking the intersection gives $-2<{}m<3$ or $5<{}m<7$.
 
-(2) To lie in the first or third quadrant, require $a$ and $b$ to have the same sign, i.e. $ab> 0$.
+(2) To lie in the first or third quadrant, require $a$ and $b$ to have the same sign, i.e. $ab>0$.
 
-(a) When $a> 0$ and $b> 0$: $m< 3$ or $m> 5$, and $m< -2$ or $m> 7$, giving $m< -2$ or $m> 7$.
+(a) When $a>0$ and $b>0$: $m<3$ or $m>5$, and $m<-2$ or $m>7$, giving $m<-2$ or $m>7$.
 
-(b) When $a< 0$ and $b< 0$: $3< m< 5$, and $-2< m< 7$, giving $3< m< 5$.
+(b) When $a<0$ and $b<0$: $3<{}m<5$, and $-2<{}m<7$, giving $3<{}m<5$.
 
-In summary, $m< -2$ or $3< m< 5$ or $m> 7$.
+In summary, $m<-2$ or $3<{}m<5$ or $m>7$.
 
 (3) To lie on the line $y=x$, require $P\left(a,b\right)$ to satisfy $b=a$, i.e. $m^2-5m-14=m^2-8m+15$. Simplifying gives $3m=29$, i.e. $m=\frac{29}{3}$. $\blacksquare$
 
@@ -92,19 +92,19 @@ By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, the vector $\bo
 
 ## Problem 3
 
-(Exercise 7.1, Comprehensive Application, Problem 8) Let $z\in\mathbb C$, and let $Z$ be the point in the complex plane corresponding to $z$. What figure is the set of points $Z$ satisfying the following conditions?
+(Exercise 7.1, Comprehensive Application, Problem 8) Let $z\in\mathbb{C}$, and let $Z$ be the point in the complex plane corresponding to $z$. What figure is the set of points $Z$ satisfying the following conditions?
 
-(1) $\lvert z\rvert=3$;
+(1) $\lvert{z}\rvert=3$;
 
-(2) $2\le \lvert z\rvert< 5$.
+(2) $2\le\lvert{z}\rvert<5$.
 
 ### Solution to Problem 3
 
-By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert z\rvert$ is the length of the vector $\boldsymbol{OZ}$, that is, the distance from the point $Z$ to the origin $O$.
+By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert{z}\rvert$ is the length of the vector $\boldsymbol{OZ}$, that is, the distance from the point $Z$ to the origin $O$.
 
-(1) $\lvert z\rvert=3$ means the distance from $Z$ to the origin $O$ is always $3$. By plane geometry, the set of points $Z$ is a circle centered at the origin $O$ with radius $3$.
+(1) $\lvert{z}\rvert=3$ means the distance from $Z$ to the origin $O$ is always $3$. By plane geometry, the set of points $Z$ is a circle centered at the origin $O$ with radius $3$.
 
-(2) $\lvert z\rvert< 5$ means the distance from $Z$ to the origin is less than $5$, i.e. the interior of the circle centered at $O$ with radius $5$; $\lvert z\rvert\ge 2$ means the distance from $Z$ to the origin is at least $2$, i.e. the exterior of the circle centered at $O$ with radius $2$ (including the circle). Their intersection is: the annulus between the two circles centered at $O$ with radii $2$ and $5$, where the inner circle ( $\lvert z\rvert=2$ ) is included and the outer circle ( $\lvert z\rvert=5$ ) is excluded. $\blacksquare$
+(2) $\lvert{z}\rvert<5$ means the distance from $Z$ to the origin is less than $5$, i.e. the interior of the circle centered at $O$ with radius $5$; $\lvert{z}\rvert\ge2$ means the distance from $Z$ to the origin is at least $2$, i.e. the exterior of the circle centered at $O$ with radius $2$ (including the circle). Their intersection is: the annulus between the two circles centered at $O$ with radii $2$ and $5$, where the inner circle ( $\lvert{z}\rvert=2$ ) is included and the outer circle ( $\lvert{z}\rvert=5$ ) is excluded. $\blacksquare$
 
 ## Problem 4
 
@@ -112,9 +112,9 @@ By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert z\rvert$ is the l
 
 ### Solution to Problem 4
 
-By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, $z=a+b\mathrm{i}$ corresponds to the point $Z\left(a,b\right)$. Given the imaginary part $b=3$ and real part $a> 0$, the vertical coordinate of $Z$ is always $3$ and the horizontal coordinate is positive.
+By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, $z=a+b\mathrm{i}$ corresponds to the point $Z\left(a,b\right)$. Given the imaginary part $b=3$ and real part $a>0$, the vertical coordinate of $Z$ is always $3$ and the horizontal coordinate is positive.
 
-Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the first quadrant, i.e. the ray $y=3\ \left(x> 0\right)$, not including the endpoint $\left(0,3\right)$. $\blacksquare$
+Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the first quadrant, i.e. the ray $y=3\,\left(x>0\right)$, not including the endpoint $\left(0,3\right)$. $\blacksquare$
 
 ## Problem 5
 
@@ -122,13 +122,13 @@ Therefore, the set of points $Z$ is the part of the line $y=3$ lying in the firs
 
 ### Solution to Problem 5
 
-Let $z=a+\sqrt{3}\mathrm{i}\ \left(a\in\mathbb R\right)$. By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert z\rvert=\sqrt{a^2+\left(\sqrt{3}\right)^2}=\sqrt{a^2+3}$. Given $\lvert z\rvert=2$, we get
+Let $z=a+\sqrt{3}\mathrm{i}\,\left(a\in\mathbb{R}\right)$. By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert{z}\rvert=\sqrt{a^2+\left(\sqrt{3}\right)^2}=\sqrt{a^2+3}$. Given $\lvert{z}\rvert=2$, we get
 
 $$
 \sqrt{a^2+3}=2.
 $$
 
-Squaring both sides gives $a^2+3=4$, i.e. $a^2=1$, so $a=\pm 1$. Hence $z=1+\sqrt{3}\mathrm{i}$ or $z=-1+\sqrt{3}\mathrm{i}$. $\blacksquare$
+Squaring both sides gives $a^2+3=4$, i.e. $a^2=1$, so $a=\pm1$. Hence $z=1+\sqrt{3}\mathrm{i}$ or $z=-1+\sqrt{3}\mathrm{i}$. $\blacksquare$
 
 ## Problem 6
 
@@ -141,19 +141,19 @@ By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, the four points
 By **Definition 7.1.9 (Modulus of a Complex Number)**, compute the distance from each point to the origin:
 
 $$
-\lvert z_1\rvert=\sqrt{1^2+2^2}=\sqrt{5},
+\lvert{z}_1\rvert=\sqrt{1^2+2^2}=\sqrt{5},
 $$
 
 $$
-\lvert z_2\rvert=\sqrt{\left(\sqrt{2}\right)^2+\left(\sqrt{3}\right)^2}=\sqrt{2+3}=\sqrt{5},
+\lvert{z}_2\rvert=\sqrt{\left(\sqrt{2}\right)^2+\left(\sqrt{3}\right)^2}=\sqrt{2+3}=\sqrt{5},
 $$
 
 $$
-\lvert z_3\rvert=\sqrt{\left(\sqrt{3}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{3+2}=\sqrt{5},
+\lvert{z}_3\rvert=\sqrt{\left(\sqrt{3}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{3+2}=\sqrt{5},
 $$
 
 $$
-\lvert z_4\rvert=\sqrt{\left(-2\right)^2+1^2}=\sqrt{5}.
+\lvert{z}_4\rvert=\sqrt{\left(-2\right)^2+1^2}=\sqrt{5}.
 $$
 
 The distance from each of the four points to the origin $O$ equals $\sqrt{5}$, i.e. all four points lie on the circle centered at the origin $O$ with radius $\sqrt{5}$. Hence these $4$ points lie on the same circle. $\blacksquare$
@@ -212,7 +212,7 @@ Just draw the above vectors in the complex plane. $\blacksquare$
 
 ### Solution to Exercise 3
 
-Let $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}$, $z_3=e+f\mathrm{i}\ \left(a,b,c,d,e,f\in\mathbb R\right)$.
+Let $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}$, $z_3=e+f\mathrm{i}\,\left(a,b,c,d,e,f\in\mathbb{R}\right)$.
 
 By **Definition 7.2.1 (Rule of Complex Addition)**,
 
@@ -248,18 +248,18 @@ By the associative law of real addition, $\left(a+c\right)+e=a+\left(c+e\right)$
 
 ### Solution to Exercise 4
 
-By **Common Conclusion 7.2.4** (Geometric Meaning of Complex Addition and Subtraction), the distance between the two points is $\lvert z_2-z_1\rvert$.
+By **Common Conclusion 7.2.4** (Geometric Meaning of Complex Addition and Subtraction), the distance between the two points is $\lvert{z}_2-z_1\rvert$.
 
 (1) $z_2-z_1=\left(3-\mathrm{i}\right)-\left(2+\mathrm{i}\right)=1-2\mathrm{i}$. By **Definition 7.1.9 (Modulus of a Complex Number)**,
 
 $$
-\lvert z_2-z_1\rvert=\lvert1-2\mathrm{i}\rvert=\sqrt{1^2+\left(-2\right)^2}=\sqrt{5}.
+\lvert{z}_2-z_1\rvert=\lvert1-2\mathrm{i}\rvert=\sqrt{1^2+\left(-2\right)^2}=\sqrt{5}.
 $$
 
 (2) $z_4-z_3=\left(4+2\mathrm{i}\right)-\left(8+5\mathrm{i}\right)=-4-3\mathrm{i}$. By **Definition 7.1.9 (Modulus of a Complex Number)**,
 
 $$
-\lvert z_4-z_3\rvert=\lvert-4-3\mathrm{i}\rvert=\sqrt{\left(-4\right)^2+\left(-3\right)^2}=5.
+\lvert{z}_4-z_3\rvert=\lvert-4-3\mathrm{i}\rvert=\sqrt{\left(-4\right)^2+\left(-3\right)^2}=5.
 $$
 
 Hence the distances between the two points are $\sqrt{5}$ and $5$. $\blacksquare$
@@ -342,7 +342,7 @@ By **Definition 7.2.8 (Root Formula for Real-Coefficient Quadratic Equations ove
 
 (1) From $9x^2+16=0$, we get $x^2=-\frac{16}{9}$. Since $\left(\frac{4}{3}\mathrm{i}\right)^2=\left(-\frac{4}{3}\mathrm{i}\right)^2=-\frac{16}{9}$, we have $x=\pm\frac{4}{3}\mathrm{i}$.
 
-(2) In the equation $x^2+x+1=0$, $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3< 0$. By **Definition 7.2.8 (Conjugate Complex Number)**,
+(2) In the equation $x^2+x+1=0$, $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3<0$. By **Definition 7.2.8 (Conjugate Complex Number)**,
 
 $$
 x=\frac{-1\pm\sqrt{3}\,\mathrm{i}}{2}.
@@ -385,11 +385,11 @@ By **Common Conclusion 7.2.4** (Geometric Meaning of Complex Addition and Subtra
 Point $A$ corresponds to $6+5\mathrm{i}$, and point $B$ corresponds to $-3+4\mathrm{i}$.
 
 $$
-\boldsymbol{AB}\text{ 对应复数}=\left(-3+4\mathrm{i}\right)-\left(6+5\mathrm{i}\right)=-9-\mathrm{i}.
+\boldsymbol{AB}\text{~对应复数}=\left(-3+4\mathrm{i}\right)-\left(6+5\mathrm{i}\right)=-9-\mathrm{i}.
 $$
 
 $$
-\boldsymbol{BA}\text{ 对应复数}=\left(6+5\mathrm{i}\right)-\left(-3+4\mathrm{i}\right)=9+\mathrm{i}.
+\boldsymbol{BA}\text{~对应复数}=\left(6+5\mathrm{i}\right)-\left(-3+4\mathrm{i}\right)=9+\mathrm{i}.
 $$
 
 $\blacksquare$
@@ -470,13 +470,13 @@ Let $z_D$ be the complex number corresponding to point $D$, and point $B$ corres
 
 By **Definition 7.2.8 (Root Formula for Real-Coefficient Quadratic Equations over the Complex Numbers)**.
 
-(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4< 0$. Hence
+(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4<0$. Hence
 
 $$
-x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm 2\mathrm{i}}{2}=-2\pm\mathrm{i}.
+x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm2\mathrm{i}}{2}=-2\pm\mathrm{i}.
 $$
 
-(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23< 0$. Hence
+(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23<0$. Hence
 
 $$
 x=\frac{3\pm\sqrt{23}\,\mathrm{i}}{4}.
@@ -530,13 +530,13 @@ $\blacksquare$
 
 ## Problem 15
 
-(Exercise 7.2, Extension and Exploration, Problem 9) If $z=x+y\mathrm{i}\ \left(x,y\in\mathbb R\right)$, what figure is the set of points $Z$ in the complex plane satisfying $\lvert z-\left(2+\mathrm{i}\right)\rvert=3$?
+(Exercise 7.2, Extension and Exploration, Problem 9) If $z=x+y\mathrm{i}\,\left(x,y\in\mathbb{R}\right)$, what figure is the set of points $Z$ in the complex plane satisfying $\lvert{z}-\left(2+\mathrm{i}\right)\rvert=3$?
 
 ### Solution to Problem 15
 
-By **Definition 7.1.9 (Modulus of a Complex Number)** and **Common Conclusion 7.2.4** (Geometric Meaning of Complex Subtraction), $\lvert z-\left(2+\mathrm{i}\right)\rvert$ is the distance between the point $Z\left(x,y\right)$ and the point $\left(2,1\right)$.
+By **Definition 7.1.9 (Modulus of a Complex Number)** and **Common Conclusion 7.2.4** (Geometric Meaning of Complex Subtraction), $\lvert{z}-\left(2+\mathrm{i}\right)\rvert$ is the distance between the point $Z\left(x,y\right)$ and the point $\left(2,1\right)$.
 
-$\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ means the distance from $Z$ to the fixed point $\left(2,1\right)$ is always $3$. Hence the set of points $Z$ is a circle centered at $\left(2,1\right)$ with radius $3$. $\blacksquare$
+$\lvert{z}-\left(2+\mathrm{i}\right)\rvert=3$ means the distance from $Z$ to the fixed point $\left(2,1\right)$ is always $3$. Hence the set of points $Z$ is a circle centered at $\left(2,1\right)$ with radius $3$. $\blacksquare$
 
 ## Problem 16
 
@@ -546,13 +546,13 @@ $\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ means the distance from $Z$ to the 
 
 Factoring real-coefficient polynomials over the complex numbers, one observes the following pattern.
 
-By **Definition 7.2.8 (Conjugate Complex Number)** and **Definition 7.2.5 (Complex Multiplication Rule)**, every real-coefficient polynomial can be factored over the complex numbers into a product of linear factors, with the imaginary roots occurring in conjugate pairs. That is, if $a+b\mathrm{i}\ \left(b\neq 0\right)$ is a root of a real-coefficient polynomial, then $a-b\mathrm{i}$ is also a root, and the corresponding linear factors are $\left(x-a-b\mathrm{i}\right)\left(x-a+b\mathrm{i}\right)=\left(x-a\right)^2+b^2$.
+By **Definition 7.2.8 (Conjugate Complex Number)** and **Definition 7.2.5 (Complex Multiplication Rule)**, every real-coefficient polynomial can be factored over the complex numbers into a product of linear factors, with the imaginary roots occurring in conjugate pairs. That is, if $a+b\mathrm{i}\,\left(b\neq0\right)$ is a root of a real-coefficient polynomial, then $a-b\mathrm{i}$ is also a root, and the corresponding linear factors are $\left(x-a-b\mathrm{i}\right)\left(x-a+b\mathrm{i}\right)=\left(x-a\right)^2+b^2$.
 
 For example, $x^2+1=\left(x+\mathrm{i}\right)\left(x-\mathrm{i}\right)$, $x^4-1=\left(x-1\right)\left(x+1\right)\left(x-\mathrm{i}\right)\left(x+\mathrm{i}\right)$. This shows that over the complex numbers, every real-coefficient polynomial can be completely factored into linear factors, with imaginary roots occurring in pairs. $\blacksquare$
 
 ## Reading and Thinking 1
 
-(Think About 1) From the Fundamental Theorem of Algebra it follows that: any complex-coefficient polynomial $f\left(x\right)$ of degree $n\ \left(n\in\mathbb N^*\right)$ can be factored over the complex numbers into a product of $n$ linear factors. Consequently, a degree-$n$ polynomial equation has $n$ complex roots (multiple roots counted with multiplicity). Can you give a proof?
+(Think About 1) From the Fundamental Theorem of Algebra it follows that: any complex-coefficient polynomial $f\left(x\right)$ of degree $n\,\left(n\in\mathbb{N}^*\right)$ can be factored over the complex numbers into a product of $n$ linear factors. Consequently, a degree-$n$ polynomial equation has $n$ complex roots (multiple roots counted with multiplicity). Can you give a proof?
 
 ### Solution to Reading and Thinking 1
 
@@ -570,7 +570,7 @@ Therefore the equation $f\left(x\right)=0$ has $n$ complex roots $x_1,x_2,\cdots
 
 ## Reading and Thinking 2
 
-(Think About 2) If the roots in $\mathbb C$ of the real-coefficient quartic equation $a_4x^4+a_3x^3+a_2x^2+a_1x+a_0=0\ \left(a_4\neq 0\right)$ are $x_1,x_2,x_3,x_4$, then what is the relation between them and the coefficients of the equation?
+(Think About 2) If the roots in $\mathbb{C}$ of the real-coefficient quartic equation $a_4x^4+a_3x^3+a_2x^2+a_1x+a_0=0\,\left(a_4\neq0\right)$ are $x_1,x_2,x_3,x_4$, then what is the relation between them and the coefficients of the equation?
 
 ### Solution to Reading and Thinking 2
 

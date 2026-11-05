@@ -90,7 +90,7 @@ By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), the ev
 
 (2) Hitting more than $8$ rings means hitting $9$ or $10$ rings; the two are mutually exclusive, so $P\left(A_2\right)=0.3+0.2=0.5$.
 
-(3) Hitting fewer than $9$ rings means hitting $6, 7, 8$ rings; the three are mutually exclusive, so $P\left(A_3\right)=0.1+0.15+0.25=0.5$.
+(3) Hitting fewer than $9$ rings means hitting $6,7,8$ rings; the three are mutually exclusive, so $P\left(A_3\right)=0.1+0.15+0.25=0.5$.
 
 (4) Hitting no more than $5$ rings means not hitting $6$ rings or above. Since the sum of the frequencies of all scores is $0.1+0.15+0.25+0.3+0.2=1$, i.e. the probability of hitting at least $6$ rings is $1$, the probability of hitting no more than $5$ rings is $0$. $\blacksquare$
 
@@ -116,15 +116,15 @@ $$
 P\left(A_2\right)=1-P\left(A_1\right)=1-\frac{125}{216}=\frac{91}{216}.
 $$
 
-(3) The sum of the three numbers is $9$, i.e. find the number of positive-integer solutions to $x_1+x_2+x_3=9$ ($1\le x_i\le 6$). Let $y_i=x_i-1$; then $y_1+y_2+y_3=6$, $0\le y_i\le 5$. The total number of nonnegative solutions is $\binom{6+3-1}{3-1}=\binom{8}{2}=28$; among them, the solutions with $y_i\ge 6$: if $y_1=6$, then $y_2+y_3=0$, $1$ group, and there are $3$ groups for the three variables. So the number of valid solutions is $28-3=25$. Hence $P\left(A_3\right)=\frac{25}{216}$. $\blacksquare$
+(3) The sum of the three numbers is $9$, i.e. find the number of positive-integer solutions to $x_1+x_2+x_3=9$ ($1\le{x}_i\le6$). Let $y_i=x_i-1$; then $y_1+y_2+y_3=6$, $0\le{y}_i\le5$. The total number of nonnegative solutions is $\binom{6+3-1}{3-1}=\binom{8}{2}=28$; among them, the solutions with $y_i\ge6$: if $y_1=6$, then $y_2+y_3=0$, $1$ group, and there are $3$ groups for the three variables. So the number of valid solutions is $28-3=25$. Hence $P\left(A_3\right)=\frac{25}{216}$. $\blacksquare$
 
 ## Problem 3
 
 (Exercise 10.1, Extension and Exploration, Problem 15) The figure shows the subscription situation of math, Chinese and English study materials among $50$ students in a class, where $A$ denotes students who subscribe to math materials, $B$ denotes those who subscribe to Chinese materials, and $C$ denotes those who subscribe to English materials.
 
-(1) Choose any student from this class; describe in natural language the events represented by regions $1, 4, 5, 8$;
+(1) Choose any student from this class; describe in natural language the events represented by regions $1,4,5,8$;
 
-(2) Use $A, B, C$ to denote the following events:
+(2) Use $A,B,C$ to denote the following events:
 
 (1) subscribing to at least one study material;
 
@@ -132,7 +132,7 @@ $$
 
 (3) subscribing to no study material.
 
-(Figure: a Venn diagram — a rectangle representing the whole class of $50$ students, with three mutually intersecting circles $A, B, C$ inside representing students subscribing to math, Chinese, and English materials respectively, divided into eight regions numbered $1\sim8$.)
+(Figure: a Venn diagram — a rectangle representing the whole class of $50$ students, with three mutually intersecting circles $A,B,C$ inside representing students subscribing to math, Chinese, and English materials respectively, divided into eight regions numbered $1\sim8$.)
 
 ### Solution to Problem 3
 
@@ -140,11 +140,11 @@ By **Definition 10.1.10 (Union Event)**, **Definition 10.1.11 (Intersection Even
 
 (1) Region 1 denotes students who subscribe only to math; region 4 denotes students who subscribe to both math and Chinese but not English; region 5 denotes students who subscribe to both math and English but not Chinese; region 8 denotes students who subscribe to no study material.
 
-(2) (1) Subscribing to at least one study material, i.e. subscribing to math or Chinese or English; by **Definition 10.1.10 (Union Event)**, denoted $A\cup B\cup C$.
+(2) (1) Subscribing to at least one study material, i.e. subscribing to math or Chinese or English; by **Definition 10.1.10 (Union Event)**, denoted $A\cup{B}\cup{C}$.
 
-(2) Subscribing to exactly one study material, i.e. subscribing only to math, or only to Chinese, or only to English, denoted $\left(A\cap\overline B\cap\overline C\right)\cup\left(\overline A\cap B\cap\overline C\right)\cup\left(\overline A\cap\overline B\cap C\right)$.
+(2) Subscribing to exactly one study material, i.e. subscribing only to math, or only to Chinese, or only to English, denoted $\left(A\cap\overline{B}\cap\overline{C}\right)\cup\left(\overline{A}\cap{B}\cap\overline{C}\right)\cup\left(\overline{A}\cap\overline{B}\cap{C}\right)$.
 
-(3) Subscribing to no study material is the complementary event of "subscribing to at least one"; by **Definition 10.1.13 (Complementary Events)**, denoted $\overline{A\cup B\cup C}=\overline A\cap\overline B\cap\overline C$. $\blacksquare$
+(3) Subscribing to no study material is the complementary event of "subscribing to at least one"; by **Definition 10.1.13 (Complementary Events)**, denoted $\overline{A\cup{B}\cup{C}}=\overline{A}\cap\overline{B}\cap\overline{C}$. $\blacksquare$
 
 ## Problem 4
 
@@ -160,22 +160,22 @@ By **Definition 10.1.10 (Union Event)**, **Definition 10.1.11 (Intersection Even
 
 By **Definition 10.1.15 (Classical Definition of Probability)**, choosing a number at random from $1$ to $20$, $n\left(\Omega\right)=20$.
 
-There are $10$ numbers divisible by $2$ ($2, 4, \cdots, 20$), so $n\left(A\right)=10$, $P\left(A\right)=\frac{10}{20}=\frac{1}{2}$.
+There are $10$ numbers divisible by $2$ ($2,4,\cdots,20$), so $n\left(A\right)=10$, $P\left(A\right)=\frac{10}{20}=\frac{1}{2}$.
 
-There are $6$ numbers divisible by $3$ ($3, 6, 9, 12, 15, 18$), so $n\left(B\right)=6$, $P\left(B\right)=\frac{6}{20}=\frac{3}{10}$.
+There are $6$ numbers divisible by $3$ ($3,6,9,12,15,18$), so $n\left(B\right)=6$, $P\left(B\right)=\frac{6}{20}=\frac{3}{10}$.
 
-(1) Divisible by both $2$ and $3$, i.e. divisible by $6$; the numbers are $6, 12, 18$, $3$ in total, so $P\left(A\cap B\right)=\frac{3}{20}$.
+(1) Divisible by both $2$ and $3$, i.e. divisible by $6$; the numbers are $6,12,18$, $3$ in total, so $P\left(A\cap{B}\right)=\frac{3}{20}$.
 
 (2) By **Property 10.1.21** (General Additive Formula),
 
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
+P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)=\frac{1}{2}+\frac{3}{10}-\frac{3}{20}=\frac{10+6-3}{20}=\frac{13}{20}.
 $$
 
 (3) By **Property 10.1.19** (Probability of Complementary Events), "divisible by neither $2$ nor $3$" is the complementary event of "divisible by $2$ or divisible by $3$", so
 
 $$
-P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{13}{20}=\frac{7}{20}.
+P\left(\overline{A}\cap\overline{B}\right)=1-P\left(A\cup{B}\right)=1-\frac{13}{20}=\frac{7}{20}.
 $$
 
 $\blacksquare$
@@ -184,13 +184,13 @@ $\blacksquare$
 
 (Exercise 10.1, Extension and Exploration, Problem 17) A brand of computer has a warranty period of $1$ year. Based on a large number of repair records, the maximum number of repairs within one year of use for this brand is $3$ times, of which repairs $1$ time account for $15\%$, repairs $2$ times account for $6\%$, and repairs $3$ times account for $4\%$.
 
-(1) Someone buys one of this brand's computers; let $A_k=$ "needs repair $k$ times within the warranty period", $k=0, 1, 2, 3$. Please fill in the following table:
+(1) Someone buys one of this brand's computers; let $A_k=$ "needs repair $k$ times within the warranty period", $k=0,1,2,3$. Please fill in the following table:
 
 | Event | $A_0$ | $A_1$ | $A_2$ | $A_3$ |
 |---|---|---|---|---|
 | Probability | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
-Are events $A_0, A_1, A_2, A_3$ pairwise mutually exclusive? Are they equally likely?
+Are events $A_0,A_1,A_2,A_3$ pairwise mutually exclusive? Are they equally likely?
 
 (2) Find the probability of the following events:
 
@@ -204,15 +204,15 @@ Are events $A_0, A_1, A_2, A_3$ pairwise mutually exclusive? Are they equally li
 
 By **Property 10.1.18** (Additive Formula for Mutually Exclusive Events) and **Property 10.1.19** (Probability of Complementary Events).
 
-(1) Given $P\left(A_1\right)=0.15$, $P\left(A_2\right)=0.06$, $P\left(A_3\right)=0.04$. Since the maximum number of repairs is $3$, $A_0\cup A_1\cup A_2\cup A_3=\Omega$, and the $A_k$ are pairwise mutually exclusive, so
+(1) Given $P\left(A_1\right)=0.15$, $P\left(A_2\right)=0.06$, $P\left(A_3\right)=0.04$. Since the maximum number of repairs is $3$, $A_0\cup{A}_1\cup{A}_2\cup{A}_3=\Omega$, and the $A_k$ are pairwise mutually exclusive, so
 
 $$
 P\left(A_0\right)=1-P\left(A_1\right)-P\left(A_2\right)-P\left(A_3\right)=1-0.15-0.06-0.04=0.75.
 $$
 
-The events are pairwise mutually exclusive (a computer's number of repairs within the warranty can only be one of $0, 1, 2, 3$); the event probabilities are not equal ($0.75, 0.15, 0.06, 0.04$), so they are not equally likely.
+The events are pairwise mutually exclusive (a computer's number of repairs within the warranty can only be one of $0,1,2,3$); the event probabilities are not equal ($0.75,0.15,0.06,0.04$), so they are not equally likely.
 
-(2) (1) $A=$ "needs repair", i.e. repaired $1, 2, 3$ times; by **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P\left(A\right)=P\left(A_1\right)+P\left(A_2\right)+P\left(A_3\right)=0.15+0.06+0.04=0.25$.
+(2) (1) $A=$ "needs repair", i.e. repaired $1,2,3$ times; by **Property 10.1.18** (Additive Formula for Mutually Exclusive Events), $P\left(A\right)=P\left(A_1\right)+P\left(A_2\right)+P\left(A_3\right)=0.15+0.06+0.04=0.25$.
 
 (2) $B=$ "does not need repair", i.e. $A_0$, so $P\left(B\right)=P\left(A_0\right)=0.75$. Also by **Property 10.1.19** (Probability of Complementary Events), $P\left(B\right)=1-P\left(A\right)=1-0.25=0.75$.
 
@@ -220,31 +220,31 @@ The events are pairwise mutually exclusive (a computer's number of repairs withi
 
 ## Exercise 1
 
-(Exercise 10.2, Problem 1) Toss two fair coins separately. Let event $A=$ "the $1$st coin lands heads", event $B=$ "the $2$nd coin lands heads", event $C=$ "the two coins land the same side up". Which two of $A, B, C$ are mutually independent?
+(Exercise 10.2, Problem 1) Toss two fair coins separately. Let event $A=$ "the $1$st coin lands heads", event $B=$ "the $2$nd coin lands heads", event $C=$ "the two coins land the same side up". Which two of $A,B,C$ are mutually independent?
 
 ### Solution to Exercise 1
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two coins, the sample space is $\Omega=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}$, with $4$ equally likely sample points. The events are $A=\left\{\left(1,1\right), \left(1,0\right)\right\}$, $B=\left\{\left(1,1\right), \left(0,1\right)\right\}$, $C=\left\{\left(1,1\right), \left(0,0\right)\right\}$, so $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
+By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two coins, the sample space is $\Omega=\left\{\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)\right\}$, with $4$ equally likely sample points. The events are $A=\left\{\left(1,1\right),\left(1,0\right)\right\}$, $B=\left\{\left(1,1\right),\left(0,1\right)\right\}$, $C=\left\{\left(1,1\right),\left(0,0\right)\right\}$, so $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{2}{4}=\frac{1}{2}$.
 
-By **Definition 10.2.1 (Mutual Independence of Events)**, verify whether $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$ holds.
+By **Definition 10.2.1 (Mutual Independence of Events)**, verify whether $P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)$ holds.
 
-$A\cap B=\left\{\left(1,1\right)\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $B$ are mutually independent.
+$A\cap{B}=\left\{\left(1,1\right)\right\}$, $P\left(A\cap{B}\right)=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $B$ are mutually independent.
 
-$A\cap C=\left\{\left(1,1\right)\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, while $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $C$ are mutually independent.
+$A\cap{C}=\left\{\left(1,1\right)\right\}$, $P\left(A\cap{C}\right)=\frac{1}{4}$, while $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $C$ are mutually independent.
 
-$B\cap C=\left\{\left(1,1\right)\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, while $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $B$ and $C$ are mutually independent.
+$B\cap{C}=\left\{\left(1,1\right)\right\}$, $P\left(B\cap{C}\right)=\frac{1}{4}$, while $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $B$ and $C$ are mutually independent.
 
-Hence any two of $A, B, C$ are mutually independent. $\blacksquare$
+Hence any two of $A,B,C$ are mutually independent. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 10.2, Problem 2) Let the sample space $\Omega=\left\{a, b, c, d\right\}$ contain equally likely sample points, and
+(Exercise 10.2, Problem 2) Let the sample space $\Omega=\left\{a,b,c,d\right\}$ contain equally likely sample points, and
 
 $$
-A=\left\{a, b\right\},\quad B=\left\{a, c\right\},\quad C=\left\{a, d\right\}.
+A=\left\{a,b\right\},\quad{B}=\left\{a,c\right\},\quad{C}=\left\{a,d\right\}.
 $$
 
-Verify that the three events $A, B, C$ are pairwise independent, but $P\left(A\cap B\cap C\right)\neq P\left(A\right)P\left(B\right)P\left(C\right)$.
+Verify that the three events $A,B,C$ are pairwise independent, but $P\left(A\cap{B}\cap{C}\right)\neq{P}\left(A\right)P\left(B\right)P\left(C\right)$.
 
 ### Solution to Exercise 2
 
@@ -252,18 +252,18 @@ By **Definition 10.1.15 (Classical Definition of Probability)**, each sample poi
 
 By **Definition 10.2.1 (Mutual Independence of Events)**, verify pairwise independence.
 
-$A\cap B=\left\{a\right\}$, $P\left(A\cap B\right)=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $B$ are independent.
+$A\cap{B}=\left\{a\right\}$, $P\left(A\cap{B}\right)=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $B$ are independent.
 
-$A\cap C=\left\{a\right\}$, $P\left(A\cap C\right)=\frac{1}{4}$, while $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $C$ are independent.
+$A\cap{C}=\left\{a\right\}$, $P\left(A\cap{C}\right)=\frac{1}{4}$, while $P\left(A\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $C$ are independent.
 
-$B\cap C=\left\{a\right\}$, $P\left(B\cap C\right)=\frac{1}{4}$, while $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $B$ and $C$ are independent.
+$B\cap{C}=\left\{a\right\}$, $P\left(B\cap{C}\right)=\frac{1}{4}$, while $P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $B$ and $C$ are independent.
 
-Hence $A, B, C$ are pairwise independent.
+Hence $A,B,C$ are pairwise independent.
 
-Also $A\cap B\cap C=\left\{a\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8}$, so
+Also $A\cap{B}\cap{C}=\left\{a\right\}$, $P\left(A\cap{B}\cap{C}\right)=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8}$, so
 
 $$
-P\left(A\cap B\cap C\right)=\frac{1}{4}\neq\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right).
+P\left(A\cap{B}\cap{C}\right)=\frac{1}{4}\neq\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right).
 $$
 
 $\blacksquare$
@@ -280,24 +280,24 @@ $\blacksquare$
 
 ### Solution to Exercise 3
 
-Let event $A=$ "it rains in place A", $B=$ "it rains in place B"; then $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. By the problem, $A$ and $B$ are mutually independent. By **Property 10.2.2** (Independence of Complementary Events), $\overline A, \overline B$ are also mutually independent.
+Let event $A=$ "it rains in place A", $B=$ "it rains in place B"; then $P\left(A\right)=0.2$, $P\left(B\right)=0.3$. By the problem, $A$ and $B$ are mutually independent. By **Property 10.2.2** (Independence of Complementary Events), $\overline{A},\overline{B}$ are also mutually independent.
 
-(1) By **Definition 10.2.1 (Mutual Independence of Events)**, rain in both places means $A\cap B$ occurs, so
-
-$$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.2\times 0.3=0.06.
-$$
-
-(2) Rain in neither place means $\overline A\cap\overline B$ occurs. By **Property 10.1.19** (Probability of Complementary Events), $P\left(\overline A\right)=1-0.2=0.8$, $P\left(\overline B\right)=1-0.3=0.7$. Then by **Definition 10.2.1 (Mutual Independence of Events)**,
+(1) By **Definition 10.2.1 (Mutual Independence of Events)**, rain in both places means $A\cap{B}$ occurs, so
 
 $$
-P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0.8\times 0.7=0.56.
+P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)=0.2\times0.3=0.06.
+$$
+
+(2) Rain in neither place means $\overline{A}\cap\overline{B}$ occurs. By **Property 10.1.19** (Probability of Complementary Events), $P\left(\overline{A}\right)=1-0.2=0.8$, $P\left(\overline{B}\right)=1-0.3=0.7$. Then by **Definition 10.2.1 (Mutual Independence of Events)**,
+
+$$
+P\left(\overline{A}\cap\overline{B}\right)=P\left(\overline{A}\right)P\left(\overline{B}\right)=0.8\times0.7=0.56.
 $$
 
 (3) "It rains in at least one place" is the complementary event of "it rains in neither place". By **Property 10.1.19** (Probability of Complementary Events),
 
 $$
-P\left(\text{至少一个降雨}\right)=1-P\left(\overline A\cap\overline B\right)=1-0.56=0.44.
+P\left(\text{至少一个降雨}\right)=1-P\left(\overline{A}\cap\overline{B}\right)=1-0.56=0.44.
 $$
 
 $\blacksquare$
@@ -308,18 +308,18 @@ $\blacksquare$
 
 ### Solution to Exercise 4
 
-By **Definition 10.2.1 (Mutual Independence of Events)**, we need to verify that for any event $A$, $P\left(\Omega\cap A\right)=P\left(\Omega\right)P\left(A\right)$ and $P\left(\varnothing\cap A\right)=P\left(\varnothing\right)P\left(A\right)$.
+By **Definition 10.2.1 (Mutual Independence of Events)**, we need to verify that for any event $A$, $P\left(\Omega\cap{A}\right)=P\left(\Omega\right)P\left(A\right)$ and $P\left(\varnothing\cap{A}\right)=P\left(\varnothing\right)P\left(A\right)$.
 
-By set operations, $\Omega\cap A=A$, $\varnothing\cap A=\varnothing$. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
+By set operations, $\Omega\cap{A}=A$, $\varnothing\cap{A}=\varnothing$. By **Property 10.1.17** (Probability of the Certain and Impossible Events), $P\left(\Omega\right)=1$, $P\left(\varnothing\right)=0$.
 
 Therefore
 
 $$
-P\left(\Omega\cap A\right)=P\left(A\right)=1\cdot P\left(A\right)=P\left(\Omega\right)P\left(A\right),
+P\left(\Omega\cap{A}\right)=P\left(A\right)=1\cdot{P}\left(A\right)=P\left(\Omega\right)P\left(A\right),
 $$
 
 $$
-P\left(\varnothing\cap A\right)=P\left(\varnothing\right)=0=0\cdot P\left(A\right)=P\left(\varnothing\right)P\left(A\right).
+P\left(\varnothing\cap{A}\right)=P\left(\varnothing\right)=0=0\cdot{P}\left(A\right)=P\left(\varnothing\right)P\left(A\right).
 $$
 
 By **Definition 10.2.1 (Mutual Independence of Events)**, the certain event $\Omega$ and the impossible event $\varnothing$ are independent of any event. $\blacksquare$
@@ -338,43 +338,43 @@ By **Definition 10.2.1 (Mutual Independence of Events)**, the certain event $\Om
 
 ### Solution to Problem 6
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two dice gives $36$ equally likely sample points. The first die showing an odd number has $3$ possibilities ($1, 3, 5$) and the second has $6$, so $n\left(A\right)=3\times 6=18$, $P\left(A\right)=\frac{18}{36}=\frac{1}{2}$. The second die showing an even number has $3$ possibilities ($2, 4, 6$) and the first has $6$, so $n\left(B\right)=6\times 3=18$, $P\left(B\right)=\frac{18}{36}=\frac{1}{2}$.
+By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two dice gives $36$ equally likely sample points. The first die showing an odd number has $3$ possibilities ($1,3,5$) and the second has $6$, so $n\left(A\right)=3\times6=18$, $P\left(A\right)=\frac{18}{36}=\frac{1}{2}$. The second die showing an even number has $3$ possibilities ($2,4,6$) and the first has $6$, so $n\left(B\right)=6\times3=18$, $P\left(B\right)=\frac{18}{36}=\frac{1}{2}$.
 
-$A\cap B$ means the first is odd and the second is even, giving $3\times 3=9$ sample points, so $P\left(A\cap B\right)=\frac{9}{36}=\frac{1}{4}$. While $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$. By **Definition 10.2.1 (Mutual Independence of Events)**, $A$ and $B$ are mutually independent; choose (C). $\blacksquare$
+$A\cap{B}$ means the first is odd and the second is even, giving $3\times3=9$ sample points, so $P\left(A\cap{B}\right)=\frac{9}{36}=\frac{1}{4}$. While $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)$. By **Definition 10.2.1 (Mutual Independence of Events)**, $A$ and $B$ are mutually independent; choose (C). $\blacksquare$
 
 ## Problem 7
 
-(Exercise 10.2, Review and Consolidation, Problem 2) Suppose $P\left(A\right)=0.7$, $P\left(B\right)=0.8$, and $A$ and $B$ are mutually independent. Then $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$.
+(Exercise 10.2, Review and Consolidation, Problem 2) Suppose $P\left(A\right)=0.7$, $P\left(B\right)=0.8$, and $A$ and $B$ are mutually independent. Then $P\left(A\cap{B}\right)=\;\_\_\;$, $P\left(A\cup{B}\right)=\;\_\_\;$.
 
 ### Solution to Problem 7
 
 By **Definition 10.2.1 (Mutual Independence of Events)**, since $A$ and $B$ are independent,
 
 $$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=0.7\times 0.8=0.56.
+P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)=0.7\times0.8=0.56.
 $$
 
 By **Property 10.1.21** (General Additive Formula),
 
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=0.7+0.8-0.56=0.94.
+P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)=0.7+0.8-0.56=0.94.
 $$
 
 $\blacksquare$
 
 ## Problem 8
 
-(Exercise 10.2, Review and Consolidation, Problem 3) If $P\left(A\right)> 0$, $P\left(B\right)> 0$, prove that events $A, B$ being mutually independent and $A, B$ being mutually exclusive cannot hold simultaneously.
+(Exercise 10.2, Review and Consolidation, Problem 3) If $P\left(A\right)>0$, $P\left(B\right)>0$, prove that events $A,B$ being mutually independent and $A,B$ being mutually exclusive cannot hold simultaneously.
 
 ### Solution to Problem 8
 
-By **Definition 10.1.12 (Mutually Exclusive)**, if $A, B$ are mutually exclusive, then $A\cap B=\varnothing$, so $P\left(A\cap B\right)=0$.
+By **Definition 10.1.12 (Mutually Exclusive)**, if $A,B$ are mutually exclusive, then $A\cap{B}=\varnothing$, so $P\left(A\cap{B}\right)=0$.
 
-By **Definition 10.2.1 (Mutual Independence of Events)**, if $A, B$ are mutually independent, then $P\left(A\cap B\right)=P\left(A\right)P\left(B\right)$.
+By **Definition 10.2.1 (Mutual Independence of Events)**, if $A,B$ are mutually independent, then $P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)$.
 
-If $A, B$ were both independent and mutually exclusive, then necessarily $P\left(A\right)P\left(B\right)=P\left(A\cap B\right)=0$. But given $P\left(A\right)> 0$ and $P\left(B\right)> 0$, we have $P\left(A\right)P\left(B\right)> 0$, a contradiction.
+If $A,B$ were both independent and mutually exclusive, then necessarily $P\left(A\right)P\left(B\right)=P\left(A\cap{B}\right)=0$. But given $P\left(A\right)>0$ and $P\left(B\right)>0$, we have $P\left(A\right)P\left(B\right)>0$, a contradiction.
 
-Therefore, when $P\left(A\right)> 0$ and $P\left(B\right)> 0$, events $A, B$ being mutually independent and $A, B$ being mutually exclusive cannot hold simultaneously. $\blacksquare$
+Therefore, when $P\left(A\right)>0$ and $P\left(B\right)>0$, events $A,B$ being mutually independent and $A,B$ being mutually exclusive cannot hold simultaneously. $\blacksquare$
 
 ## Problem 9
 
@@ -388,29 +388,29 @@ Therefore, when $P\left(A\right)> 0$ and $P\left(B\right)> 0$, events $A, B$ bei
 
 Let event $A=$ "A decodes successfully", $B=$ "B decodes successfully"; then $P\left(A\right)=\frac{1}{3}$, $P\left(B\right)=\frac{1}{4}$. By the problem, $A$ and $B$ are mutually independent.
 
-(1) By **Definition 10.2.1 (Mutual Independence of Events)**, both decoding successfully means $A\cap B$ occurs, so
+(1) By **Definition 10.2.1 (Mutual Independence of Events)**, both decoding successfully means $A\cap{B}$ occurs, so
 
 $$
-P\left(A\cap B\right)=P\left(A\right)P\left(B\right)=\frac{1}{3}\times\frac{1}{4}=\frac{1}{12}.
+P\left(A\cap{B}\right)=P\left(A\right)P\left(B\right)=\frac{1}{3}\times\frac{1}{4}=\frac{1}{12}.
 $$
 
-(2) The cipher being successfully decoded means at least one decodes it, i.e. $A\cup B$. By **Property 10.1.21** (General Additive Formula),
+(2) The cipher being successfully decoded means at least one decodes it, i.e. $A\cup{B}$. By **Property 10.1.21** (General Additive Formula),
 
 $$
-P\left(A\cup B\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap B\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
+P\left(A\cup{B}\right)=P\left(A\right)+P\left(B\right)-P\left(A\cap{B}\right)=\frac{1}{3}+\frac{1}{4}-\frac{1}{12}=\frac{4+3-1}{12}=\frac{6}{12}=\frac{1}{2}.
 $$
 
-It can also be computed via the complementary event: by **Property 10.2.2** (Independence of Complementary Events), $\overline A$ and $\overline B$ are independent, $P\left(\overline A\right)=\frac{2}{3}$, $P\left(\overline B\right)=\frac{3}{4}$, so
+It can also be computed via the complementary event: by **Property 10.2.2** (Independence of Complementary Events), $\overline{A}$ and $\overline{B}$ are independent, $P\left(\overline{A}\right)=\frac{2}{3}$, $P\left(\overline{B}\right)=\frac{3}{4}$, so
 
 $$
-P\left(\text{密码被破译}\right)=1-P\left(\overline A\cap\overline B\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
+P\left(\text{密码被破译}\right)=1-P\left(\overline{A}\cap\overline{B}\right)=1-\frac{2}{3}\times\frac{3}{4}=1-\frac{1}{2}=\frac{1}{2}.
 $$
 
 $\blacksquare$
 
 ## Problem 10
 
-(Exercise 10.2, Comprehensive Application, Problem 5) As shown in the figure, a regular octahedron has its eight faces labeled with the numbers $1$ to $8$; toss it once at random and observe the number on the face touching the ground, obtaining the sample space $\Omega=\left\{1, 2, 3, 4, 5, 6, 7, 8\right\}$. Construct appropriate events $A, B, C$ such that $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ holds, but $A, B, C$ are not pairwise independent.
+(Exercise 10.2, Comprehensive Application, Problem 5) As shown in the figure, a regular octahedron has its eight faces labeled with the numbers $1$ to $8$; toss it once at random and observe the number on the face touching the ground, obtaining the sample space $\Omega=\left\{1,2,3,4,5,6,7,8\right\}$. Construct appropriate events $A,B,C$ such that $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ holds, but $A,B,C$ are not pairwise independent.
 
 (Figure: a regular octahedron (two square pyramids glued at their bases), with its eight triangular faces labeled $1\sim8$.)
 
@@ -421,34 +421,34 @@ By **Definition 10.1.15 (Classical Definition of Probability)**, each sample poi
 Construct the following events:
 
 $$
-A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 3, 5, 7\right\}.
+A=\left\{1,2,3,4\right\},\quad{B}=\left\{1,2,5,6\right\},\quad{C}=\left\{1,3,5,7\right\}.
 $$
 
 Then $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{4}{8}=\frac{1}{2}$.
 
-$A\cap B=\left\{1, 2\right\}$, $P\left(A\cap B\right)=\frac{2}{8}=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $B$ are independent.
+$A\cap{B}=\left\{1,2\right\}$, $P\left(A\cap{B}\right)=\frac{2}{8}=\frac{1}{4}$, while $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$, so $A$ and $B$ are independent.
 
-$A\cap C=\left\{1, 3\right\}$, $P\left(A\cap C\right)=\frac{2}{8}=\frac{1}{4}$, while $P\left(A\right)P\left(C\right)=\frac{1}{4}$, so $A$ and $C$ are independent.
+$A\cap{C}=\left\{1,3\right\}$, $P\left(A\cap{C}\right)=\frac{2}{8}=\frac{1}{4}$, while $P\left(A\right)P\left(C\right)=\frac{1}{4}$, so $A$ and $C$ are independent.
 
-$B\cap C=\left\{1, 5\right\}$, $P\left(B\cap C\right)=\frac{2}{8}=\frac{1}{4}$, while $P\left(B\right)P\left(C\right)=\frac{1}{4}$, so $B$ and $C$ are independent.
+$B\cap{C}=\left\{1,5\right\}$, $P\left(B\cap{C}\right)=\frac{2}{8}=\frac{1}{4}$, while $P\left(B\right)P\left(C\right)=\frac{1}{4}$, so $B$ and $C$ are independent.
 
-The three are pairwise independent. Also $A\cap B\cap C=\left\{1\right\}$, $P\left(A\cap B\cap C\right)=\frac{1}{8}$, and
+The three are pairwise independent. Also $A\cap{B}\cap{C}=\left\{1\right\}$, $P\left(A\cap{B}\cap{C}\right)=\frac{1}{8}$, and
 
 $$
 P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}=\frac{1}{8},
 $$
 
-so $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ holds.
+so $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ holds.
 
-In this construction the three are not only jointly independent but also pairwise independent. To construct an example satisfying $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ but not pairwise independent, take
+In this construction the three are not only jointly independent but also pairwise independent. To construct an example satisfying $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ but not pairwise independent, take
 
 $$
-A=\left\{1, 2, 3, 4\right\},\quad B=\left\{1, 2, 5, 6\right\},\quad C=\left\{1, 2, 7, 8\right\}.
+A=\left\{1,2,3,4\right\},\quad{B}=\left\{1,2,5,6\right\},\quad{C}=\left\{1,2,7,8\right\}.
 $$
 
-Then $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$, $A\cap B=\left\{1, 2\right\}$, $A\cap C=\left\{1, 2\right\}$, $B\cap C=\left\{1, 2\right\}$, so $P\left(A\cap B\right)=P\left(A\cap C\right)=P\left(B\cap C\right)=\frac{1}{4}=P\left(A\right)P\left(B\right)$; the three are still pairwise independent.
+Then $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$, $A\cap{B}=\left\{1,2\right\}$, $A\cap{C}=\left\{1,2\right\}$, $B\cap{C}=\left\{1,2\right\}$, so $P\left(A\cap{B}\right)=P\left(A\cap{C}\right)=P\left(B\cap{C}\right)=\frac{1}{4}=P\left(A\right)P\left(B\right)$; the three are still pairwise independent.
 
-Take another construction: $A=\left\{1, 2, 3, 4\right\}$, $B=\left\{1, 2, 3, 5\right\}$, $C=\left\{1, 6, 7, 8\right\}$. Then $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$. $A\cap B=\left\{1, 2, 3\right\}$, $P\left(A\cap B\right)=\frac{3}{8}\neq\frac{1}{4}=P\left(A\right)P\left(B\right)$, so $A, B$ are not independent. $A\cap C=\left\{1\right\}$, $B\cap C=\left\{1\right\}$, $A\cap B\cap C=\left\{1\right\}$, so $P\left(A\cap B\cap C\right)=\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{8}$. In this example $P\left(A\cap B\cap C\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ holds, but $A, B$ are not independent. $\blacksquare$
+Take another construction: $A=\left\{1,2,3,4\right\}$, $B=\left\{1,2,3,5\right\}$, $C=\left\{1,6,7,8\right\}$. Then $P\left(A\right)=P\left(B\right)=P\left(C\right)=\frac{1}{2}$. $A\cap{B}=\left\{1,2,3\right\}$, $P\left(A\cap{B}\right)=\frac{3}{8}\neq\frac{1}{4}=P\left(A\right)P\left(B\right)$, so $A,B$ are not independent. $A\cap{C}=\left\{1\right\}$, $B\cap{C}=\left\{1\right\}$, $A\cap{B}\cap{C}=\left\{1\right\}$, so $P\left(A\cap{B}\cap{C}\right)=\frac{1}{8}=P\left(A\right)P\left(B\right)P\left(C\right)=\frac{1}{8}$. In this example $P\left(A\cap{B}\cap{C}\right)=P\left(A\right)P\left(B\right)P\left(C\right)$ holds, but $A,B$ are not independent. $\blacksquare$
 
 ## Problem 11
 
@@ -464,7 +464,7 @@ $E_3$: draw two balls in succession without replacement from a bag containing $2
 
 (2) Point out the common features and differences of these three experiments;
 
-(3) Find the probabilities of $A, B, C$ respectively.
+(3) Find the probabilities of $A,B,C$ respectively.
 
 ### Solution to Problem 11
 
@@ -473,19 +473,19 @@ By **Definition 10.1.2 (Sample Points and Sample Space)** and **Definition 10.2.
 (1) $E_1$: use $1$ for heads and $0$ for tails; the sample space is
 
 $$
-\Omega_1=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+\Omega_1=\left\{\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)\right\}.
 $$
 
 $E_2$: use $1$ for a hit and $0$ for a miss; the sample space is
 
 $$
-\Omega_2=\left\{\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)\right\}.
+\Omega_2=\left\{\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)\right\}.
 $$
 
-$E_3$: number the $2$ red balls $1, 2$ and the $3$ yellow balls $3, 4, 5$; use the pair $\left(x_1, x_2\right)$ to denote the result of the two draws; the sample space is
+$E_3$: number the $2$ red balls $1,2$ and the $3$ yellow balls $3,4,5$; use the pair $\left(x_1,x_2\right)$ to denote the result of the two draws; the sample space is
 
 $$
-\Omega_3=\left\{\left(1,2\right), \left(1,3\right), \left(1,4\right), \left(1,5\right), \left(2,1\right), \left(2,3\right), \left(2,4\right), \left(2,5\right), \left(3,1\right), \left(3,2\right), \left(3,4\right), \left(3,5\right), \left(4,1\right), \left(4,2\right), \left(4,3\right), \left(4,5\right), \left(5,1\right), \left(5,2\right), \left(5,3\right), \left(5,4\right)\right\}.
+\Omega_3=\left\{\left(1,2\right),\left(1,3\right),\left(1,4\right),\left(1,5\right),\left(2,1\right),\left(2,3\right),\left(2,4\right),\left(2,5\right),\left(3,1\right),\left(3,2\right),\left(3,4\right),\left(3,5\right),\left(4,1\right),\left(4,2\right),\left(4,3\right),\left(4,5\right),\left(5,1\right),\left(5,2\right),\left(5,3\right),\left(5,4\right)\right\}.
 $$
 
 (2) Common feature: all three experiments consist of two independent trials, and the event of interest is "both times occur". Difference: $E_1$ is a classical model, with each sample point equally likely; in $E_2$ the sample points are not equally likely (the hit probability is $0.6$, not $0.5$), so it is not a classical model, but the two shots are independent; $E_3$ is sampling without replacement, so the two draws are not independent.
@@ -495,10 +495,10 @@ $$
 In $E_2$ the two shots are independent; by **Definition 10.2.1 (Mutual Independence of Events)**,
 
 $$
-P\left(B\right)=0.6\times 0.6=0.36.
+P\left(B\right)=0.6\times0.6=0.36.
 $$
 
-$E_3$ is a classical model, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right), \left(2,1\right)\right\}$, $n\left(C\right)=2$, so $P\left(C\right)=\frac{2}{20}=\frac{1}{10}$. $\blacksquare$
+$E_3$ is a classical model, $n\left(\Omega_3\right)=20$, $C=\left\{\left(1,2\right),\left(2,1\right)\right\}$, $n\left(C\right)=2$, so $P\left(C\right)=\frac{2}{20}=\frac{1}{10}$. $\blacksquare$
 
 ## Exercise 5
 
@@ -530,7 +530,7 @@ By **Definition 10.3.1 (Stability of Frequency)**, frequency is an approximation
 
 ### Solution to Exercise 6
 
-By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two coins gives $4$ equally likely sample points: $\left(1,1\right), \left(1,0\right), \left(0,1\right), \left(0,0\right)$.
+By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two coins gives $4$ equally likely sample points: $\left(1,1\right),\left(1,0\right),\left(0,1\right),\left(0,0\right)$.
 
 The event that A wins is "both heads or both tails", i.e. $\left(1,1\right)$ or $\left(0,0\right)$, giving $2$ sample points, so $P\left(\text{甲胜}\right)=\frac{2}{4}=\frac{1}{2}$.
 
@@ -557,12 +557,12 @@ By **Definition 10.3.1 (Stability of Frequency)**, use frequency to estimate pro
 
 (1) Frequencies of each blood type:
 
-Type $A$ frequency $=\frac{7704}{30488}\approx 0.253$.
+Type $A$ frequency $=\frac{7704}{30488}\approx0.253$.
 
-Type $B$ frequency $=\frac{10765}{30488}\approx 0.353$.
+Type $B$ frequency $=\frac{10765}{30488}\approx0.353$.
 
-Type $O$ frequency $=\frac{8970}{30488}\approx 0.294$.
+Type $O$ frequency $=\frac{8970}{30488}\approx0.294$.
 
-Type $AB$ frequency $=\frac{3049}{30488}\approx 0.100$.
+Type $AB$ frequency $=\frac{3049}{30488}\approx0.100$.
 
 (2) By **Definition 10.3.1 (Stability of Frequency)**, use the frequency of type $O$ blood to estimate the probability; hence, surveying one person at random from province $H$, the probability that he has type $O$ blood is approximately $0.294$. $\blacksquare$

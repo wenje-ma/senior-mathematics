@@ -10,17 +10,17 @@
 
 > **Definition 5.4.1 (周期函数)**
 > 
-> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in D$ 都有 $x+T\in D$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
+> 一般地, 设函数 $f\left(x\right)$ 的定义域为 $D$, 如果存在一个非零常数 $T$, 使得对每一个 $x\in{D}$ 都有 $x+T\in{D}$, 且 $f\left(x+T\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做周期函数. 非零常数 $T$ 叫做这个函数的周期. 如果在周期函数 $f\left(x\right)$ 的所有周期中存在一个最小的正数, 那么这个最小正数就叫做 $f\left(x\right)$ 的最小正周期.
 
 ## Problem 1
 
 (Exercise 5.4, Comprehensive Application, Problem 12) Among the following four functions, which one has least positive period $\pi$ and is monotonically decreasing on $\left(\frac{\pi}{2},\pi\right)$? ( )
 
-(A) $y=\lvert\sin x\rvert$
+(A) $y=\lvert\sin{x}\rvert$
 
-(B) $y=\cos x$
+(B) $y=\cos{x}$
 
-(C) $y=\tan x$
+(C) $y=\tan{x}$
 
 (D) $y=\cos\frac{x}{2}$
 
@@ -28,11 +28,11 @@
 
 By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(A) $y=\lvert\sin x\rvert$ has period $\pi$, and on $\left(\frac{\pi}{2},\pi\right)$, $\sin x> 0$ and is decreasing, so $\lvert\sin x\rvert$ is decreasing; it satisfies the condition.
+(A) $y=\lvert\sin{x}\rvert$ has period $\pi$, and on $\left(\frac{\pi}{2},\pi\right)$, $\sin{x}>0$ and is decreasing, so $\lvert\sin{x}\rvert$ is decreasing; it satisfies the condition.
 
-(B) $y=\cos x$ has period $2\pi$; it does not satisfy.
+(B) $y=\cos{x}$ has period $2\pi$; it does not satisfy.
 
-(C) $y=\tan x$ is increasing on $\left(\frac{\pi}{2},\pi\right)$; it does not satisfy.
+(C) $y=\tan{x}$ is increasing on $\left(\frac{\pi}{2},\pi\right)$; it does not satisfy.
 
 (D) $y=\cos\frac{x}{2}$ has period $4\pi$; it does not satisfy.
 
@@ -42,17 +42,17 @@ Choose (A). $\blacksquare$
 
 (Exercise 5.4, Comprehensive Application, Problem 13) If $x$ is an interior angle of an oblique triangle, write down the set of $x$ for which the following inequalities hold:
 
-(1) $1+\tan x\le0$;
+(1) $1+\tan{x}\le0$;
 
-(2) $\tan x-\sqrt{3}\ge0$.
+(2) $\tan{x}-\sqrt{3}\ge0$.
 
 ### Solution to Problem 2
 
 By **Common Conclusion** (Graphs and Properties of the Tangent Function), an interior angle $x$ of an oblique triangle satisfies $x\in\left(0,\pi\right)$ and $x\neq\frac{\pi}{2}$.
 
-(1) From $1+\tan x\le0$, we get $\tan x\le-1$. On $\left(\frac{\pi}{2},\pi\right)$, $\tan x\le-1=\tan\frac{3\pi}{4}$, so $x\in\left[\frac{3\pi}{4},\pi\right)$.
+(1) From $1+\tan{x}\le0$, we get $\tan{x}\le-1$. On $\left(\frac{\pi}{2},\pi\right)$, $\tan{x}\le-1=\tan\frac{3\pi}{4}$, so $x\in\left[\frac{3\pi}{4},\pi\right)$.
 
-(2) From $\tan x-\sqrt{3}\ge0$, we get $\tan x\ge\sqrt{3}=\tan\frac{\pi}{3}$. On $\left(0,\frac{\pi}{2}\right)$, we get $x\in\left[\frac{\pi}{3},\frac{\pi}{2}\right)$. $\blacksquare$
+(2) From $\tan{x}-\sqrt{3}\ge0$, we get $\tan{x}\ge\sqrt{3}=\tan\frac{\pi}{3}$. On $\left(0,\frac{\pi}{2}\right)$, we get $x\in\left[\frac{\pi}{3},\frac{\pi}{2}\right)$. $\blacksquare$
 
 ## Problem 3
 
@@ -60,13 +60,13 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), an int
 
 ### Solution to Problem 3
 
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2}+k\pi,\ \frac{\pi}{2}+k\pi\right)$.
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2}+k\pi,\,\frac{\pi}{2}+k\pi\right)$.
 
-$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ has the opposite monotonicity to $y=\tan\left(2x-\frac{3\pi}{4}\right)$. Set $-\frac{\pi}{2}+k\pi< 2x-\frac{3\pi}{4}< \frac{\pi}{2}+k\pi$, which gives $\frac{\pi}{8}+\frac{k\pi}{2}< x< \frac{5\pi}{8}+\frac{k\pi}{2}$. Hence $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ is decreasing on $\left(\frac{\pi}{8}+\frac{k\pi}{2},\ \frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb Z$). $\blacksquare$
+$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ has the opposite monotonicity to $y=\tan\left(2x-\frac{3\pi}{4}\right)$. Set $-\frac{\pi}{2}+k\pi<2x-\frac{3\pi}{4}<\frac{\pi}{2}+k\pi$, which gives $\frac{\pi}{8}+\frac{k\pi}{2}<{}x<\frac{5\pi}{8}+\frac{k\pi}{2}$. Hence $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ is decreasing on $\left(\frac{\pi}{8}+\frac{k\pi}{2},\,\frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb{Z}$). $\blacksquare$
 
 ## Problem 4
 
-(Exercise 5.4, Comprehensive Application, Problem 15) Given that $y=f\left(x\right)$ is an odd function defined on $\mathbb R$ with period $2$, and $f\left(0.5\right)=1$, find the values of $f\left(1\right)$ and $f\left(3.5\right)$.
+(Exercise 5.4, Comprehensive Application, Problem 15) Given that $y=f\left(x\right)$ is an odd function defined on $\mathbb{R}$ with period $2$, and $f\left(0.5\right)=1$, find the values of $f\left(1\right)$ and $f\left(3.5\right)$.
 
 ### Solution to Problem 4
 
@@ -78,7 +78,7 @@ From $f\left(3.5\right)=f\left(1.5+2\right)=f\left(1.5\right)=f\left(-0.5+2\righ
 
 ## Problem 5
 
-(Exercise 5.4, Comprehensive Application, Problem 16) Given $f\left(x\right)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb R$,
+(Exercise 5.4, Comprehensive Application, Problem 16) Given $f\left(x\right)=\frac{1}{2}\sin\left(2x-\frac{\pi}{3}\right)$, $x\in\mathbb{R}$,
 
 (1) Find the least positive period of $f\left(x\right)$;
 
@@ -86,7 +86,7 @@ From $f\left(3.5\right)=f\left(1.5+2\right)=f\left(1.5\right)=f\left(-0.5+2\righ
 
 ### Solution to Problem 5
 
-By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$) and **Common Conclusion** (Graphs and Properties of the Sine Function).
+By **Common Conclusion** (Period of $y=A\sin\left(\omega{x}+\varphi\right)$) and **Common Conclusion** (Graphs and Properties of the Sine Function).
 
 (1) From $\omega=2$, we get $T=\frac{2\pi}{2}=\pi$.
 
@@ -94,57 +94,57 @@ By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$) and 
 
 ## Problem 6
 
-(Exercise 5.4, Extension and Exploration, Problem 17) In the rectangular coordinate system, given that $\odot O$ is the circle centered at the origin $O$ with radius $2$, and the terminal side of the angle $x$ meets $\odot O$ at $B$, find the function expression relating the y-coordinate $y$ of the point $B$ to $x$, and sketch its graph with the help of information technology.
+(Exercise 5.4, Extension and Exploration, Problem 17) In the rectangular coordinate system, given that $\odot{O}$ is the circle centered at the origin $O$ with radius $2$, and the terminal side of the angle $x$ meets $\odot{O}$ at $B$, find the function expression relating the y-coordinate $y$ of the point $B$ to $x$, and sketch its graph with the help of information technology.
 
-The graphs: on the left is a circle centered at the origin $O$ with radius $2$ in the rectangular coordinate plane, and the terminal side of angle $x$ meets the circle at point $B$; on the right is the graph of the ordinate $y$ of point $B$ as a function of the angle $x$, namely $y=2\sin x$, a sine curve with amplitude $2$ and period $2\pi$, oscillating between $y=-2$ and $y=2$.
+The graphs: on the left is a circle centered at the origin $O$ with radius $2$ in the rectangular coordinate plane, and the terminal side of angle $x$ meets the circle at point $B$; on the right is the graph of the ordinate $y$ of point $B$ as a function of the angle $x$, namely $y=2\sin{x}$, a sine curve with amplitude $2$ and period $2\pi$, oscillating between $y=-2$ and $y=2$.
 
 ### Solution to Problem 6
 
 By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**.
 
-Since the circle has radius $2$, the intersection point $B$ of the terminal side of the angle $x$ with the circle has coordinates $\left(2\cos x,\ 2\sin x\right)$. Hence the y-coordinate of the point $B$ is $y=2\sin x$, $x\in\mathbb R$. Its graph is a sine curve with amplitude $2$ and period $2\pi$. $\blacksquare$
+Since the circle has radius $2$, the intersection point $B$ of the terminal side of the angle $x$ with the circle has coordinates $\left(2\cos{x},\,2\sin{x}\right)$. Hence the y-coordinate of the point $B$ is $y=2\sin{x}$, $x\in\mathbb{R}$. Its graph is a sine curve with amplitude $2$ and period $2\pi$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 5.4, Extension and Exploration, Problem 18) Given that $y=f\left(x\right)$ ($x\in\mathbb R$) is a periodic function with period $2$, a portion of whose graph is shown in the figure,
+(Exercise 5.4, Extension and Exploration, Problem 18) Given that $y=f\left(x\right)$ ($x\in\mathbb{R}$) is a periodic function with period $2$, a portion of whose graph is shown in the figure,
 
 (1) Write down the expression for $y=f\left(x\right)$;
 
 (2) Sketch the graph of $y=f\left(x+1\right)$.
 
-The graph: a portion of the periodic graph of $y=f\left(x\right)$ (period $2$); the curve passes through the origin, oscillates between $y=-1$ and $y=1$, crosses the $x$-axis at integer points $x$, and has the shape of the sine wave $y=\sin\pi x$; several consecutive periods are drawn.
+The graph: a portion of the periodic graph of $y=f\left(x\right)$ (period $2$); the curve passes through the origin, oscillates between $y=-1$ and $y=1$, crosses the $x$-axis at integer points $x$, and has the shape of the sine wave $y=\sin\pi{x}$; several consecutive periods are drawn.
 
 ### Solution to Problem 7
 
 By **Definition 5.4.1 (Periodic Function)** and the features of the graph.
 
-(1) Since the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, one may try $f\left(x\right)=\sin\frac{\pi x}{2}$. Check: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, but the period $T=\frac{2\pi}{\pi/2}=4\neq2$. Again, with period $2$ and passing through $\left(0,0\right)$, $\left(1,1\right)$, one may try $f\left(x\right)=\sin\pi x$. Check: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. Since the graph passes through $\left(1,1\right)$ and has period $2$, try $f\left(x\right)=-\cos\pi x$. Check: $f\left(0\right)=-1\neq0$. Combining the facts that the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, we get $f\left(x\right)=\sin\pi x$.
+(1) Since the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, one may try $f\left(x\right)=\sin\frac{\pi{x}}{2}$. Check: $f\left(0\right)=0$, $f\left(1\right)=1$, $f\left(-1\right)=-1$, but the period $T=\frac{2\pi}{\pi/2}=4\neq2$. Again, with period $2$ and passing through $\left(0,0\right)$, $\left(1,1\right)$, one may try $f\left(x\right)=\sin\pi{x}$. Check: $f\left(0\right)=0$, $f\left(1\right)=0\neq1$. Since the graph passes through $\left(1,1\right)$ and has period $2$, try $f\left(x\right)=-\cos\pi{x}$. Check: $f\left(0\right)=-1\neq0$. Combining the facts that the graph passes through $\left(0,0\right)$, $\left(1,1\right)$, $\left(-1,-1\right)$ and has period $2$, we get $f\left(x\right)=\sin\pi{x}$.
 
 (2) The graph of $y=f\left(x+1\right)$ is obtained by shifting the graph of $y=f\left(x\right)$ to the left by $1$ unit. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 5.4, Extension and Exploration, Problem 19) It is easy to see that the sine function $y=\sin x$ is odd, and the sine curve is symmetric about the origin, i.e. the origin is a center of symmetry of the sine curve. Besides the origin, are there other centers of symmetry of the sine curve? If so, what are their coordinates? Also, is the sine curve an axisymmetric figure? If so, what is the equation of its axis of symmetry? Can you explain these phenomena using the properties of the sine function you have learned? Discuss the same questions for the cosine and tangent functions.
+(Exercise 5.4, Extension and Exploration, Problem 19) It is easy to see that the sine function $y=\sin{x}$ is odd, and the sine curve is symmetric about the origin, i.e. the origin is a center of symmetry of the sine curve. Besides the origin, are there other centers of symmetry of the sine curve? If so, what are their coordinates? Also, is the sine curve an axisymmetric figure? If so, what is the equation of its axis of symmetry? Can you explain these phenomena using the properties of the sine function you have learned? Discuss the same questions for the cosine and tangent functions.
 
 ### Solution to Problem 8
 
 By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) Centers of symmetry of the sine curve: every intersection of the sine curve with the $x$-axis is a center of symmetry, i.e. $\left(k\pi,0\right)$ ($k\in\mathbb Z$). The sine curve is axisymmetric, with axes of symmetry $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb Z$).
+(1) Centers of symmetry of the sine curve: every intersection of the sine curve with the $x$-axis is a center of symmetry, i.e. $\left(k\pi,0\right)$ ($k\in\mathbb{Z}$). The sine curve is axisymmetric, with axes of symmetry $x=\frac{\pi}{2}+k\pi$ ($k\in\mathbb{Z}$).
 
-(2) Centers of symmetry of the cosine curve: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb Z$). The cosine curve is axisymmetric, with axes of symmetry $x=k\pi$ ($k\in\mathbb Z$).
+(2) Centers of symmetry of the cosine curve: $\left(\frac{\pi}{2}+k\pi,0\right)$ ($k\in\mathbb{Z}$). The cosine curve is axisymmetric, with axes of symmetry $x=k\pi$ ($k\in\mathbb{Z}$).
 
-(3) Centers of symmetry of the tangent curve: $\left(\frac{k\pi}{2},0\right)$ ($k\in\mathbb Z$). The tangent curve is not axisymmetric. $\blacksquare$
+(3) Centers of symmetry of the tangent curve: $\left(\frac{k\pi}{2},0\right)$ ($k\in\mathbb{Z}$). The tangent curve is not axisymmetric. $\blacksquare$
 
 ## Inquiry and Discovery 1
 
-(Thinking 1) Read the article "The Period of the Functions $y=A\sin\left(\omega x+\varphi\right)$ and $y=A\cos\left(\omega x+\varphi\right)$", and explain the derivation of the period formula $T=\frac{2\pi}{\omega}$.
+(Thinking 1) Read the article "The Period of the Functions $y=A\sin\left(\omega{x}+\varphi\right)$ and $y=A\cos\left(\omega{x}+\varphi\right)$", and explain the derivation of the period formula $T=\frac{2\pi}{\omega}$.
 
 ### Solution to Inquiry and Discovery 1
 
-By **Common Conclusion** (Period of $y=A\sin\left(\omega x+\varphi\right)$).
+By **Common Conclusion** (Period of $y=A\sin\left(\omega{x}+\varphi\right)$).
 
-Let $z=\omega x+\varphi$. Then the period of $y=A\sin z$ is $2\pi$. Since $z+2\pi=\omega x+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, we see that when the argument $x$ increases by $\frac{2\pi}{\omega}$, the function value repeats; and when the increase is less than $\frac{2\pi}{\omega}$, the function values do not always repeat. Hence the least positive period is $T=\frac{2\pi}{\omega}$. $\blacksquare$
+Let $z=\omega{x}+\varphi$. Then the period of $y=A\sin{z}$ is $2\pi$. Since $z+2\pi=\omega{x}+\varphi+2\pi=\omega\left(x+\frac{2\pi}{\omega}\right)+\varphi$, we see that when the argument $x$ increases by $\frac{2\pi}{\omega}$, the function value repeats; and when the increase is less than $\frac{2\pi}{\omega}$, the function values do not always repeat. Hence the least positive period is $T=\frac{2\pi}{\omega}$. $\blacksquare$
 
 ## Inquiry and Discovery 2
 
@@ -154,11 +154,11 @@ Let $z=\omega x+\varphi$. Then the period of $y=A\sin z$ is $2\pi$. Since $z+2\p
 
 By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Common Conclusion** (Graphs and Properties of the Sine Function).
 
-(1) Periodicity: each time the terminal side of the angle $x$ makes one full turn around the origin ($2\pi$), the point $P\left(\cos x,\sin x\right)$ returns to its original position, so the period is $2\pi$.
+(1) Periodicity: each time the terminal side of the angle $x$ makes one full turn around the origin ($2\pi$), the point $P\left(\cos{x},\sin{x}\right)$ returns to its original position, so the period is $2\pi$.
 
-(2) Odd-even property: the terminal sides of the angles $x$ and $-x$ are symmetric about the $x$-axis, so $\cos\left(-x\right)=\cos x$ and $\sin\left(-x\right)=-\sin x$; i.e. cosine is even and sine is odd.
+(2) Odd-even property: the terminal sides of the angles $x$ and $-x$ are symmetric about the $x$-axis, so $\cos\left(-x\right)=\cos{x}$ and $\sin\left(-x\right)=-\sin{x}$; i.e. cosine is even and sine is odd.
 
-(3) Monotonicity: when the angle $x$ increases from $-\frac{\pi}{2}$ to $\frac{\pi}{2}$, the y-coordinate of the point $P$ increases from $-1$ to $1$, so $\sin x$ increases; when $x$ increases from $\frac{\pi}{2}$ to $\frac{3\pi}{2}$, the y-coordinate decreases from $1$ to $-1$, so $\sin x$ decreases.
+(3) Monotonicity: when the angle $x$ increases from $-\frac{\pi}{2}$ to $\frac{\pi}{2}$, the y-coordinate of the point $P$ increases from $-1$ to $1$, so $\sin{x}$ increases; when $x$ increases from $\frac{\pi}{2}$ to $\frac{3\pi}{2}$, the y-coordinate decreases from $1$ to $-1$, so $\sin{x}$ decreases.
 
 (4) Extrema: when $x=\frac{\pi}{2}+2k\pi$, the y-coordinate attains its maximum $1$; when $x=-\frac{\pi}{2}+2k\pi$, the y-coordinate attains its minimum $-1$. $\blacksquare$
 
@@ -256,25 +256,25 @@ Use **Formula 5.5.3** through **Formula 5.5.6** in reverse.
 
 (Exercise 5.5, Problem 4) Simplify:
 
-(1) $\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x$;
+(1) $\frac{1}{2}\cos{x}-\frac{\sqrt{3}}{2}\sin{x}$;
 
-(2) $\sqrt{3}\sin x+\cos x$;
+(2) $\sqrt{3}\sin{x}+\cos{x}$;
 
-(3) $\sqrt{2}\left(\sin x-\cos x\right)$;
+(3) $\sqrt{2}\left(\sin{x}-\cos{x}\right)$;
 
-(4) $\sqrt{2}\cos x-\sqrt{6}\sin x$.
+(4) $\sqrt{2}\cos{x}-\sqrt{6}\sin{x}$.
 
 ### Solution to Exercise 4
 
 By **Formula 5.5.11** (Auxiliary Angle Formula).
 
-(1) The original expression $=\cos\frac{\pi}{3}\cos x-\sin\frac{\pi}{3}\sin x=\cos\left(x+\frac{\pi}{3}\right)$.
+(1) The original expression $=\cos\frac{\pi}{3}\cos{x}-\sin\frac{\pi}{3}\sin{x}=\cos\left(x+\frac{\pi}{3}\right)$.
 
-(2) The original expression $=2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=2\left(\sin x\cos\frac{\pi}{6}+\cos x\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
+(2) The original expression $=2\left(\frac{\sqrt{3}}{2}\sin{x}+\frac{1}{2}\cos{x}\right)=2\left(\sin{x}\cos\frac{\pi}{6}+\cos{x}\sin\frac{\pi}{6}\right)=2\sin\left(x+\frac{\pi}{6}\right)$.
 
-(3) The original expression $=2\left(\frac{\sqrt{2}}{2}\sin x-\frac{\sqrt{2}}{2}\cos x\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
+(3) The original expression $=2\left(\frac{\sqrt{2}}{2}\sin{x}-\frac{\sqrt{2}}{2}\cos{x}\right)=2\sin\left(x-\frac{\pi}{4}\right)$.
 
-(4) The original expression $=2\sqrt{2}\left(\frac{1}{2}\cos x-\frac{\sqrt{3}}{2}\sin x\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
+(4) The original expression $=2\sqrt{2}\left(\frac{1}{2}\cos{x}-\frac{\sqrt{3}}{2}\sin{x}\right)=2\sqrt{2}\cos\left(x+\frac{\pi}{3}\right)$. $\blacksquare$
 
 ## Exercise 5
 
@@ -296,15 +296,15 @@ $\blacksquare$
 
 ## Exercise 6
 
-(Exercise 5.5, Problem 6) Given $\cos\frac{\alpha}{8}=-\frac{4}{5}$ and $8\pi< \alpha< 12\pi$, find the values of $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$ and $\tan\frac{\alpha}{4}$.
+(Exercise 5.5, Problem 6) Given $\cos\frac{\alpha}{8}=-\frac{4}{5}$ and $8\pi<\alpha<12\pi$, find the values of $\sin\frac{\alpha}{4}$, $\cos\frac{\alpha}{4}$ and $\tan\frac{\alpha}{4}$.
 
 ### Solution to Exercise 6
 
 By the power-reduction form of **Formula 5.5.8** (Double-Angle Cosine).
 
-From $8\pi< \alpha< 12\pi$, we get $4\pi< \frac{\alpha}{2}< 6\pi$, $2\pi< \frac{\alpha}{4}< 3\pi$, $\pi< \frac{\alpha}{8}< \frac{3\pi}{2}$. Hence $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, i.e. $\frac{\alpha}{4}$ has the same terminal side as $\left(0,\pi\right)$.
+From $8\pi<\alpha<12\pi$, we get $4\pi<\frac{\alpha}{2}<6\pi$, $2\pi<\frac{\alpha}{4}<3\pi$, $\pi<\frac{\alpha}{8}<\frac{3\pi}{2}$. Hence $\frac{\alpha}{4}\in\left(2\pi,3\pi\right)$, i.e. $\frac{\alpha}{4}$ has the same terminal side as $\left(0,\pi\right)$.
 
-From $\cos\frac{\alpha}{8}=-\frac{4}{5}$, we get $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. Since $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$ and $\sin\frac{\alpha}{8}< 0$, we get $\sin\frac{\alpha}{8}=-\frac{3}{5}$. Hence $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
+From $\cos\frac{\alpha}{8}=-\frac{4}{5}$, we get $\sin\frac{\alpha}{4}=2\sin\frac{\alpha}{8}\cos\frac{\alpha}{8}$. Since $\frac{\alpha}{8}\in\left(\pi,\frac{3\pi}{2}\right)$ and $\sin\frac{\alpha}{8}<0$, we get $\sin\frac{\alpha}{8}=-\frac{3}{5}$. Hence $\sin\frac{\alpha}{4}=2\times\left(-\frac{3}{5}\right)\times\left(-\frac{4}{5}\right)=\frac{24}{25}$.
 
 And $\cos\frac{\alpha}{4}=2\cos^{2}\frac{\alpha}{8}-1=2\times\frac{16}{25}-1=\frac{7}{25}$.
 
@@ -376,13 +376,13 @@ Since $\tan\frac{\alpha}{2}=\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}=\f
 
 ## Exercise 12
 
-(Exercise 5.5, Problem 12) Given $\cos\theta=\frac{1}{7}$ and $270^{\circ}< \theta< 360^{\circ}$, find the values of $\sin\frac{\theta}{2}$ and $\cos\frac{\theta}{2}$.
+(Exercise 5.5, Problem 12) Given $\cos\theta=\frac{1}{7}$ and $270^{\circ}<\theta<360^{\circ}$, find the values of $\sin\frac{\theta}{2}$ and $\cos\frac{\theta}{2}$.
 
 ### Solution to Exercise 12
 
 By **Formula 5.5.10** (Half-Angle Formulas).
 
-From $270^{\circ}< \theta< 360^{\circ}$, we get $135^{\circ}< \frac{\theta}{2}< 180^{\circ}$, hence $\sin\frac{\theta}{2}> 0$ and $\cos\frac{\theta}{2}< 0$.
+From $270^{\circ}<\theta<360^{\circ}$, we get $135^{\circ}<\frac{\theta}{2}<180^{\circ}$, hence $\sin\frac{\theta}{2}>0$ and $\cos\frac{\theta}{2}<0$.
 
 And $\sin\frac{\theta}{2}=\sqrt{\frac{1-\cos\theta}{2}}=\sqrt{\frac{1-\frac{1}{7}}{2}}=\sqrt{\frac{3}{7}}=\frac{\sqrt{21}}{7}$.
 
@@ -448,17 +448,17 @@ By substituting variables into the result of **Exercise 14**.
 
 (Exercise 5.5, Problem 16) Find the period, maximum and minimum values of the following functions:
 
-(1) $y=5\cos x-12\sin x$;
+(1) $y=5\cos{x}-12\sin{x}$;
 
-(2) $y=\cos x+2\sin x$.
+(2) $y=\cos{x}+2\sin{x}$.
 
 ### Solution to Exercise 16
 
 By **Formula 5.5.11** (Auxiliary Angle Formula).
 
-(1) The original expression $=13\left(\frac{5}{13}\cos x-\frac{12}{13}\sin x\right)=13\cos\left(x+\varphi\right)$, where $\tan\varphi=\frac{12}{5}$. The period is $2\pi$, the maximum value is $13$, and the minimum value is $-13$.
+(1) The original expression $=13\left(\frac{5}{13}\cos{x}-\frac{12}{13}\sin{x}\right)=13\cos\left(x+\varphi\right)$, where $\tan\varphi=\frac{12}{5}$. The period is $2\pi$, the maximum value is $13$, and the minimum value is $-13$.
 
-(2) The original expression $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos x+\frac{2}{\sqrt{5}}\sin x\right)=\sqrt{5}\sin\left(x+\varphi\right)$, where $\tan\varphi=\frac{1}{2}$. The period is $2\pi$, the maximum value is $\sqrt{5}$, and the minimum value is $-\sqrt{5}$. $\blacksquare$
+(2) The original expression $=\sqrt{5}\left(\frac{1}{\sqrt{5}}\cos{x}+\frac{2}{\sqrt{5}}\sin{x}\right)=\sqrt{5}\sin\left(x+\varphi\right)$, where $\tan\varphi=\frac{1}{2}$. The period is $2\pi$, the maximum value is $\sqrt{5}$, and the minimum value is $-\sqrt{5}$. $\blacksquare$
 
 ## Problem 9
 
@@ -494,13 +494,13 @@ $\blacksquare$
 
 ## Problem 11
 
-(Exercise 5.5, Review and Consolidation, Problem 3) Given $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$ and $60^{\circ}< \alpha< 150^{\circ}$, find the value of $\cos\alpha$.
+(Exercise 5.5, Review and Consolidation, Problem 3) Given $\sin\left(30^{\circ}+\alpha\right)=\frac{3}{5}$ and $60^{\circ}<\alpha<150^{\circ}$, find the value of $\cos\alpha$.
 
 ### Solution to Problem 11
 
 By **Formula 5.5.2** (Cosine of a Sum), $\alpha=\left(30^{\circ}+\alpha\right)-30^{\circ}$.
 
-From $60^{\circ}< \alpha< 150^{\circ}$, we get $90^{\circ}< 30^{\circ}+\alpha< 180^{\circ}$, hence $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. Hence
+From $60^{\circ}<\alpha<150^{\circ}$, we get $90^{\circ}<30^{\circ}+\alpha<180^{\circ}$, hence $\cos\left(30^{\circ}+\alpha\right)=-\frac{4}{5}$. Hence
 
 $$
 \cos\alpha=\cos\left[\left(30^{\circ}+\alpha\right)-30^{\circ}\right]=\cos\left(30^{\circ}+\alpha\right)\cos30^{\circ}+\sin\left(30^{\circ}+\alpha\right)\sin30^{\circ}=\left(-\frac{4}{5}\right)\frac{\sqrt{3}}{2}+\frac{3}{5}\cdot\frac{1}{2}=\frac{3-4\sqrt{3}}{10}.
@@ -510,16 +510,16 @@ $\blacksquare$
 
 ## Problem 12
 
-(Exercise 5.5, Review and Consolidation, Problem 4) In $\triangle ABC$, given $\cos A=\frac{12}{13}$ and $\cos B=\frac{3}{5}$, find the value of $\cos C$.
+(Exercise 5.5, Review and Consolidation, Problem 4) In $\triangle{A}BC$, given $\cos{A}=\frac{12}{13}$ and $\cos{B}=\frac{3}{5}$, find the value of $\cos{C}$.
 
 ### Solution to Problem 12
 
-From $C=\pi-\left(A+B\right)$, we get $\cos C=-\cos\left(A+B\right)$.
+From $C=\pi-\left(A+B\right)$, we get $\cos{C}=-\cos\left(A+B\right)$.
 
-From $\cos A=\frac{12}{13}$, we get $\sin A=\frac{5}{13}$. From $\cos B=\frac{3}{5}$, we get $\sin B=\frac{4}{5}$. Hence
+From $\cos{A}=\frac{12}{13}$, we get $\sin{A}=\frac{5}{13}$. From $\cos{B}=\frac{3}{5}$, we get $\sin{B}=\frac{4}{5}$. Hence
 
 $$
-\cos C=-\cos\left(A+B\right)=-\left(\cos A\cos B-\sin A\sin B\right)=-\left(\frac{12}{13}\cdot\frac{3}{5}-\frac{5}{13}\cdot\frac{4}{5}\right)=-\frac{36-20}{65}=-\frac{16}{65}.
+\cos{C}=-\cos\left(A+B\right)=-\left(\cos{A}\cos{B}-\sin{A}\sin{B}\right)=-\left(\frac{12}{13}\cdot\frac{3}{5}-\frac{5}{13}\cdot\frac{4}{5}\right)=-\frac{36-20}{65}=-\frac{16}{65}.
 $$
 
 $\blacksquare$

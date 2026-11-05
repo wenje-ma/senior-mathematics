@@ -18,7 +18,7 @@
 
 > **Definition 1.1.5 (Membership)**
 > 
-> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in{A}$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin{A}$.
 
 > **Definition 1.1.12 (向量的数量积)**
 > 
@@ -123,7 +123,7 @@ By **Definition 9.2.4 (Population Variance, Population Standard Deviation, Sampl
 The mean of panel A is
 
 $$
-\overline x_A=\frac{42+45+\cdots+45}{12}=\frac{569}{12}\approx47.42,
+\overline{x}_A=\frac{42+45+\cdots+45}{12}=\frac{569}{12}\approx47.42,
 $$
 
 with variance approximately $s_A^2\approx13.91$ and standard deviation approximately $s_A\approx3.73$.
@@ -131,12 +131,12 @@ with variance approximately $s_A^2\approx13.91$ and standard deviation approxima
 The mean of panel B is
 
 $$
-\overline x_B=\frac{55+36+\cdots+47}{12}=\frac{674}{12}\approx56.17,
+\overline{x}_B=\frac{55+36+\cdots+47}{12}=\frac{674}{12}\approx56.17,
 $$
 
 with variance approximately $s_B^2\approx138.97$ and standard deviation approximately $s_B\approx11.79$.
 
-(2) Since $s_A\approx3.73< s_B\approx11.79$, the scores of panel A are clearly more concentrated and the judges' opinions are more consistent. Professional judges usually have uniform professional standards and score more consistently, whereas audience representatives score with greater variation. Hence panel A is more likely to consist of professionals. $\blacksquare$
+(2) Since $s_A\approx3.73<{}s_B\approx11.79$, the scores of panel A are clearly more concentrated and the judges' opinions are more consistent. Professional judges usually have uniform professional standards and score more consistently, whereas audience representatives score with greater variation. Hence panel A is more likely to consist of professionals. $\blacksquare$
 
 ## Problem 3
 
@@ -157,13 +157,13 @@ By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution H
 (2) The computed mean is
 
 $$
-\overline x=\frac{\sum_{i=1}^{100}x_i}{100}\approx9370,
+\overline{x}=\frac{\sum_{i=1}^{100}x_i}{100}\approx9370,
 $$
 
 the median is approximately $9015$, and the standard deviation is approximately
 
 $$
-s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\overline x\right)^2}\approx4223.
+s=\sqrt{\frac{1}{100}\sum_{i=1}^{100}\left(x_i-\overline{x}\right)^2}\approx4223.
 $$
 
 This student walks about 9370 steps per day on average, with a median of about 9015 steps, indicating a moderate daily walking amount; the relatively large standard deviation indicates that his daily exercise is unstable, walking more on some days and less on others, and his exercise habits are not yet regular enough. $\blacksquare$
@@ -185,7 +185,7 @@ By **Definition 9.2.3 (Mode, Median and Mean)**, **Definition 9.2.4 (Population 
 (1) Arrange the 30 data values from small to large. The mean is
 
 $$
-\overline x=\frac{83+96+\cdots+104}{30}=\frac{2676}{30}=89.2.
+\overline{x}=\frac{83+96+\cdots+104}{30}=\frac{2676}{30}=89.2.
 $$
 
 The median is the average of the 15th and 16th values, namely $88$. The range is the difference between the maximum and minimum, namely $117-55=62$. The standard deviation is
@@ -220,7 +220,7 @@ Hence it is suggested to set the monthly sales target at about $1.9$ ten thousan
 
 ## Problem 6
 
-(Review Exercises 9, Comprehensive Application, Problem 11) To understand the household electricity consumption in a certain city, the municipal statistics bureau surveyed the average monthly electricity consumption over the past year (in $\mathrm{kW\cdot h}$) of 200 households, with the data sorted from small to large. To both satisfy residents' basic electricity needs and improve energy efficiency, the municipal government plans to adopt a tiered electricity price, so that $75\%$ of residents pay at the first tier, $20\%$ pay at the second tier, and the remaining $5\%$ pay at the third tier. Please determine the range of each tier.
+(Review Exercises 9, Comprehensive Application, Problem 11) To understand the household electricity consumption in a certain city, the municipal statistics bureau surveyed the average monthly electricity consumption over the past year (in $\mathrm{kW\cdot{h}}$) of 200 households, with the data sorted from small to large. To both satisfy residents' basic electricity needs and improve energy efficiency, the municipal government plans to adopt a tiered electricity price, so that $75\%$ of residents pay at the first tier, $20\%$ pay at the second tier, and the remaining $5\%$ pay at the third tier. Please determine the range of each tier.
 
 ### Solution to Problem 6
 
@@ -228,9 +228,9 @@ By **Definition 9.2.2 (The $p$-th Percentile)**.
 
 The first tier covers $75\%$ of residents, so the upper limit of the first tier is the 75th percentile; the second tier covers the next $20\%$, i.e. between the 75th and the 95th percentile; the third tier is the part exceeding the 95th percentile.
 
-Arrange the 200 data values from small to large. The 75th percentile: $i=200\times75\%=150$, which is an integer, so it is the average of the 150th and 151st values, approximately $178\,\mathrm{kW\cdot h}$. The 95th percentile: $i=200\times95\%=190$, which is an integer, so it is the average of the 190th and 191st values, approximately $296.5\,\mathrm{kW\cdot h}$.
+Arrange the 200 data values from small to large. The 75th percentile: $i=200\times75\%=150$, which is an integer, so it is the average of the 150th and 151st values, approximately $178\,\mathrm{kW\cdot{h}}$. The 95th percentile: $i=200\times95\%=190$, which is an integer, so it is the average of the 190th and 191st values, approximately $296.5\,\mathrm{kW\cdot{h}}$.
 
-Hence the range of each tier can be set as: the first tier is average monthly consumption not exceeding $178\,\mathrm{kW\cdot h}$; the second tier is $\left(178,296.5\right]\,\mathrm{kW\cdot h}$; the third tier is average monthly consumption exceeding $296.5\,\mathrm{kW\cdot h}$. $\blacksquare$
+Hence the range of each tier can be set as: the first tier is average monthly consumption not exceeding $178\,\mathrm{kW\cdot{h}}$; the second tier is $\left(178,296.5\right]\,\mathrm{kW\cdot{h}}$; the third tier is average monthly consumption exceeding $296.5\,\mathrm{kW\cdot{h}}$. $\blacksquare$
 
 ## Problem 7
 
@@ -264,67 +264,67 @@ Use the sample to estimate the overall weight situation of all students. Since t
 
 ### Solution to Problem 8
 
-By **Definition 10.1.2 (Sample Points and Sample Space)**, let $b$ denote the blue ball, $r$ the red ball, and $g$ the green ball, and use the pair $\left(x_1, x_2\right)$ to denote the result of the two draws.
+By **Definition 10.1.2 (Sample Points and Sample Space)**, let $b$ denote the blue ball, $r$ the red ball, and $g$ the green ball, and use the pair $\left(x_1,x_2\right)$ to denote the result of the two draws.
 
 (1) Since the drawing is with replacement, there are $3$ possibilities each time; the sample space is
 
 $$
-\Omega=\left\{\left(b,b\right), \left(b,r\right), \left(b,g\right), \left(r,b\right), \left(r,r\right), \left(r,g\right), \left(g,b\right), \left(g,r\right), \left(g,g\right)\right\}.
+\Omega=\left\{\left(b,b\right),\left(b,r\right),\left(b,g\right),\left(r,b\right),\left(r,r\right),\left(r,g\right),\left(g,b\right),\left(g,r\right),\left(g,g\right)\right\}.
 $$
 
-(2) By **Definition 10.1.4 (Random Event)**, "the first ball drawn is red" means $x_1=r$, which contains the sample points $\left(r,b\right), \left(r,r\right), \left(r,g\right)$; hence
+(2) By **Definition 10.1.4 (Random Event)**, "the first ball drawn is red" means $x_1=r$, which contains the sample points $\left(r,b\right),\left(r,r\right),\left(r,g\right)$; hence
 
 $$
-A=\left\{\left(r,b\right), \left(r,r\right), \left(r,g\right)\right\}.
+A=\left\{\left(r,b\right),\left(r,r\right),\left(r,g\right)\right\}.
 $$
 
-(3) "the two balls drawn have the same color" means $x_1=x_2$, which contains the sample points $\left(b,b\right), \left(r,r\right), \left(g,g\right)$; hence
+(3) "the two balls drawn have the same color" means $x_1=x_2$, which contains the sample points $\left(b,b\right),\left(r,r\right),\left(g,g\right)$; hence
 
 $$
-B=\left\{\left(b,b\right), \left(r,r\right), \left(g,g\right)\right\}.
+B=\left\{\left(b,b\right),\left(r,r\right),\left(g,g\right)\right\}.
 $$
 
 $\blacksquare$
 
 ## Problem 9
 
-(Review Exercises 10, Review and Consolidation, Problem 2) The figure shows the sample space $\Omega$ and the events $A$ and $B$ of a classical probability model, where $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup B\right)=16$. Then
+(Review Exercises 10, Review and Consolidation, Problem 2) The figure shows the sample space $\Omega$ and the events $A$ and $B$ of a classical probability model, where $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup{B}\right)=16$. Then
 
-(1) $n\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$, $P\left(\overline A\cap\overline B\right)=\;\_\_\;$.
+(1) $n\left(A\cap{B}\right)=\;\_\_\;$, $P\left(A\cap{B}\right)=\;\_\_\;$, $P\left(A\cup{B}\right)=\;\_\_\;$, $P\left(\overline{A}\cap\overline{B}\right)=\;\_\_\;$.
 
 (2) Are events $A$ and $B$ mutually exclusive? Are events $A$ and $B$ mutually independent?
 
-(Figure: a Venn diagram with two intersecting circles $A,B$ inside the sample space $\Omega$; $n\left(\Omega\right)=24, n\left(A\right)=12, n\left(B\right)=8, n\left(A\cup B\right)=16$.)
+(Figure: a Venn diagram with two intersecting circles $A,B$ inside the sample space $\Omega$; $n\left(\Omega\right)=24,n\left(A\right)=12,n\left(B\right)=8,n\left(A\cup{B}\right)=16$.)
 
 ### Solution to Problem 9
 
 By **Definition 10.1.15 (Classical Definition of Probability)** and **Property 10.1.21** (General Addition Formula for Probability).
 
-(1) In the sample-point form of **Property 10.1.21** (General Addition Formula for Probability), $n\left(A\cup B\right)=n\left(A\right)+n\left(B\right)-n\left(A\cap B\right)$; hence
+(1) In the sample-point form of **Property 10.1.21** (General Addition Formula for Probability), $n\left(A\cup{B}\right)=n\left(A\right)+n\left(B\right)-n\left(A\cap{B}\right)$; hence
 
 $$
-n\left(A\cap B\right)=n\left(A\right)+n\left(B\right)-n\left(A\cup B\right)=12+8-16=4.
+n\left(A\cap{B}\right)=n\left(A\right)+n\left(B\right)-n\left(A\cup{B}\right)=12+8-16=4.
 $$
 
 Therefore
 
 $$
-P\left(A\cap B\right)=\frac{n\left(A\cap B\right)}{n\left(\Omega\right)}=\frac{4}{24}=\frac{1}{6}.
+P\left(A\cap{B}\right)=\frac{n\left(A\cap{B}\right)}{n\left(\Omega\right)}=\frac{4}{24}=\frac{1}{6}.
 $$
 
 $$
-P\left(A\cup B\right)=\frac{n\left(A\cup B\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
+P\left(A\cup{B}\right)=\frac{n\left(A\cup{B}\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
 $$
 
-By **Definition 10.1.13 (Complementary Events)**, $\overline A\cap\overline B=\overline{A\cup B}$. By **Property 10.1.19** (Probability of Complementary Events),
+By **Definition 10.1.13 (Complementary Events)**, $\overline{A}\cap\overline{B}=\overline{A\cup{B}}$. By **Property 10.1.19** (Probability of Complementary Events),
 
 $$
-P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
+P\left(\overline{A}\cap\overline{B}\right)=1-P\left(A\cup{B}\right)=1-\frac{2}{3}=\frac{1}{3}.
 $$
 
-(2) By **Definition 10.1.12 (Mutually Exclusive)**, $n\left(A\cap B\right)=4\neq 0$, so $A\cap B\neq\varnothing$, and $A$ and $B$ are not mutually exclusive.
+(2) By **Definition 10.1.12 (Mutually Exclusive)**, $n\left(A\cap{B}\right)=4\neq0$, so $A\cap{B}\neq\varnothing$, and $A$ and $B$ are not mutually exclusive.
 
-By **Definition 10.2.1 (Mutual Independence of Events)**, $P\left(A\right)=\frac{12}{24}=\frac{1}{2}$, $P\left(B\right)=\frac{8}{24}=\frac{1}{3}$, and $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}=P\left(A\cap B\right)$, so $A$ and $B$ are mutually independent. $\blacksquare$
+By **Definition 10.2.1 (Mutual Independence of Events)**, $P\left(A\right)=\frac{12}{24}=\frac{1}{2}$, $P\left(B\right)=\frac{8}{24}=\frac{1}{3}$, and $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}=P\left(A\cap{B}\right)$, so $A$ and $B$ are mutually independent. $\blacksquare$
 
 ## Problem 10
 
@@ -394,19 +394,19 @@ By **Definition 10.1.15 (Classical Definition of Probability)**, drawing one per
 
 By **Definition 10.1.15 (Classical Definition of Probability)**.
 
-(1) Drawing $2$ balls successively without replacement from $10$ balls gives $10\times 9=90$ equally likely outcomes. Cases in which the second ball is red: the first draw is green ($6$ ways) and the second is red ($4$ ways), giving $6\times 4=24$ ways; the first draw is red ($4$ ways) and the second is red ($3$ ways), giving $4\times 3=12$ ways. In total $24+12=36$ ways, hence
+(1) Drawing $2$ balls successively without replacement from $10$ balls gives $10\times9=90$ equally likely outcomes. Cases in which the second ball is red: the first draw is green ($6$ ways) and the second is red ($4$ ways), giving $6\times4=24$ ways; the first draw is red ($4$ ways) and the second is red ($3$ ways), giving $4\times3=12$ ways. In total $24+12=36$ ways, hence
 
 $$
 P\left(A_1\right)=\frac{36}{90}=\frac{2}{5}.
 $$
 
-(2) The two colors are the same: both red gives $4\times 3=12$ ways, both green gives $6\times 5=30$ ways, totaling $42$ ways, hence
+(2) The two colors are the same: both red gives $4\times3=12$ ways, both green gives $6\times5=30$ ways, totaling $42$ ways, hence
 
 $$
 P\left(A_2\right)=\frac{42}{90}=\frac{7}{15}.
 $$
 
-(3) The bag has $4$ red balls and $n$ green balls, for $4+n$ balls in total. The number of outcomes where the $2$ drawn balls are both red is $4\times 3=12$, and the total number of outcomes is $\left(4+n\right)\left(3+n\right)$. By the problem,
+(3) The bag has $4$ red balls and $n$ green balls, for $4+n$ balls in total. The number of outcomes where the $2$ drawn balls are both red is $4\times3=12$, and the total number of outcomes is $\left(4+n\right)\left(3+n\right)$. By the problem,
 
 $$
 \frac{12}{\left(4+n\right)\left(3+n\right)}=\frac{1}{6}.
@@ -424,9 +424,9 @@ Solving gives $\left(4+n\right)\left(3+n\right)=72$, i.e. $n^2+7n+12=72$, $n^2+7
 
 ### Solution to Problem 13
 
-By **Definition 10.1.15 (Classical Definition of Probability)**. Each person chooses one floor out of the $6$ floors from the $2$nd to the $7$th to leave; the two choose independently, giving $6\times 6=36$ equally likely outcomes.
+By **Definition 10.1.15 (Classical Definition of Probability)**. Each person chooses one floor out of the $6$ floors from the $2$nd to the $7$th to leave; the two choose independently, giving $6\times6=36$ equally likely outcomes.
 
-(1) The two leave on different floors: the first person has $6$ choices and the second has $5$ choices (a floor different from the first), giving $6\times 5=30$ ways, hence
+(1) The two leave on different floors: the first person has $6$ choices and the second has $5$ choices (a floor different from the first), giving $6\times5=30$ ways, hence
 
 $$
 P\left(A_1\right)=\frac{30}{36}=\frac{5}{6}.
@@ -442,7 +442,7 @@ It can also be computed directly: the two leave on the same floor, giving $6$ wa
 
 ## Problem 14
 
-(Review Exercises 10, Comprehensive Application, Problem 7) A closet contains $3$ pairs of different shoes; denote the $6$ shoes by $a_1, a_2, b_1, b_2, c_1, c_2$, and draw $2$ of them at random.
+(Review Exercises 10, Comprehensive Application, Problem 7) A closet contains $3$ pairs of different shoes; denote the $6$ shoes by $a_1,a_2,b_1,b_2,c_1,c_2$, and draw $2$ of them at random.
 
 (1) Write out the sample space of the experiment.
 
@@ -463,20 +463,20 @@ By **Definition 10.1.15 (Classical Definition of Probability)**. Drawing $2$ sho
 (1) The sample space is
 
 $$
-\Omega=\left\{a_1a_2, a_1b_1, a_1b_2, a_1c_1, a_1c_2, a_2b_1, a_2b_2, a_2c_1, a_2c_2, b_1b_2, b_1c_1, b_1c_2, b_2c_1, b_2c_2, c_1c_2\right\}.
+\Omega=\left\{a_1a_2,a_1b_1,a_1b_2,a_1c_1,a_1c_2,a_2b_1,a_2b_2,a_2c_1,a_2c_2,b_1b_2,b_1c_1,b_1c_2,b_2c_1,b_2c_2,c_1c_2\right\}.
 $$
 
-(2) Let $a_1, b_1, c_1$ be left shoes and $a_2, b_2, c_2$ be right shoes.
+(2) Let $a_1,b_1,c_1$ be left shoes and $a_2,b_2,c_2$ be right shoes.
 
 Event $B=$ "both left-foot": drawing $2$ from the $3$ left shoes gives $\binom{3}{2}=3$ ways, so $P\left(B\right)=\frac{3}{15}=\frac{1}{5}$.
 
 The event "both right-foot" likewise has $3$ ways and probability $\frac{1}{5}$. Event $C=$ "for the same foot", i.e. both left or both right; the two are mutually exclusive, so by **Property 10.1.18** (Addition Formula for Mutually Exclusive Events), $P\left(C\right)=\frac{1}{5}+\frac{1}{5}=\frac{2}{5}$.
 
-Event $A=$ "not a pair", i.e. not matching. There are $3$ pairs ($a_1a_2, b_1b_2, c_1c_2$), so the probability of a matching pair is $\frac{3}{15}=\frac{1}{5}$. By **Property 10.1.19** (Probability of Complementary Events), "not a pair" is the complementary event of "a pair", so $P\left(A\right)=1-\frac{1}{5}=\frac{4}{5}$.
+Event $A=$ "not a pair", i.e. not matching. There are $3$ pairs ($a_1a_2,b_1b_2,c_1c_2$), so the probability of a matching pair is $\frac{3}{15}=\frac{1}{5}$. By **Property 10.1.19** (Probability of Complementary Events), "not a pair" is the complementary event of "a pair", so $P\left(A\right)=1-\frac{1}{5}=\frac{4}{5}$.
 
-Event $D=$ "one left and one right but not a pair", i.e. one left and one right from different pairs. Choosing one left shoe gives $3$ ways and one right shoe gives $3$ ways, totaling $9$ ways; of these, $3$ are pairs ($a_1a_2, b_1b_2, c_1c_2$), so $9-3=6$ are not pairs, and $P\left(D\right)=\frac{6}{15}=\frac{2}{5}$.
+Event $D=$ "one left and one right but not a pair", i.e. one left and one right from different pairs. Choosing one left shoe gives $3$ ways and one right shoe gives $3$ ways, totaling $9$ ways; of these, $3$ are pairs ($a_1a_2,b_1b_2,c_1c_2$), so $9-3=6$ are not pairs, and $P\left(D\right)=\frac{6}{15}=\frac{2}{5}$.
 
-Relationships: $C\subseteq A$, because "for the same foot" necessarily implies "not a pair". $D\subseteq A$, because "one left and one right but not a pair" also belongs to "not a pair". $C$ and $D$ are mutually exclusive, because "for the same foot" and "one left and one right" cannot occur simultaneously. $\blacksquare$
+Relationships: $C\subseteq{A}$, because "for the same foot" necessarily implies "not a pair". $D\subseteq{A}$, because "one left and one right but not a pair" also belongs to "not a pair". $C$ and $D$ are mutually exclusive, because "for the same foot" and "one left and one right" cannot occur simultaneously. $\blacksquare$
 
 ## Problem 15
 
@@ -497,13 +497,13 @@ By **Definition 10.2.1 (Mutual Independence of Events)** and **Property 10.2.2**
 (1) The branches of the tree diagram are: first attempt $Y$ (passed, stop) or $N$; if the first is $N$, the second attempt is $Y$ (passed, stop) or $N$; if the first two are both $N$, the third attempt is $Y$ or $N$. The sample space is
 
 $$
-\Omega=\left\{Y, NY, NNY, NNN\right\}.
+\Omega=\left\{Y,NY,NNY,NNN\right\}.
 $$
 
 (2) Passing on the second attempt means the first answer is wrong and the second is correct, i.e. the event $NY$. By **Definition 10.2.1 (Mutual Independence of Events)**,
 
 $$
-P\left(NY\right)=P\left(N\right)P\left(Y\right)=0.4\times 0.6=0.24.
+P\left(NY\right)=P\left(N\right)P\left(Y\right)=0.4\times0.6=0.24.
 $$
 
 (3) Eventually passing the interview means the first answer is correct, or the first is wrong and the second correct, or the first two are wrong and the third correct. The three are pairwise mutually exclusive, so by **Property 10.1.18** (Addition Formula for Mutually Exclusive Events),
@@ -515,7 +515,7 @@ $$
 By **Definition 10.2.1 (Mutual Independence of Events)**,
 
 $$
-P\left(Y\right)=0.6,\quad P\left(NY\right)=0.4\times 0.6=0.24,\quad P\left(NNY\right)=0.4\times 0.4\times 0.6=0.096.
+P\left(Y\right)=0.6,\quad{P}\left(NY\right)=0.4\times0.6=0.24,\quad{P}\left(NNY\right)=0.4\times0.4\times0.6=0.096.
 $$
 
 Hence

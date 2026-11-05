@@ -26,7 +26,7 @@
 
 ## 练习一
 
-(练习 3.3 第 2 题) 点 $M\left(m,4\right)$ 在抛物线 $y^2=24x$ 上, $F$ 为焦点, 直线 $MF$ 与准线相交于点 $N$, 求 $\lvert FN \rvert$.
+(练习 3.3 第 2 题) 点 $M\left(m,4\right)$ 在抛物线 $y^2=24x$ 上, $F$ 为焦点, 直线 $MF$ 与准线相交于点 $N$, 求 $\lvert{F}N\rvert$.
 
 ### 解答 练习一
 
@@ -34,23 +34,23 @@
 
 直线 $MF$ 过 $F\left(6,0\right)$ 和 $M\left(\frac{2}{3},4\right)$, 斜率 $k=\frac{4}{2/3-6}=-\frac{3}{4}$, 方程为 $y=-\frac{3}{4}\left(x-6\right)$. 与准线 $x=-6$ 交于 $N$, $y=-\frac{3}{4}\left(-12\right)=9$, $N\left(-6,9\right)$.
 
-$\lvert FN \rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$. $\blacksquare$
+$\lvert{F}N\rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$. $\blacksquare$
 
 ## 练习二
 
-(练习 3.3 第 3 题) 设抛物线 $x^2=2py$ ($p> 0$) 上的点 $M$ 与焦点 $F$ 的距离为 $4$, 点 $M$ 到 $y$ 轴的距离为 $\sqrt{3p}$, 求抛物线的方程和点 $M$ 的坐标.
+(练习 3.3 第 3 题) 设抛物线 $x^2=2py$ ($p>0$) 上的点 $M$ 与焦点 $F$ 的距离为 $4$, 点 $M$ 到 $y$ 轴的距离为 $\sqrt{3p}$, 求抛物线的方程和点 $M$ 的坐标.
 
 ### 解答 练习二
 
-抛物线 $x^2=2py$ 焦点 $F\left(0,\frac{p}{2}\right)$, 准线 $y=-\frac{p}{2}$. 由**常用结论 3.3.3**, $\lvert MF \rvert$ 等于 $M$ 到准线距离, 即 $\lvert MF \rvert=y+\frac{p}{2}$.
+抛物线 $x^2=2py$ 焦点 $F\left(0,\frac{p}{2}\right)$, 准线 $y=-\frac{p}{2}$. 由**常用结论 3.3.3**, $\lvert{M}F\rvert$ 等于 $M$ 到准线距离, 即 $\lvert{M}F\rvert=y+\frac{p}{2}$.
 
 点 $M$ 到 $y$ 轴距离为 $\sqrt{3p}$, 故 $x^2=3p$. 又 $M$ 在抛物线上, $x^2=2py$, 故 $3p=2py$, $y=\frac{3}{2}$.
 
-由 $\lvert MF \rvert=4$, 得 $\frac{3}{2}+\frac{p}{2}=4$, 解得 $p=5$. 抛物线方程为 $x^2=10y$. 此时 $x^2=15$, $x=\pm\sqrt{15}$, 点 $M$ 坐标为 $\left(\pm\sqrt{15},\frac{3}{2}\right)$. $\blacksquare$
+由 $\lvert{M}F\rvert=4$, 得 $\frac{3}{2}+\frac{p}{2}=4$, 解得 $p=5$. 抛物线方程为 $x^2=10y$. 此时 $x^2=15$, $x=\pm\sqrt{15}$, 点 $M$ 坐标为 $\left(\pm\sqrt{15},\frac{3}{2}\right)$. $\blacksquare$
 
 ## 练习三
 
-(练习 3.3 第 4 题) 两条直线 $y=kx$ 和 $y=-kx$ 分别与抛物线 $y^2=2px$ ($p> 0$) 相交于不同于原点的 $A$, $B$ 两点, $k$ 为何值时, 直线 $AB$ 经过抛物线的焦点?
+(练习 3.3 第 4 题) 两条直线 $y=kx$ 和 $y=-kx$ 分别与抛物线 $y^2=2px$ ($p>0$) 相交于不同于原点的 $A$, $B$ 两点, $k$ 为何值时, 直线 $AB$ 经过抛物线的焦点?
 
 ### 解答 练习三
 
@@ -110,15 +110,15 @@ $\lvert FN \rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$
 
 (1) 准线 $x=2$, 开口向左, $\frac{p}{2}=2$, $p=4$. 方程为 $y^2=-8x$.
 
-(2) $y^2=8x$, $p=4$, 焦点 $\left(2,0\right)$, 准线 $x=-2$. $\lvert MF \rvert=6$, 故 $x_M+2=6$, $x_M=4$, $y=\pm\sqrt{32}=\pm4\sqrt{2}$. 坐标为 $\left(4,\pm4\sqrt{2}\right)$. $\blacksquare$
+(2) $y^2=8x$, $p=4$, 焦点 $\left(2,0\right)$, 准线 $x=-2$. $\lvert{M}F\rvert=6$, 故 $x_M+2=6$, $x_M=4$, $y=\pm\sqrt{32}=\pm4\sqrt{2}$. 坐标为 $\left(4,\pm4\sqrt{2}\right)$. $\blacksquare$
 
 ## 习题三
 
-(习题 3.3 复习巩固第 3 题) 抛物线 $y^2=2px$ ($p> 0$) 上一点 $M$ 与焦点 $F$ 的距离 $\lvert MF \rvert=2p$, 求点 $M$ 的坐标.
+(习题 3.3 复习巩固第 3 题) 抛物线 $y^2=2px$ ($p>0$) 上一点 $M$ 与焦点 $F$ 的距离 $\lvert{M}F\rvert=2p$, 求点 $M$ 的坐标.
 
 ### 解答 习题三
 
-由**常用结论 3.3.3**, $\lvert MF \rvert=d$ ($M$ 到准线距离). 准线 $x=-\frac{p}{2}$, 故 $x_M+\frac{p}{2}=2p$, $x_M=\frac{3p}{2}$. 代入 $y^2=2px=3p^2$, $y=\pm\sqrt{3}p$. 坐标为 $\left(\frac{3p}{2},\pm\sqrt{3}p\right)$. $\blacksquare$
+由**常用结论 3.3.3**, $\lvert{M}F\rvert=d$ ($M$ 到准线距离). 准线 $x=-\frac{p}{2}$, 故 $x_M+\frac{p}{2}=2p$, $x_M=\frac{3p}{2}$. 代入 $y^2=2px=3p^2$, $y=\pm\sqrt{3}p$. 坐标为 $\left(\frac{3p}{2},\pm\sqrt{3}p\right)$. $\blacksquare$
 
 ## 习题四
 
@@ -140,19 +140,19 @@ $\lvert FN \rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$
 
 ## 习题五
 
-(习题 3.3 复习巩固第 5 题) 如图, $M$ 是抛物线 $y^2=4x$ 上的一点, $F$ 是抛物线的焦点, 以 $Fx$ 为始边, $FM$ 为终边的角 $\angle xFM=60^{\circ}$, 求 $\lvert FM \rvert$.
+(习题 3.3 复习巩固第 5 题) 如图, $M$ 是抛物线 $y^2=4x$ 上的一点, $F$ 是抛物线的焦点, 以 $Fx$ 为始边, $FM$ 为终边的角 $\angle{x}FM=60^{\circ}$, 求 $\lvert{F}M\rvert$.
 
-该图在平面直角坐标系中画出开口向右,顶点在原点的抛物线 $y^2=4x$(焦点 $F\left(1,0\right)$):点 $M$ 在抛物线上,以 $Fx$($x$ 轴正方向)为始边,$FM$ 为终边的角 $\angle xFM=60^\circ$,并连有线段 $FM$.
+该图在平面直角坐标系中画出开口向右,顶点在原点的抛物线 $y^2=4x$(焦点 $F\left(1,0\right)$):点 $M$ 在抛物线上,以 $Fx$($x$ 轴正方向)为始边,$FM$ 为终边的角 $\angle{x}FM=60^\circ$,并连有线段 $FM$.
 
 ### 解答 习题五
 
-抛物线 $y^2=4x$ 焦点 $F\left(1,0\right)$. 设 $M\left(x,y\right)$, $\angle xFM=60^{\circ}$, 则直线 $FM$ 斜率 $\tan60^{\circ}=\sqrt{3}$, 方程为 $y=\sqrt{3}\left(x-1\right)$.
+抛物线 $y^2=4x$ 焦点 $F\left(1,0\right)$. 设 $M\left(x,y\right)$, $\angle{x}FM=60^{\circ}$, 则直线 $FM$ 斜率 $\tan60^{\circ}=\sqrt{3}$, 方程为 $y=\sqrt{3}\left(x-1\right)$.
 
-代入 $y^2=4x$, 得 $3\left(x-1\right)^2=4x$, $3x^2-10x+3=0$, 解得 $x=3$ 或 $x=\frac{1}{3}$. 由**常用结论 3.3.3**, $\lvert MF \rvert=x+1$. 取 $x=3$ (第一象限), $\lvert MF \rvert=4$. $\blacksquare$
+代入 $y^2=4x$, 得 $3\left(x-1\right)^2=4x$, $3x^2-10x+3=0$, 解得 $x=3$ 或 $x=\frac{1}{3}$. 由**常用结论 3.3.3**, $\lvert{M}F\rvert=x+1$. 取 $x=3$ (第一象限), $\lvert{M}F\rvert=4$. $\blacksquare$
 
 ## 习题六
 
-(习题 3.3 复习巩固第 6 题) 如图, 直线 $y=x-2$ 与抛物线 $y^2=2x$ 相交于 $A$, $B$ 两点, 求证: $OA\perp OB$.
+(习题 3.3 复习巩固第 6 题) 如图, 直线 $y=x-2$ 与抛物线 $y^2=2x$ 相交于 $A$, $B$ 两点, 求证: $OA\perp{O}B$.
 
 该图在平面直角坐标系中画出开口向右,顶点在原点的抛物线 $y^2=2x$,以及直线 $y=x-2$,二者交于 $A$, $B$ 两点;并连有线段 $OA$, $OB$($O$ 为原点).
 
@@ -162,7 +162,7 @@ $\lvert FN \rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$
 
 $y_1y_2=\left(x_1-2\right)\left(x_2-2\right)=x_1x_2-2\left(x_1+x_2\right)+4=4-12+4=-4$.
 
-$\boldsymbol{OA}\cdot\boldsymbol{OB}=x_1x_2+y_1y_2=4-4=0$, 故 $OA\perp OB$. $\blacksquare$
+$\boldsymbol{OA}\cdot\boldsymbol{OB}=x_1x_2+y_1y_2=4-4=0$, 故 $OA\perp{O}B$. $\blacksquare$
 
 ## 习题七
 
@@ -194,7 +194,7 @@ $\blacksquare$
 
 ## 习题九
 
-(习题 3.3 综合运用第 9 题) 从抛物线 $y^2=2px$ ($p> 0$) 上各点向 $x$ 轴作垂线段, 求垂线段的中点的轨迹方程, 并说明它是什么曲线.
+(习题 3.3 综合运用第 9 题) 从抛物线 $y^2=2px$ ($p>0$) 上各点向 $x$ 轴作垂线段, 求垂线段的中点的轨迹方程, 并说明它是什么曲线.
 
 ### 解答 习题九
 
@@ -208,11 +208,11 @@ $$
 
 ## 习题十
 
-(习题 3.3 综合运用第 10 题) 已知等边三角形的一个顶点位于原点, 另外两个顶点在抛物线 $y^2=2px$ ($p> 0$) 上, 求这个等边三角形的边长.
+(习题 3.3 综合运用第 10 题) 已知等边三角形的一个顶点位于原点, 另外两个顶点在抛物线 $y^2=2px$ ($p>0$) 上, 求这个等边三角形的边长.
 
 ### 解答 习题十
 
-设抛物线上两点 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$. 由对称性, $A$, $B$ 关于 $x$ 轴对称, 即 $B\left(x_1,-y_1\right)$. $\lvert OA \rvert=\lvert AB \rvert$, $\sqrt{x_1^2+y_1^2}=2\lvert y_1 \rvert$. 又 $y_1^2=2px_1$, $x_1^2+2px_1=4y_1^2=8px_1$, $x_1^2=6px_1$, $x_1=6p$. $y_1^2=12p^2$, $y_1=2\sqrt{3}p$. 边长 $\lvert AB \rvert=2\lvert y_1 \rvert=4\sqrt{3}p$. $\blacksquare$
+设抛物线上两点 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$. 由对称性, $A$, $B$ 关于 $x$ 轴对称, 即 $B\left(x_1,-y_1\right)$. $\lvert{O}A\rvert=\lvert{A}B\rvert$, $\sqrt{x_1^2+y_1^2}=2\lvert{y}_1\rvert$. 又 $y_1^2=2px_1$, $x_1^2+2px_1=4y_1^2=8px_1$, $x_1^2=6px_1$, $x_1=6p$. $y_1^2=12p^2$, $y_1=2\sqrt{3}p$. 边长 $\lvert{A}B\rvert=2\lvert{y}_1\rvert=4\sqrt{3}p$. $\blacksquare$
 
 ## 习题十一
 
@@ -254,7 +254,7 @@ $$
 
 ## 习题十三
 
-(习题 3.3 拓广探索第 13 题) 设抛物线 $y^2=2px$ ($p> 0$) 的焦点为 $F$, 从点 $F$ 发出的光线经过抛物线上的点 $M$ (不同于抛物线的顶点) 反射, 证明反射光线平行于抛物线的对称轴.
+(习题 3.3 拓广探索第 13 题) 设抛物线 $y^2=2px$ ($p>0$) 的焦点为 $F$, 从点 $F$ 发出的光线经过抛物线上的点 $M$ (不同于抛物线的顶点) 反射, 证明反射光线平行于抛物线的对称轴.
 
 ### 解答 习题十三
 
@@ -310,67 +310,67 @@ $$
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示).
 
-$\boldsymbol{a}-\boldsymbol{b}=\left(3-\left(-1\right), 1-3, 2-0\right)=\left(4,-2,2\right)$.
+$\boldsymbol{a}-\boldsymbol{b}=\left(3-\left(-1\right),1-3,2-0\right)=\left(4,-2,2\right)$.
 
-$\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2} \times \left(-1\right), 1+\frac{1}{2} \times 3, 2+\frac{1}{2} \times 0\right)=\left(\frac{5}{2}, \frac{5}{2}, 2\right)$.
+$\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2}\times\left(-1\right),1+\frac{1}{2}\times3,2+\frac{1}{2}\times0\right)=\left(\frac{5}{2},\frac{5}{2},2\right)$.
 
 故选 (A). $\blacksquare$
 
 ## 习题十六
 
-(复习参考题1 复习巩固第 3 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a} \perp \boldsymbol{b}$, 则 $x=\;\_\_\;$.
+(复习参考题1 复习巩固第 3 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a}\perp\boldsymbol{b}$, 则 $x=\;\_\_\;$.
 
 ### 解答 习题十六
 
-由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$.
+由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a}\perp\boldsymbol{b}\iff\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \times 2+3 \times x=-8-2+3x=3x-10=0$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-4\right)+\left(-1\right)\times2+3\times{x}=-8-2+3x=3x-10=0$.
 
 故 $x=\frac{10}{3}$. $\blacksquare$
 
 ## 习题十七
 
-(复习参考题1 复习巩固第 4 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a} \parallel \boldsymbol{b}$, 则 $x=\;\_\_\;$.
+(复习参考题1 复习巩固第 4 题) 已知 $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, 且 $\boldsymbol{a}\parallel\boldsymbol{b}$, 则 $x=\;\_\_\;$.
 
 ### 解答 习题十七
 
-由**常用结论 1.3.5** (平行的坐标表示), $\boldsymbol{a} \parallel \boldsymbol{b} \iff$ 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+由**常用结论 1.3.5** (平行的坐标表示), $\boldsymbol{a}\parallel\boldsymbol{b}\iff$ 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-$-4=\lambda \times 2$, 故 $\lambda=-2$.
+$-4=\lambda\times2$, 故 $\lambda=-2$.
 
-$2=\lambda \times \left(-1\right)=-\left(-2\right)=2$, 符合.
+$2=\lambda\times\left(-1\right)=-\left(-2\right)=2$, 符合.
 
-$x=\lambda \times 3=-2 \times 3=-6$. $\blacksquare$
+$x=\lambda\times3=-2\times3=-6$. $\blacksquare$
 
 ## 习题十八
 
-(复习参考题1 复习巩固第 5 题) 已知点 $A\left(1,0,0\right)$, $B\left(2,1,2\right)$, 则向量 $\boldsymbol{AB}=\;\_\_\;$, $\lvert \boldsymbol{AB} \rvert=\;\_\_\;$.
+(复习参考题1 复习巩固第 5 题) 已知点 $A\left(1,0,0\right)$, $B\left(2,1,2\right)$, 则向量 $\boldsymbol{AB}=\;\_\_\;$, $\lvert\boldsymbol{AB}\rvert=\;\_\_\;$.
 
 ### 解答 习题十八
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.5** (模长的坐标表示).
 
-$\boldsymbol{AB}=B-A=\left(2-1, 1-0, 2-0\right)=\left(1,1,2\right)$.
+$\boldsymbol{AB}=B-A=\left(2-1,1-0,2-0\right)=\left(1,1,2\right)$.
 
-$\lvert \boldsymbol{AB} \rvert=\sqrt{1^2+1^2+2^2}=\sqrt{6}$. $\blacksquare$
+$\lvert\boldsymbol{AB}\rvert=\sqrt{1^2+1^2+2^2}=\sqrt{6}$. $\blacksquare$
 
 ## 习题十九
 
-(复习参考题1 复习巩固第 6 题) 已知 $\boldsymbol{a}=\left(1,0,1\right)$, $\boldsymbol{b}=\left(1,1,0\right)$, 则 $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\;\_\_\;$.
+(复习参考题1 复习巩固第 6 题) 已知 $\boldsymbol{a}=\left(1,0,1\right)$, $\boldsymbol{b}=\left(1,1,0\right)$, 则 $\sin\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\;\_\_\;$.
 
 ### 解答 习题十九
 
 由**常用结论 1.3.5** (夹角的坐标表示).
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=1 \times 1+0 \times 1+1 \times 0=1$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=1\times1+0\times1+1\times0=1$.
 
-$\lvert \boldsymbol{a} \rvert=\sqrt{1+0+1}=\sqrt{2}$.
+$\lvert\boldsymbol{a}\rvert=\sqrt{1+0+1}=\sqrt{2}$.
 
-$\lvert \boldsymbol{b} \rvert=\sqrt{1+1+0}=\sqrt{2}$.
+$\lvert\boldsymbol{b}\rvert=\sqrt{1+1+0}=\sqrt{2}$.
 
-$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{1}{\sqrt{2} \times \sqrt{2}}=\frac{1}{2}$.
+$\cos\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\frac{1}{\sqrt{2}\times\sqrt{2}}=\frac{1}{2}$.
 
-$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
+$\sin\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
 
 ## 习题二十
 
@@ -380,9 +380,9 @@ $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示).
 
-中点坐标为 $\left(\frac{3+\left(-2\right)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
+中点坐标为 $\left(\frac{3+\left(-2\right)}{2},\frac{5+4}{2},\frac{-7+3}{2}\right)=\left(\frac{1}{2},\frac{9}{2},-2\right)$.
 
-$\boldsymbol{AB}=B-A=\left(-2-3, 4-5, 3-\left(-7\right)\right)=\left(-5,-1,10\right)$. $\blacksquare$
+$\boldsymbol{AB}=B-A=\left(-2-3,4-5,3-\left(-7\right)\right)=\left(-5,-1,10\right)$. $\blacksquare$
 
 ## 习题二十一
 
@@ -404,7 +404,7 @@ $\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OA}\right)=\frac{1
 
 (复习参考题1 复习巩固第 9 题) 已知 $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. 求:
 
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
+(1) $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)$;
 
 (2) $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}$.
 
@@ -412,13 +412,13 @@ $\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OA}\right)=\frac{1
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示).
 
-(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=2 \times 2+\left(-3\right) \times 0+1 \times 5=9$.
+(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=2\times2+\left(-3\right)\times0+1\times5=9$.
 
-(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12, -3, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
+(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12,-3,1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
 
 ## 习题二十三
 
-(复习参考题1 综合运用第 10 题) 已知空间向量 $\boldsymbol{a}=\left(1,1,0\right)$, $\boldsymbol{b}=\left(-1,0,2\right)$, 则 $\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\;\_\_\;$, 以 $\boldsymbol{a}$, $\boldsymbol{b}$ 为邻边的平行四边形的面积是 $\;\_\_\;$.
+(复习参考题1 综合运用第 10 题) 已知空间向量 $\boldsymbol{a}=\left(1,1,0\right)$, $\boldsymbol{b}=\left(-1,0,2\right)$, 则 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\;\_\_\;$, 以 $\boldsymbol{a}$, $\boldsymbol{b}$ 为邻边的平行四边形的面积是 $\;\_\_\;$.
 
 ### 解答 习题二十三
 
@@ -426,15 +426,15 @@ $\boldsymbol{DF}=\frac{1}{2}\left(\boldsymbol{OC}-\boldsymbol{OA}\right)=\frac{1
 
 $\boldsymbol{a}+\boldsymbol{b}=\left(0,1,2\right)$.
 
-$\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{0+1+4}=\sqrt{5}$.
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=-1+0+0=-1$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=-1+0+0=-1$.
 
-$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{-1}{\sqrt{2} \cdot \sqrt{5}}=-\frac{1}{\sqrt{10}}$.
+$\cos\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\frac{-1}{\sqrt{2}\cdot\sqrt{5}}=-\frac{1}{\sqrt{10}}$.
 
-$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{10}}=\frac{3}{\sqrt{10}}$.
+$\sin\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\sqrt{1-\frac{1}{10}}=\frac{3}{\sqrt{10}}$.
 
-平行四边形面积 $=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \sin \theta=\sqrt{2} \cdot \sqrt{5} \cdot \frac{3}{\sqrt{10}}=3$. $\blacksquare$
+平行四边形面积 $=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\sin\theta=\sqrt{2}\cdot\sqrt{5}\cdot\frac{3}{\sqrt{10}}=3$. $\blacksquare$
 
 ## 习题二十四
 
@@ -456,19 +456,19 @@ $\boldsymbol{AB}=\left(-1,1,0\right)$, $\boldsymbol{AC}=\left(-1,0,2\right)$.
 
 ## 习题二十五
 
-(复习参考题1 综合运用第 12 题) 已知 $\boldsymbol{a}=\left(1-t,1-t,t\right)$, $\boldsymbol{b}=\left(2,t,t\right)$, 求 $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert$ 的最小值.
+(复习参考题1 综合运用第 12 题) 已知 $\boldsymbol{a}=\left(1-t,1-t,t\right)$, $\boldsymbol{b}=\left(2,t,t\right)$, 求 $\lvert\boldsymbol{b}-\boldsymbol{a}\rvert$ 的最小值.
 
 ### 解答 习题二十五
 
 由**常用结论 1.3.5** (模长的坐标表示).
 
-$\boldsymbol{b}-\boldsymbol{a}=\left(2-\left(1-t\right), t-\left(1-t\right), t-t\right)=\left(1+t, 2t-1, 0\right)$.
+$\boldsymbol{b}-\boldsymbol{a}=\left(2-\left(1-t\right),t-\left(1-t\right),t-t\right)=\left(1+t,2t-1,0\right)$.
 
-$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert^2=\left(1+t\right)^2+\left(2t-1\right)^2=1+2t+t^2+4t^2-4t+1=5t^2-2t+2$.
+$\lvert\boldsymbol{b}-\boldsymbol{a}\rvert^2=\left(1+t\right)^2+\left(2t-1\right)^2=1+2t+t^2+4t^2-4t+1=5t^2-2t+2$.
 
-当 $t=\frac{2}{10}=\frac{1}{5}$ 时, 取最小值 $5 \times \frac{1}{25}-2 \times \frac{1}{5}+2=\frac{1}{5}-\frac{2}{5}+2=\frac{9}{5}$.
+当 $t=\frac{2}{10}=\frac{1}{5}$ 时, 取最小值 $5\times\frac{1}{25}-2\times\frac{1}{5}+2=\frac{1}{5}-\frac{2}{5}+2=\frac{9}{5}$.
 
-$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert_{\min}=\sqrt{\frac{9}{5}}=\frac{3\sqrt{5}}{5}$. $\blacksquare$
+$\lvert\boldsymbol{b}-\boldsymbol{a}\rvert_{\min}=\sqrt{\frac{9}{5}}=\frac{3\sqrt{5}}{5}$. $\blacksquare$
 
 ## 习题二十六
 
@@ -482,6 +482,6 @@ $\boldsymbol{AB}=\left(2,4,6\right)$.
 
 $\boldsymbol{AC}=\left(-1,-2,-3\right)$.
 
-$\boldsymbol{AB}=-2 \cdot \boldsymbol{AC}$, 即 $\boldsymbol{AB} \parallel \boldsymbol{AC}$.
+$\boldsymbol{AB}=-2\cdot\boldsymbol{AC}$, 即 $\boldsymbol{AB}\parallel\boldsymbol{AC}$.
 
 又 $\boldsymbol{AB}$ 与 $\boldsymbol{AC}$ 有公共起点 $A$, 故 $A$, $B$, $C$ 三点共线. $\blacksquare$

@@ -62,23 +62,23 @@ $\left(x-1\right)^2+4+\left(z+1\right)^2=\left(x-2\right)^2+\left(z-2\right)^2$.
 
 ## 习题二
 
-(复习参考题1 综合运用第 15 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个单位正交基底, 向量 $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 与基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 有什么关系? 向量 $\boldsymbol{a}+\boldsymbol{b}$ 与基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 有什么关系?
+(复习参考题1 综合运用第 15 题) 已知 $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ 是空间的一个单位正交基底, 向量 $\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 与基底 $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ 有什么关系? 向量 $\boldsymbol{a}+\boldsymbol{b}$ 与基底 $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ 有什么关系?
 
 ### 解答 习题二
 
 由**定义 1.2.2 (基底, 基向量)** 及**定理 1.2.1 (空间向量基本定理)**.
 
-$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 是由基向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 线性组合而成的向量, 即它在基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,-1\right)$.
+$\boldsymbol{a}+\boldsymbol{b}-\boldsymbol{c}$ 是由基向量 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 线性组合而成的向量, 即它在基底 $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,-1\right)$.
 
-$\boldsymbol{a}+\boldsymbol{b}$ 只由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性组合而成, 不含 $\boldsymbol{c}$, 故它平行于由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面 (即 $xOy$ 平面). $\boldsymbol{a}+\boldsymbol{b}$ 在基底 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,0\right)$. $\blacksquare$
+$\boldsymbol{a}+\boldsymbol{b}$ 只由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性组合而成, 不含 $\boldsymbol{c}$, 故它平行于由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面 (即 $xOy$ 平面). $\boldsymbol{a}+\boldsymbol{b}$ 在基底 $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ 下的坐标为 $\left(1,1,0\right)$. $\blacksquare$
 
 ## 习题三
 
 (复习参考题1 拓广探索第 16 题) 如图, 在正方体 $ABCD-A_1B_1C_1D_1$ 中, 求证:
 
-(1) $DB_1 \perp AC$;
+(1) $DB_1\perp{A}C$;
 
-(2) $DB_1 \perp$ 平面 $ACB_1$.
+(2) $DB_1\perp$ 平面 $ACB_1$.
 
 该图为正方体 $ABCD-A_1B_1C_1D_1$ 的斜二测直观图:下底面 $ABCD$,上底面 $A_1B_1C_1D_1$;连有体对角线 $DB_1$ 与面对角线 $AC$.
 
@@ -94,35 +94,35 @@ $\boldsymbol{DB_1}=\left(1,1,1\right)$.
 
 (1) $\boldsymbol{AC}=\left(-1,1,0\right)$.
 
-$\boldsymbol{DB_1} \cdot \boldsymbol{AC}=-1+1+0=0$. 故 $DB_1 \perp AC$.
+$\boldsymbol{DB_1}\cdot\boldsymbol{AC}=-1+1+0=0$. 故 $DB_1\perp{A}C$.
 
 (2) $\boldsymbol{AB_1}=\left(0,1,1\right)$.
 
-$\boldsymbol{DB_1} \cdot \boldsymbol{AB_1}=0+1+1=2 \neq 0$. 这里需要注意: $DB_1$ 与平面 $ACB_1$ 的关系.
+$\boldsymbol{DB_1}\cdot\boldsymbol{AB_1}=0+1+1=2\neq0$. 这里需要注意: $DB_1$ 与平面 $ACB_1$ 的关系.
 
-实际上, 平面 $ACB_1$ 的法向量为 $\boldsymbol{AC} \times \boldsymbol{AB_1}=\left(1,1,-1\right)$.
+实际上, 平面 $ACB_1$ 的法向量为 $\boldsymbol{AC}\times\boldsymbol{AB_1}=\left(1,1,-1\right)$.
 
 $\boldsymbol{DB_1}=\left(1,1,1\right)$ 与法向量 $\left(1,1,-1\right)$ 不平行.
 
-但 $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{CB_1}=\left(1,1,1\right) \cdot \left(1,0,1\right)=2 \neq 0$.
+但 $\boldsymbol{DB_1}\cdot\boldsymbol{AC}=0$, $\boldsymbol{DB_1}\cdot\boldsymbol{CB_1}=\left(1,1,1\right)\cdot\left(1,0,1\right)=2\neq0$.
 
-故 $DB_1 \perp AC$, 但 $DB_1$ 不垂直于平面 $ACB_1$ 内的所有直线. 题目可能指的是 $DB_1 \perp$ 平面 $ACD_1$.
+故 $DB_1\perp{A}C$, 但 $DB_1$ 不垂直于平面 $ACB_1$ 内的所有直线. 题目可能指的是 $DB_1\perp$ 平面 $ACD_1$.
 
-验证: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1} \cdot \boldsymbol{AC}=0$, $\boldsymbol{DB_1} \cdot \boldsymbol{AD_1}=-1+0+1=0$.
+验证: $\boldsymbol{AC}=\left(-1,1,0\right)$, $\boldsymbol{AD_1}=\left(-1,0,1\right)$. $\boldsymbol{DB_1}\cdot\boldsymbol{AC}=0$, $\boldsymbol{DB_1}\cdot\boldsymbol{AD_1}=-1+0+1=0$.
 
-故 $DB_1 \perp$ 平面 $ACD_1$. $\blacksquare$
+故 $DB_1\perp$ 平面 $ACD_1$. $\blacksquare$
 
 ## 习题四
 
-(复习参考题1 拓广探索第 17 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $CA=CB=1$, $\angle BCA=90^\circ$, 棱 $AA_1=2$, $M$ 是 $A_1B_1$ 的中点. 建立如图所示空间直角坐标系.
+(复习参考题1 拓广探索第 17 题) 如图, 在直三棱柱 $ABC-A_1B_1C_1$ 中, $CA=CB=1$, $\angle{B}CA=90^\circ$, 棱 $AA_1=2$, $M$ 是 $A_1B_1$ 的中点. 建立如图所示空间直角坐标系.
 
 (1) 求 $\boldsymbol{BN}$ 的坐标 (其中 $N$ 是 $A_1A$ 的中点);
 
-(2) 求 $\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle$ 的值;
+(2) 求 $\cos\left\langle\boldsymbol{BA_1},\boldsymbol{CB_1}\right\rangle$ 的值;
 
-(3) 求证: $A_1B \perp C_1M$.
+(3) 求证: $A_1B\perp{C}_1M$.
 
-该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图:下底面 $\triangle ABC$ 中 $\angle BCA=90^\circ$,$CA=CB=1$,侧棱 $AA_1=2$ 且垂直于底面;$M$ 是 $A_1B_1$ 的中点,$N$ 是 $A_1A$ 的中点;以 $C$ 为原点,$CA$ 为 $x$ 轴,$CB$ 为 $y$ 轴,$CC_1$ 为 $z$ 轴建立空间直角坐标系.
+该图为直三棱柱 $ABC-A_1B_1C_1$ 的斜二测直观图:下底面 $\triangle{A}BC$ 中 $\angle{B}CA=90^\circ$,$CA=CB=1$,侧棱 $AA_1=2$ 且垂直于底面;$M$ 是 $A_1B_1$ 的中点,$N$ 是 $A_1A$ 的中点;以 $C$ 为原点,$CA$ 为 $x$ 轴,$CB$ 为 $y$ 轴,$CC_1$ 为 $z$ 轴建立空间直角坐标系.
 
 ### 解答 习题四
 
@@ -140,23 +140,23 @@ $\boldsymbol{BN}=N-B=\left(1,-1,1\right)$.
 
 $\boldsymbol{CB_1}=B_1-C=\left(0,1,2\right)$.
 
-$\boldsymbol{BA_1} \cdot \boldsymbol{CB_1}=0-1+4=3$.
+$\boldsymbol{BA_1}\cdot\boldsymbol{CB_1}=0-1+4=3$.
 
-$\lvert \boldsymbol{BA_1} \rvert=\sqrt{1+1+4}=\sqrt{6}$.
+$\lvert\boldsymbol{BA_1}\rvert=\sqrt{1+1+4}=\sqrt{6}$.
 
-$\lvert \boldsymbol{CB_1} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+$\lvert\boldsymbol{CB_1}\rvert=\sqrt{0+1+4}=\sqrt{5}$.
 
-$\cos \left\langle \boldsymbol{BA_1}, \boldsymbol{CB_1} \right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
+$\cos\left\langle\boldsymbol{BA_1},\boldsymbol{CB_1}\right\rangle=\frac{3}{\sqrt{30}}=\frac{\sqrt{30}}{10}$.
 
-(3) $M$ 是 $A_1B_1$ 的中点: $M\left(\frac{1}{2}, \frac{1}{2}, 2\right)$.
+(3) $M$ 是 $A_1B_1$ 的中点: $M\left(\frac{1}{2},\frac{1}{2},2\right)$.
 
-$\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2}, \frac{1}{2}, 0\right)$.
+$\boldsymbol{C_1M}=M-C_1=\left(\frac{1}{2},\frac{1}{2},0\right)$.
 
 $\boldsymbol{A_1B}=B-A_1=\left(-1,1,-2\right)$.
 
-$\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
+$\boldsymbol{A_1B}\cdot\boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
 
-由**常用结论 1.4.4**, $A_1B \perp C_1M$. $\blacksquare$
+由**常用结论 1.4.4**, $A_1B\perp{C}_1M$. $\blacksquare$
 
 ## 习题五
 
@@ -178,7 +178,7 @@ $\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
 
 (1) 直线 $3x+2y-1=0$ 即 $y=-\frac{3}{2}x+\frac{1}{2}$, 斜率为 $-\frac{3}{2}$. 由**常用结论 2.1.4** (方向向量与斜率), 方向向量 $\left(x,y\right)$ 满足 $\frac{y}{x}=-\frac{3}{2}$. 选项 (A) $\left(2,-3\right)$ 满足 $\frac{-3}{2}=-\frac{3}{2}$. 故选 (A).
 
-(2) 直线方程 $x-y\sin\theta+2=0$ 即 $y=\frac{1}{\sin\theta}x+\frac{2}{\sin\theta}$ (当 $\sin\theta\ne0$ 时). 斜率 $k=\frac{1}{\sin\theta}$. 因为 $\sin\theta\in\left[-1,1\right]$ 且 $\sin\theta\ne0$, 故 $\lvert k \rvert\ge1$, 即 $\lvert \tan\alpha \rvert\ge1$. 又 $\alpha\in\left[0,\pi\right)$, 故 $\alpha\in\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$. 当 $\sin\theta=0$ 时, 方程为 $x+2=0$, 即 $\alpha=\frac{\pi}{2}$. 综合, $\alpha\in\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$. 故选 (C).
+(2) 直线方程 $x-y\sin\theta+2=0$ 即 $y=\frac{1}{\sin\theta}x+\frac{2}{\sin\theta}$ (当 $\sin\theta\ne0$ 时). 斜率 $k=\frac{1}{\sin\theta}$. 因为 $\sin\theta\in\left[-1,1\right]$ 且 $\sin\theta\ne0$, 故 $\lvert{k}\rvert\ge1$, 即 $\lvert\tan\alpha\rvert\ge1$. 又 $\alpha\in\left[0,\pi\right)$, 故 $\alpha\in\left[\frac{\pi}{4},\frac{\pi}{2}\right)\cup\left(\frac{\pi}{2},\frac{3\pi}{4}\right]$. 当 $\sin\theta=0$ 时, 方程为 $x+2=0$, 即 $\alpha=\frac{\pi}{2}$. 综合, $\alpha\in\left[\frac{\pi}{4},\frac{3\pi}{4}\right]$. 故选 (C).
 
 (3) 关于 $x$ 轴对称的直线, 即将原方程中的 $y$ 替换为 $-y$. 原方程 $3x-4y+5=0$ 变为 $3x+4y+5=0$. 故选 (B). $\blacksquare$
 
@@ -216,7 +216,7 @@ $\boldsymbol{A_1B} \cdot \boldsymbol{C_1M}=-\frac{1}{2}+\frac{1}{2}+0=0$.
 
 由**常用结论 2.1.6** (两条直线垂直), 斜率之积为 $-1$.
 
-(1) $4ax+y=1$ 即 $y=-4ax+1$, 斜率 $k_1=-4a$. $\left(1-a\right)x+y=-1$ 即 $y=-\left(1-a\right)x-1$, 斜率 $k_2=a-1$. 由 $k_1k_2=-1$, 得 $-4a\left(a-1\right)=-1$, 即 $4a^2-4a-1=0$, 解得 $a=\frac{1\pm\sqrt 2}{2}$.
+(1) $4ax+y=1$ 即 $y=-4ax+1$, 斜率 $k_1=-4a$. $\left(1-a\right)x+y=-1$ 即 $y=-\left(1-a\right)x-1$, 斜率 $k_2=a-1$. 由 $k_1k_2=-1$, 得 $-4a\left(a-1\right)=-1$, 即 $4a^2-4a-1=0$, 解得 $a=\frac{1\pm\sqrt2}{2}$.
 
 (2) $2x+ay=2$ 即 $y=-\frac{2}{a}x+\frac{2}{a}$ ($a\ne0$), 斜率 $k_1=-\frac{2}{a}$. $ax+2y=1$ 即 $y=-\frac{a}{2}x+\frac{1}{2}$, 斜率 $k_2=-\frac{a}{2}$. 由 $k_1k_2=-1$, 得 $\left(-\frac{2}{a}\right)\left(-\frac{a}{2}\right)=1=-1$, 矛盾. 当 $a=0$ 时, 两直线分别为 $x=1$ 和 $y=\frac{1}{2}$, 一条垂直于 $x$ 轴, 一条平行于 $x$ 轴, 互相垂直. 故 $a=0$.
 
@@ -230,15 +230,15 @@ $$
 
 ## 习题八
 
-(复习参考题 2 复习巩固第 4 题) 求平行于直线 $x-y-2=0$, 且与它的距离为 $2\sqrt 2$ 的直线的方程.
+(复习参考题 2 复习巩固第 4 题) 求平行于直线 $x-y-2=0$, 且与它的距离为 $2\sqrt2$ 的直线的方程.
 
 ### 解答 习题八
 
 由**常用结论 2.3.4** (两条平行直线间的距离), 设所求直线为 $x-y+c=0$.
 
-两平行线间的距离为 $\frac{\lvert c-\left(-2\right) \rvert}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\lvert c+2 \rvert}{\sqrt 2}=2\sqrt 2$.
+两平行线间的距离为 $\frac{\lvert{c}-\left(-2\right)\rvert}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\lvert{c}+2\rvert}{\sqrt2}=2\sqrt2$.
 
-故 $\lvert c+2 \rvert=4$, 即 $c+2=4$ 或 $c+2=-4$, 即 $c=2$ 或 $c=-6$.
+故 $\lvert{c}+2\rvert=4$, 即 $c+2=4$ 或 $c+2=-4$, 即 $c=2$ 或 $c=-6$.
 
 所求直线的方程为 $x-y+2=0$ 或 $x-y-6=0$. $\blacksquare$
 
@@ -298,7 +298,7 @@ $$
 
 由**定义 2.4.3 (圆的一般方程)**, $D=-4$, $E=2m$, $F=2m^2-2m+1$.
 
-方程表示圆的条件为 $D^2+E^2-4F> 0$, 即 $16+4m^2-4\left(2m^2-2m+1\right)> 0$, 即 $16+4m^2-8m^2+8m-4> 0$, 即 $-4m^2+8m+12> 0$, 即 $m^2-2m-3< 0$, 即 $\left(m-3\right)\left(m+1\right)< 0$. 故 $-1< m< 3$.
+方程表示圆的条件为 $D^2+E^2-4F>0$, 即 $16+4m^2-4\left(2m^2-2m+1\right)>0$, 即 $16+4m^2-8m^2+8m-4>0$, 即 $-4m^2+8m+12>0$, 即 $m^2-2m-3<0$, 即 $\left(m-3\right)\left(m+1\right)<0$. 故 $-1<{}m<3$.
 
 半径平方为 $\frac{D^2+E^2-4F}{4}=\frac{-4m^2+8m+12}{4}=-m^2+2m+3=-\left(m-1\right)^2+4$.
 
@@ -326,10 +326,10 @@ $r_1+r_2=1+6=7$, $r_2-r_1=6-1=5=d$. 由**常用结论 2.5.3** (圆与圆的位�
 
 ## 习题十三
 
-(复习参考题 2 综合运用第 9 题) 若函数 $y=f\left(x\right)$ 在 $x=a$ 及 $x=b$ 之间的一段图象可以近似地看作线段, 且 $a\le c\le b$, 求证:
+(复习参考题 2 综合运用第 9 题) 若函数 $y=f\left(x\right)$ 在 $x=a$ 及 $x=b$ 之间的一段图象可以近似地看作线段, 且 $a\le{c}\le{b}$, 求证:
 
 $$
-f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+f\left(c\right)\approx{f}\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
 $$
 
 ### 解答 习题十三
@@ -349,7 +349,7 @@ $$
 将 $x=c$ 代入, 得
 
 $$
-f\left(c\right)\approx f\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
+f\left(c\right)\approx{f}\left(a\right)+\frac{c-a}{b-a}\left[f\left(b\right)-f\left(a\right)\right].
 $$
 
 故原命题得证. $\blacksquare$
@@ -402,7 +402,7 @@ $$
 
 ## 习题十六
 
-(复习参考题 2 综合运用第 12 题) 已知直线 $l:x-2y-8=0$ 和 $A\left(-2,0\right)$, $B\left(2,4\right)$ 两点, 若直线 $l$ 上存在点 $P$ 使得 $\lvert PA \rvert+\lvert PB \rvert$ 最小, 求点 $P$ 的坐标.
+(复习参考题 2 综合运用第 12 题) 已知直线 $l:x-2y-8=0$ 和 $A\left(-2,0\right)$, $B\left(2,4\right)$ 两点, 若直线 $l$ 上存在点 $P$ 使得 $\lvert{P}A\rvert+\lvert{P}B\rvert$ 最小, 求点 $P$ 的坐标.
 
 ### 解答 习题十六
 
@@ -414,7 +414,7 @@ $AA'$ 与 $l$ 垂直, $l$ 的斜率为 $\frac{1}{2}$, 故 $AA'$ 的斜率为 $-2
 
 联立, 得 $a-2\left(-2a-4\right)=18$, 即 $5a=10$, 故 $a=2$, $b=-8$. $A'\left(2,-8\right)$.
 
-$\lvert PA \rvert+\lvert PB \rvert=\lvert PA' \rvert+\lvert PB \rvert\ge\lvert A'B \rvert$, 当 $P$ 为 $A'B$ 与 $l$ 的交点时取等号.
+$\lvert{P}A\rvert+\lvert{P}B\rvert=\lvert{P}A'\rvert+\lvert{P}B\rvert\ge\lvert{A}'B\rvert$, 当 $P$ 为 $A'B$ 与 $l$ 的交点时取等号.
 
 直线 $A'B$ 过 $A'\left(2,-8\right)$ 和 $B\left(2,4\right)$, 即 $x=2$. 代入 $l:x-2y-8=0$, 得 $2-2y-8=0$, 即 $y=-3$. 点 $P$ 的坐标为 $\left(2,-3\right)$. $\blacksquare$
 
@@ -426,12 +426,12 @@ $\lvert PA \rvert+\lvert PB \rvert=\lvert PA' \rvert+\lvert PB \rvert\ge\lvert A
 
 两圆方程相减, 得 $\left(x^2+y^2-6x+2y-40\right)-\left(x^2+y^2-10x-10y\right)=0$, 即 $4x+12y-40=0$, 即 $x+3y-10=0$. 公共弦所在直线为 $x+3y-10=0$.
 
-圆 $C_1:\left(x-5\right)^2+\left(y-5\right)^2=50$, 圆心为 $\left(5,5\right)$, 半径 $r=\sqrt{50}=5\sqrt 2$.
+圆 $C_1:\left(x-5\right)^2+\left(y-5\right)^2=50$, 圆心为 $\left(5,5\right)$, 半径 $r=\sqrt{50}=5\sqrt2$.
 
 由**常用结论 2.3.3** (点到直线的距离公式), 圆心到公共弦的距离为
 
 $$
-d=\frac{\lvert 5+15-10 \rvert}{\sqrt{1+9}}=\frac{10}{\sqrt{10}}=\sqrt{10}.
+d=\frac{\lvert5+15-10\rvert}{\sqrt{1+9}}=\frac{10}{\sqrt{10}}=\sqrt{10}.
 $$
 
 由**常用结论 2.5.2** (弦长公式), 公共弦长为
@@ -487,7 +487,7 @@ $O_1O_2$ 的中点为 $\left(-1,1\right)$, $O_1O_2$ 的斜率为 $\frac{2-0}{-2-
 圆与直线 $x+y=1$ 相切, 由**常用结论 2.3.3** (点到直线的距离公式), 圆心到直线的距离等于半径:
 
 $$
-\frac{\lvert a-2a-1 \rvert}{\sqrt 2}=\sqrt{\left(a-2\right)^2+\left(-2a+1\right)^2}.
+\frac{\lvert{a}-2a-1\rvert}{\sqrt2}=\sqrt{\left(a-2\right)^2+\left(-2a+1\right)^2}.
 $$
 
 两边平方, 得 $\frac{\left(-a-1\right)^2}{2}=\left(a-2\right)^2+\left(1-2a\right)^2$, 即 $\frac{a^2+2a+1}{2}=a^2-4a+4+4a^2-4a+1$, 即 $a^2+2a+1=10a^2-16a+10$, 即 $9a^2-18a+9=0$, 即 $\left(a-1\right)^2=0$, 故 $a=1$.
@@ -504,8 +504,8 @@ $$
 
 一组对边的平方和为 $\left|AB\right|^2+\left|CD\right|^2=a^2+b^2+c^2+d^2$, 另一组为 $\left|BC\right|^2+\left|DA\right|^2=b^2+c^2+d^2+a^2$. 两者恒等.
 
-更一般地, 设四边形顶点为 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, $C\left(x_3,y_3\right)$, $D\left(x_4,y_4\right)$. 一组对边平方和为 $\lvert AB \rvert^2+\lvert CD \rvert^2$, 另一组为 $\lvert BC \rvert^2+\lvert DA \rvert^2$.
+更一般地, 设四边形顶点为 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, $C\left(x_3,y_3\right)$, $D\left(x_4,y_4\right)$. 一组对边平方和为 $\lvert{A}B\rvert^2+\lvert{C}D\rvert^2$, 另一组为 $\lvert{B}C\rvert^2+\lvert{D}A\rvert^2$.
 
-由**常用结论 2.3.2** (两点间距离公式), $\lvert AB \rvert^2+\lvert CD \rvert^2=\lvert BC \rvert^2+\lvert DA \rvert^2$ 展开后, 化简可得对角线 $AC\perp BD$.
+由**常用结论 2.3.2** (两点间距离公式), $\lvert{A}B\rvert^2+\lvert{C}D\rvert^2=\lvert{B}C\rvert^2+\lvert{D}A\rvert^2$ 展开后, 化简可得对角线 $AC\perp{B}D$.
 
 故对角线互相垂直. $\blacksquare$

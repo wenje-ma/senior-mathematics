@@ -2,27 +2,27 @@
 
 > **定义 1.1.6 (列举法)**
 > 
-> 把集合的所有元素一一列举出来, 并用花括号 $\left\{\ \right\}$ 括起来表示集合的方法叫做列举法.
+> 把集合的所有元素一一列举出来, 并用花括号 $\left\{\,\right\}$ 括起来表示集合的方法叫做列举法.
 
 > **定义 1.2.1 (子集)**
 > 
-> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq B$ (或 $B\supseteq A$).
+> 一般地, 对于两个集合 $A,B$, 如果集合 $A$ 中任意一个元素都是集合 $B$ 中的元素, 就称集合 $A$ 为集合 $B$ 的子集, 记作 $A\subseteq{B}$ (或 $B\supseteq{A}$).
 
 > **定义 1.3.1 (并集)**
 > 
-> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup B$, 即 $A\cup B=\left\{x\mid x\in A\text{ 或 }x\in B\right\}$.
+> 由所有属于集合 $A$ 或属于集合 $B$ 的元素所组成的集合, 称为集合 $A$ 与 $B$ 的并集, 记作 $A\cup{B}$, 即 $A\cup{B}=\left\{x\mid{x}\in{A}\text{~或~}x\in{B}\right\}$.
 
 > **定义 1.3.2 (交集)**
 > 
-> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap B$, 即 $A\cap B=\left\{x\mid x\in A\text{ 且 }x\in B\right\}$.
+> 由属于集合 $A$ 且属于集合 $B$ 的所有元素组成的集合, 称为 $A$ 与 $B$ 的交集, 记作 $A\cap{B}$, 即 $A\cap{B}=\left\{x\mid{x}\in{A}\text{~且~}x\in{B}\right\}$.
 
 > **定义 1.4.2 (充分条件与必要条件)**
 > 
-> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow q$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
+> 如果"若 $p$, 则 $q$"是一个真命题, 即由 $p$ 可以推出 $q$, 记作 $p\Rightarrow{q}$, 称 $p$ 是 $q$ 的充分条件, $q$ 是 $p$ 的必要条件.
 
 > **定义 1.4.4 (充要条件)**
 > 
-> 如果既有 $p\Rightarrow q$, 又有 $q\Rightarrow p$, 就记作 $p\Leftrightarrow q$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
+> 如果既有 $p\Rightarrow{q}$, 又有 $q\Rightarrow{p}$, 就记作 $p\Leftrightarrow{q}$. 此时, $p$ 既是 $q$ 的充分条件, 又是 $q$ 的必要条件, 称 $p$ 是 $q$ 的充分必要条件 (简称充要条件).
 
 > **定义 1.5.1 (全称量词与全称量词命题)**
 > 
@@ -34,15 +34,15 @@
 
 > **定义 1.5.3 (命题的否定)**
 > 
-> 对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg p$. 若 $p$ 是真命题, 则 $\neg p$ 是假命题; 若 $p$ 是假命题, 则 $\neg p$ 是真命题.
+> 对一个命题 $p$ 全盘否定, 就得到一个新命题, 记作 $\neg{p}$. 若 $p$ 是真命题, 则 $\neg{p}$ 是假命题; 若 $p$ 是假命题, 则 $\neg{p}$ 是真命题.
 
 > **定理 2.2.1 (基本不等式)**
 > 
-> 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a> 0$, $b> 0$), 当且仅当 $a=b$ 时, 等号成立.
+> 基本不等式: $\sqrt{ab}\le\frac{a+b}{2}$ ($a>0$, $b>0$), 当且仅当 $a=b$ 时, 等号成立.
 
 > **定义 5.7.1 (简谐运动)**
 > 
-> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
+> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega{x}+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A>0$, $\omega>0$.
 
 > **定义 5.7.2 (振幅, 周期, 频率, 相位)**
 > 
@@ -52,17 +52,17 @@
 
 (练习 5.7 第 2 题) 一根绝对刚性且长度不变, 质量可忽略不计的线, 一端固定, 另一端悬挂一个沙漏. 沙漏摆动时离开平衡位置的位移 $s$ (单位: $\text{cm}$) 与时间 $t$ (单位: $\text{s}$) 的函数关系是 $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in\left[0,+\infty\right)$.
 
-(1) 当 $l=25$ 时, 求该沙漏的最大偏角 (精确到 $0.0001\text{ rad}$);
+(1) 当 $l=25$ 时, 求该沙漏的最大偏角 (精确到 $0.0001\text{~rad}$);
 
-(2) 已知 $g=9.8\text{ m/s}^{2}$, 要使沙漏摆动的周期是 $1\text{ s}$, 线的长度应当是多少 (精确到 $0.1\text{ cm}$)?
+(2) 已知 $g=9.8\text{~m/s}^{2}$, 要使沙漏摆动的周期是 $1\text{~s}$, 线的长度应当是多少 (精确到 $0.1\text{~cm}$)?
 
 ### 解答 练习一
 
 由**定义 5.7.1 (简谐运动)**.
 
-(1) 由 $s_{\max}=3\text{ cm}$, 线长 $l=25\text{ cm}$, 得最大偏角 $\theta$ 满足 $l\sin\theta=s_{\max}$, 即 $\sin\theta=\frac{3}{25}=0.12$. 故 $\theta=\arcsin0.12\approx0.1203\text{ rad}$.
+(1) 由 $s_{\max}=3\text{~cm}$, 线长 $l=25\text{~cm}$, 得最大偏角 $\theta$ 满足 $l\sin\theta=s_{\max}$, 即 $\sin\theta=\frac{3}{25}=0.12$. 故 $\theta=\arcsin0.12\approx0.1203\text{~rad}$.
 
-(2) 由周期 $T=\frac{2\pi}{\sqrt{g/l}}=2\pi\sqrt{\frac{l}{g}}=1$, 得 $l=\frac{g}{4\pi^{2}}=\frac{980}{4\pi^{2}}\approx24.8\text{ cm}$. $\blacksquare$
+(2) 由周期 $T=\frac{2\pi}{\sqrt{g/l}}=2\pi\sqrt{\frac{l}{g}}=1$, 得 $l=\frac{g}{4\pi^{2}}=\frac{980}{4\pi^{2}}\approx24.8\text{~cm}$. $\blacksquare$
 
 ## 练习二
 
@@ -74,7 +74,7 @@
 
 由**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
 
-由图象知电压最大值 $311\text{ V}$, 周期 $0.02\text{ s}$, 频率 $50\text{ Hz}$. 由 $\omega=\frac{2\pi}{0.02}=100\pi$, 初相 $\varphi=0$. 故 $U=311\sin\left(100\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
+由图象知电压最大值 $311\text{~V}$, 周期 $0.02\text{~s}$, 频率 $50\text{~Hz}$. 由 $\omega=\frac{2\pi}{0.02}=100\pi$, 初相 $\varphi=0$. 故 $U=311\sin\left(100\pi{t}\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
 
 ## 习题一
 
@@ -90,7 +90,7 @@
 
 ## 习题二
 
-(习题 5.7 综合运用第 2 题) 弹簧挂着的小球做上下运动, 它在 $t\text{ s}$ 时相对于平衡位置的高度 $h$ (单位: $\text{cm}$) 由关系式 $h=2\sin\left(t+\frac{\pi}{4}\right)$ 确定.
+(习题 5.7 综合运用第 2 题) 弹簧挂着的小球做上下运动, 它在 $t\text{~s}$ 时相对于平衡位置的高度 $h$ (单位: $\text{cm}$) 由关系式 $h=2\sin\left(t+\frac{\pi}{4}\right)$ 确定.
 
 (1) 小球在开始振动 (即 $t=0$) 时的位置在哪里?
 
@@ -104,11 +104,11 @@
 
 由**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
 
-(1) 由 $t=0$, $h=2\sin\frac{\pi}{4}=\sqrt{2}\text{ cm}$, 即小球在平衡位置上方 $\sqrt{2}\text{ cm}$ 处.
+(1) 由 $t=0$, $h=2\sin\frac{\pi}{4}=\sqrt{2}\text{~cm}$, 即小球在平衡位置上方 $\sqrt{2}\text{~cm}$ 处.
 
-(2) 由振幅 $A=2$, 最高点和最低点与平衡位置的距离均为 $2\text{ cm}$.
+(2) 由振幅 $A=2$, 最高点和最低点与平衡位置的距离均为 $2\text{~cm}$.
 
-(3) 由 $\omega=1$, 周期 $T=2\pi\text{ s}$, 即经过 $2\pi\text{ s}$ 往复运动一次.
+(3) 由 $\omega=1$, 周期 $T=2\pi\text{~s}$, 即经过 $2\pi\text{~s}$ 往复运动一次.
 
 (4) 由频率 $f=\frac{1}{2\pi}\approx0.159$, 每秒钟往复振动 $\frac{1}{2\pi}$ 次. $\blacksquare$
 
@@ -126,7 +126,7 @@
 
 由**性质 5.7.1** (三角函数模型应用步骤).
 
-(1) 日出时间和日落时间随日期呈周期性变化, 可近似用 $y=A\sin\left(\omega t+\varphi\right)+b$ 拟合, 周期为一年 (约 $365$ 天).
+(1) 日出时间和日落时间随日期呈周期性变化, 可近似用 $y=A\sin\left(\omega{t}+\varphi\right)+b$ 拟合, 周期为一年 (约 $365$ 天).
 
 (2) 五一 (5月1日) 北京日出时间约为 $5$ 时 $15$ 分左右, 故应在 $5$ 时前到达天安门广场. $\blacksquare$
 
@@ -148,17 +148,17 @@
 
 由**定义 5.7.2 (振幅, 周期, 频率, 相位)**.
 
-纯音的数学模型是 $y=A\sin\omega t$. 响度与振幅 $A$ 有关, 音调与频率 $\frac{\omega}{2\pi}$ 有关. 复合音由基音和谐音组成, 声音的函数为 $y=\sin x+\frac{1}{2}\sin2x+\frac{1}{3}\sin3x+\frac{1}{4}\sin4x+\cdots$. 音色由基音和谐音的综合作用决定. $\blacksquare$
+纯音的数学模型是 $y=A\sin\omega{t}$. 响度与振幅 $A$ 有关, 音调与频率 $\frac{\omega}{2\pi}$ 有关. 复合音由基音和谐音组成, 声音的函数为 $y=\sin{x}+\frac{1}{2}\sin2x+\frac{1}{3}\sin3x+\frac{1}{4}\sin4x+\cdots$. 音色由基音和谐音的综合作用决定. $\blacksquare$
 
 ## 习题五
 
 (复习参考题1 复习巩固第 1 题) 用列举法表示下列集合:
 
-(1) $A=\left\{x\mid x^2=9\right\}$;
+(1) $A=\left\{x\mid{x}^2=9\right\}$;
 
-(2) $B=\left\{x\in\mathbb N\mid 1\le x\le 2\right\}$;
+(2) $B=\left\{x\in\mathbb{N}\mid1\le{x}\le2\right\}$;
 
-(3) $C=\left\{x\mid x^2-3x+2=0\right\}$.
+(3) $C=\left\{x\mid{x}^2-3x+2=0\right\}$.
 
 ### 解答 习题五
 
@@ -166,7 +166,7 @@
 
 (1) 方程 $x^2=9$ 的根为 $x=\pm3$, 故 $A=\left\{-3,3\right\}$.
 
-(2) 由常用数集, $\mathbb N$ 为非负整数集, 满足 $1\le x\le2$ 的非负整数为 $1,2$, 故 $B=\left\{1,2\right\}$.
+(2) 由常用数集, $\mathbb{N}$ 为非负整数集, 满足 $1\le{x}\le2$ 的非负整数为 $1,2$, 故 $B=\left\{1,2\right\}$.
 
 (3) 方程 $x^2-3x+2=0$ 即 $\left(x-1\right)\left(x-2\right)=0$, 其根为 $x=1$ 或 $x=2$, 故 $C=\left\{1,2\right\}$. $\blacksquare$
 
@@ -174,9 +174,9 @@
 
 (复习参考题1 复习巩固第 2 题) 设 $P$ 表示平面内的动点, 属于下列集合的点组成什么图形?
 
-(1) $\left\{P\mid PA=PB\right\}$ ($A,B$ 是两个不同定点);
+(1) $\left\{P\mid{P}A=PB\right\}$ ($A,B$ 是两个不同定点);
 
-(2) $\left\{P\mid PO=3\mathrm{cm}\right\}$ ($O$ 是定点).
+(2) $\left\{P\mid{P}O=3\mathrm{cm}\right\}$ ($O$ 是定点).
 
 ### 解答 习题六
 
@@ -188,15 +188,15 @@
 
 ## 习题七
 
-(复习参考题1 复习巩固第 3 题) 设平面内有 $\triangle ABC$, 且 $P$ 表示这个平面内的动点, 指出属于集合 $\left\{P\mid PA=PB\right\}\cap\left\{P\mid PA=PC\right\}$ 的点是什么.
+(复习参考题1 复习巩固第 3 题) 设平面内有 $\triangle{A}BC$, 且 $P$ 表示这个平面内的动点, 指出属于集合 $\left\{P\mid{P}A=PB\right\}\cap\left\{P\mid{P}A=PC\right\}$ 的点是什么.
 
 ### 解答 习题七
 
 由**定义 1.3.2 (交集)**, 所求点既要满足 $PA=PB$, 又要满足 $PA=PC$.
 
-由 $\left\{P\mid PA=PB\right\}$ 是线段 $AB$ 的垂直平分线, $\left\{P\mid PA=PC\right\}$ 是线段 $AC$ 的垂直平分线, 二者的交集即这两条垂直平分线的交点.
+由 $\left\{P\mid{P}A=PB\right\}$ 是线段 $AB$ 的垂直平分线, $\left\{P\mid{P}A=PC\right\}$ 是线段 $AC$ 的垂直平分线, 二者的交集即这两条垂直平分线的交点.
 
-该交点到 $A,B,C$ 三点的距离都相等, 它就是 $\triangle ABC$ 的外心, 即 $\triangle ABC$ 外接圆的圆心. $\blacksquare$
+该交点到 $A,B,C$ 三点的距离都相等, 它就是 $\triangle{A}BC$ 的外心, 即 $\triangle{A}BC$ 外接圆的圆心. $\blacksquare$
 
 ## 习题八
 
@@ -204,9 +204,9 @@
 
 (1) 三角形两边上的高相等是这个三角形为等腰三角形的 $\;\_\_\;$;
 
-(2) $x\in A$ 是 $x\in A\cup B$ 的 $\;\_\_\;$;
+(2) $x\in{A}$ 是 $x\in{A}\cup{B}$ 的 $\;\_\_\;$;
 
-(3) $x\in A$ 是 $x\in A\cap B$ 的 $\;\_\_\;$;
+(3) $x\in{A}$ 是 $x\in{A}\cap{B}$ 的 $\;\_\_\;$;
 
 (4) $x,y$ 为无理数是 $x+y$ 为无理数的 $\;\_\_\;$.
 
@@ -214,37 +214,37 @@
 
 由**定义 1.4.2 (充分条件与必要条件)** 与**定义 1.4.4 (充要条件)**, 分别判断两个方向的推出关系.
 
-(1) 设三角形两边 $a,b$ 上的高为 $h_a,h_b$. 由三角形面积 $S=\frac12 ah_a=\frac12 bh_b$, 若 $h_a=h_b$ 则 $a=b$, 即三角形为等腰三角形; 反之等腰三角形两腰上的高相等. 故二者互为充要条件, 填 "充要条件".
+(1) 设三角形两边 $a,b$ 上的高为 $h_a,h_b$. 由三角形面积 $S=\frac12ah_a=\frac12bh_b$, 若 $h_a=h_b$ 则 $a=b$, 即三角形为等腰三角形; 反之等腰三角形两腰上的高相等. 故二者互为充要条件, 填 "充要条件".
 
-(2) 由**定义 1.3.1 (并集)**, $x\in A$ 必有 $x\in A\cup B$, 即 $x\in A\Rightarrow x\in A\cup B$; 但 $x\in A\cup B$ 可能只属于 $B$, 推不出 $x\in A$. 故 $x\in A$ 是 $x\in A\cup B$ 的充分不必要条件.
+(2) 由**定义 1.3.1 (并集)**, $x\in{A}$ 必有 $x\in{A}\cup{B}$, 即 $x\in{A}\Rightarrow{x}\in{A}\cup{B}$; 但 $x\in{A}\cup{B}$ 可能只属于 $B$, 推不出 $x\in{A}$. 故 $x\in{A}$ 是 $x\in{A}\cup{B}$ 的充分不必要条件.
 
-(3) 由**定义 1.3.2 (交集)**, $x\in A\cap B$ 必有 $x\in A$, 即 $x\in A\cap B\Rightarrow x\in A$; 但 $x\in A$ 未必属于 $B$, 推不出 $x\in A\cap B$. 故 $x\in A$ 是 $x\in A\cap B$ 的必要不充分条件.
+(3) 由**定义 1.3.2 (交集)**, $x\in{A}\cap{B}$ 必有 $x\in{A}$, 即 $x\in{A}\cap{B}\Rightarrow{x}\in{A}$; 但 $x\in{A}$ 未必属于 $B$, 推不出 $x\in{A}\cap{B}$. 故 $x\in{A}$ 是 $x\in{A}\cap{B}$ 的必要不充分条件.
 
-(4) 取 $x=\sqrt 2$, $y=-\sqrt 2$, 二者均为无理数, 但 $x+y=0$ 为有理数; 又取 $x=y=\sqrt 2$, $x+y=2\sqrt 2$ 为无理数. 两个方向都不成立, 故 $x,y$ 为无理数是 $x+y$ 为无理数的既不充分也不必要条件. $\blacksquare$
+(4) 取 $x=\sqrt2$, $y=-\sqrt2$, 二者均为无理数, 但 $x+y=0$ 为有理数; 又取 $x=y=\sqrt2$, $x+y=2\sqrt2$ 为无理数. 两个方向都不成立, 故 $x,y$ 为无理数是 $x+y$ 为无理数的既不充分也不必要条件. $\blacksquare$
 
 ## 习题九
 
 (复习参考题1 复习巩固第 5 题) 已知 $a,b,c$ 是实数, 判断下列命题的真假:
 
-(1) "$a> b$" 是 "$a^2> b^2$" 的充分条件; ($\;\_\_\;$)
+(1) "$a>{}b$" 是 "$a^2>{}b^2$" 的充分条件; ($\;\_\_\;$)
 
-(2) "$a> b$" 是 "$a^2> b^2$" 的必要条件; ($\;\_\_\;$)
+(2) "$a>{}b$" 是 "$a^2>{}b^2$" 的必要条件; ($\;\_\_\;$)
 
-(3) "$a> b$" 是 "$ac^2> bc^2$" 的充分条件; ($\;\_\_\;$)
+(3) "$a>{}b$" 是 "$ac^2>{}bc^2$" 的充分条件; ($\;\_\_\;$)
 
-(4) "$a> b$" 是 "$ac^2> bc^2$" 的必要条件. ($\;\_\_\;$)
+(4) "$a>{}b$" 是 "$ac^2>{}bc^2$" 的必要条件. ($\;\_\_\;$)
 
 ### 解答 习题九
 
 由**定义 1.4.2 (充分条件与必要条件)**, 举反例可判其为假, 普遍推证可判其为真.
 
-(1) 取 $a=1$, $b=-2$, 有 $a> b$, 但 $a^2=1< 4=b^2$, 故 $a> b\nRightarrow a^2> b^2$, 该命题为假命题.
+(1) 取 $a=1$, $b=-2$, 有 $a>{}b$, 但 $a^2=1<4=b^2$, 故 $a>{}b\nRightarrow{a}^2>{}b^2$, 该命题为假命题.
 
-(2) 取 $a=-2$, $b=1$, 有 $a^2=4> 1=b^2$, 但 $a< b$, 故 $a^2> b^2\nRightarrow a> b$, 即 "$a> b$" 不是 "$a^2> b^2$" 的必要条件, 该命题为假命题.
+(2) 取 $a=-2$, $b=1$, 有 $a^2=4>1=b^2$, 但 $a<{}b$, 故 $a^2>{}b^2\nRightarrow{a}>{}b$, 即 "$a>{}b$" 不是 "$a^2>{}b^2$" 的必要条件, 该命题为假命题.
 
-(3) 取 $c=0$, 则 $ac^2=bc^2=0$, 即使 $a> b$ 也有 $ac^2=bc^2$, 故 $a> b\nRightarrow ac^2> bc^2$, 该命题为假命题.
+(3) 取 $c=0$, 则 $ac^2=bc^2=0$, 即使 $a>{}b$ 也有 $ac^2=bc^2$, 故 $a>{}b\nRightarrow{a}c^2>{}bc^2$, 该命题为假命题.
 
-(4) 若 $ac^2> bc^2$, 则必有 $c^2> 0$ (否则两边皆为 $0$, 不满足 $> $), 两边同除以正数 $c^2$, 得 $a> b$, 故 $ac^2> bc^2\Rightarrow a> b$, 该命题为真命题. $\blacksquare$
+(4) 若 $ac^2>{}bc^2$, 则必有 $c^2>0$ (否则两边皆为 $0$, 不满足 $>$), 两边同除以正数 $c^2$, 得 $a>{}b$, 故 $ac^2>{}bc^2\Rightarrow{a}>{}b$, 该命题为真命题. $\blacksquare$
 
 ## 习题十
 
@@ -262,11 +262,11 @@
 
 由**定义 1.5.1 (全称量词与全称量词命题)** 与**定义 1.5.2 (存在量词与存在量词命题)** 表示并判断.
 
-(1) 表示为 $\forall x\in\mathbb R,\ x^2\ge 0$. 由实数平方非负, 该命题为真命题.
+(1) 表示为 $\forall{x}\in\mathbb{R},\,x^2\ge0$. 由实数平方非负, 该命题为真命题.
 
-(2) 表示为 $\forall a\in\mathbb R$, 二次函数 $y=x^2+a$ 的图象关于 $y$ 轴对称. 抛物线 $y=x^2+a$ 关于 $y$ 轴对称, 对任意实数 $a$ 成立, 该命题为真命题.
+(2) 表示为 $\forall{a}\in\mathbb{R}$, 二次函数 $y=x^2+a$ 的图象关于 $y$ 轴对称. 抛物线 $y=x^2+a$ 关于 $y$ 轴对称, 对任意实数 $a$ 成立, 该命题为真命题.
 
-(3) 表示为 $\exists x,y\in\mathbb Z,\ 2x+4y=3$. 左边 $2x+4y=2\left(x+2y\right)$ 是偶数, 右边 $3$ 是奇数, 二者不可能相等, 该命题为假命题.
+(3) 表示为 $\exists{x},y\in\mathbb{Z},\,2x+4y=3$. 左边 $2x+4y=2\left(x+2y\right)$ 是偶数, 右边 $3$ 是奇数, 二者不可能相等, 该命题为假命题.
 
 (4) 表示为 "存在无理数 $x$, $x^3$ 是有理数". 取 $x=\sqrt\left[3\right]{2}$, 它是无理数, 而 $x^3=2$ 是有理数, 这样的 $x$ 存在, 该命题为真命题. $\blacksquare$
 
@@ -274,11 +274,11 @@
 
 (复习参考题1 复习巩固第 7 题) 写出下列命题的否定, 并判断它们的真假:
 
-(1) $\forall a\in\mathbb R$, 一元二次方程 $x^2-ax-1=0$ 有实根;
+(1) $\forall{a}\in\mathbb{R}$, 一元二次方程 $x^2-ax-1=0$ 有实根;
 
 (2) 每个正方形都是平行四边形;
 
-(3) $\exists m\in\mathbb N,\ \sqrt{m^2+1}\in\mathbb N$;
+(3) $\exists{m}\in\mathbb{N},\,\sqrt{m^2+1}\in\mathbb{N}$;
 
 (4) 存在一个四边形 $ABCD$, 其内角和不等于 $360^\circ$.
 
@@ -286,49 +286,49 @@
 
 由**常用结论 1.5.4** (全称量词命题的否定) 与**常用结论 1.5.5** (存在量词命题的否定) 改写, 并由**定义 1.5.3 (命题的否定)** 的真假相反判断.
 
-(1) 这是全称量词命题, 其否定为 $\exists a\in\mathbb R$, 一元二次方程 $x^2-ax-1=0$ 无实根. 原方程的判别式为 $\left(-a\right)^2+4=a^2+4> 0$ 恒成立, 故原命题为真, 其否定为假命题.
+(1) 这是全称量词命题, 其否定为 $\exists{a}\in\mathbb{R}$, 一元二次方程 $x^2-ax-1=0$ 无实根. 原方程的判别式为 $\left(-a\right)^2+4=a^2+4>0$ 恒成立, 故原命题为真, 其否定为假命题.
 
 (2) 这是全称量词命题, 其否定为 "存在一个正方形, 它不是平行四边形". 正方形是特殊的平行四边形, 原命题为真, 其否定为假命题.
 
-(3) 这是存在量词命题, 其否定为 $\forall m\in\mathbb N,\ \sqrt{m^2+1}\notin\mathbb N$. 取 $m=0\in\mathbb N$, 则 $\sqrt{m^2+1}=\sqrt 1=1\in\mathbb N$, 故原命题为真, 其否定为假命题.
+(3) 这是存在量词命题, 其否定为 $\forall{m}\in\mathbb{N},\,\sqrt{m^2+1}\notin\mathbb{N}$. 取 $m=0\in\mathbb{N}$, 则 $\sqrt{m^2+1}=\sqrt1=1\in\mathbb{N}$, 故原命题为真, 其否定为假命题.
 
 (4) 这是存在量词命题, 其否定为 "每个四边形的内角和都等于 $360^\circ$". 任意四边形内角和都为 $360^\circ$, 原命题为假, 其否定为真命题. $\blacksquare$
 
 ## 习题十二
 
-(复习参考题1 综合运用第 8 题) 已知集合 $A=\left\{\left(x,y\right)\mid 2x-y=0\right\}$, $B=\left\{\left(x,y\right)\mid 3x+y=0\right\}$, $C=\left\{\left(x,y\right)\mid 2x-y=3\right\}$, 求 $A\cap B$, $A\cap C$, 并解释它们的几何意义.
+(复习参考题1 综合运用第 8 题) 已知集合 $A=\left\{\left(x,y\right)\mid2x-y=0\right\}$, $B=\left\{\left(x,y\right)\mid3x+y=0\right\}$, $C=\left\{\left(x,y\right)\mid2x-y=3\right\}$, 求 $A\cap{B}$, $A\cap{C}$, 并解释它们的几何意义.
 
 ### 解答 习题十二
 
-由**定义 1.3.2 (交集)**, $A\cap B$ 由同时属于两条直线的点组成, 即两直线的交点.
+由**定义 1.3.2 (交集)**, $A\cap{B}$ 由同时属于两条直线的点组成, 即两直线的交点.
 
 集合 $A$ 表示直线 $y=2x$, $B$ 表示直线 $y=-3x$, $C$ 表示直线 $y=2x-3$.
 
-求 $A\cap B$, 解方程组
+求 $A\cap{B}$, 解方程组
 
 $$
 \begin{cases}2x-y=0,\\3x+y=0.\end{cases}
 $$
 
-两式相加得 $5x=0$, 即 $x=0$, 代回得 $y=0$, 故 $A\cap B=\left\{\left(0,0\right)\right\}$. 其几何意义为直线 $y=2x$ 与 $y=-3x$ 的交点, 即坐标原点.
+两式相加得 $5x=0$, 即 $x=0$, 代回得 $y=0$, 故 $A\cap{B}=\left\{\left(0,0\right)\right\}$. 其几何意义为直线 $y=2x$ 与 $y=-3x$ 的交点, 即坐标原点.
 
-求 $A\cap C$, 注意到直线 $A$ 与直线 $C$ 的斜率都为 $2$, 互相平行, 且截距分别为 $0$ 与 $-3$, 是两条不重合的平行直线, 没有公共点, 故 $A\cap C=\varnothing$. 其几何意义为直线 $y=2x$ 与 $y=2x-3$ 平行而不相交. $\blacksquare$
+求 $A\cap{C}$, 注意到直线 $A$ 与直线 $C$ 的斜率都为 $2$, 互相平行, 且截距分别为 $0$ 与 $-3$, 是两条不重合的平行直线, 没有公共点, 故 $A\cap{C}=\varnothing$. 其几何意义为直线 $y=2x$ 与 $y=2x-3$ 平行而不相交. $\blacksquare$
 
 ## 习题十三
 
-(复习参考题1 综合运用第 9 题) 已知集合 $A=\left\{1,3,a^2\right\}$, $B=\left\{1,a+2\right\}$, 是否存在实数 $a$, 使得 $A\cup B=A$? 若存在, 试求出实数 $a$ 的值; 若不存在, 请说明理由.
+(复习参考题1 综合运用第 9 题) 已知集合 $A=\left\{1,3,a^2\right\}$, $B=\left\{1,a+2\right\}$, 是否存在实数 $a$, 使得 $A\cup{B}=A$? 若存在, 试求出实数 $a$ 的值; 若不存在, 请说明理由.
 
 ### 解答 习题十三
 
-由**定义 1.3.1 (并集)** 与**定义 1.2.1 (子集)**, $A\cup B=A$ 当且仅当 $B\subseteq A$, 即 $B$ 的每个元素都属于 $A$.
+由**定义 1.3.1 (并集)** 与**定义 1.2.1 (子集)**, $A\cup{B}=A$ 当且仅当 $B\subseteq{A}$, 即 $B$ 的每个元素都属于 $A$.
 
-$B$ 中有元素 $1$ 与 $a+2$. 其中 $1\in A$ 已满足, 只需 $a+2\in A=\left\{1,3,a^2\right\}$, 分三种情况.
+$B$ 中有元素 $1$ 与 $a+2$. 其中 $1\in{A}$ 已满足, 只需 $a+2\in{A}=\left\{1,3,a^2\right\}$, 分三种情况.
 
-(1) 若 $a+2=1$, 则 $a=-1$. 此时 $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,1\right\}=\left\{1\right\}$, 满足 $B\subseteq A$.
+(1) 若 $a+2=1$, 则 $a=-1$. 此时 $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,1\right\}=\left\{1\right\}$, 满足 $B\subseteq{A}$.
 
-(2) 若 $a+2=3$, 则 $a=1$. 此时 $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,3\right\}$, 满足 $B\subseteq A$.
+(2) 若 $a+2=3$, 则 $a=1$. 此时 $a^2=1$, $A=\left\{1,3,1\right\}=\left\{1,3\right\}$, $B=\left\{1,3\right\}$, 满足 $B\subseteq{A}$.
 
-(3) 若 $a+2=a^2$, 则 $a^2-a-2=0$, 即 $\left(a-2\right)\left(a+1\right)=0$, 得 $a=2$ 或 $a=-1$. 其中 $a=-1$ 已在 (1) 中讨论; 当 $a=2$ 时, $A=\left\{1,3,4\right\}$, $B=\left\{1,4\right\}$, 满足 $B\subseteq A$.
+(3) 若 $a+2=a^2$, 则 $a^2-a-2=0$, 即 $\left(a-2\right)\left(a+1\right)=0$, 得 $a=2$ 或 $a=-1$. 其中 $a=-1$ 已在 (1) 中讨论; 当 $a=2$ 时, $A=\left\{1,3,4\right\}$, $B=\left\{1,4\right\}$, 满足 $B\subseteq{A}$.
 
 综上, 存在这样的实数 $a$, 其值为 $a=-1$, $a=1$ 或 $a=2$. $\blacksquare$
 
@@ -354,19 +354,19 @@ $B$ 中有元素 $1$ 与 $a+2$. 其中 $1\in A$ 已满足, 只需 $a+2\in A=\lef
 
 ### 解答 习题十五
 
-设参加游泳, 田径, 球类比赛的同学集合分别为 $S,T,B$, 则 $\operatorname{card}\left(S\cup T\cup B\right)=28$, $\operatorname{card}\left(S\right)=15$, $\operatorname{card}\left(T\right)=8$, $\operatorname{card}\left(B\right)=14$, $\operatorname{card}\left(S\cap T\right)=3$, $\operatorname{card}\left(S\cap B\right)=3$, 且 $\operatorname{card}\left(S\cap T\cap B\right)=0$.
+设参加游泳, 田径, 球类比赛的同学集合分别为 $S,T,B$, 则 $\operatorname{card}\left(S\cup{T}\cup{B}\right)=28$, $\operatorname{card}\left(S\right)=15$, $\operatorname{card}\left(T\right)=8$, $\operatorname{card}\left(B\right)=14$, $\operatorname{card}\left(S\cap{T}\right)=3$, $\operatorname{card}\left(S\cap{B}\right)=3$, 且 $\operatorname{card}\left(S\cap{T}\cap{B}\right)=0$.
 
-设同时参加田径和球类比赛的人数为 $x$, 即 $\operatorname{card}\left(T\cap B\right)=x$.
+设同时参加田径和球类比赛的人数为 $x$, 即 $\operatorname{card}\left(T\cap{B}\right)=x$.
 
 由**常用结论** (有限集元素个数) 的容斥原理,
 
 $$
-\operatorname{card}\left(S\cup T\cup B\right)=\operatorname{card}\left(S\right)+\operatorname{card}\left(T\right)+\operatorname{card}\left(B\right)-\operatorname{card}\left(S\cap T\right)-\operatorname{card}\left(S\cap B\right)-\operatorname{card}\left(T\cap B\right)+\operatorname{card}\left(S\cap T\cap B\right).
+\operatorname{card}\left(S\cup{T}\cup{B}\right)=\operatorname{card}\left(S\right)+\operatorname{card}\left(T\right)+\operatorname{card}\left(B\right)-\operatorname{card}\left(S\cap{T}\right)-\operatorname{card}\left(S\cap{B}\right)-\operatorname{card}\left(T\cap{B}\right)+\operatorname{card}\left(S\cap{T}\cap{B}\right).
 $$
 
 代入数据, 得 $28=15+8+14-3-3-x+0$, 即 $28=31-x$, 解得 $x=3$. 故同时参加田径和球类比赛的有 $3$ 人.
 
-只参加游泳一项比赛的人数, 即只在 $S$ 中而不在 $T,B$ 中的人数, 为 $\operatorname{card}\left(S\right)-\operatorname{card}\left(S\cap T\right)-\operatorname{card}\left(S\cap B\right)+\operatorname{card}\left(S\cap T\cap B\right)=15-3-3+0=9$. 故只参加游泳一项比赛的有 $9$ 人. $\blacksquare$
+只参加游泳一项比赛的人数, 即只在 $S$ 中而不在 $T,B$ 中的人数, 为 $\operatorname{card}\left(S\right)-\operatorname{card}\left(S\cap{T}\right)-\operatorname{card}\left(S\cap{B}\right)+\operatorname{card}\left(S\cap{T}\cap{B}\right)=15-3-3+0=9$. 故只参加游泳一项比赛的有 $9$ 人. $\blacksquare$
 
 ## 习题十六
 
@@ -374,9 +374,9 @@ $$
 
 (1) $1=1^2$, $1+3=2^2$, $1+3+5=3^2$, $1+3+5+7=4^2$, $1+3+5+7+9=5^2$, $\cdots\cdots$;
 
-(2) 如图, 在 $\triangle ABC$ 中, $AD$, $BE$ 与 $CF$ 分别为 $BC$, $AC$ 与 $AB$ 边上的高, 则 $AD$, $BE$ 与 $CF$ 所在的直线交于一点 $O$.
+(2) 如图, 在 $\triangle{A}BC$ 中, $AD$, $BE$ 与 $CF$ 分别为 $BC$, $AC$ 与 $AB$ 边上的高, 则 $AD$, $BE$ 与 $CF$ 所在的直线交于一点 $O$.
 
-图:一个 $\triangle ABC$,$AD$ 为边 $BC$ 上的高($D$ 在 $BC$ 上,$AD\perp BC$),$BE$ 为边 $AC$ 上的高($E$ 在 $AC$ 上,$BE\perp AC$),$CF$ 为边 $AB$ 上的高($F$ 在 $AB$ 上,$CF\perp AB$),三条高所在直线 $AD$,$BE$,$CF$ 交于三角形内一点 $O$(垂心).
+图:一个 $\triangle{A}BC$,$AD$ 为边 $BC$ 上的高($D$ 在 $BC$ 上,$AD\perp{B}C$),$BE$ 为边 $AC$ 上的高($E$ 在 $AC$ 上,$BE\perp{A}C$),$CF$ 为边 $AB$ 上的高($F$ 在 $AB$ 上,$CF\perp{A}B$),三条高所在直线 $AD$,$BE$,$CF$ 交于三角形内一点 $O$(垂心).
 
 ### 解答 习题十六
 
@@ -388,9 +388,9 @@ $$
 1+3+5+\cdots+\left(2n-1\right)=n^2.
 $$
 
-这是对任意正整数 $n$ 都成立的规律, 写成全称量词命题为: $\forall n\in\mathbb N_+$, $1+3+5+\cdots+\left(2n-1\right)=n^2$.
+这是对任意正整数 $n$ 都成立的规律, 写成全称量词命题为: $\forall{n}\in\mathbb{N}_+$, $1+3+5+\cdots+\left(2n-1\right)=n^2$.
 
-(2) 这是对任意三角形都成立的事实 (三角形的三条高所在直线交于一点, 即垂心), 写成全称量词命题为: $\forall\triangle ABC$, 其三条边 $BC$, $AC$, $AB$ 上的高 $AD$, $BE$, $CF$ 所在的直线交于一点. $\blacksquare$
+(2) 这是对任意三角形都成立的事实 (三角形的三条高所在直线交于一点, 即垂心), 写成全称量词命题为: $\forall\triangle{A}BC$, 其三条边 $BC$, $AC$, $AB$ 上的高 $AD$, $BE$, $CF$ 所在的直线交于一点. $\blacksquare$
 
 ## 习题十七
 
@@ -400,37 +400,37 @@ $$
 
 由**基本事实 2.1.1** (实数大小关系), $B$ 型号帐篷为 $x+5$ 顶, 逐句把限制写成不等式.
 
-只选 $A$ 型号: 每顶住 $4$ 人不够, 即 $4x< 48$; 每顶住 $5$ 人有一顶没住满, 即 $5x> 48$ 且其余帐篷都住满, $5\left(x-1\right)< 48$.
+只选 $A$ 型号: 每顶住 $4$ 人不够, 即 $4x<48$; 每顶住 $5$ 人有一顶没住满, 即 $5x>48$ 且其余帐篷都住满, $5\left(x-1\right)<48$.
 
-只选 $B$ 型号: 每顶住 $3$ 人不够, 即 $3\left(x+5\right)< 48$; 每顶住 $4$ 人有多余, 即 $4\left(x+5\right)> 48$.
+只选 $B$ 型号: 每顶住 $3$ 人不够, 即 $3\left(x+5\right)<48$; 每顶住 $4$ 人有多余, 即 $4\left(x+5\right)>48$.
 
 故所求不等式组为
 
 $$
-\left\{\begin{array}{l}4x< 48,\\5x> 48,\\5\left(x-1\right)< 48,\\3\left(x+5\right)< 48,\\4\left(x+5\right)> 48.\end{array}\right.
+\left\{\begin{array}{l}4x<48,\\5x>48,\\5\left(x-1\right)<48,\\3\left(x+5\right)<48,\\4\left(x+5\right)>48.\end{array}\right.
 $$
 
 $\blacksquare$
 
 ## 习题十八
 
-(复习参考题2 复习巩固第 2 题) 用不等号 "$> $" 或 "$< $" 填空.
+(复习参考题2 复习巩固第 2 题) 用不等号 "$>$" 或 "$<$" 填空.
 
-(1) 若 $a> b$, 且 $\frac{1}{a}> \frac{1}{b}$, 则 $ab\;\_\_\;0$;
+(1) 若 $a>{}b$, 且 $\frac{1}{a}>\frac{1}{b}$, 则 $ab\;\_\_\;0$;
 
-(2) 若 $c> a> b> 0$, 则 $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
+(2) 若 $c>{}a>{}b>0$, 则 $\frac{a}{c-a}\;\_\_\;\frac{b}{c-b}$;
 
-(3) 若 $a> b> c> 0$, 则 $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
+(3) 若 $a>{}b>{}c>0$, 则 $\frac{a}{b}\;\_\_\;\frac{a+c}{b+c}$.
 
 ### 解答 习题十八
 
 由**基本事实 2.1.1** (实数大小关系), 作差比较.
 
-(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}> 0$. 由 $a> b$ 得 $b-a< 0$, 故须 $ab< 0$ 才能使商为正. 故填 $< $.
+(1) $\frac{1}{a}-\frac{1}{b}=\frac{b-a}{ab}>0$. 由 $a>{}b$ 得 $b-a<0$, 故须 $ab<0$ 才能使商为正. 故填 $<$.
 
-(2) 作差: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. 由 $c> a> b> 0$ 知分子 $c\left(a-b\right)> 0$, 分母 $\left(c-a\right)\left(c-b\right)> 0$, 故差为正, 填 $> $.
+(2) 作差: $\frac{a}{c-a}-\frac{b}{c-b}=\frac{a\left(c-b\right)-b\left(c-a\right)}{\left(c-a\right)\left(c-b\right)}=\frac{c\left(a-b\right)}{\left(c-a\right)\left(c-b\right)}$. 由 $c>{}a>{}b>0$ 知分子 $c\left(a-b\right)>0$, 分母 $\left(c-a\right)\left(c-b\right)>0$, 故差为正, 填 $>$.
 
-(3) 作差: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}> 0$, 故填 $> $. $\blacksquare$
+(3) 作差: $\frac{a}{b}-\frac{a+c}{b+c}=\frac{a\left(b+c\right)-b\left(a+c\right)}{b\left(b+c\right)}=\frac{c\left(a-b\right)}{b\left(b+c\right)}>0$, 故填 $>$. $\blacksquare$
 
 ## 习题十九
 
@@ -444,7 +444,7 @@ $\blacksquare$
 
 由**常用结论 2.2.2** (积定和最小, 和定积最大), 设扇形半径为 $R$, 弧长为 $l$. 扇形面积为 $\frac{1}{2}Rl$, 周长为 $2R+l$.
 
-(1) 面积 $S=\frac{1}{2}Rl$ 为定值, 即 $Rl=2S$. 周长 $2R+l\ge2\sqrt{2Rl}=2\sqrt{4S}=4\sqrt S$, 当且仅当 $2R=l$ 时等号成立. 此时 $Rl=2R^2=2S$, 得 $R=\sqrt S$. 故半径为 $\sqrt S$ 时周长最小.
+(1) 面积 $S=\frac{1}{2}Rl$ 为定值, 即 $Rl=2S$. 周长 $2R+l\ge2\sqrt{2Rl}=2\sqrt{4S}=4\sqrt{S}$, 当且仅当 $2R=l$ 时等号成立. 此时 $Rl=2R^2=2S$, 得 $R=\sqrt{S}$. 故半径为 $\sqrt{S}$ 时周长最小.
 
 (2) 周长 $P=2R+l$ 为定值. 令 $u=2R$, 则 $u+l=P$, 面积 $\frac{1}{2}Rl=\frac{1}{4}ul\le\frac{1}{4}\cdot\left(\frac{u+l}{2}\right)^2=\frac{P^2}{16}$, 当且仅当 $u=l$ 时等号成立. 此时 $2R=l=\frac{P}{2}$, 得 $R=\frac{P}{4}$. 故半径为 $\frac{P}{4}$ 时面积最大, 最大值为 $\frac{P^2}{16}$. $\blacksquare$
 
@@ -452,77 +452,77 @@ $\blacksquare$
 
 (复习参考题2 复习巩固第 4 题) 求下列不等式的解集.
 
-(1) $14-4x^2\ge x$;
+(1) $14-4x^2\ge{x}$;
 
 (2) $x^2-14x+45\le0$;
 
-(3) $x^2+6x+10> 0$;
+(3) $x^2+6x+10>0$;
 
-(4) $x\left(x+2\right)> x\left(3-x\right)+1$.
+(4) $x\left(x+2\right)>{}x\left(3-x\right)+1$.
 
 ### 解答 习题二十
 
 由**常用结论 2.3.3** (一元二次不等式的解集), 逐题求解.
 
-(1) 整理得 $4x^2+x-14\le0$. 方程 $4x^2+x-14=0$ 的根为 $x=-2,\frac{7}{4}$, 故解集为 $\left\{x\mid-2\le x\le\frac{7}{4}\right\}$.
+(1) 整理得 $4x^2+x-14\le0$. 方程 $4x^2+x-14=0$ 的根为 $x=-2,\frac{7}{4}$, 故解集为 $\left\{x\mid-2\le{x}\le\frac{7}{4}\right\}$.
 
-(2) $\left(x-5\right)\left(x-9\right)\le0$, 根为 $x=5,9$, 故解集为 $\left\{x\mid5\le x\le9\right\}$.
+(2) $\left(x-5\right)\left(x-9\right)\le0$, 根为 $x=5,9$, 故解集为 $\left\{x\mid5\le{x}\le9\right\}$.
 
-(3) $\Delta=36-40=-4< 0$, 开口向上, 故解集为 $\mathbb R$.
+(3) $\Delta=36-40=-4<0$, 开口向上, 故解集为 $\mathbb{R}$.
 
-(4) 展开整理得 $2x^2-x-1> 0$, 即 $\left(2x+1\right)\left(x-1\right)> 0$, 根为 $x=-\frac{1}{2},1$, 故解集为 $\left\{x\mid x< -\frac{1}{2}$ 或 $x> 1\right\}$. $\blacksquare$
+(4) 展开整理得 $2x^2-x-1>0$, 即 $\left(2x+1\right)\left(x-1\right)>0$, 根为 $x=-\frac{1}{2},1$, 故解集为 $\left\{x\mid{x}<-\frac{1}{2}$ 或 $x>1\right\}$. $\blacksquare$
 
 ## 习题二十一
 
-(复习参考题2 综合运用第 5 题) 若 $a,b> 0$, 且 $ab=a+b+3$, 求 $ab$ 的取值范围.
+(复习参考题2 综合运用第 5 题) 若 $a,b>0$, 且 $ab=a+b+3$, 求 $ab$ 的取值范围.
 
 ### 解答 习题二十一
 
 由**定理 2.2.1 (基本不等式)**, $a+b\ge2\sqrt{ab}$.
 
-由 $ab=a+b+3$, 得 $ab\ge2\sqrt{ab}+3$. 令 $t=\sqrt{ab}> 0$, 则
+由 $ab=a+b+3$, 得 $ab\ge2\sqrt{ab}+3$. 令 $t=\sqrt{ab}>0$, 则
 
 $$
 t^2\ge2t+3,
 $$
 
-即 $\left(t-3\right)\left(t+1\right)\ge0$. 因 $t> 0$, 故 $t\ge3$, 从而 $ab=t^2\ge9$. 当且仅当 $a=b=3$ 时取等号. 故 $ab$ 的取值范围为 $\left\{x\mid x\ge9\right\}$. $\blacksquare$
+即 $\left(t-3\right)\left(t+1\right)\ge0$. 因 $t>0$, 故 $t\ge3$, 从而 $ab=t^2\ge9$. 当且仅当 $a=b=3$ 时取等号. 故 $ab$ 的取值范围为 $\left\{x\mid{x}\ge9\right\}$. $\blacksquare$
 
 ## 习题二十二
 
-(复习参考题2 综合运用第 6 题) 当 $k$ 取什么值时, 一元二次不等式 $2kx^2+kx-\frac{3}{8}< 0$ 对一切实数 $x$ 都成立?
+(复习参考题2 综合运用第 6 题) 当 $k$ 取什么值时, 一元二次不等式 $2kx^2+kx-\frac{3}{8}<0$ 对一切实数 $x$ 都成立?
 
 ### 解答 习题二十二
 
-由**常用结论 2.3.3** (一元二次不等式的解集), $ax^2+bx+c< 0$ 对一切实数成立, 须开口向下 ($a< 0$) 且无实根 ($\Delta< 0$).
+由**常用结论 2.3.3** (一元二次不等式的解集), $ax^2+bx+c<0$ 对一切实数成立, 须开口向下 ($a<0$) 且无实根 ($\Delta<0$).
 
-首先 $2k< 0$, 即 $k< 0$.
+首先 $2k<0$, 即 $k<0$.
 
-再要求 $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k< 0$, 即 $k\left(k+3\right)< 0$, 解得 $-3< k< 0$.
+再要求 $\Delta=k^2-4\cdot2k\cdot\left(-\frac{3}{8}\right)=k^2+3k<0$, 即 $k\left(k+3\right)<0$, 解得 $-3<{}k<0$.
 
-与 $k< 0$ 取交集, 得 $-3< k< 0$. 故当 $-3< k< 0$ 时, 该不等式对一切实数 $x$ 都成立. $\blacksquare$
+与 $k<0$ 取交集, 得 $-3<{}k<0$. 故当 $-3<{}k<0$ 时, 该不等式对一切实数 $x$ 都成立. $\blacksquare$
 
 ## 习题二十三
 
 (复习参考题2 综合运用第 7 题) 一般认为, 民用住宅的窗户面积必须小于地板面积, 但窗户面积与地板面积的比应不小于 $10\%$, 而且这个比值越大, 采光效果越好.
 
-(1) 若一所公寓窗户面积与地板面积的总和为 $220\ \mathrm m^2$, 则这所公寓的窗户面积至少为多少平方米?
+(1) 若一所公寓窗户面积与地板面积的总和为 $220\,\mathrm{m}^2$, 则这所公寓的窗户面积至少为多少平方米?
 
 (2) 若同时增加相同的窗户面积和地板面积, 公寓的采光效果是变好了还是变坏了?
 
 ### 解答 习题二十三
 
-设窗户面积为 $w$, 地板面积为 $f$, 则 $w< f$ 且 $\frac{w}{f}\ge0.1$.
+设窗户面积为 $w$, 地板面积为 $f$, 则 $w<{}f$ 且 $\frac{w}{f}\ge0.1$.
 
-(1) 由 $w+f=220$, 即 $f=220-w$. 由 $\frac{w}{f}\ge0.1$, 得 $w\ge0.1\left(220-w\right)$, 即 $1.1w\ge22$, 故 $w\ge20$. 故窗户面积至少为 $20\ \mathrm m^2$.
+(1) 由 $w+f=220$, 即 $f=220-w$. 由 $\frac{w}{f}\ge0.1$, 得 $w\ge0.1\left(220-w\right)$, 即 $1.1w\ge22$, 故 $w\ge20$. 故窗户面积至少为 $20\,\mathrm{m}^2$.
 
-(2) 设窗户与地板同时增加面积 $m> 0$. 由**基本事实 2.1.1** (实数大小关系), 比较新比值与原比值:
+(2) 设窗户与地板同时增加面积 $m>0$. 由**基本事实 2.1.1** (实数大小关系), 比较新比值与原比值:
 
 $$
 \frac{w+m}{f+m}-\frac{w}{f}=\frac{f\left(w+m\right)-w\left(f+m\right)}{f\left(f+m\right)}=\frac{m\left(f-w\right)}{f\left(f+m\right)}.
 $$
 
-由 $f> w$ 知分子为正, 故差为正, 即新比值变大. 故同时增加相同面积后, 采光效果变好. $\blacksquare$
+由 $f>{}w$ 知分子为正, 故差为正, 即新比值变大. 故同时增加相同面积后, 采光效果变好. $\blacksquare$
 
 ## 习题二十四
 
@@ -532,14 +532,14 @@ $$
 
 由**性质 2.1.5** (可加性), **性质 2.1.6** (可乘性) 与**基本事实 2.1.1** (实数大小关系), 类比列出并判断.
 
-(1) 若 $x=y$, 则 $x+z=y+z$; 对应 若 $x> y$, 则 $x+z> y+z$. 正确, 即**性质 2.1.5** (可加性).
+(1) 若 $x=y$, 则 $x+z=y+z$; 对应 若 $x>{}y$, 则 $x+z>{}y+z$. 正确, 即**性质 2.1.5** (可加性).
 
-(2) 若 $x=y$, 则 $xz=yz$; 对应 若 $x> y$, 则 $xz> yz$. 错误, 当 $z< 0$ 时不等号反向.
+(2) 若 $x=y$, 则 $xz=yz$; 对应 若 $x>{}y$, 则 $xz>{}yz$. 错误, 当 $z<0$ 时不等号反向.
 
-(3) 若 $x=y$, 则 $x^3=y^3$; 对应 若 $x> y$, 则 $x^3> y^3$. 正确, 因 $x^3-y^3=\left(x-y\right)\left(x^2+xy+y^2\right)> 0$.
+(3) 若 $x=y$, 则 $x^3=y^3$; 对应 若 $x>{}y$, 则 $x^3>{}y^3$. 正确, 因 $x^3-y^3=\left(x-y\right)\left(x^2+xy+y^2\right)>0$.
 
-(4) 若 $x=y$, 则 $x^2=y^2$; 对应 若 $x> y$, 则 $x^2> y^2$. 错误, 如 $1> -2$ 但 $1< 4$, 须两数同号才成立.
+(4) 若 $x=y$, 则 $x^2=y^2$; 对应 若 $x>{}y$, 则 $x^2>{}y^2$. 错误, 如 $1>-2$ 但 $1<4$, 须两数同号才成立.
 
-(5) 若 $x=y$, $z\neq0$, 则 $\frac{x}{z}=\frac{y}{z}$; 对应 若 $x> y$, 则 $\frac{x}{z}> \frac{y}{z}$. 当 $z> 0$ 时正确, 当 $z< 0$ 时错误.
+(5) 若 $x=y$, $z\neq0$, 则 $\frac{x}{z}=\frac{y}{z}$; 对应 若 $x>{}y$, 则 $\frac{x}{z}>\frac{y}{z}$. 当 $z>0$ 时正确, 当 $z<0$ 时错误.
 
 可见, 与加法类比的命题多正确; 与乘除类比时, 乘除数为负会使不等号反向, 须附加条件. $\blacksquare$

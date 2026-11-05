@@ -56,11 +56,11 @@
 
 (习题 8.4 复习巩固第 1 题) 画出满足下列条件的图形:
 
-(1) $a\subset\alpha$, $b\subset\alpha$, $a\cap b=A$, $c\cap\alpha=A$;
+(1) $a\subset\alpha$, $b\subset\alpha$, $a\cap{b}=A$, $c\cap\alpha=A$;
 
-(2) $\alpha\cap\beta=l$, $AB\subset\alpha$, $CD\subset\beta$, $AB\parallel l$, $CD\parallel l$.
+(2) $\alpha\cap\beta=l$, $AB\subset\alpha$, $CD\subset\beta$, $AB\parallel{l}$, $CD\parallel{l}$.
 
-(题图: 左右两幅图, 左图画平面 $\alpha$ 内两条相交直线 $a,b$ 交于 $A$, 过 $A$ 画出平面的直线 $c$; 右图画两个相交平面 $\alpha,\beta$, 交线为 $l$, 在 $\alpha$ 内画 $AB\parallel l$, 在 $\beta$ 内画 $CD\parallel l$.)
+(题图: 左右两幅图, 左图画平面 $\alpha$ 内两条相交直线 $a,b$ 交于 $A$, 过 $A$ 画出平面的直线 $c$; 右图画两个相交平面 $\alpha,\beta$, 交线为 $l$, 在 $\alpha$ 内画 $AB\parallel{l}$, 在 $\beta$ 内画 $CD\parallel{l}$.)
 
 ### 解答 习题一
 
@@ -68,7 +68,7 @@
 
 (1) 画平行四边形表示平面 $\alpha$, 在 $\alpha$ 内画两条相交直线 $a$, $b$, 交点为 $A$; 过 $A$ 画一条直线 $c$ 穿出平面 $\alpha$, 使 $c$ 与 $\alpha$ 仅交于 $A$.
 
-(2) 画两个相交平面 $\alpha$, $\beta$, 交线为 $l$; 在 $\alpha$ 内画直线 $AB\parallel l$, 在 $\beta$ 内画直线 $CD\parallel l$. $\blacksquare$
+(2) 画两个相交平面 $\alpha$, $\beta$, 交线为 $l$; 在 $\alpha$ 内画直线 $AB\parallel{l}$, 在 $\beta$ 内画直线 $CD\parallel{l}$. $\blacksquare$
 
 ## 习题二
 
@@ -92,7 +92,7 @@
 
 ## 习题三
 
-(习题 8.4 复习巩固第 3 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(习题 8.4 复习巩固第 3 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 两两相交且不共点的三条直线确定一个平面.
 
@@ -138,7 +138,7 @@
 
 由**定义 8.4.10 (平面与平面的位置关系)**, 正方体有三组互相平行的面.
 
-正方体有上, 下两个互相平行的面, 左, 右两个互相平行的面, 前, 后两个互相平行的面. 每组平行平面将空间分成 $3$ 部分, 三组互相垂直的平行平面将空间分成 $3\times 3\times 3=27$ 部分.
+正方体有上, 下两个互相平行的面, 左, 右两个互相平行的面, 前, 后两个互相平行的面. 每组平行平面将空间分成 $3$ 部分, 三组互相垂直的平行平面将空间分成 $3\times3\times3=27$ 部分.
 
 故正方体各面所在平面将空间分成 $27$ 部分. $\blacksquare$
 
@@ -150,9 +150,9 @@
 
 由**推论 8.4.7 (推论 3)** 及**基本事实 8.4.3** (基本事实 2).
 
-设直线 $a\parallel b$, 直线 $l$ 与 $a$ 交于 $A$, 与 $b$ 交于 $B$.
+设直线 $a\parallel{b}$, 直线 $l$ 与 $a$ 交于 $A$, 与 $b$ 交于 $B$.
 
-由**推论 8.4.7 (推论 3)**, 两条平行直线 $a$, $b$ 确定一个平面, 记为 $\alpha$. 因为 $A\in a\subset\alpha$, $B\in b\subset\alpha$, 所以 $A\in\alpha$, $B\in\alpha$.
+由**推论 8.4.7 (推论 3)**, 两条平行直线 $a$, $b$ 确定一个平面, 记为 $\alpha$. 因为 $A\in{a}\subset\alpha$, $B\in{b}\subset\alpha$, 所以 $A\in\alpha$, $B\in\alpha$.
 
 由**基本事实 8.4.3** (基本事实 2), 直线 $l$ 上有两点 $A$, $B$ 在平面 $\alpha$ 内, 故 $l\subset\alpha$.
 
@@ -174,7 +174,7 @@
 
 ## 习题八
 
-(习题 8.4 综合运用第 8 题) 如图, $\triangle ABC$ 在平面 $\alpha$ 外, $AB\cap\alpha=P$, $BC\cap\alpha=Q$, $AC\cap\alpha=R$, 求证: $P$, $Q$, $R$ 三点共线.
+(习题 8.4 综合运用第 8 题) 如图, $\triangle{A}BC$ 在平面 $\alpha$ 外, $AB\cap\alpha=P$, $BC\cap\alpha=Q$, $AC\cap\alpha=R$, 求证: $P$, $Q$, $R$ 三点共线.
 
 (题图: 一个平行四边形表示平面 $\alpha$, 平面上方有三角形 $ABC$, 边 $AB,BC,AC$ 分别穿过平面 $\alpha$ 交于 $P,Q,R$.)
 
@@ -182,9 +182,9 @@
 
 由**基本事实 8.4.4** (基本事实 3), 两个平面的公共点在它们的交线上.
 
-因为 $P\in AB$, $AB\subset$ 平面 $ABC$, 所以 $P\in$ 平面 $ABC$. 又 $P\in\alpha$, 故 $P$ 是平面 $ABC$ 与平面 $\alpha$ 的公共点.
+因为 $P\in{A}B$, $AB\subset$ 平面 $ABC$, 所以 $P\in$ 平面 $ABC$. 又 $P\in\alpha$, 故 $P$ 是平面 $ABC$ 与平面 $\alpha$ 的公共点.
 
-同理, $Q\in BC\subset$ 平面 $ABC$ 且 $Q\in\alpha$, 故 $Q$ 也是平面 $ABC$ 与平面 $\alpha$ 的公共点; $R\in AC\subset$ 平面 $ABC$ 且 $R\in\alpha$, 故 $R$ 也是平面 $ABC$ 与平面 $\alpha$ 的公共点.
+同理, $Q\in{B}C\subset$ 平面 $ABC$ 且 $Q\in\alpha$, 故 $Q$ 也是平面 $ABC$ 与平面 $\alpha$ 的公共点; $R\in{A}C\subset$ 平面 $ABC$ 且 $R\in\alpha$, 故 $R$ 也是平面 $ABC$ 与平面 $\alpha$ 的公共点.
 
 由**基本事实 8.4.4** (基本事实 3), 平面 $ABC$ 与平面 $\alpha$ 有且只有一条过它们公共点的交线 $l$. 故 $P$, $Q$, $R$ 都在交线 $l$ 上, 三点共线. $\blacksquare$
 
@@ -238,7 +238,7 @@
 
 ## 练习三
 
-(练习 8.5 第 3 题) 如图, $AA'$, $BB'$, $CC'$ 不共面, 且 $AA'=\ BB'$, $BB'=\ CC'$. 求证: $\triangle ABC\cong\triangle A'B'C'$.
+(练习 8.5 第 3 题) 如图, $AA'$, $BB'$, $CC'$ 不共面, 且 $AA'=\,BB'$, $BB'=\,CC'$. 求证: $\triangle{A}BC\cong\triangle{A}'B'C'$.
 
 (题图: 两个三角形 $ABC$ 与 $A'B'C'$, 对应顶点连线 $AA'$, $BB'$, $CC'$ 平行且相等.)
 
@@ -246,15 +246,15 @@
 
 由**基本事实 8.5.1** (基本事实 4) 及**定理 8.5.2 (等角定理)**.
 
-由 $AA'=\ BB'$, 四边形 $ABB'A'$ 是平行四边形, 故 $AB\parallel A'B'$ 且 $AB=A'B'$. 同理, 由 $BB'=\ CC'$, $BC\parallel B'C'$ 且 $BC=B'C'$.
+由 $AA'=\,BB'$, 四边形 $ABB'A'$ 是平行四边形, 故 $AB\parallel{A}'B'$ 且 $AB=A'B'$. 同理, 由 $BB'=\,CC'$, $BC\parallel{B}'C'$ 且 $BC=B'C'$.
 
-由**定理 8.5.2 (等角定理)**, $\angle ABC$ 与 $\angle A'B'C'$ 的两边分别对应平行且方向相同, 故 $\angle ABC=\angle A'B'C'$.
+由**定理 8.5.2 (等角定理)**, $\angle{A}BC$ 与 $\angle{A}'B'C'$ 的两边分别对应平行且方向相同, 故 $\angle{A}BC=\angle{A}'B'C'$.
 
-在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中, $AB=A'B'$, $BC=B'C'$, $\angle ABC=\angle A'B'C'$, 故 $\triangle ABC\cong\triangle A'B'C'$. $\blacksquare$
+在 $\triangle{A}BC$ 与 $\triangle{A}'B'C'$ 中, $AB=A'B'$, $BC=B'C'$, $\angle{A}BC=\angle{A}'B'C'$, 故 $\triangle{A}BC\cong\triangle{A}'B'C'$. $\blacksquare$
 
 ## 练习四
 
-(练习 8.5 第 4 题) 如图, 在四面体 $A\text{-}BCD$ 中, $E$, $F$, $G$ 分别为 $AB$, $AC$, $AD$ 上的点. 若 $EF\parallel BC$, $FG\parallel CD$, 则 $\triangle EFG$ 和 $\triangle BCD$ 有什么关系? 为什么?
+(练习 8.5 第 4 题) 如图, 在四面体 $A\text{-}BCD$ 中, $E$, $F$, $G$ 分别为 $AB$, $AC$, $AD$ 上的点. 若 $EF\parallel{B}C$, $FG\parallel{C}D$, 则 $\triangle{E}FG$ 和 $\triangle{B}CD$ 有什么关系? 为什么?
 
 (题图: 四面体 $A\text{-}BCD$, $E$ 在 $AB$ 上, $F$ 在 $AC$ 上, $G$ 在 $AD$ 上, 连接 $EF$, $FG$, $EG$.)
 
@@ -262,11 +262,11 @@
 
 由**定理 8.5.2 (等角定理)** 及平行线分线段成比例.
 
-由 $EF\parallel BC$, $FG\parallel CD$, 两边对应平行且方向相同, 故 $\angle EFG=\angle BCD$.
+由 $EF\parallel{B}C$, $FG\parallel{C}D$, 两边对应平行且方向相同, 故 $\angle{E}FG=\angle{B}CD$.
 
-又由 $EF\parallel BC$, $\frac{EF}{BC}=\frac{AF}{AC}$; 由 $FG\parallel CD$, $\frac{FG}{CD}=\frac{AF}{AC}$. 故 $\frac{EF}{BC}=\frac{FG}{CD}$.
+又由 $EF\parallel{B}C$, $\frac{EF}{BC}=\frac{AF}{AC}$; 由 $FG\parallel{C}D$, $\frac{FG}{CD}=\frac{AF}{AC}$. 故 $\frac{EF}{BC}=\frac{FG}{CD}$.
 
-由两边对应成比例且夹角相等, $\triangle EFG\sim\triangle BCD$. $\blacksquare$
+由两边对应成比例且夹角相等, $\triangle{E}FG\sim\triangle{B}CD$. $\blacksquare$
 
 ## 练习五
 
@@ -284,11 +284,11 @@
 
 由**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-(1) $AB\parallel A'B'\subset$ 平面 $A'B'C'D'$, 且 $AB\parallel DC\subset$ 平面 $D'DC'C$, 故与 $AB$ 平行的平面是平面 $A'B'C'D'$ 和平面 $D'DC'C$.
+(1) $AB\parallel{A}'B'\subset$ 平面 $A'B'C'D'$, 且 $AB\parallel{D}C\subset$ 平面 $D'DC'C$, 故与 $AB$ 平行的平面是平面 $A'B'C'D'$ 和平面 $D'DC'C$.
 
-(2) $AA'\parallel BB'\subset$ 平面 $B'BCC'$, $AA'\parallel DD'\subset$ 平面 $D'DC'C$, 故与 $AA'$ 平行的平面是平面 $B'BCC'$ 和平面 $D'DC'C$.
+(2) $AA'\parallel{B}B'\subset$ 平面 $B'BCC'$, $AA'\parallel{D}D'\subset$ 平面 $D'DC'C$, 故与 $AA'$ 平行的平面是平面 $B'BCC'$ 和平面 $D'DC'C$.
 
-(3) $AD\parallel A'D'\subset$ 平面 $A'B'C'D'$, $AD\parallel BC\subset$ 平面 $B'BCC'$, 故与 $AD$ 平行的平面是平面 $A'B'C'D'$ 和平面 $B'BCC'$. $\blacksquare$
+(3) $AD\parallel{A}'D'\subset$ 平面 $A'B'C'D'$, $AD\parallel{B}C\subset$ 平面 $B'BCC'$, 故与 $AD$ 平行的平面是平面 $A'B'C'D'$ 和平面 $B'BCC'$. $\blacksquare$
 
 ## 练习六
 
@@ -300,7 +300,7 @@
 
 由**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-在长方体中, $AB\parallel DC$. 又 $DC\subset$ 平面 $DCC'D'$, $AB\not\subset$ 平面 $DCC'D'$.
+在长方体中, $AB\parallel{D}C$. 又 $DC\subset$ 平面 $DCC'D'$, $AB\not\subset$ 平面 $DCC'D'$.
 
 由**定理 8.5.3 (直线与平面平行的判定定理)**, 平面外直线 $AB$ 平行于平面内直线 $DC$, 故 $AB\parallel$ 平面 $DCC'D'$. $\blacksquare$
 
@@ -322,7 +322,7 @@
 
 由**定理 8.5.5 (平面与平面平行的判定定理)** 判断.
 
-(1) 错误. $m$, $n$ 必须相交才行; 若 $m\parallel n$, 两平面可能相交.
+(1) 错误. $m$, $n$ 必须相交才行; 若 $m\parallel{n}$, 两平面可能相交.
 
 (2) 正确. $\alpha$ 内两条不平行的直线即相交直线, 它们都平行于 $\beta$, 由**定理 8.5.5 (平面与平面平行的判定定理)**, $\alpha\parallel\beta$.
 
@@ -368,15 +368,15 @@
 
 由**定理 8.5.3 (直线与平面平行的判定定理)** 及**定理 8.5.5 (平面与平面平行的判定定理)**.
 
-$M$, $N$ 分别为 $A_{1}B_{1}$, $A_{1}D_{1}$ 的中点, 故 $MN\parallel B_{1}D_{1}$. 又 $B_{1}D_{1}\parallel BD$, 故 $MN\parallel BD$. 而 $BD\subset$ 平面 $DBEF$, $MN\not\subset$ 平面 $DBEF$, 故 $MN\parallel$ 平面 $DBEF$.
+$M$, $N$ 分别为 $A_{1}B_{1}$, $A_{1}D_{1}$ 的中点, 故 $MN\parallel{B}_{1}D_{1}$. 又 $B_{1}D_{1}\parallel{B}D$, 故 $MN\parallel{B}D$. 而 $BD\subset$ 平面 $DBEF$, $MN\not\subset$ 平面 $DBEF$, 故 $MN\parallel$ 平面 $DBEF$.
 
-同理, $AM\parallel DF$ (由中位线及正方体对称性), $DF\subset$ 平面 $DBEF$, $AM\not\subset$ 平面 $DBEF$, 故 $AM\parallel$ 平面 $DBEF$.
+同理, $AM\parallel{D}F$ (由中位线及正方体对称性), $DF\subset$ 平面 $DBEF$, $AM\not\subset$ 平面 $DBEF$, 故 $AM\parallel$ 平面 $DBEF$.
 
-又 $MN\cap AM=M$, 两条相交直线 $MN$, $AM$ 都在平面 $AMN$ 内且都平行于平面 $DBEF$. 由**定理 8.5.5 (平面与平面平行的判定定理)**, 平面 $AMN\parallel$ 平面 $DBEF$. $\blacksquare$
+又 $MN\cap{A}M=M$, 两条相交直线 $MN$, $AM$ 都在平面 $AMN$ 内且都平行于平面 $DBEF$. 由**定理 8.5.5 (平面与平面平行的判定定理)**, 平面 $AMN\parallel$ 平面 $DBEF$. $\blacksquare$
 
 ## 练习十
 
-(练习 8.5 第 4 题) 如图, 平面 $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel b$. 判断 $c$ 与 $a$, $c$ 与 $\alpha$ 的位置关系, 并说明理由.
+(练习 8.5 第 4 题) 如图, 平面 $\alpha\parallel\beta$, $\gamma\cap\alpha=a$, $\gamma\cap\beta=b$, $c\subset\beta$, $c\parallel{b}$. 判断 $c$ 与 $a$, $c$ 与 $\alpha$ 的位置关系, 并说明理由.
 
 (题图: 两个平行平面 $\alpha,\beta$ 被第三个平面 $\gamma$ 所截, 交线为 $a,b$; $c$ 在 $\beta$ 内且平行于 $b$.)
 
@@ -384,13 +384,13 @@ $M$, $N$ 分别为 $A_{1}B_{1}$, $A_{1}D_{1}$ 的中点, 故 $MN\parallel B_{1}D
 
 由**定理 8.5.6 (平面与平面平行的性质定理)** 及**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-因为 $\alpha\parallel\beta$, $\gamma$ 与它们分别交于 $a$, $b$, 由**定理 8.5.6 (平面与平面平行的性质定理)**, $a\parallel b$.
+因为 $\alpha\parallel\beta$, $\gamma$ 与它们分别交于 $a$, $b$, 由**定理 8.5.6 (平面与平面平行的性质定理)**, $a\parallel{b}$.
 
-又 $c\parallel b$, 由平行传递性, $c\parallel a$.
+又 $c\parallel{b}$, 由平行传递性, $c\parallel{a}$.
 
-因为 $c\parallel a$, $a\subset\alpha$, $c\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $c\parallel\alpha$.
+因为 $c\parallel{a}$, $a\subset\alpha$, $c\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $c\parallel\alpha$.
 
-故 $c\parallel a$, 且 $c\parallel\alpha$. $\blacksquare$
+故 $c\parallel{a}$, 且 $c\parallel\alpha$. $\blacksquare$
 
 ## 习题十一
 
@@ -410,11 +410,11 @@ $M$, $N$ 分别为 $A_{1}B_{1}$, $A_{1}D_{1}$ 的中点, 故 $MN\parallel B_{1}D
 
 (1) 直线 $a$ 不平行于平面 $\alpha$, 则 $a$ 在 $\alpha$ 内或与 $\alpha$ 相交, 两种情况都有公共点. 故选 (D).
 
-(2) $a\parallel\alpha$, $P\in\alpha$. 过 $a$ 和 $P$ 作平面, 该平面与 $\alpha$ 交于唯一一条直线 $b$, 由线面平行性质, $b\parallel a$. 这条直线唯一且在 $\alpha$ 内. 故选 (C). $\blacksquare$
+(2) $a\parallel\alpha$, $P\in\alpha$. 过 $a$ 和 $P$ 作平面, 该平面与 $\alpha$ 交于唯一一条直线 $b$, 由线面平行性质, $b\parallel{a}$. 这条直线唯一且在 $\alpha$ 内. 故选 (C). $\blacksquare$
 
 ## 习题十二
 
-(习题 8.5 复习巩固第 2 题) 已知平面 $\alpha$, $\beta$ 和直线 $a$, $b$, $c$, 且 $a\parallel b\parallel c$, $a\subset\alpha$, $b\subset\beta$, $c\subset\beta$, 则 $\alpha$ 与 $\beta$ 的位置关系是 $\;\_\_\;$.
+(习题 8.5 复习巩固第 2 题) 已知平面 $\alpha$, $\beta$ 和直线 $a$, $b$, $c$, 且 $a\parallel{b}\parallel{c}$, $a\subset\alpha$, $b\subset\beta$, $c\subset\beta$, 则 $\alpha$ 与 $\beta$ 的位置关系是 $\;\_\_\;$.
 
 ### 解答 习题十二
 
@@ -434,13 +434,13 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 由**定理 8.5.3 (直线与平面平行的判定定理)** 及平行线的作法.
 
-在平面 $A_{1}B_{1}C_{1}D_{1}$ 内, 过点 $P$ 作直线 $EF$, 使 $EF\parallel C_{1}D_{1}$, 分别交 $A_{1}D_{1}$, $B_{1}C_{1}$ 于 $E$, $F$.
+在平面 $A_{1}B_{1}C_{1}D_{1}$ 内, 过点 $P$ 作直线 $EF$, 使 $EF\parallel{C}_{1}D_{1}$, 分别交 $A_{1}D_{1}$, $B_{1}C_{1}$ 于 $E$, $F$.
 
-因为 $CD\parallel C_{1}D_{1}$, 所作 $EF\parallel C_{1}D_{1}$, 故 $EF\parallel CD$. 直线 $EF$ 即为所求. $\blacksquare$
+因为 $CD\parallel{C}_{1}D_{1}$, 所作 $EF\parallel{C}_{1}D_{1}$, 故 $EF\parallel{C}D$. 直线 $EF$ 即为所求. $\blacksquare$
 
 ## 习题十四
 
-(习题 8.5 复习巩固第 4 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, $E$, $F$ 分别是 $AB$, $BC$ 的中点, 求证 $EF\parallel A'C'$.
+(习题 8.5 复习巩固第 4 题) 如图, 在长方体 $ABCD\text{-}A'B'C'D'$ 中, $E$, $F$ 分别是 $AB$, $BC$ 的中点, 求证 $EF\parallel{A}'C'$.
 
 (题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E$ 为 $AB$ 中点, $F$ 为 $BC$ 中点.)
 
@@ -448,9 +448,9 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 由**基本事实 8.5.1** (基本事实 4).
 
-在 $\triangle ABC$ 中, $E$, $F$ 分别是 $AB$, $BC$ 的中点, 故 $EF$ 是中位线, $EF\parallel AC$.
+在 $\triangle{A}BC$ 中, $E$, $F$ 分别是 $AB$, $BC$ 的中点, 故 $EF$ 是中位线, $EF\parallel{A}C$.
 
-在长方体中, $AC\parallel A'C'$. 由**基本事实 8.5.1** (基本事实 4), $EF\parallel A'C'$. $\blacksquare$
+在长方体中, $AC\parallel{A}'C'$. 由**基本事实 8.5.1** (基本事实 4), $EF\parallel{A}'C'$. $\blacksquare$
 
 ## 习题十五
 
@@ -464,9 +464,9 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 由**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-(1) $F$, $G$ 分别是 $BC$, $CD$ 的中点, 在 $\triangle BCD$ 中, $FG\parallel BD$. 又 $FG\subset$ 平面 $EFG$, $BD\not\subset$ 平面 $EFG$. 由**定理 8.5.3 (直线与平面平行的判定定理)**, $BD\parallel$ 平面 $EFG$.
+(1) $F$, $G$ 分别是 $BC$, $CD$ 的中点, 在 $\triangle{B}CD$ 中, $FG\parallel{B}D$. 又 $FG\subset$ 平面 $EFG$, $BD\not\subset$ 平面 $EFG$. 由**定理 8.5.3 (直线与平面平行的判定定理)**, $BD\parallel$ 平面 $EFG$.
 
-(2) $E$, $F$ 分别是 $AB$, $BC$ 的中点, 在 $\triangle ABC$ 中, $EF\parallel AC$. 又 $EF\subset$ 平面 $EFG$, $AC\not\subset$ 平面 $EFG$. 由**定理 8.5.3 (直线与平面平行的判定定理)**, $AC\parallel$ 平面 $EFG$. $\blacksquare$
+(2) $E$, $F$ 分别是 $AB$, $BC$ 的中点, 在 $\triangle{A}BC$ 中, $EF\parallel{A}C$. 又 $EF\subset$ 平面 $EFG$, $AC\not\subset$ 平面 $EFG$. 由**定理 8.5.3 (直线与平面平行的判定定理)**, $AC\parallel$ 平面 $EFG$. $\blacksquare$
 
 ## 习题十六
 
@@ -478,13 +478,13 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 由**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-在直线 $a$ 上任取一点 $A$, 过 $A$ 作直线 $b'\parallel b$. 由**推论 8.4.6 (推论 2)**, 两条相交直线 $a$ 与 $b'$ 确定一个平面, 记为 $\alpha$, 则 $a\subset\alpha$.
+在直线 $a$ 上任取一点 $A$, 过 $A$ 作直线 $b'\parallel{b}$. 由**推论 8.4.6 (推论 2)**, 两条相交直线 $a$ 与 $b'$ 确定一个平面, 记为 $\alpha$, 则 $a\subset\alpha$.
 
-因为 $b\parallel b'$, $b'\subset\alpha$, $b\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $b\parallel\alpha$. 故平面 $\alpha$ 即为所求. $\blacksquare$
+因为 $b\parallel{b}'$, $b'\subset\alpha$, $b\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $b\parallel\alpha$. 故平面 $\alpha$ 即为所求. $\blacksquare$
 
 ## 习题十七
 
-(习题 8.5 复习巩固第 7 题) 如图, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$, 求证 $CD\parallel EF$.
+(习题 8.5 复习巩固第 7 题) 如图, $\alpha\cap\beta=CD$, $\alpha\cap\gamma=EF$, $\beta\cap\gamma=AB$, $AB\parallel\alpha$, 求证 $CD\parallel{E}F$.
 
 (题图: 三个平面 $\alpha,\beta,\gamma$ 两两相交, 交线分别为 $CD,EF,AB$.)
 
@@ -492,11 +492,11 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 由**定理 8.5.4 (直线与平面平行的性质定理)** 及**基本事实 8.5.1** (基本事实 4).
 
-因为 $AB\parallel\alpha$, $AB\subset\beta$, $\beta\cap\alpha=CD$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $AB\parallel CD$.
+因为 $AB\parallel\alpha$, $AB\subset\beta$, $\beta\cap\alpha=CD$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $AB\parallel{C}D$.
 
-又 $AB\subset\gamma$, $\gamma\cap\alpha=EF$, 同理, $AB\parallel EF$.
+又 $AB\subset\gamma$, $\gamma\cap\alpha=EF$, 同理, $AB\parallel{E}F$.
 
-由**基本事实 8.5.1** (基本事实 4), $CD\parallel EF$. $\blacksquare$
+由**基本事实 8.5.1** (基本事实 4), $CD\parallel{E}F$. $\blacksquare$
 
 ## 习题十八
 
@@ -508,17 +508,17 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 由**定理 8.5.5 (平面与平面平行的判定定理)**.
 
-在 $\triangle AOB$ 与 $\triangle A'OB'$ 中, $AO=A'O$, $BO=B'O$, $\angle AOB=\angle A'OB'$ (对顶角), 故 $\triangle AOB\cong\triangle A'OB'$. 于是 $\angle OAB=\angle OA'B'$, 故 $AB\parallel A'B'$.
+在 $\triangle{A}OB$ 与 $\triangle{A}'OB'$ 中, $AO=A'O$, $BO=B'O$, $\angle{A}OB=\angle{A}'OB'$ (对顶角), 故 $\triangle{A}OB\cong\triangle{A}'OB'$. 于是 $\angle{O}AB=\angle{O}A'B'$, 故 $AB\parallel{A}'B'$.
 
-同理, $AO=A'O$, $CO=C'O$, $\angle AOC=\angle A'OC'$, 得 $AC\parallel A'C'$.
+同理, $AO=A'O$, $CO=C'O$, $\angle{A}OC=\angle{A}'OC'$, 得 $AC\parallel{A}'C'$.
 
-因为 $AB\parallel A'B'$, $A'B'\subset$ 平面 $A'B'C'$, $AB\not\subset$ 平面 $A'B'C'$, 故 $AB\parallel$ 平面 $A'B'C'$. 同理 $AC\parallel$ 平面 $A'B'C'$.
+因为 $AB\parallel{A}'B'$, $A'B'\subset$ 平面 $A'B'C'$, $AB\not\subset$ 平面 $A'B'C'$, 故 $AB\parallel$ 平面 $A'B'C'$. 同理 $AC\parallel$ 平面 $A'B'C'$.
 
-又 $AB\cap AC=A$, 由**定理 8.5.5 (平面与平面平行的判定定理)**, 平面 $ABC\parallel$ 平面 $A'B'C'$. $\blacksquare$
+又 $AB\cap{A}C=A$, 由**定理 8.5.5 (平面与平面平行的判定定理)**, 平面 $ABC\parallel$ 平面 $A'B'C'$. $\blacksquare$
 
 ## 习题十九
 
-(习题 8.5 综合运用第 9 题) 如图, $E$, $E'$ 分别为长方体 $ABCD\text{-}A'B'C'D'$ 的棱 $AD$, $A'D'$ 的中点, 求证 $\angle BEC=\angle B'E'C'$.
+(习题 8.5 综合运用第 9 题) 如图, $E$, $E'$ 分别为长方体 $ABCD\text{-}A'B'C'D'$ 的棱 $AD$, $A'D'$ 的中点, 求证 $\angle{B}EC=\angle{B}'E'C'$.
 
 (题图: 长方体 $ABCD\text{-}A'B'C'D'$, $E$ 为 $AD$ 中点, $E'$ 为 $A'D'$ 中点.)
 
@@ -526,25 +526,25 @@ $b$, $c$ 是 $\beta$ 内两条平行直线, $a$ 在 $\alpha$ 内且与 $b$, $c$ 
 
 由**定理 8.5.2 (等角定理)**.
 
-在长方体中, $EE'\parallel AA'\parallel BB'\parallel CC'$, 且 $BE$ 与 $B'E'$ 方向对应平行, $CE$ 与 $C'E'$ 方向对应平行.
+在长方体中, $EE'\parallel{A}A'\parallel{B}B'\parallel{C}C'$, 且 $BE$ 与 $B'E'$ 方向对应平行, $CE$ 与 $C'E'$ 方向对应平行.
 
-$\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ 分别对应平行且方向相同.
+$\angle{B}EC$ 的两边 $EB$, $EC$ 与 $\angle{B}'E'C'$ 的两边 $E'B'$, $E'C'$ 分别对应平行且方向相同.
 
-由**定理 8.5.2 (等角定理)**, $\angle BEC=\angle B'E'C'$. $\blacksquare$
+由**定理 8.5.2 (等角定理)**, $\angle{B}EC=\angle{B}'E'C'$. $\blacksquare$
 
 ## 习题二十
 
-(习题 8.5 综合运用第 10 题) 如图, $AB\parallel\alpha$, $AC\parallel BD$, $C\in\alpha$, $D\in\alpha$, 求证 $AC=BD$.
+(习题 8.5 综合运用第 10 题) 如图, $AB\parallel\alpha$, $AC\parallel{B}D$, $C\in\alpha$, $D\in\alpha$, 求证 $AC=BD$.
 
-(题图: 平面 $\alpha$, $C,D\in\alpha$, $A,B$ 在 $\alpha$ 外, $AB\parallel\alpha$ 且 $AC\parallel BD$.)
+(题图: 平面 $\alpha$, $C,D\in\alpha$, $A,B$ 在 $\alpha$ 外, $AB\parallel\alpha$ 且 $AC\parallel{B}D$.)
 
 ### 解答 习题二十
 
 由**定理 8.5.4 (直线与平面平行的性质定理)**.
 
-因为 $C$, $D\in\alpha$, 所以直线 $CD\subset\alpha$. 又 $AB\parallel\alpha$, 过 $AB$ 与 $CD$ 的平面与 $\alpha$ 交于 $CD$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $AB\parallel CD$.
+因为 $C$, $D\in\alpha$, 所以直线 $CD\subset\alpha$. 又 $AB\parallel\alpha$, 过 $AB$ 与 $CD$ 的平面与 $\alpha$ 交于 $CD$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $AB\parallel{C}D$.
 
-又已知 $AC\parallel BD$, 故四边形 $ABDC$ 的两组对边分别平行, 是平行四边形.
+又已知 $AC\parallel{B}D$, 故四边形 $ABDC$ 的两组对边分别平行, 是平行四边形.
 
 因此 $AC=BD$. $\blacksquare$
 
@@ -556,11 +556,11 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 由**定理 8.5.4 (直线与平面平行的性质定理)** 及**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-设直线 $a\parallel b$, $a\parallel$ 平面 $\alpha$, 且 $a$, $b$ 都在 $\alpha$ 外.
+设直线 $a\parallel{b}$, $a\parallel$ 平面 $\alpha$, 且 $a$, $b$ 都在 $\alpha$ 外.
 
-过 $a$ 作平面 $\beta$, 使 $\beta\cap\alpha=c$. 因为 $a\parallel\alpha$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $a\parallel c$.
+过 $a$ 作平面 $\beta$, 使 $\beta\cap\alpha=c$. 因为 $a\parallel\alpha$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $a\parallel{c}$.
 
-又 $a\parallel b$, 由平行传递性, $b\parallel c$. 而 $c\subset\alpha$, $b\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $b\parallel\alpha$.
+又 $a\parallel{b}$, 由平行传递性, $b\parallel{c}$. 而 $c\subset\alpha$, $b\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $b\parallel\alpha$.
 
 故另一条直线 $b$ 也平行于平面 $\alpha$. $\blacksquare$
 
@@ -574,11 +574,11 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 由**定理 8.5.3 (直线与平面平行的判定定理)** 及**定理 8.5.4 (直线与平面平行的性质定理)**.
 
-在平面 $VAC$ 内过 $P$ 作直线 $EF\parallel AC$, 分别交 $VA$, $VC$ 于 $E$, $F$.
+在平面 $VAC$ 内过 $P$ 作直线 $EF\parallel{A}C$, 分别交 $VA$, $VC$ 于 $E$, $F$.
 
-在平面 $VAB$ 内过 $E$ 作直线 $EG\parallel VB$, 交 $AB$ 于 $G$. 在平面 $VBC$ 内过 $F$ 作直线 $FH\parallel VB$, 交 $BC$ 于 $H$. 连接 $GH$.
+在平面 $VAB$ 内过 $E$ 作直线 $EG\parallel{V}B$, 交 $AB$ 于 $G$. 在平面 $VBC$ 内过 $F$ 作直线 $FH\parallel{V}B$, 交 $BC$ 于 $H$. 连接 $GH$.
 
-则截面 $EFGH$ 即为所求: $EF\parallel AC$, $EG\parallel FH\parallel VB$. 沿 $EF$, $EG$, $GH$, $FH$ 画线锯开即可. $\blacksquare$
+则截面 $EFGH$ 即为所求: $EF\parallel{A}C$, $EG\parallel{F}H\parallel{V}B$. 沿 $EF$, $EG$, $GH$, $FH$ 画线锯开即可. $\blacksquare$
 
 ## 习题二十三
 
@@ -592,8 +592,8 @@ $\angle BEC$ 的两边 $EB$, $EC$ 与 $\angle B'E'C'$ 的两边 $E'B'$, $E'C'$ �
 
 连接 $AF$, 交平面 $\beta$ 于点 $G$. 平面 $ACF$ 与 $\beta$ 交于 $BG$, 与 $\gamma$ 交于 $CF$.
 
-因为 $\beta\parallel\gamma$, 由**定理 8.5.6 (平面与平面平行的性质定理)**, $BG\parallel CF$. 在 $\triangle ACF$ 中, $\frac{AB}{BC}=\frac{AG}{GF}$.
+因为 $\beta\parallel\gamma$, 由**定理 8.5.6 (平面与平面平行的性质定理)**, $BG\parallel{C}F$. 在 $\triangle{A}CF$ 中, $\frac{AB}{BC}=\frac{AG}{GF}$.
 
-同理, 平面 $ADF$ 与 $\beta$ 交于 $GE$, 与 $\alpha$ 交于 $AD$. 因为 $\alpha\parallel\beta$, $AD\parallel GE$. 在 $\triangle ADF$ 中, $\frac{DE}{EF}=\frac{AG}{GF}$.
+同理, 平面 $ADF$ 与 $\beta$ 交于 $GE$, 与 $\alpha$ 交于 $AD$. 因为 $\alpha\parallel\beta$, $AD\parallel{G}E$. 在 $\triangle{A}DF$ 中, $\frac{DE}{EF}=\frac{AG}{GF}$.
 
 故 $\frac{AB}{BC}=\frac{DE}{EF}$. $\blacksquare$

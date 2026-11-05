@@ -118,7 +118,7 @@ $$
 
 (1) $d=\frac{\left|3\cdot0+2\cdot0-26\right|}{\sqrt{3^2+2^2}}=\frac{26}{\sqrt{13}}=2\sqrt{13}$.
 
-(2) 直线 $x=y$ 即 $x-y=0$, $d=\frac{\left|0-0\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{0}{\sqrt 2}=0$. $\blacksquare$
+(2) 直线 $x=y$ 即 $x-y=0$, $d=\frac{\left|0-0\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{0}{\sqrt2}=0$. $\blacksquare$
 
 ## 练习六
 
@@ -126,7 +126,7 @@ $$
 
 (1) $A\left(-2,3\right)$, $l:3x+4y+3=0$;
 
-(2) $B\left(1,0\right)$, $l:\sqrt 3x+y-\sqrt 3=0$;
+(2) $B\left(1,0\right)$, $l:\sqrt3x+y-\sqrt3=0$;
 
 (3) $C\left(1,-2\right)$, $l:4x+3y=0$.
 
@@ -136,7 +136,7 @@ $$
 
 (1) $d=\frac{\left|3\cdot\left(-2\right)+4\cdot3+3\right|}{\sqrt{3^2+4^2}}=\frac{\left|-6+12+3\right|}{5}=\frac{9}{5}$.
 
-(2) $d=\frac{\left|\sqrt 3\cdot1+1\cdot0-\sqrt 3\right|}{\sqrt{\left(\sqrt 3\right)^2+1^2}}=\frac{\left|\sqrt 3-\sqrt 3\right|}{\sqrt 4}=\frac{0}{2}=0$.
+(2) $d=\frac{\left|\sqrt3\cdot1+1\cdot0-\sqrt3\right|}{\sqrt{\left(\sqrt3\right)^2+1^2}}=\frac{\left|\sqrt3-\sqrt3\right|}{\sqrt4}=\frac{0}{2}=0$.
 
 (3) $d=\frac{\left|4\cdot1+3\cdot\left(-2\right)\right|}{\sqrt{4^2+3^2}}=\frac{\left|4-6\right|}{5}=\frac{2}{5}$. $\blacksquare$
 
@@ -195,13 +195,13 @@ $$
 由**常用结论 2.3.4** (两条平行直线间的距离), 先求 $l_1$ 与 $l_2$ 间的距离.
 
 $$
-d_{12}=\frac{\left|1-4\right|}{\sqrt{1^2+\left(-2\right)^2}}=\frac{3}{\sqrt 5}.
+d_{12}=\frac{\left|1-4\right|}{\sqrt{1^2+\left(-2\right)^2}}=\frac{3}{\sqrt5}.
 $$
 
 点 $C$ 是 $AB$ 的靠近点 $A$ 的三等分点, 即 $AC=\frac{1}{3}AB$. $l_1$ 与 $l_3$ 间的距离为 $l_1$ 与 $l_2$ 间距离的 $\frac{1}{3}$, 即
 
 $$
-d_{13}=\frac{1}{3}d_{12}=\frac{1}{\sqrt 5}=\frac{\sqrt 5}{5}.
+d_{13}=\frac{1}{3}d_{12}=\frac{1}{\sqrt5}=\frac{\sqrt5}{5}.
 $$
 
 $\blacksquare$
@@ -228,7 +228,7 @@ $$
 
 两式相加, 得 $3x+7=1$, 即 $x=-2$. 代入第二式, 得 $y=3$. 有唯一解, 故相交, 交点为 $\left(-2,3\right)$.
 
-(2) $l_2:y=\frac{x+5}{3}$ 即 $x-3y+5=0$, 即 $x-3y-10=0$ 与 $l_1$ 比较: 由 $l_2$ 得 $x-3y=-5$, 而 $l_1$ 为 $x-3y=10$, 两方程矛盾, 无解. 故 $l_1\parallel l_2$.
+(2) $l_2:y=\frac{x+5}{3}$ 即 $x-3y+5=0$, 即 $x-3y-10=0$ 与 $l_1$ 比较: 由 $l_2$ 得 $x-3y=-5$, 而 $l_1$ 为 $x-3y=10$, 两方程矛盾, 无解. 故 $l_1\parallel{l}_2$.
 
 (3) $l_2:9x-15y+30=0$ 即 $3x-5y+10=0$, 与 $l_1$ 为同一方程, 故 $l_1$ 与 $l_2$ 重合. $\blacksquare$
 
@@ -271,7 +271,7 @@ $$
 由**常用结论 2.3.2** (两点间距离公式), 分别求三条线段的长度.
 
 $$
-\left|AB\right|=\sqrt{\left(2-1\right)^2+\left(0-2\right)^2}=\sqrt{1+4}=\sqrt 5,
+\left|AB\right|=\sqrt{\left(2-1\right)^2+\left(0-2\right)^2}=\sqrt{1+4}=\sqrt5,
 $$
 
 $$
@@ -279,14 +279,14 @@ $$
 $$
 
 $$
-\left|PQ\right|=\sqrt{\left(-1-0\right)^2+\left(1-3\right)^2}=\sqrt{1+4}=\sqrt 5.
+\left|PQ\right|=\sqrt{\left(-1-0\right)^2+\left(1-3\right)^2}=\sqrt{1+4}=\sqrt5.
 $$
 
-三条线段能围成三角形的条件是任意两边之和大于第三边. 因为 $\sqrt 5+\sqrt 5=2\sqrt 5< 5$, 不满足三角形不等式, 故三条线段不能围成一个三角形. $\blacksquare$
+三条线段能围成三角形的条件是任意两边之和大于第三边. 因为 $\sqrt5+\sqrt5=2\sqrt5<5$, 不满足三角形不等式, 故三条线段不能围成一个三角形. $\blacksquare$
 
 ## 习题四
 
-(习题 2.3 复习巩固第 4 题) 已知 $P\left(a,2\right)$, $Q\left(-2,-3\right)$, $M\left(1,1\right)$ 三点, 且 $\lvert PQ \rvert=\lvert PM \rvert$, 求 $a$ 的值.
+(习题 2.3 复习巩固第 4 题) 已知 $P\left(a,2\right)$, $Q\left(-2,-3\right)$, $M\left(1,1\right)$ 三点, 且 $\lvert{P}Q\rvert=\lvert{P}M\rvert$, 求 $a$ 的值.
 
 ### 解答 习题四
 
@@ -300,7 +300,7 @@ $$
 \left|PM\right|=\sqrt{\left(1-a\right)^2+\left(1-2\right)^2}=\sqrt{\left(a-1\right)^2+1}.
 $$
 
-由 $\lvert PQ \rvert=\lvert PM \rvert$, 得 $\left(a+2\right)^2+25=\left(a-1\right)^2+1$, 即 $a^2+4a+4+25=a^2-2a+1+1$, 即 $6a=-27$, 故 $a=-\frac{9}{2}$. $\blacksquare$
+由 $\lvert{P}Q\rvert=\lvert{P}M\rvert$, 得 $\left(a+2\right)^2+25=\left(a-1\right)^2+1$, 即 $a^2+4a+4+25=a^2-2a+1+1$, 即 $6a=-27$, 故 $a=-\frac{9}{2}$. $\blacksquare$
 
 ## 习题五
 
@@ -358,7 +358,7 @@ $\blacksquare$
 
 ## 习题八
 
-(习题 2.3 复习巩固第 8 题) $\square ABCD$ 的一组对边 $AB$ 和 $CD$ 所在直线的方程分别是 $6x+8y-3=0$ 与 $6x+8y+5=0$, 过 $\square ABCD$ 的两条对角线的交点作与 $AB$ 所在直线的平行线 $l$, 求 $l$ 与 $CD$ 所在直线的距离.
+(习题 2.3 复习巩固第 8 题) $\square{A}BCD$ 的一组对边 $AB$ 和 $CD$ 所在直线的方程分别是 $6x+8y-3=0$ 与 $6x+8y+5=0$, 过 $\square{A}BCD$ 的两条对角线的交点作与 $AB$ 所在直线的平行线 $l$, 求 $l$ 与 $CD$ 所在直线的距离.
 
 ### 解答 习题八
 
@@ -396,7 +396,7 @@ $$
 
 ## 习题十
 
-(习题 2.3 综合运用第 10 题) 已知 $\triangle ABC$ 的顶点 $A\left(5,1\right)$, 边 $AB$ 上的中线 $CM$ 所在直线方程为 $2x-y-5=0$, 边 $AC$ 上的高 $BH$ 所在直线方程为 $x-2y-5=0$. 求: (1) 顶点 $C$ 的坐标; (2) 直线 $BC$ 的方程.
+(习题 2.3 综合运用第 10 题) 已知 $\triangle{A}BC$ 的顶点 $A\left(5,1\right)$, 边 $AB$ 上的中线 $CM$ 所在直线方程为 $2x-y-5=0$, 边 $AC$ 上的高 $BH$ 所在直线方程为 $x-2y-5=0$. 求: (1) 顶点 $C$ 的坐标; (2) 直线 $BC$ 的方程.
 
 ### 解答 习题十
 
@@ -434,23 +434,23 @@ $$
 
 设点 $P$ 的坐标为 $\left(x,0\right)$.
 
-由**常用结论 2.3.2** (两点间距离公式), $\left|AB\right|=\sqrt{\left(3-1\right)^2+\left(4-2\right)^2}=\sqrt{8}=2\sqrt 2$.
+由**常用结论 2.3.2** (两点间距离公式), $\left|AB\right|=\sqrt{\left(3-1\right)^2+\left(4-2\right)^2}=\sqrt{8}=2\sqrt2$.
 
 直线 $AB$ 的方程: 由**常用结论 2.1.3**, $k_{AB}=\frac{4-2}{3-1}=1$. 由**定义 2.2.1 (点斜式方程)**, 得 $y-2=1\cdot\left(x-1\right)$, 即 $x-y+1=0$.
 
 点 $P\left(x,0\right)$ 到直线 $AB:x-y+1=0$ 的距离为
 
 $$
-d=\frac{\left|x-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\left|x+1\right|}{\sqrt 2}.
+d=\frac{\left|x-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\left|x+1\right|}{\sqrt2}.
 $$
 
-三角形面积为 $\frac{1}{2}\left|AB\right|d=\frac{1}{2}\cdot 2\sqrt 2\cdot\frac{\left|x+1\right|}{\sqrt 2}=\left|x+1\right|$.
+三角形面积为 $\frac{1}{2}\left|AB\right|d=\frac{1}{2}\cdot2\sqrt2\cdot\frac{\left|x+1\right|}{\sqrt2}=\left|x+1\right|$.
 
 令 $\left|x+1\right|=10$, 得 $x+1=10$ 或 $x+1=-10$, 即 $x=9$ 或 $x=-11$. 所求点为 $P\left(9,0\right)$ 或 $P\left(-11,0\right)$. $\blacksquare$
 
 ## 习题十二
 
-(习题 2.3 综合运用第 12 题) 已知 $AO$ 是 $\triangle ABC$ 边 $BC$ 的中线, 用坐标法证明 $\lvert AB \rvert^2+\lvert AC \rvert^2=2\left(\lvert AO \rvert^2+\lvert OC \rvert^2\right)$.
+(习题 2.3 综合运用第 12 题) 已知 $AO$ 是 $\triangle{A}BC$ 边 $BC$ 的中线, 用坐标法证明 $\lvert{A}B\rvert^2+\lvert{A}C\rvert^2=2\left(\lvert{A}O\rvert^2+\lvert{O}C\rvert^2\right)$.
 
 ### 解答 习题十二
 
@@ -484,7 +484,7 @@ $$
 
 ## 习题十三
 
-(习题 2.3 综合运用第 13 题) 已知点 $A\left(a,6\right)$ 到直线 $3x-4y=2$ 的距离 $d$ 分别为下列各值: (1) $d=4$; (2) $d> 4$, 求 $a$ 的取值范围.
+(习题 2.3 综合运用第 13 题) 已知点 $A\left(a,6\right)$ 到直线 $3x-4y=2$ 的距离 $d$ 分别为下列各值: (1) $d=4$; (2) $d>4$, 求 $a$ 的取值范围.
 
 ### 解答 习题十三
 
@@ -496,7 +496,7 @@ $$
 
 (1) 令 $d=4$, 即 $\frac{\left|3a-26\right|}{5}=4$, 故 $\left|3a-26\right|=20$, 即 $3a-26=20$ 或 $3a-26=-20$, 故 $a=\frac{46}{3}$ 或 $a=2$.
 
-(2) 令 $d> 4$, 即 $\frac{\left|3a-26\right|}{5}> 4$, 故 $\left|3a-26\right|> 20$, 即 $3a-26> 20$ 或 $3a-26< -20$, 即 $a> \frac{46}{3}$ 或 $a< 2$. $\blacksquare$
+(2) 令 $d>4$, 即 $\frac{\left|3a-26\right|}{5}>4$, 故 $\left|3a-26\right|>20$, 即 $3a-26>20$ 或 $3a-26<-20$, 即 $a>\frac{46}{3}$ 或 $a<2$. $\blacksquare$
 
 ## 习题十四
 
@@ -524,7 +524,7 @@ $$
 
 ## 习题十五
 
-(习题 2.3 综合运用第 15 题) $\square ABCD$ 的四条边所在直线的方程分别是 $l_1:x-4y+5=0$, $l_2:2x+y-8=0$, $l_3:x-4y+14=0$, $l_4:2x+y+1=0$, 求 $\square ABCD$ 的面积.
+(习题 2.3 综合运用第 15 题) $\square{A}BCD$ 的四条边所在直线的方程分别是 $l_1:x-4y+5=0$, $l_2:2x+y-8=0$, $l_3:x-4y+14=0$, $l_4:2x+y+1=0$, 求 $\square{A}BCD$ 的面积.
 
 ### 解答 习题十五
 
@@ -539,7 +539,7 @@ $$
 $l_2$ 与 $l_4$ 间的距离为
 
 $$
-d_2=\frac{\left|-8-1\right|}{\sqrt{2^2+1^2}}=\frac{9}{\sqrt 5}.
+d_2=\frac{\left|-8-1\right|}{\sqrt{2^2+1^2}}=\frac{9}{\sqrt5}.
 $$
 
 平行四边形的面积等于两组对边间距离的乘积除以夹角正弦的形式. 更直接地, 先求相邻两边的长度.
@@ -554,7 +554,7 @@ $$
 \sqrt{\left(3-\left(-1\right)\right)^2+\left(2-1\right)^2}=\sqrt{16+1}=\sqrt{17}.
 $$
 
-平行四边形面积为底乘高, 即 $\sqrt{17}\times\frac{9}{\sqrt 5}=\frac{9\sqrt{85}}{5}$. $\blacksquare$
+平行四边形面积为底乘高, 即 $\sqrt{17}\times\frac{9}{\sqrt5}=\frac{9\sqrt{85}}{5}$. $\blacksquare$
 
 ## 习题十六
 
@@ -576,9 +576,9 @@ $$
 
 ## 习题十七
 
-(习题 2.3 拓广探索第 17 题) 已知 $0< x< 1$, $0< y< 1$.
+(习题 2.3 拓广探索第 17 题) 已知 $0<{}x<1$, $0<{}y<1$.
 
-(1) 求证: $\sqrt{x^2+y^2}+\sqrt{x^2+\left(1-y\right)^2}+\sqrt{\left(1-x\right)^2+y^2}+\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}\ge2\sqrt 2$, 并求使等式成立的条件.
+(1) 求证: $\sqrt{x^2+y^2}+\sqrt{x^2+\left(1-y\right)^2}+\sqrt{\left(1-x\right)^2+y^2}+\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}\ge2\sqrt2$, 并求使等式成立的条件.
 
 (2) 说明上述不等式的几何意义.
 
@@ -590,9 +590,9 @@ $$
 
 则 $\sqrt{x^2+y^2}=\left|PO\right|$, $\sqrt{x^2+\left(1-y\right)^2}=\left|PB\right|$, $\sqrt{\left(1-x\right)^2+y^2}=\left|PA\right|$, $\sqrt{\left(1-x\right)^2+\left(1-y\right)^2}=\left|PC\right|$.
 
-由三角形不等式, $\left|PO\right|+\left|PC\right|\ge\left|OC\right|=\sqrt 2$, $\left|PA\right|+\left|PB\right|\ge\left|AB\right|=\sqrt 2$.
+由三角形不等式, $\left|PO\right|+\left|PC\right|\ge\left|OC\right|=\sqrt2$, $\left|PA\right|+\left|PB\right|\ge\left|AB\right|=\sqrt2$.
 
-故四项之和 $\ge\sqrt 2+\sqrt 2=2\sqrt 2$. 等式成立当且仅当 $P$ 在线段 $OC$ 上且在线段 $AB$ 上, 即 $P$ 为 $OC$ 与 $AB$ 的交点 $\left(\frac{1}{2},\frac{1}{2}\right)$.
+故四项之和 $\ge\sqrt2+\sqrt2=2\sqrt2$. 等式成立当且仅当 $P$ 在线段 $OC$ 上且在线段 $AB$ 上, 即 $P$ 为 $OC$ 与 $AB$ 的交点 $\left(\frac{1}{2},\frac{1}{2}\right)$.
 
 (2) 该不等式的几何意义为: 单位正方形内任一点到四个顶点的距离之和不小于两条对角线长度之和. $\blacksquare$
 
@@ -602,7 +602,7 @@ $$
 
 (1) 圆心在原点, 半径为 $3$;
 
-(2) 圆心为点 $C\left(3,-4\right)$, 半径为 $\sqrt 5$;
+(2) 圆心为点 $C\left(3,-4\right)$, 半径为 $\sqrt5$;
 
 (3) 经过点 $P\left(5,1\right)$, 圆心为点 $C\left(8,-3\right)$.
 
@@ -612,6 +612,6 @@ $$
 
 (1) 圆心为 $\left(0,0\right)$, 半径 $r=3$, 方程为 $x^2+y^2=9$.
 
-(2) 圆心为 $\left(3,-4\right)$, 半径 $r=\sqrt 5$, 方程为 $\left(x-3\right)^2+\left(y+4\right)^2=5$.
+(2) 圆心为 $\left(3,-4\right)$, 半径 $r=\sqrt5$, 方程为 $\left(x-3\right)^2+\left(y+4\right)^2=5$.
 
 (3) 由**常用结论 2.3.2** (两点间距离公式), 半径为 $\left|CP\right|=\sqrt{\left(5-8\right)^2+\left(1-\left(-3\right)\right)^2}=\sqrt{9+16}=5$. 方程为 $\left(x-8\right)^2+\left(y+3\right)^2=25$. $\blacksquare$

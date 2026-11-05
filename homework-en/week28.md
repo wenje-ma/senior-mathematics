@@ -86,7 +86,7 @@ By **Definition 8.1.4 (Prism)** and **Definition 8.1.8 (Pyramid)**, judge accord
 
 ## Exercise 2
 
-(Exercise 8.1, Problem 2) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 8.1, Problem 2) Determine whether the following statements are correct; mark "$\sqrt{}$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
 (1) A rectangular box is a quadrangular prism, and a right quadrangular prism is a rectangular box.
 
@@ -264,7 +264,7 @@ By **Definition 8.1.16 (Simple Composite Solids)**, a composite solid is formed 
 
 ## Problem 6
 
-(Exercise 8.1, Comprehensive Application, Problem 6) Determine whether the following statements are correct; mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 8.1, Comprehensive Application, Problem 6) Determine whether the following statements are correct; mark "$\sqrt{}$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
 (1) A prism has at least $5$ faces.
 
@@ -302,27 +302,27 @@ In the net, the middle long rectangle is a lateral face, the rectangle above it 
 
 ## Problem 8
 
-(Exercise 8.1, Comprehensive Application, Problem 8) As shown in the figure, the rectangular box $ABCD\text{-}A'B'C'D'$ is cut by a plane into two solids, where $EH\parallel B'C'\parallel FG$. Please give the names of these two solids.
+(Exercise 8.1, Comprehensive Application, Problem 8) As shown in the figure, the rectangular box $ABCD\text{-}A'B'C'D'$ is cut by a plane into two solids, where $EH\parallel{B}'C'\parallel{F}G$. Please give the names of these two solids.
 
-The figure: a rectangular prism $ABCD\text{-}A'B'C'D'$ cut by a plane, with the cross-section $EFGH$ parallel to the side face $BCC'B'$, where $EH\parallel B'C'\parallel FG$, dividing the prism into two parts.
+The figure: a rectangular prism $ABCD\text{-}A'B'C'D'$ cut by a plane, with the cross-section $EFGH$ parallel to the side face $BCC'B'$, where $EH\parallel{B}'C'\parallel{F}G$, dividing the prism into two parts.
 
 ### Solution to Problem 8
 
 By **Definition 8.1.4 (Prism)**, a polyhedron with two mutually parallel faces, the remaining faces all quadrilaterals, and the common edges of adjacent quadrilaterals parallel, is a prism.
 
-Because $EH\parallel B'C'\parallel FG$, the cross-section $EFGH$ is parallel to the lateral face $BCC'B'$ of the box. The cross-section cuts the box into two parts, each of which has two mutually parallel faces (the cross-section and the opposite lateral face of the box), with the other faces all quadrilaterals and the common edges of adjacent quadrilaterals parallel. Hence both resulting solids are prisms: the side containing vertex $A$ is a quadrangular prism, and the side containing vertex $B'$ is also a quadrangular prism. $\blacksquare$
+Because $EH\parallel{B}'C'\parallel{F}G$, the cross-section $EFGH$ is parallel to the lateral face $BCC'B'$ of the box. The cross-section cuts the box into two parts, each of which has two mutually parallel faces (the cross-section and the opposite lateral face of the box), with the other faces all quadrilaterals and the common edges of adjacent quadrilaterals parallel. Hence both resulting solids are prisms: the side containing vertex $A$ is a quadrangular prism, and the side containing vertex $B'$ is also a quadrangular prism. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 8.1, Comprehensive Application, Problem 9) As shown in the figure, taking the line on which side $AB$ of $\square ABCD$ lies as the axis, the surfaces swept by the other three sides rotating through one full turn bound a geometric solid. Draw the figure of this solid, and state the simple solids it contains and the relevant structural features.
+(Exercise 8.1, Comprehensive Application, Problem 9) As shown in the figure, taking the line on which side $AB$ of $\square{A}BCD$ lies as the axis, the surfaces swept by the other three sides rotating through one full turn bound a geometric solid. Draw the figure of this solid, and state the simple solids it contains and the relevant structural features.
 
-The figure: a parallelogram $ABCD$ with side $AB$ horizontal (as the axis of rotation), $CD\parallel AB$, and $AD$ and $BC$ as the two slanted sides; perpendiculars are dropped from $D$ and $C$ to $AB$, with feet $E$ and $F$.
+The figure: a parallelogram $ABCD$ with side $AB$ horizontal (as the axis of rotation), $CD\parallel{A}B$, and $AD$ and $BC$ as the two slanted sides; perpendiculars are dropped from $D$ and $C$ to $AB$, with feet $E$ and $F$.
 
 ### Solution to Problem 9
 
 By **Definition 8.1.3 (Solids of Revolution)** and **Definition 8.1.16 (Simple Composite Solids)**, a parallelogram rotating one full turn about one of its sides forms a solid of revolution.
 
-In parallelogram $ABCD$, let $AB$ be the axis of rotation, $CD\parallel AB$, and $AD$ and $BC$ the two side edges. Drop perpendiculars from $D$ and $C$ to $AB$, with feet $E$ and $F$. After one full turn, $DE$ and $CF$ sweep out circular surfaces, while the side $AD$ on which $AE$ lies, together with $BC$, sweeps out a curved surface.
+In parallelogram $ABCD$, let $AB$ be the axis of rotation, $CD\parallel{A}B$, and $AD$ and $BC$ the two side edges. Drop perpendiculars from $D$ and $C$ to $AB$, with feet $E$ and $F$. After one full turn, $DE$ and $CF$ sweep out circular surfaces, while the side $AD$ on which $AE$ lies, together with $BC$, sweeps out a curved surface.
 
 The bounded solid is a cylinder (formed by rotating the rectangle $DEFC$ about $EF$) with two congruent cones (formed by rotating the right triangles $ADE$ and $BCF$) either hollowed out or added. Since $AD$ and $BC$ are the sides slanting outward from the axis $AB$, this solid is a composite of a cylinder with one cone attached to (or hollowed out of) each end, i.e. a composite of one cylinder and two cones. $\blacksquare$
 
@@ -344,7 +344,7 @@ Judge by **Definition 8.1.4 (Prism)** and **Definition 8.1.10 (Frustum of a Pyra
 
 ## Exercise 9
 
-(Exercise 8.2, Problem 1) When using the oblique two-measurement method to draw the pictorial drawing of a horizontally placed plane figure, are the following statements correct? Mark "$\sqrt{ }$" in the parentheses for a correct one and "$\times$" for an incorrect one.
+(Exercise 8.2, Problem 1) When using the oblique two-measurement method to draw the pictorial drawing of a horizontally placed plane figure, are the following statements correct? Mark "$\sqrt{}$" in the parentheses for a correct one and "$\times$" for an incorrect one.
 
 (1) Equal segments remain equal in the pictorial drawing.
 
@@ -356,7 +356,7 @@ Judge by **Definition 8.1.4 (Prism)** and **Definition 8.1.10 (Frustum of a Pyra
 
 ### Solution to Exercise 9
 
-By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, segments parallel to the $x$-axis keep their length, segments parallel to the $y$-axis are halved, and $\angle x'O'y'=45^{\circ}$.
+By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, segments parallel to the $x$-axis keep their length, segments parallel to the $y$-axis are halved, and $\angle{x}'O'y'=45^{\circ}$.
 
 (1) False. If two segments of equal length in the original figure have one parallel to the $x$-axis and the other parallel to the $y$-axis, then in the pictorial drawing the former keeps its length while the latter is halved, so they are no longer equal.
 
@@ -388,19 +388,19 @@ By **Definition 8.2.2 (The Oblique Two-Measurement Method)**, draw in three step
 
 ## Exercise 11
 
-(Exercise 8.2, Problem 1) Use the oblique two-measurement method to draw the pictorial drawing of a cube with edge length $3\text{ cm}$.
+(Exercise 8.2, Problem 1) Use the oblique two-measurement method to draw the pictorial drawing of a cube with edge length $3\text{~cm}$.
 
-The figure: an oblique drawing of a cube with edge length $3\text{ cm}$—the base is a parallelogram with a $45^{\circ}$ angle ($3\text{ cm}$ in the $x$ direction and $1.5\text{ cm}$ in the $y$ direction), the vertical edges are $3\text{ cm}$ long, and the hidden edges are drawn as dashed lines.
+The figure: an oblique drawing of a cube with edge length $3\text{~cm}$—the base is a parallelogram with a $45^{\circ}$ angle ($3\text{~cm}$ in the $x$ direction and $1.5\text{~cm}$ in the $y$ direction), the vertical edges are $3\text{~cm}$ long, and the hidden edges are drawn as dashed lines.
 
 ### Solution to Exercise 11
 
 By **Definition 8.2.2 (The Oblique Two-Measurement Method)** and **Common Conclusion 8.2.3** (The $z$-Axis for Drawing Pictorial Drawings of Solids), take the three edges through one vertex as the $x$-, $y$-, and $z$-axes respectively.
 
-Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes, meeting at the point $O$, with $\angle xOy=45^{\circ}$ and $\angle xOz=90^{\circ}$.
+Drawing method: (1) Draw the axes. Draw the $x$-, $y$-, and $z$-axes, meeting at the point $O$, with $\angle{x}Oy=45^{\circ}$ and $\angle{x}Oz=90^{\circ}$.
 
-(2) Draw the base. On the positive half of the $x$-axis take $AB=3\text{ cm}$, and on the positive half of the $y$-axis take $AD=1.5\text{ cm}$; through $B$ draw a line parallel to the $y$-axis, and through $D$ a line parallel to the $x$-axis; their intersection is $C$, giving the pictorial drawing of the base $ABCD$.
+(2) Draw the base. On the positive half of the $x$-axis take $AB=3\text{~cm}$, and on the positive half of the $y$-axis take $AD=1.5\text{~cm}$; through $B$ draw a line parallel to the $y$-axis, and through $D$ a line parallel to the $x$-axis; their intersection is $C$, giving the pictorial drawing of the base $ABCD$.
 
-(3) Draw the lateral edges. On the positive half of the $z$-axis take $AA'=3\text{ cm}$; through $B$, $C$, $D$ draw lines parallel to the $z$-axis, and on them take $BB'=CC'=DD'=3\text{ cm}$.
+(3) Draw the lateral edges. On the positive half of the $z$-axis take $AA'=3\text{~cm}$; through $B$, $C$, $D$ draw lines parallel to the $z$-axis, and on them take $BB'=CC'=DD'=3\text{~cm}$.
 
 (4) Complete the drawing. Join $A'$, $B'$, $C'$, $D'$ in order, remove the auxiliary lines, and change the hidden parts to dashed lines; this gives the pictorial drawing of the cube. $\blacksquare$
 

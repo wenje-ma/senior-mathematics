@@ -46,33 +46,33 @@
 
 ## Problem 1
 
-(Exercise 6.4, Review and Consolidation, Problem 9) A typhoon center lies $300\text{ km}$ due west of the weather station $A$, and is moving northeast at $40\text{ km/h}$; all regions within $250\text{ km}$ of the typhoon center will be affected. If this trend of the typhoon center continues, will the weather station be affected? If so, after about how long will the effect begin? How long will it last (to the nearest $1\text{ min}$)?
+(Exercise 6.4, Review and Consolidation, Problem 9) A typhoon center lies $300\text{~km}$ due west of the weather station $A$, and is moving northeast at $40\text{~km/h}$; all regions within $250\text{~km}$ of the typhoon center will be affected. If this trend of the typhoon center continues, will the weather station be affected? If so, after about how long will the effect begin? How long will it last (to the nearest $1\text{~min}$)?
 
 ### Solution to Problem 1
 
 By **Theorem 6.4.2 (Law of Cosines)**.
 
-Let the initial position of the typhoon center be $B$, $AB=300\text{ km}$, direction northeast ($45^{\circ}$ east of north). Let $t$ hours later the center reaches $C$, $BC=40t$.
+Let the initial position of the typhoon center be $B$, $AB=300\text{~km}$, direction northeast ($45^{\circ}$ east of north). Let $t$ hours later the center reaches $C$, $BC=40t$.
 
-The perpendicular distance from the weather station $A$ to the typhoon path: $d=300\times\sin45^{\circ}=150\sqrt 2\approx212.1\text{ km}< 250\text{ km}$. Hence it will be affected.
+The perpendicular distance from the weather station $A$ to the typhoon path: $d=300\times\sin45^{\circ}=150\sqrt2\approx212.1\text{~km}<250\text{~km}$. Hence it will be affected.
 
-Draw a circle centered at $A$ with radius $250\text{ km}$; it meets the typhoon path at $P$ and $Q$.
+Draw a circle centered at $A$ with radius $250\text{~km}$; it meets the typhoon path at $P$ and $Q$.
 
-$AP=250$. In $\triangle ABP$, $AB=300$, $AP=250$, $\angle ABP=45^{\circ}$.
+$AP=250$. In $\triangle{A}BP$, $AB=300$, $AP=250$, $\angle{A}BP=45^{\circ}$.
 
-By the law of cosines: $AP^2=AB^2+BP^2-2\cdot AB\cdot BP\cos45^{\circ}$.
+By the law of cosines: $AP^2=AB^2+BP^2-2\cdot{A}B\cdot{B}P\cos45^{\circ}$.
 
-$62500=90000+BP^2-600\cdot\frac{\sqrt 2}{2}\cdot BP$.
+$62500=90000+BP^2-600\cdot\frac{\sqrt2}{2}\cdot{B}P$.
 
-$BP^2-300\sqrt 2\cdot BP+27500=0$.
+$BP^2-300\sqrt2\cdot{B}P+27500=0$.
 
-$BP=\frac{300\sqrt 2\pm\sqrt{180000-110000}}{2}=\frac{300\sqrt 2\pm\sqrt{70000}}{2}\approx\frac{424.3\pm264.6}{2}$.
+$BP=\frac{300\sqrt2\pm\sqrt{180000-110000}}{2}=\frac{300\sqrt2\pm\sqrt{70000}}{2}\approx\frac{424.3\pm264.6}{2}$.
 
-$BP_1\approx79.8\text{ km}$, $BP_2\approx344.5\text{ km}$.
+$BP_1\approx79.8\text{~km}$, $BP_2\approx344.5\text{~km}$.
 
-Times: $t_1=\frac{79.8}{40}\approx2\text{ h}$, $t_2=\frac{344.5}{40}\approx8.6\text{ h}$.
+Times: $t_1=\frac{79.8}{40}\approx2\text{~h}$, $t_2=\frac{344.5}{40}\approx8.6\text{~h}$.
 
-The effect begins after about $2$ hours and lasts about $6.6$ hours $\approx 395\text{ min}$. $\blacksquare$
+The effect begins after about $2$ hours and lasts about $6.6$ hours $\approx395\text{~min}$. $\blacksquare$
 
 ## Problem 2
 
@@ -82,57 +82,57 @@ The effect begins after about $2$ hours and lasts about $6.6$ hours $\approx 395
 
 By **Theorem 6.4.3 (Law of Sines)** and **Definition 6.2.11 (Dot Product)**.
 
-$S=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$. $\blacksquare$
+$S=\frac{1}{2}ab\sin{C}=\frac{1}{2}bc\sin{A}=\frac{1}{2}ac\sin{B}$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 6.4, Comprehensive Application, Problem 11) Given that for any plane vector $\boldsymbol{AB}=\left(x,y\right)$, rotating $\boldsymbol{AB}$ counterclockwise through an angle $\theta$ about its initial point gives the vector $\boldsymbol{AP}=\left(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta\right)$. Given points $A\left(1,2\right)$ and $B\left(1+\sqrt 2,2-2\sqrt 2\right)$ in the plane, rotate point $B$ clockwise through $\frac{\pi}{4}$ about point $A$ to obtain point $P$. Find the coordinates of $P$.
+(Exercise 6.4, Comprehensive Application, Problem 11) Given that for any plane vector $\boldsymbol{AB}=\left(x,y\right)$, rotating $\boldsymbol{AB}$ counterclockwise through an angle $\theta$ about its initial point gives the vector $\boldsymbol{AP}=\left(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta\right)$. Given points $A\left(1,2\right)$ and $B\left(1+\sqrt2,2-2\sqrt2\right)$ in the plane, rotate point $B$ clockwise through $\frac{\pi}{4}$ about point $A$ to obtain point $P$. Find the coordinates of $P$.
 
 ### Solution to Problem 3
 
 By **Common Conclusion 6.3.4** (Coordinate Operations).
 
-$\boldsymbol{AB}=\left(\sqrt 2,-2\sqrt 2\right)$. A clockwise rotation by $\frac{\pi}{4}$ is a counterclockwise rotation by $-\frac{\pi}{4}$.
+$\boldsymbol{AB}=\left(\sqrt2,-2\sqrt2\right)$. A clockwise rotation by $\frac{\pi}{4}$ is a counterclockwise rotation by $-\frac{\pi}{4}$.
 
-$x'=\sqrt 2\cos\left(-\frac{\pi}{4}\right)-\left(-2\sqrt 2\right)\sin\left(-\frac{\pi}{4}\right)=\sqrt 2\cdot\frac{\sqrt 2}{2}+\left(-2\sqrt 2\right)\cdot\frac{\sqrt 2}{2}=1-2=-1$.
+$x'=\sqrt2\cos\left(-\frac{\pi}{4}\right)-\left(-2\sqrt2\right)\sin\left(-\frac{\pi}{4}\right)=\sqrt2\cdot\frac{\sqrt2}{2}+\left(-2\sqrt2\right)\cdot\frac{\sqrt2}{2}=1-2=-1$.
 
-$y'=\sqrt 2\sin\left(-\frac{\pi}{4}\right)+\left(-2\sqrt 2\right)\cos\left(-\frac{\pi}{4}\right)=-\sqrt 2\cdot\frac{\sqrt 2}{2}-2\sqrt 2\cdot\frac{\sqrt 2}{2}=-1-2=-3$.
+$y'=\sqrt2\sin\left(-\frac{\pi}{4}\right)+\left(-2\sqrt2\right)\cos\left(-\frac{\pi}{4}\right)=-\sqrt2\cdot\frac{\sqrt2}{2}-2\sqrt2\cdot\frac{\sqrt2}{2}=-1-2=-3$.
 
 $\boldsymbol{AP}=\left(-1,-3\right)$. $P=A+\boldsymbol{AP}=\left(1-1,2-3\right)=\left(0,-1\right)$. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 6.4, Comprehensive Application, Problem 12) As shown in the figure, in $\triangle ABC$, given $AB=2$, $AC=5$, $\angle BAC=60^{\circ}$, the two medians $AM$ on side $BC$ and $BN$ on side $AC$ intersect at $P$. Find the cosine of $\angle MPN$.
+(Exercise 6.4, Comprehensive Application, Problem 12) As shown in the figure, in $\triangle{A}BC$, given $AB=2$, $AC=5$, $\angle{B}AC=60^{\circ}$, the two medians $AM$ on side $BC$ and $BN$ on side $AC$ intersect at $P$. Find the cosine of $\angle{M}PN$.
 
-The figure: triangle $ABC$ with $AB=2$, $AC=5$, and $\angle BAC=60^\circ$; $M$ is the midpoint of side $BC$ and $N$ is the midpoint of side $AC$, and the medians $AM$ and $BN$ intersect at point $P$.
+The figure: triangle $ABC$ with $AB=2$, $AC=5$, and $\angle{B}AC=60^\circ$; $M$ is the midpoint of side $BC$ and $N$ is the midpoint of side $AC$, and the medians $AM$ and $BN$ intersect at point $P$.
 
 ### Solution to Problem 4
 
 By **Theorem 6.4.2 (Law of Cosines)** and **Common Conclusion 6.4.1** (Vector Method).
 
-Take $A$ as the origin; $\boldsymbol{AB}=\left(2,0\right)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt 3}{2}\right)$.
+Take $A$ as the origin; $\boldsymbol{AB}=\left(2,0\right)$, $\boldsymbol{AC}=\left(\frac{5}{2},\frac{5\sqrt3}{2}\right)$.
 
-$M$ is the midpoint of $BC$: $M=\left(\frac{2+\frac{5}{2}}{2},\frac{0+\frac{5\sqrt 3}{2}}{2}\right)=\left(\frac{9}{4},\frac{5\sqrt 3}{4}\right)$.
+$M$ is the midpoint of $BC$: $M=\left(\frac{2+\frac{5}{2}}{2},\frac{0+\frac{5\sqrt3}{2}}{2}\right)=\left(\frac{9}{4},\frac{5\sqrt3}{4}\right)$.
 
-$N$ is the midpoint of $AC$: $N=\left(\frac{5}{4},\frac{5\sqrt 3}{4}\right)$.
+$N$ is the midpoint of $AC$: $N=\left(\frac{5}{4},\frac{5\sqrt3}{4}\right)$.
 
-$P$ is the centroid: $P=\frac{A+B+C}{3}=\left(\frac{2+\frac{5}{2}}{3},\frac{\frac{5\sqrt 3}{2}}{3}\right)=\left(\frac{3}{2},\frac{5\sqrt 3}{6}\right)$.
+$P$ is the centroid: $P=\frac{A+B+C}{3}=\left(\frac{2+\frac{5}{2}}{3},\frac{\frac{5\sqrt3}{2}}{3}\right)=\left(\frac{3}{2},\frac{5\sqrt3}{6}\right)$.
 
-$\boldsymbol{PM}=M-P=\left(\frac{9}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(\frac{3}{4},\frac{5\sqrt 3}{12}\right)$.
+$\boldsymbol{PM}=M-P=\left(\frac{9}{4}-\frac{3}{2},\frac{5\sqrt3}{4}-\frac{5\sqrt3}{6}\right)=\left(\frac{3}{4},\frac{5\sqrt3}{12}\right)$.
 
-$\boldsymbol{PN}=N-P=\left(\frac{5}{4}-\frac{3}{2},\frac{5\sqrt 3}{4}-\frac{5\sqrt 3}{6}\right)=\left(-\frac{1}{4},\frac{5\sqrt 3}{12}\right)$.
+$\boldsymbol{PN}=N-P=\left(\frac{5}{4}-\frac{3}{2},\frac{5\sqrt3}{4}-\frac{5\sqrt3}{6}\right)=\left(-\frac{1}{4},\frac{5\sqrt3}{12}\right)$.
 
-$\cos\angle MPN=\frac{\boldsymbol{PM}\cdot\boldsymbol{PN}}{\lvert\boldsymbol{PM}\rvert\lvert\boldsymbol{PN}\rvert}=\frac{-\frac{3}{16}+\frac{75}{144}}{\sqrt{\frac{9}{16}+\frac{75}{144}}\cdot\sqrt{\frac{1}{16}+\frac{75}{144}}}=\frac{\frac{-27+75}{144}}{\sqrt{\frac{81+75}{144}}\cdot\sqrt{\frac{9+75}{144}}}=\frac{\frac{48}{144}}{\frac{\sqrt{156}}{12}\cdot\frac{\sqrt{84}}{12}}=\frac{\frac{1}{3}}{\frac{\sqrt{13104}}{144}}=\frac{48}{\sqrt{13104}}=\frac{2}{\sqrt{91}}$. $\blacksquare$
+$\cos\angle{M}PN=\frac{\boldsymbol{PM}\cdot\boldsymbol{PN}}{\lvert\boldsymbol{PM}\rvert\lvert\boldsymbol{PN}\rvert}=\frac{-\frac{3}{16}+\frac{75}{144}}{\sqrt{\frac{9}{16}+\frac{75}{144}}\cdot\sqrt{\frac{1}{16}+\frac{75}{144}}}=\frac{\frac{-27+75}{144}}{\sqrt{\frac{81+75}{144}}\cdot\sqrt{\frac{9+75}{144}}}=\frac{\frac{48}{144}}{\frac{\sqrt{156}}{12}\cdot\frac{\sqrt{84}}{12}}=\frac{\frac{1}{3}}{\frac{\sqrt{13104}}{144}}=\frac{48}{\sqrt{13104}}=\frac{2}{\sqrt{91}}$. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 6.4, Comprehensive Application, Problem 13) The two banks of a river are parallel, and the river width is $d=500\text{ m}$. A boat sets out from a point $A$ on one bank to reach the opposite bank. Given that the boat's speed in still water $\boldsymbol{v}_1$ has magnitude $\lvert\boldsymbol{v}_1\rvert=10\text{ km/h}$, and the current speed $\boldsymbol{v}_2$ has magnitude $\lvert\boldsymbol{v}_2\rvert=2\text{ km/h}$. Analyze the three cases for which the boat's travel time is shortest.
+(Exercise 6.4, Comprehensive Application, Problem 13) The two banks of a river are parallel, and the river width is $d=500\text{~m}$. A boat sets out from a point $A$ on one bank to reach the opposite bank. Given that the boat's speed in still water $\boldsymbol{v}_1$ has magnitude $\lvert\boldsymbol{v}_1\rvert=10\text{~km/h}$, and the current speed $\boldsymbol{v}_2$ has magnitude $\lvert\boldsymbol{v}_2\rvert=2\text{~km/h}$. Analyze the three cases for which the boat's travel time is shortest.
 
 ### Solution to Problem 5
 
 By **Theorem 6.4.2 (Law of Cosines)**.
 
-Boat speed $10\text{ km/h}$, current speed $2\text{ km/h}$, river width $0.5\text{ km}$.
+Boat speed $10\text{~km/h}$, current speed $2\text{~km/h}$, river width $0.5\text{~km}$.
 
 (1) Upstream with obtuse angle: the perpendicular component of the resultant is small, and the time is long.
 
@@ -144,25 +144,25 @@ The time is $t=\frac{d}{v_\perp}$. $v_\perp$ is maximal when heading perpendicul
 
 ## Problem 6
 
-(Exercise 6.4, Comprehensive Application, Problem 14) An east-west river has parallel banks and width $250\text{ m}$, with the current flowing east at $\frac{2\sqrt 3}{3}\text{ km/h}$. A small cargo boat is to set out from dock $A$ on the south bank and sail to dock $C$, which lies due west of the point $B$ on the opposite bank (where $AB$ is perpendicular to the river's direction) and is $\frac{250\sqrt 3}{3}\text{ m}$ from $B$, to unload. If the magnitude of the resultant of the current velocity and the boat's sailing velocity is $6\text{ km/h}$, find the direction of the resultant when the boat's course is shortest, and find the magnitude of the boat's sailing speed at that time.
+(Exercise 6.4, Comprehensive Application, Problem 14) An east-west river has parallel banks and width $250\text{~m}$, with the current flowing east at $\frac{2\sqrt3}{3}\text{~km/h}$. A small cargo boat is to set out from dock $A$ on the south bank and sail to dock $C$, which lies due west of the point $B$ on the opposite bank (where $AB$ is perpendicular to the river's direction) and is $\frac{250\sqrt3}{3}\text{~m}$ from $B$, to unload. If the magnitude of the resultant of the current velocity and the boat's sailing velocity is $6\text{~km/h}$, find the direction of the resultant when the boat's course is shortest, and find the magnitude of the boat's sailing speed at that time.
 
 ### Solution to Problem 6
 
 By **Theorem 6.4.2 (Law of Cosines)** and **Theorem 6.4.3 (Law of Sines)**.
 
-$AB=0.25\text{ km}$, $BC=\frac{0.25\sqrt 3}{3}\text{ km}$. $AC=\sqrt{0.25^2+\left(\frac{0.25\sqrt 3}{3}\right)^2}=\sqrt{0.0625+0.0208}=\frac{0.5}{\sqrt 3}\text{ km}$.
+$AB=0.25\text{~km}$, $BC=\frac{0.25\sqrt3}{3}\text{~km}$. $AC=\sqrt{0.25^2+\left(\frac{0.25\sqrt3}{3}\right)^2}=\sqrt{0.0625+0.0208}=\frac{0.5}{\sqrt3}\text{~km}$.
 
-$\angle BAC$ satisfies $\tan\angle BAC=\frac{BC}{AB}=\frac{\sqrt 3}{3}$, so $\angle BAC=30^{\circ}$.
+$\angle{B}AC$ satisfies $\tan\angle{B}AC=\frac{BC}{AB}=\frac{\sqrt3}{3}$, so $\angle{B}AC=30^{\circ}$.
 
 The resultant velocity is directed along $AC$, i.e. $30^{\circ}$ north of west.
 
-The resultant speed is $6\text{ km/h}$. The current flows east at $\frac{2\sqrt 3}{3}\text{ km/h}$.
+The resultant speed is $6\text{~km/h}$. The current flows east at $\frac{2\sqrt3}{3}\text{~km/h}$.
 
-The boat speed $=\sqrt{6^2+\left(\frac{2\sqrt 3}{3}\right)^2-2\times6\times\frac{2\sqrt 3}{3}\cos60^{\circ}}=\sqrt{36+\frac{4}{3}-4\sqrt 3}\approx\sqrt{36.1-6.93}\approx\sqrt{29.2}\approx5.4\text{ km/h}$. $\blacksquare$
+The boat speed $=\sqrt{6^2+\left(\frac{2\sqrt3}{3}\right)^2-2\times6\times\frac{2\sqrt3}{3}\cos60^{\circ}}=\sqrt{36+\frac{4}{3}-4\sqrt3}\approx\sqrt{36.1-6.93}\approx\sqrt{29.2}\approx5.4\text{~km/h}$. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 6.4, Comprehensive Application, Problem 15) The three sides of $\triangle ABC$ are $a$, $b$, $c$, and the medians to sides $BC$, $CA$, $AB$ are denoted $m_a$, $m_b$, $m_c$. Using the law of cosines, prove:
+(Exercise 6.4, Comprehensive Application, Problem 15) The three sides of $\triangle{A}BC$ are $a$, $b$, $c$, and the medians to sides $BC$, $CA$, $AB$ are denoted $m_a$, $m_b$, $m_c$. Using the law of cosines, prove:
 
 $m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(a^2+c^2\right)-b^2}$, $m_c=\frac{1}{2}\sqrt{2\left(a^2+b^2\right)-c^2}$.
 
@@ -170,9 +170,9 @@ $m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(
 
 By **Theorem 6.4.2 (Law of Cosines)**.
 
-Let $M$ be the midpoint of $BC$, $BM=\frac{a}{2}$. In $\triangle ABM$, $m_a^2=c^2+\left(\frac{a}{2}\right)^2-2c\cdot\frac{a}{2}\cos B$.
+Let $M$ be the midpoint of $BC$, $BM=\frac{a}{2}$. In $\triangle{A}BM$, $m_a^2=c^2+\left(\frac{a}{2}\right)^2-2c\cdot\frac{a}{2}\cos{B}$.
 
-By the law of cosines, $\cos B=\frac{a^2+c^2-b^2}{2ac}$:
+By the law of cosines, $\cos{B}=\frac{a^2+c^2-b^2}{2ac}$:
 
 $m_a^2=c^2+\frac{a^2}{4}-ac\cdot\frac{a^2+c^2-b^2}{2ac}=c^2+\frac{a^2}{4}-\frac{a^2+c^2-b^2}{2}=\frac{2c^2+a^2-2a^2-2c^2+2b^2}{4}=\frac{2b^2+2c^2-a^2}{4}$.
 
@@ -180,7 +180,7 @@ $m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. The other two formulas follow
 
 ## Problem 8
 
-(Exercise 6.4, Comprehensive Application, Problem 16) In $\triangle ABC$, prove that $c\left(a\cos B-b\cos A\right)=a^2-b^2$.
+(Exercise 6.4, Comprehensive Application, Problem 16) In $\triangle{A}BC$, prove that $c\left(a\cos{B}-b\cos{A}\right)=a^2-b^2$.
 
 ### Solution to Problem 8
 
@@ -190,33 +190,33 @@ The left-hand side $=c\left(a\cdot\frac{a^2+c^2-b^2}{2ac}-b\cdot\frac{b^2+c^2-a^
 
 ## Problem 9
 
-(Exercise 6.4, Comprehensive Application, Problem 17) Prove: if the circumradius of a triangle is $R$, then $a=2R\sin A$, $b=2R\sin B$, $c=2R\sin C$.
+(Exercise 6.4, Comprehensive Application, Problem 17) Prove: if the circumradius of a triangle is $R$, then $a=2R\sin{A}$, $b=2R\sin{B}$, $c=2R\sin{C}$.
 
 ### Solution to Problem 9
 
 By **Theorem 6.4.3 (Law of Sines)**.
 
-Let the circumcenter be $O$. Draw the diameter $BD$ through $O$; then $\angle BAD=90^{\circ}$ (the angle subtended by a diameter is a right angle). $\angle BDA=\angle BCA=C$ (angles subtending the same arc are equal).
+Let the circumcenter be $O$. Draw the diameter $BD$ through $O$; then $\angle{B}AD=90^{\circ}$ (the angle subtended by a diameter is a right angle). $\angle{B}DA=\angle{B}CA=C$ (angles subtending the same arc are equal).
 
-In the right triangle $ABD$, $AB=BD\sin\angle BDA=2R\sin C$, i.e. $c=2R\sin C$.
+In the right triangle $ABD$, $AB=BD\sin\angle{B}DA=2R\sin{C}$, i.e. $c=2R\sin{C}$.
 
-Similarly, $a=2R\sin A$, $b=2R\sin B$. $\blacksquare$
+Similarly, $a=2R\sin{A}$, $b=2R\sin{B}$. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 6.4, Comprehensive Application, Problem 18) Using the result of Problem 10, prove the triangle area formula $S=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$.
+(Exercise 6.4, Comprehensive Application, Problem 18) Using the result of Problem 10, prove the triangle area formula $S=\frac{1}{2}\cdot\frac{a^2\sin{B}\sin{C}}{\sin{A}}$.
 
 ### Solution to Problem 10
 
-By **Theorem 6.4.3 (Law of Sines)** and the result of Problem 10, $S=\frac{1}{2}ab\sin C$.
+By **Theorem 6.4.3 (Law of Sines)** and the result of Problem 10, $S=\frac{1}{2}ab\sin{C}$.
 
-By the law of sines, $b=\frac{a\sin B}{\sin A}$.
+By the law of sines, $b=\frac{a\sin{B}}{\sin{A}}$.
 
-$S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$. $\blacksquare$
+$S=\frac{1}{2}a\cdot\frac{a\sin{B}}{\sin{A}}\cdot\sin{C}=\frac{1}{2}\cdot\frac{a^2\sin{B}\sin{C}}{\sin{A}}$. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 6.4, Extension and Exploration, Problem 19) As shown in the figure, in $\square ABCD$, $E$ and $F$ are the midpoints of sides $AD$ and $DC$, and $BE$, $BF$ meet $AC$ at $R$ and $T$, respectively. What relation do you find among $AR$, $RT$, $TC$? Prove your conclusion by a vector method.
+(Exercise 6.4, Extension and Exploration, Problem 19) As shown in the figure, in $\square{A}BCD$, $E$ and $F$ are the midpoints of sides $AD$ and $DC$, and $BE$, $BF$ meet $AC$ at $R$ and $T$, respectively. What relation do you find among $AR$, $RT$, $TC$? Prove your conclusion by a vector method.
 
 The figure: the parallelogram $ABCD$, with $E$ the midpoint of side $AD$ and $F$ the midpoint of side $DC$; the segment $BE$ meets the diagonal $AC$ at point $R$, and the segment $BF$ meets the diagonal $AC$ at point $T$.
 
@@ -236,7 +236,7 @@ Hence $AR=RT=TC=\frac{1}{3}AC$. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 6.4, Extension and Exploration, Problem 20) Given that $a$, $b$, $c$ are the sides opposite angles $A$, $B$, $C$ of $\triangle ABC$, let $p=\frac{1}{2}\left(a+b+c\right)$. Prove:
+(Exercise 6.4, Extension and Exploration, Problem 20) Given that $a$, $b$, $c$ are the sides opposite angles $A$, $B$, $C$ of $\triangle{A}BC$, let $p=\frac{1}{2}\left(a+b+c\right)$. Prove:
 
 (1) the area of the triangle is $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$;
 
@@ -248,9 +248,9 @@ Hence $AR=RT=TC=\frac{1}{3}AC$. $\blacksquare$
 
 By **Theorem 6.4.2 (Law of Cosines)** and the area formula.
 
-(1) $S=\frac{1}{2}ab\sin C$. $\sin C=\sqrt{1-\cos^2 C}$. $\cos C=\frac{a^2+b^2-c^2}{2ab}$.
+(1) $S=\frac{1}{2}ab\sin{C}$. $\sin{C}=\sqrt{1-\cos^2C}$. $\cos{C}=\frac{a^2+b^2-c^2}{2ab}$.
 
-$S^2=\frac{a^2b^2}{4}\left(1-\cos^2 C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
+$S^2=\frac{a^2b^2}{4}\left(1-\cos^2C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
 
 $=\frac{\left(2ab-a^2-b^2+c^2\right)\left(2ab+a^2+b^2-c^2\right)}{16}=\frac{\left(c^2-\left(a-b\right)^2\right)\left(\left(a+b\right)^2-c^2\right)}{16}$.
 
@@ -274,35 +274,35 @@ By **Theorem 6.4.2 (Law of Cosines)** and **Theorem 6.4.3 (Law of Sines)**.
 
 (1) Measure the distance $d$ of $AB$; from point $A$, measure the elevation angle $\alpha_1$ to $M$ and $\beta_1$ to $N$; from point $B$, measure the elevation angle $\alpha_2$ to $M$ and $\beta_2$ to $N$.
 
-(2) In $\triangle ABM$, use the law of sines to find $AM$ and $BM$; in $\triangle ABN$ find $AN$ and $BN$; in $\triangle AMN$ or $\triangle BMN$, use the law of cosines to find $MN$. $\blacksquare$
+(2) In $\triangle{A}BM$, use the law of sines to find $AM$ and $BM$; in $\triangle{A}BN$ find $AN$ and $BN$; in $\triangle{A}MN$ or $\triangle{B}MN$, use the law of cosines to find $MN$. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 6.4, Extension and Exploration, Problem 22) Given that $a$, $b$, $c$ are the sides opposite the interior angles $A$, $B$, $C$ of $\triangle ABC$, and $a\cos C+\sqrt 3a\sin C-b-c=0$.
+(Exercise 6.4, Extension and Exploration, Problem 22) Given that $a$, $b$, $c$ are the sides opposite the interior angles $A$, $B$, $C$ of $\triangle{A}BC$, and $a\cos{C}+\sqrt3a\sin{C}-b-c=0$.
 
 (1) Find $A$;
 
-(2) If $a=2$ and the area of $\triangle ABC$ is $\sqrt 3$, find $b$ and $c$.
+(2) If $a=2$ and the area of $\triangle{A}BC$ is $\sqrt3$, find $b$ and $c$.
 
 ### Solution to Problem 14
 
 By **Theorem 6.4.3 (Law of Sines)**.
 
-(1) By the law of sines: $\sin A\cos C+\sqrt 3\sin A\sin C-\sin B-\sin C=0$.
+(1) By the law of sines: $\sin{A}\cos{C}+\sqrt3\sin{A}\sin{C}-\sin{B}-\sin{C}=0$.
 
-$B=\pi-A-C$. $\sin B=\sin\left(A+C\right)=\sin A\cos C+\cos A\sin C$.
+$B=\pi-A-C$. $\sin{B}=\sin\left(A+C\right)=\sin{A}\cos{C}+\cos{A}\sin{C}$.
 
-$\sin A\cos C+\sqrt 3\sin A\sin C-\sin A\cos C-\cos A\sin C-\sin C=0$.
+$\sin{A}\cos{C}+\sqrt3\sin{A}\sin{C}-\sin{A}\cos{C}-\cos{A}\sin{C}-\sin{C}=0$.
 
-$\left(\sqrt 3\sin A-\cos A-1\right)\sin C=0$.
+$\left(\sqrt3\sin{A}-\cos{A}-1\right)\sin{C}=0$.
 
-$\sqrt 3\sin A-\cos A=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
+$\sqrt3\sin{A}-\cos{A}=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
 
 $A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
 
-(2) $S=\frac{1}{2}bc\sin A=\sqrt 3$. $\frac{1}{2}bc\cdot\frac{\sqrt 3}{2}=\sqrt 3$. $bc=4$.
+(2) $S=\frac{1}{2}bc\sin{A}=\sqrt3$. $\frac{1}{2}bc\cdot\frac{\sqrt3}{2}=\sqrt3$. $bc=4$.
 
-$a^2=b^2+c^2-2bc\cos A$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
+$a^2=b^2+c^2-2bc\cos{A}$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
 
 $b^2+c^2=8$. $\left(b+c\right)^2=b^2+c^2+2bc=16$. $b+c=4$.
 
@@ -346,25 +346,25 @@ $2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+
 
 ### Solution to Exercise 2
 
-By **Definition 7.1.6 (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers)**, $a+b\mathrm{i}$ is real when $b=0$, imaginary when $b\neq 0$, and pure imaginary when $a=0$ and $b\neq 0$.
+By **Definition 7.1.6 (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers)**, $a+b\mathrm{i}$ is real when $b=0$, imaginary when $b\neq0$, and pure imaginary when $a=0$ and $b\neq0$.
 
 (1) $2+\sqrt{7}=\left(2+\sqrt{7}\right)+0\mathrm{i}$, imaginary part $0$, so it is real.
 
 (2) $0.618=0.618+0\mathrm{i}$, imaginary part $0$, so it is real.
 
-(3) $\frac{2}{7}\mathrm{i}=0+\frac{2}{7}\mathrm{i}$, real part $0$, imaginary part $\frac{2}{7}\neq 0$, so it is a pure imaginary number.
+(3) $\frac{2}{7}\mathrm{i}=0+\frac{2}{7}\mathrm{i}$, real part $0$, imaginary part $\frac{2}{7}\neq0$, so it is a pure imaginary number.
 
 (4) $0=0+0\mathrm{i}$, imaginary part $0$, so it is real.
 
-(5) $\mathrm{i}=0+1\mathrm{i}$, real part $0$, imaginary part $1\neq 0$, so it is a pure imaginary number.
+(5) $\mathrm{i}=0+1\mathrm{i}$, real part $0$, imaginary part $1\neq0$, so it is a pure imaginary number.
 
-(6) $5\mathrm{i}+8=8+5\mathrm{i}$, real part $8\neq 0$, imaginary part $5\neq 0$, so it is an imaginary number.
+(6) $5\mathrm{i}+8=8+5\mathrm{i}$, real part $8\neq0$, imaginary part $5\neq0$, so it is an imaginary number.
 
-(7) $3-9\sqrt{2}\mathrm{i}=3+\left(-9\sqrt{2}\right)\mathrm{i}$, real part $3\neq 0$, imaginary part $-9\sqrt{2}\neq 0$, so it is an imaginary number.
+(7) $3-9\sqrt{2}\mathrm{i}=3+\left(-9\sqrt{2}\right)\mathrm{i}$, real part $3\neq0$, imaginary part $-9\sqrt{2}\neq0$, so it is an imaginary number.
 
-(8) $\mathrm{i}\left(1-\sqrt{3}\right)=0+\left(1-\sqrt{3}\right)\mathrm{i}$, real part $0$, imaginary part $1-\sqrt{3}\neq 0$, so it is a pure imaginary number.
+(8) $\mathrm{i}\left(1-\sqrt{3}\right)=0+\left(1-\sqrt{3}\right)\mathrm{i}$, real part $0$, imaginary part $1-\sqrt{3}\neq0$, so it is a pure imaginary number.
 
-(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+\left(-\sqrt{2}\right)\mathrm{i}$, real part $\sqrt{2}\neq 0$, imaginary part $-\sqrt{2}\neq 0$, so it is an imaginary number.
+(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+\left(-\sqrt{2}\right)\mathrm{i}$, real part $\sqrt{2}\neq0$, imaginary part $-\sqrt{2}\neq0$, so it is an imaginary number.
 
 In summary, the real numbers are $2+\sqrt{7}$, $0.618$, $0$; the imaginary numbers are $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\sqrt{2}-\sqrt{2}\mathrm{i}$; the pure imaginary numbers are $\frac{2}{7}\mathrm{i}$, $\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$. $\blacksquare$
 
@@ -458,7 +458,7 @@ The figure: a rectangular coordinate plane of complex numbers, with five vectors
 
 ### Solution to Exercise 6
 
-By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, $a+b\mathrm{i}$ corresponds to the vector $\boldsymbol{OZ}=\left(a,b\right)$; by **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, $a+b\mathrm{i}$ corresponds to the vector $\boldsymbol{OZ}=\left(a,b\right)$; by **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert{a}+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
 (1) The corresponding vectors are: $\left(2,1\right)$, $\left(-2,4\right)$, $\left(0,-2\right)$, $\left(4,0\right)$, $\left(\frac{3}{2},-4\right)$; just draw these vectors in the complex plane starting from the origin $O$.
 
@@ -486,13 +486,13 @@ By **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, $a+b\mathrm{i}$
 
 ### Solution to Problem 16
 
-By **Definition 7.1.6 (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers)**, an imaginary number requires $b\neq 0$, and a pure imaginary number requires $a=0$ and $b\neq 0$.
+By **Definition 7.1.6 (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers)**, an imaginary number requires $b\neq0$, and a pure imaginary number requires $a=0$ and $b\neq0$.
 
-(1) Take $a=-\sqrt{2}$, $b=1\neq 0$; then the complex number $-\sqrt{2}+\mathrm{i}$ has real part $-\sqrt{2}$ and $b\neq 0$, so it is imaginary. Hence it exists.
+(1) Take $a=-\sqrt{2}$, $b=1\neq0$; then the complex number $-\sqrt{2}+\mathrm{i}$ has real part $-\sqrt{2}$ and $b\neq0$, so it is imaginary. Hence it exists.
 
-(2) Take $a=1$, $b=-\sqrt{2}\neq 0$; then the complex number $1-\sqrt{2}\mathrm{i}$ has imaginary part $-\sqrt{2}$ and $b\neq 0$, so it is imaginary. Hence it exists.
+(2) Take $a=1$, $b=-\sqrt{2}\neq0$; then the complex number $1-\sqrt{2}\mathrm{i}$ has imaginary part $-\sqrt{2}$ and $b\neq0$, so it is imaginary. Hence it exists.
 
-(3) To be pure imaginary, require $a=0$ and $b=-\sqrt{2}\neq 0$; then the complex number $0-\sqrt{2}\mathrm{i}=-\sqrt{2}\mathrm{i}$ has imaginary part $-\sqrt{2}$ and $a=0$, so it is a pure imaginary number. Hence it exists. $\blacksquare$
+(3) To be pure imaginary, require $a=0$ and $b=-\sqrt{2}\neq0$; then the complex number $0-\sqrt{2}\mathrm{i}=-\sqrt{2}\mathrm{i}$ has imaginary part $-\sqrt{2}$ and $a=0$, so it is a pure imaginary number. Hence it exists. $\blacksquare$
 
 ## Problem 17
 
@@ -506,15 +506,15 @@ By **Definition 7.1.6 (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbe
 
 ### Solution to Problem 17
 
-By **Definition 7.1.6 (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers)**, $a+b\mathrm{i}$ is real when $b=0$, imaginary when $b\neq 0$, and pure imaginary when $a=0$ and $b\neq 0$.
+By **Definition 7.1.6 (Real Numbers, Imaginary Numbers, and Pure Imaginary Numbers)**, $a+b\mathrm{i}$ is real when $b=0$, imaginary when $b\neq0$, and pure imaginary when $a=0$ and $b\neq0$.
 
 Write $a=m^2-5m+6$, $b=m^2-3m=m\left(m-3\right)$.
 
 (1) To be real, require $b=0$, i.e. $m\left(m-3\right)=0$, giving $m=0$ or $m=3$.
 
-(2) To be imaginary, require $b\neq 0$, i.e. $m\neq 0$ and $m\neq 3$.
+(2) To be imaginary, require $b\neq0$, i.e. $m\neq0$ and $m\neq3$.
 
-(3) To be pure imaginary, require $a=0$ and $b\neq 0$. From $a=0$, i.e. $\left(m-2\right)\left(m-3\right)=0$, we get $m=2$ or $m=3$. We also require $b\neq 0$, i.e. $m\neq 0$ and $m\neq 3$; hence $m=3$ is discarded and $m=2$. $\blacksquare$
+(3) To be pure imaginary, require $a=0$ and $b\neq0$. From $a=0$, i.e. $\left(m-2\right)\left(m-3\right)=0$, we get $m=2$ or $m=3$. We also require $b\neq0$, i.e. $m\neq0$ and $m\neq3$; hence $m=3$ is discarded and $m=2$. $\blacksquare$
 
 ## Problem 18
 
@@ -546,27 +546,27 @@ From the second equation, $x=4$. Substituting into the first gives $4+y-3=0$, i.
 
 ## Problem 19
 
-(Exercise 7.1, Review and Consolidation, Problem 4) If $P$ is the point in the complex plane representing the complex number $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$, state the location of $P$ under each of the following conditions.
+(Exercise 7.1, Review and Consolidation, Problem 4) If $P$ is the point in the complex plane representing the complex number $a+b\mathrm{i}\,\left(a,b\in\mathbb{R}\right)$, state the location of $P$ under each of the following conditions.
 
-(1) $a> 0$, $b> 0$;
+(1) $a>0$, $b>0$;
 
-(2) $a< 0$, $b> 0$;
+(2) $a<0$, $b>0$;
 
-(3) $a=0$, $b\le 0$;
+(3) $a=0$, $b\le0$;
 
-(4) $b< 0$.
+(4) $b<0$.
 
 ### Solution to Problem 19
 
 By **Definition 7.1.7 (The Complex Plane)** and **Definition 7.1.8 (Geometric Meaning of a Complex Number)**, $a+b\mathrm{i}$ corresponds to the point $P\left(a,b\right)$ in the complex plane, with $a$ the horizontal coordinate and $b$ the vertical coordinate.
 
-(1) $a> 0$, $b> 0$, so $P$ lies in the first quadrant.
+(1) $a>0$, $b>0$, so $P$ lies in the first quadrant.
 
-(2) $a< 0$, $b> 0$, so $P$ lies in the second quadrant.
+(2) $a<0$, $b>0$, so $P$ lies in the second quadrant.
 
-(3) $a=0$, so $P$ lies on the $y$-axis (the imaginary axis); and $b\le 0$, so $P$ lies on the lower half of the imaginary axis (including the origin).
+(3) $a=0$, so $P$ lies on the $y$-axis (the imaginary axis); and $b\le0$, so $P$ lies on the lower half of the imaginary axis (including the origin).
 
-(4) $b< 0$, so the vertical coordinate of $P$ is negative, and $P$ lies in the half-plane below the real axis. $\blacksquare$
+(4) $b<0$, so the vertical coordinate of $P$ is negative, and $P$ lies in the half-plane below the real axis. $\blacksquare$
 
 ## Problem 20
 
@@ -574,14 +574,14 @@ By **Definition 7.1.7 (The Complex Plane)** and **Definition 7.1.8 (Geometric Me
 
 ### Solution to Problem 20
 
-By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+By **Definition 7.1.9 (Modulus of a Complex Number)**, $\lvert{a}+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
 $$
-\lvert z_1\rvert=\lvert3+4\mathrm{i}\rvert=\sqrt{3^2+4^2}=\sqrt{25}=5.
+\lvert{z}_1\rvert=\lvert3+4\mathrm{i}\rvert=\sqrt{3^2+4^2}=\sqrt{25}=5.
 $$
 
 $$
-\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
+\lvert{z}_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
 $$
 
-Since $5> \frac{3}{2}$, we have $\lvert z_1\rvert> \lvert z_2\rvert$. $\blacksquare$
+Since $5>\frac{3}{2}$, we have $\lvert{z}_1\rvert>\lvert{z}_2\rvert$. $\blacksquare$

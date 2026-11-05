@@ -104,21 +104,21 @@ Hence the table is filled in order as follows: $n$-prism ($2n$, $3n$, $n+2$, $2$
 
 ## Problem 2
 
-(Review Exercises 8, Review and Consolidation, Problem 2) In a right quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, $AA_{1}=4$.
+(Review Exercises 8, Review and Consolidation, Problem 2) In a right quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, $AB\parallel{C}D$, $\angle{D}AB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, $AA_{1}=4$.
 
 (1) Draw the pictorial view of the quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$;
 
 (2) Complete the quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ into a cuboid, and state the name of the solid added.
 
-(Figure: a right quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ whose base $ABCD$ is a right trapezoid, with $AB\parallel CD$, $\angle DAB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, and lateral edge $AA_{1}=4$ perpendicular to the base.)
+(Figure: a right quadrangular prism $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ whose base $ABCD$ is a right trapezoid, with $AB\parallel{C}D$, $\angle{D}AB=90^{\circ}$, $AB=2$, $CD=1$, $AD=3$, and lateral edge $AA_{1}=4$ perpendicular to the base.)
 
 ### Solution to Problem 2
 
 By **Definition 8.1.4 (Prism)** and the cavalier oblique projection method.
 
-(1) By the cavalier oblique projection method: take $AB$ as the $x$-axis, $AD$ as the $y$-axis, and $AA_{1}$ as the $z$-axis. On the $x'$-axis take $AB=2$ and $DC=1$ (since $AB\parallel CD$), and on the $y'$-axis take $AD=1.5$ (taking half), joining them to form the right trapezoid $ABCD$; along the $z$-axis take $AA_{1}=4$, draw the upper base $A_{1}B_{1}C_{1}D_{1}$, and connect the lateral edges.
+(1) By the cavalier oblique projection method: take $AB$ as the $x$-axis, $AD$ as the $y$-axis, and $AA_{1}$ as the $z$-axis. On the $x'$-axis take $AB=2$ and $DC=1$ (since $AB\parallel{C}D$), and on the $y'$-axis take $AD=1.5$ (taking half), joining them to form the right trapezoid $ABCD$; along the $z$-axis take $AA_{1}=4$, draw the upper base $A_{1}B_{1}C_{1}D_{1}$, and connect the lateral edges.
 
-(2) The base $ABCD$ is a right trapezoid ($AB=2$, $CD=1$, $AD=3$, $\angle DAB=90^{\circ}$). Adding a right triangular prism of the same height as the original right quadrangular prism (its base being a right triangle with legs $1$ and $3$) completes it into a cuboid (length $2$, width $3$, height $4$). $\blacksquare$
+(2) The base $ABCD$ is a right trapezoid ($AB=2$, $CD=1$, $AD=3$, $\angle{D}AB=90^{\circ}$). Adding a right triangular prism of the same height as the original right quadrangular prism (its base being a right triangle with legs $1$ and $3$) completes it into a cuboid (length $2$, width $3$, height $4$). $\blacksquare$
 
 ## Problem 3
 
@@ -134,11 +134,11 @@ By **Definition 8.3.11 (Surface Area of a Sphere)** and **Definition 8.3.12 (Vol
 
 (1) A cube has surface area $S=6a^{2}$ and volume $V=a^{3}$. After the edge length is enlarged $n$ times, $S'=6\left(na\right)^{2}=n^{2}S$, $V'=\left(na\right)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times.
 
-(2) A sphere has surface area $S=4\pi R^{2}$ and volume $V=\frac{4}{3}\pi R^{3}$. After the radius is enlarged $n$ times, $S'=4\pi\left(nR\right)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi\left(nR\right)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times. $\blacksquare$
+(2) A sphere has surface area $S=4\pi{R}^{2}$ and volume $V=\frac{4}{3}\pi{R}^{3}$. After the radius is enlarged $n$ times, $S'=4\pi\left(nR\right)^{2}=n^{2}S$, $V'=\frac{4}{3}\pi\left(nR\right)^{3}=n^{3}V$. Hence the surface area is enlarged $n^{2}$ times and the volume $n^{3}$ times. $\blacksquare$
 
 ## Problem 4
 
-(Review Exercises 8, Review and Consolidation, Problem 4) As shown in the figure, a square iron sheet of side length $10\text{ cm}$ has four shaded parts. Cut off these shaded parts, and then use the remaining four congruent isosceles triangles to make a regular square-pyramid-shaped container. Express the volume $V$ of the container (in $\text{cm}^{3}$) as a function of $x$ (in $\text{cm}$).
+(Review Exercises 8, Review and Consolidation, Problem 4) As shown in the figure, a square iron sheet of side length $10\text{~cm}$ has four shaded parts. Cut off these shaded parts, and then use the remaining four congruent isosceles triangles to make a regular square-pyramid-shaped container. Express the volume $V$ of the container (in $\text{cm}^{3}$) as a function of $x$ (in $\text{cm}$).
 
 (Figure: the square has side length $10$, the middle square has side length $x$, and the four isosceles triangles have base $x$ and height $5$.)
 
@@ -157,7 +157,7 @@ $$
 Hence the volume
 
 $$
-V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad \left(0< x< 10\right).
+V=\frac{1}{3}x^{2}\sqrt{25-\frac{x^{2}}{4}}=\frac{x^{2}}{6}\sqrt{100-x^{2}}\quad\left(0<{}x<10\right).
 $$
 
 $\blacksquare$
@@ -186,23 +186,23 @@ Hence the three planes can divide space into $4$, $6$, $7$ or $8$ parts. $\black
 
 (Review Exercises 8, Review and Consolidation, Problem 6) Given that $\alpha$, $\beta$, $\gamma$ are three planes, with $\alpha\cap\beta=a$, $\alpha\cap\gamma=b$, $\beta\cap\gamma=c$.
 
-(1) If $a\cap b=O$, prove that the three lines $a$, $b$, $c$ are concurrent.
+(1) If $a\cap{b}=O$, prove that the three lines $a$, $b$, $c$ are concurrent.
 
-(2) If $a\parallel b$, what is the relationship between $a$ and $c$, and between $b$ and $c$? Why?
+(2) If $a\parallel{b}$, what is the relationship between $a$ and $c$, and between $b$ and $c$? Why?
 
 ### Solution to Problem 6
 
 By **Basic Fact 8.4.4** (Basic Fact 3).
 
-(1) Since $a\cap b=O$, $a=\alpha\cap\beta$, $b=\alpha\cap\gamma$, we have $O\in\beta$ and $O\in\gamma$. Moreover $\beta\cap\gamma=c$, so by **Basic Fact 8.4.4** (Basic Fact 3), $O\in c$. Hence the three lines $a$, $b$, $c$ are concurrent at $O$.
+(1) Since $a\cap{b}=O$, $a=\alpha\cap\beta$, $b=\alpha\cap\gamma$, we have $O\in\beta$ and $O\in\gamma$. Moreover $\beta\cap\gamma=c$, so by **Basic Fact 8.4.4** (Basic Fact 3), $O\in{c}$. Hence the three lines $a$, $b$, $c$ are concurrent at $O$.
 
-(2) Since $a\parallel b$, $b\subset\gamma$, $a\not\subset\gamma$, we have $a\parallel\gamma$. Moreover $a\subset\beta$, $\beta\cap\gamma=c$, so by the property of a line parallel to a plane, $a\parallel c$. Also $a\parallel b$, hence $b\parallel c$.
+(2) Since $a\parallel{b}$, $b\subset\gamma$, $a\not\subset\gamma$, we have $a\parallel\gamma$. Moreover $a\subset\beta$, $\beta\cap\gamma=c$, so by the property of a line parallel to a plane, $a\parallel{c}$. Also $a\parallel{b}$, hence $b\parallel{c}$.
 
-Therefore $a\parallel c$, $b\parallel c$. $\blacksquare$
+Therefore $a\parallel{c}$, $b\parallel{c}$. $\blacksquare$
 
 ## Problem 7
 
-(Review Exercises 8, Review and Consolidation, Problem 7) As shown in the figure, the quadrilateral $A'B'C'D'$ is the projection of $\square ABCD$ onto the plane $\alpha$ ($AA'\parallel BB'\parallel CC'\parallel DD'$). Prove that the quadrilateral $A'B'C'D'$ is a parallelogram.
+(Review Exercises 8, Review and Consolidation, Problem 7) As shown in the figure, the quadrilateral $A'B'C'D'$ is the projection of $\square{A}BCD$ onto the plane $\alpha$ ($AA'\parallel{B}B'\parallel{C}C'\parallel{D}D'$). Prove that the quadrilateral $A'B'C'D'$ is a parallelogram.
 
 (Figure: parallelogram $ABCD$ lies above plane $\alpha$; the four vertices project in parallel onto $\alpha$ at $A',B',C',D'$.)
 
@@ -210,9 +210,9 @@ Therefore $a\parallel c$, $b\parallel c$. $\blacksquare$
 
 By **Theorem 8.5.6 (Property Theorem for Two Parallel Planes)**.
 
-Since $AA'\parallel BB'\parallel CC'\parallel DD'$, these four lines are mutually parallel. And $AB\parallel CD$ (parallelogram). By **Theorem 8.5.6 (Property Theorem for Two Parallel Planes)**, the two planes through the parallel pairs $AA'$, $BB'$ and $CC'$, $DD'$ respectively intersect the plane $\alpha$ in the parallel lines $A'B'$ and $C'D'$.
+Since $AA'\parallel{B}B'\parallel{C}C'\parallel{D}D'$, these four lines are mutually parallel. And $AB\parallel{C}D$ (parallelogram). By **Theorem 8.5.6 (Property Theorem for Two Parallel Planes)**, the two planes through the parallel pairs $AA'$, $BB'$ and $CC'$, $DD'$ respectively intersect the plane $\alpha$ in the parallel lines $A'B'$ and $C'D'$.
 
-Similarly, from $AD\parallel BC$ we obtain $A'D'\parallel B'C'$.
+Similarly, from $AD\parallel{B}C$ we obtain $A'D'\parallel{B}'C'$.
 
 Both pairs of opposite sides of the quadrilateral $A'B'C'D'$ are parallel, so it is a parallelogram. $\blacksquare$
 
@@ -226,39 +226,39 @@ Both pairs of opposite sides of the quadrilateral $A'B'C'D'$ are parallel, so it
 
 By **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
 
-Let the upper face of the cube be $A_{1}B_{1}C_{1}D_{1}$, and $C$ a vertex of the lower face. Join $C_{1}E$. In the upper face $A_{1}B_{1}C_{1}D_{1}$, draw a line $l\perp C_{1}E$ through the point $E$.
+Let the upper face of the cube be $A_{1}B_{1}C_{1}D_{1}$, and $C$ a vertex of the lower face. Join $C_{1}E$. In the upper face $A_{1}B_{1}C_{1}D_{1}$, draw a line $l\perp{C}_{1}E$ through the point $E$.
 
-Since $CC_{1}\perp$ the upper face, $CC_{1}\perp l$. Also $l\perp C_{1}E$ and $CC_{1}\cap C_{1}E=C_{1}$, hence $l\perp$ the plane $CC_{1}E$. As $CE\subset$ the plane $CC_{1}E$, we get $l\perp CE$.
+Since $CC_{1}\perp$ the upper face, $CC_{1}\perp{l}$. Also $l\perp{C}_{1}E$ and $CC_{1}\cap{C}_{1}E=C_{1}$, hence $l\perp$ the plane $CC_{1}E$. As $CE\subset$ the plane $CC_{1}E$, we get $l\perp{C}E$.
 
 Therefore the perpendicular to $C_{1}E$ drawn through $E$ is exactly what is required. $\blacksquare$
 
 ## Problem 9
 
-(Review Exercises 8, Review and Consolidation, Problem 9) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $PC\perp$ the base $ABC$, $AB\perp BC$, and $D$, $E$ are the midpoints of $AB$, $PB$ respectively. Prove that:
+(Review Exercises 8, Review and Consolidation, Problem 9) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $PC\perp$ the base $ABC$, $AB\perp{B}C$, and $D$, $E$ are the midpoints of $AB$, $PB$ respectively. Prove that:
 
 (1) $DE\parallel$ the plane $PAC$;
 
-(2) $AB\perp PB$.
+(2) $AB\perp{P}B$.
 
-(Figure: a tetrahedron $P\text{-}ABC$ with $PC\perp$ base $ABC$ and $\angle ABC=90^{\circ}$ in the base triangle; $D$ is the midpoint of $AB$ and $E$ is the midpoint of $PB$.)
+(Figure: a tetrahedron $P\text{-}ABC$ with $PC\perp$ base $ABC$ and $\angle{A}BC=90^{\circ}$ in the base triangle; $D$ is the midpoint of $AB$ and $E$ is the midpoint of $PB$.)
 
 ### Solution to Problem 9
 
 By **Theorem 8.5.3 (Criterion for a Line to be Parallel to a Plane)** and **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
 
-In $\triangle PAB$, $D$, $E$ are the midpoints of $AB$, $PB$ respectively, so $DE$ is the midline and $DE\parallel PA$.
+In $\triangle{P}AB$, $D$, $E$ are the midpoints of $AB$, $PB$ respectively, so $DE$ is the midline and $DE\parallel{P}A$.
 
 Moreover $PA\subset$ the plane $PAC$ and $DE\not\subset$ the plane $PAC$, so by **Theorem 8.5.3 (Criterion for a Line to be Parallel to a Plane)**, $DE\parallel$ the plane $PAC$.
 
-Since $PC\perp$ the base $ABC$ and $AB\subset$ the base $ABC$, $PC\perp AB$. Also it is given that $AB\perp BC$, and $PC\cap BC=C$, so by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $AB\perp$ the plane $PBC$.
+Since $PC\perp$ the base $ABC$ and $AB\subset$ the base $ABC$, $PC\perp{A}B$. Also it is given that $AB\perp{B}C$, and $PC\cap{B}C=C$, so by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $AB\perp$ the plane $PBC$.
 
-As $PB\subset$ the plane $PBC$, we get $AB\perp PB$. $\blacksquare$
+As $PB\subset$ the plane $PBC$, we get $AB\perp{P}B$. $\blacksquare$
 
 ## Problem 10
 
-(Review Exercises 8, Comprehensive Application, Problem 10) As shown in the figure, in the square $ABCD$ of side length $2$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $BC$. Fold $\triangle AED$, $\triangle BEF$, $\triangle DCF$ along $DE$, $EF$, $DF$ respectively, so that the three points $A$, $B$, $C$ coincide at the point $A'$.
+(Review Exercises 8, Comprehensive Application, Problem 10) As shown in the figure, in the square $ABCD$ of side length $2$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $BC$. Fold $\triangle{A}ED$, $\triangle{B}EF$, $\triangle{D}CF$ along $DE$, $EF$, $DF$ respectively, so that the three points $A$, $B$, $C$ coincide at the point $A'$.
 
-(1) Prove that $A'D\perp EF$;
+(1) Prove that $A'D\perp{E}F$;
 
 (2) Find the volume of the triangular pyramid $A'\text{-}EFD$.
 
@@ -268,18 +268,18 @@ As $PB\subset$ the plane $PBC$, we get $AB\perp PB$. $\blacksquare$
 
 By **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)** and the pyramid volume formula.
 
-Before folding: $EA\perp AD$, $EB\perp BF$, $FC\perp CD$. After folding, $A$, $B$, $C$ coincide at $A'$, so $A'E\perp A'D$, $A'E\perp A'F$, $A'F\perp A'D$.
+Before folding: $EA\perp{A}D$, $EB\perp{B}F$, $FC\perp{C}D$. After folding, $A$, $B$, $C$ coincide at $A'$, so $A'E\perp{A}'D$, $A'E\perp{A}'F$, $A'F\perp{A}'D$.
 
-(1) Since $A'E\perp A'D$, $A'F\perp A'D$ and $A'E\cap A'F=A'$, we have $A'D\perp$ the plane $A'EF$. As $EF\subset$ the plane $A'EF$, it follows that $A'D\perp EF$.
+(1) Since $A'E\perp{A}'D$, $A'F\perp{A}'D$ and $A'E\cap{A}'F=A'$, we have $A'D\perp$ the plane $A'EF$. As $EF\subset$ the plane $A'EF$, it follows that $A'D\perp{E}F$.
 
 (2) From the above, $A'E$, $A'F$, $A'D$ are pairwise perpendicular. $A'E=A'F=1$ ($E$, $F$ are midpoints), and $A'D=AD=2$.
 
-The triangular pyramid $A'\text{-}EFD$ is the same as the triangular pyramid $D\text{-}A'EF$ (taking $A'$ as the apex and $\triangle A'EF$ as the base). $\triangle A'EF$ is a right triangle with area $S=\frac{1}{2}\times 1\times 1=\frac{1}{2}$.
+The triangular pyramid $A'\text{-}EFD$ is the same as the triangular pyramid $D\text{-}A'EF$ (taking $A'$ as the apex and $\triangle{A}'EF$ as the base). $\triangle{A}'EF$ is a right triangle with area $S=\frac{1}{2}\times1\times1=\frac{1}{2}$.
 
 The height is $DA'=2$. Hence the volume
 
 $$
-V=\frac{1}{3}\times\frac{1}{2}\times 2=\frac{1}{3}.
+V=\frac{1}{3}\times\frac{1}{2}\times2=\frac{1}{3}.
 $$
 
 $\blacksquare$
@@ -294,11 +294,11 @@ By **Theorem 8.5.3 (Criterion for a Line to be Parallel to a Plane)**.
 
 Take the midpoint $N$ of $MD$, and join $PN$, $QN$.
 
-In $\triangle BMD$, $P$ is the midpoint of $BM$ and $N$ is the midpoint of $MD$, hence $PN\parallel BD$.
+In $\triangle{B}MD$, $P$ is the midpoint of $BM$ and $N$ is the midpoint of $MD$, hence $PN\parallel{B}D$.
 
-In $\triangle ADC$, $M$ is the midpoint of $AD$ and $N$ is the midpoint of $MD$, so $AN=\frac{3}{4}AD$, i.e. $AN:ND=3:1$. Also $AQ:QC=3:1$, hence in $\triangle ADC$ we have $QN\parallel DC$.
+In $\triangle{A}DC$, $M$ is the midpoint of $AD$ and $N$ is the midpoint of $MD$, so $AN=\frac{3}{4}AD$, i.e. $AN:ND=3:1$. Also $AQ:QC=3:1$, hence in $\triangle{A}DC$ we have $QN\parallel{D}C$.
 
-Since $PN\parallel BD$, $QN\parallel DC$, $PN\cap QN=N$ and $BD\cap DC=D$, by the criterion for two planes to be parallel, the plane $PQN\parallel$ the plane $BCD$.
+Since $PN\parallel{B}D$, $QN\parallel{D}C$, $PN\cap{Q}N=N$ and $BD\cap{D}C=D$, by the criterion for two planes to be parallel, the plane $PQN\parallel$ the plane $BCD$.
 
 As $PQ\subset$ the plane $PQN$, it follows that $PQ\parallel$ the plane $BCD$. $\blacksquare$
 
@@ -308,7 +308,7 @@ As $PQ\subset$ the plane $PQN$, it follows that $PQ\parallel$ the plane $BCD$. $
 
 (1) $B_{1}D\perp$ the plane $A_{1}BC_{1}$;
 
-(2) The intersection $H$ of $B_{1}D$ with the plane $A_{1}BC_{1}$ is the centroid of $\triangle A_{1}C_{1}B$.
+(2) The intersection $H$ of $B_{1}D$ with the plane $A_{1}BC_{1}$ is the centroid of $\triangle{A}_{1}C_{1}B$.
 
 (Figure: a cube $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$, showing the diagonal $B_{1}D$ and the plane $A_{1}BC_{1}$.)
 
@@ -316,46 +316,46 @@ As $PQ\subset$ the plane $PQN$, it follows that $PQ\parallel$ the plane $BCD$. $
 
 By **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
 
-(1) Since $DD_{1}\perp$ the plane $A_{1}B_{1}C_{1}D_{1}$, we have $DD_{1}\perp A_{1}C_{1}$. Also $A_{1}C_{1}\perp B_{1}D_{1}$ (the diagonals of a square are perpendicular), and $DD_{1}\cap B_{1}D_{1}=D_{1}$, hence $A_{1}C_{1}\perp$ the plane $BDD_{1}B_{1}$. As $B_{1}D\subset$ the plane $BDD_{1}B_{1}$, it follows that $A_{1}C_{1}\perp B_{1}D$.
+(1) Since $DD_{1}\perp$ the plane $A_{1}B_{1}C_{1}D_{1}$, we have $DD_{1}\perp{A}_{1}C_{1}$. Also $A_{1}C_{1}\perp{B}_{1}D_{1}$ (the diagonals of a square are perpendicular), and $DD_{1}\cap{B}_{1}D_{1}=D_{1}$, hence $A_{1}C_{1}\perp$ the plane $BDD_{1}B_{1}$. As $B_{1}D\subset$ the plane $BDD_{1}B_{1}$, it follows that $A_{1}C_{1}\perp{B}_{1}D$.
 
-Similarly, $A_{1}B\perp B_{1}C$ (the diagonals of the square $ABB_{1}A_{1}$ are perpendicular, and $BC\perp$ the plane $ABB_{1}A_{1}$), so one can prove $B_{1}D\perp A_{1}B$.
+Similarly, $A_{1}B\perp{B}_{1}C$ (the diagonals of the square $ABB_{1}A_{1}$ are perpendicular, and $BC\perp$ the plane $ABB_{1}A_{1}$), so one can prove $B_{1}D\perp{A}_{1}B$.
 
-Since $A_{1}C_{1}\cap A_{1}B=A_{1}$, by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $B_{1}D\perp$ the plane $A_{1}BC_{1}$.
+Since $A_{1}C_{1}\cap{A}_{1}B=A_{1}$, by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $B_{1}D\perp$ the plane $A_{1}BC_{1}$.
 
-(2) Let the edge length of the cube be $1$, and let $B_{1}D$ meet the plane $A_{1}BC_{1}$ at $H$. By symmetry, $H$ is equidistant from the three points $A_{1}$, $B$, $C_{1}$. Since $\triangle A_{1}BC_{1}$ is an equilateral triangle, its circumcenter, centroid and orthocenter coincide. Hence $H$ is the centroid of $\triangle A_{1}C_{1}B$. $\blacksquare$
+(2) Let the edge length of the cube be $1$, and let $B_{1}D$ meet the plane $A_{1}BC_{1}$ at $H$. By symmetry, $H$ is equidistant from the three points $A_{1}$, $B$, $C_{1}$. Since $\triangle{A}_{1}BC_{1}$ is an equilateral triangle, its circumcenter, centroid and orthocenter coincide. Hence $H$ is the centroid of $\triangle{A}_{1}C_{1}B$. $\blacksquare$
 
 ## Problem 13
 
-(Review Exercises 8, Comprehensive Application, Problem 13) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $\angle ACB=90^{\circ}$ and $PA\perp$ the base $ABC$.
+(Review Exercises 8, Comprehensive Application, Problem 13) As shown in the figure, in the triangular pyramid $P\text{-}ABC$, $\angle{A}CB=90^{\circ}$ and $PA\perp$ the base $ABC$.
 
 (1) Prove that the plane $PAC\perp$ the plane $PBC$;
 
 (2) If $AC=BC=PA$ and $M$ is the midpoint of $PB$, find the tangent of the angle between $AM$ and the plane $PBC$.
 
-(Figure: a tetrahedron $P\text{-}ABC$ with $PA\perp$ base $ABC$ and $\angle ACB=90^{\circ}$ in the base triangle.)
+(Figure: a tetrahedron $P\text{-}ABC$ with $PA\perp$ base $ABC$ and $\angle{A}CB=90^{\circ}$ in the base triangle.)
 
 ### Solution to Problem 13
 
 By **Theorem 8.6.8 (Criterion for Two Planes to be Perpendicular)**.
 
-(1) Since $PA\perp$ the base $ABC$ and $BC\subset$ the base $ABC$, we have $PA\perp BC$. Also $\angle ACB=90^{\circ}$, i.e. $AC\perp BC$. Since $PA\cap AC=A$, it follows that $BC\perp$ the plane $PAC$.
+(1) Since $PA\perp$ the base $ABC$ and $BC\subset$ the base $ABC$, we have $PA\perp{B}C$. Also $\angle{A}CB=90^{\circ}$, i.e. $AC\perp{B}C$. Since $PA\cap{A}C=A$, it follows that $BC\perp$ the plane $PAC$.
 
 As $BC\subset$ the plane $PBC$, by **Theorem 8.6.8 (Criterion for Two Planes to be Perpendicular)**, the plane $PAC\perp$ the plane $PBC$.
 
 (2) Let $AC=BC=PA=a$. Take the midpoint $N$ of $PC$, and join $AN$, $MN$.
 
-Since $PA=AC=a$, $\triangle PAC$ is an isosceles right triangle, and $N$ is the midpoint of $PC$, hence $AN\perp PC$.
+Since $PA=AC=a$, $\triangle{P}AC$ is an isosceles right triangle, and $N$ is the midpoint of $PC$, hence $AN\perp{P}C$.
 
-By (1), the plane $PAC\perp$ the plane $PBC$ with line of intersection $PC$. Since $AN\subset$ the plane $PAC$ and $AN\perp PC$, it follows that $AN\perp$ the plane $PBC$.
+By (1), the plane $PAC\perp$ the plane $PBC$ with line of intersection $PC$. Since $AN\subset$ the plane $PAC$ and $AN\perp{P}C$, it follows that $AN\perp$ the plane $PBC$.
 
-$MN$ is the midline of $\triangle PBC$, so $MN\parallel BC$ and $MN=\frac{1}{2}BC=\frac{a}{2}$.
+$MN$ is the midline of $\triangle{P}BC$, so $MN\parallel{B}C$ and $MN=\frac{1}{2}BC=\frac{a}{2}$.
 
-The projection of $AM$ onto the plane $PBC$ is $NM$, so $\angle AMN$ is the angle between $AM$ and the plane $PBC$.
+The projection of $AM$ onto the plane $PBC$ is $NM$, so $\angle{A}MN$ is the angle between $AM$ and the plane $PBC$.
 
 $AN=\frac{\sqrt{2}}{2}a$, $MN=\frac{a}{2}$. Hence
 
 $$
-\tan\angle AMN=\frac{AN}{MN}=\frac{\frac{\sqrt{2}}{2}a}{\frac{a}{2}}=\sqrt{2}.
+\tan\angle{A}MN=\frac{AN}{MN}=\frac{\frac{\sqrt{2}}{2}a}{\frac{a}{2}}=\sqrt{2}.
 $$
 
 $\blacksquare$
@@ -374,23 +374,23 @@ $\blacksquare$
 
 By **Theorem 8.6.9 (Property Theorem for Two Perpendicular Planes)** and **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**.
 
-(1) Since the lateral face $PAD\perp$ the base $ABCD$ with line of intersection $AD$, and the base $ABCD$ is a square, we have $CD\perp AD$. By the property of two perpendicular planes, $CD\perp$ the plane $PAD$.
+(1) Since the lateral face $PAD\perp$ the base $ABCD$ with line of intersection $AD$, and the base $ABCD$ is a square, we have $CD\perp{A}D$. By the property of two perpendicular planes, $CD\perp$ the plane $PAD$.
 
-As $AM\subset$ the plane $PAD$, it follows that $CD\perp AM$.
+As $AM\subset$ the plane $PAD$, it follows that $CD\perp{A}M$.
 
-Also $\triangle PAD$ is an equilateral triangle and $M$ is the midpoint of $PD$, hence $AM\perp PD$.
+Also $\triangle{P}AD$ is an equilateral triangle and $M$ is the midpoint of $PD$, hence $AM\perp{P}D$.
 
-Since $CD\cap PD=D$, by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $AM\perp$ the plane $PCD$.
+Since $CD\cap{P}D=D$, by **Theorem 8.6.4 (Criterion for a Line to be Perpendicular to a Plane)**, $AM\perp$ the plane $PCD$.
 
 (2) Take the midpoint $O$ of $AD$ and the midpoint $E$ of $BC$, and join $PO$, $OE$, $PE$.
 
-$\triangle PAD$ is an equilateral triangle and $O$ is the midpoint of $AD$, hence $PO\perp AD$. Also the plane $PAD\perp$ the base $ABCD$, so $PO\perp$ the base $ABCD$.
+$\triangle{P}AD$ is an equilateral triangle and $O$ is the midpoint of $AD$, hence $PO\perp{A}D$. Also the plane $PAD\perp$ the base $ABCD$, so $PO\perp$ the base $ABCD$.
 
-Since $OE\parallel AB\parallel CD$, we have $OE\perp BC$. By the theorem of three perpendiculars, $PE\perp BC$. Hence $\angle PEO$ is the plane angle of the dihedral angle formed by the lateral face $PBC$ and the base $ABCD$.
+Since $OE\parallel{A}B\parallel{C}D$, we have $OE\perp{B}C$. By the theorem of three perpendiculars, $PE\perp{B}C$. Hence $\angle{P}EO$ is the plane angle of the dihedral angle formed by the lateral face $PBC$ and the base $ABCD$.
 
 Let the side length of the square be $a$. Then $PO=\frac{\sqrt{3}}{2}a$, $OE=a$, and $PE=\sqrt{PO^{2}+OE^{2}}=\sqrt{\frac{3}{4}a^{2}+a^{2}}=\frac{\sqrt{7}}{2}a$.
 
-Hence $\cos\angle PEO=\frac{OE}{PE}=\frac{a}{\frac{\sqrt{7}}{2}a}=\frac{2}{\sqrt{7}}=\frac{2\sqrt{7}}{7}$. $\blacksquare$
+Hence $\cos\angle{P}EO=\frac{OE}{PE}=\frac{a}{\frac{\sqrt{7}}{2}a}=\frac{2}{\sqrt{7}}=\frac{2\sqrt{7}}{7}$. $\blacksquare$
 
 ## Problem 15
 
@@ -402,9 +402,9 @@ By **Theorem 8.6.5 (Property Theorem for a Line Perpendicular to a Plane)** and 
 
 (1) If $a\parallel\omega$ and $b\parallel\omega$, then $a$ and $b$ may be parallel, intersecting or skew; they need not be parallel.
 
-(2) If $a\perp\omega$ and $b\perp\omega$, then $a\parallel b$ (**Theorem 8.6.5 (Property of Perpendicular Lines and Planes)**).
+(2) If $a\perp\omega$ and $b\perp\omega$, then $a\parallel{b}$ (**Theorem 8.6.5 (Property of Perpendicular Lines and Planes)**).
 
-(3) If $a\parallel\omega$ and $b\perp\omega$, then $a\perp b$.
+(3) If $a\parallel\omega$ and $b\perp\omega$, then $a\perp{b}$.
 
 For the line $m$ and the planes $\alpha$, $\beta$:
 
@@ -418,7 +418,7 @@ For the line $m$ and the planes $\alpha$, $\beta$:
 
 ## Problem 16
 
-(Review Exercises 8, Extension and Exploration, Problem 16) Given that $m$, $n$ are skew lines, $m\perp$ the plane $\alpha$ and $n\perp$ the plane $\beta$. If the line $l$ satisfies $l\perp m$, $l\perp n$, $l\not\subset\alpha$, $l\not\subset\beta$, then ( ).
+(Review Exercises 8, Extension and Exploration, Problem 16) Given that $m$, $n$ are skew lines, $m\perp$ the plane $\alpha$ and $n\perp$ the plane $\beta$. If the line $l$ satisfies $l\perp{m}$, $l\perp{n}$, $l\not\subset\alpha$, $l\not\subset\beta$, then ( ).
 
 (A) $\alpha\parallel\beta$, $l\parallel\alpha$; (B) $\alpha$ and $\beta$ intersect, and the line of intersection is parallel to $l$; (C) $\alpha\perp\beta$, $l\perp\beta$; (D) $\alpha$ and $\beta$ intersect, and the line of intersection is perpendicular to $l$.
 
@@ -426,9 +426,9 @@ For the line $m$ and the planes $\alpha$, $\beta$:
 
 By **Theorem 8.6.5 (Property Theorem for a Line Perpendicular to a Plane)**.
 
-Since $m\perp\alpha$, $n\perp\beta$ and $m$, $n$ are skew lines, $\alpha$ and $\beta$ are not parallel (if $\alpha\parallel\beta$, then by an analogous conclusion of **Theorem 8.6.5 (Property of Perpendicular Lines and Planes)**, $m\parallel n$, contradicting that $m$, $n$ are skew). Hence $\alpha$ and $\beta$ intersect.
+Since $m\perp\alpha$, $n\perp\beta$ and $m$, $n$ are skew lines, $\alpha$ and $\beta$ are not parallel (if $\alpha\parallel\beta$, then by an analogous conclusion of **Theorem 8.6.5 (Property of Perpendicular Lines and Planes)**, $m\parallel{n}$, contradicting that $m$, $n$ are skew). Hence $\alpha$ and $\beta$ intersect.
 
-We have $l\perp m$, $l\perp n$. Through $l$ draw a plane; from $m\perp\alpha$ and $n\perp\beta$ one deduces that $l$ is parallel to the line of intersection of $\alpha$ and $\beta$.
+We have $l\perp{m}$, $l\perp{n}$. Through $l$ draw a plane; from $m\perp\alpha$ and $n\perp\beta$ one deduces that $l$ is parallel to the line of intersection of $\alpha$ and $\beta$.
 
 Hence the answer is (B). $\blacksquare$
 
@@ -464,13 +464,13 @@ By **Definition 9.2.3 (Mode, Median and Mean)** and **Definition 9.2.4 (Populati
 
 (2) For (B): for example, $2,2,3,4,6$ has median 3 and mode 2, in which 6 appears. Hence (B) cannot determine that 6 definitely did not appear.
 
-(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum\left(x_i-\overline x\right)^2=5\times2.4=12$, i.e.
+(3) For (C): if the mean is 2, then the sum of the 5 rolls is $5\times2=10$. If the variance is 2.4, then $\sum\left(x_i-\overline{x}\right)^2=5\times2.4=12$, i.e.
 
 $$
-\sum x_i^2=\sum\left(x_i-\overline x\right)^2+n\overline x^2=12+5\times4=32.
+\sum{x}_i^2=\sum\left(x_i-\overline{x}\right)^2+n\overline{x}^2=12+5\times4=32.
 $$
 
-If 6 appeared once, then the sum of the other 4 rolls would be $10-6=4$, i.e. the other 4 rolls are all 1; in this case the sum of squares would be $6^2+4\times1^2=40> 32$, a contradiction. Hence 6 definitely did not appear.
+If 6 appeared once, then the sum of the other 4 rolls would be $10-6=4$, i.e. the other 4 rolls are all 1; in this case the sum of squares would be $6^2+4\times1^2=40>32$, a contradiction. Hence 6 definitely did not appear.
 
 (4) For (D): for example, $1,2,3,3,6$ has median 3 and mean 3, and its variance is $\frac{\left(1-3\right)^2+\left(2-3\right)^2+0+0+\left(6-3\right)^2}{5}=\frac{14}{5}=2.8$, in which 6 appears. Hence (D) cannot determine that 6 definitely did not appear.
 
@@ -517,7 +517,7 @@ By **Definition 9.2.1 (Frequency Distribution Table and Frequency Distribution H
 (2) Under proportional allocation, the number drawn from each department is proportional to the number of employees in that department. This department accounts for $\frac{m}{N}$ of all employees, so the number of employees drawn from this department is
 
 $$
-\frac{m}{N}\cdot n=\frac{mn}{N}.
+\frac{m}{N}\cdot{n}=\frac{mn}{N}.
 $$
 
 $\blacksquare$

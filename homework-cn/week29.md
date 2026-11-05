@@ -98,15 +98,15 @@
 
 ### 解答 习题一
 
-由**常用结论 7.3.7** (乘, 除运算的几何意义), 逆时针旋转 $45^{\circ}$ 即乘以 $\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}$, 顺时针旋转 $60^{\circ}$ 即乘以 $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$.
+由**常用结论 7.3.7** (乘, 除运算的几何意义), 逆时针旋转 $45^{\circ}$ 即乘以 $\cos45^{\circ}+\mathrm{i}\sin45^{\circ}$, 顺时针旋转 $60^{\circ}$ 即乘以 $\cos\left(-60^{\circ}\right)+\mathrm{i}\sin\left(-60^{\circ}\right)$.
 
 先将 $z=\sqrt{3}-\mathrm{i}$ 化为三角形式: $r=\sqrt{3+1}=2$, $\arg=-\frac{\pi}{6}=330^{\circ}$.
 
 (1) 逆时针旋转 $45^{\circ}$:
 
-由**定义 7.3.5 (复数乘法的三角表示)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos 45^{\circ}+\mathrm{i}\sin 45^{\circ}\right)=2\left[\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right]$.
+由**定义 7.3.5 (复数乘法的三角表示)**, $2\left[\cos\left(-30^{\circ}\right)+\mathrm{i}\sin\left(-30^{\circ}\right)\right]\cdot\left(\cos45^{\circ}+\mathrm{i}\sin45^{\circ}\right)=2\left[\cos15^{\circ}+\mathrm{i}\sin15^{\circ}\right]$.
 
-化为代数形式: $2\left(\cos 15^{\circ}+\mathrm{i}\sin 15^{\circ}\right)=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
+化为代数形式: $2\left(\cos15^{\circ}+\mathrm{i}\sin15^{\circ}\right)=2\cdot\frac{\sqrt{6}+\sqrt{2}}{4}+2\cdot\frac{\sqrt{6}-\sqrt{2}}{4}\mathrm{i}=\frac{\sqrt{6}+\sqrt{2}}{2}+\frac{\sqrt{6}-\sqrt{2}}{2}\mathrm{i}$.
 
 (2) 顺时针旋转 $60^{\circ}$:
 
@@ -116,7 +116,7 @@ $\blacksquare$
 
 ## 习题二
 
-(习题 7.3 拓广探索第 9 题) 如下页图, 复平面内的 $\triangle ABC$ 是等边三角形, 它的两个顶点 $A$, $B$ 的坐标分别为 $\left(1,0\right)$, $\left(2,1\right)$, 求点 $C$ 的坐标.
+(习题 7.3 拓广探索第 9 题) 如下页图, 复平面内的 $\triangle{A}BC$ 是等边三角形, 它的两个顶点 $A$, $B$ 的坐标分别为 $\left(1,0\right)$, $\left(2,1\right)$, 求点 $C$ 的坐标.
 
 ### 解答 习题二
 
@@ -127,7 +127,7 @@ $\blacksquare$
 将 $\boldsymbol{AB}$ 绕点 $A$ 逆时针旋转 $60^{\circ}$, 得
 
 $$
-\left(1+\mathrm{i}\right)\left(\cos 60^{\circ}+\mathrm{i}\sin 60^{\circ}\right)=\left(1+\mathrm{i}\right)\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
+\left(1+\mathrm{i}\right)\left(\cos60^{\circ}+\mathrm{i}\sin60^{\circ}\right)=\left(1+\mathrm{i}\right)\left(\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}\right)=\frac{1-\sqrt{3}}{2}+\frac{1+\sqrt{3}}{2}\mathrm{i}.
 $$
 
 故点 $C$ 对应的复数为
@@ -148,21 +148,21 @@ $$
 
 ## 习题三
 
-(习题 7.3 拓广探索第 10 题) 如下页图, 已知平面内并列的三个全等的正方形, 利用复数证明 $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$.
+(习题 7.3 拓广探索第 10 题) 如下页图, 已知平面内并列的三个全等的正方形, 利用复数证明 $\angle1+\angle2+\angle3=\frac{\pi}{2}$.
 
 ### 解答 习题三
 
 由**定义 7.3.2 (辐角)** 与**定义 7.3.5 (复数乘法的三角表示)**, 三个角分别对应三个复数的辐角.
 
-设三个正方形边长为 $1$. 由图, $\angle 1$ 对应复数 $1+\mathrm{i}$ 的辐角, $\angle 2$ 对应复数 $2+\mathrm{i}$ 的辐角, $\angle 3$ 对应复数 $3+\mathrm{i}$ 的辐角.
+设三个正方形边长为 $1$. 由图, $\angle1$ 对应复数 $1+\mathrm{i}$ 的辐角, $\angle2$ 对应复数 $2+\mathrm{i}$ 的辐角, $\angle3$ 对应复数 $3+\mathrm{i}$ 的辐角.
 
 由**定义 7.3.5 (复数乘法的三角表示)**, 三个复数相乘后, 积的辐角等于各辐角之和. 计算
 
 $$
-\left(1+\mathrm{i}\right)\left(2+\mathrm{i}\right)\left(3+\mathrm{i}\right)=\left(1+\mathrm{i}\right)\left(5+5\mathrm{i}\right)=5\left(1+\mathrm{i}\right)^2=5\cdot 2\mathrm{i}=10\mathrm{i}.
+\left(1+\mathrm{i}\right)\left(2+\mathrm{i}\right)\left(3+\mathrm{i}\right)=\left(1+\mathrm{i}\right)\left(5+5\mathrm{i}\right)=5\left(1+\mathrm{i}\right)^2=5\cdot2\mathrm{i}=10\mathrm{i}.
 $$
 
-积 $10\mathrm{i}$ 的辐角为 $\frac{\pi}{2}$. 又三个角均为锐角, 其和在 $\left(0,\frac{3\pi}{2}\right)$ 内, 故 $\angle 1+\angle 2+\angle 3=\frac{\pi}{2}$. $\blacksquare$
+积 $10\mathrm{i}$ 的辐角为 $\frac{\pi}{2}$. 又三个角均为锐角, 其和在 $\left(0,\frac{3\pi}{2}\right)$ 内, 故 $\angle1+\angle2+\angle3=\frac{\pi}{2}$. $\blacksquare$
 
 ## 探究与发现一
 
@@ -170,7 +170,7 @@ $$
 
 ### 解答 探究与发现一
 
-由**定理 7.3.8 (棣莫弗定理)**, $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos n\theta+\mathrm{i}\sin n\theta\right)$.
+由**定理 7.3.8 (棣莫弗定理)**, $\left[r\left(\cos\theta+\mathrm{i}\sin\theta\right)\right]^n=r^n\left(\cos{n}\theta+\mathrm{i}\sin{n}\theta\right)$.
 
 复数乘方的几何意义为: 将复数对应的向量绕原点 $O$ 每次旋转角 $\theta$ 并将模伸长为原来的 $r$ 倍, 重复 $n$ 次, 最终得到模为 $r^n$, 辐角为 $n\theta$ 的向量. 即连续旋转 $n$ 次角 $\theta$, 连续伸缩 $n$ 次为原来的 $r$ 倍. $\blacksquare$
 
@@ -182,11 +182,11 @@ $$
 
 由**定理 7.3.8 (棣莫弗定理)**, $\omega_k=\cos\frac{2k\pi}{3}+\mathrm{i}\sin\frac{2k\pi}{3}$.
 
-(1) 由棣莫弗定理, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos 2k\pi+\mathrm{i}\sin 2k\pi=1$. 模 $\lvert\omega_k\rvert=1$.
+(1) 由棣莫弗定理, $\omega_k^3=\cos\frac{6k\pi}{3}+\mathrm{i}\sin\frac{6k\pi}{3}=\cos2k\pi+\mathrm{i}\sin2k\pi=1$. 模 $\lvert\omega_k\rvert=1$.
 
 (2) $\omega_1=\cos\frac{2\pi}{3}+\mathrm{i}\sin\frac{2\pi}{3}=-\frac{1}{2}+\frac{\sqrt{3}}{2}\mathrm{i}$, $\omega_2=\cos\frac{4\pi}{3}+\mathrm{i}\sin\frac{4\pi}{3}=-\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$. 实部相等, 虚部互为相反数, 故互为共轭复数.
 
-(3) 当 $k=1$ 时, $1+\omega_1+\omega_1^2$. 由 $\omega_1^3=1$, 得 $\left(\omega_1-1\right)\left(\omega_1^2+\omega_1+1\right)=0$. 又 $\omega_1\neq 1$, 故 $\omega_1^2+\omega_1+1=0$. 同理当 $k=2$ 时, $1+\omega_2+\omega_2^2=0$. $\blacksquare$
+(3) 当 $k=1$ 时, $1+\omega_1+\omega_1^2$. 由 $\omega_1^3=1$, 得 $\left(\omega_1-1\right)\left(\omega_1^2+\omega_1+1\right)=0$. 又 $\omega_1\neq1$, 故 $\omega_1^2+\omega_1+1=0$. 同理当 $k=2$ 时, $1+\omega_2+\omega_2^2=0$. $\blacksquare$
 
 ## 探究与发现三
 
@@ -194,15 +194,15 @@ $$
 
 ### 解答 探究与发现三
 
-设 $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\ \left(\rho> 0\right)$ 是 $1$ 的 $n$ 次方根, 则 $z^n=1=\cos 0+\mathrm{i}\sin 0$. 由**定理 7.3.8 (棣莫弗定理)**,
+设 $z=\rho\left(\cos\varphi+\mathrm{i}\sin\varphi\right)\,\left(\rho>0\right)$ 是 $1$ 的 $n$ 次方根, 则 $z^n=1=\cos0+\mathrm{i}\sin0$. 由**定理 7.3.8 (棣莫弗定理)**,
 
 $$
-z^n=\rho^n\left(\cos n\varphi+\mathrm{i}\sin n\varphi\right)=\cos 0+\mathrm{i}\sin 0.
+z^n=\rho^n\left(\cos{n}\varphi+\mathrm{i}\sin{n}\varphi\right)=\cos0+\mathrm{i}\sin0.
 $$
 
-由**定义 7.3.4 (非零复数相等的三角形式条件)**, $\rho^n=1$ 且 $n\varphi=0+2k\pi\ \left(k\in\mathbb Z\right)$. 因 $\rho> 0$, 故 $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
+由**定义 7.3.4 (非零复数相等的三角形式条件)**, $\rho^n=1$ 且 $n\varphi=0+2k\pi\,\left(k\in\mathbb{Z}\right)$. 因 $\rho>0$, 故 $\rho=1$, $\varphi=\frac{2k\pi}{n}$.
 
-由三角函数的周期性, $k=0,1,\cdots,n-1$ 给出 $n$ 个不同的根: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\ \left(k=0,1,\cdots,n-1\right)$.
+由三角函数的周期性, $k=0,1,\cdots,n-1$ 给出 $n$ 个不同的根: $\omega_k=\cos\frac{2k\pi}{n}+\mathrm{i}\sin\frac{2k\pi}{n}\,\left(k=0,1,\cdots,n-1\right)$.
 
 几何意义: 这 $n$ 个根对应的点均匀分布在以原点为圆心的单位圆上, 是单位圆的内接正 $n$ 边形的顶点, 其中 $\omega_0=1$ 恰为单位圆与实轴正半轴的交点.
 
@@ -230,7 +230,7 @@ $$
 
 ## 练习二
 
-(练习 8.1 第 2 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(练习 8.1 第 2 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 长方体是四棱柱, 直四棱柱是长方体.
 
@@ -408,7 +408,7 @@ $$
 
 ## 习题九
 
-(习题 8.1 综合运用第 6 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(习题 8.1 综合运用第 6 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 一个棱柱至少有 $5$ 个面.
 
@@ -446,27 +446,27 @@ $$
 
 ## 习题十一
 
-(习题 8.1 综合运用第 8 题) 如图, 长方体 $ABCD\text{-}A'B'C'D'$ 被一个平面截成两个几何体, 其中 $EH\parallel B'C'\parallel FG$. 请说出这两个几何体的名称.
+(习题 8.1 综合运用第 8 题) 如图, 长方体 $ABCD\text{-}A'B'C'D'$ 被一个平面截成两个几何体, 其中 $EH\parallel{B}'C'\parallel{F}G$. 请说出这两个几何体的名称.
 
-图:长方体 $ABCD\text{-}A'B'C'D'$ 被一个平面截取,截面 $EFGH$ 平行于侧面 $BCC'B'$,其中 $EH\parallel B'C'\parallel FG$,将长方体分为两部分.
+图:长方体 $ABCD\text{-}A'B'C'D'$ 被一个平面截取,截面 $EFGH$ 平行于侧面 $BCC'B'$,其中 $EH\parallel{B}'C'\parallel{F}G$,将长方体分为两部分.
 
 ### 解答 习题十一
 
 由**定义 8.1.4 (棱柱)**, 有两个面互相平行, 其余各面都是四边形, 且相邻四边形公共边互相平行的多面体是棱柱.
 
-因为 $EH\parallel B'C'\parallel FG$, 截面 $EFGH$ 平行于长方体的侧面 $BCC'B'$. 截面将长方体截为两部分, 每一部分都有两个互相平行的面 (分别为截面和长方体相对的一个侧面), 其余各面都是四边形, 且相邻四边形的公共边互相平行. 故截得的两个几何体都是棱柱: 含顶点 $A$ 的一侧为一个四棱柱, 含顶点 $B'$ 的一侧也为一个四棱柱. $\blacksquare$
+因为 $EH\parallel{B}'C'\parallel{F}G$, 截面 $EFGH$ 平行于长方体的侧面 $BCC'B'$. 截面将长方体截为两部分, 每一部分都有两个互相平行的面 (分别为截面和长方体相对的一个侧面), 其余各面都是四边形, 且相邻四边形的公共边互相平行. 故截得的两个几何体都是棱柱: 含顶点 $A$ 的一侧为一个四棱柱, 含顶点 $B'$ 的一侧也为一个四棱柱. $\blacksquare$
 
 ## 习题十二
 
-(习题 8.1 综合运用第 9 题) 如图, 以 $\square ABCD$ 的一边 $AB$ 所在直线为轴, 其他三边旋转一周形成的面围成一个几何体. 画出这个几何体的图形, 并说出其中的简单几何体及有关的结构特征.
+(习题 8.1 综合运用第 9 题) 如图, 以 $\square{A}BCD$ 的一边 $AB$ 所在直线为轴, 其他三边旋转一周形成的面围成一个几何体. 画出这个几何体的图形, 并说出其中的简单几何体及有关的结构特征.
 
-图:平行四边形 $ABCD$,边 $AB$ 水平(作为旋转轴),$CD\parallel AB$,$AD$ 与 $BC$ 为两条侧边;过 $D,C$ 分别作 $AB$ 的垂线,垂足为 $E,F$.
+图:平行四边形 $ABCD$,边 $AB$ 水平(作为旋转轴),$CD\parallel{A}B$,$AD$ 与 $BC$ 为两条侧边;过 $D,C$ 分别作 $AB$ 的垂线,垂足为 $E,F$.
 
 ### 解答 习题十二
 
 由**定义 8.1.3 (旋转体)** 及**定义 8.1.16 (简单组合体)**, 平行四边形绕一边旋转一周形成旋转体.
 
-设平行四边形 $ABCD$ 中, $AB$ 为旋转轴, $CD\parallel AB$, $AD$ 与 $BC$ 为两条侧边. 过 $D$, $C$ 分别作 $AB$ 的垂线, 垂足为 $E$, $F$. 旋转一周后, $DE$ 与 $CF$ 旋转成圆面, $AE$ 所在边 $AD$ 与 $BC$ 旋转成曲面.
+设平行四边形 $ABCD$ 中, $AB$ 为旋转轴, $CD\parallel{A}B$, $AD$ 与 $BC$ 为两条侧边. 过 $D$, $C$ 分别作 $AB$ 的垂线, 垂足为 $E$, $F$. 旋转一周后, $DE$ 与 $CF$ 旋转成圆面, $AE$ 所在边 $AD$ 与 $BC$ 旋转成曲面.
 
 围成的几何体是一个圆柱 (由矩形 $DEFC$ 绕 $EF$ 旋转而成) 挖去或加上两个全等的圆锥 (由直角三角形 $ADE$ 与 $BCF$ 旋转而成). 由于 $AD$ 与 $BC$ 是从轴 $AB$ 出发向外倾斜的边, 该几何体为一个圆柱两端各拼接一个 (或挖去一个) 圆锥的组合体, 即一个圆柱与两个圆锥的组合体. $\blacksquare$
 
@@ -488,7 +488,7 @@ $$
 
 ## 练习九
 
-(练习 8.2 第 1 题) 用斜二测画法画水平放置的平面图形的直观图时, 下列结论是否正确? 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(练习 8.2 第 1 题) 用斜二测画法画水平放置的平面图形的直观图时, 下列结论是否正确? 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 相等的线段在直观图中仍然相等.
 
@@ -500,7 +500,7 @@ $$
 
 ### 解答 练习九
 
-由**定义 8.2.2 (斜二测画法)**, 平行于 $x$ 轴的线段长度不变, 平行于 $y$ 轴的线段长度减半, 且 $\angle x'O'y'=45^{\circ}$.
+由**定义 8.2.2 (斜二测画法)**, 平行于 $x$ 轴的线段长度不变, 平行于 $y$ 轴的线段长度减半, 且 $\angle{x}'O'y'=45^{\circ}$.
 
 (1) 错误. 原图形中两条长度相等的线段, 若一条平行于 $x$ 轴, 另一条平行于 $y$ 轴, 则在直观图中前者长度不变, 后者长度减半, 不再相等.
 
@@ -532,19 +532,19 @@ $$
 
 ## 练习十一
 
-(练习 8.2 第 1 题) 用斜二测画法画一个棱长为 $3\text{ cm}$ 的正方体的直观图.
+(练习 8.2 第 1 题) 用斜二测画法画一个棱长为 $3\text{~cm}$ 的正方体的直观图.
 
-图:棱长为 $3\text{ cm}$ 的正方体的斜二测直观图——底面为夹角 $45^{\circ}$ 的平行四边形($x$ 方向长 $3\text{ cm}$,$y$ 方向长 $1.5\text{ cm}$),竖直方向棱长长 $3\text{ cm}$,被遮挡的棱画为虚线.
+图:棱长为 $3\text{~cm}$ 的正方体的斜二测直观图——底面为夹角 $45^{\circ}$ 的平行四边形($x$ 方向长 $3\text{~cm}$,$y$ 方向长 $1.5\text{~cm}$),竖直方向棱长长 $3\text{~cm}$,被遮挡的棱画为虚线.
 
 ### 解答 练习十一
 
 由**定义 8.2.2 (斜二测画法)** 及**常用结论 8.2.3** (画几何体直观图的 $z$ 轴), 取过一个顶点的三条棱分别为 $x$, $y$, $z$ 轴.
 
-画法: (1) 画轴. 画 $x$ 轴, $y$ 轴, $z$ 轴, 三轴相交于点 $O$, 使 $\angle xOy=45^{\circ}$, $\angle xOz=90^{\circ}$.
+画法: (1) 画轴. 画 $x$ 轴, $y$ 轴, $z$ 轴, 三轴相交于点 $O$, 使 $\angle{x}Oy=45^{\circ}$, $\angle{x}Oz=90^{\circ}$.
 
-(2) 画底面. 在 $x$ 轴正半轴上取 $AB=3\text{ cm}$, 在 $y$ 轴正半轴上取 $AD=1.5\text{ cm}$; 过 $B$ 作 $y$ 轴平行线, 过 $D$ 作 $x$ 轴平行线, 交点为 $C$, 得底面 $ABCD$ 的直观图.
+(2) 画底面. 在 $x$ 轴正半轴上取 $AB=3\text{~cm}$, 在 $y$ 轴正半轴上取 $AD=1.5\text{~cm}$; 过 $B$ 作 $y$ 轴平行线, 过 $D$ 作 $x$ 轴平行线, 交点为 $C$, 得底面 $ABCD$ 的直观图.
 
-(3) 画侧棱. 在 $z$ 轴正半轴上取 $AA'=3\text{ cm}$, 过 $B$, $C$, $D$ 分别作 $z$ 轴平行线, 在其上截取 $BB'=CC'=DD'=3\text{ cm}$.
+(3) 画侧棱. 在 $z$ 轴正半轴上取 $AA'=3\text{~cm}$, 过 $B$, $C$, $D$ 分别作 $z$ 轴平行线, 在其上截取 $BB'=CC'=DD'=3\text{~cm}$.
 
 (4) 成图. 顺次连接 $A'$, $B'$, $C'$, $D'$, 去掉辅助线, 将被遮挡部分改为虚线, 即得正方体的直观图. $\blacksquare$
 
@@ -574,7 +574,7 @@ $$
 
 由**定义 8.2.1 (直观图)**, 先分析组合体结构, 再分别画出各简单几何体的直观图.
 
-画法: (1) 画轴. 画 $x$ 轴, $z$ 轴, 使 $\angle xOz=90^{\circ}$.
+画法: (1) 画轴. 画 $x$ 轴, $z$ 轴, 使 $\angle{x}Oz=90^{\circ}$.
 
 (2) 画圆柱的下底面. 以轴上一点为中心, 用椭圆模板画椭圆作为下底面.
 
@@ -584,7 +584,7 @@ $$
 
 ## 习题十四
 
-(习题 8.2 复习巩固第 1 题) 用斜二测画法画水平放置的平面图形的直观图时, 下列结论是否正确? 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(习题 8.2 复习巩固第 1 题) 用斜二测画法画水平放置的平面图形的直观图时, 下列结论是否正确? 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 三角形的直观图是三角形.
 
@@ -626,18 +626,18 @@ $$
 
 ## 习题十六
 
-(习题 8.2 复习巩固第 3 题) 用斜二测画法画出底面边长为 $2\text{ cm}$, 侧棱长为 $3\text{ cm}$ 的正三棱柱的直观图.
+(习题 8.2 复习巩固第 3 题) 用斜二测画法画出底面边长为 $2\text{~cm}$, 侧棱长为 $3\text{~cm}$ 的正三棱柱的直观图.
 
-图:底面边长 $2\text{ cm}$,侧棱长 $3\text{ cm}$ 的正三棱柱的斜二测直观图——下底面为正三角形的斜二测投影(底边 $2\text{ cm}$,高减半),侧棱竖直长 $3\text{ cm}$,被遮挡部分画虚线.
+图:底面边长 $2\text{~cm}$,侧棱长 $3\text{~cm}$ 的正三棱柱的斜二测直观图——下底面为正三角形的斜二测投影(底边 $2\text{~cm}$,高减半),侧棱竖直长 $3\text{~cm}$,被遮挡部分画虚线.
 
 ### 解答 习题十六
 
 由**定义 8.2.2 (斜二测画法)** 及**常用结论 8.2.3** (画几何体直观图的 $z$ 轴).
 
-画法: (1) 画轴. 画 $x$ 轴, $y$ 轴, $z$ 轴, 使 $\angle xOy=45^{\circ}$, $\angle xOz=90^{\circ}$.
+画法: (1) 画轴. 画 $x$ 轴, $y$ 轴, $z$ 轴, 使 $\angle{x}Oy=45^{\circ}$, $\angle{x}Oz=90^{\circ}$.
 
-(2) 画下底面. 用斜二测画法画边长为 $2\text{ cm}$ 的正三角形的水平放置直观图: 取一边为 $x$ 轴, 该边上高为 $y$ 轴, $x'$ 轴上边长不变, $y'$ 轴上高长减半.
+(2) 画下底面. 用斜二测画法画边长为 $2\text{~cm}$ 的正三角形的水平放置直观图: 取一边为 $x$ 轴, 该边上高为 $y$ 轴, $x'$ 轴上边长不变, $y'$ 轴上高长减半.
 
-(3) 画侧棱. 过下底面各顶点作 $z$ 轴平行线, 截取侧棱长 $3\text{ cm}$, 得上底面各对应顶点.
+(3) 画侧棱. 过下底面各顶点作 $z$ 轴平行线, 截取侧棱长 $3\text{~cm}$, 得上底面各对应顶点.
 
 (4) 成图. 顺次连接上底面各顶点, 整理去掉辅助线, 被遮挡部分画虚线, 得正三棱柱直观图. $\blacksquare$

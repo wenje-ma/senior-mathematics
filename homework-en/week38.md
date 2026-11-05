@@ -92,7 +92,7 @@ $$
 P\left(A\right)=\frac{6}{16}=\frac{3}{8}=0.375.
 $$
 
-(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate $0, 1$ random numbers, with $1$ for heads and $0$ for tails; each group of $4$ random numbers represents one simulated trial. Repeat $80$ times, count the groups in which exactly $2$ entries equal $1$, denoted $n_A$; then the frequency of event $A$ occurring is $f_{80}\left(A\right)=\frac{n_A}{80}$. By **Definition 10.3.1 (Stability of Frequency)**, this frequency should fluctuate around $0.375$. $\blacksquare$
+(2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate $0,1$ random numbers, with $1$ for heads and $0$ for tails; each group of $4$ random numbers represents one simulated trial. Repeat $80$ times, count the groups in which exactly $2$ entries equal $1$, denoted $n_A$; then the frequency of event $A$ occurring is $f_{80}\left(A\right)=\frac{n_A}{80}$. By **Definition 10.3.1 (Stability of Frequency)**, this frequency should fluctuate around $0.375$. $\blacksquare$
 
 ## Exercise 3
 
@@ -116,7 +116,7 @@ By **Definition 10.1.6 (Certain Event)** and **Definition 10.1.7 (Impossible Eve
 
 (3) The box contains only white and black balls, so "the ball drawn is white or black" always occurs; it is a certain event, with probability $1$.
 
-(4) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers taking values in the set $\left\{1, 2, \cdots, 9\right\}$; use $1, 2, 3, 4$ for white balls and $5, 6, 7, 8, 9$ for black balls. Each random number generated completes one simulated draw; repeat $100$ times, count the occurrences of $1, 2, 3, 4$, denoted $n_A$; then the frequency $f_{100}\left(A\right)=\frac{n_A}{100}$ is the estimated value of the probability of "drawing a white ball". By **Definition 10.3.1 (Stability of Frequency)**, this frequency should be around $\frac{4}{9}\approx 0.444$. $\blacksquare$
+(4) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers taking values in the set $\left\{1,2,\cdots,9\right\}$; use $1,2,3,4$ for white balls and $5,6,7,8,9$ for black balls. Each random number generated completes one simulated draw; repeat $100$ times, count the occurrences of $1,2,3,4$, denoted $n_A$; then the frequency $f_{100}\left(A\right)=\frac{n_A}{100}$ is the estimated value of the probability of "drawing a white ball". By **Definition 10.3.1 (Stability of Frequency)**, this frequency should be around $\frac{4}{9}\approx0.444$. $\blacksquare$
 
 ## Exercise 4
 
@@ -128,10 +128,10 @@ By **Definition 10.1.6 (Certain Event)** and **Definition 10.1.7 (Impossible Eve
 
 ### Solution to Exercise 4
 
-(1) By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two dice gives $36$ equally likely sample points. The sample points with sum $7$ are $\left(1,6\right), \left(2,5\right), \left(3,4\right), \left(4,3\right), \left(5,2\right), \left(6,1\right)$, totaling $6$, so
+(1) By **Definition 10.1.15 (Classical Definition of Probability)**, tossing two dice gives $36$ equally likely sample points. The sample points with sum $7$ are $\left(1,6\right),\left(2,5\right),\left(3,4\right),\left(4,3\right),\left(5,2\right),\left(6,1\right)$, totaling $6$, so
 
 $$
-P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx 0.167.
+P\left(A\right)=\frac{6}{36}=\frac{1}{6}\approx0.167.
 $$
 
 (2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers from $1$ to $6$ simulating each die's number; each pair of random numbers forms a group, repeat $120$ times, and count the occurrences of sum $7$, denoted $n_A$; then the frequency is $f_{120}\left(A\right)=\frac{n_A}{120}$.
@@ -160,7 +160,7 @@ By **Definition 10.3.1 (Stability of Frequency)**, use the infection frequency t
 
 ## Problem 2
 
-(Exercise 10.3, Review and Consolidation, Problem 2) A wooden tetrahedron has its four faces marked $1, 2, 3, 4$ respectively. The tetrahedron is tossed $100$ times, and the number of times each face lands on the table is recorded (as in the table below). If it is tossed once more, estimate the probability that the face marked $3$ lands on the table.
+(Exercise 10.3, Review and Consolidation, Problem 2) A wooden tetrahedron has its four faces marked $1,2,3,4$ respectively. The tetrahedron is tossed $100$ times, and the number of times each face lands on the table is recorded (as in the table below). If it is tossed once more, estimate the probability that the face marked $3$ lands on the table.
 
 | Face of the tetrahedron | $1$ | $2$ | $3$ | $4$ |
 |---|---|---|---|---|
@@ -192,32 +192,32 @@ Therefore, tossing it once more, the estimated probability that the face marked 
 
 ### Solution to Problem 3
 
-(1) Randomly select a page from an English book, tally the total number of letters $N$ on that page and the number of vowel letters ($A, E, I, O, U$) among them, denoted $n_A$; then the frequency of vowel letters on that page is $f=\frac{n_A}{N}$.
+(1) Randomly select a page from an English book, tally the total number of letters $N$ on that page and the number of vowel letters ($A,E,I,O,U$) among them, denoted $n_A$; then the frequency of vowel letters on that page is $f=\frac{n_A}{N}$.
 
 (2) By **Definition 10.3.1 (Stability of Frequency)**, letter frequencies are fairly stable under large samples; hence the single-page frequency from one's own tally is roughly close to the large-sample frequencies in the table, but because a single page has a small sample size, the frequency may fluctuate and there may be some difference. The main reason for the difference is that one's own sample size (the number of letters on one page) is far smaller than the sample size of more than $40$ ten-thousand words, so random fluctuation is large. $\blacksquare$
 
 ## Problem 4
 
-(Exercise 10.3, Review and Consolidation, Problem 4) The correspondence between the four human blood types and genotypes is: type $O$ has genotype $ii$, type $A$ has genotype $I^Ai$ or $I^AI^A$, type $B$ has genotype $I^Bi$ or $I^BI^B$, and type $AB$ has genotype $I^AI^B$. Here $I^A$ and $I^B$ are dominant genes and $i$ is a recessive gene. One parent is type $A$ and the other is type $B$; determine the probabilities that their children have types $O, A, B$, or $AB$, and fill in the table:
+(Exercise 10.3, Review and Consolidation, Problem 4) The correspondence between the four human blood types and genotypes is: type $O$ has genotype $ii$, type $A$ has genotype $I^Ai$ or $I^AI^A$, type $B$ has genotype $I^Bi$ or $I^BI^B$, and type $AB$ has genotype $I^AI^B$. Here $I^A$ and $I^B$ are dominant genes and $i$ is a recessive gene. One parent is type $A$ and the other is type $B$; determine the probabilities that their children have types $O,A,B$, or $AB$, and fill in the table:
 
 | Parent genotype combination | $O$ | $A$ | $B$ | $AB$ |
 |---|---|---|---|---|
-| $I^Ai\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^Ai\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^AI^A\times I^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
-| $I^AI^A\times I^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^Ai\times{I}^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^Ai\times{I}^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times{I}^Bi$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
+| $I^AI^A\times{I}^BI^B$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
 ### Solution to Problem 4
 
 By **Definition 10.1.15 (Classical Definition of Probability)**, a child's genotype is determined by inheriting one gene at random from each parent, and each inheritance combination is equally likely.
 
-Parents of genotypes $I^Ai\times I^Bi$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$), $I^Ai$ (type $A$), $I^Bi$ (type $B$), $ii$ (type $O$), each with probability $\frac{1}{4}$. Hence $O: \frac{1}{4}$, $A: \frac{1}{4}$, $B: \frac{1}{4}$, $AB: \frac{1}{4}$.
+Parents of genotypes $I^Ai\times{I}^Bi$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$), $I^Ai$ (type $A$), $I^Bi$ (type $B$), $ii$ (type $O$), each with probability $\frac{1}{4}$. Hence $O:\frac{1}{4}$, $A:\frac{1}{4}$, $B:\frac{1}{4}$, $AB:\frac{1}{4}$.
 
-Parents of genotypes $I^Ai\times I^BI^B$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother can only pass on $I^B$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Bi$ (type $B$), each with probability $\frac{1}{2}$. Hence $O: 0$, $A: 0$, $B: \frac{1}{2}$, $AB: \frac{1}{2}$.
+Parents of genotypes $I^Ai\times{I}^BI^B$: the father passes on $I^A$ or $i$, each with probability $\frac{1}{2}$; the mother can only pass on $I^B$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Bi$ (type $B$), each with probability $\frac{1}{2}$. Hence $O:0$, $A:0$, $B:\frac{1}{2}$, $AB:\frac{1}{2}$.
 
-Parents of genotypes $I^AI^A\times I^Bi$: the father can only pass on $I^A$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Ai$ (type $A$), each with probability $\frac{1}{2}$. Hence $O: 0$, $A: \frac{1}{2}$, $B: 0$, $AB: \frac{1}{2}$.
+Parents of genotypes $I^AI^A\times{I}^Bi$: the father can only pass on $I^A$; the mother passes on $I^B$ or $i$, each with probability $\frac{1}{2}$. The child's genotypes are $I^AI^B$ (type $AB$) or $I^Ai$ (type $A$), each with probability $\frac{1}{2}$. Hence $O:0$, $A:\frac{1}{2}$, $B:0$, $AB:\frac{1}{2}$.
 
-Parents of genotypes $I^AI^A\times I^BI^B$: the father can only pass on $I^A$ and the mother can only pass on $I^B$. The child's genotype can only be $I^AI^B$ (type $AB$). Hence $O: 0$, $A: 0$, $B: 0$, $AB: 1$. $\blacksquare$
+Parents of genotypes $I^AI^A\times{I}^BI^B$: the father can only pass on $I^A$ and the mother can only pass on $I^B$. The child's genotype can only be $I^AI^B$ (type $AB$). Hence $O:0$, $A:0$, $B:0$, $AB:1$. $\blacksquare$
 
 ## Problem 5
 
@@ -231,11 +231,11 @@ The statement is not entirely correct. Although in general the more trials the m
 
 ## Problem 6
 
-(Exercise 10.3, Comprehensive Application, Problem 6) Put $6$ white balls and $4$ red balls in a bag, shake well, and draw balls $3$ times at random, using both with-replacement and without-replacement methods. Let event $A_i=$ "the $i$-th draw is red", $i=1, 2, 3$.
+(Exercise 10.3, Comprehensive Application, Problem 6) Put $6$ white balls and $4$ red balls in a bag, shake well, and draw balls $3$ times at random, using both with-replacement and without-replacement methods. Let event $A_i=$ "the $i$-th draw is red", $i=1,2,3$.
 
-(1) Under the two drawing methods, conjecture the relative sizes of the probabilities of events $A_1, A_2, A_3$;
+(1) Under the two drawing methods, conjecture the relative sizes of the probabilities of events $A_1,A_2,A_3$;
 
-(2) Repeat $10$ trials, find the frequencies of events $A_1, A_2, A_3$ occurring, and fill in the table.
+(2) Repeat $10$ trials, find the frequencies of events $A_1,A_2,A_3$ occurring, and fill in the table.
 
 | Frequency | With replacement | Without replacement |
 |---|---|---|
@@ -243,7 +243,7 @@ The statement is not entirely correct. Although in general the more trials the m
 | $f_{10}\left(A_2\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
 | $f_{10}\left(A_3\right)$ | $\;\_\_\;$ | $\;\_\_\;$ |
 
-(3) Under the two drawing methods, is there a large difference in the frequency $f_{10}\left(A_3\right)$ of the $3$rd draw being red? Under without-replacement drawing, is there a large difference among the frequencies of events $A_1, A_2, A_3$? Explain why.
+(3) Under the two drawing methods, is there a large difference in the frequency $f_{10}\left(A_3\right)$ of the $3$rd draw being red? Under without-replacement drawing, is there a large difference among the frequencies of events $A_1,A_2,A_3$? Explain why.
 
 ### Solution to Problem 6
 
@@ -253,11 +253,11 @@ Without replacement: the number of balls in the bag decreases after each draw, a
 
 (2) By **Definition 10.3.2 (Random Simulation)**, use a calculator or computer to generate random numbers from $1$ to $10$; $1$ to $4$ represent red balls and $5$ to $10$ represent white balls. With replacement, each draw generates an independent random number; without replacement, each group of $3$ random numbers has no repeats. Repeat $10$ times and tally the frequencies of drawing red each time. The frequencies differ due to randomness, but should be around $0.4$.
 
-(3) By **Definition 10.3.1 (Stability of Frequency)**, under both with-replacement and without-replacement methods, the frequency of the $3$rd draw being red should be around $0.4$, with little difference. Under without-replacement drawing, the frequencies of $A_1, A_2, A_3$ should also all be around $0.4$, with little difference. The reason is that theoretically the probability of drawing red each time is $0.4$, and the frequencies fluctuate due to randomness but overall stabilize around $0.4$. $\blacksquare$
+(3) By **Definition 10.3.1 (Stability of Frequency)**, under both with-replacement and without-replacement methods, the frequency of the $3$rd draw being red should be around $0.4$, with little difference. Under without-replacement drawing, the frequencies of $A_1,A_2,A_3$ should also all be around $0.4$, with little difference. The reason is that theoretically the probability of drawing red each time is $0.4$, and the frequencies fluctuate due to randomness but overall stabilize around $0.4$. $\blacksquare$
 
 ## Reading and Thinking 1
 
-(Reading and Thinking: Mendel's Laws of Inheritance) The Austrian geneticist Mendel conducted a large number of pea hybridization experiments over the $8$ years from $1858$ to $1865$. He crossed peas with yellow cotyledons and peas with green cotyledons; in the first year, all the harvested peas had yellow cotyledons. In the second year, when he planted the yellow-cotyledon peas harvested in the first year, the harvested peas had both yellow and green cotyledons. The specific experimental data are: $6022$ yellow cotyledon peas and $2001$ green cotyledon peas, a ratio of about $3.01: 1$. In Mendel's pea experiments, let $A=$ "a pea chosen at random from the second generation has green cotyledons"; then $A$ is a random event. Mendel's experiment (with $8023$ trials) showed that the frequency of event $A$ occurring is about $0.2494$. Questions:
+(Reading and Thinking: Mendel's Laws of Inheritance) The Austrian geneticist Mendel conducted a large number of pea hybridization experiments over the $8$ years from $1858$ to $1865$. He crossed peas with yellow cotyledons and peas with green cotyledons; in the first year, all the harvested peas had yellow cotyledons. In the second year, when he planted the yellow-cotyledon peas harvested in the first year, the harvested peas had both yellow and green cotyledons. The specific experimental data are: $6022$ yellow cotyledon peas and $2001$ green cotyledon peas, a ratio of about $3.01:1$. In Mendel's pea experiments, let $A=$ "a pea chosen at random from the second generation has green cotyledons"; then $A$ is a random event. Mendel's experiment (with $8023$ trials) showed that the frequency of event $A$ occurring is about $0.2494$. Questions:
 
 (1) On what basis did Mendel conjecture that the probability of event $A$ occurring is $0.25$, thereby constructing a probabilistic model of the inheritance mechanism?
 
@@ -265,7 +265,7 @@ Without replacement: the number of balls in the bag decreases after each draw, a
 
 ### Solution to Reading and Thinking 1
 
-(1) By **Definition 10.3.1 (Stability of Frequency)**, Mendel observed that in a large number of repeated trials, the frequency of green-cotyledon peas appearing in the second generation stabilized around $0.25$ ($0.2494$ is very close to $0.25$). Meanwhile, from the analysis of the inheritance mechanism, the first-generation hereditary factors are $Dd$, and the second generation inherits one factor at random from each parent; the genotypes are the four equally likely combinations $DD, Dd, dD, dd$, of which only $dd$ appears green, accounting for $\frac{1}{4}=0.25$. The stability of the frequency matches the probabilistic inference of the inheritance mechanism, so Mendel conjectured $P\left(A\right)=0.25$.
+(1) By **Definition 10.3.1 (Stability of Frequency)**, Mendel observed that in a large number of repeated trials, the frequency of green-cotyledon peas appearing in the second generation stabilized around $0.25$ ($0.2494$ is very close to $0.25$). Meanwhile, from the analysis of the inheritance mechanism, the first-generation hereditary factors are $Dd$, and the second generation inherits one factor at random from each parent; the genotypes are the four equally likely combinations $DD,Dd,dD,dd$, of which only $dd$ appears green, accounting for $\frac{1}{4}=0.25$. The stability of the frequency matches the probabilistic inference of the inheritance mechanism, so Mendel conjectured $P\left(A\right)=0.25$.
 
 (2) By **Definition 10.3.1 (Stability of Frequency)**, the way to verify a theoretical probability model is: conduct a large number of repeated trials, compute the frequency of the random event occurring, and observe whether the frequency stabilizes around the probability given by the theoretical model. If in a large number of trials the frequency of the event occurring is close to the theoretical probability, then the model can be considered fairly reliable; if the frequency differs greatly from the theoretical probability, then the model may be incorrect and needs revision. $\blacksquare$
 
@@ -305,7 +305,7 @@ By **Definition 6.2.4 (Opposite Vectors)** and **Definition 6.2.5 (Vector Subtra
 
 (2) For any two vectors $\boldsymbol{a}$ and $\boldsymbol{b}$, which of the following propositions is correct? ().
 
-(A) If $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert\boldsymbol{a}\rvert> \lvert\boldsymbol{b}\rvert$, and $\boldsymbol{a}$ and $\boldsymbol{b}$ are in the same direction, then $\boldsymbol{a}> \boldsymbol{b}$
+(A) If $\boldsymbol{a}$, $\boldsymbol{b}$ satisfy $\lvert\boldsymbol{a}\rvert>\lvert\boldsymbol{b}\rvert$, and $\boldsymbol{a}$ and $\boldsymbol{b}$ are in the same direction, then $\boldsymbol{a}>\boldsymbol{b}$
 
 (B) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert\le\lvert\boldsymbol{a}\rvert+\lvert\boldsymbol{b}\rvert$
 
@@ -325,7 +325,7 @@ By **Definition 6.2.4 (Opposite Vectors)** and **Definition 6.2.5 (Vector Subtra
 
 (C) $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction (D) $\lvert-\lambda\boldsymbol{a}\rvert=\lambda\lvert\boldsymbol{a}\rvert$
 
-(5) Let $M$ be the intersection of the diagonals of $\square ABCD$, and $O$ any point; then $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}+\boldsymbol{OD}=$ ().
+(5) Let $M$ be the intersection of the diagonals of $\square{A}BCD$, and $O$ any point; then $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}+\boldsymbol{OD}=$ ().
 
 (A) $\boldsymbol{OM}$ (B) $2\boldsymbol{OM}$ (C) $3\boldsymbol{OM}$ (D) $4\boldsymbol{OM}$
 
@@ -343,7 +343,7 @@ By **Definition 6.2.4 (Opposite Vectors)** and **Definition 6.2.5 (Vector Subtra
 
 (3) By **Definition 6.1.7 (Equal Vectors)**, $\boldsymbol{AC}=\boldsymbol{AB}+\boldsymbol{AD}$ shows that $ABCD$ is a parallelogram. Choose (D).
 
-(4) By **Definition 6.2.6 (Scalar Multiplication)**, $\lambda^2> 0$, so $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction. Choose (C).
+(4) By **Definition 6.2.6 (Scalar Multiplication)**, $\lambda^2>0$, so $\boldsymbol{a}$ and $\lambda^2\boldsymbol{a}$ have the same direction. Choose (C).
 
 (5) $M$ is the midpoint of the diagonals, $\boldsymbol{OA}+\boldsymbol{OC}=2\boldsymbol{OM}$, $\boldsymbol{OB}+\boldsymbol{OD}=2\boldsymbol{OM}$, and the sum is $4\boldsymbol{OM}$. Choose (D).
 
@@ -379,7 +379,7 @@ $\boldsymbol{DE}=-\frac{1}{2}\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}$; $\boldsy
 
 By **Common Result 6.3.4** and **Common Result 6.3.7**.
 
-(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt 2$.
+(1) $\boldsymbol{AB}=\left(5-\left(-3\right),-12-\left(-4\right)\right)=\left(8,-8\right)$. $\lvert\boldsymbol{AB}\rvert=\sqrt{64+64}=8\sqrt2$.
 
 (2) $\boldsymbol{OC}=\left(-3+5,-4-12\right)=\left(2,-16\right)$. $\boldsymbol{OD}=\left(-3-5,-4-\left(-12\right)\right)=\left(-8,8\right)$.
 
@@ -413,7 +413,7 @@ $\mu=0$. $\lambda+\mu=-1$. $\lambda=-1$. $\blacksquare$
 
 ## Problem 13
 
-(Review Reference Problem 6, Review and Consolidation, Problem 7) Given that the vertices of $\triangle ABC$ have coordinates $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, find the values of $\cos A$, $\cos B$, $\cos C$.
+(Review Reference Problem 6, Review and Consolidation, Problem 7) Given that the vertices of $\triangle{A}BC$ have coordinates $A\left(1,1\right)$, $B\left(4,1\right)$, $C\left(4,5\right)$, find the values of $\cos{A}$, $\cos{B}$, $\cos{C}$.
 
 ### Solution to Problem 13
 
@@ -421,11 +421,11 @@ By **Common Result 6.3.8** (Angle).
 
 $\boldsymbol{AB}=\left(3,0\right)$, $\boldsymbol{AC}=\left(3,4\right)$, $\boldsymbol{BC}=\left(0,4\right)$.
 
-$\cos A=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
+$\cos{A}=\frac{\boldsymbol{AB}\cdot\boldsymbol{AC}}{\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert}=\frac{9}{3\times5}=\frac{3}{5}$.
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
+$\cos{B}=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-3,0\right)\cdot\left(0,4\right)}{3\times4}=0$.
 
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
+$\cos{C}=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-3,-4\right)\cdot\left(0,-4\right)}{5\times4}=\frac{16}{20}=\frac{4}{5}$. $\blacksquare$
 
 ## Problem 14
 
@@ -443,13 +443,13 @@ $1+\lambda=0$. $\lambda=-1$. $\blacksquare$
 
 ## Problem 15
 
-(Review Reference Problem 6, Review and Consolidation, Problem 9) Given that the angle between vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ is $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt 3$, $\lvert\boldsymbol{b}\rvert=2$, find the values of $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$ and $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$.
+(Review Reference Problem 6, Review and Consolidation, Problem 9) Given that the angle between vectors $\boldsymbol{a}$ and $\boldsymbol{b}$ is $30^{\circ}$, $\lvert\boldsymbol{a}\rvert=\sqrt3$, $\lvert\boldsymbol{b}\rvert=2$, find the values of $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert$ and $\lvert\boldsymbol{a}-\boldsymbol{b}\rvert$.
 
 ### Solution to Problem 15
 
 By **Definition 6.2.11 (Dot Product)** and **Common Result 6.2.13**.
 
-$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt 3\times2\times\cos30^{\circ}=2\sqrt 3\times\frac{\sqrt 3}{2}=3$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt3\times2\times\cos30^{\circ}=2\sqrt3\times\frac{\sqrt3}{2}=3$.
 
 $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=3+6+4=13$. $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{13}$.
 

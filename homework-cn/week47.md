@@ -38,7 +38,7 @@
 
 ## 习题一
 
-(习题 1.4 拓广探索第 17 题) 在空间直角坐标系中, 已知向量 $\boldsymbol{u}=\left(a,b,c\right)$ ($abc \neq 0$), 点 $P_0\left(x_0,y_0,z_0\right)$, 点 $P\left(x,y,z\right)$.
+(习题 1.4 拓广探索第 17 题) 在空间直角坐标系中, 已知向量 $\boldsymbol{u}=\left(a,b,c\right)$ ($abc\neq0$), 点 $P_0\left(x_0,y_0,z_0\right)$, 点 $P\left(x,y,z\right)$.
 
 (1) 若直线 $l$ 经过点 $P_0$, 且以 $\boldsymbol{u}$ 为方向向量, $P$ 是直线 $l$ 上的任意一点, 求证: $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$;
 
@@ -56,17 +56,17 @@ $\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
 
 消去 $t$, 得 $\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}=t$.
 
-(2) 由**定义 1.4.2 (平面的法向量)**, $\boldsymbol{u}$ 是平面 $\alpha$ 的法向量, 故 $\boldsymbol{u} \perp \boldsymbol{P_0P}$.
+(2) 由**定义 1.4.2 (平面的法向量)**, $\boldsymbol{u}$ 是平面 $\alpha$ 的法向量, 故 $\boldsymbol{u}\perp\boldsymbol{P_0P}$.
 
-由**常用结论 1.3.5**, $\boldsymbol{u} \cdot \boldsymbol{P_0P}=0$.
+由**常用结论 1.3.5**, $\boldsymbol{u}\cdot\boldsymbol{P_0P}=0$.
 
-即 $\left(a,b,c\right) \cdot \left(x-x_0,y-y_0,z-z_0\right)=0$.
+即 $\left(a,b,c\right)\cdot\left(x-x_0,y-y_0,z-z_0\right)=0$.
 
 展开得 $a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0$. $\blacksquare$
 
 ## 习题二
 
-(习题 1.4 拓广探索第 18 题) 在如图所示的试验装置中, 两个正方形框架 $ABCD$, $ABEF$ 的边长都是 $1$, 且它们所在的平面互相垂直. 活动弹子 $M$, $N$ 分别在正方形对角线 $AC$ 和 $BF$ 上移动, 且 $CM$ 和 $BN$ 的长度保持相等, 记 $CM=BN=a$ ($0< a< \sqrt{2}$).
+(习题 1.4 拓广探索第 18 题) 在如图所示的试验装置中, 两个正方形框架 $ABCD$, $ABEF$ 的边长都是 $1$, 且它们所在的平面互相垂直. 活动弹子 $M$, $N$ 分别在正方形对角线 $AC$ 和 $BF$ 上移动, 且 $CM$ 和 $BN$ 的长度保持相等, 记 $CM=BN=a$ ($0<{}a<\sqrt{2}$).
 
 (1) 求 $MN$ 的长;
 
@@ -74,7 +74,7 @@ $\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
 
 (3) 当 $MN$ 的长最小时, 求平面 $MNA$ 与平面 $MNB$ 夹角的余弦值.
 
-该图为试验装置的直观图:两个边长均为 $1$ 的正方形框架 $ABCD$ 与 $ABEF$ 共用边 $AB$,且所在平面互相垂直;弹子 $M$ 在对角线 $AC$ 上,$N$ 在对角线 $BF$ 上,且 $CM=BN=a$($0< a< \sqrt{2}$).
+该图为试验装置的直观图:两个边长均为 $1$ 的正方形框架 $ABCD$ 与 $ABEF$ 共用边 $AB$,且所在平面互相垂直;弹子 $M$ 在对角线 $AC$ 上,$N$ 在对角线 $BF$ 上,且 $CM=BN=a$($0<{}a<\sqrt{2}$).
 
 ### 解答 习题二
 
@@ -84,31 +84,31 @@ $\left(x-x_0,y-y_0,z-z_0\right)=t\left(a,b,c\right)$.
 
 $A\left(0,0,0\right)$, $B\left(1,0,0\right)$, $C\left(1,1,0\right)$, $D\left(0,1,0\right)$, $E\left(1,0,1\right)$, $F\left(0,0,1\right)$.
 
-$M$ 在 $AC$ 上, $CM=a$. $AC=\sqrt{2}$, $AM=\sqrt{2}-a$. $M=\left(1-\frac{\sqrt{2}-a}{\sqrt{2}}, 1-\frac{\sqrt{2}-a}{\sqrt{2}}, 0\right)=\left(\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}, 0\right)$.
+$M$ 在 $AC$ 上, $CM=a$. $AC=\sqrt{2}$, $AM=\sqrt{2}-a$. $M=\left(1-\frac{\sqrt{2}-a}{\sqrt{2}},1-\frac{\sqrt{2}-a}{\sqrt{2}},0\right)=\left(\frac{a}{\sqrt{2}},\frac{a}{\sqrt{2}},0\right)$.
 
-$N$ 在 $BF$ 上, $BN=a$. $BF=\sqrt{2}$, $N=B+\frac{a}{\sqrt{2}}\left(F-B\right)=\left(1-\frac{a}{\sqrt{2}}, 0, \frac{a}{\sqrt{2}}\right)$.
+$N$ 在 $BF$ 上, $BN=a$. $BF=\sqrt{2}$, $N=B+\frac{a}{\sqrt{2}}\left(F-B\right)=\left(1-\frac{a}{\sqrt{2}},0,\frac{a}{\sqrt{2}}\right)$.
 
-(1) $\boldsymbol{MN}=N-M=\left(1-\frac{2a}{\sqrt{2}}, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)=\left(1-\sqrt{2}a, -\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)$.
+(1) $\boldsymbol{MN}=N-M=\left(1-\frac{2a}{\sqrt{2}},-\frac{a}{\sqrt{2}},\frac{a}{\sqrt{2}}\right)=\left(1-\sqrt{2}a,-\frac{a}{\sqrt{2}},\frac{a}{\sqrt{2}}\right)$.
 
-$\lvert \boldsymbol{MN} \rvert^2=\left(1-\sqrt{2}a\right)^2+\frac{a^2}{2}+\frac{a^2}{2}=1-2\sqrt{2}a+2a^2+a^2=3a^2-2\sqrt{2}a+1$.
+$\lvert\boldsymbol{MN}\rvert^2=\left(1-\sqrt{2}a\right)^2+\frac{a^2}{2}+\frac{a^2}{2}=1-2\sqrt{2}a+2a^2+a^2=3a^2-2\sqrt{2}a+1$.
 
 $MN=\sqrt{3a^2-2\sqrt{2}a+1}$.
 
 (2) $MN^2=3a^2-2\sqrt{2}a+1$, 当 $a=\frac{2\sqrt{2}}{6}=\frac{\sqrt{2}}{3}$ 时取最小值.
 
-$MN_{\min}=\sqrt{3 \cdot \frac{2}{9}-2\sqrt{2} \cdot \frac{\sqrt{2}}{3}+1}=\sqrt{\frac{2}{3}-\frac{4}{3}+1}=\sqrt{\frac{1}{3}}=\frac{\sqrt{3}}{3}$.
+$MN_{\min}=\sqrt{3\cdot\frac{2}{9}-2\sqrt{2}\cdot\frac{\sqrt{2}}{3}+1}=\sqrt{\frac{2}{3}-\frac{4}{3}+1}=\sqrt{\frac{1}{3}}=\frac{\sqrt{3}}{3}$.
 
 (3) 当 $a=\frac{\sqrt{2}}{3}$ 时, $M\left(\frac{1}{3},\frac{1}{3},0\right)$, $N\left(\frac{2}{3},0,\frac{1}{3}\right)$.
 
 平面 $MNA$: $\boldsymbol{AM}=\left(\frac{1}{3},\frac{1}{3},0\right)$, $\boldsymbol{AN}=\left(\frac{2}{3},0,\frac{1}{3}\right)$.
 
-法向量 $\boldsymbol{n}_1=\boldsymbol{AM} \times \boldsymbol{AN}=\left(\frac{1}{9},-\frac{1}{9},-\frac{2}{9}\right)$.
+法向量 $\boldsymbol{n}_1=\boldsymbol{AM}\times\boldsymbol{AN}=\left(\frac{1}{9},-\frac{1}{9},-\frac{2}{9}\right)$.
 
 平面 $MNB$: $\boldsymbol{BM}=\left(-\frac{2}{3},\frac{1}{3},0\right)$, $\boldsymbol{BN}=\left(-\frac{1}{3},0,\frac{1}{3}\right)$.
 
-法向量 $\boldsymbol{n}_2=\boldsymbol{BM} \times \boldsymbol{BN}=\left(\frac{1}{9},\frac{2}{9},\frac{1}{9}\right)$.
+法向量 $\boldsymbol{n}_2=\boldsymbol{BM}\times\boldsymbol{BN}=\left(\frac{1}{9},\frac{2}{9},\frac{1}{9}\right)$.
 
-$\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert \boldsymbol{n}_1 \rvert \lvert \boldsymbol{n}_2 \rvert}=\frac{\lvert \frac{1}{81}-\frac{2}{81}-\frac{2}{81} \rvert}{\frac{\sqrt{6}}{9} \cdot \frac{\sqrt{6}}{9}}=\frac{\frac{3}{81}}{\frac{6}{81}}=\frac{1}{2}$. $\blacksquare$
+$\cos\theta=\frac{\lvert\boldsymbol{n}_1\cdot\boldsymbol{n}_2\rvert}{\lvert\boldsymbol{n}_1\rvert\lvert\boldsymbol{n}_2\rvert}=\frac{\lvert\frac{1}{81}-\frac{2}{81}-\frac{2}{81}\rvert}{\frac{\sqrt{6}}{9}\cdot\frac{\sqrt{6}}{9}}=\frac{\frac{3}{81}}{\frac{6}{81}}=\frac{1}{2}$. $\blacksquare$
 
 ## 练习一
 
@@ -126,11 +126,11 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 由**定义 2.1.2 (斜率)**, 直线的斜率为倾斜角的正切值, 即 $k=\tan\alpha$.
 
-(1) $k=\tan 30^\circ=\frac{\sqrt 3}{3}$.
+(1) $k=\tan30^\circ=\frac{\sqrt3}{3}$.
 
-(2) $k=\tan 45^\circ=1$.
+(2) $k=\tan45^\circ=1$.
 
-(3) $k=\tan\frac{2\pi}{3}=\tan\left(\pi-\frac{\pi}{3}\right)=-\tan\frac{\pi}{3}=-\sqrt 3$.
+(3) $k=\tan\frac{2\pi}{3}=\tan\left(\pi-\frac{\pi}{3}\right)=-\tan\frac{\pi}{3}=-\sqrt3$.
 
 (4) $k=\tan\frac{3\pi}{4}=\tan\left(\pi-\frac{\pi}{4}\right)=-\tan\frac{\pi}{4}=-1$. $\blacksquare$
 
@@ -140,23 +140,23 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 (1) $k=0$;
 
-(2) $k=\sqrt 3$;
+(2) $k=\sqrt3$;
 
-(3) $k=-\sqrt 3$;
+(3) $k=-\sqrt3$;
 
-(4) $k=-\frac{\sqrt 3}{3}$.
+(4) $k=-\frac{\sqrt3}{3}$.
 
 ### 解答 练习二
 
-由**定义 2.1.2 (斜率)**, $k=\tan\alpha$, 且倾斜角范围为 $0^\circ\le\alpha< 180^\circ$.
+由**定义 2.1.2 (斜率)**, $k=\tan\alpha$, 且倾斜角范围为 $0^\circ\le\alpha<180^\circ$.
 
-(1) 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=0^\circ$.
+(1) 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=0^\circ$.
 
-(2) 由 $\tan\alpha=\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=60^\circ$.
+(2) 由 $\tan\alpha=\sqrt3$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=60^\circ$.
 
-(3) 由 $\tan\alpha=-\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=120^\circ$.
+(3) 由 $\tan\alpha=-\sqrt3$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=120^\circ$.
 
-(4) 由 $\tan\alpha=-\frac{\sqrt 3}{3}$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=150^\circ$. $\blacksquare$
+(4) 由 $\tan\alpha=-\frac{\sqrt3}{3}$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=150^\circ$. $\blacksquare$
 
 ## 练习三
 
@@ -168,11 +168,11 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 ### 解答 练习三
 
-由**常用结论 2.1.3** (斜率公式), 经过两点的直线斜率为 $k=\frac{y_2-y_1}{x_2-x_1}$; 由**定义 2.1.2 (斜率)**, $k> 0$ 时倾斜角为锐角, $k< 0$ 时倾斜角为钝角.
+由**常用结论 2.1.3** (斜率公式), 经过两点的直线斜率为 $k=\frac{y_2-y_1}{x_2-x_1}$; 由**定义 2.1.2 (斜率)**, $k>0$ 时倾斜角为锐角, $k<0$ 时倾斜角为钝角.
 
-(1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. 因为 $k_{CD}> 0$, 所以倾斜角为锐角.
+(1) $k_{CD}=\frac{-4-8}{4-18}=\frac{-12}{-14}=\frac{6}{7}$. 因为 $k_{CD}>0$, 所以倾斜角为锐角.
 
-(2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. 因为 $k_{PQ}< 0$, 所以倾斜角为钝角. $\blacksquare$
+(2) $k_{PQ}=\frac{3-0}{-1-0}=-3$. 因为 $k_{PQ}<0$, 所以倾斜角为钝角. $\blacksquare$
 
 ## 练习四
 
@@ -188,11 +188,11 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 由**常用结论 2.1.3** (斜率公式) 及**定义 2.1.2 (斜率)**.
 
-(1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$, 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=0^\circ$.
+(1) $k_{AB}=\frac{c-c}{b-a}=\frac{0}{b-a}=0$, 由 $\tan\alpha=0$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=0^\circ$.
 
 (2) $C,D$ 两点的横坐标相同, 即 $x_1=x_2=a$, 此时斜率公式中分母为零, 直线没有斜率. 由**定义 2.1.1 (倾斜角)**, 直线与 $x$ 轴垂直, 故 $\alpha=90^\circ$.
 
-(3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$, 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha< 180^\circ$, 得 $\alpha=45^\circ$. $\blacksquare$
+(3) $k_{PQ}=\frac{\left(c+a\right)-\left(b+c\right)}{a-b}=\frac{a-b}{a-b}=1$, 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha<180^\circ$, 得 $\alpha=45^\circ$. $\blacksquare$
 
 ## 练习五
 
@@ -222,9 +222,9 @@ $$
 
 由**常用结论 2.1.5** (两条直线平行) 与**常用结论 2.1.6** (两条直线垂直).
 
-(1) 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\frac{0-3}{-1-2}=\frac{-3}{-3}=1$, 即 $l_1$ 的斜率为 $1$. $l_2$ 的斜率已知为 $1$. 由**常用结论 2.1.5**, $k_1=k_2=1$, 故 $l_1\parallel l_2$. 又 $l_1$ 经过 $A\left(2,3\right)$ 而 $l_2$ 经过 $P\left(1,0\right)$, 两直线不重合, 故 $l_1\parallel l_2$.
+(1) 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\frac{0-3}{-1-2}=\frac{-3}{-3}=1$, 即 $l_1$ 的斜率为 $1$. $l_2$ 的斜率已知为 $1$. 由**常用结论 2.1.5**, $k_1=k_2=1$, 故 $l_1\parallel{l}_2$. 又 $l_1$ 经过 $A\left(2,3\right)$ 而 $l_2$ 经过 $P\left(1,0\right)$, 两直线不重合, 故 $l_1\parallel{l}_2$.
 
-(2) 由**常用结论 2.1.3** (斜率公式), $k_{CD}=\frac{0-1}{-2-3}=\frac{-1}{-5}=\frac{1}{5}$, 即 $l_3$ 的斜率为 $\frac{1}{5}$. $l_4$ 的斜率已知为 $-5$. 两斜率之积为 $\frac{1}{5}\times\left(-5\right)=-1$. 由**常用结论 2.1.6**, 故 $l_3\perp l_4$. $\blacksquare$
+(2) 由**常用结论 2.1.3** (斜率公式), $k_{CD}=\frac{0-1}{-2-3}=\frac{-1}{-5}=\frac{1}{5}$, 即 $l_3$ 的斜率为 $\frac{1}{5}$. $l_4$ 的斜率已知为 $-5$. 两斜率之积为 $\frac{1}{5}\times\left(-5\right)=-1$. 由**常用结论 2.1.6**, 故 $l_3\perp{l}_4$. $\blacksquare$
 
 ## 练习七
 
@@ -272,9 +272,9 @@ $$
 
 ### 解答 习题三
 
-由**定义 2.1.2 (斜率)**, $k=\tan\alpha$, 且 $\lvert k \rvert=1$.
+由**定义 2.1.2 (斜率)**, $k=\tan\alpha$, 且 $\lvert{k}\rvert=1$.
 
-由 $\lvert \tan\alpha \rvert=1$, 得 $\tan\alpha=1$ 或 $\tan\alpha=-1$. 又倾斜角范围为 $0^\circ\le\alpha< 180^\circ$, 当 $\tan\alpha=1$ 时 $\alpha=45^\circ$, 当 $\tan\alpha=-1$ 时 $\alpha=135^\circ$. 故直线的倾斜角为 $45^\circ$ 或 $135^\circ$. $\blacksquare$
+由 $\lvert\tan\alpha\rvert=1$, 得 $\tan\alpha=1$ 或 $\tan\alpha=-1$. 又倾斜角范围为 $0^\circ\le\alpha<180^\circ$, 当 $\tan\alpha=1$ 时 $\alpha=45^\circ$, 当 $\tan\alpha=-1$ 时 $\alpha=135^\circ$. 故直线的倾斜角为 $45^\circ$ 或 $135^\circ$. $\blacksquare$
 
 ## 习题四
 
@@ -330,16 +330,16 @@ $$
 
 去分母, 得 $3m-6=12\left(1+m\right)=12+12m$, 即 $-9m=18$, 故 $m=-2$.
 
-(2) 由**定义 2.1.2 (斜率)**, 倾斜角为 $60^\circ$ 时斜率 $k=\tan 60^\circ=\sqrt 3$. 由斜率公式,
+(2) 由**定义 2.1.2 (斜率)**, 倾斜角为 $60^\circ$ 时斜率 $k=\tan60^\circ=\sqrt3$. 由斜率公式,
 
 $$
 k_{AB}=\frac{\left(-2m-1\right)-2}{-m-m}=\frac{-2m-3}{-2m}=\frac{2m+3}{2m}.
 $$
 
-令其等于 $\sqrt 3$, 得 $\frac{2m+3}{2m}=\sqrt 3$, 即 $2m+3=2\sqrt 3\,m$, 即 $2m\left(\sqrt 3-1\right)=3$, 故
+令其等于 $\sqrt3$, 得 $\frac{2m+3}{2m}=\sqrt3$, 即 $2m+3=2\sqrt3\,m$, 即 $2m\left(\sqrt3-1\right)=3$, 故
 
 $$
-m=\frac{3}{2\left(\sqrt 3-1\right)}=\frac{3\left(\sqrt 3+1\right)}{2\left(3-1\right)}=\frac{3\left(\sqrt 3+1\right)}{4}.
+m=\frac{3}{2\left(\sqrt3-1\right)}=\frac{3\left(\sqrt3+1\right)}{2\left(3-1\right)}=\frac{3\left(\sqrt3+1\right)}{4}.
 $$
 
 $\blacksquare$
@@ -376,9 +376,9 @@ $$
 
 由**常用结论 2.1.3** (斜率公式) 与**常用结论 2.1.5** (两条直线平行).
 
-(1) 由斜率公式, $k_{AB}=\frac{8-2}{4-1}=\frac{6}{3}=2$, 即 $l_2$ 的斜率为 $2$. $l_1$ 的斜率已知为 $2$. 两直线斜率相等, 且不重合 ($l_1$ 不经过 $A,B$), 故 $l_1\parallel l_2$.
+(1) 由斜率公式, $k_{AB}=\frac{8-2}{4-1}=\frac{6}{3}=2$, 即 $l_2$ 的斜率为 $2$. $l_1$ 的斜率已知为 $2$. 两直线斜率相等, 且不重合 ($l_1$ 不经过 $A,B$), 故 $l_1\parallel{l}_2$.
 
-(2) 由斜率公式, $k_{PQ}=\frac{3-3}{-5-3}=\frac{0}{-8}=0$, 即 $l_1$ 的斜率为 $0$, 即 $l_1$ 平行于 $x$ 轴. $l_2$ 也平行于 $x$ 轴, 故 $l_2$ 的斜率也为 $0$. 两直线斜率相等, 且 $l_2$ 不经过 $P,Q$ 两点, 两直线不重合, 故 $l_1\parallel l_2$.
+(2) 由斜率公式, $k_{PQ}=\frac{3-3}{-5-3}=\frac{0}{-8}=0$, 即 $l_1$ 的斜率为 $0$, 即 $l_1$ 平行于 $x$ 轴. $l_2$ 也平行于 $x$ 轴, 故 $l_2$ 的斜率也为 $0$. 两直线斜率相等, 且 $l_2$ 不经过 $P,Q$ 两点, 两直线不重合, 故 $l_1\parallel{l}_2$.
 
 (3) 由斜率公式,
 
@@ -390,7 +390,7 @@ $$
 k_{RS}=\frac{5-3}{0-\left(-4\right)}=\frac{2}{4}=\frac{1}{2}.
 $$
 
-两直线斜率相等, 且 $l_1$ 经过 $M,N$ 而 $l_2$ 经过 $R,S$, 点 $R,S$ 不在直线 $MN$ 上, 两直线不重合, 故 $l_1\parallel l_2$. $\blacksquare$
+两直线斜率相等, 且 $l_1$ 经过 $M,N$ 而 $l_2$ 经过 $R,S$, 点 $R,S$ 不在直线 $MN$ 上, 两直线不重合, 故 $l_1\parallel{l}_2$. $\blacksquare$
 
 ## 习题八
 
@@ -406,15 +406,15 @@ $$
 
 由**常用结论 2.1.6** (两条直线垂直), 即 $k_1k_2=-1$.
 
-(1) 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\frac{-\frac{1}{2}-1}{0-1}=\frac{-\frac{3}{2}}{-1}=\frac{3}{2}$, 即 $l_2$ 的斜率为 $\frac{3}{2}$. $l_1$ 的斜率为 $-\frac{2}{3}$. 两斜率之积为 $-\frac{2}{3}\times\frac{3}{2}=-1$, 故 $l_1\perp l_2$.
+(1) 由**常用结论 2.1.3** (斜率公式), $k_{AB}=\frac{-\frac{1}{2}-1}{0-1}=\frac{-\frac{3}{2}}{-1}=\frac{3}{2}$, 即 $l_2$ 的斜率为 $\frac{3}{2}$. $l_1$ 的斜率为 $-\frac{2}{3}$. 两斜率之积为 $-\frac{2}{3}\times\frac{3}{2}=-1$, 故 $l_1\perp{l}_2$.
 
-(2) 由**定义 2.1.2 (斜率)**, $l_1$ 的斜率为 $k_1=\tan 45^\circ=1$. 由斜率公式,
+(2) 由**定义 2.1.2 (斜率)**, $l_1$ 的斜率为 $k_1=\tan45^\circ=1$. 由斜率公式,
 
 $$
 k_{PQ}=\frac{-6-\left(-1\right)}{3-\left(-2\right)}=\frac{-5}{5}=-1,
 $$
 
-即 $l_2$ 的斜率为 $-1$. 两斜率之积为 $1\times\left(-1\right)=-1$, 故 $l_1\perp l_2$.
+即 $l_2$ 的斜率为 $-1$. 两斜率之积为 $1\times\left(-1\right)=-1$, 故 $l_1\perp{l}_2$.
 
 (3) 由斜率公式,
 
@@ -426,7 +426,7 @@ $$
 k_{RS}=\frac{3-0}{-1-\left(-6\right)}=\frac{3}{5}.
 $$
 
-两斜率之积为 $-\frac{5}{3}\times\frac{3}{5}=-1$, 故 $l_1\perp l_2$. $\blacksquare$
+两斜率之积为 $-\frac{5}{3}\times\frac{3}{5}=-1$, 故 $l_1\perp{l}_2$. $\blacksquare$
 
 ## 习题九
 
@@ -434,7 +434,7 @@ $$
 
 ### 解答 习题九
 
-由**定义 2.1.2 (斜率)**, 倾斜角为 $45^\circ$ 时斜率 $k=\tan 45^\circ=1$. 由**常用结论 2.1.3** (斜率公式),
+由**定义 2.1.2 (斜率)**, 倾斜角为 $45^\circ$ 时斜率 $k=\tan45^\circ=1$. 由**常用结论 2.1.3** (斜率公式),
 
 $$
 k_{AB}=\frac{2m-\left(m^2-3\right)}{\left(3-m-m^2\right)-\left(m^2+2\right)}=\frac{2m-m^2+3}{1-m-2m^2}.
@@ -480,11 +480,11 @@ $$
 
 ## 习题十一
 
-(习题 2.1 综合运用第 9 题) 已知点 $M\left(2,2\right)$ 和 $N\left(5,-2\right)$, 点 $P$ 在 $x$ 轴上, 且 $\angle MPN$ 为直角, 求点 $P$ 的坐标.
+(习题 2.1 综合运用第 9 题) 已知点 $M\left(2,2\right)$ 和 $N\left(5,-2\right)$, 点 $P$ 在 $x$ 轴上, 且 $\angle{M}PN$ 为直角, 求点 $P$ 的坐标.
 
 ### 解答 习题十一
 
-由**常用结论 2.1.6** (两条直线垂直), $\angle MPN$ 为直角即 $PM\perp PN$, 故 $k_{PM}\,k_{PN}=-1$.
+由**常用结论 2.1.6** (两条直线垂直), $\angle{M}PN$ 为直角即 $PM\perp{P}N$, 故 $k_{PM}\,k_{PN}=-1$.
 
 设点 $P$ 的坐标为 $\left(x,0\right)$. 由**常用结论 2.1.3** (斜率公式),
 
@@ -496,7 +496,7 @@ $$
 k_{PN}=\frac{0-\left(-2\right)}{x-5}=\frac{2}{x-5}.
 $$
 
-由 $PM\perp PN$, 得
+由 $PM\perp{P}N$, 得
 
 $$
 \frac{-2}{x-2}\cdot\frac{2}{x-5}=-1.
@@ -508,39 +508,39 @@ $$
 
 ## 习题十二
 
-(习题 2.1 拓广探索第 10 题) 已知四边形 $ABCD$ 的四个顶点是 $A\left(2,2+2\sqrt 2\right)$, $B\left(-2,2\right)$, $C\left(0,2-2\sqrt 2\right)$, $D\left(4,2\right)$, 求证: 四边形 $ABCD$ 为矩形.
+(习题 2.1 拓广探索第 10 题) 已知四边形 $ABCD$ 的四个顶点是 $A\left(2,2+2\sqrt2\right)$, $B\left(-2,2\right)$, $C\left(0,2-2\sqrt2\right)$, $D\left(4,2\right)$, 求证: 四边形 $ABCD$ 为矩形.
 
 ### 解答 习题十二
 
 由**常用结论 2.1.3** (斜率公式), 分别求四条边所在直线的斜率.
 
 $$
-k_{AB}=\frac{2-\left(2+2\sqrt 2\right)}{-2-2}=\frac{-2\sqrt 2}{-4}=\frac{\sqrt 2}{2},
+k_{AB}=\frac{2-\left(2+2\sqrt2\right)}{-2-2}=\frac{-2\sqrt2}{-4}=\frac{\sqrt2}{2},
 $$
 
 $$
-k_{BC}=\frac{\left(2-2\sqrt 2\right)-2}{0-\left(-2\right)}=\frac{-2\sqrt 2}{2}=-\sqrt 2,
+k_{BC}=\frac{\left(2-2\sqrt2\right)-2}{0-\left(-2\right)}=\frac{-2\sqrt2}{2}=-\sqrt2,
 $$
 
 $$
-k_{CD}=\frac{2-\left(2-2\sqrt 2\right)}{4-0}=\frac{2\sqrt 2}{4}=\frac{\sqrt 2}{2},
+k_{CD}=\frac{2-\left(2-2\sqrt2\right)}{4-0}=\frac{2\sqrt2}{4}=\frac{\sqrt2}{2},
 $$
 
 $$
-k_{DA}=\frac{\left(2+2\sqrt 2\right)-2}{2-4}=\frac{2\sqrt 2}{-2}=-\sqrt 2.
+k_{DA}=\frac{\left(2+2\sqrt2\right)-2}{2-4}=\frac{2\sqrt2}{-2}=-\sqrt2.
 $$
 
-由**常用结论 2.1.5** (两条直线平行), $k_{AB}=k_{CD}=\frac{\sqrt 2}{2}$, 故 $AB\parallel CD$; $k_{BC}=k_{DA}=-\sqrt 2$, 故 $BC\parallel DA$. 因此四边形 $ABCD$ 是平行四边形.
+由**常用结论 2.1.5** (两条直线平行), $k_{AB}=k_{CD}=\frac{\sqrt2}{2}$, 故 $AB\parallel{C}D$; $k_{BC}=k_{DA}=-\sqrt2$, 故 $BC\parallel{D}A$. 因此四边形 $ABCD$ 是平行四边形.
 
-再由**常用结论 2.1.6** (两条直线垂直), $k_{AB}\,k_{BC}=\frac{\sqrt 2}{2}\times\left(-\sqrt 2\right)=-1$, 故 $AB\perp BC$. 平行四边形 $ABCD$ 有一个内角为直角, 故四边形 $ABCD$ 为矩形. $\blacksquare$
+再由**常用结论 2.1.6** (两条直线垂直), $k_{AB}\,k_{BC}=\frac{\sqrt2}{2}\times\left(-\sqrt2\right)=-1$, 故 $AB\perp{B}C$. 平行四边形 $ABCD$ 有一个内角为直角, 故四边形 $ABCD$ 为矩形. $\blacksquare$
 
 ## 练习八
 
 (练习 2.2 第 1 题) 写出下列直线的点斜式方程:
 
-(1) 经过点 $A\left(3,-1\right)$, 斜率是 $\sqrt 2$;
+(1) 经过点 $A\left(3,-1\right)$, 斜率是 $\sqrt2$;
 
-(2) 经过点 $B\left(-\sqrt 2,2\right)$, 倾斜角是 $30^\circ$;
+(2) 经过点 $B\left(-\sqrt2,2\right)$, 倾斜角是 $30^\circ$;
 
 (3) 经过点 $C\left(0,3\right)$, 倾斜角是 $0^\circ$;
 
@@ -550,13 +550,13 @@ $$
 
 由**定义 2.2.1 (点斜式方程)**, 点斜式方程为 $y-y_0=k\left(x-x_0\right)$, 其中 $k=\tan\alpha$.
 
-(1) 代入点 $A\left(3,-1\right)$ 与斜率 $k=\sqrt 2$, 得 $y-\left(-1\right)=\sqrt 2\left(x-3\right)$, 即 $y+1=\sqrt 2\left(x-3\right)$.
+(1) 代入点 $A\left(3,-1\right)$ 与斜率 $k=\sqrt2$, 得 $y-\left(-1\right)=\sqrt2\left(x-3\right)$, 即 $y+1=\sqrt2\left(x-3\right)$.
 
-(2) 由**定义 2.1.2 (斜率)**, $k=\tan 30^\circ=\frac{\sqrt 3}{3}$. 代入点 $B\left(-\sqrt 2,2\right)$, 得 $y-2=\frac{\sqrt 3}{3}\left(x+\sqrt 2\right)$.
+(2) 由**定义 2.1.2 (斜率)**, $k=\tan30^\circ=\frac{\sqrt3}{3}$. 代入点 $B\left(-\sqrt2,2\right)$, 得 $y-2=\frac{\sqrt3}{3}\left(x+\sqrt2\right)$.
 
-(3) 由倾斜角为 $0^\circ$, 得 $k=\tan 0^\circ=0$. 代入点 $C\left(0,3\right)$, 得 $y-3=0\cdot\left(x-0\right)$, 即 $y-3=0$.
+(3) 由倾斜角为 $0^\circ$, 得 $k=\tan0^\circ=0$. 代入点 $C\left(0,3\right)$, 得 $y-3=0\cdot\left(x-0\right)$, 即 $y-3=0$.
 
-(4) 由**定义 2.1.2 (斜率)**, $k=\tan\frac{2\pi}{3}=-\sqrt 3$. 代入点 $D\left(-4,-2\right)$, 得 $y-\left(-2\right)=-\sqrt 3\left(x+4\right)$, 即 $y+2=-\sqrt 3\left(x+4\right)$. $\blacksquare$
+(4) 由**定义 2.1.2 (斜率)**, $k=\tan\frac{2\pi}{3}=-\sqrt3$. 代入点 $D\left(-4,-2\right)$, 得 $y-\left(-2\right)=-\sqrt3\left(x+4\right)$, 即 $y+2=-\sqrt3\left(x+4\right)$. $\blacksquare$
 
 ## 练习九
 
@@ -564,21 +564,21 @@ $$
 
 (1) 已知直线的点斜式方程是 $y-2=x-1$, 那么此直线的斜率是 $\;\_\_\;$, 倾斜角是 $\;\_\_\;$;
 
-(2) 已知直线的点斜式方程是 $y+2=\sqrt 3\left(x+1\right)$, 那么此直线的斜率是 $\;\_\_\;$, 倾斜角是 $\;\_\_\;$.
+(2) 已知直线的点斜式方程是 $y+2=\sqrt3\left(x+1\right)$, 那么此直线的斜率是 $\;\_\_\;$, 倾斜角是 $\;\_\_\;$.
 
 ### 解答 练习九
 
 由**定义 2.2.1 (点斜式方程)**, 点斜式 $y-y_0=k\left(x-x_0\right)$ 中 $k$ 即为斜率; 由**定义 2.1.2 (斜率)**, $k=\tan\alpha$.
 
-(1) 方程 $y-2=x-1$ 即 $y-2=1\cdot\left(x-1\right)$, 对照点斜式, 得斜率 $k=1$. 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha< 180^\circ$, 得倾斜角 $\alpha=45^\circ$.
+(1) 方程 $y-2=x-1$ 即 $y-2=1\cdot\left(x-1\right)$, 对照点斜式, 得斜率 $k=1$. 由 $\tan\alpha=1$ 及 $0^\circ\le\alpha<180^\circ$, 得倾斜角 $\alpha=45^\circ$.
 
-(2) 方程 $y+2=\sqrt 3\left(x+1\right)$ 即 $y-\left(-2\right)=\sqrt 3\left[x-\left(-1\right)\right]$, 对照点斜式, 得斜率 $k=\sqrt 3$. 由 $\tan\alpha=\sqrt 3$ 及 $0^\circ\le\alpha< 180^\circ$, 得倾斜角 $\alpha=60^\circ$. $\blacksquare$
+(2) 方程 $y+2=\sqrt3\left(x+1\right)$ 即 $y-\left(-2\right)=\sqrt3\left[x-\left(-1\right)\right]$, 对照点斜式, 得斜率 $k=\sqrt3$. 由 $\tan\alpha=\sqrt3$ 及 $0^\circ\le\alpha<180^\circ$, 得倾斜角 $\alpha=60^\circ$. $\blacksquare$
 
 ## 练习十
 
 (练习 2.2 第 3 题) 写出下列直线的斜截式方程:
 
-(1) 斜率是 $\frac{\sqrt 3}{2}$, 在 $y$ 轴上的截距是 $-2$;
+(1) 斜率是 $\frac{\sqrt3}{2}$, 在 $y$ 轴上的截距是 $-2$;
 
 (2) 斜率是 $-2$, 在 $y$ 轴上的截距是 $4$.
 
@@ -586,7 +586,7 @@ $$
 
 由**定义 2.2.2 (斜截式方程)**, 斜截式为 $y=kx+b$, 其中 $k$ 为斜率, $b$ 为在 $y$ 轴上的截距.
 
-(1) 代入 $k=\frac{\sqrt 3}{2}$, $b=-2$, 得 $y=\frac{\sqrt 3}{2}x-2$.
+(1) 代入 $k=\frac{\sqrt3}{2}$, $b=-2$, 得 $y=\frac{\sqrt3}{2}x-2$.
 
 (2) 代入 $k=-2$, $b=4$, 得 $y=-2x+4$. $\blacksquare$
 
@@ -602,6 +602,6 @@ $$
 
 由**常用结论 2.2.3** (斜截式下平行与垂直).
 
-(1) $l_1$ 的斜率 $k_1=\frac{1}{2}$, $l_2$ 的斜率 $k_2=\frac{1}{2}$, $k_1=k_2$. 又 $l_1$ 的截距 $b_1=3$, $l_2$ 的截距 $b_2=-2$, $b_1\ne b_2$, 故 $l_1\parallel l_2$.
+(1) $l_1$ 的斜率 $k_1=\frac{1}{2}$, $l_2$ 的斜率 $k_2=\frac{1}{2}$, $k_1=k_2$. 又 $l_1$ 的截距 $b_1=3$, $l_2$ 的截距 $b_2=-2$, $b_1\ne{b}_2$, 故 $l_1\parallel{l}_2$.
 
-(2) $l_1$ 的斜率 $k_1=\frac{5}{3}$, $l_2$ 的斜率 $k_2=-\frac{3}{5}$. 两斜率之积为 $\frac{5}{3}\times\left(-\frac{3}{5}\right)=-1$, 故 $l_1\perp l_2$. $\blacksquare$
+(2) $l_1$ 的斜率 $k_1=\frac{5}{3}$, $l_2$ 的斜率 $k_2=-\frac{3}{5}$. 两斜率之积为 $\frac{5}{3}\times\left(-\frac{3}{5}\right)=-1$, 故 $l_1\perp{l}_2$. $\blacksquare$

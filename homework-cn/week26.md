@@ -46,13 +46,13 @@
 
 ## 习题一
 
-(习题 6.4 综合运用第 13 题) 一条河的两岸平行, 河的宽度 $d=500\text{ m}$, 一艘船从河岸边的 $A$ 处出发到河对岸. 已知船在静水中的速度 $\boldsymbol{v}_1$ 的大小为 $\lvert\boldsymbol{v}_1\rvert=10\text{ km/h}$, 水流速度 $\boldsymbol{v}_2$ 的大小为 $\lvert\boldsymbol{v}_2\rvert=2\text{ km/h}$. 请计算船行驶时间最短的三种情况.
+(习题 6.4 综合运用第 13 题) 一条河的两岸平行, 河的宽度 $d=500\text{~m}$, 一艘船从河岸边的 $A$ 处出发到河对岸. 已知船在静水中的速度 $\boldsymbol{v}_1$ 的大小为 $\lvert\boldsymbol{v}_1\rvert=10\text{~km/h}$, 水流速度 $\boldsymbol{v}_2$ 的大小为 $\lvert\boldsymbol{v}_2\rvert=2\text{~km/h}$. 请计算船行驶时间最短的三种情况.
 
 ### 解答 习题一
 
 由**定理 6.4.2 (余弦定理)**.
 
-船速 $10\text{ km/h}$, 水速 $2\text{ km/h}$, 河宽 $0.5\text{ km}$.
+船速 $10\text{~km/h}$, 水速 $2\text{~km/h}$, 河宽 $0.5\text{~km}$.
 
 (1) 逆流钝角: 合速垂直分量小, 时间长.
 
@@ -64,25 +64,25 @@
 
 ## 习题二
 
-(习题 6.4 综合运用第 14 题) 一条东西方向的河流两岸平行, 河宽 $250\text{ m}$, 水流的速度为向东 $\frac{2\sqrt 3}{3}\text{ km/h}$. 一艘小货船准备从河的南岸码头 $A$ 处出发, 航行到位于河对岸 $B$ ($AB$ 与河的方向垂直) 的正西方向并且与 $B$ 相距 $\frac{250\sqrt 3}{3}\text{ m}$ 的码头 $C$ 处卸货. 若水流的速度与小货船航行的速度的合速度的大小为 $6\text{ km/h}$, 则当小货船的航程最短时, 求合速度的方向, 并求此时小货船航行速度的大小.
+(习题 6.4 综合运用第 14 题) 一条东西方向的河流两岸平行, 河宽 $250\text{~m}$, 水流的速度为向东 $\frac{2\sqrt3}{3}\text{~km/h}$. 一艘小货船准备从河的南岸码头 $A$ 处出发, 航行到位于河对岸 $B$ ($AB$ 与河的方向垂直) 的正西方向并且与 $B$ 相距 $\frac{250\sqrt3}{3}\text{~m}$ 的码头 $C$ 处卸货. 若水流的速度与小货船航行的速度的合速度的大小为 $6\text{~km/h}$, 则当小货船的航程最短时, 求合速度的方向, 并求此时小货船航行速度的大小.
 
 ### 解答 习题二
 
 由**定理 6.4.2 (余弦定理)** 与**定理 6.4.3 (正弦定理)**.
 
-$AB=0.25\text{ km}$, $BC=\frac{0.25\sqrt 3}{3}\text{ km}$. $AC=\sqrt{0.25^2+\left(\frac{0.25\sqrt 3}{3}\right)^2}=\sqrt{0.0625+0.0208}=\frac{0.5}{\sqrt 3}\text{ km}$.
+$AB=0.25\text{~km}$, $BC=\frac{0.25\sqrt3}{3}\text{~km}$. $AC=\sqrt{0.25^2+\left(\frac{0.25\sqrt3}{3}\right)^2}=\sqrt{0.0625+0.0208}=\frac{0.5}{\sqrt3}\text{~km}$.
 
-$\angle BAC$ 满足 $\tan\angle BAC=\frac{BC}{AB}=\frac{\sqrt 3}{3}$, $\angle BAC=30^{\circ}$.
+$\angle{B}AC$ 满足 $\tan\angle{B}AC=\frac{BC}{AB}=\frac{\sqrt3}{3}$, $\angle{B}AC=30^{\circ}$.
 
 合速度方向沿 $AC$, 即西偏北 $30^{\circ}$.
 
-合速度大小 $6\text{ km/h}$. 水速向东 $\frac{2\sqrt 3}{3}\text{ km/h}$.
+合速度大小 $6\text{~km/h}$. 水速向东 $\frac{2\sqrt3}{3}\text{~km/h}$.
 
-船速 $=\sqrt{6^2+\left(\frac{2\sqrt 3}{3}\right)^2-2\times6\times\frac{2\sqrt 3}{3}\cos60^{\circ}}=\sqrt{36+\frac{4}{3}-4\sqrt 3}\approx\sqrt{36.1-6.93}\approx\sqrt{29.2}\approx5.4\text{ km/h}$. $\blacksquare$
+船速 $=\sqrt{6^2+\left(\frac{2\sqrt3}{3}\right)^2-2\times6\times\frac{2\sqrt3}{3}\cos60^{\circ}}=\sqrt{36+\frac{4}{3}-4\sqrt3}\approx\sqrt{36.1-6.93}\approx\sqrt{29.2}\approx5.4\text{~km/h}$. $\blacksquare$
 
 ## 习题三
 
-(习题 6.4 综合运用第 15 题) $\triangle ABC$ 的三边分别为 $a$, $b$, $c$, 边 $BC$, $CA$, $AB$ 上的中线分别记为 $m_a$, $m_b$, $m_c$, 利用余弦定理证明:
+(习题 6.4 综合运用第 15 题) $\triangle{A}BC$ 的三边分别为 $a$, $b$, $c$, 边 $BC$, $CA$, $AB$ 上的中线分别记为 $m_a$, $m_b$, $m_c$, 利用余弦定理证明:
 
 $m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(a^2+c^2\right)-b^2}$, $m_c=\frac{1}{2}\sqrt{2\left(a^2+b^2\right)-c^2}$.
 
@@ -90,9 +90,9 @@ $m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$, $m_b=\frac{1}{2}\sqrt{2\left(
 
 由**定理 6.4.2 (余弦定理)**.
 
-设 $M$ 为 $BC$ 中点, $BM=\frac{a}{2}$. 在 $\triangle ABM$ 中, $m_a^2=c^2+\left(\frac{a}{2}\right)^2-2c\cdot\frac{a}{2}\cos B$.
+设 $M$ 为 $BC$ 中点, $BM=\frac{a}{2}$. 在 $\triangle{A}BM$ 中, $m_a^2=c^2+\left(\frac{a}{2}\right)^2-2c\cdot\frac{a}{2}\cos{B}$.
 
-由余弦定理 $\cos B=\frac{a^2+c^2-b^2}{2ac}$:
+由余弦定理 $\cos{B}=\frac{a^2+c^2-b^2}{2ac}$:
 
 $m_a^2=c^2+\frac{a^2}{4}-ac\cdot\frac{a^2+c^2-b^2}{2ac}=c^2+\frac{a^2}{4}-\frac{a^2+c^2-b^2}{2}=\frac{2c^2+a^2-2a^2-2c^2+2b^2}{4}=\frac{2b^2+2c^2-a^2}{4}$.
 
@@ -100,7 +100,7 @@ $m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. 同理可得其余两式. $\b
 
 ## 习题四
 
-(习题 6.4 综合运用第 16 题) 在 $\triangle ABC$ 中, 求证: $c\left(a\cos B-b\cos A\right)=a^2-b^2$.
+(习题 6.4 综合运用第 16 题) 在 $\triangle{A}BC$ 中, 求证: $c\left(a\cos{B}-b\cos{A}\right)=a^2-b^2$.
 
 ### 解答 习题四
 
@@ -110,33 +110,33 @@ $m_a=\frac{1}{2}\sqrt{2\left(b^2+c^2\right)-a^2}$. 同理可得其余两式. $\b
 
 ## 习题五
 
-(习题 6.4 综合运用第 17 题) 证明: 设三角形的外接圆的半径是 $R$, 则 $a=2R\sin A$, $b=2R\sin B$, $c=2R\sin C$.
+(习题 6.4 综合运用第 17 题) 证明: 设三角形的外接圆的半径是 $R$, 则 $a=2R\sin{A}$, $b=2R\sin{B}$, $c=2R\sin{C}$.
 
 ### 解答 习题五
 
 由**定理 6.4.3 (正弦定理)**.
 
-设外接圆圆心为 $O$. 过 $O$ 作直径 $BD$, 则 $\angle BAD=90^{\circ}$ (直径所对圆周角为直角). $\angle BDA=\angle BCA=C$ (同弧所对圆周角相等).
+设外接圆圆心为 $O$. 过 $O$ 作直径 $BD$, 则 $\angle{B}AD=90^{\circ}$ (直径所对圆周角为直角). $\angle{B}DA=\angle{B}CA=C$ (同弧所对圆周角相等).
 
-在直角三角形 $ABD$ 中, $AB=BD\sin\angle BDA=2R\sin C$. 即 $c=2R\sin C$.
+在直角三角形 $ABD$ 中, $AB=BD\sin\angle{B}DA=2R\sin{C}$. 即 $c=2R\sin{C}$.
 
-同理 $a=2R\sin A$, $b=2R\sin B$. $\blacksquare$
+同理 $a=2R\sin{A}$, $b=2R\sin{B}$. $\blacksquare$
 
 ## 习题六
 
-(习题 6.4 综合运用第 18 题) 利用第 10 题的结论, 证明三角形的面积公式 $S=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$.
+(习题 6.4 综合运用第 18 题) 利用第 10 题的结论, 证明三角形的面积公式 $S=\frac{1}{2}\cdot\frac{a^2\sin{B}\sin{C}}{\sin{A}}$.
 
 ### 解答 习题六
 
-由**定理 6.4.3 (正弦定理)** 与第 10 题结论 $S=\frac{1}{2}ab\sin C$.
+由**定理 6.4.3 (正弦定理)** 与第 10 题结论 $S=\frac{1}{2}ab\sin{C}$.
 
-由正弦定理 $b=\frac{a\sin B}{\sin A}$.
+由正弦定理 $b=\frac{a\sin{B}}{\sin{A}}$.
 
-$S=\frac{1}{2}a\cdot\frac{a\sin B}{\sin A}\cdot\sin C=\frac{1}{2}\cdot\frac{a^2\sin B\sin C}{\sin A}$. $\blacksquare$
+$S=\frac{1}{2}a\cdot\frac{a\sin{B}}{\sin{A}}\cdot\sin{C}=\frac{1}{2}\cdot\frac{a^2\sin{B}\sin{C}}{\sin{A}}$. $\blacksquare$
 
 ## 习题七
 
-(习题 6.4 拓广探索第 19 题) 如图, 在 $\square ABCD$ 中, 点 $E$, $F$ 分别是 $AD$, $DC$ 边的中点, $BE$, $BF$ 分别与 $AC$ 交于 $R$, $T$ 两点, 你能发现 $AR$, $RT$, $TC$ 之间的关系吗? 用向量方法证明你的结论.
+(习题 6.4 拓广探索第 19 题) 如图, 在 $\square{A}BCD$ 中, 点 $E$, $F$ 分别是 $AD$, $DC$ 边的中点, $BE$, $BF$ 分别与 $AC$ 交于 $R$, $T$ 两点, 你能发现 $AR$, $RT$, $TC$ 之间的关系吗? 用向量方法证明你的结论.
 
 图:平行四边形 $ABCD$,$E$ 为边 $AD$ 的中点,$F$ 为边 $DC$ 的中点;线段 $BE$ 与对角线 $AC$ 交于点 $R$,线段 $BF$ 与对角线 $AC$ 交于点 $T$.
 
@@ -156,7 +156,7 @@ $R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\la
 
 ## 习题八
 
-(习题 6.4 拓广探索第 20 题) 已知 $\triangle ABC$ 的三个角 $A$, $B$, $C$ 的对边分别为 $a$, $b$, $c$, 设 $p=\frac{1}{2}\left(a+b+c\right)$, 求证:
+(习题 6.4 拓广探索第 20 题) 已知 $\triangle{A}BC$ 的三个角 $A$, $B$, $C$ 的对边分别为 $a$, $b$, $c$, 设 $p=\frac{1}{2}\left(a+b+c\right)$, 求证:
 
 (1) 三角形的面积 $S=\sqrt{p\left(p-a\right)\left(p-b\right)\left(p-c\right)}$;
 
@@ -168,9 +168,9 @@ $R$ 在 $BE$ 上: $\boldsymbol{AR}=\lambda\boldsymbol{AB}+\mu\boldsymbol{AE}=\la
 
 由**定理 6.4.2 (余弦定理)** 与面积公式.
 
-(1) $S=\frac{1}{2}ab\sin C$. $\sin C=\sqrt{1-\cos^2 C}$. $\cos C=\frac{a^2+b^2-c^2}{2ab}$.
+(1) $S=\frac{1}{2}ab\sin{C}$. $\sin{C}=\sqrt{1-\cos^2C}$. $\cos{C}=\frac{a^2+b^2-c^2}{2ab}$.
 
-$S^2=\frac{a^2b^2}{4}\left(1-\cos^2 C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
+$S^2=\frac{a^2b^2}{4}\left(1-\cos^2C\right)=\frac{a^2b^2}{4}\left(1-\frac{\left(a^2+b^2-c^2\right)^2}{4a^2b^2}\right)=\frac{4a^2b^2-\left(a^2+b^2-c^2\right)^2}{16}$.
 
 $=\frac{\left(2ab-a^2-b^2+c^2\right)\left(2ab+a^2+b^2-c^2\right)}{16}=\frac{\left(c^2-\left(a-b\right)^2\right)\left(\left(a+b\right)^2-c^2\right)}{16}$.
 
@@ -194,35 +194,35 @@ $=p\left(p-a\right)\left(p-b\right)\left(p-c\right)$. $S=\sqrt{p\left(p-a\right)
 
 (1) 测量 $AB$ 的距离 $d$, 在 $A$ 点测得 $M$ 的仰角 $\alpha_1$, $N$ 的仰角 $\beta_1$; 在 $B$ 点测得 $M$ 的仰角 $\alpha_2$, $N$ 的仰角 $\beta_2$.
 
-(2) 在 $\triangle ABM$ 中, 由正弦定理求 $AM$, $BM$; 在 $\triangle ABN$ 中求 $AN$, $BN$; 在 $\triangle AMN$ 或 $\triangle BMN$ 中由余弦定理求 $MN$. $\blacksquare$
+(2) 在 $\triangle{A}BM$ 中, 由正弦定理求 $AM$, $BM$; 在 $\triangle{A}BN$ 中求 $AN$, $BN$; 在 $\triangle{A}MN$ 或 $\triangle{B}MN$ 中由余弦定理求 $MN$. $\blacksquare$
 
 ## 习题十
 
-(习题 6.4 拓广探索第 22 题) 已知 $a$, $b$, $c$ 分别为 $\triangle ABC$ 三个内角 $A$, $B$, $C$ 的对边, 且 $a\cos C+\sqrt 3a\sin C-b-c=0$.
+(习题 6.4 拓广探索第 22 题) 已知 $a$, $b$, $c$ 分别为 $\triangle{A}BC$ 三个内角 $A$, $B$, $C$ 的对边, 且 $a\cos{C}+\sqrt3a\sin{C}-b-c=0$.
 
 (1) 求 $A$;
 
-(2) 若 $a=2$, 且 $\triangle ABC$ 的面积为 $\sqrt 3$, 求 $b$, $c$.
+(2) 若 $a=2$, 且 $\triangle{A}BC$ 的面积为 $\sqrt3$, 求 $b$, $c$.
 
 ### 解答 习题十
 
 由**定理 6.4.3 (正弦定理)**.
 
-(1) 由正弦定理: $\sin A\cos C+\sqrt 3\sin A\sin C-\sin B-\sin C=0$.
+(1) 由正弦定理: $\sin{A}\cos{C}+\sqrt3\sin{A}\sin{C}-\sin{B}-\sin{C}=0$.
 
-$B=\pi-A-C$. $\sin B=\sin\left(A+C\right)=\sin A\cos C+\cos A\sin C$.
+$B=\pi-A-C$. $\sin{B}=\sin\left(A+C\right)=\sin{A}\cos{C}+\cos{A}\sin{C}$.
 
-$\sin A\cos C+\sqrt 3\sin A\sin C-\sin A\cos C-\cos A\sin C-\sin C=0$.
+$\sin{A}\cos{C}+\sqrt3\sin{A}\sin{C}-\sin{A}\cos{C}-\cos{A}\sin{C}-\sin{C}=0$.
 
-$\left(\sqrt 3\sin A-\cos A-1\right)\sin C=0$.
+$\left(\sqrt3\sin{A}-\cos{A}-1\right)\sin{C}=0$.
 
-$\sqrt 3\sin A-\cos A=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
+$\sqrt3\sin{A}-\cos{A}=1$. $2\sin\left(A-30^{\circ}\right)=1$. $\sin\left(A-30^{\circ}\right)=\frac{1}{2}$.
 
 $A-30^{\circ}=30^{\circ}$, $A=60^{\circ}$.
 
-(2) $S=\frac{1}{2}bc\sin A=\sqrt 3$. $\frac{1}{2}bc\cdot\frac{\sqrt 3}{2}=\sqrt 3$. $bc=4$.
+(2) $S=\frac{1}{2}bc\sin{A}=\sqrt3$. $\frac{1}{2}bc\cdot\frac{\sqrt3}{2}=\sqrt3$. $bc=4$.
 
-$a^2=b^2+c^2-2bc\cos A$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
+$a^2=b^2+c^2-2bc\cos{A}$. $4=b^2+c^2-2\cdot4\cdot\frac{1}{2}=b^2+c^2-4$.
 
 $b^2+c^2=8$. $\left(b+c\right)^2=b^2+c^2+2bc=16$. $b+c=4$.
 
@@ -266,25 +266,25 @@ $2+\sqrt{7}$, $0.618$, $\frac{2}{7}\mathrm{i}$, $0$, $\mathrm{i}$, $5\mathrm{i}+
 
 ### 解答 练习二
 
-由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 复数 $a+b\mathrm{i}$ 当 $b=0$ 时为实数, 当 $b\neq 0$ 时为虚数, 当 $a=0$ 且 $b\neq 0$ 时为纯虚数.
+由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 复数 $a+b\mathrm{i}$ 当 $b=0$ 时为实数, 当 $b\neq0$ 时为虚数, 当 $a=0$ 且 $b\neq0$ 时为纯虚数.
 
 (1) $2+\sqrt{7}=\left(2+\sqrt{7}\right)+0\mathrm{i}$, 虚部为 $0$, 是实数.
 
 (2) $0.618=0.618+0\mathrm{i}$, 虚部为 $0$, 是实数.
 
-(3) $\frac{2}{7}\mathrm{i}=0+\frac{2}{7}\mathrm{i}$, 实部为 $0$, 虚部 $\frac{2}{7}\neq 0$, 是纯虚数.
+(3) $\frac{2}{7}\mathrm{i}=0+\frac{2}{7}\mathrm{i}$, 实部为 $0$, 虚部 $\frac{2}{7}\neq0$, 是纯虚数.
 
 (4) $0=0+0\mathrm{i}$, 虚部为 $0$, 是实数.
 
-(5) $\mathrm{i}=0+1\mathrm{i}$, 实部为 $0$, 虚部 $1\neq 0$, 是纯虚数.
+(5) $\mathrm{i}=0+1\mathrm{i}$, 实部为 $0$, 虚部 $1\neq0$, 是纯虚数.
 
-(6) $5\mathrm{i}+8=8+5\mathrm{i}$, 实部 $8\neq 0$, 虚部 $5\neq 0$, 是虚数.
+(6) $5\mathrm{i}+8=8+5\mathrm{i}$, 实部 $8\neq0$, 虚部 $5\neq0$, 是虚数.
 
-(7) $3-9\sqrt{2}\mathrm{i}=3+\left(-9\sqrt{2}\right)\mathrm{i}$, 实部 $3\neq 0$, 虚部 $-9\sqrt{2}\neq 0$, 是虚数.
+(7) $3-9\sqrt{2}\mathrm{i}=3+\left(-9\sqrt{2}\right)\mathrm{i}$, 实部 $3\neq0$, 虚部 $-9\sqrt{2}\neq0$, 是虚数.
 
-(8) $\mathrm{i}\left(1-\sqrt{3}\right)=0+\left(1-\sqrt{3}\right)\mathrm{i}$, 实部为 $0$, 虚部 $1-\sqrt{3}\neq 0$, 是纯虚数.
+(8) $\mathrm{i}\left(1-\sqrt{3}\right)=0+\left(1-\sqrt{3}\right)\mathrm{i}$, 实部为 $0$, 虚部 $1-\sqrt{3}\neq0$, 是纯虚数.
 
-(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+\left(-\sqrt{2}\right)\mathrm{i}$, 实部 $\sqrt{2}\neq 0$, 虚部 $-\sqrt{2}\neq 0$, 是虚数.
+(9) $\sqrt{2}-\sqrt{2}\mathrm{i}=\sqrt{2}+\left(-\sqrt{2}\right)\mathrm{i}$, 实部 $\sqrt{2}\neq0$, 虚部 $-\sqrt{2}\neq0$, 是虚数.
 
 综上, 实数为 $2+\sqrt{7}$, $0.618$, $0$; 虚数为 $5\mathrm{i}+8$, $3-9\sqrt{2}\mathrm{i}$, $\sqrt{2}-\sqrt{2}\mathrm{i}$; 纯虚数为 $\frac{2}{7}\mathrm{i}$, $\mathrm{i}$, $\mathrm{i}\left(1-\sqrt{3}\right)$. $\blacksquare$
 
@@ -378,7 +378,7 @@ $$
 
 ### 解答 练习六
 
-由**定义 7.1.8 (复数的几何意义)**, 复数 $a+b\mathrm{i}$ 对应向量 $\boldsymbol{OZ}=\left(a,b\right)$; 由**定义 7.1.9 (复数的模)**, $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+由**定义 7.1.8 (复数的几何意义)**, 复数 $a+b\mathrm{i}$ 对应向量 $\boldsymbol{OZ}=\left(a,b\right)$; 由**定义 7.1.9 (复数的模)**, $\lvert{a}+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
 (1) 各复数对应的向量分别为: $\left(2,1\right)$, $\left(-2,4\right)$, $\left(0,-2\right)$, $\left(4,0\right)$, $\left(\frac{3}{2},-4\right)$, 在复平面内以原点 $O$ 为起点画出这些向量即可.
 
@@ -406,13 +406,13 @@ $$
 
 ### 解答 习题十二
 
-由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 虚数要求 $b\neq 0$, 纯虚数要求 $a=0$ 且 $b\neq 0$.
+由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 虚数要求 $b\neq0$, 纯虚数要求 $a=0$ 且 $b\neq0$.
 
-(1) 取 $a=-\sqrt{2}$, $b=1\neq 0$, 则复数 $-\sqrt{2}+\mathrm{i}$ 的实部为 $-\sqrt{2}$, 且 $b\neq 0$, 是虚数. 故存在.
+(1) 取 $a=-\sqrt{2}$, $b=1\neq0$, 则复数 $-\sqrt{2}+\mathrm{i}$ 的实部为 $-\sqrt{2}$, 且 $b\neq0$, 是虚数. 故存在.
 
-(2) 取 $a=1$, $b=-\sqrt{2}\neq 0$, 则复数 $1-\sqrt{2}\mathrm{i}$ 的虚部为 $-\sqrt{2}$, 且 $b\neq 0$, 是虚数. 故存在.
+(2) 取 $a=1$, $b=-\sqrt{2}\neq0$, 则复数 $1-\sqrt{2}\mathrm{i}$ 的虚部为 $-\sqrt{2}$, 且 $b\neq0$, 是虚数. 故存在.
 
-(3) 要求纯虚数, 须 $a=0$ 且 $b=-\sqrt{2}\neq 0$, 则复数 $0-\sqrt{2}\mathrm{i}=-\sqrt{2}\mathrm{i}$ 的虚部为 $-\sqrt{2}$, 且 $a=0$, 是纯虚数. 故存在. $\blacksquare$
+(3) 要求纯虚数, 须 $a=0$ 且 $b=-\sqrt{2}\neq0$, 则复数 $0-\sqrt{2}\mathrm{i}=-\sqrt{2}\mathrm{i}$ 的虚部为 $-\sqrt{2}$, 且 $a=0$, 是纯虚数. 故存在. $\blacksquare$
 
 ## 习题十三
 
@@ -426,15 +426,15 @@ $$
 
 ### 解答 习题十三
 
-由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 复数 $a+b\mathrm{i}$ 为实数当 $b=0$, 为虚数当 $b\neq 0$, 为纯虚数当 $a=0$ 且 $b\neq 0$.
+由**定义 7.1.6 (实数, 虚数, 纯虚数)**, 复数 $a+b\mathrm{i}$ 为实数当 $b=0$, 为虚数当 $b\neq0$, 为纯虚数当 $a=0$ 且 $b\neq0$.
 
 记 $a=m^2-5m+6$, $b=m^2-3m=m\left(m-3\right)$.
 
 (1) 为实数须 $b=0$, 即 $m\left(m-3\right)=0$, 得 $m=0$ 或 $m=3$.
 
-(2) 为虚数须 $b\neq 0$, 即 $m\neq 0$ 且 $m\neq 3$.
+(2) 为虚数须 $b\neq0$, 即 $m\neq0$ 且 $m\neq3$.
 
-(3) 为纯虚数须 $a=0$ 且 $b\neq 0$. 由 $a=0$, 即 $\left(m-2\right)\left(m-3\right)=0$, 得 $m=2$ 或 $m=3$. 又须 $b\neq 0$, 即 $m\neq 0$ 且 $m\neq 3$, 故舍去 $m=3$, 得 $m=2$. $\blacksquare$
+(3) 为纯虚数须 $a=0$ 且 $b\neq0$. 由 $a=0$, 即 $\left(m-2\right)\left(m-3\right)=0$, 得 $m=2$ 或 $m=3$. 又须 $b\neq0$, 即 $m\neq0$ 且 $m\neq3$, 故舍去 $m=3$, 得 $m=2$. $\blacksquare$
 
 ## 习题十四
 
@@ -466,27 +466,27 @@ $$
 
 ## 习题十五
 
-(习题 7.1 复习巩固第 4 题) 如果 $P$ 是复平面内表示复数 $a+b\mathrm{i}\ \left(a,b\in\mathbb R\right)$ 的点, 分别指出在下列条件下点 $P$ 的位置.
+(习题 7.1 复习巩固第 4 题) 如果 $P$ 是复平面内表示复数 $a+b\mathrm{i}\,\left(a,b\in\mathbb{R}\right)$ 的点, 分别指出在下列条件下点 $P$ 的位置.
 
-(1) $a> 0$, $b> 0$;
+(1) $a>0$, $b>0$;
 
-(2) $a< 0$, $b> 0$;
+(2) $a<0$, $b>0$;
 
-(3) $a=0$, $b\le 0$;
+(3) $a=0$, $b\le0$;
 
-(4) $b< 0$.
+(4) $b<0$.
 
 ### 解答 习题十五
 
 由**定义 7.1.7 (复平面)** 与**定义 7.1.8 (复数的几何意义)**, 复数 $a+b\mathrm{i}$ 对应复平面内的点 $P\left(a,b\right)$, $a$ 为横坐标, $b$ 为纵坐标.
 
-(1) $a> 0$, $b> 0$, 点 $P$ 在第一象限.
+(1) $a>0$, $b>0$, 点 $P$ 在第一象限.
 
-(2) $a< 0$, $b> 0$, 点 $P$ 在第二象限.
+(2) $a<0$, $b>0$, 点 $P$ 在第二象限.
 
-(3) $a=0$, 点 $P$ 在 $y$ 轴 (虚轴) 上; 又 $b\le 0$, 点 $P$ 在虚轴的下半部分 (含原点).
+(3) $a=0$, 点 $P$ 在 $y$ 轴 (虚轴) 上; 又 $b\le0$, 点 $P$ 在虚轴的下半部分 (含原点).
 
-(4) $b< 0$, 点 $P$ 的纵坐标为负, 点 $P$ 位于实轴下方的半平面内. $\blacksquare$
+(4) $b<0$, 点 $P$ 的纵坐标为负, 点 $P$ 位于实轴下方的半平面内. $\blacksquare$
 
 ## 习题十六
 
@@ -494,17 +494,17 @@ $$
 
 ### 解答 习题十六
 
-由**定义 7.1.9 (复数的模)**, $\lvert a+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
+由**定义 7.1.9 (复数的模)**, $\lvert{a}+b\mathrm{i}\rvert=\sqrt{a^2+b^2}$.
 
 $$
-\lvert z_1\rvert=\lvert3+4\mathrm{i}\rvert=\sqrt{3^2+4^2}=\sqrt{25}=5.
+\lvert{z}_1\rvert=\lvert3+4\mathrm{i}\rvert=\sqrt{3^2+4^2}=\sqrt{25}=5.
 $$
 
 $$
-\lvert z_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
+\lvert{z}_2\rvert=\left\lvert\frac{1}{2}-\sqrt{2}\mathrm{i}\right\rvert=\sqrt{\left(\frac{1}{2}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{\frac{1}{4}+2}=\sqrt{\frac{9}{4}}=\frac{3}{2}.
 $$
 
-因为 $5> \frac{3}{2}$, 所以 $\lvert z_1\rvert> \lvert z_2\rvert$. $\blacksquare$
+因为 $5>\frac{3}{2}$, 所以 $\lvert{z}_1\rvert>\lvert{z}_2\rvert$. $\blacksquare$
 
 ## 习题十七
 
@@ -520,15 +520,15 @@ $$
 
 由**定义 7.1.8 (复数的几何意义)**, 复数 $z=a+b\mathrm{i}$ 对应点 $P\left(a,b\right)$. 记 $a=m^2-8m+15=\left(m-3\right)\left(m-5\right)$, $b=m^2-5m-14=\left(m-7\right)\left(m+2\right)$.
 
-(1) 位于第四象限, 须 $a> 0$ 且 $b< 0$. 由 $a> 0$, 得 $m< 3$ 或 $m> 5$; 由 $b< 0$, 得 $-2< m< 7$. 取交集, 得 $-2< m< 3$ 或 $5< m< 7$.
+(1) 位于第四象限, 须 $a>0$ 且 $b<0$. 由 $a>0$, 得 $m<3$ 或 $m>5$; 由 $b<0$, 得 $-2<{}m<7$. 取交集, 得 $-2<{}m<3$ 或 $5<{}m<7$.
 
-(2) 位于第一象限或第三象限, 须 $a$ 与 $b$ 同号, 即 $ab> 0$.
+(2) 位于第一象限或第三象限, 须 $a$ 与 $b$ 同号, 即 $ab>0$.
 
-(a) 当 $a> 0$ 且 $b> 0$ 时: $m< 3$ 或 $m> 5$, 且 $m< -2$ 或 $m> 7$, 得 $m< -2$ 或 $m> 7$.
+(a) 当 $a>0$ 且 $b>0$ 时: $m<3$ 或 $m>5$, 且 $m<-2$ 或 $m>7$, 得 $m<-2$ 或 $m>7$.
 
-(b) 当 $a< 0$ 且 $b< 0$ 时: $3< m< 5$, 且 $-2< m< 7$, 得 $3< m< 5$.
+(b) 当 $a<0$ 且 $b<0$ 时: $3<{}m<5$, 且 $-2<{}m<7$, 得 $3<{}m<5$.
 
-综上, 得 $m< -2$ 或 $3< m< 5$ 或 $m> 7$.
+综上, 得 $m<-2$ 或 $3<{}m<5$ 或 $m>7$.
 
 (3) 位于直线 $y=x$ 上, 须点 $P\left(a,b\right)$ 满足 $b=a$, 即 $m^2-5m-14=m^2-8m+15$. 化简, 得 $3m=29$, 即 $m=\frac{29}{3}$. $\blacksquare$
 

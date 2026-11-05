@@ -42,11 +42,11 @@ By **Definition 3.3.2 (Standard Equation of a Parabola)**.
 
 (2) Symmetric about the $y$-axis; let $x^2=\pm2py$. The segment cut off by $y=-12$ has length $12$, so $x=\pm6$ lies on the parabola. $36=\pm2p\cdot\left(-12\right)$; choosing downward opening $x^2=-2py$, we get $36=24p$, $p=\frac{3}{2}$. The equation is $x^2=-3y$.
 
-(3) Symmetric about the $x$-axis, focus $F\left(\frac{p}{2},0\right)$, directrix $x=-\frac{p}{2}$. The two points on the directrix are symmetric about the $x$-axis; let them be $A\left(-\frac{p}{2},t\right)$ and $B\left(-\frac{p}{2},-t\right)$. $\lvert AB \rvert=2t=2\sqrt{3}$, so $t=\sqrt{3}$. $\lvert FA \rvert=\sqrt{p^2+3}=2\sqrt{3}$, so $p^2=9$, $p=3$. The equation is $y^2=6x$. $\blacksquare$
+(3) Symmetric about the $x$-axis, focus $F\left(\frac{p}{2},0\right)$, directrix $x=-\frac{p}{2}$. The two points on the directrix are symmetric about the $x$-axis; let them be $A\left(-\frac{p}{2},t\right)$ and $B\left(-\frac{p}{2},-t\right)$. $\lvert{A}B\rvert=2t=2\sqrt{3}$, so $t=\sqrt{3}$. $\lvert{F}A\rvert=\sqrt{p^2+3}=2\sqrt{3}$, so $p^2=9$, $p=3$. The equation is $y^2=6x$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 3.3, Problem 2) The point $M\left(m,4\right)$ lies on the parabola $y^2=24x$, with $F$ the focus. The line $MF$ intersects the directrix at $N$. Find $\lvert FN \rvert$.
+(Exercise 3.3, Problem 2) The point $M\left(m,4\right)$ lies on the parabola $y^2=24x$, with $F$ the focus. The line $MF$ intersects the directrix at $N$. Find $\lvert{F}N\rvert$.
 
 ### Solution to Exercise 2
 
@@ -54,23 +54,23 @@ For the parabola $y^2=24x$, $p=12$, focus $F\left(6,0\right)$, directrix $x=-6$.
 
 The line $MF$ passes through $F\left(6,0\right)$ and $M\left(\frac{2}{3},4\right)$, with slope $k=\frac{4}{2/3-6}=-\frac{3}{4}$ and equation $y=-\frac{3}{4}\left(x-6\right)$. Its intersection with the directrix $x=-6$ is $N$, with $y=-\frac{3}{4}\left(-12\right)=9$, so $N\left(-6,9\right)$.
 
-$\lvert FN \rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$. $\blacksquare$
+$\lvert{F}N\rvert=\sqrt{\left(6+6\right)^2+\left(0-9\right)^2}=\sqrt{144+81}=15$. $\blacksquare$
 
 ## Exercise 3
 
-(Exercise 3.3, Problem 3) Let the distance from a point $M$ on the parabola $x^2=2py$ ($p> 0$) to the focus $F$ be $4$, and the distance from $M$ to the $y$-axis be $\sqrt{3p}$. Find the equation of the parabola and the coordinates of $M$.
+(Exercise 3.3, Problem 3) Let the distance from a point $M$ on the parabola $x^2=2py$ ($p>0$) to the focus $F$ be $4$, and the distance from $M$ to the $y$-axis be $\sqrt{3p}$. Find the equation of the parabola and the coordinates of $M$.
 
 ### Solution to Exercise 3
 
-For the parabola $x^2=2py$, the focus is $F\left(0,\frac{p}{2}\right)$ and the directrix is $y=-\frac{p}{2}$. By **Common Conclusion 3.3.3**, $\lvert MF \rvert$ equals the distance from $M$ to the directrix, i.e. $\lvert MF \rvert=y+\frac{p}{2}$.
+For the parabola $x^2=2py$, the focus is $F\left(0,\frac{p}{2}\right)$ and the directrix is $y=-\frac{p}{2}$. By **Common Conclusion 3.3.3**, $\lvert{M}F\rvert$ equals the distance from $M$ to the directrix, i.e. $\lvert{M}F\rvert=y+\frac{p}{2}$.
 
 The distance from $M$ to the $y$-axis is $\sqrt{3p}$, so $x^2=3p$. Since $M$ lies on the parabola, $x^2=2py$, so $3p=2py$, $y=\frac{3}{2}$.
 
-From $\lvert MF \rvert=4$, we get $\frac{3}{2}+\frac{p}{2}=4$, so $p=5$. The parabola equation is $x^2=10y$. Then $x^2=15$, $x=\pm\sqrt{15}$, and the coordinates of $M$ are $\left(\pm\sqrt{15},\frac{3}{2}\right)$. $\blacksquare$
+From $\lvert{M}F\rvert=4$, we get $\frac{3}{2}+\frac{p}{2}=4$, so $p=5$. The parabola equation is $x^2=10y$. Then $x^2=15$, $x=\pm\sqrt{15}$, and the coordinates of $M$ are $\left(\pm\sqrt{15},\frac{3}{2}\right)$. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 3.3, Problem 4) The two lines $y=kx$ and $y=-kx$ intersect the parabola $y^2=2px$ ($p> 0$) at $A$ and $B$ (other than the origin). For what value of $k$ does the line $AB$ pass through the focus of the parabola?
+(Exercise 3.3, Problem 4) The two lines $y=kx$ and $y=-kx$ intersect the parabola $y^2=2px$ ($p>0$) at $A$ and $B$ (other than the origin). For what value of $k$ does the line $AB$ pass through the focus of the parabola?
 
 ### Solution to Exercise 4
 
@@ -130,15 +130,15 @@ By **Definition 3.3.2 (Standard Equation of Parabola)** and **Common Conclusion 
 
 (1) Directrix $x=2$, opening faces left, $\frac{p}{2}=2$, $p=4$. The equation is $y^2=-8x$.
 
-(2) $y^2=8x$, $p=4$, focus $\left(2,0\right)$, directrix $x=-2$. $\lvert MF \rvert=6$, so $x_M+2=6$, $x_M=4$, $y=\pm\sqrt{32}=\pm4\sqrt{2}$. The coordinates are $\left(4,\pm4\sqrt{2}\right)$. $\blacksquare$
+(2) $y^2=8x$, $p=4$, focus $\left(2,0\right)$, directrix $x=-2$. $\lvert{M}F\rvert=6$, so $x_M+2=6$, $x_M=4$, $y=\pm\sqrt{32}=\pm4\sqrt{2}$. The coordinates are $\left(4,\pm4\sqrt{2}\right)$. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 3.3, Review and Consolidation, Problem 3) A point $M$ on the parabola $y^2=2px$ ($p> 0$) has distance $\lvert MF \rvert=2p$ to the focus $F$. Find the coordinates of $M$.
+(Exercise 3.3, Review and Consolidation, Problem 3) A point $M$ on the parabola $y^2=2px$ ($p>0$) has distance $\lvert{M}F\rvert=2p$ to the focus $F$. Find the coordinates of $M$.
 
 ### Solution to Problem 3
 
-By **Common Conclusion 3.3.3**, $\lvert MF \rvert=d$ (distance from $M$ to the directrix). The directrix is $x=-\frac{p}{2}$, so $x_M+\frac{p}{2}=2p$, $x_M=\frac{3p}{2}$. Substituting into $y^2=2px=3p^2$ gives $y=\pm\sqrt{3}p$. The coordinates are $\left(\frac{3p}{2},\pm\sqrt{3}p\right)$. $\blacksquare$
+By **Common Conclusion 3.3.3**, $\lvert{M}F\rvert=d$ (distance from $M$ to the directrix). The directrix is $x=-\frac{p}{2}$, so $x_M+\frac{p}{2}=2p$, $x_M=\frac{3p}{2}$. Substituting into $y^2=2px=3p^2$ gives $y=\pm\sqrt{3}p$. The coordinates are $\left(\frac{3p}{2},\pm\sqrt{3}p\right)$. $\blacksquare$
 
 ## Problem 4
 
@@ -160,19 +160,19 @@ By **Definition 3.3.2 (Standard Equation of a Parabola)**.
 
 ## Problem 5
 
-(Exercise 3.3, Review and Consolidation, Problem 5) As shown in the figure, $M$ is a point on the parabola $y^2=4x$, $F$ is the focus, and the angle from the initial side $Fx$ to the terminal side $FM$ is $\angle xFM=60^{\circ}$. Find $\lvert FM \rvert$.
+(Exercise 3.3, Review and Consolidation, Problem 5) As shown in the figure, $M$ is a point on the parabola $y^2=4x$, $F$ is the focus, and the angle from the initial side $Fx$ to the terminal side $FM$ is $\angle{x}FM=60^{\circ}$. Find $\lvert{F}M\rvert$.
 
-The figure plots, in the rectangular coordinate system, the parabola $y^2=4x$ opening to the right with vertex at the origin (focus $F\left(1,0\right)$): point $M$ lies on the parabola, and with $Fx$ (the positive $x$-axis direction) as the initial side and $FM$ as the terminal side, the angle $\angle xFM=60^\circ$; segment $FM$ is drawn.
+The figure plots, in the rectangular coordinate system, the parabola $y^2=4x$ opening to the right with vertex at the origin (focus $F\left(1,0\right)$): point $M$ lies on the parabola, and with $Fx$ (the positive $x$-axis direction) as the initial side and $FM$ as the terminal side, the angle $\angle{x}FM=60^\circ$; segment $FM$ is drawn.
 
 ### Solution to Problem 5
 
-The focus of $y^2=4x$ is $F\left(1,0\right)$. Let $M\left(x,y\right)$. Since $\angle xFM=60^{\circ}$, the slope of $FM$ is $\tan60^{\circ}=\sqrt{3}$, and its equation is $y=\sqrt{3}\left(x-1\right)$.
+The focus of $y^2=4x$ is $F\left(1,0\right)$. Let $M\left(x,y\right)$. Since $\angle{x}FM=60^{\circ}$, the slope of $FM$ is $\tan60^{\circ}=\sqrt{3}$, and its equation is $y=\sqrt{3}\left(x-1\right)$.
 
-Substituting into $y^2=4x$ gives $3\left(x-1\right)^2=4x$, i.e. $3x^2-10x+3=0$, so $x=3$ or $x=\frac{1}{3}$. By **Common Conclusion 3.3.3**, $\lvert MF \rvert=x+1$. Taking $x=3$ (first quadrant), $\lvert MF \rvert=4$. $\blacksquare$
+Substituting into $y^2=4x$ gives $3\left(x-1\right)^2=4x$, i.e. $3x^2-10x+3=0$, so $x=3$ or $x=\frac{1}{3}$. By **Common Conclusion 3.3.3**, $\lvert{M}F\rvert=x+1$. Taking $x=3$ (first quadrant), $\lvert{M}F\rvert=4$. $\blacksquare$
 
 ## Problem 6
 
-(Exercise 3.3, Review and Consolidation, Problem 6) As shown in the figure, the line $y=x-2$ intersects the parabola $y^2=2x$ at $A$ and $B$. Prove that $OA\perp OB$.
+(Exercise 3.3, Review and Consolidation, Problem 6) As shown in the figure, the line $y=x-2$ intersects the parabola $y^2=2x$ at $A$ and $B$. Prove that $OA\perp{O}B$.
 
 The figure plots, in the rectangular coordinate system, the parabola $y^2=2x$ opening to the right with vertex at the origin, and the line $y=x-2$; they intersect at $A$ and $B$, and segments $OA$ and $OB$ (with $O$ the origin) are drawn.
 
@@ -182,7 +182,7 @@ Substituting $y=x-2$ into $y^2=2x$ gives $\left(x-2\right)^2=2x$, i.e. $x^2-6x+4
 
 $y_1y_2=\left(x_1-2\right)\left(x_2-2\right)=x_1x_2-2\left(x_1+x_2\right)+4=4-12+4=-4$.
 
-$\boldsymbol{OA}\cdot\boldsymbol{OB}=x_1x_2+y_1y_2=4-4=0$, so $OA\perp OB$. $\blacksquare$
+$\boldsymbol{OA}\cdot\boldsymbol{OB}=x_1x_2+y_1y_2=4-4=0$, so $OA\perp{O}B$. $\blacksquare$
 
 ## Problem 7
 
@@ -214,7 +214,7 @@ After the water drops $1\,\mathrm{m}$, $y=-3$, $x^2=6$, $x=\pm\sqrt{6}\approx\pm
 
 ## Problem 9
 
-(Exercise 3.3, Comprehensive Application, Problem 9) From each point on the parabola $y^2=2px$ ($p> 0$), drop a perpendicular segment to the $x$-axis. Find the locus equation of the midpoints of these perpendicular segments, and describe the curve.
+(Exercise 3.3, Comprehensive Application, Problem 9) From each point on the parabola $y^2=2px$ ($p>0$), drop a perpendicular segment to the $x$-axis. Find the locus equation of the midpoints of these perpendicular segments, and describe the curve.
 
 ### Solution to Problem 9
 
@@ -228,11 +228,11 @@ The locus is a parabola opening to the right. $\blacksquare$
 
 ## Problem 10
 
-(Exercise 3.3, Comprehensive Application, Problem 10) One vertex of an equilateral triangle lies at the origin, and the other two lie on the parabola $y^2=2px$ ($p> 0$). Find the side length of this equilateral triangle.
+(Exercise 3.3, Comprehensive Application, Problem 10) One vertex of an equilateral triangle lies at the origin, and the other two lie on the parabola $y^2=2px$ ($p>0$). Find the side length of this equilateral triangle.
 
 ### Solution to Problem 10
 
-Let the two points on the parabola be $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. By symmetry, $A$ and $B$ are symmetric about the $x$-axis, so $B\left(x_1,-y_1\right)$. $\lvert OA \rvert=\lvert AB \rvert$, so $\sqrt{x_1^2+y_1^2}=2\lvert y_1 \rvert$. Also $y_1^2=2px_1$, so $x_1^2+2px_1=4y_1^2=8px_1$, giving $x_1^2=6px_1$, $x_1=6p$. Then $y_1^2=12p^2$, $y_1=2\sqrt{3}p$. The side length is $\lvert AB \rvert=2\lvert y_1 \rvert=4\sqrt{3}p$. $\blacksquare$
+Let the two points on the parabola be $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$. By symmetry, $A$ and $B$ are symmetric about the $x$-axis, so $B\left(x_1,-y_1\right)$. $\lvert{O}A\rvert=\lvert{A}B\rvert$, so $\sqrt{x_1^2+y_1^2}=2\lvert{y}_1\rvert$. Also $y_1^2=2px_1$, so $x_1^2+2px_1=4y_1^2=8px_1$, giving $x_1^2=6px_1$, $x_1=6p$. Then $y_1^2=12p^2$, $y_1=2\sqrt{3}p$. The side length is $\lvert{A}B\rvert=2\lvert{y}_1\rvert=4\sqrt{3}p$. $\blacksquare$
 
 ## Problem 11
 
@@ -274,7 +274,7 @@ Let a line through $P\left(-2,1\right)$ be $y-1=k\left(x+2\right)$. Substituting
 
 ## Problem 13
 
-(Exercise 3.3, Extension and Exploration, Problem 13) Let $F$ be the focus of the parabola $y^2=2px$ ($p> 0$). Light emitted from $F$ reflects off a point $M$ on the parabola (other than the vertex). Prove that the reflected ray is parallel to the axis of symmetry of the parabola.
+(Exercise 3.3, Extension and Exploration, Problem 13) Let $F$ be the focus of the parabola $y^2=2px$ ($p>0$). Light emitted from $F$ reflects off a point $M$ on the parabola (other than the vertex). Prove that the reflected ray is parallel to the axis of symmetry of the parabola.
 
 ### Solution to Problem 13
 
@@ -330,67 +330,67 @@ Hence there is 1 incorrect statement, namely (1). Choose (A). $\blacksquare$
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations).
 
-$\boldsymbol{a}-\boldsymbol{b}=\left(3-\left(-1\right), 1-3, 2-0\right)=\left(4,-2,2\right)$.
+$\boldsymbol{a}-\boldsymbol{b}=\left(3-\left(-1\right),1-3,2-0\right)=\left(4,-2,2\right)$.
 
-$\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2} \times \left(-1\right), 1+\frac{1}{2} \times 3, 2+\frac{1}{2} \times 0\right)=\left(\frac{5}{2}, \frac{5}{2}, 2\right)$.
+$\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2}\times\left(-1\right),1+\frac{1}{2}\times3,2+\frac{1}{2}\times0\right)=\left(\frac{5}{2},\frac{5}{2},2\right)$.
 
 Hence choose (A). $\blacksquare$
 
 ## Problem 16
 
-(Review Reference Problems 1, Review and Consolidation, Problem 3) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \perp \boldsymbol{b}$, then $x=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 3) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a}\perp\boldsymbol{b}$, then $x=\;\_\_\;$.
 
 ### Solution to Problem 16
 
-By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a} \perp \boldsymbol{b} \iff \boldsymbol{a} \cdot \boldsymbol{b}=0$.
+By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a}\perp\boldsymbol{b}\iff\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=2 \times \left(-4\right)+\left(-1\right) \times 2+3 \times x=-8-2+3x=3x-10=0$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-4\right)+\left(-1\right)\times2+3\times{x}=-8-2+3x=3x-10=0$.
 
 Hence $x=\frac{10}{3}$. $\blacksquare$
 
 ## Problem 17
 
-(Review Reference Problems 1, Review and Consolidation, Problem 4) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a} \parallel \boldsymbol{b}$, then $x=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 4) Given $\boldsymbol{a}=\left(2,-1,3\right)$, $\boldsymbol{b}=\left(-4,2,x\right)$, and $\boldsymbol{a}\parallel\boldsymbol{b}$, then $x=\;\_\_\;$.
 
 ### Solution to Problem 17
 
-By **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism), $\boldsymbol{a} \parallel \boldsymbol{b} \iff$ there exists $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+By **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism), $\boldsymbol{a}\parallel\boldsymbol{b}\iff$ there exists $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
-$-4=\lambda \times 2$, so $\lambda=-2$.
+$-4=\lambda\times2$, so $\lambda=-2$.
 
-$2=\lambda \times \left(-1\right)=-\left(-2\right)=2$, which is consistent.
+$2=\lambda\times\left(-1\right)=-\left(-2\right)=2$, which is consistent.
 
-$x=\lambda \times 3=-2 \times 3=-6$. $\blacksquare$
+$x=\lambda\times3=-2\times3=-6$. $\blacksquare$
 
 ## Problem 18
 
-(Review Reference Problems 1, Review and Consolidation, Problem 5) Given points $A\left(1,0,0\right)$ and $B\left(2,1,2\right)$, then the vector $\boldsymbol{AB}=\;\_\_\;$, and $\lvert \boldsymbol{AB} \rvert=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 5) Given points $A\left(1,0,0\right)$ and $B\left(2,1,2\right)$, then the vector $\boldsymbol{AB}=\;\_\_\;$, and $\lvert\boldsymbol{AB}\rvert=\;\_\_\;$.
 
 ### Solution to Problem 18
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations) and **Common Conclusion 1.3.5** (Coordinate Representation of Norm).
 
-$\boldsymbol{AB}=B-A=\left(2-1, 1-0, 2-0\right)=\left(1,1,2\right)$.
+$\boldsymbol{AB}=B-A=\left(2-1,1-0,2-0\right)=\left(1,1,2\right)$.
 
-$\lvert \boldsymbol{AB} \rvert=\sqrt{1^2+1^2+2^2}=\sqrt{6}$. $\blacksquare$
+$\lvert\boldsymbol{AB}\rvert=\sqrt{1^2+1^2+2^2}=\sqrt{6}$. $\blacksquare$
 
 ## Problem 19
 
-(Review Reference Problems 1, Review and Consolidation, Problem 6) Given $\boldsymbol{a}=\left(1,0,1\right)$ and $\boldsymbol{b}=\left(1,1,0\right)$, then $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\;\_\_\;$.
+(Review Reference Problems 1, Review and Consolidation, Problem 6) Given $\boldsymbol{a}=\left(1,0,1\right)$ and $\boldsymbol{b}=\left(1,1,0\right)$, then $\sin\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\;\_\_\;$.
 
 ### Solution to Problem 19
 
 By **Common Conclusion 1.3.5** (Coordinate Representation of Angle).
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=1 \times 1+0 \times 1+1 \times 0=1$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=1\times1+0\times1+1\times0=1$.
 
-$\lvert \boldsymbol{a} \rvert=\sqrt{1+0+1}=\sqrt{2}$.
+$\lvert\boldsymbol{a}\rvert=\sqrt{1+0+1}=\sqrt{2}$.
 
-$\lvert \boldsymbol{b} \rvert=\sqrt{1+1+0}=\sqrt{2}$.
+$\lvert\boldsymbol{b}\rvert=\sqrt{1+1+0}=\sqrt{2}$.
 
-$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{1}{\sqrt{2} \times \sqrt{2}}=\frac{1}{2}$.
+$\cos\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\frac{1}{\sqrt{2}\times\sqrt{2}}=\frac{1}{2}$.
 
-$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
+$\sin\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\sqrt{1-\frac{1}{4}}=\frac{\sqrt{3}}{2}$. $\blacksquare$
 
 ## Problem 20
 
@@ -400,9 +400,9 @@ $\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations).
 
-The midpoint is $\left(\frac{3+\left(-2\right)}{2}, \frac{5+4}{2}, \frac{-7+3}{2}\right)=\left(\frac{1}{2}, \frac{9}{2}, -2\right)$.
+The midpoint is $\left(\frac{3+\left(-2\right)}{2},\frac{5+4}{2},\frac{-7+3}{2}\right)=\left(\frac{1}{2},\frac{9}{2},-2\right)$.
 
-$\boldsymbol{AB}=B-A=\left(-2-3, 4-5, 3-\left(-7\right)\right)=\left(-5,-1,10\right)$. $\blacksquare$
+$\boldsymbol{AB}=B-A=\left(-2-3,4-5,3-\left(-7\right)\right)=\left(-5,-1,10\right)$. $\blacksquare$
 
 ## Problem 21
 
@@ -424,7 +424,7 @@ Hence $\boldsymbol{DF}=\boldsymbol{DE}+\boldsymbol{EF}$, and the three vectors, 
 
 (Review Reference Problems 1, Review and Consolidation, Problem 9) Given $\boldsymbol{a}=\left(2,-3,1\right)$, $\boldsymbol{b}=\left(2,0,3\right)$, $\boldsymbol{c}=\left(0,0,2\right)$. Find:
 
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
+(1) $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)$;
 
 (2) $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}$.
 
@@ -432,13 +432,13 @@ Hence $\boldsymbol{DF}=\boldsymbol{DE}+\boldsymbol{EF}$, and the three vectors, 
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Space Vector Operations).
 
-(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=2 \times 2+\left(-3\right) \times 0+1 \times 5=9$.
+(1) $\boldsymbol{b}+\boldsymbol{c}=\left(2,0,5\right)$. $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=2\times2+\left(-3\right)\times0+1\times5=9$.
 
-(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12, -3, 1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
+(2) $6\boldsymbol{b}=\left(12,0,18\right)$, $8\boldsymbol{c}=\left(0,0,16\right)$. $\boldsymbol{a}+6\boldsymbol{b}-8\boldsymbol{c}=\left(2+12,-3,1+18-16\right)=\left(14,-3,3\right)$. $\blacksquare$
 
 ## Problem 23
 
-(Review Reference Problems 1, Comprehensive Application, Problem 10) Given $\boldsymbol{a}=\left(1,1,0\right)$ and $\boldsymbol{b}=\left(-1,0,2\right)$, then $\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\;\_\_\;$, and the area of the parallelogram with $\boldsymbol{a}$ and $\boldsymbol{b}$ as adjacent sides is $\;\_\_\;$.
+(Review Reference Problems 1, Comprehensive Application, Problem 10) Given $\boldsymbol{a}=\left(1,1,0\right)$ and $\boldsymbol{b}=\left(-1,0,2\right)$, then $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\;\_\_\;$, and the area of the parallelogram with $\boldsymbol{a}$ and $\boldsymbol{b}$ as adjacent sides is $\;\_\_\;$.
 
 ### Solution to Problem 23
 
@@ -446,15 +446,15 @@ By **Common Conclusion 1.3.5** (Coordinate Representation of Norm and Angle).
 
 $\boldsymbol{a}+\boldsymbol{b}=\left(0,1,2\right)$.
 
-$\lvert \boldsymbol{a}+\boldsymbol{b} \rvert=\sqrt{0+1+4}=\sqrt{5}$.
+$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{0+1+4}=\sqrt{5}$.
 
-$\boldsymbol{a} \cdot \boldsymbol{b}=-1+0+0=-1$.
+$\boldsymbol{a}\cdot\boldsymbol{b}=-1+0+0=-1$.
 
-$\cos \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\frac{-1}{\sqrt{2} \cdot \sqrt{5}}=-\frac{1}{\sqrt{10}}$.
+$\cos\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\frac{-1}{\sqrt{2}\cdot\sqrt{5}}=-\frac{1}{\sqrt{10}}$.
 
-$\sin \left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=\sqrt{1-\frac{1}{10}}=\frac{3}{\sqrt{10}}$.
+$\sin\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=\sqrt{1-\frac{1}{10}}=\frac{3}{\sqrt{10}}$.
 
-Area of parallelogram $=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \sin \theta=\sqrt{2} \cdot \sqrt{5} \cdot \frac{3}{\sqrt{10}}=3$. $\blacksquare$
+Area of parallelogram $=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\sin\theta=\sqrt{2}\cdot\sqrt{5}\cdot\frac{3}{\sqrt{10}}=3$. $\blacksquare$
 
 ## Problem 24
 
@@ -476,19 +476,19 @@ $\boldsymbol{AB}=\left(-1,1,0\right)$, $\boldsymbol{AC}=\left(-1,0,2\right)$.
 
 ## Problem 25
 
-(Review Reference Problems 1, Comprehensive Application, Problem 12) Given $\boldsymbol{a}=\left(1-t,1-t,t\right)$ and $\boldsymbol{b}=\left(2,t,t\right)$, find the minimum value of $\lvert \boldsymbol{b}-\boldsymbol{a} \rvert$.
+(Review Reference Problems 1, Comprehensive Application, Problem 12) Given $\boldsymbol{a}=\left(1-t,1-t,t\right)$ and $\boldsymbol{b}=\left(2,t,t\right)$, find the minimum value of $\lvert\boldsymbol{b}-\boldsymbol{a}\rvert$.
 
 ### Solution to Problem 25
 
 By **Common Conclusion 1.3.5** (Coordinate Representation of Norm).
 
-$\boldsymbol{b}-\boldsymbol{a}=\left(2-\left(1-t\right), t-\left(1-t\right), t-t\right)=\left(1+t, 2t-1, 0\right)$.
+$\boldsymbol{b}-\boldsymbol{a}=\left(2-\left(1-t\right),t-\left(1-t\right),t-t\right)=\left(1+t,2t-1,0\right)$.
 
-$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert^2=\left(1+t\right)^2+\left(2t-1\right)^2=1+2t+t^2+4t^2-4t+1=5t^2-2t+2$.
+$\lvert\boldsymbol{b}-\boldsymbol{a}\rvert^2=\left(1+t\right)^2+\left(2t-1\right)^2=1+2t+t^2+4t^2-4t+1=5t^2-2t+2$.
 
-When $t=\frac{2}{10}=\frac{1}{5}$, the minimum is $5 \times \frac{1}{25}-2 \times \frac{1}{5}+2=\frac{1}{5}-\frac{2}{5}+2=\frac{9}{5}$.
+When $t=\frac{2}{10}=\frac{1}{5}$, the minimum is $5\times\frac{1}{25}-2\times\frac{1}{5}+2=\frac{1}{5}-\frac{2}{5}+2=\frac{9}{5}$.
 
-$\lvert \boldsymbol{b}-\boldsymbol{a} \rvert_{\min}=\sqrt{\frac{9}{5}}=\frac{3\sqrt{5}}{5}$. $\blacksquare$
+$\lvert\boldsymbol{b}-\boldsymbol{a}\rvert_{\min}=\sqrt{\frac{9}{5}}=\frac{3\sqrt{5}}{5}$. $\blacksquare$
 
 ## Problem 26
 
@@ -502,7 +502,7 @@ $\boldsymbol{AB}=\left(2,4,6\right)$.
 
 $\boldsymbol{AC}=\left(-1,-2,-3\right)$.
 
-$\boldsymbol{AB}=-2 \cdot \boldsymbol{AC}$, i.e. $\boldsymbol{AB} \parallel \boldsymbol{AC}$.
+$\boldsymbol{AB}=-2\cdot\boldsymbol{AC}$, i.e. $\boldsymbol{AB}\parallel\boldsymbol{AC}$.
 
 Also, $\boldsymbol{AB}$ and $\boldsymbol{AC}$ share the common initial point $A$, so $A$, $B$, $C$ are collinear. $\blacksquare$
 

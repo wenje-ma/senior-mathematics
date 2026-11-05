@@ -18,7 +18,7 @@
 
 > **定义 1.1.5 (属于与不属于)**
 > 
-> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in{A}$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin{A}$.
 
 > **定义 1.1.12 (向量的数量积)**
 > 
@@ -54,43 +54,43 @@
 
 ## 习题一
 
-(复习参考题10 复习巩固第 2 题) 如图是一个古典概型的样本空间 $\Omega$ 和事件 $A$ 和 $B$, 其中 $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup B\right)=16$, 那么
+(复习参考题10 复习巩固第 2 题) 如图是一个古典概型的样本空间 $\Omega$ 和事件 $A$ 和 $B$, 其中 $n\left(\Omega\right)=24$, $n\left(A\right)=12$, $n\left(B\right)=8$, $n\left(A\cup{B}\right)=16$, 那么
 
-(1) $n\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cap B\right)=\;\_\_\;$, $P\left(A\cup B\right)=\;\_\_\;$, $P\left(\overline A\cap\overline B\right)=\;\_\_\;$.
+(1) $n\left(A\cap{B}\right)=\;\_\_\;$, $P\left(A\cap{B}\right)=\;\_\_\;$, $P\left(A\cup{B}\right)=\;\_\_\;$, $P\left(\overline{A}\cap\overline{B}\right)=\;\_\_\;$.
 
 (2) 事件 $A$ 与 $B$ 互斥吗? 事件 $A$ 与 $B$ 相互独立吗?
 
-(题图: 韦恩图, 样本空间 $\Omega$ 内两个相交的圆 $A,B$; 其中 $n\left(\Omega\right)=24, n\left(A\right)=12, n\left(B\right)=8, n\left(A\cup B\right)=16$.)
+(题图: 韦恩图, 样本空间 $\Omega$ 内两个相交的圆 $A,B$; 其中 $n\left(\Omega\right)=24,n\left(A\right)=12,n\left(B\right)=8,n\left(A\cup{B}\right)=16$.)
 
 ### 解答 习题一
 
 由**定义 10.1.15 (概率的古典定义)** 与**性质 10.1.21** (一般概率加法公式).
 
-(1) 由**性质 10.1.21** (一般概率加法公式) 的样本点形式, $n\left(A\cup B\right)=n\left(A\right)+n\left(B\right)-n\left(A\cap B\right)$, 故
+(1) 由**性质 10.1.21** (一般概率加法公式) 的样本点形式, $n\left(A\cup{B}\right)=n\left(A\right)+n\left(B\right)-n\left(A\cap{B}\right)$, 故
 
 $$
-n\left(A\cap B\right)=n\left(A\right)+n\left(B\right)-n\left(A\cup B\right)=12+8-16=4.
+n\left(A\cap{B}\right)=n\left(A\right)+n\left(B\right)-n\left(A\cup{B}\right)=12+8-16=4.
 $$
 
 因此
 
 $$
-P\left(A\cap B\right)=\frac{n\left(A\cap B\right)}{n\left(\Omega\right)}=\frac{4}{24}=\frac{1}{6}.
+P\left(A\cap{B}\right)=\frac{n\left(A\cap{B}\right)}{n\left(\Omega\right)}=\frac{4}{24}=\frac{1}{6}.
 $$
 
 $$
-P\left(A\cup B\right)=\frac{n\left(A\cup B\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
+P\left(A\cup{B}\right)=\frac{n\left(A\cup{B}\right)}{n\left(\Omega\right)}=\frac{16}{24}=\frac{2}{3}.
 $$
 
-由**定义 10.1.13 (互为对立)**, $\overline A\cap\overline B=\overline{A\cup B}$. 由**性质 10.1.19** (对立事件的概率),
+由**定义 10.1.13 (互为对立)**, $\overline{A}\cap\overline{B}=\overline{A\cup{B}}$. 由**性质 10.1.19** (对立事件的概率),
 
 $$
-P\left(\overline A\cap\overline B\right)=1-P\left(A\cup B\right)=1-\frac{2}{3}=\frac{1}{3}.
+P\left(\overline{A}\cap\overline{B}\right)=1-P\left(A\cup{B}\right)=1-\frac{2}{3}=\frac{1}{3}.
 $$
 
-(2) 由**定义 10.1.12 (互斥)**, $n\left(A\cap B\right)=4\neq 0$, 故 $A\cap B\neq\varnothing$, $A$ 与 $B$ 不互斥.
+(2) 由**定义 10.1.12 (互斥)**, $n\left(A\cap{B}\right)=4\neq0$, 故 $A\cap{B}\neq\varnothing$, $A$ 与 $B$ 不互斥.
 
-由**定义 10.2.1 (事件的相互独立性)**, $P\left(A\right)=\frac{12}{24}=\frac{1}{2}$, $P\left(B\right)=\frac{8}{24}=\frac{1}{3}$, $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}=P\left(A\cap B\right)$, 故 $A$ 与 $B$ 相互独立. $\blacksquare$
+由**定义 10.2.1 (事件的相互独立性)**, $P\left(A\right)=\frac{12}{24}=\frac{1}{2}$, $P\left(B\right)=\frac{8}{24}=\frac{1}{3}$, $P\left(A\right)P\left(B\right)=\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}=P\left(A\cap{B}\right)$, 故 $A$ 与 $B$ 相互独立. $\blacksquare$
 
 ## 习题二
 
@@ -160,19 +160,19 @@ $$
 
 由**定义 10.1.15 (概率的古典定义)**.
 
-(1) 从 $10$ 个球中不放回依次取 $2$ 个, 共 $10\times 9=90$ 个等可能结果. 第二次取到红球的情况: 第一次取绿球 ($6$ 种), 第二次取红球 ($4$ 种), 共 $6\times 4=24$ 种; 第一次取红球 ($4$ 种), 第二次取红球 ($3$ 种), 共 $4\times 3=12$ 种. 合计 $24+12=36$ 种, 故
+(1) 从 $10$ 个球中不放回依次取 $2$ 个, 共 $10\times9=90$ 个等可能结果. 第二次取到红球的情况: 第一次取绿球 ($6$ 种), 第二次取红球 ($4$ 种), 共 $6\times4=24$ 种; 第一次取红球 ($4$ 种), 第二次取红球 ($3$ 种), 共 $4\times3=12$ 种. 合计 $24+12=36$ 种, 故
 
 $$
 P\left(A_1\right)=\frac{36}{90}=\frac{2}{5}.
 $$
 
-(2) 两次颜色相同: 都是红球有 $4\times 3=12$ 种, 都是绿球有 $6\times 5=30$ 种, 共 $42$ 种, 故
+(2) 两次颜色相同: 都是红球有 $4\times3=12$ 种, 都是绿球有 $6\times5=30$ 种, 共 $42$ 种, 故
 
 $$
 P\left(A_2\right)=\frac{42}{90}=\frac{7}{15}.
 $$
 
-(3) 袋中有 $4$ 个红球和 $n$ 个绿球, 共 $4+n$ 个球. 取出 $2$ 个都是红球的结果数为 $4\times 3=12$, 总结果数为 $\left(4+n\right)\left(3+n\right)$. 由题意,
+(3) 袋中有 $4$ 个红球和 $n$ 个绿球, 共 $4+n$ 个球. 取出 $2$ 个都是红球的结果数为 $4\times3=12$, 总结果数为 $\left(4+n\right)\left(3+n\right)$. 由题意,
 
 $$
 \frac{12}{\left(4+n\right)\left(3+n\right)}=\frac{1}{6}.
@@ -190,9 +190,9 @@ $$
 
 ### 解答 习题五
 
-由**定义 10.1.15 (概率的古典定义)**. 每个人从第 $2$ 层到第 $7$ 层共 $6$ 层中选择一层离开, 两人独立选择, 共有 $6\times 6=36$ 个等可能结果.
+由**定义 10.1.15 (概率的古典定义)**. 每个人从第 $2$ 层到第 $7$ 层共 $6$ 层中选择一层离开, 两人独立选择, 共有 $6\times6=36$ 个等可能结果.
 
-(1) 两人在不同层离开: 第一人有 $6$ 种选择, 第二人有 $5$ 种选择 (与第一人不同层), 共 $6\times 5=30$ 种, 故
+(1) 两人在不同层离开: 第一人有 $6$ 种选择, 第二人有 $5$ 种选择 (与第一人不同层), 共 $6\times5=30$ 种, 故
 
 $$
 P\left(A_1\right)=\frac{30}{36}=\frac{5}{6}.
@@ -208,7 +208,7 @@ $$
 
 ## 习题六
 
-(复习参考题10 综合运用第 7 题) 柜子里有 $3$ 双不同的鞋, 分别用 $a_1, a_2, b_1, b_2, c_1, c_2$ 表示 $6$ 只鞋, 从中随机地取出 $2$ 只.
+(复习参考题10 综合运用第 7 题) 柜子里有 $3$ 双不同的鞋, 分别用 $a_1,a_2,b_1,b_2,c_1,c_2$ 表示 $6$ 只鞋, 从中随机地取出 $2$ 只.
 
 (1) 写出试验的样本空间.
 
@@ -229,20 +229,20 @@ $$
 (1) 样本空间为
 
 $$
-\Omega=\left\{a_1a_2, a_1b_1, a_1b_2, a_1c_1, a_1c_2, a_2b_1, a_2b_2, a_2c_1, a_2c_2, b_1b_2, b_1c_1, b_1c_2, b_2c_1, b_2c_2, c_1c_2\right\}.
+\Omega=\left\{a_1a_2,a_1b_1,a_1b_2,a_1c_1,a_1c_2,a_2b_1,a_2b_2,a_2c_1,a_2c_2,b_1b_2,b_1c_1,b_1c_2,b_2c_1,b_2c_2,c_1c_2\right\}.
 $$
 
-(2) 设 $a_1, b_1, c_1$ 为左脚鞋, $a_2, b_2, c_2$ 为右脚鞋.
+(2) 设 $a_1,b_1,c_1$ 为左脚鞋, $a_2,b_2,c_2$ 为右脚鞋.
 
 事件 $B=$ "都是左脚的", 从 $3$ 只左脚鞋中取 $2$ 只, 共 $\binom{3}{2}=3$ 种, 故 $P\left(B\right)=\frac{3}{15}=\frac{1}{5}$.
 
 事件 "都是右脚的" 同理也有 $3$ 种, 概率为 $\frac{1}{5}$. 事件 $C=$ "都是一只脚的", 即都是左脚或都是右脚, 二者互斥, 由**性质 10.1.18** (互斥事件的概率加法公式), $P\left(C\right)=\frac{1}{5}+\frac{1}{5}=\frac{2}{5}$.
 
-事件 $A=$ "不成双", 即不是一双鞋. 一双鞋有 $3$ 种 ($a_1a_2, b_1b_2, c_1c_2$), 故成双的概率为 $\frac{3}{15}=\frac{1}{5}$. 由**性质 10.1.19** (对立事件的概率), 不成双是成双的对立事件, 故 $P\left(A\right)=1-\frac{1}{5}=\frac{4}{5}$.
+事件 $A=$ "不成双", 即不是一双鞋. 一双鞋有 $3$ 种 ($a_1a_2,b_1b_2,c_1c_2$), 故成双的概率为 $\frac{3}{15}=\frac{1}{5}$. 由**性质 10.1.19** (对立事件的概率), 不成双是成双的对立事件, 故 $P\left(A\right)=1-\frac{1}{5}=\frac{4}{5}$.
 
-事件 $D=$ "一只左脚一只右脚但不是一双", 即左右脚各一只但不属于同一双. 左脚鞋取一只有 $3$ 种, 右脚鞋取一只有 $3$ 种, 共 $9$ 种; 其中成双的有 $3$ 种 ($a_1a_2, b_1b_2, c_1c_2$), 故不成双的有 $9-3=6$ 种, $P\left(D\right)=\frac{6}{15}=\frac{2}{5}$.
+事件 $D=$ "一只左脚一只右脚但不是一双", 即左右脚各一只但不属于同一双. 左脚鞋取一只有 $3$ 种, 右脚鞋取一只有 $3$ 种, 共 $9$ 种; 其中成双的有 $3$ 种 ($a_1a_2,b_1b_2,c_1c_2$), 故不成双的有 $9-3=6$ 种, $P\left(D\right)=\frac{6}{15}=\frac{2}{5}$.
 
-关系: $C\subseteq A$, 因为 "都是一只脚" 必然 "不成双". $D\subseteq A$, 因为 "一左一右但不成双" 也属于 "不成双". $C$ 与 $D$ 互斥, 因为 "都是一只脚" 与 "一左一右" 不可能同时发生. $\blacksquare$
+关系: $C\subseteq{A}$, 因为 "都是一只脚" 必然 "不成双". $D\subseteq{A}$, 因为 "一左一右但不成双" 也属于 "不成双". $C$ 与 $D$ 互斥, 因为 "都是一只脚" 与 "一左一右" 不可能同时发生. $\blacksquare$
 
 ## 习题七
 
@@ -263,13 +263,13 @@ $$
 (1) 树状图的分支为: 第一次 $Y$ (通过, 停止) 或 $N$; 若第一次 $N$, 第二次 $Y$ (通过, 停止) 或 $N$; 若前两次均为 $N$, 第三次 $Y$ 或 $N$. 样本空间为
 
 $$
-\Omega=\left\{Y, NY, NNY, NNN\right\}.
+\Omega=\left\{Y,NY,NNY,NNN\right\}.
 $$
 
 (2) 第二次答题通过即第一次答错且第二次答对, 即事件 $NY$. 由**定义 10.2.1 (事件的相互独立性)**,
 
 $$
-P\left(NY\right)=P\left(N\right)P\left(Y\right)=0.4\times 0.6=0.24.
+P\left(NY\right)=P\left(N\right)P\left(Y\right)=0.4\times0.6=0.24.
 $$
 
 (3) 最终通过面试即第一次答对, 或第一次错第二次对, 或前两次错第三次对. 三者两两互斥, 由**性质 10.1.18** (互斥事件的概率加法公式),
@@ -281,7 +281,7 @@ $$
 由**定义 10.2.1 (事件的相互独立性)**,
 
 $$
-P\left(Y\right)=0.6,\quad P\left(NY\right)=0.4\times 0.6=0.24,\quad P\left(NNY\right)=0.4\times 0.4\times 0.6=0.096.
+P\left(Y\right)=0.6,\quad{P}\left(NY\right)=0.4\times0.6=0.24,\quad{P}\left(NNY\right)=0.4\times0.4\times0.6=0.096.
 $$
 
 故
@@ -386,7 +386,7 @@ $\blacksquare$
 
 (1) 由**定义 1.1.5 (属于与不属于)**, $\boldsymbol{AB}+\boldsymbol{BC}=\boldsymbol{AC}$, 故 $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}=\boldsymbol{AC}+\boldsymbol{CD}=\boldsymbol{AD}$.
 
-(2) 因为 $E$ 是 $BC$ 的中点, 由**定义 1.1.5 (属于与不属于)**, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BE}+\boldsymbol{EC}=\boldsymbol{BE}+\boldsymbol{ED}$ (因为 $E$ 是 $BC$ 中点, $\boldsymbol{BE}=\frac{1}{2}\boldsymbol{BC}$; $F$ 是 $CD$ 中点, $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$). 实际上 $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BF}$ (因为在 $\triangle BCD$ 中, $F$ 是 $CD$ 中点, $\boldsymbol{BF}=\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)$). 故 $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{AB}+\boldsymbol{BF}=\boldsymbol{AF}$.
+(2) 因为 $E$ 是 $BC$ 的中点, 由**定义 1.1.5 (属于与不属于)**, $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BE}+\boldsymbol{EC}=\boldsymbol{BE}+\boldsymbol{ED}$ (因为 $E$ 是 $BC$ 中点, $\boldsymbol{BE}=\frac{1}{2}\boldsymbol{BC}$; $F$ 是 $CD$ 中点, $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$). 实际上 $\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{BF}$ (因为在 $\triangle{B}CD$ 中, $F$ 是 $CD$ 中点, $\boldsymbol{BF}=\frac{1}{2}\left(\boldsymbol{BC}+\boldsymbol{BD}\right)$). 故 $\boldsymbol{AB}+\frac{1}{2}\left(\boldsymbol{BD}+\boldsymbol{BC}\right)=\boldsymbol{AB}+\boldsymbol{BF}=\boldsymbol{AF}$.
 
 (3) 因为 $E$ 是 $BC$ 的中点, $\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AE}$. 故 $\boldsymbol{AF}-\frac{1}{2}\left(\boldsymbol{AB}+\boldsymbol{AC}\right)=\boldsymbol{AF}-\boldsymbol{AE}=\boldsymbol{EF}$. $\blacksquare$
 
@@ -404,7 +404,7 @@ $\blacksquare$
 
 ### 解答 练习五
 
-由**定义 1.1.5 (属于与不属于)**, 用基底 $\left\{\boldsymbol{AB}, \boldsymbol{AD}, \boldsymbol{AA'}\right\}$ 表示各向量.
+由**定义 1.1.5 (属于与不属于)**, 用基底 $\left\{\boldsymbol{AB},\boldsymbol{AD},\boldsymbol{AA'}\right\}$ 表示各向量.
 
 (1) 由**定义 1.1.5 (属于与不属于)**, $\boldsymbol{AC'}=\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CC'}=\boldsymbol{AB}+\boldsymbol{AD}+\boldsymbol{AA'}$. 故对比得 $x=1$.
 
@@ -424,7 +424,7 @@ $\blacksquare$
 
 由**定义 1.1.12 (向量的数量积)**, 两向量所成角的余弦值等于它们数量积除以模长乘积.
 
-设 $BB_1=1$, 则 $AB=\sqrt{2}$. 以 $\left\{\boldsymbol{BA}, \boldsymbol{BC}, \boldsymbol{BB_1}\right\}$ 为基底, 设 $\boldsymbol{BA}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{BB_1}=\boldsymbol{c}$. 则 $\lvert \boldsymbol{a} \rvert=\sqrt{2}$, $\lvert \boldsymbol{b} \rvert=\sqrt{2}$, $\lvert \boldsymbol{c} \rvert=1$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=60^\circ$, $\boldsymbol{a} \perp \boldsymbol{c}$, $\boldsymbol{b} \perp \boldsymbol{c}$.
+设 $BB_1=1$, 则 $AB=\sqrt{2}$. 以 $\left\{\boldsymbol{BA},\boldsymbol{BC},\boldsymbol{BB_1}\right\}$ 为基底, 设 $\boldsymbol{BA}=\boldsymbol{a}$, $\boldsymbol{BC}=\boldsymbol{b}$, $\boldsymbol{BB_1}=\boldsymbol{c}$. 则 $\lvert\boldsymbol{a}\rvert=\sqrt{2}$, $\lvert\boldsymbol{b}\rvert=\sqrt{2}$, $\lvert\boldsymbol{c}\rvert=1$, $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=60^\circ$, $\boldsymbol{a}\perp\boldsymbol{c}$, $\boldsymbol{b}\perp\boldsymbol{c}$.
 
 $\boldsymbol{AB_1}=\boldsymbol{AB}+\boldsymbol{BB_1}=-\boldsymbol{a}+\boldsymbol{c}$.
 
@@ -433,24 +433,24 @@ $\boldsymbol{BC_1}=\boldsymbol{BC}+\boldsymbol{CC_1}=\boldsymbol{b}+\boldsymbol{
 由**常用结论 1.1.14** (数量积的运算律):
 
 $$
-\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=\left(-\boldsymbol{a}+\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c} \cdot \boldsymbol{c}.
+\boldsymbol{AB_1}\cdot\boldsymbol{BC_1}=\left(-\boldsymbol{a}+\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=-\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{c}\cdot\boldsymbol{b}+\boldsymbol{c}\cdot\boldsymbol{c}.
 $$
 
-因为 $\boldsymbol{a} \cdot \boldsymbol{c}=0$, $\boldsymbol{b} \cdot \boldsymbol{c}=0$, $\boldsymbol{c} \cdot \boldsymbol{c}=1$, $\boldsymbol{a} \cdot \boldsymbol{b}=\lvert \boldsymbol{a} \rvert \lvert \boldsymbol{b} \rvert \cos 60^\circ=\sqrt{2} \cdot \sqrt{2} \cdot \frac{1}{2}=1$.
+因为 $\boldsymbol{a}\cdot\boldsymbol{c}=0$, $\boldsymbol{b}\cdot\boldsymbol{c}=0$, $\boldsymbol{c}\cdot\boldsymbol{c}=1$, $\boldsymbol{a}\cdot\boldsymbol{b}=\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos60^\circ=\sqrt{2}\cdot\sqrt{2}\cdot\frac{1}{2}=1$.
 
-故 $\boldsymbol{AB_1} \cdot \boldsymbol{BC_1}=-1+0+0+1=0$.
+故 $\boldsymbol{AB_1}\cdot\boldsymbol{BC_1}=-1+0+0+1=0$.
 
-由**常用结论 1.1.13** (数量积的性质), $\boldsymbol{AB_1} \perp \boldsymbol{BC_1}$, 即 $AB_1$ 与 $BC_1$ 所成角为 $90^\circ$. 故选 (B). $\blacksquare$
+由**常用结论 1.1.13** (数量积的性质), $\boldsymbol{AB_1}\perp\boldsymbol{BC_1}$, 即 $AB_1$ 与 $BC_1$ 所成角为 $90^\circ$. 故选 (B). $\blacksquare$
 
 ## 练习七
 
 (练习 1.1 第 2 题) 如图, 正方体 $ABCD-A'B'C'D'$ 的棱长为 $1$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 求:
 
-(1) $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$;
+(1) $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)$;
 
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$;
+(2) $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)$;
 
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)$.
+(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)$.
 
 (题图: 正方体 $ABCD-A'B'C'D'$, 棱长为 $1$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$.)
 
@@ -458,34 +458,34 @@ $$
 
 由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.14** (数量积的运算律).
 
-在正方体中, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两垂直且模均为 $1$, 故 $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{c} \cdot \boldsymbol{a}=0$, $\boldsymbol{a} \cdot \boldsymbol{a}=\boldsymbol{b} \cdot \boldsymbol{b}=\boldsymbol{c} \cdot \boldsymbol{c}=1$.
+在正方体中, $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两垂直且模均为 $1$, 故 $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{a}=0$, $\boldsymbol{a}\cdot\boldsymbol{a}=\boldsymbol{b}\cdot\boldsymbol{b}=\boldsymbol{c}\cdot\boldsymbol{c}=1$.
 
-(1) 由分配律, $\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+(1) 由分配律, $\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}=0+0=0$.
 
-(2) $\boldsymbol{a} \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{a}+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=1+0+0=1$.
+(2) $\boldsymbol{a}\cdot\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{a}+\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}=1+0+0=1$.
 
-(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right) \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{b} \cdot \boldsymbol{b}+\boldsymbol{b} \cdot \boldsymbol{c}=0+0+1+0=1$. $\blacksquare$
+(3) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{b}+\boldsymbol{b}\cdot\boldsymbol{c}=0+0+1+0=1$. $\blacksquare$
 
 ## 练习八
 
-(练习 1.1 第 3 题) 如图, 在平行六面体 $ABCD-A'B'C'D'$ 中, $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$. 求:
+(练习 1.1 第 3 题) 如图, 在平行六面体 $ABCD-A'B'C'D'$ 中, $AB=4$, $AD=3$, $AA'=5$, $\angle{B}AD=90^\circ$, $\angle{B}AA'=\angle{D}AA'=60^\circ$. 求:
 
-(1) $\boldsymbol{AA'} \cdot \boldsymbol{AB}$;
+(1) $\boldsymbol{AA'}\cdot\boldsymbol{AB}$;
 
 (2) $AB'$ 的长;
 
 (3) $AC'$ 的长.
 
-(题图: 平行六面体 $ABCD-A'B'C'D'$, $AB=4$, $AD=3$, $AA'=5$, $\angle BAD=90^\circ$, $\angle BAA'=\angle DAA'=60^\circ$.)
+(题图: 平行六面体 $ABCD-A'B'C'D'$, $AB=4$, $AD=3$, $AA'=5$, $\angle{B}AD=90^\circ$, $\angle{B}AA'=\angle{D}AA'=60^\circ$.)
 
 ### 解答 练习八
 
 由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
 
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert \boldsymbol{a} \rvert=4$, $\lvert \boldsymbol{b} \rvert=3$, $\lvert \boldsymbol{c} \rvert=5$, $\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle=90^\circ$, $\left\langle \boldsymbol{a}, \boldsymbol{c} \right\rangle=60^\circ$, $\left\langle \boldsymbol{b}, \boldsymbol{c} \right\rangle=60^\circ$.
+设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert\boldsymbol{a}\rvert=4$, $\lvert\boldsymbol{b}\rvert=3$, $\lvert\boldsymbol{c}\rvert=5$, $\left\langle\boldsymbol{a},\boldsymbol{b}\right\rangle=90^\circ$, $\left\langle\boldsymbol{a},\boldsymbol{c}\right\rangle=60^\circ$, $\left\langle\boldsymbol{b},\boldsymbol{c}\right\rangle=60^\circ$.
 
-(1) 由**定义 1.1.12 (向量的数量积)**, $\boldsymbol{AA'} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \boldsymbol{a}=\lvert \boldsymbol{c} \rvert \lvert \boldsymbol{a} \rvert \cos 60^\circ=5 \times 4 \times \frac{1}{2}=10$.
+(1) 由**定义 1.1.12 (向量的数量积)**, $\boldsymbol{AA'}\cdot\boldsymbol{AB}=\boldsymbol{c}\cdot\boldsymbol{a}=\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{a}\rvert\cos60^\circ=5\times4\times\frac{1}{2}=10$.
 
-(2) $\boldsymbol{AB'}=\boldsymbol{AB}+\boldsymbol{BB'}=\boldsymbol{a}+\boldsymbol{c}$. 由**常用结论 1.1.13**, $\lvert \boldsymbol{AB'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a} \cdot \boldsymbol{c}+\boldsymbol{c}^2=16+2 \times 10+25=61$. 故 $AB'=\sqrt{61}$.
+(2) $\boldsymbol{AB'}=\boldsymbol{AB}+\boldsymbol{BB'}=\boldsymbol{a}+\boldsymbol{c}$. 由**常用结论 1.1.13**, $\lvert\boldsymbol{AB'}\rvert^2=\left(\boldsymbol{a}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{c}^2=16+2\times10+25=61$. 故 $AB'=\sqrt{61}$.
 
-(3) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$. $\lvert \boldsymbol{AC'} \rvert^2=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2+2\boldsymbol{a} \cdot \boldsymbol{b}+2\boldsymbol{a} \cdot \boldsymbol{c}+2\boldsymbol{b} \cdot \boldsymbol{c}$. 其中 $\boldsymbol{a} \cdot \boldsymbol{b}=0$, $\boldsymbol{a} \cdot \boldsymbol{c}=10$, $\boldsymbol{b} \cdot \boldsymbol{c}=\lvert \boldsymbol{b} \rvert \lvert \boldsymbol{c} \rvert \cos 60^\circ=3 \times 5 \times \frac{1}{2}=7.5$. 故 $\lvert \boldsymbol{AC'} \rvert^2=16+9+25+0+20+15=85$. 故 $AC'=\sqrt{85}$. $\blacksquare$
+(3) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$. $\lvert\boldsymbol{AC'}\rvert^2=\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)^2=\boldsymbol{a}^2+\boldsymbol{b}^2+\boldsymbol{c}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+2\boldsymbol{a}\cdot\boldsymbol{c}+2\boldsymbol{b}\cdot\boldsymbol{c}$. 其中 $\boldsymbol{a}\cdot\boldsymbol{b}=0$, $\boldsymbol{a}\cdot\boldsymbol{c}=10$, $\boldsymbol{b}\cdot\boldsymbol{c}=\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}\rvert\cos60^\circ=3\times5\times\frac{1}{2}=7.5$. 故 $\lvert\boldsymbol{AC'}\rvert^2=16+9+25+0+20+15=85$. 故 $AC'=\sqrt{85}$. $\blacksquare$

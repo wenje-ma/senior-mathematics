@@ -26,7 +26,7 @@
 
 (1) 圆心坐标为 $\left(2,0\right)$, 半径 $r=5$.
 
-(2) 圆心坐标为 $\left(-2,-1\right)$, 半径 $r=\sqrt 3$. $\blacksquare$
+(2) 圆心坐标为 $\left(-2,-1\right)$, 半径 $r=\sqrt3$. $\blacksquare$
 
 ## 练习二
 
@@ -36,11 +36,11 @@
 
 由**常用结论 2.4.2** (点与圆的位置关系), 圆心为 $\left(-2,-3\right)$, 半径 $r=2$, $r^2=4$.
 
-(1) 点 $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29> 4$, 故点 $P_1$ 在圆外.
+(1) 点 $P_1\left(3,-5\right)$: $\left(3+2\right)^2+\left(-5+3\right)^2=25+4=29>4$, 故点 $P_1$ 在圆外.
 
-(2) 点 $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13> 4$, 故点 $P_2$ 在圆外.
+(2) 点 $P_2\left(0,0\right)$: $\left(0+2\right)^2+\left(0+3\right)^2=4+9=13>4$, 故点 $P_2$ 在圆外.
 
-(3) 点 $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5> 4$, 故点 $P_3$ 在圆外. $\blacksquare$
+(3) 点 $P_3\left(-1,-1\right)$: $\left(-1+2\right)^2+\left(-1+3\right)^2=1+4=5>4$, 故点 $P_3$ 在圆外. $\blacksquare$
 
 ## 练习三
 
@@ -48,7 +48,7 @@
 
 (1) 圆心为 $C\left(1,3\right)$, 且与直线 $3x-4y-7=0$ 相切;
 
-(2) 圆心在 $x$ 轴上, 半径长为 $\sqrt 5$, 且过点 $A\left(2,-3\right)$.
+(2) 圆心在 $x$ 轴上, 半径长为 $\sqrt5$, 且过点 $A\left(2,-3\right)$.
 
 ### 解答 练习三
 
@@ -60,9 +60,9 @@ $$
 
 由**定义 2.4.1 (圆的标准方程)**, 圆的方程为 $\left(x-1\right)^2+\left(y-3\right)^2=\frac{256}{25}$.
 
-(2) 圆心在 $x$ 轴上, 设圆心为 $\left(a,0\right)$. 圆过点 $A\left(2,-3\right)$, 由**常用结论 2.3.2** (两点间距离公式), 半径为 $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt 5$. 两边平方, 得 $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 无解.
+(2) 圆心在 $x$ 轴上, 设圆心为 $\left(a,0\right)$. 圆过点 $A\left(2,-3\right)$, 由**常用结论 2.3.2** (两点间距离公式), 半径为 $\sqrt{\left(2-a\right)^2+\left(-3-0\right)^2}=\sqrt5$. 两边平方, 得 $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 无解.
 
-重新审题: 半径为 $\sqrt 5$, 即 $r^2=5$, $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 确实无解. 检查: 圆心在 $x$ 轴上, 到点 $A\left(2,-3\right)$ 的距离为 $\sqrt 5$, 但点 $A$ 到 $x$ 轴的距离已为 $3> \sqrt 5$, 故无这样的圆. 题目应为半径为 $5$. 若 $r=5$, 则 $\left(2-a\right)^2+9=25$, 即 $\left(2-a\right)^2=16$, 故 $a=6$ 或 $a=-2$. 圆的方程为 $\left(x-6\right)^2+y^2=25$ 或 $\left(x+2\right)^2+y^2=25$. $\blacksquare$
+重新审题: 半径为 $\sqrt5$, 即 $r^2=5$, $\left(2-a\right)^2+9=5$, 即 $\left(2-a\right)^2=-4$, 确实无解. 检查: 圆心在 $x$ 轴上, 到点 $A\left(2,-3\right)$ 的距离为 $\sqrt5$, 但点 $A$ 到 $x$ 轴的距离已为 $3>\sqrt5$, 故无这样的圆. 题目应为半径为 $5$. 若 $r=5$, 则 $\left(2-a\right)^2+9=25$, 即 $\left(2-a\right)^2=16$, 故 $a=6$ 或 $a=-2$. 圆的方程为 $\left(x-6\right)^2+y^2=25$ 或 $\left(x+2\right)^2+y^2=25$. $\blacksquare$
 
 ## 练习四
 
@@ -81,7 +81,7 @@ $$
 (2) $2x^2+2y^2-3x-5y-2=0$ 即 $x^2+y^2-\frac{3}{2}x-\frac{5}{2}y-1=0$, 故 $D=-\frac{3}{2}$, $E=-\frac{5}{2}$, $F=-1$. 圆心为 $\left(\frac{3}{4},\frac{5}{4}\right)$, 半径为
 
 $$
-\frac{\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{5}{2}\right)^2-4\left(-1\right)}}{2}=\frac{\sqrt{\frac{9}{4}+\frac{25}{4}+4}}{2}=\frac{\sqrt{\frac{50}{4}}}{2}=\frac{5\sqrt 2}{4}.
+\frac{\sqrt{\left(\frac{3}{2}\right)^2+\left(\frac{5}{2}\right)^2-4\left(-1\right)}}{2}=\frac{\sqrt{\frac{9}{4}+\frac{25}{4}+4}}{2}=\frac{\sqrt{\frac{50}{4}}}{2}=\frac{5\sqrt2}{4}.
 $$
 
 $\blacksquare$
@@ -100,11 +100,11 @@ $\blacksquare$
 
 由**定义 2.4.3 (圆的一般方程)**, 判别 $D^2+E^2-4F$ 的符号.
 
-(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4> 0$, 表示圆. 圆心为 $\left(2,3\right)$, 半径为 $\frac{\sqrt 4}{2}=1$.
+(1) $D=-4$, $E=-6$, $F=12$. $D^2+E^2-4F=16+36-48=4>0$, 表示圆. 圆心为 $\left(2,3\right)$, 半径为 $\frac{\sqrt4}{2}=1$.
 
 (2) $D=-2$, $E=-4$, $F=5$. $D^2+E^2-4F=4+16-20=0$, 不表示圆, 仅表示一个点 $\left(1,2\right)$.
 
-(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44> 0$, 表示圆. 圆心为 $\left(1,2\right)$, 半径为 $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
+(3) $D=-2$, $E=-4$, $F=-6$. $D^2+E^2-4F=4+16+24=44>0$, 表示圆. 圆心为 $\left(1,2\right)$, 半径为 $\frac{\sqrt{44}}{2}=\sqrt{11}$. $\blacksquare$
 
 ## 练习六
 
@@ -134,7 +134,7 @@ $\blacksquare$
 
 (2) 圆心为点 $\left(3,4\right)$, 且过坐标原点;
 
-(3) 圆心在直线 $x+y-1=0$ 上, 半径为 $\sqrt 2$, 且过点 $\left(2,1\right)$;
+(3) 圆心在直线 $x+y-1=0$ 上, 半径为 $\sqrt2$, 且过点 $\left(2,1\right)$;
 
 (4) 过点 $\left(0,0\right)$, $\left(1,1\right)$, $\left(-2,0\right)$.
 
@@ -146,7 +146,7 @@ $\blacksquare$
 
 (2) 圆心为 $\left(3,4\right)$, 半径为圆心到原点的距离, 由**常用结论 2.3.2** (两点间距离公式), $r=\sqrt{9+16}=5$. 方程为 $\left(x-3\right)^2+\left(y-4\right)^2=25$.
 
-(3) 圆心在直线 $x+y-1=0$ 上, 设圆心为 $\left(a,1-a\right)$. 圆过点 $\left(2,1\right)$, 半径为 $\sqrt 2$, 由距离公式, $\left(2-a\right)^2+\left(1-\left(1-a\right)\right)^2=2$, 即 $\left(2-a\right)^2+a^2=2$, 即 $4-4a+2a^2=2$, 即 $a^2-2a+1=0$, 即 $\left(a-1\right)^2=0$, 故 $a=1$. 圆心为 $\left(1,0\right)$, 方程为 $\left(x-1\right)^2+y^2=2$.
+(3) 圆心在直线 $x+y-1=0$ 上, 设圆心为 $\left(a,1-a\right)$. 圆过点 $\left(2,1\right)$, 半径为 $\sqrt2$, 由距离公式, $\left(2-a\right)^2+\left(1-\left(1-a\right)\right)^2=2$, 即 $\left(2-a\right)^2+a^2=2$, 即 $4-4a+2a^2=2$, 即 $a^2-2a+1=0$, 即 $\left(a-1\right)^2=0$, 故 $a=1$. 圆心为 $\left(1,0\right)$, 方程为 $\left(x-1\right)^2+y^2=2$.
 
 (4) 设圆的一般方程为 $x^2+y^2+Dx+Ey+F=0$. 代入三点:
 
@@ -160,15 +160,15 @@ $\blacksquare$
 
 ## 习题二
 
-(习题 2.4 复习巩固第 2 题) 圆 $C$ 过点 $\left(1,0\right)$, 且圆心在 $x$ 轴的正半轴上, 半径为 $2\sqrt 2$, 求圆 $C$ 的标准方程.
+(习题 2.4 复习巩固第 2 题) 圆 $C$ 过点 $\left(1,0\right)$, 且圆心在 $x$ 轴的正半轴上, 半径为 $2\sqrt2$, 求圆 $C$ 的标准方程.
 
 ### 解答 习题二
 
-由**定义 2.4.1 (圆的标准方程)**, 圆心在 $x$ 轴正半轴上, 设圆心为 $\left(a,0\right)$, $a> 0$.
+由**定义 2.4.1 (圆的标准方程)**, 圆心在 $x$ 轴正半轴上, 设圆心为 $\left(a,0\right)$, $a>0$.
 
-圆过点 $\left(1,0\right)$, 半径为 $2\sqrt 2$, 由**常用结论 2.3.2** (两点间距离公式), $\left(a-1\right)^2+0=\left(2\sqrt 2\right)^2=8$, 即 $\left(a-1\right)^2=8$, 故 $a-1=\pm2\sqrt 2$. 因 $a> 0$, 故 $a=1+2\sqrt 2$.
+圆过点 $\left(1,0\right)$, 半径为 $2\sqrt2$, 由**常用结论 2.3.2** (两点间距离公式), $\left(a-1\right)^2+0=\left(2\sqrt2\right)^2=8$, 即 $\left(a-1\right)^2=8$, 故 $a-1=\pm2\sqrt2$. 因 $a>0$, 故 $a=1+2\sqrt2$.
 
-圆的标准方程为 $\left(x-1-2\sqrt 2\right)^2+y^2=8$. $\blacksquare$
+圆的标准方程为 $\left(x-1-2\sqrt2\right)^2+y^2=8$. $\blacksquare$
 
 ## 习题三
 
@@ -211,7 +211,7 @@ $$
 由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为
 
 $$
-d=\frac{\left|b\right|}{\sqrt 2}.
+d=\frac{\left|b\right|}{\sqrt2}.
 $$
 
 圆的半径为 $2$. 圆上到直线 $l$ 距离为 $1$ 的点的个数, 取决于直线 $l$ 与圆的位置关系以及直线 $l$ 与平行于 $l$ 且距离为 $1$ 的直线的位置关系.
@@ -220,7 +220,7 @@ $$
 
 当圆心到直线 $l$ 的距离 $d=1$ 时, 仔细分析: 距离 $l$ 为 $1$ 的点在两条平行线上, 一条距圆心 $d-1=0$ (过圆心, 与圆交于两点), 另一条距圆心 $d+1=2$ (与圆相切, 交于一点). 共 $3$ 个点.
 
-故 $\frac{\lvert b \rvert}{\sqrt 2}=1$, 即 $b=\pm\sqrt 2$. $\blacksquare$
+故 $\frac{\lvert{b}\rvert}{\sqrt2}=1$, 即 $b=\pm\sqrt2$. $\blacksquare$
 
 ## 习题六
 
@@ -246,7 +246,7 @@ $$
 
 ### 解答 习题七
 
-圆心为 $C\left(1,2\right)$, 半径 $r=2$. 点 $P\left(3,5\right)$ 到圆心的距离为 $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}> 2$, 点 $P$ 在圆外.
+圆心为 $C\left(1,2\right)$, 半径 $r=2$. 点 $P\left(3,5\right)$ 到圆心的距离为 $\sqrt{\left(3-1\right)^2+\left(5-2\right)^2}=\sqrt{13}>2$, 点 $P$ 在圆外.
 
 设切线方程为 $y-5=k\left(x-3\right)$, 即 $kx-y+5-3k=0$.
 
@@ -260,7 +260,7 @@ $$
 
 切线方程为 $y-5=\frac{5}{12}\left(x-3\right)$, 即 $5x-12y+45=0$.
 
-当切线斜率不存在时, 切线为 $x=3$. 圆心到 $x=3$ 的距离为 $\lvert 3-1 \rvert=2=r$, 故 $x=3$ 也是切线.
+当切线斜率不存在时, 切线为 $x=3$. 圆心到 $x=3$ 的距离为 $\lvert3-1\rvert=2=r$, 故 $x=3$ 也是切线.
 
 故切线方程为 $x=3$ 或 $5x-12y+45=0$. $\blacksquare$
 
@@ -280,25 +280,25 @@ $x^2+y^2=2x$ 即 $\left(x-1\right)^2+y^2=1$, 是圆心在 $\left(1,0\right)$ 半
 
 ## 习题九
 
-(习题 2.4 拓广探索第 9 题) 已知圆 $O: x^2+y^2=4$, 直线 $l:y=x+b$. 当实数 $b$ 取何值时, 圆 $O$ 上有且仅有两个点到直线 $l$ 的距离等于 $1$?
+(习题 2.4 拓广探索第 9 题) 已知圆 $O:x^2+y^2=4$, 直线 $l:y=x+b$. 当实数 $b$ 取何值时, 圆 $O$ 上有且仅有两个点到直线 $l$ 的距离等于 $1$?
 
 ### 解答 习题九
 
-由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $O\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\frac{\lvert b \rvert}{\sqrt 2}$.
+由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $O\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\frac{\lvert{b}\rvert}{\sqrt2}$.
 
 圆的半径为 $2$. 到直线 $l$ 距离为 $1$ 的点在两条平行于 $l$ 的直线上, 这两条直线到圆心的距离分别为 $d-1$ 和 $d+1$.
 
 圆上恰有两个点到 $l$ 的距离为 $1$, 即上述两条平行线中一条与圆相交于两点, 另一条与圆相离.
 
-(a) 当 $\lvert d-1 \rvert< 2$ 且 $d+1> 2$ 时, 即 $-1< d< 3$ 且 $d> 1$, 即 $1< d< 3$.
+(a) 当 $\lvert{d}-1\rvert<2$ 且 $d+1>2$ 时, 即 $-1<{}d<3$ 且 $d>1$, 即 $1<{}d<3$.
 
-(b) 当 $d-1> 2$ 且 $\lvert d+1 \rvert< 2$ 时, 即 $d> 3$ 且 $-3< d< 1$, 无解.
+(b) 当 $d-1>2$ 且 $\lvert{d}+1\rvert<2$ 时, 即 $d>3$ 且 $-3<{}d<1$, 无解.
 
-综合, $1< d< 3$, 即 $1< \frac{\lvert b \rvert}{\sqrt 2}< 3$, 即 $\sqrt 2< \lvert b \rvert< 3\sqrt 2$, 故 $b\in\left(-3\sqrt 2,-\sqrt 2\right)\cup\left(\sqrt 2,3\sqrt 2\right)$. $\blacksquare$
+综合, $1<{}d<3$, 即 $1<\frac{\lvert{b}\rvert}{\sqrt2}<3$, 即 $\sqrt2<\lvert{b}\rvert<3\sqrt2$, 故 $b\in\left(-3\sqrt2,-\sqrt2\right)\cup\left(\sqrt2,3\sqrt2\right)$. $\blacksquare$
 
 ## 习题十
 
-(习题 2.4 拓广探索第 10 题) 已知圆 $C: x^2+y^2-4x-14y+45=0$, 求:
+(习题 2.4 拓广探索第 10 题) 已知圆 $C:x^2+y^2-4x-14y+45=0$, 求:
 
 (1) 圆 $C$ 的圆心坐标和半径;
 
@@ -306,23 +306,23 @@ $x^2+y^2=2x$ 即 $\left(x-1\right)^2+y^2=1$, 是圆心在 $\left(1,0\right)$ 半
 
 ### 解答 习题十
 
-(1) 由**定义 2.4.3 (圆的一般方程)**, 方程 $x^2+y^2-4x-14y+45=0$ 即 $\left(x-2\right)^2+\left(y-7\right)^2=8$. 圆心为 $\left(2,7\right)$, 半径 $r=2\sqrt 2$.
+(1) 由**定义 2.4.3 (圆的一般方程)**, 方程 $x^2+y^2-4x-14y+45=0$ 即 $\left(x-2\right)^2+\left(y-7\right)^2=8$. 圆心为 $\left(2,7\right)$, 半径 $r=2\sqrt2$.
 
 (2) $u=\frac{b-3}{a-6}$ 表示点 $Q\left(a,b\right)$ 与点 $P\left(6,3\right)$ 连线的斜率. 问题转化为: 点 $P\left(6,3\right)$ 与圆上动点连线斜率的取值范围.
 
-点 $P$ 到圆心 $\left(2,7\right)$ 的距离为 $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt 2> 2\sqrt 2$, 点 $P$ 在圆外.
+点 $P$ 到圆心 $\left(2,7\right)$ 的距离为 $\sqrt{\left(6-2\right)^2+\left(3-7\right)^2}=\sqrt{32}=4\sqrt2>2\sqrt2$, 点 $P$ 在圆外.
 
 设过点 $P$ 的切线斜率为 $k$, 切线方程为 $y-3=k\left(x-6\right)$, 即 $kx-y+3-6k=0$.
 
 圆心到切线的距离等于半径:
 
 $$
-\frac{\left|2k-7+3-6k\right|}{\sqrt{k^2+1}}=2\sqrt 2.
+\frac{\left|2k-7+3-6k\right|}{\sqrt{k^2+1}}=2\sqrt2.
 $$
 
-化简, 得 $\frac{\left|-4k-4\right|}{\sqrt{k^2+1}}=2\sqrt 2$, 即 $\left(k+1\right)^2=\frac{1}{2}\left(k^2+1\right)$, 即 $2\left(k^2+2k+1\right)=k^2+1$, 即 $k^2+4k+1=0$.
+化简, 得 $\frac{\left|-4k-4\right|}{\sqrt{k^2+1}}=2\sqrt2$, 即 $\left(k+1\right)^2=\frac{1}{2}\left(k^2+1\right)$, 即 $2\left(k^2+2k+1\right)=k^2+1$, 即 $k^2+4k+1=0$.
 
-解得 $k=-2\pm\sqrt 3$. 故 $u$ 的取值范围为 $\left[-2-\sqrt 3,-2+\sqrt 3\right]$. $\blacksquare$
+解得 $k=-2\pm\sqrt3$. 故 $u$ 的取值范围为 $\left[-2-\sqrt3,-2+\sqrt3\right]$. $\blacksquare$
 
 ## 练习七
 
@@ -338,13 +338,13 @@ $$
 
 由**常用结论 2.5.1** (直线与圆的位置关系), 比较圆心到直线的距离 $d$ 与半径 $r$.
 
-(1) 圆 $C$ 的圆心为 $\left(0,0\right)$, 半径 $r=\sqrt 3$. 由**常用结论 2.3.3** (点到直线的距离公式),
+(1) 圆 $C$ 的圆心为 $\left(0,0\right)$, 半径 $r=\sqrt3$. 由**常用结论 2.3.3** (点到直线的距离公式),
 
 $$
-d=\frac{\left|0-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{1}{\sqrt 2}.
+d=\frac{\left|0-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{1}{\sqrt2}.
 $$
 
-因为 $d=\frac{1}{\sqrt 2}< \sqrt 3=r$, 故直线 $l$ 与圆 $C$ 相交.
+因为 $d=\frac{1}{\sqrt2}<\sqrt3=r$, 故直线 $l$ 与圆 $C$ 相交.
 
 (2) 圆 $C:x^2+y^2-2x=0$ 即 $\left(x-1\right)^2+y^2=1$, 圆心为 $\left(1,0\right)$, 半径 $r=1$. 由距离公式,
 
@@ -357,10 +357,10 @@ $$
 (3) 圆 $C:x^2+y^2+2y=0$ 即 $x^2+\left(y+1\right)^2=1$, 圆心为 $\left(0,-1\right)$, 半径 $r=1$. 由距离公式,
 
 $$
-d=\frac{\left|0+\left(-1\right)+3\right|}{\sqrt{1^2+1^2}}=\frac{2}{\sqrt 2}=\sqrt 2.
+d=\frac{\left|0+\left(-1\right)+3\right|}{\sqrt{1^2+1^2}}=\frac{2}{\sqrt2}=\sqrt2.
 $$
 
-因为 $d=\sqrt 2> 1=r$, 故直线 $l$ 与圆 $C$ 相离. $\blacksquare$
+因为 $d=\sqrt2>1=r$, 故直线 $l$ 与圆 $C$ 相离. $\blacksquare$
 
 ## 练习八
 
@@ -385,15 +385,15 @@ $$
 圆心为 $\left(1,2\right)$, 半径 $r=2$. 由**常用结论 2.3.3** (点到直线的距离公式),
 
 $$
-d=\frac{\left|2\cdot1-2+2\right|}{\sqrt{2^2+\left(-1\right)^2}}=\frac{2}{\sqrt 5}.
+d=\frac{\left|2\cdot1-2+2\right|}{\sqrt{2^2+\left(-1\right)^2}}=\frac{2}{\sqrt5}.
 $$
 
-因为 $d=\frac{2}{\sqrt 5}< 2=r$, 故直线与圆相交.
+因为 $d=\frac{2}{\sqrt5}<2=r$, 故直线与圆相交.
 
 由**常用结论 2.5.2** (弦长公式), 弦长为
 
 $$
-\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{4-\frac{4}{5}}=2\sqrt{\frac{16}{5}}=\frac{8\sqrt 5}{5}.
+\left|AB\right|=2\sqrt{r^2-d^2}=2\sqrt{4-\frac{4}{5}}=2\sqrt{\frac{16}{5}}=\frac{8\sqrt5}{5}.
 $$
 
 $\blacksquare$
@@ -434,7 +434,7 @@ $10^2+b^2=r^2$, $\left(4-b\right)^2=r^2$.
 
 船宽 $10\,\mathrm{m}$, 即 $x=\pm5$ 处桥拱的高度. 代入 $x=5$, 得 $25+\left(y+10.5\right)^2=210.25$, 即 $\left(y+10.5\right)^2=185.25$, 即 $y+10.5=\sqrt{185.25}\approx13.61$, 故 $y\approx3.11$.
 
-船在水面以上高 $3\,\mathrm{m}$, 而桥拱在船宽边缘处的高度约为 $3.11\,\mathrm{m}> 3\,\mathrm{m}$, 故船能从桥下通过. $\blacksquare$
+船在水面以上高 $3\,\mathrm{m}$, 而桥拱在船宽边缘处的高度约为 $3.11\,\mathrm{m}>3\,\mathrm{m}$, 故船能从桥下通过. $\blacksquare$
 
 ## 练习十二
 
@@ -452,7 +452,7 @@ $$
 d=\frac{\left|6\cdot5-5\cdot\left(-3\right)+60\right|}{\sqrt{6^2+\left(-5\right)^2}}=\frac{\left|30+15+60\right|}{\sqrt{61}}=\frac{105}{\sqrt{61}}\approx13.44.
 $$
 
-因为 $d\approx13.44> 9=r$, 直线与圆相离.
+因为 $d\approx13.44>9=r$, 直线与圆相离.
 
 机器人到直线的最近距离为 $d-r=13.44-9=4.44$, 最远距离为 $d+r=13.44+9=22.44$. $\blacksquare$
 
@@ -490,7 +490,7 @@ $r_1+r_2=2+3=5=d$. 由**常用结论 2.5.3** (圆与圆的位置关系), $d=r_1+
 
 由**常用结论 2.3.2** (两点间距离公式), 圆心距为 $d=\sqrt{\left(-2+1\right)^2+0}=1$.
 
-$r_1=\frac{3}{2}$, $r_2=\frac{\sqrt{17}}{2}$. $\lvert r_1-r_2 \rvert=\frac{\sqrt{17}-3}{2}\approx0.56< 1< \frac{3+\sqrt{17}}{2}\approx3.56=r_1+r_2$. 由**常用结论 2.5.3** (圆与圆的位置关系), 两圆相交.
+$r_1=\frac{3}{2}$, $r_2=\frac{\sqrt{17}}{2}$. $\lvert{r}_1-r_2\rvert=\frac{\sqrt{17}-3}{2}\approx0.56<1<\frac{3+\sqrt{17}}{2}\approx3.56=r_1+r_2$. 由**常用结论 2.5.3** (圆与圆的位置关系), 两圆相交.
 
 两圆方程相减, 得 $\left(x^2+y^2+4x+3y+2\right)-\left(x^2+y^2+2x+3y+1\right)=0$, 即 $2x+1=0$, 即 $x=-\frac{1}{2}$. 公共弦所在直线的方程为 $x=-\frac{1}{2}$. $\blacksquare$
 
@@ -520,7 +520,7 @@ $$
 
 (3) 半径为 $\sqrt{13}$, 且与直线 $2x-3y+6=0$ 相切于点 $\left(3,4\right)$.
 
-该图在平面直角坐标系中画出三个圆:(1) 圆心 $M\left(3,-5\right)$,半径 $4\sqrt 2$,且与直线 $x-7y+2=0$ 相切的圆 $\left(x-3\right)^2+\left(y+5\right)^2=32$;(2) 圆心在直线 $y=x$ 上,半径为 $2$,且与直线 $y=6$ 相切的两个圆,圆心分别为 $\left(4,4\right)$ 与 $\left(8,8\right)$,方程为 $\left(x-4\right)^2+\left(y-4\right)^2=4$ 与 $\left(x-8\right)^2+\left(y-8\right)^2=4$;(3) 半径为 $\sqrt{13}$,且与直线 $2x-3y+6=0$ 相切于点 $\left(3,4\right)$ 的两个圆,圆心分别为 $\left(5,1\right)$ 与 $\left(1,7\right)$.
+该图在平面直角坐标系中画出三个圆:(1) 圆心 $M\left(3,-5\right)$,半径 $4\sqrt2$,且与直线 $x-7y+2=0$ 相切的圆 $\left(x-3\right)^2+\left(y+5\right)^2=32$;(2) 圆心在直线 $y=x$ 上,半径为 $2$,且与直线 $y=6$ 相切的两个圆,圆心分别为 $\left(4,4\right)$ 与 $\left(8,8\right)$,方程为 $\left(x-4\right)^2+\left(y-4\right)^2=4$ 与 $\left(x-8\right)^2+\left(y-8\right)^2=4$;(3) 半径为 $\sqrt{13}$,且与直线 $2x-3y+6=0$ 相切于点 $\left(3,4\right)$ 的两个圆,圆心分别为 $\left(5,1\right)$ 与 $\left(1,7\right)$.
 
 ### 解答 习题十二
 
@@ -529,12 +529,12 @@ $$
 (1) 半径即圆心 $M\left(3,-5\right)$ 到直线 $x-7y+2=0$ 的距离:
 
 $$
-r=\frac{\left|3-7\cdot\left(-5\right)+2\right|}{\sqrt{1+49}}=\frac{40}{\sqrt{50}}=4\sqrt 2.
+r=\frac{\left|3-7\cdot\left(-5\right)+2\right|}{\sqrt{1+49}}=\frac{40}{\sqrt{50}}=4\sqrt2.
 $$
 
 由**定义 2.4.1 (圆的标准方程)**, 圆的方程为 $\left(x-3\right)^2+\left(y+5\right)^2=32$.
 
-(2) 圆心在直线 $y=x$ 上, 设圆心为 $\left(a,a\right)$. 圆与直线 $y=6$ 相切, 半径为 $2$, 即圆心到直线 $y=6$ 的距离为 $2$, 即 $\lvert a-6 \rvert=2$, 故 $a=4$ 或 $a=8$. 圆心为 $\left(4,4\right)$ 或 $\left(8,8\right)$. 圆的方程为 $\left(x-4\right)^2+\left(y-4\right)^2=4$ 或 $\left(x-8\right)^2+\left(y-8\right)^2=4$.
+(2) 圆心在直线 $y=x$ 上, 设圆心为 $\left(a,a\right)$. 圆与直线 $y=6$ 相切, 半径为 $2$, 即圆心到直线 $y=6$ 的距离为 $2$, 即 $\lvert{a}-6\rvert=2$, 故 $a=4$ 或 $a=8$. 圆心为 $\left(4,4\right)$ 或 $\left(8,8\right)$. 圆的方程为 $\left(x-4\right)^2+\left(y-4\right)^2=4$ 或 $\left(x-8\right)^2+\left(y-8\right)^2=4$.
 
 (3) 圆心与切点 $\left(3,4\right)$ 的连线与切线 $2x-3y+6=0$ 垂直. 切线斜率为 $\frac{2}{3}$, 故半径所在直线斜率为 $-\frac{3}{2}$. 圆心在过切点 $\left(3,4\right)$ 且斜率为 $-\frac{3}{2}$ 的直线上, 即 $y-4=-\frac{3}{2}\left(x-3\right)$.
 

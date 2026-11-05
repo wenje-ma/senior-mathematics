@@ -2,11 +2,11 @@
 
 > **定义 3.1.1 (函数)**
 > 
-> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to B$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in A$.
+> 设 $A,B$ 是非空的实数集, 如果对于集合 $A$ 中的任意一个数 $x$, 按照某种确定的对应关系 $f$, 在集合 $B$ 中都有唯一确定的数 $y$ 和它对应, 就称 $f:A\to{B}$ 为从集合 $A$ 到集合 $B$ 的一个函数, 记作 $y=f\left(x\right)$, $x\in{A}$.
 
 > **定义 3.1.2 (定义域与值域)**
 > 
-> 对于函数 $y=f\left(x\right)$, $x\in A$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid x\in A\right\}$ 叫做函数的值域.
+> 对于函数 $y=f\left(x\right)$, $x\in{A}$, 其中 $x$ 叫做自变量, $x$ 的取值范围 $A$ 叫做函数的定义域, 与 $x$ 的值相对应的 $y$ 值叫做函数值, 函数值的集合 $\left\{f\left(x\right)\mid{x}\in{A}\right\}$ 叫做函数的值域.
 
 > **定义 3.1.5 (分段函数)**
 > 
@@ -18,27 +18,27 @@
 
 > **定义 3.2.1 (单调递增与增函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)< f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)<{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递增.
 
 > **定义 3.2.2 (单调递减与减函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq I$: 如果 $\forall x_1,x_2\in D$, 当 $x_1< x_2$ 时, 都有 $f\left(x_1\right)> f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 区间 $D\subseteq{I}$: 如果 $\forall{x}_1,x_2\in{D}$, 当 $x_1<{}x_2$ 时, 都有 $f\left(x_1\right)>{}f\left(x_2\right)$, 那么就称函数 $f\left(x\right)$ 在区间 $D$ 上单调递减.
 
 > **定义 3.2.3 (最大值)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\le M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\le{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最大值.
 
 > **定义 3.2.4 (最小值)**
 > 
-> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall x\in I$, 都有 $f\left(x\right)\ge M$; $\exists x_0\in I$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
+> 设函数 $y=f\left(x\right)$ 的定义域为 $I$, 如果存在实数 $M$ 满足: $\forall{x}\in{I}$, 都有 $f\left(x\right)\ge{M}$; $\exists{x}_0\in{I}$, 使得 $f\left(x_0\right)=M$. 则称 $M$ 是函数 $y=f\left(x\right)$ 的最小值.
 
 > **定义 3.2.5 (偶函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做偶函数.
 
 > **定义 3.2.6 (奇函数)**
 > 
-> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall x\in I$, 都有 $-x\in I$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
+> 设函数 $f\left(x\right)$ 的定义域为 $I$, 如果 $\forall{x}\in{I}$, 都有 $-x\in{I}$, 且 $f\left(-x\right)=-f\left(x\right)$, 那么函数 $f\left(x\right)$ 就叫做奇函数.
 
 ## 练习一
 
@@ -68,45 +68,45 @@
 
 由**常用结论 3.1.4** (同一函数的判断), 两个函数是同一个函数当且仅当定义域相同且对应关系完全一致.
 
-(1) 炮弹高度函数 $h=130t-5t^2$ 的定义域为 $\left[0,26\right]$, 而二次函数 $y=130x-5x^2$ 的定义域为 $\mathbb R$, 两者定义域不同, 故不是同一个函数.
+(1) 炮弹高度函数 $h=130t-5t^2$ 的定义域为 $\left[0,26\right]$, 而二次函数 $y=130x-5x^2$ 的定义域为 $\mathbb{R}$, 两者定义域不同, 故不是同一个函数.
 
-(2) $f\left(x\right)=1$ 的定义域为 $\mathbb R$, 而 $g\left(x\right)=x^0$ 的定义域为 $\left\{x\mid x\ne0\right\}$, 两者定义域不同, 故不是同一个函数. $\blacksquare$
+(2) $f\left(x\right)=1$ 的定义域为 $\mathbb{R}$, 而 $g\left(x\right)=x^0$ 的定义域为 $\left\{x\mid{x}\ne0\right\}$, 两者定义域不同, 故不是同一个函数. $\blacksquare$
 
 ## 练习三
 
-(练习 3.1 第 8 题) 如图, 把直截面半径为 $25\ \text{cm}$ 的圆柱形木头锯成直截面为矩形的木料, 如果矩形的一边长为 $x$ (单位: $\text{cm}$), 面积为 $y$ (单位: $\text{cm}^2$), 把 $y$ 表示为 $x$ 的函数.
+(练习 3.1 第 8 题) 如图, 把直截面半径为 $25\,\text{cm}$ 的圆柱形木头锯成直截面为矩形的木料, 如果矩形的一边长为 $x$ (单位: $\text{cm}$), 面积为 $y$ (单位: $\text{cm}^2$), 把 $y$ 表示为 $x$ 的函数.
 
 (题图: 一个圆表示圆柱直截面, 圆内接一个矩形, 矩形水平边长标为 $x$, 矩形对角线即圆的直径, 圆心标 $O$, 半径标 $25\,\mathrm{cm}$.)
 
 ### 解答 练习三
 
-由**定义 3.1.1 (函数)**, 矩形内接于半径为 $25\ \text{cm}$ 的圆, 矩形的对角线等于圆的直径 $50\ \text{cm}$.
+由**定义 3.1.1 (函数)**, 矩形内接于半径为 $25\,\text{cm}$ 的圆, 矩形的对角线等于圆的直径 $50\,\text{cm}$.
 
-设矩形另一边长为 $z$, 由勾股定理, $x^2+z^2=50^2=2500$, 故 $z=\sqrt{2500-x^2}$. 矩形面积为 $y=xz=x\sqrt{2500-x^2}$. 由 $x> 0$ 且 $z> 0$, 得 $0< x< 50$. 故函数为 $y=x\sqrt{2500-x^2}$, $x\in\left(0,50\right)$. $\blacksquare$
+设矩形另一边长为 $z$, 由勾股定理, $x^2+z^2=50^2=2500$, 故 $z=\sqrt{2500-x^2}$. 矩形面积为 $y=xz=x\sqrt{2500-x^2}$. 由 $x>0$ 且 $z>0$, 得 $0<{}x<50$. 故函数为 $y=x\sqrt{2500-x^2}$, $x\in\left(0,50\right)$. $\blacksquare$
 
 ## 练习四
 
 (练习 3.1 第 9 题) 画出函数 $y=\left|x-2\right|$ 的图象.
 
-(题图: 直角坐标系中画出顶点在 $\left(2,0\right)$,开口向上的 $V$ 形折线, 左支为射线 $y=-x+2$ ($x< 2$), 右支为射线 $y=x-2$ ($x\ge2$).)
+(题图: 直角坐标系中画出顶点在 $\left(2,0\right)$,开口向上的 $V$ 形折线, 左支为射线 $y=-x+2$ ($x<2$), 右支为射线 $y=x-2$ ($x\ge2$).)
 
 ### 解答 练习四
 
 由**定义 3.1.5 (分段函数)**, 绝对值函数可写成分段形式.
 
 $$
-y=\left|x-2\right|=\begin{cases}-x+2, & x< 2,\\x-2, & x\ge2.\end{cases}
+y=\left|x-2\right|=\begin{cases}-x+2,&x<2,\\x-2,&x\ge2.\end{cases}
 $$
 
-图象为顶点在 $\left(2,0\right)$, 开口向上的 $V$ 形折线: 当 $x< 2$ 时为直线 $y=-x+2$ 的射线, 当 $x\ge2$ 时为直线 $y=x-2$ 的射线. $\blacksquare$
+图象为顶点在 $\left(2,0\right)$, 开口向上的 $V$ 形折线: 当 $x<2$ 时为直线 $y=-x+2$ 的射线, 当 $x\ge2$ 时为直线 $y=x-2$ 的射线. $\blacksquare$
 
 ## 练习五
 
-(练习 3.1 第 10 题) 给定函数 $f\left(x\right)=-x+1$, $g\left(x\right)=\left(x-1\right)^2$, $x\in\mathbb R$,
+(练习 3.1 第 10 题) 给定函数 $f\left(x\right)=-x+1$, $g\left(x\right)=\left(x-1\right)^2$, $x\in\mathbb{R}$,
 
 (1) 画出函数 $f\left(x\right)$, $g\left(x\right)$ 的图象;
 
-(2) $\forall x\in\mathbb R$, 用 $m\left(x\right)$ 表示 $f\left(x\right)$, $g\left(x\right)$ 中的最小者, 记为 $m\left(x\right)=\min\left\{f\left(x\right),g\left(x\right)\right\}$, 请分别用图象法和解析法表示函数 $m\left(x\right)$.
+(2) $\forall{x}\in\mathbb{R}$, 用 $m\left(x\right)$ 表示 $f\left(x\right)$, $g\left(x\right)$ 中的最小者, 记为 $m\left(x\right)=\min\left\{f\left(x\right),g\left(x\right)\right\}$, 请分别用图象法和解析法表示函数 $m\left(x\right)$.
 
 (题图: 同一坐标系中画出直线 $f\left(x\right)=-x+1$ (过 $\left(0,1\right)$ 与 $\left(1,0\right)$) 和抛物线 $g\left(x\right)=\left(x-1\right)^2$ (顶点 $\left(1,0\right)$, 开口向上), 两曲线交于 $\left(0,1\right)$ 与 $\left(1,0\right)$.)
 
@@ -118,10 +118,10 @@ $$
 
 (2) 令 $-x+1=\left(x-1\right)^2$, 展开得 $-x+1=x^2-2x+1$, 即 $x^2-x=0$, 解得 $x=0$ 或 $x=1$.
 
-当 $x\le0$ 时, $\left(x-1\right)^2\le-x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$; 当 $0< x\le1$ 时, $-x+1< \left(x-1\right)^2$, 故 $m\left(x\right)=-x+1$; 当 $x> 1$ 时, $\left(x-1\right)^2< -x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$. 因此
+当 $x\le0$ 时, $\left(x-1\right)^2\le-x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$; 当 $0<{}x\le1$ 时, $-x+1<\left(x-1\right)^2$, 故 $m\left(x\right)=-x+1$; 当 $x>1$ 时, $\left(x-1\right)^2<-x+1$, 故 $m\left(x\right)=\left(x-1\right)^2$. 因此
 
 $$
-m\left(x\right)=\begin{cases}\left(x-1\right)^2, & x\le0,\\-x+1, & 0< x\le1,\\\left(x-1\right)^2, & x> 1.\end{cases}
+m\left(x\right)=\begin{cases}\left(x-1\right)^2,&x\le0,\\-x+1,&0<{}x\le1,\\\left(x-1\right)^2,&x>1.\end{cases}
 $$
 
 图象法: 取 $f\left(x\right)$ 与 $g\left(x\right)$ 图象中较低的部分, 即得到 $m\left(x\right)$ 的图象. $\blacksquare$
@@ -154,11 +154,11 @@ $$
 
 (练习 3.1 第 12 题) 某市 "招手即停" 公共汽车的票价按下列规则制定:
 
-(1) $5\ \text{km}$ 以内 (含 $5\ \text{km}$), 票价 $2$ 元;
+(1) $5\,\text{km}$ 以内 (含 $5\,\text{km}$), 票价 $2$ 元;
 
-(2) $5\ \text{km}$ 以上, 每增加 $5\ \text{km}$, 票价增加 $1$ 元 (不足 $5\ \text{km}$ 的按 $5\ \text{km}$ 计算).
+(2) $5\,\text{km}$ 以上, 每增加 $5\,\text{km}$, 票价增加 $1$ 元 (不足 $5\,\text{km}$ 的按 $5\,\text{km}$ 计算).
 
-如果某条线路的总里程为 $20\ \text{km}$, 请根据题意, 写出票价与里程之间的函数解析式, 并画出函数的图象.
+如果某条线路的总里程为 $20\,\text{km}$, 请根据题意, 写出票价与里程之间的函数解析式, 并画出函数的图象.
 
 (题图: 票价-里程坐标系, 横轴为里程 $x$ (km), 纵轴为票价 $y$ (元), 画出四段水平线段: $\left(0,5\right]$ 上 $y=2$, $\left(5,10\right]$ 上 $y=3$, $\left(10,15\right]$ 上 $y=4$, $\left(15,20\right]$ 上 $y=5$, 每段左端点实心,右端点空心.)
 
@@ -166,12 +166,12 @@ $$
 
 由**定义 3.1.5 (分段函数)**, 票价按里程分段计价.
 
-设里程为 $x$ (单位: $\text{km}$), 票价为 $y$ (单位: 元), 则 $0< x\le20$.
+设里程为 $x$ (单位: $\text{km}$), 票价为 $y$ (单位: 元), 则 $0<{}x\le20$.
 
-当 $0< x\le5$ 时, $y=2$; 当 $5< x\le10$ 时, $y=3$; 当 $10< x\le15$ 时, $y=4$; 当 $15< x\le20$ 时, $y=5$. 即
+当 $0<{}x\le5$ 时, $y=2$; 当 $5<{}x\le10$ 时, $y=3$; 当 $10<{}x\le15$ 时, $y=4$; 当 $15<{}x\le20$ 时, $y=5$. 即
 
 $$
-y=\begin{cases}2, & 0< x\le5,\\3, & 5< x\le10,\\4, & 10< x\le15,\\5, & 15< x\le20.\end{cases}
+y=\begin{cases}2,&0<{}x\le5,\\3,&5<{}x\le10,\\4,&10<{}x\le15,\\5,&15<{}x\le20.\end{cases}
 $$
 
 图象为四段水平线段, 每段左端实心, 右端空心. $\blacksquare$
@@ -194,7 +194,7 @@ $$
 
 (1) 分母 $x-4\ne0$, 即 $x\ne4$, 定义域为 $\left(-\infty,4\right)\cup\left(4,+\infty\right)$.
 
-(2) $x^2\ge0$ 对一切实数成立, 定义域为 $\mathbb R$.
+(2) $x^2\ge0$ 对一切实数成立, 定义域为 $\mathbb{R}$.
 
 (3) 分母 $x^2-3x+2=\left(x-1\right)\left(x-2\right)\ne0$, 即 $x\ne1$ 且 $x\ne2$, 定义域为 $\left(-\infty,1\right)\cup\left(1,2\right)\cup\left(2,+\infty\right)$.
 
@@ -206,7 +206,7 @@ $$
 
 (1) $f\left(x\right)=x-1$, $g\left(x\right)=\frac{x^2}{x}-1$;
 
-(2) $f\left(x\right)=x^2$, $g\left(x\right)=\left(\sqrt x\right)^4$;
+(2) $f\left(x\right)=x^2$, $g\left(x\right)=\left(\sqrt{x}\right)^4$;
 
 (3) $f\left(x\right)=x^2$, $g\left(x\right)=\sqrt\left[6\right]{x^6}$.
 
@@ -214,11 +214,11 @@ $$
 
 由**常用结论 3.1.4** (同一函数的判断), 定义域相同且对应关系一致才是同一函数.
 
-(1) $f\left(x\right)=x-1$ 的定义域为 $\mathbb R$, $g\left(x\right)=\frac{x^2}{x}-1=x-1$ 的定义域为 $\left\{x\mid x\ne0\right\}$, 定义域不同, 不是同一函数.
+(1) $f\left(x\right)=x-1$ 的定义域为 $\mathbb{R}$, $g\left(x\right)=\frac{x^2}{x}-1=x-1$ 的定义域为 $\left\{x\mid{x}\ne0\right\}$, 定义域不同, 不是同一函数.
 
-(2) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\left(\sqrt x\right)^4=x^2$ 的定义域为 $\left\{x\mid x\ge0\right\}$, 定义域不同, 不是同一函数.
+(2) $f\left(x\right)=x^2$ 的定义域为 $\mathbb{R}$, $g\left(x\right)=\left(\sqrt{x}\right)^4=x^2$ 的定义域为 $\left\{x\mid{x}\ge0\right\}$, 定义域不同, 不是同一函数.
 
-(3) $f\left(x\right)=x^2$ 的定义域为 $\mathbb R$, $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$, 当 $x< 0$ 时 $g\left(x\right)=-x\ne x^2$, 对应关系不同, 不是同一函数. $\blacksquare$
+(3) $f\left(x\right)=x^2$ 的定义域为 $\mathbb{R}$, $g\left(x\right)=\sqrt\left[6\right]{x^6}=\left|x\right|$, 当 $x<0$ 时 $g\left(x\right)=-x\ne{x}^2$, 对应关系不同, 不是同一函数. $\blacksquare$
 
 ## 习题三
 
@@ -238,13 +238,13 @@ $$
 
 由**定义 3.1.2 (定义域与值域)** 及**定义 3.1.6 (函数的表示法)**.
 
-(1) $y=3x$ 为过原点的直线, 定义域为 $\mathbb R$, 值域为 $\mathbb R$.
+(1) $y=3x$ 为过原点的直线, 定义域为 $\mathbb{R}$, 值域为 $\mathbb{R}$.
 
-(2) $y=\frac{8}{x}$ 为反比例函数, 定义域为 $\left\{x\mid x\ne0\right\}$, 值域为 $\left\{y\mid y\ne0\right\}$.
+(2) $y=\frac{8}{x}$ 为反比例函数, 定义域为 $\left\{x\mid{x}\ne0\right\}$, 值域为 $\left\{y\mid{y}\ne0\right\}$.
 
-(3) $y=-4x+5$ 为斜率 $-4$ 的直线, 定义域为 $\mathbb R$, 值域为 $\mathbb R$.
+(3) $y=-4x+5$ 为斜率 $-4$ 的直线, 定义域为 $\mathbb{R}$, 值域为 $\mathbb{R}$.
 
-(4) $y=x^2-6x+7=\left(x-3\right)^2-2$, 顶点为 $\left(3,-2\right)$, 开口向上, 定义域为 $\mathbb R$, 值域为 $\left[-2,+\infty\right)$. $\blacksquare$
+(4) $y=x^2-6x+7=\left(x-3\right)^2-2$, 顶点为 $\left(3,-2\right)$, 开口向上, 定义域为 $\mathbb{R}$, 值域为 $\left[-2,+\infty\right)$. $\blacksquare$
 
 ## 习题四
 
@@ -267,7 +267,7 @@ f\left(a+3\right)=3\left(a+3\right)^2-5\left(a+3\right)+2=3a^2+18a+27-5a-15+2=3a
 $$
 
 $$
-f\left(3\right)=3\cdot9-5\cdot3+2=27-15+2=14,\quad f\left(a\right)+f\left(3\right)=3a^2-5a+2+14=3a^2-5a+16.
+f\left(3\right)=3\cdot9-5\cdot3+2=27-15+2=14,\quad{f}\left(a\right)+f\left(3\right)=3a^2-5a+2+14=3a^2-5a+16.
 $$
 
 $\blacksquare$
@@ -306,17 +306,17 @@ $\blacksquare$
 
 (习题 3.1 复习巩固第 7 题) 画出下列函数的图象:
 
-(1) $f\left(x\right)=\begin{cases}0, & x\le0,\\1, & x> 0;\end{cases}$
+(1) $f\left(x\right)=\begin{cases}0,&x\le0,\\1,&x>0;\end{cases}$
 
 (2) $G\left(n\right)=3n+1$, $n\in\left\{1,2,3\right\}$.
 
-(题图: 左图画分段函数 $f\left(x\right)=0$ ($x\le0$) 与 $f\left(x\right)=1$ ($x> 0$), 即 $x\le0$ 时 $x$ 轴上的射线,$x> 0$ 时直线 $y=1$ 上的射线; 右图画三个孤立点 $\left(1,4\right),\left(2,7\right),\left(3,10\right)$.)
+(题图: 左图画分段函数 $f\left(x\right)=0$ ($x\le0$) 与 $f\left(x\right)=1$ ($x>0$), 即 $x\le0$ 时 $x$ 轴上的射线,$x>0$ 时直线 $y=1$ 上的射线; 右图画三个孤立点 $\left(1,4\right),\left(2,7\right),\left(3,10\right)$.)
 
 ### 解答 习题七
 
 由**定义 3.1.5 (分段函数)** 及**定义 3.1.6 (函数的表示法)**.
 
-(1) 当 $x\le0$ 时函数值恒为 $0$, 当 $x> 0$ 时函数值恒为 $1$, 图象为两条水平射线: $x\le0$ 时在 $x$ 轴上, $x> 0$ 时在直线 $y=1$ 上.
+(1) 当 $x\le0$ 时函数值恒为 $0$, 当 $x>0$ 时函数值恒为 $1$, 图象为两条水平射线: $x\le0$ 时在 $x$ 轴上, $x>0$ 时在直线 $y=1$ 上.
 
 (2) 定义域为有限集 $\left\{1,2,3\right\}$, $G\left(1\right)=4$, $G\left(2\right)=7$, $G\left(3\right)=10$, 图象为三个孤立点 $\left(1,4\right)$, $\left(2,7\right)$, $\left(3,10\right)$. $\blacksquare$
 
@@ -330,23 +330,23 @@ $\blacksquare$
 
 由**定义 3.1.1 (函数)** 及矩形的几何性质, 各量之间存在确定的对应关系.
 
-由面积 $xy=10$, 得 $y=\frac{10}{x}$ $\left(x> 0\right)$.
+由面积 $xy=10$, 得 $y=\frac{10}{x}$ $\left(x>0\right)$.
 
-由勾股定理, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x> 0\right)$.
+由勾股定理, $d=\sqrt{x^2+y^2}=\sqrt{x^2+\frac{100}{x^2}}$ $\left(x>0\right)$.
 
-由周长公式, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x> 0\right)$. $\blacksquare$
+由周长公式, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $\left(x>0\right)$. $\blacksquare$
 
 ## 习题九
 
-(习题 3.1 综合运用第 9 题) 一个圆柱形容器的底部直径是 $d\ \text{cm}$, 高是 $h\ \text{cm}$. 现在向容器内每秒注入某种溶液 $v\ \text{cm}^3$. 求容器内溶液的高度 $x$ (单位: $\text{cm}$) 关于注入溶液的时间 $t$ (单位: $\text{s}$) 的函数解析式, 并写出函数的定义域和值域.
+(习题 3.1 综合运用第 9 题) 一个圆柱形容器的底部直径是 $d\,\text{cm}$, 高是 $h\,\text{cm}$. 现在向容器内每秒注入某种溶液 $v\,\text{cm}^3$. 求容器内溶液的高度 $x$ (单位: $\text{cm}$) 关于注入溶液的时间 $t$ (单位: $\text{s}$) 的函数解析式, 并写出函数的定义域和值域.
 
 ### 解答 习题九
 
 由**定义 3.1.1 (函数)**, 溶液体积随时间线性增加, 高度由体积除以底面积得到.
 
-圆柱底面积为 $\pi\left(\frac{d}{2}\right)^2=\frac{\pi d^2}{4}$. $t$ 秒后注入溶液体积为 $vt$, 故高度 $x=\frac{vt}{\pi d^2/4}=\frac{4vt}{\pi d^2}$.
+圆柱底面积为 $\pi\left(\frac{d}{2}\right)^2=\frac{\pi{d}^2}{4}$. $t$ 秒后注入溶液体积为 $vt$, 故高度 $x=\frac{vt}{\pi{d}^2/4}=\frac{4vt}{\pi{d}^2}$.
 
-溶液高度不超过容器高度 $h$, 即 $0\le x\le h$, 对应 $0\le t\le\frac{\pi d^2 h}{4v}$. 定义域为 $\left[0,\frac{\pi d^2 h}{4v}\right]$, 值域为 $\left[0,h\right]$. $\blacksquare$
+溶液高度不超过容器高度 $h$, 即 $0\le{x}\le{h}$, 对应 $0\le{t}\le\frac{\pi{d}^2h}{4v}$. 定义域为 $\left[0,\frac{\pi{d}^2h}{4v}\right]$, 值域为 $\left[0,h\right]$. $\blacksquare$
 
 ## 习题十
 
@@ -376,27 +376,27 @@ $\blacksquare$
 
 (1) 图象由两部分组成: 左半部分 $p\in\left[-5,0\right]$, 曲线从 $r=2$ 上升到 $r=5$; 右半部分 $p\in\left[2,6\right]$, 曲线从 $r=0$ 上升, 渐近于直线 $m$ (虚线). 故定义域为 $\left[-5,0\right]\cup\left[2,6\right)$. 左半部分 $r\in\left[2,5\right]$, 右半部分 $r\in\left[0,+\infty\right)$, 故值域为 $\left[0,+\infty\right)$.
 
-(2) 当 $r\in\left[0,2\right)$ 时, 只有右半部分曲线与之对应, 故只有唯一的 $p$ 值; 当 $r\in\left[2,5\right]$ 时, 左右两部分各有一个 $p$ 值; 当 $r> 5$ 时, 只有右半部分曲线. 故当 $r\in\left[0,2\right)$ 或 $r> 5$ 时, 只有唯一的 $p$ 值与之对应. $\blacksquare$
+(2) 当 $r\in\left[0,2\right)$ 时, 只有右半部分曲线与之对应, 故只有唯一的 $p$ 值; 当 $r\in\left[2,5\right]$ 时, 左右两部分各有一个 $p$ 值; 当 $r>5$ 时, 只有右半部分曲线. 故当 $r\in\left[0,2\right)$ 或 $r>5$ 时, 只有唯一的 $p$ 值与之对应. $\blacksquare$
 
 ## 习题十二
 
-(习题 3.1 综合运用第 12 题) 画出定义域为 $\left\{x\mid-3\le x\le8,\text{ 且 }x\ne5\right\}$, 值域为 $\left\{y\mid-1\le y\le2,\ y\ne0\right\}$ 的一个函数的图象.
+(习题 3.1 综合运用第 12 题) 画出定义域为 $\left\{x\mid-3\le{x}\le8,\text{~且~}x\ne5\right\}$, 值域为 $\left\{y\mid-1\le{y}\le2,\,y\ne0\right\}$ 的一个函数的图象.
 
 (1) 将你的图象和其他同学的相比较, 有什么差别吗?
 
-(2) 如果平面直角坐标系中点 $P\left(x,y\right)$ 的坐标满足 $-3\le x\le8$, $-1\le y\le2$, 那么其中哪些点不能在图象上?
+(2) 如果平面直角坐标系中点 $P\left(x,y\right)$ 的坐标满足 $-3\le{x}\le8$, $-1\le{y}\le2$, 那么其中哪些点不能在图象上?
 
-(题图: 坐标系中画出一个示例函数图象: 当 $-3\le x< 5$ 时 $y=1$ 的水平线段, 当 $5< x\le8$ 时 $y=-1$ 的水平线段, 在 $x=5$ 处断开.)
+(题图: 坐标系中画出一个示例函数图象: 当 $-3\le{x}<5$ 时 $y=1$ 的水平线段, 当 $5<{}x\le8$ 时 $y=-1$ 的水平线段, 在 $x=5$ 处断开.)
 
 ### 解答 习题十二
 
 由**定义 3.1.1 (函数)** 及**定义 3.1.2 (定义域与值域)**, 图象上每个 $x$ 只能对应唯一的 $y$.
 
-可构造函数: 当 $-3\le x< 5$ 时取 $y=1$, 当 $5< x\le8$ 时取 $y=-1$, 图象为两条水平线段, 在 $x=5$ 处断开.
+可构造函数: 当 $-3\le{x}<5$ 时取 $y=1$, 当 $5<{}x\le8$ 时取 $y=-1$, 图象为两条水平线段, 在 $x=5$ 处断开.
 
 (1) 不同同学构造的函数不同, 图象自然不同.
 
-(2) 由定义域, $x=5$ 对应的点不能在图象上; 由值域, $y=0$ 对应的点不能在图象上. 故不能在图象上的点为 $\left(5,y\right)$ ($-1\le y\le2$) 和 $\left(x,0\right)$ ($-3\le x\le8$). $\blacksquare$
+(2) 由定义域, $x=5$ 对应的点不能在图象上; 由值域, $y=0$ 对应的点不能在图象上. 故不能在图象上的点为 $\left(5,y\right)$ ($-1\le{y}\le2$) 和 $\left(x,0\right)$ ($-3\le{x}\le8$). $\blacksquare$
 
 ## 习题十三
 
@@ -411,28 +411,28 @@ $\blacksquare$
 当 $x\in\left(-2.5,-2\right)$ 时, $f\left(x\right)=-3$; 当 $x\in\left[-2,-1\right)$ 时, $f\left(x\right)=-2$; 当 $x\in\left[-1,0\right)$ 时, $f\left(x\right)=-1$; 当 $x\in\left[0,1\right)$ 时, $f\left(x\right)=0$; 当 $x\in\left[1,2\right)$ 时, $f\left(x\right)=1$; 当 $x\in\left[2,3\right)$ 时, $f\left(x\right)=2$; 当 $x=3$ 时, $f\left(3\right)=3$. 即
 
 $$
-f\left(x\right)=\begin{cases}-3, & -2.5< x< -2,\\-2, & -2\le x< -1,\\-1, & -1\le x< 0,\\0, & 0\le x< 1,\\1, & 1\le x< 2,\\2, & 2\le x< 3,\\3, & x=3.\end{cases}
+f\left(x\right)=\begin{cases}-3,&-2.5<{}x<-2,\\-2,&-2\le{x}<-1,\\-1,&-1\le{x}<0,\\0,&0\le{x}<1,\\1,&1\le{x}<2,\\2,&2\le{x}<3,\\3,&x=3.\end{cases}
 $$
 
 图象为阶梯形: 每段水平线段左闭右开, 右端点处跳到下一级. $\blacksquare$
 
 ## 习题十四
 
-(习题 3.1 拓广探索第 14 题) 构建一个问题情境, 使其中的变量关系能用解析式 $y=\frac{1}{2}ax^2$ ($a> 0$) 来描述.
+(习题 3.1 拓广探索第 14 题) 构建一个问题情境, 使其中的变量关系能用解析式 $y=\frac{1}{2}ax^2$ ($a>0$) 来描述.
 
 ### 解答 习题十四
 
 由**定义 3.1.6 (函数的表示法)**, 解析法对应实际情境中的变量关系.
 
-取自由落体运动: 物体从静止开始自由下落, 下落距离 $y$ 与时间 $x$ 的关系为 $y=\frac{1}{2}gx^2$, 其中 $g> 0$ 为重力加速度. 此情境中 $a=g$ ($a> 0$), 变量关系即可用 $y=\frac{1}{2}ax^2$ 描述. $\blacksquare$
+取自由落体运动: 物体从静止开始自由下落, 下落距离 $y$ 与时间 $x$ 的关系为 $y=\frac{1}{2}gx^2$, 其中 $g>0$ 为重力加速度. 此情境中 $a=g$ ($a>0$), 变量关系即可用 $y=\frac{1}{2}ax^2$ 描述. $\blacksquare$
 
 ## 习题十五
 
-(习题 3.1 拓广探索第 15 题) 如图所示, 一座小岛距离海岸线上最近的点 $P$ 的距离是 $2\ \text{km}$, 从点 $P$ 沿海岸正东 $12\ \text{km}$ 处有一个城镇.
+(习题 3.1 拓广探索第 15 题) 如图所示, 一座小岛距离海岸线上最近的点 $P$ 的距离是 $2\,\text{km}$, 从点 $P$ 沿海岸正东 $12\,\text{km}$ 处有一个城镇.
 
-(1) 假设一个人驾驶的小船的平均速度为 $3\ \text{km/h}$, 步行的速度是 $5\ \text{km/h}$, $t$ (单位: $\text{h}$) 表示他从小岛到城镇的时间, $x$ (单位: $\text{km}$) 表示此人将船停在海岸处距点 $P$ 的距离. 请将 $t$ 表示为 $x$ 的函数.
+(1) 假设一个人驾驶的小船的平均速度为 $3\,\text{km/h}$, 步行的速度是 $5\,\text{km/h}$, $t$ (单位: $\text{h}$) 表示他从小岛到城镇的时间, $x$ (单位: $\text{km}$) 表示此人将船停在海岸处距点 $P$ 的距离. 请将 $t$ 表示为 $x$ 的函数.
 
-(2) 如果将船停在距点 $P$ $4\ \text{km}$ 处, 那么从小岛到城镇要多长时间 (精确到 $0.1\ \text{h}$)?
+(2) 如果将船停在距点 $P$ $4\,\text{km}$ 处, 那么从小岛到城镇要多长时间 (精确到 $0.1\,\text{h}$)?
 
 (题图: 一条水平直线表示海岸线, 点 $P$ 在海岸线上, 小岛在 $P$ 正北方 $2\,\mathrm{km}$ 处, 城镇在 $P$ 正东 $12\,\mathrm{km}$ 处海岸线上; 从岛画一条斜线到海岸线上距 $P$ 为 $x$ 的停靠点, 再沿海岸线到城镇.)
 
@@ -443,30 +443,30 @@ $$
 (1) 从小岛到船停处的水路距离为 $\sqrt{2^2+x^2}=\sqrt{4+x^2}$, 乘船时间为 $\frac{\sqrt{4+x^2}}{3}$; 从船停处到城镇的步行距离为 $12-x$, 步行时间为 $\frac{12-x}{5}$. 故
 
 $$
-t=\frac{\sqrt{4+x^2}}{3}+\frac{12-x}{5},\quad x\in\left[0,12\right].
+t=\frac{\sqrt{4+x^2}}{3}+\frac{12-x}{5},\quad{x}\in\left[0,12\right].
 $$
 
-(2) 当 $x=4$ 时, $t=\frac{\sqrt{4+16}}{3}+\frac{12-4}{5}=\frac{\sqrt{20}}{3}+\frac{8}{5}=\frac{2\sqrt5}{3}+1.6\approx1.49+1.6=3.1\ \text{h}$. $\blacksquare$
+(2) 当 $x=4$ 时, $t=\frac{\sqrt{4+16}}{3}+\frac{12-4}{5}=\frac{\sqrt{20}}{3}+\frac{8}{5}=\frac{2\sqrt5}{3}+1.6\approx1.49+1.6=3.1\,\text{h}$. $\blacksquare$
 
 ## 习题十六
 
-(习题 3.1 拓广探索第 16 题) 给定数集 $A=\mathbb R$, $B=\left(-\infty,0\right]$, 方程
+(习题 3.1 拓广探索第 16 题) 给定数集 $A=\mathbb{R}$, $B=\left(-\infty,0\right]$, 方程
 
 $$
 u^2+2v=0,
 $$
 
-(1) 任给 $u\in A$, 对应关系 $f$ 使方程的解 $v$ 与 $u$ 对应, 判断 $v=f\left(u\right)$ 是否为函数;
+(1) 任给 $u\in{A}$, 对应关系 $f$ 使方程的解 $v$ 与 $u$ 对应, 判断 $v=f\left(u\right)$ 是否为函数;
 
-(2) 任给 $v\in B$, 对应关系 $g$ 使方程的解 $u$ 与 $v$ 对应, 判断 $u=g\left(v\right)$ 是否为函数.
+(2) 任给 $v\in{B}$, 对应关系 $g$ 使方程的解 $u$ 与 $v$ 对应, 判断 $u=g\left(v\right)$ 是否为函数.
 
 ### 解答 习题十六
 
 由**定义 3.1.1 (函数)**, 对定义域中每个元素, 值域中必须有唯一确定的元素与之对应.
 
-(1) 对任意 $u\in\mathbb R$, 由 $u^2+2v=0$ 得 $v=-\frac{u^2}{2}$, $v$ 唯一确定且 $v\le0\in B$, 故 $v=f\left(u\right)$ 是函数.
+(1) 对任意 $u\in\mathbb{R}$, 由 $u^2+2v=0$ 得 $v=-\frac{u^2}{2}$, $v$ 唯一确定且 $v\le0\in{B}$, 故 $v=f\left(u\right)$ 是函数.
 
-(2) 对任意 $v\in\left(-\infty,0\right]$, 由 $u^2=-2v$, 当 $v< 0$ 时 $u=\pm\sqrt{-2v}$ 有两个值, 不唯一; 当 $v=0$ 时 $u=0$ 唯一. 由于存在 $v$ 对应两个 $u$ 值, 故 $u=g\left(v\right)$ 不是函数. $\blacksquare$
+(2) 对任意 $v\in\left(-\infty,0\right]$, 由 $u^2=-2v$, 当 $v<0$ 时 $u=\pm\sqrt{-2v}$ 有两个值, 不唯一; 当 $v=0$ 时 $u=0$ 唯一. 由于存在 $v$ 对应两个 $u$ 值, 故 $u=g\left(v\right)$ 不是函数. $\blacksquare$
 
 ## 习题十七
 
@@ -482,7 +482,7 @@ $$
 
 (1) 取 $f\left(x\right)=x$, $x\in\left[0,1\right]$, 值域为 $\left[0,1\right]$; 取 $g\left(x\right)=x^2$, $x\in\left[0,1\right]$, 值域为 $\left[0,1\right]$. 两者定义域均为 $\left[0,1\right]$, 值域均为 $\left[0,1\right]$, 但对应关系不同, 故存在.
 
-(2) 取 $f\left(x\right)=x$, $x\in\left[0,1\right]$, 值域为 $\left[0,1\right]$; 取 $g\left(x\right)=x$, $x\in\left[0,2\right]$, 值域为 $\left[0,2\right]$. 此例值域不同. 改取 $f\left(x\right)=x^2$, $x\in\left[0,1\right]$, 值域为 $\left[0,1\right]$; 取 $g\left(x\right)=x^2$, $x\in\left[-1,1\right]$, 值域为 $\left[0,1\right]$. 两者对应关系相同 ($x\mapsto x^2$), 值域均为 $\left[0,1\right]$, 但定义域不同 ($\left[0,1\right]$ 与 $\left[-1,1\right]$), 故存在. $\blacksquare$
+(2) 取 $f\left(x\right)=x$, $x\in\left[0,1\right]$, 值域为 $\left[0,1\right]$; 取 $g\left(x\right)=x$, $x\in\left[0,2\right]$, 值域为 $\left[0,2\right]$. 此例值域不同. 改取 $f\left(x\right)=x^2$, $x\in\left[0,1\right]$, 值域为 $\left[0,1\right]$; 取 $g\left(x\right)=x^2$, $x\in\left[-1,1\right]$, 值域为 $\left[0,1\right]$. 两者对应关系相同 ($x\mapsto{x}^2$), 值域均为 $\left[0,1\right]$, 但定义域不同 ($\left[0,1\right]$ 与 $\left[-1,1\right]$), 故存在. $\blacksquare$
 
 ## 习题十八
 
@@ -526,12 +526,12 @@ $$
 
 ### 解答 练习九
 
-由**定义 3.2.1 (单调递增与增函数)**, 任取 $x_1< x_2$, 证明 $f\left(x_1\right)< f\left(x_2\right)$.
+由**定义 3.2.1 (单调递增与增函数)**, 任取 $x_1<{}x_2$, 证明 $f\left(x_1\right)<{}f\left(x_2\right)$.
 
-$\forall x_1,x_2\in\mathbb R$, 且 $x_1< x_2$, 则
+$\forall{x}_1,x_2\in\mathbb{R}$, 且 $x_1<{}x_2$, 则
 
 $$
 f\left(x_1\right)-f\left(x_2\right)=\left(3x_1+2\right)-\left(3x_2+2\right)=3\left(x_1-x_2\right).
 $$
 
-由 $x_1< x_2$, 得 $x_1-x_2< 0$, 又 $3> 0$, 故 $3\left(x_1-x_2\right)< 0$, 即 $f\left(x_1\right)-f\left(x_2\right)< 0$, 亦即 $f\left(x_1\right)< f\left(x_2\right)$. 故 $f\left(x\right)=3x+2$ 是增函数. $\blacksquare$
+由 $x_1<{}x_2$, 得 $x_1-x_2<0$, 又 $3>0$, 故 $3\left(x_1-x_2\right)<0$, 即 $f\left(x_1\right)-f\left(x_2\right)<0$, 亦即 $f\left(x_1\right)<{}f\left(x_2\right)$. 故 $f\left(x\right)=3x+2$ 是增函数. $\blacksquare$

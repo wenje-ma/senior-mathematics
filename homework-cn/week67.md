@@ -53,23 +53,23 @@ $$
 代入 $\binom{10}{7}=120$, 得
 
 $$
-T_8=120\cdot 8\,a^9\cdot\left(-3\right)^7 b^{14}=-2099520\,a^9 b^{14}.
+T_8=120\cdot8\,a^9\cdot\left(-3\right)^7b^{14}=-2099520\,a^9b^{14}.
 $$
 
 (3) $n=12$ 为偶数, 由**性质 6.3.4**, 中间一项为 $k=6$ 的第 $7$ 项. 由**公式 6.3.2**,
 
 $$
-T_7=\binom{12}{6}\left(\frac{\sqrt{x}}{3}\right)^6\left(-\frac{3}{\sqrt{x}}\right)^6=\binom{12}{6}\cdot\frac{1}{3^6}\cdot 3^6\cdot x^3\cdot x^{-3}=\binom{12}{6}=924.
+T_7=\binom{12}{6}\left(\frac{\sqrt{x}}{3}\right)^6\left(-\frac{3}{\sqrt{x}}\right)^6=\binom{12}{6}\cdot\frac{1}{3^6}\cdot3^6\cdot{x}^3\cdot{x}^{-3}=\binom{12}{6}=924.
 $$
 
 (4) $n=15$ 为奇数, 由**性质 6.3.4**, 中间两项为 $k=7$ 的第 $8$ 项和 $k=8$ 的第 $9$ 项. 由**公式 6.3.2**,
 
 $$
-T_8=\binom{15}{7}\left(x\sqrt{y}\right)^8\left(-y\sqrt{x}\right)^7=-\binom{15}{7} x^{\frac{23}{2}} y^{11}=-6435\,x^{\frac{23}{2}} y^{11},
+T_8=\binom{15}{7}\left(x\sqrt{y}\right)^8\left(-y\sqrt{x}\right)^7=-\binom{15}{7}x^{\frac{23}{2}}y^{11}=-6435\,x^{\frac{23}{2}}y^{11},
 $$
 
 $$
-T_9=\binom{15}{8}\left(x\sqrt{y}\right)^7\left(-y\sqrt{x}\right)^8=\binom{15}{8} x^{11} y^{\frac{23}{2}}=6435\,x^{11} y^{\frac{23}{2}}.
+T_9=\binom{15}{8}\left(x\sqrt{y}\right)^7\left(-y\sqrt{x}\right)^8=\binom{15}{8}x^{11}y^{\frac{23}{2}}=6435\,x^{11}y^{\frac{23}{2}}.
 $$
 
 $\blacksquare$
@@ -103,13 +103,13 @@ $$
 (2) 通项为
 
 $$
-T_{k+1}=\binom{10}{k}\left(2x^3\right)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}\left(-1\right)^k 2^{10-2k}x^{30-6k}.
+T_{k+1}=\binom{10}{k}\left(2x^3\right)^{10-k}\left(-\frac{1}{2x^3}\right)^k=\binom{10}{k}\left(-1\right)^k2^{10-2k}x^{30-6k}.
 $$
 
 常数项要求 $30-6k=0$, 即 $k=5$. 该项为
 
 $$
-T_6=\binom{10}{5}\left(-1\right)^5 2^0=-252.
+T_6=\binom{10}{5}\left(-1\right)^52^0=-252.
 $$
 
 故常数项为 $-252$. $\blacksquare$
@@ -118,9 +118,9 @@ $$
 
 (习题 6.3 综合运用第 7 题) 证明:
 
-(1) $\left(x-\frac{1}{x}\right)^{2n}$ 的展开式中常数项是 $\left(-2\right)^n\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}$;
+(1) $\left(x-\frac{1}{x}\right)^{2n}$ 的展开式中常数项是 $\left(-2\right)^n\frac{1\times3\times5\times\cdots\times\left(2n-1\right)}{n!}$;
 
-(2) $\left(1+x\right)^{2n}$ 的展开式的中间一项是 $\frac{1\times 3\times 5\times\cdots\times\left(2n-1\right)}{n!}\left(2x\right)^n$.
+(2) $\left(1+x\right)^{2n}$ 的展开式的中间一项是 $\frac{1\times3\times5\times\cdots\times\left(2n-1\right)}{n!}\left(2x\right)^n$.
 
 ### 解答 习题三
 
@@ -129,41 +129,41 @@ $$
 (1) 通项为
 
 $$
-T_{k+1}=\binom{2n}{k} x^{2n-k}\left(-\frac{1}{x}\right)^k=\left(-1\right)^k \binom{2n}{k} x^{2n-2k}.
+T_{k+1}=\binom{2n}{k}x^{2n-k}\left(-\frac{1}{x}\right)^k=\left(-1\right)^k\binom{2n}{k}x^{2n-2k}.
 $$
 
-常数项要求 $2n-2k=0$, 即 $k=n$. 故常数项为 $\left(-1\right)^n \binom{2n}{n}$.
+常数项要求 $2n-2k=0$, 即 $k=n$. 故常数项为 $\left(-1\right)^n\binom{2n}{n}$.
 
 由**公式 6.2.7**,
 
 $$
-\binom{2n}{n}=\frac{\left(2n\right)!}{\left(n!\right)^2}=\frac{2n\left(2n-1\right)\left(2n-2\right)\cdots 2\cdot 1}{\left(n!\right)^2}.
+\binom{2n}{n}=\frac{\left(2n\right)!}{\left(n!\right)^2}=\frac{2n\left(2n-1\right)\left(2n-2\right)\cdots2\cdot1}{\left(n!\right)^2}.
 $$
 
 将分子中的偶数因子提出 $2$, 得
 
 $$
-\left(2n\right)!=2^n n!\cdot 1\cdot 3\cdot 5\cdots\left(2n-1\right).
+\left(2n\right)!=2^nn!\cdot1\cdot3\cdot5\cdots\left(2n-1\right).
 $$
 
 故
 
 $$
-\binom{2n}{n}=\frac{2^n n!\cdot 1\cdot 3\cdots\left(2n-1\right)}{\left(n!\right)^2}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}.
+\binom{2n}{n}=\frac{2^nn!\cdot1\cdot3\cdots\left(2n-1\right)}{\left(n!\right)^2}=\frac{2^n\cdot1\cdot3\cdots\left(2n-1\right)}{n!}.
 $$
 
-于是常数项 $\left(-1\right)^n \binom{2n}{n}=\left(-2\right)^n\frac{1\cdot 3\cdots\left(2n-1\right)}{n!}$, 得证.
+于是常数项 $\left(-1\right)^n\binom{2n}{n}=\left(-2\right)^n\frac{1\cdot3\cdots\left(2n-1\right)}{n!}$, 得证.
 
 (2) $n$ 换成 $2n$ 后为偶数, 由**性质 6.3.4**, 中间一项为 $k=n$ 的第 $n+1$ 项. 由**公式 6.3.2**,
 
 $$
-T_{n+1}=\binom{2n}{n} x^n.
+T_{n+1}=\binom{2n}{n}x^n.
 $$
 
-由 (1) 中 $\binom{2n}{n}=\frac{2^n\cdot 1\cdot 3\cdots\left(2n-1\right)}{n!}$, 得
+由 (1) 中 $\binom{2n}{n}=\frac{2^n\cdot1\cdot3\cdots\left(2n-1\right)}{n!}$, 得
 
 $$
-T_{n+1}=\frac{1\cdot 3\cdot 5\cdots\left(2n-1\right)}{n!}\left(2x\right)^n.
+T_{n+1}=\frac{1\cdot3\cdot5\cdots\left(2n-1\right)}{n!}\left(2x\right)^n.
 $$
 
 得证. $\blacksquare$
@@ -201,13 +201,13 @@ $\blacksquare$
 (1) 由**定理 6.3.1 (平面向量基本定理)**,
 
 $$
-\left(n+1\right)^n=\binom{n}{0}+\binom{n}{1} n+\binom{n}{2} n^2+\cdots+\binom{n}{n} n^n.
+\left(n+1\right)^n=\binom{n}{0}+\binom{n}{1}n+\binom{n}{2}n^2+\cdots+\binom{n}{n}n^n.
 $$
 
-其中 $\binom{n}{0}=1$, $\binom{n}{1} n=n\cdot n=n^2$, 其余各项至少含有 $n^2$ 这个因子. 于是
+其中 $\binom{n}{0}=1$, $\binom{n}{1}n=n\cdot{n}=n^2$, 其余各项至少含有 $n^2$ 这个因子. 于是
 
 $$
-\left(n+1\right)^n-1=n^2+\binom{n}{2} n^2+\cdots+n^n=n^2\left(1+\binom{n}{2} n^0+\cdots+n^{n-2}\right).
+\left(n+1\right)^n-1=n^2+\binom{n}{2}n^2+\cdots+n^n=n^2\left(1+\binom{n}{2}n^0+\cdots+n^{n-2}\right).
 $$
 
 括号内为整数, 故 $\left(n+1\right)^n-1$ 能被 $n^2$ 整除.
@@ -215,20 +215,20 @@ $$
 (2) 由**定理 6.3.1 (平面向量基本定理)**,
 
 $$
-99^{10}=\left(100-1\right)^{10}=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9+\left(-1\right)^{10}.
+99^{10}=\left(100-1\right)^{10}=\binom{10}{0}100^{10}-\binom{10}{1}100^9+\cdots+\binom{10}{9}100\left(-1\right)^9+\left(-1\right)^{10}.
 $$
 
 其中 $\left(-1\right)^{10}=1$, 故
 
 $$
-99^{10}-1=\binom{10}{0} 100^{10}-\binom{10}{1} 100^9+\cdots+\binom{10}{9} 100\left(-1\right)^9.
+99^{10}-1=\binom{10}{0}100^{10}-\binom{10}{1}100^9+\cdots+\binom{10}{9}100\left(-1\right)^9.
 $$
 
-最后一项 $\binom{10}{9}\cdot 100\cdot\left(-1\right)^9=-1000$, 能被 $1000$ 整除; 其余各项都含有 $100^2=10000$ 这个因子, 也能被 $1000$ 整除. 故 $99^{10}-1$ 能被 $1000$ 整除. $\blacksquare$
+最后一项 $\binom{10}{9}\cdot100\cdot\left(-1\right)^9=-1000$, 能被 $1000$ 整除; 其余各项都含有 $100^2=10000$ 这个因子, 也能被 $1000$ 整除. 故 $99^{10}-1$ 能被 $1000$ 整除. $\blacksquare$
 
 ## 习题六
 
-(习题 6.3 拓广探索第 10 题) 求证: $2^n-\binom{n}{1}\times 2^{n-1}+\binom{n}{2}\times 2^{n-2}+\cdots+\left(-1\right)^{n-1}\binom{n}{n-1}\times 2+\left(-1\right)^n=1$.
+(习题 6.3 拓广探索第 10 题) 求证: $2^n-\binom{n}{1}\times2^{n-1}+\binom{n}{2}\times2^{n-2}+\cdots+\left(-1\right)^{n-1}\binom{n}{n-1}\times2+\left(-1\right)^n=1$.
 
 ### 解答 习题六
 
@@ -237,20 +237,20 @@ $$
 在**定理 6.3.1 (平面向量基本定理)** 中取 $a=2$, $b=-1$, 则
 
 $$
-\left(2-1\right)^n=\binom{n}{0} 2^n+\binom{n}{1} 2^{n-1}\left(-1\right)+\binom{n}{2} 2^{n-2}\left(-1\right)^2+\cdots+\binom{n}{n}\left(-1\right)^n.
+\left(2-1\right)^n=\binom{n}{0}2^n+\binom{n}{1}2^{n-1}\left(-1\right)+\binom{n}{2}2^{n-2}\left(-1\right)^2+\cdots+\binom{n}{n}\left(-1\right)^n.
 $$
 
 即
 
 $$
-2^n-\binom{n}{1} 2^{n-1}+\binom{n}{2} 2^{n-2}+\cdots+\left(-1\right)^n=1.
+2^n-\binom{n}{1}2^{n-1}+\binom{n}{2}2^{n-2}+\cdots+\left(-1\right)^n=1.
 $$
 
 左边恰为所证式, 右边 $=1$. 得证. $\blacksquare$
 
 ## 习题七
 
-(习题 6.3 拓广探索第 11 题) 下图反映了二项式定理产生, 完备和推广所走过的漫长历程. 在上述发展过程中, 无论是推广还是证明, 都是从特殊到一般. 如今, 数学研究的一个发展趋势就是尽可能地一般化. 请你试一试, 从 $\left(a+b\right)^n$ 推广到 $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb N^*$).
+(习题 6.3 拓广探索第 11 题) 下图反映了二项式定理产生, 完备和推广所走过的漫长历程. 在上述发展过程中, 无论是推广还是证明, 都是从特殊到一般. 如今, 数学研究的一个发展趋势就是尽可能地一般化. 请你试一试, 从 $\left(a+b\right)^n$ 推广到 $\left(a_1+a_2+\cdots+a_m\right)^n$ ($m,n\in\mathbb{N}^*$).
 
 该图为反映二项式定理产生,完备和推广所走过的漫长历程的示意时间线(从历史发展角度展示二项式定理从特殊到一般的推广过程).
 
@@ -269,29 +269,29 @@ $$
 故推广为
 
 $$
-\left(a_1+a_2+\cdots+a_m\right)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots a_m^{n_m}.
+\left(a_1+a_2+\cdots+a_m\right)^n=\sum_{n_1+n_2+\cdots+n_m=n}\frac{n!}{n_1!\,n_2!\,\cdots\,n_m!}a_1^{n_1}a_2^{n_2}\cdots{a}_m^{n_m}.
 $$
 
 $\blacksquare$
 
 ## 练习一
 
-(练习 7.1 第 1 题) 设 $A\subseteq B$, 且 $\mathbb P\left(A\right)=0.3$, $\mathbb P\left(B\right)=0.6$. 根据事件包含关系的意义及条件概率的意义, 直接写出 $\mathbb P\left(B\mid A\right)$ 和 $\mathbb P\left(A\mid B\right)$ 的值, 再由条件概率公式进行验证.
+(练习 7.1 第 1 题) 设 $A\subseteq{B}$, 且 $\mathbb{P}\left(A\right)=0.3$, $\mathbb{P}\left(B\right)=0.6$. 根据事件包含关系的意义及条件概率的意义, 直接写出 $\mathbb{P}\left(B\mid{A}\right)$ 和 $\mathbb{P}\left(A\mid{B}\right)$ 的值, 再由条件概率公式进行验证.
 
 ### 解答 练习一
 
-由**定义 7.1.1 (条件概率)**, $\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}$.
+由**定义 7.1.1 (条件概率)**, $\mathbb{P}\left(B\mid{A}\right)=\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(A\right)}$.
 
-因为 $A\subseteq B$, 故事件 $A$ 发生时事件 $B$ 必然发生, 直接可得 $\mathbb P\left(B\mid A\right)=1$; 而在事件 $B$ 发生的条件下, 事件 $A$ 发生的概率应为 $A$ 在 $B$ 中所占的比例, 直接可得 $\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5$.
+因为 $A\subseteq{B}$, 故事件 $A$ 发生时事件 $B$ 必然发生, 直接可得 $\mathbb{P}\left(B\mid{A}\right)=1$; 而在事件 $B$ 发生的条件下, 事件 $A$ 发生的概率应为 $A$ 在 $B$ 中所占的比例, 直接可得 $\mathbb{P}\left(A\mid{B}\right)=\frac{\mathbb{P}\left(A\right)}{\mathbb{P}\left(B\right)}=\frac{0.3}{0.6}=0.5$.
 
-验证如下. 由 $A\subseteq B$, 得 $AB=A$, 故 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)=0.3$.
-
-$$
-\mathbb P\left(B\mid A\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\frac{0.3}{0.3}=1.
-$$
+验证如下. 由 $A\subseteq{B}$, 得 $AB=A$, 故 $\mathbb{P}\left(AB\right)=\mathbb{P}\left(A\right)=0.3$.
 
 $$
-\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{0.3}{0.6}=0.5.
+\mathbb{P}\left(B\mid{A}\right)=\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(A\right)}=\frac{0.3}{0.3}=1.
+$$
+
+$$
+\mathbb{P}\left(A\mid{B}\right)=\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(B\right)}=\frac{0.3}{0.6}=0.5.
 $$
 
 与直观判断一致. $\blacksquare$
@@ -346,22 +346,22 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式), 按所选题目是否有思路将样本空间划分为两个互斥事件.
 
-设 $A$ = "选到有思路的题", $\overline A$ = "选到没有思路的题", $B$ = "做对该题". 由题意,
+设 $A$ = "选到有思路的题", $\overline{A}$ = "选到没有思路的题", $B$ = "做对该题". 由题意,
 
 $$
-\mathbb P\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad \mathbb P\left(\overline A\right)=\frac{1}{4},\quad \mathbb P\left(B\mid A\right)=0.9,\quad \mathbb P\left(B\mid\overline A\right)=0.25.
+\mathbb{P}\left(A\right)=\frac{9}{12}=\frac{3}{4},\quad\mathbb{P}\left(\overline{A}\right)=\frac{1}{4},\quad\mathbb{P}\left(B\mid{A}\right)=0.9,\quad\mathbb{P}\left(B\mid\overline{A}\right)=0.25.
 $$
 
 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P\left(B\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)+\mathbb P\left(\overline A\right)\mathbb P\left(B\mid\overline A\right).
+\mathbb{P}\left(B\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\mid{A}\right)+\mathbb{P}\left(\overline{A}\right)\mathbb{P}\left(B\mid\overline{A}\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P\left(B\right)=\frac{3}{4}\times 0.9+\frac{1}{4}\times 0.25=0.675+0.0625=0.7375.
+\mathbb{P}\left(B\right)=\frac{3}{4}\times0.9+\frac{1}{4}\times0.25=0.675+0.0625=0.7375.
 $$
 
 故张君做对该题的概率为 0.7375. $\blacksquare$
@@ -378,24 +378,24 @@ $$
 
 由**结论 7.1.5** (全概率公式) 及**结论 7.1.6** (贝叶斯公式).
 
-设 $A_1$ = "产品取自第一批", $A_2$ = "产品取自第二批", $B$ = "产品是合格品". 由题意, $\mathbb P\left(A_1\right)=0.4$, $\mathbb P\left(A_2\right)=0.6$, $\mathbb P\left(B\mid A_1\right)=1-0.05=0.95$, $\mathbb P\left(B\mid A_2\right)=1-0.04=0.96$.
+设 $A_1$ = "产品取自第一批", $A_2$ = "产品取自第二批", $B$ = "产品是合格品". 由题意, $\mathbb{P}\left(A_1\right)=0.4$, $\mathbb{P}\left(A_2\right)=0.6$, $\mathbb{P}\left(B\mid{A}_1\right)=1-0.05=0.95$, $\mathbb{P}\left(B\mid{A}_2\right)=1-0.04=0.96$.
 
 (1) 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P\left(B\right)=\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)+\mathbb P\left(A_2\right)\mathbb P\left(B\mid A_2\right).
+\mathbb{P}\left(B\right)=\mathbb{P}\left(A_1\right)\mathbb{P}\left(B\mid{A}_1\right)+\mathbb{P}\left(A_2\right)\mathbb{P}\left(B\mid{A}_2\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P\left(B\right)=0.4\times 0.95+0.6\times 0.96=0.38+0.576=0.956.
+\mathbb{P}\left(B\right)=0.4\times0.95+0.6\times0.96=0.38+0.576=0.956.
 $$
 
 (2) 由**结论 7.1.6** (贝叶斯公式),
 
 $$
-\mathbb P\left(A_1\mid B\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)}{\mathbb P\left(B\right)}=\frac{0.4\times 0.95}{0.956}=\frac{0.38}{0.956}=\frac{95}{239}.
+\mathbb{P}\left(A_1\mid{B}\right)=\frac{\mathbb{P}\left(A_1\right)\mathbb{P}\left(B\mid{A}_1\right)}{\mathbb{P}\left(B\right)}=\frac{0.4\times0.95}{0.956}=\frac{0.38}{0.956}=\frac{95}{239}.
 $$
 
 $\blacksquare$
@@ -425,32 +425,32 @@ $\blacksquare$
 (1) 已知选到的是男生, 即样本空间为全体男生共 1200 人, 其中患色盲的有 60 人, 故
 
 $$
-\mathbb P\left(B\mid A\right)=\frac{60}{1200}=\frac{1}{20}=0.05.
+\mathbb{P}\left(B\mid{A}\right)=\frac{60}{1200}=\frac{1}{20}=0.05.
 $$
 
 (2) 已知选到的学生患色盲, 即样本空间为全体患色盲的学生共 62 人, 其中男生有 60 人, 故
 
 $$
-\mathbb P\left(A\mid B\right)=\frac{60}{62}=\frac{30}{31}.
+\mathbb{P}\left(A\mid{B}\right)=\frac{60}{62}=\frac{30}{31}.
 $$
 
 $\blacksquare$
 
 ## 习题九
 
-(习题 7.1 复习巩固第 2 题) 从人群中随机选出 1 人, 设 $B=$ "选出的人患有心脏病", $C=$ "选出的人是年龄大于 50 岁的心脏病患者", 请你判断 $\mathbb P\left(B\right)$ 和 $\mathbb P\left(C\right)$ 的大小关系, 并说明理由.
+(习题 7.1 复习巩固第 2 题) 从人群中随机选出 1 人, 设 $B=$ "选出的人患有心脏病", $C=$ "选出的人是年龄大于 50 岁的心脏病患者", 请你判断 $\mathbb{P}\left(B\right)$ 和 $\mathbb{P}\left(C\right)$ 的大小关系, 并说明理由.
 
 ### 解答 习题九
 
 由**定义 7.1.1 (条件概率)** 及事件的包含关系.
 
-事件 $C$ 发生时, 该人既患有心脏病又年龄大于 50 岁, 故 $C$ 发生必有 $B$ 发生, 即 $C\subseteq B$. 由概率的性质, 子事件的概率不超过母事件的概率, 故
+事件 $C$ 发生时, 该人既患有心脏病又年龄大于 50 岁, 故 $C$ 发生必有 $B$ 发生, 即 $C\subseteq{B}$. 由概率的性质, 子事件的概率不超过母事件的概率, 故
 
 $$
-\mathbb P\left(C\right)\le \mathbb P\left(B\right).
+\mathbb{P}\left(C\right)\le\mathbb{P}\left(B\right).
 $$
 
-又因为患心脏病的人未必都年龄大于 50 岁, 即 $B$ 中存在不属于 $C$ 的情形, 故实际上 $\mathbb P\left(C\right)< \mathbb P\left(B\right)$. $\blacksquare$
+又因为患心脏病的人未必都年龄大于 50 岁, 即 $B$ 中存在不属于 $C$ 的情形, 故实际上 $\mathbb{P}\left(C\right)<\mathbb{P}\left(B\right)$. $\blacksquare$
 
 ## 习题十
 
@@ -460,18 +460,18 @@ $$
 
 由**定义 7.1.1 (条件概率)**, 并利用概率的加法公式与乘法公式.
 
-设 $A$ = "甲命中目标", $B$ = "乙命中目标". 由题意, $\mathbb P\left(A\right)=0.6$, $\mathbb P\left(B\right)=0.5$, 且两人射击相互独立, 由**结论 7.1.4** (事件的相互独立), $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=0.6\times 0.5=0.3$.
+设 $A$ = "甲命中目标", $B$ = "乙命中目标". 由题意, $\mathbb{P}\left(A\right)=0.6$, $\mathbb{P}\left(B\right)=0.5$, 且两人射击相互独立, 由**结论 7.1.4** (事件的相互独立), $\mathbb{P}\left(AB\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\right)=0.6\times0.5=0.3$.
 
-"目标至少被命中 1 次" 即事件 $A\cup B$, 其概率为
-
-$$
-\mathbb P\left(A\cup B\right)=\mathbb P\left(A\right)+\mathbb P\left(B\right)-\mathbb P\left(AB\right)=0.6+0.5-0.3=0.8.
-$$
-
-所求为在 $A\cup B$ 发生的条件下 $A$ 发生的概率, 由**定义 7.1.1 (条件概率)**,
+"目标至少被命中 1 次" 即事件 $A\cup{B}$, 其概率为
 
 $$
-\mathbb P\left(A\mid A\cup B\right)=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\cup B\right)}=\frac{0.6}{0.8}=\frac{3}{4}.
+\mathbb{P}\left(A\cup{B}\right)=\mathbb{P}\left(A\right)+\mathbb{P}\left(B\right)-\mathbb{P}\left(AB\right)=0.6+0.5-0.3=0.8.
+$$
+
+所求为在 $A\cup{B}$ 发生的条件下 $A$ 发生的概率, 由**定义 7.1.1 (条件概率)**,
+
+$$
+\mathbb{P}\left(A\mid{A}\cup{B}\right)=\frac{\mathbb{P}\left(A\right)}{\mathbb{P}\left(A\cup{B}\right)}=\frac{0.6}{0.8}=\frac{3}{4}.
 $$
 
 $\blacksquare$
@@ -484,18 +484,18 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式), 按从哪个箱子摸球将样本空间划分为两个互斥事件.
 
-设 $C_1$ = "从甲箱子摸球", $C_2$ = "从乙箱子摸球", $R$ = "摸到红球". 掷骰子点数为 1 或 2 的概率为 $\frac{2}{6}=\frac{1}{3}$, 点数为 3, 4, 5, 6 的概率为 $\frac{4}{6}=\frac{2}{3}$, 故 $\mathbb P\left(C_1\right)=\frac{1}{3}$, $\mathbb P\left(C_2\right)=\frac{2}{3}$. 甲箱中红球 5 个, 乙箱中红球 8 个, 故 $\mathbb P\left(R\mid C_1\right)=\frac{5}{10}=0.5$, $\mathbb P\left(R\mid C_2\right)=\frac{8}{10}=0.8$.
+设 $C_1$ = "从甲箱子摸球", $C_2$ = "从乙箱子摸球", $R$ = "摸到红球". 掷骰子点数为 1 或 2 的概率为 $\frac{2}{6}=\frac{1}{3}$, 点数为 3, 4, 5, 6 的概率为 $\frac{4}{6}=\frac{2}{3}$, 故 $\mathbb{P}\left(C_1\right)=\frac{1}{3}$, $\mathbb{P}\left(C_2\right)=\frac{2}{3}$. 甲箱中红球 5 个, 乙箱中红球 8 个, 故 $\mathbb{P}\left(R\mid{C}_1\right)=\frac{5}{10}=0.5$, $\mathbb{P}\left(R\mid{C}_2\right)=\frac{8}{10}=0.8$.
 
 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P\left(R\right)=\mathbb P\left(C_1\right)\mathbb P\left(R\mid C_1\right)+\mathbb P\left(C_2\right)\mathbb P\left(R\mid C_2\right).
+\mathbb{P}\left(R\right)=\mathbb{P}\left(C_1\right)\mathbb{P}\left(R\mid{C}_1\right)+\mathbb{P}\left(C_2\right)\mathbb{P}\left(R\mid{C}_2\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P\left(R\right)=\frac{1}{3}\times 0.5+\frac{2}{3}\times 0.8=\frac{0.5+1.6}{3}=0.7.
+\mathbb{P}\left(R\right)=\frac{1}{3}\times0.5+\frac{2}{3}\times0.8=\frac{0.5+1.6}{3}=0.7.
 $$
 
 $\blacksquare$
@@ -512,49 +512,49 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式) 及**结论 7.1.6** (贝叶斯公式).
 
-设 $A_1$, $A_2$, $A_3$ 分别表示 "选自 $A$, $B$, $C$ 地区", $F$ = "这个人患流感". 人口数之比为 $5:7:8$, 总份数为 20, 故 $\mathbb P\left(A_1\right)=\frac{5}{20}$, $\mathbb P\left(A_2\right)=\frac{7}{20}$, $\mathbb P\left(A_3\right)=\frac{8}{20}$. 又 $\mathbb P\left(F\mid A_1\right)=0.06$, $\mathbb P\left(F\mid A_2\right)=0.05$, $\mathbb P\left(F\mid A_3\right)=0.04$.
+设 $A_1$, $A_2$, $A_3$ 分别表示 "选自 $A$, $B$, $C$ 地区", $F$ = "这个人患流感". 人口数之比为 $5:7:8$, 总份数为 20, 故 $\mathbb{P}\left(A_1\right)=\frac{5}{20}$, $\mathbb{P}\left(A_2\right)=\frac{7}{20}$, $\mathbb{P}\left(A_3\right)=\frac{8}{20}$. 又 $\mathbb{P}\left(F\mid{A}_1\right)=0.06$, $\mathbb{P}\left(F\mid{A}_2\right)=0.05$, $\mathbb{P}\left(F\mid{A}_3\right)=0.04$.
 
 (1) 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P\left(F\right)=\sum_{i=1}^3 \mathbb P\left(A_i\right)\mathbb P\left(F\mid A_i\right).
+\mathbb{P}\left(F\right)=\sum_{i=1}^3\mathbb{P}\left(A_i\right)\mathbb{P}\left(F\mid{A}_i\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P\left(F\right)=\frac{5}{20}\times 0.06+\frac{7}{20}\times 0.05+\frac{8}{20}\times 0.04=\frac{0.3+0.35+0.32}{20}=0.0485.
+\mathbb{P}\left(F\right)=\frac{5}{20}\times0.06+\frac{7}{20}\times0.05+\frac{8}{20}\times0.04=\frac{0.3+0.35+0.32}{20}=0.0485.
 $$
 
 (2) 由**结论 7.1.6** (贝叶斯公式),
 
 $$
-\mathbb P\left(A_1\mid F\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(F\mid A_1\right)}{\mathbb P\left(F\right)}=\frac{5\times 0.06}{0.97}=\frac{0.3}{0.97}=\frac{30}{97}.
+\mathbb{P}\left(A_1\mid{F}\right)=\frac{\mathbb{P}\left(A_1\right)\mathbb{P}\left(F\mid{A}_1\right)}{\mathbb{P}\left(F\right)}=\frac{5\times0.06}{0.97}=\frac{0.3}{0.97}=\frac{30}{97}.
 $$
 
 $\blacksquare$
 
 ## 习题十三
 
-(习题 7.1 复习巩固第 6 题) 已知 $\mathbb P\left(A\right)> 0$, $\mathbb P\left(B\right)> 0$, $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$, 证明: $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$.
+(习题 7.1 复习巩固第 6 题) 已知 $\mathbb{P}\left(A\right)>0$, $\mathbb{P}\left(B\right)>0$, $\mathbb{P}\left(B\mid{A}\right)=\mathbb{P}\left(B\right)$, 证明: $\mathbb{P}\left(A\mid{B}\right)=\mathbb{P}\left(A\right)$.
 
 ### 解答 习题十三
 
 由**定义 7.1.1 (条件概率)**.
 
-由 $\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)$ 及**定义 7.1.1 (条件概率)**,
+由 $\mathbb{P}\left(B\mid{A}\right)=\mathbb{P}\left(B\right)$ 及**定义 7.1.1 (条件概率)**,
 
 $$
-\frac{\mathbb P\left(AB\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\right).
+\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(A\right)}=\mathbb{P}\left(B\right).
 $$
 
-两边同乘 $\mathbb P\left(A\right)$, 得 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)$. 再由**定义 7.1.1 (条件概率)**,
+两边同乘 $\mathbb{P}\left(A\right)$, 得 $\mathbb{P}\left(AB\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\right)$. 再由**定义 7.1.1 (条件概率)**,
 
 $$
-\mathbb P\left(A\mid B\right)=\frac{\mathbb P\left(AB\right)}{\mathbb P\left(B\right)}=\frac{\mathbb P\left(A\right)\mathbb P\left(B\right)}{\mathbb P\left(B\right)}=\mathbb P\left(A\right).
+\mathbb{P}\left(A\mid{B}\right)=\frac{\mathbb{P}\left(AB\right)}{\mathbb{P}\left(B\right)}=\frac{\mathbb{P}\left(A\right)\mathbb{P}\left(B\right)}{\mathbb{P}\left(B\right)}=\mathbb{P}\left(A\right).
 $$
 
-故 $\mathbb P\left(A\mid B\right)=\mathbb P\left(A\right)$. $\blacksquare$
+故 $\mathbb{P}\left(A\mid{B}\right)=\mathbb{P}\left(A\right)$. $\blacksquare$
 
 ## 习题十四
 
@@ -569,13 +569,13 @@ $$
 第 1 件不合格的概率为
 
 $$
-\mathbb P\left(\overline G_1\right)=\frac{5}{100}=\frac{1}{20}.
+\mathbb{P}\left(\overline{G}_1\right)=\frac{5}{100}=\frac{1}{20}.
 $$
 
 第 1 件合格且第 2 件不合格的概率, 由**结论 7.1.2** (概率的乘法公式), 为
 
 $$
-\mathbb P\left(G_1\overline G_2\right)=\mathbb P\left(G_1\right)\mathbb P\left(\overline G_2\mid G_1\right)=\frac{95}{100}\times\frac{5}{99}.
+\mathbb{P}\left(G_1\overline{G}_2\right)=\mathbb{P}\left(G_1\right)\mathbb{P}\left(\overline{G}_2\mid{G}_1\right)=\frac{95}{100}\times\frac{5}{99}.
 $$
 
 两种情形互斥, 由概率的加法公式, 这批产品被拒绝的概率为
@@ -609,7 +609,7 @@ $dd$ 与 $dd$ 交配, 概率为 $\left(\frac{1}{4}\right)^2=\frac{1}{16}$, 产�
 由**结论 7.1.5** (全概率公式), 子三代中基因型为 $dd$ 的概率为
 
 $$
-P=\frac{1}{4}\times\frac{1}{4}+\frac{1}{4}\times\frac{1}{2}+\frac{1}{16}\times 1=\frac{1}{16}+\frac{1}{8}+\frac{1}{16}=\frac{1}{4}.
+P=\frac{1}{4}\times\frac{1}{4}+\frac{1}{4}\times\frac{1}{2}+\frac{1}{16}\times1=\frac{1}{16}+\frac{1}{8}+\frac{1}{16}=\frac{1}{4}.
 $$
 
 $\blacksquare$
@@ -622,16 +622,16 @@ $\blacksquare$
 
 由**定义 7.1.1 (条件概率)**.
 
-(1) 对任意事件 $A$, $A\subseteq\Omega$, 故 $\Omega A=A$. 由**定义 7.1.1 (条件概率)**,
+(1) 对任意事件 $A$, $A\subseteq\Omega$, 故 $\Omega{A}=A$. 由**定义 7.1.1 (条件概率)**,
 
 $$
-\mathbb P\left(\Omega\mid A\right)=\frac{\mathbb P\left(\Omega A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(A\right)}{\mathbb P\left(A\right)}=1.
+\mathbb{P}\left(\Omega\mid{A}\right)=\frac{\mathbb{P}\left(\Omega{A}\right)}{\mathbb{P}\left(A\right)}=\frac{\mathbb{P}\left(A\right)}{\mathbb{P}\left(A\right)}=1.
 $$
 
-(2) 若 $B$ 和 $C$ 是两个互斥事件, 则 $BA$ 与 $CA$ 也互斥. 由概率的加法公式, $\mathbb P\left(\left(B\cup C\right)A\right)=\mathbb P\left(BA\right)+\mathbb P\left(CA\right)$. 由**定义 7.1.1 (条件概率)**,
+(2) 若 $B$ 和 $C$ 是两个互斥事件, 则 $BA$ 与 $CA$ 也互斥. 由概率的加法公式, $\mathbb{P}\left(\left(B\cup{C}\right)A\right)=\mathbb{P}\left(BA\right)+\mathbb{P}\left(CA\right)$. 由**定义 7.1.1 (条件概率)**,
 
 $$
-\mathbb P\left(B\cup C\mid A\right)=\frac{\mathbb P\left(\left(B\cup C\right)A\right)}{\mathbb P\left(A\right)}=\frac{\mathbb P\left(BA\right)+\mathbb P\left(CA\right)}{\mathbb P\left(A\right)}=\mathbb P\left(B\mid A\right)+\mathbb P\left(C\mid A\right).
+\mathbb{P}\left(B\cup{C}\mid{A}\right)=\frac{\mathbb{P}\left(\left(B\cup{C}\right)A\right)}{\mathbb{P}\left(A\right)}=\frac{\mathbb{P}\left(BA\right)+\mathbb{P}\left(CA\right)}{\mathbb{P}\left(A\right)}=\mathbb{P}\left(B\mid{A}\right)+\mathbb{P}\left(C\mid{A}\right).
 $$
 
 $\blacksquare$

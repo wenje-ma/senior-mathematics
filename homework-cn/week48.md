@@ -84,7 +84,7 @@ $$
 
 (1) 直线过点 $\left(0,5\right)$, 即在 $y$ 轴上的截距 $b=5$. 又截距之和为 $a+b=2$, 故 $a=2-5=-3$. 代入截距式, 得 $\frac{x}{-3}+\frac{y}{5}=1$.
 
-(2) 直线过点 $\left(5,0\right)$, 即在 $x$ 轴上的截距 $a=5$. 又截距之差为 $\lvert a-b \rvert=2$, 即 $\lvert 5-b \rvert=2$, 故 $b=3$ 或 $b=7$.
+(2) 直线过点 $\left(5,0\right)$, 即在 $x$ 轴上的截距 $a=5$. 又截距之差为 $\lvert{a}-b\rvert=2$, 即 $\lvert5-b\rvert=2$, 故 $b=3$ 或 $b=7$.
 
 当 $b=3$ 时, 方程为 $\frac{x}{5}+\frac{y}{3}=1$; 当 $b=7$ 时, 方程为 $\frac{x}{5}+\frac{y}{7}=1$. $\blacksquare$
 
@@ -158,7 +158,7 @@ $$
 
 (习题 2.2 复习巩固第 1 题) 写出满足下列条件的直线的方程:
 
-(1) 经过点 $A\left(8,-2\right)$, 斜率是 $\frac{\sqrt 3}{3}$;
+(1) 经过点 $A\left(8,-2\right)$, 斜率是 $\frac{\sqrt3}{3}$;
 
 (2) 经过点 $B\left(-2,0\right)$, 且与 $x$ 轴垂直;
 
@@ -172,7 +172,7 @@ $$
 
 ### 解答 习题一
 
-(1) 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(8,-2\right)$ 与斜率 $k=\frac{\sqrt 3}{3}$, 得 $y+2=\frac{\sqrt 3}{3}\left(x-8\right)$.
+(1) 由**定义 2.2.1 (点斜式方程)**, 代入点 $A\left(8,-2\right)$ 与斜率 $k=\frac{\sqrt3}{3}$, 得 $y+2=\frac{\sqrt3}{3}\left(x-8\right)$.
 
 (2) 直线与 $x$ 轴垂直, 即倾斜角为 $90^\circ$, 斜率不存在. 由**定义 2.2.1 (点斜式方程)**, 直线方程为 $x=-2$.
 
@@ -222,7 +222,7 @@ $$
 
 ## 习题四
 
-(习题 2.2 复习巩固第 4 题) 已知 $\triangle ABC$ 的三个顶点 $A\left(8,5\right)$, $B\left(4,-2\right)$, $C\left(-6,3\right)$, 求经过两边 $AB$ 和 $AC$ 的中点的直线的方程.
+(习题 2.2 复习巩固第 4 题) 已知 $\triangle{A}BC$ 的三个顶点 $A\left(8,5\right)$, $B\left(4,-2\right)$, $C\left(-6,3\right)$, 求经过两边 $AB$ 和 $AC$ 的中点的直线的方程.
 
 ### 解答 习题四
 
@@ -312,7 +312,7 @@ $$
 
 ## 习题九
 
-(习题 2.2 综合运用第 9 题) $\triangle ABC$ 的三个顶点是 $A\left(4,0\right)$, $B\left(6,7\right)$, $C\left(0,3\right)$, 求:
+(习题 2.2 综合运用第 9 题) $\triangle{A}BC$ 的三个顶点是 $A\left(4,0\right)$, $B\left(6,7\right)$, $C\left(0,3\right)$, 求:
 
 (1) 边 $BC$ 上的中线所在直线的方程;
 
@@ -412,7 +412,7 @@ $$
 
 ## 习题十四
 
-(习题 2.2 拓广探索第 14 题) 已知直线 $l_1,l_2$ 的方程分别是 $l_1:A_1x+B_1y+C_1=0$ ($A_1,B_1$ 不同时为 $0$), $l_2:A_2x+B_2y+C_2=0$ ($A_2,B_2$ 不同时为 $0$), 且 $A_1A_2+B_1B_2=0$, 求证: $l_1\perp l_2$.
+(习题 2.2 拓广探索第 14 题) 已知直线 $l_1,l_2$ 的方程分别是 $l_1:A_1x+B_1y+C_1=0$ ($A_1,B_1$ 不同时为 $0$), $l_2:A_2x+B_2y+C_2=0$ ($A_2,B_2$ 不同时为 $0$), 且 $A_1A_2+B_1B_2=0$, 求证: $l_1\perp{l}_2$.
 
 ### 解答 习题十四
 
@@ -424,13 +424,13 @@ $$
 k_1k_2=\left(-\frac{A_1}{B_1}\right)\left(-\frac{A_2}{B_2}\right)=\frac{A_1A_2}{B_1B_2}.
 $$
 
-由 $A_1A_2+B_1B_2=0$, 得 $A_1A_2=-B_1B_2$, 故 $k_1k_2=\frac{-B_1B_2}{B_1B_2}=-1$. 由**常用结论 2.1.6** (两条直线垂直), 故 $l_1\perp l_2$.
+由 $A_1A_2+B_1B_2=0$, 得 $A_1A_2=-B_1B_2$, 故 $k_1k_2=\frac{-B_1B_2}{B_1B_2}=-1$. 由**常用结论 2.1.6** (两条直线垂直), 故 $l_1\perp{l}_2$.
 
-(b) 当 $B_1=0$ 时, $A_1\ne0$, 由 $A_1A_2+B_1B_2=0$ 得 $A_1A_2=0$, 故 $A_2=0$. 又 $A_2,B_2$ 不同时为 $0$, 故 $B_2\ne0$. 此时 $l_1$ 的方程为 $A_1x+C_1=0$, 即 $x=-\frac{C_1}{A_1}$, 垂直于 $x$ 轴; $l_2$ 的方程为 $B_2y+C_2=0$, 即 $y=-\frac{C_2}{B_2}$, 平行于 $x$ 轴. 故 $l_1\perp l_2$.
+(b) 当 $B_1=0$ 时, $A_1\ne0$, 由 $A_1A_2+B_1B_2=0$ 得 $A_1A_2=0$, 故 $A_2=0$. 又 $A_2,B_2$ 不同时为 $0$, 故 $B_2\ne0$. 此时 $l_1$ 的方程为 $A_1x+C_1=0$, 即 $x=-\frac{C_1}{A_1}$, 垂直于 $x$ 轴; $l_2$ 的方程为 $B_2y+C_2=0$, 即 $y=-\frac{C_2}{B_2}$, 平行于 $x$ 轴. 故 $l_1\perp{l}_2$.
 
-(c) 当 $B_2=0$ 时, 同理可得 $A_1=0$, $l_1$ 平行于 $x$ 轴而 $l_2$ 垂直于 $x$ 轴, 故 $l_1\perp l_2$.
+(c) 当 $B_2=0$ 时, 同理可得 $A_1=0$, $l_1$ 平行于 $x$ 轴而 $l_2$ 垂直于 $x$ 轴, 故 $l_1\perp{l}_2$.
 
-综上, $l_1\perp l_2$. $\blacksquare$
+综上, $l_1\perp{l}_2$. $\blacksquare$
 
 ## 习题十五
 
@@ -444,7 +444,7 @@ $$
 
 在直线 $l$ 上的点, 其坐标代入 $2x-y+3$ 的值为 $0$. 在直线 $l$ 外的点, 代入 $2x-y+3$ 的值不为 $0$.
 
-取点 $P_1\left(0,0\right)$, 代入得 $2\cdot0-0+3=3> 0$; 取点 $P_2\left(-3,0\right)$, 代入得 $2\cdot\left(-3\right)-0+3=-3< 0$.
+取点 $P_1\left(0,0\right)$, 代入得 $2\cdot0-0+3=3>0$; 取点 $P_2\left(-3,0\right)$, 代入得 $2\cdot\left(-3\right)-0+3=-3<0$.
 
 观察规律: 在直线 $l$ 同侧的点, 代入 $2x-y+3$ 的值同号; 在直线 $l$ 两侧的点, 代入的值异号. 即二元一次式 $2x-y+3$ 的值的正负刻画了点在直线的哪一侧. $\blacksquare$
 
@@ -456,7 +456,7 @@ $$
 \begin{cases}x=x_0+mt,\\y=y_0+nt.\end{cases}
 $$
 
-从运动学角度看, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t> 0$) 可以看成质点 $P$ 从点 $P_0$ 出发, 以速度 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后的位移. 你能刻画射线 $P_0N$ 吗? 由以上讨论, 你能说说方程 ① 的运动学意义吗?
+从运动学角度看, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t>0$) 可以看成质点 $P$ 从点 $P_0$ 出发, 以速度 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后的位移. 你能刻画射线 $P_0N$ 吗? 由以上讨论, 你能说说方程 ① 的运动学意义吗?
 
 该图在平面直角坐标系中画出过点 $P_0\left(x_0,y_0\right)$ 的直线 $l$,并标出方向向量 $\boldsymbol{v}=\left(m,n\right)$:点 $P\left(x,y\right)$ 在直线上,向量 $\boldsymbol{P_0P}$ 与 $\boldsymbol{v}$ 同向共线;沿 $-\boldsymbol{v}$ 的反方向从 $P_0$ 延伸出射线 $P_0N$.
 
@@ -466,7 +466,7 @@ $$
 
 射线 $P_0N$ 是从点 $P_0$ 出发沿方向 $-\boldsymbol{v}$ 延伸的, 即在参数方程中令 $t\le0$ 即得射线 $P_0N$.
 
-方程 $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ 的运动学意义为: 质点 $P$ 从点 $P_0\left(x_0,y_0\right)$ 出发, 以速度向量 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后到达点 $\left(x,y\right)$. 当 $t> 0$ 时, 质点沿 $\boldsymbol{v}$ 方向运动; 当 $t< 0$ 时, 质点沿 $-\boldsymbol{v}$ 方向运动; $t$ 的绝对值表示运动的时间. $\blacksquare$
+方程 $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ 的运动学意义为: 质点 $P$ 从点 $P_0\left(x_0,y_0\right)$ 出发, 以速度向量 $\boldsymbol{v}=\left(m,n\right)$ 做匀速直线运动, 经过时间 $t$ 后到达点 $\left(x,y\right)$. 当 $t>0$ 时, 质点沿 $\boldsymbol{v}$ 方向运动; 当 $t<0$ 时, 质点沿 $-\boldsymbol{v}$ 方向运动; $t$ 的绝对值表示运动的时间. $\blacksquare$
 
 ## 探究与发现二
 
@@ -516,7 +516,7 @@ $$
 
 (2) $l_1:2x-6y+4=0$, $l_2:y=\frac{x}{3}+\frac{2}{3}$;
 
-(3) $l_1:\left(\sqrt 2-1\right)x+y=3$, $l_2:x+\left(\sqrt 2+1\right)y=2$.
+(3) $l_1:\left(\sqrt2-1\right)x+y=3$, $l_2:x+\left(\sqrt2+1\right)y=2$.
 
 ### 解答 练习八
 
@@ -535,7 +535,7 @@ $$
 (3) 解方程组
 
 $$
-\begin{cases}\left(\sqrt 2-1\right)x+y=3,\\x+\left(\sqrt 2+1\right)y=2.\end{cases}
+\begin{cases}\left(\sqrt2-1\right)x+y=3,\\x+\left(\sqrt2+1\right)y=2.\end{cases}
 $$
 
-由第一式得 $y=3-\left(\sqrt 2-1\right)x$, 代入第二式, 得 $x+\left(\sqrt 2+1\right)\left[3-\left(\sqrt 2-1\right)x\right]=2$, 即 $x+3\left(\sqrt 2+1\right)-\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)x=2$. 因为 $\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)=1$, 故 $x+3\sqrt 2+3-x=2$, 即 $3\sqrt 2+3=2$, 矛盾. 方程组无解, 故 $l_1\parallel l_2$. $\blacksquare$
+由第一式得 $y=3-\left(\sqrt2-1\right)x$, 代入第二式, 得 $x+\left(\sqrt2+1\right)\left[3-\left(\sqrt2-1\right)x\right]=2$, 即 $x+3\left(\sqrt2+1\right)-\left(\sqrt2+1\right)\left(\sqrt2-1\right)x=2$. 因为 $\left(\sqrt2+1\right)\left(\sqrt2-1\right)=1$, 故 $x+3\sqrt2+3-x=2$, 即 $3\sqrt2+3=2$, 矛盾. 方程组无解, 故 $l_1\parallel{l}_2$. $\blacksquare$

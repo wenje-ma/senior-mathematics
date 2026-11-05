@@ -34,7 +34,7 @@
 
 > **定义 8.6.1 (异面直线所成的角)**
 > 
-> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel a$, $b'\parallel b$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
+> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel{a}$, $b'\parallel{b}$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
 
 > **定义 8.6.2 (异面直线垂直)**
 > 
@@ -78,11 +78,11 @@
 
 由**定理 8.5.4 (直线与平面平行的性质定理)** 及**定理 8.5.5 (平面与平面平行的判定定理)**.
 
-过 $a$ 作平面与 $\beta$ 交于直线 $a'$. 因为 $a\parallel\beta$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $a\parallel a'$.
+过 $a$ 作平面与 $\beta$ 交于直线 $a'$. 因为 $a\parallel\beta$, 由**定理 8.5.4 (直线与平面平行的性质定理)**, $a\parallel{a}'$.
 
-因为 $a$, $b$ 异面, $a\parallel a'$, 所以 $a'$ 与 $b$ 必相交, 设交点为 $P$.
+因为 $a$, $b$ 异面, $a\parallel{a}'$, 所以 $a'$ 与 $b$ 必相交, 设交点为 $P$.
 
-在 $\beta$ 内, $a'$ 与 $b$ 是两条相交直线. 由 $a\parallel a'$, $a\subset\alpha$, $a'\not\subset\alpha$, 得 $a'\parallel\alpha$. 又已知 $b\parallel\alpha$.
+在 $\beta$ 内, $a'$ 与 $b$ 是两条相交直线. 由 $a\parallel{a}'$, $a\subset\alpha$, $a'\not\subset\alpha$, 得 $a'\parallel\alpha$. 又已知 $b\parallel\alpha$.
 
 由**定理 8.5.5 (平面与平面平行的判定定理)**, $\beta$ 内两条相交直线 $a'$, $b$ 都平行于 $\alpha$, 故 $\alpha\parallel\beta$. $\blacksquare$
 
@@ -98,7 +98,7 @@
 
 (4) 棱 $A_{1}D_{1}$ 始终与水面所在平面平行;
 
-(5) 当容器倾斜如图 (3) 所示时, $BE\cdot BF$ 是定值.
+(5) 当容器倾斜如图 (3) 所示时, $BE\cdot{B}F$ 是定值.
 
 其中所有正确命题的序号是 $\;\_\_\;$, 为什么?
 
@@ -116,15 +116,15 @@
 
 (3) 水面四边形 $EFGH$ 中, 一边长恒等于 $BC$, 但另一边长随倾斜度变化, 面积不是定值. 错误.
 
-(4) $A_{1}D_{1}\parallel BC$, 而水面交线平行于 $BC$, 故 $A_{1}D_{1}$ 平行于水面内的直线, $A_{1}D_{1}$ 始终与水面所在平面平行. 正确.
+(4) $A_{1}D_{1}\parallel{B}C$, 而水面交线平行于 $BC$, 故 $A_{1}D_{1}$ 平行于水面内的直线, $A_{1}D_{1}$ 始终与水面所在平面平行. 正确.
 
-(5) 水的体积不变, 有水部分是棱柱, 垂直于 $BC$ 的截面为直角三角形, 其面积 $\frac{1}{2}BE\cdot BF$ 乘以 $BC$ 等于水体积. 因水体积和 $BC$ 都为定值, 故 $BE\cdot BF$ 为定值. 正确.
+(5) 水的体积不变, 有水部分是棱柱, 垂直于 $BC$ 的截面为直角三角形, 其面积 $\frac{1}{2}BE\cdot{B}F$ 乘以 $BC$ 等于水体积. 因水体积和 $BC$ 都为定值, 故 $BE\cdot{B}F$ 为定值. 正确.
 
 故正确命题序号为 (1) (2) (4) (5). $\blacksquare$
 
 ## 练习一
 
-(练习 8.6 第 1 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(练习 8.6 第 1 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 如果两条平行直线中的一条与已知直线垂直, 那么另一条也与已知直线垂直.
 
@@ -178,13 +178,13 @@
 
 由**定义 8.6.1 (异面直线所成的角)**.
 
-(1) $BC\parallel B'C'$, 故 $BC$ 与 $A'C'$ 所成的角即 $\angle B'C'A'$. 底面 $A'B'C'D'$ 是边长为 $2\sqrt{3}$ 的正方形, $A'C'$ 为对角线, $\triangle A'B'C'$ 为等腰直角三角形, $\angle B'C'A'=45^{\circ}$.
+(1) $BC\parallel{B}'C'$, 故 $BC$ 与 $A'C'$ 所成的角即 $\angle{B}'C'A'$. 底面 $A'B'C'D'$ 是边长为 $2\sqrt{3}$ 的正方形, $A'C'$ 为对角线, $\triangle{A}'B'C'$ 为等腰直角三角形, $\angle{B}'C'A'=45^{\circ}$.
 
-(2) $AA'$ 垂直于底面 $ABCD$, $BC\subset$ 底面, 故 $AA'\perp BC$, 所成角为 $90^{\circ}$. $\blacksquare$
+(2) $AA'$ 垂直于底面 $ABCD$, $BC\subset$ 底面, 故 $AA'\perp{B}C$, 所成角为 $90^{\circ}$. $\blacksquare$
 
 ## 练习四
 
-(练习 8.6 第 4 题) 如图, 在正三棱柱 $ABC\text{-}A'B'C'$ 中, $D$ 为棱 $AC$ 的中点, $AB=BB'=2$, 求证 $BD\perp AC'$.
+(练习 8.6 第 4 题) 如图, 在正三棱柱 $ABC\text{-}A'B'C'$ 中, $D$ 为棱 $AC$ 的中点, $AB=BB'=2$, 求证 $BD\perp{A}C'$.
 
 (题图: 正三棱柱 $ABC\text{-}A'B'C'$, $D$ 为 $AC$ 中点.)
 
@@ -192,11 +192,11 @@
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)** 及**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-底面 $ABC$ 是正三角形, $D$ 为 $AC$ 中点, 故 $BD\perp AC$.
+底面 $ABC$ 是正三角形, $D$ 为 $AC$ 中点, 故 $BD\perp{A}C$.
 
-正三棱柱中, 侧面 $ACC'A'\perp$ 底面 $ABC$, 交线为 $AC$. $BD\subset$ 底面 $ABC$ 且 $BD\perp AC$, 由面面垂直的性质, $BD\perp$ 平面 $ACC'A'$.
+正三棱柱中, 侧面 $ACC'A'\perp$ 底面 $ABC$, 交线为 $AC$. $BD\subset$ 底面 $ABC$ 且 $BD\perp{A}C$, 由面面垂直的性质, $BD\perp$ 平面 $ACC'A'$.
 
-又 $AC'\subset$ 平面 $ACC'A'$, 故 $BD\perp AC'$. $\blacksquare$
+又 $AC'\subset$ 平面 $ACC'A'$, 故 $BD\perp{A}C'$. $\blacksquare$
 
 ## 练习五
 
@@ -218,15 +218,15 @@
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-因为 $SD\perp$ 平面 $ABCD$, $AC\subset$ 平面 $ABCD$, 故 $SD\perp AC$.
+因为 $SD\perp$ 平面 $ABCD$, $AC\subset$ 平面 $ABCD$, 故 $SD\perp{A}C$.
 
-底面 $ABCD$ 是正方形, 故 $AC\perp BD$.
+底面 $ABCD$ 是正方形, 故 $AC\perp{B}D$.
 
-又 $SD\cap BD=D$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AC\perp$ 平面 $SDB$. $\blacksquare$
+又 $SD\cap{B}D=D$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AC\perp$ 平面 $SDB$. $\blacksquare$
 
 ## 练习七
 
-(练习 8.6 第 3 题) 如图, 在直四棱柱 $A'B'C'D'\text{-}ABCD$ 中, 当底面四边形 $ABCD$ 满足什么条件时, $A'C\perp B'D'$?
+(练习 8.6 第 3 题) 如图, 在直四棱柱 $A'B'C'D'\text{-}ABCD$ 中, 当底面四边形 $ABCD$ 满足什么条件时, $A'C\perp{B}'D'$?
 
 (题图: 直四棱柱 $A'B'C'D'\text{-}ABCD$.)
 
@@ -234,39 +234,39 @@
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-$B'D'\parallel BD$. 直四棱柱中, $A'A\perp$ 底面 $ABCD$, 故 $A'C$ 在底面的射影为 $AC$.
+$B'D'\parallel{B}D$. 直四棱柱中, $A'A\perp$ 底面 $ABCD$, 故 $A'C$ 在底面的射影为 $AC$.
 
-要使 $A'C\perp B'D'$, 由三垂线定理, 只需 $AC\perp BD$.
+要使 $A'C\perp{B}'D'$, 由三垂线定理, 只需 $AC\perp{B}D$.
 
-故当底面四边形 $ABCD$ 的对角线互相垂直 (即 $ABCD$ 为菱形) 时, $A'C\perp B'D'$. $\blacksquare$
+故当底面四边形 $ABCD$ 的对角线互相垂直 (即 $ABCD$ 为菱形) 时, $A'C\perp{B}'D'$. $\blacksquare$
 
 ## 练习八
 
-(练习 8.6 第 4 题) 过 $\triangle ABC$ 所在平面 $\alpha$ 外一点 $P$, 作 $PO\perp\alpha$, 垂足为 $O$, 连接 $PA$, $PB$, $PC$.
+(练习 8.6 第 4 题) 过 $\triangle{A}BC$ 所在平面 $\alpha$ 外一点 $P$, 作 $PO\perp\alpha$, 垂足为 $O$, 连接 $PA$, $PB$, $PC$.
 
-(1) 若 $PA=PB=PC$, 则点 $O$ 是 $\triangle ABC$ 的 $\;\_\_\;$ 心.
+(1) 若 $PA=PB=PC$, 则点 $O$ 是 $\triangle{A}BC$ 的 $\;\_\_\;$ 心.
 
-(2) 若 $PA=PB=PC$, $\angle ACB=90^{\circ}$, 则点 $O$ 是 $AB$ 边的 $\;\_\_\;$ 点.
+(2) 若 $PA=PB=PC$, $\angle{A}CB=90^{\circ}$, 则点 $O$ 是 $AB$ 边的 $\;\_\_\;$ 点.
 
 ### 解答 练习八
 
 由**定义 8.6.3 (直线与平面垂直)** 及勾股定理.
 
-因为 $PO\perp\alpha$, 故 $PO\perp OA$, $PO\perp OB$, $PO\perp OC$.
+因为 $PO\perp\alpha$, 故 $PO\perp{O}A$, $PO\perp{O}B$, $PO\perp{O}C$.
 
-(1) 由 $PA=PB=PC$, $PO$ 公共, $\text{Rt}\triangle POA\cong\text{Rt}\triangle POB\cong\text{Rt}\triangle POC$, 故 $OA=OB=OC$. 点 $O$ 是 $\triangle ABC$ 的外心.
+(1) 由 $PA=PB=PC$, $PO$ 公共, $\text{Rt}\triangle{P}OA\cong\text{Rt}\triangle{P}OB\cong\text{Rt}\triangle{P}OC$, 故 $OA=OB=OC$. 点 $O$ 是 $\triangle{A}BC$ 的外心.
 
-(2) $\angle ACB=90^{\circ}$, $\triangle ABC$ 为直角三角形, 其外心在斜边 $AB$ 的中点. 又 $OA=OB=OC$, 故 $O$ 是 $AB$ 边的中点. $\blacksquare$
+(2) $\angle{A}CB=90^{\circ}$, $\triangle{A}BC$ 为直角三角形, 其外心在斜边 $AB$ 的中点. 又 $OA=OB=OC$, 故 $O$ 是 $AB$ 边的中点. $\blacksquare$
 
 ## 练习九
 
-(练习 8.6 第 1 题) 已知直线 $a$, $b$ 和平面 $\alpha$, 且 $a\perp b$, $a\perp\alpha$, 则 $b$ 与 $\alpha$ 的位置关系是 $\;\_\_\;$.
+(练习 8.6 第 1 题) 已知直线 $a$, $b$ 和平面 $\alpha$, 且 $a\perp{b}$, $a\perp\alpha$, 则 $b$ 与 $\alpha$ 的位置关系是 $\;\_\_\;$.
 
 ### 解答 练习九
 
 由**定理 8.6.5 (直线与平面垂直的性质定理)** 判断.
 
-$a\perp\alpha$, 若 $b\subset\alpha$, 则 $a\perp b$ 成立. 若 $b\not\subset\alpha$, 过 $a$ 作平面交 $\alpha$ 于直线 $c$, 则 $a\perp c$. 由 $a\perp b$ 且 $a\perp c$, $b\parallel c$. $c\subset\alpha$, $b\not\subset\alpha$, 故 $b\parallel\alpha$.
+$a\perp\alpha$, 若 $b\subset\alpha$, 则 $a\perp{b}$ 成立. 若 $b\not\subset\alpha$, 过 $a$ 作平面交 $\alpha$ 于直线 $c$, 则 $a\perp{c}$. 由 $a\perp{b}$ 且 $a\perp{c}$, $b\parallel{c}$. $c\subset\alpha$, $b\not\subset\alpha$, 故 $b\parallel\alpha$.
 
 故 $b$ 与 $\alpha$ 的位置关系是 $b\parallel\alpha$ 或 $b\subset\alpha$. $\blacksquare$
 
@@ -278,9 +278,9 @@ $a\perp\alpha$, 若 $b\subset\alpha$, 则 $a\perp b$ 成立. 若 $b\not\subset\a
 
 由**定理 8.5.3 (直线与平面平行的判定定理)**.
 
-分别作 $AA'\perp\alpha$, $BB'\perp\alpha$, 垂足为 $A'$, $B'$. 由**定理 8.6.5 (直线与平面垂直的性质定理)**, $AA'\parallel BB'$.
+分别作 $AA'\perp\alpha$, $BB'\perp\alpha$, 垂足为 $A'$, $B'$. 由**定理 8.6.5 (直线与平面垂直的性质定理)**, $AA'\parallel{B}B'$.
 
-由题设 $AA'=BB'$, 故四边形 $ABB'A'$ 是平行四边形, $AB\parallel A'B'$.
+由题设 $AA'=BB'$, 故四边形 $ABB'A'$ 是平行四边形, $AB\parallel{A}'B'$.
 
 又 $A'B'\subset\alpha$, $AB\not\subset\alpha$, 由**定理 8.5.3 (直线与平面平行的判定定理)**, $AB\parallel\alpha$. $\blacksquare$
 
@@ -296,11 +296,11 @@ $a\perp\alpha$, 若 $b\subset\alpha$, 则 $a\perp b$ 成立. 若 $b\not\subset\a
 
 取 $AB$ 的中点 $G$, 连接 $FG$, $CG$.
 
-在 $\triangle EAB$ 中, $F$, $G$ 分别为 $EB$, $AB$ 的中点, 故 $FG\parallel EA$, $FG=\frac{1}{2}EA$.
+在 $\triangle{E}AB$ 中, $F$, $G$ 分别为 $EB$, $AB$ 的中点, 故 $FG\parallel{E}A$, $FG=\frac{1}{2}EA$.
 
-由题设 $EA=2DC$, 故 $FG=DC$. 又 $EA\perp$ 平面 $ABC$, $DC\perp$ 平面 $ABC$, 由**定理 8.6.5 (直线与平面垂直的性质定理)**, $EA\parallel DC$. 故 $FG\parallel DC$.
+由题设 $EA=2DC$, 故 $FG=DC$. 又 $EA\perp$ 平面 $ABC$, $DC\perp$ 平面 $ABC$, 由**定理 8.6.5 (直线与平面垂直的性质定理)**, $EA\parallel{D}C$. 故 $FG\parallel{D}C$.
 
-于是 $FG=\ DC$, 四边形 $DFGC$ 是平行四边形, $DF\parallel CG$.
+于是 $FG=\,DC$, 四边形 $DFGC$ 是平行四边形, $DF\parallel{C}G$.
 
 又 $CG\subset$ 平面 $ABC$, $DF\not\subset$ 平面 $ABC$, 故 $DF\parallel$ 平面 $ABC$. $\blacksquare$
 
@@ -314,9 +314,9 @@ $a\perp\alpha$, 若 $b\subset\alpha$, 则 $a\perp b$ 成立. 若 $b\not\subset\a
 
 设直线 $l\perp\alpha$, $l\perp\beta$. 过 $l$ 作两个相交平面, 分别与 $\alpha$, $\beta$ 交于 $a$, $a'$ 和 $b$, $b'$.
 
-因为 $l\perp\alpha$, 故 $l\perp a$, $l\perp b$. 因为 $l\perp\beta$, 故 $l\perp a'$, $l\perp b'$.
+因为 $l\perp\alpha$, 故 $l\perp{a}$, $l\perp{b}$. 因为 $l\perp\beta$, 故 $l\perp{a}'$, $l\perp{b}'$.
 
-在同一平面内, 垂直于同一直线的两条直线平行, 故 $a\parallel a'$, $b\parallel b'$.
+在同一平面内, 垂直于同一直线的两条直线平行, 故 $a\parallel{a}'$, $b\parallel{b}'$.
 
 $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相交直线. 由**定理 8.5.5 (平面与平面平行的判定定理)**, $\alpha\parallel\beta$. $\blacksquare$
 
@@ -356,9 +356,9 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 ## 练习十五
 
-(练习 8.6 第 3 题) 如图, $AB\perp$ 平面 $BCD$, $BC\perp CD$, 你能发现哪些平面互相垂直? 为什么?
+(练习 8.6 第 3 题) 如图, $AB\perp$ 平面 $BCD$, $BC\perp{C}D$, 你能发现哪些平面互相垂直? 为什么?
 
-(题图: $AB\perp$ 平面 $BCD$, $\triangle BCD$ 中 $BC\perp CD$.)
+(题图: $AB\perp$ 平面 $BCD$, $\triangle{B}CD$ 中 $BC\perp{C}D$.)
 
 ### 解答 练习十五
 
@@ -366,7 +366,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 因为 $AB\perp$ 平面 $BCD$, $AB\subset$ 平面 $ABC$, $AB\subset$ 平面 $ABD$, 故平面 $ABC\perp$ 平面 $BCD$, 平面 $ABD\perp$ 平面 $BCD$.
 
-又 $BC\perp CD$, $AB\perp$ 平面 $BCD$ 故 $AB\perp CD$. $AB\cap BC=B$, 故 $CD\perp$ 平面 $ABC$. 而 $CD\subset$ 平面 $ACD$, 故平面 $ACD\perp$ 平面 $ABC$.
+又 $BC\perp{C}D$, $AB\perp$ 平面 $BCD$ 故 $AB\perp{C}D$. $AB\cap{B}C=B$, 故 $CD\perp$ 平面 $ABC$. 而 $CD\subset$ 平面 $ACD$, 故平面 $ACD\perp$ 平面 $ABC$.
 
 综上, 互相垂直的平面对为: 平面 $ABC\perp$ 平面 $BCD$, 平面 $ABD\perp$ 平面 $BCD$, 平面 $ACD\perp$ 平面 $ABC$. $\blacksquare$
 
@@ -380,15 +380,15 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 由**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-底面 $ABC$ 是正三角形, $D$ 为 $AC$ 中点, 故 $BD\perp AC$.
+底面 $ABC$ 是正三角形, $D$ 为 $AC$ 中点, 故 $BD\perp{A}C$.
 
-正三棱柱中, 平面 $ABC\perp$ 平面 $ACC'A'$, 交线为 $AC$. $BD\subset$ 平面 $ABC$ 且 $BD\perp AC$, 由面面垂直的性质, $BD\perp$ 平面 $ACC'A'$.
+正三棱柱中, 平面 $ABC\perp$ 平面 $ACC'A'$, 交线为 $AC$. $BD\subset$ 平面 $ABC$ 且 $BD\perp{A}C$, 由面面垂直的性质, $BD\perp$ 平面 $ACC'A'$.
 
 又 $BD\subset$ 平面 $BDC'$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, 平面 $BDC'\perp$ 平面 $ACC'A'$. $\blacksquare$
 
 ## 练习十七
 
-(练习 8.6 第 1 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(练习 8.6 第 1 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 如果平面 $\alpha\perp$ 平面 $\beta$, 那么平面 $\alpha$ 内所有直线都垂直于平面 $\beta$.
 
@@ -452,27 +452,27 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 ## 练习二十
 
-(练习 8.6 第 4 题) 已知平面 $\alpha$, $\beta$, 直线 $a$, 且 $\alpha\perp\beta$, $\alpha\cap\beta=AB$, $a\parallel\alpha$, $a\perp AB$, 判断直线 $a$ 与平面 $\beta$ 的位置关系, 并说明理由.
+(练习 8.6 第 4 题) 已知平面 $\alpha$, $\beta$, 直线 $a$, 且 $\alpha\perp\beta$, $\alpha\cap\beta=AB$, $a\parallel\alpha$, $a\perp{A}B$, 判断直线 $a$ 与平面 $\beta$ 的位置关系, 并说明理由.
 
 ### 解答 练习二十
 
 由**定理 8.5.4 (直线与平面平行的性质定理)** 及**定理 8.6.9 (平面与平面垂直的性质定理)**.
 
-因为 $a\parallel\alpha$, 过 $a$ 作平面与 $\alpha$ 交于直线 $b$, 由线面平行性质, $a\parallel b$.
+因为 $a\parallel\alpha$, 过 $a$ 作平面与 $\alpha$ 交于直线 $b$, 由线面平行性质, $a\parallel{b}$.
 
-因为 $a\perp AB$, 故 $b\perp AB$. 又 $\alpha\perp\beta$, $b\subset\alpha$, $b\perp AB$ (交线), 由**定理 8.6.9 (平面与平面垂直的性质定理)**, $b\perp\beta$.
+因为 $a\perp{A}B$, 故 $b\perp{A}B$. 又 $\alpha\perp\beta$, $b\subset\alpha$, $b\perp{A}B$ (交线), 由**定理 8.6.9 (平面与平面垂直的性质定理)**, $b\perp\beta$.
 
-又 $a\parallel b$, 故 $a\perp\beta$. $\blacksquare$
+又 $a\parallel{b}$, 故 $a\perp\beta$. $\blacksquare$
 
 ## 习题三
 
 (习题 8.6 复习巩固第 1 题) 选择题.
 
-(1) 若空间中四条不同的直线 $l_{1}$, $l_{2}$, $l_{3}$, $l_{4}$ 满足 $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$, $l_{3}\perp l_{4}$, 则下面结论正确的是 ( ).
+(1) 若空间中四条不同的直线 $l_{1}$, $l_{2}$, $l_{3}$, $l_{4}$ 满足 $l_{1}\perp{l}_{2}$, $l_{2}\perp{l}_{3}$, $l_{3}\perp{l}_{4}$, 则下面结论正确的是 ( ).
 
-(A) $l_{1}\perp l_{4}$; (B) $l_{1}\parallel l_{4}$; (C) $l_{1}$, $l_{4}$ 既不垂直也不平行; (D) $l_{1}$, $l_{4}$ 的位置关系不确定.
+(A) $l_{1}\perp{l}_{4}$; (B) $l_{1}\parallel{l}_{4}$; (C) $l_{1}$, $l_{4}$ 既不垂直也不平行; (D) $l_{1}$, $l_{4}$ 的位置关系不确定.
 
-(2) 设 $l$, $m$, $n$ 均为直线, 其中 $m$, $n$ 在平面 $\alpha$ 内, 则 "$l\perp\alpha$" 是 "$l\perp m$ 且 $l\perp n$" 的 ( ).
+(2) 设 $l$, $m$, $n$ 均为直线, 其中 $m$, $n$ 在平面 $\alpha$ 内, 则 "$l\perp\alpha$" 是 "$l\perp{m}$ 且 $l\perp{n}$" 的 ( ).
 
 (A) 充分不必要条件; (B) 必要不充分条件; (C) 充要条件; (D) 既不充分也不必要条件.
 
@@ -484,15 +484,15 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)** 及**定理 8.6.5 (直线与平面垂直的性质定理)** 判断.
 
-(1) $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$ 只能推出 $l_{1}$ 与 $l_{3}$ 平行或异面, $l_{3}\perp l_{4}$ 后 $l_{1}$ 与 $l_{4}$ 的位置关系仍不确定. 故选 (D).
+(1) $l_{1}\perp{l}_{2}$, $l_{2}\perp{l}_{3}$ 只能推出 $l_{1}$ 与 $l_{3}$ 平行或异面, $l_{3}\perp{l}_{4}$ 后 $l_{1}$ 与 $l_{4}$ 的位置关系仍不确定. 故选 (D).
 
-(2) $l\perp\alpha$ 必有 $l\perp m$ 且 $l\perp n$, 但 $l\perp m$ 且 $l\perp n$ 时若 $m\parallel n$ 则不能推出 $l\perp\alpha$. 故为充分不必要条件, 选 (A).
+(2) $l\perp\alpha$ 必有 $l\perp{m}$ 且 $l\perp{n}$, 但 $l\perp{m}$ 且 $l\perp{n}$ 时若 $m\parallel{n}$ 则不能推出 $l\perp\alpha$. 故为充分不必要条件, 选 (A).
 
 (3) 由**定理 8.6.5 (直线与平面垂直的性质定理)**, 垂直于同一平面的两直线平行. 故选 (C). $\blacksquare$
 
 ## 习题四
 
-(习题 8.6 复习巩固第 2 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{ }$", 错误的画 "$\times$".
+(习题 8.6 复习巩固第 2 题) 判断下列命题是否正确, 正确的在括号内画 "$\sqrt{}$", 错误的画 "$\times$".
 
 (1) 过平面外一点, 有且只有一条直线与这个平面垂直.
 
@@ -532,7 +532,7 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)** 判断.
 
-(1) 正确. 直线 $l\parallel$ 平面 $\alpha$, 直线 $m\perp\alpha$. 过 $l$ 作平面交 $\alpha$ 于 $l'$, 则 $l\parallel l'$. $m\perp\alpha$ 故 $m\perp l'$, 从而 $m\perp l$.
+(1) 正确. 直线 $l\parallel$ 平面 $\alpha$, 直线 $m\perp\alpha$. 过 $l$ 作平面交 $\alpha$ 于 $l'$, 则 $l\parallel{l}'$. $m\perp\alpha$ 故 $m\perp{l}'$, 从而 $m\perp{l}$.
 
 (2) 正确. 两平行平面分别与另两平行平面相交, 所得二面角的平面角对应相等或互补.
 
@@ -542,11 +542,11 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 (习题 8.6 复习巩固第 4 题) 如图, 在直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$ 中, $CA=CB$, $P$ 为 $A_{1}B$ 的中点, $Q$ 为棱 $C_{1}C$ 的中点. 求证:
 
-(1) $PQ\parallel AB$;
+(1) $PQ\parallel{A}B$;
 
-(2) $PQ\perp C_{1}C$;
+(2) $PQ\perp{C}_{1}C$;
 
-(3) $PQ\perp A_{1}B$.
+(3) $PQ\perp{A}_{1}B$.
 
 (题图: 直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$, $CA=CB$, $P$ 为 $A_{1}B$ 中点, $Q$ 为 $C_{1}C$ 中点.)
 
@@ -556,27 +556,27 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 取 $AB$ 的中点 $M$, 连接 $PM$, $CM$.
 
-(1) 在 $\triangle A_{1}AB$ 中, $P$, $M$ 分别为 $A_{1}B$, $AB$ 的中点, 故 $PM\parallel A_{1}A$, $PM=\frac{1}{2}A_{1}A$. 又 $Q$ 为 $C_{1}C$ 中点, $CQ=\frac{1}{2}C_{1}C=\frac{1}{2}A_{1}A$, 且 $CQ\parallel A_{1}A$. 故 $PM=\ CQ$, 四边形 $PMCQ$ 为平行四边形, $PQ\parallel CM$. 又 $CM\subset$ 底面 $ABC$, $AB\subset$ 底面, 故 $PQ\parallel AB$.
+(1) 在 $\triangle{A}_{1}AB$ 中, $P$, $M$ 分别为 $A_{1}B$, $AB$ 的中点, 故 $PM\parallel{A}_{1}A$, $PM=\frac{1}{2}A_{1}A$. 又 $Q$ 为 $C_{1}C$ 中点, $CQ=\frac{1}{2}C_{1}C=\frac{1}{2}A_{1}A$, 且 $CQ\parallel{A}_{1}A$. 故 $PM=\,CQ$, 四边形 $PMCQ$ 为平行四边形, $PQ\parallel{C}M$. 又 $CM\subset$ 底面 $ABC$, $AB\subset$ 底面, 故 $PQ\parallel{A}B$.
 
-(2) $CA=CB$, $M$ 为 $AB$ 中点, 故 $CM\perp AB$. 直三棱柱中 $CC_{1}\perp$ 底面 $ABC$, 故 $CC_{1}\perp CM$. $PQ\parallel CM$, 故 $PQ\perp C_{1}C$.
+(2) $CA=CB$, $M$ 为 $AB$ 中点, 故 $CM\perp{A}B$. 直三棱柱中 $CC_{1}\perp$ 底面 $ABC$, 故 $CC_{1}\perp{C}M$. $PQ\parallel{C}M$, 故 $PQ\perp{C}_{1}C$.
 
-(3) $CM\perp AB$, $CM\perp BB_{1}$ (直三棱柱), 故 $CM\perp$ 平面 $ABB_{1}A_{1}$. $A_{1}B\subset$ 平面 $ABB_{1}A_{1}$, 故 $CM\perp A_{1}B$. $PQ\parallel CM$, 故 $PQ\perp A_{1}B$. $\blacksquare$
+(3) $CM\perp{A}B$, $CM\perp{B}B_{1}$ (直三棱柱), 故 $CM\perp$ 平面 $ABB_{1}A_{1}$. $A_{1}B\subset$ 平面 $ABB_{1}A_{1}$, 故 $CM\perp{A}_{1}B$. $PQ\parallel{C}M$, 故 $PQ\perp{A}_{1}B$. $\blacksquare$
 
 ## 习题七
 
-(习题 8.6 复习巩固第 5 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $CD\perp AB$, 垂足为 $D$, $PO\perp$ 底面 $ABC$, 垂足为 $O$, 且 $O$ 在 $CD$ 上, 求证 $AB\perp PC$.
+(习题 8.6 复习巩固第 5 题) 如图, 在三棱锥 $P\text{-}ABC$ 中, $CD\perp{A}B$, 垂足为 $D$, $PO\perp$ 底面 $ABC$, 垂足为 $O$, 且 $O$ 在 $CD$ 上, 求证 $AB\perp{P}C$.
 
-(题图: 三棱锥 $P\text{-}ABC$, $PO\perp$ 底面 $ABC$, $O$ 在 $CD$ 上, $CD\perp AB$.)
+(题图: 三棱锥 $P\text{-}ABC$, $PO\perp$ 底面 $ABC$, $O$ 在 $CD$ 上, $CD\perp{A}B$.)
 
 ### 解答 习题七
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-因为 $PO\perp$ 底面 $ABC$, $AB\subset$ 底面 $ABC$, 故 $PO\perp AB$.
+因为 $PO\perp$ 底面 $ABC$, $AB\subset$ 底面 $ABC$, 故 $PO\perp{A}B$.
 
-又已知 $CD\perp AB$, 且 $PO\cap CD=O$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AB\perp$ 平面 $PCD$.
+又已知 $CD\perp{A}B$, 且 $PO\cap{C}D=O$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $AB\perp$ 平面 $PCD$.
 
-因为 $PC\subset$ 平面 $PCD$, 故 $AB\perp PC$. $\blacksquare$
+因为 $PC\subset$ 平面 $PCD$, 故 $AB\perp{P}C$. $\blacksquare$
 
 ## 习题八
 
@@ -598,17 +598,17 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 ## 习题九
 
-(习题 8.6 复习巩固第 7 题) 如图, 在三棱锥 $V\text{-}ABC$ 中, 已知 $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$, 判断平面 $VAB$ 与平面 $VBC$ 的位置关系, 并说明理由.
+(习题 8.6 复习巩固第 7 题) 如图, 在三棱锥 $V\text{-}ABC$ 中, 已知 $\angle{V}AB=\angle{V}AC=\angle{A}BC=90^{\circ}$, 判断平面 $VAB$ 与平面 $VBC$ 的位置关系, 并说明理由.
 
-(题图: 三棱锥 $V\text{-}ABC$, $\angle VAB=\angle VAC=\angle ABC=90^{\circ}$.)
+(题图: 三棱锥 $V\text{-}ABC$, $\angle{V}AB=\angle{V}AC=\angle{A}BC=90^{\circ}$.)
 
 ### 解答 习题九
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)** 及**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-因为 $\angle VAB=\angle VAC=90^{\circ}$, 故 $VA\perp AB$, $VA\perp AC$. $AB\cap AC=A$, 故 $VA\perp$ 平面 $ABC$.
+因为 $\angle{V}AB=\angle{V}AC=90^{\circ}$, 故 $VA\perp{A}B$, $VA\perp{A}C$. $AB\cap{A}C=A$, 故 $VA\perp$ 平面 $ABC$.
 
-因为 $BC\subset$ 平面 $ABC$, 故 $VA\perp BC$. 又 $\angle ABC=90^{\circ}$, 即 $AB\perp BC$. $VA\cap AB=A$, 故 $BC\perp$ 平面 $VAB$.
+因为 $BC\subset$ 平面 $ABC$, 故 $VA\perp{B}C$. 又 $\angle{A}BC=90^{\circ}$, 即 $AB\perp{B}C$. $VA\cap{A}B=A$, 故 $BC\perp$ 平面 $VAB$.
 
 又 $BC\subset$ 平面 $VBC$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, 平面 $VBC\perp$ 平面 $VAB$. $\blacksquare$
 
@@ -620,9 +620,9 @@ $a$, $b$ 是 $\alpha$ 内两条相交直线, $a'$, $b'$ 是 $\beta$ 内两条相
 
 由**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-设共点于 $O$ 的三条直线 $l_{1}$, $l_{2}$, $l_{3}$ 两两垂直, 即 $l_{1}\perp l_{2}$, $l_{2}\perp l_{3}$, $l_{3}\perp l_{1}$.
+设共点于 $O$ 的三条直线 $l_{1}$, $l_{2}$, $l_{3}$ 两两垂直, 即 $l_{1}\perp{l}_{2}$, $l_{2}\perp{l}_{3}$, $l_{3}\perp{l}_{1}$.
 
-$l_{1}\perp l_{2}$ 且 $l_{1}\perp l_{3}$, $l_{2}\cap l_{3}=O$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $l_{1}\perp$ 平面 $\left(l_{2},l_{3}\right)$.
+$l_{1}\perp{l}_{2}$ 且 $l_{1}\perp{l}_{3}$, $l_{2}\cap{l}_{3}=O$, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $l_{1}\perp$ 平面 $\left(l_{2},l_{3}\right)$.
 
 平面 $\left(l_{1},l_{2}\right)$ 过 $l_{1}$, 而 $l_{1}\perp$ 平面 $\left(l_{2},l_{3}\right)$, 故平面 $\left(l_{1},l_{2}\right)\perp$ 平面 $\left(l_{2},l_{3}\right)$.
 
@@ -636,8 +636,8 @@ $l_{1}\perp l_{2}$ 且 $l_{1}\perp l_{3}$, $l_{2}\cap l_{3}=O$, 由**定理 8.6.
 
 由**定理 8.6.8 (平面与平面垂直的判定定理)** 及**定理 8.5.6 (平面与平面平行的性质定理)**.
 
-设 $\alpha\cap\gamma=a$. 在 $\alpha$ 内作直线 $l\perp a$, 由**定理 8.6.9 (平面与平面垂直的性质定理)**, $l\perp\gamma$.
+设 $\alpha\cap\gamma=a$. 在 $\alpha$ 内作直线 $l\perp{a}$, 由**定理 8.6.9 (平面与平面垂直的性质定理)**, $l\perp\gamma$.
 
-因为 $\alpha\parallel\beta$, 过 $l$ 作平面与 $\beta$ 交于 $l'$, 由面面平行性质, $l'\parallel l$.
+因为 $\alpha\parallel\beta$, 过 $l$ 作平面与 $\beta$ 交于 $l'$, 由面面平行性质, $l'\parallel{l}$.
 
 因为 $l\perp\gamma$, 故 $l'\perp\gamma$. 又 $l'\subset\beta$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, $\beta\perp\gamma$. $\blacksquare$

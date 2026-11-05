@@ -38,7 +38,7 @@
 
 ## Problem 1
 
-(Exercise 6.2, Comprehensive Application, Problem 14) In $\triangle ABC$, $\boldsymbol{AD}=\frac{1}{4}\boldsymbol{AB}$, $DE\parallel BC$ and intersects the side $AC$ at $E$, and the median $AM$ of $\triangle ABC$ intersects $DE$ at $N$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express the vectors $\boldsymbol{AE}$, $\boldsymbol{BC}$, $\boldsymbol{DE}$, $\boldsymbol{DB}$, $\boldsymbol{EC}$, $\boldsymbol{DN}$, and $\boldsymbol{AN}$ in terms of $\boldsymbol{a}$ and $\boldsymbol{b}$.
+(Exercise 6.2, Comprehensive Application, Problem 14) In $\triangle{A}BC$, $\boldsymbol{AD}=\frac{1}{4}\boldsymbol{AB}$, $DE\parallel{B}C$ and intersects the side $AC$ at $E$, and the median $AM$ of $\triangle{A}BC$ intersects $DE$ at $N$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express the vectors $\boldsymbol{AE}$, $\boldsymbol{BC}$, $\boldsymbol{DE}$, $\boldsymbol{DB}$, $\boldsymbol{EC}$, $\boldsymbol{DN}$, and $\boldsymbol{AN}$ in terms of $\boldsymbol{a}$ and $\boldsymbol{b}$.
 
 ### Solution to Problem 1
 
@@ -54,7 +54,7 @@ $\boldsymbol{DB}=\boldsymbol{AB}-\boldsymbol{AD}=\boldsymbol{a}-\frac{1}{4}\bold
 
 $\boldsymbol{EC}=\boldsymbol{AC}-\boldsymbol{AE}=\boldsymbol{b}-\frac{1}{4}\boldsymbol{b}=\frac{3}{4}\boldsymbol{b}$.
 
-$N$ is the intersection of $AM$ and $DE$, $AM=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$, $N$ lies on $DE$ and $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$? Since $DE\parallel BC$ and $AD=\frac{1}{4}AB$, $N$ lies on $AM$, and $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
+$N$ is the intersection of $AM$ and $DE$, $AM=\frac{1}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)$, $N$ lies on $DE$ and $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$? Since $DE\parallel{B}C$ and $AD=\frac{1}{4}AB$, $N$ lies on $AM$, and $AN=\frac{1}{4}AM=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)$.
 
 $\boldsymbol{DN}=\boldsymbol{AN}-\boldsymbol{AD}=\frac{1}{8}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\frac{1}{4}\boldsymbol{a}=-\frac{1}{8}\boldsymbol{a}+\frac{1}{8}\boldsymbol{b}$.
 
@@ -78,27 +78,27 @@ $E$ is the midpoint of $AD$, so $\boldsymbol{EA}+\boldsymbol{ED}=\boldsymbol{0}$
 
 ## Problem 3
 
-(Exercise 6.2, Comprehensive Application, Problem 16) An airplane flies from place A in the direction $15^{\circ}$ west of north for $1400\text{ km}$ to reach place B, and then from B in the direction $75^{\circ}$ east of south for $1400\text{ km}$ to reach place C. Draw a schematic diagram of the airplane's displacements, and state: in what direction is C from A? How far is C from A?
+(Exercise 6.2, Comprehensive Application, Problem 16) An airplane flies from place A in the direction $15^{\circ}$ west of north for $1400\text{~km}$ to reach place B, and then from B in the direction $75^{\circ}$ east of south for $1400\text{~km}$ to reach place C. Draw a schematic diagram of the airplane's displacements, and state: in what direction is C from A? How far is C from A?
 
-The figure: a displacement diagram starting from point $A$ (place A); the first displacement $\boldsymbol{AB}$ runs in the direction north by west $15^\circ$ for $1400\text{ km}$ to point $B$ (place B), and the second displacement $\boldsymbol{BC}$ runs in the direction south by east $75^\circ$ for $1400\text{ km}$ to point $C$ (place C), with $AC$ joined.
+The figure: a displacement diagram starting from point $A$ (place A); the first displacement $\boldsymbol{AB}$ runs in the direction north by west $15^\circ$ for $1400\text{~km}$ to point $B$ (place B), and the second displacement $\boldsymbol{BC}$ runs in the direction south by east $75^\circ$ for $1400\text{~km}$ to point $C$ (place C), with $AC$ joined.
 
 ### Solution to Problem 3
 
 By **Definition 6.2.1 (Triangle Rule)**.
 
-Take A as the origin. The first displacement $\boldsymbol{AB}$ is directed $15^{\circ}$ west of north with length $1400$; the second displacement $\boldsymbol{BC}$ is directed $75^{\circ}$ east of south with length $1400$. The angle between the two directions is $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? The angle between the directions $15^{\circ}$ west of north and $75^{\circ}$ east of south is $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? Actually, viewed from $B$, $A$ lies $15^{\circ}$ east of south and $C$ lies $75^{\circ}$ east of south, so $\angle ABC=75^{\circ}-15^{\circ}=60^{\circ}$. Since $AB=BC=1400$ and $\angle B=60^{\circ}$ in $\triangle ABC$, $AC=1400$. Place C is $1400\text{ km}$ from place A, in the direction east of south. $\blacksquare$
+Take A as the origin. The first displacement $\boldsymbol{AB}$ is directed $15^{\circ}$ west of north with length $1400$; the second displacement $\boldsymbol{BC}$ is directed $75^{\circ}$ east of south with length $1400$. The angle between the two directions is $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? The angle between the directions $15^{\circ}$ west of north and $75^{\circ}$ east of south is $180^{\circ}-15^{\circ}-75^{\circ}=90^{\circ}$? Actually, viewed from $B$, $A$ lies $15^{\circ}$ east of south and $C$ lies $75^{\circ}$ east of south, so $\angle{A}BC=75^{\circ}-15^{\circ}=60^{\circ}$. Since $AB=BC=1400$ and $\angle{B}=60^{\circ}$ in $\triangle{A}BC$, $AC=1400$. Place C is $1400\text{~km}$ from place A, in the direction east of south. $\blacksquare$
 
 ## Problem 4
 
 (Exercise 6.2, Extension and Exploration, Problem 17)
 
-(1) As in figure (1), in $\triangle ABC$, compute $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
+(1) As in figure (1), in $\triangle{A}BC$, compute $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CA}$;
 
 (2) As in figure (2), in the quadrilateral $ABCD$, compute $\boldsymbol{AB}+\boldsymbol{BC}+\boldsymbol{CD}+\boldsymbol{DA}$;
 
-(3) As in figure (3), in the $n$-gon $A_1A_2A_3\cdots A_n$, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? Prove your conclusion.
+(3) As in figure (3), in the $n$-gon $A_1A_2A_3\cdots{A}_n$, $\boldsymbol{A_1A_2}+\boldsymbol{A_2A_3}+\boldsymbol{A_3A_4}+\cdots+\boldsymbol{A_{n-1}A_n}+\boldsymbol{A_nA_1}=$? Prove your conclusion.
 
-The figure: three diagrams. Figure (1): triangle $ABC$ with directed sides $\boldsymbol{AB}$, $\boldsymbol{BC}$, and $\boldsymbol{CA}$ marked; Figure (2): quadrilateral $ABCD$ with directed sides $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CD}$, and $\boldsymbol{DA}$ marked; Figure (3): the $n$-gon $A_1A_2\cdots A_n$ with head-to-tail directed sides $\boldsymbol{A_1A_2},\boldsymbol{A_2A_3},\ldots,\boldsymbol{A_nA_1}$ marked.
+The figure: three diagrams. Figure (1): triangle $ABC$ with directed sides $\boldsymbol{AB}$, $\boldsymbol{BC}$, and $\boldsymbol{CA}$ marked; Figure (2): quadrilateral $ABCD$ with directed sides $\boldsymbol{AB}$, $\boldsymbol{BC}$, $\boldsymbol{CD}$, and $\boldsymbol{DA}$ marked; Figure (3): the $n$-gon $A_1A_2\cdots{A}_n$ with head-to-tail directed sides $\boldsymbol{A_1A_2},\boldsymbol{A_2A_3},\ldots,\boldsymbol{A_nA_1}$ marked.
 
 ### Solution to Problem 4
 
@@ -148,15 +148,15 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}\Longleftrig
 
 ## Problem 8
 
-(Exercise 6.2, Extension and Exploration, Problem 21) Given that $O$ is the circumcenter of $\triangle ABC$, $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, and $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, the projection vector of $\boldsymbol{BA}$ onto $\boldsymbol{BC}$ is ( ).
+(Exercise 6.2, Extension and Exploration, Problem 21) Given that $O$ is the circumcenter of $\triangle{A}BC$, $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, and $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, the projection vector of $\boldsymbol{BA}$ onto $\boldsymbol{BC}$ is ( ).
 
-(A) $\frac{1}{4}\boldsymbol{BC}$ (B) $\frac{\sqrt 3}{4}\boldsymbol{BC}$ (C) $-\frac{1}{4}\boldsymbol{BC}$ (D) $-\frac{\sqrt 3}{4}\boldsymbol{BC}$
+(A) $\frac{1}{4}\boldsymbol{BC}$ (B) $\frac{\sqrt3}{4}\boldsymbol{BC}$ (C) $-\frac{1}{4}\boldsymbol{BC}$ (D) $-\frac{\sqrt3}{4}\boldsymbol{BC}$
 
 ### Solution to Problem 8
 
 By **Common Conclusion 6.2.12** (Projection Vector).
 
-From $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, $O$ is the midpoint of $BC$; since $O$ is also the circumcenter, $\angle A=90^{\circ}$. With $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, $OA=OB=R$ and $AB=R$, so $\triangle OAB$ is equilateral and $\angle B=60^{\circ}$.
+From $2\boldsymbol{AO}=\boldsymbol{AB}+\boldsymbol{AC}$, $O$ is the midpoint of $BC$; since $O$ is also the circumcenter, $\angle{A}=90^{\circ}$. With $\lvert\boldsymbol{OA}\rvert=\lvert\boldsymbol{AB}\rvert$, $OA=OB=R$ and $AB=R$, so $\triangle{O}AB$ is equilateral and $\angle{B}=60^{\circ}$.
 
 The projection of $\boldsymbol{BA}$ onto $\boldsymbol{BC}$ is $\lvert\boldsymbol{BA}\rvert\cos60^{\circ}=AB\cdot\frac{1}{2}=\frac{R}{2}$. Since $BC=2R$, the projection vector is $\frac{R/2}{2R}\boldsymbol{BC}=\frac{1}{4}\boldsymbol{BC}$. Choose (A). $\blacksquare$
 
@@ -170,7 +170,7 @@ The figure: the parallelogram $ABCD$, with point $O$ outside the parallelogram; 
 
 By **Definition 6.1.7 (Equal Vectors)** and **Theorem 6.2.8 (Collinear Vectors Theorem)**.
 
-In $\square ABCD$, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
+In $\square{A}BCD$, $\boldsymbol{AB}=\boldsymbol{DC}$. $\boldsymbol{OD}=\boldsymbol{OC}+\boldsymbol{CD}=\boldsymbol{OC}-\boldsymbol{DC}=\boldsymbol{OC}-\boldsymbol{AB}=\boldsymbol{OC}-\left(\boldsymbol{OB}-\boldsymbol{OA}\right)=\boldsymbol{OA}-\boldsymbol{OB}+\boldsymbol{OC}$. $\blacksquare$
 
 ## Problem 10
 
@@ -188,19 +188,19 @@ By **Definition 6.2.5 (Subtraction of Vectors)**.
 
 (1) Omitted.
 
-(2) Rearranging $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$ gives $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{OD}-\boldsymbol{OC}$, i.e. $\boldsymbol{BA}=\boldsymbol{CD}$. Hence $BA\parallel CD$ and $BA=CD$, so the quadrilateral $ABCD$ is a parallelogram. $\blacksquare$
+(2) Rearranging $\boldsymbol{OA}+\boldsymbol{OC}=\boldsymbol{OB}+\boldsymbol{OD}$ gives $\boldsymbol{OA}-\boldsymbol{OB}=\boldsymbol{OD}-\boldsymbol{OC}$, i.e. $\boldsymbol{BA}=\boldsymbol{CD}$. Hence $BA\parallel{C}D$ and $BA=CD$, so the quadrilateral $ABCD$ is a parallelogram. $\blacksquare$
 
 ## Problem 11
 
-(Exercise 6.2, Extension and Exploration, Problem 24) As shown in the figure, in $\odot C$, is it enough to know only the radius of $\odot C$ or the length of the chord $AB$ to determine the value of $\boldsymbol{AB}\cdot\boldsymbol{AC}$?
+(Exercise 6.2, Extension and Exploration, Problem 24) As shown in the figure, in $\odot{C}$, is it enough to know only the radius of $\odot{C}$ or the length of the chord $AB$ to determine the value of $\boldsymbol{AB}\cdot\boldsymbol{AC}$?
 
-The figure: the circle $\odot C$ centered at point $C$, with the chord $AB$ whose endpoints $A$ and $B$ lie on the circle; the center $C$ is joined to $A$ and $B$, forming the isosceles triangle $CAB$ ($CA=CB$ are radii).
+The figure: the circle $\odot{C}$ centered at point $C$, with the chord $AB$ whose endpoints $A$ and $B$ lie on the circle; the center $C$ is joined to $A$ and $B$, forming the isosceles triangle $CAB$ ($CA=CB$ are radii).
 
 ### Solution to Problem 11
 
 By **Definition 6.2.11 (Dot Product)**.
 
-$\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos\angle BAC$. Let the radius be $R$, the chord length be $AB=l$, and the center be $C$. $\boldsymbol{AC}$ is the radius vector, $\lvert\boldsymbol{AC}\rvert=R$. From the geometry, $\cos\angle BAC$ is determined by $R$ and $l$ (in the isosceles triangle $CAB$). Hence knowing only the radius $R$ and the chord length $l$ suffices to find $\boldsymbol{AB}\cdot\boldsymbol{AC}$. $\blacksquare$
+$\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos\angle{B}AC$. Let the radius be $R$, the chord length be $AB=l$, and the center be $C$. $\boldsymbol{AC}$ is the radius vector, $\lvert\boldsymbol{AC}\rvert=R$. From the geometry, $\cos\angle{B}AC$ is determined by $R$ and $l$ (in the isosceles triangle $CAB$). Hence knowing only the radius $R$ and the chord length $l$ suffices to find $\boldsymbol{AB}\cdot\boldsymbol{AC}$. $\blacksquare$
 
 ## Exercise 1
 
@@ -326,13 +326,13 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-2\right)+3\times4=8$.
 
 $\lvert\boldsymbol{a}\rvert=\sqrt{4+9}=\sqrt{13}$.
 
-$\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt 5$.
+$\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt5$.
 
-$\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
+$\cos\theta=\frac{8}{\sqrt{13}\cdot2\sqrt5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
 
 ## Problem 12
 
-(Exercise 6.3, Review and Consolidation, Problem 1) As shown in the figure, in $\triangle ABC$, $AD=\frac{1}{3}AB$, $E$ is a point on $AC$ with $EC=\frac{1}{3}AC$, and $BE$ and $CD$ meet at $P$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express $\boldsymbol{AP}$ in terms of the basis $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$.
+(Exercise 6.3, Review and Consolidation, Problem 1) As shown in the figure, in $\triangle{A}BC$, $AD=\frac{1}{3}AB$, $E$ is a point on $AC$ with $EC=\frac{1}{3}AC$, and $BE$ and $CD$ meet at $P$. Let $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$. Express $\boldsymbol{AP}$ in terms of the basis $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$.
 
 The figure: triangle $ABC$, with point $D$ on side $AB$ such that $AD=\frac{1}{3}AB$, and point $E$ on side $AC$ such that $EC=\frac{1}{3}AC$ (i.e. $AE=\frac{2}{3}AC$); the segments $BE$ and $CD$ intersect at point $P$.
 
@@ -416,9 +416,9 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=3\times1+\left(-1\right)\times\left(-2\right)
 
 $\lvert\boldsymbol{a}\rvert=\sqrt{9+1}=\sqrt{10}$.
 
-$\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt 5$.
+$\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt5$.
 
-$\cos\theta=\frac{5}{\sqrt{10}\sqrt 5}=\frac{5}{\sqrt{50}}=\frac{\sqrt 2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
+$\cos\theta=\frac{5}{\sqrt{10}\sqrt5}=\frac{5}{\sqrt{50}}=\frac{\sqrt2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
 
 ## Problem 18
 
@@ -444,7 +444,7 @@ $3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
 
 (2) $\boldsymbol{AB}\cdot\boldsymbol{AC}$;
 
-(3) $\cos\angle BAC$.
+(3) $\cos\angle{B}AC$.
 
 ### Solution to Problem 19
 
@@ -454,7 +454,7 @@ By **Common Conclusion 6.3.7** and **Common Conclusion 6.3.8**.
 
 (2) $\boldsymbol{AB}\cdot\boldsymbol{AC}=\left(-1\right)\times1+1\times5=4$.
 
-(3) $\lvert\boldsymbol{AB}\rvert=\sqrt 2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle BAC=\frac{4}{\sqrt 2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
+(3) $\lvert\boldsymbol{AB}\rvert=\sqrt2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle{B}AC=\frac{4}{\sqrt2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
 
 ## Problem 20
 
@@ -466,9 +466,9 @@ By **Common Conclusion 6.3.8** (Coordinate Condition for Perpendicularity).
 
 Let the required vector be $\left(x,y\right)$; then $4x+2y=0$ and $x^2+y^2=1$.
 
-$y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt 5}{5}$, $y=\mp\frac{2\sqrt 5}{5}$.
+$y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt5}{5}$, $y=\mp\frac{2\sqrt5}{5}$.
 
-The required vectors are $\left(\frac{\sqrt 5}{5},-\frac{2\sqrt 5}{5}\right)$ or $\left(-\frac{\sqrt 5}{5},\frac{2\sqrt 5}{5}\right)$. $\blacksquare$
+The required vectors are $\left(\frac{\sqrt5}{5},-\frac{2\sqrt5}{5}\right)$ or $\left(-\frac{\sqrt5}{5},\frac{2\sqrt5}{5}\right)$. $\blacksquare$
 
 ## Problem 21
 
@@ -486,7 +486,7 @@ $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
 
 ## Problem 22
 
-(Exercise 6.3, Comprehensive Application, Problem 11) As shown in the figure, in $\square ABCD$, $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AD}=\boldsymbol{b}$; $E$ and $F$ are the midpoints of $AB$ and $CD$, and $M$, $N$ are two points on the diagonal $AC$ with $AM=MN=NC$. Prove that $\boldsymbol{EM}=\boldsymbol{FN}$.
+(Exercise 6.3, Comprehensive Application, Problem 11) As shown in the figure, in $\square{A}BCD$, $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AD}=\boldsymbol{b}$; $E$ and $F$ are the midpoints of $AB$ and $CD$, and $M$, $N$ are two points on the diagonal $AC$ with $AM=MN=NC$. Prove that $\boldsymbol{EM}=\boldsymbol{FN}$.
 
 The figure: the parallelogram $ABCD$, with $E$ the midpoint of side $AB$ and $F$ the midpoint of side $CD$; on the diagonal $AC$ lie two points $M$ and $N$ satisfying $AM=MN=NC$ (i.e. $M$ and $N$ trisect $AC$), and $EM$ and $FN$ are joined.
 

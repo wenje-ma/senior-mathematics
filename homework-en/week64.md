@@ -24,7 +24,7 @@
 
 (Exercise 6.2, Problem 1) Write out:
 
-(1) all two-digit numbers without repeated digits formed from the $5$ natural numbers $0\sim 4$;
+(1) all two-digit numbers without repeated digits formed from the $5$ natural numbers $0\sim4$;
 
 (2) all permutations of $2$ letters taken from $a,b,c,d$.
 
@@ -32,9 +32,9 @@
 
 By **Definition 6.2.1 (Permutation)** and **Formula 6.2.3** (Permutation Number Formula).
 
-(1) The tens digit of a two-digit number cannot be $0$. The tens digit is taken from $1,2,3,4$, and the units digit is taken from the remaining $4$ digits. All two-digit numbers are $10,12,13,14,20,21,23,24,30,31,32,34,40,41,42,43$, totaling $\mathrm{P}\left(4,1\right)\times \mathrm{P}\left(4,1\right)=4\times 4=16$.
+(1) The tens digit of a two-digit number cannot be $0$. The tens digit is taken from $1,2,3,4$, and the units digit is taken from the remaining $4$ digits. All two-digit numbers are $10,12,13,14,20,21,23,24,30,31,32,34,40,41,42,43$, totaling $\mathrm{P}\left(4,1\right)\times\mathrm{P}\left(4,1\right)=4\times4=16$.
 
-(2) All permutations of $2$ letters taken from $a,b,c,d$ are $ab,ac,ad,ba,bc,bd,ca,cb,cd,da,db,dc$, totaling $\mathrm{P}\left(4,2\right)=4\times 3=12$. $\blacksquare$
+(2) All permutations of $2$ letters taken from $a,b,c,d$ are $ab,ac,ad,ba,bc,bd,ca,cb,cd,da,db,dc$, totaling $\mathrm{P}\left(4,2\right)=4\times3=12$. $\blacksquare$
 
 ## Exercise 2
 
@@ -67,7 +67,7 @@ By **Definition 6.2.1 (Permutation)** and **Formula 6.2.3** (Permutation Number 
 (1) The athletes appearing in each of the first $3$ matches are distinct and ordered, which is a permutation of $3$ athletes chosen from $5$. By **Formula 6.2.3**, the ways of appearance total
 
 $$
-\mathrm{P}\left(5,3\right)=5\times 4\times 3=60.
+\mathrm{P}\left(5,3\right)=5\times4\times3=60.
 $$
 
 (2) The $3$ athletes A, B, C each appear $1$ time in the first $3$ matches, which is the full permutation of these $3$ people. All possible ways of appearance are ABC, ACB, BAC, BCA, CAB, CBA, totaling $\mathrm{P}\left(3,3\right)=6$. $\blacksquare$
@@ -88,11 +88,11 @@ $$
 
 By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.2.4 (Full Permutation and Factorial)**.
 
-(1) $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$.
+(1) $\mathrm{P}\left(12,4\right)=12\times11\times10\times9=11880$.
 
 (2) $\mathrm{P}\left(8,8\right)=8!=40320$.
 
-(3) $\mathrm{P}\left(15,5\right)=15\times 14\times 13\times 12\times 11=360360$, $\mathrm{P}\left(14,4\right)=14\times 13\times 12\times 11=24024$, hence $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)=360360-15\times 24024=360360-360360=0$.
+(3) $\mathrm{P}\left(15,5\right)=15\times14\times13\times12\times11=360360$, $\mathrm{P}\left(14,4\right)=14\times13\times12\times11=24024$, hence $\mathrm{P}\left(15,5\right)-15\mathrm{P}\left(14,4\right)=360360-15\times24024=360360-360360=0$.
 
 (4) By **Definition 6.2.4 (Opposite Vector)**, $\mathrm{P}\left(12,7\right)=\frac{12!}{5!}$, $\mathrm{P}\left(12,6\right)=\frac{12!}{6!}$, hence
 
@@ -116,7 +116,7 @@ By **Definition 6.2.4 (Full Permutation and Factorial)** and **Formula 6.2.3** (
 
 (1) By **Definition 6.2.4 (Opposite Vector)**, the left side is $\mathrm{P}\left(n,m\right)=\frac{n!}{\left(n-m\right)!}$. The right side is $n\mathrm{P}\left(n-1,m-1\right)=n\cdot\frac{\left(n-1\right)!}{\left(n-1\right)-\left(m-1\right)!}=\frac{n!}{\left(n-m\right)!}$. The left side equals the right side, which proves the claim.
 
-(2) The left side is $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=8!-8\cdot 7!+7\cdot 6!=8\cdot 7!-8\cdot 7!+7\cdot 6!=7\cdot 6!=7!$. The right side is $\mathrm{P}\left(7,7\right)=7!$. The left side equals the right side, which proves the claim. $\blacksquare$
+(2) The left side is $\mathrm{P}\left(8,8\right)-8\mathrm{P}\left(7,7\right)+7\mathrm{P}\left(6,6\right)=8!-8\cdot7!+7\cdot6!=8\cdot7!-8\cdot7!+7\cdot6!=7\cdot6!=7!$. The right side is $\mathrm{P}\left(7,7\right)=7!$. The left side equals the right side, which proves the claim. $\blacksquare$
 
 ## Exercise 6
 
@@ -129,7 +129,7 @@ By **Definition 6.2.1 (Permutation)** and **Formula 6.2.3** (Permutation Number 
 Parking $4$ distinct trains requires choosing $4$ sidings out of $8$ and parking the $4$ trains into them in order, which is a permutation of $4$ elements chosen from $8$. By **Formula 6.2.3**, the ways of parking total
 
 $$
-\mathrm{P}\left(8,4\right)=8\times 7\times 6\times 5=1680.
+\mathrm{P}\left(8,4\right)=8\times7\times6\times5=1680.
 $$
 
 Therefore there are $1680$ different ways of parking. $\blacksquare$
@@ -158,7 +158,7 @@ By **Definition 6.2.5 (Combination)** and **Definition 6.2.1 (Permutation)**.
 
 By **Definition 6.2.5 (Combination)**.
 
-A triangle depends only on the $3$ chosen vertices, and order is not considered, so it is a combination problem. Taking any $3$ of the $4$ points as vertices, all triangles are $\triangle ABC$, $\triangle ABD$, $\triangle ACD$, $\triangle BCD$, totaling $\binom{4}{3}=4$. $\blacksquare$
+A triangle depends only on the $3$ chosen vertices, and order is not considered, so it is a combination problem. Taking any $3$ of the $4$ points as vertices, all triangles are $\triangle{A}BC$, $\triangle{A}BD$, $\triangle{A}CD$, $\triangle{B}CD$, totaling $\binom{4}{3}=4$. $\blacksquare$
 
 ## Exercise 9
 
@@ -192,13 +192,13 @@ By **Definition 6.2.5 (Combination)** and **Definition 6.2.1 (Permutation)**.
 
 By **Formula 6.2.7** (Combination Number Formula) and **Property** (Two Properties of Combination Numbers).
 
-(1) $\binom{6}{2}=\frac{6\times 5}{2!}=15$.
+(1) $\binom{6}{2}=\frac{6\times5}{2!}=15$.
 
-(2) By **Property**, $\binom{9}{7}=\binom{9}{2}=\frac{9\times 8}{2!}=36$.
+(2) By **Property**, $\binom{9}{7}=\binom{9}{2}=\frac{9\times8}{2!}=36$.
 
-(3) $\binom{7}{3}=\frac{7\times 6\times 5}{3!}=35$, $\binom{6}{2}=15$, hence $\binom{7}{3}-\binom{6}{2}=35-15=20$.
+(3) $\binom{7}{3}=\frac{7\times6\times5}{3!}=35$, $\binom{6}{2}=15$, hence $\binom{7}{3}-\binom{6}{2}=35-15=20$.
 
-(4) $\binom{8}{3}=\frac{8\times 7\times 6}{3!}=56$, $\binom{5}{2}=\frac{5\times 4}{2!}=10$, hence $3\binom{8}{3}-2\binom{5}{2}=3\times 56-2\times 10=168-20=148$. $\blacksquare$
+(4) $\binom{8}{3}=\frac{8\times7\times6}{3!}=56$, $\binom{5}{2}=\frac{5\times4}{2!}=10$, hence $3\binom{8}{3}-2\binom{5}{2}=3\times56-2\times10=168-20=148$. $\blacksquare$
 
 ## Exercise 11
 
@@ -224,9 +224,9 @@ The right side is $\frac{m+1}{n+1}\binom{n+1}{m+1}=\frac{m+1}{n+1}\cdot\frac{\le
 
 By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.1 (Addition Counting Principle for Classification)**.
 
-(1) Choosing $3$ subjects out of $6$, without regard to order. By **Formula 6.2.7**, the choices total $\binom{6}{3}=\frac{6\times 5\times 4}{3!}=20$.
+(1) Choosing $3$ subjects out of $6$, without regard to order. By **Formula 6.2.7**, the choices total $\binom{6}{3}=\frac{6\times5\times4}{3!}=20$.
 
-(2) Exactly $1$ of physics and chemistry is chosen, in two steps: first choose $1$ of the $2$ subjects physics and chemistry, with $\binom{2}{1}=2$ ways; then choose $2$ of the remaining $4$ subjects politics, history, geography, and biology, with $\binom{4}{2}=6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the choices total $2\times 6=12$.
+(2) Exactly $1$ of physics and chemistry is chosen, in two steps: first choose $1$ of the $2$ subjects physics and chemistry, with $\binom{2}{1}=2$ ways; then choose $2$ of the remaining $4$ subjects politics, history, geography, and biology, with $\binom{4}{2}=6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the choices total $2\times6=12$.
 
 (3) Use the indirect method. Choosing any $3$ of the $6$ subjects gives $\binom{6}{3}=20$ ways, among which those choosing neither physics nor chemistry are those choosing $3$ of the remaining $4$ subjects, with $\binom{4}{3}=4$ ways. By the subtraction idea of **Definition 6.1.1 (分类加法计数原理)**, the choices with at least $1$ of physics and chemistry chosen number $20-4=16$. $\blacksquare$
 
@@ -242,9 +242,9 @@ By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.1 (Additi
 
 By **Formula 6.2.3** (Permutation Number Formula).
 
-(1) $\mathrm{P}\left(5,3\right)=5\times 4\times 3=60$, $\mathrm{P}\left(4,2\right)=4\times 3=12$, hence $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)=5\times 60+4\times 12=300+48=348$.
+(1) $\mathrm{P}\left(5,3\right)=5\times4\times3=60$, $\mathrm{P}\left(4,2\right)=4\times3=12$, hence $5\mathrm{P}\left(5,3\right)+4\mathrm{P}\left(4,2\right)=5\times60+4\times12=300+48=348$.
 
-(2) $\mathrm{P}\left(4,1\right)=4$, $\mathrm{P}\left(4,2\right)=12$, $\mathrm{P}\left(4,3\right)=4\times 3\times 2=24$, $\mathrm{P}\left(4,4\right)=24$, hence $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)=4+12+24+24=64$. $\blacksquare$
+(2) $\mathrm{P}\left(4,1\right)=4$, $\mathrm{P}\left(4,2\right)=12$, $\mathrm{P}\left(4,3\right)=4\times3\times2=24$, $\mathrm{P}\left(4,4\right)=24$, hence $\mathrm{P}\left(4,1\right)+\mathrm{P}\left(4,2\right)+\mathrm{P}\left(4,3\right)+\mathrm{P}\left(4,4\right)=4+12+24+24=64$. $\blacksquare$
 
 ## Problem 2
 
@@ -254,21 +254,21 @@ By **Formula 6.2.3** (Permutation Number Formula).
 
 (2) $\binom{200}{197}$;
 
-(3) $\binom{6}{3}\div \binom{8}{4}$;
+(3) $\binom{6}{3}\div\binom{8}{4}$;
 
-(4) $\binom{n+1}{n}\cdot \binom{n}{n-2}$.
+(4) $\binom{n+1}{n}\cdot\binom{n}{n-2}$.
 
 ### Solution to Problem 2
 
 By **Formula 6.2.7** (Combination Number Formula) and **Property** (Two Properties of Combination Numbers).
 
-(1) $\binom{15}{3}=\frac{15\times 14\times 13}{3!}=455$.
+(1) $\binom{15}{3}=\frac{15\times14\times13}{3!}=455$.
 
-(2) By **Property**, $\binom{200}{197}=\binom{200}{3}=\frac{200\times 199\times 198}{6}=1313400$.
+(2) By **Property**, $\binom{200}{197}=\binom{200}{3}=\frac{200\times199\times198}{6}=1313400$.
 
-(3) $\binom{6}{3}=\frac{6\times 5\times 4}{6}=20$, $\binom{8}{4}=\frac{8\times 7\times 6\times 5}{24}=70$, hence $\binom{6}{3}\div \binom{8}{4}=20\div 70=\frac{2}{7}$.
+(3) $\binom{6}{3}=\frac{6\times5\times4}{6}=20$, $\binom{8}{4}=\frac{8\times7\times6\times5}{24}=70$, hence $\binom{6}{3}\div\binom{8}{4}=20\div70=\frac{2}{7}$.
 
-(4) $\binom{n+1}{n}=\binom{n+1}{1}=n+1$, $\binom{n}{n-2}=\binom{n}{2}=\frac{n\left(n-1\right)}{2}$, hence $\binom{n+1}{n}\cdot \binom{n}{n-2}=\frac{n\left(n-1\right)\left(n+1\right)}{2}$. $\blacksquare$
+(4) $\binom{n+1}{n}=\binom{n+1}{1}=n+1$, $\binom{n}{n-2}=\binom{n}{2}=\frac{n\left(n-1\right)}{2}$, hence $\binom{n+1}{n}\cdot\binom{n}{n-2}=\frac{n\left(n-1\right)\left(n+1\right)}{2}$. $\blacksquare$
 
 ## Problem 3
 
@@ -325,13 +325,13 @@ By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2 (Multip
 (1) Choosing $6$ of the $12$ distinct books to place on the single-layer shelf, requiring both choosing the books and arranging them in order on the shelf, so it is a permutation problem. By **Formula 6.2.3**, the ways of arrangement are
 
 $$
-\mathrm{P}\left(12,6\right)=12\times 11\times 10\times 9\times 8\times 7=665280.
+\mathrm{P}\left(12,6\right)=12\times11\times10\times9\times8\times7=665280.
 $$
 
 (2) Without books of the same subject being separated, first regard the mathematics books, physics books, and chemistry books each as a single block. The order of these $3$ blocks on the shelf has $\mathrm{P}\left(3,3\right)=6$ ways; arranging the mathematics books within their block has $\mathrm{P}\left(4,4\right)=24$ ways, the physics books within their block has $\mathrm{P}\left(5,5\right)=120$ ways, and the chemistry books within their block has $\mathrm{P}\left(3,3\right)=6$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the ways of arrangement total
 
 $$
-\mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(5,5\right)\cdot \mathrm{P}\left(3,3\right)=6\times 24\times 120\times 6=103680.
+\mathrm{P}\left(3,3\right)\cdot\mathrm{P}\left(4,4\right)\cdot\mathrm{P}\left(5,5\right)\cdot\mathrm{P}\left(3,3\right)=6\times24\times120\times6=103680.
 $$
 
 $\blacksquare$
@@ -351,7 +351,7 @@ By **Formula 6.2.7** (Combination Number Formula).
 (1) $3$ non-collinear points determine a plane, without regard to order, so it is a combination problem. By **Formula 6.2.7**, the planes that can be drawn are
 
 $$
-\binom{8}{3}=\frac{8\times 7\times 6}{6}=56
+\binom{8}{3}=\frac{8\times7\times6}{6}=56
 $$
 
 .
@@ -359,7 +359,7 @@ $$
 (2) $4$ non-coplanar points determine a tetrahedron, without regard to order, so it is a combination problem. By **Formula 6.2.7**, the tetrahedra that can be drawn are
 
 $$
-\binom{10}{4}=\frac{10\times 9\times 8\times 7}{24}=210
+\binom{10}{4}=\frac{10\times9\times8\times7}{24}=210
 $$
 
 . $\blacksquare$
@@ -375,7 +375,7 @@ By **Formula 6.2.7** (Combination Number Formula) and **Definition 6.1.2 (Multip
 Completing the optional questions requires three steps: Problem $1$ chooses $3$ of the $4$ sub-questions, with $\binom{4}{3}=4$ ways; Problem $2$ chooses $2$ of the $3$ sub-questions, with $\binom{3}{2}=3$ ways; Problem $3$ chooses $1$ of the $2$ sub-questions, with $\binom{2}{1}=2$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the ways of choosing total
 
 $$
-\binom{4}{3}\cdot \binom{3}{2}\cdot \binom{2}{1}=4\times 3\times 2=24.
+\binom{4}{3}\cdot\binom{3}{2}\cdot\binom{2}{1}=4\times3\times2=24.
 $$
 
 Therefore there are $24$ different ways of choosing. $\blacksquare$
@@ -386,15 +386,15 @@ Therefore there are $24$ different ways of choosing. $\blacksquare$
 
 (1) $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=n^2\mathrm{P}\left(n-1,n-1\right)$;
 
-(2) $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n-k+1\right)n!}{k!}$ ($k\le n$).
+(2) $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n-k+1\right)n!}{k!}$ ($k\le{n}$).
 
 ### Solution to Problem 8
 
 By **Definition 6.2.4 (Full Permutation and Factorial)**.
 
-(1) The left side is $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=\left(n+1\right)!-n!=n\cdot n!$. The right side is $n^2\mathrm{P}\left(n-1,n-1\right)=n^2\left(n-1\right)!=n\cdot n!$. The left side equals the right side, which proves the claim.
+(1) The left side is $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=\left(n+1\right)!-n!=n\cdot{n}!$. The right side is $n^2\mathrm{P}\left(n-1,n-1\right)=n^2\left(n-1\right)!=n\cdot{n}!$. The left side equals the right side, which proves the claim.
 
-(2) The left side is $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n+1\right)!-k\cdot n!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{\left(n-k+1\right)n!}{k!}$. The left side equals the right side, which proves the claim. $\blacksquare$
+(2) The left side is $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n+1\right)!-k\cdot{n}!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{\left(n-k+1\right)n!}{k!}$. The left side equals the right side, which proves the claim. $\blacksquare$
 
 ## Problem 9
 
@@ -407,7 +407,7 @@ By **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2 (Multip
 The $1$st and the last $1$ item are fixed, so only the remaining $9$ positions need to be arranged. The $4$ music items occupy the specified $4$ positions, which is a full permutation of $4$ elements, with $\mathrm{P}\left(4,4\right)=24$ ways; the $3$ dance items occupy the specified $3$ positions, with $\mathrm{P}\left(3,3\right)=6$ ways; the $2$ quyi items occupy the specified $2$ positions, with $\mathrm{P}\left(2,2\right)=2$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the arrangements total
 
 $$
-\mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(2,2\right)=24\times 6\times 2=288.
+\mathrm{P}\left(4,4\right)\cdot\mathrm{P}\left(3,3\right)\cdot\mathrm{P}\left(2,2\right)=24\times6\times2=288.
 $$
 
 Therefore there are $288$ different arrangements. $\blacksquare$
@@ -426,11 +426,11 @@ Therefore there are $288$ different arrangements. $\blacksquare$
 
 By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutation Number Formula) and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-(1) Choosing $4$ representatives from $12$ students, with no assigned roles, is a combination problem. By **Formula 6.2.7**, the ways of choosing are $\binom{12}{4}=\frac{12\times 11\times 10\times 9}{24}=495$.
+(1) Choosing $4$ representatives from $12$ students, with no assigned roles, is a combination problem. By **Formula 6.2.7**, the ways of choosing are $\binom{12}{4}=\frac{12\times11\times10\times9}{24}=495$.
 
-(2) First choose $4$ people from $12$, with $\binom{12}{4}=495$ ways; then designate $1$ of the chosen $4$ as the substitute, with $\binom{4}{1}=4$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the ways of choosing total $495\times 4=1980$.
+(2) First choose $4$ people from $12$, with $\binom{12}{4}=495$ ways; then designate $1$ of the chosen $4$ as the substitute, with $\binom{4}{1}=4$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the ways of choosing total $495\times4=1980$.
 
-(3) Once the $4$ debater positions are designated, taking $4$ people from $12$ and filling them in order is a permutation problem. By **Formula 6.2.3**, the ways of choosing are $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$. $\blacksquare$
+(3) Once the $4$ debater positions are designated, taking $4$ people from $12$ and filling them in order is a permutation problem. By **Formula 6.2.3**, the ways of choosing are $\mathrm{P}\left(12,4\right)=12\times11\times10\times9=11880$. $\blacksquare$
 
 ## Problem 11
 
@@ -465,15 +465,15 @@ By **Formula 6.2.7** (Combination Number Formula), **Formula 6.2.3** (Permutatio
 When $0$ is included, arranging the chosen $5$ digits into a five-digit number with $0$ not in the first position gives $\mathrm{P}\left(5,5\right)-\mathrm{P}\left(4,4\right)=120-24=96$; when $0$ is not included, the $5$ digits can be arranged freely, giving $\mathrm{P}\left(5,5\right)=120$. By **Definition 6.1.1 (分类加法计数原理)**, in total one can form
 
 $$
-3\times 3\times 96+1\times 3\times 120=864+360=1224
+3\times3\times96+1\times3\times120=864+360=1224
 $$
 
 five-digit numbers.
 
-(2) A number greater than $5000000$, formed from the $7$ digits $0\sim 6$ without repeated digits, must be a seven-digit number whose first digit is not less than $5$. The first digit takes $5$ or $6$, with $2$ choices; once the first digit is fixed, the remaining $6$ digits are arranged in the remaining $6$ positions, with $\mathrm{P}\left(6,6\right)=720$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the positive integers satisfying the condition total
+(2) A number greater than $5000000$, formed from the $7$ digits $0\sim6$ without repeated digits, must be a seven-digit number whose first digit is not less than $5$. The first digit takes $5$ or $6$, with $2$ choices; once the first digit is fixed, the remaining $6$ digits are arranged in the remaining $6$ positions, with $\mathrm{P}\left(6,6\right)=720$ ways. By **Definition 6.1.2 (Directed Line Segment)**, the positive integers satisfying the condition total
 
 $$
-2\times \mathrm{P}\left(6,6\right)=2\times 720=1440
+2\times\mathrm{P}\left(6,6\right)=2\times720=1440
 $$
 
 . $\blacksquare$
@@ -494,7 +494,7 @@ $$
 
 By **Formula 6.2.7** (Combination Number Formula), **Definition 6.1.1 (Addition Counting Principle for Classification)** and **Definition 6.1.2 (Multiplication Counting Principle for Step-by-Step Processes)**.
 
-(1) Choose $2$ from boys and girls: first choose $2$ of the $5$ boys, then choose $2$ of the $4$ girls. By **Definition 6.1.2 (Directed Line Segment)**, the ways are $\binom{5}{2}\cdot \binom{4}{2}=10\times 6=60$.
+(1) Choose $2$ from boys and girls: first choose $2$ of the $5$ boys, then choose $2$ of the $4$ girls. By **Definition 6.1.2 (Directed Line Segment)**, the ways are $\binom{5}{2}\cdot\binom{4}{2}=10\times6=60$.
 
 (2) If A and B must be included, one only needs to choose $2$ more people from the remaining $7$, with $\binom{7}{2}=21$ ways.
 
@@ -538,8 +538,8 @@ The $100$ products include $3$ defective items and $97$ qualified items.
 
 (1) If the $5$ drawn items are all qualified, one takes $5$ of the $97$ qualified items, giving $\binom{97}{5}$ ways.
 
-(2) Exactly $2$ defective items: first take $2$ of the $3$ defective items, then take $3$ of the $97$ qualified items. By **Definition 6.1.2 (Directed Line Segment)**, the ways are $\binom{3}{2}\cdot \binom{97}{3}=3\binom{97}{3}$.
+(2) Exactly $2$ defective items: first take $2$ of the $3$ defective items, then take $3$ of the $97$ qualified items. By **Definition 6.1.2 (Directed Line Segment)**, the ways are $\binom{3}{2}\cdot\binom{97}{3}=3\binom{97}{3}$.
 
-(3) At least $2$ defective items includes the two categories of exactly $2$ defective and exactly $3$ defective. From (2), exactly $2$ defective gives $3\binom{97}{3}$ ways; exactly $3$ defective gives $\binom{3}{3}\cdot \binom{97}{2}=\binom{97}{2}$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the ways total $3\binom{97}{3}+\binom{97}{2}$.
+(3) At least $2$ defective items includes the two categories of exactly $2$ defective and exactly $3$ defective. From (2), exactly $2$ defective gives $3\binom{97}{3}$ ways; exactly $3$ defective gives $\binom{3}{3}\cdot\binom{97}{2}=\binom{97}{2}$ ways. By **Definition 6.1.1 (分类加法计数原理)**, the ways total $3\binom{97}{3}+\binom{97}{2}$.
 
-(4) At most $2$ defective items: use the indirect method. Drawing $5$ of the $100$ products gives $\binom{100}{5}$ ways, among which exactly $3$ defective gives $\binom{3}{3}\cdot \binom{97}{2}=\binom{97}{2}$ ways. Hence the ways with at most $2$ defective items number $\binom{100}{5}-\binom{97}{2}$. $\blacksquare$
+(4) At most $2$ defective items: use the indirect method. Drawing $5$ of the $100$ products gives $\binom{100}{5}$ ways, among which exactly $3$ defective gives $\binom{3}{3}\cdot\binom{97}{2}=\binom{97}{2}$ ways. Hence the ways with at most $2$ defective items number $\binom{100}{5}-\binom{97}{2}$. $\blacksquare$

@@ -18,7 +18,7 @@
 
 > **定义 8.6.1 (异面直线所成的角)**
 > 
-> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel a$, $b'\parallel b$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
+> 已知两条异面直线 $a$, $b$, 经过空间任一点 $O$ 作直线 $a'\parallel{a}$, $b'\parallel{b}$, 我们把 $a'$ 与 $b'$ 所成的锐角 (或直角) 叫做异面直线 $a$ 与 $b$ 所成的角 (或夹角).
 
 > **定义 8.6.2 (异面直线垂直)**
 > 
@@ -80,41 +80,41 @@
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-设 $\alpha\cap\gamma=a$, $\beta\cap\gamma=b$. 在 $\gamma$ 内作直线 $m\perp a$, 由面面垂直性质, $m\perp\alpha$, 故 $m\perp l$.
+设 $\alpha\cap\gamma=a$, $\beta\cap\gamma=b$. 在 $\gamma$ 内作直线 $m\perp{a}$, 由面面垂直性质, $m\perp\alpha$, 故 $m\perp{l}$.
 
-同理, 在 $\gamma$ 内作直线 $n\perp b$, 则 $n\perp\beta$, 故 $n\perp l$.
+同理, 在 $\gamma$ 内作直线 $n\perp{b}$, 则 $n\perp\beta$, 故 $n\perp{l}$.
 
 $m$, $n$ 是 $\gamma$ 内两条相交直线, $l$ 垂直于 $\gamma$ 内两条相交直线. 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $l\perp\gamma$. $\blacksquare$
 
 ## 习题二
 
-(习题 8.6 综合运用第 11 题) 如下页图, 在正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 点 $P$, $Q$ 分别为棱 $AD$, $CC_{1}$ 的中点. 求证 $A_{1}P\perp BQ$.
+(习题 8.6 综合运用第 11 题) 如下页图, 在正方体 $ABCD\text{-}A_{1}B_{1}C_{1}D_{1}$ 中, 点 $P$, $Q$ 分别为棱 $AD$, $CC_{1}$ 的中点. 求证 $A_{1}P\perp{B}Q$.
 
 ### 解答 习题二
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-取 $DD_{1}$ 的中点 $R$, 连接 $A_{1}R$, $PR$. 在正方形 $ADD_{1}A_{1}$ 中, $P$, $R$ 分别为 $AD$, $DD_{1}$ 的中点, 可证 $A_{1}P\perp A_{1}R$ (由三角形全等, 对应角互余).
+取 $DD_{1}$ 的中点 $R$, 连接 $A_{1}R$, $PR$. 在正方形 $ADD_{1}A_{1}$ 中, $P$, $R$ 分别为 $AD$, $DD_{1}$ 的中点, 可证 $A_{1}P\perp{A}_{1}R$ (由三角形全等, 对应角互余).
 
-又 $BQ\parallel A_{1}R$ (由正方体对称性及中位线性质, $BQ$ 与 $A_{1}R$ 方向对应平行).
+又 $BQ\parallel{A}_{1}R$ (由正方体对称性及中位线性质, $BQ$ 与 $A_{1}R$ 方向对应平行).
 
-故 $A_{1}P\perp BQ$. $\blacksquare$
+故 $A_{1}P\perp{B}Q$. $\blacksquare$
 
 ## 习题三
 
-(习题 8.6 综合运用第 12 题) 如图, $m$, $n$ 是两条相交直线, $l_{1}$, $l_{2}$ 是与 $m$, $n$ 都垂直的两条直线, 且直线 $l$ 与 $l_{1}$, $l_{2}$ 都相交, 求证 $\angle 1=\angle 2$.
+(习题 8.6 综合运用第 12 题) 如图, $m$, $n$ 是两条相交直线, $l_{1}$, $l_{2}$ 是与 $m$, $n$ 都垂直的两条直线, 且直线 $l$ 与 $l_{1}$, $l_{2}$ 都相交, 求证 $\angle1=\angle2$.
 
-(题图: 两条相交直线 $m,n$, 两条直线 $l_{1},l_{2}$ 都垂直于 $m,n$ 所在平面, 直线 $l$ 截 $l_{1},l_{2}$ 形成角 $\angle 1,\angle 2$.)
+(题图: 两条相交直线 $m,n$, 两条直线 $l_{1},l_{2}$ 都垂直于 $m,n$ 所在平面, 直线 $l$ 截 $l_{1},l_{2}$ 形成角 $\angle1,\angle2$.)
 
 ### 解答 习题三
 
 由**定理 8.6.5 (直线与平面垂直的性质定理)**.
 
-因为 $l_{1}\perp m$, $l_{1}\perp n$, $m\cap n=O$, 故 $l_{1}\perp$ 平面 $\left(m,n\right)$. 同理 $l_{2}\perp$ 平面 $\left(m,n\right)$.
+因为 $l_{1}\perp{m}$, $l_{1}\perp{n}$, $m\cap{n}=O$, 故 $l_{1}\perp$ 平面 $\left(m,n\right)$. 同理 $l_{2}\perp$ 平面 $\left(m,n\right)$.
 
-由**定理 8.6.5 (直线与平面垂直的性质定理)**, $l_{1}\parallel l_{2}$.
+由**定理 8.6.5 (直线与平面垂直的性质定理)**, $l_{1}\parallel{l}_{2}$.
 
-直线 $l$ 与两平行线 $l_{1}$, $l_{2}$ 相交, $\angle 1$ 与 $\angle 2$ 是两平行线被 $l$ 所截的同位角, 故 $\angle 1=\angle 2$. $\blacksquare$
+直线 $l$ 与两平行线 $l_{1}$, $l_{2}$ 相交, $\angle1$ 与 $\angle2$ 是两平行线被 $l$ 所截的同位角, 故 $\angle1=\angle2$. $\blacksquare$
 
 ## 习题四
 
@@ -124,15 +124,15 @@ $m$, $n$ 是 $\gamma$ 内两条相交直线, $l$ 垂直于 $\gamma$ 内两条相
 
 由**定义 8.6.6 (直线与平面所成的角)**.
 
-设直线 $a\parallel b$, 它们与平面 $\alpha$ 所成的角分别为 $\theta_{1}$, $\theta_{2}$.
+设直线 $a\parallel{b}$, 它们与平面 $\alpha$ 所成的角分别为 $\theta_{1}$, $\theta_{2}$.
 
 在 $a$, $b$ 上分别取点 $A$, $B$, 作 $AA'\perp\alpha$, $BB'\perp\alpha$, 垂足为 $A'$, $B'$. 连接斜足与垂足.
 
-由 $a\parallel b$, 可得两直角三角形相似, 斜线与射影所成的角对应相等. 故 $\theta_{1}=\theta_{2}$. $\blacksquare$
+由 $a\parallel{b}$, 可得两直角三角形相似, 斜线与射影所成的角对应相等. 故 $\theta_{1}=\theta_{2}$. $\blacksquare$
 
 ## 习题五
 
-(习题 8.6 综合运用第 14 题) 如图, 在棱锥 $V\text{-}ABC$ 中, $VO\perp$ 平面 $ABC$, $O\in CD$, $VA=VB$, $AD=BD$, 你能判定 $CD\perp AB$, 以及 $AC=BC$ 吗?
+(习题 8.6 综合运用第 14 题) 如图, 在棱锥 $V\text{-}ABC$ 中, $VO\perp$ 平面 $ABC$, $O\in{C}D$, $VA=VB$, $AD=BD$, 你能判定 $CD\perp{A}B$, 以及 $AC=BC$ 吗?
 
 (题图: 棱锥 $V\text{-}ABC$, $VO\perp$ 底面 $ABC$, $O$ 在 $CD$ 上, $D$ 为 $AB$ 中点.)
 
@@ -140,11 +140,11 @@ $m$, $n$ 是 $\gamma$ 内两条相交直线, $l$ 垂直于 $\gamma$ 内两条相
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-因为 $VO\perp$ 平面 $ABC$, 故 $VO\perp OA$, $VO\perp OB$. 由 $VA=VB$, $VO$ 公共, 得 $\text{Rt}\triangle VOA\cong\text{Rt}\triangle VOB$, 故 $OA=OB$.
+因为 $VO\perp$ 平面 $ABC$, 故 $VO\perp{O}A$, $VO\perp{O}B$. 由 $VA=VB$, $VO$ 公共, 得 $\text{Rt}\triangle{V}OA\cong\text{Rt}\triangle{V}OB$, 故 $OA=OB$.
 
-又 $AD=BD$, 即 $D$ 为 $AB$ 中点. 在 $\triangle ABC$ 所在平面内, $O$ 在 $CD$ 上, $OA=OB$, $AD=BD$, 故 $OD\perp AB$. 即 $CD\perp AB$.
+又 $AD=BD$, 即 $D$ 为 $AB$ 中点. 在 $\triangle{A}BC$ 所在平面内, $O$ 在 $CD$ 上, $OA=OB$, $AD=BD$, 故 $OD\perp{A}B$. 即 $CD\perp{A}B$.
 
-$CD\perp AB$, $D$ 为 $AB$ 中点, 故 $CD$ 是 $AB$ 的垂直平分线, $A$, $B$ 关于 $CD$ 对称, 从而 $AC=BC$. $\blacksquare$
+$CD\perp{A}B$, $D$ 为 $AB$ 中点, 故 $CD$ 是 $AB$ 的垂直平分线, $A$, $B$ 关于 $CD$ 对称, 从而 $AC=BC$. $\blacksquare$
 
 ## 习题六
 
@@ -156,13 +156,13 @@ $CD\perp AB$, $D$ 为 $AB$ 中点, 故 $CD$ 是 $AB$ 的垂直平分线, $A$, $B
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-折叠后, 原正方形中的直角保持: $\angle SGE=\angle SG_{1}E=90^{\circ}$, $\angle SGF=\angle SG_{3}F=90^{\circ}$, $\angle EGF=\angle G_{1}G_{2}G_{3}=90^{\circ}$.
+折叠后, 原正方形中的直角保持: $\angle{S}GE=\angle{S}G_{1}E=90^{\circ}$, $\angle{S}GF=\angle{S}G_{3}F=90^{\circ}$, $\angle{E}GF=\angle{G}_{1}G_{2}G_{3}=90^{\circ}$.
 
-因为 $SG\perp GE$, $SG\perp GF$, $GE\cap GF=G$, 故 $SG\perp$ 平面 $EFG$.
+因为 $SG\perp{G}E$, $SG\perp{G}F$, $GE\cap{G}F=G$, 故 $SG\perp$ 平面 $EFG$.
 
-因为 $GE\perp GF$, $GE\perp SG$, $SG\cap GF=G$, 故 $GE\perp$ 平面 $SGF$.
+因为 $GE\perp{G}F$, $GE\perp{S}G$, $SG\cap{G}F=G$, 故 $GE\perp$ 平面 $SGF$.
 
-因为 $GF\perp GE$, $GF\perp SG$, $SG\cap GE=G$, 故 $GF\perp$ 平面 $SEG$.
+因为 $GF\perp{G}E$, $GF\perp{S}G$, $SG\cap{G}E=G$, 故 $GF\perp$ 平面 $SEG$.
 
 故棱 $SG\perp$ 平面 $EFG$, 棱 $GE\perp$ 平面 $SGF$, 棱 $GF\perp$ 平面 $SEG$. $\blacksquare$
 
@@ -176,9 +176,9 @@ $CD\perp AB$, $D$ 为 $AB$ 中点, 故 $CD$ 是 $AB$ 的垂直平分线, $A$, $B
 
 设 $\alpha\parallel\beta$, 直线 $l\perp\alpha$. 过 $l$ 作两个相交平面, 分别与 $\alpha$, $\beta$ 交于 $a$, $a'$ 和 $b$, $b'$.
 
-因为 $l\perp\alpha$, 故 $l\perp a$, $l\perp b$.
+因为 $l\perp\alpha$, 故 $l\perp{a}$, $l\perp{b}$.
 
-由**定理 8.5.6 (平面与平面平行的性质定理)**, $a\parallel a'$, $b\parallel b'$. 故 $l\perp a'$, $l\perp b'$.
+由**定理 8.5.6 (平面与平面平行的性质定理)**, $a\parallel{a}'$, $b\parallel{b}'$. 故 $l\perp{a}'$, $l\perp{b}'$.
 
 $a'$, $b'$ 是 $\beta$ 内两条相交直线, 由**定理 8.6.4 (直线与平面垂直的判定定理)**, $l\perp\beta$. $\blacksquare$
 
@@ -194,9 +194,9 @@ $a'$, $b'$ 是 $\beta$ 内两条相交直线, 由**定理 8.6.4 (直线与平面
 
 因为 $\alpha\perp\gamma$, $\beta\perp\gamma$, $\alpha\cap\beta=l$, 由**习题 8.6 复习巩固第 10 题**的结论, $l\perp\gamma$.
 
-$m$, $n\subset\gamma$, 故 $l\perp m$, $l\perp n$.
+$m$, $n\subset\gamma$, 故 $l\perp{m}$, $l\perp{n}$.
 
-同理, $m\perp\alpha$, 故 $m\perp n$.
+同理, $m\perp\alpha$, 故 $m\perp{n}$.
 
 故 $l$, $m$, $n$ 两两垂直. $\blacksquare$
 
@@ -212,57 +212,57 @@ $m$, $n\subset\gamma$, 故 $l\perp m$, $l\perp n$.
 
 取 $AB$ 的中点 $D$, 连接 $VD$, $CD$.
 
-因为 $VA=VB=2$, $D$ 为 $AB$ 中点, 故 $VD\perp AB$, $VD=\sqrt{VA^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
+因为 $VA=VB=2$, $D$ 为 $AB$ 中点, 故 $VD\perp{A}B$, $VD=\sqrt{VA^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
 
-因为 $AC=BC=2$, $D$ 为 $AB$ 中点, 故 $CD\perp AB$, $CD=\sqrt{AC^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
+因为 $AC=BC=2$, $D$ 为 $AB$ 中点, 故 $CD\perp{A}B$, $CD=\sqrt{AC^{2}-AD^{2}}=\sqrt{4-1}=\sqrt{3}$.
 
-$\angle VDC$ 即二面角 $V\text{-}AB\text{-}C$ 的平面角.
+$\angle{V}DC$ 即二面角 $V\text{-}AB\text{-}C$ 的平面角.
 
-在 $\triangle VDC$ 中, $VD=CD=\sqrt{3}$, $VC=1$. 由余弦定理:
+在 $\triangle{V}DC$ 中, $VD=CD=\sqrt{3}$, $VC=1$. 由余弦定理:
 
 $$
-\cos\angle VDC=\frac{VD^{2}+CD^{2}-VC^{2}}{2\cdot VD\cdot CD}=\frac{3+3-1}{2\times 3}=\frac{5}{6}.
+\cos\angle{V}DC=\frac{VD^{2}+CD^{2}-VC^{2}}{2\cdot{V}D\cdot{C}D}=\frac{3+3-1}{2\times3}=\frac{5}{6}.
 $$
 
 故二面角 $V\text{-}AB\text{-}C$ 的余弦值为 $\frac{5}{6}$. $\blacksquare$
 
 ## 习题十
 
-(习题 8.6 拓广探索第 19 题) 如图, 在直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$ 中, $\angle ABC=90^{\circ}$, $AA_{1}=AB$, 求证 $A_{1}C\perp AB_{1}$.
+(习题 8.6 拓广探索第 19 题) 如图, 在直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$ 中, $\angle{A}BC=90^{\circ}$, $AA_{1}=AB$, 求证 $A_{1}C\perp{A}B_{1}$.
 
-(题图: 直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$, $\angle ABC=90^{\circ}$.)
+(题图: 直三棱柱 $ABC\text{-}A_{1}B_{1}C_{1}$, $\angle{A}BC=90^{\circ}$.)
 
 ### 解答 习题十
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-因为 $\angle ABC=90^{\circ}$, 故 $AB\perp BC$. 直三棱柱中 $BB_{1}\perp$ 底面 $ABC$, 故 $BB_{1}\perp AB$. $BC\cap BB_{1}=B$, 故 $AB\perp$ 平面 $BCC_{1}B_{1}$.
+因为 $\angle{A}BC=90^{\circ}$, 故 $AB\perp{B}C$. 直三棱柱中 $BB_{1}\perp$ 底面 $ABC$, 故 $BB_{1}\perp{A}B$. $BC\cap{B}B_{1}=B$, 故 $AB\perp$ 平面 $BCC_{1}B_{1}$.
 
-又 $BC_{1}\subset$ 平面 $BCC_{1}B_{1}$, 故 $AB\perp BC_{1}$.
+又 $BC_{1}\subset$ 平面 $BCC_{1}B_{1}$, 故 $AB\perp{B}C_{1}$.
 
-因为 $AA_{1}=AB=BB_{1}$, 侧面 $ABB_{1}A_{1}$ 是正方形, 故 $AB_{1}\perp A_{1}B$.
+因为 $AA_{1}=AB=BB_{1}$, 侧面 $ABB_{1}A_{1}$ 是正方形, 故 $AB_{1}\perp{A}_{1}B$.
 
-$AB_{1}\perp A_{1}B$, $AB_{1}\perp BC_{1}$, $A_{1}B\cap BC_{1}=B$, 故 $AB_{1}\perp$ 平面 $A_{1}BC$.
+$AB_{1}\perp{A}_{1}B$, $AB_{1}\perp{B}C_{1}$, $A_{1}B\cap{B}C_{1}=B$, 故 $AB_{1}\perp$ 平面 $A_{1}BC$.
 
-因为 $A_{1}C\subset$ 平面 $A_{1}BC$, 故 $AB_{1}\perp A_{1}C$. $\blacksquare$
+因为 $A_{1}C\subset$ 平面 $A_{1}BC$, 故 $AB_{1}\perp{A}_{1}C$. $\blacksquare$
 
 ## 习题十一
 
-(习题 8.6 拓广探索第 20 题) 如上页图, $AB$ 是 $\odot O$ 的直径, 点 $C$ 是 $\odot O$ 上的动点, 过动点 $C$ 的直线 $VC$ 垂直于 $\odot O$ 所在平面, $D$, $E$ 分别是 $VA$, $VC$ 的中点. 判断直线 $DE$ 与平面 $VBC$ 的位置关系, 并说明理由.
+(习题 8.6 拓广探索第 20 题) 如上页图, $AB$ 是 $\odot{O}$ 的直径, 点 $C$ 是 $\odot{O}$ 上的动点, 过动点 $C$ 的直线 $VC$ 垂直于 $\odot{O}$ 所在平面, $D$, $E$ 分别是 $VA$, $VC$ 的中点. 判断直线 $DE$ 与平面 $VBC$ 的位置关系, 并说明理由.
 
 ### 解答 习题十一
 
 由**定理 8.6.4 (直线与平面垂直的判定定理)**.
 
-因为 $D$, $E$ 分别是 $VA$, $VC$ 的中点, 在 $\triangle VAC$ 中, $DE$ 是中位线, 故 $DE\parallel AC$.
+因为 $D$, $E$ 分别是 $VA$, $VC$ 的中点, 在 $\triangle{V}AC$ 中, $DE$ 是中位线, 故 $DE\parallel{A}C$.
 
-因为 $AB$ 是 $\odot O$ 的直径, $C$ 是圆上一点, 故 $\angle ACB=90^{\circ}$, 即 $AC\perp BC$.
+因为 $AB$ 是 $\odot{O}$ 的直径, $C$ 是圆上一点, 故 $\angle{A}CB=90^{\circ}$, 即 $AC\perp{B}C$.
 
-又 $VC\perp\odot O$ 所在平面, $AC\subset$ 该平面, 故 $VC\perp AC$.
+又 $VC\perp\odot{O}$ 所在平面, $AC\subset$ 该平面, 故 $VC\perp{A}C$.
 
-$BC\cap VC=C$, 故 $AC\perp$ 平面 $VBC$.
+$BC\cap{V}C=C$, 故 $AC\perp$ 平面 $VBC$.
 
-因为 $DE\parallel AC$, 故 $DE\perp$ 平面 $VBC$. $\blacksquare$
+因为 $DE\parallel{A}C$, 故 $DE\perp$ 平面 $VBC$. $\blacksquare$
 
 ## 习题十二
 
@@ -274,13 +274,13 @@ $BC\cap VC=C$, 故 $AC\perp$ 平面 $VBC$.
 
 由**定理 8.6.8 (平面与平面垂直的判定定理)**.
 
-因为 $PA=AB$, $E$ 为 $PB$ 中点, 故在等腰直角三角形 $PAB$ 中, $AE\perp PB$.
+因为 $PA=AB$, $E$ 为 $PB$ 中点, 故在等腰直角三角形 $PAB$ 中, $AE\perp{P}B$.
 
-因为 $PA\perp$ 底面 $ABCD$, $BC\subset$ 底面, 故 $PA\perp BC$. 底面 $ABCD$ 为正方形, 故 $AB\perp BC$. $PA\cap AB=A$, 故 $BC\perp$ 平面 $PAB$.
+因为 $PA\perp$ 底面 $ABCD$, $BC\subset$ 底面, 故 $PA\perp{B}C$. 底面 $ABCD$ 为正方形, 故 $AB\perp{B}C$. $PA\cap{A}B=A$, 故 $BC\perp$ 平面 $PAB$.
 
-又 $AE\subset$ 平面 $PAB$, 故 $BC\perp AE$.
+又 $AE\subset$ 平面 $PAB$, 故 $BC\perp{A}E$.
 
-$AE\perp PB$, $AE\perp BC$, $PB\cap BC=B$, 故 $AE\perp$ 平面 $PBC$.
+$AE\perp{P}B$, $AE\perp{B}C$, $PB\cap{B}C=B$, 故 $AE\perp$ 平面 $PBC$.
 
 又 $AE\subset$ 平面 $AEF$, 由**定理 8.6.8 (平面与平面垂直的判定定理)**, 平面 $AEF\perp$ 平面 $PBC$.
 
@@ -361,18 +361,18 @@ $AE\perp PB$, $AE\perp BC$, $PB\cap BC=B$, 故 $AE\perp$ 平面 $PBC$.
 要转化为 $1\sim100$ 范围内的整数随机数, 只需取
 
 $$
-\left\lfloor 100U\right\rfloor+1.
+\left\lfloor100U\right\rfloor+1.
 $$
 
-因为 $0\le U< 1$, 所以 $0\le 100U< 100$, 从而 $\lfloor 100U\rfloor$ 取遍 $0,1,\cdots,99$, 加 1 后恰为 $1,2,\cdots,100$, 且每个整数出现的概率都是 $\frac{1}{100}$.
+因为 $0\le{U}<1$, 所以 $0\le100U<100$, 从而 $\lfloor100U\rfloor$ 取遍 $0,1,\cdots,99$, 加 1 后恰为 $1,2,\cdots,100$, 且每个整数出现的概率都是 $\frac{1}{100}$.
 
 同理, 要转化为 $1\sim712$ 范围内的整数随机数, 只需取
 
 $$
-\left\lfloor 712U\right\rfloor+1.
+\left\lfloor712U\right\rfloor+1.
 $$
 
-因为 $0\le 712U< 712$, 所以 $\lfloor 712U\rfloor$ 取遍 $0,1,\cdots,711$, 加 1 后恰为 $1,2,\cdots,712$, 且每个整数出现的概率都是 $\frac{1}{712}$. $\blacksquare$
+因为 $0\le712U<712$, 所以 $\lfloor712U\rfloor$ 取遍 $0,1,\cdots,711$, 加 1 后恰为 $1,2,\cdots,712$, 且每个整数出现的概率都是 $\frac{1}{712}$. $\blacksquare$
 
 ## 练习五
 
@@ -388,21 +388,21 @@ $$
 
 ## 练习六
 
-(练习 9.1 第 6 题) 为了合理调配电力资源, 某市欲了解全市 50000 户居民的日用电量. 若通过简单随机抽样从中抽取了 300 户进行调查, 得到其日用电量的平均数为 $5.5\,\mathrm{kW\cdot h}$, 则可以推测全市居民用户日用电量的平均数 ($\;\_\_\;$).
+(练习 9.1 第 6 题) 为了合理调配电力资源, 某市欲了解全市 50000 户居民的日用电量. 若通过简单随机抽样从中抽取了 300 户进行调查, 得到其日用电量的平均数为 $5.5\,\mathrm{kW\cdot{h}}$, 则可以推测全市居民用户日用电量的平均数 ($\;\_\_\;$).
 
-(A) 一定为 $5.5\,\mathrm{kW\cdot h}$
+(A) 一定为 $5.5\,\mathrm{kW\cdot{h}}$
 
-(B) 高于 $5.5\,\mathrm{kW\cdot h}$
+(B) 高于 $5.5\,\mathrm{kW\cdot{h}}$
 
-(C) 低于 $5.5\,\mathrm{kW\cdot h}$
+(C) 低于 $5.5\,\mathrm{kW\cdot{h}}$
 
-(D) 约为 $5.5\,\mathrm{kW\cdot h}$
+(D) 约为 $5.5\,\mathrm{kW\cdot{h}}$
 
 ### 解答 练习六
 
 由**定义 9.1.4 (总体均值与样本均值)**, 在简单随机抽样中, 用样本平均数估计总体平均数.
 
-样本平均数 $5.5\,\mathrm{kW\cdot h}$ 是对总体平均数的一个估计值. 由于样本的选取是随机的, 样本平均数具有随机性, 它一般不会恰好等于总体平均数, 只能说总体平均数约为 $5.5\,\mathrm{kW\cdot h}$, 而不能说一定为, 高于或低于该值. 故选 (D). $\blacksquare$
+样本平均数 $5.5\,\mathrm{kW\cdot{h}}$ 是对总体平均数的一个估计值. 由于样本的选取是随机的, 样本平均数具有随机性, 它一般不会恰好等于总体平均数, 只能说总体平均数约为 $5.5\,\mathrm{kW\cdot{h}}$, 而不能说一定为, 高于或低于该值. 故选 (D). $\blacksquare$
 
 ## 练习七
 
@@ -432,22 +432,22 @@ $$
 
 ## 练习九
 
-(练习 9.1 第 9 题) 数据 $x_1,x_2,\cdots,x_m$ 的平均数为 $\overline x$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline y$, 证明:
+(练习 9.1 第 9 题) 数据 $x_1,x_2,\cdots,x_m$ 的平均数为 $\overline{x}$, 数据 $y_1,y_2,\cdots,y_n$ 的平均数为 $\overline{y}$, 证明:
 
 $$
-\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m}{m+n}\overline{x}+\frac{n}{m+n}\overline{y}.
 $$
 
 ### 解答 练习九
 
 由**定义 9.1.4 (总体均值与样本均值)**, 平均数等于数据之和除以数据个数.
 
-由 $\overline x=\frac{1}{m}\sum_{i=1}^{m}x_i$, 得 $\sum_{i=1}^{m}x_i=m\overline x$; 由 $\overline y=\frac{1}{n}\sum_{i=1}^{n}y_i$, 得 $\sum_{i=1}^{n}y_i=n\overline y$.
+由 $\overline{x}=\frac{1}{m}\sum_{i=1}^{m}x_i$, 得 $\sum_{i=1}^{m}x_i=m\overline{x}$; 由 $\overline{y}=\frac{1}{n}\sum_{i=1}^{n}y_i$, 得 $\sum_{i=1}^{n}y_i=n\overline{y}$.
 
 把两组数据合并, 其数据之和为 $\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i$, 数据个数为 $m+n$, 故合并后数据的平均数为
 
 $$
-\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\overline x+n\overline y}{m+n}=\frac{m}{m+n}\overline x+\frac{n}{m+n}\overline y.
+\frac{\sum_{i=1}^{m}x_i+\sum_{i=1}^{n}y_i}{m+n}=\frac{m\overline{x}+n\overline{y}}{m+n}=\frac{m}{m+n}\overline{x}+\frac{n}{m+n}\overline{y}.
 $$
 
 原式得证. $\blacksquare$
@@ -614,7 +614,7 @@ $$
 
 (习题 9.1 复习巩固第 4 题) 下列从总体中抽得的样本是否为简单随机样本?
 
-(1) 总体编号为 $1\sim75$, 在 $0\sim99$ 中产生随机整数 $r$. 若 $r=0$ 或 $r> 75$, 则舍弃, 重新抽取.
+(1) 总体编号为 $1\sim75$, 在 $0\sim99$ 中产生随机整数 $r$. 若 $r=0$ 或 $r>75$, 则舍弃, 重新抽取.
 
 (2) 总体编号为 $1\sim75$, 在 $0\sim99$ 中产生随机整数 $r$, $r$ 除以 75 的余数作为抽中的编号. 若余数为 0, 则抽中 75.
 
@@ -624,7 +624,7 @@ $$
 
 由**定义 9.1.3 (简单随机抽样)**, 简单随机样本要求总体中每个个体被抽中的概率相等.
 
-(1) 是简单随机样本. 在 $0\sim99$ 产生随机数后, 凡 $r=0$ 或 $r> 75$ 都舍弃重抽, 最终留下来的有效编号 $1\sim75$ 中, 每个编号被抽中的概率相等, 故得到的是简单随机样本.
+(1) 是简单随机样本. 在 $0\sim99$ 产生随机数后, 凡 $r=0$ 或 $r>75$ 都舍弃重抽, 最终留下来的有效编号 $1\sim75$ 中, 每个编号被抽中的概率相等, 故得到的是简单随机样本.
 
 (2) 不是简单随机样本. $r$ 取 $0\sim99$ 共 100 个值. 编号 1 对应 $r=1,76$, 编号 2 对应 $r=2,77$,..., 编号 24 对应 $r=24,99$, 编号 75 对应 $r=0,75$, 即编号 $1\sim24$ 和 75 各对应 2 个随机数, 被抽中的概率为 $\frac{2}{100}$; 而编号 $25\sim74$ 各只对应 1 个随机数, 被抽中的概率为 $\frac{1}{100}$. 各编号被抽中的概率不相等, 故不是简单随机样本.
 

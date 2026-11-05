@@ -62,66 +62,66 @@
 
 ### Solution to Problem 1
 
-By **Definition 7.4.2 (Binomial Distribution)**, let $X$ be the number of times the target is hit; then $X\sim B\left(n,0.3\right)$.
+By **Definition 7.4.2 (Binomial Distribution)**, let $X$ be the number of times the target is hit; then $X\sim{B}\left(n,0.3\right)$.
 
 (1) When $n=10$, by **Definition 7.4.2 (Binomial Distribution)**,
 
 $$
-\mathbb P\left(X=3\right)=\binom{10}{3}\times 0.3^3\times 0.7^7.
+\mathbb{P}\left(X=3\right)=\binom{10}{3}\times0.3^3\times0.7^7.
 $$
 
 Since $\binom{10}{3}=120$, computing gives
 
 $$
-\mathbb P\left(X=3\right)=120\times 0.027\times 0.0823543\approx 0.267.
+\mathbb{P}\left(X=3\right)=120\times0.027\times0.0823543\approx0.267.
 $$
 
 (2) The probability of hitting the target at least once is
 
 $$
-\mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-0.7^n.
+\mathbb{P}\left(X\ge1\right)=1-\mathbb{P}\left(X=0\right)=1-0.7^n.
 $$
 
-By the problem, $\mathbb P\left(X\ge 1\right)> 0.95$, i.e.
+By the problem, $\mathbb{P}\left(X\ge1\right)>0.95$, i.e.
 
 $$
-1-0.7^n> 0.95,
+1-0.7^n>0.95,
 $$
 
-which is $0.7^n< 0.05$. Taking logarithms of both sides gives $n\ln 0.7< \ln 0.05$; since $\ln 0.7< 0$, the inequality sign reverses, giving
+which is $0.7^n<0.05$. Taking logarithms of both sides gives $n\ln0.7<\ln0.05$; since $\ln0.7<0$, the inequality sign reverses, giving
 
 $$
-n> \frac{\ln 0.05}{\ln 0.7}\approx 8.4.
+n>\frac{\ln0.05}{\ln0.7}\approx8.4.
 $$
 
 Hence $n$ takes the smallest integer not less than 8.4, i.e. at least 9 cannons are needed. $\blacksquare$
 
 ## Problem 2
 
-(Review Reference Exercise 7, Comprehensive Application, Problem 7) Spending long time on a mobile phone may affect eyesight. According to a survey, about $40\%$ of the students in a school are myopic, while about $20\%$ of the students in this school spend more than $1\ \mathrm{h}$ a day on their mobile phones, and among these people the myopia rate is about $50\%$. Now randomly survey one student from those who spend at most $1\ \mathrm{h}$ a day on their mobile phones; find the probability that he or she is myopic.
+(Review Reference Exercise 7, Comprehensive Application, Problem 7) Spending long time on a mobile phone may affect eyesight. According to a survey, about $40\%$ of the students in a school are myopic, while about $20\%$ of the students in this school spend more than $1\,\mathrm{h}$ a day on their mobile phones, and among these people the myopia rate is about $50\%$. Now randomly survey one student from those who spend at most $1\,\mathrm{h}$ a day on their mobile phones; find the probability that he or she is myopic.
 
 ### Solution to Problem 2
 
 By **Definition 7.1.1 (Conditional Probability)**.
 
-Let $A$ = "this student is myopic", $B$ = "this student spends more than $1\ \mathrm{h}$ a day on a mobile phone". By the problem, $\mathbb P\left(A\right)=0.4$, $\mathbb P\left(B\right)=0.2$, $\mathbb P\left(A\mid B\right)=0.5$.
+Let $A$ = "this student is myopic", $B$ = "this student spends more than $1\,\mathrm{h}$ a day on a mobile phone". By the problem, $\mathbb{P}\left(A\right)=0.4$, $\mathbb{P}\left(B\right)=0.2$, $\mathbb{P}\left(A\mid{B}\right)=0.5$.
 
-By **Conclusion 7.1.2** (Multiplication Formula for Probability), the proportion of students who spend more than $1\ \mathrm{h}$ a day on a mobile phone and are myopic is
-
-$$
-\mathbb P\left(AB\right)=\mathbb P\left(B\right)\mathbb P\left(A\mid B\right)=0.2\times 0.5=0.1.
-$$
-
-Hence the proportion of myopic students among those who spend at most $1\ \mathrm{h}$ a day on a mobile phone is
+By **Conclusion 7.1.2** (Multiplication Formula for Probability), the proportion of students who spend more than $1\,\mathrm{h}$ a day on a mobile phone and are myopic is
 
 $$
-\mathbb P\left(A\overline B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
+\mathbb{P}\left(AB\right)=\mathbb{P}\left(B\right)\mathbb{P}\left(A\mid{B}\right)=0.2\times0.5=0.1.
 $$
 
-Also, the proportion of students who spend at most $1\ \mathrm{h}$ a day on a mobile phone is $\mathbb P\left(\overline B\right)=1-\mathbb P\left(B\right)=0.8$. By **Definition 7.1.1 (Conditional Probability)**, when one student is surveyed at random from this group, the probability that he or she is myopic is
+Hence the proportion of myopic students among those who spend at most $1\,\mathrm{h}$ a day on a mobile phone is
 
 $$
-\mathbb P\left(A\mid\overline B\right)=\frac{\mathbb P\left(A\overline B\right)}{\mathbb P\left(\overline B\right)}=\frac{0.3}{0.8}=0.375.
+\mathbb{P}\left(A\overline{B}\right)=\mathbb{P}\left(A\right)-\mathbb{P}\left(AB\right)=0.4-0.1=0.3.
+$$
+
+Also, the proportion of students who spend at most $1\,\mathrm{h}$ a day on a mobile phone is $\mathbb{P}\left(\overline{B}\right)=1-\mathbb{P}\left(B\right)=0.8$. By **Definition 7.1.1 (Conditional Probability)**, when one student is surveyed at random from this group, the probability that he or she is myopic is
+
+$$
+\mathbb{P}\left(A\mid\overline{B}\right)=\frac{\mathbb{P}\left(A\overline{B}\right)}{\mathbb{P}\left(\overline{B}\right)}=\frac{0.3}{0.8}=0.375.
 $$
 
 $\blacksquare$
@@ -139,10 +139,10 @@ Choosing the in-mall promotion, the profit is a fixed 20 thousand yuan.
 Choosing the out-of-mall promotion: if it rains (probability $0.4$), there is a loss of 30 thousand yuan; if it does not rain (probability $0.6$), there is a profit of 80 thousand yuan. By **Definition 7.3.1 (Mean or Mathematical Expectation)**, its expected profit is
 
 $$
-E=0.6\times 8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{ \left(万元\right)}.
+E=0.6\times8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{~\left(万元\right)}.
 $$
 
-Comparing the expected profits of the two methods, $3.6> 2$, so from the standpoint of maximum expected profit, the mall should choose to hold the promotion outside the mall. $\blacksquare$
+Comparing the expected profits of the two methods, $3.6>2$, so from the standpoint of maximum expected profit, the mall should choose to hold the promotion outside the mall. $\blacksquare$
 
 ## Problem 4
 
@@ -154,32 +154,32 @@ Comparing the expected profits of the two methods, $3.6> 2$, so from the standpo
 
 ### Solution to Problem 4
 
-By **Definition 7.4.2 (Binomial Distribution)**, let $X$ be the number of policies requiring payout within a year; then $X\sim B\left(10^5,10^{-5}\right)$, with parameter $\lambda=np=10^5\times 10^{-5}=1$, which can be approximated by a Poisson distribution, i.e. $\mathbb P\left(X=k\right)\approx\frac{e^{-1}}{k!}$.
+By **Definition 7.4.2 (Binomial Distribution)**, let $X$ be the number of policies requiring payout within a year; then $X\sim{B}\left(10^5,10^{-5}\right)$, with parameter $\lambda=np=10^5\times10^{-5}=1$, which can be approximated by a Poisson distribution, i.e. $\mathbb{P}\left(X=k\right)\approx\frac{e^{-1}}{k!}$.
 
-The insurance company's total premium income is $10^5\times 20=2\times 10^6$ yuan, i.e. 2 million yuan; the total payout is 500 thousand yuan per policy, i.e. $50X$ (in 10-thousand yuan).
+The insurance company's total premium income is $10^5\times20=2\times10^6$ yuan, i.e. 2 million yuan; the total payout is 500 thousand yuan per policy, i.e. $50X$ (in 10-thousand yuan).
 
-(1) Losing money means the total payout exceeds the total premium income, i.e. $50X> 200$, i.e. $X> 4$. Hence the probability of losing money is
+(1) Losing money means the total payout exceeds the total premium income, i.e. $50X>200$, i.e. $X>4$. Hence the probability of losing money is
 
 $$
-\mathbb P\left(X\ge 5\right)=1-\mathbb P\left(X\le 4\right).
+\mathbb{P}\left(X\ge5\right)=1-\mathbb{P}\left(X\le4\right).
 $$
 
 By the Poisson approximation,
 
 $$
-\mathbb P\left(X\le 4\right)\approx e^{-1}\left(1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}\right)=e^{-1}\times\frac{65}{24}\approx 0.9963.
+\mathbb{P}\left(X\le4\right)\approx{e}^{-1}\left(1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}\right)=e^{-1}\times\frac{65}{24}\approx0.9963.
 $$
 
 Hence
 
 $$
-\mathbb P\left(X\ge 5\right)\approx 1-0.9963=0.0037.
+\mathbb{P}\left(X\ge5\right)\approx1-0.9963=0.0037.
 $$
 
-(2) Earning at least 1 million yuan within a year means the total premium income minus the total payout is at least 1 million yuan, i.e. $200-50X\ge 100$, i.e. $X\le 2$. Hence the required probability is
+(2) Earning at least 1 million yuan within a year means the total premium income minus the total payout is at least 1 million yuan, i.e. $200-50X\ge100$, i.e. $X\le2$. Hence the required probability is
 
 $$
-\mathbb P\left(X\le 2\right)\approx e^{-1}\left(1+1+\frac{1}{2!}\right)=e^{-1}\times 2.5\approx 0.9197.
+\mathbb{P}\left(X\le2\right)\approx{e}^{-1}\left(1+1+\frac{1}{2!}\right)=e^{-1}\times2.5\approx0.9197.
 $$
 
 $\blacksquare$
@@ -230,16 +230,16 @@ $\blacksquare$
 
 By **Definition 7.3.1 (Mean or Mathematical Expectation)**, use the average number of tests as the basis for comparison.
 
-(1) Let the probability that a person carries the virus be $p=0.05$, with a group of $m=5$ people. The mixed sample tests negative, meaning all 5 are negative, with probability $\left(1-p\right)^5=0.95^5\approx 0.7738$, in which case the group needs only 1 test; the probability that the mixed sample tests positive is $1-0.7738=0.2262$, in which case the group first tests the mixture once and then tests the 5 people separately, for $1+5=6$ tests in all. By **Definition 7.3.1 (Mean or Mathematical Expectation)**, the average number of tests per group is
+(1) Let the probability that a person carries the virus be $p=0.05$, with a group of $m=5$ people. The mixed sample tests negative, meaning all 5 are negative, with probability $\left(1-p\right)^5=0.95^5\approx0.7738$, in which case the group needs only 1 test; the probability that the mixed sample tests positive is $1-0.7738=0.2262$, in which case the group first tests the mixture once and then tests the 5 people separately, for $1+5=6$ tests in all. By **Definition 7.3.1 (Mean or Mathematical Expectation)**, the average number of tests per group is
 
 $$
-E=1\times 0.7738+6\times 0.2262\approx 2.131.
+E=1\times0.7738+6\times0.2262\approx2.131.
 $$
 
-The 10000 people form $10000\div 5=2000$ groups of 5, so the total average number of tests is
+The 10000 people form $10000\div5=2000$ groups of 5, so the total average number of tests is
 
 $$
-2000\times 2.131=4262< 10000.
+2000\times2.131=4262<10000.
 $$
 
 Hence this testing method reduces the number of tests.
@@ -247,7 +247,7 @@ Hence this testing method reduces the number of tests.
 (2) Let the probability that a person carries the virus be $p=0.02$, with a group of $k$ people. The probability that the mixed sample tests negative is $\left(1-p\right)^k=0.98^k$, in which case the group is tested once; if positive, the group is tested $1+k$ times. By **Definition 7.3.1 (Mean or Mathematical Expectation)**, the average number of tests per group is
 
 $$
-E_k=1\times 0.98^k+\left(1+k\right)\times\left(1-0.98^k\right)=1+k\left(1-0.98^k\right).
+E_k=1\times0.98^k+\left(1+k\right)\times\left(1-0.98^k\right)=1+k\left(1-0.98^k\right).
 $$
 
 The average number of tests per person is
@@ -264,19 +264,19 @@ Compute the value of this expression for $k=1,2,\cdots,10$: at $k=7$ it is about
 
 ### Solution to Problem 7
 
-By **Definition 7.5.2 (Normal Distribution)**, let the score be $X$; then $X\sim N\left(75,8^2\right)$, i.e. $\mu=75$, $\sigma=8$.
+By **Definition 7.5.2 (Normal Distribution)**, let the score be $X$; then $X\sim{N}\left(75,8^2\right)$, i.e. $\mu=75$, $\sigma=8$.
 
-By **Conclusion 7.5.4** ($3\sigma$ Rule), $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$, i.e. the proportion of scores falling in the interval $\left[75-8,75+8\right]=\left[67,83\right]$ is about $68.27\%$, close to the $34\%+34\%=68\%$ given in the problem; the proportion of scores below $\mu-\sigma=67$ is about $15.87\%$, and above $\mu+\sigma=83$ is about $15.87\%$, both close to the $16\%$ given in the problem.
+By **Conclusion 7.5.4** ($3\sigma$ Rule), $\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)\approx0.6827$, i.e. the proportion of scores falling in the interval $\left[75-8,75+8\right]=\left[67,83\right]$ is about $68.27\%$, close to the $34\%+34\%=68\%$ given in the problem; the proportion of scores below $\mu-\sigma=67$ is about $15.87\%$, and above $\mu+\sigma=83$ is about $15.87\%$, both close to the $16\%$ given in the problem.
 
 Accordingly, set the four grades:
 
-(1) Grade $D$ is the lowest $16\%$, i.e. $X< 67$;
+(1) Grade $D$ is the lowest $16\%$, i.e. $X<67$;
 
-(2) Grade $C$ is the next $34\%$, i.e. $67\le X< 75$;
+(2) Grade $C$ is the next $34\%$, i.e. $67\le{X}<75$;
 
-(3) Grade $B$ is the next $34\%$, i.e. $75\le X< 83$;
+(3) Grade $B$ is the next $34\%$, i.e. $75\le{X}<83$;
 
-(4) Grade $A$ is the highest $16\%$, i.e. $X\ge 83$.
+(4) Grade $A$ is the highest $16\%$, i.e. $X\ge83$.
 
 Hence the cutoff scores for each grade (accurate to 1) are: Grade $A$ 83 points, Grade $B$ 75 points, Grade $C$ 67 points. $\blacksquare$
 
@@ -286,13 +286,13 @@ Hence the cutoff scores for each grade (accurate to 1) are: Grade $A$ 83 points,
 
 (The scatter plot has $5$ points distributed roughly along a straight line from the lower left to the upper right.)
 
-($\mathrm A$) there is very likely a negative correlation
+($\mathrm{A}$) there is very likely a negative correlation
 
-($\mathrm B$) there must be a positive correlation
+($\mathrm{B}$) there must be a positive correlation
 
-($\mathrm C$) there is very likely a positive correlation
+($\mathrm{C}$) there is very likely a positive correlation
 
-($\mathrm D$) there is definitely no negative correlation
+($\mathrm{D}$) there is definitely no negative correlation
 
 The figure is a scatter plot of paired sample data for variables $x$ and $y$: there are $5$ points, distributed roughly along a line from lower left to upper right.
 
@@ -304,29 +304,29 @@ From the scatter plot, the $5$ points are distributed roughly along a straight l
 
 By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), the distribution of the points from lower left to upper right indicates that there is very likely a positive correlation between the variables $x$ and $y$. But because the sample size is very small and a sample is only part of the population, one cannot conclude that a positive correlation "definitely" exists.
 
-Therefore choose ($\mathrm C$). $\blacksquare$
+Therefore choose ($\mathrm{C}$). $\blacksquare$
 
 ## Problem 9
 
 (Review Reference Exercise 8, Review and Consolidation, Problem 2) From the paired sample data of the variables $Y$ and $x$, the simple linear regression model
 
 $$
-\begin{cases}Y=bx+a+e,\\ E\left(e\right)=0,\ D\left(e\right)=\sigma^2\end{cases}
+\begin{cases}Y=bx+a+e,\\E\left(e\right)=0,\,D\left(e\right)=\sigma^2\end{cases}
 $$
 
-gives the empirical regression model $\widehat y=\widehat b x+\widehat a$, with the corresponding residuals shown in the figure. The model error ( ).
+gives the empirical regression model $\widehat{y}=\widehat{b}x+\widehat{a}$, with the corresponding residuals shown in the figure. The model error ( ).
 
 (In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, but the width of the band clearly widens as $x$ increases.)
 
-($\mathrm A$) satisfies all the assumptions of the simple linear regression model
+($\mathrm{A}$) satisfies all the assumptions of the simple linear regression model
 
-($\mathrm B$) does not satisfy the assumption $E\left(e\right)=0$ of the simple linear regression model
+($\mathrm{B}$) does not satisfy the assumption $E\left(e\right)=0$ of the simple linear regression model
 
-($\mathrm C$) does not satisfy the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
+($\mathrm{C}$) does not satisfy the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
 
-($\mathrm D$) satisfies neither the assumption $E\left(e\right)=0$ nor the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
+($\mathrm{D}$) satisfies neither the assumption $E\left(e\right)=0$ nor the assumption $D\left(e\right)=\sigma^2$ of the simple linear regression model
 
-The figure is the residual plot corresponding to the fitted regression model $\widehat y=\widehat b x+\widehat a$: horizontal axis $x$, vertical axis the residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$, but the band widens noticeably as $x$ increases.
+The figure is the residual plot corresponding to the fitted regression model $\widehat{y}=\widehat{b}x+\widehat{a}$: horizontal axis $x$, vertical axis the residuals; the residual points are roughly evenly distributed in a horizontal band centered at $0$, but the band widens noticeably as $x$ increases.
 
 ### Solution to Problem 9
 
@@ -336,19 +336,19 @@ By **Definition 8.2.5 (Residual)**, the residual points are roughly uniformly di
 
 But the width of the band clearly widens as $x$ increases, indicating that the variance of the residuals varies with $x$ rather than being a constant, i.e. the variance of the random error is not constant, so the assumption $D\left(e\right)=\sigma^2$ is not satisfied.
 
-Therefore choose ($\mathrm C$). $\blacksquare$
+Therefore choose ($\mathrm{C}$). $\blacksquare$
 
 ## Problem 10
 
 (Review Reference Exercise 8, Review and Consolidation, Problem 3) From the paired sample data of the categorical variables $x$ and $y$, the computed value is $\chi^2=2.974$. By the independence test at $\alpha=0.05$, the conclusion is ( ).
 
-($\mathrm A$) the variables $x$ and $y$ are not independent
+($\mathrm{A}$) the variables $x$ and $y$ are not independent
 
-($\mathrm B$) the variables $x$ and $y$ are not independent, and the probability that this conclusion is wrong does not exceed $0.05$
+($\mathrm{B}$) the variables $x$ and $y$ are not independent, and the probability that this conclusion is wrong does not exceed $0.05$
 
-($\mathrm C$) the variables $x$ and $y$ are independent
+($\mathrm{C}$) the variables $x$ and $y$ are independent
 
-($\mathrm D$) the variables $x$ and $y$ are independent, and the probability that this conclusion is wrong does not exceed $0.05$
+($\mathrm{D}$) the variables $x$ and $y$ are independent, and the probability that this conclusion is wrong does not exceed $0.05$
 
 ### Solution to Problem 10
 
@@ -359,14 +359,14 @@ By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\alpha=0.
 Because
 
 $$
-\chi^2=2.974< 3.841,
+\chi^2=2.974<3.841,
 $$
 
 there is insufficient evidence to infer that the null hypothesis $H_0$ does not hold, i.e. the variables $x$ and $y$ may be considered independent.
 
-By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\chi^2< x_\alpha$, there is only insufficient evidence to reject $H_0$, which does not mean there is sufficient certainty that $H_0$ holds; hence one cannot say "the probability that this conclusion is wrong does not exceed $0.05$".
+By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\chi^2<{}x_\alpha$, there is only insufficient evidence to reject $H_0$, which does not mean there is sufficient certainty that $H_0$ holds; hence one cannot say "the probability that this conclusion is wrong does not exceed $0.05$".
 
-Therefore choose ($\mathrm C$). $\blacksquare$
+Therefore choose ($\mathrm{C}$). $\blacksquare$
 
 ## Problem 11
 
@@ -395,26 +395,26 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition
 From the height and arm-span data of $25$ female college students in Example $3$, computing gives
 
 $$
-\overline x\approx 174.32,\quad \overline y\approx 170.68.
+\overline{x}\approx174.32,\quad\overline{y}\approx170.68.
 $$
 
 By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b=\frac{\sum_{i=1}^{25}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{25}\left(x_i-\overline x\right)^2}\approx 0.965,
+\widehat{b}=\frac{\sum_{i=1}^{25}\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)}{\sum_{i=1}^{25}\left(x_i-\overline{x}\right)^2}\approx0.965,
 $$
 
 $$
-\widehat a=\overline y-\widehat b\overline x\approx 0.84.
+\widehat{a}=\overline{y}-\widehat{b}\overline{x}\approx0.84.
 $$
 
 Hence by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of arm span on height is
 
 $$
-\widehat y=0.965x+0.84.
+\widehat{y}=0.965x+0.84.
 $$
 
-By **Definition 8.2.5 (Residual)**, compute the residual $e_i=y_i-\widehat y_i$ for each point, and plot the residual plot with height as the horizontal axis and residual as the vertical axis. In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, the width of the band is basically constant, and there is no obvious curved trend.
+By **Definition 8.2.5 (Residual)**, compute the residual $e_i=y_i-\widehat{y}_i$ for each point, and plot the residual plot with height as the horizontal axis and residual as the vertical axis. In the residual plot, the residual points are roughly uniformly distributed in a horizontal band centered at $0$, the width of the band is basically constant, and there is no obvious curved trend.
 
 This indicates that the chosen simple linear regression model fits the data well, and the error variance of the model is basically constant. $\blacksquare$
 
@@ -422,7 +422,7 @@ This indicates that the chosen simple linear regression model fits the data well
 
 (Review Reference Exercise 8, Comprehensive Application, Problem 6) The following table gives the men's triple-jump Olympic champion results from $1896$ to $2021$. Please analyze this data; can a simple linear regression model describe this data?
 
-| Year | Result/$\mathrm m$ | Year | Result/$\mathrm m$ | Year | Result/$\mathrm m$ | Year | Result/$\mathrm m$ |
+| Year | Result/$\mathrm{m}$ | Year | Result/$\mathrm{m}$ | Year | Result/$\mathrm{m}$ | Year | Result/$\mathrm{m}$ |
 |---|---|---|---|---|---|---|---|
 | $1896$ | $13.71$ | $1932$ | $15.72$ | $1972$ | $17.35$ | $2004$ | $17.79$ |
 | $1900$ | $14.47$ | $1936$ | $16.00$ | $1976$ | $17.29$ | $2008$ | $17.67$ |
@@ -437,7 +437,7 @@ This indicates that the chosen simple linear regression model fits the data well
 
 By **Definition 8.2.4 (Empirical Regression Equation)** and **Definition 8.2.5 (Residual)**.
 
-Plot a scatter plot with year as the horizontal axis and champion result as the vertical axis. From the data, from $1896$ to about $1968$, the champion result improved steadily as the year increased, with the points roughly along an upward straight line; but after $1968$, the champion result fluctuated between $17.3\,\mathrm m$ and $18.2\,\mathrm m$, with no further obvious upward trend.
+Plot a scatter plot with year as the horizontal axis and champion result as the vertical axis. From the data, from $1896$ to about $1968$, the champion result improved steadily as the year increased, with the points roughly along an upward straight line; but after $1968$, the champion result fluctuated between $17.3\,\mathrm{m}$ and $18.2\,\mathrm{m}$, with no further obvious upward trend.
 
 By **Definition 8.2.4 (Empirical Regression Equation)**, if one forcibly fits all the data with a simple linear regression model, then by **Definition 8.2.5 (Residual)** the residual plot would show an obvious curved trend — first positive, then negative, then fluctuating — rather than being uniformly distributed in a horizontal band centered at $0$.
 
@@ -457,23 +457,23 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definit
 
 Plot a scatter plot with mileage as the horizontal axis and groove depth as the vertical axis; the points are distributed roughly along a straight line from the upper left to the lower right.
 
-From the data, $\overline x\approx 2.574$, $\overline y\approx 6.19$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+From the data, $\overline{x}\approx2.574$, $\overline{y}\approx6.19$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b=\frac{\sum_{i=1}^{9}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{9}\left(x_i-\overline x\right)^2}\approx -1.149,
+\widehat{b}=\frac{\sum_{i=1}^{9}\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)}{\sum_{i=1}^{9}\left(x_i-\overline{x}\right)^2}\approx-1.149,
 $$
 
 $$
-\widehat a=\overline y-\widehat b\overline x\approx 9.16.
+\widehat{a}=\overline{y}-\widehat{b}\overline{x}\approx9.16.
 $$
 
 Hence by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of tire groove depth on mileage is
 
 $$
-\widehat y=-1.149x+9.16.
+\widehat{y}=-1.149x+9.16.
 $$
 
-Meaning of the model: the slope $\widehat b\approx -1.149$ means that for every additional $1$ thousand $\mathrm{km}$ of mileage, the tire groove depth decreases on average by about $1.149\,\mathrm{mm}$; the intercept $\widehat a\approx 9.16\,\mathrm{mm}$ is the estimated groove depth of a new tire. This shows that as the mileage increases, the tire groove depth decreases approximately linearly, and the tread wears continuously. $\blacksquare$
+Meaning of the model: the slope $\widehat{b}\approx-1.149$ means that for every additional $1$ thousand $\mathrm{km}$ of mileage, the tire groove depth decreases on average by about $1.149\,\mathrm{mm}$; the intercept $\widehat{a}\approx9.16\,\mathrm{mm}$ is the estimated groove depth of a new tire. This shows that as the mileage increases, the tire groove depth decreases approximately linearly, and the tread wears continuously. $\blacksquare$
 
 ## Problem 15
 
@@ -496,13 +496,13 @@ The null hypothesis $H_0$ is that taking the drug is independent of whether one 
 By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{300\times\left(75\times 47-66\times 112\right)^2}{141\times 159\times 187\times 113}\approx 9.47.
+\chi^2=\frac{300\times\left(75\times47-66\times112\right)^2}{141\times159\times187\times113}\approx9.47.
 $$
 
 By **Common Conclusion 8.3.5** (Rules of the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 9.47> 3.841,
+\chi^2\approx9.47>3.841,
 $$
 
 we infer that the null hypothesis does not hold, i.e. at a wrong-decision probability not exceeding $0.05$, the drug may be considered effective. $\blacksquare$
@@ -511,7 +511,7 @@ we infer that the null hypothesis does not hold, i.e. at a wrong-decision probab
 
 (Review Reference Exercise 8, Extension and Exploration, Problem 9) From the daily maximum-temperature data, the meteorological department obtained the average high-temperature data in month $1$ and month $7$ of a certain year for $31$ cities in China, as shown in the following table.
 
-| City | month $1$/$\mathrm{^\circ C}$ | month $7$/$\mathrm{^\circ C}$ | City | month $1$/$\mathrm{^\circ C}$ | month $7$/$\mathrm{^\circ C}$ |
+| City | month $1$/$\mathrm{^\circ{C}}$ | month $7$/$\mathrm{^\circ{C}}$ | City | month $1$/$\mathrm{^\circ{C}}$ | month $7$/$\mathrm{^\circ{C}}$ |
 |---|---|---|---|---|---|
 | Beijing | $3$ | $32$ | Hangzhou | $11$ | $36$ |
 | Chengdu | $12$ | $32$ | Hefei | $9$ | $35$ |
@@ -534,7 +534,7 @@ we infer that the null hypothesis does not hold, i.e. at a wrong-decision probab
 
 (2) Compute the sample correlation coefficient and explain its meaning.
 
-The figure is a scatter plot of the average high temperature in January versus that in July for 31 cities: horizontal axis January average high (in ${^\circ}\mathrm C$), vertical axis July average high (in ${^\circ}\mathrm C$); the points lie roughly in a wide horizontal band with no obvious linear trend.
+The figure is a scatter plot of the average high temperature in January versus that in July for 31 cities: horizontal axis January average high (in ${^\circ}\mathrm{C}$), vertical axis July average high (in ${^\circ}\mathrm{C}$); the points lie roughly in a wide horizontal band with no obvious linear trend.
 
 ### Solution to Problem 16
 
@@ -547,9 +547,9 @@ Hence there is no obvious linear trend between the average high temperatures in 
 (2) From the data, the computed sample correlation coefficient is
 
 $$
-r\approx 0.23.
+r\approx0.23.
 $$
 
-By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r\approx 0.23$ is positive but has a very small absolute value, indicating that the linear correlation between the average high temperatures in month $1$ and month $7$ is very weak.
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r\approx0.23$ is positive but has a very small absolute value, indicating that the linear correlation between the average high temperatures in month $1$ and month $7$ is very weak.
 
 This is because northern cities in China are severely cold in winter and hot in summer, while southern cities are mild in winter and not extremely hot in summer; the temperature in month $1$ mainly reflects a city's north-south latitude position, while the temperature in month $7$ is generally high throughout the country, and there is no simple linear correspondence between the two. $\blacksquare$

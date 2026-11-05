@@ -22,7 +22,7 @@
 
 > **定义 7.3.1 (均值)**
 > 
-> 若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
+> 若离散型随机变量 $X$ 的分布列为 $\mathbb{P}\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb{E}\left(X\right)=x_1p_1+x_2p_2+\cdots+x_np_n=\sum_{i=1}^nx_ip_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
 
 > **定义 7.3.3 (方差与标准差)**
 > 
@@ -42,30 +42,30 @@
 
 ## 习题一
 
-(习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb P\left(AB\right)> 0$ 时, $\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right)$. 据此你能发现计算 $\mathbb P\left(A_1A_2\cdots A_n\right)$ 的公式吗?
+(习题 7.1 拓广探索第 10 题) 证明: 当 $\mathbb{P}\left(AB\right)>0$ 时, $\mathbb{P}\left(ABC\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\mid{A}\right)\mathbb{P}\left(C\mid{A}B\right)$. 据此你能发现计算 $\mathbb{P}\left(A_1A_2\cdots{A}_n\right)$ 的公式吗?
 
 ### 解答 习题一
 
 由**定义 7.1.1 (条件概率)** 及**结论 7.1.2** (概率的乘法公式).
 
-由 $\mathbb P\left(AB\right)> 0$, 必有 $\mathbb P\left(A\right)> 0$ 且 $\mathbb P\left(AB\right)> 0$. 两次使用**结论 7.1.2** (概率的乘法公式):
+由 $\mathbb{P}\left(AB\right)>0$, 必有 $\mathbb{P}\left(A\right)>0$ 且 $\mathbb{P}\left(AB\right)>0$. 两次使用**结论 7.1.2** (概率的乘法公式):
 
 先把 $AB$ 看作一个事件, 有
 
 $$
-\mathbb P\left(ABC\right)=\mathbb P\left(AB\right)\,\mathbb P\left(C\mid AB\right).
+\mathbb{P}\left(ABC\right)=\mathbb{P}\left(AB\right)\,\mathbb{P}\left(C\mid{A}B\right).
 $$
 
-再对 $\mathbb P\left(AB\right)$ 使用乘法公式, 有 $\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)$. 代入得
+再对 $\mathbb{P}\left(AB\right)$ 使用乘法公式, 有 $\mathbb{P}\left(AB\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\mid{A}\right)$. 代入得
 
 $$
-\mathbb P\left(ABC\right)=\mathbb P\left(A\right)\mathbb P\left(B\mid A\right)\mathbb P\left(C\mid AB\right).
+\mathbb{P}\left(ABC\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\mid{A}\right)\mathbb{P}\left(C\mid{A}B\right).
 $$
 
 据此, 反复使用乘法公式, 可得 $n$ 个事件交的概率公式:
 
 $$
-\mathbb P\left(A_1A_2\cdots A_n\right)=\mathbb P\left(A_1\right)\mathbb P\left(A_2\mid A_1\right)\mathbb P\left(A_3\mid A_1A_2\right)\cdots \mathbb P\left(A_n\mid A_1A_2\cdots A_{n-1}\right).
+\mathbb{P}\left(A_1A_2\cdots{A}_n\right)=\mathbb{P}\left(A_1\right)\mathbb{P}\left(A_2\mid{A}_1\right)\mathbb{P}\left(A_3\mid{A}_1A_2\right)\cdots\mathbb{P}\left(A_n\mid{A}_1A_2\cdots{A}_{n-1}\right).
 $$
 
 $\blacksquare$
@@ -122,7 +122,7 @@ $\blacksquare$
 
 由**定义 7.2.4 (两点分布)**, 一次罚球只有命中与不中两种结果.
 
-设 $X$ 为一次罚球的得分, 则 $X$ 的可能取值为 $0,1$, 且 $\mathbb P\left(X=1\right)=0.7$, $\mathbb P\left(X=0\right)=1-0.7=0.3$. 故 $X$ 的分布列为
+设 $X$ 为一次罚球的得分, 则 $X$ 的可能取值为 $0,1$, 且 $\mathbb{P}\left(X=1\right)=0.7$, $\mathbb{P}\left(X=0\right)=1-0.7=0.3$. 故 $X$ 的分布列为
 
 | $X$ | 0 | 1 |
 |---|---|---|
@@ -138,18 +138,18 @@ $\blacksquare$
 
 由**定义 7.2.3 (分布列)**, 先确定 $X$ 的可能取值, 再用古典概型求各取值的概率.
 
-抛掷 2 次硬币, 正面向上次数 $X$ 的可能取值为 $0,1,2$. 样本空间为 $\left\{正正, 正反, 反正, 反反\right\}$, 共 4 个等可能样本点.
+抛掷 2 次硬币, 正面向上次数 $X$ 的可能取值为 $0,1,2$. 样本空间为 $\left\{正正,正反,反正,反反\right\}$, 共 4 个等可能样本点.
 
 $$
-\mathbb P\left(X=0\right)=\mathbb P\left(\text{反反}\right)=\frac{1}{4}.
-$$
-
-$$
-\mathbb P\left(X=1\right)=\frac{2}{4}=\frac{1}{2}.
+\mathbb{P}\left(X=0\right)=\mathbb{P}\left(\text{反反}\right)=\frac{1}{4}.
 $$
 
 $$
-\mathbb P\left(X=2\right)=\mathbb P\left(\text{正正}\right)=\frac{1}{4}.
+\mathbb{P}\left(X=1\right)=\frac{2}{4}=\frac{1}{2}.
+$$
+
+$$
+\mathbb{P}\left(X=2\right)=\mathbb{P}\left(\text{正正}\right)=\frac{1}{4}.
 $$
 
 故 $X$ 的分布列为
@@ -175,7 +175,7 @@ $\blacksquare$
 (1) 每个路口遇红灯记为 $R$, 遇绿灯记为 $G$, 4 个路口共有 $2^4=16$ 个样本点, 样本空间为
 
 $$
-\Omega=\left\{RRRR, RRRG, RRGR, \cdots, GGGG\right\}.
+\Omega=\left\{RRRR,RRRG,RRGR,\cdots,GGGG\right\}.
 $$
 
 (2) $X$ 为遇到红灯的次数, 其可能取值为 $0,1,2,3,4$, 其中 $X=k$ ($k=0,1,2,3,4$) 表示经过 4 个路口时恰遇到 $k$ 次红灯. $\blacksquare$
@@ -197,7 +197,7 @@ $$
 计算各概率之和:
 
 $$
-0.2+0.3+0.15+0.45=1.1\neq 1.
+0.2+0.3+0.15+0.45=1.1\neq1.
 $$
 
 该结果不满足**定义 7.2.3 (分布列)** 的性质 (2), 故该同学的计算结果不正确. $\blacksquare$
@@ -215,7 +215,7 @@ $$
 如果只关心该同学是否取得优秀成绩, 可定义随机变量
 
 $$
-Y=\begin{cases}1, & \text{成绩优秀 \left(时间不超过 }4\,\mathrm{min}\right),\\0, & \text{成绩不优秀}.\end{cases}
+Y=\begin{cases}1,&\text{成绩优秀~\left(时间不超过~}4\,\mathrm{min}\right),\\0,&\text{成绩不优秀}.\end{cases}
 $$
 
 此时 $Y$ 只有两个可能取值 $0,1$, 服从两点分布. $\blacksquare$
@@ -235,7 +235,7 @@ $$
 由**定义 7.2.3 (分布列)**, 事件 "成绩优秀" 即 $\left\{X=9\right\}\cup\left\{X=10\right\}$, 由概率的加法公式求其概率.
 
 $$
-\mathbb P\left(\text{优秀}\right)=\mathbb P\left(X=9\right)+\mathbb P\left(X=10\right)=0.35+0.20=0.55.
+\mathbb{P}\left(\text{优秀}\right)=\mathbb{P}\left(X=9\right)+\mathbb{P}\left(X=10\right)=0.35+0.20=0.55.
 $$
 
 故他一次射击成绩为优秀的概率是 0.55. $\blacksquare$
@@ -255,19 +255,19 @@ $$
 设 $X$ 为抽到他能背诵的课文的数量. 从 10 篇中任取 3 篇, 样本空间含 $\binom{10}{3}$ 个等可能样本点. 10 篇中他会背 6 篇, 不会背 4 篇. $X$ 的可能取值为 $0,1,2,3$.
 
 $$
-\mathbb P\left(X=0\right)=\frac{\binom{6}{0} \binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
+\mathbb{P}\left(X=0\right)=\frac{\binom{6}{0}\binom{4}{3}}{\binom{10}{3}}=\frac{4}{120}=\frac{1}{30}.
 $$
 
 $$
-\mathbb P\left(X=1\right)=\frac{\binom{6}{1} \binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
+\mathbb{P}\left(X=1\right)=\frac{\binom{6}{1}\binom{4}{2}}{\binom{10}{3}}=\frac{36}{120}=\frac{3}{10}.
 $$
 
 $$
-\mathbb P\left(X=2\right)=\frac{\binom{6}{2} \binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
+\mathbb{P}\left(X=2\right)=\frac{\binom{6}{2}\binom{4}{1}}{\binom{10}{3}}=\frac{60}{120}=\frac{1}{2}.
 $$
 
 $$
-\mathbb P\left(X=3\right)=\frac{\binom{6}{3} \binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
+\mathbb{P}\left(X=3\right)=\frac{\binom{6}{3}\binom{4}{0}}{\binom{10}{3}}=\frac{20}{120}=\frac{1}{6}.
 $$
 
 (1) $X$ 的分布列为
@@ -276,10 +276,10 @@ $$
 |---|---|---|---|---|
 | $P$ | $\frac{1}{30}$ | $\frac{3}{10}$ | $\frac{1}{2}$ | $\frac{1}{6}$ |
 
-(2) 至少背出 2 篇才能及格, 即事件 $\left\{X\ge 2\right\}$, 故
+(2) 至少背出 2 篇才能及格, 即事件 $\left\{X\ge2\right\}$, 故
 
 $$
-\mathbb P\left(\text{及格}\right)=\mathbb P\left(X=2\right)+\mathbb P\left(X=3\right)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
+\mathbb{P}\left(\text{及格}\right)=\mathbb{P}\left(X=2\right)+\mathbb{P}\left(X=3\right)=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}.
 $$
 
 $\blacksquare$
@@ -299,15 +299,15 @@ $\blacksquare$
 设 $X$ 为李明一年内参加考试的次数. 一旦通过即停止, 故: $X=1$ 表示第 1 次即通过; $X=2$ 表示第 1 次未通过而第 2 次通过; $X=3$ 表示前 2 次都未通过 (无论第 3 次是否通过).
 
 $$
-\mathbb P\left(X=1\right)=0.6.
+\mathbb{P}\left(X=1\right)=0.6.
 $$
 
 $$
-\mathbb P\left(X=2\right)=\left(1-0.6\right)\times 0.7=0.4\times 0.7=0.28.
+\mathbb{P}\left(X=2\right)=\left(1-0.6\right)\times0.7=0.4\times0.7=0.28.
 $$
 
 $$
-\mathbb P\left(X=3\right)=\left(1-0.6\right)\times\left(1-0.7\right)=0.4\times 0.3=0.12.
+\mathbb{P}\left(X=3\right)=\left(1-0.6\right)\times\left(1-0.7\right)=0.4\times0.3=0.12.
 $$
 
 (1) $X$ 的分布列为
@@ -316,10 +316,10 @@ $$
 |---|---|---|---|
 | $P$ | 0.6 | 0.28 | 0.12 |
 
-(2) 领到资格证书即至少有一次通过, 其对立事件为三次都未通过. 三次都未通过的概率为 $0.4\times 0.3\times 0.2=0.024$, 故
+(2) 领到资格证书即至少有一次通过, 其对立事件为三次都未通过. 三次都未通过的概率为 $0.4\times0.3\times0.2=0.024$, 故
 
 $$
-\mathbb P\left(\text{领到证书}\right)=1-0.024=0.976.
+\mathbb{P}\left(\text{领到证书}\right)=1-0.024=0.976.
 $$
 
 $\blacksquare$
@@ -332,9 +332,9 @@ $\blacksquare$
 |---|---|---|---|---|---|
 | $P$ | 0.1 | 0.3 | 0.4 | 0.1 | 0.1 |
 
-(1) 求 $\mathbb E\left(X\right)$;
+(1) 求 $\mathbb{E}\left(X\right)$;
 
-(2) 求 $\mathbb E\left(3X+2\right)$.
+(2) 求 $\mathbb{E}\left(3X+2\right)$.
 
 ### 解答 练习五
 
@@ -343,13 +343,13 @@ $\blacksquare$
 (1)
 
 $$
-\mathbb E\left(X\right)=1\times 0.1+2\times 0.3+3\times 0.4+4\times 0.1+5\times 0.1=2.8.
+\mathbb{E}\left(X\right)=1\times0.1+2\times0.3+3\times0.4+4\times0.1+5\times0.1=2.8.
 $$
 
 (2) 由**结论 7.3.2** (均值的性质),
 
 $$
-\mathbb E\left(3X+2\right)=3\mathbb E\left(X\right)+2=3\times 2.8+2=10.4.
+\mathbb{E}\left(3X+2\right)=3\mathbb{E}\left(X\right)+2=3\times2.8+2=10.4.
 $$
 
 $\blacksquare$
@@ -362,10 +362,10 @@ $\blacksquare$
 
 由**定义 7.3.1 (均值)**.
 
-设 $X$ 为得分, 抛掷均匀硬币, $\mathbb P\left(X=1\right)=\mathbb P\left(X=-1\right)=0.5$. 故
+设 $X$ 为得分, 抛掷均匀硬币, $\mathbb{P}\left(X=1\right)=\mathbb{P}\left(X=-1\right)=0.5$. 故
 
 $$
-\mathbb E\left(X\right)=1\times 0.5+\left(-1\right)\times 0.5=0.
+\mathbb{E}\left(X\right)=1\times0.5+\left(-1\right)\times0.5=0.
 $$
 
 $\blacksquare$
@@ -389,14 +389,14 @@ $\blacksquare$
 由**定义 7.3.1 (均值)**, 比较两台机床生产次品数的期望.
 
 $$
-\mathbb E\left(X_1\right)=0\times 0.4+1\times 0.3+2\times 0.2+3\times 0.1=1.0.
+\mathbb{E}\left(X_1\right)=0\times0.4+1\times0.3+2\times0.2+3\times0.1=1.0.
 $$
 
 $$
-\mathbb E\left(X_2\right)=0\times 0.3+1\times 0.5+2\times 0.2=0.9.
+\mathbb{E}\left(X_2\right)=0\times0.3+1\times0.5+2\times0.2=0.9.
 $$
 
-因为 $\mathbb E\left(X_2\right)< \mathbb E\left(X_1\right)$, 即乙机床平均每小时生产的次品数较少, 故乙机床更好. 其实际含义是: 在产量相同的情况下, 乙机床出次品的平均水平更低, 质量更稳定可靠. $\blacksquare$
+因为 $\mathbb{E}\left(X_2\right)<\mathbb{E}\left(X_1\right)$, 即乙机床平均每小时生产的次品数较少, 故乙机床更好. 其实际含义是: 在产量相同的情况下, 乙机床出次品的平均水平更低, 质量更稳定可靠. $\blacksquare$
 
 ## 练习八
 
@@ -413,39 +413,39 @@ $$
 由**定义 7.3.1 (均值)**, **结论 7.3.4** (方差的简化公式) 及**结论 7.3.5** (方差的性质).
 
 $$
-\mathbb E\left(X\right)=1\times 0.2+2\times 0.3+3\times 0.4+4\times 0.1=2.4.
+\mathbb{E}\left(X\right)=1\times0.2+2\times0.3+3\times0.4+4\times0.1=2.4.
 $$
 
 $$
-\mathbb E\left(X^2\right)=1^2\times 0.2+2^2\times 0.3+3^2\times 0.4+4^2\times 0.1=6.6.
+\mathbb{E}\left(X^2\right)=1^2\times0.2+2^2\times0.3+3^2\times0.4+4^2\times0.1=6.6.
 $$
 
 由**结论 7.3.4** (方差的简化公式),
 
 $$
-D\left(X\right)=\mathbb E\left(X^2\right)-\left(\mathbb E\left(X\right)\right)^2=6.6-2.4^2=6.6-5.76=0.84.
+D\left(X\right)=\mathbb{E}\left(X^2\right)-\left(\mathbb{E}\left(X\right)\right)^2=6.6-2.4^2=6.6-5.76=0.84.
 $$
 
-由**结论 7.3.5** (方差的性质), $D\left(2X+7\right)=4D\left(X\right)=4\times 0.84=3.36$, 故
+由**结论 7.3.5** (方差的性质), $D\left(2X+7\right)=4D\left(X\right)=4\times0.84=3.36$, 故
 
 $$
-\sigma\left(2X+7\right)=\sqrt{3.36}\approx 1.83.
+\sigma\left(2X+7\right)=\sqrt{3.36}\approx1.83.
 $$
 
 $\blacksquare$
 
 ## 练习九
 
-(练习 7.3 第 2 题) 若随机变量 $X$ 满足 $\mathbb P\left(X=c\right)=1$, 其中 $c$ 为常数, 求 $D\left(X\right)$.
+(练习 7.3 第 2 题) 若随机变量 $X$ 满足 $\mathbb{P}\left(X=c\right)=1$, 其中 $c$ 为常数, 求 $D\left(X\right)$.
 
 ### 解答 练习九
 
 由**定义 7.3.1 (均值)** 与**定义 7.3.3 (方差与标准差)**.
 
-因为 $\mathbb P\left(X=c\right)=1$, 故 $\mathbb E\left(X\right)=c\times 1=c$. 由**定义 7.3.3 (方差与标准差)**,
+因为 $\mathbb{P}\left(X=c\right)=1$, 故 $\mathbb{E}\left(X\right)=c\times1=c$. 由**定义 7.3.3 (方差与标准差)**,
 
 $$
-D\left(X\right)=\left(c-\mathbb E\left(X\right)\right)^2\times 1=\left(c-c\right)^2=0.
+D\left(X\right)=\left(c-\mathbb{E}\left(X\right)\right)^2\times1=\left(c-c\right)^2=0.
 $$
 
 $\blacksquare$
@@ -470,17 +470,17 @@ $\blacksquare$
 
 两个分布都关于 0 对称, 直观上乙班的误差更集中在 0 附近 (概率 0.6), 故 $X$ 的离散程度较大.
 
-因为两分布对称, $\mathbb E\left(X\right)=0$, $\mathbb E\left(Y\right)=0$. 计算方差:
+因为两分布对称, $\mathbb{E}\left(X\right)=0$, $\mathbb{E}\left(Y\right)=0$. 计算方差:
 
 $$
-D\left(X\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
+D\left(X\right)=\left(-2\right)^2\times0.1+\left(-1\right)^2\times0.2+0^2\times0.4+1^2\times0.2+2^2\times0.1=1.2.
 $$
 
 $$
-D\left(Y\right)=\left(-2\right)^2\times 0.05+\left(-1\right)^2\times 0.15+0^2\times 0.6+1^2\times 0.15+2^2\times 0.05=0.7.
+D\left(Y\right)=\left(-2\right)^2\times0.05+\left(-1\right)^2\times0.15+0^2\times0.6+1^2\times0.15+2^2\times0.05=0.7.
 $$
 
-由 $D\left(X\right)=1.2> D\left(Y\right)=0.7$, 知 $X$ 的离散程度较大, 与直观判断一致. $\blacksquare$
+由 $D\left(X\right)=1.2>{}D\left(Y\right)=0.7$, 知 $X$ 的离散程度较大, 与直观判断一致. $\blacksquare$
 
 ## 习题八
 
@@ -493,17 +493,17 @@ $$
 设每部手机利润为 $X$, 其可能取值为 $100$, $0$, $-300$, 对应概率 $0.6$, $0.3$, $0.1$.
 
 $$
-\mathbb E\left(X\right)=100\times 0.6+0\times 0.3+\left(-300\right)\times 0.1=30.
+\mathbb{E}\left(X\right)=100\times0.6+0\times0.3+\left(-300\right)\times0.1=30.
 $$
 
 $$
-\mathbb E\left(X^2\right)=100^2\times 0.6+0^2\times 0.3+\left(-300\right)^2\times 0.1=15000.
+\mathbb{E}\left(X^2\right)=100^2\times0.6+0^2\times0.3+\left(-300\right)^2\times0.1=15000.
 $$
 
 由**结论 7.3.4** (方差的简化公式),
 
 $$
-D\left(X\right)=\mathbb E\left(X^2\right)-\left(\mathbb E\left(X\right)\right)^2=15000-30^2=14100.
+D\left(X\right)=\mathbb{E}\left(X^2\right)-\left(\mathbb{E}\left(X\right)\right)^2=15000-30^2=14100.
 $$
 
 故每部手机利润的均值为 30 元, 方差为 14100. $\blacksquare$
@@ -516,21 +516,21 @@ $$
 
 由**定义 7.3.1 (均值)**.
 
-设 1 张彩票中奖金额为 $X$, 用加权平均求 $\mathbb E\left(X\right)$.
+设 1 张彩票中奖金额为 $X$, 用加权平均求 $\mathbb{E}\left(X\right)$.
 
 $$
-\mathbb E\left(X\right)=\frac{2\times 1000+10\times 300+50\times 100+100\times 50+1000\times 5}{10000}.
+\mathbb{E}\left(X\right)=\frac{2\times1000+10\times300+50\times100+100\times50+1000\times5}{10000}.
 $$
 
 $$
-\mathbb E\left(X\right)=\frac{2000+3000+5000+5000+5000}{10000}=\frac{20000}{10000}=2.
+\mathbb{E}\left(X\right)=\frac{2000+3000+5000+5000+5000}{10000}=\frac{20000}{10000}=2.
 $$
 
 故 1 张彩票中奖金额的均值是 2 元. $\blacksquare$
 
 ## 习题十
 
-(习题 7.3 复习巩固第 3 题) 随机变量 $X$ 的分布列为 $\mathbb P\left(X=0\right)=0.2$, $\mathbb P\left(X=1\right)=a$, $\mathbb P\left(X=2\right)=b$. 若 $\mathbb E\left(X\right)=1$, 求 $a$ 和 $b$.
+(习题 7.3 复习巩固第 3 题) 随机变量 $X$ 的分布列为 $\mathbb{P}\left(X=0\right)=0.2$, $\mathbb{P}\left(X=1\right)=a$, $\mathbb{P}\left(X=2\right)=b$. 若 $\mathbb{E}\left(X\right)=1$, 求 $a$ 和 $b$.
 
 ### 解答 习题十
 
@@ -539,13 +539,13 @@ $$
 由分布列各概率之和为 1, 得
 
 $$
-0.2+a+b=1,\quad \text{即 } a+b=0.8.
+0.2+a+b=1,\quad\text{即~}a+b=0.8.
 $$
 
-由 $\mathbb E\left(X\right)=1$, 得
+由 $\mathbb{E}\left(X\right)=1$, 得
 
 $$
-\mathbb E\left(X\right)=0\times 0.2+1\times a+2\times b=a+2b=1.
+\mathbb{E}\left(X\right)=0\times0.2+1\times{a}+2\times{b}=a+2b=1.
 $$
 
 联立两式, 相减得 $b=0.2$, 代回得 $a=0.6$. $\blacksquare$
@@ -567,32 +567,32 @@ $$
 取一组满足该式的分值即可. 例如取 $m=3$, $n=-1$, 则
 
 $$
-0.25\times 3+0.75\times\left(-1\right)=0.75-0.75=0.
+0.25\times3+0.75\times\left(-1\right)=0.75-0.75=0.
 $$
 
 故可规定选对得 3 分, 选错扣 1 分. $\blacksquare$
 
 ## 习题十二
 
-(习题 7.3 复习巩固第 5 题) 证明: $D\left(aX+b\right)=a^2 D\left(X\right)$.
+(习题 7.3 复习巩固第 5 题) 证明: $D\left(aX+b\right)=a^2D\left(X\right)$.
 
 ### 解答 习题十二
 
 由**结论 7.3.2** (均值的性质) 与**定义 7.3.3 (方差与标准差)**.
 
-由**结论 7.3.2** (均值的性质), $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$. 由**定义 7.3.3 (方差与标准差)**,
+由**结论 7.3.2** (均值的性质), $\mathbb{E}\left(aX+b\right)=a\mathbb{E}\left(X\right)+b$. 由**定义 7.3.3 (方差与标准差)**,
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-\mathbb E\left(aX+b\right)\right)^2 p_i.
+D\left(aX+b\right)=\sum_{i=1}^n\left(ax_i+b-\mathbb{E}\left(aX+b\right)\right)^2p_i.
 $$
 
-代入 $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$, 得
+代入 $\mathbb{E}\left(aX+b\right)=a\mathbb{E}\left(X\right)+b$, 得
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-a\mathbb E\left(X\right)-b\right)^2 p_i=\sum_{i=1}^n a^2\left(x_i-\mathbb E\left(X\right)\right)^2 p_i=a^2 D\left(X\right).
+D\left(aX+b\right)=\sum_{i=1}^n\left(ax_i+b-a\mathbb{E}\left(X\right)-b\right)^2p_i=\sum_{i=1}^na^2\left(x_i-\mathbb{E}\left(X\right)\right)^2p_i=a^2D\left(X\right).
 $$
 
-故 $D\left(aX+b\right)=a^2 D\left(X\right)$. $\blacksquare$
+故 $D\left(aX+b\right)=a^2D\left(X\right)$. $\blacksquare$
 
 ## 习题十三
 
@@ -605,16 +605,16 @@ $$
 若先猜 $A$: 猜错 $A$ (概率 0.2) 得 0 元; 猜对 $A$ (概率 0.8) 后再猜 $B$, 猜对 $B$ (概率 0.5) 得 $10+20=30$ 元, 猜错 $B$ (概率 0.5) 得 10 元. 所得奖金 $X_1$ 的期望为
 
 $$
-\mathbb E\left(X_1\right)=0\times 0.2+10\times\left(0.8\times 0.5\right)+30\times\left(0.8\times 0.5\right)=4+12=16.
+\mathbb{E}\left(X_1\right)=0\times0.2+10\times\left(0.8\times0.5\right)+30\times\left(0.8\times0.5\right)=4+12=16.
 $$
 
 若先猜 $B$: 猜错 $B$ (概率 0.5) 得 0 元; 猜对 $B$ (概率 0.5) 后再猜 $A$, 猜对 $A$ (概率 0.8) 得 $20+10=30$ 元, 猜错 $A$ (概率 0.2) 得 20 元. 所得奖金 $X_2$ 的期望为
 
 $$
-\mathbb E\left(X_2\right)=0\times 0.5+20\times\left(0.5\times 0.2\right)+30\times\left(0.5\times 0.8\right)=2+12=14.
+\mathbb{E}\left(X_2\right)=0\times0.5+20\times\left(0.5\times0.2\right)+30\times\left(0.5\times0.8\right)=2+12=14.
 $$
 
-因为 $\mathbb E\left(X_1\right)=16> \mathbb E\left(X_2\right)=14$, 故张某应选择先猜 $A$ 谜语. $\blacksquare$
+因为 $\mathbb{E}\left(X_1\right)=16>\mathbb{E}\left(X_2\right)=14$, 故张某应选择先猜 $A$ 谜语. $\blacksquare$
 
 ## 习题十四
 
@@ -634,21 +634,21 @@ $$
 
 由**定义 7.3.1 (均值)** 与**定义 7.3.3 (方差与标准差)**.
 
-两分布都关于 0 对称, 故 $\mathbb E\left(X\right)=0$, $\mathbb E\left(Y\right)=0$, 即两种手表平均走时都无偏差.
+两分布都关于 0 对称, 故 $\mathbb{E}\left(X\right)=0$, $\mathbb{E}\left(Y\right)=0$, 即两种手表平均走时都无偏差.
 
 $$
-D\left(X\right)=\left(-1\right)^2\times 0.1+0^2\times 0.8+1^2\times 0.1=0.2.
+D\left(X\right)=\left(-1\right)^2\times0.1+0^2\times0.8+1^2\times0.1=0.2.
 $$
 
 $$
-D\left(Y\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
+D\left(Y\right)=\left(-2\right)^2\times0.1+\left(-1\right)^2\times0.2+0^2\times0.4+1^2\times0.2+2^2\times0.1=1.2.
 $$
 
-因为 $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ 而 $D\left(X\right)< D\left(Y\right)$, 即甲手表走时误差更小, 更稳定, 故甲品牌手表性能更好. $\blacksquare$
+因为 $\mathbb{E}\left(X\right)=\mathbb{E}\left(Y\right)$ 而 $D\left(X\right)<{}D\left(Y\right)$, 即甲手表走时误差更小, 更稳定, 故甲品牌手表性能更好. $\blacksquare$
 
 ## 习题十五
 
-(习题 7.3 拓广探索第 8 题) 设 $\mathbb E\left(X\right)=\mu$, $a$ 是不等于 $\mu$ 的常数, 探究 $X$ 相对于 $\mu$ 的偏离程度与 $X$ 相对于 $a$ 的偏离程度的大小关系, 并说明结论的意义.
+(习题 7.3 拓广探索第 8 题) 设 $\mathbb{E}\left(X\right)=\mu$, $a$ 是不等于 $\mu$ 的常数, 探究 $X$ 相对于 $\mu$ 的偏离程度与 $X$ 相对于 $a$ 的偏离程度的大小关系, 并说明结论的意义.
 
 ### 解答 习题十五
 
@@ -657,20 +657,20 @@ $$
 用均方偏离度量 $X$ 相对于一个常数的偏离程度. 展开 $X$ 相对于 $a$ 的均方偏离:
 
 $$
-\mathbb E\left(\left(X-a\right)^2\right)=\mathbb E\left(\left(X-\mu+\mu-a\right)^2\right).
+\mathbb{E}\left(\left(X-a\right)^2\right)=\mathbb{E}\left(\left(X-\mu+\mu-a\right)^2\right).
 $$
 
 $$
-=\mathbb E\left(\left(X-\mu\right)^2\right)+2\left(\mu-a\right)\mathbb E\left(X-\mu\right)+\left(\mu-a\right)^2.
+=\mathbb{E}\left(\left(X-\mu\right)^2\right)+2\left(\mu-a\right)\mathbb{E}\left(X-\mu\right)+\left(\mu-a\right)^2.
 $$
 
-因为 $\mathbb E\left(X-\mu\right)=\mathbb E\left(X\right)-\mu=0$, 故
+因为 $\mathbb{E}\left(X-\mu\right)=\mathbb{E}\left(X\right)-\mu=0$, 故
 
 $$
-\mathbb E\left(\left(X-a\right)^2\right)=D\left(X\right)+\left(\mu-a\right)^2.
+\mathbb{E}\left(\left(X-a\right)^2\right)=D\left(X\right)+\left(\mu-a\right)^2.
 $$
 
-由于 $a\neq\mu$, $\left(\mu-a\right)^2> 0$, 故 $\mathbb E\left(\left(X-a\right)^2\right)> D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. 即 $X$ 相对于 $\mu$ 的偏离程度最小. 其意义是: 均值 $\mu$ 是使随机变量与其均方偏离达到最小的常数, 这正是均值能代表随机变量平均水平的原因. $\blacksquare$
+由于 $a\neq\mu$, $\left(\mu-a\right)^2>0$, 故 $\mathbb{E}\left(\left(X-a\right)^2\right)>{}D\left(X\right)=\mathbb{E}\left(\left(X-\mu\right)^2\right)$. 即 $X$ 相对于 $\mu$ 的偏离程度最小. 其意义是: 均值 $\mu$ 是使随机变量与其均方偏离达到最小的常数, 这正是均值能代表随机变量平均水平的原因. $\blacksquare$
 
 ## 练习十一
 
@@ -678,21 +678,21 @@ $$
 
 (1) 求 $X$ 的分布列;
 
-(2) 求 $\mathbb E\left(X\right)=\;\_\_\;$, $D\left(X\right)=\;\_\_\;$.
+(2) 求 $\mathbb{E}\left(X\right)=\;\_\_\;$, $D\left(X\right)=\;\_\_\;$.
 
 ### 解答 练习十一
 
 由**定义 7.4.2 (二项分布)** 与**结论 7.4.3** (二项分布的均值与方差).
 
-抛掷硬币 4 次, 每次正面向上的概率为 $0.5$, 各次独立, 故 $X\sim B\left(4,0.5\right)$.
+抛掷硬币 4 次, 每次正面向上的概率为 $0.5$, 各次独立, 故 $X\sim{B}\left(4,0.5\right)$.
 
-(1) 由**定义 7.4.2 (二项分布)**, $\mathbb P\left(X=k\right)=\binom{4}{k} \left(0.5\right)^4$, 故分布列为
+(1) 由**定义 7.4.2 (二项分布)**, $\mathbb{P}\left(X=k\right)=\binom{4}{k}\left(0.5\right)^4$, 故分布列为
 
 | $X$ | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
 | $P$ | $\frac{1}{16}$ | $\frac{1}{4}$ | $\frac{3}{8}$ | $\frac{1}{4}$ | $\frac{1}{16}$ |
 
-(2) 由**结论 7.4.3** (二项分布的均值与方差), $\mathbb E\left(X\right)=np=4\times 0.5=2$, $D\left(X\right)=np\left(1-p\right)=4\times 0.5\times 0.5=1$. 故填空处依次为 $2$, $1$. $\blacksquare$
+(2) 由**结论 7.4.3** (二项分布的均值与方差), $\mathbb{E}\left(X\right)=np=4\times0.5=2$, $D\left(X\right)=np\left(1-p\right)=4\times0.5\times0.5=1$. 故填空处依次为 $2$, $1$. $\blacksquare$
 
 ## 练习十二
 
@@ -706,18 +706,18 @@ $$
 
 由**定义 7.4.2 (二项分布)**.
 
-设 $X$ 为 5 只鸡中没有感染疾病的只数, 则每只鸡不感染的概率为 $0.8$, 各只相互独立, 故 $X\sim B\left(5,0.8\right)$.
+设 $X$ 为 5 只鸡中没有感染疾病的只数, 则每只鸡不感染的概率为 $0.8$, 各只相互独立, 故 $X\sim{B}\left(5,0.8\right)$.
 
 (1)
 
 $$
-\mathbb P\left(X=5\right)=0.8^5\approx 0.3277.
+\mathbb{P}\left(X=5\right)=0.8^5\approx0.3277.
 $$
 
 (2) 恰有 1 只感染即恰有 4 只不感染,
 
 $$
-\mathbb P\left(X=4\right)=\binom{5}{4} \left(0.8\right)^4\times 0.2=5\times 0.8^4\times 0.2\approx 0.4096.
+\mathbb{P}\left(X=4\right)=\binom{5}{4}\left(0.8\right)^4\times0.2=5\times0.8^4\times0.2\approx0.4096.
 $$
 
 $\blacksquare$
@@ -734,7 +734,7 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)** 与**定义 7.4.4 (超几何分布)**.
 
-(1) 每次射击独立, 每次只有击中与未击中两种结果, 击中概率恒为 $0.8$, 故 $X$ 服从二项分布, $X\sim B\left(12,0.8\right)$, 参数 $n=12$, $p=0.8$.
+(1) 每次射击独立, 每次只有击中与未击中两种结果, 击中概率恒为 $0.8$, 故 $X$ 服从二项分布, $X\sim{B}\left(12,0.8\right)$, 参数 $n=12$, $p=0.8$.
 
 (2) 抽取是不放回的, 各次抽取并不相互独立, 次品件数 $Y$ 服从**定义 7.4.4 (超几何分布)**, 而不服从二项分布. $\blacksquare$
 
@@ -746,6 +746,6 @@ $\blacksquare$
 
 由**定义 7.4.2 (二项分布)**, 二项分布描述 $n$ 次独立重复试验中事件发生的次数.
 
-(1) 某射手每次射击命中目标的概率为 $0.7$, 他连续射击 10 次, 命中目标的次数 $X$ 服从二项分布 $X\sim B\left(10,0.7\right)$.
+(1) 某射手每次射击命中目标的概率为 $0.7$, 他连续射击 10 次, 命中目标的次数 $X$ 服从二项分布 $X\sim{B}\left(10,0.7\right)$.
 
-(2) 某工厂生产的产品次品率为 $0.05$, 从中有放回地抽查 20 件, 其中次品的件数 $Y$ 服从二项分布 $Y\sim B\left(20,0.05\right)$. $\blacksquare$
+(2) 某工厂生产的产品次品率为 $0.05$, 从中有放回地抽查 20 件, 其中次品的件数 $Y$ 服从二项分布 $Y\sim{B}\left(20,0.05\right)$. $\blacksquare$

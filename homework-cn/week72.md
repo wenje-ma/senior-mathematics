@@ -60,18 +60,18 @@
 
 由**结论 7.1.4** (事件的相互独立), 两枚骰子掷出的点数相互独立.
 
-设 $A$ = "第一枚骰子掷出偶数", $B$ = "第二枚骰子掷出偶数". 每枚骰子掷出偶数点的概率为 $\frac{3}{6}=\frac{1}{2}$, 故 $\mathbb P\left(A\right)=\mathbb P\left(B\right)=\frac{1}{2}$.
+设 $A$ = "第一枚骰子掷出偶数", $B$ = "第二枚骰子掷出偶数". 每枚骰子掷出偶数点的概率为 $\frac{3}{6}=\frac{1}{2}$, 故 $\mathbb{P}\left(A\right)=\mathbb{P}\left(B\right)=\frac{1}{2}$.
 
 (1) 由**结论 7.1.4** (事件的相互独立), 两个点数都为偶数的概率为
 
 $$
-\mathbb P\left(AB\right)=\mathbb P\left(A\right)\mathbb P\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}.
+\mathbb{P}\left(AB\right)=\mathbb{P}\left(A\right)\mathbb{P}\left(B\right)=\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}.
 $$
 
 (2) 由**结论 7.1.4** (事件的相互独立), 已知第一枚为偶数, 第二枚是否为偶数不受影响, 故
 
 $$
-\mathbb P\left(B\mid A\right)=\mathbb P\left(B\right)=\frac{1}{2}.
+\mathbb{P}\left(B\mid{A}\right)=\mathbb{P}\left(B\right)=\frac{1}{2}.
 $$
 
 $\blacksquare$
@@ -88,24 +88,24 @@ $\blacksquare$
 
 由**结论 7.1.5** (全概率公式) 及**结论 7.1.6** (贝叶斯公式).
 
-设 $A_1$ = "挑出的是第一箱", $A_2$ = "挑出的是第二箱", $B$ = "取出的零件是次品". 随意挑选一箱, 故 $\mathbb P\left(A_1\right)=\mathbb P\left(A_2\right)=\frac{1}{2}$. 第一箱次品率为 $\frac{2}{10}=0.2$, 第二箱次品率为 $\frac{3}{20}=0.15$, 故 $\mathbb P\left(B\mid A_1\right)=0.2$, $\mathbb P\left(B\mid A_2\right)=0.15$.
+设 $A_1$ = "挑出的是第一箱", $A_2$ = "挑出的是第二箱", $B$ = "取出的零件是次品". 随意挑选一箱, 故 $\mathbb{P}\left(A_1\right)=\mathbb{P}\left(A_2\right)=\frac{1}{2}$. 第一箱次品率为 $\frac{2}{10}=0.2$, 第二箱次品率为 $\frac{3}{20}=0.15$, 故 $\mathbb{P}\left(B\mid{A}_1\right)=0.2$, $\mathbb{P}\left(B\mid{A}_2\right)=0.15$.
 
 (1) 由**结论 7.1.5** (全概率公式),
 
 $$
-\mathbb P\left(B\right)=\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)+\mathbb P\left(A_2\right)\mathbb P\left(B\mid A_2\right).
+\mathbb{P}\left(B\right)=\mathbb{P}\left(A_1\right)\mathbb{P}\left(B\mid{A}_1\right)+\mathbb{P}\left(A_2\right)\mathbb{P}\left(B\mid{A}_2\right).
 $$
 
 代入数据, 得
 
 $$
-\mathbb P\left(B\right)=\frac{1}{2}\times 0.2+\frac{1}{2}\times 0.15=0.1+0.075=0.175.
+\mathbb{P}\left(B\right)=\frac{1}{2}\times0.2+\frac{1}{2}\times0.15=0.1+0.075=0.175.
 $$
 
 (2) 由**结论 7.1.6** (贝叶斯公式),
 
 $$
-\mathbb P\left(A_1\mid B\right)=\frac{\mathbb P\left(A_1\right)\mathbb P\left(B\mid A_1\right)}{\mathbb P\left(B\right)}=\frac{\frac{1}{2}\times 0.2}{0.175}=\frac{0.1}{0.175}=\frac{4}{7}.
+\mathbb{P}\left(A_1\mid{B}\right)=\frac{\mathbb{P}\left(A_1\right)\mathbb{P}\left(B\mid{A}_1\right)}{\mathbb{P}\left(B\right)}=\frac{\frac{1}{2}\times0.2}{0.175}=\frac{0.1}{0.175}=\frac{4}{7}.
 $$
 
 $\blacksquare$
@@ -118,7 +118,7 @@ $\blacksquare$
 |---|---|---|---|
 | $P$ | 0.36 | $1-2q$ | $q^2$ |
 
-求: (1) 常数 $q$ 的值; (2) $\mathbb E\left(X\right)$ 和 $D\left(X\right)$.
+求: (1) 常数 $q$ 的值; (2) $\mathbb{E}\left(X\right)$ 和 $D\left(X\right)$.
 
 ### 解答 习题三
 
@@ -136,47 +136,47 @@ $$
 q^2-2q+0.36=0.
 $$
 
-解此一元二次方程, 得 $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm 1.6}{2}$, 即 $q=1.8$ 或 $q=0.2$. 当 $q=1.8$ 时, $1-2q=-2.6< 0$, 不满足**定义 7.2.3 (分布列)** 中 $p_i\ge 0$, 舍去; 当 $q=0.2$ 时, $1-2q=0.6\ge 0$, $q^2=0.04\ge 0$, 且 $0.36+0.6+0.04=1$, 符合要求. 故 $q=0.2$.
+解此一元二次方程, 得 $q=\frac{2\pm\sqrt{4-1.44}}{2}=\frac{2\pm1.6}{2}$, 即 $q=1.8$ 或 $q=0.2$. 当 $q=1.8$ 时, $1-2q=-2.6<0$, 不满足**定义 7.2.3 (分布列)** 中 $p_i\ge0$, 舍去; 当 $q=0.2$ 时, $1-2q=0.6\ge0$, $q^2=0.04\ge0$, 且 $0.36+0.6+0.04=1$, 符合要求. 故 $q=0.2$.
 
 (2) 由**定义 7.3.1 (均值或数学期望)**,
 
 $$
-\mathbb E\left(X\right)=0\times 0.36+1\times 0.6+2\times 0.04=0.68.
+\mathbb{E}\left(X\right)=0\times0.36+1\times0.6+2\times0.04=0.68.
 $$
 
 又
 
 $$
-\mathbb E\left(X^2\right)=0^2\times 0.36+1^2\times 0.6+2^2\times 0.04=0.76.
+\mathbb{E}\left(X^2\right)=0^2\times0.36+1^2\times0.6+2^2\times0.04=0.76.
 $$
 
 由**结论 7.3.4** (方差的简化公式),
 
 $$
-D\left(X\right)=\mathbb E\left(X^2\right)-\left[\mathbb E\left(X\right)\right]^2=0.76-0.68^2=0.76-0.4624=0.2976.
+D\left(X\right)=\mathbb{E}\left(X^2\right)-\left[\mathbb{E}\left(X\right)\right]^2=0.76-0.68^2=0.76-0.4624=0.2976.
 $$
 
 $\blacksquare$
 
 ## 习题四
 
-(复习参考题 7 复习巩固第 5 题) 已知随机变量 $X$ 取所有的值 $1$, $2$, $\cdots$, $n$ 是等可能的, 且 $\mathbb E\left(X\right)=10$, 求 $n$ 的值.
+(复习参考题 7 复习巩固第 5 题) 已知随机变量 $X$ 取所有的值 $1$, $2$, $\cdots$, $n$ 是等可能的, 且 $\mathbb{E}\left(X\right)=10$, 求 $n$ 的值.
 
 ### 解答 习题四
 
 由**定义 7.3.1 (均值或数学期望)**, $X$ 取每个值的概率均为 $\frac{1}{n}$, 故
 
 $$
-\mathbb E\left(X\right)=\frac{1+2+\cdots+n}{n}.
+\mathbb{E}\left(X\right)=\frac{1+2+\cdots+n}{n}.
 $$
 
 由等差数列求和公式, $1+2+\cdots+n=\frac{n\left(n+1\right)}{2}$, 代入得
 
 $$
-\mathbb E\left(X\right)=\frac{n+1}{2}.
+\mathbb{E}\left(X\right)=\frac{n+1}{2}.
 $$
 
-由题意 $\mathbb E\left(X\right)=10$, 故 $\frac{n+1}{2}=10$, 解得 $n=19$. $\blacksquare$
+由题意 $\mathbb{E}\left(X\right)=10$, 故 $\frac{n+1}{2}=10$, 解得 $n=19$. $\blacksquare$
 
 ## 习题五
 
@@ -188,66 +188,66 @@ $$
 
 ### 解答 习题五
 
-由**定义 7.4.2 (二项分布)**, 设击中目标的次数为 $X$, 则 $X\sim B\left(n,0.3\right)$.
+由**定义 7.4.2 (二项分布)**, 设击中目标的次数为 $X$, 则 $X\sim{B}\left(n,0.3\right)$.
 
 (1) 当 $n=10$ 时, 由**定义 7.4.2 (二项分布)**,
 
 $$
-\mathbb P\left(X=3\right)=\binom{10}{3}\times 0.3^3\times 0.7^7.
+\mathbb{P}\left(X=3\right)=\binom{10}{3}\times0.3^3\times0.7^7.
 $$
 
 其中 $\binom{10}{3}=120$, 计算得
 
 $$
-\mathbb P\left(X=3\right)=120\times 0.027\times 0.0823543\approx 0.267.
+\mathbb{P}\left(X=3\right)=120\times0.027\times0.0823543\approx0.267.
 $$
 
 (2) 目标至少被击中一次的概率为
 
 $$
-\mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-0.7^n.
+\mathbb{P}\left(X\ge1\right)=1-\mathbb{P}\left(X=0\right)=1-0.7^n.
 $$
 
-由题意 $\mathbb P\left(X\ge 1\right)> 0.95$, 即
+由题意 $\mathbb{P}\left(X\ge1\right)>0.95$, 即
 
 $$
-1-0.7^n> 0.95,
+1-0.7^n>0.95,
 $$
 
-亦即 $0.7^n< 0.05$. 两边取对数, 得 $n\ln 0.7< \ln 0.05$, 由于 $\ln 0.7< 0$, 不等号反向, 得
+亦即 $0.7^n<0.05$. 两边取对数, 得 $n\ln0.7<\ln0.05$, 由于 $\ln0.7<0$, 不等号反向, 得
 
 $$
-n> \frac{\ln 0.05}{\ln 0.7}\approx 8.4.
+n>\frac{\ln0.05}{\ln0.7}\approx8.4.
 $$
 
 故 $n$ 取不小于 8.4 的最小整数, 即至少需要 9 门大炮. $\blacksquare$
 
 ## 习题六
 
-(复习参考题 7 综合运用第 7 题) 长时间玩手机可能影响视力. 据调查, 某校学生大约 $40\%$ 的人近视, 而该校大约有 $20\%$ 的学生每天玩手机超过 $1\ \mathrm{h}$, 这些人的近视率约为 $50\%$. 现从每天玩手机不超过 $1\ \mathrm{h}$ 的学生中任意调查一名学生, 求他近视的概率.
+(复习参考题 7 综合运用第 7 题) 长时间玩手机可能影响视力. 据调查, 某校学生大约 $40\%$ 的人近视, 而该校大约有 $20\%$ 的学生每天玩手机超过 $1\,\mathrm{h}$, 这些人的近视率约为 $50\%$. 现从每天玩手机不超过 $1\,\mathrm{h}$ 的学生中任意调查一名学生, 求他近视的概率.
 
 ### 解答 习题六
 
 由**定义 7.1.1 (条件概率)**.
 
-设 $A$ = "该学生近视", $B$ = "该学生每天玩手机超过 $1\ \mathrm{h}$". 由题意, $\mathbb P\left(A\right)=0.4$, $\mathbb P\left(B\right)=0.2$, $\mathbb P\left(A\mid B\right)=0.5$.
+设 $A$ = "该学生近视", $B$ = "该学生每天玩手机超过 $1\,\mathrm{h}$". 由题意, $\mathbb{P}\left(A\right)=0.4$, $\mathbb{P}\left(B\right)=0.2$, $\mathbb{P}\left(A\mid{B}\right)=0.5$.
 
-由**结论 7.1.2** (概率的乘法公式), 每天玩手机超过 $1\ \mathrm{h}$ 且近视的学生比例为
-
-$$
-\mathbb P\left(AB\right)=\mathbb P\left(B\right)\mathbb P\left(A\mid B\right)=0.2\times 0.5=0.1.
-$$
-
-于是每天玩手机不超过 $1\ \mathrm{h}$ 的学生中近视的比例为
+由**结论 7.1.2** (概率的乘法公式), 每天玩手机超过 $1\,\mathrm{h}$ 且近视的学生比例为
 
 $$
-\mathbb P\left(A\overline B\right)=\mathbb P\left(A\right)-\mathbb P\left(AB\right)=0.4-0.1=0.3.
+\mathbb{P}\left(AB\right)=\mathbb{P}\left(B\right)\mathbb{P}\left(A\mid{B}\right)=0.2\times0.5=0.1.
 $$
 
-又每天玩手机不超过 $1\ \mathrm{h}$ 的学生所占比例为 $\mathbb P\left(\overline B\right)=1-\mathbb P\left(B\right)=0.8$. 由**定义 7.1.1 (条件概率)**, 在该群体中任意调查一名学生, 他近视的概率为
+于是每天玩手机不超过 $1\,\mathrm{h}$ 的学生中近视的比例为
 
 $$
-\mathbb P\left(A\mid\overline B\right)=\frac{\mathbb P\left(A\overline B\right)}{\mathbb P\left(\overline B\right)}=\frac{0.3}{0.8}=0.375.
+\mathbb{P}\left(A\overline{B}\right)=\mathbb{P}\left(A\right)-\mathbb{P}\left(AB\right)=0.4-0.1=0.3.
+$$
+
+又每天玩手机不超过 $1\,\mathrm{h}$ 的学生所占比例为 $\mathbb{P}\left(\overline{B}\right)=1-\mathbb{P}\left(B\right)=0.8$. 由**定义 7.1.1 (条件概率)**, 在该群体中任意调查一名学生, 他近视的概率为
+
+$$
+\mathbb{P}\left(A\mid\overline{B}\right)=\frac{\mathbb{P}\left(A\overline{B}\right)}{\mathbb{P}\left(\overline{B}\right)}=\frac{0.3}{0.8}=0.375.
 $$
 
 $\blacksquare$
@@ -265,10 +265,10 @@ $\blacksquare$
 选择商场外促销, 遇雨 (概率 $0.4$) 损失 3 万元, 不遇雨 (概率 $0.6$) 获利 8 万元. 由**定义 7.3.1 (均值或数学期望)**, 其期望利润为
 
 $$
-E=0.6\times 8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{ \left(万元\right)}.
+E=0.6\times8+0.4\times\left(-3\right)=4.8-1.2=3.6\text{~\left(万元\right)}.
 $$
 
-比较两种方式的期望利润, $3.6> 2$, 故从期望利润最大的角度, 商场应选择在商场外举行促销活动. $\blacksquare$
+比较两种方式的期望利润, $3.6>2$, 故从期望利润最大的角度, 商场应选择在商场外举行促销活动. $\blacksquare$
 
 ## 习题八
 
@@ -280,32 +280,32 @@ $$
 
 ### 解答 习题八
 
-由**定义 7.4.2 (二项分布)**, 设一年内需要赔付的保单份数为 $X$, 则 $X\sim B\left(10^5,10^{-5}\right)$, 其参数 $\lambda=np=10^5\times 10^{-5}=1$, 可用泊松分布近似, 即 $\mathbb P\left(X=k\right)\approx\frac{e^{-1}}{k!}$.
+由**定义 7.4.2 (二项分布)**, 设一年内需要赔付的保单份数为 $X$, 则 $X\sim{B}\left(10^5,10^{-5}\right)$, 其参数 $\lambda=np=10^5\times10^{-5}=1$, 可用泊松分布近似, 即 $\mathbb{P}\left(X=k\right)\approx\frac{e^{-1}}{k!}$.
 
-保险公司的保费总收入为 $10^5\times 20=2\times 10^6$ 元, 即 200 万元; 总赔付金额为每份 50 万元, 即 $50X$ 万元.
+保险公司的保费总收入为 $10^5\times20=2\times10^6$ 元, 即 200 万元; 总赔付金额为每份 50 万元, 即 $50X$ 万元.
 
-(1) 亏本即总赔付超过保费总收入, 亦即 $50X> 200$, 即 $X> 4$. 故亏本的概率为
+(1) 亏本即总赔付超过保费总收入, 亦即 $50X>200$, 即 $X>4$. 故亏本的概率为
 
 $$
-\mathbb P\left(X\ge 5\right)=1-\mathbb P\left(X\le 4\right).
+\mathbb{P}\left(X\ge5\right)=1-\mathbb{P}\left(X\le4\right).
 $$
 
 由泊松近似,
 
 $$
-\mathbb P\left(X\le 4\right)\approx e^{-1}\left(1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}\right)=e^{-1}\times\frac{65}{24}\approx 0.9963.
+\mathbb{P}\left(X\le4\right)\approx{e}^{-1}\left(1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}\right)=e^{-1}\times\frac{65}{24}\approx0.9963.
 $$
 
 故
 
 $$
-\mathbb P\left(X\ge 5\right)\approx 1-0.9963=0.0037.
+\mathbb{P}\left(X\ge5\right)\approx1-0.9963=0.0037.
 $$
 
-(2) 一年内获利不少于 100 万元, 即保费总收入减去总赔付不小于 100 万元, 亦即 $200-50X\ge 100$, 即 $X\le 2$. 故所求概率为
+(2) 一年内获利不少于 100 万元, 即保费总收入减去总赔付不小于 100 万元, 亦即 $200-50X\ge100$, 即 $X\le2$. 故所求概率为
 
 $$
-\mathbb P\left(X\le 2\right)\approx e^{-1}\left(1+1+\frac{1}{2!}\right)=e^{-1}\times 2.5\approx 0.9197.
+\mathbb{P}\left(X\le2\right)\approx{e}^{-1}\left(1+1+\frac{1}{2!}\right)=e^{-1}\times2.5\approx0.9197.
 $$
 
 $\blacksquare$
@@ -356,16 +356,16 @@ $\blacksquare$
 
 由**定义 7.3.1 (均值或数学期望)**, 以平均化验次数为比较依据.
 
-(1) 设每人携带病毒的概率为 $p=0.05$, 一组 $m=5$ 人. 混合血样呈阴性即这 5 人全部阴性, 其概率为 $\left(1-p\right)^5=0.95^5\approx 0.7738$, 此时该组只需化验 1 次; 混合血样呈阳性的概率为 $1-0.7738=0.2262$, 此时该组需先化验 1 次混合血样, 再对 5 人分别化验, 共化验 $1+5=6$ 次. 由**定义 7.3.1 (均值或数学期望)**, 每组平均化验次数为
+(1) 设每人携带病毒的概率为 $p=0.05$, 一组 $m=5$ 人. 混合血样呈阴性即这 5 人全部阴性, 其概率为 $\left(1-p\right)^5=0.95^5\approx0.7738$, 此时该组只需化验 1 次; 混合血样呈阳性的概率为 $1-0.7738=0.2262$, 此时该组需先化验 1 次混合血样, 再对 5 人分别化验, 共化验 $1+5=6$ 次. 由**定义 7.3.1 (均值或数学期望)**, 每组平均化验次数为
 
 $$
-E=1\times 0.7738+6\times 0.2262\approx 2.131.
+E=1\times0.7738+6\times0.2262\approx2.131.
 $$
 
-10000 人按 5 人一组共 $10000\div 5=2000$ 组, 故总平均化验次数为
+10000 人按 5 人一组共 $10000\div5=2000$ 组, 故总平均化验次数为
 
 $$
-2000\times 2.131=4262< 10000.
+2000\times2.131=4262<10000.
 $$
 
 故这种化验方法能减少化验次数.
@@ -373,7 +373,7 @@ $$
 (2) 设每人携带病毒的概率为 $p=0.02$, 一组 $k$ 人. 混合血样呈阴性的概率为 $\left(1-p\right)^k=0.98^k$, 此时该组化验 1 次; 呈阳性时该组化验 $1+k$ 次. 由**定义 7.3.1 (均值或数学期望)**, 每组平均化验次数为
 
 $$
-E_k=1\times 0.98^k+\left(1+k\right)\times\left(1-0.98^k\right)=1+k\left(1-0.98^k\right).
+E_k=1\times0.98^k+\left(1+k\right)\times\left(1-0.98^k\right)=1+k\left(1-0.98^k\right).
 $$
 
 平均到每人的化验次数为
@@ -390,19 +390,19 @@ $$
 
 ### 解答 习题十一
 
-由**定义 7.5.2 (正态分布)**, 设考试成绩为 $X$, 则 $X\sim N\left(75,8^2\right)$, 即 $\mu=75$, $\sigma=8$.
+由**定义 7.5.2 (正态分布)**, 设考试成绩为 $X$, 则 $X\sim{N}\left(75,8^2\right)$, 即 $\mu=75$, $\sigma=8$.
 
-由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$, 即成绩落在区间 $\left[75-8,75+8\right]=\left[67,83\right]$ 内的比例约为 $68.27\%$, 接近题目给出的 $34\%+34\%=68\%$; 而成绩低于 $\mu-\sigma=67$ 的比例约为 $15.87\%$, 高于 $\mu+\sigma=83$ 的比例约为 $15.87\%$, 均接近题目给出的 $16\%$.
+由**结论 7.5.4** ($3\sigma$ 原则), $\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)\approx0.6827$, 即成绩落在区间 $\left[75-8,75+8\right]=\left[67,83\right]$ 内的比例约为 $68.27\%$, 接近题目给出的 $34\%+34\%=68\%$; 而成绩低于 $\mu-\sigma=67$ 的比例约为 $15.87\%$, 高于 $\mu+\sigma=83$ 的比例约为 $15.87\%$, 均接近题目给出的 $16\%$.
 
 据此划定四个等级:
 
-(1) $D$ 等为成绩最低的 $16\%$, 即 $X< 67$;
+(1) $D$ 等为成绩最低的 $16\%$, 即 $X<67$;
 
-(2) $C$ 等为接下来的 $34\%$, 即 $67\le X< 75$;
+(2) $C$ 等为接下来的 $34\%$, 即 $67\le{X}<75$;
 
-(3) $B$ 等为再接下来的 $34\%$, 即 $75\le X< 83$;
+(3) $B$ 等为再接下来的 $34\%$, 即 $75\le{X}<83$;
 
-(4) $A$ 等为成绩最高的 $16\%$, 即 $X\ge 83$.
+(4) $A$ 等为成绩最高的 $16\%$, 即 $X\ge83$.
 
 故各等级的分数线 (精确到 1) 为: $A$ 等 83 分, $B$ 等 75 分, $C$ 等 67 分. $\blacksquare$
 
@@ -412,13 +412,13 @@ $$
 
 (散点图中共有 $5$ 个点, 从左下方向右上方大致沿一条直线分布.)
 
-($\mathrm A$) 很可能存在负相关
+($\mathrm{A}$) 很可能存在负相关
 
-($\mathrm B$) 一定存在正相关
+($\mathrm{B}$) 一定存在正相关
 
-($\mathrm C$) 很可能存在正相关
+($\mathrm{C}$) 很可能存在正相关
 
-($\mathrm D$) 一定不存在负相关
+($\mathrm{D}$) 一定不存在负相关
 
 该图为变量 $x$ 与 $y$ 的成对样本数据散点图:共有 $5$ 个点,从左下方向右上方大致沿一条直线分布.
 
@@ -430,29 +430,29 @@ $$
 
 由**常用结论 8.1.6** (样本相关系数的性质), 散点从左下到右上分布表明变量 $x$ 与 $y$ 之间很可能存在正相关关系. 但由于样本容量很小, 样本只是总体的一部分, 不能据此断定 "一定" 存在正相关.
 
-故选 ($\mathrm C$). $\blacksquare$
+故选 ($\mathrm{C}$). $\blacksquare$
 
 ## 习题十三
 
 (复习参考题8 复习巩固第 2 题) 根据变量 $Y$ 和 $x$ 的成对样本数据, 由一元线性回归模型
 
 $$
-\begin{cases}Y=bx+a+e,\\ E\left(e\right)=0,\ D\left(e\right)=\sigma^2\end{cases}
+\begin{cases}Y=bx+a+e,\\E\left(e\right)=0,\,D\left(e\right)=\sigma^2\end{cases}
 $$
 
-得到经验回归模型 $\widehat y=\widehat b x+\widehat a$, 对应的残差如图所示. 模型误差 ( ).
+得到经验回归模型 $\widehat{y}=\widehat{b}x+\widehat{a}$, 对应的残差如图所示. 模型误差 ( ).
 
 (残差图中, 残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内, 但带状区域的宽度随 $x$ 的增大而明显变宽.)
 
-($\mathrm A$) 满足一元线性回归模型的所有假设
+($\mathrm{A}$) 满足一元线性回归模型的所有假设
 
-($\mathrm B$) 不满足一元线性回归模型的 $E\left(e\right)=0$ 的假设
+($\mathrm{B}$) 不满足一元线性回归模型的 $E\left(e\right)=0$ 的假设
 
-($\mathrm C$) 不满足一元线性回归模型的 $D\left(e\right)=\sigma^2$ 的假设
+($\mathrm{C}$) 不满足一元线性回归模型的 $D\left(e\right)=\sigma^2$ 的假设
 
-($\mathrm D$) 不满足一元线性回归模型的 $E\left(e\right)=0$ 和 $D\left(e\right)=\sigma^2$ 的假设
+($\mathrm{D}$) 不满足一元线性回归模型的 $E\left(e\right)=0$ 和 $D\left(e\right)=\sigma^2$ 的假设
 
-该图为对应经验回归模型 $\widehat y=\widehat b x+\widehat a$ 的残差图:横轴为 $x$,纵轴为残差,残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内,但带状区域的宽度随 $x$ 的增大而明显变宽.
+该图为对应经验回归模型 $\widehat{y}=\widehat{b}x+\widehat{a}$ 的残差图:横轴为 $x$,纵轴为残差,残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内,但带状区域的宽度随 $x$ 的增大而明显变宽.
 
 ### 解答 习题十三
 
@@ -462,19 +462,19 @@ $$
 
 但带状区域的宽度随 $x$ 的增大而明显变宽, 说明残差的方差随 $x$ 变化而不是常数, 即随机误差的方差不恒定, 不满足 $D\left(e\right)=\sigma^2$ 的假设.
 
-故选 ($\mathrm C$). $\blacksquare$
+故选 ($\mathrm{C}$). $\blacksquare$
 
 ## 习题十四
 
 (复习参考题8 复习巩固第 3 题) 根据分类变量 $x$ 与 $y$ 的成对样本数据, 计算得到 $\chi^2=2.974$. 依据 $\alpha=0.05$ 的独立性检验, 结论为 ( ).
 
-($\mathrm A$) 变量 $x$ 与 $y$ 不独立
+($\mathrm{A}$) 变量 $x$ 与 $y$ 不独立
 
-($\mathrm B$) 变量 $x$ 与 $y$ 不独立, 这个结论犯错误的概率不超过 $0.05$
+($\mathrm{B}$) 变量 $x$ 与 $y$ 不独立, 这个结论犯错误的概率不超过 $0.05$
 
-($\mathrm C$) 变量 $x$ 与 $y$ 独立
+($\mathrm{C}$) 变量 $x$ 与 $y$ 独立
 
-($\mathrm D$) 变量 $x$ 与 $y$ 独立, 这个结论犯错误的概率不超过 $0.05$
+($\mathrm{D}$) 变量 $x$ 与 $y$ 独立, 这个结论犯错误的概率不超过 $0.05$
 
 ### 解答 习题十四
 
@@ -485,14 +485,14 @@ $$
 因为
 
 $$
-\chi^2=2.974< 3.841,
+\chi^2=2.974<3.841,
 $$
 
 所以没有充分证据推断零假设 $H_0$ 不成立, 即可以认为变量 $x$ 与 $y$ 独立.
 
-由**常用结论 8.3.5** (独立性检验的规则), 当 $\chi^2< x_\alpha$ 时, 只是没有充分证据拒绝 $H_0$, 并不意味着有充分把握断定 $H_0$ 成立, 故不能说 "这个结论犯错误的概率不超过 $0.05$".
+由**常用结论 8.3.5** (独立性检验的规则), 当 $\chi^2<{}x_\alpha$ 时, 只是没有充分证据拒绝 $H_0$, 并不意味着有充分把握断定 $H_0$ 成立, 故不能说 "这个结论犯错误的概率不超过 $0.05$".
 
-故选 ($\mathrm C$). $\blacksquare$
+故选 ($\mathrm{C}$). $\blacksquare$
 
 ## 习题十五
 
@@ -521,26 +521,26 @@ $$
 由例 $3$ 中 $25$ 名女大学生的身高与臂展数据, 计算得
 
 $$
-\overline x\approx 174.32,\quad \overline y\approx 170.68.
+\overline{x}\approx174.32,\quad\overline{y}\approx170.68.
 $$
 
 由**常用结论 8.2.3** (最小二乘估计公式),
 
 $$
-\widehat b=\frac{\sum_{i=1}^{25}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{25}\left(x_i-\overline x\right)^2}\approx 0.965,
+\widehat{b}=\frac{\sum_{i=1}^{25}\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)}{\sum_{i=1}^{25}\left(x_i-\overline{x}\right)^2}\approx0.965,
 $$
 
 $$
-\widehat a=\overline y-\widehat b\overline x\approx 0.84.
+\widehat{a}=\overline{y}-\widehat{b}\overline{x}\approx0.84.
 $$
 
 故由**定义 8.2.4 (经验回归方程)**, 臂展关于身高的经验回归方程为
 
 $$
-\widehat y=0.965x+0.84.
+\widehat{y}=0.965x+0.84.
 $$
 
-由**定义 8.2.5 (残差)**, 计算各点的残差 $e_i=y_i-\widehat y_i$, 以身高为横轴, 残差为纵轴画出残差图. 残差图中, 残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内, 带状区域宽度基本一致, 没有明显的曲线趋势.
+由**定义 8.2.5 (残差)**, 计算各点的残差 $e_i=y_i-\widehat{y}_i$, 以身高为横轴, 残差为纵轴画出残差图. 残差图中, 残差点大致均匀地分布在以 $0$ 为中心的水平带状区域内, 带状区域宽度基本一致, 没有明显的曲线趋势.
 
 这说明所选的一元线性回归模型与数据配合较好, 模型的误差方差基本恒定. $\blacksquare$
 
@@ -548,7 +548,7 @@ $$
 
 (复习参考题8 综合运用第 6 题) 下表是 $1896$ 至 $2021$ 年男子三级跳远奥运会冠军的成绩, 请分析这组数据, 能用一元线性回归模型刻画这组数据吗?
 
-| 年份 | 成绩/$\mathrm m$ | 年份 | 成绩/$\mathrm m$ | 年份 | 成绩/$\mathrm m$ | 年份 | 成绩/$\mathrm m$ |
+| 年份 | 成绩/$\mathrm{m}$ | 年份 | 成绩/$\mathrm{m}$ | 年份 | 成绩/$\mathrm{m}$ | 年份 | 成绩/$\mathrm{m}$ |
 |---|---|---|---|---|---|---|---|
 | $1896$ | $13.71$ | $1932$ | $15.72$ | $1972$ | $17.35$ | $2004$ | $17.79$ |
 | $1900$ | $14.47$ | $1936$ | $16.00$ | $1976$ | $17.29$ | $2008$ | $17.67$ |
@@ -563,7 +563,7 @@ $$
 
 由**定义 8.2.4 (经验回归方程)** 及**定义 8.2.5 (残差)**.
 
-以年份为横轴, 冠军成绩为纵轴作散点图. 由数据可见, 从 $1896$ 年到约 $1968$ 年, 冠军成绩随年份增加而稳步提高, 散点大致沿一条上升的直线分布; 而从 $1968$ 年以后, 冠军成绩在 $17.3\,\mathrm m$ 至 $18.2\,\mathrm m$ 之间波动, 不再有明显的上升趋势.
+以年份为横轴, 冠军成绩为纵轴作散点图. 由数据可见, 从 $1896$ 年到约 $1968$ 年, 冠军成绩随年份增加而稳步提高, 散点大致沿一条上升的直线分布; 而从 $1968$ 年以后, 冠军成绩在 $17.3\,\mathrm{m}$ 至 $18.2\,\mathrm{m}$ 之间波动, 不再有明显的上升趋势.
 
 由**定义 8.2.4 (经验回归方程)**, 如果强行用一元线性回归模型对全部数据作拟合, 由**定义 8.2.5 (残差)** 画出残差图, 残差点会呈现出先正后负再波动的明显曲线趋势, 而不是均匀地分布在以 $0$ 为中心的水平带状区域内.
 
@@ -583,23 +583,23 @@ $$
 
 以行驶里程为横轴, 凹槽深度为纵轴作散点图, 散点从左上到右下大致沿一条直线分布.
 
-由数据计算得 $\overline x\approx 2.574$, $\overline y\approx 6.19$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
+由数据计算得 $\overline{x}\approx2.574$, $\overline{y}\approx6.19$, 由**常用结论 8.2.3** (最小二乘估计公式) 得
 
 $$
-\widehat b=\frac{\sum_{i=1}^{9}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{9}\left(x_i-\overline x\right)^2}\approx -1.149,
+\widehat{b}=\frac{\sum_{i=1}^{9}\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)}{\sum_{i=1}^{9}\left(x_i-\overline{x}\right)^2}\approx-1.149,
 $$
 
 $$
-\widehat a=\overline y-\widehat b\overline x\approx 9.16.
+\widehat{a}=\overline{y}-\widehat{b}\overline{x}\approx9.16.
 $$
 
 故由**定义 8.2.4 (经验回归方程)**, 轮胎凹槽深度关于行驶里程的经验回归方程为
 
 $$
-\widehat y=-1.149x+9.16.
+\widehat{y}=-1.149x+9.16.
 $$
 
-模型的含义: 斜率 $\widehat b\approx -1.149$ 表示, 行驶里程每增加 $1$ 千$\mathrm{km}$, 轮胎凹槽深度平均减少约 $1.149\,\mathrm{mm}$; 截距 $\widehat a\approx 9.16\,\mathrm{mm}$ 表示新轮胎的凹槽深度估计值. 这表明随着行驶里程的增加, 轮胎凹槽深度近似线性地减小, 胎面持续磨损. $\blacksquare$
+模型的含义: 斜率 $\widehat{b}\approx-1.149$ 表示, 行驶里程每增加 $1$ 千$\mathrm{km}$, 轮胎凹槽深度平均减少约 $1.149\,\mathrm{mm}$; 截距 $\widehat{a}\approx9.16\,\mathrm{mm}$ 表示新轮胎的凹槽深度估计值. 这表明随着行驶里程的增加, 轮胎凹槽深度近似线性地减小, 胎面持续磨损. $\blacksquare$
 
 ## 习题十九
 
@@ -622,13 +622,13 @@ $$
 由**定义 8.3.4 ($\chi^2$ 统计量)**,
 
 $$
-\chi^2=\frac{300\times\left(75\times 47-66\times 112\right)^2}{141\times 159\times 187\times 113}\approx 9.47.
+\chi^2=\frac{300\times\left(75\times47-66\times112\right)^2}{141\times159\times187\times113}\approx9.47.
 $$
 
 由**常用结论 8.3.5** (独立性检验的规则), $\alpha=0.05$ 时临界值 $x_{0.05}=3.841$. 因为
 
 $$
-\chi^2\approx 9.47> 3.841,
+\chi^2\approx9.47>3.841,
 $$
 
 所以推断零假设不成立, 即在犯错概率不超过 $0.05$ 的前提下, 认为该药物有效. $\blacksquare$
@@ -637,7 +637,7 @@ $$
 
 (复习参考题8 拓广探索第 9 题) 气象部门由每天的最高气温的数据, 得到我国 $31$ 个城市某年 $1$ 月和 $7$ 月的平均高温数据, 如下表所示.
 
-| 城市 | $1$ 月/$\mathrm{^\circ C}$ | $7$ 月/$\mathrm{^\circ C}$ | 城市 | $1$ 月/$\mathrm{^\circ C}$ | $7$ 月/$\mathrm{^\circ C}$ |
+| 城市 | $1$ 月/$\mathrm{^\circ{C}}$ | $7$ 月/$\mathrm{^\circ{C}}$ | 城市 | $1$ 月/$\mathrm{^\circ{C}}$ | $7$ 月/$\mathrm{^\circ{C}}$ |
 |---|---|---|---|---|---|
 | 北京 | $3$ | $32$ | 杭州 | $11$ | $36$ |
 | 成都 | $12$ | $32$ | 合肥 | $9$ | $35$ |
@@ -660,7 +660,7 @@ $$
 
 (2) 计算样本相关系数, 并解释其含义.
 
-该图为 $31$ 个城市 $1$ 月平均高温与 $7$ 月平均高温的散点图:横轴为 $1$ 月平均高温(单位 ${^\circ}\mathrm C$),纵轴为 $7$ 月平均高温(单位 ${^\circ}\mathrm C$),散点大致分布在一个横向较宽的区域内,没有明显的直线趋势.
+该图为 $31$ 个城市 $1$ 月平均高温与 $7$ 月平均高温的散点图:横轴为 $1$ 月平均高温(单位 ${^\circ}\mathrm{C}$),纵轴为 $7$ 月平均高温(单位 ${^\circ}\mathrm{C}$),散点大致分布在一个横向较宽的区域内,没有明显的直线趋势.
 
 ### 解答 习题二十
 
@@ -673,9 +673,9 @@ $$
 (2) 由数据计算得样本相关系数
 
 $$
-r\approx 0.23.
+r\approx0.23.
 $$
 
-由**常用结论 8.1.6** (样本相关系数的性质), $r\approx 0.23$ 为正但绝对值很小, 说明 $1$ 月与 $7$ 月的平均高温之间的线性相关程度很弱.
+由**常用结论 8.1.6** (样本相关系数的性质), $r\approx0.23$ 为正但绝对值很小, 说明 $1$ 月与 $7$ 月的平均高温之间的线性相关程度很弱.
 
 这是因为我国北方城市冬季严寒而夏季炎热, 南方城市冬季温暖而夏季并不极端炎热, $1$ 月气温主要反映城市的南北纬度位置, $7$ 月气温在全国各地普遍较高, 两者之间没有简单的线性对应关系. $\blacksquare$

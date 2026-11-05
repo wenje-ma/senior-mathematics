@@ -2,11 +2,11 @@
 
 > **定义 4.3.1 (对数)**
 > 
-> 一般地, 如果 $a^x=N$ ($a> 0$, 且 $a\neq 1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_a N$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
+> 一般地, 如果 $a^x=N$ ($a>0$, 且 $a\neq1$), 那么数 $x$ 叫做以 $a$ 为底 $N$ 的对数, 记作 $x=\log_aN$, 其中 $a$ 叫做对数的底数, $N$ 叫做真数.
 
 > **定义 4.4.1 (对数函数)**
 > 
-> 一般地, 函数 $y=\log_a x$ ($a> 0$, 且 $a\neq 1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
+> 一般地, 函数 $y=\log_ax$ ($a>0$, 且 $a\neq1$) 叫做对数函数, 其中 $x$ 是自变量, 定义域是 $\left(0,+\infty\right)$.
 
 > **定义 4.4.2 (反函数)**
 > 
@@ -16,53 +16,53 @@
 
 (练习 4.3 第 3 题) 求下列各式中 $x$ 的值.
 
-(1) $\log_{\frac{1}{3}} x=-3$;
+(1) $\log_{\frac{1}{3}}x=-3$;
 
-(2) $\log_x 49=4$;
+(2) $\log_x49=4$;
 
-(3) $\lg 0.00001=x$;
+(3) $\lg0.00001=x$;
 
-(4) $\ln\sqrt{\mathrm e}=-x$.
+(4) $\ln\sqrt{\mathrm{e}}=-x$.
 
 ### 解答 练习一
 
 由**常用结论 4.3.3** (对数与指数的关系), 将对数式化为指数式求解.
 
-(1) $\log_{\frac{1}{3}} x=-3$ 化为 $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
+(1) $\log_{\frac{1}{3}}x=-3$ 化为 $x=\left(\frac{1}{3}\right)^{-3}=3^3=27$.
 
-(2) $\log_x 49=4$ 化为 $x^4=49$, 又 $x> 0$ 且 $x\neq 1$, 故 $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
+(2) $\log_x49=4$ 化为 $x^4=49$, 又 $x>0$ 且 $x\neq1$, 故 $x=\sqrt\left[4\right]{49}=\sqrt{7}$.
 
-(3) $\lg 0.00001=x$ 化为 $10^x=0.00001=10^{-5}$, 故 $x=-5$.
+(3) $\lg0.00001=x$ 化为 $10^x=0.00001=10^{-5}$, 故 $x=-5$.
 
-(4) $\ln\sqrt{\mathrm e}=-x$ 化为 $\mathrm e^{-x}=\sqrt{\mathrm e}=\mathrm e^{\frac{1}{2}}$, 故 $-x=\frac{1}{2}$, 即 $x=-\frac{1}{2}$. $\blacksquare$
+(4) $\ln\sqrt{\mathrm{e}}=-x$ 化为 $\mathrm{e}^{-x}=\sqrt{\mathrm{e}}=\mathrm{e}^{\frac{1}{2}}$, 故 $-x=\frac{1}{2}$, 即 $x=-\frac{1}{2}$. $\blacksquare$
 
 ## 练习二
 
 (练习 4.3 第 4 题) 求下列各式的值.
 
-(1) $\log_3\left(27\times 9^2\right)$;
+(1) $\log_3\left(27\times9^2\right)$;
 
-(2) $\lg 5+\lg 2$;
+(2) $\lg5+\lg2$;
 
-(3) $\ln 3+\ln\frac{1}{3}$;
+(3) $\ln3+\ln\frac{1}{3}$;
 
-(4) $\log_3 5-\log_3 15$.
+(4) $\log_35-\log_315$.
 
 ### 解答 练习二
 
 由**常用结论 4.3.4** (对数运算性质).
 
-(1) 由 (1) (3), $\log_3\left(27\times 9^2\right)=\log_3 27+2\log_3 9=3+2\times 2=7$.
+(1) 由 (1) (3), $\log_3\left(27\times9^2\right)=\log_327+2\log_39=3+2\times2=7$.
 
-(2) 由 (1), $\lg 5+\lg 2=\lg 10=1$.
+(2) 由 (1), $\lg5+\lg2=\lg10=1$.
 
-(3) 由 (1), $\ln 3+\ln\frac{1}{3}=\ln 1=0$.
+(3) 由 (1), $\ln3+\ln\frac{1}{3}=\ln1=0$.
 
-(4) 由 (2), $\log_3 5-\log_3 15=\log_3\frac{5}{15}=\log_3\frac{1}{3}=-1$. $\blacksquare$
+(4) 由 (2), $\log_35-\log_315=\log_3\frac{5}{15}=\log_3\frac{1}{3}=-1$. $\blacksquare$
 
 ## 练习三
 
-(练习 4.3 第 5 题) 用 $\lg x$, $\lg y$, $\lg z$ 表示下列各式.
+(练习 4.3 第 5 题) 用 $\lg{x}$, $\lg{y}$, $\lg{z}$ 表示下列各式.
 
 (1) $\lg\left(xyz\right)$;
 
@@ -70,38 +70,38 @@
 
 (3) $\lg\frac{xy^3}{\sqrt{z}}$;
 
-(4) $\lg\frac{\sqrt{x}}{y^2 z}$.
+(4) $\lg\frac{\sqrt{x}}{y^2z}$.
 
 ### 解答 练习三
 
 由**常用结论 4.3.4** (对数运算性质).
 
-(1) 由 (1), $\lg\left(xyz\right)=\lg x+\lg y+\lg z$.
+(1) 由 (1), $\lg\left(xyz\right)=\lg{x}+\lg{y}+\lg{z}$.
 
-(2) 由 (1) (2), $\lg\frac{xy^2}{z}=\lg x+2\lg y-\lg z$.
+(2) 由 (1) (2), $\lg\frac{xy^2}{z}=\lg{x}+2\lg{y}-\lg{z}$.
 
-(3) 由 (1) (2) (3), $\lg\frac{xy^3}{\sqrt{z}}=\lg x+3\lg y-\frac{1}{2}\lg z$.
+(3) 由 (1) (2) (3), $\lg\frac{xy^3}{\sqrt{z}}=\lg{x}+3\lg{y}-\frac{1}{2}\lg{z}$.
 
-(4) 由 (1) (2) (3), $\lg\frac{\sqrt{x}}{y^2 z}=\frac{1}{2}\lg x-2\lg y-\lg z$. $\blacksquare$
+(4) 由 (1) (2) (3), $\lg\frac{\sqrt{x}}{y^2z}=\frac{1}{2}\lg{x}-2\lg{y}-\lg{z}$. $\blacksquare$
 
 ## 练习四
 
 (练习 4.3 第 6 题) 化简下列各式.
 
-(1) $\log_2 3\times\log_3 4\times\log_4 5\times\log_5 2$;
+(1) $\log_23\times\log_34\times\log_45\times\log_52$;
 
-(2) $2\left(\log_4 3+\log_8 3\right)\left(\log_3 2+\log_9 2\right)$.
+(2) $2\left(\log_43+\log_83\right)\left(\log_32+\log_92\right)$.
 
 ### 解答 练习四
 
 由**常用结论 4.3.5** (对数换底公式).
 
-(1) 由换底公式, $\log_a b=\frac{\ln b}{\ln a}$, 故原式 $=\frac{\ln 3}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 5}{\ln 4}\cdot\frac{\ln 2}{\ln 5}=1$.
+(1) 由换底公式, $\log_ab=\frac{\ln{b}}{\ln{a}}$, 故原式 $=\frac{\ln3}{\ln2}\cdot\frac{\ln4}{\ln3}\cdot\frac{\ln5}{\ln4}\cdot\frac{\ln2}{\ln5}=1$.
 
-(2) 由换底公式, $\log_4 3=\frac{\ln 3}{2\ln 2}$, $\log_8 3=\frac{\ln 3}{3\ln 2}$, $\log_3 2=\frac{\ln 2}{\ln 3}$, $\log_9 2=\frac{\ln 2}{2\ln 3}$. 代入得
+(2) 由换底公式, $\log_43=\frac{\ln3}{2\ln2}$, $\log_83=\frac{\ln3}{3\ln2}$, $\log_32=\frac{\ln2}{\ln3}$, $\log_92=\frac{\ln2}{2\ln3}$. 代入得
 
 $$
-2\cdot\frac{\ln 3}{\ln 2}\left(\frac{1}{2}+\frac{1}{3}\right)\cdot\frac{\ln 2}{\ln 3}\left(1+\frac{1}{2}\right)=2\cdot\frac{5}{6}\cdot\frac{3}{2}=\frac{5}{2}.
+2\cdot\frac{\ln3}{\ln2}\left(\frac{1}{2}+\frac{1}{3}\right)\cdot\frac{\ln2}{\ln3}\left(1+\frac{1}{2}\right)=2\cdot\frac{5}{6}\cdot\frac{3}{2}=\frac{5}{2}.
 $$
 
 $\blacksquare$
@@ -116,13 +116,13 @@ $\blacksquare$
 
 (3) $10^x=6$;
 
-(4) $\mathrm e^x=25$;
+(4) $\mathrm{e}^x=25$;
 
-(5) $x=\log_5 27$;
+(5) $x=\log_527$;
 
 (6) $x=\log_7\frac{1}{3}$;
 
-(7) $x=\lg 0.3$;
+(7) $x=\lg0.3$;
 
 (8) $x=\ln\sqrt{3}$.
 
@@ -130,21 +130,21 @@ $\blacksquare$
 
 由**定义 4.3.1 (对数)** 与**常用结论 4.3.3** (对数与指数的关系).
 
-(1) $3^x=1$ 化为 $\log_3 1=x$.
+(1) $3^x=1$ 化为 $\log_31=x$.
 
 (2) $4^x=\frac{1}{6}$ 化为 $\log_4\frac{1}{6}=x$.
 
-(3) $10^x=6$ 化为 $\lg 6=x$.
+(3) $10^x=6$ 化为 $\lg6=x$.
 
-(4) $\mathrm e^x=25$ 化为 $\ln 25=x$.
+(4) $\mathrm{e}^x=25$ 化为 $\ln25=x$.
 
-(5) $x=\log_5 27$ 化为 $5^x=27$.
+(5) $x=\log_527$ 化为 $5^x=27$.
 
 (6) $x=\log_7\frac{1}{3}$ 化为 $7^x=\frac{1}{3}$.
 
-(7) $x=\lg 0.3$ 化为 $10^x=0.3$.
+(7) $x=\lg0.3$ 化为 $10^x=0.3$.
 
-(8) $x=\ln\sqrt{3}$ 化为 $\mathrm e^x=\sqrt{3}$. $\blacksquare$
+(8) $x=\ln\sqrt{3}$ 化为 $\mathrm{e}^x=\sqrt{3}$. $\blacksquare$
 
 ## 习题二
 
@@ -152,9 +152,9 @@ $\blacksquare$
 
 (1) 使式子 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义的 $x$ 的取值范围是 ( ).
 
-(A) $x> 2$ (B) $x< 2$ (C) $\frac{1}{2}< x< 2$ (D) $\frac{1}{2}< x< 2$, 且 $x\neq 1$
+(A) $x>2$ (B) $x<2$ (C) $\frac{1}{2}<{}x<2$ (D) $\frac{1}{2}<{}x<2$, 且 $x\neq1$
 
-(2) 若 $\lg a$ ($a> 0$) 与 $\lg b$ ($b> 0$) 互为相反数, 则 ( ).
+(2) 若 $\lg{a}$ ($a>0$) 与 $\lg{b}$ ($b>0$) 互为相反数, 则 ( ).
 
 (A) $a+b=0$ (B) $a-b=0$ (C) $ab=1$ (D) $\frac{a}{b}=1$
 
@@ -162,75 +162,75 @@ $\blacksquare$
 
 由**定义 4.3.1 (对数)** 与**常用结论 4.3.4** (对数运算性质).
 
-(1) 对数 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义要求底数 $2x-1> 0$ 且 $2x-1\neq 1$, 真数 $2-x> 0$. 即 $x> \frac{1}{2}$, $x\neq 1$, $x< 2$. 综合得 $\frac{1}{2}< x< 2$ 且 $x\neq 1$, 故选 (D).
+(1) 对数 $\log_{\left(2x-1\right)}\left(2-x\right)$ 有意义要求底数 $2x-1>0$ 且 $2x-1\neq1$, 真数 $2-x>0$. 即 $x>\frac{1}{2}$, $x\neq1$, $x<2$. 综合得 $\frac{1}{2}<{}x<2$ 且 $x\neq1$, 故选 (D).
 
-(2) $\lg a$ 与 $\lg b$ 互为相反数, 即 $\lg a+\lg b=0$. 由**常用结论 4.3.4** (1), $\lg\left(ab\right)=0$, 故 $ab=1$, 选 (C). $\blacksquare$
+(2) $\lg{a}$ 与 $\lg{b}$ 互为相反数, 即 $\lg{a}+\lg{b}=0$. 由**常用结论 4.3.4** (1), $\lg\left(ab\right)=0$, 故 $ab=1$, 选 (C). $\blacksquare$
 
 ## 习题三
 
 (习题 4.3 复习巩固第 3 题) 求下列各式的值.
 
-(1) $\log_a 2+\log_a\frac{1}{2}$;
+(1) $\log_a2+\log_a\frac{1}{2}$;
 
-(2) $\log_3 18-\log_3 2$;
+(2) $\log_318-\log_32$;
 
-(3) $\lg\frac{1}{4}-\lg 25$;
+(3) $\lg\frac{1}{4}-\lg25$;
 
-(4) $2\log_5 25-3\log_2 64$;
+(4) $2\log_525-3\log_264$;
 
-(5) $\log_2\left(\log_2 16\right)$;
+(5) $\log_2\left(\log_216\right)$;
 
-(6) $\log_2 25\times\log_3 4\times\log_5 9$.
+(6) $\log_225\times\log_34\times\log_59$.
 
 ### 解答 习题三
 
 由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.5** (对数换底公式).
 
-(1) 由 (1), $\log_a 2+\log_a\frac{1}{2}=\log_a 1=0$.
+(1) 由 (1), $\log_a2+\log_a\frac{1}{2}=\log_a1=0$.
 
-(2) 由 (2), $\log_3 18-\log_3 2=\log_3 9=2$.
+(2) 由 (2), $\log_318-\log_32=\log_39=2$.
 
-(3) 由 (2), $\lg\frac{1}{4}-\lg 25=\lg\frac{1}{100}=-2$.
+(3) 由 (2), $\lg\frac{1}{4}-\lg25=\lg\frac{1}{100}=-2$.
 
-(4) $2\log_5 25-3\log_2 64=2\times 2-3\times 6=-14$.
+(4) $2\log_525-3\log_264=2\times2-3\times6=-14$.
 
-(5) $\log_2\left(\log_2 16\right)=\log_2 4=2$.
+(5) $\log_2\left(\log_216\right)=\log_24=2$.
 
-(6) 由换底公式, 原式 $=\frac{\ln 25}{\ln 2}\cdot\frac{\ln 4}{\ln 3}\cdot\frac{\ln 9}{\ln 5}=\frac{2\ln 5}{\ln 2}\cdot\frac{2\ln 2}{\ln 3}\cdot\frac{2\ln 3}{\ln 5}=8$. $\blacksquare$
+(6) 由换底公式, 原式 $=\frac{\ln25}{\ln2}\cdot\frac{\ln4}{\ln3}\cdot\frac{\ln9}{\ln5}=\frac{2\ln5}{\ln2}\cdot\frac{2\ln2}{\ln3}\cdot\frac{2\ln3}{\ln5}=8$. $\blacksquare$
 
 ## 习题四
 
 (习题 4.3 复习巩固第 4 题) 求满足下列条件的 $x$ 的值.
 
-(1) $\ln x=\ln a+\ln b$;
+(1) $\ln{x}=\ln{a}+\ln{b}$;
 
-(2) $\lg x=3\lg n-\lg m$;
+(2) $\lg{x}=3\lg{n}-\lg{m}$;
 
-(3) $\log_a x=\frac{1}{2}\log_a b-\log_a c$;
+(3) $\log_ax=\frac{1}{2}\log_ab-\log_ac$;
 
-(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$.
+(4) $\log_2\left[\log_3\left(\log_4x\right)\right]=0$.
 
 ### 解答 习题四
 
 由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 由 (1), $\ln x=\ln\left(ab\right)$, 故 $x=ab$.
+(1) 由 (1), $\ln{x}=\ln\left(ab\right)$, 故 $x=ab$.
 
-(2) 由 (1) (2), $\lg x=\lg\frac{n^3}{m}$, 故 $x=\frac{n^3}{m}$.
+(2) 由 (1) (2), $\lg{x}=\lg\frac{n^3}{m}$, 故 $x=\frac{n^3}{m}$.
 
-(3) 由 (2) (3), $\log_a x=\log_a\frac{\sqrt{b}}{c}$, 故 $x=\frac{\sqrt{b}}{c}$.
+(3) 由 (2) (3), $\log_ax=\log_a\frac{\sqrt{b}}{c}$, 故 $x=\frac{\sqrt{b}}{c}$.
 
-(4) $\log_2\left[\log_3\left(\log_4 x\right)\right]=0$, 由 $\log_a 1=0$, 得 $\log_3\left(\log_4 x\right)=1$; 由 $a^1=a$, 得 $\log_4 x=3$; 故 $x=4^3=64$. $\blacksquare$
+(4) $\log_2\left[\log_3\left(\log_4x\right)\right]=0$, 由 $\log_a1=0$, 得 $\log_3\left(\log_4x\right)=1$; 由 $a^1=a$, 得 $\log_4x=3$; 故 $x=4^3=64$. $\blacksquare$
 
 ## 习题五
 
-(习题 4.3 综合运用第 5 题) 已知 $\lg 2=a$, $\lg 3=b$, 求下列各式的值.
+(习题 4.3 综合运用第 5 题) 已知 $\lg2=a$, $\lg3=b$, 求下列各式的值.
 
-(1) $\lg 6$;
+(1) $\lg6$;
 
-(2) $\log_3 4$;
+(2) $\log_34$;
 
-(3) $\log_2 12$;
+(3) $\log_212$;
 
 (4) $\lg\frac{3}{2}$.
 
@@ -238,45 +238,45 @@ $\blacksquare$
 
 由**常用结论 4.3.4** (对数运算性质) 与**常用结论 4.3.5** (对数换底公式).
 
-(1) $\lg 6=\lg\left(2\times 3\right)=\lg 2+\lg 3=a+b$.
+(1) $\lg6=\lg\left(2\times3\right)=\lg2+\lg3=a+b$.
 
-(2) 由换底公式, $\log_3 4=\frac{\lg 4}{\lg 3}=\frac{2\lg 2}{\lg 3}=\frac{2a}{b}$.
+(2) 由换底公式, $\log_34=\frac{\lg4}{\lg3}=\frac{2\lg2}{\lg3}=\frac{2a}{b}$.
 
-(3) 由换底公式, $\log_2 12=\frac{\lg 12}{\lg 2}=\frac{\lg\left(3\times 4\right)}{\lg 2}=\frac{b+2a}{a}$.
+(3) 由换底公式, $\log_212=\frac{\lg12}{\lg2}=\frac{\lg\left(3\times4\right)}{\lg2}=\frac{b+2a}{a}$.
 
-(4) $\lg\frac{3}{2}=\lg 3-\lg 2=b-a$. $\blacksquare$
+(4) $\lg\frac{3}{2}=\lg3-\lg2=b-a$. $\blacksquare$
 
 ## 习题六
 
 (习题 4.3 综合运用第 6 题) 求满足下列条件的各式的值.
 
-(1) 若 $x\log_3 4=1$, 求 $4^x+4^{-x}$ 的值;
+(1) 若 $x\log_34=1$, 求 $4^x+4^{-x}$ 的值;
 
-(2) 若 $f\left(x\right)=3^x$, 求 $f\left(\log_3 2\right)$ 的值.
+(2) 若 $f\left(x\right)=3^x$, 求 $f\left(\log_32\right)$ 的值.
 
 ### 解答 习题六
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 由 $x\log_3 4=1$, 得 $x=\log_4 3$. 故 $4^x=3$, $4^{-x}=\frac{1}{3}$, 从而 $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
+(1) 由 $x\log_34=1$, 得 $x=\log_43$. 故 $4^x=3$, $4^{-x}=\frac{1}{3}$, 从而 $4^x+4^{-x}=3+\frac{1}{3}=\frac{10}{3}$.
 
-(2) $f\left(\log_3 2\right)=3^{\log_3 2}=2$. $\blacksquare$
+(2) $f\left(\log_32\right)=3^{\log_32}=2$. $\blacksquare$
 
 ## 习题七
 
 (习题 4.3 综合运用第 7 题) 证明.
 
-(1) $\log_a b\cdot\log_b c\cdot\log_c a=1$;
+(1) $\log_ab\cdot\log_bc\cdot\log_ca=1$;
 
-(2) $\log_{a^m} b^n=\frac{n}{m}\log_a b$.
+(2) $\log_{a^m}b^n=\frac{n}{m}\log_ab$.
 
 ### 解答 习题七
 
 由**常用结论 4.3.5** (对数换底公式).
 
-(1) 由换底公式, $\log_a b=\frac{\ln b}{\ln a}$, $\log_b c=\frac{\ln c}{\ln b}$, $\log_c a=\frac{\ln a}{\ln c}$. 三式相乘得 $\log_a b\cdot\log_b c\cdot\log_c a=\frac{\ln b}{\ln a}\cdot\frac{\ln c}{\ln b}\cdot\frac{\ln a}{\ln c}=1$.
+(1) 由换底公式, $\log_ab=\frac{\ln{b}}{\ln{a}}$, $\log_bc=\frac{\ln{c}}{\ln{b}}$, $\log_ca=\frac{\ln{a}}{\ln{c}}$. 三式相乘得 $\log_ab\cdot\log_bc\cdot\log_ca=\frac{\ln{b}}{\ln{a}}\cdot\frac{\ln{c}}{\ln{b}}\cdot\frac{\ln{a}}{\ln{c}}=1$.
 
-(2) 由换底公式, $\log_{a^m} b^n=\frac{\ln b^n}{\ln a^m}=\frac{n\ln b}{m\ln a}=\frac{n}{m}\log_a b$. $\blacksquare$
+(2) 由换底公式, $\log_{a^m}b^n=\frac{\ln{b}^n}{\ln{a}^m}=\frac{n\ln{b}}{m\ln{a}}=\frac{n}{m}\log_ab$. $\blacksquare$
 
 ## 习题八
 
@@ -286,7 +286,7 @@ $\blacksquare$
 
 由**常用结论 4.3.3** (对数与指数的关系), 翻两番即变为原来的 $4$ 倍.
 
-设经过 $x$ 年后国内生产总值翻两番, 则 $1.065^x=4$. 由对数定义, $x=\log_{1.065} 4$. 由换底公式, $x=\frac{\lg 4}{\lg 1.065}\approx\frac{0.602}{0.0273}\approx 22$. 故约 $22$ 年后该地国内生产总值翻两番. $\blacksquare$
+设经过 $x$ 年后国内生产总值翻两番, 则 $1.065^x=4$. 由对数定义, $x=\log_{1.065}4$. 由换底公式, $x=\frac{\lg4}{\lg1.065}\approx\frac{0.602}{0.0273}\approx22$. 故约 $22$ 年后该地国内生产总值翻两番. $\blacksquare$
 
 ## 习题九
 
@@ -300,19 +300,19 @@ $\blacksquare$
 
 由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.5** (对数换底公式).
 
-(1) 一年后进步与落后的倍数为 $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx 1.0202^{365}\approx 1480$.
+(1) 一年后进步与落后的倍数为 $\frac{1.01^{365}}{0.99^{365}}=\left(\frac{1.01}{0.99}\right)^{365}\approx1.0202^{365}\approx1480$.
 
-(2) 设经过 $x$ 天后进步是落后的 $k$ 倍, 则 $\left(\frac{1.01}{0.99}\right)^x=k$, 故 $x=\log_{1.01/0.99} k=\frac{\lg k}{\lg\left(1.01/0.99\right)}$. 当 $k=10$ 时, $x\approx\frac{1}{0.0087}\approx 115$ 天; 当 $k=100$ 时, $x\approx 230$ 天; 当 $k=1000$ 时, $x\approx 345$ 天. $\blacksquare$
+(2) 设经过 $x$ 天后进步是落后的 $k$ 倍, 则 $\left(\frac{1.01}{0.99}\right)^x=k$, 故 $x=\log_{1.01/0.99}k=\frac{\lg{k}}{\lg\left(1.01/0.99\right)}$. 当 $k=10$ 时, $x\approx\frac{1}{0.0087}\approx115$ 天; 当 $k=100$ 时, $x\approx230$ 天; 当 $k=1000$ 时, $x\approx345$ 天. $\blacksquare$
 
 ## 习题十
 
-(习题 4.3 拓广探索第 10 题) 酒驾是严重危害交通安全的违法行为. 为了保障交通安全, 根据国家有关规定: $100\;\mathrm{mL}$ 血液中酒精含量达到 $20\sim 79\;\mathrm{mg}$ 的驾驶员即为酒后驾车, $80\;\mathrm{mg}$ 及以上认定为醉酒驾车. 假设某驾驶员喝了一定量的酒后, 其血液中的酒精含量上升到了 $1\;\mathrm{mg/mL}$. 如果在停止喝酒以后, 他血液中酒精含量会以每小时 $30\%$ 的速度减少, 那么他至少经过几个小时才能驾驶?
+(习题 4.3 拓广探索第 10 题) 酒驾是严重危害交通安全的违法行为. 为了保障交通安全, 根据国家有关规定: $100\;\mathrm{mL}$ 血液中酒精含量达到 $20\sim79\;\mathrm{mg}$ 的驾驶员即为酒后驾车, $80\;\mathrm{mg}$ 及以上认定为醉酒驾车. 假设某驾驶员喝了一定量的酒后, 其血液中的酒精含量上升到了 $1\;\mathrm{mg/mL}$. 如果在停止喝酒以后, 他血液中酒精含量会以每小时 $30\%$ 的速度减少, 那么他至少经过几个小时才能驾驶?
 
 ### 解答 习题十
 
 由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.5** (对数换底公式).
 
-每小时减少 $30\%$, 即每小时酒精含量为原来的 $0.7$. 初始含量为 $1\;\mathrm{mg/mL}$, 经过 $t$ 小时后含量为 $0.7^\top\;\mathrm{mg/mL}$. 酒后驾车标准为 $100\;\mathrm{mL}$ 中 $20\;\mathrm{mg}$, 即 $0.2\;\mathrm{mg/mL}$, 要能驾驶须 $0.7^\top< 0.2$. 由对数定义, $t> \log_{0.7} 0.2=\frac{\lg 0.2}{\lg 0.7}\approx\frac{-0.699}{-0.155}\approx 4.5$. 故他至少经过 $5$ 个小时才能驾驶. $\blacksquare$
+每小时减少 $30\%$, 即每小时酒精含量为原来的 $0.7$. 初始含量为 $1\;\mathrm{mg/mL}$, 经过 $t$ 小时后含量为 $0.7^\top\;\mathrm{mg/mL}$. 酒后驾车标准为 $100\;\mathrm{mL}$ 中 $20\;\mathrm{mg}$, 即 $0.2\;\mathrm{mg/mL}$, 要能驾驶须 $0.7^\top<0.2$. 由对数定义, $t>\log_{0.7}0.2=\frac{\lg0.2}{\lg0.7}\approx\frac{-0.699}{-0.155}\approx4.5$. 故他至少经过 $5$ 个小时才能驾驶. $\blacksquare$
 
 ## 练习五
 
@@ -320,85 +320,85 @@ $\blacksquare$
 
 (1) $y=\ln\left(1-x\right)$;
 
-(2) $y=\frac{1}{\lg x}$;
+(2) $y=\frac{1}{\lg{x}}$;
 
 (3) $y=\log_7\frac{1}{1-3x}$;
 
-(4) $y=\log_a\left|x\right|$ ($a> 0$, 且 $a\neq 1$).
+(4) $y=\log_a\left|x\right|$ ($a>0$, 且 $a\neq1$).
 
 ### 解答 练习五
 
 由**定义 4.4.1 (对数函数)**, 真数必须大于 $0$.
 
-(1) $1-x> 0$, 即 $x< 1$, 故定义域为 $\left(-\infty,1\right)$.
+(1) $1-x>0$, 即 $x<1$, 故定义域为 $\left(-\infty,1\right)$.
 
-(2) $x> 0$ 且 $\lg x\neq 0$, 即 $x> 0$ 且 $x\neq 1$, 故定义域为 $\left(0,1\right)\cup\left(1,+\infty\right)$.
+(2) $x>0$ 且 $\lg{x}\neq0$, 即 $x>0$ 且 $x\neq1$, 故定义域为 $\left(0,1\right)\cup\left(1,+\infty\right)$.
 
-(3) $\frac{1}{1-3x}> 0$, 即 $1-3x> 0$, $x< \frac{1}{3}$, 故定义域为 $\left(-\infty,\frac{1}{3}\right)$.
+(3) $\frac{1}{1-3x}>0$, 即 $1-3x>0$, $x<\frac{1}{3}$, 故定义域为 $\left(-\infty,\frac{1}{3}\right)$.
 
-(4) $\left|x\right|> 0$, 即 $x\neq 0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
+(4) $\left|x\right|>0$, 即 $x\neq0$, 故定义域为 $\left(-\infty,0\right)\cup\left(0,+\infty\right)$. $\blacksquare$
 
 ## 练习六
 
 (练习 4.4 第 2 题) 画出下列函数的图象.
 
-(1) $y=\lg 10^x$;
+(1) $y=\lg10^x$;
 
-(2) $y=10^{\lg x}$.
+(2) $y=10^{\lg{x}}$.
 
-图:左为 $y=\lg 10^x=x$ 的图象,即平面直角坐标系中过原点,斜率为 $1$ 的整条直线(穿过第一,三象限);右为 $y=10^{\lg x}=x$ ($x> 0$) 的图象,即同一直线 $y=x$ 上只取 $x> 0$ 部分的射线(仅位于第一象限,从原点出发向右上方延伸).
+图:左为 $y=\lg10^x=x$ 的图象,即平面直角坐标系中过原点,斜率为 $1$ 的整条直线(穿过第一,三象限);右为 $y=10^{\lg{x}}=x$ ($x>0$) 的图象,即同一直线 $y=x$ 上只取 $x>0$ 部分的射线(仅位于第一象限,从原点出发向右上方延伸).
 
 ### 解答 练习六
 
-由**常用结论 4.3.3** (对数与指数的关系), $a^{\log_a N}=N$, $\log_a a^x=x$.
+由**常用结论 4.3.3** (对数与指数的关系), $a^{\log_aN}=N$, $\log_aa^x=x$.
 
-(1) 由对数与指数的关系, $\lg 10^x=x$, 故 $y=\lg 10^x$ 即直线 $y=x$.
+(1) 由对数与指数的关系, $\lg10^x=x$, 故 $y=\lg10^x$ 即直线 $y=x$.
 
-(2) 由对数与指数的关系, $10^{\lg x}=x$ ($x> 0$), 故 $y=10^{\lg x}$ 即射线 $y=x$ ($x> 0$). $\blacksquare$
+(2) 由对数与指数的关系, $10^{\lg{x}}=x$ ($x>0$), 故 $y=10^{\lg{x}}$ 即射线 $y=x$ ($x>0$). $\blacksquare$
 
 ## 练习七
 
 (练习 4.4 第 3 题) 已知集合 $A=\left\{1,2,3,4,\cdots\right\}$, 集合 $B=\left\{2,4,6,8,10,\cdots\right\}$, 下列表达式能建立从集合 $A$ 到集合 $B$ 的函数关系的是 $\;\_\_\;$.
 
-(1) $y=2^x$; (2) $y=x^2$; (3) $y=\log_2 x$; (4) $y=2x$.
+(1) $y=2^x$; (2) $y=x^2$; (3) $y=\log_2x$; (4) $y=2x$.
 
 ### 解答 练习七
 
 由函数的定义, 对 $A$ 中任意元素, 按对应关系得到的函数值必须在 $B$ 中.
 
-(1) $y=2^x$: 当 $x=1$ 时 $y=2\in B$, 当 $x=2$ 时 $y=4\in B$, 但 $B$ 中的 $6$ 无法表示为 $2^x$ ($x\in A$), 且 $A$ 中每个元素对应的函数值都在 $B$ 中, 但 $B$ 中元素不一定有原像, 不能建立从 $A$ 到 $B$ 的满射关系. 实际上 $y=2^x$ 对 $A$ 中任意 $x$ 函数值都在 $B$ 中, 但题目要求 "建立从集合 $A$ 到集合 $B$ 的函数关系", 即 $A$ 中每个元素的函数值都在 $B$ 中. $2^x$ 是偶数, 在 $B$ 中, 但 $y=x^2$ 当 $x=1$ 时 $y=1\notin B$; $y=\log_2 x$ 当 $x=1$ 时 $y=0\notin B$; $y=2x$ 对任意 $x\in A$, $2x$ 是正偶数, 在 $B$ 中. 故只有 (4) $y=2x$ 满足. $\blacksquare$
+(1) $y=2^x$: 当 $x=1$ 时 $y=2\in{B}$, 当 $x=2$ 时 $y=4\in{B}$, 但 $B$ 中的 $6$ 无法表示为 $2^x$ ($x\in{A}$), 且 $A$ 中每个元素对应的函数值都在 $B$ 中, 但 $B$ 中元素不一定有原像, 不能建立从 $A$ 到 $B$ 的满射关系. 实际上 $y=2^x$ 对 $A$ 中任意 $x$ 函数值都在 $B$ 中, 但题目要求 "建立从集合 $A$ 到集合 $B$ 的函数关系", 即 $A$ 中每个元素的函数值都在 $B$ 中. $2^x$ 是偶数, 在 $B$ 中, 但 $y=x^2$ 当 $x=1$ 时 $y=1\notin{B}$; $y=\log_2x$ 当 $x=1$ 时 $y=0\notin{B}$; $y=2x$ 对任意 $x\in{A}$, $2x$ 是正偶数, 在 $B$ 中. 故只有 (4) $y=2x$ 满足. $\blacksquare$
 
 ## 练习八
 
-(练习 4.4 第 4 题) 在同一直角坐标系中画出函数 $y=\log_3 x$ 和 $y=\log_{\frac{1}{3}} x$ 的图象, 并说明它们的关系.
+(练习 4.4 第 4 题) 在同一直角坐标系中画出函数 $y=\log_3x$ 和 $y=\log_{\frac{1}{3}}x$ 的图象, 并说明它们的关系.
 
-图:同一直角坐标系中,两条对数曲线的定义域均为 $\left(0,+\infty\right)$,位于 $y$ 轴右侧,均过点 $\left(1,0\right)$;$y=\log_3 x$ 为单调递增曲线($0< x< 1$ 时在 $x$ 轴下方,$x> 1$ 时在上方),$y=\log_{\frac{1}{3}} x$ 为单调递减曲线($0< x< 1$ 时在 $x$ 轴上方,$x> 1$ 时在下方),二者关于 $x$ 轴对称.
+图:同一直角坐标系中,两条对数曲线的定义域均为 $\left(0,+\infty\right)$,位于 $y$ 轴右侧,均过点 $\left(1,0\right)$;$y=\log_3x$ 为单调递增曲线($0<{}x<1$ 时在 $x$ 轴下方,$x>1$ 时在上方),$y=\log_{\frac{1}{3}}x$ 为单调递减曲线($0<{}x<1$ 时在 $x$ 轴上方,$x>1$ 时在下方),二者关于 $x$ 轴对称.
 
 ### 解答 练习八
 
 由**常用结论 4.4.3** (对数函数的图象和性质), 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称.
 
-由换底公式, $\log_{\frac{1}{3}} x=-\log_3 x$. 若点 $\left(x,y\right)$ 在 $y=\log_3 x$ 的图象上, 则点 $\left(x,-y\right)$ 在 $y=\log_{\frac{1}{3}} x$ 的图象上, 反之亦然. 故两个图象关于 $x$ 轴对称. $y=\log_3 x$ 是递增曲线, 过 $\left(1,0\right)$; $y=\log_{\frac{1}{3}} x$ 是递减曲线, 过 $\left(1,0\right)$, 二者关于 $x$ 轴镜像对称. $\blacksquare$
+由换底公式, $\log_{\frac{1}{3}}x=-\log_3x$. 若点 $\left(x,y\right)$ 在 $y=\log_3x$ 的图象上, 则点 $\left(x,-y\right)$ 在 $y=\log_{\frac{1}{3}}x$ 的图象上, 反之亦然. 故两个图象关于 $x$ 轴对称. $y=\log_3x$ 是递增曲线, 过 $\left(1,0\right)$; $y=\log_{\frac{1}{3}}x$ 是递减曲线, 过 $\left(1,0\right)$, 二者关于 $x$ 轴镜像对称. $\blacksquare$
 
 ## 练习九
 
 (练习 4.4 第 5 题) 比较下列各题中两个值的大小.
 
-(1) $\lg 0.6$, $\lg 0.8$;
+(1) $\lg0.6$, $\lg0.8$;
 
-(2) $\log_{0.5} 6$, $\log_{0.5} 4$;
+(2) $\log_{0.5}6$, $\log_{0.5}4$;
 
-(3) $\log_m 5$, $\log_m 7$.
+(3) $\log_m5$, $\log_m7$.
 
 ### 解答 练习九
 
 由**常用结论 4.4.3** (对数函数的图象和性质), 利用对数函数的单调性比较.
 
-(1) 底数 $10> 1$, $\lg x$ 为增函数, $0.6< 0.8$, 故 $\lg 0.6< \lg 0.8$.
+(1) 底数 $10>1$, $\lg{x}$ 为增函数, $0.6<0.8$, 故 $\lg0.6<\lg0.8$.
 
-(2) 底数 $0.5\in\left(0,1\right)$, $\log_{0.5} x$ 为减函数, $6> 4$, 故 $\log_{0.5} 6< \log_{0.5} 4$.
+(2) 底数 $0.5\in\left(0,1\right)$, $\log_{0.5}x$ 为减函数, $6>4$, 故 $\log_{0.5}6<\log_{0.5}4$.
 
-(3) 当 $m> 1$ 时, $y=\log_m x$ 为增函数, $5< 7$, 故 $\log_m 5< \log_m 7$; 当 $0< m< 1$ 时, $y=\log_m x$ 为减函数, $5< 7$, 故 $\log_m 5> \log_m 7$. $\blacksquare$
+(3) 当 $m>1$ 时, $y=\log_mx$ 为增函数, $5<7$, 故 $\log_m5<\log_m7$; 当 $0<{}m<1$ 时, $y=\log_mx$ 为减函数, $5<7$, 故 $\log_m5>\log_m7$. $\blacksquare$
 
 ## 练习十
 
@@ -412,21 +412,21 @@ $\blacksquare$
 
 由**常用结论 4.2.3** (指数增长与指数衰减模型) 与**常用结论 4.3.3** (对数与指数的关系).
 
-(1) 每年增长率为 $6.8\%$, 即每年为上一年的 $1.068$ 倍, 故 $y=3000\times 1.068^x$, $x\in\left\{0,1,2,3,4,5\right\}$.
+(1) 每年增长率为 $6.8\%$, 即每年为上一年的 $1.068$ 倍, 故 $y=3000\times1.068^x$, $x\in\left\{0,1,2,3,4,5\right\}$.
 
-(2) 令 $3000\times 1.068^x=3900$, 即 $1.068^x=1.3$. 由对数定义, $x=\log_{1.068} 1.3=\frac{\lg 1.3}{\lg 1.068}\approx\frac{0.1139}{0.0286}\approx 4.0$. 故约 $4$ 年后该地国内生产总值能达到 $3900$ 亿元. $\blacksquare$
+(2) 令 $3000\times1.068^x=3900$, 即 $1.068^x=1.3$. 由对数定义, $x=\log_{1.068}1.3=\frac{\lg1.3}{\lg1.068}\approx\frac{0.1139}{0.0286}\approx4.0$. 故约 $4$ 年后该地国内生产总值能达到 $3900$ 亿元. $\blacksquare$
 
 ## 探究与发现一
 
-(探究与发现 互为反函数的两个函数图象间的关系) 在同一直角坐标系中, 画出指数函数 $y=2^x$ 及其反函数 $y=\log_2 x$ 的图象, 你能发现这两个函数的图象有什么对称关系吗?
+(探究与发现 互为反函数的两个函数图象间的关系) 在同一直角坐标系中, 画出指数函数 $y=2^x$ 及其反函数 $y=\log_2x$ 的图象, 你能发现这两个函数的图象有什么对称关系吗?
 
-图:同一直角坐标系中,指数函数 $y=2^x$ 为位于 $x$ 轴上方,过 $\left(0,1\right)$ 的递增曲线,其反函数 $y=\log_2 x$ 为位于 $y$ 轴右侧,过 $\left(1,0\right)$ 的递增曲线;另画出直线 $y=x$ 作为对称轴,两曲线关于直线 $y=x$ 镜像对称.
+图:同一直角坐标系中,指数函数 $y=2^x$ 为位于 $x$ 轴上方,过 $\left(0,1\right)$ 的递增曲线,其反函数 $y=\log_2x$ 为位于 $y$ 轴右侧,过 $\left(1,0\right)$ 的递增曲线;另画出直线 $y=x$ 作为对称轴,两曲线关于直线 $y=x$ 镜像对称.
 
 ### 解答 探究与发现一
 
 由**定义 4.4.2 (反函数)**, 指数函数与对数函数互为反函数.
 
-若点 $P_0\left(x_0,y_0\right)$ 在 $y=2^x$ 的图象上, 则 $y_0=2^{x_0}$, 即 $x_0=\log_2 y_0$, 故点 $\left(y_0,x_0\right)$ 在 $y=\log_2 x$ 的图象上. 而点 $\left(x_0,y_0\right)$ 与点 $\left(y_0,x_0\right)$ 关于直线 $y=x$ 对称. 因此, 互为反函数的两个函数的图象关于直线 $y=x$ 对称. 这一结论对任意 $y=a^x$ ($a> 0$, 且 $a\neq 1$) 及其反函数 $y=\log_a x$ 都成立. $\blacksquare$
+若点 $P_0\left(x_0,y_0\right)$ 在 $y=2^x$ 的图象上, 则 $y_0=2^{x_0}$, 即 $x_0=\log_2y_0$, 故点 $\left(y_0,x_0\right)$ 在 $y=\log_2x$ 的图象上. 而点 $\left(x_0,y_0\right)$ 与点 $\left(y_0,x_0\right)$ 关于直线 $y=x$ 对称. 因此, 互为反函数的两个函数的图象关于直线 $y=x$ 对称. 这一结论对任意 $y=a^x$ ($a>0$, 且 $a\neq1$) 及其反函数 $y=\log_ax$ 都成立. $\blacksquare$
 
 ## 练习十一
 
@@ -440,41 +440,41 @@ $y_3$ 每增加 $5$ 增加 $25$, 呈线性增长; $y_1$ 每增加 $5$ 增加约 
 
 ## 练习十二
 
-(练习 4.4 第 8 题) 借助计算工具估算出使 $3^x> 5x$ 的 $x$ 的取值范围 (精确到 $0.01$).
+(练习 4.4 第 8 题) 借助计算工具估算出使 $3^x>5x$ 的 $x$ 的取值范围 (精确到 $0.01$).
 
 ### 解答 练习十二
 
 由**常用结论 4.4.4** (不同函数增长的差异), 指数函数最终会超过一次函数, 但在中间区间可能小于一次函数.
 
-方程 $3^x=5x$ 有两个交点. 估算: 在 $x\approx 0.26$ 附近, $3^{0.26}\approx 1.32$, $5\times 0.26=1.30$, 两者接近; 在 $x\approx 2.25$ 附近, $3^{2.25}\approx 11.84$, $5\times 2.25=11.25$, 两者接近. 故 $3^x> 5x$ 的取值范围约为 $x< 0.26$ 或 $x> 2.25$. $\blacksquare$
+方程 $3^x=5x$ 有两个交点. 估算: 在 $x\approx0.26$ 附近, $3^{0.26}\approx1.32$, $5\times0.26=1.30$, 两者接近; 在 $x\approx2.25$ 附近, $3^{2.25}\approx11.84$, $5\times2.25=11.25$, 两者接近. 故 $3^x>5x$ 的取值范围约为 $x<0.26$ 或 $x>2.25$. $\blacksquare$
 
 ## 练习十三
 
-(练习 4.4 第 9 题) 对数函数 $y=\lg x$ 的图象与一次函数 $y=f\left(x\right)$ 的图象有 $A$, $B$ 两个公共点, 其中 $A$ 在 $x$ 轴上, $B$ 的横坐标为 $2$. 求一次函数 $y=f\left(x\right)$ 的解析式.
+(练习 4.4 第 9 题) 对数函数 $y=\lg{x}$ 的图象与一次函数 $y=f\left(x\right)$ 的图象有 $A$, $B$ 两个公共点, 其中 $A$ 在 $x$ 轴上, $B$ 的横坐标为 $2$. 求一次函数 $y=f\left(x\right)$ 的解析式.
 
 ### 解答 练习十三
 
-由**定义 4.4.1 (对数函数)** 与**常用结论 4.4.3** (对数函数的图象和性质), $y=\lg x$ 过定点 $\left(1,0\right)$.
+由**定义 4.4.1 (对数函数)** 与**常用结论 4.4.3** (对数函数的图象和性质), $y=\lg{x}$ 过定点 $\left(1,0\right)$.
 
-$A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=\left(1,0\right)$. $B$ 的横坐标为 $2$, 故 $B=\left(2,\lg 2\right)$. 一次函数过 $A\left(1,0\right)$ 和 $B\left(2,\lg 2\right)$, 斜率 $k=\frac{\lg 2-0}{2-1}=\lg 2$, 故 $f\left(x\right)=\left(\lg 2\right)\left(x-1\right)$. $\blacksquare$
+$A$ 在 $x$ 轴上且在 $y=\lg{x}$ 上, 故 $A=\left(1,0\right)$. $B$ 的横坐标为 $2$, 故 $B=\left(2,\lg2\right)$. 一次函数过 $A\left(1,0\right)$ 和 $B\left(2,\lg2\right)$, 斜率 $k=\frac{\lg2-0}{2-1}=\lg2$, 故 $f\left(x\right)=\left(\lg2\right)\left(x-1\right)$. $\blacksquare$
 
 ## 练习十四
 
 (练习 4.4 第 10 题) 函数 $y=f\left(x\right)$ 的图象过 $\left(1,0\right)$, 在 $\left(0,+\infty\right)$ 上递增, 且以 $y=1$ 为水平渐近线, 则 $y=f\left(x\right)$ 可能是 ( ).
 
-(A) $y=1-x^{-1}$, $x\in\left(0,+\infty\right)$ (B) $y=\frac{3}{2}-\left(\frac{1}{2}\right)^x$, $x\in\left(0,+\infty\right)$ (C) $y=\ln x$ (D) $y=x-1$, $x\in\left(0,+\infty\right)$
+(A) $y=1-x^{-1}$, $x\in\left(0,+\infty\right)$ (B) $y=\frac{3}{2}-\left(\frac{1}{2}\right)^x$, $x\in\left(0,+\infty\right)$ (C) $y=\ln{x}$ (D) $y=x-1$, $x\in\left(0,+\infty\right)$
 
 ### 解答 练习十四
 
 由**常用结论 4.4.3** (对数函数的图象和性质) 与**常用结论 4.2.2** (指数函数的图象和性质).
 
-(A) $y=1-\frac{1}{x}$: 当 $x=1$ 时 $y=0$, 递增, 当 $x\to+\infty$ 时 $y\to 1$, 符合图象特征. (B) 当 $x=1$ 时 $y=\frac{3}{2}-\frac{1}{2}=1\neq 0$, 不符合. (C) $y=\ln x$ 当 $x\to+\infty$ 时 $y\to+\infty$, 不以 $y=1$ 为渐近线, 不符合. (D) $y=x-1$ 是直线, 不符合图象. 故选 (A). $\blacksquare$
+(A) $y=1-\frac{1}{x}$: 当 $x=1$ 时 $y=0$, 递增, 当 $x\to+\infty$ 时 $y\to1$, 符合图象特征. (B) 当 $x=1$ 时 $y=\frac{3}{2}-\frac{1}{2}=1\neq0$, 不符合. (C) $y=\ln{x}$ 当 $x\to+\infty$ 时 $y\to+\infty$, 不以 $y=1$ 为渐近线, 不符合. (D) $y=x-1$ 是直线, 不符合图象. 故选 (A). $\blacksquare$
 
 ## 习题十一
 
 (习题 4.4 复习巩固第 1 题) 求下列函数的定义域.
 
-(1) $y=\sqrt\left[3\right]{\log_2 x}$;
+(1) $y=\sqrt\left[3\right]{\log_2x}$;
 
 (2) $y=\sqrt{\log_{0.5}\left(4x-3\right)}$.
 
@@ -482,33 +482,33 @@ $A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=\left(1,0\right)$. $B$ 的横坐�
 
 由**定义 4.4.1 (对数函数)**, 真数必须大于 $0$.
 
-(1) $\log_2 x$ 要求 $x> 0$, 三次根号对被开方数无限制, 故定义域为 $\left(0,+\infty\right)$.
+(1) $\log_2x$ 要求 $x>0$, 三次根号对被开方数无限制, 故定义域为 $\left(0,+\infty\right)$.
 
-(2) 要求 $\log_{0.5}\left(4x-3\right)\ge 0$ 且 $4x-3> 0$. 因底数 $0.5\in\left(0,1\right)$, $\log_{0.5} x$ 为减函数, $\log_{0.5}\left(4x-3\right)\ge 0=\log_{0.5} 1$ 等价于 $0< 4x-3\le 1$, 即 $\frac{3}{4}< x\le 1$. 故定义域为 $\left(\frac{3}{4},1\right]$. $\blacksquare$
+(2) 要求 $\log_{0.5}\left(4x-3\right)\ge0$ 且 $4x-3>0$. 因底数 $0.5\in\left(0,1\right)$, $\log_{0.5}x$ 为减函数, $\log_{0.5}\left(4x-3\right)\ge0=\log_{0.5}1$ 等价于 $0<4x-3\le1$, 即 $\frac{3}{4}<{}x\le1$. 故定义域为 $\left(\frac{3}{4},1\right]$. $\blacksquare$
 
 ## 习题十二
 
 (习题 4.4 复习巩固第 2 题) 比较满足下列条件的两个正数 $m$, $n$ 的大小.
 
-(1) $\log_3 m< \log_3 n$;
+(1) $\log_3m<\log_3n$;
 
-(2) $\log_{0.3} m< \log_{0.3} n$;
+(2) $\log_{0.3}m<\log_{0.3}n$;
 
-(3) $\log_a m< \log_a n$ ($0< a< 1$);
+(3) $\log_am<\log_an$ ($0<{}a<1$);
 
-(4) $\log_a m> \log_a n$ ($a> 1$).
+(4) $\log_am>\log_an$ ($a>1$).
 
 ### 解答 习题十二
 
-由**常用结论 4.4.3** (对数函数的图象和性质), $a> 1$ 时 $y=\log_a x$ 递增, $0< a< 1$ 时递减.
+由**常用结论 4.4.3** (对数函数的图象和性质), $a>1$ 时 $y=\log_ax$ 递增, $0<{}a<1$ 时递减.
 
-(1) 底数 $3> 1$, 递增, 由 $\log_3 m< \log_3 n$ 得 $m< n$.
+(1) 底数 $3>1$, 递增, 由 $\log_3m<\log_3n$ 得 $m<{}n$.
 
-(2) 底数 $0.3\in\left(0,1\right)$, 递减, 由 $\log_{0.3} m< \log_{0.3} n$ 得 $m> n$.
+(2) 底数 $0.3\in\left(0,1\right)$, 递减, 由 $\log_{0.3}m<\log_{0.3}n$ 得 $m>{}n$.
 
-(3) $0< a< 1$, 递减, 由 $\log_a m< \log_a n$ 得 $m> n$.
+(3) $0<{}a<1$, 递减, 由 $\log_am<\log_an$ 得 $m>{}n$.
 
-(4) $a> 1$, 递增, 由 $\log_a m> \log_a n$ 得 $m> n$. $\blacksquare$
+(4) $a>1$, 递增, 由 $\log_am>\log_an$ 得 $m>{}n$. $\blacksquare$
 
 ## 习题十三
 
@@ -518,27 +518,27 @@ $A$ 在 $x$ 轴上且在 $y=\lg x$ 上, 故 $A=\left(1,0\right)$. $B$ 的横坐�
 
 由**常用结论 4.3.3** (对数与指数的关系).
 
-$12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\frac{M}{m}\right)=12000$, 得 $\ln\left(1+\frac{M}{m}\right)=6$, 故 $1+\frac{M}{m}=\mathrm e^6$, $\frac{M}{m}=\mathrm e^6-1\approx 402$. 即燃料质量约是火箭质量的 $402$ 倍时, 火箭最大速度可达 $12\;\mathrm{km/s}$. $\blacksquare$
+$12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\frac{M}{m}\right)=12000$, 得 $\ln\left(1+\frac{M}{m}\right)=6$, 故 $1+\frac{M}{m}=\mathrm{e}^6$, $\frac{M}{m}=\mathrm{e}^6-1\approx402$. 即燃料质量约是火箭质量的 $402$ 倍时, 火箭最大速度可达 $12\;\mathrm{km/s}$. $\blacksquare$
 
 ## 习题十四
 
-(习题 4.4 复习巩固第 4 题) 函数 $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ 的图象如图所示.
+(习题 4.4 复习巩固第 4 题) 函数 $y=\log_2x$, $y=\log_3x$, $y=\lg{x}$ 的图象如图所示.
 
 (1) 试说明哪个函数对应于哪个图象, 并解释为什么;
 
-(2) 以已有图象为基础, 在同一直角坐标系中画出 $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ 的图象;
+(2) 以已有图象为基础, 在同一直角坐标系中画出 $y=\log_{\frac{1}{2}}x$, $y=\log_{\frac{1}{5}}x$, $y=\log_{\frac{1}{10}}x$ 的图象;
 
 (3) 从 (2) 的图中你发现了什么?
 
-图:同一直角坐标系中,三条递增的对数曲线 $y=\log_2 x$,$y=\log_3 x$,$y=\lg x$ 的定义域均为 $\left(0,+\infty\right)$,均过点 $\left(1,0\right)$;在 $x> 1$ 区域图象自上而下依次为 $y=\log_2 x$(最靠上,最陡),$y=\log_3 x$(居中),$y=\lg x$(最靠下,最平缓),在 $0< x< 1$ 区域上下顺序相反.
+图:同一直角坐标系中,三条递增的对数曲线 $y=\log_2x$,$y=\log_3x$,$y=\lg{x}$ 的定义域均为 $\left(0,+\infty\right)$,均过点 $\left(1,0\right)$;在 $x>1$ 区域图象自上而下依次为 $y=\log_2x$(最靠上,最陡),$y=\log_3x$(居中),$y=\lg{x}$(最靠下,最平缓),在 $0<{}x<1$ 区域上下顺序相反.
 
 ### 解答 习题十四
 
-由**常用结论 4.4.3** (对数函数的图象和性质), 在 $x> 1$ 时, 底数越小, 对数函数图象越靠上.
+由**常用结论 4.4.3** (对数函数的图象和性质), 在 $x>1$ 时, 底数越小, 对数函数图象越靠上.
 
-(1) 在 $x> 1$ 时, 底数越小, $\log_a x$ 的值越大, 图象越靠上. 底数 $2< 3< 10$, 故在 $x> 1$ 时, 图象最靠上的是 $y=\log_2 x$, 中间的是 $y=\log_3 x$, 最下方的是 $y=\lg x$. 即最陡的曲线对应 $y=\log_2 x$, 中间对应 $y=\log_3 x$, 最平缓对应 $y=\lg x$.
+(1) 在 $x>1$ 时, 底数越小, $\log_ax$ 的值越大, 图象越靠上. 底数 $2<3<10$, 故在 $x>1$ 时, 图象最靠上的是 $y=\log_2x$, 中间的是 $y=\log_3x$, 最下方的是 $y=\lg{x}$. 即最陡的曲线对应 $y=\log_2x$, 中间对应 $y=\log_3x$, 最平缓对应 $y=\lg{x}$.
 
-(2) 由**常用结论 4.4.3**, 底数互为倒数的两个对数函数图象关于 $x$ 轴对称. 故 $y=\log_{\frac{1}{2}} x$, $y=\log_{\frac{1}{5}} x$, $y=\log_{\frac{1}{10}} x$ 分别与 $y=\log_2 x$, $y=\log_3 x$, $y=\lg x$ 关于 $x$ 轴对称.
+(2) 由**常用结论 4.4.3**, 底数互为倒数的两个对数函数图象关于 $x$ 轴对称. 故 $y=\log_{\frac{1}{2}}x$, $y=\log_{\frac{1}{5}}x$, $y=\log_{\frac{1}{10}}x$ 分别与 $y=\log_2x$, $y=\log_3x$, $y=\lg{x}$ 关于 $x$ 轴对称.
 
 (3) 底数互为倒数的两个对数函数的图象关于 $x$ 轴对称. $\blacksquare$
 
@@ -554,6 +554,6 @@ $12\;\mathrm{km/s}=12000\;\mathrm{m/s}$. 令 $2000\ln\left(1+\frac{M}{m}\right)=
 
 由**常用结论 4.3.3** (对数与指数的关系) 与**常用结论 4.3.4** (对数运算性质).
 
-(1) 代入 $O=2700$, 得 $v=\frac{1}{2}\log_3\frac{2700}{100}=\frac{1}{2}\log_3 27=\frac{1}{2}\times 3=\frac{3}{2}\;\mathrm{m/s}$.
+(1) 代入 $O=2700$, 得 $v=\frac{1}{2}\log_3\frac{2700}{100}=\frac{1}{2}\log_327=\frac{1}{2}\times3=\frac{3}{2}\;\mathrm{m/s}$.
 
 (2) 静止时 $v=0$, 即 $\frac{1}{2}\log_3\frac{O}{100}=0$, 得 $\log_3\frac{O}{100}=0$, 故 $\frac{O}{100}=1$, $O=100$. $\blacksquare$

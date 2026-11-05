@@ -58,9 +58,9 @@
 
 ## Inquiry and Discovery 1
 
-(Think About 1) Properties of the binomial distribution. Observe the graphs of the binomial distribution $X\sim B\left(n,p\right)$ for various values of the parameters $n$ and $p$, and, by analogy with the study of function properties, what properties of the binomial distribution can you discover?
+(Think About 1) Properties of the binomial distribution. Observe the graphs of the binomial distribution $X\sim{B}\left(n,p\right)$ for various values of the parameters $n$ and $p$, and, by analogy with the study of function properties, what properties of the binomial distribution can you discover?
 
-The figure is a set of bar charts of the distribution of the binomial distribution $X\sim B\left(n,p\right)$ for different values of $n,p$ (several charts side by side): horizontal axis the value $k$, vertical axis the probability $\mathbb P\left(X=k\right)$; each chart is unimodal, with the probability first increasing with $k$, reaching a maximum near $k=np$, and then decreasing.
+The figure is a set of bar charts of the distribution of the binomial distribution $X\sim{B}\left(n,p\right)$ for different values of $n,p$ (several charts side by side): horizontal axis the value $k$, vertical axis the probability $\mathbb{P}\left(X=k\right)$; each chart is unimodal, with the probability first increasing with $k$, reaching a maximum near $k=np$, and then decreasing.
 
 ### Solution to Inquiry and Discovery 1
 
@@ -70,9 +70,9 @@ Observing the distribution graphs, one can find:
 
 (1) The sum of the probabilities is $1$, and the area under the graph (sum of probabilities) is always $1$.
 
-(2) The probability $\mathbb P\left(X=k\right)$ first increases with $k$, reaches its maximum when $k$ is close to $np$, and then decreases with $k$; the graph is unimodal.
+(2) The probability $\mathbb{P}\left(X=k\right)$ first increases with $k$, reaches its maximum when $k$ is close to $np$, and then decreases with $k$; the graph is unimodal.
 
-(3) When $p=0.5$, the distribution is symmetric about $k=np$; when $p\neq 0.5$, the distribution is asymmetric, with the peak shifted to one side.
+(3) When $p=0.5$, the distribution is symmetric about $k=np$; when $p\neq0.5$, the distribution is asymmetric, with the peak shifted to one side.
 
 (4) The larger $n$ is, the more the probabilities concentrate near the mean $np$, and the steeper the graph. $\blacksquare$
 
@@ -87,44 +87,44 @@ By **Definition 7.4.2 (Binomial Distribution)**.
 Consider the ratio of two adjacent terms:
 
 $$
-\frac{\mathbb P\left(X=k+1\right)}{\mathbb P\left(X=k\right)}=\frac{\binom{n}{k+1} p^{k+1}\left(1-p\right)^{n-k-1}}{\binom{n}{k} p^k\left(1-p\right)^{n-k}}=\frac{n-k}{k+1}\cdot\frac{p}{1-p}.
+\frac{\mathbb{P}\left(X=k+1\right)}{\mathbb{P}\left(X=k\right)}=\frac{\binom{n}{k+1}p^{k+1}\left(1-p\right)^{n-k-1}}{\binom{n}{k}p^k\left(1-p\right)^{n-k}}=\frac{n-k}{k+1}\cdot\frac{p}{1-p}.
 $$
 
-When this ratio is greater than $1$, i.e. $k< \left(n+1\right)p-1$, then $\mathbb P\left(X=k+1\right)> \mathbb P\left(X=k\right)$ and the distribution rises; when the ratio is less than $1$, i.e. $k> \left(n+1\right)p-1$, then $\mathbb P\left(X=k+1\right)< \mathbb P\left(X=k\right)$ and the distribution falls. Thus $\mathbb P\left(X=k\right)$ reaches its maximum at the integer $k$ closest to $\left(n+1\right)p$, proving the unimodal property.
+When this ratio is greater than $1$, i.e. $k<\left(n+1\right)p-1$, then $\mathbb{P}\left(X=k+1\right)>\mathbb{P}\left(X=k\right)$ and the distribution rises; when the ratio is less than $1$, i.e. $k>\left(n+1\right)p-1$, then $\mathbb{P}\left(X=k+1\right)<\mathbb{P}\left(X=k\right)$ and the distribution falls. Thus $\mathbb{P}\left(X=k\right)$ reaches its maximum at the integer $k$ closest to $\left(n+1\right)p$, proving the unimodal property.
 
-When $p=0.5$, $\mathbb P\left(X=k\right)=\mathbb P\left(X=n-k\right)$, so the distribution is symmetric about $k=\frac{n}{2}$, proving the symmetry property. $\blacksquare$
+When $p=0.5$, $\mathbb{P}\left(X=k\right)=\mathbb{P}\left(X=n-k\right)$, so the distribution is symmetric about $k=\frac{n}{2}$, proving the symmetry property. $\blacksquare$
 
 ## Exercise 1
 
-(Exercise 7.5, Problem 1) Given $X\sim N\left(0,1\right)$, the normal density function is $\;\_\_\;$, $\mathbb P\left(X\le 0\right)=\;\_\_\;$, $\mathbb P\left(\lvert X\rvert\le 1\right)=\;\_\_\;$, $\mathbb P\left(X\le 1\right)=\;\_\_\;$, $\mathbb P\left(X> 1\right)=\;\_\_\;$.
+(Exercise 7.5, Problem 1) Given $X\sim{N}\left(0,1\right)$, the normal density function is $\;\_\_\;$, $\mathbb{P}\left(X\le0\right)=\;\_\_\;$, $\mathbb{P}\left(\lvert{X}\rvert\le1\right)=\;\_\_\;$, $\mathbb{P}\left(X\le1\right)=\;\_\_\;$, $\mathbb{P}\left(X>1\right)=\;\_\_\;$.
 
 ### Solution to Exercise 1
 
 By **Definition 7.5.2 (Normal Distribution)** and **Conclusion 7.5.4** (The $3\sigma$ Rule).
 
-When $X\sim N\left(0,1\right)$, the normal density function is
+When $X\sim{N}\left(0,1\right)$, the normal density function is
 
 $$
 f\left(x\right)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}.
 $$
 
-By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=0$, so $\mathbb P\left(X\le 0\right)=0.5$.
+By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=0$, so $\mathbb{P}\left(X\le0\right)=0.5$.
 
-By **Conclusion 7.5.4** (The $3\sigma$ Rule), $\mathbb P\left(\lvert X\rvert\le 1\right)\approx 0.6827$. Also $\mathbb P\left(X\le 1\right)=0.5+\frac{0.6827}{2}\approx 0.8413$, so $\mathbb P\left(X> 1\right)=1-0.8413=0.1587$.
+By **Conclusion 7.5.4** (The $3\sigma$ Rule), $\mathbb{P}\left(\lvert{X}\rvert\le1\right)\approx0.6827$. Also $\mathbb{P}\left(X\le1\right)=0.5+\frac{0.6827}{2}\approx0.8413$, so $\mathbb{P}\left(X>1\right)=1-0.8413=0.1587$.
 
 The blanks are, in order, $f\left(x\right)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$, $0.5$, $0.6827$, $0.8413$, $0.1587$. $\blacksquare$
 
 ## Exercise 2
 
-(Exercise 7.5, Problem 2) Given $X\sim N\left(0,2^2\right)$, $Y\sim N\left(0,3^2\right)$.
+(Exercise 7.5, Problem 2) Given $X\sim{N}\left(0,2^2\right)$, $Y\sim{N}\left(0,3^2\right)$.
 
 (1) Sketch their density curves;
 
-(2) Compare the relationship between $\mathbb P\left(X\le -2\right)$ and $\mathbb P\left(X\le 2\right)$;
+(2) Compare the relationship between $\mathbb{P}\left(X\le-2\right)$ and $\mathbb{P}\left(X\le2\right)$;
 
-(3) Compare $\mathbb P\left(\lvert X\rvert\le 1\right)$ and $\mathbb P\left(\lvert Y\rvert\le 1\right)$.
+(3) Compare $\mathbb{P}\left(\lvert{X}\rvert\le1\right)$ and $\mathbb{P}\left(\lvert{Y}\rvert\le1\right)$.
 
-The figure shows two normal density curves in one coordinate system, both symmetric about $x=0$ and bell-shaped: the curve for $X\sim N\left(0,2^2\right)$ is steeper and more concentrated near $0$, while the curve for $Y\sim N\left(0,3^2\right)$ is flatter and more spread out (the larger the standard deviation, the wider and lower the curve).
+The figure shows two normal density curves in one coordinate system, both symmetric about $x=0$ and bell-shaped: the curve for $X\sim{N}\left(0,2^2\right)$ is steeper and more concentrated near $0$, while the curve for $Y\sim{N}\left(0,3^2\right)$ is flatter and more spread out (the larger the standard deviation, the wider and lower the curve).
 
 ### Solution to Exercise 2
 
@@ -132,9 +132,9 @@ By **Conclusion 7.5.3** (Properties of the Normal Curve) and **Conclusion 7.5.4*
 
 (1) Both density curves are symmetric about $x=0$ and bell-shaped. The standard deviation of $X$ is 2 and that of $Y$ is 3, so the curve of $X$ is steeper and more concentrated near 0, while the curve of $Y$ is flatter and more spread out.
 
-(2) By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=0$, so $\mathbb P\left(X\le -2\right)=\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X\le 2\right)$. The two are not equal, and $\mathbb P\left(X\le -2\right)< \mathbb P\left(X\le 2\right)$.
+(2) By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=0$, so $\mathbb{P}\left(X\le-2\right)=\mathbb{P}\left(X\ge2\right)=1-\mathbb{P}\left(X\le2\right)$. The two are not equal, and $\mathbb{P}\left(X\le-2\right)<\mathbb{P}\left(X\le2\right)$.
 
-(3) $X$ has a smaller standard deviation, so its values are more concentrated near the mean 0; hence the probability of falling in the interval $\left[-1,1\right]$ is larger, i.e. $\mathbb P\left(\lvert X\rvert\le 1\right)> \mathbb P\left(\lvert Y\rvert\le 1\right)$. $\blacksquare$
+(3) $X$ has a smaller standard deviation, so its values are more concentrated near the mean 0; hence the probability of falling in the interval $\left[-1,1\right]$ is larger, i.e. $\mathbb{P}\left(\lvert{X}\rvert\le1\right)>\mathbb{P}\left(\lvert{Y}\rvert\le1\right)$. $\blacksquare$
 
 ## Exercise 3
 
@@ -150,7 +150,7 @@ By **Definition 7.5.2 (Normal Distribution)**, the normal distribution describes
 
 ## Problem 1
 
-(Exercise 7.5, Review and Consolidation, Problem 1) Given that the heights of boys in a region satisfy $X\sim N\left(72,8^2\right)$ and the heights of girls satisfy $Y\sim N\left(74,6^2\right)$ (unit: $\mathrm{cm}$). Compare the distributions of heights of boys and girls.
+(Exercise 7.5, Review and Consolidation, Problem 1) Given that the heights of boys in a region satisfy $X\sim{N}\left(72,8^2\right)$ and the heights of girls satisfy $Y\sim{N}\left(74,6^2\right)$ (unit: $\mathrm{cm}$). Compare the distributions of heights of boys and girls.
 
 ### Solution to Problem 1
 
@@ -160,13 +160,13 @@ The mean height of girls is 74 and that of boys is 72, i.e. the average height o
 
 ## Problem 2
 
-(Exercise 7.5, Review and Consolidation, Problem 2) Given that the heights of adult men in a region satisfy $X\sim N\left(170,5^2\right)$ (unit: $\mathrm{cm}$). Find:
+(Exercise 7.5, Review and Consolidation, Problem 2) Given that the heights of adult men in a region satisfy $X\sim{N}\left(170,5^2\right)$ (unit: $\mathrm{cm}$). Find:
 
-(1) $\mathbb P\left(165< X\le 175\right)$;
+(1) $\mathbb{P}\left(165<{}X\le175\right)$;
 
-(2) $\mathbb P\left(X\le 165\right)$;
+(2) $\mathbb{P}\left(X\le165\right)$;
 
-(3) $\mathbb P\left(X> 175\right)$.
+(3) $\mathbb{P}\left(X>175\right)$.
 
 ### Solution to Problem 2
 
@@ -177,31 +177,31 @@ Here $\mu=170$, $\sigma=5$, so $165=\mu-\sigma$, $175=\mu+\sigma$.
 (1)
 
 $$
-\mathbb P\left(165< X\le 175\right)=\mathbb P\left(\mu-\sigma< X\le\mu+\sigma\right)\approx 0.6827.
+\mathbb{P}\left(165<{}X\le175\right)=\mathbb{P}\left(\mu-\sigma<{}X\le\mu+\sigma\right)\approx0.6827.
 $$
 
-(2) By symmetry, $\mathbb P\left(X\le 165\right)=\mathbb P\left(X\le\mu-\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587$.
+(2) By symmetry, $\mathbb{P}\left(X\le165\right)=\mathbb{P}\left(X\le\mu-\sigma\right)=\frac{1-0.6827}{2}\approx0.1587$.
 
 (3)
 
 $$
-\mathbb P\left(X> 175\right)=\mathbb P\left(X> \mu+\sigma\right)=\frac{1-0.6827}{2}\approx 0.1587.
+\mathbb{P}\left(X>175\right)=\mathbb{P}\left(X>\mu+\sigma\right)=\frac{1-0.6827}{2}\approx0.1587.
 $$
 
 $\blacksquare$
 
 ## Problem 3
 
-(Exercise 7.5, Review and Consolidation, Problem 3) Given $X\sim N\left(\mu,\sigma^2\right)$, find the probability that $X$ lies in the interval $\left[\mu,\mu+\sigma\right]$.
+(Exercise 7.5, Review and Consolidation, Problem 3) Given $X\sim{N}\left(\mu,\sigma^2\right)$, find the probability that $X$ lies in the interval $\left[\mu,\mu+\sigma\right]$.
 
 ### Solution to Problem 3
 
 By **Conclusion 7.5.3** (Properties of the Normal Curve) and **Conclusion 7.5.4** (The $3\sigma$ Rule).
 
-By **Conclusion 7.5.4** (The $3\sigma$ Rule), $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827$. By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=\mu$, so the probabilities on the intervals $\left[\mu-\sigma,\mu\right]$ and $\left[\mu,\mu+\sigma\right]$ are equal. Thus
+By **Conclusion 7.5.4** (The $3\sigma$ Rule), $\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)\approx0.6827$. By **Conclusion 7.5.3** (Properties of the Normal Curve), the curve is symmetric about $x=\mu$, so the probabilities on the intervals $\left[\mu-\sigma,\mu\right]$ and $\left[\mu,\mu+\sigma\right]$ are equal. Thus
 
 $$
-\mathbb P\left(\mu\le X\le\mu+\sigma\right)=\frac{0.6827}{2}\approx 0.3414.
+\mathbb{P}\left(\mu\le{X}\le\mu+\sigma\right)=\frac{0.6827}{2}\approx0.3414.
 $$
 
 $\blacksquare$
@@ -214,19 +214,19 @@ $\blacksquare$
 
 By **Conclusion 7.5.4** (The $3\sigma$ Rule).
 
-The error $X$ follows a normal distribution, with sample mean 0 and sample variance 4, i.e. $\mu=0$, $\sigma=\sqrt{4}=2$. Being qualified means $\lvert X\rvert\le 4=2\sigma$.
+The error $X$ follows a normal distribution, with sample mean 0 and sample variance 4, i.e. $\mu=0$, $\sigma=\sqrt{4}=2$. Being qualified means $\lvert{X}\rvert\le4=2\sigma$.
 
 By **Conclusion 7.5.4** (The $3\sigma$ Rule),
 
 $$
-\mathbb P\left(\lvert X\rvert\le 2\sigma\right)=\mathbb P\left(-2\sigma\le X\le 2\sigma\right)\approx 0.9545.
+\mathbb{P}\left(\lvert{X}\rvert\le2\sigma\right)=\mathbb{P}\left(-2\sigma\le{X}\le2\sigma\right)\approx0.9545.
 $$
 
 Thus the qualified rate of this batch of salt is about $95.45\%$. $\blacksquare$
 
 ## Information Technology Application 1
 
-(Think About 1) Probability distribution graphs and probability computation. Choose some other normal distributions $N\left(\mu,\sigma^2\right)$, compute the values of $\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)$, $\mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)$, $\mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)$, and summarize the pattern in these values.
+(Think About 1) Probability distribution graphs and probability computation. Choose some other normal distributions $N\left(\mu,\sigma^2\right)$, compute the values of $\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)$, $\mathbb{P}\left(\mu-2\sigma\le{X}\le\mu+2\sigma\right)$, $\mathbb{P}\left(\mu-3\sigma\le{X}\le\mu+3\sigma\right)$, and summarize the pattern in these values.
 
 ### Solution to Information Technology Application 1
 
@@ -235,15 +235,15 @@ By **Conclusion 7.5.4** (The $3\sigma$ Rule).
 Regardless of the values of $\mu$ and $\sigma$, the probabilities that the normal distribution $N\left(\mu,\sigma^2\right)$ falls in the intervals $\left[\mu-\sigma,\mu+\sigma\right]$, $\left[\mu-2\sigma,\mu+2\sigma\right]$, $\left[\mu-3\sigma,\mu+3\sigma\right]$ are, respectively, approximately
 
 $$
-\mathbb P\left(\mu-\sigma\le X\le\mu+\sigma\right)\approx 0.6827.
+\mathbb{P}\left(\mu-\sigma\le{X}\le\mu+\sigma\right)\approx0.6827.
 $$
 
 $$
-\mathbb P\left(\mu-2\sigma\le X\le\mu+2\sigma\right)\approx 0.9545.
+\mathbb{P}\left(\mu-2\sigma\le{X}\le\mu+2\sigma\right)\approx0.9545.
 $$
 
 $$
-\mathbb P\left(\mu-3\sigma\le X\le\mu+3\sigma\right)\approx 0.9973.
+\mathbb{P}\left(\mu-3\sigma\le{X}\le\mu+3\sigma\right)\approx0.9973.
 $$
 
 Pattern: these three probabilities depend only on the width of the interval relative to the standard deviation, not on the specific values of $\mu$ and $\sigma$. Almost all values of a normal variable fall in $\left[\mu-3\sigma,\mu+3\sigma\right]$, and the probability of falling outside is only about $0.27\%$; this is the $3\sigma$ rule. $\blacksquare$
@@ -284,7 +284,7 @@ By **Definition 8.1.3 (Positive and Negative Correlation)** and **Definition 8.1
 
 | Region | $A$ | $B$ | $C$ | $D$ | $E$ | $F$ | $G$ | $H$ | $I$ | $J$ | $K$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Altitude / $\mathrm m$ | $1250$ | $1158$ | $1067$ | $457$ | $701$ | $731$ | $610$ | $670$ | $1493$ | $762$ | $549$ |
+| Altitude / $\mathrm{m}$ | $1250$ | $1158$ | $1067$ | $457$ | $701$ | $731$ | $610$ | $670$ | $1493$ | $762$ | $549$ |
 | Number of bird species | $36$ | $30$ | $37$ | $11$ | $11$ | $13$ | $17$ | $13$ | $29$ | $4$ | $15$ |
 
 ### Solution to Exercise 6
@@ -296,10 +296,10 @@ Taking altitude as the horizontal axis and the number of bird species as the ver
 Computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives
 
 $$
-r\approx 0.79.
+r\approx0.79.
 $$
 
-By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r> 0$ and is close to $1$, so there is a positive correlation between the number of bird species and the altitude: the higher the altitude, the more bird species a region generally has, and the linear correlation is strong. $\blacksquare$
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r>0$ and is close to $1$, so there is a positive correlation between the number of bird species and the altitude: the higher the altitude, the more bird species a region generally has, and the linear correlation is strong. $\blacksquare$
 
 ## Exercise 7
 
@@ -324,23 +324,23 @@ By **Definition 8.1.5 (Sample Correlation Coefficient)**.
 From the data
 
 $$
-\overline x=\frac{2+3+5}{3}=\frac{10}{3},\quad \overline y=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
+\overline{x}=\frac{2+3+5}{3}=\frac{10}{3},\quad\overline{y}=\frac{2+\left(-1\right)+\left(-7\right)}{3}=-2.
 $$
 
 By **Definition 8.1.5 (Sample Correlation Coefficient)**,
 
 $$
-\sum_{i=1}^{3}\left(x_i-\overline x\right)\left(y_i-\overline y\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
+\sum_{i=1}^{3}\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)=\left(2-\frac{10}{3}\right)\left(2+2\right)+\left(3-\frac{10}{3}\right)\left(-1+2\right)+\left(5-\frac{10}{3}\right)\left(-7+2\right)=-14,
 $$
 
 $$
-\sum_{i=1}^{3}\left(x_i-\overline x\right)^2=\frac{14}{3},\quad \sum_{i=1}^{3}\left(y_i-\overline y\right)^2=42.
+\sum_{i=1}^{3}\left(x_i-\overline{x}\right)^2=\frac{14}{3},\quad\sum_{i=1}^{3}\left(y_i-\overline{y}\right)^2=42.
 $$
 
 Thus
 
 $$
-r=\frac{-14}{\sqrt{\frac{14}{3}\times 42}}=\frac{-14}{\sqrt{196}}=-1.
+r=\frac{-14}{\sqrt{\frac{14}{3}\times42}}=\frac{-14}{\sqrt{196}}=-1.
 $$
 
 Although $r=-1$, which shows that these $3$ pairs of sample data happen to lie exactly on a straight line, the sample size is only $3$, which is too small; by **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient) and the randomness of random samples, one cannot infer from this that the two variables are linearly correlated in the population. $\blacksquare$
@@ -355,9 +355,9 @@ Although $r=-1$, which shows that these $3$ pairs of sample data happen to lie e
 
 (3) $\left(-2,-8\right)$, $\left(-1,-1\right)$, $\left(0,0\right)$, $\left(1,1\right)$, $\left(2,8\right)$, $\left(3,27\right)$;
 
-(4) $\left(2,0\right)$, $\left(1,\sqrt 3\right)$, $\left(0,2\right)$, $\left(-1,\sqrt 3\right)$, $\left(-2,0\right)$.
+(4) $\left(2,0\right)$, $\left(1,\sqrt3\right)$, $\left(0,2\right)$, $\left(-1,\sqrt3\right)$, $\left(-2,0\right)$.
 
-The figure shows four scatter plots: (1) $\left(-2,-3\right),\left(-1,-1\right),\left(0,1\right),\left(1,3\right),\left(2,5\right),\left(3,7\right)$, all lying on the line $y=2x+1$; (2) $\left(0,0\right),\left(1,1\right),\left(2,4\right),\left(3,9\right),\left(4,16\right)$, distributed along the parabola $y=x^2$; (3) $\left(-2,-8\right),\left(-1,-1\right),\left(0,0\right),\left(1,1\right),\left(2,8\right),\left(3,27\right)$, distributed along the curve $y=x^3$; (4) $\left(2,0\right),\left(1,\sqrt 3\right),\left(0,2\right),\left(-1,\sqrt 3\right),\left(-2,0\right)$, distributed along an upper semicircle.
+The figure shows four scatter plots: (1) $\left(-2,-3\right),\left(-1,-1\right),\left(0,1\right),\left(1,3\right),\left(2,5\right),\left(3,7\right)$, all lying on the line $y=2x+1$; (2) $\left(0,0\right),\left(1,1\right),\left(2,4\right),\left(3,9\right),\left(4,16\right)$, distributed along the parabola $y=x^2$; (3) $\left(-2,-8\right),\left(-1,-1\right),\left(0,0\right),\left(1,1\right),\left(2,8\right),\left(3,27\right)$, distributed along the curve $y=x^3$; (4) $\left(2,0\right),\left(1,\sqrt3\right),\left(0,2\right),\left(-1,\sqrt3\right),\left(-2,0\right)$, distributed along an upper semicircle.
 
 ### Solution to Exercise 9
 
@@ -365,10 +365,10 @@ By **Definition 8.1.5 (Sample Correlation Coefficient)** and **Common Conclusion
 
 (1) The data satisfy $y=2x+1$ and the points lie exactly on a straight line; computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives $r=1$.
 
-(2) From the data, $\overline x=2$, $\overline y=6$; further, by **Definition 8.1.5 (Sample Correlation Coefficient)**,
+(2) From the data, $\overline{x}=2$, $\overline{y}=6$; further, by **Definition 8.1.5 (Sample Correlation Coefficient)**,
 
 $$
-r=\frac{40}{\sqrt{10\times 174}}\approx 0.96.
+r=\frac{40}{\sqrt{10\times174}}\approx0.96.
 $$
 
 Although the points follow the curve $y=x^2$, $r$ is still close to $1$.
@@ -376,12 +376,12 @@ Although the points follow the curve $y=x^2$, $r$ is still close to $1$.
 (3) From the data,
 
 $$
-r\approx 0.89.
+r\approx0.89.
 $$
 
 The points follow the curve $y=x^3$, and $r$ is positive and relatively large.
 
-(4) From the data, $\sum_{i=1}^{5}x_i\left(y_i-\overline y\right)=0$, so by **Definition 8.1.5 (Sample Correlation Coefficient)**, $r=0$. The points follow the upper half of a circle; there is a clear curvilinear correlation between the two variables, but the degree of linear correlation is zero.
+(4) From the data, $\sum_{i=1}^{5}x_i\left(y_i-\overline{y}\right)=0$, so by **Definition 8.1.5 (Sample Correlation Coefficient)**, $r=0$. The points follow the upper half of a circle; there is a clear curvilinear correlation between the two variables, but the degree of linear correlation is zero.
 
 These four examples show that the sample correlation coefficient $r$ only characterizes the degree of linear correlation of the paired sample data: when $r=0$, it only means that there is no linear correlation between the two variables, but does not rule out other (e.g. curvilinear) correlations; when the absolute value of $r$ is close to $1$, the data may still follow a curve, so one should make a comprehensive judgment together with the scatter plot. $\blacksquare$
 
@@ -402,13 +402,13 @@ By **Definition 8.1.5 (Sample Correlation Coefficient)** and **Common Conclusion
 
 Taking advertising expenditure as the horizontal axis and sales as the vertical axis, draw a scatter plot; the points are roughly distributed near a straight line from lower left to upper right.
 
-From the data, $\overline x=\frac{57}{7}$, $\overline y=42$; computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives
+From the data, $\overline{x}=\frac{57}{7}$, $\overline{y}=42$; computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives
 
 $$
-r\approx 0.83.
+r\approx0.83.
 $$
 
-By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r> 0$ and is close to $1$, so there is a positive linear correlation between a supermarket's sales and its advertising expenditure: the more a supermarket spends on advertising, the higher its sales generally are, the trends are the same, and the linear correlation is strong. $\blacksquare$
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r>0$ and is close to $1$, so there is a positive linear correlation between a supermarket's sales and its advertising expenditure: the more a supermarket spends on advertising, the higher its sales generally are, the trends are the same, and the linear correlation is strong. $\blacksquare$
 
 ## Problem 5
 
@@ -445,13 +445,13 @@ Is there a linear correlation between the number of customer complaints and the 
 
 By **Definition 8.1.5 (Sample Correlation Coefficient)** and **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
 
-Taking the on-time flight rate as the horizontal axis and the number of customer complaints as the vertical axis, draw a scatter plot. From the data, $\overline x=75.88$, $\overline y=73.6$; computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives
+Taking the on-time flight rate as the horizontal axis and the number of customer complaints as the vertical axis, draw a scatter plot. From the data, $\overline{x}=75.88$, $\overline{y}=73.6$; computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives
 
 $$
-r\approx -0.87.
+r\approx-0.87.
 $$
 
-By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r< 0$ and its absolute value is close to $1$, so there is a negative linear correlation between the number of customer complaints and the on-time flight rate: the higher the on-time flight rate of an airline, the fewer customer complaints it generally receives, the two trends are opposite, and the linear correlation is strong. $\blacksquare$
+By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r<0$ and its absolute value is close to $1$, so there is a negative linear correlation between the number of customer complaints and the on-time flight rate: the higher the on-time flight rate of an airline, the fewer customer complaints it generally receives, the two trends are opposite, and the linear correlation is strong. $\blacksquare$
 
 ## Problem 7
 
@@ -460,7 +460,7 @@ By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient
 | No. | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ | $10$ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | $x$/$\mathrm{cm}$ | $1.0$ | $1.2$ | $1.4$ | $1.6$ | $1.8$ | $2.0$ | $2.2$ | $2.4$ | $2.8$ | $3.0$ |
-| $F$/$\mathrm N$ | $3.08$ | $3.76$ | $4.31$ | $5.02$ | $5.51$ | $6.25$ | $6.74$ | $7.40$ | $8.54$ | $9.24$ |
+| $F$/$\mathrm{N}$ | $3.08$ | $3.76$ | $4.31$ | $5.02$ | $5.51$ | $6.25$ | $6.74$ | $7.40$ | $8.54$ | $9.24$ |
 
 Is the sample correlation coefficient of the two variables equal to $1$? Please explain why.
 
@@ -468,10 +468,10 @@ Is the sample correlation coefficient of the two variables equal to $1$? Please 
 
 By **Definition 8.1.5 (Sample Correlation Coefficient)** and **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient).
 
-From the data, $\overline x=1.94$, $\overline y=5.985$; computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives
+From the data, $\overline{x}=1.94$, $\overline{y}=5.985$; computing by **Definition 8.1.5 (Sample Correlation Coefficient)** gives
 
 $$
-r\approx 0.9997.
+r\approx0.9997.
 $$
 
 By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r$ is very close to $1$ but not equal to $1$.

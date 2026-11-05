@@ -82,7 +82,7 @@ By **Definition 6.2.1 (Triangle Rule)**.
 
 ## Exercise 4
 
-(Exercise 6.2, Problem 5) There is an east-west river, and a small boat sets out from a ferry crossing on the south bank to cross the river. The boat's speed through the water has magnitude $15\text{ km/h}$ in the direction $30^{\circ}$ west of north, and the current flows east at $7.5\text{ km/h}$. Find the magnitude and direction of the boat's actual velocity.
+(Exercise 6.2, Problem 5) There is an east-west river, and a small boat sets out from a ferry crossing on the south bank to cross the river. The boat's speed through the water has magnitude $15\text{~km/h}$ in the direction $30^{\circ}$ west of north, and the current flows east at $7.5\text{~km/h}$. Find the magnitude and direction of the boat's actual velocity.
 
 ### Solution to Exercise 4
 
@@ -93,16 +93,16 @@ Let the boat's velocity be $\boldsymbol{v}_1$, $\lvert\boldsymbol{v}_1\rvert=15$
 Resolve the two velocities into eastward $\left(x\right)$ and northward $\left(y\right)$ components:
 
 $$
-v_{1x}=-15\sin30^{\circ}=-7.5,\quad v_{1y}=15\cos30^{\circ}=\frac{15\sqrt 3}{2}.
+v_{1x}=-15\sin30^{\circ}=-7.5,\quad{v}_{1y}=15\cos30^{\circ}=\frac{15\sqrt3}{2}.
 $$
 
 $$
-v_{2x}=7.5,\quad v_{2y}=0.
+v_{2x}=7.5,\quad{v}_{2y}=0.
 $$
 
-Resultant velocity components: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt 3}{2}$.
+Resultant velocity components: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt3}{2}$.
 
-Hence the magnitude of the resultant velocity is $\frac{15\sqrt 3}{2}\approx13.0\text{ km/h}$, directed due north. $\blacksquare$
+Hence the magnitude of the resultant velocity is $\frac{15\sqrt3}{2}\approx13.0\text{~km/h}$, directed due north. $\blacksquare$
 
 ## Exercise 5
 
@@ -236,15 +236,15 @@ By **Definition 6.2.11 (Dot Product)**, $\boldsymbol{p}\cdot\boldsymbol{q}=\lver
 
 ## Exercise 15
 
-(Exercise 6.2, Problem 16) In $\triangle ABC$, given $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$, determine the shape of $\triangle ABC$ when $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ or $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+(Exercise 6.2, Problem 16) In $\triangle{A}BC$, given $\boldsymbol{AB}=\boldsymbol{a}$ and $\boldsymbol{AC}=\boldsymbol{b}$, determine the shape of $\triangle{A}BC$ when $\boldsymbol{a}\cdot\boldsymbol{b}<0$ or $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 ### Solution to Exercise 15
 
 By **Common Conclusion 6.2.13** (Properties of the Dot Product), $\boldsymbol{a}\perp\boldsymbol{b}$ when $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
-When $\boldsymbol{a}\cdot\boldsymbol{b}=0$, $\boldsymbol{AB}\perp\boldsymbol{AC}$ and $\angle A=90^{\circ}$, so $\triangle ABC$ is a right triangle.
+When $\boldsymbol{a}\cdot\boldsymbol{b}=0$, $\boldsymbol{AB}\perp\boldsymbol{AC}$ and $\angle{A}=90^{\circ}$, so $\triangle{A}BC$ is a right triangle.
 
-When $\boldsymbol{a}\cdot\boldsymbol{b}< 0$, $\cos A< 0$ and $A> 90^{\circ}$, so $\triangle ABC$ is an obtuse triangle. $\blacksquare$
+When $\boldsymbol{a}\cdot\boldsymbol{b}<0$, $\cos{A}<0$ and $A>90^{\circ}$, so $\triangle{A}BC$ is an obtuse triangle. $\blacksquare$
 
 ## Exercise 16
 
@@ -254,11 +254,11 @@ When $\boldsymbol{a}\cdot\boldsymbol{b}< 0$, $\cos A< 0$ and $A> 90^{\circ}$, so
 
 By **Common Conclusion 6.2.12** (Projection Vector), the projection vector is $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
 
-$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt 2\,\boldsymbol{e}$.
+$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt2\,\boldsymbol{e}$.
 
 $\theta=90^{\circ}$: $6\cos90^{\circ}\,\boldsymbol{e}=\boldsymbol{0}$.
 
-$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e}$. $\blacksquare$
+$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt2\,\boldsymbol{e}$. $\blacksquare$
 
 ## Exercise 17
 
@@ -272,13 +272,13 @@ $\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e
 
 By **Definition 6.2.11 (Dot Product)**.
 
-(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. Hence $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt3$. Hence $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt3\,\boldsymbol{c}$.
 
-(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. Hence $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
+(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt2$. Hence $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt2\,\boldsymbol{a}$. $\blacksquare$
 
 ## Exercise 18
 
-(Exercise 6.2, Problem 19) Given $\lvert\boldsymbol{a}\rvert=\sqrt 2$, $\lvert\boldsymbol{b}\rvert=1$, and that $\boldsymbol{a}-\boldsymbol{b}$ is perpendicular to $\boldsymbol{a}+2\boldsymbol{b}$, prove that $\boldsymbol{a}\perp\boldsymbol{b}$.
+(Exercise 6.2, Problem 19) Given $\lvert\boldsymbol{a}\rvert=\sqrt2$, $\lvert\boldsymbol{b}\rvert=1$, and that $\boldsymbol{a}-\boldsymbol{b}$ is perpendicular to $\boldsymbol{a}+2\boldsymbol{b}$, prove that $\boldsymbol{a}\perp\boldsymbol{b}$.
 
 ### Solution to Exercise 18
 
@@ -304,7 +304,7 @@ Subtracting the two equations gives $\left(\boldsymbol{a}+\boldsymbol{b}\right)^
 
 ## Problem 1
 
-(Exercise 6.2, Review and Consolidation, Problem 1) If $\boldsymbol{a}$ means "walk $10\text{ km}$ east", $\boldsymbol{b}$ means "walk $5\text{ km}$ west", $\boldsymbol{c}$ means "walk $10\text{ km}$ north", and $\boldsymbol{d}$ means "walk $5\text{ km}$ south", what is the meaning of each of the following vectors?
+(Exercise 6.2, Review and Consolidation, Problem 1) If $\boldsymbol{a}$ means "walk $10\text{~km}$ east", $\boldsymbol{b}$ means "walk $5\text{~km}$ west", $\boldsymbol{c}$ means "walk $10\text{~km}$ north", and $\boldsymbol{d}$ means "walk $5\text{~km}$ south", what is the meaning of each of the following vectors?
 
 (1) $\boldsymbol{a}+\boldsymbol{a}$; (2) $\boldsymbol{a}+\boldsymbol{b}$; (3) $\boldsymbol{a}+\boldsymbol{c}$; (4) $\boldsymbol{b}+\boldsymbol{d}$; (5) $\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{b}$; (6) $\boldsymbol{d}+\boldsymbol{a}+\boldsymbol{d}$.
 
@@ -312,37 +312,37 @@ Subtracting the two equations gives $\left(\boldsymbol{a}+\boldsymbol{b}\right)^
 
 By **Definition 6.2.1 (Triangle Rule)** and **Common Conclusion 6.2.3** (Operation Laws).
 
-(1) Walk $20\text{ km}$ east.
+(1) Walk $20\text{~km}$ east.
 
-(2) Walk $5\text{ km}$ east.
+(2) Walk $5\text{~km}$ east.
 
-(3) Walk northeast, $10\text{ km}$ east and $10\text{ km}$ north.
+(3) Walk northeast, $10\text{~km}$ east and $10\text{~km}$ north.
 
-(4) Walk southwest, $5\text{ km}$ west and $5\text{ km}$ south.
+(4) Walk southwest, $5\text{~km}$ west and $5\text{~km}$ south.
 
-(5) Walk $10\text{ km}$ west and then $10\text{ km}$ north, i.e. northwest.
+(5) Walk $10\text{~km}$ west and then $10\text{~km}$ north, i.e. northwest.
 
-(6) Walk $10\text{ km}$ south and then $10\text{ km}$ east, i.e. southeast. $\blacksquare$
+(6) Walk $10\text{~km}$ south and then $10\text{~km}$ east, i.e. southeast. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 6.2, Review and Consolidation, Problem 2) An airplane flies $300\text{ km}$ north, then changes direction and flies $400\text{ km}$ west. Find the total distance traveled by the airplane and the resultant of the two displacements.
+(Exercise 6.2, Review and Consolidation, Problem 2) An airplane flies $300\text{~km}$ north, then changes direction and flies $400\text{~km}$ west. Find the total distance traveled by the airplane and the resultant of the two displacements.
 
 ### Solution to Problem 2
 
 By **Definition 6.2.1 (Triangle Rule)**.
 
-The distance traveled is $300+400=700\text{ km}$. The magnitude of the resultant of the two displacements is $\sqrt{300^2+400^2}=500\text{ km}$, in the direction $\arctan\frac{400}{300}\approx53.1^{\circ}$ west of north. $\blacksquare$
+The distance traveled is $300+400=700\text{~km}$. The magnitude of the resultant of the two displacements is $\sqrt{300^2+400^2}=500\text{~km}$, in the direction $\arctan\frac{400}{300}\approx53.1^{\circ}$ west of north. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 6.2, Review and Consolidation, Problem 3) A boat sails perpendicular to the opposite bank at a speed of $16\text{ km/h}$, while the river current flows at $4\text{ km/h}$. Find the magnitude and direction of the boat's actual velocity (to the nearest $1^{\circ}$).
+(Exercise 6.2, Review and Consolidation, Problem 3) A boat sails perpendicular to the opposite bank at a speed of $16\text{~km/h}$, while the river current flows at $4\text{~km/h}$. Find the magnitude and direction of the boat's actual velocity (to the nearest $1^{\circ}$).
 
 ### Solution to Problem 3
 
 By **Definition 6.2.2 (Parallelogram Rule)**.
 
-The boat's speed is $16\text{ km/h}$ perpendicular to the bank, and the current is $4\text{ km/h}$ along the bank. The magnitude of the resultant velocity is $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{ km/h}$. The angle $\theta$ between the direction and the perpendicular to the bank satisfies $\tan\theta=\frac{4}{16}=\frac{1}{4}$, so $\theta\approx14^{\circ}$. $\blacksquare$
+The boat's speed is $16\text{~km/h}$ perpendicular to the bank, and the current is $4\text{~km/h}$ along the bank. The magnitude of the resultant velocity is $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{~km/h}$. The angle $\theta$ between the direction and the perpendicular to the bank satisfies $\tan\theta=\frac{4}{16}=\frac{1}{4}$, so $\theta\approx14^{\circ}$. $\blacksquare$
 
 ## Problem 4
 
@@ -494,11 +494,11 @@ By **Common Conclusion 6.2.3** (Triangle Inequality).
 
 By **Definition 6.2.11 (Dot Product)** and **Common Conclusion 6.2.13**.
 
-(1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt 3}{2}\right)=-6\sqrt 3$.
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=3\times4\times\cos150^{\circ}=12\times\left(-\frac{\sqrt3}{2}\right)=-6\sqrt3$.
 
-$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt 3+16=25-12\sqrt 3$.
+$\left(\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=9-12\sqrt3+16=25-12\sqrt3$.
 
-$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt 3}$.
+$\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{25-12\sqrt3}$.
 
 (2) $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert^2=\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=4-6+25=23$, so $\lvert\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt{23}$.
 
@@ -514,7 +514,7 @@ By **Definition 6.2.11 (Dot Product)**.
 
 $\left(\lambda\boldsymbol{a}\right)\cdot\boldsymbol{b}=\lvert\lambda\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta=\lvert\lambda\rvert\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$.
 
-$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. When $\lambda< 0$, the angle changes but the sign of the cosine is the same, so the equality still holds. By the same argument, $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ is identical. $\blacksquare$
+$\lambda\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)=\lambda\lvert\boldsymbol{a}\rvert\lvert\boldsymbol{b}\rvert\cos\theta$. When $\lambda<0$, the angle changes but the sign of the cosine is the same, so the equality still holds. By the same argument, $\boldsymbol{a}\cdot\left(\lambda\boldsymbol{b}\right)$ is identical. $\blacksquare$
 
 ## Problem 13
 
@@ -532,6 +532,6 @@ By **Definition 6.1.7 (Equal Vectors)** and **Theorem 6.2.8 (Collinear Vector Th
 
 (1) $\boldsymbol{AD}=\boldsymbol{BC}$ means that $AD$ and $BC$ are parallel and equal, so $ABCD$ is a parallelogram.
 
-(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$ means $AD\parallel BC$ but $AD=\frac{1}{3}BC$, so $ABCD$ is a trapezoid.
+(2) $\boldsymbol{AD}=\frac{1}{3}\boldsymbol{BC}$ means $AD\parallel{B}C$ but $AD=\frac{1}{3}BC$, so $ABCD$ is a trapezoid.
 
-(3) $\boldsymbol{AB}=\boldsymbol{DC}$ means $AB\parallel DC$ and $AB=DC$, so it is a parallelogram; moreover $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$, so the adjacent sides are equal, and hence it is a rhombus. $\blacksquare$
+(3) $\boldsymbol{AB}=\boldsymbol{DC}$ means $AB\parallel{D}C$ and $AB=DC$, so it is a parallelogram; moreover $\lvert\boldsymbol{AB}\rvert=\lvert\boldsymbol{AD}\rvert$, so the adjacent sides are equal, and hence it is a rhombus. $\blacksquare$

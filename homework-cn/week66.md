@@ -39,13 +39,13 @@
 (1) 从 $12$ 本不同的书中选 $6$ 本放在单层书架上, 既要选书又要按书架上的顺序排列, 是排列问题. 由**公式 6.2.3**, 不同放法有
 
 $$
-\mathrm{P}\left(12,6\right)=12\times 11\times 10\times 9\times 8\times 7=665280.
+\mathrm{P}\left(12,6\right)=12\times11\times10\times9\times8\times7=665280.
 $$
 
 (2) 不使同类的书分开, 先把数学书, 物理书, 化学书各自看成一个整体. 这 $3$ 个整体在书架上的顺序有 $\mathrm{P}\left(3,3\right)=6$ 种; 数学书内部排列有 $\mathrm{P}\left(4,4\right)=24$ 种, 物理书内部排列有 $\mathrm{P}\left(5,5\right)=120$ 种, 化学书内部排列有 $\mathrm{P}\left(3,3\right)=6$ 种. 由**定义 6.1.2 (分步乘法计数原理)**, 不同放法共有
 
 $$
-\mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(5,5\right)\cdot \mathrm{P}\left(3,3\right)=6\times 24\times 120\times 6=103680.
+\mathrm{P}\left(3,3\right)\cdot\mathrm{P}\left(4,4\right)\cdot\mathrm{P}\left(5,5\right)\cdot\mathrm{P}\left(3,3\right)=6\times24\times120\times6=103680.
 $$
 
 $\blacksquare$
@@ -65,7 +65,7 @@ $\blacksquare$
 (1) 不共线的 $3$ 个点确定一个平面, 与顺序无关, 是组合问题. 由**公式 6.2.7**, 可作平面
 
 $$
-\binom{8}{3}=\frac{8\times 7\times 6}{6}=56
+\binom{8}{3}=\frac{8\times7\times6}{6}=56
 $$
 
 个.
@@ -73,7 +73,7 @@ $$
 (2) 不共面的 $4$ 个点确定一个四面体, 与顺序无关, 是组合问题. 由**公式 6.2.7**, 可作四面体
 
 $$
-\binom{10}{4}=\frac{10\times 9\times 8\times 7}{24}=210
+\binom{10}{4}=\frac{10\times9\times8\times7}{24}=210
 $$
 
 个. $\blacksquare$
@@ -89,7 +89,7 @@ $$
 完成选做题需要分三步: 第 $1$ 题从 $4$ 个小题选 $3$ 个, 有 $\binom{4}{3}=4$ 种; 第 $2$ 题从 $3$ 个小题选 $2$ 个, 有 $\binom{3}{2}=3$ 种; 第 $3$ 题从 $2$ 个小题选 $1$ 个, 有 $\binom{2}{1}=2$ 种. 由**定义 6.1.2 (分步乘法计数原理)**, 不同选法共有
 
 $$
-\binom{4}{3}\cdot \binom{3}{2}\cdot \binom{2}{1}=4\times 3\times 2=24.
+\binom{4}{3}\cdot\binom{3}{2}\cdot\binom{2}{1}=4\times3\times2=24.
 $$
 
 故有 $24$ 种不同的选法. $\blacksquare$
@@ -100,15 +100,15 @@ $$
 
 (1) $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=n^2\mathrm{P}\left(n-1,n-1\right)$;
 
-(2) $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n-k+1\right)n!}{k!}$ ($k\le n$).
+(2) $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n-k+1\right)n!}{k!}$ ($k\le{n}$).
 
 ### 解答 习题四
 
 由**定义 6.2.4 (全排列与阶乘)**.
 
-(1) 左边 $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=\left(n+1\right)!-n!=n\cdot n!$. 右边 $n^2\mathrm{P}\left(n-1,n-1\right)=n^2\left(n-1\right)!=n\cdot n!$. 左边等于右边, 得证.
+(1) 左边 $\mathrm{P}\left(n+1,n+1\right)-\mathrm{P}\left(n,n\right)=\left(n+1\right)!-n!=n\cdot{n}!$. 右边 $n^2\mathrm{P}\left(n-1,n-1\right)=n^2\left(n-1\right)!=n\cdot{n}!$. 左边等于右边, 得证.
 
-(2) 左边 $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n+1\right)!-k\cdot n!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{\left(n-k+1\right)n!}{k!}$. 左边等于右边, 得证. $\blacksquare$
+(2) 左边 $\frac{\left(n+1\right)!}{k!}-\frac{n!}{\left(k-1\right)!}=\frac{\left(n+1\right)!-k\cdot{n}!}{k!}=\frac{n!\left(n+1-k\right)}{k!}=\frac{\left(n-k+1\right)n!}{k!}$. 左边等于右边, 得证. $\blacksquare$
 
 ## 习题五
 
@@ -121,7 +121,7 @@ $$
 第 $1$ 个和最后 $1$ 个节目已确定, 只需安排其余 $9$ 个位置. $4$ 个音乐节目排在指定的 $4$ 个位置上, 是 $4$ 个元素的全排列, 有 $\mathrm{P}\left(4,4\right)=24$ 种; $3$ 个舞蹈节目排在指定的 $3$ 个位置上, 有 $\mathrm{P}\left(3,3\right)=6$ 种; $2$ 个曲艺节目排在指定的 $2$ 个位置上, 有 $\mathrm{P}\left(2,2\right)=2$ 种. 由**定义 6.1.2 (分步乘法计数原理)**, 不同排法共有
 
 $$
-\mathrm{P}\left(4,4\right)\cdot \mathrm{P}\left(3,3\right)\cdot \mathrm{P}\left(2,2\right)=24\times 6\times 2=288.
+\mathrm{P}\left(4,4\right)\cdot\mathrm{P}\left(3,3\right)\cdot\mathrm{P}\left(2,2\right)=24\times6\times2=288.
 $$
 
 故有 $288$ 种不同的排法. $\blacksquare$
@@ -140,11 +140,11 @@ $$
 
 由**公式 6.2.7** (组合数公式), **公式 6.2.3** (排列数公式) 与**定义 6.1.2 (分步乘法计数原理)**.
 
-(1) 从 $12$ 名同学中选 $4$ 名代表, 不分工, 是组合问题. 由**公式 6.2.7**, 选法有 $\binom{12}{4}=\frac{12\times 11\times 10\times 9}{24}=495$ 种.
+(1) 从 $12$ 名同学中选 $4$ 名代表, 不分工, 是组合问题. 由**公式 6.2.7**, 选法有 $\binom{12}{4}=\frac{12\times11\times10\times9}{24}=495$ 种.
 
-(2) 先从 $12$ 人中选 $4$ 人, 有 $\binom{12}{4}=495$ 种; 再从选出的 $4$ 人中指定 $1$ 名作替补, 有 $\binom{4}{1}=4$ 种. 由**定义 6.1.2 (分步乘法计数原理)**, 选法共有 $495\times 4=1980$ 种.
+(2) 先从 $12$ 人中选 $4$ 人, 有 $\binom{12}{4}=495$ 种; 再从选出的 $4$ 人中指定 $1$ 名作替补, 有 $\binom{4}{1}=4$ 种. 由**定义 6.1.2 (分步乘法计数原理)**, 选法共有 $495\times4=1980$ 种.
 
-(3) 把 $4$ 个辩手位置指定出来后, 从 $12$ 人中取 $4$ 人按顺序填入, 是排列问题. 由**公式 6.2.3**, 选法有 $\mathrm{P}\left(12,4\right)=12\times 11\times 10\times 9=11880$ 种. $\blacksquare$
+(3) 把 $4$ 个辩手位置指定出来后, 从 $12$ 人中取 $4$ 人按顺序填入, 是排列问题. 由**公式 6.2.3**, 选法有 $\mathrm{P}\left(12,4\right)=12\times11\times10\times9=11880$ 种. $\blacksquare$
 
 ## 习题七
 
@@ -179,15 +179,15 @@ $\blacksquare$
 含 $0$ 时, 选出的 $5$ 个数字排列成五位数且 $0$ 不在首位, 有 $\mathrm{P}\left(5,5\right)-\mathrm{P}\left(4,4\right)=120-24=96$ 个; 不含 $0$ 时, $5$ 个数字可任意排列, 有 $\mathrm{P}\left(5,5\right)=120$ 个. 由**定义 6.1.1 (分类加法计数原理)**, 一共可组成
 
 $$
-3\times 3\times 96+1\times 3\times 120=864+360=1224
+3\times3\times96+1\times3\times120=864+360=1224
 $$
 
 个五位数.
 
-(2) 比 $5000000$ 大且由 $0\sim 6$ 这 $7$ 个数字组成没有重复数字的数, 必为七位数且首位不小于 $5$. 首位取 $5$ 或 $6$, 共 $2$ 种; 首位取定后, 其余 $6$ 个数字排在剩下的 $6$ 个数位上, 有 $\mathrm{P}\left(6,6\right)=720$ 种. 由**定义 6.1.2 (分步乘法计数原理)**, 符合条件的正整数共有
+(2) 比 $5000000$ 大且由 $0\sim6$ 这 $7$ 个数字组成没有重复数字的数, 必为七位数且首位不小于 $5$. 首位取 $5$ 或 $6$, 共 $2$ 种; 首位取定后, 其余 $6$ 个数字排在剩下的 $6$ 个数位上, 有 $\mathrm{P}\left(6,6\right)=720$ 种. 由**定义 6.1.2 (分步乘法计数原理)**, 符合条件的正整数共有
 
 $$
-2\times \mathrm{P}\left(6,6\right)=2\times 720=1440
+2\times\mathrm{P}\left(6,6\right)=2\times720=1440
 $$
 
 个. $\blacksquare$
@@ -208,7 +208,7 @@ $$
 
 由**公式 6.2.7** (组合数公式), **定义 6.1.1 (分类加法计数原理)** 与**定义 6.1.2 (分步乘法计数原理)**.
 
-(1) 男生女生各选 $2$ 人, 先从 $5$ 名男生选 $2$ 名, 再从 $4$ 名女生选 $2$ 名. 由**定义 6.1.2 (分步乘法计数原理)**, 选法有 $\binom{5}{2}\cdot \binom{4}{2}=10\times 6=60$ 种.
+(1) 男生女生各选 $2$ 人, 先从 $5$ 名男生选 $2$ 名, 再从 $4$ 名女生选 $2$ 名. 由**定义 6.1.2 (分步乘法计数原理)**, 选法有 $\binom{5}{2}\cdot\binom{4}{2}=10\times6=60$ 种.
 
 (2) 甲, 乙必须在内, 只需再从其余 $7$ 人中选 $2$ 人, 有 $\binom{7}{2}=21$ 种.
 
@@ -252,15 +252,15 @@ $100$ 件产品中有 $3$ 件次品, $97$ 件合格品.
 
 (1) 抽出的 $5$ 件都是合格品, 就是从 $97$ 件合格品中取 $5$ 件, 抽法有 $\binom{97}{5}$ 种.
 
-(2) 恰好 $2$ 件次品, 先从 $3$ 件次品取 $2$ 件, 再从 $97$ 件合格品取 $3$ 件. 由**定义 6.1.2 (分步乘法计数原理)**, 抽法有 $\binom{3}{2}\cdot \binom{97}{3}=3\binom{97}{3}$ 种.
+(2) 恰好 $2$ 件次品, 先从 $3$ 件次品取 $2$ 件, 再从 $97$ 件合格品取 $3$ 件. 由**定义 6.1.2 (分步乘法计数原理)**, 抽法有 $\binom{3}{2}\cdot\binom{97}{3}=3\binom{97}{3}$ 种.
 
-(3) 至少 $2$ 件次品, 包括恰好 $2$ 件次品和恰好 $3$ 件次品两类. 由 (2) 得 $2$ 件次品的抽法为 $3\binom{97}{3}$; $3$ 件次品的抽法为 $\binom{3}{3}\cdot \binom{97}{2}=\binom{97}{2}$. 由**定义 6.1.1 (分类加法计数原理)**, 抽法共有 $3\binom{97}{3}+\binom{97}{2}$ 种.
+(3) 至少 $2$ 件次品, 包括恰好 $2$ 件次品和恰好 $3$ 件次品两类. 由 (2) 得 $2$ 件次品的抽法为 $3\binom{97}{3}$; $3$ 件次品的抽法为 $\binom{3}{3}\cdot\binom{97}{2}=\binom{97}{2}$. 由**定义 6.1.1 (分类加法计数原理)**, 抽法共有 $3\binom{97}{3}+\binom{97}{2}$ 种.
 
-(4) 至多 $2$ 件次品, 用间接法. 从 $100$ 件中抽 $5$ 件共有 $\binom{100}{5}$ 种, 其中恰好 $3$ 件次品的抽法为 $\binom{3}{3}\cdot \binom{97}{2}=\binom{97}{2}$. 故至多 $2$ 件次品的抽法有 $\binom{100}{5}-\binom{97}{2}$ 种. $\blacksquare$
+(4) 至多 $2$ 件次品, 用间接法. 从 $100$ 件中抽 $5$ 件共有 $\binom{100}{5}$ 种, 其中恰好 $3$ 件次品的抽法为 $\binom{3}{3}\cdot\binom{97}{2}=\binom{97}{2}$. 故至多 $2$ 件次品的抽法有 $\binom{100}{5}-\binom{97}{2}$ 种. $\blacksquare$
 
 ## 习题十二
 
-(习题 6.2 拓广探索第 16 题) 根据某个福利彩票方案, 每注彩票号码都是从 $1\sim 37$ 这 $37$ 个数中选取 $7$ 个数. 如果所选 $7$ 个数与开出的 $7$ 个数一样 (不管排列顺序), 彩票即中一等奖.
+(习题 6.2 拓广探索第 16 题) 根据某个福利彩票方案, 每注彩票号码都是从 $1\sim37$ 这 $37$ 个数中选取 $7$ 个数. 如果所选 $7$ 个数与开出的 $7$ 个数一样 (不管排列顺序), 彩票即中一等奖.
 
 (1) 多少注不同号码的彩票可有一个一等奖?
 
@@ -273,16 +273,16 @@ $100$ 件产品中有 $3$ 件次品, $97$ 件合格品.
 (1) 中一等奖就是所选号码与开出的号码完全一致, 不考虑顺序, 只有 $1$ 注. 而从 $37$ 个数中选 $7$ 个数共有 $\binom{37}{7}$ 种选法, 故可有一个一等奖的不同号码彩票注数为
 
 $$
-\binom{37}{7}=\frac{37\times 36\times 35\times 34\times 33\times 32\times 31}{7!}=10295472.
+\binom{37}{7}=\frac{37\times36\times35\times34\times33\times32\times31}{7!}=10295472.
 $$
 
 (2) 设在 $37$ 个数中取 $k$ 个数. 中奖机会为 $\frac{1}{\binom{37}{k}}$, 要求
 
 $$
-\frac{1}{3000000}< \frac{1}{\binom{37}{k}}\le\frac{1}{2000000},
+\frac{1}{3000000}<\frac{1}{\binom{37}{k}}\le\frac{1}{2000000},
 $$
 
-即 $2000000\le \binom{37}{k}< 3000000$. 计算得 $\binom{37}{6}=2324784$, 它满足 $2000000\le 2324784< 3000000$, 而 $\binom{37}{7}=10295472$ 过大, $\binom{37}{5}=435897$ 过小. 故应在 $37$ 个数中取 $6$ 个数. $\blacksquare$
+即 $2000000\le\binom{37}{k}<3000000$. 计算得 $\binom{37}{6}=2324784$, 它满足 $2000000\le2324784<3000000$, 而 $\binom{37}{7}=10295472$ 过大, $\binom{37}{5}=435897$ 过小. 故应在 $37$ 个数中取 $6$ 个数. $\blacksquare$
 
 ## 习题十三
 
@@ -307,7 +307,7 @@ $$
 由**定义 6.1.2 (分步乘法计数原理)**, 不同的着色方法共有
 
 $$
-5\times 4\times 3\times 4=240.
+5\times4\times3\times4=240.
 $$
 
 故共有 $240$ 种不同的着色方法. $\blacksquare$
@@ -323,7 +323,7 @@ $$
 "群" 共 $10$ 人, 发信息者 $1$ 人, 其余 $9$ 人. 由于只有 "好友" 才能看到信息, "群" 里说看到的 $3$ 人就是这 $9$ 人中与发信息者为 "好友" 关系的人. 问题就是从其余 $9$ 人中选出 $3$ 人作为 "好友". 由**公式 6.2.7**, "好友" 关系的情况可能有
 
 $$
-\binom{9}{3}=\frac{9\times 8\times 7}{6}=84
+\binom{9}{3}=\frac{9\times8\times7}{6}=84
 $$
 
 种. $\blacksquare$
@@ -343,7 +343,7 @@ $$
 再由冠军有 $3$ 种选择, 由**定义 6.1.2 (分步乘法计数原理)**, $5$ 人名次排列可能的不同情况共有
 
 $$
-3\times 18=54.
+3\times18=54.
 $$
 
 $\blacksquare$
@@ -379,13 +379,13 @@ $$
 由**定理 6.3.1 (平面向量基本定理)**.
 
 $$
-\left(p+q\right)^5=\binom{5}{0} p^5+\binom{5}{1} p^4 q+\binom{5}{2} p^3 q^2+\binom{5}{3} p^2 q^3+\binom{5}{4} p q^4+\binom{5}{5} q^5.
+\left(p+q\right)^5=\binom{5}{0}p^5+\binom{5}{1}p^4q+\binom{5}{2}p^3q^2+\binom{5}{3}p^2q^3+\binom{5}{4}pq^4+\binom{5}{5}q^5.
 $$
 
 代入 $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$, 得
 
 $$
-\left(p+q\right)^5=p^5+5p^4 q+10p^3 q^2+10p^2 q^3+5p q^4+q^5.
+\left(p+q\right)^5=p^5+5p^4q+10p^3q^2+10p^2q^3+5pq^4+q^5.
 $$
 
 $\blacksquare$
@@ -407,10 +407,10 @@ $$
 代入 $\binom{6}{2}=15$, 得
 
 $$
-T_3=15\cdot 2^4\cdot 3^2 a^4 b^2=15\times 16\times 9\,a^4 b^2=2160a^4 b^2.
+T_3=15\cdot2^4\cdot3^2a^4b^2=15\times16\times9\,a^4b^2=2160a^4b^2.
 $$
 
-故展开式的第 $3$ 项为 $2160a^4 b^2$. $\blacksquare$
+故展开式的第 $3$ 项为 $2160a^4b^2$. $\blacksquare$
 
 ## 练习三
 
@@ -429,7 +429,7 @@ $$
 化简 $x$ 的指数: $\frac{n-r}{3}-\frac{r}{3}=\frac{n-2r}{3}$. 故
 
 $$
-T_{r+1}=\left(-1\right)^r\frac{1}{2^r}\binom{n}{r} x^{\frac{n-2r}{3}}.
+T_{r+1}=\left(-1\right)^r\frac{1}{2^r}\binom{n}{r}x^{\frac{n-2r}{3}}.
 $$
 
 $\blacksquare$
@@ -447,7 +447,7 @@ $\blacksquare$
 第 $6$ 项对应 $k=5$. 由**公式 6.3.2**,
 
 $$
-T_6=\binom{10}{5} x^5\left(-1\right)^5=-\binom{10}{5} x^5.
+T_6=\binom{10}{5}x^5\left(-1\right)^5=-\binom{10}{5}x^5.
 $$
 
 故第 $6$ 项的系数为 $-\binom{10}{5}$, 选 (D). $\blacksquare$
@@ -472,9 +472,9 @@ $$
 
 (练习 6.3 第 1 题) 填空题.
 
-(1) $\binom{11}{1}+\binom{11}{3}+\binom{11}{5}+\cdots+\binom{11}{11}= $ $\;\_\_\;$;
+(1) $\binom{11}{1}+\binom{11}{3}+\binom{11}{5}+\cdots+\binom{11}{11}=$ $\;\_\_\;$;
 
-(2) $\frac{\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}}{\binom{n+1}{0}+\binom{n+1}{1}+\binom{n+1}{2}+\cdots+\binom{n+1}{n+1}}= $ $\;\_\_\;$.
+(2) $\frac{\binom{n}{0}+\binom{n}{1}+\binom{n}{2}+\cdots+\binom{n}{n}}{\binom{n+1}{0}+\binom{n+1}{1}+\binom{n+1}{2}+\cdots+\binom{n+1}{n+1}}=$ $\;\_\_\;$.
 
 ### 解答 练习六
 
@@ -511,7 +511,7 @@ $$
 令 $x=-1$, 得
 
 $$
-0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+\left(-1\right)^n \binom{n}{n}.
+0=\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\cdots+\left(-1\right)^n\binom{n}{n}.
 $$
 
 两式相加, 奇数项抵消, 得
@@ -590,7 +590,7 @@ $$
 
 由**公式 6.3.2** (二项展开式的通项).
 
-(1) 在 $\left(1-x\right)^n$ 的展开式中, $x^3$ 的项为 $\binom{n}{3}\left(-x\right)^3=-\binom{n}{3} x^3$, 系数为 $-\binom{n}{3}$. 故四个展开式中 $x^3$ 项的系数之和为
+(1) 在 $\left(1-x\right)^n$ 的展开式中, $x^3$ 的项为 $\binom{n}{3}\left(-x\right)^3=-\binom{n}{3}x^3$, 系数为 $-\binom{n}{3}$. 故四个展开式中 $x^3$ 项的系数之和为
 
 $$
 -\left(\binom{5}{3}+\binom{6}{3}+\binom{7}{3}+\binom{8}{3}\right)=-\left(10+20+35+56\right)=-121.
@@ -608,15 +608,15 @@ $$
 
 由**公式 6.3.2** (二项展开式的通项) 与**定义 6.1.1 (分类加法计数原理)**.
 
-在 $\left(x-y\right)^5$ 的展开式中, 通项为 $\binom{5}{k} x^{5-k}\left(-y\right)^k=\left(-1\right)^k \binom{5}{k} x^{5-k} y^k$.
+在 $\left(x-y\right)^5$ 的展开式中, 通项为 $\binom{5}{k}x^{5-k}\left(-y\right)^k=\left(-1\right)^k\binom{5}{k}x^{5-k}y^k$.
 
-乘上 $x+y$ 后得到 $x^3 y^3$ 有两种来源:
+乘上 $x+y$ 后得到 $x^3y^3$ 有两种来源:
 
-(1) $x$ 乘 $\left(x-y\right)^5$ 中 $x^2 y^3$ 的项, 此时 $5-k=2$, 即 $k=3$, 系数为 $\left(-1\right)^3 \binom{5}{3}=-10$;
+(1) $x$ 乘 $\left(x-y\right)^5$ 中 $x^2y^3$ 的项, 此时 $5-k=2$, 即 $k=3$, 系数为 $\left(-1\right)^3\binom{5}{3}=-10$;
 
-(2) $y$ 乘 $\left(x-y\right)^5$ 中 $x^3 y^2$ 的项, 此时 $k=2$, 系数为 $\left(-1\right)^2 \binom{5}{2}=10$.
+(2) $y$ 乘 $\left(x-y\right)^5$ 中 $x^3y^2$ 的项, 此时 $k=2$, 系数为 $\left(-1\right)^2\binom{5}{2}=10$.
 
-由**定义 6.1.1 (分类加法计数原理)**, $x^3 y^3$ 的系数为 $-10+10=0$. $\blacksquare$
+由**定义 6.1.1 (分类加法计数原理)**, $x^3y^3$ 的系数为 $-10+10=0$. $\blacksquare$
 
 ## 习题十八
 
@@ -633,13 +633,13 @@ $$
 (1) 由**定理 6.3.1 (平面向量基本定理)**,
 
 $$
-\left(a+\sqrt\left[3\right]{b}\right)^9=\sum_{k=0}^{9} \binom{9}{k} a^{9-k}\left(\sqrt\left[3\right]{b}\right)^k.
+\left(a+\sqrt\left[3\right]{b}\right)^9=\sum_{k=0}^{9}\binom{9}{k}a^{9-k}\left(\sqrt\left[3\right]{b}\right)^k.
 $$
 
 (2) 由**定理 6.3.1 (平面向量基本定理)**,
 
 $$
-\left(\frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}}\right)^7=\sum_{k=0}^{7} \binom{7}{k}\left(\frac{\sqrt{x}}{2}\right)^{7-k}\left(-\frac{2}{\sqrt{x}}\right)^k.
+\left(\frac{\sqrt{x}}{2}-\frac{2}{\sqrt{x}}\right)^7=\sum_{k=0}^{7}\binom{7}{k}\left(\frac{\sqrt{x}}{2}\right)^{7-k}\left(-\frac{2}{\sqrt{x}}\right)^k.
 $$
 
 $\blacksquare$
@@ -659,7 +659,7 @@ $\blacksquare$
 (1) 两式相加时, $\sqrt{x}$ 的奇次项相互抵消, 偶次项加倍. 由**定理 6.3.1 (平面向量基本定理)**,
 
 $$
-\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5=2\left[\binom{5}{0}+\binom{5}{2} x+\binom{5}{4} x^2\right].
+\left(1+\sqrt{x}\right)^5+\left(1-\sqrt{x}\right)^5=2\left[\binom{5}{0}+\binom{5}{2}x+\binom{5}{4}x^2\right].
 $$
 
 代入 $\binom{5}{2}=10$, $\binom{5}{4}=5$, 得
@@ -677,7 +677,7 @@ $$
 代入 $\binom{4}{2}=6$, 得
 
 $$
-2\left[16x^2+6\cdot 4x\cdot\frac{9}{x}+\frac{81}{x^2}\right]=2\left[16x^2+216+\frac{81}{x^2}\right]=32x^2+432+\frac{162}{x^2}.
+2\left[16x^2+6\cdot4x\cdot\frac{9}{x}+\frac{81}{x^2}\right]=2\left[16x^2+216+\frac{81}{x^2}\right]=32x^2+432+\frac{162}{x^2}.
 $$
 
 $\blacksquare$

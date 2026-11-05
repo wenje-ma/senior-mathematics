@@ -74,7 +74,7 @@
 
 ## 练习三
 
-(练习 6.2 第 5 题) 有一条东西向的小河, 一艘小船从河南岸的渡口出发渡河. 小船航行速度的大小为 $15\text{ km/h}$, 方向为北偏西 $30^{\circ}$, 水流的速度为向东 $7.5\text{ km/h}$, 求小船实际航行速度的大小与方向.
+(练习 6.2 第 5 题) 有一条东西向的小河, 一艘小船从河南岸的渡口出发渡河. 小船航行速度的大小为 $15\text{~km/h}$, 方向为北偏西 $30^{\circ}$, 水流的速度为向东 $7.5\text{~km/h}$, 求小船实际航行速度的大小与方向.
 
 ### 解答 练习三
 
@@ -85,16 +85,16 @@
 将两速度分解为东向 $\left(x\right)$ 和北向 $\left(y\right)$ 分量:
 
 $$
-v_{1x}=-15\sin30^{\circ}=-7.5,\quad v_{1y}=15\cos30^{\circ}=\frac{15\sqrt 3}{2}.
+v_{1x}=-15\sin30^{\circ}=-7.5,\quad{v}_{1y}=15\cos30^{\circ}=\frac{15\sqrt3}{2}.
 $$
 
 $$
-v_{2x}=7.5,\quad v_{2y}=0.
+v_{2x}=7.5,\quad{v}_{2y}=0.
 $$
 
-合速度分量: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt 3}{2}$.
+合速度分量: $v_x=v_{1x}+v_{2x}=0$, $v_y=\frac{15\sqrt3}{2}$.
 
-故合速度大小为 $\frac{15\sqrt 3}{2}\approx13.0\text{ km/h}$, 方向为正北. $\blacksquare$
+故合速度大小为 $\frac{15\sqrt3}{2}\approx13.0\text{~km/h}$, 方向为正北. $\blacksquare$
 
 ## 练习四
 
@@ -228,15 +228,15 @@ $2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{
 
 ## 练习十四
 
-(练习 6.2 第 16 题) 已知 $\triangle ABC$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 当 $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ 或 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, 试判断 $\triangle ABC$ 的形状.
+(练习 6.2 第 16 题) 已知 $\triangle{A}BC$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 当 $\boldsymbol{a}\cdot\boldsymbol{b}<0$ 或 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, 试判断 $\triangle{A}BC$ 的形状.
 
 ### 解答 练习十四
 
 由**常用结论 6.2.13** (数量积的性质), $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时 $\boldsymbol{a}\perp\boldsymbol{b}$.
 
-当 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, $\boldsymbol{AB}\perp\boldsymbol{AC}$, $\angle A=90^{\circ}$, $\triangle ABC$ 为直角三角形.
+当 $\boldsymbol{a}\cdot\boldsymbol{b}=0$ 时, $\boldsymbol{AB}\perp\boldsymbol{AC}$, $\angle{A}=90^{\circ}$, $\triangle{A}BC$ 为直角三角形.
 
-当 $\boldsymbol{a}\cdot\boldsymbol{b}< 0$ 时, $\cos A< 0$, $A> 90^{\circ}$, $\triangle ABC$ 为钝角三角形. $\blacksquare$
+当 $\boldsymbol{a}\cdot\boldsymbol{b}<0$ 时, $\cos{A}<0$, $A>90^{\circ}$, $\triangle{A}BC$ 为钝角三角形. $\blacksquare$
 
 ## 练习十五
 
@@ -246,11 +246,11 @@ $2\boldsymbol{e}_1+k\boldsymbol{e}_2=\lambda\left(\boldsymbol{e}_1-2\boldsymbol{
 
 由**常用结论 6.2.12** (投影向量), 投影向量为 $\lvert\boldsymbol{a}\rvert\cos\theta\,\boldsymbol{e}$.
 
-$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt 2\,\boldsymbol{e}$.
+$\theta=45^{\circ}$: $6\cos45^{\circ}\,\boldsymbol{e}=3\sqrt2\,\boldsymbol{e}$.
 
 $\theta=90^{\circ}$: $6\cos90^{\circ}\,\boldsymbol{e}=\boldsymbol{0}$.
 
-$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e}$. $\blacksquare$
+$\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt2\,\boldsymbol{e}$. $\blacksquare$
 
 ## 练习十六
 
@@ -264,13 +264,13 @@ $\theta=135^{\circ}$: $6\cos135^{\circ}\,\boldsymbol{e}=-3\sqrt 2\,\boldsymbol{e
 
 由**定义 6.2.11 (向量的数量积)**.
 
-(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt 3$. 故 $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt 3\,\boldsymbol{c}$.
+(1) $\boldsymbol{a}\cdot\boldsymbol{b}=1\times2\times\cos\frac{\pi}{6}=\sqrt3$. 故 $\left(\boldsymbol{a}\cdot\boldsymbol{b}\right)\boldsymbol{c}=\sqrt3\,\boldsymbol{c}$.
 
-(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt 2$. 故 $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt 2\,\boldsymbol{a}$. $\blacksquare$
+(2) $\boldsymbol{b}\cdot\boldsymbol{c}=2\times3\times\cos\frac{\pi}{4}=3\sqrt2$. 故 $\boldsymbol{a}\left(\boldsymbol{b}\cdot\boldsymbol{c}\right)=3\sqrt2\,\boldsymbol{a}$. $\blacksquare$
 
 ## 练习十七
 
-(练习 6.2 第 19 题) 已知 $\lvert\boldsymbol{a}\rvert=\sqrt 2$, $\lvert\boldsymbol{b}\rvert=1$, 且 $\boldsymbol{a}-\boldsymbol{b}$ 与 $\boldsymbol{a}+2\boldsymbol{b}$ 互相垂直, 求证 $\boldsymbol{a}\perp\boldsymbol{b}$.
+(练习 6.2 第 19 题) 已知 $\lvert\boldsymbol{a}\rvert=\sqrt2$, $\lvert\boldsymbol{b}\rvert=1$, 且 $\boldsymbol{a}-\boldsymbol{b}$ 与 $\boldsymbol{a}+2\boldsymbol{b}$ 互相垂直, 求证 $\boldsymbol{a}\perp\boldsymbol{b}$.
 
 ### 解答 练习十七
 
@@ -296,7 +296,7 @@ $\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\c
 
 ## 习题一
 
-(习题 6.2 复习巩固第 1 题) 如果 $\boldsymbol{a}$ 表示 "向东走 $10\text{ km}$", $\boldsymbol{b}$ 表示 "向西走 $5\text{ km}$", $\boldsymbol{c}$ 表示 "向北走 $10\text{ km}$", $\boldsymbol{d}$ 表示 "向南走 $5\text{ km}$", 那么下列向量具有什么意义?
+(习题 6.2 复习巩固第 1 题) 如果 $\boldsymbol{a}$ 表示 "向东走 $10\text{~km}$", $\boldsymbol{b}$ 表示 "向西走 $5\text{~km}$", $\boldsymbol{c}$ 表示 "向北走 $10\text{~km}$", $\boldsymbol{d}$ 表示 "向南走 $5\text{~km}$", 那么下列向量具有什么意义?
 
 (1) $\boldsymbol{a}+\boldsymbol{a}$; (2) $\boldsymbol{a}+\boldsymbol{b}$; (3) $\boldsymbol{a}+\boldsymbol{c}$; (4) $\boldsymbol{b}+\boldsymbol{d}$; (5) $\boldsymbol{b}+\boldsymbol{c}+\boldsymbol{b}$; (6) $\boldsymbol{d}+\boldsymbol{a}+\boldsymbol{d}$.
 
@@ -304,37 +304,37 @@ $\left(\boldsymbol{a}-\boldsymbol{b}\right)^2=\boldsymbol{a}^2-2\boldsymbol{a}\c
 
 由**定义 6.2.1 (向量加法的三角形法则)** 与**常用结论 6.2.3** (运算律).
 
-(1) 向东走 $20\text{ km}$.
+(1) 向东走 $20\text{~km}$.
 
-(2) 向东走 $5\text{ km}$.
+(2) 向东走 $5\text{~km}$.
 
-(3) 向东北方向走, 东 $10\text{ km}$, 北 $10\text{ km}$.
+(3) 向东北方向走, 东 $10\text{~km}$, 北 $10\text{~km}$.
 
-(4) 向西南方向走, 西 $5\text{ km}$, 南 $5\text{ km}$.
+(4) 向西南方向走, 西 $5\text{~km}$, 南 $5\text{~km}$.
 
-(5) 向西走 $10\text{ km}$ 再向北走 $10\text{ km}$, 即西北方向.
+(5) 向西走 $10\text{~km}$ 再向北走 $10\text{~km}$, 即西北方向.
 
-(6) 向南走 $10\text{ km}$ 再向东走 $10\text{ km}$, 即东南方向. $\blacksquare$
+(6) 向南走 $10\text{~km}$ 再向东走 $10\text{~km}$, 即东南方向. $\blacksquare$
 
 ## 习题二
 
-(习题 6.2 复习巩固第 2 题) 一架飞机向北飞行 $300\text{ km}$, 然后改变方向向西飞行 $400\text{ km}$, 求飞机飞行的路程及两次位移的合成.
+(习题 6.2 复习巩固第 2 题) 一架飞机向北飞行 $300\text{~km}$, 然后改变方向向西飞行 $400\text{~km}$, 求飞机飞行的路程及两次位移的合成.
 
 ### 解答 习题二
 
 由**定义 6.2.1 (向量加法的三角形法则)**.
 
-路程为 $300+400=700\text{ km}$. 两次位移合成的大小为 $\sqrt{300^2+400^2}=500\text{ km}$, 方向为北偏西 $\arctan\frac{400}{300}\approx53.1^{\circ}$. $\blacksquare$
+路程为 $300+400=700\text{~km}$. 两次位移合成的大小为 $\sqrt{300^2+400^2}=500\text{~km}$, 方向为北偏西 $\arctan\frac{400}{300}\approx53.1^{\circ}$. $\blacksquare$
 
 ## 习题三
 
-(习题 6.2 复习巩固第 3 题) 一艘船垂直于对岸航行, 航行速度的大小为 $16\text{ km/h}$, 同时河水流速的大小为 $4\text{ km/h}$. 求船实际航行的速度的大小与方向 (精确到 $1^{\circ}$).
+(习题 6.2 复习巩固第 3 题) 一艘船垂直于对岸航行, 航行速度的大小为 $16\text{~km/h}$, 同时河水流速的大小为 $4\text{~km/h}$. 求船实际航行的速度的大小与方向 (精确到 $1^{\circ}$).
 
 ### 解答 习题三
 
 由**定义 6.2.2 (平行四边形法则)**.
 
-船速垂直河岸 $16\text{ km/h}$, 水速沿岸 $4\text{ km/h}$. 合速度大小为 $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{ km/h}$. 方向与河岸垂线的夹角 $\theta$ 满足 $\tan\theta=\frac{4}{16}=\frac{1}{4}$, $\theta\approx14^{\circ}$. $\blacksquare$
+船速垂直河岸 $16\text{~km/h}$, 水速沿岸 $4\text{~km/h}$. 合速度大小为 $\sqrt{16^2+4^2}=\sqrt{272}\approx16.5\text{~km/h}$. 方向与河岸垂线的夹角 $\theta$ 满足 $\tan\theta=\frac{4}{16}=\frac{1}{4}$, $\theta\approx14^{\circ}$. $\blacksquare$
 
 ## 习题四
 

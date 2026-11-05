@@ -48,7 +48,7 @@ By **Definition 2.2.1 (Point-slope Form)**, substituting the point $Q\left(2,0\r
 
 ## Problem 2
 
-(Exercise 2.2, Extension and Exploration, Problem 14) Given that the equations of the lines $l_1,l_2$ are $l_1:A_1x+B_1y+C_1=0$ ($A_1,B_1$ not both $0$) and $l_2:A_2x+B_2y+C_2=0$ ($A_2,B_2$ not both $0$), respectively, and that $A_1A_2+B_1B_2=0$, prove that $l_1\perp l_2$.
+(Exercise 2.2, Extension and Exploration, Problem 14) Given that the equations of the lines $l_1,l_2$ are $l_1:A_1x+B_1y+C_1=0$ ($A_1,B_1$ not both $0$) and $l_2:A_2x+B_2y+C_2=0$ ($A_2,B_2$ not both $0$), respectively, and that $A_1A_2+B_1B_2=0$, prove that $l_1\perp{l}_2$.
 
 ### Solution to Problem 2
 
@@ -60,13 +60,13 @@ $$
 k_1k_2=\left(-\frac{A_1}{B_1}\right)\left(-\frac{A_2}{B_2}\right)=\frac{A_1A_2}{B_1B_2}.
 $$
 
-From $A_1A_2+B_1B_2=0$, we get $A_1A_2=-B_1B_2$, so $k_1k_2=\frac{-B_1B_2}{B_1B_2}=-1$. By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $l_1\perp l_2$.
+From $A_1A_2+B_1B_2=0$, we get $A_1A_2=-B_1B_2$, so $k_1k_2=\frac{-B_1B_2}{B_1B_2}=-1$. By **Common Conclusion 2.1.6** (Perpendicularity of Two Lines), $l_1\perp{l}_2$.
 
-(b) When $B_1=0$, then $A_1\ne0$; from $A_1A_2+B_1B_2=0$ we get $A_1A_2=0$, hence $A_2=0$. Also $A_2,B_2$ are not both $0$, so $B_2\ne0$. In this case the equation of $l_1$ is $A_1x+C_1=0$, i.e. $x=-\frac{C_1}{A_1}$, perpendicular to the $x$-axis; the equation of $l_2$ is $B_2y+C_2=0$, i.e. $y=-\frac{C_2}{B_2}$, parallel to the $x$-axis. Hence $l_1\perp l_2$.
+(b) When $B_1=0$, then $A_1\ne0$; from $A_1A_2+B_1B_2=0$ we get $A_1A_2=0$, hence $A_2=0$. Also $A_2,B_2$ are not both $0$, so $B_2\ne0$. In this case the equation of $l_1$ is $A_1x+C_1=0$, i.e. $x=-\frac{C_1}{A_1}$, perpendicular to the $x$-axis; the equation of $l_2$ is $B_2y+C_2=0$, i.e. $y=-\frac{C_2}{B_2}$, parallel to the $x$-axis. Hence $l_1\perp{l}_2$.
 
-(c) When $B_2=0$, by the same reasoning we get $A_1=0$; $l_1$ is parallel to the $x$-axis while $l_2$ is perpendicular to the $x$-axis, so $l_1\perp l_2$.
+(c) When $B_2=0$, by the same reasoning we get $A_1=0$; $l_1$ is parallel to the $x$-axis while $l_2$ is perpendicular to the $x$-axis, so $l_1\perp{l}_2$.
 
-In summary, $l_1\perp l_2$. $\blacksquare$
+In summary, $l_1\perp{l}_2$. $\blacksquare$
 
 ## Problem 3
 
@@ -80,7 +80,7 @@ By **Definition 2.2.6 (General Equation)**, the equation of line $l$ is $2x-y+3=
 
 For points on line $l$, the value obtained by substituting their coordinates into $2x-y+3$ is $0$. For points outside line $l$, the value obtained by substituting into $2x-y+3$ is not $0$.
 
-Take the point $P_1\left(0,0\right)$; substituting gives $2\cdot0-0+3=3> 0$. Take the point $P_2\left(-3,0\right)$; substituting gives $2\cdot\left(-3\right)-0+3=-3< 0$.
+Take the point $P_1\left(0,0\right)$; substituting gives $2\cdot0-0+3=3>0$. Take the point $P_2\left(-3,0\right)$; substituting gives $2\cdot\left(-3\right)-0+3=-3<0$.
 
 Observed pattern: for points on the same side of line $l$, the value obtained by substituting into $2x-y+3$ has the same sign; for points on the two sides of line $l$, the values obtained have opposite signs. That is, the sign of the value of the linear expression $2x-y+3$ characterizes which side of the line a point lies on. $\blacksquare$
 
@@ -92,7 +92,7 @@ $$
 \begin{cases}x=x_0+mt,\\y=y_0+nt.\end{cases}
 $$
 
-From the kinematic point of view, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t> 0$) can be regarded as the displacement of a particle $P$ starting from the point $P_0$, moving in uniform linear motion with velocity $\boldsymbol{v}=\left(m,n\right)$, after time $t$. Can you describe the ray $P_0N$? From the above discussion, can you state the kinematic meaning of equation ①?
+From the kinematic point of view, $\boldsymbol{P_0P}=t\boldsymbol{v}$ ($t>0$) can be regarded as the displacement of a particle $P$ starting from the point $P_0$, moving in uniform linear motion with velocity $\boldsymbol{v}=\left(m,n\right)$, after time $t$. Can you describe the ray $P_0N$? From the above discussion, can you state the kinematic meaning of equation ①?
 
 The figure plots, in the rectangular coordinate system, the line $l$ through the point $P_0\left(x_0,y_0\right)$ and marks the direction vector $\boldsymbol{v}=\left(m,n\right)$: the point $P\left(x,y\right)$ lies on the line, and the vector $\boldsymbol{P_0P}$ is collinear with $\boldsymbol{v}$ in the same direction; extending from $P_0$ in the opposite direction $-\boldsymbol{v}$ gives the ray $P_0N$.
 
@@ -102,7 +102,7 @@ By **Common Conclusion 2.1.4** (Direction Vector and Slope), when the direction 
 
 The ray $P_0N$ extends from the point $P_0$ along the direction $-\boldsymbol{v}$, i.e. in the parametric equation one sets $t\le0$ to obtain the ray $P_0N$.
 
-The kinematic meaning of the equation $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ is: a particle $P$ starts from the point $P_0\left(x_0,y_0\right)$, moves in uniform linear motion with velocity vector $\boldsymbol{v}=\left(m,n\right)$, and after time $t$ reaches the point $\left(x,y\right)$. When $t> 0$, the particle moves in the $\boldsymbol{v}$ direction; when $t< 0$, the particle moves in the $-\boldsymbol{v}$ direction; the absolute value of $t$ represents the time of motion. $\blacksquare$
+The kinematic meaning of the equation $\begin{cases}x=x_0+mt\\y=y_0+nt\end{cases}$ is: a particle $P$ starts from the point $P_0\left(x_0,y_0\right)$, moves in uniform linear motion with velocity vector $\boldsymbol{v}=\left(m,n\right)$, and after time $t$ reaches the point $\left(x,y\right)$. When $t>0$, the particle moves in the $\boldsymbol{v}$ direction; when $t<0$, the particle moves in the $-\boldsymbol{v}$ direction; the absolute value of $t$ represents the time of motion. $\blacksquare$
 
 ## Inquiry and Discovery 2
 
@@ -152,7 +152,7 @@ Substituting $x=2$ into the second equation gives $6+2y-12=0$, hence $y=3$. The 
 
 (2) $l_1:2x-6y+4=0$, $l_2:y=\frac{x}{3}+\frac{2}{3}$;
 
-(3) $l_1:\left(\sqrt 2-1\right)x+y=3$, $l_2:x+\left(\sqrt 2+1\right)y=2$.
+(3) $l_1:\left(\sqrt2-1\right)x+y=3$, $l_2:x+\left(\sqrt2+1\right)y=2$.
 
 ### Solution to Exercise 2
 
@@ -171,10 +171,10 @@ Multiplying the first equation by $2$ and subtracting the second gives $-8y=13$,
 (3) Solve the system
 
 $$
-\begin{cases}\left(\sqrt 2-1\right)x+y=3,\\x+\left(\sqrt 2+1\right)y=2.\end{cases}
+\begin{cases}\left(\sqrt2-1\right)x+y=3,\\x+\left(\sqrt2+1\right)y=2.\end{cases}
 $$
 
-From the first equation, $y=3-\left(\sqrt 2-1\right)x$; substituting into the second gives $x+\left(\sqrt 2+1\right)\left[3-\left(\sqrt 2-1\right)x\right]=2$, i.e. $x+3\left(\sqrt 2+1\right)-\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)x=2$. Since $\left(\sqrt 2+1\right)\left(\sqrt 2-1\right)=1$, this becomes $x+3\sqrt 2+3-x=2$, i.e. $3\sqrt 2+3=2$, a contradiction. The system has no solution, so $l_1\parallel l_2$. $\blacksquare$
+From the first equation, $y=3-\left(\sqrt2-1\right)x$; substituting into the second gives $x+\left(\sqrt2+1\right)\left[3-\left(\sqrt2-1\right)x\right]=2$, i.e. $x+3\left(\sqrt2+1\right)-\left(\sqrt2+1\right)\left(\sqrt2-1\right)x=2$. Since $\left(\sqrt2+1\right)\left(\sqrt2-1\right)=1$, this becomes $x+3\sqrt2+3-x=2$, i.e. $3\sqrt2+3=2$, a contradiction. The system has no solution, so $l_1\parallel{l}_2$. $\blacksquare$
 
 ## Exercise 3
 
@@ -274,7 +274,7 @@ By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the origin is 
 
 (1) $d=\frac{\left|3\cdot0+2\cdot0-26\right|}{\sqrt{3^2+2^2}}=\frac{26}{\sqrt{13}}=2\sqrt{13}$.
 
-(2) The line $x=y$ is $x-y=0$, and $d=\frac{\left|0-0\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{0}{\sqrt 2}=0$. $\blacksquare$
+(2) The line $x=y$ is $x-y=0$, and $d=\frac{\left|0-0\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{0}{\sqrt2}=0$. $\blacksquare$
 
 ## Exercise 8
 
@@ -282,7 +282,7 @@ By **Common Conclusion 2.3.3** (Distance from a Point to a Line), the origin is 
 
 (1) $A\left(-2,3\right)$, $l:3x+4y+3=0$;
 
-(2) $B\left(1,0\right)$, $l:\sqrt 3x+y-\sqrt 3=0$;
+(2) $B\left(1,0\right)$, $l:\sqrt3x+y-\sqrt3=0$;
 
 (3) $C\left(1,-2\right)$, $l:4x+3y=0$.
 
@@ -292,7 +292,7 @@ By **Common Conclusion 2.3.3** (Distance from a Point to a Line).
 
 (1) $d=\frac{\left|3\cdot\left(-2\right)+4\cdot3+3\right|}{\sqrt{3^2+4^2}}=\frac{\left|-6+12+3\right|}{5}=\frac{9}{5}$.
 
-(2) $d=\frac{\left|\sqrt 3\cdot1+1\cdot0-\sqrt 3\right|}{\sqrt{\left(\sqrt 3\right)^2+1^2}}=\frac{\left|\sqrt 3-\sqrt 3\right|}{\sqrt 4}=\frac{0}{2}=0$.
+(2) $d=\frac{\left|\sqrt3\cdot1+1\cdot0-\sqrt3\right|}{\sqrt{\left(\sqrt3\right)^2+1^2}}=\frac{\left|\sqrt3-\sqrt3\right|}{\sqrt4}=\frac{0}{2}=0$.
 
 (3) $d=\frac{\left|4\cdot1+3\cdot\left(-2\right)\right|}{\sqrt{4^2+3^2}}=\frac{\left|4-6\right|}{5}=\frac{2}{5}$. $\blacksquare$
 
@@ -351,13 +351,13 @@ The figure plots the two parallel lines $l_1:x-2y+1=0$ and $l_2:x-2y+4=0$ in the
 By **Common Conclusion 2.3.4** (Distance Between Two Parallel Lines), first find the distance between $l_1$ and $l_2$.
 
 $$
-d_{12}=\frac{\left|1-4\right|}{\sqrt{1^2+\left(-2\right)^2}}=\frac{3}{\sqrt 5}.
+d_{12}=\frac{\left|1-4\right|}{\sqrt{1^2+\left(-2\right)^2}}=\frac{3}{\sqrt5}.
 $$
 
 The point $C$ is the trisection point of $AB$ closer to $A$, i.e. $AC=\frac{1}{3}AB$. The distance between $l_1$ and $l_3$ is $\frac{1}{3}$ of the distance between $l_1$ and $l_2$, i.e.
 
 $$
-d_{13}=\frac{1}{3}d_{12}=\frac{1}{\sqrt 5}=\frac{\sqrt 5}{5}.
+d_{13}=\frac{1}{3}d_{12}=\frac{1}{\sqrt5}=\frac{\sqrt5}{5}.
 $$
 
 $\blacksquare$
@@ -384,7 +384,7 @@ $$
 
 Adding the two equations gives $3x+7=1$, i.e. $x=-2$. Substituting into the second gives $y=3$. There is a unique solution, so the lines intersect, at $\left(-2,3\right)$.
 
-(2) $l_2:y=\frac{x+5}{3}$ is $x-3y+5=0$. Compare with $l_1$, which is $x-3y-10=0$: from $l_2$ we get $x-3y=-5$, while $l_1$ gives $x-3y=10$; the two equations are contradictory and have no solution. Hence $l_1\parallel l_2$.
+(2) $l_2:y=\frac{x+5}{3}$ is $x-3y+5=0$. Compare with $l_1$, which is $x-3y-10=0$: from $l_2$ we get $x-3y=-5$, while $l_1$ gives $x-3y=10$; the two equations are contradictory and have no solution. Hence $l_1\parallel{l}_2$.
 
 (3) $l_2:9x-15y+30=0$ is $3x-5y+10=0$, which is the same equation as $l_1$, so $l_1$ and $l_2$ coincide. $\blacksquare$
 
@@ -427,7 +427,7 @@ The line $4x-3y-7=0$ is $y=\frac{4}{3}x-\frac{7}{3}$, with slope $\frac{4}{3}$. 
 By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), find the lengths of the three segments.
 
 $$
-\left|AB\right|=\sqrt{\left(2-1\right)^2+\left(0-2\right)^2}=\sqrt{1+4}=\sqrt 5,
+\left|AB\right|=\sqrt{\left(2-1\right)^2+\left(0-2\right)^2}=\sqrt{1+4}=\sqrt5,
 $$
 
 $$
@@ -435,14 +435,14 @@ $$
 $$
 
 $$
-\left|PQ\right|=\sqrt{\left(-1-0\right)^2+\left(1-3\right)^2}=\sqrt{1+4}=\sqrt 5.
+\left|PQ\right|=\sqrt{\left(-1-0\right)^2+\left(1-3\right)^2}=\sqrt{1+4}=\sqrt5.
 $$
 
-The condition for three segments to form a triangle is that the sum of any two sides is greater than the third. Since $\sqrt 5+\sqrt 5=2\sqrt 5< 5$, the triangle inequality is not satisfied, so the three segments cannot form a triangle. $\blacksquare$
+The condition for three segments to form a triangle is that the sum of any two sides is greater than the third. Since $\sqrt5+\sqrt5=2\sqrt5<5$, the triangle inequality is not satisfied, so the three segments cannot form a triangle. $\blacksquare$
 
 ## Problem 7
 
-(Exercise 2.3, Review and Consolidation, Problem 4) Given three points $P\left(a,2\right)$, $Q\left(-2,-3\right)$, $M\left(1,1\right)$ with $\lvert PQ \rvert=\lvert PM \rvert$, find the value of $a$.
+(Exercise 2.3, Review and Consolidation, Problem 4) Given three points $P\left(a,2\right)$, $Q\left(-2,-3\right)$, $M\left(1,1\right)$ with $\lvert{P}Q\rvert=\lvert{P}M\rvert$, find the value of $a$.
 
 ### Solution to Problem 7
 
@@ -456,7 +456,7 @@ $$
 \left|PM\right|=\sqrt{\left(1-a\right)^2+\left(1-2\right)^2}=\sqrt{\left(a-1\right)^2+1}.
 $$
 
-From $\lvert PQ \rvert=\lvert PM \rvert$, we get $\left(a+2\right)^2+25=\left(a-1\right)^2+1$, i.e. $a^2+4a+4+25=a^2-2a+1+1$, i.e. $6a=-27$, hence $a=-\frac{9}{2}$. $\blacksquare$
+From $\lvert{P}Q\rvert=\lvert{P}M\rvert$, we get $\left(a+2\right)^2+25=\left(a-1\right)^2+1$, i.e. $a^2+4a+4+25=a^2-2a+1+1$, i.e. $6a=-27$, hence $a=-\frac{9}{2}$. $\blacksquare$
 
 ## Problem 8
 
@@ -514,7 +514,7 @@ $\blacksquare$
 
 ## Problem 11
 
-(Exercise 2.3, Review and Consolidation, Problem 8) The equations of the lines containing a pair of opposite sides $AB$ and $CD$ of the parallelogram $\square ABCD$ are $6x+8y-3=0$ and $6x+8y+5=0$ respectively. Through the intersection of the two diagonals of $\square ABCD$, draw the line $l$ parallel to the line containing $AB$. Find the distance between $l$ and the line containing $CD$.
+(Exercise 2.3, Review and Consolidation, Problem 8) The equations of the lines containing a pair of opposite sides $AB$ and $CD$ of the parallelogram $\square{A}BCD$ are $6x+8y-3=0$ and $6x+8y+5=0$ respectively. Through the intersection of the two diagonals of $\square{A}BCD$, draw the line $l$ parallel to the line containing $AB$. Find the distance between $l$ and the line containing $CD$.
 
 ### Solution to Problem 11
 
@@ -552,7 +552,7 @@ The three lines meet at one point, so $\left(4,-2\right)$ lies on the line $ax+2
 
 ## Problem 13
 
-(Exercise 2.3, Comprehensive Application, Problem 10) Given triangle $\triangle ABC$ with vertex $A\left(5,1\right)$, the median $CM$ on side $AB$ lies on the line $2x-y-5=0$, and the altitude $BH$ on side $AC$ lies on the line $x-2y-5=0$. Find: (1) the coordinates of vertex $C$; (2) the equation of line $BC$.
+(Exercise 2.3, Comprehensive Application, Problem 10) Given triangle $\triangle{A}BC$ with vertex $A\left(5,1\right)$, the median $CM$ on side $AB$ lies on the line $2x-y-5=0$, and the altitude $BH$ on side $AC$ lies on the line $x-2y-5=0$. Find: (1) the coordinates of vertex $C$; (2) the equation of line $BC$.
 
 ### Solution to Problem 13
 
@@ -590,16 +590,16 @@ By **Common Conclusion 2.1.3** (Slope Formula), $k_{BC}=\frac{3-\left(-3\right)}
 
 Let the coordinates of $P$ be $\left(x,0\right)$.
 
-By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left|AB\right|=\sqrt{\left(3-1\right)^2+\left(4-2\right)^2}=\sqrt{8}=2\sqrt 2$.
+By **Common Conclusion 2.3.2** (Distance Formula Between Two Points), $\left|AB\right|=\sqrt{\left(3-1\right)^2+\left(4-2\right)^2}=\sqrt{8}=2\sqrt2$.
 
 Equation of line $AB$: by **Common Conclusion 2.1.3**, $k_{AB}=\frac{4-2}{3-1}=1$. By **Definition 2.2.1 (Point-slope Form)**, we get $y-2=1\cdot\left(x-1\right)$, i.e. $x-y+1=0$.
 
 The distance from $P\left(x,0\right)$ to the line $AB:x-y+1=0$ is
 
 $$
-d=\frac{\left|x-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\left|x+1\right|}{\sqrt 2}.
+d=\frac{\left|x-0+1\right|}{\sqrt{1^2+\left(-1\right)^2}}=\frac{\left|x+1\right|}{\sqrt2}.
 $$
 
-The area of the triangle is $\frac{1}{2}\left|AB\right|d=\frac{1}{2}\cdot 2\sqrt 2\cdot\frac{\left|x+1\right|}{\sqrt 2}=\left|x+1\right|$.
+The area of the triangle is $\frac{1}{2}\left|AB\right|d=\frac{1}{2}\cdot2\sqrt2\cdot\frac{\left|x+1\right|}{\sqrt2}=\left|x+1\right|$.
 
 Setting $\left|x+1\right|=10$ gives $x+1=10$ or $x+1=-10$, i.e. $x=9$ or $x=-11$. The desired points are $P\left(9,0\right)$ or $P\left(-11,0\right)$. $\blacksquare$

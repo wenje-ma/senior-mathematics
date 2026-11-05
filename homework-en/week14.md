@@ -10,27 +10,27 @@
 
 ## Problem 1
 
-(Exercise 5.2, Comprehensive Application, Problem 11) Given $\sin x=-\frac{1}{3}$, find the values of $\cos x$ and $\tan x$.
+(Exercise 5.2, Comprehensive Application, Problem 11) Given $\sin{x}=-\frac{1}{3}$, find the values of $\cos{x}$ and $\tan{x}$.
 
 ### Solution to Problem 1
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}x+\cos^{2}x=1$.
 
-Since $\sin x=-\frac{1}{3}< 0$, $x$ is a third- or fourth-quadrant angle. From $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, we get $\cos x=\pm\frac{2\sqrt{2}}{3}$.
+Since $\sin{x}=-\frac{1}{3}<0$, $x$ is a third- or fourth-quadrant angle. From $\cos^{2}x=1-\frac{1}{9}=\frac{8}{9}$, we get $\cos{x}=\pm\frac{2\sqrt{2}}{3}$.
 
-(1) If $x$ is a third-quadrant angle, then $\cos x< 0$, so $\cos x=-\frac{2\sqrt{2}}{3}$ and $\tan x=\frac{\sin x}{\cos x}=\frac{\sqrt{2}}{4}$.
+(1) If $x$ is a third-quadrant angle, then $\cos{x}<0$, so $\cos{x}=-\frac{2\sqrt{2}}{3}$ and $\tan{x}=\frac{\sin{x}}{\cos{x}}=\frac{\sqrt{2}}{4}$.
 
-(2) If $x$ is a fourth-quadrant angle, then $\cos x> 0$, so $\cos x=\frac{2\sqrt{2}}{3}$ and $\tan x=-\frac{\sqrt{2}}{4}$. $\blacksquare$
+(2) If $x$ is a fourth-quadrant angle, then $\cos{x}>0$, so $\cos{x}=\frac{2\sqrt{2}}{3}$ and $\tan{x}=-\frac{\sqrt{2}}{4}$. $\blacksquare$
 
 ## Problem 2
 
-(Exercise 5.2, Comprehensive Application, Problem 12) Given $\tan\alpha=\sqrt{3}$ and $\pi< \alpha< \frac{3\pi}{2}$, find the value of $\cos\alpha-\sin\alpha$.
+(Exercise 5.2, Comprehensive Application, Problem 12) Given $\tan\alpha=\sqrt{3}$ and $\pi<\alpha<\frac{3\pi}{2}$, find the value of $\cos\alpha-\sin\alpha$.
 
 ### Solution to Problem 2
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$ and $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-Since $\pi< \alpha< \frac{3\pi}{2}$, $\alpha$ is a third-quadrant angle, so $\sin\alpha< 0$ and $\cos\alpha< 0$. From $\tan\alpha=\sqrt{3}$, we get $\sin\alpha=\sqrt{3}\cos\alpha$; substituting into $\sin^{2}\alpha+\cos^{2}\alpha=1$ gives $4\cos^{2}\alpha=1$, i.e. $\cos^{2}\alpha=\frac{1}{4}$, so $\cos\alpha=-\frac{1}{2}$ and $\sin\alpha=-\frac{\sqrt{3}}{2}$. Therefore
+Since $\pi<\alpha<\frac{3\pi}{2}$, $\alpha$ is a third-quadrant angle, so $\sin\alpha<0$ and $\cos\alpha<0$. From $\tan\alpha=\sqrt{3}$, we get $\sin\alpha=\sqrt{3}\cos\alpha$; substituting into $\sin^{2}\alpha+\cos^{2}\alpha=1$ gives $4\cos^{2}\alpha=1$, i.e. $\cos^{2}\alpha=\frac{1}{4}$, so $\cos\alpha=-\frac{1}{2}$ and $\sin\alpha=-\frac{\sqrt{3}}{2}$. Therefore
 
 $$
 \cos\alpha-\sin\alpha=-\frac{1}{2}-\left(-\frac{\sqrt{3}}{2}\right)=\frac{\sqrt{3}-1}{2}.
@@ -58,7 +58,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 (Exercise 5.2, Comprehensive Application, Problem 14) Prove:
 
-(1) $\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=\frac{1-\tan x}{1+\tan x}$;
+(1) $\frac{1-2\sin{x}\cos{x}}{\cos^{2}x-\sin^{2}x}=\frac{1-\tan{x}}{1+\tan{x}}$;
 
 (2) $\frac{\tan^{2}\alpha-\sin^{2}\alpha}{\tan^{2}\alpha}=\sin^{2}\alpha$;
 
@@ -70,7 +70,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}\alpha+\cos^{2}\alpha=1$ and $\tan\alpha=\frac{\sin\alpha}{\cos\alpha}$.
 
-(1) The right side $=\frac{1-\frac{\sin x}{\cos x}}{1+\frac{\sin x}{\cos x}}=\frac{\cos x-\sin x}{\cos x+\sin x}=\frac{\left(\cos x-\sin x\right)^{2}}{\left(\cos x+\sin x\right)\left(\cos x-\sin x\right)}=\frac{\cos^{2}x-2\sin x\cos x+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\frac{1-2\sin x\cos x}{\cos^{2}x-\sin^{2}x}=$ the left side.
+(1) The right side $=\frac{1-\frac{\sin{x}}{\cos{x}}}{1+\frac{\sin{x}}{\cos{x}}}=\frac{\cos{x}-\sin{x}}{\cos{x}+\sin{x}}=\frac{\left(\cos{x}-\sin{x}\right)^{2}}{\left(\cos{x}+\sin{x}\right)\left(\cos{x}-\sin{x}\right)}=\frac{\cos^{2}x-2\sin{x}\cos{x}+\sin^{2}x}{\cos^{2}x-\sin^{2}x}=\frac{1-2\sin{x}\cos{x}}{\cos^{2}x-\sin^{2}x}=$ the left side.
 
 (2) The left side $=1-\frac{\sin^{2}\alpha}{\tan^{2}\alpha}=1-\frac{\sin^{2}\alpha}{\sin^{2}\alpha/\cos^{2}\alpha}=1-\cos^{2}\alpha=\sin^{2}\alpha=$ the right side.
 
@@ -102,7 +102,7 @@ $\blacksquare$
 
 By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the Same Angle), $\sin^{2}\alpha+\cos^{2}\alpha=1$.
 
-Since $\alpha$ is a second-quadrant angle, $\cos\alpha< 0$. Rationalizing the two expressions separately:
+Since $\alpha$ is a second-quadrant angle, $\cos\alpha<0$. Rationalizing the two expressions separately:
 
 $$
 \sqrt{\frac{1+\sin\alpha}{1-\sin\alpha}}=\sqrt{\frac{\left(1+\sin\alpha\right)^{2}}{1-\sin^{2}\alpha}}=\frac{1+\sin\alpha}{\lvert\cos\alpha\rvert}=\frac{1+\sin\alpha}{-\cos\alpha},
@@ -116,7 +116,7 @@ Hence the original expression $=\frac{1+\sin\alpha}{-\cos\alpha}-\frac{1-\sin\al
 
 ## Problem 7
 
-(Exercise 5.2, Extension and Exploration, Problem 17) From Example 7 of this section one can see that $\frac{\cos x}{1-\sin x}=\frac{1+\sin x}{\cos x}$ is just a variant form of $\sin^{2}x+\cos^{2}x=1$. Can you derive more relations using the basic relations among trigonometric functions of the same angle?
+(Exercise 5.2, Extension and Exploration, Problem 17) From Example 7 of this section one can see that $\frac{\cos{x}}{1-\sin{x}}=\frac{1+\sin{x}}{\cos{x}}$ is just a variant form of $\sin^{2}x+\cos^{2}x=1$. Can you derive more relations using the basic relations among trigonometric functions of the same angle?
 
 ### Solution to Problem 7
 
@@ -138,7 +138,7 @@ By **Common Conclusion** (Basic Relations Among Trigonometric Functions of the S
 
 (2) Take any value of $\alpha$ and compute $\sin^{4}\alpha-\cos^{4}\alpha$ and $\sin^{2}\alpha-\cos^{2}\alpha$ respectively. What do you observe now?
 
-(3) Prove: $\forall x\in\mathbb R$, $\sin^{2}x-\cos^{2}x=\sin^{4}x-\cos^{4}x$.
+(3) Prove: $\forall{x}\in\mathbb{R}$, $\sin^{2}x-\cos^{2}x=\sin^{4}x-\cos^{4}x$.
 
 ### Solution to Problem 8
 
@@ -158,7 +158,7 @@ The two are equal.
 
 (2) Take, for example, $\alpha=\frac{\pi}{4}$. Since $\sin\frac{\pi}{4}=\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}$, we get $\sin^{4}\frac{\pi}{4}-\cos^{4}\frac{\pi}{4}=0$ and $\sin^{2}\frac{\pi}{4}-\cos^{2}\frac{\pi}{4}=0$. The two are still equal.
 
-(3) The left side $=\sin^{2}x-\cos^{2}x$. The right side $=\left(\sin^{2}x+\cos^{2}x\right)\left(\sin^{2}x-\cos^{2}x\right)=1\cdot\left(\sin^{2}x-\cos^{2}x\right)=\sin^{2}x-\cos^{2}x=$ the left side. Hence the identity holds, $\forall x\in\mathbb R$. $\blacksquare$
+(3) The left side $=\sin^{2}x-\cos^{2}x$. The right side $=\left(\sin^{2}x+\cos^{2}x\right)\left(\sin^{2}x-\cos^{2}x\right)=1\cdot\left(\sin^{2}x-\cos^{2}x\right)=\sin^{2}x-\cos^{2}x=$ the left side. Hence the identity holds, $\forall{x}\in\mathbb{R}$. $\blacksquare$
 
 ## Reading and Thinking 1
 
@@ -512,11 +512,11 @@ By **Formula 2**, $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{1}{2}$, so $\s
 
 ## Problem 15
 
-(Exercise 5.3, Comprehensive Application, Problem 7) In $\triangle ABC$, determine whether each of the following relations holds, and explain why.
+(Exercise 5.3, Comprehensive Application, Problem 7) In $\triangle{A}BC$, determine whether each of the following relations holds, and explain why.
 
-(1) $\cos\left(A+B\right)=\cos C$;
+(1) $\cos\left(A+B\right)=\cos{C}$;
 
-(2) $\sin\left(A+B\right)=\sin C$;
+(2) $\sin\left(A+B\right)=\sin{C}$;
 
 (3) $\sin\frac{A+B}{2}=\sin\frac{C}{2}$;
 
@@ -526,9 +526,9 @@ By **Formula 2**, $\sin\left(\pi+\alpha\right)=-\sin\alpha=-\frac{1}{2}$, so $\s
 
 From the sum of the interior angles of a triangle, $A+B+C=\pi$, we get $A+B=\pi-C$.
 
-(1) By **Formula 2**, $\cos\left(A+B\right)=\cos\left(\pi-C\right)=-\cos C\neq\cos C$, so it does not hold.
+(1) By **Formula 2**, $\cos\left(A+B\right)=\cos\left(\pi-C\right)=-\cos{C}\neq\cos{C}$, so it does not hold.
 
-(2) By **Formula 4**, $\sin\left(A+B\right)=\sin\left(\pi-C\right)=\sin C$, so it holds.
+(2) By **Formula 4**, $\sin\left(A+B\right)=\sin\left(\pi-C\right)=\sin{C}$, so it holds.
 
 (3) Since $\frac{A+B}{2}=\frac{\pi-C}{2}=\frac{\pi}{2}-\frac{C}{2}$, by **Formula 5**, $\sin\frac{A+B}{2}=\sin\left(\frac{\pi}{2}-\frac{C}{2}\right)=\cos\frac{C}{2}\neq\sin\frac{C}{2}$, so it does not hold.
 
@@ -536,12 +536,12 @@ From the sum of the interior angles of a triangle, $A+B+C=\pi$, we get $A+B=\pi-
 
 ## Problem 16
 
-(Exercise 5.3, Comprehensive Application, Problem 8) Given $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$ and $0< x< \frac{\pi}{2}$, find the values of $\sin\left(\frac{\pi}{6}+x\right)$ and $\cos\left(\frac{\pi}{3}+x\right)$.
+(Exercise 5.3, Comprehensive Application, Problem 8) Given $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$ and $0<{}x<\frac{\pi}{2}$, find the values of $\sin\left(\frac{\pi}{6}+x\right)$ and $\cos\left(\frac{\pi}{3}+x\right)$.
 
 ### Solution to Problem 16
 
 By **Formula 5**, $\sin\left(\frac{\pi}{2}-\alpha\right)=\cos\alpha$, $\cos\left(\frac{\pi}{2}-\alpha\right)=\sin\alpha$.
 
-(1) Since $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, we get $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. From $0< x< \frac{\pi}{2}$, we get $-\frac{\pi}{6}< \frac{\pi}{3}-x< \frac{\pi}{3}$, so $\cos\left(\frac{\pi}{3}-x\right)> 0$. From $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, we get $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. Hence $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
+(1) Since $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{6}+x\right)=\frac{\pi}{2}$, we get $\sin\left(\frac{\pi}{6}+x\right)=\sin\left(\frac{\pi}{2}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\frac{\pi}{3}-x\right)$. From $0<{}x<\frac{\pi}{2}$, we get $-\frac{\pi}{6}<\frac{\pi}{3}-x<\frac{\pi}{3}$, so $\cos\left(\frac{\pi}{3}-x\right)>0$. From $\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{3}$, we get $\cos\left(\frac{\pi}{3}-x\right)=\sqrt{1-\frac{1}{9}}=\frac{2\sqrt{2}}{3}$. Hence $\sin\left(\frac{\pi}{6}+x\right)=\frac{2\sqrt{2}}{3}$.
 
 (2) Since $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, the reduction formulas cannot be used directly. Note that $\left(\frac{\pi}{3}+x\right)=\frac{\pi}{2}-\left(\frac{\pi}{6}-x\right)$, while $\frac{\pi}{6}-x=\frac{\pi}{2}-\left(\frac{\pi}{3}+x\right)$. Note also that $\left(\frac{\pi}{3}-x\right)+\left(\frac{\pi}{3}+x\right)=\frac{2\pi}{3}$, so $\cos\left(\frac{\pi}{3}+x\right)=\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)$. From $\cos\left(\pi-\alpha\right)=-\cos\alpha$, we get $\cos\left(\frac{2\pi}{3}-\left(\frac{\pi}{3}-x\right)\right)=\cos\left(\pi-\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)\right)=-\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)$. Since $\cos\left(\frac{\pi}{3}+\left(\frac{\pi}{3}-x\right)\right)=\cos\frac{\pi}{3}\cos\left(\frac{\pi}{3}-x\right)-\sin\frac{\pi}{3}\sin\left(\frac{\pi}{3}-x\right)=\frac{1}{2}\cdot\frac{2\sqrt{2}}{3}-\frac{\sqrt{3}}{2}\cdot\frac{1}{3}=\frac{2\sqrt{2}-\sqrt{3}}{6}$, we get $\cos\left(\frac{\pi}{3}+x\right)=-\frac{2\sqrt{2}-\sqrt{3}}{6}=\frac{\sqrt{3}-2\sqrt{2}}{6}$. $\blacksquare$

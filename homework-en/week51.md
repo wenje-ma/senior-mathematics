@@ -2,7 +2,7 @@
 
 > **Definition 3.1.1 (椭圆)**
 > 
-> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert{F}_1F_2\rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
 
 > **Definition 3.1.3 (Standard Equation of Ellipse)**
 > 
@@ -50,7 +50,7 @@
 
 ### Solution to Exercise 1
 
-By **Definition 3.1.3 (Standard Equation of an Ellipse)**, the foci are at $\left(\pm c,0\right)$ or $\left(0,\pm c\right)$, where $c^2=a^2-b^2$ and $a$ is the square root of the larger denominator.
+By **Definition 3.1.3 (Standard Equation of an Ellipse)**, the foci are at $\left(\pm{c},0\right)$ or $\left(0,\pm{c}\right)$, where $c^2=a^2-b^2$ and $a$ is the square root of the larger denominator.
 
 (1) In $\frac{x^2}{100}+\frac{y^2}{36}=1$, we have $a^2=100$, $b^2=36$, the foci are on the $x$-axis, and $c=\sqrt{100-36}=8$; hence the foci are at $\left(-8,0\right)$ and $\left(8,0\right)$.
 
@@ -94,7 +94,7 @@ $\blacksquare$
 
 By **Definition 3.1.6 (Vertices)**, the intersections of the ellipse with the coordinate axes are the vertices; by **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}$.
 
-(1) The point $P\left(-3,0\right)$ is on the $x$-axis and $Q\left(0,-2\right)$ is on the $y$-axis; these are the intersections of the ellipse with the two coordinate axes. By **Definition 3.1.6 (Vertices, Major Axis, Minor Axis)**, the vertices are at $\left(\pm a,0\right)$ and $\left(0,\pm b\right)$, so $a=3$, $b=2$. Since $a> b$, the foci are on the $x$-axis, and the standard equation is
+(1) The point $P\left(-3,0\right)$ is on the $x$-axis and $Q\left(0,-2\right)$ is on the $y$-axis; these are the intersections of the ellipse with the two coordinate axes. By **Definition 3.1.6 (Vertices, Major Axis, Minor Axis)**, the vertices are at $\left(\pm{a},0\right)$ and $\left(0,\pm{b}\right)$, so $a=3$, $b=2$. Since $a>{}b$, the foci are on the $x$-axis, and the standard equation is
 
 $$
 \frac{x^2}{9}+\frac{y^2}{4}=1.
@@ -126,9 +126,9 @@ $\blacksquare$
 
 By **Definition 3.1.7 (Eccentricity)**, $e=\frac{c}{a}=\sqrt{1-\frac{b^2}{a^2}}$; the closer $e$ is to $0$, the closer $a$ and $b$ are, and the closer the ellipse is to a circle.
 
-(1) Rewrite $9x^2+y^2=36$ as $\frac{y^2}{36}+\frac{x^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{16}+\frac{y^2}{12}=1$, we have $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. Since $e_2< e_1$, the ellipse $\frac{x^2}{16}+\frac{y^2}{12}=1$ is closer to a circle.
+(1) Rewrite $9x^2+y^2=36$ as $\frac{y^2}{36}+\frac{x^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{16}+\frac{y^2}{12}=1$, we have $a=4$, $b=2\sqrt{3}$, $e_2=\sqrt{1-\frac{12}{16}}=\frac{1}{2}=0.5$. Since $e_2<{}e_1$, the ellipse $\frac{x^2}{16}+\frac{y^2}{12}=1$ is closer to a circle.
 
-(2) Rewrite $x^2+9y^2=36$ as $\frac{x^2}{36}+\frac{y^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{6}+\frac{y^2}{10}=1$, we have $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. Since $e_2< e_1$, the ellipse $\frac{x^2}{6}+\frac{y^2}{10}=1$ is closer to a circle. $\blacksquare$
+(2) Rewrite $x^2+9y^2=36$ as $\frac{x^2}{36}+\frac{y^2}{4}=1$, with $a=6$, $b=2$, $e_1=\sqrt{1-\frac{4}{36}}=\frac{2\sqrt{2}}{3}\approx0.94$. For $\frac{x^2}{6}+\frac{y^2}{10}=1$, we have $a=\sqrt{10}$, $b=\sqrt{6}$, $e_2=\sqrt{1-\frac{6}{10}}=\frac{\sqrt{10}}{5}\approx0.63$. Since $e_2<{}e_1$, the ellipse $\frac{x^2}{6}+\frac{y^2}{10}=1$ is closer to a circle. $\blacksquare$
 
 ## Exercise 5
 
@@ -175,13 +175,13 @@ $$
 Simplifying gives $7x^2+12x+4=0$. Let $A\left(x_1,y_1\right)$ and $B\left(x_2,y_2\right)$; then $x_1+x_2=-\frac{12}{7}$ and $x_1x_2=\frac{4}{7}$. By the chord-length formula,
 
 $$
-\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}.
+\lvert{A}B\rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}.
 $$
 
 Substituting gives
 
 $$
-\lvert AB \rvert=\sqrt{1+3}\cdot\sqrt{\frac{144}{49}-\frac{16}{7}}=2\cdot\sqrt{\frac{32}{49}}=\frac{8\sqrt{2}}{7}.
+\lvert{A}B\rvert=\sqrt{1+3}\cdot\sqrt{\frac{144}{49}-\frac{16}{7}}=2\cdot\sqrt{\frac{32}{49}}=\frac{8\sqrt{2}}{7}.
 $$
 
 $\blacksquare$
@@ -200,7 +200,7 @@ as it moves, what curve is the locus of $M$? Why? Write its equation.
 
 By **Definition 3.1.1 (Ellipse)**, the locus of points in a plane whose sum of distances to two fixed points equals a constant (greater than the distance between the two fixed points) is an ellipse.
 
-$\sqrt{x^2+\left(y-3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,3\right)$, and $\sqrt{x^2+\left(y+3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,-3\right)$. The two fixed points are $F_1\left(0,3\right)$ and $F_2\left(0,-3\right)$, with $\lvert F_1F_2 \rvert=6$. The sum of the distances from $M$ to the two fixed points is the constant $10$, and $10> 6$, so by **Definition 3.1.1 (椭圆)** the locus of $M$ is an ellipse with foci at $\left(0,\pm3\right)$.
+$\sqrt{x^2+\left(y-3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,3\right)$, and $\sqrt{x^2+\left(y+3\right)^2}$ is the distance from $M\left(x,y\right)$ to $\left(0,-3\right)$. The two fixed points are $F_1\left(0,3\right)$ and $F_2\left(0,-3\right)$, with $\lvert{F}_1F_2\rvert=6$. The sum of the distances from $M$ to the two fixed points is the constant $10$, and $10>6$, so by **Definition 3.1.1 (椭圆)** the locus of $M$ is an ellipse with foci at $\left(0,\pm3\right)$.
 
 From $2a=10$ we get $a=5$, and from $2c=6$ we get $c=3$, with $b^2=a^2-c^2=25-9=16$. The foci are on the $y$-axis, so the equation is
 
@@ -250,7 +250,7 @@ $\blacksquare$
 
 (2) $9x^2+y^2=81$.
 
-The figure plots two ellipses in the rectangular coordinate system: (1) $\frac{x^2}{16}+\frac{y^2}{4}=1$, $a=4$, $b=2$, major axis on the $x$-axis, vertices $\left(\pm4,0\right)$, $\left(0,\pm2\right)$, foci $\left(\pm2\sqrt 3,0\right)$; (2) $\frac{y^2}{81}+\frac{x^2}{9}=1$, $a=9$, $b=3$, major axis on the $y$-axis, vertices $\left(\pm3,0\right)$, $\left(0,\pm9\right)$, foci $\left(0,\pm6\sqrt 2\right)$.
+The figure plots two ellipses in the rectangular coordinate system: (1) $\frac{x^2}{16}+\frac{y^2}{4}=1$, $a=4$, $b=2$, major axis on the $x$-axis, vertices $\left(\pm4,0\right)$, $\left(0,\pm2\right)$, foci $\left(\pm2\sqrt3,0\right)$; (2) $\frac{y^2}{81}+\frac{x^2}{9}=1$, $a=9$, $b=3$, major axis on the $y$-axis, vertices $\left(\pm3,0\right)$, $\left(0,\pm9\right)$, foci $\left(0,\pm6\sqrt2\right)$.
 
 ### Solution to Problem 3
 
@@ -274,7 +274,7 @@ By **Definition 3.1.3 (Standard Equation of an Ellipse)**, rewrite the equations
 
 Use **Definition 3.1.6 (Vertices)** and **Definition 3.1.7 (Eccentricity)**.
 
-(1) $P\left(-2\sqrt{2},0\right)$ is on the $x$-axis and $Q\left(0,\sqrt{5}\right)$ is on the $y$-axis, so $a=2\sqrt{2}$, $b=\sqrt{5}$, with $a> b$ and the foci on the $x$-axis. The standard equation is
+(1) $P\left(-2\sqrt{2},0\right)$ is on the $x$-axis and $Q\left(0,\sqrt{5}\right)$ is on the $y$-axis, so $a=2\sqrt{2}$, $b=\sqrt{5}$, with $a>{}b$ and the foci on the $x$-axis. The standard equation is
 
 $$
 \frac{x^2}{8}+\frac{y^2}{5}=1.
@@ -302,9 +302,9 @@ $\blacksquare$
 
 ### Solution to Problem 5
 
-By **Definition 3.1.3 (Standard Equation of Ellipse)**, in the ellipse $\frac{x^2}{5}+\frac{y^2}{4}=1$ we have $a^2=5$, $b^2=4$, $c=\sqrt{5-4}=1$, foci $F_1\left(-1,0\right)$, $F_2\left(1,0\right)$, and $\lvert F_1F_2 \rvert=2$.
+By **Definition 3.1.3 (Standard Equation of Ellipse)**, in the ellipse $\frac{x^2}{5}+\frac{y^2}{4}=1$ we have $a^2=5$, $b^2=4$, $c=\sqrt{5-4}=1$, foci $F_1\left(-1,0\right)$, $F_2\left(1,0\right)$, and $\lvert{F}_1F_2\rvert=2$.
 
-Let $P\left(x,y\right)$. The base of $\triangle PF_1F_2$ is $\lvert F_1F_2 \rvert=2$ and the height is $\lvert y \rvert$, so the area is $S=\frac{1}{2}\cdot2\cdot\lvert y \rvert=\lvert y \rvert=1$, giving $y=\pm1$. Substituting into the ellipse gives $\frac{x^2}{5}+\frac{1}{4}=1$, i.e. $x^2=\frac{15}{4}$, $x=\pm\frac{\sqrt{15}}{2}$. Hence the coordinates of $P$ are
+Let $P\left(x,y\right)$. The base of $\triangle{P}F_1F_2$ is $\lvert{F}_1F_2\rvert=2$ and the height is $\lvert{y}\rvert$, so the area is $S=\frac{1}{2}\cdot2\cdot\lvert{y}\rvert=\lvert{y}\rvert=1$, giving $y=\pm1$. Substituting into the ellipse gives $\frac{x^2}{5}+\frac{1}{4}=1$, i.e. $x^2=\frac{15}{4}$, $x=\pm\frac{\sqrt{15}}{2}$. Hence the coordinates of $P$ are
 
 $$
 \left(\pm\frac{\sqrt{15}}{2},\pm1\right)
@@ -320,15 +320,15 @@ The figure shows the circle $O$ of fixed radius $r$, a fixed point $A$ inside th
 
 ### Solution to Problem 6
 
-By the property of the perpendicular bisector of a segment, since $Q$ lies on the perpendicular bisector of $AP$, we have $\lvert QA \rvert=\lvert QP \rvert$.
+By the property of the perpendicular bisector of a segment, since $Q$ lies on the perpendicular bisector of $AP$, we have $\lvert{Q}A\rvert=\lvert{Q}P\rvert$.
 
-Also, $Q$ lies on the radius $OP$, and $\lvert OP \rvert=r$, so $\lvert QO \rvert+\lvert QP \rvert=\lvert OP \rvert=r$. Substituting $\lvert QP \rvert=\lvert QA \rvert$ gives
+Also, $Q$ lies on the radius $OP$, and $\lvert{O}P\rvert=r$, so $\lvert{Q}O\rvert+\lvert{Q}P\rvert=\lvert{O}P\rvert=r$. Substituting $\lvert{Q}P\rvert=\lvert{Q}A\rvert$ gives
 
 $$
-\lvert QO \rvert+\lvert QA \rvert=r.
+\lvert{Q}O\rvert+\lvert{Q}A\rvert=r.
 $$
 
-By **Definition 3.1.1 (Ellipse)**, the sum of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$. Since $A$ is inside the circle $O$, we have $\lvert OA \rvert< r$, satisfying the condition that the constant is greater than the distance between the two fixed points. Hence the locus of $Q$ is an ellipse with foci at $O$ and $A$. $\blacksquare$
+By **Definition 3.1.1 (Ellipse)**, the sum of the distances from $Q$ to the two fixed points $O$ and $A$ is the constant $r$. Since $A$ is inside the circle $O$, we have $\lvert{O}A\rvert<{}r$, satisfying the condition that the constant is greater than the distance between the two fixed points. Hence the locus of $Q$ is an ellipse with foci at $O$ and $A$. $\blacksquare$
 
 ## Problem 7
 
@@ -352,10 +352,10 @@ $\blacksquare$
 
 ### Solution to Problem 8
 
-Let $M\left(x,y\right)$. The distance from $M$ to $F\left(2,0\right)$ is $\sqrt{\left(x-2\right)^2+y^2}$, and the distance from $M$ to the line $x=8$ is $\lvert 8-x \rvert$. By the problem,
+Let $M\left(x,y\right)$. The distance from $M$ to $F\left(2,0\right)$ is $\sqrt{\left(x-2\right)^2+y^2}$, and the distance from $M$ to the line $x=8$ is $\lvert8-x\rvert$. By the problem,
 
 $$
-\frac{\sqrt{\left(x-2\right)^2+y^2}}{\lvert 8-x \rvert}=\frac{1}{2}.
+\frac{\sqrt{\left(x-2\right)^2+y^2}}{\lvert8-x\rvert}=\frac{1}{2}.
 $$
 
 Squaring both sides gives $4\left[\left(x-2\right)^2+y^2\right]=\left(8-x\right)^2$; expanding and simplifying gives
@@ -374,13 +374,13 @@ By **Definition 3.1.1 (Ellipse)**, the locus is an ellipse centered at $\left(\f
 
 ## Problem 9
 
-(Exercise 3.1, Comprehensive Application, Problem 9) As shown in the figure, $DP\perp x$ axis, with foot $D$, and $M$ lies on the extension of $DP$, with $\frac{DM}{DP}=\frac{3}{2}$. As $P$ moves on the circle $x^2+y^2=4$, find the locus equation of $M$ and describe its shape.
+(Exercise 3.1, Comprehensive Application, Problem 9) As shown in the figure, $DP\perp{x}$ axis, with foot $D$, and $M$ lies on the extension of $DP$, with $\frac{DM}{DP}=\frac{3}{2}$. As $P$ moves on the circle $x^2+y^2=4$, find the locus equation of $M$ and describe its shape.
 
 The figure plots the circle $x^2+y^2=4$ (center at the origin, radius $2$) in the rectangular coordinate system: point $P$ lies on the circle, $PD$ is perpendicular to the $x$-axis with foot $D$; point $M$ lies on the extension of $DP$, and $DM:DP=3:2$.
 
 ### Solution to Problem 9
 
-Let $M\left(x,y\right)$ and $P\left(x_0,y_0\right)$. Since $DP\perp x$ axis, the foot is $D\left(x_0,0\right)$, and since $M$ lies on the extension of $DP$, we have $x=x_0$. Also $\frac{DM}{DP}=\frac{3}{2}$, with $DM=\lvert y \rvert$ and $DP=\lvert y_0 \rvert$, so $y=\frac{3}{2}y_0$, i.e. $y_0=\frac{2}{3}y$.
+Let $M\left(x,y\right)$ and $P\left(x_0,y_0\right)$. Since $DP\perp{x}$ axis, the foot is $D\left(x_0,0\right)$, and since $M$ lies on the extension of $DP$, we have $x=x_0$. Also $\frac{DM}{DP}=\frac{3}{2}$, with $DM=\lvert{y}\rvert$ and $DP=\lvert{y}_0\rvert$, so $y=\frac{3}{2}y_0$, i.e. $y_0=\frac{2}{3}y$.
 
 Since $P\left(x_0,y_0\right)$ lies on the circle $x^2+y^2=4$, we have $x_0^2+y_0^2=4$. Substituting $x_0=x$ and $y_0=\frac{2}{3}y$ gives
 
@@ -404,13 +404,13 @@ By **Definition 3.1.1 (Ellipse)**, the locus of $M$ is an ellipse with foci on t
 
 Complete the square for the two fixed circles. The circle $x^2+y^2+6x+5=0$ becomes $\left(x+3\right)^2+y^2=4$, with center $C_1\left(-3,0\right)$ and radius $r_1=2$. The circle $x^2+y^2-6x-91=0$ becomes $\left(x-3\right)^2+y^2=100$, with center $C_2\left(3,0\right)$ and radius $r_2=10$.
 
-Let the center of the moving circle be $M\left(x,y\right)$ and its radius be $R$. External tangency gives $\lvert MC_1 \rvert=R+r_1=R+2$, and internal tangency gives $\lvert MC_2 \rvert=r_2-R=10-R$. Adding the two gives
+Let the center of the moving circle be $M\left(x,y\right)$ and its radius be $R$. External tangency gives $\lvert{M}C_1\rvert=R+r_1=R+2$, and internal tangency gives $\lvert{M}C_2\rvert=r_2-R=10-R$. Adding the two gives
 
 $$
-\lvert MC_1 \rvert+\lvert MC_2 \rvert=12.
+\lvert{M}C_1\rvert+\lvert{M}C_2\rvert=12.
 $$
 
-By **Definition 3.1.1 (Ellipse)**, the sum of the distances from $M$ to the two fixed points $C_1\left(-3,0\right)$ and $C_2\left(3,0\right)$ is the constant $12$, and $12> \lvert C_1C_2 \rvert=6$, so the locus is an ellipse with foci at $C_1,C_2$. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. The locus equation is
+By **Definition 3.1.1 (Ellipse)**, the sum of the distances from $M$ to the two fixed points $C_1\left(-3,0\right)$ and $C_2\left(3,0\right)$ is the constant $12$, and $12>\lvert{C}_1C_2\rvert=6$, so the locus is an ellipse with foci at $C_1,C_2$. $2a=12$, $a=6$, $2c=6$, $c=3$, $b^2=36-9=27$. The locus equation is
 
 $$
 \frac{x^2}{36}+\frac{y^2}{27}=1.
@@ -420,7 +420,7 @@ $\blacksquare$
 
 ## Problem 11
 
-(Exercise 3.1, Extension and Exploration, Problem 11) As shown in the figure, in rectangle $ABCD$, $AB=2a$, $BC=2b$ ($a> b> 0$). $E$, $F$, $G$, $H$ are the midpoints of the four sides; $R$, $S$, $T$ are the points that divide segment $OF$ into four equal parts, and $R'$, $S'$, $T'$ are the points that divide segment $CF$ into four equal parts. Prove that the intersections $L$, $M$, $N$ of $ER$ and $GR'$, $ES$ and $GS'$, and $ET$ and $GT'$ all lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$).
+(Exercise 3.1, Extension and Exploration, Problem 11) As shown in the figure, in rectangle $ABCD$, $AB=2a$, $BC=2b$ ($a>{}b>0$). $E$, $F$, $G$, $H$ are the midpoints of the four sides; $R$, $S$, $T$ are the points that divide segment $OF$ into four equal parts, and $R'$, $S'$, $T'$ are the points that divide segment $CF$ into four equal parts. Prove that the intersections $L$, $M$, $N$ of $ER$ and $GR'$, $ES$ and $GS'$, and $ET$ and $GT'$ all lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>{}b>0$).
 
 The figure plots, in the rectangular coordinate system, the rectangle $ABCD$ (center at $O$, $AB=2a$ horizontal, $BC=2b$ vertical): $E$, $F$, $G$, $H$ are the midpoints of the four sides ($F$ at the midpoint of the right side, $G$ at the midpoint of the top side, $E$ at the midpoint of the bottom side); $R$, $S$, $T$ are the quarter points of segment $OF$ (on the $x$-axis), and $R'$, $S'$, $T'$ are the quarter points of segment $CF$ (on the right vertical side); the lines $ER$ and $GR'$, $ES$ and $GS'$, $ET$ and $GT'$ are drawn, and their intersections $L$, $M$, $N$ lie on the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$.
 
@@ -487,11 +487,11 @@ Simplifying gives $25x^2+8mx+m^2-225=0$. By **Common Conclusion 3.1.8**, tangenc
 The two tangents are $4x-5y+25=0$ and $4x-5y-25=0$. Their distances to $l:4x-5y+40=0$ are respectively
 
 $$
-d_1=\frac{\lvert 25-40 \rvert}{\sqrt{4^2+5^2}}=\frac{15}{\sqrt{41}}=\frac{15\sqrt{41}}{41},
+d_1=\frac{\lvert25-40\rvert}{\sqrt{4^2+5^2}}=\frac{15}{\sqrt{41}}=\frac{15\sqrt{41}}{41},
 $$
 
 $$
-d_2=\frac{\lvert -25-40 \rvert}{\sqrt{41}}=\frac{65}{\sqrt{41}}=\frac{65\sqrt{41}}{41}.
+d_2=\frac{\lvert-25-40\rvert}{\sqrt{41}}=\frac{65}{\sqrt{41}}=\frac{65\sqrt{41}}{41}.
 $$
 
 (1) There is a point at minimum distance to $l$, and the minimum distance is $\frac{15\sqrt{41}}{41}$.
@@ -516,7 +516,7 @@ $$
 
 Simplifying gives $18x^2+12mx+4m^2-36=0$, i.e. $9x^2+6mx+2m^2-18=0$.
 
-(1) By **Common Conclusion 3.1.8**, having two common points requires $\Delta> 0$, i.e. $36m^2-36\left(2m^2-18\right)> 0$, which simplifies to $m^2< 18$, i.e. $-3\sqrt{2}< m< 3\sqrt{2}$.
+(1) By **Common Conclusion 3.1.8**, having two common points requires $\Delta>0$, i.e. $36m^2-36\left(2m^2-18\right)>0$, which simplifies to $m^2<18$, i.e. $-3\sqrt{2}<{}m<3\sqrt{2}$.
 
 (2) Let the abscissas of the intersections be $x_1,x_2$; then the abscissa of the midpoint is $x_0=\frac{x_1+x_2}{2}=-\frac{m}{3}$. The ordinate of the midpoint is $y_0=\frac{3}{2}x_0+m=-\frac{m}{2}+m=\frac{m}{2}$. Eliminating $m$ gives $y_0=-\frac{3}{2}x_0$, i.e. the midpoints lie on the line $y=-\frac{3}{2}x$. $\blacksquare$
 
@@ -569,7 +569,7 @@ $$
 (2) Foci on the $x$-axis; let the equation be $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$. Substituting the two points:
 
 $$
-\frac{2}{a^2}-\frac{3}{b^2}=1,\quad \frac{15/9}{a^2}-\frac{2}{b^2}=1.
+\frac{2}{a^2}-\frac{3}{b^2}=1,\quad\frac{15/9}{a^2}-\frac{2}{b^2}=1.
 $$
 
 Solving gives $a^2=1$, $b^2=3$. The standard equation is
@@ -606,4 +606,4 @@ The foci are exactly the same, and the claim follows. $\blacksquare$
 
 By **Definition 3.2.3 (Standard Equation of a Hyperbola)**, in the standard hyperbola equation the signs of the $x^2$ and $y^2$ terms are opposite, i.e. the two denominators must have the same sign (one positive and one negative is impossible; in the standard form the two terms have opposite signs, so the two denominators must have the same sign).
 
-For $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ to represent a hyperbola, the two denominators must have the same sign. Either $2+m> 0$ and $m+1> 0$, giving $m> -1$; or $2+m< 0$ and $m+1< 0$, giving $m< -2$. Hence the range of $m$ is $m< -2$ or $m> -1$. $\blacksquare$
+For $\frac{x^2}{2+m}-\frac{y^2}{m+1}=1$ to represent a hyperbola, the two denominators must have the same sign. Either $2+m>0$ and $m+1>0$, giving $m>-1$; or $2+m<0$ and $m+1<0$, giving $m<-2$. Hence the range of $m$ is $m<-2$ or $m>-1$. $\blacksquare$

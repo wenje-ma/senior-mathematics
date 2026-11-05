@@ -2,7 +2,7 @@
 
 > **定义 5.1.1 (平均变化率)**
 > 
-> $\frac{\Delta y}{\Delta x}=\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$.
+> $\frac{\Delta{y}}{\Delta{x}}=\frac{f\left(x_{0}+\Delta{x}\right)-f\left(x_{0}\right)}{\Delta{x}}$.
 
 > **定义 5.1.2 (导数)**
 > 
@@ -50,7 +50,7 @@
 
 由**定义 5.3.1 (函数的单调性与导数的正负)**, 由导函数 $f'\left(x\right)$ 的正负判断 $f\left(x\right)$ 的增减.
 
-由导函数图象, 在 $\left(-1,0\right)$ 内 $f'\left(x\right)> 0$ 且逐渐增大, 故 $f\left(x\right)$ 递增且越来越陡; 在 $\left(0,1\right)$ 内 $f'\left(x\right)> 0$ 但逐渐减小, 故 $f\left(x\right)$ 递增但越来越平缓.
+由导函数图象, 在 $\left(-1,0\right)$ 内 $f'\left(x\right)>0$ 且逐渐增大, 故 $f\left(x\right)$ 递增且越来越陡; 在 $\left(0,1\right)$ 内 $f'\left(x\right)>0$ 但逐渐减小, 故 $f\left(x\right)$ 递增但越来越平缓.
 
 故 $f\left(x\right)$ 在 $\left(-1,1\right)$ 内始终递增, 斜率先增后减. 符合这一特征的是选项 (B). $\blacksquare$
 
@@ -60,7 +60,7 @@
 
 (1) $y=x-\frac{1}{x}$, $\left(1,0\right)$;
 
-(2) $y=\frac{\mathrm e^{2x-1}}{x^{2}}$, $\left(\frac{1}{2},4\right)$.
+(2) $y=\frac{\mathrm{e}^{2x-1}}{x^{2}}$, $\left(\frac{1}{2},4\right)$.
 
 ### 解答 习题二
 
@@ -68,10 +68,10 @@
 
 (1) $y'=1+\frac{1}{x^{2}}$, 切线斜率 $k=y'\big|_{x=1}=2$. 切线过 $\left(1,0\right)$, 方程为 $y=2\left(x-1\right)$, 即 $y=2x-2$.
 
-(2) $y'=\frac{2\mathrm e^{2x-1}\cdot x^{2}-\mathrm e^{2x-1}\cdot2x}{x^{4}}=\frac{2\mathrm e^{2x-1}\left(x-1\right)}{x^{3}}$. 在 $x=\frac{1}{2}$ 处, 
+(2) $y'=\frac{2\mathrm{e}^{2x-1}\cdot{x}^{2}-\mathrm{e}^{2x-1}\cdot2x}{x^{4}}=\frac{2\mathrm{e}^{2x-1}\left(x-1\right)}{x^{3}}$. 在 $x=\frac{1}{2}$ 处, 
 
 $$
-k=\frac{2\mathrm e^{0}\left(\frac{1}{2}-1\right)}{\left(\frac{1}{2}\right)^{3}}=\frac{2\cdot\left(-\frac{1}{2}\right)}{\frac{1}{8}}=-8.
+k=\frac{2\mathrm{e}^{0}\left(\frac{1}{2}-1\right)}{\left(\frac{1}{2}\right)^{3}}=\frac{2\cdot\left(-\frac{1}{2}\right)}{\frac{1}{8}}=-8.
 $$
 
 切线过 $\left(\frac{1}{2},4\right)$, 方程为 $y-4=-8\left(x-\frac{1}{2}\right)$, 即 $y=-8x+8$. $\blacksquare$
@@ -82,7 +82,7 @@ $$
 
 ### 解答 习题三
 
-由**定义 5.2.1 (基本初等函数的导数公式)**, $F=GMm\cdot r^{-2}$, 故
+由**定义 5.2.1 (基本初等函数的导数公式)**, $F=GMm\cdot{r}^{-2}$, 故
 
 $$
 F'\left(r\right)=GMm\cdot\left(-2\right)r^{-3}=-\frac{2GMm}{r^{3}}.
@@ -92,21 +92,21 @@ $$
 
 ## 习题四
 
-(复习参考题 5 复习巩固第 6 题) 一杯 $80\ {^\circ}\mathrm C$ 的热红茶置于 $20\ {^\circ}\mathrm C$ 的房间里, 它的温度会逐渐下降, 温度 $T$ (单位: ${^\circ}\mathrm C$) 与时间 $t$ (单位: $\mathrm{min}$) 之间的关系由函数 $T=f\left(t\right)$ 给出.
+(复习参考题 5 复习巩固第 6 题) 一杯 $80\,{^\circ}\mathrm{C}$ 的热红茶置于 $20\,{^\circ}\mathrm{C}$ 的房间里, 它的温度会逐渐下降, 温度 $T$ (单位: ${^\circ}\mathrm{C}$) 与时间 $t$ (单位: $\mathrm{min}$) 之间的关系由函数 $T=f\left(t\right)$ 给出.
 
 (1) 判断 $f'\left(t\right)$ 的正负, 并说明理由.
 
-(2) $f'\left(3\right)=-4$ 的实际意义是什么? 如果 $f\left(3\right)=65\ {^\circ}\mathrm C$, 你能画出函数 $T=f\left(t\right)$ 在 $t=3$ 时图象的大致形状吗? 
+(2) $f'\left(3\right)=-4$ 的实际意义是什么? 如果 $f\left(3\right)=65\,{^\circ}\mathrm{C}$, 你能画出函数 $T=f\left(t\right)$ 在 $t=3$ 时图象的大致形状吗? 
 
-该图为函数 $T=f\left(t\right)$ 的冷却曲线(横轴时间 $t$ 单位 $\mathrm{min}$,纵轴温度 $T$ 单位 ${^\circ}\mathrm C$):从高温逐渐下降,越来越平缓地趋近室温,图中标出点 $\left(3,65\right)$ 并画出该点处斜率为 $-4$ 的切线.
+该图为函数 $T=f\left(t\right)$ 的冷却曲线(横轴时间 $t$ 单位 $\mathrm{min}$,纵轴温度 $T$ 单位 ${^\circ}\mathrm{C}$):从高温逐渐下降,越来越平缓地趋近室温,图中标出点 $\left(3,65\right)$ 并画出该点处斜率为 $-4$ 的切线.
 
 ### 解答 习题四
 
-(1) 由**定义 5.1.2 (导数)**, $f'\left(t\right)$ 是温度关于时间的瞬时变化率. 热红茶温度逐渐下降, 故温度随时间增加而减小, $f'\left(t\right)< 0$.
+(1) 由**定义 5.1.2 (导数)**, $f'\left(t\right)$ 是温度关于时间的瞬时变化率. 热红茶温度逐渐下降, 故温度随时间增加而减小, $f'\left(t\right)<0$.
 
-(2) $f'\left(3\right)=-4$ 表示在第 $3\ \mathrm{min}$ 附近, 红茶温度大约以每分钟 $4\ {^\circ}\mathrm C$ 的速率下降.
+(2) $f'\left(3\right)=-4$ 表示在第 $3\,\mathrm{min}$ 附近, 红茶温度大约以每分钟 $4\,{^\circ}\mathrm{C}$ 的速率下降.
 
-由 $f\left(3\right)=65$ 且 $f'\left(3\right)=-4< 0$, 图象在点 $\left(3,65\right)$ 处下降, 切线斜率为 $-4$. 又冷却速度随温差减小而变慢, 故图象下降且越来越平缓. $\blacksquare$
+由 $f\left(3\right)=65$ 且 $f'\left(3\right)=-4<0$, 图象在点 $\left(3,65\right)$ 处下降, 切线斜率为 $-4$. 又冷却速度随温差减小而变慢, 故图象下降且越来越平缓. $\blacksquare$
 
 ## 习题五
 
@@ -116,7 +116,7 @@ $$
 
 由**定义 5.2.1 (基本初等函数的导数公式)**, $f\left(x\right)=x^{\frac{2}{3}}$, 故 $f'\left(x\right)=\frac{2}{3}x^{-\frac{1}{3}}=\frac{2}{3\sqrt\left[3\right]{x}}$.
 
-当 $x> 0$ 时 $f'\left(x\right)> 0$; 当 $x< 0$ 时 $f'\left(x\right)< 0$.
+当 $x>0$ 时 $f'\left(x\right)>0$; 当 $x<0$ 时 $f'\left(x\right)<0$.
 
 由**定义 5.3.1 (函数的单调性与导数的正负)**, $f\left(x\right)$ 在 $\left(-\infty,0\right)$ 内单调递减, 在 $\left(0,+\infty\right)$ 内单调递增. $\blacksquare$
 
@@ -152,27 +152,27 @@ $$
 
 ## 习题八
 
-(复习参考题 5 综合运用第 10 题) 如图, 过点 $P\left(1,1\right)$ 作直线 $AB$, 分别与 $x$ 轴的正半轴, $y$ 轴的正半轴交于点 $A,B$. 当直线 $AB$ 在什么位置时, $\triangle AOB$ 的面积最小? 最小面积是多少? 
+(复习参考题 5 综合运用第 10 题) 如图, 过点 $P\left(1,1\right)$ 作直线 $AB$, 分别与 $x$ 轴的正半轴, $y$ 轴的正半轴交于点 $A,B$. 当直线 $AB$ 在什么位置时, $\triangle{A}OB$ 的面积最小? 最小面积是多少? 
 
-该图为直角坐标系中的示意图:点 $P\left(1,1\right)$ 在第一象限,过 $P$ 的一条直线 $AB$ 分别与 $x$ 轴正半轴交于 $A$,与 $y$ 轴正半轴交于 $B$,$O$ 为原点,$\triangle AOB$ 为阴影三角形.
+该图为直角坐标系中的示意图:点 $P\left(1,1\right)$ 在第一象限,过 $P$ 的一条直线 $AB$ 分别与 $x$ 轴正半轴交于 $A$,与 $y$ 轴正半轴交于 $B$,$O$ 为原点,$\triangle{A}OB$ 为阴影三角形.
 
 ### 解答 习题八
 
-设直线 $AB$ 的斜率为 $k$, 则直线方程为 $y-1=k\left(x-1\right)$. 令 $y=0$, 得 $A\left(1-\frac{1}{k},0\right)$; 令 $x=0$, 得 $B\left(0,1-k\right)$. 由 $A,B$ 在正半轴, $k< 0$.
+设直线 $AB$ 的斜率为 $k$, 则直线方程为 $y-1=k\left(x-1\right)$. 令 $y=0$, 得 $A\left(1-\frac{1}{k},0\right)$; 令 $x=0$, 得 $B\left(0,1-k\right)$. 由 $A,B$ 在正半轴, $k<0$.
 
-$\triangle AOB$ 的面积为
+$\triangle{A}OB$ 的面积为
 
 $$
 S=\frac{1}{2}\left(1-\frac{1}{k}\right)\left(1-k\right)=\frac{1}{2}\left(2-k-\frac{1}{k}\right).
 $$
 
-求导, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. 令 $S'=0$, 得 $k^{2}=1$, 由 $k< 0$ 得 $k=-1$.
+求导, $S'=\frac{1}{2}\left(-1+\frac{1}{k^{2}}\right)$. 令 $S'=0$, 得 $k^{2}=1$, 由 $k<0$ 得 $k=-1$.
 
-当 $k< -1$ 时 $S'< 0$, 当 $-1< k< 0$ 时 $S'> 0$, 故 $k=-1$ 为最小值点.
+当 $k<-1$ 时 $S'<0$, 当 $-1<{}k<0$ 时 $S'>0$, 故 $k=-1$ 为最小值点.
 
 此时 $A\left(2,0\right)$, $B\left(0,2\right)$, 最小面积为 $S=\frac{1}{2}\times2\times2=2$.
 
-故当直线 $AB$ 为 $x+y=2$ 时, $\triangle AOB$ 面积最小, 最小面积为 $2$. $\blacksquare$
+故当直线 $AB$ 为 $x+y=2$ 时, $\triangle{A}OB$ 面积最小, 最小面积为 $2$. $\blacksquare$
 
 ## 习题九
 
@@ -190,7 +190,7 @@ $$
 
 ## 习题十
 
-(复习参考题 5 综合运用第 12 题) 当室内的有毒细菌开始增加时, 就要使用杀菌剂. 刚开始使用的时候, 细菌数量还会继续增加, 随着时间的增加, 它增加的幅度逐渐变小, 到一定时间, 细菌数量开始减少. 已知使用杀菌剂 $t\ \mathrm{h}$ 后的细菌数量为 $b\left(t\right)=10^{5}+10^{4}t-10^{3}t^{2}$.
+(复习参考题 5 综合运用第 12 题) 当室内的有毒细菌开始增加时, 就要使用杀菌剂. 刚开始使用的时候, 细菌数量还会继续增加, 随着时间的增加, 它增加的幅度逐渐变小, 到一定时间, 细菌数量开始减少. 已知使用杀菌剂 $t\,\mathrm{h}$ 后的细菌数量为 $b\left(t\right)=10^{5}+10^{4}t-10^{3}t^{2}$.
 
 (1) 求细菌数量在 $t=5$ 与 $t=10$ 时的瞬时变化率.
 
@@ -206,15 +206,15 @@ $b'\left(5\right)=10000-10000=0$.
 
 $b'\left(10\right)=10000-20000=-10000$.
 
-(2) 令 $b'\left(t\right)=0$, 得 $t=5$. 当 $0< t< 5$ 时 $b'\left(t\right)> 0$, 细菌数量增加; 当 $t> 5$ 时 $b'\left(t\right)< 0$, 细菌数量减少. $\blacksquare$
+(2) 令 $b'\left(t\right)=0$, 得 $t=5$. 当 $0<{}t<5$ 时 $b'\left(t\right)>0$, 细菌数量增加; 当 $t>5$ 时 $b'\left(t\right)<0$, 细菌数量减少. $\blacksquare$
 
 ## 习题十一
 
-(复习参考题 5 综合运用第 13 题) 已知曲线 $y=x+\ln x$ 在点 $\left(1,1\right)$ 处的切线与曲线 $y=ax^{2}+\left(2a+3\right)x+1$ 只有一个公共点, 求 $a$ 的值.
+(复习参考题 5 综合运用第 13 题) 已知曲线 $y=x+\ln{x}$ 在点 $\left(1,1\right)$ 处的切线与曲线 $y=ax^{2}+\left(2a+3\right)x+1$ 只有一个公共点, 求 $a$ 的值.
 
 ### 解答 习题十一
 
-对 $y=x+\ln x$, $y'=1+\frac{1}{x}$, 在 $x=1$ 处切线斜率为 $2$. 切线方程为 $y-1=2\left(x-1\right)$, 即 $y=2x-1$.
+对 $y=x+\ln{x}$, $y'=1+\frac{1}{x}$, 在 $x=1$ 处切线斜率为 $2$. 切线方程为 $y-1=2\left(x-1\right)$, 即 $y=2x-1$.
 
 令 $2x-1=ax^{2}+\left(2a+3\right)x+1$, 整理得
 
@@ -230,11 +230,11 @@ $$
 
 ## 习题十二
 
-(复习参考题 5 综合运用第 14 题) 用总长 $14.8\ \mathrm{m}$ 的钢条制作一个长方体容器的框架, 如果所制容器底面一边的长比另一边的长多 $0.5\ \mathrm{m}$, 那么高为多少时容器的容积最大? 最大容积是多少? 
+(复习参考题 5 综合运用第 14 题) 用总长 $14.8\,\mathrm{m}$ 的钢条制作一个长方体容器的框架, 如果所制容器底面一边的长比另一边的长多 $0.5\,\mathrm{m}$, 那么高为多少时容器的容积最大? 最大容积是多少? 
 
 ### 解答 习题十二
 
-设底面短边长为 $x\ \mathrm{m}$, 则长边长为 $x+0.5\ \mathrm{m}$, 高为 $h$. 长方体框架共 $12$ 条棱 (4 长, 4 宽, 4 高), 故
+设底面短边长为 $x\,\mathrm{m}$, 则长边长为 $x+0.5\,\mathrm{m}$, 高为 $h$. 长方体框架共 $12$ 条棱 (4 长, 4 宽, 4 高), 故
 
 $$
 4\left[x+\left(x+0.5\right)+h\right]=14.8,
@@ -250,11 +250,11 @@ $$
 
 求导并令 $V'\left(x\right)=0$, 展开得 $V\left(x\right)=-2x^{3}+2.2x^{2}+1.6x$, 故 $V'\left(x\right)=-6x^{2}+4.4x+1.6=0$, 即 $3x^{2}-2.2x-0.8=0$.
 
-解得 $x=1$ (舍去负根). 此时 $h=3.2-2=1.2\ \mathrm{m}$.
+解得 $x=1$ (舍去负根). 此时 $h=3.2-2=1.2\,\mathrm{m}$.
 
-最大容积为 $V=1\times1.5\times1.2=1.8\ \mathrm{m^{3}}$.
+最大容积为 $V=1\times1.5\times1.2=1.8\,\mathrm{m^{3}}$.
 
-故高为 $1.2\ \mathrm{m}$ 时容积最大, 最大容积为 $1.8\ \mathrm{m^{3}}$. $\blacksquare$
+故高为 $1.2\,\mathrm{m}$ 时容积最大, 最大容积为 $1.8\,\mathrm{m^{3}}$. $\blacksquare$
 
 ## 习题十三
 
@@ -271,7 +271,7 @@ $$
 圆锥容积为
 
 $$
-V=\frac{1}{3}\pi r^{2}h=\frac{1}{3}\pi\cdot\frac{R^{2}\alpha^{2}}{4\pi^{2}}\cdot\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}=\frac{R^{3}}{24\pi^{2}}\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}.
+V=\frac{1}{3}\pi{r}^{2}h=\frac{1}{3}\pi\cdot\frac{R^{2}\alpha^{2}}{4\pi^{2}}\cdot\frac{R}{2\pi}\sqrt{4\pi^{2}-\alpha^{2}}=\frac{R^{3}}{24\pi^{2}}\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}.
 $$
 
 只需最大化 $\alpha^{2}\sqrt{4\pi^{2}-\alpha^{2}}$. 设 $u=\alpha^{2}$, 则目标为 $u\sqrt{4\pi^{2}-u}$, 求导令其为 $0$, 得 $2\left(4\pi^{2}-u\right)-u=0$, 即 $u=\frac{8\pi^{2}}{3}$.
@@ -282,33 +282,33 @@ $$
 
 ## 习题十四
 
-(复习参考题 5 拓广探索第 16 题) 已知 $A,B$ 两地的距离是 $130\ \mathrm{km}$. 根据交通法规, 两地之间的公路车速应限制在 $50\sim100\ \mathrm{km/h}$. 假设油价是 $7$ 元/$\mathrm L$, 以 $x\ \mathrm{km/h}$ 的速度行驶时, 汽车的耗油率为 $\left(3+\frac{x^{2}}{360}\right)\ \mathrm{L/h}$, 司机每小时的工资是 $35$ 元. 那么最经济的车速是多少 (精确到 $1\ \mathrm{km/h}$)? 如果不考虑其他费用, 这次行车的总费用是多少 (精确到 $1$ 元)? 
+(复习参考题 5 拓广探索第 16 题) 已知 $A,B$ 两地的距离是 $130\,\mathrm{km}$. 根据交通法规, 两地之间的公路车速应限制在 $50\sim100\,\mathrm{km/h}$. 假设油价是 $7$ 元/$\mathrm{L}$, 以 $x\,\mathrm{km/h}$ 的速度行驶时, 汽车的耗油率为 $\left(3+\frac{x^{2}}{360}\right)\,\mathrm{L/h}$, 司机每小时的工资是 $35$ 元. 那么最经济的车速是多少 (精确到 $1\,\mathrm{km/h}$)? 如果不考虑其他费用, 这次行车的总费用是多少 (精确到 $1$ 元)? 
 
 ### 解答 习题十四
 
-行车时间为 $\frac{130}{x}\ \mathrm{h}$. 总费用为油费与工资之和: 
+行车时间为 $\frac{130}{x}\,\mathrm{h}$. 总费用为油费与工资之和: 
 
 $$
 C\left(x\right)=\frac{130}{x}\left[7\left(3+\frac{x^{2}}{360}\right)+35\right]=\frac{130}{x}\left(56+\frac{7x^{2}}{360}\right)=130\left(\frac{56}{x}+\frac{7x}{360}\right).
 $$
 
-求导, $C'\left(x\right)=130\left(-\frac{56}{x^{2}}+\frac{7}{360}\right)$. 令 $C'\left(x\right)=0$, 得 $\frac{56}{x^{2}}=\frac{7}{360}$, 即 $x^{2}=2880$, 故 $x\approx53.7\ \mathrm{km/h}$.
+求导, $C'\left(x\right)=130\left(-\frac{56}{x^{2}}+\frac{7}{360}\right)$. 令 $C'\left(x\right)=0$, 得 $\frac{56}{x^{2}}=\frac{7}{360}$, 即 $x^{2}=2880$, 故 $x\approx53.7\,\mathrm{km/h}$.
 
-此值在 $50\sim100$ 范围内, 为最小值点. 精确到 $1\ \mathrm{km/h}$, 最经济车速约为 $54\ \mathrm{km/h}$.
+此值在 $50\sim100$ 范围内, 为最小值点. 精确到 $1\,\mathrm{km/h}$, 最经济车速约为 $54\,\mathrm{km/h}$.
 
 总费用为
 
 $$
-C\left(54\right)=130\left(\frac{56}{54}+\frac{7\times54}{360}\right)\approx130\times\left(1.037+1.05\right)\approx271\ \mathrm{元}.
+C\left(54\right)=130\left(\frac{56}{54}+\frac{7\times54}{360}\right)\approx130\times\left(1.037+1.05\right)\approx271\,\mathrm{元}.
 $$
 
-故最经济车速约为 $54\ \mathrm{km/h}$, 总费用约为 $271$ 元. $\blacksquare$
+故最经济车速约为 $54\,\mathrm{km/h}$, 总费用约为 $271$ 元. $\blacksquare$
 
 ## 习题十五
 
-(复习参考题 5 拓广探索第 17 题) 作函数 $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象.
+(复习参考题 5 拓广探索第 17 题) 作函数 $y=\frac{\mathrm{e}^{x}\left(2x-1\right)}{x-1}$ 的大致图象.
 
-该图为函数 $y=\frac{\mathrm e^{x}\left(2x-1\right)}{x-1}$ 的大致图象:有竖直渐近线 $x=1$ 与水平渐近线 $y=0$($x\to-\infty$ 时 $y\to0$),图象穿过 $x$ 轴于 $\left(\frac{1}{2},0\right)$,在 $x=\frac{1\pm\sqrt{17}}{4}$ 处各取一个极值.
+该图为函数 $y=\frac{\mathrm{e}^{x}\left(2x-1\right)}{x-1}$ 的大致图象:有竖直渐近线 $x=1$ 与水平渐近线 $y=0$($x\to-\infty$ 时 $y\to0$),图象穿过 $x$ 轴于 $\left(\frac{1}{2},0\right)$,在 $x=\frac{1\pm\sqrt{17}}{4}$ 处各取一个极值.
 
 ### 解答 习题十五
 
@@ -319,7 +319,7 @@ $$
 求导, 
 
 $$
-y'=\frac{\left[\mathrm e^{x}\left(2x-1\right)+2\mathrm e^{x}\right]\left(x-1\right)-\mathrm e^{x}\left(2x-1\right)}{\left(x-1\right)^{2}}=\frac{\mathrm e^{x}\left(2x^{2}-x-2\right)}{\left(x-1\right)^{2}}.
+y'=\frac{\left[\mathrm{e}^{x}\left(2x-1\right)+2\mathrm{e}^{x}\right]\left(x-1\right)-\mathrm{e}^{x}\left(2x-1\right)}{\left(x-1\right)^{2}}=\frac{\mathrm{e}^{x}\left(2x^{2}-x-2\right)}{\left(x-1\right)^{2}}.
 $$
 
 令 $y'=0$, 得 $2x^{2}-x-2=0$, 解得 $x=\frac{1\pm\sqrt{17}}{4}$.
@@ -330,27 +330,27 @@ $$
 
 ## 习题十六
 
-(复习参考题 5 拓广探索第 18 题) 已知函数 $f\left(x\right)=\mathrm e^{x}-\ln\left(x+m\right)$. 当 $m\le2$ 时, 求证 $f\left(x\right)> 0$.
+(复习参考题 5 拓广探索第 18 题) 已知函数 $f\left(x\right)=\mathrm{e}^{x}-\ln\left(x+m\right)$. 当 $m\le2$ 时, 求证 $f\left(x\right)>0$.
 
 ### 解答 习题十六
 
-由**定义 5.3.1 (函数的单调性与导数的正负)**, $f'\left(x\right)=\mathrm e^{x}-\frac{1}{x+m}$. 令 $f'\left(x\right)=0$, 即 $\mathrm e^{x}=\frac{1}{x+m}$.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, $f'\left(x\right)=\mathrm{e}^{x}-\frac{1}{x+m}$. 令 $f'\left(x\right)=0$, 即 $\mathrm{e}^{x}=\frac{1}{x+m}$.
 
-当 $m\le2$ 时, $\ln\left(x+m\right)$ 的定义域内 $x+m> 0$. 设 $f\left(x\right)$ 的最小值点为 $x_{0}$, 满足 $\mathrm e^{x_{0}}=\frac{1}{x_{0}+m}$, 即 $x_{0}+m=\mathrm e^{-x_{0}}$.
+当 $m\le2$ 时, $\ln\left(x+m\right)$ 的定义域内 $x+m>0$. 设 $f\left(x\right)$ 的最小值点为 $x_{0}$, 满足 $\mathrm{e}^{x_{0}}=\frac{1}{x_{0}+m}$, 即 $x_{0}+m=\mathrm{e}^{-x_{0}}$.
 
 最小值为
 
 $$
-f\left(x_{0}\right)=\mathrm e^{x_{0}}-\ln\left(x_{0}+m\right)=\mathrm e^{x_{0}}-\ln\left(\mathrm e^{-x_{0}}\right)=\mathrm e^{x_{0}}+x_{0}.
+f\left(x_{0}\right)=\mathrm{e}^{x_{0}}-\ln\left(x_{0}+m\right)=\mathrm{e}^{x_{0}}-\ln\left(\mathrm{e}^{-x_{0}}\right)=\mathrm{e}^{x_{0}}+x_{0}.
 $$
 
-由 $x_{0}+m=\mathrm e^{-x_{0}}$ 及 $m\le2$, 得 $x_{0}\ge\mathrm e^{-x_{0}}-2$. 又 $\mathrm e^{x_{0}}+x_{0}> 0$ 对任意 $x_{0}$ 成立 (因 $\mathrm e^{x_{0}}> 0$ 且当 $x_{0}\ge-2$ 时 $\mathrm e^{x_{0}}+x_{0}> 0$).
+由 $x_{0}+m=\mathrm{e}^{-x_{0}}$ 及 $m\le2$, 得 $x_{0}\ge\mathrm{e}^{-x_{0}}-2$. 又 $\mathrm{e}^{x_{0}}+x_{0}>0$ 对任意 $x_{0}$ 成立 (因 $\mathrm{e}^{x_{0}}>0$ 且当 $x_{0}\ge-2$ 时 $\mathrm{e}^{x_{0}}+x_{0}>0$).
 
-故 $f\left(x\right)$ 的最小值大于 $0$, 即 $f\left(x\right)> 0$. $\blacksquare$
+故 $f\left(x\right)$ 的最小值大于 $0$, 即 $f\left(x\right)>0$. $\blacksquare$
 
 ## 习题十七
 
-(复习参考题 5 拓广探索第 19 题) 已知函数 $f\left(x\right)=a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-x$.
+(复习参考题 5 拓广探索第 19 题) 已知函数 $f\left(x\right)=a\mathrm{e}^{2x}+\left(a-2\right)\mathrm{e}^{x}-x$.
 
 (1) 讨论 $f\left(x\right)$ 的单调性; 
 
@@ -358,27 +358,27 @@ $$
 
 ### 解答 习题十七
 
-由**定义 5.2.3 (复合函数的求导法则)**, $f'\left(x\right)=2a\mathrm e^{2x}+\left(a-2\right)\mathrm e^{x}-1$. 令 $t=\mathrm e^{x}> 0$, 则
+由**定义 5.2.3 (复合函数的求导法则)**, $f'\left(x\right)=2a\mathrm{e}^{2x}+\left(a-2\right)\mathrm{e}^{x}-1$. 令 $t=\mathrm{e}^{x}>0$, 则
 
 $$
 f'\left(x\right)=\left(at-1\right)\left(2t+1\right).
 $$
 
-(1) 因 $2t+1> 0$, $f'\left(x\right)$ 的符号由 $at-1$ 决定.
+(1) 因 $2t+1>0$, $f'\left(x\right)$ 的符号由 $at-1$ 决定.
 
-当 $a\le0$ 时, $at-1< 0$, $f'\left(x\right)< 0$, $f\left(x\right)$ 在 $\mathbb R$ 上单调递减.
+当 $a\le0$ 时, $at-1<0$, $f'\left(x\right)<0$, $f\left(x\right)$ 在 $\mathbb{R}$ 上单调递减.
 
-当 $a> 0$ 时, 令 $at-1=0$, 得 $t=\frac{1}{a}$, 即 $x=-\ln a$. 当 $x< -\ln a$ 时 $f'\left(x\right)< 0$, 当 $x> -\ln a$ 时 $f'\left(x\right)> 0$. 故 $f\left(x\right)$ 在 $\left(-\infty,-\ln a\right)$ 内递减, 在 $\left(-\ln a,+\infty\right)$ 内递增.
+当 $a>0$ 时, 令 $at-1=0$, 得 $t=\frac{1}{a}$, 即 $x=-\ln{a}$. 当 $x<-\ln{a}$ 时 $f'\left(x\right)<0$, 当 $x>-\ln{a}$ 时 $f'\left(x\right)>0$. 故 $f\left(x\right)$ 在 $\left(-\infty,-\ln{a}\right)$ 内递减, 在 $\left(-\ln{a},+\infty\right)$ 内递增.
 
 (2) 当 $a\le0$ 时, $f\left(x\right)$ 单调递减, 至多一个零点.
 
-当 $a> 0$ 时, $f\left(x\right)$ 在 $x=-\ln a$ 处取最小值 $f\left(-\ln a\right)$. 代入, $t=\frac{1}{a}$, 
+当 $a>0$ 时, $f\left(x\right)$ 在 $x=-\ln{a}$ 处取最小值 $f\left(-\ln{a}\right)$. 代入, $t=\frac{1}{a}$, 
 
 $$
-f\left(-\ln a\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln a=\frac{1}{a}+1-\frac{2}{a}+\ln a=1-\frac{1}{a}+\ln a.
+f\left(-\ln{a}\right)=a\cdot\frac{1}{a^{2}}+\left(a-2\right)\cdot\frac{1}{a}+\ln{a}=\frac{1}{a}+1-\frac{2}{a}+\ln{a}=1-\frac{1}{a}+\ln{a}.
 $$
 
-要使 $f\left(x\right)$ 有两个零点, 须最小值小于 $0$, 即 $1-\frac{1}{a}+\ln a< 0$. 设 $g\left(a\right)=1-\frac{1}{a}+\ln a$, 则 $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}> 0$, $g\left(a\right)$ 单调递增, 且 $g\left(1\right)=0$. 故当 $0< a< 1$ 时 $g\left(a\right)< 0$.
+要使 $f\left(x\right)$ 有两个零点, 须最小值小于 $0$, 即 $1-\frac{1}{a}+\ln{a}<0$. 设 $g\left(a\right)=1-\frac{1}{a}+\ln{a}$, 则 $g'\left(a\right)=\frac{1}{a^{2}}+\frac{1}{a}>0$, $g\left(a\right)$ 单调递增, 且 $g\left(1\right)=0$. 故当 $0<{}a<1$ 时 $g\left(a\right)<0$.
 
 又当 $x\to-\infty$ 时 $f\left(x\right)\to+\infty$, 当 $x\to+\infty$ 时 $f\left(x\right)\to+\infty$.
 
@@ -398,7 +398,7 @@ $$
 
 (1) 完成这件事是选 $1$ 人来工作, 会用第 $1$ 种方法的 $5$ 人与会用第 $2$ 种方法的 $4$ 人是两类互不重叠的方案, 选其中任一一人都能完成工作. 由**定义 6.1.1 (分类加法计数原理)**, 不同选法的种数为 $5+4=9$.
 
-(2) 从 $A$ 村经 $B$ 村去 $C$ 村需要先到 $B$ 村再到 $C$ 村, 是两个步骤. 由**定义 6.1.2 (分步乘法计数原理)**, 不同路线的条数为 $3\times 2=6$. $\blacksquare$
+(2) 从 $A$ 村经 $B$ 村去 $C$ 村需要先到 $B$ 村再到 $C$ 村, 是两个步骤. 由**定义 6.1.2 (分步乘法计数原理)**, 不同路线的条数为 $3\times2=6$. $\blacksquare$
 
 ## 练习二
 
@@ -426,7 +426,7 @@ $$
 
 (1) 任取 $1$ 本书, 可以取上层的数学书, 也可以取下层的语文书, 这是两类互不重叠的方案. 由**定义 6.1.1 (分类加法计数原理)**, 不同取法的种数为 $6+5=11$.
 
-(2) 任取数学书和语文书各 $1$ 本, 需要先取 $1$ 本数学书, 再取 $1$ 本语文书, 这是两个步骤. 由**定义 6.1.2 (分步乘法计数原理)**, 不同取法的种数为 $6\times 5=30$. $\blacksquare$
+(2) 任取数学书和语文书各 $1$ 本, 需要先取 $1$ 本数学书, 再取 $1$ 本语文书, 这是两个步骤. 由**定义 6.1.2 (分步乘法计数原理)**, 不同取法的种数为 $6\times5=30$. $\blacksquare$
 
 ## 练习四
 
@@ -442,20 +442,20 @@ $$
 
 (1) 任选 $1$ 人, 可以从高一, 高二, 高三三个年级中任挑一个年级来选, 这是三类互不重叠的方案. 由**定义 6.1.1 (分类加法计数原理)**, 不同选法的种数为 $3+5+4=12$.
 
-(2) 各选 $1$ 人, 需要从高一选 $1$ 名, 从高二选 $1$ 名, 从高三选 $1$ 名, 这是三个步骤. 由**定义 6.1.2 (分步乘法计数原理)**, 不同选法的种数为 $3\times 5\times 4=60$. $\blacksquare$
+(2) 各选 $1$ 人, 需要从高一选 $1$ 名, 从高二选 $1$ 名, 从高三选 $1$ 名, 这是三个步骤. 由**定义 6.1.2 (分步乘法计数原理)**, 不同选法的种数为 $3\times5\times4=60$. $\blacksquare$
 
 ## 练习五
 
-(练习 6.1 第 1 题) 某电话局管辖范围内的电话号码由 $8$ 位数字组成, 其中前 $4$ 位的数字是不变的, 后 $4$ 位数字都是 $0\sim 9$ 中的一个数字, 这个电话局不同的电话号码最多有多少个?
+(练习 6.1 第 1 题) 某电话局管辖范围内的电话号码由 $8$ 位数字组成, 其中前 $4$ 位的数字是不变的, 后 $4$ 位数字都是 $0\sim9$ 中的一个数字, 这个电话局不同的电话号码最多有多少个?
 
 ### 解答 练习五
 
 由**定义 6.1.2 (分步乘法计数原理)**.
 
-前 $4$ 位数字已经固定, 不影响号码的个数. 后 $4$ 位每一位都可以从 $0\sim 9$ 这 $10$ 个数字中任取一个, 且数字可以重复. 确定一个电话号码需要依次确定后 $4$ 位, 共四个步骤, 每一步都有 $10$ 种选法. 由**定义 6.1.2 (分步乘法计数原理)**, 不同号码的个数为
+前 $4$ 位数字已经固定, 不影响号码的个数. 后 $4$ 位每一位都可以从 $0\sim9$ 这 $10$ 个数字中任取一个, 且数字可以重复. 确定一个电话号码需要依次确定后 $4$ 位, 共四个步骤, 每一步都有 $10$ 种选法. 由**定义 6.1.2 (分步乘法计数原理)**, 不同号码的个数为
 
 $$
-10\times 10\times 10\times 10=10^4=10000.
+10\times10\times10\times10=10^4=10000.
 $$
 
 故这个电话局不同的电话号码最多有 $10000$ 个. $\blacksquare$
@@ -471,7 +471,7 @@ $$
 选出正, 副组长各 $1$ 名, 需要先选组长, 再选副组长. 第 $1$ 步, 从 $5$ 名同学中选 $1$ 名任组长, 有 $5$ 种选法; 第 $2$ 步, 组长选定后, 副组长只能从剩下的 $4$ 名同学中选 $1$ 名, 有 $4$ 种选法. 由**定义 6.1.2 (分步乘法计数原理)**, 不同选法的种数为
 
 $$
-5\times 4=20.
+5\times4=20.
 $$
 
 故共有 $20$ 种不同的选法. $\blacksquare$
@@ -487,7 +487,7 @@ $$
 写一个减法算式需要先选被减数, 再选减数, 这是两个步骤. 第 $1$ 步, 被减数从 $1$ 到 $20$ 中任取, 有 $20$ 种选法; 第 $2$ 步, 减数从 $1$ 到 $10$ 中任取, 有 $10$ 种选法. 被减数与减数的每一种搭配都对应一个不同的算式. 由**定义 6.1.2 (分步乘法计数原理)**, 不同算式的个数为
 
 $$
-20\times 10=200.
+20\times10=200.
 $$
 
 故共可得到 $200$ 个不同的算式. $\blacksquare$
@@ -500,7 +500,7 @@ $$
 
 由**定义 6.1.1 (分类加法计数原理)**, 按除以 $5$ 的余数分类计数.
 
-被 $5$ 除余 $2$ 的数形如 $5k+2$, 其中 $k$ 为非负整数. 要求 $1\le 5k+2\le 500$, 即 $-1\le 5k\le 498$, 亦即 $0\le k\le 99.6$. 故 $k$ 可取 $0,1,2,\cdots,99$, 共 $100$ 个值.
+被 $5$ 除余 $2$ 的数形如 $5k+2$, 其中 $k$ 为非负整数. 要求 $1\le5k+2\le500$, 即 $-1\le5k\le498$, 亦即 $0\le{k}\le99.6$. 故 $k$ 可取 $0,1,2,\cdots,99$, 共 $100$ 个值.
 
 所以在 $1,2,\cdots,500$ 中, 被 $5$ 除余 $2$ 的数共有 $100$ 个. $\blacksquare$
 
@@ -515,7 +515,7 @@ $$
 组成一个三位数需要依次确定百位, 十位, 个位上的数字, 共三个步骤. 各位数字都可以从 $1,2,3,4,5$ 这 $5$ 个数字中任取一个, 且数字可以重复, 所以每一位都有 $5$ 种选法. 由**定义 6.1.2 (分步乘法计数原理)**, 可组成的三位数个数为
 
 $$
-5\times 5\times 5=125.
+5\times5\times5=125.
 $$
 
 故可以组成 $125$ 个三位数. $\blacksquare$
@@ -531,7 +531,7 @@ $$
 乘积展开后的每一项, 都是从第一个括号中任取一个 $a_i$, 从第二个括号中任取一个 $b_j$, 从第三个括号中任取一个 $c_k$ 相乘得到的. 确定展开式的一项需要分三个步骤: 第 $1$ 步从 $3$ 个 $a_i$ 中选 $1$ 个, 有 $3$ 种选法; 第 $2$ 步从 $3$ 个 $b_j$ 中选 $1$ 个, 有 $3$ 种选法; 第 $3$ 步从 $5$ 个 $c_k$ 中选 $1$ 个, 有 $5$ 种选法. 由**定义 6.1.2 (分步乘法计数原理)**, 展开后共有
 
 $$
-3\times 3\times 5=45
+3\times3\times5=45
 $$
 
 项. $\blacksquare$
@@ -544,7 +544,7 @@ $$
 
 由**定义 6.1.1 (分类加法计数原理)**, 按十位数字分类.
 
-十位数字可以取 $1,2,\cdots,9$. 对每个十位数字 $t$, 个位数字必须小于 $t$ 且为 $0\sim 9$ 中的数字.
+十位数字可以取 $1,2,\cdots,9$. 对每个十位数字 $t$, 个位数字必须小于 $t$ 且为 $0\sim9$ 中的数字.
 
 (1) 十位为 $1$ 时, 个位只能取 $0$, 共 $1$ 个;
 
@@ -555,7 +555,7 @@ $$
 依此类推, 十位为 $t$ 时共有 $t$ 个. 由**定义 6.1.1 (分类加法计数原理)**, 个位数字小于十位数字的两位数共有
 
 $$
-1+2+3+\cdots+9=\frac{9\times 10}{2}=45
+1+2+3+\cdots+9=\frac{9\times10}{2}=45
 $$
 
 个. $\blacksquare$
@@ -571,7 +571,7 @@ $$
 进出商场需要先选进门, 再选出门, 这是两个步骤. 第 $1$ 步, 从 $6$ 个门中任选 $1$ 个进入, 有 $6$ 种选法; 第 $2$ 步, 进门选定后, 出门必须从其余 $5$ 个门中选 $1$ 个, 有 $5$ 种选法. 由**定义 6.1.2 (分步乘法计数原理)**, 不同进出方式的种数为
 
 $$
-6\times 5=30.
+6\times5=30.
 $$
 
 故共有 $30$ 种不同的进出商场的方式. $\blacksquare$

@@ -78,7 +78,7 @@ $$
 \frac{x^2}{18}-\frac{y^2}{18}=1.
 $$
 
-由**定义 3.2.6 (渐近线)**, 渐近线方程为 $y=\pm\frac{b}{a}x=\pm x$. $\blacksquare$
+由**定义 3.2.6 (渐近线)**, 渐近线方程为 $y=\pm\frac{b}{a}x=\pm{x}$. $\blacksquare$
 
 ## 练习三
 
@@ -150,7 +150,7 @@ $$
 
 ## 练习六
 
-(练习 3.2 第 3 题) 直线 $y=\frac{2}{3}x$ 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a> 0$) 相交于 $A$, $B$ 两点, 且 $A$, $B$ 两点的横坐标之积为 $-9$, 求离心率 $e$.
+(练习 3.2 第 3 题) 直线 $y=\frac{2}{3}x$ 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{8}=1$ ($a>0$) 相交于 $A$, $B$ 两点, 且 $A$, $B$ 两点的横坐标之积为 $-9$, 求离心率 $e$.
 
 ### 解答 练习六
 
@@ -170,7 +170,7 @@ $$
 
 将双曲线 $4x^2-y^2+64=0$ 化为 $\frac{y^2}{64}-\frac{x^2}{16}=1$, $a=8$, $b=4$, $c=\sqrt{64+16}=4\sqrt{5}$.
 
-由**常用结论 3.2.2** (双曲线上点到两焦点距离之差), $\lvert \lvert PF_1 \rvert-\lvert PF_2 \rvert \rvert=2a=16$. 已知一焦点距离为 $1$, 则另一焦点距离为 $1+16=17$ (舍去 $\lvert 1-16 \rvert=15$, 因为双曲线上点到较近焦点距离至少 $c-a=4\sqrt{5}-8\approx0.94> 0$, 距离 $1$ 对应较近焦点, 故较远焦点距离为 $17$). $\blacksquare$
+由**常用结论 3.2.2** (双曲线上点到两焦点距离之差), $\lvert\lvert{P}F_1\rvert-\lvert{P}F_2\rvert\rvert=2a=16$. 已知一焦点距离为 $1$, 则另一焦点距离为 $1+16=17$ (舍去 $\lvert1-16\rvert=15$, 因为双曲线上点到较近焦点距离至少 $c-a=4\sqrt{5}-8\approx0.94>0$, 距离 $1$ 对应较近焦点, 故较远焦点距离为 $17$). $\blacksquare$
 
 ## 习题二
 
@@ -190,10 +190,10 @@ $$
 \frac{x^2}{20}-\frac{y^2}{16}=1.
 $$
 
-(2) 设方程为 $mx^2+ny^2=1$ ($mn< 0$). 代入 $A\left(-7,-6\sqrt{2}\right)$, $B\left(2\sqrt{7},3\right)$:
+(2) 设方程为 $mx^2+ny^2=1$ ($mn<0$). 代入 $A\left(-7,-6\sqrt{2}\right)$, $B\left(2\sqrt{7},3\right)$:
 
 $$
-49m+72n=1,\quad 28m+9n=1.
+49m+72n=1,\quad28m+9n=1.
 $$
 
 解得 $m=\frac{1}{25}$, $n=-\frac{1}{75}$. 标准方程为
@@ -262,15 +262,15 @@ $\blacksquare$
 
 ### 解答 习题五
 
-由垂直平分线性质, $\lvert QA \rvert=\lvert QP \rvert$. 又 $Q$ 在直线 $OP$ 上, $\lvert OP \rvert=r$.
+由垂直平分线性质, $\lvert{Q}A\rvert=\lvert{Q}P\rvert$. 又 $Q$ 在直线 $OP$ 上, $\lvert{O}P\rvert=r$.
 
-因为 $A$ 在圆 $O$ 外, $\lvert OA \rvert> r$, $Q$ 在 $OP$ 的延长线上 (在 $P$ 外侧), 故 $\lvert QO \rvert=\lvert QP \rvert+\lvert PO \rvert=\lvert QA \rvert+r$, 即
+因为 $A$ 在圆 $O$ 外, $\lvert{O}A\rvert>{}r$, $Q$ 在 $OP$ 的延长线上 (在 $P$ 外侧), 故 $\lvert{Q}O\rvert=\lvert{Q}P\rvert+\lvert{P}O\rvert=\lvert{Q}A\rvert+r$, 即
 
 $$
-\lvert QO \rvert-\lvert QA \rvert=r.
+\lvert{Q}O\rvert-\lvert{Q}A\rvert=r.
 $$
 
-由**定义 3.2.1 (双曲线)**, 点 $Q$ 到两定点 $O$, $A$ 距离之差为常数 $r$, 且 $r< \lvert OA \rvert$, 故点 $Q$ 的轨迹是以 $O$, $A$ 为焦点的双曲线的一支. $\blacksquare$
+由**定义 3.2.1 (双曲线)**, 点 $Q$ 到两定点 $O$, $A$ 距离之差为常数 $r$, 且 $r<\lvert{O}A\rvert$, 故点 $Q$ 的轨迹是以 $O$, $A$ 为焦点的双曲线的一支. $\blacksquare$
 
 ## 习题六
 
@@ -298,11 +298,11 @@ $\blacksquare$
 
 ### 解答 习题七
 
-(1) 由**定义 3.1.3 (椭圆的标准方程)**, 圆是椭圆当 $a=b$ 时的特例, 需 $m=n> 0$.
+(1) 由**定义 3.1.3 (椭圆的标准方程)**, 圆是椭圆当 $a=b$ 时的特例, 需 $m=n>0$.
 
-(2) 由**定义 3.1.3 (椭圆的标准方程)**, 椭圆需两分母均为正且不等, 即 $m> 0$, $n> 0$ 且 $m\neq n$.
+(2) 由**定义 3.1.3 (椭圆的标准方程)**, 椭圆需两分母均为正且不等, 即 $m>0$, $n>0$ 且 $m\neq{n}$.
 
-(3) 由**定义 3.2.3 (双曲线的标准方程)**, 双曲线需两分母异号, 即 $m> 0$, $n< 0$ 或 $m< 0$, $n> 0$. $\blacksquare$
+(3) 由**定义 3.2.3 (双曲线的标准方程)**, 双曲线需两分母异号, 即 $m>0$, $n<0$ 或 $m<0$, $n>0$. $\blacksquare$
 
 ## 习题八
 
@@ -328,7 +328,7 @@ $\blacksquare$
 
 爆炸点到 $A$, $B$ 距离之差为 $340\times3=1020\,\mathrm{m}$. 以 $AB$ 中点为原点, $AB$ 所在直线为 $x$ 轴建立坐标系, $A\left(-700,0\right)$, $B\left(700,0\right)$, $2c=1400$, $c=700$.
 
-由**常用结论 3.2.2**, $\lvert \lvert PA \rvert-\lvert PB \rvert \rvert=1020=2a$, $a=510$. $b^2=c^2-a^2=700^2-510^2=229900$. 爆炸点在以 $A$, $B$ 为焦点的双曲线上, 方程为
+由**常用结论 3.2.2**, $\lvert\lvert{P}A\rvert-\lvert{P}B\rvert\rvert=1020=2a$, $a=510$. $b^2=c^2-a^2=700^2-510^2=229900$. 爆炸点在以 $A$, $B$ 为焦点的双曲线上, 方程为
 
 $$
 \frac{x^2}{260100}-\frac{y^2}{229900}=1.
@@ -338,7 +338,7 @@ $\blacksquare$
 
 ## 习题十
 
-(习题 3.2 综合运用第 10 题) 设动点 $M$ 与定点 $F\left(c,0\right)$ ($c> 0$) 的距离和 $M$ 到定直线 $l:x=\frac{a^2}{c}$ 的距离的比是 $\frac{c}{a}$ ($a< c$), 求动点 $M$ 的轨迹方程, 并说明轨迹的形状.
+(习题 3.2 综合运用第 10 题) 设动点 $M$ 与定点 $F\left(c,0\right)$ ($c>0$) 的距离和 $M$ 到定直线 $l:x=\frac{a^2}{c}$ 的距离的比是 $\frac{c}{a}$ ($a<{}c$), 求动点 $M$ 的轨迹方程, 并说明轨迹的形状.
 
 ### 解答 习题十
 
@@ -354,7 +354,7 @@ $$
 \left(a^2-c^2\right)x^2+a^2y^2=a^2\left(a^2-c^2\right).
 $$
 
-因为 $a< c$, $a^2-c^2< 0$, 两边除以 $a^2\left(a^2-c^2\right)$ 得
+因为 $a<{}c$, $a^2-c^2<0$, 两边除以 $a^2\left(a^2-c^2\right)$ 得
 
 $$
 \frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
@@ -368,35 +368,35 @@ $$
 
 ### 解答 习题十一
 
-设 $M\left(x,y\right)$. $MA\perp y=x$, 垂足 $A$ 在 $y=x$ 上; $MB\perp y=-x$, 垂足 $B$ 在 $y=-x$ 上.
+设 $M\left(x,y\right)$. $MA\perp{y}=x$, 垂足 $A$ 在 $y=x$ 上; $MB\perp{y}=-x$, 垂足 $B$ 在 $y=-x$ 上.
 
-由投影公式, $A$ 的坐标为 $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, $B$ 的坐标为 $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. 由 $A$ 在第一象限, $x+y> 0$; $B$ 在第四象限, $x-y> 0$, 故 $x> \lvert y \rvert$.
+由投影公式, $A$ 的坐标为 $\left(\frac{x+y}{2},\frac{x+y}{2}\right)$, $B$ 的坐标为 $\left(\frac{x-y}{2},\frac{-\left(x-y\right)}{2}\right)$. 由 $A$ 在第一象限, $x+y>0$; $B$ 在第四象限, $x-y>0$, 故 $x>\lvert{y}\rvert$.
 
-四边形 $OAMB$ 可分为 $\triangle OMA$ 和 $\triangle OMB$. $\lvert OA \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$, $\lvert MA \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$; $\lvert OB \rvert=\frac{\lvert x-y \rvert}{\sqrt{2}}$, $\lvert MB \rvert=\frac{\lvert x+y \rvert}{\sqrt{2}}$. 面积
-
-$$
-S=\frac{1}{2}\lvert OA \rvert\lvert MA \rvert+\frac{1}{2}\lvert OB \rvert\lvert MB \rvert=\frac{1}{2}\cdot\frac{\lvert x^2-y^2 \rvert}{2}\cdot2=\frac{\lvert x^2-y^2 \rvert}{2}=3.
-$$
-
-因 $x> \lvert y \rvert$, $x^2-y^2> 0$, 故 $x^2-y^2=6$. 轨迹方程为
+四边形 $OAMB$ 可分为 $\triangle{O}MA$ 和 $\triangle{O}MB$. $\lvert{O}A\rvert=\frac{\lvert{x}+y\rvert}{\sqrt{2}}$, $\lvert{M}A\rvert=\frac{\lvert{x}-y\rvert}{\sqrt{2}}$; $\lvert{O}B\rvert=\frac{\lvert{x}-y\rvert}{\sqrt{2}}$, $\lvert{M}B\rvert=\frac{\lvert{x}+y\rvert}{\sqrt{2}}$. 面积
 
 $$
-\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x> \sqrt{6}\right).
+S=\frac{1}{2}\lvert{O}A\rvert\lvert{M}A\rvert+\frac{1}{2}\lvert{O}B\rvert\lvert{M}B\rvert=\frac{1}{2}\cdot\frac{\lvert{x}^2-y^2\rvert}{2}\cdot2=\frac{\lvert{x}^2-y^2\rvert}{2}=3.
+$$
+
+因 $x>\lvert{y}\rvert$, $x^2-y^2>0$, 故 $x^2-y^2=6$. 轨迹方程为
+
+$$
+\frac{x^2}{6}-\frac{y^2}{6}=1\quad\left(x>\sqrt{6}\right).
 $$
 
 $\blacksquare$
 
 ## 习题十二
 
-(习题 3.2 拓广探索第 12 题) 设椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a> b> 0$) 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ 的离心率分别为 $e_1$, $e_2$, 双曲线的渐近线的斜率小于 $\frac{2\sqrt{5}}{5}$, 求 $e_1$ 和 $e_2$ 的取值范围.
+(习题 3.2 拓广探索第 12 题) 设椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ ($a>{}b>0$) 与双曲线 $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$ 的离心率分别为 $e_1$, $e_2$, 双曲线的渐近线的斜率小于 $\frac{2\sqrt{5}}{5}$, 求 $e_1$ 和 $e_2$ 的取值范围.
 
 ### 解答 习题十二
 
 由**定义 3.1.7 (椭圆的离心率)**, $e_1=\frac{c_1}{a}=\frac{\sqrt{a^2-b^2}}{a}$; 由**定义 3.2.8 (双曲线的离心率)**, $e_2=\frac{c_2}{a}=\frac{\sqrt{a^2+b^2}}{a}$.
 
-双曲线渐近线斜率为 $\frac{b}{a}< \frac{2\sqrt{5}}{5}$, 故 $\frac{b^2}{a^2}< \frac{4}{5}$.
+双曲线渐近线斜率为 $\frac{b}{a}<\frac{2\sqrt{5}}{5}$, 故 $\frac{b^2}{a^2}<\frac{4}{5}$.
 
-令 $t=\frac{b^2}{a^2}$, 则 $0< t< \frac{4}{5}$. $e_1^2=1-t> \frac{1}{5}$, 又 $e_1< 1$, 故 $\frac{\sqrt{5}}{5}< e_1< 1$. $e_2^2=1+t< \frac{9}{5}$, 又 $e_2> 1$, 故 $1< e_2< \frac{3\sqrt{5}}{5}$. $\blacksquare$
+令 $t=\frac{b^2}{a^2}$, 则 $0<{}t<\frac{4}{5}$. $e_1^2=1-t>\frac{1}{5}$, 又 $e_1<1$, 故 $\frac{\sqrt{5}}{5}<{}e_1<1$. $e_2^2=1+t<\frac{9}{5}$, 又 $e_2>1$, 故 $1<{}e_2<\frac{3\sqrt{5}}{5}$. $\blacksquare$
 
 ## 习题十三
 
@@ -412,7 +412,7 @@ $$
 
 化简得 $\left(2-k^2\right)x^2-2k\left(1-k\right)x-\left(1-k\right)^2-2=0$. 设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, 若 $P\left(1,1\right)$ 为中点, 则 $x_1+x_2=2$. 由韦达定理, $x_1+x_2=\frac{2k\left(1-k\right)}{2-k^2}=2$, 解得 $k=2$.
 
-当 $k=2$ 时, 方程为 $-2x^2+4x-3=0$, 判别式 $\Delta=16-24=-8< 0$, 无实根. 故不存在这样的直线, $P$ 不能是线段 $AB$ 的中点. $\blacksquare$
+当 $k=2$ 时, 方程为 $-2x^2+4x-3=0$, 判别式 $\Delta=16-24=-8<0$, 无实根. 故不存在这样的直线, $P$ 不能是线段 $AB$ 的中点. $\blacksquare$
 
 ## 习题十四
 
@@ -434,14 +434,14 @@ $$
 
 ## 探究与发现一
 
-(思考 1) 另外, 我们也可直接计算 $\lvert MQ \rvert$, 证明当 $x$ 无限增大时, $\lvert MQ \rvert$ 无限接近于 $0$.
+(思考 1) 另外, 我们也可直接计算 $\lvert{M}Q\rvert$, 证明当 $x$ 无限增大时, $\lvert{M}Q\rvert$ 无限接近于 $0$.
 
 ### 解答 探究与发现一
 
-在第一象限内, 双曲线方程为 $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x> a$). 点 $M\left(x,y\right)$ 到渐近线 $bx-ay=0$ 的距离为
+在第一象限内, 双曲线方程为 $y=\frac{b}{a}\sqrt{x^2-a^2}$ ($x>{}a$). 点 $M\left(x,y\right)$ 到渐近线 $bx-ay=0$ 的距离为
 
 $$
-\lvert MQ \rvert=\frac{\lvert bx-ay \rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.
+\lvert{M}Q\rvert=\frac{\lvert{b}x-ay\rvert}{\sqrt{a^2+b^2}}=\frac{\left|bx-b\sqrt{x^2-a^2}\right|}{\sqrt{a^2+b^2}}.
 $$
 
 分子有理化:
@@ -453,10 +453,10 @@ $$
 故
 
 $$
-\lvert MQ \rvert=\frac{ba^2}{\sqrt{a^2+b^2}\left(x+\sqrt{x^2-a^2}\right)}.
+\lvert{M}Q\rvert=\frac{ba^2}{\sqrt{a^2+b^2}\left(x+\sqrt{x^2-a^2}\right)}.
 $$
 
-当 $x\to+\infty$ 时, 分母趋于无穷大, 故 $\lvert MQ \rvert\to0$, 即双曲线与渐近线无限接近. $\blacksquare$
+当 $x\to+\infty$ 时, 分母趋于无穷大, 故 $\lvert{M}Q\rvert\to0$, 即双曲线与渐近线无限接近. $\blacksquare$
 
 ## 练习七
 
@@ -506,17 +506,17 @@ $$
 
 (练习 3.3 第 3 题) 填空.
 
-(1) 抛物线 $y^2=2px$ ($p> 0$) 上一点 $M$ 与焦点间的距离是 $a$ ($a> \frac{p}{2}$), 则点 $M$ 到准线的距离是 $\;\_\_\;$, 点 $M$ 的横坐标是 $\;\_\_\;$;
+(1) 抛物线 $y^2=2px$ ($p>0$) 上一点 $M$ 与焦点间的距离是 $a$ ($a>\frac{p}{2}$), 则点 $M$ 到准线的距离是 $\;\_\_\;$, 点 $M$ 的横坐标是 $\;\_\_\;$;
 
 (2) 抛物线 $y^2=12x$ 上与焦点的距离等于 $9$ 的点的坐标是 $\;\_\_\;$.
 
 ### 解答 练习九
 
-由**常用结论 3.3.3** (抛物线上点到焦点与准线距离), $\lvert MF \rvert=d$ ($d$ 为到准线距离).
+由**常用结论 3.3.3** (抛物线上点到焦点与准线距离), $\lvert{M}F\rvert=d$ ($d$ 为到准线距离).
 
-(1) $\lvert MF \rvert=a$, 故 $M$ 到准线距离 $d=a$. 准线 $x=-\frac{p}{2}$, 故 $x_M-\left(-\frac{p}{2}\right)=a$, 即 $x_M=a-\frac{p}{2}$.
+(1) $\lvert{M}F\rvert=a$, 故 $M$ 到准线距离 $d=a$. 准线 $x=-\frac{p}{2}$, 故 $x_M-\left(-\frac{p}{2}\right)=a$, 即 $x_M=a-\frac{p}{2}$.
 
-(2) $y^2=12x$ 中 $p=6$, 焦点 $\left(3,0\right)$, 准线 $x=-3$. $\lvert MF \rvert=9$, 故 $x_M+3=9$, $x_M=6$, $y=\pm\sqrt{72}=\pm6\sqrt{2}$. 坐标为 $\left(6,\pm6\sqrt{2}\right)$. $\blacksquare$
+(2) $y^2=12x$ 中 $p=6$, 焦点 $\left(3,0\right)$, 准线 $x=-3$. $\lvert{M}F\rvert=9$, 故 $x_M+3=9$, $x_M=6$, $y=\pm\sqrt{72}=\pm6\sqrt{2}$. 坐标为 $\left(6,\pm6\sqrt{2}\right)$. $\blacksquare$
 
 ## 练习十
 
@@ -564,21 +564,21 @@ $$
 
 ## 练习十二
 
-(练习 3.3 第 3 题) 过点 $M\left(2,0\right)$ 作斜率为 $1$ 的直线 $l$, 交抛物线 $y^2=4x$ 于 $A$, $B$ 两点, 求 $\lvert AB \rvert$.
+(练习 3.3 第 3 题) 过点 $M\left(2,0\right)$ 作斜率为 $1$ 的直线 $l$, 交抛物线 $y^2=4x$ 于 $A$, $B$ 两点, 求 $\lvert{A}B\rvert$.
 
 ### 解答 练习十二
 
 直线 $l$ 过 $M\left(2,0\right)$, 斜率 $1$, 方程为 $y=x-2$. 代入 $y^2=4x$, 得 $\left(x-2\right)^2=4x$, 即 $x^2-8x+4=0$. 设 $A\left(x_1,y_1\right)$, $B\left(x_2,y_2\right)$, 则 $x_1+x_2=8$, $x_1x_2=4$.
 
-由弦长公式, $\lvert AB \rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}=\sqrt{2}\cdot\sqrt{64-16}=\sqrt{2}\cdot4\sqrt{3}=4\sqrt{6}$. $\blacksquare$
+由弦长公式, $\lvert{A}B\rvert=\sqrt{1+k^2}\cdot\sqrt{\left(x_1+x_2\right)^2-4x_1x_2}=\sqrt{2}\cdot\sqrt{64-16}=\sqrt{2}\cdot4\sqrt{3}=4\sqrt{6}$. $\blacksquare$
 
 ## 练习十三
 
-(练习 3.3 第 4 题) 垂直于 $x$ 轴的直线交抛物线 $y^2=4x$ 于 $A$, $B$ 两点, 且 $\lvert AB \rvert=4\sqrt{3}$, 求直线 $AB$ 的方程.
+(练习 3.3 第 4 题) 垂直于 $x$ 轴的直线交抛物线 $y^2=4x$ 于 $A$, $B$ 两点, 且 $\lvert{A}B\rvert=4\sqrt{3}$, 求直线 $AB$ 的方程.
 
 ### 解答 练习十三
 
-设垂直于 $x$ 轴的直线为 $x=x_0$, 交抛物线于 $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$, 则 $\lvert AB \rvert=2\lvert y_0 \rvert=4\sqrt{3}$, $\lvert y_0 \rvert=2\sqrt{3}$. 代入 $y^2=4x$, 得 $12=4x_0$, $x_0=3$. 直线方程为 $x=3$. $\blacksquare$
+设垂直于 $x$ 轴的直线为 $x=x_0$, 交抛物线于 $A\left(x_0,y_0\right)$, $B\left(x_0,-y_0\right)$, 则 $\lvert{A}B\rvert=2\lvert{y}_0\rvert=4\sqrt{3}$, $\lvert{y}_0\rvert=2\sqrt{3}$. 代入 $y^2=4x$, 得 $12=4x_0$, $x_0=3$. 直线方程为 $x=3$. $\blacksquare$
 
 ## 练习十四
 
@@ -598,4 +598,4 @@ $$
 
 (2) 关于 $y$ 轴对称, 设 $x^2=\pm2py$. 与 $y=-12$ 交线段长 $12$, 即 $x=\pm6$ 在抛物线上. $36=\pm2p\cdot\left(-12\right)$, 若开口向下取 $x^2=-2py$, $36=24p$, $p=\frac{3}{2}$. 方程为 $x^2=-3y$.
 
-(3) 关于 $x$ 轴对称, 焦点 $F\left(\frac{p}{2},0\right)$, 准线 $x=-\frac{p}{2}$. 准线上两点关于 $x$ 轴对称, 设为 $A\left(-\frac{p}{2},t\right)$, $B\left(-\frac{p}{2},-t\right)$. $\lvert AB \rvert=2t=2\sqrt{3}$, $t=\sqrt{3}$. $\lvert FA \rvert=\sqrt{p^2+3}=2\sqrt{3}$, $p^2=9$, $p=3$. 方程为 $y^2=6x$. $\blacksquare$
+(3) 关于 $x$ 轴对称, 焦点 $F\left(\frac{p}{2},0\right)$, 准线 $x=-\frac{p}{2}$. 准线上两点关于 $x$ 轴对称, 设为 $A\left(-\frac{p}{2},t\right)$, $B\left(-\frac{p}{2},-t\right)$. $\lvert{A}B\rvert=2t=2\sqrt{3}$, $t=\sqrt{3}$. $\lvert{F}A\rvert=\sqrt{p^2+3}=2\sqrt{3}$, $p^2=9$, $p=3$. 方程为 $y^2=6x$. $\blacksquare$

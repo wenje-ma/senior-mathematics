@@ -48,13 +48,13 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-2\right)+3\times4=8$.
 
 $\lvert\boldsymbol{a}\rvert=\sqrt{4+9}=\sqrt{13}$.
 
-$\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt 5$.
+$\lvert\boldsymbol{b}\rvert=\sqrt{4+16}=\sqrt{20}=2\sqrt5$.
 
-$\cos\theta=\frac{8}{\sqrt{13}\cdot 2\sqrt 5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
+$\cos\theta=\frac{8}{\sqrt{13}\cdot2\sqrt5}=\frac{4}{\sqrt{65}}=\frac{4\sqrt{65}}{65}$. $\blacksquare$
 
 ## 习题一
 
-(习题 6.3 复习巩固第 1 题) 如图, 在 $\triangle ABC$ 中, $AD=\frac{1}{3}AB$, $E$ 是 $AC$ 上一点, $EC=\frac{1}{3}AC$, $BE$ 与 $CD$ 交于点 $P$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 试用基底 $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$ 表示 $\boldsymbol{AP}$.
+(习题 6.3 复习巩固第 1 题) 如图, 在 $\triangle{A}BC$ 中, $AD=\frac{1}{3}AB$, $E$ 是 $AC$ 上一点, $EC=\frac{1}{3}AC$, $BE$ 与 $CD$ 交于点 $P$, 设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AC}=\boldsymbol{b}$, 试用基底 $\left\{\boldsymbol{a},\boldsymbol{b}\right\}$ 表示 $\boldsymbol{AP}$.
 
 图:三角形 $ABC$,点 $D$ 在边 $AB$ 上且 $AD=\frac{1}{3}AB$,点 $E$ 在边 $AC$ 上且 $EC=\frac{1}{3}AC$(即 $AE=\frac{2}{3}AC$),线段 $BE$ 与 $CD$ 交于点 $P$.
 
@@ -138,9 +138,9 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=3\times1+\left(-1\right)\times\left(-2\right)
 
 $\lvert\boldsymbol{a}\rvert=\sqrt{9+1}=\sqrt{10}$.
 
-$\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt 5$.
+$\lvert\boldsymbol{b}\rvert=\sqrt{1+4}=\sqrt5$.
 
-$\cos\theta=\frac{5}{\sqrt{10}\sqrt 5}=\frac{5}{\sqrt{50}}=\frac{\sqrt 2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
+$\cos\theta=\frac{5}{\sqrt{10}\sqrt5}=\frac{5}{\sqrt{50}}=\frac{\sqrt2}{2}$, $\theta=\frac{\pi}{4}$. $\blacksquare$
 
 ## 习题七
 
@@ -166,7 +166,7 @@ $3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
 
 (2) $\boldsymbol{AB}\cdot\boldsymbol{AC}$;
 
-(3) $\cos\angle BAC$.
+(3) $\cos\angle{B}AC$.
 
 ### 解答 习题八
 
@@ -176,7 +176,7 @@ $3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
 
 (2) $\boldsymbol{AB}\cdot\boldsymbol{AC}=\left(-1\right)\times1+1\times5=4$.
 
-(3) $\lvert\boldsymbol{AB}\rvert=\sqrt 2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle BAC=\frac{4}{\sqrt 2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
+(3) $\lvert\boldsymbol{AB}\rvert=\sqrt2$, $\lvert\boldsymbol{AC}\rvert=\sqrt{26}$. $\cos\angle{B}AC=\frac{4}{\sqrt2\sqrt{26}}=\frac{2\sqrt{13}}{13}$. $\blacksquare$
 
 ## 习题九
 
@@ -188,9 +188,9 @@ $3\lambda+1+4\lambda=0$, $7\lambda=-1$, $\lambda=-\frac{1}{7}$. $\blacksquare$
 
 设所求向量为 $\left(x,y\right)$, 则 $4x+2y=0$, $x^2+y^2=1$.
 
-$y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt 5}{5}$, $y=\mp\frac{2\sqrt 5}{5}$.
+$y=-2x$, $x^2+4x^2=1$, $x=\pm\frac{\sqrt5}{5}$, $y=\mp\frac{2\sqrt5}{5}$.
 
-所求为 $\left(\frac{\sqrt 5}{5},-\frac{2\sqrt 5}{5}\right)$ 或 $\left(-\frac{\sqrt 5}{5},\frac{2\sqrt 5}{5}\right)$. $\blacksquare$
+所求为 $\left(\frac{\sqrt5}{5},-\frac{2\sqrt5}{5}\right)$ 或 $\left(-\frac{\sqrt5}{5},\frac{2\sqrt5}{5}\right)$. $\blacksquare$
 
 ## 习题十
 
@@ -208,7 +208,7 @@ $\lvert\boldsymbol{AB}+\boldsymbol{AC}\rvert=10$. $\blacksquare$
 
 ## 习题十一
 
-(习题 6.3 综合运用第 11 题) 如图, 在 $\square ABCD$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $E$, $F$ 分别为 $AB$, $CD$ 的中点, $M$, $N$ 为对角线 $AC$ 上的两点, 且 $AM=MN=NC$, 求证: $\boldsymbol{EM}=\boldsymbol{FN}$.
+(习题 6.3 综合运用第 11 题) 如图, 在 $\square{A}BCD$ 中, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $E$, $F$ 分别为 $AB$, $CD$ 的中点, $M$, $N$ 为对角线 $AC$ 上的两点, 且 $AM=MN=NC$, 求证: $\boldsymbol{EM}=\boldsymbol{FN}$.
 
 图:平行四边形 $ABCD$,$E$ 为边 $AB$ 的中点,$F$ 为边 $CD$ 的中点;对角线 $AC$ 上有两点 $M$, $N$,满足 $AM=MN=NC$(即 $M$, $N$ 将 $AC$ 三等分),连接 $EM$, $FN$.
 
@@ -244,7 +244,7 @@ $\boldsymbol{AB}=\left(3,3\right)$. $\boldsymbol{OP}=\left(1,2\right)+t\left(3,3
 
 $P$ 在 $y$ 轴上: $1+3t=0$, $t=-\frac{1}{3}$.
 
-$P$ 在第二象限: $1+3t< 0$ 且 $2+3t> 0$, 即 $-\frac{2}{3}< t< -\frac{1}{3}$.
+$P$ 在第二象限: $1+3t<0$ 且 $2+3t>0$, 即 $-\frac{2}{3}<{}t<-\frac{1}{3}$.
 
 (2) 若 $OABP$ 为平行四边形, 则 $\boldsymbol{OP}=\boldsymbol{AB}=\left(3,3\right)$, 即 $1+3t=3$ 且 $2+3t=3$, 矛盾. 不能成为平行四边形. $\blacksquare$
 
@@ -286,7 +286,7 @@ $x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
 
 ## 习题十五
 
-(习题 6.3 拓广探索第 15 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt 3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k> 0$).
+(习题 6.3 拓广探索第 15 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$ 满足 $\lvert{k}\boldsymbol{a}+\boldsymbol{b}\rvert=\sqrt3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$ ($k>0$).
 
 (1) 求证: $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$;
 
@@ -300,7 +300,7 @@ $x-3y-2=-4$, $7-3y-2=-4$, $3y=9$, $y=3$. $\blacksquare$
 
 (1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. 故 $\left(\boldsymbol{a}+\boldsymbol{b}\right)\perp\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
 
-(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2\boldsymbol{a}^2+2k\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}$.
+(2) $\lvert{k}\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2\boldsymbol{a}^2+2k\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2=k^2+1+2k\boldsymbol{a}\cdot\boldsymbol{b}$.
 
 $3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=3\left(\boldsymbol{a}^2-2k\boldsymbol{a}\cdot\boldsymbol{b}+k^2\boldsymbol{b}^2\right)=3\left(1+k^2-2k\boldsymbol{a}\cdot\boldsymbol{b}\right)$.
 
@@ -308,17 +308,17 @@ $3\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=3\left(\boldsymbol{a}^2-2k\boldsy
 
 $8k\boldsymbol{a}\cdot\boldsymbol{b}=2+2k^2$, $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k^2+1}{4k}$.
 
-(3) $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k}{4}+\frac{1}{4k}\ge 2\sqrt{\frac{k}{4}\cdot\frac{1}{4k}}=\frac{1}{2}$, 当 $k=1$ 时取最小值 $\frac{1}{2}$.
+(3) $\boldsymbol{a}\cdot\boldsymbol{b}=\frac{k}{4}+\frac{1}{4k}\ge2\sqrt{\frac{k}{4}\cdot\frac{1}{4k}}=\frac{1}{2}$, 当 $k=1$ 时取最小值 $\frac{1}{2}$.
 
 此时 $\cos\theta=\frac{1}{2}$, $\theta=60^{\circ}$. $\blacksquare$
 
 ## 习题十六
 
-(习题 6.3 拓广探索第 16 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 其中 $0< \alpha< \beta< \pi$.
+(习题 6.3 拓广探索第 16 题) 已知 $\boldsymbol{a}=\left(\cos\alpha,\sin\alpha\right)$, $\boldsymbol{b}=\left(\cos\beta,\sin\beta\right)$, 其中 $0<\alpha<\beta<\pi$.
 
 (1) 求证: $\boldsymbol{a}+\boldsymbol{b}$ 与 $\boldsymbol{a}-\boldsymbol{b}$ 互相垂直;
 
-(2) 若 $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$, 求 $\beta-\alpha$ 的值.
+(2) 若 $\lvert{k}\boldsymbol{a}+\boldsymbol{b}\rvert=\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert$, 求 $\beta-\alpha$ 的值.
 
 ### 解答 习题十六
 
@@ -326,7 +326,7 @@ $8k\boldsymbol{a}\cdot\boldsymbol{b}=2+2k^2$, $\boldsymbol{a}\cdot\boldsymbol{b}
 
 (1) $\left(\boldsymbol{a}+\boldsymbol{b}\right)\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=\boldsymbol{a}^2-\boldsymbol{b}^2=1-1=0$. 故垂直.
 
-(2) $\lvert k\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2+1+2k\cos\left(\beta-\alpha\right)$.
+(2) $\lvert{k}\boldsymbol{a}+\boldsymbol{b}\rvert^2=k^2+1+2k\cos\left(\beta-\alpha\right)$.
 
 $\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=1+k^2-2k\cos\left(\beta-\alpha\right)$.
 
@@ -334,7 +334,7 @@ $\lvert\boldsymbol{a}-k\boldsymbol{b}\rvert^2=1+k^2-2k\cos\left(\beta-\alpha\rig
 
 $4k\cos\left(\beta-\alpha\right)=0$. $\cos\left(\beta-\alpha\right)=0$.
 
-$0< \beta-\alpha< \pi$, 故 $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
+$0<\beta-\alpha<\pi$, 故 $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
 
 ## 练习三
 
@@ -344,17 +344,17 @@ $0< \beta-\alpha< \pi$, 故 $\beta-\alpha=\frac{\pi}{2}$. $\blacksquare$
 
 由**常用结论 6.4.1** (向量法三步曲).
 
-设 $\triangle ABC$ 中 $AB=AC$. 取 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$, 则 $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
+设 $\triangle{A}BC$ 中 $AB=AC$. 取 $\boldsymbol{AB}=\boldsymbol{c}$, $\boldsymbol{AC}=\boldsymbol{b}$, 则 $\lvert\boldsymbol{c}\rvert=\lvert\boldsymbol{b}\rvert$.
 
-$\cos B=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
+$\cos{B}=\frac{\boldsymbol{BA}\cdot\boldsymbol{BC}}{\lvert\boldsymbol{BA}\rvert\lvert\boldsymbol{BC}\rvert}=\frac{\left(-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}=\frac{\boldsymbol{c}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}}{\lvert\boldsymbol{c}\rvert\lvert\boldsymbol{b}-\boldsymbol{c}\rvert}$.
 
-$\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-\boldsymbol{b}\right)\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
+$\cos{C}=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\lvert\boldsymbol{CB}\rvert}=\frac{\left(-\boldsymbol{b}\right)\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}=\frac{\boldsymbol{b}\cdot\boldsymbol{b}-\boldsymbol{b}\cdot\boldsymbol{c}}{\lvert\boldsymbol{b}\rvert\lvert\boldsymbol{c}-\boldsymbol{b}\rvert}$.
 
-由 $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ 及 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, 得 $\cos B=\cos C$. 又 $B$, $C\in\left(0,\pi\right)$, 故 $B=C$. $\blacksquare$
+由 $\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert$ 及 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{c}\cdot\boldsymbol{b}$, 得 $\cos{B}=\cos{C}$. 又 $B$, $C\in\left(0,\pi\right)$, 故 $B=C$. $\blacksquare$
 
 ## 练习四
 
-(练习 6.4 第 2 题) 如图, 正方形 $ABCD$ 的边长为 $a$, $E$ 是 $AB$ 的中点, $F$ 是 $BC$ 边上靠近点 $B$ 的三等分点, $AF$ 与 $DE$ 交于点 $M$, 求 $\angle EMF$ 的余弦值.
+(练习 6.4 第 2 题) 如图, 正方形 $ABCD$ 的边长为 $a$, $E$ 是 $AB$ 的中点, $F$ 是 $BC$ 边上靠近点 $B$ 的三等分点, $AF$ 与 $DE$ 交于点 $M$, 求 $\angle{E}MF$ 的余弦值.
 
 图:正方形 $ABCD$,$E$ 为边 $AB$ 的中点,$F$ 为边 $BC$ 上靠近点 $B$ 的三等分点(即 $BF=\frac{1}{3}BC$),连接 $AF$ 与 $DE$,两线段交于点 $M$.
 
@@ -366,13 +366,13 @@ $\cos C=\frac{\boldsymbol{CA}\cdot\boldsymbol{CB}}{\lvert\boldsymbol{CA}\rvert\l
 
 $\boldsymbol{DE}=\left(\frac{a}{2},-a\right)$, $\boldsymbol{AF}=\left(a,\frac{a}{3}\right)$.
 
-$\angle EMF$ 即 $\boldsymbol{MD}$ 与 $\boldsymbol{MF}$ 的夹角. $\boldsymbol{MD}$ 与 $\boldsymbol{DE}$ 共线, $\boldsymbol{MF}$ 与 $\boldsymbol{AF}$ 共线.
+$\angle{E}MF$ 即 $\boldsymbol{MD}$ 与 $\boldsymbol{MF}$ 的夹角. $\boldsymbol{MD}$ 与 $\boldsymbol{DE}$ 共线, $\boldsymbol{MF}$ 与 $\boldsymbol{AF}$ 共线.
 
-$\cos\angle EMF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot a+\left(-a\right)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt 5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt 2}=\frac{\sqrt 2}{10}$. $\blacksquare$
+$\cos\angle{E}MF=\frac{\boldsymbol{DE}\cdot\boldsymbol{AF}}{\lvert\boldsymbol{DE}\rvert\lvert\boldsymbol{AF}\rvert}=\frac{\frac{a}{2}\cdot{a}+\left(-a\right)\cdot\frac{a}{3}}{\sqrt{\frac{a^2}{4}+a^2}\cdot\sqrt{a^2+\frac{a^2}{9}}}=\frac{\frac{a^2}{6}}{\frac{a\sqrt5}{2}\cdot\frac{a\sqrt{10}}{3}}=\frac{\frac{1}{6}}{\frac{\sqrt{50}}{6}}=\frac{1}{5\sqrt2}=\frac{\sqrt2}{10}$. $\blacksquare$
 
 ## 练习五
 
-(练习 6.4 第 3 题) 如图, 在 $\triangle ABC$ 中, 点 $O$ 是 $BC$ 的中点, 过点 $O$ 的直线分别交直线 $AB$, $AC$ 于不同的两点 $M$, $N$. 设 $\boldsymbol{AB}=m\boldsymbol{AM}$, $\boldsymbol{AC}=n\boldsymbol{AN}$, 求 $m+n$ 的值.
+(练习 6.4 第 3 题) 如图, 在 $\triangle{A}BC$ 中, 点 $O$ 是 $BC$ 的中点, 过点 $O$ 的直线分别交直线 $AB$, $AC$ 于不同的两点 $M$, $N$. 设 $\boldsymbol{AB}=m\boldsymbol{AM}$, $\boldsymbol{AC}=n\boldsymbol{AN}$, 求 $m+n$ 的值.
 
 图:三角形 $ABC$,$O$ 为边 $BC$ 的中点,过点 $O$ 的一条直线分别交直线 $AB$ 于 $M$,交直线 $AC$ 于 $N$($M$, $N$ 为不同的两点).
 
@@ -402,20 +402,20 @@ $m+n=2\lambda+2\left(1-\lambda\right)=2$. $\blacksquare$
 
 ## 练习七
 
-(练习 6.4 第 5 题) 如图, 一滑轮组中有两个定滑轮 $A$, $B$, 在从连接点 $O$ 出发的三根绳的端点处, 挂着 $3$ 个重物, 它们所受的重力分别为 $4\text{ N}$, $4\text{ N}$ 和 $4\sqrt 3\text{ N}$. 此时整个系统恰处于平衡状态, 求 $\angle AOB$ 的大小.
+(练习 6.4 第 5 题) 如图, 一滑轮组中有两个定滑轮 $A$, $B$, 在从连接点 $O$ 出发的三根绳的端点处, 挂着 $3$ 个重物, 它们所受的重力分别为 $4\text{~N}$, $4\text{~N}$ 和 $4\sqrt3\text{~N}$. 此时整个系统恰处于平衡状态, 求 $\angle{A}OB$ 的大小.
 
-图:滑轮组示意图,上方有两个定滑轮 $A$, $B$,下方连接点 $O$ 处引出三根绳:两根绳分别绕过定滑轮 $A$, $B$ 各挂一个重 $4\text{ N}$ 的重物,第三根绳竖直向下挂一个重 $4\sqrt 3\text{ N}$ 的重物,整个系统平衡.
+图:滑轮组示意图,上方有两个定滑轮 $A$, $B$,下方连接点 $O$ 处引出三根绳:两根绳分别绕过定滑轮 $A$, $B$ 各挂一个重 $4\text{~N}$ 的重物,第三根绳竖直向下挂一个重 $4\sqrt3\text{~N}$ 的重物,整个系统平衡.
 
 ### 解答 练习七
 
 由**定义 6.2.11 (向量的数量积)** 与**定理 6.4.2 (余弦定理)**.
 
-设 $\boldsymbol{OA}$, $\boldsymbol{OB}$ 的大小均为 $4$, 第三根绳向下, 大小为 $4\sqrt 3$. 平衡时 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
+设 $\boldsymbol{OA}$, $\boldsymbol{OB}$ 的大小均为 $4$, 第三根绳向下, 大小为 $4\sqrt3$. 平衡时 $\boldsymbol{OA}+\boldsymbol{OB}+\boldsymbol{OC}=\boldsymbol{0}$.
 
 $\boldsymbol{OC}=-\left(\boldsymbol{OA}+\boldsymbol{OB}\right)$, $\lvert\boldsymbol{OC}\rvert^2=\lvert\boldsymbol{OA}\rvert^2+\lvert\boldsymbol{OB}\rvert^2+2\boldsymbol{OA}\cdot\boldsymbol{OB}$.
 
-$\left(4\sqrt 3\right)^2=16+16+2\times16\cos\angle AOB$.
+$\left(4\sqrt3\right)^2=16+16+2\times16\cos\angle{A}OB$.
 
-$48=32+32\cos\angle AOB$.
+$48=32+32\cos\angle{A}OB$.
 
-$\cos\angle AOB=\frac{1}{2}$, $\angle AOB=60^{\circ}$. $\blacksquare$
+$\cos\angle{A}OB=\frac{1}{2}$, $\angle{A}OB=60^{\circ}$. $\blacksquare$

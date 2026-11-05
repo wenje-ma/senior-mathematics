@@ -2,7 +2,7 @@
 
 > **Definition 5.6.1 (振幅)**
 > 
-> 函数 $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
+> 函数 $y=A\sin\left(\omega{x}+\varphi\right)$ ($A>0$, $\omega>0$) 中, $A$ 称为振幅, 即物体离开平衡位置的最大距离.
 
 > **Definition 5.6.2 (Period)**
 > 
@@ -14,7 +14,7 @@
 
 > **Definition 5.7.1 (简谐运动)**
 > 
-> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega x+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A> 0$, $\omega> 0$.
+> 物体受到的力 (总是指向平衡位置) 正比于它离开平衡位置的距离的运动称为简谐运动. 在适当的直角坐标系下, 简谐运动可用 $y=A\sin\left(\omega{x}+\varphi\right)$, $x\in\left[0,+\infty\right)$ 表示, 其中 $A>0$, $\omega>0$.
 
 > **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**
 > 
@@ -68,7 +68,7 @@ From $\sin\alpha=0.8=\frac{4}{5}$ and $\alpha\in\left(0,\frac{\pi}{2}\right)$, w
 
 (1) $\left(\sin2\alpha-\cos2\alpha\right)^{2}=1-\sin4\alpha$;
 
-(2) $\tan\left(\frac{x}{2}+\frac{\pi}{4}\right)+\tan\left(\frac{x}{2}-\frac{\pi}{4}\right)=2\tan x$;
+(2) $\tan\left(\frac{x}{2}+\frac{\pi}{4}\right)+\tan\left(\frac{x}{2}-\frac{\pi}{4}\right)=2\tan{x}$;
 
 (3) $\frac{1+\sin2\varphi}{\cos\varphi+\sin\varphi}=\cos\varphi+\sin\varphi$;
 
@@ -84,7 +84,7 @@ By **Formula 5.5.7** through **Formula 5.5.9**.
 
 (1) The left side $=\sin^{2}2\alpha-2\sin2\alpha\cos2\alpha+\cos^{2}2\alpha=1-\sin4\alpha=$ the right side.
 
-(2) Let $u=\tan\frac{x}{2}$. By **Formula 5.5.5** and **Formula 5.5.6**, the left side $=\frac{u+1}{1-u}+\frac{u-1}{1+u}=\frac{\left(u+1\right)^{2}-\left(1-u\right)^{2}}{1-u^{2}}=\frac{4u}{1-u^{2}}=2\cdot\frac{2u}{1-u^{2}}=2\tan x=$ the right side.
+(2) Let $u=\tan\frac{x}{2}$. By **Formula 5.5.5** and **Formula 5.5.6**, the left side $=\frac{u+1}{1-u}+\frac{u-1}{1+u}=\frac{\left(u+1\right)^{2}-\left(1-u\right)^{2}}{1-u^{2}}=\frac{4u}{1-u^{2}}=2\cdot\frac{2u}{1-u^{2}}=2\tan{x}=$ the right side.
 
 (3) The left side $=\frac{\left(\sin\varphi+\cos\varphi\right)^{2}}{\cos\varphi+\sin\varphi}=\sin\varphi+\cos\varphi=$ the right side.
 
@@ -142,9 +142,9 @@ If $\cos2\theta=-\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\
 
 (Exercise 5.5, Review and Consolidation, Problem 12) Simplify:
 
-(1) $3\sqrt{15}\sin x+3\sqrt{5}\cos x$;
+(1) $3\sqrt{15}\sin{x}+3\sqrt{5}\cos{x}$;
 
-(2) $\frac{\sqrt{3}}{2}\cos x-\frac{1}{2}\sin x$;
+(2) $\frac{\sqrt{3}}{2}\cos{x}-\frac{1}{2}\sin{x}$;
 
 (3) $\sqrt{3}\sin\frac{x}{2}+\cos\frac{x}{2}$;
 
@@ -154,9 +154,9 @@ If $\cos2\theta=-\frac{4}{5}$, then $\sin\theta=\sqrt{\frac{1+\frac{4}{5}}{2}}=\
 
 By **Formula 5.5.11** (Auxiliary Angle Formula).
 
-(1) The original expression $=6\sqrt{5}\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)=6\sqrt{5}\sin\left(x+\frac{\pi}{6}\right)$.
+(1) The original expression $=6\sqrt{5}\left(\frac{\sqrt{3}}{2}\sin{x}+\frac{1}{2}\cos{x}\right)=6\sqrt{5}\sin\left(x+\frac{\pi}{6}\right)$.
 
-(2) The original expression $=\cos\frac{\pi}{6}\cos x-\sin\frac{\pi}{6}\sin x=\cos\left(x+\frac{\pi}{6}\right)$.
+(2) The original expression $=\cos\frac{\pi}{6}\cos{x}-\sin\frac{\pi}{6}\sin{x}=\cos\left(x+\frac{\pi}{6}\right)$.
 
 (3) The original expression $=2\left(\frac{\sqrt{3}}{2}\sin\frac{x}{2}+\frac{1}{2}\cos\frac{x}{2}\right)=2\sin\left(\frac{x}{2}+\frac{\pi}{6}\right)$.
 
@@ -164,17 +164,17 @@ By **Formula 5.5.11** (Auxiliary Angle Formula).
 
 ## Problem 8
 
-(Exercise 5.5, Comprehensive Application, Problem 13) In $\triangle ABC$, given that $\tan A$ and $\tan B$ are the two real roots of the equation in $x$, $x^{2}+p\left(x+1\right)+1=0$, find $\angle C$.
+(Exercise 5.5, Comprehensive Application, Problem 13) In $\triangle{A}BC$, given that $\tan{A}$ and $\tan{B}$ are the two real roots of the equation in $x$, $x^{2}+p\left(x+1\right)+1=0$, find $\angle{C}$.
 
 ### Solution to Problem 8
 
 By Vieta's formulas and **Formula 5.5.5**.
 
-From $\tan A+\tan B=-p$ and $\tan A\tan B=p+1$. Hence $\tan\left(A+B\right)=\frac{\tan A+\tan B}{1-\tan A\tan B}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. From $C=\pi-\left(A+B\right)$, we get $\tan C=-\tan\left(A+B\right)=-1$, hence $C=135^{\circ}$. $\blacksquare$
+From $\tan{A}+\tan{B}=-p$ and $\tan{A}\tan{B}=p+1$. Hence $\tan\left(A+B\right)=\frac{\tan{A}+\tan{B}}{1-\tan{A}\tan{B}}=\frac{-p}{1-\left(p+1\right)}=\frac{-p}{-p}=1$. From $C=\pi-\left(A+B\right)$, we get $\tan{C}=-\tan\left(A+B\right)=-1$, hence $C=135^{\circ}$. $\blacksquare$
 
 ## Problem 9
 
-(Exercise 5.5, Comprehensive Application, Problem 14) In $\triangle ABC$, $B=\frac{\pi}{4}$, and the altitude to side $BC$ equals $\frac{1}{3}BC$, then $\cos A=$ ( ).
+(Exercise 5.5, Comprehensive Application, Problem 14) In $\triangle{A}BC$, $B=\frac{\pi}{4}$, and the altitude to side $BC$ equals $\frac{1}{3}BC$, then $\cos{A}=$ ( ).
 
 (A) $\frac{3\sqrt{10}}{10}$
 
@@ -186,12 +186,12 @@ From $\tan A+\tan B=-p$ and $\tan A\tan B=p+1$. Hence $\tan\left(A+B\right)=\fra
 
 ### Solution to Problem 9
 
-From the given conditions, set $BC=3$, then the altitude $AD=1$. In $\text{Rt}\triangle ABD$, $B=45^{\circ}$, $AD=1$, hence $BD=1$, $AB=\sqrt{2}$. $DC=BC-BD=2$. In $\text{Rt}\triangle ADC$, $AD=1$, $DC=2$, hence $AC=\sqrt{5}$.
+From the given conditions, set $BC=3$, then the altitude $AD=1$. In $\text{Rt}\triangle{A}BD$, $B=45^{\circ}$, $AD=1$, hence $BD=1$, $AB=\sqrt{2}$. $DC=BC-BD=2$. In $\text{Rt}\triangle{A}DC$, $AD=1$, $DC=2$, hence $AC=\sqrt{5}$.
 
-By **Formula 5.5.2**, $\cos A=\cos\left(\angle BAD+\angle DAC\right)$. $\angle BAD=45^{\circ}$, and $\tan\angle DAC=\frac{DC}{AD}=2$. Hence $\sin\angle DAC=\frac{2}{\sqrt{5}}$, $\cos\angle DAC=\frac{1}{\sqrt{5}}$.
+By **Formula 5.5.2**, $\cos{A}=\cos\left(\angle{B}AD+\angle{D}AC\right)$. $\angle{B}AD=45^{\circ}$, and $\tan\angle{D}AC=\frac{DC}{AD}=2$. Hence $\sin\angle{D}AC=\frac{2}{\sqrt{5}}$, $\cos\angle{D}AC=\frac{1}{\sqrt{5}}$.
 
 $$
-\cos A=\cos45^{\circ}\cos\angle DAC-\sin45^{\circ}\sin\angle DAC=\frac{\sqrt{2}}{2}\cdot\frac{1}{\sqrt{5}}-\frac{\sqrt{2}}{2}\cdot\frac{2}{\sqrt{5}}=-\frac{\sqrt{10}}{10}.
+\cos{A}=\cos45^{\circ}\cos\angle{D}AC-\sin45^{\circ}\sin\angle{D}AC=\frac{\sqrt{2}}{2}\cdot\frac{1}{\sqrt{5}}-\frac{\sqrt{2}}{2}\cdot\frac{2}{\sqrt{5}}=-\frac{\sqrt{10}}{10}.
 $$
 
 Choose (C). $\blacksquare$
@@ -210,7 +210,7 @@ Take the initial values $\sin1'\approx0.000290888$, $\cos1'=\sqrt{1-\sin^{2}1'}$
 
 (Exercise 5.6, Problem 1) Sketch simple graphs of the following functions on a closed interval of length one period:
 
-(1) $y=\frac{1}{2}\sin x$;
+(1) $y=\frac{1}{2}\sin{x}$;
 
 (2) $y=\sin3x$;
 
@@ -218,19 +218,19 @@ Take the initial values $\sin1'\approx0.000290888$, $\cos1'=\sqrt{1-\sin^{2}1'}$
 
 (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$.
 
-The graphs: four sine sketches each over one period. (1) $y=\frac{1}{2}\sin x$: period $2\pi$, amplitude $\frac{1}{2}$, oscillating between $y=-\frac{1}{2}$ and $y=\frac{1}{2}$; (2) $y=\sin3x$: period $\frac{2\pi}{3}$, amplitude $1$, oscillating between $y=-1$ and $y=1$ with a denser wave; (3) $y=\sin\left(x-\frac{\pi}{3}\right)$: period $2\pi$, amplitude $1$, i.e. $y=\sin x$ shifted right by $\frac{\pi}{3}$; (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$: period $\pi$, amplitude $2$, oscillating between $y=-2$ and $y=2$.
+The graphs: four sine sketches each over one period. (1) $y=\frac{1}{2}\sin{x}$: period $2\pi$, amplitude $\frac{1}{2}$, oscillating between $y=-\frac{1}{2}$ and $y=\frac{1}{2}$; (2) $y=\sin3x$: period $\frac{2\pi}{3}$, amplitude $1$, oscillating between $y=-1$ and $y=1$ with a denser wave; (3) $y=\sin\left(x-\frac{\pi}{3}\right)$: period $2\pi$, amplitude $1$, i.e. $y=\sin{x}$ shifted right by $\frac{\pi}{3}$; (4) $y=2\sin\left(2x-\frac{\pi}{4}\right)$: period $\pi$, amplitude $2$, oscillating between $y=-2$ and $y=2$.
 
 ### Solution to Exercise 1
 
 By **Property 5.6.1** (Graph Transformations).
 
-(1) Compress the y-coordinates of all points on the graph of $y=\sin x$ to $\frac{1}{2}$ of the original (keeping the x-coordinates unchanged) to obtain the graph of $y=\frac{1}{2}\sin x$. Period $2\pi$, amplitude $\frac{1}{2}$.
+(1) Compress the y-coordinates of all points on the graph of $y=\sin{x}$ to $\frac{1}{2}$ of the original (keeping the x-coordinates unchanged) to obtain the graph of $y=\frac{1}{2}\sin{x}$. Period $2\pi$, amplitude $\frac{1}{2}$.
 
-(2) Compress the x-coordinates of all points on the graph of $y=\sin x$ to $\frac{1}{3}$ of the original (keeping the y-coordinates unchanged) to obtain the graph of $y=\sin3x$. Period $\frac{2\pi}{3}$, amplitude $1$.
+(2) Compress the x-coordinates of all points on the graph of $y=\sin{x}$ to $\frac{1}{3}$ of the original (keeping the y-coordinates unchanged) to obtain the graph of $y=\sin3x$. Period $\frac{2\pi}{3}$, amplitude $1$.
 
-(3) Shift all points on the graph of $y=\sin x$ to the right by $\frac{\pi}{3}$ units to obtain the graph of $y=\sin\left(x-\frac{\pi}{3}\right)$. Period $2\pi$, initial phase $-\frac{\pi}{3}$.
+(3) Shift all points on the graph of $y=\sin{x}$ to the right by $\frac{\pi}{3}$ units to obtain the graph of $y=\sin\left(x-\frac{\pi}{3}\right)$. Period $2\pi$, initial phase $-\frac{\pi}{3}$.
 
-(4) Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{8}$, compress the x-coordinates to $\frac{1}{2}$ of the original, and stretch the y-coordinates to $2$ times the original, to obtain the graph of $y=2\sin\left(2x-\frac{\pi}{4}\right)$. Period $\pi$, amplitude $2$. $\blacksquare$
+(4) Shift the graph of $y=\sin{x}$ to the right by $\frac{\pi}{8}$, compress the x-coordinates to $\frac{1}{2}$ of the original, and stretch the y-coordinates to $2$ times the original, to obtain the graph of $y=2\sin\left(2x-\frac{\pi}{4}\right)$. Period $\pi$, amplitude $2$. $\blacksquare$
 
 ## Exercise 2
 
@@ -270,7 +270,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 By **Property 5.6.1** (Graph Transformations).
 
-(1) From $x+\frac{\pi}{5}\to x-\frac{\pi}{5}$, i.e. $x\to x-\frac{2\pi}{5}$, shift to the right by $\frac{2\pi}{5}$ units. Choose (C).
+(1) From $x+\frac{\pi}{5}\to{x}-\frac{\pi}{5}$, i.e. $x\to{x}-\frac{2\pi}{5}$, shift to the right by $\frac{2\pi}{5}$ units. Choose (C).
 
 (2) From $x\to2x$, compress the x-coordinates to $\frac{1}{2}$ of the original. Choose (B).
 
@@ -284,7 +284,7 @@ By **Property 5.6.1** (Graph Transformations).
 
 By **Property 5.6.1** (Graph Transformations).
 
-Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{4}$, stretch the x-coordinates to $2$ times the original, and compress the y-coordinates to $\frac{2}{3}$ of the original, to obtain the graph of $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$. $\blacksquare$
+Shift the graph of $y=\sin{x}$ to the right by $\frac{\pi}{4}$, stretch the x-coordinates to $2$ times the original, and compress the y-coordinates to $\frac{2}{3}$ of the original, to obtain the graph of $y=\frac{2}{3}\sin\left(\frac{1}{2}x-\frac{\pi}{4}\right)$. $\blacksquare$
 
 ## Exercise 4
 
@@ -294,7 +294,7 @@ Shift the graph of $y=\sin x$ to the right by $\frac{\pi}{4}$, stretch the x-coo
 
 By **Property 5.6.1** (Graph Transformations).
 
-Shift the graph of $y=\sin x$ ($x\in\mathbb R$) to the left by $\frac{\pi}{12}$ units, then take the part with $x\geq0$, to obtain the graph of $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$. $\blacksquare$
+Shift the graph of $y=\sin{x}$ ($x\in\mathbb{R}$) to the left by $\frac{\pi}{12}$ units, then take the part with $x\geq0$, to obtain the graph of $y=\sin\left(x+\frac{\pi}{12}\right)$, $x\in\left[0,+\infty\right)$. $\blacksquare$
 
 ## Problem 10
 
@@ -320,7 +320,7 @@ Shift the graph of $y=\sin x$ ($x\in\mathbb R$) to the left by $\frac{\pi}{12}$ 
 
 (D) Compress the y-coordinates to $\frac{1}{5}$ of the original, x-coordinates unchanged
 
-(3) To obtain the graph of the function $y=\frac{1}{4}\cos x$, it suffices to take all points on the cosine curve ( ).
+(3) To obtain the graph of the function $y=\frac{1}{4}\cos{x}$, it suffices to take all points on the cosine curve ( ).
 
 (A) Stretch the x-coordinates to $4$ times the original, y-coordinates unchanged
 
@@ -334,7 +334,7 @@ Shift the graph of $y=\sin x$ ($x\in\mathbb R$) to the left by $\frac{\pi}{12}$ 
 
 By **Property 5.6.1** (Graph Transformations).
 
-(1) From $x\to x+\frac{1}{3}$, shift to the left by $\frac{1}{3}$ units. Choose (C).
+(1) From $x\to{x}+\frac{1}{3}$, shift to the left by $\frac{1}{3}$ units. Choose (C).
 
 (2) From $x\to\frac{x}{5}$, stretch the x-coordinates to $5$ times the original. Choose (A).
 
@@ -358,13 +358,13 @@ The graphs: four sketches each over one period. (1) $y=4\sin\frac{x}{2}$: period
 
 By **Property 5.6.1** (Graph Transformations).
 
-(1) $y=4\sin\frac{x}{2}$: from $y=\sin x$, stretch the x-coordinates to $2$ times the original and the y-coordinates to $4$ times the original. Period $4\pi$, amplitude $4$.
+(1) $y=4\sin\frac{x}{2}$: from $y=\sin{x}$, stretch the x-coordinates to $2$ times the original and the y-coordinates to $4$ times the original. Period $4\pi$, amplitude $4$.
 
-(2) $y=\frac{1}{2}\cos3x$: from $y=\cos x$, compress the x-coordinates to $\frac{1}{3}$ of the original and the y-coordinates to $\frac{1}{2}$ of the original. Period $\frac{2\pi}{3}$, amplitude $\frac{1}{2}$.
+(2) $y=\frac{1}{2}\cos3x$: from $y=\cos{x}$, compress the x-coordinates to $\frac{1}{3}$ of the original and the y-coordinates to $\frac{1}{2}$ of the original. Period $\frac{2\pi}{3}$, amplitude $\frac{1}{2}$.
 
-(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$: from $y=\sin x$, shift to the left by $\frac{\pi}{12}$, compress the x-coordinates to $\frac{1}{2}$ of the original, and stretch the y-coordinates to $3$ times the original. Period $\pi$, amplitude $3$.
+(3) $y=3\sin\left(2x+\frac{\pi}{6}\right)$: from $y=\sin{x}$, shift to the left by $\frac{\pi}{12}$, compress the x-coordinates to $\frac{1}{2}$ of the original, and stretch the y-coordinates to $3$ times the original. Period $\pi$, amplitude $3$.
 
-(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: from $y=\cos x$, shift to the right by $\frac{\pi}{2}$, stretch the x-coordinates to $2$ times the original and the y-coordinates to $2$ times the original. Period $4\pi$, amplitude $2$. $\blacksquare$
+(4) $y=2\cos\left(\frac{1}{2}x-\frac{\pi}{4}\right)$: from $y=\cos{x}$, shift to the right by $\frac{\pi}{2}$, stretch the x-coordinates to $2$ times the original and the y-coordinates to $2$ times the original. Period $4\pi$, amplitude $2$. $\blacksquare$
 
 ## Problem 12
 
@@ -378,15 +378,15 @@ By **Property 5.6.1** (Graph Transformations).
 
 By **Property 5.6.1** (Graph Transformations).
 
-(1) From $y=\sin x$, shift to the right by $\frac{\pi}{2}$, stretch the x-coordinates to $4$ times the original and the y-coordinates to $8$ times the original, then take the part with $x\geq0$.
+(1) From $y=\sin{x}$, shift to the right by $\frac{\pi}{2}$, stretch the x-coordinates to $4$ times the original and the y-coordinates to $8$ times the original, then take the part with $x\geq0$.
 
-(2) From $y=\sin x$, shift to the left by $\frac{\pi}{21}$, compress the x-coordinates to $\frac{1}{3}$ of the original and the y-coordinates to $\frac{1}{3}$ of the original, then take the part with $x\geq0$. $\blacksquare$
+(2) From $y=\sin{x}$, shift to the left by $\frac{\pi}{21}$, compress the x-coordinates to $\frac{1}{3}$ of the original and the y-coordinates to $\frac{1}{3}$ of the original, then take the part with $x\geq0$. $\blacksquare$
 
 ## Problem 13
 
-(Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega x+\varphi\right)$ ($A> 0$, $\omega> 0$, $0< \varphi< \pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
+(Exercise 5.6, Comprehensive Application, Problem 4) The graph of the function $y=A\sin\left(\omega{x}+\varphi\right)$ ($A>0$, $\omega>0$, $0<\varphi<\pi$) over one period is as shown in the figure. The analytic expression of this function is $y=$ $\;\_\_\;$ .
 
-The graph: the graph of $y=A\sin\left(\omega x+\varphi\right)$ over one period, with amplitude $A=2$ (maximum $2$, minimum $-2$) and period $\pi$; the curve passes through the point $\left(0,1\right)$ on a rising edge (i.e. at $x=0$ the function value is $1$ and then rises to the peak $2$).
+The graph: the graph of $y=A\sin\left(\omega{x}+\varphi\right)$ over one period, with amplitude $A=2$ (maximum $2$, minimum $-2$) and period $\pi$; the curve passes through the point $\left(0,1\right)$ on a rising edge (i.e. at $x=0$ the function value is $1$ and then rises to the peak $2$).
 
 ### Solution to Problem 13
 
@@ -406,31 +406,31 @@ From the shift to the left by $\frac{\pi}{3}$, we get $g\left(x\right)=3\sin\lef
 
 ## Problem 15
 
-(Exercise 5.6, Comprehensive Application, Problem 6) For the second hand of a certain clock, the distance from its endpoint $A$ to the center $O$ is $5\text{ cm}$, and the second hand rotates uniformly about point $O$. At time $t=0$, point $A$ coincides with the point $B$ marked $12$ on the clock face. Express the distance $d$ (unit: $\text{cm}$) between points $A$ and $B$ as a function of $t$ (unit: $\text{s}$). Then $d=$ $\;\_\_\;$ , $t\in\left[0,60\right]$.
+(Exercise 5.6, Comprehensive Application, Problem 6) For the second hand of a certain clock, the distance from its endpoint $A$ to the center $O$ is $5\text{~cm}$, and the second hand rotates uniformly about point $O$. At time $t=0$, point $A$ coincides with the point $B$ marked $12$ on the clock face. Express the distance $d$ (unit: $\text{cm}$) between points $A$ and $B$ as a function of $t$ (unit: $\text{s}$). Then $d=$ $\;\_\_\;$ , $t\in\left[0,60\right]$.
 
 ### Solution to Problem 15
 
 By **Definition 5.6.2 (Period)** and the Law of Cosines.
 
-Since the second hand makes one revolution in $60\text{ s}$, the angular velocity is $\omega=\frac{2\pi}{60}=\frac{\pi}{30}$. At $t=0$, $A$ coincides with $B$; after $t$ seconds, $\angle AOB=\frac{\pi t}{30}$. By the Law of Cosines, $d^{2}=5^{2}+5^{2}-2\times5\times5\cos\frac{\pi t}{30}=50\left(1-\cos\frac{\pi t}{30}\right)=100\sin^{2}\frac{\pi t}{60}$. Hence $d=10\sin\frac{\pi t}{60}$. $\blacksquare$
+Since the second hand makes one revolution in $60\text{~s}$, the angular velocity is $\omega=\frac{2\pi}{60}=\frac{\pi}{30}$. At $t=0$, $A$ coincides with $B$; after $t$ seconds, $\angle{A}OB=\frac{\pi{t}}{30}$. By the Law of Cosines, $d^{2}=5^{2}+5^{2}-2\times5\times5\cos\frac{\pi{t}}{30}=50\left(1-\cos\frac{\pi{t}}{30}\right)=100\sin^{2}\frac{\pi{t}}{60}$. Hence $d=10\sin\frac{\pi{t}}{60}$. $\blacksquare$
 
 ## Problem 16
 
-(Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{ m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{ m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin\left(\omega t+\varphi\right)+K$ ($A> 0$, $\omega> 0$, $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$).
+(Exercise 5.6, Comprehensive Application, Problem 7) A waterwheel of radius $3\text{~m}$ rotates counterclockwise at $1.5$ revolutions per minute. The height of the axle center $O$ of the waterwheel above the water surface is $2.2\text{~m}$. Let the distance from a certain bucket $P$ on the waterwheel to the water surface be $d$ (unit: $\text{m}$) (if the bucket is below the water surface, $d$ is negative). If time is counted from the moment the bucket $P$ just emerges from the water, then the relationship between $d$ and time $t$ (unit: $\text{s}$) is $d=A\sin\left(\omega{t}+\varphi\right)+K$ ($A>0$, $\omega>0$, $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$).
 
 (1) Find the values of $A$, $\omega$, $\varphi$, $K$ ($\varphi$ accurate to $0.0001$);
 
-(2) After the bucket emerges from the water, at least how long does it take to reach the highest point (accurate to $0.01\text{ s}$)?
+(2) After the bucket emerges from the water, at least how long does it take to reach the highest point (accurate to $0.01\text{~s}$)?
 
 ### Solution to Problem 16
 
 By **Definition 5.6.1 (振幅)** through **Definition 5.6.4 (Period of y=Asin(omega x+phi))**.
 
-(1) From the waterwheel radius $3\text{ m}$, we get $A=3$. From the axle center being $2.2\text{ m}$ above the water, we get $K=2.2$. From $1.5$ revolutions per minute, the period is $T=\frac{60}{1.5}=40\text{ s}$, hence $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
+(1) From the waterwheel radius $3\text{~m}$, we get $A=3$. From the axle center being $2.2\text{~m}$ above the water, we get $K=2.2$. From $1.5$ revolutions per minute, the period is $T=\frac{60}{1.5}=40\text{~s}$, hence $\omega=\frac{2\pi}{40}=\frac{\pi}{20}$.
 
-Since at $t=0$ the bucket just emerges from the water, i.e. $d=0$, we get $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. Also $-\frac{\pi}{2}< \varphi< \frac{\pi}{2}$, hence $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
+Since at $t=0$ the bucket just emerges from the water, i.e. $d=0$, we get $3\sin\varphi+2.2=0$, $\sin\varphi=-\frac{2.2}{3}\approx-0.7333$. Also $-\frac{\pi}{2}<\varphi<\frac{\pi}{2}$, hence $\varphi=\arcsin\left(-0.7333\right)\approx-0.8230$.
 
-(2) At the highest point, $\sin\left(\omega t+\varphi\right)=1$, i.e. $\omega t+\varphi=\frac{\pi}{2}$, so $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{ s}$. $\blacksquare$
+(2) At the highest point, $\sin\left(\omega{t}+\varphi\right)=1$, i.e. $\omega{t}+\varphi=\frac{\pi}{2}$, so $t=\frac{\frac{\pi}{2}-\varphi}{\omega}=\frac{\frac{\pi}{2}+0.8230}{\frac{\pi}{20}}\approx\frac{2.3938}{0.1571}\approx15.24\text{~s}$. $\blacksquare$
 
 ## Exercise 5
 
@@ -446,25 +446,25 @@ The graph: horizontal axis is time $t$ (unit: s), vertical axis is displacement 
 
 By **Definition 5.7.1 (简谐运动)** and **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**.
 
-(1) From the graph, the maximum value is $3\text{ cm}$ and the minimum value is $-3\text{ cm}$, hence the amplitude is $A=3$. From the graph, the period is $T=3.2-1.2=2\text{ s}$, and the frequency is $f=\frac{1}{2}=0.5\text{ Hz}$.
+(1) From the graph, the maximum value is $3\text{~cm}$ and the minimum value is $-3\text{~cm}$, hence the amplitude is $A=3$. From the graph, the period is $T=3.2-1.2=2\text{~s}$, and the frequency is $f=\frac{1}{2}=0.5\text{~Hz}$.
 
-(2) From $A=3$, $\omega=\frac{2\pi}{T}=\pi$, and the fact that at $t=0$, $y=0$ on a rising part, we get $\varphi=0$. Hence $y=3\sin\left(\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
+(2) From $A=3$, $\omega=\frac{2\pi}{T}=\pi$, and the fact that at $t=0$, $y=0$ on a rising part, we get $\varphi=0$. Hence $y=3\sin\left(\pi{t}\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
 
 ## Exercise 6
 
 (Exercise 5.7, Problem 2) A string that is absolutely rigid, of fixed length and with negligible mass, is fixed at one end, and an hourglass is suspended at the other end. When the hourglass swings, the functional relationship between its displacement $s$ (unit: $\text{cm}$) from the equilibrium position and time $t$ (unit: $\text{s}$) is $s=3\cos\left(\sqrt{\frac{g}{l}}\,t+\frac{\pi}{3}\right)$, $t\in\left[0,+\infty\right)$.
 
-(1) When $l=25$, find the maximum deflection angle of the hourglass (accurate to $0.0001\text{ rad}$);
+(1) When $l=25$, find the maximum deflection angle of the hourglass (accurate to $0.0001\text{~rad}$);
 
-(2) Given $g=9.8\text{ m/s}^{2}$, to make the period of the hourglass's swing equal to $1\text{ s}$, what should the length of the string be (accurate to $0.1\text{ cm}$)?
+(2) Given $g=9.8\text{~m/s}^{2}$, to make the period of the hourglass's swing equal to $1\text{~s}$, what should the length of the string be (accurate to $0.1\text{~cm}$)?
 
 ### Solution to Exercise 6
 
 By **Definition 5.7.1 (Simple Harmonic Motion)**.
 
-(1) From $s_{\max}=3\text{ cm}$ and the string length $l=25\text{ cm}$, the maximum deflection angle $\theta$ satisfies $l\sin\theta=s_{\max}$, i.e. $\sin\theta=\frac{3}{25}=0.12$. Hence $\theta=\arcsin0.12\approx0.1203\text{ rad}$.
+(1) From $s_{\max}=3\text{~cm}$ and the string length $l=25\text{~cm}$, the maximum deflection angle $\theta$ satisfies $l\sin\theta=s_{\max}$, i.e. $\sin\theta=\frac{3}{25}=0.12$. Hence $\theta=\arcsin0.12\approx0.1203\text{~rad}$.
 
-(2) From the period $T=\frac{2\pi}{\sqrt{g/l}}=2\pi\sqrt{\frac{l}{g}}=1$, we get $l=\frac{g}{4\pi^{2}}=\frac{980}{4\pi^{2}}\approx24.8\text{ cm}$. $\blacksquare$
+(2) From the period $T=\frac{2\pi}{\sqrt{g/l}}=2\pi\sqrt{\frac{l}{g}}=1$, we get $l=\frac{g}{4\pi^{2}}=\frac{980}{4\pi^{2}}\approx24.8\text{~cm}$. $\blacksquare$
 
 ## Exercise 7
 
@@ -476,7 +476,7 @@ The graph: horizontal axis is time $t$ (unit: s), vertical axis is voltage $U$ (
 
 By **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**.
 
-From the graph, the maximum voltage is $311\text{ V}$, the period is $0.02\text{ s}$, and the frequency is $50\text{ Hz}$. From $\omega=\frac{2\pi}{0.02}=100\pi$ and the initial phase $\varphi=0$. Hence $U=311\sin\left(100\pi t\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
+From the graph, the maximum voltage is $311\text{~V}$, the period is $0.02\text{~s}$, and the frequency is $50\text{~Hz}$. From $\omega=\frac{2\pi}{0.02}=100\pi$ and the initial phase $\varphi=0$. Hence $U=311\sin\left(100\pi{t}\right)$, $t\in\left[0,+\infty\right)$. $\blacksquare$
 
 ## Problem 17
 
@@ -492,7 +492,7 @@ From the graph, the period of the brightness change is about $5.5$ days. At its 
 
 ## Problem 18
 
-(Exercise 5.7, Comprehensive Application, Problem 2) A ball hanging from a spring moves up and down, and its height $h$ (unit: $\text{cm}$) relative to the equilibrium position at $t\text{ s}$ is given by the relation $h=2\sin\left(t+\frac{\pi}{4}\right)$.
+(Exercise 5.7, Comprehensive Application, Problem 2) A ball hanging from a spring moves up and down, and its height $h$ (unit: $\text{cm}$) relative to the equilibrium position at $t\text{~s}$ is given by the relation $h=2\sin\left(t+\frac{\pi}{4}\right)$.
 
 (1) Where is the ball located when it starts vibrating (i.e. $t=0$)?
 
@@ -506,10 +506,10 @@ From the graph, the period of the brightness change is about $5.5$ days. At its 
 
 By **Definition 5.7.2 (Amplitude, Period, Frequency, Phase)**.
 
-(1) From $t=0$, $h=2\sin\frac{\pi}{4}=\sqrt{2}\text{ cm}$, i.e. the ball is $\sqrt{2}\text{ cm}$ above the equilibrium position.
+(1) From $t=0$, $h=2\sin\frac{\pi}{4}=\sqrt{2}\text{~cm}$, i.e. the ball is $\sqrt{2}\text{~cm}$ above the equilibrium position.
 
-(2) From the amplitude $A=2$, the distances from the equilibrium position to the highest and lowest points are both $2\text{ cm}$.
+(2) From the amplitude $A=2$, the distances from the equilibrium position to the highest and lowest points are both $2\text{~cm}$.
 
-(3) From $\omega=1$, the period is $T=2\pi\text{ s}$, i.e. it takes $2\pi\text{ s}$ to complete one back-and-forth motion.
+(3) From $\omega=1$, the period is $T=2\pi\text{~s}$, i.e. it takes $2\pi\text{~s}$ to complete one back-and-forth motion.
 
 (4) From the frequency $f=\frac{1}{2\pi}\approx0.159$, it vibrates back and forth $\frac{1}{2\pi}$ times per second. $\blacksquare$

@@ -28,7 +28,7 @@
 > 
 > 变量的不同取值表示个体所属的不同类别, 这类变量称为分类变量.
 
-> **Definition 8.3.2 ($2\times 2$ 列联表)**
+> **Definition 8.3.2 ($2\times2$ 列联表)**
 > 
 > 过成对样本数据进行分析;通过构建一元线性回归 模型,可以研究变量之间的随机关系并进行预测;利用２×２列联表可以检验两个分类变 量的独立性等.在本章的学习过程中,同学们可以进一步体会统计思想在解决实际问题中 的作用. 祝愿同学们通过本册书的学习,不但学到更多的数学知识,而且在数学能力,数学核 心素养等方面都有较大的提高,并培养起更高的数学学习兴趣,形成对数学的更加全面的 认识. 本册导弓 本书根据《普通高中数学课程标准(2017年)》编写,包括计数原理随机变 量及其分布成对数据的统计分析三章内容. 计数问题在日常生活,生产实践中大量存在,也是数学研究的重要问题之一.在计 数原理一章中,同学们将学习分类加法计数原理和分步乘法计数原理,体会这两个原理 在解决计数问题中的基础性作用;运用两个基本计数原理探索排列,组合,二项式定理等 问题,推导相关的公式;在运用它们解决一些简单的计数问题和实际问题的过程中,理解 排列,组合,二项式定理与两个计数原理的关系,体会数学抽象,化繁为简等
 
@@ -66,7 +66,7 @@ The line graph shows the general trend of how the daughter's height varies with 
 
 ## Exercise 3
 
-(Exercise 8.2, Problem 1) In estimating the parameters $a$ and $b$ of the simple linear regression model, someone argues that, since $\overline y=\widehat b\overline x+\widehat a$, the point $\left(\overline x,\overline y\right)$ must lie on the regression line. Do you think this is correct?
+(Exercise 8.2, Problem 1) In estimating the parameters $a$ and $b$ of the simple linear regression model, someone argues that, since $\overline{y}=\widehat{b}\overline{x}+\widehat{a}$, the point $\left(\overline{x},\overline{y}\right)$ must lie on the regression line. Do you think this is correct?
 
 ### Solution to Exercise 3
 
@@ -74,28 +74,28 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas).
 
 This statement is correct.
 
-By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat a=\overline y-\widehat b\overline x$, i.e. $\overline y=\widehat b\overline x+\widehat a$.
+By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat{a}=\overline{y}-\widehat{b}\overline{x}$, i.e. $\overline{y}=\widehat{b}\overline{x}+\widehat{a}$.
 
-Substituting $x=\overline x$ into the empirical regression equation $\widehat y=\widehat b x+\widehat a$ (**Definition 8.2.4 (Empirical Regression Equation)**) gives
+Substituting $x=\overline{x}$ into the empirical regression equation $\widehat{y}=\widehat{b}x+\widehat{a}$ (**Definition 8.2.4 (Empirical Regression Equation)**) gives
 
 $$
-\widehat y=\widehat b\overline x+\widehat a=\overline y.
+\widehat{y}=\widehat{b}\overline{x}+\widehat{a}=\overline{y}.
 $$
 
-Thus the coordinates of the point $\left(\overline x,\overline y\right)$ satisfy the empirical regression equation, so it must lie on the regression line. $\blacksquare$
+Thus the coordinates of the point $\left(\overline{x},\overline{y}\right)$ satisfy the empirical regression equation, so it must lie on the regression line. $\blacksquare$
 
 ## Exercise 4
 
-(Exercise 8.2, Problem 2) Suppose the empirical regression equation of a daughter's height $y$ on her father's height $x$ is $\widehat y=0.81x+25.82$, and the father's height is $175\,\mathrm{cm}$; predict his daughter's height.
+(Exercise 8.2, Problem 2) Suppose the empirical regression equation of a daughter's height $y$ on her father's height $x$ is $\widehat{y}=0.81x+25.82$, and the father's height is $175\,\mathrm{cm}$; predict his daughter's height.
 
 ### Solution to Exercise 4
 
 By **Definition 8.2.4 (Empirical Regression Equation)**.
 
-Substituting $x=175$ into the empirical regression equation $\widehat y=0.81x+25.82$ gives
+Substituting $x=175$ into the empirical regression equation $\widehat{y}=0.81x+25.82$ gives
 
 $$
-\widehat y=0.81\times 175+25.82=167.57.
+\widehat{y}=0.81\times175+25.82=167.57.
 $$
 
 Thus the predicted height of his daughter is $167.57\,\mathrm{cm}$. $\blacksquare$
@@ -111,23 +111,23 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definit
 From the $14$ pairs of data in Table $8.1-1$, we compute
 
 $$
-\overline x\approx 48.07,\quad \overline y\approx 27.26.
+\overline{x}\approx48.07,\quad\overline{y}\approx27.26.
 $$
 
 By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b=\frac{\sum_{i=1}^{14}\left(x_i-\overline x\right)\left(y_i-\overline y\right)}{\sum_{i=1}^{14}\left(x_i-\overline x\right)^2}\approx 0.576,
+\widehat{b}=\frac{\sum_{i=1}^{14}\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)}{\sum_{i=1}^{14}\left(x_i-\overline{x}\right)^2}\approx0.576,
 $$
 
 $$
-\widehat a=\overline y-\widehat b\overline x\approx -0.448.
+\widehat{a}=\overline{y}-\widehat{b}\overline{x}\approx-0.448.
 $$
 
 Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of body fat content on age is
 
 $$
-\widehat y=0.576x-0.448.
+\widehat{y}=0.576x-0.448.
 $$
 
 The slope of the regression line is positive, consistent with the upward trend of the scatter plot from lower left to upper right; the points are roughly distributed near this line, so the line fits the scatter plot well. $\blacksquare$
@@ -145,13 +145,13 @@ The residuals in Table $8.2-2$ are $1.057$, $4.413$, $-4.104$, $-0.748$, $3.345$
 By **Definition 8.2.5 (Residual)**, their sum is
 
 $$
-\sum_{i=1}^{14}e_i\approx 0.
+\sum_{i=1}^{14}e_i\approx0.
 $$
 
-Pattern: by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat a=\overline y-\widehat b\overline x$, so
+Pattern: by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), $\widehat{a}=\overline{y}-\widehat{b}\overline{x}$, so
 
 $$
-\sum_{i=1}^{n}\left(y_i-\widehat y_i\right)=\sum_{i=1}^{n}\left[y_i-\left(\widehat b x_i+\widehat a\right)\right]=\sum_{i=1}^{n}y_i-n\widehat b\overline x-n\widehat a=n\overline y-n\widehat b\overline x-n\widehat a=0.
+\sum_{i=1}^{n}\left(y_i-\widehat{y}_i\right)=\sum_{i=1}^{n}\left[y_i-\left(\widehat{b}x_i+\widehat{a}\right)\right]=\sum_{i=1}^{n}y_i-n\widehat{b}\overline{x}-n\widehat{a}=n\overline{y}-n\widehat{b}\overline{x}-n\widehat{a}=0.
 $$
 
 That is, for the empirical regression equation obtained by the least squares method, the sum of all residuals is exactly $0$. $\blacksquare$
@@ -179,13 +179,13 @@ $$
 i.e.
 
 $$
-\sum_{i=1}^{n}x_i y_i-b\sum_{i=1}^{n}x_i^2=0.
+\sum_{i=1}^{n}x_iy_i-b\sum_{i=1}^{n}x_i^2=0.
 $$
 
 Thus the least squares estimate of the parameter $b$ is
 
 $$
-\widehat b=\frac{\sum_{i=1}^{n}x_i y_i}{\sum_{i=1}^{n}x_i^2}.
+\widehat{b}=\frac{\sum_{i=1}^{n}x_iy_i}{\sum_{i=1}^{n}x_i^2}.
 $$
 
 $\blacksquare$
@@ -234,16 +234,16 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition
 
 (1) Taking year as the horizontal axis and $\mathrm{GDP}$ as the vertical axis, draw a scatter plot; the points rise approximately along a straight line from lower left to upper right.
 
-(2) From the data, the mean year is $\overline x=2007.5$ and the mean $\mathrm{GDP}$ is $\overline y=308251.4$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(2) From the data, the mean year is $\overline{x}=2007.5$ and the mean $\mathrm{GDP}$ is $\overline{y}=308251.4$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b\approx 45172.8,\quad \widehat a\approx -90376168.
+\widehat{b}\approx45172.8,\quad\widehat{a}\approx-90376168.
 $$
 
 Thus the empirical regression equation of $\mathrm{GDP}$ on year is
 
 $$
-\widehat y=45172.8x-90376168.
+\widehat{y}=45172.8x-90376168.
 $$
 
 (3) The slope of the regression line is positive, consistent with the upward trend of the scatter plot; the points are roughly distributed near the line, so the fit is good.
@@ -251,7 +251,7 @@ $$
 (4) Substituting $x=2023$ into the empirical regression equation gives
 
 $$
-\widehat y=45172.8\times 2023-90376168\approx 1008430.
+\widehat{y}=45172.8\times2023-90376168\approx1008430.
 $$
 
 That is, the predicted $\mathrm{GDP}$ of our country in $2023$ is about $1008430$ (100 million yuan).
@@ -292,24 +292,24 @@ By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient
 
 By **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), and **Definition 8.2.4 (Empirical Regression Equation)**.
 
-(1) Taking the number of parts as the horizontal axis and the machining time as the vertical axis, draw a scatter plot; the points lie approximately along a straight line from lower left to upper right. From the data, the sample correlation coefficient is $r\approx 0.9998$; by **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r$ is very close to $1$, so $y$ and $x$ have a very strong positive linear correlation.
+(1) Taking the number of parts as the horizontal axis and the machining time as the vertical axis, draw a scatter plot; the points lie approximately along a straight line from lower left to upper right. From the data, the sample correlation coefficient is $r\approx0.9998$; by **Common Conclusion 8.1.6** (Properties of the Sample Correlation Coefficient), $r$ is very close to $1$, so $y$ and $x$ have a very strong positive linear correlation.
 
-(2) From the data, $\overline x=55$, $\overline y=91.7$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(2) From the data, $\overline{x}=55$, $\overline{y}=91.7$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b\approx 0.668,\quad \widehat a\approx 54.93.
+\widehat{b}\approx0.668,\quad\widehat{a}\approx54.93.
 $$
 
 Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation is
 
 $$
-\widehat y=0.668x+54.93.
+\widehat{y}=0.668x+54.93.
 $$
 
 (3) Substituting $x=200$ into the empirical regression equation gives
 
 $$
-\widehat y=0.668\times 200+54.93\approx 188.5.
+\widehat{y}=0.668\times200+54.93\approx188.5.
 $$
 
 Thus the predicted time to machine $200$ parts is about $188.5\,\min$. $\blacksquare$
@@ -326,22 +326,22 @@ Thus the predicted time to machine $200$ parts is about $188.5\,\min$. $\blacksq
 
 By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4 (Empirical Regression Equation)**.
 
-(1) From the $10$ pairs of data in Example $2$, the mean resident annual income is $\overline x=38.96$ and the mean sales of product $A$ is $\overline y=39.1$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(1) From the $10$ pairs of data in Example $2$, the mean resident annual income is $\overline{x}=38.96$ and the mean sales of product $A$ is $\overline{y}=39.1$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b\approx 1.447,\quad \widehat a\approx -15.84.
+\widehat{b}\approx1.447,\quad\widehat{a}\approx-15.84.
 $$
 
 Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of the sales of product $A$ on residents' annual income is
 
 $$
-\widehat y=1.447x-15.84.
+\widehat{y}=1.447x-15.84.
 $$
 
 (2) Substituting $x=40$ into the empirical regression equation gives
 
 $$
-\widehat y=1.447\times 40-15.84\approx 42.04.
+\widehat{y}=1.447\times40-15.84\approx42.04.
 $$
 
 Thus the predicted sales of product $A$ for that household is about $42.04$ (in 10-thousand yuan). $\blacksquare$
@@ -354,7 +354,7 @@ Thus the predicted sales of product $A$ for that household is about $42.04$ (in 
 
 (1) Draw a scatter plot of the total population against year;
 
-(2) Build the empirical regression equation $\widehat y=\widehat b x+\widehat a$ of the total population (in 10-thousands) on year;
+(2) Build the empirical regression equation $\widehat{y}=\widehat{b}x+\widehat{a}$ of the total population (in 10-thousands) on year;
 
 (3) Predict our country's total population in $2023$ and compare it with the officially published figure for $2023$.
 
@@ -366,22 +366,22 @@ By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), **Definition
 
 (1) Taking year as the horizontal axis and the total population as the vertical axis, draw a scatter plot; overall the points lie approximately along a straight line from lower left to upper right.
 
-(2) From the table, the mean year is $\overline x\approx 1985.6$ and the mean total population is $\overline y\approx 103511$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+(2) From the table, the mean year is $\overline{x}\approx1985.6$ and the mean total population is $\overline{y}\approx103511$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b\approx 1249.2,\quad \widehat a\approx -2375604.
+\widehat{b}\approx1249.2,\quad\widehat{a}\approx-2375604.
 $$
 
 Thus, by **Definition 8.2.4 (Empirical Regression Equation)**, the empirical regression equation of the total population on year is
 
 $$
-\widehat y=1249.2x-2375604.
+\widehat{y}=1249.2x-2375604.
 $$
 
 (3) Substituting $x=2023$ into the empirical regression equation gives
 
 $$
-\widehat y=1249.2\times 2023-2375604\approx 151453.
+\widehat{y}=1249.2\times2023-2375604\approx151453.
 $$
 
 That is, the predicted total population of our country in $2023$ is about $151453$ (10-thousands). By **Common Conclusion 8.2.7** (Cautions on Regression Prediction), the total population is affected by factors such as the national birth policy and the laws of population development; in recent years the population growth trend has changed, and a linear regression equation built from earlier years' data, when used to predict a far-off year, gives a predicted value noticeably larger than the officially published total population for $2023$. $\blacksquare$
@@ -396,27 +396,27 @@ That is, the predicted total population of our country in $2023$ is about $15145
 | $x$ | $5.2$ | $5.4$ | $5.6$ | $5.8$ | $6.0$ | $6.2$ | $6.4$ | $6.6$ | $6.8$ | $7.0$ | |
 | $N$ | $746$ | $604$ | $435$ | $274$ | $206$ | $148$ | $98$ | $57$ | $41$ | $25$ | |
 
-From experiments, scientists found that the relationship between earthquake magnitude and the number of earthquakes is $\lg N=a+bx$. Based on the table above, use the simple linear regression model to find the values of $a$ and $b$.
+From experiments, scientists found that the relationship between earthquake magnitude and the number of earthquakes is $\lg{N}=a+bx$. Based on the table above, use the simple linear regression model to find the values of $a$ and $b$.
 
 ### Solution to Problem 5
 
 By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas) and **Definition 8.2.4 (Empirical Regression Equation)**.
 
-Let $Y=\lg N$; then the relation $\lg N=a+bx$ is exactly the simple linear regression model $Y=bx+a$.
+Let $Y=\lg{N}$; then the relation $\lg{N}=a+bx$ is exactly the simple linear regression model $Y=bx+a$.
 
-Taking the common logarithm of each entry gives $Y_i=\lg N_i$. From the data, $\overline x=5.0$, $\overline Y\approx 2.95$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
+Taking the common logarithm of each entry gives $Y_i=\lg{N}_i$. From the data, $\overline{x}=5.0$, $\overline{Y}\approx2.95$; by **Common Conclusion 8.2.3** (Least Squares Estimation Formulas),
 
 $$
-\widehat b\approx -0.74,\quad \widehat a\approx 6.70.
+\widehat{b}\approx-0.74,\quad\widehat{a}\approx6.70.
 $$
 
 Thus, by **Definition 8.2.4 (Empirical Regression Equation)**,
 
 $$
-\lg N=6.70-0.74x.
+\lg{N}=6.70-0.74x.
 $$
 
-That is, $a\approx 6.70$, $b\approx -0.74$. $\blacksquare$
+That is, $a\approx6.70$, $b\approx-0.74$. $\blacksquare$
 
 ## Problem 6
 
@@ -434,7 +434,7 @@ This is an open-ended practical problem; the general steps of the solution are:
 
 (3) By **Definition 8.1.5 (Sample Correlation Coefficient)**, compute the sample correlation coefficient $r$ to judge whether there is a linear correlation between weight and height and its strength;
 
-(4) By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), compute $\widehat b$ and $\widehat a$, and by **Definition 8.2.4 (Empirical Regression Equation)**, write the empirical regression equation of weight on height $\widehat y=\widehat b x+\widehat a$;
+(4) By **Common Conclusion 8.2.3** (Least Squares Estimation Formulas), compute $\widehat{b}$ and $\widehat{a}$, and by **Definition 8.2.4 (Empirical Regression Equation)**, write the empirical regression equation of weight on height $\widehat{y}=\widehat{b}x+\widehat{a}$;
 
 (5) Draw a residual plot; by **Definition 8.2.5 (Residual)**, observe whether the residual points are evenly distributed in a horizontal band centered at $0$, and analyze the fit of the regression model. $\blacksquare$
 
@@ -517,10 +517,10 @@ By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Ru
 By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{44\times\left(5\times 18-15\times 6\right)^2}{20\times 24\times 11\times 33}=\frac{44\times 0}{20\times 24\times 11\times 33}=0.
+\chi^2=\frac{44\times\left(5\times18-15\times6\right)^2}{20\times24\times11\times33}=\frac{44\times0}{20\times24\times11\times33}=0.
 $$
 
-By **Common Conclusion 8.3.5** (Rules for the Independence Test), $\chi^2=0< 2.706$, so there is insufficient evidence to infer that the proportion of female students who exercise regularly differs from the proportion of male students who exercise regularly at this school.
+By **Common Conclusion 8.3.5** (Rules for the Independence Test), $\chi^2=0<2.706$, so there is insufficient evidence to infer that the proportion of female students who exercise regularly differs from the proportion of male students who exercise regularly at this school.
 
 (2) In the stacked bar chart of equal height, the two bars representing girls and boys have the same height, and the proportion occupied by the "exercise regularly" part within each bar is also the same (both $0.75$), which intuitively shows that there is no obvious association between gender and whether one exercises regularly. $\blacksquare$
 
@@ -535,13 +535,13 @@ By **Definition 8.3.4 ($\chi^2$ Statistic)** and **Common Conclusion 8.3.5** (Ru
 In Example $3$, among the $67$ patients taking drug $A$, $15$ were not cured and $52$ were cured; among the $69$ patients taking drug $B$, $6$ were not cured and $63$ were cured. By **Definition 8.3.4 ($\chi^2$ Statistic)**,
 
 $$
-\chi^2=\frac{136\times\left(15\times 63-52\times 6\right)^2}{67\times 69\times 21\times 115}\approx 4.88.
+\chi^2=\frac{136\times\left(15\times63-52\times6\right)^2}{67\times69\times21\times115}\approx4.88.
 $$
 
 By **Common Conclusion 8.3.5** (Rules for the Independence Test), when $\alpha=0.05$ the critical value is $x_{0.05}=3.841$. Because
 
 $$
-\chi^2\approx 4.88> 3.841,
+\chi^2\approx4.88>3.841,
 $$
 
 we infer that the null hypothesis does not hold, i.e. we consider there to be a difference between the efficacy of drug $A$ and that of drug $B$, and the probability that this inference is wrong is no more than $0.05$. $\blacksquare$

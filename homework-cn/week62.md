@@ -38,7 +38,7 @@
 
 由**定义 5.1.3 (1 弧度的角)**, $f'\left(x\right)$ 等于原函数图象在各点处切线的斜率.
 
-由原函数图象, 在 $\left(0,a\right)$ 内曲线上升且切线斜率为正并逐渐减小, 故 $f'\left(x\right)> 0$ 且逐渐下降; 在 $x=a$ 处切线水平, $f'\left(a\right)=0$; 在 $\left(a,b\right)$ 内曲线下降, 切线斜率为负.
+由原函数图象, 在 $\left(0,a\right)$ 内曲线上升且切线斜率为正并逐渐减小, 故 $f'\left(x\right)>0$ 且逐渐下降; 在 $x=a$ 处切线水平, $f'\left(a\right)=0$; 在 $\left(a,b\right)$ 内曲线下降, 切线斜率为负.
 
 故 $y=f'\left(x\right)$ 在 $\left(0,b\right)$ 内从正值逐渐下降, 穿过 $x$ 轴于 $x=a$ 处, 再变为负值. $\blacksquare$
 
@@ -56,13 +56,13 @@
 
 (1) $f'\left(x\right)=3-3x^{2}=3\left(1-x^{2}\right)=3\left(1-x\right)\left(1+x\right)$. 令 $f'\left(x\right)=0$, 得 $x=\pm1$.
 
-当 $x< -1$ 时 $f'\left(x\right)< 0$; 当 $-1< x< 1$ 时 $f'\left(x\right)> 0$; 当 $x> 1$ 时 $f'\left(x\right)< 0$.
+当 $x<-1$ 时 $f'\left(x\right)<0$; 当 $-1<{}x<1$ 时 $f'\left(x\right)>0$; 当 $x>1$ 时 $f'\left(x\right)<0$.
 
 故 $f\left(x\right)$ 在 $\left(-\infty,-1\right)$ 与 $\left(1,+\infty\right)$ 内单调递减, 在 $\left(-1,1\right)$ 内单调递增.
 
 (2) $f'\left(x\right)=3x^{2}-2x-1=\left(3x+1\right)\left(x-1\right)$. 令 $f'\left(x\right)=0$, 得 $x=-\frac{1}{3}$ 或 $x=1$.
 
-当 $x< -\frac{1}{3}$ 时 $f'\left(x\right)> 0$; 当 $-\frac{1}{3}< x< 1$ 时 $f'\left(x\right)< 0$; 当 $x> 1$ 时 $f'\left(x\right)> 0$.
+当 $x<-\frac{1}{3}$ 时 $f'\left(x\right)>0$; 当 $-\frac{1}{3}<{}x<1$ 时 $f'\left(x\right)<0$; 当 $x>1$ 时 $f'\left(x\right)>0$.
 
 故 $f\left(x\right)$ 在 $\left(-\infty,-\frac{1}{3}\right)$ 与 $\left(1,+\infty\right)$ 内单调递增, 在 $\left(-\frac{1}{3},1\right)$ 内单调递减. $\blacksquare$
 
@@ -72,13 +72,13 @@
 
 ### 解答 练习三
 
-由**定义 5.3.1 (函数的单调性与导数的正负)**, 只需证明在 $\left(0,2\right)$ 内 $f'\left(x\right)< 0$.
+由**定义 5.3.1 (函数的单调性与导数的正负)**, 只需证明在 $\left(0,2\right)$ 内 $f'\left(x\right)<0$.
 
 $$
 f'\left(x\right)=6x^{2}-12x=6x\left(x-2\right).
 $$
 
-当 $x\in\left(0,2\right)$ 时, $x> 0$ 且 $x-2< 0$, 故 $f'\left(x\right)=6x\left(x-2\right)< 0$.
+当 $x\in\left(0,2\right)$ 时, $x>0$ 且 $x-2<0$, 故 $f'\left(x\right)=6x\left(x-2\right)<0$.
 
 由**定义 5.3.1 (函数的单调性与导数的正负)**, $f\left(x\right)$ 在 $\left(0,2\right)$ 内单调递减. $\blacksquare$
 
@@ -86,13 +86,13 @@ $$
 
 (练习 5.3 第 6 题) 函数 $y=f'\left(x\right)$ 的图象如图所示, 试画出函数 $y=f\left(x\right)$ 图象的大致形状.
 
-该图为导函数 $y=f'\left(x\right)$ 的图象:在 $\left(0,a\right)$ 内位于 $x$ 轴上方($f'\left(x\right)> 0$),在 $x=a$ 处穿过 $x$ 轴,在 $\left(a,b\right)$ 内位于 $x$ 轴下方($f'\left(x\right)< 0$),在 $x=b$ 处再次穿过 $x$ 轴,在 $\left(b,c\right)$ 内又位于 $x$ 轴上方.
+该图为导函数 $y=f'\left(x\right)$ 的图象:在 $\left(0,a\right)$ 内位于 $x$ 轴上方($f'\left(x\right)>0$),在 $x=a$ 处穿过 $x$ 轴,在 $\left(a,b\right)$ 内位于 $x$ 轴下方($f'\left(x\right)<0$),在 $x=b$ 处再次穿过 $x$ 轴,在 $\left(b,c\right)$ 内又位于 $x$ 轴上方.
 
 ### 解答 练习四
 
 由**定义 5.3.1 (函数的单调性与导数的正负)**, $f'\left(x\right)$ 的正负决定 $f\left(x\right)$ 的增减.
 
-由导函数图象, 在 $\left(0,a\right)$ 内 $f'\left(x\right)> 0$, 故 $f\left(x\right)$ 单调递增; 在 $x=a$ 处 $f'\left(x\right)=0$; 在 $\left(a,b\right)$ 内 $f'\left(x\right)< 0$, 故 $f\left(x\right)$ 单调递减; 在 $x=b$ 处 $f'\left(x\right)=0$; 在 $\left(b,c\right)$ 内 $f'\left(x\right)> 0$, 故 $f\left(x\right)$ 单调递增.
+由导函数图象, 在 $\left(0,a\right)$ 内 $f'\left(x\right)>0$, 故 $f\left(x\right)$ 单调递增; 在 $x=a$ 处 $f'\left(x\right)=0$; 在 $\left(a,b\right)$ 内 $f'\left(x\right)<0$, 故 $f\left(x\right)$ 单调递减; 在 $x=b$ 处 $f'\left(x\right)=0$; 在 $\left(b,c\right)$ 内 $f'\left(x\right)>0$, 故 $f\left(x\right)$ 单调递增.
 
 故 $y=f\left(x\right)$ 的图象先升, 再降, 再升, 在 $x=a$ 处取极大值, 在 $x=b$ 处取极小值. $\blacksquare$
 
@@ -108,11 +108,11 @@ $$
 
 由导函数图象, $f'\left(x\right)$ 与 $x$ 轴交于 $x_{2},x_{4},x_{6}$ 等处.
 
-在 $x_{2}$ 处, 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 故 $x_{2}$ 是极小值点.
+在 $x_{2}$ 处, 左侧 $f'\left(x\right)<0$, 右侧 $f'\left(x\right)>0$, 故 $x_{2}$ 是极小值点.
 
-在 $x_{4}$ 处, 左侧 $f'\left(x\right)> 0$, 右侧 $f'\left(x\right)< 0$, 故 $x_{4}$ 是极大值点.
+在 $x_{4}$ 处, 左侧 $f'\left(x\right)>0$, 右侧 $f'\left(x\right)<0$, 故 $x_{4}$ 是极大值点.
 
-在 $x_{6}$ 处, 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 故 $x_{6}$ 是极小值点.
+在 $x_{6}$ 处, 左侧 $f'\left(x\right)<0$, 右侧 $f'\left(x\right)>0$, 故 $x_{6}$ 是极小值点.
 
 $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
@@ -132,7 +132,7 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 由**定义 5.3.3 (求函数极值的方法)**.
 
-(1) $f'\left(x\right)=12x-1$, 令 $f'\left(x\right)=0$, 得 $x=\frac{1}{12}$. 左侧 $f'\left(x\right)< 0$, 右侧 $f'\left(x\right)> 0$, 故极小值为 $f\left(\frac{1}{12}\right)=6\cdot\frac{1}{144}-\frac{1}{12}-2=-\frac{49}{24}$.
+(1) $f'\left(x\right)=12x-1$, 令 $f'\left(x\right)=0$, 得 $x=\frac{1}{12}$. 左侧 $f'\left(x\right)<0$, 右侧 $f'\left(x\right)>0$, 故极小值为 $f\left(\frac{1}{12}\right)=6\cdot\frac{1}{144}-\frac{1}{12}-2=-\frac{49}{24}$.
 
 (2) $f'\left(x\right)=3x^{2}-27=3\left(x^{2}-9\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm3$. 在 $x=-3$ 处左正右负, 极大值 $f\left(-3\right)=54$; 在 $x=3$ 处左负右正, 极小值 $f\left(3\right)=-54$.
 
@@ -162,59 +162,59 @@ $x_{1},x_{3},x_{5}$ 处 $f'\left(x\right)\neq0$, 不是极值点. $\blacksquare$
 
 (3) $f'\left(x\right)=12-3x^{2}$, 在 $\left(-\frac{1}{3},3\right)$ 内零点为 $x=2$. 比较 $f\left(-\frac{1}{3}\right)=6-4+\frac{1}{27}=\frac{55}{27}$, $f\left(2\right)=22$, $f\left(3\right)=6+36-27=15$. 故最大值为 $22$, 最小值为 $\frac{55}{27}$.
 
-(4) $f'\left(x\right)=3-3x^{2}$, 在 $\left(2,3\right)$ 内无零点 ($f'\left(x\right)< 0$). 比较 $f\left(2\right)=-2$, $f\left(3\right)=-18$. 故最大值为 $-2$, 最小值为 $-18$. $\blacksquare$
+(4) $f'\left(x\right)=3-3x^{2}$, 在 $\left(2,3\right)$ 内无零点 ($f'\left(x\right)<0$). 比较 $f\left(2\right)=-2$, $f\left(3\right)=-18$. 故最大值为 $-2$, 最小值为 $-18$. $\blacksquare$
 
 ## 练习八
 
-(练习 5.3 第 10 题) 证明不等式: $x-1\ge\ln x$, $x\in\left(0,+\infty\right)$.
+(练习 5.3 第 10 题) 证明不等式: $x-1\ge\ln{x}$, $x\in\left(0,+\infty\right)$.
 
 ### 解答 练习八
 
-设 $s\left(x\right)=x-1-\ln x$, 则 $s'\left(x\right)=1-\frac{1}{x}=\frac{x-1}{x}$.
+设 $s\left(x\right)=x-1-\ln{x}$, 则 $s'\left(x\right)=1-\frac{1}{x}=\frac{x-1}{x}$.
 
 令 $s'\left(x\right)=0$, 解得 $x=1$.
 
-当 $0< x< 1$ 时 $s'\left(x\right)< 0$; 当 $x> 1$ 时 $s'\left(x\right)> 0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,1\right)$ 内递减, 在 $\left(1,+\infty\right)$ 内递增, 故 $x=1$ 是最小值点.
+当 $0<{}x<1$ 时 $s'\left(x\right)<0$; 当 $x>1$ 时 $s'\left(x\right)>0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,1\right)$ 内递减, 在 $\left(1,+\infty\right)$ 内递增, 故 $x=1$ 是最小值点.
 
-最小值为 $s\left(1\right)=0$. 故 $s\left(x\right)\ge s\left(1\right)=0$, 即 $x-1-\ln x\ge0$, 亦即 $x-1\ge\ln x$. $\blacksquare$
+最小值为 $s\left(1\right)=0$. 故 $s\left(x\right)\ge{s}\left(1\right)=0$, 即 $x-1-\ln{x}\ge0$, 亦即 $x-1\ge\ln{x}$. $\blacksquare$
 
 ## 练习九
 
-(练习 5.3 第 11 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: $\sin x< x$, $x\in\left(0,\pi\right)$.
+(练习 5.3 第 11 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: $\sin{x}<{}x$, $x\in\left(0,\pi\right)$.
 
-该图为在区间 $\left(0,\pi\right)$ 内的两条曲线:一条是直线 $y=x$,另一条是正弦曲线 $y=\sin x$;在 $\left(0,\pi\right)$ 内 $y=\sin x$ 始终位于 $y=x$ 下方(仅在原点处二者重合),直观显示 $\sin x< x$.
+该图为在区间 $\left(0,\pi\right)$ 内的两条曲线:一条是直线 $y=x$,另一条是正弦曲线 $y=\sin{x}$;在 $\left(0,\pi\right)$ 内 $y=\sin{x}$ 始终位于 $y=x$ 下方(仅在原点处二者重合),直观显示 $\sin{x}<{}x$.
 
 ### 解答 练习九
 
-设 $s\left(x\right)=x-\sin x$, 则 $s'\left(x\right)=1-\cos x$.
+设 $s\left(x\right)=x-\sin{x}$, 则 $s'\left(x\right)=1-\cos{x}$.
 
-当 $x\in\left(0,\pi\right)$ 时, $\cos x< 1$, 故 $s'\left(x\right)=1-\cos x> 0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,\pi\right)$ 内单调递增.
+当 $x\in\left(0,\pi\right)$ 时, $\cos{x}<1$, 故 $s'\left(x\right)=1-\cos{x}>0$. 由**定义 5.3.1 (函数的单调性与导数的正负)**, $s\left(x\right)$ 在 $\left(0,\pi\right)$ 内单调递增.
 
-又 $s\left(0\right)=0$, 故当 $x\in\left(0,\pi\right)$ 时 $s\left(x\right)> s\left(0\right)=0$, 即 $x-\sin x> 0$, 亦即 $\sin x< x$. $\blacksquare$
+又 $s\left(0\right)=0$, 故当 $x\in\left(0,\pi\right)$ 时 $s\left(x\right)>{}s\left(0\right)=0$, 即 $x-\sin{x}>0$, 亦即 $\sin{x}<{}x$. $\blacksquare$
 
 ## 练习十
 
-(练习 5.3 第 12 题) 如图, 用铁丝围成一个上面是半圆, 下面是矩形的图形, 其面积为 $a\ \mathrm{m^{2}}$. 为使所用材料最省, 圆的直径应为多少? 
+(练习 5.3 第 12 题) 如图, 用铁丝围成一个上面是半圆, 下面是矩形的图形, 其面积为 $a\,\mathrm{m^{2}}$. 为使所用材料最省, 圆的直径应为多少? 
 
-该图为铁丝围成的图形:上方是一个半圆(直径水平,向上凸),下方接一个矩形(矩形的上边即半圆的直径,矩形向下延伸),整体由一条连续铁丝围成,总面积为 $a\ \mathrm{m^{2}}$.
+该图为铁丝围成的图形:上方是一个半圆(直径水平,向上凸),下方接一个矩形(矩形的上边即半圆的直径,矩形向下延伸),整体由一条连续铁丝围成,总面积为 $a\,\mathrm{m^{2}}$.
 
 ### 解答 练习十
 
 设圆的直径为 $x$, 则半圆半径为 $\frac{x}{2}$. 设矩形的高为 $h$.
 
-面积为 $a=\frac{1}{2}\pi\left(\frac{x}{2}\right)^{2}+xh=\frac{\pi x^{2}}{8}+xh$, 故 $h=\frac{a}{x}-\frac{\pi x}{8}$.
+面积为 $a=\frac{1}{2}\pi\left(\frac{x}{2}\right)^{2}+xh=\frac{\pi{x}^{2}}{8}+xh$, 故 $h=\frac{a}{x}-\frac{\pi{x}}{8}$.
 
 所用材料总长 (铁丝长) 为
 
 $$
-L=\frac{\pi x}{2}+x+2h=\frac{\pi x}{2}+x+2\left(\frac{a}{x}-\frac{\pi x}{8}\right)=\frac{\pi x}{4}+x+\frac{2a}{x}.
+L=\frac{\pi{x}}{2}+x+2h=\frac{\pi{x}}{2}+x+2\left(\frac{a}{x}-\frac{\pi{x}}{8}\right)=\frac{\pi{x}}{4}+x+\frac{2a}{x}.
 $$
 
 求导, $L'\left(x\right)=\frac{\pi}{4}+1-\frac{2a}{x^{2}}$. 令 $L'\left(x\right)=0$, 得 $x^{2}=\frac{2a}{1+\frac{\pi}{4}}=\frac{8a}{4+\pi}$.
 
-当 $x$ 小于此值时 $L'\left(x\right)< 0$, 当 $x$ 大于此值时 $L'\left(x\right)> 0$, 故此点为最小值点.
+当 $x$ 小于此值时 $L'\left(x\right)<0$, 当 $x$ 大于此值时 $L'\left(x\right)>0$, 故此点为最小值点.
 
-故当圆的直径为 $x=\sqrt{\frac{8a}{4+\pi}}\ \mathrm{m}$ 时, 所用材料最省. $\blacksquare$
+故当圆的直径为 $x=\sqrt{\frac{8a}{4+\pi}}\,\mathrm{m}$ 时, 所用材料最省. $\blacksquare$
 
 ## 习题一
 
@@ -222,7 +222,7 @@ $$
 
 (1) $f\left(x\right)=-2x+1$;
 
-(2) $f\left(x\right)=x+\cos x$, $x\in\left(0,\frac{\pi}{2}\right)$;
+(2) $f\left(x\right)=x+\cos{x}$, $x\in\left(0,\frac{\pi}{2}\right)$;
 
 (3) $f\left(x\right)=2x-4$;
 
@@ -232,13 +232,13 @@ $$
 
 由**定义 5.3.1 (函数的单调性与导数的正负)**.
 
-(1) $f'\left(x\right)=-2< 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递减.
+(1) $f'\left(x\right)=-2<0$, 故 $f\left(x\right)$ 在 $\mathbb{R}$ 上单调递减.
 
-(2) $f'\left(x\right)=1-\sin x$. 当 $x\in\left(0,\frac{\pi}{2}\right)$ 时 $0< \sin x< 1$, 故 $f'\left(x\right)> 0$. 故 $f\left(x\right)$ 在 $\left(0,\frac{\pi}{2}\right)$ 内单调递增.
+(2) $f'\left(x\right)=1-\sin{x}$. 当 $x\in\left(0,\frac{\pi}{2}\right)$ 时 $0<\sin{x}<1$, 故 $f'\left(x\right)>0$. 故 $f\left(x\right)$ 在 $\left(0,\frac{\pi}{2}\right)$ 内单调递增.
 
-(3) $f'\left(x\right)=2> 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递增.
+(3) $f'\left(x\right)=2>0$, 故 $f\left(x\right)$ 在 $\mathbb{R}$ 上单调递增.
 
-(4) $f'\left(x\right)=6x^{2}+4> 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递增. $\blacksquare$
+(4) $f'\left(x\right)=6x^{2}+4>0$, 故 $f\left(x\right)$ 在 $\mathbb{R}$ 上单调递增. $\blacksquare$
 
 ## 习题二
 
@@ -260,7 +260,7 @@ $$
 
 (2) $f'\left(x\right)=4x-3$. 令 $f'\left(x\right)=0$, 得 $x=\frac{3}{4}$. 故在 $\left(-\infty,\frac{3}{4}\right)$ 内递减, 在 $\left(\frac{3}{4},+\infty\right)$ 内递增.
 
-(3) $f'\left(x\right)=3+3x^{2}> 0$, 故 $f\left(x\right)$ 在 $\mathbb R$ 上单调递增.
+(3) $f'\left(x\right)=3+3x^{2}>0$, 故 $f\left(x\right)$ 在 $\mathbb{R}$ 上单调递增.
 
 (4) $f'\left(x\right)=3x^{2}+2x-1=\left(3x-1\right)\left(x+1\right)$. 令 $f'\left(x\right)=0$, 得 $x=-1$ 或 $x=\frac{1}{3}$. 故在 $\left(-\infty,-1\right)$ 与 $\left(\frac{1}{3},+\infty\right)$ 内递增, 在 $\left(-1,\frac{1}{3}\right)$ 内递减. $\blacksquare$
 
@@ -328,7 +328,7 @@ $$
 
 (2) $f'\left(x\right)=3x^{2}-12=3\left(x^{2}-4\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm2$. $x=-2$ 处左正右负, 极大值 $f\left(-2\right)=16$; $x=2$ 处左负右正, 极小值 $f\left(2\right)=-16$.
 
-(3) $f'\left(x\right)=-12+3x^{2}=3\left(x^{2}-4\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm2$. $x=-2$ 处左负右正, 极小值 $f\left(-2\right) =-10$; $x=2$ 处左正右负, 极大值 $f\left(2\right)=-10$.
+(3) $f'\left(x\right)=-12+3x^{2}=3\left(x^{2}-4\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm2$. $x=-2$ 处左负右正, 极小值 $f\left(-2\right)=-10$; $x=2$ 处左正右负, 极大值 $f\left(2\right)=-10$.
 
 (4) $f'\left(x\right)=48-3x^{2}=3\left(16-x^{2}\right)$, 令 $f'\left(x\right)=0$, 得 $x=\pm4$. $x=-4$ 处左负右正, 极小值 $f\left(-4\right)=-128$; $x=4$ 处左正右负, 极大值 $f\left(4\right)=128$. $\blacksquare$
 
@@ -352,7 +352,7 @@ $$
 
 (2) 零点 $x=\pm2\in\left[-3,3\right]$. 比较 $f\left(-3\right)=9$, $f\left(-2\right)=16$, $f\left(2\right)=-16$, $f\left(3\right)=-9$. 最大值 $16$, 最小值 $-16$.
 
-(3) 零点 $x=\pm2$, 在 $\left[-\frac{1}{3},1\right]$ 内无零点 ($f'\left(x\right)< 0$). 比较 $f\left(-\frac{1}{3}\right)=\frac{115}{27}$, $f\left(1\right)=-5$. 最大值 $\frac{115}{27}$, 最小值 $-5$.
+(3) 零点 $x=\pm2$, 在 $\left[-\frac{1}{3},1\right]$ 内无零点 ($f'\left(x\right)<0$). 比较 $f\left(-\frac{1}{3}\right)=\frac{115}{27}$, $f\left(1\right)=-5$. 最大值 $\frac{115}{27}$, 最小值 $-5$.
 
 (4) 零点 $x=\pm4$, 在 $\left[-3,5\right]$ 内零点为 $x=4$. 比较 $f\left(-3\right)=-117$, $f\left(4\right)=128$, $f\left(5\right)=115$. 最大值 $128$, 最小值 $-117$. $\blacksquare$
 
@@ -370,7 +370,7 @@ $$
 
 求导, $S'=\frac{2x-2\left(l-x\right)}{16}=\frac{2x-l}{8}$. 令 $S'=0$, 得 $x=\frac{l}{2}$.
 
-当 $x< \frac{l}{2}$ 时 $S'< 0$, 当 $x> \frac{l}{2}$ 时 $S'> 0$, 故 $x=\frac{l}{2}$ 为最小值点.
+当 $x<\frac{l}{2}$ 时 $S'<0$, 当 $x>\frac{l}{2}$ 时 $S'>0$, 故 $x=\frac{l}{2}$ 为最小值点.
 
 故两段铁丝长度均为 $\frac{l}{2}$ 时, 两个正方形面积和最小. $\blacksquare$
 
@@ -387,14 +387,14 @@ $$
 (1) 截去四角后, 方盒底面为边长 $a-2x$ 的正方形, 高为 $x$, 故
 
 $$
-V\left(x\right)=x\left(a-2x\right)^{2},\quad 0< x< \frac{a}{2}.
+V\left(x\right)=x\left(a-2x\right)^{2},\quad0<{}x<\frac{a}{2}.
 $$
 
 (2) 求导, $V'\left(x\right)=\left(a-2x\right)^{2}+x\cdot2\left(a-2x\right)\left(-2\right)=\left(a-2x\right)\left(a-6x\right)$.
 
 令 $V'\left(x\right)=0$, 在 $\left(0,\frac{a}{2}\right)$ 内得 $x=\frac{a}{6}$.
 
-当 $0< x< \frac{a}{6}$ 时 $V'\left(x\right)> 0$, 当 $\frac{a}{6}< x< \frac{a}{2}$ 时 $V'\left(x\right)< 0$, 故 $x=\frac{a}{6}$ 为最大值点.
+当 $0<{}x<\frac{a}{6}$ 时 $V'\left(x\right)>0$, 当 $\frac{a}{6}<{}x<\frac{a}{2}$ 时 $V'\left(x\right)<0$, 故 $x=\frac{a}{6}$ 为最大值点.
 
 故当 $x=\frac{a}{6}$ 时, 方盒容积最大. $\blacksquare$
 
@@ -412,7 +412,7 @@ $$
 
 令 $f'\left(x\right)=0$, 得 $\sum_{i=1}^{n}a_{i}-nx=0$, 即 $x=\frac{1}{n}\sum_{i=1}^{n}a_{i}=\overline{x}$.
 
-又 $f''\left(x\right)=\frac{2}{n}\cdot n=2> 0$, 故 $x=\overline{x}$ 为极小值点, 亦即最小值点.
+又 $f''\left(x\right)=\frac{2}{n}\cdot{n}=2>0$, 故 $x=\overline{x}$ 为极小值点, 亦即最小值点.
 
 故当 $x=\overline{x}$ 时, $f\left(x\right)$ 取得最小值. $\blacksquare$
 
@@ -430,7 +430,7 @@ $$
 
 求导, $L'\left(q\right)=-\frac{1}{4}q+21$. 令 $L'\left(q\right)=0$, 得 $q=84$.
 
-当 $q< 84$ 时 $L'\left(q\right)> 0$, 当 $q> 84$ 时 $L'\left(q\right)< 0$, 故 $q=84$ 为最大值点.
+当 $q<84$ 时 $L'\left(q\right)>0$, 当 $q>84$ 时 $L'\left(q\right)<0$, 故 $q=84$ 为最大值点.
 
 故产量 $q=84$ 时, 利润最大. $\blacksquare$
 
@@ -462,21 +462,21 @@ $$
 
 (习题 5.3 拓广探索第 12 题) 利用函数的单调性, 证明下列不等式, 并通过函数图象直观验证: 
 
-(1) $\mathrm e^{x}> 1+x$, $x\neq0$;
+(1) $\mathrm{e}^{x}>1+x$, $x\neq0$;
 
-(2) $\ln x< x< \mathrm e^{x}$, $x> 0$.
+(2) $\ln{x}<{}x<\mathrm{e}^{x}$, $x>0$.
 
-该图为在同一坐标系中画出的四条曲线:直线 $y=1+x$,指数曲线 $y=\mathrm e^{x}$(始终在 $y=1+x$ 上方,仅在 $x=0$ 处相切),对数曲线 $y=\ln x$ 与直线 $y=x$($y=\ln x$ 始终在 $y=x$ 下方),直观显示 $\mathrm e^{x}> 1+x$ 与 $\ln x< x< \mathrm e^{x}$.
+该图为在同一坐标系中画出的四条曲线:直线 $y=1+x$,指数曲线 $y=\mathrm{e}^{x}$(始终在 $y=1+x$ 上方,仅在 $x=0$ 处相切),对数曲线 $y=\ln{x}$ 与直线 $y=x$($y=\ln{x}$ 始终在 $y=x$ 下方),直观显示 $\mathrm{e}^{x}>1+x$ 与 $\ln{x}<{}x<\mathrm{e}^{x}$.
 
 ### 解答 习题十二
 
-(1) 设 $s\left(x\right)=\mathrm e^{x}-1-x$, 则 $s'\left(x\right)=\mathrm e^{x}-1$. 当 $x> 0$ 时 $s'\left(x\right)> 0$, 当 $x< 0$ 时 $s'\left(x\right)< 0$. 故 $x=0$ 是最小值点, 最小值 $s\left(0\right)=0$. 故当 $x\neq0$ 时 $s\left(x\right)> 0$, 即 $\mathrm e^{x}> 1+x$.
+(1) 设 $s\left(x\right)=\mathrm{e}^{x}-1-x$, 则 $s'\left(x\right)=\mathrm{e}^{x}-1$. 当 $x>0$ 时 $s'\left(x\right)>0$, 当 $x<0$ 时 $s'\left(x\right)<0$. 故 $x=0$ 是最小值点, 最小值 $s\left(0\right)=0$. 故当 $x\neq0$ 时 $s\left(x\right)>0$, 即 $\mathrm{e}^{x}>1+x$.
 
-(2) 先证 $\ln x< x$. 设 $s\left(x\right)=x-\ln x$, 则 $s'\left(x\right)=1-\frac{1}{x}$. 令 $s'\left(x\right)=0$, 得 $x=1$, 最小值 $s\left(1\right)=1> 0$. 故 $\ln x< x$.
+(2) 先证 $\ln{x}<{}x$. 设 $s\left(x\right)=x-\ln{x}$, 则 $s'\left(x\right)=1-\frac{1}{x}$. 令 $s'\left(x\right)=0$, 得 $x=1$, 最小值 $s\left(1\right)=1>0$. 故 $\ln{x}<{}x$.
 
-再证 $x< \mathrm e^{x}$. 由 (1), 当 $x> 0$ 时 $\mathrm e^{x}> 1+x> x$. 故 $x< \mathrm e^{x}$.
+再证 $x<\mathrm{e}^{x}$. 由 (1), 当 $x>0$ 时 $\mathrm{e}^{x}>1+x>{}x$. 故 $x<\mathrm{e}^{x}$.
 
-综上, $\ln x< x< \mathrm e^{x}$, $x> 0$. $\blacksquare$
+综上, $\ln{x}<{}x<\mathrm{e}^{x}$, $x>0$. $\blacksquare$
 
 ## 习题十三
 
@@ -490,7 +490,7 @@ $$
 
 ### 解答 习题十三
 
-(1) 三次函数 $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ 的图象是一条" $\mathrm S$ "形曲线. 当 $a> 0$ 时, 左端向下, 右端向上; 当 $a< 0$ 时, 左端向上, 右端向下. 图象一般有一个极大值点和一个极小值点, 单调区间在两点之间交替.
+(1) 三次函数 $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ 的图象是一条" $\mathrm{S}$ "形曲线. 当 $a>0$ 时, 左端向下, 右端向上; 当 $a<0$ 时, 左端向上, 右端向下. 图象一般有一个极大值点和一个极小值点, 单调区间在两点之间交替.
 
 (2) 对 $f\left(x\right)=ax^{3}+bx^{2}+cx+d$ 求导, 得
 
@@ -500,6 +500,6 @@ $$
 
 当 $a=-4,b=1,c=5$ 时, $f'\left(x\right)=-12x^{2}+2x+5$. 令 $f'\left(x\right)=0$, 即 $12x^{2}-2x-5=0$, 解得 $x=\frac{2\pm\sqrt{4+240}}{24}=\frac{2\pm\sqrt{244}}{24}=\frac{1\pm\sqrt{61}}{12}$.
 
-当 $f'\left(x\right)> 0$ 时函数递增, 当 $f'\left(x\right)< 0$ 时函数递减. 由 $a=-12< 0$, 故在两根之间 $f'\left(x\right)> 0$, 两根之外 $f'\left(x\right)< 0$.
+当 $f'\left(x\right)>0$ 时函数递增, 当 $f'\left(x\right)<0$ 时函数递减. 由 $a=-12<0$, 故在两根之间 $f'\left(x\right)>0$, 两根之外 $f'\left(x\right)<0$.
 
 故 $f\left(x\right)$ 在 $\left(-\infty,\frac{1-\sqrt{61}}{12}\right)$ 与 $\left(\frac{1+\sqrt{61}}{12},+\infty\right)$ 内单调递减, 在 $\left(\frac{1-\sqrt{61}}{12},\frac{1+\sqrt{61}}{12}\right)$ 内单调递增. $\blacksquare$

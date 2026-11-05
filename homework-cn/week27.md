@@ -50,19 +50,19 @@
 
 ## 习题一
 
-(习题 7.1 综合运用第 8 题) 设 $z\in\mathbb C$, 在复平面内 $z$ 对应的点为 $Z$, 那么满足下列条件的点 $Z$ 的集合是什么图形?
+(习题 7.1 综合运用第 8 题) 设 $z\in\mathbb{C}$, 在复平面内 $z$ 对应的点为 $Z$, 那么满足下列条件的点 $Z$ 的集合是什么图形?
 
-(1) $\lvert z\rvert=3$;
+(1) $\lvert{z}\rvert=3$;
 
-(2) $2\le \lvert z\rvert< 5$.
+(2) $2\le\lvert{z}\rvert<5$.
 
 ### 解答 习题一
 
-由**定义 7.1.9 (复数的模)**, $\lvert z\rvert$ 即向量 $\boldsymbol{OZ}$ 的长度, 也就是点 $Z$ 到原点 $O$ 的距离.
+由**定义 7.1.9 (复数的模)**, $\lvert{z}\rvert$ 即向量 $\boldsymbol{OZ}$ 的长度, 也就是点 $Z$ 到原点 $O$ 的距离.
 
-(1) $\lvert z\rvert=3$ 即点 $Z$ 到原点 $O$ 的距离恒为 $3$. 由平面几何, 点 $Z$ 的集合是以原点 $O$ 为圆心, 以 $3$ 为半径的圆.
+(1) $\lvert{z}\rvert=3$ 即点 $Z$ 到原点 $O$ 的距离恒为 $3$. 由平面几何, 点 $Z$ 的集合是以原点 $O$ 为圆心, 以 $3$ 为半径的圆.
 
-(2) $\lvert z\rvert< 5$ 表示点 $Z$ 到原点的距离小于 $5$, 即以 $O$ 为圆心, 以 $5$ 为半径的圆的内部; $\lvert z\rvert\ge 2$ 表示点 $Z$ 到原点的距离不小于 $2$, 即以 $O$ 为圆心, 以 $2$ 为半径的圆的外部 (含圆周). 两者交集为: 以 $O$ 为圆心, 以 $2$ 及 $5$ 为半径的两个圆所夹的圆环, 其中内圆周 ( $\lvert z\rvert=2$ ) 包含在内, 外圆周 ( $\lvert z\rvert=5$ ) 不包含在内. $\blacksquare$
+(2) $\lvert{z}\rvert<5$ 表示点 $Z$ 到原点的距离小于 $5$, 即以 $O$ 为圆心, 以 $5$ 为半径的圆的内部; $\lvert{z}\rvert\ge2$ 表示点 $Z$ 到原点的距离不小于 $2$, 即以 $O$ 为圆心, 以 $2$ 为半径的圆的外部 (含圆周). 两者交集为: 以 $O$ 为圆心, 以 $2$ 及 $5$ 为半径的两个圆所夹的圆环, 其中内圆周 ( $\lvert{z}\rvert=2$ ) 包含在内, 外圆周 ( $\lvert{z}\rvert=5$ ) 不包含在内. $\blacksquare$
 
 ## 习题二
 
@@ -70,9 +70,9 @@
 
 ### 解答 习题二
 
-由**定义 7.1.8 (复数的几何意义)**, 复数 $z=a+b\mathrm{i}$ 对应点 $Z\left(a,b\right)$. 已知虚部 $b=3$, 实部 $a> 0$, 故点 $Z$ 的纵坐标恒为 $3$, 横坐标为正.
+由**定义 7.1.8 (复数的几何意义)**, 复数 $z=a+b\mathrm{i}$ 对应点 $Z\left(a,b\right)$. 已知虚部 $b=3$, 实部 $a>0$, 故点 $Z$ 的纵坐标恒为 $3$, 横坐标为正.
 
-因此, 点 $Z$ 的集合是直线 $y=3$ 上位于第一象限的部分, 即射线 $y=3\ \left(x> 0\right)$, 不含端点 $\left(0,3\right)$. $\blacksquare$
+因此, 点 $Z$ 的集合是直线 $y=3$ 上位于第一象限的部分, 即射线 $y=3\,\left(x>0\right)$, 不含端点 $\left(0,3\right)$. $\blacksquare$
 
 ## 习题三
 
@@ -80,13 +80,13 @@
 
 ### 解答 习题三
 
-设 $z=a+\sqrt{3}\mathrm{i}\ \left(a\in\mathbb R\right)$. 由**定义 7.1.9 (复数的模)**, $\lvert z\rvert=\sqrt{a^2+\left(\sqrt{3}\right)^2}=\sqrt{a^2+3}$. 由已知 $\lvert z\rvert=2$, 得
+设 $z=a+\sqrt{3}\mathrm{i}\,\left(a\in\mathbb{R}\right)$. 由**定义 7.1.9 (复数的模)**, $\lvert{z}\rvert=\sqrt{a^2+\left(\sqrt{3}\right)^2}=\sqrt{a^2+3}$. 由已知 $\lvert{z}\rvert=2$, 得
 
 $$
 \sqrt{a^2+3}=2.
 $$
 
-两边平方, 得 $a^2+3=4$, 即 $a^2=1$, 故 $a=\pm 1$. 因此 $z=1+\sqrt{3}\mathrm{i}$ 或 $z=-1+\sqrt{3}\mathrm{i}$. $\blacksquare$
+两边平方, 得 $a^2+3=4$, 即 $a^2=1$, 故 $a=\pm1$. 因此 $z=1+\sqrt{3}\mathrm{i}$ 或 $z=-1+\sqrt{3}\mathrm{i}$. $\blacksquare$
 
 ## 习题四
 
@@ -99,19 +99,19 @@ $$
 由**定义 7.1.9 (复数的模)**, 计算各点到原点的距离:
 
 $$
-\lvert z_1\rvert=\sqrt{1^2+2^2}=\sqrt{5},
+\lvert{z}_1\rvert=\sqrt{1^2+2^2}=\sqrt{5},
 $$
 
 $$
-\lvert z_2\rvert=\sqrt{\left(\sqrt{2}\right)^2+\left(\sqrt{3}\right)^2}=\sqrt{2+3}=\sqrt{5},
+\lvert{z}_2\rvert=\sqrt{\left(\sqrt{2}\right)^2+\left(\sqrt{3}\right)^2}=\sqrt{2+3}=\sqrt{5},
 $$
 
 $$
-\lvert z_3\rvert=\sqrt{\left(\sqrt{3}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{3+2}=\sqrt{5},
+\lvert{z}_3\rvert=\sqrt{\left(\sqrt{3}\right)^2+\left(-\sqrt{2}\right)^2}=\sqrt{3+2}=\sqrt{5},
 $$
 
 $$
-\lvert z_4\rvert=\sqrt{\left(-2\right)^2+1^2}=\sqrt{5}.
+\lvert{z}_4\rvert=\sqrt{\left(-2\right)^2+1^2}=\sqrt{5}.
 $$
 
 四点到原点 $O$ 的距离都等于 $\sqrt{5}$, 即四点都在以原点 $O$ 为圆心, 以 $\sqrt{5}$ 为半径的圆上. 故这 $4$ 个点在同一个圆上. $\blacksquare$
@@ -170,7 +170,7 @@ $$
 
 ### 解答 练习三
 
-设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}$, $z_3=e+f\mathrm{i}\ \left(a,b,c,d,e,f\in\mathbb R\right)$.
+设 $z_1=a+b\mathrm{i}$, $z_2=c+d\mathrm{i}$, $z_3=e+f\mathrm{i}\,\left(a,b,c,d,e,f\in\mathbb{R}\right)$.
 
 由**定义 7.2.1 (复数加法法则)**,
 
@@ -206,18 +206,18 @@ $$
 
 ### 解答 练习四
 
-由**常用结论 7.2.4** (复数加, 减法的几何意义), 两点之间的距离为 $\lvert z_2-z_1\rvert$.
+由**常用结论 7.2.4** (复数加, 减法的几何意义), 两点之间的距离为 $\lvert{z}_2-z_1\rvert$.
 
 (1) $z_2-z_1=\left(3-\mathrm{i}\right)-\left(2+\mathrm{i}\right)=1-2\mathrm{i}$. 由**定义 7.1.9 (复数的模)**,
 
 $$
-\lvert z_2-z_1\rvert=\lvert1-2\mathrm{i}\rvert=\sqrt{1^2+\left(-2\right)^2}=\sqrt{5}.
+\lvert{z}_2-z_1\rvert=\lvert1-2\mathrm{i}\rvert=\sqrt{1^2+\left(-2\right)^2}=\sqrt{5}.
 $$
 
 (2) $z_4-z_3=\left(4+2\mathrm{i}\right)-\left(8+5\mathrm{i}\right)=-4-3\mathrm{i}$. 由**定义 7.1.9 (复数的模)**,
 
 $$
-\lvert z_4-z_3\rvert=\lvert-4-3\mathrm{i}\rvert=\sqrt{\left(-4\right)^2+\left(-3\right)^2}=5.
+\lvert{z}_4-z_3\rvert=\lvert-4-3\mathrm{i}\rvert=\sqrt{\left(-4\right)^2+\left(-3\right)^2}=5.
 $$
 
 故两点间距离分别为 $\sqrt{5}$ 与 $5$. $\blacksquare$
@@ -300,7 +300,7 @@ $$
 
 (1) 由 $9x^2+16=0$, 得 $x^2=-\frac{16}{9}$. 因为 $\left(\frac{4}{3}\mathrm{i}\right)^2=\left(-\frac{4}{3}\mathrm{i}\right)^2=-\frac{16}{9}$, 所以 $x=\pm\frac{4}{3}\mathrm{i}$.
 
-(2) 方程 $x^2+x+1=0$ 中 $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3< 0$. 由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**,
+(2) 方程 $x^2+x+1=0$ 中 $a=1$, $b=1$, $c=1$, $\Delta=1-4=-3<0$. 由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**,
 
 $$
 x=\frac{-1\pm\sqrt{3}\,\mathrm{i}}{2}.
@@ -343,11 +343,11 @@ $$
 点 $A$ 对应复数 $6+5\mathrm{i}$, 点 $B$ 对应复数 $-3+4\mathrm{i}$.
 
 $$
-\boldsymbol{AB}\text{ 对应复数}=\left(-3+4\mathrm{i}\right)-\left(6+5\mathrm{i}\right)=-9-\mathrm{i}.
+\boldsymbol{AB}\text{~对应复数}=\left(-3+4\mathrm{i}\right)-\left(6+5\mathrm{i}\right)=-9-\mathrm{i}.
 $$
 
 $$
-\boldsymbol{BA}\text{ 对应复数}=\left(6+5\mathrm{i}\right)-\left(-3+4\mathrm{i}\right)=9+\mathrm{i}.
+\boldsymbol{BA}\text{~对应复数}=\left(6+5\mathrm{i}\right)-\left(-3+4\mathrm{i}\right)=9+\mathrm{i}.
 $$
 
 $\blacksquare$
@@ -428,13 +428,13 @@ $\blacksquare$
 
 由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)**.
 
-(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4< 0$. 故
+(1) $a=1$, $b=4$, $c=5$, $\Delta=16-20=-4<0$. 故
 
 $$
-x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm 2\mathrm{i}}{2}=-2\pm\mathrm{i}.
+x=\frac{-4\pm\sqrt{4}\,\mathrm{i}}{2}=\frac{-4\pm2\mathrm{i}}{2}=-2\pm\mathrm{i}.
 $$
 
-(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23< 0$. 故
+(2) $a=2$, $b=-3$, $c=4$, $\Delta=9-32=-23<0$. 故
 
 $$
 x=\frac{3\pm\sqrt{23}\,\mathrm{i}}{4}.
@@ -488,13 +488,13 @@ $\blacksquare$
 
 ## 习题十三
 
-(习题 7.2 拓广探索第 9 题) 若 $z=x+y\mathrm{i}\ \left(x,y\in\mathbb R\right)$, 则复平面内满足 $\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ 的点 $Z$ 的集合是什么图形?
+(习题 7.2 拓广探索第 9 题) 若 $z=x+y\mathrm{i}\,\left(x,y\in\mathbb{R}\right)$, 则复平面内满足 $\lvert{z}-\left(2+\mathrm{i}\right)\rvert=3$ 的点 $Z$ 的集合是什么图形?
 
 ### 解答 习题十三
 
-由**定义 7.1.9 (复数的模)** 与**常用结论 7.2.4** (复数减法的几何意义), $\lvert z-\left(2+\mathrm{i}\right)\rvert$ 表示点 $Z\left(x,y\right)$ 与点 $\left(2,1\right)$ 之间的距离.
+由**定义 7.1.9 (复数的模)** 与**常用结论 7.2.4** (复数减法的几何意义), $\lvert{z}-\left(2+\mathrm{i}\right)\rvert$ 表示点 $Z\left(x,y\right)$ 与点 $\left(2,1\right)$ 之间的距离.
 
-$\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ 即点 $Z$ 到定点 $\left(2,1\right)$ 的距离恒为 $3$. 故点 $Z$ 的集合是以点 $\left(2,1\right)$ 为圆心, 以 $3$ 为半径的圆. $\blacksquare$
+$\lvert{z}-\left(2+\mathrm{i}\right)\rvert=3$ 即点 $Z$ 到定点 $\left(2,1\right)$ 的距离恒为 $3$. 故点 $Z$ 的集合是以点 $\left(2,1\right)$ 为圆心, 以 $3$ 为半径的圆. $\blacksquare$
 
 ## 习题十四
 
@@ -504,13 +504,13 @@ $\lvert z-\left(2+\mathrm{i}\right)\rvert=3$ 即点 $Z$ 到定点 $\left(2,1\rig
 
 在复数集中对实系数多项式进行因式分解, 可观察到以下规律.
 
-由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)** 及**定义 7.2.5 (复数乘法法则)**, 任何实系数多项式在复数集中都可以分解为若干一次因式的乘积, 其中虚根以共轭成对的形式出现. 即若 $a+b\mathrm{i}\ \left(b\neq 0\right)$ 是实系数多项式的根, 则 $a-b\mathrm{i}$ 也是它的根, 对应的一次因式为 $\left(x-a-b\mathrm{i}\right)\left(x-a+b\mathrm{i}\right)=\left(x-a\right)^2+b^2$.
+由**定义 7.2.8 (实系数一元二次方程在复数范围内的求根公式)** 及**定义 7.2.5 (复数乘法法则)**, 任何实系数多项式在复数集中都可以分解为若干一次因式的乘积, 其中虚根以共轭成对的形式出现. 即若 $a+b\mathrm{i}\,\left(b\neq0\right)$ 是实系数多项式的根, 则 $a-b\mathrm{i}$ 也是它的根, 对应的一次因式为 $\left(x-a-b\mathrm{i}\right)\left(x-a+b\mathrm{i}\right)=\left(x-a\right)^2+b^2$.
 
 例如, $x^2+1=\left(x+\mathrm{i}\right)\left(x-\mathrm{i}\right)$, $x^4-1=\left(x-1\right)\left(x+1\right)\left(x-\mathrm{i}\right)\left(x+\mathrm{i}\right)$. 这表明在复数集中, 每个实系数多项式都能完全分解为一次因式的乘积, 且虚根成对出现. $\blacksquare$
 
 ## 阅读与思考一
 
-(思考 1) 由代数基本定理可以得到: 任何一元 $n\ \left(n\in\mathbb N^*\right)$ 次复系数多项式 $f\left(x\right)$ 在复数集中可以分解为 $n$ 个一次因式的乘积. 进而, 一元 $n$ 次多项式方程有 $n$ 个复数根 (重根按重数计). 你能给出证明吗?
+(思考 1) 由代数基本定理可以得到: 任何一元 $n\,\left(n\in\mathbb{N}^*\right)$ 次复系数多项式 $f\left(x\right)$ 在复数集中可以分解为 $n$ 个一次因式的乘积. 进而, 一元 $n$ 次多项式方程有 $n$ 个复数根 (重根按重数计). 你能给出证明吗?
 
 ### 解答 阅读与思考一
 

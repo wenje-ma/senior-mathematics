@@ -92,7 +92,7 @@ By **Formula 5.5.7** and **Formula 5.5.8**.
 
 By **Formula 5.5.7** and **Formula 5.5.3**.
 
-From $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, we get $\sin2\alpha=\frac{24}{25}$. Also $0\leq\alpha\leq\pi$ and $\sin\alpha-\cos\alpha=\frac{1}{5}> 0$, giving $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. From $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. If $\cos2\alpha=\frac{7}{25}$, then $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ does not hold; hence $\cos2\alpha=-\frac{7}{25}$.
+From $\left(\sin\alpha-\cos\alpha\right)^{2}=\frac{1}{25}=1-\sin2\alpha$, we get $\sin2\alpha=\frac{24}{25}$. Also $0\leq\alpha\leq\pi$ and $\sin\alpha-\cos\alpha=\frac{1}{5}>0$, giving $\alpha\in\left(\frac{\pi}{4},\pi\right)$, $2\alpha\in\left(\frac{\pi}{2},2\pi\right)$. From $\cos2\alpha=\pm\sqrt{1-\frac{576}{625}}=\pm\frac{7}{25}$. If $\cos2\alpha=\frac{7}{25}$, then $2\alpha\in\left(\frac{\pi}{2},\pi\right)$ does not hold; hence $\cos2\alpha=-\frac{7}{25}$.
 
 $$
 \sin\left(2\alpha-\frac{\pi}{4}\right)=\sin2\alpha\cos\frac{\pi}{4}-\cos2\alpha\sin\frac{\pi}{4}=\frac{\sqrt{2}}{2}\left(\frac{24}{25}+\frac{7}{25}\right)=\frac{31\sqrt{2}}{50}.
@@ -102,13 +102,13 @@ $\blacksquare$
 
 ## Problem 3
 
-(Review Reference Problem 5, Comprehensive Application, Problem 18) Given $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, find the value of $\frac{\sin2x+2\sin^{2}x}{1-\tan x}$.
+(Review Reference Problem 5, Comprehensive Application, Problem 18) Given $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$, $\frac{17\pi}{12}<{}x<\frac{7\pi}{4}$, find the value of $\frac{\sin2x+2\sin^{2}x}{1-\tan{x}}$.
 
 ### Solution to Problem 3
 
 By **Formula 5.5.7** and **Formula 5.5.1**.
 
-From $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$ and $\frac{17\pi}{12}< x< \frac{7\pi}{4}$, we get $\frac{5\pi}{3}< \frac{\pi}{4}+x< 2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. Hence $\cos x-\sin x=\frac{3\sqrt{2}}{5}$, $\cos x+\sin x=-\frac{4\sqrt{2}}{5}$. Multiplying the two gives $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. Also $\left(\cos x-\sin x\right)^{2}=\frac{18}{25}=1-\sin2x$, giving $\sin2x=\frac{7}{25}$. The original expression $=\frac{2\sin x\left(\cos x+\sin x\right)}{1-\frac{\sin x}{\cos x}}=\frac{2\sin x\cos x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\sin2x\left(\cos x+\sin x\right)}{\cos x-\sin x}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
+From $\cos\left(\frac{\pi}{4}+x\right)=\frac{3}{5}$ and $\frac{17\pi}{12}<{}x<\frac{7\pi}{4}$, we get $\frac{5\pi}{3}<\frac{\pi}{4}+x<2\pi$, $\sin\left(\frac{\pi}{4}+x\right)=-\frac{4}{5}$. Hence $\cos{x}-\sin{x}=\frac{3\sqrt{2}}{5}$, $\cos{x}+\sin{x}=-\frac{4\sqrt{2}}{5}$. Multiplying the two gives $\cos^{2}x-\sin^{2}x=\cos2x=-\frac{24}{25}$. Also $\left(\cos{x}-\sin{x}\right)^{2}=\frac{18}{25}=1-\sin2x$, giving $\sin2x=\frac{7}{25}$. The original expression $=\frac{2\sin{x}\left(\cos{x}+\sin{x}\right)}{1-\frac{\sin{x}}{\cos{x}}}=\frac{2\sin{x}\cos{x}\left(\cos{x}+\sin{x}\right)}{\cos{x}-\sin{x}}=\frac{\sin2x\left(\cos{x}+\sin{x}\right)}{\cos{x}-\sin{x}}=\frac{\frac{7}{25}\times\left(-\frac{4\sqrt{2}}{5}\right)}{\frac{3\sqrt{2}}{5}}=-\frac{28}{75}$. $\blacksquare$
 
 ## Problem 4
 
@@ -124,7 +124,7 @@ Left side $=4\cos^{2}2\alpha=4\left(1-2\sin^{2}\alpha\right)^{2}$. From $4\sin^{
 
 ## Problem 5
 
-(Review Reference Problem 5, Comprehensive Application, Problem 20) Given the function $f\left(x\right)=\cos^{4}x-2\sin x\cos x-\sin^{4}x$.
+(Review Reference Problem 5, Comprehensive Application, Problem 20) Given the function $f\left(x\right)=\cos^{4}x-2\sin{x}\cos{x}-\sin^{4}x$.
 
 (1) Find the least positive period of $f\left(x\right)$;
 
@@ -140,7 +140,7 @@ By **Formula 5.5.7** and **Formula 5.5.8**.
 
 ## Problem 6
 
-(Review Reference Problem 5, Comprehensive Application, Problem 21) Given that the function $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos x+a$ has maximum value $1$.
+(Review Reference Problem 5, Comprehensive Application, Problem 21) Given that the function $f\left(x\right)=\sin\left(x+\frac{\pi}{6}\right)+\sin\left(x-\frac{\pi}{6}\right)+\cos{x}+a$ has maximum value $1$.
 
 (1) Find the value of the constant $a$;
 
@@ -152,11 +152,11 @@ By **Formula 5.5.7** and **Formula 5.5.8**.
 
 By **Formula 5.5.3** and **Formula 5.5.4**.
 
-(1) $f\left(x\right)=2\sin x\cos\frac{\pi}{6}+\cos x+a=\sqrt{3}\sin x+\cos x+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. The maximum value is $2+a=1$, hence $a=-1$.
+(1) $f\left(x\right)=2\sin{x}\cos\frac{\pi}{6}+\cos{x}+a=\sqrt{3}\sin{x}+\cos{x}+a=2\sin\left(x+\frac{\pi}{6}\right)+a$. The maximum value is $2+a=1$, hence $a=-1$.
 
-(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. The monotonically decreasing intervals are $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$.
+(2) $f\left(x\right)=2\sin\left(x+\frac{\pi}{6}\right)-1$. The monotonically decreasing intervals are $\left[\frac{\pi}{3}+2k\pi,\frac{4\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$.
 
-(3) From $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, we get $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. Hence $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb Z$. $\blacksquare$
+(3) From $2\sin\left(x+\frac{\pi}{6}\right)-1\geq0$, we get $\sin\left(x+\frac{\pi}{6}\right)\geq\frac{1}{2}$. Hence $x+\frac{\pi}{6}\in\left[\frac{\pi}{6}+2k\pi,\frac{5\pi}{6}+2k\pi\right]$, $x\in\left[2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## Problem 7
 
@@ -164,7 +164,7 @@ By **Formula 5.5.3** and **Formula 5.5.4**.
 
 (1) Find the value of the constant $m$;
 
-(2) When $x\in\mathbb R$, find the minimum value of the function $f\left(x\right)$ and the set of corresponding $x$.
+(2) When $x\in\mathbb{R}$, find the minimum value of the function $f\left(x\right)$ and the set of corresponding $x$.
 
 ### Solution to Problem 7
 
@@ -172,25 +172,25 @@ By **Formula 5.5.8** and the auxiliary angle formula.
 
 (1) $f\left(x\right)=\sqrt{3}\sin2x+\cos2x+1+m=2\sin\left(2x+\frac{\pi}{6}\right)+1+m$. From $x\in\left[0,\frac{\pi}{2}\right]$, $2x+\frac{\pi}{6}\in\left[\frac{\pi}{6},\frac{7\pi}{6}\right]$, the maximum is $2+1+m=6$, hence $m=3$.
 
-(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. The minimum value is $-2+4=2$, at which point $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb Z$. $\blacksquare$
+(2) $f\left(x\right)=2\sin\left(2x+\frac{\pi}{6}\right)+4$. The minimum value is $-2+4=2$, at which point $2x+\frac{\pi}{6}=\frac{3\pi}{2}+2k\pi$, $x=\frac{2\pi}{3}+k\pi$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## Problem 8
 
-(Review Reference Problem 5, Comprehensive Application, Problem 23) The square $ABCD$ has side length $1$, and $P$, $Q$ are points on sides $AB$, $DA$ respectively. When the perimeter of $\triangle APQ$ is $2$, find the size of $\angle PCQ$.
+(Review Reference Problem 5, Comprehensive Application, Problem 23) The square $ABCD$ has side length $1$, and $P$, $Q$ are points on sides $AB$, $DA$ respectively. When the perimeter of $\triangle{A}PQ$ is $2$, find the size of $\angle{P}CQ$.
 
 ### Solution to Problem 8
 
 By **Formula 5.5.5** (Tangent of a Sum).
 
-Let $AP=x$, $AQ=y$, then $x+y+\sqrt{x^{2}+y^{2}}=2$. Let $\angle BCP=\alpha$, $\angle DCQ=\beta$, then $\tan\alpha=1-x$, $\tan\beta=1-y$.
+Let $AP=x$, $AQ=y$, then $x+y+\sqrt{x^{2}+y^{2}}=2$. Let $\angle{B}CP=\alpha$, $\angle{D}CQ=\beta$, then $\tan\alpha=1-x$, $\tan\beta=1-y$.
 
 From $x+y+\sqrt{x^{2}+y^{2}}=2$, we get $\sqrt{x^{2}+y^{2}}=2-x-y$. Squaring gives $2xy=4-4x-4y+2xy$, i.e. $x+y=1$. Hence $y=1-x$.
 
 $\tan\left(\alpha+\beta\right)=\frac{\left(1-x\right)+\left(1-y\right)}{1-\left(1-x\right)\left(1-y\right)}=\frac{2-\left(x+y\right)}{1-\left(1-x-y+xy\right)}=\frac{1}{x+y-xy}=\frac{1}{1-xy}$. Also $xy=x\left(1-x\right)$.
 
-From $\angle PCQ=\frac{\pi}{2}-\alpha-\beta$, we get $\tan\angle PCQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. Also from $x+y=1$, $xy\leq\frac{1}{4}$.
+From $\angle{P}CQ=\frac{\pi}{2}-\alpha-\beta$, we get $\tan\angle{P}CQ=\cot\left(\alpha+\beta\right)=\frac{1-xy}{1}=1-xy$. Also from $x+y=1$, $xy\leq\frac{1}{4}$.
 
-From the conditions one can prove $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
+From the conditions one can prove $\angle{P}CQ=\frac{\pi}{4}$. $\blacksquare$
 
 ## Problem 9
 
@@ -204,39 +204,39 @@ From the conditions one can prove $\angle PCQ=\frac{\pi}{4}$. $\blacksquare$
 
 By **Formula 5.2.2** (Relations among Trigonometric Functions of the Same Angle).
 
-(1) From $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, we get $\sin2\beta=-\frac{24}{25}$. From $\beta\in\left(0,\pi\right)$ and $\sin\beta+\cos\beta=\frac{1}{5}> 0$, we get $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. Hence $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
+(1) From $\left(\sin\beta+\cos\beta\right)^{2}=\frac{1}{25}=1+\sin2\beta$, we get $\sin2\beta=-\frac{24}{25}$. From $\beta\in\left(0,\pi\right)$ and $\sin\beta+\cos\beta=\frac{1}{5}>0$, we get $\beta\in\left(\frac{\pi}{2},\frac{3\pi}{4}\right)$. Hence $\cos2\beta=-\frac{7}{25}$. $\tan\beta=\frac{\sin2\beta}{1+\cos2\beta}=\frac{-\frac{24}{25}}{1-\frac{7}{25}}=-\frac{4}{3}$.
 
 (2) One may construct problems finding $\sin\beta$, $\cos\beta$, $\sin2\beta$, $\cos2\beta$, etc. $\blacksquare$
 
 ## Problem 10
 
-(Review Reference Problem 5, Extension and Exploration, Problem 25) Given two parallel lines $l_{1}\parallel l_{2}$, let $A$ be a fixed point between $l_{1}$ and $l_{2}$, and the distances from $A$ to $l_{1}$ and $l_{2}$ are $h_{1}$ and $h_{2}$ respectively. Let $B$ be a moving point on the line $l_{2}$; draw $AC\perp AB$, with $AC$ meeting the line $l_{1}$ at point $C$. Let $\angle ABD=\alpha$.
+(Review Reference Problem 5, Extension and Exploration, Problem 25) Given two parallel lines $l_{1}\parallel{l}_{2}$, let $A$ be a fixed point between $l_{1}$ and $l_{2}$, and the distances from $A$ to $l_{1}$ and $l_{2}$ are $h_{1}$ and $h_{2}$ respectively. Let $B$ be a moving point on the line $l_{2}$; draw $AC\perp{A}B$, with $AC$ meeting the line $l_{1}$ at point $C$. Let $\angle{A}BD=\alpha$.
 
-(1) Write the analytic expression $S\left(\alpha\right)$ for the area $S$ of $\triangle ABC$ as a function of the angle $\alpha$;
+(1) Write the analytic expression $S\left(\alpha\right)$ for the area $S$ of $\triangle{A}BC$ as a function of the angle $\alpha$;
 
 (2) Sketch the graph of the above function;
 
 (3) From the graph in (2), find the minimum value of $S\left(\alpha\right)$.
 
-The figure: two parallel lines $l_1$ (upper) and $l_2$ (lower); the fixed point $A$ lies between them, at distance $h_1$ from $l_1$ and $h_2$ from $l_2$; the moving point $B$ lies on $l_2$, and the perpendicular from $A$ to $AB$ meets $l_1$ at point $C$, forming the right triangle $ABC$ ($\angle BAC=90^\circ$); $\angle ABD=\alpha$ is the angle between $AB$ and $l_2$ (with $D$ on $l_2$ on one side of $B$).
+The figure: two parallel lines $l_1$ (upper) and $l_2$ (lower); the fixed point $A$ lies between them, at distance $h_1$ from $l_1$ and $h_2$ from $l_2$; the moving point $B$ lies on $l_2$, and the perpendicular from $A$ to $AB$ meets $l_1$ at point $C$, forming the right triangle $ABC$ ($\angle{B}AC=90^\circ$); $\angle{A}BD=\alpha$ is the angle between $AB$ and $l_2$ (with $D$ on $l_2$ on one side of $B$).
 
 ### Solution to Problem 10
 
 By the definition of trigonometric functions.
 
-(1) From $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. Hence $S\left(\alpha\right)=\frac{1}{2}AB\cdot AC=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
+(1) From $AB=\frac{h_{2}}{\sin\alpha}$, $AC=\frac{h_{1}}{\cos\alpha}$. Hence $S\left(\alpha\right)=\frac{1}{2}AB\cdot{A}C=\frac{h_{1}h_{2}}{2\sin\alpha\cos\alpha}=\frac{h_{1}h_{2}}{\sin2\alpha}$.
 
 (2) The function is $S\left(\alpha\right)=\frac{h_{1}h_{2}}{\sin2\alpha}$, $\alpha\in\left(0,\frac{\pi}{2}\right)$.
 
-(3) From $\sin2\alpha\leq1$, we get $S\left(\alpha\right)\geq h_{1}h_{2}$, attaining the minimum $h_{1}h_{2}$ when $\alpha=\frac{\pi}{4}$. $\blacksquare$
+(3) From $\sin2\alpha\leq1$, we get $S\left(\alpha\right)\geq{h}_{1}h_{2}$, attaining the minimum $h_{1}h_{2}$ when $\alpha=\frac{\pi}{4}$. $\blacksquare$
 
 ## Problem 11
 
 (Review Reference Problem 5, Extension and Exploration, Problem 26) The British mathematician Taylor gave the following formulas:
 
-$\sin x=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots$,
+$\sin{x}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+\cdots$,
 
-$\cos x=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
+$\cos{x}=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}-\frac{x^{6}}{6!}+\cdots$.
 
 Use a computing tool to calculate $\cos0.3$, and compare it with the three-term approximation $0.9553375$.
 
@@ -260,7 +260,7 @@ By **Property 5.7.1** (Steps in Applying Trigonometric Models).
 
 (1) The latitude of the subsolar point changes periodically with time, with a period of one year (about $365$ days); at the vernal equinox ($t=0$), $\delta=0$; at the summer solstice, $\delta$ is maximum (about $23.5^{\circ}$); at the winter solstice, $\delta$ is minimum (about $-23.5^{\circ}$).
 
-(2) One may build the model $\delta=23.5^{\circ}\sin\left(\frac{2\pi t}{365}\right)$, where $t$ is the number of days after the vernal equinox. $\blacksquare$
+(2) One may build the model $\delta=23.5^{\circ}\sin\left(\frac{2\pi{t}}{365}\right)$, where $t$ is the number of days after the vernal equinox. $\blacksquare$
 
 ## Exercise 1
 
@@ -276,15 +276,15 @@ Pulling force, friction and acceleration all have both magnitude and direction, 
 
 ## Exercise 2
 
-(Exercise 6.1, Problem 2) Draw two directed line segments to represent respectively a force of $18\text{ N}$ acting vertically downward and a force of $28\text{ N}$ acting horizontally to the left. (Use a length of $1\text{ cm}$ to represent $10\text{ N}$.)
+(Exercise 6.1, Problem 2) Draw two directed line segments to represent respectively a force of $18\text{~N}$ acting vertically downward and a force of $28\text{~N}$ acting horizontally to the left. (Use a length of $1\text{~cm}$ to represent $10\text{~N}$.)
 
-The figure: using the scale $1\text{ cm}$ to represent $10\text{ N}$, draw a directed segment $1.8\text{ cm}$ long pointing vertically downward to represent a force of magnitude $18\text{ N}$, and alongside it a directed segment $2.8\text{ cm}$ long pointing horizontally leftward to represent a force of magnitude $28\text{ N}$.
+The figure: using the scale $1\text{~cm}$ to represent $10\text{~N}$, draw a directed segment $1.8\text{~cm}$ long pointing vertically downward to represent a force of magnitude $18\text{~N}$, and alongside it a directed segment $2.8\text{~cm}$ long pointing horizontally leftward to represent a force of magnitude $28\text{~N}$.
 
 ### Solution to Exercise 2
 
 By **Definition 6.1.2 (Directed Line Segments)**, the direction of the directed line segment represents the direction of the force, and the length of the directed line segment represents the magnitude of the force to scale.
 
-Taking $1\text{ cm}$ to represent $10\text{ N}$, the force of $18\text{ N}$ corresponds to a directed line segment of length $1.8\text{ cm}$, and the force of $28\text{ N}$ corresponds to a directed line segment of length $2.8\text{ cm}$. Draw a vertical downward directed line segment of length $1.8\text{ cm}$ to represent the $18\text{ N}$ force, and draw a horizontal leftward directed line segment of length $2.8\text{ cm}$ to represent the $28\text{ N}$ force. $\blacksquare$
+Taking $1\text{~cm}$ to represent $10\text{~N}$, the force of $18\text{~N}$ corresponds to a directed line segment of length $1.8\text{~cm}$, and the force of $28\text{~N}$ corresponds to a directed line segment of length $2.8\text{~cm}$. Draw a vertical downward directed line segment of length $1.8\text{~cm}$ to represent the $18\text{~N}$ force, and draw a horizontal leftward directed line segment of length $2.8\text{~cm}$ to represent the $28\text{~N}$ force. $\blacksquare$
 
 ## Exercise 3
 
@@ -294,7 +294,7 @@ The figure: a sheet of grid paper, with the side of each small square set to $0.
 
 ### Solution to Exercise 3
 
-By **Definition 6.1.3 (Magnitude of a Vector)**, the length of a vector is its magnitude. With the side length of each small square stipulated to be $0.5$, the length of a vector running along the edge direction of the squares is the number of squares it occupies multiplied by $0.5$; the length of a vector running along the diagonal direction is $\sqrt 2$ multiplied by the corresponding number of squares and then by $0.5$. By calculating one by one according to the number of squares each vector occupies in the figure, the lengths of the vectors are obtained. $\blacksquare$
+By **Definition 6.1.3 (Magnitude of a Vector)**, the length of a vector is its magnitude. With the side length of each small square stipulated to be $0.5$, the length of a vector running along the edge direction of the squares is the number of squares it occupies multiplied by $0.5$; the length of a vector running along the diagonal direction is $\sqrt2$ multiplied by the corresponding number of squares and then by $0.5$. By calculating one by one according to the number of squares each vector occupies in the figure, the lengths of the vectors are obtained. $\blacksquare$
 
 ## Exercise 4
 
@@ -324,7 +324,7 @@ By **Definition 6.1.6 (Parallel Vectors and Collinear Vectors)**, parallel vecto
 
 (1) $\lvert\boldsymbol{OA}\rvert=4$, with point $A$ due south of point $O$;
 
-(2) $\lvert\boldsymbol{OB}\rvert=2\sqrt 2$, with point $B$ in the direction $45^{\circ}$ north of west of point $O$;
+(2) $\lvert\boldsymbol{OB}\rvert=2\sqrt2$, with point $B$ in the direction $45^{\circ}$ north of west of point $O$;
 
 (3) $\lvert\boldsymbol{OC}\rvert=2$, with point $C$ in the direction $30^{\circ}$ south of west of point $O$.
 
@@ -336,13 +336,13 @@ By **Definition 6.1.2 (Directed Line Segments)** and **Definition 6.1.3 (Magnitu
 
 (1) From point $O$, draw a directed line segment $\boldsymbol{OA}$ of length $4$ in the due south direction, and it is obtained.
 
-(2) In the direction $45^{\circ}$ north of west, the horizontal component (westward) and the vertical component (northward) of a directed line segment of length $2\sqrt 2$ are both $2\sqrt 2\cdot\cos45^{\circ}=2$, so from $O$ take point $B$ $2$ squares west and $2$ squares north, and join $\boldsymbol{OB}$ to obtain it.
+(2) In the direction $45^{\circ}$ north of west, the horizontal component (westward) and the vertical component (northward) of a directed line segment of length $2\sqrt2$ are both $2\sqrt2\cdot\cos45^{\circ}=2$, so from $O$ take point $B$ $2$ squares west and $2$ squares north, and join $\boldsymbol{OB}$ to obtain it.
 
 (3) In the direction $30^{\circ}$ south of west, a directed line segment of length $2$ is obtained by starting from $O$ and drawing a directed line segment $\boldsymbol{OC}$ of length $2$ in this direction. $\blacksquare$
 
 ## Problem 14
 
-(Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, point $O$ is the intersection of the diagonals of $\square ABCD$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$. Write out respectively, in $\square ABCD$ and in the broken line $MPQRST$, the vectors equal to $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
+(Exercise 6.1, Review and Consolidation, Problem 2) As shown in the figure, point $O$ is the intersection of the diagonals of $\square{A}BCD$, and $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{AB}=\boldsymbol{c}$. Write out respectively, in $\square{A}BCD$ and in the broken line $MPQRST$, the vectors equal to $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$.
 
 The figure: on the left is the parallelogram $ABCD$, whose diagonals $AC$ and $BD$ intersect at point $O$, with $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, and $\boldsymbol{AB}=\boldsymbol{c}$ marked; on the right is a broken line formed by connecting the points $M,P,Q,R,S,T$ in order, each segment being a directed segment with an arrow.
 
@@ -350,7 +350,7 @@ The figure: on the left is the parallelogram $ABCD$, whose diagonals $AC$ and $B
 
 By **Definition 6.1.7 (Equal Vectors)**, vectors with equal length and the same direction are equal.
 
-In $\square ABCD$, the diagonals bisect each other, so $O$ is the midpoint of $AC$ and $BD$. Hence $\boldsymbol{OC}$ is opposite in direction to $\boldsymbol{OA}$, and $\boldsymbol{OD}$ is opposite in direction to $\boldsymbol{OB}$. The vector equal to $\boldsymbol{a}=\boldsymbol{OA}$ is $\boldsymbol{CO}$; the vector equal to $\boldsymbol{b}=\boldsymbol{OB}$ is $\boldsymbol{DO}$; the vector equal to $\boldsymbol{c}=\boldsymbol{AB}$ is $\boldsymbol{DC}$.
+In $\square{A}BCD$, the diagonals bisect each other, so $O$ is the midpoint of $AC$ and $BD$. Hence $\boldsymbol{OC}$ is opposite in direction to $\boldsymbol{OA}$, and $\boldsymbol{OD}$ is opposite in direction to $\boldsymbol{OB}$. The vector equal to $\boldsymbol{a}=\boldsymbol{OA}$ is $\boldsymbol{CO}$; the vector equal to $\boldsymbol{b}=\boldsymbol{OB}$ is $\boldsymbol{DO}$; the vector equal to $\boldsymbol{c}=\boldsymbol{AB}$ is $\boldsymbol{DC}$.
 
 In the broken line $MPQRST$, according to the direction and length of each directed line segment in the figure, find the directed line segments with the same direction and equal length as $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$; these are the corresponding equal vectors. $\blacksquare$
 
@@ -418,11 +418,11 @@ Taking the six points $A$, $B$, $C$, $D$, $M$, $N$ as endpoints, there are $\mat
 
 (f) Vertically downward vectors of length $1$: $\boldsymbol{DA}$, $\boldsymbol{CB}$, $\boldsymbol{NM}$. There are $3$ in all, forming $3$ pairs.
 
-(g) Diagonal-direction vectors of length $\sqrt 2$: $\boldsymbol{AN}$, $\boldsymbol{MD}$, $\boldsymbol{BN}$, $\boldsymbol{MC}$, $\boldsymbol{NA}$, $\boldsymbol{DM}$, $\boldsymbol{NB}$, $\boldsymbol{CM}$. Among them, those with the same direction and equal length: $\boldsymbol{AN}$ and $\boldsymbol{MD}$ (length $\sqrt 2$, direction down-right), $\boldsymbol{BN}$ and $\boldsymbol{MC}$ (length $\sqrt 2$, direction down-left), $\boldsymbol{NA}$ and $\boldsymbol{DM}$ (direction up-left), $\boldsymbol{NB}$ and $\boldsymbol{CM}$ (direction up-right). There are $4$ pairs in all.
+(g) Diagonal-direction vectors of length $\sqrt2$: $\boldsymbol{AN}$, $\boldsymbol{MD}$, $\boldsymbol{BN}$, $\boldsymbol{MC}$, $\boldsymbol{NA}$, $\boldsymbol{DM}$, $\boldsymbol{NB}$, $\boldsymbol{CM}$. Among them, those with the same direction and equal length: $\boldsymbol{AN}$ and $\boldsymbol{MD}$ (length $\sqrt2$, direction down-right), $\boldsymbol{BN}$ and $\boldsymbol{MC}$ (length $\sqrt2$, direction down-left), $\boldsymbol{NA}$ and $\boldsymbol{DM}$ (direction up-left), $\boldsymbol{NB}$ and $\boldsymbol{CM}$ (direction up-right). There are $4$ pairs in all.
 
-(h) Diagonal-direction vectors of length $\sqrt 5$: $\boldsymbol{AC}$, $\boldsymbol{BD}$, $\boldsymbol{CA}$, $\boldsymbol{DB}$. Their directions are pairwise different, so they do not form equal-vector pairs.
+(h) Diagonal-direction vectors of length $\sqrt5$: $\boldsymbol{AC}$, $\boldsymbol{BD}$, $\boldsymbol{CA}$, $\boldsymbol{DB}$. Their directions are pairwise different, so they do not form equal-vector pairs.
 
-(i) The remaining diagonals (such as $\boldsymbol{AN}$, whose length $\sqrt 2$ has already been counted) are not repeated.
+(i) The remaining diagonals (such as $\boldsymbol{AN}$, whose length $\sqrt2$ has already been counted) are not repeated.
 
 Total: $1+1+6+6+3+3+4=24$ pairs. $\blacksquare$
 

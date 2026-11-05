@@ -22,7 +22,7 @@
 
 > **Theorem 4.2.5 (等差数列性质)**
 > 
-> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb N^*$), 则 $a_p+a_q=a_s+a_t$.
+> 在等差数列 $\left\{a_n\right\}$ 中, 若 $p+q=s+t$ ($p,q,s,t\in\mathbb{N}^*$), 则 $a_p+a_q=a_s+a_t$.
 
 > **Theorem 4.2.6 (前 $n$ 项和公式一)**
 > 
@@ -92,22 +92,22 @@ $\blacksquare$
 
 (Exercise 4.2, Problem 3) Given that $\left\{a_n\right\}$ is an arithmetic sequence, fill in the blanks in the following table with appropriate numbers
 
-First row: $a_1=-7,\ a_3=\underline{\quad},\ a_5=8,\ a_7=\underline{\quad},\ d=\underline{\quad}$;
+First row: $a_1=-7,\,a_3=\underline{\quad},\,a_5=8,\,a_7=\underline{\quad},\,d=\underline{\quad}$;
 
-Second row: $a_1=\underline{\quad},\ a_3=2,\ a_5=\underline{\quad},\ a_7=\underline{\quad},\ d=-6.5$.
+Second row: $a_1=\underline{\quad},\,a_3=2,\,a_5=\underline{\quad},\,a_7=\underline{\quad},\,d=-6.5$.
 
 ### Solution to Exercise 1
 
 First row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_5=a_1+4d$, i.e. $8=-7+4d$, so $d=\frac{15}{4}=3.75$.
 
 $$
-a_3=-7+2\times 3.75=0.5,\ a_7=-7+6\times 3.75=15.5.
+a_3=-7+2\times3.75=0.5,\,a_7=-7+6\times3.75=15.5.
 $$
 
 Second row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2d$, i.e. $2=a_1+2\times\left(-6.5\right)$, so $a_1=15$.
 
 $$
-a_5=15+4\times\left(-6.5\right)=-11,\ a_7=15+6\times\left(-6.5\right)=-24.
+a_5=15+4\times\left(-6.5\right)=-11,\,a_7=15+6\times\left(-6.5\right)=-24.
 $$
 
 $\blacksquare$
@@ -133,13 +133,13 @@ $\blacksquare$
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the first term be $a_1=7$ and the $5$th term be $a_5=21$, then
 
 $$
-a_5=a_1+4d,\ 21=7+4d,\ d=\frac{14}{4}=3.5.
+a_5=a_1+4d,\,21=7+4d,\,d=\frac{14}{4}=3.5.
 $$
 
 The $3$ inserted numbers are
 
 $$
-a_2=7+3.5=10.5,\ a_3=10.5+3.5=14,\ a_4=14+3.5=17.5.
+a_2=7+3.5=10.5,\,a_3=10.5+3.5=14,\,a_4=14+3.5=17.5.
 $$
 
 $\blacksquare$
@@ -155,27 +155,27 @@ By **Definition 4.2.1 (Arithmetic Sequence)**, the seat numbers form an arithmet
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
-a_n=15+\left(n-1\right)\times 2=2n+13.
+a_n=15+\left(n-1\right)\times2=2n+13.
 $$
 
 The number of seats in the $10$th row is
 
 $$
-a_{10}=2\times 10+13=33.
+a_{10}=2\times10+13=33.
 $$
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 2) Draw the graph of the sequence $a_n=\begin{cases}18, & n=1,\\ a_{n-1}-3, & 1< n\le 6\end{cases}$, and find the slope of the line passing through all the points on the graph
+(Exercise 4.2, Problem 2) Draw the graph of the sequence $a_n=\begin{cases}18,&n=1,\\a_{n-1}-3,&1<{}n\le6\end{cases}$, and find the slope of the line passing through all the points on the graph
 
-The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1< n\le6\end{cases}$ (horizontal axis $n$, vertical axis $a_n$): the six points are $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$, lying exactly on the line $y=21-3x$.
+The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-3,&1<{}n\le6\end{cases}$ (horizontal axis $n$, vertical axis $a_n$): the six points are $\left(1,18\right),\left(2,15\right),\left(3,12\right),\left(4,9\right),\left(5,6\right),\left(6,3\right)$, lying exactly on the line $y=21-3x$.
 
 ### Solution to Exercise 2
 
 By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
 
 $$
-a_1=18,\ a_2=15,\ a_3=12,\ a_4=9,\ a_5=6,\ a_6=3.
+a_1=18,\,a_2=15,\,a_3=12,\,a_4=9,\,a_5=6,\,a_6=3.
 $$
 
 By **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions), all points lie on the line $y=21-3x$, whose slope is $-3$.
@@ -189,7 +189,7 @@ $\blacksquare$
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
-a_n=a_1+\left(n-1\right)d=m,\ a_m=a_1+\left(m-1\right)d=n.
+a_n=a_1+\left(n-1\right)d=m,\,a_m=a_1+\left(m-1\right)d=n.
 $$
 
 Subtracting the two equations gives $\left(n-m\right)d=m-n$, hence $d=-1$.
@@ -238,13 +238,13 @@ $\blacksquare$
 
 (Exercise 4.2, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding arithmetic sequence $\left\{a_n\right\}$
 
-(1) $a_1=5,\ a_n=-23,\ n=8$;
+(1) $a_1=5,\,a_n=-23,\,n=8$;
 
-(2) $a_1=-4,\ d=4,\ n=10$;
+(2) $a_1=-4,\,d=4,\,n=10$;
 
-(3) $a_1=14.5,\ d=0.7,\ a_n=32$;
+(3) $a_1=14.5,\,d=0.7,\,a_n=32$;
 
-(4) $a_3=14.5,\ d=0.7,\ a_n=32$.
+(4) $a_3=14.5,\,d=0.7,\,a_n=32$.
 
 ### Solution to Exercise 3
 
@@ -259,29 +259,29 @@ $\blacksquare$
 (2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-S_{10}=10\times\left(-4\right)+\frac{10\times 9}{2}\times 4=-40+180=140.
+S_{10}=10\times\left(-4\right)+\frac{10\times9}{2}\times4=-40+180=140.
 $$
 
 $\blacksquare$
 
-(3) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $32=14.5+\left(n-1\right)\times 0.7$, so $n-1=25$ and $n=26$.
+(3) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $32=14.5+\left(n-1\right)\times0.7$, so $n-1=25$ and $n=26$.
 
 By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
-S_{26}=\frac{26\times\left(14.5+32\right)}{2}=13\times 46.5=604.5.
+S_{26}=\frac{26\times\left(14.5+32\right)}{2}=13\times46.5=604.5.
 $$
 
 $\blacksquare$
 
-(4) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2\times 0.7=14.5$, so $a_1=13.1$.
+(4) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2\times0.7=14.5$, so $a_1=13.1$.
 
-$32=13.1+\left(n-1\right)\times 0.7$, so $n-1=27$ and $n=28$.
+$32=13.1+\left(n-1\right)\times0.7$, so $n-1=27$ and $n=28$.
 
 By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
-S_{28}=\frac{28\times\left(13.1+32\right)}{2}=14\times 45.1=631.4.
+S_{28}=\frac{28\times\left(13.1+32\right)}{2}=14\times45.1=631.4.
 $$
 
 $\blacksquare$
@@ -309,13 +309,13 @@ $\blacksquare$
 By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-S_4=4a_1+6d=6,\ S_8=8a_1+28d=20.
+S_4=4a_1+6d=6,\,S_8=8a_1+28d=20.
 $$
 
 Solving gives $a_1=\frac{3}{4}$ and $d=\frac{1}{2}$.
 
 $$
-S_{16}=16\times\frac{3}{4}+\frac{16\times 15}{2}\times\frac{1}{2}=12+60=72.
+S_{16}=16\times\frac{3}{4}+\frac{16\times15}{2}\times\frac{1}{2}=12+60=72.
 $$
 
 $\blacksquare$
@@ -345,12 +345,12 @@ $\blacksquare$
 Let the number of terms be $2n+1$. By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, the sum of the odd-positioned terms is $\left(n+1\right)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
 
 $$
-\left(n+1\right)a_{n+1}=44,\ na_{n+1}=33.
+\left(n+1\right)a_{n+1}=44,\,na_{n+1}=33.
 $$
 
 Dividing the two equations, $\frac{n+1}{n}=\frac{44}{33}=\frac{4}{3}$, gives $n=3$.
 
-The middle term is $a_{n+1}=a_4=\frac{33}{3}=11$, and the number of terms is $2\times 3+1=7$.
+The middle term is $a_{n+1}=a_4=\frac{33}{3}=11$, and the number of terms is $2\times3+1=7$.
 
 $\blacksquare$
 
@@ -360,11 +360,11 @@ $\blacksquare$
 
 ### Solution to Exercise 4
 
-The total amount for the first option is $100\times 10=1000$ yuan.
+The total amount for the first option is $100\times10=1000$ yuan.
 
 The second option is a geometric series sum with first term $1$ and common ratio $2$; the total amount over $20$ days is $2^{20}-1=1048575$ yuan.
 
-Since $1048575> 1000$, choose the second option.
+Since $1048575>1000$, choose the second option.
 
 $\blacksquare$
 
@@ -374,7 +374,7 @@ $\blacksquare$
 
 By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=S_1=\frac{1}{4}+\frac{2}{3}+3=\frac{47}{12}$.
 
-When $n\ge 2$,
+When $n\ge2$,
 
 $$
 a_n=S_n-S_{n-1}=\left(\frac{1}{4}n^2+\frac{2}{3}n+3\right)-\left[\frac{1}{4}\left(n-1\right)^2+\frac{2}{3}\left(n-1\right)+3\right]=\frac{1}{4}\left(2n-1\right)+\frac{2}{3}=\frac{n}{2}+\frac{5}{12}.
@@ -383,7 +383,7 @@ $$
 Checking at $n=1$, $\frac{1}{2}+\frac{5}{12}=\frac{11}{12}\ne\frac{47}{12}$, so the general term formula is
 
 $$
-a_n=\begin{cases}\frac{47}{12}, & n=1,\\ \frac{n}{2}+\frac{5}{12}, & n\ge 2.\end{cases}
+a_n=\begin{cases}\frac{47}{12},&n=1,\\\frac{n}{2}+\frac{5}{12},&n\ge2.\end{cases}
 $$
 
 $\blacksquare$
@@ -394,25 +394,25 @@ $\blacksquare$
 
 By **Definition 4.2.1 (Arithmetic Sequence)**, $a_1=-4.2$ and $d=0.5$.
 
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=-4.2+\left(n-1\right)\times 0.5=0.5n-4.7$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=-4.2+\left(n-1\right)\times0.5=0.5n-4.7$.
 
-Setting $a_n\le 0$ gives $n\le 9.4$, i.e. the first $9$ terms are negative and the $10$th term is positive.
+Setting $a_n\le0$ gives $n\le9.4$, i.e. the first $9$ terms are negative and the $10$th term is positive.
 
 By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-S_9=9\times\left(-4.2\right)+\frac{9\times 8}{2}\times 0.5=-37.8+18=-19.8.
+S_9=9\times\left(-4.2\right)+\frac{9\times8}{2}\times0.5=-37.8+18=-19.8.
 $$
 
 The minimum value of $S_n$ is $-19.8$, corresponding to $n=9$.
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid m=2n-1,\ n\in\mathbb N^*,\ m< 60\right\}$, and find the sum of these elements
+(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid{m}=2n-1,\,n\in\mathbb{N}^*,\,m<60\right\}$, and find the sum of these elements
 
 ### Solution to Exercise 4
 
-From $m=2n-1< 60$, we get $n< 30.5$, so $n=1,2,\cdots,30$, giving $30$ elements in total.
+From $m=2n-1<60$, we get $n<30.5$, so $n=1,2,\cdots,30$, giving $30$ elements in total.
 
 These elements are $1,3,5,\cdots,59$, forming an arithmetic sequence with first term $1$, last term $59$, and common difference $2$.
 
@@ -430,7 +430,7 @@ $\blacksquare$
 
 From $a_n=\frac{n-2}{2n-15}$, setting $a_n=0$ gives $n=2$.
 
-When $n< 2$, $a_1=\frac{-1}{-13}> 0$; when $n=2$, $a_2=0$; when $7.5> n> 2$, $a_n< 0$; when $n> 8$, $a_n> 0$.
+When $n<2$, $a_1=\frac{-1}{-13}>0$; when $n=2$, $a_2=0$; when $7.5>{}n>2$, $a_n<0$; when $n>8$, $a_n>0$.
 
 The sum $S_n$ of the first $n$ terms attains its minimum when the terms change from negative to positive, i.e. $S_8$ is minimal at $n=8$.
 
@@ -453,7 +453,7 @@ $\blacksquare$
 (1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)** and **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-a_1+3\left(n-1\right)=21,\ na_1+\frac{3n\left(n-1\right)}{2}=60.
+a_1+3\left(n-1\right)=21,\,na_1+\frac{3n\left(n-1\right)}{2}=60.
 $$
 
 From the first equation, $a_1=24-3n$; substituting into the second gives $n\left(24-3n\right)+\frac{3n\left(n-1\right)}{2}=60$, and solving yields $n=5$, $a_1=9$.
@@ -463,7 +463,7 @@ $\blacksquare$
 (2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-6n-n\left(n-1\right)=-60,\ n^2-7n-60=0,\ n=12.
+6n-n\left(n-1\right)=-60,\,n^2-7n-60=0,\,n=12.
 $$
 
 $$
@@ -475,7 +475,7 @@ $\blacksquare$
 (3) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
-\frac{n\left(8-2\right)}{2}=-30,\ 3n=-30,\ n=-10.
+\frac{n\left(8-2\right)}{2}=-30,\,3n=-30,\,n=-10.
 $$
 
 This does not fit the problem; check: $\frac{n\left(8+\left(-2\right)\right)}{2}=-30$, $3n=-30$, $n=-10$, which is unreasonable. Recalculating: $S_n=\frac{n\left(a_1+a_n\right)}{2}=\frac{n\left(8-2\right)}{2}=3n=-30$, giving $n=-10$, with no positive integer solution.
@@ -485,7 +485,7 @@ $\blacksquare$
 (4) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
-\frac{7\left(a_1-0.6\right)}{2}=-3.5,\ a_1-0.6=-1,\ a_1=-0.4.
+\frac{7\left(a_1-0.6\right)}{2}=-3.5,\,a_1-0.6=-1,\,a_1=-0.4.
 $$
 
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $-0.6=-0.4+6d$, so $d=-\frac{0.2}{6}=-\frac{1}{30}$.
@@ -556,17 +556,17 @@ $\blacksquare$
 
 By **Definition 4.2.1 (Arithmetic Sequence)**, the first term is $1986$ and the common difference is $76$.
 
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=1986+76\left(n-1\right)\le 3000$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=1986+76\left(n-1\right)\le3000$.
 
 $$
-76\left(n-1\right)\le 1014,\ n-1\le 13.34,\ n\le 14.34.
+76\left(n-1\right)\le1014,\,n-1\le13.34,\,n\le14.34.
 $$
 
 Hence it appears $14$ times in total.
 
 $\blacksquare$
 
-(Exercise 4.2, Comprehensive Application, Problem 5) The perimeter of a polygon is $158\ \mathrm{cm}$, the lengths of its sides form an arithmetic sequence, the longest side is $44\ \mathrm{cm}$, and the common difference is $3\ \mathrm{cm}$. Find the number of sides of the polygon
+(Exercise 4.2, Comprehensive Application, Problem 5) The perimeter of a polygon is $158\,\mathrm{cm}$, the lengths of its sides form an arithmetic sequence, the longest side is $44\,\mathrm{cm}$, and the common difference is $3\,\mathrm{cm}$. Find the number of sides of the polygon
 
 ### Solution to Problem 1
 
@@ -581,7 +581,7 @@ $$
 Also, $a_1=44-3\left(n-1\right)$; substituting,
 
 $$
-\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\ n\left(91-3n\right)=316,\ 3n^2-91n+316=0.
+\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\,n\left(91-3n\right)=316,\,3n^2-91n+316=0.
 $$
 
 Solving gives $n=4$ or $n=\frac{79}{3}$ (discarded), so the number of sides is $4$.
@@ -595,7 +595,7 @@ $\blacksquare$
 By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**, $a_5=\frac{a_1+a_9}{2}$ and $b_5=\frac{b_1+b_9}{2}$.
 
 $$
-\frac{a_5}{b_5}=\frac{\frac{9\left(a_1+a_9\right)}{2}}{\frac{9\left(b_1+b_9\right)}{2}}=\frac{S_9}{T_9}=\frac{2\times 9+3}{9-1}=\frac{21}{8}.
+\frac{a_5}{b_5}=\frac{\frac{9\left(a_1+a_9\right)}{2}}{\frac{9\left(b_1+b_9\right)}{2}}=\frac{S_9}{T_9}=\frac{2\times9+3}{9-1}=\frac{21}{8}.
 $$
 
 $\blacksquare$
@@ -604,7 +604,7 @@ $\blacksquare$
 
 ### Solution to Problem 1
 
-(1) By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=a+b$; when $n\ge 2$, $a_n=S_n-S_{n-1}=a\left(2n-1\right)+b=2an-a+b$.
+(1) By **Common Conclusion 4.1.8** (Relation between $a_n$ and $S_n$), when $n=1$, $a_1=a+b$; when $n\ge2$, $a_n=S_n-S_{n-1}=a\left(2n-1\right)+b=2an-a+b$.
 
 Checking that it also holds at $n=1$, $a_n=2an-a+b$, and $a_{n+1}-a_n=2a$ is a constant; by **Definition 4.2.1 (Arithmetic Sequence)**, $\left\{a_n\right\}$ is an arithmetic sequence.
 
@@ -626,7 +626,7 @@ $\blacksquare$
 
 The first sequence has common difference $4$ and the second has common difference $6$; the common terms form an arithmetic sequence with common difference $\mathrm{lcm}\left(4,6\right)=12$.
 
-The first term is $2$ and the last term does not exceed $190$; the general term is $2+12\left(n-1\right)\le 190$, so $n\le 16.67$ and $n=16$, giving the last term $2+12\times 15=182$.
+The first term is $2$ and the last term does not exceed $190$; the general term is $2+12\left(n-1\right)\le190$, so $n\le16.67$ and $n=16$, giving the last term $2+12\times15=182$.
 
 By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
@@ -654,7 +654,7 @@ Hence the number of schemes satisfying the conditions is $360-24-60=276$.
 
 $\blacksquare$
 
-(2) A dispatched but B not: $A_4^3=24$, with arrangements $A_4^4=24$ (choose first then arrange: select vehicle A and $3$ others from the remaining $4$ vehicles, then arrange them), i.e. $C_4^3 A_4^4=96$.
+(2) A dispatched but B not: $A_4^3=24$, with arrangements $A_4^4=24$ (choose first then arrange: select vehicle A and $3$ others from the remaining $4$ vehicles, then arrange them), i.e. $C_4^3A_4^4=96$.
 
 B dispatched but A not: by the same reasoning, $96$.
 
@@ -664,18 +664,18 @@ In total, $96+96+24=216$ schemes.
 
 $\blacksquare$
 
-(Exercise 4.2, Extension and Exploration, Problem 10) Prove that in an arithmetic sequence $\left\{a_n\right\}$, $\frac{a_m-a_n}{m-n}=d$ ($m\ne n$)
+(Exercise 4.2, Extension and Exploration, Problem 10) Prove that in an arithmetic sequence $\left\{a_n\right\}$, $\frac{a_m-a_n}{m-n}=d$ ($m\ne{n}$)
 
 ### Solution to Problem 1
 
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
-a_m=a_1+\left(m-1\right)d,\ a_n=a_1+\left(n-1\right)d.
+a_m=a_1+\left(m-1\right)d,\,a_n=a_1+\left(n-1\right)d.
 $$
 
 $$
-a_m-a_n=\left(m-n\right)d,\ \frac{a_m-a_n}{m-n}=d.
+a_m-a_n=\left(m-n\right)d,\,\frac{a_m-a_n}{m-n}=d.
 $$
 
 $\blacksquare$
@@ -690,7 +690,7 @@ $\blacksquare$
 
 (1) By **Definition 4.2.1 (Arithmetic Sequence)**, the egg counts are $100,95,90,\cdots$, with common difference $-5$.
 
-By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=100-5\left(n-1\right)> 0$, so $n-1< 20$ and $n< 21$.
+By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=100-5\left(n-1\right)>0$, so $n-1<20$ and $n<21$.
 
 At most $20$ layings: the $20$th laying produces $5$ eggs, and the $21$th would produce $0$ eggs.
 
@@ -713,7 +713,7 @@ $\blacksquare$
 (1) By **Definition 4.1.5 (General Term Formula)**, the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n\left(n+1\right)}{2}$ balls.
 
 $$
-\text{第五层}=\frac{5\times 6}{2}=15,\ \text{第六层}=\frac{6\times 7}{2}=21.
+\text{第五层}=\frac{5\times6}{2}=15,\,\text{第六层}=\frac{6\times7}{2}=21.
 $$
 
 $\blacksquare$
@@ -721,7 +721,7 @@ $\blacksquare$
 (2) The total number of balls in the first $n$ layers is
 
 $$
-S_n=\sum_{k=1}^n\frac{k\left(k+1\right)}{2}=\frac{1}{2}\left(\sum_{k=1}^n k^2+\sum_{k=1}^n k\right)=\frac{1}{2}\left[\frac{n\left(n+1\right)\left(2n+1\right)}{6}+\frac{n\left(n+1\right)}{2}\right]=\frac{n\left(n+1\right)\left(n+2\right)}{6}.
+S_n=\sum_{k=1}^n\frac{k\left(k+1\right)}{2}=\frac{1}{2}\left(\sum_{k=1}^nk^2+\sum_{k=1}^nk\right)=\frac{1}{2}\left[\frac{n\left(n+1\right)\left(2n+1\right)}{6}+\frac{n\left(n+1\right)}{2}\right]=\frac{n\left(n+1\right)\left(n+2\right)}{6}.
 $$
 
 $\blacksquare$

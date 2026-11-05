@@ -14,7 +14,7 @@
 
 > **定义 3.1.1 (椭圆)**
 > 
-> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert F_1F_2 \rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
+> 平面内与两个定点 $F_1$, $F_2$ 的距离的和等于常数 (大于 $\lvert{F}_1F_2\rvert$) 的点的轨迹叫做椭圆. 这两个定点叫做椭圆的焦点, 两焦点间的距离叫做椭圆的焦距.
 
 > **定义 3.1.3 (椭圆的标准方程)**
 > 
@@ -34,7 +34,7 @@
 
 ### 解答 习题一
 
-圆 $C:\left(x-1\right)^2+\left(y-2\right)^2=5$, 圆心为 $\left(1,2\right)$, 半径 $r=\sqrt 5$. 由**常用结论 2.3.3** (点到直线的距离公式),
+圆 $C:\left(x-1\right)^2+\left(y-2\right)^2=5$, 圆心为 $\left(1,2\right)$, 半径 $r=\sqrt5$. 由**常用结论 2.3.3** (点到直线的距离公式),
 
 $$
 d=\frac{\left|3\cdot1-2-6\right|}{\sqrt{3^2+\left(-1\right)^2}}=\frac{5}{\sqrt{10}}.
@@ -50,19 +50,19 @@ $\blacksquare$
 
 ## 习题二
 
-(习题 2.5 复习巩固第 4 题) 求圆心在直线 $3x-y=0$ 上, 与 $x$ 轴相切, 且被直线 $x-y=0$ 截得的弦长为 $2\sqrt 7$ 的圆的方程.
+(习题 2.5 复习巩固第 4 题) 求圆心在直线 $3x-y=0$ 上, 与 $x$ 轴相切, 且被直线 $x-y=0$ 截得的弦长为 $2\sqrt7$ 的圆的方程.
 
 ### 解答 习题二
 
-圆心在直线 $3x-y=0$ 上, 设圆心为 $\left(a,3a\right)$. 圆与 $x$ 轴相切, 即半径等于圆心到 $x$ 轴的距离 $r=\lvert 3a \rvert$.
+圆心在直线 $3x-y=0$ 上, 设圆心为 $\left(a,3a\right)$. 圆与 $x$ 轴相切, 即半径等于圆心到 $x$ 轴的距离 $r=\lvert3a\rvert$.
 
 圆心到直线 $x-y=0$ 的距离为
 
 $$
-d=\frac{\lvert a-3a \rvert}{\sqrt 2}=\frac{\lvert 2a \rvert}{\sqrt 2}=\sqrt 2\lvert a \rvert.
+d=\frac{\lvert{a}-3a\rvert}{\sqrt2}=\frac{\lvert2a\rvert}{\sqrt2}=\sqrt2\lvert{a}\rvert.
 $$
 
-由**常用结论 2.5.2** (弦长公式), 弦长 $2\sqrt 7=2\sqrt{r^2-d^2}$, 即 $7=r^2-d^2=9a^2-2a^2=7a^2$, 故 $a^2=1$, 即 $a=\pm1$.
+由**常用结论 2.5.2** (弦长公式), 弦长 $2\sqrt7=2\sqrt{r^2-d^2}$, 即 $7=r^2-d^2=9a^2-2a^2=7a^2$, 故 $a^2=1$, 即 $a=\pm1$.
 
 圆心为 $\left(1,3\right)$, 半径 $r=3$, 圆的方程为 $\left(x-1\right)^2+\left(y-3\right)^2=9$; 或圆心为 $\left(-1,-3\right)$, 半径 $r=3$, 圆的方程为 $\left(x+1\right)^2+\left(y+3\right)^2=9$. $\blacksquare$
 
@@ -72,7 +72,7 @@ $$
 
 ### 解答 习题三
 
-圆 $C:\left(x-\frac{1}{2}\right)^2+\left(y+1\right)^2=\frac{5}{4}$, 圆心为 $\left(\frac{1}{2},-1\right)$, 半径 $r=\frac{\sqrt 5}{2}$.
+圆 $C:\left(x-\frac{1}{2}\right)^2+\left(y+1\right)^2=\frac{5}{4}$, 圆心为 $\left(\frac{1}{2},-1\right)$, 半径 $r=\frac{\sqrt5}{2}$.
 
 先求圆心 $\left(\frac{1}{2},-1\right)$ 关于直线 $l:x-y+1=0$ 的对称点 $\left(a,b\right)$.
 
@@ -82,7 +82,7 @@ $$
 
 代入 $b=-a-\frac{1}{2}$, 得 $a+a+\frac{1}{2}+\frac{7}{2}=0$, 即 $2a+4=0$, 故 $a=-2$, $b=\frac{3}{2}$.
 
-对称圆的圆心为 $\left(-2,\frac{3}{2}\right)$, 半径不变为 $\frac{\sqrt 5}{2}$. 圆的方程为 $\left(x+2\right)^2+\left(y-\frac{3}{2}\right)^2=\frac{5}{4}$. $\blacksquare$
+对称圆的圆心为 $\left(-2,\frac{3}{2}\right)$, 半径不变为 $\frac{\sqrt5}{2}$. 圆的方程为 $\left(x+2\right)^2+\left(y-\frac{3}{2}\right)^2=\frac{5}{4}$. $\blacksquare$
 
 ## 习题四
 
@@ -100,10 +100,10 @@ $$
 
 交点 $M$ 满足 $\frac{1}{3}x=2\left(x-a\right)$, 即 $x=6x-6a$, 即 $5x=6a$, 故 $x=\frac{6a}{5}$, $y=\frac{2a}{5}$.
 
-正方形的外接圆以中心 $\left(\frac{a}{2},\frac{a}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt 2 a}{2}$. 点 $M\left(\frac{6a}{5},\frac{2a}{5}\right)$ 到中心的距离为
+正方形的外接圆以中心 $\left(\frac{a}{2},\frac{a}{2}\right)$ 为圆心, 半径为 $\frac{\sqrt2a}{2}$. 点 $M\left(\frac{6a}{5},\frac{2a}{5}\right)$ 到中心的距离为
 
 $$
-\sqrt{\left(\frac{6a}{5}-\frac{a}{2}\right)^2+\left(\frac{2a}{5}-\frac{a}{2}\right)^2}=\sqrt{\left(\frac{7a}{10}\right)^2+\left(-\frac{a}{10}\right)^2}=\sqrt{\frac{50a^2}{100}}=\frac{\sqrt 2 a}{2}.
+\sqrt{\left(\frac{6a}{5}-\frac{a}{2}\right)^2+\left(\frac{2a}{5}-\frac{a}{2}\right)^2}=\sqrt{\left(\frac{7a}{10}\right)^2+\left(-\frac{a}{10}\right)^2}=\sqrt{\frac{50a^2}{100}}=\frac{\sqrt2a}{2}.
 $$
 
 距离等于半径, 故点 $M$ 在外接圆上. $\blacksquare$
@@ -126,7 +126,7 @@ $$
 
 ### 解答 习题六
 
-设所求圆的方程为 $x^2+y^2+6x-4+\lambda\left(x^2+y^2+6y-28\right)=0$, 即 $\left(1+\lambda\right)x^2+\left(1+\lambda\right)y^2+6x+6\lambda y-4-28\lambda=0$.
+设所求圆的方程为 $x^2+y^2+6x-4+\lambda\left(x^2+y^2+6y-28\right)=0$, 即 $\left(1+\lambda\right)x^2+\left(1+\lambda\right)y^2+6x+6\lambda{y}-4-28\lambda=0$.
 
 圆心为 $\left(-\frac{3}{1+\lambda},-\frac{3\lambda}{1+\lambda}\right)$. 圆心在直线 $x-y-4=0$ 上, 故
 
@@ -149,13 +149,13 @@ $$
 圆 $x^2+y^2=4$ 的圆心为 $\left(0,0\right)$, 半径 $r=2$. 由**常用结论 2.3.3** (点到直线的距离公式), 圆心到公共弦的距离为
 
 $$
-d=\frac{\lvert 0-0+2 \rvert}{\sqrt 2}=\sqrt 2.
+d=\frac{\lvert0-0+2\rvert}{\sqrt2}=\sqrt2.
 $$
 
 由**常用结论 2.5.2** (弦长公式), 公共弦长为
 
 $$
-2\sqrt{r^2-d^2}=2\sqrt{4-2}=2\sqrt 2.
+2\sqrt{r^2-d^2}=2\sqrt{4-2}=2\sqrt2.
 $$
 
 $\blacksquare$
@@ -166,7 +166,7 @@ $\blacksquare$
 
 ### 解答 习题八
 
-圆 $C:\left(x+1\right)^2+\left(y-3\right)^2=5$, 圆心为 $C_0\left(-1,3\right)$, 半径 $r_0=\sqrt 5$.
+圆 $C:\left(x+1\right)^2+\left(y-3\right)^2=5$, 圆心为 $C_0\left(-1,3\right)$, 半径 $r_0=\sqrt5$.
 
 所求圆过切点 $N\left(1,2\right)$, 故 $N$ 与两圆圆心共线. 设所求圆圆心为 $\left(a,b\right)$, 则 $\left(a,b\right)$, $N\left(1,2\right)$, $C_0\left(-1,3\right)$ 三点共线.
 
@@ -184,64 +184,64 @@ $\blacksquare$
 
 ## 习题九
 
-(习题 2.5 综合运用第 11 题) 某台机器的三个齿轮, $A$ 与 $B$ 啮合, $C$ 与 $B$ 也啮合. 若 $A$ 轮的直径为 $200\,\mathrm{cm}$, $B$ 轮的直径为 $120\,\mathrm{cm}$, $C$ 轮的直径为 $250\,\mathrm{cm}$, 且 $\angle A=45^\circ$. 试建立适当的坐标系, 用坐标法求出 $A,C$ 两齿轮的中心距离 (精确到 $1\,\mathrm{cm}$).
+(习题 2.5 综合运用第 11 题) 某台机器的三个齿轮, $A$ 与 $B$ 啮合, $C$ 与 $B$ 也啮合. 若 $A$ 轮的直径为 $200\,\mathrm{cm}$, $B$ 轮的直径为 $120\,\mathrm{cm}$, $C$ 轮的直径为 $250\,\mathrm{cm}$, 且 $\angle{A}=45^\circ$. 试建立适当的坐标系, 用坐标法求出 $A,C$ 两齿轮的中心距离 (精确到 $1\,\mathrm{cm}$).
 
 ### 解答 习题九
 
 设 $A,B,C$ 三轮的中心分别为 $O_A,O_B,O_C$. 各轮半径分别为 $r_A=100$, $r_B=60$, $r_C=125$.
 
-因为啮合, 故 $\lvert O_AO_B \rvert=r_A+r_B=160$, $\lvert O_BO_C \rvert=r_B+r_C=185$.
+因为啮合, 故 $\lvert{O}_AO_B\rvert=r_A+r_B=160$, $\lvert{O}_BO_C\rvert=r_B+r_C=185$.
 
 以 $O_A$ 为原点, $O_AO_B$ 所在直线为 $x$ 轴, 则 $O_A\left(0,0\right)$, $O_B\left(160,0\right)$.
 
-$\angle A=45^\circ$, 即 $O_AO_C$ 与 $O_AO_B$ 的夹角为 $45^\circ$. 设 $O_C\left(x,y\right)$, 则
+$\angle{A}=45^\circ$, 即 $O_AO_C$ 与 $O_AO_B$ 的夹角为 $45^\circ$. 设 $O_C\left(x,y\right)$, 则
 
 $$
-x^2+y^2=\lvert O_AO_C \rvert^2,
+x^2+y^2=\lvert{O}_AO_C\rvert^2,
 $$
 
 $$
 \left(x-160\right)^2+y^2=185^2.
 $$
 
-两式相减, 得 $\left(x-160\right)^2-x^2=185^2-\lvert O_AO_C \rvert^2$. 但我们不知道 $\lvert O_AO_C \rvert$.
+两式相减, 得 $\left(x-160\right)^2-x^2=185^2-\lvert{O}_AO_C\rvert^2$. 但我们不知道 $\lvert{O}_AO_C\rvert$.
 
-由 $\angle O_A=45^\circ$, 在 $\triangle O_AO_BO_C$ 中, 由余弦定理,
+由 $\angle{O}_A=45^\circ$, 在 $\triangle{O}_AO_BO_C$ 中, 由余弦定理,
 
 $$
-\lvert O_BO_C \rvert^2=\lvert O_AO_B \rvert^2+\lvert O_AO_C \rvert^2-2\lvert O_AO_B \rvert\lvert O_AO_C \rvert\cos45^\circ.
+\lvert{O}_BO_C\rvert^2=\lvert{O}_AO_B\rvert^2+\lvert{O}_AO_C\rvert^2-2\lvert{O}_AO_B\rvert\lvert{O}_AO_C\rvert\cos45^\circ.
 $$
 
-设 $d=\lvert O_AO_C \rvert$, 则 $185^2=160^2+d^2-2\cdot160\cdot d\cdot\frac{\sqrt 2}{2}$, 即 $34225=25600+d^2-160\sqrt 2\,d$, 即 $d^2-160\sqrt 2\,d-8625=0$.
+设 $d=\lvert{O}_AO_C\rvert$, 则 $185^2=160^2+d^2-2\cdot160\cdot{d}\cdot\frac{\sqrt2}{2}$, 即 $34225=25600+d^2-160\sqrt2\,d$, 即 $d^2-160\sqrt2\,d-8625=0$.
 
-解得 $d=\frac{160\sqrt 2+\sqrt{51200+34500}}{2}=\frac{160\sqrt 2+\sqrt{85700}}{2}\approx\frac{226.3+292.7}{2}\approx259.5$.
+解得 $d=\frac{160\sqrt2+\sqrt{51200+34500}}{2}=\frac{160\sqrt2+\sqrt{85700}}{2}\approx\frac{226.3+292.7}{2}\approx259.5$.
 
 精确到 $1\,\mathrm{cm}$, $A,C$ 两齿轮的中心距离约为 $260\,\mathrm{cm}$. $\blacksquare$
 
 ## 习题十
 
-(习题 2.5 综合运用第 12 题) 已知 $A\left(-2,-2\right)$, $B\left(-2,6\right)$, $C\left(4,-2\right)$ 三点, 点 $P$ 在圆 $x^2+y^2=4$ 上运动, 求 $\lvert PA \rvert^2+\lvert PB \rvert^2+\lvert PC \rvert^2$ 的最大值和最小值.
+(习题 2.5 综合运用第 12 题) 已知 $A\left(-2,-2\right)$, $B\left(-2,6\right)$, $C\left(4,-2\right)$ 三点, 点 $P$ 在圆 $x^2+y^2=4$ 上运动, 求 $\lvert{P}A\rvert^2+\lvert{P}B\rvert^2+\lvert{P}C\rvert^2$ 的最大值和最小值.
 
 ### 解答 习题十
 
 设点 $P$ 的坐标为 $\left(x,y\right)$, 则 $x^2+y^2=4$.
 
 $$
-\lvert PA \rvert^2=\left(x+2\right)^2+\left(y+2\right)^2=x^2+y^2+4x+4y+8,
+\lvert{P}A\rvert^2=\left(x+2\right)^2+\left(y+2\right)^2=x^2+y^2+4x+4y+8,
 $$
 
 $$
-\lvert PB \rvert^2=\left(x+2\right)^2+\left(y-6\right)^2=x^2+y^2+4x-12y+40,
+\lvert{P}B\rvert^2=\left(x+2\right)^2+\left(y-6\right)^2=x^2+y^2+4x-12y+40,
 $$
 
 $$
-\lvert PC \rvert^2=\left(x-4\right)^2+\left(y+2\right)^2=x^2+y^2-8x+4y+20.
+\lvert{P}C\rvert^2=\left(x-4\right)^2+\left(y+2\right)^2=x^2+y^2-8x+4y+20.
 $$
 
 三式相加, 得
 
 $$
-\lvert PA \rvert^2+\lvert PB \rvert^2+\lvert PC \rvert^2=3\left(x^2+y^2\right)+0x-4y+68=3\cdot4-4y+68=80-4y.
+\lvert{P}A\rvert^2+\lvert{P}B\rvert^2+\lvert{P}C\rvert^2=3\left(x^2+y^2\right)+0x-4y+68=3\cdot4-4y+68=80-4y.
 $$
 
 因为点 $P$ 在圆 $x^2+y^2=4$ 上, 故 $y\in\left[-2,2\right]$.
@@ -254,7 +254,7 @@ $$
 
 ### 解答 习题十一
 
-由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\frac{\lvert b \rvert}{\sqrt 2}$.
+由**常用结论 2.3.3** (点到直线的距离公式), 圆心 $\left(0,0\right)$ 到直线 $l:x-y+b=0$ 的距离为 $d=\frac{\lvert{b}\rvert}{\sqrt2}$.
 
 圆的半径为 $2$. 到直线 $l$ 距离为 $1$ 的点在两条平行线上, 到圆心距离分别为 $d-1$ 和 $d+1$.
 
@@ -264,7 +264,7 @@ $$
 
 (b) 当 $d=1$ 时, 一条平行线过圆心 $d-1=0$ (相交于两点), 另一条距圆心 $d+1=2=r$ (相切于一点). 共三个点.
 
-故 $d=\frac{\lvert b \rvert}{\sqrt 2}=1$, 即 $b=\pm\sqrt 2$. $\blacksquare$
+故 $d=\frac{\lvert{b}\rvert}{\sqrt2}=1$, 即 $b=\pm\sqrt2$. $\blacksquare$
 
 ## 习题十二
 
@@ -274,25 +274,25 @@ $$
 
 (2) 是否存在弦 $AB$ 被点 $P_0$ 平分? 若存在, 写出直线 $AB$ 的方程; 若不存在, 请说明理由.
 
-该图在平面直角坐标系中画出圆 $x^2+y^2=8$(圆心在原点,半径 $2\sqrt 2$),圆内有一点 $P_0\left(-1,2\right)$,过 $P_0$ 作一条倾斜角为 $\alpha$ 的弦 $AB$(端点 $A,B$ 在圆上).
+该图在平面直角坐标系中画出圆 $x^2+y^2=8$(圆心在原点,半径 $2\sqrt2$),圆内有一点 $P_0\left(-1,2\right)$,过 $P_0$ 作一条倾斜角为 $\alpha$ 的弦 $AB$(端点 $A,B$ 在圆上).
 
 ### 解答 习题十二
 
 (1) 当 $\alpha=135^\circ$ 时, 斜率 $k=\tan135^\circ=-1$. 直线 $AB$ 过点 $P_0\left(-1,2\right)$, 方程为 $y-2=-\left(x+1\right)$, 即 $x+y-1=0$.
 
-圆心 $\left(0,0\right)$ 到直线的距离为 $d=\frac{\lvert -1 \rvert}{\sqrt 2}=\frac{1}{\sqrt 2}$. 圆的半径 $r=\sqrt 8=2\sqrt 2$.
+圆心 $\left(0,0\right)$ 到直线的距离为 $d=\frac{\lvert-1\rvert}{\sqrt2}=\frac{1}{\sqrt2}$. 圆的半径 $r=\sqrt8=2\sqrt2$.
 
 由**常用结论 2.5.2** (弦长公式), 弦长为
 
 $$
-\lvert AB \rvert=2\sqrt{r^2-d^2}=2\sqrt{8-\frac{1}{2}}=2\sqrt{\frac{15}{2}}=\sqrt{30}.
+\lvert{A}B\rvert=2\sqrt{r^2-d^2}=2\sqrt{8-\frac{1}{2}}=2\sqrt{\frac{15}{2}}=\sqrt{30}.
 $$
 
-(2) 若弦 $AB$ 被点 $P_0$ 平分, 则 $OP_0\perp AB$. $k_{OP_0}=\frac{2-0}{-1-0}=-2$, 故 $k_{AB}=\frac{1}{2}$.
+(2) 若弦 $AB$ 被点 $P_0$ 平分, 则 $OP_0\perp{A}B$. $k_{OP_0}=\frac{2-0}{-1-0}=-2$, 故 $k_{AB}=\frac{1}{2}$.
 
 直线 $AB$ 过点 $P_0\left(-1,2\right)$, 方程为 $y-2=\frac{1}{2}\left(x+1\right)$, 即 $x-2y+5=0$.
 
-圆心到直线的距离为 $d=\frac{\lvert 5 \rvert}{\sqrt 5}=\sqrt 5< 2\sqrt 2=r$, 直线与圆相交, 故存在这样的弦. 直线 $AB$ 的方程为 $x-2y+5=0$. $\blacksquare$
+圆心到直线的距离为 $d=\frac{\lvert5\rvert}{\sqrt5}=\sqrt5<2\sqrt2=r$, 直线与圆相交, 故存在这样的弦. 直线 $AB$ 的方程为 $x-2y+5=0$. $\blacksquare$
 
 ## 习题十三
 
@@ -308,11 +308,11 @@ $$
 
 ### 解答 习题十三
 
-(1) 圆心 $Q\left(4,2\right)$, 点 $P\left(-2,-3\right)$. 以 $PQ$ 为直径的圆的圆心 $Q'$ 为 $PQ$ 的中点 $\left(\frac{4-2}{2},\frac{2-3}{2}\right)=\left(1,-\frac{1}{2}\right)$. 半径为 $\frac{\lvert PQ \rvert}{2}=\frac{\sqrt{\left(4+2\right)^2+\left(2+3\right)^2}}{2}=\frac{\sqrt{61}}{2}$.
+(1) 圆心 $Q\left(4,2\right)$, 点 $P\left(-2,-3\right)$. 以 $PQ$ 为直径的圆的圆心 $Q'$ 为 $PQ$ 的中点 $\left(\frac{4-2}{2},\frac{2-3}{2}\right)=\left(1,-\frac{1}{2}\right)$. 半径为 $\frac{\lvert{P}Q\rvert}{2}=\frac{\sqrt{\left(4+2\right)^2+\left(2+3\right)^2}}{2}=\frac{\sqrt{61}}{2}$.
 
 圆 $Q'$ 的方程为 $\left(x-1\right)^2+\left(y+\frac{1}{2}\right)^2=\frac{61}{4}$.
 
-(2) 因为 $AB$ 是圆 $Q$ 与圆 $Q'$ 的公共弦, 而 $PQ$ 是圆 $Q'$ 的直径, 故 $\angle PAQ=90^\circ$, 即 $PA\perp QA$. 因为 $QA$ 是圆 $Q$ 的半径, 故 $PA$ 是圆 $Q$ 的切线. 同理, $PB$ 也是圆 $Q$ 的切线.
+(2) 因为 $AB$ 是圆 $Q$ 与圆 $Q'$ 的公共弦, 而 $PQ$ 是圆 $Q'$ 的直径, 故 $\angle{P}AQ=90^\circ$, 即 $PA\perp{Q}A$. 因为 $QA$ 是圆 $Q$ 的半径, 故 $PA$ 是圆 $Q$ 的切线. 同理, $PB$ 也是圆 $Q$ 的切线.
 
 (3) 两圆方程相减: $\left(x-1\right)^2+\left(y+\frac{1}{2}\right)^2-\left[\left(x-4\right)^2+\left(y-2\right)^2\right]=\frac{61}{4}-9$.
 
@@ -328,7 +328,7 @@ $$
 
 由**常用结论 3.1.2** (椭圆上点到两焦点距离之和), 椭圆上任意一点到两焦点距离之和等于 $2a$.
 
-椭圆方程 $\frac{x^2}{100}+\frac{y^2}{36}=1$ 中, $a^2=100$, 故 $a=10$, $2a=20$. 由 $\lvert PF_1 \rvert+\lvert PF_2 \rvert=20$, $\lvert PF_1 \rvert=6$, 得 $\lvert PF_2 \rvert=20-6=14$. $\blacksquare$
+椭圆方程 $\frac{x^2}{100}+\frac{y^2}{36}=1$ 中, $a^2=100$, 故 $a=10$, $2a=20$. 由 $\lvert{P}F_1\rvert+\lvert{P}F_2\rvert=20$, $\lvert{P}F_1\rvert=6$, 得 $\lvert{P}F_2\rvert=20-6=14$. $\blacksquare$
 
 ## 练习二
 
@@ -374,27 +374,27 @@ $\blacksquare$
 
 (练习 3.1 第 3 题) 经过椭圆 $\frac{x^2}{25}+\frac{y^2}{16}=1$ 的右焦点 $F_2$ 作垂直于 $x$ 轴的直线 $AB$, 交椭圆于 $A$, $B$ 两点, $F_1$ 是椭圆的左焦点.
 
-(1) 求 $\triangle AF_1B$ 的周长;
+(1) 求 $\triangle{A}F_1B$ 的周长;
 
-(2) 如果 $AB$ 不垂直于 $x$ 轴, $\triangle AF_1B$ 的周长有变化吗? 为什么?
+(2) 如果 $AB$ 不垂直于 $x$ 轴, $\triangle{A}F_1B$ 的周长有变化吗? 为什么?
 
 ### 解答 练习三
 
-由**定义 3.1.3 (椭圆的标准方程)**, 椭圆 $\frac{x^2}{25}+\frac{y^2}{16}=1$ 中 $a^2=25$, $b^2=16$, 故 $a=5$, $c=\sqrt{a^2-b^2}=3$, 焦点 $F_1\left(-3,0\right)$, $F_2\left(3,0\right)$. 由**常用结论 3.1.2**, 椭圆上任意一点 $M$ 满足 $\lvert MF_1 \rvert+\lvert MF_2 \rvert=2a=10$.
+由**定义 3.1.3 (椭圆的标准方程)**, 椭圆 $\frac{x^2}{25}+\frac{y^2}{16}=1$ 中 $a^2=25$, $b^2=16$, 故 $a=5$, $c=\sqrt{a^2-b^2}=3$, 焦点 $F_1\left(-3,0\right)$, $F_2\left(3,0\right)$. 由**常用结论 3.1.2**, 椭圆上任意一点 $M$ 满足 $\lvert{M}F_1\rvert+\lvert{M}F_2\rvert=2a=10$.
 
-(1) 直线 $AB$ 过 $F_2\left(3,0\right)$ 且垂直于 $x$ 轴, 故 $A$, $B$ 的横坐标均为 $3$, 且 $A$, $B$ 在椭圆上, 所以 $\lvert AF_2 \rvert+\lvert BF_2 \rvert=\lvert AB \rvert$. 由**常用结论 3.1.2**, $\lvert AF_1 \rvert+\lvert AF_2 \rvert=10$, $\lvert BF_1 \rvert+\lvert BF_2 \rvert=10$. 两式相加, 得
-
-$$
-\lvert AF_1 \rvert+\lvert BF_1 \rvert+\lvert AF_2 \rvert+\lvert BF_2 \rvert=20.
-$$
-
-又 $\lvert AF_2 \rvert+\lvert BF_2 \rvert=\lvert AB \rvert$, 故 $\triangle AF_1B$ 的周长为
+(1) 直线 $AB$ 过 $F_2\left(3,0\right)$ 且垂直于 $x$ 轴, 故 $A$, $B$ 的横坐标均为 $3$, 且 $A$, $B$ 在椭圆上, 所以 $\lvert{A}F_2\rvert+\lvert{B}F_2\rvert=\lvert{A}B\rvert$. 由**常用结论 3.1.2**, $\lvert{A}F_1\rvert+\lvert{A}F_2\rvert=10$, $\lvert{B}F_1\rvert+\lvert{B}F_2\rvert=10$. 两式相加, 得
 
 $$
-\lvert AF_1 \rvert+\lvert BF_1 \rvert+\lvert AB \rvert=20.
+\lvert{A}F_1\rvert+\lvert{B}F_1\rvert+\lvert{A}F_2\rvert+\lvert{B}F_2\rvert=20.
 $$
 
-(2) 周长没有变化. 由**常用结论 3.1.2**, 对椭圆上过 $F_2$ 的任意一条弦 $AB$, 都有 $\lvert AF_1 \rvert+\lvert AF_2 \rvert=2a$, $\lvert BF_1 \rvert+\lvert BF_2 \rvert=2a$. 两式相加, 得 $\lvert AF_1 \rvert+\lvert BF_1 \rvert+\lvert AF_2 \rvert+\lvert BF_2 \rvert=4a$. 又 $A$, $F_2$, $B$ 共线, 故 $\lvert AF_2 \rvert+\lvert BF_2 \rvert=\lvert AB \rvert$, 从而周长 $\lvert AF_1 \rvert+\lvert BF_1 \rvert+\lvert AB \rvert=4a=20$, 与弦 $AB$ 的方向无关. $\blacksquare$
+又 $\lvert{A}F_2\rvert+\lvert{B}F_2\rvert=\lvert{A}B\rvert$, 故 $\triangle{A}F_1B$ 的周长为
+
+$$
+\lvert{A}F_1\rvert+\lvert{B}F_1\rvert+\lvert{A}B\rvert=20.
+$$
+
+(2) 周长没有变化. 由**常用结论 3.1.2**, 对椭圆上过 $F_2$ 的任意一条弦 $AB$, 都有 $\lvert{A}F_1\rvert+\lvert{A}F_2\rvert=2a$, $\lvert{B}F_1\rvert+\lvert{B}F_2\rvert=2a$. 两式相加, 得 $\lvert{A}F_1\rvert+\lvert{B}F_1\rvert+\lvert{A}F_2\rvert+\lvert{B}F_2\rvert=4a$. 又 $A$, $F_2$, $B$ 共线, 故 $\lvert{A}F_2\rvert+\lvert{B}F_2\rvert=\lvert{A}B\rvert$, 从而周长 $\lvert{A}F_1\rvert+\lvert{B}F_1\rvert+\lvert{A}B\rvert=4a=20$, 与弦 $AB$ 的方向无关. $\blacksquare$
 
 ## 练习四
 
@@ -422,7 +422,7 @@ $$
 
 由**定义 3.1.1 (椭圆)**, 椭圆上任意一点到两焦点距离之和等于定长 $2a$, 而长轴端点到两焦点距离之和为 $2a$, 且长轴端点到中心距离为 $a$, 中心到焦点距离为 $c$.
 
-在图中椭圆与 $x$ 轴的两个交点 $A_1$, $A_2$ 即长轴顶点, $\lvert OA_1 \rvert=\lvert OA_2 \rvert=a$. 以 $A_1$ 为圆心, $a$ 为半径画弧, 与长轴 (线段 $A_1A_2$) 交于两点, 该两点即为焦点 $F_1$, $F_2$. 依据: 由**常用结论 3.1.2**, $\lvert A_1F_1 \rvert+\lvert A_1F_2 \rvert=2a$, 又 $\lvert A_1F_1 \rvert+\lvert F_1F_2 \rvert+\lvert F_2A_2 \rvert=2a$, 且 $\lvert A_1F_1 \rvert=\lvert A_2F_2 \rvert$, $\lvert F_1F_2 \rvert=2c$, 故以 $A_1$ 为心 $a$ 为半径交长轴即得 $F_1$. $\blacksquare$
+在图中椭圆与 $x$ 轴的两个交点 $A_1$, $A_2$ 即长轴顶点, $\lvert{O}A_1\rvert=\lvert{O}A_2\rvert=a$. 以 $A_1$ 为圆心, $a$ 为半径画弧, 与长轴 (线段 $A_1A_2$) 交于两点, 该两点即为焦点 $F_1$, $F_2$. 依据: 由**常用结论 3.1.2**, $\lvert{A}_1F_1\rvert+\lvert{A}_1F_2\rvert=2a$, 又 $\lvert{A}_1F_1\rvert+\lvert{F}_1F_2\rvert+\lvert{F}_2A_2\rvert=2a$, 且 $\lvert{A}_1F_1\rvert=\lvert{A}_2F_2\rvert$, $\lvert{F}_1F_2\rvert=2c$, 故以 $A_1$ 为心 $a$ 为半径交长轴即得 $F_1$. $\blacksquare$
 
 ## 练习六
 
@@ -434,7 +434,7 @@ $$
 
 ### 解答 练习六
 
-由**定义 3.1.3 (椭圆的标准方程)**, 焦点坐标为 $\left(\pm c,0\right)$ 或 $\left(0,\pm c\right)$, 其中 $c^2=a^2-b^2$, $a$ 为较大分母的平方根.
+由**定义 3.1.3 (椭圆的标准方程)**, 焦点坐标为 $\left(\pm{c},0\right)$ 或 $\left(0,\pm{c}\right)$, 其中 $c^2=a^2-b^2$, $a$ 为较大分母的平方根.
 
 (1) 方程 $\frac{x^2}{100}+\frac{y^2}{36}=1$ 中, $a^2=100$, $b^2=36$, 焦点在 $x$ 轴上, $c=\sqrt{100-36}=8$, 故焦点坐标为 $\left(-8,0\right)$, $\left(8,0\right)$.
 
@@ -478,7 +478,7 @@ $\blacksquare$
 
 由**定义 3.1.6 (顶点, 长轴, 短轴)**, 椭圆与坐标轴的交点即顶点; 由**定义 3.1.7 (椭圆的离心率)**, $e=\frac{c}{a}$.
 
-(1) 点 $P\left(-3,0\right)$ 在 $x$ 轴上, 点 $Q\left(0,-2\right)$ 在 $y$ 轴上, 它们分别是椭圆与两坐标轴的交点. 由**定义 3.1.6 (顶点, 长轴, 短轴)**, 椭圆顶点为 $\left(\pm a,0\right)$ 和 $\left(0,\pm b\right)$, 故 $a=3$, $b=2$. 又 $a> b$, 焦点在 $x$ 轴上, 标准方程为
+(1) 点 $P\left(-3,0\right)$ 在 $x$ 轴上, 点 $Q\left(0,-2\right)$ 在 $y$ 轴上, 它们分别是椭圆与两坐标轴的交点. 由**定义 3.1.6 (顶点, 长轴, 短轴)**, 椭圆顶点为 $\left(\pm{a},0\right)$ 和 $\left(0,\pm{b}\right)$, 故 $a=3$, $b=2$. 又 $a>{}b$, 焦点在 $x$ 轴上, 标准方程为
 
 $$
 \frac{x^2}{9}+\frac{y^2}{4}=1.

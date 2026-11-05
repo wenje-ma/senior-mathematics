@@ -18,7 +18,7 @@
 
 > **定义 1.1.5 (属于与不属于)**
 > 
-> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in A$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin A$.
+> 如果 $a$ 是集合 $A$ 的元素, 就说 $a$ 属于集合 $A$, 记作 $a\in{A}$; 如果 $a$ 不是集合 $A$ 的元素, 就说 $a$ 不属于集合 $A$, 记作 $a\notin{A}$.
 
 > **定义 1.1.12 (向量的数量积)**
 > 
@@ -34,9 +34,9 @@
 
 ## 练习一
 
-(练习 1.1 第 4 题) 如图, 线段 $AB$, $BD$ 在平面 $\alpha$ 内, $BD \perp AB$, $AC \perp \alpha$, 且 $AB=a$, $BD=b$, $AC=c$. 求 $C$, $D$ 两点间的距离.
+(练习 1.1 第 4 题) 如图, 线段 $AB$, $BD$ 在平面 $\alpha$ 内, $BD\perp{A}B$, $AC\perp\alpha$, 且 $AB=a$, $BD=b$, $AC=c$. 求 $C$, $D$ 两点间的距离.
 
-(题图: 平面 $\alpha$ 内有线段 $AB$, $BD$, $BD\perp AB$, $AC\perp\alpha$ 于 $A$, $AB=a$, $BD=b$, $AC=c$.)
+(题图: 平面 $\alpha$ 内有线段 $AB$, $BD$, $BD\perp{A}B$, $AC\perp\alpha$ 于 $A$, $AB=a$, $BD=b$, $AC=c$.)
 
 ### 解答 练习一
 
@@ -44,10 +44,10 @@
 
 $\boldsymbol{CD}=\boldsymbol{CA}+\boldsymbol{AB}+\boldsymbol{BD}=-\boldsymbol{AC}+\boldsymbol{AB}+\boldsymbol{BD}$.
 
-设 $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, 则 $\boldsymbol{a} \perp \boldsymbol{b}$ (因为 $BD \perp AB$), $\boldsymbol{c} \perp \boldsymbol{a}$ (因为 $AC \perp \alpha$ 且 $AB \subset \alpha$), $\boldsymbol{c} \perp \boldsymbol{b}$ (因为 $AC \perp \alpha$ 且 $BD \subset \alpha$). 故 $\boldsymbol{a} \cdot \boldsymbol{b}=\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}=0$.
+设 $\boldsymbol{AC}=\boldsymbol{c}$, $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{BD}=\boldsymbol{b}$, 则 $\boldsymbol{a}\perp\boldsymbol{b}$ (因为 $BD\perp{A}B$), $\boldsymbol{c}\perp\boldsymbol{a}$ (因为 $AC\perp\alpha$ 且 $AB\subset\alpha$), $\boldsymbol{c}\perp\boldsymbol{b}$ (因为 $AC\perp\alpha$ 且 $BD\subset\alpha$). 故 $\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{a}\cdot\boldsymbol{c}=\boldsymbol{b}\cdot\boldsymbol{c}=0$.
 
 $$
-\lvert \boldsymbol{CD} \rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+2\boldsymbol{a} \cdot \boldsymbol{b}-2\boldsymbol{c} \cdot \boldsymbol{b}=c^2+a^2+b^2.
+\lvert\boldsymbol{CD}\rvert^2=\left(-\boldsymbol{c}+\boldsymbol{a}+\boldsymbol{b}\right)^2=\boldsymbol{c}^2+\boldsymbol{a}^2+\boldsymbol{b}^2-2\boldsymbol{c}\cdot\boldsymbol{a}+2\boldsymbol{a}\cdot\boldsymbol{b}-2\boldsymbol{c}\cdot\boldsymbol{b}=c^2+a^2+b^2.
 $$
 
 故 $CD=\sqrt{a^2+b^2+c^2}$. $\blacksquare$
@@ -106,7 +106,7 @@ $$
 
 ### 解答 习题三
 
-由**常用结论 1.1.7** (向量共线的充要条件), $\boldsymbol{a} \parallel \boldsymbol{b}$ 当且仅当存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+由**常用结论 1.1.7** (向量共线的充要条件), $\boldsymbol{a}\parallel\boldsymbol{b}$ 当且仅当存在实数 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
 因为 $\boldsymbol{a}$, $\boldsymbol{b}$ 共线, 由**常用结论 1.1.7**, 存在实数 $\lambda$, 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
@@ -118,17 +118,17 @@ $$
 
 (习题 1.1 复习巩固第 4 题) 如图, 已知四面体 $ABCD$ 的所有棱长都等于 $a$, $E$, $F$, $G$ 分别是棱 $AB$, $AD$, $DC$ 的中点. 求:
 
-(1) $\boldsymbol{AB} \cdot \boldsymbol{AC}$;
+(1) $\boldsymbol{AB}\cdot\boldsymbol{AC}$;
 
-(2) $\boldsymbol{AD} \cdot \boldsymbol{DB}$;
+(2) $\boldsymbol{AD}\cdot\boldsymbol{DB}$;
 
-(3) $\boldsymbol{GF} \cdot \boldsymbol{AC}$;
+(3) $\boldsymbol{GF}\cdot\boldsymbol{AC}$;
 
-(4) $\boldsymbol{EF} \cdot \boldsymbol{BC}$;
+(4) $\boldsymbol{EF}\cdot\boldsymbol{BC}$;
 
-(5) $\boldsymbol{FG} \cdot \boldsymbol{BA}$;
+(5) $\boldsymbol{FG}\cdot\boldsymbol{BA}$;
 
-(6) $\boldsymbol{GE} \cdot \boldsymbol{GF}$.
+(6) $\boldsymbol{GE}\cdot\boldsymbol{GF}$.
 
 (题图: 所有棱长都等于 $a$ 的四面体 $ABCD$, $E$ 为 $AB$ 中点, $F$ 为 $AD$ 中点, $G$ 为 $DC$ 中点.)
 
@@ -136,15 +136,15 @@ $$
 
 由**定义 1.1.12 (向量的数量积)**, 正四面体中任意两条棱的夹角均为 $60^\circ$.
 
-(1) $\left\langle \boldsymbol{AB}, \boldsymbol{AC} \right\rangle=60^\circ$, 故 $\boldsymbol{AB} \cdot \boldsymbol{AC}=\lvert \boldsymbol{AB} \rvert \lvert \boldsymbol{AC} \rvert \cos 60^\circ=a \cdot a \cdot \frac{1}{2}=\frac{a^2}{2}$.
+(1) $\left\langle\boldsymbol{AB},\boldsymbol{AC}\right\rangle=60^\circ$, 故 $\boldsymbol{AB}\cdot\boldsymbol{AC}=\lvert\boldsymbol{AB}\rvert\lvert\boldsymbol{AC}\rvert\cos60^\circ=a\cdot{a}\cdot\frac{1}{2}=\frac{a^2}{2}$.
 
-(2) $\left\langle \boldsymbol{AD}, \boldsymbol{DB} \right\rangle$: $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角. 在正三角形 $ABD$ 中, $\angle ADB=60^\circ$, 但 $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角为 $180^\circ-60^\circ=120^\circ$. 故 $\boldsymbol{AD} \cdot \boldsymbol{DB}=a \cdot a \cdot \cos 120^\circ=-\frac{a^2}{2}$.
+(2) $\left\langle\boldsymbol{AD},\boldsymbol{DB}\right\rangle$: $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角. 在正三角形 $ABD$ 中, $\angle{A}DB=60^\circ$, 但 $\boldsymbol{AD}$ 与 $\boldsymbol{DB}$ 的夹角为 $180^\circ-60^\circ=120^\circ$. 故 $\boldsymbol{AD}\cdot\boldsymbol{DB}=a\cdot{a}\cdot\cos120^\circ=-\frac{a^2}{2}$.
 
-(3) $G$, $F$ 分别是 $DC$, $AD$ 的中点, 故 $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{GF} \cdot \boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{AC}=-\frac{1}{2}a^2$.
+(3) $G$, $F$ 分别是 $DC$, $AD$ 的中点, 故 $\boldsymbol{GF}=\frac{1}{2}\boldsymbol{CA}=-\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{GF}\cdot\boldsymbol{AC}=-\frac{1}{2}\boldsymbol{AC}\cdot\boldsymbol{AC}=-\frac{1}{2}a^2$.
 
-(4) $E$, $F$ 分别是 $AB$, $AD$ 的中点, 故 $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. 故 $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD} \cdot \boldsymbol{BC}$. $\left\langle \boldsymbol{BD}, \boldsymbol{BC} \right\rangle=60^\circ$, 故 $\boldsymbol{EF} \cdot \boldsymbol{BC}=\frac{1}{2} \cdot a \cdot a \cdot \frac{1}{2}=\frac{a^2}{4}$.
+(4) $E$, $F$ 分别是 $AB$, $AD$ 的中点, 故 $\boldsymbol{EF}=\frac{1}{2}\boldsymbol{BD}$. 故 $\boldsymbol{EF}\cdot\boldsymbol{BC}=\frac{1}{2}\boldsymbol{BD}\cdot\boldsymbol{BC}$. $\left\langle\boldsymbol{BD},\boldsymbol{BC}\right\rangle=60^\circ$, 故 $\boldsymbol{EF}\cdot\boldsymbol{BC}=\frac{1}{2}\cdot{a}\cdot{a}\cdot\frac{1}{2}=\frac{a^2}{4}$.
 
-(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{FG} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC} \cdot \left(-\boldsymbol{AB}\right)=-\frac{1}{2} \cdot \frac{a^2}{2}=-\frac{a^2}{4}$.
+(5) $\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}=\frac{1}{2}\boldsymbol{AC}$. 故 $\boldsymbol{FG}\cdot\boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC}\cdot\boldsymbol{BA}=\frac{1}{2}\boldsymbol{AC}\cdot\left(-\boldsymbol{AB}\right)=-\frac{1}{2}\cdot\frac{a^2}{2}=-\frac{a^2}{4}$.
 
 (6) $\boldsymbol{GE}=\boldsymbol{GC}+\boldsymbol{CE}$ 或用中点性质. $\boldsymbol{GE}=\boldsymbol{AE}-\boldsymbol{AG}$. 其中 $\boldsymbol{AE}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{AG}=\frac{1}{2}\left(\boldsymbol{AD}+\boldsymbol{AC}\right)$ (因为 $G$ 是 $DC$ 中点, $\boldsymbol{AG}=\boldsymbol{AD}+\boldsymbol{DG}=\boldsymbol{AD}+\frac{1}{2}\boldsymbol{DC}=\boldsymbol{AD}+\frac{1}{2}\left(\boldsymbol{AC}-\boldsymbol{AD}\right)=\frac{1}{2}\boldsymbol{AD}+\frac{1}{2}\boldsymbol{AC}$).
 
@@ -152,11 +152,11 @@ $$
 
 $\boldsymbol{GF}=-\frac{1}{2}\boldsymbol{AC}$.
 
-$\boldsymbol{GE} \cdot \boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right) \cdot \left(-\frac{1}{2}\boldsymbol{AC}\right)$
+$\boldsymbol{GE}\cdot\boldsymbol{GF}=\left(\frac{1}{2}\boldsymbol{AB}-\frac{1}{2}\boldsymbol{AD}-\frac{1}{2}\boldsymbol{AC}\right)\cdot\left(-\frac{1}{2}\boldsymbol{AC}\right)$
 
-$=-\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD} \cdot \boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC} \cdot \boldsymbol{AC}$
+$=-\frac{1}{4}\boldsymbol{AB}\cdot\boldsymbol{AC}+\frac{1}{4}\boldsymbol{AD}\cdot\boldsymbol{AC}+\frac{1}{4}\boldsymbol{AC}\cdot\boldsymbol{AC}$
 
-$=-\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4} \cdot \frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
+$=-\frac{1}{4}\cdot\frac{a^2}{2}+\frac{1}{4}\cdot\frac{a^2}{2}+\frac{1}{4}a^2=\frac{a^2}{4}$. $\blacksquare$
 
 ## 习题五
 
@@ -204,7 +204,7 @@ $\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}+\fra
 
 (1) 求 $A'B$ 和 $B'C$ 的夹角;
 
-(2) 求证: $A'B \perp AC'$.
+(2) 求证: $A'B\perp{A}C'$.
 
 (题图: 正方体 $ABCD-A'B'C'D'$, 棱长为 $a$.)
 
@@ -212,27 +212,27 @@ $\boldsymbol{EG}=\boldsymbol{EF}+\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AC}+\fra
 
 由**定义 1.1.12 (向量的数量积)** 及**常用结论 1.1.13** (数量积的性质).
 
-设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert=\lvert \boldsymbol{c} \rvert=a$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两垂直.
+设 $\boldsymbol{AB}=\boldsymbol{a}$, $\boldsymbol{AD}=\boldsymbol{b}$, $\boldsymbol{AA'}=\boldsymbol{c}$, 则 $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert=\lvert\boldsymbol{c}\rvert=a$, 且 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 两两垂直.
 
 (1) $\boldsymbol{A'B}=\boldsymbol{AB}-\boldsymbol{AA'}=\boldsymbol{a}-\boldsymbol{c}$.
 
 $\boldsymbol{B'C}=\boldsymbol{B'B}+\boldsymbol{BC}=-\boldsymbol{c}+\boldsymbol{b}=\boldsymbol{b}-\boldsymbol{c}$.
 
-$\boldsymbol{A'B} \cdot \boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}-\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
+$\boldsymbol{A'B}\cdot\boldsymbol{B'C}=\left(\boldsymbol{a}-\boldsymbol{c}\right)\cdot\left(\boldsymbol{b}-\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}-\boldsymbol{a}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{b}+\boldsymbol{c}^2=0-0-0+a^2=a^2$.
 
-$\lvert \boldsymbol{A'B} \rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
+$\lvert\boldsymbol{A'B}\rvert=\sqrt{\left(\boldsymbol{a}-\boldsymbol{c}\right)^2}=\sqrt{a^2+a^2}=\sqrt{2}a$.
 
-$\lvert \boldsymbol{B'C} \rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
+$\lvert\boldsymbol{B'C}\rvert=\sqrt{\left(\boldsymbol{b}-\boldsymbol{c}\right)^2}=\sqrt{2}a$.
 
-$\cos \left\langle \boldsymbol{A'B}, \boldsymbol{B'C} \right\rangle=\frac{a^2}{\sqrt{2}a \cdot \sqrt{2}a}=\frac{1}{2}$.
+$\cos\left\langle\boldsymbol{A'B},\boldsymbol{B'C}\right\rangle=\frac{a^2}{\sqrt{2}a\cdot\sqrt{2}a}=\frac{1}{2}$.
 
 故夹角为 $60^\circ$.
 
 (2) $\boldsymbol{AC'}=\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}$.
 
-$\boldsymbol{A'B} \cdot \boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right) \cdot \left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{c} \cdot \boldsymbol{a}-\boldsymbol{c} \cdot \boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
+$\boldsymbol{A'B}\cdot\boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\right)\cdot\left(\boldsymbol{a}+\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}-\boldsymbol{c}\cdot\boldsymbol{a}-\boldsymbol{c}\cdot\boldsymbol{b}-\boldsymbol{c}^2=a^2+0+0-0-0-a^2=0$.
 
-由**常用结论 1.1.13**, $\boldsymbol{A'B} \perp \boldsymbol{AC'}$, 即 $A'B \perp AC'$. $\blacksquare$
+由**常用结论 1.1.13**, $\boldsymbol{A'B}\perp\boldsymbol{AC'}$, 即 $A'B\perp{A}C'$. $\blacksquare$
 
 ## 习题八
 
@@ -242,19 +242,19 @@ $\boldsymbol{A'B} \cdot \boldsymbol{AC'}=\left(\boldsymbol{a}-\boldsymbol{c}\rig
 
 由**常用结论 1.1.13** (数量积的性质), 要证两直线垂直, 只需证它们的方向向量数量积为零.
 
-设平面 $\alpha$ 内的直线 $l$ 的方向向量为 $\boldsymbol{a}$, 斜线为 $AB$ ($A \in \alpha$, $B \notin \alpha$), $B$ 在 $\alpha$ 上的射影为 $B'$, 则射影为 $AB'$. 设 $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, 其中 $\boldsymbol{c} \perp \alpha$, 故 $\boldsymbol{c} \perp \boldsymbol{a}$.
+设平面 $\alpha$ 内的直线 $l$ 的方向向量为 $\boldsymbol{a}$, 斜线为 $AB$ ($A\in\alpha$, $B\notin\alpha$), $B$ 在 $\alpha$ 上的射影为 $B'$, 则射影为 $AB'$. 设 $\boldsymbol{AB'}=\boldsymbol{b}$, $\boldsymbol{B'B}=\boldsymbol{c}$, 其中 $\boldsymbol{c}\perp\alpha$, 故 $\boldsymbol{c}\perp\boldsymbol{a}$.
 
-已知 $l \perp AB'$, 即 $\boldsymbol{a} \perp \boldsymbol{b}$, 故 $\boldsymbol{a} \cdot \boldsymbol{b}=0$.
+已知 $l\perp{A}B'$, 即 $\boldsymbol{a}\perp\boldsymbol{b}$, 故 $\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 $\boldsymbol{AB}=\boldsymbol{AB'}+\boldsymbol{B'B}=\boldsymbol{b}+\boldsymbol{c}$.
 
-$\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot \left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{a} \cdot \boldsymbol{c}=0+0=0$.
+$\boldsymbol{a}\cdot\boldsymbol{AB}=\boldsymbol{a}\cdot\left(\boldsymbol{b}+\boldsymbol{c}\right)=\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{a}\cdot\boldsymbol{c}=0+0=0$.
 
-由**常用结论 1.1.13**, $\boldsymbol{a} \perp \boldsymbol{AB}$, 即 $l \perp AB$. $\blacksquare$
+由**常用结论 1.1.13**, $\boldsymbol{a}\perp\boldsymbol{AB}$, 即 $l\perp{A}B$. $\blacksquare$
 
 ## 习题九
 
-(习题 1.1 拓广探索第 9 题) 如图, 在四面体 $OABC$ 中, $OA \perp BC$, $OB \perp AC$. 求证: $OC \perp AB$.
+(习题 1.1 拓广探索第 9 题) 如图, 在四面体 $OABC$ 中, $OA\perp{B}C$, $OB\perp{A}C$. 求证: $OC\perp{A}B$.
 
 (题图: 四面体 $OABC$.)
 
@@ -264,19 +264,19 @@ $\boldsymbol{a} \cdot \boldsymbol{AB}=\boldsymbol{a} \cdot \left(\boldsymbol{b}+
 
 设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$.
 
-由 $OA \perp BC$, 即 $\boldsymbol{a} \perp \boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. 故 $\boldsymbol{a} \cdot \left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, 即 $\boldsymbol{a} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{b}=0$. (1)
+由 $OA\perp{B}C$, 即 $\boldsymbol{a}\perp\boldsymbol{BC}$. $\boldsymbol{BC}=\boldsymbol{c}-\boldsymbol{b}$. 故 $\boldsymbol{a}\cdot\left(\boldsymbol{c}-\boldsymbol{b}\right)=0$, 即 $\boldsymbol{a}\cdot\boldsymbol{c}-\boldsymbol{a}\cdot\boldsymbol{b}=0$. (1)
 
-由 $OB \perp AC$, 即 $\boldsymbol{b} \perp \boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. 故 $\boldsymbol{b} \cdot \left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, 即 $\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{b} \cdot \boldsymbol{a}=0$. (2)
+由 $OB\perp{A}C$, 即 $\boldsymbol{b}\perp\boldsymbol{AC}$. $\boldsymbol{AC}=\boldsymbol{c}-\boldsymbol{a}$. 故 $\boldsymbol{b}\cdot\left(\boldsymbol{c}-\boldsymbol{a}\right)=0$, 即 $\boldsymbol{b}\cdot\boldsymbol{c}-\boldsymbol{b}\cdot\boldsymbol{a}=0$. (2)
 
-由 (1) 得 $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$. 由 (2) 得 $\boldsymbol{b} \cdot \boldsymbol{c}=\boldsymbol{a} \cdot \boldsymbol{b}$.
+由 (1) 得 $\boldsymbol{a}\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{b}$. 由 (2) 得 $\boldsymbol{b}\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{b}$.
 
-故 $\boldsymbol{a} \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}$, 即 $\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+故 $\boldsymbol{a}\cdot\boldsymbol{c}=\boldsymbol{b}\cdot\boldsymbol{c}$, 即 $\boldsymbol{c}\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
 
 $\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-\left(\boldsymbol{a}-\boldsymbol{b}\right)$.
 
-故 $\boldsymbol{c} \cdot \boldsymbol{AB}=\boldsymbol{c} \cdot \left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c} \cdot \left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
+故 $\boldsymbol{c}\cdot\boldsymbol{AB}=\boldsymbol{c}\cdot\left(\boldsymbol{b}-\boldsymbol{a}\right)=-\boldsymbol{c}\cdot\left(\boldsymbol{a}-\boldsymbol{b}\right)=0$.
 
-由**常用结论 1.1.13**, $\boldsymbol{OC} \perp \boldsymbol{AB}$, 即 $OC \perp AB$. $\blacksquare$
+由**常用结论 1.1.13**, $\boldsymbol{OC}\perp\boldsymbol{AB}$, 即 $OC\perp{A}B$. $\blacksquare$
 
 ## 习题十
 
@@ -290,25 +290,25 @@ $\boldsymbol{AB}=\boldsymbol{OB}-\boldsymbol{OA}=\boldsymbol{b}-\boldsymbol{a}=-
 
 $E$, $F$, $G$, $H$ 分别是 $OA$, $OB$, $BC$, $CA$ 的中点.
 
-$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, 故 $\boldsymbol{EF}=\boldsymbol{HG}$, 即 $EF \parallel HG$ 且 $EF=HG$.
+$\boldsymbol{EF}=\frac{1}{2}\boldsymbol{AB}$, $\boldsymbol{HG}=\frac{1}{2}\boldsymbol{AB}$, 故 $\boldsymbol{EF}=\boldsymbol{HG}$, 即 $EF\parallel{H}G$ 且 $EF=HG$.
 
-$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, 故 $\boldsymbol{FG}=\boldsymbol{EH}$, 即 $FG \parallel EH$ 且 $FG=EH$.
+$\boldsymbol{FG}=\frac{1}{2}\boldsymbol{OC}$, $\boldsymbol{EH}=\frac{1}{2}\boldsymbol{OC}$, 故 $\boldsymbol{FG}=\boldsymbol{EH}$, 即 $FG\parallel{E}H$ 且 $FG=EH$.
 
 故四边形 $EFGH$ 是平行四边形.
 
-再证一个内角为直角. $\boldsymbol{EF} \cdot \boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB} \cdot \frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB} \cdot \boldsymbol{OC}$.
+再证一个内角为直角. $\boldsymbol{EF}\cdot\boldsymbol{FG}=\frac{1}{2}\boldsymbol{AB}\cdot\frac{1}{2}\boldsymbol{OC}=\frac{1}{4}\boldsymbol{AB}\cdot\boldsymbol{OC}$.
 
-设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. 由 $OA=OB$, $\lvert \boldsymbol{a} \rvert=\lvert \boldsymbol{b} \rvert$. 由 $CA=CB$, $\lvert \boldsymbol{c}-\boldsymbol{a} \rvert=\lvert \boldsymbol{c}-\boldsymbol{b} \rvert$, 平方得 $\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c} \cdot \boldsymbol{b}+\boldsymbol{b}^2$. 由 $\boldsymbol{a}^2=\boldsymbol{b}^2$, 得 $\boldsymbol{c} \cdot \boldsymbol{a}=\boldsymbol{c} \cdot \boldsymbol{b}$.
+设 $\boldsymbol{OA}=\boldsymbol{a}$, $\boldsymbol{OB}=\boldsymbol{b}$, $\boldsymbol{OC}=\boldsymbol{c}$. 由 $OA=OB$, $\lvert\boldsymbol{a}\rvert=\lvert\boldsymbol{b}\rvert$. 由 $CA=CB$, $\lvert\boldsymbol{c}-\boldsymbol{a}\rvert=\lvert\boldsymbol{c}-\boldsymbol{b}\rvert$, 平方得 $\boldsymbol{c}^2-2\boldsymbol{c}\cdot\boldsymbol{a}+\boldsymbol{a}^2=\boldsymbol{c}^2-2\boldsymbol{c}\cdot\boldsymbol{b}+\boldsymbol{b}^2$. 由 $\boldsymbol{a}^2=\boldsymbol{b}^2$, 得 $\boldsymbol{c}\cdot\boldsymbol{a}=\boldsymbol{c}\cdot\boldsymbol{b}$.
 
-$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB} \cdot \boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right) \cdot \boldsymbol{c}=\boldsymbol{b} \cdot \boldsymbol{c}-\boldsymbol{a} \cdot \boldsymbol{c}=0$.
+$\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB}\cdot\boldsymbol{c}=\left(\boldsymbol{b}-\boldsymbol{a}\right)\cdot\boldsymbol{c}=\boldsymbol{b}\cdot\boldsymbol{c}-\boldsymbol{a}\cdot\boldsymbol{c}=0$.
 
-故 $\boldsymbol{EF} \cdot \boldsymbol{FG}=0$, 即 $EF \perp FG$.
+故 $\boldsymbol{EF}\cdot\boldsymbol{FG}=0$, 即 $EF\perp{F}G$.
 
 平行四边形 $EFGH$ 有一个内角为直角, 故为矩形. $\blacksquare$
 
 ## 练习二
 
-(练习 1.2 第 1 题) 已知 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是空间的一个基底, 从 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 中选哪一个向量, 一定可以与向量 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 构成空间的另一个基底?
+(练习 1.2 第 1 题) 已知 $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ 是空间的一个基底, 从 $\boldsymbol{a}$, $\boldsymbol{b}$, $\boldsymbol{c}$ 中选哪一个向量, 一定可以与向量 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 构成空间的另一个基底?
 
 ### 解答 练习二
 
@@ -316,9 +316,9 @@ $\boldsymbol{AB}=\boldsymbol{b}-\boldsymbol{a}$. $\boldsymbol{AB} \cdot \boldsym
 
 $\boldsymbol{p}=\boldsymbol{a}+\boldsymbol{b}$, $\boldsymbol{q}=\boldsymbol{a}-\boldsymbol{b}$ 都在由 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内, 即 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{a}$ 共面, $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{b}$ 也共面. 因此 $\boldsymbol{a}$ 或 $\boldsymbol{b}$ 与 $\boldsymbol{p}$, $\boldsymbol{q}$ 共面, 不能构成新基底.
 
-而 $\boldsymbol{c}$ 不在 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内. 假设 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ 共面, 则存在实数 $\lambda$, $\mu$ 使 $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, 这与 $\left\{\boldsymbol{a}, \boldsymbol{b}, \boldsymbol{c}\right\}$ 是基底 ($\boldsymbol{c}$ 不由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性表示) 矛盾.
+而 $\boldsymbol{c}$ 不在 $\boldsymbol{a}$, $\boldsymbol{b}$ 张成的平面内. 假设 $\boldsymbol{p}$, $\boldsymbol{q}$, $\boldsymbol{c}$ 共面, 则存在实数 $\lambda$, $\mu$ 使 $\boldsymbol{c}=\lambda\boldsymbol{p}+\mu\boldsymbol{q}=\lambda\left(\boldsymbol{a}+\boldsymbol{b}\right)+\mu\left(\boldsymbol{a}-\boldsymbol{b}\right)=\left(\lambda+\mu\right)\boldsymbol{a}+\left(\lambda-\mu\right)\boldsymbol{b}$, 这与 $\left\{\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}\right\}$ 是基底 ($\boldsymbol{c}$ 不由 $\boldsymbol{a}$, $\boldsymbol{b}$ 线性表示) 矛盾.
 
-故选 $\boldsymbol{c}$, $\left\{\boldsymbol{p}, \boldsymbol{q}, \boldsymbol{c}\right\}$ 一定构成空间的另一个基底. $\blacksquare$
+故选 $\boldsymbol{c}$, $\left\{\boldsymbol{p},\boldsymbol{q},\boldsymbol{c}\right\}$ 一定构成空间的另一个基底. $\blacksquare$
 
 ## 练习三
 

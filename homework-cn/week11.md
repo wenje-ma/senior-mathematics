@@ -22,7 +22,7 @@
 
 ## 习题一
 
-(习题 4.5 综合运用第 12 题) 某地不同身高的未成年男性的体重平均值如下表: 身高 $60\sim 170\;\mathrm{cm}$ 时, 平均体重从 $6.13\;\mathrm{kg}$ 增至 $55.05\;\mathrm{kg}$.
+(习题 4.5 综合运用第 12 题) 某地不同身高的未成年男性的体重平均值如下表: 身高 $60\sim170\;\mathrm{cm}$ 时, 平均体重从 $6.13\;\mathrm{kg}$ 增至 $55.05\;\mathrm{kg}$.
 
 (1) 根据表中提供的数据建立恰当的函数模型, 使它能近似地反映这个地区未成年男性平均体重 $y$ (单位: $\mathrm{kg}$) 与身高 $x$ (单位: $\mathrm{cm}$) 的函数关系, 并写出这个函数的解析式.
 
@@ -32,23 +32,23 @@
 
 由**常用结论 4.4.4** (不同函数增长的差异).
 
-(1) 体重随身高增长加速, 近似幂函数 $y=ax^b$. 取 $\left(60,6.13\right)$ 和 $\left(170,55.05\right)$, 相除得 $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, 解得 $b\approx 2.0$, $a\approx 0.0017$. 故 $y\approx 0.0017x^2$.
+(1) 体重随身高增长加速, 近似幂函数 $y=ax^b$. 取 $\left(60,6.13\right)$ 和 $\left(170,55.05\right)$, 相除得 $\frac{55.05}{6.13}=\left(\frac{170}{60}\right)^b$, 解得 $b\approx2.0$, $a\approx0.0017$. 故 $y\approx0.0017x^2$.
 
-(2) 当 $x=175$ 时, $y\approx 0.0017\times 175^2\approx 52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx 1.49> 1.2$, 故该男生体重偏胖. $\blacksquare$
+(2) 当 $x=175$ 时, $y\approx0.0017\times175^2\approx52.2\;\mathrm{kg}$. $\frac{78}{52.2}\approx1.49>1.2$, 故该男生体重偏胖. $\blacksquare$
 
 ## 习题二
 
-(习题 4.5 拓广探索第 13 题) 有一道题 "若函数 $f\left(x\right)=24ax^2+4x-1$ 在区间 $\left(-1,1\right)$ 内恰有一个零点, 求实数 $a$ 的取值范围", 某同学给出了如下解答: 由 $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)< 0$, 解得 $-\frac{1}{8}< a< \frac{5}{24}$. 上述解答正确吗? 若不正确, 请说明理由, 并给出正确的解答.
+(习题 4.5 拓广探索第 13 题) 有一道题 "若函数 $f\left(x\right)=24ax^2+4x-1$ 在区间 $\left(-1,1\right)$ 内恰有一个零点, 求实数 $a$ 的取值范围", 某同学给出了如下解答: 由 $f\left(-1\right)f\left(1\right)=\left(24a-5\right)\left(24a+3\right)<0$, 解得 $-\frac{1}{8}<{}a<\frac{5}{24}$. 上述解答正确吗? 若不正确, 请说明理由, 并给出正确的解答.
 
 ### 解答 习题二
 
 由**常用结论 4.5.2** (函数零点存在定理) 与**定义 4.5.1 (函数的零点)**.
 
-上述解答不正确. 当 $a=0$ 时, $f\left(x\right)=4x-1$, 零点 $x=\frac{1}{4}\in\left(-1,1\right)$, 恰有一个零点, 已包含在 $-\frac{1}{8}< a< \frac{5}{24}$ 内. 但还需考虑判别式为零的情况: $\Delta=16+96a=0$ 时 $a=-\frac{1}{6}$, 此时零点 $x=\frac{1}{2}\in\left(-1,1\right)$, 为二重根, 也恰有一个零点, 但 $a=-\frac{1}{6}< -\frac{1}{8}$, 不在原范围内. 此外, $a=-\frac{1}{8}$ 时 $f\left(1\right)=0$, 零点 $x=1$ 不在开区间 $\left(-1,1\right)$ 内; $a=\frac{5}{24}$ 时 $f\left(-1\right)=0$, 零点 $x=-1$ 不在开区间 $\left(-1,1\right)$ 内. 故正确范围为 $a=-\frac{1}{6}$ 或 $-\frac{1}{8}< a< \frac{5}{24}$. $\blacksquare$
+上述解答不正确. 当 $a=0$ 时, $f\left(x\right)=4x-1$, 零点 $x=\frac{1}{4}\in\left(-1,1\right)$, 恰有一个零点, 已包含在 $-\frac{1}{8}<{}a<\frac{5}{24}$ 内. 但还需考虑判别式为零的情况: $\Delta=16+96a=0$ 时 $a=-\frac{1}{6}$, 此时零点 $x=\frac{1}{2}\in\left(-1,1\right)$, 为二重根, 也恰有一个零点, 但 $a=-\frac{1}{6}<-\frac{1}{8}$, 不在原范围内. 此外, $a=-\frac{1}{8}$ 时 $f\left(1\right)=0$, 零点 $x=1$ 不在开区间 $\left(-1,1\right)$ 内; $a=\frac{5}{24}$ 时 $f\left(-1\right)=0$, 零点 $x=-1$ 不在开区间 $\left(-1,1\right)$ 内. 故正确范围为 $a=-\frac{1}{6}$ 或 $-\frac{1}{8}<{}a<\frac{5}{24}$. $\blacksquare$
 
 ## 习题三
 
-(习题 4.5 拓广探索第 14 题) 从甲地到乙地的距离约为 $240\;\mathrm{km}$, 经多次实验得到一辆汽车每小时耗油量 $Q$ (单位: $\mathrm{L}$) 与速度 $v$ (单位: $\mathrm{km/h}$) ($0\le v\le 120$) 的下列数据: $v=0,40,60,80,120$ 时 $Q=0,6.667,8.125,10,20$. 为了描述汽车每小时耗油量与速度的关系, 现有以下三种模型供选择: $Q=av^3+bv^2+cv$, $Q=0.5^v+a$, $Q=k\log_a v+b$.
+(习题 4.5 拓广探索第 14 题) 从甲地到乙地的距离约为 $240\;\mathrm{km}$, 经多次实验得到一辆汽车每小时耗油量 $Q$ (单位: $\mathrm{L}$) 与速度 $v$ (单位: $\mathrm{km/h}$) ($0\le{v}\le120$) 的下列数据: $v=0,40,60,80,120$ 时 $Q=0,6.667,8.125,10,20$. 为了描述汽车每小时耗油量与速度的关系, 现有以下三种模型供选择: $Q=av^3+bv^2+cv$, $Q=0.5^v+a$, $Q=k\log_av+b$.
 
 (1) 选出你认为最符合实际的函数模型, 并写出相应的函数解析式;
 
@@ -58,7 +58,7 @@
 
 由**常用结论 4.4.4** (不同函数增长的差异).
 
-(1) $v=0$ 时 $Q=0$, 排除 $Q=0.5^v+a$ (此时 $Q\neq 0$) 和 $Q=k\log_a v+b$ ($v=0$ 时无定义). 选 $Q=av^3+bv^2+cv$. 代入 $\left(40,6.667\right)$, $\left(60,8.125\right)$, $\left(80,10\right)$, 解得 $a=\frac{1}{360000}$, $b=-\frac{1}{3600}$, $c=\frac{7}{24}$. 故 $Q=\frac{v^3}{360000}-\frac{v^2}{3600}+\frac{7v}{24}$.
+(1) $v=0$ 时 $Q=0$, 排除 $Q=0.5^v+a$ (此时 $Q\neq0$) 和 $Q=k\log_av+b$ ($v=0$ 时无定义). 选 $Q=av^3+bv^2+cv$. 代入 $\left(40,6.667\right)$, $\left(60,8.125\right)$, $\left(80,10\right)$, 解得 $a=\frac{1}{360000}$, $b=-\frac{1}{3600}$, $c=\frac{7}{24}$. 故 $Q=\frac{v^3}{360000}-\frac{v^2}{3600}+\frac{7v}{24}$.
 
 (2) 总时间为 $\frac{240}{v}$ 小时, 总耗油量 $=Q\times\frac{240}{v}=240\left(\frac{v^2}{360000}-\frac{v}{3600}+\frac{7}{24}\right)$. 令导数为零: $240\left(\frac{v}{180000}-\frac{1}{3600}\right)=0$, 得 $v=50\;\mathrm{km/h}$. 故以 $50\;\mathrm{km/h}$ 行驶总耗油量最少. $\blacksquare$
 
@@ -70,21 +70,21 @@
 
 由**定义 5.1.2 (象限角)**, 角的终边在第几象限, 就说这个角是第几象限角; 如果角的终边在坐标轴上, 就认为这个角不属于任何一个象限.
 
-(1) 锐角的度数范围为 $0^{\circ}< \alpha< 90^{\circ}$, 其终边落在第一象限, 故锐角是第一象限角. 但第一象限角不一定是锐角, 例如 $390^{\circ}$ 的终边与 $30^{\circ}$ 相同, 是第一象限角, 却不是锐角.
+(1) 锐角的度数范围为 $0^{\circ}<\alpha<90^{\circ}$, 其终边落在第一象限, 故锐角是第一象限角. 但第一象限角不一定是锐角, 例如 $390^{\circ}$ 的终边与 $30^{\circ}$ 相同, 是第一象限角, 却不是锐角.
 
 (2) 直角的度数为 $90^{\circ}$, 其终边在 $y$ 轴上, 由**定义 5.1.2 (象限角)**, 直角不属于任何一个象限. 终边在 $y$ 轴上的角都不是象限角.
 
-(3) 钝角的度数范围为 $90^{\circ}< \alpha< 180^{\circ}$, 其终边落在第二象限, 故钝角是第二象限角. 但第二象限角不一定是钝角, 例如 $480^{\circ}$ 的终边与 $120^{\circ}$ 相同, 是第二象限角, 却不是钝角. $\blacksquare$
+(3) 钝角的度数范围为 $90^{\circ}<\alpha<180^{\circ}$, 其终边落在第二象限, 故钝角是第二象限角. 但第二象限角不一定是钝角, 例如 $480^{\circ}$ 的终边与 $120^{\circ}$ 相同, 是第二象限角, 却不是钝角. $\blacksquare$
 
 ## 练习二
 
-(练习 5.1 第 2 题) (口答) 今天是星期三, 那么 $7k$ ($k\in\mathbb Z$) 天后的那一天是星期几? $7k$ ($k\in\mathbb Z$) 天前的那一天是星期几? $100$ 天后的那一天是星期几?
+(练习 5.1 第 2 题) (口答) 今天是星期三, 那么 $7k$ ($k\in\mathbb{Z}$) 天后的那一天是星期几? $7k$ ($k\in\mathbb{Z}$) 天前的那一天是星期几? $100$ 天后的那一天是星期几?
 
 ### 解答 练习二
 
 由**常用结论** (终边相同的角) 的周而复始思想, 星期以 $7$ 天为一个周期循环.
 
-(1) 因为 $7k$ ($k\in\mathbb Z$) 是 $7$ 的整数倍, 经过整数个星期后星期几不变, 故 $7k$ 天后仍是星期三.
+(1) 因为 $7k$ ($k\in\mathbb{Z}$) 是 $7$ 的整数倍, 经过整数个星期后星期几不变, 故 $7k$ 天后仍是星期三.
 
 (2) 同理, $7k$ 天前也是星期三.
 
@@ -128,15 +128,15 @@
 
 由**常用结论** (终边相同的角), 将各角加上或减去 $360^{\circ}$ 的整数倍, 化为 $0^{\circ}\sim360^{\circ}$ 范围内的角.
 
-(1) 由 $-54^{\circ}18'+360^{\circ}=305^{\circ}42'$, 知在 $0^{\circ}\sim360^{\circ}$ 范围内与 $-54^{\circ}18'$ 终边相同的角为 $305^{\circ}42'$. 因为 $270^{\circ}< 305^{\circ}42'< 360^{\circ}$, 故它是第四象限角.
+(1) 由 $-54^{\circ}18'+360^{\circ}=305^{\circ}42'$, 知在 $0^{\circ}\sim360^{\circ}$ 范围内与 $-54^{\circ}18'$ 终边相同的角为 $305^{\circ}42'$. 因为 $270^{\circ}<305^{\circ}42'<360^{\circ}$, 故它是第四象限角.
 
-(2) 由 $395^{\circ}8'-360^{\circ}=35^{\circ}8'$, 知在 $0^{\circ}\sim360^{\circ}$ 范围内与 $395^{\circ}8'$ 终边相同的角为 $35^{\circ}8'$. 因为 $0^{\circ}< 35^{\circ}8'< 90^{\circ}$, 故它是第一象限角.
+(2) 由 $395^{\circ}8'-360^{\circ}=35^{\circ}8'$, 知在 $0^{\circ}\sim360^{\circ}$ 范围内与 $395^{\circ}8'$ 终边相同的角为 $35^{\circ}8'$. 因为 $0^{\circ}<35^{\circ}8'<90^{\circ}$, 故它是第一象限角.
 
-(3) 由 $-1190^{\circ}30'=-4\times360^{\circ}+249^{\circ}30'$, 知在 $0^{\circ}\sim360^{\circ}$ 范围内与 $-1190^{\circ}30'$ 终边相同的角为 $249^{\circ}30'$. 因为 $180^{\circ}< 249^{\circ}30'< 270^{\circ}$, 故它是第三象限角. $\blacksquare$
+(3) 由 $-1190^{\circ}30'=-4\times360^{\circ}+249^{\circ}30'$, 知在 $0^{\circ}\sim360^{\circ}$ 范围内与 $-1190^{\circ}30'$ 终边相同的角为 $249^{\circ}30'$. 因为 $180^{\circ}<249^{\circ}30'<270^{\circ}$, 故它是第三象限角. $\blacksquare$
 
 ## 练习五
 
-(练习 5.1 第 5 题) 写出与下列各角终边相同的角的集合, 并找出集合中适合不等式 $-720^{\circ}\le\beta< 360^{\circ}$ 的元素 $\beta$:
+(练习 5.1 第 5 题) 写出与下列各角终边相同的角的集合, 并找出集合中适合不等式 $-720^{\circ}\le\beta<360^{\circ}$ 的元素 $\beta$:
 
 (1) $1303^{\circ}18'$;
 
@@ -144,23 +144,23 @@
 
 ### 解答 练习五
 
-由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$.
+由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$.
 
 (1) 由 $1303^{\circ}18'=3\times360^{\circ}+223^{\circ}18'$, 知与 $1303^{\circ}18'$ 终边相同的角的集合为
 
 $$
-S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}.
 $$
 
-由 $-720^{\circ}\le\beta< 360^{\circ}$, 即 $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}< 360^{\circ}$, 解得 $k=-2,-1,0$. 当 $k=-2$ 时, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; 当 $k=-1$ 时, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; 当 $k=0$ 时, $\beta=223^{\circ}18'$. 故适合不等式的元素为 $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
+由 $-720^{\circ}\le\beta<360^{\circ}$, 即 $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}<360^{\circ}$, 解得 $k=-2,-1,0$. 当 $k=-2$ 时, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; 当 $k=-1$ 时, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; 当 $k=0$ 时, $\beta=223^{\circ}18'$. 故适合不等式的元素为 $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
 
 (2) 与 $-225^{\circ}$ 终边相同的角的集合为
 
 $$
-S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}.
 $$
 
-由 $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, 解得 $k=0,1$. 当 $k=0$ 时, $\beta=-225^{\circ}$; 当 $k=1$ 时, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. 故适合不等式的元素为 $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
+由 $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 解得 $k=0,1$. 当 $k=0$ 时, $\beta=-225^{\circ}$; 当 $k=1$ 时, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. 故适合不等式的元素为 $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
 
 ## 练习六
 
@@ -174,7 +174,7 @@ $$
 
 ### 解答 练习六
 
-由**常用结论** (角度与弧度的换算), $1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}$.
+由**常用结论** (角度与弧度的换算), $1^{\circ}=\frac{\pi}{180}\,\mathrm{rad}$.
 
 (1) 由 $22^{\circ}30'=22.5^{\circ}=\frac{45}{2}^{\circ}$, 得
 
@@ -208,7 +208,7 @@ $\blacksquare$
 
 ### 解答 练习七
 
-由**常用结论** (角度与弧度的换算), $\pi\ \mathrm{rad}$ $=180^{\circ}$.
+由**常用结论** (角度与弧度的换算), $\pi\,\mathrm{rad}$ $=180^{\circ}$.
 
 (1) 得
 
@@ -240,11 +240,11 @@ $\blacksquare$
 
 ### 解答 练习八
 
-由**常用结论** (终边相同的角) 及 $180^{\circ}=\pi\ \mathrm{rad}$, $360^{\circ}=2\pi\ \mathrm{rad}$.
+由**常用结论** (终边相同的角) 及 $180^{\circ}=\pi\,\mathrm{rad}$, $360^{\circ}=2\pi\,\mathrm{rad}$.
 
-(1) 终边在 $x$ 轴上的角, 其终边与 $0$ 或 $\pi$ 的终边重合. 与 $0$ 终边相同的角为 $2k\pi$, 与 $\pi$ 终边相同的角为 $\pi+2k\pi$, 合并为 $n\pi$ ($n\in\mathbb Z$). 故终边在 $x$ 轴上的角的集合为 $\left\{\beta\mid\beta=n\pi,\ n\in\mathbb Z\right\}$.
+(1) 终边在 $x$ 轴上的角, 其终边与 $0$ 或 $\pi$ 的终边重合. 与 $0$ 终边相同的角为 $2k\pi$, 与 $\pi$ 终边相同的角为 $\pi+2k\pi$, 合并为 $n\pi$ ($n\in\mathbb{Z}$). 故终边在 $x$ 轴上的角的集合为 $\left\{\beta\mid\beta=n\pi,\,n\in\mathbb{Z}\right\}$.
 
-(2) 终边在 $y$ 轴上的角, 其终边与 $\frac{\pi}{2}$ 或 $\frac{3\pi}{2}$ 的终边重合. 与 $\frac{\pi}{2}$ 终边相同的角为 $\frac{\pi}{2}+2k\pi$, 与 $\frac{3\pi}{2}$ 终边相同的角为 $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, 合并为 $\frac{\pi}{2}+n\pi$ ($n\in\mathbb Z$). 故终边在 $y$ 轴上的角的集合为 $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\ n\in\mathbb Z\right\}$. $\blacksquare$
+(2) 终边在 $y$ 轴上的角, 其终边与 $\frac{\pi}{2}$ 或 $\frac{3\pi}{2}$ 的终边重合. 与 $\frac{\pi}{2}$ 终边相同的角为 $\frac{\pi}{2}+2k\pi$, 与 $\frac{3\pi}{2}$ 终边相同的角为 $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, 合并为 $\frac{\pi}{2}+n\pi$ ($n\in\mathbb{Z}$). 故终边在 $y$ 轴上的角的集合为 $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\,n\in\mathbb{Z}\right\}$. $\blacksquare$
 
 ## 练习九
 
@@ -256,46 +256,46 @@ $\blacksquare$
 
 ### 解答 练习九
 
-由**常用结论** (角度与弧度的换算), $1^{\circ}=\frac{\pi}{180}\approx0.01745\ \mathrm{rad}$, 故 $0.75^{\circ}\approx0.0131\ \mathrm{rad}$, $1.2^{\circ}\approx0.0209\ \mathrm{rad}$.
+由**常用结论** (角度与弧度的换算), $1^{\circ}=\frac{\pi}{180}\approx0.01745\,\mathrm{rad}$, 故 $0.75^{\circ}\approx0.0131\,\mathrm{rad}$, $1.2^{\circ}\approx0.0209\,\mathrm{rad}$.
 
-(1) 由 $0.75^{\circ}\approx0.0131< 0.75$, 且余弦函数在 $\left[0,\frac{\pi}{2}\right]$ 上单调递减, 得 $\cos0.75^{\circ}> \cos0.75$.
+(1) 由 $0.75^{\circ}\approx0.0131<0.75$, 且余弦函数在 $\left[0,\frac{\pi}{2}\right]$ 上单调递减, 得 $\cos0.75^{\circ}>\cos0.75$.
 
-(2) 由 $1.2^{\circ}\approx0.0209< 1.2$, 且正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上单调递增, 得 $\tan1.2^{\circ}< \tan1.2$. $\blacksquare$
+(2) 由 $1.2^{\circ}\approx0.0209<1.2$, 且正切函数在 $\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ 上单调递增, 得 $\tan1.2^{\circ}<\tan1.2$. $\blacksquare$
 
 ## 练习十
 
-(练习 5.1 第 10 题) 分别用角度制, 弧度制下的弧长公式, 计算半径为 $1\ \mathrm{m}$ 的圆中, $60^{\circ}$ 的圆心角所对的弧的长度.
+(练习 5.1 第 10 题) 分别用角度制, 弧度制下的弧长公式, 计算半径为 $1\,\mathrm{m}$ 的圆中, $60^{\circ}$ 的圆心角所对的弧的长度.
 
 ### 解答 练习十
 
-由**常用结论** (扇形的弧长与面积公式), 弧度制下 $l=\alpha R$; 角度制下 $l=\frac{n\pi R}{180}$.
+由**常用结论** (扇形的弧长与面积公式), 弧度制下 $l=\alpha{R}$; 角度制下 $l=\frac{n\pi{R}}{180}$.
 
 (1) 角度制: 由 $n=60$, $R=1$, 得
 
 $$
-l=\frac{60\pi\times1}{180}=\frac{\pi}{3}\ \mathrm{m}.
+l=\frac{60\pi\times1}{180}=\frac{\pi}{3}\,\mathrm{m}.
 $$
 
-(2) 弧度制: 由 $60^{\circ}=\frac{\pi}{3}\ \mathrm{rad}$, $R=1$, 得
+(2) 弧度制: 由 $60^{\circ}=\frac{\pi}{3}\,\mathrm{rad}$, $R=1$, 得
 
 $$
-l=\alpha R=\frac{\pi}{3}\times1=\frac{\pi}{3}\ \mathrm{m}.
+l=\alpha{R}=\frac{\pi}{3}\times1=\frac{\pi}{3}\,\mathrm{m}.
 $$
 
-两种方法结果一致, 弧长为 $\frac{\pi}{3}\ \mathrm{m}$. $\blacksquare$
+两种方法结果一致, 弧长为 $\frac{\pi}{3}\,\mathrm{m}$. $\blacksquare$
 
 ## 练习十一
 
-(练习 5.1 第 11 题) 已知半径为 $120\ \mathrm{mm}$ 的圆上, 有一条弧的长是 $144\ \mathrm{mm}$, 求该弧所对的圆心角 (正角) 的弧度数.
+(练习 5.1 第 11 题) 已知半径为 $120\,\mathrm{mm}$ 的圆上, 有一条弧的长是 $144\,\mathrm{mm}$, 求该弧所对的圆心角 (正角) 的弧度数.
 
 ### 解答 练习十一
 
 由**常用结论** (弧度数公式), $\lvert\alpha\rvert=\frac{l}{r}$.
 
-由 $l=144\ \mathrm{mm}$, $r=120\ \mathrm{mm}$, 且所求为正角, 得
+由 $l=144\,\mathrm{mm}$, $r=120\,\mathrm{mm}$, 且所求为正角, 得
 
 $$
-\alpha=\frac{l}{r}=\frac{144}{120}=1.2\ \mathrm{rad}.
+\alpha=\frac{l}{r}=\frac{144}{120}=1.2\,\mathrm{rad}.
 $$
 
 $\blacksquare$
@@ -316,17 +316,17 @@ $\blacksquare$
 
 由**常用结论** (终边相同的角) 化为 $0^{\circ}\sim360^{\circ}$ 范围内的角, 再由**定义 5.1.2 (象限角)** 判断.
 
-(1) 由 $-265^{\circ}+360^{\circ}=95^{\circ}$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $-265^{\circ}$ 终边相同的角为 $95^{\circ}$. 因为 $90^{\circ}< 95^{\circ}< 180^{\circ}$, 故它是第二象限角.
+(1) 由 $-265^{\circ}+360^{\circ}=95^{\circ}$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $-265^{\circ}$ 终边相同的角为 $95^{\circ}$. 因为 $90^{\circ}<95^{\circ}<180^{\circ}$, 故它是第二象限角.
 
-(2) 由 $-1000^{\circ}+3\times360^{\circ}=80^{\circ}$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $-1000^{\circ}$ 终边相同的角为 $80^{\circ}$. 因为 $0^{\circ}< 80^{\circ}< 90^{\circ}$, 故它是第一象限角.
+(2) 由 $-1000^{\circ}+3\times360^{\circ}=80^{\circ}$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $-1000^{\circ}$ 终边相同的角为 $80^{\circ}$. 因为 $0^{\circ}<80^{\circ}<90^{\circ}$, 故它是第一象限角.
 
-(3) 由 $-843^{\circ}10'+3\times360^{\circ}=236^{\circ}50'$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $-843^{\circ}10'$ 终边相同的角为 $236^{\circ}50'$. 因为 $180^{\circ}< 236^{\circ}50'< 270^{\circ}$, 故它是第三象限角.
+(3) 由 $-843^{\circ}10'+3\times360^{\circ}=236^{\circ}50'$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $-843^{\circ}10'$ 终边相同的角为 $236^{\circ}50'$. 因为 $180^{\circ}<236^{\circ}50'<270^{\circ}$, 故它是第三象限角.
 
-(4) 由 $3900^{\circ}-10\times360^{\circ}=300^{\circ}$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $3900^{\circ}$ 终边相同的角为 $300^{\circ}$. 因为 $270^{\circ}< 300^{\circ}< 360^{\circ}$, 故它是第四象限角. $\blacksquare$
+(4) 由 $3900^{\circ}-10\times360^{\circ}=300^{\circ}$, 得 $0^{\circ}\sim360^{\circ}$ 范围内与 $3900^{\circ}$ 终边相同的角为 $300^{\circ}$. 因为 $270^{\circ}<300^{\circ}<360^{\circ}$, 故它是第四象限角. $\blacksquare$
 
 ## 习题五
 
-(习题 5.1 复习巩固第 2 题) 写出与下列各角终边相同的角的集合, 并找出集合中适合不等式 $-360^{\circ}\le\beta< 360^{\circ}$ 的元素 $\beta$:
+(习题 5.1 复习巩固第 2 题) 写出与下列各角终边相同的角的集合, 并找出集合中适合不等式 $-360^{\circ}\le\beta<360^{\circ}$ 的元素 $\beta$:
 
 (1) $60^{\circ}$;
 
@@ -346,23 +346,23 @@ $\blacksquare$
 
 ### 解答 习题五
 
-由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$.
+由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$.
 
-(1) 与 $60^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-300^{\circ}$; 当 $k=0$ 时, $\beta=60^{\circ}$. 故适合的元素为 $-300^{\circ}$, $60^{\circ}$.
+(1) 与 $60^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-300^{\circ}$; 当 $k=0$ 时, $\beta=60^{\circ}$. 故适合的元素为 $-300^{\circ}$, $60^{\circ}$.
 
-(2) 与 $-75^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, 得 $k=0,1$. 当 $k=0$ 时, $\beta=-75^{\circ}$; 当 $k=1$ 时, $\beta=285^{\circ}$. 故适合的元素为 $-75^{\circ}$, $285^{\circ}$.
+(2) 与 $-75^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=0,1$. 当 $k=0$ 时, $\beta=-75^{\circ}$; 当 $k=1$ 时, $\beta=285^{\circ}$. 故适合的元素为 $-75^{\circ}$, $285^{\circ}$.
 
-(3) 由 $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, 与 $-824^{\circ}30'$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}< 360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-104^{\circ}30'$; 当 $k=0$ 时, $\beta=255^{\circ}30'$. 故适合的元素为 $-104^{\circ}30'$, $255^{\circ}30'$.
+(3) 由 $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, 与 $-824^{\circ}30'$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-104^{\circ}30'$; 当 $k=0$ 时, $\beta=255^{\circ}30'$. 故适合的元素为 $-104^{\circ}30'$, $255^{\circ}30'$.
 
-(4) 由 $475^{\circ}=360^{\circ}+115^{\circ}$, 与 $475^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-245^{\circ}$; 当 $k=0$ 时, $\beta=115^{\circ}$. 故适合的元素为 $-245^{\circ}$, $115^{\circ}$.
+(4) 由 $475^{\circ}=360^{\circ}+115^{\circ}$, 与 $475^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-245^{\circ}$; 当 $k=0$ 时, $\beta=115^{\circ}$. 故适合的元素为 $-245^{\circ}$, $115^{\circ}$.
 
-(5) 与 $90^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-270^{\circ}$; 当 $k=0$ 时, $\beta=90^{\circ}$. 故适合的元素为 $-270^{\circ}$, $90^{\circ}$.
+(5) 与 $90^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-270^{\circ}$; 当 $k=0$ 时, $\beta=90^{\circ}$. 故适合的元素为 $-270^{\circ}$, $90^{\circ}$.
 
-(6) 与 $270^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-90^{\circ}$; 当 $k=0$ 时, $\beta=270^{\circ}$. 故适合的元素为 $-90^{\circ}$, $270^{\circ}$.
+(6) 与 $270^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-90^{\circ}$; 当 $k=0$ 时, $\beta=270^{\circ}$. 故适合的元素为 $-90^{\circ}$, $270^{\circ}$.
 
-(7) 与 $180^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}< 360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-180^{\circ}$; 当 $k=0$ 时, $\beta=180^{\circ}$. 故适合的元素为 $-180^{\circ}$, $180^{\circ}$.
+(7) 与 $180^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-180^{\circ}$; 当 $k=0$ 时, $\beta=180^{\circ}$. 故适合的元素为 $-180^{\circ}$, $180^{\circ}$.
 
-(8) 与 $0^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\ k\in\mathbb Z\right\}$. 由 $-360^{\circ}\le k\cdot360^{\circ}< 360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-360^{\circ}$; 当 $k=0$ 时, $\beta=0^{\circ}$. 故适合的元素为 $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
+(8) 与 $0^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le{k}\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-360^{\circ}$; 当 $k=0$ 时, $\beta=0^{\circ}$. 故适合的元素为 $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
 
 ## 习题六
 
@@ -370,54 +370,54 @@ $\blacksquare$
 
 ### 解答 习题六
 
-由**定义 5.1.2 (象限角)**, 终边在坐标轴上的角不属于任何象限; 由**常用结论** (终边相同的角) 及 $90^{\circ}=\frac{\pi}{2}\ \mathrm{rad}$.
+由**定义 5.1.2 (象限角)**, 终边在坐标轴上的角不属于任何象限; 由**常用结论** (终边相同的角) 及 $90^{\circ}=\frac{\pi}{2}\,\mathrm{rad}$.
 
 (1) 第一象限角: 终边在 $0^{\circ}$ 到 $90^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid k\cdot360^{\circ}< \beta< 90^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid{k}\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid 2k\pi< \beta< \frac{\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid2k\pi<\beta<\frac{\pi}{2}+2k\pi,\,k\in\mathbb{Z}\right\}.
 $$
 
 (2) 第二象限角: 终边在 $90^{\circ}$ 到 $180^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid 90^{\circ}+k\cdot360^{\circ}< \beta< 180^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid \frac{\pi}{2}+2k\pi< \beta< \pi+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid\frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,\,k\in\mathbb{Z}\right\}.
 $$
 
 (3) 第三象限角: 终边在 $180^{\circ}$ 到 $270^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid 180^{\circ}+k\cdot360^{\circ}< \beta< 270^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid \pi+2k\pi< \beta< \frac{3\pi}{2}+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid\pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,\,k\in\mathbb{Z}\right\}.
 $$
 
 (4) 第四象限角: 终边在 $270^{\circ}$ 到 $360^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid 270^{\circ}+k\cdot360^{\circ}< \beta< 360^{\circ}+k\cdot360^{\circ},\ k\in\mathbb Z\right\},
+S=\left\{\beta\mid270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid \frac{3\pi}{2}+2k\pi< \beta< 2\pi+2k\pi,\ k\in\mathbb Z\right\}.
+S=\left\{\beta\mid\frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,\,k\in\mathbb{Z}\right\}.
 $$
 
 $\blacksquare$
@@ -430,7 +430,7 @@ $\blacksquare$
 
 由**定义 5.1.3 (1 弧度的角)**, $1$ 弧度的角是长度等于半径长的圆弧所对的圆心角; 由**常用结论** (弧度数公式), $\lvert\alpha\rvert=\frac{l}{r}$, 其中 $l$ 是弧长而非弦长.
 
-设圆的半径为 $r$, 弦长也为 $r$, 则弦与两条半径构成等边三角形, 其所对的圆心角为 $60^{\circ}=\frac{\pi}{3}\ \mathrm{rad}$ $\approx1.047\ \mathrm{rad}$, 并不等于 $1\ \mathrm{rad}$. 因为 $1$ 弧度对应的是弧长等于半径的弧所对的圆心角, 而本题中弦长等于半径, 弧长并不等于半径, 故该圆心角不等于 $1$ 弧度. $\blacksquare$
+设圆的半径为 $r$, 弦长也为 $r$, 则弦与两条半径构成等边三角形, 其所对的圆心角为 $60^{\circ}=\frac{\pi}{3}\,\mathrm{rad}$ $\approx1.047\,\mathrm{rad}$, 并不等于 $1\,\mathrm{rad}$. 因为 $1$ 弧度对应的是弧长等于半径的弧所对的圆心角, 而本题中弦长等于半径, 弧长并不等于半径, 故该圆心角不等于 $1$ 弧度. $\blacksquare$
 
 ## 习题八
 
@@ -446,7 +446,7 @@ $\blacksquare$
 
 ### 解答 习题八
 
-由**常用结论** (角度与弧度的换算), $1^{\circ}=\frac{\pi}{180}\ \mathrm{rad}$.
+由**常用结论** (角度与弧度的换算), $1^{\circ}=\frac{\pi}{180}\,\mathrm{rad}$.
 
 (1) 得
 
@@ -488,7 +488,7 @@ $\blacksquare$
 
 ### 解答 习题九
 
-由**常用结论** (角度与弧度的换算), $\pi\ \mathrm{rad}$ $=180^{\circ}$, $1\ \mathrm{rad}$ $=\left(\frac{180}{\pi}\right)^{\circ}$.
+由**常用结论** (角度与弧度的换算), $\pi\,\mathrm{rad}$ $=180^{\circ}$, $1\,\mathrm{rad}$ $=\left(\frac{180}{\pi}\right)^{\circ}$.
 
 (1) 得
 
@@ -544,6 +544,6 @@ $\blacksquare$
 
 由**定义 5.1.2 (象限角)** 及**常用结论** (终边相同的角).
 
-(1) 由 $\alpha$ 是锐角, 知 $0^{\circ}< \alpha< 90^{\circ}$, 故 $0^{\circ}< 2\alpha< 180^{\circ}$. 当 $0^{\circ}< 2\alpha< 90^{\circ}$ 时, $2\alpha$ 是第一象限角; 当 $90^{\circ}< 2\alpha< 180^{\circ}$ 时, $2\alpha$ 是第二象限角; 当 $2\alpha=90^{\circ}$ 时, $2\alpha$ 是直角, 不属于任何象限. 因此 $2\alpha$ 是小于 $180^{\circ}$ 的正角, 选 (C).
+(1) 由 $\alpha$ 是锐角, 知 $0^{\circ}<\alpha<90^{\circ}$, 故 $0^{\circ}<2\alpha<180^{\circ}$. 当 $0^{\circ}<2\alpha<90^{\circ}$ 时, $2\alpha$ 是第一象限角; 当 $90^{\circ}<2\alpha<180^{\circ}$ 时, $2\alpha$ 是第二象限角; 当 $2\alpha=90^{\circ}$ 时, $2\alpha$ 是直角, 不属于任何象限. 因此 $2\alpha$ 是小于 $180^{\circ}$ 的正角, 选 (C).
 
-(2) 由 $\alpha$ 是第一象限角, 知 $k\cdot360^{\circ}< \alpha< 90^{\circ}+k\cdot360^{\circ}$ ($k\in\mathbb Z$). 当 $k$ 为偶数, 即 $k=2n$ 时, $n\cdot360^{\circ}< \frac{\alpha}{2}< 45^{\circ}+n\cdot360^{\circ}$, $\frac{\alpha}{2}$ 是第一象限角; 当 $k$ 为奇数, 即 $k=2n+1$ 时, $180^{\circ}+n\cdot360^{\circ}< \frac{\alpha}{2}< 225^{\circ}+n\cdot360^{\circ}$, $\frac{\alpha}{2}$ 是第三象限角. 故 $\frac{\alpha}{2}$ 是第一或第三象限角, 选 (D). $\blacksquare$
+(2) 由 $\alpha$ 是第一象限角, 知 $k\cdot360^{\circ}<\alpha<90^{\circ}+k\cdot360^{\circ}$ ($k\in\mathbb{Z}$). 当 $k$ 为偶数, 即 $k=2n$ 时, $n\cdot360^{\circ}<\frac{\alpha}{2}<45^{\circ}+n\cdot360^{\circ}$, $\frac{\alpha}{2}$ 是第一象限角; 当 $k$ 为奇数, 即 $k=2n+1$ 时, $180^{\circ}+n\cdot360^{\circ}<\frac{\alpha}{2}<225^{\circ}+n\cdot360^{\circ}$, $\frac{\alpha}{2}$ 是第三象限角. 故 $\frac{\alpha}{2}$ 是第一或第三象限角, 选 (D). $\blacksquare$

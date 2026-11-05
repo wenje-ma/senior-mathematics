@@ -6,7 +6,7 @@
 
 > **Definition 7.3.1 (均值)**
 > 
-> 若离散型随机变量 $X$ 的分布列为 $\mathbb P\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb E\left(X\right)=x_1 p_1+x_2 p_2+\cdots+x_n p_n=\sum_{i=1}^n x_i p_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
+> 若离散型随机变量 $X$ 的分布列为 $\mathbb{P}\left(X=x_i\right)=p_i$, $i=1,2,\cdots,n$, 则称 $\mathbb{E}\left(X\right)=x_1p_1+x_2p_2+\cdots+x_np_n=\sum_{i=1}^nx_ip_i$ 为随机变量 $X$ 的均值或数学期望, 简称期望.
 
 > **Definition 7.3.3 (Variance and Standard Deviation)**
 > 
@@ -32,9 +32,9 @@
 |---|---|---|---|---|---|
 | $P$ | 0.1 | 0.3 | 0.4 | 0.1 | 0.1 |
 
-(1) Find $\mathbb E\left(X\right)$;
+(1) Find $\mathbb{E}\left(X\right)$;
 
-(2) Find $\mathbb E\left(3X+2\right)$.
+(2) Find $\mathbb{E}\left(3X+2\right)$.
 
 ### Solution to Exercise 1
 
@@ -43,13 +43,13 @@ By **Definition 7.3.1 (Mean)** and **Conclusion 7.3.2** (Properties of the Mean)
 (1)
 
 $$
-\mathbb E\left(X\right)=1\times 0.1+2\times 0.3+3\times 0.4+4\times 0.1+5\times 0.1=2.8.
+\mathbb{E}\left(X\right)=1\times0.1+2\times0.3+3\times0.4+4\times0.1+5\times0.1=2.8.
 $$
 
 (2) By **Conclusion 7.3.2** (Properties of the Mean),
 
 $$
-\mathbb E\left(3X+2\right)=3\mathbb E\left(X\right)+2=3\times 2.8+2=10.4.
+\mathbb{E}\left(3X+2\right)=3\mathbb{E}\left(X\right)+2=3\times2.8+2=10.4.
 $$
 
 $\blacksquare$
@@ -62,10 +62,10 @@ $\blacksquare$
 
 By **Definition 7.3.1 (Mean)**.
 
-Let $X$ be the score. Tossing a fair coin, $\mathbb P\left(X=1\right)=\mathbb P\left(X=-1\right)=0.5$. Thus
+Let $X$ be the score. Tossing a fair coin, $\mathbb{P}\left(X=1\right)=\mathbb{P}\left(X=-1\right)=0.5$. Thus
 
 $$
-\mathbb E\left(X\right)=1\times 0.5+\left(-1\right)\times 0.5=0.
+\mathbb{E}\left(X\right)=1\times0.5+\left(-1\right)\times0.5=0.
 $$
 
 $\blacksquare$
@@ -89,14 +89,14 @@ Which machine is better? Explain the practical meaning of your conclusion.
 By **Definition 7.3.1 (Mean)**, compare the expectations of the numbers of defective parts from the two machines.
 
 $$
-\mathbb E\left(X_1\right)=0\times 0.4+1\times 0.3+2\times 0.2+3\times 0.1=1.0.
+\mathbb{E}\left(X_1\right)=0\times0.4+1\times0.3+2\times0.2+3\times0.1=1.0.
 $$
 
 $$
-\mathbb E\left(X_2\right)=0\times 0.3+1\times 0.5+2\times 0.2=0.9.
+\mathbb{E}\left(X_2\right)=0\times0.3+1\times0.5+2\times0.2=0.9.
 $$
 
-Because $\mathbb E\left(X_2\right)< \mathbb E\left(X_1\right)$, i.e. machine B produces fewer defective parts per hour on average, machine B is better. The practical meaning is: with the same output, machine B has a lower average rate of defective parts and is more stable and reliable. $\blacksquare$
+Because $\mathbb{E}\left(X_2\right)<\mathbb{E}\left(X_1\right)$, i.e. machine B produces fewer defective parts per hour on average, machine B is better. The practical meaning is: with the same output, machine B has a lower average rate of defective parts and is more stable and reliable. $\blacksquare$
 
 ## Exercise 4
 
@@ -113,39 +113,39 @@ Find $D\left(X\right)$ and $\sigma\left(2X+7\right)$.
 By **Definition 7.3.1 (Mean)**, **Conclusion 7.3.4** (Simplified Formula for Variance) and **Conclusion 7.3.5** (Properties of Variance).
 
 $$
-\mathbb E\left(X\right)=1\times 0.2+2\times 0.3+3\times 0.4+4\times 0.1=2.4.
+\mathbb{E}\left(X\right)=1\times0.2+2\times0.3+3\times0.4+4\times0.1=2.4.
 $$
 
 $$
-\mathbb E\left(X^2\right)=1^2\times 0.2+2^2\times 0.3+3^2\times 0.4+4^2\times 0.1=6.6.
+\mathbb{E}\left(X^2\right)=1^2\times0.2+2^2\times0.3+3^2\times0.4+4^2\times0.1=6.6.
 $$
 
 By **Conclusion 7.3.4** (Simplified Formula for Variance),
 
 $$
-D\left(X\right)=\mathbb E\left(X^2\right)-\left(\mathbb E\left(X\right)\right)^2=6.6-2.4^2=6.6-5.76=0.84.
+D\left(X\right)=\mathbb{E}\left(X^2\right)-\left(\mathbb{E}\left(X\right)\right)^2=6.6-2.4^2=6.6-5.76=0.84.
 $$
 
-By **Conclusion 7.3.5** (Properties of Variance), $D\left(2X+7\right)=4D\left(X\right)=4\times 0.84=3.36$, so
+By **Conclusion 7.3.5** (Properties of Variance), $D\left(2X+7\right)=4D\left(X\right)=4\times0.84=3.36$, so
 
 $$
-\sigma\left(2X+7\right)=\sqrt{3.36}\approx 1.83.
+\sigma\left(2X+7\right)=\sqrt{3.36}\approx1.83.
 $$
 
 $\blacksquare$
 
 ## Exercise 5
 
-(Exercise 7.3, Problem 2) If a random variable $X$ satisfies $\mathbb P\left(X=c\right)=1$, where $c$ is a constant, find $D\left(X\right)$.
+(Exercise 7.3, Problem 2) If a random variable $X$ satisfies $\mathbb{P}\left(X=c\right)=1$, where $c$ is a constant, find $D\left(X\right)$.
 
 ### Solution to Exercise 5
 
 By **Definition 7.3.1 (Mean)** and **Definition 7.3.3 (Variance and Standard Deviation)**.
 
-Because $\mathbb P\left(X=c\right)=1$, we have $\mathbb E\left(X\right)=c\times 1=c$. By **Definition 7.3.3 (Variance and Standard Deviation)**,
+Because $\mathbb{P}\left(X=c\right)=1$, we have $\mathbb{E}\left(X\right)=c\times1=c$. By **Definition 7.3.3 (Variance and Standard Deviation)**,
 
 $$
-D\left(X\right)=\left(c-\mathbb E\left(X\right)\right)^2\times 1=\left(c-c\right)^2=0.
+D\left(X\right)=\left(c-\mathbb{E}\left(X\right)\right)^2\times1=\left(c-c\right)^2=0.
 $$
 
 $\blacksquare$
@@ -170,17 +170,17 @@ By **Definition 7.3.3 (Variance and Standard Deviation)**.
 
 Both distributions are symmetric about 0; intuitively the errors in class B are more concentrated near 0 (probability 0.6), so $X$ is more spread out.
 
-Because both distributions are symmetric, $\mathbb E\left(X\right)=0$ and $\mathbb E\left(Y\right)=0$. Compute the variances:
+Because both distributions are symmetric, $\mathbb{E}\left(X\right)=0$ and $\mathbb{E}\left(Y\right)=0$. Compute the variances:
 
 $$
-D\left(X\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
+D\left(X\right)=\left(-2\right)^2\times0.1+\left(-1\right)^2\times0.2+0^2\times0.4+1^2\times0.2+2^2\times0.1=1.2.
 $$
 
 $$
-D\left(Y\right)=\left(-2\right)^2\times 0.05+\left(-1\right)^2\times 0.15+0^2\times 0.6+1^2\times 0.15+2^2\times 0.05=0.7.
+D\left(Y\right)=\left(-2\right)^2\times0.05+\left(-1\right)^2\times0.15+0^2\times0.6+1^2\times0.15+2^2\times0.05=0.7.
 $$
 
-Since $D\left(X\right)=1.2> D\left(Y\right)=0.7$, $X$ is more spread out, which agrees with the intuitive judgment. $\blacksquare$
+Since $D\left(X\right)=1.2>{}D\left(Y\right)=0.7$, $X$ is more spread out, which agrees with the intuitive judgment. $\blacksquare$
 
 ## Problem 1
 
@@ -193,17 +193,17 @@ By **Definition 7.3.1 (Mean)** and **Conclusion 7.3.4** (Simplified Formula for 
 Let the profit per phone be $X$. Its possible values are $100$, $0$, $-300$, with corresponding probabilities $0.6$, $0.3$, $0.1$.
 
 $$
-\mathbb E\left(X\right)=100\times 0.6+0\times 0.3+\left(-300\right)\times 0.1=30.
+\mathbb{E}\left(X\right)=100\times0.6+0\times0.3+\left(-300\right)\times0.1=30.
 $$
 
 $$
-\mathbb E\left(X^2\right)=100^2\times 0.6+0^2\times 0.3+\left(-300\right)^2\times 0.1=15000.
+\mathbb{E}\left(X^2\right)=100^2\times0.6+0^2\times0.3+\left(-300\right)^2\times0.1=15000.
 $$
 
 By **Conclusion 7.3.4** (Simplified Formula for Variance),
 
 $$
-D\left(X\right)=\mathbb E\left(X^2\right)-\left(\mathbb E\left(X\right)\right)^2=15000-30^2=14100.
+D\left(X\right)=\mathbb{E}\left(X^2\right)-\left(\mathbb{E}\left(X\right)\right)^2=15000-30^2=14100.
 $$
 
 Thus the mean profit per phone is 30 yuan, and the variance is 14100. $\blacksquare$
@@ -216,21 +216,21 @@ Thus the mean profit per phone is 30 yuan, and the variance is 14100. $\blacksqu
 
 By **Definition 7.3.1 (Mean)**.
 
-Let the winning amount of 1 ticket be $X$. Use the weighted average to find $\mathbb E\left(X\right)$.
+Let the winning amount of 1 ticket be $X$. Use the weighted average to find $\mathbb{E}\left(X\right)$.
 
 $$
-\mathbb E\left(X\right)=\frac{2\times 1000+10\times 300+50\times 100+100\times 50+1000\times 5}{10000}.
+\mathbb{E}\left(X\right)=\frac{2\times1000+10\times300+50\times100+100\times50+1000\times5}{10000}.
 $$
 
 $$
-\mathbb E\left(X\right)=\frac{2000+3000+5000+5000+5000}{10000}=\frac{20000}{10000}=2.
+\mathbb{E}\left(X\right)=\frac{2000+3000+5000+5000+5000}{10000}=\frac{20000}{10000}=2.
 $$
 
 Thus the mean winning amount of 1 ticket is 2 yuan. $\blacksquare$
 
 ## Problem 3
 
-(Exercise 7.3, Review and Consolidation, Problem 3) The distribution of a random variable $X$ is $\mathbb P\left(X=0\right)=0.2$, $\mathbb P\left(X=1\right)=a$, $\mathbb P\left(X=2\right)=b$. If $\mathbb E\left(X\right)=1$, find $a$ and $b$.
+(Exercise 7.3, Review and Consolidation, Problem 3) The distribution of a random variable $X$ is $\mathbb{P}\left(X=0\right)=0.2$, $\mathbb{P}\left(X=1\right)=a$, $\mathbb{P}\left(X=2\right)=b$. If $\mathbb{E}\left(X\right)=1$, find $a$ and $b$.
 
 ### Solution to Problem 3
 
@@ -239,13 +239,13 @@ By the normalization property of **Definition 7.2.3 (Probability Distribution)**
 From the sum of the probabilities being 1, we get
 
 $$
-0.2+a+b=1,\quad \text{即 } a+b=0.8.
+0.2+a+b=1,\quad\text{即~}a+b=0.8.
 $$
 
-From $\mathbb E\left(X\right)=1$, we get
+From $\mathbb{E}\left(X\right)=1$, we get
 
 $$
-\mathbb E\left(X\right)=0\times 0.2+1\times a+2\times b=a+2b=1.
+\mathbb{E}\left(X\right)=0\times0.2+1\times{a}+2\times{b}=a+2b=1.
 $$
 
 Solving the two equations simultaneously and subtracting gives $b=0.2$, and substituting back gives $a=0.6$. $\blacksquare$
@@ -267,32 +267,32 @@ $$
 Any pair of scores satisfying this equation works. For example, take $m=3$, $n=-1$, then
 
 $$
-0.25\times 3+0.75\times\left(-1\right)=0.75-0.75=0.
+0.25\times3+0.75\times\left(-1\right)=0.75-0.75=0.
 $$
 
 Thus we may stipulate that a correct choice scores 3 points and a wrong choice loses 1 point. $\blacksquare$
 
 ## Problem 5
 
-(Exercise 7.3, Review and Consolidation, Problem 5) Prove that $D\left(aX+b\right)=a^2 D\left(X\right)$.
+(Exercise 7.3, Review and Consolidation, Problem 5) Prove that $D\left(aX+b\right)=a^2D\left(X\right)$.
 
 ### Solution to Problem 5
 
 By **Conclusion 7.3.2** (Properties of the Mean) and **Definition 7.3.3 (Variance and Standard Deviation)**.
 
-By **Conclusion 7.3.2** (Properties of the Mean), $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$. By **Definition 7.3.3 (Variance and Standard Deviation)**,
+By **Conclusion 7.3.2** (Properties of the Mean), $\mathbb{E}\left(aX+b\right)=a\mathbb{E}\left(X\right)+b$. By **Definition 7.3.3 (Variance and Standard Deviation)**,
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-\mathbb E\left(aX+b\right)\right)^2 p_i.
+D\left(aX+b\right)=\sum_{i=1}^n\left(ax_i+b-\mathbb{E}\left(aX+b\right)\right)^2p_i.
 $$
 
-Substituting $\mathbb E\left(aX+b\right)=a\mathbb E\left(X\right)+b$, we get
+Substituting $\mathbb{E}\left(aX+b\right)=a\mathbb{E}\left(X\right)+b$, we get
 
 $$
-D\left(aX+b\right)=\sum_{i=1}^n \left(a x_i+b-a\mathbb E\left(X\right)-b\right)^2 p_i=\sum_{i=1}^n a^2\left(x_i-\mathbb E\left(X\right)\right)^2 p_i=a^2 D\left(X\right).
+D\left(aX+b\right)=\sum_{i=1}^n\left(ax_i+b-a\mathbb{E}\left(X\right)-b\right)^2p_i=\sum_{i=1}^na^2\left(x_i-\mathbb{E}\left(X\right)\right)^2p_i=a^2D\left(X\right).
 $$
 
-Thus $D\left(aX+b\right)=a^2 D\left(X\right)$. $\blacksquare$
+Thus $D\left(aX+b\right)=a^2D\left(X\right)$. $\blacksquare$
 
 ## Problem 6
 
@@ -305,16 +305,16 @@ By **Definition 7.3.1 (Mean)**, compute and compare the expected prize under the
 If guessing $A$ first: guessing $A$ wrong (probability 0.2) gives 0 yuan; guessing $A$ correctly (probability 0.8) and then guessing $B$, guessing $B$ correctly (probability 0.5) gives $10+20=30$ yuan, and guessing $B$ wrong (probability 0.5) gives 10 yuan. The expectation of the prize $X_1$ is
 
 $$
-\mathbb E\left(X_1\right)=0\times 0.2+10\times\left(0.8\times 0.5\right)+30\times\left(0.8\times 0.5\right)=4+12=16.
+\mathbb{E}\left(X_1\right)=0\times0.2+10\times\left(0.8\times0.5\right)+30\times\left(0.8\times0.5\right)=4+12=16.
 $$
 
 If guessing $B$ first: guessing $B$ wrong (probability 0.5) gives 0 yuan; guessing $B$ correctly (probability 0.5) and then guessing $A$, guessing $A$ correctly (probability 0.8) gives $20+10=30$ yuan, and guessing $A$ wrong (probability 0.2) gives 20 yuan. The expectation of the prize $X_2$ is
 
 $$
-\mathbb E\left(X_2\right)=0\times 0.5+20\times\left(0.5\times 0.2\right)+30\times\left(0.5\times 0.8\right)=2+12=14.
+\mathbb{E}\left(X_2\right)=0\times0.5+20\times\left(0.5\times0.2\right)+30\times\left(0.5\times0.8\right)=2+12=14.
 $$
 
-Because $\mathbb E\left(X_1\right)=16> \mathbb E\left(X_2\right)=14$, Zhang should choose to guess riddle $A$ first. $\blacksquare$
+Because $\mathbb{E}\left(X_1\right)=16>\mathbb{E}\left(X_2\right)=14$, Zhang should choose to guess riddle $A$ first. $\blacksquare$
 
 ## Problem 7
 
@@ -334,21 +334,21 @@ Compare the performance of the two watch brands A and B.
 
 By **Definition 7.3.1 (Mean)** and **Definition 7.3.3 (Variance and Standard Deviation)**.
 
-Both distributions are symmetric about 0, so $\mathbb E\left(X\right)=0$ and $\mathbb E\left(Y\right)=0$, i.e. both watches have no average timing bias.
+Both distributions are symmetric about 0, so $\mathbb{E}\left(X\right)=0$ and $\mathbb{E}\left(Y\right)=0$, i.e. both watches have no average timing bias.
 
 $$
-D\left(X\right)=\left(-1\right)^2\times 0.1+0^2\times 0.8+1^2\times 0.1=0.2.
+D\left(X\right)=\left(-1\right)^2\times0.1+0^2\times0.8+1^2\times0.1=0.2.
 $$
 
 $$
-D\left(Y\right)=\left(-2\right)^2\times 0.1+\left(-1\right)^2\times 0.2+0^2\times 0.4+1^2\times 0.2+2^2\times 0.1=1.2.
+D\left(Y\right)=\left(-2\right)^2\times0.1+\left(-1\right)^2\times0.2+0^2\times0.4+1^2\times0.2+2^2\times0.1=1.2.
 $$
 
-Because $\mathbb E\left(X\right)=\mathbb E\left(Y\right)$ but $D\left(X\right)< D\left(Y\right)$, i.e. watch A has a smaller and more stable timing error, brand A watches perform better. $\blacksquare$
+Because $\mathbb{E}\left(X\right)=\mathbb{E}\left(Y\right)$ but $D\left(X\right)<{}D\left(Y\right)$, i.e. watch A has a smaller and more stable timing error, brand A watches perform better. $\blacksquare$
 
 ## Problem 8
 
-(Exercise 7.3, Extension and Exploration, Problem 8) Let $\mathbb E\left(X\right)=\mu$, and let $a$ be a constant different from $\mu$. Investigate the relationship between the degree to which $X$ deviates from $\mu$ and the degree to which $X$ deviates from $a$, and explain the significance of the conclusion.
+(Exercise 7.3, Extension and Exploration, Problem 8) Let $\mathbb{E}\left(X\right)=\mu$, and let $a$ be a constant different from $\mu$. Investigate the relationship between the degree to which $X$ deviates from $\mu$ and the degree to which $X$ deviates from $a$, and explain the significance of the conclusion.
 
 ### Solution to Problem 8
 
@@ -357,20 +357,20 @@ By **Definition 7.3.1 (Mean)** and **Definition 7.3.3 (Variance and Standard Dev
 Use the mean-square deviation to measure how much $X$ deviates from a constant. Expand the mean-square deviation of $X$ from $a$:
 
 $$
-\mathbb E\left(\left(X-a\right)^2\right)=\mathbb E\left(\left(X-\mu+\mu-a\right)^2\right).
+\mathbb{E}\left(\left(X-a\right)^2\right)=\mathbb{E}\left(\left(X-\mu+\mu-a\right)^2\right).
 $$
 
 $$
-=\mathbb E\left(\left(X-\mu\right)^2\right)+2\left(\mu-a\right)\mathbb E\left(X-\mu\right)+\left(\mu-a\right)^2.
+=\mathbb{E}\left(\left(X-\mu\right)^2\right)+2\left(\mu-a\right)\mathbb{E}\left(X-\mu\right)+\left(\mu-a\right)^2.
 $$
 
-Because $\mathbb E\left(X-\mu\right)=\mathbb E\left(X\right)-\mu=0$, we get
+Because $\mathbb{E}\left(X-\mu\right)=\mathbb{E}\left(X\right)-\mu=0$, we get
 
 $$
-\mathbb E\left(\left(X-a\right)^2\right)=D\left(X\right)+\left(\mu-a\right)^2.
+\mathbb{E}\left(\left(X-a\right)^2\right)=D\left(X\right)+\left(\mu-a\right)^2.
 $$
 
-Since $a\neq\mu$, $\left(\mu-a\right)^2> 0$, so $\mathbb E\left(\left(X-a\right)^2\right)> D\left(X\right)=\mathbb E\left(\left(X-\mu\right)^2\right)$. That is, the degree to which $X$ deviates from $\mu$ is minimal. Its significance is: the mean $\mu$ is the constant that minimizes the mean-square deviation of the random variable, which is precisely why the mean can represent the average level of the random variable. $\blacksquare$
+Since $a\neq\mu$, $\left(\mu-a\right)^2>0$, so $\mathbb{E}\left(\left(X-a\right)^2\right)>{}D\left(X\right)=\mathbb{E}\left(\left(X-\mu\right)^2\right)$. That is, the degree to which $X$ deviates from $\mu$ is minimal. Its significance is: the mean $\mu$ is the constant that minimizes the mean-square deviation of the random variable, which is precisely why the mean can represent the average level of the random variable. $\blacksquare$
 
 ## Exercise 7
 
@@ -378,21 +378,21 @@ Since $a\neq\mu$, $\left(\mu-a\right)^2> 0$, so $\mathbb E\left(\left(X-a\right)
 
 (1) Find the distribution of $X$;
 
-(2) Find $\mathbb E\left(X\right)=\;\_\_\;$, $D\left(X\right)=\;\_\_\;$.
+(2) Find $\mathbb{E}\left(X\right)=\;\_\_\;$, $D\left(X\right)=\;\_\_\;$.
 
 ### Solution to Exercise 7
 
 By **Definition 7.4.2 (Binomial Distribution)** and **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution).
 
-Tossing the coin 4 times, the probability of heads each time is $0.5$, and the tosses are independent, so $X\sim B\left(4,0.5\right)$.
+Tossing the coin 4 times, the probability of heads each time is $0.5$, and the tosses are independent, so $X\sim{B}\left(4,0.5\right)$.
 
-(1) By **Definition 7.4.2 (Binomial Distribution)**, $\mathbb P\left(X=k\right)=\binom{4}{k} \left(0.5\right)^4$, so the distribution is
+(1) By **Definition 7.4.2 (Binomial Distribution)**, $\mathbb{P}\left(X=k\right)=\binom{4}{k}\left(0.5\right)^4$, so the distribution is
 
 | $X$ | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
 | $P$ | $\frac{1}{16}$ | $\frac{1}{4}$ | $\frac{3}{8}$ | $\frac{1}{4}$ | $\frac{1}{16}$ |
 
-(2) By **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution), $\mathbb E\left(X\right)=np=4\times 0.5=2$, $D\left(X\right)=np\left(1-p\right)=4\times 0.5\times 0.5=1$. Thus the blanks are, in order, $2$, $1$. $\blacksquare$
+(2) By **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution), $\mathbb{E}\left(X\right)=np=4\times0.5=2$, $D\left(X\right)=np\left(1-p\right)=4\times0.5\times0.5=1$. Thus the blanks are, in order, $2$, $1$. $\blacksquare$
 
 ## Exercise 8
 
@@ -406,18 +406,18 @@ Tossing the coin 4 times, the probability of heads each time is $0.5$, and the t
 
 By **Definition 7.4.2 (Binomial Distribution)**.
 
-Let $X$ be the number of chickens among the 5 that are not infected. The probability that each chicken is not infected is $0.8$, and the chickens are independent, so $X\sim B\left(5,0.8\right)$.
+Let $X$ be the number of chickens among the 5 that are not infected. The probability that each chicken is not infected is $0.8$, and the chickens are independent, so $X\sim{B}\left(5,0.8\right)$.
 
 (1)
 
 $$
-\mathbb P\left(X=5\right)=0.8^5\approx 0.3277.
+\mathbb{P}\left(X=5\right)=0.8^5\approx0.3277.
 $$
 
 (2) Exactly 1 infected means exactly 4 not infected,
 
 $$
-\mathbb P\left(X=4\right)=\binom{5}{4} \left(0.8\right)^4\times 0.2=5\times 0.8^4\times 0.2\approx 0.4096.
+\mathbb{P}\left(X=4\right)=\binom{5}{4}\left(0.8\right)^4\times0.2=5\times0.8^4\times0.2\approx0.4096.
 $$
 
 $\blacksquare$
@@ -434,7 +434,7 @@ $\blacksquare$
 
 By **Definition 7.4.2 (Binomial Distribution)** and **Definition 7.4.4 (Hypergeometric Distribution)**.
 
-(1) Each shot is independent, with only two outcomes (hit or miss), and the hit probability is always $0.8$, so $X$ follows a binomial distribution: $X\sim B\left(12,0.8\right)$, with parameters $n=12$, $p=0.8$.
+(1) Each shot is independent, with only two outcomes (hit or miss), and the hit probability is always $0.8$, so $X$ follows a binomial distribution: $X\sim{B}\left(12,0.8\right)$, with parameters $n=12$, $p=0.8$.
 
 (2) The sampling is without replacement, so the draws are not independent; the number of defective items $Y$ follows **Definition 7.4.4 (Hypergeometric Distribution)**, not a binomial distribution. $\blacksquare$
 
@@ -446,9 +446,9 @@ By **Definition 7.4.2 (Binomial Distribution)** and **Definition 7.4.4 (Hypergeo
 
 By **Definition 7.4.2 (Binomial Distribution)**, the binomial distribution describes the number of occurrences of an event in $n$ independent repeated trials.
 
-(1) A shooter hits the target with probability $0.7$ each time; he fires 10 shots in a row, and the number of hits $X$ follows a binomial distribution $X\sim B\left(10,0.7\right)$.
+(1) A shooter hits the target with probability $0.7$ each time; he fires 10 shots in a row, and the number of hits $X$ follows a binomial distribution $X\sim{B}\left(10,0.7\right)$.
 
-(2) The defective rate of products from a certain factory is $0.05$; 20 items are sampled with replacement, and the number of defective items $Y$ follows a binomial distribution $Y\sim B\left(20,0.05\right)$. $\blacksquare$
+(2) The defective rate of products from a certain factory is $0.05$; 20 items are sampled with replacement, and the number of defective items $Y$ follows a binomial distribution $Y\sim{B}\left(20,0.05\right)$. $\blacksquare$
 
 ## Exercise 11
 
@@ -458,16 +458,16 @@ By **Definition 7.4.2 (Binomial Distribution)**, the binomial distribution descr
 
 By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
-Let $X$ be the number of cans with prize vouchers among the 2 drawn. The population is $N=24$, of which $M=4$ have prize vouchers, and we draw $n=2$. What is sought is $\mathbb P\left(X\ge 1\right)$.
+Let $X$ be the number of cans with prize vouchers among the 2 drawn. The population is $N=24$, of which $M=4$ have prize vouchers, and we draw $n=2$. What is sought is $\mathbb{P}\left(X\ge1\right)$.
 
 $$
-\mathbb P\left(X=0\right)=\frac{\binom{20}{2}}{\binom{24}{2}}=\frac{190}{276}=\frac{95}{138}.
+\mathbb{P}\left(X=0\right)=\frac{\binom{20}{2}}{\binom{24}{2}}=\frac{190}{276}=\frac{95}{138}.
 $$
 
 By the complementary event,
 
 $$
-\mathbb P\left(X\ge 1\right)=1-\mathbb P\left(X=0\right)=1-\frac{95}{138}=\frac{43}{138}.
+\mathbb{P}\left(X\ge1\right)=1-\mathbb{P}\left(X=0\right)=1-\frac{95}{138}=\frac{43}{138}.
 $$
 
 $\blacksquare$
@@ -480,10 +480,10 @@ $\blacksquare$
 
 By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
-Let $X$ be the number of chosen volunteers from class A. The population is $N=12$, of which $M=4$ are from class A, and we draw $n=4$. What is sought is $\mathbb P\left(X=2\right)$.
+Let $X$ be the number of chosen volunteers from class A. The population is $N=12$, of which $M=4$ are from class A, and we draw $n=4$. What is sought is $\mathbb{P}\left(X=2\right)$.
 
 $$
-\mathbb P\left(X=2\right)=\frac{\binom{4}{2} \binom{8}{2}}{\binom{12}{4}}=\frac{6\times 28}{495}=\frac{168}{495}=\frac{56}{165}.
+\mathbb{P}\left(X=2\right)=\frac{\binom{4}{2}\binom{8}{2}}{\binom{12}{4}}=\frac{6\times28}{495}=\frac{168}{495}=\frac{56}{165}.
 $$
 
 $\blacksquare$
@@ -508,12 +508,12 @@ By **Definition 7.4.4 (Hypergeometric Distribution)**, the hypergeometric distri
 
 By **Definition 7.4.2 (Binomial Distribution)** and **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution).
 
-Rolling a die, a 5 or 6 is a success, so the success probability is $p=\frac{2}{6}=\frac{1}{3}$. Repeating independently 30 times, the number of successes is $X\sim B\left(30,\frac{1}{3}\right)$.
+Rolling a die, a 5 or 6 is a success, so the success probability is $p=\frac{2}{6}=\frac{1}{3}$. Repeating independently 30 times, the number of successes is $X\sim{B}\left(30,\frac{1}{3}\right)$.
 
 By **Conclusion 7.4.3** (Mean and Variance of the Binomial Distribution),
 
 $$
-\mathbb E\left(X\right)=np=30\times\frac{1}{3}=10.
+\mathbb{E}\left(X\right)=np=30\times\frac{1}{3}=10.
 $$
 
 $$
@@ -530,10 +530,10 @@ $\blacksquare$
 
 By **Definition 7.4.2 (Binomial Distribution)**.
 
-Let $X$ be the number of hits in the 4 shots; then $X\sim B\left(4,0.9\right)$. Exactly 1 miss means exactly 3 hits, and what is sought is $\mathbb P\left(X=3\right)$.
+Let $X$ be the number of hits in the 4 shots; then $X\sim{B}\left(4,0.9\right)$. Exactly 1 miss means exactly 3 hits, and what is sought is $\mathbb{P}\left(X=3\right)$.
 
 $$
-\mathbb P\left(X=3\right)=\binom{4}{3} \left(0.9\right)^3\times 0.1=4\times 0.729\times 0.1=0.2916.
+\mathbb{P}\left(X=3\right)=\binom{4}{3}\left(0.9\right)^3\times0.1=4\times0.729\times0.1=0.2916.
 $$
 
 $\blacksquare$
@@ -552,18 +552,18 @@ The figure illustrates a particle moving randomly on integer points: the horizon
 
 By **Definition 7.4.2 (Binomial Distribution)**.
 
-Let $X$ be the number of rightward steps among the 6 moves; the probability of moving right each time is $0.5$, so $X\sim B\left(6,0.5\right)$. The final position of the particle is $X-\left(6-X\right)=2X-6$.
+Let $X$ be the number of rightward steps among the 6 moves; the probability of moving right each time is $0.5$, so $X\sim{B}\left(6,0.5\right)$. The final position of the particle is $X-\left(6-X\right)=2X-6$.
 
 (1) Returning to the origin means $2X-6=0$, i.e. $X=3$.
 
 $$
-\mathbb P\left(X=3\right)=\binom{6}{3} \left(0.5\right)^6=\frac{20}{64}=\frac{5}{16}.
+\mathbb{P}\left(X=3\right)=\binom{6}{3}\left(0.5\right)^6=\frac{20}{64}=\frac{5}{16}.
 $$
 
 (2) Being at coordinate 4 means $2X-6=4$, i.e. $X=5$.
 
 $$
-\mathbb P\left(X=5\right)=\binom{6}{5} \left(0.5\right)^6=\frac{6}{64}=\frac{3}{32}.
+\mathbb{P}\left(X=5\right)=\binom{6}{5}\left(0.5\right)^6=\frac{6}{64}=\frac{3}{32}.
 $$
 
 $\blacksquare$
@@ -576,18 +576,18 @@ $\blacksquare$
 
 By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
-Let $X$ be the number of $A$ cards drawn. The population is $N=52$, of which $M=4$ are $A$ cards, and we draw $n=5$. What is sought is $\mathbb P\left(X\ge 2\right)=1-\mathbb P\left(X=0\right)-\mathbb P\left(X=1\right)$.
+Let $X$ be the number of $A$ cards drawn. The population is $N=52$, of which $M=4$ are $A$ cards, and we draw $n=5$. What is sought is $\mathbb{P}\left(X\ge2\right)=1-\mathbb{P}\left(X=0\right)-\mathbb{P}\left(X=1\right)$.
 
 $$
-\mathbb P\left(X=0\right)=\frac{\binom{48}{5}}{\binom{52}{5}}=\frac{1712304}{2598960}\approx 0.6588.
-$$
-
-$$
-\mathbb P\left(X=1\right)=\frac{\binom{4}{1} \binom{48}{4}}{\binom{52}{5}}=\frac{4\times 194580}{2598960}\approx 0.2995.
+\mathbb{P}\left(X=0\right)=\frac{\binom{48}{5}}{\binom{52}{5}}=\frac{1712304}{2598960}\approx0.6588.
 $$
 
 $$
-\mathbb P\left(X\ge 2\right)=1-0.6588-0.2995\approx 0.0417.
+\mathbb{P}\left(X=1\right)=\frac{\binom{4}{1}\binom{48}{4}}{\binom{52}{5}}=\frac{4\times194580}{2598960}\approx0.2995.
+$$
+
+$$
+\mathbb{P}\left(X\ge2\right)=1-0.6588-0.2995\approx0.0417.
 $$
 
 $\blacksquare$
@@ -604,26 +604,26 @@ $\blacksquare$
 
 By **Definition 7.4.2 (Binomial Distribution)**.
 
-Let $X$ be the number of hits in the 10 shots; then $X\sim B\left(10,0.8\right)$.
+Let $X$ be the number of hits in the 10 shots; then $X\sim{B}\left(10,0.8\right)$.
 
 (1)
 
 $$
-\mathbb P\left(X=8\right)=\binom{10}{8} \left(0.8\right)^8 \left(0.2\right)^2=45\times 0.8^8\times 0.2^2\approx 0.3020.
+\mathbb{P}\left(X=8\right)=\binom{10}{8}\left(0.8\right)^8\left(0.2\right)^2=45\times0.8^8\times0.2^2\approx0.3020.
 $$
 
 (2)
 
 $$
-\mathbb P\left(X=9\right)=\binom{10}{9} \left(0.8\right)^9 \left(0.2\right)=10\times 0.8^9\times 0.2\approx 0.2684.
+\mathbb{P}\left(X=9\right)=\binom{10}{9}\left(0.8\right)^9\left(0.2\right)=10\times0.8^9\times0.2\approx0.2684.
 $$
 
 $$
-\mathbb P\left(X=10\right)=0.8^{10}\approx 0.1074.
+\mathbb{P}\left(X=10\right)=0.8^{10}\approx0.1074.
 $$
 
 $$
-\mathbb P\left(X\ge 8\right)=0.3020+0.2684+0.1074=0.6778.
+\mathbb{P}\left(X\ge8\right)=0.3020+0.2684+0.1074=0.6778.
 $$
 
 $\blacksquare$
@@ -636,22 +636,22 @@ $\blacksquare$
 
 By **Definition 7.4.4 (Hypergeometric Distribution)**.
 
-Let $X$ be the number of red balls among the 5 drawn. The population is $N=30$, of which $M=10$ are red, and we draw $n=5$. What is sought is $\mathbb P\left(X\ge 3\right)=\mathbb P\left(X=3\right)+\mathbb P\left(X=4\right)+\mathbb P\left(X=5\right)$.
+Let $X$ be the number of red balls among the 5 drawn. The population is $N=30$, of which $M=10$ are red, and we draw $n=5$. What is sought is $\mathbb{P}\left(X\ge3\right)=\mathbb{P}\left(X=3\right)+\mathbb{P}\left(X=4\right)+\mathbb{P}\left(X=5\right)$.
 
 $$
-\mathbb P\left(X=3\right)=\frac{\binom{10}{3} \binom{20}{2}}{\binom{30}{5}}=\frac{120\times 190}{142506}\approx 0.1599.
-$$
-
-$$
-\mathbb P\left(X=4\right)=\frac{\binom{10}{4} \binom{20}{1}}{\binom{30}{5}}=\frac{210\times 20}{142506}\approx 0.0295.
+\mathbb{P}\left(X=3\right)=\frac{\binom{10}{3}\binom{20}{2}}{\binom{30}{5}}=\frac{120\times190}{142506}\approx0.1599.
 $$
 
 $$
-\mathbb P\left(X=5\right)=\frac{\binom{10}{5}}{\binom{30}{5}}=\frac{252}{142506}\approx 0.0018.
+\mathbb{P}\left(X=4\right)=\frac{\binom{10}{4}\binom{20}{1}}{\binom{30}{5}}=\frac{210\times20}{142506}\approx0.0295.
 $$
 
 $$
-\mathbb P\left(X\ge 3\right)\approx 0.1599+0.0295+0.0018=0.1912.
+\mathbb{P}\left(X=5\right)=\frac{\binom{10}{5}}{\binom{30}{5}}=\frac{252}{142506}\approx0.0018.
+$$
+
+$$
+\mathbb{P}\left(X\ge3\right)\approx0.1599+0.0295+0.0018=0.1912.
 $$
 
 $\blacksquare$
@@ -668,40 +668,40 @@ $\blacksquare$
 
 By **Definition 7.4.2 (Binomial Distribution)** and the multiplication formula for probability.
 
-(1) The 3 lathes are of the same model and independent, each with breakdown probability $0.2$, so $X\sim B\left(3,0.2\right)$.
+(1) The 3 lathes are of the same model and independent, each with breakdown probability $0.2$, so $X\sim{B}\left(3,0.2\right)$.
 
 $$
-\mathbb P\left(X=0\right)=0.8^3=0.512.
-$$
-
-$$
-\mathbb P\left(X=1\right)=\binom{3}{1}\times 0.2\times 0.8^2=3\times 0.2\times 0.64=0.384.
+\mathbb{P}\left(X=0\right)=0.8^3=0.512.
 $$
 
 $$
-\mathbb P\left(X=2\right)=\binom{3}{2}\times 0.2^2\times 0.8=3\times 0.04\times 0.8=0.096.
+\mathbb{P}\left(X=1\right)=\binom{3}{1}\times0.2\times0.8^2=3\times0.2\times0.64=0.384.
 $$
 
 $$
-\mathbb P\left(X=3\right)=0.2^3=0.008.
+\mathbb{P}\left(X=2\right)=\binom{3}{2}\times0.2^2\times0.8=3\times0.04\times0.8=0.096.
+$$
+
+$$
+\mathbb{P}\left(X=3\right)=0.2^3=0.008.
 $$
 
 (2) The 2 model $A$ lathes have breakdown probability $0.1$, and the 1 model $B$ lathe has breakdown probability $0.2$, independently.
 
 $$
-\mathbb P\left(X=0\right)=0.9^2\times 0.8=0.648.
+\mathbb{P}\left(X=0\right)=0.9^2\times0.8=0.648.
 $$
 
 $$
-\mathbb P\left(X=1\right)=\binom{2}{1}\times 0.1\times 0.9\times 0.8+0.9^2\times 0.2=0.144+0.162=0.306.
+\mathbb{P}\left(X=1\right)=\binom{2}{1}\times0.1\times0.9\times0.8+0.9^2\times0.2=0.144+0.162=0.306.
 $$
 
 $$
-\mathbb P\left(X=2\right)=0.1^2\times 0.8+\binom{2}{1}\times 0.1\times 0.9\times 0.2=0.008+0.036=0.044.
+\mathbb{P}\left(X=2\right)=0.1^2\times0.8+\binom{2}{1}\times0.1\times0.9\times0.2=0.008+0.036=0.044.
 $$
 
 $$
-\mathbb P\left(X=3\right)=0.1^2\times 0.2=0.002.
+\mathbb{P}\left(X=3\right)=0.1^2\times0.2=0.002.
 $$
 
 Thus the distributions of $X$ in the two cases are, respectively,
@@ -724,30 +724,30 @@ $\blacksquare$
 
 By **Definition 7.4.2 (Binomial Distribution)**.
 
-If the drug's effective rate is indeed $0.9$, let $X$ be the number cured among the 10 patients; then $X\sim B\left(10,0.9\right)$. Compute $\mathbb P\left(X\le 6\right)=1-\mathbb P\left(X\ge 7\right)$.
+If the drug's effective rate is indeed $0.9$, let $X$ be the number cured among the 10 patients; then $X\sim{B}\left(10,0.9\right)$. Compute $\mathbb{P}\left(X\le6\right)=1-\mathbb{P}\left(X\ge7\right)$.
 
 $$
-\mathbb P\left(X=7\right)=\binom{10}{7} \left(0.9\right)^7 \left(0.1\right)^3\approx 0.0574.
-$$
-
-$$
-\mathbb P\left(X=8\right)=\binom{10}{8} \left(0.9\right)^8 \left(0.1\right)^2\approx 0.1937.
+\mathbb{P}\left(X=7\right)=\binom{10}{7}\left(0.9\right)^7\left(0.1\right)^3\approx0.0574.
 $$
 
 $$
-\mathbb P\left(X=9\right)=\binom{10}{9} \left(0.9\right)^9 \left(0.1\right)\approx 0.3874.
+\mathbb{P}\left(X=8\right)=\binom{10}{8}\left(0.9\right)^8\left(0.1\right)^2\approx0.1937.
 $$
 
 $$
-\mathbb P\left(X=10\right)=0.9^{10}\approx 0.3487.
+\mathbb{P}\left(X=9\right)=\binom{10}{9}\left(0.9\right)^9\left(0.1\right)\approx0.3874.
 $$
 
 $$
-\mathbb P\left(X\ge 7\right)\approx 0.0574+0.1937+0.3874+0.3487=0.9872.
+\mathbb{P}\left(X=10\right)=0.9^{10}\approx0.3487.
 $$
 
 $$
-\mathbb P\left(X\le 6\right)=1-0.9872=0.0128.
+\mathbb{P}\left(X\ge7\right)\approx0.0574+0.1937+0.3874+0.3487=0.9872.
+$$
+
+$$
+\mathbb{P}\left(X\le6\right)=1-0.9872=0.0128.
 $$
 
 That is, under the assumption that the effective rate is $90\%$, the probability that no more than 6 of the 10 patients are cured is only about $1.28\%$, a small-probability event, so there is reason to doubt that the drug's effective rate reaches $90\%$. $\blacksquare$
