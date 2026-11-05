@@ -72,7 +72,7 @@ $$
 
 由**常用结论 2.2.2** (积定和最小, 和定积最大), 设矩形两邻边长为 $a,b$. 周长为 $20\ \mathrm{cm}$, 即 $a+b=10$ 为定值.
 
-由**练习一**已证 $ab\le\left(\frac{a+b}{2}\right)^2=25$, 当且仅当 $a=b=5$ 时, 等号成立. 故应折成边长为 $5\ \mathrm{cm}$ 的正方形, 此时面积最大, 为 $25\ \mathrm{cm}^2$. $\blacksquare$
+由练习一已证 $ab\le\left(\frac{a+b}{2}\right)^2=25$, 当且仅当 $a=b=5$ 时, 等号成立. 故应折成边长为 $5\ \mathrm{cm}$ 的正方形, 此时面积最大, 为 $25\ \mathrm{cm}^2$. $\blacksquare$
 
 ## 练习五
 
@@ -144,7 +144,7 @@ $$
 
 当且仅当 $x-1=\frac{1}{x-1}$, 即 $\left(x-1\right)^2=1$, $x=2$ 时, 等号成立. 故 $x+\frac{1}{x-1}$ 的最小值为 $3$.
 
-(2) 由**练习一**已证 $x\left(10-x\right)\le\left(\frac{x+\left(10-x\right)}{2}\right)^2=25$, 当且仅当 $x=5$ 时, 等号成立. 故
+(2) 由练习一已证 $x\left(10-x\right)\le\left(\frac{x+\left(10-x\right)}{2}\right)^2=25$, 当且仅当 $x=5$ 时, 等号成立. 故
 
 $$
 \sqrt{x\left(10-x\right)}\le\sqrt{25}=5,

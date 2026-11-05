@@ -480,7 +480,7 @@ By **Theorem 8.6.4 (Criterion for a Line Being Perpendicular to a Plane)**.
 
 Let the planes be $\alpha\perp\beta$, $\beta\perp\gamma$, $\gamma\perp\alpha$, with lines of intersection $l=\alpha\cap\beta$, $m=\beta\cap\gamma$, $n=\gamma\cap\alpha$.
 
-Since $\alpha\perp\gamma$, $\beta\perp\gamma$, $\alpha\cap\beta=l$, by the conclusion of **(Exercise 8.6, Review and Consolidation, Problem 10)**, $l\perp\gamma$.
+Since $\alpha\perp\gamma$, $\beta\perp\gamma$, $\alpha\cap\beta=l$, by the conclusion of (Exercise 8.6, Review and Consolidation, Problem 10), $l\perp\gamma$.
 
 $m$, $n\subset\gamma$, so $l\perp m$, $l\perp n$.
 

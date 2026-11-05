@@ -176,7 +176,7 @@ The figure is an equal-height stacked bar chart: two bars of the same height rep
 
 By **Definition 8.3.3 (Null Hypothesis)** and **Common Conclusion 8.3.5** (Rules for the Independence Test).
 
-This is census data for all senior-year students at the school; by the conclusion of **Problem 2**, the $\chi^2$ independence test method is neither needed nor applicable, and one should instead make a direct intuitive inference from the stacked bar chart of equal height.
+This is census data for all senior-year students at the school; by the conclusion of Problem 2, the $\chi^2$ independence test method is neither needed nor applicable, and one should instead make a direct intuitive inference from the stacked bar chart of equal height.
 
 From the table, the frequency of girls whose height is not below $170\,\mathrm{cm}$ is $0.44$, and the frequency of boys whose height is not below $170\,\mathrm{cm}$ is $0.65$. In the stacked bar chart of equal height, the two bars representing girls and boys have the same height, but the height occupied by the "height not below $170\,\mathrm{cm}$" part in the two bars differs noticeably: this part in the boys' bar is clearly higher than the corresponding part in the girls' bar.
 

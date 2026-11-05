@@ -244,7 +244,7 @@ $\cos\theta=\frac{\lvert \boldsymbol{n}_1 \cdot \boldsymbol{n}_2 \rvert}{\lvert 
 
 ### 解答 练习九
 
-由**常用结论 1.4.7**, **1.4.8**, **1.4.9**.
+由**常用结论 1.4.7**, 1.4.8, 1.4.9.
 
 设 $AB=BC=BD=1$. 以 $B$ 为原点, $BC$ 为 $x$ 轴, $BD$ 所在平面为 $xOy$ 平面, 两平面垂直.
 

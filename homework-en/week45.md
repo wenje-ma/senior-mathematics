@@ -168,7 +168,7 @@ The figure shows two triangles sharing an edge: $\triangle ABC$ and $\triangle D
 
 ### Solution to Exercise 6
 
-By **Common Conclusion 1.4.7**, **1.4.8**, **1.4.9**.
+By **Common Conclusion 1.4.7**, 1.4.8, 1.4.9.
 
 Let $AB=BC=BD=1$. Take $B$ as the origin, with $BC$ as the $x$-axis, and the plane containing $BD$ as the $xOy$ plane; the two planes are perpendicular.
 
