@@ -68,7 +68,7 @@ Through the inquiry into $y=x+\frac{1}{x}$, one gains the following insights: (1
 
 ## Exercise 1
 
-(Exercise 3.4, Problem 1) If the model $y=ax^2$ is used to describe the relation between the sliding distance $y$ (unit: $\text{m}$) after a car brakes emergently and the speed $x$ (unit: $\text{km/h}$) at braking, and a certain model of car slides $20\,\text{m}$ after an emergency brake at a speed of $60\,\text{km/h}$. On a highway with a speed limit of $100\,\text{km/h}$, a car of this model slides $50\,\text{m}$ after an emergency brake. Is this car speeding?
+(Exercise 3.4, Problem 1) If the model $y=ax^2$ is used to describe the relation between the sliding distance $y$ (unit: $\text{m}$) after a car brakes emergently and the speed $x$ (unit: $\text{km/h}$) at braking, and a certain model of car slides $20\;\text{m}$ after an emergency brake at a speed of $60\;\text{km/h}$. On a highway with a speed limit of $100\;\text{km/h}$, a car of this model slides $50\;\text{m}$ after an emergency brake. Is this car speeding?
 
 ### Solution to Exercise 1
 
@@ -76,7 +76,7 @@ By **Definition 3.3.1 (Power Function)**, first determine the coefficient $a$ fr
 
 From $y=20$ when $x=60$, we get $20=a\cdot60^2=3600a$, so $a=\frac{20}{3600}=\frac{1}{180}$. Therefore $y=\frac{x^2}{180}$.
 
-When $y=50$, $50=\frac{x^2}{180}$, giving $x^2=9000$, i.e. $x=\sqrt{9000}\approx94.9\,\text{km/h}$. Since $94.9<100$, this car is not speeding. $\blacksquare$
+When $y=50$, $50=\frac{x^2}{180}$, giving $x^2=9000$, i.e. $x=\sqrt{9000}\approx94.9\;\text{km/h}$. Since $94.9<100$, this car is not speeding. $\blacksquare$
 
 ## Exercise 2
 
@@ -118,7 +118,7 @@ The total profit is $y_4=y_3-y_1=0.35x-\left(150+0.25x\right)=0.1x-150$ (ten-tho
 
 ## Problem 1
 
-(Exercise 3.4, Comprehensive Application, Problem 1) A person drives a car at a speed of $60\,\text{km/h}$ from place $A$ to place $B$, which is $150\,\text{km}$ away. After staying at place $B$ for $1\,\text{h}$, the person returns to place $A$ at a speed of $50\,\text{km/h}$. Express the distance $x$ (unit: $\text{km}$) of the car from place $A$ as a function of the time $t$ (unit: $\text{h}$) (starting from the moment of departure from place $A$); then express the car speed $v$ (unit: $\text{km/h}$) as a function of the time $t$, and draw the graphs of these two functions respectively.
+(Exercise 3.4, Comprehensive Application, Problem 1) A person drives a car at a speed of $60\;\text{km/h}$ from place $A$ to place $B$, which is $150\;\text{km}$ away. After staying at place $B$ for $1\;\text{h}$, the person returns to place $A$ at a speed of $50\;\text{km/h}$. Express the distance $x$ (unit: $\text{km}$) of the car from place $A$ as a function of the time $t$ (unit: $\text{h}$) (starting from the moment of departure from place $A$); then express the car speed $v$ (unit: $\text{km/h}$) as a function of the time $t$, and draw the graphs of these two functions respectively.
 
 The graphs: on the left is the piecewise line graph of the distance $x$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $x$ (unit: km), rising from the origin $\left(0,0\right)$ with slope $60$ to $\left(2.5,150\right)$, extending horizontally to $\left(3.5,150\right)$, and then falling with slope $-50$ to $\left(6.5,0\right)$; on the right is the piecewise constant graph of the car speed $v$ versus time $t$—horizontal axis $t$ (unit: h), vertical axis $v$ (unit: km/h), with three horizontal segments at $v=60$ ($0\le{t}\le2.5$), $v=0$ ($2.5<{}t\le3.5$), and $v=50$ ($3.5<{}t\le6.5$).
 
@@ -126,7 +126,7 @@ The graphs: on the left is the piecewise line graph of the distance $x$ versus t
 
 By **Definition 3.1.5 (Piecewise Function)**, represent it in segments according to the three stages of the trip.
 
-The trip from $A$ to $B$ takes $\frac{150}{60}=2.5\,\text{h}$, the stay at $B$ is $1\,\text{h}$, and the return from $B$ to $A$ takes $\frac{150}{50}=3\,\text{h}$.
+The trip from $A$ to $B$ takes $\frac{150}{60}=2.5\;\text{h}$, the stay at $B$ is $1\;\text{h}$, and the return from $B$ to $A$ takes $\frac{150}{50}=3\;\text{h}$.
 
 The function of distance with respect to time:
 
@@ -144,13 +144,13 @@ The distance graph is: a segment rising from the origin to $\left(2.5,150\right)
 
 ## Problem 2
 
-(Exercise 3.4, Comprehensive Application, Problem 2) To build an open-air cuboidal reservoir with volume $1200\,\text{m}^3$ and depth $6\,\text{m}$, the cost of the walls is $95$ yuan/$\text{m}^2$ and the cost of the bottom is $135$ yuan/$\text{m}^2$. How should the length and width of the reservoir be designed so that the total cost is kept within $7$ ten-thousand yuan (accurate to $0.1\,\text{m}$)?
+(Exercise 3.4, Comprehensive Application, Problem 2) To build an open-air cuboidal reservoir with volume $1200\;\text{m}^3$ and depth $6\;\text{m}$, the cost of the walls is $95$ yuan/$\text{m}^2$ and the cost of the bottom is $135$ yuan/$\text{m}^2$. How should the length and width of the reservoir be designed so that the total cost is kept within $7$ ten-thousand yuan (accurate to $0.1\;\text{m}$)?
 
 ### Solution to Problem 2
 
 By **Definition 3.1.1 (Function)**, set up the total cost as a function of the length and width.
 
-The bottom area of the reservoir is $\frac{1200}{6}=200\,\text{m}^2$. Let the length be $a$ and the width be $b$, then $ab=200$, i.e. $b=\frac{200}{a}$.
+The bottom area of the reservoir is $\frac{1200}{6}=200\;\text{m}^2$. Let the length be $a$ and the width be $b$, then $ab=200$, i.e. $b=\frac{200}{a}$.
 
 The wall area is $2\cdot6\cdot\left(a+b\right)=12\left(a+b\right)$, and the wall cost is $95\cdot12\left(a+b\right)=1140\left(a+b\right)$ yuan.
 
@@ -162,13 +162,13 @@ Requiring $C\le70000$, i.e. $1140\left(a+\frac{200}{a}\right)\le43000$, equivale
 
 Rearranging gives $a^2-37.72a+200\le0$, and solving gives $a\in\left[\frac{37.72-\sqrt{37.72^2-800}}{2},\frac{37.72+\sqrt{37.72^2-800}}{2}\right]\approx\left[5.9,31.8\right]$.
 
-Thus when the length $a$ is between $5.9\,\text{m}$ and $31.8\,\text{m}$, the total cost can be kept within $7$ ten-thousand yuan, and the corresponding width $b=\frac{200}{a}$ is between $6.3\,\text{m}$ and $33.9\,\text{m}$. $\blacksquare$
+Thus when the length $a$ is between $5.9\;\text{m}$ and $31.8\;\text{m}$, the total cost can be kept within $7$ ten-thousand yuan, and the corresponding width $b=\frac{200}{a}$ is between $6.3\;\text{m}$ and $33.9\;\text{m}$. $\blacksquare$
 
 ## Problem 3
 
 (Exercise 3.4, Comprehensive Application, Problem 3) To protect water resources and encourage water conservation, a city implements a "tiered water price" for domestic water use. The billing method is as follows:
 
-For each household per month, the part of water consumption not exceeding $12\,\text{m}^3$ is priced at $3$ yuan/$\text{m}^3$; the part exceeding $12\,\text{m}^3$ but not exceeding $18\,\text{m}^3$ is priced at $6$ yuan/$\text{m}^3$; the part exceeding $18\,\text{m}^3$ is priced at $9$ yuan/$\text{m}^3$.
+For each household per month, the part of water consumption not exceeding $12\;\text{m}^3$ is priced at $3$ yuan/$\text{m}^3$; the part exceeding $12\;\text{m}^3$ but not exceeding $18\;\text{m}^3$ is priced at $6$ yuan/$\text{m}^3$; the part exceeding $18\;\text{m}^3$ is priced at $9$ yuan/$\text{m}^3$.
 
 If a certain household paid a water bill of $48$ yuan this month, find the water consumption of this household this month.
 
@@ -176,13 +176,13 @@ If a certain household paid a water bill of $48$ yuan this month, find the water
 
 By **Definition 3.1.5 (Piecewise Function)**, calculate the water bill in tiered segments.
 
-When the water consumption is $12\,\text{m}^3$, the water bill is $12\times3=36$ yuan. When the water consumption is $18\,\text{m}^3$, the water bill is $36+6\times6=72$ yuan.
+When the water consumption is $12\;\text{m}^3$, the water bill is $12\times3=36$ yuan. When the water consumption is $18\;\text{m}^3$, the water bill is $36+6\times6=72$ yuan.
 
-Since $36<48<72$, the water consumption of this household is between $12\,\text{m}^3$ and $18\,\text{m}^3$.
+Since $36<48<72$, the water consumption of this household is between $12\;\text{m}^3$ and $18\;\text{m}^3$.
 
-The water bill for the part exceeding $12\,\text{m}^3$ is $48-36=12$ yuan, and the price of this part is $6$ yuan/$\text{m}^3$, so the excess amount is $\frac{12}{6}=2\,\text{m}^3$.
+The water bill for the part exceeding $12\;\text{m}^3$ is $48-36=12$ yuan, and the price of this part is $6$ yuan/$\text{m}^3$, so the excess amount is $\frac{12}{6}=2\;\text{m}^3$.
 
-Therefore the total water consumption is $12+2=14\,\text{m}^3$. $\blacksquare$
+Therefore the total water consumption is $12+2=14\;\text{m}^3$. $\blacksquare$
 
 ## Problem 4
 

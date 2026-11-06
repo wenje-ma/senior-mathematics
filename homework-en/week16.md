@@ -60,9 +60,9 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function), an int
 
 ### Solution to Problem 3
 
-By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2}+k\pi,\,\frac{\pi}{2}+k\pi\right)$.
+By **Common Conclusion** (Graphs and Properties of the Tangent Function), the tangent function is increasing on $\left(-\frac{\pi}{2}+k\pi,\frac{\pi}{2}+k\pi\right)$.
 
-$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ has the opposite monotonicity to $y=\tan\left(2x-\frac{3\pi}{4}\right)$. Set $-\frac{\pi}{2}+k\pi<2x-\frac{3\pi}{4}<\frac{\pi}{2}+k\pi$, which gives $\frac{\pi}{8}+\frac{k\pi}{2}<{}x<\frac{5\pi}{8}+\frac{k\pi}{2}$. Hence $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ is decreasing on $\left(\frac{\pi}{8}+\frac{k\pi}{2},\,\frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb{Z}$). $\blacksquare$
+$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ has the opposite monotonicity to $y=\tan\left(2x-\frac{3\pi}{4}\right)$. Set $-\frac{\pi}{2}+k\pi<2x-\frac{3\pi}{4}<\frac{\pi}{2}+k\pi$, which gives $\frac{\pi}{8}+\frac{k\pi}{2}<{}x<\frac{5\pi}{8}+\frac{k\pi}{2}$. Hence $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ is decreasing on $\left(\frac{\pi}{8}+\frac{k\pi}{2},\frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb{Z}$). $\blacksquare$
 
 ## Problem 4
 
@@ -102,7 +102,7 @@ The graphs: on the left is a circle centered at the origin $O$ with radius $2$ i
 
 By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**.
 
-Since the circle has radius $2$, the intersection point $B$ of the terminal side of the angle $x$ with the circle has coordinates $\left(2\cos{x},\,2\sin{x}\right)$. Hence the y-coordinate of the point $B$ is $y=2\sin{x}$, $x\in\mathbb{R}$. Its graph is a sine curve with amplitude $2$ and period $2\pi$. $\blacksquare$
+Since the circle has radius $2$, the intersection point $B$ of the terminal side of the angle $x$ with the circle has coordinates $\left(2\cos{x},2\sin{x}\right)$. Hence the y-coordinate of the point $B$ is $y=2\sin{x}$, $x\in\mathbb{R}$. Its graph is a sine curve with amplitude $2$ and period $2\pi$. $\blacksquare$
 
 ## Problem 7
 

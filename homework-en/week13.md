@@ -105,10 +105,10 @@ By **Definition 5.2.1 (Sine, Cosine and Tangent Functions)** and **Common Conclu
 After $2\,\mathrm{s}$, the angle swept by $P$ is $1\times2=2\,\mathrm{rad}$; since the rotation is clockwise, the swept angle is $-2\,\mathrm{rad}$. The circle has radius $2$, so by **Definition 5.2.2 (Trigonometric Ratios at Any Point on the Terminal Side)**, the coordinates of $P$ are
 
 $$
-\left(2\cos\left(-2\right),\,2\sin\left(-2\right)\right)=\left(2\cos2,\,-2\sin2\right).
+\left(2\cos\left(-2\right),2\sin\left(-2\right)\right)=\left(2\cos2,-2\sin2\right).
 $$
 
-Hence after $2\,\mathrm{s}$, $P$ is at $\left(2\cos2,\,-2\sin2\right)$. $\blacksquare$
+Hence after $2\,\mathrm{s}$, $P$ is at $\left(2\cos2,-2\sin2\right)$. $\blacksquare$
 
 ## Exercise 5
 

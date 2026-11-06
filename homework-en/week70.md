@@ -345,7 +345,7 @@ $$
 Going up, each layer has one fewer ball per edge, so from top to bottom the numbers of balls per edge are $1,2,3,\cdots,12$, and the numbers of balls in the layers are
 
 $$
-1,\,3,\,6,\,10,\,\cdots,\,\frac{k\left(k+1\right)}{2},\,\cdots,\,78.
+1,3,6,10,\cdots,\frac{k\left(k+1\right)}{2},\cdots,78.
 $$
 
 Here the number of balls in a layer with $k$ per edge is $\frac{k\left(k+1\right)}{2}=\binom{k+1}{2}$.

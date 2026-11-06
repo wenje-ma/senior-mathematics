@@ -42,7 +42,7 @@ Hence for $1$ solution, $k<-4$; for $2$ solutions, $k=-4$ or $k>-3$; for $3$ sol
 
 (Review Reference Problem 4, Comprehensive Application, Problem 5) Multiple-choice questions.
 
-(1) Given the sets $A=\left\{y\,|\,y=\log_2x,\,x>1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},\,x>1\right\}$, then $A\cap{B}=$ ( ).
+(1) Given the sets $A=\left\{y\,|\,y=\log_2x,x>1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},x>1\right\}$, then $A\cap{B}=$ ( ).
 
 (A) $\left\{y\,|\,0<{}y<\frac{1}{2}\right\}$ (B) $\left\{y\,|\,0<{}y<1\right\}$ (C) $\left\{y\,|\,\frac{1}{2}<{}y<1\right\}$ (D) $\varnothing$
 
@@ -208,13 +208,13 @@ By **Common Conclusion 4.4.4** (Differences in Growth of Different Functions).
 
 By **Formula 5.1.1** (Radian Measure).
 
-(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb{Z}\right\}$. Suitable elements: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
+(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,k\in\mathbb{Z}\right\}$. Suitable elements: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
 
-(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb{Z}\right\}$. Suitable elements: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
+(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,k\in\mathbb{Z}\right\}$. Suitable elements: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
 
-(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb{Z}\right\}$. Suitable elements: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
+(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,k\in\mathbb{Z}\right\}$. Suitable elements: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
 
-(4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb{Z}\right\}$. Suitable elements: $0$, $2\pi$, $-2\pi$. $\blacksquare$
+(4) $S=\left\{\beta\,|\,\beta=2k\pi,k\in\mathbb{Z}\right\}$. Suitable elements: $0$, $2\pi$, $-2\pi$. $\blacksquare$
 
 ## Problem 12
 

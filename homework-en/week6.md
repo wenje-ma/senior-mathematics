@@ -86,7 +86,7 @@ From the perimeter formula, $l=2\left(x+y\right)=2\left(x+\frac{10}{x}\right)$ $
 
 ## Problem 4
 
-(Exercise 3.1, Comprehensive Application, Problem 9) The bottom diameter of a cylindrical container is $d\,\text{cm}$ and the height is $h\,\text{cm}$. Now a certain solution is poured into the container at a rate of $v\,\text{cm}^3$ per second. Find the analytic expression of the function relating the height $x$ (unit: $\text{cm}$) of the solution in the container to the time $t$ (unit: $\text{s}$) of pouring, and write the domain and range of the function.
+(Exercise 3.1, Comprehensive Application, Problem 9) The bottom diameter of a cylindrical container is $d\;\text{cm}$ and the height is $h\;\text{cm}$. Now a certain solution is poured into the container at a rate of $v\;\text{cm}^3$ per second. Find the analytic expression of the function relating the height $x$ (unit: $\text{cm}$) of the solution in the container to the time $t$ (unit: $\text{s}$) of pouring, and write the domain and range of the function.
 
 ### Solution to Problem 4
 
@@ -128,7 +128,7 @@ By **Definition 3.1.2 (Domain and Range)**, read the ranges of the independent v
 
 ## Problem 7
 
-(Exercise 3.1, Comprehensive Application, Problem 12) Draw the graph of a function with domain $\left\{x\mid-3\le{x}\le8,\text{~且~}x\ne5\right\}$ and range $\left\{y\mid-1\le{y}\le2,\,y\ne0\right\}$.
+(Exercise 3.1, Comprehensive Application, Problem 12) Draw the graph of a function with domain $\left\{x\mid-3\le{x}\le8,\text{~且~}x\ne5\right\}$ and range $\left\{y\mid-1\le{y}\le2,y\ne0\right\}$.
 
 (1) Compare your graph with those of other students; is there any difference?
 
@@ -176,11 +176,11 @@ Take free-fall motion: an object falls freely from rest, and the relation betwee
 
 ## Problem 10
 
-(Exercise 3.1, Extension and Exploration, Problem 15) As shown in the figure, the shortest distance from a small island to a point $P$ on the coastline is $2\,\text{km}$, and $12\,\text{km}$ due east along the coastline from the point $P$ there is a town.
+(Exercise 3.1, Extension and Exploration, Problem 15) As shown in the figure, the shortest distance from a small island to a point $P$ on the coastline is $2\;\text{km}$, and $12\;\text{km}$ due east along the coastline from the point $P$ there is a town.
 
-(1) Suppose the average speed of a small boat driven by a person is $3\,\text{km/h}$ and the walking speed is $5\,\text{km/h}$; let $t$ (unit: $\text{h}$) denote the time from the island to the town, and $x$ (unit: $\text{km}$) denote the distance from point $P$ to where this person docks the boat on the shore. Express $t$ as a function of $x$.
+(1) Suppose the average speed of a small boat driven by a person is $3\;\text{km/h}$ and the walking speed is $5\;\text{km/h}$; let $t$ (unit: $\text{h}$) denote the time from the island to the town, and $x$ (unit: $\text{km}$) denote the distance from point $P$ to where this person docks the boat on the shore. Express $t$ as a function of $x$.
 
-(2) If the boat is docked at a point $4\,\text{km}$ from point $P$, how long does it take from the island to the town (accurate to $0.1\,\text{h}$)?
+(2) If the boat is docked at a point $4\;\text{km}$ from point $P$, how long does it take from the island to the town (accurate to $0.1\;\text{h}$)?
 
 (Figure: a horizontal line representing the coastline; point $P$ is on the coastline, the island is $2\,\mathrm{km}$ due north of $P$, and the town is $12\,\mathrm{km}$ due east of $P$ on the coastline; a slanted line runs from the island to a docking point on the coastline at distance $x$ from $P$, then continues along the shore to the town.)
 
@@ -194,7 +194,7 @@ $$
 t=\frac{\sqrt{4+x^2}}{3}+\frac{12-x}{5},\quad{x}\in\left[0,12\right].
 $$
 
-(2) When $x=4$, $t=\frac{\sqrt{4+16}}{3}+\frac{12-4}{5}=\frac{\sqrt{20}}{3}+\frac{8}{5}=\frac{2\sqrt5}{3}+1.6\approx1.49+1.6=3.1\,\text{h}$. $\blacksquare$
+(2) When $x=4$, $t=\frac{\sqrt{4+16}}{3}+\frac{12-4}{5}=\frac{\sqrt{20}}{3}+\frac{8}{5}=\frac{2\sqrt5}{3}+1.6\approx1.49+1.6=3.1\;\text{h}$. $\blacksquare$
 
 ## Problem 11
 

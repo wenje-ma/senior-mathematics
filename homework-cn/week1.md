@@ -182,7 +182,7 @@ $$
 
 由**定义 1.1.6 (列举法)** 与**定义 1.1.7 (描述法)**, 同一集合可换用不同方法表示.
 
-(1) 集合 $\left\{2,4,6,8,10\right\}$ 为不大于 $10$ 的正偶数集, 用描述法表示为 $\left\{x\in\mathbb{N}\mid{x}=2k,\,k=1,2,3,4,5\right\}$.
+(1) 集合 $\left\{2,4,6,8,10\right\}$ 为不大于 $10$ 的正偶数集, 用描述法表示为 $\left\{x\in\mathbb{N}\mid{x}=2k,k=1,2,3,4,5\right\}$.
 
 (2) 该集合元素由 $1,2,3$ 中抽出一部分或全部组成, 列举为 $\left\{1,2,3,12,13,21,23,31,32,123,132,213,231,312,321\right\}$, 用描述法表示为 $\left\{x\mid{x}\text{~由数字~}1,2,3\text{~中若干个不重复地组成}\right\}$.
 
@@ -280,9 +280,9 @@ $$
 
 (1) $A=\left\{x\mid{x}<0\right\}$, $B=\left\{x\mid{x}<1\right\}$;
 
-(2) $A=\left\{x\mid{x}=3k,\,k\in\mathbb{N}\right\}$, $B=\left\{x\mid{x}=6z,\,z\in\mathbb{N}\right\}$;
+(2) $A=\left\{x\mid{x}=3k,k\in\mathbb{N}\right\}$, $B=\left\{x\mid{x}=6z,z\in\mathbb{N}\right\}$;
 
-(3) $A=\left\{x\in\mathbb{N}_+\mid{x}\text{~是~}4\text{~与~}10\text{~的公倍数}\right\}$, $B=\left\{x\mid{x}=20m,\,m\in\mathbb{N}_+\right\}$.
+(3) $A=\left\{x\in\mathbb{N}_+\mid{x}\text{~是~}4\text{~与~}10\text{~的公倍数}\right\}$, $B=\left\{x\mid{x}=20m,m\in\mathbb{N}_+\right\}$.
 
 ### 解答 练习六
 
@@ -292,7 +292,7 @@ $$
 
 (2) 任取 $x\in{B}$, 则 $x=6z=3\left(2z\right)$, 其中 $z\in\mathbb{N}$, 故 $2z\in\mathbb{N}$, 即 $x$ 是 $3$ 的非负整数倍, 故 $x\in{A}$, 从而 $B\subseteq{A}$. 又 $3=3\cdot1\in{A}$, 但 $3$ 不是 $6$ 的非负整数倍, 故 $3\notin{B}$, 故 $B\subsetneq{A}$.
 
-(3) $4$ 与 $10$ 的最小公倍数为 $20$, 故 $4$ 与 $10$ 的正公倍数即为 $20$ 的正整数倍, 即 $A=\left\{x\in\mathbb{N}_+\mid{x}=20m,\,m\in\mathbb{N}_+\right\}=B$, 故 $A=B$. $\blacksquare$
+(3) $4$ 与 $10$ 的最小公倍数为 $20$, 故 $4$ 与 $10$ 的正公倍数即为 $20$ 的正整数倍, 即 $A=\left\{x\in\mathbb{N}_+\mid{x}=20m,m\in\mathbb{N}_+\right\}=B$, 故 $A=B$. $\blacksquare$
 
 ## 习题六
 

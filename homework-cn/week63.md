@@ -193,13 +193,13 @@ $\blacksquare$
 (2) 由**定理 4.2.3 (等差数列通项公式)**, 设五人所得为 $a-2d,a-d,a,a+d,a+2d$.
 
 $$
-5a=100,\,a=20.
+5a=100,a=20.
 $$
 
 较大三份之和 $=\left(a\right)+\left(a+d\right)+\left(a+2d\right)=3a+3d$, 较小两份之和 $=\left(a-2d\right)+\left(a-d\right)=2a-3d$.
 
 $$
-\frac{1}{7}\left(3a+3d\right)=2a-3d,\,3a+3d=14a-21d,\,24d=11a=220,\,d=\frac{55}{6}.
+\frac{1}{7}\left(3a+3d\right)=2a-3d,3a+3d=14a-21d,24d=11a=220,d=\frac{55}{6}.
 $$
 
 最小一份 $a-2d=20-\frac{110}{6}=\frac{10}{6}=\frac{5}{3}$, 选 (A).
@@ -231,7 +231,7 @@ $\blacksquare$
 由**定理 4.3.5 (前 $n$ 项和公式)**,
 
 $$
-S_7=\frac{a_1\left(1-2^7\right)}{1-2}=127a_1=381,\,a_1=3.
+S_7=\frac{a_1\left(1-2^7\right)}{1-2}=127a_1=381,a_1=3.
 $$
 
 顶层共有 $3$ 盏灯.
@@ -245,7 +245,7 @@ $\blacksquare$
 由**定义 4.3.1 (等比数列)**, 用户数构成首项 $2000$, 公比 $1.3$ 的等比数列.
 
 $$
-2000\times1.3^n\ge10000,\,1.3^n\ge5,\,n\ge\log_{1.3}5\approx6.8.
+2000\times1.3^n\ge10000,1.3^n\ge5,n\ge\log_{1.3}5\approx6.8.
 $$
 
 约经过 $7$ 个月.
@@ -265,7 +265,7 @@ S_n=10n+\frac{n\left(n-1\right)}{2}\times10=5n^2+5n=1200.
 $$
 
 $$
-n^2+n-240=0,\,n=15.
+n^2+n-240=0,n=15.
 $$
 
 共进行了 $15$ 天.
@@ -479,11 +479,11 @@ $$
 由 $k=\frac{m+p}{2}$, $\left(\frac{m+p}{2}+1\right)^2=\left(m+1\right)\left(p+1\right)$.
 
 $$
-\frac{\left(m+p+2\right)^2}{4}=mp+m+p+1,\,\left(m+p\right)^2+4\left(m+p\right)+4=4mp+4\left(m+p\right)+4.
+\frac{\left(m+p+2\right)^2}{4}=mp+m+p+1,\left(m+p\right)^2+4\left(m+p\right)+4=4mp+4\left(m+p\right)+4.
 $$
 
 $$
-\left(m-p\right)^2=0,\,m=p.
+\left(m-p\right)^2=0,m=p.
 $$
 
 故 $m=k=p$, 即三项相同, 不存在不同的 $3$ 项成等比数列.

@@ -216,7 +216,7 @@ That is, $13.7\le{t}\le28.7$. Thus about $13.7\,\mathrm{h}$ later the harbor beg
 
 ## Exercise 5
 
-(Exercise 3.1, Problem 1) After a cannonball is fired, it falls to the ground and hits the target after $26\,\text{s}$. The maximum height of the cannonball is $845\,\text{m}$, and the relation between the height $h$ (unit: $\text{m}$) of the cannonball above the ground and the time $t$ (unit: $\text{s}$) is
+(Exercise 3.1, Problem 1) After a cannonball is fired, it falls to the ground and hits the target after $26\;\text{s}$. The maximum height of the cannonball is $845\;\text{m}$, and the relation between the height $h$ (unit: $\text{m}$) of the cannonball above the ground and the time $t$ (unit: $\text{s}$) is
 
 $$
 h=130t-5t^2.
@@ -326,13 +326,13 @@ By **Standard Conclusion 3.1.4** (Judging Whether Two Functions Are the Same), t
 
 ## Exercise 12
 
-(Exercise 3.1, Problem 8) As shown in the figure, a cylindrical log with cross-section radius $25\,\text{cm}$ is sawed into lumber with a rectangular cross-section. If one side of the rectangle has length $x$ (unit: $\text{cm}$) and the area is $y$ (unit: $\text{cm}^2$), express $y$ as a function of $x$.
+(Exercise 3.1, Problem 8) As shown in the figure, a cylindrical log with cross-section radius $25\;\text{cm}$ is sawed into lumber with a rectangular cross-section. If one side of the rectangle has length $x$ (unit: $\text{cm}$) and the area is $y$ (unit: $\text{cm}^2$), express $y$ as a function of $x$.
 
 (Figure: a circle representing the log cross-section, with an inscribed rectangle whose horizontal side is labeled $x$; the rectangle's diagonal equals the circle's diameter; center labeled $O$ and radius labeled $25\,\mathrm{cm}$.)
 
 ### Solution to Exercise 12
 
-By **Definition 3.1.1 (Function)**, the rectangle is inscribed in a circle of radius $25\,\text{cm}$, and the diagonal of the rectangle equals the diameter of the circle, $50\,\text{cm}$.
+By **Definition 3.1.1 (Function)**, the rectangle is inscribed in a circle of radius $25\;\text{cm}$, and the diagonal of the rectangle equals the diameter of the circle, $50\;\text{cm}$.
 
 Let the other side of the rectangle have length $z$. By the Pythagorean theorem, $x^2+z^2=50^2=2500$, so $z=\sqrt{2500-x^2}$. The area of the rectangle is $y=xz=x\sqrt{2500-x^2}$. From $x>0$ and $z>0$, we get $0<{}x<50$. Thus the function is $y=x\sqrt{2500-x^2}$, $x\in\left(0,50\right)$. $\blacksquare$
 
@@ -406,11 +406,11 @@ The remaining graph (C) has the distance increasing over time with the slope gra
 
 (Exercise 3.1, Problem 12) The fare of a "flag-down" bus in a city is set according to the following rules:
 
-(1) within $5\,\text{km}$ (including $5\,\text{km}$), the fare is $2$ yuan;
+(1) within $5\;\text{km}$ (including $5\;\text{km}$), the fare is $2$ yuan;
 
-(2) above $5\,\text{km}$, for each additional $5\,\text{km}$, the fare increases by $1$ yuan (less than $5\,\text{km}$ is counted as $5\,\text{km}$).
+(2) above $5\;\text{km}$, for each additional $5\;\text{km}$, the fare increases by $1$ yuan (less than $5\;\text{km}$ is counted as $5\;\text{km}$).
 
-If the total mileage of a certain route is $20\,\text{km}$, according to the problem, write the analytic expression of the function between the fare and the mileage, and draw the graph of the function.
+If the total mileage of a certain route is $20\;\text{km}$, according to the problem, write the analytic expression of the function between the fare and the mileage, and draw the graph of the function.
 
 (Figure: a fare-mileage coordinate system with mileage $x$ (km) on the horizontal axis and fare $y$ (yuan) on the vertical axis; four horizontal segments: $y=2$ on $\left(0,5\right]$, $y=3$ on $\left(5,10\right]$, $y=4$ on $\left(10,15\right]$, $y=5$ on $\left(15,20\right]$, each with a solid dot at the left endpoint and an open dot at the right endpoint.)
 

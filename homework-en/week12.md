@@ -118,12 +118,12 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), add to or subtr
 
 ### Solution to Exercise 5
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$.
+By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$.
 
 (1) From $1303^{\circ}18'=3\times360^{\circ}+223^{\circ}18'$, we know the set of angles with the same terminal side as $1303^{\circ}18'$ is
 
 $$
-S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},k\in\mathbb{Z}\right\}.
 $$
 
 From $-720^{\circ}\le\beta<360^{\circ}$, i.e. $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}<360^{\circ}$, solving gives $k=-2,-1,0$. When $k=-2$, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; when $k=-1$, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; when $k=0$, $\beta=223^{\circ}18'$. Therefore the elements satisfying the inequality are $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
@@ -131,7 +131,7 @@ From $-720^{\circ}\le\beta<360^{\circ}$, i.e. $-720^{\circ}\le223^{\circ}18'+k\c
 (2) The set of angles with the same terminal side as $-225^{\circ}$ is
 
 $$
-S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}.
 $$
 
 From $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}<360^{\circ}$, solving gives $k=0,1$. When $k=0$, $\beta=-225^{\circ}$; when $k=1$, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. Therefore the elements satisfying the inequality are $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
@@ -216,9 +216,9 @@ $\blacksquare$
 
 By **Standard Conclusion** (Angles with the Same Terminal Side) and $180^{\circ}=\pi\,\mathrm{rad}$, $360^{\circ}=2\pi\,\mathrm{rad}$.
 
-(1) For angles whose terminal side lies on the $x$-axis, their terminal side coincides with that of $0$ or $\pi$. The angles with the same terminal side as $0$ are $2k\pi$, and the angles with the same terminal side as $\pi$ are $\pi+2k\pi$, which merge into $n\pi$ ($n\in\mathbb{Z}$). Therefore the set of angles whose terminal side lies on the $x$-axis is $\left\{\beta\mid\beta=n\pi,\,n\in\mathbb{Z}\right\}$.
+(1) For angles whose terminal side lies on the $x$-axis, their terminal side coincides with that of $0$ or $\pi$. The angles with the same terminal side as $0$ are $2k\pi$, and the angles with the same terminal side as $\pi$ are $\pi+2k\pi$, which merge into $n\pi$ ($n\in\mathbb{Z}$). Therefore the set of angles whose terminal side lies on the $x$-axis is $\left\{\beta\mid\beta=n\pi,n\in\mathbb{Z}\right\}$.
 
-(2) For angles whose terminal side lies on the $y$-axis, their terminal side coincides with that of $\frac{\pi}{2}$ or $\frac{3\pi}{2}$. The angles with the same terminal side as $\frac{\pi}{2}$ are $\frac{\pi}{2}+2k\pi$, and the angles with the same terminal side as $\frac{3\pi}{2}$ are $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, which merge into $\frac{\pi}{2}+n\pi$ ($n\in\mathbb{Z}$). Therefore the set of angles whose terminal side lies on the $y$-axis is $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\,n\in\mathbb{Z}\right\}$. $\blacksquare$
+(2) For angles whose terminal side lies on the $y$-axis, their terminal side coincides with that of $\frac{\pi}{2}$ or $\frac{3\pi}{2}$. The angles with the same terminal side as $\frac{\pi}{2}$ are $\frac{\pi}{2}+2k\pi$, and the angles with the same terminal side as $\frac{3\pi}{2}$ are $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, which merge into $\frac{\pi}{2}+n\pi$ ($n\in\mathbb{Z}$). Therefore the set of angles whose terminal side lies on the $y$-axis is $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,n\in\mathbb{Z}\right\}$. $\blacksquare$
 
 ## Exercise 9
 
@@ -320,23 +320,23 @@ By **Standard Conclusion** (Angles with the Same Terminal Side), reduce to an an
 
 ### Solution to Problem 3
 
-By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$.
+By **Standard Conclusion** (Angles with the Same Terminal Side), the set of angles with the same terminal side as the angle $\alpha$ is $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$.
 
-(1) The set of angles with the same terminal side as $60^{\circ}$ is $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-300^{\circ}$; when $k=0$, $\beta=60^{\circ}$. Therefore the suitable elements are $-300^{\circ}$, $60^{\circ}$.
+(1) The set of angles with the same terminal side as $60^{\circ}$ is $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-300^{\circ}$; when $k=0$, $\beta=60^{\circ}$. Therefore the suitable elements are $-300^{\circ}$, $60^{\circ}$.
 
-(2) The set of angles with the same terminal side as $-75^{\circ}$ is $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=0,1$. When $k=0$, $\beta=-75^{\circ}$; when $k=1$, $\beta=285^{\circ}$. Therefore the suitable elements are $-75^{\circ}$, $285^{\circ}$.
+(2) The set of angles with the same terminal side as $-75^{\circ}$ is $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=0,1$. When $k=0$, $\beta=-75^{\circ}$; when $k=1$, $\beta=285^{\circ}$. Therefore the suitable elements are $-75^{\circ}$, $285^{\circ}$.
 
-(3) From $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, the set of angles with the same terminal side as $-824^{\circ}30'$ is $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-104^{\circ}30'$; when $k=0$, $\beta=255^{\circ}30'$. Therefore the suitable elements are $-104^{\circ}30'$, $255^{\circ}30'$.
+(3) From $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, the set of angles with the same terminal side as $-824^{\circ}30'$ is $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-104^{\circ}30'$; when $k=0$, $\beta=255^{\circ}30'$. Therefore the suitable elements are $-104^{\circ}30'$, $255^{\circ}30'$.
 
-(4) From $475^{\circ}=360^{\circ}+115^{\circ}$, the set of angles with the same terminal side as $475^{\circ}$ is $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-245^{\circ}$; when $k=0$, $\beta=115^{\circ}$. Therefore the suitable elements are $-245^{\circ}$, $115^{\circ}$.
+(4) From $475^{\circ}=360^{\circ}+115^{\circ}$, the set of angles with the same terminal side as $475^{\circ}$ is $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-245^{\circ}$; when $k=0$, $\beta=115^{\circ}$. Therefore the suitable elements are $-245^{\circ}$, $115^{\circ}$.
 
-(5) The set of angles with the same terminal side as $90^{\circ}$ is $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-270^{\circ}$; when $k=0$, $\beta=90^{\circ}$. Therefore the suitable elements are $-270^{\circ}$, $90^{\circ}$.
+(5) The set of angles with the same terminal side as $90^{\circ}$ is $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-270^{\circ}$; when $k=0$, $\beta=90^{\circ}$. Therefore the suitable elements are $-270^{\circ}$, $90^{\circ}$.
 
-(6) The set of angles with the same terminal side as $270^{\circ}$ is $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-90^{\circ}$; when $k=0$, $\beta=270^{\circ}$. Therefore the suitable elements are $-90^{\circ}$, $270^{\circ}$.
+(6) The set of angles with the same terminal side as $270^{\circ}$ is $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-90^{\circ}$; when $k=0$, $\beta=270^{\circ}$. Therefore the suitable elements are $-90^{\circ}$, $270^{\circ}$.
 
-(7) The set of angles with the same terminal side as $180^{\circ}$ is $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-180^{\circ}$; when $k=0$, $\beta=180^{\circ}$. Therefore the suitable elements are $-180^{\circ}$, $180^{\circ}$.
+(7) The set of angles with the same terminal side as $180^{\circ}$ is $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-180^{\circ}$; when $k=0$, $\beta=180^{\circ}$. Therefore the suitable elements are $-180^{\circ}$, $180^{\circ}$.
 
-(8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le{k}\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
+(8) The set of angles with the same terminal side as $0^{\circ}$ is $S=\left\{\beta\mid\beta=k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. From $-360^{\circ}\le{k}\cdot360^{\circ}<360^{\circ}$, we get $k=-1,0$. When $k=-1$, $\beta=-360^{\circ}$; when $k=0$, $\beta=0^{\circ}$. Therefore the suitable elements are $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
 
 ## Problem 4
 
@@ -349,49 +349,49 @@ By **Definition 5.1.2 (Quadrant Angle)**, angles whose terminal side lies on a c
 (1) First-quadrant angles: the terminal side lies between $0^{\circ}$ and $90^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid{k}\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid{k}\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid2k\pi<\beta<\frac{\pi}{2}+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid2k\pi<\beta<\frac{\pi}{2}+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 (2) Second-quadrant angles: the terminal side lies between $90^{\circ}$ and $180^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid\frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 (3) Third-quadrant angles: the terminal side lies between $180^{\circ}$ and $270^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid\pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 (4) Fourth-quadrant angles: the terminal side lies between $270^{\circ}$ and $360^{\circ}$ (excluding the boundaries), expressed in degrees as
 
 $$
-S=\left\{\beta\mid270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 and expressed in radians as
 
 $$
-S=\left\{\beta\mid\frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 $\blacksquare$

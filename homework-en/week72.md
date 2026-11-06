@@ -311,7 +311,7 @@ Therefore choose ($\mathrm{C}$). $\blacksquare$
 (Review Reference Exercise 8, Review and Consolidation, Problem 2) From the paired sample data of the variables $Y$ and $x$, the simple linear regression model
 
 $$
-\begin{cases}Y=bx+a+e,\\E\left(e\right)=0,\,D\left(e\right)=\sigma^2\end{cases}
+\begin{cases}Y=bx+a+e,\\E\left(e\right)=0,D\left(e\right)=\sigma^2\end{cases}
 $$
 
 gives the empirical regression model $\widehat{y}=\widehat{b}x+\widehat{a}$, with the corresponding residuals shown in the figure. The model error ( ).

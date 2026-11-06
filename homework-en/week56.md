@@ -92,22 +92,22 @@ $\blacksquare$
 
 (Exercise 4.2, Problem 3) Given that $\left\{a_n\right\}$ is an arithmetic sequence, fill in the blanks in the following table with appropriate numbers
 
-First row: $a_1=-7,\,a_3=\underline{\quad},\,a_5=8,\,a_7=\underline{\quad},\,d=\underline{\quad}$;
+First row: $a_1=-7,a_3=\underline{\quad},a_5=8,a_7=\underline{\quad},d=\underline{\quad}$;
 
-Second row: $a_1=\underline{\quad},\,a_3=2,\,a_5=\underline{\quad},\,a_7=\underline{\quad},\,d=-6.5$.
+Second row: $a_1=\underline{\quad},a_3=2,a_5=\underline{\quad},a_7=\underline{\quad},d=-6.5$.
 
 ### Solution to Exercise 1
 
 First row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_5=a_1+4d$, i.e. $8=-7+4d$, so $d=\frac{15}{4}=3.75$.
 
 $$
-a_3=-7+2\times3.75=0.5,\,a_7=-7+6\times3.75=15.5.
+a_3=-7+2\times3.75=0.5,a_7=-7+6\times3.75=15.5.
 $$
 
 Second row: By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_3=a_1+2d$, i.e. $2=a_1+2\times\left(-6.5\right)$, so $a_1=15$.
 
 $$
-a_5=15+4\times\left(-6.5\right)=-11,\,a_7=15+6\times\left(-6.5\right)=-24.
+a_5=15+4\times\left(-6.5\right)=-11,a_7=15+6\times\left(-6.5\right)=-24.
 $$
 
 $\blacksquare$
@@ -133,13 +133,13 @@ $\blacksquare$
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, let the first term be $a_1=7$ and the $5$th term be $a_5=21$, then
 
 $$
-a_5=a_1+4d,\,21=7+4d,\,d=\frac{14}{4}=3.5.
+a_5=a_1+4d,21=7+4d,d=\frac{14}{4}=3.5.
 $$
 
 The $3$ inserted numbers are
 
 $$
-a_2=7+3.5=10.5,\,a_3=10.5+3.5=14,\,a_4=14+3.5=17.5.
+a_2=7+3.5=10.5,a_3=10.5+3.5=14,a_4=14+3.5=17.5.
 $$
 
 $\blacksquare$
@@ -175,7 +175,7 @@ The figure is a scatter plot of the sequence $a_n=\begin{cases}18,&n=1\\a_{n-1}-
 By **Definition 4.1.6 (Recurrence Formula)**, compute term by term.
 
 $$
-a_1=18,\,a_2=15,\,a_3=12,\,a_4=9,\,a_5=6,\,a_6=3.
+a_1=18,a_2=15,a_3=12,a_4=9,a_5=6,a_6=3.
 $$
 
 By **Common Conclusion 4.2.4** (Arithmetic Sequences and Linear Functions), all points lie on the line $y=21-3x$, whose slope is $-3$.
@@ -189,7 +189,7 @@ $\blacksquare$
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
-a_n=a_1+\left(n-1\right)d=m,\,a_m=a_1+\left(m-1\right)d=n.
+a_n=a_1+\left(n-1\right)d=m,a_m=a_1+\left(m-1\right)d=n.
 $$
 
 Subtracting the two equations gives $\left(n-m\right)d=m-n$, hence $d=-1$.
@@ -238,13 +238,13 @@ $\blacksquare$
 
 (Exercise 4.2, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding arithmetic sequence $\left\{a_n\right\}$
 
-(1) $a_1=5,\,a_n=-23,\,n=8$;
+(1) $a_1=5,a_n=-23,n=8$;
 
-(2) $a_1=-4,\,d=4,\,n=10$;
+(2) $a_1=-4,d=4,n=10$;
 
-(3) $a_1=14.5,\,d=0.7,\,a_n=32$;
+(3) $a_1=14.5,d=0.7,a_n=32$;
 
-(4) $a_3=14.5,\,d=0.7,\,a_n=32$.
+(4) $a_3=14.5,d=0.7,a_n=32$.
 
 ### Solution to Exercise 3
 
@@ -309,7 +309,7 @@ $\blacksquare$
 By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-S_4=4a_1+6d=6,\,S_8=8a_1+28d=20.
+S_4=4a_1+6d=6,S_8=8a_1+28d=20.
 $$
 
 Solving gives $a_1=\frac{3}{4}$ and $d=\frac{1}{2}$.
@@ -345,7 +345,7 @@ $\blacksquare$
 Let the number of terms be $2n+1$. By **Theorem 4.2.5 (Properties of Arithmetic Sequences)**, the sum of the odd-positioned terms is $\left(n+1\right)a_{n+1}$ and the sum of the even-positioned terms is $na_{n+1}$.
 
 $$
-\left(n+1\right)a_{n+1}=44,\,na_{n+1}=33.
+\left(n+1\right)a_{n+1}=44,na_{n+1}=33.
 $$
 
 Dividing the two equations, $\frac{n+1}{n}=\frac{44}{33}=\frac{4}{3}$, gives $n=3$.
@@ -408,7 +408,7 @@ The minimum value of $S_n$ is $-19.8$, corresponding to $n=9$.
 
 $\blacksquare$
 
-(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid{m}=2n-1,\,n\in\mathbb{N}^*,\,m<60\right\}$, and find the sum of these elements
+(Exercise 4.2, Problem 4) Find the number of elements in the set $M=\left\{m\mid{m}=2n-1,n\in\mathbb{N}^*,m<60\right\}$, and find the sum of these elements
 
 ### Solution to Exercise 4
 
@@ -453,7 +453,7 @@ $\blacksquare$
 (1) By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)** and **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-a_1+3\left(n-1\right)=21,\,na_1+\frac{3n\left(n-1\right)}{2}=60.
+a_1+3\left(n-1\right)=21,na_1+\frac{3n\left(n-1\right)}{2}=60.
 $$
 
 From the first equation, $a_1=24-3n$; substituting into the second gives $n\left(24-3n\right)+\frac{3n\left(n-1\right)}{2}=60$, and solving yields $n=5$, $a_1=9$.
@@ -463,7 +463,7 @@ $\blacksquare$
 (2) By **Theorem 4.2.7 (Sum of the First $n$ Terms, Formula II)**,
 
 $$
-6n-n\left(n-1\right)=-60,\,n^2-7n-60=0,\,n=12.
+6n-n\left(n-1\right)=-60,n^2-7n-60=0,n=12.
 $$
 
 $$
@@ -475,7 +475,7 @@ $\blacksquare$
 (3) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
-\frac{n\left(8-2\right)}{2}=-30,\,3n=-30,\,n=-10.
+\frac{n\left(8-2\right)}{2}=-30,3n=-30,n=-10.
 $$
 
 This does not fit the problem; check: $\frac{n\left(8+\left(-2\right)\right)}{2}=-30$, $3n=-30$, $n=-10$, which is unreasonable. Recalculating: $S_n=\frac{n\left(a_1+a_n\right)}{2}=\frac{n\left(8-2\right)}{2}=3n=-30$, giving $n=-10$, with no positive integer solution.
@@ -485,7 +485,7 @@ $\blacksquare$
 (4) By **Theorem 4.2.6 (Sum of the First $n$ Terms, Formula I)**,
 
 $$
-\frac{7\left(a_1-0.6\right)}{2}=-3.5,\,a_1-0.6=-1,\,a_1=-0.4.
+\frac{7\left(a_1-0.6\right)}{2}=-3.5,a_1-0.6=-1,a_1=-0.4.
 $$
 
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $-0.6=-0.4+6d$, so $d=-\frac{0.2}{6}=-\frac{1}{30}$.
@@ -559,7 +559,7 @@ By **Definition 4.2.1 (Arithmetic Sequence)**, the first term is $1986$ and the 
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**, $a_n=1986+76\left(n-1\right)\le3000$.
 
 $$
-76\left(n-1\right)\le1014,\,n-1\le13.34,\,n\le14.34.
+76\left(n-1\right)\le1014,n-1\le13.34,n\le14.34.
 $$
 
 Hence it appears $14$ times in total.
@@ -581,7 +581,7 @@ $$
 Also, $a_1=44-3\left(n-1\right)$; substituting,
 
 $$
-\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\,n\left(91-3n\right)=316,\,3n^2-91n+316=0.
+\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,n\left(91-3n\right)=316,3n^2-91n+316=0.
 $$
 
 Solving gives $n=4$ or $n=\frac{79}{3}$ (discarded), so the number of sides is $4$.
@@ -671,11 +671,11 @@ $\blacksquare$
 By **Theorem 4.2.3 (General Term Formula of an Arithmetic Sequence)**,
 
 $$
-a_m=a_1+\left(m-1\right)d,\,a_n=a_1+\left(n-1\right)d.
+a_m=a_1+\left(m-1\right)d,a_n=a_1+\left(n-1\right)d.
 $$
 
 $$
-a_m-a_n=\left(m-n\right)d,\,\frac{a_m-a_n}{m-n}=d.
+a_m-a_n=\left(m-n\right)d,\frac{a_m-a_n}{m-n}=d.
 $$
 
 $\blacksquare$
@@ -713,7 +713,7 @@ $\blacksquare$
 (1) By **Definition 4.1.5 (General Term Formula)**, the numbers of balls in the layers are $1,3,6,10,\cdots$, the differences between adjacent layers are $2,3,4,\cdots$, and the $n$th layer has $\frac{n\left(n+1\right)}{2}$ balls.
 
 $$
-\text{第五层}=\frac{5\times6}{2}=15,\,\text{第六层}=\frac{6\times7}{2}=21.
+\text{第五层}=\frac{5\times6}{2}=15,\text{第六层}=\frac{6\times7}{2}=21.
 $$
 
 $\blacksquare$

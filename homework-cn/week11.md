@@ -144,12 +144,12 @@
 
 ### 解答 练习五
 
-由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$.
+由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$.
 
 (1) 由 $1303^{\circ}18'=3\times360^{\circ}+223^{\circ}18'$, 知与 $1303^{\circ}18'$ 终边相同的角的集合为
 
 $$
-S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\beta=223^{\circ}18'+k\cdot360^{\circ},k\in\mathbb{Z}\right\}.
 $$
 
 由 $-720^{\circ}\le\beta<360^{\circ}$, 即 $-720^{\circ}\le223^{\circ}18'+k\cdot360^{\circ}<360^{\circ}$, 解得 $k=-2,-1,0$. 当 $k=-2$ 时, $\beta=223^{\circ}18'-720^{\circ}=-496^{\circ}42'$; 当 $k=-1$ 时, $\beta=223^{\circ}18'-360^{\circ}=-136^{\circ}42'$; 当 $k=0$ 时, $\beta=223^{\circ}18'$. 故适合不等式的元素为 $-496^{\circ}42'$, $-136^{\circ}42'$, $223^{\circ}18'$.
@@ -157,7 +157,7 @@ $$
 (2) 与 $-225^{\circ}$ 终边相同的角的集合为
 
 $$
-S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\beta=-225^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}.
 $$
 
 由 $-720^{\circ}\le-225^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 解得 $k=0,1$. 当 $k=0$ 时, $\beta=-225^{\circ}$; 当 $k=1$ 时, $\beta=-225^{\circ}+360^{\circ}=135^{\circ}$. 故适合不等式的元素为 $-225^{\circ}$, $135^{\circ}$. $\blacksquare$
@@ -242,9 +242,9 @@ $\blacksquare$
 
 由**常用结论** (终边相同的角) 及 $180^{\circ}=\pi\,\mathrm{rad}$, $360^{\circ}=2\pi\,\mathrm{rad}$.
 
-(1) 终边在 $x$ 轴上的角, 其终边与 $0$ 或 $\pi$ 的终边重合. 与 $0$ 终边相同的角为 $2k\pi$, 与 $\pi$ 终边相同的角为 $\pi+2k\pi$, 合并为 $n\pi$ ($n\in\mathbb{Z}$). 故终边在 $x$ 轴上的角的集合为 $\left\{\beta\mid\beta=n\pi,\,n\in\mathbb{Z}\right\}$.
+(1) 终边在 $x$ 轴上的角, 其终边与 $0$ 或 $\pi$ 的终边重合. 与 $0$ 终边相同的角为 $2k\pi$, 与 $\pi$ 终边相同的角为 $\pi+2k\pi$, 合并为 $n\pi$ ($n\in\mathbb{Z}$). 故终边在 $x$ 轴上的角的集合为 $\left\{\beta\mid\beta=n\pi,n\in\mathbb{Z}\right\}$.
 
-(2) 终边在 $y$ 轴上的角, 其终边与 $\frac{\pi}{2}$ 或 $\frac{3\pi}{2}$ 的终边重合. 与 $\frac{\pi}{2}$ 终边相同的角为 $\frac{\pi}{2}+2k\pi$, 与 $\frac{3\pi}{2}$ 终边相同的角为 $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, 合并为 $\frac{\pi}{2}+n\pi$ ($n\in\mathbb{Z}$). 故终边在 $y$ 轴上的角的集合为 $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,\,n\in\mathbb{Z}\right\}$. $\blacksquare$
+(2) 终边在 $y$ 轴上的角, 其终边与 $\frac{\pi}{2}$ 或 $\frac{3\pi}{2}$ 的终边重合. 与 $\frac{\pi}{2}$ 终边相同的角为 $\frac{\pi}{2}+2k\pi$, 与 $\frac{3\pi}{2}$ 终边相同的角为 $\frac{3\pi}{2}+2k\pi=\frac{\pi}{2}+\left(2k+1\right)\pi$, 合并为 $\frac{\pi}{2}+n\pi$ ($n\in\mathbb{Z}$). 故终边在 $y$ 轴上的角的集合为 $\left\{\beta\mid\beta=\frac{\pi}{2}+n\pi,n\in\mathbb{Z}\right\}$. $\blacksquare$
 
 ## 练习九
 
@@ -346,23 +346,23 @@ $\blacksquare$
 
 ### 解答 习题五
 
-由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$.
+由**常用结论** (终边相同的角), 与角 $\alpha$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=\alpha+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$.
 
-(1) 与 $60^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-300^{\circ}$; 当 $k=0$ 时, $\beta=60^{\circ}$. 故适合的元素为 $-300^{\circ}$, $60^{\circ}$.
+(1) 与 $60^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=60^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le60^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-300^{\circ}$; 当 $k=0$ 时, $\beta=60^{\circ}$. 故适合的元素为 $-300^{\circ}$, $60^{\circ}$.
 
-(2) 与 $-75^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=0,1$. 当 $k=0$ 时, $\beta=-75^{\circ}$; 当 $k=1$ 时, $\beta=285^{\circ}$. 故适合的元素为 $-75^{\circ}$, $285^{\circ}$.
+(2) 与 $-75^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=-75^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le-75^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=0,1$. 当 $k=0$ 时, $\beta=-75^{\circ}$; 当 $k=1$ 时, $\beta=285^{\circ}$. 故适合的元素为 $-75^{\circ}$, $285^{\circ}$.
 
-(3) 由 $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, 与 $-824^{\circ}30'$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-104^{\circ}30'$; 当 $k=0$ 时, $\beta=255^{\circ}30'$. 故适合的元素为 $-104^{\circ}30'$, $255^{\circ}30'$.
+(3) 由 $-824^{\circ}30'=-3\times360^{\circ}+255^{\circ}30'$, 与 $-824^{\circ}30'$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=255^{\circ}30'+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le255^{\circ}30'+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-104^{\circ}30'$; 当 $k=0$ 时, $\beta=255^{\circ}30'$. 故适合的元素为 $-104^{\circ}30'$, $255^{\circ}30'$.
 
-(4) 由 $475^{\circ}=360^{\circ}+115^{\circ}$, 与 $475^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-245^{\circ}$; 当 $k=0$ 时, $\beta=115^{\circ}$. 故适合的元素为 $-245^{\circ}$, $115^{\circ}$.
+(4) 由 $475^{\circ}=360^{\circ}+115^{\circ}$, 与 $475^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=115^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le115^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-245^{\circ}$; 当 $k=0$ 时, $\beta=115^{\circ}$. 故适合的元素为 $-245^{\circ}$, $115^{\circ}$.
 
-(5) 与 $90^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-270^{\circ}$; 当 $k=0$ 时, $\beta=90^{\circ}$. 故适合的元素为 $-270^{\circ}$, $90^{\circ}$.
+(5) 与 $90^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=90^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le90^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-270^{\circ}$; 当 $k=0$ 时, $\beta=90^{\circ}$. 故适合的元素为 $-270^{\circ}$, $90^{\circ}$.
 
-(6) 与 $270^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-90^{\circ}$; 当 $k=0$ 时, $\beta=270^{\circ}$. 故适合的元素为 $-90^{\circ}$, $270^{\circ}$.
+(6) 与 $270^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=270^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le270^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-90^{\circ}$; 当 $k=0$ 时, $\beta=270^{\circ}$. 故适合的元素为 $-90^{\circ}$, $270^{\circ}$.
 
-(7) 与 $180^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-180^{\circ}$; 当 $k=0$ 时, $\beta=180^{\circ}$. 故适合的元素为 $-180^{\circ}$, $180^{\circ}$.
+(7) 与 $180^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=180^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le180^{\circ}+k\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-180^{\circ}$; 当 $k=0$ 时, $\beta=180^{\circ}$. 故适合的元素为 $-180^{\circ}$, $180^{\circ}$.
 
-(8) 与 $0^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=k\cdot360^{\circ},\,k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le{k}\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-360^{\circ}$; 当 $k=0$ 时, $\beta=0^{\circ}$. 故适合的元素为 $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
+(8) 与 $0^{\circ}$ 终边相同的角的集合为 $S=\left\{\beta\mid\beta=k\cdot360^{\circ},k\in\mathbb{Z}\right\}$. 由 $-360^{\circ}\le{k}\cdot360^{\circ}<360^{\circ}$, 得 $k=-1,0$. 当 $k=-1$ 时, $\beta=-360^{\circ}$; 当 $k=0$ 时, $\beta=0^{\circ}$. 故适合的元素为 $-360^{\circ}$, $0^{\circ}$. $\blacksquare$
 
 ## 习题六
 
@@ -375,49 +375,49 @@ $\blacksquare$
 (1) 第一象限角: 终边在 $0^{\circ}$ 到 $90^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid{k}\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid{k}\cdot360^{\circ}<\beta<90^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid2k\pi<\beta<\frac{\pi}{2}+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid2k\pi<\beta<\frac{\pi}{2}+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 (2) 第二象限角: 终边在 $90^{\circ}$ 到 $180^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid90^{\circ}+k\cdot360^{\circ}<\beta<180^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid\frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\frac{\pi}{2}+2k\pi<\beta<\pi+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 (3) 第三象限角: 终边在 $180^{\circ}$ 到 $270^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid180^{\circ}+k\cdot360^{\circ}<\beta<270^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid\pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\pi+2k\pi<\beta<\frac{3\pi}{2}+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 (4) 第四象限角: 终边在 $270^{\circ}$ 到 $360^{\circ}$ 之间 (不含边界), 角度表示为
 
 $$
-S=\left\{\beta\mid270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},\,k\in\mathbb{Z}\right\},
+S=\left\{\beta\mid270^{\circ}+k\cdot360^{\circ}<\beta<360^{\circ}+k\cdot360^{\circ},k\in\mathbb{Z}\right\},
 $$
 
 弧度表示为
 
 $$
-S=\left\{\beta\mid\frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,\,k\in\mathbb{Z}\right\}.
+S=\left\{\beta\mid\frac{3\pi}{2}+2k\pi<\beta<2\pi+2k\pi,k\in\mathbb{Z}\right\}.
 $$
 
 $\blacksquare$

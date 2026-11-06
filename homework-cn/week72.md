@@ -437,7 +437,7 @@ $$
 (复习参考题8 复习巩固第 2 题) 根据变量 $Y$ 和 $x$ 的成对样本数据, 由一元线性回归模型
 
 $$
-\begin{cases}Y=bx+a+e,\\E\left(e\right)=0,\,D\left(e\right)=\sigma^2\end{cases}
+\begin{cases}Y=bx+a+e,\\E\left(e\right)=0,D\left(e\right)=\sigma^2\end{cases}
 $$
 
 得到经验回归模型 $\widehat{y}=\widehat{b}x+\widehat{a}$, 对应的残差如图所示. 模型误差 ( ).

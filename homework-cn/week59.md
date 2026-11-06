@@ -159,7 +159,7 @@ $\blacksquare$
 由**定义 4.1.5 (通项公式)**,
 
 $$
-S_1=\frac{1}{1\times2}=\frac{1}{2},\,S_2=\frac{1}{2}+\frac{1}{2\times3}=\frac{2}{3},\,S_3=\frac{2}{3}+\frac{1}{3\times4}=\frac{3}{4}.
+S_1=\frac{1}{1\times2}=\frac{1}{2},S_2=\frac{1}{2}+\frac{1}{2\times3}=\frac{2}{3},S_3=\frac{2}{3}+\frac{1}{3\times4}=\frac{3}{4}.
 $$
 
 推测 $S_n=\frac{n}{n+1}$.
@@ -211,7 +211,7 @@ $\blacksquare$
 由 $2a_{n+1}-a_na_{n+1}=1$, 得 $a_{n+1}=\frac{1}{2-a_n}$.
 
 $$
-a_2=\frac{1}{2-a},\,a_3=\frac{1}{2-\frac{1}{2-a}}=\frac{2-a}{3-2a},\,a_4=\frac{3-2a}{4-3a}.
+a_2=\frac{1}{2-a},a_3=\frac{1}{2-\frac{1}{2-a}}=\frac{2-a}{3-2a},a_4=\frac{3-2a}{4-3a}.
 $$
 
 猜想 $a_n=\frac{\left(n-1\right)-\left(n-2\right)a}{n-\left(n-1\right)a}$.
@@ -305,7 +305,7 @@ $\blacksquare$
 由 $4a_{n+1}-a_na_{n+1}+2a_n=9$, 得 $a_{n+1}=\frac{9-2a_n}{4-a_n}$.
 
 $$
-a_2=\frac{9-2}{4-1}=\frac{7}{3},\,a_3=\frac{9-\frac{14}{3}}{4-\frac{7}{3}}=\frac{13}{5},\,a_4=\frac{9-\frac{26}{5}}{4-\frac{13}{5}}=\frac{19}{7}.
+a_2=\frac{9-2}{4-1}=\frac{7}{3},a_3=\frac{9-\frac{14}{3}}{4-\frac{7}{3}}=\frac{13}{5},a_4=\frac{9-\frac{26}{5}}{4-\frac{13}{5}}=\frac{19}{7}.
 $$
 
 观察 $1=\frac{1}{1},\frac{7}{3},\frac{13}{5},\frac{19}{7}$, 分子为 $1,7,13,19$, 公差 $6$; 分母为 $1,3,5,7$, 公差 $2$.
@@ -333,7 +333,7 @@ $\blacksquare$
 ### 解答 习题一
 
 $$
-S_1=\frac{1}{1\times4}=\frac{1}{4},\,S_2=\frac{1}{4}+\frac{1}{4\times7}=\frac{2}{7},\,S_3=\frac{2}{7}+\frac{1}{7\times10}=\frac{3}{10},\,S_4=\frac{3}{10}+\frac{1}{10\times13}=\frac{4}{13}.
+S_1=\frac{1}{1\times4}=\frac{1}{4},S_2=\frac{1}{4}+\frac{1}{4\times7}=\frac{2}{7},S_3=\frac{2}{7}+\frac{1}{7\times10}=\frac{3}{10},S_4=\frac{3}{10}+\frac{1}{10\times13}=\frac{4}{13}.
 $$
 
 猜想 $S_n=\frac{n}{3n+1}$.

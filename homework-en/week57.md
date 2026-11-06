@@ -80,22 +80,22 @@ $\blacksquare$
 
 (Exercise 4.3, Problem 2) Given that $\left\{a_n\right\}$ is a geometric sequence with common ratio $q$, fill in the following table with appropriate numbers
 
-First row: $a_1=2,\,a_3=\underline{\quad},\,a_5=8,\,a_7=\underline{\quad},\,q=\underline{\quad}$;
+First row: $a_1=2,a_3=\underline{\quad},a_5=8,a_7=\underline{\quad},q=\underline{\quad}$;
 
-Second row: $a_1=\underline{\quad},\,a_3=2,\,a_5=\underline{\quad},\,a_7=\underline{\quad},\,q=0.2$.
+Second row: $a_1=\underline{\quad},a_3=2,a_5=\underline{\quad},a_7=\underline{\quad},q=0.2$.
 
 ### Solution to Exercise 1
 
 First row: By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_5=a_1q^4$, i.e. $8=2q^4$, so $q^4=4$, $q^2=2$, $q=\pm\sqrt{2}$.
 
 $$
-a_3=2q^2=4,\,a_7=a_5q^2=8\times2=16.
+a_3=2q^2=4,a_7=a_5q^2=8\times2=16.
 $$
 
 Second row: By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_3=a_1q^2$, i.e. $2=a_1\times0.04$, so $a_1=50$.
 
 $$
-a_5=a_3q^2=2\times0.04=0.08,\,a_7=a_5q^2=0.08\times0.04=0.0032.
+a_5=a_3q^2=2\times0.04=0.08,a_7=a_5q^2=0.08\times0.04=0.0032.
 $$
 
 $\blacksquare$
@@ -225,7 +225,7 @@ $\blacksquare$
 Let the average annual growth rate be $r$. By **Definition 4.3.1 (Geometric Sequence)**,
 
 $$
-105\left(1+r\right)^2=240,\,\left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},\,1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
+105\left(1+r\right)^2=240,\left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
 $$
 
 $$
@@ -256,11 +256,11 @@ $\blacksquare$
 
 (Exercise 4.3, Problem 1) Under the conditions given in each part, find the sum $S_n$ of the first $n$ terms of the corresponding geometric sequence $\left\{a_n\right\}$
 
-(1) $a_1=4,\,q=-\frac{1}{2},\,n=8$;
+(1) $a_1=4,q=-\frac{1}{2},n=8$;
 
-(2) $a_1=1,\,a_n=2048,\,q=2$;
+(2) $a_1=1,a_n=2048,q=2$;
 
-(3) $a_1=1,\,q=2,\,S_n=1023$.
+(3) $a_1=1,q=2,S_n=1023$.
 
 ### Solution to Exercise 3
 
@@ -283,7 +283,7 @@ $\blacksquare$
 (3) By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
-1023=\frac{1-2^n}{1-2}=2^n-1,\,2^n=1024,\,n=10.
+1023=\frac{1-2^n}{1-2}=2^n-1,2^n=1024,n=10.
 $$
 
 $\blacksquare$
@@ -309,7 +309,7 @@ $\blacksquare$
 By **Theorem 4.3.3 (General Term Formula of a Geometric Sequence)**, $a_2=a_1q=6$ and $a_3=a_1q^2$.
 
 $$
-6a_1+a_3=6a_1+a_1q^2=30,\,a_1\left(6+q^2\right)=30.
+6a_1+a_3=6a_1+a_1q^2=30,a_1\left(6+q^2\right)=30.
 $$
 
 From $a_1=\frac{6}{q}$, we get $\frac{6}{q}\left(6+q^2\right)=30$, $6+q^2=5q$, $q^2-5q+6=0$, so $q=2$ or $q=3$.
@@ -327,7 +327,7 @@ $\blacksquare$
 By **Definition 4.3.2 (Geometric Mean)**, let the three numbers be $\frac{a}{q},a,aq$.
 
 $$
-\frac{a}{q}+a+aq=14,\,\frac{a}{q}\cdot{a}\cdot{a}q=a^3=64.
+\frac{a}{q}+a+aq=14,\frac{a}{q}\cdot{a}\cdot{a}q=a^3=64.
 $$
 
 From $a^3=64$, we get $a=4$. Substituting into the sum: $\frac{4}{q}+4+4q=14$, $4q^2-10q+4=0$, so $q=2$ or $q=\frac{1}{2}$.
@@ -343,7 +343,7 @@ $\blacksquare$
 By **Theorem 4.3.5 (Sum of the First $n$ Terms)**,
 
 $$
-S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,\,S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
+S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
 $$
 
 Dividing the two equations, $\frac{1-q^{10}}{1-q^5}=5$, so $1+q^5=5$, $q^5=4$, and $q=\sqrt\left[5\right]{4}$.
@@ -517,7 +517,7 @@ $\blacksquare$
 (2) The half-life is when $N\left(t\right)=\frac{N_0}{2}$, i.e. $t=45\times10^8$ years.
 
 $$
-\left(1-k\right)^{45\times10^8}=\frac{1}{2},\,1-k=2^{-1/\left(45\times10^8\right)},\,k=1-2^{-1/\left(45\times10^8\right)}.
+\left(1-k\right)^{45\times10^8}=\frac{1}{2},1-k=2^{-1/\left(45\times10^8\right)},k=1-2^{-1/\left(45\times10^8\right)}.
 $$
 
 $\blacksquare$
@@ -533,13 +533,13 @@ $$
 $$
 
 $$
-2\left(1-q^9\right)=1-q^3+1-q^6,\,2q^9=q^3+q^6,\,2q^6=1+q^3.
+2\left(1-q^9\right)=1-q^3+1-q^6,2q^9=q^3+q^6,2q^6=1+q^3.
 $$
 
 To prove that $a_2,a_8,a_5$ form an arithmetic sequence, it suffices to show $2a_8=a_2+a_5$.
 
 $$
-2a_1q^7=a_1q+a_1q^4,\,2q^6=1+q^3.
+2a_1q^7=a_1q+a_1q^4,2q^6=1+q^3.
 $$
 
 Since the latter equation holds, $a_2,a_8,a_5$ form an arithmetic sequence.
@@ -601,7 +601,7 @@ $\blacksquare$
 $a_2+a_1=6$, $a_3+a_2=12$. And $a_2=a_1q$, $a_3=a_1q^2$.
 
 $$
-a_1\left(q+1\right)=6,\,a_1q\left(q+1\right)=12.
+a_1\left(q+1\right)=6,a_1q\left(q+1\right)=12.
 $$
 
 Dividing the two equations, $q=2$ and $a_1=2$.
@@ -713,7 +713,7 @@ $\blacksquare$
 (1) Let the common ratio of $\left\{a_n\right\}$ be $q\ne1$. Then $b_1=a_1$, $b_2=\frac{a_1\left(1+q\right)}{2}$, $b_3=\frac{a_1\left(1+q+q^2\right)}{3}$.
 
 $$
-\frac{b_2}{b_1}=\frac{1+q}{2},\,\frac{b_3}{b_2}=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}.
+\frac{b_2}{b_1}=\frac{1+q}{2},\frac{b_3}{b_2}=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}.
 $$
 
 If $\left\{b_n\right\}$ were a geometric sequence, $\left(\frac{1+q}{2}\right)^2=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}\cdot\frac{1+q}{2}$.

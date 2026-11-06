@@ -109,7 +109,7 @@ A researcher measured the tea temperature every $1\,\min$ and obtained a set of 
 By **Definition 3.1.1 (Function)**, the tea temperature $y$ is a function of time $x$. By **Common Conclusion 4.2.3** (Exponential Growth and Decay Models), observing the distribution of the scatter plot and taking into account the fact that the tea temperature cannot drop below room temperature, one may choose the function
 
 $$
-y=ka^x+25\quad\left(k\in\mathbb{R},\,0<{}a<1,\,x\ge0\right)
+y=ka^x+25\quad\left(k\in\mathbb{R},0<{}a<1,x\ge0\right)
 $$
 
 to approximately describe the law by which the tea temperature changes over time.
@@ -315,11 +315,11 @@ By **Definition 1.4.2 (Sufficient and Necessary Conditions)**, a counterexample 
 
 Express and judge by **Definition 1.5.1 (Universal Quantifier and Universal Quantified Statement)** and **Definition 1.5.2 (Existential Quantifier and Existential Quantified Statement)**.
 
-(1) Expressed as $\forall{x}\in\mathbb{R},\,x^2\ge0$. Since the square of a real number is nonnegative, the proposition is true.
+(1) Expressed as $\forall{x}\in\mathbb{R},x^2\ge0$. Since the square of a real number is nonnegative, the proposition is true.
 
 (2) Expressed as $\forall{a}\in\mathbb{R}$, the graph of the quadratic function $y=x^2+a$ is symmetric about the $y$-axis. The parabola $y=x^2+a$ is symmetric about the $y$-axis for any real number $a$, hence the proposition is true.
 
-(3) Expressed as $\exists{x},y\in\mathbb{Z},\,2x+4y=3$. The left side $2x+4y=2\left(x+2y\right)$ is even, while the right side $3$ is odd; the two cannot be equal, hence the proposition is false.
+(3) Expressed as $\exists{x},y\in\mathbb{Z},2x+4y=3$. The left side $2x+4y=2\left(x+2y\right)$ is even, while the right side $3$ is odd; the two cannot be equal, hence the proposition is false.
 
 (4) Expressed as "there exists an irrational number $x$ such that $x^3$ is a rational number". Take $x=\sqrt\left[3\right]{2}$; it is irrational, while $x^3=2$ is rational; such an $x$ exists, hence the proposition is true. $\blacksquare$
 
@@ -331,7 +331,7 @@ Express and judge by **Definition 1.5.1 (Universal Quantifier and Universal Quan
 
 (2) Every square is a parallelogram;
 
-(3) $\exists{m}\in\mathbb{N},\,\sqrt{m^2+1}\in\mathbb{N}$;
+(3) $\exists{m}\in\mathbb{N},\sqrt{m^2+1}\in\mathbb{N}$;
 
 (4) There exists a quadrilateral $ABCD$ whose interior angle sum is not equal to $360^\circ$.
 
@@ -343,7 +343,7 @@ Rewrite by **Common Conclusion 1.5.4** (Negation of a Universal Quantified State
 
 (2) This is a universal quantified statement; its negation is "there exists a square that is not a parallelogram". A square is a special parallelogram, hence the original proposition is true and its negation is false.
 
-(3) This is an existential quantified statement; its negation is $\forall{m}\in\mathbb{N},\,\sqrt{m^2+1}\notin\mathbb{N}$. Take $m=0\in\mathbb{N}$, then $\sqrt{m^2+1}=\sqrt1=1\in\mathbb{N}$, hence the original proposition is true and its negation is false.
+(3) This is an existential quantified statement; its negation is $\forall{m}\in\mathbb{N},\sqrt{m^2+1}\notin\mathbb{N}$. Take $m=0\in\mathbb{N}$, then $\sqrt{m^2+1}=\sqrt1=1\in\mathbb{N}$, hence the original proposition is true and its negation is false.
 
 (4) This is an existential quantified statement; its negation is "every quadrilateral has interior angle sum equal to $360^\circ$". Any quadrilateral has interior angle sum $360^\circ$, hence the original proposition is false and its negation is true. $\blacksquare$
 

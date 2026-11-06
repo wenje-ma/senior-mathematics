@@ -283,7 +283,7 @@ The figure shows three scatter plots of sequences (horizontal axis the index $n$
 (1) By **Definition 4.1.5 (General Term Formula)**, the reciprocals of all positive integers arranged in decreasing order have $n$-th term $a_n=\frac{1}{n}$.
 
 $$
-a_1=1,\,a_2=\frac{1}{2},\,a_3=\frac{1}{3},\,\cdots,\,a_{10}=\frac{1}{10}.
+a_1=1,a_2=\frac{1}{2},a_3=\frac{1}{3},\cdots,a_{10}=\frac{1}{10}.
 $$
 
 The graph is a set of discrete points, with horizontal coordinate $n$ and vertical coordinate $\frac{1}{n}$; the points decrease and approach $0$ as $n$ increases.
@@ -293,7 +293,7 @@ $\blacksquare$
 (2) By **Definition 4.1.3 (A Sequence Is a Special Function)**, as $x$ takes $1,2,3,\cdots$ in turn, the corresponding function values form the sequence $a_n=f\left(n\right)=2n+1$.
 
 $$
-a_1=3,\,a_2=5,\,a_3=7,\,a_4=9,\,a_5=11,\,a_6=13,\,a_7=15,\,a_8=17,\,a_9=19,\,a_{10}=21.
+a_1=3,a_2=5,a_3=7,a_4=9,a_5=11,a_6=13,a_7=15,a_8=17,a_9=19,a_{10}=21.
 $$
 
 The graph is a set of discrete points lying on the line $y=2x+1$, arranged in increasing order.
@@ -303,7 +303,7 @@ $\blacksquare$
 (3) By **Definition 4.1.5 (General Term Formula)**, $a_n=2$ when $n$ is odd, and $a_n=n+1$ when $n$ is even.
 
 $$
-a_1=2,\,a_2=3,\,a_3=2,\,a_4=5,\,a_5=2,\,a_6=7,\,a_7=2,\,a_8=9,\,a_9=2,\,a_{10}=11.
+a_1=2,a_2=3,a_3=2,a_4=5,a_5=2,a_6=7,a_7=2,a_8=9,a_9=2,a_{10}=11.
 $$
 
 The graph is a set of discrete points; the odd-indexed terms all lie on $y=2$, and the even-indexed terms increase as $n$ increases.
@@ -335,7 +335,7 @@ $\blacksquare$
 By **Definition 4.1.5 (General Term Formula)**, compute the number of positive divisors term by term.
 
 $$
-d\left(1\right)=1,\,d\left(2\right)=2,\,d\left(3\right)=2,\,d\left(4\right)=3,\,d\left(5\right)=2,\,d\left(6\right)=4,\,d\left(7\right)=2,\,d\left(8\right)=4,\,d\left(9\right)=3,\,d\left(10\right)=4.
+d\left(1\right)=1,d\left(2\right)=2,d\left(3\right)=2,d\left(4\right)=3,d\left(5\right)=2,d\left(6\right)=4,d\left(7\right)=2,d\left(8\right)=4,d\left(9\right)=3,d\left(10\right)=4.
 $$
 
 The first $10$ terms are $1,2,2,3,2,4,2,4,3,4$.
@@ -412,16 +412,16 @@ $\blacksquare$
 
 (Exercise 4.1, Problem 2) Given the following conditions, write out the first $5$ terms of the sequence $\left\{a_n\right\}$.
 
-(1) $a_1=1,\,a_n=a_{n-1}+2^{n-1}$ ($n\ge2$);
+(1) $a_1=1,a_n=a_{n-1}+2^{n-1}$ ($n\ge2$);
 
-(2) $a_1=3,\,a_n=\frac{2}{3}a_{n-1}+1$ ($n\ge2$).
+(2) $a_1=3,a_n=\frac{2}{3}a_{n-1}+1$ ($n\ge2$).
 
 ### Solution to Exercise 2
 
 (1) By **Definition 4.1.6 (Recurrence Formula)**, iterate term by term.
 
 $$
-a_1=1,\,a_2=1+2=3,\,a_3=3+4=7,\,a_4=7+8=15,\,a_5=15+16=31.
+a_1=1,a_2=1+2=3,a_3=3+4=7,a_4=7+8=15,a_5=15+16=31.
 $$
 
 $\blacksquare$
@@ -429,19 +429,19 @@ $\blacksquare$
 (2) By **Definition 4.1.6 (Recurrence Formula)**, iterate term by term.
 
 $$
-a_1=3,\,a_2=\frac{2}{3}\times3+1=3,\,a_3=\frac{2}{3}\times3+1=3,\,a_4=3,\,a_5=3.
+a_1=3,a_2=\frac{2}{3}\times3+1=3,a_3=\frac{2}{3}\times3+1=3,a_4=3,a_5=3.
 $$
 
 $\blacksquare$
 
-(Exercise 4.1, Problem 3) Given that the sequence $\left\{a_n\right\}$ satisfies $a_1=2,\,a_n=2-\frac{1}{a_{n-1}}$ ($n\ge2$), write out its first $5$ terms and guess its general term formula.
+(Exercise 4.1, Problem 3) Given that the sequence $\left\{a_n\right\}$ satisfies $a_1=2,a_n=2-\frac{1}{a_{n-1}}$ ($n\ge2$), write out its first $5$ terms and guess its general term formula.
 
 ### Solution to Exercise 2
 
 By **Definition 4.1.6 (Recurrence Formula)**, iterate term by term.
 
 $$
-a_1=2,\,a_2=2-\frac{1}{2}=\frac{3}{2},\,a_3=2-\frac{2}{3}=\frac{4}{3},\,a_4=2-\frac{3}{4}=\frac{5}{4},\,a_5=2-\frac{4}{5}=\frac{6}{5}.
+a_1=2,a_2=2-\frac{1}{2}=\frac{3}{2},a_3=2-\frac{2}{3}=\frac{4}{3},a_4=2-\frac{3}{4}=\frac{5}{4},a_5=2-\frac{4}{5}=\frac{6}{5}.
 $$
 
 By **Definition 4.1.5 (General Term Formula)**, observing the first $5$ terms $\frac{2}{1},\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5}$, we guess the general term formula is
@@ -497,7 +497,7 @@ $\blacksquare$
 (2) By **Definition 4.1.5 (General Term Formula)**, the Euler totient function $\varphi\left(n\right)$ counts the positive integers not exceeding $n$ that are coprime to $n$; compute term by term.
 
 $$
-\varphi\left(1\right)=1,\,\varphi\left(2\right)=1,\,\varphi\left(3\right)=2,\,\varphi\left(4\right)=2,\,\varphi\left(5\right)=4,\,\varphi\left(6\right)=2,\,\varphi\left(7\right)=6,\,\varphi\left(8\right)=4,\,\varphi\left(9\right)=6,\,\varphi\left(10\right)=4.
+\varphi\left(1\right)=1,\varphi\left(2\right)=1,\varphi\left(3\right)=2,\varphi\left(4\right)=2,\varphi\left(5\right)=4,\varphi\left(6\right)=2,\varphi\left(7\right)=6,\varphi\left(8\right)=4,\varphi\left(9\right)=6,\varphi\left(10\right)=4.
 $$
 
 The first $10$ terms are $1,1,2,2,4,2,6,4,6,4$.
@@ -510,16 +510,16 @@ $\blacksquare$
 
 (2) $a_n=\left(-1\right)^{n+1}\left(n^2+1\right)$;
 
-(3) $a_1=\frac{1}{2},\,a_n=4a_{n-1}+1$ ($n\ge2$);
+(3) $a_1=\frac{1}{2},a_n=4a_{n-1}+1$ ($n\ge2$);
 
-(4) $a_1=-\frac{1}{4},\,a_n=1-\frac{1}{a_{n-1}}$ ($n\ge2$).
+(4) $a_1=-\frac{1}{4},a_n=1-\frac{1}{a_{n-1}}$ ($n\ge2$).
 
 ### Solution to Problem 16
 
 (1) By **Definition 4.1.5 (General Term Formula)**,
 
 $$
-a_1=1,\,a_2=\frac{1}{4},\,a_3=\frac{1}{9},\,a_4=\frac{1}{16},\,a_5=\frac{1}{25}.
+a_1=1,a_2=\frac{1}{4},a_3=\frac{1}{9},a_4=\frac{1}{16},a_5=\frac{1}{25}.
 $$
 
 $\blacksquare$
@@ -527,7 +527,7 @@ $\blacksquare$
 (2) By **Definition 4.1.5 (General Term Formula)**,
 
 $$
-a_1=2,\,a_2=-5,\,a_3=10,\,a_4=-17,\,a_5=26.
+a_1=2,a_2=-5,a_3=10,a_4=-17,a_5=26.
 $$
 
 $\blacksquare$
@@ -535,7 +535,7 @@ $\blacksquare$
 (3) By **Definition 4.1.6 (Recurrence Formula)**,
 
 $$
-a_1=\frac{1}{2},\,a_4=4\times\frac{1}{2}+1=3,\,a_3=4\times3+1=13,\,a_4=4\times13+1=53,\,a_5=4\times53+1=213.
+a_1=\frac{1}{2},a_4=4\times\frac{1}{2}+1=3,a_3=4\times3+1=13,a_4=4\times13+1=53,a_5=4\times53+1=213.
 $$
 
 $\blacksquare$
@@ -543,7 +543,7 @@ $\blacksquare$
 (4) By **Definition 4.1.6 (Recurrence Formula)**,
 
 $$
-a_1=-\frac{1}{4},\,a_2=1-\frac{1}{-1/4}=5,\,a_3=1-\frac{1}{5}=\frac{4}{5},\,a_4=1-\frac{5}{4}=-\frac{1}{4},\,a_5=5.
+a_1=-\frac{1}{4},a_2=1-\frac{1}{-1/4}=5,a_3=1-\frac{1}{5}=\frac{4}{5},a_4=1-\frac{5}{4}=-\frac{1}{4},a_5=5.
 $$
 
 $\blacksquare$
@@ -603,7 +603,7 @@ $\blacksquare$
 (1) By **Definition 4.1.6 (Recurrence Formula)**,
 
 $$
-a_1=1,\,a_2=2,\,a_3=2+1=3,\,a_4=3+2=5,\,a_5=5+3=8.
+a_1=1,a_2=2,a_3=2+1=3,a_4=3+2=5,a_5=5+3=8.
 $$
 
 $\blacksquare$
@@ -611,7 +611,7 @@ $\blacksquare$
 (2) By **Definition 4.1.5 (General Term Formula)**,
 
 $$
-b_1=\frac{a_2}{a_1}=\frac{2}{1}=2,\,b_2=\frac{a_3}{a_2}=\frac{3}{2},\,b_3=\frac{a_4}{a_3}=\frac{5}{3},\,b_4=\frac{a_5}{a_4}=\frac{8}{5},\,b_5=\frac{a_6}{a_5}=\frac{13}{8}.
+b_1=\frac{a_2}{a_1}=\frac{2}{1}=2,b_2=\frac{a_3}{a_2}=\frac{3}{2},b_3=\frac{a_4}{a_3}=\frac{5}{3},b_4=\frac{a_5}{a_4}=\frac{8}{5},b_5=\frac{a_6}{a_5}=\frac{13}{8}.
 $$
 
 where $a_6=8+5=13$.
@@ -627,19 +627,19 @@ The figure shows three rows of pebbles (points): the first row are the triangula
 By **Definition 4.1.5 (General Term Formula)**, the triangular numbers are $1,3,6,10,\cdots$, with differences between adjacent terms $2,3,4,\cdots$, so
 
 $$
-a_5=10+5=15,\,a_6=15+6=21.
+a_5=10+5=15,a_6=15+6=21.
 $$
 
 The square numbers are $1,4,9,16,\cdots$, i.e. $n^2$, so
 
 $$
-a_5=25,\,a_6=36.
+a_5=25,a_6=36.
 $$
 
 The pentagonal numbers are $1,5,12,22,\cdots$, with differences between adjacent terms $4,7,10,\cdots$, common difference $3$, so
 
 $$
-a_5=22+13=35,\,a_6=35+16=51.
+a_5=22+13=35,a_6=35+16=51.
 $$
 
 $\blacksquare$

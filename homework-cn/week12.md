@@ -189,10 +189,10 @@ $\blacksquare$
 经过 $2\,\mathrm{s}$, 点 $P$ 转过的弧度数为 $1\times2=2\,\mathrm{rad}$, 因顺时针旋转, 故转过的角为 $-2\,\mathrm{rad}$. 圆半径为 $2$, 由**定义 5.2.2 (终边上任意一点的三角函数比值)**, 点 $P$ 的坐标为
 
 $$
-\left(2\cos\left(-2\right),\,2\sin\left(-2\right)\right)=\left(2\cos2,\,-2\sin2\right).
+\left(2\cos\left(-2\right),2\sin\left(-2\right)\right)=\left(2\cos2,-2\sin2\right).
 $$
 
-故 $2\,\mathrm{s}$ 时点 $P$ 所在的位置为 $\left(2\cos2,\,-2\sin2\right)$. $\blacksquare$
+故 $2\,\mathrm{s}$ 时点 $P$ 所在的位置为 $\left(2\cos2,-2\sin2\right)$. $\blacksquare$
 
 ## 练习五
 

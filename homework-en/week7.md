@@ -184,7 +184,7 @@ Sufficiency: If $\frac{\Delta{y}}{\Delta{x}}<0$, then $\Delta{y}$ and $\Delta{x}
 
 ## Problem 9
 
-(Exercise 3.2, Comprehensive Application, Problem 10) As shown in the figure, a zoo wants to build two adjacent rectangular panda enclosures of equal area against a wall. If the total length of materials available for building the walls is $30\,\text{m}$, then for what width $x$ (unit: $\text{m}$) is the area of each panda enclosure maximized? What is the maximum area of each panda enclosure?
+(Exercise 3.2, Comprehensive Application, Problem 10) As shown in the figure, a zoo wants to build two adjacent rectangular panda enclosures of equal area against a wall. If the total length of materials available for building the walls is $30\;\text{m}$, then for what width $x$ (unit: $\text{m}$) is the area of each panda enclosure maximized? What is the maximum area of each panda enclosure?
 
 (Figure: a horizontal wall at the top, with two identical rectangular enclosures side by side below it; the width (perpendicular to the wall) is labeled $x$, a shared vertical wall separates the two enclosures, and the bottom and sides have walls.)
 
@@ -194,7 +194,7 @@ By **Definition 3.2.3 (Maximum Value)**, set up the area as a function of $x$ an
 
 The two enclosures together require $3$ width segments (each of length $x$) and $2$ length segments (each denoted $y$), and the total wall length is $3x+2y=30$, so $y=15-\frac{3x}{2}$. The area of each enclosure is $S=x\cdot\frac{y}{2}=x\left(\frac{15}{2}-\frac{3x}{4}\right)=-\frac{3}{4}x^2+\frac{15}{2}x$.
 
-When $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$, $S$ attains its maximum $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\,\text{m}^2$. Thus when the width is $5\,\text{m}$, the area of each enclosure is maximized, with maximum area $18.75\,\text{m}^2$. $\blacksquare$
+When $x=-\frac{15/2}{2\cdot\left(-3/4\right)}=5$, $S$ attains its maximum $S_{\max}=-\frac{3}{4}\cdot25+\frac{15}{2}\cdot5=-\frac{75}{4}+\frac{75}{2}=\frac{75}{4}=18.75\;\text{m}^2$. Thus when the width is $5\;\text{m}$, the area of each enclosure is maximized, with maximum area $18.75\;\text{m}^2$. $\blacksquare$
 
 ## Problem 10
 
@@ -322,9 +322,9 @@ Monotonicity: when $x\ge0$, $y=\sqrt{x}$ is monotonically increasing; when $x<0$
 
 (1) Write the analytic expression of the gas flow rate $v$ as a function of the pipe radius $r$;
 
-(2) if the gas flows through a pipe of radius $3\,\text{cm}$ with a flow rate of $400\,\text{cm}^3/\text{s}$, find the expression for the flow rate $v$ when this gas flows through a pipe of radius $r$;
+(2) if the gas flows through a pipe of radius $3\;\text{cm}$ with a flow rate of $400\;\text{cm}^3/\text{s}$, find the expression for the flow rate $v$ when this gas flows through a pipe of radius $r$;
 
-(3) given that the pipe radius through which the gas in (2) flows is $5\,\text{cm}$, calculate the flow rate of the gas (accurate to $1\,\text{cm}^3/\text{s}$).
+(3) given that the pipe radius through which the gas in (2) flows is $5\;\text{cm}$, calculate the flow rate of the gas (accurate to $1\;\text{cm}^3/\text{s}$).
 
 ### Solution to Problem 14
 
@@ -334,7 +334,7 @@ By **Definition 3.3.1 (Power Function)**, the flow rate is proportional to the f
 
 (2) From $v=400$ when $r=3$, we get $400=k\cdot3^4=81k$, so $k=\frac{400}{81}$. Therefore $v=\frac{400}{81}r^4$.
 
-(3) When $r=5$, $v=\frac{400}{81}\cdot5^4=\frac{400\times625}{81}=\frac{250000}{81}\approx3086\,\text{cm}^3/\text{s}$. $\blacksquare$
+(3) When $r=5$, $v=\frac{400}{81}\cdot5^4=\frac{400\times625}{81}=\frac{250000}{81}\approx3086\;\text{cm}^3/\text{s}$. $\blacksquare$
 
 ## Problem 15
 

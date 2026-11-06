@@ -270,7 +270,7 @@ $$
 
 ## 习题十二
 
-(复习参考题 3 综合运用第 10 题) 某地区上年度电价为 $0.8$ 元/$\left(\text{kW}\cdot\text{h}\right)$, 年用电量为 $a\,\text{kW}\cdot\text{h}$, 本年度计划将电价下降到 $0.55$ 元/$\left(\text{kW}\cdot\text{h}\right)$ 至 $0.75$ 元/$\left(\text{kW}\cdot\text{h}\right)$ 之间, 而用户期望电价为 $0.4$ 元/$\left(\text{kW}\cdot\text{h}\right)$. 经测算, 下调电价后新增用电量和实际电价与用户的期望电价的差成反比 (比例系数为 $k$). 该地区的电力成本价为 $0.3$ 元/$\left(\text{kW}\cdot\text{h}\right)$.
+(复习参考题 3 综合运用第 10 题) 某地区上年度电价为 $0.8$ 元/$\left(\text{kW}\cdot\text{h}\right)$, 年用电量为 $a\;\text{kW}\cdot\text{h}$, 本年度计划将电价下降到 $0.55$ 元/$\left(\text{kW}\cdot\text{h}\right)$ 至 $0.75$ 元/$\left(\text{kW}\cdot\text{h}\right)$ 之间, 而用户期望电价为 $0.4$ 元/$\left(\text{kW}\cdot\text{h}\right)$. 经测算, 下调电价后新增用电量和实际电价与用户的期望电价的差成反比 (比例系数为 $k$). 该地区的电力成本价为 $0.3$ 元/$\left(\text{kW}\cdot\text{h}\right)$.
 
 (1) 写出本年度电价下调后电力部门的收益 $y$ (单位: 元) 关于实际电价 $x$ (单位: 元/$\left(\text{kW}\cdot\text{h}\right)$) 的函数解析式; (收益 $=$ 实际电量 $\times$ (实际电价 $-$ 成本价))
 
@@ -434,7 +434,7 @@ $x\le0$ 时, $y=\left(x+1\right)^2-4$, 最小值为 $-4$ (在 $x=-1$), $x=0$ 时
 
 (复习参考题4 综合运用第 5 题) 选择题.
 
-(1) 已知集合 $A=\left\{y\,|\,y=\log_2x,\,x>1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},\,x>1\right\}$, 则 $A\cap{B}=$ ( ).
+(1) 已知集合 $A=\left\{y\,|\,y=\log_2x,x>1\right\}$, $B=\left\{y\,|\,y=\frac{1}{2^x},x>1\right\}$, 则 $A\cap{B}=$ ( ).
 
 (A) $\left\{y\,|\,0<{}y<\frac{1}{2}\right\}$ (B) $\left\{y\,|\,0<{}y<1\right\}$ (C) $\left\{y\,|\,\frac{1}{2}<{}y<1\right\}$ (D) $\varnothing$
 

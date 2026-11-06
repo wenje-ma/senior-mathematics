@@ -69,7 +69,7 @@
 (1) 由**定理 4.2.3 (等差数列通项公式)** 和**定理 4.2.7 (前 $n$ 项和公式二)**,
 
 $$
-a_1+3\left(n-1\right)=21,\,na_1+\frac{3n\left(n-1\right)}{2}=60.
+a_1+3\left(n-1\right)=21,na_1+\frac{3n\left(n-1\right)}{2}=60.
 $$
 
 由第一式 $a_1=24-3n$, 代入第二式, $n\left(24-3n\right)+\frac{3n\left(n-1\right)}{2}=60$, 解得 $n=5$, $a_1=9$.
@@ -79,7 +79,7 @@ $\blacksquare$
 (2) 由**定理 4.2.7 (前 $n$ 项和公式二)**,
 
 $$
-6n-n\left(n-1\right)=-60,\,n^2-7n-60=0,\,n=12.
+6n-n\left(n-1\right)=-60,n^2-7n-60=0,n=12.
 $$
 
 $$
@@ -91,7 +91,7 @@ $\blacksquare$
 (3) 由**定理 4.2.6 (前 $n$ 项和公式一)**,
 
 $$
-\frac{n\left(8-2\right)}{2}=-30,\,3n=-30,\,n=-10.
+\frac{n\left(8-2\right)}{2}=-30,3n=-30,n=-10.
 $$
 
 不合题意, 检查: $\frac{n\left(8+\left(-2\right)\right)}{2}=-30$, $3n=-30$, $n=-10$ 不合理. 重新计算: $S_n=\frac{n\left(a_1+a_n\right)}{2}=\frac{n\left(8-2\right)}{2}=3n=-30$, 得 $n=-10$, 无正整数解.
@@ -101,7 +101,7 @@ $\blacksquare$
 (4) 由**定理 4.2.6 (前 $n$ 项和公式一)**,
 
 $$
-\frac{7\left(a_1-0.6\right)}{2}=-3.5,\,a_1-0.6=-1,\,a_1=-0.4.
+\frac{7\left(a_1-0.6\right)}{2}=-3.5,a_1-0.6=-1,a_1=-0.4.
 $$
 
 由**定理 4.2.3 (等差数列通项公式)**, $-0.6=-0.4+6d$, $d=-\frac{0.2}{6}=-\frac{1}{30}$.
@@ -175,7 +175,7 @@ $\blacksquare$
 由**定理 4.2.3 (等差数列通项公式)**, $a_n=1986+76\left(n-1\right)\le3000$.
 
 $$
-76\left(n-1\right)\le1014,\,n-1\le13.34,\,n\le14.34.
+76\left(n-1\right)\le1014,n-1\le13.34,n\le14.34.
 $$
 
 故共出现 $14$ 次.
@@ -197,7 +197,7 @@ $$
 又 $a_1=44-3\left(n-1\right)$, 代入,
 
 $$
-\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,\,n\left(91-3n\right)=316,\,3n^2-91n+316=0.
+\frac{n\left(44-3\left(n-1\right)+44\right)}{2}=158,n\left(91-3n\right)=316,3n^2-91n+316=0.
 $$
 
 解得 $n=4$ 或 $n=\frac{79}{3}$ (舍去), 边数为 $4$.
@@ -287,11 +287,11 @@ $\blacksquare$
 由**定理 4.2.3 (等差数列通项公式)**,
 
 $$
-a_m=a_1+\left(m-1\right)d,\,a_n=a_1+\left(n-1\right)d.
+a_m=a_1+\left(m-1\right)d,a_n=a_1+\left(n-1\right)d.
 $$
 
 $$
-a_m-a_n=\left(m-n\right)d,\,\frac{a_m-a_n}{m-n}=d.
+a_m-a_n=\left(m-n\right)d,\frac{a_m-a_n}{m-n}=d.
 $$
 
 $\blacksquare$
@@ -329,7 +329,7 @@ $\blacksquare$
 (1) 由**定义 4.1.5 (通项公式)**, 各层球数为 $1,3,6,10,\cdots$, 相邻两层之差为 $2,3,4,\cdots$, 第 $n$ 层为 $\frac{n\left(n+1\right)}{2}$.
 
 $$
-\text{第五层}=\frac{5\times6}{2}=15,\,\text{第六层}=\frac{6\times7}{2}=21.
+\text{第五层}=\frac{5\times6}{2}=15,\text{第六层}=\frac{6\times7}{2}=21.
 $$
 
 $\blacksquare$
@@ -374,22 +374,22 @@ $\blacksquare$
 
 (练习 4.3 第 2 题) 已知 $\left\{a_n\right\}$ 是一个公比为 $q$ 的等比数列, 在下表中填上适当的数
 
-第一行: $a_1=2,\,a_3=\underline{\quad},\,a_5=8,\,a_7=\underline{\quad},\,q=\underline{\quad}$;
+第一行: $a_1=2,a_3=\underline{\quad},a_5=8,a_7=\underline{\quad},q=\underline{\quad}$;
 
-第二行: $a_1=\underline{\quad},\,a_3=2,\,a_5=\underline{\quad},\,a_7=\underline{\quad},\,q=0.2$.
+第二行: $a_1=\underline{\quad},a_3=2,a_5=\underline{\quad},a_7=\underline{\quad},q=0.2$.
 
 ### 解答 练习一
 
 第一行: 由**定理 4.3.3 (等比数列通项公式)**, $a_5=a_1q^4$, 即 $8=2q^4$, $q^4=4$, $q^2=2$, $q=\pm\sqrt{2}$.
 
 $$
-a_3=2q^2=4,\,a_7=a_5q^2=8\times2=16.
+a_3=2q^2=4,a_7=a_5q^2=8\times2=16.
 $$
 
 第二行: 由**定理 4.3.3 (等比数列通项公式)**, $a_3=a_1q^2$, 即 $2=a_1\times0.04$, $a_1=50$.
 
 $$
-a_5=a_3q^2=2\times0.04=0.08,\,a_7=a_5q^2=0.08\times0.04=0.0032.
+a_5=a_3q^2=2\times0.04=0.08,a_7=a_5q^2=0.08\times0.04=0.0032.
 $$
 
 $\blacksquare$
@@ -519,7 +519,7 @@ $\blacksquare$
 设年平均增长率为 $r$. 由**定义 4.3.1 (等比数列)**,
 
 $$
-105\left(1+r\right)^2=240,\,\left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},\,1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
+105\left(1+r\right)^2=240,\left(1+r\right)^2=\frac{240}{105}=\frac{16}{7},1+r=\sqrt{\frac{16}{7}}=\frac{4}{\sqrt{7}}.
 $$
 
 $$
@@ -550,11 +550,11 @@ $\blacksquare$
 
 (练习 4.3 第 1 题) 根据下列各题中的条件, 求相应等比数列 $\left\{a_n\right\}$ 的前 $n$ 项和 $S_n$
 
-(1) $a_1=4,\,q=-\frac{1}{2},\,n=8$;
+(1) $a_1=4,q=-\frac{1}{2},n=8$;
 
-(2) $a_1=1,\,a_n=2048,\,q=2$;
+(2) $a_1=1,a_n=2048,q=2$;
 
-(3) $a_1=1,\,q=2,\,S_n=1023$.
+(3) $a_1=1,q=2,S_n=1023$.
 
 ### 解答 练习三
 
@@ -577,7 +577,7 @@ $\blacksquare$
 (3) 由**定理 4.3.5 (前 $n$ 项和公式)**,
 
 $$
-1023=\frac{1-2^n}{1-2}=2^n-1,\,2^n=1024,\,n=10.
+1023=\frac{1-2^n}{1-2}=2^n-1,2^n=1024,n=10.
 $$
 
 $\blacksquare$
@@ -603,7 +603,7 @@ $\blacksquare$
 由**定理 4.3.3 (等比数列通项公式)**, $a_2=a_1q=6$, $a_3=a_1q^2$.
 
 $$
-6a_1+a_3=6a_1+a_1q^2=30,\,a_1\left(6+q^2\right)=30.
+6a_1+a_3=6a_1+a_1q^2=30,a_1\left(6+q^2\right)=30.
 $$
 
 由 $a_1=\frac{6}{q}$, 得 $\frac{6}{q}\left(6+q^2\right)=30$, $6+q^2=5q$, $q^2-5q+6=0$, $q=2$ 或 $q=3$.
@@ -621,7 +621,7 @@ $\blacksquare$
 由**定义 4.3.2 (等比中项)**, 设三个数为 $\frac{a}{q},a,aq$.
 
 $$
-\frac{a}{q}+a+aq=14,\,\frac{a}{q}\cdot{a}\cdot{a}q=a^3=64.
+\frac{a}{q}+a+aq=14,\frac{a}{q}\cdot{a}\cdot{a}q=a^3=64.
 $$
 
 由 $a^3=64$, 得 $a=4$. 代入和: $\frac{4}{q}+4+4q=14$, $4q^2-10q+4=0$, $q=2$ 或 $q=\frac{1}{2}$.
@@ -637,7 +637,7 @@ $\blacksquare$
 由**定理 4.3.5 (前 $n$ 项和公式)**,
 
 $$
-S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,\,S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
+S_5=\frac{a_1\left(1-q^5\right)}{1-q}=10,S_{10}=\frac{a_1\left(1-q^{10}\right)}{1-q}=50.
 $$
 
 两式相除, $\frac{1-q^{10}}{1-q^5}=5$, $1+q^5=5$, $q^5=4$, $q=\sqrt\left[5\right]{4}$.
@@ -811,7 +811,7 @@ $\blacksquare$
 (2) 半衰期即 $N\left(t\right)=\frac{N_0}{2}$ 时, $t=45\times10^8$ 年.
 
 $$
-\left(1-k\right)^{45\times10^8}=\frac{1}{2},\,1-k=2^{-1/\left(45\times10^8\right)},\,k=1-2^{-1/\left(45\times10^8\right)}.
+\left(1-k\right)^{45\times10^8}=\frac{1}{2},1-k=2^{-1/\left(45\times10^8\right)},k=1-2^{-1/\left(45\times10^8\right)}.
 $$
 
 $\blacksquare$
@@ -827,13 +827,13 @@ $$
 $$
 
 $$
-2\left(1-q^9\right)=1-q^3+1-q^6,\,2q^9=q^3+q^6,\,2q^6=1+q^3.
+2\left(1-q^9\right)=1-q^3+1-q^6,2q^9=q^3+q^6,2q^6=1+q^3.
 $$
 
 要证 $a_2,a_8,a_5$ 成等差数列, 即 $2a_8=a_2+a_5$.
 
 $$
-2a_1q^7=a_1q+a_1q^4,\,2q^6=1+q^3.
+2a_1q^7=a_1q+a_1q^4,2q^6=1+q^3.
 $$
 
 由上式成立, 故 $a_2,a_8,a_5$ 成等差数列.
@@ -895,7 +895,7 @@ $\blacksquare$
 $a_2+a_1=6$, $a_3+a_2=12$. $a_2=a_1q$, $a_3=a_1q^2$.
 
 $$
-a_1\left(q+1\right)=6,\,a_1q\left(q+1\right)=12.
+a_1\left(q+1\right)=6,a_1q\left(q+1\right)=12.
 $$
 
 两式相除, $q=2$, $a_1=2$.
@@ -1007,7 +1007,7 @@ $\blacksquare$
 (1) 设 $\left\{a_n\right\}$ 公比 $q\ne1$. $b_1=a_1$, $b_2=\frac{a_1\left(1+q\right)}{2}$, $b_3=\frac{a_1\left(1+q+q^2\right)}{3}$.
 
 $$
-\frac{b_2}{b_1}=\frac{1+q}{2},\,\frac{b_3}{b_2}=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}.
+\frac{b_2}{b_1}=\frac{1+q}{2},\frac{b_3}{b_2}=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}.
 $$
 
 若 $\left\{b_n\right\}$ 为等比数列, $\left(\frac{1+q}{2}\right)^2=\frac{2\left(1+q+q^2\right)}{3\left(1+q\right)}\cdot\frac{1+q}{2}$.

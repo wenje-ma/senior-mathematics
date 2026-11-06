@@ -86,7 +86,7 @@ Similarly, the organization is as follows.
 
 ### Solution to Exercise 1
 
-By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, to determine that the universal quantifier proposition $\forall{x}\in{M},\,p\left(x\right)$ is true, one must prove that $p\left(x\right)$ holds for every $x$ in $M$; if a counterexample is found in $M$ such that $p\left(x\right)$ does not hold, then the proposition is false.
+By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition)**, to determine that the universal quantifier proposition $\forall{x}\in{M},p\left(x\right)$ is true, one must prove that $p\left(x\right)$ holds for every $x$ in $M$; if a counterexample is found in $M$ such that $p\left(x\right)$ does not hold, then the proposition is false.
 
 (1) By the formula for the sum of interior angles of a polygon, the sum of interior angles of a quadrilateral is $\left(4-2\right)\cdot180^\circ=360^\circ$, which holds for any quadrilateral, so this proposition is true.
 
@@ -106,7 +106,7 @@ By **Definition 1.5.1 (Universal Quantifier and Universal Quantifier Proposition
 
 ### Solution to Exercise 2
 
-By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, to determine that the existential quantifier proposition $\exists{x}\in{M},\,p\left(x\right)$ is true, one only needs to find an $x$ in $M$ such that $p\left(x\right)$ holds; if no such $x$ exists in $M$, then the proposition is false.
+By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposition)**, to determine that the existential quantifier proposition $\exists{x}\in{M},p\left(x\right)$ is true, one only needs to find an $x$ in $M$ such that $p\left(x\right)$ holds; if no such $x$ exists in $M$, then the proposition is false.
 
 (1) The two diagonals of a rhombus are perpendicular to each other, and a rhombus is a quadrilateral, so such a quadrilateral exists; this proposition is true.
 
@@ -118,7 +118,7 @@ By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposi
 
 (Exercise 1.5, Problem 1) Write the negation of the following propositions:
 
-(1) $\forall{n}\in\mathbb{Z},\,n\in\mathbb{Q}$;
+(1) $\forall{n}\in\mathbb{Z},n\in\mathbb{Q}$;
 
 (2) The square of any odd number is still odd;
 
@@ -128,7 +128,7 @@ By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposi
 
 By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), the negation of a universal quantifier proposition is an existential quantifier proposition, i.e. change $\forall$ to $\exists$ and negate the conclusion.
 
-(1) The negation of this proposition is $\exists{n}\in\mathbb{Z},\,n\notin\mathbb{Q}$.
+(1) The negation of this proposition is $\exists{n}\in\mathbb{Z},n\notin\mathbb{Q}$.
 
 (2) The original proposition is "the square of any odd number is odd"; its negation is "there exists an odd number whose square is not odd", i.e. "there exists an odd number whose square is even".
 
@@ -206,11 +206,11 @@ By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposi
 
 (Problem 1.5, Review and Consolidation, Problem 3) Write the negation of the following propositions:
 
-(1) $\forall{x}\in\mathbb{Z},\,\lvert{x}\rvert\in\mathbb{N}$;
+(1) $\forall{x}\in\mathbb{Z},\lvert{x}\rvert\in\mathbb{N}$;
 
 (2) All integers divisible by $5$ have last digit $0$;
 
-(3) $\exists{x}\in\mathbb{R},\,x+1\ge0$;
+(3) $\exists{x}\in\mathbb{R},x+1\ge0$;
 
 (4) There exists a quadrilateral whose diagonals are perpendicular to each other.
 
@@ -218,11 +218,11 @@ By **Definition 1.5.2 (Existential Quantifier and Existential Quantifier Proposi
 
 By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition) and **Common Conclusion 1.5.5** (Negation of an Existential Quantifier Proposition), change universal to existential, existential to universal, and negate the conclusion.
 
-(1) This is a universal quantifier proposition; its negation is $\exists{x}\in\mathbb{Z},\,\lvert{x}\rvert\notin\mathbb{N}$.
+(1) This is a universal quantifier proposition; its negation is $\exists{x}\in\mathbb{Z},\lvert{x}\rvert\notin\mathbb{N}$.
 
 (2) This is a universal quantifier proposition; its negation is "there exists an integer divisible by $5$ whose last digit is not $0$".
 
-(3) This is an existential quantifier proposition; its negation is $\forall{x}\in\mathbb{R},\,x+1<0$.
+(3) This is an existential quantifier proposition; its negation is $\forall{x}\in\mathbb{R},x+1<0$.
 
 (4) This is an existential quantifier proposition; its negation is "the diagonals of all quadrilaterals are not perpendicular to each other". $\blacksquare$
 
@@ -292,7 +292,7 @@ Here, propositions (1) and (2) are both universal quantifier propositions with o
 
 By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), a proposition in the form "if $p$, then $q$" with omitted quantifiers should first have the universal quantifier restored, then be negated.
 
-(a) This view is incorrect. Proposition (1) is actually the universal quantifier proposition "for any $x>1$, we have $2x+1>5$", i.e. $\forall{x}>1,\,2x+1>5$. By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), its negation should be the existential quantifier proposition "there exists an $x>1$ such that $2x+1\le5$", i.e. $\exists{x}>1,\,2x+1\le5$, rather than directly changing the conclusion $2x+1>5$ to $2x+1\le5$ while retaining the "if $x>1$ then $\cdots$" form.
+(a) This view is incorrect. Proposition (1) is actually the universal quantifier proposition "for any $x>1$, we have $2x+1>5$", i.e. $\forall{x}>1,2x+1>5$. By **Common Conclusion 1.5.4** (Negation of a Universal Quantifier Proposition), its negation should be the existential quantifier proposition "there exists an $x>1$ such that $2x+1\le5$", i.e. $\exists{x}>1,2x+1\le5$, rather than directly changing the conclusion $2x+1>5$ to $2x+1\le5$ while retaining the "if $x>1$ then $\cdots$" form.
 
 Similarly, proposition (2) is actually the universal quantifier proposition "for any isosceles trapezoid, its diagonals are equal"; its negation should be "there exists an isosceles trapezoid whose diagonals are not equal", rather than "if a quadrilateral is an isosceles trapezoid, then the diagonals of this quadrilateral are not equal".
 

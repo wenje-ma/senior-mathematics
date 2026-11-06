@@ -206,13 +206,13 @@ From $f\left(\frac{7}{2}\right)=f\left(\frac{3}{2}+2\right)=f\left(\frac{3}{2}\r
 
 By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) $\sin{x}>0$: $x\in\left(2k\pi,\,\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
+(1) $\sin{x}>0$: $x\in\left(2k\pi,\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
 
-(2) $\sin{x}<0$: $x\in\left(\pi+2k\pi,\,2\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
+(2) $\sin{x}<0$: $x\in\left(\pi+2k\pi,2\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
 
-(3) $\cos{x}>0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\,\frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$.
+(3) $\cos{x}>0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$.
 
-(4) $\cos{x}<0$: $x\in\left(\frac{\pi}{2}+2k\pi,\,\frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
+(4) $\cos{x}<0$: $x\in\left(\frac{\pi}{2}+2k\pi,\frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## Exercise 10
 
@@ -244,7 +244,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 ### Solution to Exercise 11
 
-By **Common Conclusion** (Graphs and Properties of the Sine Function), the sine function is increasing on $\left[-\frac{\pi}{2}+2k\pi,\,\frac{\pi}{2}+2k\pi\right]$ and decreasing on $\left[\frac{\pi}{2}+2k\pi,\,\frac{3\pi}{2}+2k\pi\right]$.
+By **Common Conclusion** (Graphs and Properties of the Sine Function), the sine function is increasing on $\left[-\frac{\pi}{2}+2k\pi,\frac{\pi}{2}+2k\pi\right]$ and decreasing on $\left[\frac{\pi}{2}+2k\pi,\frac{3\pi}{2}+2k\pi\right]$.
 
 On $\left[0,2\pi\right]$, the increasing intervals are $\left[0,\frac{\pi}{2}\right]$ and $\left[\frac{3\pi}{2},2\pi\right]$, and the decreasing interval is $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. Choose (C). $\blacksquare$
 
@@ -270,7 +270,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 ### Solution to Exercise 13
 
-By **Common Conclusion** (Graphs and Properties of the Sine Function), the decreasing interval of the sine function is $\left[\frac{\pi}{2}+2k\pi,\,\frac{3\pi}{2}+2k\pi\right]$.
+By **Common Conclusion** (Graphs and Properties of the Sine Function), the decreasing interval of the sine function is $\left[\frac{\pi}{2}+2k\pi,\frac{3\pi}{2}+2k\pi\right]$.
 
 Set $\frac{\pi}{2}+2k\pi\le2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, which gives $\frac{\pi}{8}+k\pi\le{x}\le\frac{5\pi}{8}+k\pi$. Taking $k=0$, we get $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq\left[0,\pi\right]$. Hence the decreasing interval is $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
 
@@ -298,11 +298,11 @@ Since $\tan\left(-\frac{\pi}{4}\right)=-1$, on $\left[0,\frac{\pi}{2}\right)$ we
 
 By **Common Conclusion** (Graphs and Properties of the Tangent Function).
 
-(1) $\tan{x}>0$: $x\in\left(k\pi,\,\frac{\pi}{2}+k\pi\right)$, $k\in\mathbb{Z}$.
+(1) $\tan{x}>0$: $x\in\left(k\pi,\frac{\pi}{2}+k\pi\right)$, $k\in\mathbb{Z}$.
 
 (2) $\tan{x}=0$: $x=k\pi$, $k\in\mathbb{Z}$.
 
-(3) $\tan{x}<0$: $x\in\left(-\frac{\pi}{2}+k\pi,\,k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
+(3) $\tan{x}<0$: $x\in\left(-\frac{\pi}{2}+k\pi,k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## Exercise 16
 
@@ -312,7 +312,7 @@ By **Common Conclusion** (Graphs and Properties of the Tangent Function).
 
 By **Common Conclusion** (Graphs and Properties of the Tangent Function), the argument of the tangent function must satisfy $x\neq\frac{\pi}{2}+k\pi$.
 
-From $3x\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb{Z}$. Hence the domain is $\left\{x\mid{x}\neq\frac{\pi}{6}+\frac{k\pi}{2},\,k\in\mathbb{Z}\right\}$. $\blacksquare$
+From $3x\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb{Z}$. Hence the domain is $\left\{x\mid{x}\neq\frac{\pi}{6}+\frac{k\pi}{2},k\in\mathbb{Z}\right\}$. $\blacksquare$
 
 ## Exercise 17
 
@@ -476,7 +476,7 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 By **Common Conclusion** (Graphs and Properties of the Tangent Function), the argument of the tangent function must satisfy $x\neq\frac{\pi}{2}+k\pi$.
 
-From $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb{Z}$. Hence the domain is $\left\{x\mid{x}\neq\frac{\pi}{3}+k\pi,\,k\in\mathbb{Z}\right\}$. $\blacksquare$
+From $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, we get $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb{Z}$. Hence the domain is $\left\{x\mid{x}\neq\frac{\pi}{3}+k\pi,k\in\mathbb{Z}\right\}$. $\blacksquare$
 
 ## Problem 10
 
@@ -540,6 +540,6 @@ By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Comm
 
 By **Common Conclusion** (Graphs and Properties of the Sine Function) and **Common Conclusion** (Graphs and Properties of the Cosine Function).
 
-(1) From $\sin{x}\ge\frac{\sqrt{3}}{2}=\sin\frac{\pi}{3}$, we get $x\in\left[\frac{\pi}{3}+2k\pi,\,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$.
+(1) From $\sin{x}\ge\frac{\sqrt{3}}{2}=\sin\frac{\pi}{3}$, we get $x\in\left[\frac{\pi}{3}+2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$.
 
-(2) From $\sqrt{2}+2\cos{x}\ge0$, we get $\cos{x}\ge-\frac{\sqrt{2}}{2}$. From $\cos{x}\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, we get $x\in\left[-\frac{3\pi}{4}+2k\pi,\,\frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb{Z}$. $\blacksquare$
+(2) From $\sqrt{2}+2\cos{x}\ge0$, we get $\cos{x}\ge-\frac{\sqrt{2}}{2}$. From $\cos{x}\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, we get $x\in\left[-\frac{3\pi}{4}+2k\pi,\frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb{Z}$. $\blacksquare$

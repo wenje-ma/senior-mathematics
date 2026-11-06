@@ -40,13 +40,13 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) $\sin{x}>0$: $x\in\left(2k\pi,\,\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
+(1) $\sin{x}>0$: $x\in\left(2k\pi,\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
 
-(2) $\sin{x}<0$: $x\in\left(\pi+2k\pi,\,2\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
+(2) $\sin{x}<0$: $x\in\left(\pi+2k\pi,2\pi+2k\pi\right)$, $k\in\mathbb{Z}$.
 
-(3) $\cos{x}>0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\,\frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$.
+(3) $\cos{x}>0$: $x\in\left(-\frac{\pi}{2}+2k\pi,\frac{\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$.
 
-(4) $\cos{x}<0$: $x\in\left(\frac{\pi}{2}+2k\pi,\,\frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
+(4) $\cos{x}<0$: $x\in\left(\frac{\pi}{2}+2k\pi,\frac{3\pi}{2}+2k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## 练习三
 
@@ -78,7 +78,7 @@
 
 ### 解答 练习四
 
-由**常用结论** (正弦函数的图象与性质), 正弦函数在 $\left[-\frac{\pi}{2}+2k\pi,\,\frac{\pi}{2}+2k\pi\right]$ 上单调递增, 在 $\left[\frac{\pi}{2}+2k\pi,\,\frac{3\pi}{2}+2k\pi\right]$ 上单调递减.
+由**常用结论** (正弦函数的图象与性质), 正弦函数在 $\left[-\frac{\pi}{2}+2k\pi,\frac{\pi}{2}+2k\pi\right]$ 上单调递增, 在 $\left[\frac{\pi}{2}+2k\pi,\frac{3\pi}{2}+2k\pi\right]$ 上单调递减.
 
 在 $\left[0,2\pi\right]$ 上, 递增区间为 $\left[0,\frac{\pi}{2}\right]$ 和 $\left[\frac{3\pi}{2},2\pi\right]$, 递减区间为 $\left[\frac{\pi}{2},\frac{3\pi}{2}\right]$. 选 (C). $\blacksquare$
 
@@ -104,7 +104,7 @@
 
 ### 解答 练习六
 
-由**常用结论** (正弦函数的图象与性质), 正弦函数的递减区间为 $\left[\frac{\pi}{2}+2k\pi,\,\frac{3\pi}{2}+2k\pi\right]$.
+由**常用结论** (正弦函数的图象与性质), 正弦函数的递减区间为 $\left[\frac{\pi}{2}+2k\pi,\frac{3\pi}{2}+2k\pi\right]$.
 
 令 $\frac{\pi}{2}+2k\pi\le2x+\frac{\pi}{4}\le\frac{3\pi}{2}+2k\pi$, 解得 $\frac{\pi}{8}+k\pi\le{x}\le\frac{5\pi}{8}+k\pi$. 取 $k=0$, 得 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]\subsetneq\left[0,\pi\right]$. 故单调递减区间为 $\left[\frac{\pi}{8},\frac{5\pi}{8}\right]$. $\blacksquare$
 
@@ -132,11 +132,11 @@
 
 由**常用结论** (正切函数的图象与性质).
 
-(1) $\tan{x}>0$: $x\in\left(k\pi,\,\frac{\pi}{2}+k\pi\right)$, $k\in\mathbb{Z}$.
+(1) $\tan{x}>0$: $x\in\left(k\pi,\frac{\pi}{2}+k\pi\right)$, $k\in\mathbb{Z}$.
 
 (2) $\tan{x}=0$: $x=k\pi$, $k\in\mathbb{Z}$.
 
-(3) $\tan{x}<0$: $x\in\left(-\frac{\pi}{2}+k\pi,\,k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
+(3) $\tan{x}<0$: $x\in\left(-\frac{\pi}{2}+k\pi,k\pi\right)$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## 练习九
 
@@ -146,7 +146,7 @@
 
 由**常用结论** (正切函数的图象与性质), 正切函数的自变量须满足 $x\neq\frac{\pi}{2}+k\pi$.
 
-由 $3x\neq\frac{\pi}{2}+k\pi$, 得 $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb{Z}$. 故定义域为 $\left\{x\mid{x}\neq\frac{\pi}{6}+\frac{k\pi}{2},\,k\in\mathbb{Z}\right\}$. $\blacksquare$
+由 $3x\neq\frac{\pi}{2}+k\pi$, 得 $x\neq\frac{\pi}{6}+\frac{k\pi}{2}$, $k\in\mathbb{Z}$. 故定义域为 $\left\{x\mid{x}\neq\frac{\pi}{6}+\frac{k\pi}{2},k\in\mathbb{Z}\right\}$. $\blacksquare$
 
 ## 练习十
 
@@ -310,7 +310,7 @@
 
 由**常用结论** (正切函数的图象与性质), 正切函数的自变量须满足 $x\neq\frac{\pi}{2}+k\pi$.
 
-由 $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, 得 $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb{Z}$. 故定义域为 $\left\{x\mid{x}\neq\frac{\pi}{3}+k\pi,\,k\in\mathbb{Z}\right\}$. $\blacksquare$
+由 $x+\frac{\pi}{6}\neq\frac{\pi}{2}+k\pi$, 得 $x\neq\frac{\pi}{3}+k\pi$, $k\in\mathbb{Z}$. 故定义域为 $\left\{x\mid{x}\neq\frac{\pi}{3}+k\pi,k\in\mathbb{Z}\right\}$. $\blacksquare$
 
 ## 习题八
 
@@ -374,9 +374,9 @@
 
 由**常用结论** (正弦函数的图象与性质) 及**常用结论** (余弦函数的图象与性质).
 
-(1) 由 $\sin{x}\ge\frac{\sqrt{3}}{2}=\sin\frac{\pi}{3}$, 得 $x\in\left[\frac{\pi}{3}+2k\pi,\,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$.
+(1) 由 $\sin{x}\ge\frac{\sqrt{3}}{2}=\sin\frac{\pi}{3}$, 得 $x\in\left[\frac{\pi}{3}+2k\pi,\frac{2\pi}{3}+2k\pi\right]$, $k\in\mathbb{Z}$.
 
-(2) 由 $\sqrt{2}+2\cos{x}\ge0$, 得 $\cos{x}\ge-\frac{\sqrt{2}}{2}$. 由 $\cos{x}\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, 得 $x\in\left[-\frac{3\pi}{4}+2k\pi,\,\frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb{Z}$. $\blacksquare$
+(2) 由 $\sqrt{2}+2\cos{x}\ge0$, 得 $\cos{x}\ge-\frac{\sqrt{2}}{2}$. 由 $\cos{x}\ge-\frac{\sqrt{2}}{2}=\cos\frac{3\pi}{4}$, 得 $x\in\left[-\frac{3\pi}{4}+2k\pi,\frac{3\pi}{4}+2k\pi\right]$, $k\in\mathbb{Z}$. $\blacksquare$
 
 ## 习题十二
 
@@ -426,9 +426,9 @@
 
 ### 解答 习题十四
 
-由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2}+k\pi,\,\frac{\pi}{2}+k\pi\right)$ 上单调递增.
+由**常用结论** (正切函数的图象与性质), 正切函数在 $\left(-\frac{\pi}{2}+k\pi,\frac{\pi}{2}+k\pi\right)$ 上单调递增.
 
-$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\pi}{4}\right)$ 相反. 令 $-\frac{\pi}{2}+k\pi<2x-\frac{3\pi}{4}<\frac{\pi}{2}+k\pi$, 解得 $\frac{\pi}{8}+\frac{k\pi}{2}<{}x<\frac{5\pi}{8}+\frac{k\pi}{2}$. 故 $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 在 $\left(\frac{\pi}{8}+\frac{k\pi}{2},\,\frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb{Z}$) 上单调递减. $\blacksquare$
+$y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\pi}{4}\right)$ 相反. 令 $-\frac{\pi}{2}+k\pi<2x-\frac{3\pi}{4}<\frac{\pi}{2}+k\pi$, 解得 $\frac{\pi}{8}+\frac{k\pi}{2}<{}x<\frac{5\pi}{8}+\frac{k\pi}{2}$. 故 $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 在 $\left(\frac{\pi}{8}+\frac{k\pi}{2},\frac{5\pi}{8}+\frac{k\pi}{2}\right)$ ($k\in\mathbb{Z}$) 上单调递减. $\blacksquare$
 
 ## 习题十五
 
@@ -468,4 +468,4 @@ $y=-\tan\left(2x-\frac{3\pi}{4}\right)$ 的单调性与 $y=\tan\left(2x-\frac{3\
 
 由**定义 5.2.1 (正弦函数, 余弦函数, 正切函数)** 及**定义 5.2.2 (终边上任意一点的三角函数比值)**.
 
-由圆半径为 $2$, 角 $x$ 的终边与圆的交点 $B$ 的坐标为 $\left(2\cos{x},\,2\sin{x}\right)$. 故点 $B$ 的纵坐标 $y=2\sin{x}$, $x\in\mathbb{R}$. 其图象为振幅为 $2$, 周期为 $2\pi$ 的正弦曲线. $\blacksquare$
+由圆半径为 $2$, 角 $x$ 的终边与圆的交点 $B$ 的坐标为 $\left(2\cos{x},2\sin{x}\right)$. 故点 $B$ 的纵坐标 $y=2\sin{x}$, $x\in\mathbb{R}$. 其图象为振幅为 $2$, 周期为 $2\pi$ 的正弦曲线. $\blacksquare$

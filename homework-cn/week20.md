@@ -104,13 +104,13 @@
 
 由**公式 5.1.1** (弧度制).
 
-(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
+(1) $S=\left\{\beta\,|\,\beta=\frac{\pi}{4}+2k\pi,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{7\pi}{4}$, $\frac{\pi}{4}$, $\frac{9\pi}{4}$.
 
-(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
+(2) $S=\left\{\beta\,|\,\beta=-\frac{2\pi}{3}+2k\pi,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{2\pi}{3}$, $\frac{4\pi}{3}$, $\frac{10\pi}{3}$.
 
-(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
+(3) $S=\left\{\beta\,|\,\beta=\frac{12\pi}{5}+2k\pi,k\in\mathbb{Z}\right\}$. 适合的元素: $-\frac{8\pi}{5}$, $\frac{2\pi}{5}$, $\frac{12\pi}{5}$, $\frac{22\pi}{5}$.
 
-(4) $S=\left\{\beta\,|\,\beta=2k\pi,\,k\in\mathbb{Z}\right\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
+(4) $S=\left\{\beta\,|\,\beta=2k\pi,k\in\mathbb{Z}\right\}$. 适合的元素: $0$, $2\pi$, $-2\pi$. $\blacksquare$
 
 ## 习题六
 

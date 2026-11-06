@@ -182,7 +182,7 @@ By **Definition 1.1.6 (Roster Method)**, list the elements of the set one by one
 
 By **Definition 1.1.6 (Roster Method)** and **Definition 1.1.7 (Set-Builder Notation)**, the same set can be represented using different methods.
 
-(1) The set $\left\{2,4,6,8,10\right\}$ is the set of positive even integers not exceeding $10$; using set-builder notation, it is $\left\{x\in\mathbb{N}\mid{x}=2k,\,k=1,2,3,4,5\right\}$.
+(1) The set $\left\{2,4,6,8,10\right\}$ is the set of positive even integers not exceeding $10$; using set-builder notation, it is $\left\{x\in\mathbb{N}\mid{x}=2k,k=1,2,3,4,5\right\}$.
 
 (2) The elements of this set are formed by taking some or all of the digits $1,2,3$; listing them gives $\left\{1,2,3,12,13,21,23,31,32,123,132,213,231,312,321\right\}$, and using set-builder notation, it is $\left\{x\mid{x}\text{~由数字~}1,2,3\text{~中若干个不重复地组成}\right\}$.
 
@@ -280,9 +280,9 @@ By **Definition 1.1.5 (Belonging and Not Belonging)**, **Definition 1.2.1 (Subse
 
 (1) $A=\left\{x\mid{x}<0\right\}$, $B=\left\{x\mid{x}<1\right\}$;
 
-(2) $A=\left\{x\mid{x}=3k,\,k\in\mathbb{N}\right\}$, $B=\left\{x\mid{x}=6z,\,z\in\mathbb{N}\right\}$;
+(2) $A=\left\{x\mid{x}=3k,k\in\mathbb{N}\right\}$, $B=\left\{x\mid{x}=6z,z\in\mathbb{N}\right\}$;
 
-(3) $A=\left\{x\in\mathbb{N}_+\mid{x}\text{~是~}4\text{~与~}10\text{~的公倍数}\right\}$, $B=\left\{x\mid{x}=20m,\,m\in\mathbb{N}_+\right\}$.
+(3) $A=\left\{x\in\mathbb{N}_+\mid{x}\text{~是~}4\text{~与~}10\text{~的公倍数}\right\}$, $B=\left\{x\mid{x}=20m,m\in\mathbb{N}_+\right\}$.
 
 ### Solution to Exercise 6
 
@@ -292,7 +292,7 @@ By **Definition 1.2.1 (Subset)**, **Definition 1.2.2 (Equality of Sets)**, **Def
 
 (2) Take any $x\in{B}$, then $x=6z=3\left(2z\right)$, where $z\in\mathbb{N}$, so $2z\in\mathbb{N}$, i.e. $x$ is a non-negative integer multiple of $3$, so $x\in{A}$, and thus $B\subseteq{A}$. Also $3=3\cdot1\in{A}$, but $3$ is not a non-negative integer multiple of $6$, so $3\notin{B}$, and thus $B\subsetneq{A}$.
 
-(3) The least common multiple of $4$ and $10$ is $20$, so the positive common multiples of $4$ and $10$ are precisely the positive integer multiples of $20$, i.e. $A=\left\{x\in\mathbb{N}_+\mid{x}=20m,\,m\in\mathbb{N}_+\right\}=B$, so $A=B$. $\blacksquare$
+(3) The least common multiple of $4$ and $10$ is $20$, so the positive common multiples of $4$ and $10$ are precisely the positive integer multiples of $20$, i.e. $A=\left\{x\in\mathbb{N}_+\mid{x}=20m,m\in\mathbb{N}_+\right\}=B$, so $A=B$. $\blacksquare$
 
 ## Problem 6
 
