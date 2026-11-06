@@ -32,7 +32,7 @@ By **Standard Conclusion 4.2.3** (Exponential Growth and Decay Model).
 
 (1) $P_1$ rises linearly, as a linear function. Let $P_1=kt+b$; from $P_1=20$ when $t=0$, we get $b=20$; from $P_1=40$ when $t=10$, we get $10k+20=40$, $k=2$. Therefore $P_1=f\left(t\right)=2t+20$.
 
-(2) $P_2$ grows exponentially; let $P_2=20\cdot{a}^\top$. From $P_2=40$ when $t=10$, we get $20\cdot{a}^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. Therefore $P_2=g\left(t\right)=20\cdot2^{\frac{t}{10}}$.
+(2) $P_2$ grows exponentially; let $P_2=20\cdot{a}^{\top}$. From $P_2=40$ when $t=10$, we get $20\cdot{a}^{10}=40$, $a^{10}=2$, $a=2^{\frac{1}{10}}$. Therefore $P_2=g\left(t\right)=20\cdot2^{\frac{t}{10}}$.
 
 (3) When $t=5$, $P_1=30$, $P_2=20\cdot2^{0.5}\approx28.3$; when $t=15$, $P_1=50$, $P_2=20\cdot2^{1.5}\approx56.6$; when $t=20$, $P_1=60$, $P_2=80$. Linear growth maintains a fixed speed, while exponential growth has an increasingly fast speed; in the long run, exponential growth will eventually exceed linear growth. $\blacksquare$
 
@@ -280,7 +280,7 @@ By **Definition 4.5.1 (Zero of a Function)**.
 
 ## Problem 12
 
-(Exercise 4.5, Comprehensive Application, Problem 9) In a certain pond, the relationship between the area $y$ (unit: $\mathrm{m^2}$) of duckweed and time $t$ (unit: months) is $y=a^\top$. From the graph, when $t=0$, $y=1$, and when $t=1$, $y=2$. Consider the following statements:
+(Exercise 4.5, Comprehensive Application, Problem 9) In a certain pond, the relationship between the area $y$ (unit: $\mathrm{m^2}$) of duckweed and time $t$ (unit: months) is $y=a^{\top}$. From the graph, when $t=0$, $y=1$, and when $t=1$, $y=2$. Consider the following statements:
 
 (1) the monthly growth rate of the duckweed is $1$;
 
@@ -294,13 +294,13 @@ The correct statements among them are ( ).
 
 (A) (1)(2) (B) (1)(2)(3) (C) (1)(2)(4) (D) (1)(2)(3)(4)
 
-The graph: horizontal axis is time $t$ (unit: month), vertical axis is the duckweed area $y$ (unit: $\mathrm{m^2}$); the exponential growth curve $y=2^\top$ passes through the points $\left(0,1\right)$ and $\left(1,2\right)$, is monotonically increasing, and rises more and more steeply.
+The graph: horizontal axis is time $t$ (unit: month), vertical axis is the duckweed area $y$ (unit: $\mathrm{m^2}$); the exponential growth curve $y=2^{\top}$ passes through the points $\left(0,1\right)$ and $\left(1,2\right)$, is monotonically increasing, and rises more and more steeply.
 
 ### Solution to Problem 12
 
 By **Standard Conclusion 4.2.2** (Graphs and Properties of Exponential Functions) and **Standard Conclusion 4.3.4** (Logarithm Operation Properties).
 
-From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^\top$. (1) The monthly growth is $2^{t+1}/2^\top=2$, i.e. the growth rate is $1$, correct. (2) When $t=5$, $y=2^5=32>30$, correct. (3) The area added each month is $2^{t+1}-2^\top=2^\top$, which increases with $t$, incorrect. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_23$; $2^{t_3}=6$, $t_3=\log_26=\log_22+\log_23=1+\log_23=t_1+t_2$, correct. Therefore choose (C). $\blacksquare$
+From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^{\top}$. (1) The monthly growth is $2^{t+1}/2^{\top}=2$, i.e. the growth rate is $1$, correct. (2) When $t=5$, $y=2^5=32>30$, correct. (3) The area added each month is $2^{t+1}-2^{\top}=2^{\top}$, which increases with $t$, incorrect. (4) $2^{t_1}=2$, $t_1=1$; $2^{t_2}=3$, $t_2=\log_23$; $2^{t_3}=6$, $t_3=\log_26=\log_22+\log_23=1+\log_23=t_1+t_2$, correct. Therefore choose (C). $\blacksquare$
 
 ## Problem 13
 
@@ -310,7 +310,7 @@ From $a^0=1$, $a^1=2$ we get $a=2$, $y=2^\top$. (1) The monthly growth is $2^{t+
 
 By **Standard Conclusion 4.3.3** (Relationship between Logarithms and Exponents).
 
-Let after $t$ hours the drug amount be $2500\times0.8^\top\;\mathrm{mg}$. Let $2500\times0.8^\top=1500$, i.e. $0.8^\top=0.6$, $t=\log_{0.8}0.6=\frac{\lg0.6}{\lg0.8}\approx\frac{-0.222}{-0.097}\approx2.3$. Therefore the drug should be replenished at the latest after $2.3\;\mathrm{h}$. $\blacksquare$
+Let after $t$ hours the drug amount be $2500\times0.8^{\top}\;\mathrm{mg}$. Let $2500\times0.8^{\top}=1500$, i.e. $0.8^{\top}=0.6$, $t=\log_{0.8}0.6=\frac{\lg0.6}{\lg0.8}\approx\frac{-0.222}{-0.097}\approx2.3$. Therefore the drug should be replenished at the latest after $2.3\;\mathrm{h}$. $\blacksquare$
 
 ## Problem 14
 
