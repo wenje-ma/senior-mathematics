@@ -420,7 +420,7 @@ $P$ 是 $BC_1$ 与 $B_1C$ 的交点, 即侧面 $BCC_1B_1$ 的中心: $P\left(1,1
 
 $\boldsymbol{PQ}=Q-P=\left(t-1,t-1,\frac{3}{2}\right)$.
 
-$PQ\parallel$ 平面 $A_1CM\iff\boldsymbol{PQ}\cdot\boldsymbol{n}=0$.
+$PQ\parallel$ 平面 $A_1CM\Leftrightarrow\boldsymbol{PQ}\cdot\boldsymbol{n}=0$.
 
 $-6\left(t-1\right)-3\left(t-1\right)-2\cdot\frac{3}{2}=0$, 即 $-9\left(t-1\right)-3=0$, $t-1=-\frac{1}{3}$, $t=\frac{2}{3}$.
 

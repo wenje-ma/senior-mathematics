@@ -322,7 +322,7 @@ $\boldsymbol{a}+\frac{1}{2}\boldsymbol{b}=\left(3+\frac{1}{2}\times\left(-1\righ
 
 ### 解答 习题十六
 
-由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a}\perp\boldsymbol{b}\iff\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a}\perp\boldsymbol{b}\Leftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-4\right)+\left(-1\right)\times2+3\times{x}=-8-2+3x=3x-10=0$.
 
@@ -334,7 +334,7 @@ $\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-4\right)+\left(-1\right)\times2
 
 ### 解答 习题十七
 
-由**常用结论 1.3.5** (平行的坐标表示), $\boldsymbol{a}\parallel\boldsymbol{b}\iff$ 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+由**常用结论 1.3.5** (平行的坐标表示), $\boldsymbol{a}\parallel\boldsymbol{b}\Leftrightarrow$ 存在 $\lambda$ 使 $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
 $-4=\lambda\times2$, 故 $\lambda=-2$.
 

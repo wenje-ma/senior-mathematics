@@ -236,7 +236,7 @@ Let $Q$ lie on $A_1N$, with $\boldsymbol{A_1Q}=t\boldsymbol{A_1N}=t\left(1,1,0\r
 
 $\boldsymbol{PQ}=Q-P=\left(t-1,t-1,\frac{3}{2}\right)$.
 
-$PQ\parallel$ the plane $A_1CM\iff\boldsymbol{PQ}\cdot\boldsymbol{n}=0$.
+$PQ\parallel$ the plane $A_1CM\Leftrightarrow\boldsymbol{PQ}\cdot\boldsymbol{n}=0$.
 
 $-6\left(t-1\right)-3\left(t-1\right)-2\cdot\frac{3}{2}=0$, i.e. $-9\left(t-1\right)-3=0$, $t-1=-\frac{1}{3}$, and $t=\frac{2}{3}$.
 

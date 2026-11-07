@@ -94,7 +94,7 @@ By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spati
 
 ### Solution to Exercise 4
 
-By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a}\perp\boldsymbol{b}\iff\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a}\perp\boldsymbol{b}\Leftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-4\right)+\left(-1\right)\times2+3\times{x}=-8-2+3x=3x-10$.
 
@@ -348,7 +348,7 @@ Hence $\boldsymbol{p}=\frac{3}{2}\left(\boldsymbol{a}+\boldsymbol{b}\right)-\fra
 
 By **Common Conclusion 1.3.4** (Coordinate Representation of Operations on Spatial Vectors) and **Common Conclusion 1.3.5** (Coordinate Representation of the Modulus and Angle), these conclusions extend directly to the case of $n$-dimensional vectors.
 
-The addition, subtraction, scalar multiplication, dot product, modulus and distance formulas for $n$-dimensional vectors are all direct generalizations of the corresponding formulas for three-dimensional vectors, and their operational laws are exactly the same as in the three-dimensional case. For example, the dot product satisfies the commutative, distributive and scalar-multiplication associative laws; the modulus satisfies $\lvert\boldsymbol{a}\rvert\geq0$, and $\lvert\boldsymbol{a}\rvert=0\iff\boldsymbol{a}=\boldsymbol{0}$; the distance between two points satisfies non-negativity and symmetry.
+The addition, subtraction, scalar multiplication, dot product, modulus and distance formulas for $n$-dimensional vectors are all direct generalizations of the corresponding formulas for three-dimensional vectors, and their operational laws are exactly the same as in the three-dimensional case. For example, the dot product satisfies the commutative, distributive and scalar-multiplication associative laws; the modulus satisfies $\lvert\boldsymbol{a}\rvert\geq0$, and $\lvert\boldsymbol{a}\rvert=0\Leftrightarrow\boldsymbol{a}=\boldsymbol{0}$; the distance between two points satisfies non-negativity and symmetry.
 
 In practical applications, $n$-dimensional vectors can be used to represent multi-indicator data (such as student grades, product quality indicators, and so on), and vector operations and the concept of distance can be used for classification, comparison and analysis. $\blacksquare$
 
@@ -414,7 +414,7 @@ Let line $l$ lie outside plane $\alpha$, line $m\subset\alpha$, and $l\parallel{
 
 Let $\boldsymbol{n}$ be a normal vector of plane $\alpha$. Since $m\subset\alpha$, we have $\boldsymbol{n}\perp\boldsymbol{u}$, i.e. $\boldsymbol{n}\cdot\boldsymbol{u}=0$.
 
-By **Common Conclusion 1.4.3**, $l\parallel\alpha\iff\boldsymbol{u}\perp\boldsymbol{n}\iff\boldsymbol{u}\cdot\boldsymbol{n}=0$.
+By **Common Conclusion 1.4.3**, $l\parallel\alpha\Leftrightarrow\boldsymbol{u}\perp\boldsymbol{n}\Leftrightarrow\boldsymbol{u}\cdot\boldsymbol{n}=0$.
 
 Since $\boldsymbol{n}\cdot\boldsymbol{u}=0$, we have $l\parallel\alpha$. $\blacksquare$
 

@@ -132,7 +132,7 @@ $\boldsymbol{OB}=\left(3,4,0\right)$.
 
 ### 解答 练习六
 
-由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a}\perp\boldsymbol{b}\iff\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+由**常用结论 1.3.5** (垂直的坐标表示), $\boldsymbol{a}\perp\boldsymbol{b}\Leftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-4\right)+\left(-1\right)\times2+3\times{x}=-8-2+3x=3x-10$.
 
@@ -386,7 +386,7 @@ $x+y=1$, $x-y=2$, $z=3$.
 
 由**常用结论 1.3.4** (空间向量运算的坐标表示) 及**常用结论 1.3.5** (模长与夹角的坐标表示), 这些结论可直接推广到 $n$ 维向量情形.
 
-$n$ 维向量的加法, 减法, 数乘, 数量积, 模长和距离公式都是三维向量相应公式的直接推广, 其运算律与三维情形完全一致. 例如, 数量积满足交换律, 分配律和数乘结合律; 向量模长满足 $\lvert\boldsymbol{a}\rvert\geq0$, 且 $\lvert\boldsymbol{a}\rvert=0\iff\boldsymbol{a}=\boldsymbol{0}$; 两点间距离满足非负性和对称性.
+$n$ 维向量的加法, 减法, 数乘, 数量积, 模长和距离公式都是三维向量相应公式的直接推广, 其运算律与三维情形完全一致. 例如, 数量积满足交换律, 分配律和数乘结合律; 向量模长满足 $\lvert\boldsymbol{a}\rvert\geq0$, 且 $\lvert\boldsymbol{a}\rvert=0\Leftrightarrow\boldsymbol{a}=\boldsymbol{0}$; 两点间距离满足非负性和对称性.
 
 在实际应用中, $n$ 维向量可用于表示多指标数据 (如学生成绩, 产品质量指标等), 通过向量运算和距离概念进行分类, 比较和分析. $\blacksquare$
 
@@ -452,6 +452,6 @@ $-3x=0$, $2z=0$, 故 $x=0$, $z=0$, $y$ 任意.
 
 设平面 $\alpha$ 的法向量为 $\boldsymbol{n}$. 因为 $m\subset\alpha$, 所以 $\boldsymbol{n}\perp\boldsymbol{u}$, 即 $\boldsymbol{n}\cdot\boldsymbol{u}=0$.
 
-由**常用结论 1.4.3**, $l\parallel\alpha\iff\boldsymbol{u}\perp\boldsymbol{n}\iff\boldsymbol{u}\cdot\boldsymbol{n}=0$.
+由**常用结论 1.4.3**, $l\parallel\alpha\Leftrightarrow\boldsymbol{u}\perp\boldsymbol{n}\Leftrightarrow\boldsymbol{u}\cdot\boldsymbol{n}=0$.
 
 因为 $\boldsymbol{n}\cdot\boldsymbol{u}=0$, 故 $l\parallel\alpha$. $\blacksquare$

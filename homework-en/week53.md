@@ -342,7 +342,7 @@ Hence choose (A). $\blacksquare$
 
 ### Solution to Problem 16
 
-By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a}\perp\boldsymbol{b}\iff\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+By **Common Conclusion 1.3.5** (Coordinate Representation of Perpendicularity), $\boldsymbol{a}\perp\boldsymbol{b}\Leftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
 
 $\boldsymbol{a}\cdot\boldsymbol{b}=2\times\left(-4\right)+\left(-1\right)\times2+3\times{x}=-8-2+3x=3x-10=0$.
 
@@ -354,7 +354,7 @@ Hence $x=\frac{10}{3}$. $\blacksquare$
 
 ### Solution to Problem 17
 
-By **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism), $\boldsymbol{a}\parallel\boldsymbol{b}\iff$ there exists $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
+By **Common Conclusion 1.3.5** (Coordinate Representation of Parallelism), $\boldsymbol{a}\parallel\boldsymbol{b}\Leftrightarrow$ there exists $\lambda$ such that $\boldsymbol{b}=\lambda\boldsymbol{a}$.
 
 $-4=\lambda\times2$, so $\lambda=-2$.
 
